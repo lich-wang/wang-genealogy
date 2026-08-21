@@ -1,0 +1,15 @@
+{
+  "name": "@wang/i18n",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./hant-phrases": "./src/hant-phrases.ts"
+  },
+  "dependencies": {
+    "opencc-js": "^1.4.1"
+  }
+}

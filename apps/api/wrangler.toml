@@ -1,0 +1,16 @@
+name = "wang-genealogy-api"
+main = "src/index.ts"
+compatibility_date = "2024-12-01"
+compatibility_flags = ["nodejs_compat"]
+
+# D1 binding. database_id is filled in after `wrangler d1 create wang-genealogy`.
+[[d1_databases]]
+binding = "DB"
+database_name = "wang-genealogy"
+database_id = "cf1ebbce-7ede-4733-87de-a9996917e654"
+migrations_dir = "../../migrations"
+
+[vars]
+# AUTH_SECRET is provided via `wrangler secret put AUTH_SECRET` (not here).
+# For local dev, put AUTH_SECRET in apps/api/.dev.vars (gitignored).
+ALLOWED_ORIGIN = "*"
