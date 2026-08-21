@@ -20,7 +20,7 @@ export async function mergedInIds(db: D1Database, personId: string): Promise<str
 }
 
 /** Load claim_source rows (with resolved sources) for a set of claim ids. */
-async function loadSourcesFor(
+export async function loadSourcesFor(
   db: D1Database,
   claimIds: string[],
 ): Promise<Map<string, ClaimWithSources['sources']>> {

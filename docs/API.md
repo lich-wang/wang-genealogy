@@ -163,6 +163,8 @@ GET  /api/v1/sources/{sourceId}/claims
 
 不得上传影像。来源接口只接收书目信息、URL、外部 ID、定位和合理长度的摘录。
 
+`GET /api/v1/sources/{sourceId}/claims` 的每一项包含引用该来源的主张、该主张的全部来源、关系主张的对方人物，以及**本来源**这条引用的 `stance`、`locator`、`quotation`。
+
 ## 六、人物合并
 
 ```http
@@ -198,4 +200,6 @@ POST /api/v1/person-merge-proposals/{proposalId}/revert
 - 时间统一使用 UTC ISO 8601；
 - 错误返回机器可读错误码和中文可读说明；
 - 批量导入使用异步任务，不能绕过逐条来源和审核规则；
-- 接口按原样返回主张文本及其 `language` 标记，不做简繁转换；字形选择属于客户端显示层。
+- 接口按原样返回主张文本及其 `language` 标记，不做简繁转换；字形选择属于客户端显示层；
+- 单对象或列表读取统一包在对象里，便于以后加字段：`{ "source": … }`、`{ "claims": [...] }`、`{ "history": [...] }`、`{ "proposal": … }`、`{ "user": … }`；人物摘要、人物导出和游标列表（`{ "items": [...], "next_cursor": … }`）例外，直接返回自身结构；
+- `POST /api/v1/auth/signup` 与 `login` 一样返回 `token` 和完整 `user`。

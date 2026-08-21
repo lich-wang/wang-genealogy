@@ -5,6 +5,7 @@ import { requireAuth } from '../auth.ts';
 import { notFound } from '../errors.ts';
 import { mapClaim, mapSource } from '../db.ts';
 import { buildSourceCreation } from '../claimService.ts';
+import { loadSourcesFor, nameOf } from '../summary.ts';
 
 const app = new Hono<{ Bindings: Env; Variables: Variables }>();
 
@@ -34,12 +35,36 @@ app.get('/:id/claims', async (c) => {
     )
     .bind(c.req.param('id'))
     .all<Record<string, unknown>>();
-  const claims = (res.results ?? []).map((r) => ({
-    claim: mapClaim(r),
-    stance: r.cs_stance,
-    locator: r.cs_locator,
-    quotation: r.cs_quotation,
-  }));
+  const rows = res.results ?? [];
+  const mapped = rows.map(mapClaim);
+
+  // Include each claim's full provenance and the counterpart person of any
+  // relationship claim, so a citation renders with the same detail as it does
+  // on the person page.
+  const sourcesByClaim = await loadSourcesFor(c.env.DB, mapped.map((cl) => cl.id));
+  const objectIds = mapped.map((cl) => cl.object_person_id).filter((id): id is string => id != null);
+  const names = await nameOf(c.env.DB, objectIds);
+
+  const claims = rows.map((r, i) => {
+    const claim = mapped[i]!;
+    return {
+      claim,
+      sources: sourcesByClaim.get(claim.id) ?? [],
+      object_person: claim.object_person_id
+        ? {
+            id: claim.object_person_id,
+            status: 'active' as const,
+            display_name: names.get(claim.object_person_id) ?? null,
+            merged_into_person_id: null,
+          }
+        : null,
+      // Stance/locator of THIS source's citation, which is what the source page
+      // is actually about.
+      stance: r.cs_stance,
+      locator: r.cs_locator,
+      quotation: r.cs_quotation,
+    };
+  });
   return c.json({ claims });
 });
 

@@ -5,6 +5,7 @@ import { mapUser } from './db.ts';
 import { AppError, badRequest, conflict, unauthorized } from './errors.ts';
 import { addDaysIso, newId, nowIso } from './util.ts';
 import type { LoginInput, SignupInput } from '@wang/validation';
+import type { User } from '@wang/domain';
 
 type Ctx = Context<{ Bindings: Env; Variables: Variables }>;
 
@@ -37,7 +38,18 @@ export async function signup(env: Env, input: SignupInput) {
     .bind(userId, input.display_name, emailHash, passwordHash, role, now)
     .run();
 
-  return { ...(await issueSession(db, env.AUTH_SECRET, userId)), role };
+  // Return the same `user` shape as login, so a client can show who is signed
+  // in without a follow-up /auth/me round trip.
+  const user: User = {
+    id: userId,
+    display_name: input.display_name,
+    email_hash: emailHash,
+    external_login: null,
+    role,
+    status: 'active',
+    created_at: now,
+  };
+  return { ...(await issueSession(db, env.AUTH_SECRET, userId)), role, user };
 }
 
 export async function login(env: Env, input: LoginInput) {

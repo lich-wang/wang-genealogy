@@ -103,7 +103,29 @@ try {
     log(found, '搜索繁體“王賁”能找到简体录入的“王贲”');
   }
 
-  // 6. Recent changes page
+  // 6. Source page — the provenance surface every claim links to.
+  await page.goto(PAGES, { waitUntil: 'networkidle' });
+  const s3 = page.locator('input[type="search"]').first();
+  await s3.fill('王安石');
+  await s3.press('Enter');
+  await page.waitForSelector('.result-list a[href*="/persons/"]', { timeout: 15000 }).catch(() => {});
+  await page.locator('.result-list a[href*="/persons/"]').first().click();
+  await page
+    .waitForSelector('.source-list a[href*="/sources/"]', { timeout: 15000 })
+    .catch(() => {});
+  const sourceLink = page.locator('.source-list a[href*="/sources/"]').first();
+  if (await sourceLink.count()) {
+    await sourceLink.click();
+    await page.waitForLoadState('networkidle');
+    await page.waitForTimeout(500);
+    const srcText = await page.locator('body').innerText();
+    log(/引用此来源的主张|引用此來源的主張/.test(srcText), '来源页渲染了引用该来源的主张');
+    log(!/Failed to fetch/i.test(srcText), '来源页没有 "Failed to fetch"');
+  } else {
+    log(false, '人物页找不到来源链接');
+  }
+
+  // 7. Recent changes page
   await page.goto(`${PAGES}/changes`, { waitUntil: 'networkidle' });
   const cText = await page.locator('body').innerText();
   log(!/Failed to fetch/i.test(cText), '最近修改页没有 "Failed to fetch"');

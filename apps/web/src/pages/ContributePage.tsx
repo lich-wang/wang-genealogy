@@ -571,7 +571,7 @@ function CreateSourceForm() {
         external_identifier: externalId.trim() || undefined,
         license_code: license,
       });
-      setOk(`已建立來源 ${created.id}。`);
+      setOk(`已建立來源 ${created.source_id}。`);
     } catch (err) {
       setError(toMessage(err));
     } finally {

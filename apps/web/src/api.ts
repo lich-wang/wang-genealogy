@@ -3,9 +3,11 @@
 // client and server agree on the exact shapes.
 import type {
   ApiError,
+  Claim,
   ClaimSourceStance,
   ClaimWithSources,
   Confidence,
+  Contribution,
   Cursor,
   LicenseCode,
   PersonExport,
@@ -232,12 +234,14 @@ export const api = {
   getPerson: (id: string) => request<PersonSummary>(`/persons/${encodeURIComponent(id)}`),
 
   getPersonClaims: (id: string, status?: string) =>
-    request<ClaimWithSources[]>(`/persons/${encodeURIComponent(id)}/claims`, {
+    request<{ claims: Claim[] }>(`/persons/${encodeURIComponent(id)}/claims`, {
       query: { status },
-    }),
+    }).then((r) => r.claims),
 
   getPersonHistory: (id: string) =>
-    request<RecentChange[]>(`/persons/${encodeURIComponent(id)}/history`),
+    request<{ history: Contribution[] }>(`/persons/${encodeURIComponent(id)}/history`).then(
+      (r) => r.history,
+    ),
 
   createPerson: (input: CreatePersonInput) =>
     request<MutationResult>('/persons', { method: 'POST', body: input }),
@@ -281,12 +285,15 @@ export const api = {
 
   // sources
   createSource: (input: CreateSourceInput) =>
-    request<Source>('/sources', { method: 'POST', body: input }),
+    request<{ source_id: string }>('/sources', { method: 'POST', body: input }),
 
-  getSource: (id: string) => request<Source>(`/sources/${encodeURIComponent(id)}`),
+  getSource: (id: string) =>
+    request<{ source: Source }>(`/sources/${encodeURIComponent(id)}`).then((r) => r.source),
 
   getSourceClaims: (id: string) =>
-    request<ClaimWithSources[]>(`/sources/${encodeURIComponent(id)}/claims`),
+    request<{ claims: ClaimWithSources[] }>(`/sources/${encodeURIComponent(id)}/claims`).then(
+      (r) => r.claims,
+    ),
 
   addClaimSource: (claimId: string, input: SourceRefInput) =>
     request<MutationResult>(`/claims/${encodeURIComponent(claimId)}/sources`, {
@@ -310,9 +317,9 @@ export const api = {
     }),
 
   getMerge: (proposalId: string) =>
-    request<PersonMergeProposal>(
+    request<{ proposal: PersonMergeProposal }>(
       `/person-merge-proposals/${encodeURIComponent(proposalId)}`,
-    ),
+    ).then((r) => r.proposal),
 
   // export
   exportPerson: (id: string) =>
@@ -325,7 +332,7 @@ export const api = {
   login: (input: LoginInput) =>
     request<AuthResult>('/auth/login', { method: 'POST', body: input }),
 
-  me: () => request<User>('/auth/me'),
+  me: () => request<{ user: User }>('/auth/me').then((r) => r.user),
 };
 
 export type Api = typeof api;
