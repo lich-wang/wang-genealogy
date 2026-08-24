@@ -17,10 +17,7 @@
 // Requires wrangler credentials (CLOUDFLARE_API_TOKEN / CLOUDFLARE_ACCOUNT_ID).
 
 import { createHash, randomBytes } from 'node:crypto';
-import { execFileSync } from 'node:child_process';
-import { mkdtempSync, writeFileSync } from 'node:fs';
-import { tmpdir } from 'node:os';
-import { join } from 'node:path';
+import { d1Query, d1Script } from './lib/d1.mjs';
 
 const args = process.argv.slice(2);
 const flag = (name) => args.includes(name);
@@ -47,55 +44,13 @@ const BASE58 = '123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz';
 const newContributionId = () =>
   `ct_${[...randomBytes(22)].map((b) => BASE58[b % 58]).join('')}`;
 
-/**
- * `wrangler d1 execute --file` prints progress lines ("├ Checking if file needs
- * uploading") before the JSON payload even in --json mode, so we cut everything
- * ahead of the first array/object.
- */
-function stripWranglerNoise(out) {
-  const start = out.search(/^[[{]/m);
-  return start > 0 ? out.slice(start) : out;
-}
-
-/** Run one wrangler d1 command and return its parsed result rows. */
-function d1(sqlArgs, label) {
-  const argv = [
-    'wrangler',
-    'd1',
-    'execute',
-    database,
-    remote ? '--remote' : '--local',
-    '--json',
-    ...sqlArgs,
-  ];
-  const out = execFileSync('npx', argv, {
-    cwd: new URL('../apps/api/', import.meta.url).pathname,
-    encoding: 'utf8',
-    maxBuffer: 32 * 1024 * 1024,
-  });
-  const parsed = JSON.parse(stripWranglerNoise(out));
-  const failed = parsed.filter((r) => r.success === false);
-  if (failed.length) {
-    throw new Error(`${label} failed: ${JSON.stringify(failed)}`);
-  }
-  return parsed;
-}
-
-const query = (sql, label) => d1(['--command', sql], label)[0]?.results ?? [];
-
-function runScript(sql, label) {
-  const dir = mkdtempSync(join(tmpdir(), 'wang-reattribute-'));
-  const file = join(dir, 'reattribute.sql');
-  writeFileSync(file, sql, 'utf8');
-  return d1(['--file', file], label);
-}
-
 // --- 1. resolve the target account -------------------------------------------
 
-const owner = query(
-  `SELECT id, display_name, role FROM user WHERE email_hash = '${emailHash}'`,
-  'lookup owner',
-)[0];
+const d1 = { database, remote };
+const owner = d1Query(`SELECT id, display_name, role FROM user WHERE email_hash = '${emailHash}'`, {
+  ...d1,
+  label: 'lookup owner',
+})[0];
 
 if (!owner) {
   console.error(
@@ -122,14 +77,14 @@ const TARGETS = [
 
 // One row of scalar subqueries: D1 caps the number of terms in a compound
 // SELECT, so UNION ALL per table is not an option here.
-const [countRow] = query(
+const [countRow] = d1Query(
   'SELECT ' +
     TARGETS.map(
       ([table, column], i) =>
         `(SELECT COUNT(*) FROM ${table} ` +
         `WHERE ${column} IS NOT NULL AND ${column} <> '${owner.id}') AS c${i}`,
     ).join(', '),
-  'count rows to move',
+  { ...d1, label: 'count rows to move' },
 );
 
 let total = 0;
@@ -168,18 +123,18 @@ const sql = [
            '${summary.replace(/'/g, "''")}', '${now}');`,
 ].join('\n');
 
-runScript(sql, 'reattribute');
+d1Script(sql, { ...d1, label: 'reattribute' });
 
 // --- 4. verify ----------------------------------------------------------------
 
-const after = query(
+const after = d1Query(
   `SELECT u.id, u.display_name,
           (SELECT COUNT(*) FROM person p WHERE p.created_by_user_id = u.id) AS persons,
           (SELECT COUNT(*) FROM claim c WHERE c.created_by_user_id = u.id) AS claims,
           (SELECT COUNT(*) FROM source s WHERE s.created_by_user_id = u.id) AS sources,
           (SELECT COUNT(*) FROM contribution ct WHERE ct.actor_user_id = u.id) AS contributions
      FROM user u ORDER BY contributions DESC`,
-  'verify',
+  { ...d1, label: 'verify' },
 );
 console.log('\n改写后的归属情况：');
 for (const row of after) {

@@ -92,6 +92,7 @@ export const DATE_PRECISION = [
   'month',
   'year',
   'decade',
+  'century',
   'dynasty',
   'unknown',
 ] as const;
@@ -112,10 +113,14 @@ export const CONTRIBUTION_ACTION = [
   'merge.approve',
   'merge.reject',
   'merge.revert',
-  // Operator-run maintenance recorded in the same append-only trail as user
-  // edits: reassigning the contributor of imported records. Never edits claim
-  // content — only who is credited/responsible for it.
+  // Operator-run maintenance, recorded in the same append-only trail as user
+  // edits. Neither of these touches claim content, status or revisions.
+  //   admin.reattribute      — change who is credited for existing records.
+  //   admin.correct_metadata — fix descriptive metadata an import got wrong,
+  //                            e.g. a citation locator pointing at the wrong
+  //                            kind of source.
   'admin.reattribute',
+  'admin.correct_metadata',
 ] as const;
 export type ContributionAction = (typeof CONTRIBUTION_ACTION)[number];
 

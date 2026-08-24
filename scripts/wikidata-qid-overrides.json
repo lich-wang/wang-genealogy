@@ -1,0 +1,11 @@
+{
+  "_comment": "Wikidata QIDs for persons whose recorded sources carry a different external identifier (e.g. a CBDB id). Each entry was checked by hand against the Wikidata item's label and description before being added — an automatic name search must never decide identity here.",
+  "persons": [
+    {
+      "person_id": "p_fuv1kE3UCBeTFNiA6c9Tuw",
+      "name": "王安石",
+      "qid": "Q319618",
+      "checked": "Wikidata Q319618 = Wang Anshi, 'Song Dynasty chancellor and poet (1021-1086)'; matches the recorded CBDB:1762 record."
+    }
+  ]
+}

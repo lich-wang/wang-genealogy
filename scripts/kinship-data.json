@@ -1,0 +1,2293 @@
+{
+  "generated_from": "wikidata",
+  "source_template": {
+    "source_type": "api_record",
+    "license_code": "CC0-1.0",
+    "creator": "維基數據貢獻者",
+    "publisher": "Wikimedia Foundation"
+  },
+  "roster_without_qid": [],
+  "wikidata_items": [
+    {
+      "qid": "Q108169681",
+      "name": "王元",
+      "zh_wikipedia": null
+    },
+    {
+      "qid": "Q108169716",
+      "name": "王威",
+      "zh_wikipedia": null
+    },
+    {
+      "qid": "Q18905529",
+      "name": "王福畤",
+      "zh_wikipedia": null
+    },
+    {
+      "qid": "Q22814893",
+      "name": "王乂",
+      "zh_wikipedia": null
+    },
+    {
+      "qid": "Q21094103",
+      "name": "王惠风",
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%83%A0%E9%A2%A8"
+    },
+    {
+      "qid": "Q22814789",
+      "name": "王正",
+      "zh_wikipedia": null
+    },
+    {
+      "qid": "Q134098549",
+      "name": "夏侯氏",
+      "zh_wikipedia": null
+    },
+    {
+      "qid": "Q45421031",
+      "name": "王处廉",
+      "zh_wikipedia": null
+    },
+    {
+      "qid": "Q45365249",
+      "name": "王益",
+      "zh_wikipedia": null
+    },
+    {
+      "qid": "Q45364102",
+      "name": "吴氏",
+      "zh_wikipedia": null
+    },
+    {
+      "qid": "Q15936430",
+      "name": "王雱",
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%9B%B1"
+    },
+    {
+      "qid": "Q45401605",
+      "name": "王滂",
+      "zh_wikipedia": null
+    },
+    {
+      "qid": "Q45431126",
+      "name": "王氏",
+      "zh_wikipedia": null
+    },
+    {
+      "qid": "Q16906209",
+      "name": "王裁",
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%A3%81"
+    },
+    {
+      "qid": "Q15915744",
+      "name": "王洽",
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%B4%BD_(%E6%9D%B1%E6%99%89)"
+    },
+    {
+      "qid": "Q15921815",
+      "name": "王薈",
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%96%88"
+    },
+    {
+      "qid": "Q15924805",
+      "name": "王劭",
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%8A%AD_(%E6%9D%B1%E6%99%89)"
+    },
+    {
+      "qid": "Q15927256",
+      "name": "王恬",
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%81%AC"
+    },
+    {
+      "qid": "Q15944710",
+      "name": "王悦",
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%82%A6_(%E6%99%8B%E6%9C%9D)"
+    },
+    {
+      "qid": "Q16905932",
+      "name": "王协",
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%8D%8F_(%E4%B8%9C%E6%99%8B)"
+    },
+    {
+      "qid": "Q15924849",
+      "name": "王华",
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%8D%8E_(%E6%98%8E%E6%9C%9D)"
+    },
+    {
+      "qid": "Q15944660",
+      "name": "王正亿",
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%AD%A3%E4%BA%BF"
+    },
+    {
+      "qid": "Q15928529",
+      "name": "王徽之",
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BE%BD%E4%B9%8B"
+    },
+    {
+      "qid": "Q16077602",
+      "name": "王凝之",
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%87%9D%E4%B9%8B"
+    },
+    {
+      "qid": "Q16905978",
+      "name": "王孟姜",
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AD%9F%E5%A7%9C"
+    },
+    {
+      "qid": "Q47182758",
+      "name": "王玄之",
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%8E%84%E4%B9%8B"
+    },
+    {
+      "qid": "Q15905263",
+      "name": "郗璿",
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E9%83%97%E7%92%BF"
+    },
+    {
+      "qid": "Q2194004",
+      "name": "王神爱",
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%A5%9E%E6%84%9B"
+    },
+    {
+      "qid": "Q67196814",
+      "name": "王靖之",
+      "zh_wikipedia": null
+    },
+    {
+      "qid": "Q15933350",
+      "name": "王忬",
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BF%AC"
+    },
+    {
+      "qid": "Q65833786",
+      "name": "郁氏",
+      "zh_wikipedia": null
+    },
+    {
+      "qid": "Q28413923",
+      "name": "王士骐",
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A3%AB%E9%A8%8F"
+    },
+    {
+      "qid": "Q45446442",
+      "name": "王士骕",
+      "zh_wikipedia": null
+    },
+    {
+      "qid": "Q10884965",
+      "name": "伊屠智牙师",
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E4%BC%8A%E5%B1%A0%E6%99%BA%E7%89%99%E5%B8%88"
+    },
+    {
+      "qid": "Q2979420",
+      "name": "王禁",
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%A6%81"
+    },
+    {
+      "qid": "Q7234",
+      "name": "汉成帝",
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E6%B1%89%E6%88%90%E5%B8%9D"
+    },
+    {
+      "qid": "Q45587071",
+      "name": "王昱",
+      "zh_wikipedia": null
+    },
+    {
+      "qid": "Q45587135",
+      "name": "王炎",
+      "zh_wikipedia": null
+    },
+    {
+      "qid": "Q45587200",
+      "name": "王羽",
+      "zh_wikipedia": null
+    },
+    {
+      "qid": "Q22814786",
+      "name": "王融",
+      "zh_wikipedia": null
+    },
+    {
+      "qid": "Q15902476",
+      "name": "王肇",
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%82%87"
+    },
+    {
+      "qid": "Q22814890",
+      "name": "王基",
+      "zh_wikipedia": null
+    },
+    {
+      "qid": "Q2461598",
+      "name": "王曼",
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%9B%BC"
+    },
+    {
+      "qid": "Q55286323",
+      "name": "功显君",
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E5%8A%9F%E6%98%BE%E5%90%9B"
+    },
+    {
+      "qid": "Q10412750",
+      "name": "王匡",
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%8C%A1_(%E7%8E%8B%E8%8E%BD%E4%B9%8B%E5%AD%90)"
+    },
+    {
+      "qid": "Q11573020",
+      "name": "王宇",
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AE%87_(%E6%B1%89%E6%9C%9D)"
+    },
+    {
+      "qid": "Q16077230",
+      "name": "王安",
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AE%89_(%E6%96%B0%E6%9C%9D)"
+    },
+    {
+      "qid": "Q16260222",
+      "name": "王獲",
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%8D%B2"
+    },
+    {
+      "qid": "Q16260455",
+      "name": "王臨",
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%87%A8"
+    },
+    {
+      "qid": "Q16603520",
+      "name": "王捷",
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%8D%B7"
+    },
+    {
+      "qid": "Q16603521",
+      "name": "王曄",
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%9B%84"
+    },
+    {
+      "qid": "Q17026272",
+      "name": "王兴",
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%85%B4_(%E5%8A%9F%E8%84%A9%E5%85%AC)"
+    },
+    {
+      "qid": "Q712297",
+      "name": "孝平王皇后",
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E5%AD%9D%E5%B9%B3%E7%8E%8B%E7%9A%87%E5%90%8E"
+    },
+    {
+      "qid": "Q10417152",
+      "name": "王贲",
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%B3%81"
+    },
+    {
+      "qid": "Q706855",
+      "name": "王翦",
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%BF%A6"
+    },
+    {
+      "qid": "Q11573240",
+      "name": "王离",
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%9B%A2"
+    },
+    {
+      "qid": "Q1275321",
+      "name": "王勃",
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%8B%83"
+    },
+    {
+      "qid": "Q15886837",
+      "name": "王衍",
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%A1%8D_(%E8%A5%BF%E6%99%8B)"
+    },
+    {
+      "qid": "Q22814790",
+      "name": "王曠",
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%9B%A0"
+    },
+    {
+      "qid": "Q378564",
+      "name": "王羲之",
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%BE%B2%E4%B9%8B"
+    },
+    {
+      "qid": "Q313605",
+      "name": "王维",
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%BB%B4"
+    },
+    {
+      "qid": "Q319618",
+      "name": "王安石",
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AE%89%E7%9F%B3"
+    },
+    {
+      "qid": "Q3274914",
+      "name": "王導",
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%B0%8E"
+    },
+    {
+      "qid": "Q378462",
+      "name": "王守仁",
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%99%BD%E6%98%8E"
+    },
+    {
+      "qid": "Q559425",
+      "name": "王獻之",
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%8C%AE%E4%B9%8B"
+    },
+    {
+      "qid": "Q6127545",
+      "name": "王世贞",
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%B8%96%E8%B4%9E"
+    },
+    {
+      "qid": "Q701037",
+      "name": "王昭君",
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%98%AD%E5%90%9B"
+    },
+    {
+      "qid": "Q701379",
+      "name": "王政君",
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%94%BF%E5%90%9B"
+    },
+    {
+      "qid": "Q707247",
+      "name": "王之涣",
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%B9%8B%E6%B6%A3"
+    },
+    {
+      "qid": "Q710053",
+      "name": "王祥",
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%A5%A5"
+    },
+    {
+      "qid": "Q712016",
+      "name": "王敦",
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%95%A6"
+    },
+    {
+      "qid": "Q7250",
+      "name": "王莽",
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%8E%BD"
+    }
+  ],
+  "new_persons": [
+    {
+      "qid": "Q108169681",
+      "name": {
+        "text": "王元",
+        "language": "zh-Hans"
+      },
+      "description": null,
+      "birth": null,
+      "death": null,
+      "zh_wikipedia": null,
+      "historicity": {
+        "kind": "adjacent_to_historical_person",
+        "detail": "其父/母 王离（Q11573240）：維基數據 P27 = 秦國；相鄰一代不可能仍在世"
+      }
+    },
+    {
+      "qid": "Q108169716",
+      "name": {
+        "text": "王威",
+        "language": "zh-Hans"
+      },
+      "description": {
+        "text": "member of the Wang clan of Taiyuan, a few-hundred AD",
+        "language": "en"
+      },
+      "birth": null,
+      "death": null,
+      "zh_wikipedia": null,
+      "historicity": {
+        "kind": "adjacent_to_historical_person",
+        "detail": "其父/母 王离（Q11573240）：維基數據 P27 = 秦國；相鄰一代不可能仍在世"
+      }
+    },
+    {
+      "qid": "Q18905529",
+      "name": {
+        "text": "王福畤",
+        "language": "zh-Hans"
+      },
+      "description": {
+        "text": "Tang dynasty person CBDB = 30885",
+        "language": "en"
+      },
+      "birth": {
+        "original_text": "622年",
+        "calendar_note": "維基數據 P569 結構化日期，精度：年"
+      },
+      "death": null,
+      "zh_wikipedia": null,
+      "historicity": {
+        "kind": "birth_date",
+        "detail": "維基數據 P569 = 622年"
+      }
+    },
+    {
+      "qid": "Q22814893",
+      "name": {
+        "text": "王乂",
+        "language": "zh-Hans"
+      },
+      "description": null,
+      "birth": null,
+      "death": null,
+      "zh_wikipedia": null,
+      "historicity": {
+        "kind": "adjacent_to_historical_person",
+        "detail": "其子/女 王衍（Q15886837）：維基數據 P570 = 311年；相鄰一代不可能仍在世"
+      }
+    },
+    {
+      "qid": "Q21094103",
+      "name": {
+        "text": "王惠风",
+        "language": "zh-Hans"
+      },
+      "description": {
+        "text": "王惠風﹐晉人﹐女。蘭閨寶錄有著錄。",
+        "language": "zh-Hant"
+      },
+      "birth": {
+        "original_text": "3世纪",
+        "calendar_note": "維基數據 P569 結構化日期，精度：世纪"
+      },
+      "death": null,
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%83%A0%E9%A2%A8",
+      "historicity": {
+        "kind": "birth_date",
+        "detail": "維基數據 P569 = 3世纪"
+      }
+    },
+    {
+      "qid": "Q22814789",
+      "name": {
+        "text": "王正",
+        "language": "zh-Hans"
+      },
+      "description": {
+        "text": "Western Jin dynasty person CBDB = 25791",
+        "language": "en"
+      },
+      "birth": null,
+      "death": null,
+      "zh_wikipedia": null,
+      "historicity": {
+        "kind": "historical_country",
+        "detail": "維基數據 P27 = 西晋"
+      }
+    },
+    {
+      "qid": "Q134098549",
+      "name": {
+        "text": "夏侯氏",
+        "language": "zh-Hans"
+      },
+      "description": null,
+      "birth": null,
+      "death": null,
+      "zh_wikipedia": null,
+      "historicity": {
+        "kind": "adjacent_to_historical_person",
+        "detail": "其子/女 王曠（Q22814790）：維基數據 P569 = 3世纪；相鄰一代不可能仍在世"
+      }
+    },
+    {
+      "qid": "Q45421031",
+      "name": {
+        "text": "王处廉",
+        "language": "zh-Hans"
+      },
+      "description": {
+        "text": "Tang dynasty person CBDB = 32173",
+        "language": "en"
+      },
+      "birth": null,
+      "death": null,
+      "zh_wikipedia": null,
+      "historicity": {
+        "kind": "historical_country",
+        "detail": "維基數據 P27 = 唐朝"
+      }
+    },
+    {
+      "qid": "Q45365249",
+      "name": {
+        "text": "王益",
+        "language": "zh-Hans"
+      },
+      "description": {
+        "text": "Song dynasty person (CBDB = 7082)",
+        "language": "en"
+      },
+      "birth": {
+        "original_text": "993年",
+        "calendar_note": "維基數據 P569 結構化日期，精度：年"
+      },
+      "death": {
+        "original_text": "1038年",
+        "calendar_note": "維基數據 P570 結構化日期，精度：年"
+      },
+      "zh_wikipedia": null,
+      "historicity": {
+        "kind": "death_date",
+        "detail": "維基數據 P570 = 1038年"
+      }
+    },
+    {
+      "qid": "Q45364102",
+      "name": {
+        "text": "吴氏",
+        "language": "zh-Hans"
+      },
+      "description": {
+        "text": "王益妻",
+        "language": "zh-Hans"
+      },
+      "birth": {
+        "original_text": "998年",
+        "calendar_note": "維基數據 P569 結構化日期，精度：年"
+      },
+      "death": {
+        "original_text": "1063年",
+        "calendar_note": "維基數據 P570 結構化日期，精度：年"
+      },
+      "zh_wikipedia": null,
+      "historicity": {
+        "kind": "death_date",
+        "detail": "維基數據 P570 = 1063年"
+      }
+    },
+    {
+      "qid": "Q15936430",
+      "name": {
+        "text": "王雱",
+        "language": "zh-Hans"
+      },
+      "description": {
+        "text": "Song dynasty person (CBDB = 3968)",
+        "language": "en"
+      },
+      "birth": {
+        "original_text": "1044年",
+        "calendar_note": "維基數據 P569 結構化日期，精度：年"
+      },
+      "death": {
+        "original_text": "1076年",
+        "calendar_note": "維基數據 P570 結構化日期，精度：年"
+      },
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%9B%B1",
+      "historicity": {
+        "kind": "death_date",
+        "detail": "維基數據 P570 = 1076年"
+      }
+    },
+    {
+      "qid": "Q45401605",
+      "name": {
+        "text": "王滂",
+        "language": "zh-Hans"
+      },
+      "description": {
+        "text": "Song dynasty person (CBDB = 21968)",
+        "language": "en"
+      },
+      "birth": null,
+      "death": null,
+      "zh_wikipedia": null,
+      "historicity": {
+        "kind": "historical_country",
+        "detail": "維基數據 P27 = 宋朝"
+      }
+    },
+    {
+      "qid": "Q45431126",
+      "name": {
+        "text": "王氏",
+        "language": "zh-Hans"
+      },
+      "description": {
+        "text": "吳安持妻",
+        "language": "zh-Hant"
+      },
+      "birth": null,
+      "death": null,
+      "zh_wikipedia": null,
+      "historicity": {
+        "kind": "historical_country",
+        "detail": "維基數據 P27 = 宋朝"
+      }
+    },
+    {
+      "qid": "Q16906209",
+      "name": {
+        "text": "王裁",
+        "language": "zh-Hans"
+      },
+      "description": {
+        "text": "西晋时期大臣",
+        "language": "zh-Hans"
+      },
+      "birth": {
+        "original_text": "3世纪",
+        "calendar_note": "維基數據 P569 結構化日期，精度：世纪"
+      },
+      "death": null,
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%A3%81",
+      "historicity": {
+        "kind": "birth_date",
+        "detail": "維基數據 P569 = 3世纪"
+      }
+    },
+    {
+      "qid": "Q15915744",
+      "name": {
+        "text": "王洽",
+        "language": "zh-Hans"
+      },
+      "description": {
+        "text": "东晋大臣",
+        "language": "zh-Hans"
+      },
+      "birth": {
+        "original_text": "323年",
+        "calendar_note": "維基數據 P569 結構化日期，精度：年"
+      },
+      "death": {
+        "original_text": "358年",
+        "calendar_note": "維基數據 P570 結構化日期，精度：年"
+      },
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%B4%BD_(%E6%9D%B1%E6%99%89)",
+      "historicity": {
+        "kind": "death_date",
+        "detail": "維基數據 P570 = 358年"
+      }
+    },
+    {
+      "qid": "Q15921815",
+      "name": {
+        "text": "王薈",
+        "language": "zh-Hant"
+      },
+      "description": {
+        "text": "东晋大臣",
+        "language": "zh-Hans"
+      },
+      "birth": null,
+      "death": null,
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%96%88",
+      "historicity": {
+        "kind": "description_era",
+        "detail": "东晋大臣"
+      }
+    },
+    {
+      "qid": "Q15924805",
+      "name": {
+        "text": "王劭",
+        "language": "zh-Hans"
+      },
+      "description": {
+        "text": "东晋大臣",
+        "language": "zh-Hans"
+      },
+      "birth": null,
+      "death": null,
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%8A%AD_(%E6%9D%B1%E6%99%89)",
+      "historicity": {
+        "kind": "description_era",
+        "detail": "东晋大臣"
+      }
+    },
+    {
+      "qid": "Q15927256",
+      "name": {
+        "text": "王恬",
+        "language": "zh-Hans"
+      },
+      "description": {
+        "text": "东晋大臣将领",
+        "language": "zh-Hans"
+      },
+      "birth": {
+        "original_text": "314年",
+        "calendar_note": "維基數據 P569 結構化日期，精度：年"
+      },
+      "death": null,
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%81%AC",
+      "historicity": {
+        "kind": "birth_date",
+        "detail": "維基數據 P569 = 314年"
+      }
+    },
+    {
+      "qid": "Q15944710",
+      "name": {
+        "text": "王悦",
+        "language": "zh-Hans"
+      },
+      "description": {
+        "text": "东晋大臣",
+        "language": "zh-Hans"
+      },
+      "birth": null,
+      "death": null,
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%82%A6_(%E6%99%8B%E6%9C%9D)",
+      "historicity": {
+        "kind": "historical_country",
+        "detail": "維基數據 P27 = 东晋"
+      }
+    },
+    {
+      "qid": "Q16905932",
+      "name": {
+        "text": "王协",
+        "language": "zh-Hans"
+      },
+      "description": {
+        "text": "东晋大臣",
+        "language": "zh-Hans"
+      },
+      "birth": null,
+      "death": null,
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%8D%8F_(%E4%B8%9C%E6%99%8B)",
+      "historicity": {
+        "kind": "description_era",
+        "detail": "东晋大臣"
+      }
+    },
+    {
+      "qid": "Q15924849",
+      "name": {
+        "text": "王华",
+        "language": "zh-Hans"
+      },
+      "description": {
+        "text": "politician",
+        "language": "en"
+      },
+      "birth": {
+        "original_text": "1446年",
+        "calendar_note": "維基數據 P569 結構化日期，精度：年"
+      },
+      "death": {
+        "original_text": "1522年",
+        "calendar_note": "維基數據 P570 結構化日期，精度：年"
+      },
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%8D%8E_(%E6%98%8E%E6%9C%9D)",
+      "historicity": {
+        "kind": "death_date",
+        "detail": "維基數據 P570 = 1522年"
+      }
+    },
+    {
+      "qid": "Q15944660",
+      "name": {
+        "text": "王正亿",
+        "language": "zh-Hans"
+      },
+      "description": {
+        "text": "Ming dynasty person CBDB = 30375",
+        "language": "en"
+      },
+      "birth": {
+        "original_text": "1526年",
+        "calendar_note": "維基數據 P569 結構化日期，精度：年"
+      },
+      "death": {
+        "original_text": "1577年",
+        "calendar_note": "維基數據 P570 結構化日期，精度：年"
+      },
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%AD%A3%E4%BA%BF",
+      "historicity": {
+        "kind": "death_date",
+        "detail": "維基數據 P570 = 1577年"
+      }
+    },
+    {
+      "qid": "Q15928529",
+      "name": {
+        "text": "王徽之",
+        "language": "zh-Hans"
+      },
+      "description": {
+        "text": "东晋时期书法家、名士",
+        "language": "zh-Hans"
+      },
+      "birth": {
+        "original_text": "338年",
+        "calendar_note": "維基數據 P569 結構化日期，精度：年"
+      },
+      "death": null,
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BE%BD%E4%B9%8B",
+      "historicity": {
+        "kind": "birth_date",
+        "detail": "維基數據 P569 = 338年"
+      }
+    },
+    {
+      "qid": "Q16077602",
+      "name": {
+        "text": "王凝之",
+        "language": "zh-Hans"
+      },
+      "description": {
+        "text": "东晋大臣",
+        "language": "zh-Hans"
+      },
+      "birth": {
+        "original_text": "334年",
+        "calendar_note": "維基數據 P569 結構化日期，精度：年"
+      },
+      "death": null,
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%87%9D%E4%B9%8B",
+      "historicity": {
+        "kind": "birth_date",
+        "detail": "維基數據 P569 = 334年"
+      }
+    },
+    {
+      "qid": "Q16905978",
+      "name": {
+        "text": "王孟姜",
+        "language": "zh-Hans"
+      },
+      "description": {
+        "text": "daughter of Wang Xizhi",
+        "language": "en"
+      },
+      "birth": null,
+      "death": null,
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AD%9F%E5%A7%9C",
+      "historicity": {
+        "kind": "adjacent_to_historical_person",
+        "detail": "其父/母 王羲之（Q378564）：維基數據 P570 = 361年；相鄰一代不可能仍在世"
+      }
+    },
+    {
+      "qid": "Q47182758",
+      "name": {
+        "text": "王玄之",
+        "language": "zh-Hans"
+      },
+      "description": {
+        "text": "son of Wang Xizhi",
+        "language": "en"
+      },
+      "birth": {
+        "original_text": "326年",
+        "calendar_note": "維基數據 P569 結構化日期，精度：年"
+      },
+      "death": null,
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%8E%84%E4%B9%8B",
+      "historicity": {
+        "kind": "birth_date",
+        "detail": "維基數據 P569 = 326年"
+      }
+    },
+    {
+      "qid": "Q15905263",
+      "name": {
+        "text": "郗璿",
+        "language": "zh-Hant"
+      },
+      "description": {
+        "text": "王羲之夫人",
+        "language": "zh-Hans"
+      },
+      "birth": null,
+      "death": null,
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E9%83%97%E7%92%BF",
+      "historicity": {
+        "kind": "adjacent_to_historical_person",
+        "detail": "其子/女 王獻之（Q559425）：維基數據 P570 = 386年；相鄰一代不可能仍在世"
+      }
+    },
+    {
+      "qid": "Q2194004",
+      "name": {
+        "text": "王神爱",
+        "language": "zh-Hans"
+      },
+      "description": {
+        "text": "Jin Dynasty empress",
+        "language": "en"
+      },
+      "birth": {
+        "original_text": "384年",
+        "calendar_note": "維基數據 P569 結構化日期，精度：年"
+      },
+      "death": {
+        "original_text": "412年",
+        "calendar_note": "維基數據 P570 結構化日期，精度：年"
+      },
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%A5%9E%E6%84%9B",
+      "historicity": {
+        "kind": "death_date",
+        "detail": "維基數據 P570 = 412年"
+      }
+    },
+    {
+      "qid": "Q67196814",
+      "name": {
+        "text": "王靖之",
+        "language": "zh-Hans"
+      },
+      "description": null,
+      "birth": null,
+      "death": null,
+      "zh_wikipedia": null,
+      "historicity": {
+        "kind": "adjacent_to_historical_person",
+        "detail": "其父/母 王獻之（Q559425）：維基數據 P570 = 386年；相鄰一代不可能仍在世"
+      }
+    },
+    {
+      "qid": "Q15933350",
+      "name": {
+        "text": "王忬",
+        "language": "zh-Hans"
+      },
+      "description": {
+        "text": "Ming dynasty person CBDB = 34718",
+        "language": "en"
+      },
+      "birth": {
+        "original_text": "1507年",
+        "calendar_note": "維基數據 P569 結構化日期，精度：年"
+      },
+      "death": {
+        "original_text": "1560年",
+        "calendar_note": "維基數據 P570 結構化日期，精度：年"
+      },
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BF%AC",
+      "historicity": {
+        "kind": "death_date",
+        "detail": "維基數據 P570 = 1560年"
+      }
+    },
+    {
+      "qid": "Q65833786",
+      "name": {
+        "text": "郁氏",
+        "language": "zh-Hans"
+      },
+      "description": {
+        "text": "王世貞母",
+        "language": "zh-Hant"
+      },
+      "birth": null,
+      "death": null,
+      "zh_wikipedia": null,
+      "historicity": {
+        "kind": "adjacent_to_historical_person",
+        "detail": "其子/女 王世贞（Q6127545）：維基數據 P570 = 1590年12月23日；相鄰一代不可能仍在世"
+      }
+    },
+    {
+      "qid": "Q28413923",
+      "name": {
+        "text": "王士骐",
+        "language": "zh-Hans"
+      },
+      "description": {
+        "text": "Ming dynasty politician, jin shi 1589",
+        "language": "en"
+      },
+      "birth": {
+        "original_text": "1557年",
+        "calendar_note": "維基數據 P569 結構化日期，精度：年"
+      },
+      "death": null,
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A3%AB%E9%A8%8F",
+      "historicity": {
+        "kind": "birth_date",
+        "detail": "維基數據 P569 = 1557年"
+      }
+    },
+    {
+      "qid": "Q45446442",
+      "name": {
+        "text": "王士骕",
+        "language": "zh-Hans"
+      },
+      "description": {
+        "text": "Ming dynasty person CBDB = 134660",
+        "language": "en"
+      },
+      "birth": null,
+      "death": null,
+      "zh_wikipedia": null,
+      "historicity": {
+        "kind": "historical_country",
+        "detail": "維基數據 P27 = 明朝"
+      }
+    },
+    {
+      "qid": "Q10884965",
+      "name": {
+        "text": "伊屠智牙师",
+        "language": "zh-Hans"
+      },
+      "description": null,
+      "birth": null,
+      "death": null,
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E4%BC%8A%E5%B1%A0%E6%99%BA%E7%89%99%E5%B8%88",
+      "historicity": {
+        "kind": "adjacent_to_historical_person",
+        "detail": "其父/母 王昭君（Q701037）：維基數據 P570 = 18年；相鄰一代不可能仍在世"
+      }
+    },
+    {
+      "qid": "Q2979420",
+      "name": {
+        "text": "王禁",
+        "language": "zh-Hans"
+      },
+      "description": {
+        "text": "Western Han politician",
+        "language": "en"
+      },
+      "birth": null,
+      "death": {
+        "original_text": "前41年",
+        "calendar_note": "維基數據 P570 結構化日期，精度：年"
+      },
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%A6%81",
+      "historicity": {
+        "kind": "death_date",
+        "detail": "維基數據 P570 = 前41年"
+      }
+    },
+    {
+      "qid": "Q7234",
+      "name": {
+        "text": "汉成帝",
+        "language": "zh-Hans"
+      },
+      "description": {
+        "text": "中国汉朝（西汉）皇帝",
+        "language": "zh-Hans"
+      },
+      "birth": {
+        "original_text": "前50年",
+        "calendar_note": "維基數據 P569 結構化日期，精度：年"
+      },
+      "death": {
+        "original_text": "前6年4月15日",
+        "calendar_note": "維基數據 P570 結構化日期，精度：日"
+      },
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E6%B1%89%E6%88%90%E5%B8%9D",
+      "historicity": {
+        "kind": "death_date",
+        "detail": "維基數據 P570 = 前6年4月15日"
+      }
+    },
+    {
+      "qid": "Q45587071",
+      "name": {
+        "text": "王昱",
+        "language": "zh-Hans"
+      },
+      "description": {
+        "text": "Tang dynasty person CBDB = 153365",
+        "language": "en"
+      },
+      "birth": null,
+      "death": null,
+      "zh_wikipedia": null,
+      "historicity": {
+        "kind": "historical_country",
+        "detail": "維基數據 P27 = 唐朝"
+      }
+    },
+    {
+      "qid": "Q45587135",
+      "name": {
+        "text": "王炎",
+        "language": "zh-Hans"
+      },
+      "description": {
+        "text": "Tang dynasty person CBDB = 153366",
+        "language": "en"
+      },
+      "birth": null,
+      "death": null,
+      "zh_wikipedia": null,
+      "historicity": {
+        "kind": "historical_country",
+        "detail": "維基數據 P27 = 唐朝"
+      }
+    },
+    {
+      "qid": "Q45587200",
+      "name": {
+        "text": "王羽",
+        "language": "zh-Hans"
+      },
+      "description": {
+        "text": "Tang dynasty person CBDB = 153367",
+        "language": "en"
+      },
+      "birth": null,
+      "death": null,
+      "zh_wikipedia": null,
+      "historicity": {
+        "kind": "historical_country",
+        "detail": "維基數據 P27 = 唐朝"
+      }
+    },
+    {
+      "qid": "Q22814786",
+      "name": {
+        "text": "王融",
+        "language": "zh-Hans"
+      },
+      "description": {
+        "text": "Eastern Han Dynasty person CBDB = 25784",
+        "language": "en"
+      },
+      "birth": null,
+      "death": null,
+      "zh_wikipedia": null,
+      "historicity": {
+        "kind": "historical_country",
+        "detail": "維基數據 P27 = 東漢"
+      }
+    },
+    {
+      "qid": "Q15902476",
+      "name": {
+        "text": "王肇",
+        "language": "zh-Hans"
+      },
+      "description": null,
+      "birth": null,
+      "death": null,
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%82%87",
+      "historicity": {
+        "kind": "adjacent_to_historical_person",
+        "detail": "其父/母 王祥（Q710053）：維基數據 P570 = 269年；相鄰一代不可能仍在世"
+      }
+    },
+    {
+      "qid": "Q22814890",
+      "name": {
+        "text": "王基",
+        "language": "zh-Hans"
+      },
+      "description": null,
+      "birth": null,
+      "death": null,
+      "zh_wikipedia": null,
+      "historicity": {
+        "kind": "adjacent_to_historical_person",
+        "detail": "其子/女 王敦（Q712016）：維基數據 P570 = 324年；相鄰一代不可能仍在世"
+      }
+    },
+    {
+      "qid": "Q2461598",
+      "name": {
+        "text": "王曼",
+        "language": "zh-Hans"
+      },
+      "description": {
+        "text": "one of imperial family in ancient China, father of Wang Mang",
+        "language": "en"
+      },
+      "birth": {
+        "original_text": "前75年",
+        "calendar_note": "維基數據 P569 結構化日期，精度：年"
+      },
+      "death": {
+        "original_text": "前28年",
+        "calendar_note": "維基數據 P570 結構化日期，精度：年"
+      },
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%9B%BC",
+      "historicity": {
+        "kind": "death_date",
+        "detail": "維基數據 P570 = 前28年"
+      }
+    },
+    {
+      "qid": "Q55286323",
+      "name": {
+        "text": "功显君",
+        "language": "zh-Hans"
+      },
+      "description": null,
+      "birth": {
+        "original_text": "前1世纪",
+        "calendar_note": "維基數據 P569 結構化日期，精度：世纪"
+      },
+      "death": null,
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E5%8A%9F%E6%98%BE%E5%90%9B",
+      "historicity": {
+        "kind": "birth_date",
+        "detail": "維基數據 P569 = 前1世纪"
+      }
+    },
+    {
+      "qid": "Q10412750",
+      "name": {
+        "text": "王匡",
+        "language": "zh-Hans"
+      },
+      "description": {
+        "text": "Chinese nobleman, son of Wang Mang",
+        "language": "en"
+      },
+      "birth": null,
+      "death": null,
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%8C%A1_(%E7%8E%8B%E8%8E%BD%E4%B9%8B%E5%AD%90)",
+      "historicity": {
+        "kind": "adjacent_to_historical_person",
+        "detail": "其父/母 王莽（Q7250）：維基數據 P570 = 23年10月4日；相鄰一代不可能仍在世"
+      }
+    },
+    {
+      "qid": "Q11573020",
+      "name": {
+        "text": "王宇",
+        "language": "zh-Hans"
+      },
+      "description": {
+        "text": "Chinese nobleman, son of Wang Mang",
+        "language": "en"
+      },
+      "birth": {
+        "original_text": "前1世纪",
+        "calendar_note": "維基數據 P569 結構化日期，精度：世纪"
+      },
+      "death": {
+        "original_text": "3年",
+        "calendar_note": "維基數據 P570 結構化日期，精度：年"
+      },
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AE%87_(%E6%B1%89%E6%9C%9D)",
+      "historicity": {
+        "kind": "death_date",
+        "detail": "維基數據 P570 = 3年"
+      }
+    },
+    {
+      "qid": "Q16077230",
+      "name": {
+        "text": "王安",
+        "language": "zh-Hans"
+      },
+      "description": {
+        "text": "新迁王",
+        "language": "zh-Hans"
+      },
+      "birth": {
+        "original_text": "前1世纪",
+        "calendar_note": "維基數據 P569 結構化日期，精度：世纪"
+      },
+      "death": null,
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AE%89_(%E6%96%B0%E6%9C%9D)",
+      "historicity": {
+        "kind": "birth_date",
+        "detail": "維基數據 P569 = 前1世纪"
+      }
+    },
+    {
+      "qid": "Q16260222",
+      "name": {
+        "text": "王獲",
+        "language": "zh-Hant"
+      },
+      "description": {
+        "text": "Chinese nobleman, son of Wang Mang",
+        "language": "en"
+      },
+      "birth": {
+        "original_text": "前1世纪",
+        "calendar_note": "維基數據 P569 結構化日期，精度：世纪"
+      },
+      "death": null,
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%8D%B2",
+      "historicity": {
+        "kind": "birth_date",
+        "detail": "維基數據 P569 = 前1世纪"
+      }
+    },
+    {
+      "qid": "Q16260455",
+      "name": {
+        "text": "王臨",
+        "language": "zh-Hant"
+      },
+      "description": {
+        "text": "Chinese nobleman, son of Wang Mang",
+        "language": "en"
+      },
+      "birth": {
+        "original_text": "前8年",
+        "calendar_note": "維基數據 P569 結構化日期，精度：年"
+      },
+      "death": null,
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%87%A8",
+      "historicity": {
+        "kind": "birth_date",
+        "detail": "維基數據 P569 = 前8年"
+      }
+    },
+    {
+      "qid": "Q16603520",
+      "name": {
+        "text": "王捷",
+        "language": "zh-Hans"
+      },
+      "description": {
+        "text": "Chinese noblewoman, daughter of Wang Mang",
+        "language": "en"
+      },
+      "birth": null,
+      "death": null,
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%8D%B7",
+      "historicity": {
+        "kind": "adjacent_to_historical_person",
+        "detail": "其父/母 王莽（Q7250）：維基數據 P570 = 23年10月4日；相鄰一代不可能仍在世"
+      }
+    },
+    {
+      "qid": "Q16603521",
+      "name": {
+        "text": "王曄",
+        "language": "zh-Hant"
+      },
+      "description": {
+        "text": "Chinese noblewoman, daughter of Wang Mang",
+        "language": "en"
+      },
+      "birth": null,
+      "death": null,
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%9B%84",
+      "historicity": {
+        "kind": "adjacent_to_historical_person",
+        "detail": "其父/母 王莽（Q7250）：維基數據 P570 = 23年10月4日；相鄰一代不可能仍在世"
+      }
+    },
+    {
+      "qid": "Q17026272",
+      "name": {
+        "text": "王兴",
+        "language": "zh-Hans"
+      },
+      "description": {
+        "text": "王莽之子",
+        "language": "zh-Hans"
+      },
+      "birth": null,
+      "death": null,
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%85%B4_(%E5%8A%9F%E8%84%A9%E5%85%AC)",
+      "historicity": {
+        "kind": "adjacent_to_historical_person",
+        "detail": "其父/母 王莽（Q7250）：維基數據 P570 = 23年10月4日；相鄰一代不可能仍在世"
+      }
+    },
+    {
+      "qid": "Q712297",
+      "name": {
+        "text": "孝平王皇后",
+        "language": "zh-Hans"
+      },
+      "description": {
+        "text": "1st century AD Chinese empress, daughter of emperor Wang Mang",
+        "language": "en"
+      },
+      "birth": {
+        "original_text": "前7年",
+        "calendar_note": "維基數據 P569 結構化日期，精度：年"
+      },
+      "death": {
+        "original_text": "23年",
+        "calendar_note": "維基數據 P570 結構化日期，精度：年"
+      },
+      "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E5%AD%9D%E5%B9%B3%E7%8E%8B%E7%9A%87%E5%90%8E",
+      "historicity": {
+        "kind": "death_date",
+        "detail": "維基數據 P570 = 23年"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "parent_qid": "Q706855",
+      "child_qid": "Q10417152",
+      "parent_name": "王翦",
+      "child_name": "王贲",
+      "parent_person_id": "p_Zru5Kv87Ac9fELnRRbbTdQ",
+      "child_person_id": "p_hsA2s6GjFfW84AomhJn2jd",
+      "citations": [
+        {
+          "qid": "Q10417152",
+          "property": "P22",
+          "locator": "P22（父）"
+        },
+        {
+          "qid": "Q706855",
+          "property": "P40",
+          "locator": "P40（子女）"
+        }
+      ]
+    },
+    {
+      "parent_qid": "Q10417152",
+      "child_qid": "Q11573240",
+      "parent_name": "王贲",
+      "child_name": "王離",
+      "parent_person_id": "p_hsA2s6GjFfW84AomhJn2jd",
+      "child_person_id": "p_A6G4nFDcRtxWYPSxVDPrXS",
+      "citations": [
+        {
+          "qid": "Q10417152",
+          "property": "P40",
+          "locator": "P40（子女）"
+        },
+        {
+          "qid": "Q11573240",
+          "property": "P22",
+          "locator": "P22（父）"
+        }
+      ]
+    },
+    {
+      "parent_qid": "Q11573240",
+      "child_qid": "Q108169681",
+      "parent_name": "王离",
+      "child_name": "王元",
+      "parent_person_id": "p_A6G4nFDcRtxWYPSxVDPrXS",
+      "child_person_id": null,
+      "citations": [
+        {
+          "qid": "Q11573240",
+          "property": "P40",
+          "locator": "P40（子女）"
+        }
+      ]
+    },
+    {
+      "parent_qid": "Q11573240",
+      "child_qid": "Q108169716",
+      "parent_name": "王离",
+      "child_name": "王威",
+      "parent_person_id": "p_A6G4nFDcRtxWYPSxVDPrXS",
+      "child_person_id": null,
+      "citations": [
+        {
+          "qid": "Q11573240",
+          "property": "P40",
+          "locator": "P40（子女）"
+        }
+      ]
+    },
+    {
+      "parent_qid": "Q18905529",
+      "child_qid": "Q1275321",
+      "parent_name": "王福畤",
+      "child_name": "王勃",
+      "parent_person_id": null,
+      "child_person_id": "p_3rXpgVa7b3w2KvtV9muyJp",
+      "citations": [
+        {
+          "qid": "Q1275321",
+          "property": "P22",
+          "locator": "P22（父）"
+        }
+      ]
+    },
+    {
+      "parent_qid": "Q22814893",
+      "child_qid": "Q15886837",
+      "parent_name": "王乂",
+      "child_name": "王衍",
+      "parent_person_id": null,
+      "child_person_id": "p_q3FQRLHTWhMBHM5s8M9VaB",
+      "citations": [
+        {
+          "qid": "Q15886837",
+          "property": "P22",
+          "locator": "P22（父）"
+        }
+      ]
+    },
+    {
+      "parent_qid": "Q15886837",
+      "child_qid": "Q21094103",
+      "parent_name": "王衍",
+      "child_name": "王惠风",
+      "parent_person_id": "p_q3FQRLHTWhMBHM5s8M9VaB",
+      "child_person_id": null,
+      "citations": [
+        {
+          "qid": "Q15886837",
+          "property": "P40",
+          "locator": "P40（子女）"
+        }
+      ]
+    },
+    {
+      "parent_qid": "Q22814789",
+      "child_qid": "Q22814790",
+      "parent_name": "王正",
+      "child_name": "王曠",
+      "parent_person_id": null,
+      "child_person_id": "p_svvmSXELHxu1dgtCxnAmuM",
+      "citations": [
+        {
+          "qid": "Q22814790",
+          "property": "P22",
+          "locator": "P22（父）"
+        }
+      ]
+    },
+    {
+      "parent_qid": "Q134098549",
+      "child_qid": "Q22814790",
+      "parent_name": "夏侯氏",
+      "child_name": "王曠",
+      "parent_person_id": null,
+      "child_person_id": "p_svvmSXELHxu1dgtCxnAmuM",
+      "citations": [
+        {
+          "qid": "Q22814790",
+          "property": "P25",
+          "locator": "P25（母）"
+        }
+      ]
+    },
+    {
+      "parent_qid": "Q22814790",
+      "child_qid": "Q378564",
+      "parent_name": "王曠",
+      "child_name": "王羲之",
+      "parent_person_id": "p_svvmSXELHxu1dgtCxnAmuM",
+      "child_person_id": "p_CDzewbvc57C3MHsFxzq2nG",
+      "citations": [
+        {
+          "qid": "Q22814790",
+          "property": "P40",
+          "locator": "P40（子女）"
+        },
+        {
+          "qid": "Q378564",
+          "property": "P22",
+          "locator": "P22（父）"
+        }
+      ]
+    },
+    {
+      "parent_qid": "Q45421031",
+      "child_qid": "Q313605",
+      "parent_name": "王处廉",
+      "child_name": "王维",
+      "parent_person_id": null,
+      "child_person_id": "p_Fb1Y7PaCUiyrjL5WpXJdPH",
+      "citations": [
+        {
+          "qid": "Q313605",
+          "property": "P22",
+          "locator": "P22（父）"
+        }
+      ]
+    },
+    {
+      "parent_qid": "Q45365249",
+      "child_qid": "Q319618",
+      "parent_name": "王益",
+      "child_name": "王安石",
+      "parent_person_id": null,
+      "child_person_id": "p_fuv1kE3UCBeTFNiA6c9Tuw",
+      "citations": [
+        {
+          "qid": "Q319618",
+          "property": "P22",
+          "locator": "P22（父）"
+        }
+      ]
+    },
+    {
+      "parent_qid": "Q45364102",
+      "child_qid": "Q319618",
+      "parent_name": "吴氏",
+      "child_name": "王安石",
+      "parent_person_id": null,
+      "child_person_id": "p_fuv1kE3UCBeTFNiA6c9Tuw",
+      "citations": [
+        {
+          "qid": "Q319618",
+          "property": "P25",
+          "locator": "P25（母）"
+        }
+      ]
+    },
+    {
+      "parent_qid": "Q319618",
+      "child_qid": "Q15936430",
+      "parent_name": "王安石",
+      "child_name": "王雱",
+      "parent_person_id": "p_fuv1kE3UCBeTFNiA6c9Tuw",
+      "child_person_id": null,
+      "citations": [
+        {
+          "qid": "Q319618",
+          "property": "P40",
+          "locator": "P40（子女）"
+        }
+      ]
+    },
+    {
+      "parent_qid": "Q319618",
+      "child_qid": "Q45401605",
+      "parent_name": "王安石",
+      "child_name": "王滂",
+      "parent_person_id": "p_fuv1kE3UCBeTFNiA6c9Tuw",
+      "child_person_id": null,
+      "citations": [
+        {
+          "qid": "Q319618",
+          "property": "P40",
+          "locator": "P40（子女）"
+        }
+      ]
+    },
+    {
+      "parent_qid": "Q319618",
+      "child_qid": "Q45431126",
+      "parent_name": "王安石",
+      "child_name": "王氏",
+      "parent_person_id": "p_fuv1kE3UCBeTFNiA6c9Tuw",
+      "child_person_id": null,
+      "citations": [
+        {
+          "qid": "Q319618",
+          "property": "P40",
+          "locator": "P40（子女）"
+        }
+      ]
+    },
+    {
+      "parent_qid": "Q16906209",
+      "child_qid": "Q3274914",
+      "parent_name": "王裁",
+      "child_name": "王導",
+      "parent_person_id": null,
+      "child_person_id": "p_Xbn65bXVofZnsi76cqAQCP",
+      "citations": [
+        {
+          "qid": "Q3274914",
+          "property": "P22",
+          "locator": "P22（父）"
+        }
+      ]
+    },
+    {
+      "parent_qid": "Q3274914",
+      "child_qid": "Q15915744",
+      "parent_name": "王導",
+      "child_name": "王洽",
+      "parent_person_id": "p_Xbn65bXVofZnsi76cqAQCP",
+      "child_person_id": null,
+      "citations": [
+        {
+          "qid": "Q3274914",
+          "property": "P40",
+          "locator": "P40（子女）"
+        }
+      ]
+    },
+    {
+      "parent_qid": "Q3274914",
+      "child_qid": "Q15921815",
+      "parent_name": "王導",
+      "child_name": "王薈",
+      "parent_person_id": "p_Xbn65bXVofZnsi76cqAQCP",
+      "child_person_id": null,
+      "citations": [
+        {
+          "qid": "Q3274914",
+          "property": "P40",
+          "locator": "P40（子女）"
+        }
+      ]
+    },
+    {
+      "parent_qid": "Q3274914",
+      "child_qid": "Q15924805",
+      "parent_name": "王導",
+      "child_name": "王劭",
+      "parent_person_id": "p_Xbn65bXVofZnsi76cqAQCP",
+      "child_person_id": null,
+      "citations": [
+        {
+          "qid": "Q3274914",
+          "property": "P40",
+          "locator": "P40（子女）"
+        }
+      ]
+    },
+    {
+      "parent_qid": "Q3274914",
+      "child_qid": "Q15927256",
+      "parent_name": "王導",
+      "child_name": "王恬",
+      "parent_person_id": "p_Xbn65bXVofZnsi76cqAQCP",
+      "child_person_id": null,
+      "citations": [
+        {
+          "qid": "Q3274914",
+          "property": "P40",
+          "locator": "P40（子女）"
+        }
+      ]
+    },
+    {
+      "parent_qid": "Q3274914",
+      "child_qid": "Q15944710",
+      "parent_name": "王導",
+      "child_name": "王悦",
+      "parent_person_id": "p_Xbn65bXVofZnsi76cqAQCP",
+      "child_person_id": null,
+      "citations": [
+        {
+          "qid": "Q3274914",
+          "property": "P40",
+          "locator": "P40（子女）"
+        }
+      ]
+    },
+    {
+      "parent_qid": "Q3274914",
+      "child_qid": "Q16905932",
+      "parent_name": "王導",
+      "child_name": "王协",
+      "parent_person_id": "p_Xbn65bXVofZnsi76cqAQCP",
+      "child_person_id": null,
+      "citations": [
+        {
+          "qid": "Q3274914",
+          "property": "P40",
+          "locator": "P40（子女）"
+        }
+      ]
+    },
+    {
+      "parent_qid": "Q15924849",
+      "child_qid": "Q378462",
+      "parent_name": "王华",
+      "child_name": "王守仁",
+      "parent_person_id": null,
+      "child_person_id": "p_TQiMhGLRXGBc7HWBFHEr7P",
+      "citations": [
+        {
+          "qid": "Q378462",
+          "property": "P22",
+          "locator": "P22（父）"
+        }
+      ]
+    },
+    {
+      "parent_qid": "Q378462",
+      "child_qid": "Q15944660",
+      "parent_name": "王守仁",
+      "child_name": "王正亿",
+      "parent_person_id": "p_TQiMhGLRXGBc7HWBFHEr7P",
+      "child_person_id": null,
+      "citations": [
+        {
+          "qid": "Q378462",
+          "property": "P40",
+          "locator": "P40（子女）"
+        }
+      ]
+    },
+    {
+      "parent_qid": "Q378564",
+      "child_qid": "Q15928529",
+      "parent_name": "王羲之",
+      "child_name": "王徽之",
+      "parent_person_id": "p_CDzewbvc57C3MHsFxzq2nG",
+      "child_person_id": null,
+      "citations": [
+        {
+          "qid": "Q378564",
+          "property": "P40",
+          "locator": "P40（子女）"
+        }
+      ]
+    },
+    {
+      "parent_qid": "Q378564",
+      "child_qid": "Q16077602",
+      "parent_name": "王羲之",
+      "child_name": "王凝之",
+      "parent_person_id": "p_CDzewbvc57C3MHsFxzq2nG",
+      "child_person_id": null,
+      "citations": [
+        {
+          "qid": "Q378564",
+          "property": "P40",
+          "locator": "P40（子女）"
+        }
+      ]
+    },
+    {
+      "parent_qid": "Q378564",
+      "child_qid": "Q16905978",
+      "parent_name": "王羲之",
+      "child_name": "王孟姜",
+      "parent_person_id": "p_CDzewbvc57C3MHsFxzq2nG",
+      "child_person_id": null,
+      "citations": [
+        {
+          "qid": "Q378564",
+          "property": "P40",
+          "locator": "P40（子女）"
+        }
+      ]
+    },
+    {
+      "parent_qid": "Q378564",
+      "child_qid": "Q47182758",
+      "parent_name": "王羲之",
+      "child_name": "王玄之",
+      "parent_person_id": "p_CDzewbvc57C3MHsFxzq2nG",
+      "child_person_id": null,
+      "citations": [
+        {
+          "qid": "Q378564",
+          "property": "P40",
+          "locator": "P40（子女）"
+        }
+      ]
+    },
+    {
+      "parent_qid": "Q378564",
+      "child_qid": "Q559425",
+      "parent_name": "王羲之",
+      "child_name": "王献之",
+      "parent_person_id": "p_CDzewbvc57C3MHsFxzq2nG",
+      "child_person_id": "p_9kvwNC8EwFdL41MBGhg7HG",
+      "citations": [
+        {
+          "qid": "Q378564",
+          "property": "P40",
+          "locator": "P40（子女）"
+        },
+        {
+          "qid": "Q559425",
+          "property": "P22",
+          "locator": "P22（父）"
+        }
+      ]
+    },
+    {
+      "parent_qid": "Q15905263",
+      "child_qid": "Q559425",
+      "parent_name": "郗璿",
+      "child_name": "王獻之",
+      "parent_person_id": null,
+      "child_person_id": "p_9kvwNC8EwFdL41MBGhg7HG",
+      "citations": [
+        {
+          "qid": "Q559425",
+          "property": "P25",
+          "locator": "P25（母）"
+        }
+      ]
+    },
+    {
+      "parent_qid": "Q559425",
+      "child_qid": "Q2194004",
+      "parent_name": "王獻之",
+      "child_name": "王神爱",
+      "parent_person_id": "p_9kvwNC8EwFdL41MBGhg7HG",
+      "child_person_id": null,
+      "citations": [
+        {
+          "qid": "Q559425",
+          "property": "P40",
+          "locator": "P40（子女）"
+        }
+      ]
+    },
+    {
+      "parent_qid": "Q559425",
+      "child_qid": "Q67196814",
+      "parent_name": "王獻之",
+      "child_name": "王靖之",
+      "parent_person_id": "p_9kvwNC8EwFdL41MBGhg7HG",
+      "child_person_id": null,
+      "citations": [
+        {
+          "qid": "Q559425",
+          "property": "P40",
+          "locator": "P40（子女）"
+        }
+      ]
+    },
+    {
+      "parent_qid": "Q15933350",
+      "child_qid": "Q6127545",
+      "parent_name": "王忬",
+      "child_name": "王世贞",
+      "parent_person_id": null,
+      "child_person_id": "p_g5KSSBRpZ9iAzVfbXmLaWQ",
+      "citations": [
+        {
+          "qid": "Q6127545",
+          "property": "P22",
+          "locator": "P22（父）"
+        }
+      ]
+    },
+    {
+      "parent_qid": "Q65833786",
+      "child_qid": "Q6127545",
+      "parent_name": "郁氏",
+      "child_name": "王世贞",
+      "parent_person_id": null,
+      "child_person_id": "p_g5KSSBRpZ9iAzVfbXmLaWQ",
+      "citations": [
+        {
+          "qid": "Q6127545",
+          "property": "P25",
+          "locator": "P25（母）"
+        }
+      ]
+    },
+    {
+      "parent_qid": "Q6127545",
+      "child_qid": "Q28413923",
+      "parent_name": "王世贞",
+      "child_name": "王士骐",
+      "parent_person_id": "p_g5KSSBRpZ9iAzVfbXmLaWQ",
+      "child_person_id": null,
+      "citations": [
+        {
+          "qid": "Q6127545",
+          "property": "P40",
+          "locator": "P40（子女）"
+        }
+      ]
+    },
+    {
+      "parent_qid": "Q6127545",
+      "child_qid": "Q45446442",
+      "parent_name": "王世贞",
+      "child_name": "王士骕",
+      "parent_person_id": "p_g5KSSBRpZ9iAzVfbXmLaWQ",
+      "child_person_id": null,
+      "citations": [
+        {
+          "qid": "Q6127545",
+          "property": "P40",
+          "locator": "P40（子女）"
+        }
+      ]
+    },
+    {
+      "parent_qid": "Q701037",
+      "child_qid": "Q10884965",
+      "parent_name": "王昭君",
+      "child_name": "伊屠智牙师",
+      "parent_person_id": "p_BUaGJXVbdiGWZgD8yeJs5F",
+      "child_person_id": null,
+      "citations": [
+        {
+          "qid": "Q701037",
+          "property": "P40",
+          "locator": "P40（子女）"
+        }
+      ]
+    },
+    {
+      "parent_qid": "Q2979420",
+      "child_qid": "Q701379",
+      "parent_name": "王禁",
+      "child_name": "王政君",
+      "parent_person_id": null,
+      "child_person_id": "p_ma56j3xFL2iP3FzuSAfpHk",
+      "citations": [
+        {
+          "qid": "Q701379",
+          "property": "P22",
+          "locator": "P22（父）"
+        }
+      ]
+    },
+    {
+      "parent_qid": "Q701379",
+      "child_qid": "Q7234",
+      "parent_name": "王政君",
+      "child_name": "汉成帝",
+      "parent_person_id": "p_ma56j3xFL2iP3FzuSAfpHk",
+      "child_person_id": null,
+      "citations": [
+        {
+          "qid": "Q701379",
+          "property": "P40",
+          "locator": "P40（子女）"
+        }
+      ]
+    },
+    {
+      "parent_qid": "Q45587071",
+      "child_qid": "Q707247",
+      "parent_name": "王昱",
+      "child_name": "王之涣",
+      "parent_person_id": null,
+      "child_person_id": "p_KrXiuuihJGRDJgH856L9a9",
+      "citations": [
+        {
+          "qid": "Q707247",
+          "property": "P22",
+          "locator": "P22（父）"
+        }
+      ]
+    },
+    {
+      "parent_qid": "Q707247",
+      "child_qid": "Q45587135",
+      "parent_name": "王之涣",
+      "child_name": "王炎",
+      "parent_person_id": "p_KrXiuuihJGRDJgH856L9a9",
+      "child_person_id": null,
+      "citations": [
+        {
+          "qid": "Q707247",
+          "property": "P40",
+          "locator": "P40（子女）"
+        }
+      ]
+    },
+    {
+      "parent_qid": "Q707247",
+      "child_qid": "Q45587200",
+      "parent_name": "王之涣",
+      "child_name": "王羽",
+      "parent_person_id": "p_KrXiuuihJGRDJgH856L9a9",
+      "child_person_id": null,
+      "citations": [
+        {
+          "qid": "Q707247",
+          "property": "P40",
+          "locator": "P40（子女）"
+        }
+      ]
+    },
+    {
+      "parent_qid": "Q22814786",
+      "child_qid": "Q710053",
+      "parent_name": "王融",
+      "child_name": "王祥",
+      "parent_person_id": null,
+      "child_person_id": "p_Xategg2TUsqjtsJGVyycV2",
+      "citations": [
+        {
+          "qid": "Q710053",
+          "property": "P22",
+          "locator": "P22（父）"
+        }
+      ]
+    },
+    {
+      "parent_qid": "Q710053",
+      "child_qid": "Q15902476",
+      "parent_name": "王祥",
+      "child_name": "王肇",
+      "parent_person_id": "p_Xategg2TUsqjtsJGVyycV2",
+      "child_person_id": null,
+      "citations": [
+        {
+          "qid": "Q710053",
+          "property": "P40",
+          "locator": "P40（子女）"
+        }
+      ]
+    },
+    {
+      "parent_qid": "Q22814890",
+      "child_qid": "Q712016",
+      "parent_name": "王基",
+      "child_name": "王敦",
+      "parent_person_id": null,
+      "child_person_id": "p_9RT3J3AUTk6Cgprd7z985c",
+      "citations": [
+        {
+          "qid": "Q712016",
+          "property": "P22",
+          "locator": "P22（父）"
+        }
+      ]
+    },
+    {
+      "parent_qid": "Q2461598",
+      "child_qid": "Q7250",
+      "parent_name": "王曼",
+      "child_name": "王莽",
+      "parent_person_id": null,
+      "child_person_id": "p_ftTmaf71Kwzdeaet16S991",
+      "citations": [
+        {
+          "qid": "Q7250",
+          "property": "P22",
+          "locator": "P22（父）"
+        }
+      ]
+    },
+    {
+      "parent_qid": "Q55286323",
+      "child_qid": "Q7250",
+      "parent_name": "功显君",
+      "child_name": "王莽",
+      "parent_person_id": null,
+      "child_person_id": "p_ftTmaf71Kwzdeaet16S991",
+      "citations": [
+        {
+          "qid": "Q7250",
+          "property": "P25",
+          "locator": "P25（母）"
+        }
+      ]
+    },
+    {
+      "parent_qid": "Q7250",
+      "child_qid": "Q10412750",
+      "parent_name": "王莽",
+      "child_name": "王匡",
+      "parent_person_id": "p_ftTmaf71Kwzdeaet16S991",
+      "child_person_id": null,
+      "citations": [
+        {
+          "qid": "Q7250",
+          "property": "P40",
+          "locator": "P40（子女）"
+        }
+      ]
+    },
+    {
+      "parent_qid": "Q7250",
+      "child_qid": "Q11573020",
+      "parent_name": "王莽",
+      "child_name": "王宇",
+      "parent_person_id": "p_ftTmaf71Kwzdeaet16S991",
+      "child_person_id": null,
+      "citations": [
+        {
+          "qid": "Q7250",
+          "property": "P40",
+          "locator": "P40（子女）"
+        }
+      ]
+    },
+    {
+      "parent_qid": "Q7250",
+      "child_qid": "Q16077230",
+      "parent_name": "王莽",
+      "child_name": "王安",
+      "parent_person_id": "p_ftTmaf71Kwzdeaet16S991",
+      "child_person_id": null,
+      "citations": [
+        {
+          "qid": "Q7250",
+          "property": "P40",
+          "locator": "P40（子女）"
+        }
+      ]
+    },
+    {
+      "parent_qid": "Q7250",
+      "child_qid": "Q16260222",
+      "parent_name": "王莽",
+      "child_name": "王獲",
+      "parent_person_id": "p_ftTmaf71Kwzdeaet16S991",
+      "child_person_id": null,
+      "citations": [
+        {
+          "qid": "Q7250",
+          "property": "P40",
+          "locator": "P40（子女）"
+        }
+      ]
+    },
+    {
+      "parent_qid": "Q7250",
+      "child_qid": "Q16260455",
+      "parent_name": "王莽",
+      "child_name": "王臨",
+      "parent_person_id": "p_ftTmaf71Kwzdeaet16S991",
+      "child_person_id": null,
+      "citations": [
+        {
+          "qid": "Q7250",
+          "property": "P40",
+          "locator": "P40（子女）"
+        }
+      ]
+    },
+    {
+      "parent_qid": "Q7250",
+      "child_qid": "Q16603520",
+      "parent_name": "王莽",
+      "child_name": "王捷",
+      "parent_person_id": "p_ftTmaf71Kwzdeaet16S991",
+      "child_person_id": null,
+      "citations": [
+        {
+          "qid": "Q7250",
+          "property": "P40",
+          "locator": "P40（子女）"
+        }
+      ]
+    },
+    {
+      "parent_qid": "Q7250",
+      "child_qid": "Q16603521",
+      "parent_name": "王莽",
+      "child_name": "王曄",
+      "parent_person_id": "p_ftTmaf71Kwzdeaet16S991",
+      "child_person_id": null,
+      "citations": [
+        {
+          "qid": "Q7250",
+          "property": "P40",
+          "locator": "P40（子女）"
+        }
+      ]
+    },
+    {
+      "parent_qid": "Q7250",
+      "child_qid": "Q17026272",
+      "parent_name": "王莽",
+      "child_name": "王兴",
+      "parent_person_id": "p_ftTmaf71Kwzdeaet16S991",
+      "child_person_id": null,
+      "citations": [
+        {
+          "qid": "Q7250",
+          "property": "P40",
+          "locator": "P40（子女）"
+        }
+      ]
+    },
+    {
+      "parent_qid": "Q7250",
+      "child_qid": "Q712297",
+      "parent_name": "王莽",
+      "child_name": "孝平王皇后",
+      "parent_person_id": "p_ftTmaf71Kwzdeaet16S991",
+      "child_person_id": null,
+      "citations": [
+        {
+          "qid": "Q7250",
+          "property": "P40",
+          "locator": "P40（子女）"
+        }
+      ]
+    }
+  ],
+  "skipped": []
+}
