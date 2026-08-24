@@ -38,6 +38,19 @@ export function normalizeRelationship(
         subject_person_id: currentPersonId,
         object_person_id: relatedPersonId,
       };
+    case 'ancestor':
+      // "related is an ancestor of the CURRENT person, generations unknown"
+      return {
+        predicate: 'kinship.ancestor_of',
+        subject_person_id: relatedPersonId,
+        object_person_id: currentPersonId,
+      };
+    case 'descendant':
+      return {
+        predicate: 'kinship.ancestor_of',
+        subject_person_id: currentPersonId,
+        object_person_id: relatedPersonId,
+      };
     case 'spouse':
       // Symmetric; store canonically with the lexicographically-smaller id as subject
       // so the two directions collapse to one row.
@@ -61,14 +74,18 @@ export function normalizeRelationship(
 
 /**
  * Chinese kinship terms, as external genealogical databases write them, mapped
- * onto the three directions this API accepts.
+ * onto the directions this API accepts.
  *
- * Deliberately narrow. The model stores `kinship.parent_of` and
- * `kinship.spouse_of`; a sibling, an uncle, a son-in-law or a 十世孫 has no
- * faithful representation here, so those terms return null and the caller
+ * Deliberately narrow. A sibling, an uncle or a son-in-law has no faithful
+ * representation in this model, so those terms return null and the caller
  * reports them instead of forcing them into a predicate that would misstate the
  * source. Gendered terms (父/母, 長子/長女) all collapse onto the same neutral
  * direction — the original term belongs in the citation, not in the predicate.
+ *
+ * 十世孫 and its kin stay out too, even though `ancestor_of` could now hold
+ * them: this table yields a direction and nothing else, so it would silently
+ * drop the one thing that term carries — the generation count. A caller that
+ * can put「十世孫」in the citation's locator submits `descendant` itself.
  *
  * 妾 is intentionally absent: a concubinage is not the same statement as
  * `spouse_of`, and inventing that equivalence is exactly the kind of inference
@@ -124,9 +141,10 @@ export class KinshipError extends Error {
 }
 
 /**
- * Detect an obvious ancestor cycle that adding parent_of(parent -> child) would
- * create, given a function that returns the known parents of a person. We only
- * REPORT cycles; callers must never auto-delete historical data because of one.
+ * Detect an obvious ancestor cycle that adding parent_of/ancestor_of
+ * (ancestor -> descendant) would create, given a function that returns the known
+ * ancestors of a person. We only REPORT cycles; callers must never auto-delete
+ * historical data because of one.
  */
 export function wouldCreateAncestorCycle(
   parentId: string,

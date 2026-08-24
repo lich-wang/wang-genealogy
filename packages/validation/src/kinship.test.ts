@@ -59,6 +59,28 @@ describe('wouldCreateAncestorCycle', () => {
   });
 });
 
+describe('normalizeRelationship: descent across unknown generations', () => {
+  it('stores "ancestor" as related --ancestor_of--> current', () => {
+    expect(normalizeRelationship('p_ME', 'ancestor', 'p_OLD')).toEqual({
+      predicate: 'kinship.ancestor_of',
+      subject_person_id: 'p_OLD',
+      object_person_id: 'p_ME',
+    });
+  });
+
+  it('stores "descendant" the other way round, still one row', () => {
+    expect(normalizeRelationship('p_OLD', 'descendant', 'p_ME')).toEqual({
+      predicate: 'kinship.ancestor_of',
+      subject_person_id: 'p_OLD',
+      object_person_id: 'p_ME',
+    });
+  });
+
+  it('refuses to relate a person to themselves', () => {
+    expect(() => normalizeRelationship('p_ME', 'ancestor', 'p_ME')).toThrow(KinshipError);
+  });
+});
+
 describe('mapChineseKinshipTerm', () => {
   it('maps the terms an external database writes for a parent', () => {
     for (const term of ['父', '母', '生父', '嫡母']) {

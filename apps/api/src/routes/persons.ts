@@ -216,14 +216,15 @@ app.post('/:id/relationships', async (c) => {
     throw e;
   }
 
-  // Report-only cycle check for parent_of; block creating a NEW cycle edge
-  // (this rejects a new edge, it never deletes existing historical data).
-  if (edge.predicate === 'kinship.parent_of') {
+  // Cycle check for descent edges; blocks creating a NEW cycle edge (it rejects
+  // the new edge, never deletes existing historical data). ancestor_of counts:
+  // "A is an ancestor of B" and "B is an ancestor of A" cannot both hold.
+  if (edge.predicate === 'kinship.parent_of' || edge.predicate === 'kinship.ancestor_of') {
     if (
       edge.subject_person_id === edge.object_person_id ||
       (await createsCycle(c.env.DB, edge.subject_person_id, edge.object_person_id))
     )
-      throw conflict('kinship_cycle', '該父子關係會形成親屬環。');
+      throw conflict('kinship_cycle', '該世系關係會形成親屬環。');
   }
 
   const { claim, statements } = buildClaimCreation({
@@ -355,7 +356,9 @@ async function createsCycle(db: D1Database, parentId: string, childId: string): 
     const res = await db
       .prepare(
         `SELECT DISTINCT subject_person_id AS pid FROM claim
-          WHERE predicate = 'kinship.parent_of' AND object_person_id IN (${ph})`,
+          WHERE predicate IN ('kinship.parent_of', 'kinship.ancestor_of')
+            AND status NOT IN ('retracted','superseded')
+            AND object_person_id IN (${ph})`,
       )
       .bind(...frontier)
       .all<{ pid: string }>();

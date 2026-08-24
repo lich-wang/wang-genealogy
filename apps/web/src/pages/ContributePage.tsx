@@ -478,6 +478,10 @@ function CreateRelationshipForm({ initialPerson }: { initialPerson: string }) {
     parent: '父/母（對方是當前人物的父母）',
     child: '子/女（對方是當前人物的子女）',
     spouse: '配偶',
+    // For a source that states descent without naming the generations between
+    // ("太子晉後代"、"王元四世孫"). Put the stated generation in the locator.
+    ancestor: '先祖（對方是當前人物的先祖，代數不明）',
+    descendant: '後代（對方是當前人物的後代，代數不明）',
   };
 
   async function submit(e: FormEvent) {

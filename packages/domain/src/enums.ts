@@ -47,12 +47,23 @@ export const RELATIONSHIP_PREDICATES = [
   'kinship.spouse_of',
   'kinship.adoptive_parent_of',
   'kinship.step_parent_of',
+  // Descent across an unknown number of generations. Chinese genealogies state
+  // origins exactly this way — 「太子晉後代」, 「王元四世孫」 — and squeezing that
+  // into parent_of would invent generations no source names. The number of
+  // generations, when a source gives one, belongs in the citation's locator.
+  'kinship.ancestor_of',
 ] as const;
 export type RelationshipPredicate = (typeof RELATIONSHIP_PREDICATES)[number];
 
 // Natural-language relationship direction accepted by the API before it is
 // normalized server-side to a *_of predicate anchored on a PARENT.
-export const RELATIONSHIP_INPUT = ['parent', 'child', 'spouse'] as const;
+export const RELATIONSHIP_INPUT = [
+  'parent',
+  'child',
+  'spouse',
+  'ancestor',
+  'descendant',
+] as const;
 export type RelationshipInput = (typeof RELATIONSHIP_INPUT)[number];
 
 export const SOURCE_TYPE = [

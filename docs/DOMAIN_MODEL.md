@@ -80,6 +80,7 @@ Person ──< Claim ──< ClaimRevision
 - `kinship.spouse_of`
 - `kinship.adoptive_parent_of`
 - `kinship.step_parent_of`
+- `kinship.ancestor_of`
 
 父母和子女不保存成两条互相复制的记录。统一保存 `parent_of`：
 
@@ -92,6 +93,18 @@ PARENT --kinship.parent_of--> CHILD
 若资料只能说明“父母之一”而不能判断父或母，仍使用 `parent_of`，不要根据姓名或传统惯例推断性别角色。外部数据库的「父」「母」「長子」「女兒」等称谓同样只映射到中性谓词，原始称谓写进引用的 `locator`，不编码成角色（映射表见 `packages/validation`）。
 
 `kinship.spouse_of` 是对称关系，同样只保存一条：服务端把两个人物 ID 中较小者作为 `subject`，因此从任一方提交都会归一化到同一行。
+
+#### 代数不明的世系：`kinship.ancestor_of`
+
+中国谱系的来源经常只说世系而不点名中间各代：「太子晉後代」「王元四世孫」「琅邪王氏之後」。把这种说法塞进 `parent_of` 会凭空造出来源从未提到的世代，因此单独用 `kinship.ancestor_of` 表示「代数不明的先祖—后代」：
+
+```text
+ANCESTOR --kinship.ancestor_of--> DESCENDANT
+```
+
+同样只保存一条方向。接口接受相对于当前人物的 `ancestor` 和 `descendant`，服务端归一化到以先祖为 `subject`。来源若给出代数（「四世孫」），代数写进引用的 `locator`，不编码进谓词——它是来源的说法，不是本项目的断言。
+
+`ancestor_of` 与 `parent_of` 一同参与环检测：「A 是 B 的先祖」和「B 是 A 的先祖」不能同时成立。反过来，`ancestor_of` **不会**由 `parent_of` 链自动推导出来，也不应该为已经有完整父子链的两个人再补一条 `ancestor_of`——那只是冗余。
 
 #### value_json 与字形标记
 

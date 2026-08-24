@@ -111,7 +111,7 @@ POST /api/v1/persons/{personId}/claims
 
 ## 三、父母与子女主张
 
-为了便于前端使用，同一个接口接受相对于当前人物的 `parent` 和 `child`，服务端统一转成 `parent_of`。
+为了便于前端使用，同一个接口接受相对于当前人物的 `parent`、`child`、`spouse`、`ancestor`、`descendant`，服务端统一归一化到单一方向的谓词：`parent`/`child` → `parent_of`，`ancestor`/`descendant` → `ancestor_of`，`spouse` → `spouse_of`。
 
 ```http
 POST /api/v1/persons/{personId}/relationships
@@ -155,6 +155,25 @@ POST /api/v1/persons/{personId}/relationships
 P_PARENT parent_of {personId}
 {personId} parent_of P_CHILD
 ```
+
+### 代数不明的世系
+
+来源只说「某人是某人的后代」而不点名中间各代时（「太子晉後代」「王元四世孫」），用 `ancestor` 与 `descendant`，服务端统一转成 `kinship.ancestor_of`：
+
+```json
+{
+  "relationship": "ancestor",
+  "related_person_id": "P_OLD",
+  "sources": [{ "source_id": "SRC_456", "stance": "supports", "locator": "王元四世孫" }]
+}
+```
+
+```text
+P_OLD ancestor_of {personId}
+{personId} ancestor_of P_DESCENDANT
+```
+
+来源给出的代数写在 `locator` 里，不进入谓词。`ancestor_of` 与 `parent_of` 共用环检测：若新关系会构成亲属环，返回 `409 kinship_cycle`。
 
 ## 四、修改、争议与回滚
 

@@ -33,6 +33,7 @@ export const PREDICATE_LABELS: Record<string, string> = {
   'kinship.spouse_of': '配偶關係',
   'kinship.adoptive_parent_of': '收養關係',
   'kinship.step_parent_of': '繼親關係',
+  'kinship.ancestor_of': '世系（先祖—後代）',
 };
 
 export function predicateLabel(predicate: string): string {
