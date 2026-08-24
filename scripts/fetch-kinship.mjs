@@ -1,42 +1,56 @@
-// Look up parent/child kinship for the persons already in the database and
-// write a reviewable import plan.
+// Look up kinship for the persons already in the database and write a
+// reviewable import plan.
 //
-// Reads the roster (person id + name + Wikidata QID) straight from D1, asks
-// Wikidata for each person's father (P22), mother (P25) and children (P40),
-// then emits scripts/kinship-data.json describing:
+//   node scripts/fetch-kinship.mjs [--hops 1] [--max-new 250]
+//                                  [--sources wikidata,cbdb] [--local]
 //
-//   * `new_persons` — relatives not yet in the database, with the claims to
-//     create (name, era description, birth/death when Wikidata states them);
-//   * `edges` — one parent→child link per pair, with every Wikidata statement
-//     that supports it as a separate citation;
-//   * `skipped` — relatives deliberately left out, with the reason.
+// Two sources are consulted per person:
 //
-// Nothing is written to the database: `import-kinship.mjs` does that through the
-// HTTP API so the server-side invariants run. Re-running after an import walks
-// one more generation outward, because the roster is read from the database.
+//   * Wikidata — P22 父, P25 母, P40 子女, P26 配偶.
+//   * CBDB     — 亲属关系, mapped from Chinese kinship terms; anything this
+//                domain model cannot state faithfully (siblings, in-laws,
+//                grandchildren) is reported, never forced into a predicate.
 //
-// Policy notes baked into this script:
-//   * Only deceased historical persons may be published. A relative is kept
-//     when Wikidata gives a death date, a birth date before 1900, a pre-modern
-//     state as country of citizenship, an era in its description, or — the
-//     common case for minor figures with no data of their own — when it is one
-//     generation from a person who is dated to before 1900 and therefore cannot
-//     itself be living. Everything else is skipped and listed.
-//   * We never invent a value a source does not state — in particular no
-//     "卒年：不详" placeholder claims. Coarse Wikidata precisions are kept
-//     coarse ("3世纪", "前1世纪") instead of being sharpened to a year.
-//   * Wikidata says "father"/"mother"; the domain model stores only
-//     `kinship.parent_of`, so the specific property goes into the citation's
-//     locator instead of being turned into a gendered predicate.
-//   * Labels are stored exactly as Wikidata publishes them (preferring the
-//     zh-cn/zh-hans label, else zh, else zh-hant) and tagged with the script we
-//     detect. No simplified/traditional conversion is ever written.
+// The two are cross-linked by Wikidata's CBDB id (P497), which is what keeps one
+// historical person from being created twice under two identifiers.
 //
-// Usage: node scripts/fetch-kinship.mjs [--local] [--out scripts/kinship-data.json]
+// Output: scripts/kinship-data.json — persons to create, edges to link, sources
+// to cite, plus what was skipped and why. Nothing is written here;
+// `import-kinship.mjs` submits the plan through the HTTP API.
+//
+// Policy baked in:
+//   * Only deceased historical persons. Evidence is a death date, a pre-1900
+//     birth, an extinct polity, a dynasty in the description or CBDB's dynasty
+//     field, or being one generation (or a spouse) away from someone so dated.
+//     Anything else is skipped and listed.
+//   * Spouses are recorded as a relationship only — a spouse-only record gets a
+//     name and nothing else, per the project's instruction not to build out
+//     basic information for them.
+//   * Nothing is invented: no "卒年：不详" placeholders, and coarse precisions
+//     stay coarse.
+//   * Names are stored exactly as the source publishes them and tagged with the
+//     script we detect; no 简繁 conversion is ever written.
 
 import { readFileSync, writeFileSync } from 'node:fs';
-import { detectScript } from '../packages/i18n/src/script.ts';
+import { detectScript, foldKey } from '../packages/i18n/src/script.ts';
 import { d1Query } from './lib/d1.mjs';
+import {
+  CBDB_SOURCE_TEMPLATE,
+  basicInfo as cbdbBasicInfo,
+  cbdbPersonUrl,
+  fetchPerson as fetchCbdbPerson,
+  kinship as cbdbKinship,
+} from './lib/cbdb.mjs';
+import {
+  KINSHIP_PROPERTIES,
+  dateClaim,
+  factsFor,
+  kinshipFor,
+  pickName,
+  qidsByCbdb,
+  yearOf,
+  formatWikidataTime,
+} from './lib/wikidata.mjs';
 
 const args = process.argv.slice(2);
 const flag = (name) => args.includes(name);
@@ -45,406 +59,632 @@ const option = (name, fallback) => {
   return i >= 0 && args[i + 1] ? args[i + 1] : fallback;
 };
 
-const database = option('--db', process.env.D1_DATABASE ?? 'wang-genealogy');
-const remote = !flag('--local');
-const outPath = option('--out', new URL('kinship-data.json', import.meta.url).pathname);
-const USER_AGENT = 'wang-genealogy-kinship/0.1 (https://wang-genealogy-web.pages.dev)';
-
-/** Wikidata properties we read, and what each says about the pair. */
-const KINSHIP_PROPERTIES = {
-  P22: { label: '父', otherIs: 'parent' },
-  P25: { label: '母', otherIs: 'parent' },
-  P40: { label: '子女', otherIs: 'child' },
+const d1 = {
+  database: option('--db', process.env.D1_DATABASE ?? 'wang-genealogy'),
+  remote: !flag('--local'),
 };
+const hops = Math.max(1, Number(option('--hops', '1')));
+const maxNew = Math.max(1, Number(option('--max-new', '250')));
+const enabled = new Set(option('--sources', 'wikidata,cbdb').split(',').map((s) => s.trim()));
+const outPath = option('--out', new URL('kinship-data.json', import.meta.url).pathname);
 
-/**
- * States/dynasties that place a person firmly in the past. Only consulted when
- * Wikidata has no usable dates for that person.
- */
 const HISTORICAL_ERA =
   /(秦|漢|汉|魏|蜀|吳|吴|晉|晋|隋|唐|宋|遼|辽|金|元|明|清|齊|齐|梁|陳|陈|周|商|春秋|戰國|战国|匈奴|Qin|Han|Wei|Shu|Jin dynasty|Sui|Tang|Song|Liao|Yuan|Ming|Qing|Xiongnu|Three Kingdoms|Northern|Southern)/;
+const CUTOFF_YEAR = 1900;
 
-/**
- * A dated anchor only vouches for a neighbouring generation if the anchor's own
- * date is far enough back that a parent or child of theirs cannot be alive now:
- * a child born the year its parent died still dies within ~120 years.
- */
-const ADJACENCY_CUTOFF_YEAR = 1900;
+// --- person registry --------------------------------------------------------
 
-// --- 1. roster: who is already in the database, and their QID ----------------
+let nodeSeq = 0;
+const nodes = new Map();
+const byQid = new Map();
+const byCbdb = new Map();
+const merges = [];
+
+function keyOf(node) {
+  return node.qid ? `wd:${node.qid}` : `cbdb:${node.cbdb}`;
+}
+
+/** Find or create the node for an identity, merging when two ids meet. */
+function resolveNode({ qid = null, cbdb = null }, seed = {}) {
+  const viaQid = qid ? byQid.get(qid) : undefined;
+  const viaCbdb = cbdb ? byCbdb.get(cbdb) : undefined;
+
+  let node = viaQid ?? viaCbdb;
+  if (viaQid && viaCbdb && viaQid !== viaCbdb) {
+    // Same person reached under two identifiers: keep the older node and fold
+    // the other into it, so one historical person stays one record.
+    const [keep, drop] = viaQid.seq <= viaCbdb.seq ? [viaQid, viaCbdb] : [viaCbdb, viaQid];
+    merges.push({ kept: keyOf(keep), dropped: keyOf(drop), reason: 'qid_and_cbdb_agree' });
+    keep.qid ??= drop.qid;
+    keep.cbdb ??= drop.cbdb;
+    keep.roles = new Set([...keep.roles, ...drop.roles]);
+    keep.person_id ??= drop.person_id;
+    keep.hop = Math.min(keep.hop, drop.hop);
+    drop.merged_into = keep;
+    nodes.delete(drop.id);
+    if (drop.qid) byQid.set(drop.qid, keep);
+    if (drop.cbdb) byCbdb.set(drop.cbdb, keep);
+    node = keep;
+  }
+
+  if (!node) {
+    node = {
+      id: `n${nodeSeq}`,
+      seq: nodeSeq++,
+      qid: null,
+      cbdb: null,
+      person_id: null,
+      name: null,
+      facts: null,
+      cbdb_info: null,
+      roles: new Set(),
+      hop: seed.hop ?? 0,
+      introduced_by: seed.introduced_by ?? null,
+      source_keys: new Set(),
+      ...seed,
+    };
+    nodes.set(node.id, node);
+  }
+  if (qid && !node.qid) {
+    node.qid = qid;
+    byQid.set(qid, node);
+  }
+  if (cbdb && !node.cbdb) {
+    node.cbdb = cbdb;
+    byCbdb.set(cbdb, node);
+  }
+  if (qid) byQid.set(qid, node);
+  if (cbdb) byCbdb.set(cbdb, node);
+  return node;
+}
+
+// --- 1. roster: who is already in the database ------------------------------
 
 const overrides = JSON.parse(
   readFileSync(new URL('wikidata-qid-overrides.json', import.meta.url), 'utf8'),
 );
-const overrideByPerson = new Map(overrides.persons.map((p) => [p.person_id, p.qid]));
 
 const rosterRows = d1Query(
   `SELECT p.id AS person_id, p.status,
           (SELECT json_extract(c.value_json, '$.text') FROM claim c
              WHERE c.subject_person_id = p.id AND c.predicate = 'name.primary'
              ORDER BY c.created_at LIMIT 1) AS name,
-          (SELECT s.external_identifier FROM claim_source cs
+          (SELECT group_concat(DISTINCT s.external_identifier) FROM claim_source cs
              JOIN source s ON s.id = cs.source_id
              JOIN claim c2 ON c2.id = cs.claim_id
             WHERE c2.subject_person_id = p.id
-              AND s.external_identifier LIKE 'Q%'
-            ORDER BY cs.created_at LIMIT 1) AS qid
+              AND c2.predicate = 'name.primary'
+              AND s.external_identifier IS NOT NULL) AS identifiers
      FROM person p
     WHERE p.status IN ('candidate', 'active')
     ORDER BY p.created_at`,
-  { database, remote, label: 'roster' },
+  { ...d1, label: 'roster' },
 );
 
-const roster = rosterRows.map((r) => ({
-  person_id: r.person_id,
-  status: r.status,
-  name: r.name,
-  qid: r.qid ?? overrideByPerson.get(r.person_id) ?? null,
-}));
+const overrideByPerson = new Map(overrides.persons.map((p) => [p.person_id, p.qid]));
+const foldedExisting = new Map();
 
-const personByQid = new Map(roster.filter((r) => r.qid).map((r) => [r.qid, r]));
-const withoutQid = roster.filter((r) => !r.qid);
-
-console.error(`roster: ${roster.length} persons, ${personByQid.size} with a Wikidata QID`);
-for (const p of withoutQid) console.error(`  ! no QID, cannot expand: ${p.name} (${p.person_id})`);
-if (personByQid.size === 0) {
-  console.error('nothing to expand');
-  process.exit(1);
-}
-
-// --- 2. ask Wikidata --------------------------------------------------------
-
-const qid = (uri) => uri.split('/').pop();
-
-async function sparql(query) {
-  const res = await fetch('https://query.wikidata.org/sparql', {
-    method: 'POST',
-    headers: {
-      accept: 'application/sparql-results+json',
-      'content-type': 'application/x-www-form-urlencoded',
-      'user-agent': USER_AGENT,
-    },
-    body: new URLSearchParams({ query }),
-  });
-  if (!res.ok) {
-    throw new Error(`wikidata query failed: ${res.status}\n${(await res.text()).slice(0, 800)}`);
+for (const row of rosterRows) {
+  const identifiers = (row.identifiers ?? '').split(',').filter(Boolean);
+  let qid = overrideByPerson.get(row.person_id) ?? null;
+  let cbdb = null;
+  for (const id of identifiers) {
+    if (/^Q\d+$/.test(id)) qid ??= id;
+    const m = /^CBDB[:=]?\s*(\d+)$/i.exec(id);
+    if (m) cbdb ??= m[1].replace(/^0+/, '');
   }
-  return (await res.json()).results.bindings;
-}
-
-/** Shared shape for "what Wikidata knows about this person". */
-function blankFacts(itemQid) {
-  return {
-    qid: itemQid,
-    labels: {},
-    descriptions: {},
-    countries: new Set(),
-    zh_wikipedia: null,
-    birth: null,
-    death: null,
-  };
-}
-
-function absorbFacts(facts, b, prefix = '') {
-  const key = (name) => `${prefix}${name}`;
-  const put = (bag, field, value) => {
-    if (value && !bag[field]) bag[field] = value;
-  };
-  put(facts.labels, 'hans', b[key('labelHans')]?.value);
-  put(facts.labels, 'zh', b[key('labelZh')]?.value);
-  put(facts.labels, 'hant', b[key('labelHant')]?.value);
-  put(facts.labels, 'en', b[key('labelEn')]?.value);
-  put(facts.descriptions, 'zh', b[key('descZh')]?.value);
-  put(facts.descriptions, 'en', b[key('descEn')]?.value);
-  if (b[key('countryZh')]?.value) facts.countries.add(b[key('countryZh')].value);
-  if (b[key('countryEn')]?.value) facts.countries.add(b[key('countryEn')].value);
-  if (b[key('zhwiki')]?.value) facts.zh_wikipedia ??= b[key('zhwiki')].value;
-  if (b[key('birth')]?.value) {
-    facts.birth ??= {
-      value: b[key('birth')].value,
-      precision: Number(b[key('birthPrecision')]?.value ?? 9),
-    };
-  }
-  if (b[key('death')]?.value) {
-    facts.death ??= {
-      value: b[key('death')].value,
-      precision: Number(b[key('deathPrecision')]?.value ?? 9),
-    };
+  const node = resolveNode({ qid, cbdb }, { hop: 0 });
+  node.person_id = row.person_id;
+  node.name = row.name ? { text: row.name, language: detectScript(row.name) ?? 'zh-Hans' } : null;
+  node.existing = true;
+  if (row.name) {
+    const folded = foldKey(row.name);
+    if (!foldedExisting.has(folded)) foldedExisting.set(folded, []);
+    foldedExisting.get(folded).push({ person_id: row.person_id, name: row.name });
   }
 }
 
-/** The OPTIONAL block used for both anchors and relatives. */
-const factsPattern = (v) => `
-  OPTIONAL { ?${v} rdfs:label ?labelHans FILTER(lang(?labelHans) IN ("zh-cn", "zh-hans")) }
-  OPTIONAL { ?${v} rdfs:label ?labelZh FILTER(lang(?labelZh) = "zh") }
-  OPTIONAL { ?${v} rdfs:label ?labelHant FILTER(lang(?labelHant) IN ("zh-hant", "zh-tw", "zh-hk")) }
-  OPTIONAL { ?${v} rdfs:label ?labelEn FILTER(lang(?labelEn) = "en") }
-  OPTIONAL { ?${v} schema:description ?descZh FILTER(lang(?descZh) IN ("zh", "zh-cn", "zh-hans", "zh-hant", "zh-tw")) }
-  OPTIONAL { ?${v} schema:description ?descEn FILTER(lang(?descEn) = "en") }
-  OPTIONAL { ?${v} p:P569/psv:P569 [ wikibase:timeValue ?birth; wikibase:timePrecision ?birthPrecision ] }
-  OPTIONAL { ?${v} p:P570/psv:P570 [ wikibase:timeValue ?death; wikibase:timePrecision ?deathPrecision ] }
-  OPTIONAL { ?${v} wdt:P27 ?country.
-             OPTIONAL { ?country rdfs:label ?countryZh FILTER(lang(?countryZh) IN ("zh", "zh-cn", "zh-hans")) }
-             OPTIONAL { ?country rdfs:label ?countryEn FILTER(lang(?countryEn) = "en") } }
-  OPTIONAL { ?zhwiki schema:about ?${v}; schema:isPartOf <https://zh.wikipedia.org/> }`;
+const rosterNodes = [...nodes.values()];
+console.error(
+  `roster: ${rosterRows.length} persons | 有 QID ${rosterNodes.filter((n) => n.qid).length} |` +
+    ` 有 CBDB ${rosterNodes.filter((n) => n.cbdb).length}`,
+);
 
-const subjectValues = [...personByQid.keys()].map((q) => `wd:${q}`).join(' ');
-
-// 2a. the anchors themselves — needed to judge whether they can vouch for a
-//     relative that carries no dates of its own.
-const anchorFacts = new Map();
-for (const b of await sparql(`
-SELECT ?p ?labelHans ?labelZh ?labelHant ?labelEn ?descZh ?descEn
-       ?birth ?birthPrecision ?death ?deathPrecision ?countryZh ?countryEn ?zhwiki
-WHERE {
-  VALUES ?p { ${subjectValues} }
-  ${factsPattern('p')}
-}`)) {
-  const id = qid(b.p.value);
-  if (!anchorFacts.has(id)) anchorFacts.set(id, blankFacts(id));
-  absorbFacts(anchorFacts.get(id), b);
-}
-console.error(`wikidata: facts for ${anchorFacts.size} anchors`);
-
-// 2b. one generation up and down.
-const statements = new Map();
-for (const b of await sparql(`
-SELECT ?p ?rel ?other ?labelHans ?labelZh ?labelHant ?labelEn ?descZh ?descEn
-       ?birth ?birthPrecision ?death ?deathPrecision ?countryZh ?countryEn ?zhwiki
-WHERE {
-  VALUES ?p { ${subjectValues} }
-  { ?p wdt:P22 ?other. BIND("P22" AS ?rel) }
-  UNION { ?p wdt:P25 ?other. BIND("P25" AS ?rel) }
-  UNION { ?p wdt:P40 ?other. BIND("P40" AS ?rel) }
-  ${factsPattern('other')}
-}`)) {
-  const key = `${qid(b.p.value)}|${b.rel.value}|${qid(b.other.value)}`;
-  if (!statements.has(key)) {
-    statements.set(key, {
-      subject_qid: qid(b.p.value),
-      property: b.rel.value,
-      facts: blankFacts(qid(b.other.value)),
-    });
+// Learn the CBDB id of existing persons from Wikidata (P497) so CBDB expansion
+// can start from them even though the database never recorded one.
+if (enabled.has('wikidata')) {
+  const facts = await factsFor(rosterNodes.filter((n) => n.qid).map((n) => n.qid));
+  for (const node of rosterNodes) {
+    const f = node.qid ? facts.get(node.qid) : null;
+    if (!f) continue;
+    node.facts = f;
+    if (f.cbdb && !node.cbdb) {
+      node.cbdb = f.cbdb;
+      byCbdb.set(f.cbdb, node);
+    }
   }
-  absorbFacts(statements.get(key).facts, b);
-}
-console.error(`wikidata: ${statements.size} kinship statements`);
-
-// --- 3. interpreting Wikidata values ----------------------------------------
-
-/** Signed year of a Wikidata time value, or NaN. */
-function yearOf(time) {
-  const match = /^([+-]?)(\d{4,})-/.exec(time.value);
-  if (!match) return Number.NaN;
-  const year = Number(match[2]);
-  return match[1] === '-' ? -year : year;
+  console.error(`roster: 补齐 CBDB id 后共 ${rosterNodes.filter((n) => n.cbdb).length} 人可查 CBDB`);
 }
 
-/** Wikidata time value -> the original-text form this project stores. */
-function formatWikidataTime(time) {
-  const match = /^([+-]?)(\d{4,})-(\d{2})-(\d{2})T/.exec(time.value);
-  if (!match) return null;
-  const [, sign, yearRaw, month, day] = match;
-  const year = Number(yearRaw);
-  if (year === 0) return null;
-  const era = sign === '-' ? '前' : '';
-  if (time.precision >= 11) return `${era}${year}年${Number(month)}月${Number(day)}日`;
-  if (time.precision === 10) return `${era}${year}年${Number(month)}月`;
-  if (time.precision === 9) return `${era}${year}年`;
-  if (time.precision === 8) return `${era}${Math.floor(year / 10) * 10}年代`;
-  if (time.precision === 7) return `${era}${Math.floor((year - 1) / 100) + 1}世纪`;
-  return null;
+// --- 2. expand, one generation per hop --------------------------------------
+
+const edges = new Map();
+const skipped = [];
+const unmapped = new Map();
+let capped = 0;
+
+function addCitation(edge, citation) {
+  const dup = edge.citations.some(
+    (c) => c.source_key === citation.source_key && c.locator === citation.locator,
+  );
+  if (!dup) edge.citations.push(citation);
 }
 
-const PRECISION_LABEL = { 11: '日', 10: '月', 9: '年', 8: '年代', 7: '世纪' };
-
-function dateClaim(property, time) {
-  const original_text = formatWikidataTime(time);
-  if (!original_text) return null;
-  const precision = PRECISION_LABEL[time.precision] ?? `wikibase:${time.precision}`;
-  return {
-    original_text,
-    calendar_note: `維基數據 ${property} 結構化日期，精度：${precision}`,
-  };
+/** Record a parent/child or spouse edge between two nodes, merging citations. */
+function addEdge(kind, first, second, citation) {
+  if (first === second) return null;
+  const [a, b] =
+    kind === 'spouse' ? [first, second].sort((x, y) => x.seq - y.seq) : [first, second];
+  const key = `${kind}|${a.id}|${b.id}`;
+  const edge =
+    edges.get(key) ??
+    (() => {
+      const created = { kind, a, b, citations: [] };
+      edges.set(key, created);
+      return created;
+    })();
+  addCitation(edge, citation);
+  return edge;
 }
+
+function noteRole(node, role) {
+  node.roles.add(role);
+}
+
+let frontier = rosterNodes.filter((n) => n.qid || n.cbdb);
+
+for (let hop = 1; hop <= hops; hop += 1) {
+  const discovered = [];
+  const canCreate = () => nodes.size - rosterRows.length < maxNew;
+
+  // 2a. Wikidata statements for the frontier.
+  if (enabled.has('wikidata')) {
+    const qids = frontier.filter((n) => n.qid).map((n) => n.qid);
+    const statements = qids.length ? await kinshipFor(qids) : [];
+    console.error(`hop ${hop}: wikidata ${statements.length} 条声明（${qids.length} 人）`);
+    for (const statement of statements) {
+      const anchor = byQid.get(statement.subject_qid);
+      if (!anchor) continue;
+      const relation = KINSHIP_PROPERTIES[statement.property];
+      const facts = statement.facts;
+      const name = pickName(facts);
+      if (!name) {
+        skipped.push({
+          anchor: anchor.name?.text ?? anchor.qid,
+          source: 'wikidata',
+          relation: statement.property,
+          relative: facts.qid,
+          reason: 'no_label',
+        });
+        continue;
+      }
+      const existing = byQid.get(facts.qid) ?? (facts.cbdb ? byCbdb.get(facts.cbdb) : undefined);
+      if (!existing && !canCreate()) {
+        capped += 1;
+        continue;
+      }
+      const node = resolveNode(
+        { qid: facts.qid, cbdb: facts.cbdb },
+        { hop, introduced_by: { node: anchor.id, relation: relation.otherIs, source: 'wikidata' } },
+      );
+      if (!node.facts) node.facts = facts;
+      if (!node.name) node.name = { text: name, language: detectScript(name) ?? 'zh-Hans' };
+      if (!node.existing && node.hop === hop && !discovered.includes(node)) discovered.push(node);
+
+      const sourceKey = `wd:${anchor.qid}`;
+      const citation = {
+        source_key: sourceKey,
+        locator: `${statement.property}（${relation.label}）`,
+        note: null,
+      };
+      if (relation.otherIs === 'parent') {
+        noteRole(node, 'parent');
+        noteRole(anchor, 'child');
+        addEdge('parent', node, anchor, citation);
+      } else if (relation.otherIs === 'child') {
+        noteRole(node, 'child');
+        noteRole(anchor, 'parent');
+        addEdge('parent', anchor, node, citation);
+      } else {
+        noteRole(node, 'spouse');
+        noteRole(anchor, 'spouse');
+        addEdge('spouse', anchor, node, citation);
+      }
+    }
+  }
+
+  // 2b. CBDB kinship for the frontier.
+  if (enabled.has('cbdb')) {
+    const withCbdb = frontier.filter((n) => n.cbdb);
+    const pending = [];
+    for (const anchor of withCbdb) {
+      const person = await fetchCbdbPerson(anchor.cbdb);
+      if (!person) continue;
+      anchor.cbdb_info ??= cbdbBasicInfo(person);
+      for (const row of cbdbKinship(person)) {
+        if (!row.kind) {
+          const entry = unmapped.get(row.term) ?? { term: row.term, count: 0, examples: [] };
+          entry.count += 1;
+          if (entry.examples.length < 3) {
+            entry.examples.push(`${anchor.name?.text ?? anchor.cbdb} → ${row.name}`);
+          }
+          unmapped.set(row.term, entry);
+          continue;
+        }
+        pending.push({ anchor, row });
+      }
+    }
+    console.error(`hop ${hop}: cbdb ${pending.length} 条可表达的亲属（${withCbdb.length} 人）`);
+
+    // Bridge CBDB ids to Wikidata items in one query, so a relative already in
+    // the graph under its QID is recognised instead of duplicated.
+    const bridge = pending.length ? await qidsByCbdb(pending.map((p) => p.row.cbdb)) : new Map();
+
+    for (const { anchor, row } of pending) {
+      const qid = bridge.get(row.cbdb) ?? null;
+      const existing = (qid ? byQid.get(qid) : undefined) ?? byCbdb.get(row.cbdb);
+      if (!existing && !canCreate()) {
+        capped += 1;
+        continue;
+      }
+      const node = resolveNode(
+        { qid, cbdb: row.cbdb },
+        { hop, introduced_by: { node: anchor.id, relation: row.kind, source: 'cbdb' } },
+      );
+      if (!node.name && row.name) {
+        node.name = { text: row.name, language: detectScript(row.name) ?? 'zh-Hant' };
+      }
+      if (!node.existing && node.hop === hop && !discovered.includes(node)) discovered.push(node);
+
+      const citation = {
+        source_key: `cbdb:${anchor.cbdb}`,
+        locator: `亲属关系：${row.term}`,
+        note: row.cited_source ? `CBDB 注明此条来源：${row.cited_source}` : null,
+      };
+      if (row.kind === 'parent') {
+        noteRole(node, 'parent');
+        noteRole(anchor, 'child');
+        addEdge('parent', node, anchor, citation);
+      } else if (row.kind === 'child') {
+        noteRole(node, 'child');
+        noteRole(anchor, 'parent');
+        addEdge('parent', anchor, node, citation);
+      } else {
+        noteRole(node, 'spouse');
+        noteRole(anchor, 'spouse');
+        addEdge('spouse', anchor, node, citation);
+      }
+    }
+  }
+
+  // Fill in what we still do not know about the newcomers, so the next hop can
+  // expand them and so their records carry dates.
+  const needFacts = discovered.filter((n) => n.qid && !n.facts).map((n) => n.qid);
+  if (enabled.has('wikidata') && needFacts.length) {
+    const facts = await factsFor(needFacts);
+    for (const node of discovered) {
+      const f = node.qid ? facts.get(node.qid) : null;
+      if (!f) continue;
+      node.facts = f;
+      if (f.cbdb && !node.cbdb) {
+        node.cbdb = f.cbdb;
+        byCbdb.set(f.cbdb, node);
+      }
+      const label = pickName(f);
+      if (label && !node.name) node.name = { text: label, language: detectScript(label) ?? 'zh-Hans' };
+    }
+  }
+  if (enabled.has('cbdb')) {
+    for (const node of discovered) {
+      if (!node.cbdb || node.cbdb_info) continue;
+      const person = await fetchCbdbPerson(node.cbdb);
+      if (person) node.cbdb_info = cbdbBasicInfo(person);
+    }
+  }
+
+  console.error(`hop ${hop}: 新增 ${discovered.length} 人（累计新增 ${nodes.size - rosterRows.length}）`);
+  frontier = discovered;
+  if (frontier.length === 0) break;
+}
+
+if (capped > 0) {
+  console.error(`! 达到 --max-new ${maxNew} 上限，跳过 ${capped} 条关系（未静默截断，重跑可继续）`);
+}
+
+// --- 3. historicity ---------------------------------------------------------
 
 /** Evidence that a person is a deceased historical figure, or null. */
-function ownEvidence(facts) {
-  if (facts.death) {
-    return { kind: 'death_date', detail: `維基數據 P570 = ${formatWikidataTime(facts.death) ?? facts.death.value}` };
+function ownEvidence(node) {
+  const f = node.facts;
+  if (f?.death) {
+    return {
+      kind: 'death_date',
+      detail: `维基数据 P570 = ${formatWikidataTime(f.death) ?? f.death.value}`,
+    };
   }
-  if (facts.birth && yearOf(facts.birth) < ADJACENCY_CUTOFF_YEAR) {
-    return { kind: 'birth_date', detail: `維基數據 P569 = ${formatWikidataTime(facts.birth) ?? facts.birth.value}` };
+  if (f?.birth && yearOf(f.birth) < CUTOFF_YEAR) {
+    return {
+      kind: 'birth_date',
+      detail: `维基数据 P569 = ${formatWikidataTime(f.birth) ?? f.birth.value}`,
+    };
   }
-  const country = [...facts.countries].find((c) => HISTORICAL_ERA.test(c));
-  if (country) return { kind: 'historical_country', detail: `維基數據 P27 = ${country}` };
-  const description = facts.descriptions.zh ?? facts.descriptions.en ?? '';
+  const info = node.cbdb_info;
+  if (info?.death_year && info.death_year < CUTOFF_YEAR) {
+    return { kind: 'cbdb_death_year', detail: `CBDB 卒年 = ${info.death_year}` };
+  }
+  if (info?.birth_year && info.birth_year < CUTOFF_YEAR) {
+    return { kind: 'cbdb_birth_year', detail: `CBDB 生年 = ${info.birth_year}` };
+  }
+  if (info?.dynasty && HISTORICAL_ERA.test(info.dynasty)) {
+    return { kind: 'cbdb_dynasty', detail: `CBDB 朝代 = ${info.dynasty}` };
+  }
+  const country = f ? [...f.countries].find((c) => HISTORICAL_ERA.test(c)) : null;
+  if (country) return { kind: 'historical_country', detail: `维基数据 P27 = ${country}` };
+  const description = f?.descriptions.zh ?? f?.descriptions.en ?? '';
   if (HISTORICAL_ERA.test(description)) return { kind: 'description_era', detail: description };
   return null;
 }
 
-/**
- * Whether this person is themselves placed far enough in the past to vouch for
- * a neighbouring generation. A date must clear the cutoff; an era (state of
- * citizenship or a dynasty named in the description) is enough on its own,
- * since a Qin-era general's child is not walking around today either.
- */
-function vouchingEvidence(facts) {
-  for (const [property, time] of [
-    ['P570', facts.death],
-    ['P569', facts.birth],
-  ]) {
-    if (time && yearOf(time) < ADJACENCY_CUTOFF_YEAR) {
-      return `維基數據 ${property} = ${formatWikidataTime(time) ?? time.value}`;
-    }
-  }
-  const country = [...facts.countries].find((c) => HISTORICAL_ERA.test(c));
-  if (country) return `維基數據 P27 = ${country}`;
-  const description = facts.descriptions.zh ?? facts.descriptions.en ?? '';
-  if (HISTORICAL_ERA.test(description)) return `維基數據描述「${description}」`;
-  return null;
+/** Whether this person is dated/placed far enough back to vouch for a neighbour. */
+function vouches(node) {
+  const evidence = ownEvidence(node);
+  return evidence ? evidence.detail : null;
 }
 
-const anchorEvidence = new Map(
-  [...anchorFacts].map(([id, facts]) => [
-    id,
-    { evidence: ownEvidence(facts), vouches: vouchingEvidence(facts) },
-  ]),
-);
+const RELATION_LABEL = { parent: '其子/女', child: '其父/母', spouse: '其配偶' };
 
-/** Preferred stored name: whichever label Wikidata publishes, never converted. */
-function pickName(facts) {
-  const text = facts.labels.hans ?? facts.labels.zh ?? facts.labels.hant ?? facts.labels.en ?? null;
-  if (!text) return null;
-  const han = /[㐀-鿿]/.test(text);
-  return { text, language: han ? (detectScript(text) ?? 'zh-Hans') : 'en' };
+/** CBDB stores a bare year; keep it as year precision and say where it came from. */
+function cbdbYearClaim(field, year) {
+  const text = year < 0 ? `前${Math.abs(year)}年` : `${year}年`;
+  return { original_text: text, calendar_note: `CBDB ${field}字段，精度：年` };
+}
+
+for (const node of nodes.values()) {
+  if (node.existing) continue;
+  let evidence = ownEvidence(node);
+  if (!evidence && node.introduced_by) {
+    const anchor = nodes.get(node.introduced_by.node) ?? null;
+    const vouch = anchor ? vouches(anchor) : null;
+    if (anchor && vouch) {
+      evidence = {
+        kind: 'adjacent_to_historical_person',
+        detail:
+          `${RELATION_LABEL[node.introduced_by.relation] ?? '其亲属'} ` +
+          `${anchor.name?.text ?? anchor.qid ?? anchor.cbdb}：${vouch}；相邻一代不可能仍在世`,
+      };
+    }
+  }
+  node.historicity = evidence;
+}
+
+// Drop unusable nodes and any edge that would dangle.
+const unusable = new Set();
+for (const node of nodes.values()) {
+  if (node.existing) continue;
+  if (!node.name?.text) {
+    unusable.add(node.id);
+    skipped.push({ key: keyOf(node), reason: 'no_name', detail: '两个来源都没有可用名称' });
+  } else if (!/[\u3400-\u9fff]/.test(node.name.text)) {
+    // An item whose only label is a romanization would enter a Chinese
+    // genealogy under a name no source actually writes that way.
+    unusable.add(node.id);
+    skipped.push({
+      key: keyOf(node),
+      name: node.name.text,
+      reason: 'no_chinese_label',
+      detail: '来源只有拉丁转写名，未录入',
+    });
+  } else if (!node.historicity) {
+    unusable.add(node.id);
+    skipped.push({
+      key: keyOf(node),
+      name: node.name.text,
+      reason: 'not_proven_historical',
+      detail: '无生卒年、无朝代、相邻人物亦无纪年，无法排除仍在世',
+    });
+  }
 }
 
 // --- 4. shape the plan ------------------------------------------------------
 
-const newPersons = new Map();
-const edges = new Map();
-const skipped = [];
-
-const sortedStatements = [...statements.values()].sort((a, b) =>
-  `${a.subject_qid}${a.property}${a.facts.qid}`.localeCompare(`${b.subject_qid}${b.property}${b.facts.qid}`),
-);
-
-for (const statement of sortedStatements) {
-  const { subject_qid: subjectQid, property, facts } = statement;
-  const anchor = personByQid.get(subjectQid);
-  const anchorInfo = anchorEvidence.get(subjectQid);
-  const existing = personByQid.get(facts.qid);
-  const name = pickName(facts);
-  const describe = () => ({
-    subject_qid: subjectQid,
-    subject_name: anchor.name,
-    property,
-    relative_qid: facts.qid,
-    relative_name: name?.text ?? null,
-  });
-
-  if (!name) {
-    skipped.push({ ...describe(), reason: 'no_label', detail: 'Wikidata 无可用名称标签' });
-    continue;
-  }
-
-  if (!existing) {
-    // Own evidence first; otherwise lean on the dated anchor one generation
-    // away, which is what most minor relatives rely on.
-    let evidence = ownEvidence(facts);
-    if (!evidence && anchorInfo?.vouches) {
-      const kinLabel = KINSHIP_PROPERTIES[property].otherIs === 'child' ? '其父/母' : '其子/女';
-      evidence = {
-        kind: 'adjacent_to_historical_person',
-        detail: `${kinLabel} ${anchor.name}（${subjectQid}）：${anchorInfo.vouches}；相鄰一代不可能仍在世`,
-      };
-    }
-    if (!evidence) {
-      skipped.push({
-        ...describe(),
-        reason: 'not_proven_historical',
-        detail: '维基数据无生卒年、无国籍、无朝代描述，相邻人物也无纪年，无法排除仍在世',
-      });
-      continue;
-    }
-    if (!newPersons.has(facts.qid)) {
-      newPersons.set(facts.qid, {
-        qid: facts.qid,
-        name,
-        description: facts.descriptions.zh
-          ? { text: facts.descriptions.zh, language: detectScript(facts.descriptions.zh) ?? 'zh-Hans' }
-          : facts.descriptions.en
-            ? { text: facts.descriptions.en, language: 'en' }
-            : null,
-        birth: facts.birth ? dateClaim('P569', facts.birth) : null,
-        death: facts.death ? dateClaim('P570', facts.death) : null,
-        zh_wikipedia: facts.zh_wikipedia,
-        historicity: evidence,
-      });
-    }
-  }
-
-  // Collapse mirrored statements (A P22 B and B P40 A) into one parent→child
-  // edge that cites both.
-  const otherIsParent = KINSHIP_PROPERTIES[property].otherIs === 'parent';
-  const parentQid = otherIsParent ? facts.qid : subjectQid;
-  const childQid = otherIsParent ? subjectQid : facts.qid;
-  const key = `${parentQid}|${childQid}`;
-  const edge = edges.get(key) ?? {
-    parent_qid: parentQid,
-    child_qid: childQid,
-    parent_name: otherIsParent ? name.text : anchor.name,
-    child_name: otherIsParent ? anchor.name : name.text,
-    parent_person_id: (otherIsParent ? existing : anchor)?.person_id ?? null,
-    child_person_id: (otherIsParent ? anchor : existing)?.person_id ?? null,
-    citations: [],
-  };
-  edge.citations.push({
-    // The statement lives on this item, so this item's record is the source.
-    qid: subjectQid,
-    property,
-    locator: `${property}（${KINSHIP_PROPERTIES[property].label}）`,
-  });
-  edges.set(key, edge);
-}
-
-// Every Wikidata item the importer has to cite, with the name to title its
-// source record. Anchors included: a P40 statement on an anchor is the evidence
-// for that edge, so the anchor's item is a source too.
-const referenced = new Map();
-for (const person of newPersons.values()) {
-  referenced.set(person.qid, { qid: person.qid, name: person.name.text, zh_wikipedia: person.zh_wikipedia });
-}
+const usedSourceKeys = new Set();
+const planEdges = [];
 for (const edge of edges.values()) {
-  for (const citation of edge.citations) {
-    if (referenced.has(citation.qid)) continue;
-    const facts = anchorFacts.get(citation.qid);
-    referenced.set(citation.qid, {
-      qid: citation.qid,
-      name: personByQid.get(citation.qid)?.name ?? pickName(facts ?? blankFacts(citation.qid))?.text ?? citation.qid,
-      zh_wikipedia: facts?.zh_wikipedia ?? null,
+  if (unusable.has(edge.a.id) || unusable.has(edge.b.id)) continue;
+  const a = edge.a.merged_into ?? edge.a;
+  const b = edge.b.merged_into ?? edge.b;
+  if (a === b) continue;
+  for (const c of edge.citations) usedSourceKeys.add(c.source_key);
+  planEdges.push({
+    kind: edge.kind,
+    ...(edge.kind === 'parent'
+      ? { parent_key: keyOf(a), child_key: keyOf(b), parent_name: a.name?.text, child_name: b.name?.text }
+      : { a_key: keyOf(a), b_key: keyOf(b), a_name: a.name?.text, b_name: b.name?.text }),
+    parent_person_id: edge.kind === 'parent' ? a.person_id : undefined,
+    child_person_id: edge.kind === 'parent' ? b.person_id : undefined,
+    a_person_id: edge.kind === 'spouse' ? a.person_id : undefined,
+    b_person_id: edge.kind === 'spouse' ? b.person_id : undefined,
+    citations: edge.citations,
+  });
+}
+
+const planPersons = [];
+const nameCollisions = [];
+for (const node of nodes.values()) {
+  if (node.existing || unusable.has(node.id)) continue;
+
+  // A spouse-only record exists so the marriage can be stated; per project
+  // instruction it carries no basic information beyond the name.
+  const spouseOnly = node.roles.has('spouse') && !node.roles.has('parent') && !node.roles.has('child');
+
+  const f = node.facts;
+  const info = node.cbdb_info;
+  const wdKey = node.qid ? `wd:${node.qid}` : null;
+  const cbdbKey = node.cbdb ? `cbdb:${node.cbdb}` : null;
+  const sourceKeys = [wdKey, cbdbKey].filter(Boolean);
+  for (const key of sourceKeys) usedSourceKeys.add(key);
+
+  // Claims are spelled out here so the plan is what gets reviewed, and the
+  // importer only has to submit it.
+  const claims = [
+    {
+      predicate: 'name.primary',
+      value: node.name,
+      confidence: 'high',
+      source_keys: sourceKeys,
+      change_summary: '导入亲属人物姓名',
+    },
+  ];
+
+  if (!spouseOnly) {
+    const description = f?.descriptions.zh
+      ? { text: f.descriptions.zh, language: detectScript(f.descriptions.zh) ?? 'zh-Hans' }
+      : f?.descriptions.en
+        ? { text: f.descriptions.en, language: 'en' }
+        : null;
+    if (description && wdKey) {
+      claims.push({
+        predicate: 'bio.summary',
+        value: description,
+        confidence: 'medium',
+        source_keys: [wdKey],
+        change_summary: '维基数据条目描述',
+      });
+    }
+    // Prefer Wikidata's structured date; fall back to CBDB's year field. When
+    // both exist and disagree they are both recorded — coexisting sourced
+    // claims are the point of this database, not something to average away.
+    if (f?.birth && wdKey) {
+      const date = dateClaim('P569', f.birth);
+      if (date) {
+        claims.push({
+          predicate: 'birth.date',
+          value: { date },
+          confidence: 'medium',
+          source_keys: [wdKey],
+          change_summary: '维基数据 P569',
+        });
+      }
+    } else if (info?.birth_year && cbdbKey) {
+      claims.push({
+        predicate: 'birth.date',
+        value: { date: cbdbYearClaim('生年', info.birth_year) },
+        confidence: 'medium',
+        source_keys: [cbdbKey],
+        change_summary: 'CBDB 生年',
+      });
+    }
+    if (f?.death && wdKey) {
+      const date = dateClaim('P570', f.death);
+      if (date) {
+        claims.push({
+          predicate: 'death.date',
+          value: { date },
+          confidence: 'medium',
+          source_keys: [wdKey],
+          change_summary: '维基数据 P570',
+        });
+      }
+    } else if (info?.death_year && cbdbKey) {
+      claims.push({
+        predicate: 'death.date',
+        value: { date: cbdbYearClaim('卒年', info.death_year) },
+        confidence: 'medium',
+        source_keys: [cbdbKey],
+        change_summary: 'CBDB 卒年',
+      });
+    }
+  }
+
+  const folded = foldKey(node.name.text);
+  if (foldedExisting.has(folded)) {
+    nameCollisions.push({
+      key: keyOf(node),
+      name: node.name.text,
+      existing: foldedExisting.get(folded),
+      note: '同名但外部标识不同：可能是同名异人，也可能需要人工提出合并提案',
+    });
+  }
+
+  planPersons.push({
+    key: keyOf(node),
+    qid: node.qid,
+    cbdb: node.cbdb,
+    hop: node.hop,
+    name: node.name,
+    spouse_only: spouseOnly,
+    claims,
+    historicity: node.historicity,
+    source_keys: sourceKeys,
+  });
+}
+
+// Source records for every citation the plan uses.
+const planSources = [];
+for (const key of usedSourceKeys) {
+  const [kind, id] = key.split(':');
+  if (kind === 'wd') {
+    const node = byQid.get(id);
+    const name = node?.name?.text ?? id;
+    planSources.push({
+      key,
+      kind: 'wikidata',
+      source_type: 'api_record',
+      title: `维基数据：${name}（${id}）`,
+      creator: '维基数据贡献者',
+      publisher: 'Wikimedia Foundation',
+      license_code: 'CC0-1.0',
+      canonical_url: `https://www.wikidata.org/wiki/${id}`,
+      external_identifier: id,
+      metadata_json: node?.facts?.zh_wikipedia ? { zh_wikipedia: node.facts.zh_wikipedia } : null,
+    });
+  } else {
+    const node = byCbdb.get(id);
+    const name = node?.cbdb_info?.name ?? node?.name?.text ?? id;
+    planSources.push({
+      key,
+      kind: 'cbdb',
+      ...CBDB_SOURCE_TEMPLATE,
+      title: `CBDB 中国历代人物传记资料库：${name}（${id}）`,
+      canonical_url: cbdbPersonUrl(id),
+      external_identifier: `CBDB:${id}`,
+      metadata_json: null,
     });
   }
 }
 
 const plan = {
-  generated_from: 'wikidata',
-  source_template: {
-    source_type: 'api_record',
-    license_code: 'CC0-1.0',
-    creator: '維基數據貢獻者',
-    publisher: 'Wikimedia Foundation',
-  },
-  roster_without_qid: withoutQid.map((p) => ({ person_id: p.person_id, name: p.name })),
-  wikidata_items: [...referenced.values()],
-  new_persons: [...newPersons.values()],
-  edges: [...edges.values()],
+  generated_from: [...enabled],
+  hops,
+  max_new: maxNew,
+  capped_relationships: capped,
+  sources: planSources,
+  persons: planPersons,
+  edges: planEdges,
+  identity_merges: merges,
+  name_collisions: nameCollisions,
+  unmapped_cbdb_relations: [...unmapped.values()].sort((a, b) => b.count - a.count),
   skipped,
 };
 
 writeFileSync(outPath, `${JSON.stringify(plan, null, 2)}\n`, 'utf8');
+
+const spouseOnlyCount = planPersons.filter((p) => p.spouse_only).length;
 console.error(
-  `plan: ${plan.edges.length} kinship edges, ${plan.new_persons.length} new persons, ${plan.skipped.length} skipped`,
+  `plan: ${planEdges.filter((e) => e.kind === 'parent').length} 条亲子 + ` +
+    `${planEdges.filter((e) => e.kind === 'spouse').length} 条配偶 | ` +
+    `新建 ${planPersons.length} 人（其中仅配偶 ${spouseOnlyCount}）| ` +
+    `跳过 ${skipped.length} | 同名待查 ${nameCollisions.length} | ` +
+    `CBDB 未映射关系 ${plan.unmapped_cbdb_relations.length} 种`,
 );
 console.error(`written to ${outPath}`);

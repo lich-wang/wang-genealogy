@@ -6,3 +6,6 @@ dist/
 .env
 .DS_Store
 coverage/
+
+# maintenance script caches (CBDB responses)
+scripts/.cache/

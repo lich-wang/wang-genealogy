@@ -82,21 +82,28 @@ MVP 先使用规范化姓名、异名、地点和外部 ID 的数据库索引搜
 从外部数据库补充亲属关系分两步，中间留下可人工复核的计划文件：
 
 ```text
-D1（现有人物 + 其维基数据 QID）
-  │  scripts/fetch-kinship.mjs      读 D1，查 Wikidata（P22 父 / P25 母 / P40 子女）
+D1（现有人物 + 其维基数据 QID / CBDB ID）
+  │  scripts/fetch-kinship.mjs --hops N
+  │    维基数据：P22 父、P25 母、P40 子女、P26 配偶
+  │    CBDB    ：亲属关系（中文亲属称谓 → packages/validation 的映射表）
   ▼
-scripts/kinship-data.json           计划：待建人物、待建关系、跳过项及原因
-  │  scripts/import-kinship.mjs     只经 /api/v1 写入
+scripts/kinship-data.json     计划：待建人物及其主张、待建关系及引用、跳过项、同名待查
+  │  scripts/import-kinship.mjs  只经 /api/v1 写入
   ▼
 Worker API → D1
+  │  scripts/audit-data.mjs      复核：重复、无来源主张、悬空关系、待处理合并提案
+  ▼
+scripts/propose-merge.mjs     确认是同一人时，逐对提出可回滚的合并提案
 ```
 
 约束：
 
-- **写入只走 HTTP API。** 亲属方向归一化、亲属环检测、来源门槛、追加式版本和审计记录都在服务端，直接写 D1 会全部绕过。脚本只用 D1 做只读花名册查询和运维维护（`scripts/lib/d1.mjs`）。
-- **幂等。** 人物按 QID 认领，来源按外部标识复用，关系已存在（`409 relationship_exists`）时只补引用并确保状态为 `accepted`，不重复建行。
-- **可再走一代。** 花名册来自数据库，所以导入后再跑一次就会向外扩展一代。
-- **维基数据声明引用维基数据条目。** 同一 QID 可能既有维基百科条目来源、又有维基数据条目来源；`P40（子女）` 这类 `locator` 只能挂在维基数据条目那条来源上。
+- **写入只走 HTTP API。** 亲属方向归一化、配偶对的规范化、亲属环检测、来源门槛、追加式版本和审计记录都在服务端，直接写 D1 会全部绕过。脚本只用 D1 做只读花名册查询和运维维护（`scripts/lib/d1.mjs`）。
+- **同一人只建一条记录。** 身份以外部标识为准：维基数据 QID 与 CBDB ID 通过维基数据的 P497 互相桥接，两个来源指向同一人时合并为一个节点。剩下的同名情况写入计划的 `name_collisions` 交人工判断——同名异人很常见（王益之妻吳氏与王安石之妻吳氏是两个人），因此绝不自动合并。
+- **两个来源互相印证。** 同一条关系若两边都有声明，就挂两条引用；`locator` 分别记维基数据属性号和 CBDB 亲属称谓，CBDB 还会带上它自己引用的文献。
+- **只表达能表达的关系。** 兄弟、翁婿、孙辈、十世孙等在本模型里没有谓词，一律计入 `unmapped_cbdb_relations` 上报，不塞进 `parent_of`。
+- **逐代扩展。** `--hops` 控制向外走几代，`--max-new` 限制单次新增人数（触顶会明确报告，不静默截断）；花名册来自数据库，因此再跑一次就会继续向外扩展一代。
+- **幂等。** 人物按标识认领，来源按「标识 + 记录类型」复用，关系已存在（`409 relationship_exists`）时只补引用并确保状态为 `accepted`。
 - 发布缺少卒年的人物需要 `maintainer` 及以上角色（API 对「权威数据库认定为历史人物」的放行口），判定依据记录在计划文件的 `historicity` 字段，规则见 `SOURCES_AND_POLICY.md`。
 
 ## 七、备份与可移植性

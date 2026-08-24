@@ -1,5 +1,10 @@
 import { describe, expect, it } from 'vitest';
-import { normalizeRelationship, wouldCreateAncestorCycle, KinshipError } from './kinship.ts';
+import {
+  KinshipError,
+  mapChineseKinshipTerm,
+  normalizeRelationship,
+  wouldCreateAncestorCycle,
+} from './kinship.ts';
 
 describe('normalizeRelationship', () => {
   it('stores "parent" as related --parent_of--> current (one direction)', () => {
@@ -51,5 +56,45 @@ describe('wouldCreateAncestorCycle', () => {
 
   it('allows a non-cyclic edge', () => {
     expect(wouldCreateAncestorCycle('p_unrelated', 'p_child', getParents)).toBe(false);
+  });
+});
+
+describe('mapChineseKinshipTerm', () => {
+  it('maps the terms an external database writes for a parent', () => {
+    for (const term of ['父', '母', '生父', '嫡母']) {
+      expect(mapChineseKinshipTerm(term).input).toBe('parent');
+    }
+  });
+
+  it('maps ordinal and two-character child terms alike', () => {
+    for (const term of ['子', '女', '長子', '長女', '次子', '幼女', '庶子', '兒子', '女兒']) {
+      expect(mapChineseKinshipTerm(term).input).toBe('child');
+    }
+  });
+
+  it('maps spouse terms including later marriages', () => {
+    for (const term of ['妻', '妻子', '夫', '繼室', '第二任妻']) {
+      expect(mapChineseKinshipTerm(term).input).toBe('spouse');
+    }
+  });
+
+  it('takes the first alias when a source packs several into one field', () => {
+    expect(mapChineseKinshipTerm('從祖;伯叔祖')).toMatchObject({
+      input: null,
+      term: '從祖',
+      raw: '從祖;伯叔祖',
+    });
+  });
+
+  it('refuses to restate relations this model cannot express', () => {
+    // Siblings, in-laws and distant descendants have no predicate here, and
+    // 妾 is not the same statement as marriage.
+    for (const term of ['兄', '弟', '女婿', '岳父', '姪孫', '十世孫', '妾', '嗣子', '外甥']) {
+      expect(mapChineseKinshipTerm(term).input).toBeNull();
+    }
+  });
+
+  it('handles empty input', () => {
+    expect(mapChineseKinshipTerm(null)).toMatchObject({ input: null, term: '' });
   });
 });

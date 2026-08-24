@@ -1,14 +1,14 @@
 // Import the kinship plan produced by fetch-kinship.mjs through the HTTP API.
 //
 // Everything goes through /api/v1 on purpose: the server is what normalizes a
-// parent/child submission to a single `kinship.parent_of` row, refuses kinship
-// cycles, enforces the provenance gate, and appends revisions and audit rows.
-// A direct D1 write would bypass all of it.
+// parent/child submission to a single `kinship.parent_of` row, canonicalizes a
+// spouse pair, refuses kinship cycles, enforces the provenance gate, and appends
+// revisions and audit rows. A direct D1 write would bypass all of it.
 //
-// Idempotent: persons are matched to Wikidata QIDs already recorded in the
-// database, sources are reused by external identifier, and an existing
-// relationship (HTTP 409) is left alone apart from making sure it is accepted
-// and cites everything we know.
+// Idempotent: persons are claimed by the Wikidata/CBDB identifier recorded on
+// their name claim, sources are reused by identifier + kind, and an existing
+// relationship (HTTP 409) is left in place — it only gains any citation it was
+// missing and is nudged to `accepted`.
 //
 // Usage:
 //   node scripts/import-kinship.mjs [--plan scripts/kinship-data.json] [--dry-run]
@@ -32,8 +32,10 @@ const option = (name, fallback) => {
 const API = (process.env.API_BASE ?? 'https://wang-genealogy-api.lich-wang8718.workers.dev').replace(/\/+$/, '');
 const EMAIL = process.env.IMPORTER_EMAIL;
 const PASSWORD = process.env.IMPORTER_PASSWORD;
-const database = option('--db', process.env.D1_DATABASE ?? 'wang-genealogy');
-const remote = !flag('--local');
+const d1 = {
+  database: option('--db', process.env.D1_DATABASE ?? 'wang-genealogy'),
+  remote: !flag('--local'),
+};
 const dryRun = flag('--dry-run');
 const planPath = option('--plan', new URL('kinship-data.json', import.meta.url).pathname);
 
@@ -43,6 +45,7 @@ if (!EMAIL || !PASSWORD) {
 }
 
 const plan = JSON.parse(readFileSync(planPath, 'utf8'));
+const sourceDefs = new Map(plan.sources.map((s) => [s.key, s]));
 
 // --- API plumbing -----------------------------------------------------------
 
@@ -80,14 +83,13 @@ async function authenticate() {
   } catch (e) {
     if (e.status !== 401) throw e;
     const r = await api('POST', '/auth/signup', {
-      display_name: '维基数据导入',
+      display_name: '亲属关系导入',
       email: EMAIL,
       password: PASSWORD,
     });
     token = r.token;
   }
-  const me = await api('GET', '/auth/me');
-  return me.user;
+  return (await api('GET', '/auth/me')).user;
 }
 
 /** Promote a proposed claim to accepted; harmless if it already is. */
@@ -100,8 +102,7 @@ async function acceptClaim(claimId, revision, summary) {
     });
     return true;
   } catch (e) {
-    // A revision conflict means somebody (probably an earlier run) already
-    // moved this claim on; leave it as it is.
+    // A revision conflict means an earlier run already moved this claim on.
     if (e.status === 409) return false;
     throw e;
   }
@@ -113,40 +114,62 @@ const overrides = JSON.parse(
   readFileSync(new URL('wikidata-qid-overrides.json', import.meta.url), 'utf8'),
 );
 
+// Identity comes from what a person's NAME claim cites — a relationship claim
+// cites the other endpoint too, which would confuse one person for another.
 const personRows = d1Query(
-  `SELECT p.id AS person_id, p.status,
-          (SELECT s.external_identifier FROM claim_source cs
+  `SELECT p.id AS person_id,
+          (SELECT group_concat(DISTINCT s.external_identifier) FROM claim_source cs
              JOIN source s ON s.id = cs.source_id
              JOIN claim c ON c.id = cs.claim_id
             WHERE c.subject_person_id = p.id
-              AND s.external_identifier LIKE 'Q%'
-            ORDER BY cs.created_at LIMIT 1) AS qid
+              AND c.predicate = 'name.primary'
+              AND s.external_identifier IS NOT NULL) AS identifiers
      FROM person p
     WHERE p.status IN ('candidate', 'active')`,
-  { database, remote, label: 'persons' },
+  { ...d1, label: 'persons' },
 );
-const personIdByQid = new Map();
-for (const row of personRows) if (row.qid) personIdByQid.set(row.qid, row.person_id);
-for (const o of overrides.persons) personIdByQid.set(o.qid, o.person_id);
 
-// Only Wikidata *item* records count as reusable here. Earlier imports created
-// zh-Wikipedia sources carrying the same QID as their external identifier, and
-// citing "P40（子女）" against an encyclopedia article would misdescribe where
-// the statement actually lives.
+const personIdByKey = new Map();
+for (const row of personRows) {
+  for (const id of (row.identifiers ?? '').split(',').filter(Boolean)) {
+    if (/^Q\d+$/.test(id)) personIdByKey.set(`wd:${id}`, row.person_id);
+    const m = /^CBDB[:=]?\s*(\d+)$/i.exec(id);
+    if (m) personIdByKey.set(`cbdb:${m[1].replace(/^0+/, '')}`, row.person_id);
+  }
+}
+for (const o of overrides.persons) personIdByKey.set(`wd:${o.qid}`, o.person_id);
+
+// A source is reusable only if it is the same record *kind*: an early import
+// stored a CBDB id on a Wikipedia article record, and a Wikidata property
+// locator has no meaning against that.
 const sourceRows = d1Query(
-  `SELECT id, external_identifier FROM source
-    WHERE external_identifier LIKE 'Q%'
-      AND canonical_url LIKE 'https://www.wikidata.org/wiki/%'`,
-  { database, remote, label: 'sources' },
+  `SELECT id, external_identifier, canonical_url FROM source
+    WHERE external_identifier IS NOT NULL`,
+  { ...d1, label: 'sources' },
 );
-const sourceIdByQid = new Map(sourceRows.map((r) => [r.external_identifier, r.id]));
-
-const itemByQid = new Map(plan.wikidata_items.map((i) => [i.qid, i]));
+const sourceIdByKey = new Map();
+for (const row of sourceRows) {
+  const url = row.canonical_url ?? '';
+  if (/^Q\d+$/.test(row.external_identifier) && url.startsWith('https://www.wikidata.org/wiki/')) {
+    sourceIdByKey.set(`wd:${row.external_identifier}`, row.id);
+  }
+  const m = /^CBDB[:=]?\s*(\d+)$/i.exec(row.external_identifier);
+  if (m && url.includes('cbdb.fas.harvard.edu')) {
+    sourceIdByKey.set(`cbdb:${m[1].replace(/^0+/, '')}`, row.id);
+  }
+}
 
 console.log(
-  `plan: ${plan.new_persons.length} new persons, ${plan.edges.length} edges | ` +
-    `known: ${personIdByQid.size} persons, ${sourceIdByQid.size} wikidata sources`,
+  `plan: ${plan.persons.length} 新人物（仅配偶 ${plan.persons.filter((p) => p.spouse_only).length}）、` +
+    `${plan.edges.length} 条关系、${plan.sources.length} 个来源 | ` +
+    `已知 ${personIdByKey.size} 个人物标识、${sourceIdByKey.size} 个来源`,
 );
+if (plan.name_collisions.length) {
+  console.log(`同名待人工判断 ${plan.name_collisions.length} 条（不自动合并）：`);
+  for (const c of plan.name_collisions) {
+    console.log(`  ${c.name} ${c.key} ↔ ${c.existing.map((e) => e.person_id).join(', ')}`);
+  }
+}
 
 const account = dryRun ? { display_name: '(dry-run)', role: 'n/a' } : await authenticate();
 const isStaff = ['maintainer', 'reviewer', 'admin'].includes(account.role);
@@ -158,167 +181,178 @@ const stats = {
   persons_published: 0,
   persons_unpublished: [],
   claims_created: 0,
-  edges_created: 0,
+  edges_created: { parent: 0, spouse: 0 },
   edges_existing: 0,
+  citations_added: 0,
   edges_failed: [],
 };
 
-/** One Source record per Wikidata item, reused across claims and runs. */
-async function ensureSource(itemQid) {
-  const known = sourceIdByQid.get(itemQid);
+async function ensureSource(key) {
+  const known = sourceIdByKey.get(key);
   if (known) return known;
-  const item = itemByQid.get(itemQid) ?? { qid: itemQid, name: itemQid, zh_wikipedia: null };
-  if (dryRun) return `(new source for ${itemQid})`;
+  const def = sourceDefs.get(key);
+  if (!def) throw new Error(`plan is missing a source definition for ${key}`);
+  if (dryRun) return `(new source ${key})`;
   const created = await api('POST', '/sources', {
-    ...plan.source_template,
-    title: `維基數據：${item.name}（${itemQid}）`,
-    canonical_url: `https://www.wikidata.org/wiki/${itemQid}`,
-    external_identifier: itemQid,
+    source_type: def.source_type,
+    title: def.title,
+    creator: def.creator,
+    publisher: def.publisher,
+    canonical_url: def.canonical_url,
+    external_identifier: def.external_identifier,
+    license_code: def.license_code,
     accessed_at: new Date().toISOString(),
-    ...(item.zh_wikipedia ? { metadata_json: { zh_wikipedia: item.zh_wikipedia } } : {}),
+    ...(def.metadata_json ? { metadata_json: def.metadata_json } : {}),
   });
   const id = created.source_id ?? created.id;
-  sourceIdByQid.set(itemQid, id);
+  sourceIdByKey.set(key, id);
   stats.sources_created += 1;
   return id;
 }
 
+async function sourceRefs(keys, locator = undefined, note = undefined) {
+  const refs = [];
+  for (const key of keys) {
+    refs.push({
+      source_id: await ensureSource(key),
+      stance: 'supports',
+      ...(locator ? { locator } : {}),
+      ...(note ? { interpretation_note: note } : {}),
+    });
+  }
+  return refs;
+}
+
 // --- 1. create the relatives that are not in the database yet ---------------
 
-for (const person of plan.new_persons) {
-  if (personIdByQid.has(person.qid)) continue;
-  const sourceId = await ensureSource(person.qid);
-  const sourceRef = { source_id: sourceId, stance: 'supports', locator: person.qid };
+for (const person of plan.persons) {
+  if (personIdByKey.has(person.key)) continue;
+  if (person.qid && personIdByKey.has(`wd:${person.qid}`)) continue;
+  if (person.cbdb && personIdByKey.has(`cbdb:${person.cbdb}`)) continue;
 
+  const [nameClaim, ...rest] = person.claims;
   if (dryRun) {
-    // Stand-in id so the edge pass can still be checked end to end.
-    personIdByQid.set(person.qid, `(dry-run:${person.qid})`);
-    console.log(`+ ${person.name.text} (${person.qid}) [${person.historicity.kind}]`);
+    for (const key of [person.key, person.qid && `wd:${person.qid}`, person.cbdb && `cbdb:${person.cbdb}`]) {
+      if (key) personIdByKey.set(key, `(dry-run:${person.key})`);
+    }
+    console.log(
+      `+ ${person.name.text} (${person.key})${person.spouse_only ? ' [仅配偶]' : ''} ` +
+        `${person.claims.length} 条主张 [${person.historicity.kind}]`,
+    );
     continue;
   }
 
   const created = await api('POST', '/persons', {
     name: {
       predicate: 'name.primary',
-      value: person.name,
-      confidence: 'high',
-      sources: [sourceRef],
+      value: nameClaim.value,
+      confidence: nameClaim.confidence,
+      sources: await sourceRefs(nameClaim.source_keys, person.qid ?? `CBDB:${person.cbdb}`),
     },
-    change_summary: `导入亲属人物（维基数据 ${person.qid}）`,
+    change_summary: nameClaim.change_summary,
   });
   const personId = created.person_id;
-  personIdByQid.set(person.qid, personId);
   stats.persons_created += 1;
-  await acceptClaim(created.claim_id, 1, '导入：来源为维基数据标签');
+  for (const key of [person.key, person.qid && `wd:${person.qid}`, person.cbdb && `cbdb:${person.cbdb}`]) {
+    if (key) personIdByKey.set(key, personId);
+  }
+  await acceptClaim(created.claim_id, 1, '导入：来源为维基数据/CBDB 人名');
 
-  const properties = [];
-  if (person.description) {
-    properties.push({
-      predicate: 'bio.summary',
-      value: person.description,
-      confidence: 'medium',
-      summary: '维基数据条目描述',
-    });
-  }
-  if (person.birth) {
-    properties.push({
-      predicate: 'birth.date',
-      value: { date: person.birth },
-      confidence: 'medium',
-      summary: '维基数据 P569',
-    });
-  }
-  if (person.death) {
-    properties.push({
-      predicate: 'death.date',
-      value: { date: person.death },
-      confidence: 'medium',
-      summary: '维基数据 P570',
-    });
-  }
-  for (const property of properties) {
-    const claim = await api('POST', `/persons/${personId}/claims`, {
+  for (const claim of rest) {
+    const result = await api('POST', `/persons/${personId}/claims`, {
       claim_kind: 'property',
-      predicate: property.predicate,
-      value: property.value,
-      confidence: property.confidence,
-      sources: [sourceRef],
-      change_summary: property.summary,
+      predicate: claim.predicate,
+      value: claim.value,
+      confidence: claim.confidence,
+      sources: await sourceRefs(claim.source_keys),
+      change_summary: claim.change_summary,
     });
     stats.claims_created += 1;
-    await acceptClaim(claim.claim_id, 1, '导入：核对来源后采纳');
+    await acceptClaim(result.claim_id, 1, '导入：核对来源后采纳');
   }
 
-  // Publish. Without a death claim this needs the staff override, which is
-  // exactly the "authoritative database identifies a historical figure" case
-  // the source policy allows — the evidence is recorded in `historicity`.
+  // Publish. Without a death claim this needs the staff override, which is the
+  // "authoritative database identifies a historical figure" case the source
+  // policy allows — the evidence is recorded in `historicity`.
   try {
     await api('POST', `/persons/${personId}/publish`, {});
     stats.persons_published += 1;
-    console.log(`+ ${person.name.text} -> ${personId} (published)`);
+    console.log(`+ ${person.name.text} -> ${personId}${person.spouse_only ? ' [仅配偶]' : ''}`);
   } catch (e) {
     stats.persons_unpublished.push({
       name: person.name.text,
       person_id: personId,
-      qid: person.qid,
+      key: person.key,
       reason: e.code ?? String(e.status),
       historicity: person.historicity,
     });
-    console.log(`+ ${person.name.text} -> ${personId} (draft: ${e.code ?? e.status})`);
+    console.log(`+ ${person.name.text} -> ${personId} (草稿: ${e.code ?? e.status})`);
   }
 }
 
-// --- 2. link the generations ------------------------------------------------
+// --- 2. link them -----------------------------------------------------------
 
-/** The kinship.parent_of claim between these two, if the API already has it. */
-async function findParentEdge(parentId, childId) {
-  const { claims } = await api('GET', `/persons/${parentId}/claims`);
+/** The stored relationship claim between these two, if the API already has it. */
+async function findEdgeClaim(predicate, subjectId, objectId) {
+  const { claims } = await api('GET', `/persons/${subjectId}/claims`);
   return (
     claims.find(
       (c) =>
-        c.predicate === 'kinship.parent_of' &&
-        c.subject_person_id === parentId &&
-        c.object_person_id === childId,
+        c.predicate === predicate &&
+        ((c.subject_person_id === subjectId && c.object_person_id === objectId) ||
+          (c.subject_person_id === objectId && c.object_person_id === subjectId)),
     ) ?? null
   );
 }
 
 for (const edge of plan.edges) {
-  const parentId = edge.parent_person_id ?? personIdByQid.get(edge.parent_qid);
-  const childId = edge.child_person_id ?? personIdByQid.get(edge.child_qid);
-  const label = `${edge.parent_name} → ${edge.child_name}`;
+  const isParent = edge.kind === 'parent';
+  const fromKey = isParent ? edge.parent_key : edge.a_key;
+  const toKey = isParent ? edge.child_key : edge.b_key;
+  const fromId = personIdByKey.get(fromKey);
+  const toId = personIdByKey.get(toKey);
+  const label = isParent
+    ? `${edge.parent_name} → ${edge.child_name}`
+    : `${edge.a_name} ⇄ ${edge.b_name}`;
 
-  if (!parentId || !childId) {
+  if (!fromId || !toId) {
     stats.edges_failed.push({ edge: label, reason: 'person_missing' });
     continue;
   }
+  if (fromId === toId) {
+    stats.edges_failed.push({ edge: label, reason: 'same_person' });
+    continue;
+  }
 
+  // Citations keep their own locator: which Wikidata property or CBDB term
+  // states this link, plus the work CBDB itself cites.
   const sources = [];
   for (const citation of edge.citations) {
     sources.push({
-      source_id: await ensureSource(citation.qid),
+      source_id: await ensureSource(citation.source_key),
       stance: 'supports',
-      locator: citation.locator,
+      ...(citation.locator ? { locator: citation.locator } : {}),
+      ...(citation.note ? { interpretation_note: citation.note } : {}),
     });
   }
 
   if (dryRun) {
-    console.log(`~ ${label} [${edge.citations.map((c) => c.property).join(',')}]`);
+    console.log(`~ ${label} [${edge.citations.map((c) => c.locator).join(' / ')}]`);
     continue;
   }
 
   try {
-    // Submitted in natural language relative to the parent; the server
-    // normalizes it to the single stored parent_of direction.
-    const created = await api('POST', `/persons/${parentId}/relationships`, {
-      relationship: 'child',
-      related_person_id: childId,
+    const created = await api('POST', `/persons/${fromId}/relationships`, {
+      // Submitted in natural language relative to `from`; the server normalizes
+      // parent/child to one stored direction and canonicalizes spouse pairs.
+      relationship: isParent ? 'child' : 'spouse',
+      related_person_id: toId,
       confidence: 'medium',
       sources,
-      change_summary: `导入亲属关系（维基数据 ${edge.citations.map((c) => c.property).join('、')}）`,
+      change_summary: `导入亲属关系（${edge.citations.map((c) => c.locator).join('、')}）`,
     });
-    stats.edges_created += 1;
-    await acceptClaim(created.claim_id, 1, '导入：来源为维基数据亲属声明');
+    stats.edges_created[edge.kind] += 1;
+    await acceptClaim(created.claim_id, 1, '导入：来源为维基数据/CBDB 亲属声明');
     console.log(`~ ${label}`);
   } catch (e) {
     if (e.code !== 'relationship_exists') {
@@ -326,17 +360,19 @@ for (const edge of plan.edges) {
       console.log(`! ${label}: ${e.code ?? e.status}`);
       continue;
     }
-    // Already linked: converge it to accepted and make sure our citations are
-    // attached, so re-runs improve provenance instead of duplicating rows.
+    // Already linked: converge to accepted and add any citation it lacks, so
+    // re-runs improve provenance instead of duplicating rows.
     stats.edges_existing += 1;
-    const existing = await findParentEdge(parentId, childId);
+    const predicate = isParent ? 'kinship.parent_of' : 'kinship.spouse_of';
+    const existing = await findEdgeClaim(predicate, fromId, toId);
     if (!existing) continue;
     if (existing.status === 'proposed') {
-      await acceptClaim(existing.id, existing.current_revision, '导入：来源为维基数据亲属声明');
+      await acceptClaim(existing.id, existing.current_revision, '导入：来源为维基数据/CBDB 亲属声明');
     }
     for (const source of sources) {
       try {
         await api('POST', `/claims/${existing.id}/sources`, source);
+        stats.citations_added += 1;
       } catch (err) {
         if (err.status !== 409) throw err;
       }
@@ -351,12 +387,18 @@ console.log('\n--- 汇总 ---');
 console.log(`来源新建: ${stats.sources_created}`);
 console.log(`人物新建: ${stats.persons_created}（已发布 ${stats.persons_published}）`);
 console.log(`属性主张新建: ${stats.claims_created}`);
-console.log(`亲属关系新建: ${stats.edges_created}，已存在: ${stats.edges_existing}`);
+console.log(
+  `亲子关系新建: ${stats.edges_created.parent}，配偶关系新建: ${stats.edges_created.spouse}，` +
+    `已存在: ${stats.edges_existing}（补充引用 ${stats.citations_added} 条）`,
+);
 if (stats.persons_unpublished.length) {
   console.log(`\n未发布（仍为私有草稿）${stats.persons_unpublished.length} 人：`);
   for (const p of stats.persons_unpublished) {
-    console.log(`  ${p.name} (${p.person_id}) ${p.reason} | 历史性依据: ${p.historicity.detail}`);
+    console.log(`  ${p.name} (${p.person_id}) ${p.reason} | 历史性依据: ${p.historicity?.detail}`);
   }
+}
+if (plan.capped_relationships > 0) {
+  console.log(`\n注意：本次计划因 --max-new 上限跳过了 ${plan.capped_relationships} 条关系，重跑可继续。`);
 }
 if (stats.edges_failed.length) {
   console.log(`\n失败的关系 ${stats.edges_failed.length} 条：`);

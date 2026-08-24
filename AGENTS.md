@@ -10,7 +10,7 @@ The design documents remain the source of truth; the implementation follows the 
 - `docs/API.md`, `docs/ARCHITECTURE.md`, `docs/COLLABORATION.md`, and `docs/SOURCES_AND_POLICY.md` define contracts and policies.
 - `apps/web` React + Vite front end (Cloudflare Pages); `apps/api` Hono Worker (Cloudflare D1).
 - `packages/domain` types/enums/public IDs, `packages/i18n` 简繁 script conversion and folding, `packages/validation` Zod schemas and kinship/date rules.
-- `migrations/` ordered D1 SQL, `scripts/` import and maintenance scripts (`fetch-kinship.mjs` → reviewable plan → `import-kinship.mjs`, which writes only through the API), `e2e/` Playwright smoke checks.
+- `migrations/` ordered D1 SQL, `scripts/` import and maintenance scripts (`fetch-kinship.mjs` → reviewable plan → `import-kinship.mjs` → `audit-data.mjs`; writes go only through the API), `e2e/` Playwright smoke checks.
 
 ## Documentation and Development Workflow
 
