@@ -50,7 +50,7 @@ app.post('/', async (c) => {
   // look for existing matches and report them back with the new person.
   const nameText = body.name.value.text?.trim() ?? '';
   const duplicates = nameText
-    ? await findPersonsByName(c.env.DB, nameText, { limit: 5, exactOnly: true })
+    ? (await findPersonsByName(c.env.DB, nameText, { limit: 5, exactOnly: true })).items
     : [];
 
   const personId = newId('person');

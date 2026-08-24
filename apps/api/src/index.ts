@@ -7,7 +7,7 @@ import { authMiddleware, login, requireAuth, signup } from './auth.ts';
 import { loginSchema, signupSchema } from '@wang/validation';
 import { mapUser } from './db.ts';
 import { nameOf } from './summary.ts';
-import { findPersonsByName } from './nameSearch.ts';
+import { findPersonsByName, SEARCH_PAGE_SIZE } from './nameSearch.ts';
 import persons from './routes/persons.ts';
 import claims from './routes/claims.ts';
 import sources from './routes/sources.ts';
@@ -58,12 +58,15 @@ auth.get('/me', async (c) => {
 });
 app.route('/api/v1/auth', auth);
 
-// --- search (active persons only, script-insensitive) ---
+// --- search (active persons only, script-insensitive, cursor-paged) ---
 app.get('/api/v1/search', async (c) => {
   const q = (c.req.query('q') ?? '').trim();
   if (q.length === 0) return c.json({ items: [], next_cursor: null });
-  const items = await findPersonsByName(c.env.DB, q, { limit: 50 });
-  return c.json({ items, next_cursor: null });
+  const page = await findPersonsByName(c.env.DB, q, {
+    limit: SEARCH_PAGE_SIZE,
+    cursor: c.req.query('cursor') ?? null,
+  });
+  return c.json(page);
 });
 
 // --- recent changes (public feed) ---

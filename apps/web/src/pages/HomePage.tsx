@@ -15,6 +15,7 @@ export function HomePage() {
   const [query, setQuery] = useState('');
   const [submitted, setSubmitted] = useState('');
   const [results, setResults] = useState<PersonSummaryLite[] | null>(null);
+  const [cursor, setCursor] = useState<string | null>(null);
   const [searching, setSearching] = useState(false);
   const [searchError, setSearchError] = useState<string | null>(null);
 
@@ -23,21 +24,29 @@ export function HomePage() {
     [],
   );
 
-  async function onSearch(e: FormEvent) {
-    e.preventDefault();
-    const q = query.trim();
-    if (!q) return;
+  // A common surname matches far more than one page, so the result list is
+  // paged: `next` continues the previous page instead of restarting it.
+  async function runSearch(q: string, next: string | null) {
     setSearching(true);
     setSearchError(null);
-    setSubmitted(q);
     try {
-      const res = await api.searchPersons(q);
-      setResults(res.items);
+      const res = await api.searchPersons(q, next ?? undefined);
+      setResults((prev) => (next && prev ? [...prev, ...res.items] : res.items));
+      setCursor(res.next_cursor);
     } catch (err) {
       setSearchError(toMessage(err));
     } finally {
       setSearching(false);
     }
+  }
+
+  async function onSearch(e: FormEvent) {
+    e.preventDefault();
+    const q = query.trim();
+    if (!q) return;
+    setSubmitted(q);
+    setCursor(null);
+    await runSearch(q, null);
   }
 
   // The API matches both script forms; say so when the query actually has one,
@@ -96,6 +105,23 @@ export function HomePage() {
                   </li>
                 ))}
               </ul>
+              {cursor ? (
+                <>
+                  <p className="muted">
+                    {t('結果不止這些，可載入更多，或輸入更具體的姓名。')}
+                  </p>
+                  <button
+                    className="btn"
+                    type="button"
+                    disabled={searching}
+                    onClick={() => void runSearch(submitted, cursor)}
+                  >
+                    {t('載入更多')}
+                  </button>
+                </>
+              ) : (
+                <p className="muted">{t(`共 ${results.length} 條結果。`)}</p>
+              )}
             </>
           )
         ) : null}

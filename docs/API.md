@@ -47,12 +47,21 @@ POST /api/v1/persons
 
 ```http
 GET /api/v1/search?q=王賁
+GET /api/v1/search?q=王&cursor=MjAyNi0wMS0wMlQwMDowMDowMC4wMDBafHBfMg
 ```
 
 - 只返回 `active` 人物，匹配 `name.*` 且状态为 `accepted` 或 `disputed` 的主张；
 - **字形不敏感**：查询词展开为简体与繁體两种写法后一起匹配，搜「王賁」能找到录入为「王贲」的人物；
 - 存储值不做字形归一化（那是有来源的证据），因此展开发生在查询侧；
 - 每个人物只返回一条结果，`display_name` 取推荐的 `name.primary`，而不是恰好命中的异名。
+
+响应是标准游标列表 `{ "items": [...], "next_cursor": … }`：
+
+- 每页 50 条（页大小由服务端决定，客户端不能调整）；
+- **排序键即分页键**：按 `(person.created_at, person.id)` 升序。`created_at` 不唯一（批量导入会给多条记录打上同一时刻），因此用人物 ID 破平，保证翻页不重复也不漏；升序意味着新增人物排在末尾，不会移动客户端已经翻过的页；
+- `next_cursor` 是不透明字符串（上述排序键的 base64url 编码），只应原样回传；非空表示还有结果，为 `null` 表示已到末尾——客户端据此判断结果是否完整，而不是靠「刚好返回 50 条」去猜；
+- 游标不合法返回 `400 invalid_cursor`；
+- 「王」这类高频姓氏必然跨多页：客户端应展示「载入更多」，不要静默截断。
 
 ## 二、基础信息主张
 
