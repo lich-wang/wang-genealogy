@@ -17,6 +17,7 @@ import type {
   PropertyPredicate,
   RecentChange,
   RelationshipInput,
+  RelativesGraph,
   Source,
   SourceType,
   User,
@@ -237,6 +238,12 @@ export const api = {
     request<{ claims: Claim[] }>(`/persons/${encodeURIComponent(id)}/claims`, {
       query: { status },
     }).then((r) => r.claims),
+
+  /** Bounded kinship slice for the family-tree view. */
+  getRelatives: (id: string, up = 2, down = 2) =>
+    request<RelativesGraph>(`/persons/${encodeURIComponent(id)}/relatives`, {
+      query: { up, down },
+    }),
 
   getPersonHistory: (id: string) =>
     request<{ history: Contribution[] }>(`/persons/${encodeURIComponent(id)}/history`).then(

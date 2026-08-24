@@ -3,8 +3,8 @@ import type { ClaimWithSources } from '@wang/domain';
 import { predicateLabel } from '../labels';
 import { claimValueDisplay } from '../format';
 import { useScript } from '../i18n';
-import { ClaimStatusBadge, ConfidenceBadge } from './badges';
-import { SourceRefList } from './SourceRefList';
+import { ClaimStatusBadge } from './badges';
+import { Provenance } from './Provenance';
 import { ZhText } from './ZhText';
 
 interface ClaimCardProps {
@@ -17,12 +17,12 @@ interface ClaimCardProps {
 }
 
 /**
- * One claim rendered with full provenance. Disputed / retracted claims are
- * visually flagged but NEVER hidden — minority views with valid sources stay
- * on the page per the domain invariants.
+ * One claim with its predicate — used where a claim appears outside a person's
+ * summary (the source page). Disputed and retracted claims are visually flagged
+ * but NEVER hidden: a minority view with valid sources stays on the page.
  *
- * The value is rendered in `evidence` mode: the text as the source recorded it,
- * with the other script offered alongside it rather than replacing it.
+ * The value is rendered in `evidence` mode (the text as the source recorded it)
+ * and the citations sit in a disclosure rather than under every card.
  */
 export function ClaimCard({ item, recommended, onDispute, disputeBusy }: ClaimCardProps) {
   const { t } = useScript();
@@ -44,8 +44,7 @@ export function ClaimCard({ item, recommended, onDispute, disputeBusy }: ClaimCa
       <header className="claim-card-head">
         <span className="claim-predicate">{t(predicateLabel(claim.predicate))}</span>
         {recommended ? <span className="badge badge-recommended">{t('推薦值')}</span> : null}
-        <ClaimStatusBadge status={claim.status} />
-        <ConfidenceBadge confidence={claim.confidence} />
+        {claim.status !== 'accepted' ? <ClaimStatusBadge status={claim.status} /> : null}
       </header>
 
       <div className="claim-value">
@@ -59,37 +58,12 @@ export function ClaimCard({ item, recommended, onDispute, disputeBusy }: ClaimCa
               mode="evidence"
               fallback={<span className="muted">{t('（無值）')}</span>}
             />
-            {value?.note ? (
-              <span className="claim-note">
-                {/* Our annotation about the source's precision, not a quotation
-                    from it — so it reads in the reader's script. */}
-                <ZhText text={value.note} />
-              </span>
-            ) : null}
+            {value?.note ? <span className="claim-note">{t(value.note)}</span> : null}
           </>
         )}
       </div>
 
-      <SourceRefList sources={item.sources} />
-
-      <footer className="claim-card-foot">
-        <span className="claim-id">
-          {t('主張')} {claim.id}
-        </span>
-        <span className="claim-rev">
-          {t('版本')} {claim.current_revision}
-        </span>
-        {onDispute && claim.status !== 'disputed' && claim.status !== 'retracted' ? (
-          <button
-            type="button"
-            className="btn btn-inline"
-            disabled={disputeBusy}
-            onClick={() => onDispute(claim.id)}
-          >
-            {t('標記爭議')}
-          </button>
-        ) : null}
-      </footer>
+      <Provenance item={item} onDispute={onDispute} disputeBusy={disputeBusy} />
     </article>
   );
 }

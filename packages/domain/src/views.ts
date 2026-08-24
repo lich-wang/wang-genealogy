@@ -44,6 +44,33 @@ export interface PersonSummary {
   current_revision: number;
 }
 
+/** One person in a family-tree view: enough to draw a node, nothing more. */
+export interface RelativeNode {
+  id: string;
+  display_name: string | null;
+  status: Person['status'];
+  /** Original text of the recommended birth/death claim, when there is one. */
+  birth: string | null;
+  death: string | null;
+}
+
+/**
+ * A slice of the kinship graph around one person, walked a bounded number of
+ * generations up and down. Deliberately light: a tree view needs names and
+ * edges, not every claim and citation behind them.
+ */
+export interface RelativesGraph {
+  root_id: string;
+  up: number;
+  down: number;
+  nodes: RelativeNode[];
+  /** Stored direction: PARENT --kinship.parent_of--> CHILD. */
+  parent_edges: Array<{ parent_id: string; child_id: string }>;
+  spouse_edges: Array<{ a_id: string; b_id: string }>;
+  /** True when the node cap stopped the walk before it ran out of relatives. */
+  truncated: boolean;
+}
+
 export interface RecentChange {
   contribution_id: string;
   action: string;

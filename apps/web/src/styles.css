@@ -355,6 +355,145 @@ a:hover {
   margin-top: 0.4rem;
 }
 
+/* basic information: label + value rows, citations folded away */
+.fact-list {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 0.15rem 1rem;
+  align-items: baseline;
+}
+.fact {
+  display: contents;
+}
+.fact-label {
+  color: var(--muted);
+  white-space: nowrap;
+  padding-top: 0.35rem;
+}
+.fact-body {
+  padding: 0.35rem 0;
+  border-bottom: 1px dotted var(--line);
+  min-width: 0;
+}
+.fact-line {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.4rem;
+}
+.fact-line-disputed .fact-value {
+  text-decoration: underline dotted var(--warn);
+}
+.fact-value {
+  font-size: 1.02rem;
+}
+.fact-alternatives {
+  margin-top: 0.2rem;
+  padding-left: 0.6rem;
+  border-left: 2px solid var(--accent-soft);
+  font-size: 0.95rem;
+}
+.fact-alternatives .alternatives-label {
+  color: var(--warn);
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+/* provenance disclosure: folded, but never further than one click or hover */
+.provenance {
+  display: inline-block;
+  font-size: 0.78rem;
+}
+.provenance > summary {
+  color: var(--muted);
+  cursor: help;
+  list-style: none;
+  border-bottom: 1px dotted var(--line);
+}
+.provenance > summary::-webkit-details-marker {
+  display: none;
+}
+.provenance > summary:hover {
+  color: var(--accent);
+}
+.provenance[open] > summary {
+  color: var(--accent);
+}
+.provenance-body {
+  border-left: 2px solid var(--accent-soft);
+  padding-left: 0.6rem;
+  margin: 0.25rem 0 0.5rem;
+}
+.claim-meta {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  color: var(--muted);
+  font-size: 0.72rem;
+  margin-top: 0.25rem;
+}
+
+/* family tree */
+.tree-head h1 {
+  margin-bottom: 0.25rem;
+}
+.tree-section {
+  margin: 1.25rem 0;
+}
+.tree-branch {
+  list-style: none;
+  margin: 0;
+  padding-left: 1rem;
+  border-left: 1px solid var(--line);
+}
+.tree-section > .tree-branch {
+  padding-left: 0;
+  border-left: 0;
+}
+.tree-branch-up {
+  /* ancestors read upward: the further up the list, the older the generation */
+  display: flex;
+  flex-direction: column-reverse;
+}
+.tree-node {
+  padding: 0.15rem 0;
+}
+.tree-person {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.35rem;
+  flex-wrap: wrap;
+}
+.tree-person-root {
+  font-weight: 700;
+  background: var(--accent-soft);
+  border-radius: var(--radius);
+  padding: 0.1rem 0.5rem;
+}
+.tree-years,
+.tree-spouses {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+.tree-recentre {
+  font-size: 0.72rem;
+  color: var(--muted);
+  border-bottom: 1px dotted var(--line);
+}
+.tree-recentre:hover {
+  color: var(--accent);
+}
+.tree-root-row {
+  margin: 0.5rem 0;
+  padding: 0.35rem 0;
+  border-top: 2px solid var(--accent-soft);
+  border-bottom: 2px solid var(--accent-soft);
+}
+.tree-more {
+  padding: 0.1rem 0;
+  font-size: 0.8rem;
+}
+
 /* sources */
 .source-list {
   list-style: none;

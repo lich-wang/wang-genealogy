@@ -14,6 +14,7 @@ import { badRequest, conflict, forbidden, notFound } from '../errors.ts';
 import { mapClaim, mapMergeProposal, mapPerson, mapSource } from '../db.ts';
 import { computePersonSummary } from '../summary.ts';
 import { findPersonsByName } from '../nameSearch.ts';
+import { MAX_GENERATIONS, loadRelatives } from '../relatives.ts';
 import {
   assertPropertyPredicate,
   assertSourcesExist,
@@ -126,6 +127,28 @@ app.get('/:id/claims', async (c) => {
     .bind(...binds)
     .all<Record<string, unknown>>();
   return c.json({ claims: (res.results ?? []).map(mapClaim) });
+});
+
+// Kinship slice for the family-tree view: names and edges only.
+app.get('/:id/relatives', async (c) => {
+  const person = await loadPerson(c.env.DB, c.req.param('id'));
+  if (!person) throw notFound('人物不存在');
+  if (!canView(person, c.get('auth'))) throw notFound('人物不存在或未公開');
+
+  const generations = (raw: string | undefined, fallback: number) => {
+    if (raw === undefined) return fallback;
+    const n = Number(raw);
+    if (!Number.isInteger(n) || n < 0 || n > MAX_GENERATIONS) {
+      throw badRequest('invalid_generations', `代数需為 0 到 ${MAX_GENERATIONS} 之間的整數。`);
+    }
+    return n;
+  };
+
+  const graph = await loadRelatives(c.env.DB, person.id, {
+    up: generations(c.req.query('up'), 2),
+    down: generations(c.req.query('down'), 2),
+  });
+  return c.json(graph);
 });
 
 app.get('/:id/history', async (c) => {

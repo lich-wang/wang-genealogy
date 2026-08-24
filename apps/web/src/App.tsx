@@ -4,6 +4,7 @@ import { ScriptProvider, useScript } from './i18n';
 import { ScriptToggle } from './components/ScriptToggle';
 import { HomePage } from './pages/HomePage';
 import { PersonPage } from './pages/PersonPage';
+import { FamilyTreePage } from './pages/FamilyTreePage';
 import { SourcePage } from './pages/SourcePage';
 import { RecentChangesPage } from './pages/RecentChangesPage';
 import { ContributePage } from './pages/ContributePage';
@@ -18,6 +19,7 @@ export function App() {
             <Routes>
               <Route path="/" element={<HomePage />} />
               <Route path="/persons/:id" element={<PersonPage />} />
+              <Route path="/persons/:id/tree" element={<FamilyTreePage />} />
               <Route path="/sources/:id" element={<SourcePage />} />
               <Route path="/changes" element={<RecentChangesPage />} />
               <Route path="/contribute" element={<ContributePage />} />

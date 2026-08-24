@@ -27,6 +27,19 @@ GET /api/v1/persons/{personId}/claims
 GET /api/v1/persons/{personId}/claims?status=disputed
 ```
 
+### 获取亲属关系图（家族树用）
+
+```http
+GET /api/v1/persons/{personId}/relatives?up=2&down=2
+```
+
+返回以该人物为中心、向上向下各若干代的**轻量**切片：`nodes`（id、姓名、生卒原文、状态）、`parent_edges`（按存储方向 PARENT→CHILD）、`spouse_edges`。不含主张与来源——家族树只需要姓名和连线。
+
+- `up`／`down` 为 0–4 的整数，默认各 2；超出范围返回 `400 invalid_generations`；
+- 单次最多返回 240 个节点，触顶时 `truncated: true`，客户端应提示「从某个具体人物继续展开」而不是静默截断；
+- 只包含公开人物（`active`／`merged`），已撤回的关系不计入；
+- 配偶边只在两端都在本次切片内时返回。
+
 ### 获取人物修改历史
 
 ```http

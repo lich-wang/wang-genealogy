@@ -55,9 +55,23 @@ try {
     await page.waitForFunction(() => document.body.innerText.includes('王安石'), { timeout: 15000 }).catch(() => {});
     const pText = await page.locator('body').innerText();
     log(pText.includes('王安石'), '人物页显示“王安石”');
-    log(/来源|CBDB/i.test(pText), '人物页显示来源信息(溯源)');
-    log(/推荐值|已采纳/.test(pText), '人物页区分推荐值/已采纳状态');
+    log(/规范姓名|規範姓名/.test(pText), '人物页以字段形式展示基本信息');
     log(!/Failed to fetch/i.test(pText), '人物页没有 "Failed to fetch"');
+
+    // Provenance is folded away but reachable: a summary that opens into the
+    // citation list. Hiding it entirely would break the point of the project.
+    const provenance = page.locator('.provenance > summary').first();
+    const hasProvenance = await provenance.count();
+    log(Boolean(hasProvenance), '人物页把来源折叠为「来源 N」而不是直接铺开');
+    if (hasProvenance) {
+      // <details> keeps its content in the DOM, so ask about visibility.
+      const list = page.locator('.provenance .source-list').first();
+      const beforeOpen = await list.isVisible();
+      await provenance.click();
+      await page.waitForTimeout(300);
+      const afterOpen = await list.isVisible();
+      log(!beforeOpen && afterOpen, '折叠时来源不可见，展开后显示完整来源列表');
+    }
   } else {
     log(false, '搜索结果中找不到“王安石”链接');
   }
@@ -74,17 +88,17 @@ try {
     await hans.click();
     await page.waitForFunction(() => document.documentElement.lang === 'zh-Hans');
     const hansText = await page.locator('body').innerText();
-    log(/推荐值|已采纳/.test(hansText), '简体模式下界面用简体字（推荐值/已采纳）');
+    log(/基本资讯/.test(hansText) && /亲属关系/.test(hansText), '简体模式下界面用简体字（基本资讯/亲属关系）');
 
     await hant.click();
     await page.waitForFunction(() => document.documentElement.lang === 'zh-Hant');
     // The 简体→繁體 phrase dictionary loads as a separate chunk; wait for it.
     await page
-      .waitForFunction(() => /推薦值|已採納/.test(document.body.innerText), { timeout: 20000 })
+      .waitForFunction(() => /基本資訊/.test(document.body.innerText), { timeout: 20000 })
       .catch(() => {});
     const hantText = await page.locator('body').innerText();
-    log(/推薦值|已採納/.test(hantText), '繁體模式下界面用繁體字（推薦值/已採納）');
-    log(!/推荐值|已采纳/.test(hantText), '繁體模式下没有残留的简体界面文字');
+    log(/基本資訊/.test(hantText) && /親屬關係/.test(hantText), '繁體模式下界面用繁體字（基本資訊/親屬關係）');
+    log(!/基本资讯|亲属关系/.test(hantText), '繁體模式下没有残留的简体界面文字');
     log(/王安石/.test(hantText), '繁體模式下人物姓名仍可显示');
   } else {
     log(false, '找不到繁體切换按钮');
@@ -103,17 +117,62 @@ try {
     log(found, '搜索繁體“王賁”能找到简体录入的“王贲”');
   }
 
-  // 6. Source page — the provenance surface every claim links to.
+  // 6. Family tree: ancestors above, descendants below, expandable per person.
+  //    Open a person first; the entry point lives on their page. Match on the
+  //    href, since the label itself is script-converted (家族树 / 家族樹).
+  await page.locator('.result-list a[href*="/persons/"]').first().click();
+  await page.waitForSelector('a[href$="/tree"]', { timeout: 15000 }).catch(() => {});
+  const treeLink = page.locator('a[href$="/tree"]').first();
+  if (await treeLink.count()) {
+    await treeLink.click();
+    await page.waitForSelector('.tree-root-row', { timeout: 15000 }).catch(() => {});
+    const treeText = await page.locator('body').innerText();
+    log(/的家族树/.test(treeText), '家族树页面打开');
+    log(/祖先/.test(treeText) && /后代/.test(treeText), '家族树分为祖先与后代两向');
+    log((await page.locator('.tree-person').count()) > 1, '家族树渲染了多个人物节点');
+
+    const expandButton = page.locator('.tree-more button').first();
+    if (await expandButton.count()) {
+      const before = {
+        people: await page.locator('.tree-person').count(),
+        buttons: await page.locator('.tree-more button').count(),
+      };
+      await expandButton.click();
+      // Either another generation appears, or that person turns out to have no
+      // further relatives and the button is replaced by a note — both mean the
+      // expansion resolved rather than hung.
+      const resolved = await page
+        .waitForFunction(
+          (b) =>
+            document.querySelectorAll('.tree-person').length > b.people ||
+            document.querySelectorAll('.tree-more button').length < b.buttons,
+          before,
+          { timeout: 20000 },
+        )
+        .then(() => true)
+        .catch(() => false);
+      log(resolved, '点“展开”后家族树向外推进了一代（或确认该支到头）');
+    } else {
+      log(true, '家族树已完整展开，无需再展开（无展开按钮）');
+    }
+    log(!/Failed to fetch/i.test(treeText), '家族树页没有 "Failed to fetch"');
+  } else {
+    log(false, '人物页找不到家族树入口');
+  }
+
+  // 7. Source page — the provenance surface every claim links to.
   await page.goto(PAGES, { waitUntil: 'networkidle' });
   const s3 = page.locator('input[type="search"]').first();
   await s3.fill('王安石');
   await s3.press('Enter');
   await page.waitForSelector('.result-list a[href*="/persons/"]', { timeout: 15000 }).catch(() => {});
   await page.locator('.result-list a[href*="/persons/"]').first().click();
+  await page.waitForSelector('.provenance > summary', { timeout: 15000 }).catch(() => {});
+  await page.locator('.provenance > summary').first().click();
   await page
-    .waitForSelector('.source-list a[href*="/sources/"]', { timeout: 15000 })
+    .waitForSelector('.provenance[open] .source-list a[href*="/sources/"]', { timeout: 15000 })
     .catch(() => {});
-  const sourceLink = page.locator('.source-list a[href*="/sources/"]').first();
+  const sourceLink = page.locator('.provenance[open] .source-list a[href*="/sources/"]').first();
   if (await sourceLink.count()) {
     await sourceLink.click();
     await page.waitForLoadState('networkidle');
@@ -125,7 +184,7 @@ try {
     log(false, '人物页找不到来源链接');
   }
 
-  // 7. Recent changes page
+  // 8. Recent changes page
   await page.goto(`${PAGES}/changes`, { waitUntil: 'networkidle' });
   const cText = await page.locator('body').innerText();
   log(!/Failed to fetch/i.test(cText), '最近修改页没有 "Failed to fetch"');
