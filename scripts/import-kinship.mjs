@@ -20,6 +20,7 @@
 // stay private drafts and are listed at the end.
 
 import { readFileSync } from 'node:fs';
+import { foldKey } from '../packages/i18n/src/script.ts';
 import { d1Query } from './lib/d1.mjs';
 import { markExpanded } from './lib/expansion-state.mjs';
 
@@ -121,12 +122,21 @@ const overrides = JSON.parse(
 // skipping them would recreate the record the operator just took out of view.
 const personRows = d1Query(
   `SELECT p.id AS person_id,
+          (SELECT json_extract(c.value_json, '$.text') FROM claim c
+             WHERE c.subject_person_id = p.id AND c.predicate = 'name.primary'
+             ORDER BY c.created_at LIMIT 1) AS name,
           (SELECT group_concat(DISTINCT s.external_identifier) FROM claim_source cs
              JOIN source s ON s.id = cs.source_id
              JOIN claim c ON c.id = cs.claim_id
             WHERE c.subject_person_id = p.id
               AND c.predicate = 'name.primary'
-              AND s.external_identifier IS NOT NULL) AS identifiers
+              AND s.external_identifier IS NOT NULL) AS identifiers,
+          (SELECT group_concat(DISTINCT s.canonical_url) FROM claim_source cs
+             JOIN source s ON s.id = cs.source_id
+             JOIN claim c ON c.id = cs.claim_id
+            WHERE c.subject_person_id = p.id
+              AND c.predicate = 'name.primary'
+              AND s.canonical_url IS NOT NULL) AS name_source_urls
      FROM person p
     WHERE p.status <> 'merged'`,
   { ...d1, label: 'persons' },
@@ -139,8 +149,29 @@ for (const row of personRows) {
     const m = /^CBDB[:=]?\s*(\d+)$/i.exec(id);
     if (m) personIdByKey.set(`cbdb:${m[1].replace(/^0+/, '')}`, row.person_id);
   }
+  // A person mined out of prose often has no identifier at all — a Wikipedia
+  // sentence names 王瑜 without linking him anywhere. Identity then rests on the
+  // name together with the article that vouches for it, which is stable enough
+  // for a re-run to find the record it made last time instead of making a
+  // second one. Name alone would be far too loose: 王氏 names eight women here.
+  if (row.name) {
+    for (const url of (row.name_source_urls ?? '').split(',').filter(Boolean)) {
+      const key = `named:${foldKey(row.name)}@${url}`;
+      if (!personIdByKey.has(key)) personIdByKey.set(key, row.person_id);
+    }
+  }
 }
 for (const o of overrides.persons) personIdByKey.set(`wd:${o.qid}`, o.person_id);
+
+/** The name-plus-article keys a planned person could already be stored under. */
+function namedKeys(person) {
+  const text = person.name?.text;
+  if (!text) return [];
+  return (person.source_keys ?? person.claims?.[0]?.source_keys ?? [])
+    .map((key) => sourceDefs.get(key)?.canonical_url)
+    .filter(Boolean)
+    .map((url) => `named:${foldKey(text)}@${url}`);
+}
 
 // A source is reusable only if it is the same record *kind*: an early import
 // stored a CBDB id on a Wikipedia article record, and a Wikidata property
@@ -208,16 +239,21 @@ async function ensureSource(key) {
 }
 
 async function createSource(def, key) {
+  // Optional fields are omitted rather than sent as null: a source with no
+  // external identifier — a Wikipedia article, as against a Wikidata item —
+  // has no identifier, which is not the same as having a null one, and the
+  // API's schema rejects the latter.
+  const optional = (field, value) => (value === null || value === undefined ? {} : { [field]: value });
   const created = await api('POST', '/sources', {
     source_type: def.source_type,
     title: def.title,
-    creator: def.creator,
-    publisher: def.publisher,
-    canonical_url: def.canonical_url,
-    external_identifier: def.external_identifier,
-    license_code: def.license_code,
+    ...optional('creator', def.creator),
+    ...optional('publisher', def.publisher),
+    ...optional('canonical_url', def.canonical_url),
+    ...optional('external_identifier', def.external_identifier),
+    ...optional('license_code', def.license_code),
     accessed_at: new Date().toISOString(),
-    ...(def.metadata_json ? { metadata_json: def.metadata_json } : {}),
+    ...optional('metadata_json', def.metadata_json),
   });
   const id = created.source_id ?? created.id;
   sourceIdByKey.set(key, id);
@@ -258,13 +294,26 @@ const toCreate = plan.persons.filter((person) => {
   if (personIdByKey.has(person.key)) return false;
   if (person.qid && personIdByKey.has(`wd:${person.qid}`)) return false;
   if (person.cbdb && personIdByKey.has(`cbdb:${person.cbdb}`)) return false;
+  // Already created by an earlier run of this same plan, under the name and the
+  // article that named them. Point the plan key at that record so this run's
+  // relationships attach to it rather than to a second copy.
+  const already = namedKeys(person).find((key) => personIdByKey.has(key));
+  if (already) {
+    personIdByKey.set(person.key, personIdByKey.get(already));
+    return false;
+  }
   return true;
 });
 
 await inBatches(toCreate, dryRun ? 1 : 4, async (person) => {
   const [nameClaim, ...rest] = person.claims;
   const register = (personId) => {
-    for (const key of [person.key, person.qid && `wd:${person.qid}`, person.cbdb && `cbdb:${person.cbdb}`]) {
+    for (const key of [
+      person.key,
+      person.qid && `wd:${person.qid}`,
+      person.cbdb && `cbdb:${person.cbdb}`,
+      ...namedKeys(person),
+    ]) {
       if (key) personIdByKey.set(key, personId);
     }
   };
@@ -360,8 +409,14 @@ for (const edge of plan.edges) {
   }
   const fromKey = spec.directed ? edge.parent_key : edge.a_key;
   const toKey = spec.directed ? edge.child_key : edge.b_key;
-  const fromId = personIdByKey.get(fromKey);
-  const toId = personIdByKey.get(toKey);
+  // A plan may name the person outright when the end is a record it already
+  // matched in the database, which is how the zhwiki miner refers to everyone
+  // it recognised. Only a key that stands for a person this run created has to
+  // be looked up.
+  const fromId =
+    (spec.directed ? edge.parent_person_id : edge.a_person_id) ?? personIdByKey.get(fromKey);
+  const toId =
+    (spec.directed ? edge.child_person_id : edge.b_person_id) ?? personIdByKey.get(toKey);
   const label = spec.directed
     ? `${edge.parent_name} ${spec.arrow} ${edge.child_name}`
     : `${edge.a_name} ${spec.arrow} ${edge.b_name}`;
@@ -383,6 +438,10 @@ for (const edge of plan.edges) {
       source_id: await ensureSource(citation.source_key),
       stance: 'supports',
       ...(citation.locator ? { locator: citation.locator } : {}),
+      // The sentence the relation was read out of. A reader can check the claim
+      // against the words themselves without leaving the page, which is the
+      // whole point of mining prose rather than copying a structured field.
+      ...(citation.quotation ? { quotation: citation.quotation.slice(0, 2000) } : {}),
       ...(citation.note ? { interpretation_note: citation.note } : {}),
     });
   }
