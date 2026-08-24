@@ -17,17 +17,22 @@
 // Scope is the same as everywhere else: 王-surname persons, plus non-王 spouses
 // of theirs, and nobody else.
 
-import { readFileSync, writeFileSync } from 'node:fs';
+import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { join } from 'node:path';
 import { detectScript, foldKey } from '../packages/i18n/src/script.ts';
 import { d1Query } from './lib/d1.mjs';
 import {
   ZHWIKI_SOURCE_TEMPLATE,
+  articlePlainText,
   articleUrl,
   fetchWikitext,
+  linkTargetsByName,
   mineArticle,
   mineIndentedGenealogy,
   mineListLines,
   qidsByTitle,
+  verifyRelation,
+  zhwikiTitlesByQid,
 } from './lib/zhwiki.mjs';
 
 const args = process.argv.slice(2);
@@ -43,6 +48,14 @@ const d1 = {
 };
 const outPath = option('--out', new URL('kinship-data.json', import.meta.url).pathname);
 const limit = Number(option('--limit', '0'));
+// `--dump DIR` writes the articles as plain text for a reader (a subagent) and
+// stops; `--candidates FILE` folds what that reader found back in, after every
+// relation has been re-checked against the article. `--frontier` narrows the
+// article list to persons whose parents we do not have, which is where a new
+// generation can actually come from.
+const dumpDir = option('--dump', null);
+const candidatesPath = option('--candidates', null);
+const frontierOnly = flag('--frontier');
 
 /** Clan articles: their indented lists are family trees, not prose. */
 const CLAN_ARTICLES = option(
@@ -74,7 +87,11 @@ const rows = d1Query(
              JOIN claim c2 ON c2.id = cs.claim_id
             WHERE c2.subject_person_id = p.id
               AND c2.predicate = 'name.primary'
-              AND s.external_identifier IS NOT NULL) AS identifiers
+              AND s.external_identifier IS NOT NULL) AS identifiers,
+          EXISTS(SELECT 1 FROM claim k
+                  WHERE k.object_person_id = p.id
+                    AND k.predicate = 'kinship.parent_of'
+                    AND k.status NOT IN ('retracted', 'superseded')) AS has_parent
      FROM person p
     WHERE p.status <> 'merged'`,
   { ...d1, label: 'roster' },
@@ -97,28 +114,49 @@ console.error(`库中 ${rows.length} 条人物记录，其中 ${personByQid.size
 
 // Article titles to read: everyone we hold who has a zh-wiki article, plus the
 // clan articles.
-const qids = [...personByQid.keys()];
-const titlesByQid = new Map();
-for (let i = 0; i < qids.length; i += 60) {
-  const chunk = qids.slice(i, i + 60);
-  const url =
-    'https://www.wikidata.org/w/api.php?action=wbgetentities&props=sitelinks&format=json&ids=' +
-    chunk.join('|');
-  const res = await fetch(url, { headers: { 'user-agent': 'wang-genealogy-kinship/0.3' } });
-  if (!res.ok) continue;
-  const data = await res.json();
-  for (const [qid, entity] of Object.entries(data.entities ?? {})) {
-    const title = entity.sitelinks?.zhwiki?.title;
-    if (title) titlesByQid.set(qid, title);
-  }
-}
+const titlesByQid = await zhwikiTitlesByQid([...personByQid.keys()]);
 const personTitles = [...titlesByQid.values()];
 console.error(`其中 ${personTitles.length} 人有中文维基百科条目`);
 
-const articles = [...new Set([...CLAN_ARTICLES, ...personTitles])].slice(
+// The frontier is whoever we hold without a parent: their article is the one
+// that can name a generation we do not have. Everyone else is already linked
+// upward, so re-reading them mostly re-finds what is already stored.
+const frontierTitles = frontierOnly
+  ? [...titlesByQid]
+      .filter(([qid]) => {
+        const row = personByQid.get(qid);
+        return row && row.status === 'active' && !Number(row.has_parent);
+      })
+      .map(([, title]) => title)
+  : personTitles;
+if (frontierOnly) console.error(`其中 ${frontierTitles.length} 人尚无父母记录（前沿）`);
+
+const articles = [...new Set([...CLAN_ARTICLES, ...frontierTitles])].slice(
   0,
   limit > 0 ? limit : undefined,
 );
+
+// --- hand the articles to a reader ------------------------------------------
+
+if (dumpDir) {
+  mkdirSync(dumpDir, { recursive: true });
+  const manifest = [];
+  for (const [i, title] of articles.entries()) {
+    const wikitext = await fetchWikitext(title);
+    if (!wikitext) continue;
+    const plain = articlePlainText(wikitext);
+    // A biography's kinship is stated in the lead and the early life; the tail
+    // is bibliography and honours. Trimming keeps a batch inside one context.
+    const body = plain.slice(0, 9000);
+    const file = `${String(i).padStart(4, '0')}.txt`;
+    writeFileSync(join(dumpDir, file), `# ${title}\n\n${body}\n`, 'utf8');
+    manifest.push({ file, title, chars: body.length });
+    if ((i + 1) % 50 === 0) console.error(`  已导出 ${i + 1}/${articles.length}`);
+  }
+  writeFileSync(join(dumpDir, 'manifest.json'), `${JSON.stringify(manifest, null, 2)}\n`, 'utf8');
+  console.error(`导出 ${manifest.length} 篇条目到 ${dumpDir}`);
+  process.exit(0);
+}
 
 // --- mine -------------------------------------------------------------------
 
@@ -170,7 +208,48 @@ for (const title of articles) {
     });
   }
 }
-console.error(`挖掘出 ${candidates.length} 条候选关系（含重复）`);
+console.error(`正则挖掘出 ${candidates.length} 条候选关系（含重复）`);
+
+// --- fold in what a reader found, after checking every word of it ------------
+
+if (candidatesPath) {
+  const reported = JSON.parse(readFileSync(candidatesPath, 'utf8'));
+  const rejected = new Map();
+  let accepted = 0;
+  for (const article of reported) {
+    const wikitext = await fetchWikitext(article.article);
+    if (!wikitext) {
+      rejected.set('no_article', (rejected.get('no_article') ?? 0) + (article.relations?.length ?? 0));
+      continue;
+    }
+    const context = {
+      title: article.article,
+      plain: articlePlainText(wikitext),
+      links: linkTargetsByName(wikitext),
+    };
+    for (const relation of article.relations ?? []) {
+      const checked = verifyRelation(relation, context);
+      if (!checked.ok) {
+        rejected.set(checked.reason, (rejected.get(checked.reason) ?? 0) + 1);
+        continue;
+      }
+      accepted += 1;
+      candidates.push({
+        source_title: article.article,
+        a: { title: checked.subject_title, name: checked.subject_name },
+        b: { title: checked.other_title, name: checked.other_name },
+        role: checked.other_is,
+        term: `条文识读（${relation.term ?? checked.other_is}）`,
+        generations: checked.generations,
+        quotation: checked.quotation,
+      });
+    }
+  }
+  console.error(
+    `条文识读采纳 ${accepted} 条，驳回 ${[...rejected.values()].reduce((a, b) => a + b, 0)} 条` +
+      (rejected.size ? `（${[...rejected].map(([r, n]) => `${r}×${n}`).join('、')}）` : ''),
+  );
+}
 
 // --- resolve identities -----------------------------------------------------
 
@@ -181,13 +260,27 @@ for (const c of candidates) {
 const qidByTitle = await qidsByTitle([...linkTitles]);
 console.error(`解析出 ${qidByTitle.size}/${linkTitles.size} 个条目的维基数据标识`);
 
+// The same person reached twice — once as a wiki link, once as plain text in a
+// list line — would otherwise get two keys and be planned as two persons. Fold
+// the plain mention onto the linked one, but only when the name resolves to a
+// single article: 王彬 names seven different men, and guessing which is meant
+// would invent an identity rather than recover one.
+const qidByFoldedName = new Map();
+for (const [title, qid] of qidByTitle) {
+  const key = foldKey(title.replace(/\s*\([^)]*\)\s*$/, '').trim());
+  if (!qidByFoldedName.has(key)) qidByFoldedName.set(key, qid);
+  else if (qidByFoldedName.get(key) !== qid) qidByFoldedName.set(key, null);
+}
+
 const unresolved = new Map();
 const ambiguous = new Map();
 
 /** Existing person, a planned new person, or null when we cannot tell who. */
 function resolve(side) {
-  const qid = side.title ? (qidByTitle.get(side.title) ?? null) : null;
   const name = (side.name ?? side.title ?? '').replace(/\s*\([^)]*\)\s*$/, '').trim();
+  const qid =
+    (side.title ? (qidByTitle.get(side.title) ?? null) : null) ??
+    (name ? (qidByFoldedName.get(foldKey(name)) ?? null) : null);
   if (qid && personByQid.has(qid)) {
     return { kind: 'existing', person_id: personByQid.get(qid).person_id, qid, name: personByQid.get(qid).name };
   }
@@ -249,6 +342,7 @@ for (const candidate of candidates) {
   if (candidate.role === 'parent') [kind, first, second] = ['parent', b, a];
   else if (candidate.role === 'child') [kind, first, second] = ['parent', a, b];
   else if (candidate.role === 'ancestor') [kind, first, second] = ['ancestor', b, a];
+  else if (candidate.role === 'descendant') [kind, first, second] = ['ancestor', a, b];
   else if (candidate.role === 'spouse') [kind, first, second] = ['spouse', a, b];
   else continue;
 
@@ -319,24 +413,76 @@ for (const candidate of candidates) {
   }
 }
 
-// A non-王 person stays only if a marriage to a 王 person is among the edges.
+// A non-王 person stays only as the other half of a marriage to a 王 person.
+// The marriage counts whether it turns up in this run's edges or is already
+// stored: 郗璿 is in scope because she is 王羲之's wife, and that stays true on
+// a run that happens not to re-mine the marriage itself.
 const marriedToWang = new Set();
 for (const edge of edges.values()) {
   if (edge.kind !== 'spouse') continue;
-  const names = [edge.a_name, edge.b_name];
-  if (isWangName(names[0]) !== isWangName(names[1])) {
-    marriedToWang.add(isWangName(names[0]) ? edge.b_key : edge.a_key);
+  if (isWangName(edge.a_name) !== isWangName(edge.b_name)) {
+    marriedToWang.add(isWangName(edge.a_name) ? edge.b_key : edge.a_key);
   }
 }
+for (const row of d1Query(
+  `SELECT c.subject_person_id AS a, c.object_person_id AS b
+     FROM claim c
+    WHERE c.predicate = 'kinship.spouse_of'
+      AND c.status NOT IN ('retracted', 'superseded')`,
+  { ...d1, label: 'spouses' },
+)) {
+  const names = [row.a, row.b].map((id) => rows.find((r) => r.person_id === id)?.name ?? '');
+  if (isWangName(names[0]) !== isWangName(names[1])) {
+    marriedToWang.add(`db:${isWangName(names[0]) ? row.b : row.a}`);
+  }
+}
+
 for (const [key, person] of [...newPersons]) {
   if (isWangName(person.name.text) || marriedToWang.has(key)) continue;
   newPersons.delete(key);
   skipped.push({ key, name: person.name.text, reason: 'not_wang_surname', detail: '非王姓且无与王姓的婚姻关系' });
 }
+
+// Scope, applied to the plan itself rather than left to a later pass: an edge
+// is kept only when both ends belong here. Without this, following a 王 person
+// into their in-laws walks straight into the 劉 and 司馬 imperial lines —
+// 王娡 to 漢武帝 to his sons — which is what the collection boundary exists to
+// prevent, and no amount of correct sourcing makes those records in scope.
+const outOfScopeEdges = [];
 const planEdges = [...edges.values()].filter((edge) => {
-  const keys = edge.kind === 'spouse' ? [edge.a_key, edge.b_key] : [edge.parent_key, edge.child_key];
-  return keys.every((key) => !key.startsWith('db:') ? newPersons.has(key) : true);
+  const ends =
+    edge.kind === 'spouse'
+      ? [
+          [edge.a_key, edge.a_name],
+          [edge.b_key, edge.b_name],
+        ]
+      : [
+          [edge.parent_key, edge.parent_name],
+          [edge.child_key, edge.child_name],
+        ];
+  if (!ends.every(([key]) => key.startsWith('db:') || newPersons.has(key))) return false;
+  // A marriage needs only one 王 end — that is what puts the other half in
+  // scope. Descent needs both: being married to a 王 person buys the marriage
+  // and nothing else, so 漢武帝, who married a 王夫人, still does not bring his
+  // father and his sons along with him.
+  const kept =
+    edge.kind === 'spouse'
+      ? ends.some(([, name]) => isWangName(name))
+      : ends.every(([, name]) => isWangName(name));
+  if (!kept) outOfScopeEdges.push(`${ends[0][1]}${edge.kind === 'spouse' ? '⇄' : '→'}${ends[1][1]}`);
+  return kept;
 });
+if (outOfScopeEdges.length) {
+  skipped.push({
+    key: null,
+    name: null,
+    reason: 'edge_out_of_scope',
+    detail:
+      `${outOfScopeEdges.length} 条关系越出收录范围，不入库` +
+      '（世系关系要求两端都是王姓；婚姻关系要求至少一端是王姓）：' +
+      `${outOfScopeEdges.slice(0, 8).join('、')}${outOfScopeEdges.length > 8 ? '…' : ''}`,
+  });
+}
 
 const plan = {
   generated_from: ['zhwiki-prose'],
