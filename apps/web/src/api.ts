@@ -9,6 +9,7 @@ import type {
   Confidence,
   Contribution,
   Cursor,
+  KinshipHighlight,
   LicenseCode,
   PersonExport,
   PersonMergeProposal,
@@ -307,6 +308,12 @@ export const api = {
       method: 'POST',
       body: input,
     }),
+
+  /** Persons with the most recorded kinship — entry points for the tree view. */
+  getKinshipHighlights: (limit = 8) =>
+    request<{ items: KinshipHighlight[] }>('/kinship-highlights', { query: { limit } }).then(
+      (r) => r.items,
+    ),
 
   // recent changes feed
   listRecentChanges: (cursor?: string) =>

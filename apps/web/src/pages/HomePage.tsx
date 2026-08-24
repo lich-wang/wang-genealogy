@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import type { FormEvent } from 'react';
 import { Link } from 'react-router-dom';
-import type { PersonSummaryLite, RecentChange } from '@wang/domain';
+import type { KinshipHighlight, PersonSummaryLite, RecentChange } from '@wang/domain';
 import { scriptVariants } from '@wang/i18n';
 import { api } from '../api';
 import { useAsync, toMessage } from '../hooks';
@@ -23,6 +23,10 @@ export function HomePage() {
     () => api.listRecentChanges().then((c) => c.items),
     [],
   );
+
+  // A tree has to start somewhere, and a first-time reader has no way to guess
+  // which record has a family worth walking — so the server ranks them.
+  const highlights = useAsync<KinshipHighlight[]>(() => api.getKinshipHighlights(8), []);
 
   // A common surname matches far more than one page, so the result list is
   // paged: `next` continues the previous page instead of restarting it.
@@ -100,8 +104,10 @@ export function HomePage() {
                     <Link to={`/persons/${encodeURIComponent(p.id)}`}>
                       <ZhText text={p.display_name} fallback={t('（未命名人物）')} />
                     </Link>{' '}
-                    <PersonStatusBadge status={p.status} />
-                    <span className="muted"> · {p.id}</span>
+                    <PersonStatusBadge status={p.status} />{' '}
+                    <Link className="result-tree" to={`/persons/${encodeURIComponent(p.id)}/tree`}>
+                      {t('家族树')}
+                    </Link>
                   </li>
                 ))}
               </ul>
@@ -124,6 +130,29 @@ export function HomePage() {
               )}
             </>
           )
+        ) : null}
+      </section>
+
+      <section className="tree-entry-block">
+        <div className="section-head">
+          <h2>{t('家族树')}</h2>
+        </div>
+        <p className="hint">
+          {t('从这些人物开始，祖先在上、后代在下，可按需一代一代展开；括号内是已记录的亲属人数。')}
+        </p>
+        {highlights.loading ? <p className="muted">{t('載入中…')}</p> : null}
+        {highlights.error ? <p className="error">{t(highlights.error)}</p> : null}
+        {highlights.data ? (
+          <ul className="tree-entry-list">
+            {highlights.data.map((person) => (
+              <li key={person.id}>
+                <Link to={`/persons/${encodeURIComponent(person.id)}/tree`}>
+                  <ZhText text={person.display_name} fallback={person.id} />
+                </Link>
+                <span className="muted">（{person.relative_count}）</span>
+              </li>
+            ))}
+          </ul>
         ) : null}
       </section>
 

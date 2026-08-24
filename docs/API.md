@@ -76,6 +76,14 @@ GET /api/v1/search?q=王&cursor=MjAyNi0wMS0wMlQwMDowMDowMC4wMDBafHBfMg
 - 游标不合法返回 `400 invalid_cursor`；
 - 「王」这类高频姓氏必然跨多页：客户端应展示「载入更多」，不要静默截断。
 
+### 家族树起点
+
+```http
+GET /api/v1/kinship-highlights?limit=8
+```
+
+按已记录亲属关系数排序的公开人物列表（`limit` 1–24，默认 8），供首页作为家族树入口。用数据排序而不是维护一份手写名单，数据增长时不会过期。
+
 ## 二、基础信息主张
 
 ```http

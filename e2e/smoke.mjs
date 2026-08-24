@@ -31,7 +31,20 @@ try {
   log(!/Failed to fetch/i.test(bodyText), '首页没有 "Failed to fetch"');
   log(bodyText.trim().length > 20, `首页有可见内容 (${bodyText.trim().length} 字符)`);
 
-  // 2. Search for 王 and expect a result linking to a person
+  // 2. The home page must offer a way into the tree view without knowing a name.
+  const treeEntries = page.locator('.tree-entry-list a');
+  const entryCount = await treeEntries
+    .first()
+    .waitFor({ timeout: 15000 })
+    .then(() => treeEntries.count())
+    .catch(() => 0);
+  log(entryCount > 0, `首页有家族树入口（${entryCount} 个起点）`);
+  if (entryCount > 0) {
+    const href = await treeEntries.first().getAttribute('href');
+    log(Boolean(href?.endsWith('/tree')), '首页家族树入口直接指向家族树页');
+  }
+
+  // 3. Search for 王 and expect a result linking to a person
   const search = page.locator('input[type="search"], input[type="text"]').first();
   let hasResults = false;
   if (await search.count()) {
@@ -47,7 +60,7 @@ try {
     log(false, '首页找不到搜索框');
   }
 
-  // 3. Open the 王安石 search result and verify provenance content
+  // 4. Open the 王安石 search result and verify provenance content
   const personLink = page.locator('.result-list a[href*="/persons/"]', { hasText: '王安石' }).first();
   if (await personLink.count()) {
     await personLink.click();
@@ -76,7 +89,7 @@ try {
     log(false, '搜索结果中找不到“王安石”链接');
   }
 
-  // 4. Script switch: the same page must render in 简体 and in 繁體, and the
+  // 5. Script switch: the same page must render in 简体 and in 繁體, and the
   //    stored (Simplified) person name must follow the reader's choice.
   const toggle = page.locator('.script-toggle button');
   log((await toggle.count()) === 2, '页面提供简体/繁體两种字形切换');
@@ -104,7 +117,7 @@ try {
     log(false, '找不到繁體切换按钮');
   }
 
-  // 5. Script-insensitive search: 繁體 query finds the 简体 record.
+  // 6. Script-insensitive search: 繁體 query finds the 简体 record.
   await page.goto(PAGES, { waitUntil: 'networkidle' });
   const search2 = page.locator('input[type="search"]').first();
   if (await search2.count()) {
@@ -117,7 +130,7 @@ try {
     log(found, '搜索繁體“王賁”能找到简体录入的“王贲”');
   }
 
-  // 6. Family tree: ancestors above, descendants below, expandable per person.
+  // 7. Family tree: ancestors above, descendants below, expandable per person.
   //    Open a person first; the entry point lives on their page. Match on the
   //    href, since the label itself is script-converted (家族树 / 家族樹).
   await page.locator('.result-list a[href*="/persons/"]').first().click();
@@ -160,7 +173,7 @@ try {
     log(false, '人物页找不到家族树入口');
   }
 
-  // 7. Source page — the provenance surface every claim links to.
+  // 8. Source page — the provenance surface every claim links to.
   await page.goto(PAGES, { waitUntil: 'networkidle' });
   const s3 = page.locator('input[type="search"]').first();
   await s3.fill('王安石');
@@ -184,7 +197,7 @@ try {
     log(false, '人物页找不到来源链接');
   }
 
-  // 8. Recent changes page
+  // 9. Recent changes page
   await page.goto(`${PAGES}/changes`, { waitUntil: 'networkidle' });
   const cText = await page.locator('body').innerText();
   log(!/Failed to fetch/i.test(cText), '最近修改页没有 "Failed to fetch"');

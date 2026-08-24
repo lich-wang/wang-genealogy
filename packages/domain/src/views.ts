@@ -71,6 +71,14 @@ export interface RelativesGraph {
   truncated: boolean;
 }
 
+/** A suggested starting point for browsing family trees. */
+export interface KinshipHighlight {
+  id: string;
+  display_name: string | null;
+  /** Recorded parents, children and spouses — how much tree there is to walk. */
+  relative_count: number;
+}
+
 export interface RecentChange {
   contribution_id: string;
   action: string;

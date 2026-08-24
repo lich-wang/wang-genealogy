@@ -162,6 +162,25 @@ a:hover {
   border-bottom: 1px solid var(--line);
 }
 
+.result-tree {
+  font-size: 0.78rem;
+  border-bottom: 1px dotted var(--line);
+}
+.tree-entry-block {
+  margin: 1.5rem 0;
+}
+.tree-entry-list {
+  list-style: none;
+  padding: 0;
+  margin: 0.25rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1rem;
+}
+.tree-entry-list li {
+  white-space: nowrap;
+}
+
 /* buttons */
 .btn {
   display: inline-block;
