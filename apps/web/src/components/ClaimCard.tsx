@@ -52,12 +52,21 @@ export function ClaimCard({ item, recommended, onDispute, disputeBusy }: ClaimCa
         {relationship ? (
           <RelationshipTarget item={item} />
         ) : (
-          <ZhText
-            text={value?.text}
-            language={value?.language}
-            mode="evidence"
-            fallback={<span className="muted">{t('（無值）')}</span>}
-          />
+          <>
+            <ZhText
+              text={value?.text}
+              language={value?.language}
+              mode="evidence"
+              fallback={<span className="muted">{t('（無值）')}</span>}
+            />
+            {value?.note ? (
+              <span className="claim-note">
+                {/* Our annotation about the source's precision, not a quotation
+                    from it — so it reads in the reader's script. */}
+                <ZhText text={value.note} />
+              </span>
+            ) : null}
+          </>
         )}
       </div>
 

@@ -1,12 +1,14 @@
 import type { ClaimValue, UncertainDate } from '@wang/domain';
 import type { ZhScript } from '@wang/i18n';
 
-/** Human-readable rendering of an uncertain historical date. */
+/**
+ * Human-readable rendering of an uncertain historical date — the date text
+ * only. The calendar note travels separately (see ClaimValueDisplay.note): it
+ * annotates the source's precision rather than being part of the value, and
+ * gluing it in made short dates read like paragraphs.
+ */
 export function formatUncertainDate(date: UncertainDate): string {
-  if (date.original_text) {
-    const note = date.calendar_note ? `（${date.calendar_note}）` : '';
-    return `${date.original_text}${note}`;
-  }
+  if (date.original_text) return date.original_text;
   const lo = date.earliest ?? '?';
   const hi = date.latest ?? '?';
   return lo === hi ? lo : `${lo} ～ ${hi}`;
@@ -20,11 +22,19 @@ export function formatUncertainDate(date: UncertainDate): string {
 export interface ClaimValueDisplay {
   text: string;
   language: string | null;
+  /** Calendar/precision note about the date, shown as an annotation. */
+  note?: string | null;
 }
 
 export function claimValueDisplay(value: ClaimValue | null): ClaimValueDisplay | null {
   if (!value) return null;
-  if (value.date) return { text: formatUncertainDate(value.date), language: null };
+  if (value.date) {
+    return {
+      text: formatUncertainDate(value.date),
+      language: null,
+      note: value.date.calendar_note ?? null,
+    };
+  }
   if (typeof value.text === 'string' && value.text.length > 0) {
     return { text: value.text, language: value.language ?? null };
   }
