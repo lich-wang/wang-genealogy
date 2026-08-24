@@ -432,6 +432,9 @@ a:hover {
 .provenance > summary::-webkit-details-marker {
   display: none;
 }
+.provenance > summary .badge {
+  margin-left: 0.4rem;
+}
 .provenance > summary:hover {
   color: var(--accent);
 }

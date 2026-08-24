@@ -247,6 +247,50 @@ findings.spouse_only_with_property_claims = query(
   'spouse-only persons carrying property claims',
 );
 
+// Marriages that cross a generation. Wikidata records 功显君 as the spouse of
+// 王禁 while also making her the mother of 王莽, whose father 王曼 is 王禁's son —
+// so she would be married to her co-parent's father. The import is faithful to
+// the source; the source contradicts itself, and that is worth surfacing rather
+// than quietly reproducing. Nothing is auto-corrected: a sourced claim is
+// disputed by a person, with a reason.
+const childrenOfPerson = new Map();
+const parentsOfPerson = new Map();
+const spousePairs = [];
+for (const edge of kinship) {
+  if (edge.predicate === 'kinship.spouse_of') {
+    spousePairs.push([edge.a, edge.b]);
+    continue;
+  }
+  if (!childrenOfPerson.has(edge.a)) childrenOfPerson.set(edge.a, new Set());
+  childrenOfPerson.get(edge.a).add(edge.b);
+  if (!parentsOfPerson.has(edge.b)) parentsOfPerson.set(edge.b, new Set());
+  parentsOfPerson.get(edge.b).add(edge.a);
+}
+
+const nameOfPerson = new Map(persons.map((p) => [p.id, p.name]));
+findings.spouse_generation_conflicts = [];
+for (const [a, b] of spousePairs) {
+  for (const [self, spouse] of [
+    [a, b],
+    [b, a],
+  ]) {
+    for (const child of childrenOfPerson.get(self) ?? []) {
+      for (const coParent of parentsOfPerson.get(child) ?? []) {
+        if (coParent === self) continue;
+        if (!(parentsOfPerson.get(coParent)?.has(spouse) ?? false)) continue;
+        findings.spouse_generation_conflicts.push({
+          spouse_pair: [nameOfPerson.get(self) ?? self, nameOfPerson.get(spouse) ?? spouse],
+          detail:
+            `${nameOfPerson.get(self) ?? self} 与 ${nameOfPerson.get(spouse) ?? spouse} 记为配偶，` +
+            `但其子女 ${nameOfPerson.get(child) ?? child} 的另一位家长 ` +
+            `${nameOfPerson.get(coParent) ?? coParent} 正是 ${nameOfPerson.get(spouse) ?? spouse} 的子女——相差一代`,
+          person_ids: { self, spouse, child, co_parent: coParent },
+        });
+      }
+    }
+  }
+}
+
 // Duplicates already raised for review, so they are not reported twice as if
 // nothing had been done about them.
 findings.open_merge_proposals = query(
