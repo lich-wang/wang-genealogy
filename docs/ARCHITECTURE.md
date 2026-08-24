@@ -85,13 +85,14 @@ MVP 先使用规范化姓名、异名、地点和外部 ID 的数据库索引搜
 scripts/expand-kinship.mjs        逐轮循环，直到没有待展开的人物
   │
   ├─ scripts/fetch-kinship.mjs    前沿=尚未查过的王姓人物（--frontier）
-  │    维基数据：P22 父、P25 母、P40 子女、P26 配偶
+  │    维基数据：P22 父、P25 母、P40 子女、P26 配偶、P3373 兄弟姊妹，正反两个方向都读
   │    CBDB    ：亲属关系（中文称谓 → packages/validation 的映射表）
   │    ↓ scripts/kinship-data.json  计划：待建人物及其主张、关系及引用、跳过项、同名待查
   └─ scripts/import-kinship.mjs   只经 /api/v1 写入
          ↓
       Worker API → D1
-scripts/prune-off-scope.mjs      超出收录范围（距王姓 >1 步）的人物转为 suppressed
+scripts/mine-zhwiki.mjs          中文维基条目正文中的世系说法（「王元四世孫」）→ ancestor_of 计划
+scripts/enforce-scope.mjs        对齐收录范围：王姓及其配偶留下，其余转 suppressed；双向收敛
 scripts/fix-titled-names.mjs     庙号/称号改记为异名，本名提为 name.primary
 scripts/audit-data.mjs           复核：重复、无来源主张、悬空关系、待处理合并提案
 scripts/propose-merge.mjs        确认是同一人时，逐对提出可回滚的合并提案
