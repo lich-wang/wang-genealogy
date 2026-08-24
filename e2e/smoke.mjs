@@ -138,35 +138,44 @@ try {
   const treeLink = page.locator('a[href$="/tree"]').first();
   if (await treeLink.count()) {
     await treeLink.click();
-    await page.waitForSelector('.tree-root-row', { timeout: 15000 }).catch(() => {});
+    await page.waitForSelector('.tree-box-root', { timeout: 15000 }).catch(() => {});
     const treeText = await page.locator('body').innerText();
     log(/的家族树/.test(treeText), '家族树页面打开');
-    log(/祖先/.test(treeText) && /后代/.test(treeText), '家族树分为祖先与后代两向');
-    log((await page.locator('.tree-person').count()) > 1, '家族树渲染了多个人物节点');
+    const boxes = await page.locator('.tree-box').count();
+    log(boxes > 1, `家族树以图形方框渲染人物（${boxes} 个）`);
+    log((await page.locator('.tree-edge').count()) > 0, '家族树用连线表示关系');
 
-    const expandButton = page.locator('.tree-more button').first();
-    if (await expandButton.count()) {
-      const before = {
-        people: await page.locator('.tree-person').count(),
-        buttons: await page.locator('.tree-more button').count(),
-      };
-      await expandButton.click();
-      // Either another generation appears, or that person turns out to have no
-      // further relatives and the button is replaced by a note — both mean the
-      // expansion resolved rather than hung.
+    // The evidence for each link is written on the line itself.
+    // SVG text needs textContent; innerText is a DOM-only notion.
+    const labels = await page.locator('.tree-edge-label').allTextContents();
+    log(labels.some((l) => (l ?? '').trim().length > 0), `连线上标注了依据（如 ${labels[0] ?? ''}）`);
+
+    // Clicking a line opens what that relationship rests on.
+    await page.locator('.tree-edge').first().click();
+    const detail = await page
+      .waitForSelector('.tree-detail', { timeout: 10000 })
+      .then(() => true)
+      .catch(() => false);
+    log(detail, '点连线显示该关系的来源依据');
+
+    // Clicking a person walks one more generation out from them. Either new
+    // boxes appear, or that person has no further relatives and simply loses
+    // its ＋ marker — both mean the request resolved rather than hung.
+    const unexpanded = page.locator('.tree-box:not(.tree-box-root)').first();
+    if (await unexpanded.count()) {
+      const before = { boxes, plus: await page.locator('.tree-box-more').count() };
+      await unexpanded.click();
       const resolved = await page
         .waitForFunction(
           (b) =>
-            document.querySelectorAll('.tree-person').length > b.people ||
-            document.querySelectorAll('.tree-more button').length < b.buttons,
+            document.querySelectorAll('.tree-box').length > b.boxes ||
+            document.querySelectorAll('.tree-box-more').length < b.plus,
           before,
           { timeout: 20000 },
         )
         .then(() => true)
         .catch(() => false);
-      log(resolved, '点“展开”后家族树向外推进了一代（或确认该支到头）');
-    } else {
-      log(true, '家族树已完整展开，无需再展开（无展开按钮）');
+      log(resolved, '点人物方框后展开其上下一代（或确认该支到头）');
     }
     log(!/Failed to fetch/i.test(treeText), '家族树页没有 "Failed to fetch"');
   } else {

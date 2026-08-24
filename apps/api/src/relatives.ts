@@ -1,4 +1,10 @@
-import type { RelativeNode, RelativesGraph } from '@wang/domain';
+import type {
+  KinshipEvidence,
+  ParentEdge,
+  RelativeNode,
+  RelativesGraph,
+  SpouseEdge,
+} from '@wang/domain';
 import { nameOf } from './summary.ts';
 
 /**
@@ -9,6 +15,10 @@ import { nameOf } from './summary.ts';
  * tree view that fetched all of it would be useless as well as slow. When the
  * cap stops the walk the result says so, so the client can offer to expand
  * further from a specific person rather than silently showing a partial tree.
+ *
+ * Each edge carries its citations: a line drawn between two people is a claim,
+ * and the reader should be able to see what it rests on without leaving the
+ * diagram.
  */
 export const MAX_GENERATIONS = 4;
 export const MAX_NODES = 240;
@@ -16,11 +26,14 @@ export const MAX_NODES = 240;
 /** Only publicly visible persons appear in a tree. */
 const VISIBLE = "('active','merged')";
 
-async function step(
-  db: D1Database,
-  ids: string[],
-  direction: 'up' | 'down',
-): Promise<Array<{ parent_id: string; child_id: string }>> {
+interface RawEdge {
+  claim_id: string;
+  status: string;
+  parent_id: string;
+  child_id: string;
+}
+
+async function step(db: D1Database, ids: string[], direction: 'up' | 'down'): Promise<RawEdge[]> {
   if (ids.length === 0) return [];
   const placeholders = ids.map(() => '?').join(',');
   // Going up we look for edges whose CHILD is in the frontier; going down, the
@@ -29,7 +42,8 @@ async function step(
   const other = direction === 'up' ? 'c.subject_person_id' : 'c.object_person_id';
   const res = await db
     .prepare(
-      `SELECT c.subject_person_id AS parent_id, c.object_person_id AS child_id
+      `SELECT c.id AS claim_id, c.status,
+              c.subject_person_id AS parent_id, c.object_person_id AS child_id
          FROM claim c
          JOIN person p ON p.id = ${other}
         WHERE c.predicate = 'kinship.parent_of'
@@ -38,8 +52,33 @@ async function step(
           AND p.status IN ${VISIBLE}`,
     )
     .bind(...ids)
-    .all<{ parent_id: string; child_id: string }>();
+    .all<RawEdge>();
   return res.results ?? [];
+}
+
+/** Supporting citations for a set of claims, trimmed to what a label needs. */
+async function citationsFor(
+  db: D1Database,
+  claimIds: string[],
+): Promise<Map<string, KinshipEvidence[]>> {
+  const byClaim = new Map<string, KinshipEvidence[]>();
+  if (claimIds.length === 0) return byClaim;
+  const placeholders = claimIds.map(() => '?').join(',');
+  const res = await db
+    .prepare(
+      `SELECT cs.claim_id, cs.locator, s.title
+         FROM claim_source cs JOIN source s ON s.id = cs.source_id
+        WHERE cs.claim_id IN (${placeholders}) AND cs.stance = 'supports'
+        ORDER BY cs.created_at`,
+    )
+    .bind(...claimIds)
+    .all<{ claim_id: string; locator: string | null; title: string }>();
+  for (const row of res.results ?? []) {
+    const list = byClaim.get(row.claim_id) ?? [];
+    list.push({ source_title: row.title, locator: row.locator ?? null });
+    byClaim.set(row.claim_id, list);
+  }
+  return byClaim;
 }
 
 export async function loadRelatives(
@@ -52,13 +91,10 @@ export async function loadRelatives(
   const limit = Math.min(Math.max(options.limit ?? MAX_NODES, 1), MAX_NODES);
 
   const collected = new Set<string>([rootId]);
-  const parentEdges = new Map<string, { parent_id: string; child_id: string }>();
+  const parentEdges = new Map<string, RawEdge>();
   let truncated = false;
 
-  const absorb = (
-    edges: Array<{ parent_id: string; child_id: string }>,
-    pick: (e: { parent_id: string; child_id: string }) => string,
-  ) => {
+  const absorb = (edges: RawEdge[], pick: (e: RawEdge) => string) => {
     const next: string[] = [];
     for (const edge of edges) {
       const id = pick(edge);
@@ -70,7 +106,7 @@ export async function loadRelatives(
         collected.add(id);
         next.push(id);
       }
-      parentEdges.set(`${edge.parent_id}|${edge.child_id}`, edge);
+      parentEdges.set(edge.claim_id, edge);
     }
     return next;
   };
@@ -86,13 +122,14 @@ export async function loadRelatives(
 
   // Spouses of everyone collected: a tree without them hides half of each
   // couple, and they are one hop, so this stays cheap.
-  const spouseEdges: Array<{ a_id: string; b_id: string }> = [];
+  const rawSpouses: Array<{ claim_id: string; status: string; a_id: string; b_id: string }> = [];
   const ids = [...collected];
   if (ids.length > 0) {
     const ph = ids.map(() => '?').join(',');
     const res = await db
       .prepare(
-        `SELECT c.subject_person_id AS a_id, c.object_person_id AS b_id
+        `SELECT c.id AS claim_id, c.status,
+                c.subject_person_id AS a_id, c.object_person_id AS b_id
            FROM claim c
            JOIN person pa ON pa.id = c.subject_person_id
            JOIN person pb ON pb.id = c.object_person_id
@@ -103,7 +140,7 @@ export async function loadRelatives(
             AND pb.status IN ${VISIBLE}`,
       )
       .bind(...ids, ...ids)
-      .all<{ a_id: string; b_id: string }>();
+      .all<{ claim_id: string; status: string; a_id: string; b_id: string }>();
     for (const edge of res.results ?? []) {
       for (const id of [edge.a_id, edge.b_id]) {
         if (collected.has(id)) continue;
@@ -113,9 +150,17 @@ export async function loadRelatives(
         }
         collected.add(id);
       }
-      if (collected.has(edge.a_id) && collected.has(edge.b_id)) spouseEdges.push(edge);
+      if (collected.has(edge.a_id) && collected.has(edge.b_id)) rawSpouses.push(edge);
     }
   }
+
+  const keptParents = [...parentEdges.values()].filter(
+    (e) => collected.has(e.parent_id) && collected.has(e.child_id),
+  );
+  const citations = await citationsFor(db, [
+    ...keptParents.map((e) => e.claim_id),
+    ...rawSpouses.map((e) => e.claim_id),
+  ]);
 
   const nodeIds = [...collected];
   const names = await nameOf(db, nodeIds);
@@ -144,15 +189,21 @@ export async function loadRelatives(
     death: (r.death as string) ?? null,
   }));
 
-  return {
-    root_id: rootId,
-    up,
-    down,
-    nodes,
-    parent_edges: [...parentEdges.values()].filter(
-      (e) => collected.has(e.parent_id) && collected.has(e.child_id),
-    ),
-    spouse_edges: spouseEdges,
-    truncated,
-  };
+  const parent_edges: ParentEdge[] = keptParents.map((e) => ({
+    parent_id: e.parent_id,
+    child_id: e.child_id,
+    claim_id: e.claim_id,
+    status: e.status as ParentEdge['status'],
+    citations: citations.get(e.claim_id) ?? [],
+  }));
+
+  const spouse_edges: SpouseEdge[] = rawSpouses.map((e) => ({
+    a_id: e.a_id,
+    b_id: e.b_id,
+    claim_id: e.claim_id,
+    status: e.status as SpouseEdge['status'],
+    citations: citations.get(e.claim_id) ?? [],
+  }));
+
+  return { root_id: rootId, up, down, nodes, parent_edges, spouse_edges, truncated };
 }

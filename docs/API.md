@@ -33,7 +33,7 @@ GET /api/v1/persons/{personId}/claims?status=disputed
 GET /api/v1/persons/{personId}/relatives?up=2&down=2
 ```
 
-返回以该人物为中心、向上向下各若干代的**轻量**切片：`nodes`（id、姓名、生卒原文、状态）、`parent_edges`（按存储方向 PARENT→CHILD）、`spouse_edges`。不含主张与来源——家族树只需要姓名和连线。
+返回以该人物为中心、向上向下各若干代的**轻量**切片：`nodes`（id、姓名、生卒原文、状态）、`parent_edges`（按存储方向 PARENT→CHILD）、`spouse_edges`。每条边带 `claim_id`、`status` 和 `citations`（`source_title` + `locator`）——连线本身就是一条主张，读者要能就地看到它的依据。不含人物的其他主张。
 
 - `up`／`down` 为 0–4 的整数，默认各 2；超出范围返回 `400 invalid_generations`；
 - 单次最多返回 240 个节点，触顶时 `truncated: true`，客户端应提示「从某个具体人物继续展开」而不是静默截断；

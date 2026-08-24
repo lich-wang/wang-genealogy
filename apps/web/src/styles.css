@@ -455,66 +455,115 @@ a:hover {
   margin-top: 0.25rem;
 }
 
-/* family tree */
+/* family tree diagram */
 .tree-head h1 {
   margin-bottom: 0.25rem;
 }
-.tree-section {
-  margin: 1.25rem 0;
-}
-.tree-branch {
-  list-style: none;
-  margin: 0;
-  padding-left: 1rem;
-  border-left: 1px solid var(--line);
-}
-.tree-section > .tree-branch {
-  padding-left: 0;
-  border-left: 0;
-}
-.tree-branch-up {
-  /* ancestors read upward: the further up the list, the older the generation */
-  display: flex;
-  flex-direction: column-reverse;
-}
-.tree-node {
-  padding: 0.15rem 0;
-}
-.tree-person {
-  display: inline-flex;
-  align-items: baseline;
-  gap: 0.35rem;
-  flex-wrap: wrap;
-}
-.tree-person-root {
-  font-weight: 700;
-  background: var(--accent-soft);
+.tree-canvas {
+  overflow: auto;
+  border: 1px solid var(--line);
   border-radius: var(--radius);
-  padding: 0.1rem 0.5rem;
+  background: var(--surface);
+  margin: 0.75rem 0;
+  max-height: 78vh;
 }
-.tree-years,
-.tree-spouses {
-  color: var(--muted);
-  font-size: 0.85rem;
+
+/* boxes */
+.tree-box {
+  cursor: pointer;
 }
-.tree-recentre {
-  font-size: 0.72rem;
-  color: var(--muted);
-  border-bottom: 1px dotted var(--line);
+.tree-box rect {
+  fill: var(--surface);
+  stroke: var(--line);
+  stroke-width: 1;
 }
-.tree-recentre:hover {
-  color: var(--accent);
+.tree-box:hover rect {
+  stroke: var(--accent);
 }
-.tree-root-row {
-  margin: 0.5rem 0;
-  padding: 0.35rem 0;
-  border-top: 2px solid var(--accent-soft);
-  border-bottom: 2px solid var(--accent-soft);
+.tree-box-root rect {
+  fill: var(--accent-soft);
+  stroke: var(--accent);
+  stroke-width: 2;
 }
-.tree-more {
+.tree-box-selected rect {
+  stroke: var(--accent);
+  stroke-width: 2;
+}
+.tree-box-busy rect {
+  stroke-dasharray: 3 3;
+}
+.tree-box-name {
+  font-size: 15px;
+  fill: var(--ink);
+}
+.tree-box-root .tree-box-name {
+  font-weight: 700;
+}
+.tree-box-years {
+  font-size: 10px;
+  fill: var(--muted);
+}
+.tree-box-more {
+  font-size: 11px;
+  fill: var(--accent);
+}
+
+/* lines, and the evidence written on them */
+.tree-edge {
+  cursor: pointer;
+}
+.tree-edge-line {
+  fill: none;
+  stroke: var(--line);
+  stroke-width: 1.5;
+}
+.tree-edge-hit {
+  fill: none;
+  stroke: transparent;
+  stroke-width: 12;
+}
+.tree-edge:hover .tree-edge-line,
+.tree-edge-selected .tree-edge-line {
+  stroke: var(--accent);
+  stroke-width: 2;
+}
+.tree-edge-spouse .tree-edge-line {
+  stroke-dasharray: 4 3;
+}
+.tree-edge-disputed .tree-edge-line {
+  stroke: var(--warn);
+}
+.tree-edge-label {
+  font-size: 9.5px;
+  fill: var(--muted);
+  pointer-events: none;
+}
+.tree-edge:hover .tree-edge-label,
+.tree-edge-selected .tree-edge-label {
+  fill: var(--accent);
+  font-size: 10.5px;
+}
+
+/* the panel under the diagram */
+.tree-detail {
+  border-top: 1px solid var(--line);
+  padding-top: 0.5rem;
+  font-size: 0.9rem;
+}
+.tree-detail h2 {
+  font-size: 1rem;
+  margin: 0 0 0.2rem;
+}
+.tree-detail-sources {
+  list-style: none;
+  padding: 0;
+  margin: 0.25rem 0;
+}
+.tree-detail-sources li {
   padding: 0.1rem 0;
-  font-size: 0.8rem;
+  border-top: 1px dotted var(--line);
 }
+
 
 /* sources */
 .source-list {

@@ -9,13 +9,17 @@ import { MAX_NODES, loadRelatives } from './relatives.ts';
  *   mum (dad's spouse) → me
  */
 const PARENT_EDGES = [
-  { parent_id: 'p_grandpa', child_id: 'p_dad' },
-  { parent_id: 'p_dad', child_id: 'p_me' },
-  { parent_id: 'p_mum', child_id: 'p_me' },
-  { parent_id: 'p_me', child_id: 'p_kid' },
-  { parent_id: 'p_kid', child_id: 'p_grandkid' },
+  { claim_id: 'c_1', status: 'accepted', parent_id: 'p_grandpa', child_id: 'p_dad' },
+  { claim_id: 'c_2', status: 'accepted', parent_id: 'p_dad', child_id: 'p_me' },
+  { claim_id: 'c_3', status: 'accepted', parent_id: 'p_mum', child_id: 'p_me' },
+  { claim_id: 'c_4', status: 'accepted', parent_id: 'p_me', child_id: 'p_kid' },
+  { claim_id: 'c_5', status: 'accepted', parent_id: 'p_kid', child_id: 'p_grandkid' },
 ];
-const SPOUSE_EDGES = [{ a_id: 'p_dad', b_id: 'p_mum' }];
+const SPOUSE_EDGES = [{ claim_id: 'c_6', status: 'accepted', a_id: 'p_dad', b_id: 'p_mum' }];
+const CITATIONS = [
+  { claim_id: 'c_2', locator: 'P22（父）', title: '维基数据：某人' },
+  { claim_id: 'c_2', locator: '亲属关系：父', title: 'CBDB：某人' },
+];
 
 function fakeDb() {
   const queries: string[] = [];
@@ -40,6 +44,9 @@ function fakeDb() {
             return Promise.resolve({
               results: SPOUSE_EDGES.filter((e) => ids.has(e.a_id) || ids.has(e.b_id)),
             });
+          }
+          if (sql.includes('FROM claim_source cs')) {
+            return Promise.resolve({ results: CITATIONS.filter((c) => ids.has(c.claim_id)) });
           }
           if (sql.includes('FROM person p')) {
             return Promise.resolve({
@@ -77,16 +84,34 @@ describe('loadRelatives', () => {
   it('reads the single stored direction from both ends', async () => {
     const { db } = fakeDb();
     const graph = await loadRelatives(db, 'p_me', { up: 1, down: 1 });
-    expect(graph.parent_edges).toContainEqual({ parent_id: 'p_dad', child_id: 'p_me' });
-    expect(graph.parent_edges).toContainEqual({ parent_id: 'p_me', child_id: 'p_kid' });
+    expect(graph.parent_edges).toEqual(
+      expect.arrayContaining([
+        expect.objectContaining({ parent_id: 'p_dad', child_id: 'p_me' }),
+        expect.objectContaining({ parent_id: 'p_me', child_id: 'p_kid' }),
+      ]),
+    );
     // Never a mirrored row for the same pair.
     expect(graph.parent_edges.filter((e) => e.child_id === 'p_me')).toHaveLength(2);
+  });
+
+  it('carries the evidence for each line so a diagram can label it', async () => {
+    const { db } = fakeDb();
+    const graph = await loadRelatives(db, 'p_me', { up: 1, down: 0 });
+    const fromDad = graph.parent_edges.find((e) => e.parent_id === 'p_dad');
+    expect(fromDad?.citations).toEqual([
+      { source_title: '维基数据：某人', locator: 'P22（父）' },
+      { source_title: 'CBDB：某人', locator: '亲属关系：父' },
+    ]);
+    // An edge nobody cited still renders; it just has nothing to show.
+    expect(graph.parent_edges.find((e) => e.parent_id === 'p_mum')?.citations).toEqual([]);
   });
 
   it('keeps spouse edges only when both people are in the slice', async () => {
     const { db } = fakeDb();
     const graph = await loadRelatives(db, 'p_me', { up: 1, down: 0 });
-    expect(graph.spouse_edges).toEqual([{ a_id: 'p_dad', b_id: 'p_mum' }]);
+    expect(graph.spouse_edges).toEqual([
+      expect.objectContaining({ a_id: 'p_dad', b_id: 'p_mum' }),
+    ]);
     const onlyRoot = await loadRelatives(db, 'p_grandkid', { up: 0, down: 0 });
     expect(onlyRoot.spouse_edges).toEqual([]);
   });

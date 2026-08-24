@@ -1,6 +1,7 @@
 // DTO / view shapes returned by the API and consumed by the web app. Kept in
 // the shared domain package so both sides agree on the contract.
 
+import type { ClaimStatus } from './enums.ts';
 import type { Claim, ClaimSource, Person, PersonMergeProposal, Source } from './types.ts';
 
 /** A claim enriched with its source links (and resolved source records). */
@@ -54,19 +55,43 @@ export interface RelativeNode {
   death: string | null;
 }
 
+/** What a kinship link rests on, short enough to label a line in a diagram. */
+export interface KinshipEvidence {
+  source_title: string;
+  /** Which statement inside that source: a Wikidata property, a CBDB term, a page. */
+  locator: string | null;
+}
+
+interface KinshipEdgeBase {
+  claim_id: string;
+  status: ClaimStatus;
+  /** Supporting citations, so a tree can show why a line is drawn. */
+  citations: KinshipEvidence[];
+}
+
+/** Stored direction: PARENT --kinship.parent_of--> CHILD. */
+export interface ParentEdge extends KinshipEdgeBase {
+  parent_id: string;
+  child_id: string;
+}
+
+export interface SpouseEdge extends KinshipEdgeBase {
+  a_id: string;
+  b_id: string;
+}
+
 /**
  * A slice of the kinship graph around one person, walked a bounded number of
- * generations up and down. Deliberately light: a tree view needs names and
- * edges, not every claim and citation behind them.
+ * generations up and down. Light on purpose: names, dates and the evidence
+ * behind each line — not every claim attached to every person.
  */
 export interface RelativesGraph {
   root_id: string;
   up: number;
   down: number;
   nodes: RelativeNode[];
-  /** Stored direction: PARENT --kinship.parent_of--> CHILD. */
-  parent_edges: Array<{ parent_id: string; child_id: string }>;
-  spouse_edges: Array<{ a_id: string; b_id: string }>;
+  parent_edges: ParentEdge[];
+  spouse_edges: SpouseEdge[];
   /** True when the node cap stopped the walk before it ran out of relatives. */
   truncated: boolean;
 }

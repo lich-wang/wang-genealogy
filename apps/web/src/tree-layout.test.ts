@@ -1,0 +1,171 @@
+import { describe, expect, it } from 'vitest';
+import type { ParentEdge, RelativeNode, SpouseEdge } from '@wang/domain';
+import {
+  NODE_HEIGHT,
+  compactLifespan,
+  compactYear,
+  evidenceLabel,
+  evidenceTooltip,
+  layoutTree,
+} from './tree-layout.ts';
+
+const person = (id: string): RelativeNode => ({
+  id,
+  display_name: id,
+  status: 'active',
+  birth: null,
+  death: null,
+});
+
+const parent = (parentId: string, childId: string): ParentEdge => ({
+  parent_id: parentId,
+  child_id: childId,
+  claim_id: `c_${parentId}_${childId}`,
+  status: 'accepted',
+  citations: [],
+});
+
+const spouse = (a: string, b: string): SpouseEdge => ({
+  a_id: a,
+  b_id: b,
+  claim_id: `c_${a}_${b}`,
+  status: 'accepted',
+  citations: [],
+});
+
+function graph(ids: string[], parentEdges: ParentEdge[], spouseEdges: SpouseEdge[] = []) {
+  return {
+    nodes: new Map(ids.map((id) => [id, person(id)])),
+    parentEdges,
+    spouseEdges,
+  };
+}
+
+describe('layoutTree', () => {
+  it('puts ancestors above and descendants below the person', () => {
+    const layout = layoutTree(
+      graph(['gp', 'dad', 'me', 'kid'], [parent('gp', 'dad'), parent('dad', 'me'), parent('me', 'kid')]),
+      'me',
+    );
+    expect(layout.nodes.get('gp')!.generation).toBe(-2);
+    expect(layout.nodes.get('dad')!.generation).toBe(-1);
+    expect(layout.nodes.get('me')!.generation).toBe(0);
+    expect(layout.nodes.get('kid')!.generation).toBe(1);
+    // Rows run oldest first, so a smaller generation sits higher on the page.
+    expect(layout.nodes.get('gp')!.y).toBeLessThan(layout.nodes.get('me')!.y);
+    expect(layout.nodes.get('kid')!.y).toBeGreaterThan(layout.nodes.get('me')!.y);
+  });
+
+  it('places a spouse on the same row', () => {
+    const layout = layoutTree(
+      graph(['dad', 'mum', 'me'], [parent('dad', 'me'), parent('mum', 'me')], [spouse('dad', 'mum')]),
+      'me',
+    );
+    expect(layout.nodes.get('dad')!.generation).toBe(-1);
+    expect(layout.nodes.get('mum')!.generation).toBe(-1);
+    expect(layout.nodes.get('dad')!.y).toBe(layout.nodes.get('mum')!.y);
+  });
+
+  it('keeps a couple side by side', () => {
+    // Three people on one row, with the couple listed apart from each other.
+    const layout = layoutTree(
+      graph(
+        ['a', 'b', 'c', 'kid'],
+        [parent('a', 'kid'), parent('b', 'kid'), parent('c', 'kid')],
+        [spouse('a', 'c')],
+      ),
+      'kid',
+    );
+    const xs = ['a', 'b', 'c'].map((id) => layout.nodes.get(id)!.x).sort((p, q) => p - q);
+    const a = layout.nodes.get('a')!.x;
+    const c = layout.nodes.get('c')!.x;
+    const gap = Math.abs(xs.indexOf(a) - xs.indexOf(c));
+    expect(gap).toBe(1);
+  });
+
+  it('centres narrower rows against the widest one', () => {
+    const layout = layoutTree(
+      graph(['me', 'k1', 'k2', 'k3'], [parent('me', 'k1'), parent('me', 'k2'), parent('me', 'k3')]),
+      'me',
+    );
+    const children = ['k1', 'k2', 'k3'].map((id) => layout.nodes.get(id)!.x);
+    const rootX = layout.nodes.get('me')!.x;
+    const middle = (Math.min(...children) + Math.max(...children)) / 2;
+    expect(Math.round(rootX)).toBe(Math.round(middle));
+  });
+
+  it('sizes the canvas to fit every row', () => {
+    const layout = layoutTree(graph(['me', 'kid'], [parent('me', 'kid')]), 'me');
+    expect(layout.generations).toEqual([0, 1]);
+    expect(layout.height).toBeGreaterThan(NODE_HEIGHT);
+    for (const placed of layout.nodes.values()) {
+      expect(placed.x).toBeLessThan(layout.width);
+      expect(placed.y).toBeLessThan(layout.height);
+    }
+  });
+
+  it('still places someone the walk cannot reach', () => {
+    // An orphan node (no edge to the root) must not vanish from the diagram.
+    const layout = layoutTree(graph(['me', 'stranger'], []), 'me');
+    expect(layout.nodes.has('stranger')).toBe(true);
+  });
+});
+
+describe('evidenceLabel', () => {
+  it('shortens a Wikidata property and a CBDB term', () => {
+    expect(evidenceLabel([{ locator: 'P22（父）' }, { locator: '亲属关系：父' }])).toBe('P22·父');
+  });
+
+  it('collapses duplicates and caps the length', () => {
+    expect(evidenceLabel([{ locator: 'P40（子女）' }, { locator: 'P40（子女）' }])).toBe('P40');
+    expect(evidenceLabel([{ locator: 'P22（父）' }, { locator: 'P25（母）' }, { locator: 'P40（子女）' }])).toBe(
+      'P22·P25…',
+    );
+  });
+
+  it('falls back to a count, then says there is nothing', () => {
+    expect(evidenceLabel([{ locator: null }])).toBe('来源 1');
+    expect(evidenceLabel([])).toBe('无来源');
+  });
+});
+
+describe('evidenceTooltip', () => {
+  it('lists each source with its locator', () => {
+    expect(
+      evidenceTooltip([
+        { source_title: '维基数据：王羲之', locator: 'P40（子女）' },
+        { source_title: '中文维基百科：王羲之', locator: null },
+      ]),
+    ).toBe('维基数据：王羲之（P40（子女））\n中文维基百科：王羲之');
+  });
+
+  it('says so when a line rests on nothing', () => {
+    expect(evidenceTooltip([])).toBe('尚无来源');
+  });
+});
+
+describe('compactYear', () => {
+  it('keeps the year and drops the rest', () => {
+    expect(compactYear('23年10月6日（新地皇四年）')).toBe('23年');
+    expect(compactYear('前208年')).toBe('前208年');
+    expect(compactYear('公元前41年')).toBe('公元前41年');
+    expect(compactYear('前1世纪')).toBe('前1世纪');
+    expect(compactYear('1480年代')).toBe('1480年代');
+  });
+
+  it('treats an unknown value as no value', () => {
+    expect(compactYear('不详')).toBeNull();
+    expect(compactYear(null)).toBeNull();
+  });
+
+  it('truncates anything else rather than overflowing the box', () => {
+    expect(compactYear('清光绪二十年冬月')).toBe('清光绪二十年…');
+  });
+});
+
+describe('compactLifespan', () => {
+  it('marks the unknown half', () => {
+    expect(compactLifespan({ birth: '338年', death: null })).toBe('338年–？');
+    expect(compactLifespan({ birth: null, death: '不详' })).toBeNull();
+  });
+});
