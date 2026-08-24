@@ -45,6 +45,7 @@ import {
 import {
   KINSHIP_PROPERTIES,
   TITLE_PATTERN,
+  citationProperty,
   WANG_FAMILY_NAME_QID,
   dateClaim,
   factsFor,
@@ -90,6 +91,13 @@ function isWangSurname(node) {
   // character is the usual case.
   return text.startsWith('王') || /王(皇后|夫人|氏|美人|婕妤)/.test(text);
 }
+
+/**
+ * Scope: 王-surname persons in full, plus anyone married to one of them — the
+ * spouse and that marriage only, because a marriage with one half missing is a
+ * hole in the record. Everyone else is walked through but not collected.
+ */
+const OUT_OF_SCOPE = 'not_wang_surname';
 
 const HISTORICAL_ERA =
   /(秦|漢|汉|魏|蜀|吳|吴|晉|晋|隋|唐|宋|遼|辽|金|元|明|清|齊|齐|梁|陳|陈|周|商|春秋|戰國|战国|匈奴|Qin|Han|Wei|Shu|Jin dynasty|Sui|Tang|Song|Liao|Yuan|Ming|Qing|Xiongnu|Three Kingdoms|Northern|Southern)/;
@@ -198,6 +206,7 @@ for (const row of rosterRows) {
   }
   const node = resolveNode({ qid, cbdb }, { hop: 0 });
   node.person_id = row.person_id;
+  node.status = row.status;
   node.name = row.name ? { text: row.name, language: detectScript(row.name) ?? 'zh-Hans' } : null;
   node.existing = true;
   if (row.name) {
@@ -322,12 +331,20 @@ for (let hop = 1; hop <= hops; hop += 1) {
       if (!node.name) node.name = { text: name, language: detectScript(name) ?? 'zh-Hans' };
       if (!node.existing && node.hop === hop && !discovered.includes(node)) discovered.push(node);
 
-      const sourceKey = `wd:${anchor.qid}`;
+      // A reverse statement lives on the other item, so that is the record to
+      // cite — citing the anchor would point at a page that never says it.
+      const reverse = statement.property.endsWith('r');
       const citation = {
-        source_key: sourceKey,
-        locator: `${statement.property}（${relation.label}）`,
+        source_key: `wd:${reverse ? facts.qid : anchor.qid}`,
+        locator: `${citationProperty(statement.property)}（${reverse ? relation.label.replace(/^之/, '') : relation.label}）`,
         note: null,
       };
+      if (relation.otherIs === 'sibling') {
+        // Not storable: reached only so the next hop can ask about their
+        // parents, who are this person's parents as well.
+        noteRole(node, 'sibling');
+        continue;
+      }
       if (relation.otherIs === 'parent') {
         noteRole(node, 'parent');
         noteRole(anchor, 'child');
@@ -530,6 +547,15 @@ for (const node of nodes.values()) {
   node.historicity = evidence;
 }
 
+// Spouses of 王 persons stay, whatever their surname.
+const marriedToWang = new Set();
+for (const edge of edges.values()) {
+  if (edge.kind !== 'spouse') continue;
+  const { a, b } = edge;
+  if (isWangSurname(a) && !isWangSurname(b)) marriedToWang.add(b.id);
+  if (isWangSurname(b) && !isWangSurname(a)) marriedToWang.add(a.id);
+}
+
 // Drop unusable nodes and any edge that would dangle.
 const unusable = new Set();
 for (const node of nodes.values()) {
@@ -537,6 +563,17 @@ for (const node of nodes.values()) {
   if (!node.name?.text) {
     unusable.add(node.id);
     skipped.push({ key: keyOf(node), reason: 'no_name', detail: '两个来源都没有可用名称' });
+  } else if (!isWangSurname(node) && !marriedToWang.has(node.id)) {
+    // A 王-surname genealogy. Non-王 relatives are still walked through — a
+    // mother leads to her other children, a sibling to their parents — but only
+    // a spouse of a 王 person is collected.
+    unusable.add(node.id);
+    skipped.push({
+      key: keyOf(node),
+      name: node.name.text,
+      reason: OUT_OF_SCOPE,
+      detail: '非王姓且与王姓无婚姻关系，仅用于查找王姓亲属，不录入',
+    });
   } else if (!/[\u3400-\u9fff]/.test(node.name.text)) {
     // An item whose only label is a romanization would enter a Chinese
     // genealogy under a name no source actually writes that way.
@@ -562,11 +599,19 @@ for (const node of nodes.values()) {
 
 const usedSourceKeys = new Set();
 const planEdges = [];
+const edgeCountByNode = new Map();
 for (const edge of edges.values()) {
   if (unusable.has(edge.a.id) || unusable.has(edge.b.id)) continue;
   const a = edge.a.merged_into ?? edge.a;
   const b = edge.b.merged_into ?? edge.b;
   if (a === b) continue;
+  // A record taken out of public view stays out: no new links into it.
+  if (a.status === 'suppressed' || b.status === 'suppressed') continue;
+  // Someone here only as a spouse contributes that marriage and nothing else:
+  // their own parents and children are not part of this collection.
+  if (edge.kind !== 'spouse' && (!isWangSurname(a) || !isWangSurname(b))) continue;
+  edgeCountByNode.set(a.id, (edgeCountByNode.get(a.id) ?? 0) + 1);
+  edgeCountByNode.set(b.id, (edgeCountByNode.get(b.id) ?? 0) + 1);
   for (const c of edge.citations) usedSourceKeys.add(c.source_key);
   planEdges.push({
     kind: edge.kind,
@@ -585,6 +630,17 @@ const planPersons = [];
 const nameCollisions = [];
 for (const node of nodes.values()) {
   if (node.existing || unusable.has(node.id)) continue;
+  if (!edgeCountByNode.get(node.id)) {
+    // Reached (usually as somebody's sibling) but no storable relation came out
+    // of it; a person with no links is not worth a record.
+    skipped.push({
+      key: keyOf(node),
+      name: node.name?.text ?? null,
+      reason: 'no_storable_relation',
+      detail: '未找到可表达的亲属关系（兄弟姊妹关系本身不入库）',
+    });
+    continue;
+  }
 
   // Records that exist only to make a 王 person's kinship legible carry a name
   // and nothing else: spouses (per instruction), and everyone outside the 王

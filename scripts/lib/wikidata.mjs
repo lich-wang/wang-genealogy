@@ -6,13 +6,33 @@
 const ENDPOINT = 'https://query.wikidata.org/sparql';
 const USER_AGENT = 'wang-genealogy-kinship/0.2 (https://wang-genealogy-web.pages.dev)';
 
-/** Kinship properties we read, and what each says about the other person. */
+/**
+ * Kinship statements we read, and what each says about the other person.
+ *
+ * Wikidata frequently records a link on one side only — an item lists its
+ * children while those children say nothing about their father — so every
+ * property is read in both directions. The `r` suffix means the statement lives
+ * on the *other* item and points back at the person being expanded.
+ *
+ * Siblings are traversed but never stored: this model has no sibling predicate,
+ * and a sibling is worth reaching because their parents are the person's parents
+ * too, which is a link we *can* record.
+ */
 export const KINSHIP_PROPERTIES = {
   P22: { label: '父', otherIs: 'parent' },
   P25: { label: '母', otherIs: 'parent' },
   P40: { label: '子女', otherIs: 'child' },
   P26: { label: '配偶', otherIs: 'spouse' },
+  P22r: { label: '之父', otherIs: 'child' },
+  P25r: { label: '之母', otherIs: 'child' },
+  P40r: { label: '之子女', otherIs: 'parent' },
+  P26r: { label: '之配偶', otherIs: 'spouse' },
+  P3373: { label: '兄弟姊妹', otherIs: 'sibling' },
+  P3373r: { label: '兄弟姊妹', otherIs: 'sibling' },
 };
+
+/** The property as it should be cited: the reverse marker is ours, not Wikidata's. */
+export const citationProperty = (key) => key.replace(/r$/, '');
 
 export const qidOf = (uri) => uri.split('/').pop();
 
@@ -146,6 +166,12 @@ WHERE {
   UNION { ?p wdt:P25 ?other. BIND("P25" AS ?rel) }
   UNION { ?p wdt:P40 ?other. BIND("P40" AS ?rel) }
   UNION { ?p wdt:P26 ?other. BIND("P26" AS ?rel) }
+  UNION { ?p wdt:P3373 ?other. BIND("P3373" AS ?rel) }
+  UNION { ?other wdt:P22 ?p. BIND("P22r" AS ?rel) }
+  UNION { ?other wdt:P25 ?p. BIND("P25r" AS ?rel) }
+  UNION { ?other wdt:P40 ?p. BIND("P40r" AS ?rel) }
+  UNION { ?other wdt:P26 ?p. BIND("P26r" AS ?rel) }
+  UNION { ?other wdt:P3373 ?p. BIND("P3373r" AS ?rel) }
   ${factsPattern('other')}
 }`);
     for (const b of bindings) {
