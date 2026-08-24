@@ -184,7 +184,7 @@ const stats = {
   persons_published: 0,
   persons_unpublished: [],
   claims_created: 0,
-  edges_created: { parent: 0, spouse: 0 },
+  edges_created: { parent: 0, spouse: 0, ancestor: 0 },
   edges_existing: 0,
   citations_added: 0,
   edges_failed: [],
@@ -342,15 +342,29 @@ async function findEdgeClaim(predicate, subjectId, objectId) {
   );
 }
 
+// How each planned edge is submitted. The directed kinds share the plan's
+// parent/child field names — for `ancestor` those two ends are the 先祖 and the
+// 後代, with an unknown number of generations between them — so only the
+// predicate and the wording differ.
+const EDGE_KINDS = {
+  parent: { relationship: 'child', predicate: 'kinship.parent_of', arrow: '→', directed: true },
+  ancestor: { relationship: 'descendant', predicate: 'kinship.ancestor_of', arrow: '⇢', directed: true },
+  spouse: { relationship: 'spouse', predicate: 'kinship.spouse_of', arrow: '⇄', directed: false },
+};
+
 for (const edge of plan.edges) {
-  const isParent = edge.kind === 'parent';
-  const fromKey = isParent ? edge.parent_key : edge.a_key;
-  const toKey = isParent ? edge.child_key : edge.b_key;
+  const spec = EDGE_KINDS[edge.kind];
+  if (!spec) {
+    stats.edges_failed.push({ edge: edge.kind, reason: 'unknown_edge_kind' });
+    continue;
+  }
+  const fromKey = spec.directed ? edge.parent_key : edge.a_key;
+  const toKey = spec.directed ? edge.child_key : edge.b_key;
   const fromId = personIdByKey.get(fromKey);
   const toId = personIdByKey.get(toKey);
-  const label = isParent
-    ? `${edge.parent_name} → ${edge.child_name}`
-    : `${edge.a_name} ⇄ ${edge.b_name}`;
+  const label = spec.directed
+    ? `${edge.parent_name} ${spec.arrow} ${edge.child_name}`
+    : `${edge.a_name} ${spec.arrow} ${edge.b_name}`;
 
   if (!fromId || !toId) {
     stats.edges_failed.push({ edge: label, reason: 'person_missing' });
@@ -381,8 +395,9 @@ for (const edge of plan.edges) {
   try {
     const created = await api('POST', `/persons/${fromId}/relationships`, {
       // Submitted in natural language relative to `from`; the server normalizes
-      // parent/child to one stored direction and canonicalizes spouse pairs.
-      relationship: isParent ? 'child' : 'spouse',
+      // parent/child and ancestor/descendant to one stored direction each, and
+      // canonicalizes spouse pairs.
+      relationship: spec.relationship,
       related_person_id: toId,
       confidence: 'medium',
       sources,
@@ -400,8 +415,7 @@ for (const edge of plan.edges) {
     // Already linked: converge to accepted and add any citation it lacks, so
     // re-runs improve provenance instead of duplicating rows.
     stats.edges_existing += 1;
-    const predicate = isParent ? 'kinship.parent_of' : 'kinship.spouse_of';
-    const existing = await findEdgeClaim(predicate, fromId, toId);
+    const existing = await findEdgeClaim(spec.predicate, fromId, toId);
     if (!existing) continue;
     if (existing.status === 'proposed') {
       await acceptClaim(existing.id, existing.current_revision, '导入：来源为维基数据/CBDB 亲属声明');
@@ -426,6 +440,7 @@ console.log(`人物新建: ${stats.persons_created}（已发布 ${stats.persons_
 console.log(`属性主张新建: ${stats.claims_created}`);
 console.log(
   `亲子关系新建: ${stats.edges_created.parent}，配偶关系新建: ${stats.edges_created.spouse}，` +
+    `世系关系新建: ${stats.edges_created.ancestor}，` +
     `已存在: ${stats.edges_existing}（补充引用 ${stats.citations_added} 条）`,
 );
 if (stats.persons_unpublished.length) {
