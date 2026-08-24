@@ -21,6 +21,7 @@
 
 import { readFileSync } from 'node:fs';
 import { d1Query } from './lib/d1.mjs';
+import { markExpanded } from './lib/expansion-state.mjs';
 
 const args = process.argv.slice(2);
 const flag = (name) => args.includes(name);
@@ -116,6 +117,8 @@ const overrides = JSON.parse(
 
 // Identity comes from what a person's NAME claim cites — a relationship claim
 // cites the other endpoint too, which would confuse one person for another.
+// Suppressed records are included on purpose: they are still that person, and
+// skipping them would recreate the record the operator just took out of view.
 const personRows = d1Query(
   `SELECT p.id AS person_id,
           (SELECT group_concat(DISTINCT s.external_identifier) FROM claim_source cs
@@ -125,7 +128,7 @@ const personRows = d1Query(
               AND c.predicate = 'name.primary'
               AND s.external_identifier IS NOT NULL) AS identifiers
      FROM person p
-    WHERE p.status IN ('candidate', 'active')`,
+    WHERE p.status <> 'merged'`,
   { ...d1, label: 'persons' },
 );
 
@@ -187,12 +190,24 @@ const stats = {
   edges_failed: [],
 };
 
+// Concurrent person creations often cite the same source; share one in-flight
+// creation per key so a source is never created twice.
+const sourceInFlight = new Map();
+
 async function ensureSource(key) {
   const known = sourceIdByKey.get(key);
   if (known) return known;
+  const pending = sourceInFlight.get(key);
+  if (pending) return pending;
   const def = sourceDefs.get(key);
   if (!def) throw new Error(`plan is missing a source definition for ${key}`);
   if (dryRun) return `(new source ${key})`;
+  const promise = createSource(def, key);
+  sourceInFlight.set(key, promise);
+  return promise;
+}
+
+async function createSource(def, key) {
   const created = await api('POST', '/sources', {
     source_type: def.source_type,
     title: def.title,
@@ -206,6 +221,7 @@ async function ensureSource(key) {
   });
   const id = created.source_id ?? created.id;
   sourceIdByKey.set(key, id);
+  sourceInFlight.delete(key);
   stats.sources_created += 1;
   return id;
 }
@@ -223,23 +239,43 @@ async function sourceRefs(keys, locator = undefined, note = undefined) {
   return refs;
 }
 
+/**
+ * Run tasks a few at a time. Person creation is independent per person, so a
+ * little concurrency turns a multi-thousand-call expansion from hours into
+ * minutes. Relationship writes stay sequential further down: the server's cycle
+ * check reads the graph before it writes, and concurrent edges touching the same
+ * people could slip a cycle past it.
+ */
+async function inBatches(items, size, worker) {
+  for (let i = 0; i < items.length; i += size) {
+    await Promise.all(items.slice(i, i + size).map(worker));
+  }
+}
+
 // --- 1. create the relatives that are not in the database yet ---------------
 
-for (const person of plan.persons) {
-  if (personIdByKey.has(person.key)) continue;
-  if (person.qid && personIdByKey.has(`wd:${person.qid}`)) continue;
-  if (person.cbdb && personIdByKey.has(`cbdb:${person.cbdb}`)) continue;
+const toCreate = plan.persons.filter((person) => {
+  if (personIdByKey.has(person.key)) return false;
+  if (person.qid && personIdByKey.has(`wd:${person.qid}`)) return false;
+  if (person.cbdb && personIdByKey.has(`cbdb:${person.cbdb}`)) return false;
+  return true;
+});
 
+await inBatches(toCreate, dryRun ? 1 : 4, async (person) => {
   const [nameClaim, ...rest] = person.claims;
-  if (dryRun) {
+  const register = (personId) => {
     for (const key of [person.key, person.qid && `wd:${person.qid}`, person.cbdb && `cbdb:${person.cbdb}`]) {
-      if (key) personIdByKey.set(key, `(dry-run:${person.key})`);
+      if (key) personIdByKey.set(key, personId);
     }
+  };
+
+  if (dryRun) {
+    register(`(dry-run:${person.key})`);
     console.log(
-      `+ ${person.name.text} (${person.key})${person.spouse_only ? ' [仅配偶]' : ''} ` +
+      `+ ${person.name.text} (${person.key})${person.relationship_only ?? person.spouse_only ? ' [仅关系]' : ''} ` +
         `${person.claims.length} 条主张 [${person.historicity.kind}]`,
     );
-    continue;
+    return;
   }
 
   const created = await api('POST', '/persons', {
@@ -249,13 +285,15 @@ for (const person of plan.persons) {
       confidence: nameClaim.confidence,
       sources: await sourceRefs(nameClaim.source_keys, person.qid ?? `CBDB:${person.cbdb}`),
     },
-    change_summary: nameClaim.change_summary,
+    // The reason this person may be published at all travels with the record:
+    // the plan file is regenerated every round, the audit trail is permanent.
+    change_summary:
+      `${nameClaim.change_summary}｜历史性依据：${person.historicity?.detail ?? '未记录'}` +
+      (person.relationship_only ? '｜仅作为亲属关系端点，不记录基本信息' : ''),
   });
   const personId = created.person_id;
   stats.persons_created += 1;
-  for (const key of [person.key, person.qid && `wd:${person.qid}`, person.cbdb && `cbdb:${person.cbdb}`]) {
-    if (key) personIdByKey.set(key, personId);
-  }
+  register(personId);
   await acceptClaim(created.claim_id, 1, '导入：来源为维基数据/CBDB 人名');
 
   for (const claim of rest) {
@@ -277,7 +315,6 @@ for (const person of plan.persons) {
   try {
     await api('POST', `/persons/${personId}/publish`, {});
     stats.persons_published += 1;
-    console.log(`+ ${person.name.text} -> ${personId}${person.spouse_only ? ' [仅配偶]' : ''}`);
   } catch (e) {
     stats.persons_unpublished.push({
       name: person.name.text,
@@ -286,9 +323,9 @@ for (const person of plan.persons) {
       reason: e.code ?? String(e.status),
       historicity: person.historicity,
     });
-    console.log(`+ ${person.name.text} -> ${personId} (草稿: ${e.code ?? e.status})`);
   }
-}
+});
+if (!dryRun) console.log(`人物新建 ${stats.persons_created}（发布 ${stats.persons_published}）`);
 
 // --- 2. link them -----------------------------------------------------------
 
@@ -402,6 +439,14 @@ if (plan.capped_relationships > 0) {
 }
 if (stats.edges_failed.length) {
   console.log(`\n失败的关系 ${stats.edges_failed.length} 条：`);
-  for (const f of stats.edges_failed) console.log(`  ${f.edge}: ${f.reason}`);
+  for (const f of stats.edges_failed.slice(0, 20)) console.log(`  ${f.edge}: ${f.reason}`);
+  if (stats.edges_failed.length > 20) console.log(`  … 其余 ${stats.edges_failed.length - 20} 条`);
   process.exitCode = 1;
+}
+
+// Only now: the persons this plan asked about have been dealt with, so the next
+// round can start from the frontier they revealed.
+if (!dryRun && plan.expanded_keys?.length) {
+  const all = markExpanded(plan.expanded_keys);
+  console.log(`\n已展开人物累计 ${all.size} 人（本轮 +${plan.expanded_keys.length}）`);
 }

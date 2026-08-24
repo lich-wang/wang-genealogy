@@ -101,6 +101,8 @@ PARENT --kinship.parent_of--> CHILD
 - `language`：BCP-47 标记，如 `zh-Hans`、`zh-Hant`、`zh-Latn-pinyin`；
 - `date`：不确定日期结构（见第三节）。
 
+`name.primary` 应是人物的本名。庙号、谥号、封号（「汉成帝」「孝景王皇后」）记为 `name.alias`；只有在所有来源都不给出本名时，才以称号作为 `name.primary`。
+
 字形（简体／繁體）规则：
 
 1. **不改写存储值。** 来源写作「王贲」就存「王贲」，写作「王賁」就存「王賁」。把主张值统一成某种字形等于静默编辑有来源的证据。
@@ -213,3 +215,4 @@ PARENT --kinship.parent_of--> CHILD
 - `merge.propose`、`merge.approve`、`merge.reject`、`merge.revert`
 - `admin.reattribute`：运维维护动作，把既有记录的归属字段（`created_by_user_id`、`added_by_user_id`、`actor_user_id` 等）改到另一账号。只改归属，不改任何主张内容、状态或版本，且本身也要写入一条审计记录。
 - `admin.correct_metadata`：运维维护动作，修正导入写错的描述性元数据（例如把维基数据属性号当作维基百科条目的 `locator`）。同样不改主张内容、状态或版本，且必须写入审计记录说明改了什么。
+- `admin.suppress_person`：运维维护动作，把超出收录范围的人物转为 `suppressed`（不公开、不进搜索），不删除任何数据、可随时恢复。跨越公开边界的关系主张另行按正常流程撤回（`claim.retract`），公开页面因此不会指向隐藏记录。

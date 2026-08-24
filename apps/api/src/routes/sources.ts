@@ -29,9 +29,16 @@ app.get('/:id/claims', async (c) => {
   if (!row) throw notFound('來源不存在');
   const res = await c.env.DB
     .prepare(
+      // Only claims about publicly visible persons: a suppressed record is out
+      // of public view everywhere, not just on its own page.
       `SELECT cl.*, cs.stance AS cs_stance, cs.locator AS cs_locator, cs.quotation AS cs_quotation
-         FROM claim cl JOIN claim_source cs ON cs.claim_id = cl.id
-        WHERE cs.source_id = ? ORDER BY cl.created_at`,
+         FROM claim cl
+         JOIN claim_source cs ON cs.claim_id = cl.id
+         JOIN person p ON p.id = cl.subject_person_id
+        WHERE cs.source_id = ?
+          AND p.status IN ('active', 'merged')
+          AND cl.status <> 'retracted'
+        ORDER BY cl.created_at`,
     )
     .bind(c.req.param('id'))
     .all<Record<string, unknown>>();

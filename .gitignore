@@ -9,3 +9,6 @@ coverage/
 
 # maintenance script caches (CBDB responses)
 scripts/.cache/
+# regenerated every expansion round; the durable record is the append-only
+# audit trail in the database, not this scratch file
+scripts/kinship-data.json

@@ -25,16 +25,44 @@ export function stripWranglerNoise(out) {
   return start > 0 ? out.slice(start) : out;
 }
 
-function run(sqlArgs, { database, remote, label }) {
-  const out = execFileSync(
-    'npx',
-    ['wrangler', 'd1', 'execute', database, remote ? '--remote' : '--local', '--json', ...sqlArgs],
-    { cwd: API_DIR, encoding: 'utf8', maxBuffer: 64 * 1024 * 1024 },
-  );
-  const parsed = JSON.parse(stripWranglerNoise(out));
-  const failed = parsed.filter((r) => r.success === false);
-  if (failed.length) throw new Error(`${label} failed: ${JSON.stringify(failed)}`);
-  return parsed;
+const sleep = (ms) => Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, ms);
+
+/**
+ * Long import runs make thousands of these calls, and the Cloudflare API drops
+ * one occasionally ({"error":{"text":"fetch failed"}}). Retry transient
+ * failures rather than losing a multi-hour expansion to one dropped packet;
+ * a SQL error is not transient and fails immediately.
+ */
+function run(sqlArgs, { database, remote, label }, attempts = 4) {
+  const argv = ['wrangler', 'd1', 'execute', database, remote ? '--remote' : '--local', '--json', ...sqlArgs];
+  let lastError = null;
+  for (let attempt = 1; attempt <= attempts; attempt += 1) {
+    let out;
+    try {
+      out = execFileSync('npx', argv, { cwd: API_DIR, encoding: 'utf8', maxBuffer: 64 * 1024 * 1024 });
+    } catch (err) {
+      out = String(err.stdout ?? '');
+      lastError = err;
+    }
+    let parsed;
+    try {
+      parsed = JSON.parse(stripWranglerNoise(out));
+    } catch {
+      parsed = null;
+    }
+    if (Array.isArray(parsed)) {
+      const failed = parsed.filter((r) => r.success === false);
+      if (failed.length) throw new Error(`${label} failed: ${JSON.stringify(failed)}`);
+      return parsed;
+    }
+    const message = parsed?.error?.text ?? out.slice(0, 200);
+    lastError = new Error(`${label}: ${message}`);
+    const transient = /fetch failed|timeout|ECONN|502|503|504|Internal error/i.test(message);
+    if (!transient) throw lastError;
+    console.error(`  ! D1 ${label} 第 ${attempt} 次失败（${message}），重试中`);
+    if (attempt < attempts) sleep(2000 * attempt);
+  }
+  throw lastError ?? new Error(`${label} failed`);
 }
 
 /** Run one statement and return its rows. */

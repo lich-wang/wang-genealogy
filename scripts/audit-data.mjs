@@ -48,9 +48,12 @@ const persons = query(
 // Same folded name = same name regardless of 简繁. Real namesakes exist, so this
 // is a review list, not a defect list — unless the two records also share an
 // external identifier, which means they are certainly the same record twice.
+// Suppressed records are out of public view; two of them sharing a name is not
+// something anyone needs to act on. Identifier collisions below still consider
+// every status, because those indicate one person stored twice.
 const byFolded = new Map();
 for (const p of persons) {
-  if (!p.name) continue;
+  if (!p.name || p.status === 'suppressed') continue;
   const key = foldKey(p.name);
   if (!byFolded.has(key)) byFolded.set(key, []);
   byFolded.get(key).push(p);
@@ -62,6 +65,67 @@ findings.same_name_persons = [...byFolded.entries()]
     persons: group.map((p) => ({ id: p.id, name: p.name, status: p.status, identifiers: p.identifiers })),
   }));
 
+// A shared name means little in a genealogy spanning 2000 years — there are
+// eight different 王氏 in here. What does mean something is two records with the
+// same name that also touch the same relative, or that carry the same dates:
+// that is one person entered twice, and worth a merge proposal.
+const kinship = query(
+  `SELECT subject_person_id AS a, object_person_id AS b, predicate FROM claim
+    WHERE claim_kind = 'relationship' AND status NOT IN ('retracted', 'superseded')`,
+  'kinship',
+);
+// Role matters: 王益's wife 吳氏 and 王安石's wife 吳氏 both touch 王安石, but one
+// is his mother and the other his wife. Only a shared relative in the *same*
+// role suggests one person entered twice.
+const neighbours = new Map();
+const add = (id, token) => {
+  if (!neighbours.has(id)) neighbours.set(id, new Set());
+  neighbours.get(id).add(token);
+};
+for (const edge of kinship) {
+  if (edge.predicate === 'kinship.spouse_of') {
+    add(edge.a, `spouse:${edge.b}`);
+    add(edge.b, `spouse:${edge.a}`);
+  } else {
+    add(edge.a, `parent_of:${edge.b}`);
+    add(edge.b, `child_of:${edge.a}`);
+  }
+}
+const dates = new Map();
+for (const row of query(
+  `SELECT subject_person_id AS id, predicate,
+          json_extract(value_json, '$.date.original_text') AS text
+     FROM claim
+    WHERE predicate IN ('birth.date', 'death.date') AND status <> 'retracted'`,
+  'dates',
+)) {
+  if (!row.text) continue;
+  if (!dates.has(row.id)) dates.set(row.id, new Map());
+  dates.get(row.id).set(row.predicate, row.text);
+}
+
+findings.likely_duplicate_persons = [];
+for (const [folded, group] of byFolded) {
+  if (group.length < 2) continue;
+  for (let i = 0; i < group.length; i += 1) {
+    for (let j = i + 1; j < group.length; j += 1) {
+      const [a, b] = [group[i], group[j]];
+      const shared = [...(neighbours.get(a.id) ?? [])].filter((n) => neighbours.get(b.id)?.has(n));
+      // e.g. both are recorded as the child of the same person
+      const da = dates.get(a.id) ?? new Map();
+      const db = dates.get(b.id) ?? new Map();
+      const sameDate = [...da].some(([k, v]) => db.get(k) === v);
+      if (shared.length === 0 && !sameDate) continue;
+      findings.likely_duplicate_persons.push({
+        folded,
+        persons: [a.id, b.id],
+        shared_relatives: shared,
+        same_dates: sameDate,
+      });
+    }
+  }
+}
+
 const byIdentifier = new Map();
 for (const p of persons) {
   for (const id of (p.identifiers ?? '').split(',').filter(Boolean)) {
@@ -69,9 +133,19 @@ for (const p of persons) {
     byIdentifier.get(id).add(p.id);
   }
 }
+// Two records under one identifier is always one person twice. Statuses are
+// included because the usual cause is benign: a record suppressed as
+// out-of-scope, then legitimately re-created when a 王 relative reached it.
+const statusById = new Map(persons.map((p) => [p.id, p.status]));
 findings.shared_identifier_persons = [...byIdentifier.entries()]
   .filter(([, ids]) => ids.size > 1)
-  .map(([identifier, ids]) => ({ identifier, person_ids: [...ids] }));
+  .map(([identifier, ids]) => ({
+    identifier,
+    persons: [...ids].map((id) => ({ id, status: statusById.get(id) })),
+    note: [...ids].some((id) => statusById.get(id) === 'suppressed')
+      ? '其中有已隐藏记录：多为剪枝残留，公开视图不受影响'
+      : '两条都公开：应提合并提案',
+  }));
 
 findings.persons_without_name = persons
   .filter((p) => !p.name)
@@ -143,6 +217,7 @@ findings.relationships_to_nonpublic = query(
      JOIN person ps ON ps.id = c.subject_person_id
      JOIN person po ON po.id = c.object_person_id
     WHERE c.claim_kind = 'relationship'
+      AND c.status NOT IN ('retracted', 'superseded')
       AND ps.status = 'active'
       AND po.status NOT IN ('active', 'merged')`,
   'relationships to non-public persons',
@@ -153,17 +228,22 @@ findings.spouse_only_with_property_claims = query(
   `SELECT p.id,
           (SELECT json_extract(c.value_json, '$.text') FROM claim c
              WHERE c.subject_person_id = p.id AND c.predicate = 'name.primary' LIMIT 1) AS name,
+          -- Aliases are names, not basic information: a temple name recorded
+          -- next to a personal name is fine on a relationship-only record.
           (SELECT group_concat(c2.predicate) FROM claim c2
              WHERE c2.subject_person_id = p.id
                AND c2.claim_kind = 'property'
-               AND c2.predicate <> 'name.primary') AS extra_claims
+               AND c2.predicate NOT LIKE 'name.%'
+               AND c2.status <> 'retracted') AS extra_claims
      FROM person p
     WHERE EXISTS (SELECT 1 FROM claim s WHERE s.predicate = 'kinship.spouse_of'
                     AND (s.subject_person_id = p.id OR s.object_person_id = p.id))
       AND NOT EXISTS (SELECT 1 FROM claim k WHERE k.predicate = 'kinship.parent_of'
                         AND (k.subject_person_id = p.id OR k.object_person_id = p.id))
       AND EXISTS (SELECT 1 FROM claim c3 WHERE c3.subject_person_id = p.id
-                    AND c3.claim_kind = 'property' AND c3.predicate <> 'name.primary')`,
+                    AND c3.claim_kind = 'property'
+                    AND c3.predicate NOT LIKE 'name.%'
+                    AND c3.status <> 'retracted')`,
   'spouse-only persons carrying property claims',
 );
 

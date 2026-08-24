@@ -82,18 +82,19 @@ MVP 先使用规范化姓名、异名、地点和外部 ID 的数据库索引搜
 从外部数据库补充亲属关系分两步，中间留下可人工复核的计划文件：
 
 ```text
-D1（现有人物 + 其维基数据 QID / CBDB ID）
-  │  scripts/fetch-kinship.mjs --hops N
+scripts/expand-kinship.mjs        逐轮循环，直到没有待展开的人物
+  │
+  ├─ scripts/fetch-kinship.mjs    前沿=尚未查过的王姓人物（--frontier）
   │    维基数据：P22 父、P25 母、P40 子女、P26 配偶
-  │    CBDB    ：亲属关系（中文亲属称谓 → packages/validation 的映射表）
-  ▼
-scripts/kinship-data.json     计划：待建人物及其主张、待建关系及引用、跳过项、同名待查
-  │  scripts/import-kinship.mjs  只经 /api/v1 写入
-  ▼
-Worker API → D1
-  │  scripts/audit-data.mjs      复核：重复、无来源主张、悬空关系、待处理合并提案
-  ▼
-scripts/propose-merge.mjs     确认是同一人时，逐对提出可回滚的合并提案
+  │    CBDB    ：亲属关系（中文称谓 → packages/validation 的映射表）
+  │    ↓ scripts/kinship-data.json  计划：待建人物及其主张、关系及引用、跳过项、同名待查
+  └─ scripts/import-kinship.mjs   只经 /api/v1 写入
+         ↓
+      Worker API → D1
+scripts/prune-off-scope.mjs      超出收录范围（距王姓 >1 步）的人物转为 suppressed
+scripts/fix-titled-names.mjs     庙号/称号改记为异名，本名提为 name.primary
+scripts/audit-data.mjs           复核：重复、无来源主张、悬空关系、待处理合并提案
+scripts/propose-merge.mjs        确认是同一人时，逐对提出可回滚的合并提案
 ```
 
 约束：
@@ -101,8 +102,10 @@ scripts/propose-merge.mjs     确认是同一人时，逐对提出可回滚的�
 - **写入只走 HTTP API。** 亲属方向归一化、配偶对的规范化、亲属环检测、来源门槛、追加式版本和审计记录都在服务端，直接写 D1 会全部绕过。脚本只用 D1 做只读花名册查询和运维维护（`scripts/lib/d1.mjs`）。
 - **同一人只建一条记录。** 身份以外部标识为准：维基数据 QID 与 CBDB ID 通过维基数据的 P497 互相桥接，两个来源指向同一人时合并为一个节点。剩下的同名情况写入计划的 `name_collisions` 交人工判断——同名异人很常见（王益之妻吳氏与王安石之妻吳氏是两个人），因此绝不自动合并。
 - **两个来源互相印证。** 同一条关系若两边都有声明，就挂两条引用；`locator` 分别记维基数据属性号和 CBDB 亲属称谓，CBDB 还会带上它自己引用的文献。
-- **只表达能表达的关系。** 兄弟、翁婿、孙辈、十世孙等在本模型里没有谓词，一律计入 `unmapped_cbdb_relations` 上报，不塞进 `parent_of`。
-- **逐代扩展。** `--hops` 控制向外走几代，`--max-new` 限制单次新增人数（触顶会明确报告，不静默截断）；花名册来自数据库，因此再跑一次就会继续向外扩展一代。
+- **只记录父母子女与配偶。** 兄弟、翁婿、孙辈、十世孙等称谓一律计入 `unmapped_cbdb_relations` 上报但不入库——有完整的父母子女链就能推导出它们，重复存储只会制造冗余与冲突（见 `SOURCES_AND_POLICY.md`）。
+- **逐代扩展直到收敛。** `scripts/expand-kinship.mjs` 反复执行「取前沿 → 导入」，`scripts/.cache/expanded-keys.json` 记住问过谁，因此停止条件是明确的：没有未展开的人物即结束。`--max-new` 限制单轮新增（触顶会报告，不静默截断），`--stop-at` 是人数护栏。
+- **前沿限定在王姓。** 默认只展开王姓人物（`--frontier wang`）；非王亲属照常记录为关系端点，但不再由他们向外扩展。不加这条限制时，配偶会成为跨宗族的桥，两三轮之后库里就是整个刘氏、司马氏帝系（实测 6 轮后 61% 的记录距王姓已在 2 步以上）。`--frontier all` 可解除限制。
+- **只有名字，没有档案。** 非王姓人物与仅以配偶身份出现的人物只写 `name.primary`（必要时加称号异名），不写生卒与生平。
 - **幂等。** 人物按标识认领，来源按「标识 + 记录类型」复用，关系已存在（`409 relationship_exists`）时只补引用并确保状态为 `accepted`。
 - 发布缺少卒年的人物需要 `maintainer` 及以上角色（API 对「权威数据库认定为历史人物」的放行口），判定依据记录在计划文件的 `historicity` 字段，规则见 `SOURCES_AND_POLICY.md`。
 

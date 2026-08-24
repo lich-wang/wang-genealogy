@@ -34,6 +34,7 @@
 import { readFileSync, writeFileSync } from 'node:fs';
 import { detectScript, foldKey } from '../packages/i18n/src/script.ts';
 import { d1Query } from './lib/d1.mjs';
+import { loadExpanded } from './lib/expansion-state.mjs';
 import {
   CBDB_SOURCE_TEMPLATE,
   basicInfo as cbdbBasicInfo,
@@ -43,10 +44,14 @@ import {
 } from './lib/cbdb.mjs';
 import {
   KINSHIP_PROPERTIES,
+  TITLE_PATTERN,
+  WANG_FAMILY_NAME_QID,
   dateClaim,
   factsFor,
   kinshipFor,
+  personalNameCandidates,
   pickName,
+  pickPersonalName,
   qidsByCbdb,
   yearOf,
   formatWikidataTime,
@@ -66,7 +71,25 @@ const d1 = {
 const hops = Math.max(1, Number(option('--hops', '1')));
 const maxNew = Math.max(1, Number(option('--max-new', '250')));
 const enabled = new Set(option('--sources', 'wikidata,cbdb').split(',').map((s) => s.trim()));
+// Expansion normally continues from where the last round stopped; --all re-asks
+// about everyone, which is only useful when upstream data has changed.
+const onlyNew = !flag('--all');
+// This is a 王-surname genealogy. Following parent/child links out of every
+// in-law pulls in whole imperial clans (王政君's husband 汉元帝 leads to 汉宣帝,
+// 汉武帝, 汉景帝 …), so by default only 王-surname persons are expanded: their
+// parents, children and spouses are still recorded, but a non-王 relative is a
+// leaf. `--frontier all` restores unbounded expansion.
+const frontierScope = option('--frontier', 'wang');
 const outPath = option('--out', new URL('kinship-data.json', import.meta.url).pathname);
+
+/** 王 by Wikidata's family-name property, or by the name a source publishes. */
+function isWangSurname(node) {
+  if (node.facts?.family_name) return node.facts.family_name === WANG_FAMILY_NAME_QID;
+  const text = node.name?.text ?? '';
+  // Titles such as 孝景王皇后 carry the surname in the middle; the leading
+  // character is the usual case.
+  return text.startsWith('王') || /王(皇后|夫人|氏|美人|婕妤)/.test(text);
+}
 
 const HISTORICAL_ERA =
   /(秦|漢|汉|魏|蜀|吳|吴|晉|晋|隋|唐|宋|遼|辽|金|元|明|清|齊|齐|梁|陳|陈|周|商|春秋|戰國|战国|匈奴|Qin|Han|Wei|Shu|Jin dynasty|Sui|Tang|Song|Liao|Yuan|Ming|Qing|Xiongnu|Three Kingdoms|Northern|Southern)/;
@@ -156,7 +179,7 @@ const rosterRows = d1Query(
               AND c2.predicate = 'name.primary'
               AND s.external_identifier IS NOT NULL) AS identifiers
      FROM person p
-    WHERE p.status IN ('candidate', 'active')
+    WHERE p.status <> 'merged'
     ORDER BY p.created_at`,
   { ...d1, label: 'roster' },
 );
@@ -241,11 +264,29 @@ function noteRole(node, role) {
   node.roles.add(role);
 }
 
-let frontier = rosterNodes.filter((n) => n.qid || n.cbdb);
+const alreadyExpanded = onlyNew ? loadExpanded() : new Set();
+const expandedThisRun = new Set();
+
+/** Nodes worth asking about: identifiable, in scope, and not already queried. */
+const expandable = (list) =>
+  list.filter(
+    (n) =>
+      (n.qid || n.cbdb) &&
+      !alreadyExpanded.has(keyOf(n)) &&
+      (frontierScope === 'all' || isWangSurname(n)),
+  );
+
+let frontier = expandable(rosterNodes);
+console.error(
+  `frontier: ${frontier.length} 人待展开（范围=${frontierScope === 'all' ? '不限姓氏' : '仅王姓'}，` +
+    `已展开过 ${alreadyExpanded.size} 人）`,
+);
 
 for (let hop = 1; hop <= hops; hop += 1) {
   const discovered = [];
   const canCreate = () => nodes.size - rosterRows.length < maxNew;
+
+  for (const node of frontier) expandedThisRun.add(keyOf(node));
 
   // 2a. Wikidata statements for the frontier.
   if (enabled.has('wikidata')) {
@@ -393,7 +434,7 @@ for (let hop = 1; hop <= hops; hop += 1) {
   }
 
   console.error(`hop ${hop}: 新增 ${discovered.length} 人（累计新增 ${nodes.size - rosterRows.length}）`);
-  frontier = discovered;
+  frontier = expandable(discovered);
   if (frontier.length === 0) break;
 }
 
@@ -401,7 +442,29 @@ if (capped > 0) {
   console.error(`! 达到 --max-new ${maxNew} 上限，跳过 ${capped} 条关系（未静默截断，重跑可继续）`);
 }
 
-// --- 3. historicity ---------------------------------------------------------
+// --- 3. names: the person's own name, not the title they were given ---------
+
+// Sources label emperors and consorts with temple names and posthumous titles
+// (漢成帝, 孝景王皇后). Those are not names: where a source states the actual
+// name we store that and keep the title as an alias. Where none does, the title
+// stays — a name nobody wrote is not ours to invent.
+const titledNew = [...nodes.values()].filter(
+  (n) => !n.existing && n.qid && n.name?.text && TITLE_PATTERN.test(n.name.text),
+);
+if (titledNew.length > 0) {
+  const candidates = await personalNameCandidates(titledNew.map((n) => n.qid));
+  let fixed = 0;
+  for (const node of titledNew) {
+    const personal = pickPersonalName(candidates.get(node.qid));
+    if (!personal || personal === node.name.text) continue;
+    node.title_alias = node.name.text;
+    node.name = { text: personal, language: detectScript(personal) ?? 'zh-Hans' };
+    fixed += 1;
+  }
+  console.error(`称号改本名：${fixed}/${titledNew.length}（其余来源未给出本名，保留称号）`);
+}
+
+// --- 4. historicity ---------------------------------------------------------
 
 /** Evidence that a person is a deceased historical figure, or null. */
 function ownEvidence(node) {
@@ -523,9 +586,11 @@ const nameCollisions = [];
 for (const node of nodes.values()) {
   if (node.existing || unusable.has(node.id)) continue;
 
-  // A spouse-only record exists so the marriage can be stated; per project
-  // instruction it carries no basic information beyond the name.
+  // Records that exist only to make a 王 person's kinship legible carry a name
+  // and nothing else: spouses (per instruction), and everyone outside the 王
+  // surname, who is in this database only as somebody's relative.
   const spouseOnly = node.roles.has('spouse') && !node.roles.has('parent') && !node.roles.has('child');
+  const relationshipOnly = spouseOnly || !isWangSurname(node);
 
   const f = node.facts;
   const info = node.cbdb_info;
@@ -546,7 +611,17 @@ for (const node of nodes.values()) {
     },
   ];
 
-  if (!spouseOnly) {
+  if (node.title_alias) {
+    claims.push({
+      predicate: 'name.alias',
+      value: { text: node.title_alias, language: detectScript(node.title_alias) ?? 'zh-Hans' },
+      confidence: 'high',
+      source_keys: sourceKeys,
+      change_summary: '称号/庙号记为异名',
+    });
+  }
+
+  if (!relationshipOnly) {
     const description = f?.descriptions.zh
       ? { text: f.descriptions.zh, language: detectScript(f.descriptions.zh) ?? 'zh-Hans' }
       : f?.descriptions.en
@@ -623,6 +698,8 @@ for (const node of nodes.values()) {
     hop: node.hop,
     name: node.name,
     spouse_only: spouseOnly,
+    relationship_only: relationshipOnly,
+    relationship_only_reason: relationshipOnly ? (spouseOnly ? 'spouse_only' : 'not_wang_surname') : null,
     claims,
     historicity: node.historicity,
     source_keys: sourceKeys,
@@ -666,6 +743,9 @@ for (const key of usedSourceKeys) {
 const plan = {
   generated_from: [...enabled],
   hops,
+  // The importer marks these expanded once the plan lands, so the next round
+  // starts from the new frontier instead of re-querying everyone.
+  expanded_keys: [...expandedThisRun],
   max_new: maxNew,
   capped_relationships: capped,
   sources: planSources,

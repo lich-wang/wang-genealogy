@@ -16,6 +16,9 @@ export const KINSHIP_PROPERTIES = {
 
 export const qidOf = (uri) => uri.split('/').pop();
 
+/** Wikidata item for the 王 family name (P734), the authoritative surname test. */
+export const WANG_FAMILY_NAME_QID = 'Q804943';
+
 /** CBDB ids are zero-padded to 7 digits in Wikidata (P497). */
 export const padCbdb = (id) => String(id).replace(/\D/g, '').padStart(7, '0');
 export const unpadCbdb = (id) => String(id).replace(/\D/g, '').replace(/^0+/, '');
@@ -53,6 +56,7 @@ export function blankFacts(qid) {
   return {
     qid,
     cbdb: null,
+    family_name: null,
     labels: {},
     descriptions: {},
     countries: new Set(),
@@ -77,6 +81,7 @@ export const factsPattern = (v) => `
   OPTIONAL { ?${v} p:P569/psv:P569 [ wikibase:timeValue ?birth; wikibase:timePrecision ?birthPrecision ] }
   OPTIONAL { ?${v} p:P570/psv:P570 [ wikibase:timeValue ?death; wikibase:timePrecision ?deathPrecision ] }
   OPTIONAL { ?${v} wdt:P497 ?cbdbId }
+  OPTIONAL { ?${v} wdt:P734 ?familyName }
   OPTIONAL { ?${v} wdt:P27 ?country.
              OPTIONAL { ?country rdfs:label ?countryZh FILTER(lang(?countryZh) IN ("zh", "zh-cn", "zh-hans")) }
              OPTIONAL { ?country rdfs:label ?countryEn FILTER(lang(?countryEn) = "en") } }
@@ -96,6 +101,7 @@ export function absorbFacts(facts, b) {
   if (b.countryEn?.value) facts.countries.add(b.countryEn.value);
   if (b.zhwiki?.value) facts.zh_wikipedia ??= b.zhwiki.value;
   if (b.cbdbId?.value) facts.cbdb ??= unpadCbdb(b.cbdbId.value);
+  if (b.familyName?.value) facts.family_name ??= qidOf(b.familyName.value);
   if (b.birth?.value) {
     facts.birth ??= { value: b.birth.value, precision: Number(b.birthPrecision?.value ?? 9) };
   }
@@ -111,7 +117,7 @@ export async function factsFor(qids, chunkSize = 60) {
     const chunk = qids.slice(i, i + chunkSize);
     const bindings = await sparql(`
 SELECT ?p ?labelHans ?labelZh ?labelHant ?labelEn ?descZh ?descEn
-       ?birth ?birthPrecision ?death ?deathPrecision ?cbdbId ?countryZh ?countryEn ?zhwiki
+       ?birth ?birthPrecision ?death ?deathPrecision ?cbdbId ?familyName ?countryZh ?countryEn ?zhwiki
 WHERE {
   VALUES ?p { ${chunk.map((q) => `wd:${q}`).join(' ')} }
   ${factsPattern('p')}
@@ -133,7 +139,7 @@ export async function kinshipFor(qids, chunkSize = 40) {
     const grouped = new Map();
     const bindings = await sparql(`
 SELECT ?p ?rel ?other ?labelHans ?labelZh ?labelHant ?labelEn ?descZh ?descEn
-       ?birth ?birthPrecision ?death ?deathPrecision ?cbdbId ?countryZh ?countryEn ?zhwiki
+       ?birth ?birthPrecision ?death ?deathPrecision ?cbdbId ?familyName ?countryZh ?countryEn ?zhwiki
 WHERE {
   VALUES ?p { ${chunk.map((q) => `wd:${q}`).join(' ')} }
   { ?p wdt:P22 ?other. BIND("P22" AS ?rel) }
@@ -217,4 +223,74 @@ export function dateClaim(property, time) {
 /** Preferred stored name: whichever label Wikidata publishes, never converted. */
 export function pickName(facts) {
   return facts.labels.hans ?? facts.labels.zh ?? facts.labels.hant ?? facts.labels.en ?? null;
+}
+
+/**
+ * Personal names behind a title. Records like 漢成帝 or 孝景王皇后 are temple or
+ * posthumous titles, not names; Wikidata usually keeps the actual name in
+ * P1477 (birth name), P1559 (name in native language) or an alias.
+ */
+export async function personalNameCandidates(qids, chunkSize = 40) {
+  const out = new Map();
+  for (let i = 0; i < qids.length; i += chunkSize) {
+    const chunk = qids.slice(i, i + chunkSize);
+    const bindings = await sparql(`
+SELECT ?p ?birthName ?nativeName ?alias ?familyLabel ?givenLabel WHERE {
+  VALUES ?p { ${chunk.map((q) => `wd:${q}`).join(' ')} }
+  OPTIONAL { ?p wdt:P1477 ?birthName }
+  OPTIONAL { ?p wdt:P1559 ?nativeName }
+  OPTIONAL { ?p skos:altLabel ?alias FILTER(lang(?alias) IN ("zh", "zh-cn", "zh-hans", "zh-hant", "zh-tw")) }
+  OPTIONAL { ?p wdt:P734/rdfs:label ?familyLabel FILTER(lang(?familyLabel) IN ("zh", "zh-cn", "zh-hans")) }
+  OPTIONAL { ?p wdt:P735/rdfs:label ?givenLabel FILTER(lang(?givenLabel) IN ("zh", "zh-cn", "zh-hans")) }
+}`);
+    for (const b of bindings) {
+      const id = qidOf(b.p.value);
+      const entry = out.get(id) ?? {
+        birth_name: null,
+        native_name: null,
+        family: null,
+        given: null,
+        aliases: new Set(),
+      };
+      entry.birth_name ??= b.birthName?.value ?? null;
+      entry.native_name ??= b.nativeName?.value ?? null;
+      entry.family ??= b.familyLabel?.value ?? null;
+      entry.given ??= b.givenLabel?.value ?? null;
+      if (b.alias?.value) entry.aliases.add(b.alias.value);
+      out.set(id, entry);
+    }
+  }
+  return out;
+}
+
+/** Titles and honorifics that are not personal names. */
+export const TITLE_PATTERN =
+  /(皇后|皇太后|太后|太子|公主|單于|单于|王后|婕妤|美人|夫人|貴妃|贵妃|昭儀|昭仪|室主|皇帝|大帝|世祖|太祖|高祖|中宗|.帝$|府君$)/;
+
+/**
+ * Pick the personal name a source actually states, or null when it only knows
+ * the title. Never composes a name that no source writes.
+ */
+export function pickPersonalName(candidate) {
+  if (!candidate) return null;
+  const usable = (value) =>
+    typeof value === 'string' &&
+    value.length >= 2 &&
+    value.length <= 6 &&
+    !TITLE_PATTERN.test(value) &&
+    /[\u3400-\u9fff]/.test(value);
+
+  if (usable(candidate.birth_name)) return candidate.birth_name;
+  if (usable(candidate.native_name)) return candidate.native_name;
+  const family = candidate.family;
+  if (family) {
+    // An alias beginning with the recorded family name is the personal name in
+    // nearly every case (漢成帝 → 劉驁); titles do not begin with it.
+    const alias = [...candidate.aliases]
+      .filter((a) => a.startsWith(family) && usable(a))
+      .sort((a, b) => a.length - b.length)[0];
+    if (alias) return alias;
+    if (candidate.given && usable(family + candidate.given)) return family + candidate.given;
+  }
+  return null;
 }

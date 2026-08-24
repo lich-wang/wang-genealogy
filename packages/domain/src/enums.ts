@@ -119,8 +119,13 @@ export const CONTRIBUTION_ACTION = [
   //   admin.correct_metadata — fix descriptive metadata an import got wrong,
   //                            e.g. a citation locator pointing at the wrong
   //                            kind of source.
+  //   admin.suppress_person  — take a record out of public view (person.status
+  //                            = 'suppressed') without deleting anything, e.g.
+  //                            when an import walked outside the collection's
+  //                            scope. Reversible.
   'admin.reattribute',
   'admin.correct_metadata',
+  'admin.suppress_person',
 ] as const;
 export type ContributionAction = (typeof CONTRIBUTION_ACTION)[number];
 

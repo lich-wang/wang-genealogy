@@ -107,6 +107,18 @@ app.get('/api/v1/changes', async (c) => {
   const allPersonIds = [...new Set([...personTargets, ...claimToPerson.values()])];
   const names = await nameOf(c.env.DB, allPersonIds);
 
+  // Changes about non-public persons stay out of the public feed — otherwise
+  // suppressing a record would still broadcast its name and id.
+  const publicPersonIds = new Set();
+  if (allPersonIds.length > 0) {
+    const ph = allPersonIds.map(() => '?').join(',');
+    const visible = await c.env.DB
+      .prepare(`SELECT id FROM person WHERE id IN (${ph}) AND status IN ('active','merged')`)
+      .bind(...allPersonIds)
+      .all<{ id: string }>();
+    for (const row of visible.results ?? []) publicPersonIds.add(row.id);
+  }
+
   const items = rows.map((r) => {
     const targetType = r.target_type as string;
     const targetId = r.target_id as string;
@@ -124,8 +136,9 @@ app.get('/api/v1/changes', async (c) => {
       created_at: r.created_at as string,
     };
   });
+  const visibleItems = items.filter((item) => !item.subject_person_id || publicPersonIds.has(item.subject_person_id));
   const next = rows.length === 50 ? (rows[rows.length - 1]!.created_at as string) : null;
-  return c.json({ items, next_cursor: next });
+  return c.json({ items: visibleItems, next_cursor: next });
 });
 
 // --- mounted resource routers ---

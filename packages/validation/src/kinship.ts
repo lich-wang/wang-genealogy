@@ -111,12 +111,15 @@ export function mapChineseKinshipTerm(term: string | null | undefined): MappedKi
 }
 
 export class KinshipError extends Error {
-  constructor(
-    public code: string,
-    message: string,
-  ) {
+  // Plain field rather than a constructor parameter property: maintenance
+  // scripts import this module through Node's strip-only TypeScript support,
+  // which cannot compile parameter properties.
+  readonly code: string;
+
+  constructor(code: string, message: string) {
     super(message);
     this.name = 'KinshipError';
+    this.code = code;
   }
 }
 
