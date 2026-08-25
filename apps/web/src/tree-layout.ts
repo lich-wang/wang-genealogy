@@ -267,3 +267,46 @@ export function compactLifespan(node: { birth: string | null; death: string | nu
   if (!birth && !death) return null;
   return `${birth ?? '？'}–${death ?? '？'}`;
 }
+
+/**
+ * Lines of descent the diagram should not draw, because the generations they
+ * span are already on it.
+ *
+ * 「王翦之孫王離」 and 王翦 → 王賁 → 王離 say the same thing; drawing both puts a
+ * dashed shortcut alongside the very chain it summarises, and expanding the
+ * tree turns every filled-in gap into a duplicate line. A line of descent earns
+ * its place only where the named chain is missing — which is exactly what it
+ * was recorded for.
+ *
+ * Judged against the edges actually loaded: a chain that exists in the database
+ * but is not on screen yet is not a chain the reader can follow, so the line
+ * stays until it is.
+ */
+export function redundantDescent(
+  parentEdges: Array<{ parent_id: string; child_id: string }>,
+  descentEdges: Array<{ claim_id: string; ancestor_id: string; descendant_id: string }>,
+): Set<string> {
+  const childrenOf = new Map<string, string[]>();
+  for (const edge of parentEdges) {
+    childrenOf.set(edge.parent_id, [...(childrenOf.get(edge.parent_id) ?? []), edge.child_id]);
+  }
+
+  const redundant = new Set<string>();
+  for (const edge of descentEdges) {
+    const seen = new Set([edge.ancestor_id]);
+    const queue = [edge.ancestor_id];
+    while (queue.length > 0) {
+      const id = queue.shift()!;
+      if (id === edge.descendant_id) {
+        redundant.add(edge.claim_id);
+        break;
+      }
+      for (const child of childrenOf.get(id) ?? []) {
+        if (seen.has(child)) continue;
+        seen.add(child);
+        queue.push(child);
+      }
+    }
+  }
+  return redundant;
+}

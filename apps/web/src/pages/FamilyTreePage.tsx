@@ -12,6 +12,7 @@ import {
   evidenceLabel,
   evidenceTooltip,
   layoutTree,
+  redundantDescent,
 } from '../tree-layout';
 
 /**
@@ -108,6 +109,17 @@ export function FamilyTreePage() {
     }
   }, []);
 
+  // A line of descent whose generations are already drawn as parent links is
+  // the same statement twice, and expanding the tree fills those gaps in one
+  // by one — so it is dropped from the diagram, not just from the picture's
+  // arithmetic.
+  const descentEdges = useMemo(() => {
+    const parentEdges = [...graph.parentEdges.values()];
+    const all = [...graph.descentEdges.values()];
+    const covered = redundantDescent(parentEdges, all);
+    return all.filter((edge) => !covered.has(edge.claim_id));
+  }, [graph]);
+
   const layout = useMemo(
     () =>
       layoutTree(
@@ -115,11 +127,11 @@ export function FamilyTreePage() {
           nodes: graph.nodes,
           parentEdges: [...graph.parentEdges.values()],
           spouseEdges: [...graph.spouseEdges.values()],
-          descentEdges: [...graph.descentEdges.values()],
+          descentEdges,
         },
         id,
       ),
-    [graph, id],
+    [graph, descentEdges, id],
   );
 
   const root = graph.nodes.get(id);
@@ -158,8 +170,8 @@ export function FamilyTreePage() {
         <p className="muted">
           {t('当前显示')} {graph.nodes.size} {t('人')}、{graph.parentEdges.size}{' '}
           {t('条亲子关系')}
-          {graph.descentEdges.size > 0
-            ? `、${graph.descentEdges.size} ${t('条世系关系（代数不明）')}`
+          {descentEdges.length > 0
+            ? `、${descentEdges.length} ${t('条世系关系（代数不明）')}`
             : ''}
           {truncated ? ` · ${t('已达单次返回上限，请从具体人物继续展开')}` : ''}
           {' · '}
@@ -197,7 +209,7 @@ export function FamilyTreePage() {
               onSelect={() => setSelection({ kind: 'edge', claimId: edge.claim_id })}
             />
           ))}
-          {[...graph.descentEdges.values()].map((edge) => (
+          {descentEdges.map((edge) => (
             <DescentLine
               key={edge.claim_id}
               edge={edge}

@@ -8,6 +8,7 @@ import {
   evidenceTooltip,
   UNKNOWN_DESCENT_SPAN,
   layoutTree,
+  redundantDescent,
 } from './tree-layout.ts';
 
 const person = (id: string): RelativeNode => ({
@@ -314,5 +315,51 @@ describe('layoutTree: expanding below a line of descent', () => {
     expect(layout.nodes.get('far')?.generation).toBe(5);
     expect(layout.nodes.get('kid')?.generation).toBe(6);
     expect(layout.nodes.get('grandkid')?.generation).toBe(7);
+  });
+});
+
+describe('redundantDescent', () => {
+  const P = (parent_id: string, child_id: string) => ({ parent_id, child_id });
+  const D = (claim_id: string, ancestor_id: string, descendant_id: string) => ({
+    claim_id,
+    ancestor_id,
+    descendant_id,
+  });
+
+  it('drops a line the named chain already draws', () => {
+    // 王翦 → 王賁 → 王離 is on the diagram, so 「王翦之孫王離」 adds nothing.
+    const covered = redundantDescent(
+      [P('jian', 'ben'), P('ben', 'li')],
+      [D('d1', 'jian', 'li')],
+    );
+    expect([...covered]).toEqual(['d1']);
+  });
+
+  it('keeps a line where the chain is missing', () => {
+    const covered = redundantDescent([P('jian', 'ben')], [D('d1', 'jian', 'li')]);
+    expect(covered.size).toBe(0);
+  });
+
+  it('keeps a line where only part of the chain is loaded', () => {
+    // The middle generation is in the database but not in this slice; until it
+    // is on screen the reader has no chain to follow.
+    const covered = redundantDescent([P('ben', 'li')], [D('d1', 'jian', 'li')]);
+    expect(covered.size).toBe(0);
+  });
+
+  it('does not mistake a chain running the other way for a match', () => {
+    const covered = redundantDescent(
+      [P('li', 'ben'), P('ben', 'jian')],
+      [D('d1', 'jian', 'li')],
+    );
+    expect(covered.size).toBe(0);
+  });
+
+  it('survives a cycle in the loaded edges', () => {
+    const covered = redundantDescent(
+      [P('a', 'b'), P('b', 'a')],
+      [D('d1', 'a', 'zzz')],
+    );
+    expect(covered.size).toBe(0);
   });
 });
