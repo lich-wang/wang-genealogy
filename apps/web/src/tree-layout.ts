@@ -175,6 +175,11 @@ export function layoutTree(graph: Graph, rootId: string): Layout {
 /**
  * Short label for a line: which statement in which source says these two are
  * related. "P22（父）" becomes "P22", "亲属关系：父" becomes "父".
+ *
+ * Aggressively short, because these sit on top of a diagram: a locator like
+ * 「条文：条文识读（孙）（8世）」 carries one thing a reader wants — how many
+ * generations — and printing the rest of it collides with the next line's
+ * label into an unreadable smear.
  */
 export function evidenceLabel(citations: Array<{ locator: string | null }>): string {
   const parts = citations
@@ -182,9 +187,16 @@ export function evidenceLabel(citations: Array<{ locator: string | null }>): str
       const locator = c.locator ?? '';
       const property = /^(P\d+)/.exec(locator);
       if (property) return property[1]!;
+      // A stated distance is the whole point of a line of descent.
+      const generations = /（\s*([一二三四五六七八九十百\d]+\s*世)\s*）/.exec(locator);
+      if (generations) return generations[1]!.replace(/\s+/g, '');
+      if (/代数不明|代數不明/.test(locator)) return '代数不明';
       const term = /[:：]\s*(.+)$/.exec(locator);
-      if (term) return term[1]!.trim();
-      return locator.trim();
+      const rest = (term ? term[1]! : locator).trim();
+      // Drop the miner's own wording and keep what the source said.
+      const inner = [...rest.matchAll(/（([^）]{1,8})）/g)].map((m) => m[1]!);
+      if (inner.length > 0) return inner[inner.length - 1]!;
+      return rest.replace(/^(条文识读|條文識讀|信息框)\s*/, '');
     })
     .filter(Boolean);
   const unique = [...new Set(parts)];

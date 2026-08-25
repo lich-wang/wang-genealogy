@@ -158,6 +158,9 @@ export function FamilyTreePage() {
         <p className="muted">
           {t('当前显示')} {graph.nodes.size} {t('人')}、{graph.parentEdges.size}{' '}
           {t('条亲子关系')}
+          {graph.descentEdges.size > 0
+            ? `、${graph.descentEdges.size} ${t('条世系关系（代数不明）')}`
+            : ''}
           {truncated ? ` · ${t('已达单次返回上限，请从具体人物继续展开')}` : ''}
           {' · '}
           <Link to={`/persons/${encodeURIComponent(root.id)}`}>{t('返回人物页')}</Link>
@@ -328,8 +331,8 @@ function DescentLine({
       <path d={path} className="tree-edge-hit" />
       <path d={path} className="tree-edge-line" />
       <text
-        x={(ax + dx) / 2}
-        y={(ay + dy) / 2 - 4}
+        x={ax + (dx - ax) * 0.62}
+        y={ay + (dy - ay) * 0.62 - 4}
         className="tree-edge-label"
         textAnchor="middle"
       >
