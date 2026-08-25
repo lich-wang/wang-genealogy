@@ -111,8 +111,26 @@ const CLAN_ARTICLES = option(
   ].join(','),
 ).split(',');
 
+/**
+ * The generations before the surname existed.
+ *
+ * A surname's genealogy has to be able to say where the surname came from, and
+ * the people it came from did not yet carry it: 姬晋 is 姓姬名晋, and his son is
+ * recorded simply as 宗敬 — it was his office that got the family called 王家.
+ * Reading the boundary as "surname starts with 王" would put the origin of the
+ * surname outside a database that exists to document it.
+ *
+ * Deliberately a closed list, not a rule. It is not an opening for non-王
+ * relatives in general; it names the handful of people the sources present as
+ * the surname's own origin.
+ */
+const PROGENITORS = new Set(['姬晋', '姬晉', '太子晋', '太子晉', '王子乔', '王子喬', '王子晋', '王子晉', '宗敬']);
+
 const isWangName = (name) =>
-  typeof name === 'string' && (name.startsWith('王') || /王(皇后|皇太后|太后|夫人|氏|美人|婕妤|后)/.test(name));
+  typeof name === 'string' &&
+  (name.startsWith('王') ||
+    /王(皇后|皇太后|太后|夫人|氏|美人|婕妤|后)/.test(name) ||
+    PROGENITORS.has(name.trim()));
 
 // --- who we already have ----------------------------------------------------
 
@@ -134,7 +152,11 @@ const rows = d1Query(
           EXISTS(SELECT 1 FROM claim k
                   WHERE k.subject_person_id = p.id
                     AND k.predicate = 'kinship.parent_of'
-                    AND k.status NOT IN ('retracted', 'superseded')) AS has_child
+                    AND k.status NOT IN ('retracted', 'superseded')) AS has_child,
+          (SELECT group_concat(json_extract(a.value_json, '$.text'), '') FROM claim a
+             WHERE a.subject_person_id = p.id
+               AND a.predicate IN ('name.alias', 'name.courtesy')
+               AND a.status NOT IN ('retracted', 'superseded')) AS aliases
      FROM person p
     WHERE p.status <> 'merged'`,
   { ...d1, label: 'roster' },
@@ -148,9 +170,15 @@ for (const row of rows) {
   for (const id of (row.identifiers ?? '').split(',').filter(Boolean)) {
     if (/^Q\d+$/.test(id)) personByQid.set(id, row);
   }
-  if (row.name) {
-    const key = foldKey(row.name);
-    personsByFolded.set(key, [...(personsByFolded.get(key) ?? []), row]);
+  // Indexed under every name the record answers to, not just the primary one.
+  // A source writes 「太子晋」 for the man this database records as 姬晋, and
+  // matching on the primary name alone would file him a second time under the
+  // title the policy deliberately keeps out of `name.primary`.
+  for (const text of [row.name, ...(row.aliases ?? '').split('\u001f').filter(Boolean)]) {
+    if (!text) continue;
+    const key = foldKey(text);
+    const list = personsByFolded.get(key) ?? [];
+    if (!list.includes(row)) personsByFolded.set(key, [...list, row]);
   }
 }
 console.error(`库中 ${rows.length} 条人物记录，其中 ${personByQid.size} 条带维基数据标识`);

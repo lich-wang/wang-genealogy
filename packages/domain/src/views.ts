@@ -40,6 +40,9 @@ export interface PersonSummary {
     parents: ClaimWithSources[];
     children: ClaimWithSources[];
     spouses: ClaimWithSources[];
+    /** Descent across unnamed generations, kept apart from named parentage. */
+    ancestors: ClaimWithSources[];
+    descendants: ClaimWithSources[];
     other: ClaimWithSources[];
   };
   current_revision: number;
@@ -81,6 +84,21 @@ export interface SpouseEdge extends KinshipEdgeBase {
 }
 
 /**
+ * Stored direction: ANCESTOR --kinship.ancestor_of--> DESCENDANT, across a
+ * number of generations the source did not name.
+ *
+ * Kept apart from `ParentEdge` because it is a different statement: a parent
+ * link says who someone's father was, this one says only that a line of descent
+ * runs between two people. A tree must not draw them alike, or「秦将王翦为太子
+ * 晋后代」would read as a claim that 王翦 was 太子晋's son. Whatever the source
+ * said about the distance —「四世孫」,「第八代孫」— is in the citation's locator.
+ */
+export interface DescentEdge extends KinshipEdgeBase {
+  ancestor_id: string;
+  descendant_id: string;
+}
+
+/**
  * A slice of the kinship graph around one person, walked a bounded number of
  * generations up and down. Light on purpose: names, dates and the evidence
  * behind each line — not every claim attached to every person.
@@ -92,6 +110,8 @@ export interface RelativesGraph {
   nodes: RelativeNode[];
   parent_edges: ParentEdge[];
   spouse_edges: SpouseEdge[];
+  /** Lines of descent across unnamed generations, drawn differently. */
+  descent_edges: DescentEdge[];
   /** True when the node cap stopped the walk before it ran out of relatives. */
   truncated: boolean;
 }

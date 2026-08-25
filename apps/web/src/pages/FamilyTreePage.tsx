@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import type { ParentEdge, RelativeNode, RelativesGraph, SpouseEdge } from '@wang/domain';
+import type { DescentEdge, ParentEdge, RelativeNode, RelativesGraph, SpouseEdge } from '@wang/domain';
 import { api } from '../api';
 import { toMessage } from '../hooks';
 import { useScript } from '../i18n';
@@ -27,6 +27,7 @@ interface Graph {
   nodes: Map<string, RelativeNode>;
   parentEdges: Map<string, ParentEdge>;
   spouseEdges: Map<string, SpouseEdge>;
+  descentEdges: Map<string, DescentEdge>;
   /** Persons whose relatives have been fetched, so we know what is still unknown. */
   expanded: Set<string>;
 }
@@ -35,6 +36,7 @@ const emptyGraph = (): Graph => ({
   nodes: new Map(),
   parentEdges: new Map(),
   spouseEdges: new Map(),
+  descentEdges: new Map(),
   expanded: new Set(),
 });
 
@@ -43,11 +45,13 @@ function merge(graph: Graph, slice: RelativesGraph): Graph {
     nodes: new Map(graph.nodes),
     parentEdges: new Map(graph.parentEdges),
     spouseEdges: new Map(graph.spouseEdges),
+    descentEdges: new Map(graph.descentEdges),
     expanded: new Set(graph.expanded),
   };
   for (const node of slice.nodes) next.nodes.set(node.id, node);
   for (const edge of slice.parent_edges) next.parentEdges.set(edge.claim_id, edge);
   for (const edge of slice.spouse_edges) next.spouseEdges.set(edge.claim_id, edge);
+  for (const edge of slice.descent_edges ?? []) next.descentEdges.set(edge.claim_id, edge);
   next.expanded.add(slice.root_id);
   return next;
 }
@@ -111,6 +115,7 @@ export function FamilyTreePage() {
           nodes: graph.nodes,
           parentEdges: [...graph.parentEdges.values()],
           spouseEdges: [...graph.spouseEdges.values()],
+          descentEdges: [...graph.descentEdges.values()],
         },
         id,
       ),
@@ -134,7 +139,9 @@ export function FamilyTreePage() {
 
   const selectedEdge =
     selection.kind === 'edge'
-      ? (graph.parentEdges.get(selection.claimId) ?? graph.spouseEdges.get(selection.claimId))
+      ? (graph.parentEdges.get(selection.claimId) ??
+        graph.spouseEdges.get(selection.claimId) ??
+        graph.descentEdges.get(selection.claimId))
       : undefined;
   const selectedPerson = selection.kind === 'person' ? graph.nodes.get(selection.id) : undefined;
 
@@ -180,6 +187,15 @@ export function FamilyTreePage() {
           {/* Lines first, so the boxes sit on top of them. */}
           {[...graph.parentEdges.values()].map((edge) => (
             <ParentLine
+              key={edge.claim_id}
+              edge={edge}
+              layout={layout}
+              selected={selection.kind === 'edge' && selection.claimId === edge.claim_id}
+              onSelect={() => setSelection({ kind: 'edge', claimId: edge.claim_id })}
+            />
+          ))}
+          {[...graph.descentEdges.values()].map((edge) => (
+            <DescentLine
               key={edge.claim_id}
               edge={edge}
               layout={layout}
@@ -262,6 +278,61 @@ function ParentLine({
       <path d={path} className="tree-edge-hit" />
       <path d={path} className="tree-edge-line" />
       <text x={(px + cx) / 2} y={midY - 4} className="tree-edge-label" textAnchor="middle">
+        {evidenceLabel(edge.citations)}
+      </text>
+    </g>
+  );
+}
+
+/**
+ * Descent across generations nobody named: drawn as a dashed line, and drawn
+ * straight, so it reads as a link that skips whatever lies between rather than
+ * as a parent standing directly above a child. Where the intervening
+ * generations *are* known they are already on the diagram as ordinary parent
+ * links, and this line simply spans them.
+ */
+function DescentLine({
+  edge,
+  layout,
+  selected,
+  onSelect,
+}: {
+  edge: DescentEdge;
+  layout: LayoutResult;
+  selected: boolean;
+  onSelect: () => void;
+}) {
+  const ancestor = layout.nodes.get(edge.ancestor_id);
+  const descendant = layout.nodes.get(edge.descendant_id);
+  if (!ancestor || !descendant) return null;
+
+  const ax = ancestor.x + NODE_WIDTH / 2;
+  const ay = ancestor.y + NODE_HEIGHT;
+  const dx = descendant.x + NODE_WIDTH / 2;
+  const dy = descendant.y;
+  const path = `M ${ax} ${ay} L ${dx} ${dy}`;
+
+  return (
+    <g
+      className={[
+        'tree-edge',
+        'tree-edge-descent',
+        selected ? 'tree-edge-selected' : '',
+        edge.status === 'disputed' ? 'tree-edge-disputed' : '',
+      ]
+        .filter(Boolean)
+        .join(' ')}
+      onClick={onSelect}
+    >
+      <title>{evidenceTooltip(edge.citations)}</title>
+      <path d={path} className="tree-edge-hit" />
+      <path d={path} className="tree-edge-line" />
+      <text
+        x={(ax + dx) / 2}
+        y={(ay + dy) / 2 - 4}
+        className="tree-edge-label"
+        textAnchor="middle"
+      >
         {evidenceLabel(edge.citations)}
       </text>
     </g>
@@ -373,19 +444,34 @@ function PersonBox({
   );
 }
 
-function EdgeDetail({ edge, graph }: { edge: ParentEdge | SpouseEdge; graph: Graph }) {
+function EdgeDetail({
+  edge,
+  graph,
+}: {
+  edge: ParentEdge | SpouseEdge | DescentEdge;
+  graph: Graph;
+}) {
   const { t } = useScript();
-  const isParent = 'parent_id' in edge;
-  const a = graph.nodes.get(isParent ? edge.parent_id : edge.a_id);
-  const b = graph.nodes.get(isParent ? edge.child_id : edge.b_id);
+  const kind = 'parent_id' in edge ? 'parent' : 'ancestor_id' in edge ? 'descent' : 'spouse';
+  const [aId, bId] =
+    kind === 'parent'
+      ? [(edge as ParentEdge).parent_id, (edge as ParentEdge).child_id]
+      : kind === 'descent'
+        ? [(edge as DescentEdge).ancestor_id, (edge as DescentEdge).descendant_id]
+        : [(edge as SpouseEdge).a_id, (edge as SpouseEdge).b_id];
+  const a = graph.nodes.get(aId);
+  const b = graph.nodes.get(bId);
+  const arrow = kind === 'parent' ? '→' : kind === 'descent' ? '⇢' : '⚭';
+  const label =
+    kind === 'parent' ? '亲子关系' : kind === 'descent' ? '世系关系（代数不明）' : '配偶关系';
 
   return (
     <section className="tree-detail">
       <h2>
-        {a?.display_name ?? '?'} {isParent ? '→' : '⚭'} {b?.display_name ?? '?'}
+        {a?.display_name ?? '?'} {arrow} {b?.display_name ?? '?'}
       </h2>
       <p className="muted">
-        {isParent ? t('亲子关系') : t('配偶关系')} · {t('主張')} {edge.claim_id}
+        {t(label)} · {t('主張')} {edge.claim_id}
         {edge.status !== 'accepted' ? ` · ${edge.status}` : ''}
       </p>
       {edge.citations.length === 0 ? (

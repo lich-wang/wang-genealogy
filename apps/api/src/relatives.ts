@@ -1,4 +1,5 @@
 import type {
+  DescentEdge,
   KinshipEvidence,
   ParentEdge,
   RelativeNode,
@@ -33,7 +34,12 @@ interface RawEdge {
   child_id: string;
 }
 
-async function step(db: D1Database, ids: string[], direction: 'up' | 'down'): Promise<RawEdge[]> {
+async function step(
+  db: D1Database,
+  ids: string[],
+  direction: 'up' | 'down',
+  predicate: 'kinship.parent_of' | 'kinship.ancestor_of' = 'kinship.parent_of',
+): Promise<RawEdge[]> {
   if (ids.length === 0) return [];
   const placeholders = ids.map(() => '?').join(',');
   // Going up we look for edges whose CHILD is in the frontier; going down, the
@@ -46,12 +52,12 @@ async function step(db: D1Database, ids: string[], direction: 'up' | 'down'): Pr
               c.subject_person_id AS parent_id, c.object_person_id AS child_id
          FROM claim c
          JOIN person p ON p.id = ${other}
-        WHERE c.predicate = 'kinship.parent_of'
+        WHERE c.predicate = ?
           AND c.status NOT IN ('retracted','superseded')
           AND ${anchor} IN (${placeholders})
           AND p.status IN ${VISIBLE}`,
     )
-    .bind(...ids)
+    .bind(predicate, ...ids)
     .all<RawEdge>();
   return res.results ?? [];
 }
@@ -111,13 +117,48 @@ export async function loadRelatives(
     return next;
   };
 
+  const descentEdges = new Map<string, RawEdge>();
+  const absorbDescent = (edges: RawEdge[], pick: (e: RawEdge) => string) => {
+    const next: string[] = [];
+    for (const edge of edges) {
+      const id = pick(edge);
+      if (!collected.has(id)) {
+        if (collected.size >= limit) {
+          truncated = true;
+          continue;
+        }
+        collected.add(id);
+        next.push(id);
+      }
+      descentEdges.set(edge.claim_id, edge);
+    }
+    return next;
+  };
+
+  // A line of descent counts as one step of the walk even though it spans an
+  // unnamed number of generations — otherwise 太子晉, who is joined to the tree
+  // only that way, is invisible from every person below him.
   let frontier = [rootId];
-  for (let i = 0; i < up && frontier.length > 0; i += 1) {
-    frontier = absorb(await step(db, frontier, 'up'), (e) => e.parent_id);
+  let descentFrontier = [rootId];
+  for (let i = 0; i < up && (frontier.length > 0 || descentFrontier.length > 0); i += 1) {
+    const reached = absorb(await step(db, frontier, 'up'), (e) => e.parent_id);
+    const viaDescent = absorbDescent(
+      await step(db, [...frontier, ...descentFrontier], 'up', 'kinship.ancestor_of'),
+      (e) => e.parent_id,
+    );
+    frontier = reached;
+    descentFrontier = viaDescent;
   }
   frontier = [rootId];
-  for (let i = 0; i < down && frontier.length > 0; i += 1) {
-    frontier = absorb(await step(db, frontier, 'down'), (e) => e.child_id);
+  descentFrontier = [rootId];
+  for (let i = 0; i < down && (frontier.length > 0 || descentFrontier.length > 0); i += 1) {
+    const reached = absorb(await step(db, frontier, 'down'), (e) => e.child_id);
+    const viaDescent = absorbDescent(
+      await step(db, [...frontier, ...descentFrontier], 'down', 'kinship.ancestor_of'),
+      (e) => e.child_id,
+    );
+    frontier = reached;
+    descentFrontier = viaDescent;
   }
 
   // Spouses of everyone collected: a tree without them hides half of each
@@ -157,8 +198,12 @@ export async function loadRelatives(
   const keptParents = [...parentEdges.values()].filter(
     (e) => collected.has(e.parent_id) && collected.has(e.child_id),
   );
+  const keptDescent = [...descentEdges.values()].filter(
+    (e) => collected.has(e.parent_id) && collected.has(e.child_id),
+  );
   const citations = await citationsFor(db, [
     ...keptParents.map((e) => e.claim_id),
+    ...keptDescent.map((e) => e.claim_id),
     ...rawSpouses.map((e) => e.claim_id),
   ]);
 
@@ -205,5 +250,13 @@ export async function loadRelatives(
     citations: citations.get(e.claim_id) ?? [],
   }));
 
-  return { root_id: rootId, up, down, nodes, parent_edges, spouse_edges, truncated };
+  const descent_edges: DescentEdge[] = keptDescent.map((e) => ({
+    ancestor_id: e.parent_id,
+    descendant_id: e.child_id,
+    claim_id: e.claim_id,
+    status: e.status as DescentEdge['status'],
+    citations: citations.get(e.claim_id) ?? [],
+  }));
+
+  return { root_id: rootId, up, down, nodes, parent_edges, spouse_edges, descent_edges, truncated };
 }

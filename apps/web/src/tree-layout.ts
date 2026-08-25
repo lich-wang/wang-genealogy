@@ -1,4 +1,4 @@
-import type { ParentEdge, RelativeNode, SpouseEdge } from '@wang/domain';
+import type { DescentEdge, ParentEdge, RelativeNode, SpouseEdge } from '@wang/domain';
 
 /**
  * Turns a kinship slice into coordinates for a generation diagram: one row per
@@ -34,14 +34,18 @@ interface Graph {
   nodes: Map<string, RelativeNode>;
   parentEdges: ParentEdge[];
   spouseEdges: SpouseEdge[];
+  /** Descent across unnamed generations; may be absent on older callers. */
+  descentEdges?: DescentEdge[];
 }
 
 export function layoutTree(graph: Graph, rootId: string): Layout {
-  const { nodes, parentEdges, spouseEdges } = graph;
+  const { nodes, parentEdges, spouseEdges, descentEdges = [] } = graph;
 
   const parentsOf = new Map<string, string[]>();
   const childrenOf = new Map<string, string[]>();
   const spousesOf = new Map<string, string[]>();
+  const ancestorsOf = new Map<string, string[]>();
+  const descendantsOf = new Map<string, string[]>();
   const push = (map: Map<string, string[]>, key: string, value: string) => {
     map.set(key, [...(map.get(key) ?? []), value]);
   };
@@ -52,6 +56,10 @@ export function layoutTree(graph: Graph, rootId: string): Layout {
   for (const edge of spouseEdges) {
     push(spousesOf, edge.a_id, edge.b_id);
     push(spousesOf, edge.b_id, edge.a_id);
+  }
+  for (const edge of descentEdges) {
+    push(ancestorsOf, edge.descendant_id, edge.ancestor_id);
+    push(descendantsOf, edge.ancestor_id, edge.descendant_id);
   }
 
   // 1. Generation per person: parents one row up, children one row down, and a
@@ -70,6 +78,24 @@ export function layoutTree(graph: Graph, rootId: string): Layout {
     for (const child of childrenOf.get(id) ?? []) visit(child, g + 1);
     for (const spouse of spousesOf.get(id) ?? []) visit(spouse, g);
   }
+
+  // Descent links place only the people no parent link could reach. Named
+  // generations decide the rows; a line of descent must not compete with them,
+  // or 太子晉 — an unknown number of generations above 王翦 — would be drawn as
+  // his father and push the real chain down a row.
+  const descentQueue = [...generation.keys()];
+  while (descentQueue.length > 0) {
+    const id = descentQueue.shift()!;
+    const g = generation.get(id)!;
+    const visit = (other: string, value: number) => {
+      if (!nodes.has(other) || generation.has(other)) return;
+      generation.set(other, value);
+      descentQueue.push(other);
+    };
+    for (const ancestor of ancestorsOf.get(id) ?? []) visit(ancestor, g - 1);
+    for (const descendant of descendantsOf.get(id) ?? []) visit(descendant, g + 1);
+  }
+
   // Anyone the walk could not reach (a spouse-of-a-spouse, say) goes on the
   // root's row rather than being dropped from the picture.
   for (const id of nodes.keys()) if (!generation.has(id)) generation.set(id, 0);
@@ -90,6 +116,8 @@ export function layoutTree(graph: Graph, rootId: string): Layout {
         ...(parentsOf.get(id) ?? []),
         ...(childrenOf.get(id) ?? []),
         ...(spousesOf.get(id) ?? []),
+        ...(ancestorsOf.get(id) ?? []),
+        ...(descendantsOf.get(id) ?? []),
       ].filter((other) => order.has(other));
       const key =
         neighbours.length > 0

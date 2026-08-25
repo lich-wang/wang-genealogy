@@ -530,6 +530,13 @@ a:hover {
 .tree-edge-spouse .tree-edge-line {
   stroke-dasharray: 4 3;
 }
+/* Descent across generations the source did not name: a long dash, so it is
+   never mistaken for the solid line that means "this person's father". */
+.tree-edge-descent .tree-edge-line {
+  stroke-dasharray: 9 5;
+  stroke-width: 1.2;
+  opacity: 0.75;
+}
 .tree-edge-disputed .tree-edge-line {
   stroke: var(--warn);
 }

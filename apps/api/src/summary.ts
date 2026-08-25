@@ -174,6 +174,8 @@ export async function computePersonSummary(
     parents: [],
     children: [],
     spouses: [],
+    ancestors: [],
+    descendants: [],
     other: [],
   };
 
@@ -197,6 +199,12 @@ export async function computePersonSummary(
         // subject is the parent, object is the child.
         if (subjectIsOwner) relationships.children.push(cw);
         else relationships.parents.push(cw);
+      } else if (c.predicate === 'kinship.ancestor_of') {
+        // Same stored direction as parent_of — subject is the elder — but a
+        // different statement, so it is listed apart: 「太子晉後代」 says a line
+        // of descent runs between two people, not who anyone's father was.
+        if (subjectIsOwner) relationships.descendants.push(cw);
+        else relationships.ancestors.push(cw);
       } else if (c.predicate === 'kinship.spouse_of') {
         relationships.spouses.push(cw);
       } else {

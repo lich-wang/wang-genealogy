@@ -16,9 +16,17 @@ const PARENT_EDGES = [
   { claim_id: 'c_5', status: 'accepted', parent_id: 'p_kid', child_id: 'p_grandkid' },
 ];
 const SPOUSE_EDGES = [{ claim_id: 'c_6', status: 'accepted', a_id: 'p_dad', b_id: 'p_mum' }];
+/**
+ * Descent across generations nobody named: the founder is somewhere above
+ * grandpa, and the source does not say how far.
+ */
+const DESCENT_EDGES = [
+  { claim_id: 'c_7', status: 'accepted', parent_id: 'p_founder', child_id: 'p_grandpa' },
+];
 const CITATIONS = [
   { claim_id: 'c_2', locator: 'P22（父）', title: '维基数据：某人' },
   { claim_id: 'c_2', locator: '亲属关系：父', title: 'CBDB：某人' },
+  { claim_id: 'c_7', locator: '条文：后代（代数不明）', title: '中文维基百科：某族' },
 ];
 
 function fakeDb() {
@@ -34,10 +42,13 @@ function fakeDb() {
         },
         all() {
           const ids = new Set(stmt.binds.filter((b): b is string => typeof b === 'string'));
-          if (sql.includes("'kinship.parent_of'")) {
+          // The predicate travels as a bound parameter, not as a literal.
+          const predicate = stmt.binds[0];
+          if (predicate === 'kinship.parent_of' || predicate === 'kinship.ancestor_of') {
+            const rows = predicate === 'kinship.parent_of' ? PARENT_EDGES : DESCENT_EDGES;
             const goingUp = sql.includes('c.object_person_id IN');
             return Promise.resolve({
-              results: PARENT_EDGES.filter((e) => ids.has(goingUp ? e.child_id : e.parent_id)),
+              results: rows.filter((e) => ids.has(goingUp ? e.child_id : e.parent_id)),
             });
           }
           if (sql.includes("'kinship.spouse_of'")) {
@@ -136,5 +147,36 @@ describe('loadRelatives', () => {
     const graph = await loadRelatives(db, 'p_me', { up: 0, down: 0 });
     expect(graph.nodes.map((n) => n.id)).toEqual(['p_me']);
     expect(graph.parent_edges).toEqual([]);
+  });
+});
+
+describe('loadRelatives: descent across unnamed generations', () => {
+  it('reaches an ancestor joined only by a line of descent', async () => {
+    const { db } = fakeDb();
+    const graph = await loadRelatives(db, 'p_me', { up: 3, down: 0 });
+    expect(graph.nodes.map((n) => n.id)).toContain('p_founder');
+    expect(graph.descent_edges).toEqual([
+      expect.objectContaining({ ancestor_id: 'p_founder', descendant_id: 'p_grandpa' }),
+    ]);
+  });
+
+  it('keeps it out of parent_edges — it is not a parent link', async () => {
+    const { db } = fakeDb();
+    const graph = await loadRelatives(db, 'p_me', { up: 3, down: 0 });
+    expect(graph.parent_edges.some((e) => e.parent_id === 'p_founder')).toBe(false);
+  });
+
+  it('carries its citation, so the line can say what it rests on', async () => {
+    const { db } = fakeDb();
+    const graph = await loadRelatives(db, 'p_me', { up: 3, down: 0 });
+    expect(graph.descent_edges[0]?.citations).toEqual([
+      { source_title: '中文维基百科：某族', locator: '条文：后代（代数不明）' },
+    ]);
+  });
+
+  it('is not reached when the walk does not go that far up', async () => {
+    const { db } = fakeDb();
+    const graph = await loadRelatives(db, 'p_me', { up: 1, down: 0 });
+    expect(graph.nodes.map((n) => n.id)).not.toContain('p_founder');
   });
 });
