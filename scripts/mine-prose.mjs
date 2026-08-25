@@ -86,6 +86,11 @@ const corpora = option('--corpus', 'zhwiki,wikisource').split(',').map((s) => s.
 // Pages read in an earlier run are skipped, so each round only spends a reader
 // on something new. `--reread` ignores that record.
 const reread = flag('--reread');
+// `--pages FILE` reads an explicit list (`corpus:title`, one per line) instead
+// of deriving one from the frontier. The frontier can only ask about people the
+// database already holds; a clan chart names people it does not, and this is
+// how those get read in.
+const pagesPath = option('--pages', null);
 
 /** Clan articles: their indented lists are family trees, not prose. */
 const CLAN_ARTICLES = option(
@@ -187,11 +192,21 @@ const addPage = (corpus, title, subject) => {
   pages.push({ corpus, title, subject, key });
 };
 
-if (corpora.includes('zhwiki')) {
+if (pagesPath) {
+  for (const line of readFileSync(pagesPath, 'utf8').split('\n')) {
+    const entry = line.trim();
+    if (!entry || entry.startsWith('#')) continue;
+    const [head, ...rest] = entry.split(':');
+    const known = head === 'zhwiki' || head === 'wikisource';
+    addPage(known ? head : 'zhwiki', known ? rest.join(':') : entry, null);
+  }
+  console.error(`按清单待读 ${pages.length} 页`);
+}
+if (!pagesPath && corpora.includes('zhwiki')) {
   for (const title of CLAN_ARTICLES) addPage('zhwiki', title, null);
   for (const { title, row } of frontier) addPage('zhwiki', title, row.name);
 }
-if (corpora.includes('wikisource')) {
+if (!pagesPath && corpora.includes('wikisource')) {
   const wanted = frontier.filter(({ row }) => row.name && isWangName(row.name));
   console.error(`维基文库：为 ${wanted.length} 人检索正史列传…`);
   let done = 0;

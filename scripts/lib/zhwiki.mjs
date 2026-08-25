@@ -177,10 +177,18 @@ const LIST_RELATION_WORDS = [
   { re: /^(?:妻|妻子|夫人|正室|繼室|继室|夫|配偶)$/, entryIs: 'spouse' },
 ];
 
+// A quotation is stored so a reader can check the claim against the wording.
+// Leaving 「王鉴（{{bd|？||？||}}），琅邪临沂人」 in it gives them template markup
+// to read instead of a sentence.
 const plainQuote = (body) =>
   body
+    .replace(/\{\{[^{}]*\}\}/g, '')
+    .replace(/\{\{[\s\S]*?\}\}/g, '')
+    .replace(/<[^>]+>/g, '')
     .replace(/\[\[([^\]|#]+)(?:\|([^\]]+))?\]\]/g, (_, t, shown) => shown ?? t)
     .replace(/'{2,}/g, '')
+    .replace(/（\s*）|\(\s*\)/g, '')
+    .replace(/\s{2,}/g, ' ')
     .trim()
     .slice(0, 200);
 
