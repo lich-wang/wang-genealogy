@@ -284,10 +284,19 @@ if (dumpDir) {
   // Recorded now rather than after the import: a page whose reader found
   // nothing has still been read, and re-reading it next round would cost the
   // same and find the same nothing.
+  //
+  // Merged with what is on disk, not with the set this run started from —
+  // `--reread` deliberately empties that set, and writing it back would erase
+  // every page an earlier round had recorded.
+  const onDisk = existsSync(READ_FILE)
+    ? (JSON.parse(readFileSync(READ_FILE, 'utf8')).pages ?? [])
+    : [];
   mkdirSync(dirname(READ_FILE), { recursive: true });
   writeFileSync(
     READ_FILE,
-    JSON.stringify({ pages: [...alreadyRead, ...manifest.map((m) => `${m.corpus}:${m.title}`)].sort() }),
+    JSON.stringify({
+      pages: [...new Set([...onDisk, ...manifest.map((m) => `${m.corpus}:${m.title}`)])].sort(),
+    }),
     'utf8',
   );
   console.error(`导出 ${manifest.length} 页到 ${dumpDir}（已记入已读）`);
