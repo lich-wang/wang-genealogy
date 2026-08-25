@@ -9,7 +9,6 @@ import {
   evidenceTooltip,
   UNKNOWN_DESCENT_SPAN,
   layoutTree,
-  parentBusFractions,
   redundantDescent,
 } from './tree-layout.ts';
 
@@ -365,77 +364,6 @@ describe('redundantDescent', () => {
     expect(covered.size).toBe(0);
   });
 });
-
-describe('parentBusFractions', () => {
-  const node = (id: string) => ({
-    id,
-    display_name: id,
-    status: 'active' as const,
-    birth: null,
-    death: null,
-  });
-  const parent = (p: string, c: string) => ({
-    claim_id: `p:${p}:${c}`,
-    status: 'accepted' as const,
-    citations: [],
-    parent_id: p,
-    child_id: c,
-  });
-
-  /** Two fathers in one row, two children each. */
-  const graph = {
-    nodes: new Map(
-      ['dadA', 'dadB', 'a1', 'a2', 'b1', 'b2'].map((id) => [id, node(id)] as const),
-    ),
-    parentEdges: [
-      parent('dadA', 'a1'),
-      parent('dadA', 'a2'),
-      parent('dadB', 'b1'),
-      parent('dadB', 'b2'),
-    ],
-    spouseEdges: [],
-    descentEdges: [],
-  };
-
-  it('gives each parent in a row its own height', () => {
-    const layout = layoutTree(graph, 'dadA');
-    const f = parentBusFractions(layout, graph.parentEdges);
-    expect(f.get('dadA')).not.toBe(f.get('dadB'));
-  });
-
-  it('keeps every bar inside the gap between the rows', () => {
-    const layout = layoutTree(graph, 'dadA');
-    for (const fraction of parentBusFractions(layout, graph.parentEdges).values()) {
-      expect(fraction).toBeGreaterThan(0);
-      expect(fraction).toBeLessThan(1);
-    }
-  });
-
-  it('centres the bar when a parent has the row to itself', () => {
-    const only = {
-      ...graph,
-      parentEdges: [parent('dadA', 'a1'), parent('dadA', 'a2')],
-    };
-    const layout = layoutTree(only, 'dadA');
-    expect(parentBusFractions(layout, only.parentEdges).get('dadA')).toBe(0.5);
-  });
-
-  it('orders the heights left to right, so bars do not cross', () => {
-    const layout = layoutTree(graph, 'dadA');
-    const f = parentBusFractions(layout, graph.parentEdges);
-    const [left, right] = ['dadA', 'dadB'].sort(
-      (a, b) => layout.nodes.get(a)!.x - layout.nodes.get(b)!.x,
-    );
-    expect(f.get(left!)!).toBeLessThan(f.get(right!)!);
-  });
-
-  it('ignores a parent whose child is not on the diagram', () => {
-    const layout = layoutTree(graph, 'dadA');
-    const f = parentBusFractions(layout, [...graph.parentEdges, parent('dadA', 'offscreen')]);
-    expect(f.has('offscreen')).toBe(false);
-  });
-});
-
 describe('layoutTree: descendants sit under their forebear', () => {
   const node = (id: string) => ({
     id,

@@ -461,7 +461,48 @@ const unresolved = new Map();
 const ambiguous = new Map();
 
 /** Existing person, a planned new person, or null when we cannot tell who. */
-function resolve(side) {
+/**
+ * Kinship already recorded, as an undirected neighbour map. Used to tell
+ * namesakes apart: see `resolve`.
+ */
+const relatives = new Map();
+for (const row of d1Query(
+  `SELECT subject_person_id AS a, object_person_id AS b FROM claim
+    WHERE claim_kind = 'relationship' AND status NOT IN ('retracted', 'superseded')`,
+  { ...d1, label: 'kinship' },
+)) {
+  for (const [x, y] of [
+    [row.a, row.b],
+    [row.b, row.a],
+  ]) {
+    if (!x || !y) continue;
+    relatives.set(x, (relatives.get(x) ?? new Set()).add(y));
+  }
+}
+
+/**
+ * Which of several namesakes the source means, judged by the company they keep.
+ *
+ * 王棱's article says he is 「王览之孙，国子祭酒王琛之子」. Two men called 王琛 are
+ * on file and the sentence links neither, so the name alone cannot choose —
+ * but only one of them is 王览's son, and 王览 is already recorded as 王棱's
+ * forebear. A namesake who shares a relative with the person at the other end
+ * of the very relation being read is the one the source is talking about.
+ *
+ * Only ever used to break a tie, and only when it breaks it outright: if two
+ * candidates both fit, or none does, the relation is still skipped for a human.
+ */
+function narrowByKin(matches, contextId) {
+  if (!contextId) return null;
+  const near = new Set([contextId, ...(relatives.get(contextId) ?? [])]);
+  const fits = matches.filter((m) => {
+    const kin = relatives.get(m.person_id) ?? new Set();
+    return [...kin].some((id) => near.has(id));
+  });
+  return fits.length === 1 ? fits[0] : null;
+}
+
+function resolve(side, contextId = null) {
   const name = (side.name ?? side.title ?? '').replace(/\s*\([^)]*\)\s*$/, '').trim();
   const qid =
     (side.title ? (qidByTitle.get(side.title) ?? null) : null) ??
@@ -475,8 +516,13 @@ function resolve(side) {
       return { kind: 'existing', person_id: matches[0].person_id, qid, name: matches[0].name };
     }
     if (matches.length > 1) {
-      ambiguous.set(name, (ambiguous.get(name) ?? 0) + 1);
-      return null;
+      const narrowed = narrowByKin(matches, contextId);
+      if (narrowed) {
+        return { kind: 'existing', person_id: narrowed.person_id, qid, name: narrowed.name };
+      }
+      // Not counted yet: the other end of this relation may still identify
+      // them. The caller reports it if that fails too.
+      return { kind: 'ambiguous', name };
     }
   }
   if (!name) return null;
@@ -527,9 +573,16 @@ function noteSource(corpus, title) {
 const nodeKey = (r) => (r.kind === 'existing' ? `db:${r.person_id}` : r.qid ? `wd:${r.qid}` : `name:${r.name}`);
 
 for (const candidate of candidates) {
-  const a = resolve(candidate.a);
-  const b = resolve(candidate.b);
-  if (!a || !b) continue;
+  let a = resolve(candidate.a);
+  let b = resolve(candidate.b);
+  // One resolved end is context for the other: a namesake is told apart by
+  // whether they are related to the person the source pairs them with.
+  if (a?.kind === 'ambiguous' && b?.kind === 'existing') a = resolve(candidate.a, b.person_id);
+  if (b?.kind === 'ambiguous' && a?.kind === 'existing') b = resolve(candidate.b, a.person_id);
+  for (const side of [a, b]) {
+    if (side?.kind === 'ambiguous') ambiguous.set(side.name, (ambiguous.get(side.name) ?? 0) + 1);
+  }
+  if (!a || !b || a.kind === 'ambiguous' || b.kind === 'ambiguous') continue;
   if (a.out_of_scope || b.out_of_scope) {
     // Spouses are the one exception, handled after the edges are known.
     if (candidate.role !== 'spouse') continue;
