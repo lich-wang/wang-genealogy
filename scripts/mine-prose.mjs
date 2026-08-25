@@ -418,7 +418,10 @@ if (candidatesPath) {
       links: corpus === 'zhwiki' ? linkTargetsByName(text.raw) : new Map(),
       // 「祖正，尚書郎。父曠，淮南太守」— a history drops the surname once the
       // subject is named. Wikipedia does not, so the allowance is scoped here.
-      impliedSurname: corpus === 'wikisource',
+      // A clan table names nobody in full at all —「生賁，為中大夫。賁生渝」— so
+      // when a reader says which surname the whole page is about, that is what
+      // completes both ends.
+      impliedSurname: article.surname || corpus === 'wikisource',
     };
     for (const relation of article.relations ?? []) {
       const checked = verifyRelation(relation, context);

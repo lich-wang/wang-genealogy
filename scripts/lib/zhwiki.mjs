@@ -404,9 +404,12 @@ export function linkTargetsByName(wikitext) {
   return out;
 }
 
-/** Kinship words that must be present for a sentence to state a relation. */
+/**
+ * Kinship words that must be present for a sentence to state a relation.
+ * Bare 生 is here for the clan tables, whose whole grammar is 「A生B」.
+ */
 const KINSHIP_WORD =
-  /父|母|子|女|妻|夫|娶|嫁|配偶|正室|繼室|继室|後代|后代|後裔|后裔|之後|之后|孫|孙|世孫|世孙|裔|祖|所生|生於|出自/;
+  /父|母|子|女|妻|夫|娶|嫁|配偶|正室|繼室|继室|後代|后代|後裔|后裔|之後|之后|孫|孙|世孫|世孙|裔|祖|所生|生於|出自|生/;
 
 // Both directions of descent, for the same reason parent and child both exist:
 // offering only `ancestor` does not stop a reader from meeting a descendant, it
@@ -474,6 +477,12 @@ const normalize = (s) =>
  * article. A relation that survives all four is one a reader can check against
  * the quotation, which is the only kind this project stores.
  */
+/**
+ * @param impliedSurname `true` to take the surname from the subject's own name,
+ *   or a surname string when every person on the page shares one — a clan table
+ *   in 新唐書·宰相世系表 writes 「生賁，為中大夫。賁生渝」 and names nobody in full,
+ *   so there is no subject to take it from.
+ */
 export function verifyRelation(relation, { title, plain, links, impliedSurname = false }) {
   const quotation = normalize(relation.quotation);
   // 「王吉 (西汉)」 is the article about 王吉; the parenthetical only tells that
@@ -492,8 +501,13 @@ export function verifyRelation(relation, { title, plain, links, impliedSurname =
   // 「王羲之……祖正，尚書郎。父曠，淮南太守」means 王正 and 王曠. The reader
   // reports the name as written, so the completion happens here, mechanically,
   // from the surname of whoever the sentence is about — never guessed.
-  if (impliedSurname && /^[一-鿿]{1,2}$/.test(other) && new RegExp(`[父母祖子女妻]${other}`).test(quotation)) {
-    const surname = (relation.subject ?? title ?? '').trim()[0];
+  const pageSurname = typeof impliedSurname === 'string' ? impliedSurname : null;
+  if (
+    impliedSurname &&
+    /^[一-鿿]{1,2}$/.test(other) &&
+    (pageSurname || new RegExp(`[父母祖子女妻]${other}`).test(quotation))
+  ) {
+    const surname = pageSurname ?? (relation.subject ?? title ?? '').trim()[0];
     if (!surname) return { ok: false, reason: 'no_surname_to_imply' };
     // Only when the name really is bare. 「父王仲」「母臧兒」「妻丁氏」 already
     // carry a surname, and prefixing another produces 王王仲 — a person who
@@ -505,6 +519,10 @@ export function verifyRelation(relation, { title, plain, links, impliedSurname =
     other = normalize(storedName);
   }
 
+  let subjectName = relation.subject ?? '';
+  if (pageSurname && /^[一-鿿]{1,2}$/.test(normalize(subjectName))) {
+    subjectName = pageSurname + subjectName.trim();
+  }
   if (other === subject) return { ok: false, reason: 'self_relation' };
   // A personal name in this corpus is two to four characters. Anything longer
   // is the model handing back the office it was told to strip —「鎮軍司馬王裁」—
@@ -538,7 +556,7 @@ export function verifyRelation(relation, { title, plain, links, impliedSurname =
   return {
     ok: true,
     subject_title: links.get(relation.subject) ?? (relation.subject === title ? title : null),
-    subject_name: relation.subject || title,
+    subject_name: subjectName || relation.subject || title,
     other_title: links.get(relation.other) ?? links.get(storedName) ?? null,
     other_name: storedName,
     other_is: relation.other_is,
