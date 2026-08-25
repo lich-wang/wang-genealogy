@@ -81,39 +81,55 @@ export function layoutTree(graph: Graph, rootId: string): Layout {
     ]);
   }
 
-  // 1. Generation per person: parents one row up, children one row down, and a
-  //    spouse shares their partner's row.
+  // 1. Generation per person: parents one row up, children one row down, a
+  //    spouse on the same row, and a line of descent as many rows as the
+  //    source said.
+  //
+  //    The two kinds take turns rather than running one after the other.
+  //    Named parentage goes as far as it can first, because a row it assigns
+  //    is a generation somebody recorded; then one round of descent reaches
+  //    people no parent link could; then parentage runs again from those. Doing
+  //    it in two passes instead left anyone below a descent-placed person
+  //    unreachable — expanding 王元, who hangs off 王翦 by a line of descent,
+  //    dropped his son 王诚 onto the root's row.
   const generation = new Map<string, number>([[rootId, 0]]);
-  const queue = [rootId];
-  while (queue.length > 0) {
-    const id = queue.shift()!;
-    const g = generation.get(id)!;
-    const visit = (other: string, value: number) => {
-      if (!nodes.has(other) || generation.has(other)) return;
-      generation.set(other, value);
-      queue.push(other);
-    };
-    for (const parent of parentsOf.get(id) ?? []) visit(parent, g - 1);
-    for (const child of childrenOf.get(id) ?? []) visit(child, g + 1);
-    for (const spouse of spousesOf.get(id) ?? []) visit(spouse, g);
-  }
 
-  // Descent links place only the people no parent link could reach. Named
-  // generations decide the rows; a line of descent must not compete with them,
-  // or 太子晉 — an unknown number of generations above 王翦 — would be drawn as
-  // his father and push the real chain down a row.
-  const descentQueue = [...generation.keys()];
-  while (descentQueue.length > 0) {
-    const id = descentQueue.shift()!;
-    const g = generation.get(id)!;
-    const visit = (other: string, value: number) => {
-      if (!nodes.has(other) || generation.has(other)) return;
-      generation.set(other, value);
-      descentQueue.push(other);
-    };
-    for (const a of ancestorsOf.get(id) ?? []) visit(a.id, g - a.span);
-    for (const d of descendantsOf.get(id) ?? []) visit(d.id, g + d.span);
-  }
+  const walkNamed = () => {
+    const queue = [...generation.keys()];
+    let placed = false;
+    while (queue.length > 0) {
+      const id = queue.shift()!;
+      const g = generation.get(id)!;
+      const visit = (other: string, value: number) => {
+        if (!nodes.has(other) || generation.has(other)) return;
+        generation.set(other, value);
+        queue.push(other);
+        placed = true;
+      };
+      for (const parent of parentsOf.get(id) ?? []) visit(parent, g - 1);
+      for (const child of childrenOf.get(id) ?? []) visit(child, g + 1);
+      for (const spouse of spousesOf.get(id) ?? []) visit(spouse, g);
+    }
+    return placed;
+  };
+
+  const stepDescent = () => {
+    let placed = false;
+    for (const id of [...generation.keys()]) {
+      const g = generation.get(id)!;
+      const visit = (other: string, value: number) => {
+        if (!nodes.has(other) || generation.has(other)) return;
+        generation.set(other, value);
+        placed = true;
+      };
+      for (const a of ancestorsOf.get(id) ?? []) visit(a.id, g - a.span);
+      for (const d of descendantsOf.get(id) ?? []) visit(d.id, g + d.span);
+    }
+    return placed;
+  };
+
+  walkNamed();
+  while (stepDescent()) walkNamed();
 
   // Anyone the walk could not reach (a spouse-of-a-spouse, say) goes on the
   // root's row rather than being dropped from the picture.

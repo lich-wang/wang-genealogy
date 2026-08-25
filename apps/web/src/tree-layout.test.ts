@@ -245,3 +245,74 @@ describe('layoutTree: descent across unnamed generations', () => {
     }
   });
 });
+
+describe('layoutTree: expanding below a line of descent', () => {
+  const node = (id: string) => ({
+    id,
+    display_name: id,
+    status: 'active' as const,
+    birth: null,
+    death: null,
+  });
+  const parent = (p: string, c: string) => ({
+    claim_id: `p:${p}:${c}`,
+    status: 'accepted' as const,
+    citations: [],
+    parent_id: p,
+    child_id: c,
+  });
+  const descent = (a: string, d: string, generations: number | null) => ({
+    claim_id: `d:${a}:${d}`,
+    status: 'accepted' as const,
+    citations: [],
+    ancestor_id: a,
+    descendant_id: d,
+    generations,
+  });
+
+  /**
+   * 姬晋 reaches 王元 only through lines of descent; 王诚 is 王元's son by an
+   * ordinary parent link. Nothing but 王元's own placement can position him.
+   */
+  it('places the children of someone reached only by descent', () => {
+    const layout = layoutTree(
+      {
+        nodes: new Map([
+          ['jijin', node('jijin')],
+          ['wangjian', node('wangjian')],
+          ['wangyuan', node('wangyuan')],
+          ['wangcheng', node('wangcheng')],
+        ]),
+        parentEdges: [parent('wangyuan', 'wangcheng')],
+        spouseEdges: [],
+        descentEdges: [descent('jijin', 'wangjian', null), descent('wangjian', 'wangyuan', 3)],
+      },
+      'jijin',
+    );
+    const yuan = layout.nodes.get('wangyuan')!.generation;
+    expect(yuan).toBe(UNKNOWN_DESCENT_SPAN + 3);
+    // A son is one row below his father, not dumped on the root's row.
+    expect(layout.nodes.get('wangcheng')?.generation).toBe(yuan + 1);
+    expect(layout.nodes.get('wangcheng')?.generation).not.toBe(0);
+  });
+
+  it('keeps walking parentage after each descent hop', () => {
+    const layout = layoutTree(
+      {
+        nodes: new Map([
+          ['root', node('root')],
+          ['far', node('far')],
+          ['kid', node('kid')],
+          ['grandkid', node('grandkid')],
+        ]),
+        parentEdges: [parent('far', 'kid'), parent('kid', 'grandkid')],
+        spouseEdges: [],
+        descentEdges: [descent('root', 'far', 5)],
+      },
+      'root',
+    );
+    expect(layout.nodes.get('far')?.generation).toBe(5);
+    expect(layout.nodes.get('kid')?.generation).toBe(6);
+    expect(layout.nodes.get('grandkid')?.generation).toBe(7);
+  });
+});
