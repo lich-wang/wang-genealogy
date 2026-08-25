@@ -1,26 +1,48 @@
-// Mine kinship out of Chinese Wikipedia *prose* and write an import plan.
+// Mine kinship out of *prose* — Chinese Wikipedia and the standard histories —
+// and write an import plan.
 //
-//   node scripts/mine-zhwiki.mjs [--articles 王姓,琅邪王氏,…] [--limit 0]
-//                                [--out scripts/kinship-data.json] [--local]
+// One round, run repeatedly:
 //
-// Wikidata is tidy but thin: most 王-surname articles state a father, a son or a
-// marriage in a sentence and never as a structured statement. This reads the
-// articles of everyone already in the database — plus the clan articles, whose
-// indented genealogies are the actual family trees — and turns what they say
-// into the same plan shape `import-kinship.mjs` already applies.
+//   node scripts/mine-prose.mjs --frontier --dump /tmp/pages     # pages out
+//   …hand /tmp/pages to readers, collect their JSON…
+//   node scripts/mine-prose.mjs --frontier --candidates all.json # plan in
+//   node scripts/import-kinship.mjs --plan scripts/kinship-data.json
+//
+//   [--corpus zhwiki,wikisource] [--limit 0] [--reread] [--local]
+//
+// The frontier is whoever has an unknown side — no parent recorded, or no child
+// recorded. Those are the people whose page can name a generation the database
+// does not have; someone already linked both ways mostly re-yields what is
+// stored. Pages read in an earlier round are remembered in
+// scripts/.cache/pages-read.json and skipped, so a round only pays for
+// something new. Nothing here creates a person twice: identity is resolved
+// against the database first, and `import-kinship.mjs` matches on re-runs.
+//
+// Two corpora, because they say different things. Wikipedia carries what a
+// modern editor knows, in prose Wikidata never captured. Wikisource carries the
+// histories themselves — 晉書 卷八十 *is* 王羲之's biography, and states three
+// generations in its first sentence, with the surname dropped after the first
+// mention. The regex miner reads neither; a language model reads both, and
+// everything it reports is re-checked against the page before it is believed.
 //
 // Every claim keeps the sentence it came from as the citation's quotation, so a
 // reader can check the wording without leaving the page. Nothing is inferred
-// from proximity: a relation counts only when a kinship word attaches it to a
-// linked person (see scripts/lib/zhwiki.mjs for how fragments are attributed).
+// from proximity.
 //
 // Scope is the same as everywhere else: 王-surname persons, plus non-王 spouses
 // of theirs, and nobody else.
 
-import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
-import { join } from 'node:path';
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { dirname, join } from 'node:path';
 import { detectScript, foldKey } from '../packages/i18n/src/script.ts';
 import { d1Query } from './lib/d1.mjs';
+import {
+  WIKISOURCE_SOURCE_TEMPLATE,
+  biographyChapters,
+  chapterPlainText,
+  fetchWikisource,
+  wikisourceUrl,
+} from './lib/wikisource.mjs';
 import {
   ZHWIKI_SOURCE_TEMPLATE,
   articlePlainText,
@@ -56,6 +78,14 @@ const limit = Number(option('--limit', '0'));
 const dumpDir = option('--dump', null);
 const candidatesPath = option('--candidates', null);
 const frontierOnly = flag('--frontier');
+// Which of the two open corpora to read. Wikipedia carries what a modern
+// editor knows; Wikisource carries the histories themselves, which state
+// kinship the regex miner cannot see — no links to anchor on, and the surname
+// dropped once the subject is named.
+const corpora = option('--corpus', 'zhwiki,wikisource').split(',').map((s) => s.trim());
+// Pages read in an earlier run are skipped, so each round only spends a reader
+// on something new. `--reread` ignores that record.
+const reread = flag('--reread');
 
 /** Clan articles: their indented lists are family trees, not prose. */
 const CLAN_ARTICLES = option(
@@ -91,7 +121,11 @@ const rows = d1Query(
           EXISTS(SELECT 1 FROM claim k
                   WHERE k.object_person_id = p.id
                     AND k.predicate = 'kinship.parent_of'
-                    AND k.status NOT IN ('retracted', 'superseded')) AS has_parent
+                    AND k.status NOT IN ('retracted', 'superseded')) AS has_parent,
+          EXISTS(SELECT 1 FROM claim k
+                  WHERE k.subject_person_id = p.id
+                    AND k.predicate = 'kinship.parent_of'
+                    AND k.status NOT IN ('retracted', 'superseded')) AS has_child
      FROM person p
     WHERE p.status <> 'merged'`,
   { ...d1, label: 'roster' },
@@ -118,43 +152,98 @@ const titlesByQid = await zhwikiTitlesByQid([...personByQid.keys()]);
 const personTitles = [...titlesByQid.values()];
 console.error(`其中 ${personTitles.length} 人有中文维基百科条目`);
 
-// The frontier is whoever we hold without a parent: their article is the one
-// that can name a generation we do not have. Everyone else is already linked
-// upward, so re-reading them mostly re-finds what is already stored.
-const frontierTitles = frontierOnly
-  ? [...titlesByQid]
-      .filter(([qid]) => {
-        const row = personByQid.get(qid);
-        return row && row.status === 'active' && !Number(row.has_parent);
-      })
-      .map(([, title]) => title)
-  : personTitles;
-if (frontierOnly) console.error(`其中 ${frontierTitles.length} 人尚无父母记录（前沿）`);
+// The frontier is whoever has an unknown side: no parent recorded (nothing
+// above them) or no child recorded (nothing below). Those are the pages that
+// can name a generation we do not have; someone linked in both directions
+// mostly re-yields what is already stored.
+const frontier = [...titlesByQid]
+  .map(([qid, title]) => ({ row: personByQid.get(qid), title }))
+  .filter(({ row }) => row && row.status === 'active')
+  .filter(({ row }) => !frontierOnly || !Number(row.has_parent) || !Number(row.has_child));
+if (frontierOnly) {
+  const up = frontier.filter(({ row }) => !Number(row.has_parent)).length;
+  const down = frontier.filter(({ row }) => !Number(row.has_child)).length;
+  console.error(`前沿 ${frontier.length} 人：缺上一代 ${up}、缺下一代 ${down}`);
+}
 
-const articles = [...new Set([...CLAN_ARTICLES, ...frontierTitles])].slice(
-  0,
-  limit > 0 ? limit : undefined,
+/** Pages already handed to a reader, so a round only pays for something new. */
+const READ_FILE = new URL('.cache/pages-read.json', import.meta.url).pathname;
+// Folding a reader's findings back in has to see the same pages the reader
+// saw — including the ones the dump step has already marked read — or the
+// pattern miner runs against an empty list and contributes nothing.
+const alreadyRead = new Set(
+  !reread && !candidatesPath && existsSync(READ_FILE)
+    ? JSON.parse(readFileSync(READ_FILE, 'utf8')).pages ?? []
+    : [],
 );
 
+/** {corpus, title, subject} — the pages this round would read. */
+const pages = [];
+const seenPage = new Set();
+const addPage = (corpus, title, subject) => {
+  const key = `${corpus}:${title}`;
+  if (seenPage.has(key) || alreadyRead.has(key)) return;
+  seenPage.add(key);
+  pages.push({ corpus, title, subject, key });
+};
+
+if (corpora.includes('zhwiki')) {
+  for (const title of CLAN_ARTICLES) addPage('zhwiki', title, null);
+  for (const { title, row } of frontier) addPage('zhwiki', title, row.name);
+}
+if (corpora.includes('wikisource')) {
+  const wanted = frontier.filter(({ row }) => row.name && isWangName(row.name));
+  console.error(`维基文库：为 ${wanted.length} 人检索正史列传…`);
+  let done = 0;
+  for (const { row } of wanted) {
+    for (const chapter of await biographyChapters(row.name, { limit: 2 })) {
+      addPage('wikisource', chapter, row.name);
+    }
+    if ((done += 1) % 50 === 0) console.error(`  已检索 ${done}/${wanted.length}`);
+  }
+}
+
+const articles = pages.slice(0, limit > 0 ? limit : undefined);
+console.error(`本轮待读 ${articles.length} 页（已读过 ${alreadyRead.size} 页，跳过）`);
+
 // --- hand the articles to a reader ------------------------------------------
+
+/** A page's wikitext and reader-facing text, whichever corpus it came from. */
+async function readPage(page) {
+  if (page.corpus === 'wikisource') {
+    const raw = await fetchWikisource(page.title);
+    return raw ? { raw, plain: chapterPlainText(raw) } : null;
+  }
+  const raw = await fetchWikitext(page.title);
+  return raw ? { raw, plain: articlePlainText(raw) } : null;
+}
 
 if (dumpDir) {
   mkdirSync(dumpDir, { recursive: true });
   const manifest = [];
-  for (const [i, title] of articles.entries()) {
-    const wikitext = await fetchWikitext(title);
-    if (!wikitext) continue;
-    const plain = articlePlainText(wikitext);
-    // A biography's kinship is stated in the lead and the early life; the tail
-    // is bibliography and honours. Trimming keeps a batch inside one context.
-    const body = plain.slice(0, 9000);
+  for (const [i, page] of articles.entries()) {
+    const text = await readPage(page);
+    if (!text) continue;
+    // A biography states kinship in its opening; the tail is bibliography and
+    // honours. Trimming keeps a batch inside one reader's context.
+    const body = text.plain.slice(0, 9000);
     const file = `${String(i).padStart(4, '0')}.txt`;
-    writeFileSync(join(dumpDir, file), `# ${title}\n\n${body}\n`, 'utf8');
-    manifest.push({ file, title, chars: body.length });
+    const header = page.subject ? `# ${page.title}\n（本页要找的人物：${page.subject}）` : `# ${page.title}`;
+    writeFileSync(join(dumpDir, file), `${header}\n\n${body}\n`, 'utf8');
+    manifest.push({ file, title: page.title, corpus: page.corpus, subject: page.subject, chars: body.length });
     if ((i + 1) % 50 === 0) console.error(`  已导出 ${i + 1}/${articles.length}`);
   }
   writeFileSync(join(dumpDir, 'manifest.json'), `${JSON.stringify(manifest, null, 2)}\n`, 'utf8');
-  console.error(`导出 ${manifest.length} 篇条目到 ${dumpDir}`);
+  // Recorded now rather than after the import: a page whose reader found
+  // nothing has still been read, and re-reading it next round would cost the
+  // same and find the same nothing.
+  mkdirSync(dirname(READ_FILE), { recursive: true });
+  writeFileSync(
+    READ_FILE,
+    JSON.stringify({ pages: [...alreadyRead, ...manifest.map((m) => `${m.corpus}:${m.title}`)].sort() }),
+    'utf8',
+  );
+  console.error(`导出 ${manifest.length} 页到 ${dumpDir}（已记入已读）`);
   process.exit(0);
 }
 
@@ -163,7 +252,9 @@ if (dumpDir) {
 /** {subjectTitle|name, otherTitle|name, kind, term, quotation, sourceTitle} */
 const candidates = [];
 let read = 0;
-for (const title of articles) {
+// Only Wikipedia is mined by pattern: the patterns anchor on wiki links and on
+// an infobox, and a Tang history has neither.
+for (const { title } of articles.filter((p) => p.corpus === 'zhwiki')) {
   const wikitext = await fetchWikitext(title);
   read += 1;
   if (read % 100 === 0) console.error(`  已读 ${read}/${articles.length} 篇`);
@@ -214,18 +305,38 @@ console.error(`正则挖掘出 ${candidates.length} 条候选关系（含重复�
 
 if (candidatesPath) {
   const reported = JSON.parse(readFileSync(candidatesPath, 'utf8'));
+
+  // The dump's manifest is the authority on what each page actually was. A
+  // reader asked to echo the page title sometimes echoes the file name instead,
+  // and a title taken on trust would be looked up on the wrong site — or on no
+  // site at all.
+  const manifestPath = join(dirname(candidatesPath), 'manifest.json');
+  const pageByRef = new Map();
+  if (existsSync(manifestPath)) {
+    for (const m of JSON.parse(readFileSync(manifestPath, 'utf8'))) {
+      pageByRef.set(m.file, { corpus: m.corpus, title: m.title });
+      pageByRef.set(m.title, { corpus: m.corpus, title: m.title });
+    }
+  }
+
   const rejected = new Map();
   let accepted = 0;
   for (const article of reported) {
-    const wikitext = await fetchWikitext(article.article);
-    if (!wikitext) {
+    const known = pageByRef.get(article.article);
+    const corpus = known?.corpus ?? (article.corpus === 'wikisource' ? 'wikisource' : 'zhwiki');
+    const page = { corpus, title: known?.title ?? article.article };
+    const text = await readPage(page);
+    if (!text) {
       rejected.set('no_article', (rejected.get('no_article') ?? 0) + (article.relations?.length ?? 0));
       continue;
     }
     const context = {
-      title: article.article,
-      plain: articlePlainText(wikitext),
-      links: linkTargetsByName(wikitext),
+      title: page.title,
+      plain: text.plain,
+      links: corpus === 'zhwiki' ? linkTargetsByName(text.raw) : new Map(),
+      // 「祖正，尚書郎。父曠，淮南太守」— a history drops the surname once the
+      // subject is named. Wikipedia does not, so the allowance is scoped here.
+      impliedSurname: corpus === 'wikisource',
     };
     for (const relation of article.relations ?? []) {
       const checked = verifyRelation(relation, context);
@@ -235,7 +346,8 @@ if (candidatesPath) {
       }
       accepted += 1;
       candidates.push({
-        source_title: article.article,
+        source_corpus: corpus,
+        source_title: page.title,
         a: { title: checked.subject_title, name: checked.subject_name },
         b: { title: checked.other_title, name: checked.other_name },
         role: checked.other_is,
@@ -307,19 +419,36 @@ const edges = new Map();
 const sources = new Map();
 const skipped = [];
 
-const sourceKey = (title) => `zhwiki:${title}`;
-function noteSource(title) {
-  if (sources.has(sourceKey(title))) return sourceKey(title);
-  sources.set(sourceKey(title), {
-    key: sourceKey(title),
-    kind: 'zhwiki',
-    ...ZHWIKI_SOURCE_TEMPLATE,
-    title: `中文维基百科：${title}`,
-    canonical_url: articleUrl(title),
-    external_identifier: null,
-    metadata_json: null,
-  });
-  return sourceKey(title);
+// A source per page, per corpus. The two carry different licences in principle
+// and different claims in practice — 晉書 saying 王羲之's father was 王曠 is the
+// Tang record, not a Wikipedia editor's summary of it — so they are cited apart.
+const sourceKey = (corpus, title) => `${corpus}:${title}`;
+function noteSource(corpus, title) {
+  const key = sourceKey(corpus, title);
+  if (sources.has(key)) return key;
+  sources.set(
+    key,
+    corpus === 'wikisource'
+      ? {
+          key,
+          kind: 'wikisource',
+          ...WIKISOURCE_SOURCE_TEMPLATE,
+          title: `中文维基文库：${title}`,
+          canonical_url: wikisourceUrl(title),
+          external_identifier: null,
+          metadata_json: null,
+        }
+      : {
+          key,
+          kind: 'zhwiki',
+          ...ZHWIKI_SOURCE_TEMPLATE,
+          title: `中文维基百科：${title}`,
+          canonical_url: articleUrl(title),
+          external_identifier: null,
+          metadata_json: null,
+        },
+  );
+  return key;
 }
 
 const nodeKey = (r) => (r.kind === 'existing' ? `db:${r.person_id}` : r.qid ? `wd:${r.qid}` : `name:${r.name}`);
@@ -362,7 +491,7 @@ for (const candidate of candidates) {
           predicate: 'name.primary',
           value: { text: person.name, language: detectScript(person.name) ?? 'zh-Hans' },
           confidence: 'medium',
-          source_keys: [noteSource(candidate.source_title)],
+          source_keys: [noteSource(candidate.source_corpus ?? "zhwiki", candidate.source_title)],
           change_summary: '据中文维基百科条文补录亲属人物',
         },
       ],
@@ -370,7 +499,7 @@ for (const candidate of candidates) {
         kind: 'adjacent_to_historical_person',
         detail: `中文维基百科《${candidate.source_title}》记其与已收录历史人物为直系亲属：${candidate.quotation.slice(0, 80)}`,
       },
-      source_keys: [noteSource(candidate.source_title)],
+      source_keys: [noteSource(candidate.source_corpus ?? "zhwiki", candidate.source_title)],
     });
   }
 
@@ -403,9 +532,9 @@ for (const candidate of candidates) {
   const locator = candidate.generations
     ? `条文：${candidate.term}（${candidate.generations}世）`
     : `条文：${candidate.term}`;
-  if (!edge.citations.some((c) => c.source_key === sourceKey(candidate.source_title) && c.locator === locator)) {
+  if (!edge.citations.some((c) => c.source_key === sourceKey(candidate.source_corpus ?? "zhwiki", candidate.source_title) && c.locator === locator)) {
     edge.citations.push({
-      source_key: noteSource(candidate.source_title),
+      source_key: noteSource(candidate.source_corpus ?? "zhwiki", candidate.source_title),
       locator,
       note: null,
       quotation: candidate.quotation,

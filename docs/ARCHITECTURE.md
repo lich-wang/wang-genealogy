@@ -91,7 +91,11 @@ scripts/expand-kinship.mjs        逐轮循环，直到没有待展开的人物
   └─ scripts/import-kinship.mjs   只经 /api/v1 写入
          ↓
       Worker API → D1
-scripts/mine-zhwiki.mjs          中文维基条目正文中的世系说法（「王元四世孫」）→ ancestor_of 计划
+scripts/mine-prose.mjs           条文识读：前沿=缺上一代或缺下一代的人物
+     中文维基百科条目正文 + 中文维基文库正史列传（晉書、漢書…）
+     交由模型通读，每条读数都回原文逐字核验后才进计划
+     已读页面记入 scripts/.cache/pages-read.json，每轮只读新的
+     ↓ scripts/kinship-data.json → scripts/import-kinship.mjs
 scripts/enforce-scope.mjs        对齐收录范围：王姓及其配偶留下，其余转 suppressed；双向收敛
 scripts/fix-titled-names.mjs     庙号/称号改记为异名，本名提为 name.primary
 scripts/audit-data.mjs           复核：重复、无来源主张、悬空关系、待处理合并提案

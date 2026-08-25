@@ -122,6 +122,70 @@ describe('verifyRelation', () => {
     expect(checked.other_is).toBe('descendant');
   });
 
+  describe('a history that drops the surname', () => {
+    // 晉書 卷八十, the opening of 王羲之's biography.
+    const chapter = '王羲之，字逸少，司徒導之從子也。祖正，尚書郎。父曠，淮南太守。';
+    const ctx = { title: '晉書/卷080', plain: chapter, links: new Map(), impliedSurname: true };
+
+    it("completes the surname from the subject's own", () => {
+      const checked = verifyRelation(
+        { subject: '王羲之', other: '曠', other_is: 'parent', quotation: '祖正，尚書郎。父曠，淮南太守。' },
+        ctx,
+      );
+      expect(checked.ok).toBe(true);
+      expect(checked.other_name).toBe('王曠');
+    });
+
+    it('reads 祖 as two generations up', () => {
+      const checked = verifyRelation(
+        { subject: '王羲之', other: '正', other_is: 'ancestor', quotation: '祖正，尚書郎。父曠，淮南太守。' },
+        ctx,
+      );
+      expect(checked.ok).toBe(true);
+      expect(checked.other_name).toBe('王正');
+      expect(checked.generations).toBe(2);
+    });
+
+    it('refuses to prefix a surname onto a name that already has one', () => {
+      // 「父王仲」is a full name; 王 + 王仲 would be a person who never existed.
+      const text = '孝武王皇后，父王仲，槐里人也。母臧兒，故燕王臧荼孫也。';
+      const full = { title: '漢書/卷097上', plain: text, links: new Map(), impliedSurname: true };
+      for (const other of ['王仲', '臧兒']) {
+        const checked = verifyRelation(
+          { subject: '王皇后', other, other_is: 'parent', quotation: text },
+          full,
+        );
+        expect(checked).toEqual({ ok: false, reason: 'name_already_has_surname' });
+      }
+    });
+
+    it('still completes a two-character given name', () => {
+      const text = '王冲，父茂璋，梁給事黃門侍郎。';
+      const checked = verifyRelation(
+        { subject: '王冲', other: '茂璋', other_is: 'parent', quotation: text },
+        { title: '陳書/卷17', plain: text, links: new Map(), impliedSurname: true },
+      );
+      expect(checked.ok).toBe(true);
+      expect(checked.other_name).toBe('王茂璋');
+    });
+
+    it('will not complete a name the kinship word does not introduce', () => {
+      const checked = verifyRelation(
+        { subject: '王羲之', other: '之', other_is: 'parent', quotation: '王羲之，字逸少，司徒導之從子也。' },
+        ctx,
+      );
+      expect(checked.ok).toBe(false);
+    });
+
+    it('leaves Wikipedia alone — there the surname is written out', () => {
+      const checked = verifyRelation(
+        { subject: '王羲之', other: '曠', other_is: 'parent', quotation: '祖正，尚書郎。父曠，淮南太守。' },
+        { ...ctx, impliedSurname: false },
+      );
+      expect(checked).toEqual({ ok: false, reason: 'other_not_a_name' });
+    });
+  });
+
   it('matches across a script difference, as everything else in this project does', () => {
     const wikitext = "'''王離'''。秦朝名將王翦之孫王離為秦國將領。";
     const checked = verifyRelation(

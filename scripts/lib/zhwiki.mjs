@@ -18,11 +18,9 @@
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { foldKey } from '../../packages/i18n/src/script.ts';
+import { fetchPage, wikiFetch } from './wiki.mjs';
 
-const API = 'https://zh.wikipedia.org/w/api.php';
-const USER_AGENT = 'wang-genealogy-kinship/0.3 (https://wang-genealogy-web.pages.dev)';
 const CACHE_DIR = new URL('../.cache/zhwiki/', import.meta.url).pathname;
-const SPACING_MS = 200;
 
 export const ZHWIKI_SOURCE_TEMPLATE = {
   source_type: 'website',
@@ -34,59 +32,9 @@ export const ZHWIKI_SOURCE_TEMPLATE = {
 export const articleUrl = (title) =>
   `https://zh.wikipedia.org/wiki/${encodeURIComponent(title.replace(/ /g, '_'))}`;
 
-let lastRequestAt = 0;
-const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
-const cacheName = (title) => `${Buffer.from(title).toString('base64url')}.wiki`;
-
-/**
- * One throttled, retrying request to a Wikimedia API.
- *
- * Wikimedia answers a burst with 429 and a plain-text body, so a caller that
- * only checks `res.ok` and moves on loses the whole batch without noticing —
- * which is exactly how the sitelink lookup silently reported that none of 1410
- * persons had an article. Requests are spaced globally and 429/5xx is retried
- * with backoff; a request that still fails throws rather than returning empty.
- */
-async function wikiFetch(url, { attempts = 4 } = {}) {
-  for (let attempt = 1; ; attempt += 1) {
-    const wait = SPACING_MS - (Date.now() - lastRequestAt);
-    if (wait > 0) await sleep(wait);
-    lastRequestAt = Date.now();
-
-    const res = await fetch(url, { headers: { 'user-agent': USER_AGENT } });
-    if (res.ok) return res;
-    const retryable = res.status === 429 || res.status >= 500;
-    if (!retryable || attempt >= attempts) {
-      throw new Error(`${res.status} ${res.statusText} — ${url.slice(0, 120)}`);
-    }
-    const after = Number(res.headers.get('retry-after'));
-    const backoff = Number.isFinite(after) && after > 0 ? after * 1000 : 1000 * 2 ** attempt;
-    console.error(`  ${res.status}，${Math.round(backoff / 1000)}s 后重试（第 ${attempt} 次）`);
-    await sleep(backoff);
-  }
-}
-
 /** Article wikitext, cached on disk. Returns null when there is no article. */
-export async function fetchWikitext(title, { cache = true } = {}) {
-  const file = join(CACHE_DIR, cacheName(title));
-  if (cache && existsSync(file)) {
-    const text = readFileSync(file, 'utf8');
-    return text === '' ? null : text;
-  }
-  const url = `https://zh.wikipedia.org/w/index.php?title=${encodeURIComponent(title)}&action=raw`;
-  let text = null;
-  try {
-    text = await (await wikiFetch(url)).text();
-  } catch (e) {
-    // A 404 is an answer — there is no such article, so cache it. Anything else
-    // survived the retries and is a real failure; do not poison the cache with
-    // a "missing" that every later run would trust.
-    if (!/^404 /.test(e.message)) throw e;
-  }
-  mkdirSync(CACHE_DIR, { recursive: true });
-  writeFileSync(file, text ?? '', 'utf8');
-  return text;
-}
+export const fetchWikitext = (title, opts) =>
+  fetchPage('zh.wikipedia.org', title, { ...opts, dir: 'zhwiki' });
 
 /** Resolve article titles to Wikidata ids, 50 at a time. */
 export async function qidsByTitle(titles) {
@@ -459,6 +407,17 @@ const KINSHIP_WORD =
 const ROLES = new Set(['parent', 'child', 'spouse', 'ancestor', 'descendant']);
 
 /**
+ * Enough of 百家姓 to tell「父王仲」(a full name) from「父曠」(a given name the
+ * history expects the reader to complete). Only ever used to *refuse* to add a
+ * surname, never to assign one, so an omission costs a relation and a spurious
+ * entry costs nothing.
+ */
+const COMMON_SURNAMES = new Set(
+  ('趙錢孫李周吳鄭王馮陳褚衛蔣沈韓楊朱秦尤許何呂施張孔曹嚴華金魏陶姜戚謝鄒喻柏水竇章雲蘇潘葛奚范彭郎魯韋昌馬苗鳳花方俞任袁柳酆鮑史唐費廉岑薛雷賀倪湯滕殷羅畢郝鄔安常樂于時傅皮卞齊康伍余元卜顧孟平黃和穆蕭尹姚邵湛汪祁毛禹狄米貝明臧計伏成戴談宋茅龐熊紀舒屈項祝董梁杜阮藍閔席季麻強賈路婁危江童顏郭梅盛林刁鍾徐邱駱高夏蔡田樊胡凌霍虞萬支柯昝管盧莫房繆干解應宗丁宣賁鄧郁單杭洪包諸左石崔吉鈕龔程嵇邢滑裴陸榮翁荀羊惠甄曲封芮儲靳汲邴糜松井段富巫烏焦巴弓牧隗山谷車侯宓蓬全郗班仰秋仲伊宮寧仇欒暴甘鈄厲戎祖武符劉景詹束龍葉幸司韶郜黎薊薄印宿白懷蒲邰從鄂索咸籍賴卓藺屠蒙池喬陰鬱胥能蒼雙聞莘黨翟譚貢勞逄姬申扶堵冉宰酈雍卻璩桑桂濮牛壽通邊扈燕冀郟浦尚農溫別莊晏柴瞿閻充慕連茹習宦艾魚容向古易慎戈廖庾終暨居衡步都耿滿弘匡國文寇廣祿闕東歐殳沃利蔚越夔隆師鞏厙聶晁勾敖融冷訾辛闞那簡饒空曾毋沙乜養鞠須豐巢關蒯相查后荊紅游竺權逯蓋益桓公赵钱孙吴郑冯陈卫蒋韩杨许吕张严华金魏陶谢邹云苏潘葛范鲁韦马凤龙叶刘罗郭梁贾邓丁' +
+    '').split(''),
+);
+
+/**
  * How many generations the sentence itself puts between the two people.
  *
  * Read from the text rather than taken from the reader, which miscounts:
@@ -474,8 +433,11 @@ function statedGenerations(quotation) {
   }
   if (/來孫|来孙|[來来]孫/.test(quotation)) return 5;
   if (/玄孫|玄孙|高祖父|高祖母/.test(quotation)) return 4;
-  if (/曾孫|曾孙|曾祖父|曾祖母/.test(quotation)) return 3;
-  if (/孫|孙|祖父|祖母/.test(quotation)) return 2;
+  if (/曾孫|曾孙|曾祖/.test(quotation)) return 3;
+  // Bare 祖 is a grandfather in a history —「祖正，尚書郎」. 高祖 is left out on
+  // purpose: in these texts it far more often names a dynasty's founder
+  // (漢高祖) than a fourth-generation ancestor.
+  if (/孫|孙|祖父|祖母|祖/.test(quotation)) return 2;
   return null;
 }
 
@@ -504,22 +466,57 @@ const normalize = (s) =>
  * article. A relation that survives all four is one a reader can check against
  * the quotation, which is the only kind this project stores.
  */
-export function verifyRelation(relation, { title, plain, links }) {
-  const other = normalize(relation.other);
+export function verifyRelation(relation, { title, plain, links, impliedSurname = false }) {
   const quotation = normalize(relation.quotation);
   const subject = normalize(relation.subject) || normalize(title);
+  let other = normalize(relation.other);
+  let storedName = relation.other;
 
   if (!ROLES.has(relation.other_is)) return { ok: false, reason: 'bad_role' };
   if (!other || !quotation) return { ok: false, reason: 'incomplete' };
+
+  // A classical history drops the surname once the subject has been named:
+  // 「王羲之……祖正，尚書郎。父曠，淮南太守」means 王正 and 王曠. The reader
+  // reports the name as written, so the completion happens here, mechanically,
+  // from the surname of whoever the sentence is about — never guessed.
+  if (impliedSurname && /^[一-鿿]{1,2}$/.test(other) && new RegExp(`[父母祖子女妻]${other}`).test(quotation)) {
+    const surname = (relation.subject ?? title ?? '').trim()[0];
+    if (!surname) return { ok: false, reason: 'no_surname_to_imply' };
+    // Only when the name really is bare. 「父王仲」「母臧兒」「妻丁氏」 already
+    // carry a surname, and prefixing another produces 王王仲 — a person who
+    // never existed. A single character is always a given name here; two
+    // characters are only taken as one when the first is not itself a surname.
+    const bare = other.length === 1 || !COMMON_SURNAMES.has(other[0]);
+    if (!bare) return { ok: false, reason: 'name_already_has_surname' };
+    storedName = surname + relation.other.trim();
+    other = normalize(storedName);
+  }
+
   if (other === subject) return { ok: false, reason: 'self_relation' };
   // A personal name in this corpus is two to four characters. Anything longer
   // is the model handing back the office it was told to strip —「鎮軍司馬王裁」—
   // which would enter the database as a person who never had that name.
   if (!/^[一-鿿]{2,4}$/.test(other)) return { ok: false, reason: 'other_not_a_name' };
-  if (!normalize(plain).includes(quotation)) return { ok: false, reason: 'quotation_not_in_article' };
-  if (!quotation.includes(other)) return { ok: false, reason: 'other_not_in_quotation' };
+  // 「蕭咸之女」 describes a person by their relation to someone else; it is
+  // what a source writes when it does not know the name. Storing it as a
+  // name.primary would put a description where a name belongs.
+  if (/之[子女妻夫妹兄弟姊]$/.test(other) || /^某/.test(other)) {
+    return { ok: false, reason: 'description_not_a_name' };
+  }
+  const page = normalize(plain);
+  const at = page.indexOf(quotation);
+  if (at < 0) return { ok: false, reason: 'quotation_not_in_article' };
+  if (!quotation.includes(normalize(relation.other))) return { ok: false, reason: 'other_not_in_quotation' };
+
   if (!quotation.includes(subject) && subject !== normalize(title)) {
-    return { ok: false, reason: 'subject_not_in_quotation' };
+    // A history names its subject once and then writes 祖, 父, 子 — requiring
+    // the name again in every sentence would reject almost everything it says.
+    // What can still be checked is that the sentence sits under that name:
+    // the subject must appear shortly before it, not merely somewhere on a page
+    // that runs through a dozen lives.
+    const near = impliedSurname && subject && page.lastIndexOf(subject, at) >= 0
+      && at - page.lastIndexOf(subject, at) < 1200;
+    if (!near) return { ok: false, reason: 'subject_not_in_quotation' };
   }
   if (!KINSHIP_WORD.test(quotation)) return { ok: false, reason: 'no_kinship_word' };
 
@@ -529,8 +526,8 @@ export function verifyRelation(relation, { title, plain, links }) {
     ok: true,
     subject_title: links.get(relation.subject) ?? (relation.subject === title ? title : null),
     subject_name: relation.subject || title,
-    other_title: links.get(relation.other) ?? null,
-    other_name: relation.other,
+    other_title: links.get(relation.other) ?? links.get(storedName) ?? null,
+    other_name: storedName,
     other_is: relation.other_is,
     generations,
     quotation: relation.quotation.trim().slice(0, 300),
