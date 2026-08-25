@@ -12,6 +12,7 @@ import {
   evidenceLabel,
   evidenceTooltip,
   layoutTree,
+  parentBusFractions,
   redundantDescent,
 } from '../tree-layout';
 
@@ -134,6 +135,13 @@ export function FamilyTreePage() {
     [graph, descentEdges, id],
   );
 
+  // Each parent's bracket gets its own height, so neighbouring families do not
+  // merge into one long line across the row.
+  const busFractions = useMemo(
+    () => parentBusFractions(layout, [...graph.parentEdges.values()]),
+    [layout, graph],
+  );
+
   const root = graph.nodes.get(id);
 
   // A wide family runs past the viewport; start the view on the person the tree
@@ -205,6 +213,7 @@ export function FamilyTreePage() {
               key={edge.claim_id}
               edge={edge}
               layout={layout}
+              busFraction={busFractions.get(edge.parent_id) ?? 0.5}
               selected={selection.kind === 'edge' && selection.claimId === edge.claim_id}
               onSelect={() => setSelection({ kind: 'edge', claimId: edge.claim_id })}
             />
@@ -258,11 +267,13 @@ type LayoutResult = ReturnType<typeof layoutTree>;
 function ParentLine({
   edge,
   layout,
+  busFraction,
   selected,
   onSelect,
 }: {
   edge: ParentEdge;
   layout: LayoutResult;
+  busFraction: number;
   selected: boolean;
   onSelect: () => void;
 }) {
@@ -274,7 +285,7 @@ function ParentLine({
   const py = parent.y + NODE_HEIGHT;
   const cx = child.x + NODE_WIDTH / 2;
   const cy = child.y;
-  const midY = py + (cy - py) / 2;
+  const midY = py + (cy - py) * busFraction;
   const path = `M ${px} ${py} V ${midY} H ${cx} V ${cy}`;
 
   return (

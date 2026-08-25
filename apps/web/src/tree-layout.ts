@@ -310,3 +310,38 @@ export function redundantDescent(
   }
   return redundant;
 }
+
+/**
+ * Where each parent's horizontal bar sits, as a fraction of the drop between
+ * that parent's row and the row below.
+ *
+ * Every bar used to sit at the halfway point, so in a wide generation the bars
+ * of unrelated parents met end to end and read as one line running the width of
+ * the diagram — with every child in the row apparently hanging off it. Giving
+ * each parent in a row its own height keeps their brackets separate, so a
+ * reader can see which children are whose.
+ */
+export function parentBusFractions(
+  layout: Layout,
+  parentEdges: Array<{ parent_id: string; child_id: string }>,
+): Map<string, number> {
+  const byRow = new Map<number, string[]>();
+  for (const edge of parentEdges) {
+    const parent = layout.nodes.get(edge.parent_id);
+    if (!parent || !layout.nodes.has(edge.child_id)) continue;
+    const row = byRow.get(parent.generation) ?? [];
+    if (!row.includes(edge.parent_id)) row.push(edge.parent_id);
+    byRow.set(parent.generation, row);
+  }
+
+  const fractions = new Map<string, number>();
+  for (const parents of byRow.values()) {
+    // Left to right, so neighbouring bars step down in a predictable order
+    // rather than crossing each other.
+    parents.sort((a, b) => layout.nodes.get(a)!.x - layout.nodes.get(b)!.x);
+    parents.forEach((id, i) => {
+      fractions.set(id, parents.length === 1 ? 0.5 : 0.28 + (0.46 * i) / (parents.length - 1));
+    });
+  }
+  return fractions;
+}
