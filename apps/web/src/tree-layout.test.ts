@@ -6,6 +6,7 @@ import {
   compactYear,
   evidenceLabel,
   evidenceTooltip,
+  UNKNOWN_DESCENT_SPAN,
   layoutTree,
 } from './tree-layout.ts';
 
@@ -167,5 +168,80 @@ describe('compactLifespan', () => {
   it('marks the unknown half', () => {
     expect(compactLifespan({ birth: '338年', death: null })).toBe('338年–？');
     expect(compactLifespan({ birth: null, death: '不详' })).toBeNull();
+  });
+});
+
+describe('layoutTree: descent across unnamed generations', () => {
+  const node = (id: string) => ({
+    id,
+    display_name: id,
+    status: 'active' as const,
+    birth: null,
+    death: null,
+  });
+  const parent = (p: string, c: string) => ({
+    claim_id: `p:${p}:${c}`,
+    status: 'accepted' as const,
+    citations: [],
+    parent_id: p,
+    child_id: c,
+  });
+  const descent = (a: string, d: string, generations: number | null) => ({
+    claim_id: `d:${a}:${d}`,
+    status: 'accepted' as const,
+    citations: [],
+    ancestor_id: a,
+    descendant_id: d,
+    generations,
+  });
+
+  /** 姬晋 → 宗敬, 宗敬 ⇢ 王错 (8 generations), 姬晋 ⇢ 王翦 (distance unknown). */
+  const graph = {
+    nodes: new Map([
+      ['jijin', node('jijin')],
+      ['zongjing', node('zongjing')],
+      ['wangcuo', node('wangcuo')],
+      ['wangjian', node('wangjian')],
+      ['wangli', node('wangli')],
+    ]),
+    parentEdges: [parent('jijin', 'zongjing')],
+    spouseEdges: [],
+    descentEdges: [
+      descent('zongjing', 'wangcuo', 8),
+      descent('jijin', 'wangjian', null),
+      descent('wangjian', 'wangli', 2),
+    ],
+  };
+
+  it('puts a 八代孫 eight generations down, not one', () => {
+    const layout = layoutTree(graph, 'jijin');
+    expect(layout.nodes.get('zongjing')?.generation).toBe(1);
+    expect(layout.nodes.get('wangcuo')?.generation).toBe(9);
+  });
+
+  it('never seats two generations in the same row', () => {
+    const layout = layoutTree(graph, 'jijin');
+    const byRow = new Map<number, string[]>();
+    for (const [id, placed] of layout.nodes) {
+      byRow.set(placed.generation, [...(byRow.get(placed.generation) ?? []), id]);
+    }
+    // 宗敬 is a son; 王翦 is an unknown distance away. Same row would say they
+    // are the same generation, which is exactly the claim nobody made.
+    expect(byRow.get(1)).toEqual(['zongjing']);
+    expect(layout.nodes.get('wangjian')?.generation).toBe(UNKNOWN_DESCENT_SPAN);
+  });
+
+  it('counts a stated distance from wherever the ancestor landed', () => {
+    const layout = layoutTree(graph, 'jijin');
+    const jian = layout.nodes.get('wangjian')!.generation;
+    expect(layout.nodes.get('wangli')?.generation).toBe(jian + 2);
+  });
+
+  it('keeps every row internally one generation', () => {
+    const layout = layoutTree(graph, 'jijin');
+    for (const g of layout.generations) {
+      const inRow = [...layout.nodes.values()].filter((p) => p.generation === g);
+      expect(new Set(inRow.map((p) => p.generation)).size).toBe(1);
+    }
   });
 });

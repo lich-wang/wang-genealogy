@@ -62,6 +62,30 @@ async function step(
   return res.results ?? [];
 }
 
+const CN_DIGITS: Record<string, number> = {
+  一: 1, 二: 2, 三: 3, 四: 4, 五: 5, 六: 6, 七: 7, 八: 8, 九: 9, 十: 10,
+};
+
+/**
+ * The generation count a citation states, as in 「条文：条文识读（孙）（8世）」.
+ *
+ * The number lives in the locator because that is the source's own wording and
+ * the model deliberately does not encode it in the predicate. A diagram still
+ * needs it as a number: without it every line of descent is drawn as one
+ * generation, and 王错 — eight below 宗敬 — lands in the same row as someone's
+ * grandchild.
+ */
+function statedGenerations(citations: KinshipEvidence[]): number | null {
+  for (const c of citations) {
+    const m = /[（(]\s*([一二三四五六七八九十百\d]+)\s*[世代]\s*[）)]/.exec(c.locator ?? '');
+    if (!m) continue;
+    const raw = m[1]!;
+    const n = CN_DIGITS[raw] ?? Number(raw);
+    if (Number.isInteger(n) && n > 1) return n;
+  }
+  return null;
+}
+
 /** Supporting citations for a set of claims, trimmed to what a label needs. */
 async function citationsFor(
   db: D1Database,
@@ -250,13 +274,17 @@ export async function loadRelatives(
     citations: citations.get(e.claim_id) ?? [],
   }));
 
-  const descent_edges: DescentEdge[] = keptDescent.map((e) => ({
-    ancestor_id: e.parent_id,
-    descendant_id: e.child_id,
-    claim_id: e.claim_id,
-    status: e.status as DescentEdge['status'],
-    citations: citations.get(e.claim_id) ?? [],
-  }));
+  const descent_edges: DescentEdge[] = keptDescent.map((e) => {
+    const evidence = citations.get(e.claim_id) ?? [];
+    return {
+      ancestor_id: e.parent_id,
+      descendant_id: e.child_id,
+      claim_id: e.claim_id,
+      status: e.status as DescentEdge['status'],
+      citations: evidence,
+      generations: statedGenerations(evidence),
+    };
+  });
 
   return { root_id: rootId, up, down, nodes, parent_edges, spouse_edges, descent_edges, truncated };
 }

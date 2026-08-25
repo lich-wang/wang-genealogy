@@ -96,6 +96,13 @@ export interface SpouseEdge extends KinshipEdgeBase {
 export interface DescentEdge extends KinshipEdgeBase {
   ancestor_id: string;
   descendant_id: string;
+  /**
+   * How many generations the source put between them —「四世孫」is 4 — or null
+   * where it only said there was descent. Read off the citation's locator,
+   * which is where the number is stored; a diagram needs it as a number to put
+   * a 八代孫 eight rows down instead of one.
+   */
+  generations: number | null;
 }
 
 /**

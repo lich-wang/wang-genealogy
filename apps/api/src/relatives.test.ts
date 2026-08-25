@@ -180,3 +180,66 @@ describe('loadRelatives: descent across unnamed generations', () => {
     expect(graph.nodes.map((n) => n.id)).not.toContain('p_founder');
   });
 });
+
+describe('a stated generation count', () => {
+  /** One ancestor, one descendant, and whatever the citation says about them. */
+  function dbStating(locator: string) {
+    const edge = { claim_id: 'c_x', status: 'accepted', parent_id: 'p_old', child_id: 'p_new' };
+    return {
+      prepare(sql: string) {
+        const stmt = {
+          binds: [] as unknown[],
+          bind(...binds: unknown[]) {
+            stmt.binds = binds;
+            return stmt;
+          },
+          all() {
+            const ids = new Set(stmt.binds.filter((b): b is string => typeof b === 'string'));
+            if (stmt.binds[0] === 'kinship.ancestor_of') {
+              const goingUp = sql.includes('c.object_person_id IN');
+              return Promise.resolve({
+                results: [edge].filter((e) => ids.has(goingUp ? e.child_id : e.parent_id)),
+              });
+            }
+            if (sql.includes('FROM claim_source cs')) {
+              return Promise.resolve({
+                results: ids.has('c_x') ? [{ claim_id: 'c_x', locator, title: '某来源' }] : [],
+              });
+            }
+            if (sql.includes('FROM person p')) {
+              return Promise.resolve({
+                results: [...ids].map((id) => ({ id, status: 'active', birth: null, death: null })),
+              });
+            }
+            return Promise.resolve({ results: [] });
+          },
+        };
+        return stmt;
+      },
+    } as unknown as D1Database;
+  }
+
+  it('is read off the locator, where the source put it', async () => {
+    const graph = await loadRelatives(dbStating('条文：条文识读（孙）（8世）'), 'p_old', {
+      up: 0,
+      down: 1,
+    });
+    expect(graph.descent_edges[0]?.generations).toBe(8);
+  });
+
+  it('reads a Chinese numeral too', async () => {
+    const graph = await loadRelatives(dbStating('条文：条文识读（四世孫）（四世）'), 'p_old', {
+      up: 0,
+      down: 1,
+    });
+    expect(graph.descent_edges[0]?.generations).toBe(4);
+  });
+
+  it('is null when the source only said there was descent', async () => {
+    const graph = await loadRelatives(dbStating('条文：王氏得姓始祖（代数不明）'), 'p_old', {
+      up: 0,
+      down: 1,
+    });
+    expect(graph.descent_edges[0]?.generations).toBeNull();
+  });
+});

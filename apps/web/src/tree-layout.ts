@@ -13,6 +13,12 @@ export const NODE_HEIGHT = 46;
 export const GAP_X = 26;
 export const GAP_Y = 84;
 export const PADDING = 16;
+/**
+ * Rows to leave for a descent whose distance the source did not state. Two,
+ * not one: one row would read as parentage, and a larger guess would claim
+ * knowledge nobody has. The gap is what the picture can honestly say.
+ */
+export const UNKNOWN_DESCENT_SPAN = 2;
 
 export interface PlacedNode {
   node: RelativeNode;
@@ -44,8 +50,9 @@ export function layoutTree(graph: Graph, rootId: string): Layout {
   const parentsOf = new Map<string, string[]>();
   const childrenOf = new Map<string, string[]>();
   const spousesOf = new Map<string, string[]>();
-  const ancestorsOf = new Map<string, string[]>();
-  const descendantsOf = new Map<string, string[]>();
+  /** Descent links, carrying how many rows they should span. */
+  const ancestorsOf = new Map<string, Array<{ id: string; span: number }>>();
+  const descendantsOf = new Map<string, Array<{ id: string; span: number }>>();
   const push = (map: Map<string, string[]>, key: string, value: string) => {
     map.set(key, [...(map.get(key) ?? []), value]);
   };
@@ -58,8 +65,20 @@ export function layoutTree(graph: Graph, rootId: string): Layout {
     push(spousesOf, edge.b_id, edge.a_id);
   }
   for (const edge of descentEdges) {
-    push(ancestorsOf, edge.descendant_id, edge.ancestor_id);
-    push(descendantsOf, edge.ancestor_id, edge.descendant_id);
+    // A row is a generation, so a link that spans several must span several
+    // rows: 「八代孫」 belongs eight rows down, not one. Where the source gave
+    // no count there is no honest row for the descendant, and the two are kept
+    // apart by more than one row so the picture does not claim a parentage the
+    // source never stated.
+    const span = edge.generations && edge.generations > 1 ? edge.generations : UNKNOWN_DESCENT_SPAN;
+    ancestorsOf.set(edge.descendant_id, [
+      ...(ancestorsOf.get(edge.descendant_id) ?? []),
+      { id: edge.ancestor_id, span },
+    ]);
+    descendantsOf.set(edge.ancestor_id, [
+      ...(descendantsOf.get(edge.ancestor_id) ?? []),
+      { id: edge.descendant_id, span },
+    ]);
   }
 
   // 1. Generation per person: parents one row up, children one row down, and a
@@ -92,8 +111,8 @@ export function layoutTree(graph: Graph, rootId: string): Layout {
       generation.set(other, value);
       descentQueue.push(other);
     };
-    for (const ancestor of ancestorsOf.get(id) ?? []) visit(ancestor, g - 1);
-    for (const descendant of descendantsOf.get(id) ?? []) visit(descendant, g + 1);
+    for (const a of ancestorsOf.get(id) ?? []) visit(a.id, g - a.span);
+    for (const d of descendantsOf.get(id) ?? []) visit(d.id, g + d.span);
   }
 
   // Anyone the walk could not reach (a spouse-of-a-spouse, say) goes on the
@@ -116,8 +135,8 @@ export function layoutTree(graph: Graph, rootId: string): Layout {
         ...(parentsOf.get(id) ?? []),
         ...(childrenOf.get(id) ?? []),
         ...(spousesOf.get(id) ?? []),
-        ...(ancestorsOf.get(id) ?? []),
-        ...(descendantsOf.get(id) ?? []),
+        ...(ancestorsOf.get(id) ?? []).map((a) => a.id),
+        ...(descendantsOf.get(id) ?? []).map((d) => d.id),
       ].filter((other) => order.has(other));
       const key =
         neighbours.length > 0
