@@ -381,3 +381,51 @@ export function redundantDescent(
   }
   return redundant;
 }
+
+/**
+ * A path for a line of descent that never crosses a person's box.
+ *
+ * Drawn straight, a line spanning several generations runs through whatever
+ * sits between — and a box a line passes through reads as a person on that
+ * line, which is the one thing this line must not say. So it is routed:
+ * horizontals stay in the gaps between rows, where there is nothing to hit, and
+ * the vertical runs down a lane no box occupies.
+ *
+ * Lanes are tried nearest-first, so the detour is as small as the diagram
+ * allows; going round the outside always works and is the last resort.
+ */
+export function descentPath(
+  layout: Layout,
+  ancestorId: string,
+  descendantId: string,
+): string | null {
+  const a = layout.nodes.get(ancestorId);
+  const d = layout.nodes.get(descendantId);
+  if (!a || !d) return null;
+
+  const ax = a.x + NODE_WIDTH / 2;
+  const ay = a.y + NODE_HEIGHT;
+  const dx = d.x + NODE_WIDTH / 2;
+  const dy = d.y;
+  const leave = ay + GAP_Y / 2;
+  const arrive = dy - GAP_Y / 2;
+
+  // Adjacent rows: nothing can be in the way.
+  if (arrive <= leave + 1) return `M ${ax} ${ay} V ${(ay + dy) / 2} H ${dx} V ${dy}`;
+
+  const inTheWay = [...layout.nodes.values()].filter((p) => p.y > ay && p.y + NODE_HEIGHT < dy);
+  const clear = (x: number) =>
+    inTheWay.every((p) => x < p.x - GAP_X / 3 || x > p.x + NODE_WIDTH + GAP_X / 3);
+
+  const edges = inTheWay.flatMap((p) => [p.x - GAP_X / 2, p.x + NODE_WIDTH + GAP_X / 2]);
+  const outside = [
+    Math.min(...inTheWay.map((p) => p.x), ax, dx) - GAP_X,
+    Math.max(...inTheWay.map((p) => p.x + NODE_WIDTH), ax, dx) + GAP_X,
+  ];
+  const lane =
+    [ax, dx, (ax + dx) / 2, ...edges, ...outside]
+      .filter(clear)
+      .sort((p, q) => Math.abs(p - (ax + dx) / 2) - Math.abs(q - (ax + dx) / 2))[0] ?? outside[1]!;
+
+  return `M ${ax} ${ay} V ${leave} H ${lane} V ${arrive} H ${dx} V ${dy}`;
+}

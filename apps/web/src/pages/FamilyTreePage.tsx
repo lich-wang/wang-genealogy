@@ -11,6 +11,7 @@ import {
   compactLifespan,
   evidenceLabel,
   evidenceTooltip,
+  descentPath,
   layoutTree,
   redundantDescent,
 } from '../tree-layout';
@@ -319,13 +320,13 @@ function DescentLine({
 }) {
   const ancestor = layout.nodes.get(edge.ancestor_id);
   const descendant = layout.nodes.get(edge.descendant_id);
-  if (!ancestor || !descendant) return null;
+  const path = descentPath(layout, edge.ancestor_id, edge.descendant_id);
+  if (!ancestor || !descendant || !path) return null;
 
   const ax = ancestor.x + NODE_WIDTH / 2;
   const ay = ancestor.y + NODE_HEIGHT;
   const dx = descendant.x + NODE_WIDTH / 2;
   const dy = descendant.y;
-  const path = `M ${ax} ${ay} L ${dx} ${dy}`;
 
   return (
     <g
@@ -343,8 +344,8 @@ function DescentLine({
       <path d={path} className="tree-edge-hit" />
       <path d={path} className="tree-edge-line" />
       <text
-        x={ax + (dx - ax) * 0.62}
-        y={ay + (dy - ay) * 0.62 - 4}
+        x={dx}
+        y={dy - GAP_Y / 2 - 4}
         className="tree-edge-label"
         textAnchor="middle"
       >
