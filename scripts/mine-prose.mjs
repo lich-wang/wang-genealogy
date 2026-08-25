@@ -91,6 +91,10 @@ const reread = flag('--reread');
 // database already holds; a clan chart names people it does not, and this is
 // how those get read in.
 const pagesPath = option('--pages', null);
+// `--chart FILE` folds in what `mine-chart.mjs` traced off a rendered genealogy
+// diagram. Those relations skip the reader's gate because no reader was
+// involved: they come from the lines drawn on the page, read geometrically.
+const chartPath = option('--chart', null);
 
 /** Clan articles: their indented lists are family trees, not prose. */
 const CLAN_ARTICLES = option(
@@ -315,6 +319,32 @@ for (const { title } of articles.filter((p) => p.corpus === 'zhwiki')) {
   }
 }
 console.error(`正则挖掘出 ${candidates.length} 条候选关系（含重复）`);
+
+// --- fold in what was traced off a rendered chart ---------------------------
+
+if (chartPath) {
+  let added = 0;
+  for (const chart of JSON.parse(readFileSync(chartPath, 'utf8'))) {
+    for (const rel of chart.relations ?? []) {
+      if (!rel.subject || !rel.other) continue;
+      candidates.push({
+        source_corpus: 'zhwiki',
+        source_title: chart.article,
+        a: { title: rel.subject_title ?? null, name: rel.subject },
+        b: { title: rel.other_title ?? null, name: rel.other },
+        role: rel.other_is ?? 'child',
+        term: rel.term ?? '世系圖',
+        generations: null,
+        // A diagram states a relation without stating a sentence. What is
+        // recorded is what the chart shows, so a reader knows to go and look
+        // at it rather than hunt the page for wording that is not there.
+        quotation: `${chart.article} ${rel.term ?? '世系圖'}：${rel.subject} → ${rel.other}`,
+      });
+      added += 1;
+    }
+  }
+  console.error(`世系图追踪采纳 ${added} 条`);
+}
 
 // --- fold in what a reader found, after checking every word of it ------------
 

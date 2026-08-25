@@ -91,6 +91,11 @@ scripts/expand-kinship.mjs        逐轮循环，直到没有待展开的人物
   └─ scripts/import-kinship.mjs   只经 /api/v1 写入
          ↓
       Worker API → D1
+scripts/mine-chart.mjs           世系图追踪：无头浏览器渲染页面，按画出来的线条几何求父子
+     {{Tree chart}} 的源码是 ASCII 图，列对不齐（本页有错三列的行），
+     解析源码会自信地给出错误的父子关系；渲染后每个人是带边框的格子、
+     每条连线是已知像素上的边框，相接即同一连接器，与源码列号无关
+     ↓ 候选表 → scripts/mine-prose.mjs --chart
 scripts/mine-prose.mjs           条文识读：前沿=缺上一代或缺下一代的人物
      中文维基百科条目正文 + 中文维基文库正史列传（晉書、漢書…）
      交由模型通读，每条读数都回原文逐字核验后才进计划
