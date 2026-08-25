@@ -141,7 +141,7 @@ export function layoutTree(graph: Graph, rootId: string): Layout {
 
   // 2. Order each row. Rows nearest the root are placed first, then each next
   //    row is sorted by the average position of the relatives already placed —
-  //    the standard barycentre trick, which keeps lines from crossing.
+  //    the standard barycentre trick, which decides who sits left of whom.
   const order = new Map<string, number>();
   const byDistanceFromRoot = [...generations].sort((a, b) => Math.abs(a) - Math.abs(b));
   for (const g of byDistanceFromRoot) {
@@ -161,43 +161,114 @@ export function layoutTree(graph: Graph, rootId: string): Layout {
       return { id, key };
     });
     anchored.sort((a, b) => a.key - b.key || a.id.localeCompare(b.id));
-
-    // Couples read as couples: pull a spouse next to their partner.
-    const ordered: string[] = [];
-    for (const { id } of anchored) {
-      if (ordered.includes(id)) continue;
-      ordered.push(id);
-      for (const spouse of spousesOf.get(id) ?? []) {
-        if (generation.get(spouse) === g && !ordered.includes(spouse) && row.includes(spouse)) {
-          ordered.push(spouse);
-        }
-      }
-    }
-    ordered.forEach((id, index) => order.set(id, index));
-    rows.set(g, ordered);
+    anchored.forEach(({ id }, index) => order.set(id, index));
+    rows.set(g, anchored.map(({ id }) => id));
   }
 
-  // 3. Coordinates. Rows are centred on the widest one so the diagram reads as
-  //    a tree rather than a left-aligned list.
-  const widest = Math.max(...generations.map((g) => rows.get(g)!.length), 1);
-  const rowWidth = (count: number) => count * NODE_WIDTH + Math.max(count - 1, 0) * GAP_X;
-  const totalWidth = rowWidth(widest);
+  // 3. Group couples. A husband and wife are one block on the diagram and their
+  //    children hang below the pair, not below one of them.
+  const unitOf = new Map<string, string>();
+  const unitMembers = new Map<string, string[]>();
+  const rank = (id: string) => (order.get(id) ?? 0) + (generation.get(id) ?? 0) * 1000;
+  for (const id of [...nodes.keys()].sort((a, b) => rank(a) - rank(b))) {
+    if (unitOf.has(id)) continue;
+    const members = [id];
+    unitOf.set(id, id);
+    for (const spouse of spousesOf.get(id) ?? []) {
+      if (unitOf.has(spouse) || !nodes.has(spouse)) continue;
+      if (generation.get(spouse) !== generation.get(id)) continue;
+      unitOf.set(spouse, id);
+      members.push(spouse);
+    }
+    unitMembers.set(id, members);
+  }
+  const unitWidth = (unit: string) =>
+    unitMembers.get(unit)!.length * NODE_WIDTH +
+    (unitMembers.get(unit)!.length - 1) * GAP_X;
 
+  // 4. Build a forest over those blocks: every block hangs under the first
+  //    forebear above it. A child appears under one parent only — the other
+  //    parent still draws a line to them, but the block structure has to be a
+  //    tree for the packing below to mean anything.
+  const forebearOf = new Map<string, string>();
+  const offspringOf = new Map<string, string[]>();
+  for (const unit of unitMembers.keys()) {
+    const g = generation.get(unit)!;
+    const candidates = unitMembers
+      .get(unit)!
+      .flatMap((m) => [
+        ...(parentsOf.get(m) ?? []),
+        ...(ancestorsOf.get(m) ?? []).map((a) => a.id),
+      ])
+      .map((p) => unitOf.get(p))
+      .filter((u): u is string => Boolean(u) && u !== unit && generation.get(u!)! < g)
+      .sort((a, b) => rank(a) - rank(b));
+    const forebear = candidates[0];
+    if (!forebear) continue;
+    forebearOf.set(unit, forebear);
+    offspringOf.set(forebear, [...(offspringOf.get(forebear) ?? []), unit]);
+  }
+  for (const kids of offspringOf.values()) kids.sort((a, b) => rank(a) - rank(b));
+
+  // 5. Pack the subtrees. Descendants are laid out first, then their forebear
+  //    is centred over them; a block that would land on top of one already
+  //    placed in its row pushes itself — and everything below it — to the
+  //    right. That is what makes a person's descendants sit under that person
+  //    instead of interleaving with the neighbours'.
+  const unitX = new Map<string, number>();
+  const rowCursor = new Map<number, number>();
+
+  const shift = (unit: string, dx: number) => {
+    unitX.set(unit, unitX.get(unit)! + dx);
+    const g = generation.get(unit)!;
+    rowCursor.set(g, Math.max(rowCursor.get(g) ?? 0, unitX.get(unit)! + unitWidth(unit) + GAP_X));
+    for (const kid of offspringOf.get(unit) ?? []) shift(kid, dx);
+  };
+
+  const place = (unit: string) => {
+    const g = generation.get(unit)!;
+    const kids = offspringOf.get(unit) ?? [];
+    for (const kid of kids) place(kid);
+
+    const free = rowCursor.get(g) ?? 0;
+    let x = free;
+    if (kids.length > 0) {
+      const first = unitX.get(kids[0]!)!;
+      const last = unitX.get(kids[kids.length - 1]!)! + unitWidth(kids[kids.length - 1]!);
+      const centred = (first + last) / 2 - unitWidth(unit) / 2;
+      if (centred >= free) x = centred;
+      else for (const kid of kids) shift(kid, free - centred);
+    }
+    unitX.set(unit, x);
+    rowCursor.set(g, x + unitWidth(unit) + GAP_X);
+  };
+
+  for (const unit of [...unitMembers.keys()]
+    .filter((u) => !forebearOf.has(u))
+    .sort((a, b) => rank(a) - rank(b))) {
+    place(unit);
+  }
+
+  // 6. Coordinates, normalised so the leftmost block sits at the padding.
   const placed = new Map<string, PlacedNode>();
-  generations.forEach((g, rowIndex) => {
-    const row = rows.get(g)!;
-    const offset = (totalWidth - rowWidth(row.length)) / 2;
-    row.forEach((id, columnIndex) => {
+  const left = Math.min(...[...unitX.values()], 0);
+  const rowIndexOf = new Map(generations.map((g, i) => [g, i]));
+  for (const [unit, members] of unitMembers) {
+    members.forEach((id, i) => {
       const node = nodes.get(id);
       if (!node) return;
       placed.set(id, {
         node,
-        generation: g,
-        x: PADDING + offset + columnIndex * (NODE_WIDTH + GAP_X),
-        y: PADDING + rowIndex * (NODE_HEIGHT + GAP_Y),
+        generation: generation.get(unit)!,
+        x: PADDING + unitX.get(unit)! - left + i * (NODE_WIDTH + GAP_X),
+        y: PADDING + rowIndexOf.get(generation.get(unit)!)! * (NODE_HEIGHT + GAP_Y),
       });
     });
-  });
+  }
+  const totalWidth = Math.max(
+    ...[...placed.values()].map((p) => p.x + NODE_WIDTH - PADDING),
+    NODE_WIDTH,
+  );
 
   return {
     nodes: placed,

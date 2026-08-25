@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest';
 import type { ParentEdge, RelativeNode, SpouseEdge } from '@wang/domain';
 import {
   NODE_HEIGHT,
+  NODE_WIDTH,
   compactLifespan,
   compactYear,
   evidenceLabel,
@@ -432,5 +433,79 @@ describe('parentBusFractions', () => {
     const layout = layoutTree(graph, 'dadA');
     const f = parentBusFractions(layout, [...graph.parentEdges, parent('dadA', 'offscreen')]);
     expect(f.has('offscreen')).toBe(false);
+  });
+});
+
+describe('layoutTree: descendants sit under their forebear', () => {
+  const node = (id: string) => ({
+    id,
+    display_name: id,
+    status: 'active' as const,
+    birth: null,
+    death: null,
+  });
+  const parent = (p: string, c: string) => ({
+    claim_id: `p:${p}:${c}`,
+    status: 'accepted' as const,
+    citations: [],
+    parent_id: p,
+    child_id: c,
+  });
+
+  /** Two brothers with two children each — the case that used to interleave. */
+  const family = {
+    nodes: new Map(
+      ['gramps', 'a', 'b', 'a1', 'a2', 'b1', 'b2'].map((id) => [id, node(id)] as const),
+    ),
+    parentEdges: [
+      parent('gramps', 'a'),
+      parent('gramps', 'b'),
+      parent('a', 'a1'),
+      parent('a', 'a2'),
+      parent('b', 'b1'),
+      parent('b', 'b2'),
+    ],
+    spouseEdges: [],
+    descentEdges: [],
+  };
+
+  const span = (layout: ReturnType<typeof layoutTree>, ids: string[]) => ({
+    left: Math.min(...ids.map((id) => layout.nodes.get(id)!.x)),
+    right: Math.max(...ids.map((id) => layout.nodes.get(id)!.x + NODE_WIDTH)),
+  });
+
+  it('keeps one family\u2019s children clear of the next', () => {
+    const layout = layoutTree(family, 'gramps');
+    const A = span(layout, ['a', 'a1', 'a2']);
+    const B = span(layout, ['b', 'b1', 'b2']);
+    const [first, second] = A.left < B.left ? [A, B] : [B, A];
+    expect(first.right).toBeLessThanOrEqual(second.left);
+  });
+
+  it('centres a parent over its own children', () => {
+    const layout = layoutTree(family, 'gramps');
+    for (const [p, kids] of [
+      ['a', ['a1', 'a2']],
+      ['b', ['b1', 'b2']],
+      ['gramps', ['a', 'b']],
+    ] as const) {
+      const kidSpan = span(layout, [...kids]);
+      const centre = layout.nodes.get(p)!.x + NODE_WIDTH / 2;
+      expect(Math.abs(centre - (kidSpan.left + kidSpan.right) / 2)).toBeLessThan(1);
+    }
+  });
+
+  it('never overlaps two boxes', () => {
+    const layout = layoutTree(family, 'gramps');
+    const boxes = [...layout.nodes.values()];
+    for (let i = 0; i < boxes.length; i += 1) {
+      for (let j = i + 1; j < boxes.length; j += 1) {
+        const a = boxes[i]!;
+        const b = boxes[j]!;
+        const clash =
+          a.x < b.x + NODE_WIDTH && b.x < a.x + NODE_WIDTH && a.generation === b.generation;
+        expect(clash).toBe(false);
+      }
+    }
   });
 });
