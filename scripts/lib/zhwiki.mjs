@@ -406,7 +406,7 @@ export function linkTargetsByName(wikitext) {
 
 /** Kinship words that must be present for a sentence to state a relation. */
 const KINSHIP_WORD =
-  /父|母|子|女|妻|夫|娶|嫁|配偶|正室|繼室|继室|後代|后代|後裔|后裔|之後|之后|孫|孙|世孫|世孙|裔|所生|生於|出自/;
+  /父|母|子|女|妻|夫|娶|嫁|配偶|正室|繼室|继室|後代|后代|後裔|后裔|之後|之后|孫|孙|世孫|世孙|裔|祖|所生|生於|出自/;
 
 // Both directions of descent, for the same reason parent and child both exist:
 // offering only `ancestor` does not stop a reader from meeting a descendant, it
@@ -476,7 +476,12 @@ const normalize = (s) =>
  */
 export function verifyRelation(relation, { title, plain, links, impliedSurname = false }) {
   const quotation = normalize(relation.quotation);
-  const subject = normalize(relation.subject) || normalize(title);
+  // 「王吉 (西汉)」 is the article about 王吉; the parenthetical only tells that
+  // title apart from other men of the name. Comparing against it unstripped
+  // made the subject fail to match its own article, and a 家族 section that
+  // writes「次子：王駿」without repeating the subject was rejected wholesale.
+  const bareTitle = normalize((title ?? '').replace(/\s*[（(][^)）]*[)）]\s*$/, ''));
+  const subject = normalize(relation.subject) || bareTitle;
   let other = normalize(relation.other);
   let storedName = relation.other;
 
@@ -516,7 +521,7 @@ export function verifyRelation(relation, { title, plain, links, impliedSurname =
   if (at < 0) return { ok: false, reason: 'quotation_not_in_article' };
   if (!quotation.includes(normalize(relation.other))) return { ok: false, reason: 'other_not_in_quotation' };
 
-  if (!quotation.includes(subject) && subject !== normalize(title)) {
+  if (!quotation.includes(subject) && subject !== bareTitle) {
     // A history names its subject once and then writes 祖, 父, 子 — requiring
     // the name again in every sentence would reject almost everything it says.
     // What can still be checked is that the sentence sits under that name:
