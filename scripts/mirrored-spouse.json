@@ -1,0 +1,27 @@
+{
+  "note": "配偶边的镜像重复：spouse_of 只保存一条，以两个人物 ID 中较小者为 subject。撤回非规范方向的那条，先把它的引用并到规范方向上。执行：node scripts/split-homonym.mjs --plan scripts/mirrored-spouse.json",
+  "summary_prefix": "撤回：配偶边的非规范方向",
+  "splits": [],
+  "link": [],
+  "cite": [
+    {
+      "claim_id": "c_HSXPTu16XXSYxTJSYs32GN",
+      "label": "王熙 ⇄ 鄱陽公主（并入镜像边的引用）",
+      "source_id": "s_t44J33cVpLTGPt7ksJYJ7v",
+      "locator": "条文：信息框 夫",
+      "quotation": "王熙"
+    }
+  ],
+  "retract": [
+    {
+      "claim_id": "c_JNAUBYKdUe6v7FEgkJq7Pp",
+      "expect": {
+        "predicate": "kinship.spouse_of",
+        "subject": "p_WfXnRqUnbdbXJk88ULiEj7",
+        "object": "p_Gh8T9F7QCTRaznN7ChYYdN",
+        "label": "鄱陽公主 ⇄ 王熙（非规范方向）"
+      },
+      "reason": "与 c_HSXPTu16XXSYxTJSYs32GN 是同一段婚姻的镜像记录。spouse_of 是对称关系，服务端以较小的人物 ID 为 subject 只保存一条；本条方向相反，属于早期导入绕过归一化留下的重复。其引用已并入规范方向那条。"
+    }
+  ]
+}

@@ -134,9 +134,19 @@ export const CONTRIBUTION_ACTION = [
   //                            = 'suppressed') without deleting anything, e.g.
   //                            when an import walked outside the collection's
   //                            scope. Reversible.
+  //   admin.set_role         — change a contributor account's role. Recorded
+  //                            because a privilege change is exactly the kind of
+  //                            act that must not be invisible; it touches no
+  //                            claim, only who may review.
   'admin.reattribute',
   'admin.correct_metadata',
   'admin.suppress_person',
+  'admin.set_role',
+  // The one action that removes data. Permitted only under clause 6 of the
+  // completeness rules and only with explicit operator authorisation; the
+  // contribution row IS the minimal audit record that clause requires, so it
+  // records how much went and where the backup is.
+  'admin.purge_records',
 ] as const;
 export type ContributionAction = (typeof CONTRIBUTION_ACTION)[number];
 

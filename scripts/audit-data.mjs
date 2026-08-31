@@ -190,7 +190,11 @@ findings.mirrored_parent_edges = query(
        ON a.predicate = 'kinship.parent_of' AND b.predicate = 'kinship.parent_of'
       AND a.subject_person_id = b.object_person_id
       AND a.object_person_id = b.subject_person_id
-    WHERE a.id < b.id`,
+    WHERE a.id < b.id
+      -- A withdrawn claim is not a duplicate: it is the record of one being
+      -- cleared up, and counting it keeps a fixed problem on the list forever.
+      AND a.status NOT IN ('retracted','superseded')
+      AND b.status NOT IN ('retracted','superseded')`,
   'mirrored parent edges',
 );
 
@@ -200,7 +204,9 @@ findings.duplicate_spouse_edges = query(
        ON a.predicate = 'kinship.spouse_of' AND b.predicate = 'kinship.spouse_of'
       AND a.subject_person_id = b.object_person_id
       AND a.object_person_id = b.subject_person_id
-    WHERE a.id < b.id`,
+    WHERE a.id < b.id
+      AND a.status NOT IN ('retracted','superseded')
+      AND b.status NOT IN ('retracted','superseded')`,
   'duplicate spouse edges',
 );
 
@@ -209,6 +215,93 @@ findings.self_relationships = query(
     WHERE object_person_id = subject_person_id`,
   'self relationships',
 );
+
+// --- kinship that contradicts itself ----------------------------------------
+//
+// Three checks that catch what name-matching gets wrong, and they catch it
+// without needing a name: a record that has silently become two people, or a
+// sentence read as the wrong relation, shows up as a shape the graph should
+// not contain. Name folding cannot see 王栽 and 王裁 as one man; a diamond of
+// identical parents and identical children can.
+
+const descent = query(
+  `SELECT c.subject_person_id AS a, c.object_person_id AS b
+     FROM claim c
+     JOIN person pa ON pa.id = c.subject_person_id
+     JOIN person pb ON pb.id = c.object_person_id
+    WHERE c.predicate = 'kinship.parent_of'
+      AND c.status NOT IN ('retracted','superseded')
+      AND pa.status <> 'merged' AND pb.status <> 'merged'`,
+  'parent edges',
+);
+const parentsOf = new Map();
+const childrenOf = new Map();
+for (const e of descent) {
+  if (!parentsOf.has(e.b)) parentsOf.set(e.b, new Set());
+  parentsOf.get(e.b).add(e.a);
+  if (!childrenOf.has(e.a)) childrenOf.set(e.a, new Set());
+  childrenOf.get(e.a).add(e.b);
+}
+const nameById = new Map(persons.map((p) => [p.id, p.name]));
+const both = (a, b) => [...(a ?? [])].filter((x) => b?.has(x));
+
+// Nobody has three parents. A third is a namesake's father who found his way
+// onto the wrong record — 王敞 carried four, spanning西汉 to 南朝.
+findings.persons_with_three_parents = [...parentsOf.entries()]
+  .filter(([, ps]) => ps.size >= 3)
+  .map(([id, ps]) => ({
+    person_id: id,
+    name: nameById.get(id) ?? null,
+    parents: [...ps].map((p) => `${nameById.get(p) ?? '?'}@${p}`),
+  }));
+
+// Same parents and same children: either one person recorded twice under two
+// spellings, or two brothers one of whom has been given the other's family.
+findings.same_parent_same_child_pairs = [];
+const siblingSets = new Map();
+for (const [child, ps] of parentsOf) {
+  for (const p of ps) {
+    if (!siblingSets.has(p)) siblingSets.set(p, new Set());
+    siblingSets.get(p).add(child);
+  }
+}
+const seenPair = new Set();
+for (const sibs of siblingSets.values()) {
+  const list = [...sibs];
+  for (let i = 0; i < list.length; i += 1) {
+    for (let j = i + 1; j < list.length; j += 1) {
+      const [a, b] = [list[i], list[j]];
+      const key = a < b ? `${a}|${b}` : `${b}|${a}`;
+      if (seenPair.has(key)) continue;
+      const kids = both(childrenOf.get(a), childrenOf.get(b));
+      if (kids.length === 0) continue;
+      seenPair.add(key);
+      findings.same_parent_same_child_pairs.push({
+        persons: [`${nameById.get(a) ?? '?'}@${a}`, `${nameById.get(b) ?? '?'}@${b}`],
+        shared_parents: both(parentsOf.get(a), parentsOf.get(b)).map((p) => nameById.get(p) ?? p),
+        shared_children: kids.map((k) => nameById.get(k) ?? k),
+      });
+    }
+  }
+}
+
+// A parent who is also, by another path, a grandparent: 「王承祖父王俭、父亲王暕」
+// read as two fathers. Also catches a sibling pair read as parent and child,
+// since that puts both of them under the same person.
+findings.parent_is_also_grandparent = [];
+for (const e of descent) {
+  for (const mid of parentsOf.get(e.b) ?? []) {
+    if (mid === e.a) continue;
+    if (!parentsOf.get(mid)?.has(e.a)) continue;
+    findings.parent_is_also_grandparent.push({
+      edge: `${nameById.get(e.a) ?? '?'} → ${nameById.get(e.b) ?? '?'}`,
+      actual_path: `${nameById.get(e.a) ?? '?'} → ${nameById.get(mid) ?? '?'} → ${nameById.get(e.b) ?? '?'}`,
+      subject_person_id: e.a,
+      object_person_id: e.b,
+    });
+    break;
+  }
+}
 
 // A public person linking to a record the reader cannot open.
 findings.relationships_to_nonpublic = query(

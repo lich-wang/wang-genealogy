@@ -1,0 +1,79 @@
+{
+  "note": "隔代误记与兄弟误记：散文明说是祖父/兄，库里记成了父。执行：node scripts/split-homonym.mjs --plan scripts/generation-errors.json",
+  "summary_prefix": "撤回：隔代或同辈误记为亲子",
+  "splits": [],
+  "retract": [
+    {
+      "claim_id": "c_3Vd8RnZ53pY9TopkUwmKko",
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_L84jn2bobEqW6DPu32c5vg",
+        "object": "p_g2sQw7oP694pyJYYDNMCo3",
+        "label": "王邑 → 王奇"
+      },
+      "reason": "王奇 (新朝)条明说「王莽五叔成都景成侯王商之子，成都侯王况、隆信公王邑的弟弟」：王邑是王奇的兄，不是父。"
+    },
+    {
+      "claim_id": "c_7vqSzq643remVtT3gKAVKW",
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_Bj8bFyazic2NrpdNesGfKg",
+        "object": "p_S3MwG2kKk5brnwtbib7BVJ",
+        "label": "王鸿 → 王同恩"
+      },
+      "reason": "库内已有王鸿 → 王志悌 → 王同恩 的完整两代，此条为隔代误记。"
+    },
+    {
+      "claim_id": "c_NWw7E5qJL5pfXck3gNVWXQ",
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_cu518yUajb6WPKMAjP8xPC",
+        "object": "p_X2f94X4uNxnhFPWPxZo8zw",
+        "label": "王乃始 → 王接"
+      },
+      "reason": "王迺始条明说「王無故子王接為大司馬車騎將軍」：王乃始是祖父，王接之父为王无故。"
+    },
+    {
+      "claim_id": "c_fG3bDnvRUi8Y5qYHa6Pgha",
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_cu518yUajb6WPKMAjP8xPC",
+        "object": "p_FqRJZ4FbxNLE8WDCkdUSH2",
+        "label": "王乃始 → 王商"
+      },
+      "reason": "王迺始条明说「王武子王商官至丞相」：王乃始是祖父，王商之父为王武。"
+    },
+    {
+      "claim_id": "c_iHj7XokzHMni83DG6BEukJ",
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_M2tXQe2FSQ532ZvGY6jPvZ",
+        "object": "p_PGJAWHxYxJtx3aVz4EvhUR",
+        "label": "王穉 → 王衮"
+      },
+      "reason": "库内已有王穉 → 王诵 → 王衮 的完整两代；王衮条明说「大將軍王诵的儿子」。此条为隔代误记。"
+    },
+    {
+      "claim_id": "c_jGJQS3LDZ6ummb9QBsv3dJ",
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_ke9yjosuiX8LZiiCh781g5",
+        "object": "p_EZc8eia6jBCUiA6dx8URB6",
+        "label": "王俭 → 王承"
+      },
+      "reason": "王承 (南梁)条明说「王承祖父王俭、父亲王暕」：王俭是祖父，不是父。"
+    },
+    {
+      "claim_id": "c_uGNeoJaXqbfxWBNkB7bRHd",
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_KXD6a4zaL9E1N69hTNkTMP",
+        "object": "p_Z5BPr9m4u9GFwUQLtaQNNb",
+        "label": "王志悌 → 王袞"
+      },
+      "reason": "库内已有王志悌 → 王汶 → 王袞 的完整两代，此条为隔代误记。"
+    }
+  ],
+  "link": [],
+  "cite": []
+}

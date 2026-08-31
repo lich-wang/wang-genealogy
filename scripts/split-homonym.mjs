@@ -21,6 +21,14 @@
 // claim that has since moved is exactly the case where blind execution does the
 // most damage.
 //
+// A plan needs no splits. `scripts/wrong-edges.json` uses only the `retract`
+// section, for the other way a mined relation goes wrong: not two people read as
+// one, but one sentence read as the wrong relation — 「以弟弟王劭的儿子王謐为嗣子」
+// makes 王劭 a son rather than a brother, and 「王珉早逝…由伯父王珣抚养」 makes the
+// uncle who raised a boy into his father. Nothing to create, only a claim to
+// withdraw and the reason it was wrong. `cite` is for the opposite case: the
+// edge is right but under-documented, so it gains the sentence that says so.
+//
 // Usage:
 //   node scripts/split-homonym.mjs [--plan scripts/homonym-splits.json] [--dry-run]
 //   env: API_BASE, IMPORTER_EMAIL, IMPORTER_PASSWORD
@@ -101,7 +109,7 @@ console.log(`account: ${account.display_name} (${account.role})`);
 // --- 0. check every retraction target before writing anything ---------------
 
 const targets = [];
-for (const item of plan.retract) {
+for (const item of plan.retract ?? []) {
   const { claim } = await api('GET', `/claims/${item.claim_id}`);
   const want = item.expect;
   const mismatch =
@@ -121,7 +129,12 @@ for (const item of plan.retract) {
   }
   targets.push({ ...item, claim });
 }
-console.log(`待撤回 ${targets.length} 条，待新建 ${plan.splits.length} 人，待改挂 ${plan.link.length} 条`);
+const splits = plan.splits ?? [];
+const links = plan.link ?? [];
+const cites = plan.cite ?? [];
+console.log(
+  `待撤回 ${targets.length} 条，待新建 ${splits.length} 人，待改挂 ${links.length} 条，待补引用 ${cites.length} 条`,
+);
 
 // --- 1. retract first -------------------------------------------------------
 
@@ -135,7 +148,10 @@ for (const item of targets) {
   }
   await api('POST', `/claims/${item.claim_id}/retractions`, {
     reason: item.reason,
-    change_summary: `同名异人拆分：${item.expect.label} 系同名误接`,
+    // The plan says what kind of correction this is, because the summary is what
+    // a reader of the history sees first: a homonym split and a misread sentence
+    // are different mistakes and should not be logged as the same one.
+    change_summary: `${plan.summary_prefix ?? '修正'}：${item.expect.label}`,
   });
   console.log(`- ${item.expect.label} 已撤回`);
 }
@@ -144,7 +160,7 @@ for (const item of targets) {
 
 const personIdByKey = new Map();
 
-for (const split of plan.splits) {
+for (const split of splits) {
   const ref = {
     source_id: split.source_id,
     stance: 'supports',
@@ -190,7 +206,7 @@ for (const split of plan.splits) {
 const resolve = (ref) => (ref.startsWith('split:') ? personIdByKey.get(ref.slice(6)) : ref);
 
 let linked = 0;
-for (const edge of plan.link) {
+for (const edge of links) {
   const fromId = resolve(edge.from);
   const toId = resolve(edge.to);
   if (!fromId || !toId) {
@@ -207,15 +223,16 @@ for (const edge of plan.link) {
       relationship: edge.relationship,
       related_person_id: toId,
       confidence: 'medium',
-      sources: [
-        {
-          source_id: edge.source_id,
-          stance: 'supports',
-          locator: edge.locator,
-          quotation: edge.quotation,
-        },
-      ],
-      change_summary: `同名异人拆分后改挂（${edge.locator}）`,
+      // A relationship claim is unique per pair, so all of the old claim's
+      // citations have to travel together in one create — re-hanging them one at
+      // a time would hit `relationship_exists` on the second.
+      sources: (edge.sources ?? [edge]).map((s) => ({
+        source_id: s.source_id,
+        stance: 'supports',
+        ...(s.locator ? { locator: s.locator } : {}),
+        ...(s.quotation ? { quotation: s.quotation } : {}),
+      })),
+      change_summary: `同名异人拆分后改挂（${edge.sources?.length ?? 1} 条引用）`,
     });
     await acceptClaim(created.claim_id, 1, '拆分：来源为《新唐書·宰相世系表》');
     linked += 1;
@@ -226,5 +243,36 @@ for (const edge of plan.link) {
   }
 }
 
+// --- 4. an edge that is right but under-documented ---------------------------
+
+let cited = 0;
+for (const item of cites) {
+  if (dryRun) {
+    console.log(`+ 引用 ${item.label}`);
+    continue;
+  }
+  try {
+    await api('POST', `/claims/${item.claim_id}/sources`, {
+      source_id: item.source_id,
+      stance: 'supports',
+      ...(item.locator ? { locator: item.locator } : {}),
+      ...(item.quotation ? { quotation: item.quotation } : {}),
+      ...(item.note ? { interpretation_note: item.note } : {}),
+    });
+    cited += 1;
+    console.log(`+ 引用 ${item.label}`);
+  } catch (e) {
+    // Already attached under the same stance is a success for our purposes.
+    if (e.status === 409) console.log(`= 引用 ${item.label}（已存在）`);
+    else {
+      console.error(`! 引用 ${item.label}: ${e.code ?? e.status}`);
+      process.exitCode = 1;
+    }
+  }
+}
+
 console.log(`\n--- 汇总 ---`);
-console.log(`撤回 ${dryRun ? targets.length : targets.length} 条、新建 ${plan.splits.length} 人、改挂 ${dryRun ? plan.link.length : linked} 条`);
+console.log(
+  `撤回 ${targets.length} 条、新建 ${splits.length} 人、改挂 ${dryRun ? links.length : linked} 条、` +
+    `补引用 ${dryRun ? cites.length : cited} 条`,
+);

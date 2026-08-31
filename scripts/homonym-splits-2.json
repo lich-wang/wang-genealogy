@@ -1,0 +1,392 @@
+{
+  "note": "同名异人拆分（第二批）：一条记录承载了几个同名人物，按各自来源拆开。执行：node scripts/split-homonym.mjs --plan scripts/homonym-splits-2.json",
+  "summary_prefix": "同名异人拆分",
+  "splits": [
+    {
+      "key": "langya.chang",
+      "name": {
+        "text": "王敞",
+        "language": "zh-Hans"
+      },
+      "aliases": [],
+      "source_id": "s_MGBoig692jprej3f8uiDi2",
+      "locator": "条文：世系圖",
+      "quotation": "琅邪王氏世系圖 世系圖：王裁 → 王敞",
+      "reason": "库内原有的「王敞」记录身份来自中文维基百科《王奉光》条，即西汉邛成侯王奉光之子、袭封邛成侯的王敞。琅邪王氏的王敞（王裁之子、王導之弟）是另一人，相隔三百余年：《新唐書·宰相世系表》「栽字士初…三子：導、穎、敞」，《琅邪王氏世系圖》亦另有其框。",
+      "historicity": "《新唐書》卷七十二中宰相世系表与《琅邪王氏世系圖》所载东晋琅邪临沂王氏人物，即丘子王裁之子。"
+    },
+    {
+      "key": "chart.chang.zhen",
+      "name": {
+        "text": "王敞",
+        "language": "zh-Hans"
+      },
+      "aliases": [],
+      "source_id": "s_xEBYVW3xjFzLnp9P7pHZ2L",
+      "locator": "条文：世系圖",
+      "quotation": "琅邪王氏世系圖 世系圖：王瑱 → 王敞",
+      "reason": "《琅邪王氏世系圖》另有一个王敞框，父为王瑱（王冲之子），属南朝一支，与西汉邛成侯王敞、与王裁之子王敞均非一人。仅世系圖一个来源，另立记录以免继续与他人混为一体。",
+      "historicity": "《琅邪王氏世系圖》所载南朝琅邪临沂王氏人物，王瑱之子。"
+    },
+    {
+      "key": "chart.su.zong",
+      "name": {
+        "text": "王素",
+        "language": "zh-Hans"
+      },
+      "aliases": [],
+      "source_id": "s_xEBYVW3xjFzLnp9P7pHZ2L",
+      "locator": "条文：世系圖",
+      "quotation": "琅邪王氏世系圖 世系圖：王宗 → 王素",
+      "reason": "《琅邪王氏世系圖》有两个王素框，父分别为王志（南朝）与王宗；原记录身份来自世系圖，保留王志一支，王宗之子王素另立记录。",
+      "historicity": "《琅邪王氏世系圖》所载琅邪临沂王氏人物，王宗之子。"
+    },
+    {
+      "key": "song.su.dan",
+      "name": {
+        "text": "王素",
+        "language": "zh-Hans"
+      },
+      "aliases": [],
+      "source_id": "s_H58mJSb7fWQ4noNozHrHCy",
+      "locator": "条文：条文识读（第三子）",
+      "quotation": "北宋医家，王旦第三子。",
+      "reason": "北宋医家王素为王旦第三子（中文维基百科《王素 (北宋)》），与《琅邪王氏世系圖》里的南朝王素相隔五百余年，此前被按名字并入同一记录。",
+      "historicity": "中文维基百科《王素 (北宋)》：北宋医家，王旦第三子。"
+    },
+    {
+      "key": "chart.yu.chong",
+      "name": {
+        "text": "王瑜",
+        "language": "zh-Hans"
+      },
+      "aliases": [],
+      "source_id": "s_MGBoig692jprej3f8uiDi2",
+      "locator": "条文：世系圖",
+      "quotation": "琅邪王氏世系圖 世系圖：王冲 → 王瑜",
+      "reason": "《琅邪王氏世系圖》有三个王瑜框，其中王冲之子那一框链接的是《王瑜 (南北朝)》条，与王含之子王瑜（原记录，身份来自《琅邪王氏》条）不是一人。",
+      "historicity": "《琅邪王氏世系圖》与《王瑜 (南北朝)》：南北朝琅邪临沂王氏人物，王冲之子。"
+    },
+    {
+      "key": "chart.yu.xian",
+      "name": {
+        "text": "王瑜",
+        "language": "zh-Hans"
+      },
+      "aliases": [],
+      "source_id": "s_MGBoig692jprej3f8uiDi2",
+      "locator": "条文：世系圖",
+      "quotation": "琅邪王氏世系圖 世系圖：王铦 → 王瑜",
+      "reason": "《琅邪王氏世系圖》第三个王瑜框，父为王铦，与王含之子王瑜、王冲之子王瑜均非一人。",
+      "historicity": "《琅邪王氏世系圖》所载琅邪临沂王氏人物，王铦之子。"
+    },
+    {
+      "key": "jin.ying",
+      "name": {
+        "text": "王應",
+        "language": "zh-Hant"
+      },
+      "aliases": [],
+      "source_id": "s_EuhopAKPrGRPYfhK6LWGqg",
+      "locator": "条文：世系缩进（王览家族）",
+      "quotation": "王应",
+      "reason": "库内原有的「王应」记录身份来自维基数据 Q45663434 与 CBDB 175502，即唐代王源中之子王應。东晋王應（字安期，征東將軍王含之子，叔父王敦無子以之為嗣子，王敦之乱后与父同被溺死）是另一人，相隔五百余年。",
+      "historicity": "中文维基百科《王應》《琅邪王氏》：东晋人物，王含之子、王敦嗣子，324 年死于王敦之乱后。"
+    },
+    {
+      "key": "wei.rui",
+      "name": {
+        "text": "王叡",
+        "language": "zh-Hant"
+      },
+      "aliases": [],
+      "source_id": "s_6MwB28jFPqGjpKm46DBiBV",
+      "locator": "条文：条文识读（父）",
+      "quotation": "父橋，字法生，解天文卜筮。涼州平，入京，家貧，以術自給。歷仕終於侍御中散。",
+      "reason": "库内原有的「王叡」记录身份来自维基数据 Q8012902，即东汉王仁之子、荆州刺史王叡。北魏中山王王叡（字洛诚，父王橋字法生）是另一人：《魏書》卷九十三「父橋，字法生，解天文卜筮」，《新唐書·宰相世系表》「橋，字法生，侍御史、贈武威定王。生叡，封中山王」。",
+      "historicity": "《魏書》卷九十三与《新唐書》卷七十二中：北魏人物，封中山王，父王橋。"
+    }
+  ],
+  "retract": [
+    {
+      "claim_id": "c_6tgAsJ9sk5wjtuGNNLY6en",
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_awcmjvARumCUVcUWMzCoPg",
+        "object": "p_QuSoLfELj3JkJeGUbLPDLj",
+        "label": "王裁 → 王敞"
+      },
+      "reason": "该关系属于另一位同名者，改挂到新建记录（王敞／langya.chang）。库内原有的「王敞」记录身份来自中文维基百科《王奉光》条，即西汉邛成侯王奉光之子、袭封邛成侯的王敞。琅邪王氏的王敞（王裁之子、王導之弟）是另一人，相隔三百余年：《新唐書·宰相世系表》「栽字士初…三子：導、穎、敞」，《琅邪王氏世系圖》亦另有其框"
+    },
+    {
+      "claim_id": "c_uvGRdmNRftkPk1EVowhsge",
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_QjyukypsbptHUi23TEAmrQ",
+        "object": "p_QuSoLfELj3JkJeGUbLPDLj",
+        "label": "王栽 → 王敞"
+      },
+      "reason": "该关系属于另一位同名者，改挂到新建记录（王敞／langya.chang）。库内原有的「王敞」记录身份来自中文维基百科《王奉光》条，即西汉邛成侯王奉光之子、袭封邛成侯的王敞。琅邪王氏的王敞（王裁之子、王導之弟）是另一人，相隔三百余年：《新唐書·宰相世系表》「栽字士初…三子：導、穎、敞」，《琅邪王氏世系圖》亦另有其框"
+    },
+    {
+      "claim_id": "c_QBfbeAD1XkaZq31WgaJctx",
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_uKGrnMgL6VWnXXry78c9L5",
+        "object": "p_QuSoLfELj3JkJeGUbLPDLj",
+        "label": "王瑱 → 王敞"
+      },
+      "reason": "该关系属于另一位同名者，改挂到新建记录（王敞／chart.chang.zhen）。《琅邪王氏世系圖》另有一个王敞框，父为王瑱（王冲之子），属南朝一支，与西汉邛成侯王敞、与王裁之子王敞均非一人。仅世系圖一个来源，另立记录以免继续与他人混为一体。"
+    },
+    {
+      "claim_id": "c_uXVJSWbPuZum3hA9dpdiKf",
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_eJggnSoGH5ETKvaEZqE886",
+        "object": "p_nA2nodsbTFF9HKjzoMhUNw",
+        "label": "王宗 → 王素"
+      },
+      "reason": "该关系属于另一位同名者，改挂到新建记录（王素／chart.su.zong）。《琅邪王氏世系圖》有两个王素框，父分别为王志（南朝）与王宗；原记录身份来自世系圖，保留王志一支，王宗之子王素另立记录。"
+    },
+    {
+      "claim_id": "c_uMhyTr3PUGSJqDDrTdFwro",
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_dzQsozLMz4kdNcHPqJVsZP",
+        "object": "p_nA2nodsbTFF9HKjzoMhUNw",
+        "label": "王旦 → 王素"
+      },
+      "reason": "该关系属于另一位同名者，改挂到新建记录（王素／song.su.dan）。北宋医家王素为王旦第三子（中文维基百科《王素 (北宋)》），与《琅邪王氏世系圖》里的南朝王素相隔五百余年，此前被按名字并入同一记录。"
+    },
+    {
+      "claim_id": "c_FpWhLFSpJhSLur6WbHqPSD",
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_1yyJgULJScCP8bYcGrpFnn",
+        "object": "p_uE7M68i8Kbbo1vq1qvMkAp",
+        "label": "王冲 → 王瑜"
+      },
+      "reason": "该关系属于另一位同名者，改挂到新建记录（王瑜／chart.yu.chong）。《琅邪王氏世系圖》有三个王瑜框，其中王冲之子那一框链接的是《王瑜 (南北朝)》条，与王含之子王瑜（原记录，身份来自《琅邪王氏》条）不是一人。"
+    },
+    {
+      "claim_id": "c_3zqCZNSBGkrrNZGWmzUNrP",
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_d22JUip1JvkDuinEQKkHX7",
+        "object": "p_uE7M68i8Kbbo1vq1qvMkAp",
+        "label": "王铦 → 王瑜"
+      },
+      "reason": "该关系属于另一位同名者，改挂到新建记录（王瑜／chart.yu.xian）。《琅邪王氏世系圖》第三个王瑜框，父为王铦，与王含之子王瑜、王冲之子王瑜均非一人。"
+    },
+    {
+      "claim_id": "c_6uSUAwvKwKHUSfBVtB8QQb",
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_5Xg43MeoSc4vLaZEiTQBL1",
+        "object": "p_uzsBphtDLN3vBPzmTBJLHq",
+        "label": "王含 → 王应"
+      },
+      "reason": "该关系属于另一位同名者，改挂到新建记录（王應／jin.ying）。库内原有的「王应」记录身份来自维基数据 Q45663434 与 CBDB 175502，即唐代王源中之子王應。东晋王應（字安期，征東將軍王含之子，叔父王敦無子以之為嗣子，王敦之乱后与父同被溺死）是另一人，相隔五百余年。"
+    },
+    {
+      "claim_id": "c_ukBowr7gnhd1PBb1REy4ce",
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_9RT3J3AUTk6Cgprd7z985c",
+        "object": "p_uzsBphtDLN3vBPzmTBJLHq",
+        "label": "王敦 → 王应"
+      },
+      "reason": "该关系属于另一位同名者，改挂到新建记录（王應／jin.ying）。库内原有的「王应」记录身份来自维基数据 Q45663434 与 CBDB 175502，即唐代王源中之子王應。东晋王應（字安期，征東將軍王含之子，叔父王敦無子以之為嗣子，王敦之乱后与父同被溺死）是另一人，相隔五百余年。"
+    },
+    {
+      "claim_id": "c_j9xoLJPiiYu6cqcR3wYEmY",
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_W6YJ47G47VsGRfnhN22J7r",
+        "object": "p_vmBV1uQSC3WNCsyT7DEMtB",
+        "label": "王橋 → 王叡"
+      },
+      "reason": "该关系属于另一位同名者，改挂到新建记录（王叡／wei.rui）。库内原有的「王叡」记录身份来自维基数据 Q8012902，即东汉王仁之子、荆州刺史王叡。北魏中山王王叡（字洛诚，父王橋字法生）是另一人：《魏書》卷九十三「父橋，字法生，解天文卜筮」，《新唐書·宰相世系表》「橋，字法生，侍御史、贈武威定王。生"
+    }
+  ],
+  "link": [
+    {
+      "from": "p_awcmjvARumCUVcUWMzCoPg",
+      "to": "split:langya.chang",
+      "relationship": "child",
+      "label": "王裁 → 王敞（langya.chang）",
+      "sources": [
+        {
+          "source_id": "s_MGBoig692jprej3f8uiDi2",
+          "locator": "条文：世系圖",
+          "quotation": "琅邪王氏世系圖 世系圖：王裁 → 王敞"
+        },
+        {
+          "source_id": "s_xEBYVW3xjFzLnp9P7pHZ2L",
+          "locator": "条文：世系圖",
+          "quotation": "琅邪王氏世系圖 世系圖：王裁 → 王敞"
+        },
+        {
+          "source_id": "s_XmK4uXKaoBAKcwvzzk8Dzr",
+          "locator": "条文：条文识读（子）",
+          "quotation": "三子：導、穎、敞。"
+        }
+      ]
+    },
+    {
+      "from": "p_uKGrnMgL6VWnXXry78c9L5",
+      "to": "split:chart.chang.zhen",
+      "relationship": "child",
+      "label": "王瑱 → 王敞（chart.chang.zhen）",
+      "sources": [
+        {
+          "source_id": "s_xEBYVW3xjFzLnp9P7pHZ2L",
+          "locator": "条文：世系圖",
+          "quotation": "琅邪王氏世系圖 世系圖：王瑱 → 王敞"
+        }
+      ]
+    },
+    {
+      "from": "p_eJggnSoGH5ETKvaEZqE886",
+      "to": "split:chart.su.zong",
+      "relationship": "child",
+      "label": "王宗 → 王素（chart.su.zong）",
+      "sources": [
+        {
+          "source_id": "s_xEBYVW3xjFzLnp9P7pHZ2L",
+          "locator": "条文：世系圖",
+          "quotation": "琅邪王氏世系圖 世系圖：王宗 → 王素"
+        }
+      ]
+    },
+    {
+      "from": "p_dzQsozLMz4kdNcHPqJVsZP",
+      "to": "split:song.su.dan",
+      "relationship": "child",
+      "label": "王旦 → 王素（song.su.dan）",
+      "sources": [
+        {
+          "source_id": "s_H58mJSb7fWQ4noNozHrHCy",
+          "locator": "条文：条文识读（第三子）",
+          "quotation": "北宋医家，王旦第三子。"
+        }
+      ]
+    },
+    {
+      "from": "p_1yyJgULJScCP8bYcGrpFnn",
+      "to": "split:chart.yu.chong",
+      "relationship": "child",
+      "label": "王冲 → 王瑜（chart.yu.chong）",
+      "sources": [
+        {
+          "source_id": "s_MGBoig692jprej3f8uiDi2",
+          "locator": "条文：世系圖",
+          "quotation": "琅邪王氏世系圖 世系圖：王冲 → 王瑜"
+        },
+        {
+          "source_id": "s_xEBYVW3xjFzLnp9P7pHZ2L",
+          "locator": "条文：世系圖",
+          "quotation": "琅邪王氏世系圖 世系圖：王冲 → 王瑜"
+        }
+      ]
+    },
+    {
+      "from": "p_d22JUip1JvkDuinEQKkHX7",
+      "to": "split:chart.yu.xian",
+      "relationship": "child",
+      "label": "王铦 → 王瑜（chart.yu.xian）",
+      "sources": [
+        {
+          "source_id": "s_MGBoig692jprej3f8uiDi2",
+          "locator": "条文：世系圖",
+          "quotation": "琅邪王氏世系圖 世系圖：王铦 → 王瑜"
+        },
+        {
+          "source_id": "s_xEBYVW3xjFzLnp9P7pHZ2L",
+          "locator": "条文：世系圖",
+          "quotation": "琅邪王氏世系圖 世系圖：王铦 → 王瑜"
+        }
+      ]
+    },
+    {
+      "from": "p_5Xg43MeoSc4vLaZEiTQBL1",
+      "to": "split:jin.ying",
+      "relationship": "child",
+      "label": "王含 → 王應（jin.ying）",
+      "sources": [
+        {
+          "source_id": "s_EuhopAKPrGRPYfhK6LWGqg",
+          "locator": "条文：世系缩进（王览家族）",
+          "quotation": "王应"
+        },
+        {
+          "source_id": "s_UT2fnx3qtzoieQ2DR3uegK",
+          "locator": "条文：世系缩进（王览家族）",
+          "quotation": "王应"
+        },
+        {
+          "source_id": "s_Hu48xKLWbTYqemmfCh8psU",
+          "locator": "条文：世系缩进（王览家族）",
+          "quotation": "王应"
+        },
+        {
+          "source_id": "s_am7Fw6MoGrjn6MQaPht7Mr",
+          "locator": "条文：世系缩进（王览家族）",
+          "quotation": "王应"
+        },
+        {
+          "source_id": "s_2Vkz5GQzEDauSJDkgPos6m",
+          "locator": "条文：世系缩进（王览家族）",
+          "quotation": "王应"
+        },
+        {
+          "source_id": "s_WUGDBD9YgdJyH7S1ZJAkW2",
+          "locator": "条文：世系缩进（王览家族）",
+          "quotation": "王应"
+        }
+      ]
+    },
+    {
+      "from": "p_9RT3J3AUTk6Cgprd7z985c",
+      "to": "split:jin.ying",
+      "relationship": "child",
+      "label": "王敦 → 王應（jin.ying）",
+      "sources": [
+        {
+          "source_id": "s_MGBoig692jprej3f8uiDi2",
+          "locator": "条文：世系圖",
+          "quotation": "琅邪王氏世系圖 世系圖：王敦 → 王应"
+        },
+        {
+          "source_id": "s_xEBYVW3xjFzLnp9P7pHZ2L",
+          "locator": "条文：世系圖",
+          "quotation": "琅邪王氏世系圖 世系圖：王敦 → 王应"
+        }
+      ]
+    },
+    {
+      "from": "p_W6YJ47G47VsGRfnhN22J7r",
+      "to": "split:wei.rui",
+      "relationship": "child",
+      "label": "王橋 → 王叡（wei.rui）",
+      "sources": [
+        {
+          "source_id": "s_6MwB28jFPqGjpKm46DBiBV",
+          "locator": "条文：条文识读（父）",
+          "quotation": "父橋，字法生，解天文卜筮。涼州平，入京，家貧，以術自給。歷仕終於侍御中散。"
+        },
+        {
+          "source_id": "s_ESGASAMhBUE5wZNjVoTs8S",
+          "locator": "条文：条文识读（父）",
+          "quotation": "父橋，字法生"
+        },
+        {
+          "source_id": "s_XmK4uXKaoBAKcwvzzk8Dzr",
+          "locator": "条文：条文识读（生）",
+          "quotation": "橋，字法生，侍御史、贈武威定王。生叡，封中山王"
+        }
+      ]
+    }
+  ],
+  "cite": []
+}

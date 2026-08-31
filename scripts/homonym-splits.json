@@ -1,9 +1,13 @@
 {
   "note": "同名异人拆分计划。每条 split 新建一条人物记录，retract 撤回错挂到旧记录上的关系主张，link 把同一条史料改挂到新记录。执行：node scripts/split-homonym.mjs",
+  "summary_prefix": "同名异人拆分",
   "splits": [
     {
       "key": "xts.ben.wei",
-      "name": { "text": "王賁", "language": "zh-Hant" },
+      "name": {
+        "text": "王賁",
+        "language": "zh-Hant"
+      },
       "aliases": [],
       "source_id": "s_XmK4uXKaoBAKcwvzzk8Dzr",
       "locator": "卷七十二中·宰相世系表·王氏",
@@ -13,8 +17,16 @@
     },
     {
       "key": "xts.hui.yiyang",
-      "name": { "text": "王恢", "language": "zh-Hant" },
-      "aliases": [{ "text": "伊陽君", "language": "zh-Hant" }],
+      "name": {
+        "text": "王恢",
+        "language": "zh-Hant"
+      },
+      "aliases": [
+        {
+          "text": "伊陽君",
+          "language": "zh-Hant"
+        }
+      ],
       "source_id": "s_XmK4uXKaoBAKcwvzzk8Dzr",
       "locator": "卷七十二中·宰相世系表·王氏",
       "quotation": "渝生息，為司寇。息生恢，封伊陽君。生元，元生頤，皆以中大夫召，不就。",
@@ -23,7 +35,10 @@
     },
     {
       "key": "xts.yuan.pre-qin",
-      "name": { "text": "王元", "language": "zh-Hant" },
+      "name": {
+        "text": "王元",
+        "language": "zh-Hant"
+      },
       "aliases": [],
       "source_id": "s_XmK4uXKaoBAKcwvzzk8Dzr",
       "locator": "卷七十二中·宰相世系表·王氏",
@@ -35,22 +50,42 @@
   "retract": [
     {
       "claim_id": "c_hxrGqogX26XiZqFoxoBVmi",
-      "expect": { "predicate": "kinship.parent_of", "subject": "p_stdr5CvvuDGfDZfLP8Esf3", "object": "p_hsA2s6GjFfW84AomhJn2jd", "label": "王错 → 王贲（秦）" },
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_stdr5CvvuDGfDZfLP8Esf3",
+        "object": "p_hsA2s6GjFfW84AomhJn2jd",
+        "label": "王错 → 王贲（秦）"
+      },
       "reason": "「生賁，為中大夫」指的是魏將軍王錯之子，不是秦大將軍王翦之子王賁；改挂到新建的先秦王賁记录。"
     },
     {
       "claim_id": "c_NkrWMFahJqqboCL2Tk5QXR",
-      "expect": { "predicate": "kinship.parent_of", "subject": "p_hsA2s6GjFfW84AomhJn2jd", "object": "p_o6NvJByLPPnPEvspkP9iwH", "label": "王贲（秦） → 王渝" },
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_hsA2s6GjFfW84AomhJn2jd",
+        "object": "p_o6NvJByLPPnPEvspkP9iwH",
+        "label": "王贲（秦） → 王渝"
+      },
       "reason": "「賁生渝」的賁是魏中大夫王賁，不是秦武陵侯王賁；改挂到新建的先秦王賁记录。"
     },
     {
       "claim_id": "c_S2HqPmwwEzPFbs5ZWs9aA1",
-      "expect": { "predicate": "kinship.parent_of", "subject": "p_EJ2TE7o7yGPbcE3jv7WbQY", "object": "p_jDe8nWw8Wngg5N7p8i5ZFN", "label": "王息 → 王恢（东晋）" },
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_EJ2TE7o7yGPbcE3jv7WbQY",
+        "object": "p_jDe8nWw8Wngg5N7p8i5ZFN",
+        "label": "王息 → 王恢（东晋）"
+      },
       "reason": "「息生恢，封伊陽君」的恢是先秦人物，不是东晋王劭之子王恢；改挂到新建的伊陽君王恢记录。"
     },
     {
       "claim_id": "c_Q6jCCegCzmuQHwVVMjokYB",
-      "expect": { "predicate": "kinship.parent_of", "subject": "p_PQJwWpzVMj992xqAUZcjv8", "object": "p_mfrSi4LJP3NsRDmh6Se9e7", "label": "王元（秦·琅邪始祖） → 王頤" },
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_PQJwWpzVMj992xqAUZcjv8",
+        "object": "p_mfrSi4LJP3NsRDmh6Se9e7",
+        "label": "王元（秦·琅邪始祖） → 王頤"
+      },
       "reason": "「元生頤」的元是伊陽君王恢之子，不是王離之子、琅邪王氏始祖王元；改挂到新建的先秦王元记录。"
     }
   ],

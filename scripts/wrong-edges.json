@@ -1,0 +1,209 @@
+{
+  "note": "把散文明确否证的亲属边撤回。每条都写明预期的两端，与库里不一致就在写入前中止。执行：node scripts/split-homonym.mjs --plan scripts/wrong-edges.json",
+  "splits": [],
+  "retract": [
+    {
+      "claim_id": "c_394PWSpT8s5TerRNavt76z",
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_euM8vAaSVjgAC2CHZ5oZsj",
+        "object": "p_eM19JSXJmo5wpa7Pt2ESoj",
+        "label": "王凝之 → 王玄之"
+      },
+      "reason": "原文只说王玄之是王羲之長子；王凝之与王玄之同为王羲之之子，是兄弟。"
+    },
+    {
+      "claim_id": "c_5vMtGNY93jysQ31VcPjzUH",
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_NQMsobn1i97iSnDmQ7jKnW",
+        "object": "p_DVJq6ki7XADytLWL91vZ3w",
+        "label": "王智 → 王粹"
+      },
+      "reason": "同上；王僧朗条「子女：王粹，王彧兄，黃門侍郎」。"
+    },
+    {
+      "claim_id": "c_9peS94pvG47nS3nD48mN4M",
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_gabMrmFiboimso9Dy1hg6D",
+        "object": "p_wVFro17KA7bp4KAFcA6kkM",
+        "label": "王匡 → 王捷"
+      },
+      "reason": "原文「增秩的儿子王匡、女儿王曄，怀能的儿子王兴，开明的女儿王捷」列的是王莽的诸子女，彼此为兄弟姐妹。"
+    },
+    {
+      "claim_id": "c_HpJCpHujqKCEiYf6BzR1g7",
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_T4veML4NqsRATCKLcYV7WC",
+        "object": "p_7dAR2o7ENfpRQNd3BxJpgA",
+        "label": "王劭 → 王协"
+      },
+      "reason": "原文「以弟弟王劭的儿子王謐为嗣子」说的是王协与王劭为兄弟、王謐为王劭之子；识读误作父子。王协与王劭同为王導之子。"
+    },
+    {
+      "claim_id": "c_QA1iY1TFgSmu2BJb45pG7V",
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_CDzewbvc57C3MHsFxzq2nG",
+        "object": "p_pqebTttw9MCLeZnfbrPfZD",
+        "label": "王羲之 → 王神爱"
+      },
+      "reason": "原文「祖父王羲之、父王献之」说的是祖孙；王神爱之父为王獻之。"
+    },
+    {
+      "claim_id": "c_QCzcfYsc43V1538j3Z6KDj",
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_NQMsobn1i97iSnDmQ7jKnW",
+        "object": "p_x2YE6srB2gXpaEuTinNRLE",
+        "label": "王智 → 王贞风"
+      },
+      "reason": "世系圖连线错位；王貞風条明说「父王僧朗」，王智为王僧朗之兄。"
+    },
+    {
+      "claim_id": "c_WJCn2pi3ET8p2TD2YZY1EL",
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_7dAR2o7ENfpRQNd3BxJpgA",
+        "object": "p_VHfRqeB4dmvKQorKeVs6u9",
+        "label": "王协 → 王默"
+      },
+      "reason": "同上：世系圖连线错位；王默为王劭之子（王劭条「子女：王默，吳國內史」）。"
+    },
+    {
+      "claim_id": "c_YLVJ3p1U6QejbXfE94aDaJ",
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_NQMsobn1i97iSnDmQ7jKnW",
+        "object": "p_1Q4woESTMQj8wKj15P4Nwj",
+        "label": "王智 → 王楷"
+      },
+      "reason": "同上；王僧朗条「子女：王楷，王彧兄，太中大夫」。"
+    },
+    {
+      "claim_id": "c_YUR5ZLXnXDqigmC1cYDxti",
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_hu5ciWSUfy8JJUYPQoVfRH",
+        "object": "p_4WyRjEwm4g74qGtK9TaHgA",
+        "label": "王曄 → 王安"
+      },
+      "reason": "同「王匡 → 王安」：兄弟姐妹误作父子。"
+    },
+    {
+      "claim_id": "c_ZrqhSk12rLwgPRD9Lk9ZCr",
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_gabMrmFiboimso9Dy1hg6D",
+        "object": "p_47sUF5CcC79DN4JwcCLdsg",
+        "label": "王匡 → 王兴"
+      },
+      "reason": "同上：王兴为王莽之妾怀能所生，与王匡是兄弟。"
+    },
+    {
+      "claim_id": "c_bLEamWNPpTrq6hEFs3Wmug",
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_7dAR2o7ENfpRQNd3BxJpgA",
+        "object": "p_kQZ5bmU8mbAHk7K3zBAi1v",
+        "label": "王协 → 王穆"
+      },
+      "reason": "同上：世系圖连线错位；王穆为王劭之子（王劭条「子女：王穆，臨海太守」）。"
+    },
+    {
+      "claim_id": "c_i5357NZ1P8ruSEuC4q8ArQ",
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_gabMrmFiboimso9Dy1hg6D",
+        "object": "p_4WyRjEwm4g74qGtK9TaHgA",
+        "label": "王匡 → 王安"
+      },
+      "reason": "原文「孝睦皇后和三子王安先后去世…请求这些弟弟妹妹到京城常安受封」说的是兄弟姐妹；王匡与王安同为王莽之子。"
+    },
+    {
+      "claim_id": "c_iJLXmyyUxpEUJGCGisCTSj",
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_Eq4EcrhTd9xwwtDn5FnPZR",
+        "object": "p_X2f94X4uNxnhFPWPxZo8zw",
+        "label": "王翁須 → 王接"
+      },
+      "reason": "原文「汉宣帝母亲王翁须的兄弟王无故的长子」说的是王接为王无故之子、王翁須为其姑母。"
+    },
+    {
+      "claim_id": "c_iaQ9ENLaD5Yq4UGBnUv6zp",
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_hu5ciWSUfy8JJUYPQoVfRH",
+        "object": "p_47sUF5CcC79DN4JwcCLdsg",
+        "label": "王曄 → 王兴"
+      },
+      "reason": "同上：王莽诸子女并列，误作父子。"
+    },
+    {
+      "claim_id": "c_kZpb3af41B2QBodW5KBdEs",
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_dRM2nNMR4Y4tMEwG8AxGcm",
+        "object": "p_8rmLAjjNeK1vUUwZgEJckW",
+        "label": "王兒姁 → 王娡"
+      },
+      "reason": "原文「臧儿将长女王娡和次女兒姁都送入…」说的是姐妹。"
+    },
+    {
+      "claim_id": "c_mZioBVTvrN15J2GCQJ5Hd7",
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_hu5ciWSUfy8JJUYPQoVfRH",
+        "object": "p_wVFro17KA7bp4KAFcA6kkM",
+        "label": "王曄 → 王捷"
+      },
+      "reason": "同上：王莽诸子女并列，误作父子。"
+    },
+    {
+      "claim_id": "c_nPGWnenZ72cZTrMxJ9BDW9",
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_4WyRjEwm4g74qGtK9TaHgA",
+        "object": "p_A8FAveduRxHfZnWXJFoTec",
+        "label": "王安 → 王臨"
+      },
+      "reason": "原文「王莽立四子王临为太子」；王安为三子，二人是兄弟。"
+    },
+    {
+      "claim_id": "c_rkBThzWiwza5omCMNcHMhi",
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_7dAR2o7ENfpRQNd3BxJpgA",
+        "object": "p_jDe8nWw8Wngg5N7p8i5ZFN",
+        "label": "王协 → 王恢"
+      },
+      "reason": "《琅邪王氏世系圖》该处 {{Tree chart}} 源码列错位，渲染出的连线从王协横跨到王劭四子上方；散文（王劭条、王恢 (右卫将军)条）明说王恢为王劭之子。"
+    },
+    {
+      "claim_id": "c_umQCLPGrGmq1WfQRh17HDQ",
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_gabMrmFiboimso9Dy1hg6D",
+        "object": "p_hu5ciWSUfy8JJUYPQoVfRH",
+        "label": "王匡 → 王曄"
+      },
+      "reason": "同上：王匡与王曄同为王莽之妾增秩所生，是兄妹。"
+    },
+    {
+      "claim_id": "c_yCTpi6HwsoN8WM826vhF1Z",
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_ojGchAZHmRHY7mAfMcQCu4",
+        "object": "p_hCx9fcxQAYp3dsFzujCq7B",
+        "label": "王珣 → 王練"
+      },
+      "reason": "原文「王珉早逝，年少丧父的王练，由伯父王珣抚养」说的是伯父抚养；王練之父为王珉。"
+    }
+  ],
+  "link": [],
+  "cite": [],
+  "summary_prefix": "撤回：散文否证的亲属边"
+}

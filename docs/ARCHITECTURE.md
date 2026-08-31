@@ -105,9 +105,14 @@ scripts/enforce-scope.mjs        对齐收录范围：王姓及其配偶留下�
 scripts/fix-titled-names.mjs     庙号/称号改记为异名，本名提为 name.primary
 scripts/audit-data.mjs           复核：重复、无来源主张、悬空关系、待处理合并提案
 scripts/propose-merge.mjs        确认是同一人时，逐对提出可回滚的合并提案
+scripts/resolve-duplicates.mjs   已判定的重复批量执行：提案 + 批准（需 reviewer）
+     scripts/duplicate-merges.json 每条写明识别依据；已执行的条目留在计划里，重跑为空操作
 scripts/split-homonym.mjs        反向情形：一条记录其实是两个同名的人
      scripts/homonym-splits.json  拆分计划：新建谁、撤回哪几条边、同一引用改挂到哪
+     scripts/wrong-edges.json     只用 retract：散文明确否证的亲属边（兄弟／姑侄读成父子）
+     scripts/generation-errors.json 只用 retract：祖父被记成父亲
      每条撤回都写明预期的两端，与库里不一致就在写入前中止
+scripts/purge-records.mjs        硬删除（政策例外，需 --yes-hard-delete 与 --backup）
 ```
 
 约束：
@@ -115,6 +120,8 @@ scripts/split-homonym.mjs        反向情形：一条记录其实是两个同�
 - **写入只走 HTTP API。** 亲属方向归一化、配偶对的规范化、亲属环检测、来源门槛、追加式版本和审计记录都在服务端，直接写 D1 会全部绕过。脚本只用 D1 做只读花名册查询和运维维护（`scripts/lib/d1.mjs`）。
 - **同一人只建一条记录。** 身份以外部标识为准：维基数据 QID 与 CBDB ID 通过维基数据的 P497 互相桥接，两个来源指向同一人时合并为一个节点。剩下的同名情况写入计划的 `name_collisions` 交人工判断——同名异人很常见（王益之妻吳氏与王安石之妻吳氏是两个人），因此绝不自动合并。
 - **导入前先找环。** 服务端只拒绝闭合亲属环的那一条边，而单名史料（「錯生賁，賁生渝」）会把相隔七代的两个同名者匹配成一人，前面每条边都合法、逐条写入，最后剩下一段折叠的世系。因此在「已有世系边 + 计划世系边」的图上求强连通分量（`scripts/lib/loops.mjs`），落在同一分量的计划边整批跳过并按人名打印整个环；拆分见 `COLLABORATION.md`。
+- **图不是句子，同名的框更不是同一个人。** 世系图追踪读的是渲染后的连线几何，这解决的是本项目解析器数错列的问题，解决不了页面自身 ASCII art 错位——《琅邪王氏世系圖》就把王劭四子的横杠画到了王协名下，追踪如实读出了一张错的图。因此图里读出的边只作单来源证据，与散文冲突时以散文为准；同一张图里出现多个同名框（三个王瑜）又没有各自条目时，一律进 `name_collisions` 交人工判断，绝不按名字认领已有记录。
+- **矛盾的形状比矛盾的名字好查。** 三个父亲、两兄弟共用子女、父亲同时又是祖父——这些形状不依赖姓名就能发现一条记录悄悄变成了两个人，或一句话被读成了错的关系（`audit-data.mjs` 的 `persons_with_three_parents`、`same_parent_same_child_pairs`、`parent_is_also_grandparent`）。查出来之后：确属误读的撤回；两个来源各说各话的标为 `disputed` 并存，不删少数说。
 - **两个来源互相印证。** 同一条关系若两边都有声明，就挂两条引用；`locator` 分别记维基数据属性号和 CBDB 亲属称谓，CBDB 还会带上它自己引用的文献。
 - **只记录父母子女与配偶。** 兄弟、翁婿、孙辈、十世孙等称谓一律计入 `unmapped_cbdb_relations` 上报但不入库——有完整的父母子女链就能推导出它们，重复存储只会制造冗余与冲突（见 `SOURCES_AND_POLICY.md`）。
 - **逐代扩展直到收敛。** `scripts/expand-kinship.mjs` 反复执行「取前沿 → 导入」，`scripts/.cache/expanded-keys.json` 记住问过谁，因此停止条件是明确的：没有未展开的人物即结束。`--max-new` 限制单轮新增（触顶会报告，不静默截断），`--stop-at` 是人数护栏。

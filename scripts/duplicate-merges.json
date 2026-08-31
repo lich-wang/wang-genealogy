@@ -1,0 +1,110 @@
+{
+  "note": "已判定为同一历史人物的重复记录。每条都写明识别依据。执行：node scripts/resolve-duplicates.mjs",
+  "approve": [
+    {
+      "proposal_id": "m_4FgTUAXnP6uRDMgSLd2Dj4",
+      "label": "王祥 Q45408733 → Q710053"
+    },
+    {
+      "proposal_id": "m_Qtzos16dyAfFc3iibP2ryu",
+      "label": "郁氏 Q65827493 → Q65833786"
+    },
+    {
+      "proposal_id": "m_JW5ZCqVC5Lo62mTP79LsrZ",
+      "label": "王融 Q16906208 → Q11573204"
+    },
+    {
+      "proposal_id": "m_UHsVvFPUDXuEt62GMUmZUL",
+      "label": "王耆之 Q22814794 → Q45408771"
+    },
+    {
+      "proposal_id": "m_LiGfZGQcdJS4BSQSK6PQG3",
+      "label": "王睦 Q100292568 → Q26209973"
+    },
+    {
+      "proposal_id": "m_jhBg3UzXECSQN1q7dUTUDR",
+      "label": "王衡（王锡爵之子）"
+    }
+  ],
+  "reject": [
+    {
+      "proposal_id": "m_AWALJ7GY3PdQTxke77vVRr",
+      "label": "王衡（重复提案）",
+      "reason": "与 m_jhBg3UzXECSQN1q7dUTUDR 指向同一对人物，重复提交；由前者执行。"
+    }
+  ],
+  "merge": [
+    {
+      "label": "王祥（第三条记录）",
+      "source": "p_2LrGQ2dXVFCLDsFuUQhHYa",
+      "target": "p_Xategg2TUsqjtsJGVyycV2",
+      "reason": "同一位王祥：Q22815020 与 Q710053（睢陵元公王祥）父同为王筠、子同为王胄，且 Q22815020 无其他资料。保留关系较完整的 Q710053。"
+    },
+    {
+      "label": "王谭",
+      "source": "p_C4QPyXp5ixtZ4H1eu8oWyM",
+      "target": "p_A3jqrz5MCP94kKUqSaDLU1",
+      "reason": "同一位王谭：Q56597984 与 Q1969370 父同为王訢、子同为王咸。保留资料较完整的 Q1969370。"
+    },
+    {
+      "label": "王丹",
+      "source": "p_A9nXTPSQPb5wYBHCUcANx8",
+      "target": "p_pgHE5AzNgMLRcAsioSinQE",
+      "reason": "同一位王丹：Q104698719 与 Q16077401 同为王立之子，二者均无其他区分资料，是维基数据上的重复条目。"
+    },
+    {
+      "label": "陈氏（王倬之妻）",
+      "source": "p_S6t6yEM7yF8514XFGJa9KM",
+      "target": "p_oXgB7fWB5Zz4xW1VtwDtA9",
+      "reason": "同一位陈氏：Q65856924 与 Q65856928 同为王倬之妻，无任何区分资料，QID 相邻，系维基数据上的重复条目。"
+    },
+    {
+      "label": "蒋氏（王汶之妻）",
+      "source": "p_78Go7Q84EWtRNgApdqojGg",
+      "target": "p_Xn7YfLPB8jFLqE7voVoB2a",
+      "reason": "同一位蒋氏：Q65808460 与 Q65803570 同为王汶之妻，无任何区分资料，系维基数据上的重复条目。"
+    },
+    {
+      "label": "王栽 → 王裁",
+      "source": "p_QjyukypsbptHUi23TEAmrQ",
+      "target": "p_awcmjvARumCUVcUWMzCoPg",
+      "reason": "同一人异写：《新唐書·宰相世系表》作「栽字士初，撫軍長史，襲即丘子。三子：導、穎、敞」，维基作「王裁」。二者父同为王览、子同为王導与王敞。字形折叠只处理简繁，裁／栽是异体写法，因此此前未被判为重复。保留带 QID 的王裁。"
+    },
+    {
+      "label": "王穎 → 王颍",
+      "source": "p_DBEuDn2WD8T5fqdLcuA1k6",
+      "target": "p_ceCMYoiv26S5pFT4xfWfzu",
+      "reason": "同一人异写，随王栽／王裁一同重复：均为王裁之子。"
+    },
+    {
+      "label": "刘乘 Q10899363",
+      "source": "p_XUFuEGX1shy5qCk72WgKn6",
+      "target": "p_MUaM1YR8x7EN3wFFqLw7ha",
+      "reason": "两条人物记录挂着同一个维基数据标识 Q10899363，必为重复。保留资料较完整的一条。"
+    },
+    {
+      "label": "刘寄 Q10899668",
+      "source": "p_i8a1fi1C2ifKLfzGz5t1DP",
+      "target": "p_jCYwj4n2RLTnWEmT6b18dc",
+      "reason": "两条人物记录挂着同一个维基数据标识 Q10899668，必为重复。保留资料较完整的一条。"
+    },
+    {
+      "label": "劉舜 Q10900334",
+      "source": "p_CKVPxJD1yLYoR6dsD1Yztd",
+      "target": "p_h2uGf8FydztZUR57LAQSfF",
+      "reason": "两条人物记录挂着同一个维基数据标识 Q10900334，必为重复。保留资料较完整的一条。"
+    },
+    {
+      "label": "刘越 Q10900433",
+      "source": "p_HWPsi3tsD8Hv5bcaQd43WU",
+      "target": "p_tim2ANDQ3xgP53prv4G25c",
+      "reason": "两条人物记录挂着同一个维基数据标识 Q10900433，必为重复。保留资料较完整的一条。"
+    },
+    {
+      "label": "王表 → 王德表",
+      "source": "p_bdAYKD91uXzc8r62jSTGQZ",
+      "target": "p_GMCTq5KrktL4A6wV97QsyN",
+      "reason": "同一人：王表（Q45587008／CBDB 153364）与王德表（Q45447026／CBDB 92112）父同为王信，子同为王昱、王景、王洛客三人全同。王之涣祖父作「王德表」，「王表」为省称。CBDB 与维基数据各自另立条目，属外部库自身的重复；保留资料较完整的王德表。"
+    }
+  ]
+}

@@ -244,4 +244,6 @@ ANCESTOR --kinship.ancestor_of--> DESCENDANT
 - `merge.propose`、`merge.approve`、`merge.reject`、`merge.revert`
 - `admin.reattribute`：运维维护动作，把既有记录的归属字段（`created_by_user_id`、`added_by_user_id`、`actor_user_id` 等）改到另一账号。只改归属，不改任何主张内容、状态或版本，且本身也要写入一条审计记录。
 - `admin.correct_metadata`：运维维护动作，修正导入写错的描述性元数据（例如把维基数据属性号当作维基百科条目的 `locator`）。同样不改主张内容、状态或版本，且必须写入审计记录说明改了什么。
+- `admin.purge_records`：唯一会真正删除数据的动作，仅在第四节规则 6 允许的范围内、且经运维明确授权时执行（`scripts/purge-records.mjs`）。这条审计记录本身就是规则 6 要求的「最小审计记录」，因此必须写明删了多少、备份在哪。硬删除会一并失去旧公开 ID 的重定向、合并快照与撤回理由——因范围调整而撤回的主张不属于「错误记录」，默认不在删除范围内。
+- `admin.set_role`：运维维护动作，修改贡献者账号的 `role`。不改任何主张，只改谁有审核权；正因为提权是最不该无声发生的一类操作，它必须留下审计记录。
 - `admin.suppress_person`：运维维护动作，把超出收录范围的人物转为 `suppressed`（不公开、不进搜索），不删除任何数据、可随时恢复。跨越公开边界的关系主张另行按正常流程撤回（`claim.retract`），公开页面因此不会指向隐藏记录。

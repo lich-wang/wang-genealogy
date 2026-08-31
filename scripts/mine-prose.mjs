@@ -362,13 +362,42 @@ console.error(`正则挖掘出 ${candidates.length} 条候选关系（含重复�
 if (chartPath) {
   let added = 0;
   for (const chart of JSON.parse(readFileSync(chartPath, 'utf8'))) {
+    // A chart that draws two boxes reading 王瑜 is telling you there are two men
+    // called 王瑜, and matching either one to the single 王瑜 already in the
+    // database by name welds strangers together — three of the chart's boxes
+    // ended up as one record that way, with three fathers. A box with its own
+    // article is still safe: the article is the identity. A box without one
+    // whose name is shared goes to the same place every other unresolved
+    // namesake goes, which is a human's desk.
+    const boxes = new Map();
+    for (const rel of chart.relations ?? []) {
+      for (const [name, title] of [
+        [rel.subject, rel.subject_title],
+        [rel.other, rel.other_title],
+      ]) {
+        if (!name) continue;
+        const seen = boxes.get(name) ?? new Set();
+        seen.add(title ?? '');
+        boxes.set(name, seen);
+      }
+    }
+    const shared = (name, title) => (boxes.get(name)?.size ?? 0) > 1 && !title;
+
     for (const rel of chart.relations ?? []) {
       if (!rel.subject || !rel.other) continue;
       candidates.push({
         source_corpus: 'zhwiki',
         source_title: chart.article,
-        a: { title: rel.subject_title ?? null, name: rel.subject },
-        b: { title: rel.other_title ?? null, name: rel.other },
+        a: {
+          title: rel.subject_title ?? null,
+          name: rel.subject,
+          shared_name_in_source: shared(rel.subject, rel.subject_title),
+        },
+        b: {
+          title: rel.other_title ?? null,
+          name: rel.other,
+          shared_name_in_source: shared(rel.other, rel.other_title),
+        },
         role: rel.other_is ?? 'child',
         term: rel.term ?? '世系圖',
         generations: null,
@@ -522,6 +551,10 @@ function resolve(side, contextId = null) {
   if (qid && personByQid.has(qid)) {
     return { kind: 'existing', person_id: personByQid.get(qid).person_id, qid, name: personByQid.get(qid).name };
   }
+  // The source itself says this name stands for more than one person and gave
+  // this one no article to tell them apart. Neither a name match nor a fresh
+  // record is honest here, so it joins the namesakes awaiting judgement.
+  if (side.shared_name_in_source && !qid) return { kind: 'ambiguous', name };
   if (name) {
     const matches = personsByFolded.get(foldKey(name)) ?? [];
     if (matches.length === 1) {
