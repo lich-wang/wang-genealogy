@@ -1,0 +1,429 @@
+{
+  "generated_from": [
+    "wikidata",
+    "public-primary-sources",
+    "luna-review"
+  ],
+  "hops": 1,
+  "max_new": 4,
+  "capped_relationships": 0,
+  "expanded_keys": [],
+  "identity_merges": [],
+  "name_collisions": [],
+  "skipped": [],
+  "unmapped_cbdb_relations": [],
+  "sources": [
+    {
+      "key": "wd:Q702470",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王昶（Q702470）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q702470",
+      "external_identifier": "Q702470"
+    },
+    {
+      "key": "wd:Q1306871",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王渾（Q1306871）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q1306871",
+      "external_identifier": "Q1306871"
+    },
+    {
+      "key": "wd:Q15897221",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王濟（Q15897221）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15897221",
+      "external_identifier": "Q15897221"
+    },
+    {
+      "key": "wd:Q18668855",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：鍾琰（Q18668855）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q18668855",
+      "external_identifier": "Q18668855"
+    },
+    {
+      "key": "wikisource:sanguozhi-27",
+      "kind": "wikisource",
+      "source_type": "book",
+      "title": "中文维基文库：三國志/卷27",
+      "publisher": "维基文库",
+      "license_code": "CC-BY-SA-4.0",
+      "canonical_url": "https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97/%E5%8D%B727",
+      "external_identifier": null
+    },
+    {
+      "key": "wikisource:jinshu-42",
+      "kind": "wikisource",
+      "source_type": "book",
+      "title": "中文维基文库：晉書/卷042",
+      "publisher": "维基文库",
+      "license_code": "CC-BY-SA-4.0",
+      "canonical_url": "https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8/%E5%8D%B7042",
+      "external_identifier": null
+    },
+    {
+      "key": "wikisource:jinshu-75",
+      "kind": "wikisource",
+      "source_type": "book",
+      "title": "中文维基文库：晉書/卷075",
+      "publisher": "维基文库",
+      "license_code": "CC-BY-SA-4.0",
+      "canonical_url": "https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8/%E5%8D%B7075",
+      "external_identifier": null
+    },
+    {
+      "key": "wikisource:jinshu-80",
+      "kind": "wikisource",
+      "source_type": "book",
+      "title": "中文维基文库：晉書/卷080",
+      "publisher": "维基文库",
+      "license_code": "CC-BY-SA-4.0",
+      "canonical_url": "https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8/%E5%8D%B7080",
+      "external_identifier": null
+    },
+    {
+      "key": "wikisource:shishuo-paidiao",
+      "kind": "wikisource",
+      "source_type": "book",
+      "title": "中文维基文库：世說新語/排調",
+      "publisher": "维基文库",
+      "license_code": "CC-BY-SA-4.0",
+      "canonical_url": "https://zh.wikisource.org/wiki/%E4%B8%96%E8%AA%AA%E6%96%B0%E8%AA%9E/%E6%8E%92%E8%AA%BF",
+      "external_identifier": null
+    },
+    {
+      "key": "wikisource:weishu-38",
+      "kind": "wikisource",
+      "source_type": "book",
+      "title": "中文维基文库：魏書/卷38",
+      "publisher": "维基文库",
+      "license_code": "CC-BY-SA-4.0",
+      "canonical_url": "https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B738",
+      "external_identifier": null
+    },
+    {
+      "key": "gazetteer:wang-xizhi",
+      "kind": "gazetteer",
+      "source_type": "gazetteer",
+      "title": "山东地情档案：《琅邪王氏文化志·王羲之》",
+      "creator": "《琅邪王氏文化志》编纂机构",
+      "publisher": "山东地情档案",
+      "license_code": "unknown",
+      "canonical_url": "https://shandong-chorography.org/database/bg/section/12/article/102/",
+      "external_identifier": null
+    }
+  ],
+  "persons": [
+    {
+      "key": "wd:Q702470",
+      "qid": "Q702470",
+      "cbdb": null,
+      "hop": 1,
+      "name": { "text": "王昶", "language": "zh-Hans" },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": { "text": "王昶", "language": "zh-Hans" },
+          "confidence": "high",
+          "source_keys": ["wd:Q702470", "wikisource:sanguozhi-27"],
+          "change_summary": "同名异人：曹魏司空王昶"
+        },
+        {
+          "predicate": "bio.summary",
+          "value": { "text": "曹魏将领、官员，字文舒，官至司空，谥穆侯。", "language": "zh-Hans" },
+          "confidence": "high",
+          "source_keys": ["wikisource:sanguozhi-27"],
+          "change_summary": "据《三国志》卷二十七补录"
+        },
+        {
+          "predicate": "death.date",
+          "value": { "date": { "original_text": "259年", "calendar_note": "《三国志》载甘露四年薨" } },
+          "confidence": "high",
+          "source_keys": ["wikisource:sanguozhi-27"],
+          "change_summary": "据《三国志》卷二十七补录卒年"
+        }
+      ],
+      "historicity": { "kind": "death_date", "detail": "《三国志》卷二十七载甘露四年薨" },
+      "source_keys": ["wd:Q702470", "wikisource:sanguozhi-27"]
+    },
+    {
+      "key": "wd:Q1306871",
+      "qid": "Q1306871",
+      "cbdb": null,
+      "hop": 1,
+      "name": { "text": "王渾", "language": "zh-Hant" },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": { "text": "王渾", "language": "zh-Hant" },
+          "confidence": "high",
+          "source_keys": ["wd:Q1306871", "wikisource:jinshu-42"],
+          "change_summary": "同名异人：西晋司徒王渾（玄沖）"
+        },
+        {
+          "predicate": "name.courtesy",
+          "value": { "text": "玄沖", "language": "zh-Hant" },
+          "confidence": "high",
+          "source_keys": ["wikisource:jinshu-42"],
+          "change_summary": "据《晋书》卷四十二补录字"
+        },
+        {
+          "predicate": "bio.summary",
+          "value": { "text": "西晋将领、官员，太原晋阳人，官至司徒、录尚书事，谥元。", "language": "zh-Hans" },
+          "confidence": "high",
+          "source_keys": ["wikisource:jinshu-42"],
+          "change_summary": "据《晋书》卷四十二补录"
+        },
+        {
+          "predicate": "birth.date",
+          "value": { "date": { "original_text": "223年", "calendar_note": "据卒年与《晋书》所载享年七十五" } },
+          "confidence": "medium",
+          "source_keys": ["wd:Q1306871", "wikisource:jinshu-42"],
+          "change_summary": "据公开结构化资料与《晋书》补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": { "date": { "original_text": "297年", "calendar_note": "《晋书》载元康七年薨" } },
+          "confidence": "high",
+          "source_keys": ["wikisource:jinshu-42"],
+          "change_summary": "据《晋书》卷四十二补录卒年"
+        }
+      ],
+      "historicity": { "kind": "death_date", "detail": "《晋书》卷四十二载元康七年薨" },
+      "source_keys": ["wd:Q1306871", "wikisource:jinshu-42"]
+    },
+    {
+      "key": "wd:Q15897221",
+      "qid": "Q15897221",
+      "cbdb": null,
+      "hop": 1,
+      "name": { "text": "王濟", "language": "zh-Hant" },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": { "text": "王濟", "language": "zh-Hant" },
+          "confidence": "high",
+          "source_keys": ["wd:Q15897221", "wikisource:jinshu-42"],
+          "change_summary": "同名异人：西晋王濟（武子）"
+        },
+        {
+          "predicate": "name.courtesy",
+          "value": { "text": "武子", "language": "zh-Hant" },
+          "confidence": "high",
+          "source_keys": ["wikisource:jinshu-42"],
+          "change_summary": "据《晋书》卷四十二补录字"
+        },
+        {
+          "predicate": "bio.summary",
+          "value": { "text": "西晋官员，字武子，太原晋阳人，官至太仆，追赠骠骑将军。", "language": "zh-Hans" },
+          "confidence": "high",
+          "source_keys": ["wikisource:jinshu-42"],
+          "change_summary": "据《晋书》卷四十二补录"
+        }
+      ],
+      "historicity": { "kind": "adjacent_to_historical_person", "detail": "《晋书》卷四十二为王渾立传并附子濟传" },
+      "source_keys": ["wd:Q15897221", "wikisource:jinshu-42"]
+    },
+    {
+      "key": "wd:Q18668855",
+      "qid": "Q18668855",
+      "cbdb": null,
+      "hop": 1,
+      "name": { "text": "鍾琰", "language": "zh-Hant" },
+      "spouse_only": true,
+      "relationship_only": true,
+      "out_of_scope": true,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": { "text": "鍾琰", "language": "zh-Hant" },
+          "confidence": "high",
+          "source_keys": ["wd:Q18668855", "wikisource:shishuo-paidiao"],
+          "change_summary": "仅按王姓人物配偶收录"
+        }
+      ],
+      "historicity": { "kind": "adjacent_to_historical_person", "detail": "《世说新语·排调》载王渾与妇鍾氏" },
+      "source_keys": ["wd:Q18668855", "wikisource:shishuo-paidiao"]
+    }
+  ],
+  "edges": [
+    {
+      "kind": "parent",
+      "parent_key": "db:p_vvqE2mAa43tXLYgrVcoKyQ",
+      "child_key": "wd:Q702470",
+      "parent_name": "王澤",
+      "child_name": "王昶",
+      "parent_person_id": "p_vvqE2mAa43tXLYgrVcoKyQ",
+      "citations": [{ "source_key": "wikisource:sanguozhi-27", "locator": "卷二十七·王昶传裴注", "quotation": "父澤，字季道。" }]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "wd:Q702470",
+      "child_key": "wd:Q1306871",
+      "parent_name": "王昶",
+      "child_name": "王渾",
+      "citations": [
+        { "source_key": "wikisource:sanguozhi-27", "locator": "卷二十七·王昶传", "quotation": "其子渾字玄沖，深字道沖。" },
+        { "source_key": "wikisource:jinshu-42", "locator": "卷四十二·王渾传", "quotation": "王渾，字玄沖，太原晉陽人也。父昶，魏司空。" }
+      ]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "wd:Q702470",
+      "child_key": "db:p_295EhDXTkuAPH7V5aARSnp",
+      "parent_name": "王昶",
+      "child_name": "王深",
+      "child_person_id": "p_295EhDXTkuAPH7V5aARSnp",
+      "citations": [{ "source_key": "wikisource:sanguozhi-27", "locator": "卷二十七·王昶传", "quotation": "其子渾字玄沖，深字道沖。" }]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "wd:Q702470",
+      "child_key": "db:p_5TgVFTZ3wCH9M3TBdFAhie",
+      "parent_name": "王昶",
+      "child_name": "王淪",
+      "child_person_id": "p_5TgVFTZ3wCH9M3TBdFAhie",
+      "citations": [{ "source_key": "wikisource:shishuo-paidiao", "locator": "排调第二十五·第八则刘孝标注", "quotation": "倫字太沖，司空穆侯中子，司徒渾弟也。", "note": "文献作倫，库内依通行写法记王淪；司空穆侯即王昶。" }]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "wd:Q702470",
+      "child_key": "db:p_LChbCBLeq9EqBGmzWw9UvF",
+      "parent_name": "王昶",
+      "child_name": "王湛",
+      "child_person_id": "p_LChbCBLeq9EqBGmzWw9UvF",
+      "citations": [{ "source_key": "wikisource:jinshu-75", "locator": "卷七十五·王湛传", "quotation": "王湛，字處沖，司徒渾之弟也……其父昶獨異焉。" }]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "wd:Q1306871",
+      "child_key": "db:p_7JYNdXM5oTTPhJfXB4ZvQ8",
+      "parent_name": "王渾",
+      "child_name": "王尚",
+      "child_person_id": "p_7JYNdXM5oTTPhJfXB4ZvQ8",
+      "citations": [{ "source_key": "wikisource:jinshu-42", "locator": "卷四十二·王渾传", "quotation": "渾所曆之職，前後著稱……長子尚早亡，次子濟嗣。" }]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "wd:Q1306871",
+      "child_key": "wd:Q15897221",
+      "parent_name": "王渾",
+      "child_name": "王濟",
+      "citations": [
+        { "source_key": "wikisource:jinshu-42", "locator": "卷四十二·王渾传", "quotation": "渾所曆之職，前後著稱……長子尚早亡，次子濟嗣。" },
+        { "source_key": "wikisource:shishuo-paidiao", "locator": "排调第二十五·第八则", "quotation": "王渾與婦鍾氏共坐，見武子從庭過。" }
+      ]
+    },
+    {
+      "kind": "spouse",
+      "a_key": "wd:Q1306871",
+      "b_key": "wd:Q18668855",
+      "a_name": "王渾",
+      "b_name": "鍾琰",
+      "citations": [
+        { "source_key": "wikisource:shishuo-paidiao", "locator": "排调第二十五·第八则", "quotation": "王渾與婦鍾氏共坐，見武子從庭過。" },
+        { "source_key": "wd:Q1306871", "locator": "P26（配偶）" }
+      ]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "wd:Q15897221",
+      "child_key": "db:p_ab8q6WVFvG4EFQXXHNt5WW",
+      "parent_name": "王濟",
+      "child_name": "王卓",
+      "child_person_id": "p_ab8q6WVFvG4EFQXXHNt5WW",
+      "citations": [{ "source_key": "wikisource:jinshu-42", "locator": "卷四十二·子濟", "quotation": "有庶子二人。卓字文宣，嗣渾爵，拜給事中。次聿，字茂宣，襲公主封敏陽侯。" }]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "wd:Q15897221",
+      "child_key": "db:p_2Sf7wHrC1Q3pFLZe9t9cCH",
+      "parent_name": "王濟",
+      "child_name": "王聿",
+      "child_person_id": "p_2Sf7wHrC1Q3pFLZe9t9cCH",
+      "citations": [{ "source_key": "wikisource:jinshu-42", "locator": "卷四十二·子濟", "quotation": "有庶子二人。卓字文宣，嗣渾爵，拜給事中。次聿，字茂宣，襲公主封敏陽侯。" }]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "db:p_LChbCBLeq9EqBGmzWw9UvF",
+      "child_key": "db:p_EZc8eia6jBCUiA6dx8URB6",
+      "parent_name": "王湛",
+      "child_name": "王承",
+      "parent_person_id": "p_LChbCBLeq9EqBGmzWw9UvF",
+      "child_person_id": "p_EZc8eia6jBCUiA6dx8URB6",
+      "citations": [{ "source_key": "wikisource:jinshu-75", "locator": "卷七十五·王湛传", "quotation": "湛少仕……元康五年卒，年四十七。子承嗣。" }]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "db:p_CDzewbvc57C3MHsFxzq2nG",
+      "child_key": "db:p_WJAVudN6i44AynGRG2Trts",
+      "parent_name": "王羲之",
+      "child_name": "王操之",
+      "parent_person_id": "p_CDzewbvc57C3MHsFxzq2nG",
+      "child_person_id": "p_WJAVudN6i44AynGRG2Trts",
+      "citations": [
+        { "source_key": "wikisource:jinshu-80", "locator": "卷八十·羲之子操之", "quotation": "羲之子 操之……操之字子重，歷侍中、尚書、豫章太守。" },
+        { "source_key": "gazetteer:wang-xizhi", "locator": "王羲之条·家庭", "quotation": "他有7个儿子，即玄之、凝之、涣之、肃之、徽之、操之、献之。" }
+      ]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "db:p_CDzewbvc57C3MHsFxzq2nG",
+      "child_key": "db:p_qbvqP1MVbkrnJ6f5KWy4vt",
+      "parent_name": "王羲之",
+      "child_name": "王肃之",
+      "parent_person_id": "p_CDzewbvc57C3MHsFxzq2nG",
+      "child_person_id": "p_qbvqP1MVbkrnJ6f5KWy4vt",
+      "citations": [{ "source_key": "gazetteer:wang-xizhi", "locator": "王羲之条·家庭", "quotation": "他有7个儿子，即玄之、凝之、涣之、肃之、徽之、操之、献之。" }]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "db:p_89sYwmpPra88h8E1JqNK5W",
+      "child_key": "db:p_KCHhMYDqZrEx175NbcPNgA",
+      "parent_name": "王愉",
+      "child_name": "王綏",
+      "parent_person_id": "p_89sYwmpPra88h8E1JqNK5W",
+      "child_person_id": "p_KCHhMYDqZrEx175NbcPNgA",
+      "citations": [{ "source_key": "wikisource:jinshu-75", "locator": "卷七十五·愉子綏", "quotation": "愉子綏……坐父愉之謀，與弟納並被誅。" }]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "db:p_89sYwmpPra88h8E1JqNK5W",
+      "child_key": "db:p_3Ay8Fcu4Qh6NPDuMEYNHBN",
+      "parent_name": "王愉",
+      "child_name": "王納",
+      "parent_person_id": "p_89sYwmpPra88h8E1JqNK5W",
+      "child_person_id": "p_3Ay8Fcu4Qh6NPDuMEYNHBN",
+      "citations": [{ "source_key": "wikisource:jinshu-75", "locator": "卷七十五·愉子綏", "quotation": "愉子綏……坐父愉之謀，與弟納並被誅。" }]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "db:p_ANjVfL6Dd7HKVhAWUaTFWB",
+      "child_key": "db:p_ogGf8RMRHR3epSHJWTMviQ",
+      "parent_name": "王琼",
+      "child_name": "王遵业",
+      "parent_person_id": "p_ANjVfL6Dd7HKVhAWUaTFWB",
+      "child_person_id": "p_ogGf8RMRHR3epSHJWTMviQ",
+      "citations": [{ "source_key": "wikisource:weishu-38", "locator": "卷三十八·王慧龙传附王瓊", "quotation": "時瓊子遵業為黃門郎……至瓊始有四子。長子遵業。" }]
+    }
+  ]
+}

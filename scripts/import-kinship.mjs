@@ -179,12 +179,18 @@ function namedKeys(person) {
 // locator has no meaning against that.
 const sourceRows = d1Query(
   `SELECT id, external_identifier, canonical_url FROM source
-    WHERE external_identifier IS NOT NULL`,
+    WHERE external_identifier IS NOT NULL OR canonical_url IS NOT NULL`,
   { ...d1, label: 'sources' },
 );
 const sourceIdByKey = new Map();
+const sourceIdByUrl = new Map();
 for (const row of sourceRows) {
   const url = row.canonical_url ?? '';
+  // Prose and book sources usually have no external identifier. Their
+  // canonical URL is still a stable identity and must be reused across
+  // incremental reading rounds, otherwise every run creates another copy of
+  // the same Wikipedia/Wikisource/gazetteer record.
+  if (url && !sourceIdByUrl.has(url)) sourceIdByUrl.set(url, row.id);
   if (/^Q\d+$/.test(row.external_identifier) && url.startsWith('https://www.wikidata.org/wiki/')) {
     sourceIdByKey.set(`wd:${row.external_identifier}`, row.id);
   }
@@ -192,6 +198,10 @@ for (const row of sourceRows) {
   if (m && url.includes('cbdb.fas.harvard.edu')) {
     sourceIdByKey.set(`cbdb:${m[1].replace(/^0+/, '')}`, row.id);
   }
+}
+for (const source of plan.sources) {
+  const existing = source.canonical_url ? sourceIdByUrl.get(source.canonical_url) : null;
+  if (existing && !sourceIdByKey.has(source.key)) sourceIdByKey.set(source.key, existing);
 }
 
 console.log(

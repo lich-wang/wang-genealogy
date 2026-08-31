@@ -1,0 +1,89 @@
+{
+  "note": "Luna 与主代理复核：新唐书早期太原段被按同名误挂到唐代人物及琅邪人物，相关后代也随之错挂。",
+  "summary_prefix": "跨时代同名纠错",
+  "splits": [],
+  "retract": [
+    {
+      "claim_id": "c_4E17Hkem9MNUGJdC3WpiCQ",
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_vvqE2mAa43tXLYgrVcoKyQ",
+        "object": "p_oETmTn9J6N4eKzLNbB1SH3",
+        "label": "东汉王泽→唐代王昶"
+      },
+      "reason": "跨时代同名误接；此处所需为曹魏司空王昶（Q702470），不是唐代王昶（Q45661269/CBDB 175465）。"
+    },
+    {
+      "claim_id": "c_WDxE8zDCoC8qSrYs8orEJi",
+      "expect": {
+        "predicate": "kinship.adoptive_parent_of",
+        "subject": "p_oETmTn9J6N4eKzLNbB1SH3",
+        "object": "p_yBeG9nsoxKrQMEsuV6rHRj",
+        "label": "唐代王昶⇢琅邪王浑"
+      },
+      "reason": "两端均为同名误接；《三国志》所谓子渾是太原王渾（玄沖，Q1306871），不是王戎之父王浑（Q22814894）；“嗣”指承袭爵位，不是收养。"
+    },
+    {
+      "claim_id": "c_iSTSJS24DAMs7zUv65KJ7F",
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_oETmTn9J6N4eKzLNbB1SH3",
+        "object": "p_RntJXBiuJxcZMFp7Co29uq",
+        "label": "唐代王昶→唐代王济"
+      },
+      "reason": "《新唐书》此段世系与《晋书》冲突，且两端实际均为唐代同名人物；西晋王济（武子，Q15897221）之父为太原王渾（玄沖）。"
+    },
+    {
+      "claim_id": "c_dqSA89BTW81UaXRncywx1Y",
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_yBeG9nsoxKrQMEsuV6rHRj",
+        "object": "p_LChbCBLeq9EqBGmzWw9UvF",
+        "label": "琅邪王浑→太原王湛"
+      },
+      "reason": "跨支同名误接；《晋书》卷七十五明载王湛之父为王昶、王湛为司徒王渾之弟。"
+    },
+    {
+      "claim_id": "c_sukbjkGQMnGzhn4XveMoRL",
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_RntJXBiuJxcZMFp7Co29uq",
+        "object": "p_ab8q6WVFvG4EFQXXHNt5WW",
+        "label": "唐代王济→西晋王卓"
+      },
+      "reason": "同名误接；《晋书》卷四十二所载王卓为西晋王济（武子）庶子。"
+    },
+    {
+      "claim_id": "c_eNfKnyRRY1tWcMUVtG4r5f",
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_RntJXBiuJxcZMFp7Co29uq",
+        "object": "p_2Sf7wHrC1Q3pFLZe9t9cCH",
+        "label": "唐代王济→西晋王聿"
+      },
+      "reason": "同名误接；《晋书》卷四十二所载王聿为西晋王济（武子）庶子。"
+    },
+    {
+      "claim_id": "c_NbYDKMu56MbJ18xxgrcJJE",
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_ajJ3GUJD8w7ZktUXDD9NAb",
+        "object": "p_Lcjo9PzKUJ4DoRFQ5LdSEp",
+        "label": "王凱→曹魏王弼"
+      },
+      "reason": "原引文明确写王凱是王弼祖父，正则误读为父亲；改记两代先祖关系。"
+    },
+    {
+      "claim_id": "c_PfySLMF53rCwUiK6jDxMLH",
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_DHbqGXMHDUDbi5qvE74UDS",
+        "object": "p_Lcjo9PzKUJ4DoRFQ5LdSEp",
+        "label": "南齐王奂→曹魏王弼"
+      },
+      "reason": "跨时代同名误接；王奂之子王弼于493年与父同案伏诛，不是226—249年的玄学家王弼。"
+    }
+  ],
+  "link": [],
+  "cite": []
+}

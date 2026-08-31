@@ -1,0 +1,177 @@
+{
+  "generated_from": ["public-primary-sources", "luna-review"],
+  "hops": 1,
+  "max_new": 1,
+  "capped_relationships": 0,
+  "expanded_keys": [],
+  "identity_merges": [],
+  "name_collisions": [],
+  "skipped": [],
+  "unmapped_cbdb_relations": [],
+  "sources": [
+    {
+      "key": "wikisource:wangbi-zhuan",
+      "kind": "wikisource",
+      "source_type": "book",
+      "title": "中文维基文库：王弼傳",
+      "creator": "何劭",
+      "publisher": "维基文库",
+      "license_code": "CC-BY-SA-4.0",
+      "canonical_url": "https://zh.wikisource.org/wiki/%E7%8E%8B%E5%BC%BC%E5%82%B3",
+      "external_identifier": null
+    },
+    {
+      "key": "gazetteer:wang-xizhi",
+      "kind": "gazetteer",
+      "source_type": "gazetteer",
+      "title": "山东地情档案：《琅邪王氏文化志·王羲之》",
+      "creator": "《琅邪王氏文化志》编纂机构",
+      "publisher": "山东地情档案",
+      "license_code": "unknown",
+      "canonical_url": "https://shandong-chorography.org/database/bg/section/12/article/102/",
+      "external_identifier": null
+    },
+    {
+      "key": "wikisource:xintangshu-72b",
+      "kind": "wikisource",
+      "source_type": "book",
+      "title": "中文维基文库：新唐書/卷072中",
+      "publisher": "维基文库",
+      "license_code": "CC-BY-SA-4.0",
+      "canonical_url": "https://zh.wikisource.org/wiki/%E6%96%B0%E5%94%90%E6%9B%B8%2F%E5%8D%B7072%E4%B8%AD",
+      "external_identifier": null
+    },
+    {
+      "key": "wikisource:nanqishu-49",
+      "kind": "wikisource",
+      "source_type": "book",
+      "title": "中文维基文库：南齊書/卷49",
+      "publisher": "维基文库",
+      "license_code": "CC-BY-SA-4.0",
+      "canonical_url": "https://zh.wikisource.org/wiki/%E5%8D%97%E9%BD%8A%E6%9B%B8/%E5%8D%B749",
+      "external_identifier": null
+    },
+    {
+      "key": "zhwiki:wangbi",
+      "kind": "zhwiki",
+      "source_type": "website",
+      "title": "中文维基百科：王弼",
+      "creator": "维基百科贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC-BY-SA-4.0",
+      "canonical_url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BC%BC",
+      "external_identifier": null
+    }
+  ],
+  "persons": [
+    {
+      "key": "named:王弼@nanqishu-49",
+      "qid": null,
+      "cbdb": null,
+      "hop": 1,
+      "name": { "text": "王弼", "language": "zh-Hans" },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": { "text": "王弼", "language": "zh-Hans" },
+          "confidence": "high",
+          "source_keys": ["wikisource:nanqishu-49"],
+          "change_summary": "同名异人：南齐王奂之子王弼"
+        },
+        {
+          "predicate": "death.date",
+          "value": { "date": { "original_text": "493年", "calendar_note": "南齐永明十一年与父王奂同案伏诛" } },
+          "confidence": "high",
+          "source_keys": ["wikisource:nanqishu-49"],
+          "change_summary": "据《南齐书》卷四十九补录卒年"
+        }
+      ],
+      "historicity": { "kind": "death_date", "detail": "《南齐书》卷四十九载王奂及其子王弼伏诛" },
+      "source_keys": ["wikisource:nanqishu-49"]
+    }
+  ],
+  "edges": [
+    {
+      "kind": "parent",
+      "parent_key": "db:p_oNkHTMoDGV5D9gHmvCAx7L",
+      "child_key": "db:p_Lcjo9PzKUJ4DoRFQ5LdSEp",
+      "parent_name": "王業",
+      "child_name": "王弼",
+      "parent_person_id": "p_oNkHTMoDGV5D9gHmvCAx7L",
+      "child_person_id": "p_Lcjo9PzKUJ4DoRFQ5LdSEp",
+      "citations": [
+        {
+          "source_key": "wikisource:wangbi-zhuan",
+          "locator": "首段",
+          "quotation": "弼字輔嗣，魏國山陽人也。父業，為尚書郎。"
+        }
+      ]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "db:p_CDzewbvc57C3MHsFxzq2nG",
+      "child_key": "db:p_tMh82RBuYVD7P2Gou14ptK",
+      "parent_name": "王羲之",
+      "child_name": "王涣之",
+      "parent_person_id": "p_CDzewbvc57C3MHsFxzq2nG",
+      "child_person_id": "p_tMh82RBuYVD7P2Gou14ptK",
+      "citations": [
+        {
+          "source_key": "gazetteer:wang-xizhi",
+          "locator": "王羲之条·家庭",
+          "quotation": "他有7个儿子，即玄之、凝之、涣之、肃之、徽之、操之、献之。"
+        }
+      ]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "db:p_LhrXSwBKuTqBng4RsWfQ9E",
+      "child_key": "db:p_jcRs628fmTNgkA6qAAYtH9",
+      "parent_name": "王处廉",
+      "child_name": "王𬘘",
+      "parent_person_id": "p_LhrXSwBKuTqBng4RsWfQ9E",
+      "child_person_id": "p_jcRs628fmTNgkA6qAAYtH9",
+      "citations": [
+        {
+          "source_key": "wikisource:xintangshu-72b",
+          "locator": "卷七十二中·河东王氏",
+          "quotation": "處廉生維、縉、繟、紘、紞。",
+          "note": "原文作王紞；库内人物 Q45421044/CBDB 32178 的主名字形为王𬘘，CBDB 同时明确其父为王處廉。"
+        }
+      ]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "db:p_DHbqGXMHDUDbi5qvE74UDS",
+      "child_key": "named:王弼@nanqishu-49",
+      "parent_name": "王奂",
+      "child_name": "王弼（南齐）",
+      "parent_person_id": "p_DHbqGXMHDUDbi5qvE74UDS",
+      "citations": [
+        {
+          "source_key": "wikisource:nanqishu-49",
+          "locator": "卷四十九·王奂传",
+          "quotation": "執彪及弟爽、弼……皆伏誅。"
+        }
+      ]
+    },
+    {
+      "kind": "ancestor",
+      "parent_key": "db:p_ajJ3GUJD8w7ZktUXDD9NAb",
+      "child_key": "db:p_Lcjo9PzKUJ4DoRFQ5LdSEp",
+      "parent_name": "王凱",
+      "child_name": "王弼",
+      "parent_person_id": "p_ajJ3GUJD8w7ZktUXDD9NAb",
+      "child_person_id": "p_Lcjo9PzKUJ4DoRFQ5LdSEp",
+      "citations": [
+        {
+          "source_key": "zhwiki:wangbi",
+          "locator": "家庭·祖父",
+          "quotation": "祖父王凱是王粲的族兄，祖母是劉表之女（《博物記》）",
+          "note": "祖父关系记为两代先祖，不作父子。"
+        }
+      ]
+    }
+  ]
+}
