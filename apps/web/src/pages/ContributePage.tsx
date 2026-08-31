@@ -477,6 +477,8 @@ function CreateRelationshipForm({ initialPerson }: { initialPerson: string }) {
   const relationshipLabels: Record<RelationshipInput, string> = {
     parent: '父/母（對方是當前人物的父母）',
     child: '子/女（對方是當前人物的子女）',
+    adoptive_parent: '收養父母（對方收養當前人物）',
+    adoptive_child: '收養子女（當前人物收養對方）',
     spouse: '配偶',
     // For a source that states descent without naming the generations between
     // ("太子晉後代"、"王元四世孫"). Put the stated generation in the locator.
@@ -497,7 +499,7 @@ function CreateRelationshipForm({ initialPerson }: { initialPerson: string }) {
         sources: cleanSourceRefs(sources),
         change_summary: summary.trim() || undefined,
       });
-      setOk(`已提交關係主張 ${res.claim_id ?? res.id ?? ''}。服務端會統一規範化為 parent_of 方向。`);
+      setOk(`已提交關係主張 ${res.claim_id ?? res.id ?? ''}。服務端會統一規範化為單向 *_of 關係。`);
     } catch (err) {
       setError(toMessage(err));
     } finally {
@@ -508,7 +510,7 @@ function CreateRelationshipForm({ initialPerson }: { initialPerson: string }) {
   return (
     <form className="form" onSubmit={submit}>
       <p className="hint">
-        {t('以自然語言方向填寫，服務端統一規範化為單向 parent_of，且不會從姓名或慣例推斷父/母角色。')}
+        {t('以自然語言方向填寫，服務端統一規範化為單向 *_of 關係；收養與生物學親子關係分開記錄。')}
       </p>
       <label className="field">
         <span>{t('當前人物 ID')}</span>

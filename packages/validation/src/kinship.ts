@@ -38,6 +38,18 @@ export function normalizeRelationship(
         subject_person_id: currentPersonId,
         object_person_id: relatedPersonId,
       };
+    case 'adoptive_parent':
+      return {
+        predicate: 'kinship.adoptive_parent_of',
+        subject_person_id: relatedPersonId,
+        object_person_id: currentPersonId,
+      };
+    case 'adoptive_child':
+      return {
+        predicate: 'kinship.adoptive_parent_of',
+        subject_person_id: currentPersonId,
+        object_person_id: relatedPersonId,
+      };
     case 'ancestor':
       // "related is an ancestor of the CURRENT person, generations unknown"
       return {
@@ -92,6 +104,14 @@ export function normalizeRelationship(
  * this project forbids.
  */
 const KINSHIP_TERM_PATTERNS: ReadonlyArray<{ input: RelationshipInput; pattern: RegExp }> = [
+  {
+    input: 'adoptive_parent',
+    pattern: /^(嗣父|嗣母|養父|養母|养父|养母|義父|義母|义父|义母)$/,
+  },
+  {
+    input: 'adoptive_child',
+    pattern: /^(嗣子|嗣女|養子|養女|养子|养女|義子|義女|义子|义女)$/,
+  },
   { input: 'parent', pattern: /^(父|母|生父|生母|嫡父|嫡母|親父|親母|亲父|亲母)$/ },
   {
     input: 'child',

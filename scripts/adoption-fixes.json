@@ -1,0 +1,18 @@
+{
+  "note": "将来源明确写作嗣子、养子或过继的关系从生物亲子改为收养亲子；须在支持 adoptive_child 的 API 部署后执行。",
+  "summary_prefix": "亲属类型修正",
+  "splits": [],
+  "retract": [
+    {"claim_id":"c_xdqBmHFuqyLdSYRa3zjjva","expect":{"predicate":"kinship.parent_of","subject":"p_7dAR2o7ENfpRQNd3BxJpgA","object":"p_4DPX9WczBMafdh2C9FWaf3","label":"王协→王謐（生物亲子）"},"reason":"来源明确说王协无子，以弟王劭之子王謐为嗣子；应记为收养亲子。"},
+    {"claim_id":"c_ntztTPXznCDxQ515c6oPUM","expect":{"predicate":"kinship.parent_of","subject":"p_9RT3J3AUTk6Cgprd7z985c","object":"p_nfxiEaLGQRDqhPzVhYQwfv","label":"王敦→王應（生物亲子）"},"reason":"来源明确说王應是王含之子、王敦养子；应记为收养亲子。"},
+    {"claim_id":"c_uMNBdFZjjofCFKavuvQPZT","expect":{"predicate":"kinship.parent_of","subject":"p_NQMsobn1i97iSnDmQ7jKnW","object":"p_e64GBPBpS2DkkgzPQzfX54","label":"王智→王彧（生物亲子）"},"reason":"来源明确说王彧生父王僧朗、过继伯父王智；应记为收养亲子。"},
+    {"claim_id":"c_91mvF55rtpPrN8qrfkxbva","expect":{"predicate":"kinship.parent_of","subject":"p_oETmTn9J6N4eKzLNbB1SH3","object":"p_yBeG9nsoxKrQMEsuV6rHRj","label":"王昶→王浑（生物亲子）"},"reason":"多条来源一致写作王昶嗣子，库内另有生父候选王雄；应记为收养亲子。"}
+  ],
+  "link": [
+    {"from":"p_7dAR2o7ENfpRQNd3BxJpgA","to":"p_4DPX9WczBMafdh2C9FWaf3","relationship":"adoptive_child","label":"王协→王謐（收养）","sources":[{"source_id":"s_uYXTUKM1kgfpCnR6jKGv5o","locator":"条文：子","quotation":"王协任晋元帝抚军参军，承袭父亲的爵位武冈侯，早年去世，没有儿子，以弟弟王劭的儿子王謐为嗣子"},{"source_id":"s_MGBoig692jprej3f8uiDi2","locator":"条文：世系圖","quotation":"王协 → 王谧"},{"source_id":"s_xEBYVW3xjFzLnp9P7pHZ2L","locator":"条文：世系圖","quotation":"王协 → 王谧"}]},
+    {"from":"p_9RT3J3AUTk6Cgprd7z985c","to":"p_nfxiEaLGQRDqhPzVhYQwfv","relationship":"adoptive_child","label":"王敦→王應（收养）","sources":[{"source_id":"s_THfcg41hmf2S8GWT9LJ5Dn","locator":"条文：养子","quotation":"又以養子，即王含之子王應為武衞將軍作為自己副手及繼承人。"},{"source_id":"s_MGBoig692jprej3f8uiDi2","locator":"条文：世系圖","quotation":"王敦 → 王应"},{"source_id":"s_xEBYVW3xjFzLnp9P7pHZ2L","locator":"条文：世系圖","quotation":"王敦 → 王应"}]},
+    {"from":"p_NQMsobn1i97iSnDmQ7jKnW","to":"p_e64GBPBpS2DkkgzPQzfX54","relationship":"adoptive_child","label":"王智→王彧（收养）","sources":[{"source_id":"s_L4ASBKhQFtxhHjHQ1KfTaX","locator":"条文：父","quotation":"王景文是東晉丞相王導的玄孫，父親是王僧朗，但過繼了給伯父王智"},{"source_id":"s_MGBoig692jprej3f8uiDi2","locator":"条文：世系圖","quotation":"王智 → 王景文"},{"source_id":"s_xEBYVW3xjFzLnp9P7pHZ2L","locator":"条文：世系圖","quotation":"王智 → 王景文"}]},
+    {"from":"p_oETmTn9J6N4eKzLNbB1SH3","to":"p_yBeG9nsoxKrQMEsuV6rHRj","relationship":"adoptive_child","label":"王昶→王浑（收养）","sources":[{"source_id":"s_LEbHKFeEKr6uMxZTLv5NPr","locator":"条文：条文识读（嗣子）","quotation":"王渾，王昶嗣子，曹魏及西晉重要將領"},{"source_id":"s_JhD7vPo5vXGiRknBGxUfHD","locator":"条文：条文识读（嗣子）","quotation":"王渾，王昶嗣子，曹魏及西晉重要將領"},{"source_id":"s_aw8xd6LrHMNCx64JpGaxGe","locator":"条文：条文识读（嗣子）","quotation":"王渾，王昶嗣子，曹魏及西晉重要將領"},{"source_id":"s_rbiyKYtLGkkwm2d3m2ne5d","locator":"条文：条文识读（嗣子）","quotation":"王渾，王昶嗣子"},{"source_id":"s_ia7UywJVEB9bkmTJ93pz7K","locator":"条文：条文识读（嗣子）","quotation":"王渾，王昶嗣子，曹魏及西晉重要將領，曾參與晉滅吳之戰，西晉官至司徒。"}]}
+  ],
+  "cite": []
+}

@@ -39,6 +39,8 @@ export interface PersonSummary {
   relationships: {
     parents: ClaimWithSources[];
     children: ClaimWithSources[];
+    adoptive_parents: ClaimWithSources[];
+    adoptive_children: ClaimWithSources[];
     spouses: ClaimWithSources[];
     /** Descent across unnamed generations, kept apart from named parentage. */
     ancestors: ClaimWithSources[];

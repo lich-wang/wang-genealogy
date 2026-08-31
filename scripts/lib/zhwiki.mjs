@@ -537,9 +537,29 @@ export function verifyRelation(relation, { title, plain, links, impliedSurname =
   const page = normalize(plain);
   const at = page.indexOf(quotation);
   if (at < 0) return { ok: false, reason: 'quotation_not_in_article' };
-  if (!quotation.includes(normalize(relation.other))) return { ok: false, reason: 'other_not_in_quotation' };
+  // A reader once shortened 王坦之 to 王坦. A substring check accepted it because
+  // the two characters occur at the start of the linked, longer name, then
+  // attached the four Eastern-Jin sons of 王坦之 to an unrelated Tang 王坦.
+  // A mention is usable only when at least one occurrence is not shadowed by a
+  // longer linked personal name at the same position.
+  const linkedNames = [...links.keys()].map(normalize).filter(Boolean);
+  const hasUnshadowedMention = (name) => {
+    let from = 0;
+    while (from <= quotation.length - name.length) {
+      const index = quotation.indexOf(name, from);
+      if (index < 0) return false;
+      const shadowed = linkedNames.some(
+        (linked) => linked !== name && linked.startsWith(name) && quotation.startsWith(linked, index),
+      );
+      if (!shadowed) return true;
+      from = index + name.length;
+    }
+    return false;
+  };
+  const reportedOther = normalize(relation.other);
+  if (!hasUnshadowedMention(reportedOther)) return { ok: false, reason: 'other_not_in_quotation' };
 
-  if (!quotation.includes(subject) && subject !== bareTitle) {
+  if (!hasUnshadowedMention(subject) && subject !== bareTitle) {
     // A history names its subject once and then writes 祖, 父, 子 — requiring
     // the name again in every sentence would reject almost everything it says.
     // What can still be checked is that the sentence sits under that name:

@@ -86,9 +86,15 @@ for (const edge of kinship) {
   if (edge.predicate === 'kinship.spouse_of') {
     add(edge.a, `spouse:${edge.b}`);
     add(edge.b, `spouse:${edge.a}`);
-  } else {
+  } else if (edge.predicate === 'kinship.parent_of') {
     add(edge.a, `parent_of:${edge.b}`);
     add(edge.b, `child_of:${edge.a}`);
+  } else if (edge.predicate === 'kinship.adoptive_parent_of') {
+    add(edge.a, `adoptive_parent_of:${edge.b}`);
+    add(edge.b, `adoptive_child_of:${edge.a}`);
+  } else if (edge.predicate === 'kinship.ancestor_of') {
+    add(edge.a, `ancestor_of:${edge.b}`);
+    add(edge.b, `descendant_of:${edge.a}`);
   }
 }
 const dates = new Map();
@@ -183,6 +189,50 @@ findings.unsourced_public_claims = query(
   'unsourced public claims',
 );
 
+// Unknown is absence of data, not a date claim. Keeping one produces a public
+// fact that says only that the source had no fact, contrary to source policy.
+findings.unknown_date_claims = query(
+  `SELECT c.id, c.predicate, c.subject_person_id,
+          json_extract(c.value_json, '$.date.original_text') AS original_text
+     FROM claim c JOIN person p ON p.id = c.subject_person_id
+    WHERE p.status = 'active'
+      AND c.predicate IN ('birth.date', 'death.date')
+      AND c.status NOT IN ('retracted', 'superseded')
+      AND trim(coalesce(json_extract(c.value_json, '$.date.original_text'), ''))
+          IN ('', '不详', '不詳', '?', '？')`,
+  'unknown date claims',
+);
+
+// A child may be born posthumously, so allow a full year after the parent's
+// latest possible death. Larger gaps usually mean two namesakes were joined.
+findings.parent_dead_before_child_birth = query(
+  `SELECT rel.id AS claim_id,
+          (SELECT json_extract(n.value_json, '$.text') FROM claim n
+            WHERE n.subject_person_id = rel.subject_person_id
+              AND n.predicate = 'name.primary' AND n.status NOT IN ('retracted', 'superseded')
+            ORDER BY n.created_at LIMIT 1) AS parent,
+          (SELECT json_extract(n.value_json, '$.text') FROM claim n
+            WHERE n.subject_person_id = rel.object_person_id
+              AND n.predicate = 'name.primary' AND n.status NOT IN ('retracted', 'superseded')
+            ORDER BY n.created_at LIMIT 1) AS child,
+          json_extract(pd.value_json, '$.date.latest') AS parent_death,
+          json_extract(cb.value_json, '$.date.earliest') AS child_birth
+     FROM claim rel
+     JOIN claim pd ON pd.subject_person_id = rel.subject_person_id
+                  AND pd.predicate = 'death.date'
+                  AND pd.status = 'accepted'
+     JOIN claim cb ON cb.subject_person_id = rel.object_person_id
+                  AND cb.predicate = 'birth.date'
+                  AND cb.status = 'accepted'
+    WHERE rel.predicate = 'kinship.parent_of'
+      AND rel.status = 'accepted'
+      AND substr(json_extract(pd.value_json, '$.date.latest'), 1, 1) <> '-'
+      AND substr(json_extract(cb.value_json, '$.date.earliest'), 1, 1) <> '-'
+      AND julianday(json_extract(cb.value_json, '$.date.earliest'))
+          - julianday(json_extract(pd.value_json, '$.date.latest')) > 366`,
+  'parent died more than one year before child birth',
+);
+
 // Two rows for what the model stores once.
 findings.mirrored_parent_edges = query(
   `SELECT a.id AS claim_a, b.id AS claim_b, a.subject_person_id, a.object_person_id
@@ -230,7 +280,9 @@ const descent = query(
      JOIN person pa ON pa.id = c.subject_person_id
      JOIN person pb ON pb.id = c.object_person_id
     WHERE c.predicate = 'kinship.parent_of'
-      AND c.status NOT IN ('retracted','superseded')
+      -- Disputed edges have already been reviewed and intentionally coexist;
+      -- structural checks should report unresolved accepted graph defects.
+      AND c.status = 'accepted'
       AND pa.status <> 'merged' AND pb.status <> 'merged'`,
   'parent edges',
 );
@@ -387,6 +439,7 @@ for (const edge of kinship) {
     spousePairs.push([edge.a, edge.b]);
     continue;
   }
+  if (edge.predicate !== 'kinship.parent_of') continue;
   if (!childrenOfPerson.has(edge.a)) childrenOfPerson.set(edge.a, new Set());
   childrenOfPerson.get(edge.a).add(edge.b);
   if (!parentsOfPerson.has(edge.b)) parentsOfPerson.set(edge.b, new Set());

@@ -216,7 +216,7 @@ const stats = {
   persons_published: 0,
   persons_unpublished: [],
   claims_created: 0,
-  edges_created: { parent: 0, spouse: 0, ancestor: 0 },
+  edges_created: { parent: 0, adoptive_parent: 0, spouse: 0, ancestor: 0 },
   edges_existing: 0,
   citations_added: 0,
   edges_failed: [],
@@ -398,6 +398,12 @@ async function findEdgeClaim(predicate, subjectId, objectId) {
 // predicate and the wording differ.
 const EDGE_KINDS = {
   parent: { relationship: 'child', predicate: 'kinship.parent_of', arrow: '→', directed: true },
+  adoptive_parent: {
+    relationship: 'adoptive_child',
+    predicate: 'kinship.adoptive_parent_of',
+    arrow: '⇢',
+    directed: true,
+  },
   ancestor: { relationship: 'descendant', predicate: 'kinship.ancestor_of', arrow: '⇢', directed: true },
   spouse: { relationship: 'spouse', predicate: 'kinship.spouse_of', arrow: '⇄', directed: false },
 };
@@ -438,7 +444,7 @@ for (const edge of plan.edges) {
 const inLoop = findLoops([
   ...d1Query(
     `SELECT subject_person_id AS a, object_person_id AS b FROM claim
-      WHERE predicate IN ('kinship.parent_of','kinship.ancestor_of')
+      WHERE predicate IN ('kinship.parent_of','kinship.adoptive_parent_of','kinship.ancestor_of')
         AND status NOT IN ('retracted','superseded')`,
     { ...d1, label: 'descent edges' },
   ).map((row) => [row.a, row.b]),
@@ -561,7 +567,7 @@ console.log(`人物新建: ${stats.persons_created}（已发布 ${stats.persons_
 console.log(`属性主张新建: ${stats.claims_created}`);
 console.log(
   `亲子关系新建: ${stats.edges_created.parent}，配偶关系新建: ${stats.edges_created.spouse}，` +
-    `世系关系新建: ${stats.edges_created.ancestor}，` +
+    `收养关系新建: ${stats.edges_created.adoptive_parent}，世系关系新建: ${stats.edges_created.ancestor}，` +
     `已存在: ${stats.edges_existing}（补充引用 ${stats.citations_added} 条）`,
 );
 if (stats.persons_unpublished.length) {

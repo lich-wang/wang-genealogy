@@ -36,6 +36,7 @@ import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { detectScript, foldKey } from '../packages/i18n/src/script.ts';
 import { d1Query } from './lib/d1.mjs';
+import { isWangScopeName } from './lib/scope.mjs';
 import {
   WIKISOURCE_SOURCE_TEMPLATE,
   biographyChapters,
@@ -111,26 +112,7 @@ const CLAN_ARTICLES = option(
   ].join(','),
 ).split(',');
 
-/**
- * The generations before the surname existed.
- *
- * A surname's genealogy has to be able to say where the surname came from, and
- * the people it came from did not yet carry it: 姬晋 is 姓姬名晋, and his son is
- * recorded simply as 宗敬 — it was his office that got the family called 王家.
- * Reading the boundary as "surname starts with 王" would put the origin of the
- * surname outside a database that exists to document it.
- *
- * Deliberately a closed list, not a rule. It is not an opening for non-王
- * relatives in general; it names the handful of people the sources present as
- * the surname's own origin.
- */
-const PROGENITORS = new Set(['姬晋', '姬晉', '太子晋', '太子晉', '王子乔', '王子喬', '王子晋', '王子晉', '宗敬']);
-
-const isWangName = (name) =>
-  typeof name === 'string' &&
-  (name.startsWith('王') ||
-    /王(皇后|皇太后|太后|夫人|氏|美人|婕妤|后)/.test(name) ||
-    PROGENITORS.has(name.trim()));
+const isWangName = isWangScopeName;
 
 // --- who we already have ----------------------------------------------------
 

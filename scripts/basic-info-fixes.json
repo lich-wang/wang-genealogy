@@ -1,0 +1,39 @@
+{
+  "note": "撤回把「不详」当成日期的基本信息主张。执行：node scripts/split-homonym.mjs --plan scripts/basic-info-fixes.json",
+  "summary_prefix": "撤回：来源未给出日期",
+  "splits": [],
+  "retract": [
+    {
+      "claim_id": "c_16qeRzxE667HrDxSW7d2E9",
+      "expect": {
+        "predicate": "death.date",
+        "subject": "p_hsA2s6GjFfW84AomhJn2jd",
+        "object": null,
+        "label": "王贲卒年「不详」"
+      },
+      "reason": "来源没有给出卒年；按《来源、许可与收录边界》，无数据时不建立 death.date，不能把「不详」写成日期主张。"
+    },
+    {
+      "claim_id": "c_K9tb29FXndRUQBXyK1DzJo",
+      "expect": {
+        "predicate": "death.date",
+        "subject": "p_svvmSXELHxu1dgtCxnAmuM",
+        "object": null,
+        "label": "王曠卒年「不详」"
+      },
+      "reason": "来源没有给出卒年；按《来源、许可与收录边界》，无数据时不建立 death.date，不能把「不详」写成日期主张。"
+    },
+    {
+      "claim_id": "c_aCEU4y7sqV1amiQ1fEiewS",
+      "expect": {
+        "predicate": "death.date",
+        "subject": "p_Zru5Kv87Ac9fELnRRbbTdQ",
+        "object": null,
+        "label": "王翦卒年「不详」"
+      },
+      "reason": "来源没有给出卒年；按《来源、许可与收录边界》，无数据时不建立 death.date，不能把「不详」写成日期主张。"
+    }
+  ],
+  "link": [],
+  "cite": []
+}

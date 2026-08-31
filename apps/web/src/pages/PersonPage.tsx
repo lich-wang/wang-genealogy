@@ -134,6 +134,18 @@ export function PersonPage() {
             disputeBusy={disputeBusy}
           />
           <RelationshipGroup
+            title="收養父母"
+            items={summary.relationships.adoptive_parents}
+            onDispute={isAuthenticated ? onDispute : undefined}
+            disputeBusy={disputeBusy}
+          />
+          <RelationshipGroup
+            title="收養子女"
+            items={summary.relationships.adoptive_children}
+            onDispute={isAuthenticated ? onDispute : undefined}
+            disputeBusy={disputeBusy}
+          />
+          <RelationshipGroup
             title="先祖（代數不明）"
             items={summary.relationships.ancestors}
             onDispute={isAuthenticated ? onDispute : undefined}

@@ -417,7 +417,15 @@ for (let hop = 1; hop <= hops; hop += 1) {
         noteRole(node, 'child');
         noteRole(anchor, 'parent');
         addEdge('parent', anchor, node, citation);
-      } else {
+      } else if (row.kind === 'adoptive_parent') {
+        noteRole(node, 'adoptive_parent');
+        noteRole(anchor, 'adoptive_child');
+        addEdge('adoptive_parent', node, anchor, citation);
+      } else if (row.kind === 'adoptive_child') {
+        noteRole(node, 'adoptive_child');
+        noteRole(anchor, 'adoptive_parent');
+        addEdge('adoptive_parent', anchor, node, citation);
+      } else if (row.kind === 'spouse') {
         noteRole(node, 'spouse');
         noteRole(anchor, 'spouse');
         addEdge('spouse', anchor, node, citation);
@@ -600,6 +608,7 @@ for (const node of nodes.values()) {
 const usedSourceKeys = new Set();
 const planEdges = [];
 const edgeCountByNode = new Map();
+const isDirectedEdge = (kind) => kind === 'parent' || kind === 'adoptive_parent';
 for (const edge of edges.values()) {
   if (unusable.has(edge.a.id) || unusable.has(edge.b.id)) continue;
   const a = edge.a.merged_into ?? edge.a;
@@ -615,11 +624,11 @@ for (const edge of edges.values()) {
   for (const c of edge.citations) usedSourceKeys.add(c.source_key);
   planEdges.push({
     kind: edge.kind,
-    ...(edge.kind === 'parent'
+    ...(isDirectedEdge(edge.kind)
       ? { parent_key: keyOf(a), child_key: keyOf(b), parent_name: a.name?.text, child_name: b.name?.text }
       : { a_key: keyOf(a), b_key: keyOf(b), a_name: a.name?.text, b_name: b.name?.text }),
-    parent_person_id: edge.kind === 'parent' ? a.person_id : undefined,
-    child_person_id: edge.kind === 'parent' ? b.person_id : undefined,
+    parent_person_id: isDirectedEdge(edge.kind) ? a.person_id : undefined,
+    child_person_id: isDirectedEdge(edge.kind) ? b.person_id : undefined,
     a_person_id: edge.kind === 'spouse' ? a.person_id : undefined,
     b_person_id: edge.kind === 'spouse' ? b.person_id : undefined,
     citations: edge.citations,
@@ -818,6 +827,7 @@ writeFileSync(outPath, `${JSON.stringify(plan, null, 2)}\n`, 'utf8');
 const spouseOnlyCount = planPersons.filter((p) => p.spouse_only).length;
 console.error(
   `plan: ${planEdges.filter((e) => e.kind === 'parent').length} 条亲子 + ` +
+    `${planEdges.filter((e) => e.kind === 'adoptive_parent').length} 条收养 + ` +
     `${planEdges.filter((e) => e.kind === 'spouse').length} 条配偶 | ` +
     `新建 ${planPersons.length} 人（其中仅配偶 ${spouseOnlyCount}）| ` +
     `跳过 ${skipped.length} | 同名待查 ${nameCollisions.length} | ` +

@@ -60,6 +60,8 @@ export type RelationshipPredicate = (typeof RELATIONSHIP_PREDICATES)[number];
 export const RELATIONSHIP_INPUT = [
   'parent',
   'child',
+  'adoptive_parent',
+  'adoptive_child',
   'spouse',
   'ancestor',
   'descendant',

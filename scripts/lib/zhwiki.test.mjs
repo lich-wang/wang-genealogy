@@ -215,6 +215,24 @@ describe('verifyRelation', () => {
     expect(checked).toEqual({ ok: false, reason: 'other_not_in_quotation' });
   });
 
+  it('does not treat a shorter namesake as a mention of a linked longer name', () => {
+    const wikitext = '* [[王國寶]]，[[王坦之]]三子。';
+    const checked = verifyRelation(
+      {
+        subject: '王國寶',
+        other: '王坦',
+        other_is: 'parent',
+        quotation: '王國寶，王坦之三子。',
+      },
+      {
+        title: '太原王氏',
+        plain: articlePlainText(wikitext),
+        links: linkTargetsByName(wikitext),
+      },
+    );
+    expect(checked).toEqual({ ok: false, reason: 'other_not_in_quotation' });
+  });
+
   it('rejects a sentence that states no kinship at all', () => {
     const checked = verifyRelation(
       relation({ other: '王恬', quotation: '王導像' }),

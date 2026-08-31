@@ -1,0 +1,53 @@
+{
+  "note": "第四批：Luna 复核确认的跨时代同名误接。",
+  "summary_prefix": "同名异人拆分",
+  "splits": [
+    {"key":"nanchen.min","name":{"text":"王珉","language":"zh-Hans"},"source_id":"s_MGBoig692jprej3f8uiDi2","locator":"条文：世系圖","quotation":"琅邪王氏世系圖 世系圖：王冲 → 王珉","reason":"南陈王冲之子被误接到东晋同名人物。","historicity":"南陈王冲（492–567）之子，曾作为人质赴北齐；不是东晋王洽之子王珉（351年生）。"},
+    {"key":"nanchen.qiu","name":{"text":"王球","language":"zh-Hans"},"source_id":"s_MGBoig692jprej3f8uiDi2","locator":"条文：世系圖","quotation":"琅邪王氏世系圖 世系圖：王冲 → 王球","reason":"南陈王冲之子被误接到刘宋同名人物。","historicity":"南陈王冲之子、太子庶子；不是王謐之子王球（393–441）。"},
+    {"key":"nanchen.xiang","name":{"text":"王祥","language":"zh-Hans"},"source_id":"s_MGBoig692jprej3f8uiDi2","locator":"条文：世系圖","quotation":"琅邪王氏世系圖 世系圖：王筠 → 王祥","reason":"南陈王筠之子被误接到西晋同名人物。","historicity":"南陈黄门侍郎，王筠（481–549）之子、王胄（558–613）之父；不是西晋王祥（184–268）。"},
+    {"key":"southern.xiu","name":{"text":"王休","language":"zh-Hans"},"source_id":"s_MGBoig692jprej3f8uiDi2","locator":"条文：世系圖","quotation":"琅邪王氏世系圖 世系圖：王志 → 王休","reason":"南朝王志之子被误接到唐代同名人物。","historicity":"南朝王志之子；不是唐代王晦之子王休。"},
+    {"key":"southern.shao","name":{"text":"王绍","language":"zh-Hans"},"source_id":"s_MGBoig692jprej3f8uiDi2","locator":"条文：世系圖","quotation":"琅邪王氏世系圖 世系圖：王肃 → 王绍","reason":"南朝王肃之子被误接到唐代同名人物。","historicity":"南朝王肃之子、王迁之父；不是唐代王仲连之子王绍。"},
+    {"key":"tang.yi","name":{"text":"王廙","language":"zh-Hans"},"source_id":"s_XmK4uXKaoBAKcwvzzk8Dzr","locator":"条文：条文识读（三子）","quotation":"三子：廙、曠、彬","reason":"唐代王士则之子被误接到东晋同名人物。","historicity":"唐代王士则之子；不是东晋王正之子王廙（276–322）。"},
+    {"key":"tang.kuang","name":{"text":"王曠","language":"zh-Hant"},"source_id":"s_XmK4uXKaoBAKcwvzzk8Dzr","locator":"条文：条文识读（三子）","quotation":"三子：廙、曠、彬","reason":"唐代王士则之子被误接到东晋同名人物。","historicity":"唐代王士则之子；不是王羲之之父王曠。"},
+    {"key":"tang.she","name":{"text":"王涉","language":"zh-Hans"},"source_id":"s_xEBYVW3xjFzLnp9P7pHZ2L","locator":"条文：世系图","quotation":"琅邪王氏世系圖 世系圖：王锡 → 王涉","reason":"唐代王锡之子被误接到新朝同名人物。","historicity":"唐代王锡之子；不是王根之子、新朝王涉（23年卒）。"},
+    {"key":"liang.song","name":{"text":"王诵","language":"zh-Hans"},"source_id":"s_iWbwQosLW2HFybpKpbUPvH","locator":"条文：条文识读（儿子）","quotation":"南梁侍中、中书令、护军将军、大將軍王诵的儿子","reason":"南梁王诵的世系被误挂到北魏同名人物。","historicity":"南梁侍中、中书令、护军将军、大将军；王穉之子，王儁康、王孝康、王衮之父。王衮558年生，故不是528年卒的北魏王诵。"},
+    {"key":"han.song","name":{"text":"王誦","language":"zh-Hant"},"source_id":"s_MxGQVyh6BesvegW37DFrQG","locator":"条文：信息框 parents（父）","quotation":"王誦（父）","reason":"东汉王充之父被误挂到北魏同名人物。","historicity":"东汉王充（27–约97）之父；不是北魏王诵（482–528）。"}
+  ],
+  "retract": [
+    {"claim_id":"c_UfPEvgTjM8DWHfpXUrKDCX","expect":{"predicate":"kinship.parent_of","subject":"p_1yyJgULJScCP8bYcGrpFnn","object":"p_tHbVGq9sycrykvp4emuxp6","label":"王冲（南陈）→王珉（东晋）"},"reason":"跨时代同名误接；应新建南陈王珉。"},
+    {"claim_id":"c_EspH25DdfUBBGeiSiJKUUF","expect":{"predicate":"kinship.parent_of","subject":"p_1yyJgULJScCP8bYcGrpFnn","object":"p_8HcdTp6omF8z3tjYeyQCFC","label":"王冲（南陈）→王球（刘宋）"},"reason":"跨时代同名误接；应新建南陈王球。"},
+    {"claim_id":"c_mBe1mm6YHESG4wCiFae4ph","expect":{"predicate":"kinship.parent_of","subject":"p_XMjNEYPhE1uYhd3QLBRmJD","object":"p_Xategg2TUsqjtsJGVyycV2","label":"王筠（南陈）→王祥（西晋）"},"reason":"跨时代同名误接；应新建南陈王祥。"},
+    {"claim_id":"c_aZYHpwQF5Ak1k3pYdD1JmT","expect":{"predicate":"kinship.parent_of","subject":"p_Xategg2TUsqjtsJGVyycV2","object":"p_n2VhJYKthxCZqxJ3FGvsKN","label":"王祥（西晋）→王胄（南陈）"},"reason":"跨时代同名误接；王胄之父是南陈王祥。"},
+    {"claim_id":"c_dssA16N89WkmSrE6f9KWtT","expect":{"predicate":"kinship.parent_of","subject":"p_jLiWepWyuCmhBbQ3b2FAR9","object":"p_Dfa1f6LajcccPqL7uqrxjU","label":"王志（南朝）→王休（唐）"},"reason":"跨时代同名误接；应新建南朝王休。"},
+    {"claim_id":"c_fjP8jWBBEgV1Z8vijEwasJ","expect":{"predicate":"kinship.parent_of","subject":"p_5AMv9WBqacZuT86WkDC25v","object":"p_kPVUDqmRJviwWheZyyk9pk","label":"王肃（南朝）→王绍（唐）"},"reason":"跨时代同名误接；应新建南朝王绍。"},
+    {"claim_id":"c_XnQCkDJJdNBX7P9L2WvbdJ","expect":{"predicate":"kinship.parent_of","subject":"p_kPVUDqmRJviwWheZyyk9pk","object":"p_VbMFeBUAW5QmAsjzmSzGcM","label":"王绍（唐）→王迁（南朝）"},"reason":"跨时代同名误接；王迁之父是南朝王绍。"},
+    {"claim_id":"c_fVPJ73q5PyVZekTapAtd7S","expect":{"predicate":"kinship.parent_of","subject":"p_3YKBL6QdYUSrkYMomw6J8u","object":"p_b9xZoiiuBPoW8L2RzpVVCo","label":"王士则（唐）→王廙（东晋）"},"reason":"跨时代同名误接；应新建唐代王廙。"},
+    {"claim_id":"c_3qCDXwNT5xy12Hb1Z3g1dE","expect":{"predicate":"kinship.parent_of","subject":"p_3YKBL6QdYUSrkYMomw6J8u","object":"p_svvmSXELHxu1dgtCxnAmuM","label":"王士则（唐）→王曠（东晋）"},"reason":"跨时代同名误接；应新建唐代王曠。"},
+    {"claim_id":"c_N1FgGjXcd238519C9dhNFJ","expect":{"predicate":"kinship.parent_of","subject":"p_muf5LSh6aGkW56UNfBDJFd","object":"p_CxozDAUbMf7RM6AjjJsYJZ","label":"王锡（唐）→王涉（新朝）"},"reason":"跨时代同名误接；应新建唐代王涉。"},
+    {"claim_id":"c_Y8c4eijCigCLDLRPYa9WAi","expect":{"predicate":"kinship.parent_of","subject":"p_M2tXQe2FSQ532ZvGY6jPvZ","object":"p_rbZNYEH2GP46qNZ57sZo3K","label":"王穉（南梁）→王诵（北魏）"},"reason":"跨时代同名误接；应新建南梁王诵。"},
+    {"claim_id":"c_ZASc4eGyxDnAGVif7SyfFD","expect":{"predicate":"kinship.parent_of","subject":"p_rbZNYEH2GP46qNZ57sZo3K","object":"p_u92nRcsyU6Vi8eXXB56EK8","label":"王诵（北魏）→王儁康（南梁）"},"reason":"跨时代同名误接；王儁康之父是南梁王诵。"},
+    {"claim_id":"c_cQQBRpfQAPnnzSi8Dxcks4","expect":{"predicate":"kinship.parent_of","subject":"p_rbZNYEH2GP46qNZ57sZo3K","object":"p_tspKny23JfzAPq93EuM1CW","label":"王诵（北魏）→王孝康（南梁）"},"reason":"跨时代同名误接；王孝康之父是南梁王诵。"},
+    {"claim_id":"c_KUJ6fNQD2JKdvD8s1G5287","expect":{"predicate":"kinship.parent_of","subject":"p_rbZNYEH2GP46qNZ57sZo3K","object":"p_PGJAWHxYxJtx3aVz4EvhUR","label":"王诵（北魏）→王衮（南梁）"},"reason":"跨时代同名误接；王衮之父是南梁王诵。"},
+    {"claim_id":"c_qCjKhoktboGPAaeHbErSQB","expect":{"predicate":"kinship.parent_of","subject":"p_rbZNYEH2GP46qNZ57sZo3K","object":"p_QZkat9wCSKR6E7A6uzPGsW","label":"王诵（北魏）→王充（东汉）"},"reason":"跨时代同名误接；应新建东汉王誦。"},
+    {"claim_id":"c_CE24vuusPWzPEJ8KwjPXnn","expect":{"predicate":"kinship.parent_of","subject":"p_8HcdTp6omF8z3tjYeyQCFC","object":"p_J1Ags3R9DpGyBdsdxESQDz","label":"王球（393–441）→王份（446年生）"},"reason":"父亲早于孩子出生五年去世，且库内已有来源充分的王粹→王份；此边为同名误接。"}
+  ],
+  "link": [
+    {"from":"p_1yyJgULJScCP8bYcGrpFnn","to":"split:nanchen.min","relationship":"child","label":"王冲→王珉（南陈）","source_id":"s_MGBoig692jprej3f8uiDi2","locator":"条文：世系圖","quotation":"王冲 → 王珉"},
+    {"from":"p_1yyJgULJScCP8bYcGrpFnn","to":"split:nanchen.qiu","relationship":"child","label":"王冲→王球（南陈）","source_id":"s_MGBoig692jprej3f8uiDi2","locator":"条文：世系圖","quotation":"王冲 → 王球"},
+    {"from":"p_XMjNEYPhE1uYhd3QLBRmJD","to":"split:nanchen.xiang","relationship":"child","label":"王筠→王祥（南陈）","source_id":"s_MGBoig692jprej3f8uiDi2","locator":"条文：世系圖","quotation":"王筠 → 王祥"},
+    {"from":"split:nanchen.xiang","to":"p_n2VhJYKthxCZqxJ3FGvsKN","relationship":"child","label":"王祥（南陈）→王胄","source_id":"s_MGBoig692jprej3f8uiDi2","locator":"条文：世系圖","quotation":"王祥 → 王胄"},
+    {"from":"p_jLiWepWyuCmhBbQ3b2FAR9","to":"split:southern.xiu","relationship":"child","label":"王志→王休（南朝）","source_id":"s_MGBoig692jprej3f8uiDi2","locator":"条文：世系圖","quotation":"王志 → 王休"},
+    {"from":"p_5AMv9WBqacZuT86WkDC25v","to":"split:southern.shao","relationship":"child","label":"王肃→王绍（南朝）","source_id":"s_MGBoig692jprej3f8uiDi2","locator":"条文：世系圖","quotation":"王肃 → 王绍"},
+    {"from":"split:southern.shao","to":"p_VbMFeBUAW5QmAsjzmSzGcM","relationship":"child","label":"王绍（南朝）→王迁","source_id":"s_MGBoig692jprej3f8uiDi2","locator":"条文：世系圖","quotation":"王绍 → 王迁"},
+    {"from":"p_3YKBL6QdYUSrkYMomw6J8u","to":"split:tang.yi","relationship":"child","label":"王士则→王廙（唐）","source_id":"s_XmK4uXKaoBAKcwvzzk8Dzr","locator":"条文：条文识读（三子）","quotation":"三子：廙、曠、彬"},
+    {"from":"p_3YKBL6QdYUSrkYMomw6J8u","to":"split:tang.kuang","relationship":"child","label":"王士则→王曠（唐）","source_id":"s_XmK4uXKaoBAKcwvzzk8Dzr","locator":"条文：条文识读（三子）","quotation":"三子：廙、曠、彬"},
+    {"from":"p_muf5LSh6aGkW56UNfBDJFd","to":"split:tang.she","relationship":"child","label":"王锡→王涉（唐）","source_id":"s_xEBYVW3xjFzLnp9P7pHZ2L","locator":"条文：世系图","quotation":"王锡 → 王涉"},
+    {"from":"p_M2tXQe2FSQ532ZvGY6jPvZ","to":"split:liang.song","relationship":"child","label":"王穉→王诵（南梁）","source_id":"s_MGBoig692jprej3f8uiDi2","locator":"条文：世系圖","quotation":"王穉 → 王诵"},
+    {"from":"split:liang.song","to":"p_u92nRcsyU6Vi8eXXB56EK8","relationship":"child","label":"王诵（南梁）→王儁康","source_id":"s_MGBoig692jprej3f8uiDi2","locator":"条文：世系圖","quotation":"王诵 → 王儁康"},
+    {"from":"split:liang.song","to":"p_tspKny23JfzAPq93EuM1CW","relationship":"child","label":"王诵（南梁）→王孝康","source_id":"s_MGBoig692jprej3f8uiDi2","locator":"条文：世系圖","quotation":"王诵 → 王孝康"},
+    {"from":"split:liang.song","to":"p_PGJAWHxYxJtx3aVz4EvhUR","relationship":"child","label":"王诵（南梁）→王衮","sources":[{"source_id":"s_iWbwQosLW2HFybpKpbUPvH","locator":"条文：条文识读（儿子）","quotation":"南梁侍中、中书令、护军将军、大將軍王诵的儿子"},{"source_id":"s_txa6DXaBqPYUGuDGF7viPh","locator":"条文：条文识读（父）","quotation":"南梁侍中、中书令、护军将军、大将军王诵的儿子。"},{"source_id":"s_xEBYVW3xjFzLnp9P7pHZ2L","locator":"条文：世系图","quotation":"王诵 → 王衮"}]},
+    {"from":"split:han.song","to":"p_QZkat9wCSKR6E7A6uzPGsW","relationship":"child","label":"王誦（东汉）→王充","sources":[{"source_id":"s_MxGQVyh6BesvegW37DFrQG","locator":"条文：信息框 parents（父）","quotation":"王誦（父）"},{"source_id":"s_NuXKwAgG6V2fSUHhUK76Pf","locator":"条文：信息框 parents（父）","quotation":"王誦（父）"}]},
+    {"from":"p_irTA1gthdaRFGCsbuP9hX4","to":"p_rbZNYEH2GP46qNZ57sZo3K","relationship":"child","label":"王融→王诵（北魏）","source_id":"s_dMRMFYNYvzkE9Dwy93uBji","locator":"P22（父）"}
+  ],
+  "cite": []
+}

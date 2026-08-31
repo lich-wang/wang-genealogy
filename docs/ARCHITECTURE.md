@@ -106,6 +106,7 @@ scripts/fix-titled-names.mjs     庙号/称号改记为异名，本名提为 nam
 scripts/audit-data.mjs           复核：重复、无来源主张、悬空关系、待处理合并提案
 scripts/propose-merge.mjs        确认是同一人时，逐对提出可回滚的合并提案
 scripts/resolve-duplicates.mjs   已判定的重复批量执行：提案 + 批准（需 reviewer）
+scripts/set-role.mjs             审计式账号角色调整（写入 admin.set_role）
      scripts/duplicate-merges.json 每条写明识别依据；已执行的条目留在计划里，重跑为空操作
 scripts/split-homonym.mjs        反向情形：一条记录其实是两个同名的人
      scripts/homonym-splits.json  拆分计划：新建谁、撤回哪几条边、同一引用改挂到哪

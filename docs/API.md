@@ -27,6 +27,10 @@ GET /api/v1/persons/{personId}/claims
 GET /api/v1/persons/{personId}/claims?status=disputed
 ```
 
+创建亲属关系时，`relationship` 接受 `parent`、`child`、`adoptive_parent`、
+`adoptive_child`、`spouse`、`ancestor` 和 `descendant`。收养关系存为
+`kinship.adoptive_parent_of`，不与生物学 `kinship.parent_of` 混用。
+
 ### 获取亲属关系图（家族树用）
 
 ```http

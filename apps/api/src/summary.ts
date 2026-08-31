@@ -173,6 +173,8 @@ export async function computePersonSummary(
   const relationships: PersonSummary['relationships'] = {
     parents: [],
     children: [],
+    adoptive_parents: [],
+    adoptive_children: [],
     spouses: [],
     ancestors: [],
     descendants: [],
@@ -199,6 +201,9 @@ export async function computePersonSummary(
         // subject is the parent, object is the child.
         if (subjectIsOwner) relationships.children.push(cw);
         else relationships.parents.push(cw);
+      } else if (c.predicate === 'kinship.adoptive_parent_of') {
+        if (subjectIsOwner) relationships.adoptive_children.push(cw);
+        else relationships.adoptive_parents.push(cw);
       } else if (c.predicate === 'kinship.ancestor_of') {
         // Same stored direction as parent_of — subject is the elder — but a
         // different statement, so it is listed apart: 「太子晉後代」 says a line

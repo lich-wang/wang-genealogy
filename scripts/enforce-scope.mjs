@@ -27,6 +27,7 @@
 
 import { randomBytes } from 'node:crypto';
 import { d1Query, d1Script } from './lib/d1.mjs';
+import { isWangScopeName, wasRetractedByScope } from './lib/scope.mjs';
 
 const args = process.argv.slice(2);
 const flag = (name) => args.includes(name);
@@ -47,9 +48,7 @@ const d1 = {
 const BASE58 = '123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz';
 const newContributionId = () => `ct_${[...randomBytes(22)].map((b) => BASE58[b % 58]).join('')}`;
 
-/** 王 by the name a source published, including titles that carry the surname. */
-const isWangName = (name) =>
-  typeof name === 'string' && (name.startsWith('王') || /王(皇后|皇太后|太后|夫人|氏|美人|婕妤|后)/.test(name));
+const isWangName = isWangScopeName;
 
 // --- read everything, whatever its current status ---------------------------
 
@@ -64,8 +63,10 @@ const persons = d1Query(
 );
 
 const claims = d1Query(
-  `SELECT id, predicate, subject_person_id, object_person_id, status, current_revision
-     FROM claim
+  `SELECT c.id, c.predicate, c.subject_person_id, c.object_person_id, c.status, c.current_revision,
+          (SELECT r.change_summary FROM claim_revision r
+            WHERE r.claim_id = c.id AND r.revision_number = c.current_revision) AS current_change_summary
+     FROM claim c
     WHERE claim_kind = 'relationship' AND status <> 'superseded'`,
   { ...d1, label: 'relationship claims' },
 );
@@ -111,10 +112,10 @@ function claimAction(claim) {
 const toSuppress = persons.filter((p) => !inScope(p.id) && p.status === 'active');
 const toRestore = persons.filter((p) => inScope(p.id) && p.status === 'suppressed');
 const toRetract = claims.filter((c) => claimAction(c) === 'retract' && c.status !== 'retracted');
-const toReinstate = claims.filter((c) => claimAction(c) === 'keep' && c.status === 'retracted');
+const toReinstate = claims.filter((c) => claimAction(c) === 'keep' && wasRetractedByScope(c));
 
 console.log(
-  `共 ${persons.length} 条人物记录：王姓 ${wang.size} 人，` +
+  `共 ${persons.length} 条人物记录：王姓及得姓前始祖 ${wang.size} 人，` +
     `与王姓有婚姻关系的非王姓 ${marriedToWang.size} 人，收录范围内合计 ${
       persons.filter((p) => inScope(p.id)).length
     } 人。`,

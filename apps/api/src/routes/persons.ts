@@ -219,7 +219,11 @@ app.post('/:id/relationships', async (c) => {
   // Cycle check for descent edges; blocks creating a NEW cycle edge (it rejects
   // the new edge, never deletes existing historical data). ancestor_of counts:
   // "A is an ancestor of B" and "B is an ancestor of A" cannot both hold.
-  if (edge.predicate === 'kinship.parent_of' || edge.predicate === 'kinship.ancestor_of') {
+  if (
+    edge.predicate === 'kinship.parent_of' ||
+    edge.predicate === 'kinship.adoptive_parent_of' ||
+    edge.predicate === 'kinship.ancestor_of'
+  ) {
     if (
       edge.subject_person_id === edge.object_person_id ||
       (await createsCycle(c.env.DB, edge.subject_person_id, edge.object_person_id))
@@ -356,7 +360,7 @@ async function createsCycle(db: D1Database, parentId: string, childId: string): 
     const res = await db
       .prepare(
         `SELECT DISTINCT subject_person_id AS pid FROM claim
-          WHERE predicate IN ('kinship.parent_of', 'kinship.ancestor_of')
+          WHERE predicate IN ('kinship.parent_of', 'kinship.adoptive_parent_of', 'kinship.ancestor_of')
             AND status NOT IN ('retracted','superseded')
             AND object_person_id IN (${ph})`,
       )

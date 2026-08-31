@@ -1,0 +1,49 @@
+{
+  "note": "第二批：撤回把引文中较长人名误当成短同名者的亲属边。执行：node scripts/split-homonym.mjs --plan scripts/wrong-edges-2.json",
+  "summary_prefix": "撤回：人名子串误匹配",
+  "splits": [],
+  "retract": [
+    {
+      "claim_id": "c_C4JzA49E3FHMezH5CHjzAd",
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_shk3xnD2NcF3CzPPZFUeRq",
+        "object": "p_DjsHTSnzeXLuNtgpCuXaHD",
+        "label": "唐代王坦 → 东晋王國寶"
+      },
+      "reason": "条文写「王國寶，王坦之三子」，指东晋王坦之；库内王坦是唐代人（CBDB 175366，807 年卒，父王緒）。校验曾把「王坦」子串错当成「王坦之」本人。"
+    },
+    {
+      "claim_id": "c_uBJGbrd3TDT8aKDXhfomhU",
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_shk3xnD2NcF3CzPPZFUeRq",
+        "object": "p_hRuDLi5yevS7o5qFnmXdB1",
+        "label": "唐代王坦 → 东晋王忱"
+      },
+      "reason": "条文写「王忱，王坦之四子」，指东晋王坦之；库内王坦是唐代人（CBDB 175366，807 年卒，父王緒）。"
+    },
+    {
+      "claim_id": "c_ZDLhiDe8zGKzTdqARC8195",
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_shk3xnD2NcF3CzPPZFUeRq",
+        "object": "p_89sYwmpPra88h8E1JqNK5W",
+        "label": "唐代王坦 → 东晋王愉"
+      },
+      "reason": "条文写「王愉，王坦之次子」，指东晋王坦之；库内王坦是唐代人（CBDB 175366，807 年卒，父王緒）。"
+    },
+    {
+      "claim_id": "c_aUbQxAZx5MmiRmYKc87RKC",
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_shk3xnD2NcF3CzPPZFUeRq",
+        "object": "p_DDih3NoysRAaq63UWuEY6y",
+        "label": "唐代王坦 → 东晋王愷"
+      },
+      "reason": "条文写「王愷，王坦之長子」，指东晋王坦之；库内王坦是唐代人（CBDB 175366，807 年卒，父王緒）。"
+    }
+  ],
+  "link": [],
+  "cite": []
+}

@@ -1,0 +1,13 @@
+{
+  "note": "拒绝已查明为跨朝代同名者的合并提案。执行：node scripts/resolve-duplicates.mjs --plan scripts/reject-merge.json",
+  "approve": [],
+  "reject": [
+    {
+      "proposal_id": "m_gHR5QmAJv9svXH4tFYHeNU",
+      "label": "王坦 ⇄ 王坦之",
+      "reason": "不是同一人：王坦为唐代人（CBDB 175366，807 年卒，父王緒）；王坦之为东晋人（330–375，父王述）。所谓共享四子是子串校验把引文中的「王坦之」误当「王坦」后造成的错挂。"
+    }
+  ],
+  "merge": [],
+  "propose_only": []
+}

@@ -25,6 +25,19 @@ describe('normalizeRelationship', () => {
     });
   });
 
+  it('stores adoptive parentage separately from biological parentage', () => {
+    expect(normalizeRelationship('p_CHILD', 'adoptive_parent', 'p_PARENT')).toEqual({
+      predicate: 'kinship.adoptive_parent_of',
+      subject_person_id: 'p_PARENT',
+      object_person_id: 'p_CHILD',
+    });
+    expect(normalizeRelationship('p_PARENT', 'adoptive_child', 'p_CHILD')).toEqual({
+      predicate: 'kinship.adoptive_parent_of',
+      subject_person_id: 'p_PARENT',
+      object_person_id: 'p_CHILD',
+    });
+  });
+
   it('collapses spouse to a single canonical row regardless of direction', () => {
     const a = normalizeRelationship('p_aaa', 'spouse', 'p_zzz');
     const b = normalizeRelationship('p_zzz', 'spouse', 'p_aaa');
@@ -100,6 +113,15 @@ describe('mapChineseKinshipTerm', () => {
     }
   });
 
+  it('keeps adoptive terms distinct from biological parentage', () => {
+    for (const term of ['嗣父', '養母', '养父']) {
+      expect(mapChineseKinshipTerm(term).input).toBe('adoptive_parent');
+    }
+    for (const term of ['嗣子', '養女', '养子']) {
+      expect(mapChineseKinshipTerm(term).input).toBe('adoptive_child');
+    }
+  });
+
   it('takes the first alias when a source packs several into one field', () => {
     expect(mapChineseKinshipTerm('從祖;伯叔祖')).toMatchObject({
       input: null,
@@ -111,7 +133,7 @@ describe('mapChineseKinshipTerm', () => {
   it('refuses to restate relations this model cannot express', () => {
     // Siblings, in-laws and distant descendants have no predicate here, and
     // 妾 is not the same statement as marriage.
-    for (const term of ['兄', '弟', '女婿', '岳父', '姪孫', '十世孫', '妾', '嗣子', '外甥']) {
+    for (const term of ['兄', '弟', '女婿', '岳父', '姪孫', '十世孫', '妾', '外甥']) {
       expect(mapChineseKinshipTerm(term).input).toBeNull();
     }
   });
