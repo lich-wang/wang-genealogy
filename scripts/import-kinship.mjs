@@ -22,6 +22,7 @@
 import { readFileSync } from 'node:fs';
 import { foldKey } from '../packages/i18n/src/script.ts';
 import { d1Query } from './lib/d1.mjs';
+import { findLoops } from './lib/loops.mjs';
 import { markExpanded } from './lib/expansion-state.mjs';
 
 const args = process.argv.slice(2);
@@ -401,22 +402,83 @@ const EDGE_KINDS = {
   spouse: { relationship: 'spouse', predicate: 'kinship.spouse_of', arrow: '⇄', directed: false },
 };
 
+/**
+ * Where a planned edge starts and ends.
+ *
+ * A plan may name the person outright when the end is a record it already
+ * matched in the database, which is how the zhwiki miner refers to everyone it
+ * recognised. Only a key that stands for a person this run created has to be
+ * looked up.
+ */
+function endpointsOf(edge, spec) {
+  const fromKey = spec.directed ? edge.parent_key : edge.a_key;
+  const toKey = spec.directed ? edge.child_key : edge.b_key;
+  return {
+    fromKey,
+    toKey,
+    fromId: (spec.directed ? edge.parent_person_id : edge.a_person_id) ?? personIdByKey.get(fromKey),
+    toId: (spec.directed ? edge.child_person_id : edge.b_person_id) ?? personIdByKey.get(toKey),
+  };
+}
+
+// --- 2a. refuse whole loops, not just the edge that closes one --------------
+
+const plannedDescent = [];
+for (const edge of plan.edges) {
+  const spec = EDGE_KINDS[edge.kind];
+  if (!spec?.directed) continue;
+  const { fromKey, toKey, fromId, toId } = endpointsOf(edge, spec);
+  const from = fromId ?? fromKey;
+  const to = toId ?? toKey;
+  if (from && to) plannedDescent.push({ edge, from, to });
+}
+// Existing descent plus planned descent: a loop that only exists once the plan
+// is applied has to be visible before the plan is applied. A person this run
+// would create has no id yet, so the plan key stands in for them.
+const inLoop = findLoops([
+  ...d1Query(
+    `SELECT subject_person_id AS a, object_person_id AS b FROM claim
+      WHERE predicate IN ('kinship.parent_of','kinship.ancestor_of')
+        AND status NOT IN ('retracted','superseded')`,
+    { ...d1, label: 'descent edges' },
+  ).map((row) => [row.a, row.b]),
+  ...plannedDescent.map(({ from, to }) => [from, to]),
+]);
+const looping = new Set();
+const loops = new Map();
+for (const { edge, from, to } of plannedDescent) {
+  const members = inLoop.get(from);
+  if (!members || inLoop.get(to) !== members) continue;
+  looping.add(edge);
+  loops.set(members, members);
+}
+if (looping.size > 0) {
+  console.log(
+    `\n跳过 ${looping.size} 条会构成亲属环的关系（同名异人，需人工拆分后再导入）：`,
+  );
+  // Named, because the point of the report is that a person reads it and says
+  // which of these names is two people.
+  const nameById = new Map(personRows.map((row) => [row.person_id, row.name]));
+  for (const members of loops.keys()) {
+    const shown = members.map((m) => (nameById.has(m) ? `${nameById.get(m)}(${m})` : String(m)));
+    console.log(`  环内 ${members.length} 人：${shown.join(' → ')}`);
+  }
+  for (const edge of looping) {
+    stats.edges_failed.push({
+      edge: `${edge.parent_name ?? edge.a_name} → ${edge.child_name ?? edge.b_name}`,
+      reason: 'kinship_cycle_preflight',
+    });
+  }
+}
+
 for (const edge of plan.edges) {
   const spec = EDGE_KINDS[edge.kind];
   if (!spec) {
     stats.edges_failed.push({ edge: edge.kind, reason: 'unknown_edge_kind' });
     continue;
   }
-  const fromKey = spec.directed ? edge.parent_key : edge.a_key;
-  const toKey = spec.directed ? edge.child_key : edge.b_key;
-  // A plan may name the person outright when the end is a record it already
-  // matched in the database, which is how the zhwiki miner refers to everyone
-  // it recognised. Only a key that stands for a person this run created has to
-  // be looked up.
-  const fromId =
-    (spec.directed ? edge.parent_person_id : edge.a_person_id) ?? personIdByKey.get(fromKey);
-  const toId =
-    (spec.directed ? edge.child_person_id : edge.b_person_id) ?? personIdByKey.get(toKey);
+  if (looping.has(edge)) continue;
+  const { fromId, toId } = endpointsOf(edge, spec);
   const label = spec.directed
     ? `${edge.parent_name} ${spec.arrow} ${edge.child_name}`
     : `${edge.a_name} ${spec.arrow} ${edge.b_name}`;
