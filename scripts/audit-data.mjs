@@ -285,6 +285,39 @@ for (const sibs of siblingSets.values()) {
   }
 }
 
+// Two parents who are neither married to each other nor siblings. Mostly a
+// father and mother whose marriage this database simply has not recorded, so
+// this is a REVIEW list, not a defect list — but it is the only check that finds
+// a two-parent conflation, and two-parent conflations are the ones that hide:
+// 王劭 sat under 王導 in 東晉 and under 王松年 in 隋 at the same time, and no count
+// of parents was ever wrong enough to notice.
+const spouseOf = new Map();
+for (const e of kinship) {
+  if (e.predicate !== 'kinship.spouse_of') continue;
+  if (!spouseOf.has(e.a)) spouseOf.set(e.a, new Set());
+  if (!spouseOf.has(e.b)) spouseOf.set(e.b, new Set());
+  spouseOf.get(e.a).add(e.b);
+  spouseOf.get(e.b).add(e.a);
+}
+findings.parents_neither_married_nor_siblings = [];
+for (const [child, ps] of parentsOf) {
+  if (ps.size < 2) continue;
+  const l = [...ps];
+  for (let i = 0; i < l.length; i += 1) {
+    for (let j = i + 1; j < l.length; j += 1) {
+      const [a, b] = [l[i], l[j]];
+      if (spouseOf.get(a)?.has(b)) continue;
+      if (both(parentsOf.get(a), parentsOf.get(b)).length > 0) continue;
+      findings.parents_neither_married_nor_siblings.push({
+        person_id: child,
+        person: nameById.get(child) ?? null,
+        parents: [`${nameById.get(a) ?? '?'}@${a}`, `${nameById.get(b) ?? '?'}@${b}`],
+        note: '多为父母未记婚姻关系；也可能是一条记录承载了两位同名者',
+      });
+    }
+  }
+}
+
 // A parent who is also, by another path, a grandparent: 「王承祖父王俭、父亲王暕」
 // read as two fathers. Also catches a sibling pair read as parent and child,
 // since that puts both of them under the same person.

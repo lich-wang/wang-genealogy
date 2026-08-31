@@ -1,0 +1,92 @@
+{
+  "note": "第三批：跨时代同名误接。执行：node scripts/split-homonym.mjs --plan scripts/homonym-splits-3.json",
+  "summary_prefix": "同名异人拆分",
+  "splits": [
+    {
+      "key": "sui.shao",
+      "name": {
+        "text": "王劭",
+        "language": "zh-Hans"
+      },
+      "aliases": [],
+      "source_id": "s_JhD7vPo5vXGiRknBGxUfHD",
+      "locator": "条文：世系缩进（大房）",
+      "quotation": "王劭",
+      "reason": "两个王劭：東晉丞相王導第五子王劭（本记录，維基數據 Q15924805），与隋代史学家王劭（太原王氏，王松年之子）。相隔二百余年，此前被按名字合成一人；本条改挂到新建的隋代王劭记录。",
+      "historicity": "中文维基百科《太原王氏》：隋代史学家王劭，王松年之子、王遵业之孙，太原王氏。"
+    }
+  ],
+  "retract": [
+    {
+      "claim_id": "c_8pfR5itT63SZBfkvrGnAAd",
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_NbC2Uf3vWCE2LtQoDVqumA",
+        "object": "p_khfpnHyazPC5NrQ3YJisDR",
+        "label": "王华（明·王守仁之父） → 王嗣"
+      },
+      "reason": "王嗣是刘宋人物（王曇首之父王华之子，见维基数据 Q13416340「王华 (刘宋)」），与明代王守仁之父王华（Q15924849）相隔千年。库内已有 王华 (刘宋) → 王嗣，此条为按名字误接。"
+    },
+    {
+      "claim_id": "c_jC8WXv3nyVWMuChuQoyJk9",
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_bvfS4Dfw6Yxku7ijMc2RS6",
+        "object": "p_NbC2Uf3vWCE2LtQoDVqumA",
+        "label": "王蘊（南朝·王楷之子） → 王华（明）"
+      },
+      "reason": "明代王华之父为王天叙（库内已有该边）。此条把南朝王蘊接到了明代王华头上，系按名字误接。"
+    },
+    {
+      "claim_id": "c_VAnGgngYb8bU7taSqXHbj5",
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_bvfS4Dfw6Yxku7ijMc2RS6",
+        "object": "p_JcvnUMHyH7VB1FB3Nnqkw8",
+        "label": "王蘊（南朝·王楷之子） → 王法慧"
+      },
+      "reason": "王法慧为东晋孝武帝皇后，父王蘊（晉朝，王濛之子，维基数据 Q15919655），库内已有该边。此条把另一位同名的南朝王蘊（王楷之子，Q48936426）接了上去。"
+    },
+    {
+      "claim_id": "c_6XkUMaMX62rAp1r3TSg9xC",
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_Sne6C5MyZwDe7MZss7kard",
+        "object": "p_T4veML4NqsRATCKLcYV7WC",
+        "label": "王松年 → 王劭（東晉王導之子记录）"
+      },
+      "reason": "两个王劭：東晉丞相王導第五子王劭（本记录，維基數據 Q15924805），与隋代史学家王劭（太原王氏，王松年之子）。相隔二百余年，此前被按名字合成一人；本条改挂到新建的隋代王劭记录。"
+    }
+  ],
+  "link": [
+    {
+      "from": "p_Sne6C5MyZwDe7MZss7kard",
+      "to": "split:sui.shao",
+      "relationship": "child",
+      "label": "王松年 → 王劭（隋）",
+      "sources": [
+        {
+          "source_id": "s_JhD7vPo5vXGiRknBGxUfHD",
+          "locator": "条文：世系缩进（大房）",
+          "quotation": "王劭"
+        },
+        {
+          "source_id": "s_aw8xd6LrHMNCx64JpGaxGe",
+          "locator": "条文：世系缩进（大房）",
+          "quotation": "王劭"
+        },
+        {
+          "source_id": "s_rbiyKYtLGkkwm2d3m2ne5d",
+          "locator": "条文：世系缩进（大房）",
+          "quotation": "王劭"
+        },
+        {
+          "source_id": "s_ia7UywJVEB9bkmTJ93pz7K",
+          "locator": "条文：世系缩进（大房）",
+          "quotation": "王劭"
+        }
+      ]
+    }
+  ],
+  "cite": []
+}

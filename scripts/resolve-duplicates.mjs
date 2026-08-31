@@ -150,8 +150,10 @@ for (const item of plan.merge ?? []) {
     console.log(`+ ${item.label}: ${item.source} → ${item.target}`);
     continue;
   }
-  // Already merged by an earlier run: the source's status says so, and
-  // proposing again would only file a proposal that cannot be approved.
+  // Already merged by an earlier run: the source's status says so. And if the
+  // record is gone entirely, `purge-records.mjs` has been over it — a merge that
+  // was carried out and then hard-deleted, which is done either way.
+  let sourceGone = false;
   try {
     const { person } = await api('GET', `/persons/${item.source}`);
     if (person.status === 'merged') {
@@ -161,6 +163,12 @@ for (const item of plan.merge ?? []) {
     }
   } catch (e) {
     if (e.status !== 404) throw e;
+    sourceGone = true;
+  }
+  if (sourceGone) {
+    stats.skipped += 1;
+    console.log(`= ${item.label} 源记录已不存在（合并后已硬删除）`);
+    continue;
   }
 
   try {
@@ -181,6 +189,51 @@ for (const item of plan.merge ?? []) {
   } catch (e) {
     stats.failed.push({ label: item.label, reason: e.code ?? String(e.status) });
     console.log(`! ${item.label}: ${e.code ?? e.status} ${e.message.slice(0, 160)}`);
+  }
+}
+
+// --- 3. pairs that look like duplicates but are not certain -----------------
+
+// Filed so the evidence is on the record and a reviewer can see it, deliberately
+// NOT approved. Identical children with different fathers could be one man
+// stored twice or one record that has swallowed another — and guessing which is
+// how this database acquired eight generations upside down in the first place.
+for (const item of plan.propose_only ?? []) {
+  if (dryRun) {
+    console.log(`? ${item.label}: 只提提案，不批准`);
+    continue;
+  }
+  try {
+    const { person } = await api('GET', `/persons/${item.source}`);
+    if (person.status === 'merged') {
+      console.log(`= ${item.label} 已合并`);
+      continue;
+    }
+    // The API happily accepts a second proposal for the same pair, so a re-run
+    // would file the same undecided question twice and give a reviewer two
+    // identical things to read.
+    const { merge_proposals: merges = [] } = await api('GET', `/persons/${item.source}/export`);
+    const open = merges.find(
+      (m) =>
+        m.target_person_id === item.target && ['proposed', 'reviewing'].includes(m.status),
+    );
+    if (open) {
+      console.log(`= ${item.label} 提案已存在 ${open.id}，待人工判断`);
+      continue;
+    }
+    const created = await api('POST', `/persons/${item.source}/merge-proposals`, {
+      target_person_id: item.target,
+      reason: item.reason,
+    });
+    stats.proposed += 1;
+    console.log(`? ${item.label} 已提提案 ${created.proposal_id ?? created.id}，待人工判断`);
+  } catch (e) {
+    if (e.code === 'merge_proposal_exists' || e.status === 409) {
+      console.log(`= ${item.label} 提案已存在`);
+      continue;
+    }
+    stats.failed.push({ label: item.label, reason: e.code ?? String(e.status) });
+    console.log(`! ${item.label}: ${e.code ?? e.status}`);
   }
 }
 
