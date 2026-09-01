@@ -1,20 +1,11 @@
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import type { DescentEdge, ParentEdge, RelativeNode, RelativesGraph, SpouseEdge } from '@wang/domain';
 import { api } from '../api';
+import { FamilyTreeDiagram } from '../components/FamilyTreeDiagram';
 import { toMessage } from '../hooks';
 import { useScript } from '../i18n';
-import {
-  GAP_Y,
-  NODE_HEIGHT,
-  NODE_WIDTH,
-  compactLifespan,
-  evidenceLabel,
-  evidenceTooltip,
-  descentPath,
-  layoutTree,
-  redundantDescent,
-} from '../tree-layout';
+import { redundantDescent } from '../tree-layout';
 
 /**
  * Family tree as a diagram: generations in rows, ancestors above the person,
@@ -72,8 +63,6 @@ export function FamilyTreePage() {
   const [error, setError] = useState<string | null>(null);
   const [truncated, setTruncated] = useState(false);
   const [selection, setSelection] = useState<Selection>({ kind: 'none' });
-  const [zoom, setZoom] = useState(1);
-  const canvasRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     let cancelled = false;
@@ -121,30 +110,7 @@ export function FamilyTreePage() {
     return all.filter((edge) => !covered.has(edge.claim_id));
   }, [graph]);
 
-  const layout = useMemo(
-    () =>
-      layoutTree(
-        {
-          nodes: graph.nodes,
-          parentEdges: [...graph.parentEdges.values()],
-          spouseEdges: [...graph.spouseEdges.values()],
-          descentEdges,
-        },
-        id,
-      ),
-    [graph, descentEdges, id],
-  );
-
   const root = graph.nodes.get(id);
-
-  // A wide family runs past the viewport; start the view on the person the tree
-  // is about rather than at its left edge.
-  useEffect(() => {
-    const canvas = canvasRef.current;
-    const placed = layout.nodes.get(id);
-    if (!canvas || !placed) return;
-    canvas.scrollLeft = Math.max(0, (placed.x + NODE_WIDTH / 2) * zoom - canvas.clientWidth / 2);
-  }, [layout, id, zoom]);
 
   if (loading) return <div className="page">{t('載入中…')}</div>;
   if (error && !root) return <div className="page error">{t('載入失敗')}：{t(error)}</div>;
@@ -166,7 +132,7 @@ export function FamilyTreePage() {
           {t(' 的家族树')}
         </h1>
         <p className="hint">
-          {t('祖先在上、后代在下。点人物方框可再展开他的上下一代；点连线可查看这条关系的依据。')}
+          {t('祖先在上、后代在下。点人物方框可将他居中并再展开上下一代；点连线可查看这条关系的依据。')}
         </p>
         <p className="muted">
           {t('当前显示')} {graph.nodes.size} {t('人')}、{graph.parentEdges.size}{' '}
@@ -177,286 +143,33 @@ export function FamilyTreePage() {
           {truncated ? ` · ${t('已达单次返回上限，请从具体人物继续展开')}` : ''}
           {' · '}
           <Link to={`/persons/${encodeURIComponent(root.id)}`}>{t('返回人物页')}</Link>
-          {' · '}
-          <button type="button" className="btn btn-inline" onClick={() => setZoom((z) => Math.max(0.5, z - 0.15))}>
-            −
-          </button>
-          <button type="button" className="btn btn-inline" onClick={() => setZoom(1)}>
-            {Math.round(zoom * 100)}%
-          </button>
-          <button type="button" className="btn btn-inline" onClick={() => setZoom((z) => Math.min(1.8, z + 0.15))}>
-            +
-          </button>
         </p>
       </header>
 
       {error ? <p className="error">{t(error)}</p> : null}
 
-      <div className="tree-canvas" ref={canvasRef}>
-        <svg
-          width={layout.width * zoom}
-          height={layout.height * zoom}
-          viewBox={`0 0 ${layout.width} ${layout.height}`}
-          role="img"
-          aria-label={t('家族树图')}
-        >
-          {/* Lines first, so the boxes sit on top of them. */}
-          {[...graph.parentEdges.values()].map((edge) => (
-            <ParentLine
-              key={edge.claim_id}
-              edge={edge}
-              layout={layout}
-              selected={selection.kind === 'edge' && selection.claimId === edge.claim_id}
-              onSelect={() => setSelection({ kind: 'edge', claimId: edge.claim_id })}
-            />
-          ))}
-          {descentEdges.map((edge) => (
-            <DescentLine
-              key={edge.claim_id}
-              edge={edge}
-              layout={layout}
-              selected={selection.kind === 'edge' && selection.claimId === edge.claim_id}
-              onSelect={() => setSelection({ kind: 'edge', claimId: edge.claim_id })}
-            />
-          ))}
-          {[...graph.spouseEdges.values()].map((edge) => (
-            <SpouseLine
-              key={edge.claim_id}
-              edge={edge}
-              layout={layout}
-              selected={selection.kind === 'edge' && selection.claimId === edge.claim_id}
-              onSelect={() => setSelection({ kind: 'edge', claimId: edge.claim_id })}
-            />
-          ))}
-          {[...layout.nodes.values()].map((placed) => (
-            <PersonBox
-              key={placed.node.id}
-              placed={placed}
-              isRoot={placed.node.id === id}
-              selected={selection.kind === 'person' && selection.id === placed.node.id}
-              expanded={graph.expanded.has(placed.node.id)}
-              busy={busyId === placed.node.id}
-              onClick={() => {
-                setSelection({ kind: 'person', id: placed.node.id });
-                if (!graph.expanded.has(placed.node.id)) void expand(placed.node.id);
-              }}
-            />
-          ))}
-        </svg>
-      </div>
+      <FamilyTreeDiagram
+        rootId={id}
+        people={graph.nodes}
+        parentEdges={[...graph.parentEdges.values()]}
+        spouseEdges={[...graph.spouseEdges.values()]}
+        descentEdges={descentEdges}
+        expanded={graph.expanded}
+        busyId={busyId}
+        selectedPersonId={selection.kind === 'person' ? selection.id : null}
+        selectedClaimId={selection.kind === 'edge' ? selection.claimId : null}
+        onPersonClick={(personId) => {
+          setSelection({ kind: 'person', id: personId });
+          if (!graph.expanded.has(personId)) void expand(personId);
+        }}
+        onEdgeClick={(claimId) => setSelection({ kind: 'edge', claimId })}
+      />
 
       {selectedEdge ? <EdgeDetail edge={selectedEdge} graph={graph} /> : null}
       {selectedPerson ? (
         <PersonDetail person={selectedPerson} expanded={graph.expanded.has(selectedPerson.id)} />
       ) : null}
     </div>
-  );
-}
-
-type LayoutResult = ReturnType<typeof layoutTree>;
-
-/** Elbow from the parent's lower edge to the child's upper edge. */
-function ParentLine({
-  edge,
-  layout,
-  selected,
-  onSelect,
-}: {
-  edge: ParentEdge;
-  layout: LayoutResult;
-  selected: boolean;
-  onSelect: () => void;
-}) {
-  const parent = layout.nodes.get(edge.parent_id);
-  const child = layout.nodes.get(edge.child_id);
-  if (!parent || !child) return null;
-
-  const px = parent.x + NODE_WIDTH / 2;
-  const py = parent.y + NODE_HEIGHT;
-  const cx = child.x + NODE_WIDTH / 2;
-  const cy = child.y;
-  const midY = py + (cy - py) / 2;
-  const path = `M ${px} ${py} V ${midY} H ${cx} V ${cy}`;
-
-  return (
-    <g
-      className={[
-        'tree-edge',
-        selected ? 'tree-edge-selected' : '',
-        edge.status === 'disputed' ? 'tree-edge-disputed' : '',
-      ]
-        .filter(Boolean)
-        .join(' ')}
-      onClick={onSelect}
-    >
-      <title>{evidenceTooltip(edge.citations)}</title>
-      {/* A wide invisible stroke makes a 1px line clickable. */}
-      <path d={path} className="tree-edge-hit" />
-      <path d={path} className="tree-edge-line" />
-      <text x={(px + cx) / 2} y={midY - 4} className="tree-edge-label" textAnchor="middle">
-        {evidenceLabel(edge.citations)}
-      </text>
-    </g>
-  );
-}
-
-/**
- * Descent across generations nobody named: drawn as a dashed line, and drawn
- * straight, so it reads as a link that skips whatever lies between rather than
- * as a parent standing directly above a child. Where the intervening
- * generations *are* known they are already on the diagram as ordinary parent
- * links, and this line simply spans them.
- */
-function DescentLine({
-  edge,
-  layout,
-  selected,
-  onSelect,
-}: {
-  edge: DescentEdge;
-  layout: LayoutResult;
-  selected: boolean;
-  onSelect: () => void;
-}) {
-  const ancestor = layout.nodes.get(edge.ancestor_id);
-  const descendant = layout.nodes.get(edge.descendant_id);
-  const path = descentPath(layout, edge.ancestor_id, edge.descendant_id);
-  if (!ancestor || !descendant || !path) return null;
-
-  const ax = ancestor.x + NODE_WIDTH / 2;
-  const ay = ancestor.y + NODE_HEIGHT;
-  const dx = descendant.x + NODE_WIDTH / 2;
-  const dy = descendant.y;
-
-  return (
-    <g
-      className={[
-        'tree-edge',
-        'tree-edge-descent',
-        selected ? 'tree-edge-selected' : '',
-        edge.status === 'disputed' ? 'tree-edge-disputed' : '',
-      ]
-        .filter(Boolean)
-        .join(' ')}
-      onClick={onSelect}
-    >
-      <title>{evidenceTooltip(edge.citations)}</title>
-      <path d={path} className="tree-edge-hit" />
-      <path d={path} className="tree-edge-line" />
-      <text
-        x={dx}
-        y={dy - GAP_Y / 2 - 4}
-        className="tree-edge-label"
-        textAnchor="middle"
-      >
-        {evidenceLabel(edge.citations)}
-      </text>
-    </g>
-  );
-}
-
-/** A horizontal tie between two boxes on the same row. */
-function SpouseLine({
-  edge,
-  layout,
-  selected,
-  onSelect,
-}: {
-  edge: SpouseEdge;
-  layout: LayoutResult;
-  selected: boolean;
-  onSelect: () => void;
-}) {
-  const a = layout.nodes.get(edge.a_id);
-  const b = layout.nodes.get(edge.b_id);
-  if (!a || !b) return null;
-
-  const [left, right] = a.x <= b.x ? [a, b] : [b, a];
-  const y = left.y + NODE_HEIGHT / 2;
-  const x1 = left.x + NODE_WIDTH;
-  const x2 = right.x;
-  // Same row: a straight tie. Different rows (a source that disagrees about
-  // generations): drop below both boxes so the line stays visible.
-  const sameRow = left.y === right.y;
-  const path = sameRow
-    ? `M ${x1} ${y} H ${x2}`
-    : `M ${left.x + NODE_WIDTH / 2} ${left.y + NODE_HEIGHT} V ${Math.max(left.y, right.y) + NODE_HEIGHT + GAP_Y / 3} H ${right.x + NODE_WIDTH / 2} V ${right.y + NODE_HEIGHT}`;
-
-  return (
-    <g
-      className={[
-        'tree-edge tree-edge-spouse',
-        selected ? 'tree-edge-selected' : '',
-        edge.status === 'disputed' ? 'tree-edge-disputed' : '',
-      ]
-        .filter(Boolean)
-        .join(' ')}
-      onClick={onSelect}
-    >
-      <title>{evidenceTooltip(edge.citations)}</title>
-      <path d={path} className="tree-edge-hit" />
-      <path d={path} className="tree-edge-line" />
-      {sameRow ? (
-        <text x={(x1 + x2) / 2} y={y - 5} className="tree-edge-label" textAnchor="middle">
-          ⚭ {evidenceLabel(edge.citations)}
-        </text>
-      ) : null}
-    </g>
-  );
-}
-
-function PersonBox({
-  placed,
-  isRoot,
-  selected,
-  expanded,
-  busy,
-  onClick,
-}: {
-  placed: LayoutResult['nodes'] extends Map<string, infer T> ? T : never;
-  isRoot: boolean;
-  selected: boolean;
-  expanded: boolean;
-  busy: boolean;
-  onClick: () => void;
-}) {
-  const { node, x, y } = placed;
-  const years = compactLifespan(node);
-
-  return (
-    <g
-      className={[
-        'tree-box',
-        isRoot ? 'tree-box-root' : '',
-        selected ? 'tree-box-selected' : '',
-        busy ? 'tree-box-busy' : '',
-      ]
-        .filter(Boolean)
-        .join(' ')}
-      transform={`translate(${x} ${y})`}
-      onClick={onClick}
-      role="button"
-      tabIndex={0}
-      onKeyDown={(e) => {
-        if (e.key === 'Enter' || e.key === ' ') onClick();
-      }}
-    >
-      <title>{expanded ? node.display_name ?? node.id : `${node.display_name ?? node.id} · 点击展开上下一代`}</title>
-      <rect width={NODE_WIDTH} height={NODE_HEIGHT} rx={6} />
-      <text x={NODE_WIDTH / 2} y={years ? 20 : 27} className="tree-box-name" textAnchor="middle">
-        {truncate(node.display_name ?? node.id, 7)}
-      </text>
-      {years ? (
-        <text x={NODE_WIDTH / 2} y={35} className="tree-box-years" textAnchor="middle">
-          {years}
-        </text>
-      ) : null}
-      {!expanded ? (
-        <text x={NODE_WIDTH - 8} y={NODE_HEIGHT - 6} className="tree-box-more" textAnchor="end">
-          ＋
-        </text>
-      ) : null}
-    </g>
   );
 }
 
@@ -524,7 +237,7 @@ function PersonDetail({ person, expanded }: { person: RelativeNode; expanded: bo
   );
 }
 
-/** SVG has no ZhText: convert through the same hook, then render plain text. */
+/** Convert stored names through the shared display-layer script setting. */
 function PersonName({ node }: { node: RelativeNode }) {
   const { tData } = useScript();
   return <>{tData(node.display_name, null) || node.id}</>;
@@ -536,8 +249,4 @@ function lifespan(node: RelativeNode): string | null {
     .map((v) => (v && !/不详|不詳|未知|unknown/i.test(v) ? v : '？'))
     .join('–');
   return full === '？–？' ? null : full;
-}
-
-function truncate(text: string, max: number): string {
-  return text.length > max ? `${text.slice(0, max - 1)}…` : text;
 }

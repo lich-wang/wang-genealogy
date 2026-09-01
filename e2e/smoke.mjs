@@ -145,9 +145,8 @@ try {
     log(boxes > 1, `家族树以图形方框渲染人物（${boxes} 个）`);
     log((await page.locator('.tree-edge').count()) > 0, '家族树用连线表示关系');
 
-    // The evidence for each link is written on the line itself.
-    // SVG text needs textContent; innerText is a DOM-only notion.
-    const labels = await page.locator('.tree-edge-label').allTextContents();
+    // React Flow renders each relationship's evidence as its edge label.
+    const labels = await page.locator('.tree-edge .react-flow__edge-text').allTextContents();
     log(labels.some((l) => (l ?? '').trim().length > 0), `连线上标注了依据（如 ${labels[0] ?? ''}）`);
 
     // Clicking a line opens what that relationship rests on.

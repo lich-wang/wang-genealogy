@@ -8,7 +8,6 @@ import {
   evidenceLabel,
   evidenceTooltip,
   UNKNOWN_DESCENT_SPAN,
-  descentPath,
   layoutTree,
   redundantDescent,
 } from './tree-layout.ts';
@@ -436,106 +435,5 @@ describe('layoutTree: descendants sit under their forebear', () => {
         expect(clash).toBe(false);
       }
     }
-  });
-});
-
-describe('descentPath', () => {
-  const node = (id: string) => ({
-    id,
-    display_name: id,
-    status: 'active' as const,
-    birth: null,
-    death: null,
-  });
-  const parent = (p: string, c: string) => ({
-    claim_id: `p:${p}:${c}`,
-    status: 'accepted' as const,
-    citations: [],
-    parent_id: p,
-    child_id: c,
-  });
-  const descent = (a: string, d: string, generations: number | null) => ({
-    claim_id: `d:${a}:${d}`,
-    status: 'accepted' as const,
-    citations: [],
-    ancestor_id: a,
-    descendant_id: d,
-    generations,
-  });
-
-  /** Points along a path made only of M/V/H commands. */
-  function segments(path: string) {
-    const out: Array<{ x1: number; y1: number; x2: number; y2: number }> = [];
-    let x = 0;
-    let y = 0;
-    for (const m of path.matchAll(/([MVH])\s*(-?[\d.]+)(?:\s+(-?[\d.]+))?/g)) {
-      const [, cmd, one, two] = m;
-      const nx = cmd === 'M' ? Number(one) : cmd === 'H' ? Number(one) : x;
-      const ny = cmd === 'M' ? Number(two) : cmd === 'V' ? Number(one) : y;
-      if (cmd !== 'M') out.push({ x1: x, y1: y, x2: nx, y2: ny });
-      x = nx;
-      y = ny;
-    }
-    return out;
-  }
-
-  const hitsAnyBox = (path: string, layout: ReturnType<typeof layoutTree>, skip: string[]) =>
-    segments(path).some((s) =>
-      [...layout.nodes.values()].some((p) => {
-        if (skip.includes(p.node.id)) return false;
-        const [lo, hi] = [Math.min(s.x1, s.x2), Math.max(s.x1, s.x2)];
-        const [top, bottom] = [Math.min(s.y1, s.y2), Math.max(s.y1, s.y2)];
-        return (
-          lo < p.x + NODE_WIDTH && hi > p.x && top < p.y + NODE_HEIGHT && bottom > p.y
-        );
-      }),
-    );
-
-  /** A crowded middle generation between the two ends of the descent. */
-  const graph = {
-    nodes: new Map(
-      ['old', 'm1', 'm2', 'm3', 'm4', 'far'].map((id) => [id, node(id)] as const),
-    ),
-    parentEdges: [
-      parent('old', 'm1'),
-      parent('old', 'm2'),
-      parent('old', 'm3'),
-      parent('old', 'm4'),
-    ],
-    spouseEdges: [],
-    descentEdges: [descent('old', 'far', 3)],
-  };
-
-  it('does not run through anyone standing between the two ends', () => {
-    const layout = layoutTree(graph, 'old');
-    const path = descentPath(layout, 'old', 'far')!;
-    expect(path).toBeTruthy();
-    expect(hitsAnyBox(path, layout, ['old', 'far'])).toBe(false);
-  });
-
-  it('starts at the forebear and ends at the descendant', () => {
-    const layout = layoutTree(graph, 'old');
-    const path = descentPath(layout, 'old', 'far')!;
-    const old = layout.nodes.get('old')!;
-    const far = layout.nodes.get('far')!;
-    expect(path.startsWith(`M ${old.x + NODE_WIDTH / 2} ${old.y + NODE_HEIGHT}`)).toBe(true);
-    expect(path.endsWith(`V ${far.y}`)).toBe(true);
-  });
-
-  it('keeps the simple shape when the rows are adjacent', () => {
-    const near = {
-      nodes: new Map([['a', node('a')], ['b', node('b')]]),
-      parentEdges: [],
-      spouseEdges: [],
-      descentEdges: [descent('a', 'b', null)],
-    };
-    const layout = layoutTree(near, 'a');
-    // Two rows apart by the unknown-distance rule, so it still routes.
-    expect(descentPath(layout, 'a', 'b')).toBeTruthy();
-  });
-
-  it('returns nothing when an end is off the diagram', () => {
-    const layout = layoutTree(graph, 'old');
-    expect(descentPath(layout, 'old', 'nobody')).toBeNull();
   });
 });

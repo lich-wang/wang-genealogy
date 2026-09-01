@@ -460,100 +460,157 @@ a:hover {
   margin-bottom: 0.25rem;
 }
 .tree-canvas {
-  overflow: auto;
+  position: relative;
+  overflow: hidden;
+  height: clamp(420px, 68vh, 720px);
   border: 1px solid var(--line);
   border-radius: var(--radius);
   background: var(--surface);
   margin: 0.75rem 0;
-  max-height: 78vh;
+}
+.tree-canvas .react-flow {
+  background: color-mix(in srgb, var(--surface) 96%, var(--accent-soft));
+}
+.tree-canvas .react-flow__controls {
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  box-shadow: 0 4px 18px rgb(31 41 55 / 10%);
+}
+.tree-canvas .react-flow__controls-button {
+  width: 30px;
+  height: 30px;
+  border-bottom-color: var(--line);
+  background: var(--surface);
+  fill: var(--ink);
+}
+.tree-canvas .react-flow__controls-button:hover {
+  background: var(--accent-soft);
+}
+.tree-canvas .react-flow__attribution {
+  color: var(--muted);
+  background: color-mix(in srgb, var(--surface) 82%, transparent);
 }
 
 /* boxes */
+.tree-canvas .react-flow__node-person {
+  width: 116px;
+  height: 46px;
+  border: 0;
+  background: transparent;
+}
 .tree-box {
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  background: var(--surface);
+  box-shadow: 0 2px 8px rgb(31 41 55 / 7%);
+  transition: border-color 150ms ease, box-shadow 150ms ease, transform 150ms ease;
 }
-.tree-box rect {
-  fill: var(--surface);
-  stroke: var(--line);
-  stroke-width: 1;
+.tree-box:hover {
+  transform: translateY(-1px);
+  border-color: var(--accent);
+  box-shadow: 0 5px 16px rgb(31 41 55 / 12%);
 }
-.tree-box:hover rect {
-  stroke: var(--accent);
+.tree-box-root {
+  border: 2px solid var(--accent);
+  background: var(--accent-soft);
 }
-.tree-box-root rect {
-  fill: var(--accent-soft);
-  stroke: var(--accent);
-  stroke-width: 2;
+.tree-box-selected {
+  border: 2px solid var(--accent);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 16%, transparent), 0 6px 18px rgb(31 41 55 / 13%);
 }
-.tree-box-selected rect {
-  stroke: var(--accent);
-  stroke-width: 2;
+.tree-box-busy {
+  border-style: dashed;
+  animation: tree-pulse 900ms ease-in-out infinite alternate;
 }
-.tree-box-busy rect {
-  stroke-dasharray: 3 3;
+@keyframes tree-pulse {
+  to { opacity: 0.62; }
 }
 .tree-box-name {
   font-size: 15px;
-  fill: var(--ink);
+  line-height: 1.1;
+  color: var(--ink);
 }
 .tree-box-root .tree-box-name {
   font-weight: 700;
 }
 .tree-box-years {
+  margin-top: 2px;
   font-size: 10px;
-  fill: var(--muted);
+  line-height: 1;
+  color: var(--muted);
 }
 .tree-box-more {
+  position: absolute;
+  right: 6px;
+  bottom: 3px;
   font-size: 11px;
-  fill: var(--accent);
+  line-height: 1;
+  color: var(--accent);
+}
+.tree-box .react-flow__handle {
+  width: 1px;
+  min-width: 1px;
+  height: 1px;
+  min-height: 1px;
+  border: 0;
+  opacity: 0;
 }
 
 /* lines, and the evidence written on them */
 .tree-edge {
   cursor: pointer;
 }
-.tree-edge-line {
-  fill: none;
+.tree-edge .react-flow__edge-path {
   stroke: var(--line);
   stroke-width: 1.5;
+  transition: stroke 150ms ease, stroke-width 150ms ease;
 }
-.tree-edge-hit {
-  fill: none;
-  stroke: transparent;
-  stroke-width: 12;
-}
-.tree-edge:hover .tree-edge-line,
-.tree-edge-selected .tree-edge-line {
+.tree-edge:hover .react-flow__edge-path,
+.tree-edge.selected .react-flow__edge-path {
   stroke: var(--accent);
-  stroke-width: 2;
+  stroke-width: 2.5;
 }
-.tree-edge-spouse .tree-edge-line {
+.tree-edge-spouse .react-flow__edge-path {
   stroke-dasharray: 4 3;
 }
 /* Descent across generations the source did not name: a long dash in the
    accent colour, so it is never mistaken for the solid line that means "this
    person's father" — and never mistaken for no line at all, which a paler
    stroke than the boxes around it managed to be. */
-.tree-edge-descent .tree-edge-line {
+.tree-edge-descent .react-flow__edge-path {
   stroke: var(--accent);
   stroke-dasharray: 8 5;
   stroke-width: 1.6;
 }
-.tree-edge-descent .tree-edge-label {
-  fill: var(--accent);
-}
-.tree-edge-disputed .tree-edge-line {
+.tree-edge-disputed .react-flow__edge-path,
+.tree-edge-disputed:hover .react-flow__edge-path,
+.tree-edge-disputed.selected .react-flow__edge-path {
   stroke: var(--warn);
 }
-.tree-edge-label {
+.tree-edge .react-flow__edge-text {
   font-size: 9.5px;
   fill: var(--muted);
-  pointer-events: none;
 }
-.tree-edge:hover .tree-edge-label,
-.tree-edge-selected .tree-edge-label {
+.tree-edge:hover .react-flow__edge-text,
+.tree-edge.selected .react-flow__edge-text {
   fill: var(--accent);
-  font-size: 10.5px;
+}
+
+@media (max-width: 640px) {
+  .tree-canvas {
+    height: 62vh;
+    min-height: 360px;
+  }
 }
 
 /* the panel under the diagram */

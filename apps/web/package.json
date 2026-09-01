@@ -16,7 +16,8 @@
     "react-router-dom": "^6.26.0",
     "@wang/domain": "*",
     "@wang/i18n": "*",
-    "@wang/validation": "*"
+    "@wang/validation": "*",
+    "@xyflow/react": "^12.11.5"
   },
   "devDependencies": {
     "vite": "^5.4.0",
