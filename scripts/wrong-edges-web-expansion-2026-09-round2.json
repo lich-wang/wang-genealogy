@@ -1,0 +1,19 @@
+{
+  "note": "Luna 与主代理交叉核验：修正三条同名人物误挂，并将被合并的西晋/南梁王承及南梁/唐代王训分开。正确的新边由 kinship-web-expansion-2026-09-round2.json 经 API 建立。",
+  "summary_prefix": "同名人物与跨时代关系纠错",
+  "splits": [],
+  "retract": [
+    { "claim_id": "c_ha9YtHJMB5o37VNocJuwB3", "expect": { "predicate": "kinship.parent_of", "subject": "p_Xategg2TUsqjtsJGVyycV2", "object": "p_gr6qNDSogvFfNNz2L1sNwJ", "label": "西晋王祥→南陈王昚" }, "reason": "《隋书》卷七十六明载王昚与王胄为兄弟，父为陈黄门侍郎王祥；库内此边的王祥为西晋王祥，跨时代同名误挂。" },
+    { "claim_id": "c_ixEev5ARB5ENo7gQrN5vbG", "expect": { "predicate": "kinship.parent_of", "subject": "p_zZKVcF87pDBen7HbsJPftV", "object": "p_n2VhJYKthxCZqxJ3FGvsKN", "label": "西晋王浚→南陈王胄" }, "reason": "《隋书》卷七十六明载王胄父为陈黄门侍郎王祥；库内同时已有正确的南陈王祥→王胄，此边为跨支误挂。" },
+    { "claim_id": "c_rr5Me2QHWDvausySSP3ua3", "expect": { "predicate": "kinship.parent_of", "subject": "p_khfpnHyazPC5NrQ3YJisDR", "object": "p_wZDz78cKE5G7JTVc18RWBx", "label": "王嗣→王僧綽" }, "reason": "《宋书》卷七十一明载王僧绰为王昙首之子；王嗣是同段所述王华之子，邻近文本被误解析成父子。" },
+    { "claim_id": "c_4WANK5dEDYDgrDZwdu7t9F", "expect": { "predicate": "kinship.parent_of", "subject": "p_1PVoebznd6BJv1usnGBu3r", "object": "p_EZc8eia6jBCUiA6dx8URB6", "label": "南梁王暕→西晋王承" }, "reason": "现有王承有王湛父边及西晋王述子边，是西晋王承；《梁书》所载王暕之子王承为另一同名人物，已另建记录。" },
+    { "claim_id": "c_DUaVLLCyprqJHCABv56TNz", "expect": { "predicate": "kinship.ancestor_of", "subject": "p_ke9yjosuiX8LZiiCh781g5", "object": "p_EZc8eia6jBCUiA6dx8URB6", "label": "南齐王俭⇢西晋王承" }, "reason": "跨时代同名误挂；《梁书》所称王俭之孙是南梁王承，已另建记录。" },
+    { "claim_id": "c_H17FrdZuCgfDSRnNA4j7CE", "expect": { "predicate": "kinship.parent_of", "subject": "p_PcarY3s2HbN5X2amcQ3Lxq", "object": "p_5xzanYUMr9aPJq4AE4VLrN", "label": "唐代王繇→南梁王训" }, "reason": "现有王训有511—536年生卒及梁代身份，是王暕之子；墓志中的唐代光禄卿王训为另一同名人物，已另建记录。" },
+    { "claim_id": "c_dBBYPqqkwy2f5kTXnrFpNp", "expect": { "predicate": "kinship.ancestor_of", "subject": "p_dwq9QFUznBqpuUBRDrnuss", "object": "p_5xzanYUMr9aPJq4AE4VLrN", "label": "唐代王同皎⇢南梁王训" }, "reason": "跨时代同名误挂；王同皎的后代王训是唐代光禄卿，已另建记录。" },
+    { "claim_id": "c_ww12Ru5UKeAbhYaDBu9ULC", "expect": { "predicate": "kinship.parent_of", "subject": "p_3bM8PH72KLRFNj3e74B58y", "object": "p_bvfS4Dfw6Yxku7ijMc2RS6", "label": "王蒙→另一同名王蘊" }, "reason": "入库后全库审计发现该王蘊另有王楷父边及王熙等子女；《晋书》所载王蒙之子应使用已有东晋人物 Q15919655，故撤回本轮误挂。" },
+    { "claim_id": "c_LsEQfZp6XHb15euKaG98dW", "expect": { "predicate": "kinship.parent_of", "subject": "p_bvfS4Dfw6Yxku7ijMc2RS6", "object": "p_Zbe4ZVzH5jwyD12bQNjrZx", "label": "另一同名王蘊→东晋王恭" }, "reason": "入库后全库审计发现同一父子组合已由东晋王蘊 Q15919655 承载；为避免同名混接，撤回本轮误挂并把引用补到既有正确边。" },
+    { "claim_id": "c_D8ijKBqHpzwNCH95xcJqZ8", "expect": { "predicate": "kinship.parent_of", "subject": "p_dzQsozLMz4kdNcHPqJVsZP", "object": "p_nA2nodsbTFF9HKjzoMhUNw", "label": "王旦→身份未定的同名王素" }, "reason": "入库后审计发现已有明确北宋条目王素（1007—1073）承载王旦父边；另一同名王素还含王志父边，身份需另审，故撤回本轮误挂并向明确条目补引用。" }
+  ],
+  "link": [],
+  "cite": []
+}
