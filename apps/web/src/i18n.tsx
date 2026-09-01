@@ -22,6 +22,7 @@ import {
   isConvertibleLanguage,
   isZhScript,
   toHans,
+  toHant,
 } from '@wang/i18n';
 import type { ZhScript } from '@wang/i18n';
 import { loadHantPhrases } from '@wang/i18n/hant-phrases';
@@ -100,7 +101,10 @@ export function ScriptProvider({ children }: { children: ReactNode }) {
   const dataConversionReady = script === 'zh-Hans' || phrasesReady;
 
   const value = useMemo<ScriptState>(() => {
-    const t = (text: string) => (script === 'zh-Hans' ? toHans(text) : text);
+    // UI copy is normally authored in Traditional Chinese, but converting in
+    // both directions keeps newly added or third-party component labels safe
+    // even when they arrive in Simplified Chinese.
+    const t = (text: string) => (script === 'zh-Hans' ? toHans(text) : toHant(text));
     const tData = (text: string | null | undefined, language?: string | null) => {
       if (!text) return '';
       if (!isConvertibleLanguage(language)) return text;

@@ -163,7 +163,10 @@ try {
     const unexpanded = page.locator('.tree-box:not(.tree-box-root)').first();
     if (await unexpanded.count()) {
       const before = { boxes, plus: await page.locator('.tree-box-more').count() };
-      await unexpanded.click();
+      // React Flow may keep an off-centre node inside its transformed canvas;
+      // dispatching the event tests the expansion handler without Playwright
+      // scrolling that node underneath the sticky site header.
+      await unexpanded.dispatchEvent('click');
       const resolved = await page
         .waitForFunction(
           (b) =>
