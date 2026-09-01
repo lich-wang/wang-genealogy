@@ -1,10 +1,11 @@
 import { useCallback, useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import { Clock3, LoaderCircle } from 'lucide-react';
 import type { RecentChange } from '@wang/domain';
 import { api } from '../api';
 import { toMessage } from '../hooks';
 import { useScript } from '../i18n';
-import { formatDateTime } from '../format';
+import { contributionActionLabel, formatDateTime } from '../format';
 import { ZhText } from '../components/ZhText';
 
 export function RecentChangesPage() {
@@ -37,15 +38,14 @@ export function RecentChangesPage() {
 
   return (
     <div className="page changes-page">
-      <h1>{t('最近修改')}</h1>
-      <p className="hint">{t('公開展示新增、修改、回滾、爭議和合併記錄。')}</p>
+      <header className="changes-head"><span><Clock3 size={23} /></span><div><p className="section-kicker">{t('透明协作')}</p><h1>{t('最近修改')}</h1><p>{t('公开展示新增、修改、回滚、争议与合并记录。')}</p></div></header>
 
       {error ? <p className="error">{t(error)}</p> : null}
 
       <ul className="change-list">
         {items.map((c) => (
           <li key={c.contribution_id} className="change-item">
-            <span className="change-action">{c.action}</span>
+            <span className="change-action">{t(contributionActionLabel(c.action))}</span>
             <span className="change-actor">
               <ZhText text={c.actor_display_name} />
             </span>
@@ -60,7 +60,7 @@ export function RecentChangesPage() {
         ))}
       </ul>
 
-      {loading ? <p className="muted">{t('載入中…')}</p> : null}
+      {loading ? <p className="muted loading-line"><LoaderCircle className="spin" size={16} />{t('載入中…')}</p> : null}
 
       {cursor ? (
         <button className="btn" type="button" disabled={loading} onClick={() => loadMore(cursor)}>
@@ -77,12 +77,12 @@ function TargetLink({ change }: { change: RecentChange }) {
   if (change.subject_person_id) {
     return (
       <Link to={`/persons/${encodeURIComponent(change.subject_person_id)}`}>
-        <ZhText text={change.target_display_name} fallback={change.subject_person_id} />
+        <ZhText text={change.target_display_name} fallback="未命名人物" />
       </Link>
     );
   }
   if (change.target_type === 'source') {
-    return <Link to={`/sources/${encodeURIComponent(change.target_id)}`}>{change.target_id}</Link>;
+    return <Link to={`/sources/${encodeURIComponent(change.target_id)}`}>一份史料来源</Link>;
   }
-  return <span className="change-target">{change.target_id}</span>;
+  return <span className="change-target">{change.target_type}</span>;
 }

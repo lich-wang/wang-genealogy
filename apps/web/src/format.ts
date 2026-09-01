@@ -50,3 +50,20 @@ export function formatDateTime(iso: string, script: ZhScript = 'zh-Hans'): strin
   if (Number.isNaN(d.getTime())) return iso;
   return d.toLocaleString(script === 'zh-Hant' ? 'zh-TW' : 'zh-CN', { hour12: false });
 }
+
+/** Friendly audit-feed labels; internal action codes never need user decoding. */
+export function contributionActionLabel(action: string): string {
+  const labels: Record<string, string> = {
+    'person.create': '添加人物',
+    'claim.create': '补充资料',
+    'claim.revise': '修改资料',
+    'claim.dispute': '标记争议',
+    'claim.retract': '撤回资料',
+    'claim.revert': '回滚修改',
+    'source.create': '添加来源',
+    'merge.propose': '提出合并',
+    'merge.approve': '确认合并',
+    'merge.revert': '撤销合并',
+  };
+  return labels[action] ?? '更新资料';
+}

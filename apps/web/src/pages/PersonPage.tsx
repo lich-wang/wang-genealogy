@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
+import { Download, GitFork, Home, Info, PenLine, Plus, Users } from 'lucide-react';
 import type { ClaimWithSources, PersonSummary } from '@wang/domain';
 import { api } from '../api';
 import { useAsync, toMessage } from '../hooks';
@@ -68,31 +69,36 @@ export function PersonPage() {
         <div className="banner banner-merged" role="alert">
           {t('該人物已合併到')}{' '}
           <Link to={`/persons/${encodeURIComponent(summary.redirect_to_person_id!)}`}>
-            {t('另一條記錄')}（{summary.redirect_to_person_id}）
+            {t('合并后的主要人物页')}
           </Link>
           {t('。舊連結將永久重定向到目標人物；合併可被回滾。')}
         </div>
       ) : null}
 
       <header className="person-head">
-        <h1>
-          <ZhText text={summary.display_name} fallback={t('（未命名人物）')} />
-        </h1>
-        <div className="person-meta">
-          <PersonStatusBadge status={person.status} />
-          <Link className="btn btn-inline" to={`/persons/${encodeURIComponent(person.id)}/tree`}>
-            {t('家族树')}
+        <nav className="breadcrumbs" aria-label={t('面包屑导航')}>
+          <Link to="/"><Home size={14} />{t('首页')}</Link><span>/</span><span>{t('人物')}</span>
+        </nav>
+        <div className="person-title-row">
+          <span className="person-monogram" aria-hidden="true">{(summary.display_name ?? '王').slice(0, 1)}</span>
+          <div>
+            <p className="section-kicker">{t('王氏历史人物')}</p>
+            <h1><ZhText text={summary.display_name} fallback={t('未命名人物')} /></h1>
+            <div className="person-meta">
+              <PersonStatusBadge status={person.status} />
+              <span className="revision-label">{t(`资料版本 ${summary.current_revision}`)}</span>
+            </div>
+          </div>
+          <Link className="btn person-tree-action" to={`/persons/${encodeURIComponent(person.id)}/tree`}>
+            <GitFork size={17} />{t('查看家族树')}
           </Link>
-          <span className="muted" title={`${t('當前版本')} ${summary.current_revision}`}>
-            {person.id}
-          </span>
         </div>
       </header>
 
       {actionError ? <p className="error">{t(actionError)}</p> : null}
 
       <section className="person-summary">
-        <h2>{t('基本資訊')}</h2>
+        <div className="content-section-head"><span><Info size={19} /></span><div><h2>{t('基本资料')}</h2><p>{t('姓名、生卒与籍贯等可核实信息')}</p></div></div>
         {properties.length === 0 ? (
           <p className="muted">{t('尚無基礎資訊主張。')}</p>
         ) : (
@@ -113,7 +119,7 @@ export function PersonPage() {
       </section>
 
       <section className="person-relationships">
-        <h2>{t('親屬關係')}</h2>
+        <div className="content-section-head"><span><Users size={19} /></span><div><h2>{t('亲属关系')}</h2><p>{t('点击姓名可继续浏览相关人物')}</p></div></div>
         <div className="fact-list">
           <RelationshipGroup
             title="父母"
@@ -170,10 +176,10 @@ export function PersonPage() {
         {isAuthenticated ? (
           <>
             <Link className="btn btn-secondary" to={`/contribute?person=${encodeURIComponent(person.id)}&form=claim`}>
-              {t('新增基礎資訊主張')}
+              <Plus size={16} />{t('补充人物资料')}
             </Link>
             <Link className="btn btn-secondary" to={`/contribute?person=${encodeURIComponent(person.id)}&form=relationship`}>
-              {t('新增親屬關係')}
+              <PenLine size={16} />{t('添加亲属关系')}
             </Link>
           </>
         ) : (
@@ -186,7 +192,7 @@ export function PersonPage() {
           className="btn btn-secondary"
           onClick={() => void onExport(person.id, setActionError)}
         >
-          {t('匯出（JSON）')}
+          <Download size={16} />{t('导出资料')}
         </button>
       </footer>
     </div>
@@ -239,7 +245,7 @@ function RelationshipGroup({
             <span className="fact-value">
               {item.object_person ? (
                 <Link to={`/persons/${encodeURIComponent(item.object_person.id)}`}>
-                  <ZhText text={item.object_person.display_name} fallback={item.object_person.id} />
+                  <ZhText text={item.object_person.display_name} fallback={t('未命名人物')} />
                 </Link>
               ) : (
                 <span className="muted">{t('（關係物件未知）')}</span>

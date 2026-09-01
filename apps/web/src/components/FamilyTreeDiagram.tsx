@@ -176,7 +176,7 @@ const nodeTypes = { person: PersonNode };
 function PersonNode({ data, selected }: NodeProps<PersonFlowNode>) {
   const { tData } = useScript();
   const { person, isRoot, expanded, busy } = data;
-  const name = tData(person.display_name, null) || person.id;
+  const name = tData(person.display_name, null) || '未命名人物';
   const years = compactLifespan(person);
 
   return (

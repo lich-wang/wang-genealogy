@@ -101,17 +101,17 @@ try {
     await hans.click();
     await page.waitForFunction(() => document.documentElement.lang === 'zh-Hans');
     const hansText = await page.locator('body').innerText();
-    log(/基本资讯/.test(hansText) && /亲属关系/.test(hansText), '简体模式下界面用简体字（基本资讯/亲属关系）');
+    log(/基本(?:资讯|资料)/.test(hansText) && /亲属关系/.test(hansText), '简体模式下界面用简体字（基本资料/亲属关系）');
 
     await hant.click();
     await page.waitForFunction(() => document.documentElement.lang === 'zh-Hant');
     // The 简体→繁體 phrase dictionary loads as a separate chunk; wait for it.
     await page
-      .waitForFunction(() => /基本資訊/.test(document.body.innerText), { timeout: 20000 })
+      .waitForFunction(() => /基本(?:資訊|資料)/.test(document.body.innerText), { timeout: 20000 })
       .catch(() => {});
     const hantText = await page.locator('body').innerText();
-    log(/基本資訊/.test(hantText) && /親屬關係/.test(hantText), '繁體模式下界面用繁體字（基本資訊/親屬關係）');
-    log(!/基本资讯|亲属关系/.test(hantText), '繁體模式下没有残留的简体界面文字');
+    log(/基本(?:資訊|資料)/.test(hantText) && /親屬關係/.test(hantText), '繁體模式下界面用繁體字（基本資料/親屬關係）');
+    log(!/基本资讯|基本资料|亲属关系/.test(hantText), '繁體模式下没有残留的简体界面文字');
     log(/王安石/.test(hantText), '繁體模式下人物姓名仍可显示');
   } else {
     log(false, '找不到繁體切换按钮');
@@ -199,7 +199,7 @@ try {
     await page.waitForLoadState('networkidle');
     await page.waitForTimeout(500);
     const srcText = await page.locator('body').innerText();
-    log(/引用此来源的主张|引用此來源的主張/.test(srcText), '来源页渲染了引用该来源的主张');
+    log(/引用此来源的(?:主张|资料)|引用此來源的(?:主張|資料)/.test(srcText), '来源页渲染了引用该来源的资料');
     log(!/Failed to fetch/i.test(srcText), '来源页没有 "Failed to fetch"');
   } else {
     log(false, '人物页找不到来源链接');

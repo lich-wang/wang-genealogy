@@ -24,7 +24,7 @@ export function Provenance({ item, onDispute, disputeBusy }: ProvenanceProps) {
 
   const titles = sources
     .map((s) => {
-      const title = s.source?.title ?? s.source_id;
+      const title = s.source?.title ?? '未命名来源';
       return s.locator ? `${title}（${s.locator}）` : title;
     })
     .join('\n');
@@ -42,9 +42,6 @@ export function Provenance({ item, onDispute, disputeBusy }: ProvenanceProps) {
       <div className="provenance-body">
         <SourceRefList sources={sources} />
         <div className="claim-meta">
-          <span>
-            {t('主張')} {claim.id}
-          </span>
           <span>
             {t('版本')} {claim.current_revision}
           </span>

@@ -9,6 +9,26 @@ import { loadSourcesFor, nameOf } from '../summary.ts';
 
 const app = new Hono<{ Bindings: Env; Variables: Variables }>();
 
+// Searchable source picker for contribution forms. Contributors choose a
+// human-readable title; opaque source ids remain an implementation detail.
+app.get('/', async (c) => {
+  const q = (c.req.query('q') ?? '').trim();
+  if (!q) return c.json({ items: [] });
+  const like = `%${q.replaceAll('%', '\\%').replaceAll('_', '\\_')}%`;
+  const res = await c.env.DB
+    .prepare(
+      `SELECT * FROM source
+        WHERE title LIKE ? ESCAPE '\\'
+           OR creator LIKE ? ESCAPE '\\'
+           OR external_identifier LIKE ? ESCAPE '\\'
+        ORDER BY CASE WHEN title = ? THEN 0 ELSE 1 END, created_at DESC
+        LIMIT 20`,
+    )
+    .bind(like, like, like, q)
+    .all<Record<string, unknown>>();
+  return c.json({ items: (res.results ?? []).map(mapSource) });
+});
+
 app.post('/', async (c) => {
   const auth = requireAuth(c);
   const input = createSourceSchema.parse(await c.req.json());

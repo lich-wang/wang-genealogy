@@ -209,12 +209,15 @@ POST /api/v1/claims/{claimId}/reverts
 
 ```http
 POST /api/v1/sources
+GET  /api/v1/sources?q=資治通鑑
 GET  /api/v1/sources/{sourceId}
 POST /api/v1/claims/{claimId}/sources
 GET  /api/v1/sources/{sourceId}/claims
 ```
 
 不得上传影像。来源接口只接收书目信息、URL、外部 ID、定位和合理长度的摘录。
+
+`GET /api/v1/sources?q=...` 按标题、作者或外部标识模糊匹配，最多返回 20 条来源记录，供贡献表单按书名选择来源。人物和来源的内部 ID 只用于前后端传输，不要求普通用户查看、复制或手工填写。
 
 `GET /api/v1/sources/{sourceId}/claims` 的每一项包含引用该来源的主张、该主张的全部来源、关系主张的对方人物，以及**本来源**这条引用的 `stance`、`locator`、`quotation`。
 

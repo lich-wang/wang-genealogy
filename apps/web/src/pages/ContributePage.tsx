@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import type { FormEvent, ReactNode } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
+import { ArrowRight, BookOpen, CheckCircle2, GitFork, LogOut, Plus, ScrollText, UserPlus } from 'lucide-react';
 import {
   CONFIDENCE,
   LICENSE_CODE,
@@ -31,6 +32,7 @@ import {
 } from '../labels';
 import { SourceRefEditor, cleanSourceRefs } from '../components/SourceRefEditor';
 import { ZhText } from '../components/ZhText';
+import { PersonPicker } from '../components/EntityPicker';
 
 /** Script tags a contributor can attach to a text value. */
 const LANGUAGE_OPTIONS: Array<{ value: string; label: string }> = [
@@ -47,15 +49,20 @@ export function ContributePage() {
 
   return (
     <div className="page contribute-page">
-      <h1>{t('貢獻')}</h1>
+      <header className="page-heading contribute-heading">
+        <span className="section-kicker"><Plus size={15} />{t('参与共建')}</span>
+        <h1>{t('把可靠的家族资料，留给更多人')}</h1>
+        <p>{t('从姓名开始，按引导补充人物、关系和来源。所有修改都会留下记录，不需要接触任何数据库编号。')}</p>
+      </header>
       {isAuthenticated ? (
         <>
-          <p className="muted">
-            {t('已登入')}：{user?.display_name}（{user?.role}）
+          <div className="signed-in-bar">
+            <span className="signed-in-avatar">{(user?.display_name ?? '王').slice(0, 1)}</span>
+            <span><small>{t('当前贡献者')}</small><strong>{user?.display_name}</strong></span>
             <button type="button" className="btn btn-inline" onClick={logout}>
-              {t('退出')}
+              <LogOut size={14} />{t('退出')}
             </button>
-          </p>
+          </div>
           <ContributorForms
             initialPerson={params.get('person') ?? ''}
             initialForm={params.get('form') ?? 'person'}
@@ -167,16 +174,16 @@ function ContributorForms({
     <section className="contributor-forms">
       <div className="tabs">
         <TabButton current={form} value="person" onSelect={setForm}>
-          {t('新建人物')}
+          <UserPlus size={18} /><span><strong>{t('添加人物')}</strong><small>{t('从姓名开始')}</small></span>
         </TabButton>
         <TabButton current={form} value="claim" onSelect={setForm}>
-          {t('新增資訊主張')}
+          <ScrollText size={18} /><span><strong>{t('补充资料')}</strong><small>{t('生卒、籍贯等')}</small></span>
         </TabButton>
         <TabButton current={form} value="relationship" onSelect={setForm}>
-          {t('新增親屬關係')}
+          <GitFork size={18} /><span><strong>{t('添加关系')}</strong><small>{t('父母、配偶等')}</small></span>
         </TabButton>
         <TabButton current={form} value="source" onSelect={setForm}>
-          {t('新建來源')}
+          <BookOpen size={18} /><span><strong>{t('新建来源')}</strong><small>{t('登记书目信息')}</small></span>
         </TabButton>
       </div>
 
@@ -213,7 +220,7 @@ function TabButton({
 function FormResult({ error, ok }: { error: string | null; ok: string | null }) {
   const { t } = useScript();
   if (error) return <p className="error">{t(error)}</p>;
-  if (ok) return <p className="success">{t(ok)}</p>;
+  if (ok) return <p className="success form-notice"><CheckCircle2 size={17} />{t(ok)}</p>;
   return null;
 }
 
@@ -230,9 +237,8 @@ function DuplicateWarning({ candidates }: { candidates: PersonSummaryLite[] }) {
         {candidates.map((p) => (
           <li key={p.id}>
             <Link to={`/persons/${encodeURIComponent(p.id)}`}>
-              <ZhText text={p.display_name} fallback={p.id} />
-            </Link>{' '}
-            <span className="muted">{p.id}</span>
+              <ZhText text={p.display_name} fallback={t('未命名人物')} />
+            </Link>
           </li>
         ))}
       </ul>
@@ -251,6 +257,7 @@ function CreatePersonForm() {
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [ok, setOk] = useState<string | null>(null);
+  const [createdPersonId, setCreatedPersonId] = useState<string | null>(null);
 
   // Tag the value with the script actually typed, so later readers get an exact
   // conversion instead of a guess. The contributor can always override.
@@ -293,6 +300,7 @@ function CreatePersonForm() {
     e.preventDefault();
     setError(null);
     setOk(null);
+    setCreatedPersonId(null);
     setBusy(true);
     try {
       const res = await api.createPerson({
@@ -304,10 +312,11 @@ function CreatePersonForm() {
         },
       });
       const pid = res.person_id ?? res.id;
+      setCreatedPersonId(pid ?? null);
       if (res.possible_duplicates?.length) setDuplicates(res.possible_duplicates);
       setOk(
         pid
-          ? `已建立人物 ${pid}。${sources.length === 0 ? '（無來源，將保留為私有草稿）' : ''}`
+          ? `人物已建立。${sources.length === 0 ? '目前没有来源，将作为待核实草稿保存。' : '你可以继续补充生卒、籍贯或亲属关系。'}`
           : '已提交。',
       );
     } catch (err) {
@@ -319,12 +328,7 @@ function CreatePersonForm() {
 
   return (
     <form className="form" onSubmit={submit}>
-      <p className="hint">
-        {t('建立人物錨點需提交至少一個規範姓名主張；沒有來源時只能作為私有草稿儲存。')}
-      </p>
-      <p className="hint">
-        {t('姓名按來源原文錄入，不要為了統一字形而改寫；字形轉換只發生在閱讀時。')}
-      </p>
+      <div className="form-intro"><span><UserPlus size={20} /></span><div><h2>{t('添加一位历史人物')}</h2><p>{t('先填写史料中的姓名。没有来源也可以保存，但只会作为待核实草稿。')}</p></div></div>
       <label className="field">
         <span>{t('規範姓名')}</span>
         <input value={name} onChange={(e) => setName(e.target.value)} required />
@@ -349,6 +353,11 @@ function CreatePersonForm() {
       <ConfidenceSelect value={confidence} onChange={setConfidence} />
       <SourceRefEditor value={sources} onChange={setSources} />
       <FormResult error={error} ok={ok} />
+      {createdPersonId ? (
+        <Link className="created-link" to={`/persons/${encodeURIComponent(createdPersonId)}`}>
+          {t('打开刚建立的人物页')}<ArrowRight size={16} />
+        </Link>
+      ) : null}
       <button className="btn" type="submit" disabled={busy || !name.trim()}>
         {busy ? t('提交中…') : t('建立人物')}
       </button>
@@ -385,7 +394,7 @@ function CreateClaimForm({ initialPerson }: { initialPerson: string }) {
     setOk(null);
     setBusy(true);
     try {
-      const res = await api.createClaim(personId.trim(), {
+      await api.createClaim(personId.trim(), {
         claim_kind: 'property',
         predicate,
         value: isDate
@@ -395,7 +404,7 @@ function CreateClaimForm({ initialPerson }: { initialPerson: string }) {
         sources: cleanSourceRefs(sources),
         change_summary: summary.trim() || undefined,
       });
-      setOk(`已提交主張 ${res.claim_id ?? res.id ?? ''}。`);
+      setOk('资料已提交，并已记录本次修改。');
     } catch (err) {
       setError(toMessage(err));
     } finally {
@@ -405,10 +414,8 @@ function CreateClaimForm({ initialPerson }: { initialPerson: string }) {
 
   return (
     <form className="form" onSubmit={submit}>
-      <label className="field">
-        <span>{t('人物 ID')}</span>
-        <input value={personId} onChange={(e) => setPersonId(e.target.value)} required />
-      </label>
+      <div className="form-intro"><span><ScrollText size={20} /></span><div><h2>{t('补充人物资料')}</h2><p>{t('先按姓名选择人物，再填写一条能够独立核实的资料。')}</p></div></div>
+      <PersonPicker label="要补充哪位人物" value={personId} onChange={setPersonId} />
       <label className="field">
         <span>{t('欄位')}</span>
         <select value={predicate} onChange={(e) => setPredicate(e.target.value as PropertyPredicate)}>
@@ -492,14 +499,14 @@ function CreateRelationshipForm({ initialPerson }: { initialPerson: string }) {
     setOk(null);
     setBusy(true);
     try {
-      const res = await api.createRelationship(personId.trim(), {
+      await api.createRelationship(personId.trim(), {
         relationship,
         related_person_id: relatedId.trim(),
         confidence,
         sources: cleanSourceRefs(sources),
         change_summary: summary.trim() || undefined,
       });
-      setOk(`已提交關係主張 ${res.claim_id ?? res.id ?? ''}。服務端會統一規範化為單向 *_of 關係。`);
+      setOk('亲属关系已提交，并已记录本次修改。');
     } catch (err) {
       setError(toMessage(err));
     } finally {
@@ -509,13 +516,8 @@ function CreateRelationshipForm({ initialPerson }: { initialPerson: string }) {
 
   return (
     <form className="form" onSubmit={submit}>
-      <p className="hint">
-        {t('以自然語言方向填寫，服務端統一規範化為單向 *_of 關係；收養與生物學親子關係分開記錄。')}
-      </p>
-      <label className="field">
-        <span>{t('當前人物 ID')}</span>
-        <input value={personId} onChange={(e) => setPersonId(e.target.value)} required />
-      </label>
+      <div className="form-intro"><span><GitFork size={20} /></span><div><h2>{t('连接两位家族人物')}</h2><p>{t('按姓名选择双方，再用自然语言说明他们的关系。')}</p></div></div>
+      <PersonPicker label="从哪位人物出发" value={personId} onChange={setPersonId} excludeId={relatedId} />
       <label className="field">
         <span>{t('關係')}</span>
         <select
@@ -529,10 +531,7 @@ function CreateRelationshipForm({ initialPerson }: { initialPerson: string }) {
           ))}
         </select>
       </label>
-      <label className="field">
-        <span>{t('對方人物 ID')}</span>
-        <input value={relatedId} onChange={(e) => setRelatedId(e.target.value)} required />
-      </label>
+      <PersonPicker label="选择关系中的另一位人物" value={relatedId} onChange={setRelatedId} excludeId={personId} />
       <ConfidenceSelect value={confidence} onChange={setConfidence} />
       <SourceRefEditor value={sources} onChange={setSources} />
       <label className="field">
@@ -560,11 +559,13 @@ function CreateSourceForm() {
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [ok, setOk] = useState<string | null>(null);
+  const [createdSourceId, setCreatedSourceId] = useState<string | null>(null);
 
   async function submit(e: FormEvent) {
     e.preventDefault();
     setError(null);
     setOk(null);
+    setCreatedSourceId(null);
     setBusy(true);
     try {
       const created = await api.createSource({
@@ -577,7 +578,8 @@ function CreateSourceForm() {
         external_identifier: externalId.trim() || undefined,
         license_code: license,
       });
-      setOk(`已建立來源 ${created.source_id}。`);
+      setCreatedSourceId(created.source_id);
+      setOk('来源已建立。现在可以在人物资料表单中按标题搜索并引用它。');
     } catch (err) {
       setError(toMessage(err));
     } finally {
@@ -587,9 +589,7 @@ function CreateSourceForm() {
 
   return (
     <form className="form" onSubmit={submit}>
-      <p className="hint">
-        {t('來源不接收影像；僅登記書目資訊、URL、外部 ID、定位與合理長度的摘錄。')}
-      </p>
+      <div className="form-intro"><span><BookOpen size={20} /></span><div><h2>{t('登记一份史料来源')}</h2><p>{t('填写读者能识别的书名、作者或网页信息；本站不接收影像附件。')}</p></div></div>
       <label className="field">
         <span>{t('類型')}</span>
         <select value={sourceType} onChange={(e) => setSourceType(e.target.value as SourceType)}>
@@ -635,6 +635,11 @@ function CreateSourceForm() {
         </select>
       </label>
       <FormResult error={error} ok={ok} />
+      {createdSourceId ? (
+        <Link className="created-link" to={`/sources/${encodeURIComponent(createdSourceId)}`}>
+          {t('查看刚建立的来源')}<ArrowRight size={16} />
+        </Link>
+      ) : null}
       <button className="btn" type="submit" disabled={busy || !title.trim()}>
         {busy ? t('提交中…') : t('建立來源')}
       </button>

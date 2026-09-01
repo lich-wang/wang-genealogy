@@ -1,4 +1,5 @@
 import { useParams } from 'react-router-dom';
+import { BookOpen, ExternalLink, Quote } from 'lucide-react';
 import type { ClaimWithSources, Source } from '@wang/domain';
 import { api } from '../api';
 import { useAsync } from '../hooks';
@@ -23,13 +24,11 @@ export function SourcePage() {
   return (
     <div className="page source-page">
       <header className="source-head">
-        <h1>
-          <ZhText text={s.title} />
-        </h1>
-        <span className="badge badge-source-type">{t(SOURCE_TYPE_LABELS[s.source_type])}</span>
+        <span className="source-icon"><BookOpen size={24} /></span>
+        <div><p className="section-kicker">{t('史料来源')}</p><h1><ZhText text={s.title} /></h1><span className="badge badge-source-type">{t(SOURCE_TYPE_LABELS[s.source_type])}</span></div>
       </header>
 
-      <dl className="source-biblio">
+      <section className="source-overview"><h2>{t('书目信息')}</h2><dl className="source-biblio">
         <Row label="著者/編者" value={s.creator} />
         <Row label="出版者" value={s.publisher} />
         <Row label="出版時間" value={s.published_at_text} />
@@ -41,15 +40,15 @@ export function SourcePage() {
             <dt>{t('連結')}</dt>
             <dd>
               <a href={s.canonical_url} target="_blank" rel="noreferrer noopener">
-                {s.canonical_url}
+                {t('打开外部来源')}<ExternalLink size={14} />
               </a>
             </dd>
           </>
         ) : null}
-      </dl>
+      </dl></section>
 
       <section className="source-claims">
-        <h2>{t('引用此來源的主張')}</h2>
+        <div className="content-section-head"><span><Quote size={19} /></span><div><h2>{t('引用此来源的资料')}</h2><p>{t('以下人物资料均引用了这份来源')}</p></div></div>
         {claims.loading ? <p className="muted">{t('載入中…')}</p> : null}
         {claims.error ? <p className="error">{t(claims.error)}</p> : null}
         {claims.data ? (

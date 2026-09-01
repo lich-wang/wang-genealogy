@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import type { FormEvent } from 'react';
 import { Link } from 'react-router-dom';
+import { ArrowRight, BookOpenText, Clock3, GitFork, Search, ShieldCheck, Sparkles, UserPlus, Users } from 'lucide-react';
 import type { KinshipHighlight, PersonSummaryLite, RecentChange } from '@wang/domain';
 import { scriptVariants } from '@wang/i18n';
 import { api } from '../api';
@@ -8,7 +9,7 @@ import { useAsync, toMessage } from '../hooks';
 import { useScript } from '../i18n';
 import { PersonStatusBadge } from '../components/badges';
 import { ZhText } from '../components/ZhText';
-import { formatDateTime } from '../format';
+import { contributionActionLabel, formatDateTime } from '../format';
 
 export function HomePage() {
   const { t, script } = useScript();
@@ -60,31 +61,49 @@ export function HomePage() {
   return (
     <div className="page home-page">
       <section className="hero">
-        <h1>{t('王氏譜系知識庫')}</h1>
-        <p className="lead">
+        <div className="hero-copy">
+          <p className="eyebrow"><BookOpenText size={16} />{t('开放 · 可追溯 · 持续共建')}</p>
+          <h1>{t('从一个名字，走进一段')}<span>{t('有据可查的家族历史')}</span></h1>
+          <p className="lead">
           {t(
-            '以來源與版本為核心的王姓歷史人物公開知識庫。每條姓名、生卒、籍貫與譜系關係都可追溯到具體來源，爭議說法並列呈現，不隱藏少數意見。',
+            '查询王姓历史人物、亲属关系与支派脉络。每条姓名、生卒、籍贯和谱系关系都能回到具体来源，不确定的地方也会如实呈现。',
           )}
-        </p>
+          </p>
+          <div className="hero-trust">
+            <span><ShieldCheck size={16} />{t('来源可查')}</span>
+            <span><GitFork size={16} />{t('争议并列')}</span>
+            <span><Clock3 size={16} />{t('修改留痕')}</span>
+          </div>
+        </div>
+        <div className="hero-emblem" aria-hidden="true">
+          <span>王</span>
+          <small>{t('百家姓')}</small>
+        </div>
       </section>
 
-      <section className="search-block">
+      <section className="search-block" id="search">
+        <div className="search-heading">
+          <div>
+            <span className="section-kicker">{t('人物检索')}</span>
+            <h2>{t('你想了解哪位王氏人物？')}</h2>
+          </div>
+          <span className="search-tip">{t('支持简体、繁體与别名')}</span>
+        </div>
         <form className="search-form" onSubmit={onSearch}>
+          <Search className="search-icon" size={21} aria-hidden="true" />
           <input
             className="search-input"
             type="search"
             value={query}
-            placeholder={t('搜尋人物、支派、地點或來源…')}
+            placeholder={t('输入姓名，例如：王羲之、王安石…')}
             onChange={(e) => setQuery(e.target.value)}
             aria-label={t('搜尋')}
             lang={script}
           />
           <button className="btn" type="submit" disabled={searching}>
-            {searching ? t('搜尋中…') : t('搜尋')}
+            {searching ? t('搜尋中…') : t('查找人物')}
           </button>
         </form>
-
-        <p className="hint">{t('繁體與简体視為同一寫法，搜尋任一字形都能找到同一人物。')}</p>
 
         {searchError ? <p className="error">{t(searchError)}</p> : null}
 
@@ -98,15 +117,21 @@ export function HomePage() {
                   {t('同時匹配字形')}：{expanded.join('、')}
                 </p>
               ) : null}
-              <ul className="result-list">
+              <ul className="result-list search-results">
                 {results.map((p) => (
                   <li key={p.id} className="result-item">
-                    <Link to={`/persons/${encodeURIComponent(p.id)}`}>
-                      <ZhText text={p.display_name} fallback={t('（未命名人物）')} />
-                    </Link>{' '}
-                    <PersonStatusBadge status={p.status} />{' '}
+                    <span className="result-avatar" aria-hidden="true">
+                      {(p.display_name ?? '王').slice(0, 1)}
+                    </span>
+                    <span className="result-main">
+                      <Link to={`/persons/${encodeURIComponent(p.id)}`}>
+                        <ZhText text={p.display_name} fallback={t('（未命名人物）')} />
+                      </Link>
+                      <span>{t('查看人物资料与来源')}</span>
+                    </span>
+                    <PersonStatusBadge status={p.status} />
                     <Link className="result-tree" to={`/persons/${encodeURIComponent(p.id)}/tree`}>
-                      {t('家族树')}
+                      <GitFork size={15} />{t('家族树')}
                     </Link>
                   </li>
                 ))}
@@ -135,21 +160,27 @@ export function HomePage() {
 
       <section className="tree-entry-block">
         <div className="section-head">
-          <h2>{t('家族树')}</h2>
+          <div>
+            <span className="section-kicker"><Sparkles size={14} />{t('值得探索')}</span>
+            <h2>{t('从这些人物开始')}</h2>
+          </div>
+          <span className="section-note">{t('按已收录亲属关系推荐')}</span>
         </div>
-        <p className="hint">
-          {t('从这些人物开始，祖先在上、后代在下，可按需一代一代展开；括号内是已记录的亲属人数。')}
-        </p>
         {highlights.loading ? <p className="muted">{t('載入中…')}</p> : null}
         {highlights.error ? <p className="error">{t(highlights.error)}</p> : null}
         {highlights.data ? (
-          <ul className="tree-entry-list">
-            {highlights.data.map((person) => (
+          <ul className="tree-entry-list highlight-grid">
+            {highlights.data.map((person, index) => (
               <li key={person.id}>
-                <Link to={`/persons/${encodeURIComponent(person.id)}/tree`}>
-                  <ZhText text={person.display_name} fallback={person.id} />
+                <Link className="highlight-card" to={`/persons/${encodeURIComponent(person.id)}/tree`}>
+                  <span className="highlight-rank">{String(index + 1).padStart(2, '0')}</span>
+                  <span className="highlight-avatar">{(person.display_name ?? '王').slice(0, 1)}</span>
+                  <span className="highlight-copy">
+                    <strong><ZhText text={person.display_name} fallback={t('未命名人物')} /></strong>
+                    <small><Users size={14} />{t(`已收录 ${person.relative_count} 位亲属`)}</small>
+                  </span>
+                  <ArrowRight size={18} />
                 </Link>
-                <span className="muted">（{person.relative_count}）</span>
               </li>
             ))}
           </ul>
@@ -158,12 +189,25 @@ export function HomePage() {
 
       <section className="recent-block">
         <div className="section-head">
-          <h2>{t('最近修改')}</h2>
-          <Link to="/changes">{t('檢視全部 →')}</Link>
+          <div>
+            <span className="section-kicker"><Clock3 size={14} />{t('共同维护')}</span>
+            <h2>{t('最近更新')}</h2>
+          </div>
+          <Link className="text-link" to="/changes">{t('查看全部')}<ArrowRight size={16} /></Link>
         </div>
         {recent.loading ? <p className="muted">{t('載入中…')}</p> : null}
         {recent.error ? <p className="error">{t(recent.error)}</p> : null}
         {recent.data ? <RecentList items={recent.data.slice(0, 10)} /> : null}
+      </section>
+
+      <section className="contribute-callout">
+        <div className="callout-icon"><UserPlus size={25} /></div>
+        <div>
+          <span className="section-kicker">{t('一起完善谱系')}</span>
+          <h2>{t('发现遗漏的人物或关系？')}</h2>
+          <p>{t('使用引导式表单添加人物、亲属关系与史料来源，无需了解数据库编号。')}</p>
+        </div>
+        <Link className="btn" to="/contribute">{t('开始贡献')}<ArrowRight size={17} /></Link>
       </section>
     </div>
   );
@@ -176,7 +220,7 @@ function RecentList({ items }: { items: RecentChange[] }) {
     <ul className="change-list">
       {items.map((c) => (
         <li key={c.contribution_id} className="change-item">
-          <span className="change-action">{c.action}</span>
+          <span className="change-action">{t(contributionActionLabel(c.action))}</span>
           <span className="change-actor">
             <ZhText text={c.actor_display_name} />
           </span>
@@ -198,14 +242,14 @@ function ChangeTarget({ change }: { change: RecentChange }) {
   if (change.subject_person_id) {
     return (
       <Link to={`/persons/${encodeURIComponent(change.subject_person_id)}`}>
-        <ZhText text={change.target_display_name} fallback={change.subject_person_id} />
+        <ZhText text={change.target_display_name} fallback="未命名人物" />
       </Link>
     );
   }
   if (change.target_type === 'source') {
     return (
-      <Link to={`/sources/${encodeURIComponent(change.target_id)}`}>{change.target_id}</Link>
+      <Link to={`/sources/${encodeURIComponent(change.target_id)}`}>史料来源</Link>
     );
   }
-  return <span className="change-target">{change.target_id}</span>;
+  return <span className="change-target">{change.target_type}</span>;
 }

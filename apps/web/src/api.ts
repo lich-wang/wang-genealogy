@@ -295,6 +295,9 @@ export const api = {
   createSource: (input: CreateSourceInput) =>
     request<{ source_id: string }>('/sources', { method: 'POST', body: input }),
 
+  searchSources: (query: string) =>
+    request<{ items: Source[] }>('/sources', { query: { q: query } }).then((r) => r.items),
+
   getSource: (id: string) =>
     request<{ source: Source }>(`/sources/${encodeURIComponent(id)}`).then((r) => r.source),
 

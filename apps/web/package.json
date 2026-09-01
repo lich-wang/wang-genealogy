@@ -11,20 +11,21 @@
     "deploy": "wrangler pages deploy dist --project-name wang-genealogy-web"
   },
   "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-router-dom": "^6.26.0",
     "@wang/domain": "*",
     "@wang/i18n": "*",
     "@wang/validation": "*",
-    "@xyflow/react": "^12.11.5"
+    "@xyflow/react": "^12.11.5",
+    "lucide-react": "^1.38.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.0"
   },
   "devDependencies": {
-    "vite": "^5.4.0",
-    "@vitejs/plugin-react": "^4.3.0",
-    "typescript": "^5.6.3",
+    "@types/node": "^20.14.0",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
-    "@types/node": "^20.14.0"
+    "@vitejs/plugin-react": "^4.3.0",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.0"
   }
 }

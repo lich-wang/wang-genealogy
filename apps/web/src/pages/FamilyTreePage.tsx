@@ -200,7 +200,7 @@ function EdgeDetail({
         {a?.display_name ?? '?'} {arrow} {b?.display_name ?? '?'}
       </h2>
       <p className="muted">
-        {t(label)} · {t('主張')} {edge.claim_id}
+        {t(label)}
         {edge.status !== 'accepted' ? ` · ${edge.status}` : ''}
       </p>
       {edge.citations.length === 0 ? (
@@ -240,7 +240,7 @@ function PersonDetail({ person, expanded }: { person: RelativeNode; expanded: bo
 /** Convert stored names through the shared display-layer script setting. */
 function PersonName({ node }: { node: RelativeNode }) {
   const { tData } = useScript();
-  return <>{tData(node.display_name, null) || node.id}</>;
+  return <>{tData(node.display_name, null) || '未命名人物'}</>;
 }
 
 /** The panel has room for the full text; the boxes do not. */

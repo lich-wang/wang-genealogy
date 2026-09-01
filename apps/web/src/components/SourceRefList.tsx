@@ -29,7 +29,7 @@ export function SourceRefList({ sources }: { sources: ClaimSourceWithSource[] })
             {t(STANCE_LABELS[cs.stance])}
           </span>{' '}
           <Link to={`/sources/${encodeURIComponent(cs.source_id)}`}>
-            <ZhText text={cs.source?.title} fallback={cs.source_id} />
+            <ZhText text={cs.source?.title} fallback={t('未命名来源')} />
           </Link>
           {cs.locator ? (
             <span className="source-locator">

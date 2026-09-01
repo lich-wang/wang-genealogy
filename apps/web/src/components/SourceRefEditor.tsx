@@ -1,7 +1,9 @@
 import { CLAIM_SOURCE_STANCE } from '@wang/domain';
+import { BookPlus, Trash2 } from 'lucide-react';
 import type { SourceRefInput } from '../api';
 import { useScript } from '../i18n';
 import { STANCE_LABELS } from '../labels';
+import { SourcePicker } from './EntityPicker';
 
 interface SourceRefEditorProps {
   value: SourceRefInput[];
@@ -28,38 +30,40 @@ export function SourceRefEditor({ value, onChange }: SourceRefEditorProps) {
   return (
     <fieldset className="source-editor">
       <legend>{t('來源（公開主張需至少一條來源）')}</legend>
-      {value.length === 0 ? <p className="muted">{t('尚未新增來源。')}</p> : null}
+      <p className="source-editor-help">{t('按标题搜索已有史料，再填写原文所在卷、页或条目。')}</p>
+      {value.length === 0 ? <p className="source-empty-state">{t('尚未关联来源，此资料只能保存为待核实草稿。')}</p> : null}
       {value.map((ref, i) => (
         <div key={i} className="source-editor-row">
-          <input
-            type="text"
-            placeholder={t('來源 ID（s_…）')}
-            value={ref.source_id}
-            onChange={(e) => update(i, { source_id: e.target.value })}
-          />
-          <select
-            value={ref.stance ?? 'supports'}
-            onChange={(e) => update(i, { stance: e.target.value as SourceRefInput['stance'] })}
-          >
-            {CLAIM_SOURCE_STANCE.map((st) => (
-              <option key={st} value={st}>
-                {t(STANCE_LABELS[st])}
-              </option>
-            ))}
-          </select>
-          <input
-            type="text"
-            placeholder={t('定位（卷頁 / URL / 條目號）')}
-            value={ref.locator ?? ''}
-            onChange={(e) => update(i, { locator: e.target.value })}
-          />
-          <button type="button" className="btn btn-inline" onClick={() => remove(i)}>
-            {t('移除')}
+          <SourcePicker value={ref.source_id} onChange={(sourceId) => update(i, { source_id: sourceId })} />
+          <div className="source-ref-details">
+            <label>
+              <span>{t('这份来源如何支持资料')}</span>
+              <select
+                value={ref.stance ?? 'supports'}
+                onChange={(e) => update(i, { stance: e.target.value as SourceRefInput['stance'] })}
+              >
+                {CLAIM_SOURCE_STANCE.map((st) => (
+                  <option key={st} value={st}>{t(STANCE_LABELS[st])}</option>
+                ))}
+              </select>
+            </label>
+            <label>
+              <span>{t('原文位置（选填）')}</span>
+              <input
+                type="text"
+                placeholder={t('例如：卷三，第 24 页')}
+                value={ref.locator ?? ''}
+                onChange={(e) => update(i, { locator: e.target.value })}
+              />
+            </label>
+          </div>
+          <button type="button" className="source-remove" onClick={() => remove(i)}>
+            <Trash2 size={16} />{t('移除此来源')}
           </button>
         </div>
       ))}
-      <button type="button" className="btn btn-inline" onClick={add}>
-        + {t('新增來源')}
+      <button type="button" className="btn btn-secondary source-add" onClick={add}>
+        <BookPlus size={17} />{t('关联一份来源')}
       </button>
     </fieldset>
   );

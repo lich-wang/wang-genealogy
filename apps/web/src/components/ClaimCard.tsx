@@ -74,7 +74,7 @@ function RelationshipTarget({ item }: { item: ClaimWithSources }) {
   if (!target) return <span>{t('（關係物件未知）')}</span>;
   return (
     <Link to={`/persons/${encodeURIComponent(target.id)}`}>
-      <ZhText text={target.display_name} fallback={target.id} />
+      <ZhText text={target.display_name} fallback="未命名人物" />
     </Link>
   );
 }
