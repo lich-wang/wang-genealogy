@@ -17,7 +17,7 @@ interface Executed {
  * `person` (with a claim EXISTS subquery); `nameOf` selects straight from
  * `claim`.
  */
-function fakeDb(rows: { persons?: unknown[]; nameClaims?: unknown[] } = {}) {
+function fakeDb(rows: { persons?: unknown[]; nameClaims?: unknown[]; detailClaims?: unknown[] } = {}) {
   const executed: Executed[] = [];
   const db = {
     prepare(sql: string) {
@@ -27,7 +27,11 @@ function fakeDb(rows: { persons?: unknown[]; nameClaims?: unknown[] } = {}) {
           return stmt;
         },
         all() {
-          const results = /FROM person p\b/.test(sql) ? (rows.persons ?? []) : (rows.nameClaims ?? []);
+          const results = /FROM person p\b/.test(sql)
+            ? (rows.persons ?? [])
+            : /predicate IN/.test(sql)
+              ? (rows.detailClaims ?? [])
+              : (rows.nameClaims ?? []);
           return Promise.resolve({ results });
         },
       };
@@ -56,6 +60,14 @@ const person = (id: string, createdAt = '2026-01-01T00:00:00.000Z') => ({
   id,
   status: 'active',
   created_at: createdAt,
+  relative_count: 0,
+});
+
+const detailClaim = (personId: string, predicate: string, value: Record<string, unknown>) => ({
+  ...nameClaim(personId, ''),
+  id: `c_${personId}_${predicate}`,
+  predicate,
+  value_json: JSON.stringify(value),
 });
 
 describe('findPersonsByName', () => {
@@ -68,12 +80,47 @@ describe('findPersonsByName', () => {
     const page = await findPersonsByName(db, '王賁');
 
     expect(page.items).toEqual([
-      { id: 'p_1', status: 'active', display_name: '王贲', merged_into_person_id: null },
+      {
+        id: 'p_1',
+        status: 'active',
+        display_name: '王贲',
+        merged_into_person_id: null,
+        birth_text: null,
+        death_text: null,
+        origin_text: null,
+        branch_text: null,
+        also_known_as: [],
+        relative_count: 0,
+      },
     ]);
     expect(page.next_cursor).toBeNull();
     // Query expanded to 繁體 (as typed) + 简体 (as stored); the limit is the page
     // size plus one probe row.
     expect(executed[0]!.binds).toEqual(['%王賁%', '%王贲%', SEARCH_PAGE_SIZE + 1]);
+  });
+
+  it('adds batch-loaded identity clues that distinguish namesakes', async () => {
+    const { db } = fakeDb({
+      persons: [{ ...person('p_1'), relative_count: 4 }],
+      nameClaims: [nameClaim('p_1', '王安石')],
+      detailClaims: [
+        detailClaim('p_1', 'birth.date', { date: { original_text: '1021年' } }),
+        detailClaim('p_1', 'death.date', { date: { original_text: '1086年' } }),
+        detailClaim('p_1', 'place.origin', { text: '臨川' }),
+        detailClaim('p_1', 'lineage.branch', { text: '臨川王氏' }),
+        detailClaim('p_1', 'name.courtesy', { text: '介甫' }),
+      ],
+    });
+
+    const page = await findPersonsByName(db, '王安石');
+    expect(page.items[0]).toMatchObject({
+      birth_text: '1021年',
+      death_text: '1086年',
+      origin_text: '臨川',
+      branch_text: '臨川王氏',
+      also_known_as: ['介甫'],
+      relative_count: 4,
+    });
   });
 
   it('does not expand a script-neutral name', async () => {
@@ -167,7 +214,8 @@ describe('findPersonsByName', () => {
     await findPersonsByName(db, '王', { limit: 5000 });
     expect(executed[0]!.binds.at(-1)).toBe(101);
     await findPersonsByName(db, '王', { limit: 0 });
-    expect(executed[1]!.binds.at(-1)).toBe(2);
+    const searchQueries = executed.filter((entry) => /FROM person p\b/.test(entry.sql));
+    expect(searchQueries[1]!.binds.at(-1)).toBe(2);
   });
 
   it('rejects a malformed cursor with a 400 instead of scanning everything', async () => {

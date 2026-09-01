@@ -56,6 +56,12 @@ try {
       .then(() => true)
       .catch(() => false);
     log(hasResults, '搜索“王”返回了人物结果');
+    if (hasResults) {
+      const identityClues = page.locator('.result-list .person-identity-meta');
+      const clueCount = await identityClues.count();
+      const clueText = clueCount > 0 ? await identityClues.first().innerText() : '';
+      log(clueCount > 0 && clueText.trim().length > 0, '搜索结果展示生卒、籍贯等同名辨识线索');
+    }
   } else {
     log(false, '首页找不到搜索框');
   }

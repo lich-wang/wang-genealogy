@@ -1,5 +1,6 @@
-import type { PersonSummaryLite } from '@wang/domain';
+import type { Claim, PersonSearchResult } from '@wang/domain';
 import { scriptVariants } from '@wang/i18n';
+import { mapClaim } from './db.ts';
 import { badRequest } from './errors.ts';
 import { nameOf } from './summary.ts';
 
@@ -9,7 +10,7 @@ const SEARCH_PAGE_SIZE_MAX = 100;
 
 /** One page of name-search hits plus the cursor that continues it. */
 export interface PersonSearchPage {
-  items: PersonSummaryLite[];
+  items: PersonSearchResult[];
   next_cursor: string | null;
 }
 
@@ -84,7 +85,11 @@ export async function findPersonsByName(
   // unique (a DISTINCT join cannot be paged reliably).
   const res = await db
     .prepare(
-      `SELECT p.id, p.status, p.created_at
+      `SELECT p.id, p.status, p.created_at,
+              (SELECT COUNT(*) FROM claim rel
+                WHERE (rel.subject_person_id = p.id OR rel.object_person_id = p.id)
+                  AND rel.claim_kind = 'relationship'
+                  AND rel.status NOT IN ('retracted','superseded')) AS relative_count
          FROM person p
         WHERE p.status = 'active'
           AND EXISTS (
@@ -108,11 +113,14 @@ export async function findPersonsByName(
   // Resolve one display name per person (the recommended name.primary) rather
   // than echoing whichever alias happened to match.
   const names = await nameOf(db, rows.map((r) => r.id as string));
+  const details = await personSearchDetails(db, rows.map((r) => r.id as string));
   const items = rows.map((r) => ({
     id: r.id as string,
-    status: r.status as PersonSummaryLite['status'],
+    status: r.status as PersonSearchResult['status'],
     display_name: names.get(r.id as string) ?? null,
     merged_into_person_id: null,
+    ...(details.get(r.id as string) ?? emptySearchDetails()),
+    relative_count: Number(r.relative_count ?? 0),
   }));
 
   const last = rows[rows.length - 1];
@@ -123,4 +131,72 @@ export async function findPersonsByName(
         ? encodeSearchCursor({ created_at: last.created_at as string, id: last.id as string })
         : null,
   };
+}
+
+type SearchDetails = Pick<
+  PersonSearchResult,
+  'birth_text' | 'death_text' | 'origin_text' | 'branch_text' | 'also_known_as'
+>;
+
+const emptySearchDetails = (): SearchDetails => ({
+  birth_text: null,
+  death_text: null,
+  origin_text: null,
+  branch_text: null,
+  also_known_as: [],
+});
+
+/** Batch-load compact identity clues for one search page; never N+1 queries. */
+async function personSearchDetails(
+  db: D1Database,
+  personIds: string[],
+): Promise<Map<string, SearchDetails>> {
+  const out = new Map<string, SearchDetails>();
+  if (personIds.length === 0) return out;
+  const placeholders = personIds.map(() => '?').join(',');
+  const res = await db
+    .prepare(
+      `SELECT * FROM claim
+        WHERE subject_person_id IN (${placeholders})
+          AND predicate IN (
+            'birth.date','death.date','place.origin','lineage.branch',
+            'name.alias','name.courtesy','name.pseudonym','name.genealogical'
+          )
+          AND status IN ('accepted','disputed')
+        ORDER BY subject_person_id, predicate,
+                 CASE status WHEN 'accepted' THEN 0 ELSE 1 END,
+                 CASE confidence WHEN 'high' THEN 0 WHEN 'medium' THEN 1 WHEN 'low' THEN 2 ELSE 3 END,
+                 updated_at DESC`,
+    )
+    .bind(...personIds)
+    .all<Record<string, unknown>>();
+
+  const chosen = new Set<string>();
+  for (const row of res.results ?? []) {
+    const claim = mapClaim(row);
+    const current = out.get(claim.subject_person_id) ?? emptySearchDetails();
+    const text = claimText(claim);
+    if (!text) continue;
+
+    if (claim.predicate.startsWith('name.')) {
+      if (!current.also_known_as.includes(text)) current.also_known_as.push(text);
+    } else {
+      const key = `${claim.subject_person_id}:${claim.predicate}`;
+      if (chosen.has(key)) continue;
+      chosen.add(key);
+      if (claim.predicate === 'birth.date') current.birth_text = text;
+      if (claim.predicate === 'death.date') current.death_text = text;
+      if (claim.predicate === 'place.origin') current.origin_text = text;
+      if (claim.predicate === 'lineage.branch') current.branch_text = text;
+    }
+    out.set(claim.subject_person_id, current);
+  }
+  return out;
+}
+
+function claimText(claim: Claim): string | null {
+  const value = claim.value_json;
+  if (typeof value?.text === 'string' && value.text.trim()) return value.text.trim();
+  const original = value?.date?.original_text;
+  return typeof original === 'string' && original.trim() ? original.trim() : null;
 }

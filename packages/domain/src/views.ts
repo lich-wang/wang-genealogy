@@ -29,6 +29,16 @@ export interface PersonSummaryLite {
   merged_into_person_id: string | null;
 }
 
+/** Search result enriched with clues that distinguish people sharing a name. */
+export interface PersonSearchResult extends PersonSummaryLite {
+  birth_text: string | null;
+  death_text: string | null;
+  origin_text: string | null;
+  branch_text: string | null;
+  also_known_as: string[];
+  relative_count: number;
+}
+
 /** Full person page payload computed from currently-accepted claims. */
 export interface PersonSummary {
   person: Person;

@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import type { FormEvent, ReactNode } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
-import { ArrowRight, BookOpen, CheckCircle2, GitFork, LogOut, Plus, ScrollText, UserPlus } from 'lucide-react';
+import { AlertTriangle, ArrowLeftRight, ArrowRight, Baby, BookOpen, CheckCircle2, GitFork, HeartHandshake, LogOut, Network, Plus, ScrollText, UserRound, UserPlus, UsersRound } from 'lucide-react';
 import {
   CONFIDENCE,
   LICENSE_CODE,
@@ -12,7 +12,8 @@ import {
 import type {
   Confidence,
   LicenseCode,
-  PersonSummaryLite,
+  PersonSearchResult,
+  PersonSummary,
   PropertyPredicate,
   RelationshipInput,
   SourceType,
@@ -33,6 +34,7 @@ import {
 import { SourceRefEditor, cleanSourceRefs } from '../components/SourceRefEditor';
 import { ZhText } from '../components/ZhText';
 import { PersonPicker } from '../components/EntityPicker';
+import { PersonIdentityMeta } from '../components/PersonIdentityMeta';
 
 /** Script tags a contributor can attach to a text value. */
 const LANGUAGE_OPTIONS: Array<{ value: string; label: string }> = [
@@ -225,7 +227,7 @@ function FormResult({ error, ok }: { error: string | null; ok: string | null }) 
 }
 
 /** Existing persons recorded under the same name in either script. */
-function DuplicateWarning({ candidates }: { candidates: PersonSummaryLite[] }) {
+function DuplicateWarning({ candidates }: { candidates: PersonSearchResult[] }) {
   const { t } = useScript();
   if (candidates.length === 0) return null;
   return (
@@ -239,6 +241,7 @@ function DuplicateWarning({ candidates }: { candidates: PersonSummaryLite[] }) {
             <Link to={`/persons/${encodeURIComponent(p.id)}`}>
               <ZhText text={p.display_name} fallback={t('未命名人物')} />
             </Link>
+            <PersonIdentityMeta person={p} />
           </li>
         ))}
       </ul>
@@ -253,7 +256,7 @@ function CreatePersonForm() {
   const [languageTouched, setLanguageTouched] = useState(false);
   const [confidence, setConfidence] = useState<Confidence>('unknown');
   const [sources, setSources] = useState<SourceRefInput[]>([]);
-  const [duplicates, setDuplicates] = useState<PersonSummaryLite[]>([]);
+  const [duplicates, setDuplicates] = useState<PersonSearchResult[]>([]);
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [ok, setOk] = useState<string | null>(null);
@@ -480,18 +483,42 @@ function CreateRelationshipForm({ initialPerson }: { initialPerson: string }) {
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [ok, setOk] = useState<string | null>(null);
+  const [currentPerson, setCurrentPerson] = useState<PersonSearchResult | null>(null);
+  const [relatedPerson, setRelatedPerson] = useState<PersonSearchResult | null>(null);
+  const [existingRelations, setExistingRelations] = useState<PersonSummary | null>(null);
 
-  const relationshipLabels: Record<RelationshipInput, string> = {
-    parent: '父/母（對方是當前人物的父母）',
-    child: '子/女（對方是當前人物的子女）',
-    adoptive_parent: '收養父母（對方收養當前人物）',
-    adoptive_child: '收養子女（當前人物收養對方）',
-    spouse: '配偶',
-    // For a source that states descent without naming the generations between
-    // ("太子晉後代"、"王元四世孫"). Put the stated generation in the locator.
-    ancestor: '先祖（對方是當前人物的先祖，代數不明）',
-    descendant: '後代（對方是當前人物的後代，代數不明）',
+  useEffect(() => {
+    if (!personId) {
+      setExistingRelations(null);
+      return;
+    }
+    let cancelled = false;
+    api.getPerson(personId).then((summary) => {
+      if (!cancelled) setExistingRelations(summary);
+    }).catch(() => {
+      if (!cancelled) setExistingRelations(null);
+    });
+    return () => { cancelled = true; };
+  }, [personId]);
+
+  const relationshipOptions: Record<RelationshipInput, { title: string; description: string; icon: ReactNode }> = {
+    parent: { title: '父母', description: '第二位人物是第一位人物的父親或母親', icon: <UsersRound size={18} /> },
+    child: { title: '子女', description: '第二位人物是第一位人物的兒子或女兒', icon: <Baby size={18} /> },
+    spouse: { title: '配偶', description: '兩位人物互為配偶', icon: <HeartHandshake size={18} /> },
+    adoptive_parent: { title: '收養父母', description: '第二位人物收養了第一位人物', icon: <UserRound size={18} /> },
+    adoptive_child: { title: '收養子女', description: '第一位人物收養了第二位人物', icon: <UserPlus size={18} /> },
+    ancestor: { title: '先祖', description: '第二位人物是第一位人物的先祖，代數不明', icon: <Network size={18} /> },
+    descendant: { title: '後代', description: '第二位人物是第一位人物的後代，代數不明', icon: <GitFork size={18} /> },
   };
+
+  function swapPeople() {
+    const firstId = personId;
+    const firstPerson = currentPerson;
+    setPersonId(relatedId);
+    setRelatedId(firstId);
+    setCurrentPerson(relatedPerson);
+    setRelatedPerson(firstPerson);
+  }
 
   async function submit(e: FormEvent) {
     e.preventDefault();
@@ -517,21 +544,44 @@ function CreateRelationshipForm({ initialPerson }: { initialPerson: string }) {
   return (
     <form className="form" onSubmit={submit}>
       <div className="form-intro"><span><GitFork size={20} /></span><div><h2>{t('连接两位家族人物')}</h2><p>{t('按姓名选择双方，再用自然语言说明他们的关系。')}</p></div></div>
-      <PersonPicker label="从哪位人物出发" value={personId} onChange={setPersonId} excludeId={relatedId} />
-      <label className="field">
-        <span>{t('關係')}</span>
-        <select
-          value={relationship}
-          onChange={(e) => setRelationship(e.target.value as RelationshipInput)}
-        >
-          {RELATIONSHIP_INPUT.map((r) => (
-            <option key={r} value={r}>
-              {t(relationshipLabels[r])}
-            </option>
-          ))}
-        </select>
-      </label>
-      <PersonPicker label="选择关系中的另一位人物" value={relatedId} onChange={setRelatedId} excludeId={personId} />
+      <div className="relationship-person-step">
+        <span className="step-number">1</span>
+        <PersonPicker label="第一位人物" value={personId} onChange={setPersonId} onSelect={setCurrentPerson} excludeId={relatedId} />
+      </div>
+      {existingRelations ? <ExistingRelationships summary={existingRelations} /> : null}
+      <fieldset className="relationship-kind-fieldset">
+        <legend><span className="step-number">2</span>{t('第二位人物與第一位人物是什麼關係？')}</legend>
+        <div className="relationship-kind-grid" role="radiogroup" aria-label={t('選擇親屬關係')}>
+          {RELATIONSHIP_INPUT.map((option) => {
+            const content = relationshipOptions[option];
+            return (
+              <button
+                key={option}
+                type="button"
+                role="radio"
+                aria-checked={relationship === option}
+                className={relationship === option ? 'relationship-kind relationship-kind-active' : 'relationship-kind'}
+                onClick={() => setRelationship(option)}
+              >
+                <span>{content.icon}</span>
+                <span><strong>{t(content.title)}</strong><small>{t(content.description)}</small></span>
+                {relationship === option ? <CheckCircle2 size={17} /> : null}
+              </button>
+            );
+          })}
+        </div>
+      </fieldset>
+      <div className="relationship-person-step">
+        <span className="step-number">3</span>
+        <PersonPicker label="第二位人物" value={relatedId} onChange={setRelatedId} onSelect={setRelatedPerson} excludeId={personId} />
+      </div>
+      {personId && relatedId ? (
+        <button type="button" className="swap-people" onClick={swapPeople}><ArrowLeftRight size={16} />{t('交換兩位人物')}</button>
+      ) : null}
+      <RelationshipPreview relationship={relationship} current={currentPerson} related={relatedPerson} />
+      {currentPerson?.display_name && currentPerson.display_name === relatedPerson?.display_name ? (
+        <p className="namesake-warning"><AlertTriangle size={16} />{t('兩位人物同名，請再次核對生卒、籍貫與支派後再提交。')}</p>
+      ) : null}
       <ConfidenceSelect value={confidence} onChange={setConfidence} />
       <SourceRefEditor value={sources} onChange={setSources} />
       <label className="field">
@@ -543,6 +593,71 @@ function CreateRelationshipForm({ initialPerson }: { initialPerson: string }) {
         {busy ? t('提交中…') : t('提交關係')}
       </button>
     </form>
+  );
+}
+
+function ExistingRelationships({ summary }: { summary: PersonSummary }) {
+  const { t } = useScript();
+  const groups: Array<{ label: string; items: PersonSummary['relationships'][keyof PersonSummary['relationships']] }> = [
+    { label: '父母', items: summary.relationships.parents },
+    { label: '配偶', items: summary.relationships.spouses },
+    { label: '子女', items: summary.relationships.children },
+    { label: '收養父母', items: summary.relationships.adoptive_parents },
+    { label: '收養子女', items: summary.relationships.adoptive_children },
+    { label: '先祖', items: summary.relationships.ancestors },
+    { label: '後代', items: summary.relationships.descendants },
+  ].filter((group) => group.items.length > 0);
+
+  return (
+    <details className="existing-relationships" open={groups.length > 0}>
+      <summary>{t('已記錄的親屬關係')}<span>{groups.reduce((count, group) => count + group.items.length, 0)}</span></summary>
+      {groups.length === 0 ? <p>{t('目前尚未記錄親屬，可繼續新增。')}</p> : (
+        <div className="existing-relationship-groups">
+          {groups.map((group) => (
+            <div key={group.label}>
+              <strong>{t(group.label)}</strong>
+              <span>{group.items.map((item) => item.object_person ? (
+                <Link key={item.claim.id} to={`/persons/${encodeURIComponent(item.object_person.id)}`} target="_blank"><ZhText text={item.object_person.display_name} fallback={t('未命名人物')} /></Link>
+              ) : null)}</span>
+            </div>
+          ))}
+        </div>
+      )}
+      <small>{t('若現有關係有誤，請打開人物頁查看來源並標記爭議；新說法會保留版本記錄。')}</small>
+    </details>
+  );
+}
+
+function RelationshipPreview({
+  relationship,
+  current,
+  related,
+}: {
+  relationship: RelationshipInput;
+  current: PersonSearchResult | null;
+  related: PersonSearchResult | null;
+}) {
+  const { t } = useScript();
+  if (!current || !related) {
+    return <div className="relationship-preview relationship-preview-empty"><GitFork size={19} /><span><strong>{t('關係預覽')}</strong><small>{t('選好兩位人物後，這裡會用一句話確認關係方向。')}</small></span></div>;
+  }
+  const relationText: Record<RelationshipInput, string> = {
+    parent: '的父母之一',
+    child: '的子女',
+    adoptive_parent: '的收養父母',
+    adoptive_child: '的收養子女',
+    spouse: '的配偶',
+    ancestor: '的先祖',
+    descendant: '的後代',
+  };
+  return (
+    <div className="relationship-preview" role="status">
+      <CheckCircle2 size={20} />
+      <span>
+        <small>{t('即將記錄')}</small>
+        <strong><ZhText text={related.display_name} fallback={t('第二位人物')} /> {t('是')} <ZhText text={current.display_name} fallback={t('第一位人物')} /> {t(relationText[relationship])}</strong>
+      </span>
+    </div>
   );
 }
 

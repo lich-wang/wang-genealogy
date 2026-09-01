@@ -14,7 +14,7 @@ import type {
   PersonExport,
   PersonMergeProposal,
   PersonSummary,
-  PersonSummaryLite,
+  PersonSearchResult,
   PropertyPredicate,
   RecentChange,
   RelationshipInput,
@@ -221,7 +221,7 @@ export interface MutationResult {
    * one in either Chinese script. Never a rejection — namesakes are real — but
    * the contributor should decide whether to propose a merge instead.
    */
-  possible_duplicates?: PersonSummaryLite[];
+  possible_duplicates?: PersonSearchResult[];
 }
 
 export interface AuthResult {
@@ -324,7 +324,7 @@ export const api = {
 
   // search
   searchPersons: (query: string, cursor?: string) =>
-    request<Cursor<PersonSummaryLite>>('/search', { query: { q: query, cursor } }),
+    request<Cursor<PersonSearchResult>>('/search', { query: { q: query, cursor } }),
 
   // merges
   createMerge: (personId: string, input: CreateMergeInput) =>

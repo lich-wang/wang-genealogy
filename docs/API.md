@@ -71,6 +71,7 @@ GET /api/v1/search?q=王&cursor=MjAyNi0wMS0wMlQwMDowMDowMC4wMDBafHBfMg
 - **字形不敏感**：查询词展开为简体与繁體两种写法后一起匹配，搜「王賁」能找到录入为「王贲」的人物；
 - 存储值不做字形归一化（那是有来源的证据），因此展开发生在查询侧；
 - 每个人物只返回一条结果，`display_name` 取推荐的 `name.primary`，而不是恰好命中的异名。
+- 每条结果同时返回用于区分同名人物的轻量线索：`birth_text`、`death_text`、`origin_text`、`branch_text`、`also_known_as` 与 `relative_count`；这些字段从当前主张批量计算，不要求客户端再逐个人物请求详情。
 
 响应是标准游标列表 `{ "items": [...], "next_cursor": … }`：
 
@@ -79,6 +80,7 @@ GET /api/v1/search?q=王&cursor=MjAyNi0wMS0wMlQwMDowMDowMC4wMDBafHBfMg
 - `next_cursor` 是不透明字符串（上述排序键的 base64url 编码），只应原样回传；非空表示还有结果，为 `null` 表示已到末尾——客户端据此判断结果是否完整，而不是靠「刚好返回 50 条」去猜；
 - 游标不合法返回 `400 invalid_cursor`；
 - 「王」这类高频姓氏必然跨多页：客户端应展示「载入更多」，不要静默截断。
+- 客户端选择人物时必须展示上述身份线索；同名结果不得只显示姓名或内部 ID。
 
 ### 家族树起点
 

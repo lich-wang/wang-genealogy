@@ -1,24 +1,28 @@
 import { useEffect, useId, useState } from 'react';
-import { BookOpen, Check, LoaderCircle, Search, UserRound, X } from 'lucide-react';
-import type { PersonSummaryLite, Source } from '@wang/domain';
+import { BookOpen, Check, ExternalLink, LoaderCircle, Search, UserRound, X } from 'lucide-react';
+import { Link } from 'react-router-dom';
+import type { PersonSearchResult, PersonSummary, Source } from '@wang/domain';
+import { sameScriptInsensitive } from '@wang/i18n';
 import { api } from '../api';
 import { useScript } from '../i18n';
 import { SOURCE_TYPE_LABELS } from '../labels';
 import { ZhText } from './ZhText';
+import { PersonIdentityMeta } from './PersonIdentityMeta';
 
 interface PersonPickerProps {
   label: string;
   value: string;
   onChange: (id: string) => void;
   excludeId?: string;
+  onSelect?: (person: PersonSearchResult | null) => void;
 }
 
-export function PersonPicker({ label, value, onChange, excludeId }: PersonPickerProps) {
+export function PersonPicker({ label, value, onChange, excludeId, onSelect }: PersonPickerProps) {
   const { t } = useScript();
   const inputId = useId();
   const [query, setQuery] = useState('');
-  const [selected, setSelected] = useState<PersonSummaryLite | null>(null);
-  const [items, setItems] = useState<PersonSummaryLite[]>([]);
+  const [selected, setSelected] = useState<PersonSearchResult | null>(null);
+  const [items, setItems] = useState<PersonSearchResult[]>([]);
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
@@ -29,17 +33,16 @@ export function PersonPicker({ label, value, onChange, excludeId }: PersonPicker
     if (selected?.id === value) return;
     let cancelled = false;
     api.getPerson(value).then((person) => {
-      if (!cancelled) setSelected({
-        id: person.person.id,
-        status: person.person.status,
-        display_name: person.display_name,
-        merged_into_person_id: person.person.merged_into_person_id,
-      });
+      if (!cancelled) {
+        const result = searchResultFromSummary(person);
+        setSelected(result);
+        onSelect?.(result);
+      }
     }).catch(() => {
       if (!cancelled) setSelected(null);
     });
     return () => { cancelled = true; };
-  }, [selected?.id, value]);
+  }, [onSelect, selected?.id, value]);
 
   useEffect(() => {
     const q = query.trim();
@@ -61,17 +64,19 @@ export function PersonPicker({ label, value, onChange, excludeId }: PersonPicker
     return () => { cancelled = true; clearTimeout(timer); };
   }, [excludeId, query, selected]);
 
-  function choose(person: PersonSummaryLite) {
+  function choose(person: PersonSearchResult) {
     setSelected(person);
     setQuery('');
     setItems([]);
     onChange(person.id);
+    onSelect?.(person);
   }
 
   function clear() {
     setSelected(null);
     setQuery('');
     onChange('');
+    onSelect?.(null);
   }
 
   return (
@@ -82,9 +87,11 @@ export function PersonPicker({ label, value, onChange, excludeId }: PersonPicker
           <span className="entity-icon"><UserRound size={18} /></span>
           <span>
             <strong><ZhText text={selected.display_name} fallback={t('未命名人物')} /></strong>
-            <small><Check size={13} />{t('已选择')}</small>
+            <small><Check size={13} />{t('已選擇')}</small>
+            <PersonIdentityMeta person={selected} />
           </span>
-          <button type="button" onClick={clear} aria-label={t('更换人物')}><X size={17} /></button>
+          <Link className="entity-open-link" to={`/persons/${encodeURIComponent(selected.id)}`} target="_blank" aria-label={t('打開人物頁核對')}><ExternalLink size={16} /></Link>
+          <button type="button" onClick={clear} aria-label={t('更換人物')}><X size={17} /></button>
         </div>
       ) : (
         <div className="picker-input-wrap">
@@ -103,7 +110,10 @@ export function PersonPicker({ label, value, onChange, excludeId }: PersonPicker
               {items.length > 0 ? items.map((person) => (
                 <button key={person.id} type="button" role="option" onClick={() => choose(person)}>
                   <span className="entity-icon"><UserRound size={17} /></span>
-                  <span><strong><ZhText text={person.display_name} fallback={t('未命名人物')} /></strong><small>{t('查看并选择此人物')}</small></span>
+                  <span>
+                    <strong><ZhText text={person.display_name} fallback={t('未命名人物')} />{sameNameLabel(items, person, t)}</strong>
+                    <PersonIdentityMeta person={person} />
+                  </span>
                 </button>
               )) : !loading ? <p>{t('没有找到匹配人物，请尝试完整姓名。')}</p> : null}
             </div>
@@ -112,6 +122,49 @@ export function PersonPicker({ label, value, onChange, excludeId }: PersonPicker
       )}
     </div>
   );
+}
+
+function sameNameLabel(
+  items: PersonSearchResult[],
+  person: PersonSearchResult,
+  t: (value: string) => string,
+) {
+  const matches = items.filter((item) =>
+    item.display_name && person.display_name
+      ? sameScriptInsensitive(item.display_name, person.display_name)
+      : item.display_name === person.display_name,
+  );
+  if (matches.length < 2) return null;
+  return <small className="namesake-label">{t(`同名人物 ${matches.indexOf(person) + 1}/${matches.length}`)}</small>;
+}
+
+function searchResultFromSummary(summary: PersonSummary): PersonSearchResult {
+  const values = (predicate: string): string[] => {
+    const field = summary.properties.find((item) => item.predicate === predicate);
+    if (!field) return [];
+    return [field.recommended, ...field.alternatives]
+      .map((item) => item?.claim.value_json)
+      .map((value) => value?.text ?? value?.date?.original_text ?? '')
+      .filter((value): value is string => Boolean(value));
+  };
+  const relationGroups = Object.values(summary.relationships);
+  return {
+    id: summary.person.id,
+    status: summary.person.status,
+    display_name: summary.display_name,
+    merged_into_person_id: summary.person.merged_into_person_id,
+    birth_text: values('birth.date')[0] ?? null,
+    death_text: values('death.date')[0] ?? null,
+    origin_text: values('place.origin')[0] ?? null,
+    branch_text: values('lineage.branch')[0] ?? null,
+    also_known_as: [
+      ...values('name.alias'),
+      ...values('name.courtesy'),
+      ...values('name.pseudonym'),
+      ...values('name.genealogical'),
+    ],
+    relative_count: relationGroups.reduce((count, group) => count + group.length, 0),
+  };
 }
 
 interface SourcePickerProps {

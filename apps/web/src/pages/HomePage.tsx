@@ -2,7 +2,7 @@ import { useState } from 'react';
 import type { FormEvent } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, BookOpenText, Clock3, GitFork, Search, ShieldCheck, Sparkles, UserPlus, Users } from 'lucide-react';
-import type { KinshipHighlight, PersonSummaryLite, RecentChange } from '@wang/domain';
+import type { KinshipHighlight, PersonSearchResult, RecentChange } from '@wang/domain';
 import { scriptVariants } from '@wang/i18n';
 import { api } from '../api';
 import { useAsync, toMessage } from '../hooks';
@@ -10,12 +10,13 @@ import { useScript } from '../i18n';
 import { PersonStatusBadge } from '../components/badges';
 import { ZhText } from '../components/ZhText';
 import { contributionActionLabel, formatDateTime } from '../format';
+import { PersonIdentityMeta } from '../components/PersonIdentityMeta';
 
 export function HomePage() {
   const { t, script } = useScript();
   const [query, setQuery] = useState('');
   const [submitted, setSubmitted] = useState('');
-  const [results, setResults] = useState<PersonSummaryLite[] | null>(null);
+  const [results, setResults] = useState<PersonSearchResult[] | null>(null);
   const [cursor, setCursor] = useState<string | null>(null);
   const [searching, setSearching] = useState(false);
   const [searchError, setSearchError] = useState<string | null>(null);
@@ -127,7 +128,7 @@ export function HomePage() {
                       <Link to={`/persons/${encodeURIComponent(p.id)}`}>
                         <ZhText text={p.display_name} fallback={t('（未命名人物）')} />
                       </Link>
-                      <span>{t('查看人物资料与来源')}</span>
+                      <PersonIdentityMeta person={p} />
                     </span>
                     <PersonStatusBadge status={p.status} />
                     <Link className="result-tree" to={`/persons/${encodeURIComponent(p.id)}/tree`}>
