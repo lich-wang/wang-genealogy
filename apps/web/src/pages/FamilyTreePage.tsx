@@ -138,7 +138,7 @@ export function FamilyTreePage() {
           {t('当前显示')} {graph.nodes.size} {t('人')}、{graph.parentEdges.size}{' '}
           {t('条亲子关系')}
           {descentEdges.length > 0
-            ? `、${descentEdges.length} ${t('条世系关系（代数不明）')}`
+            ? `、${descentEdges.length} ${t('条跨代世系关系')}`
             : ''}
           {truncated ? ` · ${t('已达单次返回上限，请从具体人物继续展开')}` : ''}
           {' · '}
@@ -191,8 +191,14 @@ function EdgeDetail({
   const a = graph.nodes.get(aId);
   const b = graph.nodes.get(bId);
   const arrow = kind === 'parent' ? '→' : kind === 'descent' ? '⇢' : '⚭';
-  const label =
-    kind === 'parent' ? '亲子关系' : kind === 'descent' ? '世系关系（代数不明）' : '配偶关系';
+  const descentGenerations = kind === 'descent' ? (edge as DescentEdge).generations : null;
+  const label = kind === 'parent'
+    ? '亲子关系'
+    : kind === 'descent'
+      ? descentGenerations
+        ? `世系关系（相隔 ${descentGenerations} 代）`
+        : '世系关系（代数不详）'
+      : '配偶关系';
 
   return (
     <section className="tree-detail">

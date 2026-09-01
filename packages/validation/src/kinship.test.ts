@@ -5,6 +5,7 @@ import {
   normalizeRelationship,
   wouldCreateAncestorCycle,
 } from './kinship.ts';
+import { createRelationshipSchema, reviseClaimSchema } from './schemas.ts';
 
 describe('normalizeRelationship', () => {
   it('stores "parent" as related --parent_of--> current (one direction)', () => {
@@ -72,7 +73,7 @@ describe('wouldCreateAncestorCycle', () => {
   });
 });
 
-describe('normalizeRelationship: descent across unknown generations', () => {
+describe('normalizeRelationship: descent across generations', () => {
   it('stores "ancestor" as related --ancestor_of--> current', () => {
     expect(normalizeRelationship('p_ME', 'ancestor', 'p_OLD')).toEqual({
       predicate: 'kinship.ancestor_of',
@@ -91,6 +92,49 @@ describe('normalizeRelationship: descent across unknown generations', () => {
 
   it('refuses to relate a person to themselves', () => {
     expect(() => normalizeRelationship('p_ME', 'ancestor', 'p_ME')).toThrow(KinshipError);
+  });
+});
+
+describe('createRelationshipSchema: exact generation count', () => {
+  it('accepts an exact distance for ancestor and descendant claims', () => {
+    expect(createRelationshipSchema.parse({
+      relationship: 'ancestor',
+      related_person_id: 'p_old',
+      generation_count: 4,
+    }).generation_count).toBe(4);
+  });
+
+  it('keeps the count optional when the source only confirms descent', () => {
+    expect(createRelationshipSchema.parse({
+      relationship: 'descendant',
+      related_person_id: 'p_new',
+    }).generation_count).toBeUndefined();
+  });
+
+  it('rejects one generation and counts on non-descent relationships', () => {
+    expect(() => createRelationshipSchema.parse({
+      relationship: 'ancestor',
+      related_person_id: 'p_old',
+      generation_count: 1,
+    })).toThrow();
+    expect(() => createRelationshipSchema.parse({
+      relationship: 'parent',
+      related_person_id: 'p_old',
+      generation_count: 2,
+    })).toThrow();
+  });
+});
+
+describe('reviseClaimSchema: generation correction', () => {
+  it('allows a versioned generation update or clearing it to unknown', () => {
+    expect(reviseClaimSchema.parse({
+      expected_revision: 1,
+      patch: { generation_count: 8 },
+    }).patch.generation_count).toBe(8);
+    expect(reviseClaimSchema.parse({
+      expected_revision: 2,
+      patch: { generation_count: null },
+    }).patch.generation_count).toBeNull();
   });
 });
 

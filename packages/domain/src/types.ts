@@ -64,6 +64,8 @@ export interface Claim {
   predicate: string;
   /** relationship claims only: the object person (child in parent_of). */
   object_person_id: string | null;
+  /** Exact distance for ancestor_of when a source confirms it; 1 uses parent_of. */
+  generation_count: number | null;
   /** property claims only. */
   value_json: ClaimValue | null;
   status: ClaimStatus;
@@ -91,6 +93,7 @@ export interface ClaimSnapshot {
   predicate: string;
   claim_kind: ClaimKind;
   object_person_id: string | null;
+  generation_count: number | null;
   value_json: ClaimValue | null;
   status: ClaimStatus;
   confidence: Confidence;

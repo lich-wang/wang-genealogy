@@ -1,4 +1,4 @@
-import type { ClaimValue, UncertainDate } from '@wang/domain';
+import type { ClaimValue, ClaimWithSources, UncertainDate } from '@wang/domain';
 import type { ZhScript } from '@wang/i18n';
 
 /**
@@ -66,4 +66,20 @@ export function contributionActionLabel(action: string): string {
     'merge.revert': '撤销合并',
   };
   return labels[action] ?? '更新资料';
+}
+
+/** Exact descent distance, with a locator fallback for pre-migration records. */
+export function relationshipGenerationCount(item: ClaimWithSources): number | null {
+  if (item.claim.generation_count) return item.claim.generation_count;
+  const chinese: Record<string, number> = {
+    一: 1, 二: 2, 三: 3, 四: 4, 五: 5, 六: 6, 七: 7, 八: 8, 九: 9, 十: 10,
+  };
+  for (const ref of item.sources) {
+    if (ref.stance !== 'supports') continue;
+    const match = /[（(]\s*([一二三四五六七八九十百\d]+)\s*[世代]\s*[）)]/.exec(ref.locator ?? '');
+    if (!match) continue;
+    const count = chinese[match[1]!] ?? Number(match[1]);
+    if (Number.isInteger(count) && count >= 2 && count <= 100) return count;
+  }
+  return null;
 }

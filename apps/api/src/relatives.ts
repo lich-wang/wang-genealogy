@@ -32,6 +32,7 @@ interface RawEdge {
   status: string;
   parent_id: string;
   child_id: string;
+  generation_count?: number | null;
 }
 
 async function step(
@@ -48,7 +49,7 @@ async function step(
   const other = direction === 'up' ? 'c.subject_person_id' : 'c.object_person_id';
   const res = await db
     .prepare(
-      `SELECT c.id AS claim_id, c.status,
+      `SELECT c.id AS claim_id, c.status, c.generation_count,
               c.subject_person_id AS parent_id, c.object_person_id AS child_id
          FROM claim c
          JOIN person p ON p.id = ${other}
@@ -67,13 +68,10 @@ const CN_DIGITS: Record<string, number> = {
 };
 
 /**
- * The generation count a citation states, as in 「条文：条文识读（孙）（8世）」.
+ * Legacy generation count read from a citation, as in 「条文（8世）」.
  *
- * The number lives in the locator because that is the source's own wording and
- * the model deliberately does not encode it in the predicate. A diagram still
- * needs it as a number: without it every line of descent is drawn as one
- * generation, and 王错 — eight below 宗敬 — lands in the same row as someone's
- * grandchild.
+ * New claims store this as `claim.generation_count`; this fallback preserves
+ * the meaning of imported records created before that structured field existed.
  */
 function statedGenerations(citations: KinshipEvidence[]): number | null {
   for (const c of citations) {
@@ -282,7 +280,7 @@ export async function loadRelatives(
       claim_id: e.claim_id,
       status: e.status as DescentEdge['status'],
       citations: evidence,
-      generations: statedGenerations(evidence),
+      generations: e.generation_count ?? statedGenerations(evidence),
     };
   });
 

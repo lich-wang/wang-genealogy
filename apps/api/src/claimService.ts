@@ -20,6 +20,7 @@ interface BuildClaimArgs {
   claimKind: ClaimKind;
   predicate: string;
   objectPersonId?: string | null;
+  generationCount?: number | null;
   value?: PropertyValueInput | null;
   confidence: Confidence;
   sources: SourceRef[];
@@ -56,6 +57,7 @@ export function buildClaimCreation(args: BuildClaimArgs): {
     predicate: args.predicate,
     claim_kind: args.claimKind,
     object_person_id: args.objectPersonId ?? null,
+    generation_count: args.generationCount ?? null,
     value_json: value,
     status: 'proposed',
     confidence: args.confidence,
@@ -67,6 +69,7 @@ export function buildClaimCreation(args: BuildClaimArgs): {
     claim_kind: args.claimKind,
     predicate: args.predicate,
     object_person_id: args.objectPersonId ?? null,
+    generation_count: args.generationCount ?? null,
     value_json: value,
     status: 'proposed',
     confidence: args.confidence,
@@ -80,9 +83,9 @@ export function buildClaimCreation(args: BuildClaimArgs): {
     db
       .prepare(
         `INSERT INTO claim
-           (id, subject_person_id, claim_kind, predicate, object_person_id, value_json,
+           (id, subject_person_id, claim_kind, predicate, object_person_id, generation_count, value_json,
             status, confidence, created_by_user_id, created_at, updated_at, current_revision)
-         VALUES (?, ?, ?, ?, ?, ?, 'proposed', ?, ?, ?, ?, 1)`,
+         VALUES (?, ?, ?, ?, ?, ?, ?, 'proposed', ?, ?, ?, ?, 1)`,
       )
       .bind(
         claimId,
@@ -90,6 +93,7 @@ export function buildClaimCreation(args: BuildClaimArgs): {
         args.claimKind,
         args.predicate,
         args.objectPersonId ?? null,
+        args.generationCount ?? null,
         value ? JSON.stringify(value) : null,
         args.confidence,
         args.actorUserId,

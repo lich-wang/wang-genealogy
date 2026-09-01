@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import type { ClaimWithSources } from '@wang/domain';
 import { predicateLabel } from '../labels';
-import { claimValueDisplay } from '../format';
+import { claimValueDisplay, relationshipGenerationCount } from '../format';
 import { useScript } from '../i18n';
 import { ClaimStatusBadge } from './badges';
 import { Provenance } from './Provenance';
@@ -73,8 +73,15 @@ function RelationshipTarget({ item }: { item: ClaimWithSources }) {
   const target = item.object_person;
   if (!target) return <span>{t('（關係物件未知）')}</span>;
   return (
-    <Link to={`/persons/${encodeURIComponent(target.id)}`}>
-      <ZhText text={target.display_name} fallback="未命名人物" />
-    </Link>
+    <span className="relationship-target">
+      <Link to={`/persons/${encodeURIComponent(target.id)}`}>
+        <ZhText text={target.display_name} fallback="未命名人物" />
+      </Link>
+      {item.claim.predicate === 'kinship.ancestor_of' ? (
+        <small className={relationshipGenerationCount(item) ? 'generation-badge' : 'generation-badge generation-unknown'}>
+          {relationshipGenerationCount(item) ? t(`相隔 ${relationshipGenerationCount(item)} 代`) : t('代數不詳')}
+        </small>
+      ) : null}
+    </span>
   );
 }

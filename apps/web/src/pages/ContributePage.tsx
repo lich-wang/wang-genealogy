@@ -11,6 +11,7 @@ import {
 } from '@wang/domain';
 import type {
   Confidence,
+  ClaimWithSources,
   LicenseCode,
   PersonSearchResult,
   PersonSummary,
@@ -22,6 +23,7 @@ import { detectScript, scriptVariants } from '@wang/i18n';
 import { loginSchema, signupSchema } from '@wang/validation';
 import { api } from '../api';
 import type { SourceRefInput } from '../api';
+import { relationshipGenerationCount } from '../format';
 import { toMessage } from '../hooks';
 import { useAuth } from '../auth';
 import { useScript } from '../i18n';
@@ -477,6 +479,7 @@ function CreateRelationshipForm({ initialPerson }: { initialPerson: string }) {
   const [personId, setPersonId] = useState(initialPerson);
   const [relationship, setRelationship] = useState<RelationshipInput>('parent');
   const [relatedId, setRelatedId] = useState('');
+  const [generationCount, setGenerationCount] = useState('');
   const [confidence, setConfidence] = useState<Confidence>('unknown');
   const [sources, setSources] = useState<SourceRefInput[]>([]);
   const [summary, setSummary] = useState('');
@@ -507,8 +510,8 @@ function CreateRelationshipForm({ initialPerson }: { initialPerson: string }) {
     spouse: { title: '配偶', description: '兩位人物互為配偶', icon: <HeartHandshake size={18} /> },
     adoptive_parent: { title: '收養父母', description: '第二位人物收養了第一位人物', icon: <UserRound size={18} /> },
     adoptive_child: { title: '收養子女', description: '第一位人物收養了第二位人物', icon: <UserPlus size={18} /> },
-    ancestor: { title: '先祖', description: '第二位人物是第一位人物的先祖，代數不明', icon: <Network size={18} /> },
-    descendant: { title: '後代', description: '第二位人物是第一位人物的後代，代數不明', icon: <GitFork size={18} /> },
+    ancestor: { title: '先祖', description: '第二位人物是第一位人物的先祖，可記錄相隔代數', icon: <Network size={18} /> },
+    descendant: { title: '後代', description: '第二位人物是第一位人物的後代，可記錄相隔代數', icon: <GitFork size={18} /> },
   };
 
   function swapPeople() {
@@ -524,11 +527,22 @@ function CreateRelationshipForm({ initialPerson }: { initialPerson: string }) {
     e.preventDefault();
     setError(null);
     setOk(null);
+    const isDescent = relationship === 'ancestor' || relationship === 'descendant';
+    const parsedGeneration = generationCount.trim() ? Number(generationCount) : undefined;
+    if (
+      isDescent &&
+      parsedGeneration !== undefined &&
+      (!Number.isInteger(parsedGeneration) || parsedGeneration < 2 || parsedGeneration > 100)
+    ) {
+      setError('相隔代数需为 2 至 100 的整数；相隔 1 代请改用父母或子女。');
+      return;
+    }
     setBusy(true);
     try {
       await api.createRelationship(personId.trim(), {
         relationship,
         related_person_id: relatedId.trim(),
+        generation_count: isDescent ? parsedGeneration : undefined,
         confidence,
         sources: cleanSourceRefs(sources),
         change_summary: summary.trim() || undefined,
@@ -548,7 +562,15 @@ function CreateRelationshipForm({ initialPerson }: { initialPerson: string }) {
         <span className="step-number">1</span>
         <PersonPicker label="第一位人物" value={personId} onChange={setPersonId} onSelect={setCurrentPerson} excludeId={relatedId} />
       </div>
-      {existingRelations ? <ExistingRelationships summary={existingRelations} /> : null}
+      {existingRelations ? (
+        <ExistingRelationships
+          summary={existingRelations}
+          onChanged={async () => {
+            const refreshed = await api.getPerson(personId);
+            setExistingRelations(refreshed);
+          }}
+        />
+      ) : null}
       <fieldset className="relationship-kind-fieldset">
         <legend><span className="step-number">2</span>{t('第二位人物與第一位人物是什麼關係？')}</legend>
         <div className="relationship-kind-grid" role="radiogroup" aria-label={t('選擇親屬關係')}>
@@ -578,7 +600,28 @@ function CreateRelationshipForm({ initialPerson }: { initialPerson: string }) {
       {personId && relatedId ? (
         <button type="button" className="swap-people" onClick={swapPeople}><ArrowLeftRight size={16} />{t('交換兩位人物')}</button>
       ) : null}
-      <RelationshipPreview relationship={relationship} current={currentPerson} related={relatedPerson} />
+      <RelationshipPreview
+        relationship={relationship}
+        current={currentPerson}
+        related={relatedPerson}
+        generationCount={generationCount}
+      />
+      {relationship === 'ancestor' || relationship === 'descendant' ? (
+        <label className="field generation-count-field">
+          <span>{t('相隔幾代（能夠確認時填寫）')}</span>
+          <input
+            type="number"
+            inputMode="numeric"
+            min="2"
+            max="100"
+            step="1"
+            value={generationCount}
+            placeholder={t('留空表示代數不詳，例如四世孫填 4')}
+            onChange={(event) => setGenerationCount(event.target.value)}
+          />
+          <small>{t('相隔 1 代請改用父母或子女；只有來源能確認時才填寫，請勿自行推算。')}</small>
+        </label>
+      ) : null}
       {currentPerson?.display_name && currentPerson.display_name === relatedPerson?.display_name ? (
         <p className="namesake-warning"><AlertTriangle size={16} />{t('兩位人物同名，請再次核對生卒、籍貫與支派後再提交。')}</p>
       ) : null}
@@ -596,8 +639,18 @@ function CreateRelationshipForm({ initialPerson }: { initialPerson: string }) {
   );
 }
 
-function ExistingRelationships({ summary }: { summary: PersonSummary }) {
+function ExistingRelationships({
+  summary,
+  onChanged,
+}: {
+  summary: PersonSummary;
+  onChanged: () => Promise<void>;
+}) {
   const { t } = useScript();
+  const [editingClaimId, setEditingClaimId] = useState<string | null>(null);
+  const [generationDraft, setGenerationDraft] = useState('');
+  const [generationBusy, setGenerationBusy] = useState(false);
+  const [generationMessage, setGenerationMessage] = useState<string | null>(null);
   const groups: Array<{ label: string; items: PersonSummary['relationships'][keyof PersonSummary['relationships']] }> = [
     { label: '父母', items: summary.relationships.parents },
     { label: '配偶', items: summary.relationships.spouses },
@@ -608,6 +661,36 @@ function ExistingRelationships({ summary }: { summary: PersonSummary }) {
     { label: '後代', items: summary.relationships.descendants },
   ].filter((group) => group.items.length > 0);
 
+  function beginGenerationEdit(item: ClaimWithSources) {
+    setEditingClaimId(item.claim.id);
+    setGenerationDraft(relationshipGenerationCount(item)?.toString() ?? '');
+    setGenerationMessage(null);
+  }
+
+  async function saveGeneration(item: ClaimWithSources) {
+    const count = generationDraft.trim() ? Number(generationDraft) : null;
+    if (count !== null && (!Number.isInteger(count) || count < 2 || count > 100)) {
+      setGenerationMessage('相隔代数需为 2 至 100 的整数。');
+      return;
+    }
+    setGenerationBusy(true);
+    setGenerationMessage(null);
+    try {
+      await api.reviseClaim(item.claim.id, {
+        expected_revision: item.claim.current_revision,
+        patch: { generation_count: count },
+        change_summary: count === null ? '将世系代数改为不详' : `补充世系相隔 ${count} 代`,
+      });
+      await onChanged();
+      setEditingClaimId(null);
+      setGenerationMessage(count === null ? '已改为代数不详。' : `已记录相隔 ${count} 代。`);
+    } catch (err) {
+      setGenerationMessage(toMessage(err));
+    } finally {
+      setGenerationBusy(false);
+    }
+  }
+
   return (
     <details className="existing-relationships" open={groups.length > 0}>
       <summary>{t('已記錄的親屬關係')}<span>{groups.reduce((count, group) => count + group.items.length, 0)}</span></summary>
@@ -617,12 +700,40 @@ function ExistingRelationships({ summary }: { summary: PersonSummary }) {
             <div key={group.label}>
               <strong>{t(group.label)}</strong>
               <span>{group.items.map((item) => item.object_person ? (
-                <Link key={item.claim.id} to={`/persons/${encodeURIComponent(item.object_person.id)}`} target="_blank"><ZhText text={item.object_person.display_name} fallback={t('未命名人物')} /></Link>
+                <span className="existing-relationship-item" key={item.claim.id}>
+                  <Link to={`/persons/${encodeURIComponent(item.object_person.id)}`} target="_blank">
+                    <ZhText text={item.object_person.display_name} fallback={t('未命名人物')} />
+                    {item.claim.predicate === 'kinship.ancestor_of' ? (
+                      <small>{relationshipGenerationCount(item) ? t(`相隔 ${relationshipGenerationCount(item)} 代`) : t('代數不詳')}</small>
+                    ) : null}
+                  </Link>
+                  {item.claim.predicate === 'kinship.ancestor_of' ? (
+                    <button type="button" onClick={() => beginGenerationEdit(item)}>{t(relationshipGenerationCount(item) ? '修改代數' : '補充代數')}</button>
+                  ) : null}
+                  {editingClaimId === item.claim.id ? (
+                    <span className="generation-inline-editor">
+                      <input
+                        type="number"
+                        min="2"
+                        max="100"
+                        step="1"
+                        inputMode="numeric"
+                        value={generationDraft}
+                        placeholder={t('留空表示不詳')}
+                        onChange={(event) => setGenerationDraft(event.target.value)}
+                        aria-label={t('相隔代數')}
+                      />
+                      <button type="button" disabled={generationBusy} onClick={() => void saveGeneration(item)}>{generationBusy ? t('保存中…') : t('保存')}</button>
+                      <button type="button" disabled={generationBusy} onClick={() => setEditingClaimId(null)}>{t('取消')}</button>
+                    </span>
+                  ) : null}
+                </span>
               ) : null)}</span>
             </div>
           ))}
         </div>
       )}
+      {generationMessage ? <p className="generation-edit-message" role="status">{t(generationMessage)}</p> : null}
       <small>{t('若現有關係有誤，請打開人物頁查看來源並標記爭議；新說法會保留版本記錄。')}</small>
     </details>
   );
@@ -632,10 +743,12 @@ function RelationshipPreview({
   relationship,
   current,
   related,
+  generationCount,
 }: {
   relationship: RelationshipInput;
   current: PersonSearchResult | null;
   related: PersonSearchResult | null;
+  generationCount: string;
 }) {
   const { t } = useScript();
   if (!current || !related) {
@@ -650,12 +763,21 @@ function RelationshipPreview({
     ancestor: '的先祖',
     descendant: '的後代',
   };
+  const parsedGeneration = Number(generationCount);
+  const generationText =
+    (relationship === 'ancestor' || relationship === 'descendant') &&
+    Number.isInteger(parsedGeneration) &&
+    parsedGeneration >= 2
+      ? t(`（相隔 ${parsedGeneration} 代）`)
+      : relationship === 'ancestor' || relationship === 'descendant'
+        ? t('（代數不詳）')
+        : '';
   return (
     <div className="relationship-preview" role="status">
       <CheckCircle2 size={20} />
       <span>
         <small>{t('即將記錄')}</small>
-        <strong><ZhText text={related.display_name} fallback={t('第二位人物')} /> {t('是')} <ZhText text={current.display_name} fallback={t('第一位人物')} /> {t(relationText[relationship])}</strong>
+        <strong><ZhText text={related.display_name} fallback={t('第二位人物')} /> {t('是')} <ZhText text={current.display_name} fallback={t('第一位人物')} /> {t(relationText[relationship])}{generationText}</strong>
       </span>
     </div>
   );

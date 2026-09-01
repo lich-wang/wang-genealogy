@@ -21,6 +21,7 @@ function snapshotOf(claim: Claim): ClaimSnapshot {
     predicate: claim.predicate,
     claim_kind: claim.claim_kind,
     object_person_id: claim.object_person_id,
+    generation_count: claim.generation_count,
     value_json: claim.value_json,
     status: claim.status,
     confidence: claim.confidence,
@@ -67,6 +68,11 @@ app.post('/:id/revisions', async (c) => {
   if (!claim) throw notFound('主張不存在');
   const body = reviseClaimSchema.parse(await c.req.json());
 
+  if (body.patch.value !== undefined && claim.claim_kind !== 'property')
+    throw badRequest('bad_claim_value', '只有人物屬性主張可以修改取值。');
+  if (body.patch.generation_count !== undefined && claim.predicate !== 'kinship.ancestor_of')
+    throw badRequest('bad_generation_count', '只有先祖／後代世系可以修改相隔代數。');
+
   if (body.expected_revision !== claim.current_revision)
     throw conflict('revision_conflict', `版本不一致：當前為 ${claim.current_revision}`, {
       current_revision: claim.current_revision,
@@ -88,6 +94,9 @@ app.post('/:id/revisions', async (c) => {
     ...claim,
     confidence: body.patch.confidence ?? claim.confidence,
     value_json: patchedValue,
+    generation_count: body.patch.generation_count === undefined
+      ? claim.generation_count
+      : body.patch.generation_count,
     status: body.patch.status ?? claim.status,
   };
 
@@ -100,11 +109,12 @@ app.post('/:id/revisions', async (c) => {
   await c.env.DB.batch([
     c.env.DB
       .prepare(
-        'UPDATE claim SET confidence = ?, value_json = ?, status = ?, updated_at = ?, current_revision = ? WHERE id = ? AND current_revision = ?',
+        'UPDATE claim SET confidence = ?, value_json = ?, generation_count = ?, status = ?, updated_at = ?, current_revision = ? WHERE id = ? AND current_revision = ?',
       )
       .bind(
         next.confidence,
         next.value_json ? JSON.stringify(next.value_json) : null,
+        next.generation_count,
         next.status,
         now,
         newRevision,
@@ -168,13 +178,14 @@ app.post('/:id/reverts', async (c) => {
   await c.env.DB.batch([
     c.env.DB
       .prepare(
-        'UPDATE claim SET confidence = ?, value_json = ?, status = ?, object_person_id = ?, updated_at = ?, current_revision = ? WHERE id = ? AND current_revision = ?',
+        'UPDATE claim SET confidence = ?, value_json = ?, status = ?, object_person_id = ?, generation_count = ?, updated_at = ?, current_revision = ? WHERE id = ? AND current_revision = ?',
       )
       .bind(
         snap.confidence,
         snap.value_json ? JSON.stringify(snap.value_json) : null,
         snap.status,
         snap.object_person_id,
+        snap.generation_count ?? null,
         now,
         newRevision,
         claim.id,

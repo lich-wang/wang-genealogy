@@ -162,7 +162,7 @@ P_PARENT parent_of {personId}
 {personId} parent_of P_CHILD
 ```
 
-### 代数不明的世系
+### 跨代世系与具体代数
 
 来源只说「某人是某人的后代」而不点名中间各代时（「太子晉後代」「王元四世孫」），用 `ancestor` 与 `descendant`，服务端统一转成 `kinship.ancestor_of`：
 
@@ -170,6 +170,7 @@ P_PARENT parent_of {personId}
 {
   "relationship": "ancestor",
   "related_person_id": "P_OLD",
+  "generation_count": 4,
   "sources": [{ "source_id": "SRC_456", "stance": "supports", "locator": "王元四世孫" }]
 }
 ```
@@ -179,7 +180,7 @@ P_OLD ancestor_of {personId}
 {personId} ancestor_of P_DESCENDANT
 ```
 
-来源给出的代数写在 `locator` 里，不进入谓词。`ancestor_of` 与 `parent_of` 共用环检测：若新关系会构成亲属环，返回 `409 kinship_cycle`。
+能从来源确认时，`generation_count` 填相隔代数（整数 `2..100`）；不能确认时省略。相隔一代必须改用 `parent`/`child`，其他关系携带该字段会校验失败。`locator` 仍保留来源原文位置或「四世孫」等原始表述，但不再承担结构化代数。旧数据继续兼容从 `locator` 读取。`ancestor_of` 与 `parent_of` 共用环检测：若新关系会构成亲属环，返回 `409 kinship_cycle`。
 
 ## 四、修改、争议与回滚
 

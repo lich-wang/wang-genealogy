@@ -216,7 +216,11 @@ function relationshipEdge({
   selected: boolean;
 }): Edge {
   const disputed = edge.status === 'disputed';
-  const label = evidenceLabel(edge.citations);
+  const evidence = evidenceLabel(edge.citations);
+  const label =
+    kind === 'descent' && 'generations' in edge && edge.generations
+      ? `${edge.generations}代 · ${evidence}`
+      : evidence;
   return {
     id: edge.claim_id,
     source,

@@ -3,6 +3,7 @@ import { Link, useParams } from 'react-router-dom';
 import { Download, GitFork, Home, Info, PenLine, Plus, Users } from 'lucide-react';
 import type { ClaimWithSources, PersonSummary } from '@wang/domain';
 import { api } from '../api';
+import { relationshipGenerationCount } from '../format';
 import { useAsync, toMessage } from '../hooks';
 import { useAuth } from '../auth';
 import { useScript } from '../i18n';
@@ -152,14 +153,16 @@ export function PersonPage() {
             disputeBusy={disputeBusy}
           />
           <RelationshipGroup
-            title="先祖（代數不明）"
+            title="先祖"
             items={summary.relationships.ancestors}
+            showGeneration
             onDispute={isAuthenticated ? onDispute : undefined}
             disputeBusy={disputeBusy}
           />
           <RelationshipGroup
-            title="後代（代數不明）"
+            title="後代"
             items={summary.relationships.descendants}
+            showGeneration
             onDispute={isAuthenticated ? onDispute : undefined}
             disputeBusy={disputeBusy}
           />
@@ -219,11 +222,13 @@ async function onExport(id: string, setError: (msg: string | null) => void) {
 function RelationshipGroup({
   title,
   items,
+  showGeneration,
   onDispute,
   disputeBusy,
 }: {
   title: string;
   items: ClaimWithSources[];
+  showGeneration?: boolean;
   onDispute?: (claimId: string) => void;
   disputeBusy?: boolean;
 }) {
@@ -250,6 +255,13 @@ function RelationshipGroup({
               ) : (
                 <span className="muted">{t('（關係物件未知）')}</span>
               )}
+              {showGeneration ? (
+                <small className={relationshipGenerationCount(item) ? 'generation-badge' : 'generation-badge generation-unknown'}>
+                  {relationshipGenerationCount(item)
+                    ? t(`相隔 ${relationshipGenerationCount(item)} 代`)
+                    : t('代數不詳')}
+                </small>
+              ) : null}
             </span>
             <Provenance item={item} onDispute={onDispute} disputeBusy={disputeBusy} />
           </div>

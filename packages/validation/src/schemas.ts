@@ -69,9 +69,23 @@ export const createPropertyClaimSchema = z.object({
 export const createRelationshipSchema = z.object({
   relationship: z.enum(RELATIONSHIP_INPUT),
   related_person_id: nonEmpty,
+  /** Exact distance for ancestor/descendant; one generation is parent/child. */
+  generation_count: z.number().int().min(2).max(100).optional(),
   confidence: z.enum(CONFIDENCE).default('unknown'),
   sources: z.array(sourceRefSchema).default([]),
   change_summary: z.string().max(500).optional(),
+}).superRefine((input, ctx) => {
+  if (
+    input.generation_count !== undefined &&
+    input.relationship !== 'ancestor' &&
+    input.relationship !== 'descendant'
+  ) {
+    ctx.addIssue({
+      code: z.ZodIssueCode.custom,
+      path: ['generation_count'],
+      message: '只有先祖或後代關係可以記錄相隔代數。',
+    });
+  }
 });
 
 export const createPersonSchema = z.object({
@@ -90,6 +104,7 @@ export const reviseClaimSchema = z.object({
     .object({
       confidence: z.enum(CONFIDENCE).optional(),
       value: propertyValueSchema.optional(),
+      generation_count: z.number().int().min(2).max(100).nullable().optional(),
       status: z.enum(['accepted', 'disputed', 'superseded']).optional(),
     })
     .refine((p) => Object.keys(p).length > 0, { message: 'patch 不能为空' }),

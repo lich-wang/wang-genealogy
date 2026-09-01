@@ -150,6 +150,7 @@ export interface CreatePropertyClaimInput {
 export interface CreateRelationshipInput {
   relationship: RelationshipInput;
   related_person_id: string;
+  generation_count?: number;
   confidence?: Confidence;
   sources?: SourceRefInput[];
   change_summary?: string;
@@ -160,6 +161,7 @@ export interface ReviseClaimInput {
   patch: {
     confidence?: Confidence;
     value?: PropertyValueInput;
+    generation_count?: number | null;
     status?: 'accepted' | 'disputed' | 'superseded';
   };
   change_summary?: string;

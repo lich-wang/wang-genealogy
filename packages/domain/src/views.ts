@@ -52,7 +52,7 @@ export interface PersonSummary {
     adoptive_parents: ClaimWithSources[];
     adoptive_children: ClaimWithSources[];
     spouses: ClaimWithSources[];
-    /** Descent across unnamed generations, kept apart from named parentage. */
+    /** Direct or distant descent, kept apart from named parentage. */
     ancestors: ClaimWithSources[];
     descendants: ClaimWithSources[];
     other: ClaimWithSources[];
@@ -97,21 +97,21 @@ export interface SpouseEdge extends KinshipEdgeBase {
 
 /**
  * Stored direction: ANCESTOR --kinship.ancestor_of--> DESCENDANT, across a
- * number of generations the source did not name.
+ * known or unknown number of generations.
  *
  * Kept apart from `ParentEdge` because it is a different statement: a parent
  * link says who someone's father was, this one says only that a line of descent
  * runs between two people. A tree must not draw them alike, or「秦将王翦为太子
  * 晋后代」would read as a claim that 王翦 was 太子晋's son. Whatever the source
- * said about the distance —「四世孫」,「第八代孫」— is in the citation's locator.
+ * Exact distance —「四世孫」,「第八代孫」— is stored on the relationship claim;
+ * older imported records can still be recovered from their citation locator.
  */
 export interface DescentEdge extends KinshipEdgeBase {
   ancestor_id: string;
   descendant_id: string;
   /**
    * How many generations the source put between them —「四世孫」is 4 — or null
-   * where it only said there was descent. Read off the citation's locator,
-   * which is where the number is stored; a diagram needs it as a number to put
+   * where it only said there was descent. A diagram needs it as a number to put
    * a 八代孫 eight rows down instead of one.
    */
   generations: number | null;

@@ -183,8 +183,14 @@ describe('loadRelatives: descent across unnamed generations', () => {
 
 describe('a stated generation count', () => {
   /** One ancestor, one descendant, and whatever the citation says about them. */
-  function dbStating(locator: string) {
-    const edge = { claim_id: 'c_x', status: 'accepted', parent_id: 'p_old', child_id: 'p_new' };
+  function dbStating(locator: string, generationCount?: number) {
+    const edge = {
+      claim_id: 'c_x',
+      status: 'accepted',
+      parent_id: 'p_old',
+      child_id: 'p_new',
+      generation_count: generationCount ?? null,
+    };
     return {
       prepare(sql: string) {
         const stmt = {
@@ -225,6 +231,11 @@ describe('a stated generation count', () => {
       down: 1,
     });
     expect(graph.descent_edges[0]?.generations).toBe(8);
+  });
+
+  it('prefers the structured relationship count over a legacy locator', async () => {
+    const graph = await loadRelatives(dbStating('條文（8世）', 4), 'p_old', { up: 0, down: 1 });
+    expect(graph.descent_edges[0]?.generations).toBe(4);
   });
 
   it('reads a Chinese numeral too', async () => {
