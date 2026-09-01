@@ -1,0 +1,995 @@
+{
+  "generated_from": ["public-web-sources", "luna-review"],
+  "hops": 1,
+  "max_new": 24,
+  "capped_relationships": 0,
+  "expanded_keys": [],
+  "identity_merges": [],
+  "name_collisions": [],
+  "skipped": [],
+  "unmapped_cbdb_relations": [],
+  "sources": [
+    {
+      "key": "ccdi:gaoyou-wang-family",
+      "kind": "government-website",
+      "source_type": "website",
+      "title": "中央纪委监察部网站：江苏高邮王念孙、王引之父子",
+      "publisher": "中央纪委监察部网站",
+      "license_code": "unknown",
+      "canonical_url": "https://m.ccdi.gov.cn/content/7c/1a/11289.html",
+      "external_identifier": null
+    },
+    {
+      "key": "taian:wang-yirong-family",
+      "kind": "government-website",
+      "source_type": "website",
+      "title": "泰安市文学艺术界联合会：甲骨文之父王懿荣及家世考略",
+      "creator": "孟鸿声",
+      "publisher": "泰安市文学艺术界联合会",
+      "license_code": "unknown",
+      "canonical_url": "https://wenlian.taian.gov.cn/art/2019/12/10/art_69765_8169980.html",
+      "external_identifier": null
+    },
+    {
+      "key": "hetian:wang-fuzhi-family",
+      "kind": "government-website",
+      "source_type": "website",
+      "title": "和田地区纪委监委：王夫之的齐家之教",
+      "creator": "刘绪义",
+      "publisher": "和田地区纪委监委",
+      "license_code": "unknown",
+      "canonical_url": "https://www.htlz.gov.cn/liansjj40/269.jhtml",
+      "external_identifier": null
+    },
+    {
+      "key": "gazetteer:hunan-167",
+      "kind": "gazetteer",
+      "source_type": "gazetteer",
+      "title": "《湖南通志》卷一百六十七",
+      "publisher": "识典古籍",
+      "license_code": "unknown",
+      "canonical_url": "https://www.shidianguji.com/book/NLG312001076076/chapter/1lk0ahlazb9ki",
+      "external_identifier": null
+    },
+    {
+      "key": "sinica:wang-fuzhi-authority",
+      "kind": "authority-database",
+      "source_type": "website",
+      "title": "中央研究院人名权威：王夫之",
+      "publisher": "中央研究院历史语言研究所",
+      "license_code": "unknown",
+      "canonical_url": "https://newarchive.ihp.sinica.edu.tw/sncaccgi/sncacFtp?ACTION=TQ%2CsncacFtpqf%2CSN%3D009164%2C2nd%2Csearch_simple",
+      "external_identifier": null
+    },
+    {
+      "key": "npm:wang-dahong",
+      "kind": "museum-website",
+      "source_type": "website",
+      "title": "国立故宫博物院：建筑诗人王大闳",
+      "publisher": "国立故宫博物院",
+      "license_code": "unknown",
+      "canonical_url": "https://theme.npm.edu.tw/npmArchitecture/ch/page-3.html",
+      "external_identifier": null
+    },
+    {
+      "key": "christian-weekly:wang-yuchu-sons",
+      "kind": "website",
+      "source_type": "website",
+      "title": "基督教周报：王煜初牧师儿子与北洋大学",
+      "publisher": "基督教周报",
+      "license_code": "unknown",
+      "canonical_url": "https://christianweekly.net/2008/ta17634.html",
+      "external_identifier": null
+    },
+    {
+      "key": "christian-weekly:wang-zhengting-father",
+      "kind": "website",
+      "source_type": "website",
+      "title": "基督教周报：王正廷入读中国第一所官立大学",
+      "publisher": "基督教周报",
+      "license_code": "unknown",
+      "canonical_url": "https://christianweekly.net/2008/ta17268.html",
+      "external_identifier": null
+    },
+    {
+      "key": "gospelchina:wang-youguang",
+      "kind": "journal-pdf",
+      "source_type": "website",
+      "title": "《福音与当代中国》第13期：王有光家族",
+      "publisher": "福音与当代中国",
+      "license_code": "unknown",
+      "canonical_url": "https://gospelchina.cn/upload/portal/20211031/6b4d7f37c4d2998de0f01a603eade8d6.pdf",
+      "external_identifier": null
+    },
+    {
+      "key": "zhwiki:wang-youguang",
+      "kind": "zhwiki",
+      "source_type": "website",
+      "title": "中文维基百科：王有光（英国传教士）",
+      "creator": "维基百科贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC-BY-SA-4.0",
+      "canonical_url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%9C%89%E5%85%89_(%E8%8B%B1%E5%9C%8B%E5%82%B3%E6%95%99%E5%A3%AB)",
+      "external_identifier": null
+    },
+    {
+      "key": "zhwiki:wang-yu-fuzhi-son",
+      "kind": "zhwiki",
+      "source_type": "website",
+      "title": "中文维基百科：王敔",
+      "creator": "维基百科贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC-BY-SA-4.0",
+      "canonical_url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%95%94",
+      "external_identifier": "Q15899870"
+    },
+    {
+      "key": "northern-news:wang-chongyou",
+      "kind": "news-website",
+      "source_type": "website",
+      "title": "北方网：天津大学（北洋大学）校庆人物王宠佑",
+      "publisher": "北方网",
+      "license_code": "unknown",
+      "canonical_url": "https://news.enorth.com.cn/system/2005/09/20/001123046_05.shtml",
+      "external_identifier": null
+    },
+    {
+      "key": "wikisource:beishi-35",
+      "kind": "wikisource",
+      "source_type": "book",
+      "title": "中文维基文库：北史/卷035",
+      "publisher": "维基文库",
+      "license_code": "CC-BY-SA-4.0",
+      "canonical_url": "https://zh.wikisource.org/wiki/%E5%8C%97%E5%8F%B2/%E5%8D%B7035",
+      "external_identifier": null
+    },
+    {
+      "key": "wikisource:shiliuguo-38",
+      "kind": "wikisource",
+      "source_type": "book",
+      "title": "中文维基文库：十六国春秋/卷038",
+      "publisher": "维基文库",
+      "license_code": "CC-BY-SA-4.0",
+      "canonical_url": "https://zh.wikisource.org/zh-hans/%E5%8D%81%E5%85%AD%E5%9C%8B%E6%98%A5%E7%A7%8B_(%E5%B1%A0%E5%96%AC%E5%AD%AB,_%E9%A0%85%E7%90%B3,_%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC)/%E5%8D%B7038",
+      "external_identifier": null
+    },
+    {
+      "key": "wikisource:gujin-wangyong",
+      "kind": "wikisource",
+      "source_type": "book",
+      "title": "中文维基文库：《古今图书集成》王永条",
+      "publisher": "维基文库",
+      "license_code": "CC-BY-SA-4.0",
+      "canonical_url": "https://zh.wikisource.org/wiki/Page:Gujin_Tushu_Jicheng,_Volume_359_(1700-1725).djvu/121",
+      "external_identifier": null
+    },
+    {
+      "key": "wikisource:shanxi-tongzhi-73",
+      "kind": "wikisource",
+      "source_type": "gazetteer",
+      "title": "中文维基文库：《山西通志》卷073",
+      "publisher": "维基文库",
+      "license_code": "CC-BY-SA-4.0",
+      "canonical_url": "https://zh.wikisource.org/zh-hant/%E5%B1%B1%E8%A5%BF%E9%80%9A%E5%BF%97_(%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC)/%E5%8D%B7073",
+      "external_identifier": null
+    },
+    {
+      "key": "wikisource:jinshu-43",
+      "kind": "wikisource",
+      "source_type": "book",
+      "title": "中文维基文库：晋书/卷043",
+      "publisher": "维基文库",
+      "license_code": "CC-BY-SA-4.0",
+      "canonical_url": "https://zh.wikisource.org/zh-hans/%E6%99%89%E6%9B%B8/%E5%8D%B7043",
+      "external_identifier": null
+    },
+    {
+      "key": "people:wang-yirong-son",
+      "kind": "news-website",
+      "source_type": "website",
+      "title": "人民网：甲骨文之父王懿荣",
+      "publisher": "人民网",
+      "license_code": "unknown",
+      "canonical_url": "https://culture.people.com.cn/n/2014/1102/c22219-25958035.html",
+      "external_identifier": null
+    },
+    {
+      "key": "wikisource:xintangshu-72b",
+      "kind": "wikisource",
+      "source_type": "book",
+      "title": "中文维基文库：新唐书/卷072中",
+      "publisher": "维基文库",
+      "license_code": "CC-BY-SA-4.0",
+      "canonical_url": "https://zh.wikisource.org/wiki/%E6%96%B0%E5%94%90%E6%9B%B8%2F%E5%8D%B7072%E4%B8%AD",
+      "external_identifier": null
+    },
+    {
+      "key": "tsinghua-press:wang-guowei-letters",
+      "kind": "publisher-pdf",
+      "source_type": "book",
+      "title": "清华大学出版社：《王国维未刊来往书信集（修订版）》",
+      "creator": "马奔腾整理",
+      "publisher": "清华大学出版社",
+      "license_code": "unknown",
+      "canonical_url": "https://www.tup.tsinghua.edu.cn/upload/books/yz/101066-01.pdf",
+      "external_identifier": "ISBN:978-7-302-65138-3"
+    },
+    {
+      "key": "tsinghua-archive:wang-guowei-family",
+      "kind": "university-archive",
+      "source_type": "website",
+      "title": "清华大学校史馆：王国维——清华国学院第一位导师",
+      "creator": "钱丹红",
+      "publisher": "清华大学校史馆",
+      "license_code": "unknown",
+      "canonical_url": "https://xsg.tsinghua.edu.cn/info/1004/2264.htm",
+      "external_identifier": null
+    },
+    {
+      "key": "china-writer:wang-guowei-family",
+      "kind": "news-website",
+      "source_type": "website",
+      "title": "中国作家网：国学大师王国维的悲情家族",
+      "publisher": "中国作家网",
+      "license_code": "unknown",
+      "canonical_url": "https://www.chinawriter.com.cn/2013/2013-12-31/186877.html",
+      "external_identifier": null
+    }
+  ],
+  "persons": [
+    {
+      "key": "named:王曾禄@ccdi-gaoyou",
+      "qid": null,
+      "cbdb": null,
+      "hop": 1,
+      "name": { "text": "王曾禄", "language": "zh-Hans" },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": { "text": "王曾禄", "language": "zh-Hans" },
+          "confidence": "high",
+          "source_keys": ["ccdi:gaoyou-wang-family"],
+          "change_summary": "补录高邮王氏四世祖王曾禄"
+        }
+      ],
+      "historicity": { "kind": "adjacent_to_historical_person", "detail": "中央纪委网站记为王安国之父" },
+      "source_keys": ["ccdi:gaoyou-wang-family"]
+    },
+    {
+      "key": "named:王安国@ccdi-gaoyou",
+      "qid": null,
+      "cbdb": null,
+      "hop": 1,
+      "name": { "text": "王安国", "language": "zh-Hans" },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": { "text": "王安国", "language": "zh-Hans" },
+          "confidence": "high",
+          "source_keys": ["ccdi:gaoyou-wang-family"],
+          "change_summary": "拆分并补录清代高邮王安国，不与北宋同名人物合并"
+        },
+        {
+          "predicate": "birth.date",
+          "value": { "date": { "original_text": "1694年" } },
+          "confidence": "high",
+          "source_keys": ["ccdi:gaoyou-wang-family"],
+          "change_summary": "补录高邮王安国生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": { "date": { "original_text": "1757年" } },
+          "confidence": "high",
+          "source_keys": ["ccdi:gaoyou-wang-family"],
+          "change_summary": "补录高邮王安国卒年"
+        }
+      ],
+      "historicity": { "kind": "death_date", "detail": "中央纪委公开资料载高邮王安国生卒年1694—1757" },
+      "source_keys": ["ccdi:gaoyou-wang-family"]
+    },
+    {
+      "key": "named:王介之@hunan-tongzhi",
+      "qid": null,
+      "cbdb": null,
+      "hop": 1,
+      "name": { "text": "王介之", "language": "zh-Hans" },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": { "text": "王介之", "language": "zh-Hans" },
+          "confidence": "high",
+          "source_keys": ["gazetteer:hunan-167", "sinica:wang-fuzhi-authority"],
+          "change_summary": "补录王朝聘长子、王夫之兄王介之"
+        }
+      ],
+      "historicity": { "kind": "historic_gazetteer", "detail": "《湖南通志》为王介之立传" },
+      "source_keys": ["gazetteer:hunan-167", "sinica:wang-fuzhi-authority"]
+    },
+    {
+      "key": "named:王参之@hunan-tongzhi",
+      "qid": null,
+      "cbdb": null,
+      "hop": 1,
+      "name": { "text": "王参之", "language": "zh-Hans" },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": { "text": "王参之", "language": "zh-Hans" },
+          "confidence": "high",
+          "source_keys": ["gazetteer:hunan-167"],
+          "change_summary": "补录王朝聘仲子王参之"
+        }
+      ],
+      "historicity": { "kind": "historic_gazetteer", "detail": "《湖南通志》为王参之立传" },
+      "source_keys": ["gazetteer:hunan-167"]
+    },
+    {
+      "key": "named:王攽@wang-fuzhi-family",
+      "qid": null,
+      "cbdb": null,
+      "hop": 1,
+      "name": { "text": "王攽", "language": "zh-Hans" },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": { "text": "王攽", "language": "zh-Hans" },
+          "confidence": "high",
+          "source_keys": ["hetian:wang-fuzhi-family"],
+          "change_summary": "补录王夫之长子王攽"
+        }
+      ],
+      "historicity": { "kind": "adjacent_to_historical_person", "detail": "政府公开资料记为王夫之长子" },
+      "source_keys": ["hetian:wang-fuzhi-family"]
+    },
+    {
+      "key": "wd:Q15899870",
+      "qid": "Q15899870",
+      "cbdb": null,
+      "hop": 1,
+      "name": { "text": "王敔", "language": "zh-Hans" },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": { "text": "王敔", "language": "zh-Hans" },
+          "confidence": "high",
+          "source_keys": ["hetian:wang-fuzhi-family", "sinica:wang-fuzhi-authority", "zhwiki:wang-yu-fuzhi-son"],
+          "change_summary": "补录王夫之次子王敔"
+        },
+        {
+          "predicate": "birth.date",
+          "value": { "date": { "original_text": "1656年" } },
+          "confidence": "medium",
+          "source_keys": ["zhwiki:wang-yu-fuzhi-son"],
+          "change_summary": "补录王敔生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": { "date": { "original_text": "1731年" } },
+          "confidence": "medium",
+          "source_keys": ["zhwiki:wang-yu-fuzhi-son"],
+          "change_summary": "补录王敔卒年"
+        }
+      ],
+      "historicity": { "kind": "death_date", "detail": "公开资料载1656—1731年" },
+      "source_keys": ["hetian:wang-fuzhi-family", "sinica:wang-fuzhi-authority", "zhwiki:wang-yu-fuzhi-son"]
+    },
+    {
+      "key": "wd:Q26769747",
+      "qid": "Q26769747",
+      "cbdb": null,
+      "hop": 1,
+      "name": { "text": "王宠佑", "language": "zh-Hans" },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": { "text": "王宠佑", "language": "zh-Hans" },
+          "confidence": "high",
+          "source_keys": ["christian-weekly:wang-yuchu-sons", "northern-news:wang-chongyou"],
+          "change_summary": "补录王煜初之子、王宠惠兄王宠佑"
+        },
+        {
+          "predicate": "death.date",
+          "value": { "date": { "original_text": "1958年" } },
+          "confidence": "high",
+          "source_keys": ["northern-news:wang-chongyou"],
+          "change_summary": "补录王宠佑卒年"
+        }
+      ],
+      "historicity": { "kind": "death_date", "detail": "北方网天津大学校庆资料载卒于1958年" },
+      "source_keys": ["christian-weekly:wang-yuchu-sons", "northern-news:wang-chongyou"]
+    },
+    {
+      "key": "wd:Q30949751",
+      "qid": "Q30949751",
+      "cbdb": null,
+      "hop": 1,
+      "name": { "text": "王际唐", "language": "zh-Hans" },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": { "text": "王际唐", "language": "zh-Hans" },
+          "confidence": "high",
+          "source_keys": ["christian-weekly:wang-zhengting-father", "gospelchina:wang-youguang"],
+          "change_summary": "补录王正廷之父王际唐（教名王有光）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": { "date": { "original_text": "1843年" } },
+          "confidence": "high",
+          "source_keys": ["gospelchina:wang-youguang"],
+          "change_summary": "补录王际唐生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": { "date": { "original_text": "1909年" } },
+          "confidence": "high",
+          "source_keys": ["gospelchina:wang-youguang"],
+          "change_summary": "补录王际唐卒年"
+        }
+      ],
+      "historicity": { "kind": "death_date", "detail": "公开会史资料载1843—1909年" },
+      "source_keys": ["christian-weekly:wang-zhengting-father", "gospelchina:wang-youguang"]
+    },
+    {
+      "key": "named:王世官@wang-youguang",
+      "qid": null,
+      "cbdb": null,
+      "hop": 1,
+      "name": { "text": "王世官", "language": "zh-Hans" },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": { "text": "王世官", "language": "zh-Hans" },
+          "confidence": "high",
+          "source_keys": ["gospelchina:wang-youguang"],
+          "change_summary": "补录王际唐之父王世官"
+        }
+      ],
+      "historicity": { "kind": "adjacent_to_historical_person", "detail": "公开会史资料记为1843年生王际唐之父" },
+      "source_keys": ["gospelchina:wang-youguang"]
+    },
+    {
+      "key": "named:王季和@beishi-35",
+      "qid": null,
+      "cbdb": null,
+      "hop": 1,
+      "name": { "text": "王季和", "language": "zh-Hans" },
+      "spouse_only": false,
+      "claims": [{
+        "predicate": "name.primary",
+        "value": { "text": "王季和", "language": "zh-Hans" },
+        "confidence": "high",
+        "source_keys": ["wikisource:beishi-35"],
+        "change_summary": "补录北魏王琼第四子王季和"
+      }],
+      "historicity": { "kind": "historic_book", "detail": "《北史》卷三十五载其为王琼四子之一" },
+      "source_keys": ["wikisource:beishi-35"]
+    },
+    {
+      "key": "named:王皮@shiliuguo-38",
+      "qid": null,
+      "cbdb": null,
+      "hop": 1,
+      "name": { "text": "王皮", "language": "zh-Hans" },
+      "spouse_only": false,
+      "claims": [{
+        "predicate": "name.primary",
+        "value": { "text": "王皮", "language": "zh-Hans" },
+        "confidence": "high",
+        "source_keys": ["wikisource:shiliuguo-38"],
+        "change_summary": "补录前秦丞相王猛之子王皮"
+      }],
+      "historicity": { "kind": "historic_book", "detail": "《十六国春秋》卷三十八明载王猛子王皮" },
+      "source_keys": ["wikisource:shiliuguo-38"]
+    },
+    {
+      "key": "named:王永@former-qin",
+      "qid": null,
+      "cbdb": null,
+      "hop": 1,
+      "name": { "text": "王永", "language": "zh-Hans" },
+      "spouse_only": false,
+      "claims": [{
+        "predicate": "name.primary",
+        "value": { "text": "王永", "language": "zh-Hans" },
+        "confidence": "high",
+        "source_keys": ["wikisource:shiliuguo-38", "wikisource:gujin-wangyong"],
+        "change_summary": "补录前秦王猛之子王永"
+      }],
+      "historicity": { "kind": "historic_book", "detail": "前秦史料记王永为王皮之兄、王猛之子" },
+      "source_keys": ["wikisource:shiliuguo-38", "wikisource:gujin-wangyong"]
+    },
+    {
+      "key": "named:王休@former-qin",
+      "qid": null,
+      "cbdb": null,
+      "hop": 1,
+      "name": { "text": "王休", "language": "zh-Hans" },
+      "spouse_only": false,
+      "claims": [{
+        "predicate": "name.primary",
+        "value": { "text": "王休", "language": "zh-Hans" },
+        "confidence": "medium",
+        "source_keys": ["wikisource:shanxi-tongzhi-73"],
+        "change_summary": "同名异人：补录前秦王猛之子王休"
+      }],
+      "historicity": { "kind": "historic_gazetteer", "detail": "《山西通志》卷七十三记前秦代郡太守王休为王猛子" },
+      "source_keys": ["wikisource:shanxi-tongzhi-73"]
+    },
+    {
+      "key": "named:王万@jinshu-43",
+      "qid": null,
+      "cbdb": null,
+      "hop": 1,
+      "name": { "text": "王万", "language": "zh-Hans" },
+      "spouse_only": false,
+      "claims": [{
+        "predicate": "name.primary",
+        "value": { "text": "王万", "language": "zh-Hans" },
+        "confidence": "high",
+        "source_keys": ["wikisource:jinshu-43"],
+        "change_summary": "补录西晋王戎之子王万"
+      }],
+      "historicity": { "kind": "historic_book", "detail": "《晋书》卷四十三载王戎子王万十九岁卒" },
+      "source_keys": ["wikisource:jinshu-43"]
+    },
+    {
+      "key": "named:王兴@jinshu-43",
+      "qid": null,
+      "cbdb": null,
+      "hop": 1,
+      "name": { "text": "王兴", "language": "zh-Hans" },
+      "spouse_only": false,
+      "claims": [{
+        "predicate": "name.primary",
+        "value": { "text": "王兴", "language": "zh-Hans" },
+        "confidence": "high",
+        "source_keys": ["wikisource:jinshu-43"],
+        "change_summary": "同名异人：补录西晋王戎庶子王兴"
+      }],
+      "historicity": { "kind": "historic_book", "detail": "《晋书》卷四十三明载王戎庶子王兴，不是王莽之子" },
+      "source_keys": ["wikisource:jinshu-43"]
+    },
+    {
+      "key": "named:王崇烈@wang-yirong-son",
+      "qid": null,
+      "cbdb": null,
+      "hop": 1,
+      "name": { "text": "王崇烈", "language": "zh-Hans" },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": { "text": "王崇烈", "language": "zh-Hans" },
+          "confidence": "high",
+          "source_keys": ["people:wang-yirong-son"],
+          "change_summary": "补录王懿荣次子王崇烈"
+        },
+        {
+          "predicate": "birth.date",
+          "value": { "date": { "original_text": "1870年" } },
+          "confidence": "high",
+          "source_keys": ["people:wang-yirong-son"],
+          "change_summary": "补录王崇烈生年"
+        }
+      ],
+      "historicity": { "kind": "birth_before_cutoff", "detail": "人民网资料载生于1870年" },
+      "source_keys": ["people:wang-yirong-son"]
+    },
+    {
+      "key": "named:王昇@xintangshu-72b",
+      "qid": null,
+      "cbdb": null,
+      "hop": 1,
+      "name": { "text": "王昇", "language": "zh-Hant" },
+      "spouse_only": false,
+      "claims": [{
+        "predicate": "name.primary",
+        "value": { "text": "王昇", "language": "zh-Hant" },
+        "confidence": "high",
+        "source_keys": ["wikisource:xintangshu-72b"],
+        "change_summary": "同名异人：补录唐代王大璡之子王昇"
+      }],
+      "historicity": { "kind": "historic_book", "detail": "《新唐书》卷七十二中宰相世系表列为王大璡之子" },
+      "source_keys": ["wikisource:xintangshu-72b"]
+    },
+    {
+      "key": "named:王昪@xintangshu-72b",
+      "qid": null,
+      "cbdb": null,
+      "hop": 1,
+      "name": { "text": "王昪", "language": "zh-Hant" },
+      "spouse_only": false,
+      "claims": [{
+        "predicate": "name.primary",
+        "value": { "text": "王昪", "language": "zh-Hant" },
+        "confidence": "high",
+        "source_keys": ["wikisource:xintangshu-72b"],
+        "change_summary": "补录唐代王大璡之子、咸阳令王昪"
+      }],
+      "historicity": { "kind": "historic_book", "detail": "《新唐书》卷七十二中宰相世系表列为王大璡之子" },
+      "source_keys": ["wikisource:xintangshu-72b"]
+    },
+    {
+      "key": "named:王潜明@wang-guowei",
+      "qid": null,
+      "cbdb": null,
+      "hop": 1,
+      "name": { "text": "王潜明", "language": "zh-Hans" },
+      "spouse_only": false,
+      "claims": [
+        { "predicate": "name.primary", "value": { "text": "王潜明", "language": "zh-Hans" }, "confidence": "high", "source_keys": ["tsinghua-press:wang-guowei-letters", "tsinghua-archive:wang-guowei-family"], "change_summary": "补录王国维长子王潜明" },
+        { "predicate": "birth.date", "value": { "date": { "original_text": "1899年" } }, "confidence": "high", "source_keys": ["tsinghua-press:wang-guowei-letters"], "change_summary": "补录王潜明生年" },
+        { "predicate": "death.date", "value": { "date": { "original_text": "1926年" } }, "confidence": "high", "source_keys": ["tsinghua-press:wang-guowei-letters"], "change_summary": "补录王潜明卒年" }
+      ],
+      "historicity": { "kind": "death_date", "detail": "清华大学出版社资料载1899—1926年" },
+      "source_keys": ["tsinghua-press:wang-guowei-letters", "tsinghua-archive:wang-guowei-family"]
+    },
+    {
+      "key": "named:王高明@wang-guowei",
+      "qid": null,
+      "cbdb": null,
+      "hop": 1,
+      "name": { "text": "王高明", "language": "zh-Hans" },
+      "spouse_only": false,
+      "claims": [
+        { "predicate": "name.primary", "value": { "text": "王高明", "language": "zh-Hans" }, "confidence": "high", "source_keys": ["tsinghua-archive:wang-guowei-family", "china-writer:wang-guowei-family"], "change_summary": "补录王国维次子王高明" },
+        { "predicate": "birth.date", "value": { "date": { "original_text": "1902年" } }, "confidence": "high", "source_keys": ["china-writer:wang-guowei-family"], "change_summary": "补录王高明生年" },
+        { "predicate": "death.date", "value": { "date": { "original_text": "1969年" } }, "confidence": "high", "source_keys": ["china-writer:wang-guowei-family"], "change_summary": "补录王高明卒年" }
+      ],
+      "historicity": { "kind": "death_date", "detail": "中国作家网家属访谈资料载1902—1969年" },
+      "source_keys": ["tsinghua-archive:wang-guowei-family", "china-writer:wang-guowei-family"]
+    },
+    {
+      "key": "named:王贞明@wang-guowei",
+      "qid": null,
+      "cbdb": null,
+      "hop": 1,
+      "name": { "text": "王贞明", "language": "zh-Hans" },
+      "spouse_only": false,
+      "claims": [
+        { "predicate": "name.primary", "value": { "text": "王贞明", "language": "zh-Hans" }, "confidence": "high", "source_keys": ["tsinghua-archive:wang-guowei-family", "china-writer:wang-guowei-family"], "change_summary": "补录王国维三子王贞明" },
+        { "predicate": "birth.date", "value": { "date": { "original_text": "1905年" } }, "confidence": "high", "source_keys": ["china-writer:wang-guowei-family"], "change_summary": "补录王贞明生年" },
+        { "predicate": "death.date", "value": { "date": { "original_text": "1998年" } }, "confidence": "high", "source_keys": ["china-writer:wang-guowei-family"], "change_summary": "补录王贞明卒年" }
+      ],
+      "historicity": { "kind": "death_date", "detail": "中国作家网家属访谈资料载1905—1998年" },
+      "source_keys": ["tsinghua-archive:wang-guowei-family", "china-writer:wang-guowei-family"]
+    },
+    {
+      "key": "named:王纪明@wang-guowei",
+      "qid": null,
+      "cbdb": null,
+      "hop": 1,
+      "name": { "text": "王纪明", "language": "zh-Hans" },
+      "spouse_only": false,
+      "claims": [
+        { "predicate": "name.primary", "value": { "text": "王纪明", "language": "zh-Hans" }, "confidence": "high", "source_keys": ["tsinghua-archive:wang-guowei-family", "china-writer:wang-guowei-family"], "change_summary": "补录王国维四子王纪明" },
+        { "predicate": "birth.date", "value": { "date": { "original_text": "1910年" } }, "confidence": "high", "source_keys": ["china-writer:wang-guowei-family"], "change_summary": "补录王纪明生年" },
+        { "predicate": "death.date", "value": { "date": { "original_text": "1978年" } }, "confidence": "high", "source_keys": ["china-writer:wang-guowei-family"], "change_summary": "补录王纪明卒年" }
+      ],
+      "historicity": { "kind": "death_date", "detail": "中国作家网家属访谈资料载1910—1978年" },
+      "source_keys": ["tsinghua-archive:wang-guowei-family", "china-writer:wang-guowei-family"]
+    },
+    {
+      "key": "named:王松明@wang-guowei",
+      "qid": null,
+      "cbdb": null,
+      "hop": 1,
+      "name": { "text": "王松明", "language": "zh-Hans" },
+      "spouse_only": false,
+      "claims": [
+        { "predicate": "name.primary", "value": { "text": "王松明", "language": "zh-Hans" }, "confidence": "high", "source_keys": ["tsinghua-archive:wang-guowei-family", "china-writer:wang-guowei-family"], "change_summary": "补录王国维次女王松明" },
+        { "predicate": "birth.date", "value": { "date": { "original_text": "1917年" } }, "confidence": "high", "source_keys": ["china-writer:wang-guowei-family"], "change_summary": "补录王松明生年" },
+        { "predicate": "death.date", "value": { "date": { "original_text": "1979年" } }, "confidence": "high", "source_keys": ["china-writer:wang-guowei-family"], "change_summary": "补录王松明卒年" }
+      ],
+      "historicity": { "kind": "death_date", "detail": "中国作家网家属访谈资料载1917—1979年" },
+      "source_keys": ["tsinghua-archive:wang-guowei-family", "china-writer:wang-guowei-family"]
+    },
+    {
+      "key": "named:王登明@wang-guowei",
+      "qid": null,
+      "cbdb": null,
+      "hop": 1,
+      "name": { "text": "王登明", "language": "zh-Hans" },
+      "spouse_only": false,
+      "claims": [
+        { "predicate": "name.primary", "value": { "text": "王登明", "language": "zh-Hans" }, "confidence": "high", "source_keys": ["tsinghua-archive:wang-guowei-family", "china-writer:wang-guowei-family"], "change_summary": "补录王国维六子王登明" },
+        { "predicate": "birth.date", "value": { "date": { "original_text": "1919年" } }, "confidence": "high", "source_keys": ["china-writer:wang-guowei-family"], "change_summary": "补录王登明生年" },
+        { "predicate": "death.date", "value": { "date": { "original_text": "1997年" } }, "confidence": "high", "source_keys": ["china-writer:wang-guowei-family"], "change_summary": "补录王登明卒年" }
+      ],
+      "historicity": { "kind": "death_date", "detail": "中国作家网家属访谈资料载1919—1997年" },
+      "source_keys": ["tsinghua-archive:wang-guowei-family", "china-writer:wang-guowei-family"]
+    }
+  ],
+  "edges": [
+    {
+      "kind": "parent",
+      "parent_key": "named:王曾禄@ccdi-gaoyou",
+      "child_key": "named:王安国@ccdi-gaoyou",
+      "parent_name": "王曾禄",
+      "child_name": "王安国",
+      "citations": [{ "source_key": "ccdi:gaoyou-wang-family", "locator": "王氏家学渊源", "quotation": "王安国任左都御史兼领广东巡抚时，其父王曾禄叮嘱他。" }]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "named:王安国@ccdi-gaoyou",
+      "child_key": "db:p_ufBkxfH59gVHhCXsfm99um",
+      "parent_name": "王安国",
+      "child_name": "王念孙",
+      "child_person_id": "p_ufBkxfH59gVHhCXsfm99um",
+      "citations": [{ "source_key": "ccdi:gaoyou-wang-family", "locator": "王氏家学渊源", "quotation": "王念孙父亲王安国（1694-1757）。" }]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "db:p_ufBkxfH59gVHhCXsfm99um",
+      "child_key": "db:p_Hvr19mPdS8JJV2kVGRPHJs",
+      "parent_name": "王念孙",
+      "child_name": "王引之",
+      "parent_person_id": "p_ufBkxfH59gVHhCXsfm99um",
+      "child_person_id": "p_Hvr19mPdS8JJV2kVGRPHJs",
+      "citations": [{ "source_key": "ccdi:gaoyou-wang-family", "locator": "王引之条", "quotation": "王引之（1766—1834），王念孙之子。" }]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "db:p_kJ65wMWDMsuQU4kHrkU99z",
+      "child_key": "db:p_BqkTCMXwcG3871wc1aZK5X",
+      "parent_name": "王兆琛",
+      "child_name": "王祖源",
+      "parent_person_id": "p_kJ65wMWDMsuQU4kHrkU99z",
+      "child_person_id": "p_BqkTCMXwcG3871wc1aZK5X",
+      "citations": [{ "source_key": "taian:wang-yirong-family", "locator": "王懿荣的生平", "quotation": "祖荣禄公讳兆琛……为公考资政公讳祖源长子。", "note": "引文依次指出王懿荣祖父王兆琛、父亲王祖源。" }]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "db:p_BqkTCMXwcG3871wc1aZK5X",
+      "child_key": "db:p_cM7Evu4QQJ7HxaU4v97UQW",
+      "parent_name": "王祖源",
+      "child_name": "王懿荣",
+      "parent_person_id": "p_BqkTCMXwcG3871wc1aZK5X",
+      "child_person_id": "p_cM7Evu4QQJ7HxaU4v97UQW",
+      "citations": [{ "source_key": "taian:wang-yirong-family", "locator": "王懿荣的生平", "quotation": "为公考资政公讳祖源长子。" }]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "db:p_cM7Evu4QQJ7HxaU4v97UQW",
+      "child_key": "db:p_iTCTJkheS49AizcGNFNmoz",
+      "parent_name": "王懿荣",
+      "child_name": "王崇焕",
+      "parent_person_id": "p_cM7Evu4QQJ7HxaU4v97UQW",
+      "child_person_id": "p_iTCTJkheS49AizcGNFNmoz",
+      "citations": [{ "source_key": "taian:wang-yirong-family", "locator": "甲骨发现与金石研究", "quotation": "王懿荣之子王崇焕《清王文敏公年谱》。" }]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "db:p_EMGFDrQWSrsdf9fKwcrHhY",
+      "child_key": "db:p_vLvDV5P2y7vDwkpQ8mjYAY",
+      "parent_name": "王朝聘",
+      "child_name": "王夫之",
+      "parent_person_id": "p_EMGFDrQWSrsdf9fKwcrHhY",
+      "child_person_id": "p_vLvDV5P2y7vDwkpQ8mjYAY",
+      "citations": [{ "source_key": "hetian:wang-fuzhi-family", "locator": "孝是万字之本", "quotation": "王夫之的父亲王朝聘是地方名流。" }]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "db:p_EMGFDrQWSrsdf9fKwcrHhY",
+      "child_key": "named:王介之@hunan-tongzhi",
+      "parent_name": "王朝聘",
+      "child_name": "王介之",
+      "parent_person_id": "p_EMGFDrQWSrsdf9fKwcrHhY",
+      "citations": [{ "source_key": "gazetteer:hunan-167", "locator": "王介之条", "quotation": "王介之字石子，號石崖，朝聘長子。" }]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "db:p_EMGFDrQWSrsdf9fKwcrHhY",
+      "child_key": "named:王参之@hunan-tongzhi",
+      "parent_name": "王朝聘",
+      "child_name": "王参之",
+      "parent_person_id": "p_EMGFDrQWSrsdf9fKwcrHhY",
+      "citations": [{ "source_key": "gazetteer:hunan-167", "locator": "王参之条", "quotation": "王参之，朝聘仲子。" }]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "db:p_vLvDV5P2y7vDwkpQ8mjYAY",
+      "child_key": "named:王攽@wang-fuzhi-family",
+      "parent_name": "王夫之",
+      "child_name": "王攽",
+      "parent_person_id": "p_vLvDV5P2y7vDwkpQ8mjYAY",
+      "citations": [{ "source_key": "hetian:wang-fuzhi-family", "locator": "志是成人之基", "quotation": "其长子王攽，著有《诗经释略》。" }]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "db:p_vLvDV5P2y7vDwkpQ8mjYAY",
+      "child_key": "wd:Q15899870",
+      "parent_name": "王夫之",
+      "child_name": "王敔",
+      "parent_person_id": "p_vLvDV5P2y7vDwkpQ8mjYAY",
+      "citations": [
+        { "source_key": "hetian:wang-fuzhi-family", "locator": "志是成人之基", "quotation": "次子王敔，学问渊博，操履高洁。" },
+        { "source_key": "sinica:wang-fuzhi-authority", "locator": "亲属", "quotation": "父 王朝聘　兄 王介之　子 王敔。" }
+      ]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "db:p_S19Wsq1aN5wyApGxSWWoLb",
+      "child_key": "db:p_qkpfWHQKWMNH8XxUnWrHJz",
+      "parent_name": "王宠惠",
+      "child_name": "王大闳",
+      "parent_person_id": "p_S19Wsq1aN5wyApGxSWWoLb",
+      "child_person_id": "p_qkpfWHQKWMNH8XxUnWrHJz",
+      "citations": [{ "source_key": "npm:wang-dahong", "locator": "王大闳", "quotation": "父亲是知名法学家王宠惠。" }]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "db:p_ZPwkrJtF5hrp5LzMAQLm66",
+      "child_key": "wd:Q26769747",
+      "parent_name": "王煜初",
+      "child_name": "王宠佑",
+      "parent_person_id": "p_ZPwkrJtF5hrp5LzMAQLm66",
+      "citations": [{ "source_key": "christian-weekly:wang-yuchu-sons", "locator": "王煜初牧师儿子", "quotation": "王煜初有子女十人……三弟王宠佑，四弟王宠惠。" }]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "named:王世官@wang-youguang",
+      "child_key": "wd:Q30949751",
+      "parent_name": "王世官",
+      "child_name": "王际唐",
+      "citations": [{ "source_key": "zhwiki:wang-youguang", "locator": "生平", "quotation": "父王世官，母蔡氏……王世官早逝，蔡氏独立抚养二子一女，送王际唐入宁波城中义塾上学。", "note": "页面同时明确王际唐后来以教名王有光行世。" }]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "wd:Q30949751",
+      "child_key": "db:p_16AMyNxGDHhmxb2N1WazvN",
+      "parent_name": "王际唐",
+      "child_name": "王正廷",
+      "child_person_id": "p_16AMyNxGDHhmxb2N1WazvN",
+      "citations": [{ "source_key": "christian-weekly:wang-zhengting-father", "locator": "首段", "quotation": "王正廷是奉化圣公会传道人王际唐的儿子。" }]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "db:p_ANjVfL6Dd7HKVhAWUaTFWB",
+      "child_key": "named:王季和@beishi-35",
+      "parent_name": "王琼",
+      "child_name": "王季和",
+      "parent_person_id": "p_ANjVfL6Dd7HKVhAWUaTFWB",
+      "citations": [{ "source_key": "wikisource:beishi-35", "locator": "王琼传", "quotation": "至瓊始有四子……延業弟季和。", "note": "本传依次列王琼四子遵业、广业、延业、季和。" }]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "db:p_t3SgcCtwpNZKVtbPUY74TB",
+      "child_key": "named:王皮@shiliuguo-38",
+      "parent_name": "王猛",
+      "child_name": "王皮",
+      "parent_person_id": "p_t3SgcCtwpNZKVtbPUY74TB",
+      "citations": [{ "source_key": "wikisource:shiliuguo-38", "locator": "前秦录七·建元十八年", "quotation": "王猛子员外散骑侍郎皮。" }]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "db:p_t3SgcCtwpNZKVtbPUY74TB",
+      "child_key": "named:王永@former-qin",
+      "parent_name": "王猛",
+      "child_name": "王永",
+      "parent_person_id": "p_t3SgcCtwpNZKVtbPUY74TB",
+      "citations": [
+        { "source_key": "wikisource:shiliuguo-38", "locator": "前秦录七·建元十八年", "quotation": "以王皮兄扶风太守王永为幽州刺史。" },
+        { "source_key": "wikisource:gujin-wangyong", "locator": "王永条", "quotation": "永，丞相猛子也……其弟皮。" }
+      ]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "db:p_t3SgcCtwpNZKVtbPUY74TB",
+      "child_key": "named:王休@former-qin",
+      "parent_name": "王猛",
+      "child_name": "王休（前秦）",
+      "parent_person_id": "p_t3SgcCtwpNZKVtbPUY74TB",
+      "citations": [{ "source_key": "wikisource:shanxi-tongzhi-73", "locator": "人物·前秦", "quotation": "王休，猛子，前秦代郡太守。" }]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "db:p_TfKe1cH32mQ1z8aTR1Zbt4",
+      "child_key": "named:王万@jinshu-43",
+      "parent_name": "王戎",
+      "child_name": "王万",
+      "parent_person_id": "p_TfKe1cH32mQ1z8aTR1Zbt4",
+      "citations": [{ "source_key": "wikisource:jinshu-43", "locator": "王戎传", "quotation": "子万，有美名……年十九卒。" }]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "db:p_TfKe1cH32mQ1z8aTR1Zbt4",
+      "child_key": "named:王兴@jinshu-43",
+      "parent_name": "王戎",
+      "child_name": "王兴（西晋）",
+      "parent_person_id": "p_TfKe1cH32mQ1z8aTR1Zbt4",
+      "citations": [{ "source_key": "wikisource:jinshu-43", "locator": "王戎传", "quotation": "有庶子兴，戎所不齿。" }]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "db:p_cM7Evu4QQJ7HxaU4v97UQW",
+      "child_key": "named:王崇烈@wang-yirong-son",
+      "parent_name": "王懿荣",
+      "child_name": "王崇烈",
+      "parent_person_id": "p_cM7Evu4QQJ7HxaU4v97UQW",
+      "citations": [{ "source_key": "people:wang-yirong-son", "locator": "家庭", "quotation": "次子王崇烈，字翰辅、汉甫，生于1870年。" }]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "db:p_BdwCbLY7cxi16JJQLYDphq",
+      "child_key": "named:王昇@xintangshu-72b",
+      "parent_name": "王大璡",
+      "child_name": "王昇（唐）",
+      "parent_person_id": "p_BdwCbLY7cxi16JJQLYDphq",
+      "citations": [{ "source_key": "wikisource:xintangshu-72b", "locator": "卷七十二中·王氏世系表第455—456行", "quotation": "王滿……生大璡。大璡，嘉州司馬。｜昇。", "note": "谱表相邻列表示王大璡生王昇。" }]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "db:p_BdwCbLY7cxi16JJQLYDphq",
+      "child_key": "named:王昪@xintangshu-72b",
+      "parent_name": "王大璡",
+      "child_name": "王昪",
+      "parent_person_id": "p_BdwCbLY7cxi16JJQLYDphq",
+      "citations": [{ "source_key": "wikisource:xintangshu-72b", "locator": "卷七十二中·王氏世系表第455—457行", "quotation": "大璡，嘉州司馬。｜昇。……昪，咸陽令。", "note": "王昇、王昪位于王大璡的下一代列。" }]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "db:p_CRTiUFbJJTt5FqJL9A5xNr",
+      "child_key": "named:王潜明@wang-guowei",
+      "parent_name": "王國維",
+      "child_name": "王潜明",
+      "parent_person_id": "p_CRTiUFbJJTt5FqJL9A5xNr",
+      "citations": [{ "source_key": "tsinghua-press:wang-guowei-letters", "locator": "王国维致王潜明·注1", "quotation": "王潜明（1899—1926）：王国维长子。" }]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "db:p_CRTiUFbJJTt5FqJL9A5xNr",
+      "child_key": "named:王高明@wang-guowei",
+      "parent_name": "王國維",
+      "child_name": "王高明",
+      "parent_person_id": "p_CRTiUFbJJTt5FqJL9A5xNr",
+      "citations": [{ "source_key": "tsinghua-archive:wang-guowei-family", "locator": "国学奇才", "quotation": "有子王潜明、王高明、王贞明。" }]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "db:p_CRTiUFbJJTt5FqJL9A5xNr",
+      "child_key": "named:王贞明@wang-guowei",
+      "parent_name": "王國維",
+      "child_name": "王贞明",
+      "parent_person_id": "p_CRTiUFbJJTt5FqJL9A5xNr",
+      "citations": [{ "source_key": "tsinghua-archive:wang-guowei-family", "locator": "遗书与家属", "quotation": "王贞明是王国维三子。" }]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "db:p_CRTiUFbJJTt5FqJL9A5xNr",
+      "child_key": "named:王纪明@wang-guowei",
+      "parent_name": "王國維",
+      "child_name": "王纪明",
+      "parent_person_id": "p_CRTiUFbJJTt5FqJL9A5xNr",
+      "citations": [{ "source_key": "china-writer:wang-guowei-family", "locator": "家族成员", "quotation": "四子王纪明（1910—1978）。" }]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "db:p_CRTiUFbJJTt5FqJL9A5xNr",
+      "child_key": "named:王松明@wang-guowei",
+      "parent_name": "王國維",
+      "child_name": "王松明",
+      "parent_person_id": "p_CRTiUFbJJTt5FqJL9A5xNr",
+      "citations": [{ "source_key": "china-writer:wang-guowei-family", "locator": "家族成员", "quotation": "次女王松明（1917—1979）。" }]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "db:p_CRTiUFbJJTt5FqJL9A5xNr",
+      "child_key": "named:王登明@wang-guowei",
+      "parent_name": "王國維",
+      "child_name": "王登明",
+      "parent_person_id": "p_CRTiUFbJJTt5FqJL9A5xNr",
+      "citations": [{ "source_key": "china-writer:wang-guowei-family", "locator": "家族成员", "quotation": "六子王登明（1919—1997）。" }]
+    }
+  ]
+}

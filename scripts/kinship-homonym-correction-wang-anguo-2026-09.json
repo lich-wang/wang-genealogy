@@ -1,0 +1,101 @@
+{
+  "generated_from": ["post-import-audit", "ccdi-gaoyou-wang-family"],
+  "hops": 1,
+  "max_new": 1,
+  "capped_relationships": 0,
+  "expanded_keys": [],
+  "identity_merges": [],
+  "name_collisions": [
+    {
+      "name": "王安国",
+      "key": "named:王安国@ccdi-gaoyou",
+      "existing": [
+        {
+          "person_id": "p_3junVkFJoVRzxzPkHGwJp6",
+          "reason": "北宋王安国（1028—1074），不是清代高邮王安国（1694—1757）"
+        }
+      ]
+    }
+  ],
+  "skipped": [],
+  "unmapped_cbdb_relations": [],
+  "sources": [
+    {
+      "key": "ccdi:gaoyou-wang-family",
+      "kind": "government-website",
+      "source_type": "website",
+      "title": "中央纪委监察部网站：江苏高邮王念孙、王引之父子",
+      "publisher": "中央纪委监察部网站",
+      "license_code": "unknown",
+      "canonical_url": "https://m.ccdi.gov.cn/content/7c/1a/11289.html",
+      "external_identifier": null
+    }
+  ],
+  "persons": [
+    {
+      "key": "named:王安国@ccdi-gaoyou",
+      "qid": null,
+      "cbdb": null,
+      "hop": 1,
+      "name": { "text": "王安国", "language": "zh-Hans" },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": { "text": "王安国", "language": "zh-Hans" },
+          "confidence": "high",
+          "source_keys": ["ccdi:gaoyou-wang-family"],
+          "change_summary": "拆分并补录清代高邮王安国，不与北宋同名人物合并"
+        },
+        {
+          "predicate": "birth.date",
+          "value": { "date": { "original_text": "1694年" } },
+          "confidence": "high",
+          "source_keys": ["ccdi:gaoyou-wang-family"],
+          "change_summary": "补录高邮王安国生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": { "date": { "original_text": "1757年" } },
+          "confidence": "high",
+          "source_keys": ["ccdi:gaoyou-wang-family"],
+          "change_summary": "补录高邮王安国卒年"
+        }
+      ],
+      "historicity": { "kind": "death_date", "detail": "中央纪委公开资料载高邮王安国生卒年1694—1757" },
+      "source_keys": ["ccdi:gaoyou-wang-family"]
+    }
+  ],
+  "edges": [
+    {
+      "kind": "parent",
+      "parent_key": "db:p_trg4cuM1tnD5GLsUnLoU3f",
+      "child_key": "named:王安国@ccdi-gaoyou",
+      "parent_name": "王曾禄",
+      "child_name": "王安国（高邮）",
+      "parent_person_id": "p_trg4cuM1tnD5GLsUnLoU3f",
+      "citations": [
+        {
+          "source_key": "ccdi:gaoyou-wang-family",
+          "locator": "王氏家学渊源",
+          "quotation": "王安国任左都御史兼领广东巡抚时，其父王曾禄叮嘱他。"
+        }
+      ]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "named:王安国@ccdi-gaoyou",
+      "child_key": "db:p_ufBkxfH59gVHhCXsfm99um",
+      "parent_name": "王安国（高邮）",
+      "child_name": "王念孙",
+      "child_person_id": "p_ufBkxfH59gVHhCXsfm99um",
+      "citations": [
+        {
+          "source_key": "ccdi:gaoyou-wang-family",
+          "locator": "王氏家学渊源",
+          "quotation": "王念孙父亲王安国（1694-1757）。"
+        }
+      ]
+    }
+  ]
+}

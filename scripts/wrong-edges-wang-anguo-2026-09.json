@@ -1,0 +1,29 @@
+{
+  "note": "入库后全库审计发现：清代高邮王安国与北宋王安国同名，首轮网页扩展把两条高邮王氏关系误挂到北宋人物。按追加修订原则撤回后，以独立人物重新连接。",
+  "summary_prefix": "跨时代同名纠错",
+  "splits": [],
+  "retract": [
+    {
+      "claim_id": "c_HYM6PYJkVqHC5pKtDS5o1g",
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_trg4cuM1tnD5GLsUnLoU3f",
+        "object": "p_3junVkFJoVRzxzPkHGwJp6",
+        "label": "清代王曾禄→北宋王安国"
+      },
+      "reason": "跨时代同名误接；来源所述王安国生于1694年、卒于1757年，是高邮王念孙之父，不是北宋王益之子王安国（1028—1074）。"
+    },
+    {
+      "claim_id": "c_sVZ1cubWhTBm1rT7PdWtER",
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_3junVkFJoVRzxzPkHGwJp6",
+        "object": "p_ufBkxfH59gVHhCXsfm99um",
+        "label": "北宋王安国→清代王念孙"
+      },
+      "reason": "跨时代同名误接；王念孙之父为清代高邮王安国（1694—1757），不是北宋王安国（1028—1074）。"
+    }
+  ],
+  "link": [],
+  "cite": []
+}
