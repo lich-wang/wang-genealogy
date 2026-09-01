@@ -107,7 +107,12 @@ try {
     await page.waitForFunction(() => document.documentElement.lang === 'zh-Hant');
     // The 简体→繁體 phrase dictionary loads as a separate chunk; wait for it.
     await page
-      .waitForFunction(() => /基本(?:資訊|資料)/.test(document.body.innerText), { timeout: 20000 })
+      .waitForFunction(
+        () =>
+          /基本(?:資訊|資料)/.test(document.body.innerText) &&
+          /親屬關係/.test(document.body.innerText),
+        { timeout: 20000 },
+      )
       .catch(() => {});
     const hantText = await page.locator('body').innerText();
     log(/基本(?:資訊|資料)/.test(hantText) && /親屬關係/.test(hantText), '繁體模式下界面用繁體字（基本資料/親屬關係）');
@@ -140,7 +145,7 @@ try {
     await treeLink.click();
     await page.waitForSelector('.tree-box-root', { timeout: 15000 }).catch(() => {});
     const treeText = await page.locator('body').innerText();
-    log(/的家族树/.test(treeText), '家族树页面打开');
+    log(/的家族(?:树|樹)/.test(treeText), '家族树页面打开');
     const boxes = await page.locator('.tree-box').count();
     log(boxes > 1, `家族树以图形方框渲染人物（${boxes} 个）`);
     log((await page.locator('.tree-edge').count()) > 0, '家族树用连线表示关系');
