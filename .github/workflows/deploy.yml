@@ -64,7 +64,7 @@ jobs:
 
       - name: Apply D1 migrations (remote)
         run: |
-          if [ "${{ github.event_name }}" != "push" ] || git diff --quiet HEAD^ HEAD -- migrations; then
+          if [ "${{ github.event_name }}" != "push" ] || [ -z "$(git diff --diff-filter=AM --name-only HEAD^ HEAD -- 'migrations/*.sql')" ]; then
             echo "No migration changes; skipping remote D1 migration check."
           else
             cd apps/api

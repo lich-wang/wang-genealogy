@@ -122,7 +122,7 @@ POST /api/v1/persons/{personId}/claims
 
 ## 三、父母与子女主张
 
-为了便于前端使用，同一个接口接受相对于当前人物的 `father`、`mother`、`parent`、`child`、`spouse`、`ancestor`、`descendant`。服务端统一归一化到单一方向的谓词：`father`/`mother`/`parent`/`child` → `parent_of`，并用 `parent_role` 记录父亲或母亲；`ancestor`/`descendant` → `ancestor_of`，`spouse` → `spouse_of`。
+为了便于前端使用，同一个接口接受相对于当前人物的 `father`、`mother`、`parent`、`child`、`spouse`、`ancestor`、`descendant`。服务端统一保持 PARENT→CHILD 方向：`father` → `father_of`，`mother` → `mother_of`，角色不详的 `parent`/`child` → `parent_of`；`child` 请求若带 `parent_role` 则规范化为对应的 `father_of`／`mother_of`。`ancestor`/`descendant` → `ancestor_of`，`spouse` → `spouse_of`。
 
 ```http
 POST /api/v1/persons/{personId}/relationships
@@ -164,11 +164,11 @@ POST /api/v1/persons/{personId}/relationships
 两种请求最终分别规范化为：
 
 ```text
-P_PARENT parent_of {personId}
-{personId} parent_of P_CHILD
+P_PARENT father_of {personId}
+{personId} mother_of P_CHILD
 ```
 
-第二种请求里的 `parent_role` 表示当前人物在这条亲子关系中是母亲。来源只说明「父母之一」时使用 `relationship: "parent"` 或将 `parent_role` 留空；不能根据姓名猜测。已有关系可通过版本化修订补充或改正 `parent_role`，历史版本不会被覆盖。
+第二种请求里的 `parent_role` 表示当前人物在这条亲子关系中是母亲，服务端因此保存 `mother_of`。来源只说明「父母之一」时使用 `relationship: "parent"` 或将 `parent_role` 留空；不能根据姓名猜测。已有关系可通过版本化修订补充或改正角色，服务端切换三个谓词并保留历史版本。
 
 ### 跨代世系与具体代数
 

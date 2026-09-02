@@ -67,7 +67,7 @@ export interface Claim {
   object_person_id: string | null;
   /** Exact distance for ancestor_of when a source confirms it; 1 uses parent_of. */
   generation_count: number | null;
-  /** Explicit role of the parent endpoint; null when the source does not say. */
+  /** API projection from father_of/mother_of; null for neutral parent_of. */
   parent_role: ParentRole | null;
   /** property claims only. */
   value_json: ClaimValue | null;

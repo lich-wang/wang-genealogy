@@ -30,8 +30,12 @@ export const PREDICATE_LABELS: Record<string, string> = {
   'generation.character': '字輩',
   'bio.summary': '簡單生平',
   'kinship.parent_of': '親子關係',
+  'kinship.father_of': '父子／父女關係',
+  'kinship.mother_of': '母子／母女關係',
   'kinship.spouse_of': '配偶關係',
   'kinship.adoptive_parent_of': '收養關係',
+  'kinship.adoptive_father_of': '養父關係',
+  'kinship.adoptive_mother_of': '養母關係',
   'kinship.step_parent_of': '繼親關係',
   'kinship.ancestor_of': '世系（先祖—後代）',
 };

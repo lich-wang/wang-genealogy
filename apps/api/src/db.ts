@@ -10,6 +10,7 @@ import type {
   Source,
   User,
 } from '@wang/domain';
+import { parentRoleForPredicate } from '@wang/domain';
 import { parseJson } from './util.ts';
 
 // Row shape helpers. D1 returns plain objects; we map to domain types and parse
@@ -47,7 +48,7 @@ export function mapClaim(r: Record<string, unknown>): Claim {
     predicate: r.predicate as string,
     object_person_id: (r.object_person_id as string) ?? null,
     generation_count: r.generation_count == null ? null : Number(r.generation_count),
-    parent_role: (r.parent_role as Claim['parent_role']) ?? null,
+    parent_role: parentRoleForPredicate(r.predicate as string),
     value_json: parseJson<ClaimValue>((r.value_json as string) ?? null),
     status: r.status as Claim['status'],
     confidence: r.confidence as Claim['confidence'],

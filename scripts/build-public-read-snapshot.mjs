@@ -199,7 +199,7 @@ function mapClaim(row) {
     predicate: row.predicate,
     object_person_id: row.object_person_id ?? null,
     generation_count: row.generation_count == null ? null : Number(row.generation_count),
-    parent_role: row.parent_role ?? null,
+    parent_role: parentRoleForPredicate(row.predicate),
     value_json: parseJson(row.value_json),
     status: row.status,
     confidence: row.confidence,
@@ -208,6 +208,12 @@ function mapClaim(row) {
     updated_at: row.updated_at,
     current_revision: Number(row.current_revision),
   };
+}
+
+function parentRoleForPredicate(predicate) {
+  if (predicate === 'kinship.father_of' || predicate === 'kinship.adoptive_father_of') return 'father';
+  if (predicate === 'kinship.mother_of' || predicate === 'kinship.adoptive_mother_of') return 'mother';
+  return null;
 }
 
 function mapSource(row) {
@@ -321,8 +327,8 @@ function buildSummary(person) {
     const subjectIsOwner = ownerIds.has(claim.subject_person_id);
     const counterpart = subjectIsOwner ? claim.object_person_id : claim.subject_person_id;
     const item = claimWithSources(claim, counterpart);
-    if (claim.predicate === 'kinship.parent_of') relationships[subjectIsOwner ? 'children' : 'parents'].push(item);
-    else if (claim.predicate === 'kinship.adoptive_parent_of') relationships[subjectIsOwner ? 'adoptive_children' : 'adoptive_parents'].push(item);
+    if (['kinship.parent_of', 'kinship.father_of', 'kinship.mother_of'].includes(claim.predicate)) relationships[subjectIsOwner ? 'children' : 'parents'].push(item);
+    else if (['kinship.adoptive_parent_of', 'kinship.adoptive_father_of', 'kinship.adoptive_mother_of'].includes(claim.predicate)) relationships[subjectIsOwner ? 'adoptive_children' : 'adoptive_parents'].push(item);
     else if (claim.predicate === 'kinship.ancestor_of') relationships[subjectIsOwner ? 'descendants' : 'ancestors'].push(item);
     else if (claim.predicate === 'kinship.spouse_of') relationships.spouses.push(item);
     else relationships.other.push(item);

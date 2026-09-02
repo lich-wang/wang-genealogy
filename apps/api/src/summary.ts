@@ -197,11 +197,11 @@ export async function computePersonSummary(
         ...withSources(c),
         object_person: counterpartId ? lite(counterpartId) : null,
       };
-      if (c.predicate === 'kinship.parent_of') {
+      if (['kinship.parent_of', 'kinship.father_of', 'kinship.mother_of'].includes(c.predicate)) {
         // subject is the parent, object is the child.
         if (subjectIsOwner) relationships.children.push(cw);
         else relationships.parents.push(cw);
-      } else if (c.predicate === 'kinship.adoptive_parent_of') {
+      } else if (['kinship.adoptive_parent_of', 'kinship.adoptive_father_of', 'kinship.adoptive_mother_of'].includes(c.predicate)) {
         if (subjectIsOwner) relationships.adoptive_children.push(cw);
         else relationships.adoptive_parents.push(cw);
       } else if (c.predicate === 'kinship.ancestor_of') {

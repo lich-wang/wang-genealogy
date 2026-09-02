@@ -1,5 +1,5 @@
-import type { Claim, ClaimKind, ClaimSnapshot, ClaimValue, Confidence, ParentRole } from '@wang/domain';
-import { PROPERTY_PREDICATES, RELATIONSHIP_PREDICATES } from '@wang/domain';
+import type { Claim, ClaimKind, ClaimSnapshot, ClaimValue, Confidence } from '@wang/domain';
+import { parentRoleForPredicate, PROPERTY_PREDICATES, RELATIONSHIP_PREDICATES } from '@wang/domain';
 import type { CreateSourceInput, PropertyValueInput } from '@wang/validation';
 import { normalizeDate } from '@wang/validation';
 import { contributionStatement } from './contributions.ts';
@@ -21,7 +21,6 @@ interface BuildClaimArgs {
   predicate: string;
   objectPersonId?: string | null;
   generationCount?: number | null;
-  parentRole?: ParentRole | null;
   value?: PropertyValueInput | null;
   confidence: Confidence;
   sources: SourceRef[];
@@ -59,7 +58,7 @@ export function buildClaimCreation(args: BuildClaimArgs): {
     claim_kind: args.claimKind,
     object_person_id: args.objectPersonId ?? null,
     generation_count: args.generationCount ?? null,
-    parent_role: args.parentRole ?? null,
+    parent_role: parentRoleForPredicate(args.predicate),
     value_json: value,
     status: 'proposed',
     confidence: args.confidence,
@@ -72,7 +71,7 @@ export function buildClaimCreation(args: BuildClaimArgs): {
     predicate: args.predicate,
     object_person_id: args.objectPersonId ?? null,
     generation_count: args.generationCount ?? null,
-    parent_role: args.parentRole ?? null,
+    parent_role: parentRoleForPredicate(args.predicate),
     value_json: value,
     status: 'proposed',
     confidence: args.confidence,
@@ -86,9 +85,9 @@ export function buildClaimCreation(args: BuildClaimArgs): {
     db
       .prepare(
         `INSERT INTO claim
-           (id, subject_person_id, claim_kind, predicate, object_person_id, generation_count, parent_role, value_json,
+           (id, subject_person_id, claim_kind, predicate, object_person_id, generation_count, value_json,
             status, confidence, created_by_user_id, created_at, updated_at, current_revision)
-         VALUES (?, ?, ?, ?, ?, ?, ?, ?, 'proposed', ?, ?, ?, ?, 1)`,
+         VALUES (?, ?, ?, ?, ?, ?, ?, 'proposed', ?, ?, ?, ?, 1)`,
       )
       .bind(
         claimId,
@@ -97,7 +96,6 @@ export function buildClaimCreation(args: BuildClaimArgs): {
         args.predicate,
         args.objectPersonId ?? null,
         args.generationCount ?? null,
-        args.parentRole ?? null,
         value ? JSON.stringify(value) : null,
         args.confidence,
         args.actorUserId,

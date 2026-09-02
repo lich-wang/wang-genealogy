@@ -27,14 +27,14 @@ export function normalizeRelationship(
   switch (input) {
     case 'father':
       return {
-        predicate: 'kinship.parent_of',
+        predicate: 'kinship.father_of',
         subject_person_id: relatedPersonId,
         object_person_id: currentPersonId,
         parent_role: 'father',
       };
     case 'mother':
       return {
-        predicate: 'kinship.parent_of',
+        predicate: 'kinship.mother_of',
         subject_person_id: relatedPersonId,
         object_person_id: currentPersonId,
         parent_role: 'mother',

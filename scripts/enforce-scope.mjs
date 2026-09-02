@@ -269,7 +269,7 @@ if (toRestore.length) {
 const [after] = d1Query(
   `SELECT (SELECT COUNT(*) FROM person WHERE status = 'active') AS active,
           (SELECT COUNT(*) FROM person WHERE status = 'suppressed') AS suppressed,
-          (SELECT COUNT(*) FROM claim WHERE predicate = 'kinship.parent_of' AND status <> 'retracted') AS parent_edges,
+          (SELECT COUNT(*) FROM claim WHERE predicate IN ('kinship.parent_of','kinship.father_of','kinship.mother_of') AND status <> 'retracted') AS parent_edges,
           (SELECT COUNT(*) FROM claim WHERE predicate = 'kinship.spouse_of' AND status <> 'retracted') AS spouse_edges`,
   { ...d1, label: 'after' },
 );

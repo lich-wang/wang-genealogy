@@ -58,8 +58,12 @@ describe('normalizeRelationship', () => {
     const edge = normalizeRelationship('p_c', 'parent', 'p_p');
     expect(edge.predicate).toBe('kinship.parent_of');
     expect(edge.parent_role).toBeNull();
-    expect(normalizeRelationship('p_c', 'father', 'p_f').parent_role).toBe('father');
-    expect(normalizeRelationship('p_c', 'mother', 'p_m').parent_role).toBe('mother');
+    expect(normalizeRelationship('p_c', 'father', 'p_f')).toEqual(expect.objectContaining({
+      predicate: 'kinship.father_of', parent_role: 'father',
+    }));
+    expect(normalizeRelationship('p_c', 'mother', 'p_m')).toEqual(expect.objectContaining({
+      predicate: 'kinship.mother_of', parent_role: 'mother',
+    }));
   });
 });
 

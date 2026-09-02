@@ -86,7 +86,7 @@ for (const edge of kinship) {
   if (edge.predicate === 'kinship.spouse_of') {
     add(edge.a, `spouse:${edge.b}`);
     add(edge.b, `spouse:${edge.a}`);
-  } else if (edge.predicate === 'kinship.parent_of') {
+  } else if (['kinship.parent_of', 'kinship.father_of', 'kinship.mother_of'].includes(edge.predicate)) {
     add(edge.a, `parent_of:${edge.b}`);
     add(edge.b, `child_of:${edge.a}`);
   } else if (edge.predicate === 'kinship.adoptive_parent_of') {
@@ -224,7 +224,7 @@ findings.parent_dead_before_child_birth = query(
      JOIN claim cb ON cb.subject_person_id = rel.object_person_id
                   AND cb.predicate = 'birth.date'
                   AND cb.status = 'accepted'
-    WHERE rel.predicate = 'kinship.parent_of'
+    WHERE rel.predicate IN ('kinship.parent_of','kinship.father_of','kinship.mother_of')
       AND rel.status = 'accepted'
       AND substr(json_extract(pd.value_json, '$.date.latest'), 1, 1) <> '-'
       AND substr(json_extract(cb.value_json, '$.date.earliest'), 1, 1) <> '-'
@@ -237,7 +237,8 @@ findings.parent_dead_before_child_birth = query(
 findings.mirrored_parent_edges = query(
   `SELECT a.id AS claim_a, b.id AS claim_b, a.subject_person_id, a.object_person_id
      FROM claim a JOIN claim b
-       ON a.predicate = 'kinship.parent_of' AND b.predicate = 'kinship.parent_of'
+       ON a.predicate IN ('kinship.parent_of','kinship.father_of','kinship.mother_of')
+      AND b.predicate IN ('kinship.parent_of','kinship.father_of','kinship.mother_of')
       AND a.subject_person_id = b.object_person_id
       AND a.object_person_id = b.subject_person_id
     WHERE a.id < b.id
@@ -279,7 +280,7 @@ const descent = query(
      FROM claim c
      JOIN person pa ON pa.id = c.subject_person_id
      JOIN person pb ON pb.id = c.object_person_id
-    WHERE c.predicate = 'kinship.parent_of'
+    WHERE c.predicate IN ('kinship.parent_of','kinship.father_of','kinship.mother_of')
       -- Disputed edges have already been reviewed and intentionally coexist;
       -- structural checks should report unresolved accepted graph defects.
       AND c.status = 'accepted'
@@ -416,7 +417,7 @@ findings.spouse_only_with_property_claims = query(
      FROM person p
     WHERE EXISTS (SELECT 1 FROM claim s WHERE s.predicate = 'kinship.spouse_of'
                     AND (s.subject_person_id = p.id OR s.object_person_id = p.id))
-      AND NOT EXISTS (SELECT 1 FROM claim k WHERE k.predicate = 'kinship.parent_of'
+      AND NOT EXISTS (SELECT 1 FROM claim k WHERE k.predicate IN ('kinship.parent_of','kinship.father_of','kinship.mother_of')
                         AND (k.subject_person_id = p.id OR k.object_person_id = p.id))
       AND EXISTS (SELECT 1 FROM claim c3 WHERE c3.subject_person_id = p.id
                     AND c3.claim_kind = 'property'
@@ -439,7 +440,7 @@ for (const edge of kinship) {
     spousePairs.push([edge.a, edge.b]);
     continue;
   }
-  if (edge.predicate !== 'kinship.parent_of') continue;
+  if (!['kinship.parent_of', 'kinship.father_of', 'kinship.mother_of'].includes(edge.predicate)) continue;
   if (!childrenOfPerson.has(edge.a)) childrenOfPerson.set(edge.a, new Set());
   childrenOfPerson.get(edge.a).add(edge.b);
   if (!parentsOfPerson.has(edge.b)) parentsOfPerson.set(edge.b, new Set());
@@ -496,7 +497,7 @@ const [totals] = query(
   `SELECT (SELECT COUNT(*) FROM person WHERE status = 'active') AS active_persons,
           (SELECT COUNT(*) FROM person WHERE status = 'candidate') AS draft_persons,
           (SELECT COUNT(*) FROM claim) AS claims,
-          (SELECT COUNT(*) FROM claim WHERE predicate = 'kinship.parent_of') AS parent_edges,
+          (SELECT COUNT(*) FROM claim WHERE predicate IN ('kinship.parent_of','kinship.father_of','kinship.mother_of')) AS parent_edges,
           (SELECT COUNT(*) FROM claim WHERE predicate = 'kinship.spouse_of') AS spouse_edges,
           (SELECT COUNT(*) FROM source) AS sources,
           (SELECT COUNT(*) FROM claim_source) AS citations`,

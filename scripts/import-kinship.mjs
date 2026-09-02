@@ -454,7 +454,11 @@ for (const edge of plan.edges) {
 const inLoop = findLoops([
   ...d1Query(
     `SELECT subject_person_id AS a, object_person_id AS b FROM claim
-      WHERE predicate IN ('kinship.parent_of','kinship.adoptive_parent_of','kinship.ancestor_of')
+      WHERE predicate IN (
+        'kinship.parent_of','kinship.father_of','kinship.mother_of',
+        'kinship.adoptive_parent_of','kinship.adoptive_father_of','kinship.adoptive_mother_of',
+        'kinship.ancestor_of'
+      )
         AND status NOT IN ('retracted','superseded')`,
     { ...d1, label: 'descent edges' },
   ).map((row) => [row.a, row.b]),

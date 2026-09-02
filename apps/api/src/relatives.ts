@@ -3,10 +3,12 @@ import type {
   KinshipEvidence,
   ParentEdge,
   ParentRole,
+  RelationshipPredicate,
   RelativeNode,
   RelativesGraph,
   SpouseEdge,
 } from '@wang/domain';
+import { parentRoleForPredicate } from '@wang/domain';
 import { nameOf } from './summary.ts';
 
 /**
@@ -39,6 +41,7 @@ interface RawEdge {
   parent_id: string;
   child_id: string;
   generation_count?: number | null;
+  predicate?: RelationshipPredicate;
   parent_role?: ParentRole | null;
 }
 
@@ -52,11 +55,18 @@ interface RawSpouse {
 interface RawRelationship {
   claim_id: string;
   status: string;
-  predicate: 'kinship.parent_of' | 'kinship.ancestor_of' | 'kinship.spouse_of';
+  predicate: RelationshipPredicate;
   subject_id: string;
   object_id: string;
   generation_count: number | null;
-  parent_role: ParentRole | null;
+}
+
+const BIOLOGICAL_PARENT_PREDICATES = [
+  'kinship.parent_of', 'kinship.father_of', 'kinship.mother_of',
+] as const;
+
+function isBiologicalParentPredicate(predicate: string): boolean {
+  return (BIOLOGICAL_PARENT_PREDICATES as readonly string[]).includes(predicate);
 }
 
 function chunks<T>(values: T[], size = QUERY_CHUNK): T[][] {
@@ -77,18 +87,21 @@ async function step(
   // parent. One stored direction, read from both ends.
   const anchor = direction === 'up' ? 'c.object_person_id' : 'c.subject_person_id';
   const other = direction === 'up' ? 'c.subject_person_id' : 'c.object_person_id';
+  const biological = predicate === 'kinship.parent_of';
   const res = await db
     .prepare(
-      `SELECT c.id AS claim_id, c.status, c.generation_count, c.parent_role,
+      `SELECT c.id AS claim_id, c.status, c.predicate, c.generation_count,
               c.subject_person_id AS parent_id, c.object_person_id AS child_id
          FROM claim c
          JOIN person p ON p.id = ${other}
-        WHERE c.predicate = ?
+        WHERE c.predicate ${biological
+          ? "IN ('kinship.parent_of','kinship.father_of','kinship.mother_of')"
+          : '= ?'}
           AND c.status NOT IN ('retracted','superseded')
           AND ${anchor} IN (${placeholders})
           AND p.status IN ${VISIBLE}`,
     )
-    .bind(predicate, ...ids)
+    .bind(...(biological ? ids : [predicate, ...ids]))
     .all<RawEdge>();
   return res.results ?? [];
 }
@@ -210,7 +223,7 @@ async function materializeRelatives(
     child_id: edge.child_id,
     claim_id: edge.claim_id,
     status: edge.status as ParentEdge['status'],
-    parent_role: edge.parent_role ?? statedParentRole(citations.get(edge.claim_id) ?? []),
+    parent_role: edge.parent_role ?? parentRoleForPredicate(edge.predicate ?? '') ?? statedParentRole(citations.get(edge.claim_id) ?? []),
     citations: citations.get(edge.claim_id) ?? [],
   }));
   const spouse_edges: SpouseEdge[] = options.spouseEdges.map((edge) => ({
@@ -380,13 +393,13 @@ export async function loadAllRelatives(
   const limit = Math.min(Math.max(options.limit ?? MAX_GLOBAL_NODES, 1), MAX_GLOBAL_NODES);
   const result = await db
     .prepare(
-      `SELECT c.id AS claim_id, c.status, c.predicate, c.generation_count, c.parent_role,
+      `SELECT c.id AS claim_id, c.status, c.predicate, c.generation_count,
               c.subject_person_id AS subject_id, c.object_person_id AS object_id
          FROM claim c
          JOIN person ps ON ps.id = c.subject_person_id
          JOIN person po ON po.id = c.object_person_id
         WHERE c.claim_kind = 'relationship'
-          AND c.predicate IN ('kinship.parent_of','kinship.ancestor_of','kinship.spouse_of')
+          AND c.predicate IN ('kinship.parent_of','kinship.father_of','kinship.mother_of','kinship.ancestor_of','kinship.spouse_of')
           AND c.status NOT IN ('retracted','superseded')
           AND ps.status IN ${VISIBLE}
           AND po.status IN ${VISIBLE}
@@ -426,14 +439,14 @@ export async function loadAllRelatives(
     scope: 'all',
     collected,
     parentEdges: kept
-      .filter((edge) => edge.predicate === 'kinship.parent_of')
+      .filter((edge) => isBiologicalParentPredicate(edge.predicate))
       .map((edge) => ({
         claim_id: edge.claim_id,
         status: edge.status,
         parent_id: edge.subject_id,
         child_id: edge.object_id,
         generation_count: null,
-        parent_role: edge.parent_role ?? null,
+        predicate: edge.predicate,
       })),
     descentEdges: kept
       .filter((edge) => edge.predicate === 'kinship.ancestor_of')
@@ -443,7 +456,7 @@ export async function loadAllRelatives(
         parent_id: edge.subject_id,
         child_id: edge.object_id,
         generation_count: edge.generation_count,
-        parent_role: null,
+        predicate: edge.predicate,
       })),
     spouseEdges: kept
       .filter((edge) => edge.predicate === 'kinship.spouse_of')

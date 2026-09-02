@@ -44,7 +44,7 @@ function fakeDb() {
         },
         all() {
           const ids = new Set(stmt.binds.filter((b): b is string => typeof b === 'string'));
-          if (sql.includes("c.predicate IN ('kinship.parent_of'")) {
+          if (sql.includes("c.claim_kind = 'relationship'") && sql.includes("c.predicate IN ('kinship.parent_of'")) {
             return Promise.resolve({
               results: [
                 ...PARENT_EDGES.map((edge) => ({
@@ -69,6 +69,12 @@ function fakeDb() {
                   generation_count: null,
                 })),
               ],
+            });
+          }
+          if (sql.includes("c.predicate IN ('kinship.parent_of'") && sql.includes(' AS parent_id')) {
+            const goingUp = sql.includes('c.object_person_id IN');
+            return Promise.resolve({
+              results: PARENT_EDGES.filter((e) => ids.has(goingUp ? e.child_id : e.parent_id)),
             });
           }
           // The predicate travels as a bound parameter, not as a literal.

@@ -82,7 +82,7 @@ function RelationshipTarget({ item }: { item: ClaimWithSources }) {
           {relationshipGenerationCount(item) ? t(`相隔 ${relationshipGenerationCount(item)} 代`) : t('代數不詳')}
         </small>
       ) : null}
-      {item.claim.predicate === 'kinship.parent_of' && item.claim.parent_role ? (
+      {item.claim.parent_role ? (
         <small className="generation-badge">{t(item.claim.parent_role === 'father' ? '父亲' : '母亲')}</small>
       ) : null}
     </span>

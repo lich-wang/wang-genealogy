@@ -44,8 +44,12 @@ export type PropertyPredicate = (typeof PROPERTY_PREDICATES)[number];
 // Relationship predicates (claim_kind = 'relationship'). Stored one direction only.
 export const RELATIONSHIP_PREDICATES = [
   'kinship.parent_of',
+  'kinship.father_of',
+  'kinship.mother_of',
   'kinship.spouse_of',
   'kinship.adoptive_parent_of',
+  'kinship.adoptive_father_of',
+  'kinship.adoptive_mother_of',
   'kinship.step_parent_of',
   // Descent across an unknown number of generations. Chinese genealogies state
   // origins exactly this way — 「太子晉後代」, 「王元四世孫」 — and squeezing that
@@ -59,6 +63,31 @@ export type RelationshipPredicate = (typeof RELATIONSHIP_PREDICATES)[number];
 // Null remains valid because some genealogical sources only say "parent".
 export const PARENT_ROLE = ['father', 'mother'] as const;
 export type ParentRole = (typeof PARENT_ROLE)[number];
+
+export function parentRoleForPredicate(predicate: string): ParentRole | null {
+  if (predicate === 'kinship.father_of' || predicate === 'kinship.adoptive_father_of') return 'father';
+  if (predicate === 'kinship.mother_of' || predicate === 'kinship.adoptive_mother_of') return 'mother';
+  return null;
+}
+
+export function parentPredicateForRole(
+  predicate: RelationshipPredicate,
+  role: ParentRole | null,
+): RelationshipPredicate {
+  if (predicate === 'kinship.parent_of' || predicate === 'kinship.father_of' || predicate === 'kinship.mother_of') {
+    return role === 'father' ? 'kinship.father_of' : role === 'mother' ? 'kinship.mother_of' : 'kinship.parent_of';
+  }
+  if (
+    predicate === 'kinship.adoptive_parent_of' ||
+    predicate === 'kinship.adoptive_father_of' ||
+    predicate === 'kinship.adoptive_mother_of'
+  ) {
+    return role === 'father'
+      ? 'kinship.adoptive_father_of'
+      : role === 'mother' ? 'kinship.adoptive_mother_of' : 'kinship.adoptive_parent_of';
+  }
+  return predicate;
+}
 
 // Natural-language relationship direction accepted by the API before it is
 // normalized server-side to a *_of predicate anchored on a PARENT.

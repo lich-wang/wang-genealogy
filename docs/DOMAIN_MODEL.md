@@ -55,7 +55,6 @@ Person ──< Claim ──< ClaimRevision
 - `predicate`
 - `object_person_id`：关系主张使用；
 - `generation_count`：跨代世系在来源明确时记录相隔代数；
-- `parent_role`：父母关系在来源明确时记录 `father` 或 `mother`，不明确为 `null`；
 - `value_json`：属性主张使用；
 - `status`：`proposed`、`accepted`、`disputed`、`retracted`、`superseded`；
 - `confidence`：`unknown`、`low`、`medium`、`high`；
@@ -79,6 +78,8 @@ Person ──< Claim ──< ClaimRevision
 关系谓词示例：
 
 - `kinship.parent_of`
+- `kinship.father_of`
+- `kinship.mother_of`
 - `kinship.spouse_of`
 - `kinship.adoptive_parent_of`
 - `kinship.step_parent_of`
@@ -92,7 +93,7 @@ PARENT --kinship.parent_of--> CHILD
 
 人物接口可让用户用“这是他的父母”或“这是他的子女”两种自然语言提交，服务端最终归一化为同一种方向。
 
-`parent_of` 保持中性的图方向，同时用 `parent_role` 区分父亲与母亲：来源明确写「父／生父」时为 `father`，写「母／生母」时为 `mother`。若资料只能说明“父母之一”，则为 `null`；不得根据姓名、称号或传统惯例猜测。原始称谓仍写进引用的 `locator`，便于复核。旧主张尚未补结构化角色时，读取层只对 P22/P25、「父亲／母亲」等明确定位文字作保守兼容，冲突或不明确时仍显示「父母未详」。
+亲子边保持同一个 PARENT→CHILD 方向，但按来源明确程度使用三个谓词：明确写「父／生父」时用 `father_of`，明确写「母／生母」时用 `mother_of`，只能说明“父母之一”时用 `parent_of`。不得根据姓名、称号或传统惯例猜测。原始称谓仍写进引用的 `locator`，便于复核。旧 `parent_of` 主张的读取层只对 P22/P25、「父亲／母亲」等明确定位文字作保守兼容，冲突或不明确时仍显示「父母未详」。API 为三个谓词统一投影 `parent_role: father | mother | null`，方便界面和家族树消费。
 
 `kinship.spouse_of` 是对称关系，同样只保存一条：服务端把两个人物 ID 中较小者作为 `subject`，因此从任一方提交都会归一化到同一行。
 

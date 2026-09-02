@@ -9,6 +9,7 @@ import {
   KinshipError,
 } from '@wang/validation';
 import type { PersonExport, Person } from '@wang/domain';
+import { parentPredicateForRole } from '@wang/domain';
 import { requireAuth } from '../auth.ts';
 import { badRequest, conflict, forbidden, notFound } from '../errors.ts';
 import { mapClaim, mapMergeProposal, mapPerson, mapSource } from '../db.ts';
@@ -215,6 +216,11 @@ app.post('/:id/relationships', async (c) => {
   let edge;
   try {
     edge = normalizeRelationship(person.id, body.relationship, body.related_person_id);
+    edge = {
+      ...edge,
+      predicate: parentPredicateForRole(edge.predicate, edge.parent_role ?? body.parent_role ?? null),
+      parent_role: edge.parent_role ?? body.parent_role ?? null,
+    };
   } catch (e) {
     if (e instanceof KinshipError) throw badRequest(e.code, e.message);
     throw e;
@@ -225,7 +231,11 @@ app.post('/:id/relationships', async (c) => {
   // "A is an ancestor of B" and "B is an ancestor of A" cannot both hold.
   if (
     edge.predicate === 'kinship.parent_of' ||
+    edge.predicate === 'kinship.father_of' ||
+    edge.predicate === 'kinship.mother_of' ||
     edge.predicate === 'kinship.adoptive_parent_of' ||
+    edge.predicate === 'kinship.adoptive_father_of' ||
+    edge.predicate === 'kinship.adoptive_mother_of' ||
     edge.predicate === 'kinship.ancestor_of'
   ) {
     if (
@@ -235,6 +245,24 @@ app.post('/:id/relationships', async (c) => {
       throw conflict('kinship_cycle', '該世系關係會形成親屬環。');
   }
 
+  const equivalentParentPredicates = edge.predicate.startsWith('kinship.adoptive_')
+    ? ['kinship.adoptive_parent_of', 'kinship.adoptive_father_of', 'kinship.adoptive_mother_of']
+    : edge.predicate === 'kinship.parent_of' || edge.predicate === 'kinship.father_of' || edge.predicate === 'kinship.mother_of'
+      ? ['kinship.parent_of', 'kinship.father_of', 'kinship.mother_of']
+      : null;
+  if (equivalentParentPredicates) {
+    const existing = await c.env.DB.prepare(
+      `SELECT id FROM claim
+        WHERE subject_person_id = ? AND object_person_id = ?
+          AND predicate IN (${equivalentParentPredicates.map(() => '?').join(',')})
+          AND status NOT IN ('retracted','superseded')
+        LIMIT 1`,
+    ).bind(edge.subject_person_id, edge.object_person_id, ...equivalentParentPredicates).first<{ id: string }>();
+    if (existing) throw conflict('relationship_exists', '該親子關係已存在，請修改原有關係的父母角色。', {
+      claim_id: existing.id,
+    });
+  }
+
   const { claim, statements } = buildClaimCreation({
     db: c.env.DB,
     subjectPersonId: edge.subject_person_id,
@@ -242,7 +270,6 @@ app.post('/:id/relationships', async (c) => {
     predicate: edge.predicate,
     objectPersonId: edge.object_person_id,
     generationCount: body.generation_count ?? null,
-    parentRole: edge.parent_role ?? body.parent_role ?? null,
     confidence: body.confidence,
     sources: body.sources,
     actorUserId: auth.userId,
@@ -366,7 +393,11 @@ async function createsCycle(db: D1Database, parentId: string, childId: string): 
     const res = await db
       .prepare(
         `SELECT DISTINCT subject_person_id AS pid FROM claim
-          WHERE predicate IN ('kinship.parent_of', 'kinship.adoptive_parent_of', 'kinship.ancestor_of')
+          WHERE predicate IN (
+            'kinship.parent_of', 'kinship.father_of', 'kinship.mother_of',
+            'kinship.adoptive_parent_of', 'kinship.adoptive_father_of', 'kinship.adoptive_mother_of',
+            'kinship.ancestor_of'
+          )
             AND status NOT IN ('retracted','superseded')
             AND object_person_id IN (${ph})`,
       )

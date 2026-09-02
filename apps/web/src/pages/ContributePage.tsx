@@ -770,7 +770,10 @@ function ExistingRelationships({
                   {item.claim.predicate === 'kinship.ancestor_of' ? (
                     <button type="button" onClick={() => beginGenerationEdit(item)}>{t(relationshipGenerationCount(item) ? '修改代數' : '補充代數')}</button>
                   ) : null}
-                  {item.claim.predicate === 'kinship.parent_of' || item.claim.predicate === 'kinship.adoptive_parent_of' ? (
+                  {[
+                    'kinship.parent_of', 'kinship.father_of', 'kinship.mother_of',
+                    'kinship.adoptive_parent_of', 'kinship.adoptive_father_of', 'kinship.adoptive_mother_of',
+                  ].includes(item.claim.predicate) ? (
                     <button type="button" onClick={() => beginParentRoleEdit(item)}>{t(relationshipParentRole(item) ? '修改父母角色' : '标记父亲或母亲')}</button>
                   ) : null}
                   {editingClaimId === item.claim.id ? (

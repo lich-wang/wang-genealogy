@@ -1,6 +1,7 @@
 import { Hono } from 'hono';
 import type { Env, Variables } from '../env.ts';
-import type { Claim, ClaimSnapshot } from '@wang/domain';
+import type { Claim, ClaimSnapshot, RelationshipPredicate } from '@wang/domain';
+import { parentPredicateForRole } from '@wang/domain';
 import { disputeSchema, normalizeDate, retractSchema, reviseClaimSchema, revertSchema, sourceRefSchema } from '@wang/validation';
 import { requireAuth } from '../auth.ts';
 import { badRequest, conflict, notFound } from '../errors.ts';
@@ -75,7 +76,11 @@ app.post('/:id/revisions', async (c) => {
     throw badRequest('bad_generation_count', '只有先祖／後代世系可以修改相隔代數。');
   if (
     body.patch.parent_role !== undefined &&
-    !['kinship.parent_of', 'kinship.adoptive_parent_of', 'kinship.step_parent_of'].includes(claim.predicate)
+    ![
+      'kinship.parent_of', 'kinship.father_of', 'kinship.mother_of',
+      'kinship.adoptive_parent_of', 'kinship.adoptive_father_of', 'kinship.adoptive_mother_of',
+      'kinship.step_parent_of',
+    ].includes(claim.predicate)
   ) throw badRequest('bad_parent_role', '只有父母關係可以設定父親或母親角色。');
 
   if (body.expected_revision !== claim.current_revision)
@@ -97,12 +102,17 @@ app.post('/:id/revisions', async (c) => {
 
   const next: Claim = {
     ...claim,
+    predicate: body.patch.parent_role === undefined
+      ? claim.predicate
+      : parentPredicateForRole(claim.predicate as RelationshipPredicate, body.patch.parent_role),
     confidence: body.patch.confidence ?? claim.confidence,
     value_json: patchedValue,
     generation_count: body.patch.generation_count === undefined
       ? claim.generation_count
       : body.patch.generation_count,
-    parent_role: body.patch.parent_role === undefined ? claim.parent_role : body.patch.parent_role,
+    parent_role: body.patch.parent_role === undefined
+      ? claim.parent_role
+      : body.patch.parent_role,
     status: body.patch.status ?? claim.status,
   };
 
@@ -115,13 +125,13 @@ app.post('/:id/revisions', async (c) => {
   await c.env.DB.batch([
     c.env.DB
       .prepare(
-        'UPDATE claim SET confidence = ?, value_json = ?, generation_count = ?, parent_role = ?, status = ?, updated_at = ?, current_revision = ? WHERE id = ? AND current_revision = ?',
+        'UPDATE claim SET predicate = ?, confidence = ?, value_json = ?, generation_count = ?, status = ?, updated_at = ?, current_revision = ? WHERE id = ? AND current_revision = ?',
       )
       .bind(
+        next.predicate,
         next.confidence,
         next.value_json ? JSON.stringify(next.value_json) : null,
         next.generation_count,
-        next.parent_role,
         next.status,
         now,
         newRevision,
@@ -185,15 +195,15 @@ app.post('/:id/reverts', async (c) => {
   await c.env.DB.batch([
     c.env.DB
       .prepare(
-        'UPDATE claim SET confidence = ?, value_json = ?, status = ?, object_person_id = ?, generation_count = ?, parent_role = ?, updated_at = ?, current_revision = ? WHERE id = ? AND current_revision = ?',
+        'UPDATE claim SET predicate = ?, confidence = ?, value_json = ?, status = ?, object_person_id = ?, generation_count = ?, updated_at = ?, current_revision = ? WHERE id = ? AND current_revision = ?',
       )
       .bind(
+        snap.predicate,
         snap.confidence,
         snap.value_json ? JSON.stringify(snap.value_json) : null,
         snap.status,
         snap.object_person_id,
         snap.generation_count ?? null,
-        snap.parent_role ?? null,
         now,
         newRevision,
         claim.id,

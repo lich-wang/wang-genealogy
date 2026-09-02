@@ -129,11 +129,11 @@ const rows = d1Query(
               AND s.external_identifier IS NOT NULL) AS identifiers,
           EXISTS(SELECT 1 FROM claim k
                   WHERE k.object_person_id = p.id
-                    AND k.predicate = 'kinship.parent_of'
+                    AND k.predicate IN ('kinship.parent_of','kinship.father_of','kinship.mother_of')
                     AND k.status NOT IN ('retracted', 'superseded')) AS has_parent,
           EXISTS(SELECT 1 FROM claim k
                   WHERE k.subject_person_id = p.id
-                    AND k.predicate = 'kinship.parent_of'
+                    AND k.predicate IN ('kinship.parent_of','kinship.father_of','kinship.mother_of')
                     AND k.status NOT IN ('retracted', 'superseded')) AS has_child,
           (SELECT group_concat(json_extract(a.value_json, '$.text'), '') FROM claim a
              WHERE a.subject_person_id = p.id

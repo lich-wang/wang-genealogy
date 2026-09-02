@@ -52,13 +52,13 @@ const nodes = query(`
 `);
 
 const relationships = query(`
-  SELECT c.id AS claim_id, c.status, c.predicate, c.generation_count, c.parent_role,
+  SELECT c.id AS claim_id, c.status, c.predicate, c.generation_count,
          c.subject_person_id AS subject_id, c.object_person_id AS object_id
     FROM claim c
     JOIN person ps ON ps.id = c.subject_person_id
     JOIN person po ON po.id = c.object_person_id
    WHERE c.claim_kind = 'relationship'
-     AND c.predicate IN ('kinship.parent_of','kinship.ancestor_of','kinship.spouse_of')
+     AND c.predicate IN ('kinship.parent_of','kinship.father_of','kinship.mother_of','kinship.ancestor_of','kinship.spouse_of')
      AND c.status NOT IN ('retracted','superseded')
      AND ps.status IN ('active','merged')
      AND po.status IN ('active','merged')
@@ -72,7 +72,7 @@ const evidenceRows = query(`
     JOIN claim c ON c.id = cs.claim_id
    WHERE cs.stance = 'supports'
      AND c.claim_kind = 'relationship'
-     AND c.predicate IN ('kinship.parent_of','kinship.ancestor_of','kinship.spouse_of')
+     AND c.predicate IN ('kinship.parent_of','kinship.father_of','kinship.mother_of','kinship.ancestor_of','kinship.spouse_of')
      AND c.status NOT IN ('retracted','superseded')
    ORDER BY cs.created_at
 `);
@@ -117,12 +117,12 @@ while (unvisited.size > 0) {
     up: 0,
     down: 0,
     nodes: [...ids].map((id) => byId.get(id)),
-    parent_edges: edges.filter((edge) => edge.predicate === 'kinship.parent_of').map((edge) => ({
+    parent_edges: edges.filter((edge) => ['kinship.parent_of', 'kinship.father_of', 'kinship.mother_of'].includes(edge.predicate)).map((edge) => ({
       parent_id: edge.subject_id,
       child_id: edge.object_id,
       claim_id: edge.claim_id,
       status: edge.status,
-      parent_role: edge.parent_role ?? parentRoleFrom(citations.get(edge.claim_id) ?? []),
+      parent_role: parentRoleForPredicate(edge.predicate) ?? parentRoleFrom(citations.get(edge.claim_id) ?? []),
       citations: citations.get(edge.claim_id) ?? [],
     })),
     spouse_edges: edges.filter((edge) => edge.predicate === 'kinship.spouse_of').map((edge) => ({
@@ -174,4 +174,10 @@ function parentRoleFrom(items) {
     mother ||= /P25|母親|母亲|生母|養母|养母|嫡母|親母|亲母|[（(]母[）)]/.test(locator);
   }
   return father === mother ? null : father ? 'father' : 'mother';
+}
+
+function parentRoleForPredicate(predicate) {
+  if (predicate === 'kinship.father_of') return 'father';
+  if (predicate === 'kinship.mother_of') return 'mother';
+  return null;
 }
