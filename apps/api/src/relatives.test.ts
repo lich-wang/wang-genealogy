@@ -142,8 +142,10 @@ describe('loadRelatives', () => {
       { source_title: '维基数据：某人', locator: 'P22（父）' },
       { source_title: 'CBDB：某人', locator: '亲属关系：父' },
     ]);
+    expect(fromDad?.parent_role).toBe('father');
     // An edge nobody cited still renders; it just has nothing to show.
     expect(graph.parent_edges.find((e) => e.parent_id === 'p_mum')?.citations).toEqual([]);
+    expect(graph.parent_edges.find((e) => e.parent_id === 'p_mum')?.parent_role).toBeNull();
   });
 
   it('keeps spouse edges only when both people are in the slice', async () => {

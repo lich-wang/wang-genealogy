@@ -7,6 +7,7 @@ import type {
   DatePrecision,
   LicenseCode,
   MergeStatus,
+  ParentRole,
   PersonStatus,
   SourceType,
   UserRole,
@@ -66,6 +67,8 @@ export interface Claim {
   object_person_id: string | null;
   /** Exact distance for ancestor_of when a source confirms it; 1 uses parent_of. */
   generation_count: number | null;
+  /** Explicit role of the parent endpoint; null when the source does not say. */
+  parent_role: ParentRole | null;
   /** property claims only. */
   value_json: ClaimValue | null;
   status: ClaimStatus;
@@ -94,6 +97,7 @@ export interface ClaimSnapshot {
   claim_kind: ClaimKind;
   object_person_id: string | null;
   generation_count: number | null;
+  parent_role: ParentRole | null;
   value_json: ClaimValue | null;
   status: ClaimStatus;
   confidence: Confidence;

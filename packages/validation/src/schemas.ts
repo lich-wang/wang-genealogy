@@ -2,6 +2,7 @@ import {
   CLAIM_SOURCE_STANCE,
   CONFIDENCE,
   LICENSE_CODE,
+  PARENT_ROLE,
   PROPERTY_PREDICATES,
   RELATIONSHIP_INPUT,
   SOURCE_TYPE,
@@ -69,6 +70,8 @@ export const createPropertyClaimSchema = z.object({
 export const createRelationshipSchema = z.object({
   relationship: z.enum(RELATIONSHIP_INPUT),
   related_person_id: nonEmpty,
+  /** Role of the stored parent endpoint, useful when submitting from the child direction. */
+  parent_role: z.enum(PARENT_ROLE).nullable().optional(),
   /** Exact distance for ancestor/descendant; one generation is parent/child. */
   generation_count: z.number().int().min(2).max(100).optional(),
   confidence: z.enum(CONFIDENCE).default('unknown'),
@@ -85,6 +88,22 @@ export const createRelationshipSchema = z.object({
       path: ['generation_count'],
       message: '只有先祖或後代關係可以記錄相隔代數。',
     });
+  }
+  if (
+    input.parent_role !== undefined &&
+    !['father', 'mother', 'parent', 'child', 'adoptive_parent', 'adoptive_child'].includes(input.relationship)
+  ) {
+    ctx.addIssue({
+      code: z.ZodIssueCode.custom,
+      path: ['parent_role'],
+      message: '只有父母或子女關係可以記錄父親／母親角色。',
+    });
+  }
+  if (input.relationship === 'father' && input.parent_role === 'mother') {
+    ctx.addIssue({ code: z.ZodIssueCode.custom, path: ['parent_role'], message: '父親關係的角色不能是母親。' });
+  }
+  if (input.relationship === 'mother' && input.parent_role === 'father') {
+    ctx.addIssue({ code: z.ZodIssueCode.custom, path: ['parent_role'], message: '母親關係的角色不能是父親。' });
   }
 });
 
@@ -105,6 +124,7 @@ export const reviseClaimSchema = z.object({
       confidence: z.enum(CONFIDENCE).optional(),
       value: propertyValueSchema.optional(),
       generation_count: z.number().int().min(2).max(100).nullable().optional(),
+      parent_role: z.enum(PARENT_ROLE).nullable().optional(),
       status: z.enum(['accepted', 'disputed', 'superseded']).optional(),
     })
     .refine((p) => Object.keys(p).length > 0, { message: 'patch 不能为空' }),

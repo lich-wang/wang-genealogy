@@ -222,6 +222,8 @@ for (const edge of links) {
     const created = await api('POST', `/persons/${fromId}/relationships`, {
       relationship: edge.relationship,
       related_person_id: toId,
+      ...(edge.parent_role ? { parent_role: edge.parent_role } : {}),
+      ...(edge.generation_count ? { generation_count: edge.generation_count } : {}),
       confidence: 'medium',
       // A relationship claim is unique per pair, so all of the old claim's
       // citations have to travel together in one create — re-hanging them one at

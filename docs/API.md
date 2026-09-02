@@ -27,7 +27,7 @@ GET /api/v1/persons/{personId}/claims
 GET /api/v1/persons/{personId}/claims?status=disputed
 ```
 
-创建亲属关系时，`relationship` 接受 `parent`、`child`、`adoptive_parent`、
+创建亲属关系时，`relationship` 接受 `father`、`mother`、`parent`、`child`、`adoptive_parent`、
 `adoptive_child`、`spouse`、`ancestor` 和 `descendant`。收养关系存为
 `kinship.adoptive_parent_of`，不与生物学 `kinship.parent_of` 混用。
 
@@ -38,7 +38,7 @@ GET /api/v1/persons/{personId}/relatives?up=2&down=2
 GET /api/v1/persons/{personId}/relatives?scope=all
 ```
 
-返回以该人物为中心、向上向下各若干代的**轻量**切片：`nodes`（id、姓名、生卒原文、状态）、`parent_edges`（按存储方向 PARENT→CHILD）、`spouse_edges`。每条边带 `claim_id`、`status` 和 `citations`（`source_title` + `locator`）——连线本身就是一条主张，读者要能就地看到它的依据。不含人物的其他主张。
+返回以该人物为中心、向上向下各若干代的**轻量**切片：`nodes`（id、姓名、生卒原文、状态）、`parent_edges`（按存储方向 PARENT→CHILD，并带 `parent_role: father | mother | null`）、`spouse_edges`。每条边带 `claim_id`、`status` 和 `citations`（`source_title` + `locator`）——连线本身就是一条主张，读者要能就地看到它的依据。不含人物的其他主张。
 
 - `up`／`down` 为 0–4 的整数，默认各 2；超出范围返回 `400 invalid_generations`；
 - 单次最多返回 240 个节点，触顶时 `truncated: true`，客户端应提示「从某个具体人物继续展开」而不是静默截断；
@@ -122,17 +122,17 @@ POST /api/v1/persons/{personId}/claims
 
 ## 三、父母与子女主张
 
-为了便于前端使用，同一个接口接受相对于当前人物的 `parent`、`child`、`spouse`、`ancestor`、`descendant`，服务端统一归一化到单一方向的谓词：`parent`/`child` → `parent_of`，`ancestor`/`descendant` → `ancestor_of`，`spouse` → `spouse_of`。
+为了便于前端使用，同一个接口接受相对于当前人物的 `father`、`mother`、`parent`、`child`、`spouse`、`ancestor`、`descendant`。服务端统一归一化到单一方向的谓词：`father`/`mother`/`parent`/`child` → `parent_of`，并用 `parent_role` 记录父亲或母亲；`ancestor`/`descendant` → `ancestor_of`，`spouse` → `spouse_of`。
 
 ```http
 POST /api/v1/persons/{personId}/relationships
 ```
 
-声称某人是当前人物的父母：
+声称某人是当前人物的父亲：
 
 ```json
 {
-  "relationship": "parent",
+  "relationship": "father",
   "related_person_id": "P_PARENT",
   "confidence": "medium",
   "sources": [
@@ -156,6 +156,7 @@ POST /api/v1/persons/{personId}/relationships
 {
   "relationship": "child",
   "related_person_id": "P_CHILD",
+  "parent_role": "mother",
   "sources": [{ "source_id": "SRC_456", "stance": "supports" }]
 }
 ```
@@ -166,6 +167,8 @@ POST /api/v1/persons/{personId}/relationships
 P_PARENT parent_of {personId}
 {personId} parent_of P_CHILD
 ```
+
+第二种请求里的 `parent_role` 表示当前人物在这条亲子关系中是母亲。来源只说明「父母之一」时使用 `relationship: "parent"` 或将 `parent_role` 留空；不能根据姓名猜测。已有关系可通过版本化修订补充或改正 `parent_role`，历史版本不会被覆盖。
 
 ### 跨代世系与具体代数
 

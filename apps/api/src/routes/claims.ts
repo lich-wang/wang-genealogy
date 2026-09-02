@@ -22,6 +22,7 @@ function snapshotOf(claim: Claim): ClaimSnapshot {
     claim_kind: claim.claim_kind,
     object_person_id: claim.object_person_id,
     generation_count: claim.generation_count,
+    parent_role: claim.parent_role,
     value_json: claim.value_json,
     status: claim.status,
     confidence: claim.confidence,
@@ -72,6 +73,10 @@ app.post('/:id/revisions', async (c) => {
     throw badRequest('bad_claim_value', '只有人物屬性主張可以修改取值。');
   if (body.patch.generation_count !== undefined && claim.predicate !== 'kinship.ancestor_of')
     throw badRequest('bad_generation_count', '只有先祖／後代世系可以修改相隔代數。');
+  if (
+    body.patch.parent_role !== undefined &&
+    !['kinship.parent_of', 'kinship.adoptive_parent_of', 'kinship.step_parent_of'].includes(claim.predicate)
+  ) throw badRequest('bad_parent_role', '只有父母關係可以設定父親或母親角色。');
 
   if (body.expected_revision !== claim.current_revision)
     throw conflict('revision_conflict', `版本不一致：當前為 ${claim.current_revision}`, {
@@ -97,6 +102,7 @@ app.post('/:id/revisions', async (c) => {
     generation_count: body.patch.generation_count === undefined
       ? claim.generation_count
       : body.patch.generation_count,
+    parent_role: body.patch.parent_role === undefined ? claim.parent_role : body.patch.parent_role,
     status: body.patch.status ?? claim.status,
   };
 
@@ -109,12 +115,13 @@ app.post('/:id/revisions', async (c) => {
   await c.env.DB.batch([
     c.env.DB
       .prepare(
-        'UPDATE claim SET confidence = ?, value_json = ?, generation_count = ?, status = ?, updated_at = ?, current_revision = ? WHERE id = ? AND current_revision = ?',
+        'UPDATE claim SET confidence = ?, value_json = ?, generation_count = ?, parent_role = ?, status = ?, updated_at = ?, current_revision = ? WHERE id = ? AND current_revision = ?',
       )
       .bind(
         next.confidence,
         next.value_json ? JSON.stringify(next.value_json) : null,
         next.generation_count,
+        next.parent_role,
         next.status,
         now,
         newRevision,
@@ -178,7 +185,7 @@ app.post('/:id/reverts', async (c) => {
   await c.env.DB.batch([
     c.env.DB
       .prepare(
-        'UPDATE claim SET confidence = ?, value_json = ?, status = ?, object_person_id = ?, generation_count = ?, updated_at = ?, current_revision = ? WHERE id = ? AND current_revision = ?',
+        'UPDATE claim SET confidence = ?, value_json = ?, status = ?, object_person_id = ?, generation_count = ?, parent_role = ?, updated_at = ?, current_revision = ? WHERE id = ? AND current_revision = ?',
       )
       .bind(
         snap.confidence,
@@ -186,6 +193,7 @@ app.post('/:id/reverts', async (c) => {
         snap.status,
         snap.object_person_id,
         snap.generation_count ?? null,
+        snap.parent_role ?? null,
         now,
         newRevision,
         claim.id,

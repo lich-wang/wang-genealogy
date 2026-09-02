@@ -14,6 +14,7 @@ describe('normalizeRelationship', () => {
       predicate: 'kinship.parent_of',
       subject_person_id: 'p_PARENT',
       object_person_id: 'p_CURRENT',
+      parent_role: null,
     });
   });
 
@@ -23,6 +24,7 @@ describe('normalizeRelationship', () => {
       predicate: 'kinship.parent_of',
       subject_person_id: 'p_CURRENT',
       object_person_id: 'p_CHILD',
+      parent_role: null,
     });
   });
 
@@ -31,11 +33,13 @@ describe('normalizeRelationship', () => {
       predicate: 'kinship.adoptive_parent_of',
       subject_person_id: 'p_PARENT',
       object_person_id: 'p_CHILD',
+      parent_role: null,
     });
     expect(normalizeRelationship('p_PARENT', 'adoptive_child', 'p_CHILD')).toEqual({
       predicate: 'kinship.adoptive_parent_of',
       subject_person_id: 'p_PARENT',
       object_person_id: 'p_CHILD',
+      parent_role: null,
     });
   });
 
@@ -50,9 +54,12 @@ describe('normalizeRelationship', () => {
     expect(() => normalizeRelationship('p_x', 'parent', 'p_x')).toThrow(KinshipError);
   });
 
-  it('never infers gender/role — parent stays parent_of, not father/mother', () => {
+  it('keeps an unspecified parent neutral while preserving explicit father/mother roles', () => {
     const edge = normalizeRelationship('p_c', 'parent', 'p_p');
     expect(edge.predicate).toBe('kinship.parent_of');
+    expect(edge.parent_role).toBeNull();
+    expect(normalizeRelationship('p_c', 'father', 'p_f').parent_role).toBe('father');
+    expect(normalizeRelationship('p_c', 'mother', 'p_m').parent_role).toBe('mother');
   });
 });
 
@@ -79,6 +86,7 @@ describe('normalizeRelationship: descent across generations', () => {
       predicate: 'kinship.ancestor_of',
       subject_person_id: 'p_OLD',
       object_person_id: 'p_ME',
+      parent_role: null,
     });
   });
 
@@ -87,6 +95,7 @@ describe('normalizeRelationship: descent across generations', () => {
       predicate: 'kinship.ancestor_of',
       subject_person_id: 'p_OLD',
       object_person_id: 'p_ME',
+      parent_role: null,
     });
   });
 
@@ -96,6 +105,20 @@ describe('normalizeRelationship: descent across generations', () => {
 });
 
 describe('createRelationshipSchema: exact generation count', () => {
+  it('accepts explicit father and mother roles', () => {
+    expect(createRelationshipSchema.parse({ relationship: 'father', related_person_id: 'p_f' }).relationship).toBe('father');
+    expect(createRelationshipSchema.parse({ relationship: 'mother', related_person_id: 'p_m' }).relationship).toBe('mother');
+    expect(createRelationshipSchema.parse({
+      relationship: 'child', related_person_id: 'p_c', parent_role: 'mother',
+    }).parent_role).toBe('mother');
+  });
+
+  it('rejects parent roles on unrelated relationship kinds', () => {
+    expect(() => createRelationshipSchema.parse({
+      relationship: 'spouse', related_person_id: 'p_s', parent_role: 'father',
+    })).toThrow();
+  });
+
   it('accepts an exact distance for ancestor and descendant claims', () => {
     expect(createRelationshipSchema.parse({
       relationship: 'ancestor',
@@ -136,13 +159,23 @@ describe('reviseClaimSchema: generation correction', () => {
       patch: { generation_count: null },
     }).patch.generation_count).toBeNull();
   });
+
+  it('allows a versioned parent-role correction or clearing it to unknown', () => {
+    expect(reviseClaimSchema.parse({
+      expected_revision: 1,
+      patch: { parent_role: 'father' },
+    }).patch.parent_role).toBe('father');
+    expect(reviseClaimSchema.parse({
+      expected_revision: 2,
+      patch: { parent_role: null },
+    }).patch.parent_role).toBeNull();
+  });
 });
 
 describe('mapChineseKinshipTerm', () => {
   it('maps the terms an external database writes for a parent', () => {
-    for (const term of ['父', '母', '生父', '嫡母']) {
-      expect(mapChineseKinshipTerm(term).input).toBe('parent');
-    }
+    for (const term of ['父', '生父']) expect(mapChineseKinshipTerm(term).input).toBe('father');
+    for (const term of ['母', '嫡母']) expect(mapChineseKinshipTerm(term).input).toBe('mother');
   });
 
   it('maps ordinal and two-character child terms alike', () => {

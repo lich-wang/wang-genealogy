@@ -1,0 +1,111 @@
+{
+  "note": "王崇同名异人拆分：当前记录以 Q16260058 锚定安成侯王崇，却又吸收了扶平侯王崇的琅邪世系。",
+  "summary_prefix": "同名异人拆分",
+  "splits": [
+    {
+      "key": "han.wang-chong.fuping",
+      "name": {
+        "text": "王崇",
+        "language": "zh-Hans"
+      },
+      "aliases": [
+        {
+          "text": "扶平侯",
+          "language": "zh-Hans"
+        }
+      ],
+      "source_id": "s_ktMX1QyHh2pkBTaKFeZWEk",
+      "locator": "条目：王崇（扶平侯）",
+      "quotation": "王崇（前1世纪—3年），西汉大臣，王吉之孙，御史大夫王骏之子。",
+      "reason": "当前记录 p_bnnhZdLTE5438ztJGTYQ7C 的外部标识 Q16260058 对应安成侯王崇（王禁之子，前31年卒）；王骏之子、王吉之孙、3年卒的扶平侯王崇是另一位同名人物。",
+      "historicity": "《汉书》卷十八、卷十九下及卷七十二所载西汉大臣，中文维基百科条目列明其为王骏之子、封扶平侯。"
+    }
+  ],
+  "retract": [
+    {
+      "claim_id": "c_JM1KFMJHnLtyNNLMbQy1uN",
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_LZZJjNMDiadFbtbdNFzzKG",
+        "object": "p_bnnhZdLTE5438ztJGTYQ7C",
+        "label": "王骏 → 安成侯王崇"
+      },
+      "reason": "王骏之子是扶平侯王崇，不是 Q16260058 所指的安成侯王崇。"
+    },
+    {
+      "claim_id": "c_tx8iR5U5DS6DcBpG8X8ELr",
+      "expect": {
+        "predicate": "kinship.ancestor_of",
+        "subject": "p_7BBNW636PfzcwJta8vrVg1",
+        "object": "p_bnnhZdLTE5438ztJGTYQ7C",
+        "label": "王吉 → 安成侯王崇（祖孙）"
+      },
+      "reason": "王吉之孙是扶平侯王崇，不是 Q16260058 所指的安成侯王崇。"
+    },
+    {
+      "claim_id": "c_3QpoLqLcfGkXMCpCvTMQE8",
+      "expect": {
+        "predicate": "kinship.parent_of",
+        "subject": "p_bnnhZdLTE5438ztJGTYQ7C",
+        "object": "p_1FJdZ15XyXMCC5RwrJYVuD",
+        "label": "安成侯王崇 → 王遵"
+      },
+      "reason": "王遵之父是扶平侯王崇，不是 Q16260058 所指的安成侯王崇。"
+    }
+  ],
+  "link": [
+    {
+      "from": "p_LZZJjNMDiadFbtbdNFzzKG",
+      "to": "split:han.wang-chong.fuping",
+      "relationship": "child",
+      "parent_role": "father",
+      "label": "王骏 → 扶平侯王崇",
+      "sources": [
+        {
+          "source_id": "s_9vBGx2cnBUUDqPkJBeA9DA",
+          "locator": "条文：长子",
+          "quotation": "长子：王崇（中毒而亡），儿媳：解□"
+        },
+        {
+          "source_id": "s_ktMX1QyHh2pkBTaKFeZWEk",
+          "locator": "条文：之子",
+          "quotation": "王吉之孙，御史大夫王骏之子"
+        },
+        {
+          "source_id": "s_XmK4uXKaoBAKcwvzzk8Dzr",
+          "locator": "条文：生",
+          "quotation": "二子：崇、游。"
+        }
+      ]
+    },
+    {
+      "from": "p_7BBNW636PfzcwJta8vrVg1",
+      "to": "split:han.wang-chong.fuping",
+      "relationship": "descendant",
+      "generation_count": 2,
+      "label": "王吉 → 扶平侯王崇（祖孙）",
+      "source_id": "s_ktMX1QyHh2pkBTaKFeZWEk",
+      "locator": "条文：孙（2世）",
+      "quotation": "王吉之孙，御史大夫王骏之子。"
+    },
+    {
+      "from": "split:han.wang-chong.fuping",
+      "to": "p_1FJdZ15XyXMCC5RwrJYVuD",
+      "relationship": "child",
+      "parent_role": "father",
+      "label": "扶平侯王崇 → 王遵",
+      "sources": [
+        {
+          "source_id": "s_ktMX1QyHh2pkBTaKFeZWEk",
+          "locator": "条文：长子",
+          "quotation": "长子：王遵"
+        },
+        {
+          "source_id": "s_XmK4uXKaoBAKcwvzzk8Dzr",
+          "locator": "条文：生",
+          "quotation": "生遵，字伯業，後漢中大夫、義鄉侯。"
+        }
+      ]
+    }
+  ]
+}

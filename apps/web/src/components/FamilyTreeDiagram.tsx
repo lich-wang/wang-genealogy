@@ -227,7 +227,9 @@ function relationshipEdge({
   const label =
     kind === 'descent' && 'generations' in edge && edge.generations
       ? `${edge.generations}代 · ${evidence}`
-      : evidence;
+      : kind === 'parent' && 'parent_role' in edge && edge.parent_role
+        ? `${edge.parent_role === 'father' ? '父亲' : '母亲'} · ${evidence}`
+        : evidence;
   return {
     id: edge.claim_id,
     source,

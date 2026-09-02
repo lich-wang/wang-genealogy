@@ -2,6 +2,7 @@ import type {
   DescentEdge,
   KinshipEvidence,
   ParentEdge,
+  ParentRole,
   RelativeNode,
   RelativesGraph,
   SpouseEdge,
@@ -38,6 +39,7 @@ interface RawEdge {
   parent_id: string;
   child_id: string;
   generation_count?: number | null;
+  parent_role?: ParentRole | null;
 }
 
 interface RawSpouse {
@@ -54,6 +56,7 @@ interface RawRelationship {
   subject_id: string;
   object_id: string;
   generation_count: number | null;
+  parent_role: ParentRole | null;
 }
 
 function chunks<T>(values: T[], size = QUERY_CHUNK): T[][] {
@@ -76,7 +79,7 @@ async function step(
   const other = direction === 'up' ? 'c.subject_person_id' : 'c.object_person_id';
   const res = await db
     .prepare(
-      `SELECT c.id AS claim_id, c.status, c.generation_count,
+      `SELECT c.id AS claim_id, c.status, c.generation_count, c.parent_role,
               c.subject_person_id AS parent_id, c.object_person_id AS child_id
          FROM claim c
          JOIN person p ON p.id = ${other}
@@ -109,6 +112,17 @@ function statedGenerations(citations: KinshipEvidence[]): number | null {
     if (Number.isInteger(n) && n > 1) return n;
   }
   return null;
+}
+
+function statedParentRole(citations: KinshipEvidence[]): ParentRole | null {
+  let father = false;
+  let mother = false;
+  for (const citation of citations) {
+    const locator = citation.locator ?? '';
+    father ||= /P22|父親|父亲|生父|養父|养父|嫡父|親父|亲父|[（(]父[）)]/.test(locator);
+    mother ||= /P25|母親|母亲|生母|養母|养母|嫡母|親母|亲母|[（(]母[）)]/.test(locator);
+  }
+  return father === mother ? null : father ? 'father' : 'mother';
 }
 
 /** Supporting citations for a set of claims, trimmed to what a label needs. */
@@ -196,6 +210,7 @@ async function materializeRelatives(
     child_id: edge.child_id,
     claim_id: edge.claim_id,
     status: edge.status as ParentEdge['status'],
+    parent_role: edge.parent_role ?? statedParentRole(citations.get(edge.claim_id) ?? []),
     citations: citations.get(edge.claim_id) ?? [],
   }));
   const spouse_edges: SpouseEdge[] = options.spouseEdges.map((edge) => ({
@@ -365,7 +380,7 @@ export async function loadAllRelatives(
   const limit = Math.min(Math.max(options.limit ?? MAX_GLOBAL_NODES, 1), MAX_GLOBAL_NODES);
   const result = await db
     .prepare(
-      `SELECT c.id AS claim_id, c.status, c.predicate, c.generation_count,
+      `SELECT c.id AS claim_id, c.status, c.predicate, c.generation_count, c.parent_role,
               c.subject_person_id AS subject_id, c.object_person_id AS object_id
          FROM claim c
          JOIN person ps ON ps.id = c.subject_person_id
@@ -418,6 +433,7 @@ export async function loadAllRelatives(
         parent_id: edge.subject_id,
         child_id: edge.object_id,
         generation_count: null,
+        parent_role: edge.parent_role ?? null,
       })),
     descentEdges: kept
       .filter((edge) => edge.predicate === 'kinship.ancestor_of')
@@ -427,6 +443,7 @@ export async function loadAllRelatives(
         parent_id: edge.subject_id,
         child_id: edge.object_id,
         generation_count: edge.generation_count,
+        parent_role: null,
       })),
     spouseEdges: kept
       .filter((edge) => edge.predicate === 'kinship.spouse_of')

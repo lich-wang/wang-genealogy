@@ -199,6 +199,7 @@ function mapClaim(row) {
     predicate: row.predicate,
     object_person_id: row.object_person_id ?? null,
     generation_count: row.generation_count == null ? null : Number(row.generation_count),
+    parent_role: row.parent_role ?? null,
     value_json: parseJson(row.value_json),
     status: row.status,
     confidence: row.confidence,

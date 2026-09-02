@@ -23,7 +23,7 @@ import { detectScript, scriptVariants } from '@wang/i18n';
 import { loginSchema, signupSchema } from '@wang/validation';
 import { api } from '../api';
 import type { SourceRefInput } from '../api';
-import { relationshipGenerationCount } from '../format';
+import { relationshipGenerationCount, relationshipParentRole } from '../format';
 import { toMessage } from '../hooks';
 import { useAuth } from '../auth';
 import { useScript } from '../i18n';
@@ -184,7 +184,7 @@ function ContributorForms({
           <ScrollText size={18} /><span><strong>{t('补充资料')}</strong><small>{t('生卒、籍贯等')}</small></span>
         </TabButton>
         <TabButton current={form} value="relationship" onSelect={setForm}>
-          <GitFork size={18} /><span><strong>{t('添加关系')}</strong><small>{t('父母、配偶等')}</small></span>
+          <GitFork size={18} /><span><strong>{t('添加关系')}</strong><small>{t('父亲、母亲、配偶等')}</small></span>
         </TabButton>
         <TabButton current={form} value="source" onSelect={setForm}>
           <BookOpen size={18} /><span><strong>{t('新建来源')}</strong><small>{t('登记书目信息')}</small></span>
@@ -480,6 +480,7 @@ function CreateRelationshipForm({ initialPerson }: { initialPerson: string }) {
   const [relationship, setRelationship] = useState<RelationshipInput>('parent');
   const [relatedId, setRelatedId] = useState('');
   const [generationCount, setGenerationCount] = useState('');
+  const [newParentRole, setNewParentRole] = useState<'father' | 'mother' | ''>('');
   const [confidence, setConfidence] = useState<Confidence>('unknown');
   const [sources, setSources] = useState<SourceRefInput[]>([]);
   const [summary, setSummary] = useState('');
@@ -505,7 +506,9 @@ function CreateRelationshipForm({ initialPerson }: { initialPerson: string }) {
   }, [personId]);
 
   const relationshipOptions: Record<RelationshipInput, { title: string; description: string; icon: ReactNode }> = {
-    parent: { title: '父母', description: '第二位人物是第一位人物的父親或母親', icon: <UsersRound size={18} /> },
+    father: { title: '父亲', description: '第二位人物是第一位人物的父亲', icon: <UsersRound size={18} /> },
+    mother: { title: '母亲', description: '第二位人物是第一位人物的母亲', icon: <UsersRound size={18} /> },
+    parent: { title: '父母未详', description: '来源只确认是父母之一，不能判断父亲或母亲', icon: <UsersRound size={18} /> },
     child: { title: '子女', description: '第二位人物是第一位人物的兒子或女兒', icon: <Baby size={18} /> },
     spouse: { title: '配偶', description: '兩位人物互為配偶', icon: <HeartHandshake size={18} /> },
     adoptive_parent: { title: '收養父母', description: '第二位人物收養了第一位人物', icon: <UserRound size={18} /> },
@@ -542,6 +545,13 @@ function CreateRelationshipForm({ initialPerson }: { initialPerson: string }) {
       await api.createRelationship(personId.trim(), {
         relationship,
         related_person_id: relatedId.trim(),
+        parent_role: relationship === 'father'
+          ? 'father'
+          : relationship === 'mother'
+            ? 'mother'
+            : ['child', 'adoptive_parent', 'adoptive_child'].includes(relationship)
+              ? newParentRole || null
+              : relationship === 'parent' ? null : undefined,
         generation_count: isDescent ? parsedGeneration : undefined,
         confidence,
         sources: cleanSourceRefs(sources),
@@ -605,6 +615,7 @@ function CreateRelationshipForm({ initialPerson }: { initialPerson: string }) {
         current={currentPerson}
         related={relatedPerson}
         generationCount={generationCount}
+        parentRole={newParentRole}
       />
       {relationship === 'ancestor' || relationship === 'descendant' ? (
         <label className="field generation-count-field">
@@ -620,6 +631,17 @@ function CreateRelationshipForm({ initialPerson }: { initialPerson: string }) {
             onChange={(event) => setGenerationCount(event.target.value)}
           />
           <small>{t('相隔 1 代請改用父母或子女；只有來源能確認時才填寫，請勿自行推算。')}</small>
+        </label>
+      ) : null}
+      {relationship === 'child' || relationship === 'adoptive_parent' || relationship === 'adoptive_child' ? (
+        <label className="field">
+          <span>{t(relationship === 'adoptive_parent' ? '第二位人物是第一位人物的' : '第一位人物是这个孩子的')}</span>
+          <select value={newParentRole} onChange={(event) => setNewParentRole(event.target.value as 'father' | 'mother' | '')}>
+            <option value="">{t('父母之一（来源未详）')}</option>
+            <option value="father">{t(relationship.startsWith('adoptive_') ? '养父' : '父亲')}</option>
+            <option value="mother">{t(relationship.startsWith('adoptive_') ? '养母' : '母亲')}</option>
+          </select>
+          <small>{t('只按来源选择；不能确认时保留“父母之一”。')}</small>
         </label>
       ) : null}
       {currentPerson?.display_name && currentPerson.display_name === relatedPerson?.display_name ? (
@@ -649,13 +671,24 @@ function ExistingRelationships({
   const { t } = useScript();
   const [editingClaimId, setEditingClaimId] = useState<string | null>(null);
   const [generationDraft, setGenerationDraft] = useState('');
+  const [parentRoleDraft, setParentRoleDraft] = useState<'father' | 'mother' | ''>('');
   const [generationBusy, setGenerationBusy] = useState(false);
   const [generationMessage, setGenerationMessage] = useState<string | null>(null);
+  const fathers = summary.relationships.parents.filter((item) => relationshipParentRole(item) === 'father');
+  const mothers = summary.relationships.parents.filter((item) => relationshipParentRole(item) === 'mother');
+  const unspecifiedParents = summary.relationships.parents.filter((item) => relationshipParentRole(item) === null);
+  const adoptiveFathers = summary.relationships.adoptive_parents.filter((item) => relationshipParentRole(item) === 'father');
+  const adoptiveMothers = summary.relationships.adoptive_parents.filter((item) => relationshipParentRole(item) === 'mother');
+  const unspecifiedAdoptiveParents = summary.relationships.adoptive_parents.filter((item) => relationshipParentRole(item) === null);
   const groups: Array<{ label: string; items: PersonSummary['relationships'][keyof PersonSummary['relationships']] }> = [
-    { label: '父母', items: summary.relationships.parents },
+    { label: '父亲', items: fathers },
+    { label: '母亲', items: mothers },
+    { label: '父母未详', items: unspecifiedParents },
     { label: '配偶', items: summary.relationships.spouses },
     { label: '子女', items: summary.relationships.children },
-    { label: '收養父母', items: summary.relationships.adoptive_parents },
+    { label: '养父', items: adoptiveFathers },
+    { label: '养母', items: adoptiveMothers },
+    { label: '收养父母未详', items: unspecifiedAdoptiveParents },
     { label: '收養子女', items: summary.relationships.adoptive_children },
     { label: '先祖', items: summary.relationships.ancestors },
     { label: '後代', items: summary.relationships.descendants },
@@ -665,6 +698,33 @@ function ExistingRelationships({
     setEditingClaimId(item.claim.id);
     setGenerationDraft(relationshipGenerationCount(item)?.toString() ?? '');
     setGenerationMessage(null);
+  }
+
+  function beginParentRoleEdit(item: ClaimWithSources) {
+    setEditingClaimId(item.claim.id);
+    setParentRoleDraft(relationshipParentRole(item) ?? '');
+    setGenerationMessage(null);
+  }
+
+  async function saveParentRole(item: ClaimWithSources) {
+    setGenerationBusy(true);
+    setGenerationMessage(null);
+    try {
+      await api.reviseClaim(item.claim.id, {
+        expected_revision: item.claim.current_revision,
+        patch: { parent_role: parentRoleDraft || null },
+        change_summary: parentRoleDraft === 'father'
+          ? '明确亲属角色为父亲'
+          : parentRoleDraft === 'mother' ? '明确亲属角色为母亲' : '将亲属角色改为父母未详',
+      });
+      await onChanged();
+      setEditingClaimId(null);
+      setGenerationMessage('父母角色已更新。');
+    } catch (err) {
+      setGenerationMessage(toMessage(err));
+    } finally {
+      setGenerationBusy(false);
+    }
   }
 
   async function saveGeneration(item: ClaimWithSources) {
@@ -710,20 +770,31 @@ function ExistingRelationships({
                   {item.claim.predicate === 'kinship.ancestor_of' ? (
                     <button type="button" onClick={() => beginGenerationEdit(item)}>{t(relationshipGenerationCount(item) ? '修改代數' : '補充代數')}</button>
                   ) : null}
+                  {item.claim.predicate === 'kinship.parent_of' || item.claim.predicate === 'kinship.adoptive_parent_of' ? (
+                    <button type="button" onClick={() => beginParentRoleEdit(item)}>{t(relationshipParentRole(item) ? '修改父母角色' : '标记父亲或母亲')}</button>
+                  ) : null}
                   {editingClaimId === item.claim.id ? (
                     <span className="generation-inline-editor">
-                      <input
-                        type="number"
-                        min="2"
-                        max="100"
-                        step="1"
-                        inputMode="numeric"
-                        value={generationDraft}
-                        placeholder={t('留空表示不詳')}
-                        onChange={(event) => setGenerationDraft(event.target.value)}
-                        aria-label={t('相隔代數')}
-                      />
-                      <button type="button" disabled={generationBusy} onClick={() => void saveGeneration(item)}>{generationBusy ? t('保存中…') : t('保存')}</button>
+                      {item.claim.predicate === 'kinship.ancestor_of' ? (
+                        <input
+                          type="number"
+                          min="2"
+                          max="100"
+                          step="1"
+                          inputMode="numeric"
+                          value={generationDraft}
+                          placeholder={t('留空表示不詳')}
+                          onChange={(event) => setGenerationDraft(event.target.value)}
+                          aria-label={t('相隔代數')}
+                        />
+                      ) : (
+                        <select value={parentRoleDraft} onChange={(event) => setParentRoleDraft(event.target.value as 'father' | 'mother' | '')} aria-label={t('父母角色')}>
+                          <option value="father">{t('父亲')}</option>
+                          <option value="mother">{t('母亲')}</option>
+                          <option value="">{t('父母未详')}</option>
+                        </select>
+                      )}
+                      <button type="button" disabled={generationBusy} onClick={() => void (item.claim.predicate === 'kinship.ancestor_of' ? saveGeneration(item) : saveParentRole(item))}>{generationBusy ? t('保存中…') : t('保存')}</button>
                       <button type="button" disabled={generationBusy} onClick={() => setEditingClaimId(null)}>{t('取消')}</button>
                     </span>
                   ) : null}
@@ -744,17 +815,21 @@ function RelationshipPreview({
   current,
   related,
   generationCount,
+  parentRole,
 }: {
   relationship: RelationshipInput;
   current: PersonSearchResult | null;
   related: PersonSearchResult | null;
   generationCount: string;
+  parentRole: 'father' | 'mother' | '';
 }) {
   const { t } = useScript();
   if (!current || !related) {
     return <div className="relationship-preview relationship-preview-empty"><GitFork size={19} /><span><strong>{t('關係預覽')}</strong><small>{t('選好兩位人物後，這裡會用一句話確認關係方向。')}</small></span></div>;
   }
   const relationText: Record<RelationshipInput, string> = {
+    father: '的父亲',
+    mother: '的母亲',
     parent: '的父母之一',
     child: '的子女',
     adoptive_parent: '的收養父母',
@@ -778,6 +853,9 @@ function RelationshipPreview({
       <span>
         <small>{t('即將記錄')}</small>
         <strong><ZhText text={related.display_name} fallback={t('第二位人物')} /> {t('是')} <ZhText text={current.display_name} fallback={t('第一位人物')} /> {t(relationText[relationship])}{generationText}</strong>
+        {(relationship === 'child' || relationship === 'adoptive_child') && parentRole ? (
+          <small><ZhText text={current.display_name} fallback={t('第一位人物')} /> {t(`在这段关系中是${parentRole === 'father' ? (relationship === 'adoptive_child' ? '养父' : '父亲') : (relationship === 'adoptive_child' ? '养母' : '母亲')}`)}</small>
+        ) : null}
       </span>
     </div>
   );

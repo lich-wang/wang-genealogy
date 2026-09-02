@@ -1,4 +1,4 @@
-import type { ClaimValue, ClaimWithSources, UncertainDate } from '@wang/domain';
+import type { ClaimValue, ClaimWithSources, ParentRole, UncertainDate } from '@wang/domain';
 import type { ZhScript } from '@wang/i18n';
 
 /**
@@ -82,4 +82,18 @@ export function relationshipGenerationCount(item: ClaimWithSources): number | nu
     if (Number.isInteger(count) && count >= 2 && count <= 100) return count;
   }
   return null;
+}
+
+/** Explicit stored parent role, with a conservative fallback for legacy citations. */
+export function relationshipParentRole(item: ClaimWithSources): ParentRole | null {
+  if (item.claim.parent_role) return item.claim.parent_role;
+  let father = false;
+  let mother = false;
+  for (const ref of item.sources) {
+    if (ref.stance !== 'supports') continue;
+    const evidence = `${ref.locator ?? ''}\n${ref.quotation ?? ''}`;
+    father ||= /P22|父親|父亲|生父|養父|养父|嫡父|親父|亲父|[（(]父[）)]/.test(evidence);
+    mother ||= /P25|母親|母亲|生母|養母|养母|嫡母|親母|亲母|[（(]母[）)]/.test(evidence);
+  }
+  return father === mother ? null : father ? 'father' : 'mother';
 }

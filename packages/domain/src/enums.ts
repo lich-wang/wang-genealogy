@@ -55,9 +55,16 @@ export const RELATIONSHIP_PREDICATES = [
 ] as const;
 export type RelationshipPredicate = (typeof RELATIONSHIP_PREDICATES)[number];
 
+// The role of the stored parent endpoint when a source states it explicitly.
+// Null remains valid because some genealogical sources only say "parent".
+export const PARENT_ROLE = ['father', 'mother'] as const;
+export type ParentRole = (typeof PARENT_ROLE)[number];
+
 // Natural-language relationship direction accepted by the API before it is
 // normalized server-side to a *_of predicate anchored on a PARENT.
 export const RELATIONSHIP_INPUT = [
+  'father',
+  'mother',
   'parent',
   'child',
   'adoptive_parent',

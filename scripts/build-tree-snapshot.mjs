@@ -52,7 +52,7 @@ const nodes = query(`
 `);
 
 const relationships = query(`
-  SELECT c.id AS claim_id, c.status, c.predicate, c.generation_count,
+  SELECT c.id AS claim_id, c.status, c.predicate, c.generation_count, c.parent_role,
          c.subject_person_id AS subject_id, c.object_person_id AS object_id
     FROM claim c
     JOIN person ps ON ps.id = c.subject_person_id
@@ -122,6 +122,7 @@ while (unvisited.size > 0) {
       child_id: edge.object_id,
       claim_id: edge.claim_id,
       status: edge.status,
+      parent_role: edge.parent_role ?? parentRoleFrom(citations.get(edge.claim_id) ?? []),
       citations: citations.get(edge.claim_id) ?? [],
     })),
     spouse_edges: edges.filter((edge) => edge.predicate === 'kinship.spouse_of').map((edge) => ({
@@ -162,4 +163,15 @@ function generationsFrom(items) {
     if (Number.isInteger(value) && value > 1) return value;
   }
   return null;
+}
+
+function parentRoleFrom(items) {
+  let father = false;
+  let mother = false;
+  for (const item of items) {
+    const locator = item.locator ?? '';
+    father ||= /P22|父親|父亲|生父|養父|养父|嫡父|親父|亲父|[（(]父[）)]/.test(locator);
+    mother ||= /P25|母親|母亲|生母|養母|养母|嫡母|親母|亲母|[（(]母[）)]/.test(locator);
+  }
+  return father === mother ? null : father ? 'father' : 'mother';
 }

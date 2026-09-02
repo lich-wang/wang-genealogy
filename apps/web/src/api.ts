@@ -11,6 +11,7 @@ import type {
   Cursor,
   KinshipHighlight,
   LicenseCode,
+  ParentRole,
   PersonExport,
   PersonMergeProposal,
   PersonSummary,
@@ -150,6 +151,7 @@ export interface CreatePropertyClaimInput {
 export interface CreateRelationshipInput {
   relationship: RelationshipInput;
   related_person_id: string;
+  parent_role?: ParentRole | null;
   generation_count?: number;
   confidence?: Confidence;
   sources?: SourceRefInput[];
@@ -162,6 +164,7 @@ export interface ReviseClaimInput {
     confidence?: Confidence;
     value?: PropertyValueInput;
     generation_count?: number | null;
+    parent_role?: ParentRole | null;
     status?: 'accepted' | 'disputed' | 'superseded';
   };
   change_summary?: string;

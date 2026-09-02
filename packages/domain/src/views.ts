@@ -1,7 +1,7 @@
 // DTO / view shapes returned by the API and consumed by the web app. Kept in
 // the shared domain package so both sides agree on the contract.
 
-import type { ClaimStatus } from './enums.ts';
+import type { ClaimStatus, ParentRole } from './enums.ts';
 import type { Claim, ClaimSource, Person, PersonMergeProposal, Source } from './types.ts';
 
 /** A claim enriched with its source links (and resolved source records). */
@@ -88,6 +88,8 @@ interface KinshipEdgeBase {
 export interface ParentEdge extends KinshipEdgeBase {
   parent_id: string;
   child_id: string;
+  /** Father/mother when explicitly recorded; null means the source was neutral. */
+  parent_role?: ParentRole | null;
 }
 
 export interface SpouseEdge extends KinshipEdgeBase {

@@ -1,17 +1,18 @@
-import type { RelationshipInput, RelationshipPredicate } from '@wang/domain';
+import type { ParentRole, RelationshipInput, RelationshipPredicate } from '@wang/domain';
 
 /**
  * Normalize a natural-language relationship submitted relative to the current
  * person into a single stored edge anchored on the PARENT.
  *
  * Domain invariant: parent/child is stored ONCE as PARENT --parent_of--> CHILD,
- * never two mirrored rows. We never infer gender/role — "parent" stays
- * parent_of, we do not guess father vs. mother.
+ * never two mirrored rows. Father/mother stays metadata on that one edge;
+ * a neutral "parent" remains null rather than being guessed.
  */
 export interface NormalizedEdge {
   predicate: RelationshipPredicate;
   subject_person_id: string; // the person the edge is stored on
   object_person_id: string; // the target
+  parent_role: ParentRole | null;
 }
 
 export function normalizeRelationship(
@@ -24,12 +25,27 @@ export function normalizeRelationship(
   }
 
   switch (input) {
+    case 'father':
+      return {
+        predicate: 'kinship.parent_of',
+        subject_person_id: relatedPersonId,
+        object_person_id: currentPersonId,
+        parent_role: 'father',
+      };
+    case 'mother':
+      return {
+        predicate: 'kinship.parent_of',
+        subject_person_id: relatedPersonId,
+        object_person_id: currentPersonId,
+        parent_role: 'mother',
+      };
     case 'parent':
       // "related is the CURRENT person's parent" => related --parent_of--> current
       return {
         predicate: 'kinship.parent_of',
         subject_person_id: relatedPersonId,
         object_person_id: currentPersonId,
+        parent_role: null,
       };
     case 'child':
       // "related is the CURRENT person's child" => current --parent_of--> related
@@ -37,18 +53,21 @@ export function normalizeRelationship(
         predicate: 'kinship.parent_of',
         subject_person_id: currentPersonId,
         object_person_id: relatedPersonId,
+        parent_role: null,
       };
     case 'adoptive_parent':
       return {
         predicate: 'kinship.adoptive_parent_of',
         subject_person_id: relatedPersonId,
         object_person_id: currentPersonId,
+        parent_role: null,
       };
     case 'adoptive_child':
       return {
         predicate: 'kinship.adoptive_parent_of',
         subject_person_id: currentPersonId,
         object_person_id: relatedPersonId,
+        parent_role: null,
       };
     case 'ancestor':
       // "related is an ancestor of the CURRENT person, generations unknown"
@@ -56,12 +75,14 @@ export function normalizeRelationship(
         predicate: 'kinship.ancestor_of',
         subject_person_id: relatedPersonId,
         object_person_id: currentPersonId,
+        parent_role: null,
       };
     case 'descendant':
       return {
         predicate: 'kinship.ancestor_of',
         subject_person_id: currentPersonId,
         object_person_id: relatedPersonId,
+        parent_role: null,
       };
     case 'spouse':
       // Symmetric; store canonically with the lexicographically-smaller id as subject
@@ -71,11 +92,13 @@ export function normalizeRelationship(
             predicate: 'kinship.spouse_of',
             subject_person_id: currentPersonId,
             object_person_id: relatedPersonId,
+            parent_role: null,
           }
         : {
             predicate: 'kinship.spouse_of',
             subject_person_id: relatedPersonId,
             object_person_id: currentPersonId,
+            parent_role: null,
           };
     default: {
       const _exhaustive: never = input;
@@ -91,8 +114,9 @@ export function normalizeRelationship(
  * Deliberately narrow. A sibling, an uncle or a son-in-law has no faithful
  * representation in this model, so those terms return null and the caller
  * reports them instead of forcing them into a predicate that would misstate the
- * source. Gendered terms (父/母, 長子/長女) all collapse onto the same neutral
- * direction — the original term belongs in the citation, not in the predicate.
+ * source. Explicit 父/母 terms preserve the parent endpoint's role while still
+ * collapsing onto the same parent_of direction. 子/女 describes the child,
+ * not whether the other endpoint is a father or mother, so it stays neutral.
  *
  * 十世孫 and its kin stay out too, even though `ancestor_of` could now hold
  * them: this table yields a direction and nothing else, so it would silently
@@ -112,7 +136,8 @@ const KINSHIP_TERM_PATTERNS: ReadonlyArray<{ input: RelationshipInput; pattern: 
     input: 'adoptive_child',
     pattern: /^(嗣子|嗣女|養子|養女|养子|养女|義子|義女|义子|义女)$/,
   },
-  { input: 'parent', pattern: /^(父|母|生父|生母|嫡父|嫡母|親父|親母|亲父|亲母)$/ },
+  { input: 'father', pattern: /^(父|生父|嫡父|親父|亲父)$/ },
+  { input: 'mother', pattern: /^(母|生母|嫡母|親母|亲母)$/ },
   {
     input: 'child',
     pattern:

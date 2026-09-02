@@ -3,7 +3,7 @@ import { Link, useParams } from 'react-router-dom';
 import { Download, GitFork, Home, Info, PenLine, Plus, Users } from 'lucide-react';
 import type { ClaimWithSources, PersonSummary } from '@wang/domain';
 import { api } from '../api';
-import { relationshipGenerationCount } from '../format';
+import { relationshipGenerationCount, relationshipParentRole } from '../format';
 import { useAsync, toMessage } from '../hooks';
 import { useAuth } from '../auth';
 import { useScript } from '../i18n';
@@ -63,6 +63,12 @@ export function PersonPage() {
   const { person } = summary;
   const merged = person.status === 'merged' && summary.redirect_to_person_id;
   const properties = [...summary.properties].sort(byHeadlineOrder);
+  const fathers = summary.relationships.parents.filter((item) => relationshipParentRole(item) === 'father');
+  const mothers = summary.relationships.parents.filter((item) => relationshipParentRole(item) === 'mother');
+  const unspecifiedParents = summary.relationships.parents.filter((item) => relationshipParentRole(item) === null);
+  const adoptiveFathers = summary.relationships.adoptive_parents.filter((item) => relationshipParentRole(item) === 'father');
+  const adoptiveMothers = summary.relationships.adoptive_parents.filter((item) => relationshipParentRole(item) === 'mother');
+  const unspecifiedAdoptiveParents = summary.relationships.adoptive_parents.filter((item) => relationshipParentRole(item) === null);
 
   return (
     <div className="page person-page">
@@ -123,8 +129,20 @@ export function PersonPage() {
         <div className="content-section-head"><span><Users size={19} /></span><div><h2>{t('亲属关系')}</h2><p>{t('点击姓名可继续浏览相关人物')}</p></div></div>
         <div className="fact-list">
           <RelationshipGroup
-            title="父母"
-            items={summary.relationships.parents}
+            title="父亲"
+            items={fathers}
+            onDispute={isAuthenticated ? onDispute : undefined}
+            disputeBusy={disputeBusy}
+          />
+          <RelationshipGroup
+            title="母亲"
+            items={mothers}
+            onDispute={isAuthenticated ? onDispute : undefined}
+            disputeBusy={disputeBusy}
+          />
+          <RelationshipGroup
+            title="父母未详"
+            items={unspecifiedParents}
             onDispute={isAuthenticated ? onDispute : undefined}
             disputeBusy={disputeBusy}
           />
@@ -141,8 +159,20 @@ export function PersonPage() {
             disputeBusy={disputeBusy}
           />
           <RelationshipGroup
-            title="收養父母"
-            items={summary.relationships.adoptive_parents}
+            title="养父"
+            items={adoptiveFathers}
+            onDispute={isAuthenticated ? onDispute : undefined}
+            disputeBusy={disputeBusy}
+          />
+          <RelationshipGroup
+            title="养母"
+            items={adoptiveMothers}
+            onDispute={isAuthenticated ? onDispute : undefined}
+            disputeBusy={disputeBusy}
+          />
+          <RelationshipGroup
+            title="收养父母未详"
+            items={unspecifiedAdoptiveParents}
             onDispute={isAuthenticated ? onDispute : undefined}
             disputeBusy={disputeBusy}
           />

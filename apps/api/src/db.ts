@@ -47,6 +47,7 @@ export function mapClaim(r: Record<string, unknown>): Claim {
     predicate: r.predicate as string,
     object_person_id: (r.object_person_id as string) ?? null,
     generation_count: r.generation_count == null ? null : Number(r.generation_count),
+    parent_role: (r.parent_role as Claim['parent_role']) ?? null,
     value_json: parseJson<ClaimValue>((r.value_json as string) ?? null),
     status: r.status as Claim['status'],
     confidence: r.confidence as Claim['confidence'],

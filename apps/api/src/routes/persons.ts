@@ -242,6 +242,7 @@ app.post('/:id/relationships', async (c) => {
     predicate: edge.predicate,
     objectPersonId: edge.object_person_id,
     generationCount: body.generation_count ?? null,
+    parentRole: edge.parent_role ?? body.parent_role ?? null,
     confidence: body.confidence,
     sources: body.sources,
     actorUserId: auth.userId,
