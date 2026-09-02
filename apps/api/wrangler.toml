@@ -3,6 +3,11 @@ main = "src/index.ts"
 compatibility_date = "2024-12-01"
 compatibility_flags = ["nodejs_compat"]
 
+[assets]
+directory = "./tree-snapshot"
+binding = "TREE_SNAPSHOT"
+run_worker_first = true
+
 # D1 binding. database_id is filled in after `wrangler d1 create wang-genealogy`.
 [[d1_databases]]
 binding = "DB"

@@ -160,13 +160,38 @@ app.route('/api/v1/sources', sources);
 app.route('/api/v1/person-merge-proposals', mergeProposals);
 
 // --- error handling: machine code + Chinese message ---
-app.onError((err, c) => {
+app.onError(async (err, c) => {
+  const path = new URL(c.req.url).pathname;
+  const relatives = /^\/api\/v1\/persons\/([^/]+)\/relatives$/.exec(path);
+  if (c.req.method === 'GET' && relatives && c.env.TREE_SNAPSHOT) {
+    try {
+      const response = await treeSnapshot(c.env.TREE_SNAPSHOT, decodeURIComponent(relatives[1]!));
+      if (response) return response;
+    } catch (snapshotError) {
+      console.error('tree snapshot unavailable', snapshotError);
+    }
+  }
   if (err instanceof AppError) return c.json(err.toBody(), err.status as 400);
   if (err instanceof ZodError)
     return c.json({ error: 'validation_error', message: '請求引數不合法。', details: err.issues }, 400);
   console.error('unhandled', err);
   return c.json({ error: 'internal_error', message: '伺服器內部錯誤。' }, 500);
 });
+
+async function treeSnapshot(assets: Fetcher, personId: string): Promise<Response | null> {
+  const indexResponse = await assets.fetch('https://tree-snapshot.invalid/index.json');
+  if (!indexResponse.ok) return null;
+  const index = await indexResponse.json<Record<string, string>>();
+  const file = index[personId];
+  if (!file) return null;
+  const graph = await assets.fetch(`https://tree-snapshot.invalid/${file}`);
+  if (!graph.ok) return null;
+  const headers = new Headers(graph.headers);
+  headers.set('Content-Type', 'application/json; charset=utf-8');
+  headers.set('Cache-Control', 'public, max-age=300, stale-while-revalidate=86400');
+  headers.set('X-Wang-Data-Source', 'public-tree-snapshot');
+  return new Response(graph.body, { status: 200, headers });
+}
 
 app.notFound((c) => c.json({ error: 'not_found', message: '介面不存在。' }, 404));
 

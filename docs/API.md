@@ -45,6 +45,7 @@ GET /api/v1/persons/{personId}/relatives?scope=all
 - `scope=all` 返回该人物所在的完整公开亲缘连通分量，供「展开全部」使用；全局视图最多 1200 人，触顶同样以 `truncated` 明示；响应以 `scope: "all"` 区分；
 - 只包含公开人物（`active`／`merged`），已撤回的关系不计入；
 - 配偶边只在两端都在本次切片内时返回。
+- D1 暂时不可用时，公开家族树端点退回最近发布的只读公开快照；响应头 `X-Wang-Data-Source: public-tree-snapshot` 明示来源。快照只含本端点原有的公开人物、关系与引用字段，不含账号、草稿或其他主张正文。
 
 ### 获取人物修改历史
 

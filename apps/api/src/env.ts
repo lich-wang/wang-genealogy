@@ -1,5 +1,7 @@
 export interface Env {
   DB: D1Database;
+  /** Public family-tree snapshot used only when D1 is temporarily unavailable. */
+  TREE_SNAPSHOT?: Fetcher;
   AUTH_SECRET: string;
   ALLOWED_ORIGIN: string;
   TURNSTILE_SECRET?: string;
