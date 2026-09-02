@@ -18,6 +18,8 @@ const files = readdirSync(snapshotDirectory)
 if (files.length === 0) throw new Error(`no tree snapshot components found in ${snapshotDirectory}`);
 
 let longest = [];
+let longestComponent = null;
+let longestComponentPeople = 0;
 let parentEdgeCount = 0;
 let personCount = 0;
 
@@ -41,7 +43,11 @@ for (const file of files) {
   while (cursor < queue.length) {
     const parentId = queue[cursor++];
     const parentPath = paths.get(parentId) ?? [parentId];
-    if (parentPath.length > longest.length) longest = parentPath;
+    if (parentPath.length > longest.length) {
+      longest = parentPath;
+      longestComponent = file;
+      longestComponentPeople = nodes.size;
+    }
     for (const childId of children.get(parentId)) {
       const candidate = [...parentPath, childId];
       if (candidate.length > (paths.get(childId)?.length ?? 0)) paths.set(childId, candidate);
@@ -69,5 +75,7 @@ console.log(JSON.stringify({
   parent_edges: parentEdgeCount,
   longest_path_people: longest.length,
   longest_path_generations: Math.max(0, longest.length - 1),
+  longest_path_component: longestComponent,
+  longest_path_component_people: longestComponentPeople,
   path: longest.map((id) => ({ id, name: nameById.get(id) })),
 }, null, 2));
