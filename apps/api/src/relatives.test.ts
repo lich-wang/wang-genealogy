@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { MAX_NODES, loadRelatives } from './relatives.ts';
+import { MAX_NODES, loadAllRelatives, loadRelatives } from './relatives.ts';
 
 /**
  * A small family, stored the way the schema stores it — one `parent_of` row per
@@ -14,6 +14,8 @@ const PARENT_EDGES = [
   { claim_id: 'c_3', status: 'accepted', parent_id: 'p_mum', child_id: 'p_me' },
   { claim_id: 'c_4', status: 'accepted', parent_id: 'p_me', child_id: 'p_kid' },
   { claim_id: 'c_5', status: 'accepted', parent_id: 'p_kid', child_id: 'p_grandkid' },
+  { claim_id: 'c_8', status: 'accepted', parent_id: 'p_grandpa', child_id: 'p_uncle' },
+  { claim_id: 'c_9', status: 'accepted', parent_id: 'p_uncle', child_id: 'p_cousin' },
 ];
 const SPOUSE_EDGES = [{ claim_id: 'c_6', status: 'accepted', a_id: 'p_dad', b_id: 'p_mum' }];
 /**
@@ -42,6 +44,33 @@ function fakeDb() {
         },
         all() {
           const ids = new Set(stmt.binds.filter((b): b is string => typeof b === 'string'));
+          if (sql.includes("c.predicate IN ('kinship.parent_of'")) {
+            return Promise.resolve({
+              results: [
+                ...PARENT_EDGES.map((edge) => ({
+                  ...edge,
+                  predicate: 'kinship.parent_of',
+                  subject_id: edge.parent_id,
+                  object_id: edge.child_id,
+                  generation_count: null,
+                })),
+                ...DESCENT_EDGES.map((edge) => ({
+                  ...edge,
+                  predicate: 'kinship.ancestor_of',
+                  subject_id: edge.parent_id,
+                  object_id: edge.child_id,
+                  generation_count: null,
+                })),
+                ...SPOUSE_EDGES.map((edge) => ({
+                  ...edge,
+                  predicate: 'kinship.spouse_of',
+                  subject_id: edge.a_id,
+                  object_id: edge.b_id,
+                  generation_count: null,
+                })),
+              ],
+            });
+          }
           // The predicate travels as a bound parameter, not as a literal.
           const predicate = stmt.binds[0];
           if (predicate === 'kinship.parent_of' || predicate === 'kinship.ancestor_of') {
@@ -147,6 +176,32 @@ describe('loadRelatives', () => {
     const graph = await loadRelatives(db, 'p_me', { up: 0, down: 0 });
     expect(graph.nodes.map((n) => n.id)).toEqual(['p_me']);
     expect(graph.parent_edges).toEqual([]);
+  });
+});
+
+describe('loadAllRelatives', () => {
+  it('loads the whole connected family, including a branch reached by going up then down', async () => {
+    const { db } = fakeDb();
+    const graph = await loadAllRelatives(db, 'p_me');
+    expect(graph.scope).toBe('all');
+    expect(graph.nodes.map((node) => node.id)).toEqual(expect.arrayContaining([
+      'p_founder',
+      'p_me',
+      'p_uncle',
+      'p_cousin',
+      'p_grandkid',
+    ]));
+    expect(graph.parent_edges).toEqual(expect.arrayContaining([
+      expect.objectContaining({ parent_id: 'p_uncle', child_id: 'p_cousin' }),
+    ]));
+    expect(graph.truncated).toBe(false);
+  });
+
+  it('reports when the global safety cap stops traversal', async () => {
+    const { db } = fakeDb();
+    const graph = await loadAllRelatives(db, 'p_me', { limit: 3 });
+    expect(graph.nodes).toHaveLength(3);
+    expect(graph.truncated).toBe(true);
   });
 });
 

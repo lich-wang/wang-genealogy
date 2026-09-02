@@ -35,12 +35,14 @@ GET /api/v1/persons/{personId}/claims?status=disputed
 
 ```http
 GET /api/v1/persons/{personId}/relatives?up=2&down=2
+GET /api/v1/persons/{personId}/relatives?scope=all
 ```
 
 返回以该人物为中心、向上向下各若干代的**轻量**切片：`nodes`（id、姓名、生卒原文、状态）、`parent_edges`（按存储方向 PARENT→CHILD）、`spouse_edges`。每条边带 `claim_id`、`status` 和 `citations`（`source_title` + `locator`）——连线本身就是一条主张，读者要能就地看到它的依据。不含人物的其他主张。
 
 - `up`／`down` 为 0–4 的整数，默认各 2；超出范围返回 `400 invalid_generations`；
 - 单次最多返回 240 个节点，触顶时 `truncated: true`，客户端应提示「从某个具体人物继续展开」而不是静默截断；
+- `scope=all` 返回该人物所在的完整公开亲缘连通分量，供「展开全部」使用；全局视图最多 1200 人，触顶同样以 `truncated` 明示；响应以 `scope: "all"` 区分；
 - 只包含公开人物（`active`／`merged`），已撤回的关系不计入；
 - 配偶边只在两端都在本次切片内时返回。
 

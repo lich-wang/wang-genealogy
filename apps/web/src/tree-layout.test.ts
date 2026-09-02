@@ -3,11 +3,13 @@ import type { ParentEdge, RelativeNode, SpouseEdge } from '@wang/domain';
 import {
   NODE_HEIGHT,
   NODE_WIDTH,
+  GAP_Y,
   compactLifespan,
   compactYear,
   evidenceLabel,
   evidenceTooltip,
   UNKNOWN_DESCENT_SPAN,
+  focusedKinshipIds,
   layoutTree,
   redundantDescent,
 } from './tree-layout.ts';
@@ -111,6 +113,59 @@ describe('layoutTree', () => {
     // An orphan node (no edge to the root) must not vanish from the diagram.
     const layout = layoutTree(graph(['me', 'stranger'], []), 'me');
     expect(layout.nodes.has('stranger')).toBe(true);
+  });
+
+  it('keeps a very long descendant path moving down without wrapping forward', () => {
+    const ids = Array.from({ length: 42 }, (_, index) => `generation-${index}`);
+    const edges = ids.slice(1).map((id, index) => parent(ids[index]!, id));
+    const layout = layoutTree(graph(ids, [...edges].reverse()), ids[0]!);
+    ids.forEach((id, index) => {
+      const placed = layout.nodes.get(id)!;
+      expect(placed.generation).toBe(index);
+      if (index > 0) {
+        expect(placed.y - layout.nodes.get(ids[index - 1]!)!.y).toBe(NODE_HEIGHT + GAP_Y);
+      }
+    });
+  });
+
+  it('uses the longest directed constraint when two paths meet again', () => {
+    const ids = ['root', 'short', 'long-1', 'long-2', 'meeting', 'child'];
+    const edges = [
+      parent('root', 'short'),
+      parent('short', 'meeting'),
+      parent('root', 'long-1'),
+      parent('long-1', 'long-2'),
+      parent('long-2', 'meeting'),
+      parent('meeting', 'child'),
+    ];
+    const layout = layoutTree(graph(ids, edges), 'root');
+    expect(layout.nodes.get('meeting')?.generation).toBe(3);
+    expect(layout.nodes.get('child')?.generation).toBe(4);
+    for (const edge of edges) {
+      expect(layout.nodes.get(edge.child_id)!.generation)
+        .toBeGreaterThan(layout.nodes.get(edge.parent_id)!.generation);
+    }
+  });
+});
+
+describe('focusedKinshipIds', () => {
+  it('keeps the selected ancestor/descendant trunk and folds collateral branches', () => {
+    const edges = [
+      parent('grandpa', 'dad'),
+      parent('grandpa', 'uncle'),
+      parent('dad', 'me'),
+      parent('dad', 'sibling'),
+      parent('uncle', 'cousin'),
+      parent('me', 'kid'),
+      parent('kid', 'grandkid'),
+    ];
+    const visible = focusedKinshipIds('me', edges, [spouse('me', 'partner')]);
+    expect([...visible]).toEqual(expect.arrayContaining([
+      'grandpa', 'dad', 'me', 'partner', 'kid', 'grandkid',
+    ]));
+    expect(visible.has('uncle')).toBe(false);
+    expect(visible.has('sibling')).toBe(false);
+    expect(visible.has('cousin')).toBe(false);
   });
 });
 

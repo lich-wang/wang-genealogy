@@ -124,6 +124,8 @@ export interface DescentEdge extends KinshipEdgeBase {
  */
 export interface RelativesGraph {
   root_id: string;
+  /** `all` is the complete connected public kinship component (up to its safety cap). */
+  scope?: 'bounded' | 'all';
   up: number;
   down: number;
   nodes: RelativeNode[];

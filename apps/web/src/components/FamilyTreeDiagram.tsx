@@ -39,6 +39,7 @@ interface DiagramProps {
   descentEdges: DescentEdge[];
   expanded: Set<string>;
   busyId: string | null;
+  fitAll: boolean;
   selectedPersonId: string | null;
   selectedClaimId: string | null;
   onPersonClick: (personId: string) => void;
@@ -58,6 +59,7 @@ export function FamilyTreeDiagram({
   descentEdges,
   expanded,
   busyId,
+  fitAll,
   selectedPersonId,
   selectedClaimId,
   onPersonClick,
@@ -125,21 +127,27 @@ export function FamilyTreeDiagram({
     [parentEdges, descentEdges, spouseEdges, layout, selectedClaimId],
   );
 
-  const centerPerson = useCallback((personId: string, duration: number) => {
+  const centerPerson = useCallback((personId: string, duration: number, zoomIn = false) => {
     const flow = flowRef.current;
     const placed = layout.nodes.get(personId);
     if (!flow || !placed) return;
     const reduceMotion = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches ?? false;
     void flow.setCenter(placed.x + NODE_WIDTH / 2, placed.y + NODE_HEIGHT / 2, {
-      zoom: flow.getZoom(),
+      zoom: zoomIn ? Math.max(flow.getZoom(), 0.68) : flow.getZoom(),
       duration: reduceMotion ? 0 : duration,
     });
   }, [layout]);
 
   const focusedPersonId = selectedPersonId ?? rootId;
   useEffect(() => {
-    if (flowReady) centerPerson(focusedPersonId, selectedPersonId ? 280 : 0);
-  }, [flowReady, centerPerson, focusedPersonId, selectedPersonId]);
+    if (!flowReady) return;
+    if (fitAll) {
+      const reduceMotion = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches ?? false;
+      void flowRef.current?.fitView({ padding: 0.12, duration: reduceMotion ? 0 : 320, maxZoom: 0.8 });
+      return;
+    }
+    centerPerson(focusedPersonId, selectedPersonId ? 280 : 0, Boolean(selectedPersonId));
+  }, [flowReady, centerPerson, focusedPersonId, selectedPersonId, fitAll]);
 
   return (
     <div className="tree-canvas" role="region" aria-label="家族树图">
@@ -147,7 +155,7 @@ export function FamilyTreeDiagram({
         nodes={nodes}
         edges={edges}
         nodeTypes={nodeTypes}
-        minZoom={0.35}
+        minZoom={0.01}
         maxZoom={1.8}
         nodesDraggable={false}
         nodesConnectable={false}
@@ -159,7 +167,6 @@ export function FamilyTreeDiagram({
           setFlowReady(true);
         }}
         onNodeClick={(_, node) => {
-          centerPerson(node.id, 280);
           onPersonClick(node.id);
         }}
         onEdgeClick={(_, edge) => onEdgeClick(edge.id)}

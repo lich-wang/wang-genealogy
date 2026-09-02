@@ -44,6 +44,164 @@ interface Graph {
   descentEdges?: DescentEdge[];
 }
 
+interface GenerationConstraint {
+  from: string;
+  to: string;
+  span: number;
+}
+
+/**
+ * Assign one stable row to every person from the direction of all loaded
+ * lineage edges. Spouses are one unit; directed cycles are collapsed rather
+ * than allowing a child to jump above its forebear.
+ */
+function assignGenerations(graph: Graph, rootId: string): Map<string, number> {
+  const ids = [...graph.nodes.keys()];
+  const parent = new Map(ids.map((id) => [id, id]));
+  const find = (id: string): string => {
+    const p = parent.get(id) ?? id;
+    if (p === id) return id;
+    const root = find(p);
+    parent.set(id, root);
+    return root;
+  };
+  const union = (a: string, b: string) => {
+    const ra = find(a);
+    const rb = find(b);
+    if (ra !== rb) parent.set(rb, ra);
+  };
+  for (const edge of graph.spouseEdges) {
+    if (graph.nodes.has(edge.a_id) && graph.nodes.has(edge.b_id)) union(edge.a_id, edge.b_id);
+  }
+
+  const constraints: GenerationConstraint[] = [
+    ...graph.parentEdges.map((edge) => ({ from: edge.parent_id, to: edge.child_id, span: 1 })),
+    ...(graph.descentEdges ?? []).map((edge) => ({
+      from: edge.ancestor_id,
+      to: edge.descendant_id,
+      span: edge.generations && edge.generations > 1 ? edge.generations : UNKNOWN_DESCENT_SPAN,
+    })),
+  ].filter((edge) => graph.nodes.has(edge.from) && graph.nodes.has(edge.to));
+
+  const units = [...new Set(ids.map(find))];
+  const adjacency = new Map<string, Array<{ to: string; span: number }>>();
+  const reverse = new Map<string, string[]>();
+  for (const edge of constraints) {
+    const from = find(edge.from);
+    const to = find(edge.to);
+    if (from === to) continue;
+    adjacency.set(from, [...(adjacency.get(from) ?? []), { to, span: edge.span }]);
+    reverse.set(to, [...(reverse.get(to) ?? []), from]);
+  }
+
+  // Collapse strongly connected components. Historical data should be acyclic,
+  // but a disputed/imported cycle must never make later descendants render on
+  // an earlier row.
+  const seen = new Set<string>();
+  const order: string[] = [];
+  const visit = (id: string) => {
+    if (seen.has(id)) return;
+    seen.add(id);
+    for (const edge of adjacency.get(id) ?? []) visit(edge.to);
+    order.push(id);
+  };
+  for (const unit of units) visit(unit);
+
+  const componentOf = new Map<string, number>();
+  const assign = (id: string, component: number) => {
+    if (componentOf.has(id)) return;
+    componentOf.set(id, component);
+    for (const previous of reverse.get(id) ?? []) assign(previous, component);
+  };
+  let componentCount = 0;
+  for (const unit of [...order].reverse()) {
+    if (componentOf.has(unit)) continue;
+    assign(unit, componentCount);
+    componentCount += 1;
+  }
+
+  const componentEdges = new Map<number, Map<number, number>>();
+  const indegree = new Map<number, number>(Array.from({ length: componentCount }, (_, i) => [i, 0]));
+  for (const [from, edges] of adjacency) {
+    const fromComponent = componentOf.get(from)!;
+    for (const edge of edges) {
+      const toComponent = componentOf.get(edge.to)!;
+      if (fromComponent === toComponent) continue;
+      const targets = componentEdges.get(fromComponent) ?? new Map<number, number>();
+      const previous = targets.get(toComponent);
+      if (previous === undefined) indegree.set(toComponent, (indegree.get(toComponent) ?? 0) + 1);
+      targets.set(toComponent, Math.max(previous ?? 0, edge.span));
+      componentEdges.set(fromComponent, targets);
+    }
+  }
+
+  const componentGeneration = new Map<number, number>(
+    Array.from({ length: componentCount }, (_, i) => [i, 0]),
+  );
+  const queue = [...indegree].filter(([, count]) => count === 0).map(([id]) => id).sort((a, b) => a - b);
+  while (queue.length > 0) {
+    const component = queue.shift()!;
+    const current = componentGeneration.get(component) ?? 0;
+    for (const [target, span] of componentEdges.get(component) ?? []) {
+      componentGeneration.set(target, Math.max(componentGeneration.get(target) ?? 0, current + span));
+      const remaining = (indegree.get(target) ?? 1) - 1;
+      indegree.set(target, remaining);
+      if (remaining === 0) queue.push(target);
+    }
+  }
+
+  const rootUnit = find(rootId);
+  const rootGeneration = componentGeneration.get(componentOf.get(rootUnit) ?? -1) ?? 0;
+  return new Map(ids.map((id) => [
+    id,
+    (componentGeneration.get(componentOf.get(find(id)) ?? -1) ?? 0) - rootGeneration,
+  ]));
+}
+
+/** Keep one person's complete ancestor/descendant trunk and hide side branches. */
+export function focusedKinshipIds(
+  focusId: string,
+  parentEdges: ParentEdge[],
+  spouseEdges: SpouseEdge[],
+  descentEdges: DescentEdge[] = [],
+): Set<string> {
+  const parentsOf = new Map<string, string[]>();
+  const childrenOf = new Map<string, string[]>();
+  const add = (map: Map<string, string[]>, key: string, value: string) =>
+    map.set(key, [...(map.get(key) ?? []), value]);
+  for (const edge of parentEdges) {
+    add(parentsOf, edge.child_id, edge.parent_id);
+    add(childrenOf, edge.parent_id, edge.child_id);
+  }
+  for (const edge of descentEdges) {
+    add(parentsOf, edge.descendant_id, edge.ancestor_id);
+    add(childrenOf, edge.ancestor_id, edge.descendant_id);
+  }
+
+  const visible = new Set<string>([focusId]);
+  const walk = (map: Map<string, string[]>) => {
+    const queue = [focusId];
+    while (queue.length > 0) {
+      const id = queue.shift()!;
+      for (const next of map.get(id) ?? []) {
+        if (visible.has(next)) continue;
+        visible.add(next);
+        queue.push(next);
+      }
+    }
+  };
+  walk(parentsOf);
+  walk(childrenOf);
+
+  // Spouses stay beside people on the trunk, but their unrelated ancestry and
+  // descendants remain folded until that spouse is selected.
+  for (const edge of spouseEdges) {
+    if (visible.has(edge.a_id)) visible.add(edge.b_id);
+    if (visible.has(edge.b_id)) visible.add(edge.a_id);
+  }
+  return visible;
+}
+
 export function layoutTree(graph: Graph, rootId: string): Layout {
   const { nodes, parentEdges, spouseEdges, descentEdges = [] } = graph;
 
@@ -81,59 +239,9 @@ export function layoutTree(graph: Graph, rootId: string): Layout {
     ]);
   }
 
-  // 1. Generation per person: parents one row up, children one row down, a
-  //    spouse on the same row, and a line of descent as many rows as the
-  //    source said.
-  //
-  //    The two kinds take turns rather than running one after the other.
-  //    Named parentage goes as far as it can first, because a row it assigns
-  //    is a generation somebody recorded; then one round of descent reaches
-  //    people no parent link could; then parentage runs again from those. Doing
-  //    it in two passes instead left anyone below a descent-placed person
-  //    unreachable — expanding 王元, who hangs off 王翦 by a line of descent,
-  //    dropped his son 王诚 onto the root's row.
-  const generation = new Map<string, number>([[rootId, 0]]);
-
-  const walkNamed = () => {
-    const queue = [...generation.keys()];
-    let placed = false;
-    while (queue.length > 0) {
-      const id = queue.shift()!;
-      const g = generation.get(id)!;
-      const visit = (other: string, value: number) => {
-        if (!nodes.has(other) || generation.has(other)) return;
-        generation.set(other, value);
-        queue.push(other);
-        placed = true;
-      };
-      for (const parent of parentsOf.get(id) ?? []) visit(parent, g - 1);
-      for (const child of childrenOf.get(id) ?? []) visit(child, g + 1);
-      for (const spouse of spousesOf.get(id) ?? []) visit(spouse, g);
-    }
-    return placed;
-  };
-
-  const stepDescent = () => {
-    let placed = false;
-    for (const id of [...generation.keys()]) {
-      const g = generation.get(id)!;
-      const visit = (other: string, value: number) => {
-        if (!nodes.has(other) || generation.has(other)) return;
-        generation.set(other, value);
-        placed = true;
-      };
-      for (const a of ancestorsOf.get(id) ?? []) visit(a.id, g - a.span);
-      for (const d of descendantsOf.get(id) ?? []) visit(d.id, g + d.span);
-    }
-    return placed;
-  };
-
-  walkNamed();
-  while (stepDescent()) walkNamed();
-
-  // Anyone the walk could not reach (a spouse-of-a-spouse, say) goes on the
-  // root's row rather than being dropped from the picture.
-  for (const id of nodes.keys()) if (!generation.has(id)) generation.set(id, 0);
+  // 1. Generation per person, solved from every loaded directed relationship
+  // instead of whichever path happened to be visited first.
+  const generation = assignGenerations(graph, rootId);
 
   const rows = new Map<number, string[]>();
   for (const [id, g] of generation) rows.set(g, [...(rows.get(g) ?? []), id]);
@@ -252,7 +360,8 @@ export function layoutTree(graph: Graph, rootId: string): Layout {
   // 6. Coordinates, normalised so the leftmost block sits at the padding.
   const placed = new Map<string, PlacedNode>();
   const left = Math.min(...[...unitX.values()], 0);
-  const rowIndexOf = new Map(generations.map((g, i) => [g, i]));
+  const minGeneration = generations[0] ?? 0;
+  const maxGeneration = generations[generations.length - 1] ?? minGeneration;
   for (const [unit, members] of unitMembers) {
     members.forEach((id, i) => {
       const node = nodes.get(id);
@@ -261,7 +370,7 @@ export function layoutTree(graph: Graph, rootId: string): Layout {
         node,
         generation: generation.get(unit)!,
         x: PADDING + unitX.get(unit)! - left + i * (NODE_WIDTH + GAP_X),
-        y: PADDING + rowIndexOf.get(generation.get(unit)!)! * (NODE_HEIGHT + GAP_Y),
+        y: PADDING + (generation.get(unit)! - minGeneration) * (NODE_HEIGHT + GAP_Y),
       });
     });
   }
@@ -273,7 +382,7 @@ export function layoutTree(graph: Graph, rootId: string): Layout {
   return {
     nodes: placed,
     width: totalWidth + PADDING * 2,
-    height: generations.length * (NODE_HEIGHT + GAP_Y) - GAP_Y + PADDING * 2,
+    height: (maxGeneration - minGeneration + 1) * (NODE_HEIGHT + GAP_Y) - GAP_Y + PADDING * 2,
     generations,
   };
 }

@@ -1,20 +1,20 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
+import { Focus, LoaderCircle, Network } from 'lucide-react';
 import type { DescentEdge, ParentEdge, RelativeNode, RelativesGraph, SpouseEdge } from '@wang/domain';
 import { api } from '../api';
 import { FamilyTreeDiagram } from '../components/FamilyTreeDiagram';
 import { toMessage } from '../hooks';
 import { useScript } from '../i18n';
-import { redundantDescent } from '../tree-layout';
+import { focusedKinshipIds, redundantDescent } from '../tree-layout';
 
 /**
  * Family tree as a diagram: generations in rows, ancestors above the person,
  * descendants below, and every line labelled with the statement it rests on.
  *
- * The graph is assembled from repeated bounded fetches rather than one big
- * query — this database has a 700-person connected component, so a whole-family
- * render would be neither readable nor fast. Clicking a person walks one more
- * generation out from them.
+ * Starts with a compact neighbourhood. “Expand all” loads the connected public
+ * family, while selecting a person folds away side branches and keeps that
+ * person's complete ancestor/descendant trunk.
  */
 interface Graph {
   nodes: Map<string, RelativeNode>;
@@ -45,7 +45,11 @@ function merge(graph: Graph, slice: RelativesGraph): Graph {
   for (const edge of slice.parent_edges) next.parentEdges.set(edge.claim_id, edge);
   for (const edge of slice.spouse_edges) next.spouseEdges.set(edge.claim_id, edge);
   for (const edge of slice.descent_edges ?? []) next.descentEdges.set(edge.claim_id, edge);
-  next.expanded.add(slice.root_id);
+  if (slice.scope === 'all') {
+    for (const node of slice.nodes) next.expanded.add(node.id);
+  } else {
+    next.expanded.add(slice.root_id);
+  }
   return next;
 }
 
@@ -60,6 +64,9 @@ export function FamilyTreePage() {
   const [graph, setGraph] = useState<Graph>(emptyGraph);
   const [loading, setLoading] = useState(true);
   const [busyId, setBusyId] = useState<string | null>(null);
+  const [loadingAll, setLoadingAll] = useState(false);
+  const [allLoaded, setAllLoaded] = useState(false);
+  const [focusId, setFocusId] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [truncated, setTruncated] = useState(false);
   const [selection, setSelection] = useState<Selection>({ kind: 'none' });
@@ -68,6 +75,9 @@ export function FamilyTreePage() {
     let cancelled = false;
     setGraph(emptyGraph());
     setSelection({ kind: 'none' });
+    setFocusId(null);
+    setAllLoaded(false);
+    setLoadingAll(false);
     setLoading(true);
     setError(null);
     api
@@ -84,20 +94,24 @@ export function FamilyTreePage() {
     };
   }, [id]);
 
-  /** Walk one more generation out from this person, both directions. */
-  const expand = useCallback(async (personId: string) => {
-    setBusyId(personId);
+  /** Load the complete connected graph once; it then powers global and focused views. */
+  const loadWholeTree = useCallback(async (personId?: string) => {
+    if (loadingAll || allLoaded) return;
+    setLoadingAll(true);
+    setBusyId(personId ?? null);
     setError(null);
     try {
-      const slice = await api.getRelatives(personId, 1, 1);
+      const slice = await api.getAllRelatives(id);
       setGraph((current) => merge(current, slice));
+      setAllLoaded(true);
       if (slice.truncated) setTruncated(true);
     } catch (err) {
       setError(toMessage(err));
     } finally {
+      setLoadingAll(false);
       setBusyId(null);
     }
-  }, []);
+  }, [allLoaded, id, loadingAll]);
 
   // A line of descent whose generations are already drawn as parent links is
   // the same statement twice, and expanding the tree fills those gaps in one
@@ -109,6 +123,40 @@ export function FamilyTreePage() {
     const covered = redundantDescent(parentEdges, all);
     return all.filter((edge) => !covered.has(edge.claim_id));
   }, [graph]);
+
+  const visibleIds = useMemo(
+    () => focusId
+      ? focusedKinshipIds(
+          focusId,
+          [...graph.parentEdges.values()],
+          [...graph.spouseEdges.values()],
+          [...graph.descentEdges.values()],
+        )
+      : new Set(graph.nodes.keys()),
+    [focusId, graph],
+  );
+  const people = useMemo(
+    () => new Map([...graph.nodes].filter(([personId]) => visibleIds.has(personId))),
+    [graph.nodes, visibleIds],
+  );
+  const parentEdges = useMemo(
+    () => [...graph.parentEdges.values()].filter(
+      (edge) => visibleIds.has(edge.parent_id) && visibleIds.has(edge.child_id),
+    ),
+    [graph.parentEdges, visibleIds],
+  );
+  const spouseEdges = useMemo(
+    () => [...graph.spouseEdges.values()].filter(
+      (edge) => visibleIds.has(edge.a_id) && visibleIds.has(edge.b_id),
+    ),
+    [graph.spouseEdges, visibleIds],
+  );
+  const visibleDescentEdges = useMemo(
+    () => descentEdges.filter(
+      (edge) => visibleIds.has(edge.ancestor_id) && visibleIds.has(edge.descendant_id),
+    ),
+    [descentEdges, visibleIds],
+  );
 
   const root = graph.nodes.get(id);
 
@@ -132,15 +180,49 @@ export function FamilyTreePage() {
           {t(' 的家族树')}
         </h1>
         <p className="hint">
-          {t('祖先在上、后代在下。点人物方框可将他居中并再展开上下一代；点连线可查看这条关系的依据。')}
+          {t('祖先在上、后代在下。点人物会收起旁系，只保留他的完整父辈与子辈主干；点连线可查看关系依据。')}
         </p>
+        <div className="tree-toolbar" aria-label={t('家族树视图工具')}>
+          {focusId ? (
+            <button
+              className="btn btn-secondary"
+              type="button"
+              disabled={loadingAll}
+              onClick={() => {
+                setFocusId(null);
+                setSelection({ kind: 'none' });
+                if (!allLoaded) void loadWholeTree();
+              }}
+            >
+              <Network size={17} aria-hidden />
+              {loadingAll ? t('正在展开全族…') : t('返回全局家族树')}
+            </button>
+          ) : (
+            <button
+              className="btn"
+              type="button"
+              disabled={loadingAll || allLoaded}
+              onClick={() => void loadWholeTree()}
+            >
+              {loadingAll ? <LoaderCircle className="spin" size={17} aria-hidden /> : <Network size={17} aria-hidden />}
+              {loadingAll ? t('正在展开全族…') : allLoaded ? t('已展开全部') : t('展开全部')}
+            </button>
+          )}
+          {focusId ? (
+            <span className="tree-focus-note">
+              <Focus size={15} aria-hidden />
+              {t('已聚焦')} <PersonName node={graph.nodes.get(focusId)!} />
+              {graph.nodes.size > people.size ? ` · ${t('已收起')} ${graph.nodes.size - people.size} ${t('位旁系人物')}` : ''}
+            </span>
+          ) : null}
+        </div>
         <p className="muted">
-          {t('当前显示')} {graph.nodes.size} {t('人')}、{graph.parentEdges.size}{' '}
+          {t('当前显示')} {people.size} {t('人')}、{parentEdges.length}{' '}
           {t('条亲子关系')}
-          {descentEdges.length > 0
-            ? `、${descentEdges.length} ${t('条跨代世系关系')}`
+          {visibleDescentEdges.length > 0
+            ? `、${visibleDescentEdges.length} ${t('条跨代世系关系')}`
             : ''}
-          {truncated ? ` · ${t('已达单次返回上限，请从具体人物继续展开')}` : ''}
+          {truncated ? ` · ${t('已达全局安全上限')}` : ''}
           {' · '}
           <Link to={`/persons/${encodeURIComponent(root.id)}`}>{t('返回人物页')}</Link>
         </p>
@@ -149,18 +231,20 @@ export function FamilyTreePage() {
       {error ? <p className="error">{t(error)}</p> : null}
 
       <FamilyTreeDiagram
-        rootId={id}
-        people={graph.nodes}
-        parentEdges={[...graph.parentEdges.values()]}
-        spouseEdges={[...graph.spouseEdges.values()]}
-        descentEdges={descentEdges}
+        rootId={focusId ?? id}
+        people={people}
+        parentEdges={parentEdges}
+        spouseEdges={spouseEdges}
+        descentEdges={visibleDescentEdges}
         expanded={graph.expanded}
         busyId={busyId}
+        fitAll={allLoaded && !focusId}
         selectedPersonId={selection.kind === 'person' ? selection.id : null}
         selectedClaimId={selection.kind === 'edge' ? selection.claimId : null}
         onPersonClick={(personId) => {
           setSelection({ kind: 'person', id: personId });
-          if (!graph.expanded.has(personId)) void expand(personId);
+          setFocusId(personId);
+          if (!allLoaded) void loadWholeTree(personId);
         }}
         onEdgeClick={(claimId) => setSelection({ kind: 'edge', claimId })}
       />

@@ -14,7 +14,7 @@ import { badRequest, conflict, forbidden, notFound } from '../errors.ts';
 import { mapClaim, mapMergeProposal, mapPerson, mapSource } from '../db.ts';
 import { computePersonSummary } from '../summary.ts';
 import { findPersonsByName } from '../nameSearch.ts';
-import { MAX_GENERATIONS, loadRelatives } from '../relatives.ts';
+import { MAX_GENERATIONS, loadAllRelatives, loadRelatives } from '../relatives.ts';
 import {
   assertPropertyPredicate,
   assertSourcesExist,
@@ -144,7 +144,11 @@ app.get('/:id/relatives', async (c) => {
     return n;
   };
 
-  const graph = await loadRelatives(c.env.DB, person.id, {
+  const scope = c.req.query('scope');
+  if (scope !== undefined && scope !== 'all') {
+    throw badRequest('invalid_scope', '家族树范围仅支持 all。');
+  }
+  const graph = scope === 'all' ? await loadAllRelatives(c.env.DB, person.id) : await loadRelatives(c.env.DB, person.id, {
     up: generations(c.req.query('up'), 2),
     down: generations(c.req.query('down'), 2),
   });

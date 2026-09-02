@@ -248,6 +248,12 @@ export const api = {
       query: { up, down },
     }),
 
+  /** Complete connected public kinship component for the global tree view. */
+  getAllRelatives: (id: string) =>
+    request<RelativesGraph>(`/persons/${encodeURIComponent(id)}/relatives`, {
+      query: { scope: 'all' },
+    }),
+
   getPersonHistory: (id: string) =>
     request<{ history: Contribution[] }>(`/persons/${encodeURIComponent(id)}/history`).then(
       (r) => r.history,
