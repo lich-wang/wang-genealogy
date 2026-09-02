@@ -7,6 +7,10 @@ dist/
 .DS_Store
 coverage/
 
+# Generated from a temporary production export during deployment. The checked-in
+# family-tree components remain the last-resort bootstrap fallback.
+apps/api/tree-snapshot/public/
+
 # maintenance script caches (CBDB responses)
 scripts/.cache/
 # regenerated every expansion round; the durable record is the append-only

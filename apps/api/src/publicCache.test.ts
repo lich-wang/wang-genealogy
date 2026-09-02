@@ -7,6 +7,9 @@ describe('public edge-cache policy', () => {
   it('caches expensive public reads with bounded staleness', () => {
     expect(cacheTtlFor(url('/api/v1/persons/p_1'))).toBe(300);
     expect(cacheTtlFor(url('/api/v1/persons/p_1/relatives?up=2&down=2'))).toBe(300);
+    expect(cacheTtlFor(url('/api/v1/persons/p_1/export'))).toBe(300);
+    expect(cacheTtlFor(url('/api/v1/claims/c_1'))).toBe(300);
+    expect(cacheTtlFor(url('/api/v1/person-merge-proposals/m_1'))).toBe(300);
     expect(cacheTtlFor(url('/api/v1/search?q=王俭'))).toBe(120);
     expect(cacheTtlFor(url('/api/v1/kinship-highlights'))).toBe(600);
   });

@@ -11,6 +11,9 @@ on:
   pull_request:
     branches: [main]
   workflow_dispatch:
+  schedule:
+    # Refresh the anonymous read model daily at 02:17 Asia/Shanghai.
+    - cron: '17 18 * * *'
 
 concurrency:
   group: deploy-${{ github.ref }}
@@ -40,7 +43,10 @@ jobs:
 
   deploy:
     # Only deploy on pushes to main, after tests pass.
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    if: >-
+      (github.event_name == 'push' && github.ref == 'refs/heads/main') ||
+      github.event_name == 'schedule' ||
+      github.event_name == 'workflow_dispatch'
     needs: test
     runs-on: ubuntu-latest
     env:
@@ -58,12 +64,21 @@ jobs:
 
       - name: Apply D1 migrations (remote)
         run: |
-          if git diff --quiet HEAD^ HEAD -- migrations; then
+          if [ "${{ github.event_name }}" != "push" ] || git diff --quiet HEAD^ HEAD -- migrations; then
             echo "No migration changes; skipping remote D1 migration check."
           else
             cd apps/api
             npx wrangler d1 migrations apply wang-genealogy --remote
           fi
+
+      - name: Build anonymous zero-D1 read model
+        run: |
+          if ! npx wrangler d1 export wang-genealogy --remote --output=/tmp/wang-genealogy-public.sql --config apps/api/wrangler.toml > /tmp/wang-genealogy-export.log 2>&1; then
+            sed -E 's#https://[^[:space:]]+#<redacted-export-url>#g' /tmp/wang-genealogy-export.log >&2
+            exit 1
+          fi
+          sqlite3 -cmd "PRAGMA journal_mode=OFF;" -cmd "PRAGMA synchronous=OFF;" -cmd "BEGIN;" /tmp/wang-genealogy-public.sqlite ".read /tmp/wang-genealogy-public.sql" "COMMIT;"
+          PUBLIC_SNAPSHOT_DB=/tmp/wang-genealogy-public.sqlite npm run build:public-snapshot
 
       - name: Deploy API (Worker)
         working-directory: apps/api

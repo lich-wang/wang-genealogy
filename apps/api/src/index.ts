@@ -14,7 +14,8 @@ import claims from './routes/claims.ts';
 import sources from './routes/sources.ts';
 import mergeProposals, { createMergeHandler } from './routes/merges.ts';
 import { publicReadCache } from './publicCache.ts';
-import { publicTreeSnapshot, serveAnonymousFullTree } from './treeSnapshot.ts';
+import { serveAnonymousPublicSnapshot } from './publicSnapshot.ts';
+import { publicTreeSnapshot } from './treeSnapshot.ts';
 
 const app = new Hono<{ Bindings: Env; Variables: Variables }>();
 
@@ -36,8 +37,8 @@ app.use('*', async (c, next) => {
   })(c, next);
 });
 
-app.use('/api/v1/persons/*', serveAnonymousFullTree);
 app.use('/api/v1/*', publicReadCache);
+app.use('/api/v1/*', serveAnonymousPublicSnapshot);
 app.use('*', authMiddleware);
 
 app.get('/', (c) => c.json({ name: 'wang-genealogy-api', version: 'v1', status: 'ok' }));
@@ -169,7 +170,7 @@ app.onError(async (err, c) => {
   const relatives = /^\/api\/v1\/persons\/([^/]+)\/relatives$/.exec(path);
   if (c.req.method === 'GET' && relatives && c.env.TREE_SNAPSHOT) {
     try {
-      const response = await publicTreeSnapshot(c.env.TREE_SNAPSHOT, decodeURIComponent(relatives[1]!));
+      const response = await publicTreeSnapshot(c.env.TREE_SNAPSHOT, decodeURIComponent(relatives[1]!), false);
       if (response) return response;
     } catch (snapshotError) {
       console.error('tree snapshot unavailable', snapshotError);

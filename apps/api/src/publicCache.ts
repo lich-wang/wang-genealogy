@@ -12,8 +12,10 @@ export function cacheTtlFor(url: URL): number {
   if (path === '/api/v1/changes') return 30;
   if (path === '/api/v1/search') return 120;
   if (path === '/api/v1/kinship-highlights') return 600;
-  if (/^\/api\/v1\/persons\/[^/]+(?:\/claims|\/history|\/relatives)?$/.test(path)) return 300;
+  if (/^\/api\/v1\/persons\/[^/]+(?:\/claims|\/history|\/relatives|\/export)?$/.test(path)) return 300;
+  if (/^\/api\/v1\/claims\/[^/]+$/.test(path)) return 300;
   if (/^\/api\/v1\/sources(?:\/[^/]+(?:\/claims)?)?$/.test(path)) return 300;
+  if (/^\/api\/v1\/person-merge-proposals\/[^/]+$/.test(path)) return 300;
   return 0;
 }
 
