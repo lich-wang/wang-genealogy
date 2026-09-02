@@ -17,6 +17,7 @@
     "dev:api": "npm run dev --workspace apps/api",
     "dev:web": "npm run dev --workspace apps/web",
     "deploy": "npm run deploy --workspace apps/api && npm run deploy --workspace apps/web",
+    "audit:tree-path": "node scripts/longest-tree-path.mjs",
     "typecheck": "tsc --noEmit -p packages/domain/tsconfig.json && tsc --noEmit -p packages/i18n/tsconfig.json && tsc --noEmit -p packages/validation/tsconfig.json && tsc --noEmit -p apps/api/tsconfig.json && npm run typecheck --workspace apps/web",
     "test:e2e": "node e2e/smoke.mjs"
   },

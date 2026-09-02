@@ -13,6 +13,8 @@ import persons from './routes/persons.ts';
 import claims from './routes/claims.ts';
 import sources from './routes/sources.ts';
 import mergeProposals, { createMergeHandler } from './routes/merges.ts';
+import { publicReadCache } from './publicCache.ts';
+import { publicTreeSnapshot, serveAnonymousFullTree } from './treeSnapshot.ts';
 
 const app = new Hono<{ Bindings: Env; Variables: Variables }>();
 
@@ -34,6 +36,8 @@ app.use('*', async (c, next) => {
   })(c, next);
 });
 
+app.use('/api/v1/persons/*', serveAnonymousFullTree);
+app.use('/api/v1/*', publicReadCache);
 app.use('*', authMiddleware);
 
 app.get('/', (c) => c.json({ name: 'wang-genealogy-api', version: 'v1', status: 'ok' }));
@@ -165,7 +169,7 @@ app.onError(async (err, c) => {
   const relatives = /^\/api\/v1\/persons\/([^/]+)\/relatives$/.exec(path);
   if (c.req.method === 'GET' && relatives && c.env.TREE_SNAPSHOT) {
     try {
-      const response = await treeSnapshot(c.env.TREE_SNAPSHOT, decodeURIComponent(relatives[1]!));
+      const response = await publicTreeSnapshot(c.env.TREE_SNAPSHOT, decodeURIComponent(relatives[1]!));
       if (response) return response;
     } catch (snapshotError) {
       console.error('tree snapshot unavailable', snapshotError);
@@ -177,21 +181,6 @@ app.onError(async (err, c) => {
   console.error('unhandled', err);
   return c.json({ error: 'internal_error', message: '伺服器內部錯誤。' }, 500);
 });
-
-async function treeSnapshot(assets: Fetcher, personId: string): Promise<Response | null> {
-  const indexResponse = await assets.fetch('https://tree-snapshot.invalid/index.json');
-  if (!indexResponse.ok) return null;
-  const index = await indexResponse.json<Record<string, string>>();
-  const file = index[personId];
-  if (!file) return null;
-  const graph = await assets.fetch(`https://tree-snapshot.invalid/${file}`);
-  if (!graph.ok) return null;
-  const headers = new Headers(graph.headers);
-  headers.set('Content-Type', 'application/json; charset=utf-8');
-  headers.set('Cache-Control', 'public, max-age=300, stale-while-revalidate=86400');
-  headers.set('X-Wang-Data-Source', 'public-tree-snapshot');
-  return new Response(graph.body, { status: 200, headers });
-}
 
 app.notFound((c) => c.json({ error: 'not_found', message: '介面不存在。' }, 404));
 
