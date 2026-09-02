@@ -1838,6 +1838,24 @@ a:hover {
   color: var(--ink);
   box-shadow: var(--shadow-sm);
 }
+.highlight-card-progenitor {
+  border-color: color-mix(in srgb, var(--accent) 42%, var(--line));
+  background: linear-gradient(135deg, color-mix(in srgb, var(--accent-soft) 72%, var(--surface)), var(--surface));
+}
+.highlight-card-progenitor .highlight-rank { color: var(--accent); }
+.progenitor-badge {
+  width: max-content;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.22rem;
+  margin-bottom: 0.1rem;
+  padding: 0.08rem 0.38rem;
+  border-radius: 999px;
+  color: var(--accent);
+  background: var(--accent-soft);
+  font-size: 0.65rem;
+  font-weight: 750;
+}
 .highlight-rank {
   position: absolute;
   right: 0.75rem;

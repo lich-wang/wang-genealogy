@@ -8,6 +8,7 @@ import { loginSchema, signupSchema } from '@wang/validation';
 import { mapUser } from './db.ts';
 import { nameOf } from './summary.ts';
 import { findPersonsByName, SEARCH_PAGE_SIZE } from './nameSearch.ts';
+import { loadKinshipHighlights } from './kinshipHighlights.ts';
 import persons from './routes/persons.ts';
 import claims from './routes/claims.ts';
 import sources from './routes/sources.ts';
@@ -72,35 +73,11 @@ app.get('/api/v1/search', async (c) => {
 // --- starting points for the family-tree view ---
 //
 // A tree needs a person to start from, and a newcomer has no reason to know
-// which of 781 records has a tree worth walking. Ranking by recorded kinship
-// answers that from the data instead of a hand-maintained list that would rot
-// as the database grows.
+// which of 781 records has a tree worth walking. The policy-backed pre-surname
+// progenitors come first; remaining places are ranked by recorded kinship.
 app.get('/api/v1/kinship-highlights', async (c) => {
   const limit = Math.min(Math.max(Number(c.req.query('limit') ?? 8), 1), 24);
-  const res = await c.env.DB
-    .prepare(
-      `SELECT p.id, COUNT(*) AS relative_count
-         FROM person p
-         JOIN claim c ON (c.subject_person_id = p.id OR c.object_person_id = p.id)
-        WHERE p.status = 'active'
-          AND c.claim_kind = 'relationship'
-          AND c.status NOT IN ('retracted','superseded')
-        GROUP BY p.id
-        ORDER BY relative_count DESC, p.created_at ASC
-        LIMIT ?`,
-    )
-    .bind(limit)
-    .all<{ id: string; relative_count: number }>();
-
-  const rows = res.results ?? [];
-  const names = await nameOf(c.env.DB, rows.map((r) => r.id));
-  return c.json({
-    items: rows.map((r) => ({
-      id: r.id,
-      display_name: names.get(r.id) ?? null,
-      relative_count: Number(r.relative_count),
-    })),
-  });
+  return c.json({ items: await loadKinshipHighlights(c.env.DB, limit) });
 });
 
 // --- recent changes (public feed) ---

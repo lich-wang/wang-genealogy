@@ -27,7 +27,8 @@ export function HomePage() {
   );
 
   // A tree has to start somewhere, and a first-time reader has no way to guess
-  // which record has a family worth walking — so the server ranks them.
+  // which record has a family worth walking — surname progenitors come first,
+  // then the server ranks the remaining records by recorded kinship.
   const highlights = useAsync<KinshipHighlight[]>(() => api.getKinshipHighlights(8), []);
 
   // A common surname matches far more than one page, so the result list is
@@ -163,9 +164,9 @@ export function HomePage() {
         <div className="section-head">
           <div>
             <span className="section-kicker"><Sparkles size={14} />{t('值得探索')}</span>
-            <h2>{t('从这些人物开始')}</h2>
+            <h2>{t('先从得姓先祖开始')}</h2>
           </div>
-          <span className="section-note">{t('按已收录亲属关系推荐')}</span>
+          <span className="section-note">{t('得姓先祖优先，其余按已收录亲属关系推荐')}</span>
         </div>
         {highlights.loading ? <p className="muted">{t('載入中…')}</p> : null}
         {highlights.error ? <p className="error">{t(highlights.error)}</p> : null}
@@ -173,10 +174,16 @@ export function HomePage() {
           <ul className="tree-entry-list highlight-grid">
             {highlights.data.map((person, index) => (
               <li key={person.id}>
-                <Link className="highlight-card" to={`/persons/${encodeURIComponent(person.id)}/tree`}>
+                <Link
+                  className={person.is_surname_progenitor ? 'highlight-card highlight-card-progenitor' : 'highlight-card'}
+                  to={`/persons/${encodeURIComponent(person.id)}/tree`}
+                >
                   <span className="highlight-rank">{String(index + 1).padStart(2, '0')}</span>
                   <span className="highlight-avatar">{(person.display_name ?? '王').slice(0, 1)}</span>
                   <span className="highlight-copy">
+                    {person.is_surname_progenitor ? (
+                      <span className="progenitor-badge"><Sparkles size={12} />{t('得姓先祖')}</span>
+                    ) : null}
                     <strong><ZhText text={person.display_name} fallback={t('未命名人物')} /></strong>
                     <small><Users size={14} />{t(`已收录 ${person.relative_count} 位亲属`)}</small>
                   </span>

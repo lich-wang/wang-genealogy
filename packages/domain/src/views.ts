@@ -139,6 +139,8 @@ export interface RelativesGraph {
 export interface KinshipHighlight {
   id: string;
   display_name: string | null;
+  /** True for the closed, policy-backed list of people before 王 became a surname. */
+  is_surname_progenitor: boolean;
   /** Recorded parents, children and spouses — how much tree there is to walk. */
   relative_count: number;
 }
