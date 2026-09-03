@@ -208,6 +208,14 @@ POST /api/v1/claims/{claimId}/revisions
 }
 ```
 
+历史导入中若大量 `parent_of` 已经由引用定位明确写出 P22/P25 或「父亲／母亲」，维护者可使用受限的集合式修复接口：
+
+```http
+POST /api/v1/claims/bulk-parent-roles
+```
+
+请求只接收 `claim_id`、`expected_revision` 和 `parent_role`。接口仅允许 `admin`／`maintainer`，会一次读取全部目标及其支持性引用，并独立验证定位文字；不能确认、证据冲突或版本变化时整批拒绝。通过后以集合式 SQL 更新谓词，并为每条主张分别追加 `ClaimRevision` 与 `Contribution`，不覆盖历史。日常人物编辑仍使用单条版本接口。
+
 争议与撤回：
 
 ```http
