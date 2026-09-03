@@ -2,7 +2,7 @@ import { Hono } from 'hono';
 import { z } from 'zod';
 import type { Env, Variables } from '../env.ts';
 import type { Claim, ClaimSnapshot, RelationshipPredicate } from '@wang/domain';
-import { parentPredicateForRole } from '@wang/domain';
+import { parentPredicateForRole, RELATIONSHIP_PREDICATES } from '@wang/domain';
 import { disputeSchema, normalizeDate, retractSchema, reviseClaimSchema, revertSchema, sourceRefSchema } from '@wang/validation';
 import { requireAuth, requireRole } from '../auth.ts';
 import { badRequest, conflict, notFound } from '../errors.ts';
@@ -38,6 +38,48 @@ const bulkParentRolesSchema = z.object({
     expected_revision: z.number().int().positive(),
     parent_role: z.enum(['father', 'mother']),
   })).min(1).max(1500),
+});
+
+const expectedRelationshipSchema = z.object({
+  predicate: z.enum(RELATIONSHIP_PREDICATES),
+  subject: z.string().min(3).max(80),
+  object: z.string().min(3).max(80),
+});
+
+/**
+ * Staff-only, set-based repair for an audited group of homonym/misread kinship
+ * claims. A relink never edits its source claim in place: the old claim is
+ * retracted and a new accepted claim carries the same citations to the correct
+ * person anchor. This keeps the evidence trail append-only while avoiding the
+ * hundreds of D1 round trips produced by the ordinary one-claim-at-a-time API.
+ */
+const bulkKinshipRepairSchema = z.object({
+  summary: z.string().min(3).max(500),
+  retractions: z.array(z.object({
+    claim_id: z.string().min(3).max(80),
+    expected_revision: z.number().int().positive(),
+    expect: expectedRelationshipSchema,
+    reason: z.string().min(3).max(500),
+  })).max(200),
+  splits: z.array(z.object({
+    key: z.string().regex(/^[a-z0-9_-]+$/).max(80),
+    name: z.object({ text: z.string().min(1).max(100), language: z.string().min(2).max(20) }),
+    evidence_claim_id: z.string().min(3).max(80),
+    reason: z.string().min(3).max(500),
+  })).max(100),
+  relinks: z.array(z.object({
+    source_claim_id: z.string().min(3).max(80),
+    subject: z.string().min(3).max(100),
+    object: z.string().min(3).max(100),
+    label: z.string().min(1).max(200),
+  })).max(200),
+  reclassifications: z.array(z.object({
+    claim_id: z.string().min(3).max(80),
+    expected_revision: z.number().int().positive(),
+    expect: expectedRelationshipSchema,
+    predicate: z.enum(RELATIONSHIP_PREDICATES),
+    reason: z.string().min(3).max(500),
+  })).max(50).default([]),
 });
 
 interface BackfillClaimRow extends Record<string, unknown> {
@@ -198,6 +240,299 @@ app.post('/bulk-parent-roles', async (c) => {
     already_applied: alreadyApplied,
     father: changes.filter((item) => item.predicate === 'kinship.father_of').length,
     mother: changes.filter((item) => item.predicate === 'kinship.mother_of').length,
+  });
+});
+
+app.post('/bulk-kinship-repairs', async (c) => {
+  const auth = requireRole(c, ['admin', 'maintainer']);
+  const body = bulkKinshipRepairSchema.parse(await c.req.json());
+  if (body.retractions.length + body.reclassifications.length === 0) {
+    throw badRequest('empty_repair', '修復計劃至少要修改一條既有主張。');
+  }
+
+  const splitKeys = body.splits.map((item) => item.key);
+  if (new Set(splitKeys).size !== splitKeys.length) {
+    throw badRequest('duplicate_split_key', '同名拆分鍵不能重複。');
+  }
+  const changedIds = [
+    ...body.retractions.map((item) => item.claim_id),
+    ...body.reclassifications.map((item) => item.claim_id),
+  ];
+  if (new Set(changedIds).size !== changedIds.length) {
+    throw badRequest('duplicate_claim', '同一條既有主張只能修改一次。');
+  }
+  const retractedIds = new Set(body.retractions.map((item) => item.claim_id));
+  for (const item of body.relinks) {
+    if (!retractedIds.has(item.source_claim_id)) {
+      throw badRequest('relink_without_retraction', `改掛來源主張未列入撤回：${item.source_claim_id}`);
+    }
+  }
+
+  const referencedClaimIds = [...new Set([
+    ...changedIds,
+    ...body.splits.map((item) => item.evidence_claim_id),
+    ...body.relinks.map((item) => item.source_claim_id),
+  ])];
+  const directPersonRefs = [...new Set(body.relinks.flatMap((item) => [item.subject, item.object])
+    .filter((ref) => !ref.startsWith('split:')))];
+  const [claimResult, personResult] = await c.env.DB.batch([
+    c.env.DB.prepare(
+      `SELECT c.*, cs.id AS cs_id, cs.source_id, cs.stance, cs.locator, cs.quotation,
+              cs.interpretation_note
+         FROM claim c
+         LEFT JOIN claim_source cs ON cs.claim_id = c.id
+        WHERE c.id IN (SELECT value FROM json_each(?))
+        ORDER BY c.id, cs.id`,
+    ).bind(JSON.stringify(referencedClaimIds)),
+    c.env.DB.prepare(
+      `SELECT id FROM person WHERE id IN (SELECT value FROM json_each(?)) AND status <> 'suppressed'`,
+    ).bind(JSON.stringify(directPersonRefs)),
+  ]);
+
+  const claims = new Map<string, Claim>();
+  const citations = new Map<string, Array<Record<string, unknown>>>();
+  for (const row of (claimResult?.results ?? []) as Array<Record<string, unknown>>) {
+    const claim = mapClaim(row);
+    claims.set(claim.id, claim);
+    if (row.cs_id) {
+      const refs = citations.get(claim.id) ?? [];
+      refs.push(row);
+      citations.set(claim.id, refs);
+    }
+  }
+  for (const id of referencedClaimIds) {
+    if (!claims.has(id)) throw notFound(`主張不存在：${id}`);
+  }
+  const foundPeople = new Set(((personResult?.results ?? []) as Array<{ id: string }>).map((row) => row.id));
+  for (const id of directPersonRefs) {
+    if (!foundPeople.has(id)) throw notFound(`人物不存在或已隱藏：${id}`);
+  }
+
+  const assertExpected = (
+    claimId: string,
+    expectedRevision: number,
+    expect: z.infer<typeof expectedRelationshipSchema>,
+  ): Claim => {
+    const claim = claims.get(claimId)!;
+    if (
+      claim.claim_kind !== 'relationship' ||
+      claim.current_revision !== expectedRevision ||
+      claim.predicate !== expect.predicate ||
+      claim.subject_person_id !== expect.subject ||
+      claim.object_person_id !== expect.object ||
+      claim.status === 'retracted'
+    ) {
+      throw conflict('repair_plan_stale', `修復計劃與目前主張不一致：${claimId}`, {
+        current_revision: claim.current_revision,
+        current_predicate: claim.predicate,
+        current_subject: claim.subject_person_id,
+        current_object: claim.object_person_id,
+        current_status: claim.status,
+      });
+    }
+    return claim;
+  };
+  for (const item of body.retractions) {
+    assertExpected(item.claim_id, item.expected_revision, item.expect);
+  }
+  for (const item of body.reclassifications) {
+    assertExpected(item.claim_id, item.expected_revision, item.expect);
+  }
+  for (const item of body.splits) {
+    const sourceClaim = claims.get(item.evidence_claim_id)!;
+    if (sourceClaim.claim_kind !== 'relationship' || !(citations.get(sourceClaim.id) ?? []).some((row) => row.stance === 'supports')) {
+      throw badRequest('split_without_evidence', `拆分人物缺少支持來源：${item.key}`);
+    }
+  }
+
+  const now = nowIso();
+  const personIdByKey = new Map(body.splits.map((item) => [item.key, newId('person')]));
+  const resolvePerson = (ref: string): string => {
+    if (!ref.startsWith('split:')) return ref;
+    const id = personIdByKey.get(ref.slice(6));
+    if (!id) throw badRequest('unknown_split_key', `找不到拆分人物：${ref}`);
+    return id;
+  };
+
+  const newPeople = body.splits.map((item) => ({
+    id: personIdByKey.get(item.key)!,
+    created_by_user_id: auth.userId,
+    created_at: now,
+  }));
+  const newClaims: Array<Record<string, unknown>> = [];
+  const newRevisions: Array<Record<string, unknown>> = [];
+  const newCitations: Array<Record<string, unknown>> = [];
+  const contributions: Array<Record<string, unknown>> = [];
+
+  const addContribution = (
+    action: 'person.create' | 'claim.create' | 'claim.revise' | 'claim.retract',
+    targetType: 'person' | 'claim',
+    targetId: string,
+    summary: string,
+    beforeRevision: number | null,
+    afterRevision: number | null,
+  ) => contributions.push({
+    id: newId('contribution'), action, actor_user_id: auth.userId, target_type: targetType,
+    target_id: targetId, change_summary: summary, before_revision: beforeRevision,
+    after_revision: afterRevision, created_at: now,
+  });
+
+  const addAcceptedClaim = (input: {
+    subject: string;
+    kind: 'property' | 'relationship';
+    predicate: string;
+    object?: string | null;
+    value?: Record<string, unknown> | null;
+    generationCount?: number | null;
+    confidence: string;
+    sourceClaimId: string;
+    summary: string;
+    nameOnlyFirstCitation?: boolean;
+  }): string => {
+    const id = newId('claim');
+    const base = {
+      id, subject_person_id: input.subject, claim_kind: input.kind, predicate: input.predicate,
+      object_person_id: input.object ?? null, generation_count: input.generationCount ?? null,
+      value_json: input.value ? JSON.stringify(input.value) : null, status: 'accepted',
+      confidence: input.confidence, created_by_user_id: auth.userId, created_at: now,
+      updated_at: now, current_revision: 2,
+    };
+    newClaims.push(base);
+    const proposed = { ...base, status: 'proposed', current_revision: 1 };
+    newRevisions.push(
+      { id: newId('revision'), claim_id: id, revision_number: 1, snapshot_json: JSON.stringify(snapshotOf(mapClaim(proposed))), change_summary: input.summary, actor_user_id: auth.userId, created_at: now },
+      { id: newId('revision'), claim_id: id, revision_number: 2, snapshot_json: JSON.stringify(snapshotOf(mapClaim(base))), change_summary: '同名异人核对后采纳', actor_user_id: auth.userId, created_at: now },
+    );
+    const supporting = (citations.get(input.sourceClaimId) ?? []).filter((row) => row.stance === 'supports');
+    for (const row of input.nameOnlyFirstCitation ? supporting.slice(0, 1) : supporting) {
+      newCitations.push({
+        id: newId('claimSource'), claim_id: id, source_id: row.source_id, stance: row.stance,
+        locator: row.locator ?? null, quotation: row.quotation ?? null,
+        interpretation_note: row.interpretation_note ?? null, actor_user_id: auth.userId, created_at: now,
+      });
+    }
+    addContribution('claim.create', 'claim', id, input.summary, null, 1);
+    addContribution('claim.revise', 'claim', id, '同名异人核对后采纳', 1, 2);
+    return id;
+  };
+
+  for (const split of body.splits) {
+    const personId = personIdByKey.get(split.key)!;
+    addContribution('person.create', 'person', personId, `同名异人拆分：${split.reason}`, 0, 1);
+    addAcceptedClaim({
+      subject: personId,
+      kind: 'property',
+      predicate: 'name.primary',
+      value: split.name,
+      confidence: 'medium',
+      sourceClaimId: split.evidence_claim_id,
+      summary: `同名异人拆分：${split.reason}`,
+      nameOnlyFirstCitation: true,
+    });
+  }
+
+  for (const relink of body.relinks) {
+    const old = claims.get(relink.source_claim_id)!;
+    if (old.claim_kind !== 'relationship' || !old.object_person_id) {
+      throw badRequest('not_relationship', `不能改掛非關係主張：${old.id}`);
+    }
+    const subject = resolvePerson(relink.subject);
+    const object = resolvePerson(relink.object);
+    if (subject === object) throw badRequest('self_relationship', `改掛後不能指向自身：${relink.label}`);
+    addAcceptedClaim({
+      subject,
+      kind: 'relationship',
+      predicate: old.predicate,
+      object,
+      generationCount: old.generation_count,
+      confidence: old.confidence,
+      sourceClaimId: old.id,
+      summary: `同名异人拆分后改挂：${relink.label}`,
+    });
+  }
+
+  const updates: Array<Record<string, unknown>> = [];
+  for (const item of body.retractions) {
+    const old = claims.get(item.claim_id)!;
+    const next = { ...old, status: 'retracted' as const, current_revision: old.current_revision + 1, updated_at: now };
+    updates.push({ id: old.id, predicate: old.predicate, status: 'retracted', expected_revision: old.current_revision, new_revision: next.current_revision });
+    newRevisions.push({ id: newId('revision'), claim_id: old.id, revision_number: next.current_revision, snapshot_json: JSON.stringify(snapshotOf(next)), change_summary: item.reason, actor_user_id: auth.userId, created_at: now });
+    addContribution('claim.retract', 'claim', old.id, item.reason, old.current_revision, next.current_revision);
+  }
+  for (const item of body.reclassifications) {
+    const old = claims.get(item.claim_id)!;
+    const next = { ...old, predicate: item.predicate, current_revision: old.current_revision + 1, updated_at: now };
+    updates.push({ id: old.id, predicate: item.predicate, status: old.status, expected_revision: old.current_revision, new_revision: next.current_revision });
+    newRevisions.push({ id: newId('revision'), claim_id: old.id, revision_number: next.current_revision, snapshot_json: JSON.stringify(snapshotOf(next)), change_summary: item.reason, actor_user_id: auth.userId, created_at: now });
+    addContribution('claim.revise', 'claim', old.id, item.reason, old.current_revision, next.current_revision);
+  }
+
+  const statements: D1PreparedStatement[] = [];
+  if (newPeople.length) statements.push(c.env.DB.prepare(
+    `INSERT INTO person (id, status, created_by_user_id, created_at, updated_at, current_revision)
+     SELECT json_extract(value,'$.id'), 'active', json_extract(value,'$.created_by_user_id'),
+            json_extract(value,'$.created_at'), json_extract(value,'$.created_at'), 1
+       FROM json_each(?)`,
+  ).bind(JSON.stringify(newPeople)));
+  if (newClaims.length) statements.push(c.env.DB.prepare(
+    `INSERT INTO claim (id, subject_person_id, claim_kind, predicate, object_person_id,
+                        generation_count, value_json, status, confidence, created_by_user_id,
+                        created_at, updated_at, current_revision)
+     SELECT json_extract(value,'$.id'), json_extract(value,'$.subject_person_id'),
+            json_extract(value,'$.claim_kind'), json_extract(value,'$.predicate'),
+            json_extract(value,'$.object_person_id'), json_extract(value,'$.generation_count'),
+            json_extract(value,'$.value_json'), json_extract(value,'$.status'),
+            json_extract(value,'$.confidence'), json_extract(value,'$.created_by_user_id'),
+            json_extract(value,'$.created_at'), json_extract(value,'$.updated_at'),
+            json_extract(value,'$.current_revision') FROM json_each(?)`,
+  ).bind(JSON.stringify(newClaims)));
+  if (newRevisions.length) statements.push(c.env.DB.prepare(
+    `INSERT INTO claim_revision (id, claim_id, revision_number, snapshot_json, change_summary,
+                                 created_by_user_id, created_at, reverts_revision_id)
+     SELECT json_extract(value,'$.id'), json_extract(value,'$.claim_id'),
+            json_extract(value,'$.revision_number'), json_extract(value,'$.snapshot_json'),
+            json_extract(value,'$.change_summary'), json_extract(value,'$.actor_user_id'),
+            json_extract(value,'$.created_at'), NULL FROM json_each(?)`,
+  ).bind(JSON.stringify(newRevisions)));
+  if (newCitations.length) statements.push(c.env.DB.prepare(
+    `INSERT INTO claim_source (id, claim_id, source_id, stance, locator, quotation,
+                               interpretation_note, added_by_user_id, created_at)
+     SELECT json_extract(value,'$.id'), json_extract(value,'$.claim_id'),
+            json_extract(value,'$.source_id'), json_extract(value,'$.stance'),
+            json_extract(value,'$.locator'), json_extract(value,'$.quotation'),
+            json_extract(value,'$.interpretation_note'), json_extract(value,'$.actor_user_id'),
+            json_extract(value,'$.created_at') FROM json_each(?)`,
+  ).bind(JSON.stringify(newCitations)));
+  statements.push(c.env.DB.prepare(
+    `WITH u AS (
+       SELECT json_extract(value,'$.id') id, json_extract(value,'$.predicate') predicate,
+              json_extract(value,'$.status') status,
+              json_extract(value,'$.expected_revision') expected_revision,
+              json_extract(value,'$.new_revision') new_revision FROM json_each(?)
+     )
+     UPDATE claim SET predicate=(SELECT predicate FROM u WHERE u.id=claim.id),
+                      status=(SELECT status FROM u WHERE u.id=claim.id), updated_at=?,
+                      current_revision=(SELECT new_revision FROM u WHERE u.id=claim.id)
+      WHERE id IN (SELECT id FROM u)
+        AND current_revision=(SELECT expected_revision FROM u WHERE u.id=claim.id)`,
+  ).bind(JSON.stringify(updates), now));
+  statements.push(c.env.DB.prepare(
+    `INSERT INTO contribution (id, action, actor_user_id, target_type, target_id,
+                               change_summary, before_revision, after_revision, created_at)
+     SELECT json_extract(value,'$.id'), json_extract(value,'$.action'),
+            json_extract(value,'$.actor_user_id'), json_extract(value,'$.target_type'),
+            json_extract(value,'$.target_id'), json_extract(value,'$.change_summary'),
+            json_extract(value,'$.before_revision'), json_extract(value,'$.after_revision'),
+            json_extract(value,'$.created_at') FROM json_each(?)`,
+  ).bind(JSON.stringify(contributions)));
+  await c.env.DB.batch(statements);
+
+  return c.json({
+    retracted: body.retractions.length,
+    reclassified: body.reclassifications.length,
+    people_created: newPeople.length,
+    relationships_relinked: body.relinks.length,
+    split_people: Object.fromEntries(personIdByKey),
   });
 });
 
