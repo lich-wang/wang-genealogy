@@ -147,10 +147,17 @@ describe('layoutTree', () => {
     }
   });
 
-  it('keeps the focused parent one row above despite a shorter competing ancestry path', () => {
+  it('keeps the whole direct ancestor chain adjacent despite a competing distant ancestry path', () => {
     const layout = layoutTree(
       {
-        ...graph(['ancestor', 'dad', 'me'], [parent('dad', 'me')]),
+        ...graph(
+          ['ancestor', 'great-granddad', 'granddad', 'dad', 'me'],
+          [
+            parent('great-granddad', 'granddad'),
+            parent('granddad', 'dad'),
+            parent('dad', 'me'),
+          ],
+        ),
         descentEdges: [
           {
             ancestor_id: 'ancestor',
@@ -162,9 +169,9 @@ describe('layoutTree', () => {
           },
           {
             ancestor_id: 'ancestor',
-            descendant_id: 'dad',
+            descendant_id: 'great-granddad',
             generations: 2,
-            claim_id: 'c_ancestor_dad',
+            claim_id: 'c_ancestor_great_granddad',
             status: 'accepted',
             citations: [],
           },
@@ -175,7 +182,15 @@ describe('layoutTree', () => {
 
     expect(layout.nodes.get('me')?.generation).toBe(0);
     expect(layout.nodes.get('dad')?.generation).toBe(-1);
-    expect(layout.nodes.get('dad')!.y + NODE_HEIGHT + GAP_Y).toBe(layout.nodes.get('me')!.y);
+    expect(layout.nodes.get('granddad')?.generation).toBe(-2);
+    expect(layout.nodes.get('great-granddad')?.generation).toBe(-3);
+    for (const [older, younger] of [
+      ['great-granddad', 'granddad'],
+      ['granddad', 'dad'],
+      ['dad', 'me'],
+    ] as const) {
+      expect(layout.nodes.get(older)!.y + NODE_HEIGHT + GAP_Y).toBe(layout.nodes.get(younger)!.y);
+    }
   });
 });
 

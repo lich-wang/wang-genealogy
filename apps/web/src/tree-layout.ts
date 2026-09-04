@@ -157,20 +157,45 @@ function assignGenerations(graph: Graph, rootId: string): Map<string, number> {
     (componentGeneration.get(componentOf.get(find(id)) ?? -1) ?? 0) - rootGeneration,
   ]));
 
-  // The focused person's immediate family is the visual anchor. A distant
-  // descent constraint elsewhere in a large connected component may otherwise
-  // leave slack in a direct parent edge and push that parent several rows away
-  // (for example, A ⇢ root spans nine generations while A ⇢ parent follows a
-  // shorter historical path). Whatever the wider graph says, parent_of still
-  // means exactly one generation at the point the reader chose to inspect.
+  // The focused person's known parentage is the visual anchor. Walk the whole
+  // direct ancestor chain upward one row at a time; otherwise a distant descent
+  // constraint can leave slack in every parent edge below it. In the 王遵 slice,
+  // for example, 王卑子 ⇢ 王遵 spans nine generations and used to separate the
+  // explicit 王骏 → 王崇 edge by eight rows. `parent_of` is still exactly one
+  // generation no matter which distant lineage statements share the diagram.
+  const membersByUnit = new Map<string, string[]>();
+  for (const id of ids) {
+    const unit = find(id);
+    membersByUnit.set(unit, [...(membersByUnit.get(unit) ?? []), id]);
+  }
+  const parentsByUnit = new Map<string, string[]>();
   for (const edge of graph.parentEdges) {
-    if (edge.child_id === rootId) {
-      const parentUnit = find(edge.parent_id);
-      for (const id of ids) if (find(id) === parentUnit) generations.set(id, -1);
+    const parentUnit = find(edge.parent_id);
+    const childUnit = find(edge.child_id);
+    if (parentUnit === childUnit) continue;
+    parentsByUnit.set(childUnit, [...(parentsByUnit.get(childUnit) ?? []), parentUnit]);
+  }
+  const ancestorGeneration = new Map<string, number>([[rootUnit, 0]]);
+  const ancestorQueue = [rootUnit];
+  while (ancestorQueue.length > 0) {
+    const childUnit = ancestorQueue.shift()!;
+    const childGeneration = ancestorGeneration.get(childUnit)!;
+    for (const parentUnit of parentsByUnit.get(childUnit) ?? []) {
+      if (ancestorGeneration.has(parentUnit)) continue;
+      const parentGeneration = childGeneration - 1;
+      ancestorGeneration.set(parentUnit, parentGeneration);
+      for (const id of membersByUnit.get(parentUnit) ?? []) generations.set(id, parentGeneration);
+      ancestorQueue.push(parentUnit);
     }
+  }
+
+  // Keep the first descendant row just as explicit. Deeper descendants retain
+  // the global solution, which also keeps contradictory multi-path data moving
+  // downward instead of folding a child onto an ancestor's row.
+  for (const edge of graph.parentEdges) {
     if (edge.parent_id === rootId) {
       const childUnit = find(edge.child_id);
-      for (const id of ids) if (find(id) === childUnit) generations.set(id, 1);
+      for (const id of membersByUnit.get(childUnit) ?? []) generations.set(id, 1);
     }
   }
 
