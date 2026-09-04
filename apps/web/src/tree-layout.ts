@@ -346,14 +346,21 @@ export function layoutTree(graph: Graph, rootId: string): Layout {
   const offspringOf = new Map<string, string[]>();
   for (const unit of unitMembers.keys()) {
     const g = generation.get(unit)!;
-    const candidates = unitMembers
-      .get(unit)!
-      .flatMap((m) => [
-        ...(parentsOf.get(m) ?? []),
-        ...(ancestorsOf.get(m) ?? []).map((a) => a.id),
-      ])
+    const memberIds = unitMembers.get(unit)!;
+    // A direct parent owns the visual trunk. Distant `ancestor_of` evidence is
+    // deliberately secondary: it may branch in from farther away with a dashed
+    // line, but it must never take the packing slot that keeps a known parent
+    // vertically aligned with the child.
+    const directParents = memberIds
+      .flatMap((m) => parentsOf.get(m) ?? [])
       .map((p) => unitOf.get(p))
-      .filter((u): u is string => Boolean(u) && u !== unit && generation.get(u!)! < g)
+      .filter((u): u is string => Boolean(u) && u !== unit && generation.get(u!)! < g);
+    const distantAncestors = memberIds
+      .flatMap((m) => (ancestorsOf.get(m) ?? []).map((a) => a.id))
+      .map((p) => unitOf.get(p))
+      .filter((u): u is string => Boolean(u) && u !== unit && generation.get(u!)! < g);
+    const candidates = (directParents.length > 0 ? directParents : distantAncestors)
+      .filter((candidate, index, all) => all.indexOf(candidate) === index)
       .sort((a, b) => rank(a) - rank(b));
     const forebear = candidates[0];
     if (!forebear) continue;

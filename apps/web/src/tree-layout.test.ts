@@ -192,6 +192,34 @@ describe('layoutTree', () => {
       expect(layout.nodes.get(older)!.y + NODE_HEIGHT + GAP_Y).toBe(layout.nodes.get(younger)!.y);
     }
   });
+
+  it('keeps the direct parent on the child axis instead of giving it to a distant ancestor', () => {
+    const layout = layoutTree(
+      {
+        ...graph(
+          ['ancestor', 'dad', 'me', 'child-a', 'child-b', 'child-c'],
+          [
+            parent('dad', 'me'),
+            parent('me', 'child-a'),
+            parent('me', 'child-b'),
+            parent('me', 'child-c'),
+          ],
+        ),
+        descentEdges: [{
+          ancestor_id: 'ancestor',
+          descendant_id: 'me',
+          generations: 9,
+          claim_id: 'c_ancestor_me',
+          status: 'accepted',
+          citations: [],
+        }],
+      },
+      'me',
+    );
+
+    expect(layout.nodes.get('dad')?.x).toBe(layout.nodes.get('me')?.x);
+    expect(layout.nodes.get('ancestor')?.x).not.toBe(layout.nodes.get('me')?.x);
+  });
 });
 
 describe('focusedKinshipIds', () => {
