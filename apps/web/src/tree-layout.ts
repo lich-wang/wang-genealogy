@@ -152,10 +152,29 @@ function assignGenerations(graph: Graph, rootId: string): Map<string, number> {
 
   const rootUnit = find(rootId);
   const rootGeneration = componentGeneration.get(componentOf.get(rootUnit) ?? -1) ?? 0;
-  return new Map(ids.map((id) => [
+  const generations = new Map(ids.map((id) => [
     id,
     (componentGeneration.get(componentOf.get(find(id)) ?? -1) ?? 0) - rootGeneration,
   ]));
+
+  // The focused person's immediate family is the visual anchor. A distant
+  // descent constraint elsewhere in a large connected component may otherwise
+  // leave slack in a direct parent edge and push that parent several rows away
+  // (for example, A ⇢ root spans nine generations while A ⇢ parent follows a
+  // shorter historical path). Whatever the wider graph says, parent_of still
+  // means exactly one generation at the point the reader chose to inspect.
+  for (const edge of graph.parentEdges) {
+    if (edge.child_id === rootId) {
+      const parentUnit = find(edge.parent_id);
+      for (const id of ids) if (find(id) === parentUnit) generations.set(id, -1);
+    }
+    if (edge.parent_id === rootId) {
+      const childUnit = find(edge.child_id);
+      for (const id of ids) if (find(id) === childUnit) generations.set(id, 1);
+    }
+  }
+
+  return generations;
 }
 
 /** Keep one person's complete ancestor/descendant trunk and hide side branches. */

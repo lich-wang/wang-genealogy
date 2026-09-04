@@ -146,6 +146,37 @@ describe('layoutTree', () => {
         .toBeGreaterThan(layout.nodes.get(edge.parent_id)!.generation);
     }
   });
+
+  it('keeps the focused parent one row above despite a shorter competing ancestry path', () => {
+    const layout = layoutTree(
+      {
+        ...graph(['ancestor', 'dad', 'me'], [parent('dad', 'me')]),
+        descentEdges: [
+          {
+            ancestor_id: 'ancestor',
+            descendant_id: 'me',
+            generations: 9,
+            claim_id: 'c_ancestor_me',
+            status: 'accepted',
+            citations: [],
+          },
+          {
+            ancestor_id: 'ancestor',
+            descendant_id: 'dad',
+            generations: 2,
+            claim_id: 'c_ancestor_dad',
+            status: 'accepted',
+            citations: [],
+          },
+        ],
+      },
+      'me',
+    );
+
+    expect(layout.nodes.get('me')?.generation).toBe(0);
+    expect(layout.nodes.get('dad')?.generation).toBe(-1);
+    expect(layout.nodes.get('dad')!.y + NODE_HEIGHT + GAP_Y).toBe(layout.nodes.get('me')!.y);
+  });
 });
 
 describe('focusedKinshipIds', () => {
