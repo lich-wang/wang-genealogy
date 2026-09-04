@@ -285,4 +285,6 @@ POST /api/v1/person-merge-proposals/{proposalId}/revert
 - 批量导入使用异步任务，不能绕过逐条来源和审核规则；
 - 接口按原样返回主张文本及其 `language` 标记，不做简繁转换；字形选择属于客户端显示层；
 - 单对象或列表读取统一包在对象里，便于以后加字段：`{ "source": … }`、`{ "claims": [...] }`、`{ "history": [...] }`、`{ "proposal": … }`、`{ "user": … }`；人物摘要、人物导出和游标列表（`{ "items": [...], "next_cursor": … }`）例外，直接返回自身结构；
-- `POST /api/v1/auth/signup` 与 `login` 一样返回 `token` 和完整 `user`。
+- `POST /api/v1/auth/email-verifications` 接收 `email`，返回带挑战码的一次性收件地址、邮件主题、过期时间和签名后的 `verification_token`。用户必须从该邮箱发信；服务端不保存明文邮箱或邮件正文。
+- `GET /api/v1/auth/email-verifications/status?token=...` 返回挑战是否已经由 Email Worker 验证。
+- `POST /api/v1/auth/signup` 必须额外提交已验证且未使用的 `verification_token`，并与 `login` 一样返回 `token` 和完整 `user`。

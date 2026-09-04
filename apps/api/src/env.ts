@@ -5,6 +5,8 @@ export interface Env {
   AUTH_SECRET: string;
   ALLOWED_ORIGIN: string;
   TURNSTILE_SECRET?: string;
+  /** Base address handled by Email Routing, e.g. verify@example.com. */
+  REGISTRATION_EMAIL_ADDRESS: string;
   /** Comma-separated sha-256 email hashes granted `admin` on signup/login. */
   BOOTSTRAP_ADMIN_HASHES?: string;
 }

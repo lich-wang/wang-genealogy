@@ -154,7 +154,7 @@ scripts/purge-records.mjs        硬删除（政策例外，需 --yes-hard-delet
 
 1. **前端框架**：React + TypeScript + Vite，部署到 Cloudflare Pages。
 2. **Worker 路由与验证库**：[Hono](https://hono.dev/) 作为 Worker 路由；[Zod](https://zod.dev/) 作为输入校验，校验逻辑集中在 `packages/validation`。
-3. **认证方式**：首期采用平台内置的邮箱注册 + 会话令牌（服务端只存 `email_hash`，令牌用 Worker 密钥 HMAC 签名），并把接口设计成可在后续接入 GitHub OAuth 等外部登录。公开读取始终匿名。
+3. **认证方式**：首期采用平台内置的邮箱注册 + 会话令牌（服务端只存 `email_hash`，令牌用 Worker 密钥 HMAC 签名）。注册前，用户必须从所填邮箱向 Cloudflare Email Routing 分配的一次性子地址发送邮件；Email Worker 只核对 SMTP 发件地址和挑战码，不保留邮件正文。挑战 30 分钟过期且只能用于一次注册。接口保留后续接入 GitHub OAuth 等外部登录的空间，公开读取始终匿名。
 4. **公共 ID 规则**：不可猜测的字符串，格式 `<prefix>_<22位base58随机>`，前缀区分实体：`p_`（Person）、`c_`（Claim）、`s_`（Source）、`m_`（MergeProposal）、`u_`（User）、`rev_`（Revision）、`ct_`（Contribution）。ID 不可变；合并后旧 ID 永久重定向到目标。
 5. **主张状态流转与审核权限**：`proposed → accepted | disputed | retracted | superseded`。新账号或无维护者背书的写入进入 `proposed` 审核队列；维护者/审核者可将其转为 `accepted`；任何有有效来源的争议可标记 `disputed` 且不隐藏；修改经 `expected_revision` 乐观并发控制，冲突返回 `409`。
 6. **用户投稿许可证**：CC BY-SA 4.0（与 `SOURCES_AND_POLICY.md` 候选一致）；每个 `Source` 另存自身 `license_code`，不得把 NC/SA 数据标记为 CC0。

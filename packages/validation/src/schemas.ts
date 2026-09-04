@@ -16,6 +16,11 @@ export const signupSchema = z.object({
   display_name: nonEmpty.max(80),
   email: z.string().trim().email().max(200),
   password: z.string().min(10).max(200),
+  verification_token: nonEmpty.max(500),
+});
+
+export const requestEmailVerificationSchema = z.object({
+  email: z.string().trim().email().max(200),
 });
 
 export const loginSchema = z.object({
@@ -151,6 +156,7 @@ export const createMergeSchema = z.object({
 });
 
 export type SignupInput = z.infer<typeof signupSchema>;
+export type RequestEmailVerificationInput = z.infer<typeof requestEmailVerificationSchema>;
 export type LoginInput = z.infer<typeof loginSchema>;
 export type CreateSourceInput = z.infer<typeof createSourceSchema>;
 export type CreatePropertyClaimInput = z.infer<typeof createPropertyClaimSchema>;

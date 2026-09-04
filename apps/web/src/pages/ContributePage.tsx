@@ -20,9 +20,9 @@ import type {
   SourceType,
 } from '@wang/domain';
 import { detectScript, scriptVariants } from '@wang/i18n';
-import { loginSchema, signupSchema } from '@wang/validation';
+import { loginSchema, requestEmailVerificationSchema, signupSchema } from '@wang/validation';
 import { api } from '../api';
-import type { SourceRefInput } from '../api';
+import type { EmailVerificationChallenge, SourceRefInput } from '../api';
 import { relationshipGenerationCount, relationshipParentRole } from '../format';
 import { toMessage } from '../hooks';
 import { useAuth } from '../auth';
@@ -91,6 +91,47 @@ function AuthForms() {
   const [displayName, setDisplayName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [challenge, setChallenge] = useState<EmailVerificationChallenge | null>(null);
+  const [challengeEmail, setChallengeEmail] = useState('');
+  const [emailVerified, setEmailVerified] = useState(false);
+
+  useEffect(() => {
+    if (!challenge || emailVerified) return;
+    let cancelled = false;
+    const check = async () => {
+      try {
+        const status = await api.getEmailVerificationStatus(challenge.verification_token);
+        if (!cancelled && status.verified) setEmailVerified(true);
+      } catch {
+        // The visible expiry and a later registration error explain stale challenges.
+      }
+    };
+    void check();
+    const timer = window.setInterval(() => void check(), 3000);
+    return () => {
+      cancelled = true;
+      window.clearInterval(timer);
+    };
+  }, [challenge, emailVerified]);
+
+  async function startEmailVerification() {
+    setError(null);
+    const parsed = requestEmailVerificationSchema.safeParse({ email });
+    if (!parsed.success) {
+      setError(parsed.error.issues[0]?.message ?? '電子郵件無效');
+      return;
+    }
+    setBusy(true);
+    try {
+      setChallenge(await api.requestEmailVerification(parsed.data.email));
+      setChallengeEmail(parsed.data.email.trim().toLowerCase());
+      setEmailVerified(false);
+    } catch (err) {
+      setError(toMessage(err));
+    } finally {
+      setBusy(false);
+    }
+  }
 
   async function submit(e: FormEvent) {
     e.preventDefault();
@@ -102,7 +143,15 @@ function AuthForms() {
         setBusy(true);
         await login(parsed.data);
       } else {
-        const parsed = signupSchema.safeParse({ display_name: displayName, email, password });
+        if (!challenge || !emailVerified || challengeEmail !== email.trim().toLowerCase()) {
+          throw new Error('請先用此電子郵件完成驗證');
+        }
+        const parsed = signupSchema.safeParse({
+          display_name: displayName,
+          email,
+          password,
+          verification_token: challenge.verification_token,
+        });
         if (!parsed.success) throw new Error(parsed.error.issues[0]?.message ?? '輸入無效');
         setBusy(true);
         await signup(parsed.data);
@@ -144,6 +193,26 @@ function AuthForms() {
           <span>{t('電子郵件')}</span>
           <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} required />
         </label>
+        {mode === 'signup' ? (
+          <div className="email-verification">
+            <button className="btn btn-inline" type="button" disabled={busy} onClick={startEmailVerification}>
+              {challenge ? t('重新生成驗證郵件') : t('生成驗證郵件')}
+            </button>
+            {challenge && challengeEmail === email.trim().toLowerCase() ? (
+              emailVerified ? (
+                <p className="success form-notice"><CheckCircle2 size={17} />{t('電子郵件已驗證，可以註冊')}</p>
+              ) : (
+                <div className="banner email-verification-instructions" role="status">
+                  <p>{t('請務必使用上面填寫的電子郵件，向以下地址發送一封郵件：')}</p>
+                  <a href={`mailto:${challenge.recipient}?subject=${encodeURIComponent(challenge.subject)}`}>
+                    {challenge.recipient}
+                  </a>
+                  <small>{t('郵件內容可以留空。本頁會自動等待驗證結果，驗證地址 30 分鐘內有效。')}</small>
+                </div>
+              )
+            ) : null}
+          </div>
+        ) : null}
         <label className="field">
           <span>{t('密碼')}</span>
           <input
@@ -154,7 +223,7 @@ function AuthForms() {
           />
         </label>
         {error ? <p className="error">{t(error)}</p> : null}
-        <button className="btn" type="submit" disabled={busy}>
+        <button className="btn" type="submit" disabled={busy || (mode === 'signup' && !emailVerified)}>
           {busy ? t('提交中…') : mode === 'login' ? t('登入') : t('註冊')}
         </button>
       </form>

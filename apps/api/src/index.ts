@@ -3,8 +3,8 @@ import { cors } from 'hono/cors';
 import { ZodError } from 'zod';
 import type { Env, Variables } from './env.ts';
 import { AppError } from './errors.ts';
-import { authMiddleware, login, requireAuth, signup } from './auth.ts';
-import { loginSchema, signupSchema } from '@wang/validation';
+import { authMiddleware, emailVerificationStatus, login, requestEmailVerification, requireAuth, signup, verifyRegistrationEmail } from './auth.ts';
+import { loginSchema, requestEmailVerificationSchema, signupSchema } from '@wang/validation';
 import { mapUser } from './db.ts';
 import { nameOf } from './summary.ts';
 import { findPersonsByName, SEARCH_PAGE_SIZE } from './nameSearch.ts';
@@ -46,6 +46,13 @@ app.get('/api/v1/health', (c) => c.json({ status: 'ok', time: new Date().toISOSt
 
 // --- auth ---
 const auth = new Hono<{ Bindings: Env; Variables: Variables }>();
+auth.post('/email-verifications', async (c) => {
+  const body = requestEmailVerificationSchema.parse(await c.req.json());
+  return c.json(await requestEmailVerification(c.env, body.email), 201);
+});
+auth.get('/email-verifications/status', async (c) => {
+  return c.json(await emailVerificationStatus(c.env, c.req.query('token') ?? ''));
+});
 auth.post('/signup', async (c) => {
   const body = signupSchema.parse(await c.req.json());
   const result = await signup(c.env, body);
@@ -185,4 +192,12 @@ app.onError(async (err, c) => {
 
 app.notFound((c) => c.json({ error: 'not_found', message: '介面不存在。' }, 404));
 
-export default app;
+// Keep exporting the Hono instance (its `request()` helper is used by tests)
+// while adding the Email Routing handler to the same module export.
+const worker = Object.assign(app, {
+  async email(message: ForwardableEmailMessage, env: Env): Promise<void> {
+    await verifyRegistrationEmail(env, message);
+  },
+});
+
+export default worker;

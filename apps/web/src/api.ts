@@ -203,6 +203,14 @@ export interface SignupInput {
   display_name: string;
   email: string;
   password: string;
+  verification_token: string;
+}
+
+export interface EmailVerificationChallenge {
+  verification_token: string;
+  recipient: string;
+  subject: string;
+  expires_at: string;
 }
 
 export interface LoginInput {
@@ -354,6 +362,17 @@ export const api = {
     request<PersonExport>(`/persons/${encodeURIComponent(id)}/export`),
 
   // auth
+  requestEmailVerification: (email: string) =>
+    request<EmailVerificationChallenge>('/auth/email-verifications', {
+      method: 'POST',
+      body: { email },
+    }),
+
+  getEmailVerificationStatus: (token: string) =>
+    request<{ verified: boolean; expires_at: string }>('/auth/email-verifications/status', {
+      query: { token },
+    }),
+
   signup: (input: SignupInput) =>
     request<AuthResult>('/auth/signup', { method: 'POST', body: input }),
 

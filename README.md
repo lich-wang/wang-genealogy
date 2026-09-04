@@ -18,6 +18,25 @@ npm run test:e2e  # Playwright 冒烟检查
 
 推送到 `main` 会自动跑检查、应用 D1 迁移并部署 Worker 与 Pages。
 
+### 注册邮箱验证
+
+生产站点使用 `history.wang`。Cloudflare Email Routing 将
+`verify@history.wang` 及其子地址路由到 `wang-genealogy-api` Worker；例如一次
+注册会生成 `verify+WG-...@history.wang`。用户必须从注册表单填写的邮箱向该
+一次性地址发信，网页检测到验证结果后才允许创建账号。注册挑战有效期为 30
+分钟且只能使用一次；Worker 仅使用 SMTP envelope 的发件人与收件人完成验证，
+不读取或保存邮件正文。
+
+Cloudflare 生产配置要点：
+
+1. `history.wang` 使用 Cloudflare 权威 DNS，并启用 Email Routing 所需的 MX、SPF
+   与 DKIM 记录。
+2. 启用 Email Routing 的子地址功能。
+3. 创建 `verify@history.wang` → `wang-genealogy-api` Worker 的路由规则；
+   `+WG-...` 子地址会回落到该基础地址规则并保留完整收件地址。
+4. API Worker 的 `REGISTRATION_EMAIL_ADDRESS` 必须保持为
+   `verify@history.wang`。
+
 ## 阅读字形
 
 全站支持简体与繁體两种阅读字形，页头可切换。字形转换只发生在阅读时：主张文本按来源原文的字形保存，页面会标明哪些文字是自动转换结果。搜索与同名判定对字形不敏感——搜「王賁」会找到录入为「王贲」的人物。

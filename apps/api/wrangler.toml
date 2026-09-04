@@ -1,6 +1,6 @@
 name = "wang-genealogy-api"
 main = "src/index.ts"
-compatibility_date = "2024-12-01"
+compatibility_date = "2026-09-04"
 compatibility_flags = ["nodejs_compat"]
 
 [assets]
@@ -19,3 +19,9 @@ migrations_dir = "../../migrations"
 # AUTH_SECRET is provided via `wrangler secret put AUTH_SECRET` (not here).
 # For local dev, put AUTH_SECRET in apps/api/.dev.vars (gitignored).
 ALLOWED_ORIGIN = "*"
+# Email Routing sends this base address and its WG-* subaddresses to this Worker.
+REGISTRATION_EMAIL_ADDRESS = "verify@history.wang"
+
+[observability]
+enabled = true
+head_sampling_rate = 1
