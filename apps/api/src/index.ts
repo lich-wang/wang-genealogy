@@ -12,6 +12,7 @@ import { loadKinshipHighlights } from './kinshipHighlights.ts';
 import persons from './routes/persons.ts';
 import claims from './routes/claims.ts';
 import sources from './routes/sources.ts';
+import bulkPersons from './routes/bulkPersons.ts';
 import mergeProposals, { createMergeHandler } from './routes/merges.ts';
 import { publicReadCache } from './publicCache.ts';
 import { serveAnonymousPublicSnapshot } from './publicSnapshot.ts';
@@ -166,6 +167,7 @@ app.get('/api/v1/changes', async (c) => {
 
 // --- mounted resource routers ---
 app.route('/api/v1/persons', persons);
+app.route('/api/v1/persons', bulkPersons);
 app.route('/api/v1/persons', createMergeHandler);
 app.route('/api/v1/claims', claims);
 app.route('/api/v1/sources', sources);

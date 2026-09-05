@@ -26,6 +26,21 @@
       "plan_people": 772,
       "relationships": 273,
       "manual_review": 0
+    },
+    {
+      "id": "cbdb-wang-10000-stage3-2026-09",
+      "kind": "person_expansion_shards",
+      "status": "reviewed_pending_import",
+      "reviewer": "luna",
+      "manifest": "scripts/generated/cbdb-wang-10000/manifest.json",
+      "shard_directory": "scripts/generated/cbdb-wang-10000",
+      "report": "docs/reviews/cbdb-wang-10000-luna-review-2026-09.md",
+      "people_accepted": 7329,
+      "people_rejected": 22795,
+      "sources": 7329,
+      "relationships": 0,
+      "target_wang_roster": 10000,
+      "manual_review": 0
     }
   ]
 }

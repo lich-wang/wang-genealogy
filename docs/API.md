@@ -245,6 +245,10 @@ GET  /api/v1/sources/{sourceId}/claims
 
 `POST /api/v1/claims/bulk-person-properties` 供管理员或维护者执行已经审核的资料补全计划。接口一次校验全部人物、来源和已有主张，再以一个 D1 batch 写入主张、两版审核记录、引用和贡献记录；已存在同人物同谓词的未撤回主张时整批拒绝，不做静默覆盖。
 
+`POST /api/v1/persons/bulk-reviewed` 供管理员或维护者同步已经完成独立审核的历史人物名录。单批最多 200 人、请求正文最多 2 MiB；每人必须有唯一外部来源标识、稳定网址、主姓名、历史性依据和带来源的属性。服务端先在一个集合式读取批次中核对来源身份、简繁姓名冲突、内容指纹和数据库中仍然有效的全部计划主张，再在一个事务性 D1 batch 中追加 Source、Person、Claim、两版 ClaimRevision、ClaimSource、Contribution 与唯一导入身份。最后一项同时唯一约束稳定键、来源身份和折叠姓名；并发请求冲突时整个 batch 回滚，重试后收敛。仅当既有 `active` 人物的内容和来源仍完整匹配原计划时返回零写入 no-op；任何部分匹配、主张缺失、同名异人或来源漂移都会拒绝整批。
+
+响应分别报告 `requested`、`created`、`reused`、`skipped_noop`、`d1_validation_batches` 与 `d1_write_batches`。批量同步脚本必须串行执行，并以稳定人物标识保存断点；网络在提交后中断时可安全重试同一批次。
+
 所有写接口遵守“最小写入”语义：服务端先判断实际差量；完全相同的重复请求返回既有资源或明确的 no-op／冲突结果，不产生新人物、来源、主张、引用、修订、贡献记录或纯时间戳更新。若主张内容相同而仅缺一条新证据，只新增该 `claim_source` 及其必要审计；若证据也已存在，则零写入。批量接口的响应应分别给出 `created`、`reused`、`skipped` 或等价计数，便于调用方核对实际写入量。
 
 创建来源时，以 `source_type + canonical_url + external_identifier` 的完全一致组合作为安全复用键；命中时返回既有 `source_id`、`reused: true`、`writes: 0`。把主张重复转换到当前状态同样返回零写入，不新增修订或贡献记录。

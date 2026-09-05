@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "source_release": "CBDB 2026-08-29",
+  "target_new": 7329,
+  "accepted": 7329,
+  "skipped": 22795,
+  "shards": [
+    {
+      "file": "cbdb-wang-01.json",
+      "people": 1000,
+      "sources": 1000,
+      "relationships": 0
+    },
+    {
+      "file": "cbdb-wang-02.json",
+      "people": 1000,
+      "sources": 1000,
+      "relationships": 0
+    },
+    {
+      "file": "cbdb-wang-03.json",
+      "people": 1000,
+      "sources": 1000,
+      "relationships": 0
+    },
+    {
+      "file": "cbdb-wang-04.json",
+      "people": 1000,
+      "sources": 1000,
+      "relationships": 0
+    },
+    {
+      "file": "cbdb-wang-05.json",
+      "people": 1000,
+      "sources": 1000,
+      "relationships": 0
+    },
+    {
+      "file": "cbdb-wang-06.json",
+      "people": 1000,
+      "sources": 1000,
+      "relationships": 0
+    },
+    {
+      "file": "cbdb-wang-07.json",
+      "people": 1000,
+      "sources": 1000,
+      "relationships": 0
+    },
+    {
+      "file": "cbdb-wang-08.json",
+      "people": 329,
+      "sources": 329,
+      "relationships": 0
+    }
+  ]
+}
