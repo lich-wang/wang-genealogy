@@ -9,7 +9,7 @@
 // CLOUDFLARE_ACCOUNT_ID) — see the repo's gitignored .env.
 
 import { execFileSync } from 'node:child_process';
-import { mkdtempSync, writeFileSync } from 'node:fs';
+import { existsSync, mkdtempSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 
@@ -68,6 +68,15 @@ function run(sqlArgs, { database, remote, label }, attempts = 4) {
 
 /** Run one statement and return its rows. */
 export function d1Query(sql, options) {
+  const snapshot = process.env.D1_READ_SNAPSHOT;
+  if (snapshot) {
+    if (!existsSync(snapshot)) throw new Error(`D1_READ_SNAPSHOT does not exist: ${snapshot}`);
+    const out = execFileSync('sqlite3', ['-readonly', '-json', snapshot, sql], {
+      encoding: 'utf8',
+      maxBuffer: 64 * 1024 * 1024,
+    });
+    return out.trim() ? JSON.parse(out) : [];
+  }
   return run(['--command', sql], options)[0]?.results ?? [];
 }
 
