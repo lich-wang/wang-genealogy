@@ -93,7 +93,7 @@ GET /api/v1/search?q=王&cursor=MjAyNi0wMS0wMlQwMDowMDowMC4wMDBafHBfMg
 GET /api/v1/kinship-highlights?limit=8
 ```
 
-供首页作为家族树入口的公开人物列表（`limit` 1–24，默认 8）。得姓前先祖按来源政策中的封闭名单优先展示（当前为姬晋及其别称、宗敬、毕公高），响应以 `is_surname_progenitor` 标记；其余名额再按已记录亲属关系数排序。封闭名单避免把一般外姓亲属误当作王氏得姓先祖。
+供首页作为家族树入口的公开人物列表（`limit` 1–24，默认 8）。得姓前先祖按来源政策中的封闭名单优先展示（当前为姬晋及其别称、宗敬、毕公高、田安、比干），响应以 `is_surname_progenitor` 标记；其余名额再按已记录亲属关系数排序。封闭名单避免把一般外姓亲属误当作王氏得姓先祖。
 
 ## 二、基础信息主张
 

@@ -177,11 +177,17 @@ function namedKeys(person) {
 // A source is reusable only if it is the same record *kind*: an early import
 // stored a CBDB id on a Wikipedia article record, and a Wikidata property
 // locator has no meaning against that.
-const sourceRows = d1Query(
-  `SELECT id, external_identifier, canonical_url FROM source
-    WHERE external_identifier IS NOT NULL OR canonical_url IS NOT NULL`,
-  { ...d1, label: 'sources' },
-);
+const sourceRows = [];
+for (let offset = 0; ; offset += 1000) {
+  const batch = d1Query(
+    `SELECT id, external_identifier, canonical_url FROM source
+      WHERE external_identifier IS NOT NULL OR canonical_url IS NOT NULL
+      ORDER BY id LIMIT 1000 OFFSET ${offset}`,
+    { ...d1, label: `sources ${offset + 1}-${offset + 1000}` },
+  );
+  sourceRows.push(...batch);
+  if (batch.length < 1000) break;
+}
 const sourceIdByKey = new Map();
 const sourceIdByUrl = new Map();
 for (const row of sourceRows) {

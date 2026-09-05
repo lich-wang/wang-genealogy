@@ -1,0 +1,96 @@
+{
+  "generated_from": ["public-surname-overview", "luna-review"],
+  "hops": 0,
+  "max_new": 2,
+  "capped_relationships": 0,
+  "expanded_keys": [],
+  "identity_merges": [],
+  "name_collisions": [],
+  "skipped": [],
+  "unmapped_cbdb_relations": [],
+  "sources": [
+    {
+      "key": "zhwiki:wang-surname-origins",
+      "kind": "zhwiki",
+      "source_type": "website",
+      "title": "中文维基百科：王姓",
+      "creator": "维基百科贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC-BY-SA-4.0",
+      "canonical_url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A7%93",
+      "external_identifier": null
+    }
+  ],
+  "persons": [
+    {
+      "key": "named:田安@wang-surname-origins",
+      "qid": null,
+      "cbdb": null,
+      "hop": 0,
+      "name": { "text": "田安", "language": "zh-Hans" },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": { "text": "田安", "language": "zh-Hans" },
+          "confidence": "medium",
+          "source_keys": ["zhwiki:wang-surname-origins"],
+          "change_summary": "据王姓来源综述录妫姓王氏得姓传统中的田安"
+        },
+        {
+          "predicate": "bio.summary",
+          "value": { "text": "王姓来源传统所载妫姓王氏得姓先祖；项羽曾封其为济北王，失去王位后相传其子孙改姓王。", "language": "zh-Hans" },
+          "confidence": "medium",
+          "source_keys": ["zhwiki:wang-surname-origins"],
+          "change_summary": "按现代姓氏综述原有证据强度补录，不视为无争议正史世系"
+        }
+      ],
+      "historicity": { "kind": "historical_article", "detail": "战国秦汉之际人物；来源将其列为妫姓王氏得姓传统" },
+      "source_keys": ["zhwiki:wang-surname-origins"]
+    },
+    {
+      "key": "named:比干@wang-surname-origins",
+      "qid": null,
+      "cbdb": null,
+      "hop": 0,
+      "name": { "text": "比干", "language": "zh-Hans" },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": { "text": "比干", "language": "zh-Hans" },
+          "confidence": "medium",
+          "source_keys": ["zhwiki:wang-surname-origins"],
+          "change_summary": "据王姓来源综述录子姓王氏得姓传统中的比干"
+        },
+        {
+          "predicate": "bio.summary",
+          "value": { "text": "商末王族、传统所称“三仁”之一；王姓来源传统称其后裔因王族身份以王为姓。", "language": "zh-Hans" },
+          "confidence": "medium",
+          "source_keys": ["zhwiki:wang-surname-origins"],
+          "change_summary": "按现代姓氏综述原有证据强度补录，不虚构后代姓名及连续世代"
+        }
+      ],
+      "historicity": { "kind": "historical_article", "detail": "商末人物；来源将其列为子姓王氏得姓传统" },
+      "source_keys": ["zhwiki:wang-surname-origins"]
+    }
+  ],
+  "edges": [
+    {
+      "kind": "ancestor",
+      "parent_key": "named:田安@wang-surname-origins",
+      "child_key": "db:p_ftTmaf71Kwzdeaet16S991",
+      "parent_name": "田安",
+      "child_name": "王莽",
+      "child_person_id": "p_ftTmaf71Kwzdeaet16S991",
+      "citations": [
+        {
+          "source_key": "zhwiki:wang-surname-origins",
+          "locator": "来源和演变·妫姓王氏",
+          "quotation": "田安也随之失去了王位，子孙遂改姓王。这支王姓以北海郡、陳留郡和魏郡为郡望。魏郡王氏：新朝皇帝王莽属于这一支。",
+          "note": "依据来源把田安与魏郡王氏成员王莽记为代数不详的世系；不补造中间父子链，证据强度为姓氏传统而非逐代谱牒。"
+        }
+      ]
+    }
+  ]
+}

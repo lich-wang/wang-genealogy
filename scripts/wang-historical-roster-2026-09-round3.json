@@ -1,0 +1,5376 @@
+{
+  "generated_from": [
+    "wikidata-deceased-wang-roster"
+  ],
+  "hops": 0,
+  "max_new": 100,
+  "capped_relationships": 0,
+  "expanded_keys": [],
+  "identity_merges": [],
+  "name_collisions": [],
+  "skipped": [],
+  "unmapped_cbdb_relations": [],
+  "sources": [
+    {
+      "key": "wd:Q15912148",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王来（Q15912148）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15912148",
+      "external_identifier": "Q15912148"
+    },
+    {
+      "key": "wd:Q15912162",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王轼（Q15912162）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15912162",
+      "external_identifier": "Q15912162"
+    },
+    {
+      "key": "wd:Q15912186",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王昙（Q15912186）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15912186",
+      "external_identifier": "Q15912186"
+    },
+    {
+      "key": "wd:Q15912308",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王慶雲 (安徽議員)（Q15912308）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15912308",
+      "external_identifier": "Q15912308"
+    },
+    {
+      "key": "wd:Q15912586",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王炽（Q15912586）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15912586",
+      "external_identifier": "Q15912586"
+    },
+    {
+      "key": "wd:Q15912604",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王照（Q15912604）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15912604",
+      "external_identifier": "Q15912604"
+    },
+    {
+      "key": "wd:Q15912610",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王慶芳（Q15912610）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15912610",
+      "external_identifier": "Q15912610"
+    },
+    {
+      "key": "wd:Q15912653",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王树枏（Q15912653）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15912653",
+      "external_identifier": "Q15912653"
+    },
+    {
+      "key": "wd:Q15912695",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王仁皎（Q15912695）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15912695",
+      "external_identifier": "Q15912695"
+    },
+    {
+      "key": "wd:Q15912983",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王善荃（Q15912983）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15912983",
+      "external_identifier": "Q15912983"
+    },
+    {
+      "key": "wd:Q15913202",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王廷相（Q15913202）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15913202",
+      "external_identifier": "Q15913202"
+    },
+    {
+      "key": "wd:Q15913216",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王漱芳（Q15913216）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15913216",
+      "external_identifier": "Q15913216"
+    },
+    {
+      "key": "wd:Q15913275",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王鸿绪（Q15913275）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15913275",
+      "external_identifier": "Q15913275"
+    },
+    {
+      "key": "wd:Q15913621",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王雅 (晋朝)（Q15913621）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15913621",
+      "external_identifier": "Q15913621"
+    },
+    {
+      "key": "wd:Q15913733",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王锡阐（Q15913733）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15913733",
+      "external_identifier": "Q15913733"
+    },
+    {
+      "key": "wd:Q15913786",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王鼎（Q15913786）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15913786",
+      "external_identifier": "Q15913786"
+    },
+    {
+      "key": "wd:Q15913916",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王时中（Q15913916）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15913916",
+      "external_identifier": "Q15913916"
+    },
+    {
+      "key": "wd:Q15914195",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王垿（Q15914195）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15914195",
+      "external_identifier": "Q15914195"
+    },
+    {
+      "key": "wd:Q15914310",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王裒（Q15914310）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15914310",
+      "external_identifier": "Q15914310"
+    },
+    {
+      "key": "wd:Q15914779",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王汝璧（Q15914779）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15914779",
+      "external_identifier": "Q15914779"
+    },
+    {
+      "key": "wd:Q15915195",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王彦升（Q15915195）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15915195",
+      "external_identifier": "Q15915195"
+    },
+    {
+      "key": "wd:Q15915249",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王文清（Q15915249）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15915249",
+      "external_identifier": "Q15915249"
+    },
+    {
+      "key": "wd:Q15915390",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王象乾（Q15915390）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15915390",
+      "external_identifier": "Q15915390"
+    },
+    {
+      "key": "wd:Q15915660",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王乃征（Q15915660）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15915660",
+      "external_identifier": "Q15915660"
+    },
+    {
+      "key": "wd:Q15915661",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王同愈（Q15915661）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15915661",
+      "external_identifier": "Q15915661"
+    },
+    {
+      "key": "wd:Q15915784",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王宗茂（Q15915784）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15915784",
+      "external_identifier": "Q15915784"
+    },
+    {
+      "key": "wd:Q15916206",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王步青（Q15916206）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15916206",
+      "external_identifier": "Q15916206"
+    },
+    {
+      "key": "wd:Q15916283",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王顼龄（Q15916283）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15916283",
+      "external_identifier": "Q15916283"
+    },
+    {
+      "key": "wd:Q15916546",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王英（Q15916546）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15916546",
+      "external_identifier": "Q15916546"
+    },
+    {
+      "key": "wd:Q15916579",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王以旗（Q15916579）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15916579",
+      "external_identifier": "Q15916579"
+    },
+    {
+      "key": "wd:Q15916782",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王颂蔚（Q15916782）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15916782",
+      "external_identifier": "Q15916782"
+    },
+    {
+      "key": "wd:Q15916933",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王宗沐（Q15916933）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15916933",
+      "external_identifier": "Q15916933"
+    },
+    {
+      "key": "wd:Q15917039",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王玺（Q15917039）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15917039",
+      "external_identifier": "Q15917039"
+    },
+    {
+      "key": "wd:Q15918025",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王丕煦（Q15918025）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15918025",
+      "external_identifier": "Q15918025"
+    },
+    {
+      "key": "wd:Q15918123",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王杲（Q15918123）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15918123",
+      "external_identifier": "Q15918123"
+    },
+    {
+      "key": "wd:Q15919186",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王家桢（Q15919186）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15919186",
+      "external_identifier": "Q15919186"
+    },
+    {
+      "key": "wd:Q15920574",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王震宇（Q15920574）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15920574",
+      "external_identifier": "Q15920574"
+    },
+    {
+      "key": "wd:Q15920865",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王荣商（Q15920865）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15920865",
+      "external_identifier": "Q15920865"
+    },
+    {
+      "key": "wd:Q15921161",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王有宏（Q15921161）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15921161",
+      "external_identifier": "Q15921161"
+    },
+    {
+      "key": "wd:Q15921364",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王铁珊（Q15921364）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15921364",
+      "external_identifier": "Q15921364"
+    },
+    {
+      "key": "wd:Q15921544",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王继香（Q15921544）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15921544",
+      "external_identifier": "Q15921544"
+    },
+    {
+      "key": "wd:Q15921595",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王以慜（Q15921595）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15921595",
+      "external_identifier": "Q15921595"
+    },
+    {
+      "key": "wd:Q15921962",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王叔英（Q15921962）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15921962",
+      "external_identifier": "Q15921962"
+    },
+    {
+      "key": "wd:Q15922381",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王彰（Q15922381）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15922381",
+      "external_identifier": "Q15922381"
+    },
+    {
+      "key": "wd:Q15923242",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王仁俊（Q15923242）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15923242",
+      "external_identifier": "Q15923242"
+    },
+    {
+      "key": "wd:Q15923672",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王际华（Q15923672）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15923672",
+      "external_identifier": "Q15923672"
+    },
+    {
+      "key": "wd:Q15924355",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王德成（Q15924355）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15924355",
+      "external_identifier": "Q15924355"
+    },
+    {
+      "key": "wd:Q15924864",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王廷璋（Q15924864）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15924864",
+      "external_identifier": "Q15924864"
+    },
+    {
+      "key": "wd:Q15924928",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王与龄（Q15924928）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15924928",
+      "external_identifier": "Q15924928"
+    },
+    {
+      "key": "wd:Q15924995",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王铭（Q15924995）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15924995",
+      "external_identifier": "Q15924995"
+    },
+    {
+      "key": "wd:Q15925845",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王伯秋（Q15925845）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15925845",
+      "external_identifier": "Q15925845"
+    },
+    {
+      "key": "wd:Q15926038",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王一宁（Q15926038）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15926038",
+      "external_identifier": "Q15926038"
+    },
+    {
+      "key": "wd:Q15926190",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王生岳（Q15926190）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15926190",
+      "external_identifier": "Q15926190"
+    },
+    {
+      "key": "wd:Q15926237",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王家屏（Q15926237）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15926237",
+      "external_identifier": "Q15926237"
+    },
+    {
+      "key": "wd:Q15926463",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王爌（Q15926463）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15926463",
+      "external_identifier": "Q15926463"
+    },
+    {
+      "key": "wd:Q15926773",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王安澜（Q15926773）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15926773",
+      "external_identifier": "Q15926773"
+    },
+    {
+      "key": "wd:Q15927580",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王祖畬（Q15927580）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15927580",
+      "external_identifier": "Q15927580"
+    },
+    {
+      "key": "wd:Q15927654",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王效（Q15927654）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15927654",
+      "external_identifier": "Q15927654"
+    },
+    {
+      "key": "wd:Q15927826",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王永吉（Q15927826）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15927826",
+      "external_identifier": "Q15927826"
+    },
+    {
+      "key": "wd:Q15928108",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王锡朋（Q15928108）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15928108",
+      "external_identifier": "Q15928108"
+    },
+    {
+      "key": "wd:Q15928211",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王诏（Q15928211）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15928211",
+      "external_identifier": "Q15928211"
+    },
+    {
+      "key": "wd:Q15928337",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王友端（Q15928337）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15928337",
+      "external_identifier": "Q15928337"
+    },
+    {
+      "key": "wd:Q15928604",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王廷扬（Q15928604）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15928604",
+      "external_identifier": "Q15928604"
+    },
+    {
+      "key": "wd:Q15928723",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王佐（Q15928723）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15928723",
+      "external_identifier": "Q15928723"
+    },
+    {
+      "key": "wd:Q15929159",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王汝勤（Q15929159）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15929159",
+      "external_identifier": "Q15929159"
+    },
+    {
+      "key": "wd:Q15929306",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王璟（Q15929306）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15929306",
+      "external_identifier": "Q15929306"
+    },
+    {
+      "key": "wd:Q15929528",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王广荫（Q15929528）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15929528",
+      "external_identifier": "Q15929528"
+    },
+    {
+      "key": "wd:Q15929730",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王元超（Q15929730）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15929730",
+      "external_identifier": "Q15929730"
+    },
+    {
+      "key": "wd:Q15929832",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王兆离（Q15929832）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15929832",
+      "external_identifier": "Q15929832"
+    },
+    {
+      "key": "wd:Q15929982",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王天鉴（Q15929982）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15929982",
+      "external_identifier": "Q15929982"
+    },
+    {
+      "key": "wd:Q15930273",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王廷赞（Q15930273）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15930273",
+      "external_identifier": "Q15930273"
+    },
+    {
+      "key": "wd:Q15930541",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王会厘（Q15930541）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15930541",
+      "external_identifier": "Q15930541"
+    },
+    {
+      "key": "wd:Q15930589",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王揆一（Q15930589）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15930589",
+      "external_identifier": "Q15930589"
+    },
+    {
+      "key": "wd:Q15930590",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王锷（Q15930590）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15930590",
+      "external_identifier": "Q15930590"
+    }
+  ],
+  "persons": [
+    {
+      "key": "wd:Q15912148",
+      "qid": "Q15912148",
+      "cbdb": "67477",
+      "hop": 0,
+      "name": {
+        "text": "王来",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王来",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15912148"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15912148）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1395年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15912148"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1470年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15912148"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1470年"
+      },
+      "source_keys": [
+        "wd:Q15912148"
+      ]
+    },
+    {
+      "key": "wd:Q15912162",
+      "qid": "Q15912162",
+      "cbdb": "67466",
+      "hop": 0,
+      "name": {
+        "text": "王轼",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王轼",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15912162"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15912162）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1439年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15912162"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1506年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15912162"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        },
+        {
+          "predicate": "bio.summary",
+          "value": {
+            "text": "天順進士",
+            "language": "zh-Hant"
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q15912162"
+          ],
+          "change_summary": "据维基数据中文描述补录"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1506年"
+      },
+      "source_keys": [
+        "wd:Q15912162"
+      ]
+    },
+    {
+      "key": "wd:Q15912186",
+      "qid": "Q15912186",
+      "cbdb": null,
+      "hop": 0,
+      "name": {
+        "text": "王昙",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王昙",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15912186"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15912186）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1760年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15912186"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1817年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15912186"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1817年"
+      },
+      "source_keys": [
+        "wd:Q15912186"
+      ]
+    },
+    {
+      "key": "wd:Q15912308",
+      "qid": "Q15912308",
+      "cbdb": null,
+      "hop": 0,
+      "name": {
+        "text": "王慶雲 (安徽議員)",
+        "language": "zh-Hant"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王慶雲 (安徽議員)",
+            "language": "zh-Hant"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15912308"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15912308）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1879年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15912308"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1936年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15912308"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1936年"
+      },
+      "source_keys": [
+        "wd:Q15912308"
+      ]
+    },
+    {
+      "key": "wd:Q15912586",
+      "qid": "Q15912586",
+      "cbdb": "71142",
+      "hop": 0,
+      "name": {
+        "text": "王炽",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王炽",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15912586"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15912586）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1836年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15912586"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1903年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15912586"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1903年"
+      },
+      "source_keys": [
+        "wd:Q15912586"
+      ]
+    },
+    {
+      "key": "wd:Q15912604",
+      "qid": "Q15912604",
+      "cbdb": "71249",
+      "hop": 0,
+      "name": {
+        "text": "王照",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王照",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15912604"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15912604）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1859年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15912604"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1933年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15912604"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        },
+        {
+          "predicate": "bio.summary",
+          "value": {
+            "text": "中國語言學家(1859-1933)",
+            "language": "zh-Hant"
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q15912604"
+          ],
+          "change_summary": "据维基数据中文描述补录"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1933年"
+      },
+      "source_keys": [
+        "wd:Q15912604"
+      ]
+    },
+    {
+      "key": "wd:Q15912610",
+      "qid": "Q15912610",
+      "cbdb": null,
+      "hop": 0,
+      "name": {
+        "text": "王慶芳",
+        "language": "zh-Hant"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王慶芳",
+            "language": "zh-Hant"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15912610"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15912610）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1890年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15912610"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1949年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15912610"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1949年"
+      },
+      "source_keys": [
+        "wd:Q15912610"
+      ]
+    },
+    {
+      "key": "wd:Q15912653",
+      "qid": "Q15912653",
+      "cbdb": "71862",
+      "hop": 0,
+      "name": {
+        "text": "王树枏",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王树枏",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15912653"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15912653）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1851年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15912653"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1936年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15912653"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        },
+        {
+          "predicate": "bio.summary",
+          "value": {
+            "text": "中国晚清与民国时期官员、散文家、学者（约1851～1936）",
+            "language": "zh-Hans"
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q15912653"
+          ],
+          "change_summary": "据维基数据中文描述补录"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1936年"
+      },
+      "source_keys": [
+        "wd:Q15912653"
+      ]
+    },
+    {
+      "key": "wd:Q15912695",
+      "qid": "Q15912695",
+      "cbdb": "175881",
+      "hop": 0,
+      "name": {
+        "text": "王仁皎",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王仁皎",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15912695"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15912695）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "651年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15912695"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "719年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15912695"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 719年"
+      },
+      "source_keys": [
+        "wd:Q15912695"
+      ]
+    },
+    {
+      "key": "wd:Q15912983",
+      "qid": "Q15912983",
+      "cbdb": null,
+      "hop": 0,
+      "name": {
+        "text": "王善荃",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王善荃",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15912983"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15912983）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1869年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15912983"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1923年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15912983"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1923年"
+      },
+      "source_keys": [
+        "wd:Q15912983"
+      ]
+    },
+    {
+      "key": "wd:Q15913202",
+      "qid": "Q15913202",
+      "cbdb": "58606",
+      "hop": 0,
+      "name": {
+        "text": "王廷相",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王廷相",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15913202"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15913202）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1851年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15913202"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1900年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15913202"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        },
+        {
+          "predicate": "bio.summary",
+          "value": {
+            "text": "光緒進士",
+            "language": "zh-Hant"
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q15913202"
+          ],
+          "change_summary": "据维基数据中文描述补录"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1900年"
+      },
+      "source_keys": [
+        "wd:Q15913202"
+      ]
+    },
+    {
+      "key": "wd:Q15913216",
+      "qid": "Q15913216",
+      "cbdb": null,
+      "hop": 0,
+      "name": {
+        "text": "王漱芳",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王漱芳",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15913216"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15913216）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1901年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15913216"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1943年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15913216"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1943年"
+      },
+      "source_keys": [
+        "wd:Q15913216"
+      ]
+    },
+    {
+      "key": "wd:Q15913275",
+      "qid": "Q15913275",
+      "cbdb": "64906",
+      "hop": 0,
+      "name": {
+        "text": "王鸿绪",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王鸿绪",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15913275"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15913275）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1645年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15913275"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1723年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15913275"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        },
+        {
+          "predicate": "bio.summary",
+          "value": {
+            "text": "清朝史學家、康熙帝親信",
+            "language": "zh-Hant"
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q15913275"
+          ],
+          "change_summary": "据维基数据中文描述补录"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1723年"
+      },
+      "source_keys": [
+        "wd:Q15913275"
+      ]
+    },
+    {
+      "key": "wd:Q15913621",
+      "qid": "Q15913621",
+      "cbdb": null,
+      "hop": 0,
+      "name": {
+        "text": "王雅 (晋朝)",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王雅 (晋朝)",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15913621"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15913621）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "334年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15913621"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "400年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15913621"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 400年"
+      },
+      "source_keys": [
+        "wd:Q15913621"
+      ]
+    },
+    {
+      "key": "wd:Q15913733",
+      "qid": "Q15913733",
+      "cbdb": "35042",
+      "hop": 0,
+      "name": {
+        "text": "王锡阐",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王锡阐",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15913733"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15913733）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1628年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15913733"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1682年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15913733"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1682年"
+      },
+      "source_keys": [
+        "wd:Q15913733"
+      ]
+    },
+    {
+      "key": "wd:Q15913786",
+      "qid": "Q15913786",
+      "cbdb": "57206",
+      "hop": 0,
+      "name": {
+        "text": "王鼎",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王鼎",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15913786"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15913786）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1768年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15913786"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1842年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15913786"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1842年"
+      },
+      "source_keys": [
+        "wd:Q15913786"
+      ]
+    },
+    {
+      "key": "wd:Q15913916",
+      "qid": "Q15913916",
+      "cbdb": "68328",
+      "hop": 0,
+      "name": {
+        "text": "王时中",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王时中",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15913916"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15913916）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1466年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15913916"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1542年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15913916"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1542年"
+      },
+      "source_keys": [
+        "wd:Q15913916"
+      ]
+    },
+    {
+      "key": "wd:Q15914195",
+      "qid": "Q15914195",
+      "cbdb": "69358",
+      "hop": 0,
+      "name": {
+        "text": "王垿",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王垿",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15914195"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15914195）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1857年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15914195"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1933年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15914195"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1933年"
+      },
+      "source_keys": [
+        "wd:Q15914195"
+      ]
+    },
+    {
+      "key": "wd:Q15914310",
+      "qid": "Q15914310",
+      "cbdb": null,
+      "hop": 0,
+      "name": {
+        "text": "王裒",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王裒",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15914310"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15914310）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "3世纪",
+              "calendar_note": "维基数据 P569 结构化日期，精度：世纪"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15914310"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "311年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15914310"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        },
+        {
+          "predicate": "bio.summary",
+          "value": {
+            "text": "魏晉名士，《二十四孝》中聞雷泣墓的主角",
+            "language": "zh-Hant"
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q15914310"
+          ],
+          "change_summary": "据维基数据中文描述补录"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 311年"
+      },
+      "source_keys": [
+        "wd:Q15914310"
+      ]
+    },
+    {
+      "key": "wd:Q15914779",
+      "qid": "Q15914779",
+      "cbdb": "57129",
+      "hop": 0,
+      "name": {
+        "text": "王汝璧",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王汝璧",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15914779"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15914779）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1746年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15914779"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1806年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15914779"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1806年"
+      },
+      "source_keys": [
+        "wd:Q15914779"
+      ]
+    },
+    {
+      "key": "wd:Q15915195",
+      "qid": "Q15915195",
+      "cbdb": "37640",
+      "hop": 0,
+      "name": {
+        "text": "王彦升",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王彦升",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15915195"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15915195）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "917年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15915195"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "974年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15915195"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        },
+        {
+          "predicate": "bio.summary",
+          "value": {
+            "text": "王彦升（917年－974年），字光烈，蜀地（在今四川）人，后迁洛阳，北宋名将、开国功臣。 王彦升早年曾先后效力于后唐、后晋、后汉、后周，历任东班承旨、内殿直、护圣指挥使、龙捷右第九军都虞候、铁骑右第二军都校。他随周世宗征南唐、伐契丹，累立战功，改任散员都指挥使。 建隆元年（960年），王彦升参与陈桥兵变，拥立宋太祖赵匡胤，并诛杀后周大将韩通，被授为铁骑左厢都指挥使。不久因敲诈宰相王溥，被贬出京城，出镇唐州，后又镇守申州、防州、原州。 开宝七年（974年），王彦升回朝途中在乾州病逝。",
+            "language": "zh-Hans"
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q15915195"
+          ],
+          "change_summary": "据维基数据中文描述补录"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 974年"
+      },
+      "source_keys": [
+        "wd:Q15915195"
+      ]
+    },
+    {
+      "key": "wd:Q15915249",
+      "qid": "Q15915249",
+      "cbdb": "69047",
+      "hop": 0,
+      "name": {
+        "text": "王文清",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王文清",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15915249"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15915249）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1692年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15915249"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1779年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15915249"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        },
+        {
+          "predicate": "bio.summary",
+          "value": {
+            "text": "清朝学者",
+            "language": "zh-Hans"
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q15915249"
+          ],
+          "change_summary": "据维基数据中文描述补录"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1779年"
+      },
+      "source_keys": [
+        "wd:Q15915249"
+      ]
+    },
+    {
+      "key": "wd:Q15915390",
+      "qid": "Q15915390",
+      "cbdb": "65764",
+      "hop": 0,
+      "name": {
+        "text": "王象乾",
+        "language": "zh-Hant"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王象乾",
+            "language": "zh-Hant"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15915390"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15915390）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1547年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15915390"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1631年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15915390"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        },
+        {
+          "predicate": "bio.summary",
+          "value": {
+            "text": "明朝政治人物",
+            "language": "zh-Hans"
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q15915390"
+          ],
+          "change_summary": "据维基数据中文描述补录"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1631年"
+      },
+      "source_keys": [
+        "wd:Q15915390"
+      ]
+    },
+    {
+      "key": "wd:Q15915660",
+      "qid": "Q15915660",
+      "cbdb": "61601",
+      "hop": 0,
+      "name": {
+        "text": "王乃征",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王乃征",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15915660"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15915660）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1861年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15915660"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1933年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15915660"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1933年"
+      },
+      "source_keys": [
+        "wd:Q15915660"
+      ]
+    },
+    {
+      "key": "wd:Q15915661",
+      "qid": "Q15915661",
+      "cbdb": "61475",
+      "hop": 0,
+      "name": {
+        "text": "王同愈",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王同愈",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15915661"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15915661）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1855年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15915661"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1941年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15915661"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1941年"
+      },
+      "source_keys": [
+        "wd:Q15915661"
+      ]
+    },
+    {
+      "key": "wd:Q15915784",
+      "qid": "Q15915784",
+      "cbdb": "68496",
+      "hop": 0,
+      "name": {
+        "text": "王宗茂",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王宗茂",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15915784"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15915784）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1511年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15915784"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1562年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15915784"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1562年"
+      },
+      "source_keys": [
+        "wd:Q15915784"
+      ]
+    },
+    {
+      "key": "wd:Q15916206",
+      "qid": "Q15916206",
+      "cbdb": "69215",
+      "hop": 0,
+      "name": {
+        "text": "王步青",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王步青",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15916206"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15916206）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1672年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15916206"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1751年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15916206"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1751年"
+      },
+      "source_keys": [
+        "wd:Q15916206"
+      ]
+    },
+    {
+      "key": "wd:Q15916283",
+      "qid": "Q15916283",
+      "cbdb": "57204",
+      "hop": 0,
+      "name": {
+        "text": "王顼龄",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王顼龄",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15916283"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15916283）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1642年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15916283"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1725年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15916283"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1725年"
+      },
+      "source_keys": [
+        "wd:Q15916283"
+      ]
+    },
+    {
+      "key": "wd:Q15916546",
+      "qid": "Q15916546",
+      "cbdb": "66848",
+      "hop": 0,
+      "name": {
+        "text": "王英",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王英",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15916546"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15916546）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1376年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15916546"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1450年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15916546"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1450年"
+      },
+      "source_keys": [
+        "wd:Q15916546"
+      ]
+    },
+    {
+      "key": "wd:Q15916579",
+      "qid": "Q15916579",
+      "cbdb": "68257",
+      "hop": 0,
+      "name": {
+        "text": "王以旗",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王以旗",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15916579"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15916579）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1486年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15916579"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1553年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15916579"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1553年"
+      },
+      "source_keys": [
+        "wd:Q15916579"
+      ]
+    },
+    {
+      "key": "wd:Q15916782",
+      "qid": "Q15916782",
+      "cbdb": "69381",
+      "hop": 0,
+      "name": {
+        "text": "王颂蔚",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王颂蔚",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15916782"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15916782）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1849年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15916782"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1896年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15916782"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1896年"
+      },
+      "source_keys": [
+        "wd:Q15916782"
+      ]
+    },
+    {
+      "key": "wd:Q15916933",
+      "qid": "Q15916933",
+      "cbdb": "35065",
+      "hop": 0,
+      "name": {
+        "text": "王宗沐",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王宗沐",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15916933"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15916933）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1524年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15916933"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1591年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15916933"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1591年"
+      },
+      "source_keys": [
+        "wd:Q15916933"
+      ]
+    },
+    {
+      "key": "wd:Q15917039",
+      "qid": "Q15917039",
+      "cbdb": "67594",
+      "hop": 0,
+      "name": {
+        "text": "王玺",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王玺",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15917039"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15917039）"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1488年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15917039"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1488年"
+      },
+      "source_keys": [
+        "wd:Q15917039"
+      ]
+    },
+    {
+      "key": "wd:Q15918025",
+      "qid": "Q15918025",
+      "cbdb": "341764",
+      "hop": 0,
+      "name": {
+        "text": "王丕煦",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王丕煦",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15918025"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15918025）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1871年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15918025"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1943年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15918025"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1943年"
+      },
+      "source_keys": [
+        "wd:Q15918025"
+      ]
+    },
+    {
+      "key": "wd:Q15918123",
+      "qid": "Q15918123",
+      "cbdb": "69272",
+      "hop": 0,
+      "name": {
+        "text": "王杲",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王杲",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15918123"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15918123）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1515年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15918123"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1575年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15918123"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1575年"
+      },
+      "source_keys": [
+        "wd:Q15918123"
+      ]
+    },
+    {
+      "key": "wd:Q15919186",
+      "qid": "Q15919186",
+      "cbdb": "35031",
+      "hop": 0,
+      "name": {
+        "text": "王家桢",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王家桢",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15919186"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15919186）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1581年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15919186"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1644年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15919186"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        },
+        {
+          "predicate": "bio.summary",
+          "value": {
+            "text": "明朝進士",
+            "language": "zh-Hant"
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q15919186"
+          ],
+          "change_summary": "据维基数据中文描述补录"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1644年"
+      },
+      "source_keys": [
+        "wd:Q15919186"
+      ]
+    },
+    {
+      "key": "wd:Q15920574",
+      "qid": "Q15920574",
+      "cbdb": null,
+      "hop": 0,
+      "name": {
+        "text": "王震宇",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王震宇",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15920574"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15920574）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1916年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15920574"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1949年11月27日",
+              "calendar_note": "维基数据 P570 结构化日期，精度：日"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15920574"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1949年11月27日"
+      },
+      "source_keys": [
+        "wd:Q15920574"
+      ]
+    },
+    {
+      "key": "wd:Q15920865",
+      "qid": "Q15920865",
+      "cbdb": "61928",
+      "hop": 0,
+      "name": {
+        "text": "王荣商",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王荣商",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15920865"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15920865）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1852年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15920865"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1921年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15920865"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1921年"
+      },
+      "source_keys": [
+        "wd:Q15920865"
+      ]
+    },
+    {
+      "key": "wd:Q15921161",
+      "qid": "Q15921161",
+      "cbdb": "69187",
+      "hop": 0,
+      "name": {
+        "text": "王有宏",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王有宏",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15921161"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15921161）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1853年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15921161"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1911年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15921161"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1911年"
+      },
+      "source_keys": [
+        "wd:Q15921161"
+      ]
+    },
+    {
+      "key": "wd:Q15921364",
+      "qid": "Q15921364",
+      "cbdb": "71956",
+      "hop": 0,
+      "name": {
+        "text": "王铁珊",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王铁珊",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15921364"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15921364）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1860年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15921364"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1900年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15921364"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1900年"
+      },
+      "source_keys": [
+        "wd:Q15921364"
+      ]
+    },
+    {
+      "key": "wd:Q15921544",
+      "qid": "Q15921544",
+      "cbdb": "68605",
+      "hop": 0,
+      "name": {
+        "text": "王继香",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王继香",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15921544"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15921544）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1846年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15921544"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1905年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15921544"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1905年"
+      },
+      "source_keys": [
+        "wd:Q15921544"
+      ]
+    },
+    {
+      "key": "wd:Q15921595",
+      "qid": "Q15921595",
+      "cbdb": "68562",
+      "hop": 0,
+      "name": {
+        "text": "王以慜",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王以慜",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15921595"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15921595）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1855年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15921595"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1921年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15921595"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1921年"
+      },
+      "source_keys": [
+        "wd:Q15921595"
+      ]
+    },
+    {
+      "key": "wd:Q15921962",
+      "qid": "Q15921962",
+      "cbdb": "34448",
+      "hop": 0,
+      "name": {
+        "text": "王叔英",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王叔英",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15921962"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15921962）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1372年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15921962"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1402年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15921962"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1402年"
+      },
+      "source_keys": [
+        "wd:Q15921962"
+      ]
+    },
+    {
+      "key": "wd:Q15922381",
+      "qid": "Q15922381",
+      "cbdb": "67117",
+      "hop": 0,
+      "name": {
+        "text": "王彰",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王彰",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15922381"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15922381）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1366年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15922381"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1427年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15922381"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        },
+        {
+          "predicate": "bio.summary",
+          "value": {
+            "text": "明朝御史",
+            "language": "zh-Hans"
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q15922381"
+          ],
+          "change_summary": "据维基数据中文描述补录"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1427年"
+      },
+      "source_keys": [
+        "wd:Q15922381"
+      ]
+    },
+    {
+      "key": "wd:Q15923242",
+      "qid": "Q15923242",
+      "cbdb": "71404",
+      "hop": 0,
+      "name": {
+        "text": "王仁俊",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王仁俊",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15923242"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15923242）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1866年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15923242"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1913年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15923242"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1913年"
+      },
+      "source_keys": [
+        "wd:Q15923242"
+      ]
+    },
+    {
+      "key": "wd:Q15923672",
+      "qid": "Q15923672",
+      "cbdb": "57212",
+      "hop": 0,
+      "name": {
+        "text": "王际华",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王际华",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15923672"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15923672）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1717年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15923672"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1776年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15923672"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1776年"
+      },
+      "source_keys": [
+        "wd:Q15923672"
+      ]
+    },
+    {
+      "key": "wd:Q15924355",
+      "qid": "Q15924355",
+      "cbdb": null,
+      "hop": 0,
+      "name": {
+        "text": "王德成",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王德成",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15924355"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15924355）"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1856年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15924355"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1856年"
+      },
+      "source_keys": [
+        "wd:Q15924355"
+      ]
+    },
+    {
+      "key": "wd:Q15924864",
+      "qid": "Q15924864",
+      "cbdb": null,
+      "hop": 0,
+      "name": {
+        "text": "王廷璋",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王廷璋",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15924864"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15924864）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1884年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15924864"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1944年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15924864"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1944年"
+      },
+      "source_keys": [
+        "wd:Q15924864"
+      ]
+    },
+    {
+      "key": "wd:Q15924928",
+      "qid": "Q15924928",
+      "cbdb": "68464",
+      "hop": 0,
+      "name": {
+        "text": "王与龄",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王与龄",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15924928"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15924928）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1508年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15924928"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1564年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15924928"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1564年"
+      },
+      "source_keys": [
+        "wd:Q15924928"
+      ]
+    },
+    {
+      "key": "wd:Q15924995",
+      "qid": "Q15924995",
+      "cbdb": "66298",
+      "hop": 0,
+      "name": {
+        "text": "王铭",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王铭",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15924995"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15924995）"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1393年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15924995"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1393年"
+      },
+      "source_keys": [
+        "wd:Q15924995"
+      ]
+    },
+    {
+      "key": "wd:Q15925845",
+      "qid": "Q15925845",
+      "cbdb": null,
+      "hop": 0,
+      "name": {
+        "text": "王伯秋",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王伯秋",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15925845"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15925845）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1883年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15925845"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1939年5月17日",
+              "calendar_note": "维基数据 P570 结构化日期，精度：日"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15925845"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        },
+        {
+          "predicate": "bio.summary",
+          "value": {
+            "text": "中华民国政治人物",
+            "language": "zh-Hans"
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q15925845"
+          ],
+          "change_summary": "据维基数据中文描述补录"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1939年5月17日"
+      },
+      "source_keys": [
+        "wd:Q15925845"
+      ]
+    },
+    {
+      "key": "wd:Q15926038",
+      "qid": "Q15926038",
+      "cbdb": null,
+      "hop": 0,
+      "name": {
+        "text": "王一宁",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王一宁",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15926038"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15926038）"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1452年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15926038"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        },
+        {
+          "predicate": "bio.summary",
+          "value": {
+            "text": "大学士",
+            "language": "zh-Hans"
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q15926038"
+          ],
+          "change_summary": "据维基数据中文描述补录"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1452年"
+      },
+      "source_keys": [
+        "wd:Q15926038"
+      ]
+    },
+    {
+      "key": "wd:Q15926190",
+      "qid": "Q15926190",
+      "cbdb": null,
+      "hop": 0,
+      "name": {
+        "text": "王生岳",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王生岳",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15926190"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15926190）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1872年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15926190"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1945年10月",
+              "calendar_note": "维基数据 P570 结构化日期，精度：月"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15926190"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1945年10月"
+      },
+      "source_keys": [
+        "wd:Q15926190"
+      ]
+    },
+    {
+      "key": "wd:Q15926237",
+      "qid": "Q15926237",
+      "cbdb": "126627",
+      "hop": 0,
+      "name": {
+        "text": "王家屏",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王家屏",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15926237"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15926237）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1535年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15926237"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1603年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15926237"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1603年"
+      },
+      "source_keys": [
+        "wd:Q15926237"
+      ]
+    },
+    {
+      "key": "wd:Q15926463",
+      "qid": "Q15926463",
+      "cbdb": "68280",
+      "hop": 0,
+      "name": {
+        "text": "王爌",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王爌",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15926463"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15926463）"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1554年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15926463"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1554年"
+      },
+      "source_keys": [
+        "wd:Q15926463"
+      ]
+    },
+    {
+      "key": "wd:Q15926773",
+      "qid": "Q15926773",
+      "cbdb": "71635",
+      "hop": 0,
+      "name": {
+        "text": "王安澜",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王安澜",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15926773"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15926773）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1857年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15926773"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1908年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15926773"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1908年"
+      },
+      "source_keys": [
+        "wd:Q15926773"
+      ]
+    },
+    {
+      "key": "wd:Q15927580",
+      "qid": "Q15927580",
+      "cbdb": "71925",
+      "hop": 0,
+      "name": {
+        "text": "王祖畬",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王祖畬",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15927580"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15927580）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1842年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15927580"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1918年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15927580"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1918年"
+      },
+      "source_keys": [
+        "wd:Q15927580"
+      ]
+    },
+    {
+      "key": "wd:Q15927654",
+      "qid": "Q15927654",
+      "cbdb": "68925",
+      "hop": 0,
+      "name": {
+        "text": "王效",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王效",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15927654"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15927654）"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1538年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15927654"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1538年"
+      },
+      "source_keys": [
+        "wd:Q15927654"
+      ]
+    },
+    {
+      "key": "wd:Q15927826",
+      "qid": "Q15927826",
+      "cbdb": "56840",
+      "hop": 0,
+      "name": {
+        "text": "王永吉",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王永吉",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15927826"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15927826）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1600年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15927826"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1659年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15927826"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1659年"
+      },
+      "source_keys": [
+        "wd:Q15927826"
+      ]
+    },
+    {
+      "key": "wd:Q15928108",
+      "qid": "Q15928108",
+      "cbdb": "58634",
+      "hop": 0,
+      "name": {
+        "text": "王锡朋",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王锡朋",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15928108"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15928108）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1786年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15928108"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1841年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15928108"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1841年"
+      },
+      "source_keys": [
+        "wd:Q15928108"
+      ]
+    },
+    {
+      "key": "wd:Q15928211",
+      "qid": "Q15928211",
+      "cbdb": "67938",
+      "hop": 0,
+      "name": {
+        "text": "王诏",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王诏",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15928211"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15928211）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1428年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15928211"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1491年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15928211"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        },
+        {
+          "predicate": "bio.summary",
+          "value": {
+            "text": "天順進士",
+            "language": "zh-Hant"
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q15928211"
+          ],
+          "change_summary": "据维基数据中文描述补录"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1491年"
+      },
+      "source_keys": [
+        "wd:Q15928211"
+      ]
+    },
+    {
+      "key": "wd:Q15928337",
+      "qid": "Q15928337",
+      "cbdb": "69077",
+      "hop": 0,
+      "name": {
+        "text": "王友端",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王友端",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15928337"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15928337）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1818年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15928337"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1860年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15928337"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1860年"
+      },
+      "source_keys": [
+        "wd:Q15928337"
+      ]
+    },
+    {
+      "key": "wd:Q15928604",
+      "qid": "Q15928604",
+      "cbdb": "71555",
+      "hop": 0,
+      "name": {
+        "text": "王廷扬",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王廷扬",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15928604"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15928604）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1866年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15928604"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1937年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15928604"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        },
+        {
+          "predicate": "bio.summary",
+          "value": {
+            "text": "清朝人，中國歷代人物傳記資料庫編號=71555",
+            "language": "zh-Hant"
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q15928604"
+          ],
+          "change_summary": "据维基数据中文描述补录"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1937年"
+      },
+      "source_keys": [
+        "wd:Q15928604"
+      ]
+    },
+    {
+      "key": "wd:Q15928723",
+      "qid": "Q15928723",
+      "cbdb": "67281",
+      "hop": 0,
+      "name": {
+        "text": "王佐",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王佐",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15928723"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15928723）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "16世纪",
+              "calendar_note": "维基数据 P569 结构化日期，精度：世纪"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15928723"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1622年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15928723"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        },
+        {
+          "predicate": "bio.summary",
+          "value": {
+            "text": "工部尚書",
+            "language": "zh-Hant"
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q15928723"
+          ],
+          "change_summary": "据维基数据中文描述补录"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1622年"
+      },
+      "source_keys": [
+        "wd:Q15928723"
+      ]
+    },
+    {
+      "key": "wd:Q15929159",
+      "qid": "Q15929159",
+      "cbdb": null,
+      "hop": 0,
+      "name": {
+        "text": "王汝勤",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王汝勤",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15929159"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15929159）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1877年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15929159"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1939年2月",
+              "calendar_note": "维基数据 P570 结构化日期，精度：月"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15929159"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1939年2月"
+      },
+      "source_keys": [
+        "wd:Q15929159"
+      ]
+    },
+    {
+      "key": "wd:Q15929306",
+      "qid": "Q15929306",
+      "cbdb": "307064",
+      "hop": 0,
+      "name": {
+        "text": "王璟",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王璟",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15929306"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15929306）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1446年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15929306"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1533年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15929306"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        },
+        {
+          "predicate": "bio.summary",
+          "value": {
+            "text": "明朝進士",
+            "language": "zh-Hant"
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q15929306"
+          ],
+          "change_summary": "据维基数据中文描述补录"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1533年"
+      },
+      "source_keys": [
+        "wd:Q15929306"
+      ]
+    },
+    {
+      "key": "wd:Q15929528",
+      "qid": "Q15929528",
+      "cbdb": "61921",
+      "hop": 0,
+      "name": {
+        "text": "王广荫",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王广荫",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15929528"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15929528）"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1852年2月3日",
+              "calendar_note": "维基数据 P570 结构化日期，精度：日"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15929528"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1852年2月3日"
+      },
+      "source_keys": [
+        "wd:Q15929528"
+      ]
+    },
+    {
+      "key": "wd:Q15929730",
+      "qid": "Q15929730",
+      "cbdb": "341794",
+      "hop": 0,
+      "name": {
+        "text": "王元超",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王元超",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15929730"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15929730）"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1891年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15929730"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1891年"
+      },
+      "source_keys": [
+        "wd:Q15929730"
+      ]
+    },
+    {
+      "key": "wd:Q15929832",
+      "qid": "Q15929832",
+      "cbdb": "71598",
+      "hop": 0,
+      "name": {
+        "text": "王兆离",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王兆离",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15929832"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15929832）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1870年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15929832"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1942年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15929832"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1942年"
+      },
+      "source_keys": [
+        "wd:Q15929832"
+      ]
+    },
+    {
+      "key": "wd:Q15929982",
+      "qid": "Q15929982",
+      "cbdb": "71370",
+      "hop": 0,
+      "name": {
+        "text": "王天鉴",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王天鉴",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15929982"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15929982）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1622年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15929982"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1681年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15929982"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1681年"
+      },
+      "source_keys": [
+        "wd:Q15929982"
+      ]
+    },
+    {
+      "key": "wd:Q15930273",
+      "qid": "Q15930273",
+      "cbdb": "71570",
+      "hop": 0,
+      "name": {
+        "text": "王廷赞",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王廷赞",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15930273"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15930273）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1847年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15930273"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1927年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15930273"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        },
+        {
+          "predicate": "bio.summary",
+          "value": {
+            "text": "清朝詩人",
+            "language": "zh-Hant"
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q15930273"
+          ],
+          "change_summary": "据维基数据中文描述补录"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1927年"
+      },
+      "source_keys": [
+        "wd:Q15930273"
+      ]
+    },
+    {
+      "key": "wd:Q15930541",
+      "qid": "Q15930541",
+      "cbdb": "71592",
+      "hop": 0,
+      "name": {
+        "text": "王会厘",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王会厘",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15930541"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15930541）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1854年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15930541"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1913年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15930541"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1913年"
+      },
+      "source_keys": [
+        "wd:Q15930541"
+      ]
+    },
+    {
+      "key": "wd:Q15930589",
+      "qid": "Q15930589",
+      "cbdb": "69383",
+      "hop": 0,
+      "name": {
+        "text": "王揆一",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王揆一",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15930589"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15930589）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1812年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15930589"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1858年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15930589"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1858年"
+      },
+      "source_keys": [
+        "wd:Q15930589"
+      ]
+    },
+    {
+      "key": "wd:Q15930590",
+      "qid": "Q15930590",
+      "cbdb": "186698",
+      "hop": 0,
+      "name": {
+        "text": "王锷",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王锷",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15930590"
+          ],
+          "change_summary": "维基数据明确标识为王姓历史人物（Q15930590）"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "730年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15930590"
+          ],
+          "change_summary": "据维基数据结构化日期补录生年"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "815年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15930590"
+          ],
+          "change_summary": "据维基数据结构化日期补录卒年"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 815年"
+      },
+      "source_keys": [
+        "wd:Q15930590"
+      ]
+    }
+  ],
+  "edges": []
+}

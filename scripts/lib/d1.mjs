@@ -42,6 +42,7 @@ function run(sqlArgs, { database, remote, label }, attempts = 4) {
       out = execFileSync('npx', argv, { cwd: API_DIR, encoding: 'utf8', maxBuffer: 64 * 1024 * 1024 });
     } catch (err) {
       out = String(err.stdout ?? '');
+      if (!out.trim()) out = String(err.stderr ?? err.message ?? '');
       lastError = err;
     }
     let parsed;
@@ -57,7 +58,7 @@ function run(sqlArgs, { database, remote, label }, attempts = 4) {
     }
     const message = parsed?.error?.text ?? out.slice(0, 200);
     lastError = new Error(`${label}: ${message}`);
-    const transient = /fetch failed|timeout|ECONN|502|503|504|Internal error/i.test(message);
+    const transient = /fetch failed|request to the Cloudflare API.*failed|timeout|ECONN|502|503|504|Internal error/i.test(message);
     if (!transient) throw lastError;
     console.error(`  ! D1 ${label} 第 ${attempt} 次失败（${message}），重试中`);
     if (attempt < attempts) sleep(2000 * attempt);

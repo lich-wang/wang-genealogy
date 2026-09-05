@@ -15,6 +15,8 @@ export const PROGENITOR_NAMES = new Set([
   '宗敬',
   '毕公高',
   '畢公高',
+  '田安',
+  '比干',
 ]);
 
 /** A full-scope person: Wang by name/title, or a named pre-surname progenitor. */

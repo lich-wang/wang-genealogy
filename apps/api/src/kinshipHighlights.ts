@@ -17,6 +17,8 @@ export const SURNAME_PROGENITOR_NAMES = [
   '王子晉',
   '毕公高',
   '畢公高',
+  '田安',
+  '比干',
 ] as const;
 
 /** Rank surname progenitors first, then let recorded kinship break ties. */
