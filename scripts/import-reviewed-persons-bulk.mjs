@@ -77,6 +77,7 @@ async function api(method, path, body, maxAttempts = 5) {
       error.code = 'd1_daily_quota_exhausted';
       throw error;
     }
+    if (json.error === 'migration_pending') throw error;
     if (![429, 500, 502, 503, 504].includes(response.status) || attempt === maxAttempts) throw error;
     const retryAfter = Number(response.headers.get('retry-after'));
     await sleep(Number.isFinite(retryAfter) && retryAfter > 0 ? retryAfter * 1000 : 1000 * (2 ** (attempt - 1)));
@@ -91,11 +92,10 @@ async function authenticate() {
     password: process.env.IMPORTER_PASSWORD,
   });
   token = result.token;
-  const me = await api('GET', '/auth/me');
-  if (!['admin', 'maintainer'].includes(me.user.role)) {
-    throw new Error(`批量导入需要 admin/maintainer，当前角色为 ${me.user.role}`);
+  if (!['admin', 'maintainer'].includes(result.user.role)) {
+    throw new Error(`批量导入需要 admin/maintainer，当前角色为 ${result.user.role}`);
   }
-  return me.user;
+  return result.user;
 }
 
 function itemFrom(person, sourceByKey) {

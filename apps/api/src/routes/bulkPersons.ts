@@ -198,6 +198,17 @@ async function contentHash(item: BulkInput['items'][number]): Promise<string> {
   }));
 }
 
+function rethrowBulkDatabaseError(error: unknown): never {
+  const message = error instanceof Error ? error.message : String(error);
+  if (/no such table:\s*reviewed_person_import/i.test(message)) {
+    throw new AppError(503, 'migration_pending', '批量人物导入迁移尚未应用；静态审核数据仍可用，请在 D1 额度恢复后重试。');
+  }
+  if (/free tier daily row (read|write) limit|code:?\s*7500/i.test(message)) {
+    throw new AppError(503, 'd1_daily_quota_exhausted', 'D1 每日额度已耗尽；静态审核数据仍可用，请在额度重置后续传。');
+  }
+  throw error;
+}
+
 /**
  * Import an already-reviewed historical-person roster with constant D1
  * round-trips: one validation batch and one transactional write batch. Every
@@ -226,7 +237,9 @@ app.post('/bulk-reviewed', async (c) => {
   const variants = requested.flatMap((item) => item.name_variants.map((variant) => ({ index: item.index, variant })));
   const variantsJson = JSON.stringify(variants);
 
-  const [identityResult, nameResult, claimResult] = await c.env.DB.batch([
+  let validationResults: D1Result<unknown>[];
+  try {
+    validationResults = await c.env.DB.batch([
     c.env.DB.prepare(
       `WITH requested AS (
          SELECT CAST(json_extract(value, '$.index') AS INTEGER) AS request_index,
@@ -286,7 +299,11 @@ app.post('/bulk-reviewed', async (c) => {
         GROUP BY requested.request_index, claim.id
         ORDER BY requested.request_index, claim.predicate`,
     ).bind(requestedJson),
-  ]);
+    ]);
+  } catch (error) {
+    rethrowBulkDatabaseError(error);
+  }
+  const [identityResult, nameResult, claimResult] = validationResults;
 
   const identityRows = new Map(
     ((identityResult?.results ?? []) as unknown as IdentityRow[]).map((row) => [Number(row.request_index), row]),
@@ -383,7 +400,8 @@ app.post('/bulk-reviewed', async (c) => {
     };
   });
   const data = JSON.stringify(records);
-  await c.env.DB.batch([
+  try {
+    await c.env.DB.batch([
     c.env.DB.prepare(
       `INSERT INTO source (id, source_type, title, creator, publisher, published_at_text, canonical_url, external_identifier, license_code, accessed_at, metadata_json, created_by_user_id, created_at)
        SELECT json_extract(value,'$.source_id'), json_extract(value,'$.source.source_type'), json_extract(value,'$.source.title'),
@@ -453,7 +471,10 @@ app.post('/bulk-reviewed', async (c) => {
               json_extract(value,'$.content_hash'), json_extract(value,'$.source_id'), json_extract(value,'$.person_id'),
               json_extract(value,'$.actor_user_id'), json_extract(value,'$.created_at') FROM json_each(?)`,
     ).bind(data),
-  ]);
+    ]);
+  } catch (error) {
+    rethrowBulkDatabaseError(error);
+  }
 
   const createdItems = records.map((record) => ({ identity_key: record.identity_key, person_id: record.person_id }));
   return c.json({
