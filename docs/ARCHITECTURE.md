@@ -143,6 +143,8 @@ scripts/purge-records.mjs        硬删除（政策例外，需 --yes-hard-delet
 
 ## 七、备份与可移植性
 
+人物基本资料的大批量补全采用「离线只读审计 → 可复核计划 → `bulk-person-properties`」流程。服务端对整批人物、来源和现有谓词做集合校验，再用一次 D1 batch 写入主张、版本、引用与贡献记录；维护脚本不得退化为逐人物查询或逐主张写入。
+
 - 定期导出 D1 SQL；
 - 提供人物、主张、来源和版本的结构化 JSON 导出；
 - 后续评估 GEDCOM 7、JSON-LD 和 GraphML；

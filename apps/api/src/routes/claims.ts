@@ -2,8 +2,8 @@ import { Hono } from 'hono';
 import { z } from 'zod';
 import type { Env, Variables } from '../env.ts';
 import type { Claim, ClaimSnapshot, RelationshipPredicate } from '@wang/domain';
-import { parentPredicateForRole, RELATIONSHIP_PREDICATES } from '@wang/domain';
-import { disputeSchema, normalizeDate, retractSchema, reviseClaimSchema, revertSchema, sourceRefSchema } from '@wang/validation';
+import { parentPredicateForRole, PROPERTY_PREDICATES, RELATIONSHIP_PREDICATES } from '@wang/domain';
+import { disputeSchema, normalizeDate, propertyValueSchema, retractSchema, reviseClaimSchema, revertSchema, sourceRefSchema } from '@wang/validation';
 import { requireAuth, requireRole } from '../auth.ts';
 import { badRequest, conflict, notFound } from '../errors.ts';
 import { mapClaim, mapClaimRevision } from '../db.ts';
@@ -38,6 +38,138 @@ const bulkParentRolesSchema = z.object({
     expected_revision: z.number().int().positive(),
     parent_role: z.enum(['father', 'mother']),
   })).min(1).max(1500),
+});
+
+const bulkPersonPropertiesSchema = z.object({
+  summary: z.string().min(3).max(500),
+  items: z.array(z.object({
+    person_id: z.string().min(3).max(80),
+    predicate: z.enum(PROPERTY_PREDICATES),
+    value: propertyValueSchema,
+    confidence: z.enum(['unknown', 'low', 'medium', 'high']).default('medium'),
+    source: sourceRefSchema.refine((ref) => ref.stance === 'supports', '批量采纳资料必须有支持来源。'),
+  })).min(1).max(1200),
+}).superRefine((body, ctx) => {
+  body.items.forEach((item, index) => {
+    const isDate = item.predicate === 'birth.date' || item.predicate === 'death.date';
+    if (isDate && !item.value.date?.original_text.trim()) {
+      ctx.addIssue({ code: z.ZodIssueCode.custom, path: ['items', index, 'value', 'date'], message: '日期属性必须填写原文。' });
+    }
+    if (!isDate && !item.value.text?.trim()) {
+      ctx.addIssue({ code: z.ZodIssueCode.custom, path: ['items', index, 'value', 'text'], message: '文本属性必须填写非空文字。' });
+    }
+  });
+});
+
+/**
+ * Staff-only reviewed property import. The request performs two set-based
+ * validation reads, then one D1 batch containing four INSERT ... SELECT
+ * statements regardless of item count.
+ */
+app.post('/bulk-person-properties', async (c) => {
+  const auth = requireRole(c, ['admin', 'maintainer']);
+  const body = bulkPersonPropertiesSchema.parse(await c.req.json());
+  const keys = body.items.map((item) => `${item.person_id}\u0000${item.predicate}`);
+  if (new Set(keys).size !== keys.length) throw badRequest('duplicate_property', '批次中不能重复同一人物的同一属性。');
+
+  const requested = JSON.stringify(body.items.map((item) => ({
+    person_id: item.person_id,
+    predicate: item.predicate,
+    source_id: item.source.source_id,
+  })));
+  const [personResult, sourceResult] = await c.env.DB.batch([
+    c.env.DB.prepare(
+      `SELECT requested.person_id, requested.predicate,
+              p.status AS person_status,
+              EXISTS (
+                SELECT 1 FROM claim existing
+                 WHERE existing.subject_person_id = requested.person_id
+                   AND existing.predicate = requested.predicate
+                   AND existing.status NOT IN ('retracted','superseded')
+              ) AS already_exists
+         FROM (
+           SELECT json_extract(value, '$.person_id') AS person_id,
+                  json_extract(value, '$.predicate') AS predicate
+             FROM json_each(?)
+         ) requested
+         LEFT JOIN person p ON p.id = requested.person_id`,
+    ).bind(requested),
+    c.env.DB.prepare(
+      `SELECT requested.source_id, s.id AS found_id
+         FROM (SELECT DISTINCT json_extract(value, '$.source_id') AS source_id FROM json_each(?)) requested
+         LEFT JOIN source s ON s.id = requested.source_id`,
+    ).bind(requested),
+  ]);
+  for (const row of (personResult?.results ?? []) as Array<{ person_id: string; predicate: string; person_status: string | null; already_exists: number }>) {
+    if (!row.person_status || row.person_status === 'suppressed') throw notFound(`人物不存在或已隐藏：${row.person_id}`);
+    if (row.already_exists) throw conflict('property_exists', `人物已有未撤回属性：${row.person_id} ${row.predicate}`);
+  }
+  for (const row of (sourceResult?.results ?? []) as Array<{ source_id: string; found_id: string | null }>) {
+    if (!row.found_id) throw notFound(`来源不存在：${row.source_id}`);
+  }
+
+  const now = nowIso();
+  const records = body.items.map((item) => {
+    const value = {
+      ...item.value,
+      ...(item.value.date?.original_text != null
+        ? { date: normalizeDate(item.value.date.original_text, item.value.date.calendar_note) }
+        : {}),
+    };
+    const claimId = newId('claim');
+    const base = {
+      claim_id: claimId,
+      person_id: item.person_id,
+      predicate: item.predicate,
+      value_json: JSON.stringify(value),
+      confidence: item.confidence,
+      source_id: item.source.source_id,
+      stance: item.source.stance,
+      locator: item.source.locator ?? null,
+      quotation: item.source.quotation ?? null,
+      interpretation_note: item.source.interpretation_note ?? null,
+      revision_1_id: newId('revision'),
+      revision_2_id: newId('revision'),
+      claim_source_id: newId('claimSource'),
+      contribution_1_id: newId('contribution'),
+      contribution_2_id: newId('contribution'),
+      actor_user_id: auth.userId,
+      created_at: now,
+      summary: body.summary,
+    };
+    return {
+      ...base,
+      proposed_snapshot: JSON.stringify({ predicate: item.predicate, claim_kind: 'property', object_person_id: null, generation_count: null, parent_role: null, value_json: value, status: 'proposed', confidence: item.confidence }),
+      accepted_snapshot: JSON.stringify({ predicate: item.predicate, claim_kind: 'property', object_person_id: null, generation_count: null, parent_role: null, value_json: value, status: 'accepted', confidence: item.confidence }),
+    };
+  });
+  const data = JSON.stringify(records);
+  await c.env.DB.batch([
+    c.env.DB.prepare(
+      `INSERT INTO claim (id, subject_person_id, claim_kind, predicate, object_person_id, generation_count, value_json, status, confidence, created_by_user_id, created_at, updated_at, current_revision)
+       SELECT json_extract(value,'$.claim_id'), json_extract(value,'$.person_id'), 'property', json_extract(value,'$.predicate'), NULL, NULL,
+              json_extract(value,'$.value_json'), 'accepted', json_extract(value,'$.confidence'), json_extract(value,'$.actor_user_id'),
+              json_extract(value,'$.created_at'), json_extract(value,'$.created_at'), 2 FROM json_each(?)`,
+    ).bind(data),
+    c.env.DB.prepare(
+      `INSERT INTO claim_revision (id, claim_id, revision_number, snapshot_json, change_summary, created_by_user_id, created_at, reverts_revision_id)
+       SELECT json_extract(value,'$.revision_1_id'), json_extract(value,'$.claim_id'), 1, json_extract(value,'$.proposed_snapshot'), json_extract(value,'$.summary'), json_extract(value,'$.actor_user_id'), json_extract(value,'$.created_at'), NULL FROM json_each(?)
+       UNION ALL
+       SELECT json_extract(value,'$.revision_2_id'), json_extract(value,'$.claim_id'), 2, json_extract(value,'$.accepted_snapshot'), '批量资料审计：核对来源后采纳', json_extract(value,'$.actor_user_id'), json_extract(value,'$.created_at'), NULL FROM json_each(?)`,
+    ).bind(data, data),
+    c.env.DB.prepare(
+      `INSERT INTO claim_source (id, claim_id, source_id, stance, locator, quotation, interpretation_note, added_by_user_id, created_at)
+       SELECT json_extract(value,'$.claim_source_id'), json_extract(value,'$.claim_id'), json_extract(value,'$.source_id'), json_extract(value,'$.stance'),
+              json_extract(value,'$.locator'), json_extract(value,'$.quotation'), json_extract(value,'$.interpretation_note'), json_extract(value,'$.actor_user_id'), json_extract(value,'$.created_at') FROM json_each(?)`,
+    ).bind(data),
+    c.env.DB.prepare(
+      `INSERT INTO contribution (id, action, actor_user_id, target_type, target_id, change_summary, before_revision, after_revision, created_at)
+       SELECT json_extract(value,'$.contribution_1_id'), 'claim.create', json_extract(value,'$.actor_user_id'), 'claim', json_extract(value,'$.claim_id'), json_extract(value,'$.summary'), NULL, 1, json_extract(value,'$.created_at') FROM json_each(?)
+       UNION ALL
+       SELECT json_extract(value,'$.contribution_2_id'), 'claim.revise', json_extract(value,'$.actor_user_id'), 'claim', json_extract(value,'$.claim_id'), '批量资料审计：核对来源后采纳', 1, 2, json_extract(value,'$.created_at') FROM json_each(?)`,
+    ).bind(data, data),
+  ]);
+  return c.json({ created: records.length, d1_validation_batches: 1, d1_write_batches: 1 }, 201);
 });
 
 const expectedRelationshipSchema = z.object({

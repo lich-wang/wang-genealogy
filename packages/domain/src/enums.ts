@@ -29,6 +29,7 @@ export const PROPERTY_PREDICATES = [
   'name.rank', // 排行
   'birth.date',
   'death.date',
+  'historical.period', // 朝代／历史时期（保留来源写法）
   'place.origin',
   'place.residence',
   'lineage.branch',

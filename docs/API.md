@@ -93,7 +93,7 @@ GET /api/v1/search?q=王&cursor=MjAyNi0wMS0wMlQwMDowMDowMC4wMDBafHBfMg
 GET /api/v1/kinship-highlights?limit=8
 ```
 
-供首页作为家族树入口的公开人物列表（`limit` 1–24，默认 8）。得姓前先祖按来源政策中的封闭名单优先展示（当前为姬晋及其别称、宗敬），响应以 `is_surname_progenitor` 标记；其余名额再按已记录亲属关系数排序。封闭名单避免把一般外姓亲属误当作王氏得姓先祖。
+供首页作为家族树入口的公开人物列表（`limit` 1–24，默认 8）。得姓前先祖按来源政策中的封闭名单优先展示（当前为姬晋及其别称、宗敬、毕公高），响应以 `is_surname_progenitor` 标记；其余名额再按已记录亲属关系数排序。封闭名单避免把一般外姓亲属误当作王氏得姓先祖。
 
 ## 二、基础信息主张
 
@@ -239,8 +239,11 @@ POST /api/v1/sources
 GET  /api/v1/sources?q=資治通鑑
 GET  /api/v1/sources/{sourceId}
 POST /api/v1/claims/{claimId}/sources
+POST /api/v1/claims/bulk-person-properties
 GET  /api/v1/sources/{sourceId}/claims
 ```
+
+`POST /api/v1/claims/bulk-person-properties` 供管理员或维护者执行已经审核的资料补全计划。接口一次校验全部人物、来源和已有主张，再以一个 D1 batch 写入主张、两版审核记录、引用和贡献记录；已存在同人物同谓词的未撤回主张时整批拒绝，不做静默覆盖。
 
 不得上传影像。来源接口只接收书目信息、URL、外部 ID、定位和合理长度的摘录。
 

@@ -20,6 +20,7 @@ export const PREDICATE_LABELS: Record<string, string> = {
   'name.rank': '排行',
   'birth.date': '生年',
   'death.date': '卒年',
+  'historical.period': '朝代／時期',
   'place.origin': '祖籍',
   'place.residence': '居所/遷居',
   'lineage.branch': '支派',

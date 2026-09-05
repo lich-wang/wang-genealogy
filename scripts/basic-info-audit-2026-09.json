@@ -1,0 +1,57 @@
+{
+  "note": "2026-09 人物资料审计第一批：优先补全高连接度且可由人物专页明确核验的基本资料；朝代写入简介首句，因为当前模型尚无结构化朝代字段。",
+  "sources": [],
+  "cite": [
+    {
+      "claim_id": "c_Qbx5GCtrmcwZBgsLj3tDec",
+      "source_id": "s_JrZ38wtSfjchSjwE411t3z",
+      "locator": "王时敏人物专页首段",
+      "reason": "原姓名主张误连王锡爵页面；补挂王时敏本人页面作为支持来源。"
+    }
+  ],
+  "promote": [
+    {
+      "claim_id": "c_V4TF97dXK3Ep3viq3ush1N",
+      "person_id": "p_fuv1kE3UCBeTFNiA6c9Tuw",
+      "predicate": "death.date",
+      "reason": "CBDB 已给出王安石卒年 1086，原主张尚为 proposed。"
+    }
+  ],
+  "people": [
+    {
+      "person_id": "p_Xs7SSNKR6whA118xZvjxN2",
+      "name": "王時敏",
+      "source_id": "s_JrZ38wtSfjchSjwE411t3z",
+      "locator": "王时敏人物专页首段及生平",
+      "claims": [
+        { "predicate": "birth.date", "value": { "date": { "original_text": "1592年" } }, "confidence": "high" },
+        { "predicate": "death.date", "value": { "date": { "original_text": "1680年" } }, "confidence": "high" },
+        { "predicate": "place.origin", "value": { "text": "江南太仓" }, "confidence": "high" },
+        { "predicate": "bio.summary", "value": { "text": "王時敏（1592—1680），字遜之，號煙客，江南太倉人，明末清初畫家。明大學士王錫爵之孫，清初畫壇“四王”之一，開創婁東畫派。", "language": "zh-Hant" }, "confidence": "high" }
+      ]
+    },
+    {
+      "person_id": "p_CRTiUFbJJTt5FqJL9A5xNr",
+      "name": "王國維",
+      "source_id": "s_jdk8ev2sE9kNUT1en7UxxV",
+      "locator": "王国维人物专页首段及信息框",
+      "claims": [
+        { "predicate": "birth.date", "value": { "date": { "original_text": "1877年12月3日" } }, "confidence": "high" },
+        { "predicate": "death.date", "value": { "date": { "original_text": "1927年6月2日" } }, "confidence": "high" },
+        { "predicate": "place.origin", "value": { "text": "浙江杭州府海寧" }, "confidence": "high" },
+        { "predicate": "bio.summary", "value": { "text": "王國維（1877—1927），初名國楨，字靜安、伯隅，晚號觀堂，浙江海寧人，清末民初學者。其研究涵蓋古史、甲骨金石、詞曲與文藝理論，倡導以傳世文獻和出土材料互證。", "language": "zh-Hant" }, "confidence": "high" }
+      ]
+    },
+    {
+      "person_id": "p_fuv1kE3UCBeTFNiA6c9Tuw",
+      "name": "王安石",
+      "source_id": "s_5g7WxJuDRVzW6i37RBszym",
+      "locator": "王安石人物专页首段及生平",
+      "claims": [
+        { "predicate": "birth.date", "value": { "date": { "original_text": "1021年" } }, "confidence": "high" },
+        { "predicate": "place.origin", "value": { "text": "撫州臨川" }, "confidence": "high" },
+        { "predicate": "bio.summary", "value": { "text": "王安石（1021—1086），字介甫，號半山，撫州臨川人，北宋政治家、文學家、思想家。宋神宗時主持熙寧變法，官至宰相，封荊國公，亦為唐宋八大家之一。", "language": "zh-Hant" }, "confidence": "high" }
+      ]
+    }
+  ]
+}

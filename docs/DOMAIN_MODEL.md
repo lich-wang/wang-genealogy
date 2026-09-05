@@ -70,6 +70,7 @@ Person ──< Claim ──< ClaimRevision
 - `name.pseudonym`
 - `birth.date`
 - `death.date`
+- `historical.period`：朝代或历史时期，保留来源写法（如「東晉」「明末清初」「清—民國」），不由生卒年自动覆盖；
 - `place.origin`
 - `place.residence`
 - `lineage.branch`

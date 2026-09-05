@@ -20,6 +20,7 @@ const HEADLINE_ORDER = [
   'name.alias',
   'birth.date',
   'death.date',
+  'historical.period',
   'place.origin',
   'place.residence',
   'bio.summary',

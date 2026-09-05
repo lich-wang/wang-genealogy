@@ -8,7 +8,7 @@ describe('isWangScopeName', () => {
   });
 
   it('keeps the closed list of pre-surname progenitors in scope', () => {
-    for (const name of ['姬晋', '姬晉', '太子晋', '王子喬', '宗敬']) {
+    for (const name of ['姬晋', '姬晉', '太子晋', '王子喬', '宗敬', '毕公高', '畢公高']) {
       expect(isWangScopeName(name)).toBe(true);
     }
   });

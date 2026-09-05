@@ -400,7 +400,7 @@ function buildSearchRecord(person) {
 }
 
 function buildHighlights() {
-  const progenitors = new Set(['姬晋','姬晉','太子晋','太子晉','王子乔','王子喬','王子晋','王子晉']);
+  const progenitors = new Set(['姬晋','姬晉','太子晋','太子晉','王子乔','王子喬','王子晋','王子晉','毕公高','畢公高']);
   return people.filter((person) => person.status === 'active').map((person) => {
     const nameClaims = claims.filter((claim) => claim.subject_person_id === person.id && claim.predicate.startsWith('name.') && !['retracted','superseded'].includes(claim.status));
     const recordedNames = nameClaims.map((claim) => claim.value_json?.text).filter(Boolean);

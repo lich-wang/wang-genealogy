@@ -70,6 +70,14 @@ export const createPropertyClaimSchema = z.object({
   confidence: z.enum(CONFIDENCE).default('unknown'),
   sources: z.array(sourceRefSchema).default([]),
   change_summary: z.string().max(500).optional(),
+}).superRefine((input, ctx) => {
+  const isDate = input.predicate === 'birth.date' || input.predicate === 'death.date';
+  if (isDate && !input.value.date?.original_text.trim()) {
+    ctx.addIssue({ code: z.ZodIssueCode.custom, path: ['value', 'date'], message: '日期属性必须填写原文。' });
+  }
+  if (!isDate && !input.value.text?.trim()) {
+    ctx.addIssue({ code: z.ZodIssueCode.custom, path: ['value', 'text'], message: '文本属性必须填写非空文字。' });
+  }
 });
 
 export const createRelationshipSchema = z.object({
@@ -115,9 +123,12 @@ export const createRelationshipSchema = z.object({
 export const createPersonSchema = z.object({
   // Anchor creation requires an initial name claim; sources optional but a
   // sourceless person stays a private draft (candidate + not indexed).
-  name: createPropertyClaimSchema
-    .pick({ value: true, confidence: true, sources: true })
-    .extend({ predicate: z.literal('name.primary').default('name.primary') }),
+  name: z.object({
+    predicate: z.literal('name.primary').default('name.primary'),
+    value: propertyValueSchema.refine((value) => Boolean(value.text?.trim()), '姓名必须填写非空文字。'),
+    confidence: z.enum(CONFIDENCE).default('unknown'),
+    sources: z.array(sourceRefSchema).default([]),
+  }),
   change_summary: z.string().max(500).optional(),
 });
 

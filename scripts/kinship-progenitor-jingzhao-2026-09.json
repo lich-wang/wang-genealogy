@@ -1,0 +1,69 @@
+{
+  "generated_from": ["public-primary-sources", "luna-review"],
+  "hops": 1,
+  "max_new": 1,
+  "capped_relationships": 0,
+  "expanded_keys": [],
+  "identity_merges": [],
+  "name_collisions": [],
+  "skipped": [],
+  "unmapped_cbdb_relations": [],
+  "sources": [
+    {
+      "key": "wikisource:xintangshu-72b",
+      "kind": "wikisource",
+      "source_type": "book",
+      "title": "中文维基文库：新唐書/卷072中",
+      "publisher": "维基文库",
+      "license_code": "CC-BY-SA-4.0",
+      "canonical_url": "https://zh.wikisource.org/wiki/%E6%96%B0%E5%94%90%E6%9B%B8%2F%E5%8D%B7072%E4%B8%AD",
+      "external_identifier": null
+    }
+  ],
+  "persons": [
+    {
+      "key": "named:畢公高@xintangshu-72b",
+      "qid": null,
+      "cbdb": null,
+      "hop": 1,
+      "name": { "text": "畢公高", "language": "zh-Hant" },
+      "spouse_only": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": { "text": "畢公高", "language": "zh-Hant" },
+          "confidence": "high",
+          "source_keys": ["wikisource:xintangshu-72b"],
+          "change_summary": "据《新唐书·宰相世系表》录京兆王氏得姓前先祖毕公高"
+        },
+        {
+          "predicate": "bio.summary",
+          "value": { "text": "周文王少子，京兆王氏谱系所载得姓前先祖。", "language": "zh-Hans" },
+          "confidence": "high",
+          "source_keys": ["wikisource:xintangshu-72b"],
+          "change_summary": "据《新唐书·宰相世系表》补录"
+        }
+      ],
+      "historicity": { "kind": "historical_book", "detail": "《新唐书·宰相世系表》记为周文王少子" },
+      "source_keys": ["wikisource:xintangshu-72b"]
+    }
+  ],
+  "edges": [
+    {
+      "kind": "ancestor",
+      "parent_key": "named:畢公高@xintangshu-72b",
+      "child_key": "db:p_V49AHk5YVpmiJJt5bCX1Dt",
+      "parent_name": "畢公高",
+      "child_name": "王彤",
+      "child_person_id": "p_V49AHk5YVpmiJJt5bCX1Dt",
+      "citations": [
+        {
+          "source_key": "wikisource:xintangshu-72b",
+          "locator": "卷七十二中·京兆王氏",
+          "quotation": "京兆王氏出自姬姓。周文王少子畢公高之後，封魏，至昭王彤。",
+          "note": "原文仅称为后裔而未列中间世代，故记为代数不详的 ancestor_of，不补造父子链。"
+        }
+      ]
+    }
+  ]
+}
