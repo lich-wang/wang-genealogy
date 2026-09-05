@@ -1,0 +1,52 @@
+{
+  "snapshot": {
+    "path": "/tmp/wang-expansion-fM1AHK/wang.sqlite",
+    "persons_total": 2661,
+    "persons_active": 1996,
+    "persons_suppressed": 665,
+    "claims_total": 8567,
+    "relationship_claims": 2350
+  },
+  "roster_review": {
+    "candidates": 811,
+    "accepted": 675,
+    "excluded": 136,
+    "excluded_reasons": {
+      "folded_name_collision_between_qids": 115,
+      "name_collision_with_kinship_person": 2,
+      "structured_lifespan_over_120_years": 18,
+      "missing_valid_pre_1950_death": 1
+    }
+  },
+  "deliverable_plan": {
+    "persons": 772,
+    "sources": 1210,
+    "property_claims": {
+      "name.primary": 772,
+      "birth.date": 347,
+      "death.date": 695,
+      "bio.summary": 78
+    },
+    "relationships": {
+      "parent": 210,
+      "spouse": 61,
+      "adoptive_parent": 2,
+      "total": 273
+    },
+    "historicity": {
+      "death_date": 709,
+      "cbdb_dynasty": 51,
+      "adjacent_to_historical_person": 10,
+      "birth_date": 1,
+      "description_era": 1
+    }
+  },
+  "validation": {
+    "duplicate_person_keys": 0,
+    "duplicate_wikidata_qids": 0,
+    "missing_source_references": 0,
+    "latin_placeholder_names": 0,
+    "parent_cycles_against_snapshot": 0,
+    "import_kinship_dry_run": "passed"
+  }
+}

@@ -12,6 +12,20 @@
       "rejected": 196,
       "repairs": 1,
       "manual_review": 0
+    },
+    {
+      "id": "wang-expansion-stage2-2026-09",
+      "kind": "person_expansion",
+      "status": "reviewed_pending_import",
+      "reviewer": "luna",
+      "plan": "scripts/luna-wang-expansion-stage2-2026-09.json",
+      "stats": "scripts/luna-wang-expansion-stage2-stats-2026-09.json",
+      "report": "docs/reviews/luna-wang-expansion-stage2-2026-09.md",
+      "people_accepted": 675,
+      "people_rejected": 136,
+      "plan_people": 772,
+      "relationships": 273,
+      "manual_review": 0
     }
   ]
 }

@@ -18,20 +18,37 @@ rmSync(output, { recursive: true, force: true });
 mkdirSync(output, { recursive: true });
 
 const published = registry.entries.map((entry) => {
-  const decisions = JSON.parse(readFileSync(resolve(root, entry.decisions), 'utf8'));
   const plan = JSON.parse(readFileSync(resolve(root, entry.plan), 'utf8'));
-  const actual = {
-    accepted: decisions.accepted.length,
-    rejected: decisions.rejected.length,
-    repairs: decisions.repairs?.length ?? 0,
-    manual_review: decisions.manual_review.length,
-  };
-  for (const key of Object.keys(actual)) {
-    if (actual[key] !== entry[key]) throw new Error(`${entry.id}: ${key} count mismatch`);
+  let artifactPaths;
+  if (entry.kind === 'person_expansion') {
+    const stats = JSON.parse(readFileSync(resolve(root, entry.stats), 'utf8'));
+    const actual = {
+      people_accepted: stats.roster_review.accepted,
+      people_rejected: stats.roster_review.excluded,
+      plan_people: plan.persons.length,
+      relationships: plan.edges.length,
+    };
+    for (const key of Object.keys(actual)) {
+      if (actual[key] !== entry[key]) throw new Error(`${entry.id}: ${key} count mismatch`);
+    }
+    if (entry.manual_review !== 0) throw new Error(`${entry.id}: unresolved manual review`);
+    artifactPaths = [entry.plan, entry.stats, entry.report];
+  } else {
+    const decisions = JSON.parse(readFileSync(resolve(root, entry.decisions), 'utf8'));
+    const actual = {
+      accepted: decisions.accepted.length,
+      rejected: decisions.rejected.length,
+      repairs: decisions.repairs?.length ?? 0,
+      manual_review: decisions.manual_review.length,
+    };
+    for (const key of Object.keys(actual)) {
+      if (actual[key] !== entry[key]) throw new Error(`${entry.id}: ${key} count mismatch`);
+    }
+    if (plan.edges.length !== entry.accepted) throw new Error(`${entry.id}: approved plan edge count mismatch`);
+    artifactPaths = [entry.plan, entry.decisions, entry.report];
   }
-  if (plan.edges.length !== entry.accepted) throw new Error(`${entry.id}: approved plan edge count mismatch`);
 
-  const files = [entry.plan, entry.decisions, entry.report].map((relativePath) => {
+  const files = artifactPaths.map((relativePath) => {
     const source = resolve(root, relativePath);
     const name = basename(relativePath);
     const body = readFileSync(source);
@@ -42,7 +59,12 @@ const published = registry.entries.map((entry) => {
       sha256: createHash('sha256').update(body).digest('hex'),
     };
   });
-  return { ...entry, plan: basename(entry.plan), decisions: basename(entry.decisions), report: basename(entry.report), files };
+  const paths = Object.fromEntries(
+    ['plan', 'decisions', 'stats', 'report']
+      .filter((key) => entry[key])
+      .map((key) => [key, basename(entry[key])]),
+  );
+  return { ...entry, ...paths, files };
 });
 
 writeFileSync(resolve(output, 'index.json'), JSON.stringify({
