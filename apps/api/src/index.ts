@@ -171,6 +171,18 @@ app.route('/api/v1/claims', claims);
 app.route('/api/v1/sources', sources);
 app.route('/api/v1/person-merge-proposals', mergeProposals);
 
+// Reviewed plans are immutable public artifacts, not live genealogy data.
+// `run_worker_first` means Hono must explicitly delegate this path to Assets.
+app.get('/import-queue/*', async (c) => {
+  if (!c.env.TREE_SNAPSHOT) return c.json({ error: 'snapshot_unavailable', message: '审核队列静态资源不可用。' }, 503);
+  const response = await c.env.TREE_SNAPSHOT.fetch(c.req.raw);
+  const headers = new Headers(response.headers);
+  headers.set('Cache-Control', 'public, max-age=300, immutable');
+  headers.set('X-Wang-Data-Source', 'reviewed-import-queue');
+  headers.set('X-Wang-D1', 'BYPASS');
+  return new Response(response.body, { status: response.status, statusText: response.statusText, headers });
+});
+
 // --- error handling: machine code + Chinese message ---
 app.onError(async (err, c) => {
   const path = new URL(c.req.url).pathname;
