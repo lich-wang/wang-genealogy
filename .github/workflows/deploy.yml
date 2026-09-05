@@ -80,11 +80,15 @@ jobs:
 
       - name: Apply D1 migrations (remote)
         run: |
-          if [ "${{ github.event_name }}" != "push" ] || [ -z "$(git diff --diff-filter=AM --name-only HEAD^ HEAD -- 'migrations/*.sql')" ]; then
-            echo "No migration changes; skipping remote D1 migration check."
+          cd apps/api
+          if npx wrangler d1 migrations apply wang-genealogy --remote > /tmp/wang-d1-migrations.log 2>&1; then
+            cat /tmp/wang-d1-migrations.log
+          elif grep -qE "exceeded D1's free tier daily row read limit|code: 7500" /tmp/wang-d1-migrations.log; then
+            sed -E 's#https://[^[:space:]]+#<redacted-url>#g' /tmp/wang-d1-migrations.log >&2
+            echo "::warning::D1 daily quota exhausted; migration remains pending and will be retried by the next deployment."
           else
-            cd apps/api
-            npx wrangler d1 migrations apply wang-genealogy --remote
+            sed -E 's#https://[^[:space:]]+#<redacted-url>#g' /tmp/wang-d1-migrations.log >&2
+            exit 1
           fi
 
       - name: Build anonymous zero-D1 read model
