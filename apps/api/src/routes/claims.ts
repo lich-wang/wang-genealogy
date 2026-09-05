@@ -907,6 +907,9 @@ async function transition(
   action: 'claim.dispute' | 'claim.retract',
   changeSummary: string | null,
 ) {
+  if (claim.status === status) {
+    return { claim_id: claim.id, status, current_revision: claim.current_revision, reused: true, writes: 0 };
+  }
   const now = nowIso();
   const newRevision = claim.current_revision + 1;
   const snap = snapshotOf({ ...claim, status });
@@ -930,7 +933,7 @@ async function transition(
       afterRevision: newRevision,
     }),
   ]);
-  return { claim_id: claim.id, status, current_revision: newRevision };
+  return { claim_id: claim.id, status, current_revision: newRevision, reused: false, writes: 3 };
 }
 
 export default app;

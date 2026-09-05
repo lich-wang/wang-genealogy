@@ -11,6 +11,12 @@ on:
   pull_request:
     branches: [main]
   workflow_dispatch:
+    inputs:
+      use_cached_snapshot:
+        description: '跳过 D1 导出，验证并发布最近一次公开快照缓存'
+        required: false
+        type: boolean
+        default: false
   schedule:
     # Refresh the anonymous read model daily at 02:17 Asia/Shanghai.
     - cron: '17 18 * * *'
@@ -32,6 +38,7 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+
       - name: Unit tests
         run: npm test
       - name: Typecheck all workspaces
@@ -62,6 +69,15 @@ jobs:
           cache: npm
       - run: npm ci
 
+      - name: Restore last public snapshot
+        id: public-snapshot-cache
+        uses: actions/cache/restore@v4
+        with:
+          path: apps/api/tree-snapshot
+          key: public-snapshot-${{ github.sha }}-${{ github.run_attempt }}
+          restore-keys: |
+            public-snapshot-
+
       - name: Apply D1 migrations (remote)
         run: |
           if [ "${{ github.event_name }}" != "push" ] || [ -z "$(git diff --diff-filter=AM --name-only HEAD^ HEAD -- 'migrations/*.sql')" ]; then
@@ -72,13 +88,32 @@ jobs:
           fi
 
       - name: Build anonymous zero-D1 read model
+        env:
+          FORCE_CACHED_SNAPSHOT: ${{ inputs.use_cached_snapshot || false }}
         run: |
-          if ! npx wrangler d1 export wang-genealogy --remote --output=/tmp/wang-genealogy-public.sql --config apps/api/wrangler.toml > /tmp/wang-genealogy-export.log 2>&1; then
+          if [ "$FORCE_CACHED_SNAPSHOT" != "true" ] && npx wrangler d1 export wang-genealogy --remote --output=/tmp/wang-genealogy-public.sql --config apps/api/wrangler.toml > /tmp/wang-genealogy-export.log 2>&1; then
+            rm -f /tmp/wang-genealogy-public.sqlite
+            sqlite3 -cmd "PRAGMA journal_mode=OFF;" -cmd "PRAGMA synchronous=OFF;" -cmd "BEGIN;" /tmp/wang-genealogy-public.sqlite ".read /tmp/wang-genealogy-public.sql" "COMMIT;"
+            PUBLIC_SNAPSHOT_DB=/tmp/wang-genealogy-public.sqlite npm run build:public-snapshot
+            echo "PUBLIC_SNAPSHOT_REFRESHED=true" >> "$GITHUB_ENV"
+          elif [ -f apps/api/tree-snapshot/public/index.json ] && find apps/api/tree-snapshot -maxdepth 1 -name 'component-*.json' -print -quit | grep -q .; then
+            if [ -f /tmp/wang-genealogy-export.log ]; then
+              sed -E 's#https://[^[:space:]]+#<redacted-export-url>#g' /tmp/wang-genealogy-export.log >&2
+            fi
+            echo "::warning::D1 export unavailable; deploying the last validated public snapshot cache."
+            echo "PUBLIC_SNAPSHOT_REFRESHED=false" >> "$GITHUB_ENV"
+          else
             sed -E 's#https://[^[:space:]]+#<redacted-export-url>#g' /tmp/wang-genealogy-export.log >&2
+            echo "No validated public snapshot cache is available." >&2
             exit 1
           fi
-          sqlite3 -cmd "PRAGMA journal_mode=OFF;" -cmd "PRAGMA synchronous=OFF;" -cmd "BEGIN;" /tmp/wang-genealogy-public.sqlite ".read /tmp/wang-genealogy-public.sql" "COMMIT;"
-          PUBLIC_SNAPSHOT_DB=/tmp/wang-genealogy-public.sqlite npm run build:public-snapshot
+
+      - name: Save refreshed public snapshot
+        if: env.PUBLIC_SNAPSHOT_REFRESHED == 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: apps/api/tree-snapshot
+          key: public-snapshot-${{ github.sha }}-${{ github.run_attempt }}
 
       - name: Deploy API (Worker)
         working-directory: apps/api

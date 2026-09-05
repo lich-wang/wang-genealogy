@@ -32,9 +32,17 @@ app.get('/', async (c) => {
 app.post('/', async (c) => {
   const auth = requireAuth(c);
   const input = createSourceSchema.parse(await c.req.json());
+  const existing = await c.env.DB.prepare(
+    `SELECT id FROM source
+      WHERE source_type = ?
+        AND canonical_url IS ?
+        AND external_identifier IS ?
+      LIMIT 1`,
+  ).bind(input.source_type, input.canonical_url ?? null, input.external_identifier ?? null).first<{ id: string }>();
+  if (existing) return c.json({ source_id: existing.id, reused: true, writes: 0 });
   const { sourceId, statements } = buildSourceCreation(c.env.DB, input, auth.userId);
   await c.env.DB.batch(statements);
-  return c.json({ source_id: sourceId }, 201);
+  return c.json({ source_id: sourceId, reused: false, writes: 2 }, 201);
 });
 
 app.get('/:id', async (c) => {
