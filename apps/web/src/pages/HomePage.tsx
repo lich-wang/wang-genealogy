@@ -1,10 +1,11 @@
 import { useState } from 'react';
 import type { FormEvent } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, BookOpenText, Clock3, GitFork, Search, ShieldCheck, Sparkles, UserPlus, Users } from 'lucide-react';
+import { ArrowRight, BookOpenText, Clock3, Database, GitFork, Library, Search, ShieldCheck, Sparkles, UserPlus, Users } from 'lucide-react';
 import type { KinshipHighlight, PersonSearchResult, RecentChange } from '@wang/domain';
 import { scriptVariants } from '@wang/i18n';
 import { api } from '../api';
+import type { SystemStatus } from '../api';
 import { useAsync, toMessage } from '../hooks';
 import { useScript } from '../i18n';
 import { PersonStatusBadge } from '../components/badges';
@@ -29,7 +30,7 @@ export function HomePage() {
   // A tree has to start somewhere, and a first-time reader has no way to guess
   // which record has a family worth walking — surname progenitors come first,
   // then the server ranks the remaining records by recorded kinship.
-  const highlights = useAsync<KinshipHighlight[]>(() => api.getKinshipHighlights(8), []);
+  const overview = useAsync<{ items: KinshipHighlight[]; status: SystemStatus | null }>(() => api.getHomeOverview(8), []);
 
   // A common surname matches far more than one page, so the result list is
   // paged: `next` continues the previous page instead of restarting it.
@@ -82,6 +83,8 @@ export function HomePage() {
           <small>{t('百家姓')}</small>
         </div>
       </section>
+
+      {overview.data?.status ? <SystemStatusPanel status={overview.data.status} /> : null}
 
       <section className="search-block" id="search">
         <div className="search-heading">
@@ -168,11 +171,11 @@ export function HomePage() {
           </div>
           <span className="section-note">{t('得姓先祖优先，其余按已收录亲属关系推荐')}</span>
         </div>
-        {highlights.loading ? <p className="muted">{t('載入中…')}</p> : null}
-        {highlights.error ? <p className="error">{t(highlights.error)}</p> : null}
-        {highlights.data ? (
+        {overview.loading ? <p className="muted">{t('載入中…')}</p> : null}
+        {overview.error ? <p className="error">{t(overview.error)}</p> : null}
+        {overview.data ? (
           <ul className="tree-entry-list highlight-grid">
-            {highlights.data.map((person, index) => (
+            {overview.data.items.map((person, index) => (
               <li key={person.id}>
                 <Link
                   className={person.is_surname_progenitor ? 'highlight-card highlight-card-progenitor' : 'highlight-card'}
@@ -218,6 +221,27 @@ export function HomePage() {
         <Link className="btn" to="/contribute">{t('开始贡献')}<ArrowRight size={17} /></Link>
       </section>
     </div>
+  );
+}
+
+function SystemStatusPanel({ status }: { status: SystemStatus }) {
+  const { t, script } = useScript();
+  const number = new Intl.NumberFormat(script === 'zh-Hant' ? 'zh-Hant' : 'zh-Hans');
+  return (
+    <section className="system-status" aria-label={t('系统状态')}>
+      <div className="system-status-heading">
+        <span className="status-live-dot" aria-hidden="true" />
+        <span>{t('系统状态')}</span>
+        <strong>{t('数据服务正常')}</strong>
+      </div>
+      <div className="system-status-grid">
+        <div><Users size={19} /><span><strong>{number.format(status.people)}</strong><small>{t('位历史人物')}</small></span></div>
+        <div><GitFork size={19} /><span><strong>{number.format(status.relationships)}</strong><small>{t('条谱系关系')}</small></span></div>
+        <div><Library size={19} /><span><strong>{number.format(status.sources)}</strong><small>{t('项史料来源')}</small></span></div>
+        <div><Database size={19} /><span><strong>{number.format(status.claims)}</strong><small>{t('条可追溯主张')}</small></span></div>
+      </div>
+      <time dateTime={status.generated_at}>{t('数据更新于')} {formatDateTime(status.generated_at, script)}</time>
+    </section>
   );
 }
 

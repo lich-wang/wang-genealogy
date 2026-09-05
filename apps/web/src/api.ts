@@ -213,6 +213,14 @@ export interface EmailVerificationChallenge {
   expires_at: string;
 }
 
+export interface SystemStatus {
+  people: number;
+  relationships: number;
+  sources: number;
+  claims: number;
+  generated_at: string;
+}
+
 export interface LoginInput {
   email: string;
   password: string;
@@ -332,10 +340,8 @@ export const api = {
     }),
 
   /** Persons with the most recorded kinship — entry points for the tree view. */
-  getKinshipHighlights: (limit = 8) =>
-    request<{ items: KinshipHighlight[] }>('/kinship-highlights', { query: { limit } }).then(
-      (r) => r.items,
-    ),
+  getHomeOverview: (limit = 8) =>
+    request<{ items: KinshipHighlight[]; status: SystemStatus | null }>('/kinship-highlights', { query: { limit } }),
 
   // recent changes feed
   listRecentChanges: (cursor?: string) =>

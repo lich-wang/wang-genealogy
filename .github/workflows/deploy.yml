@@ -111,6 +111,7 @@ jobs:
             echo "No validated public snapshot cache is available." >&2
             exit 1
           fi
+          npm run enrich:public-snapshot
           npm run publish:import-queue
 
       - name: Save refreshed public snapshot

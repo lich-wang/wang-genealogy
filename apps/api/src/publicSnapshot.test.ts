@@ -14,6 +14,7 @@ describe('anonymous public snapshot', () => {
       ['public/index.json', {
         generated_at: generatedAt,
         highlights: [{ id: personId, display_name: '王甲', relative_count: 1, is_surname_progenitor: false }],
+        status: { people: 1, relationships: 1, sources: 1, claims: 1, generated_at: generatedAt },
       }],
       ['public/search.json', [{
           id: personId,
@@ -85,6 +86,10 @@ describe('anonymous public snapshot', () => {
       expect(response.status, path).toBe(200);
       expect(response.headers.get('X-Wang-D1'), path).toBe('BYPASS');
     }
+    const overview = await app.request('https://example.test/api/v1/kinship-highlights', {}, env as never);
+    expect(await overview.json()).toMatchObject({
+      status: { people: 1, relationships: 1, sources: 1, claims: 1, generated_at: generatedAt },
+    });
     const invalidBearer = await app.request(`https://example.test/api/v1/persons/${personId}`, {
       headers: { Authorization: 'Bearer not-a-signed-session' },
     }, env as never);

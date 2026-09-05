@@ -153,6 +153,14 @@ const search = people
 const highlights = buildHighlights();
 const changes = buildChanges();
 const generatedAt = new Date().toISOString();
+const status = {
+  people: people.filter((person) => person.status === 'active').length,
+  relationships: claims.filter((claim) =>
+    claim.claim_kind === 'relationship' && !['retracted', 'superseded'].includes(claim.status)).length,
+  sources: sourceRecords.size,
+  claims: claims.filter((claim) => !['retracted', 'superseded'].includes(claim.status)).length,
+  generated_at: generatedAt,
+};
 
 rmSync(output, { recursive: true, force: true });
 mkdirSync(output, { recursive: true });
@@ -160,6 +168,7 @@ writeFileSync(resolve(output, 'index.json'), JSON.stringify({
   format_version: 1,
   generated_at: generatedAt,
   highlights,
+  status,
 }));
 writeFileSync(resolve(output, 'search.json'), JSON.stringify(search));
 writeFileSync(resolve(output, 'source-search.json'), JSON.stringify(sources));

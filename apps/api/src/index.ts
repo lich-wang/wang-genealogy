@@ -89,7 +89,7 @@ app.get('/api/v1/search', async (c) => {
 // progenitors come first; remaining places are ranked by recorded kinship.
 app.get('/api/v1/kinship-highlights', async (c) => {
   const limit = Math.min(Math.max(Number(c.req.query('limit') ?? 8), 1), 24);
-  return c.json({ items: await loadKinshipHighlights(c.env.DB, limit) });
+  return c.json({ items: await loadKinshipHighlights(c.env.DB, limit), status: null });
 });
 
 // --- recent changes (public feed) ---

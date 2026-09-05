@@ -10,6 +10,7 @@ type JsonRecord = Record<string, unknown>;
 interface PublicIndex {
   generated_at: string;
   highlights: JsonRecord[];
+  status?: JsonRecord;
 }
 
 type SearchRecord = JsonRecord & { id: string; created_at: string; search_terms: string[] };
@@ -53,7 +54,7 @@ export async function serveAnonymousPublicSnapshot(c: AppContext, next: Next) {
   if (url.pathname === '/api/v1/search') return searchResponse(c.env.TREE_SNAPSHOT, url, index);
   if (url.pathname === '/api/v1/kinship-highlights') {
     const limit = Math.min(Math.max(Number(url.searchParams.get('limit') ?? 8), 1), 24);
-    return snapshotJson({ items: index.highlights.slice(0, limit) }, index);
+    return snapshotJson({ items: index.highlights.slice(0, limit), status: index.status ?? null }, index);
   }
   if (url.pathname === '/api/v1/changes') return changesResponse(c.env.TREE_SNAPSHOT, url, index);
   if (url.pathname === '/api/v1/sources') return sourceSearchResponse(c.env.TREE_SNAPSHOT, url, index);
