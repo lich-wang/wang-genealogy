@@ -23,6 +23,7 @@ const published = registry.entries.map((entry) => {
   const actual = {
     accepted: decisions.accepted.length,
     rejected: decisions.rejected.length,
+    repairs: decisions.repairs?.length ?? 0,
     manual_review: decisions.manual_review.length,
   };
   for (const key of Object.keys(actual)) {

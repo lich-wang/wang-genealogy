@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-09-05",
+  "policy": "在线实时核对 Wikidata/CBDB；具名底本可采纳，来源未详者仅低置信度采纳；明确同字误链拒绝；嗣父冲突进入修复计划。",
+  "overrides": [
+    {"id":"parent:wd:Q65874579->wd:Q1562454","outcome":"rejected","confidence":"high","reason":"Q65874579 在线描述及其引用均为‘李珪母’，P40 却指向同字异人王珪 Q1562454，属于明确的同名误链。","sources":["https://www.wikidata.org/wiki/Special:EntityData/Q65874579.json","https://www.wikidata.org/wiki/Special:EntityData/Q1562454.json"]},
+    {"id":"parent:wd:Q45409553->wd:Q45411116","outcome":"accepted","confidence":"low","reason":"CBDB 26229 在线条目明确列王龜齡为王彦博长子；底本栏未详，故仅低置信度采纳。","sources":["https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26229&o=json"]},
+    {"id":"adoptive_parent:wd:Q10416428->wd:Q45492841","outcome":"repair","confidence":"high","reason":"CBDB 119731 据《续资治通鉴长编》7509 明记王继恩为王怀珪嗣父；须先撤回现有亲生 parent_of，再导入 adoptive_parent。","sources":["https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=119731&o=json"]},
+    {"id":"parent:wd:Q13668762->cbdb:513576","outcome":"accepted","confidence":"high","reason":"CBDB 56873 据中央研究院历史语言研究所人名权威资料第71条，明列王克承为王熙之子。","sources":["https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=56873&o=json"]},
+    {"id":"parent:wd:Q13668762->cbdb:513577","outcome":"accepted","confidence":"high","reason":"CBDB 56873 据中央研究院历史语言研究所人名权威资料第71条，明列王克賡为王熙之子。","sources":["https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=56873&o=json"]},
+    {"id":"parent:wd:Q18235078->cbdb:702263","outcome":"accepted","confidence":"high","reason":"CBDB 35067 引《临海县志》lgid=353134，明列王立程为王士琦次子。","sources":["https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35067&o=json"]},
+    {"id":"parent:wd:Q45652582->cbdb:526716","outcome":"accepted","confidence":"high","reason":"CBDB 69135 据中央研究院历史语言研究所人名权威资料12833，明列王維豫为王必达之子。","sources":["https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69135&o=json"]},
+    {"id":"parent:wd:Q45652582->cbdb:526717","outcome":"accepted","confidence":"high","reason":"CBDB 69135 据中央研究院历史语言研究所人名权威资料12833，明列王維禧为王必达之子。","sources":["https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69135&o=json"]},
+    {"id":"parent:wd:Q45652582->cbdb:526718","outcome":"accepted","confidence":"high","reason":"CBDB 69135 据中央研究院历史语言研究所人名权威资料12833，明列王維瀚为王必达之子。","sources":["https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69135&o=json"]},
+    {"id":"parent:wd:Q45652582->cbdb:526719","outcome":"accepted","confidence":"high","reason":"CBDB 69135 据中央研究院历史语言研究所人名权威资料12833，明列王鵬海为王必达之子。","sources":["https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69135&o=json"]},
+    {"id":"spouse:cbdb:577087--wd:Q45401756","outcome":"accepted","confidence":"high","reason":"CBDB 22054 据《散见宋金元墓志地券辑录六编》所收宋李氏墓志，明列李氏为王益恭妻。","sources":["https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22054&o=json"]},
+    {"id":"parent:wd:Q16077592->cbdb:526680","outcome":"accepted","confidence":"high","reason":"CBDB 35062 据中央研究院历史语言研究所人名权威资料12768，明列王啟㴶为王士祜之子。","sources":["https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35062&o=json"]},
+    {"id":"parent:wd:Q16077592->cbdb:526681","outcome":"accepted","confidence":"high","reason":"CBDB 35062 据中央研究院历史语言研究所人名权威资料12768，明列王啟涫为王士祜之子。","sources":["https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35062&o=json"]},
+    {"id":"parent:wd:Q45427492->wd:Q45430826","outcome":"accepted","confidence":"low","reason":"CBDB 36706 在线条目明确列王聿为王松龄之子；底本栏未详，故仅低置信度采纳。","sources":["https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=36706&o=json"]},
+    {"id":"parent:wd:Q45427492->wd:Q45431137","outcome":"accepted","confidence":"low","reason":"CBDB 36706 在线条目明确列王中为王松龄之子；底本栏未详，故仅低置信度采纳。","sources":["https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=36706&o=json"]},
+    {"id":"parent:wd:Q45577422->cbdb:550852","outcome":"accepted","confidence":"high","reason":"CBDB 126502 引《南阳府志》lgid=878658，明列王應修为王汝鲁之子。","sources":["https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126502&o=json"]},
+    {"id":"parent:wd:Q65903516->wd:Q15897288","outcome":"accepted","confidence":"high","reason":"《明文海》卷430《王孝庄先生墓志铭》原文明记王稌‘以子汶贵’，并列二子瀹、汶。","sources":["https://zh.wikisource.org/wiki/明文海_(四庫全書本)/卷430","https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=437664&o=json"]}
+  ]
+}

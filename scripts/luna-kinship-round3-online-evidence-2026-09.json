@@ -1,0 +1,4502 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-09-05T08:04:11.367Z",
+  "sources": {
+    "wikidata": "https://www.wikidata.org/w/api.php",
+    "cbdb": "https://cbdb.fas.harvard.edu/cbdbapi/"
+  },
+  "counts": {
+    "manual_review": [
+      {
+        "id": "parent:wd:Q65874579->wd:Q1562454",
+        "kind": "parent",
+        "endpoints": {
+          "parent": "wd:Q65874579",
+          "child": "wd:Q1562454",
+          "parent_name": "王氏",
+          "child_name": "王珪"
+        },
+        "reason": "在线资料仍不足以排除同名误挂。",
+        "evidence": [
+          {
+            "source_key": "wd:Q65874579",
+            "locator": "P40（子女）",
+            "note": null
+          }
+        ],
+        "online": {
+          "wikidata": [
+            {
+              "side": "Q65874579",
+              "property": "P40",
+              "confirmed": true
+            },
+            {
+              "side": "Q1562454",
+              "property": "P22/P25",
+              "confirmed": false
+            }
+          ],
+          "cbdb": []
+        },
+        "recommendation": "manual_review"
+      },
+      {
+        "id": "parent:wd:Q45409553->wd:Q45411116",
+        "kind": "parent",
+        "endpoints": {
+          "parent": "wd:Q45409553",
+          "child": "wd:Q45411116",
+          "parent_name": "王彦博",
+          "child_name": "王龜齡"
+        },
+        "reason": "在线资料仍不足以排除同名误挂。",
+        "evidence": [
+          {
+            "source_key": "cbdb:26229",
+            "locator": "亲属关系：長子",
+            "note": "CBDB 注明此条来源：未知"
+          }
+        ],
+        "online": {
+          "wikidata": [
+            {
+              "side": "Q45409553",
+              "property": "P40",
+              "confirmed": false
+            },
+            {
+              "side": "Q45411116",
+              "property": "P22/P25",
+              "confirmed": false
+            }
+          ],
+          "cbdb": [
+            {
+              "id": "26229",
+              "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26229&o=json",
+              "anchor": "",
+              "matches": []
+            }
+          ]
+        },
+        "recommendation": "manual_review"
+      },
+      {
+        "id": "adoptive_parent:wd:Q10416428->wd:Q45492841",
+        "kind": "adoptive_parent",
+        "endpoints": {
+          "parent": "wd:Q10416428",
+          "child": "wd:Q45492841",
+          "parent_name": "王继恩",
+          "child_name": "王怀珪"
+        },
+        "reason": "在线资料仍不足以排除同名误挂。",
+        "evidence": [
+          {
+            "source_key": "cbdb:119731",
+            "locator": "亲属关系：嗣父",
+            "note": "CBDB 注明此条来源：續資治通鑑長編"
+          }
+        ],
+        "online": {
+          "wikidata": [
+            {
+              "side": "Q10416428",
+              "property": "P40",
+              "confirmed": true
+            },
+            {
+              "side": "Q45492841",
+              "property": "P22/P25",
+              "confirmed": true
+            }
+          ],
+          "cbdb": [
+            {
+              "id": "119731",
+              "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=119731&o=json",
+              "anchor": "",
+              "matches": []
+            }
+          ]
+        },
+        "recommendation": "manual_review"
+      },
+      {
+        "id": "parent:wd:Q13668762->cbdb:513576",
+        "kind": "parent",
+        "endpoints": {
+          "parent": "wd:Q13668762",
+          "child": "cbdb:513576",
+          "parent_name": "王熙",
+          "child_name": "王克承"
+        },
+        "reason": "在线资料仍不足以排除同名误挂。",
+        "evidence": [
+          {
+            "source_key": "cbdb:56873",
+            "locator": "亲属关系：子",
+            "note": "CBDB 注明此条来源：人名權威資料（中央研究院歷史語言研究所）"
+          }
+        ],
+        "online": {
+          "wikidata": [],
+          "cbdb": [
+            {
+              "id": "56873",
+              "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=56873&o=json",
+              "anchor": "",
+              "matches": []
+            }
+          ]
+        },
+        "recommendation": "manual_review"
+      },
+      {
+        "id": "parent:wd:Q13668762->cbdb:513577",
+        "kind": "parent",
+        "endpoints": {
+          "parent": "wd:Q13668762",
+          "child": "cbdb:513577",
+          "parent_name": "王熙",
+          "child_name": "王克賡"
+        },
+        "reason": "在线资料仍不足以排除同名误挂。",
+        "evidence": [
+          {
+            "source_key": "cbdb:56873",
+            "locator": "亲属关系：子",
+            "note": "CBDB 注明此条来源：人名權威資料（中央研究院歷史語言研究所）"
+          }
+        ],
+        "online": {
+          "wikidata": [],
+          "cbdb": [
+            {
+              "id": "56873",
+              "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=56873&o=json",
+              "anchor": "",
+              "matches": []
+            }
+          ]
+        },
+        "recommendation": "manual_review"
+      },
+      {
+        "id": "parent:wd:Q18235078->cbdb:702263",
+        "kind": "parent",
+        "endpoints": {
+          "parent": "wd:Q18235078",
+          "child": "cbdb:702263",
+          "parent_name": "王士琦",
+          "child_name": "王立程"
+        },
+        "reason": "在线资料仍不足以排除同名误挂。",
+        "evidence": [
+          {
+            "source_key": "cbdb:35067",
+            "locator": "亲属关系：次子",
+            "note": "CBDB 注明此条来源：臨海縣志"
+          }
+        ],
+        "online": {
+          "wikidata": [],
+          "cbdb": [
+            {
+              "id": "35067",
+              "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35067&o=json",
+              "anchor": "",
+              "matches": []
+            }
+          ]
+        },
+        "recommendation": "manual_review"
+      },
+      {
+        "id": "parent:wd:Q45652582->cbdb:526716",
+        "kind": "parent",
+        "endpoints": {
+          "parent": "wd:Q45652582",
+          "child": "cbdb:526716",
+          "parent_name": "王必达",
+          "child_name": "王維豫"
+        },
+        "reason": "在线资料仍不足以排除同名误挂。",
+        "evidence": [
+          {
+            "source_key": "cbdb:69135",
+            "locator": "亲属关系：子",
+            "note": "CBDB 注明此条来源：人名權威資料（中央研究院歷史語言研究所）"
+          }
+        ],
+        "online": {
+          "wikidata": [],
+          "cbdb": [
+            {
+              "id": "69135",
+              "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69135&o=json",
+              "anchor": "",
+              "matches": []
+            }
+          ]
+        },
+        "recommendation": "manual_review"
+      },
+      {
+        "id": "parent:wd:Q45652582->cbdb:526717",
+        "kind": "parent",
+        "endpoints": {
+          "parent": "wd:Q45652582",
+          "child": "cbdb:526717",
+          "parent_name": "王必达",
+          "child_name": "王維禧"
+        },
+        "reason": "在线资料仍不足以排除同名误挂。",
+        "evidence": [
+          {
+            "source_key": "cbdb:69135",
+            "locator": "亲属关系：子",
+            "note": "CBDB 注明此条来源：人名權威資料（中央研究院歷史語言研究所）"
+          }
+        ],
+        "online": {
+          "wikidata": [],
+          "cbdb": [
+            {
+              "id": "69135",
+              "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69135&o=json",
+              "anchor": "",
+              "matches": []
+            }
+          ]
+        },
+        "recommendation": "manual_review"
+      },
+      {
+        "id": "parent:wd:Q45652582->cbdb:526718",
+        "kind": "parent",
+        "endpoints": {
+          "parent": "wd:Q45652582",
+          "child": "cbdb:526718",
+          "parent_name": "王必达",
+          "child_name": "王維瀚"
+        },
+        "reason": "在线资料仍不足以排除同名误挂。",
+        "evidence": [
+          {
+            "source_key": "cbdb:69135",
+            "locator": "亲属关系：子",
+            "note": "CBDB 注明此条来源：人名權威資料（中央研究院歷史語言研究所）"
+          }
+        ],
+        "online": {
+          "wikidata": [],
+          "cbdb": [
+            {
+              "id": "69135",
+              "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69135&o=json",
+              "anchor": "",
+              "matches": []
+            }
+          ]
+        },
+        "recommendation": "manual_review"
+      },
+      {
+        "id": "parent:wd:Q45652582->cbdb:526719",
+        "kind": "parent",
+        "endpoints": {
+          "parent": "wd:Q45652582",
+          "child": "cbdb:526719",
+          "parent_name": "王必达",
+          "child_name": "王鵬海"
+        },
+        "reason": "在线资料仍不足以排除同名误挂。",
+        "evidence": [
+          {
+            "source_key": "cbdb:69135",
+            "locator": "亲属关系：子",
+            "note": "CBDB 注明此条来源：人名權威資料（中央研究院歷史語言研究所）"
+          }
+        ],
+        "online": {
+          "wikidata": [],
+          "cbdb": [
+            {
+              "id": "69135",
+              "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69135&o=json",
+              "anchor": "",
+              "matches": []
+            }
+          ]
+        },
+        "recommendation": "manual_review"
+      },
+      {
+        "id": "spouse:cbdb:577087--wd:Q45401756",
+        "kind": "spouse",
+        "endpoints": {
+          "a": "wd:Q45401756",
+          "b": "cbdb:577087",
+          "a_name": "王益恭",
+          "b_name": "李氏"
+        },
+        "reason": "在线资料仍不足以排除同名误挂。",
+        "evidence": [
+          {
+            "source_key": "cbdb:22054",
+            "locator": "亲属关系：妻子",
+            "note": "CBDB 注明此条来源：散見宋金元墓誌地券輯錄六編"
+          }
+        ],
+        "online": {
+          "wikidata": [],
+          "cbdb": [
+            {
+              "id": "22054",
+              "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22054&o=json",
+              "anchor": "",
+              "matches": []
+            }
+          ]
+        },
+        "recommendation": "manual_review"
+      },
+      {
+        "id": "parent:wd:Q16077592->cbdb:526680",
+        "kind": "parent",
+        "endpoints": {
+          "parent": "wd:Q16077592",
+          "child": "cbdb:526680",
+          "parent_name": "王士祜",
+          "child_name": "王啟㴶"
+        },
+        "reason": "在线资料仍不足以排除同名误挂。",
+        "evidence": [
+          {
+            "source_key": "cbdb:35062",
+            "locator": "亲属关系：子",
+            "note": "CBDB 注明此条来源：人名權威資料（中央研究院歷史語言研究所）"
+          }
+        ],
+        "online": {
+          "wikidata": [],
+          "cbdb": [
+            {
+              "id": "35062",
+              "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35062&o=json",
+              "anchor": "",
+              "matches": []
+            }
+          ]
+        },
+        "recommendation": "manual_review"
+      },
+      {
+        "id": "parent:wd:Q16077592->cbdb:526681",
+        "kind": "parent",
+        "endpoints": {
+          "parent": "wd:Q16077592",
+          "child": "cbdb:526681",
+          "parent_name": "王士祜",
+          "child_name": "王啟涫"
+        },
+        "reason": "在线资料仍不足以排除同名误挂。",
+        "evidence": [
+          {
+            "source_key": "cbdb:35062",
+            "locator": "亲属关系：子",
+            "note": "CBDB 注明此条来源：人名權威資料（中央研究院歷史語言研究所）"
+          }
+        ],
+        "online": {
+          "wikidata": [],
+          "cbdb": [
+            {
+              "id": "35062",
+              "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35062&o=json",
+              "anchor": "",
+              "matches": []
+            }
+          ]
+        },
+        "recommendation": "manual_review"
+      },
+      {
+        "id": "parent:wd:Q45427492->wd:Q45430826",
+        "kind": "parent",
+        "endpoints": {
+          "parent": "wd:Q45427492",
+          "child": "wd:Q45430826",
+          "parent_name": "王松龄",
+          "child_name": "王聿"
+        },
+        "reason": "在线资料仍不足以排除同名误挂。",
+        "evidence": [
+          {
+            "source_key": "cbdb:36706",
+            "locator": "亲属关系：子",
+            "note": "CBDB 注明此条来源：宋人傳記資料索引(電子版)"
+          }
+        ],
+        "online": {
+          "wikidata": [
+            {
+              "side": "Q45427492",
+              "property": "P40",
+              "confirmed": false
+            },
+            {
+              "side": "Q45430826",
+              "property": "P22/P25",
+              "confirmed": false
+            }
+          ],
+          "cbdb": [
+            {
+              "id": "36706",
+              "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=36706&o=json",
+              "anchor": "",
+              "matches": []
+            }
+          ]
+        },
+        "recommendation": "manual_review"
+      },
+      {
+        "id": "parent:wd:Q45427492->wd:Q45431137",
+        "kind": "parent",
+        "endpoints": {
+          "parent": "wd:Q45427492",
+          "child": "wd:Q45431137",
+          "parent_name": "王松龄",
+          "child_name": "王中"
+        },
+        "reason": "在线资料仍不足以排除同名误挂。",
+        "evidence": [
+          {
+            "source_key": "cbdb:36706",
+            "locator": "亲属关系：子",
+            "note": "CBDB 注明此条来源：宋人傳記資料索引(電子版)"
+          }
+        ],
+        "online": {
+          "wikidata": [
+            {
+              "side": "Q45427492",
+              "property": "P40",
+              "confirmed": false
+            },
+            {
+              "side": "Q45431137",
+              "property": "P22/P25",
+              "confirmed": false
+            }
+          ],
+          "cbdb": [
+            {
+              "id": "36706",
+              "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=36706&o=json",
+              "anchor": "",
+              "matches": []
+            }
+          ]
+        },
+        "recommendation": "manual_review"
+      },
+      {
+        "id": "parent:wd:Q45577422->cbdb:550852",
+        "kind": "parent",
+        "endpoints": {
+          "parent": "wd:Q45577422",
+          "child": "cbdb:550852",
+          "parent_name": "王汝鲁",
+          "child_name": "王應修"
+        },
+        "reason": "在线资料仍不足以排除同名误挂。",
+        "evidence": [
+          {
+            "source_key": "cbdb:126502",
+            "locator": "亲属关系：子",
+            "note": "CBDB 注明此条来源：南陽府志"
+          }
+        ],
+        "online": {
+          "wikidata": [],
+          "cbdb": [
+            {
+              "id": "126502",
+              "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126502&o=json",
+              "anchor": "",
+              "matches": []
+            }
+          ]
+        },
+        "recommendation": "manual_review"
+      },
+      {
+        "id": "parent:wd:Q65903516->wd:Q15897288",
+        "kind": "parent",
+        "endpoints": {
+          "parent": "wd:Q65903516",
+          "child": "wd:Q15897288",
+          "parent_name": "王稌",
+          "child_name": "王汶"
+        },
+        "reason": "在线资料仍不足以排除同名误挂。",
+        "evidence": [
+          {
+            "source_key": "cbdb:437664",
+            "locator": "亲属关系：子",
+            "note": "CBDB 注明此条来源：未知"
+          }
+        ],
+        "online": {
+          "wikidata": [
+            {
+              "side": "Q65903516",
+              "property": "P40",
+              "confirmed": false
+            },
+            {
+              "side": "Q15897288",
+              "property": "P22/P25",
+              "confirmed": false
+            }
+          ],
+          "cbdb": [
+            {
+              "id": "437664",
+              "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=437664&o=json",
+              "anchor": "",
+              "matches": []
+            }
+          ]
+        },
+        "recommendation": "manual_review"
+      }
+    ],
+    "accepted": [
+      {
+        "id": "parent:wd:Q13688035->wd:Q697757",
+        "kind": "parent",
+        "endpoints": {
+          "parent": "wd:Q13688035",
+          "child": "wd:Q697757",
+          "parent_name": "王安国",
+          "child_name": "王念孙"
+        },
+        "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+        "evidence": [
+          {
+            "source_key": "wd:Q697757",
+            "locator": "P22（父）",
+            "note": null
+          },
+          {
+            "source_key": "wd:Q13688035",
+            "locator": "P40（子女）",
+            "note": null
+          }
+        ],
+        "online": {
+          "wikidata": [
+            {
+              "side": "Q13688035",
+              "property": "P40",
+              "confirmed": true
+            },
+            {
+              "side": "Q697757",
+              "property": "P22/P25",
+              "confirmed": true
+            }
+          ],
+          "cbdb": []
+        },
+        "recommendation": "accepted"
+      },
+      {
+        "id": "parent:wd:Q697757->wd:Q13688131",
+        "kind": "parent",
+        "endpoints": {
+          "parent": "wd:Q697757",
+          "child": "wd:Q13688131",
+          "parent_name": "王念孙",
+          "child_name": "王氏"
+        },
+        "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+        "evidence": [
+          {
+            "source_key": "wd:Q697757",
+            "locator": "P40（子女）",
+            "note": null
+          },
+          {
+            "source_key": "wd:Q13688131",
+            "locator": "P22（父）",
+            "note": null
+          }
+        ],
+        "online": {
+          "wikidata": [
+            {
+              "side": "Q697757",
+              "property": "P40",
+              "confirmed": true
+            },
+            {
+              "side": "Q13688131",
+              "property": "P22/P25",
+              "confirmed": true
+            }
+          ],
+          "cbdb": []
+        },
+        "recommendation": "accepted"
+      },
+      {
+        "id": "parent:wd:Q7967676->wd:Q45630024",
+        "kind": "parent",
+        "endpoints": {
+          "parent": "wd:Q7967676",
+          "child": "wd:Q45630024",
+          "parent_name": "王武俊",
+          "child_name": "王士则"
+        },
+        "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+        "evidence": [
+          {
+            "source_key": "wd:Q7967676",
+            "locator": "P40（子女）",
+            "note": null
+          },
+          {
+            "source_key": "wd:Q45630024",
+            "locator": "P22（父）",
+            "note": null
+          },
+          {
+            "source_key": "cbdb:191752",
+            "locator": "亲属关系：子",
+            "note": "CBDB 注明此条来源：唐五代人物傳記與社會網絡資料庫(1.0版)"
+          }
+        ],
+        "online": {
+          "wikidata": [
+            {
+              "side": "Q7967676",
+              "property": "P40",
+              "confirmed": true
+            },
+            {
+              "side": "Q45630024",
+              "property": "P22/P25",
+              "confirmed": true
+            }
+          ],
+          "cbdb": [
+            {
+              "id": "191752",
+              "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191752&o=json",
+              "anchor": "",
+              "matches": []
+            }
+          ]
+        },
+        "recommendation": "accepted"
+      },
+      {
+        "id": "spouse:wd:Q28413506--wd:Q65801416",
+        "kind": "spouse",
+        "endpoints": {
+          "a": "wd:Q28413506",
+          "b": "wd:Q65801416",
+          "a_name": "王𫖮",
+          "b_name": "李氏"
+        },
+        "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+        "evidence": [
+          {
+            "source_key": "wd:Q65801416",
+            "locator": "P26（配偶）",
+            "note": null
+          },
+          {
+            "source_key": "wd:Q28413506",
+            "locator": "P26（配偶）",
+            "note": null
+          },
+          {
+            "source_key": "cbdb:33012",
+            "locator": "亲属关系：妻子",
+            "note": "CBDB 注明此条来源：明清婦女著作數據庫"
+          }
+        ],
+        "online": {
+          "wikidata": [
+            {
+              "side": "Q28413506",
+              "property": "P26",
+              "confirmed": true
+            },
+            {
+              "side": "Q65801416",
+              "property": "P26",
+              "confirmed": true
+            }
+          ],
+          "cbdb": [
+            {
+              "id": "33012",
+              "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=33012&o=json",
+              "anchor": "",
+              "matches": []
+            }
+          ]
+        },
+        "recommendation": "accepted"
+      },
+      {
+        "id": "parent:wd:Q45406222->wd:Q45406224",
+        "kind": "parent",
+        "endpoints": {
+          "parent": "wd:Q45406222",
+          "child": "wd:Q45406224",
+          "parent_name": "王明",
+          "child_name": "王承寿"
+        },
+        "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+        "evidence": [
+          {
+            "source_key": "wd:Q45406224",
+            "locator": "P22（父）",
+            "note": null
+          },
+          {
+            "source_key": "wd:Q45406222",
+            "locator": "P40（子女）",
+            "note": null
+          }
+        ],
+        "online": {
+          "wikidata": [
+            {
+              "side": "Q45406222",
+              "property": "P40",
+              "confirmed": true
+            },
+            {
+              "side": "Q45406224",
+              "property": "P22/P25",
+              "confirmed": true
+            }
+          ],
+          "cbdb": []
+        },
+        "recommendation": "accepted"
+      },
+      {
+        "id": "parent:wd:Q45409550->wd:Q45409552",
+        "kind": "parent",
+        "endpoints": {
+          "parent": "wd:Q45409550",
+          "child": "wd:Q45409552",
+          "parent_name": "王志",
+          "child_name": "王丕"
+        },
+        "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+        "evidence": [
+          {
+            "source_key": "wd:Q45409552",
+            "locator": "P22（父）",
+            "note": null
+          },
+          {
+            "source_key": "wd:Q45409550",
+            "locator": "P40（子女）",
+            "note": null
+          }
+        ],
+        "online": {
+          "wikidata": [
+            {
+              "side": "Q45409550",
+              "property": "P40",
+              "confirmed": true
+            },
+            {
+              "side": "Q45409552",
+              "property": "P22/P25",
+              "confirmed": true
+            }
+          ],
+          "cbdb": []
+        },
+        "recommendation": "accepted"
+      },
+      {
+        "id": "parent:wd:Q45426092->wd:Q45426051",
+        "kind": "parent",
+        "endpoints": {
+          "parent": "wd:Q45426092",
+          "child": "wd:Q45426051",
+          "parent_name": "王忠",
+          "child_name": "王朝用"
+        },
+        "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+        "evidence": [
+          {
+            "source_key": "wd:Q45426051",
+            "locator": "P22（父）",
+            "note": null
+          },
+          {
+            "source_key": "wd:Q45426092",
+            "locator": "P40（子女）",
+            "note": null
+          }
+        ],
+        "online": {
+          "wikidata": [
+            {
+              "side": "Q45426092",
+              "property": "P40",
+              "confirmed": true
+            },
+            {
+              "side": "Q45426051",
+              "property": "P22/P25",
+              "confirmed": true
+            }
+          ],
+          "cbdb": []
+        },
+        "recommendation": "accepted"
+      },
+      {
+        "id": "spouse:wd:Q45386119--wd:Q45430725",
+        "kind": "spouse",
+        "endpoints": {
+          "a": "wd:Q45386119",
+          "b": "wd:Q45430725",
+          "a_name": "王寂",
+          "b_name": "赵氏"
+        },
+        "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+        "evidence": [
+          {
+            "source_key": "wd:Q45430725",
+            "locator": "P26（配偶）",
+            "note": null
+          },
+          {
+            "source_key": "wd:Q45386119",
+            "locator": "P26（配偶）",
+            "note": null
+          },
+          {
+            "source_key": "cbdb:17425",
+            "locator": "亲属关系：妻子",
+            "note": "CBDB 注明此条来源：宋人傳記資料索引(電子版)"
+          }
+        ],
+        "online": {
+          "wikidata": [
+            {
+              "side": "Q45386119",
+              "property": "P26",
+              "confirmed": true
+            },
+            {
+              "side": "Q45430725",
+              "property": "P26",
+              "confirmed": true
+            }
+          ],
+          "cbdb": [
+            {
+              "id": "17425",
+              "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17425&o=json",
+              "anchor": "",
+              "matches": []
+            }
+          ]
+        },
+        "recommendation": "accepted"
+      },
+      {
+        "id": "spouse:wd:Q45409552--wd:Q45432073",
+        "kind": "spouse",
+        "endpoints": {
+          "a": "wd:Q45409552",
+          "b": "wd:Q45432073",
+          "a_name": "王丕",
+          "b_name": "周氏"
+        },
+        "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+        "evidence": [
+          {
+            "source_key": "wd:Q45432073",
+            "locator": "P26（配偶）",
+            "note": null
+          },
+          {
+            "source_key": "wd:Q45409552",
+            "locator": "P26（配偶）",
+            "note": null
+          },
+          {
+            "source_key": "cbdb:26228",
+            "locator": "亲属关系：妻子",
+            "note": "CBDB 注明此条来源：宋人傳記資料索引(電子版)"
+          }
+        ],
+        "online": {
+          "wikidata": [
+            {
+              "side": "Q45409552",
+              "property": "P26",
+              "confirmed": true
+            },
+            {
+              "side": "Q45432073",
+              "property": "P26",
+              "confirmed": true
+            }
+          ],
+          "cbdb": [
+            {
+              "id": "26228",
+              "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26228&o=json",
+              "anchor": "",
+              "matches": []
+            }
+          ]
+        },
+        "recommendation": "accepted"
+      },
+      {
+        "id": "parent:wd:Q15908672->wd:Q23888312",
+        "kind": "parent",
+        "endpoints": {
+          "parent": "wd:Q15908672",
+          "child": "wd:Q23888312",
+          "parent_name": "王正黼",
+          "child_name": "王恭立"
+        },
+        "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+        "evidence": [
+          {
+            "source_key": "wd:Q15908672",
+            "locator": "P40（子女）",
+            "note": null
+          },
+          {
+            "source_key": "wd:Q23888312",
+            "locator": "P22（父）",
+            "note": null
+          }
+        ],
+        "online": {
+          "wikidata": [
+            {
+              "side": "Q15908672",
+              "property": "P40",
+              "confirmed": true
+            },
+            {
+              "side": "Q23888312",
+              "property": "P22/P25",
+              "confirmed": true
+            }
+          ],
+          "cbdb": []
+        },
+        "recommendation": "accepted"
+      },
+      {
+        "id": "parent:wd:Q28414907->wd:Q45359463",
+        "kind": "parent",
+        "endpoints": {
+          "parent": "wd:Q28414907",
+          "child": "wd:Q45359463",
+          "parent_name": "王明",
+          "child_name": "王扶"
+        },
+        "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+        "evidence": [
+          {
+            "source_key": "wd:Q45359463",
+            "locator": "P22（父）",
+            "note": null
+          },
+          {
+            "source_key": "wd:Q28414907",
+            "locator": "P40（子女）",
+            "note": null
+          }
+        ],
+        "online": {
+          "wikidata": [
+            {
+              "side": "Q28414907",
+              "property": "P40",
+              "confirmed": true
+            },
+            {
+              "side": "Q45359463",
+              "property": "P22/P25",
+              "confirmed": true
+            }
+          ],
+          "cbdb": []
+        },
+        "recommendation": "accepted"
+      },
+      {
+        "id": "parent:wd:Q19826406->wd:Q25918183",
+        "kind": "parent",
+        "endpoints": {
+          "parent": "wd:Q19826406",
+          "child": "wd:Q25918183",
+          "parent_name": "王秉",
+          "child_name": "王裕"
+        },
+        "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+        "evidence": [
+          {
+            "source_key": "wd:Q25918183",
+            "locator": "P22（父）",
+            "note": null
+          },
+          {
+            "source_key": "wd:Q19826406",
+            "locator": "P40（子女）",
+            "note": null
+          }
+        ],
+        "online": {
+          "wikidata": [
+            {
+              "side": "Q19826406",
+              "property": "P40",
+              "confirmed": true
+            },
+            {
+              "side": "Q25918183",
+              "property": "P22/P25",
+              "confirmed": true
+            }
+          ],
+          "cbdb": []
+        },
+        "recommendation": "accepted"
+      },
+      {
+        "id": "parent:wd:Q25918183->wd:Q25918179",
+        "kind": "parent",
+        "endpoints": {
+          "parent": "wd:Q25918183",
+          "child": "wd:Q25918179",
+          "parent_name": "王裕",
+          "child_name": "王氏"
+        },
+        "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+        "evidence": [
+          {
+            "source_key": "wd:Q25918183",
+            "locator": "P40（子女）",
+            "note": null
+          },
+          {
+            "source_key": "wd:Q25918179",
+            "locator": "P22（父）",
+            "note": null
+          }
+        ],
+        "online": {
+          "wikidata": [
+            {
+              "side": "Q25918183",
+              "property": "P40",
+              "confirmed": true
+            },
+            {
+              "side": "Q25918179",
+              "property": "P22/P25",
+              "confirmed": true
+            }
+          ],
+          "cbdb": []
+        },
+        "recommendation": "accepted"
+      },
+      {
+        "id": "spouse:wd:Q45510314--wd:Q65802952",
+        "kind": "spouse",
+        "endpoints": {
+          "a": "wd:Q45510314",
+          "b": "wd:Q65802952",
+          "a_name": "王将勗",
+          "b_name": "李氏"
+        },
+        "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+        "evidence": [
+          {
+            "source_key": "wd:Q45510314",
+            "locator": "P26（配偶）",
+            "note": null
+          },
+          {
+            "source_key": "wd:Q65802952",
+            "locator": "P26（配偶）",
+            "note": null
+          },
+          {
+            "source_key": "cbdb:194048",
+            "locator": "亲属关系：妻子",
+            "note": "CBDB 注明此条来源：唐五代人物傳記與社會網絡資料庫(1.0版)"
+          }
+        ],
+        "online": {
+          "wikidata": [
+            {
+              "side": "Q45510314",
+              "property": "P26",
+              "confirmed": true
+            },
+            {
+              "side": "Q65802952",
+              "property": "P26",
+              "confirmed": true
+            }
+          ],
+          "cbdb": [
+            {
+              "id": "194048",
+              "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=194048&o=json",
+              "anchor": "",
+              "matches": []
+            }
+          ]
+        },
+        "recommendation": "accepted"
+      },
+      {
+        "id": "parent:wd:Q7967386->wd:Q65803664",
+        "kind": "parent",
+        "endpoints": {
+          "parent": "wd:Q7967386",
+          "child": "wd:Q65803664",
+          "parent_name": "王承宗",
+          "child_name": "王氏"
+        },
+        "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+        "evidence": [
+          {
+            "source_key": "wd:Q7967386",
+            "locator": "P40（子女）",
+            "note": null
+          },
+          {
+            "source_key": "wd:Q65803664",
+            "locator": "P22（父）",
+            "note": null
+          },
+          {
+            "source_key": "cbdb:169026",
+            "locator": "亲属关系：女兒",
+            "note": "CBDB 注明此条来源：唐代墓誌彙編續集"
+          }
+        ],
+        "online": {
+          "wikidata": [
+            {
+              "side": "Q7967386",
+              "property": "P40",
+              "confirmed": true
+            },
+            {
+              "side": "Q65803664",
+              "property": "P22/P25",
+              "confirmed": true
+            }
+          ],
+          "cbdb": [
+            {
+              "id": "169026",
+              "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=169026&o=json",
+              "anchor": "",
+              "matches": []
+            }
+          ]
+        },
+        "recommendation": "accepted"
+      },
+      {
+        "id": "parent:wd:Q7967386->wd:Q65803894",
+        "kind": "parent",
+        "endpoints": {
+          "parent": "wd:Q7967386",
+          "child": "wd:Q65803894",
+          "parent_name": "王承宗",
+          "child_name": "王氏"
+        },
+        "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+        "evidence": [
+          {
+            "source_key": "wd:Q7967386",
+            "locator": "P40（子女）",
+            "note": null
+          },
+          {
+            "source_key": "wd:Q65803894",
+            "locator": "P22（父）",
+            "note": null
+          }
+        ],
+        "online": {
+          "wikidata": [
+            {
+              "side": "Q7967386",
+              "property": "P40",
+              "confirmed": true
+            },
+            {
+              "side": "Q65803894",
+              "property": "P22/P25",
+              "confirmed": true
+            }
+          ],
+          "cbdb": []
+        },
+        "recommendation": "accepted"
+      },
+      {
+        "id": "parent:wd:Q45527504->wd:Q45527566",
+        "kind": "parent",
+        "endpoints": {
+          "parent": "wd:Q45527504",
+          "child": "wd:Q45527566",
+          "parent_name": "王景",
+          "child_name": "王俊卿"
+        },
+        "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+        "evidence": [
+          {
+            "source_key": "wd:Q45527566",
+            "locator": "P22（父）",
+            "note": null
+          },
+          {
+            "source_key": "wd:Q45527504",
+            "locator": "P40（子女）",
+            "note": null
+          }
+        ],
+        "online": {
+          "wikidata": [
+            {
+              "side": "Q45527504",
+              "property": "P40",
+              "confirmed": true
+            },
+            {
+              "side": "Q45527566",
+              "property": "P22/P25",
+              "confirmed": true
+            }
+          ],
+          "cbdb": []
+        },
+        "recommendation": "accepted"
+      },
+      {
+        "id": "parent:wd:Q45559885->wd:Q45560451",
+        "kind": "parent",
+        "endpoints": {
+          "parent": "wd:Q45559885",
+          "child": "wd:Q45560451",
+          "parent_name": "王仁",
+          "child_name": "王原道"
+        },
+        "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+        "evidence": [
+          {
+            "source_key": "wd:Q45560451",
+            "locator": "P22（父）",
+            "note": null
+          },
+          {
+            "source_key": "wd:Q45559885",
+            "locator": "P40（子女）",
+            "note": null
+          }
+        ],
+        "online": {
+          "wikidata": [
+            {
+              "side": "Q45559885",
+              "property": "P40",
+              "confirmed": true
+            },
+            {
+              "side": "Q45560451",
+              "property": "P22/P25",
+              "confirmed": true
+            }
+          ],
+          "cbdb": []
+        },
+        "recommendation": "accepted"
+      },
+      {
+        "id": "parent:wd:Q45581298->wd:Q45581362",
+        "kind": "parent",
+        "endpoints": {
+          "parent": "wd:Q45581298",
+          "child": "wd:Q45581362",
+          "parent_name": "王缙",
+          "child_name": "王朝用"
+        },
+        "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+        "evidence": [
+          {
+            "source_key": "wd:Q45581362",
+            "locator": "P22（父）",
+            "note": null
+          },
+          {
+            "source_key": "wd:Q45581298",
+            "locator": "P40（子女）",
+            "note": null
+          }
+        ],
+        "online": {
+          "wikidata": [
+            {
+              "side": "Q45581298",
+              "property": "P40",
+              "confirmed": true
+            },
+            {
+              "side": "Q45581362",
+              "property": "P22/P25",
+              "confirmed": true
+            }
+          ],
+          "cbdb": []
+        },
+        "recommendation": "accepted"
+      },
+      {
+        "id": "parent:wd:Q45449642->wd:Q45449706",
+        "kind": "parent",
+        "endpoints": {
+          "parent": "wd:Q45449642",
+          "child": "wd:Q45449706",
+          "parent_name": "王睿",
+          "child_name": "王文"
+        },
+        "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+        "evidence": [
+          {
+            "source_key": "wd:Q45449706",
+            "locator": "P22（父）",
+            "note": null
+          },
+          {
+            "source_key": "wd:Q45449642",
+            "locator": "P40（子女）",
+            "note": null
+          }
+        ],
+        "online": {
+          "wikidata": [
+            {
+              "side": "Q45449642",
+              "property": "P40",
+              "confirmed": true
+            },
+            {
+              "side": "Q45449706",
+              "property": "P22/P25",
+              "confirmed": true
+            }
+          ],
+          "cbdb": []
+        },
+        "recommendation": "accepted"
+      },
+      {
+        "id": "parent:wd:Q45476347->wd:Q45476476",
+        "kind": "parent",
+        "endpoints": {
+          "parent": "wd:Q45476347",
+          "child": "wd:Q45476476",
+          "parent_name": "王升",
+          "child_name": "王琏"
+        },
+        "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+        "evidence": [
+          {
+            "source_key": "wd:Q45476476",
+            "locator": "P22（父）",
+            "note": null
+          },
+          {
+            "source_key": "wd:Q45476347",
+            "locator": "P40（子女）",
+            "note": null
+          }
+        ],
+        "online": {
+          "wikidata": [
+            {
+              "side": "Q45476347",
+              "property": "P40",
+              "confirmed": true
+            },
+            {
+              "side": "Q45476476",
+              "property": "P22/P25",
+              "confirmed": true
+            }
+          ],
+          "cbdb": []
+        },
+        "recommendation": "accepted"
+      },
+      {
+        "id": "parent:wd:Q45484137->wd:Q45484201",
+        "kind": "parent",
+        "endpoints": {
+          "parent": "wd:Q45484137",
+          "child": "wd:Q45484201",
+          "parent_name": "王海",
+          "child_name": "王升"
+        },
+        "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+        "evidence": [
+          {
+            "source_key": "wd:Q45484201",
+            "locator": "P22（父）",
+            "note": null
+          },
+          {
+            "source_key": "wd:Q45484137",
+            "locator": "P40（子女）",
+            "note": null
+          }
+        ],
+        "online": {
+          "wikidata": [
+            {
+              "side": "Q45484137",
+              "property": "P40",
+              "confirmed": true
+            },
+            {
+              "side": "Q45484201",
+              "property": "P22/P25",
+              "confirmed": true
+            }
+          ],
+          "cbdb": []
+        },
+        "recommendation": "accepted"
+      },
+      {
+        "id": "parent:wd:Q45614374->wd:Q45614438",
+        "kind": "parent",
+        "endpoints": {
+          "parent": "wd:Q45614374",
+          "child": "wd:Q45614438",
+          "parent_name": "王明",
+          "child_name": "王訚"
+        },
+        "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+        "evidence": [
+          {
+            "source_key": "wd:Q45614438",
+            "locator": "P22（父）",
+            "note": null
+          },
+          {
+            "source_key": "wd:Q45614374",
+            "locator": "P40（子女）",
+            "note": null
+          }
+        ],
+        "online": {
+          "wikidata": [
+            {
+              "side": "Q45614374",
+              "property": "P40",
+              "confirmed": true
+            },
+            {
+              "side": "Q45614438",
+              "property": "P22/P25",
+              "confirmed": true
+            }
+          ],
+          "cbdb": []
+        },
+        "recommendation": "accepted"
+      },
+      {
+        "id": "parent:wd:Q45620962->wd:Q45621024",
+        "kind": "parent",
+        "endpoints": {
+          "parent": "wd:Q45620962",
+          "child": "wd:Q45621024",
+          "parent_name": "王子文",
+          "child_name": "王昺"
+        },
+        "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+        "evidence": [
+          {
+            "source_key": "wd:Q45621024",
+            "locator": "P22（父）",
+            "note": null
+          },
+          {
+            "source_key": "wd:Q45620962",
+            "locator": "P40（子女）",
+            "note": null
+          }
+        ],
+        "online": {
+          "wikidata": [
+            {
+              "side": "Q45620962",
+              "property": "P40",
+              "confirmed": true
+            },
+            {
+              "side": "Q45621024",
+              "property": "P22/P25",
+              "confirmed": true
+            }
+          ],
+          "cbdb": []
+        },
+        "recommendation": "accepted"
+      },
+      {
+        "id": "parent:wd:Q45685646->wd:Q45685614",
+        "kind": "parent",
+        "endpoints": {
+          "parent": "wd:Q45685646",
+          "child": "wd:Q45685614",
+          "parent_name": "王仁表",
+          "child_name": "王敬同"
+        },
+        "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+        "evidence": [
+          {
+            "source_key": "wd:Q45685614",
+            "locator": "P22（父）",
+            "note": null
+          },
+          {
+            "source_key": "wd:Q45685646",
+            "locator": "P40（子女）",
+            "note": null
+          }
+        ],
+        "online": {
+          "wikidata": [
+            {
+              "side": "Q45685646",
+              "property": "P40",
+              "confirmed": true
+            },
+            {
+              "side": "Q45685614",
+              "property": "P22/P25",
+              "confirmed": true
+            }
+          ],
+          "cbdb": []
+        },
+        "recommendation": "accepted"
+      },
+      {
+        "id": "spouse:wd:Q45690317--wd:Q65812398",
+        "kind": "spouse",
+        "endpoints": {
+          "a": "wd:Q45690317",
+          "b": "wd:Q65812398",
+          "a_name": "王培龄",
+          "b_name": "崔氏"
+        },
+        "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+        "evidence": [
+          {
+            "source_key": "wd:Q45690317",
+            "locator": "P26（配偶）",
+            "note": null
+          },
+          {
+            "source_key": "wd:Q65812398",
+            "locator": "P26（配偶）",
+            "note": null
+          },
+          {
+            "source_key": "cbdb:202447",
+            "locator": "亲属关系：妻子",
+            "note": "CBDB 注明此条来源：嘉靖八年進士登科錄:一卷"
+          }
+        ],
+        "online": {
+          "wikidata": [
+            {
+              "side": "Q45690317",
+              "property": "P26",
+              "confirmed": true
+            },
+            {
+              "side": "Q65812398",
+              "property": "P26",
+              "confirmed": true
+            }
+          ],
+          "cbdb": [
+            {
+              "id": "202447",
+              "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202447&o=json",
+              "anchor": "",
+              "matches": []
+            }
+          ]
+        },
+        "recommendation": "accepted"
+      },
+      {
+        "id": "spouse:wd:Q45458696--wd:Q65831333",
+        "kind": "spouse",
+        "endpoints": {
+          "a": "wd:Q45458696",
+          "b": "wd:Q65831333",
+          "a_name": "王宗性",
+          "b_name": "孙氏"
+        },
+        "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+        "evidence": [
+          {
+            "source_key": "wd:Q45458696",
+            "locator": "P26（配偶）",
+            "note": null
+          },
+          {
+            "source_key": "wd:Q65831333",
+            "locator": "P26（配偶）",
+            "note": null
+          },
+          {
+            "source_key": "cbdb:203595",
+            "locator": "亲属关系：妻子",
+            "note": "CBDB 注明此条来源：嘉靖二十三年登科錄:一卷"
+          }
+        ],
+        "online": {
+          "wikidata": [
+            {
+              "side": "Q45458696",
+              "property": "P26",
+              "confirmed": true
+            },
+            {
+              "side": "Q65831333",
+              "property": "P26",
+              "confirmed": true
+            }
+          ],
+          "cbdb": [
+            {
+              "id": "203595",
+              "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203595&o=json",
+              "anchor": "",
+              "matches": []
+            }
+          ]
+        },
+        "recommendation": "accepted"
+      },
+      {
+        "id": "spouse:wd:Q16260916--wd:Q65837803",
+        "kind": "spouse",
+        "endpoints": {
+          "a": "wd:Q16260916",
+          "b": "wd:Q65837803",
+          "a_name": "王象春",
+          "b_name": "李氏"
+        },
+        "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+        "evidence": [
+          {
+            "source_key": "wd:Q16260916",
+            "locator": "P26（配偶）",
+            "note": null
+          },
+          {
+            "source_key": "wd:Q65837803",
+            "locator": "P26（配偶）",
+            "note": null
+          },
+          {
+            "source_key": "cbdb:126731",
+            "locator": "亲属关系：妻子",
+            "note": "CBDB 注明此条来源：萬曆三十八年庚戌科序齒錄:一卷"
+          }
+        ],
+        "online": {
+          "wikidata": [
+            {
+              "side": "Q16260916",
+              "property": "P26",
+              "confirmed": true
+            },
+            {
+              "side": "Q65837803",
+              "property": "P26",
+              "confirmed": true
+            }
+          ],
+          "cbdb": [
+            {
+              "id": "126731",
+              "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126731&o=json",
+              "anchor": "",
+              "matches": []
+            }
+          ]
+        },
+        "recommendation": "accepted"
+      },
+      {
+        "id": "spouse:wd:Q16260916--wd:Q65837810",
+        "kind": "spouse",
+        "endpoints": {
+          "a": "wd:Q16260916",
+          "b": "wd:Q65837810",
+          "a_name": "王象春",
+          "b_name": "许氏"
+        },
+        "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+        "evidence": [
+          {
+            "source_key": "wd:Q16260916",
+            "locator": "P26（配偶）",
+            "note": null
+          },
+          {
+            "source_key": "wd:Q65837810",
+            "locator": "P26（配偶）",
+            "note": null
+          },
+          {
+            "source_key": "cbdb:126731",
+            "locator": "亲属关系：第二任妻",
+            "note": "CBDB 注明此条来源：萬曆三十八年庚戌科序齒錄:一卷"
+          }
+        ],
+        "online": {
+          "wikidata": [
+            {
+              "side": "Q16260916",
+              "property": "P26",
+              "confirmed": true
+            },
+            {
+              "side": "Q65837810",
+              "property": "P26",
+              "confirmed": true
+            }
+          ],
+          "cbdb": [
+            {
+              "id": "126731",
+              "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126731&o=json",
+              "anchor": "",
+              "matches": []
+            }
+          ]
+        },
+        "recommendation": "accepted"
+      },
+      {
+        "id": "spouse:wd:Q65903516--wd:Q65904233",
+        "kind": "spouse",
+        "endpoints": {
+          "a": "wd:Q65903516",
+          "b": "wd:Q65904233",
+          "a_name": "王稌",
+          "b_name": "丁氏"
+        },
+        "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+        "evidence": [
+          {
+            "source_key": "wd:Q65904233",
+            "locator": "P26（配偶）",
+            "note": null
+          },
+          {
+            "source_key": "wd:Q65903516",
+            "locator": "P26（配偶）",
+            "note": null
+          },
+          {
+            "source_key": "cbdb:437664",
+            "locator": "亲属关系：第一任妻",
+            "note": "CBDB 注明此条来源：未知"
+          }
+        ],
+        "online": {
+          "wikidata": [
+            {
+              "side": "Q65903516",
+              "property": "P26",
+              "confirmed": true
+            },
+            {
+              "side": "Q65904233",
+              "property": "P26",
+              "confirmed": true
+            }
+          ],
+          "cbdb": [
+            {
+              "id": "437664",
+              "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=437664&o=json",
+              "anchor": "",
+              "matches": []
+            }
+          ]
+        },
+        "recommendation": "accepted"
+      },
+      {
+        "id": "spouse:wd:Q65903516--wd:Q65904236",
+        "kind": "spouse",
+        "endpoints": {
+          "a": "wd:Q65903516",
+          "b": "wd:Q65904236",
+          "a_name": "王稌",
+          "b_name": "吴氏"
+        },
+        "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+        "evidence": [
+          {
+            "source_key": "wd:Q65904236",
+            "locator": "P26（配偶）",
+            "note": null
+          },
+          {
+            "source_key": "wd:Q65903516",
+            "locator": "P26（配偶）",
+            "note": null
+          },
+          {
+            "source_key": "cbdb:437664",
+            "locator": "亲属关系：第二任妻",
+            "note": "CBDB 注明此条来源：未知"
+          }
+        ],
+        "online": {
+          "wikidata": [
+            {
+              "side": "Q65903516",
+              "property": "P26",
+              "confirmed": true
+            },
+            {
+              "side": "Q65904236",
+              "property": "P26",
+              "confirmed": true
+            }
+          ],
+          "cbdb": [
+            {
+              "id": "437664",
+              "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=437664&o=json",
+              "anchor": "",
+              "matches": []
+            }
+          ]
+        },
+        "recommendation": "accepted"
+      },
+      {
+        "id": "spouse:wd:Q45381153--wd:Q45434003",
+        "kind": "spouse",
+        "endpoints": {
+          "a": "wd:Q45381153",
+          "b": "wd:Q45434003",
+          "a_name": "王冲",
+          "b_name": "华氏"
+        },
+        "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+        "evidence": [
+          {
+            "source_key": "wd:Q45434003",
+            "locator": "P26（配偶）",
+            "note": null
+          },
+          {
+            "source_key": "wd:Q45381153",
+            "locator": "P26（配偶）",
+            "note": null
+          },
+          {
+            "source_key": "cbdb:15752",
+            "locator": "亲属关系：妻子",
+            "note": "CBDB 注明此条来源：宋人傳記資料索引(電子版)"
+          }
+        ],
+        "online": {
+          "wikidata": [
+            {
+              "side": "Q45381153",
+              "property": "P26",
+              "confirmed": true
+            },
+            {
+              "side": "Q45434003",
+              "property": "P26",
+              "confirmed": true
+            }
+          ],
+          "cbdb": [
+            {
+              "id": "15752",
+              "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=15752&o=json",
+              "anchor": "",
+              "matches": []
+            }
+          ]
+        },
+        "recommendation": "accepted"
+      },
+      {
+        "id": "parent:wd:Q45491686->wd:Q45491751",
+        "kind": "parent",
+        "endpoints": {
+          "parent": "wd:Q45491686",
+          "child": "wd:Q45491751",
+          "parent_name": "王云",
+          "child_name": "王成"
+        },
+        "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+        "evidence": [
+          {
+            "source_key": "wd:Q45491686",
+            "locator": "P40（子女）",
+            "note": null
+          },
+          {
+            "source_key": "wd:Q45491751",
+            "locator": "P22（父）",
+            "note": null
+          }
+        ],
+        "online": {
+          "wikidata": [
+            {
+              "side": "Q45491686",
+              "property": "P40",
+              "confirmed": true
+            },
+            {
+              "side": "Q45491751",
+              "property": "P22/P25",
+              "confirmed": true
+            }
+          ],
+          "cbdb": []
+        },
+        "recommendation": "accepted"
+      },
+      {
+        "id": "parent:wd:Q45362965->wd:Q45364057",
+        "kind": "parent",
+        "endpoints": {
+          "parent": "wd:Q45362965",
+          "child": "wd:Q45364057",
+          "parent_name": "王涣",
+          "child_name": "王氏"
+        },
+        "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+        "evidence": [
+          {
+            "source_key": "wd:Q45364057",
+            "locator": "P22（父）",
+            "note": null
+          },
+          {
+            "source_key": "wd:Q45362965",
+            "locator": "P40（子女）",
+            "note": null
+          },
+          {
+            "source_key": "cbdb:3957",
+            "locator": "亲属关系：女兒",
+            "note": "CBDB 注明此条来源：未知"
+          }
+        ],
+        "online": {
+          "wikidata": [
+            {
+              "side": "Q45362965",
+              "property": "P40",
+              "confirmed": true
+            },
+            {
+              "side": "Q45364057",
+              "property": "P22/P25",
+              "confirmed": true
+            }
+          ],
+          "cbdb": [
+            {
+              "id": "3957",
+              "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3957&o=json",
+              "anchor": "",
+              "matches": []
+            }
+          ]
+        },
+        "recommendation": "accepted"
+      },
+      {
+        "id": "parent:wd:Q45387147->wd:Q45364582",
+        "kind": "parent",
+        "endpoints": {
+          "parent": "wd:Q45387147",
+          "child": "wd:Q45364582",
+          "parent_name": "王世厚",
+          "child_name": "王氏"
+        },
+        "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+        "evidence": [
+          {
+            "source_key": "wd:Q45364582",
+            "locator": "P22（父）",
+            "note": null
+          },
+          {
+            "source_key": "wd:Q45387147",
+            "locator": "P40（子女）",
+            "note": null
+          },
+          {
+            "source_key": "cbdb:17763",
+            "locator": "亲属关系：女兒",
+            "note": "CBDB 注明此条来源：未知"
+          }
+        ],
+        "online": {
+          "wikidata": [
+            {
+              "side": "Q45387147",
+              "property": "P40",
+              "confirmed": true
+            },
+            {
+              "side": "Q45364582",
+              "property": "P22/P25",
+              "confirmed": true
+            }
+          ],
+          "cbdb": [
+            {
+              "id": "17763",
+              "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17763&o=json",
+              "anchor": "",
+              "matches": []
+            }
+          ]
+        },
+        "recommendation": "accepted"
+      },
+      {
+        "id": "parent:wd:Q45387199->wd:Q45364590",
+        "kind": "parent",
+        "endpoints": {
+          "parent": "wd:Q45387199",
+          "child": "wd:Q45364590",
+          "parent_name": "王世彦",
+          "child_name": "王氏"
+        },
+        "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+        "evidence": [
+          {
+            "source_key": "wd:Q45364590",
+            "locator": "P22（父）",
+            "note": null
+          },
+          {
+            "source_key": "wd:Q45387199",
+            "locator": "P40（子女）",
+            "note": null
+          },
+          {
+            "source_key": "cbdb:17779",
+            "locator": "亲属关系：女兒",
+            "note": "CBDB 注明此条来源：未知"
+          }
+        ],
+        "online": {
+          "wikidata": [
+            {
+              "side": "Q45387199",
+              "property": "P40",
+              "confirmed": true
+            },
+            {
+              "side": "Q45364590",
+              "property": "P22/P25",
+              "confirmed": true
+            }
+          ],
+          "cbdb": [
+            {
+              "id": "17779",
+              "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17779&o=json",
+              "anchor": "",
+              "matches": []
+            }
+          ]
+        },
+        "recommendation": "accepted"
+      },
+      {
+        "id": "parent:wd:Q45381147->wd:Q45381148",
+        "kind": "parent",
+        "endpoints": {
+          "parent": "wd:Q45381147",
+          "child": "wd:Q45381148",
+          "parent_name": "王厚",
+          "child_name": "王化"
+        },
+        "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+        "evidence": [
+          {
+            "source_key": "wd:Q45381147",
+            "locator": "P40（子女）",
+            "note": null
+          },
+          {
+            "source_key": "wd:Q45381148",
+            "locator": "P22（父）",
+            "note": null
+          }
+        ],
+        "online": {
+          "wikidata": [
+            {
+              "side": "Q45381147",
+              "property": "P40",
+              "confirmed": true
+            },
+            {
+              "side": "Q45381148",
+              "property": "P22/P25",
+              "confirmed": true
+            }
+          ],
+          "cbdb": []
+        },
+        "recommendation": "accepted"
+      },
+      {
+        "id": "parent:wd:Q45401644->wd:Q45401645",
+        "kind": "parent",
+        "endpoints": {
+          "parent": "wd:Q45401644",
+          "child": "wd:Q45401645",
+          "parent_name": "王迁",
+          "child_name": "王文"
+        },
+        "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+        "evidence": [
+          {
+            "source_key": "wd:Q45401644",
+            "locator": "P40（子女）",
+            "note": null
+          },
+          {
+            "source_key": "wd:Q45401645",
+            "locator": "P22（父）",
+            "note": null
+          }
+        ],
+        "online": {
+          "wikidata": [
+            {
+              "side": "Q45401644",
+              "property": "P40",
+              "confirmed": true
+            },
+            {
+              "side": "Q45401645",
+              "property": "P22/P25",
+              "confirmed": true
+            }
+          ],
+          "cbdb": []
+        },
+        "recommendation": "accepted"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "id": "parent:wd:Q65874579->wd:Q1562454",
+      "kind": "parent",
+      "endpoints": {
+        "parent": "wd:Q65874579",
+        "child": "wd:Q1562454",
+        "parent_name": "王氏",
+        "child_name": "王珪"
+      },
+      "reason": "在线资料仍不足以排除同名误挂。",
+      "evidence": [
+        {
+          "source_key": "wd:Q65874579",
+          "locator": "P40（子女）",
+          "note": null
+        }
+      ],
+      "online": {
+        "wikidata": [
+          {
+            "side": "Q65874579",
+            "property": "P40",
+            "confirmed": true
+          },
+          {
+            "side": "Q1562454",
+            "property": "P22/P25",
+            "confirmed": false
+          }
+        ],
+        "cbdb": []
+      },
+      "recommendation": "manual_review"
+    },
+    {
+      "id": "parent:wd:Q13688035->wd:Q697757",
+      "kind": "parent",
+      "endpoints": {
+        "parent": "wd:Q13688035",
+        "child": "wd:Q697757",
+        "parent_name": "王安国",
+        "child_name": "王念孙"
+      },
+      "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+      "evidence": [
+        {
+          "source_key": "wd:Q697757",
+          "locator": "P22（父）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q13688035",
+          "locator": "P40（子女）",
+          "note": null
+        }
+      ],
+      "online": {
+        "wikidata": [
+          {
+            "side": "Q13688035",
+            "property": "P40",
+            "confirmed": true
+          },
+          {
+            "side": "Q697757",
+            "property": "P22/P25",
+            "confirmed": true
+          }
+        ],
+        "cbdb": []
+      },
+      "recommendation": "accepted"
+    },
+    {
+      "id": "parent:wd:Q697757->wd:Q13688131",
+      "kind": "parent",
+      "endpoints": {
+        "parent": "wd:Q697757",
+        "child": "wd:Q13688131",
+        "parent_name": "王念孙",
+        "child_name": "王氏"
+      },
+      "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+      "evidence": [
+        {
+          "source_key": "wd:Q697757",
+          "locator": "P40（子女）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q13688131",
+          "locator": "P22（父）",
+          "note": null
+        }
+      ],
+      "online": {
+        "wikidata": [
+          {
+            "side": "Q697757",
+            "property": "P40",
+            "confirmed": true
+          },
+          {
+            "side": "Q13688131",
+            "property": "P22/P25",
+            "confirmed": true
+          }
+        ],
+        "cbdb": []
+      },
+      "recommendation": "accepted"
+    },
+    {
+      "id": "parent:wd:Q7967676->wd:Q45630024",
+      "kind": "parent",
+      "endpoints": {
+        "parent": "wd:Q7967676",
+        "child": "wd:Q45630024",
+        "parent_name": "王武俊",
+        "child_name": "王士则"
+      },
+      "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+      "evidence": [
+        {
+          "source_key": "wd:Q7967676",
+          "locator": "P40（子女）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q45630024",
+          "locator": "P22（父）",
+          "note": null
+        },
+        {
+          "source_key": "cbdb:191752",
+          "locator": "亲属关系：子",
+          "note": "CBDB 注明此条来源：唐五代人物傳記與社會網絡資料庫(1.0版)"
+        }
+      ],
+      "online": {
+        "wikidata": [
+          {
+            "side": "Q7967676",
+            "property": "P40",
+            "confirmed": true
+          },
+          {
+            "side": "Q45630024",
+            "property": "P22/P25",
+            "confirmed": true
+          }
+        ],
+        "cbdb": [
+          {
+            "id": "191752",
+            "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191752&o=json",
+            "anchor": "",
+            "matches": []
+          }
+        ]
+      },
+      "recommendation": "accepted"
+    },
+    {
+      "id": "spouse:wd:Q28413506--wd:Q65801416",
+      "kind": "spouse",
+      "endpoints": {
+        "a": "wd:Q28413506",
+        "b": "wd:Q65801416",
+        "a_name": "王𫖮",
+        "b_name": "李氏"
+      },
+      "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+      "evidence": [
+        {
+          "source_key": "wd:Q65801416",
+          "locator": "P26（配偶）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q28413506",
+          "locator": "P26（配偶）",
+          "note": null
+        },
+        {
+          "source_key": "cbdb:33012",
+          "locator": "亲属关系：妻子",
+          "note": "CBDB 注明此条来源：明清婦女著作數據庫"
+        }
+      ],
+      "online": {
+        "wikidata": [
+          {
+            "side": "Q28413506",
+            "property": "P26",
+            "confirmed": true
+          },
+          {
+            "side": "Q65801416",
+            "property": "P26",
+            "confirmed": true
+          }
+        ],
+        "cbdb": [
+          {
+            "id": "33012",
+            "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=33012&o=json",
+            "anchor": "",
+            "matches": []
+          }
+        ]
+      },
+      "recommendation": "accepted"
+    },
+    {
+      "id": "parent:wd:Q45406222->wd:Q45406224",
+      "kind": "parent",
+      "endpoints": {
+        "parent": "wd:Q45406222",
+        "child": "wd:Q45406224",
+        "parent_name": "王明",
+        "child_name": "王承寿"
+      },
+      "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+      "evidence": [
+        {
+          "source_key": "wd:Q45406224",
+          "locator": "P22（父）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q45406222",
+          "locator": "P40（子女）",
+          "note": null
+        }
+      ],
+      "online": {
+        "wikidata": [
+          {
+            "side": "Q45406222",
+            "property": "P40",
+            "confirmed": true
+          },
+          {
+            "side": "Q45406224",
+            "property": "P22/P25",
+            "confirmed": true
+          }
+        ],
+        "cbdb": []
+      },
+      "recommendation": "accepted"
+    },
+    {
+      "id": "parent:wd:Q45409550->wd:Q45409552",
+      "kind": "parent",
+      "endpoints": {
+        "parent": "wd:Q45409550",
+        "child": "wd:Q45409552",
+        "parent_name": "王志",
+        "child_name": "王丕"
+      },
+      "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+      "evidence": [
+        {
+          "source_key": "wd:Q45409552",
+          "locator": "P22（父）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q45409550",
+          "locator": "P40（子女）",
+          "note": null
+        }
+      ],
+      "online": {
+        "wikidata": [
+          {
+            "side": "Q45409550",
+            "property": "P40",
+            "confirmed": true
+          },
+          {
+            "side": "Q45409552",
+            "property": "P22/P25",
+            "confirmed": true
+          }
+        ],
+        "cbdb": []
+      },
+      "recommendation": "accepted"
+    },
+    {
+      "id": "parent:wd:Q45426092->wd:Q45426051",
+      "kind": "parent",
+      "endpoints": {
+        "parent": "wd:Q45426092",
+        "child": "wd:Q45426051",
+        "parent_name": "王忠",
+        "child_name": "王朝用"
+      },
+      "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+      "evidence": [
+        {
+          "source_key": "wd:Q45426051",
+          "locator": "P22（父）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q45426092",
+          "locator": "P40（子女）",
+          "note": null
+        }
+      ],
+      "online": {
+        "wikidata": [
+          {
+            "side": "Q45426092",
+            "property": "P40",
+            "confirmed": true
+          },
+          {
+            "side": "Q45426051",
+            "property": "P22/P25",
+            "confirmed": true
+          }
+        ],
+        "cbdb": []
+      },
+      "recommendation": "accepted"
+    },
+    {
+      "id": "spouse:wd:Q45386119--wd:Q45430725",
+      "kind": "spouse",
+      "endpoints": {
+        "a": "wd:Q45386119",
+        "b": "wd:Q45430725",
+        "a_name": "王寂",
+        "b_name": "赵氏"
+      },
+      "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+      "evidence": [
+        {
+          "source_key": "wd:Q45430725",
+          "locator": "P26（配偶）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q45386119",
+          "locator": "P26（配偶）",
+          "note": null
+        },
+        {
+          "source_key": "cbdb:17425",
+          "locator": "亲属关系：妻子",
+          "note": "CBDB 注明此条来源：宋人傳記資料索引(電子版)"
+        }
+      ],
+      "online": {
+        "wikidata": [
+          {
+            "side": "Q45386119",
+            "property": "P26",
+            "confirmed": true
+          },
+          {
+            "side": "Q45430725",
+            "property": "P26",
+            "confirmed": true
+          }
+        ],
+        "cbdb": [
+          {
+            "id": "17425",
+            "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17425&o=json",
+            "anchor": "",
+            "matches": []
+          }
+        ]
+      },
+      "recommendation": "accepted"
+    },
+    {
+      "id": "spouse:wd:Q45409552--wd:Q45432073",
+      "kind": "spouse",
+      "endpoints": {
+        "a": "wd:Q45409552",
+        "b": "wd:Q45432073",
+        "a_name": "王丕",
+        "b_name": "周氏"
+      },
+      "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+      "evidence": [
+        {
+          "source_key": "wd:Q45432073",
+          "locator": "P26（配偶）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q45409552",
+          "locator": "P26（配偶）",
+          "note": null
+        },
+        {
+          "source_key": "cbdb:26228",
+          "locator": "亲属关系：妻子",
+          "note": "CBDB 注明此条来源：宋人傳記資料索引(電子版)"
+        }
+      ],
+      "online": {
+        "wikidata": [
+          {
+            "side": "Q45409552",
+            "property": "P26",
+            "confirmed": true
+          },
+          {
+            "side": "Q45432073",
+            "property": "P26",
+            "confirmed": true
+          }
+        ],
+        "cbdb": [
+          {
+            "id": "26228",
+            "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26228&o=json",
+            "anchor": "",
+            "matches": []
+          }
+        ]
+      },
+      "recommendation": "accepted"
+    },
+    {
+      "id": "parent:wd:Q15908672->wd:Q23888312",
+      "kind": "parent",
+      "endpoints": {
+        "parent": "wd:Q15908672",
+        "child": "wd:Q23888312",
+        "parent_name": "王正黼",
+        "child_name": "王恭立"
+      },
+      "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+      "evidence": [
+        {
+          "source_key": "wd:Q15908672",
+          "locator": "P40（子女）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q23888312",
+          "locator": "P22（父）",
+          "note": null
+        }
+      ],
+      "online": {
+        "wikidata": [
+          {
+            "side": "Q15908672",
+            "property": "P40",
+            "confirmed": true
+          },
+          {
+            "side": "Q23888312",
+            "property": "P22/P25",
+            "confirmed": true
+          }
+        ],
+        "cbdb": []
+      },
+      "recommendation": "accepted"
+    },
+    {
+      "id": "parent:wd:Q28414907->wd:Q45359463",
+      "kind": "parent",
+      "endpoints": {
+        "parent": "wd:Q28414907",
+        "child": "wd:Q45359463",
+        "parent_name": "王明",
+        "child_name": "王扶"
+      },
+      "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+      "evidence": [
+        {
+          "source_key": "wd:Q45359463",
+          "locator": "P22（父）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q28414907",
+          "locator": "P40（子女）",
+          "note": null
+        }
+      ],
+      "online": {
+        "wikidata": [
+          {
+            "side": "Q28414907",
+            "property": "P40",
+            "confirmed": true
+          },
+          {
+            "side": "Q45359463",
+            "property": "P22/P25",
+            "confirmed": true
+          }
+        ],
+        "cbdb": []
+      },
+      "recommendation": "accepted"
+    },
+    {
+      "id": "parent:wd:Q19826406->wd:Q25918183",
+      "kind": "parent",
+      "endpoints": {
+        "parent": "wd:Q19826406",
+        "child": "wd:Q25918183",
+        "parent_name": "王秉",
+        "child_name": "王裕"
+      },
+      "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+      "evidence": [
+        {
+          "source_key": "wd:Q25918183",
+          "locator": "P22（父）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q19826406",
+          "locator": "P40（子女）",
+          "note": null
+        }
+      ],
+      "online": {
+        "wikidata": [
+          {
+            "side": "Q19826406",
+            "property": "P40",
+            "confirmed": true
+          },
+          {
+            "side": "Q25918183",
+            "property": "P22/P25",
+            "confirmed": true
+          }
+        ],
+        "cbdb": []
+      },
+      "recommendation": "accepted"
+    },
+    {
+      "id": "parent:wd:Q25918183->wd:Q25918179",
+      "kind": "parent",
+      "endpoints": {
+        "parent": "wd:Q25918183",
+        "child": "wd:Q25918179",
+        "parent_name": "王裕",
+        "child_name": "王氏"
+      },
+      "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+      "evidence": [
+        {
+          "source_key": "wd:Q25918183",
+          "locator": "P40（子女）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q25918179",
+          "locator": "P22（父）",
+          "note": null
+        }
+      ],
+      "online": {
+        "wikidata": [
+          {
+            "side": "Q25918183",
+            "property": "P40",
+            "confirmed": true
+          },
+          {
+            "side": "Q25918179",
+            "property": "P22/P25",
+            "confirmed": true
+          }
+        ],
+        "cbdb": []
+      },
+      "recommendation": "accepted"
+    },
+    {
+      "id": "spouse:wd:Q45510314--wd:Q65802952",
+      "kind": "spouse",
+      "endpoints": {
+        "a": "wd:Q45510314",
+        "b": "wd:Q65802952",
+        "a_name": "王将勗",
+        "b_name": "李氏"
+      },
+      "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+      "evidence": [
+        {
+          "source_key": "wd:Q45510314",
+          "locator": "P26（配偶）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q65802952",
+          "locator": "P26（配偶）",
+          "note": null
+        },
+        {
+          "source_key": "cbdb:194048",
+          "locator": "亲属关系：妻子",
+          "note": "CBDB 注明此条来源：唐五代人物傳記與社會網絡資料庫(1.0版)"
+        }
+      ],
+      "online": {
+        "wikidata": [
+          {
+            "side": "Q45510314",
+            "property": "P26",
+            "confirmed": true
+          },
+          {
+            "side": "Q65802952",
+            "property": "P26",
+            "confirmed": true
+          }
+        ],
+        "cbdb": [
+          {
+            "id": "194048",
+            "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=194048&o=json",
+            "anchor": "",
+            "matches": []
+          }
+        ]
+      },
+      "recommendation": "accepted"
+    },
+    {
+      "id": "parent:wd:Q7967386->wd:Q65803664",
+      "kind": "parent",
+      "endpoints": {
+        "parent": "wd:Q7967386",
+        "child": "wd:Q65803664",
+        "parent_name": "王承宗",
+        "child_name": "王氏"
+      },
+      "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+      "evidence": [
+        {
+          "source_key": "wd:Q7967386",
+          "locator": "P40（子女）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q65803664",
+          "locator": "P22（父）",
+          "note": null
+        },
+        {
+          "source_key": "cbdb:169026",
+          "locator": "亲属关系：女兒",
+          "note": "CBDB 注明此条来源：唐代墓誌彙編續集"
+        }
+      ],
+      "online": {
+        "wikidata": [
+          {
+            "side": "Q7967386",
+            "property": "P40",
+            "confirmed": true
+          },
+          {
+            "side": "Q65803664",
+            "property": "P22/P25",
+            "confirmed": true
+          }
+        ],
+        "cbdb": [
+          {
+            "id": "169026",
+            "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=169026&o=json",
+            "anchor": "",
+            "matches": []
+          }
+        ]
+      },
+      "recommendation": "accepted"
+    },
+    {
+      "id": "parent:wd:Q7967386->wd:Q65803894",
+      "kind": "parent",
+      "endpoints": {
+        "parent": "wd:Q7967386",
+        "child": "wd:Q65803894",
+        "parent_name": "王承宗",
+        "child_name": "王氏"
+      },
+      "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+      "evidence": [
+        {
+          "source_key": "wd:Q7967386",
+          "locator": "P40（子女）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q65803894",
+          "locator": "P22（父）",
+          "note": null
+        }
+      ],
+      "online": {
+        "wikidata": [
+          {
+            "side": "Q7967386",
+            "property": "P40",
+            "confirmed": true
+          },
+          {
+            "side": "Q65803894",
+            "property": "P22/P25",
+            "confirmed": true
+          }
+        ],
+        "cbdb": []
+      },
+      "recommendation": "accepted"
+    },
+    {
+      "id": "parent:wd:Q45527504->wd:Q45527566",
+      "kind": "parent",
+      "endpoints": {
+        "parent": "wd:Q45527504",
+        "child": "wd:Q45527566",
+        "parent_name": "王景",
+        "child_name": "王俊卿"
+      },
+      "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+      "evidence": [
+        {
+          "source_key": "wd:Q45527566",
+          "locator": "P22（父）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q45527504",
+          "locator": "P40（子女）",
+          "note": null
+        }
+      ],
+      "online": {
+        "wikidata": [
+          {
+            "side": "Q45527504",
+            "property": "P40",
+            "confirmed": true
+          },
+          {
+            "side": "Q45527566",
+            "property": "P22/P25",
+            "confirmed": true
+          }
+        ],
+        "cbdb": []
+      },
+      "recommendation": "accepted"
+    },
+    {
+      "id": "parent:wd:Q45559885->wd:Q45560451",
+      "kind": "parent",
+      "endpoints": {
+        "parent": "wd:Q45559885",
+        "child": "wd:Q45560451",
+        "parent_name": "王仁",
+        "child_name": "王原道"
+      },
+      "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+      "evidence": [
+        {
+          "source_key": "wd:Q45560451",
+          "locator": "P22（父）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q45559885",
+          "locator": "P40（子女）",
+          "note": null
+        }
+      ],
+      "online": {
+        "wikidata": [
+          {
+            "side": "Q45559885",
+            "property": "P40",
+            "confirmed": true
+          },
+          {
+            "side": "Q45560451",
+            "property": "P22/P25",
+            "confirmed": true
+          }
+        ],
+        "cbdb": []
+      },
+      "recommendation": "accepted"
+    },
+    {
+      "id": "parent:wd:Q45581298->wd:Q45581362",
+      "kind": "parent",
+      "endpoints": {
+        "parent": "wd:Q45581298",
+        "child": "wd:Q45581362",
+        "parent_name": "王缙",
+        "child_name": "王朝用"
+      },
+      "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+      "evidence": [
+        {
+          "source_key": "wd:Q45581362",
+          "locator": "P22（父）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q45581298",
+          "locator": "P40（子女）",
+          "note": null
+        }
+      ],
+      "online": {
+        "wikidata": [
+          {
+            "side": "Q45581298",
+            "property": "P40",
+            "confirmed": true
+          },
+          {
+            "side": "Q45581362",
+            "property": "P22/P25",
+            "confirmed": true
+          }
+        ],
+        "cbdb": []
+      },
+      "recommendation": "accepted"
+    },
+    {
+      "id": "parent:wd:Q45449642->wd:Q45449706",
+      "kind": "parent",
+      "endpoints": {
+        "parent": "wd:Q45449642",
+        "child": "wd:Q45449706",
+        "parent_name": "王睿",
+        "child_name": "王文"
+      },
+      "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+      "evidence": [
+        {
+          "source_key": "wd:Q45449706",
+          "locator": "P22（父）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q45449642",
+          "locator": "P40（子女）",
+          "note": null
+        }
+      ],
+      "online": {
+        "wikidata": [
+          {
+            "side": "Q45449642",
+            "property": "P40",
+            "confirmed": true
+          },
+          {
+            "side": "Q45449706",
+            "property": "P22/P25",
+            "confirmed": true
+          }
+        ],
+        "cbdb": []
+      },
+      "recommendation": "accepted"
+    },
+    {
+      "id": "parent:wd:Q45476347->wd:Q45476476",
+      "kind": "parent",
+      "endpoints": {
+        "parent": "wd:Q45476347",
+        "child": "wd:Q45476476",
+        "parent_name": "王升",
+        "child_name": "王琏"
+      },
+      "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+      "evidence": [
+        {
+          "source_key": "wd:Q45476476",
+          "locator": "P22（父）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q45476347",
+          "locator": "P40（子女）",
+          "note": null
+        }
+      ],
+      "online": {
+        "wikidata": [
+          {
+            "side": "Q45476347",
+            "property": "P40",
+            "confirmed": true
+          },
+          {
+            "side": "Q45476476",
+            "property": "P22/P25",
+            "confirmed": true
+          }
+        ],
+        "cbdb": []
+      },
+      "recommendation": "accepted"
+    },
+    {
+      "id": "parent:wd:Q45484137->wd:Q45484201",
+      "kind": "parent",
+      "endpoints": {
+        "parent": "wd:Q45484137",
+        "child": "wd:Q45484201",
+        "parent_name": "王海",
+        "child_name": "王升"
+      },
+      "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+      "evidence": [
+        {
+          "source_key": "wd:Q45484201",
+          "locator": "P22（父）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q45484137",
+          "locator": "P40（子女）",
+          "note": null
+        }
+      ],
+      "online": {
+        "wikidata": [
+          {
+            "side": "Q45484137",
+            "property": "P40",
+            "confirmed": true
+          },
+          {
+            "side": "Q45484201",
+            "property": "P22/P25",
+            "confirmed": true
+          }
+        ],
+        "cbdb": []
+      },
+      "recommendation": "accepted"
+    },
+    {
+      "id": "parent:wd:Q45614374->wd:Q45614438",
+      "kind": "parent",
+      "endpoints": {
+        "parent": "wd:Q45614374",
+        "child": "wd:Q45614438",
+        "parent_name": "王明",
+        "child_name": "王訚"
+      },
+      "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+      "evidence": [
+        {
+          "source_key": "wd:Q45614438",
+          "locator": "P22（父）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q45614374",
+          "locator": "P40（子女）",
+          "note": null
+        }
+      ],
+      "online": {
+        "wikidata": [
+          {
+            "side": "Q45614374",
+            "property": "P40",
+            "confirmed": true
+          },
+          {
+            "side": "Q45614438",
+            "property": "P22/P25",
+            "confirmed": true
+          }
+        ],
+        "cbdb": []
+      },
+      "recommendation": "accepted"
+    },
+    {
+      "id": "parent:wd:Q45620962->wd:Q45621024",
+      "kind": "parent",
+      "endpoints": {
+        "parent": "wd:Q45620962",
+        "child": "wd:Q45621024",
+        "parent_name": "王子文",
+        "child_name": "王昺"
+      },
+      "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+      "evidence": [
+        {
+          "source_key": "wd:Q45621024",
+          "locator": "P22（父）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q45620962",
+          "locator": "P40（子女）",
+          "note": null
+        }
+      ],
+      "online": {
+        "wikidata": [
+          {
+            "side": "Q45620962",
+            "property": "P40",
+            "confirmed": true
+          },
+          {
+            "side": "Q45621024",
+            "property": "P22/P25",
+            "confirmed": true
+          }
+        ],
+        "cbdb": []
+      },
+      "recommendation": "accepted"
+    },
+    {
+      "id": "parent:wd:Q45685646->wd:Q45685614",
+      "kind": "parent",
+      "endpoints": {
+        "parent": "wd:Q45685646",
+        "child": "wd:Q45685614",
+        "parent_name": "王仁表",
+        "child_name": "王敬同"
+      },
+      "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+      "evidence": [
+        {
+          "source_key": "wd:Q45685614",
+          "locator": "P22（父）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q45685646",
+          "locator": "P40（子女）",
+          "note": null
+        }
+      ],
+      "online": {
+        "wikidata": [
+          {
+            "side": "Q45685646",
+            "property": "P40",
+            "confirmed": true
+          },
+          {
+            "side": "Q45685614",
+            "property": "P22/P25",
+            "confirmed": true
+          }
+        ],
+        "cbdb": []
+      },
+      "recommendation": "accepted"
+    },
+    {
+      "id": "spouse:wd:Q45690317--wd:Q65812398",
+      "kind": "spouse",
+      "endpoints": {
+        "a": "wd:Q45690317",
+        "b": "wd:Q65812398",
+        "a_name": "王培龄",
+        "b_name": "崔氏"
+      },
+      "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+      "evidence": [
+        {
+          "source_key": "wd:Q45690317",
+          "locator": "P26（配偶）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q65812398",
+          "locator": "P26（配偶）",
+          "note": null
+        },
+        {
+          "source_key": "cbdb:202447",
+          "locator": "亲属关系：妻子",
+          "note": "CBDB 注明此条来源：嘉靖八年進士登科錄:一卷"
+        }
+      ],
+      "online": {
+        "wikidata": [
+          {
+            "side": "Q45690317",
+            "property": "P26",
+            "confirmed": true
+          },
+          {
+            "side": "Q65812398",
+            "property": "P26",
+            "confirmed": true
+          }
+        ],
+        "cbdb": [
+          {
+            "id": "202447",
+            "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202447&o=json",
+            "anchor": "",
+            "matches": []
+          }
+        ]
+      },
+      "recommendation": "accepted"
+    },
+    {
+      "id": "spouse:wd:Q45458696--wd:Q65831333",
+      "kind": "spouse",
+      "endpoints": {
+        "a": "wd:Q45458696",
+        "b": "wd:Q65831333",
+        "a_name": "王宗性",
+        "b_name": "孙氏"
+      },
+      "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+      "evidence": [
+        {
+          "source_key": "wd:Q45458696",
+          "locator": "P26（配偶）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q65831333",
+          "locator": "P26（配偶）",
+          "note": null
+        },
+        {
+          "source_key": "cbdb:203595",
+          "locator": "亲属关系：妻子",
+          "note": "CBDB 注明此条来源：嘉靖二十三年登科錄:一卷"
+        }
+      ],
+      "online": {
+        "wikidata": [
+          {
+            "side": "Q45458696",
+            "property": "P26",
+            "confirmed": true
+          },
+          {
+            "side": "Q65831333",
+            "property": "P26",
+            "confirmed": true
+          }
+        ],
+        "cbdb": [
+          {
+            "id": "203595",
+            "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203595&o=json",
+            "anchor": "",
+            "matches": []
+          }
+        ]
+      },
+      "recommendation": "accepted"
+    },
+    {
+      "id": "spouse:wd:Q16260916--wd:Q65837803",
+      "kind": "spouse",
+      "endpoints": {
+        "a": "wd:Q16260916",
+        "b": "wd:Q65837803",
+        "a_name": "王象春",
+        "b_name": "李氏"
+      },
+      "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+      "evidence": [
+        {
+          "source_key": "wd:Q16260916",
+          "locator": "P26（配偶）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q65837803",
+          "locator": "P26（配偶）",
+          "note": null
+        },
+        {
+          "source_key": "cbdb:126731",
+          "locator": "亲属关系：妻子",
+          "note": "CBDB 注明此条来源：萬曆三十八年庚戌科序齒錄:一卷"
+        }
+      ],
+      "online": {
+        "wikidata": [
+          {
+            "side": "Q16260916",
+            "property": "P26",
+            "confirmed": true
+          },
+          {
+            "side": "Q65837803",
+            "property": "P26",
+            "confirmed": true
+          }
+        ],
+        "cbdb": [
+          {
+            "id": "126731",
+            "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126731&o=json",
+            "anchor": "",
+            "matches": []
+          }
+        ]
+      },
+      "recommendation": "accepted"
+    },
+    {
+      "id": "spouse:wd:Q16260916--wd:Q65837810",
+      "kind": "spouse",
+      "endpoints": {
+        "a": "wd:Q16260916",
+        "b": "wd:Q65837810",
+        "a_name": "王象春",
+        "b_name": "许氏"
+      },
+      "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+      "evidence": [
+        {
+          "source_key": "wd:Q16260916",
+          "locator": "P26（配偶）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q65837810",
+          "locator": "P26（配偶）",
+          "note": null
+        },
+        {
+          "source_key": "cbdb:126731",
+          "locator": "亲属关系：第二任妻",
+          "note": "CBDB 注明此条来源：萬曆三十八年庚戌科序齒錄:一卷"
+        }
+      ],
+      "online": {
+        "wikidata": [
+          {
+            "side": "Q16260916",
+            "property": "P26",
+            "confirmed": true
+          },
+          {
+            "side": "Q65837810",
+            "property": "P26",
+            "confirmed": true
+          }
+        ],
+        "cbdb": [
+          {
+            "id": "126731",
+            "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126731&o=json",
+            "anchor": "",
+            "matches": []
+          }
+        ]
+      },
+      "recommendation": "accepted"
+    },
+    {
+      "id": "spouse:wd:Q65903516--wd:Q65904233",
+      "kind": "spouse",
+      "endpoints": {
+        "a": "wd:Q65903516",
+        "b": "wd:Q65904233",
+        "a_name": "王稌",
+        "b_name": "丁氏"
+      },
+      "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+      "evidence": [
+        {
+          "source_key": "wd:Q65904233",
+          "locator": "P26（配偶）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q65903516",
+          "locator": "P26（配偶）",
+          "note": null
+        },
+        {
+          "source_key": "cbdb:437664",
+          "locator": "亲属关系：第一任妻",
+          "note": "CBDB 注明此条来源：未知"
+        }
+      ],
+      "online": {
+        "wikidata": [
+          {
+            "side": "Q65903516",
+            "property": "P26",
+            "confirmed": true
+          },
+          {
+            "side": "Q65904233",
+            "property": "P26",
+            "confirmed": true
+          }
+        ],
+        "cbdb": [
+          {
+            "id": "437664",
+            "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=437664&o=json",
+            "anchor": "",
+            "matches": []
+          }
+        ]
+      },
+      "recommendation": "accepted"
+    },
+    {
+      "id": "spouse:wd:Q65903516--wd:Q65904236",
+      "kind": "spouse",
+      "endpoints": {
+        "a": "wd:Q65903516",
+        "b": "wd:Q65904236",
+        "a_name": "王稌",
+        "b_name": "吴氏"
+      },
+      "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+      "evidence": [
+        {
+          "source_key": "wd:Q65904236",
+          "locator": "P26（配偶）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q65903516",
+          "locator": "P26（配偶）",
+          "note": null
+        },
+        {
+          "source_key": "cbdb:437664",
+          "locator": "亲属关系：第二任妻",
+          "note": "CBDB 注明此条来源：未知"
+        }
+      ],
+      "online": {
+        "wikidata": [
+          {
+            "side": "Q65903516",
+            "property": "P26",
+            "confirmed": true
+          },
+          {
+            "side": "Q65904236",
+            "property": "P26",
+            "confirmed": true
+          }
+        ],
+        "cbdb": [
+          {
+            "id": "437664",
+            "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=437664&o=json",
+            "anchor": "",
+            "matches": []
+          }
+        ]
+      },
+      "recommendation": "accepted"
+    },
+    {
+      "id": "spouse:wd:Q45381153--wd:Q45434003",
+      "kind": "spouse",
+      "endpoints": {
+        "a": "wd:Q45381153",
+        "b": "wd:Q45434003",
+        "a_name": "王冲",
+        "b_name": "华氏"
+      },
+      "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+      "evidence": [
+        {
+          "source_key": "wd:Q45434003",
+          "locator": "P26（配偶）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q45381153",
+          "locator": "P26（配偶）",
+          "note": null
+        },
+        {
+          "source_key": "cbdb:15752",
+          "locator": "亲属关系：妻子",
+          "note": "CBDB 注明此条来源：宋人傳記資料索引(電子版)"
+        }
+      ],
+      "online": {
+        "wikidata": [
+          {
+            "side": "Q45381153",
+            "property": "P26",
+            "confirmed": true
+          },
+          {
+            "side": "Q45434003",
+            "property": "P26",
+            "confirmed": true
+          }
+        ],
+        "cbdb": [
+          {
+            "id": "15752",
+            "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=15752&o=json",
+            "anchor": "",
+            "matches": []
+          }
+        ]
+      },
+      "recommendation": "accepted"
+    },
+    {
+      "id": "parent:wd:Q45491686->wd:Q45491751",
+      "kind": "parent",
+      "endpoints": {
+        "parent": "wd:Q45491686",
+        "child": "wd:Q45491751",
+        "parent_name": "王云",
+        "child_name": "王成"
+      },
+      "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+      "evidence": [
+        {
+          "source_key": "wd:Q45491686",
+          "locator": "P40（子女）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q45491751",
+          "locator": "P22（父）",
+          "note": null
+        }
+      ],
+      "online": {
+        "wikidata": [
+          {
+            "side": "Q45491686",
+            "property": "P40",
+            "confirmed": true
+          },
+          {
+            "side": "Q45491751",
+            "property": "P22/P25",
+            "confirmed": true
+          }
+        ],
+        "cbdb": []
+      },
+      "recommendation": "accepted"
+    },
+    {
+      "id": "parent:wd:Q45362965->wd:Q45364057",
+      "kind": "parent",
+      "endpoints": {
+        "parent": "wd:Q45362965",
+        "child": "wd:Q45364057",
+        "parent_name": "王涣",
+        "child_name": "王氏"
+      },
+      "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+      "evidence": [
+        {
+          "source_key": "wd:Q45364057",
+          "locator": "P22（父）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q45362965",
+          "locator": "P40（子女）",
+          "note": null
+        },
+        {
+          "source_key": "cbdb:3957",
+          "locator": "亲属关系：女兒",
+          "note": "CBDB 注明此条来源：未知"
+        }
+      ],
+      "online": {
+        "wikidata": [
+          {
+            "side": "Q45362965",
+            "property": "P40",
+            "confirmed": true
+          },
+          {
+            "side": "Q45364057",
+            "property": "P22/P25",
+            "confirmed": true
+          }
+        ],
+        "cbdb": [
+          {
+            "id": "3957",
+            "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3957&o=json",
+            "anchor": "",
+            "matches": []
+          }
+        ]
+      },
+      "recommendation": "accepted"
+    },
+    {
+      "id": "parent:wd:Q45387147->wd:Q45364582",
+      "kind": "parent",
+      "endpoints": {
+        "parent": "wd:Q45387147",
+        "child": "wd:Q45364582",
+        "parent_name": "王世厚",
+        "child_name": "王氏"
+      },
+      "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+      "evidence": [
+        {
+          "source_key": "wd:Q45364582",
+          "locator": "P22（父）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q45387147",
+          "locator": "P40（子女）",
+          "note": null
+        },
+        {
+          "source_key": "cbdb:17763",
+          "locator": "亲属关系：女兒",
+          "note": "CBDB 注明此条来源：未知"
+        }
+      ],
+      "online": {
+        "wikidata": [
+          {
+            "side": "Q45387147",
+            "property": "P40",
+            "confirmed": true
+          },
+          {
+            "side": "Q45364582",
+            "property": "P22/P25",
+            "confirmed": true
+          }
+        ],
+        "cbdb": [
+          {
+            "id": "17763",
+            "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17763&o=json",
+            "anchor": "",
+            "matches": []
+          }
+        ]
+      },
+      "recommendation": "accepted"
+    },
+    {
+      "id": "parent:wd:Q45387199->wd:Q45364590",
+      "kind": "parent",
+      "endpoints": {
+        "parent": "wd:Q45387199",
+        "child": "wd:Q45364590",
+        "parent_name": "王世彦",
+        "child_name": "王氏"
+      },
+      "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+      "evidence": [
+        {
+          "source_key": "wd:Q45364590",
+          "locator": "P22（父）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q45387199",
+          "locator": "P40（子女）",
+          "note": null
+        },
+        {
+          "source_key": "cbdb:17779",
+          "locator": "亲属关系：女兒",
+          "note": "CBDB 注明此条来源：未知"
+        }
+      ],
+      "online": {
+        "wikidata": [
+          {
+            "side": "Q45387199",
+            "property": "P40",
+            "confirmed": true
+          },
+          {
+            "side": "Q45364590",
+            "property": "P22/P25",
+            "confirmed": true
+          }
+        ],
+        "cbdb": [
+          {
+            "id": "17779",
+            "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17779&o=json",
+            "anchor": "",
+            "matches": []
+          }
+        ]
+      },
+      "recommendation": "accepted"
+    },
+    {
+      "id": "parent:wd:Q45381147->wd:Q45381148",
+      "kind": "parent",
+      "endpoints": {
+        "parent": "wd:Q45381147",
+        "child": "wd:Q45381148",
+        "parent_name": "王厚",
+        "child_name": "王化"
+      },
+      "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+      "evidence": [
+        {
+          "source_key": "wd:Q45381147",
+          "locator": "P40（子女）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q45381148",
+          "locator": "P22（父）",
+          "note": null
+        }
+      ],
+      "online": {
+        "wikidata": [
+          {
+            "side": "Q45381147",
+            "property": "P40",
+            "confirmed": true
+          },
+          {
+            "side": "Q45381148",
+            "property": "P22/P25",
+            "confirmed": true
+          }
+        ],
+        "cbdb": []
+      },
+      "recommendation": "accepted"
+    },
+    {
+      "id": "parent:wd:Q45401644->wd:Q45401645",
+      "kind": "parent",
+      "endpoints": {
+        "parent": "wd:Q45401644",
+        "child": "wd:Q45401645",
+        "parent_name": "王迁",
+        "child_name": "王文"
+      },
+      "reason": "Wikidata 两端在线条目互相指向同一稳定 QID，可确认本计划使用的是对应同名人物。",
+      "evidence": [
+        {
+          "source_key": "wd:Q45401644",
+          "locator": "P40（子女）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q45401645",
+          "locator": "P22（父）",
+          "note": null
+        }
+      ],
+      "online": {
+        "wikidata": [
+          {
+            "side": "Q45401644",
+            "property": "P40",
+            "confirmed": true
+          },
+          {
+            "side": "Q45401645",
+            "property": "P22/P25",
+            "confirmed": true
+          }
+        ],
+        "cbdb": []
+      },
+      "recommendation": "accepted"
+    },
+    {
+      "id": "parent:wd:Q45409553->wd:Q45411116",
+      "kind": "parent",
+      "endpoints": {
+        "parent": "wd:Q45409553",
+        "child": "wd:Q45411116",
+        "parent_name": "王彦博",
+        "child_name": "王龜齡"
+      },
+      "reason": "在线资料仍不足以排除同名误挂。",
+      "evidence": [
+        {
+          "source_key": "cbdb:26229",
+          "locator": "亲属关系：長子",
+          "note": "CBDB 注明此条来源：未知"
+        }
+      ],
+      "online": {
+        "wikidata": [
+          {
+            "side": "Q45409553",
+            "property": "P40",
+            "confirmed": false
+          },
+          {
+            "side": "Q45411116",
+            "property": "P22/P25",
+            "confirmed": false
+          }
+        ],
+        "cbdb": [
+          {
+            "id": "26229",
+            "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26229&o=json",
+            "anchor": "",
+            "matches": []
+          }
+        ]
+      },
+      "recommendation": "manual_review"
+    },
+    {
+      "id": "adoptive_parent:wd:Q10416428->wd:Q45492841",
+      "kind": "adoptive_parent",
+      "endpoints": {
+        "parent": "wd:Q10416428",
+        "child": "wd:Q45492841",
+        "parent_name": "王继恩",
+        "child_name": "王怀珪"
+      },
+      "reason": "在线资料仍不足以排除同名误挂。",
+      "evidence": [
+        {
+          "source_key": "cbdb:119731",
+          "locator": "亲属关系：嗣父",
+          "note": "CBDB 注明此条来源：續資治通鑑長編"
+        }
+      ],
+      "online": {
+        "wikidata": [
+          {
+            "side": "Q10416428",
+            "property": "P40",
+            "confirmed": true
+          },
+          {
+            "side": "Q45492841",
+            "property": "P22/P25",
+            "confirmed": true
+          }
+        ],
+        "cbdb": [
+          {
+            "id": "119731",
+            "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=119731&o=json",
+            "anchor": "",
+            "matches": []
+          }
+        ]
+      },
+      "recommendation": "manual_review"
+    },
+    {
+      "id": "parent:wd:Q13668762->cbdb:513576",
+      "kind": "parent",
+      "endpoints": {
+        "parent": "wd:Q13668762",
+        "child": "cbdb:513576",
+        "parent_name": "王熙",
+        "child_name": "王克承"
+      },
+      "reason": "在线资料仍不足以排除同名误挂。",
+      "evidence": [
+        {
+          "source_key": "cbdb:56873",
+          "locator": "亲属关系：子",
+          "note": "CBDB 注明此条来源：人名權威資料（中央研究院歷史語言研究所）"
+        }
+      ],
+      "online": {
+        "wikidata": [],
+        "cbdb": [
+          {
+            "id": "56873",
+            "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=56873&o=json",
+            "anchor": "",
+            "matches": []
+          }
+        ]
+      },
+      "recommendation": "manual_review"
+    },
+    {
+      "id": "parent:wd:Q13668762->cbdb:513577",
+      "kind": "parent",
+      "endpoints": {
+        "parent": "wd:Q13668762",
+        "child": "cbdb:513577",
+        "parent_name": "王熙",
+        "child_name": "王克賡"
+      },
+      "reason": "在线资料仍不足以排除同名误挂。",
+      "evidence": [
+        {
+          "source_key": "cbdb:56873",
+          "locator": "亲属关系：子",
+          "note": "CBDB 注明此条来源：人名權威資料（中央研究院歷史語言研究所）"
+        }
+      ],
+      "online": {
+        "wikidata": [],
+        "cbdb": [
+          {
+            "id": "56873",
+            "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=56873&o=json",
+            "anchor": "",
+            "matches": []
+          }
+        ]
+      },
+      "recommendation": "manual_review"
+    },
+    {
+      "id": "parent:wd:Q18235078->cbdb:702263",
+      "kind": "parent",
+      "endpoints": {
+        "parent": "wd:Q18235078",
+        "child": "cbdb:702263",
+        "parent_name": "王士琦",
+        "child_name": "王立程"
+      },
+      "reason": "在线资料仍不足以排除同名误挂。",
+      "evidence": [
+        {
+          "source_key": "cbdb:35067",
+          "locator": "亲属关系：次子",
+          "note": "CBDB 注明此条来源：臨海縣志"
+        }
+      ],
+      "online": {
+        "wikidata": [],
+        "cbdb": [
+          {
+            "id": "35067",
+            "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35067&o=json",
+            "anchor": "",
+            "matches": []
+          }
+        ]
+      },
+      "recommendation": "manual_review"
+    },
+    {
+      "id": "parent:wd:Q45652582->cbdb:526716",
+      "kind": "parent",
+      "endpoints": {
+        "parent": "wd:Q45652582",
+        "child": "cbdb:526716",
+        "parent_name": "王必达",
+        "child_name": "王維豫"
+      },
+      "reason": "在线资料仍不足以排除同名误挂。",
+      "evidence": [
+        {
+          "source_key": "cbdb:69135",
+          "locator": "亲属关系：子",
+          "note": "CBDB 注明此条来源：人名權威資料（中央研究院歷史語言研究所）"
+        }
+      ],
+      "online": {
+        "wikidata": [],
+        "cbdb": [
+          {
+            "id": "69135",
+            "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69135&o=json",
+            "anchor": "",
+            "matches": []
+          }
+        ]
+      },
+      "recommendation": "manual_review"
+    },
+    {
+      "id": "parent:wd:Q45652582->cbdb:526717",
+      "kind": "parent",
+      "endpoints": {
+        "parent": "wd:Q45652582",
+        "child": "cbdb:526717",
+        "parent_name": "王必达",
+        "child_name": "王維禧"
+      },
+      "reason": "在线资料仍不足以排除同名误挂。",
+      "evidence": [
+        {
+          "source_key": "cbdb:69135",
+          "locator": "亲属关系：子",
+          "note": "CBDB 注明此条来源：人名權威資料（中央研究院歷史語言研究所）"
+        }
+      ],
+      "online": {
+        "wikidata": [],
+        "cbdb": [
+          {
+            "id": "69135",
+            "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69135&o=json",
+            "anchor": "",
+            "matches": []
+          }
+        ]
+      },
+      "recommendation": "manual_review"
+    },
+    {
+      "id": "parent:wd:Q45652582->cbdb:526718",
+      "kind": "parent",
+      "endpoints": {
+        "parent": "wd:Q45652582",
+        "child": "cbdb:526718",
+        "parent_name": "王必达",
+        "child_name": "王維瀚"
+      },
+      "reason": "在线资料仍不足以排除同名误挂。",
+      "evidence": [
+        {
+          "source_key": "cbdb:69135",
+          "locator": "亲属关系：子",
+          "note": "CBDB 注明此条来源：人名權威資料（中央研究院歷史語言研究所）"
+        }
+      ],
+      "online": {
+        "wikidata": [],
+        "cbdb": [
+          {
+            "id": "69135",
+            "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69135&o=json",
+            "anchor": "",
+            "matches": []
+          }
+        ]
+      },
+      "recommendation": "manual_review"
+    },
+    {
+      "id": "parent:wd:Q45652582->cbdb:526719",
+      "kind": "parent",
+      "endpoints": {
+        "parent": "wd:Q45652582",
+        "child": "cbdb:526719",
+        "parent_name": "王必达",
+        "child_name": "王鵬海"
+      },
+      "reason": "在线资料仍不足以排除同名误挂。",
+      "evidence": [
+        {
+          "source_key": "cbdb:69135",
+          "locator": "亲属关系：子",
+          "note": "CBDB 注明此条来源：人名權威資料（中央研究院歷史語言研究所）"
+        }
+      ],
+      "online": {
+        "wikidata": [],
+        "cbdb": [
+          {
+            "id": "69135",
+            "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69135&o=json",
+            "anchor": "",
+            "matches": []
+          }
+        ]
+      },
+      "recommendation": "manual_review"
+    },
+    {
+      "id": "spouse:cbdb:577087--wd:Q45401756",
+      "kind": "spouse",
+      "endpoints": {
+        "a": "wd:Q45401756",
+        "b": "cbdb:577087",
+        "a_name": "王益恭",
+        "b_name": "李氏"
+      },
+      "reason": "在线资料仍不足以排除同名误挂。",
+      "evidence": [
+        {
+          "source_key": "cbdb:22054",
+          "locator": "亲属关系：妻子",
+          "note": "CBDB 注明此条来源：散見宋金元墓誌地券輯錄六編"
+        }
+      ],
+      "online": {
+        "wikidata": [],
+        "cbdb": [
+          {
+            "id": "22054",
+            "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22054&o=json",
+            "anchor": "",
+            "matches": []
+          }
+        ]
+      },
+      "recommendation": "manual_review"
+    },
+    {
+      "id": "parent:wd:Q16077592->cbdb:526680",
+      "kind": "parent",
+      "endpoints": {
+        "parent": "wd:Q16077592",
+        "child": "cbdb:526680",
+        "parent_name": "王士祜",
+        "child_name": "王啟㴶"
+      },
+      "reason": "在线资料仍不足以排除同名误挂。",
+      "evidence": [
+        {
+          "source_key": "cbdb:35062",
+          "locator": "亲属关系：子",
+          "note": "CBDB 注明此条来源：人名權威資料（中央研究院歷史語言研究所）"
+        }
+      ],
+      "online": {
+        "wikidata": [],
+        "cbdb": [
+          {
+            "id": "35062",
+            "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35062&o=json",
+            "anchor": "",
+            "matches": []
+          }
+        ]
+      },
+      "recommendation": "manual_review"
+    },
+    {
+      "id": "parent:wd:Q16077592->cbdb:526681",
+      "kind": "parent",
+      "endpoints": {
+        "parent": "wd:Q16077592",
+        "child": "cbdb:526681",
+        "parent_name": "王士祜",
+        "child_name": "王啟涫"
+      },
+      "reason": "在线资料仍不足以排除同名误挂。",
+      "evidence": [
+        {
+          "source_key": "cbdb:35062",
+          "locator": "亲属关系：子",
+          "note": "CBDB 注明此条来源：人名權威資料（中央研究院歷史語言研究所）"
+        }
+      ],
+      "online": {
+        "wikidata": [],
+        "cbdb": [
+          {
+            "id": "35062",
+            "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35062&o=json",
+            "anchor": "",
+            "matches": []
+          }
+        ]
+      },
+      "recommendation": "manual_review"
+    },
+    {
+      "id": "parent:wd:Q45427492->wd:Q45430826",
+      "kind": "parent",
+      "endpoints": {
+        "parent": "wd:Q45427492",
+        "child": "wd:Q45430826",
+        "parent_name": "王松龄",
+        "child_name": "王聿"
+      },
+      "reason": "在线资料仍不足以排除同名误挂。",
+      "evidence": [
+        {
+          "source_key": "cbdb:36706",
+          "locator": "亲属关系：子",
+          "note": "CBDB 注明此条来源：宋人傳記資料索引(電子版)"
+        }
+      ],
+      "online": {
+        "wikidata": [
+          {
+            "side": "Q45427492",
+            "property": "P40",
+            "confirmed": false
+          },
+          {
+            "side": "Q45430826",
+            "property": "P22/P25",
+            "confirmed": false
+          }
+        ],
+        "cbdb": [
+          {
+            "id": "36706",
+            "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=36706&o=json",
+            "anchor": "",
+            "matches": []
+          }
+        ]
+      },
+      "recommendation": "manual_review"
+    },
+    {
+      "id": "parent:wd:Q45427492->wd:Q45431137",
+      "kind": "parent",
+      "endpoints": {
+        "parent": "wd:Q45427492",
+        "child": "wd:Q45431137",
+        "parent_name": "王松龄",
+        "child_name": "王中"
+      },
+      "reason": "在线资料仍不足以排除同名误挂。",
+      "evidence": [
+        {
+          "source_key": "cbdb:36706",
+          "locator": "亲属关系：子",
+          "note": "CBDB 注明此条来源：宋人傳記資料索引(電子版)"
+        }
+      ],
+      "online": {
+        "wikidata": [
+          {
+            "side": "Q45427492",
+            "property": "P40",
+            "confirmed": false
+          },
+          {
+            "side": "Q45431137",
+            "property": "P22/P25",
+            "confirmed": false
+          }
+        ],
+        "cbdb": [
+          {
+            "id": "36706",
+            "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=36706&o=json",
+            "anchor": "",
+            "matches": []
+          }
+        ]
+      },
+      "recommendation": "manual_review"
+    },
+    {
+      "id": "parent:wd:Q45577422->cbdb:550852",
+      "kind": "parent",
+      "endpoints": {
+        "parent": "wd:Q45577422",
+        "child": "cbdb:550852",
+        "parent_name": "王汝鲁",
+        "child_name": "王應修"
+      },
+      "reason": "在线资料仍不足以排除同名误挂。",
+      "evidence": [
+        {
+          "source_key": "cbdb:126502",
+          "locator": "亲属关系：子",
+          "note": "CBDB 注明此条来源：南陽府志"
+        }
+      ],
+      "online": {
+        "wikidata": [],
+        "cbdb": [
+          {
+            "id": "126502",
+            "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126502&o=json",
+            "anchor": "",
+            "matches": []
+          }
+        ]
+      },
+      "recommendation": "manual_review"
+    },
+    {
+      "id": "parent:wd:Q65903516->wd:Q15897288",
+      "kind": "parent",
+      "endpoints": {
+        "parent": "wd:Q65903516",
+        "child": "wd:Q15897288",
+        "parent_name": "王稌",
+        "child_name": "王汶"
+      },
+      "reason": "在线资料仍不足以排除同名误挂。",
+      "evidence": [
+        {
+          "source_key": "cbdb:437664",
+          "locator": "亲属关系：子",
+          "note": "CBDB 注明此条来源：未知"
+        }
+      ],
+      "online": {
+        "wikidata": [
+          {
+            "side": "Q65903516",
+            "property": "P40",
+            "confirmed": false
+          },
+          {
+            "side": "Q15897288",
+            "property": "P22/P25",
+            "confirmed": false
+          }
+        ],
+        "cbdb": [
+          {
+            "id": "437664",
+            "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=437664&o=json",
+            "anchor": "",
+            "matches": []
+          }
+        ]
+      },
+      "recommendation": "manual_review"
+    }
+  ]
+}

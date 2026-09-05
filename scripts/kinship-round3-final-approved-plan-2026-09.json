@@ -1,8 +1,7 @@
 {
   "generated_from": [
     "wikidata",
-    "cbdb",
-    "luna_review"
+    "cbdb"
   ],
   "hops": 1,
   "expanded_keys": [
@@ -325,7 +324,7 @@
     "cbdb:526719"
   ],
   "max_new": 500,
-  "capped_relationships": [],
+  "capped_relationships": 0,
   "sources": [
     {
       "key": "wd:Q45425959",
@@ -4746,6 +4745,20 @@
       }
     },
     {
+      "key": "wd:Q13688035",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王安国（Q13688035）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q13688035",
+      "external_identifier": "Q13688035",
+      "metadata_json": {
+        "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AE%89%E5%9C%8B_(%E9%9B%8D%E6%AD%A3%E9%80%B2%E5%A3%AB)"
+      }
+    },
+    {
       "key": "wd:Q16077290",
       "kind": "wikidata",
       "source_type": "api_record",
@@ -4758,6 +4771,18 @@
       "metadata_json": {
         "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%BB%A7%E4%B8%A5"
       }
+    },
+    {
+      "key": "wd:Q13688131",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王氏（Q13688131）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q13688131",
+      "external_identifier": "Q13688131",
+      "metadata_json": null
     },
     {
       "key": "wd:Q45378723",
@@ -4806,6 +4831,20 @@
       "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=5347&o=json",
       "external_identifier": "CBDB:5347",
       "metadata_json": null
+    },
+    {
+      "key": "wd:Q45630024",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王士则（Q45630024）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q45630024",
+      "external_identifier": "Q45630024",
+      "metadata_json": {
+        "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A3%AB%E5%89%87"
+      }
     },
     {
       "key": "wd:Q45641702",
@@ -4867,6 +4906,18 @@
       "license_code": "CC0-1.0",
       "canonical_url": "https://www.wikidata.org/wiki/Q45677679",
       "external_identifier": "Q45677679",
+      "metadata_json": null
+    },
+    {
+      "key": "wd:Q65801416",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：李氏（Q65801416）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q65801416",
+      "external_identifier": "Q65801416",
       "metadata_json": null
     },
     {
@@ -4978,6 +5029,30 @@
       "metadata_json": null
     },
     {
+      "key": "wd:Q45406222",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王明（Q45406222）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q45406222",
+      "external_identifier": "Q45406222",
+      "metadata_json": null
+    },
+    {
+      "key": "wd:Q45409550",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王志（Q45409550）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q45409550",
+      "external_identifier": "Q45409550",
+      "metadata_json": null
+    },
+    {
       "key": "wd:Q45422610",
       "kind": "wikidata",
       "source_type": "api_record",
@@ -5002,6 +5077,18 @@
       "metadata_json": null
     },
     {
+      "key": "wd:Q45426092",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王忠（Q45426092）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q45426092",
+      "external_identifier": "Q45426092",
+      "metadata_json": null
+    },
+    {
       "key": "wd:Q45430635",
       "kind": "wikidata",
       "source_type": "api_record",
@@ -5014,6 +5101,18 @@
       "metadata_json": null
     },
     {
+      "key": "wd:Q45430725",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：赵氏（Q45430725）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q45430725",
+      "external_identifier": "Q45430725",
+      "metadata_json": null
+    },
+    {
       "key": "wd:Q45431034",
       "kind": "wikidata",
       "source_type": "api_record",
@@ -5023,6 +5122,18 @@
       "license_code": "CC0-1.0",
       "canonical_url": "https://www.wikidata.org/wiki/Q45431034",
       "external_identifier": "Q45431034",
+      "metadata_json": null
+    },
+    {
+      "key": "wd:Q45432073",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：周氏（Q45432073）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q45432073",
+      "external_identifier": "Q45432073",
       "metadata_json": null
     },
     {
@@ -5063,6 +5174,34 @@
       "external_identifier": "Q20688418",
       "metadata_json": {
         "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%81%AD%E6%96%8C"
+      }
+    },
+    {
+      "key": "wd:Q23888312",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王恭立（Q23888312）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q23888312",
+      "external_identifier": "Q23888312",
+      "metadata_json": {
+        "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%81%AD%E7%AB%8B"
+      }
+    },
+    {
+      "key": "wd:Q28414907",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王明（Q28414907）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q28414907",
+      "external_identifier": "Q28414907",
+      "metadata_json": {
+        "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%98%8E_(%E5%AE%8B%E6%9C%9D)"
       }
     },
     {
@@ -5134,6 +5273,20 @@
       }
     },
     {
+      "key": "wd:Q19826406",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王秉（Q19826406）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q19826406",
+      "external_identifier": "Q19826406",
+      "metadata_json": {
+        "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%A7%89_(%E5%A4%AA%E5%8E%9F%E9%83%A1%E5%85%AC)"
+      }
+    },
+    {
       "key": "wd:Q10917554",
       "kind": "wikidata",
       "source_type": "api_record",
@@ -5174,6 +5327,18 @@
       "metadata_json": {
         "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E5%8F%B2%E8%87%B4%E8%95%83"
       }
+    },
+    {
+      "key": "wd:Q25918179",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王氏（Q25918179）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q25918179",
+      "external_identifier": "Q25918179",
+      "metadata_json": null
     },
     {
       "key": "wd:Q26209933",
@@ -5224,6 +5389,42 @@
       "metadata_json": null
     },
     {
+      "key": "wd:Q65802952",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：李氏（Q65802952）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q65802952",
+      "external_identifier": "Q65802952",
+      "metadata_json": null
+    },
+    {
+      "key": "cbdb:194048",
+      "kind": "cbdb",
+      "source_type": "api_record",
+      "creator": "China Biographical Database (CBDB)",
+      "publisher": "Harvard University / Academia Sinica / Peking University",
+      "license_code": "CC-BY-NC-SA-4.0",
+      "title": "CBDB 中国历代人物传记资料库：王將勗（194048）",
+      "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=194048&o=json",
+      "external_identifier": "CBDB:194048",
+      "metadata_json": null
+    },
+    {
+      "key": "wd:Q65803664",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王氏（Q65803664）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q65803664",
+      "external_identifier": "Q65803664",
+      "metadata_json": null
+    },
+    {
       "key": "cbdb:169026",
       "kind": "cbdb",
       "source_type": "api_record",
@@ -5233,6 +5434,18 @@
       "title": "CBDB 中国历代人物传记资料库：王承宗（169026）",
       "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=169026&o=json",
       "external_identifier": "CBDB:169026",
+      "metadata_json": null
+    },
+    {
+      "key": "wd:Q65803894",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王氏（Q65803894）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q65803894",
+      "external_identifier": "Q65803894",
       "metadata_json": null
     },
     {
@@ -5293,6 +5506,18 @@
       "license_code": "CC0-1.0",
       "canonical_url": "https://www.wikidata.org/wiki/Q45501594",
       "external_identifier": "Q45501594",
+      "metadata_json": null
+    },
+    {
+      "key": "wd:Q45527504",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王景（Q45527504）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q45527504",
+      "external_identifier": "Q45527504",
       "metadata_json": null
     },
     {
@@ -5458,6 +5683,18 @@
       "metadata_json": null
     },
     {
+      "key": "wd:Q45559885",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王仁（Q45559885）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q45559885",
+      "external_identifier": "Q45559885",
+      "metadata_json": null
+    },
+    {
       "key": "wd:Q45580815",
       "kind": "wikidata",
       "source_type": "api_record",
@@ -5467,6 +5704,18 @@
       "license_code": "CC0-1.0",
       "canonical_url": "https://www.wikidata.org/wiki/Q45580815",
       "external_identifier": "Q45580815",
+      "metadata_json": null
+    },
+    {
+      "key": "wd:Q45581298",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王缙（Q45581298）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q45581298",
+      "external_identifier": "Q45581298",
       "metadata_json": null
     },
     {
@@ -5530,6 +5779,18 @@
       "metadata_json": null
     },
     {
+      "key": "wd:Q45449642",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王睿（Q45449642）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q45449642",
+      "external_identifier": "Q45449642",
+      "metadata_json": null
+    },
+    {
       "key": "wd:Q45461070",
       "kind": "wikidata",
       "source_type": "api_record",
@@ -5554,6 +5815,30 @@
       "metadata_json": null
     },
     {
+      "key": "wd:Q45476347",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王升（Q45476347）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q45476347",
+      "external_identifier": "Q45476347",
+      "metadata_json": null
+    },
+    {
+      "key": "wd:Q45484137",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王海（Q45484137）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q45484137",
+      "external_identifier": "Q45484137",
+      "metadata_json": null
+    },
+    {
       "key": "wd:Q45513436",
       "kind": "wikidata",
       "source_type": "api_record",
@@ -5563,6 +5848,30 @@
       "license_code": "CC0-1.0",
       "canonical_url": "https://www.wikidata.org/wiki/Q45513436",
       "external_identifier": "Q45513436",
+      "metadata_json": null
+    },
+    {
+      "key": "wd:Q45614374",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王明（Q45614374）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q45614374",
+      "external_identifier": "Q45614374",
+      "metadata_json": null
+    },
+    {
+      "key": "wd:Q45620962",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王子文（Q45620962）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q45620962",
+      "external_identifier": "Q45620962",
       "metadata_json": null
     },
     {
@@ -5638,6 +5947,18 @@
       "metadata_json": null
     },
     {
+      "key": "wd:Q45685646",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王仁表（Q45685646）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q45685646",
+      "external_identifier": "Q45685646",
+      "metadata_json": null
+    },
+    {
       "key": "wd:Q61306665",
       "kind": "wikidata",
       "source_type": "api_record",
@@ -5647,6 +5968,30 @@
       "license_code": "CC0-1.0",
       "canonical_url": "https://www.wikidata.org/wiki/Q61306665",
       "external_identifier": "Q61306665",
+      "metadata_json": null
+    },
+    {
+      "key": "wd:Q65812398",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：崔氏（Q65812398）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q65812398",
+      "external_identifier": "Q65812398",
+      "metadata_json": null
+    },
+    {
+      "key": "cbdb:202447",
+      "kind": "cbdb",
+      "source_type": "api_record",
+      "creator": "China Biographical Database (CBDB)",
+      "publisher": "Harvard University / Academia Sinica / Peking University",
+      "license_code": "CC-BY-NC-SA-4.0",
+      "title": "CBDB 中国历代人物传记资料库：王培齡（202447）",
+      "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202447&o=json",
+      "external_identifier": "CBDB:202447",
       "metadata_json": null
     },
     {
@@ -5683,6 +6028,54 @@
       "license_code": "CC0-1.0",
       "canonical_url": "https://www.wikidata.org/wiki/Q65830582",
       "external_identifier": "Q65830582",
+      "metadata_json": null
+    },
+    {
+      "key": "wd:Q65831333",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：孙氏（Q65831333）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q65831333",
+      "external_identifier": "Q65831333",
+      "metadata_json": null
+    },
+    {
+      "key": "cbdb:203595",
+      "kind": "cbdb",
+      "source_type": "api_record",
+      "creator": "China Biographical Database (CBDB)",
+      "publisher": "Harvard University / Academia Sinica / Peking University",
+      "license_code": "CC-BY-NC-SA-4.0",
+      "title": "CBDB 中国历代人物传记资料库：王宗性（203595）",
+      "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203595&o=json",
+      "external_identifier": "CBDB:203595",
+      "metadata_json": null
+    },
+    {
+      "key": "wd:Q65837803",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：李氏（Q65837803）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q65837803",
+      "external_identifier": "Q65837803",
+      "metadata_json": null
+    },
+    {
+      "key": "wd:Q65837810",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：许氏（Q65837810）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q65837810",
+      "external_identifier": "Q65837810",
       "metadata_json": null
     },
     {
@@ -5886,6 +6279,30 @@
       "metadata_json": null
     },
     {
+      "key": "wd:Q65904233",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：丁氏（Q65904233）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q65904233",
+      "external_identifier": "Q65904233",
+      "metadata_json": null
+    },
+    {
+      "key": "wd:Q65904236",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：吴氏（Q65904236）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q65904236",
+      "external_identifier": "Q65904236",
+      "metadata_json": null
+    },
+    {
       "key": "wd:Q45401685",
       "kind": "wikidata",
       "source_type": "api_record",
@@ -5958,6 +6375,30 @@
       "metadata_json": null
     },
     {
+      "key": "wd:Q45434003",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：华氏（Q45434003）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q45434003",
+      "external_identifier": "Q45434003",
+      "metadata_json": null
+    },
+    {
+      "key": "cbdb:15752",
+      "kind": "cbdb",
+      "source_type": "api_record",
+      "creator": "China Biographical Database (CBDB)",
+      "publisher": "Harvard University / Academia Sinica / Peking University",
+      "license_code": "CC-BY-NC-SA-4.0",
+      "title": "CBDB 中国历代人物传记资料库：王沖（15752）",
+      "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=15752&o=json",
+      "external_identifier": "CBDB:15752",
+      "metadata_json": null
+    },
+    {
       "key": "wd:Q45442278",
       "kind": "wikidata",
       "source_type": "api_record",
@@ -5967,6 +6408,18 @@
       "license_code": "CC0-1.0",
       "canonical_url": "https://www.wikidata.org/wiki/Q45442278",
       "external_identifier": "Q45442278",
+      "metadata_json": null
+    },
+    {
+      "key": "wd:Q45491686",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王云（Q45491686）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q45491686",
+      "external_identifier": "Q45491686",
       "metadata_json": null
     },
     {
@@ -6018,6 +6471,18 @@
       "metadata_json": null
     },
     {
+      "key": "wd:Q45364057",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王氏（Q45364057）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q45364057",
+      "external_identifier": "Q45364057",
+      "metadata_json": null
+    },
+    {
       "key": "wd:Q45364574",
       "kind": "wikidata",
       "source_type": "api_record",
@@ -6039,6 +6504,54 @@
       "title": "CBDB 中国历代人物传记资料库：王世彥（17779）",
       "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17779&o=json",
       "external_identifier": "CBDB:17779",
+      "metadata_json": null
+    },
+    {
+      "key": "wd:Q45364582",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王氏（Q45364582）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q45364582",
+      "external_identifier": "Q45364582",
+      "metadata_json": null
+    },
+    {
+      "key": "cbdb:17763",
+      "kind": "cbdb",
+      "source_type": "api_record",
+      "creator": "China Biographical Database (CBDB)",
+      "publisher": "Harvard University / Academia Sinica / Peking University",
+      "license_code": "CC-BY-NC-SA-4.0",
+      "title": "CBDB 中国历代人物传记资料库：王世厚（17763）",
+      "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17763&o=json",
+      "external_identifier": "CBDB:17763",
+      "metadata_json": null
+    },
+    {
+      "key": "wd:Q45364590",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王氏（Q45364590）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q45364590",
+      "external_identifier": "Q45364590",
+      "metadata_json": null
+    },
+    {
+      "key": "wd:Q45381147",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王厚（Q45381147）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q45381147",
+      "external_identifier": "Q45381147",
       "metadata_json": null
     },
     {
@@ -6078,6 +6591,30 @@
       "metadata_json": null
     },
     {
+      "key": "wd:Q45401644",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王迁（Q45401644）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q45401644",
+      "external_identifier": "Q45401644",
+      "metadata_json": null
+    },
+    {
+      "key": "cbdb:56873",
+      "kind": "cbdb",
+      "source_type": "api_record",
+      "creator": "China Biographical Database (CBDB)",
+      "publisher": "Harvard University / Academia Sinica / Peking University",
+      "license_code": "CC-BY-NC-SA-4.0",
+      "title": "CBDB 中国历代人物传记资料库：王熙（56873）",
+      "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=56873&o=json",
+      "external_identifier": "CBDB:56873",
+      "metadata_json": null
+    },
+    {
       "key": "cbdb:19873",
       "kind": "cbdb",
       "source_type": "api_record",
@@ -6087,6 +6624,42 @@
       "title": "CBDB 中国历代人物传记资料库：王珩（19873）",
       "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19873&o=json",
       "external_identifier": "CBDB:19873",
+      "metadata_json": null
+    },
+    {
+      "key": "cbdb:69135",
+      "kind": "cbdb",
+      "source_type": "api_record",
+      "creator": "China Biographical Database (CBDB)",
+      "publisher": "Harvard University / Academia Sinica / Peking University",
+      "license_code": "CC-BY-NC-SA-4.0",
+      "title": "CBDB 中国历代人物传记资料库：王必達（69135）",
+      "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69135&o=json",
+      "external_identifier": "CBDB:69135",
+      "metadata_json": null
+    },
+    {
+      "key": "cbdb:35062",
+      "kind": "cbdb",
+      "source_type": "api_record",
+      "creator": "China Biographical Database (CBDB)",
+      "publisher": "Harvard University / Academia Sinica / Peking University",
+      "license_code": "CC-BY-NC-SA-4.0",
+      "title": "CBDB 中国历代人物传记资料库：王士祜（35062）",
+      "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35062&o=json",
+      "external_identifier": "CBDB:35062",
+      "metadata_json": null
+    },
+    {
+      "key": "cbdb:36706",
+      "kind": "cbdb",
+      "source_type": "api_record",
+      "creator": "China Biographical Database (CBDB)",
+      "publisher": "Harvard University / Academia Sinica / Peking University",
+      "license_code": "CC-BY-NC-SA-4.0",
+      "title": "CBDB 中国历代人物传记资料库：王松齡（36706）",
+      "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=36706&o=json",
+      "external_identifier": "CBDB:36706",
       "metadata_json": null
     },
     {
@@ -6102,6 +6675,18 @@
       "metadata_json": null
     },
     {
+      "key": "cbdb:38569",
+      "kind": "cbdb",
+      "source_type": "api_record",
+      "creator": "China Biographical Database (CBDB)",
+      "publisher": "Harvard University / Academia Sinica / Peking University",
+      "license_code": "CC-BY-NC-SA-4.0",
+      "title": "CBDB 中国历代人物传记资料库：趙氏（38569）",
+      "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38569&o=json",
+      "external_identifier": "CBDB:38569",
+      "metadata_json": null
+    },
+    {
       "key": "cbdb:38574",
       "kind": "cbdb",
       "source_type": "api_record",
@@ -6111,6 +6696,18 @@
       "title": "CBDB 中国历代人物传记资料库：丘氏（38574）",
       "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38574&o=json",
       "external_identifier": "CBDB:38574",
+      "metadata_json": null
+    },
+    {
+      "key": "cbdb:135652",
+      "kind": "cbdb",
+      "source_type": "api_record",
+      "creator": "China Biographical Database (CBDB)",
+      "publisher": "Harvard University / Academia Sinica / Peking University",
+      "license_code": "CC-BY-NC-SA-4.0",
+      "title": "CBDB 中国历代人物传记资料库：李氏（135652）",
+      "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=135652&o=json",
+      "external_identifier": "CBDB:135652",
       "metadata_json": null
     },
     {
@@ -6162,6 +6759,18 @@
       "metadata_json": null
     },
     {
+      "key": "cbdb:34191",
+      "kind": "cbdb",
+      "source_type": "api_record",
+      "creator": "China Biographical Database (CBDB)",
+      "publisher": "Harvard University / Academia Sinica / Peking University",
+      "license_code": "CC-BY-NC-SA-4.0",
+      "title": "CBDB 中国历代人物传记资料库：王安國（34191）",
+      "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34191&o=json",
+      "external_identifier": "CBDB:34191",
+      "metadata_json": null
+    },
+    {
       "key": "cbdb:13794",
       "kind": "cbdb",
       "source_type": "api_record",
@@ -6195,6 +6804,18 @@
       "title": "CBDB 中国历代人物传记资料库：汪浩（21055）",
       "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=21055&o=json",
       "external_identifier": "CBDB:21055",
+      "metadata_json": null
+    },
+    {
+      "key": "cbdb:196170",
+      "kind": "cbdb",
+      "source_type": "api_record",
+      "creator": "China Biographical Database (CBDB)",
+      "publisher": "Harvard University / Academia Sinica / Peking University",
+      "license_code": "CC-BY-NC-SA-4.0",
+      "title": "CBDB 中国历代人物传记资料库：王士則（196170）",
+      "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=196170&o=json",
+      "external_identifier": "CBDB:196170",
       "metadata_json": null
     },
     {
@@ -6318,6 +6939,30 @@
       "metadata_json": null
     },
     {
+      "key": "cbdb:24462",
+      "kind": "cbdb",
+      "source_type": "api_record",
+      "creator": "China Biographical Database (CBDB)",
+      "publisher": "Harvard University / Academia Sinica / Peking University",
+      "license_code": "CC-BY-NC-SA-4.0",
+      "title": "CBDB 中国历代人物传记资料库：王明（24462）",
+      "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=24462&o=json",
+      "external_identifier": "CBDB:24462",
+      "metadata_json": null
+    },
+    {
+      "key": "cbdb:26227",
+      "kind": "cbdb",
+      "source_type": "api_record",
+      "creator": "China Biographical Database (CBDB)",
+      "publisher": "Harvard University / Academia Sinica / Peking University",
+      "license_code": "CC-BY-NC-SA-4.0",
+      "title": "CBDB 中国历代人物传记资料库：王志（26227）",
+      "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26227&o=json",
+      "external_identifier": "CBDB:26227",
+      "metadata_json": null
+    },
+    {
       "key": "cbdb:33016",
       "kind": "cbdb",
       "source_type": "api_record",
@@ -6327,6 +6972,18 @@
       "title": "CBDB 中国历代人物传记资料库：王茂時（33016）",
       "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=33016&o=json",
       "external_identifier": "CBDB:33016",
+      "metadata_json": null
+    },
+    {
+      "key": "cbdb:35273",
+      "kind": "cbdb",
+      "source_type": "api_record",
+      "creator": "China Biographical Database (CBDB)",
+      "publisher": "Harvard University / Academia Sinica / Peking University",
+      "license_code": "CC-BY-NC-SA-4.0",
+      "title": "CBDB 中国历代人物传记资料库：王忠政（35273）",
+      "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35273&o=json",
+      "external_identifier": "CBDB:35273",
       "metadata_json": null
     },
     {
@@ -6342,6 +6999,18 @@
       "metadata_json": null
     },
     {
+      "key": "cbdb:37792",
+      "kind": "cbdb",
+      "source_type": "api_record",
+      "creator": "China Biographical Database (CBDB)",
+      "publisher": "Harvard University / Academia Sinica / Peking University",
+      "license_code": "CC-BY-NC-SA-4.0",
+      "title": "CBDB 中国历代人物传记资料库：周氏（37792）",
+      "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37792&o=json",
+      "external_identifier": "CBDB:37792",
+      "metadata_json": null
+    },
+    {
       "key": "cbdb:261818",
       "kind": "cbdb",
       "source_type": "api_record",
@@ -6351,6 +7020,18 @@
       "title": "CBDB 中国历代人物传记资料库：王可旺（261818）",
       "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261818&o=json",
       "external_identifier": "CBDB:261818",
+      "metadata_json": null
+    },
+    {
+      "key": "cbdb:1855",
+      "kind": "cbdb",
+      "source_type": "api_record",
+      "creator": "China Biographical Database (CBDB)",
+      "publisher": "Harvard University / Academia Sinica / Peking University",
+      "license_code": "CC-BY-NC-SA-4.0",
+      "title": "CBDB 中国历代人物传记资料库：王明（1855）",
+      "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1855&o=json",
+      "external_identifier": "CBDB:1855",
       "metadata_json": null
     },
     {
@@ -6450,6 +7131,30 @@
       "metadata_json": null
     },
     {
+      "key": "cbdb:140322",
+      "kind": "cbdb",
+      "source_type": "api_record",
+      "creator": "China Biographical Database (CBDB)",
+      "publisher": "Harvard University / Academia Sinica / Peking University",
+      "license_code": "CC-BY-NC-SA-4.0",
+      "title": "CBDB 中国历代人物传记资料库：李氏（140322）",
+      "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140322&o=json",
+      "external_identifier": "CBDB:140322",
+      "metadata_json": null
+    },
+    {
+      "key": "cbdb:143692",
+      "kind": "cbdb",
+      "source_type": "api_record",
+      "creator": "China Biographical Database (CBDB)",
+      "publisher": "Harvard University / Academia Sinica / Peking University",
+      "license_code": "CC-BY-NC-SA-4.0",
+      "title": "CBDB 中国历代人物传记资料库：王氏（143692）",
+      "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=143692&o=json",
+      "external_identifier": "CBDB:143692",
+      "metadata_json": null
+    },
+    {
       "key": "cbdb:34584",
       "kind": "cbdb",
       "source_type": "api_record",
@@ -6483,6 +7188,18 @@
       "title": "CBDB 中国历代人物传记资料库：王顯道（326551）",
       "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326551&o=json",
       "external_identifier": "CBDB:326551",
+      "metadata_json": null
+    },
+    {
+      "key": "cbdb:236876",
+      "kind": "cbdb",
+      "source_type": "api_record",
+      "creator": "China Biographical Database (CBDB)",
+      "publisher": "Harvard University / Academia Sinica / Peking University",
+      "license_code": "CC-BY-NC-SA-4.0",
+      "title": "CBDB 中国历代人物传记资料库：王景（236876）",
+      "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236876&o=json",
+      "external_identifier": "CBDB:236876",
       "metadata_json": null
     },
     {
@@ -6594,6 +7311,18 @@
       "metadata_json": null
     },
     {
+      "key": "cbdb:333133",
+      "kind": "cbdb",
+      "source_type": "api_record",
+      "creator": "China Biographical Database (CBDB)",
+      "publisher": "Harvard University / Academia Sinica / Peking University",
+      "license_code": "CC-BY-NC-SA-4.0",
+      "title": "CBDB 中国历代人物传记资料库：王仁（333133）",
+      "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333133&o=json",
+      "external_identifier": "CBDB:333133",
+      "metadata_json": null
+    },
+    {
       "key": "cbdb:222283",
       "kind": "cbdb",
       "source_type": "api_record",
@@ -6603,6 +7332,18 @@
       "title": "CBDB 中国历代人物传记资料库：王棋（222283）",
       "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222283&o=json",
       "external_identifier": "CBDB:222283",
+      "metadata_json": null
+    },
+    {
+      "key": "cbdb:333591",
+      "kind": "cbdb",
+      "source_type": "api_record",
+      "creator": "China Biographical Database (CBDB)",
+      "publisher": "Harvard University / Academia Sinica / Peking University",
+      "license_code": "CC-BY-NC-SA-4.0",
+      "title": "CBDB 中国历代人物传记资料库：王縉（333591）",
+      "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333591&o=json",
+      "external_identifier": "CBDB:333591",
       "metadata_json": null
     },
     {
@@ -6642,6 +7383,18 @@
       "metadata_json": null
     },
     {
+      "key": "cbdb:288332",
+      "kind": "cbdb",
+      "source_type": "api_record",
+      "creator": "China Biographical Database (CBDB)",
+      "publisher": "Harvard University / Academia Sinica / Peking University",
+      "license_code": "CC-BY-NC-SA-4.0",
+      "title": "CBDB 中国历代人物传记资料库：王睿（288332）",
+      "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288332&o=json",
+      "external_identifier": "CBDB:288332",
+      "metadata_json": null
+    },
+    {
       "key": "cbdb:235541",
       "kind": "cbdb",
       "source_type": "api_record",
@@ -6654,6 +7407,30 @@
       "metadata_json": null
     },
     {
+      "key": "cbdb:262446",
+      "kind": "cbdb",
+      "source_type": "api_record",
+      "creator": "China Biographical Database (CBDB)",
+      "publisher": "Harvard University / Academia Sinica / Peking University",
+      "license_code": "CC-BY-NC-SA-4.0",
+      "title": "CBDB 中国历代人物传记资料库：王昇（262446）",
+      "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262446&o=json",
+      "external_identifier": "CBDB:262446",
+      "metadata_json": null
+    },
+    {
+      "key": "cbdb:246748",
+      "kind": "cbdb",
+      "source_type": "api_record",
+      "creator": "China Biographical Database (CBDB)",
+      "publisher": "Harvard University / Academia Sinica / Peking University",
+      "license_code": "CC-BY-NC-SA-4.0",
+      "title": "CBDB 中国历代人物传记资料库：王海（246748）",
+      "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=246748&o=json",
+      "external_identifier": "CBDB:246748",
+      "metadata_json": null
+    },
+    {
       "key": "cbdb:305707",
       "kind": "cbdb",
       "source_type": "api_record",
@@ -6663,6 +7440,30 @@
       "title": "CBDB 中国历代人物传记资料库：王纉（305707）",
       "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305707&o=json",
       "external_identifier": "CBDB:305707",
+      "metadata_json": null
+    },
+    {
+      "key": "cbdb:217866",
+      "kind": "cbdb",
+      "source_type": "api_record",
+      "creator": "China Biographical Database (CBDB)",
+      "publisher": "Harvard University / Academia Sinica / Peking University",
+      "license_code": "CC-BY-NC-SA-4.0",
+      "title": "CBDB 中国历代人物传记资料库：王明（217866）",
+      "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217866&o=json",
+      "external_identifier": "CBDB:217866",
+      "metadata_json": null
+    },
+    {
+      "key": "cbdb:308146",
+      "kind": "cbdb",
+      "source_type": "api_record",
+      "creator": "China Biographical Database (CBDB)",
+      "publisher": "Harvard University / Academia Sinica / Peking University",
+      "license_code": "CC-BY-NC-SA-4.0",
+      "title": "CBDB 中国历代人物传记资料库：王子文（308146）",
+      "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=308146&o=json",
+      "external_identifier": "CBDB:308146",
       "metadata_json": null
     },
     {
@@ -6726,6 +7527,30 @@
       "metadata_json": null
     },
     {
+      "key": "cbdb:186697",
+      "kind": "cbdb",
+      "source_type": "api_record",
+      "creator": "China Biographical Database (CBDB)",
+      "publisher": "Harvard University / Academia Sinica / Peking University",
+      "license_code": "CC-BY-NC-SA-4.0",
+      "title": "CBDB 中国历代人物传记资料库：王仁表（186697）",
+      "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=186697&o=json",
+      "external_identifier": "CBDB:186697",
+      "metadata_json": null
+    },
+    {
+      "key": "cbdb:288337",
+      "kind": "cbdb",
+      "source_type": "api_record",
+      "creator": "China Biographical Database (CBDB)",
+      "publisher": "Harvard University / Academia Sinica / Peking University",
+      "license_code": "CC-BY-NC-SA-4.0",
+      "title": "CBDB 中国历代人物传记资料库：崔氏（288337）",
+      "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288337&o=json",
+      "external_identifier": "CBDB:288337",
+      "metadata_json": null
+    },
+    {
       "key": "cbdb:220265",
       "kind": "cbdb",
       "source_type": "api_record",
@@ -6747,6 +7572,42 @@
       "title": "CBDB 中国历代人物传记资料库：楊氏（226565）",
       "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=226565&o=json",
       "external_identifier": "CBDB:226565",
+      "metadata_json": null
+    },
+    {
+      "key": "cbdb:307068",
+      "kind": "cbdb",
+      "source_type": "api_record",
+      "creator": "China Biographical Database (CBDB)",
+      "publisher": "Harvard University / Academia Sinica / Peking University",
+      "license_code": "CC-BY-NC-SA-4.0",
+      "title": "CBDB 中国历代人物传记资料库：孫氏（307068）",
+      "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=307068&o=json",
+      "external_identifier": "CBDB:307068",
+      "metadata_json": null
+    },
+    {
+      "key": "cbdb:235519",
+      "kind": "cbdb",
+      "source_type": "api_record",
+      "creator": "China Biographical Database (CBDB)",
+      "publisher": "Harvard University / Academia Sinica / Peking University",
+      "license_code": "CC-BY-NC-SA-4.0",
+      "title": "CBDB 中国历代人物传记资料库：李氏（235519）",
+      "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235519&o=json",
+      "external_identifier": "CBDB:235519",
+      "metadata_json": null
+    },
+    {
+      "key": "cbdb:235521",
+      "kind": "cbdb",
+      "source_type": "api_record",
+      "creator": "China Biographical Database (CBDB)",
+      "publisher": "Harvard University / Academia Sinica / Peking University",
+      "license_code": "CC-BY-NC-SA-4.0",
+      "title": "CBDB 中国历代人物传记资料库：許氏（235521）",
+      "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235521&o=json",
+      "external_identifier": "CBDB:235521",
       "metadata_json": null
     },
     {
@@ -6870,6 +7731,30 @@
       "metadata_json": null
     },
     {
+      "key": "cbdb:437904",
+      "kind": "cbdb",
+      "source_type": "api_record",
+      "creator": "China Biographical Database (CBDB)",
+      "publisher": "Harvard University / Academia Sinica / Peking University",
+      "license_code": "CC-BY-NC-SA-4.0",
+      "title": "CBDB 中国历代人物传记资料库：丁氏（437904）",
+      "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=437904&o=json",
+      "external_identifier": "CBDB:437904",
+      "metadata_json": null
+    },
+    {
+      "key": "cbdb:437905",
+      "kind": "cbdb",
+      "source_type": "api_record",
+      "creator": "China Biographical Database (CBDB)",
+      "publisher": "Harvard University / Academia Sinica / Peking University",
+      "license_code": "CC-BY-NC-SA-4.0",
+      "title": "CBDB 中国历代人物传记资料库：吳氏（437905）",
+      "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=437905&o=json",
+      "external_identifier": "CBDB:437905",
+      "metadata_json": null
+    },
+    {
       "key": "cbdb:22015",
       "kind": "cbdb",
       "source_type": "api_record",
@@ -6906,6 +7791,18 @@
       "metadata_json": null
     },
     {
+      "key": "cbdb:37823",
+      "kind": "cbdb",
+      "source_type": "api_record",
+      "creator": "China Biographical Database (CBDB)",
+      "publisher": "Harvard University / Academia Sinica / Peking University",
+      "license_code": "CC-BY-NC-SA-4.0",
+      "title": "CBDB 中国历代人物传记资料库：華氏（37823）",
+      "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37823&o=json",
+      "external_identifier": "CBDB:37823",
+      "metadata_json": null
+    },
+    {
       "key": "cbdb:314677",
       "kind": "cbdb",
       "source_type": "api_record",
@@ -6915,6 +7812,18 @@
       "title": "CBDB 中国历代人物传记资料库：王邦治（314677）",
       "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314677&o=json",
       "external_identifier": "CBDB:314677",
+      "metadata_json": null
+    },
+    {
+      "key": "cbdb:257532",
+      "kind": "cbdb",
+      "source_type": "api_record",
+      "creator": "China Biographical Database (CBDB)",
+      "publisher": "Harvard University / Academia Sinica / Peking University",
+      "license_code": "CC-BY-NC-SA-4.0",
+      "title": "CBDB 中国历代人物传记资料库：王雲（257532）",
+      "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257532&o=json",
+      "external_identifier": "CBDB:257532",
       "metadata_json": null
     },
     {
@@ -6954,6 +7863,54 @@
       "metadata_json": null
     },
     {
+      "key": "cbdb:5119",
+      "kind": "cbdb",
+      "source_type": "api_record",
+      "creator": "China Biographical Database (CBDB)",
+      "publisher": "Harvard University / Academia Sinica / Peking University",
+      "license_code": "CC-BY-NC-SA-4.0",
+      "title": "CBDB 中国历代人物传记资料库：王氏（5119）",
+      "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=5119&o=json",
+      "external_identifier": "CBDB:5119",
+      "metadata_json": null
+    },
+    {
+      "key": "cbdb:5286",
+      "kind": "cbdb",
+      "source_type": "api_record",
+      "creator": "China Biographical Database (CBDB)",
+      "publisher": "Harvard University / Academia Sinica / Peking University",
+      "license_code": "CC-BY-NC-SA-4.0",
+      "title": "CBDB 中国历代人物传记资料库：王氏（5286）",
+      "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=5286&o=json",
+      "external_identifier": "CBDB:5286",
+      "metadata_json": null
+    },
+    {
+      "key": "cbdb:5289",
+      "kind": "cbdb",
+      "source_type": "api_record",
+      "creator": "China Biographical Database (CBDB)",
+      "publisher": "Harvard University / Academia Sinica / Peking University",
+      "license_code": "CC-BY-NC-SA-4.0",
+      "title": "CBDB 中国历代人物传记资料库：王氏（5289）",
+      "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=5289&o=json",
+      "external_identifier": "CBDB:5289",
+      "metadata_json": null
+    },
+    {
+      "key": "cbdb:15746",
+      "kind": "cbdb",
+      "source_type": "api_record",
+      "creator": "China Biographical Database (CBDB)",
+      "publisher": "Harvard University / Academia Sinica / Peking University",
+      "license_code": "CC-BY-NC-SA-4.0",
+      "title": "CBDB 中国历代人物传记资料库：王厚（15746）",
+      "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=15746&o=json",
+      "external_identifier": "CBDB:15746",
+      "metadata_json": null
+    },
+    {
       "key": "cbdb:15753",
       "kind": "cbdb",
       "source_type": "api_record",
@@ -6976,9 +7933,167 @@
       "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17765&o=json",
       "external_identifier": "CBDB:17765",
       "metadata_json": null
+    },
+    {
+      "key": "cbdb:21991",
+      "kind": "cbdb",
+      "source_type": "api_record",
+      "creator": "China Biographical Database (CBDB)",
+      "publisher": "Harvard University / Academia Sinica / Peking University",
+      "license_code": "CC-BY-NC-SA-4.0",
+      "title": "CBDB 中国历代人物传记资料库：王遷（21991）",
+      "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=21991&o=json",
+      "external_identifier": "CBDB:21991",
+      "metadata_json": null
+    },
+    {
+      "key": "cbdb:526680",
+      "kind": "cbdb",
+      "source_type": "api_record",
+      "creator": "China Biographical Database (CBDB)",
+      "publisher": "Harvard University / Academia Sinica / Peking University",
+      "license_code": "CC-BY-NC-SA-4.0",
+      "title": "CBDB 中国历代人物传记资料库：王啟㴶（526680）",
+      "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526680&o=json",
+      "external_identifier": "CBDB:526680",
+      "metadata_json": null
+    },
+    {
+      "key": "cbdb:526681",
+      "kind": "cbdb",
+      "source_type": "api_record",
+      "creator": "China Biographical Database (CBDB)",
+      "publisher": "Harvard University / Academia Sinica / Peking University",
+      "license_code": "CC-BY-NC-SA-4.0",
+      "title": "CBDB 中国历代人物传记资料库：王啟涫（526681）",
+      "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526681&o=json",
+      "external_identifier": "CBDB:526681",
+      "metadata_json": null
+    },
+    {
+      "key": "wd:Q45430826",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王聿（Q45430826）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q45430826",
+      "external_identifier": "Q45430826",
+      "metadata_json": null
+    },
+    {
+      "key": "cbdb:37770",
+      "kind": "cbdb",
+      "source_type": "api_record",
+      "creator": "China Biographical Database (CBDB)",
+      "publisher": "Harvard University / Academia Sinica / Peking University",
+      "license_code": "CC-BY-NC-SA-4.0",
+      "title": "CBDB 中国历代人物传记资料库：王聿（37770）",
+      "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37770&o=json",
+      "external_identifier": "CBDB:37770",
+      "metadata_json": null
+    },
+    {
+      "key": "wd:Q45431137",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王中（Q45431137）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q45431137",
+      "external_identifier": "Q45431137",
+      "metadata_json": null
+    },
+    {
+      "key": "cbdb:37776",
+      "kind": "cbdb",
+      "source_type": "api_record",
+      "creator": "China Biographical Database (CBDB)",
+      "publisher": "Harvard University / Academia Sinica / Peking University",
+      "license_code": "CC-BY-NC-SA-4.0",
+      "title": "CBDB 中国历代人物传记资料库：王中（37776）",
+      "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37776&o=json",
+      "external_identifier": "CBDB:37776",
+      "metadata_json": null
+    },
+    {
+      "key": "cbdb:550852",
+      "kind": "cbdb",
+      "source_type": "api_record",
+      "creator": "China Biographical Database (CBDB)",
+      "publisher": "Harvard University / Academia Sinica / Peking University",
+      "license_code": "CC-BY-NC-SA-4.0",
+      "title": "CBDB 中国历代人物传记资料库：王應修（550852）",
+      "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=550852&o=json",
+      "external_identifier": "CBDB:550852",
+      "metadata_json": null
+    },
+    {
+      "key": "wd:Q15897288",
+      "kind": "wikidata",
+      "source_type": "api_record",
+      "title": "维基数据：王汶（Q15897288）",
+      "creator": "维基数据贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC0-1.0",
+      "canonical_url": "https://www.wikidata.org/wiki/Q15897288",
+      "external_identifier": "Q15897288",
+      "metadata_json": {
+        "zh_wikipedia": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%B1%B6"
+      }
+    },
+    {
+      "key": "cbdb:126525",
+      "kind": "cbdb",
+      "source_type": "api_record",
+      "creator": "China Biographical Database (CBDB)",
+      "publisher": "Harvard University / Academia Sinica / Peking University",
+      "license_code": "CC-BY-NC-SA-4.0",
+      "title": "CBDB 中国历代人物传记资料库：王汶（126525）",
+      "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126525&o=json",
+      "external_identifier": "CBDB:126525",
+      "metadata_json": null
     }
   ],
   "persons": [
+    {
+      "key": "wd:Q45430725",
+      "qid": "Q45430725",
+      "cbdb": "38569",
+      "hop": 1,
+      "name": {
+        "text": "赵氏",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "relationship_only": true,
+      "relationship_only_reason": "not_wang_surname",
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "赵氏",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q45430725",
+            "cbdb:38569"
+          ],
+          "change_summary": "导入亲属人物姓名"
+        }
+      ],
+      "historicity": {
+        "kind": "cbdb_dynasty",
+        "detail": "CBDB 朝代 = 宋"
+      },
+      "source_keys": [
+        "wd:Q45430725",
+        "cbdb:38569"
+      ]
+    },
     {
       "key": "wd:Q45431034",
       "qid": "Q45431034",
@@ -7016,6 +8131,42 @@
       ]
     },
     {
+      "key": "wd:Q65801416",
+      "qid": "Q65801416",
+      "cbdb": "135652",
+      "hop": 1,
+      "name": {
+        "text": "李氏",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "relationship_only": true,
+      "relationship_only_reason": "not_wang_surname",
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "李氏",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q65801416",
+            "cbdb:135652"
+          ],
+          "change_summary": "导入亲属人物姓名"
+        }
+      ],
+      "historicity": {
+        "kind": "cbdb_dynasty",
+        "detail": "CBDB 朝代 = 隋"
+      },
+      "source_keys": [
+        "wd:Q65801416",
+        "cbdb:135652"
+      ]
+    },
+    {
       "key": "wd:Q10917554",
       "qid": "Q10917554",
       "cbdb": null,
@@ -7047,6 +8198,86 @@
       },
       "source_keys": [
         "wd:Q10917554"
+      ]
+    },
+    {
+      "key": "wd:Q13688131",
+      "qid": "Q13688131",
+      "cbdb": null,
+      "hop": 1,
+      "name": {
+        "text": "王氏",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "relationship_only": false,
+      "relationship_only_reason": null,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王氏",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q13688131"
+          ],
+          "change_summary": "导入亲属人物姓名"
+        }
+      ],
+      "historicity": {
+        "kind": "adjacent_to_historical_person",
+        "detail": "其亲属 王引之：维基数据 P570 = 1834年；相邻一代不可能仍在世"
+      },
+      "source_keys": [
+        "wd:Q13688131"
+      ]
+    },
+    {
+      "key": "wd:Q25918179",
+      "qid": "Q25918179",
+      "cbdb": null,
+      "hop": 1,
+      "name": {
+        "text": "王氏",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "relationship_only": false,
+      "relationship_only_reason": null,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王氏",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q25918179"
+          ],
+          "change_summary": "导入亲属人物姓名"
+        },
+        {
+          "predicate": "bio.summary",
+          "value": {
+            "text": "concubine of Emperor Yang of Sui",
+            "language": "en"
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q25918179"
+          ],
+          "change_summary": "维基数据条目描述"
+        }
+      ],
+      "historicity": {
+        "kind": "description_era",
+        "detail": "concubine of Emperor Yang of Sui"
+      },
+      "source_keys": [
+        "wd:Q25918179"
       ]
     },
     {
@@ -7590,6 +8821,82 @@
       ]
     },
     {
+      "key": "wd:Q13688035",
+      "qid": "Q13688035",
+      "cbdb": "34191",
+      "hop": 1,
+      "name": {
+        "text": "王安国",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "relationship_only": false,
+      "relationship_only_reason": null,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王安国",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q13688035",
+            "cbdb:34191"
+          ],
+          "change_summary": "导入亲属人物姓名"
+        },
+        {
+          "predicate": "bio.summary",
+          "value": {
+            "text": "Qing dynasty politician (1694-1757; jin shi 1724)",
+            "language": "en"
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q13688035"
+          ],
+          "change_summary": "维基数据条目描述"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1694年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q13688035"
+          ],
+          "change_summary": "维基数据 P569"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1757年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q13688035"
+          ],
+          "change_summary": "维基数据 P570"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1757年"
+      },
+      "source_keys": [
+        "wd:Q13688035",
+        "cbdb:34191"
+      ]
+    },
+    {
       "key": "wd:Q16077290",
       "qid": "Q16077290",
       "cbdb": null,
@@ -7753,6 +9060,68 @@
       "source_keys": [
         "wd:Q45397191",
         "cbdb:21055"
+      ]
+    },
+    {
+      "key": "wd:Q45630024",
+      "qid": "Q45630024",
+      "cbdb": "196170",
+      "hop": 1,
+      "name": {
+        "text": "王士则",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "relationship_only": false,
+      "relationship_only_reason": null,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王士则",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q45630024",
+            "cbdb:196170"
+          ],
+          "change_summary": "导入亲属人物姓名"
+        },
+        {
+          "predicate": "bio.summary",
+          "value": {
+            "text": "Tang dynasty person CBDB = 196170",
+            "language": "en"
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q45630024"
+          ],
+          "change_summary": "维基数据条目描述"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "831年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q45630024"
+          ],
+          "change_summary": "维基数据 P570"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 831年"
+      },
+      "source_keys": [
+        "wd:Q45630024",
+        "cbdb:196170"
       ]
     },
     {
@@ -8450,6 +9819,102 @@
       ]
     },
     {
+      "key": "wd:Q45406222",
+      "qid": "Q45406222",
+      "cbdb": "24462",
+      "hop": 1,
+      "name": {
+        "text": "王明",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "relationship_only": false,
+      "relationship_only_reason": null,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王明",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q45406222",
+            "cbdb:24462"
+          ],
+          "change_summary": "导入亲属人物姓名"
+        },
+        {
+          "predicate": "bio.summary",
+          "value": {
+            "text": "Song dynasty person (CBDB = 24462)",
+            "language": "en"
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q45406222"
+          ],
+          "change_summary": "维基数据条目描述"
+        }
+      ],
+      "historicity": {
+        "kind": "cbdb_dynasty",
+        "detail": "CBDB 朝代 = 宋"
+      },
+      "source_keys": [
+        "wd:Q45406222",
+        "cbdb:24462"
+      ]
+    },
+    {
+      "key": "wd:Q45409550",
+      "qid": "Q45409550",
+      "cbdb": "26227",
+      "hop": 1,
+      "name": {
+        "text": "王志",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "relationship_only": false,
+      "relationship_only_reason": null,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王志",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q45409550",
+            "cbdb:26227"
+          ],
+          "change_summary": "导入亲属人物姓名"
+        },
+        {
+          "predicate": "bio.summary",
+          "value": {
+            "text": "Song dynasty person CBDB = 26227",
+            "language": "en"
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q45409550"
+          ],
+          "change_summary": "维基数据条目描述"
+        }
+      ],
+      "historicity": {
+        "kind": "cbdb_dynasty",
+        "detail": "CBDB 朝代 = 宋"
+      },
+      "source_keys": [
+        "wd:Q45409550",
+        "cbdb:26227"
+      ]
+    },
+    {
       "key": "wd:Q45422610",
       "qid": "Q45422610",
       "cbdb": "33016",
@@ -8498,6 +9963,54 @@
       ]
     },
     {
+      "key": "wd:Q45426092",
+      "qid": "Q45426092",
+      "cbdb": "35273",
+      "hop": 1,
+      "name": {
+        "text": "王忠",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "relationship_only": false,
+      "relationship_only_reason": null,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王忠",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q45426092",
+            "cbdb:35273"
+          ],
+          "change_summary": "导入亲属人物姓名"
+        },
+        {
+          "predicate": "bio.summary",
+          "value": {
+            "text": "Song dynasty person CBDB = 35273",
+            "language": "en"
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q45426092"
+          ],
+          "change_summary": "维基数据条目描述"
+        }
+      ],
+      "historicity": {
+        "kind": "cbdb_dynasty",
+        "detail": "CBDB 朝代 = 宋"
+      },
+      "source_keys": [
+        "wd:Q45426092",
+        "cbdb:35273"
+      ]
+    },
+    {
       "key": "wd:Q45430635",
       "qid": "Q45430635",
       "cbdb": "37767",
@@ -8543,6 +10056,42 @@
       "source_keys": [
         "wd:Q45430635",
         "cbdb:37767"
+      ]
+    },
+    {
+      "key": "wd:Q45432073",
+      "qid": "Q45432073",
+      "cbdb": "37792",
+      "hop": 1,
+      "name": {
+        "text": "周氏",
+        "language": "zh-Hans"
+      },
+      "spouse_only": true,
+      "relationship_only": true,
+      "relationship_only_reason": "spouse_only",
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "周氏",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q45432073",
+            "cbdb:37792"
+          ],
+          "change_summary": "导入亲属人物姓名"
+        }
+      ],
+      "historicity": {
+        "kind": "cbdb_dynasty",
+        "detail": "CBDB 朝代 = 宋"
+      },
+      "source_keys": [
+        "wd:Q45432073",
+        "cbdb:37792"
       ]
     },
     {
@@ -8718,6 +10267,144 @@
       ]
     },
     {
+      "key": "wd:Q23888312",
+      "qid": "Q23888312",
+      "cbdb": null,
+      "hop": 1,
+      "name": {
+        "text": "王恭立",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "relationship_only": false,
+      "relationship_only_reason": null,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王恭立",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q23888312"
+          ],
+          "change_summary": "导入亲属人物姓名"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1925年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q23888312"
+          ],
+          "change_summary": "维基数据 P569"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "2015年4月14日",
+              "calendar_note": "维基数据 P570 结构化日期，精度：日"
+            }
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q23888312"
+          ],
+          "change_summary": "维基数据 P570"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 2015年4月14日"
+      },
+      "source_keys": [
+        "wd:Q23888312"
+      ]
+    },
+    {
+      "key": "wd:Q28414907",
+      "qid": "Q28414907",
+      "cbdb": "1855",
+      "hop": 1,
+      "name": {
+        "text": "王明",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "relationship_only": false,
+      "relationship_only_reason": null,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王明",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q28414907",
+            "cbdb:1855"
+          ],
+          "change_summary": "导入亲属人物姓名"
+        },
+        {
+          "predicate": "bio.summary",
+          "value": {
+            "text": "Song dynasty person CBDB = 1855",
+            "language": "en"
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q28414907"
+          ],
+          "change_summary": "维基数据条目描述"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "919年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q28414907"
+          ],
+          "change_summary": "维基数据 P569"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "991年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q28414907"
+          ],
+          "change_summary": "维基数据 P570"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 991年"
+      },
+      "source_keys": [
+        "wd:Q28414907",
+        "cbdb:1855"
+      ]
+    },
+    {
       "key": "wd:Q45518506",
       "qid": "Q45518506",
       "cbdb": "194206",
@@ -8883,6 +10570,40 @@
       },
       "source_keys": [
         "wd:Q16906025"
+      ]
+    },
+    {
+      "key": "wd:Q19826406",
+      "qid": "Q19826406",
+      "cbdb": null,
+      "hop": 1,
+      "name": {
+        "text": "王秉",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "relationship_only": false,
+      "relationship_only_reason": null,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王秉",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q19826406"
+          ],
+          "change_summary": "导入亲属人物姓名"
+        }
+      ],
+      "historicity": {
+        "kind": "adjacent_to_historical_person",
+        "detail": "其子/女 王裕：CBDB 朝代 = 唐；相邻一代不可能仍在世"
+      },
+      "source_keys": [
+        "wd:Q19826406"
       ]
     },
     {
@@ -9130,6 +10851,136 @@
       ]
     },
     {
+      "key": "wd:Q65802952",
+      "qid": "Q65802952",
+      "cbdb": "140322",
+      "hop": 1,
+      "name": {
+        "text": "李氏",
+        "language": "zh-Hans"
+      },
+      "spouse_only": true,
+      "relationship_only": true,
+      "relationship_only_reason": "spouse_only",
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "李氏",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q65802952",
+            "cbdb:140322"
+          ],
+          "change_summary": "导入亲属人物姓名"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 716年"
+      },
+      "source_keys": [
+        "wd:Q65802952",
+        "cbdb:140322"
+      ]
+    },
+    {
+      "key": "wd:Q65803664",
+      "qid": "Q65803664",
+      "cbdb": "143692",
+      "hop": 1,
+      "name": {
+        "text": "王氏",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "relationship_only": false,
+      "relationship_only_reason": null,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王氏",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q65803664",
+            "cbdb:143692"
+          ],
+          "change_summary": "导入亲属人物姓名"
+        },
+        {
+          "predicate": "bio.summary",
+          "value": {
+            "text": "daughter of Wang Cheng Zong",
+            "language": "en"
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q65803664"
+          ],
+          "change_summary": "维基数据条目描述"
+        }
+      ],
+      "historicity": {
+        "kind": "cbdb_dynasty",
+        "detail": "CBDB 朝代 = 唐"
+      },
+      "source_keys": [
+        "wd:Q65803664",
+        "cbdb:143692"
+      ]
+    },
+    {
+      "key": "wd:Q65803894",
+      "qid": "Q65803894",
+      "cbdb": null,
+      "hop": 1,
+      "name": {
+        "text": "王氏",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "relationship_only": false,
+      "relationship_only_reason": null,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王氏",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q65803894"
+          ],
+          "change_summary": "导入亲属人物姓名"
+        },
+        {
+          "predicate": "bio.summary",
+          "value": {
+            "text": "王承宗女",
+            "language": "zh-Hans"
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q65803894"
+          ],
+          "change_summary": "维基数据条目描述"
+        }
+      ],
+      "historicity": {
+        "kind": "adjacent_to_historical_person",
+        "detail": "其父/母 王承宗：维基数据 P570 = 820年；相邻一代不可能仍在世"
+      },
+      "source_keys": [
+        "wd:Q65803894"
+      ]
+    },
+    {
       "key": "wd:Q131781482",
       "qid": "Q131781482",
       "cbdb": null,
@@ -9367,6 +11218,54 @@
       "source_keys": [
         "wd:Q45501594",
         "cbdb:326551"
+      ]
+    },
+    {
+      "key": "wd:Q45527504",
+      "qid": "Q45527504",
+      "cbdb": "236876",
+      "hop": 1,
+      "name": {
+        "text": "王景",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "relationship_only": false,
+      "relationship_only_reason": null,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王景",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q45527504",
+            "cbdb:236876"
+          ],
+          "change_summary": "导入亲属人物姓名"
+        },
+        {
+          "predicate": "bio.summary",
+          "value": {
+            "text": "Ming dynasty person CBDB = 236876",
+            "language": "en"
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q45527504"
+          ],
+          "change_summary": "维基数据条目描述"
+        }
+      ],
+      "historicity": {
+        "kind": "cbdb_dynasty",
+        "detail": "CBDB 朝代 = 明"
+      },
+      "source_keys": [
+        "wd:Q45527504",
+        "cbdb:236876"
       ]
     },
     {
@@ -9958,6 +11857,54 @@
       ]
     },
     {
+      "key": "wd:Q45559885",
+      "qid": "Q45559885",
+      "cbdb": "333133",
+      "hop": 1,
+      "name": {
+        "text": "王仁",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "relationship_only": false,
+      "relationship_only_reason": null,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王仁",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q45559885",
+            "cbdb:333133"
+          ],
+          "change_summary": "导入亲属人物姓名"
+        },
+        {
+          "predicate": "bio.summary",
+          "value": {
+            "text": "Ming dynasty person CBDB = 333133",
+            "language": "en"
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q45559885"
+          ],
+          "change_summary": "维基数据条目描述"
+        }
+      ],
+      "historicity": {
+        "kind": "cbdb_dynasty",
+        "detail": "CBDB 朝代 = 明"
+      },
+      "source_keys": [
+        "wd:Q45559885",
+        "cbdb:333133"
+      ]
+    },
+    {
       "key": "wd:Q45580815",
       "qid": "Q45580815",
       "cbdb": "222283",
@@ -10003,6 +11950,54 @@
       "source_keys": [
         "wd:Q45580815",
         "cbdb:222283"
+      ]
+    },
+    {
+      "key": "wd:Q45581298",
+      "qid": "Q45581298",
+      "cbdb": "333591",
+      "hop": 1,
+      "name": {
+        "text": "王缙",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "relationship_only": false,
+      "relationship_only_reason": null,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王缙",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q45581298",
+            "cbdb:333591"
+          ],
+          "change_summary": "导入亲属人物姓名"
+        },
+        {
+          "predicate": "bio.summary",
+          "value": {
+            "text": "Ming dynasty person CBDB = 333591",
+            "language": "en"
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q45581298"
+          ],
+          "change_summary": "维基数据条目描述"
+        }
+      ],
+      "historicity": {
+        "kind": "cbdb_dynasty",
+        "detail": "CBDB 朝代 = 明"
+      },
+      "source_keys": [
+        "wd:Q45581298",
+        "cbdb:333591"
       ]
     },
     {
@@ -10150,6 +12145,54 @@
       ]
     },
     {
+      "key": "wd:Q45449642",
+      "qid": "Q45449642",
+      "cbdb": "288332",
+      "hop": 1,
+      "name": {
+        "text": "王睿",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "relationship_only": false,
+      "relationship_only_reason": null,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王睿",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q45449642",
+            "cbdb:288332"
+          ],
+          "change_summary": "导入亲属人物姓名"
+        },
+        {
+          "predicate": "bio.summary",
+          "value": {
+            "text": "Ming dynasty person CBDB = 288332",
+            "language": "en"
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q45449642"
+          ],
+          "change_summary": "维基数据条目描述"
+        }
+      ],
+      "historicity": {
+        "kind": "cbdb_dynasty",
+        "detail": "CBDB 朝代 = 明"
+      },
+      "source_keys": [
+        "wd:Q45449642",
+        "cbdb:288332"
+      ]
+    },
+    {
       "key": "wd:Q45461070",
       "qid": "Q45461070",
       "cbdb": "235541",
@@ -10198,6 +12241,102 @@
       ]
     },
     {
+      "key": "wd:Q45476347",
+      "qid": "Q45476347",
+      "cbdb": "262446",
+      "hop": 1,
+      "name": {
+        "text": "王升",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "relationship_only": false,
+      "relationship_only_reason": null,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王升",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q45476347",
+            "cbdb:262446"
+          ],
+          "change_summary": "导入亲属人物姓名"
+        },
+        {
+          "predicate": "bio.summary",
+          "value": {
+            "text": "Ming dynasty person CBDB = 262446",
+            "language": "en"
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q45476347"
+          ],
+          "change_summary": "维基数据条目描述"
+        }
+      ],
+      "historicity": {
+        "kind": "cbdb_dynasty",
+        "detail": "CBDB 朝代 = 明"
+      },
+      "source_keys": [
+        "wd:Q45476347",
+        "cbdb:262446"
+      ]
+    },
+    {
+      "key": "wd:Q45484137",
+      "qid": "Q45484137",
+      "cbdb": "246748",
+      "hop": 1,
+      "name": {
+        "text": "王海",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "relationship_only": false,
+      "relationship_only_reason": null,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王海",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q45484137",
+            "cbdb:246748"
+          ],
+          "change_summary": "导入亲属人物姓名"
+        },
+        {
+          "predicate": "bio.summary",
+          "value": {
+            "text": "Ming dynasty person CBDB = 246748",
+            "language": "en"
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q45484137"
+          ],
+          "change_summary": "维基数据条目描述"
+        }
+      ],
+      "historicity": {
+        "kind": "cbdb_dynasty",
+        "detail": "CBDB 朝代 = 明"
+      },
+      "source_keys": [
+        "wd:Q45484137",
+        "cbdb:246748"
+      ]
+    },
+    {
       "key": "wd:Q45513436",
       "qid": "Q45513436",
       "cbdb": "305707",
@@ -10243,6 +12382,102 @@
       "source_keys": [
         "wd:Q45513436",
         "cbdb:305707"
+      ]
+    },
+    {
+      "key": "wd:Q45614374",
+      "qid": "Q45614374",
+      "cbdb": "217866",
+      "hop": 1,
+      "name": {
+        "text": "王明",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "relationship_only": false,
+      "relationship_only_reason": null,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王明",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q45614374",
+            "cbdb:217866"
+          ],
+          "change_summary": "导入亲属人物姓名"
+        },
+        {
+          "predicate": "bio.summary",
+          "value": {
+            "text": "Ming dynasty person CBDB = 217866",
+            "language": "en"
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q45614374"
+          ],
+          "change_summary": "维基数据条目描述"
+        }
+      ],
+      "historicity": {
+        "kind": "cbdb_dynasty",
+        "detail": "CBDB 朝代 = 明"
+      },
+      "source_keys": [
+        "wd:Q45614374",
+        "cbdb:217866"
+      ]
+    },
+    {
+      "key": "wd:Q45620962",
+      "qid": "Q45620962",
+      "cbdb": "308146",
+      "hop": 1,
+      "name": {
+        "text": "王子文",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "relationship_only": false,
+      "relationship_only_reason": null,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王子文",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q45620962",
+            "cbdb:308146"
+          ],
+          "change_summary": "导入亲属人物姓名"
+        },
+        {
+          "predicate": "bio.summary",
+          "value": {
+            "text": "Ming dynasty person CBDB = 308146",
+            "language": "en"
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q45620962"
+          ],
+          "change_summary": "维基数据条目描述"
+        }
+      ],
+      "historicity": {
+        "kind": "cbdb_dynasty",
+        "detail": "CBDB 朝代 = 明"
+      },
+      "source_keys": [
+        "wd:Q45620962",
+        "cbdb:308146"
       ]
     },
     {
@@ -10502,6 +12737,68 @@
       ]
     },
     {
+      "key": "wd:Q45685646",
+      "qid": "Q45685646",
+      "cbdb": "186697",
+      "hop": 1,
+      "name": {
+        "text": "王仁表",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "relationship_only": false,
+      "relationship_only_reason": null,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王仁表",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q45685646",
+            "cbdb:186697"
+          ],
+          "change_summary": "导入亲属人物姓名"
+        },
+        {
+          "predicate": "bio.summary",
+          "value": {
+            "text": "Tang dynasty person CBDB = 186697",
+            "language": "en"
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q45685646"
+          ],
+          "change_summary": "维基数据条目描述"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "699年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q45685646"
+          ],
+          "change_summary": "维基数据 P570"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 699年"
+      },
+      "source_keys": [
+        "wd:Q45685646",
+        "cbdb:186697"
+      ]
+    },
+    {
       "key": "wd:Q61306665",
       "qid": "Q61306665",
       "cbdb": null,
@@ -10533,6 +12830,42 @@
       },
       "source_keys": [
         "wd:Q61306665"
+      ]
+    },
+    {
+      "key": "wd:Q65812398",
+      "qid": "Q65812398",
+      "cbdb": "288337",
+      "hop": 1,
+      "name": {
+        "text": "崔氏",
+        "language": "zh-Hans"
+      },
+      "spouse_only": true,
+      "relationship_only": true,
+      "relationship_only_reason": "spouse_only",
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "崔氏",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q65812398",
+            "cbdb:288337"
+          ],
+          "change_summary": "导入亲属人物姓名"
+        }
+      ],
+      "historicity": {
+        "kind": "cbdb_dynasty",
+        "detail": "CBDB 朝代 = 明"
+      },
+      "source_keys": [
+        "wd:Q65812398",
+        "cbdb:288337"
       ]
     },
     {
@@ -10605,6 +12938,114 @@
       "source_keys": [
         "wd:Q65830582",
         "cbdb:226565"
+      ]
+    },
+    {
+      "key": "wd:Q65831333",
+      "qid": "Q65831333",
+      "cbdb": "307068",
+      "hop": 1,
+      "name": {
+        "text": "孙氏",
+        "language": "zh-Hans"
+      },
+      "spouse_only": true,
+      "relationship_only": true,
+      "relationship_only_reason": "spouse_only",
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "孙氏",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q65831333",
+            "cbdb:307068"
+          ],
+          "change_summary": "导入亲属人物姓名"
+        }
+      ],
+      "historicity": {
+        "kind": "cbdb_dynasty",
+        "detail": "CBDB 朝代 = 明"
+      },
+      "source_keys": [
+        "wd:Q65831333",
+        "cbdb:307068"
+      ]
+    },
+    {
+      "key": "wd:Q65837803",
+      "qid": "Q65837803",
+      "cbdb": "235519",
+      "hop": 1,
+      "name": {
+        "text": "李氏",
+        "language": "zh-Hans"
+      },
+      "spouse_only": true,
+      "relationship_only": true,
+      "relationship_only_reason": "spouse_only",
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "李氏",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q65837803",
+            "cbdb:235519"
+          ],
+          "change_summary": "导入亲属人物姓名"
+        }
+      ],
+      "historicity": {
+        "kind": "cbdb_dynasty",
+        "detail": "CBDB 朝代 = 明"
+      },
+      "source_keys": [
+        "wd:Q65837803",
+        "cbdb:235519"
+      ]
+    },
+    {
+      "key": "wd:Q65837810",
+      "qid": "Q65837810",
+      "cbdb": "235521",
+      "hop": 1,
+      "name": {
+        "text": "许氏",
+        "language": "zh-Hans"
+      },
+      "spouse_only": true,
+      "relationship_only": true,
+      "relationship_only_reason": "spouse_only",
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "许氏",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q65837810",
+            "cbdb:235521"
+          ],
+          "change_summary": "导入亲属人物姓名"
+        }
+      ],
+      "historicity": {
+        "kind": "cbdb_dynasty",
+        "detail": "CBDB 朝代 = 明"
+      },
+      "source_keys": [
+        "wd:Q65837810",
+        "cbdb:235521"
       ]
     },
     {
@@ -11090,6 +13531,78 @@
       ]
     },
     {
+      "key": "wd:Q65904233",
+      "qid": "Q65904233",
+      "cbdb": "437904",
+      "hop": 1,
+      "name": {
+        "text": "丁氏",
+        "language": "zh-Hans"
+      },
+      "spouse_only": true,
+      "relationship_only": true,
+      "relationship_only_reason": "spouse_only",
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "丁氏",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q65904233",
+            "cbdb:437904"
+          ],
+          "change_summary": "导入亲属人物姓名"
+        }
+      ],
+      "historicity": {
+        "kind": "cbdb_dynasty",
+        "detail": "CBDB 朝代 = 明"
+      },
+      "source_keys": [
+        "wd:Q65904233",
+        "cbdb:437904"
+      ]
+    },
+    {
+      "key": "wd:Q65904236",
+      "qid": "Q65904236",
+      "cbdb": "437905",
+      "hop": 1,
+      "name": {
+        "text": "吴氏",
+        "language": "zh-Hans"
+      },
+      "spouse_only": true,
+      "relationship_only": true,
+      "relationship_only_reason": "spouse_only",
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "吴氏",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q65904236",
+            "cbdb:437905"
+          ],
+          "change_summary": "导入亲属人物姓名"
+        }
+      ],
+      "historicity": {
+        "kind": "cbdb_dynasty",
+        "detail": "CBDB 朝代 = 明"
+      },
+      "source_keys": [
+        "wd:Q65904236",
+        "cbdb:437905"
+      ]
+    },
+    {
       "key": "wd:Q45401685",
       "qid": "Q45401685",
       "cbdb": "22015",
@@ -11238,6 +13751,42 @@
       ]
     },
     {
+      "key": "wd:Q45434003",
+      "qid": "Q45434003",
+      "cbdb": "37823",
+      "hop": 1,
+      "name": {
+        "text": "华氏",
+        "language": "zh-Hans"
+      },
+      "spouse_only": true,
+      "relationship_only": true,
+      "relationship_only_reason": "spouse_only",
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "华氏",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q45434003",
+            "cbdb:37823"
+          ],
+          "change_summary": "导入亲属人物姓名"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1066年"
+      },
+      "source_keys": [
+        "wd:Q45434003",
+        "cbdb:37823"
+      ]
+    },
+    {
       "key": "wd:Q45442278",
       "qid": "Q45442278",
       "cbdb": "314677",
@@ -11283,6 +13832,54 @@
       "source_keys": [
         "wd:Q45442278",
         "cbdb:314677"
+      ]
+    },
+    {
+      "key": "wd:Q45491686",
+      "qid": "Q45491686",
+      "cbdb": "257532",
+      "hop": 1,
+      "name": {
+        "text": "王云",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "relationship_only": false,
+      "relationship_only_reason": null,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王云",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q45491686",
+            "cbdb:257532"
+          ],
+          "change_summary": "导入亲属人物姓名"
+        },
+        {
+          "predicate": "bio.summary",
+          "value": {
+            "text": "Ming dynasty person CBDB = 257532",
+            "language": "en"
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q45491686"
+          ],
+          "change_summary": "维基数据条目描述"
+        }
+      ],
+      "historicity": {
+        "kind": "cbdb_dynasty",
+        "detail": "CBDB 朝代 = 明"
+      },
+      "source_keys": [
+        "wd:Q45491686",
+        "cbdb:257532"
       ]
     },
     {
@@ -11430,6 +14027,282 @@
       ]
     },
     {
+      "key": "wd:Q45364057",
+      "qid": "Q45364057",
+      "cbdb": "5119",
+      "hop": 1,
+      "name": {
+        "text": "王氏",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "relationship_only": false,
+      "relationship_only_reason": null,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王氏",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q45364057",
+            "cbdb:5119"
+          ],
+          "change_summary": "导入亲属人物姓名"
+        },
+        {
+          "predicate": "bio.summary",
+          "value": {
+            "text": "蔡挺妻",
+            "language": "zh-Hans"
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q45364057"
+          ],
+          "change_summary": "维基数据条目描述"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1013年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q45364057"
+          ],
+          "change_summary": "维基数据 P569"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1038年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q45364057"
+          ],
+          "change_summary": "维基数据 P570"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1038年"
+      },
+      "source_keys": [
+        "wd:Q45364057",
+        "cbdb:5119"
+      ]
+    },
+    {
+      "key": "wd:Q45364582",
+      "qid": "Q45364582",
+      "cbdb": "5286",
+      "hop": 1,
+      "name": {
+        "text": "王氏",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "relationship_only": false,
+      "relationship_only_reason": null,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王氏",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q45364582",
+            "cbdb:5286"
+          ],
+          "change_summary": "导入亲属人物姓名"
+        },
+        {
+          "predicate": "bio.summary",
+          "value": {
+            "text": "趙叔頤妻",
+            "language": "zh-Hant"
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q45364582"
+          ],
+          "change_summary": "维基数据条目描述"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1047年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q45364582"
+          ],
+          "change_summary": "维基数据 P569"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1069年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q45364582"
+          ],
+          "change_summary": "维基数据 P570"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1069年"
+      },
+      "source_keys": [
+        "wd:Q45364582",
+        "cbdb:5286"
+      ]
+    },
+    {
+      "key": "wd:Q45364590",
+      "qid": "Q45364590",
+      "cbdb": "5289",
+      "hop": 1,
+      "name": {
+        "text": "王氏",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "relationship_only": false,
+      "relationship_only_reason": null,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王氏",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q45364590",
+            "cbdb:5289"
+          ],
+          "change_summary": "导入亲属人物姓名"
+        },
+        {
+          "predicate": "bio.summary",
+          "value": {
+            "text": "趙叔惠妻",
+            "language": "zh-Hant"
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q45364590"
+          ],
+          "change_summary": "维基数据条目描述"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1047年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q45364590"
+          ],
+          "change_summary": "维基数据 P569"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1105年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q45364590"
+          ],
+          "change_summary": "维基数据 P570"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1105年"
+      },
+      "source_keys": [
+        "wd:Q45364590",
+        "cbdb:5289"
+      ]
+    },
+    {
+      "key": "wd:Q45381147",
+      "qid": "Q45381147",
+      "cbdb": "15746",
+      "hop": 1,
+      "name": {
+        "text": "王厚",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "relationship_only": false,
+      "relationship_only_reason": null,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王厚",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q45381147",
+            "cbdb:15746"
+          ],
+          "change_summary": "导入亲属人物姓名"
+        },
+        {
+          "predicate": "bio.summary",
+          "value": {
+            "text": "person, CBDB = 15746",
+            "language": "en"
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q45381147"
+          ],
+          "change_summary": "维基数据条目描述"
+        }
+      ],
+      "historicity": {
+        "kind": "adjacent_to_historical_person",
+        "detail": "其子/女 王化：CBDB 朝代 = 宋；相邻一代不可能仍在世"
+      },
+      "source_keys": [
+        "wd:Q45381147",
+        "cbdb:15746"
+      ]
+    },
+    {
       "key": "wd:Q45381154",
       "qid": "Q45381154",
       "cbdb": "15753",
@@ -11523,6 +14396,328 @@
       "source_keys": [
         "wd:Q45387155",
         "cbdb:17765"
+      ]
+    },
+    {
+      "key": "wd:Q45401644",
+      "qid": "Q45401644",
+      "cbdb": "21991",
+      "hop": 1,
+      "name": {
+        "text": "王迁",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "relationship_only": false,
+      "relationship_only_reason": null,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王迁",
+            "language": "zh-Hans"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q45401644",
+            "cbdb:21991"
+          ],
+          "change_summary": "导入亲属人物姓名"
+        },
+        {
+          "predicate": "bio.summary",
+          "value": {
+            "text": "Song dynasty person CBDB = 21991",
+            "language": "en"
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q45401644"
+          ],
+          "change_summary": "维基数据条目描述"
+        }
+      ],
+      "historicity": {
+        "kind": "cbdb_dynasty",
+        "detail": "CBDB 朝代 = 宋"
+      },
+      "source_keys": [
+        "wd:Q45401644",
+        "cbdb:21991"
+      ]
+    },
+    {
+      "key": "cbdb:526680",
+      "qid": null,
+      "cbdb": "526680",
+      "hop": 1,
+      "name": {
+        "text": "王啟㴶",
+        "language": "zh-Hant"
+      },
+      "spouse_only": false,
+      "relationship_only": false,
+      "relationship_only_reason": null,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王啟㴶",
+            "language": "zh-Hant"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "cbdb:526680"
+          ],
+          "change_summary": "导入亲属人物姓名"
+        }
+      ],
+      "historicity": {
+        "kind": "cbdb_dynasty",
+        "detail": "CBDB 朝代 = 清"
+      },
+      "source_keys": [
+        "cbdb:526680"
+      ]
+    },
+    {
+      "key": "cbdb:526681",
+      "qid": null,
+      "cbdb": "526681",
+      "hop": 1,
+      "name": {
+        "text": "王啟涫",
+        "language": "zh-Hant"
+      },
+      "spouse_only": false,
+      "relationship_only": false,
+      "relationship_only_reason": null,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王啟涫",
+            "language": "zh-Hant"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "cbdb:526681"
+          ],
+          "change_summary": "导入亲属人物姓名"
+        }
+      ],
+      "historicity": {
+        "kind": "cbdb_dynasty",
+        "detail": "CBDB 朝代 = 清"
+      },
+      "source_keys": [
+        "cbdb:526681"
+      ]
+    },
+    {
+      "key": "wd:Q45430826",
+      "qid": "Q45430826",
+      "cbdb": "37770",
+      "hop": 1,
+      "name": {
+        "text": "王聿",
+        "language": "zh-Hant"
+      },
+      "spouse_only": false,
+      "relationship_only": false,
+      "relationship_only_reason": null,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王聿",
+            "language": "zh-Hant"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q45430826",
+            "cbdb:37770"
+          ],
+          "change_summary": "导入亲属人物姓名"
+        },
+        {
+          "predicate": "bio.summary",
+          "value": {
+            "text": "person, CBDB = 37770",
+            "language": "en"
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q45430826"
+          ],
+          "change_summary": "维基数据条目描述"
+        }
+      ],
+      "historicity": {
+        "kind": "adjacent_to_historical_person",
+        "detail": "其父/母 王松龄：CBDB 朝代 = 宋；相邻一代不可能仍在世"
+      },
+      "source_keys": [
+        "wd:Q45430826",
+        "cbdb:37770"
+      ]
+    },
+    {
+      "key": "wd:Q45431137",
+      "qid": "Q45431137",
+      "cbdb": "37776",
+      "hop": 1,
+      "name": {
+        "text": "王中",
+        "language": "zh-Hant"
+      },
+      "spouse_only": false,
+      "relationship_only": false,
+      "relationship_only_reason": null,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王中",
+            "language": "zh-Hant"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q45431137",
+            "cbdb:37776"
+          ],
+          "change_summary": "导入亲属人物姓名"
+        },
+        {
+          "predicate": "bio.summary",
+          "value": {
+            "text": "person, CBDB = 37776",
+            "language": "en"
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q45431137"
+          ],
+          "change_summary": "维基数据条目描述"
+        }
+      ],
+      "historicity": {
+        "kind": "adjacent_to_historical_person",
+        "detail": "其父/母 王松龄：CBDB 朝代 = 宋；相邻一代不可能仍在世"
+      },
+      "source_keys": [
+        "wd:Q45431137",
+        "cbdb:37776"
+      ]
+    },
+    {
+      "key": "cbdb:550852",
+      "qid": null,
+      "cbdb": "550852",
+      "hop": 1,
+      "name": {
+        "text": "王應修",
+        "language": "zh-Hant"
+      },
+      "spouse_only": false,
+      "relationship_only": false,
+      "relationship_only_reason": null,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王應修",
+            "language": "zh-Hant"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "cbdb:550852"
+          ],
+          "change_summary": "导入亲属人物姓名"
+        }
+      ],
+      "historicity": {
+        "kind": "cbdb_dynasty",
+        "detail": "CBDB 朝代 = 明"
+      },
+      "source_keys": [
+        "cbdb:550852"
+      ]
+    },
+    {
+      "key": "wd:Q15897288",
+      "qid": "Q15897288",
+      "cbdb": "126525",
+      "hop": 1,
+      "name": {
+        "text": "王汶",
+        "language": "zh-Hant"
+      },
+      "spouse_only": false,
+      "relationship_only": false,
+      "relationship_only_reason": null,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王汶",
+            "language": "zh-Hant"
+          },
+          "confidence": "high",
+          "source_keys": [
+            "wd:Q15897288",
+            "cbdb:126525"
+          ],
+          "change_summary": "导入亲属人物姓名"
+        },
+        {
+          "predicate": "bio.summary",
+          "value": {
+            "text": "Ming dynasty politician",
+            "language": "en"
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q15897288"
+          ],
+          "change_summary": "维基数据条目描述"
+        },
+        {
+          "predicate": "birth.date",
+          "value": {
+            "date": {
+              "original_text": "1433年",
+              "calendar_note": "维基数据 P569 结构化日期，精度：年"
+            }
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q15897288"
+          ],
+          "change_summary": "维基数据 P569"
+        },
+        {
+          "predicate": "death.date",
+          "value": {
+            "date": {
+              "original_text": "1489年",
+              "calendar_note": "维基数据 P570 结构化日期，精度：年"
+            }
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "wd:Q15897288"
+          ],
+          "change_summary": "维基数据 P570"
+        }
+      ],
+      "historicity": {
+        "kind": "death_date",
+        "detail": "维基数据 P570 = 1489年"
+      },
+      "source_keys": [
+        "wd:Q15897288",
+        "cbdb:126525"
       ]
     }
   ],
@@ -15874,6 +19069,27 @@
     },
     {
       "kind": "parent",
+      "parent_key": "wd:Q13688035",
+      "child_key": "wd:Q697757",
+      "parent_name": "王安国",
+      "child_name": "王念孙",
+      "parent_person_id": null,
+      "child_person_id": "p_7ZLkhM6fzxrjvBYHUXQTJQ",
+      "citations": [
+        {
+          "source_key": "wd:Q697757",
+          "locator": "P22（父）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q13688035",
+          "locator": "P40（子女）",
+          "note": null
+        }
+      ]
+    },
+    {
+      "kind": "parent",
       "parent_key": "wd:Q2109927",
       "child_key": "wd:Q16077290",
       "parent_name": "王延钧",
@@ -15888,6 +19104,27 @@
         },
         {
           "source_key": "wd:Q16077290",
+          "locator": "P22（父）",
+          "note": null
+        }
+      ]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "wd:Q697757",
+      "child_key": "wd:Q13688131",
+      "parent_name": "王念孙",
+      "child_name": "王氏",
+      "parent_person_id": "p_7ZLkhM6fzxrjvBYHUXQTJQ",
+      "child_person_id": null,
+      "citations": [
+        {
+          "source_key": "wd:Q697757",
+          "locator": "P40（子女）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q13688131",
           "locator": "P22（父）",
           "note": null
         }
@@ -15958,6 +19195,32 @@
           "source_key": "cbdb:5347",
           "locator": "亲属关系：丈夫",
           "note": "CBDB 注明此条来源：未知"
+        }
+      ]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "wd:Q7967676",
+      "child_key": "wd:Q45630024",
+      "parent_name": "王武俊",
+      "child_name": "王士则",
+      "parent_person_id": "p_LkMtpZjg6KZsBH9aWToWD9",
+      "child_person_id": null,
+      "citations": [
+        {
+          "source_key": "wd:Q7967676",
+          "locator": "P40（子女）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q45630024",
+          "locator": "P22（父）",
+          "note": null
+        },
+        {
+          "source_key": "cbdb:191752",
+          "locator": "亲属关系：子",
+          "note": "CBDB 注明此条来源：唐五代人物傳記與社會網絡資料庫(1.0版)"
         }
       ]
     },
@@ -16073,6 +19336,32 @@
           "source_key": "wd:Q45677679",
           "locator": "P22（父）",
           "note": null
+        }
+      ]
+    },
+    {
+      "kind": "spouse",
+      "a_key": "wd:Q28413506",
+      "b_key": "wd:Q65801416",
+      "a_name": "王𫖮",
+      "b_name": "李氏",
+      "a_person_id": "p_HSq6viRBnzj6LqF76CNxvY",
+      "b_person_id": null,
+      "citations": [
+        {
+          "source_key": "wd:Q65801416",
+          "locator": "P26（配偶）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q28413506",
+          "locator": "P26（配偶）",
+          "note": null
+        },
+        {
+          "source_key": "cbdb:33012",
+          "locator": "亲属关系：妻子",
+          "note": "CBDB 注明此条来源：明清婦女著作數據庫"
         }
       ]
     },
@@ -16271,6 +19560,48 @@
     },
     {
       "kind": "parent",
+      "parent_key": "wd:Q45406222",
+      "child_key": "wd:Q45406224",
+      "parent_name": "王明",
+      "child_name": "王承寿",
+      "parent_person_id": null,
+      "child_person_id": "p_9UwDT9fs142EB3GvRsQLfL",
+      "citations": [
+        {
+          "source_key": "wd:Q45406224",
+          "locator": "P22（父）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q45406222",
+          "locator": "P40（子女）",
+          "note": null
+        }
+      ]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "wd:Q45409550",
+      "child_key": "wd:Q45409552",
+      "parent_name": "王志",
+      "child_name": "王丕",
+      "parent_person_id": null,
+      "child_person_id": "p_Ue4bc6JWNDY3CgoJjDceoC",
+      "citations": [
+        {
+          "source_key": "wd:Q45409552",
+          "locator": "P22（父）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q45409550",
+          "locator": "P40（子女）",
+          "note": null
+        }
+      ]
+    },
+    {
+      "kind": "parent",
       "parent_key": "wd:Q45422606",
       "child_key": "wd:Q45422610",
       "parent_name": "王崇基",
@@ -16292,6 +19623,27 @@
           "source_key": "cbdb:33014",
           "locator": "亲属关系：四子",
           "note": "CBDB 注明此条来源：未知"
+        }
+      ]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "wd:Q45426092",
+      "child_key": "wd:Q45426051",
+      "parent_name": "王忠",
+      "child_name": "王朝用",
+      "parent_person_id": null,
+      "child_person_id": "p_yv85iMSEixKWR4Bwa93MTf",
+      "citations": [
+        {
+          "source_key": "wd:Q45426051",
+          "locator": "P22（父）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q45426092",
+          "locator": "P40（子女）",
+          "note": null
         }
       ]
     },
@@ -16319,6 +19671,32 @@
     {
       "kind": "spouse",
       "a_key": "wd:Q45386119",
+      "b_key": "wd:Q45430725",
+      "a_name": "王寂",
+      "b_name": "赵氏",
+      "a_person_id": "p_4Hjde84UDSxNby7XrvDD1E",
+      "b_person_id": null,
+      "citations": [
+        {
+          "source_key": "wd:Q45430725",
+          "locator": "P26（配偶）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q45386119",
+          "locator": "P26（配偶）",
+          "note": null
+        },
+        {
+          "source_key": "cbdb:17425",
+          "locator": "亲属关系：妻子",
+          "note": "CBDB 注明此条来源：宋人傳記資料索引(電子版)"
+        }
+      ]
+    },
+    {
+      "kind": "spouse",
+      "a_key": "wd:Q45386119",
       "b_key": "wd:Q45431034",
       "a_name": "王寂",
       "b_name": "丘氏",
@@ -16337,6 +19715,32 @@
         },
         {
           "source_key": "cbdb:17425",
+          "locator": "亲属关系：妻子",
+          "note": "CBDB 注明此条来源：宋人傳記資料索引(電子版)"
+        }
+      ]
+    },
+    {
+      "kind": "spouse",
+      "a_key": "wd:Q45409552",
+      "b_key": "wd:Q45432073",
+      "a_name": "王丕",
+      "b_name": "周氏",
+      "a_person_id": "p_Ue4bc6JWNDY3CgoJjDceoC",
+      "b_person_id": null,
+      "citations": [
+        {
+          "source_key": "wd:Q45432073",
+          "locator": "P26（配偶）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q45409552",
+          "locator": "P26（配偶）",
+          "note": null
+        },
+        {
+          "source_key": "cbdb:26228",
           "locator": "亲属关系：妻子",
           "note": "CBDB 注明此条来源：宋人傳記資料索引(電子版)"
         }
@@ -16401,6 +19805,48 @@
         {
           "source_key": "wd:Q20688418",
           "locator": "P22（父）",
+          "note": null
+        }
+      ]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "wd:Q15908672",
+      "child_key": "wd:Q23888312",
+      "parent_name": "王正黼",
+      "child_name": "王恭立",
+      "parent_person_id": "p_zyHxsVZox5Dbnu11LPXNR6",
+      "child_person_id": null,
+      "citations": [
+        {
+          "source_key": "wd:Q15908672",
+          "locator": "P40（子女）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q23888312",
+          "locator": "P22（父）",
+          "note": null
+        }
+      ]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "wd:Q28414907",
+      "child_key": "wd:Q45359463",
+      "parent_name": "王明",
+      "child_name": "王扶",
+      "parent_person_id": null,
+      "child_person_id": "p_Myr7yL2y4NUdhUtw1bG9bq",
+      "citations": [
+        {
+          "source_key": "wd:Q45359463",
+          "locator": "P22（父）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q28414907",
+          "locator": "P40（子女）",
           "note": null
         }
       ]
@@ -16500,6 +19946,27 @@
       ]
     },
     {
+      "kind": "parent",
+      "parent_key": "wd:Q19826406",
+      "child_key": "wd:Q25918183",
+      "parent_name": "王秉",
+      "child_name": "王裕",
+      "parent_person_id": null,
+      "child_person_id": "p_nT7k2pCzDkpksQ1s3p6rcV",
+      "citations": [
+        {
+          "source_key": "wd:Q25918183",
+          "locator": "P22（父）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q19826406",
+          "locator": "P40（子女）",
+          "note": null
+        }
+      ]
+    },
+    {
       "kind": "spouse",
       "a_key": "wd:Q25918183",
       "b_key": "wd:Q10917554",
@@ -16558,6 +20025,27 @@
         {
           "source_key": "wd:Q13688950",
           "locator": "P26（配偶）",
+          "note": null
+        }
+      ]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "wd:Q25918183",
+      "child_key": "wd:Q25918179",
+      "parent_name": "王裕",
+      "child_name": "王氏",
+      "parent_person_id": "p_nT7k2pCzDkpksQ1s3p6rcV",
+      "child_person_id": null,
+      "citations": [
+        {
+          "source_key": "wd:Q25918183",
+          "locator": "P40（子女）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q25918179",
+          "locator": "P22（父）",
           "note": null
         }
       ]
@@ -16653,6 +20141,79 @@
           "source_key": "cbdb:175927",
           "locator": "亲属关系：子",
           "note": "CBDB 注明此条来源：唐五代人物傳記與社會網絡資料庫(1.0版)"
+        }
+      ]
+    },
+    {
+      "kind": "spouse",
+      "a_key": "wd:Q45510314",
+      "b_key": "wd:Q65802952",
+      "a_name": "王将勗",
+      "b_name": "李氏",
+      "a_person_id": "p_ELimFJDuCmQgYQUz8JcHYB",
+      "b_person_id": null,
+      "citations": [
+        {
+          "source_key": "wd:Q45510314",
+          "locator": "P26（配偶）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q65802952",
+          "locator": "P26（配偶）",
+          "note": null
+        },
+        {
+          "source_key": "cbdb:194048",
+          "locator": "亲属关系：妻子",
+          "note": "CBDB 注明此条来源：唐五代人物傳記與社會網絡資料庫(1.0版)"
+        }
+      ]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "wd:Q7967386",
+      "child_key": "wd:Q65803664",
+      "parent_name": "王承宗",
+      "child_name": "王氏",
+      "parent_person_id": "p_eY8EfR1RNk6RwbouvBQCRd",
+      "child_person_id": null,
+      "citations": [
+        {
+          "source_key": "wd:Q7967386",
+          "locator": "P40（子女）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q65803664",
+          "locator": "P22（父）",
+          "note": null
+        },
+        {
+          "source_key": "cbdb:169026",
+          "locator": "亲属关系：女兒",
+          "note": "CBDB 注明此条来源：唐代墓誌彙編續集"
+        }
+      ]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "wd:Q7967386",
+      "child_key": "wd:Q65803894",
+      "parent_name": "王承宗",
+      "child_name": "王氏",
+      "parent_person_id": "p_eY8EfR1RNk6RwbouvBQCRd",
+      "child_person_id": null,
+      "citations": [
+        {
+          "source_key": "wd:Q7967386",
+          "locator": "P40（子女）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q65803894",
+          "locator": "P22（父）",
+          "note": null
         }
       ]
     },
@@ -16756,6 +20317,27 @@
         },
         {
           "source_key": "wd:Q45501594",
+          "locator": "P40（子女）",
+          "note": null
+        }
+      ]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "wd:Q45527504",
+      "child_key": "wd:Q45527566",
+      "parent_name": "王景",
+      "child_name": "王俊卿",
+      "parent_person_id": null,
+      "child_person_id": "p_yaK3v157GQYGTQP5RhE7JJ",
+      "citations": [
+        {
+          "source_key": "wd:Q45527566",
+          "locator": "P22（父）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q45527504",
           "locator": "P40（子女）",
           "note": null
         }
@@ -17040,6 +20622,27 @@
     },
     {
       "kind": "parent",
+      "parent_key": "wd:Q45559885",
+      "child_key": "wd:Q45560451",
+      "parent_name": "王仁",
+      "child_name": "王原道",
+      "parent_person_id": null,
+      "child_person_id": "p_vxysH4B8xpbAGBTVKY3Dh2",
+      "citations": [
+        {
+          "source_key": "wd:Q45560451",
+          "locator": "P22（父）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q45559885",
+          "locator": "P40（子女）",
+          "note": null
+        }
+      ]
+    },
+    {
+      "kind": "parent",
       "parent_key": "wd:Q45580815",
       "child_key": "wd:Q45580879",
       "parent_name": "王棋",
@@ -17054,6 +20657,27 @@
         },
         {
           "source_key": "wd:Q45580815",
+          "locator": "P40（子女）",
+          "note": null
+        }
+      ]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "wd:Q45581298",
+      "child_key": "wd:Q45581362",
+      "parent_name": "王缙",
+      "child_name": "王朝用",
+      "parent_person_id": null,
+      "child_person_id": "p_n8gJ8LAH7u4tCjt15ALE93",
+      "citations": [
+        {
+          "source_key": "wd:Q45581362",
+          "locator": "P22（父）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q45581298",
           "locator": "P40（子女）",
           "note": null
         }
@@ -17134,6 +20758,27 @@
     },
     {
       "kind": "parent",
+      "parent_key": "wd:Q45449642",
+      "child_key": "wd:Q45449706",
+      "parent_name": "王睿",
+      "child_name": "王文",
+      "parent_person_id": null,
+      "child_person_id": "p_qa4sYo9q4waHmECZyCZ8M3",
+      "citations": [
+        {
+          "source_key": "wd:Q45449706",
+          "locator": "P22（父）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q45449642",
+          "locator": "P40（子女）",
+          "note": null
+        }
+      ]
+    },
+    {
+      "kind": "parent",
       "parent_key": "wd:Q16260916",
       "child_key": "wd:Q45461070",
       "parent_name": "王象春",
@@ -17160,6 +20805,48 @@
     },
     {
       "kind": "parent",
+      "parent_key": "wd:Q45476347",
+      "child_key": "wd:Q45476476",
+      "parent_name": "王升",
+      "child_name": "王琏",
+      "parent_person_id": null,
+      "child_person_id": "p_snnHYhecDpk5HZ7B1gQ1jo",
+      "citations": [
+        {
+          "source_key": "wd:Q45476476",
+          "locator": "P22（父）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q45476347",
+          "locator": "P40（子女）",
+          "note": null
+        }
+      ]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "wd:Q45484137",
+      "child_key": "wd:Q45484201",
+      "parent_name": "王海",
+      "child_name": "王升",
+      "parent_person_id": null,
+      "child_person_id": "p_L6DCbYaxvTKejPkJXVgChn",
+      "citations": [
+        {
+          "source_key": "wd:Q45484201",
+          "locator": "P22（父）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q45484137",
+          "locator": "P40（子女）",
+          "note": null
+        }
+      ]
+    },
+    {
+      "kind": "parent",
       "parent_key": "wd:Q45513436",
       "child_key": "wd:Q45513501",
       "parent_name": "王纉",
@@ -17174,6 +20861,48 @@
         },
         {
           "source_key": "wd:Q45513436",
+          "locator": "P40（子女）",
+          "note": null
+        }
+      ]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "wd:Q45614374",
+      "child_key": "wd:Q45614438",
+      "parent_name": "王明",
+      "child_name": "王訚",
+      "parent_person_id": null,
+      "child_person_id": "p_tc8tLCyEu49sXcAYbw2GP6",
+      "citations": [
+        {
+          "source_key": "wd:Q45614438",
+          "locator": "P22（父）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q45614374",
+          "locator": "P40（子女）",
+          "note": null
+        }
+      ]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "wd:Q45620962",
+      "child_key": "wd:Q45621024",
+      "parent_name": "王子文",
+      "child_name": "王昺",
+      "parent_person_id": null,
+      "child_person_id": "p_qMBPniX9L5uzUSacCxGcRs",
+      "citations": [
+        {
+          "source_key": "wd:Q45621024",
+          "locator": "P22（父）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q45620962",
           "locator": "P40（子女）",
           "note": null
         }
@@ -17295,6 +21024,27 @@
       ]
     },
     {
+      "kind": "parent",
+      "parent_key": "wd:Q45685646",
+      "child_key": "wd:Q45685614",
+      "parent_name": "王仁表",
+      "child_name": "王敬同",
+      "parent_person_id": null,
+      "child_person_id": "p_tbdF719iaM43dCPwE1ecxt",
+      "citations": [
+        {
+          "source_key": "wd:Q45685614",
+          "locator": "P22（父）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q45685646",
+          "locator": "P40（子女）",
+          "note": null
+        }
+      ]
+    },
+    {
       "kind": "spouse",
       "a_key": "wd:Q56005549",
       "b_key": "wd:Q61306665",
@@ -17312,6 +21062,32 @@
           "source_key": "wd:Q61306665",
           "locator": "P26（配偶）",
           "note": null
+        }
+      ]
+    },
+    {
+      "kind": "spouse",
+      "a_key": "wd:Q45690317",
+      "b_key": "wd:Q65812398",
+      "a_name": "王培龄",
+      "b_name": "崔氏",
+      "a_person_id": "p_qzznHsDy1MaFH1YWPbYub4",
+      "b_person_id": null,
+      "citations": [
+        {
+          "source_key": "wd:Q45690317",
+          "locator": "P26（配偶）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q65812398",
+          "locator": "P26（配偶）",
+          "note": null
+        },
+        {
+          "source_key": "cbdb:202447",
+          "locator": "亲属关系：妻子",
+          "note": "CBDB 注明此条来源：嘉靖八年進士登科錄:一卷"
         }
       ]
     },
@@ -17364,6 +21140,84 @@
           "source_key": "cbdb:207031",
           "locator": "亲属关系：妻子",
           "note": "CBDB 注明此条来源：萬曆丙戌科進士同年總錄"
+        }
+      ]
+    },
+    {
+      "kind": "spouse",
+      "a_key": "wd:Q45458696",
+      "b_key": "wd:Q65831333",
+      "a_name": "王宗性",
+      "b_name": "孙氏",
+      "a_person_id": "p_ABHWjEscFjoCVEgF2qr4dX",
+      "b_person_id": null,
+      "citations": [
+        {
+          "source_key": "wd:Q45458696",
+          "locator": "P26（配偶）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q65831333",
+          "locator": "P26（配偶）",
+          "note": null
+        },
+        {
+          "source_key": "cbdb:203595",
+          "locator": "亲属关系：妻子",
+          "note": "CBDB 注明此条来源：嘉靖二十三年登科錄:一卷"
+        }
+      ]
+    },
+    {
+      "kind": "spouse",
+      "a_key": "wd:Q16260916",
+      "b_key": "wd:Q65837803",
+      "a_name": "王象春",
+      "b_name": "李氏",
+      "a_person_id": "p_1vwHH8EjSEP1q2oifpwF8P",
+      "b_person_id": null,
+      "citations": [
+        {
+          "source_key": "wd:Q16260916",
+          "locator": "P26（配偶）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q65837803",
+          "locator": "P26（配偶）",
+          "note": null
+        },
+        {
+          "source_key": "cbdb:126731",
+          "locator": "亲属关系：妻子",
+          "note": "CBDB 注明此条来源：萬曆三十八年庚戌科序齒錄:一卷"
+        }
+      ]
+    },
+    {
+      "kind": "spouse",
+      "a_key": "wd:Q16260916",
+      "b_key": "wd:Q65837810",
+      "a_name": "王象春",
+      "b_name": "许氏",
+      "a_person_id": "p_1vwHH8EjSEP1q2oifpwF8P",
+      "b_person_id": null,
+      "citations": [
+        {
+          "source_key": "wd:Q16260916",
+          "locator": "P26（配偶）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q65837810",
+          "locator": "P26（配偶）",
+          "note": null
+        },
+        {
+          "source_key": "cbdb:126731",
+          "locator": "亲属关系：第二任妻",
+          "note": "CBDB 注明此条来源：萬曆三十八年庚戌科序齒錄:一卷"
         }
       ]
     },
@@ -17634,6 +21488,58 @@
       ]
     },
     {
+      "kind": "spouse",
+      "a_key": "wd:Q65903516",
+      "b_key": "wd:Q65904233",
+      "a_name": "王稌",
+      "b_name": "丁氏",
+      "a_person_id": "p_Djkmc4uicJBuT6DjuX7m7t",
+      "b_person_id": null,
+      "citations": [
+        {
+          "source_key": "wd:Q65904233",
+          "locator": "P26（配偶）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q65903516",
+          "locator": "P26（配偶）",
+          "note": null
+        },
+        {
+          "source_key": "cbdb:437664",
+          "locator": "亲属关系：第一任妻",
+          "note": "CBDB 注明此条来源：未知"
+        }
+      ]
+    },
+    {
+      "kind": "spouse",
+      "a_key": "wd:Q65903516",
+      "b_key": "wd:Q65904236",
+      "a_name": "王稌",
+      "b_name": "吴氏",
+      "a_person_id": "p_Djkmc4uicJBuT6DjuX7m7t",
+      "b_person_id": null,
+      "citations": [
+        {
+          "source_key": "wd:Q65904236",
+          "locator": "P26（配偶）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q65903516",
+          "locator": "P26（配偶）",
+          "note": null
+        },
+        {
+          "source_key": "cbdb:437664",
+          "locator": "亲属关系：第二任妻",
+          "note": "CBDB 注明此条来源：未知"
+        }
+      ]
+    },
+    {
       "kind": "parent",
       "parent_key": "wd:Q45359594",
       "child_key": "wd:Q45401685",
@@ -17712,6 +21618,32 @@
       ]
     },
     {
+      "kind": "spouse",
+      "a_key": "wd:Q45381153",
+      "b_key": "wd:Q45434003",
+      "a_name": "王冲",
+      "b_name": "华氏",
+      "a_person_id": "p_ro6G6j28vQb3THHmGL9bxo",
+      "b_person_id": null,
+      "citations": [
+        {
+          "source_key": "wd:Q45434003",
+          "locator": "P26（配偶）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q45381153",
+          "locator": "P26（配偶）",
+          "note": null
+        },
+        {
+          "source_key": "cbdb:15752",
+          "locator": "亲属关系：妻子",
+          "note": "CBDB 注明此条来源：宋人傳記資料索引(電子版)"
+        }
+      ]
+    },
+    {
       "kind": "parent",
       "parent_key": "wd:Q45442278",
       "child_key": "wd:Q45442342",
@@ -17727,6 +21659,27 @@
         },
         {
           "source_key": "wd:Q45442342",
+          "locator": "P22（父）",
+          "note": null
+        }
+      ]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "wd:Q45491686",
+      "child_key": "wd:Q45491751",
+      "parent_name": "王云",
+      "child_name": "王成",
+      "parent_person_id": null,
+      "child_person_id": "p_Ns4Cdmr9SZRQforztCwkrA",
+      "citations": [
+        {
+          "source_key": "wd:Q45491686",
+          "locator": "P40（子女）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q45491751",
           "locator": "P22（父）",
           "note": null
         }
@@ -17802,6 +21755,32 @@
     },
     {
       "kind": "parent",
+      "parent_key": "wd:Q45362965",
+      "child_key": "wd:Q45364057",
+      "parent_name": "王涣",
+      "child_name": "王氏",
+      "parent_person_id": "p_X1JHNSNn6VXFCTFVn6HXuA",
+      "child_person_id": null,
+      "citations": [
+        {
+          "source_key": "wd:Q45364057",
+          "locator": "P22（父）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q45362965",
+          "locator": "P40（子女）",
+          "note": null
+        },
+        {
+          "source_key": "cbdb:3957",
+          "locator": "亲属关系：女兒",
+          "note": "CBDB 注明此条来源：未知"
+        }
+      ]
+    },
+    {
+      "kind": "parent",
       "parent_key": "wd:Q45387199",
       "child_key": "wd:Q45364574",
       "parent_name": "王世彦",
@@ -17823,6 +21802,79 @@
           "source_key": "cbdb:17779",
           "locator": "亲属关系：女兒",
           "note": "CBDB 注明此条来源：未知"
+        }
+      ]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "wd:Q45387147",
+      "child_key": "wd:Q45364582",
+      "parent_name": "王世厚",
+      "child_name": "王氏",
+      "parent_person_id": "p_ZPiJcbwj4KJjw7t1YK6E4f",
+      "child_person_id": null,
+      "citations": [
+        {
+          "source_key": "wd:Q45364582",
+          "locator": "P22（父）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q45387147",
+          "locator": "P40（子女）",
+          "note": null
+        },
+        {
+          "source_key": "cbdb:17763",
+          "locator": "亲属关系：女兒",
+          "note": "CBDB 注明此条来源：未知"
+        }
+      ]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "wd:Q45387199",
+      "child_key": "wd:Q45364590",
+      "parent_name": "王世彦",
+      "child_name": "王氏",
+      "parent_person_id": "p_FeTYKhXT263ArThLLQ1A9F",
+      "child_person_id": null,
+      "citations": [
+        {
+          "source_key": "wd:Q45364590",
+          "locator": "P22（父）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q45387199",
+          "locator": "P40（子女）",
+          "note": null
+        },
+        {
+          "source_key": "cbdb:17779",
+          "locator": "亲属关系：女兒",
+          "note": "CBDB 注明此条来源：未知"
+        }
+      ]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "wd:Q45381147",
+      "child_key": "wd:Q45381148",
+      "parent_name": "王厚",
+      "child_name": "王化",
+      "parent_person_id": null,
+      "child_person_id": "p_diPVGy9BzMjoKiUc6icH9N",
+      "citations": [
+        {
+          "source_key": "wd:Q45381147",
+          "locator": "P40（子女）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q45381148",
+          "locator": "P22（父）",
+          "note": null
         }
       ]
     },
@@ -17879,6 +21931,75 @@
       ]
     },
     {
+      "kind": "parent",
+      "parent_key": "wd:Q45401644",
+      "child_key": "wd:Q45401645",
+      "parent_name": "王迁",
+      "child_name": "王文",
+      "parent_person_id": null,
+      "child_person_id": "p_UaNg1wksvazhfK4rTdvraK",
+      "citations": [
+        {
+          "source_key": "wd:Q45401644",
+          "locator": "P40（子女）",
+          "note": null
+        },
+        {
+          "source_key": "wd:Q45401645",
+          "locator": "P22（父）",
+          "note": null
+        }
+      ]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "wd:Q45409553",
+      "child_key": "wd:Q45411116",
+      "parent_name": "王彦博",
+      "child_name": "王龜齡",
+      "parent_person_id": "p_zAMNQJueCwPPKR5vjoLaAD",
+      "child_person_id": "p_A4y88KqDgYC7CBnr5hYZf3",
+      "citations": [
+        {
+          "source_key": "cbdb:26229",
+          "locator": "亲属关系：長子",
+          "note": "CBDB 注明此条来源：未知"
+        }
+      ]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "wd:Q13668762",
+      "child_key": "cbdb:513576",
+      "parent_name": "王熙",
+      "child_name": "王克承",
+      "parent_person_id": "p_tebqY22pd9wZzkQFGZaaDe",
+      "child_person_id": "p_7NDJ89UZ7vGVaeWE7kAwXN",
+      "citations": [
+        {
+          "source_key": "cbdb:56873",
+          "locator": "亲属关系：子",
+          "note": "CBDB 注明此条来源：人名權威資料（中央研究院歷史語言研究所）"
+        }
+      ]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "wd:Q13668762",
+      "child_key": "cbdb:513577",
+      "parent_name": "王熙",
+      "child_name": "王克賡",
+      "parent_person_id": "p_tebqY22pd9wZzkQFGZaaDe",
+      "child_person_id": "p_u3XFwsnU5Aqqrr7MXVuWXG",
+      "citations": [
+        {
+          "source_key": "cbdb:56873",
+          "locator": "亲属关系：子",
+          "note": "CBDB 注明此条来源：人名權威資料（中央研究院歷史語言研究所）"
+        }
+      ]
+    },
+    {
       "kind": "adoptive_parent",
       "parent_key": "wd:Q45393587",
       "child_key": "wd:Q24837437",
@@ -17891,6 +22012,198 @@
           "source_key": "cbdb:19873",
           "locator": "亲属关系：嗣父",
           "note": "CBDB 注明此条来源：郝若貝數據（代碼調整）"
+        }
+      ]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "wd:Q18235078",
+      "child_key": "cbdb:702263",
+      "parent_name": "王士琦",
+      "child_name": "王立程",
+      "parent_person_id": "p_D6wSSzErFedvXoDGGx8HqR",
+      "child_person_id": "p_SWfQfCDCKhLf9P4kgMuHQS",
+      "citations": [
+        {
+          "source_key": "cbdb:35067",
+          "locator": "亲属关系：次子",
+          "note": "CBDB 注明此条来源：臨海縣志"
+        }
+      ]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "wd:Q45652582",
+      "child_key": "cbdb:526716",
+      "parent_name": "王必达",
+      "child_name": "王維豫",
+      "parent_person_id": "p_ZbD99C4BekXwqC5kDUcsjZ",
+      "child_person_id": "p_iFTHomc2Wt9CNV2GS5Hguz",
+      "citations": [
+        {
+          "source_key": "cbdb:69135",
+          "locator": "亲属关系：子",
+          "note": "CBDB 注明此条来源：人名權威資料（中央研究院歷史語言研究所）"
+        }
+      ]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "wd:Q45652582",
+      "child_key": "cbdb:526717",
+      "parent_name": "王必达",
+      "child_name": "王維禧",
+      "parent_person_id": "p_ZbD99C4BekXwqC5kDUcsjZ",
+      "child_person_id": "p_YGPufLUWajzkTLcs2sQboV",
+      "citations": [
+        {
+          "source_key": "cbdb:69135",
+          "locator": "亲属关系：子",
+          "note": "CBDB 注明此条来源：人名權威資料（中央研究院歷史語言研究所）"
+        }
+      ]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "wd:Q45652582",
+      "child_key": "cbdb:526718",
+      "parent_name": "王必达",
+      "child_name": "王維瀚",
+      "parent_person_id": "p_ZbD99C4BekXwqC5kDUcsjZ",
+      "child_person_id": "p_FrJEqY9jd798BiS6FFwQdX",
+      "citations": [
+        {
+          "source_key": "cbdb:69135",
+          "locator": "亲属关系：子",
+          "note": "CBDB 注明此条来源：人名權威資料（中央研究院歷史語言研究所）"
+        }
+      ]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "wd:Q45652582",
+      "child_key": "cbdb:526719",
+      "parent_name": "王必达",
+      "child_name": "王鵬海",
+      "parent_person_id": "p_ZbD99C4BekXwqC5kDUcsjZ",
+      "child_person_id": "p_5NQtk9mAwoQps4NSXJ6J6x",
+      "citations": [
+        {
+          "source_key": "cbdb:69135",
+          "locator": "亲属关系：子",
+          "note": "CBDB 注明此条来源：人名權威資料（中央研究院歷史語言研究所）"
+        }
+      ]
+    },
+    {
+      "kind": "spouse",
+      "a_key": "wd:Q45401756",
+      "b_key": "cbdb:577087",
+      "a_name": "王益恭",
+      "b_name": "李氏",
+      "a_person_id": "p_8yGvQV64DEaN7zXdMCaL2M",
+      "b_person_id": "p_98QQdRkf8cCt61bD928i6c",
+      "citations": [
+        {
+          "source_key": "cbdb:22054",
+          "locator": "亲属关系：妻子",
+          "note": "CBDB 注明此条来源：散見宋金元墓誌地券輯錄六編"
+        }
+      ]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "wd:Q16077592",
+      "child_key": "cbdb:526680",
+      "parent_name": "王士祜",
+      "child_name": "王啟㴶",
+      "parent_person_id": "p_PqJivP1sBKeAv7sst51d32",
+      "child_person_id": null,
+      "citations": [
+        {
+          "source_key": "cbdb:35062",
+          "locator": "亲属关系：子",
+          "note": "CBDB 注明此条来源：人名權威資料（中央研究院歷史語言研究所）"
+        }
+      ]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "wd:Q16077592",
+      "child_key": "cbdb:526681",
+      "parent_name": "王士祜",
+      "child_name": "王啟涫",
+      "parent_person_id": "p_PqJivP1sBKeAv7sst51d32",
+      "child_person_id": null,
+      "citations": [
+        {
+          "source_key": "cbdb:35062",
+          "locator": "亲属关系：子",
+          "note": "CBDB 注明此条来源：人名權威資料（中央研究院歷史語言研究所）"
+        }
+      ]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "wd:Q45427492",
+      "child_key": "wd:Q45430826",
+      "parent_name": "王松龄",
+      "child_name": "王聿",
+      "parent_person_id": "p_Bxf4gH2xyWjLA2FCR3BhN7",
+      "child_person_id": null,
+      "citations": [
+        {
+          "source_key": "cbdb:36706",
+          "locator": "亲属关系：子",
+          "note": "CBDB 注明此条来源：宋人傳記資料索引(電子版)"
+        }
+      ]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "wd:Q45427492",
+      "child_key": "wd:Q45431137",
+      "parent_name": "王松龄",
+      "child_name": "王中",
+      "parent_person_id": "p_Bxf4gH2xyWjLA2FCR3BhN7",
+      "child_person_id": null,
+      "citations": [
+        {
+          "source_key": "cbdb:36706",
+          "locator": "亲属关系：子",
+          "note": "CBDB 注明此条来源：宋人傳記資料索引(電子版)"
+        }
+      ]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "wd:Q45577422",
+      "child_key": "cbdb:550852",
+      "parent_name": "王汝鲁",
+      "child_name": "王應修",
+      "parent_person_id": "p_iRoPCMQGG7T8QWQEfbMdBx",
+      "child_person_id": null,
+      "citations": [
+        {
+          "source_key": "cbdb:126502",
+          "locator": "亲属关系：子",
+          "note": "CBDB 注明此条来源：南陽府志"
+        }
+      ]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "wd:Q65903516",
+      "child_key": "wd:Q15897288",
+      "parent_name": "王稌",
+      "child_name": "王汶",
+      "parent_person_id": "p_Djkmc4uicJBuT6DjuX7m7t",
+      "child_person_id": null,
+      "citations": [
+        {
+          "source_key": "cbdb:437664",
+          "locator": "亲属关系：子",
+          "note": "CBDB 注明此条来源：未知"
         }
       ]
     },
@@ -17912,16 +22225,1711 @@
     }
   ],
   "identity_merges": [],
-  "name_collisions": [],
-  "unmapped_cbdb_relations": [],
-  "skipped": [],
+  "name_collisions": [
+    {
+      "key": "wd:Q45430725",
+      "name": "赵氏",
+      "existing": [
+        {
+          "person_id": "p_UgAKkUc34kWwMh9196acWP",
+          "name": "赵氏"
+        },
+        {
+          "person_id": "p_SyGzt2QVX9p9429Xmvya6D",
+          "name": "赵氏"
+        },
+        {
+          "person_id": "p_hCnqrGYXkPvJd8A849zxFy",
+          "name": "赵氏"
+        }
+      ],
+      "note": "同名但外部标识不同：可能是同名异人，也可能需要人工提出合并提案"
+    },
+    {
+      "key": "wd:Q65801416",
+      "name": "李氏",
+      "existing": [
+        {
+          "person_id": "p_s92BnuiYU99B9CbbcpkN5z",
+          "name": "李氏"
+        },
+        {
+          "person_id": "p_ETGfJaPpjfjM3GNJ888gZX",
+          "name": "李氏"
+        },
+        {
+          "person_id": "p_a3GyCfQsaAPkPQhLi9t2Z8",
+          "name": "李氏"
+        },
+        {
+          "person_id": "p_EkbtB6W15MsQZYuHoEPBhi",
+          "name": "李氏"
+        },
+        {
+          "person_id": "p_JFQHkPEwEAq8jJVUaH1sob",
+          "name": "李氏"
+        },
+        {
+          "person_id": "p_nVeRPzH9zM6X3E5H4rwVq1",
+          "name": "李氏"
+        },
+        {
+          "person_id": "p_98QQdRkf8cCt61bD928i6c",
+          "name": "李氏"
+        }
+      ],
+      "note": "同名但外部标识不同：可能是同名异人，也可能需要人工提出合并提案"
+    },
+    {
+      "key": "wd:Q13688131",
+      "name": "王氏",
+      "existing": [
+        {
+          "person_id": "p_svNoVTBbnvNZLtqQbge32p",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_3QK9sxen8NvQMirjSLNDjn",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_wzKvWDo53UBRUkzm5yDksN",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_2qmGd8DfoAfvLJZWcYMggW",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_HT1EZmE7VzhRHgSwmzme63",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_Ji6uf48BPmwCS3ik42iRg6",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_q7Qd8bWirDBt2fuJ4Z1Gc2",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_pRjGYWdJbBfU6XeVQFfhre",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_cZvYCBgN67MGf6TAYHFPB7",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_rS43g15uFE9NE2ATs6hXvh",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_xyPtAQ7AR8yTpy2qwHiGWa",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_2SPbMq35G8ocJgxHXsAm94",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_Vs1PRNKHH6ZpeN7kAJmKti",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_ppJ6EQ3ynJJawJNuqB48SQ",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_YbJtXntaA19PL7EU5mpmxE",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_Rqtj2SNyBdvLmz523jMBP7",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_FkG1TtDRuH3sDgFUz4V9Z7",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_cFrrQD9w9e7DqR4q2v5s6z",
+          "name": "王氏"
+        }
+      ],
+      "note": "同名但外部标识不同：可能是同名异人，也可能需要人工提出合并提案"
+    },
+    {
+      "key": "wd:Q25918179",
+      "name": "王氏",
+      "existing": [
+        {
+          "person_id": "p_svNoVTBbnvNZLtqQbge32p",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_3QK9sxen8NvQMirjSLNDjn",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_wzKvWDo53UBRUkzm5yDksN",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_2qmGd8DfoAfvLJZWcYMggW",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_HT1EZmE7VzhRHgSwmzme63",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_Ji6uf48BPmwCS3ik42iRg6",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_q7Qd8bWirDBt2fuJ4Z1Gc2",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_pRjGYWdJbBfU6XeVQFfhre",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_cZvYCBgN67MGf6TAYHFPB7",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_rS43g15uFE9NE2ATs6hXvh",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_xyPtAQ7AR8yTpy2qwHiGWa",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_2SPbMq35G8ocJgxHXsAm94",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_Vs1PRNKHH6ZpeN7kAJmKti",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_ppJ6EQ3ynJJawJNuqB48SQ",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_YbJtXntaA19PL7EU5mpmxE",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_Rqtj2SNyBdvLmz523jMBP7",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_FkG1TtDRuH3sDgFUz4V9Z7",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_cFrrQD9w9e7DqR4q2v5s6z",
+          "name": "王氏"
+        }
+      ],
+      "note": "同名但外部标识不同：可能是同名异人，也可能需要人工提出合并提案"
+    },
+    {
+      "key": "wd:Q13688035",
+      "name": "王安国",
+      "existing": [
+        {
+          "person_id": "p_3junVkFJoVRzxzPkHGwJp6",
+          "name": "王安国"
+        },
+        {
+          "person_id": "p_WJ1Fv3Xeybue8CK9VGrZL3",
+          "name": "王安国"
+        }
+      ],
+      "note": "同名但外部标识不同：可能是同名异人，也可能需要人工提出合并提案"
+    },
+    {
+      "key": "wd:Q45630024",
+      "name": "王士则",
+      "existing": [
+        {
+          "person_id": "p_3YKBL6QdYUSrkYMomw6J8u",
+          "name": "王士则"
+        }
+      ],
+      "note": "同名但外部标识不同：可能是同名异人，也可能需要人工提出合并提案"
+    },
+    {
+      "key": "wd:Q45406222",
+      "name": "王明",
+      "existing": [
+        {
+          "person_id": "p_U5JQDU5J5YYRKaCvpa53pZ",
+          "name": "王明"
+        }
+      ],
+      "note": "同名但外部标识不同：可能是同名异人，也可能需要人工提出合并提案"
+    },
+    {
+      "key": "wd:Q45409550",
+      "name": "王志",
+      "existing": [
+        {
+          "person_id": "p_jLiWepWyuCmhBbQ3b2FAR9",
+          "name": "王志"
+        }
+      ],
+      "note": "同名但外部标识不同：可能是同名异人，也可能需要人工提出合并提案"
+    },
+    {
+      "key": "wd:Q45426092",
+      "name": "王忠",
+      "existing": [
+        {
+          "person_id": "p_pGgvd9aHsPh1LAew2MZPZ3",
+          "name": "王忠"
+        },
+        {
+          "person_id": "p_2GtSgGuXFEQG1GF9MBZwyj",
+          "name": "王忠"
+        }
+      ],
+      "note": "同名但外部标识不同：可能是同名异人，也可能需要人工提出合并提案"
+    },
+    {
+      "key": "wd:Q45432073",
+      "name": "周氏",
+      "existing": [
+        {
+          "person_id": "p_yffKt1mmwu33CpqKZiukGD",
+          "name": "周氏"
+        },
+        {
+          "person_id": "p_EVLq7xAUTLGpaeFfQpgjH5",
+          "name": "周氏"
+        }
+      ],
+      "note": "同名但外部标识不同：可能是同名异人，也可能需要人工提出合并提案"
+    },
+    {
+      "key": "wd:Q23888312",
+      "name": "王恭立",
+      "existing": [
+        {
+          "person_id": "p_bMAaT9wKa564tghxc5sJFm",
+          "name": "王恭立"
+        }
+      ],
+      "note": "同名但外部标识不同：可能是同名异人，也可能需要人工提出合并提案"
+    },
+    {
+      "key": "wd:Q28414907",
+      "name": "王明",
+      "existing": [
+        {
+          "person_id": "p_U5JQDU5J5YYRKaCvpa53pZ",
+          "name": "王明"
+        }
+      ],
+      "note": "同名但外部标识不同：可能是同名异人，也可能需要人工提出合并提案"
+    },
+    {
+      "key": "wd:Q19826406",
+      "name": "王秉",
+      "existing": [
+        {
+          "person_id": "p_Uf38YCijsBekSGKYAqdP3f",
+          "name": "王秉"
+        }
+      ],
+      "note": "同名但外部标识不同：可能是同名异人，也可能需要人工提出合并提案"
+    },
+    {
+      "key": "wd:Q45679870",
+      "name": "王某",
+      "existing": [
+        {
+          "person_id": "p_MsHVjVc63eV8A8rm6FJdQR",
+          "name": "王某"
+        },
+        {
+          "person_id": "p_TDm8AW3FGV4iqKti7zSPt9",
+          "name": "王某"
+        },
+        {
+          "person_id": "p_3KsfA45kmBBF2n4LZomJB3",
+          "name": "王某"
+        },
+        {
+          "person_id": "p_9De1waQrNPPNQ2rPBDtZB4",
+          "name": "王某"
+        },
+        {
+          "person_id": "p_1N6xv9M4BsN9VGrAgKCpoh",
+          "name": "王某"
+        }
+      ],
+      "note": "同名但外部标识不同：可能是同名异人，也可能需要人工提出合并提案"
+    },
+    {
+      "key": "wd:Q65802952",
+      "name": "李氏",
+      "existing": [
+        {
+          "person_id": "p_s92BnuiYU99B9CbbcpkN5z",
+          "name": "李氏"
+        },
+        {
+          "person_id": "p_ETGfJaPpjfjM3GNJ888gZX",
+          "name": "李氏"
+        },
+        {
+          "person_id": "p_a3GyCfQsaAPkPQhLi9t2Z8",
+          "name": "李氏"
+        },
+        {
+          "person_id": "p_EkbtB6W15MsQZYuHoEPBhi",
+          "name": "李氏"
+        },
+        {
+          "person_id": "p_JFQHkPEwEAq8jJVUaH1sob",
+          "name": "李氏"
+        },
+        {
+          "person_id": "p_nVeRPzH9zM6X3E5H4rwVq1",
+          "name": "李氏"
+        },
+        {
+          "person_id": "p_98QQdRkf8cCt61bD928i6c",
+          "name": "李氏"
+        }
+      ],
+      "note": "同名但外部标识不同：可能是同名异人，也可能需要人工提出合并提案"
+    },
+    {
+      "key": "wd:Q65803664",
+      "name": "王氏",
+      "existing": [
+        {
+          "person_id": "p_svNoVTBbnvNZLtqQbge32p",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_3QK9sxen8NvQMirjSLNDjn",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_wzKvWDo53UBRUkzm5yDksN",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_2qmGd8DfoAfvLJZWcYMggW",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_HT1EZmE7VzhRHgSwmzme63",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_Ji6uf48BPmwCS3ik42iRg6",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_q7Qd8bWirDBt2fuJ4Z1Gc2",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_pRjGYWdJbBfU6XeVQFfhre",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_cZvYCBgN67MGf6TAYHFPB7",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_rS43g15uFE9NE2ATs6hXvh",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_xyPtAQ7AR8yTpy2qwHiGWa",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_2SPbMq35G8ocJgxHXsAm94",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_Vs1PRNKHH6ZpeN7kAJmKti",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_ppJ6EQ3ynJJawJNuqB48SQ",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_YbJtXntaA19PL7EU5mpmxE",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_Rqtj2SNyBdvLmz523jMBP7",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_FkG1TtDRuH3sDgFUz4V9Z7",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_cFrrQD9w9e7DqR4q2v5s6z",
+          "name": "王氏"
+        }
+      ],
+      "note": "同名但外部标识不同：可能是同名异人，也可能需要人工提出合并提案"
+    },
+    {
+      "key": "wd:Q65803894",
+      "name": "王氏",
+      "existing": [
+        {
+          "person_id": "p_svNoVTBbnvNZLtqQbge32p",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_3QK9sxen8NvQMirjSLNDjn",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_wzKvWDo53UBRUkzm5yDksN",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_2qmGd8DfoAfvLJZWcYMggW",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_HT1EZmE7VzhRHgSwmzme63",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_Ji6uf48BPmwCS3ik42iRg6",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_q7Qd8bWirDBt2fuJ4Z1Gc2",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_pRjGYWdJbBfU6XeVQFfhre",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_cZvYCBgN67MGf6TAYHFPB7",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_rS43g15uFE9NE2ATs6hXvh",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_xyPtAQ7AR8yTpy2qwHiGWa",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_2SPbMq35G8ocJgxHXsAm94",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_Vs1PRNKHH6ZpeN7kAJmKti",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_ppJ6EQ3ynJJawJNuqB48SQ",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_YbJtXntaA19PL7EU5mpmxE",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_Rqtj2SNyBdvLmz523jMBP7",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_FkG1TtDRuH3sDgFUz4V9Z7",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_cFrrQD9w9e7DqR4q2v5s6z",
+          "name": "王氏"
+        }
+      ],
+      "note": "同名但外部标识不同：可能是同名异人，也可能需要人工提出合并提案"
+    },
+    {
+      "key": "wd:Q45527504",
+      "name": "王景",
+      "existing": [
+        {
+          "person_id": "p_E9ytpKcjGYRd1XZGve34gy",
+          "name": "王景"
+        },
+        {
+          "person_id": "p_x7oJfELhd7NSvt2eNbNHmH",
+          "name": "王景"
+        }
+      ],
+      "note": "同名但外部标识不同：可能是同名异人，也可能需要人工提出合并提案"
+    },
+    {
+      "key": "wd:Q45534681",
+      "name": "王某",
+      "existing": [
+        {
+          "person_id": "p_MsHVjVc63eV8A8rm6FJdQR",
+          "name": "王某"
+        },
+        {
+          "person_id": "p_TDm8AW3FGV4iqKti7zSPt9",
+          "name": "王某"
+        },
+        {
+          "person_id": "p_3KsfA45kmBBF2n4LZomJB3",
+          "name": "王某"
+        },
+        {
+          "person_id": "p_9De1waQrNPPNQ2rPBDtZB4",
+          "name": "王某"
+        },
+        {
+          "person_id": "p_1N6xv9M4BsN9VGrAgKCpoh",
+          "name": "王某"
+        }
+      ],
+      "note": "同名但外部标识不同：可能是同名异人，也可能需要人工提出合并提案"
+    },
+    {
+      "key": "wd:Q45559885",
+      "name": "王仁",
+      "existing": [
+        {
+          "person_id": "p_xf9mHYCEP9VyeEbrAsuExM",
+          "name": "王仁"
+        },
+        {
+          "person_id": "p_6MQPx8e4P1H3EwxJMHr8JX",
+          "name": "王仁"
+        },
+        {
+          "person_id": "p_4JXdLGzMSVWRt7DgGNQQq2",
+          "name": "王仁"
+        }
+      ],
+      "note": "同名但外部标识不同：可能是同名异人，也可能需要人工提出合并提案"
+    },
+    {
+      "key": "wd:Q45581298",
+      "name": "王缙",
+      "existing": [
+        {
+          "person_id": "p_g6dF114X12m5d8tCHGiM7v",
+          "name": "王缙"
+        },
+        {
+          "person_id": "p_mLR2LwV5BkQKiVBVi28oBG",
+          "name": "王缙"
+        }
+      ],
+      "note": "同名但外部标识不同：可能是同名异人，也可能需要人工提出合并提案"
+    },
+    {
+      "key": "wd:Q45449642",
+      "name": "王睿",
+      "existing": [
+        {
+          "person_id": "p_ajPx8SrP67WXjyut5BBExs",
+          "name": "王睿"
+        }
+      ],
+      "note": "同名但外部标识不同：可能是同名异人，也可能需要人工提出合并提案"
+    },
+    {
+      "key": "wd:Q45476347",
+      "name": "王升",
+      "existing": [
+        {
+          "person_id": "p_gNNKGh9cA8mj3unQMkURSh",
+          "name": "王升"
+        },
+        {
+          "person_id": "p_VczHkFQYHiLCrjxskrUgAh",
+          "name": "王升"
+        },
+        {
+          "person_id": "p_Yd6vgMHrGZjGdYeSegSCjG",
+          "name": "王昇"
+        },
+        {
+          "person_id": "p_L6DCbYaxvTKejPkJXVgChn",
+          "name": "王升"
+        }
+      ],
+      "note": "同名但外部标识不同：可能是同名异人，也可能需要人工提出合并提案"
+    },
+    {
+      "key": "wd:Q45484137",
+      "name": "王海",
+      "existing": [
+        {
+          "person_id": "p_HQnmd4RJFt5d8vk8o8quqE",
+          "name": "王海"
+        }
+      ],
+      "note": "同名但外部标识不同：可能是同名异人，也可能需要人工提出合并提案"
+    },
+    {
+      "key": "wd:Q45614374",
+      "name": "王明",
+      "existing": [
+        {
+          "person_id": "p_U5JQDU5J5YYRKaCvpa53pZ",
+          "name": "王明"
+        }
+      ],
+      "note": "同名但外部标识不同：可能是同名异人，也可能需要人工提出合并提案"
+    },
+    {
+      "key": "wd:Q45620962",
+      "name": "王子文",
+      "existing": [
+        {
+          "person_id": "p_e6CDHZCnGQLWRpjW3mGy4W",
+          "name": "王子文"
+        }
+      ],
+      "note": "同名但外部标识不同：可能是同名异人，也可能需要人工提出合并提案"
+    },
+    {
+      "key": "wd:Q45685646",
+      "name": "王仁表",
+      "existing": [
+        {
+          "person_id": "p_YKgY5PASw5q7sB3GUEPQKx",
+          "name": "王仁表"
+        }
+      ],
+      "note": "同名但外部标识不同：可能是同名异人，也可能需要人工提出合并提案"
+    },
+    {
+      "key": "wd:Q65812398",
+      "name": "崔氏",
+      "existing": [
+        {
+          "person_id": "p_nmvypYRhpYjKfdfveXF8w6",
+          "name": "崔氏"
+        },
+        {
+          "person_id": "p_sJy5HhqgLH3dD5PKotzG8r",
+          "name": "崔氏"
+        },
+        {
+          "person_id": "p_6CsBtUkKZsiVpBL5KJ61Rz",
+          "name": "崔氏"
+        }
+      ],
+      "note": "同名但外部标识不同：可能是同名异人，也可能需要人工提出合并提案"
+    },
+    {
+      "key": "wd:Q65831333",
+      "name": "孙氏",
+      "existing": [
+        {
+          "person_id": "p_xtFwKEaqPdvp16DkbDgGzk",
+          "name": "孙氏"
+        },
+        {
+          "person_id": "p_FN4LC4aWu5z2P5PomfDcX6",
+          "name": "孙氏"
+        }
+      ],
+      "note": "同名但外部标识不同：可能是同名异人，也可能需要人工提出合并提案"
+    },
+    {
+      "key": "wd:Q65837803",
+      "name": "李氏",
+      "existing": [
+        {
+          "person_id": "p_s92BnuiYU99B9CbbcpkN5z",
+          "name": "李氏"
+        },
+        {
+          "person_id": "p_ETGfJaPpjfjM3GNJ888gZX",
+          "name": "李氏"
+        },
+        {
+          "person_id": "p_a3GyCfQsaAPkPQhLi9t2Z8",
+          "name": "李氏"
+        },
+        {
+          "person_id": "p_EkbtB6W15MsQZYuHoEPBhi",
+          "name": "李氏"
+        },
+        {
+          "person_id": "p_JFQHkPEwEAq8jJVUaH1sob",
+          "name": "李氏"
+        },
+        {
+          "person_id": "p_nVeRPzH9zM6X3E5H4rwVq1",
+          "name": "李氏"
+        },
+        {
+          "person_id": "p_98QQdRkf8cCt61bD928i6c",
+          "name": "李氏"
+        }
+      ],
+      "note": "同名但外部标识不同：可能是同名异人，也可能需要人工提出合并提案"
+    },
+    {
+      "key": "wd:Q65837810",
+      "name": "许氏",
+      "existing": [
+        {
+          "person_id": "p_kaNBVNEbGPfpnDAZkK1GKx",
+          "name": "許氏"
+        }
+      ],
+      "note": "同名但外部标识不同：可能是同名异人，也可能需要人工提出合并提案"
+    },
+    {
+      "key": "wd:Q65904233",
+      "name": "丁氏",
+      "existing": [
+        {
+          "person_id": "p_46a9FyUQzyqQURH4Z2h6Bc",
+          "name": "丁氏"
+        }
+      ],
+      "note": "同名但外部标识不同：可能是同名异人，也可能需要人工提出合并提案"
+    },
+    {
+      "key": "wd:Q65904236",
+      "name": "吴氏",
+      "existing": [
+        {
+          "person_id": "p_pnAwQYPJDQVui1PAGN872g",
+          "name": "吴氏"
+        },
+        {
+          "person_id": "p_4xrT4auYPhfo7nPM4qHRLt",
+          "name": "吴氏"
+        },
+        {
+          "person_id": "p_H57wFvKcGMBv78q4Myh1Bn",
+          "name": "吴氏"
+        },
+        {
+          "person_id": "p_jhEZERf87Yu1gr8MbYEspe",
+          "name": "吴氏"
+        },
+        {
+          "person_id": "p_WdSei9h8Pyy5rewkZCDsYk",
+          "name": "吴氏"
+        },
+        {
+          "person_id": "p_3HBJFaXQ5Bc5jiBC8CU88s",
+          "name": "吴氏"
+        },
+        {
+          "person_id": "p_p67X5jLwzT8c9HGCZxfSPM",
+          "name": "吴氏"
+        }
+      ],
+      "note": "同名但外部标识不同：可能是同名异人，也可能需要人工提出合并提案"
+    },
+    {
+      "key": "wd:Q45434003",
+      "name": "华氏",
+      "existing": [
+        {
+          "person_id": "p_c8AedcMzSQfJtPntGjMp7J",
+          "name": "华氏"
+        }
+      ],
+      "note": "同名但外部标识不同：可能是同名异人，也可能需要人工提出合并提案"
+    },
+    {
+      "key": "wd:Q45491686",
+      "name": "王云",
+      "existing": [
+        {
+          "person_id": "p_5ZFLvSeeUmJx4Bz7m8b7Fz",
+          "name": "王云"
+        }
+      ],
+      "note": "同名但外部标识不同：可能是同名异人，也可能需要人工提出合并提案"
+    },
+    {
+      "key": "wd:Q45364057",
+      "name": "王氏",
+      "existing": [
+        {
+          "person_id": "p_svNoVTBbnvNZLtqQbge32p",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_3QK9sxen8NvQMirjSLNDjn",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_wzKvWDo53UBRUkzm5yDksN",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_2qmGd8DfoAfvLJZWcYMggW",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_HT1EZmE7VzhRHgSwmzme63",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_Ji6uf48BPmwCS3ik42iRg6",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_q7Qd8bWirDBt2fuJ4Z1Gc2",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_pRjGYWdJbBfU6XeVQFfhre",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_cZvYCBgN67MGf6TAYHFPB7",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_rS43g15uFE9NE2ATs6hXvh",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_xyPtAQ7AR8yTpy2qwHiGWa",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_2SPbMq35G8ocJgxHXsAm94",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_Vs1PRNKHH6ZpeN7kAJmKti",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_ppJ6EQ3ynJJawJNuqB48SQ",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_YbJtXntaA19PL7EU5mpmxE",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_Rqtj2SNyBdvLmz523jMBP7",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_FkG1TtDRuH3sDgFUz4V9Z7",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_cFrrQD9w9e7DqR4q2v5s6z",
+          "name": "王氏"
+        }
+      ],
+      "note": "同名但外部标识不同：可能是同名异人，也可能需要人工提出合并提案"
+    },
+    {
+      "key": "wd:Q45364582",
+      "name": "王氏",
+      "existing": [
+        {
+          "person_id": "p_svNoVTBbnvNZLtqQbge32p",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_3QK9sxen8NvQMirjSLNDjn",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_wzKvWDo53UBRUkzm5yDksN",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_2qmGd8DfoAfvLJZWcYMggW",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_HT1EZmE7VzhRHgSwmzme63",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_Ji6uf48BPmwCS3ik42iRg6",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_q7Qd8bWirDBt2fuJ4Z1Gc2",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_pRjGYWdJbBfU6XeVQFfhre",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_cZvYCBgN67MGf6TAYHFPB7",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_rS43g15uFE9NE2ATs6hXvh",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_xyPtAQ7AR8yTpy2qwHiGWa",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_2SPbMq35G8ocJgxHXsAm94",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_Vs1PRNKHH6ZpeN7kAJmKti",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_ppJ6EQ3ynJJawJNuqB48SQ",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_YbJtXntaA19PL7EU5mpmxE",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_Rqtj2SNyBdvLmz523jMBP7",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_FkG1TtDRuH3sDgFUz4V9Z7",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_cFrrQD9w9e7DqR4q2v5s6z",
+          "name": "王氏"
+        }
+      ],
+      "note": "同名但外部标识不同：可能是同名异人，也可能需要人工提出合并提案"
+    },
+    {
+      "key": "wd:Q45364590",
+      "name": "王氏",
+      "existing": [
+        {
+          "person_id": "p_svNoVTBbnvNZLtqQbge32p",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_3QK9sxen8NvQMirjSLNDjn",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_wzKvWDo53UBRUkzm5yDksN",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_2qmGd8DfoAfvLJZWcYMggW",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_HT1EZmE7VzhRHgSwmzme63",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_Ji6uf48BPmwCS3ik42iRg6",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_q7Qd8bWirDBt2fuJ4Z1Gc2",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_pRjGYWdJbBfU6XeVQFfhre",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_cZvYCBgN67MGf6TAYHFPB7",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_rS43g15uFE9NE2ATs6hXvh",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_xyPtAQ7AR8yTpy2qwHiGWa",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_2SPbMq35G8ocJgxHXsAm94",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_Vs1PRNKHH6ZpeN7kAJmKti",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_ppJ6EQ3ynJJawJNuqB48SQ",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_YbJtXntaA19PL7EU5mpmxE",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_Rqtj2SNyBdvLmz523jMBP7",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_FkG1TtDRuH3sDgFUz4V9Z7",
+          "name": "王氏"
+        },
+        {
+          "person_id": "p_cFrrQD9w9e7DqR4q2v5s6z",
+          "name": "王氏"
+        }
+      ],
+      "note": "同名但外部标识不同：可能是同名异人，也可能需要人工提出合并提案"
+    },
+    {
+      "key": "wd:Q45381147",
+      "name": "王厚",
+      "existing": [
+        {
+          "person_id": "p_8HNFAVKa8AYbQkkggbtSC6",
+          "name": "王厚"
+        }
+      ],
+      "note": "同名但外部标识不同：可能是同名异人，也可能需要人工提出合并提案"
+    },
+    {
+      "key": "wd:Q45401644",
+      "name": "王迁",
+      "existing": [
+        {
+          "person_id": "p_VbMFeBUAW5QmAsjzmSzGcM",
+          "name": "王迁"
+        }
+      ],
+      "note": "同名但外部标识不同：可能是同名异人，也可能需要人工提出合并提案"
+    },
+    {
+      "key": "wd:Q45430826",
+      "name": "王聿",
+      "existing": [
+        {
+          "person_id": "p_2Sf7wHrC1Q3pFLZe9t9cCH",
+          "name": "王聿"
+        }
+      ],
+      "note": "同名但外部标识不同：可能是同名异人，也可能需要人工提出合并提案"
+    },
+    {
+      "key": "wd:Q45431137",
+      "name": "王中",
+      "existing": [
+        {
+          "person_id": "p_J36df9E4xJh6CCRdbcfzz5",
+          "name": "王中"
+        }
+      ],
+      "note": "同名但外部标识不同：可能是同名异人，也可能需要人工提出合并提案"
+    },
+    {
+      "key": "wd:Q15897288",
+      "name": "王汶",
+      "existing": [
+        {
+          "person_id": "p_BSdKViSr47Ca2QyKQUdQhv",
+          "name": "王汶"
+        },
+        {
+          "person_id": "p_xtyYrh2ceBwZ769mV4SDUW",
+          "name": "王汶"
+        }
+      ],
+      "note": "同名但外部标识不同：可能是同名异人，也可能需要人工提出合并提案"
+    }
+  ],
+  "unmapped_cbdb_relations": [
+    {
+      "term": "弟",
+      "count": 86,
+      "examples": [
+        "王潮 → 王審知",
+        "王潮 → 王審邽",
+        "王伯庠 → 王伯序"
+      ]
+    },
+    {
+      "term": "兄",
+      "count": 78,
+      "examples": [
+        "王审知 → 王潮",
+        "王豫 → 王鼎",
+        "王伯序 → 王伯庠"
+      ]
+    },
+    {
+      "term": "孫",
+      "count": 49,
+      "examples": [
+        "王珪 → 王茂時",
+        "王伯庠 → 王梴",
+        "王厚 → 王阮"
+      ]
+    },
+    {
+      "term": "祖父",
+      "count": 24,
+      "examples": [
+        "王超 → 王方",
+        "王经 → 王可旺",
+        "王应吉 → 王經"
+      ]
+    },
+    {
+      "term": "曾祖",
+      "count": 24,
+      "examples": [
+        "王经 → 王志一",
+        "王应吉 → 王理",
+        "王原相 → 王瑤"
+      ]
+    },
+    {
+      "term": "岳父",
+      "count": 18,
+      "examples": [
+        "王士真 → 吳希光",
+        "王士真 → 李寶臣",
+        "王图炜 → 蔣伊"
+      ]
+    },
+    {
+      "term": "曾孫",
+      "count": 16,
+      "examples": [
+        "王伯庠 → 王鑐",
+        "王世规 → 王彥舉",
+        "王彦博 → 王懋"
+      ]
+    },
+    {
+      "term": "女婿",
+      "count": 13,
+      "examples": [
+        "王审知 → 劉文濟",
+        "王师古 → 汪浩",
+        "王鼎 → 孫侔"
+      ]
+    },
+    {
+      "term": "兄弟",
+      "count": 13,
+      "examples": [
+        "王静淑 → 王槐起",
+        "王贞淑 → 王鼎起",
+        "王贞淑 → 王霞起"
+      ]
+    },
+    {
+      "term": "從子",
+      "count": 9,
+      "examples": [
+        "王潮 → 王延嗣",
+        "王审知 → 王延嗣",
+        "王承德 → 王克臣"
+      ]
+    },
+    {
+      "term": "姊",
+      "count": 8,
+      "examples": [
+        "王贞淑 → 王端淑",
+        "王贞淑 → 王靜淑",
+        "王鼎起 → 王端淑"
+      ]
+    },
+    {
+      "term": "二女婿",
+      "count": 5,
+      "examples": [
+        "王伯庠 → 汪大有",
+        "王彦博 → 李臨",
+        "王益恭 → 高昉"
+      ]
+    },
+    {
+      "term": "妹",
+      "count": 5,
+      "examples": [
+        "王承衍 → 王氏",
+        "王静淑 → 王端淑",
+        "王静淑 → 王貞淑"
+      ]
+    },
+    {
+      "term": "長女婿",
+      "count": 4,
+      "examples": [
+        "王伯庠 → 周舜元",
+        "王彦博 → 閻師旦",
+        "王益恭 → 楚楷"
+      ]
+    },
+    {
+      "term": "姊妹",
+      "count": 4,
+      "examples": [
+        "王鼎起 → 王貞淑",
+        "王槐起 → 王靜淑",
+        "王岳起 → 王貞淑"
+      ]
+    },
+    {
+      "term": "過繼的嗣子",
+      "count": 3,
+      "examples": [
+        "王怀珪 → 王仲千",
+        "王士崧 → 王立程",
+        "王該 → 王珩"
+      ]
+    },
+    {
+      "term": "私生子女之本生母",
+      "count": 3,
+      "examples": [
+        "王原相 → 鄭氏",
+        "王宗蓁 → 方氏",
+        "王宗性 → 郭氏"
+      ]
+    },
+    {
+      "term": "繼母",
+      "count": 3,
+      "examples": [
+        "王正国 → 李氏",
+        "王培龄 → 閻氏",
+        "王汝鲁 → 李氏"
+      ]
+    },
+    {
+      "term": "三女婿",
+      "count": 3,
+      "examples": [
+        "王益恭 → 張保常",
+        "王氏 → 曹莊",
+        "王龜齡 → 祝晉"
+      ]
+    },
+    {
+      "term": "族子",
+      "count": 2,
+      "examples": [
+        "王潮 → 王彥英",
+        "王RR → 王士鵠"
+      ]
+    },
+    {
+      "term": "從父",
+      "count": 2,
+      "examples": [
+        "王侁 → 王格",
+        "王珩 → 王該"
+      ]
+    },
+    {
+      "term": "妻兄",
+      "count": 2,
+      "examples": [
+        "王图炜 → 蔣陳錫",
+        "王图炜 → 蔣廷錫"
+      ]
+    },
+    {
+      "term": "從兄",
+      "count": 2,
+      "examples": [
+        "王陟臣 → 王堯臣",
+        "王铨 → 王鎜"
+      ]
+    },
+    {
+      "term": "妻之祖父",
+      "count": 2,
+      "examples": [
+        "王渊 → 蔚昭敏",
+        "王敏文 → 韓琦"
+      ]
+    },
+    {
+      "term": "五世孫",
+      "count": 1,
+      "examples": [
+        "王珪 → 王師正"
+      ]
+    },
+    {
+      "term": "孫女婿",
+      "count": 1,
+      "examples": [
+        "王伯庠 → 孫瑜"
+      ]
+    },
+    {
+      "term": "外甥",
+      "count": 1,
+      "examples": [
+        "王豫 → 張崏"
+      ]
+    },
+    {
+      "term": "高祖",
+      "count": 1,
+      "examples": [
+        "王禔 → 王祖道"
+      ]
+    },
+    {
+      "term": "姻親",
+      "count": 1,
+      "examples": [
+        "王彦博 → 晁仲淵"
+      ]
+    },
+    {
+      "term": "子婦",
+      "count": 1,
+      "examples": [
+        "王弘福 → 李氏"
+      ]
+    },
+    {
+      "term": "姪孫",
+      "count": 1,
+      "examples": [
+        "王珩 → 王洌"
+      ]
+    },
+    {
+      "term": "過繼的嗣孫",
+      "count": 1,
+      "examples": [
+        "王珩 → 王洌"
+      ]
+    },
+    {
+      "term": "翁",
+      "count": 1,
+      "examples": [
+        "王贞淑 → 陳巽言"
+      ]
+    },
+    {
+      "term": "曾孫女",
+      "count": 1,
+      "examples": [
+        "王益恭 → 王氏"
+      ]
+    },
+    {
+      "term": "四女婿",
+      "count": 1,
+      "examples": [
+        "王氏 → 時伯茂"
+      ]
+    },
+    {
+      "term": "玄孫",
+      "count": 1,
+      "examples": [
+        "王丕 → 王懋"
+      ]
+    },
+    {
+      "term": "妾",
+      "count": 1,
+      "examples": [
+        "王稌 → 李氏"
+      ]
+    },
+    {
+      "term": "從弟",
+      "count": 1,
+      "examples": [
+        "王文 → 王高"
+      ]
+    }
+  ],
+  "skipped": [
+    {
+      "key": "wd:Q9312156",
+      "name": "王泽",
+      "reason": "not_wang_surname",
+      "detail": "非王姓且与王姓无婚姻关系，仅用于查找王姓亲属，不录入"
+    },
+    {
+      "key": "wd:Q65868326",
+      "name": "徐氏",
+      "reason": "not_wang_surname",
+      "detail": "非王姓且与王姓无婚姻关系，仅用于查找王姓亲属，不录入"
+    },
+    {
+      "key": "wd:Q26209857",
+      "name": "王永",
+      "reason": "not_proven_historical",
+      "detail": "无生卒年、无朝代、相邻人物亦无纪年，无法排除仍在世"
+    },
+    {
+      "key": "wd:Q11091465",
+      "name": "曾宗彦",
+      "reason": "not_wang_surname",
+      "detail": "非王姓且与王姓无婚姻关系，仅用于查找王姓亲属，不录入"
+    },
+    {
+      "key": "wd:Q15897172",
+      "name": "王氏",
+      "reason": "not_proven_historical",
+      "detail": "无生卒年、无朝代、相邻人物亦无纪年，无法排除仍在世"
+    },
+    {
+      "key": "wd:Q13689669",
+      "name": "倪氏",
+      "reason": "not_proven_historical",
+      "detail": "无生卒年、无朝代、相邻人物亦无纪年，无法排除仍在世"
+    },
+    {
+      "key": "wd:Q13689833",
+      "name": "戈陞华",
+      "reason": "not_proven_historical",
+      "detail": "无生卒年、无朝代、相邻人物亦无纪年，无法排除仍在世"
+    },
+    {
+      "key": "wd:Q26209893",
+      "name": "王宪",
+      "reason": "not_proven_historical",
+      "detail": "无生卒年、无朝代、相邻人物亦无纪年，无法排除仍在世"
+    },
+    {
+      "key": "wd:Q65854657",
+      "name": "郑氏",
+      "reason": "not_wang_surname",
+      "detail": "非王姓且与王姓无婚姻关系，仅用于查找王姓亲属，不录入"
+    },
+    {
+      "key": "wd:Q1592204",
+      "name": "何泽慧",
+      "reason": "not_wang_surname",
+      "detail": "非王姓且与王姓无婚姻关系，仅用于查找王姓亲属，不录入"
+    },
+    {
+      "key": "wd:Q16904595",
+      "name": "何怡贞",
+      "reason": "not_wang_surname",
+      "detail": "非王姓且与王姓无婚姻关系，仅用于查找王姓亲属，不录入"
+    },
+    {
+      "key": "wd:Q65820426",
+      "name": "刘氏",
+      "reason": "not_wang_surname",
+      "detail": "非王姓且与王姓无婚姻关系，仅用于查找王姓亲属，不录入"
+    },
+    {
+      "key": "wd:Q65825518",
+      "name": "秦氏",
+      "reason": "not_wang_surname",
+      "detail": "非王姓且与王姓无婚姻关系，仅用于查找王姓亲属，不录入"
+    },
+    {
+      "key": "wd:Q65825627",
+      "name": "秦氏",
+      "reason": "not_wang_surname",
+      "detail": "非王姓且与王姓无婚姻关系，仅用于查找王姓亲属，不录入"
+    },
+    {
+      "key": "wd:Q65833358",
+      "name": "秦氏",
+      "reason": "not_wang_surname",
+      "detail": "非王姓且与王姓无婚姻关系，仅用于查找王姓亲属，不录入"
+    },
+    {
+      "key": "wd:Q133305760",
+      "name": "王氏",
+      "reason": "not_proven_historical",
+      "detail": "无生卒年、无朝代、相邻人物亦无纪年，无法排除仍在世"
+    },
+    {
+      "key": "wd:Q45658789",
+      "name": "陈金徽",
+      "reason": "not_wang_surname",
+      "detail": "非王姓且与王姓无婚姻关系，仅用于查找王姓亲属，不录入"
+    },
+    {
+      "key": "wd:Q45397194",
+      "name": "汪仲仪",
+      "reason": "not_wang_surname",
+      "detail": "非王姓且与王姓无婚姻关系，仅用于查找王姓亲属，不录入"
+    },
+    {
+      "key": "wd:Q45627314",
+      "name": "李珪",
+      "reason": "not_wang_surname",
+      "detail": "非王姓且与王姓无婚姻关系，仅用于查找王姓亲属，不录入"
+    },
+    {
+      "key": "wd:Q112683600",
+      "name": "周碧霞",
+      "reason": "not_wang_surname",
+      "detail": "非王姓且与王姓无婚姻关系，仅用于查找王姓亲属，不录入"
+    },
+    {
+      "key": "wd:Q112683695",
+      "name": "周映霞",
+      "reason": "not_wang_surname",
+      "detail": "非王姓且与王姓无婚姻关系，仅用于查找王姓亲属，不录入"
+    },
+    {
+      "key": "wd:Q45401564",
+      "name": "王方",
+      "reason": "not_proven_historical",
+      "detail": "无生卒年、无朝代、相邻人物亦无纪年，无法排除仍在世"
+    },
+    {
+      "key": "wd:Q45430850",
+      "name": "刘氏",
+      "reason": "not_wang_surname",
+      "detail": "非王姓且与王姓无婚姻关系，仅用于查找王姓亲属，不录入"
+    },
+    {
+      "key": "wd:Q45430973",
+      "name": "吴氏",
+      "reason": "not_wang_surname",
+      "detail": "非王姓且与王姓无婚姻关系，仅用于查找王姓亲属，不录入"
+    },
+    {
+      "key": "wd:Q30950808",
+      "name": "王继业",
+      "reason": "not_proven_historical",
+      "detail": "无生卒年、无朝代、相邻人物亦无纪年，无法排除仍在世"
+    },
+    {
+      "key": "wd:Q13668776",
+      "name": "王则曾",
+      "reason": "not_proven_historical",
+      "detail": "无生卒年、无朝代、相邻人物亦无纪年，无法排除仍在世"
+    },
+    {
+      "key": "wd:Q13669039",
+      "name": "王氏",
+      "reason": "not_proven_historical",
+      "detail": "无生卒年、无朝代、相邻人物亦无纪年，无法排除仍在世"
+    },
+    {
+      "key": "wd:Q13669277",
+      "name": "王氏",
+      "reason": "not_proven_historical",
+      "detail": "无生卒年、无朝代、相邻人物亦无纪年，无法排除仍在世"
+    },
+    {
+      "key": "wd:Q134053626",
+      "name": "何氏",
+      "reason": "not_wang_surname",
+      "detail": "非王姓且与王姓无婚姻关系，仅用于查找王姓亲属，不录入"
+    },
+    {
+      "key": "wd:Q65812394",
+      "name": "李氏",
+      "reason": "not_wang_surname",
+      "detail": "非王姓且与王姓无婚姻关系，仅用于查找王姓亲属，不录入"
+    },
+    {
+      "key": "wd:Q65823248",
+      "name": "于氏",
+      "reason": "not_wang_surname",
+      "detail": "非王姓且与王姓无婚姻关系，仅用于查找王姓亲属，不录入"
+    },
+    {
+      "key": "wd:Q65830573",
+      "name": "郝氏",
+      "reason": "not_wang_surname",
+      "detail": "非王姓且与王姓无婚姻关系，仅用于查找王姓亲属，不录入"
+    },
+    {
+      "key": "wd:Q65830578",
+      "name": "方氏",
+      "reason": "not_wang_surname",
+      "detail": "非王姓且与王姓无婚姻关系，仅用于查找王姓亲属，不录入"
+    },
+    {
+      "key": "wd:Q65831329",
+      "name": "郭氏",
+      "reason": "not_wang_surname",
+      "detail": "非王姓且与王姓无婚姻关系，仅用于查找王姓亲属，不录入"
+    },
+    {
+      "key": "wd:Q65837799",
+      "name": "李氏",
+      "reason": "not_wang_surname",
+      "detail": "非王姓且与王姓无婚姻关系，仅用于查找王姓亲属，不录入"
+    },
+    {
+      "key": "wd:Q65857714",
+      "name": "于氏",
+      "reason": "not_wang_surname",
+      "detail": "非王姓且与王姓无婚姻关系，仅用于查找王姓亲属，不录入"
+    },
+    {
+      "key": "wd:Q65861468",
+      "name": "鲁氏",
+      "reason": "not_wang_surname",
+      "detail": "非王姓且与王姓无婚姻关系，仅用于查找王姓亲属，不录入"
+    },
+    {
+      "key": "wd:Q65854653",
+      "name": "何氏",
+      "reason": "not_wang_surname",
+      "detail": "非王姓且与王姓无婚姻关系，仅用于查找王姓亲属，不录入"
+    },
+    {
+      "key": "wd:Q65831325",
+      "name": "奚氏",
+      "reason": "not_wang_surname",
+      "detail": "非王姓且与王姓无婚姻关系，仅用于查找王姓亲属，不录入"
+    },
+    {
+      "key": "cbdb:526715",
+      "name": "王誠立",
+      "reason": "no_storable_relation",
+      "detail": "未找到可表达的亲属关系（兄弟姊妹关系本身不入库）"
+    }
+  ],
   "review": {
-    "reviewer": "Luna sub-agent",
-    "reviewed_at": "2026-09-05",
-    "source_plan": "scripts/kinship-roster-followup-2026-09-round3.json",
-    "accepted": 273,
-    "rejected": 195,
-    "manual_review": 55,
-    "exclusion_rule": "Only accepted edges and their required new persons/sources are present; rejected and manual_review edges are excluded."
+    "reviewers": [
+      "Luna sub-agent",
+      "online evidence review"
+    ],
+    "accepted": 326,
+    "rejected": 196,
+    "repairs": 1,
+    "manual_review": 0,
+    "exclusion_rule": "Only accepted edges are present; rejected and repair-required edges are excluded."
   }
 }

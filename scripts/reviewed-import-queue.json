@@ -4,13 +4,14 @@
     {
       "id": "kinship-round3-2026-09",
       "status": "reviewed_pending_import",
-      "reviewer": "luna",
-      "plan": "scripts/luna-kinship-round3-approved-plan-2026-09.json",
-      "decisions": "scripts/luna-kinship-round3-decisions-2026-09.json",
-      "report": "docs/reviews/luna-kinship-round3-2026-09.md",
-      "accepted": 273,
-      "rejected": 195,
-      "manual_review": 55
+      "reviewer": "luna+online-research",
+      "plan": "scripts/kinship-round3-final-approved-plan-2026-09.json",
+      "decisions": "scripts/kinship-round3-final-decisions-2026-09.json",
+      "report": "docs/reviews/online-kinship-round3-2026-09.md",
+      "accepted": 326,
+      "rejected": 196,
+      "repairs": 1,
+      "manual_review": 0
     }
   ]
 }
