@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import app from './index.ts';
 import { snapshotBucketFile } from './publicSnapshot.ts';
+import { signToken } from './crypto.ts';
 
 describe('anonymous public snapshot', () => {
   it('serves every public reading surface without touching D1', async () => {
@@ -89,6 +90,21 @@ describe('anonymous public snapshot', () => {
     }, env as never);
     expect(invalidBearer.status).toBe(200);
     expect(invalidBearer.headers.get('X-Wang-D1')).toBe('BYPASS');
+    const invalidBearerMiss = await app.request('https://example.test/api/v1/persons/p_Missing', {
+      headers: { Authorization: 'Bearer not-a-signed-session' },
+    }, env as never);
+    expect(invalidBearerMiss.status).toBe(404);
+    expect(invalidBearerMiss.headers.get('X-Wang-D1')).toBe('BYPASS');
+
+    // Logged-in browsing used to skip the snapshot and read D1 even when the
+    // requested record was public. Public assets are now authoritative for the
+    // public projection regardless of the presence of a session token.
+    const token = await signToken(env.AUTH_SECRET, 'u_reader');
+    const authenticatedPublic = await app.request(`https://example.test/api/v1/persons/${personId}`, {
+      headers: { Authorization: `Bearer ${token}` },
+    }, env as never);
+    expect(authenticatedPublic.status).toBe(200);
+    expect(authenticatedPublic.headers.get('X-Wang-D1')).toBe('BYPASS');
     expect(dbCalls).toBe(0);
   });
 });

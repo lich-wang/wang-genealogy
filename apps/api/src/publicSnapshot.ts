@@ -27,14 +27,22 @@ const shardCache = new Map<string, Promise<Record<string, JsonRecord>>>();
 const listCache = new Map<string, Promise<unknown[] | null>>();
 const MAX_SHARD_CACHE = 8;
 
-/** Every anonymous public read is resolved from published assets, never D1. */
+/**
+ * Resolve public records from published assets before considering D1.
+ *
+ * This also applies to signed-in readers: authentication does not make an
+ * already-public record more complete, and the former authenticated bypass
+ * made ordinary browsing consume D1 reads. A snapshot miss falls through only
+ * when a bearer token is present, preserving access to private candidate and
+ * suppressed records through the normal authorization path.
+ */
 export async function serveAnonymousPublicSnapshot(c: AppContext, next: Next) {
   if (c.req.method !== 'GET') return next();
   const authorization = c.req.header('authorization');
-  if (authorization?.startsWith('Bearer ')) {
-    const signedSession = await verifyToken(c.env.AUTH_SECRET, authorization.slice(7).trim());
-    if (signedSession) return next();
-  }
+  const privateFallback = async () => {
+    if (!authorization?.startsWith('Bearer ')) return false;
+    return Boolean(await verifyToken(c.env.AUTH_SECRET, authorization.slice(7).trim()));
+  };
   const url = new URL(c.req.url);
   if (url.pathname === '/api/v1/health' || url.pathname.startsWith('/api/v1/auth/')) return next();
   if (!c.env.TREE_SNAPSHOT) return snapshotUnavailable();
@@ -57,7 +65,7 @@ export async function serveAnonymousPublicSnapshot(c: AppContext, next: Next) {
     const section = personMatch[2];
     if (section === 'relatives') return relativesResponse(c.env.TREE_SNAPSHOT, id, url, index);
     const record = await loadRecord(c.env.TREE_SNAPSHOT, 'persons', id);
-    if (!record) return snapshotNotFound('人物不存在或未公開');
+    if (!record) return await privateFallback() ? next() : snapshotNotFound('人物不存在或未公開');
     if (section === 'claims') {
       const status = url.searchParams.get('status');
       const claims = (record.claims as JsonRecord[] ?? []).filter((claim) => !status || claim.status === status);
@@ -72,14 +80,14 @@ export async function serveAnonymousPublicSnapshot(c: AppContext, next: Next) {
   if (claimMatch) {
     const id = safeDecode(claimMatch[1]!);
     const record = id ? await loadRecord(c.env.TREE_SNAPSHOT, 'claims', id) : null;
-    return record ? snapshotJson(record, index) : snapshotNotFound('主張不存在');
+    return record ? snapshotJson(record, index) : await privateFallback() ? next() : snapshotNotFound('主張不存在');
   }
 
   const sourceMatch = /^\/api\/v1\/sources\/([^/]+)(?:\/(claims))?$/.exec(url.pathname);
   if (sourceMatch) {
     const id = safeDecode(sourceMatch[1]!);
     const record = id ? await loadRecord(c.env.TREE_SNAPSHOT, 'sources', id) : null;
-    if (!record) return snapshotNotFound('來源不存在');
+    if (!record) return await privateFallback() ? next() : snapshotNotFound('來源不存在');
     return sourceMatch[2] === 'claims'
       ? snapshotJson({ claims: record.claims ?? [] }, index)
       : snapshotJson({ source: record.source }, index);
@@ -89,7 +97,7 @@ export async function serveAnonymousPublicSnapshot(c: AppContext, next: Next) {
   if (mergeMatch) {
     const id = safeDecode(mergeMatch[1]!);
     const record = id ? await loadRecord(c.env.TREE_SNAPSHOT, 'merges', id) : null;
-    return record ? snapshotJson(record, index) : snapshotNotFound('合併提案不存在');
+    return record ? snapshotJson(record, index) : await privateFallback() ? next() : snapshotNotFound('合併提案不存在');
   }
 
   return snapshotNotFound('介面不存在');

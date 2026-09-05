@@ -31,6 +31,10 @@ async function loadPerson(db: D1Database, id: string): Promise<Person | null> {
   return row ? mapPerson(row) : null;
 }
 
+async function loadPersonRow(db: D1Database, id: string): Promise<Record<string, unknown> | null> {
+  return db.prepare('SELECT * FROM person WHERE id = ?').bind(id).first<Record<string, unknown>>();
+}
+
 /** Visibility: active/merged public; candidate private to creator+staff; suppressed staff-only. */
 function canView(person: Person, auth: AuthContext | null): boolean {
   if (person.status === 'active' || person.status === 'merged') return true;
@@ -104,12 +108,11 @@ app.post('/', async (c) => {
 
 // Person summary (computed from currently-accepted claims).
 app.get('/:id', async (c) => {
-  const person = await loadPerson(c.env.DB, c.req.param('id'));
-  if (!person) throw notFound('人物不存在');
+  const row = await loadPersonRow(c.env.DB, c.req.param('id'));
+  if (!row) throw notFound('人物不存在');
+  const person = mapPerson(row);
   if (!canView(person, c.get('auth'))) throw notFound('人物不存在或未公開');
-
-  const row = await c.env.DB.prepare('SELECT * FROM person WHERE id = ?').bind(person.id).first<Record<string, unknown>>();
-  const summary = await computePersonSummary(c.env.DB, row!);
+  const summary = await computePersonSummary(c.env.DB, row);
   return c.json(summary);
 });
 
@@ -286,8 +289,9 @@ app.post('/:id/relationships', async (c) => {
 
 // Structured export of a person + claims + sources + merges.
 app.get('/:id/export', async (c) => {
-  const person = await loadPerson(c.env.DB, c.req.param('id'));
-  if (!person) throw notFound('人物不存在');
+  const personRow = await loadPersonRow(c.env.DB, c.req.param('id'));
+  if (!personRow) throw notFound('人物不存在');
+  const person = mapPerson(personRow);
   if (!canView(person, c.get('auth'))) throw notFound('人物不存在或未公開');
 
   const claimsRes = await c.env.DB.prepare(
@@ -317,7 +321,7 @@ app.get('/:id/export', async (c) => {
 
   const summary = await computePersonSummary(
     c.env.DB,
-    (await c.env.DB.prepare('SELECT * FROM person WHERE id = ?').bind(person.id).first<Record<string, unknown>>())!,
+    personRow,
   );
 
   const claimsWithSources = [
