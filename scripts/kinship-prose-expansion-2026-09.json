@@ -1,0 +1,289 @@
+{
+  "generated_from": [
+    "zhwiki-prose"
+  ],
+  "hops": 1,
+  "max_new": 3,
+  "capped_relationships": 0,
+  "expanded_keys": [],
+  "sources": [
+    {
+      "key": "zhwiki:王千",
+      "kind": "zhwiki",
+      "source_type": "website",
+      "creator": "维基百科贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC-BY-SA-4.0",
+      "title": "中文维基百科：王千",
+      "canonical_url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%8D%83",
+      "external_identifier": null,
+      "metadata_json": null
+    },
+    {
+      "key": "zhwiki:王寿 (新朝)",
+      "kind": "zhwiki",
+      "source_type": "website",
+      "creator": "维基百科贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC-BY-SA-4.0",
+      "title": "中文维基百科：王寿 (新朝)",
+      "canonical_url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AF%BF_(%E6%96%B0%E6%9C%9D)",
+      "external_identifier": null,
+      "metadata_json": null
+    },
+    {
+      "key": "zhwiki:王敔",
+      "kind": "zhwiki",
+      "source_type": "website",
+      "creator": "维基百科贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC-BY-SA-4.0",
+      "title": "中文维基百科：王敔",
+      "canonical_url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%95%94",
+      "external_identifier": null,
+      "metadata_json": null
+    },
+    {
+      "key": "zhwiki:王宗 (新朝)",
+      "kind": "zhwiki",
+      "source_type": "website",
+      "creator": "维基百科贡献者",
+      "publisher": "Wikimedia Foundation",
+      "license_code": "CC-BY-SA-4.0",
+      "title": "中文维基百科：王宗 (新朝)",
+      "canonical_url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AE%97_(%E6%96%B0%E6%9C%9D)",
+      "external_identifier": null,
+      "metadata_json": null
+    }
+  ],
+  "persons": [
+    {
+      "key": "name:王範",
+      "qid": null,
+      "cbdb": null,
+      "hop": 1,
+      "name": {
+        "text": "王範",
+        "language": "zh-Hant"
+      },
+      "spouse_only": false,
+      "relationship_only": false,
+      "out_of_scope": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王範",
+            "language": "zh-Hant"
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "zhwiki:王敔"
+          ],
+          "change_summary": "据中文维基百科条文补录亲属人物"
+        }
+      ],
+      "historicity": {
+        "kind": "adjacent_to_historical_person",
+        "detail": "中文维基百科《王敔》记其与已收录历史人物为直系亲属：入邑庠，為諸生，娶劉象賢之女，生一子王範，還有二女，曾修《湘鄉縣志》"
+      },
+      "source_keys": [
+        "zhwiki:王敔"
+      ]
+    },
+    {
+      "key": "name:王世",
+      "qid": null,
+      "cbdb": null,
+      "hop": 1,
+      "name": {
+        "text": "王世",
+        "language": "zh-Hans"
+      },
+      "spouse_only": false,
+      "relationship_only": false,
+      "out_of_scope": false,
+      "claims": [
+        {
+          "predicate": "name.primary",
+          "value": {
+            "text": "王世",
+            "language": "zh-Hans"
+          },
+          "confidence": "medium",
+          "source_keys": [
+            "zhwiki:王宗 (新朝)"
+          ],
+          "change_summary": "据中文维基百科条文补录亲属人物"
+        }
+      ],
+      "historicity": {
+        "kind": "adjacent_to_historical_person",
+        "detail": "中文维基百科《王宗 (新朝)》记其与已收录历史人物为直系亲属：始建国元年（公元9年），王莽建立新朝，封王宇子六人：王千为功隆公，王寿为功明公，王吉为功成公，王宗为功崇公，王世为功昭公，王利为功著公。"
+      },
+      "source_keys": [
+        "zhwiki:王宗 (新朝)"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "kind": "parent",
+      "parent_key": "db:p_txEz4hCDRU7QsamZGm536K",
+      "child_key": "db:p_pL3s1DMKzjWgm1BnKXHKFv",
+      "parent_name": "王宇",
+      "child_name": "王千",
+      "parent_person_id": "p_txEz4hCDRU7QsamZGm536K",
+      "child_person_id": "p_pL3s1DMKzjWgm1BnKXHKFv",
+      "citations": [
+        {
+          "source_key": "zhwiki:王千",
+          "locator": "条文：之子/之女",
+          "note": null,
+          "quotation": "王千，新朝宗室，西汉外戚，王莽的长孙，王宇长子"
+        },
+        {
+          "source_key": "zhwiki:王宗 (新朝)",
+          "locator": "条文：条文识读（子）",
+          "note": null,
+          "quotation": "始建国元年（公元9年），王莽建立新朝，封王宇子六人：王千为功隆公，王寿为功明公，王吉为功成公，王宗为功崇公，王世为功昭公，王利为功著公。"
+        }
+      ]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "db:p_txEz4hCDRU7QsamZGm536K",
+      "child_key": "db:p_DT6iEeedcbCbJQMn2ra3u7",
+      "parent_name": "王宇",
+      "child_name": "王寿",
+      "parent_person_id": "p_txEz4hCDRU7QsamZGm536K",
+      "child_person_id": "p_DT6iEeedcbCbJQMn2ra3u7",
+      "citations": [
+        {
+          "source_key": "zhwiki:王寿 (新朝)",
+          "locator": "条文：之子/之女",
+          "note": null,
+          "quotation": "王寿，新朝宗室，西汉外戚，王莽之孙，王宇次子"
+        },
+        {
+          "source_key": "zhwiki:王宗 (新朝)",
+          "locator": "条文：条文识读（子）",
+          "note": null,
+          "quotation": "始建国元年（公元9年），王莽建立新朝，封王宇子六人：王千为功隆公，王寿为功明公，王吉为功成公，王宗为功崇公，王世为功昭公，王利为功著公。"
+        }
+      ]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "db:p_UJPhj5P9hBPHFeDYwqUADb",
+      "child_key": "name:王範",
+      "parent_name": "王敔",
+      "child_name": "王範",
+      "parent_person_id": "p_UJPhj5P9hBPHFeDYwqUADb",
+      "citations": [
+        {
+          "source_key": "zhwiki:王敔",
+          "locator": "条文：子",
+          "note": null,
+          "quotation": "入邑庠，為諸生，娶劉象賢之女，生一子王範，還有二女，曾修《湘鄉縣志》"
+        },
+        {
+          "source_key": "zhwiki:王敔",
+          "locator": "条文：条文识读（生一子）",
+          "note": null,
+          "quotation": "王船山第四子。入邑庠，為諸生，娶劉象賢之女，生一子王範，還有二女，曾修《湘鄉縣志》。"
+        }
+      ]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "db:p_txEz4hCDRU7QsamZGm536K",
+      "child_key": "db:p_7BBNW636PfzcwJta8vrVg1",
+      "parent_name": "王宇",
+      "child_name": "王吉",
+      "parent_person_id": "p_txEz4hCDRU7QsamZGm536K",
+      "child_person_id": "p_7BBNW636PfzcwJta8vrVg1",
+      "citations": [
+        {
+          "source_key": "zhwiki:王宗 (新朝)",
+          "locator": "条文：条文识读（子）",
+          "note": null,
+          "quotation": "始建国元年（公元9年），王莽建立新朝，封王宇子六人：王千为功隆公，王寿为功明公，王吉为功成公，王宗为功崇公，王世为功昭公，王利为功著公。"
+        }
+      ]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "db:p_txEz4hCDRU7QsamZGm536K",
+      "child_key": "db:p_eJggnSoGH5ETKvaEZqE886",
+      "parent_name": "王宇",
+      "child_name": "王宗",
+      "parent_person_id": "p_txEz4hCDRU7QsamZGm536K",
+      "child_person_id": "p_eJggnSoGH5ETKvaEZqE886",
+      "citations": [
+        {
+          "source_key": "zhwiki:王宗 (新朝)",
+          "locator": "条文：条文识读（子）",
+          "note": null,
+          "quotation": "始建国元年（公元9年），王莽建立新朝，封王宇子六人：王千为功隆公，王寿为功明公，王吉为功成公，王宗为功崇公，王世为功昭公，王利为功著公。"
+        }
+      ]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "db:p_txEz4hCDRU7QsamZGm536K",
+      "child_key": "name:王世",
+      "parent_name": "王宇",
+      "child_name": "王世",
+      "parent_person_id": "p_txEz4hCDRU7QsamZGm536K",
+      "citations": [
+        {
+          "source_key": "zhwiki:王宗 (新朝)",
+          "locator": "条文：条文识读（子）",
+          "note": null,
+          "quotation": "始建国元年（公元9年），王莽建立新朝，封王宇子六人：王千为功隆公，王寿为功明公，王吉为功成公，王宗为功崇公，王世为功昭公，王利为功著公。"
+        }
+      ]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "db:p_txEz4hCDRU7QsamZGm536K",
+      "child_key": "db:p_NboYfASuV6LcEzCa4KgV4k",
+      "parent_name": "王宇",
+      "child_name": "王利",
+      "parent_person_id": "p_txEz4hCDRU7QsamZGm536K",
+      "child_person_id": "p_NboYfASuV6LcEzCa4KgV4k",
+      "citations": [
+        {
+          "source_key": "zhwiki:王宗 (新朝)",
+          "locator": "条文：条文识读（子）",
+          "note": null,
+          "quotation": "始建国元年（公元9年），王莽建立新朝，封王宇子六人：王千为功隆公，王寿为功明公，王吉为功成公，王宗为功崇公，王世为功昭公，王利为功著公。"
+        }
+      ]
+    }
+  ],
+  "identity_merges": [],
+  "name_collisions": [],
+  "unmapped_cbdb_relations": [],
+  "skipped": [
+    {
+      "key": "name:第一贵嫔",
+      "name": "第一贵嫔",
+      "reason": "not_wang_surname",
+      "detail": "非王姓且无与王姓的婚姻关系"
+    },
+    {
+      "key": "wd:Q8253701",
+      "name": "司马显姿",
+      "reason": "not_wang_surname",
+      "detail": "非王姓且无与王姓的婚姻关系"
+    },
+    {
+      "key": null,
+      "name": null,
+      "reason": "edge_out_of_scope",
+      "detail": "37 条关系越出收录范围，不入库（世系关系要求两端都是王姓；婚姻关系要求至少一端是王姓）：王昭君→呼韩邪、曹淑→王悦、郗璿→王玄之、郗璿→王凝之、郗璿→王涣之、郗璿→王肃之、郗璿→王徽之、郗璿→王操之…"
+    }
+  ]
+}
