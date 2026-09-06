@@ -13,6 +13,8 @@ import persons from './routes/persons.ts';
 import claims from './routes/claims.ts';
 import sources from './routes/sources.ts';
 import bulkPersons from './routes/bulkPersons.ts';
+import bulkRelationships from './routes/bulkRelationships.ts';
+import bulkKinshipPersons from './routes/bulkKinshipPersons.ts';
 import mergeProposals, { createMergeHandler } from './routes/merges.ts';
 import { publicReadCache } from './publicCache.ts';
 import { serveAnonymousPublicSnapshot } from './publicSnapshot.ts';
@@ -168,8 +170,10 @@ app.get('/api/v1/changes', async (c) => {
 // --- mounted resource routers ---
 app.route('/api/v1/persons', persons);
 app.route('/api/v1/persons', bulkPersons);
+app.route('/api/v1/persons', bulkKinshipPersons);
 app.route('/api/v1/persons', createMergeHandler);
 app.route('/api/v1/claims', claims);
+app.route('/api/v1/claims', bulkRelationships);
 app.route('/api/v1/sources', sources);
 app.route('/api/v1/person-merge-proposals', mergeProposals);
 
