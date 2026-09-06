@@ -1,5 +1,19 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
+  "importers": [
+    {
+      "id": "stage2-final-bulk",
+      "file": "scripts/import-reviewed-stage2-bulk.mjs",
+      "covers": ["wang-expansion-stage2-2026-09", "kinship-round3-2026-09"],
+      "api_requests_when_empty": 7
+    },
+    {
+      "id": "cbdb-wang-stage3-bulk",
+      "file": "scripts/import-reviewed-persons-bulk.mjs",
+      "covers": ["cbdb-wang-10000-stage3-2026-09"],
+      "status": "completed"
+    }
+  ],
   "entries": [
     {
       "id": "kinship-round3-2026-09",
@@ -30,7 +44,9 @@
     {
       "id": "cbdb-wang-10000-stage3-2026-09",
       "kind": "person_expansion_shards",
-      "status": "reviewed_pending_import",
+      "status": "imported",
+      "imported_at": "2026-09-06T01:18:17.868Z",
+      "imported_people": 7329,
       "reviewer": "luna",
       "manifest": "scripts/generated/cbdb-wang-10000/manifest.json",
       "shard_directory": "scripts/generated/cbdb-wang-10000",

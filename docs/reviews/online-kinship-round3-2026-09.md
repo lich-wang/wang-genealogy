@@ -23,3 +23,10 @@
 - 王彦博之子王龜齡、王松龄二子王聿与王中虽获 CBDB 实时记录确认，但底本栏未详，仅以低置信度采纳，不提升为强证据。
 
 逐条在线返回、推荐结果和来源 URL 保存在 `scripts/luna-kinship-round3-online-evidence-2026-09.json` 与 `scripts/kinship-round3-online-resolution-overrides-2026-09.json`。
+
+## 同步状态
+
+2026-09-06 Luna 再次确认本计划覆盖 stage2 的全部 97 位关系端点人物和 273 条旧关系，
+应只导入本 final 计划以避免重复。`scripts/import-reviewed-stage2-bulk.mjs` 将 141 位
+多来源/同名关系人物压缩为一个事务批次，将 326 条关系压缩为两个事务批次。生产
+D1 当前因日额度耗尽仍为待导入状态，完整计划与同步器已发布为静态资源。

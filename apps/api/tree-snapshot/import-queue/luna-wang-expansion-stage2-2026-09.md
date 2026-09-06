@@ -37,3 +37,9 @@
 ## 导入约束
 
 文件 `scripts/luna-wang-expansion-stage2-2026-09.json` 是可复核建议，不直接写 D1。导入前仍须使用最新快照执行 `import-kinship.mjs --dry-run`。最小写入规则要求导入器对已存在 QID、来源、Claim 和关系执行零写入 no-op。
+
+2026-09-06 的最终同步方案只从本计划提取 675 位 roster 人物；关系人物与边改用覆盖
+更完整的 round3 final 计划。`scripts/import-reviewed-stage2-bulk.mjs` 将全流程压缩为
+7 次 HTTP API 请求（4 批 roster、1 批关系人物、2 批关系），并保存内容哈希断点。
+本地全量与零写重放演练通过；生产 D1 因本日额度用尽尚未开始这 675 人，静态资源
+仍为后续同步的来源事实。

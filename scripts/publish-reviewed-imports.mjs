@@ -20,6 +20,16 @@ const stagedOutput = resolve(stagingRoot, basename(output));
 mkdirSync(stagedOutput, { recursive: true });
 const publishedNames = new Set();
 
+const importers = (registry.importers ?? []).map((importer) => {
+  const source = resolve(root, importer.file);
+  const name = basename(importer.file);
+  if (publishedNames.has(name)) throw new Error(`duplicate published artifact name: ${name}`);
+  publishedNames.add(name);
+  const body = readFileSync(source);
+  copyFileSync(source, resolve(stagedOutput, name));
+  return { ...importer, file: name, bytes: body.length, sha256: createHash('sha256').update(body).digest('hex') };
+});
+
 const published = registry.entries.map((entry) => {
   const plan = entry.plan ? JSON.parse(readFileSync(resolve(root, entry.plan), 'utf8')) : null;
   let artifactPaths;
@@ -103,7 +113,8 @@ const published = registry.entries.map((entry) => {
 if (publishedNames.has('index.json')) throw new Error('artifact name index.json is reserved');
 writeFileSync(resolve(stagedOutput, 'index.json'), JSON.stringify({
   schema_version: registry.schema_version,
-  purpose: 'reviewed plans pending idempotent import through the HTTP API',
+  purpose: 'reviewed plans for idempotent synchronization through the HTTP API',
+  importers,
   entries: published,
 }));
 const backupRoot = mkdtempSync(join(dirname(output), '.reviewed-imports-backup-'));
@@ -123,4 +134,4 @@ try {
   rmSync(stagingRoot, { recursive: true, force: true });
   throw error;
 }
-console.log(JSON.stringify({ output, entries: published.length, files: published.reduce((sum, entry) => sum + entry.files.length, 1) }));
+console.log(JSON.stringify({ output, entries: published.length, importers: importers.length, files: published.reduce((sum, entry) => sum + entry.files.length, importers.length + 1) }));
