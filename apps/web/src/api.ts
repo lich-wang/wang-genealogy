@@ -31,6 +31,10 @@ const TOKEN_KEY = 'wang_token';
 // Vite dev proxy (or a same-origin deploy) can route it.
 const rawBase = (import.meta.env.VITE_API_BASE ?? '').replace(/\/+$/, '');
 export const API_PREFIX = `${rawBase}/api/v1`;
+// Every production release gets a distinct snapshot id. Keeping it in the
+// query string preserves edge caching while preventing a newly deployed home
+// page from reusing the previous release's system-status response.
+const publicSnapshotVersion = import.meta.env.VITE_PUBLIC_SNAPSHOT_VERSION;
 
 export function getToken(): string | null {
   try {
@@ -341,7 +345,9 @@ export const api = {
 
   /** Persons with the most recorded kinship — entry points for the tree view. */
   getHomeOverview: (limit = 8) =>
-    request<{ items: KinshipHighlight[]; status: SystemStatus | null }>('/kinship-highlights', { query: { limit } }),
+    request<{ items: KinshipHighlight[]; status: SystemStatus | null }>('/kinship-highlights', {
+      query: { limit, snapshot: publicSnapshotVersion },
+    }),
 
   // recent changes feed
   listRecentChanges: (cursor?: string) =>

@@ -47,6 +47,7 @@ jobs:
         run: npm run build --workspace apps/web
         env:
           VITE_API_BASE: ${{ env.API_BASE }}
+          VITE_PUBLIC_SNAPSHOT_VERSION: ${{ github.sha }}
 
   deploy:
     # Only deploy on pushes to main, after tests pass.
@@ -139,6 +140,7 @@ jobs:
         run: npm run build --workspace apps/web
         env:
           VITE_API_BASE: ${{ env.API_BASE }}
+          VITE_PUBLIC_SNAPSHOT_VERSION: ${{ github.sha }}
 
       - name: Deploy web (Pages)
         working-directory: apps/web
