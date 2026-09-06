@@ -95,9 +95,19 @@ jobs:
         env:
           FORCE_CACHED_SNAPSHOT: ${{ inputs.use_cached_snapshot || false }}
         run: |
-          if [ "$FORCE_CACHED_SNAPSHOT" != "true" ] && npx wrangler d1 export wang-genealogy --remote --output=/tmp/wang-genealogy-public.sql --config apps/api/wrangler.toml > /tmp/wang-genealogy-export.log 2>&1; then
-            rm -f /tmp/wang-genealogy-public.sqlite
-            sqlite3 -cmd "PRAGMA journal_mode=OFF;" -cmd "PRAGMA synchronous=OFF;" -cmd "BEGIN;" /tmp/wang-genealogy-public.sqlite ".read /tmp/wang-genealogy-public.sql" "COMMIT;"
+          PUBLIC_SNAPSHOT_EXPORT_OK=false
+          if [ "$FORCE_CACHED_SNAPSHOT" != "true" ]; then
+            for attempt in 1 2 3; do
+              rm -f /tmp/wang-genealogy-public.sql /tmp/wang-genealogy-public.sqlite
+              if npx wrangler d1 export wang-genealogy --remote --output=/tmp/wang-genealogy-public.sql --config apps/api/wrangler.toml > /tmp/wang-genealogy-export.log 2>&1 && \
+                 sqlite3 -cmd "PRAGMA journal_mode=OFF;" -cmd "PRAGMA synchronous=OFF;" -cmd "BEGIN;" /tmp/wang-genealogy-public.sqlite ".read /tmp/wang-genealogy-public.sql" "COMMIT;"; then
+                PUBLIC_SNAPSHOT_EXPORT_OK=true
+                break
+              fi
+              echo "::warning::D1 export or SQLite reconstruction failed on attempt $attempt; retrying."
+            done
+          fi
+          if [ "$PUBLIC_SNAPSHOT_EXPORT_OK" = "true" ]; then
             PUBLIC_SNAPSHOT_DB=/tmp/wang-genealogy-public.sqlite npm run build:public-snapshot
             echo "PUBLIC_SNAPSHOT_REFRESHED=true" >> "$GITHUB_ENV"
           elif [ -f apps/api/tree-snapshot/public/index.json ] && find apps/api/tree-snapshot -maxdepth 1 -name 'component-*.json' -print -quit | grep -q .; then
