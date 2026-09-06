@@ -20,6 +20,10 @@ if (!databaseArg || !outputArg) {
 }
 const database = resolve(databaseArg);
 const output = resolve(outputArg);
+// The public feed endpoint returns 50 rows at a time. Keep a useful recent
+// window without allowing append-only audit history to grow one Worker asset
+// past Cloudflare's 25 MiB per-file ceiling.
+const PUBLIC_CHANGE_LIMIT = 1000;
 if (output === '/' || output.length < 8) throw new Error(`unsafe output directory: ${output}`);
 
 function query(sql) {
@@ -440,6 +444,7 @@ function buildChanges() {
       change_summary: row.change_summary ?? null,
       created_at: row.created_at,
     });
+    if (result.length >= PUBLIC_CHANGE_LIMIT) break;
   }
   return result;
 }
