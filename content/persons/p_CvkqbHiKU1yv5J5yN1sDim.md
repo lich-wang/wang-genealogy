@@ -1,0 +1,278 @@
+---
+schema: wang-person/v1
+id: p_CvkqbHiKU1yv5J5yN1sDim
+status: active
+merged_into: null
+display_name: 王师古
+revision: 1
+properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_dqqtee8HQXeEjDmUmzHTTJ
+        subject_person_id: p_CvkqbHiKU1yv5J5yN1sDim
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: "王师古，宋人物。CBDB 记录其籍贯记录为金華，身份包括良吏;循吏，入仕记录为科舉: 進士(籠統)。中国历代人物传记资料库（CBDB）以人物编号 10688 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。"
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 3
+      sources:
+        - id: cs_4LbsWANEVa8bLnpVsn7CMy
+          claim_id: c_dqqtee8HQXeEjDmUmzHTTJ
+          source_id: s_D7NNZLUFKQfdTjRPpLvri2
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_D7NNZLUFKQfdTjRPpLvri2
+            source_type: api_record
+            title: 维基数据：王师古（Q45369091）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45369091
+            external_identifier: Q45369091
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:58:57.822Z
+            metadata_json: null
+        - id: cs_JYFdzhHg7qGa6TjL6o4dmH
+          claim_id: c_dqqtee8HQXeEjDmUmzHTTJ
+          source_id: s_411AG8EkY8NdEgG32DgoBa
+          stance: supports
+          locator: CBDB:10688
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_411AG8EkY8NdEgG32DgoBa
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王師古（10688）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10688&o=json
+            external_identifier: CBDB:10688
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:58:57.995Z
+            metadata_json: null
+      object_person: null
+    alternatives: []
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_ikHRXmMrLbrUL5NUFXtm1q
+        subject_person_id: p_CvkqbHiKU1yv5J5yN1sDim
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王师古
+          language: zh-Hans
+        status: accepted
+        confidence: high
+        current_revision: 2
+      sources:
+        - id: cs_oEbxfz46KxKNDsu27oXry3
+          claim_id: c_ikHRXmMrLbrUL5NUFXtm1q
+          source_id: s_D7NNZLUFKQfdTjRPpLvri2
+          stance: supports
+          locator: Q45369091
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_D7NNZLUFKQfdTjRPpLvri2
+            source_type: api_record
+            title: 维基数据：王师古（Q45369091）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45369091
+            external_identifier: Q45369091
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:58:57.822Z
+            metadata_json: null
+        - id: cs_x7U1KFYJ2W8L45DqDf4at6
+          claim_id: c_ikHRXmMrLbrUL5NUFXtm1q
+          source_id: s_411AG8EkY8NdEgG32DgoBa
+          stance: supports
+          locator: Q45369091
+          quotation: null
+          interpretation_note: null
+          source: *a1
+      object_person: null
+    alternatives: []
+relationships:
+  parents:
+    - claim:
+        id: c_BC8JbqaoABV5sYbUGVLC5H
+        subject_person_id: p_mLtGjU7JUkYcfBzdb7BH9M
+        claim_kind: relationship
+        predicate: kinship.parent_of
+        object_person_id: p_CvkqbHiKU1yv5J5yN1sDim
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 2
+      sources:
+        - id: cs_B9cDiU4DsdwgqetbGc78Uu
+          claim_id: c_BC8JbqaoABV5sYbUGVLC5H
+          source_id: s_u5XDNLvUkkSgZpXLohmAbF
+          stance: supports
+          locator: 亲属关系：三子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：未知
+          source:
+            id: s_u5XDNLvUkkSgZpXLohmAbF
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王登（10686）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10686&o=json
+            external_identifier: CBDB:10686
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:02:19.443Z
+            metadata_json: null
+        - id: cs_VxFZvAGetEKM3wiUcatRSP
+          claim_id: c_BC8JbqaoABV5sYbUGVLC5H
+          source_id: s_rUvLhH5bEHHz1S1yAbATCK
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_rUvLhH5bEHHz1S1yAbATCK
+            source_type: api_record
+            title: 维基数据：王登（Q45369083）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45369083
+            external_identifier: Q45369083
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:50:09.552Z
+            metadata_json: null
+        - id: cs_eaqqUFFMayPF4BkQd3bB15
+          claim_id: c_BC8JbqaoABV5sYbUGVLC5H
+          source_id: s_D7NNZLUFKQfdTjRPpLvri2
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_D7NNZLUFKQfdTjRPpLvri2
+            source_type: api_record
+            title: 维基数据：王师古（Q45369091）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45369091
+            external_identifier: Q45369091
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:58:57.822Z
+            metadata_json: null
+      object_person:
+        id: p_mLtGjU7JUkYcfBzdb7BH9M
+        status: active
+        display_name: 王登
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_9RgLtkxWCrk8a3iduMPqJ7
+        subject_person_id: p_CvkqbHiKU1yv5J5yN1sDim
+        claim_kind: relationship
+        predicate: kinship.parent_of
+        object_person_id: p_KvSAytfnCEPFcT3odvBu7N
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 2
+      sources:
+        - id: cs_ErqdKkgmxfx2RQRK2ZuvT2
+          claim_id: c_9RgLtkxWCrk8a3iduMPqJ7
+          source_id: s_XvF4Z98PD6E1Z1qCxPAAG7
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_XvF4Z98PD6E1Z1qCxPAAG7
+            source_type: api_record
+            title: 维基数据：王象之（Q10417099）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q10417099
+            external_identifier: Q10417099
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:44:52.196Z
+            metadata_json: null
+        - id: cs_c7zRQ1KoLFk15xjPBuMT81
+          claim_id: c_9RgLtkxWCrk8a3iduMPqJ7
+          source_id: s_D7NNZLUFKQfdTjRPpLvri2
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_D7NNZLUFKQfdTjRPpLvri2
+            source_type: api_record
+            title: 维基数据：王师古（Q45369091）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45369091
+            external_identifier: Q45369091
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:58:57.822Z
+            metadata_json: null
+      object_person:
+        id: p_KvSAytfnCEPFcT3odvBu7N
+        status: active
+        display_name: 王象之
+        merged_into_person_id: null
+  adoptive_parents: []
+  adoptive_children: []
+  spouses: []
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王师古
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| bio.summary | 王师古，宋人物。CBDB 记录其籍贯记录为金華，身份包括良吏;循吏，入仕记录为科舉: 進士(籠統)。中国历代人物传记资料库（CBDB）以人物编号 10688 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| name.primary | 王师古 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+| parents | p_mLtGjU7JUkYcfBzdb7BH9M | 王登 | accepted |
+| children | p_KvSAytfnCEPFcT3odvBu7N | 王象之 | accepted |
+
+## 外部来源
+
+- [维基数据：王登（Q45369083）](https://www.wikidata.org/wiki/Q45369083)
+- [维基数据：王师古（Q45369091）](https://www.wikidata.org/wiki/Q45369091)
+- [维基数据：王象之（Q10417099）](https://www.wikidata.org/wiki/Q10417099)
+- [CBDB 中国历代人物传记资料库：王登（10686）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10686&o=json)
+- [CBDB 中国历代人物传记资料库：王師古（10688）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10688&o=json)

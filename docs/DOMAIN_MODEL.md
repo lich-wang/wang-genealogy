@@ -2,44 +2,48 @@
 
 ## 一、建模原则
 
-数据库不把某个可争议值直接视为最终事实。`Person` 只是人物身份锚点，姓名、生卒、籍贯和亲属关系均由 `Claim` 表达。
+Markdown 数据不把某个可争议值直接视为最终事实。一个人物文件是身份锚点，姓名、生卒、籍贯和亲属关系仍由 `Claim` 表达。
 
 ```text
-User ──< Contribution
-             │
-Person ──< Claim ──< ClaimRevision
-  │           │
-  │           └──< ClaimSource >── Source
-  │
-  ├──< PersonMaintainer >── User
-  └──< PersonMergeProposal
+GitHub Account ──< OAuth Binding ──< Site Session
+       │
+       └──< Commit / Pull Request
+                       │
+Person Markdown ──< Claim ──< Source Reference
+       │
+       └── merged_into ──> Person Markdown
 ```
 
 ## 二、主要实体
 
-### User（贡献者账号）
+### GitHub Account（唯一站点身份）
 
-用户账号只代表网站贡献者，不代表族谱人物。
+站点以 GitHub numeric user ID 作为不可变外部身份键。`login`、公开头像 URL 只是可更新的显示快照，GitHub 改名不能创建第二个账号。首次 OAuth 回调即注册，后续回调即登录；不存在邮箱密码身份。
 
-建议字段：
+GitHub 账号可以拥有本地会话、偏好和订阅，但不代表族谱人物。作者、审阅者、时间和讨论由 Git commit 与 Pull Request 元数据记录。
 
-- `id`
-- `display_name`
-- `email_hash` 或外部登录标识
-- `role`
-- `status`
-- `created_at`
+### OAuthBinding 与 SiteSession（D1 运行数据）
+
+D1 可以保存登录和个性化所需的最小数据：GitHub user ID、当前 login、公开头像 URL、账号状态、OAuth scope 与到期时间、加密的 access/refresh token、会话摘要、偏好、通知订阅和账号安全审计。token 加密密钥只能存在于 Worker secret。
+
+这些实体不得拥有 `Person`、`Claim` 或 `Source` 的数据库外键。关注人物时只保存公开 `person_id` 字符串。站点也不复制仓库角色；审核权由 GitHub 仓库权限、CODEOWNERS 和分支保护决定。
+
+### ContributionSubmission（瞬时命令，不是实体）
+
+投稿命令包含 `submission_id`、`base_sha`、PR 标题与说明、目标路径及完整 Markdown。Worker 仅在一次请求内处理它，并使用当前 GitHub 用户 token 创建 fork、branch、commit 和 Pull Request；不得把 Markdown、diff 或投稿草稿写入 D1。
+
+`submission_id` 只用于导出确定性 GitHub 分支名。重试时以 GitHub 已有分支/PR 作为幂等事实，不在 D1 建立“投稿记录”或第二套审核状态。
 
 ### Person（历史人物锚点）
 
-建议字段：
+Markdown front matter 字段：
 
 - `id`：不可变公开 ID；
 - `status`：`candidate`、`active`、`merged`、`suppressed`；
-- `merged_into_person_id`：软合并目标；
-- `created_by_user_id`；
-- `created_at`、`updated_at`；
-- `current_revision`：用于并发控制。
+- `merged_into`：软合并目标；
+- `display_name`：构建期标题摘要；
+- `revision`：当前文件内的内容版本提示；
+- `properties`、`relationships`：结构化主张集合。
 
 `Person` 不直接存放“最终姓名”“最终出生年”等可争议信息。页面上的摘要由当前已采纳主张计算生成。
 
@@ -58,9 +62,7 @@ Person ──< Claim ──< ClaimRevision
 - `value_json`：属性主张使用；
 - `status`：`proposed`、`accepted`、`disputed`、`retracted`、`superseded`；
 - `confidence`：`unknown`、`low`、`medium`、`high`；
-- `created_by_user_id`
-- `created_at`、`updated_at`
-- `current_revision`
+- `current_revision`：文件内主张版本提示；真正的修改历史以 Git 为准。
 
 属性谓词示例：
 
@@ -92,11 +94,11 @@ Person ──< Claim ──< ClaimRevision
 PARENT --kinship.parent_of--> CHILD
 ```
 
-人物接口可让用户用“这是他的父母”或“这是他的子女”两种自然语言提交，服务端最终归一化为同一种方向。
+贡献工具可让用户用“这是他的父母”或“这是他的子女”两种自然语言编辑，提交前必须归一化为同一种方向并由 CI 校验。
 
-亲子边保持同一个 PARENT→CHILD 方向，但按来源明确程度使用三个谓词：明确写「父／生父」时用 `father_of`，明确写「母／生母」时用 `mother_of`，只能说明“父母之一”时用 `parent_of`。不得根据姓名、称号或传统惯例猜测。原始称谓仍写进引用的 `locator`，便于复核。旧 `parent_of` 主张的读取层只对 P22/P25、「父亲／母亲」等明确定位文字作保守兼容，冲突或不明确时仍显示「父母未详」。API 为三个谓词统一投影 `parent_role: father | mother | null`，方便界面和家族树消费。
+亲子边保持同一个 PARENT→CHILD 方向，但按来源明确程度使用三个谓词：明确写「父／生父」时用 `father_of`，明确写「母／生母」时用 `mother_of`，只能说明“父母之一”时用 `parent_of`。不得根据姓名、称号或传统惯例猜测。原始称谓仍写进引用的 `locator`，便于复核。旧 `parent_of` 主张的读取层只对 P22/P25、「父亲／母亲」等明确定位文字作保守兼容，冲突或不明确时仍显示「父母未详」。静态构建层为三个谓词统一投影 `parent_role: father | mother | null`，方便界面和家族树消费。
 
-`kinship.spouse_of` 是对称关系，同样只保存一条：服务端把两个人物 ID 中较小者作为 `subject`，因此从任一方提交都会归一化到同一行。
+`kinship.spouse_of` 是对称关系，逻辑上只表示一条主张；人物文件两端的副本必须具有同一主张 ID 和内容，由构建器检查一致性。
 
 #### 跨代世系：`kinship.ancestor_of`
 
@@ -106,11 +108,11 @@ PARENT --kinship.parent_of--> CHILD
 ANCESTOR --kinship.ancestor_of--> DESCENDANT
 ```
 
-同样只保存一条方向。接口接受相对于当前人物的 `ancestor` 和 `descendant`，服务端归一化到以先祖为 `subject`。来源若能确认代数（「四世孫」），把整数 `4` 写入关系主张的 `generation_count`；无法确认则为 `null`。`1` 不合法，因为相隔一代应使用 `parent_of`。旧导入数据若只在引用 `locator` 中保留「八世」等文字，读取层继续兼容提取，但新提交必须使用结构化字段。
+同样只保存一条方向。编辑工具把相对于当前人物的 `ancestor` 和 `descendant` 归一化到以先祖为 `subject`。来源若能确认代数（「四世孫」），把整数 `4` 写入关系主张的 `generation_count`；无法确认则为 `null`。`1` 不合法，因为相隔一代应使用 `parent_of`。旧导入数据若只在引用 `locator` 中保留「八世」等文字，读取层继续兼容提取，但新提交必须使用结构化字段。
 
 人物页把它单列为「先祖」「後代」两组，每一条显示「相隔 N 代」或「代数不详」，不与父母子女混列。家族树里，来源给出代数就跨几行（「八代孫」在八行之下），未给代数的跨两行——跨一行会读成父子，跨更多则是在假装知道自己不知道的事。
 
-**图上已有完整父子链时不再画这条虚线**：「王翦之孫王離」与 王翦 → 王賁 → 王離 说的是同一件事，两条都画等于在它所概括的链条旁边再补一条捷径，展开时每填上一个缺口就多出一条重复的线。判定只看**当前已加载**的边——数据库里有、屏幕上还没有的链条，读者跟不了，虚线就该留着。
+**图上已有完整父子链时不再画这条虚线**：「王翦之孫王離」与 王翦 → 王賁 → 王離 说的是同一件事，两条都画等于在它所概括的链条旁边再补一条捷径，展开时每填上一个缺口就多出一条重复的线。判定只看**当前已加载**的静态边；构建产物里有、屏幕上还没有的链条，读者跟不了，虚线就该留着。
 
 `ancestor_of` 与 `parent_of` 一同参与环检测：「A 是 B 的先祖」和「B 是 A 的先祖」不能同时成立。反过来，`ancestor_of` **不会**由 `parent_of` 链自动推导出来，也不应该为已经有完整父子链的两个人再补一条 `ancestor_of`——那只是冗余。
 
@@ -134,22 +136,11 @@ ANCESTOR --kinship.ancestor_of--> DESCENDANT
 
 ### ClaimRevision（主张版本）
 
-每次编辑都追加新版本，不原地覆盖历史内容。
-
-建议字段：
-
-- `id`
-- `claim_id`
-- `revision_number`
-- `snapshot_json`
-- `change_summary`
-- `created_by_user_id`
-- `created_at`
-- `reverts_revision_id`
+不再建立数据库修订实体。每次编辑通过提交和 Pull Request 修改人物 Markdown；Git blob、commit、作者、时间、审阅与 revert 共同构成完整版本链。文件中的 `current_revision` 仅用于阅读提示，不能替代 Git 历史。
 
 ### Source（来源）
 
-来源是可复用的独立记录。
+来源在人物 Markdown 中随主张保存完整引用快照；构建时按 `source.id` 去重并生成来源反向索引，不写数据库。
 
 建议字段：
 
@@ -164,7 +155,6 @@ ANCESTOR --kinship.ancestor_of--> DESCENDANT
 - `license_code`
 - `accessed_at`
 - `metadata_json`
-- `created_by_user_id`
 
 ### ClaimSource（主张—来源关联）
 
@@ -178,29 +168,14 @@ ANCESTOR --kinship.ancestor_of--> DESCENDANT
 - `locator`：卷、册、页、条目号、API ID 等；
 - `quotation`：合理范围内的短文本摘录；
 - `interpretation_note`
-- `added_by_user_id`
-- `created_at`
 
 ### PersonMaintainer（人物维护关系）
 
-- `person_id`
-- `user_id`
-- `maintainer_role`
-- `created_at`
-
-维护者负责关注修改，不获得排他编辑权。
+不再保存数据库实体。维护责任通过 CODEOWNERS、GitHub team、Issue/PR 订阅和审阅请求表达；维护者不获得排他编辑权。D1 中的关注订阅只用于通知，不代表维护权限。
 
 ### PersonMergeProposal（人物合并提案）
 
-- `id`
-- `source_person_id`
-- `target_person_id`
-- `status`：`proposed`、`reviewing`、`approved`、`rejected`、`reverted`；
-- `reason`
-- `created_by_user_id`
-- `approved_by_user_id`
-- `created_at`、`resolved_at`
-- `merge_snapshot_json`
+人物合并以带明确说明的 Pull Request 表达。源文件设置 `status: merged` 和 `merged_into`，目标文件接收经审阅的主张；PR 状态和 Git revert 分别承担提案状态与回滚能力，不写 D1。
 
 合并来源和目标不是“删除者与保留者”的价值判断；目标仅是继续承担稳定公开 ID 的记录。
 
@@ -209,10 +184,10 @@ ANCESTOR --kinship.ancestor_of--> DESCENDANT
 合并的镜像不是删除，而是**新建加撤回**，没有单独的实体：
 
 1. 为来源真正所指的那个人**新建**人物记录，其 `name.primary` 的引用写明凭什么认定他与同名者不是一人；
-2. 把错挂上去的关系主张逐条**撤回**（`claim.retract`）。撤回不销毁任何东西——版本链、引用、原文摘录全部留在原处可读；
+2. 在同一 Pull Request 中把错挂关系标为 `retracted`。Git 历史、引用和原文摘录仍然可追溯；
 3. 用**同一条引用**（同样的 `locator` 和 `quotation`）在正确的两个锚点之间重建关系。证据本身不变，只改它被认定连接了哪两个锚点。
 
-拆分没有合并那样的快照与回滚，因此顺序是硬性的：**先撤回再新建**。撤回之前旧边仍然成立，新边往往方向相反，服务端会（正确地）以亲属环为由拒绝其中一半。
+拆分必须在同一 Pull Request 中同时完成“撤回旧边”和“建立新边”，由构建器对最终状态做环检测；不能拆成两个先后发布的 PR。
 
 拆分不是软合并的逆操作，不复用 `PersonMergeProposal`；被拆出的新人物是一条全新的公开 ID，旧 ID 不重定向，因为旧 ID 指的始终是另一个人。
 
@@ -230,24 +205,13 @@ ANCESTOR --kinship.ancestor_of--> DESCENDANT
 1. 公开主张至少关联一个来源；草稿可以暂时无来源但不能公开。
 2. `parent_of` 不允许人物指向自己。
 3. 系统检测明显的亲属环，但不能因检测结果自动删除历史资料。
-4. 已合并人物不可再接受新主张，写请求自动转到目标人物并提示旧 ID。
+4. 已合并人物文件不可再接受新主张，修改应落到目标人物文件；旧 ID 继续重定向。
 5. 未证明为已故历史人物的记录进入隔离状态，不进入公开索引。
-6. 任何硬删除仅限违法、隐私或安全事故，并保留最小审计记录。
+6. 任何硬删除仅限违法、隐私或安全事故，并通过受保护的 Git 提交保留最小审计说明。
 7. 主张值的字形不做归一化写入；同名判定、搜索和重复提示一律按字形折叠后比较。
 
-## 五、贡献记录（Contribution）
+## 五、两类审计记录
 
-追加式审计流水，字段：`id`、`action`、`actor_user_id`、`target_type`、`target_id`、`change_summary`、`before_revision`、`after_revision`、`created_at`。
+族谱内容审计只存在于 GitHub：commit、Pull Request、review、合并提交和 revert 记录人物、主张、来源与合并的全部变化，不复制进 D1。
 
-`action` 取值：
-
-- `person.create`
-- `claim.create`、`claim.revise`、`claim.dispute`、`claim.retract`、`claim.revert`
-- `claim.source.add`、`claim.source.remove`
-- `source.create`
-- `merge.propose`、`merge.approve`、`merge.reject`、`merge.revert`
-- `admin.reattribute`：运维维护动作，把既有记录的归属字段（`created_by_user_id`、`added_by_user_id`、`actor_user_id` 等）改到另一账号。只改归属，不改任何主张内容、状态或版本，且本身也要写入一条审计记录。
-- `admin.correct_metadata`：运维维护动作，修正导入写错的描述性元数据（例如把维基数据属性号当作维基百科条目的 `locator`）。同样不改主张内容、状态或版本，且必须写入审计记录说明改了什么。
-- `admin.purge_records`：唯一会真正删除数据的动作，仅在第四节规则 6 允许的范围内、且经运维明确授权时执行（`scripts/purge-records.mjs`）。这条审计记录本身就是规则 6 要求的「最小审计记录」，因此必须写明删了多少、备份在哪。硬删除会一并失去旧公开 ID 的重定向、合并快照与撤回理由——因范围调整而撤回的主张不属于「错误记录」，默认不在删除范围内。
-- `admin.set_role`：运维维护动作，修改贡献者账号的 `role`。不改任何主张，只改谁有审核权；正因为提权是最不该无声发生的一类操作，它必须留下审计记录。
-- `admin.suppress_person`：运维维护动作，把超出收录范围的人物转为 `suppressed`（不公开、不进搜索），不删除任何数据、可随时恢复。跨越公开边界的关系主张另行按正常流程撤回（`claim.retract`），公开页面因此不会指向隐藏记录。
+账号安全审计只存在于 D1，记录 OAuth 成功/失败、scope 变化、会话撤销、GitHub grant 断开和账号封禁。账号审计不得使用 `person_id`、`claim_id` 或 `source_id` 作为数据库外键，也不得记录 PR 正文、人物内容或 diff。两类审计不能互相替代或混表保存。

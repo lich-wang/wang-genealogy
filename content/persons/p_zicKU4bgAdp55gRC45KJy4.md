@@ -1,0 +1,142 @@
+---
+schema: wang-person/v1
+id: p_zicKU4bgAdp55gRC45KJy4
+status: active
+merged_into: null
+display_name: 王子忠
+revision: 1
+properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_tEfN9ZEWhnZFWX6qqpWVWN
+        subject_person_id: p_zicKU4bgAdp55gRC45KJy4
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王子忠，明人物。CBDB 记录其曾任陰陽訓術。中国历代人物传记资料库（CBDB）以人物编号 326662 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 3
+      sources:
+        - id: cs_hGRABpB99qZPhDAifF6K6Q
+          claim_id: c_tEfN9ZEWhnZFWX6qqpWVWN
+          source_id: s_nNdH2CU9Sa9Bv9AJLQ9gQ2
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_nNdH2CU9Sa9Bv9AJLQ9gQ2
+            source_type: api_record
+            title: 维基数据：王子忠（Q45507096）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45507096
+            external_identifier: Q45507096
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:38.809Z
+            metadata_json: null
+        - id: cs_azXMzT8YBQNlSbcqNofEmw
+          claim_id: c_tEfN9ZEWhnZFWX6qqpWVWN
+          source_id: s_mtFcgp3xDR89PN7wPgktju
+          stance: supports
+          locator: CBDB:326662
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_mtFcgp3xDR89PN7wPgktju
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王子忠（326662）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326662&o=json
+            external_identifier: CBDB:326662
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:06:38.978Z
+            metadata_json: null
+      object_person: null
+    alternatives: []
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_KAc158CQDbN1wGXBAuDJbL
+        subject_person_id: p_zicKU4bgAdp55gRC45KJy4
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王子忠
+          language: zh-Hans
+        status: accepted
+        confidence: high
+        current_revision: 2
+      sources:
+        - id: cs_Q5sSqUQhWqLCsPHnAqqcx6
+          claim_id: c_KAc158CQDbN1wGXBAuDJbL
+          source_id: s_mtFcgp3xDR89PN7wPgktju
+          stance: supports
+          locator: Q45507096
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_pzSDw6PebnYDA7ELJnDFvy
+          claim_id: c_KAc158CQDbN1wGXBAuDJbL
+          source_id: s_nNdH2CU9Sa9Bv9AJLQ9gQ2
+          stance: supports
+          locator: Q45507096
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_nNdH2CU9Sa9Bv9AJLQ9gQ2
+            source_type: api_record
+            title: 维基数据：王子忠（Q45507096）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45507096
+            external_identifier: Q45507096
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:38.809Z
+            metadata_json: null
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses: []
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王子忠
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| bio.summary | 王子忠，明人物。CBDB 记录其曾任陰陽訓術。中国历代人物传记资料库（CBDB）以人物编号 326662 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| name.primary | 王子忠 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+
+## 外部来源
+
+- [维基数据：王子忠（Q45507096）](https://www.wikidata.org/wiki/Q45507096)
+- [CBDB 中国历代人物传记资料库：王子忠（326662）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326662&o=json)

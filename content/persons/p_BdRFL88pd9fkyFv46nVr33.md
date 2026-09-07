@@ -1,0 +1,116 @@
+---
+schema: wang-person/v1
+id: p_BdRFL88pd9fkyFv46nVr33
+status: active
+merged_into: null
+display_name: 王起峩
+revision: 1
+properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_z77KEzAyzMNnv8eSYwGkR7
+        subject_person_id: p_BdRFL88pd9fkyFv46nVr33
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王起峩，明人物。中国历代人物传记资料库（CBDB）以人物编号 343292 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 5
+      sources:
+        - id: cs_BSwF-8xeKeRSEJ-KHj3JB8
+          claim_id: c_z77KEzAyzMNnv8eSYwGkR7
+          source_id: s_u2tS4juR8LEX8JFN9wTPQQ
+          stance: supports
+          locator: CBDB:343292
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source:
+            id: s_u2tS4juR8LEX8JFN9wTPQQ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王起峩（CBDB 343292）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=343292&o=json
+            external_identifier: CBDB:343292
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:15.941Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person: null
+    alternatives: []
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_KCnLpa8tw47P9DFV29P6p4
+        subject_person_id: p_BdRFL88pd9fkyFv46nVr33
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王起峩
+          language: zh-Hant
+        status: accepted
+        confidence: high
+        current_revision: 2
+      sources:
+        - id: cs_LGKcn564Jsrb9yuGYxZ4Ve
+          claim_id: c_KCnLpa8tw47P9DFV29P6p4
+          source_id: s_u2tS4juR8LEX8JFN9wTPQQ
+          stance: supports
+          locator: CBDB:343292
+          quotation: null
+          interpretation_note: CBDB 2026-08-29 Luna 审核通过人物批量导入（4501-4600）｜历史性依据：CBDB 朝代 = 明
+          source:
+            id: s_u2tS4juR8LEX8JFN9wTPQQ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王起峩（CBDB 343292）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=343292&o=json
+            external_identifier: CBDB:343292
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:15.941Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses: []
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王起峩
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| bio.summary | 王起峩，明人物。中国历代人物传记资料库（CBDB）以人物编号 343292 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| name.primary | 王起峩 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+
+## 外部来源
+
+- [中国历代人物传记资料库：王起峩（CBDB 343292）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=343292&o=json)

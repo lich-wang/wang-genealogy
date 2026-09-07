@@ -10,6 +10,7 @@ coverage/
 # Generated from a temporary production export during deployment. The checked-in
 # family-tree components remain the last-resort bootstrap fallback.
 apps/api/tree-snapshot/public/
+apps/web/public/data/
 
 # maintenance script caches (CBDB responses)
 scripts/.cache/

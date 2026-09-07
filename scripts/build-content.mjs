@@ -1,0 +1,125 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import { execFileSync } from 'node:child_process';
+import { fileURLToPath } from 'node:url';
+import { parsePersonMarkdown } from './lib/person-markdown.mjs';
+
+const rootDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const contentDir = path.resolve(process.argv[2] ?? path.join(rootDir, 'content/persons'));
+const outputDir = path.resolve(process.argv[3] ?? path.join(rootDir, 'apps/web/public/data'));
+const personDir = path.join(outputDir, 'persons');
+const graphDir = path.join(outputDir, 'graphs');
+const sourceDir = path.join(outputDir, 'sources');
+fs.rmSync(outputDir, { recursive: true, force: true });
+for (const dir of [personDir, graphDir, sourceDir]) fs.mkdirSync(dir, { recursive: true });
+
+const records = new Map();
+for (const name of fs.readdirSync(contentDir).filter((name) => name.endsWith('.md')).sort()) {
+  const file = path.join(contentDir, name);
+  const record = parsePersonMarkdown(fs.readFileSync(file, 'utf8'), file);
+  validateRecord(record, name);
+  if (records.has(record.id)) throw new Error(`${name}: 人物 ID 重复 ${record.id}`);
+  records.set(record.id, record);
+}
+
+for (const record of records.values()) {
+  for (const item of relationshipItems(record)) {
+    const target = item.object_person?.id ?? item.claim?.object_person_id;
+    if (target && !records.has(target)) throw new Error(`${record.id}: 关系引用不存在的人物 ${target}`);
+  }
+}
+
+const summaries = new Map();
+const claims = new Map();
+const claimFingerprints = new Map();
+const sources = new Map();
+for (const record of records.values()) {
+  const summary = toSummary(record);
+  summaries.set(record.id, summary);
+  fs.writeFileSync(path.join(personDir, `${record.id}.json`), JSON.stringify(summary));
+  for (const item of allClaimItems(record)) {
+    const fingerprint = JSON.stringify({ claim: item.claim, sources: item.sources });
+    const existingFingerprint = claimFingerprints.get(item.claim.id);
+    if (existingFingerprint && existingFingerprint !== fingerprint) throw new Error(`${record.id}: 主张 ${item.claim.id} 在人物文件之间不一致`);
+    claimFingerprints.set(item.claim.id, fingerprint);
+    claims.set(item.claim.id, item);
+    for (const ref of item.sources ?? []) {
+      if (ref.source?.canonical_url) {
+        try { new URL(ref.source.canonical_url); } catch { throw new Error(`${record.id}: 来源 ${ref.source.id} 的 canonical_url 无效`); }
+      }
+      if (ref.source) sources.set(ref.source.id, ref.source);
+    }
+  }
+}
+
+const edges = buildEdges(claims.values());
+const adjacency = new Map([...records.keys()].map((id) => [id, new Set()]));
+for (const edge of [...edges.parent_edges, ...edges.spouse_edges, ...edges.descent_edges]) {
+  const [a, b] = edge.parent_id ? [edge.parent_id, edge.child_id] : edge.a_id ? [edge.a_id, edge.b_id] : [edge.ancestor_id, edge.descendant_id];
+  adjacency.get(a)?.add(b); adjacency.get(b)?.add(a);
+}
+const graphLookup = {};
+const unvisited = new Set(records.keys());
+let componentNumber = 0;
+while (unvisited.size) {
+  const root = unvisited.values().next().value;
+  const component = walk(root, adjacency);
+  for (const id of component) unvisited.delete(id);
+  const componentId = String(componentNumber++).padStart(4, '0');
+  for (const id of component) graphLookup[id] = componentId;
+  const graph = {
+    root_id: root, scope: 'all', up: 99, down: 99,
+    nodes: component.map((nodeId) => nodeFor(summaries.get(nodeId))),
+    parent_edges: edges.parent_edges.filter((edge) => component.includes(edge.parent_id) && component.includes(edge.child_id)),
+    spouse_edges: edges.spouse_edges.filter((edge) => component.includes(edge.a_id) && component.includes(edge.b_id)),
+    descent_edges: edges.descent_edges.filter((edge) => component.includes(edge.ancestor_id) && component.includes(edge.descendant_id)),
+    truncated: false,
+  };
+  fs.writeFileSync(path.join(graphDir, `${componentId}.json`), JSON.stringify(graph));
+}
+
+const sourceClaims = new Map([...sources.keys()].map((id) => [id, []]));
+for (const item of claims.values()) for (const ref of item.sources ?? []) if (ref.source) sourceClaims.get(ref.source.id)?.push(item);
+const sourceShards = new Map();
+for (const [id, source] of sources) {
+  const shard = id.slice(2, 3) || '_';
+  if (!sourceShards.has(shard)) sourceShards.set(shard, {});
+  sourceShards.get(shard)[id] = { source, claims: sourceClaims.get(id) };
+}
+for (const [shard, entries] of sourceShards) fs.writeFileSync(path.join(sourceDir, `${shard}.json`), JSON.stringify(entries));
+
+const search = [...summaries.values()].map(searchRecord).sort((a, b) => (a.display_name ?? '').localeCompare(b.display_name ?? '', 'zh'));
+const relativeCounts = new Map([...records.keys()].map((id) => [id, adjacency.get(id)?.size ?? 0]));
+const highlights = search.filter((item) => item.status === 'active').sort((a, b) => (relativeCounts.get(b.id) ?? 0) - (relativeCounts.get(a.id) ?? 0)).slice(0, 24).map((item) => ({ id: item.id, display_name: item.display_name, relative_count: relativeCounts.get(item.id) ?? 0, is_surname_progenitor: ['姬晋', '畢公高', '宗敬'].includes(item.display_name ?? '') }));
+const changes = gitChanges(records);
+const index = { schema: 'wang-static/v1', generated_at: new Date().toISOString(), status: { people: records.size, relationships: edges.parent_edges.length + edges.spouse_edges.length + edges.descent_edges.length, sources: sources.size, claims: claims.size, generated_at: new Date().toISOString() }, highlights, search, changes, graph_lookup: graphLookup };
+fs.writeFileSync(path.join(outputDir, 'index.json'), JSON.stringify(index));
+console.log(`已校验并生成 ${records.size} 个人物页面、${sources.size} 个来源记录`);
+
+function validateRecord(record, file) {
+  if (record.schema !== 'wang-person/v1') throw new Error(`${file}: schema 必须是 wang-person/v1`);
+  if (!record.id || `${record.id}.md` !== file) throw new Error(`${file}: 文件名必须与 id 一致`);
+  if (!Array.isArray(record.properties) || !record.relationships) throw new Error(`${file}: 缺少 properties 或 relationships`);
+}
+function toSummary(record) {
+  const now = '1970-01-01T00:00:00.000Z';
+  return { person: { id: record.id, status: record.status, merged_into_person_id: record.merged_into ?? null, created_by_user_id: 'git', created_at: now, updated_at: now, current_revision: record.revision }, redirect_to_person_id: record.merged_into ?? null, display_name: record.display_name ?? null, properties: record.properties, relationships: record.relationships, current_revision: record.revision };
+}
+function allClaimItems(record) { return [...record.properties.flatMap((field) => [field.recommended, ...(field.alternatives ?? [])]).filter(Boolean), ...relationshipItems(record)]; }
+function relationshipItems(record) { return Object.values(record.relationships).flat(); }
+function buildEdges(items) {
+  const result = { parent_edges: [], spouse_edges: [], descent_edges: [] };
+  for (const item of items) {
+    const claim = item.claim; const citations = (item.sources ?? []).map((ref) => ({ source_title: ref.source?.title ?? '未知来源', locator: ref.locator ?? null }));
+    const base = { claim_id: claim.id, status: claim.status, citations };
+    if (claim.predicate === 'kinship.parent_of' || claim.predicate === 'kinship.adoptive_parent_of') result.parent_edges.push({ ...base, parent_id: claim.subject_person_id, child_id: claim.object_person_id, parent_role: claim.parent_role ?? null });
+    else if (claim.predicate === 'kinship.spouse_of') result.spouse_edges.push({ ...base, a_id: claim.subject_person_id, b_id: claim.object_person_id });
+    else if (claim.predicate === 'kinship.ancestor_of') result.descent_edges.push({ ...base, ancestor_id: claim.subject_person_id, descendant_id: claim.object_person_id, generations: claim.generation_count ?? null });
+  }
+  return result;
+}
+function walk(root, adjacency) { const seen = new Set([root]); const queue = [root]; for (const id of queue) for (const next of adjacency.get(id) ?? []) if (!seen.has(next)) { seen.add(next); queue.push(next); } return [...seen]; }
+function nodeFor(summary) { return { id: summary.person.id, display_name: summary.display_name, status: summary.person.status, birth: propertyText(summary, 'birth.date'), death: propertyText(summary, 'death.date') }; }
+function propertyText(summary, predicate) { const claim = summary.properties.find((field) => field.predicate === predicate)?.recommended?.claim; return claim?.value_json?.date?.original_text ?? claim?.value_json?.text ?? null; }
+function searchRecord(summary) { const aliases = summary.properties.filter((field) => field.predicate.startsWith('name.') && field.predicate !== 'name.primary').flatMap((field) => [field.recommended, ...field.alternatives]).filter(Boolean).map((item) => item.claim.value_json?.text).filter(Boolean); return { id: summary.person.id, status: summary.person.status, display_name: summary.display_name, merged_into_person_id: summary.person.merged_into_person_id, birth_text: propertyText(summary, 'birth.date'), death_text: propertyText(summary, 'death.date'), origin_text: propertyText(summary, 'place.origin'), branch_text: propertyText(summary, 'lineage.branch'), also_known_as: aliases, relative_count: relationshipItems(records.get(summary.person.id)).length }; }
+function gitChanges(known) { try { const text = execFileSync('git', ['log', '-80', '--date=iso-strict', '--pretty=format:%H%x09%an%x09%aI%x09%s', '--name-only', '--', 'content/persons'], { encoding: 'utf8' }); const lines = text.split('\n'); const changes = []; let commit; for (const line of lines) { if (line.includes('\t')) { const [hash, author, date, subject] = line.split('\t'); commit = { hash, author, date, subject }; } else if (commit && line.startsWith('content/persons/') && line.endsWith('.md')) { const id = path.basename(line, '.md'); if (known.has(id)) changes.push({ contribution_id: `${commit.hash}:${id}`, action: 'claim.revise', actor_display_name: commit.author, target_type: 'person', target_id: id, subject_person_id: id, target_display_name: known.get(id).display_name, change_summary: commit.subject, created_at: commit.date }); } } return changes.slice(0, 80); } catch { return []; } }

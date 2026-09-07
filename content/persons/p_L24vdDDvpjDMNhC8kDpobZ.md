@@ -1,0 +1,189 @@
+---
+schema: wang-person/v1
+id: p_L24vdDDvpjDMNhC8kDpobZ
+status: active
+merged_into: null
+display_name: 王士任
+revision: 1
+properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_7wegTfKEhFNLSg2TQK9mAo
+        subject_person_id: p_L24vdDDvpjDMNhC8kDpobZ
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王士任（1686年—1744年），史料所见人物。本项目依据《王士任》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 2
+      sources:
+        - id: cs_z6az4nm8e4j47at3Dv0ZDy
+          claim_id: c_7wegTfKEhFNLSg2TQK9mAo
+          source_id: s_1LLM8cuQqUmxJr2MJvEAyY
+          stance: supports
+          locator: Q15956138
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          source: &a1
+            id: s_1LLM8cuQqUmxJr2MJvEAyY
+            source_type: api_record
+            title: 维基数据：王士任（Q15956138）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q15956138
+            external_identifier: Q15956138
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:48:52.064Z
+            metadata_json: null
+      object_person: null
+    alternatives: []
+  - predicate: birth.date
+    recommended:
+      claim:
+        id: c_yFB8Ga3K6iigQmVPuQjKsC
+        subject_person_id: p_L24vdDDvpjDMNhC8kDpobZ
+        claim_kind: property
+        predicate: birth.date
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          date:
+            original_text: 1686年
+            calendar_note: 维基数据 P569 结构化日期，精度：年
+            earliest: 1686-01-01
+            latest: 1686-12-31
+            precision: year
+        status: accepted
+        confidence: high
+        current_revision: 2
+      sources:
+        - id: cs_8E1xYCgmK4HXA3xVgKP6u3
+          claim_id: c_yFB8Ga3K6iigQmVPuQjKsC
+          source_id: s_1LLM8cuQqUmxJr2MJvEAyY
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: null
+          source: *a1
+      object_person: null
+    alternatives: []
+  - predicate: death.date
+    recommended:
+      claim:
+        id: c_TTzCA6tYxzdA8HjE1YJSnA
+        subject_person_id: p_L24vdDDvpjDMNhC8kDpobZ
+        claim_kind: property
+        predicate: death.date
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          date:
+            original_text: 1744年
+            calendar_note: 维基数据 P570 结构化日期，精度：年
+            earliest: 1744-01-01
+            latest: 1744-12-31
+            precision: year
+        status: accepted
+        confidence: high
+        current_revision: 2
+      sources:
+        - id: cs_1oxrhodRHJ6J5K8Y8jMg83
+          claim_id: c_TTzCA6tYxzdA8HjE1YJSnA
+          source_id: s_1LLM8cuQqUmxJr2MJvEAyY
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_1LLM8cuQqUmxJr2MJvEAyY
+            source_type: api_record
+            title: 维基数据：王士任（Q15956138）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q15956138
+            external_identifier: Q15956138
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:48:52.064Z
+            metadata_json: null
+      object_person: null
+    alternatives: []
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_Lbkj6JF47jeFCX74FGDHqB
+        subject_person_id: p_L24vdDDvpjDMNhC8kDpobZ
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王士任
+          language: zh-Hans
+        status: accepted
+        confidence: high
+        current_revision: 2
+      sources:
+        - id: cs_7MkDzqonGQ3idssH4geKwB
+          claim_id: c_Lbkj6JF47jeFCX74FGDHqB
+          source_id: s_1LLM8cuQqUmxJr2MJvEAyY
+          stance: supports
+          locator: Q15956138
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_1LLM8cuQqUmxJr2MJvEAyY
+            source_type: api_record
+            title: 维基数据：王士任（Q15956138）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q15956138
+            external_identifier: Q15956138
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:48:52.064Z
+            metadata_json: null
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses: []
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王士任
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| bio.summary | 王士任（1686年—1744年），史料所见人物。本项目依据《王士任》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| birth.date | 1686年 | accepted |
+| death.date | 1744年 | accepted |
+| name.primary | 王士任 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+
+## 外部来源
+
+- [维基数据：王士任（Q15956138）](https://www.wikidata.org/wiki/Q15956138)

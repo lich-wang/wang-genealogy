@@ -1,11 +1,10 @@
 import { useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { Download, GitFork, Home, Info, PenLine, Plus, Users } from 'lucide-react';
+import { Download, GitFork, Home, Info, PenLine, Users } from 'lucide-react';
 import type { ClaimWithSources, PersonSummary } from '@wang/domain';
 import { api } from '../api';
 import { relationshipGenerationCount, relationshipParentRole } from '../format';
 import { useAsync, toMessage } from '../hooks';
-import { useAuth } from '../auth';
 import { useScript } from '../i18n';
 import { PersonStatusBadge } from '../components/badges';
 import { SummaryFieldView } from '../components/SummaryFieldView';
@@ -36,25 +35,10 @@ function byHeadlineOrder(a: { predicate: string }, b: { predicate: string }) {
 
 export function PersonPage() {
   const { id = '' } = useParams();
-  const { isAuthenticated } = useAuth();
   const { t } = useScript();
-  const [disputeBusy, setDisputeBusy] = useState(false);
   const [actionError, setActionError] = useState<string | null>(null);
 
   const state = useAsync<PersonSummary>(() => api.getPerson(id), [id]);
-
-  async function onDispute(claimId: string) {
-    setActionError(null);
-    setDisputeBusy(true);
-    try {
-      await api.disputeClaim(claimId, { reason: '前端標記：需要複核' });
-      state.reload();
-    } catch (err) {
-      setActionError(toMessage(err));
-    } finally {
-      setDisputeBusy(false);
-    }
-  }
 
   if (state.loading) return <div className="page">{t('載入中…')}</div>;
   if (state.error) return <div className="page error">{t('載入失敗')}：{t(state.error)}</div>;
@@ -115,8 +99,6 @@ export function PersonPage() {
               <SummaryFieldView
                 key={field.predicate}
                 field={field}
-                onDispute={isAuthenticated ? onDispute : undefined}
-                disputeBusy={disputeBusy}
               />
             ))}
           </div>
@@ -132,95 +114,60 @@ export function PersonPage() {
           <RelationshipGroup
             title="父亲"
             items={fathers}
-            onDispute={isAuthenticated ? onDispute : undefined}
-            disputeBusy={disputeBusy}
           />
           <RelationshipGroup
             title="母亲"
             items={mothers}
-            onDispute={isAuthenticated ? onDispute : undefined}
-            disputeBusy={disputeBusy}
           />
           <RelationshipGroup
             title="父母未详"
             items={unspecifiedParents}
-            onDispute={isAuthenticated ? onDispute : undefined}
-            disputeBusy={disputeBusy}
           />
           <RelationshipGroup
             title="配偶"
             items={summary.relationships.spouses}
-            onDispute={isAuthenticated ? onDispute : undefined}
-            disputeBusy={disputeBusy}
           />
           <RelationshipGroup
             title="子女"
             items={summary.relationships.children}
-            onDispute={isAuthenticated ? onDispute : undefined}
-            disputeBusy={disputeBusy}
           />
           <RelationshipGroup
             title="养父"
             items={adoptiveFathers}
-            onDispute={isAuthenticated ? onDispute : undefined}
-            disputeBusy={disputeBusy}
           />
           <RelationshipGroup
             title="养母"
             items={adoptiveMothers}
-            onDispute={isAuthenticated ? onDispute : undefined}
-            disputeBusy={disputeBusy}
           />
           <RelationshipGroup
             title="收养父母未详"
             items={unspecifiedAdoptiveParents}
-            onDispute={isAuthenticated ? onDispute : undefined}
-            disputeBusy={disputeBusy}
           />
           <RelationshipGroup
             title="收養子女"
             items={summary.relationships.adoptive_children}
-            onDispute={isAuthenticated ? onDispute : undefined}
-            disputeBusy={disputeBusy}
           />
           <RelationshipGroup
             title="先祖"
             items={summary.relationships.ancestors}
             showGeneration
-            onDispute={isAuthenticated ? onDispute : undefined}
-            disputeBusy={disputeBusy}
           />
           <RelationshipGroup
             title="後代"
             items={summary.relationships.descendants}
             showGeneration
-            onDispute={isAuthenticated ? onDispute : undefined}
-            disputeBusy={disputeBusy}
           />
           <RelationshipGroup
             title="其他關係"
             items={summary.relationships.other}
-            onDispute={isAuthenticated ? onDispute : undefined}
-            disputeBusy={disputeBusy}
           />
         </div>
       </section>
 
       <footer className="person-actions">
-        {isAuthenticated ? (
-          <>
-            <Link className="btn btn-secondary" to={`/contribute?person=${encodeURIComponent(person.id)}&form=claim`}>
-              <Plus size={16} />{t('补充人物资料')}
-            </Link>
-            <Link className="btn btn-secondary" to={`/contribute?person=${encodeURIComponent(person.id)}&form=relationship`}>
-              <PenLine size={16} />{t('添加亲属关系')}
-            </Link>
-          </>
-        ) : (
-          <p className="muted">
-            <Link to="/contribute">{t('登入')}</Link> {t('後可新增主張、補充來源或標記爭議。')}
-          </p>
-        )}
+        <Link className="btn btn-secondary" to={`/contribute?person=${encodeURIComponent(person.id)}`}>
+          <PenLine size={16} />{t('通过 PR 编辑人物资料')}
+        </Link>
         <button
           type="button"
           className="btn btn-secondary"

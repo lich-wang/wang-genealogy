@@ -1,180 +1,75 @@
-# 架构决策草案
+# GitHub 身份与 Git 内容架构
 
-## 一、目标部署
-
-```text
-GitHub
-  │ push / pull request
-  ▼
-Cloudflare Pages ── 静态前端
-  │
-  ▼
-Cloudflare Workers ── REST API、认证、审核、限流
-  │
-  ▼
-Cloudflare D1 ── 人物、主张、来源、版本、合并、审计
-```
-
-首期不使用对象存储，因为明确不保存影像和附件。
-
-## 二、为什么不直接采用现有族谱系统
-
-- webtrees 依赖 PHP 和传统数据库服务器；
-- Gramps Web 依赖 Python 后端；
-- GeneWeb 依赖常驻服务进程；
-- 这些系统以一棵家族树的当前状态为中心，而本项目以“可冲突、有来源的主张”为中心。
-
-可以参考它们的 GEDCOM、权限、图表和隐私设计，但不直接复制运行架构。
-
-## 三、仓库结构
+## 一、总体结构
 
 ```text
-apps/
-  web/          # 前端（React + Vite → Cloudflare Pages）
-  api/          # Cloudflare Worker API（Hono + Zod）
-packages/
-  domain/       # 共享类型、枚举、公共 ID
-  i18n/         # 简繁字形转换与折叠（显示层与搜索共用）
-  validation/   # 输入、日期、亲属关系校验
-migrations/     # D1 SQL 迁移
-scripts/        # 导入与运维脚本
-e2e/            # Playwright 冒烟检查
-docs/           # 产品、数据和接口设计
+匿名读取
+浏览器 ── Cloudflare Pages ── 静态 JSON
+                                  ▲
+                                  │ CI 从 main 构建
+                                  │
+GitHub OAuth 用户 ── 站内贡献表单 ── Contribution Worker
+                                         │ 以用户 OAuth token 调 GitHub API
+                                         ▼
+用户 fork / 分支 / commit ── Pull Request ── main
+                                      │ 维护者审阅并合并
+                                      └── 合并即审核通过并触发发布
+
+身份与运行数据
+浏览器 ── Contribution Worker ── Account D1
+                    │                └── GitHub 绑定、会话、加密 token、偏好、安全审计
+                    └── GitHub OAuth（唯一登录/注册方式）
 ```
 
-家族树展示使用 React Flow（`@xyflow/react`）提供节点/关系边渲染、画布平移、缩放和适配视图；业务层把有来源的亲属关系转换为节点与边，并以所有父子方向的最长路径约束计算代际位置，保证长世系只向下延伸。页面先取上下各两代的轻量切片；用户选择「展开全部」或聚焦人物时，一次读取完整公开亲缘连通分量。点击人物后只保留其全部先祖、后代和主干配偶，旁系在显示层折叠，原图数据不丢失。该页面按路由动态加载，避免图形库进入首页主包。
+`content/persons/*.md` 是人物、`Claim`、亲属关系、`Source`、合并状态和资料版本的唯一权威数据。公开页面、搜索、来源反查、最近修改和家族图都读取随站点版本发布的静态 JSON，不查询 D1。
 
-发布包同时携带由 D1 导出生成的**匿名公开只读快照**。人物摘要、搜索、来源、最近修改、首页入口以及局部／全局家族树均从分片静态资源读取；匿名 `GET` 在认证和路由数据库代码之前返回，因此 D1 访问数严格为零。响应以 `X-Wang-D1: BYPASS` 和 `X-Wang-Data-Source` 明示来源。生成器只选择 `active`／`merged` 人物及公开端点所需字段，明确排除邮箱散列、密码、会话、候选人物和被抑制人物。
+## 二、身份决策
 
-CI 会把每次成功生成的公开快照保存为 GitHub Actions 缓存。后续发布若因 D1 不可用、导出失败或额度耗尽而无法刷新，流水线改用最近一次通过验证的缓存快照作为 Worker 静态资源；缓存不存在时必须停止发布，绝不生成空快照。缓存只包含匿名公开数据，不保存 D1 SQL、账号、会话或其他私有表。日志以 warning 明示本次数据时间可能滞后；恢复后下一次发布重新导出并替换缓存。
+站点不提供邮箱、密码、验证码或独立注册表单。访客点击“使用 GitHub 登录”后进入 GitHub OAuth Web Application Flow；首次成功回调即按不可变的 GitHub numeric user ID 建立本地账号绑定，再次回调即登录。GitHub 用户名仅用于显示，改名不会产生新账号。
 
-经审核但尚未写入 D1 的计划发布在静态资源 `/import-queue/index.json` 下。索引记录审核者、通过／拒绝／人工判断数量，以及计划、裁决、报告各文件的 SHA-256；自动同步只读取 `reviewed_pending_import` 的“通过项计划”，验签后仍经 HTTP API 幂等写入。拒绝项和人工判断项只随裁决文件公开备查，不进入自动同步计划，也不混入公开族谱快照。
+OAuth 必须由 Worker 完成，客户端不能持有 client secret 或 GitHub access token。授权请求使用不可猜测的 `state` 和 PKCE `S256`，回调后重新调用 GitHub `/user` 确认身份。站点会话使用 `Secure`、`HttpOnly`、`SameSite=Lax` Cookie；退出登录撤销本地会话，断开 GitHub 则同时撤销并删除保存的 OAuth 凭据。
 
-登录用户仍读取 D1，以便立即看到自己的候选修改；全部写接口也继续使用权威数据库、追加版本和审计记录。生产流水线每次发布及每天定时从临时 D1 导出重新生成公开快照，匿名内容因此是最长约一天的“已发布版本”。快照文件还会在 Cloudflare 边缘按 URL 短期缓存，命中时返回 `X-Wang-Cache: HIT`。这种读写分层既避免 D1 浏览流量，也不会为了缓存制造数据库写入。
+为让站内表单能以贡献者本人身份创建公开 fork、写入分支和发起 Pull Request，贡献授权需要 `public_repo`。这是 GitHub OAuth App 能提供的最窄公开仓库写权限，但仍覆盖用户可访问的全部公开仓库；授权页与隐私说明必须明确提示。不得申请 `repo`，以免取得私有仓库权限。若未来改用 GitHub App，必须先证明其能在不要求用户向个人账号安装全仓库权限的前提下完成 fork 工作流。
 
-## 四、D1 数据策略
+## 三、投稿流程
 
-- 使用字符串形式的不可猜测公共 ID；
-- 所有外键和常用筛选字段建立索引；
-- 公开人物摘要可物化缓存，但主张仍是权威记录；
-- 写入使用事务或批处理，人物合并必须原子化；
-- 审计和版本记录采用追加写入；
-- 删除使用状态字段，默认不物理删除。
+站内贡献表单只编辑结构化内容，不直接修改 `main`：
 
-### 最小写入不变量
+1. 用户以 GitHub 登录；未登录时保存表单到浏览器内存或 `sessionStorage`，OAuth 返回后恢复，草稿不写 D1。
+2. 新增人物时由前端生成稳定 `p_` ID；更新人物时加载当前静态 JSON 与对应 Markdown 的基线 SHA。
+3. 前端生成确定性的 `wang-person/v1` Markdown，展示最终 diff、来源和投稿许可确认。
+4. Contribution Worker 校验会话、CSRF、路径白名单、大小限制、基线 SHA 和 OAuth scope；请求正文只在内存中处理，不保存到 D1 或日志。
+5. Worker 使用当前用户的 GitHub token 创建或复用该用户的 fork，从最新 `main` 建立 `contrib/<github-id>/<submission-id>` 分支，写入 Markdown commit，并以该用户身份创建 Pull Request。
+6. 相同 `submission_id` 重试时，Worker先在 GitHub 查询确定性分支或已存在的 Pull Request，存在则原样返回，不重复创建分支、commit 或 PR。
+7. CI 对 Pull Request 的最终树执行 Markdown schema、ID、来源、关系引用、双端关系一致性、环和收录边界校验。
+8. 维护者在 GitHub 审阅；合并 Pull Request 就是审核通过。合并到 `main` 后重新生成静态 JSON 并部署 Pages。
 
-所有写路径先解析身份并计算差量，只把维持领域模型和审计链所需的最小变化写入 D1：
+所有 GitHub 写操作必须使用当前用户 token，不能用机器人、仓库 installation token 或维护者 token代替；否则 Pull Request 作者不再是实际贡献者。Worker 不提供合并接口，管理员审核只在 GitHub 分支保护下进行。
 
-- 重跑完全相同的请求必须是 **零写入 no-op**，不得重复建立人物、来源、主张、引用、修订、贡献记录，也不得只为刷新 `updated_at` 而写入；
-- 已有相同主张时，只补真正缺少的来源关联；相同来源关联已经存在时不写；内容或状态实际变化时，才追加一版修订及对应贡献记录；
-- 审核后的批量任务采用一次集合校验和一次事务性 D1 batch，不得退化为逐人物、逐主张的读写循环；
-- 来源、修订和审计属于不可省略的有效数据。“最小”只删除冗余写入，不得以节省额度为由省略证据或历史；
-- 导入结果必须分别报告计划数、新建数、复用数与零写入跳过数，使额度消耗可以复核。
-- 已审核历史人物名录通过 `POST /api/v1/persons/bulk-reviewed` 串行同步；每批最多 200 人，以数据库唯一导入身份、内容指纹、外部来源标识和简繁姓名集合校验身份，并把已完成稳定键写入绑定清单哈希的原子本地断点。网络中断后重试已提交批次只产生 no-op，不重复写入；并发竞态由同一事务末尾的唯一身份登记触发全批回滚。
+## 四、内容组织
 
-## 五、认证与防滥用
+- `content/persons/<person-id>.md`：一位公开历史人物一个页面；YAML front matter 保存结构化主张和关系，正文提供可读摘要。
+- 外部史料只保存书目信息、URL、定位、必要短引文和解释，不保存网页镜像、扫描件或附件。
+- `scripts/build-content.mjs`：唯一内容构建入口，校验 schema、ID 唯一性、关系目标、跨文件主张一致性与来源。
+- `apps/web/public/data/`：临时生成目录，不提交 Git；人物按 ID 独立输出，来源按 ID 首字符分片，家族图按连通分量输出。
 
-- 公开读取无需登录；
-- 投稿需要认证；
-- 注册、登录和高频投稿使用 Turnstile；
-- 写接口按账号和 IP 限流；
-- 新账号投稿默认进入审核队列；
-- 管理操作采用更强认证和独立审计。
+静态 JSON 是派生物，不是第二份数据库。缓存失效时必须从当前 Git 提交重新生成，不能从 D1 恢复人物数据。
 
-认证提供商尚未确定。GitHub OAuth 适合早期技术用户，但未来应考虑普通族谱研究者能使用的邮箱登录方式。
+## 五、D1 边界
 
-## 六、搜索
+Account D1 只允许保存：
 
-匿名搜索使用发布时生成的只读静态索引，在 Worker 内完成筛选和游标分页，不访问 D1。投稿时的同名检查属于登录态读取，仍使用权威数据库以包含尚未发布的候选资料。无需在免费层引入独立搜索服务。
+- 不可变 GitHub user ID、当前 login、公开头像 URL 和账号状态；
+- OAuth scope、到期时间，以及由独立密钥加密的 access/refresh token；
+- 随机站点会话的摘要、到期和撤销状态；
+- 界面偏好、通知订阅、限流状态和账号安全审计。
 
-当前公开快照存于 Workers Static Assets：不另收存储费用，静态资源请求免费且不计 D1；免费计划每版本最多 20,000 个文件、单文件 25 MiB。生成器按公共 ID 分片并限制常驻内存缓存。当任一分片接近 20 MiB 或公开快照增长到数百 MiB 时，迁移到 R2；R2 免费层提供每月 10 GB-month、100 万次写类操作和 1,000 万次读类操作，适合更大的不可变快照。KV 免费层只有每天 10 万次读取、1 GB，Durable Objects 的 SQLite 存储又共享 D1 的行读写计量，因此都不是本项目扩大匿名查询额度的首选。
+D1 明确禁止保存：邮箱密码凭据、`Person`、`Claim`、`ClaimRevision`、`Source`、`ClaimSource`、亲属边、人物合并提案、投稿 Markdown、diff、草稿、导入队列和公开搜索索引。账号表不得以数据库外键绑定人物；关注人物时只保存公开 `person_id` 字符串。
 
-搜索必须对简繁字形不敏感（搜「王賁」要找到录入为「王贲」的人物）。存储值是有来源的证据，不做归一化写入，因此折叠发生在查询侧：Worker 把查询词展开为简体与繁體两种写法一起匹配。这样无需新增派生列或回填。若将来数据量使 `LIKE` 不再够用，再引入以折叠后姓名为键的只读索引表——仍是派生数据，不是 `Person` 上的“最终值”。
+OAuth token 必须静态加密，密钥只存在于 Worker secret，不能写入 D1、日志或前端。贡献审计以 GitHub commit、Pull Request 和 review 为准；D1 安全审计只记录动作类别、GitHub user ID、结果和时间，不复制人物 ID、标题、Markdown、来源或 diff。
 
-## 六之二、简繁字形（packages/i18n）
+## 六、部署边界
 
-- 转换基于 `opencc-js`，但只装载需要的词典，避免把 1 MB 数据带进 Worker：
-  - 繁體→简体（`TSPhrases` + `TSCharacters`，约 20 kB gzip）：Worker 与前端都常驻，也是同名折叠的方向（多对一，结果稳定）；
-  - 简体→繁體字级（`STCharacters`，约 20 kB gzip）：常驻，够用于姓名与多数地名；
-  - 简体→繁體词级（`STPhrases`，约 400 kB gzip）：仅前端在读者切到繁體时按需动态加载，作为独立 chunk 缓存。字级转换会把「王后」错成「王後」，因此在词典就绪前不转换存储文本，先按原文显示。
-- 前端字形状态存于 `localStorage`，同步到 `<html lang>`；界面文案以繁體书写，简体由转换得到。
-- 任何转换结果都不回写数据库、也不提交给 API。
+Pages 发布流水线只执行内容校验、测试、静态构建和部署，不需要 D1 或 GitHub OAuth secret。Contribution Worker 使用独立入口、独立账号迁移和独立部署任务；生产环境通过同源 `/api/auth/*`、`/api/account/*` 和 `/api/contributions/*` 路由访问。
 
-## 六之三、亲属关系导入管线（scripts/）
-
-从外部数据库补充亲属关系分两步，中间留下可人工复核的计划文件：
-
-```text
-scripts/expand-kinship.mjs        逐轮循环，直到没有待展开的人物
-  │
-  ├─ scripts/fetch-kinship.mjs    前沿=尚未查过的王姓人物（--frontier）
-  │    维基数据：P22 父、P25 母、P40 子女、P26 配偶、P3373 兄弟姊妹，正反两个方向都读
-  │    CBDB    ：亲属关系（中文称谓 → packages/validation 的映射表）
-  │    ↓ scripts/kinship-data.json  计划：待建人物及其主张、关系及引用、跳过项、同名待查
-  └─ scripts/import-kinship.mjs   只经 /api/v1 写入
-         ↓
-      Worker API → D1
-scripts/mine-chart.mjs           世系图追踪：无头浏览器渲染页面，按画出来的线条几何求父子
-     {{Tree chart}} 的源码是 ASCII 图，列对不齐（本页有错三列的行），
-     解析源码会自信地给出错误的父子关系；渲染后每个人是带边框的格子、
-     每条连线是已知像素上的边框，相接即同一连接器，与源码列号无关
-     ↓ 候选表 → scripts/mine-prose.mjs --chart
-scripts/mine-prose.mjs           条文识读：前沿=缺上一代或缺下一代的人物
-     中文维基百科条目正文 + 中文维基文库正史列传（晉書、漢書…）
-     交由模型通读，每条读数都回原文逐字核验后才进计划
-     已读页面记入 scripts/.cache/pages-read.json，每轮只读新的
-     ↓ scripts/kinship-data.json → scripts/import-kinship.mjs
-scripts/enforce-scope.mjs        对齐收录范围：王姓及其配偶留下，其余转 suppressed；双向收敛
-scripts/fix-titled-names.mjs     庙号/称号改记为异名，本名提为 name.primary
-scripts/audit-data.mjs           复核：重复、无来源主张、悬空关系、待处理合并提案
-scripts/longest-tree-path.mjs    从发布快照计算最长父子路径；不对生产 D1 跑递归全表查询
-scripts/build-public-read-snapshot.mjs 从临时 D1 导出生成匿名人物、搜索、来源和修改分片
-scripts/propose-merge.mjs        确认是同一人时，逐对提出可回滚的合并提案
-scripts/resolve-duplicates.mjs   已判定的重复批量执行：提案 + 批准（需 reviewer）
-scripts/set-role.mjs             审计式账号角色调整（写入 admin.set_role）
-     scripts/duplicate-merges.json 每条写明识别依据；已执行的条目留在计划里，重跑为空操作
-scripts/split-homonym.mjs        反向情形：一条记录其实是两个同名的人
-     scripts/homonym-splits.json  拆分计划：新建谁、撤回哪几条边、同一引用改挂到哪
-     scripts/wrong-edges.json     只用 retract：散文明确否证的亲属边（兄弟／姑侄读成父子）
-     scripts/generation-errors.json 只用 retract：祖父被记成父亲
-     每条撤回都写明预期的两端，与库里不一致就在写入前中止
-scripts/purge-records.mjs        硬删除（政策例外，需 --yes-hard-delete 与 --backup）
-```
-
-约束：
-
-- **写入只走 HTTP API。** 亲属方向归一化、配偶对的规范化、亲属环检测、来源门槛、追加式版本和审计记录都在服务端，直接写 D1 会全部绕过。脚本只用 D1 做只读花名册查询和运维维护（`scripts/lib/d1.mjs`）。
-- **只读任务优先用快照。** 设置 `D1_READ_SNAPSHOT=/path/to/export.sqlite` 后，`scripts/lib/d1.mjs` 直接查询本地只读 SQLite；亲属抓取、去重、查环、审计和导入预检因此不消耗线上 D1 行读取。最终差量仍只能经 HTTP API 写回，D1 不可写时保留计划等待恢复，绝不把缓存当作权威写库。
-- **同一人只建一条记录。** 身份以外部标识为准：维基数据 QID 与 CBDB ID 通过维基数据的 P497 互相桥接，两个来源指向同一人时合并为一个节点。剩下的同名情况写入计划的 `name_collisions` 交人工判断——同名异人很常见（王益之妻吳氏与王安石之妻吳氏是两个人），因此绝不自动合并。
-- **导入前先找环。** 服务端只拒绝闭合亲属环的那一条边，而单名史料（「錯生賁，賁生渝」）会把相隔七代的两个同名者匹配成一人，前面每条边都合法、逐条写入，最后剩下一段折叠的世系。因此在「已有世系边 + 计划世系边」的图上求强连通分量（`scripts/lib/loops.mjs`），落在同一分量的计划边整批跳过并按人名打印整个环；拆分见 `COLLABORATION.md`。
-- **图不是句子，同名的框更不是同一个人。** 世系图追踪读的是渲染后的连线几何，这解决的是本项目解析器数错列的问题，解决不了页面自身 ASCII art 错位——《琅邪王氏世系圖》就把王劭四子的横杠画到了王协名下，追踪如实读出了一张错的图。因此图里读出的边只作单来源证据，与散文冲突时以散文为准；同一张图里出现多个同名框（三个王瑜）又没有各自条目时，一律进 `name_collisions` 交人工判断，绝不按名字认领已有记录。
-- **矛盾的形状比矛盾的名字好查。** 三个父亲、两兄弟共用子女、父亲同时又是祖父——这些形状不依赖姓名就能发现一条记录悄悄变成了两个人，或一句话被读成了错的关系（`audit-data.mjs` 的 `persons_with_three_parents`、`same_parent_same_child_pairs`、`parent_is_also_grandparent`）。查出来之后：确属误读的撤回；两个来源各说各话的标为 `disputed` 并存，不删少数说。
-- **两个来源互相印证。** 同一条关系若两边都有声明，就挂两条引用；`locator` 分别记维基数据属性号和 CBDB 亲属称谓，CBDB 还会带上它自己引用的文献。
-- **只记录父母子女与配偶。** 兄弟、翁婿、孙辈、十世孙等称谓一律计入 `unmapped_cbdb_relations` 上报但不入库——有完整的父母子女链就能推导出它们，重复存储只会制造冗余与冲突（见 `SOURCES_AND_POLICY.md`）。
-- **逐代扩展直到收敛。** `scripts/expand-kinship.mjs` 反复执行「取前沿 → 导入」，`scripts/.cache/expanded-keys.json` 记住问过谁，因此停止条件是明确的：没有未展开的人物即结束。`--max-new` 限制单轮新增（触顶会报告，不静默截断），`--stop-at` 是人数护栏。
-- **前沿限定在王姓。** 默认只展开王姓人物（`--frontier wang`）；非王亲属照常记录为关系端点，但不再由他们向外扩展。不加这条限制时，配偶会成为跨宗族的桥，两三轮之后库里就是整个刘氏、司马氏帝系（实测 6 轮后 61% 的记录距王姓已在 2 步以上）。`--frontier all` 可解除限制。
-- **只有名字，没有档案。** 非王姓人物与仅以配偶身份出现的人物只写 `name.primary`（必要时加称号异名），不写生卒与生平。
-- **幂等。** 人物按标识认领，来源按「标识 + 记录类型」复用，关系已存在（`409 relationship_exists`）时只补引用并确保状态为 `accepted`。
-- 发布缺少卒年的人物需要 `maintainer` 及以上角色（API 对「权威数据库认定为历史人物」的放行口），判定依据记录在计划文件的 `historicity` 字段，规则见 `SOURCES_AND_POLICY.md`。
-
-## 七、备份与可移植性
-
-人物基本资料的大批量补全采用「离线只读审计 → 可复核计划 → `bulk-person-properties`」流程。服务端对整批人物、来源和现有谓词做集合校验，再用一次 D1 batch 写入主张、版本、引用与贡献记录；维护脚本不得退化为逐人物查询或逐主张写入。
-
-- 定期导出 D1 SQL；
-- 提供人物、主张、来源和版本的结构化 JSON 导出；
-- 后续评估 GEDCOM 7、JSON-LD 和 GraphML；
-- 任何平台级数据结构不得仅存在于 Cloudflare 专有 API 中。
-
-## 八、编码前待决策（已定案）
-
-首期实现采用以下决策；如需变更须同步更新领域模型、API、协作与来源政策文档。
-
-1. **前端框架**：React + TypeScript + Vite，部署到 Cloudflare Pages。
-2. **Worker 路由与验证库**：[Hono](https://hono.dev/) 作为 Worker 路由；[Zod](https://zod.dev/) 作为输入校验，校验逻辑集中在 `packages/validation`。
-3. **认证方式**：首期采用平台内置的邮箱注册 + 会话令牌（服务端只存 `email_hash`，令牌用 Worker 密钥 HMAC 签名）。注册前，用户必须从所填邮箱向 Cloudflare Email Routing 分配的一次性子地址发送邮件；Email Worker 只核对 SMTP 发件地址和挑战码，不保留邮件正文。挑战 30 分钟过期且只能用于一次注册。接口保留后续接入 GitHub OAuth 等外部登录的空间，公开读取始终匿名。
-4. **公共 ID 规则**：不可猜测的字符串，格式 `<prefix>_<22位base58随机>`，前缀区分实体：`p_`（Person）、`c_`（Claim）、`s_`（Source）、`m_`（MergeProposal）、`u_`（User）、`rev_`（Revision）、`ct_`（Contribution）。ID 不可变；合并后旧 ID 永久重定向到目标。
-5. **主张状态流转与审核权限**：`proposed → accepted | disputed | retracted | superseded`。新账号或无维护者背书的写入进入 `proposed` 审核队列；维护者/审核者可将其转为 `accepted`；任何有有效来源的争议可标记 `disputed` 且不隐藏；修改经 `expected_revision` 乐观并发控制，冲突返回 `409`。
-6. **用户投稿许可证**：CC BY-SA 4.0（与 `SOURCES_AND_POLICY.md` 候选一致）；每个 `Source` 另存自身 `license_code`，不得把 NC/SA 数据标记为 CC0。
-7. **人物摘要选择规则**：按谓词分组，仅从 `accepted` 主张中为每个字段选“推荐值”，排序键依次为：来源数量（去重后独立来源更多者优先）→ 置信度 `confidence` → 最近更新时间。争议中的主张（`disputed`）与少数意见并列展示，不隐藏。关系摘要同理按谓词聚合。
-8. **人物合并的简化条件与强制审核阈值**：首期一律走审核（`proposed → reviewing → approved | rejected | reverted`），始终生成完整 `merge_snapshot_json` 且可回滚；仅当发起者同时维护两条记录、无已接受主张冲突、且受影响关系数 ≤ 5 时允许“简化确认”直接 `approved`，否则必须审核者确认。旧 ID 永久重定向。
+迁移前的 `apps/api/`、`migrations/` 和数据库导入脚本属于历史实现。旧邮箱密码接口、人物写接口和族谱 D1 表不得复用；账号 Worker 只能使用新的账号迁移。旧生产 D1 中的族谱表仅可作为离线迁移备份，不能继续接受写入。

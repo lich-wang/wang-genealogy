@@ -6,36 +6,18 @@
 
 ## 当前阶段
 
-MVP 已实现并部署：`docs/` 是设计的准绳，`apps/`、`packages/`、`migrations/` 是它的实现。
+MVP 采用“GitHub 身份 + Git 内容”的架构：`content/persons/` 是人物资料的权威数据，每位公开历史人物对应一个 Markdown 页面。站点不提供邮箱密码注册；用户通过 GitHub OAuth 登录，在站内表单生成 Markdown 修改，并以自己的 GitHub 账号创建 Pull Request。维护者合并 PR 就是审核通过，随后自动生成静态索引并部署。
 
 ```bash
 npm install
+npm run check:content # 校验人物 Markdown、ID 与关系引用
 npm test          # 单元测试
 npm run typecheck # 全部工作区类型检查
 npm run build     # 类型检查 + 前端构建
 npm run test:e2e  # Playwright 冒烟检查
 ```
 
-推送到 `main` 会自动跑检查、应用 D1 迁移并部署 Worker 与 Pages。
-
-### 注册邮箱验证
-
-生产站点使用 `history.wang`。Cloudflare Email Routing 将
-`verify@history.wang` 及其子地址路由到 `wang-genealogy-api` Worker；例如一次
-注册会生成 `verify+WG-...@history.wang`。用户必须从注册表单填写的邮箱向该
-一次性地址发信，网页检测到验证结果后才允许创建账号。注册挑战有效期为 30
-分钟且只能使用一次；Worker 仅使用 SMTP envelope 的发件人与收件人完成验证，
-不读取或保存邮件正文。
-
-Cloudflare 生产配置要点：
-
-1. `history.wang` 使用 Cloudflare 权威 DNS，并启用 Email Routing 所需的 MX、SPF
-   与 DKIM 记录。
-2. 启用 Email Routing 的子地址功能。
-3. 创建 `verify@history.wang` → `wang-genealogy-api` Worker 的路由规则；
-   `+WG-...` 子地址会回落到该基础地址规则并保留完整收件地址。
-4. API Worker 的 `REGISTRATION_EMAIL_ADDRESS` 必须保持为
-   `verify@history.wang`。
+推送到 `main` 会自动校验人物内容、运行测试、构建并部署 Cloudflare Pages；这个发布流程不读写 D1。Contribution Worker 只负责 GitHub OAuth、站点会话和以当前用户身份创建 PR，不能直接写 `main`。D1 只保存 GitHub 账号绑定、会话、加密 OAuth token、偏好和安全审计，不保存人物、主张、关系、来源、Markdown 或 diff。
 
 ## 阅读字形
 
@@ -43,22 +25,24 @@ Cloudflare 生产配置要点：
 
 ## 核心原则
 
-1. 每个历史人物拥有稳定、可访问的独立 ID 和接口。
+1. 每个历史人物拥有稳定、可访问的独立 ID 和 Markdown 页面。
 2. 姓名、生卒、籍贯等基本信息也以“主张”保存，而不是无来源字段。
 3. 父母、子女等关系以关系主张保存，并统一归一化为一次关系记录。
 4. 每个主张至少说明来源；一个主张可以关联多个来源。
 5. 所有修改保留版本历史，撤销也是一次新修改，不抹除旧记录。
 6. 对冲突资料并存展示，不以最后一次编辑简单覆盖。
 7. 重复人物采用可回滚的软合并，旧人物 ID 永久重定向。
-8. 用户账号与历史人物完全分离。
+8. GitHub 账号是唯一站点身份，但与历史人物实体完全分离。
 
 ## 部署
 
 - 源码：GitHub
 - 前端：Cloudflare Pages
-- API：Cloudflare Workers
-- 数据库：Cloudflare D1
-- 滥用防护：Cloudflare Turnstile
+- 数据与版本：Git 仓库中的人物 Markdown
+- 登录/注册：GitHub OAuth，不设站内邮箱密码账号
+- 协作：站内贡献表单 + 用户 GitHub Pull Request + 分支保护
+- 公开读取：Cloudflare Pages 静态文件，不访问 D1
+- 贡献服务：独立 Cloudflare Worker + Account D1，仅保存 GitHub 绑定、会话、加密 token、偏好与安全审计
 
 详见：
 

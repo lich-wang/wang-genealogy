@@ -1,0 +1,116 @@
+---
+schema: wang-person/v1
+id: p_Qe6qroqE9FF3Z3FgwvdtdU
+status: active
+merged_into: null
+display_name: 王定寧
+revision: 1
+properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_w7qXA76V17XHobppoeRR3F
+        subject_person_id: p_Qe6qroqE9FF3Z3FgwvdtdU
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王定寧，明人物。中国历代人物传记资料库（CBDB）以人物编号 255877 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 5
+      sources:
+        - id: cs_5D0d1U0PJrt99tOCNaYkoL
+          claim_id: c_w7qXA76V17XHobppoeRR3F
+          source_id: s_z8cPW6KA3RGwskGJUBmn7F
+          stance: supports
+          locator: CBDB:255877
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source:
+            id: s_z8cPW6KA3RGwskGJUBmn7F
+            source_type: api_record
+            title: 中国历代人物传记资料库：王定寧（CBDB 255877）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255877&o=json
+            external_identifier: CBDB:255877
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:00.581Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person: null
+    alternatives: []
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_V6pJcj2zZeg2fc4AFevvEM
+        subject_person_id: p_Qe6qroqE9FF3Z3FgwvdtdU
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王定寧
+          language: zh-Hant
+        status: accepted
+        confidence: high
+        current_revision: 2
+      sources:
+        - id: cs_5ipEM3696s86AsC2BH7QvP
+          claim_id: c_V6pJcj2zZeg2fc4AFevvEM
+          source_id: s_z8cPW6KA3RGwskGJUBmn7F
+          stance: supports
+          locator: CBDB:255877
+          quotation: null
+          interpretation_note: CBDB 2026-08-29 Luna 审核通过人物批量导入（3001-3100）｜历史性依据：CBDB 朝代 = 明
+          source:
+            id: s_z8cPW6KA3RGwskGJUBmn7F
+            source_type: api_record
+            title: 中国历代人物传记资料库：王定寧（CBDB 255877）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255877&o=json
+            external_identifier: CBDB:255877
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:00.581Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses: []
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王定寧
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| bio.summary | 王定寧，明人物。中国历代人物传记资料库（CBDB）以人物编号 255877 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| name.primary | 王定寧 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+
+## 外部来源
+
+- [中国历代人物传记资料库：王定寧（CBDB 255877）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255877&o=json)

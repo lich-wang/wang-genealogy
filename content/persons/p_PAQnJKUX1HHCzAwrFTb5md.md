@@ -1,0 +1,200 @@
+---
+schema: wang-person/v1
+id: p_PAQnJKUX1HHCzAwrFTb5md
+status: active
+merged_into: null
+display_name: 王本
+revision: 1
+properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_KLmDVSAjZ7zCoyxa2Es3nC
+        subject_person_id: p_PAQnJKUX1HHCzAwrFTb5md
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王本，明人物。CBDB 记录其籍贯记录为南陽。中国历代人物传记资料库（CBDB）以人物编号 257534 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 3
+      sources:
+        - id: cs_ctmF5qqKzrJqB9NQKT42fU
+          claim_id: c_KLmDVSAjZ7zCoyxa2Es3nC
+          source_id: s_aBqYKXy4FB34Qb4CoTKgaT
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_aBqYKXy4FB34Qb4CoTKgaT
+            source_type: api_record
+            title: 维基数据：王本（Q45491815）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45491815
+            external_identifier: Q45491815
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:00:10.748Z
+            metadata_json: null
+        - id: cs_16Uirjs3J_i7LyO-ge7C2S
+          claim_id: c_KLmDVSAjZ7zCoyxa2Es3nC
+          source_id: s_KCPfC5x5Trg9brLzceiK4T
+          stance: supports
+          locator: CBDB:257534
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_KCPfC5x5Trg9brLzceiK4T
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王本（257534）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257534&o=json
+            external_identifier: CBDB:257534
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:00:10.923Z
+            metadata_json: null
+      object_person: null
+    alternatives: []
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_JQzE4JKURhZfAGoM492jAi
+        subject_person_id: p_PAQnJKUX1HHCzAwrFTb5md
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王本
+          language: zh-Hans
+        status: accepted
+        confidence: high
+        current_revision: 2
+      sources:
+        - id: cs_AzChRDxytxjUD8bQWaYohe
+          claim_id: c_JQzE4JKURhZfAGoM492jAi
+          source_id: s_KCPfC5x5Trg9brLzceiK4T
+          stance: supports
+          locator: Q45491815
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_adhXHDLwH9QqcKk4AKLzdJ
+          claim_id: c_JQzE4JKURhZfAGoM492jAi
+          source_id: s_aBqYKXy4FB34Qb4CoTKgaT
+          stance: supports
+          locator: Q45491815
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_aBqYKXy4FB34Qb4CoTKgaT
+            source_type: api_record
+            title: 维基数据：王本（Q45491815）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45491815
+            external_identifier: Q45491815
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:00:10.748Z
+            metadata_json: null
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children:
+    - claim:
+        id: c_Lja4kG6wq2v3GTCYnJRw6i
+        subject_person_id: p_PAQnJKUX1HHCzAwrFTb5md
+        claim_kind: relationship
+        predicate: kinship.parent_of
+        object_person_id: p_Wdd9WrspYiEE72NGMNp75f
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 2
+      sources:
+        - id: cs_1aMkBMt3T1gLxVJrV7nQ82
+          claim_id: c_Lja4kG6wq2v3GTCYnJRw6i
+          source_id: s_aBqYKXy4FB34Qb4CoTKgaT
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_aBqYKXy4FB34Qb4CoTKgaT
+            source_type: api_record
+            title: 维基数据：王本（Q45491815）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45491815
+            external_identifier: Q45491815
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:00:10.748Z
+            metadata_json: null
+        - id: cs_GZiKTADAKWbWpzof2jKtxg
+          claim_id: c_Lja4kG6wq2v3GTCYnJRw6i
+          source_id: s_g1q73gKvB6bGzszoP8GtLg
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_g1q73gKvB6bGzszoP8GtLg
+            source_type: api_record
+            title: 维基数据：王鸿儒（Q15933067）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q15933067
+            external_identifier: Q15933067
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:48:26.978Z
+            metadata_json: null
+      object_person:
+        id: p_Wdd9WrspYiEE72NGMNp75f
+        status: active
+        display_name: 王鸿儒
+        merged_into_person_id: null
+  adoptive_parents: []
+  adoptive_children: []
+  spouses: []
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王本
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| bio.summary | 王本，明人物。CBDB 记录其籍贯记录为南陽。中国历代人物传记资料库（CBDB）以人物编号 257534 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| name.primary | 王本 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+| children | p_Wdd9WrspYiEE72NGMNp75f | 王鸿儒 | accepted |
+
+## 外部来源
+
+- [维基数据：王本（Q45491815）](https://www.wikidata.org/wiki/Q45491815)
+- [维基数据：王鸿儒（Q15933067）](https://www.wikidata.org/wiki/Q15933067)
+- [CBDB 中国历代人物传记资料库：王本（257534）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257534&o=json)

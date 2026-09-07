@@ -1,0 +1,459 @@
+---
+schema: wang-person/v1
+id: p_KTTATWUQ3F1m45Pemb3S7n
+status: active
+merged_into: null
+display_name: 王安礼
+revision: 1
+properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_HXSLpsPHZNof3B6dEYEZNG
+        subject_person_id: p_KTTATWUQ3F1m45Pemb3S7n
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王安礼（1035年—1096年），字和甫，北宋诗人，抚州临川县（今江西省抚州市）人，王益第六子，王安石之弟。宋神宗时尚书右丞、尚书左丞。 宋仁宗嘉祐六年（1061年）进士，唐介为河东路安抚使，王安礼被辟为幕府。
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 5
+      sources:
+        - id: cs_ZAeEBKT9AUoYNx95YC1aqK
+          claim_id: c_HXSLpsPHZNof3B6dEYEZNG
+          source_id: s_pMq6gCCXJVj3QXhW3E3N1w
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_pMq6gCCXJVj3QXhW3E3N1w
+            source_type: api_record
+            title: 维基数据：王安礼（Q18905331）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q18905331
+            external_identifier: Q18905331
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T02:49:03.122Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AE%89%E7%A4%BC
+        - id: cs_43xcPymSmrKDMMB72AnTmH
+          claim_id: c_HXSLpsPHZNof3B6dEYEZNG
+          source_id: s_z8xP56PS3-7_eIlN7m4xu3
+          stance: supports
+          locator: 导言
+          quotation: 王安礼（1035年—1096年），字和甫，北宋诗人，抚州临川县（
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_z8xP56PS3-7_eIlN7m4xu3
+            source_type: website
+            title: 中文维基百科：王安礼
+            creator: 维基百科贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AE%89%E7%A4%BC
+            external_identifier: Q18905331
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-06T22:31:32.727Z
+            metadata_json: null
+      object_person: null
+    alternatives: []
+  - predicate: birth.date
+    recommended:
+      claim:
+        id: c_HJC6kDrh94kJoHDFzsftZS
+        subject_person_id: p_KTTATWUQ3F1m45Pemb3S7n
+        claim_kind: property
+        predicate: birth.date
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          date:
+            original_text: 1034年
+            calendar_note: 维基数据 P569 结构化日期，精度：年
+            earliest: 1034-01-01
+            latest: 1034-12-31
+            precision: year
+        status: accepted
+        confidence: medium
+        current_revision: 2
+      sources:
+        - id: cs_PB5cbzx4qvVDykZA4FcC1N
+          claim_id: c_HJC6kDrh94kJoHDFzsftZS
+          source_id: s_pMq6gCCXJVj3QXhW3E3N1w
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_pMq6gCCXJVj3QXhW3E3N1w
+            source_type: api_record
+            title: 维基数据：王安礼（Q18905331）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q18905331
+            external_identifier: Q18905331
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T02:49:03.122Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AE%89%E7%A4%BC
+      object_person: null
+    alternatives: []
+  - predicate: death.date
+    recommended:
+      claim:
+        id: c_UVkJrFUiNHJbFRcxTsGGA1
+        subject_person_id: p_KTTATWUQ3F1m45Pemb3S7n
+        claim_kind: property
+        predicate: death.date
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          date:
+            original_text: 1095年
+            calendar_note: 维基数据 P570 结构化日期，精度：年
+            earliest: 1095-01-01
+            latest: 1095-12-31
+            precision: year
+        status: accepted
+        confidence: medium
+        current_revision: 2
+      sources:
+        - id: cs_GNQ9URD2NxRssMqFxjhPHc
+          claim_id: c_UVkJrFUiNHJbFRcxTsGGA1
+          source_id: s_pMq6gCCXJVj3QXhW3E3N1w
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_pMq6gCCXJVj3QXhW3E3N1w
+            source_type: api_record
+            title: 维基数据：王安礼（Q18905331）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q18905331
+            external_identifier: Q18905331
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T02:49:03.122Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AE%89%E7%A4%BC
+      object_person: null
+    alternatives: []
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_mWAj18JYd2R3bZq64zQD7K
+        subject_person_id: p_KTTATWUQ3F1m45Pemb3S7n
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王安礼
+          language: zh-Hans
+        status: accepted
+        confidence: high
+        current_revision: 2
+      sources:
+        - id: cs_Bsi6bhA3giNg7bQPmBiepa
+          claim_id: c_mWAj18JYd2R3bZq64zQD7K
+          source_id: s_N58ngmLD3tMkd74bJBFFx4
+          stance: supports
+          locator: Q18905331
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_N58ngmLD3tMkd74bJBFFx4
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王安禮（1760）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1760&o=json
+            external_identifier: CBDB:1760
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T02:49:03.257Z
+            metadata_json: null
+        - id: cs_uFUrZddC2PfiAM8iTMP532
+          claim_id: c_mWAj18JYd2R3bZq64zQD7K
+          source_id: s_pMq6gCCXJVj3QXhW3E3N1w
+          stance: supports
+          locator: Q18905331
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_pMq6gCCXJVj3QXhW3E3N1w
+            source_type: api_record
+            title: 维基数据：王安礼（Q18905331）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q18905331
+            external_identifier: Q18905331
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T02:49:03.122Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AE%89%E7%A4%BC
+      object_person: null
+    alternatives: []
+relationships:
+  parents:
+    - claim:
+        id: c_azG6McvRJJdvm3E9zDCSoL
+        subject_person_id: p_TCJasuo9M43ytz26ea5oSn
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_KTTATWUQ3F1m45Pemb3S7n
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 3
+      sources:
+        - id: cs_GhCP2JBUnj7DQMp4emfNdz
+          claim_id: c_azG6McvRJJdvm3E9zDCSoL
+          source_id: s_c3iRor2ubBu2jQ1UWHJaUS
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_c3iRor2ubBu2jQ1UWHJaUS
+            source_type: api_record
+            title: 維基數據：王益（Q45365249）
+            creator: 維基數據貢獻者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45365249
+            external_identifier: Q45365249
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T02:09:54.906Z
+            metadata_json: null
+        - id: cs_VF4YsYPoz3CVeZ8bq4TJoC
+          claim_id: c_azG6McvRJJdvm3E9zDCSoL
+          source_id: s_RcEL59cJV9N9h52CGk5rEv
+          stance: supports
+          locator: 亲属关系：六子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：未知
+          source:
+            id: s_RcEL59cJV9N9h52CGk5rEv
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王益（7082）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=7082&o=json
+            external_identifier: CBDB:7082
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T02:50:19.208Z
+            metadata_json: null
+        - id: cs_G8qf2K1PRL6h7gYYQwKsHZ
+          claim_id: c_azG6McvRJJdvm3E9zDCSoL
+          source_id: s_pMq6gCCXJVj3QXhW3E3N1w
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_pMq6gCCXJVj3QXhW3E3N1w
+            source_type: api_record
+            title: 维基数据：王安礼（Q18905331）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q18905331
+            external_identifier: Q18905331
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T02:49:03.122Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AE%89%E7%A4%BC
+        - id: cs_5hFjKW4m2aNMiHkWGUBhDX
+          claim_id: c_azG6McvRJJdvm3E9zDCSoL
+          source_id: s_N58ngmLD3tMkd74bJBFFx4
+          stance: supports
+          locator: 亲属关系：父
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：未知
+          source:
+            id: s_N58ngmLD3tMkd74bJBFFx4
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王安禮（1760）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1760&o=json
+            external_identifier: CBDB:1760
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T02:49:03.257Z
+            metadata_json: null
+        - id: cs_F6SErLASEPbVopqPHtrUKK
+          claim_id: c_azG6McvRJJdvm3E9zDCSoL
+          source_id: s_9HjLHNEKabGHijCQBRQ6vi
+          stance: supports
+          locator: 条文：条文识读（父）
+          quotation: 王益第六子
+          interpretation_note: null
+          source:
+            id: s_9HjLHNEKabGHijCQBRQ6vi
+            source_type: website
+            title: 中文维基百科：王安礼
+            creator: 维基百科贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AE%89%E7%A4%BC
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-08-25T02:27:03.569Z
+            metadata_json: null
+        - id: cs_ACbAtc7KV8hnkM86v7Qnu2
+          claim_id: c_azG6McvRJJdvm3E9zDCSoL
+          source_id: s_yK3L8CbbckP6ALGsCbpgQF
+          stance: supports
+          locator: 条文：条文识读（父亲）
+          quotation: 王益第六子
+          interpretation_note: null
+          source:
+            id: s_yK3L8CbbckP6ALGsCbpgQF
+            source_type: website
+            title: 中文维基百科：王安礼
+            creator: 维基百科贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AE%89%E7%A4%BC
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-08-25T09:56:19.854Z
+            metadata_json: null
+      object_person:
+        id: p_TCJasuo9M43ytz26ea5oSn
+        status: active
+        display_name: 王益
+        merged_into_person_id: null
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses:
+    - claim:
+        id: c_2Cmijr8TEoP8zQqYe5cpyc
+        subject_person_id: p_KTTATWUQ3F1m45Pemb3S7n
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_o8a2xb1NaoHmv169uvto5o
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 4
+      sources:
+        - id: cs_wgh1rdZbENvrHg5nt2aA1m
+          claim_id: c_2Cmijr8TEoP8zQqYe5cpyc
+          source_id: s_pMq6gCCXJVj3QXhW3E3N1w
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_pMq6gCCXJVj3QXhW3E3N1w
+            source_type: api_record
+            title: 维基数据：王安礼（Q18905331）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q18905331
+            external_identifier: Q18905331
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T02:49:03.122Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AE%89%E7%A4%BC
+        - id: cs_qSwkiZNboQzmd8Gx25Pam9
+          claim_id: c_2Cmijr8TEoP8zQqYe5cpyc
+          source_id: s_Z9W9UnhbASPNU6Vwok1vCQ
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_Z9W9UnhbASPNU6Vwok1vCQ
+            source_type: api_record
+            title: 维基数据：某氏（Q45431694）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45431694
+            external_identifier: Q45431694
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T03:09:58.886Z
+            metadata_json: null
+        - id: cs_RFS8MQa3ZTSA9LJA6TZyuH
+          claim_id: c_2Cmijr8TEoP8zQqYe5cpyc
+          source_id: s_D56b7BYeReTGfEgGs9vS7C
+          stance: supports
+          locator: 亲属关系：丈夫
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：宋人傳記資料索引(電子版)
+          source:
+            id: s_D56b7BYeReTGfEgGs9vS7C
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：某氏（38684）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38684&o=json
+            external_identifier: CBDB:38684
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T03:09:59.040Z
+            metadata_json: null
+      object_person:
+        id: p_o8a2xb1NaoHmv169uvto5o
+        status: active
+        display_name: 某氏
+        merged_into_person_id: null
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王安礼
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| bio.summary | 王安礼（1035年—1096年），字和甫，北宋诗人，抚州临川县（今江西省抚州市）人，王益第六子，王安石之弟。宋神宗时尚书右丞、尚书左丞。 宋仁宗嘉祐六年（1061年）进士，唐介为河东路安抚使，王安礼被辟为幕府。 | accepted |
+| birth.date | 1034年 | accepted |
+| death.date | 1095年 | accepted |
+| name.primary | 王安礼 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+| parents | p_TCJasuo9M43ytz26ea5oSn | 王益 | accepted |
+| spouses | p_o8a2xb1NaoHmv169uvto5o | 某氏 | accepted |
+
+## 外部来源
+
+- [维基数据：某氏（Q45431694）](https://www.wikidata.org/wiki/Q45431694)
+- [维基数据：王安礼（Q18905331）](https://www.wikidata.org/wiki/Q18905331)
+- [維基數據：王益（Q45365249）](https://www.wikidata.org/wiki/Q45365249)
+- [中文维基百科：王安礼](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AE%89%E7%A4%BC)
+- [CBDB 中国历代人物传记资料库：某氏（38684）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38684&o=json)
+- [CBDB 中国历代人物传记资料库：王安禮（1760）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1760&o=json)
+- [CBDB 中国历代人物传记资料库：王益（7082）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=7082&o=json)

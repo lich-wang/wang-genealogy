@@ -1,0 +1,185 @@
+---
+schema: wang-person/v1
+id: p_KX3HaGwtHE9r1pvSuRLLHX
+status: active
+merged_into: null
+display_name: 王渊
+revision: 1
+properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_ffX5o4ySmVqygVmm31UH88
+        subject_person_id: p_KX3HaGwtHE9r1pvSuRLLHX
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王渊（卒于1085年），宋人物。CBDB 记录其籍贯记录为管城，身份包括富豪，入仕记录为軍員轉補。中国历代人物传记资料库（CBDB）以人物编号 3998 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 3
+      sources:
+        - id: cs_XVto2CVmfP2NYko1CboDQT
+          claim_id: c_ffX5o4ySmVqygVmm31UH88
+          source_id: s_dQp3ZyujbuE4phNXktFUSG
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_dQp3ZyujbuE4phNXktFUSG
+            source_type: api_record
+            title: 维基数据：王渊（Q45363064）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45363064
+            external_identifier: Q45363064
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:08.871Z
+            metadata_json: null
+        - id: cs_D45pUvdwgVt72X_Gbu5lbi
+          claim_id: c_ffX5o4ySmVqygVmm31UH88
+          source_id: s_GYLB1Q9Tg91zKxF4MPYxEX
+          stance: supports
+          locator: CBDB:3998
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_GYLB1Q9Tg91zKxF4MPYxEX
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王淵（3998）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3998&o=json
+            external_identifier: CBDB:3998
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:06:09.047Z
+            metadata_json: null
+      object_person: null
+    alternatives: []
+  - predicate: death.date
+    recommended:
+      claim:
+        id: c_A4C586Frof2ar4TysvPn83
+        subject_person_id: p_KX3HaGwtHE9r1pvSuRLLHX
+        claim_kind: property
+        predicate: death.date
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          date:
+            original_text: 1085年
+            calendar_note: 维基数据 P570 结构化日期，精度：年
+            earliest: 1085-01-01
+            latest: 1085-12-31
+            precision: year
+        status: accepted
+        confidence: medium
+        current_revision: 2
+      sources:
+        - id: cs_NfpoNPda5NoFVzLAhrn5Mu
+          claim_id: c_A4C586Frof2ar4TysvPn83
+          source_id: s_dQp3ZyujbuE4phNXktFUSG
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_dQp3ZyujbuE4phNXktFUSG
+            source_type: api_record
+            title: 维基数据：王渊（Q45363064）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45363064
+            external_identifier: Q45363064
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:08.871Z
+            metadata_json: null
+      object_person: null
+    alternatives: []
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_hVZZwsH2VhPw7o8HqK2zo4
+        subject_person_id: p_KX3HaGwtHE9r1pvSuRLLHX
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王渊
+          language: zh-Hans
+        status: accepted
+        confidence: high
+        current_revision: 2
+      sources:
+        - id: cs_k3BoskjNTg3muZNBy1DXFm
+          claim_id: c_hVZZwsH2VhPw7o8HqK2zo4
+          source_id: s_GYLB1Q9Tg91zKxF4MPYxEX
+          stance: supports
+          locator: Q45363064
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_oQFZPqv9JE5EFN4DMCVPyo
+          claim_id: c_hVZZwsH2VhPw7o8HqK2zo4
+          source_id: s_dQp3ZyujbuE4phNXktFUSG
+          stance: supports
+          locator: Q45363064
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_dQp3ZyujbuE4phNXktFUSG
+            source_type: api_record
+            title: 维基数据：王渊（Q45363064）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45363064
+            external_identifier: Q45363064
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:08.871Z
+            metadata_json: null
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses: []
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王渊
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| bio.summary | 王渊（卒于1085年），宋人物。CBDB 记录其籍贯记录为管城，身份包括富豪，入仕记录为軍員轉補。中国历代人物传记资料库（CBDB）以人物编号 3998 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| death.date | 1085年 | accepted |
+| name.primary | 王渊 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+
+## 外部来源
+
+- [维基数据：王渊（Q45363064）](https://www.wikidata.org/wiki/Q45363064)
+- [CBDB 中国历代人物传记资料库：王淵（3998）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3998&o=json)

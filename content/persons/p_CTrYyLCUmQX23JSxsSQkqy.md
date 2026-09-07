@@ -1,0 +1,282 @@
+---
+schema: wang-person/v1
+id: p_CTrYyLCUmQX23JSxsSQkqy
+status: active
+merged_into: null
+display_name: 王源长
+revision: 1
+properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_cnfEaxY4u57LftTah7Jn98
+        subject_person_id: p_CTrYyLCUmQX23JSxsSQkqy
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王源长（卒于820年），唐人物。CBDB 记录其籍贯记录为咸陽，曾任令。中国历代人物传记资料库（CBDB）以人物编号 175483 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 3
+      sources:
+        - id: cs_iJHitU139qzPymVnAkZcLt
+          claim_id: c_cnfEaxY4u57LftTah7Jn98
+          source_id: s_GhTugbbsFrTm6ZrvopyYMU
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_GhTugbbsFrTm6ZrvopyYMU
+            source_type: api_record
+            title: 维基数据：王源长（Q45662338）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45662338
+            external_identifier: Q45662338
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T04:14:27.941Z
+            metadata_json: null
+        - id: cs_Jd7_HTRXah0GO1P8tgQ657
+          claim_id: c_cnfEaxY4u57LftTah7Jn98
+          source_id: s_ox8PZzJQ11qSMo3K5A8L1z
+          stance: supports
+          locator: CBDB:175483
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_ox8PZzJQ11qSMo3K5A8L1z
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王源長（175483）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175483&o=json
+            external_identifier: CBDB:175483
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T04:14:28.105Z
+            metadata_json: null
+      object_person: null
+    alternatives: []
+  - predicate: death.date
+    recommended:
+      claim:
+        id: c_RJVM6211YxnFPQm1oZRB2d
+        subject_person_id: p_CTrYyLCUmQX23JSxsSQkqy
+        claim_kind: property
+        predicate: death.date
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          date:
+            original_text: 820年
+            calendar_note: 维基数据 P570 结构化日期，精度：年
+            earliest: 0820-01-01
+            latest: 0820-12-31
+            precision: year
+        status: accepted
+        confidence: medium
+        current_revision: 2
+      sources:
+        - id: cs_Eg17bvfA2kypeh7xBWEHeo
+          claim_id: c_RJVM6211YxnFPQm1oZRB2d
+          source_id: s_GhTugbbsFrTm6ZrvopyYMU
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_GhTugbbsFrTm6ZrvopyYMU
+            source_type: api_record
+            title: 维基数据：王源长（Q45662338）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45662338
+            external_identifier: Q45662338
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T04:14:27.941Z
+            metadata_json: null
+      object_person: null
+    alternatives: []
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_AKdCtjJf22KCRDDa4dx2Nw
+        subject_person_id: p_CTrYyLCUmQX23JSxsSQkqy
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王源长
+          language: zh-Hans
+        status: accepted
+        confidence: high
+        current_revision: 2
+      sources:
+        - id: cs_3u8mmjpZ9M2JU6zbQwYcM4
+          claim_id: c_AKdCtjJf22KCRDDa4dx2Nw
+          source_id: s_GhTugbbsFrTm6ZrvopyYMU
+          stance: supports
+          locator: Q45662338
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_GhTugbbsFrTm6ZrvopyYMU
+            source_type: api_record
+            title: 维基数据：王源长（Q45662338）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45662338
+            external_identifier: Q45662338
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T04:14:27.941Z
+            metadata_json: null
+        - id: cs_VKcH5wcezRHTawV5U1Qb1s
+          claim_id: c_AKdCtjJf22KCRDDa4dx2Nw
+          source_id: s_ox8PZzJQ11qSMo3K5A8L1z
+          stance: supports
+          locator: Q45662338
+          quotation: null
+          interpretation_note: null
+          source: *a1
+      object_person: null
+    alternatives: []
+relationships:
+  parents:
+    - claim:
+        id: c_5M41JbXhQQTdb2hmFNH1D6
+        subject_person_id: p_GNtKZTHPd5yPoD89gT8VeP
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_CTrYyLCUmQX23JSxsSQkqy
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 3
+      sources:
+        - id: cs_Ct8pQmZbbh56Gx5crkWNrH
+          claim_id: c_5M41JbXhQQTdb2hmFNH1D6
+          source_id: s_LB2YGsgdvzBVwKuUQoq186
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：唐五代人物傳記與社會網絡資料庫(1.0版)
+          source:
+            id: s_LB2YGsgdvzBVwKuUQoq186
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王沐（175481）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175481&o=json
+            external_identifier: CBDB:175481
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T04:10:56.078Z
+            metadata_json: null
+        - id: cs_jkgK7Rq58KD8DFkKr9eT5Z
+          claim_id: c_5M41JbXhQQTdb2hmFNH1D6
+          source_id: s_9zW2vJE6i5toL1R1XyWZdR
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_9zW2vJE6i5toL1R1XyWZdR
+            source_type: api_record
+            title: 维基数据：王沐（Q45662222）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45662222
+            external_identifier: Q45662222
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T04:10:55.918Z
+            metadata_json: null
+        - id: cs_KkPzgr72Utz5CY2XvWKma5
+          claim_id: c_5M41JbXhQQTdb2hmFNH1D6
+          source_id: s_GhTugbbsFrTm6ZrvopyYMU
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_GhTugbbsFrTm6ZrvopyYMU
+            source_type: api_record
+            title: 维基数据：王源长（Q45662338）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45662338
+            external_identifier: Q45662338
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T04:14:27.941Z
+            metadata_json: null
+        - id: cs_nhQFAXhBKiewP2KsQphGEg
+          claim_id: c_5M41JbXhQQTdb2hmFNH1D6
+          source_id: s_ox8PZzJQ11qSMo3K5A8L1z
+          stance: supports
+          locator: 亲属关系：父
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：唐五代人物傳記與社會網絡資料庫(1.0版)
+          source:
+            id: s_ox8PZzJQ11qSMo3K5A8L1z
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王源長（175483）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175483&o=json
+            external_identifier: CBDB:175483
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T04:14:28.105Z
+            metadata_json: null
+      object_person:
+        id: p_GNtKZTHPd5yPoD89gT8VeP
+        status: active
+        display_name: 王沐
+        merged_into_person_id: null
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses: []
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王源长
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| bio.summary | 王源长（卒于820年），唐人物。CBDB 记录其籍贯记录为咸陽，曾任令。中国历代人物传记资料库（CBDB）以人物编号 175483 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| death.date | 820年 | accepted |
+| name.primary | 王源长 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+| parents | p_GNtKZTHPd5yPoD89gT8VeP | 王沐 | accepted |
+
+## 外部来源
+
+- [维基数据：王沐（Q45662222）](https://www.wikidata.org/wiki/Q45662222)
+- [维基数据：王源长（Q45662338）](https://www.wikidata.org/wiki/Q45662338)
+- [CBDB 中国历代人物传记资料库：王沐（175481）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175481&o=json)
+- [CBDB 中国历代人物传记资料库：王源長（175483）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175483&o=json)

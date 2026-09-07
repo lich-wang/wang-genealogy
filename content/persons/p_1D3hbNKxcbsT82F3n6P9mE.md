@@ -1,0 +1,116 @@
+---
+schema: wang-person/v1
+id: p_1D3hbNKxcbsT82F3n6P9mE
+status: active
+merged_into: null
+display_name: 王庭暉
+revision: 1
+properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_ZxvFfB65j43nwPrKYBK5vo
+        subject_person_id: p_1D3hbNKxcbsT82F3n6P9mE
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王庭暉，唐人物。中国历代人物传记资料库（CBDB）以人物编号 155369 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 5
+      sources:
+        - id: cs_sqClmxpP8i8h6t0VSwUJDN
+          claim_id: c_ZxvFfB65j43nwPrKYBK5vo
+          source_id: s_bM7XYY92daL1NHXLaazycT
+          stance: supports
+          locator: CBDB:155369
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source:
+            id: s_bM7XYY92daL1NHXLaazycT
+            source_type: api_record
+            title: 中国历代人物传记资料库：王庭暉（CBDB 155369）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=155369&o=json
+            external_identifier: CBDB:155369
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:54.122Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person: null
+    alternatives: []
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_jy36CdkaRtzJVaDEdV3iS5
+        subject_person_id: p_1D3hbNKxcbsT82F3n6P9mE
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王庭暉
+          language: zh-Hant
+        status: accepted
+        confidence: high
+        current_revision: 2
+      sources:
+        - id: cs_vD5B3ecroSmAoynJ58RwLg
+          claim_id: c_jy36CdkaRtzJVaDEdV3iS5
+          source_id: s_bM7XYY92daL1NHXLaazycT
+          stance: supports
+          locator: CBDB:155369
+          quotation: null
+          interpretation_note: CBDB 2026-08-29 Luna 审核通过人物批量导入（2201-2300）｜历史性依据：CBDB 朝代 = 唐
+          source:
+            id: s_bM7XYY92daL1NHXLaazycT
+            source_type: api_record
+            title: 中国历代人物传记资料库：王庭暉（CBDB 155369）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=155369&o=json
+            external_identifier: CBDB:155369
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:54.122Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses: []
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王庭暉
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| bio.summary | 王庭暉，唐人物。中国历代人物传记资料库（CBDB）以人物编号 155369 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| name.primary | 王庭暉 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+
+## 外部来源
+
+- [中国历代人物传记资料库：王庭暉（CBDB 155369）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=155369&o=json)

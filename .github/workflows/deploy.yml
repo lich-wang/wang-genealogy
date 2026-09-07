@@ -1,147 +1,56 @@
 name: CI & Deploy
 
-# Auto-release: every push to main runs tests, then deploys the API (Worker)
-# and the web app (Pages) to Cloudflare. Worker secrets (AUTH_SECRET,
-# BOOTSTRAP_ADMIN_HASHES) are managed via `wrangler secret` and are NOT touched
-# by this workflow.
-
 on:
   push:
     branches: [main]
   pull_request:
     branches: [main]
   workflow_dispatch:
-    inputs:
-      use_cached_snapshot:
-        description: '跳过 D1 导出，验证并发布最近一次公开快照缓存'
-        required: false
-        type: boolean
-        default: false
-  schedule:
-    # Refresh the anonymous read model daily at 02:17 Asia/Shanghai.
-    - cron: '17 18 * * *'
 
 concurrency:
   group: deploy-${{ github.ref }}
   cancel-in-progress: false
-
-env:
-  API_BASE: https://wang-genealogy-api.lich-wang8718.workers.dev
 
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 100
       - uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: npm
       - run: npm ci
-
+      - name: Validate Markdown content
+        run: npm run check:content
       - name: Unit tests
         run: npm test
-      - name: Typecheck all workspaces
+      - name: Typecheck
         run: npm run typecheck
-      - name: Build web (typechecks + bundles)
-        run: npm run build --workspace apps/web
-        env:
-          VITE_API_BASE: ${{ env.API_BASE }}
-          VITE_PUBLIC_SNAPSHOT_VERSION: ${{ github.sha }}
+      - name: Build static site
+        run: npm run build
 
   deploy:
-    # Only deploy on pushes to main, after tests pass.
-    if: >-
-      (github.event_name == 'push' && github.ref == 'refs/heads/main') ||
-      github.event_name == 'schedule' ||
-      github.event_name == 'workflow_dispatch'
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     needs: test
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     env:
       CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
       CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 2
+          fetch-depth: 100
       - uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: npm
       - run: npm ci
-
-      - name: Restore last public snapshot
-        id: public-snapshot-cache
-        uses: actions/cache/restore@v4
-        with:
-          path: apps/api/tree-snapshot
-          key: public-snapshot-${{ github.sha }}-${{ github.run_attempt }}
-          restore-keys: |
-            public-snapshot-
-
-      - name: Apply D1 migrations (remote)
-        run: |
-          cd apps/api
-          if npx wrangler d1 migrations apply wang-genealogy --remote > /tmp/wang-d1-migrations.log 2>&1; then
-            cat /tmp/wang-d1-migrations.log
-          elif grep -qE "exceeded D1's free tier daily row read limit|code: 7500" /tmp/wang-d1-migrations.log; then
-            sed -E 's#https://[^[:space:]]+#<redacted-url>#g' /tmp/wang-d1-migrations.log >&2
-            echo "::warning::D1 daily quota exhausted; migration remains pending and will be retried by the next deployment."
-          else
-            sed -E 's#https://[^[:space:]]+#<redacted-url>#g' /tmp/wang-d1-migrations.log >&2
-            exit 1
-          fi
-
-      - name: Build anonymous zero-D1 read model
-        env:
-          FORCE_CACHED_SNAPSHOT: ${{ inputs.use_cached_snapshot || false }}
-        run: |
-          PUBLIC_SNAPSHOT_EXPORT_OK=false
-          if [ "$FORCE_CACHED_SNAPSHOT" != "true" ]; then
-            for attempt in 1 2 3; do
-              rm -f /tmp/wang-genealogy-public.sql /tmp/wang-genealogy-public.sqlite
-              if npx wrangler d1 export wang-genealogy --remote --output=/tmp/wang-genealogy-public.sql --config apps/api/wrangler.toml > /tmp/wang-genealogy-export.log 2>&1 && \
-                 sqlite3 -cmd "PRAGMA journal_mode=OFF;" -cmd "PRAGMA synchronous=OFF;" -cmd "BEGIN;" /tmp/wang-genealogy-public.sqlite ".read /tmp/wang-genealogy-public.sql" "COMMIT;"; then
-                PUBLIC_SNAPSHOT_EXPORT_OK=true
-                break
-              fi
-              echo "::warning::D1 export or SQLite reconstruction failed on attempt $attempt; retrying."
-            done
-          fi
-          if [ "$PUBLIC_SNAPSHOT_EXPORT_OK" = "true" ]; then
-            PUBLIC_SNAPSHOT_DB=/tmp/wang-genealogy-public.sqlite npm run build:public-snapshot
-            echo "PUBLIC_SNAPSHOT_REFRESHED=true" >> "$GITHUB_ENV"
-          elif [ -f apps/api/tree-snapshot/public/index.json ] && find apps/api/tree-snapshot -maxdepth 1 -name 'component-*.json' -print -quit | grep -q .; then
-            if [ -f /tmp/wang-genealogy-export.log ]; then
-              sed -E 's#https://[^[:space:]]+#<redacted-export-url>#g' /tmp/wang-genealogy-export.log >&2
-            fi
-            echo "::warning::D1 export unavailable; deploying the last validated public snapshot cache."
-            echo "PUBLIC_SNAPSHOT_REFRESHED=false" >> "$GITHUB_ENV"
-          else
-            sed -E 's#https://[^[:space:]]+#<redacted-export-url>#g' /tmp/wang-genealogy-export.log >&2
-            echo "No validated public snapshot cache is available." >&2
-            exit 1
-          fi
-          npm run enrich:public-snapshot
-          npm run publish:import-queue
-
-      - name: Save refreshed public snapshot
-        if: env.PUBLIC_SNAPSHOT_REFRESHED == 'true'
-        uses: actions/cache/save@v4
-        with:
-          path: apps/api/tree-snapshot
-          key: public-snapshot-${{ github.sha }}-${{ github.run_attempt }}
-
-      - name: Deploy API (Worker)
-        working-directory: apps/api
-        run: npx wrangler deploy
-
-      - name: Build web
-        run: npm run build --workspace apps/web
-        env:
-          VITE_API_BASE: ${{ env.API_BASE }}
-          VITE_PUBLIC_SNAPSHOT_VERSION: ${{ github.sha }}
-
-      - name: Deploy web (Pages)
+      - run: npm run build
+      - name: Deploy Cloudflare Pages
         working-directory: apps/web
         run: npx wrangler pages deploy dist --project-name wang-genealogy-web --branch main
