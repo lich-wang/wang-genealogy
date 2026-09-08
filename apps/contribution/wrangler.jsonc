@@ -1,0 +1,38 @@
+{
+  "$schema": "../../node_modules/wrangler/config-schema.json",
+  "name": "wang-genealogy-contribution",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-09-07",
+  "compatibility_flags": ["nodejs_compat"],
+  "workers_dev": false,
+  "routes": [
+    {
+      "pattern": "history.wang/api/*",
+      "zone_name": "history.wang"
+    }
+  ],
+  "vars": {
+    "SITE_ORIGIN": "https://history.wang",
+    "GITHUB_REPOSITORY_OWNER": "lich-wang",
+    "GITHUB_REPOSITORY_NAME": "wang-genealogy"
+  },
+  "secrets": {
+    "required": [
+      "GITHUB_CLIENT_ID",
+      "GITHUB_CLIENT_SECRET",
+      "TOKEN_ENCRYPTION_SECRET"
+    ]
+  },
+  "d1_databases": [
+    {
+      "binding": "ACCOUNT_DB",
+      "database_name": "wang-genealogy-accounts",
+      "database_id": "30827f9e-db8d-46a9-8b57-b247ada3449c",
+      "migrations_dir": "migrations"
+    }
+  ],
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 0.1
+  }
+}

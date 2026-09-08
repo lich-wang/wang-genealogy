@@ -8,7 +8,7 @@ The design documents remain the source of truth; the implementation follows the 
 - `docs/PRODUCT.md` defines user-facing scope and exclusions.
 - `docs/DOMAIN_MODEL.md` is the source of truth for entities, claims, sources, revisions, and merges.
 - `docs/API.md`, `docs/ARCHITECTURE.md`, `docs/COLLABORATION.md`, and `docs/SOURCES_AND_POLICY.md` define contracts and policies.
-- `content/persons` is the authoritative genealogy store: one Markdown file per public person. `apps/web` is the React + Vite front end (Cloudflare Pages). `apps/api` is legacy code until replaced or narrowed to a GitHub OAuth and PR-orchestration Worker; D1 may store GitHub bindings, sessions, encrypted OAuth tokens, preferences, subscriptions, rate limits, and account-security audit only.
+- `content/persons` is the authoritative genealogy store: one Markdown file per public person. `apps/web` is the React + Vite front end (Cloudflare Pages). `apps/contribution` is the GitHub OAuth and PR-orchestration Worker. `apps/api` is legacy code and must not be deployed; D1 may store GitHub bindings, sessions, encrypted OAuth tokens, preferences, subscriptions, rate limits, and account-security audit only.
 - `packages/domain` types/enums/public IDs, `packages/i18n` 简繁 script conversion and folding, `packages/validation` Zod schemas and kinship/date rules.
 - `scripts/` builds, validates, imports, and audits Markdown content. Legacy D1 genealogy migrations and API importers are migration history, not active write paths. `e2e/` contains Playwright smoke checks.
 

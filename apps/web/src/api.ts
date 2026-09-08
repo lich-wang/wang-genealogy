@@ -14,7 +14,36 @@ import type { ClaimSourceStance } from '@wang/domain';
 import { scriptVariants } from '@wang/i18n';
 
 export const REPOSITORY_URL = 'https://github.com/lich-wang/wang-genealogy';
-export const NEW_PERSON_URL = `${REPOSITORY_URL}/new/main/content/persons?filename=p_NEW.md`;
+
+export interface GitHubAccount {
+  github_id: number;
+  login: string;
+  avatar_url: string | null;
+}
+
+export interface AccountSession {
+  user: GitHubAccount;
+  can_submit: boolean;
+  csrf_token: string;
+}
+
+export interface ContributionBase {
+  base_sha: string;
+  path: string;
+  content: string;
+}
+
+export interface PullRequestInput {
+  submission_id: string;
+  base_sha: string;
+  title: string;
+  body: string;
+  changes: Array<{ path: string; content: string }>;
+}
+
+export interface PullRequestResult {
+  pull_request: { number: number; url: string; state: string };
+}
 
 export class ApiRequestError extends Error {
   readonly status: number;
@@ -63,6 +92,16 @@ async function getJson<T>(url: string): Promise<T> {
   return response.json() as Promise<T>;
 }
 
+async function accountRequest<T>(url: string, init: RequestInit = {}): Promise<T> {
+  const response = await fetch(url, { ...init, credentials: 'include' });
+  if (response.status === 204) return undefined as T;
+  const body = await response.json().catch(() => null) as { error?: string; message?: string } | null;
+  if (!response.ok) {
+    throw new ApiRequestError(response.status, body?.error ?? 'request_failed', body?.message ?? `请求失败（HTTP ${response.status}）`);
+  }
+  return body as T;
+}
+
 function readOnly(): never {
   throw new ApiRequestError(405, 'pull_request_required', '资料修改请通过 GitHub Pull Request 提交');
 }
@@ -70,6 +109,25 @@ function readOnly(): never {
 const PAGE_SIZE = 40;
 
 export const api = {
+  me: () => accountRequest<AccountSession>('/api/account/me'),
+  logout: (csrfToken: string) => accountRequest<void>('/api/auth/logout', {
+    method: 'POST',
+    headers: { 'X-CSRF-Token': csrfToken },
+  }),
+  getContributionBase: (input: { personId?: string; newPersonId?: string }) => {
+    const params = new URLSearchParams();
+    if (input.personId) params.set('person_id', input.personId);
+    if (input.newPersonId) params.set('new_person_id', input.newPersonId);
+    return accountRequest<ContributionBase>(`/api/contributions/base?${params}`);
+  },
+  createPullRequest: (input: PullRequestInput, csrfToken: string) => accountRequest<PullRequestResult>(
+    '/api/contributions/pull-requests',
+    {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'X-CSRF-Token': csrfToken },
+      body: JSON.stringify(input),
+    },
+  ),
   getPerson: (id: string) => getJson<PersonSummary>(`/data/persons/${encodeURIComponent(id)}.json`),
   getPersonClaims: (id: string, status?: string) => api.getPerson(id).then((summary) =>
     [...summary.properties.flatMap((field) => [field.recommended, ...field.alternatives]), ...Object.values(summary.relationships).flat()]

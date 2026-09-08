@@ -1,0 +1,36 @@
+name: deploy-contribution
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'apps/contribution/**'
+      - 'package.json'
+      - 'package-lock.json'
+      - '.github/workflows/deploy-contribution.yml'
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-contribution-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm test --workspace apps/contribution
+      - run: npm run typecheck --workspace apps/contribution
+      - run: npm run types --workspace apps/contribution -- --check
+      - run: npx wrangler d1 migrations apply wang-genealogy-accounts --remote --config apps/contribution/wrangler.jsonc
+      - run: npm run deploy --workspace apps/contribution

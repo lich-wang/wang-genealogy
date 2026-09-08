@@ -8,6 +8,7 @@
     "packages/domain",
     "packages/i18n",
     "packages/validation",
+    "apps/contribution",
     "apps/web"
   ],
   "scripts": {
@@ -16,13 +17,14 @@
     "build:content": "node scripts/build-content.mjs",
     "check:content": "node scripts/build-content.mjs content/persons /tmp/wang-genealogy-content-check",
     "backfill:biographies": "node scripts/backfill-biographies.mjs",
+    "dev:contribution": "npm run dev --workspace apps/contribution",
     "dev:web": "npm run dev --workspace apps/web",
     "deploy": "npm run deploy --workspace apps/web",
     "build:public-snapshot": "node scripts/build-tree-snapshot.mjs $PUBLIC_SNAPSHOT_DB apps/api/tree-snapshot && node scripts/build-public-read-snapshot.mjs $PUBLIC_SNAPSHOT_DB apps/api/tree-snapshot/public && node scripts/enrich-public-snapshot-status.mjs && node scripts/publish-reviewed-imports.mjs",
     "enrich:public-snapshot": "node scripts/enrich-public-snapshot-status.mjs",
     "publish:import-queue": "node scripts/publish-reviewed-imports.mjs",
     "audit:tree-path": "node scripts/longest-tree-path.mjs",
-    "typecheck": "tsc --noEmit -p packages/domain/tsconfig.json && tsc --noEmit -p packages/i18n/tsconfig.json && tsc --noEmit -p packages/validation/tsconfig.json && npm run typecheck --workspace apps/web",
+    "typecheck": "tsc --noEmit -p packages/domain/tsconfig.json && tsc --noEmit -p packages/i18n/tsconfig.json && tsc --noEmit -p packages/validation/tsconfig.json && npm run typecheck --workspace apps/contribution && npm run typecheck --workspace apps/web",
     "test:e2e": "node e2e/smoke.mjs",
     "test:e2e:longest-tree": "node e2e/longest-tree.mjs"
   },

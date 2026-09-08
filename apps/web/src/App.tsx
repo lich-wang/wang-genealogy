@@ -49,6 +49,7 @@ function FamilyTreeRoute() {
 }
 
 function SiteHeader() {
+  const { user, isAuthenticated } = useAuth();
   const { t } = useScript();
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -89,7 +90,7 @@ function SiteHeader() {
           </NavLink>
           <NavLink className="nav-contribute" to="/contribute" onClick={closeMenu}>
             <PenLine size={17} />
-            {t('参与共建')}
+            {isAuthenticated ? `@${user?.login}` : t('参与共建')}
           </NavLink>
           <ScriptToggle />
         </nav>

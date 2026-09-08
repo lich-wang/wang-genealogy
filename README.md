@@ -15,6 +15,7 @@ npm test          # 单元测试
 npm run typecheck # 全部工作区类型检查
 npm run build     # 类型检查 + 前端构建
 npm run test:e2e  # Playwright 冒烟检查
+npm run dev:contribution # GitHub OAuth / PR Worker
 ```
 
 推送到 `main` 会自动校验人物内容、运行测试、构建并部署 Cloudflare Pages；这个发布流程不读写 D1。Contribution Worker 只负责 GitHub OAuth、站点会话和以当前用户身份创建 PR，不能直接写 `main`。D1 只保存 GitHub 账号绑定、会话、加密 OAuth token、偏好和安全审计，不保存人物、主张、关系、来源、Markdown 或 diff。
@@ -52,6 +53,7 @@ npm run test:e2e  # Playwright 冒烟检查
 - [协作、版本与合并机制](docs/COLLABORATION.md)
 - [来源、许可与收录边界](docs/SOURCES_AND_POLICY.md)
 - [架构决策](docs/ARCHITECTURE.md)
+- [Contribution Worker 配置](apps/contribution/README.md)
 
 ## 尚未确定
 

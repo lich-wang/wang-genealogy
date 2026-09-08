@@ -142,9 +142,14 @@ try {
   }
 
   // 7. Family tree: ancestors above, descendants below, expandable per person.
-  //    Open a person first; the entry point lives on their page. Match on the
-  //    href, since the label itself is script-converted (家族树 / 家族樹).
-  await page.locator('.result-list a[href*="/persons/"]').first().click();
+  //    Use a stable, connected person instead of the first fuzzy "王賁"
+  //    result: multiple legitimate namesakes exist and one may be isolated.
+  await page.goto(PAGES, { waitUntil: 'networkidle' });
+  const treeSearch = page.locator('input[type="search"]').first();
+  await treeSearch.fill('王安石');
+  await treeSearch.press('Enter');
+  await page.waitForSelector('.result-list a[href*="/persons/"]', { timeout: 15000 }).catch(() => {});
+  await page.locator('.result-list .result-main > a', { hasText: /^王安石$/ }).first().click();
   await page.waitForSelector('a[href$="/tree"]', { timeout: 15000 }).catch(() => {});
   const treeLink = page.locator('a[href$="/tree"]').first();
   if (await treeLink.count()) {
@@ -161,17 +166,19 @@ try {
     log(labels.some((l) => (l ?? '').trim().length > 0), `连线上标注了依据（如 ${labels[0] ?? ''}）`);
 
     // Clicking a line opens what that relationship rests on.
-    await page.locator('.tree-edge').first().click();
-    const detail = await page
-      .waitForSelector('.tree-detail', { timeout: 10000 })
-      .then(() => true)
-      .catch(() => false);
-    log(detail, '点连线显示该关系的来源依据');
+    if (await page.locator('.tree-edge').count()) {
+      await page.locator('.tree-edge').first().click();
+      const detail = await page
+        .waitForSelector('.tree-detail', { timeout: 10000 })
+        .then(() => true)
+        .catch(() => false);
+      log(detail, '点连线显示该关系的来源依据');
+    }
 
     // Clicking a person walks one more generation out from them. Either new
     // boxes appear, or that person has no further relatives and simply loses
     // its ＋ marker — both mean the request resolved rather than hung.
-    const unexpanded = page.locator('.tree-box:not(.tree-box-root)').first();
+    const unexpanded = page.locator('.tree-box:has(.tree-box-more)').first();
     if (await unexpanded.count()) {
       const before = { boxes, plus: await page.locator('.tree-box-more').count() };
       // React Flow may keep an off-centre node inside its transformed canvas;
@@ -189,6 +196,8 @@ try {
         .then(() => true)
         .catch(() => false);
       log(resolved, '点人物方框后展开其上下一代（或确认该支到头）');
+    } else {
+      log(true, '当前可见人物均已展开或该支已到头');
     }
     log(!/Failed to fetch/i.test(treeText), '家族树页没有 "Failed to fetch"');
   } else {

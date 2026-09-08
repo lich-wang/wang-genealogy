@@ -42,6 +42,15 @@ GET  /api/account/me
 
 ## 三、创建 Pull Request
 
+登录后先取得用于编辑和并发检查的 GitHub `main` 基线：
+
+```http
+GET /api/contributions/base?person_id=p_xxx
+GET /api/contributions/base?new_person_id=p_xxx
+```
+
+接口分别返回现有人物 Markdown，或已替换稳定 ID 的人物模板；响应同时包含 `path` 和 `base_sha`。浏览器应以此内容生成并预览最终 diff，不能直接从 D1 读取草稿。
+
 ```http
 POST /api/contributions/pull-requests
 Content-Type: application/json
@@ -56,8 +65,8 @@ X-CSRF-Token: <session-csrf-token>
   "body": "涉及人物、来源定位、判断依据和许可确认",
   "changes": [
     {
-      "path": "content/persons/p_example.md",
-      "content": "---\nschema: wang-person/v1\n..."
+      "path": "content/persons/p_123456789ABCDEFGHJKLMN.md",
+      "content": "---\nschema: wang-person/v1\nid: p_123456789ABCDEFGHJKLMN\n..."
     }
   ]
 }

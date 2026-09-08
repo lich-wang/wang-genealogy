@@ -936,6 +936,7 @@ a:hover {
   color: #fff;
   background: var(--forest);
 }
+img.signed-in-avatar { object-fit: cover; }
 .signed-in-bar > span:nth-child(2) {
   display: flex;
   flex: 1;
@@ -963,6 +964,70 @@ a:hover {
   color: var(--muted);
   line-height: 1.5;
 }
+.github-auth-card {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1rem;
+  align-items: start;
+}
+.github-auth-card h2 { margin: 0; }
+.github-auth-card p { color: var(--muted); }
+.contribution-path {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.65rem 0.8rem;
+  border-radius: 8px;
+  background: var(--paper);
+  overflow-wrap: anywhere;
+}
+.contribution-path small { color: var(--muted); }
+.markdown-editor {
+  min-height: 28rem;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.78rem;
+  line-height: 1.5;
+  tab-size: 2;
+}
+.contribution-diff {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.contribution-diff summary {
+  padding: 0.65rem 0.8rem;
+  cursor: pointer;
+  font-weight: 650;
+  background: var(--paper);
+}
+.contribution-diff pre {
+  max-height: 24rem;
+  margin: 0;
+  padding: 0.8rem;
+  overflow: auto;
+  white-space: pre-wrap;
+  font-size: 0.75rem;
+  line-height: 1.45;
+}
+.license-confirmation {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.55rem;
+  color: var(--muted);
+  font-size: 0.82rem;
+  line-height: 1.5;
+}
+.license-confirmation input { margin-top: 0.2rem; }
+.contribution-rules {
+  display: flex;
+  gap: 0.6rem;
+  max-width: 720px;
+  margin: 1rem auto 0;
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+.contribution-rules svg { flex: 0 0 auto; color: var(--forest); }
+.contribution-rules p { margin: 0; }
 .contributor-forms .tabs {
   display: grid;
   grid-template-columns: repeat(4, 1fr);

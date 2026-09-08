@@ -33,11 +33,11 @@ OAuth 必须由 Worker 完成，客户端不能持有 client secret 或 GitHub a
 
 ## 三、投稿流程
 
-站内贡献表单只编辑结构化内容，不直接修改 `main`：
+站内贡献表单编辑最终人物 Markdown，不直接修改 `main`：
 
-1. 用户以 GitHub 登录；未登录时保存表单到浏览器内存或 `sessionStorage`，OAuth 返回后恢复，草稿不写 D1。
+1. 用户先以 GitHub 登录，随后载入站内编辑器；编辑中的草稿和 `submission_id` 只存于浏览器 `sessionStorage`，不写 D1。
 2. 新增人物时由前端生成稳定 `p_` ID；更新人物时加载当前静态 JSON 与对应 Markdown 的基线 SHA。
-3. 前端生成确定性的 `wang-person/v1` Markdown，展示最终 diff、来源和投稿许可确认。
+3. 前端以 `wang-person/v1` 模板或现有文件为基线，让用户编辑最终 Markdown，并展示 diff、来源说明和投稿许可确认。
 4. Contribution Worker 校验会话、CSRF、路径白名单、大小限制、基线 SHA 和 OAuth scope；请求正文只在内存中处理，不保存到 D1 或日志。
 5. Worker 使用当前用户的 GitHub token 创建或复用该用户的 fork，从最新 `main` 建立 `contrib/<github-id>/<submission-id>` 分支，写入 Markdown commit，并以该用户身份创建 Pull Request。
 6. 相同 `submission_id` 重试时，Worker先在 GitHub 查询确定性分支或已存在的 Pull Request，存在则原样返回，不重复创建分支、commit 或 PR。
