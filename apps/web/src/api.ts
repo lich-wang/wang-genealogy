@@ -22,9 +22,9 @@ export interface GitHubAccount {
 }
 
 export interface AccountSession {
-  user: GitHubAccount;
+  user: GitHubAccount | null;
   can_submit: boolean;
-  csrf_token: string;
+  csrf_token: string | null;
 }
 
 export interface ContributionBase {

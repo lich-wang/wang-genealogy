@@ -106,7 +106,7 @@ app.get('/api/auth/github/callback', async (context) => {
 
 app.get('/api/account/me', async (context) => {
   const session = await currentSession(context);
-  if (!session) return errorResponse(context, 401, 'authentication_required', '请先使用 GitHub 登录。');
+  if (!session) return context.json({ user: null, can_submit: false, csrf_token: null });
   return context.json({
     user: { github_id: session.githubId, login: session.login, avatar_url: session.avatarUrl },
     can_submit: normalizeScopes(session.scopes).includes('public_repo') && session.status === 'active',

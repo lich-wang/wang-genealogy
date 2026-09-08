@@ -25,7 +25,7 @@ GET  /api/account/me
 - `callback` 校验 Cookie、`state`、PKCE 和有效期，交换 token，再通过 GitHub `/user` 取得不可变 user ID。成功后建立站点会话并只重定向到同源白名单中的 `return_to`。
 - `logout` 必须幂等：已退出时返回 `204`，不新增数据库记录。
 - `disconnect` 撤销 GitHub grant、删除加密 token 并撤销全部站点会话；再次调用仍返回 `204`。
-- `me` 只返回公开身份和授权状态，不返回 GitHub token、邮箱或内部密钥。
+- `me` 只返回公开身份和授权状态，不返回 GitHub token、邮箱或内部密钥；匿名访问返回 `200`，其中 `user` 与 `csrf_token` 为 `null`，避免把正常的登录状态探测报告成浏览器错误。
 
 响应示例：
 
