@@ -4,7 +4,7 @@ id: p_cCCzfaBPGmC4CCrXYa95Yt
 status: active
 merged_into: null
 display_name: 王鉷
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: 导言
           quotation: 王鉷（?—752年），太原郡祁县（今山西省祁县南）人，唐朝大臣，
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
-          source:
+          source: &a1
             id: s_d0cSzmi0CQfj3gDEt97JRm
             source_type: website
             title: 中文维基百科：王鉷
@@ -127,7 +127,52 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_uY9z65ULPkpsS9sKLwihwa
+        subject_person_id: p_SWj94NjtR8s9z11cKaR2Bx
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_cCCzfaBPGmC4CCrXYa95Yt
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mSKL41x8rNSowB1ieHZ6TB
+          claim_id: c_uY9z65ULPkpsS9sKLwihwa
+          source_id: s_4FfCSxs5x4oN7PKmKxPivL
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_4FfCSxs5x4oN7PKmKxPivL
+            source_type: api_record
+            title: 维基数据：王瑨（Q26209205）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q26209205
+            external_identifier: Q26209205
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:28.634Z
+            metadata_json: null
+        - id: cs_4pD9J4KU8BV55nEYsB9nVT
+          claim_id: c_uY9z65ULPkpsS9sKLwihwa
+          source_id: s_d0cSzmi0CQfj3gDEt97JRm
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+      object_person:
+        id: p_SWj94NjtR8s9z11cKaR2Bx
+        status: active
+        display_name: 王瑨
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -153,8 +198,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_SWj94NjtR8s9z11cKaR2Bx | 王瑨 | accepted |
 
 ## 外部来源
 
 - [维基数据：王鉷（Q11572879）](https://www.wikidata.org/wiki/Q11572879)
+- [维基数据：王瑨（Q26209205）](https://www.wikidata.org/wiki/Q26209205)
 - [中文维基百科：王鉷](https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%89%B7)

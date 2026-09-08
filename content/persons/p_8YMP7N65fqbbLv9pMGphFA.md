@@ -4,7 +4,7 @@ id: p_8YMP7N65fqbbLv9pMGphFA
 status: active
 merged_into: null
 display_name: 王审知
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -595,6 +595,243 @@ relationships:
         status: active
         display_name: 王延政
         merged_into_person_id: null
+    - claim:
+        id: c_VEv4NF18CztgbV8EbR8Dwy
+        subject_person_id: p_8YMP7N65fqbbLv9pMGphFA
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_kKbGxLpYUGrx9utFUEH5DG
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KW5JhGYBwWXEPyLMgVwH4d
+          claim_id: c_VEv4NF18CztgbV8EbR8Dwy
+          source_id: s_K2m0Wa1zyutS_QNINsXVsD
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_K2m0Wa1zyutS_QNINsXVsD
+            source_type: website
+            title: 中文维基百科：王延喜
+            creator: 维基百科贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%B6%E5%96%9C
+            external_identifier: Q16077240
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-06T22:33:22.403Z
+            metadata_json: null
+        - id: cs_RdJK1GMgGHAY1CzLyP85d3
+          claim_id: c_VEv4NF18CztgbV8EbR8Dwy
+          source_id: s_BYvayLpGj9Y1h85cB71ggG
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: &a1
+            id: s_BYvayLpGj9Y1h85cB71ggG
+            source_type: api_record
+            title: 维基数据：王审知（Q708354）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q708354
+            external_identifier: Q708354
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:58:53.403Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AF%A9%E7%9F%A5
+      object_person:
+        id: p_kKbGxLpYUGrx9utFUEH5DG
+        status: active
+        display_name: 王延喜
+        merged_into_person_id: null
+    - claim:
+        id: c_WNUPbtbY6rEsXqWF2PXjgi
+        subject_person_id: p_8YMP7N65fqbbLv9pMGphFA
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_d79eQFuKJt4Wr5T2VT4Qvx
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_J5ip7B7eEKnh4BaibAz6D9
+          claim_id: c_WNUPbtbY6rEsXqWF2PXjgi
+          source_id: s_DVIwmRXq9wnDAJbObYsdQx
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_DVIwmRXq9wnDAJbObYsdQx
+            source_type: website
+            title: 中文维基百科：王延宗
+            creator: 维基百科贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%B6%E5%AE%97
+            external_identifier: Q16077244
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-06T22:33:22.403Z
+            metadata_json: null
+        - id: cs_mE75aVAzfeJYQqzAH5nX8x
+          claim_id: c_WNUPbtbY6rEsXqWF2PXjgi
+          source_id: s_BYvayLpGj9Y1h85cB71ggG
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+      object_person:
+        id: p_d79eQFuKJt4Wr5T2VT4Qvx
+        status: active
+        display_name: 王延宗
+        merged_into_person_id: null
+    - claim:
+        id: c_oqrFtrFLAuzffYUzSevGb5
+        subject_person_id: p_8YMP7N65fqbbLv9pMGphFA
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_4MQEBcHKEYH48KKgqidJoV
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7d6jYZf2BRWbPQdEszgwh9
+          claim_id: c_oqrFtrFLAuzffYUzSevGb5
+          source_id: s_M6wIXsdBhMVP6keJpGTigA
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_M6wIXsdBhMVP6keJpGTigA
+            source_type: website
+            title: 中文维基百科：王延望
+            creator: 维基百科贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%B6%E6%9C%9B
+            external_identifier: Q16077334
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-06T22:33:22.403Z
+            metadata_json: null
+        - id: cs_As6tWLcohcVRAZRigjVSfh
+          claim_id: c_oqrFtrFLAuzffYUzSevGb5
+          source_id: s_BYvayLpGj9Y1h85cB71ggG
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+      object_person:
+        id: p_4MQEBcHKEYH48KKgqidJoV
+        status: active
+        display_name: 王延望
+        merged_into_person_id: null
+    - claim:
+        id: c_J4U2ccKP32x1a9n8p9Qgar
+        subject_person_id: p_8YMP7N65fqbbLv9pMGphFA
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_K4xHWhCx899gRYmwkBdExS
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_riAfPibq94XF2T6SLMaQ4c
+          claim_id: c_J4U2ccKP32x1a9n8p9Qgar
+          source_id: s_FJyPva5bYYRTccLX0ougeJ
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_FJyPva5bYYRTccLX0ougeJ
+            source_type: website
+            title: 中文维基百科：王延武
+            creator: 维基百科贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%B6%E6%AD%A6
+            external_identifier: Q16077359
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-06T22:33:22.403Z
+            metadata_json: null
+        - id: cs_GGaeEAm8WHcMXehV921yAr
+          claim_id: c_J4U2ccKP32x1a9n8p9Qgar
+          source_id: s_BYvayLpGj9Y1h85cB71ggG
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+      object_person:
+        id: p_K4xHWhCx899gRYmwkBdExS
+        status: active
+        display_name: 王延武
+        merged_into_person_id: null
+    - claim:
+        id: c_4mKiE6KjGkXvNEQCQa7R5t
+        subject_person_id: p_8YMP7N65fqbbLv9pMGphFA
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_aT4CvoYtuw2TLtAr3movVH
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AK5GgpHiWpfUbUypYLUgHG
+          claim_id: c_4mKiE6KjGkXvNEQCQa7R5t
+          source_id: s_OsRtjB9VkkiL_9nzsSnTdE
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_OsRtjB9VkkiL_9nzsSnTdE
+            source_type: website
+            title: 中文维基百科：王延美
+            creator: 维基百科贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%B6%E7%BE%8E
+            external_identifier: Q16077373
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-06T22:33:22.403Z
+            metadata_json: null
+        - id: cs_HiMdrvX7ae7XsPqSkEdzfC
+          claim_id: c_4mKiE6KjGkXvNEQCQa7R5t
+          source_id: s_BYvayLpGj9Y1h85cB71ggG
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+      object_person:
+        id: p_aT4CvoYtuw2TLtAr3movVH
+        status: active
+        display_name: 王延美
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses:
@@ -742,6 +979,11 @@ relationships:
 | children | p_BXK4dNohPJQTYjtEjv756p | 王延钧 | accepted |
 | children | p_rv5xppZzZhcU83pgyjtWt7 | 王延羲 | accepted |
 | children | p_2BLYj53xGBLVXEoVxHh8Ws | 王延政 | accepted |
+| children | p_kKbGxLpYUGrx9utFUEH5DG | 王延喜 | accepted |
+| children | p_d79eQFuKJt4Wr5T2VT4Qvx | 王延宗 | accepted |
+| children | p_4MQEBcHKEYH48KKgqidJoV | 王延望 | accepted |
+| children | p_K4xHWhCx899gRYmwkBdExS | 王延武 | accepted |
+| children | p_aT4CvoYtuw2TLtAr3movVH | 王延美 | accepted |
 | spouses | p_G7ktPXWnXxezfEL3rWVsND | 黃惠姑 | accepted |
 | spouses | p_DZ877SrF3Dd3ZrpYZDxfoe | 任内明 | accepted |
 
@@ -757,5 +999,10 @@ relationships:
 - [维基数据：王延羲（Q2208402）](https://www.wikidata.org/wiki/Q2208402)
 - [维基数据：王延政（Q8012995）](https://www.wikidata.org/wiki/Q8012995)
 - [中文维基百科：王審知](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AF%A9%E7%9F%A5)
+- [中文维基百科：王延美](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%B6%E7%BE%8E)
+- [中文维基百科：王延望](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%B6%E6%9C%9B)
+- [中文维基百科：王延武](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%B6%E6%AD%A6)
+- [中文维基百科：王延喜](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%B6%E5%96%9C)
+- [中文维基百科：王延宗](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%B6%E5%AE%97)
 - [CBDB 中国历代人物传记资料库：王某（194931）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=194931&o=json)
 - [CBDB 中国历代人物传记资料库：王審知（11520）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=11520&o=json)

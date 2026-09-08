@@ -4,7 +4,7 @@ id: p_7oLhNpqUYp1tqETFx86wc3
 status: active
 merged_into: null
 display_name: 苏氏
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -95,7 +95,72 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_v38cKNpCPNBaF1J6qrmHfw
+        subject_person_id: p_7oLhNpqUYp1tqETFx86wc3
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_H1qN9DJkUwvePJbjMNJmyp
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_EmQp7rLLohCs6mGSM7MTpB
+          claim_id: c_v38cKNpCPNBaF1J6qrmHfw
+          source_id: s_ta7fJKZC1v4nhWm2mDhw14
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_ta7fJKZC1v4nhWm2mDhw14
+            source_type: api_record
+            title: 维基数据：王士崧（Q16925700）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q16925700
+            external_identifier: Q16925700
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:46.107Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A3%AB%E5%B4%A7
+        - id: cs_8rb5QPupW9bLXCCCjy4jNa
+          claim_id: c_v38cKNpCPNBaF1J6qrmHfw
+          source_id: s_jqLkujpLgmQYEPkB4Z8xbF
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_m9u3fk6N515NKFNNGDV7J2
+          claim_id: c_v38cKNpCPNBaF1J6qrmHfw
+          source_id: s_SGyN6PwCC37j9pzx1eeEdU
+          stance: supports
+          locator: 亲属关系：妻子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：萬曆十一年進士登科錄:一卷
+          source:
+            id: s_SGyN6PwCC37j9pzx1eeEdU
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王士崧（35068）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35068&o=json
+            external_identifier: CBDB:35068
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:59:46.279Z
+            metadata_json: null
+      object_person:
+        id: p_H1qN9DJkUwvePJbjMNJmyp
+        status: active
+        display_name: 王士崧
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -116,8 +181,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_H1qN9DJkUwvePJbjMNJmyp | 王士崧 | accepted |
 
 ## 外部来源
 
 - [维基数据：苏氏（Q65825522）](https://www.wikidata.org/wiki/Q65825522)
+- [维基数据：王士崧（Q16925700）](https://www.wikidata.org/wiki/Q16925700)
 - [CBDB 中国历代人物传记资料库：蘇氏（222407）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222407&o=json)
+- [CBDB 中国历代人物传记资料库：王士崧（35068）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35068&o=json)

@@ -4,7 +4,7 @@ id: p_VhYJfua3oKHd9zWvRRU8LK
 status: active
 merged_into: null
 display_name: 王銲
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -114,7 +114,52 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_SiVYUhhUh1LkcFYmrCTn5X
+        subject_person_id: p_SWj94NjtR8s9z11cKaR2Bx
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_VhYJfua3oKHd9zWvRRU8LK
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zRuHYoapf9URLrANXqj1T8
+          claim_id: c_SiVYUhhUh1LkcFYmrCTn5X
+          source_id: s_4FfCSxs5x4oN7PKmKxPivL
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_4FfCSxs5x4oN7PKmKxPivL
+            source_type: api_record
+            title: 维基数据：王瑨（Q26209205）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q26209205
+            external_identifier: Q26209205
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:28.634Z
+            metadata_json: null
+        - id: cs_fM3P1nDkWoCt8RYNZQdCwM
+          claim_id: c_SiVYUhhUh1LkcFYmrCTn5X
+          source_id: s_hGMxK9qCJ3iKjQGBh2Rpgc
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+      object_person:
+        id: p_SWj94NjtR8s9z11cKaR2Bx
+        status: active
+        display_name: 王瑨
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -140,7 +185,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_SWj94NjtR8s9z11cKaR2Bx | 王瑨 | accepted |
 
 ## 外部来源
 
 - [维基数据：王銲（Q11572873）](https://www.wikidata.org/wiki/Q11572873)
+- [维基数据：王瑨（Q26209205）](https://www.wikidata.org/wiki/Q26209205)

@@ -4,7 +4,7 @@ id: p_mLR2LwV5BkQKiVBVi28oBG
 status: active
 merged_into: null
 display_name: 王缙
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_5qmAs78nS9KmbmEN8TQgud
             source_type: api_record
             title: 维基数据：王缙（Q45603209）
@@ -152,8 +152,107 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_7WNVYr2FAUHPoZ2SLJrtK7
+        subject_person_id: p_jKqVidJwcTMx5NKLd3APMR
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_mLR2LwV5BkQKiVBVi28oBG
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_DnTXETpm3k8k1QZ2K13MNh
+          claim_id: c_7WNVYr2FAUHPoZ2SLJrtK7
+          source_id: s_5qmAs78nS9KmbmEN8TQgud
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_3NigPWYrJMbTZRyEQn47m1
+          claim_id: c_7WNVYr2FAUHPoZ2SLJrtK7
+          source_id: s_xB3vVrbuHBzPontAgF3Vsg
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_xB3vVrbuHBzPontAgF3Vsg
+            source_type: api_record
+            title: 维基数据：王瓌（Q45603143）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45603143
+            external_identifier: Q45603143
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person:
+        id: p_jKqVidJwcTMx5NKLd3APMR
+        status: active
+        display_name: 王瓌
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_eVprui53fbC5CpcQeLhfFK
+        subject_person_id: p_mLR2LwV5BkQKiVBVi28oBG
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_6BymFd7sw6j7GAmg7erqPj
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_sXrcCSsNtq6CDVcGsiCHk6
+          claim_id: c_eVprui53fbC5CpcQeLhfFK
+          source_id: s_YtiuJ4x6oyDJbCvjY9nQK7
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_YtiuJ4x6oyDJbCvjY9nQK7
+            source_type: api_record
+            title: 维基数据：王智兴（Q7967776）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q7967776
+            external_identifier: Q7967776
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:24.494Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%99%BA%E8%88%88
+        - id: cs_KAH1x6dcCHss8k1aXNi2sc
+          claim_id: c_eVprui53fbC5CpcQeLhfFK
+          source_id: s_5qmAs78nS9KmbmEN8TQgud
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_gKcUuYpmbBGexoMzBh4rhD
+          claim_id: c_eVprui53fbC5CpcQeLhfFK
+          source_id: s_RPpZiHDWSHwgmepChP8AMg
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：唐五代人物傳記與社會網絡資料庫(1.0版)
+          source: *a1
+      object_person:
+        id: p_6BymFd7sw6j7GAmg7erqPj
+        status: active
+        display_name: 王智兴
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -178,8 +277,12 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_jKqVidJwcTMx5NKLd3APMR | 王瓌 | accepted |
+| children | p_6BymFd7sw6j7GAmg7erqPj | 王智兴 | accepted |
 
 ## 外部来源
 
+- [维基数据：王瓌（Q45603143）](https://www.wikidata.org/wiki/Q45603143)
 - [维基数据：王缙（Q45603209）](https://www.wikidata.org/wiki/Q45603209)
+- [维基数据：王智兴（Q7967776）](https://www.wikidata.org/wiki/Q7967776)
 - [CBDB 中国历代人物传记资料库：王縉（184938）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=184938&o=json)

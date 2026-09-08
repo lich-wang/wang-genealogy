@@ -4,7 +4,7 @@ id: p_Myr7yL2y4NUdhUtw1bG9bq
 status: active
 merged_into: null
 display_name: 王扶
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a1
             id: s_ZkMbPRZGMEwFHB19ascjGD
             source_type: api_record
             title: 维基数据：王扶（Q45359463）
@@ -108,7 +108,7 @@ properties:
           locator: Q45359463
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_KK3ayXGH4yjNdD6jebqTPs
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：王扶（1804）
@@ -123,8 +123,107 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_37zCJ9VjZY3tN6P8t4KNq9
+        subject_person_id: p_b2BNKpQqMbC3xJGHf9un3N
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Myr7yL2y4NUdhUtw1bG9bq
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_K7tGWWiechKBzwJdLBFWKG
+          claim_id: c_37zCJ9VjZY3tN6P8t4KNq9
+          source_id: s_ZkMbPRZGMEwFHB19ascjGD
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_ABN7LMe3bF2XAoQurtMuap
+          claim_id: c_37zCJ9VjZY3tN6P8t4KNq9
+          source_id: s_t5T7QqzwbxL6UN7UN4KHKs
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_t5T7QqzwbxL6UN7UN4KHKs
+            source_type: api_record
+            title: 维基数据：王明（Q28414907）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q28414907
+            external_identifier: Q28414907
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%98%8E_(%E5%AE%8B%E6%9C%9D)
+      object_person:
+        id: p_b2BNKpQqMbC3xJGHf9un3N
+        status: active
+        display_name: 王明
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_9ctDDfx8kkAA1uFwAZ8ov2
+        subject_person_id: p_Myr7yL2y4NUdhUtw1bG9bq
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_tmq6Wnq1CjinFj62NTxvnd
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gisVwBmHwiKE4xaN2TY9Du
+          claim_id: c_9ctDDfx8kkAA1uFwAZ8ov2
+          source_id: s_ZkMbPRZGMEwFHB19ascjGD
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_A2WKLsXBAbNRpUgWJAzQLT
+          claim_id: c_9ctDDfx8kkAA1uFwAZ8ov2
+          source_id: s_hfGnqqkZu2ykMbrGScDYiC
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_hfGnqqkZu2ykMbrGScDYiC
+            source_type: api_record
+            title: 维基数据：王师颜（Q45402112）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45402112
+            external_identifier: Q45402112
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+        - id: cs_UUFejo2By8FJmep4PEYJwf
+          claim_id: c_9ctDDfx8kkAA1uFwAZ8ov2
+          source_id: s_KK3ayXGH4yjNdD6jebqTPs
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：鄖溪集
+          source: *a2
+      object_person:
+        id: p_tmq6Wnq1CjinFj62NTxvnd
+        status: active
+        display_name: 王师颜
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -148,9 +247,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_b2BNKpQqMbC3xJGHf9un3N | 王明 | accepted |
+| children | p_tmq6Wnq1CjinFj62NTxvnd | 王师颜 | accepted |
 
 ## 外部来源
 
 - [维基数据：王扶（Q45359463）](https://www.wikidata.org/wiki/Q45359463)
+- [维基数据：王明（Q28414907）](https://www.wikidata.org/wiki/Q28414907)
+- [维基数据：王师颜（Q45402112）](https://www.wikidata.org/wiki/Q45402112)
 - [中文维基百科：王扶 (北宋)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%89%B6_(%E5%8C%97%E5%AE%8B))
 - [CBDB 中国历代人物传记资料库：王扶（1804）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1804&o=json)

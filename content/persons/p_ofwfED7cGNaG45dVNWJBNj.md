@@ -4,7 +4,7 @@ id: p_ofwfED7cGNaG45dVNWJBNj
 status: active
 merged_into: null
 display_name: 王䪧
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_SYCC4D3gpxEXf8QPU9rNwS
             source_type: api_record
             title: 维基数据：王䪧（Q45663719）
@@ -110,8 +110,98 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_uUj1SaJ2iYwRALc29ZFv1P
+        subject_person_id: p_xJsRqYi6bQ21m8ncMBogv4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ofwfED7cGNaG45dVNWJBNj
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_twUQmMV7QkhSRr1tVKSEDm
+          claim_id: c_uUj1SaJ2iYwRALc29ZFv1P
+          source_id: s_SYCC4D3gpxEXf8QPU9rNwS
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_4U2MgUptuF1VTZ8xDQ4z86
+          claim_id: c_uUj1SaJ2iYwRALc29ZFv1P
+          source_id: s_L2JMk13QEy17HsL24NGnjn
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_L2JMk13QEy17HsL24NGnjn
+            source_type: api_record
+            title: 维基数据：王民（Q45663662）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45663662
+            external_identifier: Q45663662
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person:
+        id: p_xJsRqYi6bQ21m8ncMBogv4
+        status: active
+        display_name: 王民
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_zcM7p63JNv8oUDLiuTDSYn
+        subject_person_id: p_ofwfED7cGNaG45dVNWJBNj
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_BdmxytotV7zqZnEBKrEUyP
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GYUMbWHdZ15MJ29UQpRFsb
+          claim_id: c_zcM7p63JNv8oUDLiuTDSYn
+          source_id: s_jwpL4YCme3VDd3qJnCQEE4
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_jwpL4YCme3VDd3qJnCQEE4
+            source_type: api_record
+            title: 维基数据：王纶（Q45663776）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45663776
+            external_identifier: Q45663776
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:40.609Z
+            metadata_json: null
+        - id: cs_X98ycHrTXxUuc6MENJ15NT
+          claim_id: c_zcM7p63JNv8oUDLiuTDSYn
+          source_id: s_SYCC4D3gpxEXf8QPU9rNwS
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+      object_person:
+        id: p_BdmxytotV7zqZnEBKrEUyP
+        status: active
+        display_name: 王纶
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +225,12 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_xJsRqYi6bQ21m8ncMBogv4 | 王民 | accepted |
+| children | p_BdmxytotV7zqZnEBKrEUyP | 王纶 | accepted |
 
 ## 外部来源
 
+- [维基数据：王纶（Q45663776）](https://www.wikidata.org/wiki/Q45663776)
+- [维基数据：王民（Q45663662）](https://www.wikidata.org/wiki/Q45663662)
 - [维基数据：王䪧（Q45663719）](https://www.wikidata.org/wiki/Q45663719)
 - [CBDB 中国历代人物传记资料库：王音也（277429）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=277429&o=json)

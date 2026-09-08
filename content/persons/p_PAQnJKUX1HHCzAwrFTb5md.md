@@ -4,7 +4,7 @@ id: p_PAQnJKUX1HHCzAwrFTb5md
 status: active
 merged_into: null
 display_name: 王本
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_aBqYKXy4FB34Qb4CoTKgaT
             source_type: api_record
             title: 维基数据：王本（Q45491815）
@@ -110,7 +110,52 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_4eUrHznUMarW3ZsgmTEqYc
+        subject_person_id: p_Ns4Cdmr9SZRQforztCwkrA
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_PAQnJKUX1HHCzAwrFTb5md
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dKrMgpU6xcFnV47UJToCX7
+          claim_id: c_4eUrHznUMarW3ZsgmTEqYc
+          source_id: s_aBqYKXy4FB34Qb4CoTKgaT
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_Qb6orh3u7VqCDZbkGPHgGQ
+          claim_id: c_4eUrHznUMarW3ZsgmTEqYc
+          source_id: s_zRCWanQ9G8TMGENN7UWk8v
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_zRCWanQ9G8TMGENN7UWk8v
+            source_type: api_record
+            title: 维基数据：王成（Q45491751）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45491751
+            external_identifier: Q45491751
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:07:19.152Z
+            metadata_json: null
+      object_person:
+        id: p_Ns4Cdmr9SZRQforztCwkrA
+        status: active
+        display_name: 王成
+        merged_into_person_id: null
   children:
     - claim:
         id: c_Lja4kG6wq2v3GTCYnJRw6i
@@ -191,10 +236,12 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Ns4Cdmr9SZRQforztCwkrA | 王成 | accepted |
 | children | p_Wdd9WrspYiEE72NGMNp75f | 王鸿儒 | accepted |
 
 ## 外部来源
 
 - [维基数据：王本（Q45491815）](https://www.wikidata.org/wiki/Q45491815)
+- [维基数据：王成（Q45491751）](https://www.wikidata.org/wiki/Q45491751)
 - [维基数据：王鸿儒（Q15933067）](https://www.wikidata.org/wiki/Q15933067)
 - [CBDB 中国历代人物传记资料库：王本（257534）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257534&o=json)

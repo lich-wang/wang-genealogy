@@ -4,7 +4,7 @@ id: p_zN5CkYRsAqXYKS76qUps77
 status: active
 merged_into: null
 display_name: 王宗果
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -110,7 +110,63 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_qEXwpa7cE9Mvzw64eSoNWu
+        subject_person_id: p_tc8tLCyEu49sXcAYbw2GP6
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_zN5CkYRsAqXYKS76qUps77
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PdWKsiMrJ31x8MVgAN54SK
+          claim_id: c_qEXwpa7cE9Mvzw64eSoNWu
+          source_id: s_V4mjvnm9jPY7ciAUaiPPTh
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_V4mjvnm9jPY7ciAUaiPPTh
+            source_type: api_record
+            title: 维基数据：王宗果（Q45614499）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45614499
+            external_identifier: Q45614499
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:34.983Z
+            metadata_json: null
+        - id: cs_joXzdtTNLDXUE9wZWJ2TMC
+          claim_id: c_qEXwpa7cE9Mvzw64eSoNWu
+          source_id: s_w14uGT4Ny4mX3owuAhJBBW
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_w14uGT4Ny4mX3owuAhJBBW
+            source_type: api_record
+            title: 维基数据：王訚（Q45614438）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45614438
+            external_identifier: Q45614438
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:07:00.338Z
+            metadata_json: null
+      object_person:
+        id: p_tc8tLCyEu49sXcAYbw2GP6
+        status: active
+        display_name: 王訚
+        merged_into_person_id: null
   children:
     - claim:
         id: c_u7DVp81f6maoFKKQgUxios
@@ -191,10 +247,12 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_tc8tLCyEu49sXcAYbw2GP6 | 王訚 | accepted |
 | children | p_ZHWKRzPsbezhFJuM1r6DbE | 王士性 | accepted |
 
 ## 外部来源
 
 - [维基数据：王士性（Q15711200）](https://www.wikidata.org/wiki/Q15711200)
+- [维基数据：王訚（Q45614438）](https://www.wikidata.org/wiki/Q45614438)
 - [维基数据：王宗果（Q45614499）](https://www.wikidata.org/wiki/Q45614499)
 - [CBDB 中国历代人物传记资料库：王宗果（217868）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217868&o=json)

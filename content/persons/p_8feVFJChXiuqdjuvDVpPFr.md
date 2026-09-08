@@ -4,7 +4,7 @@ id: p_8feVFJChXiuqdjuvDVpPFr
 status: active
 merged_into: null
 display_name: 王季烈
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -267,7 +267,110 @@ relationships:
         status: active
         display_name: 王颂蔚
         merged_into_person_id: null
-  children: []
+    - claim:
+        id: c_tJCDMECuNuuLC15HMuHJMS
+        subject_person_id: p_f7g3eELsAMp2Cx19FFgTS3
+        claim_kind: relationship
+        predicate: kinship.mother_of
+        object_person_id: p_8feVFJChXiuqdjuvDVpPFr
+        generation_count: null
+        parent_role: mother
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FYrTVD27UKMQHHDF6h8GHC
+          claim_id: c_tJCDMECuNuuLC15HMuHJMS
+          source_id: s_PCBmd1NPULe6Bjy1LUFKSa
+          stance: supports
+          locator: P25（母）
+          quotation: null
+          interpretation_note: null
+          source: &a1
+            id: s_PCBmd1NPULe6Bjy1LUFKSa
+            source_type: api_record
+            title: 维基数据：王季烈（Q16260246）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q16260246
+            external_identifier: Q16260246
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:46.107Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AD%A3%E7%83%88
+        - id: cs_mGB1uZqP9dYQAQWJ4KD6Dn
+          claim_id: c_tJCDMECuNuuLC15HMuHJMS
+          source_id: s_8f2Cm1CFYq5g1N96oNqk21
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_8f2Cm1CFYq5g1N96oNqk21
+            source_type: api_record
+            title: 维基数据：王谢长达（Q109174396）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q109174396
+            external_identifier: Q109174396
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:38.937Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%B0%A2%E9%95%BF%E8%BE%BE
+      object_person:
+        id: p_f7g3eELsAMp2Cx19FFgTS3
+        status: active
+        display_name: 王谢长达
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_GW7MB4woByHN2ysM13kZB3
+        subject_person_id: p_8feVFJChXiuqdjuvDVpPFr
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_rzRcjZi9dvZc9Qt4SfXoWJ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wXdz6ecSBtzxkWhKWcwLLm
+          claim_id: c_GW7MB4woByHN2ysM13kZB3
+          source_id: s_PCBmd1NPULe6Bjy1LUFKSa
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_p9Z9avBdz1eHYXGXR3R6mT
+          claim_id: c_GW7MB4woByHN2ysM13kZB3
+          source_id: s_d1PhtlorWOXLs4Ekc4dvZq
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_d1PhtlorWOXLs4Ekc4dvZq
+            source_type: website
+            title: 中文维基百科：王守泰 (昆曲)
+            creator: 维基百科贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AE%88%E6%B3%B0_(%E6%98%86%E6%9B%B2)
+            external_identifier: Q10413479
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-06T22:33:22.403Z
+            metadata_json: null
+      object_person:
+        id: p_rzRcjZi9dvZc9Qt4SfXoWJ
+        status: active
+        display_name: 王守泰
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -294,10 +397,14 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_2HELk41pdUeS3deRz3VVLi | 王颂蔚 | accepted |
+| parents | p_f7g3eELsAMp2Cx19FFgTS3 | 王谢长达 | accepted |
+| children | p_rzRcjZi9dvZc9Qt4SfXoWJ | 王守泰 | accepted |
 
 ## 外部来源
 
 - [维基数据：王季烈（Q16260246）](https://www.wikidata.org/wiki/Q16260246)
 - [维基数据：王颂蔚（Q15916782）](https://www.wikidata.org/wiki/Q15916782)
+- [维基数据：王谢长达（Q109174396）](https://www.wikidata.org/wiki/Q109174396)
 - [中文维基百科：王季烈](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AD%A3%E7%83%88)
+- [中文维基百科：王守泰 (昆曲)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AE%88%E6%B3%B0_(%E6%98%86%E6%9B%B2))
 - [CBDB 中国历代人物传记资料库：王季烈（342113）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=342113&o=json)

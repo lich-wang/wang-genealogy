@@ -4,7 +4,7 @@ id: p_AfuUVSUoLTbNao9TD9JhZG
 status: active
 merged_into: null
 display_name: 王仁东
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_K9bDqFgFM8njU3FAyCHMGz
             source_type: api_record
             title: 维基数据：王仁东（Q16260607）
@@ -198,8 +198,143 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_qpXstzptm3hQayLd91CAJ6
+        subject_person_id: p_Gxn2LqhXD3zS4kUs2t7knD
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_AfuUVSUoLTbNao9TD9JhZG
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AxYqim2a3LaS6vcU2meGg3
+          claim_id: c_qpXstzptm3hQayLd91CAJ6
+          source_id: s_zmvPF7Ln648m64pMJqo1rR
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_zmvPF7Ln648m64pMJqo1rR
+            source_type: api_record
+            title: 维基数据：王傳燦（Q98060612）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q98060612
+            external_identifier: Q98060612
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:19.447Z
+            metadata_json: null
+        - id: cs_YEBeDFBGkhJ8rSmNw7MMWy
+          claim_id: c_qpXstzptm3hQayLd91CAJ6
+          source_id: s_K9bDqFgFM8njU3FAyCHMGz
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+      object_person:
+        id: p_Gxn2LqhXD3zS4kUs2t7knD
+        status: active
+        display_name: 王傳燦
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_mB3cM2J3FV2oisQ2WSmj7J
+        subject_person_id: p_AfuUVSUoLTbNao9TD9JhZG
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_dcEdt9464ApJeN1AoJavzC
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Dy3nsU3R4F2Zdn49XYWd63
+          claim_id: c_mB3cM2J3FV2oisQ2WSmj7J
+          source_id: s_K9bDqFgFM8njU3FAyCHMGz
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_J8qTGxFpfh8MutY6SBoBCJ
+          claim_id: c_mB3cM2J3FV2oisQ2WSmj7J
+          source_id: s_ApJSTvCf96wLQMz3FDtUMm
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_ApJSTvCf96wLQMz3FDtUMm
+            source_type: api_record
+            title: 维基数据：王繼曾（Q131781482）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q131781482
+            external_identifier: Q131781482
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person:
+        id: p_dcEdt9464ApJeN1AoJavzC
+        status: active
+        display_name: 王繼曾
+        merged_into_person_id: null
+    - claim:
+        id: c_g7o6o7JWCNonNjRayDpc23
+        subject_person_id: p_AfuUVSUoLTbNao9TD9JhZG
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_wHsxGAV3Wxpzrg2Rq3vdrK
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_o2Sc3aH213dEKVnye7gToL
+          claim_id: c_g7o6o7JWCNonNjRayDpc23
+          source_id: s_K9bDqFgFM8njU3FAyCHMGz
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_rZ5jDeSQrYGsro6eDHLKGS
+          claim_id: c_g7o6o7JWCNonNjRayDpc23
+          source_id: s_ZXqEwE5xz1pGoPqXq2K8NB
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_ZXqEwE5xz1pGoPqXq2K8NB
+            source_type: api_record
+            title: 维基数据：王季淑（Q131781513）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q131781513
+            external_identifier: Q131781513
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person:
+        id: p_wHsxGAV3Wxpzrg2Rq3vdrK
+        status: active
+        display_name: 王季淑
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -225,8 +360,14 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Gxn2LqhXD3zS4kUs2t7knD | 王傳燦 | accepted |
+| children | p_dcEdt9464ApJeN1AoJavzC | 王繼曾 | accepted |
+| children | p_wHsxGAV3Wxpzrg2Rq3vdrK | 王季淑 | accepted |
 
 ## 外部来源
 
+- [维基数据：王傳燦（Q98060612）](https://www.wikidata.org/wiki/Q98060612)
+- [维基数据：王季淑（Q131781513）](https://www.wikidata.org/wiki/Q131781513)
+- [维基数据：王繼曾（Q131781482）](https://www.wikidata.org/wiki/Q131781482)
 - [维基数据：王仁东（Q16260607）](https://www.wikidata.org/wiki/Q16260607)
 - [CBDB 中国历代人物传记资料库：王仁東（71402）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=71402&o=json)

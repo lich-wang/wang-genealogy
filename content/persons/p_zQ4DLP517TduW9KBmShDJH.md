@@ -4,7 +4,7 @@ id: p_zQ4DLP517TduW9KBmShDJH
 status: active
 merged_into: null
 display_name: 王有壬
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_81NCrSguBPreQrC4V4ZqQy
             source_type: api_record
             title: 维基数据：王有壬（Q45426505）
@@ -110,7 +110,71 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_gD8paU8ThG4oXu7oK1hZq9
+        subject_person_id: p_Mc1TgdkLLeMac37TuMJkgg
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_zQ4DLP517TduW9KBmShDJH
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1eMCep47kaQ6Kn2PFC9qSK
+          claim_id: c_gD8paU8ThG4oXu7oK1hZq9
+          source_id: s_oJ8FAXQ24SpR2CDBQw6JKL
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_oJ8FAXQ24SpR2CDBQw6JKL
+            source_type: api_record
+            title: 维基数据：王延（Q45426464）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45426464
+            external_identifier: Q45426464
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:32.124Z
+            metadata_json: null
+        - id: cs_ES82TPD1NU6VvuPXwnX8TH
+          claim_id: c_gD8paU8ThG4oXu7oK1hZq9
+          source_id: s_81NCrSguBPreQrC4V4ZqQy
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_ZKQvsWxv1CMZiJU2rFkcNq
+          claim_id: c_gD8paU8ThG4oXu7oK1hZq9
+          source_id: s_QPCYrFB55K36KxRqevJ5vK
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：未知
+          source:
+            id: s_QPCYrFB55K36KxRqevJ5vK
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王延喆（34585）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34585&o=json
+            external_identifier: CBDB:34585
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:59:32.301Z
+            metadata_json: null
+      object_person:
+        id: p_Mc1TgdkLLeMac37TuMJkgg
+        status: active
+        display_name: 王延
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -135,8 +199,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Mc1TgdkLLeMac37TuMJkgg | 王延 | accepted |
 
 ## 外部来源
 
+- [维基数据：王延（Q45426464）](https://www.wikidata.org/wiki/Q45426464)
 - [维基数据：王有壬（Q45426505）](https://www.wikidata.org/wiki/Q45426505)
+- [CBDB 中国历代人物传记资料库：王延喆（34585）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34585&o=json)
 - [CBDB 中国历代人物传记资料库：王有壬（34586）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34586&o=json)

@@ -4,7 +4,7 @@ id: p_iVXKWi9f5gNuEVGc79EzBF
 status: active
 merged_into: null
 display_name: 王晏宝
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_64XeMFRrpqodXsZKs2NNK9
             source_type: api_record
             title: 维基数据：王晏宝（Q45603535）
@@ -152,7 +152,53 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_sXn8d6QyevbFAstEWTjrZC
+        subject_person_id: p_6BymFd7sw6j7GAmg7erqPj
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_iVXKWi9f5gNuEVGc79EzBF
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8dCaCHvE76S94LX6jPnxKF
+          claim_id: c_sXn8d6QyevbFAstEWTjrZC
+          source_id: s_YtiuJ4x6oyDJbCvjY9nQK7
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_YtiuJ4x6oyDJbCvjY9nQK7
+            source_type: api_record
+            title: 维基数据：王智兴（Q7967776）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q7967776
+            external_identifier: Q7967776
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:24.494Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%99%BA%E8%88%88
+        - id: cs_w9aAxAcvMPDKHv2geMWVtt
+          claim_id: c_sXn8d6QyevbFAstEWTjrZC
+          source_id: s_64XeMFRrpqodXsZKs2NNK9
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+      object_person:
+        id: p_6BymFd7sw6j7GAmg7erqPj
+        status: active
+        display_name: 王智兴
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -178,8 +224,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_6BymFd7sw6j7GAmg7erqPj | 王智兴 | accepted |
 
 ## 外部来源
 
 - [维基数据：王晏宝（Q45603535）](https://www.wikidata.org/wiki/Q45603535)
+- [维基数据：王智兴（Q7967776）](https://www.wikidata.org/wiki/Q7967776)
 - [CBDB 中国历代人物传记资料库：王晏寶（184943）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=184943&o=json)

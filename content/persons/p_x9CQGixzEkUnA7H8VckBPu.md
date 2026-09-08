@@ -4,7 +4,7 @@ id: p_x9CQGixzEkUnA7H8VckBPu
 status: active
 merged_into: null
 display_name: 王引之
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -209,7 +209,65 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_fACFTvDT7BUrmWeZB1Fk7S
+        subject_person_id: p_7ZLkhM6fzxrjvBYHUXQTJQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_x9CQGixzEkUnA7H8VckBPu
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NUeCbrUVDWGfpdGP1FQEgm
+          claim_id: c_fACFTvDT7BUrmWeZB1Fk7S
+          source_id: s_SwHU4SeGpPq4puTdYE17fn
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: &a1
+            id: s_SwHU4SeGpPq4puTdYE17fn
+            source_type: api_record
+            title: 维基数据：王引之（Q11573061）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q11573061
+            external_identifier: Q11573061
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:19.447Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BC%95%E4%B9%8B
+        - id: cs_AGxK51EVzBoxz4M7GVREG2
+          claim_id: c_fACFTvDT7BUrmWeZB1Fk7S
+          source_id: s_bLgFFJHnegm1L7AxEbYBqC
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_bLgFFJHnegm1L7AxEbYBqC
+            source_type: api_record
+            title: 维基数据：王念孙（Q697757）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q697757
+            external_identifier: Q697757
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:20.290Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BF%B5%E5%AD%99
+      object_person:
+        id: p_7ZLkhM6fzxrjvBYHUXQTJQ
+        status: active
+        display_name: 王念孙
+        merged_into_person_id: null
   children:
     - claim:
         id: c_eZaNRKpXwsNCmmas1fyGCd
@@ -382,6 +440,51 @@ relationships:
         status: active
         display_name: 王寿同
         merged_into_person_id: null
+    - claim:
+        id: c_vb8RGGay4VYwNP7cBf1QHM
+        subject_person_id: p_x9CQGixzEkUnA7H8VckBPu
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Rqtj2SNyBdvLmz523jMBP7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_iqMDF2u83EoNUXuURU7A6v
+          claim_id: c_vb8RGGay4VYwNP7cBf1QHM
+          source_id: s_SwHU4SeGpPq4puTdYE17fn
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_27UgPkcWJ9x9GHy5ES63qN
+          claim_id: c_vb8RGGay4VYwNP7cBf1QHM
+          source_id: s_6RNWqL19YxdULNCXE7RTBw
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_6RNWqL19YxdULNCXE7RTBw
+            source_type: api_record
+            title: 维基数据：王氏（Q13688975）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q13688975
+            external_identifier: Q13688975
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:29.703Z
+            metadata_json: null
+      object_person:
+        id: p_Rqtj2SNyBdvLmz523jMBP7
+        status: active
+        display_name: 王氏
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -407,12 +510,16 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_7ZLkhM6fzxrjvBYHUXQTJQ | 王念孙 | accepted |
 | children | p_mWzr5N28LsqLmLk2ra7Nay | 王寿昌 | accepted |
 | children | p_uqfQQT9vPG2HPVfSPYfNxW | 王彦和 | accepted |
 | children | p_Ak21xk9bNXbqBKZKZVEpv9 | 王寿同 | accepted |
+| children | p_Rqtj2SNyBdvLmz523jMBP7 | 王氏 | accepted |
 
 ## 外部来源
 
+- [维基数据：王念孙（Q697757）](https://www.wikidata.org/wiki/Q697757)
+- [维基数据：王氏（Q13688975）](https://www.wikidata.org/wiki/Q13688975)
 - [维基数据：王寿昌（Q13688262）](https://www.wikidata.org/wiki/Q13688262)
 - [维基数据：王寿同（Q13688793）](https://www.wikidata.org/wiki/Q13688793)
 - [维基数据：王彦和（Q13688427）](https://www.wikidata.org/wiki/Q13688427)

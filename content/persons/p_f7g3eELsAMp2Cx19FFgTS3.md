@@ -4,7 +4,7 @@ id: p_f7g3eELsAMp2Cx19FFgTS3
 status: active
 merged_into: null
 display_name: 王谢长达
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -85,7 +85,156 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_LhoCcu5GdRKyE2FhH1obtd
+        subject_person_id: p_f7g3eELsAMp2Cx19FFgTS3
+        claim_kind: relationship
+        predicate: kinship.mother_of
+        object_person_id: p_LXKFHguzJ5DjK8ySHadw6f
+        generation_count: null
+        parent_role: mother
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Zy45pTyWZwwjiQXX4HFknR
+          claim_id: c_LhoCcu5GdRKyE2FhH1obtd
+          source_id: s_8f2Cm1CFYq5g1N96oNqk21
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: &a1
+            id: s_8f2Cm1CFYq5g1N96oNqk21
+            source_type: api_record
+            title: 维基数据：王谢长达（Q109174396）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q109174396
+            external_identifier: Q109174396
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:38.937Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%B0%A2%E9%95%BF%E8%BE%BE
+        - id: cs_ZexL3Zwq6jLb64nU33BfRe
+          claim_id: c_LhoCcu5GdRKyE2FhH1obtd
+          source_id: s_xmDk28iHW5carA3UyGCGoB
+          stance: supports
+          locator: P25（母）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_xmDk28iHW5carA3UyGCGoB
+            source_type: api_record
+            title: 维基数据：王季同（Q61306471）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q61306471
+            external_identifier: Q61306471
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:37.417Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AD%A3%E5%90%8C
+      object_person:
+        id: p_LXKFHguzJ5DjK8ySHadw6f
+        status: active
+        display_name: 王季同
+        merged_into_person_id: null
+    - claim:
+        id: c_tJCDMECuNuuLC15HMuHJMS
+        subject_person_id: p_f7g3eELsAMp2Cx19FFgTS3
+        claim_kind: relationship
+        predicate: kinship.mother_of
+        object_person_id: p_8feVFJChXiuqdjuvDVpPFr
+        generation_count: null
+        parent_role: mother
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FYrTVD27UKMQHHDF6h8GHC
+          claim_id: c_tJCDMECuNuuLC15HMuHJMS
+          source_id: s_PCBmd1NPULe6Bjy1LUFKSa
+          stance: supports
+          locator: P25（母）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_PCBmd1NPULe6Bjy1LUFKSa
+            source_type: api_record
+            title: 维基数据：王季烈（Q16260246）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q16260246
+            external_identifier: Q16260246
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:46.107Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AD%A3%E7%83%88
+        - id: cs_mGB1uZqP9dYQAQWJ4KD6Dn
+          claim_id: c_tJCDMECuNuuLC15HMuHJMS
+          source_id: s_8f2Cm1CFYq5g1N96oNqk21
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+      object_person:
+        id: p_8feVFJChXiuqdjuvDVpPFr
+        status: active
+        display_name: 王季烈
+        merged_into_person_id: null
+    - claim:
+        id: c_qSMXbaR9iH9NCVjs2Ubi39
+        subject_person_id: p_f7g3eELsAMp2Cx19FFgTS3
+        claim_kind: relationship
+        predicate: kinship.mother_of
+        object_person_id: p_6SVL4zVnbghtWnVRaFnJvW
+        generation_count: null
+        parent_role: mother
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2oDr2PU9Pbe8NJ5BG9m58q
+          claim_id: c_qSMXbaR9iH9NCVjs2Ubi39
+          source_id: s_n6jyQysZNP86UPF3DCLMXM
+          stance: supports
+          locator: P25（母）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_n6jyQysZNP86UPF3DCLMXM
+            source_type: api_record
+            title: 维基数据：王季山（Q61306555）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q61306555
+            external_identifier: Q61306555
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:42.168Z
+            metadata_json: null
+        - id: cs_5WiHNprvE2cKUV3DEeARxQ
+          claim_id: c_qSMXbaR9iH9NCVjs2Ubi39
+          source_id: s_8f2Cm1CFYq5g1N96oNqk21
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+      object_person:
+        id: p_6SVL4zVnbghtWnVRaFnJvW
+        status: active
+        display_name: 王季山
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses:
@@ -166,10 +315,16 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_LXKFHguzJ5DjK8ySHadw6f | 王季同 | accepted |
+| children | p_8feVFJChXiuqdjuvDVpPFr | 王季烈 | accepted |
+| children | p_6SVL4zVnbghtWnVRaFnJvW | 王季山 | accepted |
 | spouses | p_2HELk41pdUeS3deRz3VVLi | 王颂蔚 | accepted |
 
 ## 外部来源
 
+- [维基数据：王季烈（Q16260246）](https://www.wikidata.org/wiki/Q16260246)
+- [维基数据：王季山（Q61306555）](https://www.wikidata.org/wiki/Q61306555)
+- [维基数据：王季同（Q61306471）](https://www.wikidata.org/wiki/Q61306471)
 - [维基数据：王颂蔚（Q15916782）](https://www.wikidata.org/wiki/Q15916782)
 - [维基数据：王谢长达（Q109174396）](https://www.wikidata.org/wiki/Q109174396)
 - [中文维基百科：王谢长达](https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%B0%A2%E9%95%BF%E8%BE%BE)

@@ -4,7 +4,7 @@ id: p_QZLmSYXLBR1wbbF4B1gNW2
 status: active
 merged_into: null
 display_name: 王普曜
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -129,7 +129,63 @@ relationships:
         status: active
         display_name: 王弘之
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_FbR2kHrcXPiiFpLoEfVHQp
+        subject_person_id: p_QZLmSYXLBR1wbbF4B1gNW2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_h9YaQ72N9yujtwjvvMC9QL
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_M1Z1zh2GP3mktnMaMM8nYD
+          claim_id: c_FbR2kHrcXPiiFpLoEfVHQp
+          source_id: s_hUNsCkQ1oziNReRQfjbfTi
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_hUNsCkQ1oziNReRQfjbfTi
+            source_type: api_record
+            title: 维基数据：王普曜（Q22814798）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q22814798
+            external_identifier: Q22814798
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:24.493Z
+            metadata_json: null
+        - id: cs_HmXZam6b87DDw43Ek1EwpD
+          claim_id: c_FbR2kHrcXPiiFpLoEfVHQp
+          source_id: s_z0L9OCfAiMqfMPgGi_CVrX
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_z0L9OCfAiMqfMPgGi_CVrX
+            source_type: website
+            title: 中文维基百科：王晏 (南朝)
+            creator: 维基百科贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%99%8F_(%E5%8D%97%E6%9C%9D)
+            external_identifier: Q22814799
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-06T22:33:22.403Z
+            metadata_json: null
+      object_person:
+        id: p_h9YaQ72N9yujtwjvvMC9QL
+        status: active
+        display_name: 王晏
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -154,8 +210,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_DqZgLkLxDg6fw1Jmrcs9bW | 王弘之 | accepted |
+| children | p_h9YaQ72N9yujtwjvvMC9QL | 王晏 | accepted |
 
 ## 外部来源
 
 - [维基数据：王弘之（Q13618784）](https://www.wikidata.org/wiki/Q13618784)
 - [维基数据：王普曜（Q22814798）](https://www.wikidata.org/wiki/Q22814798)
+- [中文维基百科：王晏 (南朝)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%99%8F_(%E5%8D%97%E6%9C%9D))

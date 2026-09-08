@@ -4,7 +4,7 @@ id: p_CLNAFtr1hKmVynULi3KU3F
 status: active
 merged_into: null
 display_name: 王周老
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -85,7 +85,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_z34p3UoHFD8xnBbcxdbKxh
+        subject_person_id: p_83ygFMkQK9fNnM8zpQKj1X
+        claim_kind: relationship
+        predicate: kinship.parent_of
+        object_person_id: p_CLNAFtr1hKmVynULi3KU3F
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JCFyFYFWBY9EHDzXVgLHpK
+          claim_id: c_z34p3UoHFD8xnBbcxdbKxh
+          source_id: s_5Bv66M9uYior98wsKzYUWv
+          stance: supports
+          locator: 亲属关系：次子
+          quotation: null
+          interpretation_note: CBDB 未注明底本；本次仅以 CBDB API 记录作为中等置信度依据。
+          source:
+            id: s_5Bv66M9uYior98wsKzYUWv
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王堯臣（1919）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1919&o=json
+            external_identifier: CBDB:1919
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person:
+        id: p_83ygFMkQK9fNnM8zpQKj1X
+        status: active
+        display_name: 王尧臣
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -110,7 +147,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_83ygFMkQK9fNnM8zpQKj1X | 王尧臣 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王周老（CBDB 97840）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=97840&o=json)
+- [CBDB 中国历代人物传记资料库：王堯臣（1919）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1919&o=json)

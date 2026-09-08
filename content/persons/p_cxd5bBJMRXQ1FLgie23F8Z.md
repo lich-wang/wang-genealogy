@@ -4,7 +4,7 @@ id: p_cxd5bBJMRXQ1FLgie23F8Z
 status: active
 merged_into: null
 display_name: 王克昌
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -72,7 +72,53 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_NgNyD9qFVnZN62tu7d2jKW
+        subject_person_id: p_tebqY22pd9wZzkQFGZaaDe
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_cxd5bBJMRXQ1FLgie23F8Z
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ENPKLjNZiHdRSaDDX3Q3Fk
+          claim_id: c_NgNyD9qFVnZN62tu7d2jKW
+          source_id: s_b4h73LZw2Fw5KrXfofcXu1
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_b4h73LZw2Fw5KrXfofcXu1
+            source_type: api_record
+            title: 维基数据：王熙（Q13668762）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q13668762
+            external_identifier: Q13668762
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:21.514Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%86%99_(%E9%A0%86%E6%B2%BB%E9%80%B2%E5%A3%AB)
+        - id: cs_c9xFbBCtEAz7iv54Fr6KSr
+          claim_id: c_NgNyD9qFVnZN62tu7d2jKW
+          source_id: s_TKjh4w2dR15r3nM8bgsxY9
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+      object_person:
+        id: p_tebqY22pd9wZzkQFGZaaDe
+        status: active
+        display_name: 王熙
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,7 +143,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_tebqY22pd9wZzkQFGZaaDe | 王熙 | accepted |
 
 ## 外部来源
 
 - [维基数据：王克昌（Q13668769）](https://www.wikidata.org/wiki/Q13668769)
+- [维基数据：王熙（Q13668762）](https://www.wikidata.org/wiki/Q13668762)

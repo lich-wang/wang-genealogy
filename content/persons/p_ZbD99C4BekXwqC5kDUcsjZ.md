@@ -4,7 +4,7 @@ id: p_ZbD99C4BekXwqC5kDUcsjZ
 status: active
 merged_into: null
 display_name: 王必达
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -194,7 +194,64 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_BkaSJ9vNh9vMf9wcGqGoQw
+        subject_person_id: p_kRPN2xt1MreSurta52z3PH
+        claim_kind: relationship
+        predicate: kinship.parent_of
+        object_person_id: p_ZbD99C4BekXwqC5kDUcsjZ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jmwnykYhwCRYZu5vKv7oop
+          claim_id: c_BkaSJ9vNh9vMf9wcGqGoQw
+          source_id: s_MxKLcwwGMmgMm1Y5KEe8Ld
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：人名權威資料（中央研究院歷史語言研究所）
+          source:
+            id: s_MxKLcwwGMmgMm1Y5KEe8Ld
+            source_type: api_record
+            title: 中国历代人物传记资料库：王誠立（CBDB 526715）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526715&o=json
+            external_identifier: CBDB:526715
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:18:18.829Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+        - id: cs_7B1PDsXGFMV6CPTpuQ1xwn
+          claim_id: c_BkaSJ9vNh9vMf9wcGqGoQw
+          source_id: s_jS8NjftuFRD38h7YN8QML7
+          stance: supports
+          locator: 亲属关系：父
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：人名權威資料（中央研究院歷史語言研究所）
+          source:
+            id: s_jS8NjftuFRD38h7YN8QML7
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王必達（69135）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69135&o=json
+            external_identifier: CBDB:69135
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:00:12.371Z
+            metadata_json: null
+      object_person:
+        id: p_kRPN2xt1MreSurta52z3PH
+        status: active
+        display_name: 王誠立
+        merged_into_person_id: null
   children:
     - claim:
         id: c_vjJmi5185yevrypuKQsbC2
@@ -252,6 +309,110 @@ relationships:
         status: active
         display_name: 王鹏运
         merged_into_person_id: null
+    - claim:
+        id: c_Hp2LyQZj23y1q2j4t3c89L
+        subject_person_id: p_ZbD99C4BekXwqC5kDUcsjZ
+        claim_kind: relationship
+        predicate: kinship.parent_of
+        object_person_id: p_iFTHomc2Wt9CNV2GS5Hguz
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Ebydqdh9G8sQW3e1nwCJD2
+          claim_id: c_Hp2LyQZj23y1q2j4t3c89L
+          source_id: s_jS8NjftuFRD38h7YN8QML7
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：人名權威資料（中央研究院歷史語言研究所）
+          source: *a1
+      object_person:
+        id: p_iFTHomc2Wt9CNV2GS5Hguz
+        status: active
+        display_name: 王維豫
+        merged_into_person_id: null
+    - claim:
+        id: c_TFvGjhSG6cCP7DX44KafMq
+        subject_person_id: p_ZbD99C4BekXwqC5kDUcsjZ
+        claim_kind: relationship
+        predicate: kinship.parent_of
+        object_person_id: p_YGPufLUWajzkTLcs2sQboV
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MNh6SVXcfWtZyit64os4TA
+          claim_id: c_TFvGjhSG6cCP7DX44KafMq
+          source_id: s_jS8NjftuFRD38h7YN8QML7
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：人名權威資料（中央研究院歷史語言研究所）
+          source: *a1
+      object_person:
+        id: p_YGPufLUWajzkTLcs2sQboV
+        status: active
+        display_name: 王維禧
+        merged_into_person_id: null
+    - claim:
+        id: c_2CMEKy9XxJ3WwY8ftqDpB5
+        subject_person_id: p_ZbD99C4BekXwqC5kDUcsjZ
+        claim_kind: relationship
+        predicate: kinship.parent_of
+        object_person_id: p_FrJEqY9jd798BiS6FFwQdX
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_nW22K5kk5EKEhFNfM5inwB
+          claim_id: c_2CMEKy9XxJ3WwY8ftqDpB5
+          source_id: s_jS8NjftuFRD38h7YN8QML7
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：人名權威資料（中央研究院歷史語言研究所）
+          source: *a1
+      object_person:
+        id: p_FrJEqY9jd798BiS6FFwQdX
+        status: active
+        display_name: 王維瀚
+        merged_into_person_id: null
+    - claim:
+        id: c_8qrXzPbJda4VNWHD2SKaKq
+        subject_person_id: p_ZbD99C4BekXwqC5kDUcsjZ
+        claim_kind: relationship
+        predicate: kinship.parent_of
+        object_person_id: p_5NQtk9mAwoQps4NSXJ6J6x
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_EFcxV9HU4smG7fEPKQ2gLn
+          claim_id: c_8qrXzPbJda4VNWHD2SKaKq
+          source_id: s_jS8NjftuFRD38h7YN8QML7
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：人名權威資料（中央研究院歷史語言研究所）
+          source: *a1
+      object_person:
+        id: p_5NQtk9mAwoQps4NSXJ6J6x
+        status: active
+        display_name: 王鵬海
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -277,10 +438,16 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_kRPN2xt1MreSurta52z3PH | 王誠立 | accepted |
 | children | p_qWH96bdUhnLQK216UEEajc | 王鹏运 | accepted |
+| children | p_iFTHomc2Wt9CNV2GS5Hguz | 王維豫 | accepted |
+| children | p_YGPufLUWajzkTLcs2sQboV | 王維禧 | accepted |
+| children | p_FrJEqY9jd798BiS6FFwQdX | 王維瀚 | accepted |
+| children | p_5NQtk9mAwoQps4NSXJ6J6x | 王鵬海 | accepted |
 
 ## 外部来源
 
 - [维基数据：王必达（Q45652582）](https://www.wikidata.org/wiki/Q45652582)
 - [维基数据：王鹏运（Q15941767）](https://www.wikidata.org/wiki/Q15941767)
+- [中国历代人物传记资料库：王誠立（CBDB 526715）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526715&o=json)
 - [CBDB 中国历代人物传记资料库：王必達（69135）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69135&o=json)

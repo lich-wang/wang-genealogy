@@ -4,7 +4,7 @@ id: p_K4xHWhCx899gRYmwkBdExS
 status: active
 merged_into: null
 display_name: 王延武
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: 导言
           quotation: 王延武（閩南語：Ông Iân-Bú；？—939年），五代十国時
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
-          source:
+          source: &a1
             id: s_FJyPva5bYYRTccLX0ougeJ
             source_type: website
             title: 中文维基百科：王延武
@@ -84,7 +84,53 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_J4U2ccKP32x1a9n8p9Qgar
+        subject_person_id: p_8YMP7N65fqbbLv9pMGphFA
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_K4xHWhCx899gRYmwkBdExS
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_riAfPibq94XF2T6SLMaQ4c
+          claim_id: c_J4U2ccKP32x1a9n8p9Qgar
+          source_id: s_FJyPva5bYYRTccLX0ougeJ
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_GGaeEAm8WHcMXehV921yAr
+          claim_id: c_J4U2ccKP32x1a9n8p9Qgar
+          source_id: s_BYvayLpGj9Y1h85cB71ggG
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_BYvayLpGj9Y1h85cB71ggG
+            source_type: api_record
+            title: 维基数据：王审知（Q708354）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q708354
+            external_identifier: Q708354
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:58:53.403Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AF%A9%E7%9F%A5
+      object_person:
+        id: p_8YMP7N65fqbbLv9pMGphFA
+        status: active
+        display_name: 王审知
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -109,8 +155,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_8YMP7N65fqbbLv9pMGphFA | 王审知 | accepted |
 
 ## 外部来源
 
+- [维基数据：王审知（Q708354）](https://www.wikidata.org/wiki/Q708354)
 - [维基数据：王延武（Q16077359）](https://www.wikidata.org/wiki/Q16077359)
 - [中文维基百科：王延武](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%B6%E6%AD%A6)

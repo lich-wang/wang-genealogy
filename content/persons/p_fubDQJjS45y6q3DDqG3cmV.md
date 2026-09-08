@@ -4,7 +4,7 @@ id: p_fubDQJjS45y6q3DDqG3cmV
 status: active
 merged_into: null
 display_name: 王谟
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -110,7 +110,63 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_tpv3sBQFJ2GxL44ky4M12Q
+        subject_person_id: p_YdbFSMV9s3AQb86u7EkdDN
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_fubDQJjS45y6q3DDqG3cmV
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GzAFh2nwn2JdaE5fSPY4sx
+          claim_id: c_tpv3sBQFJ2GxL44ky4M12Q
+          source_id: s_bMvr9FFr13GEoAwQLCdtrk
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_bMvr9FFr13GEoAwQLCdtrk
+            source_type: api_record
+            title: 维基数据：王谟（Q45613879）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45613879
+            external_identifier: Q45613879
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:34.983Z
+            metadata_json: null
+        - id: cs_JoBtNJaaeCFfUNJcnjLyy9
+          claim_id: c_tpv3sBQFJ2GxL44ky4M12Q
+          source_id: s_M6Jx2ULhfF3afm41LXVGft
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_M6Jx2ULhfF3afm41LXVGft
+            source_type: api_record
+            title: 维基数据：王臣（Q45613816）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45613816
+            external_identifier: Q45613816
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:07:00.338Z
+            metadata_json: null
+      object_person:
+        id: p_YdbFSMV9s3AQb86u7EkdDN
+        status: active
+        display_name: 王臣
+        merged_into_person_id: null
   children:
     - claim:
         id: c_FVGRX6T94g7TZFUvdiQz6j
@@ -191,10 +247,12 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_YdbFSMV9s3AQb86u7EkdDN | 王臣 | accepted |
 | children | p_Uu3urkECTiPumEtH6sBydY | 王邦瑞 | accepted |
 
 ## 外部来源
 
 - [维基数据：王邦瑞（Q15909508）](https://www.wikidata.org/wiki/Q15909508)
+- [维基数据：王臣（Q45613816）](https://www.wikidata.org/wiki/Q45613816)
 - [维基数据：王谟（Q45613879）](https://www.wikidata.org/wiki/Q45613879)
 - [CBDB 中国历代人物传记资料库：王謨（313121）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313121&o=json)

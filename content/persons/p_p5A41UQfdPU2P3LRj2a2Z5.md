@@ -4,7 +4,7 @@ id: p_p5A41UQfdPU2P3LRj2a2Z5
 status: active
 merged_into: null
 display_name: 王师心
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -156,7 +156,52 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_iv7bt42TdDpkBCAE4pjJRZ
+        subject_person_id: p_mLtGjU7JUkYcfBzdb7BH9M
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_p5A41UQfdPU2P3LRj2a2Z5
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Gxe6PoN4vqhHsQpH98ViMm
+          claim_id: c_iv7bt42TdDpkBCAE4pjJRZ
+          source_id: s_Ce963YZsGV1XBjLjM2iTzL
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_17DMCDK4tvJite3ttPG52W
+          claim_id: c_iv7bt42TdDpkBCAE4pjJRZ
+          source_id: s_rUvLhH5bEHHz1S1yAbATCK
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_rUvLhH5bEHHz1S1yAbATCK
+            source_type: api_record
+            title: 维基数据：王登（Q45369083）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45369083
+            external_identifier: Q45369083
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:50:09.552Z
+            metadata_json: null
+      object_person:
+        id: p_mLtGjU7JUkYcfBzdb7BH9M
+        status: active
+        display_name: 王登
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -183,7 +228,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_mLtGjU7JUkYcfBzdb7BH9M | 王登 | accepted |
 
 ## 外部来源
 
+- [维基数据：王登（Q45369083）](https://www.wikidata.org/wiki/Q45369083)
 - [维基数据：王师心（Q45359648）](https://www.wikidata.org/wiki/Q45359648)

@@ -4,7 +4,7 @@ id: p_8yGvQV64DEaN7zXdMCaL2M
 status: active
 merged_into: null
 display_name: 王益恭
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_9d6NmxQWLcW1dsP819MSKa
             source_type: api_record
             title: 维基数据：王益恭（Q45401756）
@@ -327,9 +327,141 @@ relationships:
         status: active
         display_name: 王慎言
         merged_into_person_id: null
+    - claim:
+        id: c_ojr4reJfHpK3aDdVu3RvyJ
+        subject_person_id: p_8yGvQV64DEaN7zXdMCaL2M
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_R1Ny36Z2KzDUq48Pri3BeK
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6bMss1hWGiXWF92h9PZDRt
+          claim_id: c_ojr4reJfHpK3aDdVu3RvyJ
+          source_id: s_9d6NmxQWLcW1dsP819MSKa
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_9ikX3yHdEQpBd2vQTG7VyJ
+          claim_id: c_ojr4reJfHpK3aDdVu3RvyJ
+          source_id: s_tU3SxMAj6AieQNCJ7p2LG2
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_tU3SxMAj6AieQNCJ7p2LG2
+            source_type: api_record
+            title: 维基数据：王慎行（Q45401757）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45401757
+            external_identifier: Q45401757
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:07:16.211Z
+            metadata_json: null
+        - id: cs_DVosK8AF7JhQWix9rFAYgK
+          claim_id: c_ojr4reJfHpK3aDdVu3RvyJ
+          source_id: s_ESiRG3f9yMVCAnGCJMXcMN
+          stance: supports
+          locator: 亲属关系：次子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：未知
+          source: *a1
+      object_person:
+        id: p_R1Ny36Z2KzDUq48Pri3BeK
+        status: active
+        display_name: 王慎行
+        merged_into_person_id: null
+    - claim:
+        id: c_XEGjYMsJN9xJhyunNe3EM1
+        subject_person_id: p_8yGvQV64DEaN7zXdMCaL2M
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_mtMHeaLVMRzHPiV6MMKoBB
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vevHMKR9RUwnRUiM6ui4XG
+          claim_id: c_XEGjYMsJN9xJhyunNe3EM1
+          source_id: s_9d6NmxQWLcW1dsP819MSKa
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_xJFK3xHBQUhVennf7CD6sM
+          claim_id: c_XEGjYMsJN9xJhyunNe3EM1
+          source_id: s_WveuHAksgj3T15Bodst1yc
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_WveuHAksgj3T15Bodst1yc
+            source_type: api_record
+            title: 维基数据：王慎术（Q45401760）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45401760
+            external_identifier: Q45401760
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:07:17.760Z
+            metadata_json: null
+        - id: cs_wKreo4LZSndDQqHg1Poyy7
+          claim_id: c_XEGjYMsJN9xJhyunNe3EM1
+          source_id: s_ESiRG3f9yMVCAnGCJMXcMN
+          stance: supports
+          locator: 亲属关系：三子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：未知
+          source: *a1
+      object_person:
+        id: p_mtMHeaLVMRzHPiV6MMKoBB
+        status: active
+        display_name: 王慎术
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_56nvqVi24ANMxc5EMeEyXu
+        subject_person_id: p_8yGvQV64DEaN7zXdMCaL2M
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_98QQdRkf8cCt61bD928i6c
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6wNepofTRceT8RkQJr3ezk
+          claim_id: c_56nvqVi24ANMxc5EMeEyXu
+          source_id: s_ESiRG3f9yMVCAnGCJMXcMN
+          stance: supports
+          locator: 亲属关系：妻子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：散見宋金元墓誌地券輯錄六編
+          source: *a1
+      object_person:
+        id: p_98QQdRkf8cCt61bD928i6c
+        status: active
+        display_name: 李氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -354,9 +486,14 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_kx3JCi5hvZyKiyizeGH3KR | 王曙 | accepted |
 | children | p_Ao9143ZEmHjeBDtavQ11zt | 王慎言 | accepted |
+| children | p_R1Ny36Z2KzDUq48Pri3BeK | 王慎行 | accepted |
+| children | p_mtMHeaLVMRzHPiV6MMKoBB | 王慎术 | accepted |
+| spouses | p_98QQdRkf8cCt61bD928i6c | 李氏 | accepted |
 
 ## 外部来源
 
+- [维基数据：王慎术（Q45401760）](https://www.wikidata.org/wiki/Q45401760)
+- [维基数据：王慎行（Q45401757）](https://www.wikidata.org/wiki/Q45401757)
 - [维基数据：王慎言（Q45363017）](https://www.wikidata.org/wiki/Q45363017)
 - [维基数据：王曙（Q16077251）](https://www.wikidata.org/wiki/Q16077251)
 - [维基数据：王益恭（Q45401756）](https://www.wikidata.org/wiki/Q45401756)

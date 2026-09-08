@@ -4,7 +4,7 @@ id: p_HxBizE9NWB7384sKGrZFR3
 status: active
 merged_into: null
 display_name: 邓氏
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -95,7 +95,72 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_rLAa1SSdWUUix3jCwS2dJb
+        subject_person_id: p_D6wSSzErFedvXoDGGx8HqR
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_HxBizE9NWB7384sKGrZFR3
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_89vmqi5AgRwQ8atDnJMr4M
+          claim_id: c_rLAa1SSdWUUix3jCwS2dJb
+          source_id: s_3zNKYsryLirekqv5mgGbZP
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_3zNKYsryLirekqv5mgGbZP
+            source_type: api_record
+            title: 维基数据：王士琦（Q18235078）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q18235078
+            external_identifier: Q18235078
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:48.261Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A3%AB%E7%90%A6
+        - id: cs_d62EtBu1jfBeDvLvHSjcjB
+          claim_id: c_rLAa1SSdWUUix3jCwS2dJb
+          source_id: s_BWyWrEG9EW9dfBV6GBqBFo
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_Mo89QaW5FWRr5CVWgpsrjM
+          claim_id: c_rLAa1SSdWUUix3jCwS2dJb
+          source_id: s_xEqa2QXsbS88FTgwuyDS4M
+          stance: supports
+          locator: 亲属关系：妻子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：萬曆十一年進士登科錄:一卷
+          source:
+            id: s_xEqa2QXsbS88FTgwuyDS4M
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王士琦（35067）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35067&o=json
+            external_identifier: CBDB:35067
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:59:48.418Z
+            metadata_json: null
+      object_person:
+        id: p_D6wSSzErFedvXoDGGx8HqR
+        status: active
+        display_name: 王士琦
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -116,8 +181,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_D6wSSzErFedvXoDGGx8HqR | 王士琦 | accepted |
 
 ## 外部来源
 
 - [维基数据：邓氏（Q65825631）](https://www.wikidata.org/wiki/Q65825631)
+- [维基数据：王士琦（Q18235078）](https://www.wikidata.org/wiki/Q18235078)
 - [CBDB 中国历代人物传记资料库：鄧氏（222489）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222489&o=json)
+- [CBDB 中国历代人物传记资料库：王士琦（35067）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35067&o=json)

@@ -4,7 +4,7 @@ id: p_7NDJ89UZ7vGVaeWE7kAwXN
 status: active
 merged_into: null
 display_name: 王克承
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -72,7 +72,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_rYQ6UtxE5s8RPKeDDQBVcD
+        subject_person_id: p_tebqY22pd9wZzkQFGZaaDe
+        claim_kind: relationship
+        predicate: kinship.parent_of
+        object_person_id: p_7NDJ89UZ7vGVaeWE7kAwXN
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zDncVyQaXCFHbKYeUEnogD
+          claim_id: c_rYQ6UtxE5s8RPKeDDQBVcD
+          source_id: s_48LqQaDxdZaKx1Y5S35tbe
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：人名權威資料（中央研究院歷史語言研究所）
+          source:
+            id: s_48LqQaDxdZaKx1Y5S35tbe
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王熙（56873）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=56873&o=json
+            external_identifier: CBDB:56873
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:59:21.685Z
+            metadata_json: null
+      object_person:
+        id: p_tebqY22pd9wZzkQFGZaaDe
+        status: active
+        display_name: 王熙
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_tebqY22pd9wZzkQFGZaaDe | 王熙 | accepted |
 
 ## 外部来源
 
 - [CBDB 中国历代人物传记资料库：王克承（513576）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=513576&o=json)
+- [CBDB 中国历代人物传记资料库：王熙（56873）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=56873&o=json)

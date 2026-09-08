@@ -4,7 +4,7 @@ id: p_mXELR8x6DfcQqAZ9zCdekg
 status: active
 merged_into: null
 display_name: 王岳起
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -189,7 +189,71 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_HZXvEUPv4FBLwqX1Sv8VBo
+        subject_person_id: p_mXELR8x6DfcQqAZ9zCdekg
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_sHb3y5RnrBeFzb237QLBgR
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1dUcLETPr8QvyGsaDtqRYM
+          claim_id: c_HZXvEUPv4FBLwqX1Sv8VBo
+          source_id: s_b54JcTircsJBRW3PEgdtX1
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_b54JcTircsJBRW3PEgdtX1
+            source_type: api_record
+            title: 维基数据：王岳起（Q45674638）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45674638
+            external_identifier: Q45674638
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:00:14.435Z
+            metadata_json: null
+        - id: cs_32Hb5B25Q224xQMvtq1MHf
+          claim_id: c_HZXvEUPv4FBLwqX1Sv8VBo
+          source_id: s_HNye3KPApoWnhFaoxXaW7k
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_HNye3KPApoWnhFaoxXaW7k
+            source_type: api_record
+            title: 维基数据：祁德莞（Q45674598）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45674598
+            external_identifier: Q45674598
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:07:21.813Z
+            metadata_json: null
+        - id: cs_wYKptK9kkwzAwbS5mYhqTj
+          claim_id: c_HZXvEUPv4FBLwqX1Sv8VBo
+          source_id: s_noG2SPvgX2kHnr9DH4ky9x
+          stance: supports
+          locator: 亲属关系：妻子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：明清婦女著作數據庫
+          source: *a1
+      object_person:
+        id: p_sHb3y5RnrBeFzb237QLBgR
+        status: active
+        display_name: 祁德莞
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -211,9 +275,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_WgJjrR3eV8FZmEbV9t77oX | 王思任 | accepted |
+| spouses | p_sHb3y5RnrBeFzb237QLBgR | 祁德莞 | accepted |
 
 ## 外部来源
 
+- [维基数据：祁德莞（Q45674598）](https://www.wikidata.org/wiki/Q45674598)
 - [维基数据：王思任（Q15938368）](https://www.wikidata.org/wiki/Q15938368)
 - [维基数据：王岳起（Q45674638）](https://www.wikidata.org/wiki/Q45674638)
 - [CBDB 中国历代人物传记资料库：王思任（71875）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=71875&o=json)

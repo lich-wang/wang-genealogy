@@ -4,7 +4,7 @@ id: p_Mu15E56wyrNWUKHP8qFxt8
 status: active
 merged_into: null
 display_name: 王际唐
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -401,6 +401,108 @@ relationships:
         status: active
         display_name: 王正廷
         merged_into_person_id: null
+    - claim:
+        id: c_JecYdVtKe7VBT6fwMxYVd2
+        subject_person_id: p_Mu15E56wyrNWUKHP8qFxt8
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_zyHxsVZox5Dbnu11LPXNR6
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WDRpJnT5wtRvtFNQ5gGtpH
+          claim_id: c_JecYdVtKe7VBT6fwMxYVd2
+          source_id: s_m4spp5B0p3qB3lQLKodo83
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_m4spp5B0p3qB3lQLKodo83
+            source_type: website
+            title: 中文维基百科：王正黼
+            creator: 维基百科贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%AD%A3%E9%BB%BC
+            external_identifier: Q15908672
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-06T22:33:22.403Z
+            metadata_json: null
+        - id: cs_FdKe34PjevXe2ekJA8oTLc
+          claim_id: c_JecYdVtKe7VBT6fwMxYVd2
+          source_id: s_Vu8MRc3pp9WwKYcye94xWa
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: &a1
+            id: s_Vu8MRc3pp9WwKYcye94xWa
+            source_type: api_record
+            title: 维基数据：王际唐（Q30949751）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q30949751
+            external_identifier: Q30949751
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:09.701Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%9C%89%E5%85%89_(%E8%8B%B1%E5%9C%8B%E5%82%B3%E6%95%99%E5%A3%AB)
+      object_person:
+        id: p_zyHxsVZox5Dbnu11LPXNR6
+        status: active
+        display_name: 王正黼
+        merged_into_person_id: null
+    - claim:
+        id: c_T2MDd2NsJ2yMv6z8A3vEu5
+        subject_person_id: p_Mu15E56wyrNWUKHP8qFxt8
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_4S6HZDcGfP49rCjYzwpNMP
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_y9Vify8K46XG2JEs8dWVBo
+          claim_id: c_T2MDd2NsJ2yMv6z8A3vEu5
+          source_id: s_TMZGZOACH2uX8h1JMejfoC
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_TMZGZOACH2uX8h1JMejfoC
+            source_type: website
+            title: 中文维基百科：王正序
+            creator: 维基百科贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%AD%A3%E5%BA%8F
+            external_identifier: Q20687916
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-06T22:33:22.403Z
+            metadata_json: null
+        - id: cs_ch1MZYwkY3fMbsMpJU25F6
+          claim_id: c_T2MDd2NsJ2yMv6z8A3vEu5
+          source_id: s_Vu8MRc3pp9WwKYcye94xWa
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+      object_person:
+        id: p_4S6HZDcGfP49rCjYzwpNMP
+        status: active
+        display_name: 王正序
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -430,6 +532,8 @@ relationships:
 | children | p_J1kC3vsL3hsJDeuTGs4QkU | 王正庸 | accepted |
 | children | p_r3UhChqW4izbmEMDaULkFG | 王桂月 | accepted |
 | children | p_RM3cVqPfxibJdrESfP6QB2 | 王正廷 | accepted |
+| children | p_zyHxsVZox5Dbnu11LPXNR6 | 王正黼 | accepted |
+| children | p_4S6HZDcGfP49rCjYzwpNMP | 王正序 | accepted |
 
 ## 外部来源
 
@@ -439,3 +543,5 @@ relationships:
 - [维基数据：王正廷（Q6127766）](https://www.wikidata.org/wiki/Q6127766)
 - [维基数据：王正庸（Q112683524）](https://www.wikidata.org/wiki/Q112683524)
 - [中文维基百科：王有光 (英國傳教士)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%9C%89%E5%85%89_(%E8%8B%B1%E5%9C%8B%E5%82%B3%E6%95%99%E5%A3%AB))
+- [中文维基百科：王正黼](https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%AD%A3%E9%BB%BC)
+- [中文维基百科：王正序](https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%AD%A3%E5%BA%8F)

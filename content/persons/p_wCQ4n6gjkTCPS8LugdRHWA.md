@@ -4,7 +4,7 @@ id: p_wCQ4n6gjkTCPS8LugdRHWA
 status: active
 merged_into: null
 display_name: 王承休
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -186,7 +186,71 @@ relationships:
         status: active
         display_name: 王审琦
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_3Jd79Jda1NLkESyFfDwjjw
+        subject_person_id: p_wCQ4n6gjkTCPS8LugdRHWA
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_rb8tznEkJuEZhnFRpwU8px
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_J1eTpb8QJghw714Nn6rWSy
+          claim_id: c_3Jd79Jda1NLkESyFfDwjjw
+          source_id: s_8tb7H17LZZ18Y1Xh2UHhzJ
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_8tb7H17LZZ18Y1Xh2UHhzJ
+            source_type: api_record
+            title: 维基数据：王承休（Q45387109）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45387109
+            external_identifier: Q45387109
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:00:01.600Z
+            metadata_json: null
+        - id: cs_qfBqC88iAaAGMaL9zCujJr
+          claim_id: c_3Jd79Jda1NLkESyFfDwjjw
+          source_id: s_BRwNt2rL1nH38BZfJQECmg
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_BRwNt2rL1nH38BZfJQECmg
+            source_type: api_record
+            title: 维基数据：王世范（Q45387151）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45387151
+            external_identifier: Q45387151
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:07:16.211Z
+            metadata_json: null
+        - id: cs_kjKMhE6BtZ5JPsrgkwEYMc
+          claim_id: c_3Jd79Jda1NLkESyFfDwjjw
+          source_id: s_3645jTBhScZjw1Rhc1zu75
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：未知
+          source: *a1
+      object_person:
+        id: p_rb8tznEkJuEZhnFRpwU8px
+        status: active
+        display_name: 王世范
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -211,10 +275,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_jhAXJEb1U9Ldt73n9uUeLS | 王审琦 | accepted |
+| children | p_rb8tznEkJuEZhnFRpwU8px | 王世范 | accepted |
 
 ## 外部来源
 
 - [维基数据：王承休（Q45387109）](https://www.wikidata.org/wiki/Q45387109)
 - [维基数据：王审琦（Q15940340）](https://www.wikidata.org/wiki/Q15940340)
+- [维基数据：王世范（Q45387151）](https://www.wikidata.org/wiki/Q45387151)
 - [CBDB 中国历代人物传记资料库：王承休（17750）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17750&o=json)
 - [CBDB 中国历代人物传记资料库：王審琦（3976）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3976&o=json)

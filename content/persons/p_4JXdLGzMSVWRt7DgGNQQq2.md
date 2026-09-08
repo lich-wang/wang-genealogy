@@ -4,7 +4,7 @@ id: p_4JXdLGzMSVWRt7DgGNQQq2
 status: active
 merged_into: null
 display_name: 王仁
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_MHUANk8LX5MLkNEYCEfoM2
             source_type: api_record
             title: 维基数据：王仁（Q45378726）
@@ -110,8 +110,106 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_TFQ3F43J5UPfXBicuWsnVj
+        subject_person_id: p_eGwj2kV1qTWNvDXuDqBhQ5
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_4JXdLGzMSVWRt7DgGNQQq2
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_w3tE2FJFoDJqiJhj3AhYFz
+          claim_id: c_TFQ3F43J5UPfXBicuWsnVj
+          source_id: s_MHUANk8LX5MLkNEYCEfoM2
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_7DJ714AUH1mEzST46mY29f
+          claim_id: c_TFQ3F43J5UPfXBicuWsnVj
+          source_id: s_2j4BogSGxZFwE5R5xB27EN
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_2j4BogSGxZFwE5R5xB27EN
+            source_type: api_record
+            title: 维基数据：王希逸（Q45378723）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45378723
+            external_identifier: Q45378723
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person:
+        id: p_eGwj2kV1qTWNvDXuDqBhQ5
+        status: active
+        display_name: 王希逸
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_dPQTSfz21VGb5ftoJnoFLP
+        subject_person_id: p_4JXdLGzMSVWRt7DgGNQQq2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_pu3xZGKnLeLcZRKKq2vV21
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3WgEsjQ4MLCUfBEd9D6thJ
+          claim_id: c_dPQTSfz21VGb5ftoJnoFLP
+          source_id: s_9JbDebE7ppCUBmG9RhgyR2
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_9JbDebE7ppCUBmG9RhgyR2
+            source_type: api_record
+            title: 维基数据：王棫（Q45378727）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45378727
+            external_identifier: Q45378727
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:58:57.823Z
+            metadata_json: null
+        - id: cs_2NzM8Yg86P3cXJreFC17W6
+          claim_id: c_dPQTSfz21VGb5ftoJnoFLP
+          source_id: s_MHUANk8LX5MLkNEYCEfoM2
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_8DrJCBrPqbUxE5771jbkKJ
+          claim_id: c_dPQTSfz21VGb5ftoJnoFLP
+          source_id: s_LqFkpZSCL5c8ztGGNFvh5T
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：未知
+          source: *a1
+      object_person:
+        id: p_pu3xZGKnLeLcZRKKq2vV21
+        status: active
+        display_name: 王棫
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +233,12 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_eGwj2kV1qTWNvDXuDqBhQ5 | 王希逸 | accepted |
+| children | p_pu3xZGKnLeLcZRKKq2vV21 | 王棫 | accepted |
 
 ## 外部来源
 
 - [维基数据：王仁（Q45378726）](https://www.wikidata.org/wiki/Q45378726)
+- [维基数据：王希逸（Q45378723）](https://www.wikidata.org/wiki/Q45378723)
+- [维基数据：王棫（Q45378727）](https://www.wikidata.org/wiki/Q45378727)
 - [CBDB 中国历代人物传记资料库：王仁（13796）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=13796&o=json)

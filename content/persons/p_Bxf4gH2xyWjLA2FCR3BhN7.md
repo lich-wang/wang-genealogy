@@ -4,7 +4,7 @@ id: p_Bxf4gH2xyWjLA2FCR3BhN7
 status: active
 merged_into: null
 display_name: 王松龄
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_HL9c8H9GGz9vuWNZQPLLbQ
             source_type: api_record
             title: 维基数据：王松龄（Q45427492）
@@ -110,8 +110,169 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_uing214wRXzdfcBGdC6eB7
+        subject_person_id: p_zAMNQJueCwPPKR5vjoLaAD
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Bxf4gH2xyWjLA2FCR3BhN7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fSKcxdw7LKXvehWMuYXiYL
+          claim_id: c_uing214wRXzdfcBGdC6eB7
+          source_id: s_HL9c8H9GGz9vuWNZQPLLbQ
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_S7Vt3QT9B6J7tESbagpScv
+          claim_id: c_uing214wRXzdfcBGdC6eB7
+          source_id: s_XGTV8UkV21vTCML8WGhwr8
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_XGTV8UkV21vTCML8WGhwr8
+            source_type: api_record
+            title: 维基数据：王彦博（Q45409553）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45409553
+            external_identifier: Q45409553
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:00.696Z
+            metadata_json: null
+        - id: cs_S9ccwHatgJsQKW16eCPDFk
+          claim_id: c_uing214wRXzdfcBGdC6eB7
+          source_id: s_46EMQd7ZTyE8aAbsz323u9
+          stance: supports
+          locator: 亲属关系：次子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：未知
+          source:
+            id: s_46EMQd7ZTyE8aAbsz323u9
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王彥博（26229）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26229&o=json
+            external_identifier: CBDB:26229
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:59:00.875Z
+            metadata_json: null
+      object_person:
+        id: p_zAMNQJueCwPPKR5vjoLaAD
+        status: active
+        display_name: 王彦博
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_5NA5N9BMyx3Bip3HJ9mgmZ
+        subject_person_id: p_Bxf4gH2xyWjLA2FCR3BhN7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3Jpz1MJr19NoGHADTpC82d
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_n4QV741ZxNMbrAFuX9kSJh
+          claim_id: c_5NA5N9BMyx3Bip3HJ9mgmZ
+          source_id: s_HL9c8H9GGz9vuWNZQPLLbQ
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_mKWy2XoZ3TkzGAUsFqia9j
+          claim_id: c_5NA5N9BMyx3Bip3HJ9mgmZ
+          source_id: s_A9W6Fn8pDLjwCDupsuh81N
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_A9W6Fn8pDLjwCDupsuh81N
+            source_type: api_record
+            title: 维基数据：王串（Q45430635）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45430635
+            external_identifier: Q45430635
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person:
+        id: p_3Jpz1MJr19NoGHADTpC82d
+        status: active
+        display_name: 王串
+        merged_into_person_id: null
+    - claim:
+        id: c_Lfj5G24bqL91BqT1q4KPu1
+        subject_person_id: p_Bxf4gH2xyWjLA2FCR3BhN7
+        claim_kind: relationship
+        predicate: kinship.parent_of
+        object_person_id: p_TXR4BZHWFYBdp9oHRn9hCf
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_m5FWCQ6pABifp4K3W7Pqzk
+          claim_id: c_Lfj5G24bqL91BqT1q4KPu1
+          source_id: s_AX6PgDBCeaR1gEucMkzDv9
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：宋人傳記資料索引(電子版)
+          source: *a1
+      object_person:
+        id: p_TXR4BZHWFYBdp9oHRn9hCf
+        status: active
+        display_name: 王聿
+        merged_into_person_id: null
+    - claim:
+        id: c_ottJFFdrPBbDJMDqj2FayQ
+        subject_person_id: p_Bxf4gH2xyWjLA2FCR3BhN7
+        claim_kind: relationship
+        predicate: kinship.parent_of
+        object_person_id: p_kdXLrKQ2gAzwQuRiYauex1
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZgeBoYnwedK79fzy8TWJLs
+          claim_id: c_ottJFFdrPBbDJMDqj2FayQ
+          source_id: s_AX6PgDBCeaR1gEucMkzDv9
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：宋人傳記資料索引(電子版)
+          source: *a1
+      object_person:
+        id: p_kdXLrKQ2gAzwQuRiYauex1
+        status: active
+        display_name: 王中
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +296,15 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_zAMNQJueCwPPKR5vjoLaAD | 王彦博 | accepted |
+| children | p_3Jpz1MJr19NoGHADTpC82d | 王串 | accepted |
+| children | p_TXR4BZHWFYBdp9oHRn9hCf | 王聿 | accepted |
+| children | p_kdXLrKQ2gAzwQuRiYauex1 | 王中 | accepted |
 
 ## 外部来源
 
+- [维基数据：王串（Q45430635）](https://www.wikidata.org/wiki/Q45430635)
 - [维基数据：王松龄（Q45427492）](https://www.wikidata.org/wiki/Q45427492)
+- [维基数据：王彦博（Q45409553）](https://www.wikidata.org/wiki/Q45409553)
 - [CBDB 中国历代人物传记资料库：王松齡（36706）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=36706&o=json)
+- [CBDB 中国历代人物传记资料库：王彥博（26229）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26229&o=json)

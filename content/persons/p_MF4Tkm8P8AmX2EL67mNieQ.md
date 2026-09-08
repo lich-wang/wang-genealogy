@@ -4,7 +4,7 @@ id: p_MF4Tkm8P8AmX2EL67mNieQ
 status: active
 merged_into: null
 display_name: 王广臣
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -110,7 +110,52 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_W8QnCdw3FNsfzQDn6ohr8K
+        subject_person_id: p_tmq6Wnq1CjinFj62NTxvnd
+        claim_kind: relationship
+        predicate: kinship.parent_of
+        object_person_id: p_MF4Tkm8P8AmX2EL67mNieQ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6HY4P1i5TZ3eCBaoHGqdy3
+          claim_id: c_W8QnCdw3FNsfzQDn6ohr8K
+          source_id: s_Z4fxo5rB3BvheXUFeqMwGa
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：鄖溪集
+          source:
+            id: s_Z4fxo5rB3BvheXUFeqMwGa
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王師顏（22250）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22250&o=json
+            external_identifier: CBDB:22250
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+        - id: cs_su6ofdbLPnEu1bwg2FrS13
+          claim_id: c_W8QnCdw3FNsfzQDn6ohr8K
+          source_id: s_djFgZSS6i8HzjLqngUeG5z
+          stance: supports
+          locator: 亲属关系：父
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：鄖溪集
+          source: *a1
+      object_person:
+        id: p_tmq6Wnq1CjinFj62NTxvnd
+        status: active
+        display_name: 王师颜
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -135,8 +180,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_tmq6Wnq1CjinFj62NTxvnd | 王师颜 | accepted |
 
 ## 外部来源
 
 - [维基数据：王广臣（Q45426151）](https://www.wikidata.org/wiki/Q45426151)
 - [CBDB 中国历代人物传记资料库：王廣臣（36574）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=36574&o=json)
+- [CBDB 中国历代人物传记资料库：王師顏（22250）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22250&o=json)

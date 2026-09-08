@@ -4,7 +4,7 @@ id: p_M6u6h5w5R3AY6pHo7M3ELf
 status: active
 merged_into: null
 display_name: 王与敕
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -364,6 +364,63 @@ relationships:
         status: active
         display_name: 王士禄
         merged_into_person_id: null
+    - claim:
+        id: c_G1LvyK6vC5vB9PE45bEJXJ
+        subject_person_id: p_M6u6h5w5R3AY6pHo7M3ELf
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_PqJivP1sBKeAv7sst51d32
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Cv769yfd8NGGqa3LUG9hv3
+          claim_id: c_G1LvyK6vC5vB9PE45bEJXJ
+          source_id: s_EE6bTzfXwN8BLtVCYVGxWV
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_EE6bTzfXwN8BLtVCYVGxWV
+            source_type: api_record
+            title: 维基数据：王士祜（Q16077592）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q16077592
+            external_identifier: Q16077592
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:06.804Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A3%AB%E7%A5%9C
+        - id: cs_3p96Cmqxw7gFwE4UWdT7kC
+          claim_id: c_G1LvyK6vC5vB9PE45bEJXJ
+          source_id: s_1P6uHaLBUJeeFpRT7FqUrq
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_1P6uHaLBUJeeFpRT7FqUrq
+            source_type: api_record
+            title: 维基数据：王与敕（Q45473606）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45473606
+            external_identifier: Q45473606
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:07.604Z
+            metadata_json: null
+      object_person:
+        id: p_PqJivP1sBKeAv7sst51d32
+        status: active
+        display_name: 王士祜
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -392,9 +449,11 @@ relationships:
 | parents | p_RkWGycbpsGgct5tYAJ1TWN | 王象晋 | accepted |
 | children | p_Pbmps3AjkLgf51zccDC7JU | 王士禛 | accepted |
 | children | p_9d5KLm4AkzUSZ83mAsdHYT | 王士禄 | accepted |
+| children | p_PqJivP1sBKeAv7sst51d32 | 王士祜 | accepted |
 
 ## 外部来源
 
+- [维基数据：王士祜（Q16077592）](https://www.wikidata.org/wiki/Q16077592)
 - [维基数据：王士禄（Q15938298）](https://www.wikidata.org/wiki/Q15938298)
 - [维基数据：王士禛（Q11572955）](https://www.wikidata.org/wiki/Q11572955)
 - [维基数据：王象晋（Q15942062）](https://www.wikidata.org/wiki/Q15942062)

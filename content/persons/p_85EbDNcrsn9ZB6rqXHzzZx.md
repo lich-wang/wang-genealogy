@@ -4,7 +4,7 @@ id: p_85EbDNcrsn9ZB6rqXHzzZx
 status: active
 merged_into: null
 display_name: 王承祐
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_b6Pc1i8AQzFkjZM7aVVC7A
             source_type: api_record
             title: 维基数据：王承祐（Q45387105）
@@ -186,7 +186,60 @@ relationships:
         status: active
         display_name: 王审琦
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_9WLCzHt5tECLPWrNfL9GPi
+        subject_person_id: p_85EbDNcrsn9ZB6rqXHzzZx
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_FeTYKhXT263ArThLLQ1A9F
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rH5fQsozTBfFUxpopw988r
+          claim_id: c_9WLCzHt5tECLPWrNfL9GPi
+          source_id: s_b6Pc1i8AQzFkjZM7aVVC7A
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_pbR6T4jqYDJHQWfRVCoU2B
+          claim_id: c_9WLCzHt5tECLPWrNfL9GPi
+          source_id: s_AR4PsZDWVcPSsPLajb8s1c
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_AR4PsZDWVcPSsPLajb8s1c
+            source_type: api_record
+            title: 维基数据：王世彦（Q45387199）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45387199
+            external_identifier: Q45387199
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:07:16.211Z
+            metadata_json: null
+        - id: cs_86ETFxWWczhmnQMrQnRcZD
+          claim_id: c_9WLCzHt5tECLPWrNfL9GPi
+          source_id: s_A9no22qD7MHbRmwYnZYjQe
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：未知
+          source: *a1
+      object_person:
+        id: p_FeTYKhXT263ArThLLQ1A9F
+        status: active
+        display_name: 王世彦
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -211,10 +264,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_jhAXJEb1U9Ldt73n9uUeLS | 王审琦 | accepted |
+| children | p_FeTYKhXT263ArThLLQ1A9F | 王世彦 | accepted |
 
 ## 外部来源
 
 - [维基数据：王承祐（Q45387105）](https://www.wikidata.org/wiki/Q45387105)
 - [维基数据：王审琦（Q15940340）](https://www.wikidata.org/wiki/Q15940340)
+- [维基数据：王世彦（Q45387199）](https://www.wikidata.org/wiki/Q45387199)
 - [CBDB 中国历代人物传记资料库：王承祐（17749）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17749&o=json)
 - [CBDB 中国历代人物传记资料库：王審琦（3976）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3976&o=json)

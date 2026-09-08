@@ -4,7 +4,7 @@ id: p_ifKdzffE4TJqKt3GDfHGnh
 status: active
 merged_into: null
 display_name: 成氏
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -95,7 +95,72 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_G8L6vZVZGMCuBYdViWT6y2
+        subject_person_id: p_ifKdzffE4TJqKt3GDfHGnh
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_iwBVuUwJmW9x68bfe9dwKN
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_sWy7oYWnX8MzXQ3swCAtBM
+          claim_id: c_G8L6vZVZGMCuBYdViWT6y2
+          source_id: s_519ciMBC9V6CMSxr6uQyWp
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_519ciMBC9V6CMSxr6uQyWp
+            source_type: api_record
+            title: 维基数据：王伯庠（Q18110186）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q18110186
+            external_identifier: Q18110186
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:58:55.754Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%BC%AF%E5%BA%A0
+        - id: cs_8eAVBRWPGVu8PKbJKCxWkJ
+          claim_id: c_G8L6vZVZGMCuBYdViWT6y2
+          source_id: s_ddRWGWffACZVoKLVTN54Nn
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_oBZ1Y6ps5v5Bh2C3jrPmRM
+          claim_id: c_G8L6vZVZGMCuBYdViWT6y2
+          source_id: s_o6fwhY8EBNrs3ZN82gocSx
+          stance: supports
+          locator: 亲属关系：妻子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：宋人傳記資料索引(電子版)
+          source:
+            id: s_o6fwhY8EBNrs3ZN82gocSx
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王伯庠（17444）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17444&o=json
+            external_identifier: CBDB:17444
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:58:55.897Z
+            metadata_json: null
+      object_person:
+        id: p_iwBVuUwJmW9x68bfe9dwKN
+        status: active
+        display_name: 王伯庠
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -116,8 +181,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_iwBVuUwJmW9x68bfe9dwKN | 王伯庠 | accepted |
 
 ## 外部来源
 
 - [维基数据：成氏（Q45434803）](https://www.wikidata.org/wiki/Q45434803)
+- [维基数据：王伯庠（Q18110186）](https://www.wikidata.org/wiki/Q18110186)
 - [CBDB 中国历代人物传记资料库：成氏（39435）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=39435&o=json)
+- [CBDB 中国历代人物传记资料库：王伯庠（17444）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17444&o=json)

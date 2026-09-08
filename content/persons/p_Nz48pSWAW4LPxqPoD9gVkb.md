@@ -4,7 +4,7 @@ id: p_Nz48pSWAW4LPxqPoD9gVkb
 status: active
 merged_into: null
 display_name: 王希淮
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_gn85ptgouvAdUmyZY5r85u
             source_type: api_record
             title: 维基数据：王希淮（Q45425959）
@@ -194,7 +194,71 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_WH9uXRvGN5NozL1gWJ7b28
+        subject_person_id: p_yv85iMSEixKWR4Bwa93MTf
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Nz48pSWAW4LPxqPoD9gVkb
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_f8yQYyY1oSFGHkvXdYCaVV
+          claim_id: c_WH9uXRvGN5NozL1gWJ7b28
+          source_id: s_gn85ptgouvAdUmyZY5r85u
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_oBjuKBZXQG7iGAL6SrTX79
+          claim_id: c_WH9uXRvGN5NozL1gWJ7b28
+          source_id: s_yJrmajipRuAV1QZPatauhk
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_yJrmajipRuAV1QZPatauhk
+            source_type: api_record
+            title: 维基数据：王朝用（Q45426051）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45426051
+            external_identifier: Q45426051
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:14.259Z
+            metadata_json: null
+        - id: cs_QER5T6Pbj1NoUNVphDDy64
+          claim_id: c_WH9uXRvGN5NozL1gWJ7b28
+          source_id: s_CwhUEJoHdrvQ9LEyt21yLX
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：未知
+          source:
+            id: s_CwhUEJoHdrvQ9LEyt21yLX
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王朝用（35272）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35272&o=json
+            external_identifier: CBDB:35272
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:06:14.418Z
+            metadata_json: null
+      object_person:
+        id: p_yv85iMSEixKWR4Bwa93MTf
+        status: active
+        display_name: 王朝用
+        merged_into_person_id: null
   children:
     - claim:
         id: c_RaKmSBXXTHUp8Ru3fcwuz3
@@ -273,7 +337,60 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_R1rfuLqiBrmfSxXbRhRFLQ
+        subject_person_id: p_Nz48pSWAW4LPxqPoD9gVkb
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_q81q3PkerhDLZkUmCUStf4
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FNkpwVqZTXw4EP9ooKQopg
+          claim_id: c_R1rfuLqiBrmfSxXbRhRFLQ
+          source_id: s_gn85ptgouvAdUmyZY5r85u
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_BN5Cka1baSVWHeA8sh5ZtZ
+          claim_id: c_R1rfuLqiBrmfSxXbRhRFLQ
+          source_id: s_ep36P9gCF7924Pn4ot1Fzb
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_ep36P9gCF7924Pn4ot1Fzb
+            source_type: api_record
+            title: 维基数据：刘氏（Q45426174）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45426174
+            external_identifier: Q45426174
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:15.653Z
+            metadata_json: null
+        - id: cs_TgApbZd9M5zU1j9wVDTdgh
+          claim_id: c_R1rfuLqiBrmfSxXbRhRFLQ
+          source_id: s_6HuB69fFUFh7QQ1s2c3Ajy
+          stance: supports
+          locator: 亲属关系：妻子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：未知
+          source: *a1
+      object_person:
+        id: p_q81q3PkerhDLZkUmCUStf4
+        status: active
+        display_name: 刘氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -296,10 +413,15 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_yv85iMSEixKWR4Bwa93MTf | 王朝用 | accepted |
 | children | p_mWjKoqisRyZQ6GFgu4smAa | 王炎午 | accepted |
+| spouses | p_q81q3PkerhDLZkUmCUStf4 | 刘氏 | accepted |
 
 ## 外部来源
 
+- [维基数据：刘氏（Q45426174）](https://www.wikidata.org/wiki/Q45426174)
+- [维基数据：王朝用（Q45426051）](https://www.wikidata.org/wiki/Q45426051)
 - [维基数据：王希淮（Q45425959）](https://www.wikidata.org/wiki/Q45425959)
 - [维基数据：王炎午（Q10415648）](https://www.wikidata.org/wiki/Q10415648)
+- [CBDB 中国历代人物传记资料库：王朝用（35272）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35272&o=json)
 - [CBDB 中国历代人物传记资料库：王希淮（35270）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35270&o=json)

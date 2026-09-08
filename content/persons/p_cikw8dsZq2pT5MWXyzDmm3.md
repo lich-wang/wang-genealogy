@@ -4,7 +4,7 @@ id: p_cikw8dsZq2pT5MWXyzDmm3
 status: active
 merged_into: null
 display_name: 唐玄宗
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: 导言
           quotation: 唐玄宗李隆基（685年9月8日—762年5月3日），唐朝第9任皇
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
-          source:
+          source: &a1
             id: s_BA9uTHw5MhPoR2DPWIYTMw
             source_type: website
             title: 中文维基百科：唐玄宗
@@ -107,7 +107,53 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_8N3Js2jBv1G2LrZiUuvJ8F
+        subject_person_id: p_cikw8dsZq2pT5MWXyzDmm3
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_cPNuS7MwnPS5baKXaNvTnM
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_j54PXsjM3JGTNU3r4k2D5A
+          claim_id: c_8N3Js2jBv1G2LrZiUuvJ8F
+          source_id: s_fpWYSpW6FZgLswBG4pVRYN
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_fpWYSpW6FZgLswBG4pVRYN
+            source_type: api_record
+            title: 维基数据：王菱（Q5374612）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q5374612
+            external_identifier: Q5374612
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:44.084Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%9A%87%E5%90%8E_(%E5%94%90%E7%8E%84%E5%AE%97)
+        - id: cs_h6DV4tZcnPJkFuDbgQFMVu
+          claim_id: c_8N3Js2jBv1G2LrZiUuvJ8F
+          source_id: s_BA9uTHw5MhPoR2DPWIYTMw
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+      object_person:
+        id: p_cPNuS7MwnPS5baKXaNvTnM
+        status: active
+        display_name: 王菱
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -128,9 +174,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_cPNuS7MwnPS5baKXaNvTnM | 王菱 | accepted |
 
 ## 外部来源
 
 - [维基数据：唐玄宗（Q9746）](https://www.wikidata.org/wiki/Q9746)
+- [维基数据：王菱（Q5374612）](https://www.wikidata.org/wiki/Q5374612)
 - [中文维基百科：唐玄宗](https://zh.wikipedia.org/wiki/%E5%94%90%E7%8E%84%E5%AE%97)
 - [CBDB 中国历代人物传记资料库：李隆基（19244）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19244&o=json)

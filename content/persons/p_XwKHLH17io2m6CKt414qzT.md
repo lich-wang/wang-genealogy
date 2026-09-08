@@ -4,7 +4,7 @@ id: p_XwKHLH17io2m6CKt414qzT
 status: active
 merged_into: null
 display_name: 王伍
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_FJJor8JkBzSB2pWbDy1n7F
             source_type: api_record
             title: 维基数据：王伍（Q45601163）
@@ -110,8 +110,99 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_ZZpPi8bmZHB2wwRG5dKmC8
+        subject_person_id: p_VTPD5ERN4nKpvDScS6wxja
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_XwKHLH17io2m6CKt414qzT
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GK1QETbiiBYdDt73Y8xUS9
+          claim_id: c_ZZpPi8bmZHB2wwRG5dKmC8
+          source_id: s_LrzG6DKCN156m5wAdTojaB
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_LrzG6DKCN156m5wAdTojaB
+            source_type: api_record
+            title: 维基数据：王贵（Q16075276）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q16075276
+            external_identifier: Q16075276
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%B2%B4_(%E6%98%8E%E6%9C%9D)
+        - id: cs_6s6FcAiyMd2TBuPvfPqrUD
+          claim_id: c_ZZpPi8bmZHB2wwRG5dKmC8
+          source_id: s_FJJor8JkBzSB2pWbDy1n7F
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+      object_person:
+        id: p_VTPD5ERN4nKpvDScS6wxja
+        status: active
+        display_name: 王贵
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_D39qRDRw1F2kLMDLbM7at4
+        subject_person_id: p_XwKHLH17io2m6CKt414qzT
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_dFBcsKbnFVcHN4YTvXeRwY
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Nywd4GBn5gqwJ8VHyUtjw8
+          claim_id: c_D39qRDRw1F2kLMDLbM7at4
+          source_id: s_WQuJfewNt1rKQX9Pq57QHd
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_WQuJfewNt1rKQX9Pq57QHd
+            source_type: api_record
+            title: 维基数据：王麟（Q45450873）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45450873
+            external_identifier: Q45450873
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:00:09.271Z
+            metadata_json: null
+        - id: cs_6JaqJygAi633QQJiNUC7uF
+          claim_id: c_D39qRDRw1F2kLMDLbM7at4
+          source_id: s_FJJor8JkBzSB2pWbDy1n7F
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+      object_person:
+        id: p_dFBcsKbnFVcHN4YTvXeRwY
+        status: active
+        display_name: 王麟
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +226,12 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_VTPD5ERN4nKpvDScS6wxja | 王贵 | accepted |
+| children | p_dFBcsKbnFVcHN4YTvXeRwY | 王麟 | accepted |
 
 ## 外部来源
 
+- [维基数据：王贵（Q16075276）](https://www.wikidata.org/wiki/Q16075276)
+- [维基数据：王麟（Q45450873）](https://www.wikidata.org/wiki/Q45450873)
 - [维基数据：王伍（Q45601163）](https://www.wikidata.org/wiki/Q45601163)
 - [CBDB 中国历代人物传记资料库：王伍（217730）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217730&o=json)

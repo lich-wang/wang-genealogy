@@ -4,7 +4,7 @@ id: p_vxysH4B8xpbAGBTVKY3Dh2
 status: active
 merged_into: null
 display_name: 王原道
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_FjWPqUA5b5EfEwFHzckW5s
             source_type: api_record
             title: 维基数据：王原道（Q45560451）
@@ -110,8 +110,98 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_y8vFRMh9nQ15RaRbnb2usH
+        subject_person_id: p_s2Sv6MvyL71fwz1JqSBrir
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_vxysH4B8xpbAGBTVKY3Dh2
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8cuHWvYHhDu7jz6fBJNSxH
+          claim_id: c_y8vFRMh9nQ15RaRbnb2usH
+          source_id: s_FjWPqUA5b5EfEwFHzckW5s
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_ANBRxQS2aq3UMsGdu3fDLz
+          claim_id: c_y8vFRMh9nQ15RaRbnb2usH
+          source_id: s_deDQTbNfsYKav1xFqRqE6d
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_deDQTbNfsYKav1xFqRqE6d
+            source_type: api_record
+            title: 维基数据：王仁（Q45559885）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45559885
+            external_identifier: Q45559885
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person:
+        id: p_s2Sv6MvyL71fwz1JqSBrir
+        status: active
+        display_name: 王仁
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_ditAnJAA3G8xFDxrcAiDNR
+        subject_person_id: p_vxysH4B8xpbAGBTVKY3Dh2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_7Tia4RakEpFHiC5SDiDZSG
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JArabU3KGRTYmNWE2ai1kM
+          claim_id: c_ditAnJAA3G8xFDxrcAiDNR
+          source_id: s_E8MK8EbyhqXYE21WkXB53z
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_E8MK8EbyhqXYE21WkXB53z
+            source_type: api_record
+            title: 维基数据：王让（Q45561003）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45561003
+            external_identifier: Q45561003
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:40.608Z
+            metadata_json: null
+        - id: cs_TY7SDDcLga4yTBMS4rQKJZ
+          claim_id: c_ditAnJAA3G8xFDxrcAiDNR
+          source_id: s_FjWPqUA5b5EfEwFHzckW5s
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+      object_person:
+        id: p_7Tia4RakEpFHiC5SDiDZSG
+        status: active
+        display_name: 王让
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +225,12 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_s2Sv6MvyL71fwz1JqSBrir | 王仁 | accepted |
+| children | p_7Tia4RakEpFHiC5SDiDZSG | 王让 | accepted |
 
 ## 外部来源
 
+- [维基数据：王让（Q45561003）](https://www.wikidata.org/wiki/Q45561003)
+- [维基数据：王仁（Q45559885）](https://www.wikidata.org/wiki/Q45559885)
 - [维基数据：王原道（Q45560451）](https://www.wikidata.org/wiki/Q45560451)
 - [CBDB 中国历代人物传记资料库：王原道（333144）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333144&o=json)

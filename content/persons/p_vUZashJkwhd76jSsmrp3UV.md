@@ -4,7 +4,7 @@ id: p_vUZashJkwhd76jSsmrp3UV
 status: active
 merged_into: null
 display_name: 王休
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -72,7 +72,63 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_73ZEMZxWY8JaCofjvZ6eoy
+        subject_person_id: p_AStBB7oM4HvuyGV92LVELV
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_vUZashJkwhd76jSsmrp3UV
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wpMpR7MgVcWbv72pyKAmYP
+          claim_id: c_73ZEMZxWY8JaCofjvZ6eoy
+          source_id: s_Z4TcogNMRZDDzzWsoWmiTt
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_Z4TcogNMRZDDzzWsoWmiTt
+            source_type: api_record
+            title: 维基数据：王休（Q26209876）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q26209876
+            external_identifier: Q26209876
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:28.634Z
+            metadata_json: null
+        - id: cs_gxvL8HDFXLVTMtptQXWJb8
+          claim_id: c_73ZEMZxWY8JaCofjvZ6eoy
+          source_id: s_bwqYlB70ZEBJmjoABJqMEt
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_bwqYlB70ZEBJmjoABJqMEt
+            source_type: website
+            title: 中文维基百科：王猛
+            creator: 维基百科贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%8C%9B
+            external_identifier: Q712768
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-06T22:33:22.403Z
+            metadata_json: null
+      object_person:
+        id: p_AStBB7oM4HvuyGV92LVELV
+        status: active
+        display_name: 王猛
+        merged_into_person_id: null
   children:
     - claim:
         id: c_Ddo7TWd1A2KupNVVf2m9st
@@ -153,9 +209,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_AStBB7oM4HvuyGV92LVELV | 王猛 | accepted |
 | children | p_9FrwcC297g2KzCVL3du6CZ | 王鎮惡 | accepted |
 
 ## 外部来源
 
 - [维基数据：王休（Q26209876）](https://www.wikidata.org/wiki/Q26209876)
 - [维基数据：王鎮惡（Q15899785）](https://www.wikidata.org/wiki/Q15899785)
+- [中文维基百科：王猛](https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%8C%9B)

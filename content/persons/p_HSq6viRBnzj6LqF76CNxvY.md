@@ -4,7 +4,7 @@ id: p_HSq6viRBnzj6LqF76CNxvY
 status: active
 merged_into: null
 display_name: 王𫖮
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_5364Pc1QEFgx1FqUbtfHiC
             source_type: api_record
             title: 维基数据：王𫖮（Q28413506）
@@ -112,11 +112,217 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_EFH8ko8MDXPm9esnwUHNwd
+        subject_person_id: p_PG9Fvg9NtVnjeDz9wSwJyM
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_HSq6viRBnzj6LqF76CNxvY
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BYHjLAFHpw7F52643EKsBU
+          claim_id: c_EFH8ko8MDXPm9esnwUHNwd
+          source_id: s_5364Pc1QEFgx1FqUbtfHiC
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_i1LLF3YTGcdrEaLUeRHy2E
+          claim_id: c_EFH8ko8MDXPm9esnwUHNwd
+          source_id: s_GQefkJkYEytxDiEAKBx9wh
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_GQefkJkYEytxDiEAKBx9wh
+            source_type: api_record
+            title: 维基数据：王僧辩（Q699672）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q699672
+            external_identifier: Q699672
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%83%A7%E8%BE%AF
+      object_person:
+        id: p_PG9Fvg9NtVnjeDz9wSwJyM
+        status: active
+        display_name: 王僧辩
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_nVccjdq9QbygM31g8eGMnP
+        subject_person_id: p_HSq6viRBnzj6LqF76CNxvY
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_dpxJ79yjeoZcbwCdkzQmv6
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wQKXPx827577X86mvfZ45h
+          claim_id: c_nVccjdq9QbygM31g8eGMnP
+          source_id: s_pb1L8DCLiqYrJ4pXTXG8ce
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_pb1L8DCLiqYrJ4pXTXG8ce
+            source_type: api_record
+            title: 维基数据：王珪（Q1562454）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q1562454
+            external_identifier: Q1562454
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:58:53.404Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%8F%AA_(%E5%94%90%E6%9C%9D)
+        - id: cs_ZVTo9sLQPakTmKRcFX8nbM
+          claim_id: c_nVccjdq9QbygM31g8eGMnP
+          source_id: s_5364Pc1QEFgx1FqUbtfHiC
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_zsx9fCWajsd61dfV6H7eVD
+          claim_id: c_nVccjdq9QbygM31g8eGMnP
+          source_id: s_GBLgewUNbb4a3CY2AFxH46
+          stance: supports
+          locator: 亲属关系：子 / 亲属关系：次子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：唐五代人物傳記與社會網絡資料庫(1.0版)；CBDB 注明此条来源：未知
+          source: *a1
+      object_person:
+        id: p_dpxJ79yjeoZcbwCdkzQmv6
+        status: active
+        display_name: 王珪
+        merged_into_person_id: null
+    - claim:
+        id: c_NVKeAibwdHSEyEXZSj5tM6
+        subject_person_id: p_HSq6viRBnzj6LqF76CNxvY
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Jf3AG2N7vYGGBjxzwfx4CR
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fbQX11jHdsLtPSXEErLS8A
+          claim_id: c_NVKeAibwdHSEyEXZSj5tM6
+          source_id: s_5364Pc1QEFgx1FqUbtfHiC
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_QvLLoJXeyq3S23TJLMQfzp
+          claim_id: c_NVKeAibwdHSEyEXZSj5tM6
+          source_id: s_wRFnMZrFNaAbXrXLDLeCsv
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_wRFnMZrFNaAbXrXLDLeCsv
+            source_type: api_record
+            title: 维基数据：王珌（Q45602523）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45602523
+            external_identifier: Q45602523
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+        - id: cs_1L7aAnPP67fgWxSnZByF1v
+          claim_id: c_NVKeAibwdHSEyEXZSj5tM6
+          source_id: s_GBLgewUNbb4a3CY2AFxH46
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：唐五代人物傳記與社會網絡資料庫(1.0版)
+          source: *a1
+      object_person:
+        id: p_Jf3AG2N7vYGGBjxzwfx4CR
+        status: active
+        display_name: 王珌
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_42HjzJdcdWhiVfKre74hcj
+        subject_person_id: p_bMELRsJ3QjTLhaTLLi9E2N
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_HSq6viRBnzj6LqF76CNxvY
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9eeueDRAk519LrWwPiG1CJ
+          claim_id: c_42HjzJdcdWhiVfKre74hcj
+          source_id: s_95bXKPpoB2a5jQjTK4kvvP
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_95bXKPpoB2a5jQjTK4kvvP
+            source_type: api_record
+            title: 维基数据：李氏（Q65801416）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q65801416
+            external_identifier: Q65801416
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+        - id: cs_oxCMKoEa5ttJg9TwyFraVp
+          claim_id: c_42HjzJdcdWhiVfKre74hcj
+          source_id: s_5364Pc1QEFgx1FqUbtfHiC
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_8qNi8gEX7RVwEwft2zctZp
+          claim_id: c_42HjzJdcdWhiVfKre74hcj
+          source_id: s_GBLgewUNbb4a3CY2AFxH46
+          stance: supports
+          locator: 亲属关系：妻子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：明清婦女著作數據庫
+          source: *a1
+      object_person:
+        id: p_bMELRsJ3QjTLhaTLLi9E2N
+        status: active
+        display_name: 李氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -137,8 +343,16 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_PG9Fvg9NtVnjeDz9wSwJyM | 王僧辩 | accepted |
+| children | p_dpxJ79yjeoZcbwCdkzQmv6 | 王珪 | accepted |
+| children | p_Jf3AG2N7vYGGBjxzwfx4CR | 王珌 | accepted |
+| spouses | p_bMELRsJ3QjTLhaTLLi9E2N | 李氏 | accepted |
 
 ## 外部来源
 
+- [维基数据：李氏（Q65801416）](https://www.wikidata.org/wiki/Q65801416)
+- [维基数据：王珌（Q45602523）](https://www.wikidata.org/wiki/Q45602523)
+- [维基数据：王珪（Q1562454）](https://www.wikidata.org/wiki/Q1562454)
+- [维基数据：王僧辩（Q699672）](https://www.wikidata.org/wiki/Q699672)
 - [维基数据：王𫖮（Q28413506）](https://www.wikidata.org/wiki/Q28413506)
 - [CBDB 中国历代人物传记资料库：王顗（33012）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=33012&o=json)

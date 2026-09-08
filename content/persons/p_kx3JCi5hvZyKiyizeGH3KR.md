@@ -4,7 +4,7 @@ id: p_kx3JCi5hvZyKiyizeGH3KR
 status: active
 merged_into: null
 display_name: 王曙
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -319,6 +319,62 @@ relationships:
         status: active
         display_name: 王益恭
         merged_into_person_id: null
+    - claim:
+        id: c_HoLZkod44j8VqDWZVDPeJn
+        subject_person_id: p_kx3JCi5hvZyKiyizeGH3KR
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_2nmSEoQyytuEA5cDVt3Nyn
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jt9draKsRzkBMJKJAcVMGT
+          claim_id: c_HoLZkod44j8VqDWZVDPeJn
+          source_id: s_E6YyEwWUZy7TTGcceDG4SQ
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_E6YyEwWUZy7TTGcceDG4SQ
+            source_type: api_record
+            title: 维基数据：王曙（Q16077251）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q16077251
+            external_identifier: Q16077251
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:48:52.064Z
+            metadata_json: null
+        - id: cs_WQiE9CAHBTytx7VLL9oTTQ
+          claim_id: c_HoLZkod44j8VqDWZVDPeJn
+          source_id: s_no7YeT96fgWzRWSyjazAgb
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_no7YeT96fgWzRWSyjazAgb
+            source_type: website
+            title: 中文维基百科：王益柔
+            creator: 维基百科贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%9B%8A%E6%9F%94
+            external_identifier: Q45359527
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-06T22:33:22.403Z
+            metadata_json: null
+      object_person:
+        id: p_2nmSEoQyytuEA5cDVt3Nyn
+        status: active
+        display_name: 王益柔
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -346,6 +402,7 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_2SPbMq35G8ocJgxHXsAm94 | 王氏 | accepted |
 | children | p_8yGvQV64DEaN7zXdMCaL2M | 王益恭 | accepted |
+| children | p_2nmSEoQyytuEA5cDVt3Nyn | 王益柔 | accepted |
 
 ## 外部来源
 
@@ -353,4 +410,5 @@ relationships:
 - [维基数据：王曙（Q16077251）](https://www.wikidata.org/wiki/Q16077251)
 - [维基数据：王益恭（Q45401756）](https://www.wikidata.org/wiki/Q45401756)
 - [中文维基百科：王曙 (宋朝)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%9B%99_(%E5%AE%8B%E6%9C%9D))
+- [中文维基百科：王益柔](https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%9B%8A%E6%9F%94)
 - [CBDB 中国历代人物传记资料库：王曙（1877）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1877&o=json)

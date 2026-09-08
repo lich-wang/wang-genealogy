@@ -4,7 +4,7 @@ id: p_YcgZGHB8b41JUksSD6hCbG
 status: active
 merged_into: null
 display_name: 王宗蓁
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a1
             id: s_UEJCm4BifC222RfsPoT6b7
             source_type: api_record
             title: 维基数据：王宗蓁（Q45528855）
@@ -131,7 +131,7 @@ properties:
           locator: Q45528855
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_csiJ837yS4LpHosWR4nuoi
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：王宗蓁（207031）
@@ -166,11 +166,288 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_75TxaiMdH2FxridDtUR3cX
+        subject_person_id: p_qbWcARBwiNzFhFH7v3oZN5
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_YcgZGHB8b41JUksSD6hCbG
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3XwF8mS6byCxwZn9WAXD48
+          claim_id: c_75TxaiMdH2FxridDtUR3cX
+          source_id: s_eWMTxrWPzyeXTef4AWJDhH
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_eWMTxrWPzyeXTef4AWJDhH
+            source_type: api_record
+            title: 维基数据：王桥（Q16925823）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q16925823
+            external_identifier: Q16925823
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:46.107Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%A9%8B_(%E5%98%89%E9%9D%96%E9%80%B2%E5%A3%AB)
+        - id: cs_EbsFG7u3nTLd1JFXN1k6jW
+          claim_id: c_75TxaiMdH2FxridDtUR3cX
+          source_id: s_UEJCm4BifC222RfsPoT6b7
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_7GYitDvc8xeNNuiPXr3mMV
+          claim_id: c_75TxaiMdH2FxridDtUR3cX
+          source_id: s_oto9J6FqGL8SuF6LDBsJau
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：萬曆丙戌科進士同年總錄
+          source:
+            id: s_oto9J6FqGL8SuF6LDBsJau
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王橋（226562）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=226562&o=json
+            external_identifier: CBDB:226562
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:59:46.246Z
+            metadata_json: null
+      object_person:
+        id: p_qbWcARBwiNzFhFH7v3oZN5
+        status: active
+        display_name: 王桥
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_ic3oKExnHCrpPLXXcfcCxL
+        subject_person_id: p_YcgZGHB8b41JUksSD6hCbG
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_YGsySUortceY3jTkTWmVbj
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3yKGxSJ8JHew82YwG5WFKz
+          claim_id: c_ic3oKExnHCrpPLXXcfcCxL
+          source_id: s_UEJCm4BifC222RfsPoT6b7
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_vLiMRsEtAU4zmMPtwDhG13
+          claim_id: c_ic3oKExnHCrpPLXXcfcCxL
+          source_id: s_vWAxvQ4L6EFhUGFmPDwfet
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_vWAxvQ4L6EFhUGFmPDwfet
+            source_type: api_record
+            title: 维基数据：王埈（Q45534616）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45534616
+            external_identifier: Q45534616
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+        - id: cs_FDEhWjoBiU4vDMwQXZKG2R
+          claim_id: c_ic3oKExnHCrpPLXXcfcCxL
+          source_id: s_csiJ837yS4LpHosWR4nuoi
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：萬曆丙戌科進士同年總錄
+          source: *a2
+      object_person:
+        id: p_YGsySUortceY3jTkTWmVbj
+        status: active
+        display_name: 王埈
+        merged_into_person_id: null
+    - claim:
+        id: c_6AAAVYxVnMyEaZW39MrDHa
+        subject_person_id: p_YcgZGHB8b41JUksSD6hCbG
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_DBYMcu7Cw4PWAgqUTbhPkq
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_F9w6G8zZyaQXVU8KmnQoC8
+          claim_id: c_6AAAVYxVnMyEaZW39MrDHa
+          source_id: s_UEJCm4BifC222RfsPoT6b7
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_hbohNd8453hjFTdAVznKpC
+          claim_id: c_6AAAVYxVnMyEaZW39MrDHa
+          source_id: s_AMAkvVSkG6qqXMJpth8T2A
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_AMAkvVSkG6qqXMJpth8T2A
+            source_type: api_record
+            title: 维基数据：王𡏼（Q45534744）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45534744
+            external_identifier: Q45534744
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+        - id: cs_E8iRDLvJzHXeix4bXLz5vt
+          claim_id: c_6AAAVYxVnMyEaZW39MrDHa
+          source_id: s_csiJ837yS4LpHosWR4nuoi
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：萬曆丙戌科進士同年總錄
+          source: *a2
+      object_person:
+        id: p_DBYMcu7Cw4PWAgqUTbhPkq
+        status: active
+        display_name: 王𡏼
+        merged_into_person_id: null
+    - claim:
+        id: c_QZwyQPWwgc6dEipp7GLKCV
+        subject_person_id: p_YcgZGHB8b41JUksSD6hCbG
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_eTKLECHdx4a5sjD8ucAPHW
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dDKeKJDx1D7aSN6EfC76Tk
+          claim_id: c_QZwyQPWwgc6dEipp7GLKCV
+          source_id: s_UEJCm4BifC222RfsPoT6b7
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_LTXwKsg7ymc7weJ9uJ1T7K
+          claim_id: c_QZwyQPWwgc6dEipp7GLKCV
+          source_id: s_kxrMMhQagujc2MiZCJzE5T
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_kxrMMhQagujc2MiZCJzE5T
+            source_type: api_record
+            title: 维基数据：王致（Q45534807）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45534807
+            external_identifier: Q45534807
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+        - id: cs_NDTm3CpioCNQdFgUYVzCN2
+          claim_id: c_QZwyQPWwgc6dEipp7GLKCV
+          source_id: s_csiJ837yS4LpHosWR4nuoi
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：萬曆丙戌科進士同年總錄
+          source: *a2
+      object_person:
+        id: p_eTKLECHdx4a5sjD8ucAPHW
+        status: active
+        display_name: 王致
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_YBPk45JE5vtR9qPbbivGze
+        subject_person_id: p_31fj3DYMMpcFqtcy8MYe53
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_YcgZGHB8b41JUksSD6hCbG
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MYQR8L4yq82BnYPuiXi88B
+          claim_id: c_YBPk45JE5vtR9qPbbivGze
+          source_id: s_UEJCm4BifC222RfsPoT6b7
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_tkUPfJF17yGYz6diX6NnTz
+          claim_id: c_YBPk45JE5vtR9qPbbivGze
+          source_id: s_2JFR7qPck3eWn6fqq9cxUm
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_2JFR7qPck3eWn6fqq9cxUm
+            source_type: api_record
+            title: 维基数据：杨氏（Q65830582）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q65830582
+            external_identifier: Q65830582
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+        - id: cs_JhagbDPB6SvABf2PUsXhaw
+          claim_id: c_YBPk45JE5vtR9qPbbivGze
+          source_id: s_csiJ837yS4LpHosWR4nuoi
+          stance: supports
+          locator: 亲属关系：妻子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：萬曆丙戌科進士同年總錄
+          source: *a2
+      object_person:
+        id: p_31fj3DYMMpcFqtcy8MYe53
+        status: active
+        display_name: 杨氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -192,9 +469,20 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_qbWcARBwiNzFhFH7v3oZN5 | 王桥 | accepted |
+| children | p_YGsySUortceY3jTkTWmVbj | 王埈 | accepted |
+| children | p_DBYMcu7Cw4PWAgqUTbhPkq | 王𡏼 | accepted |
+| children | p_eTKLECHdx4a5sjD8ucAPHW | 王致 | accepted |
+| spouses | p_31fj3DYMMpcFqtcy8MYe53 | 杨氏 | accepted |
 
 ## 外部来源
 
+- [维基数据：王埈（Q45534616）](https://www.wikidata.org/wiki/Q45534616)
+- [维基数据：王桥（Q16925823）](https://www.wikidata.org/wiki/Q16925823)
+- [维基数据：王致（Q45534807）](https://www.wikidata.org/wiki/Q45534807)
 - [维基数据：王宗蓁（Q45528855）](https://www.wikidata.org/wiki/Q45528855)
+- [维基数据：王𡏼（Q45534744）](https://www.wikidata.org/wiki/Q45534744)
+- [维基数据：杨氏（Q65830582）](https://www.wikidata.org/wiki/Q65830582)
 - [中文维基百科：王宗蓁](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AE%97%E8%93%81)
+- [CBDB 中国历代人物传记资料库：王橋（226562）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=226562&o=json)
 - [CBDB 中国历代人物传记资料库：王宗蓁（207031）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207031&o=json)

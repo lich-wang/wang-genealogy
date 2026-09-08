@@ -4,7 +4,7 @@ id: p_YUKAdQiXr1DTx2KFsrYLgt
 status: active
 merged_into: null
 display_name: 王琛
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_B552dSZzBGwMMCA9WPbwQi
             source_type: api_record
             title: 维基数据：王琛（Q45583436）
@@ -110,8 +110,98 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_61FtbjnoAYgrAukFJaQrkF
+        subject_person_id: p_WWiatCTUQBMimYAeHSJjDW
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_YUKAdQiXr1DTx2KFsrYLgt
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_11dNA1X79nByMTyHeicYsq
+          claim_id: c_61FtbjnoAYgrAukFJaQrkF
+          source_id: s_eVYVZpC9SpRQ4QkjAsCUsV
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_eVYVZpC9SpRQ4QkjAsCUsV
+            source_type: api_record
+            title: 维基数据：王纯礼（Q45583309）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45583309
+            external_identifier: Q45583309
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+        - id: cs_X7qVLU1gJNePnTdS7vK2Gv
+          claim_id: c_61FtbjnoAYgrAukFJaQrkF
+          source_id: s_B552dSZzBGwMMCA9WPbwQi
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+      object_person:
+        id: p_WWiatCTUQBMimYAeHSJjDW
+        status: active
+        display_name: 王纯礼
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_3hiyBQZLwBsW8TR2h5mq1M
+        subject_person_id: p_YUKAdQiXr1DTx2KFsrYLgt
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_zQAyFcVTh8uEFRKFQtkku9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hoUotdm3wyN2YcpVRrbf9T
+          claim_id: c_3hiyBQZLwBsW8TR2h5mq1M
+          source_id: s_eu2QmMuoGyj9A1rH6i5Uf3
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_eu2QmMuoGyj9A1rH6i5Uf3
+            source_type: api_record
+            title: 维基数据：王恪（Q45583500）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45583500
+            external_identifier: Q45583500
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:00:10.748Z
+            metadata_json: null
+        - id: cs_3kb66C7yu75ywzU2HAeeFZ
+          claim_id: c_3hiyBQZLwBsW8TR2h5mq1M
+          source_id: s_B552dSZzBGwMMCA9WPbwQi
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+      object_person:
+        id: p_zQAyFcVTh8uEFRKFQtkku9
+        status: active
+        display_name: 王恪
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +225,12 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_WWiatCTUQBMimYAeHSJjDW | 王纯礼 | accepted |
+| children | p_zQAyFcVTh8uEFRKFQtkku9 | 王恪 | accepted |
 
 ## 外部来源
 
 - [维基数据：王琛（Q45583436）](https://www.wikidata.org/wiki/Q45583436)
+- [维基数据：王纯礼（Q45583309）](https://www.wikidata.org/wiki/Q45583309)
+- [维基数据：王恪（Q45583500）](https://www.wikidata.org/wiki/Q45583500)
 - [CBDB 中国历代人物传记资料库：王琛（264938）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264938&o=json)

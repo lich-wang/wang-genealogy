@@ -4,7 +4,7 @@ id: p_jFftUJLto7JyNUjk4eFWEU
 status: active
 merged_into: null
 display_name: 王承泰
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_FPuyS76amnvd2TLPmjQtGs
             source_type: api_record
             title: 维基数据：王承泰（Q45668336）
@@ -152,7 +152,72 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_Sdyq4Pyy12YUjW9gwC36rR
+        subject_person_id: p_X1UCfgUyoJHi8W8xdH58BE
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_jFftUJLto7JyNUjk4eFWEU
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VJH1C8fT9YNDT5iC8sPGnQ
+          claim_id: c_Sdyq4Pyy12YUjW9gwC36rR
+          source_id: s_uNFQmZbjnbMWfFpWUMCosA
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_uNFQmZbjnbMWfFpWUMCosA
+            source_type: api_record
+            title: 维基数据：王士真（Q20026517）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q20026517
+            external_identifier: Q20026517
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:26.496Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A3%AB%E7%9C%9F
+        - id: cs_zkGyawtC2cev1G4b2LZY93
+          claim_id: c_Sdyq4Pyy12YUjW9gwC36rR
+          source_id: s_FPuyS76amnvd2TLPmjQtGs
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_zj95FSj79bLcQzfPX51Prq
+          claim_id: c_Sdyq4Pyy12YUjW9gwC36rR
+          source_id: s_8JcMUxTCwkNV6cEXnmYv9n
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：唐五代人物傳記與社會網絡資料庫(1.0版)
+          source:
+            id: s_8JcMUxTCwkNV6cEXnmYv9n
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王士真（169076）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=169076&o=json
+            external_identifier: CBDB:169076
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:59:26.669Z
+            metadata_json: null
+      object_person:
+        id: p_X1UCfgUyoJHi8W8xdH58BE
+        status: active
+        display_name: 王士真
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -178,8 +243,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_X1UCfgUyoJHi8W8xdH58BE | 王士真 | accepted |
 
 ## 外部来源
 
 - [维基数据：王承泰（Q45668336）](https://www.wikidata.org/wiki/Q45668336)
+- [维基数据：王士真（Q20026517）](https://www.wikidata.org/wiki/Q20026517)
 - [CBDB 中国历代人物传记资料库：王承泰（191754）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191754&o=json)
+- [CBDB 中国历代人物传记资料库：王士真（169076）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=169076&o=json)

@@ -4,7 +4,7 @@ id: p_Gxn2LqhXD3zS4kUs2t7knD
 status: active
 merged_into: null
 display_name: 王傳燦
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -186,6 +186,97 @@ relationships:
         status: active
         display_name: 王仁堪
         merged_into_person_id: null
+    - claim:
+        id: c_qpXstzptm3hQayLd91CAJ6
+        subject_person_id: p_Gxn2LqhXD3zS4kUs2t7knD
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_AfuUVSUoLTbNao9TD9JhZG
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AxYqim2a3LaS6vcU2meGg3
+          claim_id: c_qpXstzptm3hQayLd91CAJ6
+          source_id: s_zmvPF7Ln648m64pMJqo1rR
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_YEBeDFBGkhJ8rSmNw7MMWy
+          claim_id: c_qpXstzptm3hQayLd91CAJ6
+          source_id: s_K9bDqFgFM8njU3FAyCHMGz
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_K9bDqFgFM8njU3FAyCHMGz
+            source_type: api_record
+            title: 维基数据：王仁东（Q16260607）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q16260607
+            external_identifier: Q16260607
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:25.389Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%BB%81%E6%9D%B1
+      object_person:
+        id: p_AfuUVSUoLTbNao9TD9JhZG
+        status: active
+        display_name: 王仁东
+        merged_into_person_id: null
+    - claim:
+        id: c_vN6d9gF7YMveZmD6jR4Hjw
+        subject_person_id: p_Gxn2LqhXD3zS4kUs2t7knD
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_KNpy1dBQaf6eznujgBFGp1
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7UmLSCLYWBXRMzxg9pt4c8
+          claim_id: c_vN6d9gF7YMveZmD6jR4Hjw
+          source_id: s_zmvPF7Ln648m64pMJqo1rR
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_NsFmbd2xLs9eQQ5TsGujdB
+          claim_id: c_vN6d9gF7YMveZmD6jR4Hjw
+          source_id: s_2G65yhFbbVuC4y4MG5AR3s
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_2G65yhFbbVuC4y4MG5AR3s
+            source_type: api_record
+            title: 维基数据：王眉寿（Q98060447）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q98060447
+            external_identifier: Q98060447
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:37.127Z
+            metadata_json: null
+      object_person:
+        id: p_KNpy1dBQaf6eznujgBFGp1
+        status: active
+        display_name: 王眉寿
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -211,9 +302,13 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_SCMEwkF97vu7Ucu1ndvykz | 王庆云 | accepted |
 | children | p_ggcTrtcGE4fR6SCji22GJb | 王仁堪 | accepted |
+| children | p_AfuUVSUoLTbNao9TD9JhZG | 王仁东 | accepted |
+| children | p_KNpy1dBQaf6eznujgBFGp1 | 王眉寿 | accepted |
 
 ## 外部来源
 
 - [维基数据：王傳燦（Q98060612）](https://www.wikidata.org/wiki/Q98060612)
+- [维基数据：王眉寿（Q98060447）](https://www.wikidata.org/wiki/Q98060447)
 - [维基数据：王庆云（Q11573079）](https://www.wikidata.org/wiki/Q11573079)
+- [维基数据：王仁东（Q16260607）](https://www.wikidata.org/wiki/Q16260607)
 - [维基数据：王仁堪（Q15943465）](https://www.wikidata.org/wiki/Q15943465)

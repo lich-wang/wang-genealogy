@@ -4,7 +4,7 @@ id: p_AStBB7oM4HvuyGV92LVELV
 status: active
 merged_into: null
 display_name: 王猛
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: 导言
           quotation: 王猛（325年—375年），字景略，北海郡剧县（今山东潍坊市昌樂
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
-          source:
+          source: &a1
             id: s_bwqYlB70ZEBJmjoABJqMEt
             source_type: website
             title: 中文维基百科：王猛
@@ -171,7 +171,52 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_73ZEMZxWY8JaCofjvZ6eoy
+        subject_person_id: p_AStBB7oM4HvuyGV92LVELV
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_vUZashJkwhd76jSsmrp3UV
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wpMpR7MgVcWbv72pyKAmYP
+          claim_id: c_73ZEMZxWY8JaCofjvZ6eoy
+          source_id: s_Z4TcogNMRZDDzzWsoWmiTt
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_Z4TcogNMRZDDzzWsoWmiTt
+            source_type: api_record
+            title: 维基数据：王休（Q26209876）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q26209876
+            external_identifier: Q26209876
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:28.634Z
+            metadata_json: null
+        - id: cs_gxvL8HDFXLVTMtptQXWJb8
+          claim_id: c_73ZEMZxWY8JaCofjvZ6eoy
+          source_id: s_bwqYlB70ZEBJmjoABJqMEt
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+      object_person:
+        id: p_vUZashJkwhd76jSsmrp3UV
+        status: active
+        display_name: 王休
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -197,8 +242,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_vUZashJkwhd76jSsmrp3UV | 王休 | accepted |
 
 ## 外部来源
 
 - [维基数据：王猛（Q712768）](https://www.wikidata.org/wiki/Q712768)
+- [维基数据：王休（Q26209876）](https://www.wikidata.org/wiki/Q26209876)
 - [中文维基百科：王猛](https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%8C%9B)

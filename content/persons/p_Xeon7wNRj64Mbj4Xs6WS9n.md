@@ -4,7 +4,7 @@ id: p_Xeon7wNRj64Mbj4Xs6WS9n
 status: active
 merged_into: null
 display_name: 王谦之
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_GrN1Mt1Gg3KqbLt2HdbAZH
             source_type: api_record
             title: 维基数据：王谦之（Q45403904）
@@ -110,7 +110,71 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_GQBsKF3rBJkrFSWGSLUCRt
+        subject_person_id: p_CvkqbHiKU1yv5J5yN1sDim
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Xeon7wNRj64Mbj4Xs6WS9n
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4kpDK6dLHNWoqvSe7FvtJx
+          claim_id: c_GQBsKF3rBJkrFSWGSLUCRt
+          source_id: s_GrN1Mt1Gg3KqbLt2HdbAZH
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_y4mACLmR9MfRC24szK9YeS
+          claim_id: c_GQBsKF3rBJkrFSWGSLUCRt
+          source_id: s_D7NNZLUFKQfdTjRPpLvri2
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_D7NNZLUFKQfdTjRPpLvri2
+            source_type: api_record
+            title: 维基数据：王师古（Q45369091）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45369091
+            external_identifier: Q45369091
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:58:57.822Z
+            metadata_json: null
+        - id: cs_7a3p4SjvSNgVa5yudKn7c9
+          claim_id: c_GQBsKF3rBJkrFSWGSLUCRt
+          source_id: s_411AG8EkY8NdEgG32DgoBa
+          stance: supports
+          locator: 亲属关系：長子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：未知
+          source:
+            id: s_411AG8EkY8NdEgG32DgoBa
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王師古（10688）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10688&o=json
+            external_identifier: CBDB:10688
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:58:57.995Z
+            metadata_json: null
+      object_person:
+        id: p_CvkqbHiKU1yv5J5yN1sDim
+        status: active
+        display_name: 王师古
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -135,8 +199,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_CvkqbHiKU1yv5J5yN1sDim | 王师古 | accepted |
 
 ## 外部来源
 
 - [维基数据：王谦之（Q45403904）](https://www.wikidata.org/wiki/Q45403904)
+- [维基数据：王师古（Q45369091）](https://www.wikidata.org/wiki/Q45369091)
 - [CBDB 中国历代人物传记资料库：王謙之（23218）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=23218&o=json)
+- [CBDB 中国历代人物传记资料库：王師古（10688）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10688&o=json)

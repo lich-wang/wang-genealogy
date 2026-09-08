@@ -4,7 +4,7 @@ id: p_sw3d858SSyyvRPzeeoi5f5
 status: active
 merged_into: null
 display_name: 王纲
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -110,7 +110,63 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_nwPheyS2bBdPZJrN52kbMD
+        subject_person_id: p_L6DCbYaxvTKejPkJXVgChn
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_sw3d858SSyyvRPzeeoi5f5
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FdhPD4z6biT89E5kxDaPBD
+          claim_id: c_nwPheyS2bBdPZJrN52kbMD
+          source_id: s_ZoETyCvgGMb1E4U4fBAXm5
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_ZoETyCvgGMb1E4U4fBAXm5
+            source_type: api_record
+            title: 维基数据：王纲（Q45484265）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45484265
+            external_identifier: Q45484265
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:52.069Z
+            metadata_json: null
+        - id: cs_7T1B5iUiuNS6gNm1t4KrZ1
+          claim_id: c_nwPheyS2bBdPZJrN52kbMD
+          source_id: s_KM9WYhfJLbb5kUWzQPKTz3
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_KM9WYhfJLbb5kUWzQPKTz3
+            source_type: api_record
+            title: 维基数据：王升（Q45484201）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45484201
+            external_identifier: Q45484201
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:57.484Z
+            metadata_json: null
+      object_person:
+        id: p_L6DCbYaxvTKejPkJXVgChn
+        status: active
+        display_name: 王升
+        merged_into_person_id: null
   children:
     - claim:
         id: c_PexpQD5KjWahBPE3zNjTo6
@@ -191,10 +247,12 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_L6DCbYaxvTKejPkJXVgChn | 王升 | accepted |
 | children | p_7koQzcggkeDLYupbQwieGE | 王璟 | accepted |
 
 ## 外部来源
 
 - [维基数据：王纲（Q45484265）](https://www.wikidata.org/wiki/Q45484265)
 - [维基数据：王璟（Q15929306）](https://www.wikidata.org/wiki/Q15929306)
+- [维基数据：王升（Q45484201）](https://www.wikidata.org/wiki/Q45484201)
 - [CBDB 中国历代人物传记资料库：王綱（246750）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=246750&o=json)

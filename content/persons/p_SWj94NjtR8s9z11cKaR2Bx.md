@@ -4,7 +4,7 @@ id: p_SWj94NjtR8s9z11cKaR2Bx
 status: active
 merged_into: null
 display_name: 王瑨
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -129,7 +129,97 @@ relationships:
         status: active
         display_name: 王方翼
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_uY9z65ULPkpsS9sKLwihwa
+        subject_person_id: p_SWj94NjtR8s9z11cKaR2Bx
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_cCCzfaBPGmC4CCrXYa95Yt
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mSKL41x8rNSowB1ieHZ6TB
+          claim_id: c_uY9z65ULPkpsS9sKLwihwa
+          source_id: s_4FfCSxs5x4oN7PKmKxPivL
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_4pD9J4KU8BV55nEYsB9nVT
+          claim_id: c_uY9z65ULPkpsS9sKLwihwa
+          source_id: s_d0cSzmi0CQfj3gDEt97JRm
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_d0cSzmi0CQfj3gDEt97JRm
+            source_type: website
+            title: 中文维基百科：王鉷
+            creator: 维基百科贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%89%B7
+            external_identifier: Q11572879
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-06T22:33:22.403Z
+            metadata_json: null
+      object_person:
+        id: p_cCCzfaBPGmC4CCrXYa95Yt
+        status: active
+        display_name: 王鉷
+        merged_into_person_id: null
+    - claim:
+        id: c_SiVYUhhUh1LkcFYmrCTn5X
+        subject_person_id: p_SWj94NjtR8s9z11cKaR2Bx
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_VhYJfua3oKHd9zWvRRU8LK
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zRuHYoapf9URLrANXqj1T8
+          claim_id: c_SiVYUhhUh1LkcFYmrCTn5X
+          source_id: s_4FfCSxs5x4oN7PKmKxPivL
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_fM3P1nDkWoCt8RYNZQdCwM
+          claim_id: c_SiVYUhhUh1LkcFYmrCTn5X
+          source_id: s_hGMxK9qCJ3iKjQGBh2Rpgc
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_hGMxK9qCJ3iKjQGBh2Rpgc
+            source_type: api_record
+            title: 维基数据：王銲（Q11572873）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q11572873
+            external_identifier: Q11572873
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:27.414Z
+            metadata_json: null
+      object_person:
+        id: p_VhYJfua3oKHd9zWvRRU8LK
+        status: active
+        display_name: 王銲
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -154,8 +244,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_gtuvXLikvWh5oAFQk1AX2V | 王方翼 | accepted |
+| children | p_cCCzfaBPGmC4CCrXYa95Yt | 王鉷 | accepted |
+| children | p_VhYJfua3oKHd9zWvRRU8LK | 王銲 | accepted |
 
 ## 外部来源
 
 - [维基数据：王方翼（Q15904891）](https://www.wikidata.org/wiki/Q15904891)
+- [维基数据：王銲（Q11572873）](https://www.wikidata.org/wiki/Q11572873)
 - [维基数据：王瑨（Q26209205）](https://www.wikidata.org/wiki/Q26209205)
+- [中文维基百科：王鉷](https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%89%B7)

@@ -4,7 +4,7 @@ id: p_duWrG6FyAqkCMEfckaddRg
 status: active
 merged_into: null
 display_name: 王守竞
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -159,8 +159,100 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_u3p6wGgg2DG1L955SA3E3B
+        subject_person_id: p_LXKFHguzJ5DjK8ySHadw6f
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_duWrG6FyAqkCMEfckaddRg
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_K37CES3tKEkwZ8L1ArCmdz
+          claim_id: c_u3p6wGgg2DG1L955SA3E3B
+          source_id: s_xmDk28iHW5carA3UyGCGoB
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_xmDk28iHW5carA3UyGCGoB
+            source_type: api_record
+            title: 维基数据：王季同（Q61306471）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q61306471
+            external_identifier: Q61306471
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:37.417Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AD%A3%E5%90%8C
+        - id: cs_WQiQkGpyzPf4WTKVsX7jTk
+          claim_id: c_u3p6wGgg2DG1L955SA3E3B
+          source_id: s_Ey6it7G6ec12JYcsCqdFQi
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+      object_person:
+        id: p_LXKFHguzJ5DjK8ySHadw6f
+        status: active
+        display_name: 王季同
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_yihLXujp6FqJx62zZ4aYUD
+        subject_person_id: p_duWrG6FyAqkCMEfckaddRg
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_EZrUEcAGPqazjwfJpvyBu7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_z12WvMQzxGRFaD5RsQaKG9
+          claim_id: c_yihLXujp6FqJx62zZ4aYUD
+          source_id: s_Ey6it7G6ec12JYcsCqdFQi
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_ULBtHMP4296peYzZKB3HL3
+          claim_id: c_yihLXujp6FqJx62zZ4aYUD
+          source_id: s_oaMV6nWAJeKPsz8HQwVeUG
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_oaMV6nWAJeKPsz8HQwVeUG
+            source_type: api_record
+            title: 维基数据：王義翹（Q5217566）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q5217566
+            external_identifier: Q5217566
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%BE%A9%E7%BF%B9
+      object_person:
+        id: p_EZrUEcAGPqazjwfJpvyBu7
+        status: active
+        display_name: 王義翹
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -186,7 +278,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_LXKFHguzJ5DjK8ySHadw6f | 王季同 | accepted |
+| children | p_EZrUEcAGPqazjwfJpvyBu7 | 王義翹 | accepted |
 
 ## 外部来源
 
+- [维基数据：王季同（Q61306471）](https://www.wikidata.org/wiki/Q61306471)
 - [维基数据：王守竞（Q109174393）](https://www.wikidata.org/wiki/Q109174393)
+- [维基数据：王義翹（Q5217566）](https://www.wikidata.org/wiki/Q5217566)

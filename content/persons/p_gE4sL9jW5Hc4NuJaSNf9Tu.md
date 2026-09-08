@@ -4,7 +4,7 @@ id: p_gE4sL9jW5Hc4NuJaSNf9Tu
 status: active
 merged_into: null
 display_name: 王夏
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_ewbvH2LmxxKcNZzqymwqC6
             source_type: api_record
             title: 维基数据：王夏（Q45359489）
@@ -110,7 +110,71 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_E2iRSuEBTp3EHMeM3MGQNU
+        subject_person_id: p_TXJvtdFRgZUQXsFzGvjCnR
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_gE4sL9jW5Hc4NuJaSNf9Tu
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9NhBoQt6J5qoiP93PMjYjV
+          claim_id: c_E2iRSuEBTp3EHMeM3MGQNU
+          source_id: s_ewbvH2LmxxKcNZzqymwqC6
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_5gnWkV5ey5DJ7xedNCJXsF
+          claim_id: c_E2iRSuEBTp3EHMeM3MGQNU
+          source_id: s_UPzHqSAS1LsGaC1U81Firc
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_UPzHqSAS1LsGaC1U81Firc
+            source_type: api_record
+            title: 维基数据：王世规（Q45387330）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45387330
+            external_identifier: Q45387330
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:58:59.236Z
+            metadata_json: null
+        - id: cs_dQKpsCQ3givR9TybNg61ZE
+          claim_id: c_E2iRSuEBTp3EHMeM3MGQNU
+          source_id: s_HjaMgtangcVgf3VCL8yuSe
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：未知
+          source:
+            id: s_HjaMgtangcVgf3VCL8yuSe
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王世規（17818）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17818&o=json
+            external_identifier: CBDB:17818
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:58:59.406Z
+            metadata_json: null
+      object_person:
+        id: p_TXJvtdFRgZUQXsFzGvjCnR
+        status: active
+        display_name: 王世规
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -135,8 +199,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_TXJvtdFRgZUQXsFzGvjCnR | 王世规 | accepted |
 
 ## 外部来源
 
+- [维基数据：王世规（Q45387330）](https://www.wikidata.org/wiki/Q45387330)
 - [维基数据：王夏（Q45359489）](https://www.wikidata.org/wiki/Q45359489)
+- [CBDB 中国历代人物传记资料库：王世規（17818）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17818&o=json)
 - [CBDB 中国历代人物传记资料库：王夏（1814）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1814&o=json)

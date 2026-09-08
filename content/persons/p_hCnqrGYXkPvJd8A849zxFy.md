@@ -4,7 +4,7 @@ id: p_hCnqrGYXkPvJd8A849zxFy
 status: active
 merged_into: null
 display_name: 赵氏
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -95,7 +95,72 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_WwFRsvWURAU8GTnw7qRDpD
+        subject_person_id: p_ghyYDQ5eZ8uxN8ip6BX7KC
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_hCnqrGYXkPvJd8A849zxFy
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tXt8emL1usFoHQyjcD5ZxW
+          claim_id: c_WwFRsvWURAU8GTnw7qRDpD
+          source_id: s_dXQa8yj97rf6Qh1MERKn2v
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_dXQa8yj97rf6Qh1MERKn2v
+            source_type: api_record
+            title: 维基数据：王原相（Q45551627）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45551627
+            external_identifier: Q45551627
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:26.496Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%8E%9F%E7%9B%B8
+        - id: cs_A7qZGUxNGdiNMFrWHZjzhM
+          claim_id: c_WwFRsvWURAU8GTnw7qRDpD
+          source_id: s_7B1JiyVP6w7s8XMHDbcAFT
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_PXqwAdJtP1gc3TQMp15fpL
+          claim_id: c_WwFRsvWURAU8GTnw7qRDpD
+          source_id: s_xwJZPTtqthh3Js24PnKAnj
+          stance: supports
+          locator: 亲属关系：妻子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：嘉靖四十一年進士登科錄:一卷
+          source:
+            id: s_xwJZPTtqthh3Js24PnKAnj
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王原相（205067）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205067&o=json
+            external_identifier: CBDB:205067
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:59:26.639Z
+            metadata_json: null
+      object_person:
+        id: p_ghyYDQ5eZ8uxN8ip6BX7KC
+        status: active
+        display_name: 王原相
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -116,8 +181,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_ghyYDQ5eZ8uxN8ip6BX7KC | 王原相 | accepted |
 
 ## 外部来源
 
+- [维基数据：王原相（Q45551627）](https://www.wikidata.org/wiki/Q45551627)
 - [维基数据：赵氏（Q65854661）](https://www.wikidata.org/wiki/Q65854661)
+- [CBDB 中国历代人物传记资料库：王原相（205067）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205067&o=json)
 - [CBDB 中国历代人物传记资料库：趙氏（327870）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327870&o=json)

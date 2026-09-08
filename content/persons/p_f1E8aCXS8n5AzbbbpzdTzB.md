@@ -4,7 +4,7 @@ id: p_f1E8aCXS8n5AzbbbpzdTzB
 status: active
 merged_into: null
 display_name: 王处元
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_ZadyTaaPx7Z81zAAdohDY3
             source_type: api_record
             title: 维基数据：王处元（Q45646058）
@@ -152,7 +152,71 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_tgr2LDd6eAkLtj6eqRyuUU
+        subject_person_id: p_ZGT8gZNiBTBKcXdZjzhNZq
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_f1E8aCXS8n5AzbbbpzdTzB
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_UZt5ajeKFpmnq6qQM1EQ7H
+          claim_id: c_tgr2LDd6eAkLtj6eqRyuUU
+          source_id: s_ZadyTaaPx7Z81zAAdohDY3
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_jxkBm1qoDb2t77916EaAB9
+          claim_id: c_tgr2LDd6eAkLtj6eqRyuUU
+          source_id: s_zRRKdBK1v9aDRDctwzda8g
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_zRRKdBK1v9aDRDctwzda8g
+            source_type: api_record
+            title: 维基数据：王俊（Q26209939）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q26209939
+            external_identifier: Q26209939
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:29.926Z
+            metadata_json: null
+        - id: cs_SfG25W5RN9mvG3YH1ioE2G
+          claim_id: c_tgr2LDd6eAkLtj6eqRyuUU
+          source_id: s_utHQg822imJGSLUGKwTdmR
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：唐五代人物傳記與社會網絡資料庫(1.0版)
+          source:
+            id: s_utHQg822imJGSLUGKwTdmR
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王俊（145900）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=145900&o=json
+            external_identifier: CBDB:145900
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:59:30.087Z
+            metadata_json: null
+      object_person:
+        id: p_ZGT8gZNiBTBKcXdZjzhNZq
+        status: active
+        display_name: 王俊
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -178,8 +242,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_ZGT8gZNiBTBKcXdZjzhNZq | 王俊 | accepted |
 
 ## 外部来源
 
 - [维基数据：王处元（Q45646058）](https://www.wikidata.org/wiki/Q45646058)
+- [维基数据：王俊（Q26209939）](https://www.wikidata.org/wiki/Q26209939)
 - [CBDB 中国历代人物传记资料库：王處元（191293）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191293&o=json)
+- [CBDB 中国历代人物传记资料库：王俊（145900）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=145900&o=json)

@@ -4,7 +4,7 @@ id: p_LhDftPTdBSJ1CGALBq6bm6
 status: active
 merged_into: null
 display_name: 王铭
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_F9Mri2PURAb1LHFviet2Zn
             source_type: api_record
             title: 维基数据：王铭（Q45580879）
@@ -110,8 +110,98 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_bvEQCYxEwUjTp1k6jNyYSq
+        subject_person_id: p_onvVrjmfvkdjFcgNLVKCma
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_LhDftPTdBSJ1CGALBq6bm6
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ktF1Vr235z8a1DWFKBtnq2
+          claim_id: c_bvEQCYxEwUjTp1k6jNyYSq
+          source_id: s_F9Mri2PURAb1LHFviet2Zn
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_Aw3x8QxrrCtZhsG9e3Mvwo
+          claim_id: c_bvEQCYxEwUjTp1k6jNyYSq
+          source_id: s_6Q2GEGb3aqCnQFr6HmH542
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_6Q2GEGb3aqCnQFr6HmH542
+            source_type: api_record
+            title: 维基数据：王棋（Q45580815）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45580815
+            external_identifier: Q45580815
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person:
+        id: p_onvVrjmfvkdjFcgNLVKCma
+        status: active
+        display_name: 王棋
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_FYkNrP5J2b6faMGQ58xi54
+        subject_person_id: p_LhDftPTdBSJ1CGALBq6bm6
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_2JBV3UP1jjSL1hUd6uRUK3
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_eq3q819QEZHT87fWJTX1Tr
+          claim_id: c_FYkNrP5J2b6faMGQ58xi54
+          source_id: s_AzvgXDoZLR15WaH1xj38Sy
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_AzvgXDoZLR15WaH1xj38Sy
+            source_type: api_record
+            title: 维基数据：王鸾（Q45580943）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45580943
+            external_identifier: Q45580943
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:52.069Z
+            metadata_json: null
+        - id: cs_DkC5M1fsfYnEmniBJp2VKg
+          claim_id: c_FYkNrP5J2b6faMGQ58xi54
+          source_id: s_F9Mri2PURAb1LHFviet2Zn
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+      object_person:
+        id: p_2JBV3UP1jjSL1hUd6uRUK3
+        status: active
+        display_name: 王鸾
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +225,12 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_onvVrjmfvkdjFcgNLVKCma | 王棋 | accepted |
+| children | p_2JBV3UP1jjSL1hUd6uRUK3 | 王鸾 | accepted |
 
 ## 外部来源
 
+- [维基数据：王鸾（Q45580943）](https://www.wikidata.org/wiki/Q45580943)
 - [维基数据：王铭（Q45580879）](https://www.wikidata.org/wiki/Q45580879)
+- [维基数据：王棋（Q45580815）](https://www.wikidata.org/wiki/Q45580815)
 - [CBDB 中国历代人物传记资料库：王銘（222284）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222284&o=json)

@@ -4,7 +4,7 @@ id: p_4bw6kj8mANTz5YxJBJSjE5
 status: active
 merged_into: null
 display_name: 王承业
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_rvhGnAqEjQvh7hBXik5vGf
             source_type: api_record
             title: 维基数据：王承业（Q45615501）
@@ -152,7 +152,72 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_Kpaa98dwR4QYBZGWD6UVG3
+        subject_person_id: p_X1UCfgUyoJHi8W8xdH58BE
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_4bw6kj8mANTz5YxJBJSjE5
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FJKQRyXhGKWVjVMbYby3s7
+          claim_id: c_Kpaa98dwR4QYBZGWD6UVG3
+          source_id: s_uNFQmZbjnbMWfFpWUMCosA
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_uNFQmZbjnbMWfFpWUMCosA
+            source_type: api_record
+            title: 维基数据：王士真（Q20026517）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q20026517
+            external_identifier: Q20026517
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:26.496Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A3%AB%E7%9C%9F
+        - id: cs_Ea4E4VHQCMEauzDr9u3fmE
+          claim_id: c_Kpaa98dwR4QYBZGWD6UVG3
+          source_id: s_rvhGnAqEjQvh7hBXik5vGf
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_daWqPmPBkLmM211CgVnfrz
+          claim_id: c_Kpaa98dwR4QYBZGWD6UVG3
+          source_id: s_8JcMUxTCwkNV6cEXnmYv9n
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：唐五代人物傳記與社會網絡資料庫(1.0版)
+          source:
+            id: s_8JcMUxTCwkNV6cEXnmYv9n
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王士真（169076）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=169076&o=json
+            external_identifier: CBDB:169076
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:59:26.669Z
+            metadata_json: null
+      object_person:
+        id: p_X1UCfgUyoJHi8W8xdH58BE
+        status: active
+        display_name: 王士真
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -178,8 +243,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_X1UCfgUyoJHi8W8xdH58BE | 王士真 | accepted |
 
 ## 外部来源
 
 - [维基数据：王承业（Q45615501）](https://www.wikidata.org/wiki/Q45615501)
+- [维基数据：王士真（Q20026517）](https://www.wikidata.org/wiki/Q20026517)
 - [CBDB 中国历代人物传记资料库：王承業（195919）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=195919&o=json)
+- [CBDB 中国历代人物传记资料库：王士真（169076）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=169076&o=json)

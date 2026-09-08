@@ -4,7 +4,7 @@ id: p_Bxfq3zjpoq2kKYP1QvY7sM
 status: active
 merged_into: null
 display_name: 王世融
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_jvpVhi8Dn6ZYk8DHKdDRT1
             source_type: api_record
             title: 维基数据：王世融（Q45363002）
@@ -110,8 +110,126 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_tqQ5NDXWJETK2mH3CFovQ2
+        subject_person_id: p_6MGDJDsMfhoCMpi8TCXnFR
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Bxfq3zjpoq2kKYP1QvY7sM
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZYJiVYdmF7cuEsvT8UbBs1
+          claim_id: c_tqQ5NDXWJETK2mH3CFovQ2
+          source_id: s_5h3ogmep1VLLiYxHP9RUqR
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_5h3ogmep1VLLiYxHP9RUqR
+            source_type: api_record
+            title: 维基数据：王承衍（Q28415659）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q28415659
+            external_identifier: Q28415659
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:56.366Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%89%BF%E8%A1%8D
+        - id: cs_ht4upG342RJ3t53N17fHx5
+          claim_id: c_tqQ5NDXWJETK2mH3CFovQ2
+          source_id: s_jvpVhi8Dn6ZYk8DHKdDRT1
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_b3GtbM2kDC4Yk5jbdvusuW
+          claim_id: c_tqQ5NDXWJETK2mH3CFovQ2
+          source_id: s_c7NdGSVJDpv8cCcn7qJgcN
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：宋人傳記資料索引(電子版)
+          source:
+            id: s_c7NdGSVJDpv8cCcn7qJgcN
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王承衍（3939）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3939&o=json
+            external_identifier: CBDB:3939
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:59:56.527Z
+            metadata_json: null
+      object_person:
+        id: p_6MGDJDsMfhoCMpi8TCXnFR
+        status: active
+        display_name: 王承衍
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_8GwvkYhU8PE3MaA4PAAKoJ
+        subject_person_id: p_Bxfq3zjpoq2kKYP1QvY7sM
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_G5SQGh5AbvY3Ln1ftLHdsC
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_V4TCpCs8CWa2CHX6SFhdri
+          claim_id: c_8GwvkYhU8PE3MaA4PAAKoJ
+          source_id: s_jvpVhi8Dn6ZYk8DHKdDRT1
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_xurHvzvAPdbgSubN73C3Rc
+          claim_id: c_8GwvkYhU8PE3MaA4PAAKoJ
+          source_id: s_UArBFCc85vrjBPti5SxwAa
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_UArBFCc85vrjBPti5SxwAa
+            source_type: api_record
+            title: 维基数据：王克存（Q45362980）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45362980
+            external_identifier: Q45362980
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+        - id: cs_Xcrik3niUX44tzmZd48hNa
+          claim_id: c_8GwvkYhU8PE3MaA4PAAKoJ
+          source_id: s_JwHhzmm8rehrsyPhhkBDsr
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：未知
+          source: *a1
+      object_person:
+        id: p_G5SQGh5AbvY3Ln1ftLHdsC
+        status: active
+        display_name: 王克存
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +253,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_6MGDJDsMfhoCMpi8TCXnFR | 王承衍 | accepted |
+| children | p_G5SQGh5AbvY3Ln1ftLHdsC | 王克存 | accepted |
 
 ## 外部来源
 
+- [维基数据：王承衍（Q28415659）](https://www.wikidata.org/wiki/Q28415659)
+- [维基数据：王克存（Q45362980）](https://www.wikidata.org/wiki/Q45362980)
 - [维基数据：王世融（Q45363002）](https://www.wikidata.org/wiki/Q45363002)
+- [CBDB 中国历代人物传记资料库：王承衍（3939）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3939&o=json)
 - [CBDB 中国历代人物传记资料库：王世融（3972）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3972&o=json)

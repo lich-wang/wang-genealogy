@@ -4,7 +4,7 @@ id: p_VABDaNqeokNeUhSBaXqRrB
 status: active
 merged_into: null
 display_name: 王玄
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_ZU4AZH8igVG4hRZTkSYybo
             source_type: api_record
             title: 维基数据：王玄（Q45401566）
@@ -111,7 +111,61 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_qww4JAC9sm1FVkxAiXc8SQ
+        subject_person_id: p_VABDaNqeokNeUhSBaXqRrB
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_bAEpCu377ogzP69HEb81Bs
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_im65cEFXnJypdJd32Qh9Ff
+          claim_id: c_qww4JAC9sm1FVkxAiXc8SQ
+          source_id: s_zDkWjZZtLbX6M9LxBcAf7Z
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_zDkWjZZtLbX6M9LxBcAf7Z
+            source_type: api_record
+            title: 维基数据：王超（Q16077506）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q16077506
+            external_identifier: Q16077506
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:58:55.754Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%B6%85_(%E5%8C%97%E5%AE%8B)
+        - id: cs_P55964JEYPEMQm9pTkPmLE
+          claim_id: c_qww4JAC9sm1FVkxAiXc8SQ
+          source_id: s_ZU4AZH8igVG4hRZTkSYybo
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_Xn3EqiANAsJ1FH2SjQfjmA
+          claim_id: c_qww4JAC9sm1FVkxAiXc8SQ
+          source_id: s_4sGUMc4wRTGTMtQEDiCSra
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：宋人傳記資料索引(電子版)
+          source: *a1
+      object_person:
+        id: p_bAEpCu377ogzP69HEb81Bs
+        status: active
+        display_name: 王超
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +189,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_bAEpCu377ogzP69HEb81Bs | 王超 | accepted |
 
 ## 外部来源
 
+- [维基数据：王超（Q16077506）](https://www.wikidata.org/wiki/Q16077506)
 - [维基数据：王玄（Q45401566）](https://www.wikidata.org/wiki/Q45401566)
 - [CBDB 中国历代人物传记资料库：王玄（21949）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=21949&o=json)

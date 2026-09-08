@@ -4,7 +4,7 @@ id: p_1PVoebznd6BJv1usnGBu3r
 status: active
 merged_into: null
 display_name: 王暕
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -579,6 +579,51 @@ relationships:
         status: active
         display_name: 王承
         merged_into_person_id: null
+    - claim:
+        id: c_sbtcvrZLqJ9Z9NPNE6nyAQ
+        subject_person_id: p_1PVoebznd6BJv1usnGBu3r
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_EZc8eia6jBCUiA6dx8URB6
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hqfPBBBMezLhz4TjAVTKre
+          claim_id: c_sbtcvrZLqJ9Z9NPNE6nyAQ
+          source_id: s_KsjikQPijPc5BkNwV19tro
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_tJLw6xWQRQ673raQKXe6E7
+          claim_id: c_sbtcvrZLqJ9Z9NPNE6nyAQ
+          source_id: s_rpWygGEdG2HNsbmwmC7uyf
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_rpWygGEdG2HNsbmwmC7uyf
+            source_type: website
+            title: 中文维基百科：王承 (南梁)
+            creator: 维基百科贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%89%BF_(%E5%8D%97%E6%A2%81)
+            external_identifier: Q28691175
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-06T22:33:22.403Z
+            metadata_json: null
+      object_person:
+        id: p_EZc8eia6jBCUiA6dx8URB6
+        status: active
+        display_name: 王承
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -665,6 +710,7 @@ relationships:
 | children | p_5xzanYUMr9aPJq4AE4VLrN | 王训 | accepted |
 | children | p_xewYYA8tMSjuQepsE5e5Ar | 王訏 | accepted |
 | children | p_342p55dQ1D6NeRnwK3dn2t | 王承 | accepted |
+| children | p_EZc8eia6jBCUiA6dx8URB6 | 王承 | accepted |
 | descendants | p_PGJAWHxYxJtx3aVz4EvhUR | 王衮 | accepted |
 
 ## 外部来源
@@ -674,6 +720,7 @@ relationships:
 - [维基数据：王训（Q18118177）](https://www.wikidata.org/wiki/Q18118177)
 - [维基数据：王穉（Q56600341）](https://www.wikidata.org/wiki/Q56600341)
 - [中文维基百科：琅邪王氏世系圖](https://zh.wikipedia.org/wiki/%E7%90%85%E9%82%AA%E7%8E%8B%E6%B0%8F%E4%B8%96%E7%B3%BB%E5%9C%96)
+- [中文维基百科：王承 (南梁)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%89%BF_(%E5%8D%97%E6%A2%81))
 - [中文维基百科：王衮](https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%A1%AE)
 - [中文维基百科：王训 (南梁)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%AE%AD_(%E5%8D%97%E6%A2%81))
 - [中文维基文库：《梁书》卷四十一](https://zh.wikisource.org/zh-hant/%E6%A2%81%E6%9B%B8/%E5%8D%B741)

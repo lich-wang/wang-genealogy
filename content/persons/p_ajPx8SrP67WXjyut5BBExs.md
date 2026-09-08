@@ -4,7 +4,7 @@ id: p_ajPx8SrP67WXjyut5BBExs
 status: active
 merged_into: null
 display_name: 王睿
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_fGCPjzVEA74N9JZyJDe8YP
             source_type: api_record
             title: 维基数据：王睿（Q45442408）
@@ -110,7 +110,52 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_mBPjx4qVx8uMCrxUpZdSEE
+        subject_person_id: p_XafvmbqFiWanFhRfKjJh1p
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ajPx8SrP67WXjyut5BBExs
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_g2emKDW9J94nS2S8FPtMsH
+          claim_id: c_mBPjx4qVx8uMCrxUpZdSEE
+          source_id: s_fGCPjzVEA74N9JZyJDe8YP
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_Dd8dKsAWhae6TMoGzVhFoJ
+          claim_id: c_mBPjx4qVx8uMCrxUpZdSEE
+          source_id: s_V82c4Y2GCs47mYwENCUT7M
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_V82c4Y2GCs47mYwENCUT7M
+            source_type: api_record
+            title: 维基数据：王通（Q45442342）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45442342
+            external_identifier: Q45442342
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:07:17.760Z
+            metadata_json: null
+      object_person:
+        id: p_XafvmbqFiWanFhRfKjJh1p
+        status: active
+        display_name: 王通
+        merged_into_person_id: null
   children:
     - claim:
         id: c_RV5FvhjL5nv9WvgpnqDLmA
@@ -191,10 +236,12 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_XafvmbqFiWanFhRfKjJh1p | 王通 | accepted |
 | children | p_jWRBXNs9hNQYimujJ64LcZ | 王𫓧 | accepted |
 
 ## 外部来源
 
 - [维基数据：王𫓧（Q15934129）](https://www.wikidata.org/wiki/Q15934129)
 - [维基数据：王睿（Q45442408）](https://www.wikidata.org/wiki/Q45442408)
+- [维基数据：王通（Q45442342）](https://www.wikidata.org/wiki/Q45442342)
 - [CBDB 中国历代人物传记资料库：王睿（314679）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314679&o=json)

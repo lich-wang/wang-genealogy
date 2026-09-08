@@ -4,7 +4,7 @@ id: p_2upGeiN52eY6RGi8eXqg1R
 status: active
 merged_into: null
 display_name: 王士昌
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a1
             id: s_hv33tRvBGoTiGFKYSfqn28
             source_type: api_record
             title: 维基数据：王士昌（Q15950979）
@@ -135,7 +135,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_QDf5bGrRNUHiV2PX3ECFrx
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：王士昌（35069）
@@ -285,10 +285,116 @@ relationships:
         status: active
         display_name: 王宗沐
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_qtoT81DB3HQNoNWyAWKo5f
+        subject_person_id: p_2upGeiN52eY6RGi8eXqg1R
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_4T4YhsidVU2NFfdAtSPY8Z
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SHXiFKLNCGTyv1GkAkKcaR
+          claim_id: c_qtoT81DB3HQNoNWyAWKo5f
+          source_id: s_hv33tRvBGoTiGFKYSfqn28
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_4nmpjTJyywK1tXuZbUkzT3
+          claim_id: c_qtoT81DB3HQNoNWyAWKo5f
+          source_id: s_7NUq9HMPHL3E7cS6qFWbuY
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_7NUq9HMPHL3E7cS6qFWbuY
+            source_type: api_record
+            title: 维基数据：王立隆（Q45438687）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45438687
+            external_identifier: Q45438687
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:56.022Z
+            metadata_json: null
+        - id: cs_AfrnaGgwC8w9s8AjYGsSAo
+          claim_id: c_qtoT81DB3HQNoNWyAWKo5f
+          source_id: s_QDf5bGrRNUHiV2PX3ECFrx
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：萬曆丙戌科進士同年總錄
+          source: *a2
+      object_person:
+        id: p_4T4YhsidVU2NFfdAtSPY8Z
+        status: active
+        display_name: 王立隆
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_SrXwn6FLJQU5NtEibtTJY9
+        subject_person_id: p_2upGeiN52eY6RGi8eXqg1R
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_p67X5jLwzT8c9HGCZxfSPM
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ftf1yA412eJcu9CY2iUUnc
+          claim_id: c_SrXwn6FLJQU5NtEibtTJY9
+          source_id: s_hv33tRvBGoTiGFKYSfqn28
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_EW7eA8CkqCfaKMsaTQj8e1
+          claim_id: c_SrXwn6FLJQU5NtEibtTJY9
+          source_id: s_5hNJBSQqRZAFYqPJdrg7y8
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_5hNJBSQqRZAFYqPJdrg7y8
+            source_type: api_record
+            title: 维基数据：吴氏（Q65833363）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q65833363
+            external_identifier: Q65833363
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:07:06.713Z
+            metadata_json: null
+        - id: cs_vxHwadvZFMAELH4T4rSAK5
+          claim_id: c_SrXwn6FLJQU5NtEibtTJY9
+          source_id: s_QDf5bGrRNUHiV2PX3ECFrx
+          stance: supports
+          locator: 亲属关系：妻子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：萬曆丙戌科進士同年總錄
+          source: *a2
+      object_person:
+        id: p_p67X5jLwzT8c9HGCZxfSPM
+        status: active
+        display_name: 吴氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -312,11 +418,15 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_trUE1ub3cUR7dMLX7JC1NK | 王宗沐 | accepted |
+| children | p_4T4YhsidVU2NFfdAtSPY8Z | 王立隆 | accepted |
+| spouses | p_p67X5jLwzT8c9HGCZxfSPM | 吴氏 | accepted |
 
 ## 外部来源
 
+- [维基数据：王立隆（Q45438687）](https://www.wikidata.org/wiki/Q45438687)
 - [维基数据：王士昌（Q15950979）](https://www.wikidata.org/wiki/Q15950979)
 - [维基数据：王宗沐（Q15916933）](https://www.wikidata.org/wiki/Q15916933)
+- [维基数据：吴氏（Q65833363）](https://www.wikidata.org/wiki/Q65833363)
 - [中文维基百科：王士昌](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A3%AB%E6%98%8C)
 - [CBDB 中国历代人物传记资料库：王士昌（35069）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35069&o=json)
 - [CBDB 中国历代人物传记资料库：王宗沐（35065）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35065&o=json)

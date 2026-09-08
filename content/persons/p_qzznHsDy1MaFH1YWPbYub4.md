@@ -4,7 +4,7 @@ id: p_qzznHsDy1MaFH1YWPbYub4
 status: active
 merged_into: null
 display_name: 王培龄
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_qTrXfDWBFpFpZgrDZ9JGLL
             source_type: api_record
             title: 维基数据：王培龄（Q45690317）
@@ -155,11 +155,128 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_JErb13NwKanyRCrk8HTQXg
+        subject_person_id: p_KHASkzeAzAbrH4KC5REzz6
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_qzznHsDy1MaFH1YWPbYub4
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2GhSyhg3hzUTNM1hHACgbs
+          claim_id: c_JErb13NwKanyRCrk8HTQXg
+          source_id: s_7uDJHF5B7XAk94UpqzckJt
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_7uDJHF5B7XAk94UpqzckJt
+            source_type: api_record
+            title: 维基数据：王爵（Q45449767）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45449767
+            external_identifier: Q45449767
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:49.962Z
+            metadata_json: null
+        - id: cs_hGZ3Wk1bhvpLcaJGnMNJtj
+          claim_id: c_JErb13NwKanyRCrk8HTQXg
+          source_id: s_qTrXfDWBFpFpZgrDZ9JGLL
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_GEYCCnYM5BifuLFxfS77vG
+          claim_id: c_JErb13NwKanyRCrk8HTQXg
+          source_id: s_3U5kP6NchRmUxN1ysZp8Jt
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：嘉靖八年進士登科錄:一卷
+          source:
+            id: s_3U5kP6NchRmUxN1ysZp8Jt
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王爵（288334）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288334&o=json
+            external_identifier: CBDB:288334
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:59:50.101Z
+            metadata_json: null
+      object_person:
+        id: p_KHASkzeAzAbrH4KC5REzz6
+        status: active
+        display_name: 王爵
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_Lr6V1C1pwEawbgMgP4yGWa
+        subject_person_id: p_NoAq9miu6kdHMYDNaGmzDr
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_qzznHsDy1MaFH1YWPbYub4
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5QvEXZ9NxDsgqZz56k8Exs
+          claim_id: c_Lr6V1C1pwEawbgMgP4yGWa
+          source_id: s_qTrXfDWBFpFpZgrDZ9JGLL
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_PnYFGZpE3tK1HgrTSRcitz
+          claim_id: c_Lr6V1C1pwEawbgMgP4yGWa
+          source_id: s_Exy2Giuho6h2p3V5NW5Bgi
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_Exy2Giuho6h2p3V5NW5Bgi
+            source_type: api_record
+            title: 维基数据：崔氏（Q65812398）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q65812398
+            external_identifier: Q65812398
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+        - id: cs_co2Xo3u5Cz5Q4kBqdG4qeA
+          claim_id: c_Lr6V1C1pwEawbgMgP4yGWa
+          source_id: s_ts58X1Zaop75mBb14WiveM
+          stance: supports
+          locator: 亲属关系：妻子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：嘉靖八年進士登科錄:一卷
+          source: *a1
+      object_person:
+        id: p_NoAq9miu6kdHMYDNaGmzDr
+        status: active
+        display_name: 崔氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -181,8 +298,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_KHASkzeAzAbrH4KC5REzz6 | 王爵 | accepted |
+| spouses | p_NoAq9miu6kdHMYDNaGmzDr | 崔氏 | accepted |
 
 ## 外部来源
 
+- [维基数据：崔氏（Q65812398）](https://www.wikidata.org/wiki/Q65812398)
+- [维基数据：王爵（Q45449767）](https://www.wikidata.org/wiki/Q45449767)
 - [维基数据：王培龄（Q45690317）](https://www.wikidata.org/wiki/Q45690317)
+- [CBDB 中国历代人物传记资料库：王爵（288334）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288334&o=json)
 - [CBDB 中国历代人物传记资料库：王培齡（202447）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202447&o=json)

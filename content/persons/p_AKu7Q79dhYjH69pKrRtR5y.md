@@ -4,7 +4,7 @@ id: p_AKu7Q79dhYjH69pKrRtR5y
 status: active
 merged_into: null
 display_name: 王之翰
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -167,7 +167,64 @@ relationships:
         status: active
         display_name: 王重光
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_8p47PRfUhrPUZAjxfRr92k
+        subject_person_id: p_AKu7Q79dhYjH69pKrRtR5y
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_hkxRnkwdABHFBvtuuQxejY
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_caKHFs6AmvpzWYtJFVPNpp
+          claim_id: c_8p47PRfUhrPUZAjxfRr92k
+          source_id: s_u98co3v7JVQWnUh6hzZVZy
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_u98co3v7JVQWnUh6hzZVZy
+            source_type: api_record
+            title: 维基数据：王之翰（Q45450999）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45450999
+            external_identifier: Q45450999
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:00:09.271Z
+            metadata_json: null
+        - id: cs_UttoqfvzUf46WWLWLMHz6h
+          claim_id: c_8p47PRfUhrPUZAjxfRr92k
+          source_id: s_hU2T3rNMDcHdxgdRjFWsNh
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_hU2T3rNMDcHdxgdRjFWsNh
+            source_type: api_record
+            title: 维基数据：王象坤（Q16904084）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q16904084
+            external_identifier: Q16904084
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:07:07.754Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%B1%A1%E5%9D%A4
+      object_person:
+        id: p_hkxRnkwdABHFBvtuuQxejY
+        status: active
+        display_name: 王象坤
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -192,9 +249,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_2XaF6KrMwGSDeaU76DAGrz | 王重光 | accepted |
+| children | p_hkxRnkwdABHFBvtuuQxejY | 王象坤 | accepted |
 
 ## 外部来源
 
+- [维基数据：王象坤（Q16904084）](https://www.wikidata.org/wiki/Q16904084)
 - [维基数据：王之翰（Q45450999）](https://www.wikidata.org/wiki/Q45450999)
 - [维基数据：王重光（Q15935070）](https://www.wikidata.org/wiki/Q15935070)
 - [CBDB 中国历代人物传记资料库：王之翰（217735）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217735&o=json)

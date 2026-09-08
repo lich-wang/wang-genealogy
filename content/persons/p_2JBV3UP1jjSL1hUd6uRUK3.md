@@ -4,7 +4,7 @@ id: p_2JBV3UP1jjSL1hUd6uRUK3
 status: active
 merged_into: null
 display_name: 王鸾
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_AzvgXDoZLR15WaH1xj38Sy
             source_type: api_record
             title: 维基数据：王鸾（Q45580943）
@@ -110,7 +110,52 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_FYkNrP5J2b6faMGQ58xi54
+        subject_person_id: p_LhDftPTdBSJ1CGALBq6bm6
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_2JBV3UP1jjSL1hUd6uRUK3
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_eq3q819QEZHT87fWJTX1Tr
+          claim_id: c_FYkNrP5J2b6faMGQ58xi54
+          source_id: s_AzvgXDoZLR15WaH1xj38Sy
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_DkC5M1fsfYnEmniBJp2VKg
+          claim_id: c_FYkNrP5J2b6faMGQ58xi54
+          source_id: s_F9Mri2PURAb1LHFviet2Zn
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_F9Mri2PURAb1LHFviet2Zn
+            source_type: api_record
+            title: 维基数据：王铭（Q45580879）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45580879
+            external_identifier: Q45580879
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:58.883Z
+            metadata_json: null
+      object_person:
+        id: p_LhDftPTdBSJ1CGALBq6bm6
+        status: active
+        display_name: 王铭
+        merged_into_person_id: null
   children:
     - claim:
         id: c_KivXHi7fCLDAWcjhNMoiWj
@@ -191,10 +236,12 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_LhDftPTdBSJ1CGALBq6bm6 | 王铭 | accepted |
 | children | p_bZ12YW1VvZ8wACEDC3JXA6 | 王佐 | accepted |
 
 ## 外部来源
 
 - [维基数据：王鸾（Q45580943）](https://www.wikidata.org/wiki/Q45580943)
+- [维基数据：王铭（Q45580879）](https://www.wikidata.org/wiki/Q45580879)
 - [维基数据：王佐（Q15928723）](https://www.wikidata.org/wiki/Q15928723)
 - [CBDB 中国历代人物传记资料库：王鸞（222285）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222285&o=json)

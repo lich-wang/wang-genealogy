@@ -4,7 +4,7 @@ id: p_gzNfjAGXGNGgShinLATrJk
 status: active
 merged_into: null
 display_name: 王稷
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -174,7 +174,7 @@ properties:
           locator: Q16077527
           quotation: null
           interpretation_note: null
-          source:
+          source: &a1
             id: s_mHVkfoqCkYL3B42p77zTyQ
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：王稷（189639）
@@ -286,7 +286,73 @@ relationships:
         status: active
         display_name: 王锷
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_mKU1vBk1R1r9uPBaqwm4EB
+        subject_person_id: p_gzNfjAGXGNGgShinLATrJk
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_HptMLAHHNTiRkt9PHs5tuR
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_F1jWNqGsxNUN83qb6JLqux
+          claim_id: c_mKU1vBk1R1r9uPBaqwm4EB
+          source_id: s_eDBdduCacEAnjr5dfvhmsg
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_eDBdduCacEAnjr5dfvhmsg
+            source_type: api_record
+            title: 维基数据：王稷（Q16077527）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q16077527
+            external_identifier: Q16077527
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:49.962Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%A8%B7_(%E5%94%90%E6%9C%9D)
+        - id: cs_9MevW2MM49h22kBVCuQziC
+          claim_id: c_mKU1vBk1R1r9uPBaqwm4EB
+          source_id: s_YJ3KArwqyfyzvA8rS2SPbY
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_YJ3KArwqyfyzvA8rS2SPbY
+            source_type: api_record
+            title: 维基数据：王叔泰（Q45501794）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45501794
+            external_identifier: Q45501794
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:54.114Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%8F%94%E6%B3%B0
+        - id: cs_2Bb3mj25ab4y8JAXFxEK5k
+          claim_id: c_mKU1vBk1R1r9uPBaqwm4EB
+          source_id: s_mHVkfoqCkYL3B42p77zTyQ
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：唐五代人物傳記與社會網絡資料庫(1.0版)
+          source: *a1
+      object_person:
+        id: p_HptMLAHHNTiRkt9PHs5tuR
+        status: active
+        display_name: 王叔泰
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -313,11 +379,13 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_ThZ1fLjfnyC98szbw3tnMJ | 王锷 | accepted |
+| children | p_HptMLAHHNTiRkt9PHs5tuR | 王叔泰 | accepted |
 
 ## 外部来源
 
 - [维基数据：王锷（Q15930590）](https://www.wikidata.org/wiki/Q15930590)
 - [维基数据：王稷（Q16077527）](https://www.wikidata.org/wiki/Q16077527)
+- [维基数据：王叔泰（Q45501794）](https://www.wikidata.org/wiki/Q45501794)
 - [中文维基百科：王稷 (唐朝)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%A8%B7_(%E5%94%90%E6%9C%9D))
 - [CBDB 中国历代人物传记资料库：王鍔（186698）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=186698&o=json)
 - [CBDB 中国历代人物传记资料库：王稷（189639）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=189639&o=json)

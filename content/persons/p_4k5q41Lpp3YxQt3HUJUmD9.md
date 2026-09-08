@@ -4,7 +4,7 @@ id: p_4k5q41Lpp3YxQt3HUJUmD9
 status: active
 merged_into: null
 display_name: 王延翰
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: 导言
           quotation: 王延翰：閩嗣王王延翰（？—927年1月14日），字子逸，五代十国
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
-          source:
+          source: &a1
             id: s_iOlXOmA7ram19ksFDez7ri
             source_type: website
             title: 中文维基百科：王延翰
@@ -232,7 +232,53 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_XQ5TUqioaGvizrK1QJubd1
+        subject_person_id: p_4k5q41Lpp3YxQt3HUJUmD9
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_KEYFMRqtMGPe4QDG5jAsCy
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zvZMHxkGx5iF4wGwu7K31x
+          claim_id: c_XQ5TUqioaGvizrK1QJubd1
+          source_id: s_iOlXOmA7ram19ksFDez7ri
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_DaEV8AySXr757VhtwuyhDx
+          claim_id: c_XQ5TUqioaGvizrK1QJubd1
+          source_id: s_XqG8bMamF8R9wahUh53HeM
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_XqG8bMamF8R9wahUh53HeM
+            source_type: api_record
+            title: 维基数据：崔夫人（Q4846238）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q4846238
+            external_identifier: Q4846238
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E5%B4%94%E5%A4%AB%E4%BA%BA_(%E7%8E%8B%E5%BB%B6%E7%BF%B0)
+      object_person:
+        id: p_KEYFMRqtMGPe4QDG5jAsCy
+        status: active
+        display_name: 崔夫人
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -256,9 +302,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_8YMP7N65fqbbLv9pMGphFA | 王审知 | accepted |
+| spouses | p_KEYFMRqtMGPe4QDG5jAsCy | 崔夫人 | accepted |
 
 ## 外部来源
 
+- [维基数据：崔夫人（Q4846238）](https://www.wikidata.org/wiki/Q4846238)
 - [维基数据：王审知（Q708354）](https://www.wikidata.org/wiki/Q708354)
 - [维基数据：王延翰（Q2109907）](https://www.wikidata.org/wiki/Q2109907)
 - [中文维基百科：王延翰](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%B6%E7%BF%B0)

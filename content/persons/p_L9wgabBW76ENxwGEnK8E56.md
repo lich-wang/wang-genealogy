@@ -4,7 +4,7 @@ id: p_L9wgabBW76ENxwGEnK8E56
 status: active
 merged_into: null
 display_name: 王晏恭
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_M6pT5SJYio7TACr5zCkNku
             source_type: api_record
             title: 维基数据：王晏恭（Q45603597）
@@ -152,7 +152,53 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_UzGjYXXG4oefKRQ8MJD8QA
+        subject_person_id: p_6BymFd7sw6j7GAmg7erqPj
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_L9wgabBW76ENxwGEnK8E56
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cryJ7Y4ijTQgV6X9fSwPbc
+          claim_id: c_UzGjYXXG4oefKRQ8MJD8QA
+          source_id: s_YtiuJ4x6oyDJbCvjY9nQK7
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_YtiuJ4x6oyDJbCvjY9nQK7
+            source_type: api_record
+            title: 维基数据：王智兴（Q7967776）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q7967776
+            external_identifier: Q7967776
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:24.494Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%99%BA%E8%88%88
+        - id: cs_r6X9LYDLhB58z1VPSkp9ia
+          claim_id: c_UzGjYXXG4oefKRQ8MJD8QA
+          source_id: s_M6pT5SJYio7TACr5zCkNku
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+      object_person:
+        id: p_6BymFd7sw6j7GAmg7erqPj
+        status: active
+        display_name: 王智兴
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -178,8 +224,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_6BymFd7sw6j7GAmg7erqPj | 王智兴 | accepted |
 
 ## 外部来源
 
 - [维基数据：王晏恭（Q45603597）](https://www.wikidata.org/wiki/Q45603597)
+- [维基数据：王智兴（Q7967776）](https://www.wikidata.org/wiki/Q7967776)
 - [CBDB 中国历代人物传记资料库：王晏恭（184944）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=184944&o=json)

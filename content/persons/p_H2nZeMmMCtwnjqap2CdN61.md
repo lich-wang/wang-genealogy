@@ -4,7 +4,7 @@ id: p_H2nZeMmMCtwnjqap2CdN61
 status: active
 merged_into: null
 display_name: 王贞淑
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_GWy8NVeiDkvyLN5b6N5CTi
             source_type: api_record
             title: 维基数据：王贞淑（Q45662658）
@@ -189,7 +189,60 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_H49E6DVD6gTLKCi4zS6Z7i
+        subject_person_id: p_H2nZeMmMCtwnjqap2CdN61
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_uMPMUBWKq1jiRk6LFHTei1
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qyAAjZqd5Qc1pqj2sbPLDE
+          claim_id: c_H49E6DVD6gTLKCi4zS6Z7i
+          source_id: s_GWy8NVeiDkvyLN5b6N5CTi
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_XHw2TtnH4xpwJvAPgvSAqf
+          claim_id: c_H49E6DVD6gTLKCi4zS6Z7i
+          source_id: s_9X78QxJNPvr6JG9B2uhHfj
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_9X78QxJNPvr6JG9B2uhHfj
+            source_type: api_record
+            title: 维基数据：陈仪春（Q45663286）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45663286
+            external_identifier: Q45663286
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:07:20.507Z
+            metadata_json: null
+        - id: cs_cUqrSxpjDksyy8XdpxNWbh
+          claim_id: c_H49E6DVD6gTLKCi4zS6Z7i
+          source_id: s_4W7zpJ6YbUVPw2Mp3oSU2f
+          stance: supports
+          locator: 亲属关系：丈夫
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：明清婦女著作數據庫
+          source: *a1
+      object_person:
+        id: p_uMPMUBWKq1jiRk6LFHTei1
+        status: active
+        display_name: 陈仪春
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -211,9 +264,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_WgJjrR3eV8FZmEbV9t77oX | 王思任 | accepted |
+| spouses | p_uMPMUBWKq1jiRk6LFHTei1 | 陈仪春 | accepted |
 
 ## 外部来源
 
+- [维基数据：陈仪春（Q45663286）](https://www.wikidata.org/wiki/Q45663286)
 - [维基数据：王思任（Q15938368）](https://www.wikidata.org/wiki/Q15938368)
 - [维基数据：王贞淑（Q45662658）](https://www.wikidata.org/wiki/Q45662658)
 - [CBDB 中国历代人物传记资料库：王思任（71875）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=71875&o=json)

@@ -4,7 +4,7 @@ id: p_Rqtj2SNyBdvLmz523jMBP7
 status: active
 merged_into: null
 display_name: 王氏
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -72,11 +72,103 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_vb8RGGay4VYwNP7cBf1QHM
+        subject_person_id: p_x9CQGixzEkUnA7H8VckBPu
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Rqtj2SNyBdvLmz523jMBP7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_iqMDF2u83EoNUXuURU7A6v
+          claim_id: c_vb8RGGay4VYwNP7cBf1QHM
+          source_id: s_SwHU4SeGpPq4puTdYE17fn
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_SwHU4SeGpPq4puTdYE17fn
+            source_type: api_record
+            title: 维基数据：王引之（Q11573061）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q11573061
+            external_identifier: Q11573061
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:19.447Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BC%95%E4%B9%8B
+        - id: cs_27UgPkcWJ9x9GHy5ES63qN
+          claim_id: c_vb8RGGay4VYwNP7cBf1QHM
+          source_id: s_6RNWqL19YxdULNCXE7RTBw
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+      object_person:
+        id: p_x9CQGixzEkUnA7H8VckBPu
+        status: active
+        display_name: 王引之
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_6Eq8HbLk4QcLgULavW2vbW
+        subject_person_id: p_mX3GhtHPCXiAf4LBu5o6P4
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_Rqtj2SNyBdvLmz523jMBP7
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VRMyakkwDvEPU12DNYEyNd
+          claim_id: c_6Eq8HbLk4QcLgULavW2vbW
+          source_id: s_6RNWqL19YxdULNCXE7RTBw
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_BVGJbFLEyLW9kYvS7kvGPB
+          claim_id: c_6Eq8HbLk4QcLgULavW2vbW
+          source_id: s_CC7x2cYhAh7m1CUb8G1iVZ
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_CC7x2cYhAh7m1CUb8G1iVZ
+            source_type: api_record
+            title: 维基数据：史致蕃（Q13688950）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q13688950
+            external_identifier: Q13688950
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E5%8F%B2%E8%87%B4%E8%95%83
+      object_person:
+        id: p_mX3GhtHPCXiAf4LBu5o6P4
+        status: active
+        display_name: 史致蕃
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -97,7 +189,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_x9CQGixzEkUnA7H8VckBPu | 王引之 | accepted |
+| spouses | p_mX3GhtHPCXiAf4LBu5o6P4 | 史致蕃 | accepted |
 
 ## 外部来源
 
+- [维基数据：史致蕃（Q13688950）](https://www.wikidata.org/wiki/Q13688950)
 - [维基数据：王氏（Q13688975）](https://www.wikidata.org/wiki/Q13688975)
+- [维基数据：王引之（Q11573061）](https://www.wikidata.org/wiki/Q11573061)

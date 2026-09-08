@@ -17,7 +17,10 @@
   "entries": [
     {
       "id": "kinship-round3-2026-09",
-      "status": "reviewed_pending_import",
+      "status": "migrated_to_markdown",
+      "migrated_at": "2026-09-08",
+      "imported_relationships": 326,
+      "imported_people": 139,
       "reviewer": "luna+online-research",
       "plan": "scripts/kinship-round3-final-approved-plan-2026-09.json",
       "decisions": "scripts/kinship-round3-final-decisions-2026-09.json",
@@ -25,6 +28,30 @@
       "accepted": 326,
       "rejected": 196,
       "repairs": 1,
+      "manual_review": 0
+    },
+    {
+      "id": "cbdb-existing-kinship-stage3-2026-09",
+      "kind": "kinship_expansion",
+      "status": "migrated_to_markdown",
+      "migrated_at": "2026-09-08",
+      "plan": "scripts/cbdb-stage3-kinship-approved-plan-2026-09.json",
+      "accepted": 11,
+      "rejected": 5,
+      "imported_relationships": 11,
+      "imported_people": 0,
+      "manual_review": 0
+    },
+    {
+      "id": "wikidata-existing-kinship-2026-09",
+      "kind": "kinship_expansion",
+      "status": "migrated_to_markdown",
+      "migrated_at": "2026-09-08",
+      "plan": "scripts/wikidata-existing-kinship-approved-plan-2026-09.json",
+      "accepted": 8,
+      "rejected": 1360,
+      "imported_relationships": 8,
+      "imported_people": 0,
       "manual_review": 0
     },
     {

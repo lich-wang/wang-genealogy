@@ -4,7 +4,7 @@ id: p_RM3cVqPfxibJdrESfP6QB2
 status: active
 merged_into: null
 display_name: 王正廷
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -229,7 +229,110 @@ relationships:
         status: active
         display_name: 王际唐
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_Hfh9BzEMyac4VRVCqWWWTs
+        subject_person_id: p_RM3cVqPfxibJdrESfP6QB2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_XXLQ6CceCpx6W9DLZVXBCu
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wCqkFs2rDfgniUJyYcE3ve
+          claim_id: c_Hfh9BzEMyac4VRVCqWWWTs
+          source_id: s_EGoLNKkwS4h1c5PFs6DWdp
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: &a1
+            id: s_EGoLNKkwS4h1c5PFs6DWdp
+            source_type: api_record
+            title: 维基数据：王正廷（Q6127766）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q6127766
+            external_identifier: Q6127766
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:03.014Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%AD%A3%E5%BB%B7
+        - id: cs_enNBZB8YD2ZQr1t7y5EeR3
+          claim_id: c_Hfh9BzEMyac4VRVCqWWWTs
+          source_id: s_kn9qGQ2yeVCSJ5fQVNcBtB
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_kn9qGQ2yeVCSJ5fQVNcBtB
+            source_type: api_record
+            title: 维基数据：王恭瑛（Q112689610）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q112689610
+            external_identifier: Q112689610
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person:
+        id: p_XXLQ6CceCpx6W9DLZVXBCu
+        status: active
+        display_name: 王恭瑛
+        merged_into_person_id: null
+    - claim:
+        id: c_8fRZ7TAscsPLu7FK5B6CF2
+        subject_person_id: p_RM3cVqPfxibJdrESfP6QB2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_HGMsBUCXL9VLu53ZCQ9HVs
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5AdEFN5kPYAmS2ki2wKb5W
+          claim_id: c_8fRZ7TAscsPLu7FK5B6CF2
+          source_id: s_EGoLNKkwS4h1c5PFs6DWdp
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_HxJ77riw4zTrt9DAcptiGq
+          claim_id: c_8fRZ7TAscsPLu7FK5B6CF2
+          source_id: s_GhqQyCpS37UyGohQP48oKt
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_GhqQyCpS37UyGohQP48oKt
+            source_type: api_record
+            title: 维基数据：王恭玮（Q18654595）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q18654595
+            external_identifier: Q18654595
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%81%AD%E7%8E%AE
+      object_person:
+        id: p_HGMsBUCXL9VLu53ZCQ9HVs
+        status: active
+        display_name: 王恭玮
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -256,9 +359,13 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_Mu15E56wyrNWUKHP8qFxt8 | 王际唐 | accepted |
+| children | p_XXLQ6CceCpx6W9DLZVXBCu | 王恭瑛 | accepted |
+| children | p_HGMsBUCXL9VLu53ZCQ9HVs | 王恭玮 | accepted |
 
 ## 外部来源
 
+- [维基数据：王恭玮（Q18654595）](https://www.wikidata.org/wiki/Q18654595)
+- [维基数据：王恭瑛（Q112689610）](https://www.wikidata.org/wiki/Q112689610)
 - [维基数据：王际唐（Q30949751）](https://www.wikidata.org/wiki/Q30949751)
 - [维基数据：王正廷（Q6127766）](https://www.wikidata.org/wiki/Q6127766)
 - [中文维基百科：王正廷](https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%AD%A3%E5%BB%B7)

@@ -4,7 +4,7 @@ id: p_6MGDJDsMfhoCMpi8TCXnFR
 status: active
 merged_into: null
 display_name: 王承衍
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a1
             id: s_5h3ogmep1VLLiYxHP9RUqR
             source_type: api_record
             title: 维基数据：王承衍（Q28415659）
@@ -131,7 +131,7 @@ properties:
           locator: Q28415659
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_c7NdGSVJDpv8cCcn7qJgcN
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：王承衍（3939）
@@ -301,9 +301,222 @@ relationships:
         status: active
         display_name: 王世隆
         merged_into_person_id: null
+    - claim:
+        id: c_tqQ5NDXWJETK2mH3CFovQ2
+        subject_person_id: p_6MGDJDsMfhoCMpi8TCXnFR
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Bxfq3zjpoq2kKYP1QvY7sM
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZYJiVYdmF7cuEsvT8UbBs1
+          claim_id: c_tqQ5NDXWJETK2mH3CFovQ2
+          source_id: s_5h3ogmep1VLLiYxHP9RUqR
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_ht4upG342RJ3t53N17fHx5
+          claim_id: c_tqQ5NDXWJETK2mH3CFovQ2
+          source_id: s_jvpVhi8Dn6ZYk8DHKdDRT1
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_jvpVhi8Dn6ZYk8DHKdDRT1
+            source_type: api_record
+            title: 维基数据：王世融（Q45363002）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45363002
+            external_identifier: Q45363002
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:54.114Z
+            metadata_json: null
+        - id: cs_b3GtbM2kDC4Yk5jbdvusuW
+          claim_id: c_tqQ5NDXWJETK2mH3CFovQ2
+          source_id: s_c7NdGSVJDpv8cCcn7qJgcN
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：宋人傳記資料索引(電子版)
+          source: *a2
+      object_person:
+        id: p_Bxfq3zjpoq2kKYP1QvY7sM
+        status: active
+        display_name: 王世融
+        merged_into_person_id: null
+    - claim:
+        id: c_XkKpWMZJqjkuZkdVeCfh8F
+        subject_person_id: p_6MGDJDsMfhoCMpi8TCXnFR
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_KFkPjiE1rx8LUbA89gQMuB
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QSZmwSYj4C6Ftq7JjUR94C
+          claim_id: c_XkKpWMZJqjkuZkdVeCfh8F
+          source_id: s_5h3ogmep1VLLiYxHP9RUqR
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_Xg68BA9QHRGdhJNGsuaFsz
+          claim_id: c_XkKpWMZJqjkuZkdVeCfh8F
+          source_id: s_Dxgfx8QZY4DLoNPf3g4JRd
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_Dxgfx8QZY4DLoNPf3g4JRd
+            source_type: api_record
+            title: 维基数据：王世雄（Q45387123）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45387123
+            external_identifier: Q45387123
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:56.022Z
+            metadata_json: null
+        - id: cs_AUfdAdfabARPGpTnVE78mZ
+          claim_id: c_XkKpWMZJqjkuZkdVeCfh8F
+          source_id: s_c7NdGSVJDpv8cCcn7qJgcN
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：宋人傳記資料索引(電子版)
+          source: *a2
+      object_person:
+        id: p_KFkPjiE1rx8LUbA89gQMuB
+        status: active
+        display_name: 王世雄
+        merged_into_person_id: null
+    - claim:
+        id: c_evgCh8xQSPKsWTASHJLhJ5
+        subject_person_id: p_6MGDJDsMfhoCMpi8TCXnFR
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_g8hsSNbpb5At2Fke7RoQLi
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_iDmWFAgK7DPmfi9rWHSZFR
+          claim_id: c_evgCh8xQSPKsWTASHJLhJ5
+          source_id: s_5h3ogmep1VLLiYxHP9RUqR
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_UsQQHtCZiBKx72mFcBV7gG
+          claim_id: c_evgCh8xQSPKsWTASHJLhJ5
+          source_id: s_ZAiDsNLnd3WN2ziSoAzr7o
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_ZAiDsNLnd3WN2ziSoAzr7o
+            source_type: api_record
+            title: 维基数据：王世安（Q45387128）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45387128
+            external_identifier: Q45387128
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:56.022Z
+            metadata_json: null
+        - id: cs_MihNqZ3SJLzVCCk6w9Rjg5
+          claim_id: c_evgCh8xQSPKsWTASHJLhJ5
+          source_id: s_c7NdGSVJDpv8cCcn7qJgcN
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：宋人傳記資料索引(電子版)
+          source: *a2
+      object_person:
+        id: p_g8hsSNbpb5At2Fke7RoQLi
+        status: active
+        display_name: 王世安
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_oWeKDaPHezERy2fdS4Pdfq
+        subject_person_id: p_6MGDJDsMfhoCMpi8TCXnFR
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_kPcJSE7EkV4dMvXgKH8AyL
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_oK1Lu7db4rivA3uCdWTzcP
+          claim_id: c_oWeKDaPHezERy2fdS4Pdfq
+          source_id: s_5h3ogmep1VLLiYxHP9RUqR
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_7jT1HDaQiCseBuDEqnAbwW
+          claim_id: c_oWeKDaPHezERy2fdS4Pdfq
+          source_id: s_MhLT1sQmDJ7PHPDAKqbyvv
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_MhLT1sQmDJ7PHPDAKqbyvv
+            source_type: api_record
+            title: 维基数据：魏国大长公主（Q13650437）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q13650437
+            external_identifier: Q13650437
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:48.390Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E9%AD%8F%E5%9C%8B%E5%A4%A7%E9%95%B7%E5%85%AC%E4%B8%BB
+        - id: cs_XDymYKisDC4EGdKFqMrXgJ
+          claim_id: c_oWeKDaPHezERy2fdS4Pdfq
+          source_id: s_c7NdGSVJDpv8cCcn7qJgcN
+          stance: supports
+          locator: 亲属关系：妻子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：宋人傳記資料索引(電子版)
+          source: *a2
+      object_person:
+        id: p_kPcJSE7EkV4dMvXgKH8AyL
+        status: active
+        display_name: 魏国大长公主
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -327,12 +540,20 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_jhAXJEb1U9Ldt73n9uUeLS | 王审琦 | accepted |
 | children | p_yr8fqvLJH1oMzLPa3PcC7o | 王世隆 | accepted |
+| children | p_Bxfq3zjpoq2kKYP1QvY7sM | 王世融 | accepted |
+| children | p_KFkPjiE1rx8LUbA89gQMuB | 王世雄 | accepted |
+| children | p_g8hsSNbpb5At2Fke7RoQLi | 王世安 | accepted |
+| spouses | p_kPcJSE7EkV4dMvXgKH8AyL | 魏国大长公主 | accepted |
 
 ## 外部来源
 
 - [维基数据：王承衍（Q28415659）](https://www.wikidata.org/wiki/Q28415659)
 - [维基数据：王审琦（Q15940340）](https://www.wikidata.org/wiki/Q15940340)
+- [维基数据：王世安（Q45387128）](https://www.wikidata.org/wiki/Q45387128)
 - [维基数据：王世隆（Q45387131）](https://www.wikidata.org/wiki/Q45387131)
+- [维基数据：王世融（Q45363002）](https://www.wikidata.org/wiki/Q45363002)
+- [维基数据：王世雄（Q45387123）](https://www.wikidata.org/wiki/Q45387123)
+- [维基数据：魏国大长公主（Q13650437）](https://www.wikidata.org/wiki/Q13650437)
 - [中文维基百科：王承衍](https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%89%BF%E8%A1%8D)
 - [CBDB 中国历代人物传记资料库：王承衍（3939）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3939&o=json)
 - [CBDB 中国历代人物传记资料库：王審琦（3976）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3976&o=json)

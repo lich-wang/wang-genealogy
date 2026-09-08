@@ -4,7 +4,7 @@ id: p_2hnAsxvMgKbcJuXTakDDKw
 status: active
 merged_into: null
 display_name: 王端甫
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_B9rgNuKGrgQq9RDvYHtXnE
             source_type: api_record
             title: 维基数据：王端甫（Q45401684）
@@ -186,7 +186,60 @@ relationships:
         status: active
         display_name: 王拱辰
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_DkmcpwkWJVx1naboMBJ9ke
+        subject_person_id: p_2hnAsxvMgKbcJuXTakDDKw
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_t4r6xJhA7S53USBaqKsA6D
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AZQGaW2iVAgzrA3uFqNySS
+          claim_id: c_DkmcpwkWJVx1naboMBJ9ke
+          source_id: s_B9rgNuKGrgQq9RDvYHtXnE
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_FWFpKeA9dnkqZCjy15AVFL
+          claim_id: c_DkmcpwkWJVx1naboMBJ9ke
+          source_id: s_k4cG5rN2dmbJBiGcNW8Vha
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_k4cG5rN2dmbJBiGcNW8Vha
+            source_type: api_record
+            title: 维基数据：王敏文（Q45359594）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45359594
+            external_identifier: Q45359594
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:07:12.061Z
+            metadata_json: null
+        - id: cs_vsfpzCqGZBE3J8YkuNe4to
+          claim_id: c_DkmcpwkWJVx1naboMBJ9ke
+          source_id: s_7ugFxnAQuBfpLJy4NUT4za
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：未知
+          source: *a1
+      object_person:
+        id: p_t4r6xJhA7S53USBaqKsA6D
+        status: active
+        display_name: 王敏文
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -211,10 +264,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_Hy3oL9P7FfBor4frFk5Jm5 | 王拱辰 | accepted |
+| children | p_t4r6xJhA7S53USBaqKsA6D | 王敏文 | accepted |
 
 ## 外部来源
 
 - [维基数据：王端甫（Q45401684）](https://www.wikidata.org/wiki/Q45401684)
 - [维基数据：王拱辰（Q15932959）](https://www.wikidata.org/wiki/Q15932959)
+- [维基数据：王敏文（Q45359594）](https://www.wikidata.org/wiki/Q45359594)
 - [CBDB 中国历代人物传记资料库：王端甫（22014）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22014&o=json)
 - [CBDB 中国历代人物传记资料库：王拱辰（1847）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1847&o=json)

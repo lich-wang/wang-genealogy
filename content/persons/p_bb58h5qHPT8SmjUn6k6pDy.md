@@ -4,7 +4,7 @@ id: p_bb58h5qHPT8SmjUn6k6pDy
 status: active
 merged_into: null
 display_name: 陆氏
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -95,7 +95,72 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_JQ1PJ16hMTvLGaUeXB8Hnv
+        subject_person_id: p_38MrYsNYkPoBeMisQP7Sof
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_bb58h5qHPT8SmjUn6k6pDy
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FWCmrG2ZfLDntf1eKQsQpZ
+          claim_id: c_JQ1PJ16hMTvLGaUeXB8Hnv
+          source_id: s_FdcsjYhgoT5aEMKGbVeF8a
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_FdcsjYhgoT5aEMKGbVeF8a
+            source_type: api_record
+            title: 维基数据：王经（Q45553378）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45553378
+            external_identifier: Q45553378
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:13.205Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%B6%93_(%E5%BC%98%E6%B2%BB%E9%80%B2%E5%A3%AB)
+        - id: cs_cw6L9GosMsn2zs2KV28FTN
+          claim_id: c_JQ1PJ16hMTvLGaUeXB8Hnv
+          source_id: s_ZUFtHbEdRzzD45azR6mv5z
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_8pA1AT7avxKLsbvdZZAfcv
+          claim_id: c_JQ1PJ16hMTvLGaUeXB8Hnv
+          source_id: s_ZYSuVXhQ51wXx8FMPigG2D
+          stance: supports
+          locator: 亲属关系：妻子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：弘治三年進士登科錄:一卷
+          source:
+            id: s_ZYSuVXhQ51wXx8FMPigG2D
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王經（200712）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200712&o=json
+            external_identifier: CBDB:200712
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:59:13.358Z
+            metadata_json: null
+      object_person:
+        id: p_38MrYsNYkPoBeMisQP7Sof
+        status: active
+        display_name: 王经
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -116,8 +181,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_38MrYsNYkPoBeMisQP7Sof | 王经 | accepted |
 
 ## 外部来源
 
 - [维基数据：陆氏（Q65818538）](https://www.wikidata.org/wiki/Q65818538)
+- [维基数据：王经（Q45553378）](https://www.wikidata.org/wiki/Q45553378)
 - [CBDB 中国历代人物传记资料库：陸氏（261821）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261821&o=json)
+- [CBDB 中国历代人物传记资料库：王經（200712）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200712&o=json)

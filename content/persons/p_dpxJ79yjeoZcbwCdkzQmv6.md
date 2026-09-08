@@ -4,7 +4,7 @@ id: p_dpxJ79yjeoZcbwCdkzQmv6
 status: active
 merged_into: null
 display_name: 王珪
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -178,7 +178,121 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_nVccjdq9QbygM31g8eGMnP
+        subject_person_id: p_HSq6viRBnzj6LqF76CNxvY
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_dpxJ79yjeoZcbwCdkzQmv6
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wQKXPx827577X86mvfZ45h
+          claim_id: c_nVccjdq9QbygM31g8eGMnP
+          source_id: s_pb1L8DCLiqYrJ4pXTXG8ce
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: &a2
+            id: s_pb1L8DCLiqYrJ4pXTXG8ce
+            source_type: api_record
+            title: 维基数据：王珪（Q1562454）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q1562454
+            external_identifier: Q1562454
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:58:53.404Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%8F%AA_(%E5%94%90%E6%9C%9D)
+        - id: cs_ZVTo9sLQPakTmKRcFX8nbM
+          claim_id: c_nVccjdq9QbygM31g8eGMnP
+          source_id: s_5364Pc1QEFgx1FqUbtfHiC
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_5364Pc1QEFgx1FqUbtfHiC
+            source_type: api_record
+            title: 维基数据：王𫖮（Q28413506）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q28413506
+            external_identifier: Q28413506
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:08.871Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%A1%97
+        - id: cs_zsx9fCWajsd61dfV6H7eVD
+          claim_id: c_nVccjdq9QbygM31g8eGMnP
+          source_id: s_GBLgewUNbb4a3CY2AFxH46
+          stance: supports
+          locator: 亲属关系：子 / 亲属关系：次子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：唐五代人物傳記與社會網絡資料庫(1.0版)；CBDB 注明此条来源：未知
+          source:
+            id: s_GBLgewUNbb4a3CY2AFxH46
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王顗（33012）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=33012&o=json
+            external_identifier: CBDB:33012
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:06:09.022Z
+            metadata_json: null
+      object_person:
+        id: p_HSq6viRBnzj6LqF76CNxvY
+        status: active
+        display_name: 王𫖮
+        merged_into_person_id: null
+    - claim:
+        id: c_mx2HMv8Jbn4nfdtBSNXp9d
+        subject_person_id: p_ppJ6EQ3ynJJawJNuqB48SQ
+        claim_kind: relationship
+        predicate: kinship.parent_of
+        object_person_id: p_dpxJ79yjeoZcbwCdkzQmv6
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_LxPykWYPqQY9S8cF4de1Bm
+          claim_id: c_mx2HMv8Jbn4nfdtBSNXp9d
+          source_id: s_cKaGAqc6XaeHmPKaBA7UBg
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_cKaGAqc6XaeHmPKaBA7UBg
+            source_type: api_record
+            title: 维基数据：王氏（Q65874579）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q65874579
+            external_identifier: Q65874579
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:18.753Z
+            metadata_json: null
+      object_person:
+        id: p_ppJ6EQ3ynJJawJNuqB48SQ
+        status: active
+        display_name: 王氏
+        merged_into_person_id: null
   children:
     - claim:
         id: c_LHBSPDK14jc8DKwmrKh3w4
@@ -256,6 +370,70 @@ relationships:
         status: active
         display_name: 王敬直
         merged_into_person_id: null
+    - claim:
+        id: c_zvH7gzuJVabq3n5A8JhkpD
+        subject_person_id: p_dpxJ79yjeoZcbwCdkzQmv6
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_JfWbDHNGFyJz6Cq8yoPLva
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HGT7byZ5xLMCYuRBsxHnvu
+          claim_id: c_zvH7gzuJVabq3n5A8JhkpD
+          source_id: s_e6LDhxKxZyo3PzSjXeRfWW
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_e6LDhxKxZyo3PzSjXeRfWW
+            source_type: api_record
+            title: 维基数据：王崇基（Q45422606）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45422606
+            external_identifier: Q45422606
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:14.259Z
+            metadata_json: null
+        - id: cs_oMHCa9hEGxjH7hRDztNXLE
+          claim_id: c_zvH7gzuJVabq3n5A8JhkpD
+          source_id: s_pb1L8DCLiqYrJ4pXTXG8ce
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_MkyFEAj7DPhrXFQJiGF54g
+          claim_id: c_zvH7gzuJVabq3n5A8JhkpD
+          source_id: s_oDcKaN4z8r7MvCks95jRoK
+          stance: supports
+          locator: 亲属关系：子 / 亲属关系：長子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：唐五代人物傳記與社會網絡資料庫(1.0版)；CBDB 注明此条来源：未知
+          source:
+            id: s_oDcKaN4z8r7MvCks95jRoK
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王珪（33013）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=33013&o=json
+            external_identifier: CBDB:33013
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:58:53.710Z
+            metadata_json: null
+      object_person:
+        id: p_JfWbDHNGFyJz6Cq8yoPLva
+        status: active
+        display_name: 王崇基
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -281,10 +459,17 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_HSq6viRBnzj6LqF76CNxvY | 王𫖮 | accepted |
+| parents | p_ppJ6EQ3ynJJawJNuqB48SQ | 王氏 | accepted |
 | children | p_H3Gcv5yupi2SQ8G254fb4U | 王敬直 | accepted |
+| children | p_JfWbDHNGFyJz6Cq8yoPLva | 王崇基 | accepted |
 
 ## 外部来源
 
+- [维基数据：王崇基（Q45422606）](https://www.wikidata.org/wiki/Q45422606)
 - [维基数据：王珪（Q1562454）](https://www.wikidata.org/wiki/Q1562454)
 - [维基数据：王敬直（Q10414698）](https://www.wikidata.org/wiki/Q10414698)
+- [维基数据：王氏（Q65874579）](https://www.wikidata.org/wiki/Q65874579)
+- [维基数据：王𫖮（Q28413506）](https://www.wikidata.org/wiki/Q28413506)
 - [CBDB 中国历代人物传记资料库：王珪（33013）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=33013&o=json)
+- [CBDB 中国历代人物传记资料库：王顗（33012）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=33012&o=json)

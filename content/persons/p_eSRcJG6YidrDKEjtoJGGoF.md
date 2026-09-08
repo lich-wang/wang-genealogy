@@ -4,7 +4,7 @@ id: p_eSRcJG6YidrDKEjtoJGGoF
 status: active
 merged_into: null
 display_name: 王罴
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_FNxSUx68S7PRyC1AAmAxw6
             source_type: api_record
             title: 维基数据：王罴（Q18700798）
@@ -199,7 +199,113 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_8SG11aK8KoHVh8ZCWQKJx8
+        subject_person_id: p_eSRcJG6YidrDKEjtoJGGoF
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_dsKdJmxGEgXimyPn78iufE
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Krf2pPfpDKVbCxxytyXWLk
+          claim_id: c_8SG11aK8KoHVh8ZCWQKJx8
+          source_id: s_7Ss8KmuHxjBqnB2FcgQvrd
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_7Ss8KmuHxjBqnB2FcgQvrd
+            source_type: api_record
+            title: 维基数据：王庆远（Q45679705）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45679705
+            external_identifier: Q45679705
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:17.691Z
+            metadata_json: null
+        - id: cs_QZkXeTrYGpxqr6K974jiz6
+          claim_id: c_8SG11aK8KoHVh8ZCWQKJx8
+          source_id: s_FNxSUx68S7PRyC1AAmAxw6
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_4WfTihLbDigYyr9MAFicDN
+          claim_id: c_8SG11aK8KoHVh8ZCWQKJx8
+          source_id: s_FGmK32RSrcm2vo4c1Hv9Ye
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：唐五代人物傳記與社會網絡資料庫(1.0版)
+          source: *a1
+      object_person:
+        id: p_dsKdJmxGEgXimyPn78iufE
+        status: active
+        display_name: 王庆远
+        merged_into_person_id: null
+    - claim:
+        id: c_1LFxFSsMpQ1f6uvExdu9Mv
+        subject_person_id: p_eSRcJG6YidrDKEjtoJGGoF
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_wjDeENxZiJFU8wRERBPeUd
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_aGWV5t5MPH79onVh6RSh74
+          claim_id: c_1LFxFSsMpQ1f6uvExdu9Mv
+          source_id: s_FNxSUx68S7PRyC1AAmAxw6
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_3u4DUMbmM9R4YGvdyLn23b
+          claim_id: c_1LFxFSsMpQ1f6uvExdu9Mv
+          source_id: s_dN76zU4uqPwowfDFaRB6fQ
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_dN76zU4uqPwowfDFaRB6fQ
+            source_type: api_record
+            title: 维基数据：王明远（Q45679997）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45679997
+            external_identifier: Q45679997
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+        - id: cs_MizPy5s2HvD731V5JRPYpF
+          claim_id: c_1LFxFSsMpQ1f6uvExdu9Mv
+          source_id: s_FGmK32RSrcm2vo4c1Hv9Ye
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：唐五代人物傳記與社會網絡資料庫(1.0版)
+          source: *a1
+      object_person:
+        id: p_wjDeENxZiJFU8wRERBPeUd
+        status: active
+        display_name: 王明远
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -225,8 +331,12 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_dsKdJmxGEgXimyPn78iufE | 王庆远 | accepted |
+| children | p_wjDeENxZiJFU8wRERBPeUd | 王明远 | accepted |
 
 ## 外部来源
 
+- [维基数据：王明远（Q45679997）](https://www.wikidata.org/wiki/Q45679997)
 - [维基数据：王罴（Q18700798）](https://www.wikidata.org/wiki/Q18700798)
+- [维基数据：王庆远（Q45679705）](https://www.wikidata.org/wiki/Q45679705)
 - [CBDB 中国历代人物传记资料库：王羆（175927）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175927&o=json)

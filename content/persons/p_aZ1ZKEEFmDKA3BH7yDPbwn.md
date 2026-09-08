@@ -4,7 +4,7 @@ id: p_aZ1ZKEEFmDKA3BH7yDPbwn
 status: active
 merged_into: null
 display_name: 王训
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_gBCYsYXeEkQEzdXgKakyEi
             source_type: api_record
             title: 维基数据：王训（Q45513566）
@@ -110,7 +110,52 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_SekJdk1RCpXuNnnLos18sU
+        subject_person_id: p_GNLnPFw1Dr1HJibhmrHDQH
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_aZ1ZKEEFmDKA3BH7yDPbwn
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gwNFW4axAxQhH8DGCtmTDu
+          claim_id: c_SekJdk1RCpXuNnnLos18sU
+          source_id: s_gBCYsYXeEkQEzdXgKakyEi
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_QxFAZ6kXtMNHEJK61ZFZqe
+          claim_id: c_SekJdk1RCpXuNnnLos18sU
+          source_id: s_5ypbt5HJwbj6QL1P1yo9cx
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_5ypbt5HJwbj6QL1P1yo9cx
+            source_type: api_record
+            title: 维基数据：王逸卿（Q45513501）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45513501
+            external_identifier: Q45513501
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:57.484Z
+            metadata_json: null
+      object_person:
+        id: p_GNLnPFw1Dr1HJibhmrHDQH
+        status: active
+        display_name: 王逸卿
+        merged_into_person_id: null
   children:
     - claim:
         id: c_csDo2M3VXbk43Wtb6rRb7V
@@ -191,10 +236,12 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_GNLnPFw1Dr1HJibhmrHDQH | 王逸卿 | accepted |
 | children | p_trUE1ub3cUR7dMLX7JC1NK | 王宗沐 | accepted |
 
 ## 外部来源
 
 - [维基数据：王训（Q45513566）](https://www.wikidata.org/wiki/Q45513566)
+- [维基数据：王逸卿（Q45513501）](https://www.wikidata.org/wiki/Q45513501)
 - [维基数据：王宗沐（Q15916933）](https://www.wikidata.org/wiki/Q15916933)
 - [CBDB 中国历代人物传记资料库：王訓（305709）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305709&o=json)

@@ -4,7 +4,7 @@ id: p_JyeBB32hUkcTLMGNxucHth
 status: active
 merged_into: null
 display_name: 王檀
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_uM2kt4NoTjPVFUCHr1HA2B
             source_type: api_record
             title: 维基数据：王檀（Q45679432）
@@ -152,7 +152,72 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_gcJz3fDrLpCY8ySd9XvDBB
+        subject_person_id: p_y4dNYbnSoNQWgsQv58a1Vc
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_JyeBB32hUkcTLMGNxucHth
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ztJ9jWc4Dez47SRBVB5f1B
+          claim_id: c_gcJz3fDrLpCY8ySd9XvDBB
+          source_id: s_ocU9VNyB8BL1TzL6gBrJc1
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_ocU9VNyB8BL1TzL6gBrJc1
+            source_type: api_record
+            title: 维基数据：王荛（Q45679333）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45679333
+            external_identifier: Q45679333
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:49.962Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%95%98
+        - id: cs_CGxptEdH7ppxszJjQYApTR
+          claim_id: c_gcJz3fDrLpCY8ySd9XvDBB
+          source_id: s_uM2kt4NoTjPVFUCHr1HA2B
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_Z2Ee1N9rqJA1mjXq54h1A8
+          claim_id: c_gcJz3fDrLpCY8ySd9XvDBB
+          source_id: s_nkb3AmfUTwSx39T4Er3QnB
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：唐五代人物傳記與社會網絡資料庫(1.0版)
+          source:
+            id: s_nkb3AmfUTwSx39T4Er3QnB
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王蕘（175916）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175916&o=json
+            external_identifier: CBDB:175916
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:59:50.133Z
+            metadata_json: null
+      object_person:
+        id: p_y4dNYbnSoNQWgsQv58a1Vc
+        status: active
+        display_name: 王荛
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -178,8 +243,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_y4dNYbnSoNQWgsQv58a1Vc | 王荛 | accepted |
 
 ## 外部来源
 
+- [维基数据：王荛（Q45679333）](https://www.wikidata.org/wiki/Q45679333)
 - [维基数据：王檀（Q45679432）](https://www.wikidata.org/wiki/Q45679432)
+- [CBDB 中国历代人物传记资料库：王蕘（175916）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175916&o=json)
 - [CBDB 中国历代人物传记资料库：王檀（175919）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175919&o=json)

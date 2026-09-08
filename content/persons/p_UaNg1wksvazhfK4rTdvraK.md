@@ -4,7 +4,7 @@ id: p_UaNg1wksvazhfK4rTdvraK
 status: active
 merged_into: null
 display_name: 王文
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_o2Ns99Rj2oBxz39K8qiTbJ
             source_type: api_record
             title: 维基数据：王文（Q45401645）
@@ -110,11 +110,162 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_PU6ebLcXKmi9EYytxk36xi
+        subject_person_id: p_strJmPSamv7xYKXXKW9MTr
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_UaNg1wksvazhfK4rTdvraK
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8BJi3PQMdBZUc9zwFAvx9w
+          claim_id: c_PU6ebLcXKmi9EYytxk36xi
+          source_id: s_h9RCV9DAxDCQUpChypQZfg
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_h9RCV9DAxDCQUpChypQZfg
+            source_type: api_record
+            title: 维基数据：王迁（Q45401644）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45401644
+            external_identifier: Q45401644
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+        - id: cs_q9CvjHU6RQ2hL5s1ts2qwa
+          claim_id: c_PU6ebLcXKmi9EYytxk36xi
+          source_id: s_o2Ns99Rj2oBxz39K8qiTbJ
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+      object_person:
+        id: p_strJmPSamv7xYKXXKW9MTr
+        status: active
+        display_name: 王迁
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_YAogQddKu64uiAMoWgVFTP
+        subject_person_id: p_UaNg1wksvazhfK4rTdvraK
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_dugn9Y5GC1ysVBtTRs2WLM
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_DhjbdrekJK1Sw6xgaaTKSb
+          claim_id: c_YAogQddKu64uiAMoWgVFTP
+          source_id: s_QvBFGAPqTXthL9LjsDRAhW
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_QvBFGAPqTXthL9LjsDRAhW
+            source_type: api_record
+            title: 维基数据：王纲（Q45401648）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45401648
+            external_identifier: Q45401648
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:00:17.572Z
+            metadata_json: null
+        - id: cs_1LHz9QyNbd2Ti1b6YVsPh5
+          claim_id: c_YAogQddKu64uiAMoWgVFTP
+          source_id: s_o2Ns99Rj2oBxz39K8qiTbJ
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_bG5PVnD6fpN8FsdXNhfU3u
+          claim_id: c_YAogQddKu64uiAMoWgVFTP
+          source_id: s_LKRgQGQseaZnwczbiBNqeA
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：宋人傳記資料索引(電子版)
+          source: *a1
+      object_person:
+        id: p_dugn9Y5GC1ysVBtTRs2WLM
+        status: active
+        display_name: 王纲
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_NKZoNot1iMFkP12AgC2pVg
+        subject_person_id: p_C1tV5ZY5YvAKhLKZaKXppK
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_UaNg1wksvazhfK4rTdvraK
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_76CWemvsjq5mEjXnbiEr9L
+          claim_id: c_NKZoNot1iMFkP12AgC2pVg
+          source_id: s_UZDEw7ijuhYV7Gx4Qzd6Zk
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_UZDEw7ijuhYV7Gx4Qzd6Zk
+            source_type: api_record
+            title: 维基数据：黄氏（Q45431261）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45431261
+            external_identifier: Q45431261
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+        - id: cs_y9vS68USmNiRAqHbboshpH
+          claim_id: c_NKZoNot1iMFkP12AgC2pVg
+          source_id: s_o2Ns99Rj2oBxz39K8qiTbJ
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_GLTjvCHJXkcnHh7snMhPKg
+          claim_id: c_NKZoNot1iMFkP12AgC2pVg
+          source_id: s_LKRgQGQseaZnwczbiBNqeA
+          stance: supports
+          locator: 亲属关系：妻子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：宋人傳記資料索引(電子版)
+          source: *a1
+      object_person:
+        id: p_C1tV5ZY5YvAKhLKZaKXppK
+        status: active
+        display_name: 黄氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -135,8 +286,14 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_strJmPSamv7xYKXXKW9MTr | 王迁 | accepted |
+| children | p_dugn9Y5GC1ysVBtTRs2WLM | 王纲 | accepted |
+| spouses | p_C1tV5ZY5YvAKhLKZaKXppK | 黄氏 | accepted |
 
 ## 外部来源
 
+- [维基数据：黄氏（Q45431261）](https://www.wikidata.org/wiki/Q45431261)
+- [维基数据：王纲（Q45401648）](https://www.wikidata.org/wiki/Q45401648)
+- [维基数据：王迁（Q45401644）](https://www.wikidata.org/wiki/Q45401644)
 - [维基数据：王文（Q45401645）](https://www.wikidata.org/wiki/Q45401645)
 - [CBDB 中国历代人物传记资料库：王文（21992）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=21992&o=json)

@@ -4,7 +4,7 @@ id: p_D6wSSzErFedvXoDGGx8HqR
 status: active
 merged_into: null
 display_name: 王士琦
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_3zNKYsryLirekqv5mgGbZP
             source_type: api_record
             title: 维基数据：王士琦（Q18235078）
@@ -131,7 +131,7 @@ properties:
           locator: Q18235078
           quotation: null
           interpretation_note: null
-          source:
+          source: &a1
             id: s_xEqa2QXsbS88FTgwuyDS4M
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：王士琦（35067）
@@ -243,10 +243,89 @@ relationships:
         status: active
         display_name: 王宗沐
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_RSNzpxgx487EKKDCyJdVxz
+        subject_person_id: p_D6wSSzErFedvXoDGGx8HqR
+        claim_kind: relationship
+        predicate: kinship.parent_of
+        object_person_id: p_SWfQfCDCKhLf9P4kgMuHQS
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_A6oYE2TMDW5QJgZLCHyHLn
+          claim_id: c_RSNzpxgx487EKKDCyJdVxz
+          source_id: s_xEqa2QXsbS88FTgwuyDS4M
+          stance: supports
+          locator: 亲属关系：次子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：臨海縣志
+          source: *a1
+      object_person:
+        id: p_SWfQfCDCKhLf9P4kgMuHQS
+        status: active
+        display_name: 王立程
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_rLAa1SSdWUUix3jCwS2dJb
+        subject_person_id: p_D6wSSzErFedvXoDGGx8HqR
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_HxBizE9NWB7384sKGrZFR3
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_89vmqi5AgRwQ8atDnJMr4M
+          claim_id: c_rLAa1SSdWUUix3jCwS2dJb
+          source_id: s_3zNKYsryLirekqv5mgGbZP
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_d62EtBu1jfBeDvLvHSjcjB
+          claim_id: c_rLAa1SSdWUUix3jCwS2dJb
+          source_id: s_BWyWrEG9EW9dfBV6GBqBFo
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_BWyWrEG9EW9dfBV6GBqBFo
+            source_type: api_record
+            title: 维基数据：邓氏（Q65825631）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q65825631
+            external_identifier: Q65825631
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:07:06.712Z
+            metadata_json: null
+        - id: cs_Mo89QaW5FWRr5CVWgpsrjM
+          claim_id: c_rLAa1SSdWUUix3jCwS2dJb
+          source_id: s_xEqa2QXsbS88FTgwuyDS4M
+          stance: supports
+          locator: 亲属关系：妻子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：萬曆十一年進士登科錄:一卷
+          source: *a1
+      object_person:
+        id: p_HxBizE9NWB7384sKGrZFR3
+        status: active
+        display_name: 邓氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -269,9 +348,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_trUE1ub3cUR7dMLX7JC1NK | 王宗沐 | accepted |
+| children | p_SWfQfCDCKhLf9P4kgMuHQS | 王立程 | accepted |
+| spouses | p_HxBizE9NWB7384sKGrZFR3 | 邓氏 | accepted |
 
 ## 外部来源
 
+- [维基数据：邓氏（Q65825631）](https://www.wikidata.org/wiki/Q65825631)
 - [维基数据：王士琦（Q18235078）](https://www.wikidata.org/wiki/Q18235078)
 - [维基数据：王宗沐（Q15916933）](https://www.wikidata.org/wiki/Q15916933)
 - [中文维基百科：王士琦](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A3%AB%E7%90%A6)

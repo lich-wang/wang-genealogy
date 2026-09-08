@@ -4,7 +4,7 @@ id: p_AqLYENA3YLFEqNQJk9esgL
 status: active
 merged_into: null
 display_name: 沈蘩應
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -76,7 +76,52 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_RxMA8CDGD5ufGfwPEMjeSC
+        subject_person_id: p_AqLYENA3YLFEqNQJk9esgL
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_TU9u7Mqd9433hBRQVKYyM1
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7EuuCSB5y6sWu4LgcvZDhV
+          claim_id: c_RxMA8CDGD5ufGfwPEMjeSC
+          source_id: s_JhHgZGV41uR81xzyHNnYFE
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_JhHgZGV41uR81xzyHNnYFE
+            source_type: api_record
+            title: 维基数据：王孝縉（Q98068112）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q98068112
+            external_identifier: Q98068112
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:00:15.904Z
+            metadata_json: null
+        - id: cs_i1fNUqFt6p6kAPyWv1s6sq
+          claim_id: c_RxMA8CDGD5ufGfwPEMjeSC
+          source_id: s_bzwEQFqJo7vH5FyruzAFwd
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+      object_person:
+        id: p_TU9u7Mqd9433hBRQVKYyM1
+        status: active
+        display_name: 王孝縉
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -97,7 +142,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_TU9u7Mqd9433hBRQVKYyM1 | 王孝縉 | accepted |
 
 ## 外部来源
 
 - [维基数据：沈蘩應（Q98068063）](https://www.wikidata.org/wiki/Q98068063)
+- [维基数据：王孝縉（Q98068112）](https://www.wikidata.org/wiki/Q98068112)

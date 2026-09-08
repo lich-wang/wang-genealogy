@@ -4,7 +4,7 @@ id: p_tc8tLCyEu49sXcAYbw2GP6
 status: active
 merged_into: null
 display_name: 王訚
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_w14uGT4Ny4mX3owuAhJBBW
             source_type: api_record
             title: 维基数据：王訚（Q45614438）
@@ -110,8 +110,98 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_M5bq9SaVnG9SCMN7VYTBzj
+        subject_person_id: p_gSGT3VNm7ARS5peJbqNALW
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_tc8tLCyEu49sXcAYbw2GP6
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_UB3g99M4xz6Y1UWBJybyYa
+          claim_id: c_M5bq9SaVnG9SCMN7VYTBzj
+          source_id: s_w14uGT4Ny4mX3owuAhJBBW
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_CML4Q2QypBXCZm9ZqpX22g
+          claim_id: c_M5bq9SaVnG9SCMN7VYTBzj
+          source_id: s_AwUVLy7mrpFTX1RmPK1CbC
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_AwUVLy7mrpFTX1RmPK1CbC
+            source_type: api_record
+            title: 维基数据：王明（Q45614374）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45614374
+            external_identifier: Q45614374
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person:
+        id: p_gSGT3VNm7ARS5peJbqNALW
+        status: active
+        display_name: 王明
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_qEXwpa7cE9Mvzw64eSoNWu
+        subject_person_id: p_tc8tLCyEu49sXcAYbw2GP6
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_zN5CkYRsAqXYKS76qUps77
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PdWKsiMrJ31x8MVgAN54SK
+          claim_id: c_qEXwpa7cE9Mvzw64eSoNWu
+          source_id: s_V4mjvnm9jPY7ciAUaiPPTh
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_V4mjvnm9jPY7ciAUaiPPTh
+            source_type: api_record
+            title: 维基数据：王宗果（Q45614499）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45614499
+            external_identifier: Q45614499
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:34.983Z
+            metadata_json: null
+        - id: cs_joXzdtTNLDXUE9wZWJ2TMC
+          claim_id: c_qEXwpa7cE9Mvzw64eSoNWu
+          source_id: s_w14uGT4Ny4mX3owuAhJBBW
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+      object_person:
+        id: p_zN5CkYRsAqXYKS76qUps77
+        status: active
+        display_name: 王宗果
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +225,12 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_gSGT3VNm7ARS5peJbqNALW | 王明 | accepted |
+| children | p_zN5CkYRsAqXYKS76qUps77 | 王宗果 | accepted |
 
 ## 外部来源
 
+- [维基数据：王明（Q45614374）](https://www.wikidata.org/wiki/Q45614374)
 - [维基数据：王訚（Q45614438）](https://www.wikidata.org/wiki/Q45614438)
+- [维基数据：王宗果（Q45614499）](https://www.wikidata.org/wiki/Q45614499)
 - [CBDB 中国历代人物传记资料库：王誾（217867）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217867&o=json)

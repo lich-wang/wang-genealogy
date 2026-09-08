@@ -4,7 +4,7 @@ id: p_FGUECt8UEJVxrFA7xCMHw4
 status: active
 merged_into: null
 display_name: 蒋季锡
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -76,7 +76,7 @@ properties:
           locator: Q16076435
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_MojCG7X1RTSvLZ34KBKmbp
             source_type: api_record
             title: 维基数据：蒋季锡（Q16076435）
@@ -96,7 +96,71 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_m3V8N7e3zfPHPhsLT676rE
+        subject_person_id: p_EP4PqN7524Z7izDZZrdxRb
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_FGUECt8UEJVxrFA7xCMHw4
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_b3jZnA3EKw3B5reMZTHo6P
+          claim_id: c_m3V8N7e3zfPHPhsLT676rE
+          source_id: s_Y4nNKnvPxM2f8ATUiGJ3W8
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_Y4nNKnvPxM2f8ATUiGJ3W8
+            source_type: api_record
+            title: 维基数据：王图炜（Q45676566）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45676566
+            external_identifier: Q45676566
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:40.609Z
+            metadata_json: null
+        - id: cs_ndZjCN6vqyQ84681LYkk4E
+          claim_id: c_m3V8N7e3zfPHPhsLT676rE
+          source_id: s_MojCG7X1RTSvLZ34KBKmbp
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_s7c6RCUMsF4DTBgvLDrpQD
+          claim_id: c_m3V8N7e3zfPHPhsLT676rE
+          source_id: s_QnxKVSMA7aD6BcY9DgUy7u
+          stance: supports
+          locator: 亲属关系：妻子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：明清婦女著作數據庫
+          source:
+            id: s_QnxKVSMA7aD6BcY9DgUy7u
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王圖煒（69624）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69624&o=json
+            external_identifier: CBDB:69624
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:59:40.771Z
+            metadata_json: null
+      object_person:
+        id: p_EP4PqN7524Z7izDZZrdxRb
+        status: active
+        display_name: 王图炜
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -117,8 +181,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_EP4PqN7524Z7izDZZrdxRb | 王图炜 | accepted |
 
 ## 外部来源
 
 - [维基数据：蒋季锡（Q16076435）](https://www.wikidata.org/wiki/Q16076435)
+- [维基数据：王图炜（Q45676566）](https://www.wikidata.org/wiki/Q45676566)
 - [CBDB 中国历代人物传记资料库：蔣季錫（55820）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=55820&o=json)
+- [CBDB 中国历代人物传记资料库：王圖煒（69624）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69624&o=json)

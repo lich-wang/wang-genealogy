@@ -4,7 +4,7 @@ id: p_ujxGmCBGatyUsmPNvx1eeB
 status: active
 merged_into: null
 display_name: 王绅
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -270,10 +270,339 @@ relationships:
         status: active
         display_name: 王祎
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_XGq5Kxym5uFUKwsJ65jJ1a
+        subject_person_id: p_ujxGmCBGatyUsmPNvx1eeB
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Djkmc4uicJBuT6DjuX7m7t
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_a46MB7kX66NacWoy67BtvD
+          claim_id: c_XGq5Kxym5uFUKwsJ65jJ1a
+          source_id: s_vS2t2ntyv7LmatgEDDuYin
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: &a2
+            id: s_vS2t2ntyv7LmatgEDDuYin
+            source_type: api_record
+            title: 维基数据：王绅（Q45413317）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45413317
+            external_identifier: Q45413317
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:00:07.031Z
+            metadata_json: null
+        - id: cs_rSK1ewJ9k4CQvrGTfFGoZQ
+          claim_id: c_XGq5Kxym5uFUKwsJ65jJ1a
+          source_id: s_LPKamJ78vzJUu4765xEYKj
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_LPKamJ78vzJUu4765xEYKj
+            source_type: api_record
+            title: 维基数据：王稌（Q65903516）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q65903516
+            external_identifier: Q65903516
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:07:09.724Z
+            metadata_json: null
+        - id: cs_hTc9k3M9RTLip2ZeJQefij
+          claim_id: c_XGq5Kxym5uFUKwsJ65jJ1a
+          source_id: s_TRViFeuhUj6uqvpFPe1kuG
+          stance: supports
+          locator: 亲属关系：次子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：未知
+          source: *a1
+      object_person:
+        id: p_Djkmc4uicJBuT6DjuX7m7t
+        status: active
+        display_name: 王稌
+        merged_into_person_id: null
+    - claim:
+        id: c_W4y7VWNEWJWGhBnL4GaFgQ
+        subject_person_id: p_ujxGmCBGatyUsmPNvx1eeB
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Jdra2pmbS6B6k7DYWxMEfe
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cCuQha2o6a3e6HYYY7ncUH
+          claim_id: c_W4y7VWNEWJWGhBnL4GaFgQ
+          source_id: s_vS2t2ntyv7LmatgEDDuYin
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_uaQP4VMHB8czwA5pAJ9Bmb
+          claim_id: c_W4y7VWNEWJWGhBnL4GaFgQ
+          source_id: s_FqpUXshWv7mco37mErhgRu
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_FqpUXshWv7mco37mErhgRu
+            source_type: api_record
+            title: 维基数据：王稔（Q65903522）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q65903522
+            external_identifier: Q65903522
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:07:09.724Z
+            metadata_json: null
+        - id: cs_EDSP4JTxhVfLj8BDSTQBNW
+          claim_id: c_W4y7VWNEWJWGhBnL4GaFgQ
+          source_id: s_TRViFeuhUj6uqvpFPe1kuG
+          stance: supports
+          locator: 亲属关系：三子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：未知
+          source: *a1
+      object_person:
+        id: p_Jdra2pmbS6B6k7DYWxMEfe
+        status: active
+        display_name: 王稔
+        merged_into_person_id: null
+    - claim:
+        id: c_sAts9C9VLikxV1abFvAv69
+        subject_person_id: p_ujxGmCBGatyUsmPNvx1eeB
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_1AythoREbDbJi54YNX5Fzu
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_28Tu8zJFh5Eh4ygJtC5gbB
+          claim_id: c_sAts9C9VLikxV1abFvAv69
+          source_id: s_vS2t2ntyv7LmatgEDDuYin
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_AeM3hFSNhyUyoBYzGdieGN
+          claim_id: c_sAts9C9VLikxV1abFvAv69
+          source_id: s_6BVAHnW6BcUppeWzVRPp9r
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_6BVAHnW6BcUppeWzVRPp9r
+            source_type: api_record
+            title: 维基数据：王稚（Q65903525）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q65903525
+            external_identifier: Q65903525
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:07:09.724Z
+            metadata_json: null
+        - id: cs_Vmt8TJfbeQfQtV8vr26qNT
+          claim_id: c_sAts9C9VLikxV1abFvAv69
+          source_id: s_TRViFeuhUj6uqvpFPe1kuG
+          stance: supports
+          locator: 亲属关系：四子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：未知
+          source: *a1
+      object_person:
+        id: p_1AythoREbDbJi54YNX5Fzu
+        status: active
+        display_name: 王稚
+        merged_into_person_id: null
+    - claim:
+        id: c_VQgLJ1gEkoVNSjM953v2PA
+        subject_person_id: p_ujxGmCBGatyUsmPNvx1eeB
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_xsZccYFbwo9A3bucCejqjr
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_E3FNRcGg9GU6BqV2eCSr4S
+          claim_id: c_VQgLJ1gEkoVNSjM953v2PA
+          source_id: s_vS2t2ntyv7LmatgEDDuYin
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_Ds7BDYcNFrbZH3Dvf7U6Xb
+          claim_id: c_VQgLJ1gEkoVNSjM953v2PA
+          source_id: s_VWbNPN944MjA4zAjMyxLAu
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_VWbNPN944MjA4zAjMyxLAu
+            source_type: api_record
+            title: 维基数据：王穆（Q65903504）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q65903504
+            external_identifier: Q65903504
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:07:21.813Z
+            metadata_json: null
+        - id: cs_nQa7WNUG51CKA4n9wwhA63
+          claim_id: c_VQgLJ1gEkoVNSjM953v2PA
+          source_id: s_TRViFeuhUj6uqvpFPe1kuG
+          stance: supports
+          locator: 亲属关系：長子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：未知
+          source: *a1
+      object_person:
+        id: p_xsZccYFbwo9A3bucCejqjr
+        status: active
+        display_name: 王穆
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_6emFDfWmU8KPUWEPpFCD6B
+        subject_person_id: p_46a9FyUQzyqQURH4Z2h6Bc
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_ujxGmCBGatyUsmPNvx1eeB
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_azqMvasm9F1ggHXKXEwVkt
+          claim_id: c_6emFDfWmU8KPUWEPpFCD6B
+          source_id: s_vS2t2ntyv7LmatgEDDuYin
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_Lzpcmh9P87zicpFSKSTT5G
+          claim_id: c_6emFDfWmU8KPUWEPpFCD6B
+          source_id: s_TJTJAY4hQ8DCY9FyGQAcE7
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_TJTJAY4hQ8DCY9FyGQAcE7
+            source_type: api_record
+            title: 维基数据：丁氏（Q65904093）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q65904093
+            external_identifier: Q65904093
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:07:11.128Z
+            metadata_json: null
+        - id: cs_R9uEmL66zkgm5CQ8K7CGWo
+          claim_id: c_6emFDfWmU8KPUWEPpFCD6B
+          source_id: s_TRViFeuhUj6uqvpFPe1kuG
+          stance: supports
+          locator: 亲属关系：第一任妻
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：未知
+          source: *a1
+      object_person:
+        id: p_46a9FyUQzyqQURH4Z2h6Bc
+        status: active
+        display_name: 丁氏
+        merged_into_person_id: null
+    - claim:
+        id: c_GHJB1TqnaTKQAVua8FQHNL
+        subject_person_id: p_bsaBkdmG56EXm3A3mHUYh8
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_ujxGmCBGatyUsmPNvx1eeB
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wPyWb1rgQTPKzAeHaUMNAz
+          claim_id: c_GHJB1TqnaTKQAVua8FQHNL
+          source_id: s_vS2t2ntyv7LmatgEDDuYin
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_9J2FB4AmyK9HGj2oUk4711
+          claim_id: c_GHJB1TqnaTKQAVua8FQHNL
+          source_id: s_YKqPPbeE82Tf7iaFH52m7b
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_YKqPPbeE82Tf7iaFH52m7b
+            source_type: api_record
+            title: 维基数据：曹氏（Q65904097）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q65904097
+            external_identifier: Q65904097
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:07:11.128Z
+            metadata_json: null
+        - id: cs_frPfHQHfdT4Fq3h3EWYV1U
+          claim_id: c_GHJB1TqnaTKQAVua8FQHNL
+          source_id: s_TRViFeuhUj6uqvpFPe1kuG
+          stance: supports
+          locator: 亲属关系：第二任妻
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：未知
+          source: *a1
+      object_person:
+        id: p_bsaBkdmG56EXm3A3mHUYh8
+        status: active
+        display_name: 曹氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -297,10 +626,22 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_DNgcd12SMQT8sYhCTYL1PG | 王祎 | accepted |
+| children | p_Djkmc4uicJBuT6DjuX7m7t | 王稌 | accepted |
+| children | p_Jdra2pmbS6B6k7DYWxMEfe | 王稔 | accepted |
+| children | p_1AythoREbDbJi54YNX5Fzu | 王稚 | accepted |
+| children | p_xsZccYFbwo9A3bucCejqjr | 王穆 | accepted |
+| spouses | p_46a9FyUQzyqQURH4Z2h6Bc | 丁氏 | accepted |
+| spouses | p_bsaBkdmG56EXm3A3mHUYh8 | 曹氏 | accepted |
 
 ## 外部来源
 
+- [维基数据：曹氏（Q65904097）](https://www.wikidata.org/wiki/Q65904097)
+- [维基数据：丁氏（Q65904093）](https://www.wikidata.org/wiki/Q65904093)
+- [维基数据：王穆（Q65903504）](https://www.wikidata.org/wiki/Q65903504)
+- [维基数据：王稔（Q65903522）](https://www.wikidata.org/wiki/Q65903522)
 - [维基数据：王绅（Q45413317）](https://www.wikidata.org/wiki/Q45413317)
+- [维基数据：王稌（Q65903516）](https://www.wikidata.org/wiki/Q65903516)
 - [维基数据：王祎（Q15934970）](https://www.wikidata.org/wiki/Q15934970)
+- [维基数据：王稚（Q65903525）](https://www.wikidata.org/wiki/Q65903525)
 - [CBDB 中国历代人物传记资料库：王褘（10726）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10726&o=json)
 - [CBDB 中国历代人物传记资料库：王紳（28112）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28112&o=json)

@@ -4,7 +4,7 @@ id: p_B1Pwn6KkUyb2E3j2EsGPsx
 status: active
 merged_into: null
 display_name: 王耆之
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: Q22814794
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
-          source:
+          source: &a1
             id: s_tcNLJaKEv6BAugZsQeFAqB
             source_type: api_record
             title: 维基数据：王耆之（Q22814794）
@@ -141,7 +141,52 @@ relationships:
         status: active
         display_name: 王廙
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_sgWDcMHMrSkezNixPvgyJC
+        subject_person_id: p_B1Pwn6KkUyb2E3j2EsGPsx
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_CF5TBeQK8jUMNAF7f5R2Qx
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_52FC6E3eLFghnvKpaVy9qC
+          claim_id: c_sgWDcMHMrSkezNixPvgyJC
+          source_id: s_PnQSYLsNJXc2upV6EjS29M
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_PnQSYLsNJXc2upV6EjS29M
+            source_type: api_record
+            title: 维基数据：王随之（Q22814795）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q22814795
+            external_identifier: Q22814795
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:24.493Z
+            metadata_json: null
+        - id: cs_7B5ZM3VntKmsCcbvk3bQPB
+          claim_id: c_sgWDcMHMrSkezNixPvgyJC
+          source_id: s_tcNLJaKEv6BAugZsQeFAqB
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+      object_person:
+        id: p_CF5TBeQK8jUMNAF7f5R2Qx
+        status: active
+        display_name: 王随之
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -166,8 +211,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_b9xZoiiuBPoW8L2RzpVVCo | 王廙 | accepted |
+| children | p_CF5TBeQK8jUMNAF7f5R2Qx | 王随之 | accepted |
 
 ## 外部来源
 
 - [维基数据：王耆之（Q22814794）](https://www.wikidata.org/wiki/Q22814794)
+- [维基数据：王随之（Q22814795）](https://www.wikidata.org/wiki/Q22814795)
 - [维基数据：王廙（Q15911516）](https://www.wikidata.org/wiki/Q15911516)

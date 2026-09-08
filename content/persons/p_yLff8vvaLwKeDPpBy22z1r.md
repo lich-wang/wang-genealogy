@@ -4,7 +4,7 @@ id: p_yLff8vvaLwKeDPpBy22z1r
 status: active
 merged_into: null
 display_name: 姜延栴
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -76,7 +76,7 @@ properties:
           locator: Q45664395
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_h4oQde8BPH6F8dGkoiPKZZ
             source_type: api_record
             title: 维基数据：姜延栴（Q45664395）
@@ -95,7 +95,71 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_An5dBw5gBp5cr8dsx95NWC
+        subject_person_id: p_8CkpkqZa6ixN8eSVefmKjB
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_yLff8vvaLwKeDPpBy22z1r
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QuH92LymWdDEBV8nxwtrGv
+          claim_id: c_An5dBw5gBp5cr8dsx95NWC
+          source_id: s_K9vQVFxaYRsNM6Vtf7As7C
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_K9vQVFxaYRsNM6Vtf7As7C
+            source_type: api_record
+            title: 维基数据：王霞起（Q45664833）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45664833
+            external_identifier: Q45664833
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:00:14.435Z
+            metadata_json: null
+        - id: cs_mgHgucJeFkEVGdTZ717xiw
+          claim_id: c_An5dBw5gBp5cr8dsx95NWC
+          source_id: s_h4oQde8BPH6F8dGkoiPKZZ
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_cHCghRfcTAUXYCqxX7r3A8
+          claim_id: c_An5dBw5gBp5cr8dsx95NWC
+          source_id: s_qmN8G6oPWQb6g5gdpzt9sJ
+          stance: supports
+          locator: 亲属关系：妻子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：明清婦女著作數據庫
+          source:
+            id: s_qmN8G6oPWQb6g5gdpzt9sJ
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王霞起（123071）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=123071&o=json
+            external_identifier: CBDB:123071
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:00:14.671Z
+            metadata_json: null
+      object_person:
+        id: p_8CkpkqZa6ixN8eSVefmKjB
+        status: active
+        display_name: 王霞起
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -116,8 +180,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_8CkpkqZa6ixN8eSVefmKjB | 王霞起 | accepted |
 
 ## 外部来源
 
 - [维基数据：姜延栴（Q45664395）](https://www.wikidata.org/wiki/Q45664395)
+- [维基数据：王霞起（Q45664833）](https://www.wikidata.org/wiki/Q45664833)
 - [CBDB 中国历代人物传记资料库：姜延栴（123060）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=123060&o=json)
+- [CBDB 中国历代人物传记资料库：王霞起（123071）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=123071&o=json)

@@ -4,7 +4,7 @@ id: p_A4y88KqDgYC7CBnr5hYZf3
 status: active
 merged_into: null
 display_name: 王龜齡
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_A1pNF93BAFFMVDiK7DKDPc
             source_type: api_record
             title: 维基数据：王龜齡（Q45411116）
@@ -194,11 +194,101 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_3NXPBCriwKTJ9YG3AXvgDT
+        subject_person_id: p_zAMNQJueCwPPKR5vjoLaAD
+        claim_kind: relationship
+        predicate: kinship.parent_of
+        object_person_id: p_A4y88KqDgYC7CBnr5hYZf3
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9eJAA1iBHa6KQxpMaunh65
+          claim_id: c_3NXPBCriwKTJ9YG3AXvgDT
+          source_id: s_46EMQd7ZTyE8aAbsz323u9
+          stance: supports
+          locator: 亲属关系：長子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：未知
+          source:
+            id: s_46EMQd7ZTyE8aAbsz323u9
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王彥博（26229）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26229&o=json
+            external_identifier: CBDB:26229
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:59:00.875Z
+            metadata_json: null
+      object_person:
+        id: p_zAMNQJueCwPPKR5vjoLaAD
+        status: active
+        display_name: 王彦博
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_yGcqdAut811KyQb21oeqyX
+        subject_person_id: p_A4y88KqDgYC7CBnr5hYZf3
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_oREgSd4itdA3Mz6Mp8dkNX
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_yU1kXnVsNd9JPr5bHweTJ1
+          claim_id: c_yGcqdAut811KyQb21oeqyX
+          source_id: s_at2ZoyCvBXEeUvFDA5yL2N
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_at2ZoyCvBXEeUvFDA5yL2N
+            source_type: api_record
+            title: 维基数据：晁氏（Q45431885）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45431885
+            external_identifier: Q45431885
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+        - id: cs_q7znJRKTwUB2phrHgDcGEx
+          claim_id: c_yGcqdAut811KyQb21oeqyX
+          source_id: s_A1pNF93BAFFMVDiK7DKDPc
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_XafQVRaHZyEkB5E9Eu8Fzc
+          claim_id: c_yGcqdAut811KyQb21oeqyX
+          source_id: s_HXN7BQmdXuFJfNDC4o6fnZ
+          stance: supports
+          locator: 亲属关系：妻子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：宋人傳記資料索引(電子版)
+          source: *a1
+      object_person:
+        id: p_oREgSd4itdA3Mz6Mp8dkNX
+        status: active
+        display_name: 晁氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -221,8 +311,12 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_zAMNQJueCwPPKR5vjoLaAD | 王彦博 | accepted |
+| spouses | p_oREgSd4itdA3Mz6Mp8dkNX | 晁氏 | accepted |
 
 ## 外部来源
 
+- [维基数据：晁氏（Q45431885）](https://www.wikidata.org/wiki/Q45431885)
 - [维基数据：王龜齡（Q45411116）](https://www.wikidata.org/wiki/Q45411116)
 - [CBDB 中国历代人物传记资料库：王龜齡（26988）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26988&o=json)
+- [CBDB 中国历代人物传记资料库：王彥博（26229）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26229&o=json)

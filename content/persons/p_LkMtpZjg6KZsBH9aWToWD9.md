@@ -4,7 +4,7 @@ id: p_LkMtpZjg6KZsBH9aWToWD9
 status: active
 merged_into: null
 display_name: 王武俊
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_c7zbsk2y4rB9uNmsVojoyp
             source_type: api_record
             title: 维基数据：王武俊（Q7967676）
@@ -199,7 +199,223 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_ZmQiZJhVBfAUgBjY36dHTi
+        subject_person_id: p_LkMtpZjg6KZsBH9aWToWD9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_X1UCfgUyoJHi8W8xdH58BE
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BN2LYpQjR7824WkFyrWdSM
+          claim_id: c_ZmQiZJhVBfAUgBjY36dHTi
+          source_id: s_uNFQmZbjnbMWfFpWUMCosA
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_uNFQmZbjnbMWfFpWUMCosA
+            source_type: api_record
+            title: 维基数据：王士真（Q20026517）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q20026517
+            external_identifier: Q20026517
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:26.496Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A3%AB%E7%9C%9F
+        - id: cs_VbfaBCBaN8M59fVsv23Ppr
+          claim_id: c_ZmQiZJhVBfAUgBjY36dHTi
+          source_id: s_c7zbsk2y4rB9uNmsVojoyp
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_xVPB46RgQEkej41S14NMYV
+          claim_id: c_ZmQiZJhVBfAUgBjY36dHTi
+          source_id: s_mMp7PA549b87u7vum9HFuz
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：唐五代人物傳記與社會網絡資料庫(1.0版)
+          source: *a1
+      object_person:
+        id: p_X1UCfgUyoJHi8W8xdH58BE
+        status: active
+        display_name: 王士真
+        merged_into_person_id: null
+    - claim:
+        id: c_1it3h17o21BKNbQAwYAy5C
+        subject_person_id: p_LkMtpZjg6KZsBH9aWToWD9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_dnfkgsDtLKjwJ34ySS3NGV
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NjbRKP95Uc2FRZtvvcCiqa
+          claim_id: c_1it3h17o21BKNbQAwYAy5C
+          source_id: s_c7zbsk2y4rB9uNmsVojoyp
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_wXkVCtcqALbYZkYFrmbw3W
+          claim_id: c_1it3h17o21BKNbQAwYAy5C
+          source_id: s_EZnZNViEzmDDooGjCB1RZR
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_EZnZNViEzmDDooGjCB1RZR
+            source_type: api_record
+            title: 维基数据：王士则（Q45630024）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45630024
+            external_identifier: Q45630024
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A3%AB%E5%89%87
+        - id: cs_GRH6Ptwz4k1a9mjjrUfF4U
+          claim_id: c_1it3h17o21BKNbQAwYAy5C
+          source_id: s_mMp7PA549b87u7vum9HFuz
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：唐五代人物傳記與社會網絡資料庫(1.0版)
+          source: *a1
+      object_person:
+        id: p_dnfkgsDtLKjwJ34ySS3NGV
+        status: active
+        display_name: 王士则
+        merged_into_person_id: null
+    - claim:
+        id: c_9okQ4heiJq4ZXmGkbkg9cV
+        subject_person_id: p_LkMtpZjg6KZsBH9aWToWD9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_1g8czDJ9H3DnuHTjo653vD
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hpe8N2PQE9nQohwCyvnu4Z
+          claim_id: c_9okQ4heiJq4ZXmGkbkg9cV
+          source_id: s_c7zbsk2y4rB9uNmsVojoyp
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_r11rPbCUXT6Za2Vgj8fbWc
+          claim_id: c_9okQ4heiJq4ZXmGkbkg9cV
+          source_id: s_xK7nL72589no6XA5gNtMqX
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_xK7nL72589no6XA5gNtMqX
+            source_type: api_record
+            title: 维基数据：王士清（Q45641702）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45641702
+            external_identifier: Q45641702
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A3%AB%E6%B8%85
+        - id: cs_ToJUDyMkESwLXiE56yruhb
+          claim_id: c_9okQ4heiJq4ZXmGkbkg9cV
+          source_id: s_mMp7PA549b87u7vum9HFuz
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：唐五代人物傳記與社會網絡資料庫(1.0版)
+          source: *a1
+      object_person:
+        id: p_1g8czDJ9H3DnuHTjo653vD
+        status: active
+        display_name: 王士清
+        merged_into_person_id: null
+    - claim:
+        id: c_pMRXcjGGTDqsiBrWcwYTMA
+        subject_person_id: p_LkMtpZjg6KZsBH9aWToWD9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Jos7EyMXLcbUgW1JUP7wRP
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ThJ1cpCV9AbojMmQQvv18h
+          claim_id: c_pMRXcjGGTDqsiBrWcwYTMA
+          source_id: s_c7zbsk2y4rB9uNmsVojoyp
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_3PCxJwYEX1urUmxnz3N8ky
+          claim_id: c_pMRXcjGGTDqsiBrWcwYTMA
+          source_id: s_wQGD9z6dYDUR55Gi2dyWjt
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_wQGD9z6dYDUR55Gi2dyWjt
+            source_type: api_record
+            title: 维基数据：王士平（Q45518506）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45518506
+            external_identifier: Q45518506
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A3%AB%E5%B9%B3
+        - id: cs_pKC6bZ184dqEZgy2kUeApz
+          claim_id: c_pMRXcjGGTDqsiBrWcwYTMA
+          source_id: s_mMp7PA549b87u7vum9HFuz
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：唐五代人物傳記與社會網絡資料庫(1.0版)
+          source: *a1
+      object_person:
+        id: p_Jos7EyMXLcbUgW1JUP7wRP
+        status: active
+        display_name: 王士平
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -225,8 +441,16 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_X1UCfgUyoJHi8W8xdH58BE | 王士真 | accepted |
+| children | p_dnfkgsDtLKjwJ34ySS3NGV | 王士则 | accepted |
+| children | p_1g8czDJ9H3DnuHTjo653vD | 王士清 | accepted |
+| children | p_Jos7EyMXLcbUgW1JUP7wRP | 王士平 | accepted |
 
 ## 外部来源
 
+- [维基数据：王士平（Q45518506）](https://www.wikidata.org/wiki/Q45518506)
+- [维基数据：王士清（Q45641702）](https://www.wikidata.org/wiki/Q45641702)
+- [维基数据：王士则（Q45630024）](https://www.wikidata.org/wiki/Q45630024)
+- [维基数据：王士真（Q20026517）](https://www.wikidata.org/wiki/Q20026517)
 - [维基数据：王武俊（Q7967676）](https://www.wikidata.org/wiki/Q7967676)
 - [CBDB 中国历代人物传记资料库：王武俊（191752）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191752&o=json)

@@ -4,7 +4,7 @@ id: p_iwBVuUwJmW9x68bfe9dwKN
 status: active
 merged_into: null
 display_name: 王伯庠
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -275,10 +275,234 @@ relationships:
         status: active
         display_name: 王次翁
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_sRuw8zNmXP3qo6TL7kRveL
+        subject_person_id: p_iwBVuUwJmW9x68bfe9dwKN
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_21iPF9Hs9mqcdz5y5kcuFG
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VpALxP6qXFSc5xwmka86pB
+          claim_id: c_sRuw8zNmXP3qo6TL7kRveL
+          source_id: s_EnRXDLDBHkEgsVqm8iPbG4
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_EnRXDLDBHkEgsVqm8iPbG4
+            source_type: api_record
+            title: 维基数据：王星（Q45426524）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45426524
+            external_identifier: Q45426524
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:15.653Z
+            metadata_json: null
+        - id: cs_yaFFWbYkTDYCtavPvBDy22
+          claim_id: c_sRuw8zNmXP3qo6TL7kRveL
+          source_id: s_519ciMBC9V6CMSxr6uQyWp
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: &a2
+            id: s_519ciMBC9V6CMSxr6uQyWp
+            source_type: api_record
+            title: 维基数据：王伯庠（Q18110186）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q18110186
+            external_identifier: Q18110186
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:58:55.754Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%BC%AF%E5%BA%A0
+        - id: cs_QKi6z9MEnfnBzZxjXPGVde
+          claim_id: c_sRuw8zNmXP3qo6TL7kRveL
+          source_id: s_o6fwhY8EBNrs3ZN82gocSx
+          stance: supports
+          locator: 亲属关系：長子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：未知
+          source: *a1
+      object_person:
+        id: p_21iPF9Hs9mqcdz5y5kcuFG
+        status: active
+        display_name: 王星
+        merged_into_person_id: null
+    - claim:
+        id: c_sfDDZoeMBUedc1772xg4DX
+        subject_person_id: p_iwBVuUwJmW9x68bfe9dwKN
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_XmKEvprHRjSYX3Q3owLScL
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Bh3SKnqtAgKiw5Wozn9mV9
+          claim_id: c_sfDDZoeMBUedc1772xg4DX
+          source_id: s_aKX7JRffcwyPMExZSgjVL2
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_aKX7JRffcwyPMExZSgjVL2
+            source_type: api_record
+            title: 维基数据：王有大（Q45426566）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45426566
+            external_identifier: Q45426566
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:15.653Z
+            metadata_json: null
+        - id: cs_w6Q6FuQLAVtkQHjCPTkvmY
+          claim_id: c_sfDDZoeMBUedc1772xg4DX
+          source_id: s_519ciMBC9V6CMSxr6uQyWp
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_WpX4hrUrYeunei3MvkdxKX
+          claim_id: c_sfDDZoeMBUedc1772xg4DX
+          source_id: s_o6fwhY8EBNrs3ZN82gocSx
+          stance: supports
+          locator: 亲属关系：次子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：未知
+          source: *a1
+      object_person:
+        id: p_XmKEvprHRjSYX3Q3owLScL
+        status: active
+        display_name: 王有大
+        merged_into_person_id: null
+    - claim:
+        id: c_2M4Rw5dPdU5tz37HNrCAiP
+        subject_person_id: p_iwBVuUwJmW9x68bfe9dwKN
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_wU8P88JFTt3L9W3HaP1MeX
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_u2fefR4HgmSaW7tqqm2NHn
+          claim_id: c_2M4Rw5dPdU5tz37HNrCAiP
+          source_id: s_1HAZkHDXa8ia7SLZ5PKuB2
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_1HAZkHDXa8ia7SLZ5PKuB2
+            source_type: api_record
+            title: 维基数据：王正大（Q45426607）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45426607
+            external_identifier: Q45426607
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:15.653Z
+            metadata_json: null
+        - id: cs_Hf24AbLWobsJ5YwTRWQTDf
+          claim_id: c_2M4Rw5dPdU5tz37HNrCAiP
+          source_id: s_519ciMBC9V6CMSxr6uQyWp
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_cwcQsefRohprCGWHr9yy4c
+          claim_id: c_2M4Rw5dPdU5tz37HNrCAiP
+          source_id: s_o6fwhY8EBNrs3ZN82gocSx
+          stance: supports
+          locator: 亲属关系：三子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：未知
+          source: *a1
+      object_person:
+        id: p_wU8P88JFTt3L9W3HaP1MeX
+        status: active
+        display_name: 王正大
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_G8L6vZVZGMCuBYdViWT6y2
+        subject_person_id: p_ifKdzffE4TJqKt3GDfHGnh
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_iwBVuUwJmW9x68bfe9dwKN
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_sWy7oYWnX8MzXQ3swCAtBM
+          claim_id: c_G8L6vZVZGMCuBYdViWT6y2
+          source_id: s_519ciMBC9V6CMSxr6uQyWp
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_8eAVBRWPGVu8PKbJKCxWkJ
+          claim_id: c_G8L6vZVZGMCuBYdViWT6y2
+          source_id: s_ddRWGWffACZVoKLVTN54Nn
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_ddRWGWffACZVoKLVTN54Nn
+            source_type: api_record
+            title: 维基数据：成氏（Q45434803）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45434803
+            external_identifier: Q45434803
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:17.362Z
+            metadata_json: null
+        - id: cs_oBZ1Y6ps5v5Bh2C3jrPmRM
+          claim_id: c_G8L6vZVZGMCuBYdViWT6y2
+          source_id: s_o6fwhY8EBNrs3ZN82gocSx
+          stance: supports
+          locator: 亲属关系：妻子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：宋人傳記資料索引(電子版)
+          source: *a1
+      object_person:
+        id: p_ifKdzffE4TJqKt3GDfHGnh
+        status: active
+        display_name: 成氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -302,10 +526,18 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_4Ggi24K5h2C2ehfArZY8Pm | 王次翁 | accepted |
+| children | p_21iPF9Hs9mqcdz5y5kcuFG | 王星 | accepted |
+| children | p_XmKEvprHRjSYX3Q3owLScL | 王有大 | accepted |
+| children | p_wU8P88JFTt3L9W3HaP1MeX | 王正大 | accepted |
+| spouses | p_ifKdzffE4TJqKt3GDfHGnh | 成氏 | accepted |
 
 ## 外部来源
 
+- [维基数据：成氏（Q45434803）](https://www.wikidata.org/wiki/Q45434803)
 - [维基数据：王伯庠（Q18110186）](https://www.wikidata.org/wiki/Q18110186)
 - [维基数据：王次翁（Q10415243）](https://www.wikidata.org/wiki/Q10415243)
+- [维基数据：王星（Q45426524）](https://www.wikidata.org/wiki/Q45426524)
+- [维基数据：王有大（Q45426566）](https://www.wikidata.org/wiki/Q45426566)
+- [维基数据：王正大（Q45426607）](https://www.wikidata.org/wiki/Q45426607)
 - [CBDB 中国历代人物传记资料库：王伯庠（17444）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17444&o=json)
 - [CBDB 中国历代人物传记资料库：王次翁（1908）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1908&o=json)

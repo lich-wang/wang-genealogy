@@ -4,7 +4,7 @@ id: p_GZbsE9QaKe1eQKtqPL2T7F
 status: active
 merged_into: null
 display_name: 孔氏
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -95,7 +95,71 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_8mucszUtvh33EWZtQW5P88
+        subject_person_id: p_GZbsE9QaKe1eQKtqPL2T7F
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_zAMNQJueCwPPKR5vjoLaAD
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9JttkBd2dx3CgQJTLEF4xd
+          claim_id: c_8mucszUtvh33EWZtQW5P88
+          source_id: s_XGTV8UkV21vTCML8WGhwr8
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_XGTV8UkV21vTCML8WGhwr8
+            source_type: api_record
+            title: 维基数据：王彦博（Q45409553）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45409553
+            external_identifier: Q45409553
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:00.696Z
+            metadata_json: null
+        - id: cs_3dVo8PAuq5uT7iHSQHYHFf
+          claim_id: c_8mucszUtvh33EWZtQW5P88
+          source_id: s_43NZumLKmwyAMNQ7BPvD7D
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_qDAf7YG7DTw4W63FJJtNVk
+          claim_id: c_8mucszUtvh33EWZtQW5P88
+          source_id: s_46EMQd7ZTyE8aAbsz323u9
+          stance: supports
+          locator: 亲属关系：妻子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：宋人傳記資料索引(電子版)
+          source:
+            id: s_46EMQd7ZTyE8aAbsz323u9
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王彥博（26229）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26229&o=json
+            external_identifier: CBDB:26229
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:59:00.875Z
+            metadata_json: null
+      object_person:
+        id: p_zAMNQJueCwPPKR5vjoLaAD
+        status: active
+        display_name: 王彦博
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -116,8 +180,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_zAMNQJueCwPPKR5vjoLaAD | 王彦博 | accepted |
 
 ## 外部来源
 
 - [维基数据：孔氏（Q45431324）](https://www.wikidata.org/wiki/Q45431324)
+- [维基数据：王彦博（Q45409553）](https://www.wikidata.org/wiki/Q45409553)
 - [CBDB 中国历代人物传记资料库：孔氏（37779）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37779&o=json)
+- [CBDB 中国历代人物传记资料库：王彥博（26229）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26229&o=json)

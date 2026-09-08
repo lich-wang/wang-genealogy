@@ -4,7 +4,7 @@ id: p_nmksiEiPj8BciQGG5LZXMB
 status: active
 merged_into: null
 display_name: 王理
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_pYzRbbN51bzA3eo9bup8B9
             source_type: api_record
             title: 维基数据：王理（Q45538785）
@@ -110,8 +110,98 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_Mvgc5Nz431jfUntcNL5HkT
+        subject_person_id: p_1a4kV9bnUd3Gc32RqHYR8N
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_nmksiEiPj8BciQGG5LZXMB
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pgcQjAtPM35ZAZYdLgPr5U
+          claim_id: c_Mvgc5Nz431jfUntcNL5HkT
+          source_id: s_pYzRbbN51bzA3eo9bup8B9
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_CN38XvyH4rSQ4F2VZ4VaBo
+          claim_id: c_Mvgc5Nz431jfUntcNL5HkT
+          source_id: s_2xPmNcsS15tNrXDCEVj1CL
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_2xPmNcsS15tNrXDCEVj1CL
+            source_type: api_record
+            title: 维基数据：王思义（Q45538216）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45538216
+            external_identifier: Q45538216
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person:
+        id: p_1a4kV9bnUd3Gc32RqHYR8N
+        status: active
+        display_name: 王思义
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_VSa8bmyZeUaA3r7ANBiLTH
+        subject_person_id: p_nmksiEiPj8BciQGG5LZXMB
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_mkEUUStA3H6zxa8Vzv7LyH
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Q3nWLyYjjBEH6aVbNkJTfL
+          claim_id: c_VSa8bmyZeUaA3r7ANBiLTH
+          source_id: s_S71Vwi2CwFX8kSRHwTPyST
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_S71Vwi2CwFX8kSRHwTPyST
+            source_type: api_record
+            title: 维基数据：王昂（Q45539296）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45539296
+            external_identifier: Q45539296
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:52.069Z
+            metadata_json: null
+        - id: cs_LySYqmLNkh6gHPWSDUMeX7
+          claim_id: c_VSa8bmyZeUaA3r7ANBiLTH
+          source_id: s_pYzRbbN51bzA3eo9bup8B9
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+      object_person:
+        id: p_mkEUUStA3H6zxa8Vzv7LyH
+        status: active
+        display_name: 王昂
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +225,12 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_1a4kV9bnUd3Gc32RqHYR8N | 王思义 | accepted |
+| children | p_mkEUUStA3H6zxa8Vzv7LyH | 王昂 | accepted |
 
 ## 外部来源
 
+- [维基数据：王昂（Q45539296）](https://www.wikidata.org/wiki/Q45539296)
 - [维基数据：王理（Q45538785）](https://www.wikidata.org/wiki/Q45538785)
+- [维基数据：王思义（Q45538216）](https://www.wikidata.org/wiki/Q45538216)
 - [CBDB 中国历代人物传记资料库：王理（337964）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=337964&o=json)

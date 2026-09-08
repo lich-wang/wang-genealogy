@@ -4,7 +4,7 @@ id: p_diPVGy9BzMjoKiUc6icH9N
 status: active
 merged_into: null
 display_name: 王化
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_gUKLxhVWyMb8FFrDMHt15y
             source_type: api_record
             title: 维基数据：王化（Q45381148）
@@ -110,8 +110,106 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_DpWq7PNoLF93cWrmuuKmXP
+        subject_person_id: p_Xfkv2uu5fBfnJ5YyvgE4da
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_diPVGy9BzMjoKiUc6icH9N
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_sL8ZPWB4xM5oL86pZAgxPn
+          claim_id: c_DpWq7PNoLF93cWrmuuKmXP
+          source_id: s_N1f3ehi66pennWQUvGkhCa
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_N1f3ehi66pennWQUvGkhCa
+            source_type: api_record
+            title: 维基数据：王厚（Q45381147）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45381147
+            external_identifier: Q45381147
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+        - id: cs_ujm1Qui2vAVr4bF2a2mH8a
+          claim_id: c_DpWq7PNoLF93cWrmuuKmXP
+          source_id: s_gUKLxhVWyMb8FFrDMHt15y
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+      object_person:
+        id: p_Xfkv2uu5fBfnJ5YyvgE4da
+        status: active
+        display_name: 王厚
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_P1rzAToioYiMEaWp9iVTER
+        subject_person_id: p_diPVGy9BzMjoKiUc6icH9N
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_VKst8B2d5tWwdYZpMbjXpF
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4kxiYMQW42xETGpYTmdCeG
+          claim_id: c_P1rzAToioYiMEaWp9iVTER
+          source_id: s_cEzQFMJKfXkebXkBavgjxf
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_cEzQFMJKfXkebXkBavgjxf
+            source_type: api_record
+            title: 维基数据：王砺（Q45381094）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45381094
+            external_identifier: Q45381094
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:00:00.249Z
+            metadata_json: null
+        - id: cs_iEd9BmZp1muex6WGQ4Hr9q
+          claim_id: c_P1rzAToioYiMEaWp9iVTER
+          source_id: s_gUKLxhVWyMb8FFrDMHt15y
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_L8V1HMrJdDeF4bj8dE1PZJ
+          claim_id: c_P1rzAToioYiMEaWp9iVTER
+          source_id: s_pQVBrrHKLnxGfctpqEstQY
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：未知
+          source: *a1
+      object_person:
+        id: p_VKst8B2d5tWwdYZpMbjXpF
+        status: active
+        display_name: 王砺
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +233,12 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Xfkv2uu5fBfnJ5YyvgE4da | 王厚 | accepted |
+| children | p_VKst8B2d5tWwdYZpMbjXpF | 王砺 | accepted |
 
 ## 外部来源
 
+- [维基数据：王厚（Q45381147）](https://www.wikidata.org/wiki/Q45381147)
 - [维基数据：王化（Q45381148）](https://www.wikidata.org/wiki/Q45381148)
+- [维基数据：王砺（Q45381094）](https://www.wikidata.org/wiki/Q45381094)
 - [CBDB 中国历代人物传记资料库：王化（15747）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=15747&o=json)

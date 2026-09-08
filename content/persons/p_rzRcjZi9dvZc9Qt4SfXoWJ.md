@@ -4,7 +4,7 @@ id: p_rzRcjZi9dvZc9Qt4SfXoWJ
 status: active
 merged_into: null
 display_name: 王守泰
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: 导言
           quotation: "王守泰（1908年—1992年）是中國近代昆曲家，江苏苏州人。 "
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
-          source:
+          source: &a1
             id: s_d1PhtlorWOXLs4Ekc4dvZq
             source_type: website
             title: 中文维基百科：王守泰 (昆曲)
@@ -170,7 +170,53 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_GW7MB4woByHN2ysM13kZB3
+        subject_person_id: p_8feVFJChXiuqdjuvDVpPFr
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_rzRcjZi9dvZc9Qt4SfXoWJ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wXdz6ecSBtzxkWhKWcwLLm
+          claim_id: c_GW7MB4woByHN2ysM13kZB3
+          source_id: s_PCBmd1NPULe6Bjy1LUFKSa
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_PCBmd1NPULe6Bjy1LUFKSa
+            source_type: api_record
+            title: 维基数据：王季烈（Q16260246）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q16260246
+            external_identifier: Q16260246
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:46.107Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AD%A3%E7%83%88
+        - id: cs_p9Z9avBdz1eHYXGXR3R6mT
+          claim_id: c_GW7MB4woByHN2ysM13kZB3
+          source_id: s_d1PhtlorWOXLs4Ekc4dvZq
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+      object_person:
+        id: p_8feVFJChXiuqdjuvDVpPFr
+        status: active
+        display_name: 王季烈
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -197,8 +243,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_8feVFJChXiuqdjuvDVpPFr | 王季烈 | accepted |
 
 ## 外部来源
 
+- [维基数据：王季烈（Q16260246）](https://www.wikidata.org/wiki/Q16260246)
 - [维基数据：王守泰（Q10413479）](https://www.wikidata.org/wiki/Q10413479)
 - [中文维基百科：王守泰 (昆曲)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AE%88%E6%B3%B0_(%E6%98%86%E6%9B%B2))

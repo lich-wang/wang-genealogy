@@ -4,7 +4,7 @@ id: p_NM9mn6Dc9dbq8DQ3665HJo
 status: active
 merged_into: null
 display_name: 王县太君
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -156,7 +156,71 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_L1JwYNBcsLwZp29hW4sBBe
+        subject_person_id: p_FeTYKhXT263ArThLLQ1A9F
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_NM9mn6Dc9dbq8DQ3665HJo
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WVH9BCiQhLsMBC5RYFZn35
+          claim_id: c_L1JwYNBcsLwZp29hW4sBBe
+          source_id: s_MR67jA3WCNJBCtLy2PXqHp
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_cg3GPbyLk5QXDzTFHPTU7w
+          claim_id: c_L1JwYNBcsLwZp29hW4sBBe
+          source_id: s_AR4PsZDWVcPSsPLajb8s1c
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_AR4PsZDWVcPSsPLajb8s1c
+            source_type: api_record
+            title: 维基数据：王世彦（Q45387199）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45387199
+            external_identifier: Q45387199
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:07:16.211Z
+            metadata_json: null
+        - id: cs_rcakKYoji78c9HKxpwEcvA
+          claim_id: c_L1JwYNBcsLwZp29hW4sBBe
+          source_id: s_99qRkLEE1MfJL4Ac6oWaJ8
+          stance: supports
+          locator: 亲属关系：女兒
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：未知
+          source:
+            id: s_99qRkLEE1MfJL4Ac6oWaJ8
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王世彥（17779）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17779&o=json
+            external_identifier: CBDB:17779
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:07:16.361Z
+            metadata_json: null
+      object_person:
+        id: p_FeTYKhXT263ArThLLQ1A9F
+        status: active
+        display_name: 王世彦
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -183,7 +247,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_FeTYKhXT263ArThLLQ1A9F | 王世彦 | accepted |
 
 ## 外部来源
 
+- [维基数据：王世彦（Q45387199）](https://www.wikidata.org/wiki/Q45387199)
 - [维基数据：王县太君（Q45364574）](https://www.wikidata.org/wiki/Q45364574)
+- [CBDB 中国历代人物传记资料库：王世彥（17779）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17779&o=json)

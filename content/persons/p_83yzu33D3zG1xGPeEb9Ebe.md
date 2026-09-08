@@ -4,7 +4,7 @@ id: p_83yzu33D3zG1xGPeEb9Ebe
 status: active
 merged_into: null
 display_name: 王傅
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -110,7 +110,63 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_wLQVL8uP8qn1LWEsK7fPrW
+        subject_person_id: p_RrddoDHvhLNarezkWkfGUJ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_83yzu33D3zG1xGPeEb9Ebe
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_EjyKGn2xzs1X9jk5Hcjai6
+          claim_id: c_wLQVL8uP8qn1LWEsK7fPrW
+          source_id: s_vAk2x7KgBiFLSavEUvm6qT
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_vAk2x7KgBiFLSavEUvm6qT
+            source_type: api_record
+            title: 维基数据：王傅（Q45537293）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45537293
+            external_identifier: Q45537293
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:33.526Z
+            metadata_json: null
+        - id: cs_ACaNaLNMmGCFf8Ga2KqFG6
+          claim_id: c_wLQVL8uP8qn1LWEsK7fPrW
+          source_id: s_51EvKaBbKzRW9e7MQ5tFVt
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_51EvKaBbKzRW9e7MQ5tFVt
+            source_type: api_record
+            title: 维基数据：王珤（Q45537229）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45537229
+            external_identifier: Q45537229
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:40.541Z
+            metadata_json: null
+      object_person:
+        id: p_RrddoDHvhLNarezkWkfGUJ
+        status: active
+        display_name: 王珤
+        merged_into_person_id: null
   children:
     - claim:
         id: c_8WNJ1PDkKAbz6FPgxQAdpz
@@ -191,10 +247,12 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_RrddoDHvhLNarezkWkfGUJ | 王珤 | accepted |
 | children | p_2ER4qeybN68kj6wmWDD4De | 王渐逵 | accepted |
 
 ## 外部来源
 
+- [维基数据：王珤（Q45537229）](https://www.wikidata.org/wiki/Q45537229)
 - [维基数据：王傅（Q45537293）](https://www.wikidata.org/wiki/Q45537293)
 - [维基数据：王渐逵（Q15895449）](https://www.wikidata.org/wiki/Q15895449)
 - [CBDB 中国历代人物传记资料库：王傅（279739）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=279739&o=json)

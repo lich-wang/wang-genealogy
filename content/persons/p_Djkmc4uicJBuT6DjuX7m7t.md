@@ -4,7 +4,7 @@ id: p_Djkmc4uicJBuT6DjuX7m7t
 status: active
 merged_into: null
 display_name: 王稌
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_LPKamJ78vzJUu4765xEYKj
             source_type: api_record
             title: 维基数据：王稌（Q65903516）
@@ -110,11 +110,260 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_XGq5Kxym5uFUKwsJ65jJ1a
+        subject_person_id: p_ujxGmCBGatyUsmPNvx1eeB
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Djkmc4uicJBuT6DjuX7m7t
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_a46MB7kX66NacWoy67BtvD
+          claim_id: c_XGq5Kxym5uFUKwsJ65jJ1a
+          source_id: s_vS2t2ntyv7LmatgEDDuYin
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_vS2t2ntyv7LmatgEDDuYin
+            source_type: api_record
+            title: 维基数据：王绅（Q45413317）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45413317
+            external_identifier: Q45413317
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:00:07.031Z
+            metadata_json: null
+        - id: cs_rSK1ewJ9k4CQvrGTfFGoZQ
+          claim_id: c_XGq5Kxym5uFUKwsJ65jJ1a
+          source_id: s_LPKamJ78vzJUu4765xEYKj
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_hTc9k3M9RTLip2ZeJQefij
+          claim_id: c_XGq5Kxym5uFUKwsJ65jJ1a
+          source_id: s_TRViFeuhUj6uqvpFPe1kuG
+          stance: supports
+          locator: 亲属关系：次子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：未知
+          source:
+            id: s_TRViFeuhUj6uqvpFPe1kuG
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王紳（28112）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28112&o=json
+            external_identifier: CBDB:28112
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:00:07.216Z
+            metadata_json: null
+      object_person:
+        id: p_ujxGmCBGatyUsmPNvx1eeB
+        status: active
+        display_name: 王绅
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_yofUyGuoo5HcYsA6yRwzd6
+        subject_person_id: p_Djkmc4uicJBuT6DjuX7m7t
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_qJM7h8dFu3we6W3CZKZQQr
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QdB88t8B7cS7B4LPiEkVXN
+          claim_id: c_yofUyGuoo5HcYsA6yRwzd6
+          source_id: s_RZpxiNzearwSZRREZr91Tc
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_RZpxiNzearwSZRREZr91Tc
+            source_type: api_record
+            title: 维基数据：王瀹（Q65904230）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q65904230
+            external_identifier: Q65904230
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+        - id: cs_VQoFj62rQCLhf8tuKgGqRh
+          claim_id: c_yofUyGuoo5HcYsA6yRwzd6
+          source_id: s_LPKamJ78vzJUu4765xEYKj
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_KNTNsjwu2zav2EBVLG2p8n
+          claim_id: c_yofUyGuoo5HcYsA6yRwzd6
+          source_id: s_DifVCfdMFb5K6Mo67xCm1z
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：未知
+          source: *a1
+      object_person:
+        id: p_qJM7h8dFu3we6W3CZKZQQr
+        status: active
+        display_name: 王瀹
+        merged_into_person_id: null
+    - claim:
+        id: c_y8LjyKkDzFekcPLvkB6Egg
+        subject_person_id: p_Djkmc4uicJBuT6DjuX7m7t
+        claim_kind: relationship
+        predicate: kinship.parent_of
+        object_person_id: p_9VxEWjL3WdRDJDc2ecBK47
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5iTfZiCQKH8Xkwb75zWrwY
+          claim_id: c_y8LjyKkDzFekcPLvkB6Egg
+          source_id: s_DifVCfdMFb5K6Mo67xCm1z
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：未知
+          source: *a1
+      object_person:
+        id: p_9VxEWjL3WdRDJDc2ecBK47
+        status: active
+        display_name: 王汶
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_uQUEABqSDzYkq4GPPgJCGS
+        subject_person_id: p_Djkmc4uicJBuT6DjuX7m7t
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_DNBu7dKBcHTFT8EoXEHiXT
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PMDtS4J6t3E4Y3K4e8NEZA
+          claim_id: c_uQUEABqSDzYkq4GPPgJCGS
+          source_id: s_Gp3VAxCA4pAUQ4tcQCX6eX
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_Gp3VAxCA4pAUQ4tcQCX6eX
+            source_type: api_record
+            title: 维基数据：丁氏（Q65904233）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q65904233
+            external_identifier: Q65904233
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+        - id: cs_hN8PpPSKL3mrbH3WAZhFZU
+          claim_id: c_uQUEABqSDzYkq4GPPgJCGS
+          source_id: s_LPKamJ78vzJUu4765xEYKj
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_KuTG2QFgqdJddxmgatQKsb
+          claim_id: c_uQUEABqSDzYkq4GPPgJCGS
+          source_id: s_DifVCfdMFb5K6Mo67xCm1z
+          stance: supports
+          locator: 亲属关系：第一任妻
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：未知
+          source: *a1
+      object_person:
+        id: p_DNBu7dKBcHTFT8EoXEHiXT
+        status: active
+        display_name: 丁氏
+        merged_into_person_id: null
+    - claim:
+        id: c_EXyCCWwSnwaQ7SkXr6LTEG
+        subject_person_id: p_8GF834u9vuJrzqkRvDZrHA
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_Djkmc4uicJBuT6DjuX7m7t
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_phEixpci28yu39ksFB5Zij
+          claim_id: c_EXyCCWwSnwaQ7SkXr6LTEG
+          source_id: s_1etS6b7DFhjigtQyStvchA
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_1etS6b7DFhjigtQyStvchA
+            source_type: api_record
+            title: 维基数据：吴氏（Q65904236）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q65904236
+            external_identifier: Q65904236
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+        - id: cs_KEmiUpvFMHziwVFXZMTT72
+          claim_id: c_EXyCCWwSnwaQ7SkXr6LTEG
+          source_id: s_LPKamJ78vzJUu4765xEYKj
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_8n3N7nvP4q5x68GWj2nrgo
+          claim_id: c_EXyCCWwSnwaQ7SkXr6LTEG
+          source_id: s_DifVCfdMFb5K6Mo67xCm1z
+          stance: supports
+          locator: 亲属关系：第二任妻
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：未知
+          source: *a1
+      object_person:
+        id: p_8GF834u9vuJrzqkRvDZrHA
+        status: active
+        display_name: 吴氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -135,8 +384,18 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_ujxGmCBGatyUsmPNvx1eeB | 王绅 | accepted |
+| children | p_qJM7h8dFu3we6W3CZKZQQr | 王瀹 | accepted |
+| children | p_9VxEWjL3WdRDJDc2ecBK47 | 王汶 | accepted |
+| spouses | p_DNBu7dKBcHTFT8EoXEHiXT | 丁氏 | accepted |
+| spouses | p_8GF834u9vuJrzqkRvDZrHA | 吴氏 | accepted |
 
 ## 外部来源
 
+- [维基数据：丁氏（Q65904233）](https://www.wikidata.org/wiki/Q65904233)
+- [维基数据：王绅（Q45413317）](https://www.wikidata.org/wiki/Q45413317)
 - [维基数据：王稌（Q65903516）](https://www.wikidata.org/wiki/Q65903516)
+- [维基数据：王瀹（Q65904230）](https://www.wikidata.org/wiki/Q65904230)
+- [维基数据：吴氏（Q65904236）](https://www.wikidata.org/wiki/Q65904236)
+- [CBDB 中国历代人物传记资料库：王紳（28112）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28112&o=json)
 - [CBDB 中国历代人物传记资料库：王稌（437664）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=437664&o=json)

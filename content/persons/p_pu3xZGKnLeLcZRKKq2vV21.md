@@ -4,7 +4,7 @@ id: p_pu3xZGKnLeLcZRKKq2vV21
 status: active
 merged_into: null
 display_name: 王棫
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -110,7 +110,82 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_dPQTSfz21VGb5ftoJnoFLP
+        subject_person_id: p_4JXdLGzMSVWRt7DgGNQQq2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_pu3xZGKnLeLcZRKKq2vV21
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3WgEsjQ4MLCUfBEd9D6thJ
+          claim_id: c_dPQTSfz21VGb5ftoJnoFLP
+          source_id: s_9JbDebE7ppCUBmG9RhgyR2
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_9JbDebE7ppCUBmG9RhgyR2
+            source_type: api_record
+            title: 维基数据：王棫（Q45378727）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45378727
+            external_identifier: Q45378727
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:58:57.823Z
+            metadata_json: null
+        - id: cs_2NzM8Yg86P3cXJreFC17W6
+          claim_id: c_dPQTSfz21VGb5ftoJnoFLP
+          source_id: s_MHUANk8LX5MLkNEYCEfoM2
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_MHUANk8LX5MLkNEYCEfoM2
+            source_type: api_record
+            title: 维基数据：王仁（Q45378726）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45378726
+            external_identifier: Q45378726
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:10.721Z
+            metadata_json: null
+        - id: cs_8DrJCBrPqbUxE5771jbkKJ
+          claim_id: c_dPQTSfz21VGb5ftoJnoFLP
+          source_id: s_LqFkpZSCL5c8ztGGNFvh5T
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：未知
+          source:
+            id: s_LqFkpZSCL5c8ztGGNFvh5T
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王仁（13796）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=13796&o=json
+            external_identifier: CBDB:13796
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:06:10.884Z
+            metadata_json: null
+      object_person:
+        id: p_4JXdLGzMSVWRt7DgGNQQq2
+        status: active
+        display_name: 王仁
+        merged_into_person_id: null
   children:
     - claim:
         id: c_uNd9C2Rzqbmmc29u8g1AB7
@@ -210,10 +285,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_4JXdLGzMSVWRt7DgGNQQq2 | 王仁 | accepted |
 | children | p_Nm2iJSX6JvN22S8n42tuCU | 王直方 | accepted |
 
 ## 外部来源
 
+- [维基数据：王仁（Q45378726）](https://www.wikidata.org/wiki/Q45378726)
 - [维基数据：王棫（Q45378727）](https://www.wikidata.org/wiki/Q45378727)
 - [维基数据：王直方（Q10415993）](https://www.wikidata.org/wiki/Q10415993)
+- [CBDB 中国历代人物传记资料库：王仁（13796）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=13796&o=json)
 - [CBDB 中国历代人物传记资料库：王棫（13797）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=13797&o=json)

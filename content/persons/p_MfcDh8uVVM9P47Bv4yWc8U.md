@@ -4,7 +4,7 @@ id: p_MfcDh8uVVM9P47Bv4yWc8U
 status: active
 merged_into: null
 display_name: 王修
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: Q713604
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
-          source:
+          source: &a1
             id: s_bTvjiyG7FrewdKX8pd528D
             source_type: api_record
             title: 维基数据：王修（Q713604）
@@ -172,7 +172,52 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_GTJGqaZM2cyMfgH1dVb6HL
+        subject_person_id: p_MfcDh8uVVM9P47Bv4yWc8U
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_6MLS5EfSH9FK3ta1zVsa8A
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KXg7xbtxsT2qJVGbqtwsmB
+          claim_id: c_GTJGqaZM2cyMfgH1dVb6HL
+          source_id: s_OCPT3dmj9gLWmiDwSXu6uF
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_OCPT3dmj9gLWmiDwSXu6uF
+            source_type: website
+            title: 中文维基百科：王仪 (三国)
+            creator: 维基百科贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%BB%AA_(%E4%B8%89%E5%9B%BD)
+            external_identifier: Q48926547
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-06T22:33:22.403Z
+            metadata_json: null
+        - id: cs_Ut9X1snH3sXKBgNdP2A2eH
+          claim_id: c_GTJGqaZM2cyMfgH1dVb6HL
+          source_id: s_bTvjiyG7FrewdKX8pd528D
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+      object_person:
+        id: p_6MLS5EfSH9FK3ta1zVsa8A
+        status: active
+        display_name: 王仪
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -198,7 +243,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_6MLS5EfSH9FK3ta1zVsa8A | 王仪 | accepted |
 
 ## 外部来源
 
 - [维基数据：王修（Q713604）](https://www.wikidata.org/wiki/Q713604)
+- [中文维基百科：王仪 (三国)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%BB%AA_(%E4%B8%89%E5%9B%BD))

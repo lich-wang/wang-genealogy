@@ -4,7 +4,7 @@ id: p_Sj8hygc8GvhojMcdiG5GCH
 status: active
 merged_into: null
 display_name: 王槐起
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_fkB7x3AEr3j4xZJ4A1BA3K
             source_type: api_record
             title: 维基数据：王槐起（Q45675252）
@@ -189,7 +189,60 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_BPbetayxYtdFTSL7rF2asE
+        subject_person_id: p_C8S76xL9QeVY84yBo32FLj
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_Sj8hygc8GvhojMcdiG5GCH
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GgJFPcN4Jcsni2Jiw9jMtw
+          claim_id: c_BPbetayxYtdFTSL7rF2asE
+          source_id: s_fkB7x3AEr3j4xZJ4A1BA3K
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_BVYdDRKeGQAiSp44pSAd4H
+          claim_id: c_BPbetayxYtdFTSL7rF2asE
+          source_id: s_hDze6Q7hSboGoHCJDzDSQB
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_hDze6Q7hSboGoHCJDzDSQB
+            source_type: api_record
+            title: 维基数据：陈德卿（Q45675173）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45675173
+            external_identifier: Q45675173
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:07:21.813Z
+            metadata_json: null
+        - id: cs_GRv9WT99dHE5sbUkFxWV43
+          claim_id: c_BPbetayxYtdFTSL7rF2asE
+          source_id: s_Mzx6GHSLqTuVLs67XBw7DL
+          stance: supports
+          locator: 亲属关系：妻子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：明清婦女著作數據庫
+          source: *a1
+      object_person:
+        id: p_C8S76xL9QeVY84yBo32FLj
+        status: active
+        display_name: 陈德卿
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -211,9 +264,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_WgJjrR3eV8FZmEbV9t77oX | 王思任 | accepted |
+| spouses | p_C8S76xL9QeVY84yBo32FLj | 陈德卿 | accepted |
 
 ## 外部来源
 
+- [维基数据：陈德卿（Q45675173）](https://www.wikidata.org/wiki/Q45675173)
 - [维基数据：王槐起（Q45675252）](https://www.wikidata.org/wiki/Q45675252)
 - [维基数据：王思任（Q15938368）](https://www.wikidata.org/wiki/Q15938368)
 - [CBDB 中国历代人物传记资料库：王槐起（123340）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=123340&o=json)

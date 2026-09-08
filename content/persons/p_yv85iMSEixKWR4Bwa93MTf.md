@@ -4,7 +4,7 @@ id: p_yv85iMSEixKWR4Bwa93MTf
 status: active
 merged_into: null
 display_name: 王朝用
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_yJrmajipRuAV1QZPatauhk
             source_type: api_record
             title: 维基数据：王朝用（Q45426051）
@@ -110,8 +110,106 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_J7pQ7fuFxJxLTd81GAHNKQ
+        subject_person_id: p_9eCcDpeVkEgC9tqMMZEZWG
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_yv85iMSEixKWR4Bwa93MTf
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_if7mfVMgC7MfduyYuPWXdX
+          claim_id: c_J7pQ7fuFxJxLTd81GAHNKQ
+          source_id: s_yJrmajipRuAV1QZPatauhk
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_He7adhF56nziofDuPL9FLp
+          claim_id: c_J7pQ7fuFxJxLTd81GAHNKQ
+          source_id: s_DoBjWv3uiE5kRTQKLU6pMe
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_DoBjWv3uiE5kRTQKLU6pMe
+            source_type: api_record
+            title: 维基数据：王忠（Q45426092）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45426092
+            external_identifier: Q45426092
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person:
+        id: p_9eCcDpeVkEgC9tqMMZEZWG
+        status: active
+        display_name: 王忠
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_WH9uXRvGN5NozL1gWJ7b28
+        subject_person_id: p_yv85iMSEixKWR4Bwa93MTf
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Nz48pSWAW4LPxqPoD9gVkb
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_f8yQYyY1oSFGHkvXdYCaVV
+          claim_id: c_WH9uXRvGN5NozL1gWJ7b28
+          source_id: s_gn85ptgouvAdUmyZY5r85u
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_gn85ptgouvAdUmyZY5r85u
+            source_type: api_record
+            title: 维基数据：王希淮（Q45425959）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45425959
+            external_identifier: Q45425959
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:00.696Z
+            metadata_json: null
+        - id: cs_oBjuKBZXQG7iGAL6SrTX79
+          claim_id: c_WH9uXRvGN5NozL1gWJ7b28
+          source_id: s_yJrmajipRuAV1QZPatauhk
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_QER5T6Pbj1NoUNVphDDy64
+          claim_id: c_WH9uXRvGN5NozL1gWJ7b28
+          source_id: s_CwhUEJoHdrvQ9LEyt21yLX
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：未知
+          source: *a1
+      object_person:
+        id: p_Nz48pSWAW4LPxqPoD9gVkb
+        status: active
+        display_name: 王希淮
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +233,12 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_9eCcDpeVkEgC9tqMMZEZWG | 王忠 | accepted |
+| children | p_Nz48pSWAW4LPxqPoD9gVkb | 王希淮 | accepted |
 
 ## 外部来源
 
 - [维基数据：王朝用（Q45426051）](https://www.wikidata.org/wiki/Q45426051)
+- [维基数据：王希淮（Q45425959）](https://www.wikidata.org/wiki/Q45425959)
+- [维基数据：王忠（Q45426092）](https://www.wikidata.org/wiki/Q45426092)
 - [CBDB 中国历代人物传记资料库：王朝用（35272）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35272&o=json)

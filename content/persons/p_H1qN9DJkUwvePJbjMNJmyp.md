@@ -4,7 +4,7 @@ id: p_H1qN9DJkUwvePJbjMNJmyp
 status: active
 merged_into: null
 display_name: 王士崧
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a1
             id: s_ta7fJKZC1v4nhWm2mDhw14
             source_type: api_record
             title: 维基数据：王士崧（Q16925700）
@@ -135,7 +135,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_SGyN6PwCC37j9pzx1eeEdU
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：王士崧（35068）
@@ -287,8 +287,98 @@ relationships:
         merged_into_person_id: null
   children: []
   adoptive_parents: []
-  adoptive_children: []
-  spouses: []
+  adoptive_children:
+    - claim:
+        id: c_TLz4LYGNPhdirBovQKg588
+        subject_person_id: p_H1qN9DJkUwvePJbjMNJmyp
+        claim_kind: relationship
+        predicate: kinship.adoptive_parent_of
+        object_person_id: p_SWfQfCDCKhLf9P4kgMuHQS
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_k6CzQuWE2u73xFZqoAjw44
+          claim_id: c_TLz4LYGNPhdirBovQKg588
+          source_id: s_AEDAFCCjaEUtAXSw6d3mhf
+          stance: supports
+          locator: 亲属关系：嗣父
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：臨海縣志
+          source:
+            id: s_AEDAFCCjaEUtAXSw6d3mhf
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王立程（702263）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=702263&o=json
+            external_identifier: CBDB:702263
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:07:25.264Z
+            metadata_json: null
+      object_person:
+        id: p_SWfQfCDCKhLf9P4kgMuHQS
+        status: active
+        display_name: 王立程
+        merged_into_person_id: null
+  spouses:
+    - claim:
+        id: c_v38cKNpCPNBaF1J6qrmHfw
+        subject_person_id: p_7oLhNpqUYp1tqETFx86wc3
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_H1qN9DJkUwvePJbjMNJmyp
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_EmQp7rLLohCs6mGSM7MTpB
+          claim_id: c_v38cKNpCPNBaF1J6qrmHfw
+          source_id: s_ta7fJKZC1v4nhWm2mDhw14
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_8rb5QPupW9bLXCCCjy4jNa
+          claim_id: c_v38cKNpCPNBaF1J6qrmHfw
+          source_id: s_jqLkujpLgmQYEPkB4Z8xbF
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_jqLkujpLgmQYEPkB4Z8xbF
+            source_type: api_record
+            title: 维基数据：苏氏（Q65825522）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q65825522
+            external_identifier: Q65825522
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:07:06.712Z
+            metadata_json: null
+        - id: cs_m9u3fk6N515NKFNNGDV7J2
+          claim_id: c_v38cKNpCPNBaF1J6qrmHfw
+          source_id: s_SGyN6PwCC37j9pzx1eeEdU
+          stance: supports
+          locator: 亲属关系：妻子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：萬曆十一年進士登科錄:一卷
+          source: *a2
+      object_person:
+        id: p_7oLhNpqUYp1tqETFx86wc3
+        status: active
+        display_name: 苏氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -312,11 +402,15 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_trUE1ub3cUR7dMLX7JC1NK | 王宗沐 | accepted |
+| adoptive_children | p_SWfQfCDCKhLf9P4kgMuHQS | 王立程 | accepted |
+| spouses | p_7oLhNpqUYp1tqETFx86wc3 | 苏氏 | accepted |
 
 ## 外部来源
 
+- [维基数据：苏氏（Q65825522）](https://www.wikidata.org/wiki/Q65825522)
 - [维基数据：王士崧（Q16925700）](https://www.wikidata.org/wiki/Q16925700)
 - [维基数据：王宗沐（Q15916933）](https://www.wikidata.org/wiki/Q15916933)
 - [中文维基百科：王士崧](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A3%AB%E5%B4%A7)
+- [CBDB 中国历代人物传记资料库：王立程（702263）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=702263&o=json)
 - [CBDB 中国历代人物传记资料库：王士崧（35068）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35068&o=json)
 - [CBDB 中国历代人物传记资料库：王宗沐（35065）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35065&o=json)

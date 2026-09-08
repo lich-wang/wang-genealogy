@@ -4,7 +4,7 @@ id: p_FrJEqY9jd798BiS6FFwQdX
 status: active
 merged_into: null
 display_name: 王維瀚
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -72,7 +72,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_2CMEKy9XxJ3WwY8ftqDpB5
+        subject_person_id: p_ZbD99C4BekXwqC5kDUcsjZ
+        claim_kind: relationship
+        predicate: kinship.parent_of
+        object_person_id: p_FrJEqY9jd798BiS6FFwQdX
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_nW22K5kk5EKEhFNfM5inwB
+          claim_id: c_2CMEKy9XxJ3WwY8ftqDpB5
+          source_id: s_jS8NjftuFRD38h7YN8QML7
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：人名權威資料（中央研究院歷史語言研究所）
+          source:
+            id: s_jS8NjftuFRD38h7YN8QML7
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王必達（69135）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69135&o=json
+            external_identifier: CBDB:69135
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:00:12.371Z
+            metadata_json: null
+      object_person:
+        id: p_ZbD99C4BekXwqC5kDUcsjZ
+        status: active
+        display_name: 王必达
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_ZbD99C4BekXwqC5kDUcsjZ | 王必达 | accepted |
 
 ## 外部来源
 
+- [CBDB 中国历代人物传记资料库：王必達（69135）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69135&o=json)
 - [CBDB 中国历代人物传记资料库：王維瀚（526718）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526718&o=json)

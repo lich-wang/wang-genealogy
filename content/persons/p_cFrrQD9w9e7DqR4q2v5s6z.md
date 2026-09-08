@@ -4,7 +4,7 @@ id: p_cFrrQD9w9e7DqR4q2v5s6z
 status: active
 merged_into: null
 display_name: 王氏
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -72,7 +72,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_ELbYmvnAeXE2jBrVG7SHyn
             source_type: api_record
             title: 维基数据：王氏（Q65803842）
@@ -175,11 +175,128 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_1sVdvNTZ88wj9oMMcnFfE4
+        subject_person_id: p_c8C8PQBtyD8TinfV8tVU4U
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_cFrrQD9w9e7DqR4q2v5s6z
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XHuKsPK3WYCE7aJXJq6spz
+          claim_id: c_1sVdvNTZ88wj9oMMcnFfE4
+          source_id: s_wjVLxMLRqXwKjCian14tbq
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_wjVLxMLRqXwKjCian14tbq
+            source_type: api_record
+            title: 维基数据：王澄（Q45685584）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45685584
+            external_identifier: Q45685584
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:53.553Z
+            metadata_json: null
+        - id: cs_xRCghxNFKiEhVW8qjPjzJW
+          claim_id: c_1sVdvNTZ88wj9oMMcnFfE4
+          source_id: s_ELbYmvnAeXE2jBrVG7SHyn
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_DMrksE3HJqgNzomT8p88VJ
+          claim_id: c_1sVdvNTZ88wj9oMMcnFfE4
+          source_id: s_HmJsV2rPiCVdpEMRJrZ3CS
+          stance: supports
+          locator: 亲属关系：女兒
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：唐五代人物傳記與社會網絡資料庫(1.0版)
+          source:
+            id: s_HmJsV2rPiCVdpEMRJrZ3CS
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王澄（186695）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=186695&o=json
+            external_identifier: CBDB:186695
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:59:53.735Z
+            metadata_json: null
+      object_person:
+        id: p_c8C8PQBtyD8TinfV8tVU4U
+        status: active
+        display_name: 王澄
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_DEDC4DpL5czPZFsXQZ4A6F
+        subject_person_id: p_cFrrQD9w9e7DqR4q2v5s6z
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_o13vNKQ64b31uTKeAY1uL2
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_yeDJjwo8Sc1dGRaN9vN9DM
+          claim_id: c_DEDC4DpL5czPZFsXQZ4A6F
+          source_id: s_LQ3jQ7m1BQGXNtg2zYLhxe
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_LQ3jQ7m1BQGXNtg2zYLhxe
+            source_type: api_record
+            title: 维基数据：李收（Q45685708）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45685708
+            external_identifier: Q45685708
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+        - id: cs_FP6r2Yo1teWi3SsVPXcWeQ
+          claim_id: c_DEDC4DpL5czPZFsXQZ4A6F
+          source_id: s_ELbYmvnAeXE2jBrVG7SHyn
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_rrTkY2zEpXbjDMLQSL3bwS
+          claim_id: c_DEDC4DpL5czPZFsXQZ4A6F
+          source_id: s_D53zH68YiQ3Dw5JqK6Kdfo
+          stance: supports
+          locator: 亲属关系：丈夫
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：唐五代人物傳記與社會網絡資料庫(1.0版)
+          source: *a1
+      object_person:
+        id: p_o13vNKQ64b31uTKeAY1uL2
+        status: active
+        display_name: 李收
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -202,8 +319,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_c8C8PQBtyD8TinfV8tVU4U | 王澄 | accepted |
+| spouses | p_o13vNKQ64b31uTKeAY1uL2 | 李收 | accepted |
 
 ## 外部来源
 
+- [维基数据：李收（Q45685708）](https://www.wikidata.org/wiki/Q45685708)
+- [维基数据：王澄（Q45685584）](https://www.wikidata.org/wiki/Q45685584)
 - [维基数据：王氏（Q65803842）](https://www.wikidata.org/wiki/Q65803842)
+- [CBDB 中国历代人物传记资料库：王澄（186695）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=186695&o=json)
 - [CBDB 中国历代人物传记资料库：王氏（145522）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=145522&o=json)

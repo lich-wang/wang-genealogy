@@ -4,7 +4,7 @@ id: p_Ns4Cdmr9SZRQforztCwkrA
 status: active
 merged_into: null
 display_name: 王成
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_zRCWanQ9G8TMGENN7UWk8v
             source_type: api_record
             title: 维基数据：王成（Q45491751）
@@ -110,8 +110,98 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_1CgNRuWYNfA5p7LyymRog9
+        subject_person_id: p_CssBwdEzPxaEJMK9H91FMQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Ns4Cdmr9SZRQforztCwkrA
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_EsV4MpDSbRVm6PYgD8azUG
+          claim_id: c_1CgNRuWYNfA5p7LyymRog9
+          source_id: s_rjRAs59DSneY65g9D1nKaZ
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_rjRAs59DSneY65g9D1nKaZ
+            source_type: api_record
+            title: 维基数据：王云（Q45491686）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45491686
+            external_identifier: Q45491686
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+        - id: cs_CvRDwqXCFU8guyg1yWJX4W
+          claim_id: c_1CgNRuWYNfA5p7LyymRog9
+          source_id: s_zRCWanQ9G8TMGENN7UWk8v
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+      object_person:
+        id: p_CssBwdEzPxaEJMK9H91FMQ
+        status: active
+        display_name: 王云
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_4eUrHznUMarW3ZsgmTEqYc
+        subject_person_id: p_Ns4Cdmr9SZRQforztCwkrA
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_PAQnJKUX1HHCzAwrFTb5md
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dKrMgpU6xcFnV47UJToCX7
+          claim_id: c_4eUrHznUMarW3ZsgmTEqYc
+          source_id: s_aBqYKXy4FB34Qb4CoTKgaT
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_aBqYKXy4FB34Qb4CoTKgaT
+            source_type: api_record
+            title: 维基数据：王本（Q45491815）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45491815
+            external_identifier: Q45491815
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:00:10.748Z
+            metadata_json: null
+        - id: cs_Qb6orh3u7VqCDZbkGPHgGQ
+          claim_id: c_4eUrHznUMarW3ZsgmTEqYc
+          source_id: s_zRCWanQ9G8TMGENN7UWk8v
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+      object_person:
+        id: p_PAQnJKUX1HHCzAwrFTb5md
+        status: active
+        display_name: 王本
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +225,12 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_CssBwdEzPxaEJMK9H91FMQ | 王云 | accepted |
+| children | p_PAQnJKUX1HHCzAwrFTb5md | 王本 | accepted |
 
 ## 外部来源
 
+- [维基数据：王本（Q45491815）](https://www.wikidata.org/wiki/Q45491815)
 - [维基数据：王成（Q45491751）](https://www.wikidata.org/wiki/Q45491751)
+- [维基数据：王云（Q45491686）](https://www.wikidata.org/wiki/Q45491686)
 - [CBDB 中国历代人物传记资料库：王成（257533）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257533&o=json)

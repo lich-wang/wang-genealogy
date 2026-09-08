@@ -4,7 +4,7 @@ id: p_7ZLkhM6fzxrjvBYHUXQTJQ
 status: active
 merged_into: null
 display_name: 王念孙
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_bLgFFJHnegm1L7AxEbYBqC
             source_type: api_record
             title: 维基数据：王念孙（Q697757）
@@ -198,8 +198,145 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_kFFgV9APJ9PUr2goS8UsLq
+        subject_person_id: p_sCuihMoKaDM57tF5Pkp3Mj
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_7ZLkhM6fzxrjvBYHUXQTJQ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6EgtkhJncHEbuwPDecX7bP
+          claim_id: c_kFFgV9APJ9PUr2goS8UsLq
+          source_id: s_bLgFFJHnegm1L7AxEbYBqC
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_azVAGNV1cdGHJGw4gJRTgE
+          claim_id: c_kFFgV9APJ9PUr2goS8UsLq
+          source_id: s_QLxc23wzNL9kEubUEkSKpi
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_QLxc23wzNL9kEubUEkSKpi
+            source_type: api_record
+            title: 维基数据：王安国（Q13688035）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q13688035
+            external_identifier: Q13688035
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AE%89%E5%9C%8B_(%E9%9B%8D%E6%AD%A3%E9%80%B2%E5%A3%AB)
+      object_person:
+        id: p_sCuihMoKaDM57tF5Pkp3Mj
+        status: active
+        display_name: 王安国
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_fACFTvDT7BUrmWeZB1Fk7S
+        subject_person_id: p_7ZLkhM6fzxrjvBYHUXQTJQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_x9CQGixzEkUnA7H8VckBPu
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NUeCbrUVDWGfpdGP1FQEgm
+          claim_id: c_fACFTvDT7BUrmWeZB1Fk7S
+          source_id: s_SwHU4SeGpPq4puTdYE17fn
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_SwHU4SeGpPq4puTdYE17fn
+            source_type: api_record
+            title: 维基数据：王引之（Q11573061）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q11573061
+            external_identifier: Q11573061
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:19.447Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BC%95%E4%B9%8B
+        - id: cs_AGxK51EVzBoxz4M7GVREG2
+          claim_id: c_fACFTvDT7BUrmWeZB1Fk7S
+          source_id: s_bLgFFJHnegm1L7AxEbYBqC
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+      object_person:
+        id: p_x9CQGixzEkUnA7H8VckBPu
+        status: active
+        display_name: 王引之
+        merged_into_person_id: null
+    - claim:
+        id: c_HDmHfWVzz6MEFc7EZ1V2W1
+        subject_person_id: p_7ZLkhM6fzxrjvBYHUXQTJQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_pXsKr1gsPZgzsPgk6zPHaG
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cDcFcCgsN9aA1zD9dRF9pk
+          claim_id: c_HDmHfWVzz6MEFc7EZ1V2W1
+          source_id: s_bLgFFJHnegm1L7AxEbYBqC
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_ucJTmN6VnxreyBMJ4H2QAA
+          claim_id: c_HDmHfWVzz6MEFc7EZ1V2W1
+          source_id: s_KHDVRBnd6rhHFqH8m6vHSt
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_KHDVRBnd6rhHFqH8m6vHSt
+            source_type: api_record
+            title: 维基数据：王氏（Q13688131）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q13688131
+            external_identifier: Q13688131
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person:
+        id: p_pXsKr1gsPZgzsPgk6zPHaG
+        status: active
+        display_name: 王氏
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -225,8 +362,14 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_sCuihMoKaDM57tF5Pkp3Mj | 王安国 | accepted |
+| children | p_x9CQGixzEkUnA7H8VckBPu | 王引之 | accepted |
+| children | p_pXsKr1gsPZgzsPgk6zPHaG | 王氏 | accepted |
 
 ## 外部来源
 
+- [维基数据：王安国（Q13688035）](https://www.wikidata.org/wiki/Q13688035)
 - [维基数据：王念孙（Q697757）](https://www.wikidata.org/wiki/Q697757)
+- [维基数据：王氏（Q13688131）](https://www.wikidata.org/wiki/Q13688131)
+- [维基数据：王引之（Q11573061）](https://www.wikidata.org/wiki/Q11573061)
 - [CBDB 中国历代人物传记资料库：王念孫（34190）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34190&o=json)

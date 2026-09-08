@@ -4,7 +4,7 @@ id: p_CvkqbHiKU1yv5J5yN1sDim
 status: active
 merged_into: null
 display_name: 王师古
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_D7NNZLUFKQfdTjRPpLvri2
             source_type: api_record
             title: 维基数据：王师古（Q45369091）
@@ -243,6 +243,166 @@ relationships:
         status: active
         display_name: 王象之
         merged_into_person_id: null
+    - claim:
+        id: c_pqUq1nA5e1kb3gxCyiH2Ko
+        subject_person_id: p_CvkqbHiKU1yv5J5yN1sDim
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_tvnrFsvHvQUKrNdzPoHEVm
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_eQ4LDMuS3wRGKzBA3EAUrA
+          claim_id: c_pqUq1nA5e1kb3gxCyiH2Ko
+          source_id: s_hGdsQz7aqgwRprM8Z69YpF
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_hGdsQz7aqgwRprM8Z69YpF
+            source_type: api_record
+            title: 维基数据：王益之（Q18905525）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q18905525
+            external_identifier: Q18905525
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:06.804Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%9B%8A%E4%B9%8B
+        - id: cs_ZJDtt5CCGAiWgjGM3gnviF
+          claim_id: c_pqUq1nA5e1kb3gxCyiH2Ko
+          source_id: s_D7NNZLUFKQfdTjRPpLvri2
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_CyVhr9wMgzyJ7VLjZGkjak
+          claim_id: c_pqUq1nA5e1kb3gxCyiH2Ko
+          source_id: s_411AG8EkY8NdEgG32DgoBa
+          stance: supports
+          locator: 亲属关系：三子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：宋人傳記資料索引(電子版)
+          source: *a1
+      object_person:
+        id: p_tvnrFsvHvQUKrNdzPoHEVm
+        status: active
+        display_name: 王益之
+        merged_into_person_id: null
+    - claim:
+        id: c_3pAWjvkNTGpFR8Xcsv73BB
+        subject_person_id: p_CvkqbHiKU1yv5J5yN1sDim
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Vs1PRNKHH6ZpeN7kAJmKti
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rX67LM1AqcapeFV9Ltx8H5
+          claim_id: c_3pAWjvkNTGpFR8Xcsv73BB
+          source_id: s_sWCnmYdFgCgATu31i6USy7
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_sWCnmYdFgCgATu31i6USy7
+            source_type: api_record
+            title: 维基数据：王氏（Q45364774）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45364774
+            external_identifier: Q45364774
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:10.721Z
+            metadata_json: null
+        - id: cs_uh6v1vHe3adkH488fVvxA8
+          claim_id: c_3pAWjvkNTGpFR8Xcsv73BB
+          source_id: s_D7NNZLUFKQfdTjRPpLvri2
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_qJhrdrJEinAZbTcgwt1qoN
+          claim_id: c_3pAWjvkNTGpFR8Xcsv73BB
+          source_id: s_411AG8EkY8NdEgG32DgoBa
+          stance: supports
+          locator: 亲属关系：女兒
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：未知
+          source: *a1
+      object_person:
+        id: p_Vs1PRNKHH6ZpeN7kAJmKti
+        status: active
+        display_name: 王氏
+        merged_into_person_id: null
+    - claim:
+        id: c_GQBsKF3rBJkrFSWGSLUCRt
+        subject_person_id: p_CvkqbHiKU1yv5J5yN1sDim
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Xeon7wNRj64Mbj4Xs6WS9n
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4kpDK6dLHNWoqvSe7FvtJx
+          claim_id: c_GQBsKF3rBJkrFSWGSLUCRt
+          source_id: s_GrN1Mt1Gg3KqbLt2HdbAZH
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_GrN1Mt1Gg3KqbLt2HdbAZH
+            source_type: api_record
+            title: 维基数据：王谦之（Q45403904）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45403904
+            external_identifier: Q45403904
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:12.861Z
+            metadata_json: null
+        - id: cs_y4mACLmR9MfRC24szK9YeS
+          claim_id: c_GQBsKF3rBJkrFSWGSLUCRt
+          source_id: s_D7NNZLUFKQfdTjRPpLvri2
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_7a3p4SjvSNgVa5yudKn7c9
+          claim_id: c_GQBsKF3rBJkrFSWGSLUCRt
+          source_id: s_411AG8EkY8NdEgG32DgoBa
+          stance: supports
+          locator: 亲属关系：長子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：未知
+          source: *a1
+      object_person:
+        id: p_Xeon7wNRj64Mbj4Xs6WS9n
+        status: active
+        display_name: 王谦之
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -268,11 +428,17 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_mLtGjU7JUkYcfBzdb7BH9M | 王登 | accepted |
 | children | p_KvSAytfnCEPFcT3odvBu7N | 王象之 | accepted |
+| children | p_tvnrFsvHvQUKrNdzPoHEVm | 王益之 | accepted |
+| children | p_Vs1PRNKHH6ZpeN7kAJmKti | 王氏 | accepted |
+| children | p_Xeon7wNRj64Mbj4Xs6WS9n | 王谦之 | accepted |
 
 ## 外部来源
 
 - [维基数据：王登（Q45369083）](https://www.wikidata.org/wiki/Q45369083)
+- [维基数据：王谦之（Q45403904）](https://www.wikidata.org/wiki/Q45403904)
 - [维基数据：王师古（Q45369091）](https://www.wikidata.org/wiki/Q45369091)
+- [维基数据：王氏（Q45364774）](https://www.wikidata.org/wiki/Q45364774)
 - [维基数据：王象之（Q10417099）](https://www.wikidata.org/wiki/Q10417099)
+- [维基数据：王益之（Q18905525）](https://www.wikidata.org/wiki/Q18905525)
 - [CBDB 中国历代人物传记资料库：王登（10686）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10686&o=json)
 - [CBDB 中国历代人物传记资料库：王師古（10688）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10688&o=json)

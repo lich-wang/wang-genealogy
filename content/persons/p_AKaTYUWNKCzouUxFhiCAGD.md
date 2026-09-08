@@ -4,7 +4,7 @@ id: p_AKaTYUWNKCzouUxFhiCAGD
 status: active
 merged_into: null
 display_name: 王铨
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_tvgt6REcBJS37AUDJweQn6
             source_type: api_record
             title: 维基数据：王铨（Q45426337）
@@ -110,7 +110,71 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_gd9wPhSEsS8d8ce3DEFnnZ
+        subject_person_id: p_3JZgMSGQ5z3nPzBFS6irjA
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_AKaTYUWNKCzouUxFhiCAGD
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8g475ebKJePx6A68ugbRPg
+          claim_id: c_gd9wPhSEsS8d8ce3DEFnnZ
+          source_id: s_Pep3yEWZ9xNkK9JDhN8XfH
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_Pep3yEWZ9xNkK9JDhN8XfH
+            source_type: api_record
+            title: 维基数据：王琬（Q45426296）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45426296
+            external_identifier: Q45426296
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:32.124Z
+            metadata_json: null
+        - id: cs_Bz9v656RoZSN4xFMmTU3qi
+          claim_id: c_gd9wPhSEsS8d8ce3DEFnnZ
+          source_id: s_tvgt6REcBJS37AUDJweQn6
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_yGZxdU9d63oUy2G2A6c88A
+          claim_id: c_gd9wPhSEsS8d8ce3DEFnnZ
+          source_id: s_RKoAncChYFnPjTFkDWbWQL
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：未知
+          source:
+            id: s_RKoAncChYFnPjTFkDWbWQL
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王琬（34581）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34581&o=json
+            external_identifier: CBDB:34581
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:59:32.290Z
+            metadata_json: null
+      object_person:
+        id: p_3JZgMSGQ5z3nPzBFS6irjA
+        status: active
+        display_name: 王琬
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -135,8 +199,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_3JZgMSGQ5z3nPzBFS6irjA | 王琬 | accepted |
 
 ## 外部来源
 
 - [维基数据：王铨（Q45426337）](https://www.wikidata.org/wiki/Q45426337)
+- [维基数据：王琬（Q45426296）](https://www.wikidata.org/wiki/Q45426296)
 - [CBDB 中国历代人物传记资料库：王銓（34582）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34582&o=json)
+- [CBDB 中国历代人物传记资料库：王琬（34581）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34581&o=json)

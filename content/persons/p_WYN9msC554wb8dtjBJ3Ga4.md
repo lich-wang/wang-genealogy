@@ -4,7 +4,7 @@ id: p_WYN9msC554wb8dtjBJ3Ga4
 status: active
 merged_into: null
 display_name: 张氏
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -95,7 +95,52 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_HAnDmrVZUNwksXpr5YRjpK
+        subject_person_id: p_hEEpn7U7EKTTeFP3ixWWbm
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_WYN9msC554wb8dtjBJ3Ga4
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_X5J6JZ9DjQN33jXBCdDqQD
+          claim_id: c_HAnDmrVZUNwksXpr5YRjpK
+          source_id: s_eNFZcfGseG5DPkoAbM2fBY
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_eNFZcfGseG5DPkoAbM2fBY
+            source_type: api_record
+            title: 维基数据：王禔（Q45386120）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45386120
+            external_identifier: Q45386120
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:58:59.236Z
+            metadata_json: null
+        - id: cs_LgUpTvG16cTdoSigEFKEbC
+          claim_id: c_HAnDmrVZUNwksXpr5YRjpK
+          source_id: s_CPovKVGqVGK8Z54VxMmbzC
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+      object_person:
+        id: p_hEEpn7U7EKTTeFP3ixWWbm
+        status: active
+        display_name: 王禔
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -116,8 +161,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_hEEpn7U7EKTTeFP3ixWWbm | 王禔 | accepted |
 
 ## 外部来源
 
+- [维基数据：王禔（Q45386120）](https://www.wikidata.org/wiki/Q45386120)
 - [维基数据：张氏（Q45431160）](https://www.wikidata.org/wiki/Q45431160)
 - [CBDB 中国历代人物传记资料库：張氏（38576）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38576&o=json)

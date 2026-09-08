@@ -4,7 +4,7 @@ id: p_2BLYj53xGBLVXEoVxHh8Ws
 status: active
 merged_into: null
 display_name: 王延政
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: Q8012995
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
-          source:
+          source: &a1
             id: s_gZ4uY8cJU9Kz276s8a6nyy
             source_type: api_record
             title: 维基数据：王延政（Q8012995）
@@ -230,10 +230,102 @@ relationships:
         status: active
         display_name: 王审知
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_HfqMAd2JBNDefKRrNpsoGh
+        subject_person_id: p_2BLYj53xGBLVXEoVxHh8Ws
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_GdR8Xk8MA6uyw3SEmMRLpB
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qdCYUqMgQJyoVUPAZrx3Vb
+          claim_id: c_HfqMAd2JBNDefKRrNpsoGh
+          source_id: s_gZ4uY8cJU9Kz276s8a6nyy
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_6SEaheZ5CExGCS6jrWH7GM
+          claim_id: c_HfqMAd2JBNDefKRrNpsoGh
+          source_id: s_RNftsmftEDKBTmG4LmWxGj
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_RNftsmftEDKBTmG4LmWxGj
+            source_type: api_record
+            title: 维基数据：王继沂（Q16260253）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q16260253
+            external_identifier: Q16260253
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%BB%A7%E6%B2%82
+      object_person:
+        id: p_GdR8Xk8MA6uyw3SEmMRLpB
+        status: active
+        display_name: 王继沂
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_n34Dex4wL7RHLWYVh9cxBT
+        subject_person_id: p_2BLYj53xGBLVXEoVxHh8Ws
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_gWgAewVsJvXNBPEwTFDHsQ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_trfAvvJGroyLTgQ6U72cjg
+          claim_id: c_n34Dex4wL7RHLWYVh9cxBT
+          source_id: s_nGBezavVCghu6LKvX7yXjR
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_nGBezavVCghu6LKvX7yXjR
+            source_type: api_record
+            title: 维基数据：张皇后 (王延政)（Q8256407）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q8256407
+            external_identifier: Q8256407
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E5%BC%A0%E7%9A%87%E5%90%8E_(%E6%AE%B7)
+        - id: cs_hKYSwPd2jiE2gm696rQSnJ
+          claim_id: c_n34Dex4wL7RHLWYVh9cxBT
+          source_id: s_gZ4uY8cJU9Kz276s8a6nyy
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+      object_person:
+        id: p_gWgAewVsJvXNBPEwTFDHsQ
+        status: active
+        display_name: 张皇后 (王延政)
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -257,8 +349,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_8YMP7N65fqbbLv9pMGphFA | 王审知 | accepted |
+| children | p_GdR8Xk8MA6uyw3SEmMRLpB | 王继沂 | accepted |
+| spouses | p_gWgAewVsJvXNBPEwTFDHsQ | 张皇后 (王延政) | accepted |
 
 ## 外部来源
 
+- [维基数据：王继沂（Q16260253）](https://www.wikidata.org/wiki/Q16260253)
 - [维基数据：王审知（Q708354）](https://www.wikidata.org/wiki/Q708354)
 - [维基数据：王延政（Q8012995）](https://www.wikidata.org/wiki/Q8012995)
+- [维基数据：张皇后 (王延政)（Q8256407）](https://www.wikidata.org/wiki/Q8256407)

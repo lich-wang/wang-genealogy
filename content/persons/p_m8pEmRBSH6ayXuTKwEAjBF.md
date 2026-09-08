@@ -4,7 +4,7 @@ id: p_m8pEmRBSH6ayXuTKwEAjBF
 status: active
 merged_into: null
 display_name: 王惟真
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_7UCYwv12hL8uoTS1hCGekt
             source_type: api_record
             title: 维基数据：王惟真（Q45459375）
@@ -110,8 +110,98 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_BSXeTNNDMMBuwhnPspLjxd
+        subject_person_id: p_1LjXtHaC5ZgBX5ntEmabuX
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_m8pEmRBSH6ayXuTKwEAjBF
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_x1RTdSnJZD3zpL87Qxy9pP
+          claim_id: c_BSXeTNNDMMBuwhnPspLjxd
+          source_id: s_7UCYwv12hL8uoTS1hCGekt
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_4qCre3MNW46qp7KeFA9i7p
+          claim_id: c_BSXeTNNDMMBuwhnPspLjxd
+          source_id: s_5pS5Fu42DzUqhFJYMrzKSW
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_5pS5Fu42DzUqhFJYMrzKSW
+            source_type: api_record
+            title: 维基数据：王彦成（Q45459312）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45459312
+            external_identifier: Q45459312
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person:
+        id: p_1LjXtHaC5ZgBX5ntEmabuX
+        status: active
+        display_name: 王彦成
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_Jv9RULJNH2TaXY9B9HTSqv
+        subject_person_id: p_m8pEmRBSH6ayXuTKwEAjBF
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_8ZBDQjrPzNEsJHrpRrVWkK
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5Rehfvm9LbMZSMz8oaoK5e
+          claim_id: c_Jv9RULJNH2TaXY9B9HTSqv
+          source_id: s_FUQz5AGTdZDWThBYY1AEr4
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_FUQz5AGTdZDWThBYY1AEr4
+            source_type: api_record
+            title: 维基数据：王仲智（Q45459440）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45459440
+            external_identifier: Q45459440
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:33.526Z
+            metadata_json: null
+        - id: cs_EY8sHiRJV4CnCivKbmBn7j
+          claim_id: c_Jv9RULJNH2TaXY9B9HTSqv
+          source_id: s_7UCYwv12hL8uoTS1hCGekt
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+      object_person:
+        id: p_8ZBDQjrPzNEsJHrpRrVWkK
+        status: active
+        display_name: 王仲智
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +225,12 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_1LjXtHaC5ZgBX5ntEmabuX | 王彦成 | accepted |
+| children | p_8ZBDQjrPzNEsJHrpRrVWkK | 王仲智 | accepted |
 
 ## 外部来源
 
 - [维基数据：王惟真（Q45459375）](https://www.wikidata.org/wiki/Q45459375)
+- [维基数据：王彦成（Q45459312）](https://www.wikidata.org/wiki/Q45459312)
+- [维基数据：王仲智（Q45459440）](https://www.wikidata.org/wiki/Q45459440)
 - [CBDB 中国历代人物传记资料库：王惟真（240858）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=240858&o=json)

@@ -4,7 +4,7 @@ id: p_kRPN2xt1MreSurta52z3PH
 status: active
 merged_into: null
 display_name: 王誠立
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: CBDB:526715
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_MxKLcwwGMmgMm1Y5KEe8Ld
             source_type: api_record
             title: 中国历代人物传记资料库：王誠立（CBDB 526715）
@@ -86,7 +86,52 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_BkaSJ9vNh9vMf9wcGqGoQw
+        subject_person_id: p_kRPN2xt1MreSurta52z3PH
+        claim_kind: relationship
+        predicate: kinship.parent_of
+        object_person_id: p_ZbD99C4BekXwqC5kDUcsjZ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jmwnykYhwCRYZu5vKv7oop
+          claim_id: c_BkaSJ9vNh9vMf9wcGqGoQw
+          source_id: s_MxKLcwwGMmgMm1Y5KEe8Ld
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：人名權威資料（中央研究院歷史語言研究所）
+          source: *a1
+        - id: cs_7B1PDsXGFMV6CPTpuQ1xwn
+          claim_id: c_BkaSJ9vNh9vMf9wcGqGoQw
+          source_id: s_jS8NjftuFRD38h7YN8QML7
+          stance: supports
+          locator: 亲属关系：父
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：人名權威資料（中央研究院歷史語言研究所）
+          source:
+            id: s_jS8NjftuFRD38h7YN8QML7
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王必達（69135）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69135&o=json
+            external_identifier: CBDB:69135
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:00:12.371Z
+            metadata_json: null
+      object_person:
+        id: p_ZbD99C4BekXwqC5kDUcsjZ
+        status: active
+        display_name: 王必达
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -110,7 +155,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_ZbD99C4BekXwqC5kDUcsjZ | 王必达 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王誠立（CBDB 526715）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526715&o=json)
+- [CBDB 中国历代人物传记资料库：王必達（69135）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69135&o=json)

@@ -4,7 +4,7 @@ id: p_q81q3PkerhDLZkUmCUStf4
 status: active
 merged_into: null
 display_name: 刘氏
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -95,7 +95,71 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_R1rfuLqiBrmfSxXbRhRFLQ
+        subject_person_id: p_Nz48pSWAW4LPxqPoD9gVkb
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_q81q3PkerhDLZkUmCUStf4
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FNkpwVqZTXw4EP9ooKQopg
+          claim_id: c_R1rfuLqiBrmfSxXbRhRFLQ
+          source_id: s_gn85ptgouvAdUmyZY5r85u
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_gn85ptgouvAdUmyZY5r85u
+            source_type: api_record
+            title: 维基数据：王希淮（Q45425959）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45425959
+            external_identifier: Q45425959
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:00.696Z
+            metadata_json: null
+        - id: cs_BN5Cka1baSVWHeA8sh5ZtZ
+          claim_id: c_R1rfuLqiBrmfSxXbRhRFLQ
+          source_id: s_ep36P9gCF7924Pn4ot1Fzb
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_TgApbZd9M5zU1j9wVDTdgh
+          claim_id: c_R1rfuLqiBrmfSxXbRhRFLQ
+          source_id: s_6HuB69fFUFh7QQ1s2c3Ajy
+          stance: supports
+          locator: 亲属关系：妻子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：未知
+          source:
+            id: s_6HuB69fFUFh7QQ1s2c3Ajy
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王希淮（35270）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35270&o=json
+            external_identifier: CBDB:35270
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:59:00.839Z
+            metadata_json: null
+      object_person:
+        id: p_Nz48pSWAW4LPxqPoD9gVkb
+        status: active
+        display_name: 王希淮
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -116,8 +180,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_Nz48pSWAW4LPxqPoD9gVkb | 王希淮 | accepted |
 
 ## 外部来源
 
 - [维基数据：刘氏（Q45426174）](https://www.wikidata.org/wiki/Q45426174)
+- [维基数据：王希淮（Q45425959）](https://www.wikidata.org/wiki/Q45425959)
 - [CBDB 中国历代人物传记资料库：劉氏（35275）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35275&o=json)
+- [CBDB 中国历代人物传记资料库：王希淮（35270）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35270&o=json)

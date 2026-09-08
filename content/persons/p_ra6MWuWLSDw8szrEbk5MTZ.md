@@ -4,7 +4,7 @@ id: p_ra6MWuWLSDw8szrEbk5MTZ
 status: active
 merged_into: null
 display_name: 王承系
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a1
             id: s_skgoALw23VHbn6GXrRg1pa
             source_type: api_record
             title: 维基数据：王承系（Q45518441）
@@ -174,7 +174,7 @@ properties:
           locator: Q45518441
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_LNGdrCiFxE339TzXEfXcCZ
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：王承系（194205）
@@ -209,11 +209,130 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_FMXiM9wVuvEBtW1J9EVZiP
+        subject_person_id: p_X1UCfgUyoJHi8W8xdH58BE
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ra6MWuWLSDw8szrEbk5MTZ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MAdR4P92i1DNjX1qDc2VLB
+          claim_id: c_FMXiM9wVuvEBtW1J9EVZiP
+          source_id: s_uNFQmZbjnbMWfFpWUMCosA
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_uNFQmZbjnbMWfFpWUMCosA
+            source_type: api_record
+            title: 维基数据：王士真（Q20026517）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q20026517
+            external_identifier: Q20026517
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:26.496Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A3%AB%E7%9C%9F
+        - id: cs_pnUD11PVHVu2KdZUnj82Er
+          claim_id: c_FMXiM9wVuvEBtW1J9EVZiP
+          source_id: s_skgoALw23VHbn6GXrRg1pa
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_oYrxFGy6rpkSjs6qZQoxk4
+          claim_id: c_FMXiM9wVuvEBtW1J9EVZiP
+          source_id: s_8JcMUxTCwkNV6cEXnmYv9n
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：唐五代人物傳記與社會網絡資料庫(1.0版)
+          source:
+            id: s_8JcMUxTCwkNV6cEXnmYv9n
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王士真（169076）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=169076&o=json
+            external_identifier: CBDB:169076
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:59:26.669Z
+            metadata_json: null
+      object_person:
+        id: p_X1UCfgUyoJHi8W8xdH58BE
+        status: active
+        display_name: 王士真
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_FpCCQKBXLYiD4KpRKwd8qs
+        subject_person_id: p_ra6MWuWLSDw8szrEbk5MTZ
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_Y45CpRh1nGsdRTnKPEXa99
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Z5M92iY5N3mERKGQHVH3KT
+          claim_id: c_FpCCQKBXLYiD4KpRKwd8qs
+          source_id: s_XM771w9hkBBydpp7tX32VV
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_XM771w9hkBBydpp7tX32VV
+            source_type: api_record
+            title: 维基数据：虢国公主（Q16603617）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q16603617
+            external_identifier: Q16603617
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E8%99%A2%E5%9B%BD%E5%85%AC%E4%B8%BB
+        - id: cs_gJoimeVV8ez1HZwtzT4AB2
+          claim_id: c_FpCCQKBXLYiD4KpRKwd8qs
+          source_id: s_skgoALw23VHbn6GXrRg1pa
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_NUTNdaJZu4YoGipMsa3oBP
+          claim_id: c_FpCCQKBXLYiD4KpRKwd8qs
+          source_id: s_LNGdrCiFxE339TzXEfXcCZ
+          stance: supports
+          locator: 亲属关系：妻子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：唐五代人物傳記與社會網絡資料庫(1.0版)
+          source: *a2
+      object_person:
+        id: p_Y45CpRh1nGsdRTnKPEXa99
+        status: active
+        display_name: 虢国公主
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -236,9 +355,14 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_X1UCfgUyoJHi8W8xdH58BE | 王士真 | accepted |
+| spouses | p_Y45CpRh1nGsdRTnKPEXa99 | 虢国公主 | accepted |
 
 ## 外部来源
 
+- [维基数据：虢国公主（Q16603617）](https://www.wikidata.org/wiki/Q16603617)
 - [维基数据：王承系（Q45518441）](https://www.wikidata.org/wiki/Q45518441)
+- [维基数据：王士真（Q20026517）](https://www.wikidata.org/wiki/Q20026517)
 - [中文维基百科：王承系](https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%89%BF%E7%B3%BB)
 - [CBDB 中国历代人物传记资料库：王承系（194205）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=194205&o=json)
+- [CBDB 中国历代人物传记资料库：王士真（169076）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=169076&o=json)

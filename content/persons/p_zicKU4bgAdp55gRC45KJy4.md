@@ -4,7 +4,7 @@ id: p_zicKU4bgAdp55gRC45KJy4
 status: active
 merged_into: null
 display_name: 王子忠
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_nNdH2CU9Sa9Bv9AJLQ9gQ2
             source_type: api_record
             title: 维基数据：王子忠（Q45507096）
@@ -110,8 +110,98 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_unYQHoYSVmimwottyGKus8
+        subject_person_id: p_nbMxKWfrWz4c9en3TGuwmJ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_zicKU4bgAdp55gRC45KJy4
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_n7Hiyb2AzihDLdQDQv8Qo3
+          claim_id: c_unYQHoYSVmimwottyGKus8
+          source_id: s_nNdH2CU9Sa9Bv9AJLQ9gQ2
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_dQm4iEGK78PJ5i9EzbSQNU
+          claim_id: c_unYQHoYSVmimwottyGKus8
+          source_id: s_fyUZqGv8iR8TkXP6rt1425
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_fyUZqGv8iR8TkXP6rt1425
+            source_type: api_record
+            title: 维基数据：王显道（Q45501594）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45501594
+            external_identifier: Q45501594
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person:
+        id: p_nbMxKWfrWz4c9en3TGuwmJ
+        status: active
+        display_name: 王显道
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_FKmqNzDcQmNXY3ycZ6Y2sA
+        subject_person_id: p_zicKU4bgAdp55gRC45KJy4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_6Uj7h3k6AcMQquEzQiGzSE
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9VPnQLG2CcVeRj4vnpjhTT
+          claim_id: c_FKmqNzDcQmNXY3ycZ6Y2sA
+          source_id: s_DyFUEkjpYkThzuUgYuXCHG
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_DyFUEkjpYkThzuUgYuXCHG
+            source_type: api_record
+            title: 维基数据：王颐（Q45512097）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45512097
+            external_identifier: Q45512097
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:33.526Z
+            metadata_json: null
+        - id: cs_PvWWr2gkVScTwCcqofJ6h9
+          claim_id: c_FKmqNzDcQmNXY3ycZ6Y2sA
+          source_id: s_nNdH2CU9Sa9Bv9AJLQ9gQ2
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+      object_person:
+        id: p_6Uj7h3k6AcMQquEzQiGzSE
+        status: active
+        display_name: 王颐
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +225,12 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_nbMxKWfrWz4c9en3TGuwmJ | 王显道 | accepted |
+| children | p_6Uj7h3k6AcMQquEzQiGzSE | 王颐 | accepted |
 
 ## 外部来源
 
+- [维基数据：王显道（Q45501594）](https://www.wikidata.org/wiki/Q45501594)
+- [维基数据：王颐（Q45512097）](https://www.wikidata.org/wiki/Q45512097)
 - [维基数据：王子忠（Q45507096）](https://www.wikidata.org/wiki/Q45507096)
 - [CBDB 中国历代人物传记资料库：王子忠（326662）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326662&o=json)

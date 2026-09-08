@@ -4,7 +4,7 @@ id: p_CeCKJToPiqJ44CrjN1dbFC
 status: active
 merged_into: null
 display_name: 王弘福
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -186,7 +186,71 @@ relationships:
         status: active
         display_name: 王长述
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_s69JxZkxNsxbyAu3L8fTgf
+        subject_person_id: p_CeCKJToPiqJ44CrjN1dbFC
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ELimFJDuCmQgYQUz8JcHYB
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_s4g99H2C9VCHH78M3q5mZH
+          claim_id: c_s69JxZkxNsxbyAu3L8fTgf
+          source_id: s_5EoK36HE943L6gsZuQuBcL
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_5EoK36HE943L6gsZuQuBcL
+            source_type: api_record
+            title: 维基数据：王弘福（Q45485004）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45485004
+            external_identifier: Q45485004
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:15.427Z
+            metadata_json: null
+        - id: cs_dwEqGNA1eUBDp9EFWH1QDo
+          claim_id: c_s69JxZkxNsxbyAu3L8fTgf
+          source_id: s_7bxB2L41VCZBskr62oKt5P
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_7bxB2L41VCZBskr62oKt5P
+            source_type: api_record
+            title: 维基数据：王将勗（Q45510314）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45510314
+            external_identifier: Q45510314
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:38.809Z
+            metadata_json: null
+        - id: cs_hJxDvfH91CmMLoPZv57RQ4
+          claim_id: c_s69JxZkxNsxbyAu3L8fTgf
+          source_id: s_s7WwRrcHmrMN4EFec4gnx7
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：唐五代人物傳記與社會網絡資料庫(1.0版)
+          source: *a1
+      object_person:
+        id: p_ELimFJDuCmQgYQUz8JcHYB
+        status: active
+        display_name: 王将勗
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -211,10 +275,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_BK7k2QcLRSfSmKmA6kf5hq | 王长述 | accepted |
+| children | p_ELimFJDuCmQgYQUz8JcHYB | 王将勗 | accepted |
 
 ## 外部来源
 
 - [维基数据：王弘福（Q45485004）](https://www.wikidata.org/wiki/Q45485004)
+- [维基数据：王将勗（Q45510314）](https://www.wikidata.org/wiki/Q45510314)
 - [维基数据：王长述（Q11573236）](https://www.wikidata.org/wiki/Q11573236)
 - [CBDB 中国历代人物传记资料库：王弘福（151252）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=151252&o=json)
 - [CBDB 中国历代人物传记资料库：王述（175929）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175929&o=json)

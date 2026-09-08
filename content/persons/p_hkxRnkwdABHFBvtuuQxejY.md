@@ -4,7 +4,7 @@ id: p_hkxRnkwdABHFBvtuuQxejY
 status: active
 merged_into: null
 display_name: 王象坤
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a1
             id: s_hU2T3rNMDcHdxgdRjFWsNh
             source_type: api_record
             title: 维基数据：王象坤（Q16904084）
@@ -151,7 +151,7 @@ properties:
           locator: Q16904084
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_JKK5kJVto6JWG92bh3X87P
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：王象坤（205267）
@@ -166,11 +166,109 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_8p47PRfUhrPUZAjxfRr92k
+        subject_person_id: p_AKu7Q79dhYjH69pKrRtR5y
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_hkxRnkwdABHFBvtuuQxejY
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_caKHFs6AmvpzWYtJFVPNpp
+          claim_id: c_8p47PRfUhrPUZAjxfRr92k
+          source_id: s_u98co3v7JVQWnUh6hzZVZy
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_u98co3v7JVQWnUh6hzZVZy
+            source_type: api_record
+            title: 维基数据：王之翰（Q45450999）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45450999
+            external_identifier: Q45450999
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:00:09.271Z
+            metadata_json: null
+        - id: cs_UttoqfvzUf46WWLWLMHz6h
+          claim_id: c_8p47PRfUhrPUZAjxfRr92k
+          source_id: s_hU2T3rNMDcHdxgdRjFWsNh
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+      object_person:
+        id: p_AKu7Q79dhYjH69pKrRtR5y
+        status: active
+        display_name: 王之翰
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_1X6nP5gGag84sM97eTNMeL
+        subject_person_id: p_hkxRnkwdABHFBvtuuQxejY
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_xETp6apMdzRFX9CJqBM6Mg
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Q6r6SSTYAYDSJ78wNtzJ5r
+          claim_id: c_1X6nP5gGag84sM97eTNMeL
+          source_id: s_26mkMpas4HGSQ6arNuKJcZ
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_26mkMpas4HGSQ6arNuKJcZ
+            source_type: api_record
+            title: 维基数据：田氏（Q65857717）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q65857717
+            external_identifier: Q65857717
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+        - id: cs_A71pHwsXXGGyxpeM9TkdmU
+          claim_id: c_1X6nP5gGag84sM97eTNMeL
+          source_id: s_hU2T3rNMDcHdxgdRjFWsNh
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_VFhUESkdPi3F23ZdADpgQj
+          claim_id: c_1X6nP5gGag84sM97eTNMeL
+          source_id: s_JKK5kJVto6JWG92bh3X87P
+          stance: supports
+          locator: 亲属关系：妻子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：嘉靖四十四年進士登科錄:一卷
+          source: *a2
+      object_person:
+        id: p_xETp6apMdzRFX9CJqBM6Mg
+        status: active
+        display_name: 田氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -192,9 +290,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_AKu7Q79dhYjH69pKrRtR5y | 王之翰 | accepted |
+| spouses | p_xETp6apMdzRFX9CJqBM6Mg | 田氏 | accepted |
 
 ## 外部来源
 
+- [维基数据：田氏（Q65857717）](https://www.wikidata.org/wiki/Q65857717)
 - [维基数据：王象坤（Q16904084）](https://www.wikidata.org/wiki/Q16904084)
+- [维基数据：王之翰（Q45450999）](https://www.wikidata.org/wiki/Q45450999)
 - [中文维基百科：王象坤](https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%B1%A1%E5%9D%A4)
 - [CBDB 中国历代人物传记资料库：王象坤（205267）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205267&o=json)

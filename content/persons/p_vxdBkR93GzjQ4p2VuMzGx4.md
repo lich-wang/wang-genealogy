@@ -4,7 +4,7 @@ id: p_vxdBkR93GzjQ4p2VuMzGx4
 status: active
 merged_into: null
 display_name: 林劍言
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -76,7 +76,52 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_yV6qP9sLrPgoHgLDgV4hmW
+        subject_person_id: p_vS1NSBq3ZTKMGBPQAqMJaX
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_vxdBkR93GzjQ4p2VuMzGx4
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_x4jPG77gAv8KkX4zmd8Phz
+          claim_id: c_yV6qP9sLrPgoHgLDgV4hmW
+          source_id: s_EcgMZb9HcvSGSZBehn2MJ3
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_EcgMZb9HcvSGSZBehn2MJ3
+            source_type: api_record
+            title: 维基数据：王孝緗（Q98066569）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q98066569
+            external_identifier: Q98066569
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:00:15.904Z
+            metadata_json: null
+        - id: cs_Y9PBeBRBnznKkSN6Hp6KCB
+          claim_id: c_yV6qP9sLrPgoHgLDgV4hmW
+          source_id: s_U95xyDfa75KWHEnVEX2P5P
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+      object_person:
+        id: p_vS1NSBq3ZTKMGBPQAqMJaX
+        status: active
+        display_name: 王孝緗
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -97,7 +142,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_vS1NSBq3ZTKMGBPQAqMJaX | 王孝緗 | accepted |
 
 ## 外部来源
 
 - [维基数据：林劍言（Q98066599）](https://www.wikidata.org/wiki/Q98066599)
+- [维基数据：王孝緗（Q98066569）](https://www.wikidata.org/wiki/Q98066569)

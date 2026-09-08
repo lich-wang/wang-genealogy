@@ -4,7 +4,7 @@ id: p_4S6HZDcGfP49rCjYzwpNMP
 status: active
 merged_into: null
 display_name: 王正序
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: 导言
           quotation: 王正序（1893年—1984年），中国银行家，英文名：Cheng
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
-          source:
+          source: &a1
             id: s_TMZGZOACH2uX8h1JMejfoC
             source_type: website
             title: 中文维基百科：王正序
@@ -170,7 +170,53 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_T2MDd2NsJ2yMv6z8A3vEu5
+        subject_person_id: p_Mu15E56wyrNWUKHP8qFxt8
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_4S6HZDcGfP49rCjYzwpNMP
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_y9Vify8K46XG2JEs8dWVBo
+          claim_id: c_T2MDd2NsJ2yMv6z8A3vEu5
+          source_id: s_TMZGZOACH2uX8h1JMejfoC
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_ch1MZYwkY3fMbsMpJU25F6
+          claim_id: c_T2MDd2NsJ2yMv6z8A3vEu5
+          source_id: s_Vu8MRc3pp9WwKYcye94xWa
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_Vu8MRc3pp9WwKYcye94xWa
+            source_type: api_record
+            title: 维基数据：王际唐（Q30949751）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q30949751
+            external_identifier: Q30949751
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:09.701Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%9C%89%E5%85%89_(%E8%8B%B1%E5%9C%8B%E5%82%B3%E6%95%99%E5%A3%AB)
+      object_person:
+        id: p_Mu15E56wyrNWUKHP8qFxt8
+        status: active
+        display_name: 王际唐
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -197,8 +243,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Mu15E56wyrNWUKHP8qFxt8 | 王际唐 | accepted |
 
 ## 外部来源
 
+- [维基数据：王际唐（Q30949751）](https://www.wikidata.org/wiki/Q30949751)
 - [维基数据：王正序（Q20687916）](https://www.wikidata.org/wiki/Q20687916)
 - [中文维基百科：王正序](https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%AD%A3%E5%BA%8F)

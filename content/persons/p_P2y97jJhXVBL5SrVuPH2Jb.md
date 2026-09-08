@@ -4,7 +4,7 @@ id: p_P2y97jJhXVBL5SrVuPH2Jb
 status: active
 merged_into: null
 display_name: 王逵
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_R7Q4MJBKETsoKXUfCBEiDk
             source_type: api_record
             title: 维基数据：王逵（Q45426376）
@@ -110,8 +110,106 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_GZ1tvDNLM4EVMbiMs4MRP9
+        subject_person_id: p_rfNi35kMF1FSma9nVH7tNg
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_P2y97jJhXVBL5SrVuPH2Jb
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YagnG2QbuqHvu58GfmarmG
+          claim_id: c_GZ1tvDNLM4EVMbiMs4MRP9
+          source_id: s_R7Q4MJBKETsoKXUfCBEiDk
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_HJE3i4UZoWPJmPKumufF1y
+          claim_id: c_GZ1tvDNLM4EVMbiMs4MRP9
+          source_id: s_E8oVkWzicUr2oy7sEHXWz6
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_E8oVkWzicUr2oy7sEHXWz6
+            source_type: api_record
+            title: 维基数据：王彦祥（Q45426420）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45426420
+            external_identifier: Q45426420
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person:
+        id: p_rfNi35kMF1FSma9nVH7tNg
+        status: active
+        display_name: 王彦祥
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_cpS9ZtSMvjtM99NkY4ZJFp
+        subject_person_id: p_P2y97jJhXVBL5SrVuPH2Jb
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3JZgMSGQ5z3nPzBFS6irjA
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kJgaNXehK77QzYePfsAxuC
+          claim_id: c_cpS9ZtSMvjtM99NkY4ZJFp
+          source_id: s_Pep3yEWZ9xNkK9JDhN8XfH
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_Pep3yEWZ9xNkK9JDhN8XfH
+            source_type: api_record
+            title: 维基数据：王琬（Q45426296）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45426296
+            external_identifier: Q45426296
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:32.124Z
+            metadata_json: null
+        - id: cs_Gpu6V2tvQNXsfzoyRqN6s8
+          claim_id: c_cpS9ZtSMvjtM99NkY4ZJFp
+          source_id: s_R7Q4MJBKETsoKXUfCBEiDk
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_YSDXFw5Trs9bLfYjwUohc3
+          claim_id: c_cpS9ZtSMvjtM99NkY4ZJFp
+          source_id: s_WZsWGK6n29iNd2y92gVpEL
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：未知
+          source: *a1
+      object_person:
+        id: p_3JZgMSGQ5z3nPzBFS6irjA
+        status: active
+        display_name: 王琬
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +233,12 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_rfNi35kMF1FSma9nVH7tNg | 王彦祥 | accepted |
+| children | p_3JZgMSGQ5z3nPzBFS6irjA | 王琬 | accepted |
 
 ## 外部来源
 
 - [维基数据：王逵（Q45426376）](https://www.wikidata.org/wiki/Q45426376)
+- [维基数据：王琬（Q45426296）](https://www.wikidata.org/wiki/Q45426296)
+- [维基数据：王彦祥（Q45426420）](https://www.wikidata.org/wiki/Q45426420)
 - [CBDB 中国历代人物传记资料库：王逵（34583）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34583&o=json)

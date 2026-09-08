@@ -4,7 +4,7 @@ id: p_mLtGjU7JUkYcfBzdb7BH9M
 status: active
 merged_into: null
 display_name: 王登
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -233,6 +233,107 @@ relationships:
         status: active
         display_name: 王师古
         merged_into_person_id: null
+    - claim:
+        id: c_MFqVnTKa2bVrHshmeLFCsn
+        subject_person_id: p_mLtGjU7JUkYcfBzdb7BH9M
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_q4vC5FD8w5c9LNEgf9ELC7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NNRP2EW9N96RGJmrpRzjKa
+          claim_id: c_MFqVnTKa2bVrHshmeLFCsn
+          source_id: s_rUvLhH5bEHHz1S1yAbATCK
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: &a2
+            id: s_rUvLhH5bEHHz1S1yAbATCK
+            source_type: api_record
+            title: 维基数据：王登（Q45369083）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45369083
+            external_identifier: Q45369083
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:50:09.552Z
+            metadata_json: null
+        - id: cs_VZx2SnY4Bsf8FEtnzRf8S5
+          claim_id: c_MFqVnTKa2bVrHshmeLFCsn
+          source_id: s_DAPkWfZyYg83KpTnKJ7hDu
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_DAPkWfZyYg83KpTnKJ7hDu
+            source_type: api_record
+            title: 维基数据：王师德（Q45369098）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45369098
+            external_identifier: Q45369098
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:50:11.232Z
+            metadata_json: null
+      object_person:
+        id: p_q4vC5FD8w5c9LNEgf9ELC7
+        status: active
+        display_name: 王师德
+        merged_into_person_id: null
+    - claim:
+        id: c_iv7bt42TdDpkBCAE4pjJRZ
+        subject_person_id: p_mLtGjU7JUkYcfBzdb7BH9M
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_p5A41UQfdPU2P3LRj2a2Z5
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Gxe6PoN4vqhHsQpH98ViMm
+          claim_id: c_iv7bt42TdDpkBCAE4pjJRZ
+          source_id: s_Ce963YZsGV1XBjLjM2iTzL
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_Ce963YZsGV1XBjLjM2iTzL
+            source_type: api_record
+            title: 维基数据：王师心（Q45359648）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45359648
+            external_identifier: Q45359648
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:49:54.134Z
+            metadata_json: null
+        - id: cs_17DMCDK4tvJite3ttPG52W
+          claim_id: c_iv7bt42TdDpkBCAE4pjJRZ
+          source_id: s_rUvLhH5bEHHz1S1yAbATCK
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+      object_person:
+        id: p_p5A41UQfdPU2P3LRj2a2Z5
+        status: active
+        display_name: 王师心
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -259,9 +360,13 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_CvkqbHiKU1yv5J5yN1sDim | 王师古 | accepted |
+| children | p_q4vC5FD8w5c9LNEgf9ELC7 | 王师德 | accepted |
+| children | p_p5A41UQfdPU2P3LRj2a2Z5 | 王师心 | accepted |
 
 ## 外部来源
 
 - [维基数据：王登（Q45369083）](https://www.wikidata.org/wiki/Q45369083)
+- [维基数据：王师德（Q45369098）](https://www.wikidata.org/wiki/Q45369098)
 - [维基数据：王师古（Q45369091）](https://www.wikidata.org/wiki/Q45369091)
+- [维基数据：王师心（Q45359648）](https://www.wikidata.org/wiki/Q45359648)
 - [CBDB 中国历代人物传记资料库：王登（10686）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10686&o=json)

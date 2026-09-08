@@ -17,6 +17,8 @@
     "build:content": "node scripts/build-content.mjs",
     "check:content": "node scripts/build-content.mjs content/persons /tmp/wang-genealogy-content-check",
     "backfill:biographies": "node scripts/backfill-biographies.mjs",
+    "migrate:reviewed-kinship": "node scripts/migrate-reviewed-kinship-to-markdown.mjs",
+    "audit:wikidata-kinship": "node scripts/audit-wikidata-existing-kinship.mjs",
     "dev:contribution": "npm run dev --workspace apps/contribution",
     "dev:web": "npm run dev --workspace apps/web",
     "deploy": "npm run deploy --workspace apps/web",

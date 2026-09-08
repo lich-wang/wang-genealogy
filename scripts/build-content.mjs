@@ -3,6 +3,7 @@ import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { parsePersonMarkdown } from './lib/person-markdown.mjs';
+import { validateCompletePaternalChains } from './lib/biography-kinship.mjs';
 
 const rootDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const contentDir = path.resolve(process.argv[2] ?? path.join(rootDir, 'content/persons'));
@@ -28,6 +29,9 @@ for (const record of records.values()) {
     if (target && !records.has(target)) throw new Error(`${record.id}: 关系引用不存在的人物 ${target}`);
   }
 }
+
+const paternalChainErrors = validateCompletePaternalChains(records);
+if (paternalChainErrors.length) throw new Error(paternalChainErrors.join('\n'));
 
 const summaries = new Map();
 const claims = new Map();
@@ -112,7 +116,10 @@ function buildEdges(items) {
   for (const item of items) {
     const claim = item.claim; const citations = (item.sources ?? []).map((ref) => ({ source_title: ref.source?.title ?? '未知来源', locator: ref.locator ?? null }));
     const base = { claim_id: claim.id, status: claim.status, citations };
-    if (claim.predicate === 'kinship.parent_of' || claim.predicate === 'kinship.adoptive_parent_of') result.parent_edges.push({ ...base, parent_id: claim.subject_person_id, child_id: claim.object_person_id, parent_role: claim.parent_role ?? null });
+    if (['kinship.parent_of', 'kinship.father_of', 'kinship.mother_of', 'kinship.adoptive_parent_of', 'kinship.adoptive_father_of', 'kinship.adoptive_mother_of'].includes(claim.predicate)) {
+      const parentRole = claim.parent_role ?? (claim.predicate.includes('father') ? 'father' : claim.predicate.includes('mother') ? 'mother' : null);
+      result.parent_edges.push({ ...base, parent_id: claim.subject_person_id, child_id: claim.object_person_id, parent_role: parentRole });
+    }
     else if (claim.predicate === 'kinship.spouse_of') result.spouse_edges.push({ ...base, a_id: claim.subject_person_id, b_id: claim.object_person_id });
     else if (claim.predicate === 'kinship.ancestor_of') result.descent_edges.push({ ...base, ancestor_id: claim.subject_person_id, descendant_id: claim.object_person_id, generations: claim.generation_count ?? null });
   }

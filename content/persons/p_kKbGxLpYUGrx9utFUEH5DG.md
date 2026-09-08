@@ -4,7 +4,7 @@ id: p_kKbGxLpYUGrx9utFUEH5DG
 status: active
 merged_into: null
 display_name: 王延喜
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: 导言
           quotation: 王延喜（？—944年），五代十国時期光州固始（今河南固始）人，閩
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
-          source:
+          source: &a1
             id: s_K2m0Wa1zyutS_QNINsXVsD
             source_type: website
             title: 中文维基百科：王延喜
@@ -84,7 +84,53 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_VEv4NF18CztgbV8EbR8Dwy
+        subject_person_id: p_8YMP7N65fqbbLv9pMGphFA
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_kKbGxLpYUGrx9utFUEH5DG
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KW5JhGYBwWXEPyLMgVwH4d
+          claim_id: c_VEv4NF18CztgbV8EbR8Dwy
+          source_id: s_K2m0Wa1zyutS_QNINsXVsD
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_RdJK1GMgGHAY1CzLyP85d3
+          claim_id: c_VEv4NF18CztgbV8EbR8Dwy
+          source_id: s_BYvayLpGj9Y1h85cB71ggG
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_BYvayLpGj9Y1h85cB71ggG
+            source_type: api_record
+            title: 维基数据：王审知（Q708354）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q708354
+            external_identifier: Q708354
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:58:53.403Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AF%A9%E7%9F%A5
+      object_person:
+        id: p_8YMP7N65fqbbLv9pMGphFA
+        status: active
+        display_name: 王审知
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -109,8 +155,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_8YMP7N65fqbbLv9pMGphFA | 王审知 | accepted |
 
 ## 外部来源
 
+- [维基数据：王审知（Q708354）](https://www.wikidata.org/wiki/Q708354)
 - [维基数据：王延喜（Q16077240）](https://www.wikidata.org/wiki/Q16077240)
 - [中文维基百科：王延喜](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%B6%E5%96%9C)

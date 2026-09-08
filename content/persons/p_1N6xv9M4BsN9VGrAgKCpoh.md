@@ -4,7 +4,7 @@ id: p_1N6xv9M4BsN9VGrAgKCpoh
 status: active
 merged_into: null
 display_name: 王某
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_YAFebhncBhZ8NameaQ8RjH
             source_type: api_record
             title: 维基数据：王某（Q45587690）
@@ -152,7 +152,52 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_G8nJ2KXx6BW2muG95gGDkk
+        subject_person_id: p_c8C8PQBtyD8TinfV8tVU4U
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_1N6xv9M4BsN9VGrAgKCpoh
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_aYq5ang9w8HLtQTsx2PLh6
+          claim_id: c_G8nJ2KXx6BW2muG95gGDkk
+          source_id: s_YAFebhncBhZ8NameaQ8RjH
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_zgNEy9FvXJCtavJ8obD9kL
+          claim_id: c_G8nJ2KXx6BW2muG95gGDkk
+          source_id: s_wjVLxMLRqXwKjCian14tbq
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_wjVLxMLRqXwKjCian14tbq
+            source_type: api_record
+            title: 维基数据：王澄（Q45685584）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45685584
+            external_identifier: Q45685584
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:53.553Z
+            metadata_json: null
+      object_person:
+        id: p_c8C8PQBtyD8TinfV8tVU4U
+        status: active
+        display_name: 王澄
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -178,8 +223,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_c8C8PQBtyD8TinfV8tVU4U | 王澄 | accepted |
 
 ## 外部来源
 
+- [维基数据：王澄（Q45685584）](https://www.wikidata.org/wiki/Q45685584)
 - [维基数据：王某（Q45587690）](https://www.wikidata.org/wiki/Q45587690)
 - [CBDB 中国历代人物传记资料库：王某（190103）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=190103&o=json)

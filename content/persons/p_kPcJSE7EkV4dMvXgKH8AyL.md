@@ -4,7 +4,7 @@ id: p_kPcJSE7EkV4dMvXgKH8AyL
 status: active
 merged_into: null
 display_name: 魏国大长公主
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -68,7 +68,7 @@ properties:
           locator: Q13650437
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_MhLT1sQmDJ7PHPDAKqbyvv
             source_type: api_record
             title: 维基数据：魏国大长公主（Q13650437）
@@ -96,7 +96,72 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_oWeKDaPHezERy2fdS4Pdfq
+        subject_person_id: p_6MGDJDsMfhoCMpi8TCXnFR
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_kPcJSE7EkV4dMvXgKH8AyL
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_oK1Lu7db4rivA3uCdWTzcP
+          claim_id: c_oWeKDaPHezERy2fdS4Pdfq
+          source_id: s_5h3ogmep1VLLiYxHP9RUqR
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_5h3ogmep1VLLiYxHP9RUqR
+            source_type: api_record
+            title: 维基数据：王承衍（Q28415659）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q28415659
+            external_identifier: Q28415659
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:56.366Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%89%BF%E8%A1%8D
+        - id: cs_7jT1HDaQiCseBuDEqnAbwW
+          claim_id: c_oWeKDaPHezERy2fdS4Pdfq
+          source_id: s_MhLT1sQmDJ7PHPDAKqbyvv
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_XDymYKisDC4EGdKFqMrXgJ
+          claim_id: c_oWeKDaPHezERy2fdS4Pdfq
+          source_id: s_c7NdGSVJDpv8cCcn7qJgcN
+          stance: supports
+          locator: 亲属关系：妻子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：宋人傳記資料索引(電子版)
+          source:
+            id: s_c7NdGSVJDpv8cCcn7qJgcN
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王承衍（3939）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3939&o=json
+            external_identifier: CBDB:3939
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:59:56.527Z
+            metadata_json: null
+      object_person:
+        id: p_6MGDJDsMfhoCMpi8TCXnFR
+        status: active
+        display_name: 王承衍
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -117,8 +182,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_6MGDJDsMfhoCMpi8TCXnFR | 王承衍 | accepted |
 
 ## 外部来源
 
+- [维基数据：王承衍（Q28415659）](https://www.wikidata.org/wiki/Q28415659)
 - [维基数据：魏国大长公主（Q13650437）](https://www.wikidata.org/wiki/Q13650437)
+- [CBDB 中国历代人物传记资料库：王承衍（3939）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3939&o=json)
 - [CBDB 中国历代人物传记资料库：趙氏（37660）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37660&o=json)

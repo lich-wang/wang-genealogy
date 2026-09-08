@@ -4,7 +4,7 @@ id: p_CVwNugtPLMKx2eABoAcjQ3
 status: active
 merged_into: null
 display_name: 王耿光
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_BaAZc4Uf49RJDM6y27MpqX
             source_type: api_record
             title: 维基数据：王耿光（Q45610509）
@@ -110,8 +110,99 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_17QZSPwXaa7Hizzokvq4X7
+        subject_person_id: p_dFBcsKbnFVcHN4YTvXeRwY
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_CVwNugtPLMKx2eABoAcjQ3
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Tbau1mBgUSQT1qEzpBLxzA
+          claim_id: c_17QZSPwXaa7Hizzokvq4X7
+          source_id: s_WQuJfewNt1rKQX9Pq57QHd
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_WQuJfewNt1rKQX9Pq57QHd
+            source_type: api_record
+            title: 维基数据：王麟（Q45450873）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45450873
+            external_identifier: Q45450873
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:00:09.271Z
+            metadata_json: null
+        - id: cs_kgUa6m5DKzx92d9dWUuMGM
+          claim_id: c_17QZSPwXaa7Hizzokvq4X7
+          source_id: s_BaAZc4Uf49RJDM6y27MpqX
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+      object_person:
+        id: p_dFBcsKbnFVcHN4YTvXeRwY
+        status: active
+        display_name: 王麟
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_w5M4xcFNWk4cMvDo1CoDYD
+        subject_person_id: p_CVwNugtPLMKx2eABoAcjQ3
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_r4bDJ5wYvDErHFhriwozvb
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_s7kQ3UGwzKzdRfmR9EPB7y
+          claim_id: c_w5M4xcFNWk4cMvDo1CoDYD
+          source_id: s_rp2362z5WDUfmk5KaysXbi
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_rp2362z5WDUfmk5KaysXbi
+            source_type: api_record
+            title: 维基数据：王之都（Q16075337）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q16075337
+            external_identifier: Q16075337
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%B9%8B%E9%83%BD
+        - id: cs_PgRvYVpJ5MoSahrKQLEjtA
+          claim_id: c_w5M4xcFNWk4cMvDo1CoDYD
+          source_id: s_BaAZc4Uf49RJDM6y27MpqX
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+      object_person:
+        id: p_r4bDJ5wYvDErHFhriwozvb
+        status: active
+        display_name: 王之都
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +226,12 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_dFBcsKbnFVcHN4YTvXeRwY | 王麟 | accepted |
+| children | p_r4bDJ5wYvDErHFhriwozvb | 王之都 | accepted |
 
 ## 外部来源
 
 - [维基数据：王耿光（Q45610509）](https://www.wikidata.org/wiki/Q45610509)
+- [维基数据：王麟（Q45450873）](https://www.wikidata.org/wiki/Q45450873)
+- [维基数据：王之都（Q16075337）](https://www.wikidata.org/wiki/Q16075337)
 - [CBDB 中国历代人物传记资料库：王耿光（302575）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302575&o=json)

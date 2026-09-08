@@ -4,7 +4,7 @@ id: p_dFBcsKbnFVcHN4YTvXeRwY
 status: active
 merged_into: null
 display_name: 王麟
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -110,7 +110,63 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_D39qRDRw1F2kLMDLbM7at4
+        subject_person_id: p_XwKHLH17io2m6CKt414qzT
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_dFBcsKbnFVcHN4YTvXeRwY
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Nywd4GBn5gqwJ8VHyUtjw8
+          claim_id: c_D39qRDRw1F2kLMDLbM7at4
+          source_id: s_WQuJfewNt1rKQX9Pq57QHd
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: &a2
+            id: s_WQuJfewNt1rKQX9Pq57QHd
+            source_type: api_record
+            title: 维基数据：王麟（Q45450873）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45450873
+            external_identifier: Q45450873
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:00:09.271Z
+            metadata_json: null
+        - id: cs_6JaqJygAi633QQJiNUC7uF
+          claim_id: c_D39qRDRw1F2kLMDLbM7at4
+          source_id: s_FJJor8JkBzSB2pWbDy1n7F
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_FJJor8JkBzSB2pWbDy1n7F
+            source_type: api_record
+            title: 维基数据：王伍（Q45601163）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45601163
+            external_identifier: Q45601163
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:07:19.152Z
+            metadata_json: null
+      object_person:
+        id: p_XwKHLH17io2m6CKt414qzT
+        status: active
+        display_name: 王伍
+        merged_into_person_id: null
   children:
     - claim:
         id: c_Nw61d7HJToYHaXgVDnf18a
@@ -168,6 +224,51 @@ relationships:
         status: active
         display_name: 王重光
         merged_into_person_id: null
+    - claim:
+        id: c_17QZSPwXaa7Hizzokvq4X7
+        subject_person_id: p_dFBcsKbnFVcHN4YTvXeRwY
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_CVwNugtPLMKx2eABoAcjQ3
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Tbau1mBgUSQT1qEzpBLxzA
+          claim_id: c_17QZSPwXaa7Hizzokvq4X7
+          source_id: s_WQuJfewNt1rKQX9Pq57QHd
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_kgUa6m5DKzx92d9dWUuMGM
+          claim_id: c_17QZSPwXaa7Hizzokvq4X7
+          source_id: s_BaAZc4Uf49RJDM6y27MpqX
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_BaAZc4Uf49RJDM6y27MpqX
+            source_type: api_record
+            title: 维基数据：王耿光（Q45610509）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45610509
+            external_identifier: Q45610509
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:07:20.507Z
+            metadata_json: null
+      object_person:
+        id: p_CVwNugtPLMKx2eABoAcjQ3
+        status: active
+        display_name: 王耿光
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -191,10 +292,14 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_XwKHLH17io2m6CKt414qzT | 王伍 | accepted |
 | children | p_2XaF6KrMwGSDeaU76DAGrz | 王重光 | accepted |
+| children | p_CVwNugtPLMKx2eABoAcjQ3 | 王耿光 | accepted |
 
 ## 外部来源
 
+- [维基数据：王耿光（Q45610509）](https://www.wikidata.org/wiki/Q45610509)
 - [维基数据：王麟（Q45450873）](https://www.wikidata.org/wiki/Q45450873)
+- [维基数据：王伍（Q45601163）](https://www.wikidata.org/wiki/Q45601163)
 - [维基数据：王重光（Q15935070）](https://www.wikidata.org/wiki/Q15935070)
 - [CBDB 中国历代人物传记资料库：王麟（220261）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=220261&o=json)

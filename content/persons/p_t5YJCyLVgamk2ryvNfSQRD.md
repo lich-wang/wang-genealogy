@@ -4,7 +4,7 @@ id: p_t5YJCyLVgamk2ryvNfSQRD
 status: active
 merged_into: null
 display_name: 陳嫻貞
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -76,7 +76,52 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_f124w6XTKk1m8q8hGzUtUM
+        subject_person_id: p_t5YJCyLVgamk2ryvNfSQRD
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_w6vEJmAb51YJF1UuTN4943
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jBBv2FRVUXT6bSEK88BqGe
+          claim_id: c_f124w6XTKk1m8q8hGzUtUM
+          source_id: s_CFM8wMEHDJDSsm7Y872D6X
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_CFM8wMEHDJDSsm7Y872D6X
+            source_type: api_record
+            title: 维基数据：王孝總（Q98066484）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q98066484
+            external_identifier: Q98066484
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:00:15.904Z
+            metadata_json: null
+        - id: cs_cAi1NCEtW4G7cvfVXNkogw
+          claim_id: c_f124w6XTKk1m8q8hGzUtUM
+          source_id: s_BgmynGx98mSb4H6RpCzBL5
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+      object_person:
+        id: p_w6vEJmAb51YJF1UuTN4943
+        status: active
+        display_name: 王孝總
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -97,7 +142,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_w6vEJmAb51YJF1UuTN4943 | 王孝總 | accepted |
 
 ## 外部来源
 
 - [维基数据：陳嫻貞（Q98066513）](https://www.wikidata.org/wiki/Q98066513)
+- [维基数据：王孝總（Q98066484）](https://www.wikidata.org/wiki/Q98066484)

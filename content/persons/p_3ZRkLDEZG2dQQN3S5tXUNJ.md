@@ -4,7 +4,7 @@ id: p_3ZRkLDEZG2dQQN3S5tXUNJ
 status: active
 merged_into: null
 display_name: 王诠
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_7nxCcXcQbcV52na55JgCb6
             source_type: api_record
             title: 维基数据：王诠（Q45678043）
@@ -152,8 +152,159 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_K97pTqgkv8cCsNKKoVdw5V
+        subject_person_id: p_6PF94LpiFwv7ZBPi4LiuxW
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3ZRkLDEZG2dQQN3S5tXUNJ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jvNuBEuKcQt4SmGbjVpmmU
+          claim_id: c_K97pTqgkv8cCsNKKoVdw5V
+          source_id: s_7nxCcXcQbcV52na55JgCb6
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_VrBYYnKVBMaAJsUw8a5qRF
+          claim_id: c_K97pTqgkv8cCsNKKoVdw5V
+          source_id: s_SRDMnFcLCcNi5jydCLZA49
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_SRDMnFcLCcNi5jydCLZA49
+            source_type: api_record
+            title: 维基数据：王景孝（Q45678009）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45678009
+            external_identifier: Q45678009
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person:
+        id: p_6PF94LpiFwv7ZBPi4LiuxW
+        status: active
+        display_name: 王景孝
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_f78nVkANSGvLS6ocbiwrSr
+        subject_person_id: p_3ZRkLDEZG2dQQN3S5tXUNJ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_nv7JbHovPKAVDPNRsdPEsD
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AaNNajHm4TyGiVDXYhEBCo
+          claim_id: c_f78nVkANSGvLS6ocbiwrSr
+          source_id: s_7x8AiyxuK8UF3YmJfPdspF
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_7x8AiyxuK8UF3YmJfPdspF
+            source_type: api_record
+            title: 维基数据：王文洎（Q45678375）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45678375
+            external_identifier: Q45678375
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:40.609Z
+            metadata_json: null
+        - id: cs_K3aK5Qswb1kikjpaZELbEh
+          claim_id: c_f78nVkANSGvLS6ocbiwrSr
+          source_id: s_7nxCcXcQbcV52na55JgCb6
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_RAKgYa4mJu9H7euFu96z2Q
+          claim_id: c_f78nVkANSGvLS6ocbiwrSr
+          source_id: s_JsU8nFXR4zJ4sDBJuQb5qn
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：唐五代人物傳記與社會網絡資料庫(1.0版)
+          source: *a1
+      object_person:
+        id: p_nv7JbHovPKAVDPNRsdPEsD
+        status: active
+        display_name: 王文洎
+        merged_into_person_id: null
+    - claim:
+        id: c_1wgwQUpCGHpbEqT3zFRCYs
+        subject_person_id: p_3ZRkLDEZG2dQQN3S5tXUNJ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_QkhCaGoZhcyF2De4tN5s15
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_DATQFgM7zaqierV8WyP2jT
+          claim_id: c_1wgwQUpCGHpbEqT3zFRCYs
+          source_id: s_7nxCcXcQbcV52na55JgCb6
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_FMox9cC5pwLJJrDMdvrBY7
+          claim_id: c_1wgwQUpCGHpbEqT3zFRCYs
+          source_id: s_34u75gvVVSjmfcPKexNLSW
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_34u75gvVVSjmfcPKexNLSW
+            source_type: api_record
+            title: 维基数据：王文济（Q45678076）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45678076
+            external_identifier: Q45678076
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+        - id: cs_HmMaiFrz41GtaBeFjqQS8N
+          claim_id: c_1wgwQUpCGHpbEqT3zFRCYs
+          source_id: s_JsU8nFXR4zJ4sDBJuQb5qn
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：唐五代人物傳記與社會網絡資料庫(1.0版)
+          source: *a1
+      object_person:
+        id: p_QkhCaGoZhcyF2De4tN5s15
+        status: active
+        display_name: 王文济
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -178,8 +329,14 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_6PF94LpiFwv7ZBPi4LiuxW | 王景孝 | accepted |
+| children | p_nv7JbHovPKAVDPNRsdPEsD | 王文洎 | accepted |
+| children | p_QkhCaGoZhcyF2De4tN5s15 | 王文济 | accepted |
 
 ## 外部来源
 
+- [维基数据：王景孝（Q45678009）](https://www.wikidata.org/wiki/Q45678009)
 - [维基数据：王诠（Q45678043）](https://www.wikidata.org/wiki/Q45678043)
+- [维基数据：王文洎（Q45678375）](https://www.wikidata.org/wiki/Q45678375)
+- [维基数据：王文济（Q45678076）](https://www.wikidata.org/wiki/Q45678076)
 - [CBDB 中国历代人物传记资料库：王詮（175868）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175868&o=json)

@@ -4,7 +4,7 @@ id: p_h9YaQ72N9yujtwjvvMC9QL
 status: active
 merged_into: null
 display_name: 王晏
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: 导言
           quotation: 王晏（5世纪—497年3月17日），字休默，一字士彦，南朝齐琅邪
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
-          source:
+          source: &a1
             id: s_z0L9OCfAiMqfMPgGi_CVrX
             source_type: website
             title: 中文维基百科：王晏 (南朝)
@@ -127,8 +127,99 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_FbR2kHrcXPiiFpLoEfVHQp
+        subject_person_id: p_QZLmSYXLBR1wbbF4B1gNW2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_h9YaQ72N9yujtwjvvMC9QL
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_M1Z1zh2GP3mktnMaMM8nYD
+          claim_id: c_FbR2kHrcXPiiFpLoEfVHQp
+          source_id: s_hUNsCkQ1oziNReRQfjbfTi
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_hUNsCkQ1oziNReRQfjbfTi
+            source_type: api_record
+            title: 维基数据：王普曜（Q22814798）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q22814798
+            external_identifier: Q22814798
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:24.493Z
+            metadata_json: null
+        - id: cs_HmXZam6b87DDw43Ek1EwpD
+          claim_id: c_FbR2kHrcXPiiFpLoEfVHQp
+          source_id: s_z0L9OCfAiMqfMPgGi_CVrX
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+      object_person:
+        id: p_QZLmSYXLBR1wbbF4B1gNW2
+        status: active
+        display_name: 王普曜
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_QcBsZvKVmD4XaASk5z21xH
+        subject_person_id: p_h9YaQ72N9yujtwjvvMC9QL
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_KKBzweDCPdq54DQsoWxSDd
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_A65BtQDCLbtLoDgFGNUMAx
+          claim_id: c_QcBsZvKVmD4XaASk5z21xH
+          source_id: s_z0L9OCfAiMqfMPgGi_CVrX
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_7yxNHQoo83eCRCqWtBRoHK
+          claim_id: c_QcBsZvKVmD4XaASk5z21xH
+          source_id: s_Qk1iy3BVMMETd9xrFgZ5qs
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_Qk1iy3BVMMETd9xrFgZ5qs
+            source_type: api_record
+            title: 维基数据：王德和（Q16906025）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q16906025
+            external_identifier: Q16906025
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BE%B7%E5%92%8C
+      object_person:
+        id: p_KKBzweDCPdq54DQsoWxSDd
+        status: active
+        display_name: 王德和
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -153,8 +244,12 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_QZLmSYXLBR1wbbF4B1gNW2 | 王普曜 | accepted |
+| children | p_KKBzweDCPdq54DQsoWxSDd | 王德和 | accepted |
 
 ## 外部来源
 
+- [维基数据：王德和（Q16906025）](https://www.wikidata.org/wiki/Q16906025)
+- [维基数据：王普曜（Q22814798）](https://www.wikidata.org/wiki/Q22814798)
 - [维基数据：王晏（Q22814799）](https://www.wikidata.org/wiki/Q22814799)
 - [中文维基百科：王晏 (南朝)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%99%8F_(%E5%8D%97%E6%9C%9D))

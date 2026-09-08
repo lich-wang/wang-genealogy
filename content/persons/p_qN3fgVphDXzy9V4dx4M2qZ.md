@@ -4,7 +4,7 @@ id: p_qN3fgVphDXzy9V4dx4M2qZ
 status: active
 merged_into: null
 display_name: 王延丰
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: 导言
           quotation: 王延丰（?—?），五代十国時期光州固始（今河南固始）人。 王延丰
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
-          source:
+          source: &a1
             id: s_iSTvGFMcqESzof-BOgRcGu
             source_type: website
             title: 中文维基百科：王延丰
@@ -84,7 +84,53 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_yk63pKTAZVPri1Ks6ubE6a
+        subject_person_id: p_AoyiXMcFCT7FwHgBRpLSXs
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_qN3fgVphDXzy9V4dx4M2qZ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tfpiSk1ND8ibBbGKPd7MgJ
+          claim_id: c_yk63pKTAZVPri1Ks6ubE6a
+          source_id: s_iSTvGFMcqESzof-BOgRcGu
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_c8xzr38YrLy6zBqhbMh8VX
+          claim_id: c_yk63pKTAZVPri1Ks6ubE6a
+          source_id: s_VVbFqZPBaPQYXSvkQYDfAp
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_VVbFqZPBaPQYXSvkQYDfAp
+            source_type: api_record
+            title: 维基数据：王潮（Q517036）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q517036
+            external_identifier: Q517036
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:58:53.402Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%BD%AE
+      object_person:
+        id: p_AoyiXMcFCT7FwHgBRpLSXs
+        status: active
+        display_name: 王潮
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -109,8 +155,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_AoyiXMcFCT7FwHgBRpLSXs | 王潮 | accepted |
 
 ## 外部来源
 
+- [维基数据：王潮（Q517036）](https://www.wikidata.org/wiki/Q517036)
 - [维基数据：王延丰（Q15940348）](https://www.wikidata.org/wiki/Q15940348)
 - [中文维基百科：王延丰](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%B6%E4%B8%B0)

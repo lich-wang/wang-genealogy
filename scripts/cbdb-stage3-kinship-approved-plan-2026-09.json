@@ -1,0 +1,358 @@
+{
+  "generated_from": [
+    "CBDB cached API records",
+    "live CBDB recheck 2026-09-08"
+  ],
+  "hops": 0,
+  "expanded_keys": [],
+  "max_new": 0,
+  "capped_relationships": 0,
+  "sources": [
+    {
+      "key": "cbdb:152941",
+      "kind": "cbdb",
+      "source_type": "api_record",
+      "creator": "China Biographical Database (CBDB)",
+      "publisher": "Harvard University / Academia Sinica / Peking University",
+      "license_code": "CC-BY-NC-SA-4.0",
+      "title": "CBDB 中国历代人物传记资料库：王弘訓（152941）",
+      "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=152941&o=json",
+      "external_identifier": "CBDB:152941",
+      "metadata_json": null
+    },
+    {
+      "key": "cbdb:175867",
+      "kind": "cbdb",
+      "source_type": "api_record",
+      "creator": "China Biographical Database (CBDB)",
+      "publisher": "Harvard University / Academia Sinica / Peking University",
+      "license_code": "CC-BY-NC-SA-4.0",
+      "title": "CBDB 中国历代人物传记资料库：王景孝（175867）",
+      "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175867&o=json",
+      "external_identifier": "CBDB:175867",
+      "metadata_json": null
+    },
+    {
+      "key": "cbdb:175869",
+      "kind": "cbdb",
+      "source_type": "api_record",
+      "creator": "China Biographical Database (CBDB)",
+      "publisher": "Harvard University / Academia Sinica / Peking University",
+      "license_code": "CC-BY-NC-SA-4.0",
+      "title": "CBDB 中国历代人物传记资料库：王文濟（175869）",
+      "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175869&o=json",
+      "external_identifier": "CBDB:175869",
+      "metadata_json": null
+    },
+    {
+      "key": "cbdb:1919",
+      "kind": "cbdb",
+      "source_type": "api_record",
+      "creator": "China Biographical Database (CBDB)",
+      "publisher": "Harvard University / Academia Sinica / Peking University",
+      "license_code": "CC-BY-NC-SA-4.0",
+      "title": "CBDB 中国历代人物传记资料库：王堯臣（1919）",
+      "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1919&o=json",
+      "external_identifier": "CBDB:1919",
+      "metadata_json": null
+    },
+    {
+      "key": "cbdb:2133",
+      "kind": "cbdb",
+      "source_type": "api_record",
+      "creator": "China Biographical Database (CBDB)",
+      "publisher": "Harvard University / Academia Sinica / Peking University",
+      "license_code": "CC-BY-NC-SA-4.0",
+      "title": "CBDB 中国历代人物传记资料库：王廣臨（2133）",
+      "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=2133&o=json",
+      "external_identifier": "CBDB:2133",
+      "metadata_json": null
+    },
+    {
+      "key": "cbdb:22250",
+      "kind": "cbdb",
+      "source_type": "api_record",
+      "creator": "China Biographical Database (CBDB)",
+      "publisher": "Harvard University / Academia Sinica / Peking University",
+      "license_code": "CC-BY-NC-SA-4.0",
+      "title": "CBDB 中国历代人物传记资料库：王師顏（22250）",
+      "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22250&o=json",
+      "external_identifier": "CBDB:22250",
+      "metadata_json": null
+    },
+    {
+      "key": "cbdb:36573",
+      "kind": "cbdb",
+      "source_type": "api_record",
+      "creator": "China Biographical Database (CBDB)",
+      "publisher": "Harvard University / Academia Sinica / Peking University",
+      "license_code": "CC-BY-NC-SA-4.0",
+      "title": "CBDB 中国历代人物传记资料库：王廣延（36573）",
+      "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=36573&o=json",
+      "external_identifier": "CBDB:36573",
+      "metadata_json": null
+    },
+    {
+      "key": "cbdb:36574",
+      "kind": "cbdb",
+      "source_type": "api_record",
+      "creator": "China Biographical Database (CBDB)",
+      "publisher": "Harvard University / Academia Sinica / Peking University",
+      "license_code": "CC-BY-NC-SA-4.0",
+      "title": "CBDB 中国历代人物传记资料库：王廣臣（36574）",
+      "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=36574&o=json",
+      "external_identifier": "CBDB:36574",
+      "metadata_json": null
+    },
+    {
+      "key": "cbdb:29876",
+      "kind": "cbdb",
+      "source_type": "api_record",
+      "creator": "China Biographical Database (CBDB)",
+      "publisher": "Harvard University / Academia Sinica / Peking University",
+      "license_code": "CC-BY-NC-SA-4.0",
+      "title": "CBDB 中国历代人物传记资料库：錢大昕（29876）",
+      "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=29876&o=json",
+      "external_identifier": "CBDB:29876",
+      "metadata_json": null
+    },
+    {
+      "key": "cbdb:526715",
+      "kind": "cbdb",
+      "source_type": "api_record",
+      "creator": "China Biographical Database (CBDB)",
+      "publisher": "Harvard University / Academia Sinica / Peking University",
+      "license_code": "CC-BY-NC-SA-4.0",
+      "title": "CBDB 中国历代人物传记资料库：王誠立（526715）",
+      "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526715&o=json",
+      "external_identifier": "CBDB:526715",
+      "metadata_json": null
+    },
+    {
+      "key": "cbdb:69135",
+      "kind": "cbdb",
+      "source_type": "api_record",
+      "creator": "China Biographical Database (CBDB)",
+      "publisher": "Harvard University / Academia Sinica / Peking University",
+      "license_code": "CC-BY-NC-SA-4.0",
+      "title": "CBDB 中国历代人物传记资料库：王必達（69135）",
+      "canonical_url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69135&o=json",
+      "external_identifier": "CBDB:69135",
+      "metadata_json": null
+    }
+  ],
+  "persons": [],
+  "edges": [
+    {
+      "kind": "parent",
+      "parent_key": "cbdb:152941",
+      "child_key": "cbdb:152942",
+      "parent_name": "王弘訓",
+      "child_name": "王方智",
+      "parent_person_id": "p_yYWP56xYF7YEvgG32tAH3B",
+      "child_person_id": "p_4EU5hab5MGo71FXwq1jBL2",
+      "citations": [
+        {
+          "source_key": "cbdb:152941",
+          "locator": "亲属关系：子",
+          "note": "CBDB 注明此条来源：唐五代人物傳記與社會網絡資料庫(1.0版)"
+        }
+      ]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "cbdb:175866",
+      "child_key": "cbdb:175867",
+      "parent_name": "王僧修",
+      "child_name": "王景孝",
+      "parent_person_id": "p_2FfCNSZbmawkyTxk2zgdBv",
+      "child_person_id": "p_6PF94LpiFwv7ZBPi4LiuxW",
+      "citations": [
+        {
+          "source_key": "cbdb:175867",
+          "locator": "亲属关系：父",
+          "note": "CBDB 注明此条来源：唐五代人物傳記與社會網絡資料庫(1.0版)"
+        }
+      ]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "cbdb:175869",
+      "child_key": "cbdb:175870",
+      "parent_name": "王文济",
+      "child_name": "王仁忠",
+      "parent_person_id": "p_QkhCaGoZhcyF2De4tN5s15",
+      "child_person_id": "p_EoFqrFneyxXNJVFsSfLURF",
+      "citations": [
+        {
+          "source_key": "cbdb:175869",
+          "locator": "亲属关系：子",
+          "note": "CBDB 注明此条来源：唐五代人物傳記與社會網絡資料庫(1.0版)"
+        }
+      ]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "cbdb:175869",
+      "child_key": "cbdb:175876",
+      "parent_name": "王文济",
+      "child_name": "王屴",
+      "parent_person_id": "p_QkhCaGoZhcyF2De4tN5s15",
+      "child_person_id": "p_9bZbYkH5RjL9GBaT5uVJBX",
+      "citations": [
+        {
+          "source_key": "cbdb:175869",
+          "locator": "亲属关系：子",
+          "note": "CBDB 注明此条来源：唐五代人物傳記與社會網絡資料庫(1.0版)"
+        }
+      ]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "cbdb:1919",
+      "child_key": "cbdb:1888",
+      "parent_name": "王尧臣",
+      "child_name": "王同老",
+      "parent_person_id": "p_83ygFMkQK9fNnM8zpQKj1X",
+      "child_person_id": "p_Q1NC6T2Fk3j6ZWdG8EQ11A",
+      "citations": [
+        {
+          "source_key": "cbdb:1919",
+          "locator": "亲属关系：長子",
+          "note": "CBDB 未注明底本；本次仅以 CBDB API 记录作为中等置信度依据。"
+        }
+      ]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "cbdb:1919",
+      "child_key": "cbdb:97840",
+      "parent_name": "王尧臣",
+      "child_name": "王周老",
+      "parent_person_id": "p_83ygFMkQK9fNnM8zpQKj1X",
+      "child_person_id": "p_CLNAFtr1hKmVynULi3KU3F",
+      "citations": [
+        {
+          "source_key": "cbdb:1919",
+          "locator": "亲属关系：次子",
+          "note": "CBDB 未注明底本；本次仅以 CBDB API 记录作为中等置信度依据。"
+        }
+      ]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "cbdb:22250",
+      "child_key": "cbdb:2133",
+      "parent_name": "王师颜",
+      "child_name": "王临",
+      "parent_person_id": "p_tmq6Wnq1CjinFj62NTxvnd",
+      "child_person_id": "p_M7yR2N6radi7SJKEvust2s",
+      "citations": [
+        {
+          "source_key": "cbdb:2133",
+          "locator": "亲属关系：父",
+          "note": "CBDB 注明此条来源：鄖溪集"
+        },
+        {
+          "source_key": "cbdb:22250",
+          "locator": "亲属关系：子",
+          "note": "CBDB 注明此条来源：鄖溪集"
+        }
+      ]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "cbdb:22250",
+      "child_key": "cbdb:36573",
+      "parent_name": "王师颜",
+      "child_name": "王广延",
+      "parent_person_id": "p_tmq6Wnq1CjinFj62NTxvnd",
+      "child_person_id": "p_41bxVmHw5ND7pqZvCudej3",
+      "citations": [
+        {
+          "source_key": "cbdb:22250",
+          "locator": "亲属关系：子",
+          "note": "CBDB 注明此条来源：鄖溪集"
+        },
+        {
+          "source_key": "cbdb:36573",
+          "locator": "亲属关系：父",
+          "note": "CBDB 注明此条来源：鄖溪集"
+        }
+      ]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "cbdb:22250",
+      "child_key": "cbdb:36574",
+      "parent_name": "王师颜",
+      "child_name": "王广臣",
+      "parent_person_id": "p_tmq6Wnq1CjinFj62NTxvnd",
+      "child_person_id": "p_MF4Tkm8P8AmX2EL67mNieQ",
+      "citations": [
+        {
+          "source_key": "cbdb:22250",
+          "locator": "亲属关系：子",
+          "note": "CBDB 注明此条来源：鄖溪集"
+        },
+        {
+          "source_key": "cbdb:36574",
+          "locator": "亲属关系：父",
+          "note": "CBDB 注明此条来源：鄖溪集"
+        }
+      ]
+    },
+    {
+      "kind": "spouse",
+      "a_key": "cbdb:522616",
+      "b_key": "cbdb:29876",
+      "a_name": "王舜英",
+      "b_name": "钱大昕",
+      "a_person_id": "p_Jun3pZ1BMQpwyok4KhGLAv",
+      "b_person_id": "p_dnPtsKEtjAp3Do6nrbinqW",
+      "citations": [
+        {
+          "source_key": "cbdb:29876",
+          "locator": "亲属关系：妻子",
+          "note": "CBDB 注明此条来源：人名權威資料（中央研究院歷史語言研究所）"
+        }
+      ]
+    },
+    {
+      "kind": "parent",
+      "parent_key": "cbdb:526715",
+      "child_key": "cbdb:69135",
+      "parent_name": "王誠立",
+      "child_name": "王必达",
+      "parent_person_id": "p_kRPN2xt1MreSurta52z3PH",
+      "child_person_id": "p_ZbD99C4BekXwqC5kDUcsjZ",
+      "citations": [
+        {
+          "source_key": "cbdb:526715",
+          "locator": "亲属关系：子",
+          "note": "CBDB 注明此条来源：人名權威資料（中央研究院歷史語言研究所）"
+        },
+        {
+          "source_key": "cbdb:69135",
+          "locator": "亲属关系：父",
+          "note": "CBDB 注明此条来源：人名權威資料（中央研究院歷史語言研究所）"
+        }
+      ]
+    }
+  ],
+  "identity_merges": [],
+  "name_collisions": [],
+  "unmapped_cbdb_relations": [],
+  "skipped": [],
+  "review": {
+    "reviewers": [
+      "Codex local evidence review",
+      "live CBDB API verification"
+    ],
+    "reviewed_at": "2026-09-08",
+    "accepted": 11,
+    "rejected": 5,
+    "manual_review": 0,
+    "criteria": "两端均以唯一 CBDB 编号命中现有人物；称谓可映射；符合王姓范围；排除占位名、范围外世系、环与第三父母。"
+  }
+}

@@ -4,7 +4,7 @@ id: p_b4bisUW9C7vmM7GVAbGAqe
 status: active
 merged_into: null
 display_name: 王大韶
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_F5JzhaMa2TmiGmre4CPs6s
             source_type: api_record
             title: 维基数据：王大韶（Q45528350）
@@ -110,8 +110,99 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_GRSq63ZFtB3CJb2a6XGnvH
+        subject_person_id: p_vHxGMJM43NcWPazz5BoCUS
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_b4bisUW9C7vmM7GVAbGAqe
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_aBzC7LaBMPFrFXXte3kqcV
+          claim_id: c_GRSq63ZFtB3CJb2a6XGnvH
+          source_id: s_hvAgjm9vMEKS19BtHNyBcU
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_hvAgjm9vMEKS19BtHNyBcU
+            source_type: api_record
+            title: 维基数据：王易（Q45528290）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45528290
+            external_identifier: Q45528290
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+        - id: cs_iGYvPh6TtFDokerJ6c6nHD
+          claim_id: c_GRSq63ZFtB3CJb2a6XGnvH
+          source_id: s_F5JzhaMa2TmiGmre4CPs6s
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+      object_person:
+        id: p_vHxGMJM43NcWPazz5BoCUS
+        status: active
+        display_name: 王易
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_5AKnU2bQWvDBBPyZwRKNGc
+        subject_person_id: p_b4bisUW9C7vmM7GVAbGAqe
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_qbWcARBwiNzFhFH7v3oZN5
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JSjMR61UdaE1z9Dgttw1jd
+          claim_id: c_5AKnU2bQWvDBBPyZwRKNGc
+          source_id: s_eWMTxrWPzyeXTef4AWJDhH
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_eWMTxrWPzyeXTef4AWJDhH
+            source_type: api_record
+            title: 维基数据：王桥（Q16925823）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q16925823
+            external_identifier: Q16925823
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:46.107Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%A9%8B_(%E5%98%89%E9%9D%96%E9%80%B2%E5%A3%AB)
+        - id: cs_tr5sLXmKQgj1khoKx3wE3J
+          claim_id: c_5AKnU2bQWvDBBPyZwRKNGc
+          source_id: s_F5JzhaMa2TmiGmre4CPs6s
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+      object_person:
+        id: p_qbWcARBwiNzFhFH7v3oZN5
+        status: active
+        display_name: 王桥
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +226,12 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_vHxGMJM43NcWPazz5BoCUS | 王易 | accepted |
+| children | p_qbWcARBwiNzFhFH7v3oZN5 | 王桥 | accepted |
 
 ## 外部来源
 
 - [维基数据：王大韶（Q45528350）](https://www.wikidata.org/wiki/Q45528350)
+- [维基数据：王桥（Q16925823）](https://www.wikidata.org/wiki/Q16925823)
+- [维基数据：王易（Q45528290）](https://www.wikidata.org/wiki/Q45528290)
 - [CBDB 中国历代人物传记资料库：王韶（226560）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=226560&o=json)

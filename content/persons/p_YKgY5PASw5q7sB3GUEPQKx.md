@@ -4,7 +4,7 @@ id: p_YKgY5PASw5q7sB3GUEPQKx
 status: active
 merged_into: null
 display_name: 王仁表
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -72,7 +72,53 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_4FvQCsW68F2DX6CaoDPJpt
+        subject_person_id: p_nT7k2pCzDkpksQ1s3p6rcV
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_YKgY5PASw5q7sB3GUEPQKx
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_o3KXorH5cKAg4LLk8mVwid
+          claim_id: c_4FvQCsW68F2DX6CaoDPJpt
+          source_id: s_KK1Ku18wh3DbxXSfmECsgr
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_qbJrLSNF8iuRF8fkojN49K
+          claim_id: c_4FvQCsW68F2DX6CaoDPJpt
+          source_id: s_jP68TirswtwKcjvQJfKLb9
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_jP68TirswtwKcjvQJfKLb9
+            source_type: api_record
+            title: 维基数据：王裕（Q25918183）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q25918183
+            external_identifier: Q25918183
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:27.414Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%A3%95_(%E9%9A%8F%E5%B7%9E%E5%88%BA%E5%8F%B2)
+      object_person:
+        id: p_nT7k2pCzDkpksQ1s3p6rcV
+        status: active
+        display_name: 王裕
+        merged_into_person_id: null
   children:
     - claim:
         id: c_VqUwjiPdoVbfzpfNB7bZAZ
@@ -153,9 +199,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_nT7k2pCzDkpksQ1s3p6rcV | 王裕 | accepted |
 | children | p_gtuvXLikvWh5oAFQk1AX2V | 王方翼 | accepted |
 
 ## 外部来源
 
 - [维基数据：王方翼（Q15904891）](https://www.wikidata.org/wiki/Q15904891)
 - [维基数据：王仁表（Q26121262）](https://www.wikidata.org/wiki/Q26121262)
+- [维基数据：王裕（Q25918183）](https://www.wikidata.org/wiki/Q25918183)

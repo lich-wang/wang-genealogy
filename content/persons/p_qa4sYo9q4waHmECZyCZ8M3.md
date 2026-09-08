@@ -4,7 +4,7 @@ id: p_qa4sYo9q4waHmECZyCZ8M3
 status: active
 merged_into: null
 display_name: 王文
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_KYCJ7T8t7oGBe9X6NxJ2Mi
             source_type: api_record
             title: 维基数据：王文（Q45449706）
@@ -110,8 +110,98 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_4CBJHyfmjjqLXBC7uZhbzP
+        subject_person_id: p_FxDnZ7tzsLrvZRviCHaK5y
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_qa4sYo9q4waHmECZyCZ8M3
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qXH7VGTJTDekUigPsdHZdd
+          claim_id: c_4CBJHyfmjjqLXBC7uZhbzP
+          source_id: s_KYCJ7T8t7oGBe9X6NxJ2Mi
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_igK4wfV2Wj99JECd16QUYq
+          claim_id: c_4CBJHyfmjjqLXBC7uZhbzP
+          source_id: s_CzK2yqN8DLsEC3RpxtfMj4
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_CzK2yqN8DLsEC3RpxtfMj4
+            source_type: api_record
+            title: 维基数据：王睿（Q45449642）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45449642
+            external_identifier: Q45449642
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person:
+        id: p_FxDnZ7tzsLrvZRviCHaK5y
+        status: active
+        display_name: 王睿
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_K9JP1NGDmdRYw9J1Asw8rR
+        subject_person_id: p_qa4sYo9q4waHmECZyCZ8M3
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_KHASkzeAzAbrH4KC5REzz6
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_inFRDJztiqDC3x1akt6FV7
+          claim_id: c_K9JP1NGDmdRYw9J1Asw8rR
+          source_id: s_7uDJHF5B7XAk94UpqzckJt
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_7uDJHF5B7XAk94UpqzckJt
+            source_type: api_record
+            title: 维基数据：王爵（Q45449767）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45449767
+            external_identifier: Q45449767
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:49.962Z
+            metadata_json: null
+        - id: cs_5kzKQ5ENPMb7PiuBsMWdTt
+          claim_id: c_K9JP1NGDmdRYw9J1Asw8rR
+          source_id: s_KYCJ7T8t7oGBe9X6NxJ2Mi
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+      object_person:
+        id: p_KHASkzeAzAbrH4KC5REzz6
+        status: active
+        display_name: 王爵
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +225,12 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_FxDnZ7tzsLrvZRviCHaK5y | 王睿 | accepted |
+| children | p_KHASkzeAzAbrH4KC5REzz6 | 王爵 | accepted |
 
 ## 外部来源
 
+- [维基数据：王爵（Q45449767）](https://www.wikidata.org/wiki/Q45449767)
+- [维基数据：王睿（Q45449642）](https://www.wikidata.org/wiki/Q45449642)
 - [维基数据：王文（Q45449706）](https://www.wikidata.org/wiki/Q45449706)
 - [CBDB 中国历代人物传记资料库：王文（288333）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288333&o=json)

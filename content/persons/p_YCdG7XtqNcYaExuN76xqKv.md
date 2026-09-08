@@ -4,7 +4,7 @@ id: p_YCdG7XtqNcYaExuN76xqKv
 status: active
 merged_into: null
 display_name: 王瑶
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -110,7 +110,63 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_KWXdZhHobTTkLwe4r4HpD9
+        subject_person_id: p_ptMfEt1rAT4WiPXRdKXa9c
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_YCdG7XtqNcYaExuN76xqKv
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AmbBcQSqzGATpbzN8BGMgx
+          claim_id: c_KWXdZhHobTTkLwe4r4HpD9
+          source_id: s_y5KoWVZ1HsF6z8upxwGLeU
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_y5KoWVZ1HsF6z8upxwGLeU
+            source_type: api_record
+            title: 维基数据：王瑶（Q45626878）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45626878
+            external_identifier: Q45626878
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:00:12.194Z
+            metadata_json: null
+        - id: cs_tTR1tnVGbBjKWZgRKbkyxb
+          claim_id: c_KWXdZhHobTTkLwe4r4HpD9
+          source_id: s_NsaP8YXgvL5EfLzqYqofhp
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_NsaP8YXgvL5EfLzqYqofhp
+            source_type: api_record
+            title: 维基数据：王馨（Q45626817）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45626817
+            external_identifier: Q45626817
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:07:20.507Z
+            metadata_json: null
+      object_person:
+        id: p_ptMfEt1rAT4WiPXRdKXa9c
+        status: active
+        display_name: 王馨
+        merged_into_person_id: null
   children:
     - claim:
         id: c_Wc2jmmPM58wTQYJaVf4qxJ
@@ -191,10 +247,12 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_ptMfEt1rAT4WiPXRdKXa9c | 王馨 | accepted |
 | children | p_CqGGoAHd4xav6yj4gHyTHE | 王崇古 | accepted |
 
 ## 外部来源
 
 - [维基数据：王崇古（Q15934835）](https://www.wikidata.org/wiki/Q15934835)
+- [维基数据：王馨（Q45626817）](https://www.wikidata.org/wiki/Q45626817)
 - [维基数据：王瑶（Q45626878）](https://www.wikidata.org/wiki/Q45626878)
 - [CBDB 中国历代人物传记资料库：王瑤（302968）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302968&o=json)

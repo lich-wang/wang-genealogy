@@ -4,7 +4,7 @@ id: p_KHASkzeAzAbrH4KC5REzz6
 status: active
 merged_into: null
 display_name: 王爵
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_7uDJHF5B7XAk94UpqzckJt
             source_type: api_record
             title: 维基数据：王爵（Q45449767）
@@ -110,7 +110,52 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_K9JP1NGDmdRYw9J1Asw8rR
+        subject_person_id: p_qa4sYo9q4waHmECZyCZ8M3
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_KHASkzeAzAbrH4KC5REzz6
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_inFRDJztiqDC3x1akt6FV7
+          claim_id: c_K9JP1NGDmdRYw9J1Asw8rR
+          source_id: s_7uDJHF5B7XAk94UpqzckJt
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_5kzKQ5ENPMb7PiuBsMWdTt
+          claim_id: c_K9JP1NGDmdRYw9J1Asw8rR
+          source_id: s_KYCJ7T8t7oGBe9X6NxJ2Mi
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_KYCJ7T8t7oGBe9X6NxJ2Mi
+            source_type: api_record
+            title: 维基数据：王文（Q45449706）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45449706
+            external_identifier: Q45449706
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:57.484Z
+            metadata_json: null
+      object_person:
+        id: p_qa4sYo9q4waHmECZyCZ8M3
+        status: active
+        display_name: 王文
+        merged_into_person_id: null
   children:
     - claim:
         id: c_KtDUG74Ni1BG7aAhKMc7Po
@@ -168,6 +213,60 @@ relationships:
         status: active
         display_name: 王与龄
         merged_into_person_id: null
+    - claim:
+        id: c_JErb13NwKanyRCrk8HTQXg
+        subject_person_id: p_KHASkzeAzAbrH4KC5REzz6
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_qzznHsDy1MaFH1YWPbYub4
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2GhSyhg3hzUTNM1hHACgbs
+          claim_id: c_JErb13NwKanyRCrk8HTQXg
+          source_id: s_7uDJHF5B7XAk94UpqzckJt
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_hGZ3Wk1bhvpLcaJGnMNJtj
+          claim_id: c_JErb13NwKanyRCrk8HTQXg
+          source_id: s_qTrXfDWBFpFpZgrDZ9JGLL
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_qTrXfDWBFpFpZgrDZ9JGLL
+            source_type: api_record
+            title: 维基数据：王培龄（Q45690317）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45690317
+            external_identifier: Q45690317
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:50.150Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%9F%B9%E9%BD%A1
+        - id: cs_GEYCCnYM5BifuLFxfS77vG
+          claim_id: c_JErb13NwKanyRCrk8HTQXg
+          source_id: s_3U5kP6NchRmUxN1ysZp8Jt
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：嘉靖八年進士登科錄:一卷
+          source: *a1
+      object_person:
+        id: p_qzznHsDy1MaFH1YWPbYub4
+        status: active
+        display_name: 王培龄
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -191,10 +290,14 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_qa4sYo9q4waHmECZyCZ8M3 | 王文 | accepted |
 | children | p_LYKX47nJ8c49oqYNGB3kRd | 王与龄 | accepted |
+| children | p_qzznHsDy1MaFH1YWPbYub4 | 王培龄 | accepted |
 
 ## 外部来源
 
 - [维基数据：王爵（Q45449767）](https://www.wikidata.org/wiki/Q45449767)
+- [维基数据：王培龄（Q45690317）](https://www.wikidata.org/wiki/Q45690317)
+- [维基数据：王文（Q45449706）](https://www.wikidata.org/wiki/Q45449706)
 - [维基数据：王与龄（Q15924928）](https://www.wikidata.org/wiki/Q15924928)
 - [CBDB 中国历代人物传记资料库：王爵（288334）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288334&o=json)

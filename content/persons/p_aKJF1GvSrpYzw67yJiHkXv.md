@@ -4,7 +4,7 @@ id: p_aKJF1GvSrpYzw67yJiHkXv
 status: active
 merged_into: null
 display_name: 王守武
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: 导言
           quotation: 王守武（1919年3月15日—2014年7月30日），男，江苏苏
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
-          source:
+          source: &a1
             id: s_8D9Z6wd8_TKn8VBkBZmlH_
             source_type: website
             title: 中文维基百科：王守武
@@ -170,7 +170,53 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_dd1GmFa5tHj1mDYqoaSenf
+        subject_person_id: p_LXKFHguzJ5DjK8ySHadw6f
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_aKJF1GvSrpYzw67yJiHkXv
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_z7j59r2A33CFLEabm2qxKM
+          claim_id: c_dd1GmFa5tHj1mDYqoaSenf
+          source_id: s_xmDk28iHW5carA3UyGCGoB
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_xmDk28iHW5carA3UyGCGoB
+            source_type: api_record
+            title: 维基数据：王季同（Q61306471）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q61306471
+            external_identifier: Q61306471
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:37.417Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AD%A3%E5%90%8C
+        - id: cs_PrprTAiHu634pzJAyJWcQT
+          claim_id: c_dd1GmFa5tHj1mDYqoaSenf
+          source_id: s_8D9Z6wd8_TKn8VBkBZmlH_
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+      object_person:
+        id: p_LXKFHguzJ5DjK8ySHadw6f
+        status: active
+        display_name: 王季同
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -197,8 +243,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_LXKFHguzJ5DjK8ySHadw6f | 王季同 | accepted |
 
 ## 外部来源
 
+- [维基数据：王季同（Q61306471）](https://www.wikidata.org/wiki/Q61306471)
 - [维基数据：王守武（Q9313978）](https://www.wikidata.org/wiki/Q9313978)
 - [中文维基百科：王守武](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AE%88%E6%AD%A6)

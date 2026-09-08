@@ -4,7 +4,7 @@ id: p_Ue4bc6JWNDY3CgoJjDceoC
 status: active
 merged_into: null
 display_name: 王丕
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_7fjU4ew89CPXuYB51QW2G2
             source_type: api_record
             title: 维基数据：王丕（Q45409552）
@@ -110,11 +110,162 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_aMNv6bSFEU7yi5XatZYkWQ
+        subject_person_id: p_EHosypq5k9YAB5xCUgjsne
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Ue4bc6JWNDY3CgoJjDceoC
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_K3Dh1PAJ5koLuDR1FGZ4Zm
+          claim_id: c_aMNv6bSFEU7yi5XatZYkWQ
+          source_id: s_7fjU4ew89CPXuYB51QW2G2
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_YzFWMzb3gc336Lmm24G4rJ
+          claim_id: c_aMNv6bSFEU7yi5XatZYkWQ
+          source_id: s_mLEJ2xVWyL44UosCGpuK7Y
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_mLEJ2xVWyL44UosCGpuK7Y
+            source_type: api_record
+            title: 维基数据：王志（Q45409550）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45409550
+            external_identifier: Q45409550
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person:
+        id: p_EHosypq5k9YAB5xCUgjsne
+        status: active
+        display_name: 王志
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_iKTrC1p7G3iokeRUbRGwvf
+        subject_person_id: p_Ue4bc6JWNDY3CgoJjDceoC
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_zAMNQJueCwPPKR5vjoLaAD
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_eXuJqyeB5ByTPdMuw2FmCH
+          claim_id: c_iKTrC1p7G3iokeRUbRGwvf
+          source_id: s_XGTV8UkV21vTCML8WGhwr8
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_XGTV8UkV21vTCML8WGhwr8
+            source_type: api_record
+            title: 维基数据：王彦博（Q45409553）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45409553
+            external_identifier: Q45409553
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:00.696Z
+            metadata_json: null
+        - id: cs_Uu1BeEv2kjfPc5rYrdyXmx
+          claim_id: c_iKTrC1p7G3iokeRUbRGwvf
+          source_id: s_7fjU4ew89CPXuYB51QW2G2
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_hKyBTbAtdwBMN6p85ooEnU
+          claim_id: c_iKTrC1p7G3iokeRUbRGwvf
+          source_id: s_EiMgRxz8FvPwrjw5WC3uNG
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：未知
+          source: *a1
+      object_person:
+        id: p_zAMNQJueCwPPKR5vjoLaAD
+        status: active
+        display_name: 王彦博
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_tGyE6Vpg4Y6NDkC3L7GpQZ
+        subject_person_id: p_tJA4SGo5rnDTPZB6FnPcWP
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_Ue4bc6JWNDY3CgoJjDceoC
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ytkK5QrgZeGBxgtNu8VQ47
+          claim_id: c_tGyE6Vpg4Y6NDkC3L7GpQZ
+          source_id: s_wEkVgfUrxKckakiL9hkMpN
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_wEkVgfUrxKckakiL9hkMpN
+            source_type: api_record
+            title: 维基数据：周氏（Q45432073）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45432073
+            external_identifier: Q45432073
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+        - id: cs_pUtycMAjmgxmoXHez6KEMc
+          claim_id: c_tGyE6Vpg4Y6NDkC3L7GpQZ
+          source_id: s_7fjU4ew89CPXuYB51QW2G2
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_kchwVhEjTZ2jynRxspWXT7
+          claim_id: c_tGyE6Vpg4Y6NDkC3L7GpQZ
+          source_id: s_EiMgRxz8FvPwrjw5WC3uNG
+          stance: supports
+          locator: 亲属关系：妻子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：宋人傳記資料索引(電子版)
+          source: *a1
+      object_person:
+        id: p_tJA4SGo5rnDTPZB6FnPcWP
+        status: active
+        display_name: 周氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -135,8 +286,14 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_EHosypq5k9YAB5xCUgjsne | 王志 | accepted |
+| children | p_zAMNQJueCwPPKR5vjoLaAD | 王彦博 | accepted |
+| spouses | p_tJA4SGo5rnDTPZB6FnPcWP | 周氏 | accepted |
 
 ## 外部来源
 
 - [维基数据：王丕（Q45409552）](https://www.wikidata.org/wiki/Q45409552)
+- [维基数据：王彦博（Q45409553）](https://www.wikidata.org/wiki/Q45409553)
+- [维基数据：王志（Q45409550）](https://www.wikidata.org/wiki/Q45409550)
+- [维基数据：周氏（Q45432073）](https://www.wikidata.org/wiki/Q45432073)
 - [CBDB 中国历代人物传记资料库：王丕（26228）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26228&o=json)

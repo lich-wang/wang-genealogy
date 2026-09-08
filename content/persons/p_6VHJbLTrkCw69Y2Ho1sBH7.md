@@ -4,7 +4,7 @@ id: p_6VHJbLTrkCw69Y2Ho1sBH7
 status: active
 merged_into: null
 display_name: 王象节
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_U8yRY4uN6P8k7auZnEUPKq
             source_type: api_record
             title: 维基数据：王象节（Q16075437）
@@ -155,7 +155,53 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_t77RN6xcQGP2N7ev4pEch7
+        subject_person_id: p_VLPN2ybQtkqyCPrJiYL7vx
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_6VHJbLTrkCw69Y2Ho1sBH7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZUbgZqbr94hvBoEvj4kVgX
+          claim_id: c_t77RN6xcQGP2N7ev4pEch7
+          source_id: s_HkowMqAvcFAYwo6YGrYb5f
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_HkowMqAvcFAYwo6YGrYb5f
+            source_type: api_record
+            title: 维基数据：王之辅（Q16075319）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q16075319
+            external_identifier: Q16075319
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:58.503Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%B9%8B%E8%BC%94
+        - id: cs_dL8q3E95rdcorBNANJ5ekG
+          claim_id: c_t77RN6xcQGP2N7ev4pEch7
+          source_id: s_U8yRY4uN6P8k7auZnEUPKq
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+      object_person:
+        id: p_VLPN2ybQtkqyCPrJiYL7vx
+        status: active
+        display_name: 王之辅
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -181,8 +227,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_VLPN2ybQtkqyCPrJiYL7vx | 王之辅 | accepted |
 
 ## 外部来源
 
 - [维基数据：王象节（Q16075437）](https://www.wikidata.org/wiki/Q16075437)
+- [维基数据：王之辅（Q16075319）](https://www.wikidata.org/wiki/Q16075319)
 - [CBDB 中国历代人物传记资料库：王象節（207553）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207553&o=json)

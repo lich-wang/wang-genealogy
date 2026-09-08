@@ -4,7 +4,7 @@ id: p_3JZgMSGQ5z3nPzBFS6irjA
 status: active
 merged_into: null
 display_name: 王琬
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_Pep3yEWZ9xNkK9JDhN8XfH
             source_type: api_record
             title: 维基数据：王琬（Q45426296）
@@ -110,7 +110,71 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_cpS9ZtSMvjtM99NkY4ZJFp
+        subject_person_id: p_P2y97jJhXVBL5SrVuPH2Jb
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3JZgMSGQ5z3nPzBFS6irjA
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kJgaNXehK77QzYePfsAxuC
+          claim_id: c_cpS9ZtSMvjtM99NkY4ZJFp
+          source_id: s_Pep3yEWZ9xNkK9JDhN8XfH
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_Gpu6V2tvQNXsfzoyRqN6s8
+          claim_id: c_cpS9ZtSMvjtM99NkY4ZJFp
+          source_id: s_R7Q4MJBKETsoKXUfCBEiDk
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_R7Q4MJBKETsoKXUfCBEiDk
+            source_type: api_record
+            title: 维基数据：王逵（Q45426376）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45426376
+            external_identifier: Q45426376
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:33.804Z
+            metadata_json: null
+        - id: cs_YSDXFw5Trs9bLfYjwUohc3
+          claim_id: c_cpS9ZtSMvjtM99NkY4ZJFp
+          source_id: s_WZsWGK6n29iNd2y92gVpEL
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：未知
+          source:
+            id: s_WZsWGK6n29iNd2y92gVpEL
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王逵（34583）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34583&o=json
+            external_identifier: CBDB:34583
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:06:33.993Z
+            metadata_json: null
+      object_person:
+        id: p_P2y97jJhXVBL5SrVuPH2Jb
+        status: active
+        display_name: 王逵
+        merged_into_person_id: null
   children:
     - claim:
         id: c_814SJ6xfoJ5AhYWP8gFw3j
@@ -168,6 +232,59 @@ relationships:
         status: active
         display_name: 王鏊
         merged_into_person_id: null
+    - claim:
+        id: c_gd9wPhSEsS8d8ce3DEFnnZ
+        subject_person_id: p_3JZgMSGQ5z3nPzBFS6irjA
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_AKaTYUWNKCzouUxFhiCAGD
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8g475ebKJePx6A68ugbRPg
+          claim_id: c_gd9wPhSEsS8d8ce3DEFnnZ
+          source_id: s_Pep3yEWZ9xNkK9JDhN8XfH
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_Bz9v656RoZSN4xFMmTU3qi
+          claim_id: c_gd9wPhSEsS8d8ce3DEFnnZ
+          source_id: s_tvgt6REcBJS37AUDJweQn6
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_tvgt6REcBJS37AUDJweQn6
+            source_type: api_record
+            title: 维基数据：王铨（Q45426337）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45426337
+            external_identifier: Q45426337
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:33.804Z
+            metadata_json: null
+        - id: cs_yGZxdU9d63oUy2G2A6c88A
+          claim_id: c_gd9wPhSEsS8d8ce3DEFnnZ
+          source_id: s_RKoAncChYFnPjTFkDWbWQL
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：未知
+          source: *a1
+      object_person:
+        id: p_AKaTYUWNKCzouUxFhiCAGD
+        status: active
+        display_name: 王铨
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -191,10 +308,15 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_P2y97jJhXVBL5SrVuPH2Jb | 王逵 | accepted |
 | children | p_Wp6B6oFJWureDLbUWC4XTo | 王鏊 | accepted |
+| children | p_AKaTYUWNKCzouUxFhiCAGD | 王铨 | accepted |
 
 ## 外部来源
 
 - [维基数据：王鏊（Q15904946）](https://www.wikidata.org/wiki/Q15904946)
+- [维基数据：王逵（Q45426376）](https://www.wikidata.org/wiki/Q45426376)
+- [维基数据：王铨（Q45426337）](https://www.wikidata.org/wiki/Q45426337)
 - [维基数据：王琬（Q45426296）](https://www.wikidata.org/wiki/Q45426296)
+- [CBDB 中国历代人物传记资料库：王逵（34583）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34583&o=json)
 - [CBDB 中国历代人物传记资料库：王琬（34581）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34581&o=json)

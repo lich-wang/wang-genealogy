@@ -4,7 +4,7 @@ id: p_r3C7u8fpXnctvJwTH2YB5c
 status: active
 merged_into: null
 display_name: 何澄
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: 导言
           quotation: 何澄（1880年—1946年），原名何厚倜，號亞農。山西省灵石县
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
-          source:
+          source: &a1
             id: s_FYDTHe3i7mNOKCUly0GQ8U
             source_type: website
             title: 中文维基百科：何澄 (民國政治人物)
@@ -88,7 +88,52 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_MDdmWxJHq5qBWQvyj6oJGB
+        subject_person_id: p_6SVL4zVnbghtWnVRaFnJvW
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_r3C7u8fpXnctvJwTH2YB5c
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HpPSoP99AxNDRWKUNP7N3k
+          claim_id: c_MDdmWxJHq5qBWQvyj6oJGB
+          source_id: s_n6jyQysZNP86UPF3DCLMXM
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_n6jyQysZNP86UPF3DCLMXM
+            source_type: api_record
+            title: 维基数据：王季山（Q61306555）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q61306555
+            external_identifier: Q61306555
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:42.168Z
+            metadata_json: null
+        - id: cs_LP9XDstiCGL8CgQuJCHANe
+          claim_id: c_MDdmWxJHq5qBWQvyj6oJGB
+          source_id: s_FYDTHe3i7mNOKCUly0GQ8U
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+      object_person:
+        id: p_6SVL4zVnbghtWnVRaFnJvW
+        status: active
+        display_name: 王季山
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -109,8 +154,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_6SVL4zVnbghtWnVRaFnJvW | 王季山 | accepted |
 
 ## 外部来源
 
 - [维基数据：何澄（Q10886319）](https://www.wikidata.org/wiki/Q10886319)
+- [维基数据：王季山（Q61306555）](https://www.wikidata.org/wiki/Q61306555)
 - [中文维基百科：何澄 (民國政治人物)](https://zh.wikipedia.org/wiki/%E4%BD%95%E6%BE%84_(%E6%B0%91%E5%9C%8B%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9))

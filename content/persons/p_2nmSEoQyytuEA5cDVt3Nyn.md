@@ -4,7 +4,7 @@ id: p_2nmSEoQyytuEA5cDVt3Nyn
 status: active
 merged_into: null
 display_name: 王益柔
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: 导言
           quotation: 王益柔（1015年—1086年），字胜之，河南府洛阳县（今河南省
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
-          source:
+          source: &a1
             id: s_no7YeT96fgWzRWSyjazAgb
             source_type: website
             title: 中文维基百科：王益柔
@@ -167,7 +167,52 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_HoLZkod44j8VqDWZVDPeJn
+        subject_person_id: p_kx3JCi5hvZyKiyizeGH3KR
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_2nmSEoQyytuEA5cDVt3Nyn
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jt9draKsRzkBMJKJAcVMGT
+          claim_id: c_HoLZkod44j8VqDWZVDPeJn
+          source_id: s_E6YyEwWUZy7TTGcceDG4SQ
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_E6YyEwWUZy7TTGcceDG4SQ
+            source_type: api_record
+            title: 维基数据：王曙（Q16077251）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q16077251
+            external_identifier: Q16077251
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:48:52.064Z
+            metadata_json: null
+        - id: cs_WQiE9CAHBTytx7VLL9oTTQ
+          claim_id: c_HoLZkod44j8VqDWZVDPeJn
+          source_id: s_no7YeT96fgWzRWSyjazAgb
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+      object_person:
+        id: p_kx3JCi5hvZyKiyizeGH3KR
+        status: active
+        display_name: 王曙
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -194,8 +239,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_kx3JCi5hvZyKiyizeGH3KR | 王曙 | accepted |
 
 ## 外部来源
 
+- [维基数据：王曙（Q16077251）](https://www.wikidata.org/wiki/Q16077251)
 - [维基数据：王益柔（Q45359527）](https://www.wikidata.org/wiki/Q45359527)
 - [中文维基百科：王益柔](https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%9B%8A%E6%9F%94)

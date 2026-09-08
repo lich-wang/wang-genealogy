@@ -4,7 +4,7 @@ id: p_GvhnbSfs4k75xQrdJJphA9
 status: active
 merged_into: null
 display_name: 王承祖
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_PTh47Lx54BK3CqoJSxaQef
             source_type: api_record
             title: 维基数据：王承祖（Q45621088）
@@ -110,7 +110,52 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_c66reWYB42H18WitEBNJ4g
+        subject_person_id: p_qMBPniX9L5uzUSacCxGcRs
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_GvhnbSfs4k75xQrdJJphA9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_yqGBbUw8F29WCM8q3HjBJG
+          claim_id: c_c66reWYB42H18WitEBNJ4g
+          source_id: s_PTh47Lx54BK3CqoJSxaQef
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_rq4Lw5QAjijxiDRsDCCV4M
+          claim_id: c_c66reWYB42H18WitEBNJ4g
+          source_id: s_7LuvuxPskiCyDZ6ZzoBu4f
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_7LuvuxPskiCyDZ6ZzoBu4f
+            source_type: api_record
+            title: 维基数据：王昺（Q45621024）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45621024
+            external_identifier: Q45621024
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:44.307Z
+            metadata_json: null
+      object_person:
+        id: p_qMBPniX9L5uzUSacCxGcRs
+        status: active
+        display_name: 王昺
+        merged_into_person_id: null
   children:
     - claim:
         id: c_SrdSVeK2V6BNUkoxCb425m
@@ -191,10 +236,12 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_qMBPniX9L5uzUSacCxGcRs | 王昺 | accepted |
 | children | p_fpg1YKR3GH9Cg5FPGdQZW7 | 王国光 | accepted |
 
 ## 外部来源
 
+- [维基数据：王昺（Q45621024）](https://www.wikidata.org/wiki/Q45621024)
 - [维基数据：王承祖（Q45621088）](https://www.wikidata.org/wiki/Q45621088)
 - [维基数据：王国光（Q15907167）](https://www.wikidata.org/wiki/Q15907167)
 - [CBDB 中国历代人物传记资料库：王承祖（308148）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=308148&o=json)

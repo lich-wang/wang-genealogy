@@ -4,7 +4,7 @@ id: p_51Pca5wdng4NB9T2FpYuFX
 status: active
 merged_into: null
 display_name: 王可
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_6kSWPjkGQP4kypDPpgbhbH
             source_type: api_record
             title: 维基数据：王可（Q45603634）
@@ -167,7 +167,61 @@ relationships:
         status: active
         display_name: 王鸿儒
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_qw9AU9TFUn14MU8QP5HAkn
+        subject_person_id: p_51Pca5wdng4NB9T2FpYuFX
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_iRoPCMQGG7T8QWQEfbMdBx
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_n2Z6nP1dxxiDpw29aMQmPh
+          claim_id: c_qw9AU9TFUn14MU8QP5HAkn
+          source_id: s_6kSWPjkGQP4kypDPpgbhbH
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_P5DMDvn3JXjq59yaCUZF2P
+          claim_id: c_qw9AU9TFUn14MU8QP5HAkn
+          source_id: s_4aAHVT5jB6WtTJCwPKgxKa
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_4aAHVT5jB6WtTJCwPKgxKa
+            source_type: api_record
+            title: 维基数据：王汝鲁（Q45577422）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45577422
+            external_identifier: Q45577422
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:07:07.754Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%B1%9D%E9%AD%AF
+        - id: cs_1FqW4Udt1VoYER6vpQVeyG
+          claim_id: c_qw9AU9TFUn14MU8QP5HAkn
+          source_id: s_4hULzQvG2j4W8T4NELP39w
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：隆慶二年進士登科錄:一卷
+          source: *a1
+      object_person:
+        id: p_iRoPCMQGG7T8QWQEfbMdBx
+        status: active
+        display_name: 王汝鲁
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -192,9 +246,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_Wdd9WrspYiEE72NGMNp75f | 王鸿儒 | accepted |
+| children | p_iRoPCMQGG7T8QWQEfbMdBx | 王汝鲁 | accepted |
 
 ## 外部来源
 
 - [维基数据：王鸿儒（Q15933067）](https://www.wikidata.org/wiki/Q15933067)
 - [维基数据：王可（Q45603634）](https://www.wikidata.org/wiki/Q45603634)
+- [维基数据：王汝鲁（Q45577422）](https://www.wikidata.org/wiki/Q45577422)
 - [CBDB 中国历代人物传记资料库：王可（334081）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334081&o=json)

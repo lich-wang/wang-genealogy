@@ -4,7 +4,7 @@ id: p_628btDKdbR4ERpBGANNokB
 status: active
 merged_into: null
 display_name: 王咸熙
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_Gp4WBVyZNHoDcTHDjYXkGL
             source_type: api_record
             title: 维基数据：王咸熙（Q45401562）
@@ -186,7 +186,60 @@ relationships:
         status: active
         display_name: 王德用
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_qpXK9xJWUVZLQc7qhFveg2
+        subject_person_id: p_628btDKdbR4ERpBGANNokB
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_KX3HaGwtHE9r1pvSuRLLHX
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_B9RCW74WWwyPz1VsM9p2JE
+          claim_id: c_qpXK9xJWUVZLQc7qhFveg2
+          source_id: s_dQp3ZyujbuE4phNXktFUSG
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_dQp3ZyujbuE4phNXktFUSG
+            source_type: api_record
+            title: 维基数据：王渊（Q45363064）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45363064
+            external_identifier: Q45363064
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:08.871Z
+            metadata_json: null
+        - id: cs_f2Xa5RoJFRQbgL43yYiyJt
+          claim_id: c_qpXK9xJWUVZLQc7qhFveg2
+          source_id: s_Gp4WBVyZNHoDcTHDjYXkGL
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_gDAfub7UoJzbF2pmDB9ty2
+          claim_id: c_qpXK9xJWUVZLQc7qhFveg2
+          source_id: s_RY2uDCo42d26UVABT5UsPF
+          stance: supports
+          locator: 亲属关系：次子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：未知
+          source: *a1
+      object_person:
+        id: p_KX3HaGwtHE9r1pvSuRLLHX
+        status: active
+        display_name: 王渊
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -211,10 +264,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_mDQwQDowHukUUJhyJA2Q4Z | 王德用 | accepted |
+| children | p_KX3HaGwtHE9r1pvSuRLLHX | 王渊 | accepted |
 
 ## 外部来源
 
 - [维基数据：王德用（Q10414172）](https://www.wikidata.org/wiki/Q10414172)
 - [维基数据：王咸熙（Q45401562）](https://www.wikidata.org/wiki/Q45401562)
+- [维基数据：王渊（Q45363064）](https://www.wikidata.org/wiki/Q45363064)
 - [CBDB 中国历代人物传记资料库：王德用（1893）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1893&o=json)
 - [CBDB 中国历代人物传记资料库：王咸熙（21947）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=21947&o=json)

@@ -4,7 +4,7 @@ id: p_ro6G6j28vQb3THHmGL9bxo
 status: active
 merged_into: null
 display_name: 王冲
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_HJKcTcPnUSmSmFGwkGRuvk
             source_type: api_record
             title: 维基数据：王冲（Q45381153）
@@ -194,11 +194,128 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_MLqnsKBCgfGBj6vyzYDcn8
+        subject_person_id: p_VKst8B2d5tWwdYZpMbjXpF
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ro6G6j28vQb3THHmGL9bxo
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_uLMBWd6XxN4tYN2Vhxc3p7
+          claim_id: c_MLqnsKBCgfGBj6vyzYDcn8
+          source_id: s_cEzQFMJKfXkebXkBavgjxf
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_cEzQFMJKfXkebXkBavgjxf
+            source_type: api_record
+            title: 维基数据：王砺（Q45381094）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45381094
+            external_identifier: Q45381094
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:00:00.249Z
+            metadata_json: null
+        - id: cs_pvLzLA2kga2YESaQcEvyK3
+          claim_id: c_MLqnsKBCgfGBj6vyzYDcn8
+          source_id: s_HJKcTcPnUSmSmFGwkGRuvk
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_iVkLBpQt5AcsYkgHisS8HH
+          claim_id: c_MLqnsKBCgfGBj6vyzYDcn8
+          source_id: s_k4sFmeLJCYGtEaPGKsQ95C
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：宋人傳記資料索引(電子版)
+          source:
+            id: s_k4sFmeLJCYGtEaPGKsQ95C
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王礪（15706）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=15706&o=json
+            external_identifier: CBDB:15706
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:00:00.404Z
+            metadata_json: null
+      object_person:
+        id: p_VKst8B2d5tWwdYZpMbjXpF
+        status: active
+        display_name: 王砺
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_GqLwmCdkxwGWXmQ2yfXCVw
+        subject_person_id: p_ro6G6j28vQb3THHmGL9bxo
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_zPbRkqGuDNx8wqWXtZCj9n
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8GNaSXCTdDiE1p1dQFxLCs
+          claim_id: c_GqLwmCdkxwGWXmQ2yfXCVw
+          source_id: s_9PGPgGT51GGgN7dAyjwbno
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_9PGPgGT51GGgN7dAyjwbno
+            source_type: api_record
+            title: 维基数据：华氏（Q45434003）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45434003
+            external_identifier: Q45434003
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+        - id: cs_y67837A3oTYQ8aws3fXpH2
+          claim_id: c_GqLwmCdkxwGWXmQ2yfXCVw
+          source_id: s_HJKcTcPnUSmSmFGwkGRuvk
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_V4s9g3wpdMVNDRA4V4Fjdt
+          claim_id: c_GqLwmCdkxwGWXmQ2yfXCVw
+          source_id: s_23CwhfdKCNWQ6K5JjgxfBC
+          stance: supports
+          locator: 亲属关系：妻子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：宋人傳記資料索引(電子版)
+          source: *a1
+      object_person:
+        id: p_zPbRkqGuDNx8wqWXtZCj9n
+        status: active
+        display_name: 华氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -221,8 +338,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_VKst8B2d5tWwdYZpMbjXpF | 王砺 | accepted |
+| spouses | p_zPbRkqGuDNx8wqWXtZCj9n | 华氏 | accepted |
 
 ## 外部来源
 
+- [维基数据：华氏（Q45434003）](https://www.wikidata.org/wiki/Q45434003)
 - [维基数据：王冲（Q45381153）](https://www.wikidata.org/wiki/Q45381153)
+- [维基数据：王砺（Q45381094）](https://www.wikidata.org/wiki/Q45381094)
 - [CBDB 中国历代人物传记资料库：王沖（15752）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=15752&o=json)
+- [CBDB 中国历代人物传记资料库：王礪（15706）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=15706&o=json)

@@ -4,7 +4,7 @@ id: p_vS1NSBq3ZTKMGBPQAqMJaX
 status: active
 merged_into: null
 display_name: 王孝緗
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -213,10 +213,111 @@ relationships:
         status: active
         display_name: 王仁堪
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_EMuGk7Fbtg6SRKhY9MqKnM
+        subject_person_id: p_vS1NSBq3ZTKMGBPQAqMJaX
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_xyTKb2grpvEktR1evrrpmS
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4NKm4FVEtKbe1GkHaMNE7v
+          claim_id: c_EMuGk7Fbtg6SRKhY9MqKnM
+          source_id: s_EcgMZb9HcvSGSZBehn2MJ3
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: &a2
+            id: s_EcgMZb9HcvSGSZBehn2MJ3
+            source_type: api_record
+            title: 维基数据：王孝緗（Q98066569）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q98066569
+            external_identifier: Q98066569
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:00:15.904Z
+            metadata_json: null
+        - id: cs_m1ZJyrxQL8sf86QUqtRQVQ
+          claim_id: c_EMuGk7Fbtg6SRKhY9MqKnM
+          source_id: s_CL7tL6r0eI9SgrOMlR66MF
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_CL7tL6r0eI9SgrOMlR66MF
+            source_type: website
+            title: 中文维基百科：王世真
+            creator: 维基百科贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%B8%96%E7%9C%9F
+            external_identifier: Q9185449
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-06T22:33:22.403Z
+            metadata_json: null
+      object_person:
+        id: p_xyTKb2grpvEktR1evrrpmS
+        status: active
+        display_name: 王世真
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_yV6qP9sLrPgoHgLDgV4hmW
+        subject_person_id: p_vS1NSBq3ZTKMGBPQAqMJaX
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_vxdBkR93GzjQ4p2VuMzGx4
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_x4jPG77gAv8KkX4zmd8Phz
+          claim_id: c_yV6qP9sLrPgoHgLDgV4hmW
+          source_id: s_EcgMZb9HcvSGSZBehn2MJ3
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_Y9PBeBRBnznKkSN6Hp6KCB
+          claim_id: c_yV6qP9sLrPgoHgLDgV4hmW
+          source_id: s_U95xyDfa75KWHEnVEX2P5P
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_U95xyDfa75KWHEnVEX2P5P
+            source_type: api_record
+            title: 维基数据：林劍言（Q98066599）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q98066599
+            external_identifier: Q98066599
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:07:11.128Z
+            metadata_json: null
+      object_person:
+        id: p_vxdBkR93GzjQ4p2VuMzGx4
+        status: active
+        display_name: 林劍言
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -240,8 +341,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_ggcTrtcGE4fR6SCji22GJb | 王仁堪 | accepted |
+| children | p_xyTKb2grpvEktR1evrrpmS | 王世真 | accepted |
+| spouses | p_vxdBkR93GzjQ4p2VuMzGx4 | 林劍言 | accepted |
 
 ## 外部来源
 
+- [维基数据：林劍言（Q98066599）](https://www.wikidata.org/wiki/Q98066599)
 - [维基数据：王仁堪（Q15943465）](https://www.wikidata.org/wiki/Q15943465)
 - [维基数据：王孝緗（Q98066569）](https://www.wikidata.org/wiki/Q98066569)
+- [中文维基百科：王世真](https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%B8%96%E7%9C%9F)

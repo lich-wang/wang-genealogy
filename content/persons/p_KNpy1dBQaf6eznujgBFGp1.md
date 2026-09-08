@@ -4,7 +4,7 @@ id: p_KNpy1dBQaf6eznujgBFGp1
 status: active
 merged_into: null
 display_name: 王眉寿
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -156,11 +156,102 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_vN6d9gF7YMveZmD6jR4Hjw
+        subject_person_id: p_Gxn2LqhXD3zS4kUs2t7knD
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_KNpy1dBQaf6eznujgBFGp1
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7UmLSCLYWBXRMzxg9pt4c8
+          claim_id: c_vN6d9gF7YMveZmD6jR4Hjw
+          source_id: s_zmvPF7Ln648m64pMJqo1rR
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_zmvPF7Ln648m64pMJqo1rR
+            source_type: api_record
+            title: 维基数据：王傳燦（Q98060612）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q98060612
+            external_identifier: Q98060612
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:19.447Z
+            metadata_json: null
+        - id: cs_NsFmbd2xLs9eQQ5TsGujdB
+          claim_id: c_vN6d9gF7YMveZmD6jR4Hjw
+          source_id: s_2G65yhFbbVuC4y4MG5AR3s
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+      object_person:
+        id: p_Gxn2LqhXD3zS4kUs2t7knD
+        status: active
+        display_name: 王傳燦
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_jGuuWXGmxQp2iiVPXN76ZP
+        subject_person_id: p_9hx7hNoEHGJpUAxJbhWXoH
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_KNpy1dBQaf6eznujgBFGp1
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tM7jK2X6YkgAiPDGZCQxSg
+          claim_id: c_jGuuWXGmxQp2iiVPXN76ZP
+          source_id: s_2G65yhFbbVuC4y4MG5AR3s
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_Q13b2qM6PQrZGMKH7RSLSt
+          claim_id: c_jGuuWXGmxQp2iiVPXN76ZP
+          source_id: s_XY2F4YXRNVHzWd4PeSw5S3
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_XY2F4YXRNVHzWd4PeSw5S3
+            source_type: api_record
+            title: 维基数据：陈宝琛（Q701792）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q701792
+            external_identifier: Q701792
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E9%99%B3%E5%AF%B6%E7%90%9B
+      object_person:
+        id: p_9hx7hNoEHGJpUAxJbhWXoH
+        status: active
+        display_name: 陈宝琛
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -183,7 +274,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Gxn2LqhXD3zS4kUs2t7knD | 王傳燦 | accepted |
+| spouses | p_9hx7hNoEHGJpUAxJbhWXoH | 陈宝琛 | accepted |
 
 ## 外部来源
 
+- [维基数据：陈宝琛（Q701792）](https://www.wikidata.org/wiki/Q701792)
+- [维基数据：王傳燦（Q98060612）](https://www.wikidata.org/wiki/Q98060612)
 - [维基数据：王眉寿（Q98060447）](https://www.wikidata.org/wiki/Q98060447)

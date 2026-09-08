@@ -4,7 +4,7 @@ id: p_2FfCNSZbmawkyTxk2zgdBv
 status: active
 merged_into: null
 display_name: 王僧修
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -129,7 +129,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_4oULUTNxTeNnJDA6yzFgiG
+        subject_person_id: p_2FfCNSZbmawkyTxk2zgdBv
+        claim_kind: relationship
+        predicate: kinship.parent_of
+        object_person_id: p_6PF94LpiFwv7ZBPi4LiuxW
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hWZQNQ3RFCNA68Ca9wAiLB
+          claim_id: c_4oULUTNxTeNnJDA6yzFgiG
+          source_id: s_amneLzd6PAqKJP64P3Sdud
+          stance: supports
+          locator: 亲属关系：父
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：唐五代人物傳記與社會網絡資料庫(1.0版)
+          source:
+            id: s_amneLzd6PAqKJP64P3Sdud
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王景孝（175867）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175867&o=json
+            external_identifier: CBDB:175867
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person:
+        id: p_6PF94LpiFwv7ZBPi4LiuxW
+        status: active
+        display_name: 王景孝
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -154,7 +191,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_6PF94LpiFwv7ZBPi4LiuxW | 王景孝 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王僧修（CBDB 175866）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175866&o=json)
+- [CBDB 中国历代人物传记资料库：王景孝（175867）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175867&o=json)

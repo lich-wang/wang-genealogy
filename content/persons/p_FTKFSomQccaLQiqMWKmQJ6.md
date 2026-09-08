@@ -4,7 +4,7 @@ id: p_FTKFSomQccaLQiqMWKmQJ6
 status: active
 merged_into: null
 display_name: 王无畏
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_wwEpRD7kPM9rgF24EP9xqC
             source_type: api_record
             title: 维基数据：王无畏（Q45679805）
@@ -152,7 +152,52 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_NniP89raoMtEkYbCwcFNHe
+        subject_person_id: p_9De1waQrNPPNQ2rPBDtZB4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_FTKFSomQccaLQiqMWKmQJ6
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_CBRz56RwmyKetdViPqyAmL
+          claim_id: c_NniP89raoMtEkYbCwcFNHe
+          source_id: s_iBsZCuymcCHq9LAP1EAxCz
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_iBsZCuymcCHq9LAP1EAxCz
+            source_type: api_record
+            title: 维基数据：王某（Q45679773）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45679773
+            external_identifier: Q45679773
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:17.691Z
+            metadata_json: null
+        - id: cs_B79BBTYYi3UBPL3n3QKBQG
+          claim_id: c_NniP89raoMtEkYbCwcFNHe
+          source_id: s_wwEpRD7kPM9rgF24EP9xqC
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+      object_person:
+        id: p_9De1waQrNPPNQ2rPBDtZB4
+        status: active
+        display_name: 王某
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -178,8 +223,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_9De1waQrNPPNQ2rPBDtZB4 | 王某 | accepted |
 
 ## 外部来源
 
+- [维基数据：王某（Q45679773）](https://www.wikidata.org/wiki/Q45679773)
 - [维基数据：王无畏（Q45679805）](https://www.wikidata.org/wiki/Q45679805)
 - [CBDB 中国历代人物传记资料库：王無畏（175931）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175931&o=json)

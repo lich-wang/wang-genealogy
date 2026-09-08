@@ -4,7 +4,7 @@ id: p_K3V5746zGx9VVTC42VpP31
 status: active
 merged_into: null
 display_name: 王静淑
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_dZPTaHr6jaic2aGU4hDfRM
             source_type: api_record
             title: 维基数据：王静淑（Q45485756）
@@ -189,7 +189,60 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_7xxw84zVT6EJNbZH8bDPzz
+        subject_person_id: p_39GWjbzJQtkejPEWb4G4LN
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_K3V5746zGx9VVTC42VpP31
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QFNEB37LMBkKbJkK9jP8EC
+          claim_id: c_7xxw84zVT6EJNbZH8bDPzz
+          source_id: s_dZPTaHr6jaic2aGU4hDfRM
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_ugcV1LD6iejcpE7g7viePg
+          claim_id: c_7xxw84zVT6EJNbZH8bDPzz
+          source_id: s_TeSZTvrheVTa7PgrrzU9ny
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_TeSZTvrheVTa7PgrrzU9ny
+            source_type: api_record
+            title: 维基数据：陈树勷（Q45486010）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45486010
+            external_identifier: Q45486010
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:07:17.760Z
+            metadata_json: null
+        - id: cs_L3CcLZQ7AuoTvL56Pt7FJk
+          claim_id: c_7xxw84zVT6EJNbZH8bDPzz
+          source_id: s_HFWp7igmPi2rYKAePKgRuC
+          stance: supports
+          locator: 亲属关系：丈夫
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：明清婦女著作數據庫
+          source: *a1
+      object_person:
+        id: p_39GWjbzJQtkejPEWb4G4LN
+        status: active
+        display_name: 陈树勷
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -211,9 +264,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_WgJjrR3eV8FZmEbV9t77oX | 王思任 | accepted |
+| spouses | p_39GWjbzJQtkejPEWb4G4LN | 陈树勷 | accepted |
 
 ## 外部来源
 
+- [维基数据：陈树勷（Q45486010）](https://www.wikidata.org/wiki/Q45486010)
 - [维基数据：王静淑（Q45485756）](https://www.wikidata.org/wiki/Q45485756)
 - [维基数据：王思任（Q15938368）](https://www.wikidata.org/wiki/Q15938368)
 - [CBDB 中国历代人物传记资料库：王靜淑（55730）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=55730&o=json)

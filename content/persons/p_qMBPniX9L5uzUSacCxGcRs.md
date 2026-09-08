@@ -4,7 +4,7 @@ id: p_qMBPniX9L5uzUSacCxGcRs
 status: active
 merged_into: null
 display_name: 王昺
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_7LuvuxPskiCyDZ6ZzoBu4f
             source_type: api_record
             title: 维基数据：王昺（Q45621024）
@@ -110,8 +110,98 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_euou14QTXMMYKQzM2thGWv
+        subject_person_id: p_cvP1gJz184hGC1Ducr4dLY
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_qMBPniX9L5uzUSacCxGcRs
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PTzQXDRCw3tisvKFACdwzX
+          claim_id: c_euou14QTXMMYKQzM2thGWv
+          source_id: s_7LuvuxPskiCyDZ6ZzoBu4f
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_MESA5i9zrz9ugi3M7CPF8S
+          claim_id: c_euou14QTXMMYKQzM2thGWv
+          source_id: s_t8ew93v9cGWaw4qi4iL8Z8
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_t8ew93v9cGWaw4qi4iL8Z8
+            source_type: api_record
+            title: 维基数据：王子文（Q45620962）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45620962
+            external_identifier: Q45620962
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person:
+        id: p_cvP1gJz184hGC1Ducr4dLY
+        status: active
+        display_name: 王子文
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_c66reWYB42H18WitEBNJ4g
+        subject_person_id: p_qMBPniX9L5uzUSacCxGcRs
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_GvhnbSfs4k75xQrdJJphA9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_yqGBbUw8F29WCM8q3HjBJG
+          claim_id: c_c66reWYB42H18WitEBNJ4g
+          source_id: s_PTh47Lx54BK3CqoJSxaQef
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_PTh47Lx54BK3CqoJSxaQef
+            source_type: api_record
+            title: 维基数据：王承祖（Q45621088）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45621088
+            external_identifier: Q45621088
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:34.984Z
+            metadata_json: null
+        - id: cs_rq4Lw5QAjijxiDRsDCCV4M
+          claim_id: c_c66reWYB42H18WitEBNJ4g
+          source_id: s_7LuvuxPskiCyDZ6ZzoBu4f
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+      object_person:
+        id: p_GvhnbSfs4k75xQrdJJphA9
+        status: active
+        display_name: 王承祖
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +225,12 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_cvP1gJz184hGC1Ducr4dLY | 王子文 | accepted |
+| children | p_GvhnbSfs4k75xQrdJJphA9 | 王承祖 | accepted |
 
 ## 外部来源
 
 - [维基数据：王昺（Q45621024）](https://www.wikidata.org/wiki/Q45621024)
+- [维基数据：王承祖（Q45621088）](https://www.wikidata.org/wiki/Q45621088)
+- [维基数据：王子文（Q45620962）](https://www.wikidata.org/wiki/Q45620962)
 - [CBDB 中国历代人物传记资料库：王昺（308147）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=308147&o=json)

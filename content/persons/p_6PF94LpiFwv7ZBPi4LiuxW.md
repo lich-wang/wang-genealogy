@@ -1,0 +1,226 @@
+---
+schema: wang-person/v1
+id: p_6PF94LpiFwv7ZBPi4LiuxW
+status: active
+merged_into: null
+display_name: 王景孝
+revision: 2
+properties:
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_gaYc1xxsAyHJj8egK4MmhW
+        subject_person_id: p_6PF94LpiFwv7ZBPi4LiuxW
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王景孝
+          language: zh-Hans
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_bVYGzB5Tx9b5UkKrcoHytL
+          claim_id: c_gaYc1xxsAyHJj8egK4MmhW
+          source_id: s_SRDMnFcLCcNi5jydCLZA49
+          stance: supports
+          locator: Q45678009
+          quotation: null
+          interpretation_note: 导入亲属人物姓名
+          source: &a1
+            id: s_SRDMnFcLCcNi5jydCLZA49
+            source_type: api_record
+            title: 维基数据：王景孝（Q45678009）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45678009
+            external_identifier: Q45678009
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+        - id: cs_rEATPD9hHd74KUVTxWzYde
+          claim_id: c_gaYc1xxsAyHJj8egK4MmhW
+          source_id: s_amneLzd6PAqKJP64P3Sdud
+          stance: supports
+          locator: CBDB:175867
+          quotation: null
+          interpretation_note: 导入亲属人物姓名
+          source: &a2
+            id: s_amneLzd6PAqKJP64P3Sdud
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王景孝（175867）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175867&o=json
+            external_identifier: CBDB:175867
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person: null
+    alternatives: []
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_LaJKN4C1KvBk2YfKGbe18c
+        subject_person_id: p_6PF94LpiFwv7ZBPi4LiuxW
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: person, CBDB = 175867
+          language: en
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5tkRV3Tia7hYabMf7VF6JJ
+          claim_id: c_LaJKN4C1KvBk2YfKGbe18c
+          source_id: s_SRDMnFcLCcNi5jydCLZA49
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: 维基数据条目描述
+          source: *a1
+      object_person: null
+    alternatives: []
+  - predicate: death.date
+    recommended:
+      claim:
+        id: c_VZf4tkjVtNXS71k16d5sCR
+        subject_person_id: p_6PF94LpiFwv7ZBPi4LiuxW
+        claim_kind: property
+        predicate: death.date
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          date:
+            original_text: 593年
+            calendar_note: 维基数据 P570 结构化日期，精度：年
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_EVyiVKuMvd9XGTy7RKf6ov
+          claim_id: c_VZf4tkjVtNXS71k16d5sCR
+          source_id: s_SRDMnFcLCcNi5jydCLZA49
+          stance: supports
+          locator: P570（死亡日期）
+          quotation: null
+          interpretation_note: 维基数据 P570
+          source: *a1
+      object_person: null
+    alternatives: []
+relationships:
+  parents:
+    - claim:
+        id: c_4oULUTNxTeNnJDA6yzFgiG
+        subject_person_id: p_2FfCNSZbmawkyTxk2zgdBv
+        claim_kind: relationship
+        predicate: kinship.parent_of
+        object_person_id: p_6PF94LpiFwv7ZBPi4LiuxW
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hWZQNQ3RFCNA68Ca9wAiLB
+          claim_id: c_4oULUTNxTeNnJDA6yzFgiG
+          source_id: s_amneLzd6PAqKJP64P3Sdud
+          stance: supports
+          locator: 亲属关系：父
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：唐五代人物傳記與社會網絡資料庫(1.0版)
+          source: *a2
+      object_person:
+        id: p_2FfCNSZbmawkyTxk2zgdBv
+        status: active
+        display_name: 王僧修
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_K97pTqgkv8cCsNKKoVdw5V
+        subject_person_id: p_6PF94LpiFwv7ZBPi4LiuxW
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3ZRkLDEZG2dQQN3S5tXUNJ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jvNuBEuKcQt4SmGbjVpmmU
+          claim_id: c_K97pTqgkv8cCsNKKoVdw5V
+          source_id: s_7nxCcXcQbcV52na55JgCb6
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_7nxCcXcQbcV52na55JgCb6
+            source_type: api_record
+            title: 维基数据：王诠（Q45678043）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45678043
+            external_identifier: Q45678043
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:07:02.160Z
+            metadata_json: null
+        - id: cs_VrBYYnKVBMaAJsUw8a5qRF
+          claim_id: c_K97pTqgkv8cCsNKKoVdw5V
+          source_id: s_SRDMnFcLCcNi5jydCLZA49
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+      object_person:
+        id: p_3ZRkLDEZG2dQQN3S5tXUNJ
+        status: active
+        display_name: 王诠
+        merged_into_person_id: null
+  adoptive_parents: []
+  adoptive_children: []
+  spouses: []
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王景孝
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| name.primary | 王景孝 | accepted |
+| bio.summary | person, CBDB = 175867 | accepted |
+| death.date | 593年 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+| parents | p_2FfCNSZbmawkyTxk2zgdBv | 王僧修 | accepted |
+| children | p_3ZRkLDEZG2dQQN3S5tXUNJ | 王诠 | accepted |
+
+## 外部来源
+
+- [维基数据：王景孝（Q45678009）](https://www.wikidata.org/wiki/Q45678009)
+- [维基数据：王诠（Q45678043）](https://www.wikidata.org/wiki/Q45678043)
+- [CBDB 中国历代人物传记资料库：王景孝（175867）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175867&o=json)

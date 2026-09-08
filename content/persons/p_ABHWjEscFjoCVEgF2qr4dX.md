@@ -4,7 +4,7 @@ id: p_ABHWjEscFjoCVEgF2qr4dX
 status: active
 merged_into: null
 display_name: 王宗性
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_fhNQgV3E9dkVpKA3u7TQhA
             source_type: api_record
             title: 维基数据：王宗性（Q45458696）
@@ -155,11 +155,128 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_9HQwkGS6MbcyzRmLo8Hcmc
+        subject_person_id: p_jgqvj6yRuFScRYzYpcimRZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ABHWjEscFjoCVEgF2qr4dX
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VX8eVdiTmFRpVjT6iBMQw8
+          claim_id: c_9HQwkGS6MbcyzRmLo8Hcmc
+          source_id: s_xEMP31KRHmMMLJ345jKtsY
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_xEMP31KRHmMMLJ345jKtsY
+            source_type: api_record
+            title: 维基数据：王士彦（Q45573102）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45573102
+            external_identifier: Q45573102
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:52.069Z
+            metadata_json: null
+        - id: cs_yuwJ9AdZyXv4txPkHsQkxc
+          claim_id: c_9HQwkGS6MbcyzRmLo8Hcmc
+          source_id: s_fhNQgV3E9dkVpKA3u7TQhA
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_nRf6EqFxjfUj1gqGP5dAPh
+          claim_id: c_9HQwkGS6MbcyzRmLo8Hcmc
+          source_id: s_mSwGzHWH1XVALasnCo5Qnh
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：嘉靖二十三年登科錄:一卷
+          source:
+            id: s_mSwGzHWH1XVALasnCo5Qnh
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王士彥（307065）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=307065&o=json
+            external_identifier: CBDB:307065
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:59:52.235Z
+            metadata_json: null
+      object_person:
+        id: p_jgqvj6yRuFScRYzYpcimRZ
+        status: active
+        display_name: 王士彦
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_4K6rLSbFBj2PbXr6YfnG6E
+        subject_person_id: p_ABHWjEscFjoCVEgF2qr4dX
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_r9c7S6Y8RCf1UeMz9VaCpH
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fgiLJcunzPBwwiHKqp6iDP
+          claim_id: c_4K6rLSbFBj2PbXr6YfnG6E
+          source_id: s_fhNQgV3E9dkVpKA3u7TQhA
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_6PTksNqi7dxVav2pnfaWsU
+          claim_id: c_4K6rLSbFBj2PbXr6YfnG6E
+          source_id: s_ZYkDppFkR2CG22htW5Bskt
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_ZYkDppFkR2CG22htW5Bskt
+            source_type: api_record
+            title: 维基数据：孙氏（Q65831333）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q65831333
+            external_identifier: Q65831333
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+        - id: cs_MYDRr9BSf2uEHMZSaSVWjM
+          claim_id: c_4K6rLSbFBj2PbXr6YfnG6E
+          source_id: s_XcL5zA1ST4but5njM3qAfP
+          stance: supports
+          locator: 亲属关系：妻子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：嘉靖二十三年登科錄:一卷
+          source: *a1
+      object_person:
+        id: p_r9c7S6Y8RCf1UeMz9VaCpH
+        status: active
+        display_name: 孙氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -181,8 +298,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_jgqvj6yRuFScRYzYpcimRZ | 王士彦 | accepted |
+| spouses | p_r9c7S6Y8RCf1UeMz9VaCpH | 孙氏 | accepted |
 
 ## 外部来源
 
+- [维基数据：孙氏（Q65831333）](https://www.wikidata.org/wiki/Q65831333)
+- [维基数据：王士彦（Q45573102）](https://www.wikidata.org/wiki/Q45573102)
 - [维基数据：王宗性（Q45458696）](https://www.wikidata.org/wiki/Q45458696)
+- [CBDB 中国历代人物传记资料库：王士彥（307065）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=307065&o=json)
 - [CBDB 中国历代人物传记资料库：王宗性（203595）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203595&o=json)

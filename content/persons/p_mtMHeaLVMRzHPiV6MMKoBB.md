@@ -4,7 +4,7 @@ id: p_mtMHeaLVMRzHPiV6MMKoBB
 status: active
 merged_into: null
 display_name: 王慎术
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_WveuHAksgj3T15Bodst1yc
             source_type: api_record
             title: 维基数据：王慎术（Q45401760）
@@ -110,7 +110,71 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_XEGjYMsJN9xJhyunNe3EM1
+        subject_person_id: p_8yGvQV64DEaN7zXdMCaL2M
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_mtMHeaLVMRzHPiV6MMKoBB
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vevHMKR9RUwnRUiM6ui4XG
+          claim_id: c_XEGjYMsJN9xJhyunNe3EM1
+          source_id: s_9d6NmxQWLcW1dsP819MSKa
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_9d6NmxQWLcW1dsP819MSKa
+            source_type: api_record
+            title: 维基数据：王益恭（Q45401756）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45401756
+            external_identifier: Q45401756
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:00:19.863Z
+            metadata_json: null
+        - id: cs_xJFK3xHBQUhVennf7CD6sM
+          claim_id: c_XEGjYMsJN9xJhyunNe3EM1
+          source_id: s_WveuHAksgj3T15Bodst1yc
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_wKreo4LZSndDQqHg1Poyy7
+          claim_id: c_XEGjYMsJN9xJhyunNe3EM1
+          source_id: s_ESiRG3f9yMVCAnGCJMXcMN
+          stance: supports
+          locator: 亲属关系：三子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：未知
+          source:
+            id: s_ESiRG3f9yMVCAnGCJMXcMN
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王益恭（22054）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22054&o=json
+            external_identifier: CBDB:22054
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:00:20.031Z
+            metadata_json: null
+      object_person:
+        id: p_8yGvQV64DEaN7zXdMCaL2M
+        status: active
+        display_name: 王益恭
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -135,8 +199,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_8yGvQV64DEaN7zXdMCaL2M | 王益恭 | accepted |
 
 ## 外部来源
 
 - [维基数据：王慎术（Q45401760）](https://www.wikidata.org/wiki/Q45401760)
+- [维基数据：王益恭（Q45401756）](https://www.wikidata.org/wiki/Q45401756)
 - [CBDB 中国历代人物传记资料库：王慎術（22056）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22056&o=json)
+- [CBDB 中国历代人物传记资料库：王益恭（22054）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22054&o=json)

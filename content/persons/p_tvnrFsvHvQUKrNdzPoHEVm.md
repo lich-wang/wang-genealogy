@@ -4,7 +4,7 @@ id: p_tvnrFsvHvQUKrNdzPoHEVm
 status: active
 merged_into: null
 display_name: 王益之
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_hGdsQz7aqgwRprM8Z69YpF
             source_type: api_record
             title: 维基数据：王益之（Q18905525）
@@ -112,7 +112,71 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_pqUq1nA5e1kb3gxCyiH2Ko
+        subject_person_id: p_CvkqbHiKU1yv5J5yN1sDim
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_tvnrFsvHvQUKrNdzPoHEVm
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_eQ4LDMuS3wRGKzBA3EAUrA
+          claim_id: c_pqUq1nA5e1kb3gxCyiH2Ko
+          source_id: s_hGdsQz7aqgwRprM8Z69YpF
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_ZJDtt5CCGAiWgjGM3gnviF
+          claim_id: c_pqUq1nA5e1kb3gxCyiH2Ko
+          source_id: s_D7NNZLUFKQfdTjRPpLvri2
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_D7NNZLUFKQfdTjRPpLvri2
+            source_type: api_record
+            title: 维基数据：王师古（Q45369091）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45369091
+            external_identifier: Q45369091
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:58:57.822Z
+            metadata_json: null
+        - id: cs_CyVhr9wMgzyJ7VLjZGkjak
+          claim_id: c_pqUq1nA5e1kb3gxCyiH2Ko
+          source_id: s_411AG8EkY8NdEgG32DgoBa
+          stance: supports
+          locator: 亲属关系：三子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：宋人傳記資料索引(電子版)
+          source:
+            id: s_411AG8EkY8NdEgG32DgoBa
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王師古（10688）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10688&o=json
+            external_identifier: CBDB:10688
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:58:57.995Z
+            metadata_json: null
+      object_person:
+        id: p_CvkqbHiKU1yv5J5yN1sDim
+        status: active
+        display_name: 王师古
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -137,8 +201,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_CvkqbHiKU1yv5J5yN1sDim | 王师古 | accepted |
 
 ## 外部来源
 
+- [维基数据：王师古（Q45369091）](https://www.wikidata.org/wiki/Q45369091)
 - [维基数据：王益之（Q18905525）](https://www.wikidata.org/wiki/Q18905525)
+- [CBDB 中国历代人物传记资料库：王師古（10688）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10688&o=json)
 - [CBDB 中国历代人物传记资料库：王益之（22239）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22239&o=json)

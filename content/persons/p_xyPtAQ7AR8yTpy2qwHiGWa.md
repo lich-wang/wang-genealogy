@@ -4,7 +4,7 @@ id: p_xyPtAQ7AR8yTpy2qwHiGWa
 status: active
 merged_into: null
 display_name: 王氏
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -76,7 +76,7 @@ properties:
           locator: Q45434499
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_rinUBvPiEE2sXPXgwXBiwm
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：王氏（39733）
@@ -170,7 +170,71 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_ZuXPuiaYHUcV8588feQMkN
+        subject_person_id: p_juEm8j4Sb9dvXhaC1CMA9c
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_xyPtAQ7AR8yTpy2qwHiGWa
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KZqMGzvbrFtnZZBRpeHnVx
+          claim_id: c_ZuXPuiaYHUcV8588feQMkN
+          source_id: s_DkRGP27FpX8V7aNdqGSGon
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_DkRGP27FpX8V7aNdqGSGon
+            source_type: api_record
+            title: 维基数据：王氏（Q45434499）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45434499
+            external_identifier: Q45434499
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:00:09.271Z
+            metadata_json: null
+        - id: cs_jBZHoSVu3913yfEJtB4QBr
+          claim_id: c_ZuXPuiaYHUcV8588feQMkN
+          source_id: s_dV5C6vX8OnshhwhJU34Pxl
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_dV5C6vX8OnshhwhJU34Pxl
+            source_type: website
+            title: 中文维基百科：向敏中
+            creator: 维基百科贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://zh.wikipedia.org/wiki/%E5%90%91%E6%95%8F%E4%B8%AD
+            external_identifier: Q10918129
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-06T22:33:22.403Z
+            metadata_json: null
+        - id: cs_psrPB4mgRZkiwQhsRnwvpC
+          claim_id: c_ZuXPuiaYHUcV8588feQMkN
+          source_id: s_rinUBvPiEE2sXPXgwXBiwm
+          stance: supports
+          locator: 亲属关系：丈夫
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：宋人傳記資料索引(電子版)
+          source: *a2
+      object_person:
+        id: p_juEm8j4Sb9dvXhaC1CMA9c
+        status: active
+        display_name: 向敏中
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -192,10 +256,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_jhAXJEb1U9Ldt73n9uUeLS | 王审琦 | accepted |
+| spouses | p_juEm8j4Sb9dvXhaC1CMA9c | 向敏中 | accepted |
 
 ## 外部来源
 
 - [维基数据：王审琦（Q15940340）](https://www.wikidata.org/wiki/Q15940340)
 - [维基数据：王氏（Q45434499）](https://www.wikidata.org/wiki/Q45434499)
+- [中文维基百科：向敏中](https://zh.wikipedia.org/wiki/%E5%90%91%E6%95%8F%E4%B8%AD)
 - [CBDB 中国历代人物传记资料库：王審琦（3976）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3976&o=json)
 - [CBDB 中国历代人物传记资料库：王氏（39733）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=39733&o=json)

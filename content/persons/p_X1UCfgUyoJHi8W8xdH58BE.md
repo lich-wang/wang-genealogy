@@ -4,7 +4,7 @@ id: p_X1UCfgUyoJHi8W8xdH58BE
 status: active
 merged_into: null
 display_name: 王士真
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a1
             id: s_uNFQmZbjnbMWfFpWUMCosA
             source_type: api_record
             title: 维基数据：王士真（Q20026517）
@@ -174,7 +174,7 @@ properties:
           locator: Q20026517
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_8JcMUxTCwkNV6cEXnmYv9n
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：王士真（169076）
@@ -209,7 +209,72 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_ZmQiZJhVBfAUgBjY36dHTi
+        subject_person_id: p_LkMtpZjg6KZsBH9aWToWD9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_X1UCfgUyoJHi8W8xdH58BE
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BN2LYpQjR7824WkFyrWdSM
+          claim_id: c_ZmQiZJhVBfAUgBjY36dHTi
+          source_id: s_uNFQmZbjnbMWfFpWUMCosA
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_VbfaBCBaN8M59fVsv23Ppr
+          claim_id: c_ZmQiZJhVBfAUgBjY36dHTi
+          source_id: s_c7zbsk2y4rB9uNmsVojoyp
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_c7zbsk2y4rB9uNmsVojoyp
+            source_type: api_record
+            title: 维基数据：王武俊（Q7967676）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q7967676
+            external_identifier: Q7967676
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:22.442Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%AD%A6%E4%BF%8A
+        - id: cs_xVPB46RgQEkej41S14NMYV
+          claim_id: c_ZmQiZJhVBfAUgBjY36dHTi
+          source_id: s_mMp7PA549b87u7vum9HFuz
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：唐五代人物傳記與社會網絡資料庫(1.0版)
+          source:
+            id: s_mMp7PA549b87u7vum9HFuz
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王武俊（191752）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191752&o=json
+            external_identifier: CBDB:191752
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:06:22.594Z
+            metadata_json: null
+      object_person:
+        id: p_LkMtpZjg6KZsBH9aWToWD9
+        status: active
+        display_name: 王武俊
+        merged_into_person_id: null
   children:
     - claim:
         id: c_djYZDW3VSSgVvVnmgF441M
@@ -268,9 +333,276 @@ relationships:
         status: active
         display_name: 王承元
         merged_into_person_id: null
+    - claim:
+        id: c_FMXiM9wVuvEBtW1J9EVZiP
+        subject_person_id: p_X1UCfgUyoJHi8W8xdH58BE
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ra6MWuWLSDw8szrEbk5MTZ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MAdR4P92i1DNjX1qDc2VLB
+          claim_id: c_FMXiM9wVuvEBtW1J9EVZiP
+          source_id: s_uNFQmZbjnbMWfFpWUMCosA
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_pnUD11PVHVu2KdZUnj82Er
+          claim_id: c_FMXiM9wVuvEBtW1J9EVZiP
+          source_id: s_skgoALw23VHbn6GXrRg1pa
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_skgoALw23VHbn6GXrRg1pa
+            source_type: api_record
+            title: 维基数据：王承系（Q45518441）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45518441
+            external_identifier: Q45518441
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:20.290Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%89%BF%E7%B3%BB
+        - id: cs_oYrxFGy6rpkSjs6qZQoxk4
+          claim_id: c_FMXiM9wVuvEBtW1J9EVZiP
+          source_id: s_8JcMUxTCwkNV6cEXnmYv9n
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：唐五代人物傳記與社會網絡資料庫(1.0版)
+          source: *a2
+      object_person:
+        id: p_ra6MWuWLSDw8szrEbk5MTZ
+        status: active
+        display_name: 王承系
+        merged_into_person_id: null
+    - claim:
+        id: c_1JCvEcJ64YEpo8fS1eDfT3
+        subject_person_id: p_X1UCfgUyoJHi8W8xdH58BE
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_eY8EfR1RNk6RwbouvBQCRd
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_N17G2BYqxJFgHBSpNr8QpV
+          claim_id: c_1JCvEcJ64YEpo8fS1eDfT3
+          source_id: s_uNFQmZbjnbMWfFpWUMCosA
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_aHNc5uKEBUKq2EwbXPGYSQ
+          claim_id: c_1JCvEcJ64YEpo8fS1eDfT3
+          source_id: s_B3DgWR2fHr7eJGLbWkQ9BD
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_B3DgWR2fHr7eJGLbWkQ9BD
+            source_type: api_record
+            title: 维基数据：王承宗（Q7967386）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q7967386
+            external_identifier: Q7967386
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:22.442Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%89%BF%E5%AE%97
+        - id: cs_CiiHhSviMfGTegiGDYZUHt
+          claim_id: c_1JCvEcJ64YEpo8fS1eDfT3
+          source_id: s_8JcMUxTCwkNV6cEXnmYv9n
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：唐五代人物傳記與社會網絡資料庫(1.0版)
+          source: *a2
+      object_person:
+        id: p_eY8EfR1RNk6RwbouvBQCRd
+        status: active
+        display_name: 王承宗
+        merged_into_person_id: null
+    - claim:
+        id: c_Sdyq4Pyy12YUjW9gwC36rR
+        subject_person_id: p_X1UCfgUyoJHi8W8xdH58BE
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_jFftUJLto7JyNUjk4eFWEU
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VJH1C8fT9YNDT5iC8sPGnQ
+          claim_id: c_Sdyq4Pyy12YUjW9gwC36rR
+          source_id: s_uNFQmZbjnbMWfFpWUMCosA
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_zkGyawtC2cev1G4b2LZY93
+          claim_id: c_Sdyq4Pyy12YUjW9gwC36rR
+          source_id: s_FPuyS76amnvd2TLPmjQtGs
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_FPuyS76amnvd2TLPmjQtGs
+            source_type: api_record
+            title: 维基数据：王承泰（Q45668336）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45668336
+            external_identifier: Q45668336
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:35.373Z
+            metadata_json: null
+        - id: cs_zj95FSj79bLcQzfPX51Prq
+          claim_id: c_Sdyq4Pyy12YUjW9gwC36rR
+          source_id: s_8JcMUxTCwkNV6cEXnmYv9n
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：唐五代人物傳記與社會網絡資料庫(1.0版)
+          source: *a2
+      object_person:
+        id: p_jFftUJLto7JyNUjk4eFWEU
+        status: active
+        display_name: 王承泰
+        merged_into_person_id: null
+    - claim:
+        id: c_Kpaa98dwR4QYBZGWD6UVG3
+        subject_person_id: p_X1UCfgUyoJHi8W8xdH58BE
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_4bw6kj8mANTz5YxJBJSjE5
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FJKQRyXhGKWVjVMbYby3s7
+          claim_id: c_Kpaa98dwR4QYBZGWD6UVG3
+          source_id: s_uNFQmZbjnbMWfFpWUMCosA
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_Ea4E4VHQCMEauzDr9u3fmE
+          claim_id: c_Kpaa98dwR4QYBZGWD6UVG3
+          source_id: s_rvhGnAqEjQvh7hBXik5vGf
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_rvhGnAqEjQvh7hBXik5vGf
+            source_type: api_record
+            title: 维基数据：王承业（Q45615501）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45615501
+            external_identifier: Q45615501
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:44.307Z
+            metadata_json: null
+        - id: cs_daWqPmPBkLmM211CgVnfrz
+          claim_id: c_Kpaa98dwR4QYBZGWD6UVG3
+          source_id: s_8JcMUxTCwkNV6cEXnmYv9n
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：唐五代人物傳記與社會網絡資料庫(1.0版)
+          source: *a2
+      object_person:
+        id: p_4bw6kj8mANTz5YxJBJSjE5
+        status: active
+        display_name: 王承业
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_AhwAshcXMYt8RBmr1JtrdV
+        subject_person_id: p_3HBJFaXQ5Bc5jiBC8CU88s
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_X1UCfgUyoJHi8W8xdH58BE
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wRrhUfqwWziqi1NCT3peyH
+          claim_id: c_AhwAshcXMYt8RBmr1JtrdV
+          source_id: s_uNFQmZbjnbMWfFpWUMCosA
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_pexxxF6VmpPMMf84UkgVLb
+          claim_id: c_AhwAshcXMYt8RBmr1JtrdV
+          source_id: s_B2acvdsAnsvsiY4rjsA1zy
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_B2acvdsAnsvsiY4rjsA1zy
+            source_type: api_record
+            title: 维基数据：吴氏（Q65803773）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q65803773
+            external_identifier: Q65803773
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:37.127Z
+            metadata_json: null
+        - id: cs_oSPCZNZEoTsx1kGAzNPLuM
+          claim_id: c_AhwAshcXMYt8RBmr1JtrdV
+          source_id: s_8JcMUxTCwkNV6cEXnmYv9n
+          stance: supports
+          locator: 亲属关系：妻子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：唐五代人物傳記與社會網絡資料庫(1.0版)
+          source: *a2
+      object_person:
+        id: p_3HBJFaXQ5Bc5jiBC8CU88s
+        status: active
+        display_name: 吴氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -293,11 +625,24 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_LkMtpZjg6KZsBH9aWToWD9 | 王武俊 | accepted |
 | children | p_qCFGm193BBRnE82CUPasCQ | 王承元 | accepted |
+| children | p_ra6MWuWLSDw8szrEbk5MTZ | 王承系 | accepted |
+| children | p_eY8EfR1RNk6RwbouvBQCRd | 王承宗 | accepted |
+| children | p_jFftUJLto7JyNUjk4eFWEU | 王承泰 | accepted |
+| children | p_4bw6kj8mANTz5YxJBJSjE5 | 王承业 | accepted |
+| spouses | p_3HBJFaXQ5Bc5jiBC8CU88s | 吴氏 | accepted |
 
 ## 外部来源
 
+- [维基数据：王承泰（Q45668336）](https://www.wikidata.org/wiki/Q45668336)
+- [维基数据：王承系（Q45518441）](https://www.wikidata.org/wiki/Q45518441)
+- [维基数据：王承业（Q45615501）](https://www.wikidata.org/wiki/Q45615501)
 - [维基数据：王承元（Q1567159）](https://www.wikidata.org/wiki/Q1567159)
+- [维基数据：王承宗（Q7967386）](https://www.wikidata.org/wiki/Q7967386)
 - [维基数据：王士真（Q20026517）](https://www.wikidata.org/wiki/Q20026517)
+- [维基数据：王武俊（Q7967676）](https://www.wikidata.org/wiki/Q7967676)
+- [维基数据：吴氏（Q65803773）](https://www.wikidata.org/wiki/Q65803773)
 - [中文维基百科：王士真](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A3%AB%E7%9C%9F)
 - [CBDB 中国历代人物传记资料库：王士真（169076）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=169076&o=json)
+- [CBDB 中国历代人物传记资料库：王武俊（191752）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191752&o=json)

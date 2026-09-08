@@ -4,7 +4,7 @@ id: p_7Tia4RakEpFHiC5SDiDZSG
 status: active
 merged_into: null
 display_name: 王让
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_E8MK8EbyhqXYE21WkXB53z
             source_type: api_record
             title: 维基数据：王让（Q45561003）
@@ -110,7 +110,52 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_ditAnJAA3G8xFDxrcAiDNR
+        subject_person_id: p_vxysH4B8xpbAGBTVKY3Dh2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_7Tia4RakEpFHiC5SDiDZSG
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JArabU3KGRTYmNWE2ai1kM
+          claim_id: c_ditAnJAA3G8xFDxrcAiDNR
+          source_id: s_E8MK8EbyhqXYE21WkXB53z
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_TY7SDDcLga4yTBMS4rQKJZ
+          claim_id: c_ditAnJAA3G8xFDxrcAiDNR
+          source_id: s_FjWPqUA5b5EfEwFHzckW5s
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_FjWPqUA5b5EfEwFHzckW5s
+            source_type: api_record
+            title: 维基数据：王原道（Q45560451）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45560451
+            external_identifier: Q45560451
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:58.883Z
+            metadata_json: null
+      object_person:
+        id: p_vxysH4B8xpbAGBTVKY3Dh2
+        status: active
+        display_name: 王原道
+        merged_into_person_id: null
   children:
     - claim:
         id: c_1k2pZ7SSCQADE6CQeMCjaK
@@ -191,10 +236,12 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_vxysH4B8xpbAGBTVKY3Dh2 | 王原道 | accepted |
 | children | p_NPncefunYMmyKCiKheCMKZ | 王轼 | accepted |
 
 ## 外部来源
 
 - [维基数据：王让（Q45561003）](https://www.wikidata.org/wiki/Q45561003)
 - [维基数据：王轼（Q15912162）](https://www.wikidata.org/wiki/Q15912162)
+- [维基数据：王原道（Q45560451）](https://www.wikidata.org/wiki/Q45560451)
 - [CBDB 中国历代人物传记资料库：王讓（333155）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333155&o=json)

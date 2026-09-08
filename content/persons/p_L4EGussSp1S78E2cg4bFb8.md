@@ -4,7 +4,7 @@ id: p_L4EGussSp1S78E2cg4bFb8
 status: active
 merged_into: null
 display_name: 王鼎起
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_p2w83YiUhc75fnLrtBGGZS
             source_type: api_record
             title: 维基数据：王鼎起（Q45681016）
@@ -189,7 +189,60 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_V4ptnkH1JGb4cDAsd53d4m
+        subject_person_id: p_L4EGussSp1S78E2cg4bFb8
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_oFBJHaCWLu6UVxf3y38JLH
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hd5P15LVhLWHdhbwtKH7vF
+          claim_id: c_V4ptnkH1JGb4cDAsd53d4m
+          source_id: s_p2w83YiUhc75fnLrtBGGZS
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_8KAgSEhE9D12sPhLbBEhbx
+          claim_id: c_V4ptnkH1JGb4cDAsd53d4m
+          source_id: s_wiTzWZoDyPv5i7aun82ECg
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_wiTzWZoDyPv5i7aun82ECg
+            source_type: api_record
+            title: 维基数据：徐安吉（Q45680985）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45680985
+            external_identifier: Q45680985
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:07:21.813Z
+            metadata_json: null
+        - id: cs_Jr2yAt4RA7LRjw13TLWPxj
+          claim_id: c_V4ptnkH1JGb4cDAsd53d4m
+          source_id: s_dC4YTcf3cdC39ujaA33xmY
+          stance: supports
+          locator: 亲属关系：妻子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：明清婦女著作數據庫
+          source: *a1
+      object_person:
+        id: p_oFBJHaCWLu6UVxf3y38JLH
+        status: active
+        display_name: 徐安吉
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -211,10 +264,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_WgJjrR3eV8FZmEbV9t77oX | 王思任 | accepted |
+| spouses | p_oFBJHaCWLu6UVxf3y38JLH | 徐安吉 | accepted |
 
 ## 外部来源
 
 - [维基数据：王鼎起（Q45681016）](https://www.wikidata.org/wiki/Q45681016)
 - [维基数据：王思任（Q15938368）](https://www.wikidata.org/wiki/Q15938368)
+- [维基数据：徐安吉（Q45680985）](https://www.wikidata.org/wiki/Q45680985)
 - [CBDB 中国历代人物传记资料库：王鼎起（69771）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69771&o=json)
 - [CBDB 中国历代人物传记资料库：王思任（71875）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=71875&o=json)

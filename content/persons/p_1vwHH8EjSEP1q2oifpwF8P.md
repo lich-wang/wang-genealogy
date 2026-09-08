@@ -4,7 +4,7 @@ id: p_1vwHH8EjSEP1q2oifpwF8P
 status: active
 merged_into: null
 display_name: 王象春
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a1
             id: s_Y1XjPJB2E3sdU1bzkZCXWH
             source_type: api_record
             title: 维基数据：王象春（Q16260916）
@@ -174,7 +174,7 @@ properties:
           locator: Q16260916
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_XjxsW4fSFjTSLcgZb1nJFe
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：王象春（126731）
@@ -209,11 +209,262 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_BgQB5ozJnBttrdFeAxpENH
+        subject_person_id: p_5r1wESpKqnWgbhR5AChbjE
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_1vwHH8EjSEP1q2oifpwF8P
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_u3fyf1EHwF5hvaVkaW4ghV
+          claim_id: c_BgQB5ozJnBttrdFeAxpENH
+          source_id: s_4omftLuK67wUsCAnVU8byp
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_4omftLuK67wUsCAnVU8byp
+            source_type: api_record
+            title: 维基数据：王之猷（Q16075308）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q16075308
+            external_identifier: Q16075308
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:58.503Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%B9%8B%E7%8C%B7
+        - id: cs_FZNRr23DCZVaQ4VCnSeg73
+          claim_id: c_BgQB5ozJnBttrdFeAxpENH
+          source_id: s_Y1XjPJB2E3sdU1bzkZCXWH
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+      object_person:
+        id: p_5r1wESpKqnWgbhR5AChbjE
+        status: active
+        display_name: 王之猷
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_HhDvnz39PiiwwCtKs2rTMG
+        subject_person_id: p_1vwHH8EjSEP1q2oifpwF8P
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_SJszcC3GPqM5cNM4c1NSV1
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_LsmhUQmdiBY16snVoeGETi
+          claim_id: c_HhDvnz39PiiwwCtKs2rTMG
+          source_id: s_Y1XjPJB2E3sdU1bzkZCXWH
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_ZRx26nGq5Pn7wMrJqKSGf3
+          claim_id: c_HhDvnz39PiiwwCtKs2rTMG
+          source_id: s_UDginCNHsagCxU65FeUh3Y
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_UDginCNHsagCxU65FeUh3Y
+            source_type: api_record
+            title: 维基数据：王山立（Q16075287）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q16075287
+            external_identifier: Q16075287
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%B1%B1%E7%AB%8B
+      object_person:
+        id: p_SJszcC3GPqM5cNM4c1NSV1
+        status: active
+        display_name: 王山立
+        merged_into_person_id: null
+    - claim:
+        id: c_UveCzvMm14kYMRWdK45WiU
+        subject_person_id: p_1vwHH8EjSEP1q2oifpwF8P
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Jsqf6zQkwPaxjwq4HY5tQX
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Vc1X43GMWoPytoJx5fZzN6
+          claim_id: c_UveCzvMm14kYMRWdK45WiU
+          source_id: s_Y1XjPJB2E3sdU1bzkZCXWH
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_HXf6TUgUyunKjB7vDrhV17
+          claim_id: c_UveCzvMm14kYMRWdK45WiU
+          source_id: s_cq7yBPfNjhg37aQ7iv6sRP
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_cq7yBPfNjhg37aQ7iv6sRP
+            source_type: api_record
+            title: 维基数据：王与文（Q45461070）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45461070
+            external_identifier: Q45461070
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+        - id: cs_no447p5Q9fnAzU6oiVPKbX
+          claim_id: c_UveCzvMm14kYMRWdK45WiU
+          source_id: s_XjxsW4fSFjTSLcgZb1nJFe
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：萬曆三十八年庚戌科序齒錄:一卷
+          source: *a2
+      object_person:
+        id: p_Jsqf6zQkwPaxjwq4HY5tQX
+        status: active
+        display_name: 王与文
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_uwkJFeojkFMrnt1tHktEB6
+        subject_person_id: p_1vwHH8EjSEP1q2oifpwF8P
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_ASsdnhPYAoL9SLjnhJbTur
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_P4BneRuu9yAh29XMUi6yTF
+          claim_id: c_uwkJFeojkFMrnt1tHktEB6
+          source_id: s_Y1XjPJB2E3sdU1bzkZCXWH
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_7HNXB9mEht5dv2JU8m14ob
+          claim_id: c_uwkJFeojkFMrnt1tHktEB6
+          source_id: s_E9jYXywKJpJnEAP3XtES6A
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_E9jYXywKJpJnEAP3XtES6A
+            source_type: api_record
+            title: 维基数据：李氏（Q65837803）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q65837803
+            external_identifier: Q65837803
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+        - id: cs_GaBY2EFKcwTRRpUZ8guewx
+          claim_id: c_uwkJFeojkFMrnt1tHktEB6
+          source_id: s_XjxsW4fSFjTSLcgZb1nJFe
+          stance: supports
+          locator: 亲属关系：妻子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：萬曆三十八年庚戌科序齒錄:一卷
+          source: *a2
+      object_person:
+        id: p_ASsdnhPYAoL9SLjnhJbTur
+        status: active
+        display_name: 李氏
+        merged_into_person_id: null
+    - claim:
+        id: c_xXB8Rj7gbDRrV8kyRbQ2iB
+        subject_person_id: p_1vwHH8EjSEP1q2oifpwF8P
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_BLgoHxNpQaoz3KHbpCYtqP
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_v2KWBZBr13cGSqtiJmrvLo
+          claim_id: c_xXB8Rj7gbDRrV8kyRbQ2iB
+          source_id: s_Y1XjPJB2E3sdU1bzkZCXWH
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_CBBjXcsxD86DJRDEK8bFCj
+          claim_id: c_xXB8Rj7gbDRrV8kyRbQ2iB
+          source_id: s_DLnV5a3bEc8QDbtdRuuPio
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_DLnV5a3bEc8QDbtdRuuPio
+            source_type: api_record
+            title: 维基数据：许氏（Q65837810）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q65837810
+            external_identifier: Q65837810
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+        - id: cs_96CayXkmFhx9stH5pUcDPU
+          claim_id: c_xXB8Rj7gbDRrV8kyRbQ2iB
+          source_id: s_XjxsW4fSFjTSLcgZb1nJFe
+          stance: supports
+          locator: 亲属关系：第二任妻
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：萬曆三十八年庚戌科序齒錄:一卷
+          source: *a2
+      object_person:
+        id: p_BLgoHxNpQaoz3KHbpCYtqP
+        status: active
+        display_name: 许氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -236,9 +487,19 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_5r1wESpKqnWgbhR5AChbjE | 王之猷 | accepted |
+| children | p_SJszcC3GPqM5cNM4c1NSV1 | 王山立 | accepted |
+| children | p_Jsqf6zQkwPaxjwq4HY5tQX | 王与文 | accepted |
+| spouses | p_ASsdnhPYAoL9SLjnhJbTur | 李氏 | accepted |
+| spouses | p_BLgoHxNpQaoz3KHbpCYtqP | 许氏 | accepted |
 
 ## 外部来源
 
+- [维基数据：李氏（Q65837803）](https://www.wikidata.org/wiki/Q65837803)
+- [维基数据：王山立（Q16075287）](https://www.wikidata.org/wiki/Q16075287)
 - [维基数据：王象春（Q16260916）](https://www.wikidata.org/wiki/Q16260916)
+- [维基数据：王与文（Q45461070）](https://www.wikidata.org/wiki/Q45461070)
+- [维基数据：王之猷（Q16075308）](https://www.wikidata.org/wiki/Q16075308)
+- [维基数据：许氏（Q65837810）](https://www.wikidata.org/wiki/Q65837810)
 - [中文维基百科：王象春](https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%B1%A1%E6%98%A5)
 - [CBDB 中国历代人物传记资料库：王象春（126731）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126731&o=json)

@@ -4,7 +4,7 @@ id: p_oFBJHaCWLu6UVxf3y38JLH
 status: active
 merged_into: null
 display_name: 徐安吉
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -68,7 +68,7 @@ properties:
           locator: Q45680985
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_wiTzWZoDyPv5i7aun82ECg
             source_type: api_record
             title: 维基数据：徐安吉（Q45680985）
@@ -95,7 +95,71 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_V4ptnkH1JGb4cDAsd53d4m
+        subject_person_id: p_L4EGussSp1S78E2cg4bFb8
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_oFBJHaCWLu6UVxf3y38JLH
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hd5P15LVhLWHdhbwtKH7vF
+          claim_id: c_V4ptnkH1JGb4cDAsd53d4m
+          source_id: s_p2w83YiUhc75fnLrtBGGZS
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_p2w83YiUhc75fnLrtBGGZS
+            source_type: api_record
+            title: 维基数据：王鼎起（Q45681016）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45681016
+            external_identifier: Q45681016
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:00:14.436Z
+            metadata_json: null
+        - id: cs_8KAgSEhE9D12sPhLbBEhbx
+          claim_id: c_V4ptnkH1JGb4cDAsd53d4m
+          source_id: s_wiTzWZoDyPv5i7aun82ECg
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_Jr2yAt4RA7LRjw13TLWPxj
+          claim_id: c_V4ptnkH1JGb4cDAsd53d4m
+          source_id: s_dC4YTcf3cdC39ujaA33xmY
+          stance: supports
+          locator: 亲属关系：妻子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：明清婦女著作數據庫
+          source:
+            id: s_dC4YTcf3cdC39ujaA33xmY
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王鼎起（69771）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69771&o=json
+            external_identifier: CBDB:69771
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:00:14.582Z
+            metadata_json: null
+      object_person:
+        id: p_L4EGussSp1S78E2cg4bFb8
+        status: active
+        display_name: 王鼎起
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -116,8 +180,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_L4EGussSp1S78E2cg4bFb8 | 王鼎起 | accepted |
 
 ## 外部来源
 
+- [维基数据：王鼎起（Q45681016）](https://www.wikidata.org/wiki/Q45681016)
 - [维基数据：徐安吉（Q45680985）](https://www.wikidata.org/wiki/Q45680985)
+- [CBDB 中国历代人物传记资料库：王鼎起（69771）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69771&o=json)
 - [CBDB 中国历代人物传记资料库：徐安吉（69770）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69770&o=json)

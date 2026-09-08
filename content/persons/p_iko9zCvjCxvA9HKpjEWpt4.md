@@ -4,7 +4,7 @@ id: p_iko9zCvjCxvA9HKpjEWpt4
 status: active
 merged_into: null
 display_name: 王象恒
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a1
             id: s_Jh59dCbMpghFUoJALitq8C
             source_type: api_record
             title: 维基数据：王象恒（Q15940995）
@@ -123,7 +123,53 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_roAuXBF9e21srCYxze7jAM
+        subject_person_id: p_5r1wESpKqnWgbhR5AChbjE
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_iko9zCvjCxvA9HKpjEWpt4
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_RV9cKJ9mveQ34mPkgy6Yyh
+          claim_id: c_roAuXBF9e21srCYxze7jAM
+          source_id: s_4omftLuK67wUsCAnVU8byp
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_4omftLuK67wUsCAnVU8byp
+            source_type: api_record
+            title: 维基数据：王之猷（Q16075308）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q16075308
+            external_identifier: Q16075308
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:58.503Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%B9%8B%E7%8C%B7
+        - id: cs_3u8jHQAJXU9vNg5n3rsovC
+          claim_id: c_roAuXBF9e21srCYxze7jAM
+          source_id: s_Jh59dCbMpghFUoJALitq8C
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+      object_person:
+        id: p_5r1wESpKqnWgbhR5AChbjE
+        status: active
+        display_name: 王之猷
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -148,9 +194,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_5r1wESpKqnWgbhR5AChbjE | 王之猷 | accepted |
 
 ## 外部来源
 
 - [维基数据：王象恒（Q15940995）](https://www.wikidata.org/wiki/Q15940995)
+- [维基数据：王之猷（Q16075308）](https://www.wikidata.org/wiki/Q16075308)
 - [中文维基百科：王象恒](https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%B1%A1%E6%81%92)
 - [CBDB 中国历代人物传记资料库：王象恆（126730）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126730&o=json)

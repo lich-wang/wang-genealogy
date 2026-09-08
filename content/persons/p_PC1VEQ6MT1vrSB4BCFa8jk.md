@@ -4,7 +4,7 @@ id: p_PC1VEQ6MT1vrSB4BCFa8jk
 status: active
 merged_into: null
 display_name: 王恭人
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_MDktQvY6jwNeC7vJ4gcNVB
             source_type: api_record
             title: 维基数据：王恭人（Q45416835）
@@ -194,11 +194,129 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_F56naWbFgUm4rZTxSWKZgb
+        subject_person_id: p_WvKfEJB5FudMr9CF2R37Ax
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_PC1VEQ6MT1vrSB4BCFa8jk
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Q17sRSsu4PF1TGE1UkPo9H
+          claim_id: c_F56naWbFgUm4rZTxSWKZgb
+          source_id: s_a4bD51jBpZiPTMphzDAYH2
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_a4bD51jBpZiPTMphzDAYH2
+            source_type: api_record
+            title: 维基数据：王尔达（Q45416836）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45416836
+            external_identifier: Q45416836
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:15.427Z
+            metadata_json: null
+        - id: cs_etpVUuiGaW3FEU8aryUGK6
+          claim_id: c_F56naWbFgUm4rZTxSWKZgb
+          source_id: s_MDktQvY6jwNeC7vJ4gcNVB
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_fm9k46mwbJvxwByoq3J1Ex
+          claim_id: c_F56naWbFgUm4rZTxSWKZgb
+          source_id: s_29nQCsbSMZCEmFW5CiPAM1
+          stance: supports
+          locator: 亲属关系：女兒
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：未知
+          source:
+            id: s_29nQCsbSMZCEmFW5CiPAM1
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王爾達（29897）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=29897&o=json
+            external_identifier: CBDB:29897
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:59:15.617Z
+            metadata_json: null
+      object_person:
+        id: p_WvKfEJB5FudMr9CF2R37Ax
+        status: active
+        display_name: 王尔达
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_CuYwRT7XLtGvVFynNLvReU
+        subject_person_id: p_dnPtsKEtjAp3Do6nrbinqW
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_PC1VEQ6MT1vrSB4BCFa8jk
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_u7B4dNq93QmAZeCPpBh4Zz
+          claim_id: c_CuYwRT7XLtGvVFynNLvReU
+          source_id: s_MDktQvY6jwNeC7vJ4gcNVB
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_GUh4ZZWLZSiEm6fL8dUwUX
+          claim_id: c_CuYwRT7XLtGvVFynNLvReU
+          source_id: s_dYAE54FmUNRPo5AtB1YWTG
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_dYAE54FmUNRPo5AtB1YWTG
+            source_type: api_record
+            title: 维基数据：钱大昕（Q7267607）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q7267607
+            external_identifier: Q7267607
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E9%92%B1%E5%A4%A7%E6%98%95
+        - id: cs_uVAK23mdJwC7WxiKBEWgpk
+          claim_id: c_CuYwRT7XLtGvVFynNLvReU
+          source_id: s_jZB5k3KHwHVFfuJ247VX9g
+          stance: supports
+          locator: 亲属关系：丈夫
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：未知
+          source: *a1
+      object_person:
+        id: p_dnPtsKEtjAp3Do6nrbinqW
+        status: active
+        display_name: 钱大昕
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -221,8 +339,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_WvKfEJB5FudMr9CF2R37Ax | 王尔达 | accepted |
+| spouses | p_dnPtsKEtjAp3Do6nrbinqW | 钱大昕 | accepted |
 
 ## 外部来源
 
+- [维基数据：钱大昕（Q7267607）](https://www.wikidata.org/wiki/Q7267607)
+- [维基数据：王尔达（Q45416836）](https://www.wikidata.org/wiki/Q45416836)
 - [维基数据：王恭人（Q45416835）](https://www.wikidata.org/wiki/Q45416835)
+- [CBDB 中国历代人物传记资料库：王爾達（29897）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=29897&o=json)
 - [CBDB 中国历代人物传记资料库：王恭人（29896）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=29896&o=json)

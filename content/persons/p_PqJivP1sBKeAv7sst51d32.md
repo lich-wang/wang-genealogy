@@ -4,7 +4,7 @@ id: p_PqJivP1sBKeAv7sst51d32
 status: active
 merged_into: null
 display_name: 王士祜
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a1
             id: s_EE6bTzfXwN8BLtVCYVGxWV
             source_type: api_record
             title: 维基数据：王士祜（Q16077592）
@@ -174,7 +174,7 @@ properties:
           locator: Q16077592
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_FRxccvFRg6gk5acJEUQ2R5
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：王士祜（35062）
@@ -209,8 +209,105 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_G1LvyK6vC5vB9PE45bEJXJ
+        subject_person_id: p_M6u6h5w5R3AY6pHo7M3ELf
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_PqJivP1sBKeAv7sst51d32
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Cv769yfd8NGGqa3LUG9hv3
+          claim_id: c_G1LvyK6vC5vB9PE45bEJXJ
+          source_id: s_EE6bTzfXwN8BLtVCYVGxWV
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_3p96Cmqxw7gFwE4UWdT7kC
+          claim_id: c_G1LvyK6vC5vB9PE45bEJXJ
+          source_id: s_1P6uHaLBUJeeFpRT7FqUrq
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_1P6uHaLBUJeeFpRT7FqUrq
+            source_type: api_record
+            title: 维基数据：王与敕（Q45473606）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45473606
+            external_identifier: Q45473606
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:07.604Z
+            metadata_json: null
+      object_person:
+        id: p_M6u6h5w5R3AY6pHo7M3ELf
+        status: active
+        display_name: 王与敕
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_yWoPbG78zradEZ17osDxHv
+        subject_person_id: p_PqJivP1sBKeAv7sst51d32
+        claim_kind: relationship
+        predicate: kinship.parent_of
+        object_person_id: p_pUXdNRAD1FvX6k67eRhUyH
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8E1m3zgMk8nWbAUS1m4k98
+          claim_id: c_yWoPbG78zradEZ17osDxHv
+          source_id: s_FRxccvFRg6gk5acJEUQ2R5
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：人名權威資料（中央研究院歷史語言研究所）
+          source: *a2
+      object_person:
+        id: p_pUXdNRAD1FvX6k67eRhUyH
+        status: active
+        display_name: 王啟㴶
+        merged_into_person_id: null
+    - claim:
+        id: c_A91ZSqK5BFgZ6h321GbbnV
+        subject_person_id: p_PqJivP1sBKeAv7sst51d32
+        claim_kind: relationship
+        predicate: kinship.parent_of
+        object_person_id: p_RjENWQr8d6VRj3m6fLhm2i
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Jck9cDBcGeSCNrsr5NTarJ
+          claim_id: c_A91ZSqK5BFgZ6h321GbbnV
+          source_id: s_FRxccvFRg6gk5acJEUQ2R5
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：人名權威資料（中央研究院歷史語言研究所）
+          source: *a2
+      object_person:
+        id: p_RjENWQr8d6VRj3m6fLhm2i
+        status: active
+        display_name: 王啟涫
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -236,9 +333,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_M6u6h5w5R3AY6pHo7M3ELf | 王与敕 | accepted |
+| children | p_pUXdNRAD1FvX6k67eRhUyH | 王啟㴶 | accepted |
+| children | p_RjENWQr8d6VRj3m6fLhm2i | 王啟涫 | accepted |
 
 ## 外部来源
 
 - [维基数据：王士祜（Q16077592）](https://www.wikidata.org/wiki/Q16077592)
+- [维基数据：王与敕（Q45473606）](https://www.wikidata.org/wiki/Q45473606)
 - [中文维基百科：王士祜](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A3%AB%E7%A5%9C)
 - [CBDB 中国历代人物传记资料库：王士祜（35062）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35062&o=json)

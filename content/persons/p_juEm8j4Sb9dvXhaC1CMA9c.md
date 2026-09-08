@@ -4,7 +4,7 @@ id: p_juEm8j4Sb9dvXhaC1CMA9c
 status: active
 merged_into: null
 display_name: 向敏中
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: 导言
           quotation: 向敏中（949年—1020年），字常之，開封人，北宋大臣，官至宰
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
-          source:
+          source: &a1
             id: s_dV5C6vX8OnshhwhJU34Pxl
             source_type: website
             title: 中文维基百科：向敏中
@@ -107,7 +107,71 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_ZuXPuiaYHUcV8588feQMkN
+        subject_person_id: p_juEm8j4Sb9dvXhaC1CMA9c
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_xyPtAQ7AR8yTpy2qwHiGWa
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KZqMGzvbrFtnZZBRpeHnVx
+          claim_id: c_ZuXPuiaYHUcV8588feQMkN
+          source_id: s_DkRGP27FpX8V7aNdqGSGon
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_DkRGP27FpX8V7aNdqGSGon
+            source_type: api_record
+            title: 维基数据：王氏（Q45434499）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45434499
+            external_identifier: Q45434499
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:00:09.271Z
+            metadata_json: null
+        - id: cs_jBZHoSVu3913yfEJtB4QBr
+          claim_id: c_ZuXPuiaYHUcV8588feQMkN
+          source_id: s_dV5C6vX8OnshhwhJU34Pxl
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_psrPB4mgRZkiwQhsRnwvpC
+          claim_id: c_ZuXPuiaYHUcV8588feQMkN
+          source_id: s_rinUBvPiEE2sXPXgwXBiwm
+          stance: supports
+          locator: 亲属关系：丈夫
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：宋人傳記資料索引(電子版)
+          source:
+            id: s_rinUBvPiEE2sXPXgwXBiwm
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王氏（39733）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=39733&o=json
+            external_identifier: CBDB:39733
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:00:09.443Z
+            metadata_json: null
+      object_person:
+        id: p_xyPtAQ7AR8yTpy2qwHiGWa
+        status: active
+        display_name: 王氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -128,9 +192,12 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_xyPtAQ7AR8yTpy2qwHiGWa | 王氏 | accepted |
 
 ## 外部来源
 
+- [维基数据：王氏（Q45434499）](https://www.wikidata.org/wiki/Q45434499)
 - [维基数据：向敏中（Q10918129）](https://www.wikidata.org/wiki/Q10918129)
 - [中文维基百科：向敏中](https://zh.wikipedia.org/wiki/%E5%90%91%E6%95%8F%E4%B8%AD)
+- [CBDB 中国历代人物传记资料库：王氏（39733）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=39733&o=json)
 - [CBDB 中国历代人物传记资料库：向敏中（705）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=705&o=json)

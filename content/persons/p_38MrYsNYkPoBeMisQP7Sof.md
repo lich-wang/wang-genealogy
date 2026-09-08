@@ -4,7 +4,7 @@ id: p_38MrYsNYkPoBeMisQP7Sof
 status: active
 merged_into: null
 display_name: 王经
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -30,7 +30,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_FdcsjYhgoT5aEMKGbVeF8a
             source_type: api_record
             title: 维基数据：王经（Q45553378）
@@ -155,7 +155,52 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_iu6s5QWBeF2xcBFZ5HHdLV
+        subject_person_id: p_reuJ3Gy5K3tzEUt9VByf69
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_38MrYsNYkPoBeMisQP7Sof
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kh2bSe5gJD8xckrQs3CpNj
+          claim_id: c_iu6s5QWBeF2xcBFZ5HHdLV
+          source_id: s_FdcsjYhgoT5aEMKGbVeF8a
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_1nY5exnsx7k87Pvg9ggsT6
+          claim_id: c_iu6s5QWBeF2xcBFZ5HHdLV
+          source_id: s_c1k2mMQxS2K1rhz5KsbitG
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_c1k2mMQxS2K1rhz5KsbitG
+            source_type: api_record
+            title: 维基数据：王理（Q45448352）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45448352
+            external_identifier: Q45448352
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:18.752Z
+            metadata_json: null
+      object_person:
+        id: p_reuJ3Gy5K3tzEUt9VByf69
+        status: active
+        display_name: 王理
+        merged_into_person_id: null
   children:
     - claim:
         id: c_HtZhsrYQ7UuPb6GcHjBDGM
@@ -216,7 +261,60 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_JQ1PJ16hMTvLGaUeXB8Hnv
+        subject_person_id: p_38MrYsNYkPoBeMisQP7Sof
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_bb58h5qHPT8SmjUn6k6pDy
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FWCmrG2ZfLDntf1eKQsQpZ
+          claim_id: c_JQ1PJ16hMTvLGaUeXB8Hnv
+          source_id: s_FdcsjYhgoT5aEMKGbVeF8a
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source: *a2
+        - id: cs_cw6L9GosMsn2zs2KV28FTN
+          claim_id: c_JQ1PJ16hMTvLGaUeXB8Hnv
+          source_id: s_ZUFtHbEdRzzD45azR6mv5z
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_ZUFtHbEdRzzD45azR6mv5z
+            source_type: api_record
+            title: 维基数据：陆氏（Q65818538）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q65818538
+            external_identifier: Q65818538
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:18.752Z
+            metadata_json: null
+        - id: cs_8pA1AT7avxKLsbvdZZAfcv
+          claim_id: c_JQ1PJ16hMTvLGaUeXB8Hnv
+          source_id: s_ZYSuVXhQ51wXx8FMPigG2D
+          stance: supports
+          locator: 亲属关系：妻子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：弘治三年進士登科錄:一卷
+          source: *a1
+      object_person:
+        id: p_bb58h5qHPT8SmjUn6k6pDy
+        status: active
+        display_name: 陆氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -238,10 +336,14 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_reuJ3Gy5K3tzEUt9VByf69 | 王理 | accepted |
 | children | p_aXikAW5GmUNHUB4Mexh2vK | 王龙溪 | accepted |
+| spouses | p_bb58h5qHPT8SmjUn6k6pDy | 陆氏 | accepted |
 
 ## 外部来源
 
+- [维基数据：陆氏（Q65818538）](https://www.wikidata.org/wiki/Q65818538)
 - [维基数据：王经（Q45553378）](https://www.wikidata.org/wiki/Q45553378)
+- [维基数据：王理（Q45448352）](https://www.wikidata.org/wiki/Q45448352)
 - [维基数据：王龙溪（Q11573179）](https://www.wikidata.org/wiki/Q11573179)
 - [CBDB 中国历代人物传记资料库：王經（200712）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200712&o=json)

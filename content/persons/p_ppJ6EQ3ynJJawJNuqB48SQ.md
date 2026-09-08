@@ -4,7 +4,7 @@ id: p_ppJ6EQ3ynJJawJNuqB48SQ
 status: active
 merged_into: null
 display_name: 王氏
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -92,7 +92,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_mx2HMv8Jbn4nfdtBSNXp9d
+        subject_person_id: p_ppJ6EQ3ynJJawJNuqB48SQ
+        claim_kind: relationship
+        predicate: kinship.parent_of
+        object_person_id: p_dpxJ79yjeoZcbwCdkzQmv6
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_LxPykWYPqQY9S8cF4de1Bm
+          claim_id: c_mx2HMv8Jbn4nfdtBSNXp9d
+          source_id: s_cKaGAqc6XaeHmPKaBA7UBg
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+      object_person:
+        id: p_dpxJ79yjeoZcbwCdkzQmv6
+        status: active
+        display_name: 王珪
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -116,6 +142,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_dpxJ79yjeoZcbwCdkzQmv6 | 王珪 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_EP4PqN7524Z7izDZZrdxRb
 status: active
 merged_into: null
 display_name: 王图炜
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -226,7 +226,72 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_m3V8N7e3zfPHPhsLT676rE
+        subject_person_id: p_EP4PqN7524Z7izDZZrdxRb
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_FGUECt8UEJVxrFA7xCMHw4
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_b3jZnA3EKw3B5reMZTHo6P
+          claim_id: c_m3V8N7e3zfPHPhsLT676rE
+          source_id: s_Y4nNKnvPxM2f8ATUiGJ3W8
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_Y4nNKnvPxM2f8ATUiGJ3W8
+            source_type: api_record
+            title: 维基数据：王图炜（Q45676566）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45676566
+            external_identifier: Q45676566
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:40.609Z
+            metadata_json: null
+        - id: cs_ndZjCN6vqyQ84681LYkk4E
+          claim_id: c_m3V8N7e3zfPHPhsLT676rE
+          source_id: s_MojCG7X1RTSvLZ34KBKmbp
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_MojCG7X1RTSvLZ34KBKmbp
+            source_type: api_record
+            title: 维基数据：蒋季锡（Q16076435）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q16076435
+            external_identifier: Q16076435
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:52.050Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E8%94%A3%E5%AD%A3%E9%8C%AB
+        - id: cs_s7c6RCUMsF4DTBgvLDrpQD
+          claim_id: c_m3V8N7e3zfPHPhsLT676rE
+          source_id: s_QnxKVSMA7aD6BcY9DgUy7u
+          stance: supports
+          locator: 亲属关系：妻子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：明清婦女著作數據庫
+          source: *a1
+      object_person:
+        id: p_FGUECt8UEJVxrFA7xCMHw4
+        status: active
+        display_name: 蒋季锡
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -249,9 +314,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_CzTWpHL7Ygd6jZ5FnFr3gg | 王鸿绪 | accepted |
 | children | p_Up9d2jsG7MN3j1HmuzDtHo | 王兴吾 | accepted |
+| spouses | p_FGUECt8UEJVxrFA7xCMHw4 | 蒋季锡 | accepted |
 
 ## 外部来源
 
+- [维基数据：蒋季锡（Q16076435）](https://www.wikidata.org/wiki/Q16076435)
 - [维基数据：王鸿绪（Q15913275）](https://www.wikidata.org/wiki/Q15913275)
 - [维基数据：王图炜（Q45676566）](https://www.wikidata.org/wiki/Q45676566)
 - [维基数据：王兴吾（Q15931809）](https://www.wikidata.org/wiki/Q15931809)

@@ -4,7 +4,7 @@ id: p_bVznNBP2hMh6tDWAzv1nG9
 status: active
 merged_into: null
 display_name: 王钻
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -110,7 +110,63 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_VDS1CA9pGmScdCZTd9dY9a
+        subject_person_id: p_snnHYhecDpk5HZ7B1gQ1jo
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_bVznNBP2hMh6tDWAzv1nG9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4iTzFjikT9J12zUTV9Kwrd
+          claim_id: c_VDS1CA9pGmScdCZTd9dY9a
+          source_id: s_eD7NLF6NGLJdx2pWAXc9KE
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_eD7NLF6NGLJdx2pWAXc9KE
+            source_type: api_record
+            title: 维基数据：王钻（Q45476540）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45476540
+            external_identifier: Q45476540
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:38.937Z
+            metadata_json: null
+        - id: cs_kH5yHLKkhLQACUGeEDqTMv
+          claim_id: c_VDS1CA9pGmScdCZTd9dY9a
+          source_id: s_BpgY9e7UVYQnxYEkXLzmPM
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_BpgY9e7UVYQnxYEkXLzmPM
+            source_type: api_record
+            title: 维基数据：王琏（Q45476476）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45476476
+            external_identifier: Q45476476
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:57.484Z
+            metadata_json: null
+      object_person:
+        id: p_snnHYhecDpk5HZ7B1gQ1jo
+        status: active
+        display_name: 王琏
+        merged_into_person_id: null
   children:
     - claim:
         id: c_VCiHZEAoSLTMHEQ51TrfBj
@@ -191,10 +247,12 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_snnHYhecDpk5HZ7B1gQ1jo | 王琏 | accepted |
 | children | p_3SWv8LY5fsb1rb4ZwewsLo | 王时中 | accepted |
 
 ## 外部来源
 
+- [维基数据：王琏（Q45476476）](https://www.wikidata.org/wiki/Q45476476)
 - [维基数据：王时中（Q15913916）](https://www.wikidata.org/wiki/Q15913916)
 - [维基数据：王钻（Q45476540）](https://www.wikidata.org/wiki/Q45476540)
 - [CBDB 中国历代人物传记资料库：王鑽（262449）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262449&o=json)

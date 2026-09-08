@@ -4,7 +4,7 @@ id: p_9mXC5Vf3jEyoF6c6eS5VsK
 status: active
 merged_into: null
 display_name: 张氏
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -95,7 +95,71 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_ztBBKW1Ja3iU19c5EcX9Te
+        subject_person_id: p_9mXC5Vf3jEyoF6c6eS5VsK
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_dugn9Y5GC1ysVBtTRs2WLM
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_TjyMSnKQfAT5T5axK8AgZ1
+          claim_id: c_ztBBKW1Ja3iU19c5EcX9Te
+          source_id: s_QvBFGAPqTXthL9LjsDRAhW
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_QvBFGAPqTXthL9LjsDRAhW
+            source_type: api_record
+            title: 维基数据：王纲（Q45401648）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45401648
+            external_identifier: Q45401648
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:00:17.572Z
+            metadata_json: null
+        - id: cs_ZfWPipC5wmEtJJrBYhABDs
+          claim_id: c_ztBBKW1Ja3iU19c5EcX9Te
+          source_id: s_no1HoVtuS1GP5NCKePeCMx
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source: *a1
+        - id: cs_bZsPUeB548pkUj2yb9MDew
+          claim_id: c_ztBBKW1Ja3iU19c5EcX9Te
+          source_id: s_v42oFBFgLwNyQFyKbPQrCY
+          stance: supports
+          locator: 亲属关系：妻子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：宋人傳記資料索引(電子版)
+          source:
+            id: s_v42oFBFgLwNyQFyKbPQrCY
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王綱（21993）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=21993&o=json
+            external_identifier: CBDB:21993
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:00:17.739Z
+            metadata_json: null
+      object_person:
+        id: p_dugn9Y5GC1ysVBtTRs2WLM
+        status: active
+        display_name: 王纲
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -116,8 +180,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_dugn9Y5GC1ysVBtTRs2WLM | 王纲 | accepted |
 
 ## 外部来源
 
+- [维基数据：王纲（Q45401648）](https://www.wikidata.org/wiki/Q45401648)
 - [维基数据：张氏（Q45429472）](https://www.wikidata.org/wiki/Q45429472)
+- [CBDB 中国历代人物传记资料库：王綱（21993）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=21993&o=json)
 - [CBDB 中国历代人物传记资料库：張氏（37848）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37848&o=json)
