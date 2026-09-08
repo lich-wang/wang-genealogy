@@ -4,6 +4,7 @@ id: p_oWKPrdFpk8uWf8iXGuzqMB
 status: active
 merged_into: null
 display_name: 王原清
+cbdb_id: 237457
 revision: 1
 properties:
   - predicate: bio.summary

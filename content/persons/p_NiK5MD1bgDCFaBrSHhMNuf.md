@@ -4,6 +4,7 @@ id: p_NiK5MD1bgDCFaBrSHhMNuf
 status: active
 merged_into: null
 display_name: 王取法
+cbdb_id: 414026
 revision: 1
 properties:
   - predicate: bio.summary

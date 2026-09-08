@@ -4,6 +4,7 @@ id: p_u1NmM7fQQgW362iDWCbBBD
 status: active
 merged_into: null
 display_name: 王鴻鈞
+cbdb_id: 415646
 revision: 1
 properties:
   - predicate: bio.summary

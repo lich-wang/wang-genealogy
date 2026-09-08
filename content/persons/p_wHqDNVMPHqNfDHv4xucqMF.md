@@ -4,6 +4,7 @@ id: p_wHqDNVMPHqNfDHv4xucqMF
 status: active
 merged_into: null
 display_name: 王留孙
+cbdb_id: 35271
 revision: 1
 properties:
   - predicate: bio.summary

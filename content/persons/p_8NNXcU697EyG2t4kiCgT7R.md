@@ -4,6 +4,7 @@ id: p_8NNXcU697EyG2t4kiCgT7R
 status: active
 merged_into: null
 display_name: 王獻葵
+cbdb_id: 293685
 revision: 1
 properties:
   - predicate: bio.summary

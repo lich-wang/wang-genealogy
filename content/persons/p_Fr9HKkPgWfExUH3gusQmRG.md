@@ -4,6 +4,7 @@ id: p_Fr9HKkPgWfExUH3gusQmRG
 status: active
 merged_into: null
 display_name: 王嗣文
+cbdb_id: 175571
 revision: 1
 properties:
   - predicate: bio.summary

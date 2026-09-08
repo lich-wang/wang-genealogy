@@ -4,6 +4,7 @@ id: p_zTHDBKTYtojZUZX19msBqV
 status: active
 merged_into: null
 display_name: 王清彥
+cbdb_id: 415029
 revision: 1
 properties:
   - predicate: bio.summary

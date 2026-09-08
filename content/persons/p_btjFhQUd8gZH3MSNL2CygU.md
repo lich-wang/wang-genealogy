@@ -4,6 +4,7 @@ id: p_btjFhQUd8gZH3MSNL2CygU
 status: active
 merged_into: null
 display_name: 王貌
+cbdb_id: 241845
 revision: 1
 properties:
   - predicate: bio.summary

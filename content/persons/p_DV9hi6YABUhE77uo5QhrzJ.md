@@ -4,6 +4,7 @@ id: p_DV9hi6YABUhE77uo5QhrzJ
 status: active
 merged_into: null
 display_name: 王槐兆
+cbdb_id: 299908
 revision: 1
 properties:
   - predicate: bio.summary

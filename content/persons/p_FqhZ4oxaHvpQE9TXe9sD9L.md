@@ -4,6 +4,7 @@ id: p_FqhZ4oxaHvpQE9TXe9sD9L
 status: active
 merged_into: null
 display_name: 王邦秀
+cbdb_id: 214610
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_PNJPFD5nVMm5k2LdWkrch1
 status: active
 merged_into: null
 display_name: 王可臣
+cbdb_id: 69137
 revision: 1
 properties:
   - predicate: bio.summary

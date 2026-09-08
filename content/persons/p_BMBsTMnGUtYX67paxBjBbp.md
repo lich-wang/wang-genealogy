@@ -4,6 +4,7 @@ id: p_BMBsTMnGUtYX67paxBjBbp
 status: active
 merged_into: null
 display_name: 王正生
+cbdb_id: 414921
 revision: 1
 properties:
   - predicate: bio.summary

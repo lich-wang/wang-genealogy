@@ -4,6 +4,7 @@ id: p_wBkn7u19FC3HNvu9wh6NRy
 status: active
 merged_into: null
 display_name: 王廷潤
+cbdb_id: 414468
 revision: 1
 properties:
   - predicate: bio.summary

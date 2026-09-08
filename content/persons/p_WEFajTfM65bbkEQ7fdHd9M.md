@@ -4,6 +4,7 @@ id: p_WEFajTfM65bbkEQ7fdHd9M
 status: active
 merged_into: null
 display_name: 王追駿
+cbdb_id: 342819
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_VntEbTcYC2MHbNDtxMRp5s
 status: active
 merged_into: null
 display_name: 王鯉翔
+cbdb_id: 415629
 revision: 1
 properties:
   - predicate: bio.summary

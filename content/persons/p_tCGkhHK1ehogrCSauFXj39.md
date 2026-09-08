@@ -4,6 +4,7 @@ id: p_tCGkhHK1ehogrCSauFXj39
 status: active
 merged_into: null
 display_name: 王晤微
+cbdb_id: 153387
 revision: 1
 properties:
   - predicate: bio.summary

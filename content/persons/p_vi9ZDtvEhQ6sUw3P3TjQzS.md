@@ -4,6 +4,7 @@ id: p_vi9ZDtvEhQ6sUw3P3TjQzS
 status: active
 merged_into: null
 display_name: 王鞏謙
+cbdb_id: 255904
 revision: 1
 properties:
   - predicate: bio.summary

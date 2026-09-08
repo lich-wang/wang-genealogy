@@ -4,6 +4,7 @@ id: p_9n28LfCYzwUvQ8GUon9qz7
 status: active
 merged_into: null
 display_name: 王孝源
+cbdb_id: 175589
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_tB2GKH36Qa99v4obBzfSMp
 status: active
 merged_into: null
 display_name: 王胤勤
+cbdb_id: 281438
 revision: 1
 properties:
   - predicate: bio.summary

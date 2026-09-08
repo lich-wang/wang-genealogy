@@ -4,6 +4,7 @@ id: p_L6MffTwncKfEpsAnUaiRaN
 status: active
 merged_into: null
 display_name: 王子猷
+cbdb_id: 45869
 revision: 1
 properties:
   - predicate: bio.summary

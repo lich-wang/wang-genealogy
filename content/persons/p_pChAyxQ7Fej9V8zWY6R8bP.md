@@ -4,6 +4,7 @@ id: p_pChAyxQ7Fej9V8zWY6R8bP
 status: active
 merged_into: null
 display_name: 王周緒
+cbdb_id: 97830
 revision: 1
 properties:
   - predicate: bio.summary

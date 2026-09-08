@@ -4,6 +4,7 @@ id: p_wrdhLZeCvH9L1aGLKPq3H1
 status: active
 merged_into: null
 display_name: 王如忠
+cbdb_id: 526020
 revision: 1
 properties:
   - predicate: bio.summary

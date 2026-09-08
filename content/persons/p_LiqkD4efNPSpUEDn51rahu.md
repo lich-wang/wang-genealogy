@@ -4,6 +4,7 @@ id: p_LiqkD4efNPSpUEDn51rahu
 status: active
 merged_into: null
 display_name: 王用榮
+cbdb_id: 335481
 revision: 1
 properties:
   - predicate: bio.summary

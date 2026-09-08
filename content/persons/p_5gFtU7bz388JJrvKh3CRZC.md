@@ -4,6 +4,7 @@ id: p_5gFtU7bz388JJrvKh3CRZC
 status: active
 merged_into: null
 display_name: 王碧瑩
+cbdb_id: 56419
 revision: 1
 properties:
   - predicate: bio.summary

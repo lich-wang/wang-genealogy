@@ -4,6 +4,7 @@ id: p_LFjdt9p5AsmDgzGet1fXc3
 status: active
 merged_into: null
 display_name: 王广渊
+cbdb_id: 1844
 revision: 2
 properties:
   - predicate: bio.summary

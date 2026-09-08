@@ -4,6 +4,7 @@ id: p_5fnkjXHQEdCpfBm2zMJMVo
 status: active
 merged_into: null
 display_name: 王吉老
+cbdb_id: 38738
 revision: 1
 properties:
   - predicate: bio.summary

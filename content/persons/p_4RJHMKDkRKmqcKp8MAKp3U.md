@@ -4,6 +4,7 @@ id: p_4RJHMKDkRKmqcKp8MAKp3U
 status: active
 merged_into: null
 display_name: 王學誥
+cbdb_id: 316262
 revision: 1
 properties:
   - predicate: bio.summary

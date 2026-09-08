@@ -4,6 +4,7 @@ id: p_VkxgZYWLMsXYRaYbcyUxag
 status: active
 merged_into: null
 display_name: 王勒爾敬安
+cbdb_id: 513258
 revision: 1
 properties:
   - predicate: bio.summary

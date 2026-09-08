@@ -4,6 +4,7 @@ id: p_jcy22bxAQUFAfeVxtaPc8j
 status: active
 merged_into: null
 display_name: 王安稚
+cbdb_id: 23403
 revision: 1
 properties:
   - predicate: bio.summary

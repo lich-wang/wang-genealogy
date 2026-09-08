@@ -4,6 +4,7 @@ id: p_C9XqXrkBaL4jBmY1D3c9zs
 status: active
 merged_into: null
 display_name: 王汝漢
+cbdb_id: 342725
 revision: 1
 properties:
   - predicate: bio.summary

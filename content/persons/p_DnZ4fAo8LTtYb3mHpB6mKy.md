@@ -4,6 +4,7 @@ id: p_DnZ4fAo8LTtYb3mHpB6mKy
 status: active
 merged_into: null
 display_name: 王洽民
+cbdb_id: 209987
 revision: 1
 properties:
   - predicate: bio.summary

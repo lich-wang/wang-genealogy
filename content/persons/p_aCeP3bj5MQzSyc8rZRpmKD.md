@@ -4,6 +4,7 @@ id: p_aCeP3bj5MQzSyc8rZRpmKD
 status: active
 merged_into: null
 display_name: 王樂耕
+cbdb_id: 238431
 revision: 1
 properties:
   - predicate: bio.summary

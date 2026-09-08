@@ -4,6 +4,7 @@ id: p_jY29584kSZB2w8eV53SQDi
 status: active
 merged_into: null
 display_name: 王堯民
+cbdb_id: 342961
 revision: 1
 properties:
   - predicate: bio.summary

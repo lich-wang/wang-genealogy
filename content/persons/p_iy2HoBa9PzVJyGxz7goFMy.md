@@ -4,6 +4,7 @@ id: p_iy2HoBa9PzVJyGxz7goFMy
 status: active
 merged_into: null
 display_name: 王良嗣
+cbdb_id: 415331
 revision: 1
 properties:
   - predicate: bio.summary

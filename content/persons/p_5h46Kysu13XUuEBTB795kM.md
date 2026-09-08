@@ -4,6 +4,7 @@ id: p_5h46Kysu13XUuEBTB795kM
 status: active
 merged_into: null
 display_name: 王隆道
+cbdb_id: 343610
 revision: 1
 properties:
   - predicate: bio.summary

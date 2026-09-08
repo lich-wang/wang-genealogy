@@ -4,6 +4,7 @@ id: p_HQy7vtEDUTxgNWHNN2RZwr
 status: active
 merged_into: null
 display_name: 王汝祐
+cbdb_id: 525647
 revision: 1
 properties:
   - predicate: bio.summary

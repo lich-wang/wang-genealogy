@@ -4,6 +4,7 @@ id: p_npopsGry8rSEY9ECkKTyF1
 status: active
 merged_into: null
 display_name: 王之衛
+cbdb_id: 342553
 revision: 1
 properties:
   - predicate: bio.summary

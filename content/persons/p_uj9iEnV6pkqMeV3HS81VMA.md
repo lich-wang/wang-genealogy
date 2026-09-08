@@ -4,6 +4,7 @@ id: p_uj9iEnV6pkqMeV3HS81VMA
 status: active
 merged_into: null
 display_name: 王師丘
+cbdb_id: 175801
 revision: 1
 properties:
   - predicate: bio.summary

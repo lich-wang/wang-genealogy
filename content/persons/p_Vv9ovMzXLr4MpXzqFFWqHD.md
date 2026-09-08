@@ -4,6 +4,7 @@ id: p_Vv9ovMzXLr4MpXzqFFWqHD
 status: active
 merged_into: null
 display_name: 王敬照
+cbdb_id: 72047
 revision: 1
 properties:
   - predicate: bio.summary

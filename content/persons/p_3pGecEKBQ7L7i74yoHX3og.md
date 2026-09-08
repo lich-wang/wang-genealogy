@@ -4,6 +4,7 @@ id: p_3pGecEKBQ7L7i74yoHX3og
 status: active
 merged_into: null
 display_name: 王京幾
+cbdb_id: 275614
 revision: 1
 properties:
   - predicate: bio.summary

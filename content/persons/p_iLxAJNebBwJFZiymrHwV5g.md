@@ -4,6 +4,7 @@ id: p_iLxAJNebBwJFZiymrHwV5g
 status: active
 merged_into: null
 display_name: 王夢鵬
+cbdb_id: 69393
 revision: 1
 properties:
   - predicate: bio.summary

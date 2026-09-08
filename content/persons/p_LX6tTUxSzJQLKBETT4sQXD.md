@@ -4,6 +4,7 @@ id: p_LX6tTUxSzJQLKBETT4sQXD
 status: active
 merged_into: null
 display_name: 王轟
+cbdb_id: 19889
 revision: 1
 properties:
   - predicate: bio.summary

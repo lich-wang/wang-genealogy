@@ -4,6 +4,7 @@ id: p_K9DCxqKb9St5aFuNHW3o32
 status: active
 merged_into: null
 display_name: 王德文
+cbdb_id: 175369
 revision: 1
 properties:
   - predicate: bio.summary

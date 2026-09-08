@@ -4,6 +4,7 @@ id: p_2y1eP1nsjw8ciu9GjNsB8J
 status: active
 merged_into: null
 display_name: 王恩綬
+cbdb_id: 69327
 revision: 1
 properties:
   - predicate: bio.summary

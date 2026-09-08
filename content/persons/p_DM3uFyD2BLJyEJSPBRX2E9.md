@@ -4,6 +4,7 @@ id: p_DM3uFyD2BLJyEJSPBRX2E9
 status: active
 merged_into: null
 display_name: 王文品
+cbdb_id: 414729
 revision: 1
 properties:
   - predicate: bio.summary

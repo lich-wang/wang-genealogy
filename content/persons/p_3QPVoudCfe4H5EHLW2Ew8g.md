@@ -4,6 +4,7 @@ id: p_3QPVoudCfe4H5EHLW2Ew8g
 status: active
 merged_into: null
 display_name: 王正甲
+cbdb_id: 414922
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_kKw88nXBDkDh6eZPm9ieSM
 status: active
 merged_into: null
 display_name: 王伯淮
+cbdb_id: 39446
 revision: 1
 properties:
   - predicate: bio.summary

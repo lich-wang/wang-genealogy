@@ -4,6 +4,7 @@ id: p_LXVSMfmUiLLAkLsMQXrEbf
 status: active
 merged_into: null
 display_name: 王隱卿
+cbdb_id: 240367
 revision: 1
 properties:
   - predicate: bio.summary

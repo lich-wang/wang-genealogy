@@ -4,6 +4,7 @@ id: p_pec9uL95zLXp5HAKqcN1xy
 status: active
 merged_into: null
 display_name: 王穎銳
+cbdb_id: 72133
 revision: 1
 properties:
   - predicate: bio.summary

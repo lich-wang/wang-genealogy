@@ -4,6 +4,7 @@ id: p_Uvf45h5MwAeoJcWaqjW73V
 status: active
 merged_into: null
 display_name: 王善塏
+cbdb_id: 343751
 revision: 1
 properties:
   - predicate: bio.summary

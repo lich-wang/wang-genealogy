@@ -4,6 +4,7 @@ id: p_P2q4sj2MKkZEx3RaNbW7es
 status: active
 merged_into: null
 display_name: 王世華
+cbdb_id: 413726
 revision: 1
 properties:
   - predicate: bio.summary

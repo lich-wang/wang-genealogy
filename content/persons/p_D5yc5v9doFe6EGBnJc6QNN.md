@@ -4,6 +4,7 @@ id: p_D5yc5v9doFe6EGBnJc6QNN
 status: active
 merged_into: null
 display_name: 王季羽
+cbdb_id: 175509
 revision: 1
 properties:
   - predicate: bio.summary

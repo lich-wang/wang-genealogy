@@ -4,6 +4,7 @@ id: p_xFFdPdJwKEcff8qRsr4b53
 status: active
 merged_into: null
 display_name: 王紹紀
+cbdb_id: 279053
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_2kL88K9J4gPNNJBZecdjrs
 status: active
 merged_into: null
 display_name: 王相春
+cbdb_id: 415167
 revision: 1
 properties:
   - predicate: bio.summary

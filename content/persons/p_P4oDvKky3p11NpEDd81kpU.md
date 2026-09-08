@@ -4,6 +4,7 @@ id: p_P4oDvKky3p11NpEDd81kpU
 status: active
 merged_into: null
 display_name: 王嘉詔
+cbdb_id: 229672
 revision: 1
 properties:
   - predicate: bio.summary

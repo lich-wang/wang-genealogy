@@ -4,6 +4,7 @@ id: p_Q4jzajAXUFKKhYmeGYw478
 status: active
 merged_into: null
 display_name: 王處仁
+cbdb_id: 415382
 revision: 1
 properties:
   - predicate: bio.summary

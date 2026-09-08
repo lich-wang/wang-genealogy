@@ -4,6 +4,7 @@ id: p_FmG8YYQqHbnjajH6LVb4Bk
 status: active
 merged_into: null
 display_name: 王世騰
+cbdb_id: 343193
 revision: 1
 properties:
   - predicate: bio.summary

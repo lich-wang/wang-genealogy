@@ -4,6 +4,7 @@ id: p_mX3GhtHPCXiAf4LBu5o6P4
 status: active
 merged_into: null
 display_name: 史致蕃
+cbdb_id: 62775
 revision: 1
 properties:
   - predicate: name.primary

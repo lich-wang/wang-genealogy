@@ -4,6 +4,7 @@ id: p_8H9tHr654jMjEuXbA4VXjk
 status: active
 merged_into: null
 display_name: 王道真
+cbdb_id: 38240
 revision: 1
 properties:
   - predicate: bio.summary

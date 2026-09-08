@@ -4,6 +4,7 @@ id: p_FQH8fdzpkVdxU9vCE52bBR
 status: active
 merged_into: null
 display_name: 王彥宗
+cbdb_id: 242721
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_iekz5NdMCNpPts1LQenKdo
 status: active
 merged_into: null
 display_name: 王宰元
+cbdb_id: 526786
 revision: 1
 properties:
   - predicate: bio.summary

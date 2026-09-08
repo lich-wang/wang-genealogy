@@ -4,6 +4,7 @@ id: p_hWmaoJpE7u3jHNKUznxvss
 status: active
 merged_into: null
 display_name: 王月興
+cbdb_id: 414824
 revision: 1
 properties:
   - predicate: bio.summary

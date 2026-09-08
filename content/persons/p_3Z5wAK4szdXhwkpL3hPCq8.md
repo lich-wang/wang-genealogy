@@ -4,6 +4,7 @@ id: p_3Z5wAK4szdXhwkpL3hPCq8
 status: active
 merged_into: null
 display_name: 王聯芳
+cbdb_id: 415298
 revision: 1
 properties:
   - predicate: bio.summary

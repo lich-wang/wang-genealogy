@@ -4,6 +4,7 @@ id: p_SVMqHc4symnMxLdjbpWP6C
 status: active
 merged_into: null
 display_name: 王信及
+cbdb_id: 151617
 revision: 1
 properties:
   - predicate: bio.summary

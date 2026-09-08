@@ -4,6 +4,7 @@ id: p_mt9fivQoEFHVPgKWPhcJw3
 status: active
 merged_into: null
 display_name: 王裕勳
+cbdb_id: 415395
 revision: 1
 properties:
   - predicate: bio.summary

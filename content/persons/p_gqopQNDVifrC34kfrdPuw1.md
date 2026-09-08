@@ -4,6 +4,7 @@ id: p_gqopQNDVifrC34kfrdPuw1
 status: active
 merged_into: null
 display_name: 王之蕃
+cbdb_id: 413765
 revision: 1
 properties:
   - predicate: bio.summary

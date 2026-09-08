@@ -4,6 +4,7 @@ id: p_98JFe217YouYAoFu6KFEFz
 status: active
 merged_into: null
 display_name: 王觀奴
+cbdb_id: 156059
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_jgwf2uNVHXZcoqA2QFFrzJ
 status: active
 merged_into: null
 display_name: 王彥瑞
+cbdb_id: 237906
 revision: 1
 properties:
   - predicate: bio.summary

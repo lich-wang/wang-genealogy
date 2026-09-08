@@ -4,6 +4,7 @@ id: p_Arod1tHqHSNZ5YkECEVH5o
 status: active
 merged_into: null
 display_name: 王福暘
+cbdb_id: 72138
 revision: 1
 properties:
   - predicate: bio.summary

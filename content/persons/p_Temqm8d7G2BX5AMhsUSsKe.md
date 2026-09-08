@@ -4,6 +4,7 @@ id: p_Temqm8d7G2BX5AMhsUSsKe
 status: active
 merged_into: null
 display_name: 王淮
+cbdb_id: 175485
 revision: 1
 properties:
   - predicate: bio.summary

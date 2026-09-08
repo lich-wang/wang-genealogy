@@ -4,6 +4,7 @@ id: p_mhrvputkBEQ43wY64CJw5k
 status: active
 merged_into: null
 display_name: 王乾亨
+cbdb_id: 206520
 revision: 1
 properties:
   - predicate: bio.summary

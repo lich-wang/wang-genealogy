@@ -4,6 +4,7 @@ id: p_vyvZcRpWhm68ZgPXAWAcXH
 status: active
 merged_into: null
 display_name: 王原禮
+cbdb_id: 242557
 revision: 1
 properties:
   - predicate: bio.summary

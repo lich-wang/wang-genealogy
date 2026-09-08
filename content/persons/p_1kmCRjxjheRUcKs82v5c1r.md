@@ -4,6 +4,7 @@ id: p_1kmCRjxjheRUcKs82v5c1r
 status: active
 merged_into: null
 display_name: 王庭椿
+cbdb_id: 24240
 revision: 1
 properties:
   - predicate: bio.summary

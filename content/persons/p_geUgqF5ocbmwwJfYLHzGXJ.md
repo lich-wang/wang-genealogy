@@ -4,6 +4,7 @@ id: p_geUgqF5ocbmwwJfYLHzGXJ
 status: active
 merged_into: null
 display_name: 王怀珪
+cbdb_id: 119731
 revision: 1
 properties:
   - predicate: bio.summary

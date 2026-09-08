@@ -4,6 +4,7 @@ id: p_8B1VV6AasbToPfSwqGNMwa
 status: active
 merged_into: null
 display_name: 王承霖
+cbdb_id: 71833
 revision: 1
 properties:
   - predicate: bio.summary

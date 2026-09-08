@@ -4,6 +4,7 @@ id: p_DotisGBWuSy9QiJBhRBUkB
 status: active
 merged_into: null
 display_name: 王幼膚
+cbdb_id: 192089
 revision: 1
 properties:
   - predicate: bio.summary

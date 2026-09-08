@@ -4,6 +4,7 @@ id: p_Hgd3GnFDoJXaS5y6oGWTa8
 status: active
 merged_into: null
 display_name: 王象樞
+cbdb_id: 220270
 revision: 1
 properties:
   - predicate: bio.summary

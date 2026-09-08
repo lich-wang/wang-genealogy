@@ -4,6 +4,7 @@ id: p_6QN4rrDqheR8pggg5bcabw
 status: active
 merged_into: null
 display_name: 王佩華
+cbdb_id: 120206
 revision: 1
 properties:
   - predicate: bio.summary

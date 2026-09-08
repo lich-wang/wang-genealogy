@@ -4,6 +4,7 @@ id: p_UvvPcQ1c1eTzU7JkFf7nFB
 status: active
 merged_into: null
 display_name: 王英甫
+cbdb_id: 253510
 revision: 1
 properties:
   - predicate: bio.summary

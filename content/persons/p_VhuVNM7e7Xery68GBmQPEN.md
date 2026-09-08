@@ -4,6 +4,7 @@ id: p_VhuVNM7e7Xery68GBmQPEN
 status: active
 merged_into: null
 display_name: 王琦慶
+cbdb_id: 72037
 revision: 1
 properties:
   - predicate: bio.summary

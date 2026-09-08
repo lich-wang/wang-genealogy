@@ -4,6 +4,7 @@ id: p_CnjM6tcfgVMu6RfoJz4FnX
 status: active
 merged_into: null
 display_name: 王繼善
+cbdb_id: 280178
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_VABDaNqeokNeUhSBaXqRrB
 status: active
 merged_into: null
 display_name: 王玄
+cbdb_id: 21949
 revision: 2
 properties:
   - predicate: bio.summary

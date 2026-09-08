@@ -4,6 +4,7 @@ id: p_gEt885orLmp2Pf4PamP2mX
 status: active
 merged_into: null
 display_name: 王懷政
+cbdb_id: 21980
 revision: 1
 properties:
   - predicate: bio.summary

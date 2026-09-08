@@ -4,6 +4,7 @@ id: p_bKeuXJMnKbFrQbE4Wk1o5t
 status: active
 merged_into: null
 display_name: 王純如
+cbdb_id: 415223
 revision: 1
 properties:
   - predicate: bio.summary

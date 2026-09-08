@@ -4,6 +4,7 @@ id: p_inyjJWb5Zc7s8eE7mYXPPs
 status: active
 merged_into: null
 display_name: 王賜祿
+cbdb_id: 415449
 revision: 1
 properties:
   - predicate: bio.summary

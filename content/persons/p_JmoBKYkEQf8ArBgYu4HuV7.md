@@ -4,6 +4,7 @@ id: p_JmoBKYkEQf8ArBgYu4HuV7
 status: active
 merged_into: null
 display_name: 王仲孚
+cbdb_id: 45898
 revision: 1
 properties:
   - predicate: bio.summary

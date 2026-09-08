@@ -4,6 +4,7 @@ id: p_6chKvuhfM1MFp2HE2vcdYf
 status: active
 merged_into: null
 display_name: 王百勝
+cbdb_id: 415151
 revision: 1
 properties:
   - predicate: bio.summary

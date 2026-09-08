@@ -4,6 +4,7 @@ id: p_SGSZfK86tjhyv89SBZKj21
 status: active
 merged_into: null
 display_name: 王仁緒
+cbdb_id: 155090
 revision: 1
 properties:
   - predicate: bio.summary

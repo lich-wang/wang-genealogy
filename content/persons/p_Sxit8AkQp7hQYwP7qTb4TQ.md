@@ -4,6 +4,7 @@ id: p_Sxit8AkQp7hQYwP7qTb4TQ
 status: active
 merged_into: null
 display_name: 王之樋
+cbdb_id: 413752
 revision: 1
 properties:
   - predicate: bio.summary

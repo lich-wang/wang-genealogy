@@ -4,6 +4,7 @@ id: p_bb58h5qHPT8SmjUn6k6pDy
 status: active
 merged_into: null
 display_name: 陆氏
+cbdb_id: 261821
 revision: 2
 properties:
   - predicate: bio.summary

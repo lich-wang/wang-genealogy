@@ -4,6 +4,7 @@ id: p_U2fJh4K2ex8SeA51Kg92G1
 status: active
 merged_into: null
 display_name: 王弘培
+cbdb_id: 341895
 revision: 1
 properties:
   - predicate: bio.summary

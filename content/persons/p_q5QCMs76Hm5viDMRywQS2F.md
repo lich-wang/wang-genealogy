@@ -4,6 +4,7 @@ id: p_q5QCMs76Hm5viDMRywQS2F
 status: active
 merged_into: null
 display_name: 王朝清
+cbdb_id: 72054
 revision: 1
 properties:
   - predicate: bio.summary

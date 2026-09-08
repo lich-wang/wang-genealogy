@@ -4,6 +4,7 @@ id: p_WniQ5aD1dTCDBDynYPgLdF
 status: active
 merged_into: null
 display_name: 王舍英
+cbdb_id: 251140
 revision: 1
 properties:
   - predicate: bio.summary

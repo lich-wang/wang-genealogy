@@ -4,6 +4,7 @@ id: p_yqrN4jVrCEaYCGbyAPGHVi
 status: active
 merged_into: null
 display_name: 王六顯
+cbdb_id: 97815
 revision: 1
 properties:
   - predicate: bio.summary

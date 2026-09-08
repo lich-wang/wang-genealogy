@@ -4,6 +4,7 @@ id: p_Ns13EDRf3NQqio4T1cuSE8
 status: active
 merged_into: null
 display_name: 王景秀
+cbdb_id: 141201
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_U8ouLRnZUnZ157zzvNoh6g
 status: active
 merged_into: null
 display_name: 王元伯
+cbdb_id: 150370
 revision: 1
 properties:
   - predicate: bio.summary

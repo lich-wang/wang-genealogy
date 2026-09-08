@@ -4,6 +4,7 @@ id: p_5QEbqgYjrFDjKjQQ7gA3Jp
 status: active
 merged_into: null
 display_name: 王扎倫布
+cbdb_id: 123733
 revision: 1
 properties:
   - predicate: bio.summary

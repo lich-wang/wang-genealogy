@@ -4,6 +4,7 @@ id: p_5dqTp6X4Q2RMrNDd2nFv67
 status: active
 merged_into: null
 display_name: 王胤懋
+cbdb_id: 342193
 revision: 1
 properties:
   - predicate: bio.summary

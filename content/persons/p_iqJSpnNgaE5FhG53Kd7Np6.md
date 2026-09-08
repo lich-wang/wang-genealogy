@@ -4,6 +4,7 @@ id: p_iqJSpnNgaE5FhG53Kd7Np6
 status: active
 merged_into: null
 display_name: 王庭燦
+cbdb_id: 71900
 revision: 1
 properties:
   - predicate: bio.summary

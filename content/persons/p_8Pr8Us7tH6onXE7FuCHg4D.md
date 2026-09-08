@@ -4,6 +4,7 @@ id: p_8Pr8Us7tH6onXE7FuCHg4D
 status: active
 merged_into: null
 display_name: 王郴
+cbdb_id: 186851
 revision: 1
 properties:
   - predicate: bio.summary

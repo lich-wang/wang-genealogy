@@ -4,6 +4,7 @@ id: p_p5VRgM5CRYbvtxNdaeEn7i
 status: active
 merged_into: null
 display_name: 王悌
+cbdb_id: 154140
 revision: 1
 properties:
   - predicate: bio.summary

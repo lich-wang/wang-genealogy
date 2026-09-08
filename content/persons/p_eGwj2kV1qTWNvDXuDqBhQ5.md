@@ -4,6 +4,7 @@ id: p_eGwj2kV1qTWNvDXuDqBhQ5
 status: active
 merged_into: null
 display_name: 王希逸
+cbdb_id: 13794
 revision: 1
 properties:
   - predicate: name.primary

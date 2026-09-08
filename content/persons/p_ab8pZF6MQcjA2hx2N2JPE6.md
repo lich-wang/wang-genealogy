@@ -4,6 +4,7 @@ id: p_ab8pZF6MQcjA2hx2N2JPE6
 status: active
 merged_into: null
 display_name: 王謙光
+cbdb_id: 72095
 revision: 1
 properties:
   - predicate: bio.summary

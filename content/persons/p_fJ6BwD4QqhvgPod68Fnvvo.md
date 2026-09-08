@@ -4,6 +4,7 @@ id: p_fJ6BwD4QqhvgPod68Fnvvo
 status: active
 merged_into: null
 display_name: 王朝貢
+cbdb_id: 295497
 revision: 1
 properties:
   - predicate: bio.summary

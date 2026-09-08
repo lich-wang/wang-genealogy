@@ -4,6 +4,7 @@ id: p_XqbVcUtFKJ7JiJPYBfC7gg
 status: active
 merged_into: null
 display_name: 王雲門
+cbdb_id: 119289
 revision: 1
 properties:
   - predicate: bio.summary

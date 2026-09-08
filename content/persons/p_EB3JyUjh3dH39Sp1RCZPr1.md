@@ -4,6 +4,7 @@ id: p_EB3JyUjh3dH39Sp1RCZPr1
 status: active
 merged_into: null
 display_name: 王仲薇
+cbdb_id: 97790
 revision: 1
 properties:
   - predicate: bio.summary

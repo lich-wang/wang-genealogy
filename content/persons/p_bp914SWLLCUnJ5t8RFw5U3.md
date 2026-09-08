@@ -4,6 +4,7 @@ id: p_bp914SWLLCUnJ5t8RFw5U3
 status: active
 merged_into: null
 display_name: 王之選
+cbdb_id: 335745
 revision: 1
 properties:
   - predicate: bio.summary

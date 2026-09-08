@@ -4,6 +4,7 @@ id: p_sQt7B49g3E4xaaM5tTex2U
 status: active
 merged_into: null
 display_name: 王之錡
+cbdb_id: 67066
 revision: 1
 properties:
   - predicate: bio.summary

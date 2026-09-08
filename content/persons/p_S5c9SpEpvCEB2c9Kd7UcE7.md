@@ -4,6 +4,7 @@ id: p_S5c9SpEpvCEB2c9Kd7UcE7
 status: active
 merged_into: null
 display_name: 王友度
+cbdb_id: 414019
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_JpYtYGhzjM9TkJ8iXhfv3t
 status: active
 merged_into: null
 display_name: 王作新
+cbdb_id: 572336
 revision: 1
 properties:
   - predicate: bio.summary

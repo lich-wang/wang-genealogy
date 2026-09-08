@@ -4,6 +4,7 @@ id: p_ePPjFS2KUrD9N2rxRkPbKn
 status: active
 merged_into: null
 display_name: 王堯
+cbdb_id: 23538
 revision: 1
 properties:
   - predicate: bio.summary

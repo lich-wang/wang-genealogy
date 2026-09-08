@@ -4,6 +4,7 @@ id: p_XL4Ed8SYTKF5xumf4j1w9n
 status: active
 merged_into: null
 display_name: 王邵孫
+cbdb_id: 437571
 revision: 1
 properties:
   - predicate: bio.summary

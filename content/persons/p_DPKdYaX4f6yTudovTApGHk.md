@@ -4,6 +4,7 @@ id: p_DPKdYaX4f6yTudovTApGHk
 status: active
 merged_into: null
 display_name: 王喬齡
+cbdb_id: 202941
 revision: 1
 properties:
   - predicate: bio.summary

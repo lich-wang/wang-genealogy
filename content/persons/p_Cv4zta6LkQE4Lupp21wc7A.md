@@ -4,6 +4,7 @@ id: p_Cv4zta6LkQE4Lupp21wc7A
 status: active
 merged_into: null
 display_name: 王太后
+cbdb_id: 525259
 revision: 1
 properties:
   - predicate: bio.summary

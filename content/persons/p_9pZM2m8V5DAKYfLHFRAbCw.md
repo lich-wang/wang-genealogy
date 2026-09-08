@@ -4,6 +4,7 @@ id: p_9pZM2m8V5DAKYfLHFRAbCw
 status: active
 merged_into: null
 display_name: 王鍾健
+cbdb_id: 64828
 revision: 1
 properties:
   - predicate: bio.summary

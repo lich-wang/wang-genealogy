@@ -4,6 +4,7 @@ id: p_ASGJp4KStV2JKS8MgWoimB
 status: active
 merged_into: null
 display_name: 王榮紱
+cbdb_id: 414891
 revision: 1
 properties:
   - predicate: bio.summary

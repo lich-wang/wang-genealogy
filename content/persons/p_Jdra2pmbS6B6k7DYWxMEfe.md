@@ -4,6 +4,7 @@ id: p_Jdra2pmbS6B6k7DYWxMEfe
 status: active
 merged_into: null
 display_name: 王稔
+cbdb_id: 437666
 revision: 2
 properties:
   - predicate: bio.summary

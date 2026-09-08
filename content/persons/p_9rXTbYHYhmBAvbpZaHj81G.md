@@ -4,6 +4,7 @@ id: p_9rXTbYHYhmBAvbpZaHj81G
 status: active
 merged_into: null
 display_name: 王馭
+cbdb_id: 274243
 revision: 1
 properties:
   - predicate: bio.summary

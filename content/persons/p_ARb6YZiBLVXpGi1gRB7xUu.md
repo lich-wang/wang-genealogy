@@ -4,6 +4,7 @@ id: p_ARb6YZiBLVXpGi1gRB7xUu
 status: active
 merged_into: null
 display_name: 王鍾仁
+cbdb_id: 343777
 revision: 1
 properties:
   - predicate: bio.summary

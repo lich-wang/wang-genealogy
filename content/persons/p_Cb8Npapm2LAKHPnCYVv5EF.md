@@ -4,6 +4,7 @@ id: p_Cb8Npapm2LAKHPnCYVv5EF
 status: active
 merged_into: null
 display_name: 王德壽
+cbdb_id: 414558
 revision: 1
 properties:
   - predicate: bio.summary

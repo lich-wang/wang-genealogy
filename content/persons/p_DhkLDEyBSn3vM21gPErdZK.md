@@ -4,6 +4,7 @@ id: p_DhkLDEyBSn3vM21gPErdZK
 status: active
 merged_into: null
 display_name: 王來咸
+cbdb_id: 69240
 revision: 1
 properties:
   - predicate: bio.summary

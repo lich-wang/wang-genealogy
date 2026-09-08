@@ -4,6 +4,7 @@ id: p_3g5ZBrQ2aNQF2Ho772TPso
 status: active
 merged_into: null
 display_name: 王萃仁
+cbdb_id: 71987
 revision: 1
 properties:
   - predicate: bio.summary

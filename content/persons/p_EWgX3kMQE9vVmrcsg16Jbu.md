@@ -4,6 +4,7 @@ id: p_EWgX3kMQE9vVmrcsg16Jbu
 status: active
 merged_into: null
 display_name: 王宗鎏
+cbdb_id: 71814
 revision: 1
 properties:
   - predicate: bio.summary

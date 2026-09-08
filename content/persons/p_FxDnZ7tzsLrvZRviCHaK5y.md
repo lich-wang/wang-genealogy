@@ -4,6 +4,7 @@ id: p_FxDnZ7tzsLrvZRviCHaK5y
 status: active
 merged_into: null
 display_name: 王睿
+cbdb_id: 288332
 revision: 1
 properties:
   - predicate: name.primary

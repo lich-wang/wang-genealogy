@@ -4,6 +4,7 @@ id: p_qTU593af2cZ3wSRDyRGRV1
 status: active
 merged_into: null
 display_name: 王湘綺
+cbdb_id: 70370
 revision: 1
 properties:
   - predicate: bio.summary

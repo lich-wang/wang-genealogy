@@ -4,6 +4,7 @@ id: p_kNT4Uo1NePuXdfNpzLAkVT
 status: active
 merged_into: null
 display_name: 王蕖亭
+cbdb_id: 343216
 revision: 1
 properties:
   - predicate: bio.summary

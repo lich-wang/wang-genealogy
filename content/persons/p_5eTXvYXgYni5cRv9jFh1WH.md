@@ -4,6 +4,7 @@ id: p_5eTXvYXgYni5cRv9jFh1WH
 status: active
 merged_into: null
 display_name: 王知古
+cbdb_id: 175439
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_mLR2LwV5BkQKiVBVi28oBG
 status: active
 merged_into: null
 display_name: 王缙
+cbdb_id: 184938
 revision: 2
 properties:
   - predicate: bio.summary

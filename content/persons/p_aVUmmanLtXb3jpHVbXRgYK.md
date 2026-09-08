@@ -4,6 +4,7 @@ id: p_aVUmmanLtXb3jpHVbXRgYK
 status: active
 merged_into: null
 display_name: 王時翔
+cbdb_id: 69319
 revision: 1
 properties:
   - predicate: bio.summary

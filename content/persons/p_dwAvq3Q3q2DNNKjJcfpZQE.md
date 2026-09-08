@@ -4,6 +4,7 @@ id: p_dwAvq3Q3q2DNNKjJcfpZQE
 status: active
 merged_into: null
 display_name: 王聖紀
+cbdb_id: 38271
 revision: 1
 properties:
   - predicate: bio.summary

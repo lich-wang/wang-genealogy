@@ -4,6 +4,7 @@ id: p_qB6C4G9qfByQjjZMfTC6ax
 status: active
 merged_into: null
 display_name: 王士雲
+cbdb_id: 101033
 revision: 1
 properties:
   - predicate: bio.summary

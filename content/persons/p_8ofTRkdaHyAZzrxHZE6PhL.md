@@ -4,6 +4,7 @@ id: p_8ofTRkdaHyAZzrxHZE6PhL
 status: active
 merged_into: null
 display_name: 王芯貝
+cbdb_id: 341987
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_G4Kg3M9QQ6STQ6rtt4Ytv4
 status: active
 merged_into: null
 display_name: 王滙春
+cbdb_id: 415038
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_HM6CQSrCCHQHgQcCZu6Jrx
 status: active
 merged_into: null
 display_name: 王道昇
+cbdb_id: 231053
 revision: 1
 properties:
   - predicate: bio.summary

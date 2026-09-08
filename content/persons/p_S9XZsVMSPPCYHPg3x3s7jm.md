@@ -4,6 +4,7 @@ id: p_S9XZsVMSPPCYHPg3x3s7jm
 status: active
 merged_into: null
 display_name: 王彥奇
+cbdb_id: 126594
 revision: 1
 properties:
   - predicate: bio.summary

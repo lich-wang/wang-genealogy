@@ -4,6 +4,7 @@ id: p_pm1KHcDaerhQBXNoUsanDU
 status: active
 merged_into: null
 display_name: 王祚葵
+cbdb_id: 415189
 revision: 1
 properties:
   - predicate: bio.summary

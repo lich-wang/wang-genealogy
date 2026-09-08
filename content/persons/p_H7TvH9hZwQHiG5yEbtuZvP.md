@@ -4,6 +4,7 @@ id: p_H7TvH9hZwQHiG5yEbtuZvP
 status: active
 merged_into: null
 display_name: 王問詩
+cbdb_id: 414063
 revision: 1
 properties:
   - predicate: bio.summary

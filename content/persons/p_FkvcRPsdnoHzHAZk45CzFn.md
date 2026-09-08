@@ -4,6 +4,7 @@ id: p_FkvcRPsdnoHzHAZk45CzFn
 status: active
 merged_into: null
 display_name: 王子倫
+cbdb_id: 414237
 revision: 1
 properties:
   - predicate: bio.summary

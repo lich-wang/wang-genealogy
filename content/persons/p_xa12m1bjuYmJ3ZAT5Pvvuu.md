@@ -4,6 +4,7 @@ id: p_xa12m1bjuYmJ3ZAT5Pvvuu
 status: active
 merged_into: null
 display_name: 王允玫
+cbdb_id: 413894
 revision: 1
 properties:
   - predicate: bio.summary

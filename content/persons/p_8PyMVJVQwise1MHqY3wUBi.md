@@ -4,6 +4,7 @@ id: p_8PyMVJVQwise1MHqY3wUBi
 status: active
 merged_into: null
 display_name: 王緒曾
+cbdb_id: 342347
 revision: 1
 properties:
   - predicate: bio.summary

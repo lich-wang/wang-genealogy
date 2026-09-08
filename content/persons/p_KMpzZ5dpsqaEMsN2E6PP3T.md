@@ -4,6 +4,7 @@ id: p_KMpzZ5dpsqaEMsN2E6PP3T
 status: active
 merged_into: null
 display_name: 王家慶
+cbdb_id: 332967
 revision: 1
 properties:
   - predicate: bio.summary

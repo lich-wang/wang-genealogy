@@ -4,6 +4,7 @@ id: p_FYLvHDnSxXgRduKw9zQjET
 status: active
 merged_into: null
 display_name: 王論
+cbdb_id: 158866
 revision: 1
 properties:
   - predicate: bio.summary

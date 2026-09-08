@@ -4,6 +4,7 @@ id: p_sK8C4ReTKgvBpgkEebumM2
 status: active
 merged_into: null
 display_name: 王秋江
+cbdb_id: 101291
 revision: 1
 properties:
   - predicate: bio.summary

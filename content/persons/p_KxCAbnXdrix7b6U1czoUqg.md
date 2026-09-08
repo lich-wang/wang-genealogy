@@ -4,6 +4,7 @@ id: p_KxCAbnXdrix7b6U1czoUqg
 status: active
 merged_into: null
 display_name: 王與耕
+cbdb_id: 253917
 revision: 1
 properties:
   - predicate: bio.summary

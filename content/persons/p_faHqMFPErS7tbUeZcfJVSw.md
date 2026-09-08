@@ -4,6 +4,7 @@ id: p_faHqMFPErS7tbUeZcfJVSw
 status: active
 merged_into: null
 display_name: 王彝卿
+cbdb_id: 39358
 revision: 1
 properties:
   - predicate: bio.summary

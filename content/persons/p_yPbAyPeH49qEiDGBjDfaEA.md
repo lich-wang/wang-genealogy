@@ -4,6 +4,7 @@ id: p_yPbAyPeH49qEiDGBjDfaEA
 status: active
 merged_into: null
 display_name: 王民頌
+cbdb_id: 210128
 revision: 1
 properties:
   - predicate: bio.summary

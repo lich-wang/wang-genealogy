@@ -4,6 +4,7 @@ id: p_C26spKJK4PxuGw8LBtUqDJ
 status: active
 merged_into: null
 display_name: 王陳範
+cbdb_id: 310887
 revision: 1
 properties:
   - predicate: bio.summary

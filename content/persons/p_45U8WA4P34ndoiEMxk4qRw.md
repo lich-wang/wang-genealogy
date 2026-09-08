@@ -4,6 +4,7 @@ id: p_45U8WA4P34ndoiEMxk4qRw
 status: active
 merged_into: null
 display_name: 王孝柔
+cbdb_id: 175744
 revision: 1
 properties:
   - predicate: bio.summary

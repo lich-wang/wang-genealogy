@@ -4,6 +4,7 @@ id: p_JYfFPtCvuKdZV7VJ2JU8R9
 status: active
 merged_into: null
 display_name: 王大仁
+cbdb_id: 414194
 revision: 1
 properties:
   - predicate: bio.summary

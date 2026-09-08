@@ -4,6 +4,7 @@ id: p_Y5HWWeoQ4Anrc54aissAD7
 status: active
 merged_into: null
 display_name: 王于民
+cbdb_id: 413791
 revision: 1
 properties:
   - predicate: bio.summary

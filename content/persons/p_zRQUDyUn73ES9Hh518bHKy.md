@@ -4,6 +4,7 @@ id: p_zRQUDyUn73ES9Hh518bHKy
 status: active
 merged_into: null
 display_name: 王遐祚
+cbdb_id: 342811
 revision: 1
 properties:
   - predicate: bio.summary

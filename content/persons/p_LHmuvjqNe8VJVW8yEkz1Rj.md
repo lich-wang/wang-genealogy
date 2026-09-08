@@ -4,6 +4,7 @@ id: p_LHmuvjqNe8VJVW8yEkz1Rj
 status: active
 merged_into: null
 display_name: 王毓岱
+cbdb_id: 72163
 revision: 1
 properties:
   - predicate: bio.summary

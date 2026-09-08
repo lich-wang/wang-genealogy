@@ -4,6 +4,7 @@ id: p_M6LEcXJ4fAxH6NMLaBJTYV
 status: active
 merged_into: null
 display_name: 王達孚
+cbdb_id: 324570
 revision: 1
 properties:
   - predicate: bio.summary

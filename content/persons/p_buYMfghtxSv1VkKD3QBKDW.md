@@ -4,6 +4,7 @@ id: p_buYMfghtxSv1VkKD3QBKDW
 status: active
 merged_into: null
 display_name: 王安期
+cbdb_id: 175373
 revision: 1
 properties:
   - predicate: bio.summary

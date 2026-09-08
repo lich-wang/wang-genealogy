@@ -4,6 +4,7 @@ id: p_QTZhJQRm4DvyvhM9cqV8VT
 status: active
 merged_into: null
 display_name: 王孟鎧
+cbdb_id: 258064
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_pUPVdYRgE2A79do23E28zW
 status: active
 merged_into: null
 display_name: 王景和
+cbdb_id: 319518
 revision: 1
 properties:
   - predicate: bio.summary

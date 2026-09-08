@@ -4,6 +4,7 @@ id: p_39vDkBBkr1izfyQ9ri13ms
 status: active
 merged_into: null
 display_name: 王福郊
+cbdb_id: 30884
 revision: 1
 properties:
   - predicate: bio.summary

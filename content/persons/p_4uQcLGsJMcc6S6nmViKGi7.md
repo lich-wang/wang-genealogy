@@ -4,6 +4,7 @@ id: p_4uQcLGsJMcc6S6nmViKGi7
 status: active
 merged_into: null
 display_name: 王繼炳
+cbdb_id: 294879
 revision: 1
 properties:
   - predicate: bio.summary

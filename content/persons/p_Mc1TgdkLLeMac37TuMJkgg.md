@@ -4,6 +4,7 @@ id: p_Mc1TgdkLLeMac37TuMJkgg
 status: active
 merged_into: null
 display_name: 王延
+cbdb_id: 34585
 revision: 2
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_Qyb7yREFNSkdmybijSLrPB
 status: active
 merged_into: null
 display_name: 王聖來
+cbdb_id: 342006
 revision: 1
 properties:
   - predicate: bio.summary

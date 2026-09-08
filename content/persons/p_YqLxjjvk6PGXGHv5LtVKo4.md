@@ -4,6 +4,7 @@ id: p_YqLxjjvk6PGXGHv5LtVKo4
 status: active
 merged_into: null
 display_name: 王承旨
+cbdb_id: 445472
 revision: 1
 properties:
   - predicate: bio.summary

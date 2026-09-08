@@ -4,6 +4,7 @@ id: p_pth7Wt1GjSMUzqmVpJWYW9
 status: active
 merged_into: null
 display_name: 王嗣疇
+cbdb_id: 522350
 revision: 1
 properties:
   - predicate: bio.summary

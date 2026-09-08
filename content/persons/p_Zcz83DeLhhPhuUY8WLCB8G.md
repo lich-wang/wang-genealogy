@@ -4,6 +4,7 @@ id: p_Zcz83DeLhhPhuUY8WLCB8G
 status: active
 merged_into: null
 display_name: 王鳴鹿
+cbdb_id: 285500
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_TCQojP9zG1BNKS97N9N3M7
 status: active
 merged_into: null
 display_name: 王士朋
+cbdb_id: 45881
 revision: 1
 properties:
   - predicate: bio.summary

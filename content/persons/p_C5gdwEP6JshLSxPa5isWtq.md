@@ -4,6 +4,7 @@ id: p_C5gdwEP6JshLSxPa5isWtq
 status: active
 merged_into: null
 display_name: 王异
+cbdb_id: 17423
 revision: 1
 properties:
   - predicate: name.primary

@@ -4,6 +4,7 @@ id: p_smrUUFMi5vUzJvegicWQC9
 status: active
 merged_into: null
 display_name: 王文諒
+cbdb_id: 273471
 revision: 1
 properties:
   - predicate: bio.summary

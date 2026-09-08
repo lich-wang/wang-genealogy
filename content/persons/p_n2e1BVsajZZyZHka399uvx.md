@@ -4,6 +4,7 @@ id: p_n2e1BVsajZZyZHka399uvx
 status: active
 merged_into: null
 display_name: 王時桂
+cbdb_id: 308746
 revision: 1
 properties:
   - predicate: bio.summary

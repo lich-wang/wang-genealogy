@@ -4,6 +4,7 @@ id: p_qWb5a1Az74q4SypguZkSHA
 status: active
 merged_into: null
 display_name: 王永勝
+cbdb_id: 61472
 revision: 1
 properties:
   - predicate: bio.summary

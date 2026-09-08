@@ -4,6 +4,7 @@ id: p_Zuq3d3pJAHRdzDFjENdE32
 status: active
 merged_into: null
 display_name: 王登仕
+cbdb_id: 38198
 revision: 1
 properties:
   - predicate: bio.summary

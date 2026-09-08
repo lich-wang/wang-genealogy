@@ -4,6 +4,7 @@ id: p_vemK7oMMRJ2CHgVUqec293
 status: active
 merged_into: null
 display_name: 王敬熙
+cbdb_id: 72048
 revision: 1
 properties:
   - predicate: bio.summary

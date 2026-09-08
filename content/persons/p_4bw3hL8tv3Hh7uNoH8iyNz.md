@@ -4,6 +4,7 @@ id: p_4bw3hL8tv3Hh7uNoH8iyNz
 status: active
 merged_into: null
 display_name: 王仙童
+cbdb_id: 150416
 revision: 1
 properties:
   - predicate: bio.summary

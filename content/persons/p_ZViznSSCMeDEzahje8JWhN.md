@@ -4,6 +4,7 @@ id: p_ZViznSSCMeDEzahje8JWhN
 status: active
 merged_into: null
 display_name: 王廷睿
+cbdb_id: 39385
 revision: 1
 properties:
   - predicate: bio.summary

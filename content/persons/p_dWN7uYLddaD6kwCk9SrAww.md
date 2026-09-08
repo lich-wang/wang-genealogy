@@ -4,6 +4,7 @@ id: p_dWN7uYLddaD6kwCk9SrAww
 status: active
 merged_into: null
 display_name: 王業祥
+cbdb_id: 414883
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_oU3dd4iS2pVPEyxEs71saM
 status: active
 merged_into: null
 display_name: 王時宇
+cbdb_id: 71670
 revision: 1
 properties:
   - predicate: bio.summary

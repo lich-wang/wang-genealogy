@@ -4,6 +4,7 @@ id: p_bjuGL4Uk7bjH32ZBbY5LKt
 status: active
 merged_into: null
 display_name: 王學閔
+cbdb_id: 328254
 revision: 1
 properties:
   - predicate: bio.summary

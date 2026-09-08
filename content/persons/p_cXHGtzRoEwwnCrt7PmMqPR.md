@@ -4,6 +4,7 @@ id: p_cXHGtzRoEwwnCrt7PmMqPR
 status: active
 merged_into: null
 display_name: 王成沼
+cbdb_id: 161415
 revision: 1
 properties:
   - predicate: bio.summary

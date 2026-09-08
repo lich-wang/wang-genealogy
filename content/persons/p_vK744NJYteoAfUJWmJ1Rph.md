@@ -4,6 +4,7 @@ id: p_vK744NJYteoAfUJWmJ1Rph
 status: active
 merged_into: null
 display_name: 王貽楷
+cbdb_id: 415438
 revision: 1
 properties:
   - predicate: bio.summary

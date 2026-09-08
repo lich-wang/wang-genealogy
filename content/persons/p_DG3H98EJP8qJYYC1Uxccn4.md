@@ -4,6 +4,7 @@ id: p_DG3H98EJP8qJYYC1Uxccn4
 status: active
 merged_into: null
 display_name: 王之洵
+cbdb_id: 526797
 revision: 1
 properties:
   - predicate: bio.summary

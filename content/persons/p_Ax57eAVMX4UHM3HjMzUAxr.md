@@ -4,6 +4,7 @@ id: p_Ax57eAVMX4UHM3HjMzUAxr
 status: active
 merged_into: null
 display_name: 王心敬
+cbdb_id: 69029
 revision: 1
 properties:
   - predicate: bio.summary

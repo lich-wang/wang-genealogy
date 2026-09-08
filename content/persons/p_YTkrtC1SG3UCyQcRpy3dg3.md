@@ -4,6 +4,7 @@ id: p_YTkrtC1SG3UCyQcRpy3dg3
 status: active
 merged_into: null
 display_name: 王绾
+cbdb_id: 145389
 revision: 1
 properties:
   - predicate: bio.summary

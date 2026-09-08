@@ -4,6 +4,7 @@ id: p_FUB84hAuvqTaekTCJof7Di
 status: active
 merged_into: null
 display_name: 王守義
+cbdb_id: 101165
 revision: 1
 properties:
   - predicate: bio.summary

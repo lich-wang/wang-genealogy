@@ -4,6 +4,7 @@ id: p_EzocBJW6RzH8DyW5QMtFa1
 status: active
 merged_into: null
 display_name: 王應榮
+cbdb_id: 264769
 revision: 1
 properties:
   - predicate: bio.summary

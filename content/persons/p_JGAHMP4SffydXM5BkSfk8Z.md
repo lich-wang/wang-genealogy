@@ -4,6 +4,7 @@ id: p_JGAHMP4SffydXM5BkSfk8Z
 status: active
 merged_into: null
 display_name: 王如宗
+cbdb_id: 343249
 revision: 1
 properties:
   - predicate: bio.summary

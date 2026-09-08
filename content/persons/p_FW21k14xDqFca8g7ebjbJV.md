@@ -4,6 +4,7 @@ id: p_FW21k14xDqFca8g7ebjbJV
 status: active
 merged_into: null
 display_name: 王艾
+cbdb_id: 286136
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_LLsxFDHQDQXtfR5CnXXEVt
 status: active
 merged_into: null
 display_name: 王璞
+cbdb_id: 20096
 revision: 2
 properties:
   - predicate: bio.summary

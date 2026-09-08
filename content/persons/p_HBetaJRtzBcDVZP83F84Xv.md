@@ -4,6 +4,7 @@ id: p_HBetaJRtzBcDVZP83F84Xv
 status: active
 merged_into: null
 display_name: 王稷時
+cbdb_id: 265190
 revision: 1
 properties:
   - predicate: bio.summary

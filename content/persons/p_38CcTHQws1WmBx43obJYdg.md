@@ -4,6 +4,7 @@ id: p_38CcTHQws1WmBx43obJYdg
 status: active
 merged_into: null
 display_name: 王益霖
+cbdb_id: 343702
 revision: 1
 properties:
   - predicate: bio.summary

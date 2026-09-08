@@ -4,6 +4,7 @@ id: p_VNNbh8NWTBE9vDh7X2rEN1
 status: active
 merged_into: null
 display_name: 王美銳
+cbdb_id: 324567
 revision: 1
 properties:
   - predicate: bio.summary

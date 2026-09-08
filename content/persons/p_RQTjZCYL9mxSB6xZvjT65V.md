@@ -4,6 +4,7 @@ id: p_RQTjZCYL9mxSB6xZvjT65V
 status: active
 merged_into: null
 display_name: 王應旭
+cbdb_id: 459862
 revision: 1
 properties:
   - predicate: bio.summary

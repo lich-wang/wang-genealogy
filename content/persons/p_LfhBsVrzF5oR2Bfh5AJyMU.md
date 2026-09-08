@@ -4,6 +4,7 @@ id: p_LfhBsVrzF5oR2Bfh5AJyMU
 status: active
 merged_into: null
 display_name: 王延階
+cbdb_id: 233448
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_w32c5EjVz9DskHbrjc9oYm
 status: active
 merged_into: null
 display_name: 王祺海
+cbdb_id: 342743
 revision: 1
 properties:
   - predicate: bio.summary

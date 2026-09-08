@@ -4,6 +4,7 @@ id: p_zfuTTmxBW3otkurowC6bdq
 status: active
 merged_into: null
 display_name: 王如器
+cbdb_id: 414229
 revision: 1
 properties:
   - predicate: bio.summary

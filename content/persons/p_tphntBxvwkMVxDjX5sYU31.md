@@ -4,6 +4,7 @@ id: p_tphntBxvwkMVxDjX5sYU31
 status: active
 merged_into: null
 display_name: 王士然
+cbdb_id: 117561
 revision: 1
 properties:
   - predicate: bio.summary

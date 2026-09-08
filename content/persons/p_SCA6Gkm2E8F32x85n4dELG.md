@@ -4,6 +4,7 @@ id: p_SCA6Gkm2E8F32x85n4dELG
 status: active
 merged_into: null
 display_name: 王作肅
+cbdb_id: 342453
 revision: 1
 properties:
   - predicate: bio.summary

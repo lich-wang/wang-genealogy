@@ -4,6 +4,7 @@ id: p_XtvTMApHJyDEb7u7GJBvgG
 status: active
 merged_into: null
 display_name: 王克友
+cbdb_id: 413947
 revision: 1
 properties:
   - predicate: bio.summary

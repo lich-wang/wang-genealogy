@@ -4,6 +4,7 @@ id: p_dsXeCdixBd7wnFMniHFZso
 status: active
 merged_into: null
 display_name: 王師度
+cbdb_id: 157993
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_xxBKqkBH8siQZpCzhW3m52
 status: active
 merged_into: null
 display_name: 王安城
+cbdb_id: 526897
 revision: 1
 properties:
   - predicate: bio.summary

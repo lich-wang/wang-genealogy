@@ -4,6 +4,7 @@ id: p_8QKpFZ6xGTs5ordkG6TxAn
 status: active
 merged_into: null
 display_name: 王之浩
+cbdb_id: 342557
 revision: 1
 properties:
   - predicate: bio.summary

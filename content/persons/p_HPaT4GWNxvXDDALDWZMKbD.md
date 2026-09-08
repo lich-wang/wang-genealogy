@@ -4,6 +4,7 @@ id: p_HPaT4GWNxvXDDALDWZMKbD
 status: active
 merged_into: null
 display_name: 王仕恭
+cbdb_id: 251782
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_a3b4xpmtfkDqmManPEL8yB
 status: active
 merged_into: null
 display_name: 王待仙
+cbdb_id: 157933
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_JXS7WxyCeaBXvxcHq83ALZ
 status: active
 merged_into: null
 display_name: 王十一娘子
+cbdb_id: 157223
 revision: 1
 properties:
   - predicate: bio.summary

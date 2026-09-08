@@ -4,6 +4,7 @@ id: p_BrZJTstMeCURvsBX1oTmrs
 status: active
 merged_into: null
 display_name: 王司貞
+cbdb_id: 34983
 revision: 1
 properties:
   - predicate: bio.summary

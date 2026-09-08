@@ -4,6 +4,7 @@ id: p_FCT7McoVaNHGpwMADECF4A
 status: active
 merged_into: null
 display_name: 王克鼎
+cbdb_id: 342967
 revision: 1
 properties:
   - predicate: bio.summary

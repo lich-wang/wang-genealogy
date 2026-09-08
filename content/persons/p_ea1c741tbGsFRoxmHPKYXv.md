@@ -4,6 +4,7 @@ id: p_ea1c741tbGsFRoxmHPKYXv
 status: active
 merged_into: null
 display_name: 王彥璋
+cbdb_id: 309075
 revision: 1
 properties:
   - predicate: bio.summary

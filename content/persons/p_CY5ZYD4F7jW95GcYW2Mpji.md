@@ -4,6 +4,7 @@ id: p_CY5ZYD4F7jW95GcYW2Mpji
 status: active
 merged_into: null
 display_name: 王效宗
+cbdb_id: 439583
 revision: 1
 properties:
   - predicate: bio.summary

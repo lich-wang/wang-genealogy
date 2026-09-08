@@ -4,6 +4,7 @@ id: p_GReAhB4vWEi9seYrMLzXxc
 status: active
 merged_into: null
 display_name: 王志卿
+cbdb_id: 414572
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_P5dzHJVD8yhzKzypAHxi6T
 status: active
 merged_into: null
 display_name: 王兼之
+cbdb_id: 153385
 revision: 1
 properties:
   - predicate: bio.summary

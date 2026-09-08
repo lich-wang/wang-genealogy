@@ -4,6 +4,7 @@ id: p_Yzk25nGf2VNM4E1AEMSPBQ
 status: active
 merged_into: null
 display_name: 王大麒
+cbdb_id: 414205
 revision: 1
 properties:
   - predicate: bio.summary

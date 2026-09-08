@@ -4,6 +4,7 @@ id: p_Jn7Z5DoHyCUh3Tr3UBMSXH
 status: active
 merged_into: null
 display_name: 王甫林
+cbdb_id: 231568
 revision: 1
 properties:
   - predicate: bio.summary

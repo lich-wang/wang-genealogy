@@ -4,6 +4,7 @@ id: p_ohA8DnLLyF6RXJZRWzFMfT
 status: active
 merged_into: null
 display_name: 王太康
+cbdb_id: 414220
 revision: 1
 properties:
   - predicate: bio.summary

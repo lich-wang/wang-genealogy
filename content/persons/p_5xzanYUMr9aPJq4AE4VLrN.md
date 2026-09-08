@@ -4,6 +4,7 @@ id: p_5xzanYUMr9aPJq4AE4VLrN
 status: active
 merged_into: null
 display_name: 王训
+cbdb_id: 95124
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_A241Q19C1D7aArnNcNR92N
 status: active
 merged_into: null
 display_name: 王添民
+cbdb_id: 209979
 revision: 1
 properties:
   - predicate: bio.summary

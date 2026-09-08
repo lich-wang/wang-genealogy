@@ -4,6 +4,7 @@ id: p_pq4bQFr7xCqz9PXMARBRGG
 status: active
 merged_into: null
 display_name: 王廷楷
+cbdb_id: 414465
 revision: 1
 properties:
   - predicate: bio.summary

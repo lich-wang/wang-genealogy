@@ -4,6 +4,7 @@ id: p_A69KAfjk6P6uXiF2Y3UQ1k
 status: active
 merged_into: null
 display_name: 王綸部
+cbdb_id: 415258
 revision: 1
 properties:
   - predicate: bio.summary

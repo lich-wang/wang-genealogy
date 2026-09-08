@@ -4,6 +4,7 @@ id: p_e93G3h1G3NZyofHC7Z5tK6
 status: active
 merged_into: null
 display_name: 王起鴻
+cbdb_id: 71938
 revision: 1
 properties:
   - predicate: bio.summary

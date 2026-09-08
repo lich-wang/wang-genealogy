@@ -4,6 +4,7 @@ id: p_LMGs3ubexVRQy3nt9urZLc
 status: active
 merged_into: null
 display_name: 王同賡
+cbdb_id: 228283
 revision: 1
 properties:
   - predicate: bio.summary

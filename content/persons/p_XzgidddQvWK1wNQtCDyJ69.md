@@ -4,6 +4,7 @@ id: p_XzgidddQvWK1wNQtCDyJ69
 status: active
 merged_into: null
 display_name: 王應賓
+cbdb_id: 221580
 revision: 1
 properties:
   - predicate: bio.summary

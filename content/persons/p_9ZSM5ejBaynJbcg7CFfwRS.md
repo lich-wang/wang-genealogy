@@ -4,6 +4,7 @@ id: p_9ZSM5ejBaynJbcg7CFfwRS
 status: active
 merged_into: null
 display_name: 王成智
+cbdb_id: 414673
 revision: 1
 properties:
   - predicate: bio.summary

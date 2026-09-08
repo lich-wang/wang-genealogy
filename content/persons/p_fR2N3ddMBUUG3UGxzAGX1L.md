@@ -4,6 +4,7 @@ id: p_fR2N3ddMBUUG3UGxzAGX1L
 status: active
 merged_into: null
 display_name: 王許之
+cbdb_id: 205842
 revision: 1
 properties:
   - predicate: bio.summary

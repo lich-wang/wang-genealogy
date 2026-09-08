@@ -4,6 +4,7 @@ id: p_W3BBsy7mNsKcZJJw9MDRvc
 status: active
 merged_into: null
 display_name: 王又旦
+cbdb_id: 69041
 revision: 1
 properties:
   - predicate: bio.summary

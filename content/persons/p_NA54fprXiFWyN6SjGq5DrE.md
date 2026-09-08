@@ -4,6 +4,7 @@ id: p_NA54fprXiFWyN6SjGq5DrE
 status: active
 merged_into: null
 display_name: 王秀三
+cbdb_id: 278789
 revision: 1
 properties:
   - predicate: bio.summary

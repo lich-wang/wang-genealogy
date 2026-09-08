@@ -4,6 +4,7 @@ id: p_gYd8CATb5W5RF7MSb2BLhs
 status: active
 merged_into: null
 display_name: 王慶源
+cbdb_id: 117607
 revision: 1
 properties:
   - predicate: bio.summary

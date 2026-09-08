@@ -4,6 +4,7 @@ id: p_uhy43vUK7iZvhpKmoJs64Z
 status: active
 merged_into: null
 display_name: 王學謹
+cbdb_id: 324370
 revision: 1
 properties:
   - predicate: bio.summary

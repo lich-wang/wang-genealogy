@@ -4,6 +4,7 @@ id: p_JMsBmZTJdbYG4P477H3fmS
 status: active
 merged_into: null
 display_name: 王子魯
+cbdb_id: 313194
 revision: 1
 properties:
   - predicate: bio.summary

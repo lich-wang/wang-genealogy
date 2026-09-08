@@ -4,6 +4,7 @@ id: p_FNemrg73Qr9eos2WfScS7w
 status: active
 merged_into: null
 display_name: 王龍兒
+cbdb_id: 148531
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_wqwHEwZkKe1U86yVrkQ69X
 status: active
 merged_into: null
 display_name: 王垂憲
+cbdb_id: 97839
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_ExnSXbEBng6rEeQSBJdPNS
 status: active
 merged_into: null
 display_name: 王原行
+cbdb_id: 257392
 revision: 1
 properties:
   - predicate: bio.summary

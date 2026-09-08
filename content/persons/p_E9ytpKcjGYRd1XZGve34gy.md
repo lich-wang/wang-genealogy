@@ -4,6 +4,7 @@ id: p_E9ytpKcjGYRd1XZGve34gy
 status: active
 merged_into: null
 display_name: 王景
+cbdb_id: 92088
 revision: 1
 properties:
   - predicate: bio.summary

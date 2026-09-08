@@ -4,6 +4,7 @@ id: p_i6KqpQkkMiCQtbQJwhMqBc
 status: active
 merged_into: null
 display_name: 王之子
+cbdb_id: 305354
 revision: 1
 properties:
   - predicate: bio.summary

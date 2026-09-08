@@ -4,6 +4,7 @@ id: p_yLff8vvaLwKeDPpBy22z1r
 status: active
 merged_into: null
 display_name: 姜延栴
+cbdb_id: 123060
 revision: 2
 properties:
   - predicate: bio.summary

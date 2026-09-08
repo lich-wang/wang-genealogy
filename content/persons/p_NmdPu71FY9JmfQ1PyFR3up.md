@@ -4,6 +4,7 @@ id: p_NmdPu71FY9JmfQ1PyFR3up
 status: active
 merged_into: null
 display_name: 王應珮
+cbdb_id: 67184
 revision: 1
 properties:
   - predicate: bio.summary

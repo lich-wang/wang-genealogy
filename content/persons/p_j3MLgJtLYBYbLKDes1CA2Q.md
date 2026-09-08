@@ -4,6 +4,7 @@ id: p_j3MLgJtLYBYbLKDes1CA2Q
 status: active
 merged_into: null
 display_name: 王金銘
+cbdb_id: 501044
 revision: 1
 properties:
   - predicate: bio.summary

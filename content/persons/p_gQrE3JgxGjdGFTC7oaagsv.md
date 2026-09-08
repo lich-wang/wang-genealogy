@@ -4,6 +4,7 @@ id: p_gQrE3JgxGjdGFTC7oaagsv
 status: active
 merged_into: null
 display_name: 王以和
+cbdb_id: 413822
 revision: 1
 properties:
   - predicate: bio.summary

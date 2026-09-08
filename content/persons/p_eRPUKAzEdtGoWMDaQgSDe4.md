@@ -4,6 +4,7 @@ id: p_eRPUKAzEdtGoWMDaQgSDe4
 status: active
 merged_into: null
 display_name: 王蕙滋
+cbdb_id: 343127
 revision: 1
 properties:
   - predicate: bio.summary

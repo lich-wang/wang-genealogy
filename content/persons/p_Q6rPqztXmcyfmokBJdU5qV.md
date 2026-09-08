@@ -4,6 +4,7 @@ id: p_Q6rPqztXmcyfmokBJdU5qV
 status: active
 merged_into: null
 display_name: 王惠章
+cbdb_id: 327159
 revision: 1
 properties:
   - predicate: bio.summary

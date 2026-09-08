@@ -4,6 +4,7 @@ id: p_2ELRaqPY9TPgubvJSHU3xg
 status: active
 merged_into: null
 display_name: 王昌驛
+cbdb_id: 414777
 revision: 1
 properties:
   - predicate: bio.summary

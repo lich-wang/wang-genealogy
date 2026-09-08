@@ -4,6 +4,7 @@ id: p_zXY7kt53p3ANN9H4P6ii19
 status: active
 merged_into: null
 display_name: 王源洁
+cbdb_id: 175569
 revision: 1
 properties:
   - predicate: bio.summary

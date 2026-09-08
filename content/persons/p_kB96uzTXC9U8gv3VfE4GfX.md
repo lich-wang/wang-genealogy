@@ -4,6 +4,7 @@ id: p_kB96uzTXC9U8gv3VfE4GfX
 status: active
 merged_into: null
 display_name: 王重鼎
+cbdb_id: 235148
 revision: 1
 properties:
   - predicate: bio.summary

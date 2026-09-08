@@ -4,6 +4,7 @@ id: p_AdLVBofN9e9FsL2Lu4eFQb
 status: active
 merged_into: null
 display_name: 王秀雍
+cbdb_id: 97984
 revision: 1
 properties:
   - predicate: bio.summary

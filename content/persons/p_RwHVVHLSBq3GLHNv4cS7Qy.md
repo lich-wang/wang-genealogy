@@ -4,6 +4,7 @@ id: p_RwHVVHLSBq3GLHNv4cS7Qy
 status: active
 merged_into: null
 display_name: 王大典
+cbdb_id: 414195
 revision: 1
 properties:
   - predicate: bio.summary

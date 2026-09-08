@@ -4,6 +4,7 @@ id: p_eXz9nyV5fjd3jC2T5ukiWV
 status: active
 merged_into: null
 display_name: 王甲士
+cbdb_id: 343477
 revision: 1
 properties:
   - predicate: bio.summary

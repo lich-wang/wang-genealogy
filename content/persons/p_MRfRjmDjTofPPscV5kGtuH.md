@@ -4,6 +4,7 @@ id: p_MRfRjmDjTofPPscV5kGtuH
 status: active
 merged_into: null
 display_name: 王某化
+cbdb_id: 413660
 revision: 1
 properties:
   - predicate: bio.summary

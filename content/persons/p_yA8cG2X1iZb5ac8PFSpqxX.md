@@ -4,6 +4,7 @@ id: p_yA8cG2X1iZb5ac8PFSpqxX
 status: active
 merged_into: null
 display_name: 王庇
+cbdb_id: 186420
 revision: 1
 properties:
   - predicate: bio.summary

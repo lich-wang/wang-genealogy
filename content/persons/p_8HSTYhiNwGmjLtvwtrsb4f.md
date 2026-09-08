@@ -4,6 +4,7 @@ id: p_8HSTYhiNwGmjLtvwtrsb4f
 status: active
 merged_into: null
 display_name: 王麟駒
+cbdb_id: 514422
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_Wsjn3BK91j5PLBQLbmHvGB
 status: active
 merged_into: null
 display_name: 王省身
+cbdb_id: 343890
 revision: 1
 properties:
   - predicate: bio.summary

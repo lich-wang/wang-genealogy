@@ -4,6 +4,7 @@ id: p_KX4v27rrc8fJTmP8xiJBiH
 status: active
 merged_into: null
 display_name: 王士孝
+cbdb_id: 414161
 revision: 1
 properties:
   - predicate: bio.summary

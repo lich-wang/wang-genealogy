@@ -4,6 +4,7 @@ id: p_u62LKUyfEkGuhsTSB7MsDc
 status: active
 merged_into: null
 display_name: 王拱巳
+cbdb_id: 22237
 revision: 1
 properties:
   - predicate: bio.summary

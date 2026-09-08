@@ -4,6 +4,7 @@ id: p_Q5d3BMnoxhCUMVXqNXM2Fm
 status: active
 merged_into: null
 display_name: 王廷鼎
+cbdb_id: 71567
 revision: 1
 properties:
   - predicate: bio.summary

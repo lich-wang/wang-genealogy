@@ -4,6 +4,7 @@ id: p_6QaTwwZqiDfmko6JKxHuZM
 status: active
 merged_into: null
 display_name: 王守涓
+cbdb_id: 196065
 revision: 1
 properties:
   - predicate: bio.summary

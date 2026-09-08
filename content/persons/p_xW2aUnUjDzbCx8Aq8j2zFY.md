@@ -4,6 +4,7 @@ id: p_xW2aUnUjDzbCx8Aq8j2zFY
 status: active
 merged_into: null
 display_name: 王以週
+cbdb_id: 221825
 revision: 1
 properties:
   - predicate: bio.summary

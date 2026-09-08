@@ -4,6 +4,7 @@ id: p_nk2Z1RGKMY5kxo3CAisDTw
 status: active
 merged_into: null
 display_name: 王一表
+cbdb_id: 413679
 revision: 1
 properties:
   - predicate: bio.summary

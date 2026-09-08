@@ -4,6 +4,7 @@ id: p_LvqCxNG1L649zhQGJLHMih
 status: active
 merged_into: null
 display_name: 王彭
+cbdb_id: 175633
 revision: 1
 properties:
   - predicate: bio.summary

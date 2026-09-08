@@ -4,6 +4,7 @@ id: p_rSwurbhPfqQk4mxAaGrNPM
 status: active
 merged_into: null
 display_name: 王汝繙
+cbdb_id: 381715
 revision: 1
 properties:
   - predicate: bio.summary

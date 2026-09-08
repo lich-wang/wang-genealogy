@@ -4,6 +4,7 @@ id: p_uUh9Pi89GFPVEBK1NccYf6
 status: active
 merged_into: null
 display_name: 王易知
+cbdb_id: 37657
 revision: 1
 properties:
   - predicate: bio.summary

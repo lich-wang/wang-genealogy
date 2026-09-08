@@ -4,6 +4,7 @@ id: p_6Zj9jZ9KuBU4GBmcEFK5BK
 status: active
 merged_into: null
 display_name: 王立愛
+cbdb_id: 415207
 revision: 1
 properties:
   - predicate: bio.summary

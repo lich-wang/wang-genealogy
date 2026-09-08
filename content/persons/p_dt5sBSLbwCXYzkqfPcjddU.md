@@ -4,6 +4,7 @@ id: p_dt5sBSLbwCXYzkqfPcjddU
 status: active
 merged_into: null
 display_name: 王曾魯
+cbdb_id: 520244
 revision: 1
 properties:
   - predicate: bio.summary

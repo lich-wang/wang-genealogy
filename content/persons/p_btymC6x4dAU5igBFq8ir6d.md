@@ -4,6 +4,7 @@ id: p_btymC6x4dAU5igBFq8ir6d
 status: active
 merged_into: null
 display_name: 王遵禮
+cbdb_id: 101442
 revision: 1
 properties:
   - predicate: bio.summary

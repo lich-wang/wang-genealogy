@@ -4,6 +4,7 @@ id: p_HuCPb2BQe3yJw3CN3sLRqE
 status: active
 merged_into: null
 display_name: 王舜韶
+cbdb_id: 209577
 revision: 1
 properties:
   - predicate: bio.summary

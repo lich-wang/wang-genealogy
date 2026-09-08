@@ -4,6 +4,7 @@ id: p_EPoEhnzxUXZ38QvoPDgs5s
 status: active
 merged_into: null
 display_name: 王绶
+cbdb_id: 28111
 revision: 1
 properties:
   - predicate: bio.summary

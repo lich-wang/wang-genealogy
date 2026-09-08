@@ -4,6 +4,7 @@ id: p_mEduZaLrALkKCy8D5ujhXy
 status: active
 merged_into: null
 display_name: 王子翼
+cbdb_id: 45870
 revision: 1
 properties:
   - predicate: bio.summary

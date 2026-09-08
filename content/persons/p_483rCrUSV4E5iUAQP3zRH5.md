@@ -4,6 +4,7 @@ id: p_483rCrUSV4E5iUAQP3zRH5
 status: active
 merged_into: null
 display_name: 王我繼
+cbdb_id: 294347
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_gZEG3LV8BoSpVH5X7JPghB
 status: active
 merged_into: null
 display_name: 王崇獻
+cbdb_id: 126689
 revision: 1
 properties:
   - predicate: bio.summary

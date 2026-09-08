@@ -4,6 +4,7 @@ id: p_DhoqLn1Sv6xJecE7tXfsdN
 status: active
 merged_into: null
 display_name: 王明徳
+cbdb_id: 414781
 revision: 1
 properties:
   - predicate: bio.summary

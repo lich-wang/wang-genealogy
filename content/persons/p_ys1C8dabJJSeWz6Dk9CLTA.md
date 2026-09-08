@@ -4,6 +4,7 @@ id: p_ys1C8dabJJSeWz6Dk9CLTA
 status: active
 merged_into: null
 display_name: 王永基
+cbdb_id: 414940
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_F5hazwzcVncNtpZFL7kuXD
 status: active
 merged_into: null
 display_name: 王端昌
+cbdb_id: 226065
 revision: 1
 properties:
   - predicate: bio.summary

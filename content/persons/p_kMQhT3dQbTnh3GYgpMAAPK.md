@@ -4,6 +4,7 @@ id: p_kMQhT3dQbTnh3GYgpMAAPK
 status: active
 merged_into: null
 display_name: 王保民
+cbdb_id: 241172
 revision: 1
 properties:
   - predicate: bio.summary

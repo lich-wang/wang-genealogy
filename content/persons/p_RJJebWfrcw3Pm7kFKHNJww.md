@@ -4,6 +4,7 @@ id: p_RJJebWfrcw3Pm7kFKHNJww
 status: active
 merged_into: null
 display_name: 王光培
+cbdb_id: 413936
 revision: 1
 properties:
   - predicate: bio.summary

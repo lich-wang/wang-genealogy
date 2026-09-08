@@ -4,6 +4,7 @@ id: p_7GRQwiPgLTYEqHaPBw3xMh
 status: active
 merged_into: null
 display_name: 王鴻志
+cbdb_id: 45864
 revision: 1
 properties:
   - predicate: bio.summary

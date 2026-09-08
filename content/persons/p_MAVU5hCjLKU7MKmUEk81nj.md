@@ -4,6 +4,7 @@ id: p_MAVU5hCjLKU7MKmUEk81nj
 status: active
 merged_into: null
 display_name: 王長諧
+cbdb_id: 32340
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_zJDz4P65nwREAqn4VVgZT1
 status: active
 merged_into: null
 display_name: 王宗傅
+cbdb_id: 414299
 revision: 1
 properties:
   - predicate: bio.summary

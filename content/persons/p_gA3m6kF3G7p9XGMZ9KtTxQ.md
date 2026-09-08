@@ -4,6 +4,7 @@ id: p_gA3m6kF3G7p9XGMZ9KtTxQ
 status: active
 merged_into: null
 display_name: 王紹嗣
+cbdb_id: 164373
 revision: 1
 properties:
   - predicate: bio.summary

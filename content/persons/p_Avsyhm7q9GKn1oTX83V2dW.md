@@ -4,6 +4,7 @@ id: p_Avsyhm7q9GKn1oTX83V2dW
 status: active
 merged_into: null
 display_name: 王志斌
+cbdb_id: 175387
 revision: 1
 properties:
   - predicate: bio.summary

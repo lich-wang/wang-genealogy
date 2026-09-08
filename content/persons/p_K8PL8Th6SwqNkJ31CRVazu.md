@@ -4,6 +4,7 @@ id: p_K8PL8Th6SwqNkJ31CRVazu
 status: active
 merged_into: null
 display_name: 王有貞
+cbdb_id: 223505
 revision: 1
 properties:
   - predicate: bio.summary

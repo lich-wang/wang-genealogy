@@ -4,6 +4,7 @@ id: p_PaPNy2CS1q35QC2Tb2fFrA
 status: active
 merged_into: null
 display_name: 王遂
+cbdb_id: 175460
 revision: 1
 properties:
   - predicate: bio.summary

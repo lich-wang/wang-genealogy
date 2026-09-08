@@ -4,6 +4,7 @@ id: p_7NAyU2j6Ue5njG5i41Q9z5
 status: active
 merged_into: null
 display_name: 王世昭
+cbdb_id: 287983
 revision: 1
 properties:
   - predicate: bio.summary

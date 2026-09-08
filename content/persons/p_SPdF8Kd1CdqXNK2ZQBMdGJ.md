@@ -4,6 +4,7 @@ id: p_SPdF8Kd1CdqXNK2ZQBMdGJ
 status: active
 merged_into: null
 display_name: 王室屏
+cbdb_id: 223630
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_m2u5S517EzZLU5zbF8ATt2
 status: active
 merged_into: null
 display_name: 王宗則
+cbdb_id: 700868
 revision: 1
 properties:
   - predicate: bio.summary

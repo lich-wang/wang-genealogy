@@ -4,6 +4,7 @@ id: p_M3D2FKDJFx2Hq3AxD7bJQN
 status: active
 merged_into: null
 display_name: 王嗣立
+cbdb_id: 175568
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_ot6N5Mfu9DRM4t3d4QJidM
 status: active
 merged_into: null
 display_name: 王師曰
+cbdb_id: 414421
 revision: 1
 properties:
   - predicate: bio.summary

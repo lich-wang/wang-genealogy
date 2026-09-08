@@ -4,6 +4,7 @@ id: p_Ct25pKmaZJo6zvVomNZ3sE
 status: active
 merged_into: null
 display_name: 王惟祇
+cbdb_id: 294966
 revision: 1
 properties:
   - predicate: bio.summary

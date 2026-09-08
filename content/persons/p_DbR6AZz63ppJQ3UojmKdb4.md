@@ -4,6 +4,7 @@ id: p_DbR6AZz63ppJQ3UojmKdb4
 status: active
 merged_into: null
 display_name: 王彥禮
+cbdb_id: 239746
 revision: 1
 properties:
   - predicate: bio.summary

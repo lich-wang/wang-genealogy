@@ -4,6 +4,7 @@ id: p_FuECHtEuruGsfL43Q42Giy
 status: active
 merged_into: null
 display_name: 王炳昂
+cbdb_id: 210109
 revision: 1
 properties:
   - predicate: bio.summary

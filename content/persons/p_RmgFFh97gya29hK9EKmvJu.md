@@ -4,6 +4,7 @@ id: p_RmgFFh97gya29hK9EKmvJu
 status: active
 merged_into: null
 display_name: 王待舉
+cbdb_id: 13955
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_8gBq8AMjzNbSBCVUSRVV56
 status: active
 merged_into: null
 display_name: 王之詔
+cbdb_id: 413768
 revision: 1
 properties:
   - predicate: bio.summary

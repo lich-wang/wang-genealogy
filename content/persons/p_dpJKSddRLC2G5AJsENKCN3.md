@@ -4,6 +4,7 @@ id: p_dpJKSddRLC2G5AJsENKCN3
 status: active
 merged_into: null
 display_name: 王國賢
+cbdb_id: 213999
 revision: 1
 properties:
   - predicate: bio.summary

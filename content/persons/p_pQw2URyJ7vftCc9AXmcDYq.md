@@ -4,6 +4,7 @@ id: p_pQw2URyJ7vftCc9AXmcDYq
 status: active
 merged_into: null
 display_name: 王在德
+cbdb_id: 101157
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_Qb4sm1YTpasuXLiEN1oacY
 status: active
 merged_into: null
 display_name: 王時松
+cbdb_id: 308744
 revision: 1
 properties:
   - predicate: bio.summary

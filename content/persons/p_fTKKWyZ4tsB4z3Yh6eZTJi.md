@@ -4,6 +4,7 @@ id: p_fTKKWyZ4tsB4z3Yh6eZTJi
 status: active
 merged_into: null
 display_name: 王錫琛
+cbdb_id: 376046
 revision: 1
 properties:
   - predicate: bio.summary

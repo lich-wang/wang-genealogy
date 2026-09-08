@@ -4,6 +4,7 @@ id: p_n8RsAChmbMkPJKyY4LbY2P
 status: active
 merged_into: null
 display_name: 王時權
+cbdb_id: 308753
 revision: 1
 properties:
   - predicate: bio.summary

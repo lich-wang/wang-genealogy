@@ -4,6 +4,7 @@ id: p_o2jd6XM2st4wNoe31NqPUN
 status: active
 merged_into: null
 display_name: 王守居
+cbdb_id: 414283
 revision: 1
 properties:
   - predicate: bio.summary

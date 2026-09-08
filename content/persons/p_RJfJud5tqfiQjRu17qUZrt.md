@@ -4,6 +4,7 @@ id: p_RJfJud5tqfiQjRu17qUZrt
 status: active
 merged_into: null
 display_name: 王兆鄗
+cbdb_id: 513439
 revision: 1
 properties:
   - predicate: bio.summary

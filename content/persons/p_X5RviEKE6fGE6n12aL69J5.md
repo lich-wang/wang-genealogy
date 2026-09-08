@@ -4,6 +4,7 @@ id: p_X5RviEKE6fGE6n12aL69J5
 status: active
 merged_into: null
 display_name: 王仲閎
+cbdb_id: 1799
 revision: 1
 properties:
   - predicate: bio.summary

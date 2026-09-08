@@ -4,6 +4,7 @@ id: p_7jhD66o3s8z6AE5PWG4d99
 status: active
 merged_into: null
 display_name: 王祟憲
+cbdb_id: 415190
 revision: 1
 properties:
   - predicate: bio.summary

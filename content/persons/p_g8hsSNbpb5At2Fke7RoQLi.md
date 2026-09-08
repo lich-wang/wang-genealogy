@@ -4,6 +4,7 @@ id: p_g8hsSNbpb5At2Fke7RoQLi
 status: active
 merged_into: null
 display_name: 王世安
+cbdb_id: 17756
 revision: 2
 properties:
   - predicate: bio.summary

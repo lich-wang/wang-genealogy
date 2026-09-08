@@ -4,6 +4,7 @@ id: p_xz2i3ijCN6yWhdomSwkBZS
 status: active
 merged_into: null
 display_name: 王智溫
+cbdb_id: 157934
 revision: 1
 properties:
   - predicate: bio.summary

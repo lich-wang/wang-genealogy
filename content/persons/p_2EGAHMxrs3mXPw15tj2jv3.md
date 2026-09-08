@@ -4,6 +4,7 @@ id: p_2EGAHMxrs3mXPw15tj2jv3
 status: active
 merged_into: null
 display_name: 王仁諒
+cbdb_id: 22087
 revision: 1
 properties:
   - predicate: bio.summary

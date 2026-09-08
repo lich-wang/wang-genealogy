@@ -4,6 +4,7 @@ id: p_VNMhpf6ADNYmHf6CEQi37x
 status: active
 merged_into: null
 display_name: 王桂英
+cbdb_id: 118696
 revision: 1
 properties:
   - predicate: bio.summary

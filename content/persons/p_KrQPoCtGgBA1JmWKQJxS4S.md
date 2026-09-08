@@ -4,6 +4,7 @@ id: p_KrQPoCtGgBA1JmWKQJxS4S
 status: active
 merged_into: null
 display_name: 王检
+cbdb_id: 175433
 revision: 1
 properties:
   - predicate: bio.summary

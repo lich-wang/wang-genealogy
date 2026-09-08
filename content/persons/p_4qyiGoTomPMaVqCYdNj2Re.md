@@ -4,6 +4,7 @@ id: p_4qyiGoTomPMaVqCYdNj2Re
 status: active
 merged_into: null
 display_name: 王育民
+cbdb_id: 302954
 revision: 1
 properties:
   - predicate: bio.summary

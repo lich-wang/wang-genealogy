@@ -4,6 +4,7 @@ id: p_RLZEReaGJ24KnEJboA7mLp
 status: active
 merged_into: null
 display_name: 王垣京
+cbdb_id: 343042
 revision: 1
 properties:
   - predicate: bio.summary

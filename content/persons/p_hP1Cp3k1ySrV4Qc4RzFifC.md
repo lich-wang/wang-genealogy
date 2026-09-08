@@ -4,6 +4,7 @@ id: p_hP1Cp3k1ySrV4Qc4RzFifC
 status: active
 merged_into: null
 display_name: 王應鏡
+cbdb_id: 304275
 revision: 1
 properties:
   - predicate: bio.summary

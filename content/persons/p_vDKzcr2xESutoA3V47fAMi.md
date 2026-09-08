@@ -4,6 +4,7 @@ id: p_vDKzcr2xESutoA3V47fAMi
 status: active
 merged_into: null
 display_name: 王以贊
+cbdb_id: 413828
 revision: 1
 properties:
   - predicate: bio.summary

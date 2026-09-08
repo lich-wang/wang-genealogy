@@ -4,6 +4,7 @@ id: p_XMQdK2FcGGicPgwMFMaiBE
 status: active
 merged_into: null
 display_name: 王辨
+cbdb_id: 267149
 revision: 1
 properties:
   - predicate: bio.summary

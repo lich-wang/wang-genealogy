@@ -4,6 +4,7 @@ id: p_zGwYgFnfVCdL5Rsx1AJPUV
 status: active
 merged_into: null
 display_name: 王宗圭
+cbdb_id: 240083
 revision: 1
 properties:
   - predicate: bio.summary

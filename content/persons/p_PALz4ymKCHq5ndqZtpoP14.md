@@ -4,6 +4,7 @@ id: p_PALz4ymKCHq5ndqZtpoP14
 status: active
 merged_into: null
 display_name: 王台明
+cbdb_id: 342275
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_viFJ82ZMxNZHMEWDAj1JL9
 status: active
 merged_into: null
 display_name: 王鳴宴
+cbdb_id: 415637
 revision: 1
 properties:
   - predicate: bio.summary

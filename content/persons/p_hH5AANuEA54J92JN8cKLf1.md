@@ -4,6 +4,7 @@ id: p_hH5AANuEA54J92JN8cKLf1
 status: active
 merged_into: null
 display_name: 王元燮
+cbdb_id: 152078
 revision: 1
 properties:
   - predicate: bio.summary

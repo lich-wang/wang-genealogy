@@ -4,6 +4,7 @@ id: p_HGTjhaakibDLwU8GLD6uPb
 status: active
 merged_into: null
 display_name: 王祖晉
+cbdb_id: 472260
 revision: 1
 properties:
   - predicate: bio.summary

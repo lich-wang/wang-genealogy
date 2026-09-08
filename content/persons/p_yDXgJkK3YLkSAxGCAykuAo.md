@@ -4,6 +4,7 @@ id: p_yDXgJkK3YLkSAxGCAykuAo
 status: active
 merged_into: null
 display_name: 王昭雍
+cbdb_id: 22073
 revision: 1
 properties:
   - predicate: bio.summary

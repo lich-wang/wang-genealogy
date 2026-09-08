@@ -4,6 +4,7 @@ id: p_o7xsNk75aRnVbLke56vgQf
 status: active
 merged_into: null
 display_name: 王擺矢
+cbdb_id: 414710
 revision: 1
 properties:
   - predicate: bio.summary

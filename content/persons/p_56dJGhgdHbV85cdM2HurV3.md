@@ -4,6 +4,7 @@ id: p_56dJGhgdHbV85cdM2HurV3
 status: active
 merged_into: null
 display_name: 王师贞
+cbdb_id: 175530
 revision: 1
 properties:
   - predicate: bio.summary

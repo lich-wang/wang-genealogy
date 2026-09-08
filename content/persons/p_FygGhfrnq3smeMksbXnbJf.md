@@ -4,6 +4,7 @@ id: p_FygGhfrnq3smeMksbXnbJf
 status: active
 merged_into: null
 display_name: 王雍熙
+cbdb_id: 227290
 revision: 1
 properties:
   - predicate: bio.summary

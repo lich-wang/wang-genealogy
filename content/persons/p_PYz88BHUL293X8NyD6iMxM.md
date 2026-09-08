@@ -4,6 +4,7 @@ id: p_PYz88BHUL293X8NyD6iMxM
 status: active
 merged_into: null
 display_name: 王世鏜
+cbdb_id: 71477
 revision: 1
 properties:
   - predicate: bio.summary

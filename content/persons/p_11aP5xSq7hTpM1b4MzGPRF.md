@@ -4,6 +4,7 @@ id: p_11aP5xSq7hTpM1b4MzGPRF
 status: active
 merged_into: null
 display_name: 王孟洮
+cbdb_id: 71835
 revision: 1
 properties:
   - predicate: bio.summary

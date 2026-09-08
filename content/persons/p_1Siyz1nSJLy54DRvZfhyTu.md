@@ -4,6 +4,7 @@ id: p_1Siyz1nSJLy54DRvZfhyTu
 status: active
 merged_into: null
 display_name: 王豫卿
+cbdb_id: 72205
 revision: 1
 properties:
   - predicate: bio.summary

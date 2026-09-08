@@ -4,6 +4,7 @@ id: p_6LXPs2CFJW688fxhC9FxLv
 status: active
 merged_into: null
 display_name: 王傅巖
+cbdb_id: 38163
 revision: 1
 properties:
   - predicate: bio.summary

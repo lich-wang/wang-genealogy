@@ -4,6 +4,7 @@ id: p_pxV3ZUgWPQzCjese46VYwx
 status: active
 merged_into: null
 display_name: 王升童
+cbdb_id: 525504
 revision: 1
 properties:
   - predicate: bio.summary

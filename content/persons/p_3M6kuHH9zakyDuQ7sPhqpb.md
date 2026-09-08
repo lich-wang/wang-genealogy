@@ -4,6 +4,7 @@ id: p_3M6kuHH9zakyDuQ7sPhqpb
 status: active
 merged_into: null
 display_name: 王承祿
+cbdb_id: 264046
 revision: 1
 properties:
   - predicate: bio.summary

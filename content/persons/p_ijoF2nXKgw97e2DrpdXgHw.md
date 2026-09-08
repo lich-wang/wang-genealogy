@@ -4,6 +4,7 @@ id: p_ijoF2nXKgw97e2DrpdXgHw
 status: active
 merged_into: null
 display_name: 王承琬
+cbdb_id: 414687
 revision: 1
 properties:
   - predicate: bio.summary

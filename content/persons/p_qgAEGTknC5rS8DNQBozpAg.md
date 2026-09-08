@@ -4,6 +4,7 @@ id: p_qgAEGTknC5rS8DNQBozpAg
 status: active
 merged_into: null
 display_name: 王成瑞
+cbdb_id: 71538
 revision: 1
 properties:
   - predicate: bio.summary

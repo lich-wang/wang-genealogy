@@ -4,6 +4,7 @@ id: p_PAztSGhi3GhFmb6SH6aSii
 status: active
 merged_into: null
 display_name: 王中道
+cbdb_id: 457005
 revision: 1
 properties:
   - predicate: bio.summary

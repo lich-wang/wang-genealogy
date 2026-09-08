@@ -4,6 +4,7 @@ id: p_5Yd1bf7njj71Y1f2eS44VA
 status: active
 merged_into: null
 display_name: 王凝才
+cbdb_id: 413983
 revision: 1
 properties:
   - predicate: bio.summary

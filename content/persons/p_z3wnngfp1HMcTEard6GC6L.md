@@ -4,6 +4,7 @@ id: p_z3wnngfp1HMcTEard6GC6L
 status: active
 merged_into: null
 display_name: 王廷琮
+cbdb_id: 414474
 revision: 1
 properties:
   - predicate: bio.summary

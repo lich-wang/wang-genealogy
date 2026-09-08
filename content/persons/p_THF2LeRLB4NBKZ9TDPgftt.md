@@ -4,6 +4,7 @@ id: p_THF2LeRLB4NBKZ9TDPgftt
 status: active
 merged_into: null
 display_name: 王叔紀
+cbdb_id: 262605
 revision: 1
 properties:
   - predicate: bio.summary

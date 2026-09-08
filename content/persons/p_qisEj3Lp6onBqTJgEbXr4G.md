@@ -4,6 +4,7 @@ id: p_qisEj3Lp6onBqTJgEbXr4G
 status: active
 merged_into: null
 display_name: 王朝桂
+cbdb_id: 343282
 revision: 1
 properties:
   - predicate: bio.summary

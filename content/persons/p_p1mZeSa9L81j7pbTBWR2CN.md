@@ -4,6 +4,7 @@ id: p_p1mZeSa9L81j7pbTBWR2CN
 status: active
 merged_into: null
 display_name: 王進才
+cbdb_id: 415489
 revision: 1
 properties:
   - predicate: bio.summary

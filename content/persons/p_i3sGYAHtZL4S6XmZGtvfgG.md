@@ -4,6 +4,7 @@ id: p_i3sGYAHtZL4S6XmZGtvfgG
 status: active
 merged_into: null
 display_name: 王為善
+cbdb_id: 280176
 revision: 1
 properties:
   - predicate: bio.summary

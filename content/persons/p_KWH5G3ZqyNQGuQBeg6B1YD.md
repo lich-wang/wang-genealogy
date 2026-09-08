@@ -4,6 +4,7 @@ id: p_KWH5G3ZqyNQGuQBeg6B1YD
 status: active
 merged_into: null
 display_name: 王衛國
+cbdb_id: 526774
 revision: 1
 properties:
   - predicate: bio.summary

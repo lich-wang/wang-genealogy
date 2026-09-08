@@ -4,6 +4,7 @@ id: p_rWTtuppG5JgmFGHM97tE3k
 status: active
 merged_into: null
 display_name: 王海實
+cbdb_id: 228113
 revision: 1
 properties:
   - predicate: bio.summary

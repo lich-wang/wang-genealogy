@@ -4,6 +4,7 @@ id: p_HrWuVY78rxoviqC215BJzt
 status: active
 merged_into: null
 display_name: 王世祚
+cbdb_id: 233802
 revision: 1
 properties:
   - predicate: bio.summary

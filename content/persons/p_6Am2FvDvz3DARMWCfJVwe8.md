@@ -4,6 +4,7 @@ id: p_6Am2FvDvz3DARMWCfJVwe8
 status: active
 merged_into: null
 display_name: 王汝卿
+cbdb_id: 414962
 revision: 1
 properties:
   - predicate: bio.summary

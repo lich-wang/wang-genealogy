@@ -4,6 +4,7 @@ id: p_cZBud2fMcDR6rn4NqeNQf3
 status: active
 merged_into: null
 display_name: 王铨
+cbdb_id: 175404
 revision: 1
 properties:
   - predicate: bio.summary

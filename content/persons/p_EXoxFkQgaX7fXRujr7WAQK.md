@@ -4,6 +4,7 @@ id: p_EXoxFkQgaX7fXRujr7WAQK
 status: active
 merged_into: null
 display_name: 王羅漠
+cbdb_id: 150571
 revision: 1
 properties:
   - predicate: bio.summary

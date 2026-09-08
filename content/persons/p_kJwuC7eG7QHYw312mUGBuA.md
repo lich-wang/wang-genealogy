@@ -4,6 +4,7 @@ id: p_kJwuC7eG7QHYw312mUGBuA
 status: active
 merged_into: null
 display_name: 王福善
+cbdb_id: 291652
 revision: 1
 properties:
   - predicate: bio.summary

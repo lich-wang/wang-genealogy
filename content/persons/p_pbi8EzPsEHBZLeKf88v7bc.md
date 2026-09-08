@@ -4,6 +4,7 @@ id: p_pbi8EzPsEHBZLeKf88v7bc
 status: active
 merged_into: null
 display_name: 王元秉
+cbdb_id: 413915
 revision: 1
 properties:
   - predicate: bio.summary

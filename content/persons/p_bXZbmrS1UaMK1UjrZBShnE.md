@@ -4,6 +4,7 @@ id: p_bXZbmrS1UaMK1UjrZBShnE
 status: active
 merged_into: null
 display_name: 王答
+cbdb_id: 328170
 revision: 1
 properties:
   - predicate: bio.summary

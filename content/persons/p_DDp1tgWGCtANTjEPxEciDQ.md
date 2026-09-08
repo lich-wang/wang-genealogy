@@ -4,6 +4,7 @@ id: p_DDp1tgWGCtANTjEPxEciDQ
 status: active
 merged_into: null
 display_name: 王世修
+cbdb_id: 1873
 revision: 1
 properties:
   - predicate: bio.summary

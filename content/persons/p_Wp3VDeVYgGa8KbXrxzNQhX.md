@@ -4,6 +4,7 @@ id: p_Wp3VDeVYgGa8KbXrxzNQhX
 status: active
 merged_into: null
 display_name: 王景元
+cbdb_id: 526837
 revision: 1
 properties:
   - predicate: bio.summary

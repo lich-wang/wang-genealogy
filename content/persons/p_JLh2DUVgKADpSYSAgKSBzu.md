@@ -4,6 +4,7 @@ id: p_JLh2DUVgKADpSYSAgKSBzu
 status: active
 merged_into: null
 display_name: 王爾琨
+cbdb_id: 341811
 revision: 1
 properties:
   - predicate: bio.summary

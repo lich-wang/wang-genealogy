@@ -4,6 +4,7 @@ id: p_99NdFYxYXzGEAHAZ9P11WP
 status: active
 merged_into: null
 display_name: 王長仁
+cbdb_id: 193546
 revision: 1
 properties:
   - predicate: bio.summary

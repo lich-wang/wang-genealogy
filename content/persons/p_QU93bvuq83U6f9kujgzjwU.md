@@ -4,6 +4,7 @@ id: p_QU93bvuq83U6f9kujgzjwU
 status: active
 merged_into: null
 display_name: 王仲鸾
+cbdb_id: 175466
 revision: 1
 properties:
   - predicate: bio.summary

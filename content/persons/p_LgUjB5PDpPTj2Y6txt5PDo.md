@@ -4,6 +4,7 @@ id: p_LgUjB5PDpPTj2Y6txt5PDo
 status: active
 merged_into: null
 display_name: 王段
+cbdb_id: 139128
 revision: 1
 properties:
   - predicate: bio.summary

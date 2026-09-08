@@ -4,6 +4,7 @@ id: p_3ak7dpaWurwbSJZ48xJP8k
 status: active
 merged_into: null
 display_name: 王延範
+cbdb_id: 1926
 revision: 1
 properties:
   - predicate: bio.summary

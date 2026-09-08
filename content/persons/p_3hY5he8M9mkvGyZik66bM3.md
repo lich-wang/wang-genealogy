@@ -4,6 +4,7 @@ id: p_3hY5he8M9mkvGyZik66bM3
 status: active
 merged_into: null
 display_name: 王室垣
+cbdb_id: 206814
 revision: 1
 properties:
   - predicate: bio.summary

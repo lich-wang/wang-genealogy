@@ -4,6 +4,7 @@ id: p_kUT6CKJMD7wefTKtPxYVah
 status: active
 merged_into: null
 display_name: 王如宰
+cbdb_id: 414230
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_dp7QGMGowFY6Lcmac5nY4C
 status: active
 merged_into: null
 display_name: 王偲
+cbdb_id: 100784
 revision: 1
 properties:
   - predicate: bio.summary

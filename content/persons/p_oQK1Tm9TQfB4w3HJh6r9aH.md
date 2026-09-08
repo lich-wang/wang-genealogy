@@ -4,6 +4,7 @@ id: p_oQK1Tm9TQfB4w3HJh6r9aH
 status: active
 merged_into: null
 display_name: 王允泰
+cbdb_id: 413893
 revision: 1
 properties:
   - predicate: bio.summary

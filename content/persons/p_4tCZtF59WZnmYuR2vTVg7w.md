@@ -4,6 +4,7 @@ id: p_4tCZtF59WZnmYuR2vTVg7w
 status: active
 merged_into: null
 display_name: 王祚振
+cbdb_id: 342834
 revision: 1
 properties:
   - predicate: bio.summary

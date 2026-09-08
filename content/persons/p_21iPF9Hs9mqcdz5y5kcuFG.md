@@ -4,6 +4,7 @@ id: p_21iPF9Hs9mqcdz5y5kcuFG
 status: active
 merged_into: null
 display_name: 王星
+cbdb_id: 35584
 revision: 2
 properties:
   - predicate: bio.summary

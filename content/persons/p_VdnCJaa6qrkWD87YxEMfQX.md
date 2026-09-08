@@ -4,6 +4,7 @@ id: p_VdnCJaa6qrkWD87YxEMfQX
 status: active
 merged_into: null
 display_name: 王师宝
+cbdb_id: 175564
 revision: 1
 properties:
   - predicate: bio.summary

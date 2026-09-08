@@ -4,6 +4,7 @@ id: p_jRz6Q43QTHo5gYxVGRLoJK
 status: active
 merged_into: null
 display_name: 王叔承
+cbdb_id: 126577
 revision: 1
 properties:
   - predicate: bio.summary

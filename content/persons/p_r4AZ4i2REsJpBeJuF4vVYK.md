@@ -4,6 +4,7 @@ id: p_r4AZ4i2REsJpBeJuF4vVYK
 status: active
 merged_into: null
 display_name: 王葆修
+cbdb_id: 343119
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_8cfSa6q83oCB3tvJeySLrv
 status: active
 merged_into: null
 display_name: 王文統
+cbdb_id: 101099
 revision: 1
 properties:
   - predicate: bio.summary

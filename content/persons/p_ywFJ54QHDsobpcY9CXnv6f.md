@@ -4,6 +4,7 @@ id: p_ywFJ54QHDsobpcY9CXnv6f
 status: active
 merged_into: null
 display_name: 王觀京
+cbdb_id: 294724
 revision: 1
 properties:
   - predicate: bio.summary

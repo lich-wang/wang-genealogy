@@ -4,6 +4,7 @@ id: p_3GVtF1CSJpGQWYhKPXwVwq
 status: active
 merged_into: null
 display_name: 王思鑑
+cbdb_id: 324423
 revision: 1
 properties:
   - predicate: bio.summary

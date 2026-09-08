@@ -4,6 +4,7 @@ id: p_j6EaMZNGUnDKX6FgWBw9gL
 status: active
 merged_into: null
 display_name: 王均祿
+cbdb_id: 253537
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_tQpXCkcNhPWARnQNqNxaXV
 status: active
 merged_into: null
 display_name: 王發椿
+cbdb_id: 517432
 revision: 1
 properties:
   - predicate: bio.summary

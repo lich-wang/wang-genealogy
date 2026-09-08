@@ -4,6 +4,7 @@ id: p_hLmKm2pBpxB4J1zRWb41LU
 status: active
 merged_into: null
 display_name: 王維士
+cbdb_id: 415246
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_pf9kdYJiqxZAPiw6P1waQM
 status: active
 merged_into: null
 display_name: 王英楷
+cbdb_id: 61554
 revision: 1
 properties:
   - predicate: bio.summary

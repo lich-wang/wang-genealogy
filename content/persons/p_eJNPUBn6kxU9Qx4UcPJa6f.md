@@ -4,6 +4,7 @@ id: p_eJNPUBn6kxU9Qx4UcPJa6f
 status: active
 merged_into: null
 display_name: 王如翰
+cbdb_id: 226077
 revision: 1
 properties:
   - predicate: bio.summary

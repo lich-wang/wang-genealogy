@@ -4,6 +4,7 @@ id: p_dRw777sDXEhPX5SSkM6j8y
 status: active
 merged_into: null
 display_name: 王觀大
+cbdb_id: 415405
 revision: 1
 properties:
   - predicate: bio.summary

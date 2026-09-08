@@ -4,6 +4,7 @@ id: p_Ltj8rGcgApBAPCqQfk5vGV
 status: active
 merged_into: null
 display_name: 王釜
+cbdb_id: 445663
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_xZGCFs81JGTvnDtaeirAXU
 status: active
 merged_into: null
 display_name: 王藉
+cbdb_id: 42676
 revision: 1
 properties:
   - predicate: bio.summary

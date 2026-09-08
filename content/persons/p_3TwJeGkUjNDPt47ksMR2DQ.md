@@ -4,6 +4,7 @@ id: p_3TwJeGkUjNDPt47ksMR2DQ
 status: active
 merged_into: null
 display_name: 王少舉
+cbdb_id: 167648
 revision: 1
 properties:
   - predicate: bio.summary

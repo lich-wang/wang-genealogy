@@ -4,6 +4,7 @@ id: p_ev361aY6NS9yWhF2wBpWqs
 status: active
 merged_into: null
 display_name: 王衍儀
+cbdb_id: 526806
 revision: 1
 properties:
   - predicate: bio.summary

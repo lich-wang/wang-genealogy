@@ -4,6 +4,7 @@ id: p_NtBM39m3UoSeCd3NWKZQEL
 status: active
 merged_into: null
 display_name: 王頡
+cbdb_id: 249263
 revision: 1
 properties:
   - predicate: bio.summary

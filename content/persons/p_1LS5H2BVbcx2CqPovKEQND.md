@@ -4,6 +4,7 @@ id: p_1LS5H2BVbcx2CqPovKEQND
 status: active
 merged_into: null
 display_name: 王仁贍
+cbdb_id: 1831
 revision: 1
 properties:
   - predicate: bio.summary

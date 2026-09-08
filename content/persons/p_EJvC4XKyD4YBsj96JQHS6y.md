@@ -4,6 +4,7 @@ id: p_EJvC4XKyD4YBsj96JQHS6y
 status: active
 merged_into: null
 display_name: 王國遇
+cbdb_id: 414134
 revision: 1
 properties:
   - predicate: bio.summary

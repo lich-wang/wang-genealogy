@@ -4,6 +4,7 @@ id: p_eHuKq97LgcuzePGMHYxQCH
 status: active
 merged_into: null
 display_name: 王三賓
+cbdb_id: 67113
 revision: 1
 properties:
   - predicate: bio.summary

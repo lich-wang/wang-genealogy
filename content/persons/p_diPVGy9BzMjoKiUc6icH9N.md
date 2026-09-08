@@ -4,6 +4,7 @@ id: p_diPVGy9BzMjoKiUc6icH9N
 status: active
 merged_into: null
 display_name: 王化
+cbdb_id: 15747
 revision: 2
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_bihchq7ihoPQFxDPNdJBwa
 status: active
 merged_into: null
 display_name: 王庭老
+cbdb_id: 1887
 revision: 1
 properties:
   - predicate: bio.summary

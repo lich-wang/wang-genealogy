@@ -4,6 +4,7 @@ id: p_yJ3TVQF9TZGy72FnBo91RN
 status: active
 merged_into: null
 display_name: 王鳳竹
+cbdb_id: 126794
 revision: 1
 properties:
   - predicate: bio.summary

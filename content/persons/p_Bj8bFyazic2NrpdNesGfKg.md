@@ -4,6 +4,7 @@ id: p_Bj8bFyazic2NrpdNesGfKg
 status: active
 merged_into: null
 display_name: 王鸿
+cbdb_id: 140992
 revision: 1
 properties:
   - predicate: bio.summary

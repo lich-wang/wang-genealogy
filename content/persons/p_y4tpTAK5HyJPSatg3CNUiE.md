@@ -4,6 +4,7 @@ id: p_y4tpTAK5HyJPSatg3CNUiE
 status: active
 merged_into: null
 display_name: 王元照
+cbdb_id: 341798
 revision: 1
 properties:
   - predicate: bio.summary

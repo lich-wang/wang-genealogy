@@ -4,6 +4,7 @@ id: p_bbA2A1GrfUE3UHbSpwtEYz
 status: active
 merged_into: null
 display_name: 王羊仁
+cbdb_id: 140591
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_qMkmVNUCbKnUQ6PnBSet2a
 status: active
 merged_into: null
 display_name: 王卜憐吉台
+cbdb_id: 101469
 revision: 1
 properties:
   - predicate: bio.summary

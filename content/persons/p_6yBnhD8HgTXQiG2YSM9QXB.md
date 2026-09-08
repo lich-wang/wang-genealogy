@@ -4,6 +4,7 @@ id: p_6yBnhD8HgTXQiG2YSM9QXB
 status: active
 merged_into: null
 display_name: 王象祖
+cbdb_id: 38133
 revision: 1
 properties:
   - predicate: bio.summary

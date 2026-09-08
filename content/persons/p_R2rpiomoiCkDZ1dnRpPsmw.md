@@ -4,6 +4,7 @@ id: p_R2rpiomoiCkDZ1dnRpPsmw
 status: active
 merged_into: null
 display_name: 王朋從
+cbdb_id: 175958
 revision: 1
 properties:
   - predicate: bio.summary

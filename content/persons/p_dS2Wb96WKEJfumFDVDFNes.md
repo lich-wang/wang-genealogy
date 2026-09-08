@@ -4,6 +4,7 @@ id: p_dS2Wb96WKEJfumFDVDFNes
 status: active
 merged_into: null
 display_name: 王汝偉
+cbdb_id: 314233
 revision: 1
 properties:
   - predicate: bio.summary

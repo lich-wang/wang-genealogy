@@ -4,6 +4,7 @@ id: p_C3qbUqK8r4tdCLJC1H25mH
 status: active
 merged_into: null
 display_name: 王民卿
+cbdb_id: 210119
 revision: 1
 properties:
   - predicate: bio.summary

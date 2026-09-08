@@ -4,6 +4,7 @@ id: p_nuMvqZt8LytQmhzUkKZZZh
 status: active
 merged_into: null
 display_name: 王義山
+cbdb_id: 35302
 revision: 1
 properties:
   - predicate: bio.summary

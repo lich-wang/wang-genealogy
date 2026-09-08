@@ -4,6 +4,7 @@ id: p_ptMfEt1rAT4WiPXRdKXa9c
 status: active
 merged_into: null
 display_name: 王馨
+cbdb_id: 302967
 revision: 2
 properties:
   - predicate: bio.summary

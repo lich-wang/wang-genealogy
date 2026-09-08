@@ -4,6 +4,7 @@ id: p_KMpUw21MkzdHgcCwnYVS8A
 status: active
 merged_into: null
 display_name: 王志審
+cbdb_id: 235160
 revision: 1
 properties:
   - predicate: bio.summary

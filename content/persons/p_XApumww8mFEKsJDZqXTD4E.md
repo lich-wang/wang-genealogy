@@ -4,6 +4,7 @@ id: p_XApumww8mFEKsJDZqXTD4E
 status: active
 merged_into: null
 display_name: 王品璋
+cbdb_id: 71872
 revision: 1
 properties:
   - predicate: bio.summary

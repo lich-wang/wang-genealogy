@@ -4,6 +4,7 @@ id: p_wpEg1j6shbutH8Yn5EPUqQ
 status: active
 merged_into: null
 display_name: 王灼三
+cbdb_id: 71706
 revision: 1
 properties:
   - predicate: bio.summary

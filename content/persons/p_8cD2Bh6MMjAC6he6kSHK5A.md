@@ -4,6 +4,7 @@ id: p_8cD2Bh6MMjAC6he6kSHK5A
 status: active
 merged_into: null
 display_name: 王均保
+cbdb_id: 414140
 revision: 1
 properties:
   - predicate: bio.summary

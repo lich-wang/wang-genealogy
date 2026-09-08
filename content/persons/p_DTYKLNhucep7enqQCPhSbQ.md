@@ -4,6 +4,7 @@ id: p_DTYKLNhucep7enqQCPhSbQ
 status: active
 merged_into: null
 display_name: 王安武
+cbdb_id: 250567
 revision: 1
 properties:
   - predicate: bio.summary

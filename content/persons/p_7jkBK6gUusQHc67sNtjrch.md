@@ -4,6 +4,7 @@ id: p_7jkBK6gUusQHc67sNtjrch
 status: active
 merged_into: null
 display_name: 王允獻
+cbdb_id: 342249
 revision: 1
 properties:
   - predicate: bio.summary

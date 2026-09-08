@@ -4,6 +4,7 @@ id: p_zbB7243CZBDeQfXX6v32PE
 status: active
 merged_into: null
 display_name: 王用華
+cbdb_id: 335482
 revision: 1
 properties:
   - predicate: bio.summary

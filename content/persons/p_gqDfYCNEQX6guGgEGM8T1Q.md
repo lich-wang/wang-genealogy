@@ -4,6 +4,7 @@ id: p_gqDfYCNEQX6guGgEGM8T1Q
 status: active
 merged_into: null
 display_name: 王仕敬
+cbdb_id: 413811
 revision: 1
 properties:
   - predicate: bio.summary

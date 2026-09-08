@@ -4,6 +4,7 @@ id: p_TRfhKBUtDV6YB5yTwTCG1x
 status: active
 merged_into: null
 display_name: 王四服
+cbdb_id: 511599
 revision: 1
 properties:
   - predicate: bio.summary

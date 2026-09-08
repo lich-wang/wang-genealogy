@@ -4,6 +4,7 @@ id: p_F2454H8Cc6wu6ZPvt6wSft
 status: active
 merged_into: null
 display_name: 王承堯
+cbdb_id: 60617
 revision: 1
 properties:
   - predicate: bio.summary

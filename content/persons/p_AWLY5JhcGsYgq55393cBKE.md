@@ -4,6 +4,7 @@ id: p_AWLY5JhcGsYgq55393cBKE
 status: active
 merged_into: null
 display_name: 王十翼
+cbdb_id: 330495
 revision: 1
 properties:
   - predicate: bio.summary

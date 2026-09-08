@@ -4,6 +4,7 @@ id: p_x9CQGixzEkUnA7H8VckBPu
 status: active
 merged_into: null
 display_name: 王引之
+cbdb_id: 57120
 revision: 3
 properties:
   - predicate: bio.summary

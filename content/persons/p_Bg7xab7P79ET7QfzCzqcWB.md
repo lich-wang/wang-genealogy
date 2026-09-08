@@ -4,6 +4,7 @@ id: p_Bg7xab7P79ET7QfzCzqcWB
 status: active
 merged_into: null
 display_name: 王守國
+cbdb_id: 414281
 revision: 1
 properties:
   - predicate: bio.summary

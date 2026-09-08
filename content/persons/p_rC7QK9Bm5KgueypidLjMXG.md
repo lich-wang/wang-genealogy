@@ -4,6 +4,7 @@ id: p_rC7QK9Bm5KgueypidLjMXG
 status: active
 merged_into: null
 display_name: 王廷謀
+cbdb_id: 526697
 revision: 1
 properties:
   - predicate: bio.summary

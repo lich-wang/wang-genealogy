@@ -4,6 +4,7 @@ id: p_K9BMyGYocQ1aPRiM6V3xy6
 status: active
 merged_into: null
 display_name: 王鳴鵬
+cbdb_id: 285501
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_uLuvMDZA7ZeZMSXnTQ2QhR
 status: active
 merged_into: null
 display_name: 王賜鏞
+cbdb_id: 415450
 revision: 1
 properties:
   - predicate: bio.summary

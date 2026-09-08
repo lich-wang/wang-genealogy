@@ -4,6 +4,7 @@ id: p_qqsY6t9Q8faV4F4CdLeZ5T
 status: active
 merged_into: null
 display_name: 王本堅
+cbdb_id: 332107
 revision: 1
 properties:
   - predicate: bio.summary

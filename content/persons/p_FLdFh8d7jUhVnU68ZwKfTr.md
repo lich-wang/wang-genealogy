@@ -4,6 +4,7 @@ id: p_FLdFh8d7jUhVnU68ZwKfTr
 status: active
 merged_into: null
 display_name: 王壘
+cbdb_id: 100986
 revision: 1
 properties:
   - predicate: bio.summary

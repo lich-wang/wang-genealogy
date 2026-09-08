@@ -4,6 +4,7 @@ id: p_yimVFHEuD7ogK6pfk8Uig5
 status: active
 merged_into: null
 display_name: 王昭禹
+cbdb_id: 37684
 revision: 1
 properties:
   - predicate: bio.summary

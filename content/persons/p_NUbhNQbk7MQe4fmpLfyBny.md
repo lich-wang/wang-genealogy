@@ -4,6 +4,7 @@ id: p_NUbhNQbk7MQe4fmpLfyBny
 status: active
 merged_into: null
 display_name: 王德某
+cbdb_id: 142148
 revision: 1
 properties:
   - predicate: bio.summary

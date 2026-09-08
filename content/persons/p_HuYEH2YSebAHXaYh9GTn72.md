@@ -4,6 +4,7 @@ id: p_HuYEH2YSebAHXaYh9GTn72
 status: active
 merged_into: null
 display_name: 王繼和
+cbdb_id: 254107
 revision: 1
 properties:
   - predicate: bio.summary

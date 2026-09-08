@@ -4,6 +4,7 @@ id: p_DzPFA54in6g8RHEHJMm53v
 status: active
 merged_into: null
 display_name: 王行簡
+cbdb_id: 415387
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_ssHxbbtDC56vT3wSvtFyWj
 status: active
 merged_into: null
 display_name: 王文才
+cbdb_id: 322901
 revision: 1
 properties:
   - predicate: bio.summary

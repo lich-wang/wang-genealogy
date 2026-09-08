@@ -4,6 +4,7 @@ id: p_rAtBr5CffV8JhNFyVGU2Zr
 status: active
 merged_into: null
 display_name: 王毓瑞
+cbdb_id: 487631
 revision: 1
 properties:
   - predicate: bio.summary

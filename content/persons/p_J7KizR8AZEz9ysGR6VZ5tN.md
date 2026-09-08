@@ -4,6 +4,7 @@ id: p_J7KizR8AZEz9ysGR6VZ5tN
 status: active
 merged_into: null
 display_name: 王裕昌
+cbdb_id: 342844
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_A14LP6YVSXyCHjhPT46BAe
 status: active
 merged_into: null
 display_name: 王怡政
+cbdb_id: 146314
 revision: 1
 properties:
   - predicate: bio.summary

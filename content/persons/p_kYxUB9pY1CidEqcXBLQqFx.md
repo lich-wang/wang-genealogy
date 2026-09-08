@@ -4,6 +4,7 @@ id: p_kYxUB9pY1CidEqcXBLQqFx
 status: active
 merged_into: null
 display_name: 王翌
+cbdb_id: 162390
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_ZAHu6NCu8M7SXNMggZKDir
 status: active
 merged_into: null
 display_name: 王之桐
+cbdb_id: 413751
 revision: 1
 properties:
   - predicate: bio.summary

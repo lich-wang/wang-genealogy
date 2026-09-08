@@ -4,6 +4,7 @@ id: p_Jun3pZ1BMQpwyok4KhGLAv
 status: active
 merged_into: null
 display_name: 王舜英
+cbdb_id: 522616
 revision: 2
 properties:
   - predicate: bio.summary

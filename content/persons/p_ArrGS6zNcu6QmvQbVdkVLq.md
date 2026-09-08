@@ -4,6 +4,7 @@ id: p_ArrGS6zNcu6QmvQbVdkVLq
 status: active
 merged_into: null
 display_name: 王君命
+cbdb_id: 325031
 revision: 1
 properties:
   - predicate: bio.summary

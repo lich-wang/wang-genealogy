@@ -4,6 +4,7 @@ id: p_DHtuhNiqBTjA2GF3zYLZ6w
 status: active
 merged_into: null
 display_name: 王處道
+cbdb_id: 101349
 revision: 1
 properties:
   - predicate: bio.summary

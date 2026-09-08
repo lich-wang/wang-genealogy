@@ -4,6 +4,7 @@ id: p_Et9QxeD3FrNB42d4LhJ5Z2
 status: active
 merged_into: null
 display_name: 王盛文
+cbdb_id: 415162
 revision: 1
 properties:
   - predicate: bio.summary

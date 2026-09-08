@@ -4,6 +4,7 @@ id: p_x2T6ocCWYMY49gmSp3QJnj
 status: active
 merged_into: null
 display_name: 王翰君
+cbdb_id: 121666
 revision: 1
 properties:
   - predicate: bio.summary

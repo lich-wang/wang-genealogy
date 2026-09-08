@@ -4,6 +4,7 @@ id: p_kLtehY678srjkbwvpdJADa
 status: active
 merged_into: null
 display_name: 王仙仙
+cbdb_id: 445505
 revision: 1
 properties:
   - predicate: bio.summary

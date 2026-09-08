@@ -4,6 +4,7 @@ id: p_oJyHrTtA8vuQzWweqp45TE
 status: active
 merged_into: null
 display_name: 王以佐
+cbdb_id: 216206
 revision: 1
 properties:
   - predicate: bio.summary

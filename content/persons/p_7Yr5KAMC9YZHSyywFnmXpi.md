@@ -4,6 +4,7 @@ id: p_7Yr5KAMC9YZHSyywFnmXpi
 status: active
 merged_into: null
 display_name: 王怙
+cbdb_id: 97893
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_fXN9suYPYjAM5PxATQxype
 status: active
 merged_into: null
 display_name: 王金蓮
+cbdb_id: 101261
 revision: 1
 properties:
   - predicate: bio.summary

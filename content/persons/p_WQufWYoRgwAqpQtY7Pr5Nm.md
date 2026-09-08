@@ -4,6 +4,7 @@ id: p_WQufWYoRgwAqpQtY7Pr5Nm
 status: active
 merged_into: null
 display_name: 王摩
+cbdb_id: 139168
 revision: 1
 properties:
   - predicate: bio.summary

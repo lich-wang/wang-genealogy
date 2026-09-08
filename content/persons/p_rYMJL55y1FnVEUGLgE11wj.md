@@ -4,6 +4,7 @@ id: p_rYMJL55y1FnVEUGLgE11wj
 status: active
 merged_into: null
 display_name: 王任翰
+cbdb_id: 334521
 revision: 1
 properties:
   - predicate: bio.summary

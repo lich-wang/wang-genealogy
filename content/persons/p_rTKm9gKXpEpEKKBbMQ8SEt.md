@@ -4,6 +4,7 @@ id: p_rTKm9gKXpEpEKKBbMQ8SEt
 status: active
 merged_into: null
 display_name: 王惟贊
+cbdb_id: 159959
 revision: 1
 properties:
   - predicate: bio.summary

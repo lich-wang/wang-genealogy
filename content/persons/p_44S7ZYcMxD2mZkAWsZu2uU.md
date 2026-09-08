@@ -4,6 +4,7 @@ id: p_44S7ZYcMxD2mZkAWsZu2uU
 status: active
 merged_into: null
 display_name: 王中甫
+cbdb_id: 38233
 revision: 1
 properties:
   - predicate: bio.summary

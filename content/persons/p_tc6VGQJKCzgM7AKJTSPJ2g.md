@@ -4,6 +4,7 @@ id: p_tc6VGQJKCzgM7AKJTSPJ2g
 status: active
 merged_into: null
 display_name: 王師中
+cbdb_id: 97876
 revision: 1
 properties:
   - predicate: bio.summary

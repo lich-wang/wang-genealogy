@@ -4,6 +4,7 @@ id: p_iVsKoMKZ2pdBqdgY6tXGNE
 status: active
 merged_into: null
 display_name: 王以曾
+cbdb_id: 255289
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_JkHQfuCMVqE8YBzUxPqfSq
 status: active
 merged_into: null
 display_name: 王成泰
+cbdb_id: 414674
 revision: 1
 properties:
   - predicate: bio.summary

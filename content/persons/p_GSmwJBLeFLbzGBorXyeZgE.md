@@ -4,6 +4,7 @@ id: p_GSmwJBLeFLbzGBorXyeZgE
 status: active
 merged_into: null
 display_name: 王可旺
+cbdb_id: 261818
 revision: 1
 properties:
   - predicate: name.primary

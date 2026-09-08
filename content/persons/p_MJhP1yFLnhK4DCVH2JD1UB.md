@@ -4,6 +4,7 @@ id: p_MJhP1yFLnhK4DCVH2JD1UB
 status: active
 merged_into: null
 display_name: 王質安
+cbdb_id: 221571
 revision: 1
 properties:
   - predicate: bio.summary

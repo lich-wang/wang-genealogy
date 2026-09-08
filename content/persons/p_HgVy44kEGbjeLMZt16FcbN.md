@@ -4,6 +4,7 @@ id: p_HgVy44kEGbjeLMZt16FcbN
 status: active
 merged_into: null
 display_name: 王宰
+cbdb_id: 184941
 revision: 2
 properties:
   - predicate: bio.summary

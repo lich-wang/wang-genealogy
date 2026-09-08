@@ -4,6 +4,7 @@ id: p_VBfUvqUHVfG5ffpmCP5SEC
 status: active
 merged_into: null
 display_name: 王五美
+cbdb_id: 330489
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_3GCur1ofekZ2cBjCLCKvaf
 status: active
 merged_into: null
 display_name: 王益孚
+cbdb_id: 343703
 revision: 1
 properties:
   - predicate: bio.summary

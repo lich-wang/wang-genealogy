@@ -4,6 +4,7 @@ id: p_7nQfAEJ9azrFcqzMEsprku
 status: active
 merged_into: null
 display_name: 王俊選
+cbdb_id: 342270
 revision: 1
 properties:
   - predicate: bio.summary

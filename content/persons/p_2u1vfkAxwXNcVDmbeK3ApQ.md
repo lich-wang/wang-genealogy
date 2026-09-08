@@ -4,6 +4,7 @@ id: p_2u1vfkAxwXNcVDmbeK3ApQ
 status: active
 merged_into: null
 display_name: 王家驢
+cbdb_id: 115878
 revision: 1
 properties:
   - predicate: bio.summary

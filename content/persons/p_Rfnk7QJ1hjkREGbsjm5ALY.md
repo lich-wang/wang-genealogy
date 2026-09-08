@@ -4,6 +4,7 @@ id: p_Rfnk7QJ1hjkREGbsjm5ALY
 status: active
 merged_into: null
 display_name: 王學召
+cbdb_id: 303184
 revision: 1
 properties:
   - predicate: bio.summary

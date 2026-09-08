@@ -4,6 +4,7 @@ id: p_pjwjeQB3c3i2YSotSPMVVU
 status: active
 merged_into: null
 display_name: 王慶溥
+cbdb_id: 117608
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_7AzaTDzKMvxdsLpAeeHh4N
 status: active
 merged_into: null
 display_name: 王用子
+cbdb_id: 320676
 revision: 1
 properties:
   - predicate: bio.summary

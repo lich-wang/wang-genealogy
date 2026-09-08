@@ -4,6 +4,7 @@ id: p_9Y5WcqfhZptK1pSNuejMJA
 status: active
 merged_into: null
 display_name: 王維甯
+cbdb_id: 415254
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_WBLxnMTWEeyK1cJx26nZLS
 status: active
 merged_into: null
 display_name: 王汝榆
+cbdb_id: 342730
 revision: 1
 properties:
   - predicate: bio.summary

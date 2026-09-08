@@ -4,6 +4,7 @@ id: p_hM3vjFMs9i66hM6EGe5bMD
 status: active
 merged_into: null
 display_name: 王憲藎
+cbdb_id: 414631
 revision: 1
 properties:
   - predicate: bio.summary

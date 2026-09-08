@@ -4,6 +4,7 @@ id: p_y6zteE4f29zi6ki6BtCkQj
 status: active
 merged_into: null
 display_name: 王元舉
+cbdb_id: 235474
 revision: 1
 properties:
   - predicate: bio.summary

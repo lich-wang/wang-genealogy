@@ -4,6 +4,7 @@ id: p_2N55Nj9HuhbpAEtgY3mAwW
 status: active
 merged_into: null
 display_name: 王泰林
+cbdb_id: 71932
 revision: 1
 properties:
   - predicate: bio.summary

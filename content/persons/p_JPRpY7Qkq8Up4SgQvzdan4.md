@@ -4,6 +4,7 @@ id: p_JPRpY7Qkq8Up4SgQvzdan4
 status: active
 merged_into: null
 display_name: 王正來
+cbdb_id: 414911
 revision: 1
 properties:
   - predicate: bio.summary

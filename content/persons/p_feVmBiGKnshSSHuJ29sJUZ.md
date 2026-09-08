@@ -4,6 +4,7 @@ id: p_feVmBiGKnshSSHuJ29sJUZ
 status: active
 merged_into: null
 display_name: 王鴻印
+cbdb_id: 415641
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_fFe8329FzkfXNjioB6seLD
 status: active
 merged_into: null
 display_name: 王性中
+cbdb_id: 304156
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_JqzU5LE3RNAfELxijbGC2y
 status: active
 merged_into: null
 display_name: 王昌芮
+cbdb_id: 185628
 revision: 1
 properties:
   - predicate: bio.summary

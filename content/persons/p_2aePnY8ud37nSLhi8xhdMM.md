@@ -4,6 +4,7 @@ id: p_2aePnY8ud37nSLhi8xhdMM
 status: active
 merged_into: null
 display_name: 王子啟
+cbdb_id: 511602
 revision: 1
 properties:
   - predicate: bio.summary

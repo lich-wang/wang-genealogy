@@ -4,6 +4,7 @@ id: p_51C8Kh4aNymAeDywG3epKL
 status: active
 merged_into: null
 display_name: 王嗣先
+cbdb_id: 202354
 revision: 1
 properties:
   - predicate: bio.summary

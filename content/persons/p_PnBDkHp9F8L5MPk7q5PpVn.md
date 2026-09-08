@@ -4,6 +4,7 @@ id: p_PnBDkHp9F8L5MPk7q5PpVn
 status: active
 merged_into: null
 display_name: 王永鎭
+cbdb_id: 414957
 revision: 1
 properties:
   - predicate: bio.summary

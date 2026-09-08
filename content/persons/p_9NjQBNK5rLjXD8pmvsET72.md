@@ -4,6 +4,7 @@ id: p_9NjQBNK5rLjXD8pmvsET72
 status: active
 merged_into: null
 display_name: 王文殊
+cbdb_id: 148708
 revision: 1
 properties:
   - predicate: bio.summary

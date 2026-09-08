@@ -4,6 +4,7 @@ id: p_HYAxuxv91NAAWnNdh2JAm1
 status: active
 merged_into: null
 display_name: 王大訓
+cbdb_id: 217539
 revision: 1
 properties:
   - predicate: bio.summary

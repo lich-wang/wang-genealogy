@@ -4,6 +4,7 @@ id: p_3JGCygw4WqTjqNgmxRroSy
 status: active
 merged_into: null
 display_name: 王再德
+cbdb_id: 192502
 revision: 1
 properties:
   - predicate: bio.summary

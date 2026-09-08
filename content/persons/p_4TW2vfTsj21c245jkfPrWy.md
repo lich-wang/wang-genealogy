@@ -4,6 +4,7 @@ id: p_4TW2vfTsj21c245jkfPrWy
 status: active
 merged_into: null
 display_name: 王廷銓
+cbdb_id: 414491
 revision: 1
 properties:
   - predicate: bio.summary

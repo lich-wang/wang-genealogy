@@ -4,6 +4,7 @@ id: p_yDxE3JtAm2V5VYaoCMTCxB
 status: active
 merged_into: null
 display_name: 王素娥
+cbdb_id: 118812
 revision: 1
 properties:
   - predicate: bio.summary

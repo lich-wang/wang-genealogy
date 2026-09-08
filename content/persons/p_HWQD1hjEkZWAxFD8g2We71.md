@@ -4,6 +4,7 @@ id: p_HWQD1hjEkZWAxFD8g2We71
 status: active
 merged_into: null
 display_name: 王子偉
+cbdb_id: 248388
 revision: 1
 properties:
   - predicate: bio.summary

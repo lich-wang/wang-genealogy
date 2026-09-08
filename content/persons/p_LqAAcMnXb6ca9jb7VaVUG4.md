@@ -4,6 +4,7 @@ id: p_LqAAcMnXb6ca9jb7VaVUG4
 status: active
 merged_into: null
 display_name: 王國弼
+cbdb_id: 414118
 revision: 1
 properties:
   - predicate: bio.summary

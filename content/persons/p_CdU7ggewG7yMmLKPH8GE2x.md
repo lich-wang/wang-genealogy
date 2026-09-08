@@ -4,6 +4,7 @@ id: p_CdU7ggewG7yMmLKPH8GE2x
 status: active
 merged_into: null
 display_name: 王玄伯
+cbdb_id: 445433
 revision: 1
 properties:
   - predicate: bio.summary

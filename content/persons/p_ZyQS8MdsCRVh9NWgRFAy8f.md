@@ -4,6 +4,7 @@ id: p_ZyQS8MdsCRVh9NWgRFAy8f
 status: active
 merged_into: null
 display_name: 王積熙
+cbdb_id: 342365
 revision: 1
 properties:
   - predicate: bio.summary

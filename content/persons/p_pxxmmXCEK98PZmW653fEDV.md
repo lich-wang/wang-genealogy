@@ -4,6 +4,7 @@ id: p_pxxmmXCEK98PZmW653fEDV
 status: active
 merged_into: null
 display_name: 王漢英
+cbdb_id: 38303
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_LrLt4o7TYJ8217j24hT9zm
 status: active
 merged_into: null
 display_name: 王印孫
+cbdb_id: 414009
 revision: 1
 properties:
   - predicate: bio.summary

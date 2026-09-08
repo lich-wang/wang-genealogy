@@ -4,6 +4,7 @@ id: p_BLoWU8fQh4kBTFMMA5dRQu
 status: active
 merged_into: null
 display_name: 王清孠
+cbdb_id: 415028
 revision: 1
 properties:
   - predicate: bio.summary

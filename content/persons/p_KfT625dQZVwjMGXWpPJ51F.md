@@ -4,6 +4,7 @@ id: p_KfT625dQZVwjMGXWpPJ51F
 status: active
 merged_into: null
 display_name: 王洪序
+cbdb_id: 342738
 revision: 1
 properties:
   - predicate: bio.summary

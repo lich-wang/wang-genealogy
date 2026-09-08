@@ -4,6 +4,7 @@ id: p_SDFpyQ9WQCR839CKSQL9E1
 status: active
 merged_into: null
 display_name: 王鲁卿
+cbdb_id: 175492
 revision: 1
 properties:
   - predicate: bio.summary

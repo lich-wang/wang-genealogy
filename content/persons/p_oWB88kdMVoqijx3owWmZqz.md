@@ -4,6 +4,7 @@ id: p_oWB88kdMVoqijx3owWmZqz
 status: active
 merged_into: null
 display_name: 王遵典
+cbdb_id: 342848
 revision: 1
 properties:
   - predicate: bio.summary

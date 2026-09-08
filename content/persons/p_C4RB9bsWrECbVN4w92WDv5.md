@@ -4,6 +4,7 @@ id: p_C4RB9bsWrECbVN4w92WDv5
 status: active
 merged_into: null
 display_name: 王元祐
+cbdb_id: 26290
 revision: 1
 properties:
   - predicate: bio.summary

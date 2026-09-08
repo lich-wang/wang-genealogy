@@ -4,6 +4,7 @@ id: p_fWqv2zUDUC1priua1PcgJQ
 status: active
 merged_into: null
 display_name: 王慧憫
+cbdb_id: 343385
 revision: 1
 properties:
   - predicate: bio.summary

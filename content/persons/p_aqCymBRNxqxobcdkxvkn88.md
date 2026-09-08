@@ -4,6 +4,7 @@ id: p_aqCymBRNxqxobcdkxvkn88
 status: active
 merged_into: null
 display_name: 王重霸
+cbdb_id: 119716
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_xB7871S7HwU6pxAoVaGhjA
 status: active
 merged_into: null
 display_name: 王瑾文
+cbdb_id: 154606
 revision: 1
 properties:
   - predicate: bio.summary

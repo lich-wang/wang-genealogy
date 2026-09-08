@@ -4,6 +4,7 @@ id: p_DTfTgBqPVmmY39EnxBDvEJ
 status: active
 merged_into: null
 display_name: 王吳婆
+cbdb_id: 156461
 revision: 1
 properties:
   - predicate: bio.summary

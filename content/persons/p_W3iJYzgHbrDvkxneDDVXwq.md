@@ -4,6 +4,7 @@ id: p_W3iJYzgHbrDvkxneDDVXwq
 status: active
 merged_into: null
 display_name: 王汝徵
+cbdb_id: 326517
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_avxzCZFXtVznAV6TJioG4e
 status: active
 merged_into: null
 display_name: 王珮珩
+cbdb_id: 121083
 revision: 1
 properties:
   - predicate: bio.summary

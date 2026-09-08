@@ -4,6 +4,7 @@ id: p_fEZa7v54y69YHBjNkCQxKB
 status: active
 merged_into: null
 display_name: 王慶臣
+cbdb_id: 235980
 revision: 1
 properties:
   - predicate: bio.summary

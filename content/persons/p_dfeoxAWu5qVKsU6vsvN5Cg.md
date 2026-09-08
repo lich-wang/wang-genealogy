@@ -4,6 +4,7 @@ id: p_dfeoxAWu5qVKsU6vsvN5Cg
 status: active
 merged_into: null
 display_name: 王士策
+cbdb_id: 293430
 revision: 1
 properties:
   - predicate: bio.summary

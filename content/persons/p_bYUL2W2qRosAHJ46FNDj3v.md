@@ -4,6 +4,7 @@ id: p_bYUL2W2qRosAHJ46FNDj3v
 status: active
 merged_into: null
 display_name: 王蓁
+cbdb_id: 415372
 revision: 1
 properties:
   - predicate: bio.summary

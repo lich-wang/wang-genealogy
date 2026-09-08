@@ -4,6 +4,7 @@ id: p_dbku6c4K9C4DoaMSkkr5gK
 status: active
 merged_into: null
 display_name: 王丹楓
+cbdb_id: 343667
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_48CShUMFwTZtLWr1wYcFnb
 status: active
 merged_into: null
 display_name: 王秉耀
+cbdb_id: 60726
 revision: 1
 properties:
   - predicate: bio.summary

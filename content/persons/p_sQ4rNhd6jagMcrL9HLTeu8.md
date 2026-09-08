@@ -4,6 +4,7 @@ id: p_sQ4rNhd6jagMcrL9HLTeu8
 status: active
 merged_into: null
 display_name: 王孫麟
+cbdb_id: 526878
 revision: 1
 properties:
   - predicate: bio.summary

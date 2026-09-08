@@ -4,6 +4,7 @@ id: p_V5CP7fBxbZw5t7gjsTT95t
 status: active
 merged_into: null
 display_name: 王起茂
+cbdb_id: 232788
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_tDD9kGPkcBai3WBnP3xpXJ
 status: active
 merged_into: null
 display_name: 王長錫
+cbdb_id: 60731
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_EnGY3KPPqt258erKQrzqTZ
 status: active
 merged_into: null
 display_name: 王少珍
+cbdb_id: 155635
 revision: 1
 properties:
   - predicate: bio.summary

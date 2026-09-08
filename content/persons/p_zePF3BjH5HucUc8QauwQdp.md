@@ -4,6 +4,7 @@ id: p_zePF3BjH5HucUc8QauwQdp
 status: active
 merged_into: null
 display_name: 王子通
+cbdb_id: 280841
 revision: 1
 properties:
   - predicate: bio.summary

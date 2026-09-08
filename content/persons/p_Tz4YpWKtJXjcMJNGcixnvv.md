@@ -4,6 +4,7 @@ id: p_Tz4YpWKtJXjcMJNGcixnvv
 status: active
 merged_into: null
 display_name: 王枚士
+cbdb_id: 30033
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_cwntNSz81e7Xu6RRcEsFD1
 status: active
 merged_into: null
 display_name: 王厚慶
+cbdb_id: 343566
 revision: 1
 properties:
   - predicate: bio.summary

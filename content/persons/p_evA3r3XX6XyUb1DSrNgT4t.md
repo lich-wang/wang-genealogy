@@ -4,6 +4,7 @@ id: p_evA3r3XX6XyUb1DSrNgT4t
 status: active
 merged_into: null
 display_name: 王大樞
+cbdb_id: 71332
 revision: 1
 properties:
   - predicate: bio.summary

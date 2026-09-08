@@ -4,6 +4,7 @@ id: p_ZzRV191MavKcr9ERBN1hYs
 status: active
 merged_into: null
 display_name: 王應釣
+cbdb_id: 304274
 revision: 1
 properties:
   - predicate: bio.summary

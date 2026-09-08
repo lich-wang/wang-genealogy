@@ -4,6 +4,7 @@ id: p_sAHyfWv3qVkLkhw3tCMiF7
 status: active
 merged_into: null
 display_name: 王端禮
+cbdb_id: 27284
 revision: 1
 properties:
   - predicate: bio.summary

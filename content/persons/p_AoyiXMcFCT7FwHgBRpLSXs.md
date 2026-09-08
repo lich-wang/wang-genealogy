@@ -4,6 +4,7 @@ id: p_AoyiXMcFCT7FwHgBRpLSXs
 status: active
 merged_into: null
 display_name: 王潮
+cbdb_id: 3937
 revision: 2
 properties:
   - predicate: bio.summary

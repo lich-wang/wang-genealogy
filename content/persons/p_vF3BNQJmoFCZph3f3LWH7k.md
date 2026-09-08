@@ -4,6 +4,7 @@ id: p_vF3BNQJmoFCZph3f3LWH7k
 status: active
 merged_into: null
 display_name: 王迪
+cbdb_id: 175507
 revision: 1
 properties:
   - predicate: bio.summary

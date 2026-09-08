@@ -4,6 +4,7 @@ id: p_pNPbpJhQnwrM9E5wAvzhxs
 status: active
 merged_into: null
 display_name: 王餘卿
+cbdb_id: 22152
 revision: 1
 properties:
   - predicate: bio.summary

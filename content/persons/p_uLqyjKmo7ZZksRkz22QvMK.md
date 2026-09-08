@@ -4,6 +4,7 @@ id: p_uLqyjKmo7ZZksRkz22QvMK
 status: active
 merged_into: null
 display_name: 王廣福
+cbdb_id: 341602
 revision: 1
 properties:
   - predicate: bio.summary

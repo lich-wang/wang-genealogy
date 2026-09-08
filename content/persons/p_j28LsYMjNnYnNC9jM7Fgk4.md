@@ -4,6 +4,7 @@ id: p_j28LsYMjNnYnNC9jM7Fgk4
 status: active
 merged_into: null
 display_name: 王清遠
+cbdb_id: 342753
 revision: 1
 properties:
   - predicate: bio.summary

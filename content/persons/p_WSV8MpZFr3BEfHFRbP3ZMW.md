@@ -4,6 +4,7 @@ id: p_WSV8MpZFr3BEfHFRbP3ZMW
 status: active
 merged_into: null
 display_name: 王問儒
+cbdb_id: 329117
 revision: 1
 properties:
   - predicate: bio.summary

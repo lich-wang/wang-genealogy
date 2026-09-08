@@ -4,6 +4,7 @@ id: p_B8unMbh7dYqs1NQhhGC4Lt
 status: active
 merged_into: null
 display_name: 王仲錦
+cbdb_id: 202438
 revision: 1
 properties:
   - predicate: bio.summary

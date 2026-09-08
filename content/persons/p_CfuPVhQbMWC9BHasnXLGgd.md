@@ -4,6 +4,7 @@ id: p_CfuPVhQbMWC9BHasnXLGgd
 status: active
 merged_into: null
 display_name: 王叔異
+cbdb_id: 185876
 revision: 1
 properties:
   - predicate: bio.summary

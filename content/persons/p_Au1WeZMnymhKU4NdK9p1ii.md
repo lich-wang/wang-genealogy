@@ -4,6 +4,7 @@ id: p_Au1WeZMnymhKU4NdK9p1ii
 status: active
 merged_into: null
 display_name: 王公諫
+cbdb_id: 166869
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_d1awC7oCEL2oJ3NLY5XJoS
 status: active
 merged_into: null
 display_name: 王聴
+cbdb_id: 415301
 revision: 1
 properties:
   - predicate: bio.summary

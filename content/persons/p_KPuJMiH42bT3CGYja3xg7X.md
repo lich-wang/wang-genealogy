@@ -4,6 +4,7 @@ id: p_KPuJMiH42bT3CGYja3xg7X
 status: active
 merged_into: null
 display_name: 王叔潤
+cbdb_id: 414025
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_qMDUscFRRsidRmjzEtM1oQ
 status: active
 merged_into: null
 display_name: 王萬璉
+cbdb_id: 415362
 revision: 1
 properties:
   - predicate: bio.summary

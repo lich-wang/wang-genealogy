@@ -4,6 +4,7 @@ id: p_mUc2uYYiAp3MWv69kdqLzc
 status: active
 merged_into: null
 display_name: 王貽春
+cbdb_id: 415437
 revision: 1
 properties:
   - predicate: bio.summary

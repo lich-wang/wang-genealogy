@@ -4,6 +4,7 @@ id: p_WSWtN3iTqE7XAA6qxYQLfP
 status: active
 merged_into: null
 display_name: 王趨士
+cbdb_id: 415465
 revision: 1
 properties:
   - predicate: bio.summary

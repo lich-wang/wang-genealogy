@@ -4,6 +4,7 @@ id: p_Dg7RD45WJk1EWacwYZJiUs
 status: active
 merged_into: null
 display_name: 王有福
+cbdb_id: 414832
 revision: 1
 properties:
   - predicate: bio.summary

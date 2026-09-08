@@ -4,6 +4,7 @@ id: p_M68yD8ANuMpgCK8gcAweLB
 status: active
 merged_into: null
 display_name: 王如岳
+cbdb_id: 343254
 revision: 1
 properties:
   - predicate: bio.summary

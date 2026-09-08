@@ -4,6 +4,7 @@ id: p_GpQKQxT9zUBFQw4vdP3nNA
 status: active
 merged_into: null
 display_name: 王宗淵
+cbdb_id: 305712
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_e8PceNyaKH83SbosZpC87r
 status: active
 merged_into: null
 display_name: 王咸亨
+cbdb_id: 71865
 revision: 1
 properties:
   - predicate: bio.summary

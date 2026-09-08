@@ -4,6 +4,7 @@ id: p_WhEUznB4fqRtM95wbQebTL
 status: active
 merged_into: null
 display_name: 王填思
+cbdb_id: 414154
 revision: 1
 properties:
   - predicate: bio.summary

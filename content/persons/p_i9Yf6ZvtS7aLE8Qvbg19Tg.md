@@ -4,6 +4,7 @@ id: p_i9Yf6ZvtS7aLE8Qvbg19Tg
 status: active
 merged_into: null
 display_name: 王仲信
+cbdb_id: 117575
 revision: 1
 properties:
   - predicate: bio.summary

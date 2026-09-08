@@ -4,6 +4,7 @@ id: p_abBBJLn7119VzQQYsmM7Uw
 status: active
 merged_into: null
 display_name: 王可培
+cbdb_id: 341838
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_L36Qfj18BMUgM9o181J3j6
 status: active
 merged_into: null
 display_name: 王孝迪
+cbdb_id: 8148
 revision: 1
 properties:
   - predicate: bio.summary

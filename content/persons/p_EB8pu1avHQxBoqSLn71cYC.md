@@ -4,6 +4,7 @@ id: p_EB8pu1avHQxBoqSLn71cYC
 status: active
 merged_into: null
 display_name: 王法文
+cbdb_id: 414998
 revision: 1
 properties:
   - predicate: bio.summary

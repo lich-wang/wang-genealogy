@@ -4,6 +4,7 @@ id: p_HDyRTiaAGZCqHG86QTQWZE
 status: active
 merged_into: null
 display_name: 王清弼
+cbdb_id: 69337
 revision: 1
 properties:
   - predicate: bio.summary

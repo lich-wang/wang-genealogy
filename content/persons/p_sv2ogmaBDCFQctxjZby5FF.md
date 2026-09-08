@@ -4,6 +4,7 @@ id: p_sv2ogmaBDCFQctxjZby5FF
 status: active
 merged_into: null
 display_name: 王慶禔
+cbdb_id: 341595
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_cAiShWPq5ZHK7zJ2C7oeN4
 status: active
 merged_into: null
 display_name: 王源永
+cbdb_id: 175490
 revision: 1
 properties:
   - predicate: bio.summary

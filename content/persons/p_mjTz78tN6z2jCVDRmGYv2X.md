@@ -4,6 +4,7 @@ id: p_mjTz78tN6z2jCVDRmGYv2X
 status: active
 merged_into: null
 display_name: 王立性
+cbdb_id: 341531
 revision: 1
 properties:
   - predicate: bio.summary

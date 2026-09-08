@@ -4,6 +4,7 @@ id: p_jKFkmk9BghPEmzB9mbPAT2
 status: active
 merged_into: null
 display_name: 王遂善
+cbdb_id: 342845
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_uuNawJcFzD7ph2jmrDkMuj
 status: active
 merged_into: null
 display_name: 王啓輔
+cbdb_id: 414075
 revision: 1
 properties:
   - predicate: bio.summary

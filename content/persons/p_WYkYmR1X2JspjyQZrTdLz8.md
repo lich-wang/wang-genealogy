@@ -4,6 +4,7 @@ id: p_WYkYmR1X2JspjyQZrTdLz8
 status: active
 merged_into: null
 display_name: 王學仕
+cbdb_id: 316264
 revision: 1
 properties:
   - predicate: bio.summary

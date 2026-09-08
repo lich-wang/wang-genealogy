@@ -4,6 +4,7 @@ id: p_ho8YoowVd3PHkSSjw779Nd
 status: active
 merged_into: null
 display_name: 王大勝
+cbdb_id: 414196
 revision: 1
 properties:
   - predicate: bio.summary

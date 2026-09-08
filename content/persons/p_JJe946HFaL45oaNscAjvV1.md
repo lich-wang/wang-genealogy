@@ -4,6 +4,7 @@ id: p_JJe946HFaL45oaNscAjvV1
 status: active
 merged_into: null
 display_name: 王嘉祚
+cbdb_id: 414104
 revision: 1
 properties:
   - predicate: bio.summary

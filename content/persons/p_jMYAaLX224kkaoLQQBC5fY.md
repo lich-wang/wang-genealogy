@@ -4,6 +4,7 @@ id: p_jMYAaLX224kkaoLQQBC5fY
 status: active
 merged_into: null
 display_name: 王溫之
+cbdb_id: 155092
 revision: 1
 properties:
   - predicate: bio.summary

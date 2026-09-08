@@ -4,6 +4,7 @@ id: p_5F5PGX721uj3A8TYCbCH34
 status: active
 merged_into: null
 display_name: 王元趾
+cbdb_id: 511593
 revision: 1
 properties:
   - predicate: bio.summary

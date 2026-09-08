@@ -4,6 +4,7 @@ id: p_oBD8mWmKRYBEDsMhuUH2SN
 status: active
 merged_into: null
 display_name: 王昌禹
+cbdb_id: 175416
 revision: 1
 properties:
   - predicate: bio.summary

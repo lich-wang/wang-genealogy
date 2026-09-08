@@ -4,6 +4,7 @@ id: p_CvkqbHiKU1yv5J5yN1sDim
 status: active
 merged_into: null
 display_name: 王师古
+cbdb_id: 10688
 revision: 2
 properties:
   - predicate: bio.summary

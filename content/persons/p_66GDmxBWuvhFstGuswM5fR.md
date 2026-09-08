@@ -4,6 +4,7 @@ id: p_66GDmxBWuvhFstGuswM5fR
 status: active
 merged_into: null
 display_name: 王任鈞
+cbdb_id: 71585
 revision: 1
 properties:
   - predicate: bio.summary

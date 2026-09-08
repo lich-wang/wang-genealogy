@@ -4,6 +4,7 @@ id: p_RBNJVK32JNJqkQW1RZ4x3m
 status: active
 merged_into: null
 display_name: 王汝洽
+cbdb_id: 211410
 revision: 1
 properties:
   - predicate: bio.summary

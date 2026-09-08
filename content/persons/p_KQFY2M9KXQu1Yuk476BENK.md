@@ -4,6 +4,7 @@ id: p_KQFY2M9KXQu1Yuk476BENK
 status: active
 merged_into: null
 display_name: 王得正
+cbdb_id: 255186
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_fCDATDcZ1gJnFADsLdVxNF
 status: active
 merged_into: null
 display_name: 王袍
+cbdb_id: 342806
 revision: 1
 properties:
   - predicate: bio.summary

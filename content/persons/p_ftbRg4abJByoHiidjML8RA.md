@@ -4,6 +4,7 @@ id: p_ftbRg4abJByoHiidjML8RA
 status: active
 merged_into: null
 display_name: 王祖慎
+cbdb_id: 120709
 revision: 1
 properties:
   - predicate: bio.summary

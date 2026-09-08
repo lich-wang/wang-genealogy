@@ -4,6 +4,7 @@ id: p_F23fYphen2FH6jcDL7wNMK
 status: active
 merged_into: null
 display_name: 王勤學
+cbdb_id: 306923
 revision: 1
 properties:
   - predicate: bio.summary

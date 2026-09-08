@@ -4,6 +4,7 @@ id: p_zJw8Ttvu1BJPGvnR5PyBax
 status: active
 merged_into: null
 display_name: 王宗皓
+cbdb_id: 414307
 revision: 1
 properties:
   - predicate: bio.summary

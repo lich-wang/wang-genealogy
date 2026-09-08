@@ -4,6 +4,7 @@ id: p_qDuVJYetLP4DJGj1cQS2NF
 status: active
 merged_into: null
 display_name: 王祚隆
+cbdb_id: 233974
 revision: 1
 properties:
   - predicate: bio.summary

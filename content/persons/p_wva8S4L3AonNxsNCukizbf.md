@@ -4,6 +4,7 @@ id: p_wva8S4L3AonNxsNCukizbf
 status: active
 merged_into: null
 display_name: 王峻用
+cbdb_id: 342276
 revision: 1
 properties:
   - predicate: bio.summary

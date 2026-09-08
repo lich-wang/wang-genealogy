@@ -4,6 +4,7 @@ id: p_KTJEx3P5QoeTjuP11uiDaq
 status: active
 merged_into: null
 display_name: 王綏祖
+cbdb_id: 342243
 revision: 1
 properties:
   - predicate: bio.summary

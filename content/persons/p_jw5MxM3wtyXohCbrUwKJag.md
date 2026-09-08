@@ -4,6 +4,7 @@ id: p_jw5MxM3wtyXohCbrUwKJag
 status: active
 merged_into: null
 display_name: 王渭熊
+cbdb_id: 72090
 revision: 1
 properties:
   - predicate: bio.summary

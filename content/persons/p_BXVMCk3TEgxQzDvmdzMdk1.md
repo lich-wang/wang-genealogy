@@ -4,6 +4,7 @@ id: p_BXVMCk3TEgxQzDvmdzMdk1
 status: active
 merged_into: null
 display_name: 王伯珍
+cbdb_id: 260602
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_NzL4F281vP2ZiqQ55NiAZ7
 status: active
 merged_into: null
 display_name: 王用召
+cbdb_id: 213304
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_WAyUs1MCPL8xMv45XvVy3p
 status: active
 merged_into: null
 display_name: 王炳華
+cbdb_id: 71909
 revision: 1
 properties:
   - predicate: bio.summary

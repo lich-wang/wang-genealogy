@@ -4,6 +4,7 @@ id: p_rwncSMGsKt96Tns2M9e8xV
 status: active
 merged_into: null
 display_name: 王士重
+cbdb_id: 414178
 revision: 1
 properties:
   - predicate: bio.summary

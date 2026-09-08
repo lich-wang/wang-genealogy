@@ -4,6 +4,7 @@ id: p_FhSHqy7sMBvfMh5rdrzBdx
 status: active
 merged_into: null
 display_name: 王光先
+cbdb_id: 413934
 revision: 1
 properties:
   - predicate: bio.summary

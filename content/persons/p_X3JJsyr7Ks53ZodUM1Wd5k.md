@@ -4,6 +4,7 @@ id: p_X3JJsyr7Ks53ZodUM1Wd5k
 status: active
 merged_into: null
 display_name: 王绩
+cbdb_id: 22057
 revision: 1
 properties:
   - predicate: bio.summary

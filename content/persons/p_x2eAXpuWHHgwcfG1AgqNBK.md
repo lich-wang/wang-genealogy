@@ -4,6 +4,7 @@ id: p_x2eAXpuWHHgwcfG1AgqNBK
 status: active
 merged_into: null
 display_name: 王克一
+cbdb_id: 413944
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_TmbAJFMcbhV7yE49pkPE3j
 status: active
 merged_into: null
 display_name: 王思哲
+cbdb_id: 512894
 revision: 1
 properties:
   - predicate: bio.summary

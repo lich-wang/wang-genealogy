@@ -4,6 +4,7 @@ id: p_NzV51KB6tw1GyQQgwrA7mr
 status: active
 merged_into: null
 display_name: 王弘安
+cbdb_id: 185065
 revision: 1
 properties:
   - predicate: bio.summary

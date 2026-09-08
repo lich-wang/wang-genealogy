@@ -4,6 +4,7 @@ id: p_CSmTqHxqedNwe6Ap9XLU3b
 status: active
 merged_into: null
 display_name: 王鳳賡
+cbdb_id: 213958
 revision: 1
 properties:
   - predicate: bio.summary

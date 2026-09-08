@@ -4,6 +4,7 @@ id: p_HaoryAndWHjRimGEjoCm1G
 status: active
 merged_into: null
 display_name: 王毓林
+cbdb_id: 459763
 revision: 1
 properties:
   - predicate: bio.summary

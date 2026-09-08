@@ -4,6 +4,7 @@ id: p_XviG699Sb6fixCgUv7GBKK
 status: active
 merged_into: null
 display_name: 霍氏
+cbdb_id: 333597
 revision: 1
 properties:
   - predicate: bio.summary

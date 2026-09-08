@@ -4,6 +4,7 @@ id: p_BnBLKLfaqxcVPEz4Mit3Zc
 status: active
 merged_into: null
 display_name: 王齊玉
+cbdb_id: 288683
 revision: 1
 properties:
   - predicate: bio.summary

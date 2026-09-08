@@ -4,6 +4,7 @@ id: p_j5mFG652jPMDomXA7JP3CQ
 status: active
 merged_into: null
 display_name: 王元揩
+cbdb_id: 379032
 revision: 1
 properties:
   - predicate: bio.summary

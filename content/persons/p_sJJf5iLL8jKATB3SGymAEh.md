@@ -4,6 +4,7 @@ id: p_sJJf5iLL8jKATB3SGymAEh
 status: active
 merged_into: null
 display_name: 王珏
+cbdb_id: 1796
 revision: 1
 properties:
   - predicate: bio.summary

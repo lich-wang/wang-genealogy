@@ -4,6 +4,7 @@ id: p_eK7BmxmwBKQ83huTyGiRu6
 status: active
 merged_into: null
 display_name: 王從吉
+cbdb_id: 119736
 revision: 1
 properties:
   - predicate: bio.summary

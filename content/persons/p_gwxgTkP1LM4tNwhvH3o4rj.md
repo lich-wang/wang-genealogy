@@ -4,6 +4,7 @@ id: p_gwxgTkP1LM4tNwhvH3o4rj
 status: active
 merged_into: null
 display_name: 王元卯
+cbdb_id: 136483
 revision: 1
 properties:
   - predicate: bio.summary

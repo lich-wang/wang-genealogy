@@ -4,6 +4,7 @@ id: p_7rbnTG1Lxb1Nu3UW8SrCL4
 status: active
 merged_into: null
 display_name: 王堯甸
+cbdb_id: 222823
 revision: 1
 properties:
   - predicate: bio.summary

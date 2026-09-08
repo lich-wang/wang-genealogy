@@ -4,6 +4,7 @@ id: p_qYEDpcsXxzMJqk1kXWCy16
 status: active
 merged_into: null
 display_name: 王唐氏
+cbdb_id: 555401
 revision: 1
 properties:
   - predicate: bio.summary

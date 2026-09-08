@@ -4,6 +4,7 @@ id: p_iC1uPu8Nku4UUD3UW8vXMV
 status: active
 merged_into: null
 display_name: 王豫嘉
+cbdb_id: 342057
 revision: 1
 properties:
   - predicate: bio.summary

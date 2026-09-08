@@ -4,6 +4,7 @@ id: p_3heEYwRCmFPHE8Bj6M6HRU
 status: active
 merged_into: null
 display_name: 王嶽峯
+cbdb_id: 511608
 revision: 1
 properties:
   - predicate: bio.summary

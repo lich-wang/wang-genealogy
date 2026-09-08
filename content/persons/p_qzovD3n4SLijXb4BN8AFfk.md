@@ -4,6 +4,7 @@ id: p_qzovD3n4SLijXb4BN8AFfk
 status: active
 merged_into: null
 display_name: 王兼
+cbdb_id: 100751
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_B72qfqUnCZcYo8Wtrvw3DP
 status: active
 merged_into: null
 display_name: 王廷耀
+cbdb_id: 414483
 revision: 1
 properties:
   - predicate: bio.summary

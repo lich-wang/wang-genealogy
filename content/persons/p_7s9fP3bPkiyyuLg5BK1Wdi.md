@@ -4,6 +4,7 @@ id: p_7s9fP3bPkiyyuLg5BK1Wdi
 status: active
 merged_into: null
 display_name: 王抱承
+cbdb_id: 71743
 revision: 1
 properties:
   - predicate: bio.summary

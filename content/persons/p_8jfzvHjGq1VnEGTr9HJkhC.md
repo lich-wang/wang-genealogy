@@ -4,6 +4,7 @@ id: p_8jfzvHjGq1VnEGTr9HJkhC
 status: active
 merged_into: null
 display_name: 王筠節
+cbdb_id: 343852
 revision: 1
 properties:
   - predicate: bio.summary

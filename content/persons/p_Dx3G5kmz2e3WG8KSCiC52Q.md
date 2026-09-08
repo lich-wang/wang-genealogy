@@ -4,6 +4,7 @@ id: p_Dx3G5kmz2e3WG8KSCiC52Q
 status: active
 merged_into: null
 display_name: 王承露
+cbdb_id: 342042
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_bQKpD6SjCZ46RD4S7cBApp
 status: active
 merged_into: null
 display_name: 王家業
+cbdb_id: 414342
 revision: 1
 properties:
   - predicate: bio.summary

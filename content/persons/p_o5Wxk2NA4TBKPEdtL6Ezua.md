@@ -4,6 +4,7 @@ id: p_o5Wxk2NA4TBKPEdtL6Ezua
 status: active
 merged_into: null
 display_name: 王萬慶
+cbdb_id: 415360
 revision: 1
 properties:
   - predicate: bio.summary

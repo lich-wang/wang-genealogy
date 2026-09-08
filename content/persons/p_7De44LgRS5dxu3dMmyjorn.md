@@ -4,6 +4,7 @@ id: p_7De44LgRS5dxu3dMmyjorn
 status: active
 merged_into: null
 display_name: 王光祚
+cbdb_id: 413941
 revision: 1
 properties:
   - predicate: bio.summary

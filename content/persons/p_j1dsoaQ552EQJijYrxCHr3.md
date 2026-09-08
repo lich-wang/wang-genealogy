@@ -4,6 +4,7 @@ id: p_j1dsoaQ552EQJijYrxCHr3
 status: active
 merged_into: null
 display_name: 王振奇
+cbdb_id: 60880
 revision: 1
 properties:
   - predicate: bio.summary

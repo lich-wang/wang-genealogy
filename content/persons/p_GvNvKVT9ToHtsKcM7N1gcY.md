@@ -4,6 +4,7 @@ id: p_GvNvKVT9ToHtsKcM7N1gcY
 status: active
 merged_into: null
 display_name: 王末怛活
+cbdb_id: 159536
 revision: 1
 properties:
   - predicate: bio.summary

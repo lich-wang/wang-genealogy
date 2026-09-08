@@ -4,6 +4,7 @@ id: p_w89QYZFxE2QKxtrfSKS7Ce
 status: active
 merged_into: null
 display_name: 王克耕
+cbdb_id: 413956
 revision: 1
 properties:
   - predicate: bio.summary

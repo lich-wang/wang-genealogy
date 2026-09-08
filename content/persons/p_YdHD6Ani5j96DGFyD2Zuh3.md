@@ -4,6 +4,7 @@ id: p_YdHD6Ani5j96DGFyD2Zuh3
 status: active
 merged_into: null
 display_name: 王原魯
+cbdb_id: 270425
 revision: 1
 properties:
   - predicate: bio.summary

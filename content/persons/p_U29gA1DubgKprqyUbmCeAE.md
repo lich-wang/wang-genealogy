@@ -4,6 +4,7 @@ id: p_U29gA1DubgKprqyUbmCeAE
 status: active
 merged_into: null
 display_name: 王崧辰
+cbdb_id: 342242
 revision: 1
 properties:
   - predicate: bio.summary

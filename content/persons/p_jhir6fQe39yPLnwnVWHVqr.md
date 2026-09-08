@@ -4,6 +4,7 @@ id: p_jhir6fQe39yPLnwnVWHVqr
 status: active
 merged_into: null
 display_name: 王治潢
+cbdb_id: 414995
 revision: 1
 properties:
   - predicate: bio.summary

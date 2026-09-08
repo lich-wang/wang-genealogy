@@ -4,6 +4,7 @@ id: p_EChD4535nMk4dqomGVyivU
 status: active
 merged_into: null
 display_name: 王從鯨
+cbdb_id: 342466
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_xfx9RBLc4m6wErGdswUKMS
 status: active
 merged_into: null
 display_name: 王炳變
+cbdb_id: 415073
 revision: 1
 properties:
   - predicate: bio.summary

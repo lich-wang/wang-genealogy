@@ -4,6 +4,7 @@ id: p_jieJAm5Ti4mUGFLoofbeyK
 status: active
 merged_into: null
 display_name: 王嘉賢
+cbdb_id: 414109
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_ELXq5xUyWi2s3t8udCbJUx
 status: active
 merged_into: null
 display_name: 王則吉
+cbdb_id: 413986
 revision: 1
 properties:
   - predicate: bio.summary

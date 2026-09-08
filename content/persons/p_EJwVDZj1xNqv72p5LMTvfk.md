@@ -4,6 +4,7 @@ id: p_EJwVDZj1xNqv72p5LMTvfk
 status: active
 merged_into: null
 display_name: 王達途
+cbdb_id: 279744
 revision: 1
 properties:
   - predicate: bio.summary

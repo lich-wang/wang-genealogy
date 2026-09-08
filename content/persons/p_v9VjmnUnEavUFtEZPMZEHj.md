@@ -4,6 +4,7 @@ id: p_v9VjmnUnEavUFtEZPMZEHj
 status: active
 merged_into: null
 display_name: 王墨卿
+cbdb_id: 38372
 revision: 1
 properties:
   - predicate: bio.summary

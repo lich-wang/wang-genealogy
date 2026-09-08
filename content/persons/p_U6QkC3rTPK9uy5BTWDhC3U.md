@@ -4,6 +4,7 @@ id: p_U6QkC3rTPK9uy5BTWDhC3U
 status: active
 merged_into: null
 display_name: 王元常
+cbdb_id: 70472
 revision: 1
 properties:
   - predicate: bio.summary

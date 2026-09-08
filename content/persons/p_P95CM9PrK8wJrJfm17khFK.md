@@ -4,6 +4,7 @@ id: p_P95CM9PrK8wJrJfm17khFK
 status: active
 merged_into: null
 display_name: 王再咸
+cbdb_id: 71528
 revision: 1
 properties:
   - predicate: bio.summary

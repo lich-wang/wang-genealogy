@@ -4,6 +4,7 @@ id: p_rocjE1Bc3jguhv4EzFu1d8
 status: active
 merged_into: null
 display_name: 王子音
+cbdb_id: 71363
 revision: 1
 properties:
   - predicate: bio.summary

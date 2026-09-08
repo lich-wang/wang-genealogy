@@ -4,6 +4,7 @@ id: p_woW82SSqwfg7oU4zqhse5p
 status: active
 merged_into: null
 display_name: 王家正
+cbdb_id: 461456
 revision: 1
 properties:
   - predicate: bio.summary

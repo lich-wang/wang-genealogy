@@ -4,6 +4,7 @@ id: p_Cxg557dM8VxDEHVJfXM69K
 status: active
 merged_into: null
 display_name: 王嚴光
+cbdb_id: 92006
 revision: 1
 properties:
   - predicate: bio.summary

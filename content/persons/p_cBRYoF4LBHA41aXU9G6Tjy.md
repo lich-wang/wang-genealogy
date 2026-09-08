@@ -4,6 +4,7 @@ id: p_cBRYoF4LBHA41aXU9G6Tjy
 status: active
 merged_into: null
 display_name: 王文雅
+cbdb_id: 158365
 revision: 1
 properties:
   - predicate: bio.summary

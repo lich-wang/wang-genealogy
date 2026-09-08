@@ -4,6 +4,7 @@ id: p_KcX73miewfNAPza2nP2oSa
 status: active
 merged_into: null
 display_name: 王百藥
+cbdb_id: 453803
 revision: 1
 properties:
   - predicate: bio.summary

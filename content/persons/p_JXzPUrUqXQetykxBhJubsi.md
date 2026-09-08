@@ -4,6 +4,7 @@ id: p_JXzPUrUqXQetykxBhJubsi
 status: active
 merged_into: null
 display_name: 王居德
+cbdb_id: 414389
 revision: 1
 properties:
   - predicate: bio.summary

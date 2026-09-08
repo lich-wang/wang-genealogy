@@ -4,6 +4,7 @@ id: p_71oVvf29nGe2kR9n5V5D7K
 status: active
 merged_into: null
 display_name: 王益崇
+cbdb_id: 415158
 revision: 1
 properties:
   - predicate: bio.summary

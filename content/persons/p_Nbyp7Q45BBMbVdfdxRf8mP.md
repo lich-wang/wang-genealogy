@@ -4,6 +4,7 @@ id: p_Nbyp7Q45BBMbVdfdxRf8mP
 status: active
 merged_into: null
 display_name: 王凝道
+cbdb_id: 270434
 revision: 1
 properties:
   - predicate: bio.summary

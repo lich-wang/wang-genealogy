@@ -4,6 +4,7 @@ id: p_VQkJCKRicqgYgYdKnMbEiE
 status: active
 merged_into: null
 display_name: 王霜筠
+cbdb_id: 513103
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_3oVS7AqJwohbxT1Cf7uss8
 status: active
 merged_into: null
 display_name: 王近愚
+cbdb_id: 342675
 revision: 1
 properties:
   - predicate: bio.summary

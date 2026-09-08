@@ -4,6 +4,7 @@ id: p_1yh6PE6rRAA2w8h3dXSe6a
 status: active
 merged_into: null
 display_name: 王槐植
+cbdb_id: 54421
 revision: 1
 properties:
   - predicate: bio.summary

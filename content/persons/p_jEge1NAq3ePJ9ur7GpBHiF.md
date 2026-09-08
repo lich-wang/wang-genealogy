@@ -4,6 +4,7 @@ id: p_jEge1NAq3ePJ9ur7GpBHiF
 status: active
 merged_into: null
 display_name: 王承陽
+cbdb_id: 221869
 revision: 1
 properties:
   - predicate: bio.summary

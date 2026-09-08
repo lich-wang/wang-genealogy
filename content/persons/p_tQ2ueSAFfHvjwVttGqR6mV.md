@@ -4,6 +4,7 @@ id: p_tQ2ueSAFfHvjwVttGqR6mV
 status: active
 merged_into: null
 display_name: 王志福
+cbdb_id: 175386
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_WRKd4Z5oJn3MvZLSx1nxVM
 status: active
 merged_into: null
 display_name: 王光霽
+cbdb_id: 413943
 revision: 1
 properties:
   - predicate: bio.summary

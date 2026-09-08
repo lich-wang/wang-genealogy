@@ -4,6 +4,7 @@ id: p_BpbSjmDB7b2BK1qwQtM3cT
 status: active
 merged_into: null
 display_name: 王徵俊
+cbdb_id: 125386
 revision: 1
 properties:
   - predicate: bio.summary

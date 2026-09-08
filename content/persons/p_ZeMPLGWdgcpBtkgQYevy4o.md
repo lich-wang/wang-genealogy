@@ -4,6 +4,7 @@ id: p_ZeMPLGWdgcpBtkgQYevy4o
 status: active
 merged_into: null
 display_name: 王銘鎮
+cbdb_id: 517410
 revision: 1
 properties:
   - predicate: bio.summary

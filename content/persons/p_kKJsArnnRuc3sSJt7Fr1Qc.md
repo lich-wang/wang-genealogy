@@ -4,6 +4,7 @@ id: p_kKJsArnnRuc3sSJt7Fr1Qc
 status: active
 merged_into: null
 display_name: 王祖裔
+cbdb_id: 211138
 revision: 1
 properties:
   - predicate: bio.summary

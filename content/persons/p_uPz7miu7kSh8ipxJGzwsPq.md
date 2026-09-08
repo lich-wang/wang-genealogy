@@ -4,6 +4,7 @@ id: p_uPz7miu7kSh8ipxJGzwsPq
 status: active
 merged_into: null
 display_name: 王承僎
+cbdb_id: 17754
 revision: 1
 properties:
   - predicate: bio.summary

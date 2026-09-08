@@ -4,6 +4,7 @@ id: p_RhgwAn5NRi8uwSN3NPztTh
 status: active
 merged_into: null
 display_name: 王兆燕
+cbdb_id: 342662
 revision: 1
 properties:
   - predicate: bio.summary

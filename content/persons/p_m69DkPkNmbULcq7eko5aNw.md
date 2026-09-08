@@ -4,6 +4,7 @@ id: p_m69DkPkNmbULcq7eko5aNw
 status: active
 merged_into: null
 display_name: 王居
+cbdb_id: 312136
 revision: 1
 properties:
   - predicate: bio.summary

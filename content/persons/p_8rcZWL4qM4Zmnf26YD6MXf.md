@@ -4,6 +4,7 @@ id: p_8rcZWL4qM4Zmnf26YD6MXf
 status: active
 merged_into: null
 display_name: 王簧
+cbdb_id: 526004
 revision: 1
 properties:
   - predicate: bio.summary

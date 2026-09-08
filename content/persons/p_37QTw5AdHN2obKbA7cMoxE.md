@@ -4,6 +4,7 @@ id: p_37QTw5AdHN2obKbA7cMoxE
 status: active
 merged_into: null
 display_name: 王汝濓
+cbdb_id: 414972
 revision: 1
 properties:
   - predicate: bio.summary

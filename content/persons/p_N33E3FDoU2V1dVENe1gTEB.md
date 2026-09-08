@@ -4,6 +4,7 @@ id: p_N33E3FDoU2V1dVENe1gTEB
 status: active
 merged_into: null
 display_name: 王甘敷
+cbdb_id: 343198
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_YSMNigLFhWLTp4n8pE7PzU
 status: active
 merged_into: null
 display_name: 王象臯
+cbdb_id: 220280
 revision: 1
 properties:
   - predicate: bio.summary

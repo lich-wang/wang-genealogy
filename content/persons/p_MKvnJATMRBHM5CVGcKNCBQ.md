@@ -4,6 +4,7 @@ id: p_MKvnJATMRBHM5CVGcKNCBQ
 status: active
 merged_into: null
 display_name: 王逄祿
+cbdb_id: 415482
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_jsiW68EUficZA4vm2CiJLJ
 status: active
 merged_into: null
 display_name: 王世蕃
+cbdb_id: 283507
 revision: 1
 properties:
   - predicate: bio.summary

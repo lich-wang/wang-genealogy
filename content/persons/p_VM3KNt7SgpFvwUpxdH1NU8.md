@@ -4,6 +4,7 @@ id: p_VM3KNt7SgpFvwUpxdH1NU8
 status: active
 merged_into: null
 display_name: 王雲麟
+cbdb_id: 341843
 revision: 1
 properties:
   - predicate: bio.summary

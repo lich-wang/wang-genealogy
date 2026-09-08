@@ -4,6 +4,7 @@ id: p_nojPrrKJqFqJjyBvH6ZAkR
 status: active
 merged_into: null
 display_name: 王仲友
+cbdb_id: 287100
 revision: 1
 properties:
   - predicate: bio.summary

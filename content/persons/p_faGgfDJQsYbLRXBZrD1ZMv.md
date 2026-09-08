@@ -4,6 +4,7 @@ id: p_faGgfDJQsYbLRXBZrD1ZMv
 status: active
 merged_into: null
 display_name: 王俊美
+cbdb_id: 413876
 revision: 1
 properties:
   - predicate: bio.summary

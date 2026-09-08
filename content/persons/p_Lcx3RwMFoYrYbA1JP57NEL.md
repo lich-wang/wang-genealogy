@@ -4,6 +4,7 @@ id: p_Lcx3RwMFoYrYbA1JP57NEL
 status: active
 merged_into: null
 display_name: 王賢祖
+cbdb_id: 415457
 revision: 1
 properties:
   - predicate: bio.summary

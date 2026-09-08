@@ -4,6 +4,7 @@ id: p_Nz48pSWAW4LPxqPoD9gVkb
 status: active
 merged_into: null
 display_name: 王希淮
+cbdb_id: 35270
 revision: 2
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_t4r6xJhA7S53USBaqKsA6D
 status: active
 merged_into: null
 display_name: 王敏文
+cbdb_id: 1854
 revision: 2
 properties:
   - predicate: bio.summary

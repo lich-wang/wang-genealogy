@@ -4,6 +4,7 @@ id: p_vK6N31KgwoFhj7sCvW7apF
 status: active
 merged_into: null
 display_name: 王心傳
+cbdb_id: 526914
 revision: 1
 properties:
   - predicate: bio.summary

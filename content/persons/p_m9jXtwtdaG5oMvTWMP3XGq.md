@@ -4,6 +4,7 @@ id: p_m9jXtwtdaG5oMvTWMP3XGq
 status: active
 merged_into: null
 display_name: 王名望
+cbdb_id: 69210
 revision: 1
 properties:
   - predicate: bio.summary

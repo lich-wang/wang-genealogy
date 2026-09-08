@@ -4,6 +4,7 @@ id: p_bsHa1mTCgV7P78dFSE1khJ
 status: active
 merged_into: null
 display_name: 王士翱
+cbdb_id: 299917
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_5FaPNgYpE7U714Zubq7h99
 status: active
 merged_into: null
 display_name: 王懷英
+cbdb_id: 21987
 revision: 1
 properties:
   - predicate: bio.summary

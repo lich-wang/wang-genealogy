@@ -4,6 +4,7 @@ id: p_bzRy9x1Ppznqp1U1omjQew
 status: active
 merged_into: null
 display_name: 王遵坦
+cbdb_id: 72201
 revision: 1
 properties:
   - predicate: bio.summary

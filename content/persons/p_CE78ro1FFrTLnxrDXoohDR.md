@@ -4,6 +4,7 @@ id: p_CE78ro1FFrTLnxrDXoohDR
 status: active
 merged_into: null
 display_name: 王知绶
+cbdb_id: 175420
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_Sb5ne2zPhRWsd9A1V7jqCj
 status: active
 merged_into: null
 display_name: 王源评
+cbdb_id: 175533
 revision: 1
 properties:
   - predicate: bio.summary

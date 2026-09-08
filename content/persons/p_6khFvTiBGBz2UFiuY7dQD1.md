@@ -4,6 +4,7 @@ id: p_6khFvTiBGBz2UFiuY7dQD1
 status: active
 merged_into: null
 display_name: 王志旦
+cbdb_id: 511611
 revision: 1
 properties:
   - predicate: bio.summary

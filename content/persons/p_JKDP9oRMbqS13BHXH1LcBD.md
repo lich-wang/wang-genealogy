@@ -4,6 +4,7 @@ id: p_JKDP9oRMbqS13BHXH1LcBD
 status: active
 merged_into: null
 display_name: 王元勲
+cbdb_id: 413901
 revision: 1
 properties:
   - predicate: bio.summary

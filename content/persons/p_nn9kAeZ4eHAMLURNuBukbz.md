@@ -4,6 +4,7 @@ id: p_nn9kAeZ4eHAMLURNuBukbz
 status: active
 merged_into: null
 display_name: 王蕙生
+cbdb_id: 343126
 revision: 1
 properties:
   - predicate: bio.summary

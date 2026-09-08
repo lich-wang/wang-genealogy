@@ -4,6 +4,7 @@ id: p_HxBizE9NWB7384sKGrZFR3
 status: active
 merged_into: null
 display_name: 邓氏
+cbdb_id: 222489
 revision: 2
 properties:
   - predicate: bio.summary

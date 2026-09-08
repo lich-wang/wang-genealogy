@@ -4,6 +4,7 @@ id: p_DrPpDxbdPZ2ZM5eAmxoxhp
 status: active
 merged_into: null
 display_name: 王霈霖
+cbdb_id: 341765
 revision: 1
 properties:
   - predicate: bio.summary

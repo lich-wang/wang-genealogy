@@ -4,6 +4,7 @@ id: p_XsDJVWb2EzmuK26DNspMYG
 status: active
 merged_into: null
 display_name: 王爾銘
+cbdb_id: 71496
 revision: 1
 properties:
   - predicate: bio.summary

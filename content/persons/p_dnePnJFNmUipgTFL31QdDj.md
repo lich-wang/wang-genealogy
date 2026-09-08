@@ -4,6 +4,7 @@ id: p_dnePnJFNmUipgTFL31QdDj
 status: active
 merged_into: null
 display_name: 王子莊
+cbdb_id: 56683
 revision: 1
 properties:
   - predicate: bio.summary

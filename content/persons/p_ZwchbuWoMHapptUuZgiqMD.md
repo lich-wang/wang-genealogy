@@ -4,6 +4,7 @@ id: p_ZwchbuWoMHapptUuZgiqMD
 status: active
 merged_into: null
 display_name: 王鵬冲
+cbdb_id: 61253
 revision: 1
 properties:
   - predicate: bio.summary

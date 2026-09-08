@@ -4,6 +4,7 @@ id: p_iGQLCM3MXydD73RbwDfmaJ
 status: active
 merged_into: null
 display_name: 王安理
+cbdb_id: 24481
 revision: 1
 properties:
   - predicate: bio.summary

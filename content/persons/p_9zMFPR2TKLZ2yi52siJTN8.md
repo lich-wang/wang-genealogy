@@ -4,6 +4,7 @@ id: p_9zMFPR2TKLZ2yi52siJTN8
 status: active
 merged_into: null
 display_name: 王維桓
+cbdb_id: 342143
 revision: 1
 properties:
   - predicate: bio.summary

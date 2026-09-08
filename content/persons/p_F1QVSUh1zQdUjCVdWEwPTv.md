@@ -4,6 +4,7 @@ id: p_F1QVSUh1zQdUjCVdWEwPTv
 status: active
 merged_into: null
 display_name: 王樂章
+cbdb_id: 327158
 revision: 1
 properties:
   - predicate: bio.summary

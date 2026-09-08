@@ -4,6 +4,7 @@ id: p_wzzJUGpKPHzQBYw4vKPoER
 status: active
 merged_into: null
 display_name: 王原善
+cbdb_id: 414013
 revision: 1
 properties:
   - predicate: bio.summary

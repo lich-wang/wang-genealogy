@@ -4,6 +4,7 @@ id: p_juEm8j4Sb9dvXhaC1CMA9c
 status: active
 merged_into: null
 display_name: 向敏中
+cbdb_id: 705
 revision: 2
 properties:
   - predicate: bio.summary

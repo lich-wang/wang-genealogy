@@ -4,6 +4,7 @@ id: p_4q645HVEU7ErBPphCDC6RD
 status: active
 merged_into: null
 display_name: 王浴沂
+cbdb_id: 415017
 revision: 1
 properties:
   - predicate: bio.summary

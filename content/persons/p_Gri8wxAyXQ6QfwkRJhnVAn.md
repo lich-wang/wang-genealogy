@@ -4,6 +4,7 @@ id: p_Gri8wxAyXQ6QfwkRJhnVAn
 status: active
 merged_into: null
 display_name: 王命賜
+cbdb_id: 216553
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_C89ZcHAtcAChfdorhCWMWA
 status: active
 merged_into: null
 display_name: 王宗志
+cbdb_id: 158109
 revision: 1
 properties:
   - predicate: bio.summary

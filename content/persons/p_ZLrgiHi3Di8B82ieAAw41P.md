@@ -4,6 +4,7 @@ id: p_ZLrgiHi3Di8B82ieAAw41P
 status: active
 merged_into: null
 display_name: 王慶安
+cbdb_id: 101431
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_GMCTq5KrktL4A6wV97QsyN
 status: active
 merged_into: null
 display_name: 王德表
+cbdb_id: 92112
 revision: 1
 properties:
   - predicate: bio.summary

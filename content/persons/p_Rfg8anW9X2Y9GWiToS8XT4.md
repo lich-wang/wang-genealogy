@@ -4,6 +4,7 @@ id: p_Rfg8anW9X2Y9GWiToS8XT4
 status: active
 merged_into: null
 display_name: 王時春
+cbdb_id: 291905
 revision: 1
 properties:
   - predicate: bio.summary

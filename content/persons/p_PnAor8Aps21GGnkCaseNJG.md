@@ -4,6 +4,7 @@ id: p_PnAor8Aps21GGnkCaseNJG
 status: active
 merged_into: null
 display_name: 王汝誠
+cbdb_id: 519742
 revision: 1
 properties:
   - predicate: bio.summary

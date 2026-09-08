@@ -4,6 +4,7 @@ id: p_PGtK5MGCbLHLDm5euGcKxk
 status: active
 merged_into: null
 display_name: 王天獸
+cbdb_id: 414211
 revision: 1
 properties:
   - predicate: bio.summary

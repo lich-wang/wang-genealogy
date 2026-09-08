@@ -4,6 +4,7 @@ id: p_kbZqdFL8wjBpMydA4i7A54
 status: active
 merged_into: null
 display_name: 王金刀
+cbdb_id: 175603
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_ZW7p98Lw56RAdoCLY8Ydsx
 status: active
 merged_into: null
 display_name: 王起芬
+cbdb_id: 71936
 revision: 1
 properties:
   - predicate: bio.summary

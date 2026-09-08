@@ -4,6 +4,7 @@ id: p_Vwh1UfYLcTAoFT9fJr6gFo
 status: active
 merged_into: null
 display_name: 王先鐸
+cbdb_id: 526010
 revision: 1
 properties:
   - predicate: bio.summary

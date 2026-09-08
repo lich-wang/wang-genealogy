@@ -4,6 +4,7 @@ id: p_7AnF2Ek5xHP4QN1CHstTL8
 status: active
 merged_into: null
 display_name: 王淑汴
+cbdb_id: 415021
 revision: 1
 properties:
   - predicate: bio.summary

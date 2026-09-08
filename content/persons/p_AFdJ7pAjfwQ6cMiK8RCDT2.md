@@ -4,6 +4,7 @@ id: p_AFdJ7pAjfwQ6cMiK8RCDT2
 status: active
 merged_into: null
 display_name: 王在晉
+cbdb_id: 64468
 revision: 1
 properties:
   - predicate: bio.summary

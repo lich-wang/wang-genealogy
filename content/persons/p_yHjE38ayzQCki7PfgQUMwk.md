@@ -4,6 +4,7 @@ id: p_yHjE38ayzQCki7PfgQUMwk
 status: active
 merged_into: null
 display_name: 王景熙
+cbdb_id: 526736
 revision: 1
 properties:
   - predicate: bio.summary

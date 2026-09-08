@@ -4,6 +4,7 @@ id: p_hnocyQJeQsZ5H3ypgpmonb
 status: active
 merged_into: null
 display_name: 王正翁
+cbdb_id: 38400
 revision: 1
 properties:
   - predicate: bio.summary

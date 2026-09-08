@@ -4,6 +4,7 @@ id: p_kBwFZ4nR6TJnHkbncXZmVT
 status: active
 merged_into: null
 display_name: 王詔賓
+cbdb_id: 471600
 revision: 1
 properties:
   - predicate: bio.summary

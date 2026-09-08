@@ -4,6 +4,7 @@ id: p_psVhFC7ave4jJ5nVVeJckB
 status: active
 merged_into: null
 display_name: 王永良
+cbdb_id: 293680
 revision: 1
 properties:
   - predicate: bio.summary

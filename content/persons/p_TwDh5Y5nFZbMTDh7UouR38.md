@@ -4,6 +4,7 @@ id: p_TwDh5Y5nFZbMTDh7UouR38
 status: active
 merged_into: null
 display_name: 王淑燦
+cbdb_id: 331196
 revision: 1
 properties:
   - predicate: bio.summary

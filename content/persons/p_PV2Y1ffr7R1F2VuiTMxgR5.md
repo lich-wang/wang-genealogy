@@ -4,6 +4,7 @@ id: p_PV2Y1ffr7R1F2VuiTMxgR5
 status: active
 merged_into: null
 display_name: 王毓芳
+cbdb_id: 414933
 revision: 1
 properties:
   - predicate: bio.summary

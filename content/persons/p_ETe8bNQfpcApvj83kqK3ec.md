@@ -4,6 +4,7 @@ id: p_ETe8bNQfpcApvj83kqK3ec
 status: active
 merged_into: null
 display_name: 王永澂
+cbdb_id: 69139
 revision: 1
 properties:
   - predicate: bio.summary

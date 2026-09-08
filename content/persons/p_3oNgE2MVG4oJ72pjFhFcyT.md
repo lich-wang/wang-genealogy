@@ -4,6 +4,7 @@ id: p_3oNgE2MVG4oJ72pjFhFcyT
 status: active
 merged_into: null
 display_name: 王天池
+cbdb_id: 69066
 revision: 1
 properties:
   - predicate: bio.summary

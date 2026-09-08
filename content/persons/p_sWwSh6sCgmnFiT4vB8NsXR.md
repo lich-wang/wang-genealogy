@@ -4,6 +4,7 @@ id: p_sWwSh6sCgmnFiT4vB8NsXR
 status: active
 merged_into: null
 display_name: 王滟
+cbdb_id: 175611
 revision: 1
 properties:
   - predicate: bio.summary

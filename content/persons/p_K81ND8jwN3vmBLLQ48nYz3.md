@@ -4,6 +4,7 @@ id: p_K81ND8jwN3vmBLLQ48nYz3
 status: active
 merged_into: null
 display_name: 王萬選
+cbdb_id: 415366
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_dQG6P5Z5ucUGLgZuSEfakq
 status: active
 merged_into: null
 display_name: 王熙政
+cbdb_id: 219255
 revision: 1
 properties:
   - predicate: bio.summary

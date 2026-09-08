@@ -4,6 +4,7 @@ id: p_YQ5rh2E3Mres5Mz8ipmUMp
 status: active
 merged_into: null
 display_name: 王叔盧
+cbdb_id: 691067
 revision: 1
 properties:
   - predicate: bio.summary

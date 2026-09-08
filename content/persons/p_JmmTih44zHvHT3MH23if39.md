@@ -4,6 +4,7 @@ id: p_JmmTih44zHvHT3MH23if39
 status: active
 merged_into: null
 display_name: 王大憲
+cbdb_id: 342907
 revision: 1
 properties:
   - predicate: bio.summary

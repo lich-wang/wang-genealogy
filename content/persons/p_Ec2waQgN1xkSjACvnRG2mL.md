@@ -4,6 +4,7 @@ id: p_Ec2waQgN1xkSjACvnRG2mL
 status: active
 merged_into: null
 display_name: 王國稀
+cbdb_id: 384450
 revision: 1
 properties:
   - predicate: bio.summary

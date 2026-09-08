@@ -4,6 +4,7 @@ id: p_hhfsjR22x1fcmZjyczG8DB
 status: active
 merged_into: null
 display_name: 王曾瑀
+cbdb_id: 262081
 revision: 1
 properties:
   - predicate: bio.summary

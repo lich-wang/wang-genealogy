@@ -4,6 +4,7 @@ id: p_hSvdFVHQZBQyyQR1M8ki7U
 status: active
 merged_into: null
 display_name: 王長麟
+cbdb_id: 522260
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_eD9w6Th72wdSB8avtN3HZ5
 status: active
 merged_into: null
 display_name: 王天騏
+cbdb_id: 414216
 revision: 1
 properties:
   - predicate: bio.summary

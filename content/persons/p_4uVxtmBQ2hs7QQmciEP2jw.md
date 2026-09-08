@@ -4,6 +4,7 @@ id: p_4uVxtmBQ2hs7QQmciEP2jw
 status: active
 merged_into: null
 display_name: 王行淹
+cbdb_id: 139326
 revision: 1
 properties:
   - predicate: bio.summary

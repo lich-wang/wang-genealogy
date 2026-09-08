@@ -4,6 +4,7 @@ id: p_xMWcKhAdocE2ePvPUisLBH
 status: active
 merged_into: null
 display_name: 王上林
+cbdb_id: 333538
 revision: 1
 properties:
   - predicate: bio.summary

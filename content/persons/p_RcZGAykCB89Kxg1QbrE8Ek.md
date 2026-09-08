@@ -4,6 +4,7 @@ id: p_RcZGAykCB89Kxg1QbrE8Ek
 status: active
 merged_into: null
 display_name: 王國標
+cbdb_id: 414123
 revision: 1
 properties:
   - predicate: bio.summary

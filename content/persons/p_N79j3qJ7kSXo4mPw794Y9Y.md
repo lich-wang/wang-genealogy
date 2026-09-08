@@ -4,6 +4,7 @@ id: p_N79j3qJ7kSXo4mPw794Y9Y
 status: active
 merged_into: null
 display_name: 王學朱
+cbdb_id: 315450
 revision: 1
 properties:
   - predicate: bio.summary

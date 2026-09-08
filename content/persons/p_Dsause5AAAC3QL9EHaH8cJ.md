@@ -4,6 +4,7 @@ id: p_Dsause5AAAC3QL9EHaH8cJ
 status: active
 merged_into: null
 display_name: 王希廉
+cbdb_id: 71687
 revision: 1
 properties:
   - predicate: bio.summary

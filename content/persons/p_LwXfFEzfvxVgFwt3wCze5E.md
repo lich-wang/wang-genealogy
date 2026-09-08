@@ -4,6 +4,7 @@ id: p_LwXfFEzfvxVgFwt3wCze5E
 status: active
 merged_into: null
 display_name: 王燮堂
+cbdb_id: 415086
 revision: 1
 properties:
   - predicate: bio.summary

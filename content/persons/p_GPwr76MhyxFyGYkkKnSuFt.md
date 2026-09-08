@@ -4,6 +4,7 @@ id: p_GPwr76MhyxFyGYkkKnSuFt
 status: active
 merged_into: null
 display_name: 王奇珍
+cbdb_id: 71742
 revision: 1
 properties:
   - predicate: bio.summary

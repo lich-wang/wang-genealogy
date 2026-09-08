@@ -4,6 +4,7 @@ id: p_WFK8nCcWWajLsezEo17Vyb
 status: active
 merged_into: null
 display_name: 王光謙
+cbdb_id: 145968
 revision: 1
 properties:
   - predicate: bio.summary

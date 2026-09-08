@@ -4,6 +4,7 @@ id: p_Kh1EC1PwCiChCD8HPTyHSt
 status: active
 merged_into: null
 display_name: 王德遠
+cbdb_id: 414566
 revision: 1
 properties:
   - predicate: bio.summary

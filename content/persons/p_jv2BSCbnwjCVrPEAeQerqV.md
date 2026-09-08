@@ -4,6 +4,7 @@ id: p_jv2BSCbnwjCVrPEAeQerqV
 status: active
 merged_into: null
 display_name: 王鳳佚
+cbdb_id: 377634
 revision: 1
 properties:
   - predicate: bio.summary

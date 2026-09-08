@@ -4,6 +4,7 @@ id: p_VdwVhvLDe5rj8ZAQ2XDmgJ
 status: active
 merged_into: null
 display_name: 王榮勣
+cbdb_id: 71856
 revision: 1
 properties:
   - predicate: bio.summary

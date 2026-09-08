@@ -4,6 +4,7 @@ id: p_T7XCT5auDmxppeFRTyn4zp
 status: active
 merged_into: null
 display_name: 王元婁
+cbdb_id: 235472
 revision: 1
 properties:
   - predicate: bio.summary

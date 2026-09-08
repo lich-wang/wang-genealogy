@@ -4,6 +4,7 @@ id: p_NUbpcJrYNU1cp6qmzCNsQq
 status: active
 merged_into: null
 display_name: 王命珂
+cbdb_id: 493020
 revision: 1
 properties:
   - predicate: bio.summary

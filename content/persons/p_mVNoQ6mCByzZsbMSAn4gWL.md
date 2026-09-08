@@ -4,6 +4,7 @@ id: p_mVNoQ6mCByzZsbMSAn4gWL
 status: active
 merged_into: null
 display_name: 王允晉
+cbdb_id: 69097
 revision: 1
 properties:
   - predicate: bio.summary

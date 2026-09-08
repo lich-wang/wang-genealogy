@@ -4,6 +4,7 @@ id: p_uLU6voA3oKZDYf6mokns6L
 status: active
 merged_into: null
 display_name: 王發秀
+cbdb_id: 30064
 revision: 1
 properties:
   - predicate: bio.summary

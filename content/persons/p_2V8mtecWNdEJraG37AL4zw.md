@@ -4,6 +4,7 @@ id: p_2V8mtecWNdEJraG37AL4zw
 status: active
 merged_into: null
 display_name: 王梁材
+cbdb_id: 1756
 revision: 1
 properties:
   - predicate: bio.summary

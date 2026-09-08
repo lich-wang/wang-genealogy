@@ -4,6 +4,7 @@ id: p_s9nS8NH2KVQ8MEGZC3YoDu
 status: active
 merged_into: null
 display_name: 王應臨
+cbdb_id: 208836
 revision: 1
 properties:
   - predicate: bio.summary

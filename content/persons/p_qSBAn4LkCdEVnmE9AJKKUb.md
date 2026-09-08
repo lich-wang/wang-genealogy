@@ -4,6 +4,7 @@ id: p_qSBAn4LkCdEVnmE9AJKKUb
 status: active
 merged_into: null
 display_name: 王排須
+cbdb_id: 152722
 revision: 1
 properties:
   - predicate: bio.summary

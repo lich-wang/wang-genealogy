@@ -4,6 +4,7 @@ id: p_vowE3XMF6f9r166gUrc4qM
 status: active
 merged_into: null
 display_name: 王遵孝
+cbdb_id: 224063
 revision: 1
 properties:
   - predicate: bio.summary

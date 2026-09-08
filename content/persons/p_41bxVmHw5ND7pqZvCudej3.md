@@ -4,6 +4,7 @@ id: p_41bxVmHw5ND7pqZvCudej3
 status: active
 merged_into: null
 display_name: 王广延
+cbdb_id: 36573
 revision: 2
 properties:
   - predicate: bio.summary

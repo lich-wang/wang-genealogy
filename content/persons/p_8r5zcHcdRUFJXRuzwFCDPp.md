@@ -4,6 +4,7 @@ id: p_8r5zcHcdRUFJXRuzwFCDPp
 status: active
 merged_into: null
 display_name: 王瑩之
+cbdb_id: 308699
 revision: 1
 properties:
   - predicate: bio.summary

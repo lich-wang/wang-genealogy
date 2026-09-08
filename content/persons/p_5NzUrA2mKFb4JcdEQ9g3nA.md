@@ -4,6 +4,7 @@ id: p_5NzUrA2mKFb4JcdEQ9g3nA
 status: active
 merged_into: null
 display_name: 王重瞻
+cbdb_id: 22193
 revision: 1
 properties:
   - predicate: bio.summary

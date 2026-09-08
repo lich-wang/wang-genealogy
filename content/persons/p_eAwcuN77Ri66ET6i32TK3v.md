@@ -4,6 +4,7 @@ id: p_eAwcuN77Ri66ET6i32TK3v
 status: active
 merged_into: null
 display_name: 王仲莊
+cbdb_id: 26285
 revision: 1
 properties:
   - predicate: bio.summary

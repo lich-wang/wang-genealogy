@@ -4,6 +4,7 @@ id: p_f1FD2dxtctBfxMEcEAriux
 status: active
 merged_into: null
 display_name: 王執策
+cbdb_id: 330530
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_J9ovB9QsNoS5DRLHBUpq8E
 status: active
 merged_into: null
 display_name: 王源矩
+cbdb_id: 175592
 revision: 1
 properties:
   - predicate: bio.summary

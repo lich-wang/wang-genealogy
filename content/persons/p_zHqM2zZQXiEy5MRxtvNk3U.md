@@ -4,6 +4,7 @@ id: p_zHqM2zZQXiEy5MRxtvNk3U
 status: active
 merged_into: null
 display_name: 王曰恭
+cbdb_id: 414816
 revision: 1
 properties:
   - predicate: bio.summary

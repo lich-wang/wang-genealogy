@@ -4,6 +4,7 @@ id: p_LKrqAwr32FNwH7GpL2YcFx
 status: active
 merged_into: null
 display_name: 王可覲
+cbdb_id: 341839
 revision: 1
 properties:
   - predicate: bio.summary

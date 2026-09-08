@@ -4,6 +4,7 @@ id: p_8sgyq9bT5PQJxoEiFi2tPf
 status: active
 merged_into: null
 display_name: 王庭誨
+cbdb_id: 153850
 revision: 1
 properties:
   - predicate: bio.summary

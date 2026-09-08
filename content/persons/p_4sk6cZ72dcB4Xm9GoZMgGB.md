@@ -4,6 +4,7 @@ id: p_4sk6cZ72dcB4Xm9GoZMgGB
 status: active
 merged_into: null
 display_name: 王際某
+cbdb_id: 472529
 revision: 1
 properties:
   - predicate: bio.summary

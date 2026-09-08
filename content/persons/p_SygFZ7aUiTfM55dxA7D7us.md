@@ -4,6 +4,7 @@ id: p_SygFZ7aUiTfM55dxA7D7us
 status: active
 merged_into: null
 display_name: 王畫一
+cbdb_id: 71739
 revision: 1
 properties:
   - predicate: bio.summary

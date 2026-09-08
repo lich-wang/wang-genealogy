@@ -4,6 +4,7 @@ id: p_VE7MbjPgCfUY5LUVTLhiwD
 status: active
 merged_into: null
 display_name: 王希增
+cbdb_id: 342979
 revision: 1
 properties:
   - predicate: bio.summary

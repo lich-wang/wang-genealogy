@@ -4,6 +4,7 @@ id: p_CKCqFW91v34tytkwbqtYKi
 status: active
 merged_into: null
 display_name: 王令甲
+cbdb_id: 413820
 revision: 1
 properties:
   - predicate: bio.summary

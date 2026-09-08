@@ -4,6 +4,7 @@ id: p_CbwNrVzvSUHK2q7XGCJ758
 status: active
 merged_into: null
 display_name: 王思誨
+cbdb_id: 155842
 revision: 1
 properties:
   - predicate: bio.summary

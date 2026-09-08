@@ -4,6 +4,7 @@ id: p_VNQvnTusvNC6E7ht7oJX6h
 status: active
 merged_into: null
 display_name: 王學舜
+cbdb_id: 287451
 revision: 1
 properties:
   - predicate: bio.summary

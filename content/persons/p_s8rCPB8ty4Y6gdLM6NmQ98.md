@@ -4,6 +4,7 @@ id: p_s8rCPB8ty4Y6gdLM6NmQ98
 status: active
 merged_into: null
 display_name: 王洛書
+cbdb_id: 501064
 revision: 1
 properties:
   - predicate: bio.summary

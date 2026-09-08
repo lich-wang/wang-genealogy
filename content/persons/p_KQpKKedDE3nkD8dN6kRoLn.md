@@ -4,6 +4,7 @@ id: p_KQpKKedDE3nkD8dN6kRoLn
 status: active
 merged_into: null
 display_name: 王守堃
+cbdb_id: 514452
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_Xoc4Mtw1rdPx9n272aKHJJ
 status: active
 merged_into: null
 display_name: 王有悌
+cbdb_id: 414828
 revision: 1
 properties:
   - predicate: bio.summary

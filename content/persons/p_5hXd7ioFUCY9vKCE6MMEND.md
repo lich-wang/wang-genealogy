@@ -4,6 +4,7 @@ id: p_5hXd7ioFUCY9vKCE6MMEND
 status: active
 merged_into: null
 display_name: 王紀庸
+cbdb_id: 526841
 revision: 1
 properties:
   - predicate: bio.summary

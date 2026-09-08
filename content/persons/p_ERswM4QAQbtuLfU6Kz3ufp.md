@@ -4,6 +4,7 @@ id: p_ERswM4QAQbtuLfU6Kz3ufp
 status: active
 merged_into: null
 display_name: 王用賔
+cbdb_id: 293427
 revision: 1
 properties:
   - predicate: bio.summary

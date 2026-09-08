@@ -4,6 +4,7 @@ id: p_ibF6Z8QN9uqFNhBFQK6BeC
 status: active
 merged_into: null
 display_name: 王貴宗
+cbdb_id: 257943
 revision: 1
 properties:
   - predicate: bio.summary

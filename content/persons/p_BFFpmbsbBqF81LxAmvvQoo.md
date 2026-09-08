@@ -4,6 +4,7 @@ id: p_BFFpmbsbBqF81LxAmvvQoo
 status: active
 merged_into: null
 display_name: 王時楠
+cbdb_id: 308752
 revision: 1
 properties:
   - predicate: bio.summary

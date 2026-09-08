@@ -4,6 +4,7 @@ id: p_CCMccR4P954q1f51XxRvrB
 status: active
 merged_into: null
 display_name: 王仕昂
+cbdb_id: 233967
 revision: 1
 properties:
   - predicate: bio.summary

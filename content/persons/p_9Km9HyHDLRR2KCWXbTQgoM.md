@@ -4,6 +4,7 @@ id: p_9Km9HyHDLRR2KCWXbTQgoM
 status: active
 merged_into: null
 display_name: 王厚坊
+cbdb_id: 693620
 revision: 1
 properties:
   - predicate: bio.summary

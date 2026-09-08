@@ -4,6 +4,7 @@ id: p_nParMHMMHE7v7tiAzaEpRr
 status: active
 merged_into: null
 display_name: 王貞慶
+cbdb_id: 126612
 revision: 1
 properties:
   - predicate: bio.summary

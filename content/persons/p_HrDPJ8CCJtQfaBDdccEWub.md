@@ -4,6 +4,7 @@ id: p_HrDPJ8CCJtQfaBDdccEWub
 status: active
 merged_into: null
 display_name: 王世聘
+cbdb_id: 413725
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_VdjJtBa1YHzjvS2Wt5iD7z
 status: active
 merged_into: null
 display_name: 王計
+cbdb_id: 379386
 revision: 1
 properties:
   - predicate: bio.summary

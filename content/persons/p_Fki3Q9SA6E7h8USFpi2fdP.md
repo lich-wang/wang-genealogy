@@ -4,6 +4,7 @@ id: p_Fki3Q9SA6E7h8USFpi2fdP
 status: active
 merged_into: null
 display_name: 王僧保
+cbdb_id: 72169
 revision: 1
 properties:
   - predicate: bio.summary

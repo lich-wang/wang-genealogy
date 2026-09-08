@@ -4,6 +4,7 @@ id: p_SgThifkjTUbYEBc8gUKfZc
 status: active
 merged_into: null
 display_name: 章氏
+cbdb_id: 325416
 revision: 1
 properties:
   - predicate: bio.summary

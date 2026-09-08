@@ -4,6 +4,7 @@ id: p_Bezh6vrs78VF9fkwDo9g65
 status: active
 merged_into: null
 display_name: 王運元
+cbdb_id: 342814
 revision: 1
 properties:
   - predicate: bio.summary

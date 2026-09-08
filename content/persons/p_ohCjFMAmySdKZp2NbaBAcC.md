@@ -4,6 +4,7 @@ id: p_ohCjFMAmySdKZp2NbaBAcC
 status: active
 merged_into: null
 display_name: 王夢月
+cbdb_id: 25804
 revision: 1
 properties:
   - predicate: bio.summary

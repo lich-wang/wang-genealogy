@@ -4,6 +4,7 @@ id: p_R43S4tSNhE9EYwSxHQi8DK
 status: active
 merged_into: null
 display_name: 王迺
+cbdb_id: 175425
 revision: 1
 properties:
   - predicate: bio.summary

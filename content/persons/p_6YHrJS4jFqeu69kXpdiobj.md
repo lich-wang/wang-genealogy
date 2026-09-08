@@ -4,6 +4,7 @@ id: p_6YHrJS4jFqeu69kXpdiobj
 status: active
 merged_into: null
 display_name: 王大祥
+cbdb_id: 208601
 revision: 1
 properties:
   - predicate: bio.summary

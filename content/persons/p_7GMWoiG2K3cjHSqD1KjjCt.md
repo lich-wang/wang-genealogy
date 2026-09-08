@@ -4,6 +4,7 @@ id: p_7GMWoiG2K3cjHSqD1KjjCt
 status: active
 merged_into: null
 display_name: 王梠
+cbdb_id: 37899
 revision: 1
 properties:
   - predicate: bio.summary

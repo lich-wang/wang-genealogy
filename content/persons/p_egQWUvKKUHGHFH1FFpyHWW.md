@@ -4,6 +4,7 @@ id: p_egQWUvKKUHGHFH1FFpyHWW
 status: active
 merged_into: null
 display_name: 王祚延
+cbdb_id: 233975
 revision: 1
 properties:
   - predicate: bio.summary

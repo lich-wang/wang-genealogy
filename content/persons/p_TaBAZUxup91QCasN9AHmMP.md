@@ -4,6 +4,7 @@ id: p_TaBAZUxup91QCasN9AHmMP
 status: active
 merged_into: null
 display_name: 王庭栢
+cbdb_id: 341582
 revision: 1
 properties:
   - predicate: bio.summary

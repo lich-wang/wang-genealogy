@@ -4,6 +4,7 @@ id: p_HUN7DbFxMnWywjBEqbwZHN
 status: active
 merged_into: null
 display_name: 王繼緒
+cbdb_id: 415274
 revision: 1
 properties:
   - predicate: bio.summary

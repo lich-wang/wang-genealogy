@@ -4,6 +4,7 @@ id: p_ABPK3cjG187rFysgiiS2Cu
 status: active
 merged_into: null
 display_name: 王琢璞
+cbdb_id: 72038
 revision: 1
 properties:
   - predicate: bio.summary

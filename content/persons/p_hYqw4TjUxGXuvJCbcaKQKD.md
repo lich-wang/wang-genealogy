@@ -4,6 +4,7 @@ id: p_hYqw4TjUxGXuvJCbcaKQKD
 status: active
 merged_into: null
 display_name: 王祖齡
+cbdb_id: 213208
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_g5rCkWj116EtbyQccJpN5M
 status: active
 merged_into: null
 display_name: 王祖佑
+cbdb_id: 71918
 revision: 1
 properties:
   - predicate: bio.summary

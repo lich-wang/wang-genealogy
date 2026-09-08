@@ -4,6 +4,7 @@ id: p_BPxpbEFgxCkBsXLs3Ktp4e
 status: active
 merged_into: null
 display_name: 王經濟
+cbdb_id: 415239
 revision: 1
 properties:
   - predicate: bio.summary

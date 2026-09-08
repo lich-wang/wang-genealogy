@@ -4,6 +4,7 @@ id: p_NGqeDc9UMvx99k27BE7vMV
 status: active
 merged_into: null
 display_name: 王孟夏
+cbdb_id: 414257
 revision: 1
 properties:
   - predicate: bio.summary

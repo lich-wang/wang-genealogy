@@ -4,6 +4,7 @@ id: p_FTKFSomQccaLQiqMWKmQJ6
 status: active
 merged_into: null
 display_name: 王无畏
+cbdb_id: 175931
 revision: 2
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_eNL3bKbKZzXoB9aq7X8fZ4
 status: active
 merged_into: null
 display_name: 王瑤卿
+cbdb_id: 511624
 revision: 1
 properties:
   - predicate: bio.summary

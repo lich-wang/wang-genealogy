@@ -4,6 +4,7 @@ id: p_ZnbhfDdF313ATDbaML6VkT
 status: active
 merged_into: null
 display_name: 王玄範
+cbdb_id: 198043
 revision: 1
 properties:
   - predicate: bio.summary

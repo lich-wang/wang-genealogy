@@ -4,6 +4,7 @@ id: p_xnpwgwTaBcdtKVoo76rLsg
 status: active
 merged_into: null
 display_name: 王合連
+cbdb_id: 69181
 revision: 1
 properties:
   - predicate: bio.summary

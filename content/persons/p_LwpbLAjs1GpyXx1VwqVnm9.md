@@ -4,6 +4,7 @@ id: p_LwpbLAjs1GpyXx1VwqVnm9
 status: active
 merged_into: null
 display_name: 王福賜
+cbdb_id: 255288
 revision: 1
 properties:
   - predicate: bio.summary

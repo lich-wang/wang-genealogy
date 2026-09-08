@@ -4,6 +4,7 @@ id: p_6ZKGS2HkvaTrTLKFQL2mGi
 status: active
 merged_into: null
 display_name: 王巨善
+cbdb_id: 280181
 revision: 1
 properties:
   - predicate: bio.summary

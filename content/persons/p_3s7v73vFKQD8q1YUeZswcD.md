@@ -4,6 +4,7 @@ id: p_3s7v73vFKQD8q1YUeZswcD
 status: active
 merged_into: null
 display_name: 王來賀
+cbdb_id: 338034
 revision: 1
 properties:
   - predicate: bio.summary

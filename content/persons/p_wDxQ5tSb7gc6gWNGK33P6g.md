@@ -4,6 +4,7 @@ id: p_wDxQ5tSb7gc6gWNGK33P6g
 status: active
 merged_into: null
 display_name: 王炳瀛
+cbdb_id: 69281
 revision: 1
 properties:
   - predicate: bio.summary

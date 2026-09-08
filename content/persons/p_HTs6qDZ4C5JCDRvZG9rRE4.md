@@ -4,6 +4,7 @@ id: p_HTs6qDZ4C5JCDRvZG9rRE4
 status: active
 merged_into: null
 display_name: 王大琛
+cbdb_id: 164509
 revision: 1
 properties:
   - predicate: bio.summary

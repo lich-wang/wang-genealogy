@@ -4,6 +4,7 @@ id: p_n9JWi9Ws7kfdEieY3ME6s2
 status: active
 merged_into: null
 display_name: 王希晏
+cbdb_id: 141204
 revision: 1
 properties:
   - predicate: bio.summary

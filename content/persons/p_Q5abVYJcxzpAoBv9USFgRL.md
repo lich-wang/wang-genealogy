@@ -4,6 +4,7 @@ id: p_Q5abVYJcxzpAoBv9USFgRL
 status: active
 merged_into: null
 display_name: 王迪中
+cbdb_id: 71765
 revision: 1
 properties:
   - predicate: bio.summary

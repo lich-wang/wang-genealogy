@@ -4,6 +4,7 @@ id: p_Mm95wadt9b4QgSGd4Ps4xQ
 status: active
 merged_into: null
 display_name: 王慶同
+cbdb_id: 514240
 revision: 1
 properties:
   - predicate: bio.summary

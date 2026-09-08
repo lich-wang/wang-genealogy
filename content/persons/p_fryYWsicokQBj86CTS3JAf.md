@@ -4,6 +4,7 @@ id: p_fryYWsicokQBj86CTS3JAf
 status: active
 merged_into: null
 display_name: 王曰貴
+cbdb_id: 229374
 revision: 1
 properties:
   - predicate: bio.summary

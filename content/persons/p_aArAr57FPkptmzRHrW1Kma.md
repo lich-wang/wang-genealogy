@@ -4,6 +4,7 @@ id: p_aArAr57FPkptmzRHrW1Kma
 status: active
 merged_into: null
 display_name: 王翼孫
+cbdb_id: 72221
 revision: 1
 properties:
   - predicate: bio.summary

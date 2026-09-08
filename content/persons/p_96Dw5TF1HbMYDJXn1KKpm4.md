@@ -4,6 +4,7 @@ id: p_96Dw5TF1HbMYDJXn1KKpm4
 status: active
 merged_into: null
 display_name: 王近訥
+cbdb_id: 415476
 revision: 1
 properties:
   - predicate: bio.summary

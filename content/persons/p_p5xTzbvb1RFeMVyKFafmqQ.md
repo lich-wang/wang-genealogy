@@ -4,6 +4,7 @@ id: p_p5xTzbvb1RFeMVyKFafmqQ
 status: active
 merged_into: null
 display_name: 王士祥
+cbdb_id: 414175
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_Pvksu99sJ7DoCMeMEqctph
 status: active
 merged_into: null
 display_name: 王懋簡
+cbdb_id: 452838
 revision: 1
 properties:
   - predicate: bio.summary

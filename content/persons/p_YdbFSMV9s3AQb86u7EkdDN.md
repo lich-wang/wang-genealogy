@@ -4,6 +4,7 @@ id: p_YdbFSMV9s3AQb86u7EkdDN
 status: active
 merged_into: null
 display_name: 王臣
+cbdb_id: 313120
 revision: 2
 properties:
   - predicate: bio.summary

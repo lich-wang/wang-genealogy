@@ -4,6 +4,7 @@ id: p_hNAxJDLEWKQQPJwggLXrMZ
 status: active
 merged_into: null
 display_name: 王靑雲
+cbdb_id: 415597
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_NXGVJ43U7JQ7T6gN4czWeV
 status: active
 merged_into: null
 display_name: 王崇化
+cbdb_id: 301930
 revision: 1
 properties:
   - predicate: bio.summary

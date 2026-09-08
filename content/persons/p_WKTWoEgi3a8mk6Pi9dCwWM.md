@@ -4,6 +4,7 @@ id: p_WKTWoEgi3a8mk6Pi9dCwWM
 status: active
 merged_into: null
 display_name: 王朝立
+cbdb_id: 414847
 revision: 1
 properties:
   - predicate: bio.summary

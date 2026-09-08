@@ -4,6 +4,7 @@ id: p_TuLTeLzjYV3JSQJXe8js5u
 status: active
 merged_into: null
 display_name: 王遊藝
+cbdb_id: 148891
 revision: 1
 properties:
   - predicate: bio.summary

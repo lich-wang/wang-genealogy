@@ -4,6 +4,7 @@ id: p_5DAft6KAPiJXbm2sZw8EfY
 status: active
 merged_into: null
 display_name: 王鳳袍
+cbdb_id: 415636
 revision: 1
 properties:
   - predicate: bio.summary

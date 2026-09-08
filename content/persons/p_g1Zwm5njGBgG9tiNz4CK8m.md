@@ -4,6 +4,7 @@ id: p_g1Zwm5njGBgG9tiNz4CK8m
 status: active
 merged_into: null
 display_name: 王全斌
+cbdb_id: 11689
 revision: 1
 properties:
   - predicate: bio.summary

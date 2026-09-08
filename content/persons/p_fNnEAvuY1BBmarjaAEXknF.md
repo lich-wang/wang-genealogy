@@ -4,6 +4,7 @@ id: p_fNnEAvuY1BBmarjaAEXknF
 status: active
 merged_into: null
 display_name: 王時和
+cbdb_id: 207820
 revision: 1
 properties:
   - predicate: bio.summary

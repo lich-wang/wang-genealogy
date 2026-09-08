@@ -4,6 +4,7 @@ id: p_wAunrQdQMigayrinfibpBR
 status: active
 merged_into: null
 display_name: 王汪
+cbdb_id: 414986
 revision: 1
 properties:
   - predicate: bio.summary

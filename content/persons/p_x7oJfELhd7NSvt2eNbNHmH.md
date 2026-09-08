@@ -4,6 +4,7 @@ id: p_x7oJfELhd7NSvt2eNbNHmH
 status: active
 merged_into: null
 display_name: 王景
+cbdb_id: 175355
 revision: 1
 properties:
   - predicate: bio.summary

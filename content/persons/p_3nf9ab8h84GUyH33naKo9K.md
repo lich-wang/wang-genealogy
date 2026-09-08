@@ -4,6 +4,7 @@ id: p_3nf9ab8h84GUyH33naKo9K
 status: active
 merged_into: null
 display_name: 王良采
+cbdb_id: 294716
 revision: 1
 properties:
   - predicate: bio.summary

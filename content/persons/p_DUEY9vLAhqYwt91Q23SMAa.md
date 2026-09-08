@@ -4,6 +4,7 @@ id: p_DUEY9vLAhqYwt91Q23SMAa
 status: active
 merged_into: null
 display_name: 王彥起
+cbdb_id: 120374
 revision: 1
 properties:
   - predicate: bio.summary

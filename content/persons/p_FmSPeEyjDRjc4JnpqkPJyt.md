@@ -4,6 +4,7 @@ id: p_FmSPeEyjDRjc4JnpqkPJyt
 status: active
 merged_into: null
 display_name: 王宗獻
+cbdb_id: 317282
 revision: 1
 properties:
   - predicate: bio.summary

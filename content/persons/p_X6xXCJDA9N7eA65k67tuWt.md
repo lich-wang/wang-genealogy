@@ -4,6 +4,7 @@ id: p_X6xXCJDA9N7eA65k67tuWt
 status: active
 merged_into: null
 display_name: 王德感
+cbdb_id: 150703
 revision: 1
 properties:
   - predicate: bio.summary

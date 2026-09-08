@@ -4,6 +4,7 @@ id: p_g9HZVLZLERp8qmAKrj4AB1
 status: active
 merged_into: null
 display_name: 王廷理
+cbdb_id: 414473
 revision: 1
 properties:
   - predicate: bio.summary

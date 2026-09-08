@@ -4,6 +4,7 @@ id: p_69nsbYymmFQubbC616ADSH
 status: active
 merged_into: null
 display_name: 王宗炎
+cbdb_id: 69277
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_stg3WD3QmMAGx21457qmeU
 status: active
 merged_into: null
 display_name: 王一爵
+cbdb_id: 413676
 revision: 1
 properties:
   - predicate: bio.summary

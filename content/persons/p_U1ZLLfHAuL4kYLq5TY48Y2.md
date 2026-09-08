@@ -4,6 +4,7 @@ id: p_U1ZLLfHAuL4kYLq5TY48Y2
 status: active
 merged_into: null
 display_name: 王印揆
+cbdb_id: 526741
 revision: 1
 properties:
   - predicate: bio.summary

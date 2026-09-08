@@ -4,6 +4,7 @@ id: p_BUq7TSsCycZT1HmRToqf1z
 status: active
 merged_into: null
 display_name: 王喬蒙
+cbdb_id: 336216
 revision: 1
 properties:
   - predicate: bio.summary

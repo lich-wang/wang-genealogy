@@ -4,6 +4,7 @@ id: p_oTtBrDyHdNXQim1NDh5ZGo
 status: active
 merged_into: null
 display_name: 王性桂
+cbdb_id: 59294
 revision: 1
 properties:
   - predicate: bio.summary

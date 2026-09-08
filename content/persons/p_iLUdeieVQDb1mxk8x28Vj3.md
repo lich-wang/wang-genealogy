@@ -4,6 +4,7 @@ id: p_iLUdeieVQDb1mxk8x28Vj3
 status: active
 merged_into: null
 display_name: 王正路
+cbdb_id: 20886
 revision: 1
 properties:
   - predicate: bio.summary

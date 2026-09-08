@@ -4,6 +4,7 @@ id: p_DQmGrRn3w1VbM72gBRexhq
 status: active
 merged_into: null
 display_name: 王坦然
+cbdb_id: 512617
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_Fb2jT7FZ6TD22C1bvBnmYY
 status: active
 merged_into: null
 display_name: 劉詢
+cbdb_id: 16628
 revision: 1
 properties:
   - predicate: bio.summary

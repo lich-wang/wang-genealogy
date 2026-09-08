@@ -4,6 +4,7 @@ id: p_hnNBzYG5xk2daLJAABLX5g
 status: active
 merged_into: null
 display_name: 王孔源
+cbdb_id: 414247
 revision: 1
 properties:
   - predicate: bio.summary

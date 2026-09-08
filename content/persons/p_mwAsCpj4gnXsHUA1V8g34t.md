@@ -4,6 +4,7 @@ id: p_mwAsCpj4gnXsHUA1V8g34t
 status: active
 merged_into: null
 display_name: 王伯瀛
+cbdb_id: 274045
 revision: 1
 properties:
   - predicate: bio.summary

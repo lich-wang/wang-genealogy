@@ -4,6 +4,7 @@ id: p_px4pm8ArcNrKVMA2kiFv2t
 status: active
 merged_into: null
 display_name: 王左持
+cbdb_id: 342888
 revision: 1
 properties:
   - predicate: bio.summary

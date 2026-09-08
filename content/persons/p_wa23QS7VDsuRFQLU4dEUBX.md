@@ -4,6 +4,7 @@ id: p_wa23QS7VDsuRFQLU4dEUBX
 status: active
 merged_into: null
 display_name: 王長衎
+cbdb_id: 185430
 revision: 1
 properties:
   - predicate: bio.summary

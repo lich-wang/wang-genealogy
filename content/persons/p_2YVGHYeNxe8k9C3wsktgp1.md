@@ -4,6 +4,7 @@ id: p_2YVGHYeNxe8k9C3wsktgp1
 status: active
 merged_into: null
 display_name: 王延陶
+cbdb_id: 341956
 revision: 1
 properties:
   - predicate: bio.summary

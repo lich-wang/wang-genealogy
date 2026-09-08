@@ -4,6 +4,7 @@ id: p_vNHP4yCo1UueVsabVYAC5e
 status: active
 merged_into: null
 display_name: 王源奕
+cbdb_id: 175607
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_wU5q3AFkBrhEUJeCsXwJVe
 status: active
 merged_into: null
 display_name: 王崎
+cbdb_id: 415386
 revision: 1
 properties:
   - predicate: bio.summary

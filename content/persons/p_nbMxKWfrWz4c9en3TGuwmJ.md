@@ -4,6 +4,7 @@ id: p_nbMxKWfrWz4c9en3TGuwmJ
 status: active
 merged_into: null
 display_name: 王显道
+cbdb_id: 326551
 revision: 1
 properties:
   - predicate: name.primary

@@ -4,6 +4,7 @@ id: p_6n1BzC9EQ9oU7PGzVBSSwn
 status: active
 merged_into: null
 display_name: 王丙归
+cbdb_id: 517402
 revision: 1
 properties:
   - predicate: bio.summary

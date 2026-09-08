@@ -4,6 +4,7 @@ id: p_k1HyDXBWUyDbpDB3hy12pq
 status: active
 merged_into: null
 display_name: 王安義
+cbdb_id: 101174
 revision: 1
 properties:
   - predicate: bio.summary

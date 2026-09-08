@@ -4,6 +4,7 @@ id: p_T6qjXv6tVN9EVmBrJ1Vy6C
 status: active
 merged_into: null
 display_name: 王錫康
+cbdb_id: 72121
 revision: 1
 properties:
   - predicate: bio.summary

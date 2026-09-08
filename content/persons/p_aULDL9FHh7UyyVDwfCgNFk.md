@@ -4,6 +4,7 @@ id: p_aULDL9FHh7UyyVDwfCgNFk
 status: active
 merged_into: null
 display_name: 王祥三
+cbdb_id: 237753
 revision: 1
 properties:
   - predicate: bio.summary

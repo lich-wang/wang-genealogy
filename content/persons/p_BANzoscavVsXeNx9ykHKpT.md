@@ -4,6 +4,7 @@ id: p_BANzoscavVsXeNx9ykHKpT
 status: active
 merged_into: null
 display_name: 王垂
+cbdb_id: 97838
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_riJJsaXCL8C4KFLVPRybNk
 status: active
 merged_into: null
 display_name: 王翱
+cbdb_id: 141842
 revision: 1
 properties:
   - predicate: bio.summary

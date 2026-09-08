@@ -4,6 +4,7 @@ id: p_HmBcvvM1EnzMhH7kEyHBrC
 status: active
 merged_into: null
 display_name: 王卿卿
+cbdb_id: 414011
 revision: 1
 properties:
   - predicate: bio.summary

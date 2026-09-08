@@ -4,6 +4,7 @@ id: p_9bVLJbPGFeg8TZks7UqJw6
 status: active
 merged_into: null
 display_name: 王室蕃
+cbdb_id: 60741
 revision: 1
 properties:
   - predicate: bio.summary

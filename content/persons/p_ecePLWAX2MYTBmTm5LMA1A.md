@@ -4,6 +4,7 @@ id: p_ecePLWAX2MYTBmTm5LMA1A
 status: active
 merged_into: null
 display_name: 王徑
+cbdb_id: 237581
 revision: 1
 properties:
   - predicate: bio.summary

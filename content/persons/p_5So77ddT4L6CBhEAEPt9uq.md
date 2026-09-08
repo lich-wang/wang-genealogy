@@ -4,6 +4,7 @@ id: p_5So77ddT4L6CBhEAEPt9uq
 status: active
 merged_into: null
 display_name: 王佑民
+cbdb_id: 336584
 revision: 1
 properties:
   - predicate: bio.summary

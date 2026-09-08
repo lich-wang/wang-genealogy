@@ -4,6 +4,7 @@ id: p_p7Nju4nBEKVHt14JCWVPnr
 status: active
 merged_into: null
 display_name: 王直興
+cbdb_id: 249594
 revision: 1
 properties:
   - predicate: bio.summary

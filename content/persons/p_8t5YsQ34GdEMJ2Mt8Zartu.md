@@ -4,6 +4,7 @@ id: p_8t5YsQ34GdEMJ2Mt8Zartu
 status: active
 merged_into: null
 display_name: 王其章
+cbdb_id: 343199
 revision: 1
 properties:
   - predicate: bio.summary

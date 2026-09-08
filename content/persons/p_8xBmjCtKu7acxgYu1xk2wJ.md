@@ -4,6 +4,7 @@ id: p_8xBmjCtKu7acxgYu1xk2wJ
 status: active
 merged_into: null
 display_name: 王致恩
+cbdb_id: 415321
 revision: 1
 properties:
   - predicate: bio.summary

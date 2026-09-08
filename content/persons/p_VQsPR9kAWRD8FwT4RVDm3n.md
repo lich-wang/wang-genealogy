@@ -4,6 +4,7 @@ id: p_VQsPR9kAWRD8FwT4RVDm3n
 status: active
 merged_into: null
 display_name: 王介眉
+cbdb_id: 55250
 revision: 1
 properties:
   - predicate: bio.summary

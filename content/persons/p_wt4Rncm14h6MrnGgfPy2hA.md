@@ -4,6 +4,7 @@ id: p_wt4Rncm14h6MrnGgfPy2hA
 status: active
 merged_into: null
 display_name: 王用才
+cbdb_id: 201069
 revision: 1
 properties:
   - predicate: bio.summary

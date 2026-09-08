@@ -4,6 +4,7 @@ id: p_ygW4DDucdKk8PecoLSKG3k
 status: active
 merged_into: null
 display_name: 王又溟
+cbdb_id: 56216
 revision: 1
 properties:
   - predicate: bio.summary

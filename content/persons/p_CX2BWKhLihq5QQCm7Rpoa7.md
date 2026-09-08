@@ -4,6 +4,7 @@ id: p_CX2BWKhLihq5QQCm7Rpoa7
 status: active
 merged_into: null
 display_name: 王文楨
+cbdb_id: 414737
 revision: 1
 properties:
   - predicate: bio.summary

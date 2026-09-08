@@ -4,6 +4,7 @@ id: p_baSpq16an5uWZedKJkRfP6
 status: active
 merged_into: null
 display_name: 王金鉉
+cbdb_id: 415532
 revision: 1
 properties:
   - predicate: bio.summary

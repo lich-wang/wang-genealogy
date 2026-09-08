@@ -4,6 +4,7 @@ id: p_XvB9fiR4qtayP99DjkRnm9
 status: active
 merged_into: null
 display_name: 王從益
+cbdb_id: 37406
 revision: 1
 properties:
   - predicate: bio.summary

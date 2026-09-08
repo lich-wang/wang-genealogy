@@ -4,6 +4,7 @@ id: p_2RVdQXVc5dFpLTBHLLa8fr
 status: active
 merged_into: null
 display_name: 王進第
+cbdb_id: 228978
 revision: 1
 properties:
   - predicate: bio.summary

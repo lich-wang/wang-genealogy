@@ -4,6 +4,7 @@ id: p_zJQiLQ79hDnjc3ncC1aWSr
 status: active
 merged_into: null
 display_name: 王廷梧
+cbdb_id: 271034
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_Sjo1XNHLxFQUB7oregUt8f
 status: active
 merged_into: null
 display_name: 王愈擴
+cbdb_id: 343736
 revision: 1
 properties:
   - predicate: bio.summary

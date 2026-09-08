@@ -4,6 +4,7 @@ id: p_Z2BWBaJCxaiXc8hXEo9nSQ
 status: active
 merged_into: null
 display_name: 萧昭文
+cbdb_id: 34008
 revision: 1
 properties:
   - predicate: bio.summary

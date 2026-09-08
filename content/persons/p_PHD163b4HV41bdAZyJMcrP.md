@@ -4,6 +4,7 @@ id: p_PHD163b4HV41bdAZyJMcrP
 status: active
 merged_into: null
 display_name: 王仕廉
+cbdb_id: 413810
 revision: 1
 properties:
   - predicate: bio.summary

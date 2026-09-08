@@ -4,6 +4,7 @@ id: p_vDf4KNgP8SQ1AFCjHoMyNz
 status: active
 merged_into: null
 display_name: 王本正
+cbdb_id: 517430
 revision: 1
 properties:
   - predicate: bio.summary

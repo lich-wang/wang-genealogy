@@ -4,6 +4,7 @@ id: p_aKPjxHD5Jm425UALHGGMu5
 status: active
 merged_into: null
 display_name: 王宏弼
+cbdb_id: 69177
 revision: 1
 properties:
   - predicate: bio.summary

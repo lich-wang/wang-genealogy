@@ -4,6 +4,7 @@ id: p_bbtkRepz65zt6fY1dTLEkm
 status: active
 merged_into: null
 display_name: 王沁
+cbdb_id: 191076
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_dPLQ1xDVemcfQ35yDKXEN5
 status: active
 merged_into: null
 display_name: 王燐
+cbdb_id: 415085
 revision: 1
 properties:
   - predicate: bio.summary

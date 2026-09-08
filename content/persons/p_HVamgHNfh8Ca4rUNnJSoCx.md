@@ -4,6 +4,7 @@ id: p_HVamgHNfh8Ca4rUNnJSoCx
 status: active
 merged_into: null
 display_name: 王本許
+cbdb_id: 34067
 revision: 1
 properties:
   - predicate: bio.summary

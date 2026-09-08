@@ -4,6 +4,7 @@ id: p_ckGFfMbHQMMKR94RfeYPgD
 status: active
 merged_into: null
 display_name: 王執經
+cbdb_id: 330526
 revision: 1
 properties:
   - predicate: bio.summary

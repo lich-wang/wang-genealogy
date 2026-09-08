@@ -4,6 +4,7 @@ id: p_qcZ4AXwGoxo7s237XMPxE8
 status: active
 merged_into: null
 display_name: 王國胤
+cbdb_id: 214957
 revision: 1
 properties:
   - predicate: bio.summary

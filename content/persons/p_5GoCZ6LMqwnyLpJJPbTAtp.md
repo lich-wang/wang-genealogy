@@ -4,6 +4,7 @@ id: p_5GoCZ6LMqwnyLpJJPbTAtp
 status: active
 merged_into: null
 display_name: 王溉槐
+cbdb_id: 235464
 revision: 1
 properties:
   - predicate: bio.summary

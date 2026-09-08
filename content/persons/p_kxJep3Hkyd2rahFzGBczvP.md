@@ -4,6 +4,7 @@ id: p_kxJep3Hkyd2rahFzGBczvP
 status: active
 merged_into: null
 display_name: 王蕭韶
+cbdb_id: 149688
 revision: 1
 properties:
   - predicate: bio.summary

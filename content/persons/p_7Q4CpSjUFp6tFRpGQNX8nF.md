@@ -4,6 +4,7 @@ id: p_7Q4CpSjUFp6tFRpGQNX8nF
 status: active
 merged_into: null
 display_name: 王瓏
+cbdb_id: 294338
 revision: 1
 properties:
   - predicate: bio.summary

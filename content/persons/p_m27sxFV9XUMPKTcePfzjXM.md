@@ -4,6 +4,7 @@ id: p_m27sxFV9XUMPKTcePfzjXM
 status: active
 merged_into: null
 display_name: 王仁長
+cbdb_id: 193632
 revision: 1
 properties:
   - predicate: bio.summary

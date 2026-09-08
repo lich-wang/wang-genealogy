@@ -4,6 +4,7 @@ id: p_b83k4g1WnCibKe1zSFCq2F
 status: active
 merged_into: null
 display_name: 高氏
+cbdb_id: 290192
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_8kkgtPFJri6iK2o4RSWdfJ
 status: active
 merged_into: null
 display_name: 王鵡
+cbdb_id: 415647
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_WiDj94V6X6MHE2Poixs2G5
 status: active
 merged_into: null
 display_name: 王得林
+cbdb_id: 291640
 revision: 1
 properties:
   - predicate: bio.summary

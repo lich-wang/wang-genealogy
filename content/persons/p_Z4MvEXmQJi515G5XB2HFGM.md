@@ -4,6 +4,7 @@ id: p_Z4MvEXmQJi515G5XB2HFGM
 status: active
 merged_into: null
 display_name: 王元姬
+cbdb_id: 135477
 revision: 1
 properties:
   - predicate: bio.summary

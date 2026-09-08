@@ -4,6 +4,7 @@ id: p_T5ptgLrt8SqYBBPnTSAV6v
 status: active
 merged_into: null
 display_name: 王良相
+cbdb_id: 266080
 revision: 1
 properties:
   - predicate: bio.summary

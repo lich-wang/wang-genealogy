@@ -4,6 +4,7 @@ id: p_d6C2oucF85fCi8g8BcAKPN
 status: active
 merged_into: null
 display_name: 王愛之
+cbdb_id: 213570
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_3wXy3wMCnKJXggBBCZx9SE
 status: active
 merged_into: null
 display_name: 王振俗
+cbdb_id: 414693
 revision: 1
 properties:
   - predicate: bio.summary

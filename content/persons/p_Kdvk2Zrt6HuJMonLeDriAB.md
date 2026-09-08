@@ -4,6 +4,7 @@ id: p_Kdvk2Zrt6HuJMonLeDriAB
 status: active
 merged_into: null
 display_name: 王保元
+cbdb_id: 69252
 revision: 1
 properties:
   - predicate: bio.summary

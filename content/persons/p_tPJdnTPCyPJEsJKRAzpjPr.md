@@ -4,6 +4,7 @@ id: p_tPJdnTPCyPJEsJKRAzpjPr
 status: active
 merged_into: null
 display_name: 王忠訓
+cbdb_id: 37687
 revision: 1
 properties:
   - predicate: bio.summary

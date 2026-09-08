@@ -4,6 +4,7 @@ id: p_Erayz4s9swjJK1V2btoz8U
 status: active
 merged_into: null
 display_name: 王克敦
+cbdb_id: 17765
 revision: 1
 properties:
   - predicate: name.primary

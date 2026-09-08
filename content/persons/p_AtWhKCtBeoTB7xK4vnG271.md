@@ -4,6 +4,7 @@ id: p_AtWhKCtBeoTB7xK4vnG271
 status: active
 merged_into: null
 display_name: 王奉議
+cbdb_id: 414223
 revision: 1
 properties:
   - predicate: bio.summary

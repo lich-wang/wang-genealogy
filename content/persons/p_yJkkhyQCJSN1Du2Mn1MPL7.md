@@ -4,6 +4,7 @@ id: p_yJkkhyQCJSN1Du2Mn1MPL7
 status: active
 merged_into: null
 display_name: 王茂宗
+cbdb_id: 101295
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_i7JCB6F6JoqwCm2q9JLWH2
 status: active
 merged_into: null
 display_name: 王廷鑾
+cbdb_id: 414493
 revision: 1
 properties:
   - predicate: bio.summary

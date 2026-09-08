@@ -4,6 +4,7 @@ id: p_braANSMUUXtNLeep7SK21u
 status: active
 merged_into: null
 display_name: 王芝瑞
+cbdb_id: 343122
 revision: 1
 properties:
   - predicate: bio.summary

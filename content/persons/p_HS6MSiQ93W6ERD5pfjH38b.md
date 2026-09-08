@@ -4,6 +4,7 @@ id: p_HS6MSiQ93W6ERD5pfjH38b
 status: active
 merged_into: null
 display_name: 王靄治
+cbdb_id: 415594
 revision: 1
 properties:
   - predicate: bio.summary

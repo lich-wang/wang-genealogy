@@ -4,6 +4,7 @@ id: p_U3Di5Ufn7dnSuDvTgWKUmS
 status: active
 merged_into: null
 display_name: 王朝綸
+cbdb_id: 414848
 revision: 1
 properties:
   - predicate: bio.summary

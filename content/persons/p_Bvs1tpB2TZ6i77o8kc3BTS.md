@@ -4,6 +4,7 @@ id: p_Bvs1tpB2TZ6i77o8kc3BTS
 status: active
 merged_into: null
 display_name: 王孟鍠
+cbdb_id: 258060
 revision: 1
 properties:
   - predicate: bio.summary

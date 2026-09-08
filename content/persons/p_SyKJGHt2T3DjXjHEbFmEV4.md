@@ -4,6 +4,7 @@ id: p_SyKJGHt2T3DjXjHEbFmEV4
 status: active
 merged_into: null
 display_name: 王汝化
+cbdb_id: 513592
 revision: 1
 properties:
   - predicate: bio.summary

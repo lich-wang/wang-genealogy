@@ -4,6 +4,7 @@ id: p_JG4L85jcA89iUEtHffr9dY
 status: active
 merged_into: null
 display_name: 王蘂珠
+cbdb_id: 123264
 revision: 1
 properties:
   - predicate: bio.summary

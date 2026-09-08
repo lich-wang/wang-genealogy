@@ -4,6 +4,7 @@ id: p_52Gjab2QspShPmfEHy3YdN
 status: active
 merged_into: null
 display_name: 王鉅翁
+cbdb_id: 117919
 revision: 1
 properties:
   - predicate: bio.summary

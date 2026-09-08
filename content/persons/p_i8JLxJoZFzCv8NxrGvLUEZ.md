@@ -4,6 +4,7 @@ id: p_i8JLxJoZFzCv8NxrGvLUEZ
 status: active
 merged_into: null
 display_name: 王膺錄
+cbdb_id: 415312
 revision: 1
 properties:
   - predicate: bio.summary

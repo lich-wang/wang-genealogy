@@ -4,6 +4,7 @@ id: p_87bzws3wHig727FcQ4Hrxj
 status: active
 merged_into: null
 display_name: 王玄觀
+cbdb_id: 148174
 revision: 1
 properties:
   - predicate: bio.summary

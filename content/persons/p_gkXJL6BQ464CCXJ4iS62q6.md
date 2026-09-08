@@ -4,6 +4,7 @@ id: p_gkXJL6BQ464CCXJ4iS62q6
 status: active
 merged_into: null
 display_name: 王錫光
+cbdb_id: 415542
 revision: 1
 properties:
   - predicate: bio.summary

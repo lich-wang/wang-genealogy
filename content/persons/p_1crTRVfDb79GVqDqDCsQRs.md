@@ -4,6 +4,7 @@ id: p_1crTRVfDb79GVqDqDCsQRs
 status: active
 merged_into: null
 display_name: 王慶楨
+cbdb_id: 71606
 revision: 1
 properties:
   - predicate: bio.summary

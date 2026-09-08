@@ -4,6 +4,7 @@ id: p_JUDsn7CdzZpbDPgjJYPZwa
 status: active
 merged_into: null
 display_name: 王令短
+cbdb_id: 14934
 revision: 1
 properties:
   - predicate: bio.summary

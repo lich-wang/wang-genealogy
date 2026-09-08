@@ -4,6 +4,7 @@ id: p_zY6qZCR8oAhXPD2nmkwpKy
 status: active
 merged_into: null
 display_name: 王嘉生
+cbdb_id: 343012
 revision: 1
 properties:
   - predicate: bio.summary

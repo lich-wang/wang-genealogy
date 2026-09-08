@@ -4,6 +4,7 @@ id: p_ECDSKGFUzyzrJE177QDsqu
 status: active
 merged_into: null
 display_name: 王裕銓
+cbdb_id: 415399
 revision: 1
 properties:
   - predicate: bio.summary

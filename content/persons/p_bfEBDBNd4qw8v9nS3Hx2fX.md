@@ -4,6 +4,7 @@ id: p_bfEBDBNd4qw8v9nS3Hx2fX
 status: active
 merged_into: null
 display_name: 王彦范
+cbdb_id: 175414
 revision: 1
 properties:
   - predicate: bio.summary

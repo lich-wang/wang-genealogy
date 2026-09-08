@@ -4,6 +4,7 @@ id: p_roLoSWGkKgEN9ziGJeaf3g
 status: active
 merged_into: null
 display_name: 王道恭
+cbdb_id: 14840
 revision: 1
 properties:
   - predicate: bio.summary

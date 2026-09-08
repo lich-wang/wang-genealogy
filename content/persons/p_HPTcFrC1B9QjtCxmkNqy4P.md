@@ -4,6 +4,7 @@ id: p_HPTcFrC1B9QjtCxmkNqy4P
 status: active
 merged_into: null
 display_name: 王安濤
+cbdb_id: 414290
 revision: 1
 properties:
   - predicate: bio.summary

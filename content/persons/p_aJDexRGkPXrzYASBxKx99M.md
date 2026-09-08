@@ -4,6 +4,7 @@ id: p_aJDexRGkPXrzYASBxKx99M
 status: active
 merged_into: null
 display_name: 王世初
+cbdb_id: 526182
 revision: 1
 properties:
   - predicate: bio.summary

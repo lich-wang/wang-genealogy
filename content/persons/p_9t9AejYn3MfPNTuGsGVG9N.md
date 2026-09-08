@@ -4,6 +4,7 @@ id: p_9t9AejYn3MfPNTuGsGVG9N
 status: active
 merged_into: null
 display_name: 王昭余
+cbdb_id: 35028
 revision: 1
 properties:
   - predicate: bio.summary

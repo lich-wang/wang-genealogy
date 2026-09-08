@@ -4,6 +4,7 @@ id: p_8ZxmoUk6pXaC7TDzaGpcdx
 status: active
 merged_into: null
 display_name: 王象斗
+cbdb_id: 220278
 revision: 2
 properties:
   - predicate: bio.summary

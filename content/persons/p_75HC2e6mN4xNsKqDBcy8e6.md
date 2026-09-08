@@ -4,6 +4,7 @@ id: p_75HC2e6mN4xNsKqDBcy8e6
 status: active
 merged_into: null
 display_name: 王張標
+cbdb_id: 414509
 revision: 1
 properties:
   - predicate: bio.summary

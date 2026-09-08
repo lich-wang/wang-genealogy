@@ -4,6 +4,7 @@ id: p_HPFpqp7qBcUwJi8xPgACL3
 status: active
 merged_into: null
 display_name: 王仔昔
+cbdb_id: 38512
 revision: 1
 properties:
   - predicate: bio.summary

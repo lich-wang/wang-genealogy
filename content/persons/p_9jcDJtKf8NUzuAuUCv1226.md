@@ -4,6 +4,7 @@ id: p_9jcDJtKf8NUzuAuUCv1226
 status: active
 merged_into: null
 display_name: 王以文
+cbdb_id: 266737
 revision: 1
 properties:
   - predicate: bio.summary

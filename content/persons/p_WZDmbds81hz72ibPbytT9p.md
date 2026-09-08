@@ -4,6 +4,7 @@ id: p_WZDmbds81hz72ibPbytT9p
 status: active
 merged_into: null
 display_name: 王次賢
+cbdb_id: 292749
 revision: 1
 properties:
   - predicate: bio.summary

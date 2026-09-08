@@ -4,6 +4,7 @@ id: p_mxiDiFDg49LFsDduyM17rw
 status: active
 merged_into: null
 display_name: 王正引
+cbdb_id: 414918
 revision: 1
 properties:
   - predicate: bio.summary

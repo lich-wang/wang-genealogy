@@ -4,6 +4,7 @@ id: p_x3rBn5aGAM9nANyZqS843f
 status: active
 merged_into: null
 display_name: 王玉森
+cbdb_id: 341752
 revision: 1
 properties:
   - predicate: bio.summary

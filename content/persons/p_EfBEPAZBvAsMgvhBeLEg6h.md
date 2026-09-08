@@ -4,6 +4,7 @@ id: p_EfBEPAZBvAsMgvhBeLEg6h
 status: active
 merged_into: null
 display_name: 王日恭
+cbdb_id: 414765
 revision: 1
 properties:
   - predicate: bio.summary

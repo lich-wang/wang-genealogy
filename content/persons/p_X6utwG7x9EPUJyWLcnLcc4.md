@@ -4,6 +4,7 @@ id: p_X6utwG7x9EPUJyWLcnLcc4
 status: active
 merged_into: null
 display_name: 王埴
+cbdb_id: 37930
 revision: 1
 properties:
   - predicate: bio.summary

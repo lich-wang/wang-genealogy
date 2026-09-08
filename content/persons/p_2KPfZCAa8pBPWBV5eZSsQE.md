@@ -4,6 +4,7 @@ id: p_2KPfZCAa8pBPWBV5eZSsQE
 status: active
 merged_into: null
 display_name: 王誥之
+cbdb_id: 209586
 revision: 1
 properties:
   - predicate: bio.summary

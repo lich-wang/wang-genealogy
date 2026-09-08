@@ -4,6 +4,7 @@ id: p_Dy9HeYcoPvwwqNyuzx5E97
 status: active
 merged_into: null
 display_name: 王業鞏
+cbdb_id: 561584
 revision: 1
 properties:
   - predicate: bio.summary

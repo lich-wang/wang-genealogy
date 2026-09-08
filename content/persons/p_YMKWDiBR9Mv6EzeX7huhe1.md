@@ -4,6 +4,7 @@ id: p_YMKWDiBR9Mv6EzeX7huhe1
 status: active
 merged_into: null
 display_name: 王元珠
+cbdb_id: 121052
 revision: 1
 properties:
   - predicate: bio.summary

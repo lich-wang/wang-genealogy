@@ -4,6 +4,7 @@ id: p_aLzY6WUq3wQYv7dJGLN3FC
 status: active
 merged_into: null
 display_name: 王藥
+cbdb_id: 386683
 revision: 1
 properties:
   - predicate: bio.summary

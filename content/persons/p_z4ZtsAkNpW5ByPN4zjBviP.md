@@ -4,6 +4,7 @@ id: p_z4ZtsAkNpW5ByPN4zjBviP
 status: active
 merged_into: null
 display_name: 王祖灮
+cbdb_id: 523839
 revision: 1
 properties:
   - predicate: bio.summary

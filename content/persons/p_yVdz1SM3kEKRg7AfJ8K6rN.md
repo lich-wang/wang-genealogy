@@ -4,6 +4,7 @@ id: p_yVdz1SM3kEKRg7AfJ8K6rN
 status: active
 merged_into: null
 display_name: 王喜祿
+cbdb_id: 511598
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_zqa6j6KyHUS54fx8qxCJzC
 status: active
 merged_into: null
 display_name: 王之官
+cbdb_id: 413745
 revision: 1
 properties:
   - predicate: bio.summary

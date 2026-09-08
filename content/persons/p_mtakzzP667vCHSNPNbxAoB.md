@@ -4,6 +4,7 @@ id: p_mtakzzP667vCHSNPNbxAoB
 status: active
 merged_into: null
 display_name: 王啓袑
+cbdb_id: 414074
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_JVFD7eM6urinj1FjcGvvUL
 status: active
 merged_into: null
 display_name: 王文煜
+cbdb_id: 414741
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_Uu3B52HoZN7MQ2Fe6AzmWi
 status: active
 merged_into: null
 display_name: 王縉紳
+cbdb_id: 342187
 revision: 1
 properties:
   - predicate: bio.summary

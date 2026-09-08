@@ -4,6 +4,7 @@ id: p_ifH3JCra61GGC9FNh9NCQY
 status: active
 merged_into: null
 display_name: 王錫韓
+cbdb_id: 343816
 revision: 1
 properties:
   - predicate: bio.summary

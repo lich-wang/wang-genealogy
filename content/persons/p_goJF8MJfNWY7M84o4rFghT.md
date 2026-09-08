@@ -4,6 +4,7 @@ id: p_goJF8MJfNWY7M84o4rFghT
 status: active
 merged_into: null
 display_name: 王師約
+cbdb_id: 3973
 revision: 1
 properties:
   - predicate: bio.summary

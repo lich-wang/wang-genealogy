@@ -4,6 +4,7 @@ id: p_ps6PQC3K74XifXLFgCnEzU
 status: active
 merged_into: null
 display_name: 王觀化
+cbdb_id: 336309
 revision: 1
 properties:
   - predicate: bio.summary

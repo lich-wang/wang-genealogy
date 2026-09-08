@@ -4,6 +4,7 @@ id: p_WG3WWGoBFuoCJaADPVzjQ6
 status: active
 merged_into: null
 display_name: 王途
+cbdb_id: 415483
 revision: 1
 properties:
   - predicate: bio.summary

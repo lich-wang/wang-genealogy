@@ -4,6 +4,7 @@ id: p_7wmNkFHWwemkbE9A24hhw6
 status: active
 merged_into: null
 display_name: 王銓衡
+cbdb_id: 343845
 revision: 1
 properties:
   - predicate: bio.summary

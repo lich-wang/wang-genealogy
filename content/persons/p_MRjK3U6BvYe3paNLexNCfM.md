@@ -4,6 +4,7 @@ id: p_MRjK3U6BvYe3paNLexNCfM
 status: active
 merged_into: null
 display_name: 王伯溟
+cbdb_id: 274049
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_W5tEYzbbZQqW7ky7b97JAE
 status: active
 merged_into: null
 display_name: 王文振
+cbdb_id: 414735
 revision: 1
 properties:
   - predicate: bio.summary

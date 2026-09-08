@@ -4,6 +4,7 @@ id: p_WYJMkPy6eJ6TMWQgUJYg2D
 status: active
 merged_into: null
 display_name: 王巡徳
+cbdb_id: 414400
 revision: 1
 properties:
   - predicate: bio.summary

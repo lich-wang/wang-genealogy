@@ -4,6 +4,7 @@ id: p_P1TExqFwAxCtJhwPxtQRWP
 status: active
 merged_into: null
 display_name: 王大唐
+cbdb_id: 167288
 revision: 1
 properties:
   - predicate: bio.summary

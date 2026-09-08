@@ -4,6 +4,7 @@ id: p_CnpyxECHZ2Sqyho2tBnR97
 status: active
 merged_into: null
 display_name: 王崔賢
+cbdb_id: 292752
 revision: 1
 properties:
   - predicate: bio.summary

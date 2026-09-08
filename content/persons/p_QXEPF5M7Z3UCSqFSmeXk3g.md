@@ -4,6 +4,7 @@ id: p_QXEPF5M7Z3UCSqFSmeXk3g
 status: active
 merged_into: null
 display_name: 王手謙
+cbdb_id: 233446
 revision: 1
 properties:
   - predicate: bio.summary

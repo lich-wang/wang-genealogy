@@ -4,6 +4,7 @@ id: p_ziJ2btzGKRegXRCXtHQswC
 status: active
 merged_into: null
 display_name: 王奇猷
+cbdb_id: 441136
 revision: 1
 properties:
   - predicate: bio.summary

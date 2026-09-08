@@ -4,6 +4,7 @@ id: p_CVwNugtPLMKx2eABoAcjQ3
 status: active
 merged_into: null
 display_name: 王耿光
+cbdb_id: 302575
 revision: 2
 properties:
   - predicate: bio.summary

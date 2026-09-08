@@ -4,6 +4,7 @@ id: p_HWzN3GY8T2zZAcA6vq37sD
 status: active
 merged_into: null
 display_name: 王同源
+cbdb_id: 327388
 revision: 1
 properties:
   - predicate: bio.summary

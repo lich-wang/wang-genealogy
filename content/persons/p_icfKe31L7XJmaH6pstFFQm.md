@@ -4,6 +4,7 @@ id: p_icfKe31L7XJmaH6pstFFQm
 status: active
 merged_into: null
 display_name: 王逢貴
+cbdb_id: 415485
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_f2ian49TRCzGHc7hjV3RDc
 status: active
 merged_into: null
 display_name: 王子芳
+cbdb_id: 54481
 revision: 1
 properties:
   - predicate: bio.summary

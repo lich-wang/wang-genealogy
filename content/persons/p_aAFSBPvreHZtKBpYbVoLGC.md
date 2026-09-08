@@ -4,6 +4,7 @@ id: p_aAFSBPvreHZtKBpYbVoLGC
 status: active
 merged_into: null
 display_name: 王來賢
+cbdb_id: 205758
 revision: 1
 properties:
   - predicate: bio.summary

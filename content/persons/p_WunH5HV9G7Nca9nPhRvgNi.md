@@ -4,6 +4,7 @@ id: p_WunH5HV9G7Nca9nPhRvgNi
 status: active
 merged_into: null
 display_name: 王公廉
+cbdb_id: 158832
 revision: 1
 properties:
   - predicate: bio.summary

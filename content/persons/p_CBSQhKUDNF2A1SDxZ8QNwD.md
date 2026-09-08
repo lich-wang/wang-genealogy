@@ -4,6 +4,7 @@ id: p_CBSQhKUDNF2A1SDxZ8QNwD
 status: active
 merged_into: null
 display_name: 王師伏
+cbdb_id: 414415
 revision: 1
 properties:
   - predicate: bio.summary

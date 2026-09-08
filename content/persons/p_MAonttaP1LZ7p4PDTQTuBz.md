@@ -4,6 +4,7 @@ id: p_MAonttaP1LZ7p4PDTQTuBz
 status: active
 merged_into: null
 display_name: 王元谟
+cbdb_id: 30877
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_iuNfYEiBwec72hde2awF32
 status: active
 merged_into: null
 display_name: 王弘久
+cbdb_id: 526035
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_jE1stskjnPPTASJeSQwr4N
 status: active
 merged_into: null
 display_name: 王毓德
+cbdb_id: 414929
 revision: 1
 properties:
   - predicate: bio.summary

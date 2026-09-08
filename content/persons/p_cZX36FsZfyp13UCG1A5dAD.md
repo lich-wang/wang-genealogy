@@ -4,6 +4,7 @@ id: p_cZX36FsZfyp13UCG1A5dAD
 status: active
 merged_into: null
 display_name: 王子建
+cbdb_id: 191499
 revision: 1
 properties:
   - predicate: bio.summary

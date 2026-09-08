@@ -4,6 +4,7 @@ id: p_nEEJ2yJwDL4o7jkGJjhgpR
 status: active
 merged_into: null
 display_name: 王那海
+cbdb_id: 101225
 revision: 1
 properties:
   - predicate: bio.summary

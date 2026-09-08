@@ -4,6 +4,7 @@ id: p_b6cEZCHEKf1k8G6ycHLc5i
 status: active
 merged_into: null
 display_name: 王友遇
+cbdb_id: 379499
 revision: 1
 properties:
   - predicate: bio.summary

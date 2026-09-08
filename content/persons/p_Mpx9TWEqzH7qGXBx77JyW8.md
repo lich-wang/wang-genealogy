@@ -4,6 +4,7 @@ id: p_Mpx9TWEqzH7qGXBx77JyW8
 status: active
 merged_into: null
 display_name: 王高陽
+cbdb_id: 156463
 revision: 1
 properties:
   - predicate: bio.summary

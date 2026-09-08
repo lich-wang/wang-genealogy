@@ -4,6 +4,7 @@ id: p_fnym66xMbCVkiQBKbKW5mD
 status: active
 merged_into: null
 display_name: 王敬祥
+cbdb_id: 301982
 revision: 1
 properties:
   - predicate: bio.summary

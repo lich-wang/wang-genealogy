@@ -4,6 +4,7 @@ id: p_R8oHAUZfnRg7HWJ7fUDVf8
 status: active
 merged_into: null
 display_name: 王似孫
+cbdb_id: 43805
 revision: 1
 properties:
   - predicate: bio.summary

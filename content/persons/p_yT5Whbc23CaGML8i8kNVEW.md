@@ -4,6 +4,7 @@ id: p_yT5Whbc23CaGML8i8kNVEW
 status: active
 merged_into: null
 display_name: 王景芳
+cbdb_id: 414805
 revision: 1
 properties:
   - predicate: bio.summary

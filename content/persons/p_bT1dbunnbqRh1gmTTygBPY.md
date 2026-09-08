@@ -4,6 +4,7 @@ id: p_bT1dbunnbqRh1gmTTygBPY
 status: active
 merged_into: null
 display_name: 王九敘
+cbdb_id: 268142
 revision: 1
 properties:
   - predicate: bio.summary

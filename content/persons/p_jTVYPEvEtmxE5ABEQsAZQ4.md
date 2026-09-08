@@ -4,6 +4,7 @@ id: p_jTVYPEvEtmxE5ABEQsAZQ4
 status: active
 merged_into: null
 display_name: 王天柱
+cbdb_id: 414208
 revision: 1
 properties:
   - predicate: bio.summary

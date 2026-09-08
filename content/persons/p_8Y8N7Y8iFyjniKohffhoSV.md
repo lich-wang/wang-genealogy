@@ -4,6 +4,7 @@ id: p_8Y8N7Y8iFyjniKohffhoSV
 status: active
 merged_into: null
 display_name: 王博聞
+cbdb_id: 1861
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_ZpqoLrxUdKULM7BQiusEQh
 status: active
 merged_into: null
 display_name: 王蒙固岱
+cbdb_id: 690375
 revision: 1
 properties:
   - predicate: bio.summary

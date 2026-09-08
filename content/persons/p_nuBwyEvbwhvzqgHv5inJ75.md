@@ -4,6 +4,7 @@ id: p_nuBwyEvbwhvzqgHv5inJ75
 status: active
 merged_into: null
 display_name: 王荃可
+cbdb_id: 57164
 revision: 1
 properties:
   - predicate: bio.summary

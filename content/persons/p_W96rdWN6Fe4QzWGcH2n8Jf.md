@@ -4,6 +4,7 @@ id: p_W96rdWN6Fe4QzWGcH2n8Jf
 status: active
 merged_into: null
 display_name: 王思儉
+cbdb_id: 414590
 revision: 1
 properties:
   - predicate: bio.summary

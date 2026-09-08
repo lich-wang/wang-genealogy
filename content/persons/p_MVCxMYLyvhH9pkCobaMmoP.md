@@ -4,6 +4,7 @@ id: p_MVCxMYLyvhH9pkCobaMmoP
 status: active
 merged_into: null
 display_name: 王宗澄
+cbdb_id: 278552
 revision: 1
 properties:
   - predicate: bio.summary

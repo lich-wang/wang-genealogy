@@ -4,6 +4,7 @@ id: p_9B8dbBAVKJJ2uF3xELTFKd
 status: active
 merged_into: null
 display_name: 王述濬
+cbdb_id: 71738
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_f1E8aCXS8n5AzbbbpzdTzB
 status: active
 merged_into: null
 display_name: 王处元
+cbdb_id: 191293
 revision: 2
 properties:
   - predicate: bio.summary

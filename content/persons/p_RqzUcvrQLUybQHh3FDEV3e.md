@@ -4,6 +4,7 @@ id: p_RqzUcvrQLUybQHh3FDEV3e
 status: active
 merged_into: null
 display_name: 王炳樞
+cbdb_id: 210108
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_SMx1A8bVbSrYE27aJZjcCf
 status: active
 merged_into: null
 display_name: 王良傑
+cbdb_id: 29516
 revision: 1
 properties:
   - predicate: bio.summary

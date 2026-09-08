@@ -4,6 +4,7 @@ id: p_KGm8Sh7o9WriR1q63XoNsV
 status: active
 merged_into: null
 display_name: 王熙琯
+cbdb_id: 415083
 revision: 1
 properties:
   - predicate: bio.summary

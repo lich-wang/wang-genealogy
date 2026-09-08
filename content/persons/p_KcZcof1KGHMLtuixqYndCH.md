@@ -4,6 +4,7 @@ id: p_KcZcof1KGHMLtuixqYndCH
 status: active
 merged_into: null
 display_name: 王其鄕
+cbdb_id: 413976
 revision: 1
 properties:
   - predicate: bio.summary

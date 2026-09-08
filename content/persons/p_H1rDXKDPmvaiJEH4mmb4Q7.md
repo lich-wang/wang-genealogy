@@ -4,6 +4,7 @@ id: p_H1rDXKDPmvaiJEH4mmb4Q7
 status: active
 merged_into: null
 display_name: 王柔克
+cbdb_id: 101290
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_P2y97jJhXVBL5SrVuPH2Jb
 status: active
 merged_into: null
 display_name: 王逵
+cbdb_id: 34583
 revision: 2
 properties:
   - predicate: bio.summary

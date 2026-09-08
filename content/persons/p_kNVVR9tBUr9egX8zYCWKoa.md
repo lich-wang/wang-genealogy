@@ -4,6 +4,7 @@ id: p_kNVVR9tBUr9egX8zYCWKoa
 status: active
 merged_into: null
 display_name: 王孟震
+cbdb_id: 342017
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_MF3FRD3EGCXyLPtaz2qtdZ
 status: active
 merged_into: null
 display_name: 王漢書
+cbdb_id: 415042
 revision: 1
 properties:
   - predicate: bio.summary

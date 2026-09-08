@@ -4,6 +4,7 @@ id: p_McfUVAHo7dUf4pQb5KjZ6m
 status: active
 merged_into: null
 display_name: 王宏善
+cbdb_id: 342596
 revision: 1
 properties:
   - predicate: bio.summary

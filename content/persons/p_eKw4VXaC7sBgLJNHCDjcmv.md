@@ -4,6 +4,7 @@ id: p_eKw4VXaC7sBgLJNHCDjcmv
 status: active
 merged_into: null
 display_name: 王鴻詵
+cbdb_id: 342790
 revision: 1
 properties:
   - predicate: bio.summary

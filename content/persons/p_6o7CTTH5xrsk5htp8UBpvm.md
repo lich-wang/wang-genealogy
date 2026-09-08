@@ -4,6 +4,7 @@ id: p_6o7CTTH5xrsk5htp8UBpvm
 status: active
 merged_into: null
 display_name: 王乙鰲
+cbdb_id: 342066
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_rBMHwAN8yV2eFA98SJQ14N
 status: active
 merged_into: null
 display_name: 王喬新
+cbdb_id: 414088
 revision: 1
 properties:
   - predicate: bio.summary

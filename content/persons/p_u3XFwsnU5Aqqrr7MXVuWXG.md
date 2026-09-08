@@ -4,6 +4,7 @@ id: p_u3XFwsnU5Aqqrr7MXVuWXG
 status: active
 merged_into: null
 display_name: 王克賡
+cbdb_id: 513577
 revision: 2
 properties:
   - predicate: bio.summary

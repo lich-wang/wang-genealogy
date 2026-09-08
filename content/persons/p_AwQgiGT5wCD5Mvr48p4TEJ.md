@@ -4,6 +4,7 @@ id: p_AwQgiGT5wCD5Mvr48p4TEJ
 status: active
 merged_into: null
 display_name: 王泳之
+cbdb_id: 415000
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_rXZtMaGSNFeSAhAhJyz7rM
 status: active
 merged_into: null
 display_name: 王聞治
+cbdb_id: 415294
 revision: 1
 properties:
   - predicate: bio.summary

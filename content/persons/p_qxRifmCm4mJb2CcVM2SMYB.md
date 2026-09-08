@@ -4,6 +4,7 @@ id: p_qxRifmCm4mJb2CcVM2SMYB
 status: active
 merged_into: null
 display_name: 王泳祖
+cbdb_id: 39454
 revision: 1
 properties:
   - predicate: bio.summary

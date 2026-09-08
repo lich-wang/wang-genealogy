@@ -4,6 +4,7 @@ id: p_aGdGkp2dMBSExgBGBbzFsu
 status: active
 merged_into: null
 display_name: 王光儒
+cbdb_id: 275622
 revision: 1
 properties:
   - predicate: bio.summary

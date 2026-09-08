@@ -4,6 +4,7 @@ id: p_VnsGDTv9Kh5PWd9TeDDro2
 status: active
 merged_into: null
 display_name: 王福緣
+cbdb_id: 101401
 revision: 1
 properties:
   - predicate: bio.summary

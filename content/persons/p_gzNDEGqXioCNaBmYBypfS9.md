@@ -4,6 +4,7 @@ id: p_gzNDEGqXioCNaBmYBypfS9
 status: active
 merged_into: null
 display_name: 王汝琦
+cbdb_id: 458535
 revision: 1
 properties:
   - predicate: bio.summary

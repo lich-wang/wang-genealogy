@@ -4,6 +4,7 @@ id: p_62Q8L1rXCm3Z3VUgxG6Fso
 status: active
 merged_into: null
 display_name: 王執御
+cbdb_id: 330524
 revision: 1
 properties:
   - predicate: bio.summary

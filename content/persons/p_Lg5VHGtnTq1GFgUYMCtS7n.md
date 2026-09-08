@@ -4,6 +4,7 @@ id: p_Lg5VHGtnTq1GFgUYMCtS7n
 status: active
 merged_into: null
 display_name: 王以節
+cbdb_id: 495934
 revision: 1
 properties:
   - predicate: bio.summary

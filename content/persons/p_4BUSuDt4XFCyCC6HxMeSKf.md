@@ -4,6 +4,7 @@ id: p_4BUSuDt4XFCyCC6HxMeSKf
 status: active
 merged_into: null
 display_name: 王貴貞
+cbdb_id: 523673
 revision: 1
 properties:
   - predicate: bio.summary

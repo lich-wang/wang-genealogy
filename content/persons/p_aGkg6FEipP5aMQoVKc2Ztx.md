@@ -4,6 +4,7 @@ id: p_aGkg6FEipP5aMQoVKc2Ztx
 status: active
 merged_into: null
 display_name: 王孫熊
+cbdb_id: 341962
 revision: 1
 properties:
   - predicate: bio.summary

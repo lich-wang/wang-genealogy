@@ -4,6 +4,7 @@ id: p_nyZCmTGRPw6NG6JoEnPbMc
 status: active
 merged_into: null
 display_name: 王日簡
+cbdb_id: 498555
 revision: 1
 properties:
   - predicate: bio.summary

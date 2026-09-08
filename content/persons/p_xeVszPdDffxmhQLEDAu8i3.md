@@ -4,6 +4,7 @@ id: p_xeVszPdDffxmhQLEDAu8i3
 status: active
 merged_into: null
 display_name: 王之濤
+cbdb_id: 526800
 revision: 1
 properties:
   - predicate: bio.summary

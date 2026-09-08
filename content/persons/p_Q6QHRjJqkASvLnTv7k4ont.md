@@ -4,6 +4,7 @@ id: p_Q6QHRjJqkASvLnTv7k4ont
 status: active
 merged_into: null
 display_name: 王履同
+cbdb_id: 343642
 revision: 1
 properties:
   - predicate: bio.summary

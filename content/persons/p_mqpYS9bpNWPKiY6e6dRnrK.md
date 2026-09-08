@@ -4,6 +4,7 @@ id: p_mqpYS9bpNWPKiY6e6dRnrK
 status: active
 merged_into: null
 display_name: 王錫民
+cbdb_id: 210657
 revision: 1
 properties:
   - predicate: bio.summary

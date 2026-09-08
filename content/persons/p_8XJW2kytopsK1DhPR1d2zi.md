@@ -4,6 +4,7 @@ id: p_8XJW2kytopsK1DhPR1d2zi
 status: active
 merged_into: null
 display_name: 王家枚
+cbdb_id: 71969
 revision: 1
 properties:
   - predicate: bio.summary

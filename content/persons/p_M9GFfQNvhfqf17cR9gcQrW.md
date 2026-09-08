@@ -4,6 +4,7 @@ id: p_M9GFfQNvhfqf17cR9gcQrW
 status: active
 merged_into: null
 display_name: 王亳
+cbdb_id: 224182
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_JGkdEGAwvYQLDBLsCSYeVF
 status: active
 merged_into: null
 display_name: 王有性
+cbdb_id: 249010
 revision: 1
 properties:
   - predicate: bio.summary

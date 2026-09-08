@@ -4,6 +4,7 @@ id: p_aR7p28hCpPSCDFnd7Y6HJL
 status: active
 merged_into: null
 display_name: 王秉惠
+cbdb_id: 274775
 revision: 1
 properties:
   - predicate: bio.summary

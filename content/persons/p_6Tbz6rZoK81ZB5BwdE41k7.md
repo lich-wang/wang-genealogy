@@ -4,6 +4,7 @@ id: p_6Tbz6rZoK81ZB5BwdE41k7
 status: active
 merged_into: null
 display_name: 王興弼
+cbdb_id: 241173
 revision: 1
 properties:
   - predicate: bio.summary

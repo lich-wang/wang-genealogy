@@ -4,6 +4,7 @@ id: p_1YJZQvAA5ivX6epXHEyDLD
 status: active
 merged_into: null
 display_name: 王洪嗣
+cbdb_id: 119727
 revision: 1
 properties:
   - predicate: bio.summary

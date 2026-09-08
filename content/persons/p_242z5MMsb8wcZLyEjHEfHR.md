@@ -4,6 +4,7 @@ id: p_242z5MMsb8wcZLyEjHEfHR
 status: active
 merged_into: null
 display_name: 王應修
+cbdb_id: 550852
 revision: 1
 properties:
   - predicate: name.primary

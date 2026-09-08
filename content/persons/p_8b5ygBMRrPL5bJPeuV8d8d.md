@@ -4,6 +4,7 @@ id: p_8b5ygBMRrPL5bJPeuV8d8d
 status: active
 merged_into: null
 display_name: 王斯浩
+cbdb_id: 247362
 revision: 1
 properties:
   - predicate: bio.summary

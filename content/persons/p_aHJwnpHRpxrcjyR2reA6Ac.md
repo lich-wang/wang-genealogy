@@ -4,6 +4,7 @@ id: p_aHJwnpHRpxrcjyR2reA6Ac
 status: active
 merged_into: null
 display_name: 王守震
+cbdb_id: 514378
 revision: 1
 properties:
   - predicate: bio.summary

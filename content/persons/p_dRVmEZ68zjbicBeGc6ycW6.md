@@ -4,6 +4,7 @@ id: p_dRVmEZ68zjbicBeGc6ycW6
 status: active
 merged_into: null
 display_name: 王贍
+cbdb_id: 45833
 revision: 1
 properties:
   - predicate: bio.summary

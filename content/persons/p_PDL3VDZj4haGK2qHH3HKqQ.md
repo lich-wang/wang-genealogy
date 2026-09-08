@@ -4,6 +4,7 @@ id: p_PDL3VDZj4haGK2qHH3HKqQ
 status: active
 merged_into: null
 display_name: 王道默
+cbdb_id: 223214
 revision: 1
 properties:
   - predicate: bio.summary

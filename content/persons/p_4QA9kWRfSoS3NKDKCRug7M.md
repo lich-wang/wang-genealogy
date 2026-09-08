@@ -4,6 +4,7 @@ id: p_4QA9kWRfSoS3NKDKCRug7M
 status: active
 merged_into: null
 display_name: 王錦魁
+cbdb_id: 415540
 revision: 1
 properties:
   - predicate: bio.summary

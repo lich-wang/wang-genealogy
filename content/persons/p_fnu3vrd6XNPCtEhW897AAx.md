@@ -4,6 +4,7 @@ id: p_fnu3vrd6XNPCtEhW897AAx
 status: active
 merged_into: null
 display_name: 王良肱
+cbdb_id: 37474
 revision: 1
 properties:
   - predicate: bio.summary

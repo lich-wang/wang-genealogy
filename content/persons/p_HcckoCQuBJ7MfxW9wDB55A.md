@@ -4,6 +4,7 @@ id: p_HcckoCQuBJ7MfxW9wDB55A
 status: active
 merged_into: null
 display_name: 王紹芝
+cbdb_id: 415232
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_mc7KWinz9eERjkDBrVhc1q
 status: active
 merged_into: null
 display_name: 王冀
+cbdb_id: 324111
 revision: 1
 properties:
   - predicate: bio.summary

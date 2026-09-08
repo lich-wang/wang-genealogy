@@ -4,6 +4,7 @@ id: p_vHtHrJy8YyMVH8D5z2Vfb7
 status: active
 merged_into: null
 display_name: 王全忠
+cbdb_id: 413963
 revision: 1
 properties:
   - predicate: bio.summary

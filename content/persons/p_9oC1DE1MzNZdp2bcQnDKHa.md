@@ -4,6 +4,7 @@ id: p_9oC1DE1MzNZdp2bcQnDKHa
 status: active
 merged_into: null
 display_name: 王可榮
+cbdb_id: 101123
 revision: 1
 properties:
   - predicate: bio.summary

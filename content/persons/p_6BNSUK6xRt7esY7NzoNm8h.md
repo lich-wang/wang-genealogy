@@ -4,6 +4,7 @@ id: p_6BNSUK6xRt7esY7NzoNm8h
 status: active
 merged_into: null
 display_name: 王光華
+cbdb_id: 493995
 revision: 1
 properties:
   - predicate: bio.summary

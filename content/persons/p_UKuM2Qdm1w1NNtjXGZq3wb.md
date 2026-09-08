@@ -4,6 +4,7 @@ id: p_UKuM2Qdm1w1NNtjXGZq3wb
 status: active
 merged_into: null
 display_name: 王日晉
+cbdb_id: 117563
 revision: 1
 properties:
   - predicate: bio.summary

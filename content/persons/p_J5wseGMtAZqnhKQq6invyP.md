@@ -4,6 +4,7 @@ id: p_J5wseGMtAZqnhKQq6invyP
 status: active
 merged_into: null
 display_name: 王近
+cbdb_id: 36186
 revision: 1
 properties:
   - predicate: bio.summary

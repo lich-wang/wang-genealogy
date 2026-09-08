@@ -4,6 +4,7 @@ id: p_nX4FXjfZf2fUq1GBCDe676
 status: active
 merged_into: null
 display_name: 王仲偁
+cbdb_id: 386038
 revision: 1
 properties:
   - predicate: name.primary

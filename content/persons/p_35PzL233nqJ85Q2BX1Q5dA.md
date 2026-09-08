@@ -4,6 +4,7 @@ id: p_35PzL233nqJ85Q2BX1Q5dA
 status: active
 merged_into: null
 display_name: 王良柱
+cbdb_id: 202803
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_NPLi2HFiZhDK282VGd46jY
 status: active
 merged_into: null
 display_name: 王大修
+cbdb_id: 283876
 revision: 1
 properties:
   - predicate: bio.summary

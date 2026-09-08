@@ -4,6 +4,7 @@ id: p_JfKo1xjBCacPLbcxBAw36Z
 status: active
 merged_into: null
 display_name: 王文壽
+cbdb_id: 519665
 revision: 1
 properties:
   - predicate: bio.summary

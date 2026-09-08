@@ -4,6 +4,7 @@ id: p_Fs6zLE4AAmspRKWk4Y4Jf4
 status: active
 merged_into: null
 display_name: 王巳
+cbdb_id: 37995
 revision: 1
 properties:
   - predicate: bio.summary

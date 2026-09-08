@@ -4,6 +4,7 @@ id: p_qQ2sLuEHBGPt62oKKZDRHT
 status: active
 merged_into: null
 display_name: 王世鳶
+cbdb_id: 413731
 revision: 1
 properties:
   - predicate: bio.summary

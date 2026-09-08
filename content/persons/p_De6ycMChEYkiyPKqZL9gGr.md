@@ -4,6 +4,7 @@ id: p_De6ycMChEYkiyPKqZL9gGr
 status: active
 merged_into: null
 display_name: 王天光
+cbdb_id: 216151
 revision: 1
 properties:
   - predicate: bio.summary

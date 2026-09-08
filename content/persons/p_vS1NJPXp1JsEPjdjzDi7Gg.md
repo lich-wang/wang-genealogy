@@ -4,6 +4,7 @@ id: p_vS1NJPXp1JsEPjdjzDi7Gg
 status: active
 merged_into: null
 display_name: 王甫義
+cbdb_id: 280963
 revision: 1
 properties:
   - predicate: bio.summary

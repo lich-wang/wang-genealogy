@@ -4,6 +4,7 @@ id: p_TmNpSCc9rRHLSPjgbiNd8A
 status: active
 merged_into: null
 display_name: 王元本
+cbdb_id: 341797
 revision: 1
 properties:
   - predicate: bio.summary

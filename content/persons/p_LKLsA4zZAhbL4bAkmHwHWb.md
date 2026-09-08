@@ -4,6 +4,7 @@ id: p_LKLsA4zZAhbL4bAkmHwHWb
 status: active
 merged_into: null
 display_name: 王維詢
+cbdb_id: 342137
 revision: 1
 properties:
   - predicate: bio.summary

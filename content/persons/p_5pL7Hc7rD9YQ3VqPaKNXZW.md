@@ -4,6 +4,7 @@ id: p_5pL7Hc7rD9YQ3VqPaKNXZW
 status: active
 merged_into: null
 display_name: 王宗蘇
+cbdb_id: 414311
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_jatJ6vU3wuKfiFzyuTF9kG
 status: active
 merged_into: null
 display_name: 王義純
+cbdb_id: 415286
 revision: 1
 properties:
   - predicate: bio.summary

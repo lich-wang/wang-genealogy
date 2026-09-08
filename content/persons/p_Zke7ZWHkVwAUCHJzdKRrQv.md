@@ -4,6 +4,7 @@ id: p_Zke7ZWHkVwAUCHJzdKRrQv
 status: active
 merged_into: null
 display_name: 王如辰
+cbdb_id: 71637
 revision: 1
 properties:
   - predicate: bio.summary

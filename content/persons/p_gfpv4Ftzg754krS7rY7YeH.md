@@ -4,6 +4,7 @@ id: p_gfpv4Ftzg754krS7rY7YeH
 status: active
 merged_into: null
 display_name: 王秉貞
+cbdb_id: 122223
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_W1u9oKcXenmwqBgULRmE5G
 status: active
 merged_into: null
 display_name: 王孟璿
+cbdb_id: 220114
 revision: 1
 properties:
   - predicate: bio.summary

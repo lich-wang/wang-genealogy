@@ -4,6 +4,7 @@ id: p_p2EH52A9Hbo1oF6sv352VT
 status: active
 merged_into: null
 display_name: 王公儼
+cbdb_id: 101073
 revision: 1
 properties:
   - predicate: bio.summary

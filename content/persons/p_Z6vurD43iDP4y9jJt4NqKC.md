@@ -4,6 +4,7 @@ id: p_Z6vurD43iDP4y9jJt4NqKC
 status: active
 merged_into: null
 display_name: 王延昌
+cbdb_id: 445458
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_siqLFzMJDv15681CERbPto
 status: active
 merged_into: null
 display_name: 王十娘
+cbdb_id: 150532
 revision: 1
 properties:
   - predicate: bio.summary

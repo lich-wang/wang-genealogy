@@ -4,6 +4,7 @@ id: p_5Tfd2HgjaAGt1DVEAkdkms
 status: active
 merged_into: null
 display_name: 王孫晉
+cbdb_id: 341960
 revision: 1
 properties:
   - predicate: bio.summary

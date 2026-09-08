@@ -4,6 +4,7 @@ id: p_5eD81BdjRhAtWthjVpXoK3
 status: active
 merged_into: null
 display_name: 王得玉
+cbdb_id: 237574
 revision: 1
 properties:
   - predicate: bio.summary

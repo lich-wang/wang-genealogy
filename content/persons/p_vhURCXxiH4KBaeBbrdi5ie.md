@@ -4,6 +4,7 @@ id: p_vhURCXxiH4KBaeBbrdi5ie
 status: active
 merged_into: null
 display_name: 王宗虞
+cbdb_id: 414312
 revision: 1
 properties:
   - predicate: bio.summary

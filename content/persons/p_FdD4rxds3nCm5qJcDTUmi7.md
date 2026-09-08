@@ -4,6 +4,7 @@ id: p_FdD4rxds3nCm5qJcDTUmi7
 status: active
 merged_into: null
 display_name: 王尊坦
+cbdb_id: 236428
 revision: 1
 properties:
   - predicate: bio.summary

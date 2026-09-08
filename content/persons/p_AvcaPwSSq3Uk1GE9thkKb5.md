@@ -4,6 +4,7 @@ id: p_AvcaPwSSq3Uk1GE9thkKb5
 status: active
 merged_into: null
 display_name: 王玉玭
+cbdb_id: 300440
 revision: 1
 properties:
   - predicate: bio.summary

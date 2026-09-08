@@ -4,6 +4,7 @@ id: p_jWhWtQDR3ZReADZ64NJpRm
 status: active
 merged_into: null
 display_name: 王昌麟
+cbdb_id: 71760
 revision: 1
 properties:
   - predicate: bio.summary

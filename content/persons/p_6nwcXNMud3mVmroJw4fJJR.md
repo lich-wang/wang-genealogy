@@ -4,6 +4,7 @@ id: p_6nwcXNMud3mVmroJw4fJJR
 status: active
 merged_into: null
 display_name: 王國勲
+cbdb_id: 414114
 revision: 1
 properties:
   - predicate: bio.summary

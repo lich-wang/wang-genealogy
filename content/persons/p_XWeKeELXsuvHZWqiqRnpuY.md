@@ -4,6 +4,7 @@ id: p_XWeKeELXsuvHZWqiqRnpuY
 status: active
 merged_into: null
 display_name: 王如茂
+cbdb_id: 343252
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_Y96T7vLzr8C6GJhpqyuNCo
 status: active
 merged_into: null
 display_name: 王善継
+cbdb_id: 414086
 revision: 1
 properties:
   - predicate: bio.summary

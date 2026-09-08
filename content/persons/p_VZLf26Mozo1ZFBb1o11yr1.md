@@ -4,6 +4,7 @@ id: p_VZLf26Mozo1ZFBb1o11yr1
 status: active
 merged_into: null
 display_name: 王尚直
+cbdb_id: 204534
 revision: 1
 properties:
   - predicate: bio.summary

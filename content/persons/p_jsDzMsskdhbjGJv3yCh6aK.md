@@ -4,6 +4,7 @@ id: p_jsDzMsskdhbjGJv3yCh6aK
 status: active
 merged_into: null
 display_name: 王無妄
+cbdb_id: 117593
 revision: 1
 properties:
   - predicate: bio.summary

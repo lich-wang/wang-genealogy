@@ -4,6 +4,7 @@ id: p_dSfCmDHBzje8uKE414BuMC
 status: active
 merged_into: null
 display_name: 王羲長
+cbdb_id: 526876
 revision: 1
 properties:
   - predicate: bio.summary

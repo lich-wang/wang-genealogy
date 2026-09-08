@@ -4,6 +4,7 @@ id: p_sp9HWGAFd6ioWiomDgUQRP
 status: active
 merged_into: null
 display_name: 王鳳翰
+cbdb_id: 343606
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_VJq1eurAtK23HqYQ6LZi1X
 status: active
 merged_into: null
 display_name: 王國和
+cbdb_id: 514398
 revision: 1
 properties:
   - predicate: bio.summary

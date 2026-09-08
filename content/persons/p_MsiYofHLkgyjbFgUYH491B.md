@@ -4,6 +4,7 @@ id: p_MsiYofHLkgyjbFgUYH491B
 status: active
 merged_into: null
 display_name: 王爾梅
+cbdb_id: 518172
 revision: 1
 properties:
   - predicate: bio.summary

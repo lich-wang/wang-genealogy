@@ -4,6 +4,7 @@ id: p_DFD9Y4LrMpNGdsEL2yk1bB
 status: active
 merged_into: null
 display_name: 蔺氏
+cbdb_id: 313125
 revision: 2
 properties:
   - predicate: bio.summary

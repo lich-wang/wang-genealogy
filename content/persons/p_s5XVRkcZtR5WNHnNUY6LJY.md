@@ -4,6 +4,7 @@ id: p_s5XVRkcZtR5WNHnNUY6LJY
 status: active
 merged_into: null
 display_name: 王桐吉
+cbdb_id: 414867
 revision: 1
 properties:
   - predicate: bio.summary

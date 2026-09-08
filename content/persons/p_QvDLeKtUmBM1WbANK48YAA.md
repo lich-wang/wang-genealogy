@@ -4,6 +4,7 @@ id: p_QvDLeKtUmBM1WbANK48YAA
 status: active
 merged_into: null
 display_name: 王贈華
+cbdb_id: 343559
 revision: 1
 properties:
   - predicate: bio.summary

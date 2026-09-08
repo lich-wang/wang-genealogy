@@ -4,6 +4,7 @@ id: p_ZiAK8zAJR9h7qSc2BgYZR5
 status: active
 merged_into: null
 display_name: 王者輔
+cbdb_id: 119307
 revision: 1
 properties:
   - predicate: bio.summary

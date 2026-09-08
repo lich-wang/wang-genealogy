@@ -4,6 +4,7 @@ id: p_ie4ty6AGh2xzEj7TbWPL2T
 status: active
 merged_into: null
 display_name: 王荷
+cbdb_id: 222183
 revision: 1
 properties:
   - predicate: bio.summary

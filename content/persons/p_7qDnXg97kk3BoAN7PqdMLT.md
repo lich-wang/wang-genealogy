@@ -4,6 +4,7 @@ id: p_7qDnXg97kk3BoAN7PqdMLT
 status: active
 merged_into: null
 display_name: 王朱
+cbdb_id: 100073
 revision: 1
 properties:
   - predicate: bio.summary

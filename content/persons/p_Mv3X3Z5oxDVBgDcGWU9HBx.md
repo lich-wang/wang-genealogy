@@ -4,6 +4,7 @@ id: p_Mv3X3Z5oxDVBgDcGWU9HBx
 status: active
 merged_into: null
 display_name: 王綺慶
+cbdb_id: 342338
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_tZXBAoTBQfyZJsNx2sZs74
 status: active
 merged_into: null
 display_name: 王於壬
+cbdb_id: 71314
 revision: 1
 properties:
   - predicate: bio.summary

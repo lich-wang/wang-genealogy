@@ -4,6 +4,7 @@ id: p_WzT387oXkdDgMSMGowzMvJ
 status: active
 merged_into: null
 display_name: 王廷祝
+cbdb_id: 414478
 revision: 1
 properties:
   - predicate: bio.summary

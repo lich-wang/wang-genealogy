@@ -4,6 +4,7 @@ id: p_7vgWDpe4JjBrBy6GdA5T1B
 status: active
 merged_into: null
 display_name: 王敬則
+cbdb_id: 465974
 revision: 1
 properties:
   - predicate: bio.summary

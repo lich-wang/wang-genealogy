@@ -4,6 +4,7 @@ id: p_HDqkFSaJUY2V3BLfMwGNKD
 status: active
 merged_into: null
 display_name: 王所冲
+cbdb_id: 266582
 revision: 1
 properties:
   - predicate: bio.summary

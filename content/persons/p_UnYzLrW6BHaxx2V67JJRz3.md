@@ -4,6 +4,7 @@ id: p_UnYzLrW6BHaxx2V67JJRz3
 status: active
 merged_into: null
 display_name: 王啟澤
+cbdb_id: 71718
 revision: 1
 properties:
   - predicate: bio.summary

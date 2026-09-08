@@ -4,6 +4,7 @@ id: p_F8jwsMqHnXUjYuiyHvkyxB
 status: active
 merged_into: null
 display_name: 王瑶
+cbdb_id: 175353
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_U6AM1nUKLfQ5njnQVtaNYH
 status: active
 merged_into: null
 display_name: 王肇林
+cbdb_id: 205462
 revision: 1
 properties:
   - predicate: bio.summary

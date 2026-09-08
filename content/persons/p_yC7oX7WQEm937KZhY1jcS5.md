@@ -4,6 +4,7 @@ id: p_yC7oX7WQEm937KZhY1jcS5
 status: active
 merged_into: null
 display_name: 王迈
+cbdb_id: 175479
 revision: 1
 properties:
   - predicate: bio.summary

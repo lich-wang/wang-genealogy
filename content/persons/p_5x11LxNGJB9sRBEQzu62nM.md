@@ -4,6 +4,7 @@ id: p_5x11LxNGJB9sRBEQzu62nM
 status: active
 merged_into: null
 display_name: 王德楷
+cbdb_id: 72197
 revision: 1
 properties:
   - predicate: bio.summary

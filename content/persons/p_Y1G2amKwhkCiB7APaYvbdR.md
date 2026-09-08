@@ -4,6 +4,7 @@ id: p_Y1G2amKwhkCiB7APaYvbdR
 status: active
 merged_into: null
 display_name: 王獻詩
+cbdb_id: 312068
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_1iSvDHtRHkxhgvj9Gg5W8M
 status: active
 merged_into: null
 display_name: 王仲貴
+cbdb_id: 308778
 revision: 1
 properties:
   - predicate: bio.summary

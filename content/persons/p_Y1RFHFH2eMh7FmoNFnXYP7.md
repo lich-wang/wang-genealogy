@@ -4,6 +4,7 @@ id: p_Y1RFHFH2eMh7FmoNFnXYP7
 status: active
 merged_into: null
 display_name: 王用誥
+cbdb_id: 71492
 revision: 1
 properties:
   - predicate: bio.summary

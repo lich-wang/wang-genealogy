@@ -4,6 +4,7 @@ id: p_g2mQqyo56V7mDby5TWwKou
 status: active
 merged_into: null
 display_name: 王蒙吉
+cbdb_id: 526181
 revision: 1
 properties:
   - predicate: bio.summary

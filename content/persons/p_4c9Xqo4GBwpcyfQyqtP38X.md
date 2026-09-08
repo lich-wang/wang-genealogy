@@ -4,6 +4,7 @@ id: p_4c9Xqo4GBwpcyfQyqtP38X
 status: active
 merged_into: null
 display_name: 王世秀
+cbdb_id: 71457
 revision: 1
 properties:
   - predicate: bio.summary

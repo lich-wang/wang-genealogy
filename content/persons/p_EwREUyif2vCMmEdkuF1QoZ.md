@@ -4,6 +4,7 @@ id: p_EwREUyif2vCMmEdkuF1QoZ
 status: active
 merged_into: null
 display_name: 王宗閻
+cbdb_id: 414315
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_RGbY3Rfo1GGBPB4tnQbHRP
 status: active
 merged_into: null
 display_name: 王繼樸
+cbdb_id: 294878
 revision: 1
 properties:
   - predicate: bio.summary

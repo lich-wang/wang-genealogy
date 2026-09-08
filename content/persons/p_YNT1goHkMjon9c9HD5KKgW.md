@@ -4,6 +4,7 @@ id: p_YNT1goHkMjon9c9HD5KKgW
 status: active
 merged_into: null
 display_name: 王曾蓀
+cbdb_id: 414822
 revision: 1
 properties:
   - predicate: bio.summary

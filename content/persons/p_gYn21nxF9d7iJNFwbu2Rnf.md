@@ -4,6 +4,7 @@ id: p_gYn21nxF9d7iJNFwbu2Rnf
 status: active
 merged_into: null
 display_name: 王鳴臣
+cbdb_id: 126785
 revision: 1
 properties:
   - predicate: bio.summary

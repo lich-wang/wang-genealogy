@@ -4,6 +4,7 @@ id: p_NKacZGJabynMGiYEUrLV77
 status: active
 merged_into: null
 display_name: 王緝顯
+cbdb_id: 415260
 revision: 1
 properties:
   - predicate: bio.summary

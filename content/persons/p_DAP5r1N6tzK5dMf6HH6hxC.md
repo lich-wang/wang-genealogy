@@ -4,6 +4,7 @@ id: p_DAP5r1N6tzK5dMf6HH6hxC
 status: active
 merged_into: null
 display_name: 王宗人
+cbdb_id: 414298
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_1ZowDZGvMrSnt3HVLADgcH
 status: active
 merged_into: null
 display_name: 王允才
+cbdb_id: 384799
 revision: 1
 properties:
   - predicate: bio.summary

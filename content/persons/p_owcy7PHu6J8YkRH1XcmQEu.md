@@ -4,6 +4,7 @@ id: p_owcy7PHu6J8YkRH1XcmQEu
 status: active
 merged_into: null
 display_name: 王叔榮
+cbdb_id: 414024
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_hEM8u7f3WaNDJCKm4Tr9oT
 status: active
 merged_into: null
 display_name: 王應綸
+cbdb_id: 519932
 revision: 1
 properties:
   - predicate: bio.summary

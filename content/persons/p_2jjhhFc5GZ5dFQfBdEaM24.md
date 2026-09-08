@@ -4,6 +4,7 @@ id: p_2jjhhFc5GZ5dFQfBdEaM24
 status: active
 merged_into: null
 display_name: 王心清
+cbdb_id: 71439
 revision: 1
 properties:
   - predicate: bio.summary

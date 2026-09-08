@@ -4,6 +4,7 @@ id: p_EPMcMtPNZe2aBa6FHXsB5g
 status: active
 merged_into: null
 display_name: 王國正
+cbdb_id: 526730
 revision: 1
 properties:
   - predicate: bio.summary

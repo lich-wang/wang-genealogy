@@ -4,6 +4,7 @@ id: p_iKbnNvBUm7gd6cin6YHAHw
 status: active
 merged_into: null
 display_name: 王允光
+cbdb_id: 445512
 revision: 1
 properties:
   - predicate: bio.summary

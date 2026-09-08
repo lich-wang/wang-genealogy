@@ -4,6 +4,7 @@ id: p_3gW3Bu7uJxLuJUhWNXX6CV
 status: active
 merged_into: null
 display_name: 王防
+cbdb_id: 100236
 revision: 1
 properties:
   - predicate: bio.summary

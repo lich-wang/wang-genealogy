@@ -4,6 +4,7 @@ id: p_KoNAR72gTJQfz6MsFMPqCS
 status: active
 merged_into: null
 display_name: 王演之
+cbdb_id: 69756
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_LuUtDDBs6EqW3H91UBGUVt
 status: active
 merged_into: null
 display_name: 王盡禮
+cbdb_id: 415165
 revision: 1
 properties:
   - predicate: bio.summary

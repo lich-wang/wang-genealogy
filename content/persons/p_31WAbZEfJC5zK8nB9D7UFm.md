@@ -4,6 +4,7 @@ id: p_31WAbZEfJC5zK8nB9D7UFm
 status: active
 merged_into: null
 display_name: 王映辰
+cbdb_id: 414788
 revision: 1
 properties:
   - predicate: bio.summary

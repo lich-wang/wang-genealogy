@@ -4,6 +4,7 @@ id: p_QFgZ9LBrWHcnNm7MfD6Yc6
 status: active
 merged_into: null
 display_name: 王祖寶
+cbdb_id: 520242
 revision: 1
 properties:
   - predicate: bio.summary

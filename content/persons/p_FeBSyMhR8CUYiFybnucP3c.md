@@ -4,6 +4,7 @@ id: p_FeBSyMhR8CUYiFybnucP3c
 status: active
 merged_into: null
 display_name: 王秦客
+cbdb_id: 140839
 revision: 1
 properties:
   - predicate: bio.summary

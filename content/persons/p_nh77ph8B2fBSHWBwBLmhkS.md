@@ -4,6 +4,7 @@ id: p_nh77ph8B2fBSHWBwBLmhkS
 status: active
 merged_into: null
 display_name: 王體益
+cbdb_id: 334181
 revision: 1
 properties:
   - predicate: bio.summary

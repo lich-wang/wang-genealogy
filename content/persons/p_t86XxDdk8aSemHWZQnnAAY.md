@@ -4,6 +4,7 @@ id: p_t86XxDdk8aSemHWZQnnAAY
 status: active
 merged_into: null
 display_name: 王懸河
+cbdb_id: 92075
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_gGz8qmG1JmrwiBphuema3P
 status: active
 merged_into: null
 display_name: 王慎勤
+cbdb_id: 414622
 revision: 1
 properties:
   - predicate: bio.summary

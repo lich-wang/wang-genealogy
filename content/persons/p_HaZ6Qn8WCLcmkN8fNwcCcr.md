@@ -4,6 +4,7 @@ id: p_HaZ6Qn8WCLcmkN8fNwcCcr
 status: active
 merged_into: null
 display_name: 王起鵬
+cbdb_id: 415462
 revision: 1
 properties:
   - predicate: bio.summary

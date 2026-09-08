@@ -4,6 +4,7 @@ id: p_Nh3Rgoa4NGm5FE6FMZvwWs
 status: active
 merged_into: null
 display_name: 王景初
+cbdb_id: 134099
 revision: 1
 properties:
   - predicate: bio.summary

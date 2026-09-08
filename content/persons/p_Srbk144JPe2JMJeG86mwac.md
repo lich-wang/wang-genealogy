@@ -4,6 +4,7 @@ id: p_Srbk144JPe2JMJeG86mwac
 status: active
 merged_into: null
 display_name: 王君喆
+cbdb_id: 514118
 revision: 1
 properties:
   - predicate: bio.summary

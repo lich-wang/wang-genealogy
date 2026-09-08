@@ -4,6 +4,7 @@ id: p_kKBU67KW3DWC3GgsXJTwPQ
 status: active
 merged_into: null
 display_name: 王志楓
+cbdb_id: 526695
 revision: 1
 properties:
   - predicate: bio.summary

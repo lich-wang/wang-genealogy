@@ -4,6 +4,7 @@ id: p_fqnSR32MzabPY7wL6Dh3QV
 status: active
 merged_into: null
 display_name: 王德教
+cbdb_id: 414560
 revision: 1
 properties:
   - predicate: bio.summary

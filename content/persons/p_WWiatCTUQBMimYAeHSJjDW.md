@@ -4,6 +4,7 @@ id: p_WWiatCTUQBMimYAeHSJjDW
 status: active
 merged_into: null
 display_name: 王纯礼
+cbdb_id: 264936
 revision: 1
 properties:
   - predicate: name.primary

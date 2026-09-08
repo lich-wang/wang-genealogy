@@ -4,6 +4,7 @@ id: p_HKt1qQAmMbn5icNNag3BQq
 status: active
 merged_into: null
 display_name: 王簡臣
+cbdb_id: 415220
 revision: 1
 properties:
   - predicate: bio.summary

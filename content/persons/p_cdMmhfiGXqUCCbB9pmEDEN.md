@@ -4,6 +4,7 @@ id: p_cdMmhfiGXqUCCbB9pmEDEN
 status: active
 merged_into: null
 display_name: 王虔裕
+cbdb_id: 384059
 revision: 1
 properties:
   - predicate: bio.summary

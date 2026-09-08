@@ -4,6 +4,7 @@ id: p_witFrKxBZ52fXzQWvAN9sk
 status: active
 merged_into: null
 display_name: 萧方智
+cbdb_id: 339553
 revision: 1
 properties:
   - predicate: bio.summary

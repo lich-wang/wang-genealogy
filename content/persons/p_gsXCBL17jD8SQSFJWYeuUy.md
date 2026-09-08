@@ -4,6 +4,7 @@ id: p_gsXCBL17jD8SQSFJWYeuUy
 status: active
 merged_into: null
 display_name: 王九章
+cbdb_id: 217990
 revision: 1
 properties:
   - predicate: bio.summary

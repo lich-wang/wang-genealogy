@@ -4,6 +4,7 @@ id: p_1PgngiW7DRe6h4wi5goBc8
 status: active
 merged_into: null
 display_name: 王鑌之
+cbdb_id: 253206
 revision: 1
 properties:
   - predicate: bio.summary

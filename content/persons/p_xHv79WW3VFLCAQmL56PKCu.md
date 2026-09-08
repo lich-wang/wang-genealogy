@@ -4,6 +4,7 @@ id: p_xHv79WW3VFLCAQmL56PKCu
 status: active
 merged_into: null
 display_name: 王士原
+cbdb_id: 269536
 revision: 1
 properties:
   - predicate: bio.summary

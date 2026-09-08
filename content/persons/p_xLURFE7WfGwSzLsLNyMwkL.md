@@ -4,6 +4,7 @@ id: p_xLURFE7WfGwSzLsLNyMwkL
 status: active
 merged_into: null
 display_name: 王巡泰
+cbdb_id: 69234
 revision: 1
 properties:
   - predicate: bio.summary

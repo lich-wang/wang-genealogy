@@ -4,6 +4,7 @@ id: p_y8GN7TBh8xREmHdxo6HR3x
 status: active
 merged_into: null
 display_name: 王若禹
+cbdb_id: 415343
 revision: 1
 properties:
   - predicate: bio.summary

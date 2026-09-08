@@ -4,6 +4,7 @@ id: p_vtqFVG9qKaPFdWTPk4UifA
 status: active
 merged_into: null
 display_name: 王劍川
+cbdb_id: 101405
 revision: 1
 properties:
   - predicate: bio.summary

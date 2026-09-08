@@ -4,6 +4,7 @@ id: p_uadUiUdJs2HHpEDqfmU928
 status: active
 merged_into: null
 display_name: 王仲斌
+cbdb_id: 270226
 revision: 1
 properties:
   - predicate: bio.summary

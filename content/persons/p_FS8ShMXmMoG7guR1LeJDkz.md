@@ -4,6 +4,7 @@ id: p_FS8ShMXmMoG7guR1LeJDkz
 status: active
 merged_into: null
 display_name: 王壯
+cbdb_id: 526021
 revision: 1
 properties:
   - predicate: bio.summary

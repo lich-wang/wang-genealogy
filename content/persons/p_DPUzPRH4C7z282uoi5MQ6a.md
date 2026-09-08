@@ -4,6 +4,7 @@ id: p_DPUzPRH4C7z282uoi5MQ6a
 status: active
 merged_into: null
 display_name: 王志用
+cbdb_id: 143395
 revision: 1
 properties:
   - predicate: bio.summary

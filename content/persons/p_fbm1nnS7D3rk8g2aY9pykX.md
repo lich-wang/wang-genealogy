@@ -4,6 +4,7 @@ id: p_fbm1nnS7D3rk8g2aY9pykX
 status: active
 merged_into: null
 display_name: 王文宣
+cbdb_id: 314483
 revision: 1
 properties:
   - predicate: bio.summary

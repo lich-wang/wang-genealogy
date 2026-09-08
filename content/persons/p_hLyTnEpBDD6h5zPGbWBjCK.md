@@ -4,6 +4,7 @@ id: p_hLyTnEpBDD6h5zPGbWBjCK
 status: active
 merged_into: null
 display_name: 王行周
+cbdb_id: 445488
 revision: 1
 properties:
   - predicate: bio.summary

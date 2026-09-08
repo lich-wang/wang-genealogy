@@ -4,6 +4,7 @@ id: p_up4Dq9QPVrV3tGoqJ1ZDot
 status: active
 merged_into: null
 display_name: 王季雅
+cbdb_id: 414260
 revision: 1
 properties:
   - predicate: bio.summary

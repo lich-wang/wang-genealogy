@@ -4,6 +4,7 @@ id: p_3hdu1ravStpuWm6LFsFbv7
 status: active
 merged_into: null
 display_name: 王叔瑜
+cbdb_id: 322398
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_pG5WKV3i6pashNpAeCVJkC
 status: active
 merged_into: null
 display_name: 王長治
+cbdb_id: 120502
 revision: 1
 properties:
   - predicate: bio.summary

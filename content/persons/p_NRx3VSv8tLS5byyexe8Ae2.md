@@ -4,6 +4,7 @@ id: p_NRx3VSv8tLS5byyexe8Ae2
 status: active
 merged_into: null
 display_name: 王祿壽
+cbdb_id: 514400
 revision: 1
 properties:
   - predicate: bio.summary

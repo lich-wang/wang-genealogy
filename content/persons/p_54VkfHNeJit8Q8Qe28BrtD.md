@@ -4,6 +4,7 @@ id: p_54VkfHNeJit8Q8Qe28BrtD
 status: active
 merged_into: null
 display_name: 王蕙芳
+cbdb_id: 69516
 revision: 1
 properties:
   - predicate: bio.summary

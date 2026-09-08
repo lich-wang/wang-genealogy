@@ -4,6 +4,7 @@ id: p_1yiGzv9k6cDfeA2RmVxPKL
 status: active
 merged_into: null
 display_name: 王續光
+cbdb_id: 415279
 revision: 1
 properties:
   - predicate: bio.summary

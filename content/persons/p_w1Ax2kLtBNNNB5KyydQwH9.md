@@ -4,6 +4,7 @@ id: p_w1Ax2kLtBNNNB5KyydQwH9
 status: active
 merged_into: null
 display_name: 王懋誠
+cbdb_id: 337972
 revision: 1
 properties:
   - predicate: bio.summary

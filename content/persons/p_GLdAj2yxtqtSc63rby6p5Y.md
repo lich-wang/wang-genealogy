@@ -4,6 +4,7 @@ id: p_GLdAj2yxtqtSc63rby6p5Y
 status: active
 merged_into: null
 display_name: 王靈夔
+cbdb_id: 415595
 revision: 1
 properties:
   - predicate: bio.summary

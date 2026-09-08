@@ -4,6 +4,7 @@ id: p_Ewe4MYMQjhjcrLdkTU3BmX
 status: active
 merged_into: null
 display_name: 王運亨
+cbdb_id: 526788
 revision: 1
 properties:
   - predicate: bio.summary

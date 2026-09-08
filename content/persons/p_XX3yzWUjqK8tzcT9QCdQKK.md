@@ -4,6 +4,7 @@ id: p_XX3yzWUjqK8tzcT9QCdQKK
 status: active
 merged_into: null
 display_name: 王玉京
+cbdb_id: 134681
 revision: 1
 properties:
   - predicate: bio.summary

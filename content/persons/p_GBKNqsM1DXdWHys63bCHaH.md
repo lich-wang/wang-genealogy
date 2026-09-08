@@ -4,6 +4,7 @@ id: p_GBKNqsM1DXdWHys63bCHaH
 status: active
 merged_into: null
 display_name: 王密卿
+cbdb_id: 445558
 revision: 1
 properties:
   - predicate: bio.summary

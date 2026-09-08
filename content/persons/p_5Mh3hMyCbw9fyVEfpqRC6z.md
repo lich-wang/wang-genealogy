@@ -4,6 +4,7 @@ id: p_5Mh3hMyCbw9fyVEfpqRC6z
 status: active
 merged_into: null
 display_name: 王志皋
+cbdb_id: 185233
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_bas9F8qn5mmHqo3q8sM16v
 status: active
 merged_into: null
 display_name: 王華姜
+cbdb_id: 522323
 revision: 1
 properties:
   - predicate: bio.summary

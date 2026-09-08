@@ -4,6 +4,7 @@ id: p_iG2Q8BsHswesj1yP7sRHNK
 status: active
 merged_into: null
 display_name: 王必昌
+cbdb_id: 342687
 revision: 1
 properties:
   - predicate: bio.summary

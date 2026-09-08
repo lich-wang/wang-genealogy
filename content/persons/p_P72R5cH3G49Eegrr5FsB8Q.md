@@ -4,6 +4,7 @@ id: p_P72R5cH3G49Eegrr5FsB8Q
 status: active
 merged_into: null
 display_name: 王樹藩
+cbdb_id: 71864
 revision: 1
 properties:
   - predicate: bio.summary

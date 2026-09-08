@@ -4,6 +4,7 @@ id: p_iDjU7xfWF1u1bfDbSWDe7b
 status: active
 merged_into: null
 display_name: 王涛
+cbdb_id: 175594
 revision: 1
 properties:
   - predicate: bio.summary

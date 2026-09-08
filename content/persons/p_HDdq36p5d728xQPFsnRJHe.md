@@ -4,6 +4,7 @@ id: p_HDdq36p5d728xQPFsnRJHe
 status: active
 merged_into: null
 display_name: 王道照
+cbdb_id: 223213
 revision: 1
 properties:
   - predicate: bio.summary

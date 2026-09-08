@@ -4,6 +4,7 @@ id: p_wBpdEZYPyBQQo2Ndn6KuLy
 status: active
 merged_into: null
 display_name: 王臻祐
+cbdb_id: 72209
 revision: 1
 properties:
   - predicate: bio.summary

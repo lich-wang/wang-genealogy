@@ -4,6 +4,7 @@ id: p_dNCKSLDkfJXP4qCC6kdJrK
 status: active
 merged_into: null
 display_name: 王懷古
+cbdb_id: 151426
 revision: 1
 properties:
   - predicate: bio.summary

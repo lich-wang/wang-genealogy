@@ -4,6 +4,7 @@ id: p_YmqaJU8Wekwy7kavxFvpdZ
 status: active
 merged_into: null
 display_name: 王梁才
+cbdb_id: 97932
 revision: 1
 properties:
   - predicate: bio.summary

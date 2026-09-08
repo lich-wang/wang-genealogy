@@ -4,6 +4,7 @@ id: p_Tqiyy3xm1pCdMG7YURKEX1
 status: active
 merged_into: null
 display_name: 王偉慶
+cbdb_id: 342327
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_z6XEB5w8CPf2FXrsDecyss
 status: active
 merged_into: null
 display_name: 王貴農
+cbdb_id: 415436
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_JfvQEkowvCMYxRF2oHig6K
 status: active
 merged_into: null
 display_name: 王公任
+cbdb_id: 343763
 revision: 1
 properties:
   - predicate: bio.summary

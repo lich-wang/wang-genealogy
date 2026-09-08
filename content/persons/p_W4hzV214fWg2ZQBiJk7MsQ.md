@@ -4,6 +4,7 @@ id: p_W4hzV214fWg2ZQBiJk7MsQ
 status: active
 merged_into: null
 display_name: 王國梓
+cbdb_id: 71755
 revision: 1
 properties:
   - predicate: bio.summary

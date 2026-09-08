@@ -4,6 +4,7 @@ id: p_LeZ96Xy6g1TqySynkwVZFw
 status: active
 merged_into: null
 display_name: 王遇采
+cbdb_id: 101385
 revision: 1
 properties:
   - predicate: bio.summary

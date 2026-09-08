@@ -4,6 +4,7 @@ id: p_ki4TWnCWsRERid2JiF8DJa
 status: active
 merged_into: null
 display_name: 王蒙古歹
+cbdb_id: 101468
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_bNq3tmKZgaxxCYqkUUgyb3
 status: active
 merged_into: null
 display_name: 王立清
+cbdb_id: 61622
 revision: 1
 properties:
   - predicate: bio.summary

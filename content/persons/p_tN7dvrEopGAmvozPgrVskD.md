@@ -4,6 +4,7 @@ id: p_tN7dvrEopGAmvozPgrVskD
 status: active
 merged_into: null
 display_name: 王之朝
+cbdb_id: 413750
 revision: 1
 properties:
   - predicate: bio.summary

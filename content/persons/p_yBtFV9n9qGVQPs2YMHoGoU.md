@@ -4,6 +4,7 @@ id: p_yBtFV9n9qGVQPs2YMHoGoU
 status: active
 merged_into: null
 display_name: 王門弼
+cbdb_id: 343680
 revision: 1
 properties:
   - predicate: bio.summary

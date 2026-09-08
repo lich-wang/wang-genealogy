@@ -4,6 +4,7 @@ id: p_UNMW3NYfUMEm2qVq4x4Bzd
 status: active
 merged_into: null
 display_name: 王伯啓
+cbdb_id: 413852
 revision: 1
 properties:
   - predicate: bio.summary

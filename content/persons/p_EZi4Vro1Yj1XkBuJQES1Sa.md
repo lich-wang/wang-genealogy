@@ -4,6 +4,7 @@ id: p_EZi4Vro1Yj1XkBuJQES1Sa
 status: active
 merged_into: null
 display_name: 王化普
+cbdb_id: 413999
 revision: 1
 properties:
   - predicate: bio.summary

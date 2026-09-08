@@ -4,6 +4,7 @@ id: p_KAKxFtVrwdv1yKXQT7m9zk
 status: active
 merged_into: null
 display_name: 王仲鏞
+cbdb_id: 288166
 revision: 1
 properties:
   - predicate: bio.summary

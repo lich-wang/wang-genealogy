@@ -4,6 +4,7 @@ id: p_Pgpmm7wnTqLY7xY2HfhhZC
 status: active
 merged_into: null
 display_name: 王繼乾
+cbdb_id: 214679
 revision: 1
 properties:
   - predicate: bio.summary

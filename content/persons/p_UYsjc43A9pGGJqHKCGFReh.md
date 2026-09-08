@@ -4,6 +4,7 @@ id: p_UYsjc43A9pGGJqHKCGFReh
 status: active
 merged_into: null
 display_name: 王爰相
+cbdb_id: 342106
 revision: 1
 properties:
   - predicate: bio.summary

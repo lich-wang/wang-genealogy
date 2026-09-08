@@ -4,6 +4,7 @@ id: p_CcTU4GJp9nch24fRdcNMjk
 status: active
 merged_into: null
 display_name: 王從易
+cbdb_id: 414535
 revision: 1
 properties:
   - predicate: bio.summary

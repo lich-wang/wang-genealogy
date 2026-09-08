@@ -4,6 +4,7 @@ id: p_xxuSM71P4t1Avntfm8v4Bs
 status: active
 merged_into: null
 display_name: 王麗娟
+cbdb_id: 122471
 revision: 1
 properties:
   - predicate: bio.summary

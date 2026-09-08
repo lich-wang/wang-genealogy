@@ -4,6 +4,7 @@ id: p_Ja9A7tkf1NLL9HgquqFBAQ
 status: active
 merged_into: null
 display_name: 王誦芬
+cbdb_id: 415417
 revision: 1
 properties:
   - predicate: bio.summary

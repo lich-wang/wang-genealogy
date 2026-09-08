@@ -4,6 +4,7 @@ id: p_b2VB3NHLbMgBg83HggQkCC
 status: active
 merged_into: null
 display_name: 王仁溥
+cbdb_id: 101052
 revision: 1
 properties:
   - predicate: bio.summary

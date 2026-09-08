@@ -4,6 +4,7 @@ id: p_3aPNBKJ5cmD3TDrmttxjrB
 status: active
 merged_into: null
 display_name: 王際雲
+cbdb_id: 458469
 revision: 1
 properties:
   - predicate: bio.summary

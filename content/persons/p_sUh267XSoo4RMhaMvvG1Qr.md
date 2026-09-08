@@ -4,6 +4,7 @@ id: p_sUh267XSoo4RMhaMvvG1Qr
 status: active
 merged_into: null
 display_name: 王萬釗
+cbdb_id: 58622
 revision: 1
 properties:
   - predicate: bio.summary

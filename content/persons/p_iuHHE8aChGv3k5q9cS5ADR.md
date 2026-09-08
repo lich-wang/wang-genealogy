@@ -4,6 +4,7 @@ id: p_iuHHE8aChGv3k5q9cS5ADR
 status: active
 merged_into: null
 display_name: 王雄誕
+cbdb_id: 381504
 revision: 1
 properties:
   - predicate: bio.summary

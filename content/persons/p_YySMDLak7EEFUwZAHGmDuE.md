@@ -4,6 +4,7 @@ id: p_YySMDLak7EEFUwZAHGmDuE
 status: active
 merged_into: null
 display_name: 王銓義
+cbdb_id: 415536
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_DNGJa9ezkKqyvBdn8a361a
 status: active
 merged_into: null
 display_name: 王武保
+cbdb_id: 162064
 revision: 1
 properties:
   - predicate: bio.summary

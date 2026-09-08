@@ -4,6 +4,7 @@ id: p_F9zCXgX7yWwLramBXDETg1
 status: active
 merged_into: null
 display_name: 王繼冲
+cbdb_id: 97998
 revision: 1
 properties:
   - predicate: bio.summary

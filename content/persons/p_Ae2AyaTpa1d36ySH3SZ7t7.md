@@ -4,6 +4,7 @@ id: p_Ae2AyaTpa1d36ySH3SZ7t7
 status: active
 merged_into: null
 display_name: 王維齡
+cbdb_id: 120965
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_Zbv32HbZTJZ2KXkpbGdL19
 status: active
 merged_into: null
 display_name: 王玉煙
+cbdb_id: 135176
 revision: 1
 properties:
   - predicate: bio.summary

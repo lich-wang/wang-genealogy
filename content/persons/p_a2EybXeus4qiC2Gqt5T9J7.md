@@ -4,6 +4,7 @@ id: p_a2EybXeus4qiC2Gqt5T9J7
 status: active
 merged_into: null
 display_name: 王所善
+cbdb_id: 471558
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_HXYHXYYTh5SpdwgxMurF93
 status: active
 merged_into: null
 display_name: 王兹
+cbdb_id: 383431
 revision: 1
 properties:
   - predicate: bio.summary

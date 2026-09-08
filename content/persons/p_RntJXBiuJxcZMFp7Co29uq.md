@@ -4,6 +4,7 @@ id: p_RntJXBiuJxcZMFp7Co29uq
 status: active
 merged_into: null
 display_name: 王济
+cbdb_id: 175489
 revision: 1
 properties:
   - predicate: bio.summary

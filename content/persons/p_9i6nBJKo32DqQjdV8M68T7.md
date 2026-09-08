@@ -4,6 +4,7 @@ id: p_9i6nBJKo32DqQjdV8M68T7
 status: active
 merged_into: null
 display_name: 王憲祖
+cbdb_id: 236272
 revision: 1
 properties:
   - predicate: bio.summary

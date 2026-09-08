@@ -4,6 +4,7 @@ id: p_Eb9mfCFLPFFzhw9gTgo3QX
 status: active
 merged_into: null
 display_name: 王仙媛
+cbdb_id: 119185
 revision: 1
 properties:
   - predicate: bio.summary

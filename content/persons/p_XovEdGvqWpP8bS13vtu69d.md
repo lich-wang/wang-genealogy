@@ -4,6 +4,7 @@ id: p_XovEdGvqWpP8bS13vtu69d
 status: active
 merged_into: null
 display_name: 王宗達
+cbdb_id: 414314
 revision: 1
 properties:
   - predicate: bio.summary

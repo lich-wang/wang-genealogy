@@ -4,6 +4,7 @@ id: p_LwaXRXY2ye6BxeNMwEmG3p
 status: active
 merged_into: null
 display_name: 王孫熙
+cbdb_id: 341964
 revision: 1
 properties:
   - predicate: bio.summary

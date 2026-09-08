@@ -4,6 +4,7 @@ id: p_n1CMWoEQDNZ6FnWTcUGQAH
 status: active
 merged_into: null
 display_name: 王瀏
+cbdb_id: 134183
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_YGRFaY2URMKqBHrVgXeQ9N
 status: active
 merged_into: null
 display_name: 王魁武
+cbdb_id: 415627
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_reuJ3Gy5K3tzEUt9VByf69
 status: active
 merged_into: null
 display_name: 王理
+cbdb_id: 232113
 revision: 2
 properties:
   - predicate: bio.summary

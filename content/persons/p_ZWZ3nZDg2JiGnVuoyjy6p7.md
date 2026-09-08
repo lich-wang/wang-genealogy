@@ -4,6 +4,7 @@ id: p_ZWZ3nZDg2JiGnVuoyjy6p7
 status: active
 merged_into: null
 display_name: 王梁卿
+cbdb_id: 165517
 revision: 1
 properties:
   - predicate: bio.summary

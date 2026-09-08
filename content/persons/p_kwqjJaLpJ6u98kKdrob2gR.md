@@ -4,6 +4,7 @@ id: p_kwqjJaLpJ6u98kKdrob2gR
 status: active
 merged_into: null
 display_name: 王繼鳴
+cbdb_id: 415276
 revision: 1
 properties:
   - predicate: bio.summary

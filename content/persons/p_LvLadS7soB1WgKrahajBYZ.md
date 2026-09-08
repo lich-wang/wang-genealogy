@@ -4,6 +4,7 @@ id: p_LvLadS7soB1WgKrahajBYZ
 status: active
 merged_into: null
 display_name: 王輔先
+cbdb_id: 343373
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_C5KPY2rU8Xhk2zhHW5t6TH
 status: active
 merged_into: null
 display_name: 王梯
+cbdb_id: 314541
 revision: 1
 properties:
   - predicate: bio.summary

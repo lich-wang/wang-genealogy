@@ -4,6 +4,7 @@ id: p_B6BFc9p6J7kpQT96a1dMZi
 status: active
 merged_into: null
 display_name: 王國政
+cbdb_id: 414120
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_YgLAE5ENyAPnBKeiouu94D
 status: active
 merged_into: null
 display_name: 王羲民
+cbdb_id: 343726
 revision: 1
 properties:
   - predicate: bio.summary

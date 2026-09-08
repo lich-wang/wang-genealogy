@@ -4,6 +4,7 @@ id: p_SrvvfcC9868HY7tFGVaHMw
 status: active
 merged_into: null
 display_name: 王揚芬
+cbdb_id: 71540
 revision: 1
 properties:
   - predicate: bio.summary

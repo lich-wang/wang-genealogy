@@ -4,6 +4,7 @@ id: p_sNQvJxY8nVFb2VyykBAhnM
 status: active
 merged_into: null
 display_name: 王時薰
+cbdb_id: 439436
 revision: 1
 properties:
   - predicate: bio.summary

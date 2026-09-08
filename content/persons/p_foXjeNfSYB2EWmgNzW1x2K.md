@@ -4,6 +4,7 @@ id: p_foXjeNfSYB2EWmgNzW1x2K
 status: active
 merged_into: null
 display_name: 王思鈞
+cbdb_id: 519632
 revision: 1
 properties:
   - predicate: bio.summary

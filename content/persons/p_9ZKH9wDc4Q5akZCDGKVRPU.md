@@ -4,6 +4,7 @@ id: p_9ZKH9wDc4Q5akZCDGKVRPU
 status: active
 merged_into: null
 display_name: 王守明
+cbdb_id: 526915
 revision: 1
 properties:
   - predicate: bio.summary

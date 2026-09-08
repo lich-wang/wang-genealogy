@@ -4,6 +4,7 @@ id: p_E9yiZRcnv86R8z3Ga3MtSS
 status: active
 merged_into: null
 display_name: 王鳳曆
+cbdb_id: 213955
 revision: 1
 properties:
   - predicate: bio.summary

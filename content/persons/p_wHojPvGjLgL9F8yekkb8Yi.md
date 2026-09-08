@@ -4,6 +4,7 @@ id: p_wHojPvGjLgL9F8yekkb8Yi
 status: active
 merged_into: null
 display_name: 王彥林
+cbdb_id: 69295
 revision: 1
 properties:
   - predicate: bio.summary

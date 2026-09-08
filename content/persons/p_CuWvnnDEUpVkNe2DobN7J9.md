@@ -4,6 +4,7 @@ id: p_CuWvnnDEUpVkNe2DobN7J9
 status: active
 merged_into: null
 display_name: 王惟垣
+cbdb_id: 336613
 revision: 1
 properties:
   - predicate: bio.summary

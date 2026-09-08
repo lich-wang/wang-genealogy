@@ -4,6 +4,7 @@ id: p_tHMkZY5B8yk5DUjFQ4b1AG
 status: active
 merged_into: null
 display_name: 王華三
+cbdb_id: 415353
 revision: 1
 properties:
   - predicate: bio.summary

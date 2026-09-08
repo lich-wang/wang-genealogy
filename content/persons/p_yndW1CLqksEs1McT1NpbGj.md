@@ -4,6 +4,7 @@ id: p_yndW1CLqksEs1McT1NpbGj
 status: active
 merged_into: null
 display_name: 王殿麟
+cbdb_id: 343635
 revision: 1
 properties:
   - predicate: bio.summary

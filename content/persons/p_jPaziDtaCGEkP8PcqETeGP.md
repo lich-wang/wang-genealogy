@@ -4,6 +4,7 @@ id: p_jPaziDtaCGEkP8PcqETeGP
 status: active
 merged_into: null
 display_name: 王遇龍
+cbdb_id: 38280
 revision: 1
 properties:
   - predicate: bio.summary

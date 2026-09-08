@@ -4,6 +4,7 @@ id: p_5zhGEimBSRibG2X8DZoDuG
 status: active
 merged_into: null
 display_name: 王嘉元
+cbdb_id: 202937
 revision: 1
 properties:
   - predicate: bio.summary

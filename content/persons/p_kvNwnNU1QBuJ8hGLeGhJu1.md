@@ -4,6 +4,7 @@ id: p_kvNwnNU1QBuJ8hGLeGhJu1
 status: active
 merged_into: null
 display_name: 王應鵑
+cbdb_id: 414659
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_5ZNvcHEuXb94dPwJ5UjH8D
 status: active
 merged_into: null
 display_name: 王族
+cbdb_id: 23102
 revision: 1
 properties:
   - predicate: bio.summary

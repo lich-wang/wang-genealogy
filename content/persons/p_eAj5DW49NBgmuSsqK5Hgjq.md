@@ -4,6 +4,7 @@ id: p_eAj5DW49NBgmuSsqK5Hgjq
 status: active
 merged_into: null
 display_name: 王知教
+cbdb_id: 160482
 revision: 1
 properties:
   - predicate: bio.summary

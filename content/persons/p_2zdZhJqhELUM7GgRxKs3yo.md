@@ -4,6 +4,7 @@ id: p_2zdZhJqhELUM7GgRxKs3yo
 status: active
 merged_into: null
 display_name: 王審超
+cbdb_id: 97870
 revision: 1
 properties:
   - predicate: bio.summary

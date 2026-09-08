@@ -4,6 +4,7 @@ id: p_V9Mdqt7Q4vUXMLyaLoUhgr
 status: active
 merged_into: null
 display_name: 王命時
+cbdb_id: 69275
 revision: 1
 properties:
   - predicate: bio.summary

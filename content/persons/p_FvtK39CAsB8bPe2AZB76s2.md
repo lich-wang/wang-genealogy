@@ -4,6 +4,7 @@ id: p_FvtK39CAsB8bPe2AZB76s2
 status: active
 merged_into: null
 display_name: 王和清
+cbdb_id: 378435
 revision: 1
 properties:
   - predicate: bio.summary

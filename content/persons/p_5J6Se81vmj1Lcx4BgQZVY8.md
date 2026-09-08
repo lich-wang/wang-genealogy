@@ -4,6 +4,7 @@ id: p_5J6Se81vmj1Lcx4BgQZVY8
 status: active
 merged_into: null
 display_name: 王九韶
+cbdb_id: 413785
 revision: 1
 properties:
   - predicate: bio.summary

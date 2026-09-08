@@ -4,6 +4,7 @@ id: p_9aAxV5bU2FSNHAMbeAtaCs
 status: active
 merged_into: null
 display_name: 王成家
+cbdb_id: 414670
 revision: 1
 properties:
   - predicate: bio.summary

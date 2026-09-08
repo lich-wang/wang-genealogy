@@ -4,6 +4,7 @@ id: p_Gk21g7E82LeFqiSW4yWrxd
 status: active
 merged_into: null
 display_name: 王臻祜
+cbdb_id: 526853
 revision: 1
 properties:
   - predicate: bio.summary

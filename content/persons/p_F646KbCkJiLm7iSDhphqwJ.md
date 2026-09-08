@@ -4,6 +4,7 @@ id: p_F646KbCkJiLm7iSDhphqwJ
 status: active
 merged_into: null
 display_name: 王汝琴
+cbdb_id: 441159
 revision: 1
 properties:
   - predicate: bio.summary

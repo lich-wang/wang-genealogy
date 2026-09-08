@@ -4,6 +4,7 @@ id: p_eGi7P5hqHqLkCAztsL9hSf
 status: active
 merged_into: null
 display_name: 王桓之
+cbdb_id: 414868
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_tiRK1sD87C6Lt35s8YNGhb
 status: active
 merged_into: null
 display_name: 王公相
+cbdb_id: 413968
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_P5vsGQ4KDvnF7jK8FrvJQN
 status: active
 merged_into: null
 display_name: 王紀昭
+cbdb_id: 342415
 revision: 1
 properties:
   - predicate: bio.summary

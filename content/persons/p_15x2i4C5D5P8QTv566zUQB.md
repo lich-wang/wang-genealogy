@@ -4,6 +4,7 @@ id: p_15x2i4C5D5P8QTv566zUQB
 status: active
 merged_into: null
 display_name: 王造
+cbdb_id: 175471
 revision: 1
 properties:
   - predicate: bio.summary

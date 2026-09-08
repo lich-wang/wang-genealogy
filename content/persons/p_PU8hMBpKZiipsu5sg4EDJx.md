@@ -4,6 +4,7 @@ id: p_PU8hMBpKZiipsu5sg4EDJx
 status: active
 merged_into: null
 display_name: 王飛瓊
+cbdb_id: 56253
 revision: 1
 properties:
   - predicate: bio.summary

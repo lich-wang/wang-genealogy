@@ -4,6 +4,7 @@ id: p_THUmt9o8fsBpt3idnyTTLY
 status: active
 merged_into: null
 display_name: 王天助
+cbdb_id: 101079
 revision: 1
 properties:
   - predicate: bio.summary

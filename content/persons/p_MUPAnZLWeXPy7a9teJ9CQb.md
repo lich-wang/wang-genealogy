@@ -4,6 +4,7 @@ id: p_MUPAnZLWeXPy7a9teJ9CQb
 status: active
 merged_into: null
 display_name: 王孝恭
+cbdb_id: 473964
 revision: 1
 properties:
   - predicate: bio.summary

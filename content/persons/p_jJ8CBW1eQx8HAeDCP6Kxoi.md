@@ -4,6 +4,7 @@ id: p_jJ8CBW1eQx8HAeDCP6Kxoi
 status: active
 merged_into: null
 display_name: 王勉學
+cbdb_id: 214954
 revision: 1
 properties:
   - predicate: bio.summary

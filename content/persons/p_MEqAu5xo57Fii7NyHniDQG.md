@@ -4,6 +4,7 @@ id: p_MEqAu5xo57Fii7NyHniDQG
 status: active
 merged_into: null
 display_name: 王陸恭
+cbdb_id: 281039
 revision: 1
 properties:
   - predicate: bio.summary

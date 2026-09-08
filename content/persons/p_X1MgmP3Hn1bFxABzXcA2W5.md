@@ -4,6 +4,7 @@ id: p_X1MgmP3Hn1bFxABzXcA2W5
 status: active
 merged_into: null
 display_name: 王樹芳
+cbdb_id: 56686
 revision: 1
 properties:
   - predicate: bio.summary

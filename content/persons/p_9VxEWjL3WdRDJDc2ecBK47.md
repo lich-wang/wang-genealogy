@@ -4,6 +4,7 @@ id: p_9VxEWjL3WdRDJDc2ecBK47
 status: active
 merged_into: null
 display_name: 王汶
+cbdb_id: 126525
 revision: 1
 properties:
   - predicate: name.primary

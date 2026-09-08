@@ -4,6 +4,7 @@ id: p_NbxiDmY35quhiFPTv2WMEf
 status: active
 merged_into: null
 display_name: 王賛
+cbdb_id: 415445
 revision: 1
 properties:
   - predicate: bio.summary

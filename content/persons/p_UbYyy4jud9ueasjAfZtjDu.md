@@ -4,6 +4,7 @@ id: p_UbYyy4jud9ueasjAfZtjDu
 status: active
 merged_into: null
 display_name: 王復善
+cbdb_id: 280179
 revision: 1
 properties:
   - predicate: bio.summary

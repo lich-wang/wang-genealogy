@@ -4,6 +4,7 @@ id: p_J2FQREsJ82hioqJaNMDC39
 status: active
 merged_into: null
 display_name: 王代昌
+cbdb_id: 526825
 revision: 1
 properties:
   - predicate: bio.summary

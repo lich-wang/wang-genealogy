@@ -4,6 +4,7 @@ id: p_XoqDY46PW5n8i4aDKMvxHu
 status: active
 merged_into: null
 display_name: 王賡榮
+cbdb_id: 62009
 revision: 1
 properties:
   - predicate: bio.summary

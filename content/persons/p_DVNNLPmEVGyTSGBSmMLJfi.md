@@ -4,6 +4,7 @@ id: p_DVNNLPmEVGyTSGBSmMLJfi
 status: active
 merged_into: null
 display_name: 王邦治
+cbdb_id: 314677
 revision: 1
 properties:
   - predicate: name.primary

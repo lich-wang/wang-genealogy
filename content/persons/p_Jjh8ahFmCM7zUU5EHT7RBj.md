@@ -4,6 +4,7 @@ id: p_Jjh8ahFmCM7zUU5EHT7RBj
 status: active
 merged_into: null
 display_name: 王翊龍
+cbdb_id: 101367
 revision: 1
 properties:
   - predicate: bio.summary

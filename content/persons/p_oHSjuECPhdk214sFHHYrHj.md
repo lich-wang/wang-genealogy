@@ -4,6 +4,7 @@ id: p_oHSjuECPhdk214sFHHYrHj
 status: active
 merged_into: null
 display_name: 王恩培
+cbdb_id: 71954
 revision: 1
 properties:
   - predicate: bio.summary

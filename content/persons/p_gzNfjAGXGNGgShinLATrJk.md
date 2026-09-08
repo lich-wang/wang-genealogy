@@ -4,6 +4,7 @@ id: p_gzNfjAGXGNGgShinLATrJk
 status: active
 merged_into: null
 display_name: 王稷
+cbdb_id: 189639
 revision: 2
 properties:
   - predicate: bio.summary

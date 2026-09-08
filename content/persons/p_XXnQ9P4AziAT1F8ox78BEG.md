@@ -4,6 +4,7 @@ id: p_XXnQ9P4AziAT1F8ox78BEG
 status: active
 merged_into: null
 display_name: 王燿文
+cbdb_id: 343936
 revision: 1
 properties:
   - predicate: bio.summary

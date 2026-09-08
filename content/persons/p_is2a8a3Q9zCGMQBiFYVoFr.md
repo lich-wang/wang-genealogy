@@ -4,6 +4,7 @@ id: p_is2a8a3Q9zCGMQBiFYVoFr
 status: active
 merged_into: null
 display_name: 王鳳翼
+cbdb_id: 343598
 revision: 1
 properties:
   - predicate: bio.summary

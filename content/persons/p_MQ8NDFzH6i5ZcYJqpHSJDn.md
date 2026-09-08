@@ -4,6 +4,7 @@ id: p_MQ8NDFzH6i5ZcYJqpHSJDn
 status: active
 merged_into: null
 display_name: 王從志
+cbdb_id: 38171
 revision: 1
 properties:
   - predicate: bio.summary

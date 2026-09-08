@@ -4,6 +4,7 @@ id: p_w3a1GFMuNLGG9tjSSVXjC4
 status: active
 merged_into: null
 display_name: 王安性
+cbdb_id: 239752
 revision: 1
 properties:
   - predicate: bio.summary

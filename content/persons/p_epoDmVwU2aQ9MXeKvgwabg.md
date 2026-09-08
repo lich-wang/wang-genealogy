@@ -4,6 +4,7 @@ id: p_epoDmVwU2aQ9MXeKvgwabg
 status: active
 merged_into: null
 display_name: 王罕
+cbdb_id: 175622
 revision: 1
 properties:
   - predicate: bio.summary

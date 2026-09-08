@@ -4,6 +4,7 @@ id: p_iKCJjftHziQ3maDKQ3kgwc
 status: active
 merged_into: null
 display_name: 王爾玉
+cbdb_id: 341809
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_4B8DQUBcJA4voJmLdEJvLu
 status: active
 merged_into: null
 display_name: 王僧彥
+cbdb_id: 97802
 revision: 1
 properties:
   - predicate: bio.summary

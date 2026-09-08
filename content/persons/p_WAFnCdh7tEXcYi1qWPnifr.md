@@ -4,6 +4,7 @@ id: p_WAFnCdh7tEXcYi1qWPnifr
 status: active
 merged_into: null
 display_name: 王邦哲
+cbdb_id: 415508
 revision: 1
 properties:
   - predicate: bio.summary

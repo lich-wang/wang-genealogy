@@ -4,6 +4,7 @@ id: p_xDYxMoJR5Kb76WHAnfYLhz
 status: active
 merged_into: null
 display_name: 王可拔
+cbdb_id: 414029
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_PdMCjzXyccbhKNBxdExgD9
 status: active
 merged_into: null
 display_name: 王其昱
+cbdb_id: 413970
 revision: 1
 properties:
   - predicate: bio.summary

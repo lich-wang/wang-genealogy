@@ -4,6 +4,7 @@ id: p_AsSkXiZUho6d1rDozao5Ac
 status: active
 merged_into: null
 display_name: 王鑑民
+cbdb_id: 343850
 revision: 1
 properties:
   - predicate: bio.summary

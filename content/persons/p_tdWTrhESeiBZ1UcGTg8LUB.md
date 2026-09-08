@@ -4,6 +4,7 @@ id: p_tdWTrhESeiBZ1UcGTg8LUB
 status: active
 merged_into: null
 display_name: 王瑤楨
+cbdb_id: 517419
 revision: 1
 properties:
   - predicate: bio.summary

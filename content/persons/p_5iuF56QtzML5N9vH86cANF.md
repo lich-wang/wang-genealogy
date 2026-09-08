@@ -4,6 +4,7 @@ id: p_5iuF56QtzML5N9vH86cANF
 status: active
 merged_into: null
 display_name: 王審鈞
+cbdb_id: 17252
 revision: 1
 properties:
   - predicate: bio.summary

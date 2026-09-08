@@ -4,6 +4,7 @@ id: p_rxhNRdF7LRvYtsrGVcpWii
 status: active
 merged_into: null
 display_name: 王昭祚
+cbdb_id: 184953
 revision: 1
 properties:
   - predicate: bio.summary

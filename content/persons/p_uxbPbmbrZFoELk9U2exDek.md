@@ -4,6 +4,7 @@ id: p_uxbPbmbrZFoELk9U2exDek
 status: active
 merged_into: null
 display_name: 王明藻
+cbdb_id: 26508
 revision: 1
 properties:
   - predicate: bio.summary

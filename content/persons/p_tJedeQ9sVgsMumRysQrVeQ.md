@@ -4,6 +4,7 @@ id: p_tJedeQ9sVgsMumRysQrVeQ
 status: active
 merged_into: null
 display_name: 王喬岷
+cbdb_id: 336218
 revision: 1
 properties:
   - predicate: bio.summary

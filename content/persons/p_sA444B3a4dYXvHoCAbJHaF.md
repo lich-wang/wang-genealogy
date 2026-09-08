@@ -4,6 +4,7 @@ id: p_sA444B3a4dYXvHoCAbJHaF
 status: active
 merged_into: null
 display_name: 王紹大
+cbdb_id: 22251
 revision: 1
 properties:
   - predicate: bio.summary

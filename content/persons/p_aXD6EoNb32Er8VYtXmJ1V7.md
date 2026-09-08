@@ -4,6 +4,7 @@ id: p_aXD6EoNb32Er8VYtXmJ1V7
 status: active
 merged_into: null
 display_name: 王仲魁
+cbdb_id: 413846
 revision: 1
 properties:
   - predicate: bio.summary

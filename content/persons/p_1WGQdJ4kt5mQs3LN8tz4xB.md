@@ -4,6 +4,7 @@ id: p_1WGQdJ4kt5mQs3LN8tz4xB
 status: active
 merged_into: null
 display_name: 王弘亮
+cbdb_id: 241177
 revision: 1
 properties:
   - predicate: bio.summary

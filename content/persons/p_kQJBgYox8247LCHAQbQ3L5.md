@@ -4,6 +4,7 @@ id: p_kQJBgYox8247LCHAQbQ3L5
 status: active
 merged_into: null
 display_name: 王夢曉
+cbdb_id: 297279
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_dAWRHd1mehEkYbnPC2Qy27
 status: active
 merged_into: null
 display_name: 王三捷
+cbdb_id: 413687
 revision: 1
 properties:
   - predicate: bio.summary

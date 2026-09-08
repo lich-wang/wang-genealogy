@@ -4,6 +4,7 @@ id: p_As8k5QheQW6FejkdJnuiDq
 status: active
 merged_into: null
 display_name: 王道原
+cbdb_id: 244146
 revision: 1
 properties:
   - predicate: bio.summary

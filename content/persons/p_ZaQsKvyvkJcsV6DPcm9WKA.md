@@ -4,6 +4,7 @@ id: p_ZaQsKvyvkJcsV6DPcm9WKA
 status: active
 merged_into: null
 display_name: 王志光
+cbdb_id: 414571
 revision: 1
 properties:
   - predicate: bio.summary

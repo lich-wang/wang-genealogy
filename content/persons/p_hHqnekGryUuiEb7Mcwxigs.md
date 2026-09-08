@@ -4,6 +4,7 @@ id: p_hHqnekGryUuiEb7Mcwxigs
 status: active
 merged_into: null
 display_name: 王鼎祚
+cbdb_id: 415660
 revision: 1
 properties:
   - predicate: bio.summary

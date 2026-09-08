@@ -4,6 +4,7 @@ id: p_MRkB3dav2Rf8fvLHBfqK33
 status: active
 merged_into: null
 display_name: 王道齊
+cbdb_id: 321160
 revision: 1
 properties:
   - predicate: bio.summary

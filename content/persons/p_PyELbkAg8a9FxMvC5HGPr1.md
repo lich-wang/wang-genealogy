@@ -4,6 +4,7 @@ id: p_PyELbkAg8a9FxMvC5HGPr1
 status: active
 merged_into: null
 display_name: 王豫
+cbdb_id: 3996
 revision: 1
 properties:
   - predicate: bio.summary

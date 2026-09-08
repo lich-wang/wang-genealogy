@@ -4,6 +4,7 @@ id: p_VQ4PHNiJ6P24wq26NLn8QH
 status: active
 merged_into: null
 display_name: 王秀毓
+cbdb_id: 342099
 revision: 1
 properties:
   - predicate: bio.summary

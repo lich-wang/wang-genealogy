@@ -4,6 +4,7 @@ id: p_3oVJs4KRnWYRZ1aPTpCge4
 status: active
 merged_into: null
 display_name: 王餘昌
+cbdb_id: 415613
 revision: 1
 properties:
   - predicate: bio.summary

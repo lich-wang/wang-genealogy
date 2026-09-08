@@ -4,6 +4,7 @@ id: p_UAxSV4Z3KbsriW6tECv28a
 status: active
 merged_into: null
 display_name: 王承重
+cbdb_id: 517401
 revision: 1
 properties:
   - predicate: bio.summary

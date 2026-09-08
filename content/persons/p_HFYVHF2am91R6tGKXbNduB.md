@@ -4,6 +4,7 @@ id: p_HFYVHF2am91R6tGKXbNduB
 status: active
 merged_into: null
 display_name: 王國璋
+cbdb_id: 414126
 revision: 1
 properties:
   - predicate: bio.summary

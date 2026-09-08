@@ -4,6 +4,7 @@ id: p_C118ci2mxBfq6hXn42LYgU
 status: active
 merged_into: null
 display_name: 王士寶
+cbdb_id: 228289
 revision: 1
 properties:
   - predicate: bio.summary

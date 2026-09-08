@@ -4,6 +4,7 @@ id: p_ofnbfARJ5n1kfSHJQi6A43
 status: active
 merged_into: null
 display_name: 王文卿
+cbdb_id: 228973
 revision: 1
 properties:
   - predicate: bio.summary

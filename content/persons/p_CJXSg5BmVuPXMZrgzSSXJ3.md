@@ -4,6 +4,7 @@ id: p_CJXSg5BmVuPXMZrgzSSXJ3
 status: active
 merged_into: null
 display_name: 王華賁
+cbdb_id: 415354
 revision: 1
 properties:
   - predicate: bio.summary

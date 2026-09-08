@@ -4,6 +4,7 @@ id: p_sNojZfZRYGF9EBgLP8H2ji
 status: active
 merged_into: null
 display_name: 王文轅
+cbdb_id: 126460
 revision: 1
 properties:
   - predicate: bio.summary

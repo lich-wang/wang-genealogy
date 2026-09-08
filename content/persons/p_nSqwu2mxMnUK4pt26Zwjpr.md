@@ -4,6 +4,7 @@ id: p_nSqwu2mxMnUK4pt26Zwjpr
 status: active
 merged_into: null
 display_name: 王秉恂
+cbdb_id: 441133
 revision: 1
 properties:
   - predicate: bio.summary

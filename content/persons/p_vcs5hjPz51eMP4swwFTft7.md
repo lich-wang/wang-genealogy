@@ -4,6 +4,7 @@ id: p_vcs5hjPz51eMP4swwFTft7
 status: active
 merged_into: null
 display_name: 王體蒙
+cbdb_id: 495817
 revision: 1
 properties:
   - predicate: bio.summary

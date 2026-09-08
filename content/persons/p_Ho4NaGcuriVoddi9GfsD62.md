@@ -4,6 +4,7 @@ id: p_Ho4NaGcuriVoddi9GfsD62
 status: active
 merged_into: null
 display_name: 王堯時
+cbdb_id: 301851
 revision: 1
 properties:
   - predicate: bio.summary

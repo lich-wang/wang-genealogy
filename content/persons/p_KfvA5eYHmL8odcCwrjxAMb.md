@@ -4,6 +4,7 @@ id: p_KfvA5eYHmL8odcCwrjxAMb
 status: active
 merged_into: null
 display_name: 王聲
+cbdb_id: 98001
 revision: 1
 properties:
   - predicate: bio.summary

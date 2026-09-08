@@ -4,6 +4,7 @@ id: p_L9JYMha9zsfQAatWtuXRvH
 status: active
 merged_into: null
 display_name: 王偉任
+cbdb_id: 342328
 revision: 1
 properties:
   - predicate: bio.summary

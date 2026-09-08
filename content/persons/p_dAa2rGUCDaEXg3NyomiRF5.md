@@ -4,6 +4,7 @@ id: p_dAa2rGUCDaEXg3NyomiRF5
 status: active
 merged_into: null
 display_name: 王榕吉
+cbdb_id: 61580
 revision: 1
 properties:
   - predicate: bio.summary

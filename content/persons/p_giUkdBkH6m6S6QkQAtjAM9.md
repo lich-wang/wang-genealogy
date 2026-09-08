@@ -4,6 +4,7 @@ id: p_giUkdBkH6m6S6QkQAtjAM9
 status: active
 merged_into: null
 display_name: 王汝甫
+cbdb_id: 290266
 revision: 1
 properties:
   - predicate: bio.summary

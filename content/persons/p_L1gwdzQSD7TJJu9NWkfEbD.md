@@ -4,6 +4,7 @@ id: p_L1gwdzQSD7TJJu9NWkfEbD
 status: active
 merged_into: null
 display_name: 王培荀
+cbdb_id: 71990
 revision: 1
 properties:
   - predicate: bio.summary

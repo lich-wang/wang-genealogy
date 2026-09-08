@@ -4,6 +4,7 @@ id: p_t75hdTMA23yVarv8PStYGC
 status: active
 merged_into: null
 display_name: 王懷徳
+cbdb_id: 414664
 revision: 1
 properties:
   - predicate: bio.summary

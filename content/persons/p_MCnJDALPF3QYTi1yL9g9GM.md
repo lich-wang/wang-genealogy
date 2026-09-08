@@ -4,6 +4,7 @@ id: p_MCnJDALPF3QYTi1yL9g9GM
 status: active
 merged_into: null
 display_name: 王韶均
+cbdb_id: 120468
 revision: 1
 properties:
   - predicate: bio.summary

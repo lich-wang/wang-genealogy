@@ -4,6 +4,7 @@ id: p_V79sffhr8EsGA7KMPhMvfm
 status: active
 merged_into: null
 display_name: 王景聖
+cbdb_id: 524331
 revision: 1
 properties:
   - predicate: bio.summary

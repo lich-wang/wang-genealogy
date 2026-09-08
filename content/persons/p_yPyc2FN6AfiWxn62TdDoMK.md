@@ -4,6 +4,7 @@ id: p_yPyc2FN6AfiWxn62TdDoMK
 status: active
 merged_into: null
 display_name: 王楚士
+cbdb_id: 343202
 revision: 1
 properties:
   - predicate: bio.summary

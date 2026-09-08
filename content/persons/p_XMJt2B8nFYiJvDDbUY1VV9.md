@@ -4,6 +4,7 @@ id: p_XMJt2B8nFYiJvDDbUY1VV9
 status: active
 merged_into: null
 display_name: 王文田
+cbdb_id: 414746
 revision: 1
 properties:
   - predicate: bio.summary

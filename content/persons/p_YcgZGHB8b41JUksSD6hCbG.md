@@ -4,6 +4,7 @@ id: p_YcgZGHB8b41JUksSD6hCbG
 status: active
 merged_into: null
 display_name: 王宗蓁
+cbdb_id: 207031
 revision: 2
 properties:
   - predicate: bio.summary

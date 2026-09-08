@@ -4,6 +4,7 @@ id: p_wfaxHP5LJwbenZEB2jvmAJ
 status: active
 merged_into: null
 display_name: 王蓮光
+cbdb_id: 100067
 revision: 1
 properties:
   - predicate: bio.summary

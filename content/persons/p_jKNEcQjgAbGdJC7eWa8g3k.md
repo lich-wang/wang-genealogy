@@ -4,6 +4,7 @@ id: p_jKNEcQjgAbGdJC7eWa8g3k
 status: active
 merged_into: null
 display_name: 王景修
+cbdb_id: 97921
 revision: 1
 properties:
   - predicate: bio.summary

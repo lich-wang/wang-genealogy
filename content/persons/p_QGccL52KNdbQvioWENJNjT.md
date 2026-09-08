@@ -4,6 +4,7 @@ id: p_QGccL52KNdbQvioWENJNjT
 status: active
 merged_into: null
 display_name: 王用極
+cbdb_id: 415132
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_NdUFpMGjsr7pE4Tge1pNcJ
 status: active
 merged_into: null
 display_name: 孺子婴
+cbdb_id: 339518
 revision: 1
 properties:
   - predicate: bio.summary

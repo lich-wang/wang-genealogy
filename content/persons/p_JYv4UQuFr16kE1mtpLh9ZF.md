@@ -4,6 +4,7 @@ id: p_JYv4UQuFr16kE1mtpLh9ZF
 status: active
 merged_into: null
 display_name: 王壽楠
+cbdb_id: 71648
 revision: 1
 properties:
   - predicate: bio.summary

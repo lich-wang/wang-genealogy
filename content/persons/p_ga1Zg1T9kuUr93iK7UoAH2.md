@@ -4,6 +4,7 @@ id: p_ga1Zg1T9kuUr93iK7UoAH2
 status: active
 merged_into: null
 display_name: 王揀
+cbdb_id: 290254
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_LvQmYiR7fLdEfgq1mYvdjw
 status: active
 merged_into: null
 display_name: 王志鐈
+cbdb_id: 100130
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_1FPL6B9YXC7sS2jNKcgnsf
 status: active
 merged_into: null
 display_name: 王宴實
+cbdb_id: 378225
 revision: 1
 properties:
   - predicate: bio.summary

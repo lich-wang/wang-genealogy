@@ -4,6 +4,7 @@ id: p_LAnsE9fCAtWqzyvZL4oQ4G
 status: active
 merged_into: null
 display_name: 王國林
+cbdb_id: 69362
 revision: 1
 properties:
   - predicate: bio.summary

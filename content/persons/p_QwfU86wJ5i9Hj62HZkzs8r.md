@@ -4,6 +4,7 @@ id: p_QwfU86wJ5i9Hj62HZkzs8r
 status: active
 merged_into: null
 display_name: 王重實
+cbdb_id: 161535
 revision: 1
 properties:
   - predicate: bio.summary

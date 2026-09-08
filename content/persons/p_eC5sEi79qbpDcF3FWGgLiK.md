@@ -4,6 +4,7 @@ id: p_eC5sEi79qbpDcF3FWGgLiK
 status: active
 merged_into: null
 display_name: 王祚正
+cbdb_id: 415188
 revision: 1
 properties:
   - predicate: bio.summary

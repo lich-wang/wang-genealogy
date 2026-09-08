@@ -4,6 +4,7 @@ id: p_XDKuoLjv69sC24hwZJ51XM
 status: active
 merged_into: null
 display_name: 王天祿
+cbdb_id: 341826
 revision: 1
 properties:
   - predicate: bio.summary

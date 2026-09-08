@@ -4,6 +4,7 @@ id: p_BDGbLxvCTFWSUvdwVPuxPV
 status: active
 merged_into: null
 display_name: 王見賓
+cbdb_id: 206099
 revision: 1
 properties:
   - predicate: bio.summary

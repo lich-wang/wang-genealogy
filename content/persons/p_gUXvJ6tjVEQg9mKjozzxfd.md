@@ -4,6 +4,7 @@ id: p_gUXvJ6tjVEQg9mKjozzxfd
 status: active
 merged_into: null
 display_name: 王子鳳
+cbdb_id: 414246
 revision: 1
 properties:
   - predicate: bio.summary

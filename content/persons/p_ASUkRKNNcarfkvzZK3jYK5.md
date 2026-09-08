@@ -4,6 +4,7 @@ id: p_ASUkRKNNcarfkvzZK3jYK5
 status: active
 merged_into: null
 display_name: 王翔龍
+cbdb_id: 38189
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_QNMyKUK3eYH8aGiNH6oqfx
 status: active
 merged_into: null
 display_name: 王日盈
+cbdb_id: 186527
 revision: 1
 properties:
   - predicate: bio.summary

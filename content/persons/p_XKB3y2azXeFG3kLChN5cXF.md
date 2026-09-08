@@ -4,6 +4,7 @@ id: p_XKB3y2azXeFG3kLChN5cXF
 status: active
 merged_into: null
 display_name: 王明炳
+cbdb_id: 414784
 revision: 1
 properties:
   - predicate: bio.summary

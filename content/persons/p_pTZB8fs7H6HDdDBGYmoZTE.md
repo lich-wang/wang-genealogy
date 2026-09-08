@@ -4,6 +4,7 @@ id: p_pTZB8fs7H6HDdDBGYmoZTE
 status: active
 merged_into: null
 display_name: 王有恬
+cbdb_id: 199727
 revision: 1
 properties:
   - predicate: bio.summary

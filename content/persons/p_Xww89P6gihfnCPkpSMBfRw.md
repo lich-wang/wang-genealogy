@@ -4,6 +4,7 @@ id: p_Xww89P6gihfnCPkpSMBfRw
 status: active
 merged_into: null
 display_name: 王鵬展
+cbdb_id: 415648
 revision: 1
 properties:
   - predicate: bio.summary

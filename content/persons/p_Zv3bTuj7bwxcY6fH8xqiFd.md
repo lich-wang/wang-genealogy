@@ -4,6 +4,7 @@ id: p_Zv3bTuj7bwxcY6fH8xqiFd
 status: active
 merged_into: null
 display_name: 王鼎文
+cbdb_id: 30124
 revision: 1
 properties:
   - predicate: bio.summary

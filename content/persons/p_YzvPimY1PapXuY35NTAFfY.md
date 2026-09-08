@@ -4,6 +4,7 @@ id: p_YzvPimY1PapXuY35NTAFfY
 status: active
 merged_into: null
 display_name: 王緝修
+cbdb_id: 526802
 revision: 1
 properties:
   - predicate: bio.summary

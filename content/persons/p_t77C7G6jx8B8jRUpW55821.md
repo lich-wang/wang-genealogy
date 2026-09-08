@@ -4,6 +4,7 @@ id: p_t77C7G6jx8B8jRUpW55821
 status: active
 merged_into: null
 display_name: 王餘英
+cbdb_id: 343868
 revision: 1
 properties:
   - predicate: bio.summary

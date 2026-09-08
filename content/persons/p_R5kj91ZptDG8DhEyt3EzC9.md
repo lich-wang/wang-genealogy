@@ -4,6 +4,7 @@ id: p_R5kj91ZptDG8DhEyt3EzC9
 status: active
 merged_into: null
 display_name: 王承文
+cbdb_id: 69243
 revision: 1
 properties:
   - predicate: bio.summary

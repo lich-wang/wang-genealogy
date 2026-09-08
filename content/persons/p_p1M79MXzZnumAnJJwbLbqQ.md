@@ -4,6 +4,7 @@ id: p_p1M79MXzZnumAnJJwbLbqQ
 status: active
 merged_into: null
 display_name: 王崇教
+cbdb_id: 302982
 revision: 1
 properties:
   - predicate: bio.summary

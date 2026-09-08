@@ -4,6 +4,7 @@ id: p_AVLA76Rv1mNf9n6M1MA9sU
 status: active
 merged_into: null
 display_name: 王和風
+cbdb_id: 414059
 revision: 1
 properties:
   - predicate: bio.summary

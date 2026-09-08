@@ -4,6 +4,7 @@ id: p_aWzq6giG9K79ULMu1rQyT1
 status: active
 merged_into: null
 display_name: 王昌運
+cbdb_id: 97915
 revision: 1
 properties:
   - predicate: bio.summary

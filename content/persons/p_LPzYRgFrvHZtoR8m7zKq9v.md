@@ -4,6 +4,7 @@ id: p_LPzYRgFrvHZtoR8m7zKq9v
 status: active
 merged_into: null
 display_name: 王時槐
+cbdb_id: 126653
 revision: 1
 properties:
   - predicate: bio.summary

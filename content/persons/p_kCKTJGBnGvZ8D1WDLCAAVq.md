@@ -4,6 +4,7 @@ id: p_kCKTJGBnGvZ8D1WDLCAAVq
 status: active
 merged_into: null
 display_name: 王禹夫
+cbdb_id: 264591
 revision: 1
 properties:
   - predicate: bio.summary

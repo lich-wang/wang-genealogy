@@ -4,6 +4,7 @@ id: p_ESQ6NQysczdvHa1R9Br1cr
 status: active
 merged_into: null
 display_name: 王崇慶
+cbdb_id: 35038
 revision: 1
 properties:
   - predicate: bio.summary

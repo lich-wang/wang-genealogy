@@ -4,6 +4,7 @@ id: p_KMDmm7VcULsohRE8yPb75U
 status: active
 merged_into: null
 display_name: 王宗美
+cbdb_id: 247518
 revision: 1
 properties:
   - predicate: bio.summary

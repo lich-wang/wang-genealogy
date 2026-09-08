@@ -4,6 +4,7 @@ id: p_BMBKfTzNtNebLzaKpjiPZS
 status: active
 merged_into: null
 display_name: 王師吉
+cbdb_id: 414417
 revision: 1
 properties:
   - predicate: bio.summary

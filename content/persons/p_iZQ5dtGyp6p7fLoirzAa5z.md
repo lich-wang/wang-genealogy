@@ -4,6 +4,7 @@ id: p_iZQ5dtGyp6p7fLoirzAa5z
 status: active
 merged_into: null
 display_name: 王天桂
+cbdb_id: 414209
 revision: 1
 properties:
   - predicate: bio.summary

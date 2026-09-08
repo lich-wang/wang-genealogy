@@ -4,6 +4,7 @@ id: p_eJHQepJSnYvEz23snV8HKv
 status: active
 merged_into: null
 display_name: 王道祖
+cbdb_id: 98041
 revision: 1
 properties:
   - predicate: bio.summary

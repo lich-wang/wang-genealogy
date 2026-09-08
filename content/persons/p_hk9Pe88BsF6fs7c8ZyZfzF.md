@@ -4,6 +4,7 @@ id: p_hk9Pe88BsF6fs7c8ZyZfzF
 status: active
 merged_into: null
 display_name: 王喬華
+cbdb_id: 336214
 revision: 1
 properties:
   - predicate: bio.summary

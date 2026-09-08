@@ -4,6 +4,7 @@ id: p_TQ4r5nNAyCADDJxY1DbJ5w
 status: active
 merged_into: null
 display_name: 王嘉節
+cbdb_id: 304779
 revision: 1
 properties:
   - predicate: bio.summary

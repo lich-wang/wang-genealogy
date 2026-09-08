@@ -4,6 +4,7 @@ id: p_K4EXtLbiRN1uwQwGco7JrU
 status: active
 merged_into: null
 display_name: 王一新
+cbdb_id: 256437
 revision: 1
 properties:
   - predicate: bio.summary

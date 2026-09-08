@@ -4,6 +4,7 @@ id: p_KJJrwKD4rAD5pxVK5Q5kna
 status: active
 merged_into: null
 display_name: 王懋孝
+cbdb_id: 337976
 revision: 1
 properties:
   - predicate: bio.summary

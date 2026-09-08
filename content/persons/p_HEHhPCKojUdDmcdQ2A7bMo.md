@@ -4,6 +4,7 @@ id: p_HEHhPCKojUdDmcdQ2A7bMo
 status: active
 merged_into: null
 display_name: 王從樸
+cbdb_id: 414536
 revision: 1
 properties:
   - predicate: bio.summary

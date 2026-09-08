@@ -4,6 +4,7 @@ id: p_FF7t6SVfUtrJCpJJFbkD6S
 status: active
 merged_into: null
 display_name: 王曰曾
+cbdb_id: 343418
 revision: 1
 properties:
   - predicate: bio.summary

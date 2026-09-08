@@ -4,6 +4,7 @@ id: p_MAHPg2bdGPctkAH23VCyCj
 status: active
 merged_into: null
 display_name: 王孺卿
+cbdb_id: 175584
 revision: 1
 properties:
   - predicate: bio.summary

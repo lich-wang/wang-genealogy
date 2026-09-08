@@ -4,6 +4,7 @@ id: p_AmDYBabkHaUGjW7FY3EkF4
 status: active
 merged_into: null
 display_name: 王朋約
+cbdb_id: 17798
 revision: 1
 properties:
   - predicate: bio.summary

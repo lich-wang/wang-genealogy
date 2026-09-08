@@ -4,6 +4,7 @@ id: p_xgQoPQTLieHrbiQJtTGE2i
 status: active
 merged_into: null
 display_name: 王耆之
+cbdb_id: 25807
 revision: 1
 properties:
   - predicate: bio.summary

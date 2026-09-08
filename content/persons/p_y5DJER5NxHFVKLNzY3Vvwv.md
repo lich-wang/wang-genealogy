@@ -4,6 +4,7 @@ id: p_y5DJER5NxHFVKLNzY3Vvwv
 status: active
 merged_into: null
 display_name: 王憲覽
+cbdb_id: 235983
 revision: 1
 properties:
   - predicate: bio.summary

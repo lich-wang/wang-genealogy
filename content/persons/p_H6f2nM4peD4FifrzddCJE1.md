@@ -4,6 +4,7 @@ id: p_H6f2nM4peD4FifrzddCJE1
 status: active
 merged_into: null
 display_name: 王袂
+cbdb_id: 415392
 revision: 1
 properties:
   - predicate: bio.summary

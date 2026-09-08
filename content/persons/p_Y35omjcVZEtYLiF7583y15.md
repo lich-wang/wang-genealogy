@@ -4,6 +4,7 @@ id: p_Y35omjcVZEtYLiF7583y15
 status: active
 merged_into: null
 display_name: 王聚才
+cbdb_id: 255801
 revision: 1
 properties:
   - predicate: bio.summary

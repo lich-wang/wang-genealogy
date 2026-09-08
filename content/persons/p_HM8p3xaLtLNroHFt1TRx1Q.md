@@ -4,6 +4,7 @@ id: p_HM8p3xaLtLNroHFt1TRx1Q
 status: active
 merged_into: null
 display_name: 王嗣蕃
+cbdb_id: 219545
 revision: 1
 properties:
   - predicate: bio.summary

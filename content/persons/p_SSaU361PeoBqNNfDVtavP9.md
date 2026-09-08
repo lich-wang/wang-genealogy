@@ -4,6 +4,7 @@ id: p_SSaU361PeoBqNNfDVtavP9
 status: active
 merged_into: null
 display_name: 王大醇
+cbdb_id: 19892
 revision: 1
 properties:
   - predicate: bio.summary

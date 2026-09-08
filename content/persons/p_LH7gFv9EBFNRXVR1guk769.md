@@ -4,6 +4,7 @@ id: p_LH7gFv9EBFNRXVR1guk769
 status: active
 merged_into: null
 display_name: 王念臣
+cbdb_id: 67121
 revision: 1
 properties:
   - predicate: bio.summary

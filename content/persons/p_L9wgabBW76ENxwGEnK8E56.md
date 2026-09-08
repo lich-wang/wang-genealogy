@@ -4,6 +4,7 @@ id: p_L9wgabBW76ENxwGEnK8E56
 status: active
 merged_into: null
 display_name: 王晏恭
+cbdb_id: 184944
 revision: 2
 properties:
   - predicate: bio.summary

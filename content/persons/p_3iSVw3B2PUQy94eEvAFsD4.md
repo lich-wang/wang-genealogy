@@ -4,6 +4,7 @@ id: p_3iSVw3B2PUQy94eEvAFsD4
 status: active
 merged_into: null
 display_name: 王慶瀾
+cbdb_id: 71607
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_FNNCRx5S1DzToXVRLM8dcL
 status: active
 merged_into: null
 display_name: 王世晉
+cbdb_id: 518267
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_8ZNRfFsK3rEkNpQdDz6act
 status: active
 merged_into: null
 display_name: 王庭秀
+cbdb_id: 19082
 revision: 1
 properties:
   - predicate: bio.summary

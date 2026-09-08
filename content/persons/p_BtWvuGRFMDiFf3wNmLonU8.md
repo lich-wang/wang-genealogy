@@ -4,6 +4,7 @@ id: p_BtWvuGRFMDiFf3wNmLonU8
 status: active
 merged_into: null
 display_name: 王仕通
+cbdb_id: 266618
 revision: 1
 properties:
   - predicate: bio.summary

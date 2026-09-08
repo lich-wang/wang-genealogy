@@ -4,6 +4,7 @@ id: p_6ejbA13NwK2QQUt5VT8wE3
 status: active
 merged_into: null
 display_name: 王漸適
+cbdb_id: 279747
 revision: 1
 properties:
   - predicate: bio.summary

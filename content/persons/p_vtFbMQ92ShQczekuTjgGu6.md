@@ -4,6 +4,7 @@ id: p_vtFbMQ92ShQczekuTjgGu6
 status: active
 merged_into: null
 display_name: 王宗琳
+cbdb_id: 30556
 revision: 1
 properties:
   - predicate: bio.summary

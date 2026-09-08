@@ -4,6 +4,7 @@ id: p_BoX93yAFcHHJq8cB6doaET
 status: active
 merged_into: null
 display_name: 王宗士
+cbdb_id: 414300
 revision: 1
 properties:
   - predicate: bio.summary

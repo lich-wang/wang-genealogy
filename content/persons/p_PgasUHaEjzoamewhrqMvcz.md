@@ -4,6 +4,7 @@ id: p_PgasUHaEjzoamewhrqMvcz
 status: active
 merged_into: null
 display_name: 王象萃
+cbdb_id: 220275
 revision: 1
 properties:
   - predicate: bio.summary

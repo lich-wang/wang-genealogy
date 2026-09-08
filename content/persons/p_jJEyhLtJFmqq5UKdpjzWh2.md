@@ -4,6 +4,7 @@ id: p_jJEyhLtJFmqq5UKdpjzWh2
 status: active
 merged_into: null
 display_name: 王同度
+cbdb_id: 228275
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_8Lp9og3oMZL31oHP1Pf7cg
 status: active
 merged_into: null
 display_name: 王祥玉
+cbdb_id: 415191
 revision: 1
 properties:
   - predicate: bio.summary

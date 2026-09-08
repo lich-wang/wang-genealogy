@@ -4,6 +4,7 @@ id: p_qU5ePg25AxmDuXd2vF94MX
 status: active
 merged_into: null
 display_name: 王元慎
+cbdb_id: 163179
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_ty9PKEiXJ1CHxxCE6Rgx3y
 status: active
 merged_into: null
 display_name: 王文琬
+cbdb_id: 250474
 revision: 1
 properties:
   - predicate: bio.summary

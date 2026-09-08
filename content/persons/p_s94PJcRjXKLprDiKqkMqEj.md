@@ -4,6 +4,7 @@ id: p_s94PJcRjXKLprDiKqkMqEj
 status: active
 merged_into: null
 display_name: 王祥芝
+cbdb_id: 151451
 revision: 1
 properties:
   - predicate: bio.summary

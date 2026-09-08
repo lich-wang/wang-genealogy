@@ -4,6 +4,7 @@ id: p_5xo7ApCVN26Df7EiEwG8MU
 status: active
 merged_into: null
 display_name: 王仲學
+cbdb_id: 413835
 revision: 1
 properties:
   - predicate: bio.summary

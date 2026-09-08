@@ -4,6 +4,7 @@ id: p_G9HMuu9ByYGpmBFtL4EEzh
 status: active
 merged_into: null
 display_name: 王欽質
+cbdb_id: 165229
 revision: 1
 properties:
   - predicate: bio.summary

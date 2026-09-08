@@ -4,6 +4,7 @@ id: p_kr9VdqKtFAJT7rCj4iNxGQ
 status: active
 merged_into: null
 display_name: 王彦
+cbdb_id: 30881
 revision: 1
 properties:
   - predicate: bio.summary

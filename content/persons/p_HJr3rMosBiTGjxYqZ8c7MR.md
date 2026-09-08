@@ -4,6 +4,7 @@ id: p_HJr3rMosBiTGjxYqZ8c7MR
 status: active
 merged_into: null
 display_name: 王培心
+cbdb_id: 342957
 revision: 1
 properties:
   - predicate: bio.summary

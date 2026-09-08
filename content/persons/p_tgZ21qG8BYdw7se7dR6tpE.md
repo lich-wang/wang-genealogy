@@ -4,6 +4,7 @@ id: p_tgZ21qG8BYdw7se7dR6tpE
 status: active
 merged_into: null
 display_name: 王元鑣
+cbdb_id: 341802
 revision: 1
 properties:
   - predicate: bio.summary

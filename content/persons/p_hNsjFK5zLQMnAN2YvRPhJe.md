@@ -4,6 +4,7 @@ id: p_hNsjFK5zLQMnAN2YvRPhJe
 status: active
 merged_into: null
 display_name: 王忠君
+cbdb_id: 175574
 revision: 1
 properties:
   - predicate: bio.summary

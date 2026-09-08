@@ -4,6 +4,7 @@ id: p_2ny1XXXNsSkddB4ZjdQppr
 status: active
 merged_into: null
 display_name: 王日清
+cbdb_id: 414766
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_F8s811cfS6Z3EP4JDveX8d
 status: active
 merged_into: null
 display_name: 王應鳯
+cbdb_id: 414658
 revision: 1
 properties:
   - predicate: bio.summary

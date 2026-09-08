@@ -4,6 +4,7 @@ id: p_LBAPFPG2qf4L9s4ZShrtAX
 status: active
 merged_into: null
 display_name: 王公器
+cbdb_id: 30643
 revision: 1
 properties:
   - predicate: bio.summary

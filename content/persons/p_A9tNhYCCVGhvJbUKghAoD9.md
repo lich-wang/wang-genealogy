@@ -4,6 +4,7 @@ id: p_A9tNhYCCVGhvJbUKghAoD9
 status: active
 merged_into: null
 display_name: 元恪
+cbdb_id: 31009
 revision: 1
 properties:
   - predicate: bio.summary

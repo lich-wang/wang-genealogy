@@ -4,6 +4,7 @@ id: p_ChbP7pAfMSR526737C7aP8
 status: active
 merged_into: null
 display_name: 王瀣
+cbdb_id: 71301
 revision: 1
 properties:
   - predicate: bio.summary

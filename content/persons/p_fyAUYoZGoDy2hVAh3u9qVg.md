@@ -4,6 +4,7 @@ id: p_fyAUYoZGoDy2hVAh3u9qVg
 status: active
 merged_into: null
 display_name: 王龍詔
+cbdb_id: 68617
 revision: 1
 properties:
   - predicate: bio.summary

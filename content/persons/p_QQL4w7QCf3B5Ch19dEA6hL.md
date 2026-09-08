@@ -4,6 +4,7 @@ id: p_QQL4w7QCf3B5Ch19dEA6hL
 status: active
 merged_into: null
 display_name: 王世溥
+cbdb_id: 71473
 revision: 1
 properties:
   - predicate: bio.summary

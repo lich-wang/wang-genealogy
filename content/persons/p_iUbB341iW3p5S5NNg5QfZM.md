@@ -4,6 +4,7 @@ id: p_iUbB341iW3p5S5NNg5QfZM
 status: active
 merged_into: null
 display_name: 王世印
+cbdb_id: 413708
 revision: 1
 properties:
   - predicate: bio.summary

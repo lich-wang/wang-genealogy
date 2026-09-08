@@ -4,6 +4,7 @@ id: p_Zsbn8rMgTuz2vPQFqVdNhQ
 status: active
 merged_into: null
 display_name: 王去微
+cbdb_id: 445595
 revision: 1
 properties:
   - predicate: bio.summary

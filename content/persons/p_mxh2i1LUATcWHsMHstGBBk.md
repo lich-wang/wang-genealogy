@@ -4,6 +4,7 @@ id: p_mxh2i1LUATcWHsMHstGBBk
 status: active
 merged_into: null
 display_name: 王文淑
+cbdb_id: 5011
 revision: 1
 properties:
   - predicate: bio.summary

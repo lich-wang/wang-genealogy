@@ -4,6 +4,7 @@ id: p_coLm749G7UJBN7FcsP6oZP
 status: active
 merged_into: null
 display_name: 王櫓
+cbdb_id: 250841
 revision: 1
 properties:
   - predicate: bio.summary

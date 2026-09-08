@@ -4,6 +4,7 @@ id: p_dFBcsKbnFVcHN4YTvXeRwY
 status: active
 merged_into: null
 display_name: 王麟
+cbdb_id: 220261
 revision: 2
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_1tBb7Q5Sg6DyfCpxGou5Zc
 status: active
 merged_into: null
 display_name: 王孝和
+cbdb_id: 36422
 revision: 1
 properties:
   - predicate: bio.summary

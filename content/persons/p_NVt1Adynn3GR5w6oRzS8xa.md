@@ -4,6 +4,7 @@ id: p_NVt1Adynn3GR5w6oRzS8xa
 status: active
 merged_into: null
 display_name: 王淑同
+cbdb_id: 238220
 revision: 1
 properties:
   - predicate: bio.summary

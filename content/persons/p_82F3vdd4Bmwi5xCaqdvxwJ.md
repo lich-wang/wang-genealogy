@@ -4,6 +4,7 @@ id: p_82F3vdd4Bmwi5xCaqdvxwJ
 status: active
 merged_into: null
 display_name: 王長生
+cbdb_id: 120543
 revision: 1
 properties:
   - predicate: bio.summary

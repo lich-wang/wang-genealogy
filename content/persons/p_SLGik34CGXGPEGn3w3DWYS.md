@@ -4,6 +4,7 @@ id: p_SLGik34CGXGPEGn3w3DWYS
 status: active
 merged_into: null
 display_name: 王惠寂
+cbdb_id: 690328
 revision: 1
 properties:
   - predicate: bio.summary

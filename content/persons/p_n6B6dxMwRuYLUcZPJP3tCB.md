@@ -4,6 +4,7 @@ id: p_n6B6dxMwRuYLUcZPJP3tCB
 status: active
 merged_into: null
 display_name: 王福宗
+cbdb_id: 305348
 revision: 1
 properties:
   - predicate: bio.summary

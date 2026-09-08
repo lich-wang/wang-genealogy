@@ -4,6 +4,7 @@ id: p_TKpg4t1gPPUToSijBgUJjm
 status: active
 merged_into: null
 display_name: 王九棘
+cbdb_id: 413777
 revision: 1
 properties:
   - predicate: bio.summary

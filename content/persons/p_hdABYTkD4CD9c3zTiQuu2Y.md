@@ -4,6 +4,7 @@ id: p_hdABYTkD4CD9c3zTiQuu2Y
 status: active
 merged_into: null
 display_name: 王留福
+cbdb_id: 71982
 revision: 1
 properties:
   - predicate: bio.summary

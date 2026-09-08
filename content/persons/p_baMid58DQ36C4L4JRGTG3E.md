@@ -4,6 +4,7 @@ id: p_baMid58DQ36C4L4JRGTG3E
 status: active
 merged_into: null
 display_name: 王從盈
+cbdb_id: 159088
 revision: 1
 properties:
   - predicate: bio.summary

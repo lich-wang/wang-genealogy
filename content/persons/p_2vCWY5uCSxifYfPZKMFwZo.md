@@ -4,6 +4,7 @@ id: p_2vCWY5uCSxifYfPZKMFwZo
 status: active
 merged_into: null
 display_name: 王利政
+cbdb_id: 523838
 revision: 1
 properties:
   - predicate: bio.summary

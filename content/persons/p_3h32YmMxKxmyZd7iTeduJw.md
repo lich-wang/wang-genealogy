@@ -4,6 +4,7 @@ id: p_3h32YmMxKxmyZd7iTeduJw
 status: active
 merged_into: null
 display_name: 王宣懿
+cbdb_id: 487549
 revision: 1
 properties:
   - predicate: bio.summary

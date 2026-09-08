@@ -4,6 +4,7 @@ id: p_Z7J1jtmQuc7ivFs4EgifBX
 status: active
 merged_into: null
 display_name: 王尚賔
+cbdb_id: 414374
 revision: 1
 properties:
   - predicate: bio.summary

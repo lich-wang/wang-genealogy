@@ -4,6 +4,7 @@ id: p_q15N3aqQs6bpeBhT3ECuc4
 status: active
 merged_into: null
 display_name: 王垂重
+cbdb_id: 69303
 revision: 1
 properties:
   - predicate: bio.summary

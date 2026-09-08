@@ -4,6 +4,7 @@ id: p_WJwArTKWTdCFa1C2yE8vJy
 status: active
 merged_into: null
 display_name: 王巳孫
+cbdb_id: 510919
 revision: 1
 properties:
   - predicate: bio.summary

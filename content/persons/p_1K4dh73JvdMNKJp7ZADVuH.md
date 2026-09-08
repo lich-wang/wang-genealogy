@@ -4,6 +4,7 @@ id: p_1K4dh73JvdMNKJp7ZADVuH
 status: active
 merged_into: null
 display_name: 王婁
+cbdb_id: 261845
 revision: 1
 properties:
   - predicate: bio.summary

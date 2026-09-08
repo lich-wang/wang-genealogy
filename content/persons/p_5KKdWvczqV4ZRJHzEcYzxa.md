@@ -4,6 +4,7 @@ id: p_5KKdWvczqV4ZRJHzEcYzxa
 status: active
 merged_into: null
 display_name: 王仲銓
+cbdb_id: 288165
 revision: 1
 properties:
   - predicate: bio.summary

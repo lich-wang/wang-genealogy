@@ -4,6 +4,7 @@ id: p_cD7MuHp2dHP7R45T1HF7Bu
 status: active
 merged_into: null
 display_name: 王登聨
+cbdb_id: 512864
 revision: 1
 properties:
   - predicate: bio.summary

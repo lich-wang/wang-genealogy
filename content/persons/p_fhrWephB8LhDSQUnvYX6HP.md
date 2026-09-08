@@ -4,6 +4,7 @@ id: p_fhrWephB8LhDSQUnvYX6HP
 status: active
 merged_into: null
 display_name: 王汝貴
+cbdb_id: 414980
 revision: 1
 properties:
   - predicate: bio.summary

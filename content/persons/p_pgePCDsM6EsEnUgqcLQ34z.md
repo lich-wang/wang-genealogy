@@ -4,6 +4,7 @@ id: p_pgePCDsM6EsEnUgqcLQ34z
 status: active
 merged_into: null
 display_name: 王序
+cbdb_id: 186788
 revision: 1
 properties:
   - predicate: bio.summary

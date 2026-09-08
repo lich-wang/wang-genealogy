@@ -4,6 +4,7 @@ id: p_C5nSDCKqB1UfWDCMZQ69Gr
 status: active
 merged_into: null
 display_name: 王如濤
+cbdb_id: 343250
 revision: 1
 properties:
   - predicate: bio.summary

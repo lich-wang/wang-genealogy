@@ -4,6 +4,7 @@ id: p_B2SBD1n2wRHD2tL5BGNCYq
 status: active
 merged_into: null
 display_name: 王賓基
+cbdb_id: 71979
 revision: 1
 properties:
   - predicate: bio.summary

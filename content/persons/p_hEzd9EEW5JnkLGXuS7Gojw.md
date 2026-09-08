@@ -4,6 +4,7 @@ id: p_hEzd9EEW5JnkLGXuS7Gojw
 status: active
 merged_into: null
 display_name: 王永昭
+cbdb_id: 414943
 revision: 1
 properties:
   - predicate: bio.summary

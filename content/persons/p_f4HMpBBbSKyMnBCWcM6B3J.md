@@ -4,6 +4,7 @@ id: p_f4HMpBBbSKyMnBCWcM6B3J
 status: active
 merged_into: null
 display_name: 王昕
+cbdb_id: 175614
 revision: 1
 properties:
   - predicate: bio.summary

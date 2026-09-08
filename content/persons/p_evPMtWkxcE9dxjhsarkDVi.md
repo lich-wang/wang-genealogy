@@ -4,6 +4,7 @@ id: p_evPMtWkxcE9dxjhsarkDVi
 status: active
 merged_into: null
 display_name: 王子訓
+cbdb_id: 267623
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_UPsQA4kVm3FmzjVyy7V2ZS
 status: active
 merged_into: null
 display_name: 王繼圭
+cbdb_id: 415269
 revision: 1
 properties:
   - predicate: bio.summary

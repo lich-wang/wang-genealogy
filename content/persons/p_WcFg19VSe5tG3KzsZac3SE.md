@@ -4,6 +4,7 @@ id: p_WcFg19VSe5tG3KzsZac3SE
 status: active
 merged_into: null
 display_name: 王世定
+cbdb_id: 413709
 revision: 1
 properties:
   - predicate: bio.summary

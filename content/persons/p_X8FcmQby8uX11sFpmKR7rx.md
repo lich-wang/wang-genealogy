@@ -4,6 +4,7 @@ id: p_X8FcmQby8uX11sFpmKR7rx
 status: active
 merged_into: null
 display_name: 王希晉
+cbdb_id: 414409
 revision: 1
 properties:
   - predicate: bio.summary

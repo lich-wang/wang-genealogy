@@ -4,6 +4,7 @@ id: p_hGSCTPoFGGA5ckBUq323gS
 status: active
 merged_into: null
 display_name: 王士温
+cbdb_id: 414169
 revision: 1
 properties:
   - predicate: bio.summary

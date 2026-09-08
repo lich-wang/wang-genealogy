@@ -4,6 +4,7 @@ id: p_GWwiBe1SNRtiBCA7E9p5gN
 status: active
 merged_into: null
 display_name: 王滿川
+cbdb_id: 415040
 revision: 1
 properties:
   - predicate: bio.summary

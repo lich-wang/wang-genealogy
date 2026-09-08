@@ -4,6 +4,7 @@ id: p_TBydJme7YoHhFCuggKw6FV
 status: active
 merged_into: null
 display_name: 王一尹
+cbdb_id: 308782
 revision: 1
 properties:
   - predicate: bio.summary

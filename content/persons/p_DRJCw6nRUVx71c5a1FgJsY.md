@@ -4,6 +4,7 @@ id: p_DRJCw6nRUVx71c5a1FgJsY
 status: active
 merged_into: null
 display_name: 王夢眾
+cbdb_id: 297284
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_78FBZC7wysqkRaewADsWxy
 status: active
 merged_into: null
 display_name: 王梵相
+cbdb_id: 164570
 revision: 1
 properties:
   - predicate: bio.summary

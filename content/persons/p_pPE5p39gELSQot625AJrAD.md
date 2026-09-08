@@ -4,6 +4,7 @@ id: p_pPE5p39gELSQot625AJrAD
 status: active
 merged_into: null
 display_name: 王銘璋
+cbdb_id: 415538
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_24PyNib2E1k3cWE7XUriAS
 status: active
 merged_into: null
 display_name: 王處安
+cbdb_id: 239471
 revision: 1
 properties:
   - predicate: bio.summary

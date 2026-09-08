@@ -4,6 +4,7 @@ id: p_oraFXMKU3D3TKzDzh7RsmG
 status: active
 merged_into: null
 display_name: 王思敬
+cbdb_id: 175449
 revision: 1
 properties:
   - predicate: bio.summary

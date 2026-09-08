@@ -4,6 +4,7 @@ id: p_hQLEynziTD7U2V4km8Pxrq
 status: active
 merged_into: null
 display_name: 王道舒
+cbdb_id: 526679
 revision: 1
 properties:
   - predicate: bio.summary

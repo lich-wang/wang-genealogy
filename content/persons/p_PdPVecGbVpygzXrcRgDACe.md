@@ -4,6 +4,7 @@ id: p_PdPVecGbVpygzXrcRgDACe
 status: active
 merged_into: null
 display_name: 王慶之
+cbdb_id: 22256
 revision: 1
 properties:
   - predicate: bio.summary

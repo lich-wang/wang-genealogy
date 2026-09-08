@@ -4,6 +4,7 @@ id: p_8N2vT9jzByHE9HuBvrtnMV
 status: active
 merged_into: null
 display_name: 王徳元
+cbdb_id: 414546
 revision: 1
 properties:
   - predicate: bio.summary

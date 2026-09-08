@@ -4,6 +4,7 @@ id: p_8FW6uD8sCXoTLPB9e55LmR
 status: active
 merged_into: null
 display_name: 王興秀
+cbdb_id: 117613
 revision: 1
 properties:
   - predicate: bio.summary

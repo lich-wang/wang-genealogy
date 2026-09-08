@@ -4,6 +4,7 @@ id: p_VQzF2zAnWie7kV6FcommFV
 status: active
 merged_into: null
 display_name: 王國範
+cbdb_id: 414128
 revision: 1
 properties:
   - predicate: bio.summary

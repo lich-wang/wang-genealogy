@@ -4,6 +4,7 @@ id: p_55H14yQgzo8QVs4BBQ28Nh
 status: active
 merged_into: null
 display_name: 王角
+cbdb_id: 306626
 revision: 1
 properties:
   - predicate: bio.summary

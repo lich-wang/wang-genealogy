@@ -4,6 +4,7 @@ id: p_qtSe5oQvLFBKPiFoUv6L2m
 status: active
 merged_into: null
 display_name: 王衞
+cbdb_id: 415389
 revision: 1
 properties:
   - predicate: bio.summary

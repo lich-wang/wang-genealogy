@@ -4,6 +4,7 @@ id: p_DZWt9AM7bc3P3e9fG5Py1x
 status: active
 merged_into: null
 display_name: 王保琪
+cbdb_id: 515674
 revision: 1
 properties:
   - predicate: bio.summary

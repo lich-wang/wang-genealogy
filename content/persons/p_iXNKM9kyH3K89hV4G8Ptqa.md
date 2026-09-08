@@ -4,6 +4,7 @@ id: p_iXNKM9kyH3K89hV4G8Ptqa
 status: active
 merged_into: null
 display_name: 王彥翔
+cbdb_id: 283519
 revision: 1
 properties:
   - predicate: bio.summary

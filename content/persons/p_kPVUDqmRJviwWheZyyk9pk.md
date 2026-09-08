@@ -4,6 +4,7 @@ id: p_kPVUDqmRJviwWheZyyk9pk
 status: active
 merged_into: null
 display_name: 王绍
+cbdb_id: 175541
 revision: 1
 properties:
   - predicate: bio.summary

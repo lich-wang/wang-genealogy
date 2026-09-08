@@ -4,6 +4,7 @@ id: p_Ew9VEMUCBzvbmrZp1s8KE9
 status: active
 merged_into: null
 display_name: 王時邕
+cbdb_id: 143440
 revision: 1
 properties:
   - predicate: bio.summary

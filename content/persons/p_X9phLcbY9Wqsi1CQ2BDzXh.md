@@ -4,6 +4,7 @@ id: p_X9phLcbY9Wqsi1CQ2BDzXh
 status: active
 merged_into: null
 display_name: 王利謙
+cbdb_id: 100173
 revision: 1
 properties:
   - predicate: bio.summary

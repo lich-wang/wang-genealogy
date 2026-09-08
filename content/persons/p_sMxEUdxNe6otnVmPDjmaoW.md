@@ -4,6 +4,7 @@ id: p_sMxEUdxNe6otnVmPDjmaoW
 status: active
 merged_into: null
 display_name: 王追祖
+cbdb_id: 236264
 revision: 1
 properties:
   - predicate: bio.summary

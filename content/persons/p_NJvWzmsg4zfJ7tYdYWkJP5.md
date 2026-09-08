@@ -4,6 +4,7 @@ id: p_NJvWzmsg4zfJ7tYdYWkJP5
 status: active
 merged_into: null
 display_name: 王應紀
+cbdb_id: 313624
 revision: 1
 properties:
   - predicate: bio.summary

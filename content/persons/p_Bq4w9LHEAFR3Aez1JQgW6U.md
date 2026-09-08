@@ -4,6 +4,7 @@ id: p_Bq4w9LHEAFR3Aez1JQgW6U
 status: active
 merged_into: null
 display_name: 王之良
+cbdb_id: 59903
 revision: 1
 properties:
   - predicate: bio.summary

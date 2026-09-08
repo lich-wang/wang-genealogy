@@ -4,6 +4,7 @@ id: p_Et2WJ3J9XxjcJ37cajKRPh
 status: active
 merged_into: null
 display_name: 王金满
+cbdb_id: 415528
 revision: 1
 properties:
   - predicate: bio.summary

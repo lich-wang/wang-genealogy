@@ -4,6 +4,7 @@ id: p_QcWPkTtcFFPmRd7N4SXitH
 status: active
 merged_into: null
 display_name: 王述宗
+cbdb_id: 415478
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_tQcVJEMD5NCiiU2MAmgFwf
 status: active
 merged_into: null
 display_name: 王處回
+cbdb_id: 445487
 revision: 1
 properties:
   - predicate: bio.summary

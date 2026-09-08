@@ -4,6 +4,7 @@ id: p_83ygFMkQK9fNnM8zpQKj1X
 status: active
 merged_into: null
 display_name: 王尧臣
+cbdb_id: 1919
 revision: 2
 properties:
   - predicate: name.primary

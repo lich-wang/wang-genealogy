@@ -4,6 +4,7 @@ id: p_espXYDJMw1acyM1pFyYx7T
 status: active
 merged_into: null
 display_name: 王夢蛟
+cbdb_id: 343097
 revision: 1
 properties:
   - predicate: bio.summary

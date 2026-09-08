@@ -4,6 +4,7 @@ id: p_xD8jtV4nRAa6ZJ3dPAFArz
 status: active
 merged_into: null
 display_name: 王家鼎
+cbdb_id: 414355
 revision: 1
 properties:
   - predicate: bio.summary

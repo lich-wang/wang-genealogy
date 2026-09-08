@@ -4,6 +4,7 @@ id: p_xDeb2HyYf12rssAwch9KJo
 status: active
 merged_into: null
 display_name: 王慎獨
+cbdb_id: 265198
 revision: 1
 properties:
   - predicate: bio.summary

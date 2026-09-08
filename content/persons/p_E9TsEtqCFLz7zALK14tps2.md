@@ -4,6 +4,7 @@ id: p_E9TsEtqCFLz7zALK14tps2
 status: active
 merged_into: null
 display_name: 王仲銘
+cbdb_id: 254105
 revision: 1
 properties:
   - predicate: bio.summary

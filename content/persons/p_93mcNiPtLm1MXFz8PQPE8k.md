@@ -4,6 +4,7 @@ id: p_93mcNiPtLm1MXFz8PQPE8k
 status: active
 merged_into: null
 display_name: 王伯平
+cbdb_id: 517403
 revision: 1
 properties:
   - predicate: bio.summary

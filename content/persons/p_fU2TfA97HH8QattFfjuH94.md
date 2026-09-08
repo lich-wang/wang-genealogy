@@ -4,6 +4,7 @@ id: p_fU2TfA97HH8QattFfjuH94
 status: active
 merged_into: null
 display_name: 王懷一
+cbdb_id: 21985
 revision: 1
 properties:
   - predicate: bio.summary

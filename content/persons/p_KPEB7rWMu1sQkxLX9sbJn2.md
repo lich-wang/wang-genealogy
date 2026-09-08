@@ -4,6 +4,7 @@ id: p_KPEB7rWMu1sQkxLX9sbJn2
 status: active
 merged_into: null
 display_name: 王尚儒
+cbdb_id: 414379
 revision: 1
 properties:
   - predicate: bio.summary

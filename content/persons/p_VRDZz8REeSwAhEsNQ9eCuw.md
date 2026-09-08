@@ -4,6 +4,7 @@ id: p_VRDZz8REeSwAhEsNQ9eCuw
 status: active
 merged_into: null
 display_name: 王金鎔
+cbdb_id: 61495
 revision: 1
 properties:
   - predicate: bio.summary

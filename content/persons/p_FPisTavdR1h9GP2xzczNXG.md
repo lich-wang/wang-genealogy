@@ -4,6 +4,7 @@ id: p_FPisTavdR1h9GP2xzczNXG
 status: active
 merged_into: null
 display_name: 王宰
+cbdb_id: 175555
 revision: 1
 properties:
   - predicate: bio.summary

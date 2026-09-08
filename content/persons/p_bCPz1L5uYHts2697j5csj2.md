@@ -4,6 +4,7 @@ id: p_bCPz1L5uYHts2697j5csj2
 status: active
 merged_into: null
 display_name: 王惟邦
+cbdb_id: 336616
 revision: 1
 properties:
   - predicate: bio.summary

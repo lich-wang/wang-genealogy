@@ -4,6 +4,7 @@ id: p_r7286uhpZkmxKSKHDgEh3W
 status: active
 merged_into: null
 display_name: 王餘芊
+cbdb_id: 71963
 revision: 1
 properties:
   - predicate: bio.summary

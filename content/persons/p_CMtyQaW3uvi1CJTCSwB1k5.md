@@ -4,6 +4,7 @@ id: p_CMtyQaW3uvi1CJTCSwB1k5
 status: active
 merged_into: null
 display_name: 王士璣
+cbdb_id: 228290
 revision: 1
 properties:
   - predicate: bio.summary

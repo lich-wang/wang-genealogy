@@ -4,6 +4,7 @@ id: p_5Zw5XprrW5256EFjLr2Bdj
 status: active
 merged_into: null
 display_name: 王布寶
+cbdb_id: 453782
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_CacHLDYLr3tuVp328AhoNN
 status: active
 merged_into: null
 display_name: 王元藏
+cbdb_id: 150406
 revision: 1
 properties:
   - predicate: bio.summary

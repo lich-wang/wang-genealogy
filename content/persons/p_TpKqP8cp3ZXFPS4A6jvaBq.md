@@ -4,6 +4,7 @@ id: p_TpKqP8cp3ZXFPS4A6jvaBq
 status: active
 merged_into: null
 display_name: 王則古
+cbdb_id: 343508
 revision: 1
 properties:
   - predicate: bio.summary

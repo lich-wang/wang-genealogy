@@ -4,6 +4,7 @@ id: p_Ang9eiGuniGWoebR7bHwTe
 status: active
 merged_into: null
 display_name: 王源植
+cbdb_id: 175513
 revision: 1
 properties:
   - predicate: bio.summary

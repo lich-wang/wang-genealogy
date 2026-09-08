@@ -4,6 +4,7 @@ id: p_VjWEP9VfSTPsQQmuEQw4ex
 status: active
 merged_into: null
 display_name: 王蘊舒
+cbdb_id: 22016
 revision: 1
 properties:
   - predicate: bio.summary

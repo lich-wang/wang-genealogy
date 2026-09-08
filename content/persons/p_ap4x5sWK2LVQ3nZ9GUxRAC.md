@@ -4,6 +4,7 @@ id: p_ap4x5sWK2LVQ3nZ9GUxRAC
 status: active
 merged_into: null
 display_name: 王建本
+cbdb_id: 342002
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_of1HJHRK3PD8Lcpn1agTz4
 status: active
 merged_into: null
 display_name: 王教典
+cbdb_id: 414722
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_dW3X3KLSME57uu7UXoynM2
 status: active
 merged_into: null
 display_name: 王慶民
+cbdb_id: 38325
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_twwzLbL1W9sqKZM3yvAQ1a
 status: active
 merged_into: null
 display_name: 王瑞國
+cbdb_id: 72102
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_exfHCCQDDr69328nmnLRaH
 status: active
 merged_into: null
 display_name: 王文誠
+cbdb_id: 240766
 revision: 1
 properties:
   - predicate: bio.summary

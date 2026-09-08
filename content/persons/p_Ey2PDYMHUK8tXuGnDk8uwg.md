@@ -4,6 +4,7 @@ id: p_Ey2PDYMHUK8tXuGnDk8uwg
 status: active
 merged_into: null
 display_name: 王虎翼
+cbdb_id: 101260
 revision: 1
 properties:
   - predicate: bio.summary

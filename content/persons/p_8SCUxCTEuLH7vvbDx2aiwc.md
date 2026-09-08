@@ -4,6 +4,7 @@ id: p_8SCUxCTEuLH7vvbDx2aiwc
 status: active
 merged_into: null
 display_name: 王居能
+cbdb_id: 24512
 revision: 1
 properties:
   - predicate: bio.summary

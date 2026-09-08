@@ -4,6 +4,7 @@ id: p_85wB9oyLmcqBv8o7RhR9Ac
 status: active
 merged_into: null
 display_name: 王冬
+cbdb_id: 236746
 revision: 1
 properties:
   - predicate: bio.summary

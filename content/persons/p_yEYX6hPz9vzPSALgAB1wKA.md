@@ -4,6 +4,7 @@ id: p_yEYX6hPz9vzPSALgAB1wKA
 status: active
 merged_into: null
 display_name: 王策向
+cbdb_id: 72080
 revision: 1
 properties:
   - predicate: bio.summary

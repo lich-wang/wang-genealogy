@@ -4,6 +4,7 @@ id: p_fbQrbTAGM8z2oJTyc1FfxU
 status: active
 merged_into: null
 display_name: 王宇春
+cbdb_id: 414273
 revision: 1
 properties:
   - predicate: bio.summary

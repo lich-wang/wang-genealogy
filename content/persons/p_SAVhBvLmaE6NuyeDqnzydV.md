@@ -4,6 +4,7 @@ id: p_SAVhBvLmaE6NuyeDqnzydV
 status: active
 merged_into: null
 display_name: 王興禹
+cbdb_id: 439391
 revision: 1
 properties:
   - predicate: bio.summary

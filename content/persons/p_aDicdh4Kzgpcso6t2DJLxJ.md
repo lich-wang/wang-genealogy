@@ -4,6 +4,7 @@ id: p_aDicdh4Kzgpcso6t2DJLxJ
 status: active
 merged_into: null
 display_name: 王燕生
+cbdb_id: 99999
 revision: 1
 properties:
   - predicate: bio.summary

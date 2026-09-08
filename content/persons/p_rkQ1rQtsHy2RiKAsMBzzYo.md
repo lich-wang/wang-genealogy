@@ -4,6 +4,7 @@ id: p_rkQ1rQtsHy2RiKAsMBzzYo
 status: active
 merged_into: null
 display_name: 王子威
+cbdb_id: 414238
 revision: 1
 properties:
   - predicate: bio.summary

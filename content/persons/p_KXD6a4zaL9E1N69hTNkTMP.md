@@ -4,6 +4,7 @@ id: p_KXD6a4zaL9E1N69hTNkTMP
 status: active
 merged_into: null
 display_name: 王志悌
+cbdb_id: 140994
 revision: 1
 properties:
   - predicate: bio.summary

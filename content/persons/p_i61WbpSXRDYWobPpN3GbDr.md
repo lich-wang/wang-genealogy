@@ -4,6 +4,7 @@ id: p_i61WbpSXRDYWobPpN3GbDr
 status: active
 merged_into: null
 display_name: 王孟春
+cbdb_id: 320867
 revision: 1
 properties:
   - predicate: bio.summary

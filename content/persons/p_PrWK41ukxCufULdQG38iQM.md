@@ -4,6 +4,7 @@ id: p_PrWK41ukxCufULdQG38iQM
 status: active
 merged_into: null
 display_name: 王府君
+cbdb_id: 149909
 revision: 1
 properties:
   - predicate: bio.summary

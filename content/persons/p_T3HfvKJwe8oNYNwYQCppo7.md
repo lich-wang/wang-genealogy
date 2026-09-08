@@ -4,6 +4,7 @@ id: p_T3HfvKJwe8oNYNwYQCppo7
 status: active
 merged_into: null
 display_name: 王广心
+cbdb_id: 61089
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_gk2HKYjHNjp8GMszJnDhGf
 status: active
 merged_into: null
 display_name: 王定州
+cbdb_id: 414323
 revision: 1
 properties:
   - predicate: bio.summary

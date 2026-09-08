@@ -4,6 +4,7 @@ id: p_GszohupW8cgEqLZN1Mmb7g
 status: active
 merged_into: null
 display_name: 王世儒
+cbdb_id: 413704
 revision: 1
 properties:
   - predicate: bio.summary

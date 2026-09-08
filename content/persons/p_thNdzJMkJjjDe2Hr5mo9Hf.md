@@ -4,6 +4,7 @@ id: p_thNdzJMkJjjDe2Hr5mo9Hf
 status: active
 merged_into: null
 display_name: 王庶叔
+cbdb_id: 238050
 revision: 1
 properties:
   - predicate: bio.summary

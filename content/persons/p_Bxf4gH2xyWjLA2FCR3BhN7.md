@@ -4,6 +4,7 @@ id: p_Bxf4gH2xyWjLA2FCR3BhN7
 status: active
 merged_into: null
 display_name: 王松龄
+cbdb_id: 36706
 revision: 2
 properties:
   - predicate: bio.summary

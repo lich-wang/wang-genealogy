@@ -4,6 +4,7 @@ id: p_V1WNcEWFyMKGiDwCARFKJg
 status: active
 merged_into: null
 display_name: 王令仙
+cbdb_id: 155789
 revision: 1
 properties:
   - predicate: bio.summary

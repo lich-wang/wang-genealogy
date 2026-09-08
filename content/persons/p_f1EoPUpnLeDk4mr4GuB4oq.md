@@ -4,6 +4,7 @@ id: p_f1EoPUpnLeDk4mr4GuB4oq
 status: active
 merged_into: null
 display_name: 王守烈
+cbdb_id: 342583
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_zmPQQE7SMgzzKK5b4GDuom
 status: active
 merged_into: null
 display_name: 王瑞圖
+cbdb_id: 338565
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_N1C3MtgJB3M71G28PGdcAW
 status: active
 merged_into: null
 display_name: 劉啟
+cbdb_id: 16625
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_GDHrYY1rPribRrMcajDTyJ
 status: active
 merged_into: null
 display_name: 王懋訥
+cbdb_id: 414662
 revision: 1
 properties:
   - predicate: bio.summary

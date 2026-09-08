@@ -4,6 +4,7 @@ id: p_46a9FyUQzyqQURH4Z2h6Bc
 status: active
 merged_into: null
 display_name: 丁氏
+cbdb_id: 437857
 revision: 2
 properties:
   - predicate: bio.summary

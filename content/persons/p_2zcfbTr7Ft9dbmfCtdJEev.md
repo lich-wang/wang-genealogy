@@ -4,6 +4,7 @@ id: p_2zcfbTr7Ft9dbmfCtdJEev
 status: active
 merged_into: null
 display_name: 王時興
+cbdb_id: 236522
 revision: 1
 properties:
   - predicate: bio.summary

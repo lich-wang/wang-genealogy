@@ -4,6 +4,7 @@ id: p_htPM5HjDcfQSMnCsi3VRoY
 status: active
 merged_into: null
 display_name: 王士言
+cbdb_id: 45880
 revision: 1
 properties:
   - predicate: bio.summary

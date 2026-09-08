@@ -4,6 +4,7 @@ id: p_RWV3Xa1HVY9gqkuFb5n5pW
 status: active
 merged_into: null
 display_name: 王宇樂
+cbdb_id: 71628
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_KXjEM8wae9qpLicqSanMCX
 status: active
 merged_into: null
 display_name: 王一惋
+cbdb_id: 210800
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_U7JNj2nXJh2KN7f9tg3Czd
 status: active
 merged_into: null
 display_name: 王學柳
+cbdb_id: 203329
 revision: 1
 properties:
   - predicate: bio.summary

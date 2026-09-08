@@ -4,6 +4,7 @@ id: p_LPg6udkMsMFQajuGotTCsg
 status: active
 merged_into: null
 display_name: 王晞
+cbdb_id: 175452
 revision: 1
 properties:
   - predicate: bio.summary

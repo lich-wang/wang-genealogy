@@ -4,6 +4,7 @@ id: p_cxZP5F6Kaj8WuJiTyBPPwS
 status: active
 merged_into: null
 display_name: 王登善
+cbdb_id: 415142
 revision: 1
 properties:
   - predicate: bio.summary

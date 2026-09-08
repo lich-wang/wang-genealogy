@@ -4,6 +4,7 @@ id: p_GEavrdLjiFdZNp8BnrXwrs
 status: active
 merged_into: null
 display_name: 王應麒
+cbdb_id: 313048
 revision: 1
 properties:
   - predicate: bio.summary

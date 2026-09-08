@@ -4,6 +4,7 @@ id: p_XWva2FaoMLxeT5dQqbRQoM
 status: active
 merged_into: null
 display_name: 王超龍
+cbdb_id: 415464
 revision: 1
 properties:
   - predicate: bio.summary

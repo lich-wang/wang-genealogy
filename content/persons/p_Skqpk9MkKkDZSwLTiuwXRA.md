@@ -4,6 +4,7 @@ id: p_Skqpk9MkKkDZSwLTiuwXRA
 status: active
 merged_into: null
 display_name: 王友三
+cbdb_id: 511595
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_qS7N6ZyRc3uAM98xfjZ3QX
 status: active
 merged_into: null
 display_name: 王昭大
+cbdb_id: 101289
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_8ShgYpNx4gqrMJ9b1Zr24x
 status: active
 merged_into: null
 display_name: 王容言
+cbdb_id: 317021
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_bzB4RnEbw6Wh6soVL8KJXn
 status: active
 merged_into: null
 display_name: 王文企
+cbdb_id: 341626
 revision: 1
 properties:
   - predicate: bio.summary

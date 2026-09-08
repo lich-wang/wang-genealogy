@@ -4,6 +4,7 @@ id: p_k19ZBACPqq7FQR137ZZo9p
 status: active
 merged_into: null
 display_name: 王洪裕
+cbdb_id: 280919
 revision: 1
 properties:
   - predicate: bio.summary

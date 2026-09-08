@@ -4,6 +4,7 @@ id: p_ob6jJC6udBfo5MEkvJp3ZN
 status: active
 merged_into: null
 display_name: 王岩楨
+cbdb_id: 71771
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_f6qKq1HFdL2hPjxA66dVA5
 status: active
 merged_into: null
 display_name: 王承仙
+cbdb_id: 143147
 revision: 1
 properties:
   - predicate: bio.summary

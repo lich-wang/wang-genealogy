@@ -4,6 +4,7 @@ id: p_CbNYaQdoMGyXZBVa8oGAmn
 status: active
 merged_into: null
 display_name: 王大嵩
+cbdb_id: 342903
 revision: 1
 properties:
   - predicate: bio.summary

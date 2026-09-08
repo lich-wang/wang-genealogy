@@ -4,6 +4,7 @@ id: p_cGdcpfLC7B5ZhSvGceZyCJ
 status: active
 merged_into: null
 display_name: 王靜婉
+cbdb_id: 101444
 revision: 1
 properties:
   - predicate: bio.summary

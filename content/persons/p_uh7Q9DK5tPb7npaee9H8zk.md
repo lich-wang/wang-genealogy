@@ -4,6 +4,7 @@ id: p_uh7Q9DK5tPb7npaee9H8zk
 status: active
 merged_into: null
 display_name: 王道堅
+cbdb_id: 379980
 revision: 1
 properties:
   - predicate: bio.summary

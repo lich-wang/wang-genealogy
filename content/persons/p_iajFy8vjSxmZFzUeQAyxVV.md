@@ -4,6 +4,7 @@ id: p_iajFy8vjSxmZFzUeQAyxVV
 status: active
 merged_into: null
 display_name: 王財興
+cbdb_id: 239109
 revision: 1
 properties:
   - predicate: bio.summary

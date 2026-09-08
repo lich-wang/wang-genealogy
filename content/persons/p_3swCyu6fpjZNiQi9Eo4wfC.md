@@ -4,6 +4,7 @@ id: p_3swCyu6fpjZNiQi9Eo4wfC
 status: active
 merged_into: null
 display_name: 王彥韶
+cbdb_id: 37707
 revision: 1
 properties:
   - predicate: bio.summary

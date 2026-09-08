@@ -4,6 +4,7 @@ id: p_AGQAccG7GKjxdu5YCQ8AG8
 status: active
 merged_into: null
 display_name: 王友貴
+cbdb_id: 69076
 revision: 1
 properties:
   - predicate: bio.summary

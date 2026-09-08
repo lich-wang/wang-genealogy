@@ -4,6 +4,7 @@ id: p_qvvNcHhYbKPW7bFtYbrHBM
 status: active
 merged_into: null
 display_name: 王自
+cbdb_id: 384977
 revision: 1
 properties:
   - predicate: bio.summary

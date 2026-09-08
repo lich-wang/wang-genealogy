@@ -4,6 +4,7 @@ id: p_rCcxiEtev5tm4xNRYEQKvJ
 status: active
 merged_into: null
 display_name: 王化洽
+cbdb_id: 414001
 revision: 1
 properties:
   - predicate: bio.summary

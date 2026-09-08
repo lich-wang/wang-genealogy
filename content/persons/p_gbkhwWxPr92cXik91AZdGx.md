@@ -4,6 +4,7 @@ id: p_gbkhwWxPr92cXik91AZdGx
 status: active
 merged_into: null
 display_name: 王憲明
+cbdb_id: 235972
 revision: 1
 properties:
   - predicate: bio.summary

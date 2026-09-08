@@ -4,6 +4,7 @@ id: p_1AXfev5jLoFbbnQugYk4b6
 status: active
 merged_into: null
 display_name: 王汝倫
+cbdb_id: 314232
 revision: 1
 properties:
   - predicate: bio.summary

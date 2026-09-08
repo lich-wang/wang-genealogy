@@ -4,6 +4,7 @@ id: p_Et2f23vzjwkjLTZafX5Vhb
 status: active
 merged_into: null
 display_name: 王養民
+cbdb_id: 336585
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_owXvv59R3tW9k7i8fPpKuV
 status: active
 merged_into: null
 display_name: 王寶綸
+cbdb_id: 71802
 revision: 1
 properties:
   - predicate: bio.summary

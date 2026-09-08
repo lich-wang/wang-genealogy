@@ -4,6 +4,7 @@ id: p_MEVC7nLdbiCDqY72MuUAmm
 status: active
 merged_into: null
 display_name: 王宗湯
+cbdb_id: 317698
 revision: 1
 properties:
   - predicate: bio.summary

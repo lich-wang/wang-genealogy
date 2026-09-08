@@ -4,6 +4,7 @@ id: p_6E6FRxZ3YVro19EbwRyWHC
 status: active
 merged_into: null
 display_name: 王昭符
+cbdb_id: 445646
 revision: 1
 properties:
   - predicate: bio.summary

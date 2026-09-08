@@ -4,6 +4,7 @@ id: p_GvzNN4PFzektjaq7RHQapx
 status: active
 merged_into: null
 display_name: 王尚珏
+cbdb_id: 526684
 revision: 1
 properties:
   - predicate: bio.summary

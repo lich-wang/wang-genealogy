@@ -4,6 +4,7 @@ id: p_NKL5EiGPon61Z1XV3zUvcc
 status: active
 merged_into: null
 display_name: 王朔
+cbdb_id: 414835
 revision: 1
 properties:
   - predicate: bio.summary

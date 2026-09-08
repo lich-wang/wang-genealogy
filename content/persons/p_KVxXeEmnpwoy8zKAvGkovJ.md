@@ -4,6 +4,7 @@ id: p_KVxXeEmnpwoy8zKAvGkovJ
 status: active
 merged_into: null
 display_name: 王日雲
+cbdb_id: 157070
 revision: 1
 properties:
   - predicate: bio.summary

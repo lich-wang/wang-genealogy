@@ -4,6 +4,7 @@ id: p_xHoRZkcZQ72fiYbdfn2Zkb
 status: active
 merged_into: null
 display_name: 王鏡
+cbdb_id: 415565
 revision: 1
 properties:
   - predicate: bio.summary

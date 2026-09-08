@@ -4,6 +4,7 @@ id: p_PZtEHvy7xJ6JZLyBoWSDad
 status: active
 merged_into: null
 display_name: 王與印
+cbdb_id: 415324
 revision: 1
 properties:
   - predicate: bio.summary

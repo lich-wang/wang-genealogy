@@ -4,6 +4,7 @@ id: p_moogC2kGGcmo7q9fCE4K5B
 status: active
 merged_into: null
 display_name: 王紹孚
+cbdb_id: 185013
 revision: 1
 properties:
   - predicate: bio.summary

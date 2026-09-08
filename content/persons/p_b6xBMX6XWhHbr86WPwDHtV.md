@@ -4,6 +4,7 @@ id: p_b6xBMX6XWhHbr86WPwDHtV
 status: active
 merged_into: null
 display_name: 王敬元
+cbdb_id: 175505
 revision: 1
 properties:
   - predicate: bio.summary

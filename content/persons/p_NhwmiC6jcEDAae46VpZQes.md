@@ -4,6 +4,7 @@ id: p_NhwmiC6jcEDAae46VpZQes
 status: active
 merged_into: null
 display_name: 王雄飛
+cbdb_id: 342889
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_NLL1hUn6YKoVjVKSBAAZHa
 status: active
 merged_into: null
 display_name: 王沆
+cbdb_id: 18555
 revision: 1
 properties:
   - predicate: bio.summary

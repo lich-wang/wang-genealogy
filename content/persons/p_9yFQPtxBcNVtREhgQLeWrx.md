@@ -4,6 +4,7 @@ id: p_9yFQPtxBcNVtREhgQLeWrx
 status: active
 merged_into: null
 display_name: 王朝宸
+cbdb_id: 333151
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_LWPxZv8gZ5dg5wcbAkJh1g
 status: active
 merged_into: null
 display_name: 王景視
+cbdb_id: 27283
 revision: 1
 properties:
   - predicate: bio.summary

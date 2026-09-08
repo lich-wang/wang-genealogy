@@ -4,6 +4,7 @@ id: p_wAhNYHF7rU1Dn7Yp6yMpUg
 status: active
 merged_into: null
 display_name: 王芝藻
+cbdb_id: 442606
 revision: 1
 properties:
   - predicate: bio.summary

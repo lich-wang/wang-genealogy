@@ -4,6 +4,7 @@ id: p_pFKwmgUo3A73nGGMKzBHBs
 status: active
 merged_into: null
 display_name: 王拙
+cbdb_id: 37664
 revision: 1
 properties:
   - predicate: bio.summary

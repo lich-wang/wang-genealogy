@@ -4,6 +4,7 @@ id: p_vSiCFMAdqLT86UKVAsNjc5
 status: active
 merged_into: null
 display_name: 王世噩
+cbdb_id: 343169
 revision: 1
 properties:
   - predicate: bio.summary

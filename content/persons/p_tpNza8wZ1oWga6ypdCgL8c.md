@@ -4,6 +4,7 @@ id: p_tpNza8wZ1oWga6ypdCgL8c
 status: active
 merged_into: null
 display_name: 王廷章
+cbdb_id: 327161
 revision: 1
 properties:
   - predicate: bio.summary

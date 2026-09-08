@@ -4,6 +4,7 @@ id: p_jzq5nT2YLYAvEUUUQjh5Pn
 status: active
 merged_into: null
 display_name: 王照圓
+cbdb_id: 34233
 revision: 1
 properties:
   - predicate: bio.summary

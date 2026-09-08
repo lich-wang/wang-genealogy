@@ -4,6 +4,7 @@ id: p_JoqE4qVKbY4TRxCskCYxUH
 status: active
 merged_into: null
 display_name: 王以悟
+cbdb_id: 134695
 revision: 1
 properties:
   - predicate: bio.summary

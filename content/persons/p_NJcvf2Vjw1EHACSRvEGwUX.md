@@ -4,6 +4,7 @@ id: p_NJcvf2Vjw1EHACSRvEGwUX
 status: active
 merged_into: null
 display_name: 王峙
+cbdb_id: 381608
 revision: 1
 properties:
   - predicate: bio.summary

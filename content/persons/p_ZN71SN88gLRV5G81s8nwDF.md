@@ -4,6 +4,7 @@ id: p_ZN71SN88gLRV5G81s8nwDF
 status: active
 merged_into: null
 display_name: 王述善
+cbdb_id: 342701
 revision: 1
 properties:
   - predicate: bio.summary

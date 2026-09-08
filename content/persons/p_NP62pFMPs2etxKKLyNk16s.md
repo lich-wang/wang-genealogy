@@ -4,6 +4,7 @@ id: p_NP62pFMPs2etxKKLyNk16s
 status: active
 merged_into: null
 display_name: 王子深
+cbdb_id: 232607
 revision: 1
 properties:
   - predicate: bio.summary

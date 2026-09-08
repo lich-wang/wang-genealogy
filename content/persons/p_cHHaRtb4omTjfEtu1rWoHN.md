@@ -4,6 +4,7 @@ id: p_cHHaRtb4omTjfEtu1rWoHN
 status: active
 merged_into: null
 display_name: 王克正
+cbdb_id: 17758
 revision: 1
 properties:
   - predicate: name.primary

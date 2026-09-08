@@ -4,6 +4,7 @@ id: p_N1zXfVAzsHV9UYAEDLb5C7
 status: active
 merged_into: null
 display_name: 王徽猷
+cbdb_id: 204879
 revision: 1
 properties:
   - predicate: bio.summary

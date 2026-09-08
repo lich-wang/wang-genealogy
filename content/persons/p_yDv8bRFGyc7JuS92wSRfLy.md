@@ -4,6 +4,7 @@ id: p_yDv8bRFGyc7JuS92wSRfLy
 status: active
 merged_into: null
 display_name: 王予齡
+cbdb_id: 71447
 revision: 1
 properties:
   - predicate: bio.summary

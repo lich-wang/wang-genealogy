@@ -4,6 +4,7 @@ id: p_57MTn7oNzVBW49Kp5crHea
 status: active
 merged_into: null
 display_name: 王思正
+cbdb_id: 10126
 revision: 1
 properties:
   - predicate: bio.summary

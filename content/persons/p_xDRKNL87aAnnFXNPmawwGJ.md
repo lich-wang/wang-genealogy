@@ -4,6 +4,7 @@ id: p_xDRKNL87aAnnFXNPmawwGJ
 status: active
 merged_into: null
 display_name: 王民彝
+cbdb_id: 237911
 revision: 1
 properties:
   - predicate: bio.summary

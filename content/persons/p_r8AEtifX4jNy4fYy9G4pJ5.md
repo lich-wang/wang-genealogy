@@ -4,6 +4,7 @@ id: p_r8AEtifX4jNy4fYy9G4pJ5
 status: active
 merged_into: null
 display_name: 王祓
+cbdb_id: 415183
 revision: 1
 properties:
   - predicate: bio.summary

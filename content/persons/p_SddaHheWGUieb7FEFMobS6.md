@@ -4,6 +4,7 @@ id: p_SddaHheWGUieb7FEFMobS6
 status: active
 merged_into: null
 display_name: 王用畢
+cbdb_id: 213305
 revision: 1
 properties:
   - predicate: bio.summary

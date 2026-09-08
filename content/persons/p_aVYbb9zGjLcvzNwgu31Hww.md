@@ -4,6 +4,7 @@ id: p_aVYbb9zGjLcvzNwgu31Hww
 status: active
 merged_into: null
 display_name: 王申年
+cbdb_id: 415139
 revision: 1
 properties:
   - predicate: bio.summary

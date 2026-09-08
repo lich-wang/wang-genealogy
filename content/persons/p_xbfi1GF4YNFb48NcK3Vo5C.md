@@ -4,6 +4,7 @@ id: p_xbfi1GF4YNFb48NcK3Vo5C
 status: active
 merged_into: null
 display_name: 王冉榮
+cbdb_id: 23163
 revision: 1
 properties:
   - predicate: bio.summary

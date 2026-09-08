@@ -4,6 +4,7 @@ id: p_GdMD2U5cMXJm7vvjZhwJqE
 status: active
 merged_into: null
 display_name: 王仲玄
+cbdb_id: 150828
 revision: 1
 properties:
   - predicate: bio.summary

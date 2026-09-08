@@ -4,6 +4,7 @@ id: p_dKQzMtzUR4AkAwrFXKENdW
 status: active
 merged_into: null
 display_name: 王明朗
+cbdb_id: 148472
 revision: 1
 properties:
   - predicate: bio.summary

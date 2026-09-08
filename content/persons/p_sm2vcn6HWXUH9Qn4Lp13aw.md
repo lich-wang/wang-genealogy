@@ -4,6 +4,7 @@ id: p_sm2vcn6HWXUH9Qn4Lp13aw
 status: active
 merged_into: null
 display_name: 王尹哲
+cbdb_id: 414386
 revision: 1
 properties:
   - predicate: bio.summary

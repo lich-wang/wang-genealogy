@@ -4,6 +4,7 @@ id: p_LwxBzmPXSg6cU3QfvgHd9f
 status: active
 merged_into: null
 display_name: 王彥輔
+cbdb_id: 37635
 revision: 1
 properties:
   - predicate: bio.summary

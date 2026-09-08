@@ -4,6 +4,7 @@ id: p_T3ULw47RPYnhwca1s8wuBV
 status: active
 merged_into: null
 display_name: 王三澤
+cbdb_id: 413690
 revision: 1
 properties:
   - predicate: bio.summary

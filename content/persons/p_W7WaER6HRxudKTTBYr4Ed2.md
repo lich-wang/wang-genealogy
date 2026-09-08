@@ -4,6 +4,7 @@ id: p_W7WaER6HRxudKTTBYr4Ed2
 status: active
 merged_into: null
 display_name: 王諗
+cbdb_id: 170463
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_aBsKvmg78SuxNAjHJSK1uw
 status: active
 merged_into: null
 display_name: 王㣧震
+cbdb_id: 232805
 revision: 1
 properties:
   - predicate: bio.summary

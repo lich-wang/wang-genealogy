@@ -4,6 +4,7 @@ id: p_dMW9eoz9gyRQKv4Cgk3NrH
 status: active
 merged_into: null
 display_name: 王成璐
+cbdb_id: 124336
 revision: 1
 properties:
   - predicate: bio.summary

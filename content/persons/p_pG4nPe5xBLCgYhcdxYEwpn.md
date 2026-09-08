@@ -4,6 +4,7 @@ id: p_pG4nPe5xBLCgYhcdxYEwpn
 status: active
 merged_into: null
 display_name: 王元洪
+cbdb_id: 341788
 revision: 1
 properties:
   - predicate: bio.summary

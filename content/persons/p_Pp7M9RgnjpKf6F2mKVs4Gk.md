@@ -4,6 +4,7 @@ id: p_Pp7M9RgnjpKf6F2mKVs4Gk
 status: active
 merged_into: null
 display_name: 王兼皇
+cbdb_id: 17736
 revision: 1
 properties:
   - predicate: bio.summary

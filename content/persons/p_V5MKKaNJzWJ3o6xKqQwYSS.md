@@ -4,6 +4,7 @@ id: p_V5MKKaNJzWJ3o6xKqQwYSS
 status: active
 merged_into: null
 display_name: 王子孚
+cbdb_id: 292314
 revision: 1
 properties:
   - predicate: bio.summary

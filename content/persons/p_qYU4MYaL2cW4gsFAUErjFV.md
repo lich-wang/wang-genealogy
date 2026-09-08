@@ -4,6 +4,7 @@ id: p_qYU4MYaL2cW4gsFAUErjFV
 status: active
 merged_into: null
 display_name: 王祖修
+cbdb_id: 29825
 revision: 1
 properties:
   - predicate: bio.summary

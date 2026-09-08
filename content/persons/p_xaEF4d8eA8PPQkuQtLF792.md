@@ -4,6 +4,7 @@ id: p_xaEF4d8eA8PPQkuQtLF792
 status: active
 merged_into: null
 display_name: 王饒
+cbdb_id: 37907
 revision: 1
 properties:
   - predicate: bio.summary

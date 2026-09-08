@@ -4,6 +4,7 @@ id: p_TDm8AW3FGV4iqKti7zSPt9
 status: active
 merged_into: null
 display_name: 王某
+cbdb_id: 193614
 revision: 1
 properties:
   - predicate: bio.summary

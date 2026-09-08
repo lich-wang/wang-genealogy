@@ -4,6 +4,7 @@ id: p_31Y7A8ctDck4rHzqHWU9S1
 status: active
 merged_into: null
 display_name: 王秉恭
+cbdb_id: 272759
 revision: 1
 properties:
   - predicate: bio.summary

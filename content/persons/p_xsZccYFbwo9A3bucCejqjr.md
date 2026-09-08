@@ -4,6 +4,7 @@ id: p_xsZccYFbwo9A3bucCejqjr
 status: active
 merged_into: null
 display_name: 王穆
+cbdb_id: 437660
 revision: 2
 properties:
   - predicate: bio.summary

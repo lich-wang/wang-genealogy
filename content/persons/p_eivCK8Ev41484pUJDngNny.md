@@ -4,6 +4,7 @@ id: p_eivCK8Ev41484pUJDngNny
 status: active
 merged_into: null
 display_name: 王經庭
+cbdb_id: 342184
 revision: 1
 properties:
   - predicate: bio.summary

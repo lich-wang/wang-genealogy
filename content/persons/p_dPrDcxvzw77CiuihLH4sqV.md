@@ -4,6 +4,7 @@ id: p_dPrDcxvzw77CiuihLH4sqV
 status: active
 merged_into: null
 display_name: 王旡難
+cbdb_id: 195783
 revision: 1
 properties:
   - predicate: bio.summary

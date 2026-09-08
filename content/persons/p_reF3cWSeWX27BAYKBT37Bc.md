@@ -4,6 +4,7 @@ id: p_reF3cWSeWX27BAYKBT37Bc
 status: active
 merged_into: null
 display_name: 王敏存
+cbdb_id: 35037
 revision: 1
 properties:
   - predicate: bio.summary

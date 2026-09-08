@@ -4,6 +4,7 @@ id: p_h1yL5hBFTL4C4xwaMwN6Lj
 status: active
 merged_into: null
 display_name: 王三卿
+cbdb_id: 413685
 revision: 1
 properties:
   - predicate: bio.summary

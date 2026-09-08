@@ -4,6 +4,7 @@ id: p_xJqqBPc7ko94ZXe3uyJXCb
 status: active
 merged_into: null
 display_name: 王應貞
+cbdb_id: 264654
 revision: 1
 properties:
   - predicate: bio.summary

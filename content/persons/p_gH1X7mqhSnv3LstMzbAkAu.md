@@ -4,6 +4,7 @@ id: p_gH1X7mqhSnv3LstMzbAkAu
 status: active
 merged_into: null
 display_name: 王质
+cbdb_id: 250183
 revision: 1
 properties:
   - predicate: bio.summary

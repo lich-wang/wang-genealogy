@@ -4,6 +4,7 @@ id: p_VKMJGhdaS2Z7GjZm648Jj9
 status: active
 merged_into: null
 display_name: 王仕爵
+cbdb_id: 477228
 revision: 1
 properties:
   - predicate: bio.summary

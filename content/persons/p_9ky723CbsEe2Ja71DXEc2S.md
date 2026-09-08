@@ -4,6 +4,7 @@ id: p_9ky723CbsEe2Ja71DXEc2S
 status: active
 merged_into: null
 display_name: 王良儀
+cbdb_id: 270716
 revision: 1
 properties:
   - predicate: bio.summary

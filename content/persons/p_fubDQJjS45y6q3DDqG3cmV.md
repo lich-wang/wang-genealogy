@@ -4,6 +4,7 @@ id: p_fubDQJjS45y6q3DDqG3cmV
 status: active
 merged_into: null
 display_name: 王谟
+cbdb_id: 313121
 revision: 2
 properties:
   - predicate: bio.summary

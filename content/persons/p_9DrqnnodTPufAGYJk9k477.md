@@ -4,6 +4,7 @@ id: p_9DrqnnodTPufAGYJk9k477
 status: active
 merged_into: null
 display_name: 王任汝
+cbdb_id: 413847
 revision: 1
 properties:
   - predicate: bio.summary

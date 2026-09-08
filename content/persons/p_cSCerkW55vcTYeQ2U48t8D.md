@@ -4,6 +4,7 @@ id: p_cSCerkW55vcTYeQ2U48t8D
 status: active
 merged_into: null
 display_name: 王澈
+cbdb_id: 175630
 revision: 1
 properties:
   - predicate: bio.summary

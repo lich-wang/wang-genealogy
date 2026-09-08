@@ -4,6 +4,7 @@ id: p_E9W2DShq5Qkj6ZiKVB1xLN
 status: active
 merged_into: null
 display_name: 王德完
+cbdb_id: 126817
 revision: 1
 properties:
   - predicate: bio.summary

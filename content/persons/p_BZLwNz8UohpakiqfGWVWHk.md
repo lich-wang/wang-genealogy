@@ -4,6 +4,7 @@ id: p_BZLwNz8UohpakiqfGWVWHk
 status: active
 merged_into: null
 display_name: 王正容
+cbdb_id: 203299
 revision: 1
 properties:
   - predicate: bio.summary

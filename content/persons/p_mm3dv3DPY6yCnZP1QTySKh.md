@@ -4,6 +4,7 @@ id: p_mm3dv3DPY6yCnZP1QTySKh
 status: active
 merged_into: null
 display_name: 王廷安
+cbdb_id: 414456
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_rEn5d5M4F5rsvt2FFZCJAG
 status: active
 merged_into: null
 display_name: 王學洛
+cbdb_id: 328257
 revision: 1
 properties:
   - predicate: bio.summary

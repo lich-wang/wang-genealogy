@@ -4,6 +4,7 @@ id: p_H8dz2RG3ABTJQLSA8aM41f
 status: active
 merged_into: null
 display_name: 王尚正
+cbdb_id: 22142
 revision: 1
 properties:
   - predicate: bio.summary

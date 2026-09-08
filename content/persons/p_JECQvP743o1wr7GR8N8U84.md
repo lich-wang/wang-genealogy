@@ -4,6 +4,7 @@ id: p_JECQvP743o1wr7GR8N8U84
 status: active
 merged_into: null
 display_name: 王男偉
+cbdb_id: 511625
 revision: 1
 properties:
   - predicate: bio.summary

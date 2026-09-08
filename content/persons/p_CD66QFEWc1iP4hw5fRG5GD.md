@@ -4,6 +4,7 @@ id: p_CD66QFEWc1iP4hw5fRG5GD
 status: active
 merged_into: null
 display_name: 王原格
+cbdb_id: 327871
 revision: 1
 properties:
   - predicate: bio.summary

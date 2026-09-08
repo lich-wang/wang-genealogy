@@ -4,6 +4,7 @@ id: p_A2RNKt5PKDSvSHAbDzXb9c
 status: active
 merged_into: null
 display_name: 王亮楨
+cbdb_id: 526805
 revision: 1
 properties:
   - predicate: bio.summary

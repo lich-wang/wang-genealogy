@@ -4,6 +4,7 @@ id: p_RzUMVvSkp4dJms1KtG4oqp
 status: active
 merged_into: null
 display_name: 王方叔
+cbdb_id: 101108
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_UFzzTjoMCygp2ncdG1V9mg
 status: active
 merged_into: null
 display_name: 王錫輔
+cbdb_id: 343820
 revision: 1
 properties:
   - predicate: bio.summary

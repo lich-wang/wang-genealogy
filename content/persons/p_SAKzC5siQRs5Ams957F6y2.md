@@ -4,6 +4,7 @@ id: p_SAKzC5siQRs5Ams957F6y2
 status: active
 merged_into: null
 display_name: 王某璽
+cbdb_id: 413665
 revision: 1
 properties:
   - predicate: bio.summary

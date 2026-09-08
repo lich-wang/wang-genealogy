@@ -4,6 +4,7 @@ id: p_jMFjfSYgKF2FmYw6RL8KXX
 status: active
 merged_into: null
 display_name: 王昭逺
+cbdb_id: 414790
 revision: 1
 properties:
   - predicate: bio.summary

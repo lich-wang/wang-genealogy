@@ -4,6 +4,7 @@ id: p_Je1o2mVdfZbZ5br4teNV7A
 status: active
 merged_into: null
 display_name: 王守憲
+cbdb_id: 290443
 revision: 1
 properties:
   - predicate: bio.summary

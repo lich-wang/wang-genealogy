@@ -4,6 +4,7 @@ id: p_XVyXQn9mv4GWFDoLFJcVQ7
 status: active
 merged_into: null
 display_name: 王原宏
+cbdb_id: 266759
 revision: 1
 properties:
   - predicate: bio.summary

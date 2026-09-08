@@ -4,6 +4,7 @@ id: p_zQAyFcVTh8uEFRKFQtkku9
 status: active
 merged_into: null
 display_name: 王恪
+cbdb_id: 264939
 revision: 2
 properties:
   - predicate: bio.summary

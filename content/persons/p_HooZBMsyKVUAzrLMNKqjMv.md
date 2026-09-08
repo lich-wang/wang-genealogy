@@ -4,6 +4,7 @@ id: p_HooZBMsyKVUAzrLMNKqjMv
 status: active
 merged_into: null
 display_name: 王湛祖
+cbdb_id: 519012
 revision: 1
 properties:
   - predicate: bio.summary

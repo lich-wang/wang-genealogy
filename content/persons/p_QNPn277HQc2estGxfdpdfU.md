@@ -4,6 +4,7 @@ id: p_QNPn277HQc2estGxfdpdfU
 status: active
 merged_into: null
 display_name: 王大勇
+cbdb_id: 69086
 revision: 1
 properties:
   - predicate: bio.summary

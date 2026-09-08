@@ -4,6 +4,7 @@ id: p_Yh2HTAs8PNRnitNcbXUhxZ
 status: active
 merged_into: null
 display_name: 王之槙
+cbdb_id: 333328
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_LHZQS7phbHLnW1Jt9C7Gcr
 status: active
 merged_into: null
 display_name: 王秉衷
+cbdb_id: 415203
 revision: 1
 properties:
   - predicate: bio.summary

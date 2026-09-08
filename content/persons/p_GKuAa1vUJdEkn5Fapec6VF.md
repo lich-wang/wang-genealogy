@@ -4,6 +4,7 @@ id: p_GKuAa1vUJdEkn5Fapec6VF
 status: active
 merged_into: null
 display_name: 王芝林
+cbdb_id: 71527
 revision: 1
 properties:
   - predicate: bio.summary

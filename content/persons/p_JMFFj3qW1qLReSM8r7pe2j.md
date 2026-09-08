@@ -4,6 +4,7 @@ id: p_JMFFj3qW1qLReSM8r7pe2j
 status: active
 merged_into: null
 display_name: 王世勲
+cbdb_id: 413707
 revision: 1
 properties:
   - predicate: bio.summary

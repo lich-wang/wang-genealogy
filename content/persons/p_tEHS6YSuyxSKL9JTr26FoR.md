@@ -4,6 +4,7 @@ id: p_tEHS6YSuyxSKL9JTr26FoR
 status: active
 merged_into: null
 display_name: 王嗣美
+cbdb_id: 206544
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_tAAE6RBrQzSby9N5qxSRzS
 status: active
 merged_into: null
 display_name: 王永堅
+cbdb_id: 95224
 revision: 1
 properties:
   - predicate: bio.summary

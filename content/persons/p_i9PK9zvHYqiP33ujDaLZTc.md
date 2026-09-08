@@ -4,6 +4,7 @@ id: p_i9PK9zvHYqiP33ujDaLZTc
 status: active
 merged_into: null
 display_name: 王德高
+cbdb_id: 148219
 revision: 1
 properties:
   - predicate: bio.summary

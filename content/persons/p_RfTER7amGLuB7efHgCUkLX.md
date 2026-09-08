@@ -4,6 +4,7 @@ id: p_RfTER7amGLuB7efHgCUkLX
 status: active
 merged_into: null
 display_name: 王仲彩
+cbdb_id: 413837
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_DuUUK5eRc4LrqHR9Q46vGL
 status: active
 merged_into: null
 display_name: 王應臣
+cbdb_id: 36877
 revision: 1
 properties:
   - predicate: bio.summary

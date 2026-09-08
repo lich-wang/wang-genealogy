@@ -4,6 +4,7 @@ id: p_jDcaJoocr4txWJLGakd1D3
 status: active
 merged_into: null
 display_name: 王仲鳳
+cbdb_id: 522256
 revision: 1
 properties:
   - predicate: bio.summary

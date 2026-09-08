@@ -4,6 +4,7 @@ id: p_7N5LdKYFB8XzEk5JQP2N3T
 status: active
 merged_into: null
 display_name: 王曾祥
+cbdb_id: 72088
 revision: 1
 properties:
   - predicate: bio.summary

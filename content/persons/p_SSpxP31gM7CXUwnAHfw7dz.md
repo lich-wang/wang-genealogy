@@ -4,6 +4,7 @@ id: p_SSpxP31gM7CXUwnAHfw7dz
 status: active
 merged_into: null
 display_name: 王國憲
+cbdb_id: 338558
 revision: 1
 properties:
   - predicate: bio.summary

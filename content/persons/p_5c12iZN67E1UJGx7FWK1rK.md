@@ -4,6 +4,7 @@ id: p_5c12iZN67E1UJGx7FWK1rK
 status: active
 merged_into: null
 display_name: 王介賢
+cbdb_id: 292745
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_a8J62hxLLTLH3EGQFsXGiw
 status: active
 merged_into: null
 display_name: 冀氏
+cbdb_id: 282597
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_MqUBqCY2J7LjLYyE5SP79y
 status: active
 merged_into: null
 display_name: 王眞規
+cbdb_id: 415170
 revision: 1
 properties:
   - predicate: bio.summary

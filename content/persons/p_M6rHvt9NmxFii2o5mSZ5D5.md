@@ -4,6 +4,7 @@ id: p_M6rHvt9NmxFii2o5mSZ5D5
 status: active
 merged_into: null
 display_name: 王謝家
+cbdb_id: 72096
 revision: 1
 properties:
   - predicate: bio.summary

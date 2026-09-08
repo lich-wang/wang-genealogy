@@ -4,6 +4,7 @@ id: p_4wv1yLC4dBTzNwodXFcqeM
 status: active
 merged_into: null
 display_name: 王詔德
+cbdb_id: 16693
 revision: 1
 properties:
   - predicate: bio.summary

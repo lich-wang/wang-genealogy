@@ -4,6 +4,7 @@ id: p_GXxfE5t7JJ1MWQ35BCEJCm
 status: active
 merged_into: null
 display_name: 王務道
+cbdb_id: 101320
 revision: 1
 properties:
   - predicate: bio.summary

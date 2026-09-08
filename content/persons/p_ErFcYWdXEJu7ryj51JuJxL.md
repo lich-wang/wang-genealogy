@@ -4,6 +4,7 @@ id: p_ErFcYWdXEJu7ryj51JuJxL
 status: active
 merged_into: null
 display_name: 王令洙
+cbdb_id: 14772
 revision: 1
 properties:
   - predicate: bio.summary

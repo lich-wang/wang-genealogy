@@ -4,6 +4,7 @@ id: p_6Ha9dCMYpRHitjL4LwGKLh
 status: active
 merged_into: null
 display_name: 王九有
+cbdb_id: 217993
 revision: 1
 properties:
   - predicate: bio.summary

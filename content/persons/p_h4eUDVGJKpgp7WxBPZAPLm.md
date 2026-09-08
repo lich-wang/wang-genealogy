@@ -4,6 +4,7 @@ id: p_h4eUDVGJKpgp7WxBPZAPLm
 status: active
 merged_into: null
 display_name: 王奠基
+cbdb_id: 414224
 revision: 1
 properties:
   - predicate: bio.summary

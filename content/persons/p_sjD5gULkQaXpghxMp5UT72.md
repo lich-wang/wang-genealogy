@@ -4,6 +4,7 @@ id: p_sjD5gULkQaXpghxMp5UT72
 status: active
 merged_into: null
 display_name: 王瑾瑜
+cbdb_id: 415115
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_j5ic2Kxa2xFC6cd6Nw1sd3
 status: active
 merged_into: null
 display_name: 王用良
+cbdb_id: 415133
 revision: 1
 properties:
   - predicate: bio.summary

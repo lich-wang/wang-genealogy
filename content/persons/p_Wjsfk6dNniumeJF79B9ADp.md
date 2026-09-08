@@ -4,6 +4,7 @@ id: p_Wjsfk6dNniumeJF79B9ADp
 status: active
 merged_into: null
 display_name: 王廷紹
+cbdb_id: 71563
 revision: 1
 properties:
   - predicate: bio.summary

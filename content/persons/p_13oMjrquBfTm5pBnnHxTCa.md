@@ -4,6 +4,7 @@ id: p_13oMjrquBfTm5pBnnHxTCa
 status: active
 merged_into: null
 display_name: 王永康
+cbdb_id: 414941
 revision: 1
 properties:
   - predicate: bio.summary

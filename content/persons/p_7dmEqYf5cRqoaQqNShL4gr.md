@@ -4,6 +4,7 @@ id: p_7dmEqYf5cRqoaQqNShL4gr
 status: active
 merged_into: null
 display_name: 王沛壇
+cbdb_id: 414987
 revision: 1
 properties:
   - predicate: bio.summary

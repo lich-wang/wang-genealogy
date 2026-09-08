@@ -4,6 +4,7 @@ id: p_mKC9weEHWjFT3p3rLUuXK5
 status: active
 merged_into: null
 display_name: 王學關
+cbdb_id: 328255
 revision: 1
 properties:
   - predicate: bio.summary

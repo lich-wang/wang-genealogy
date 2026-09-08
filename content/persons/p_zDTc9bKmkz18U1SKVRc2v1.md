@@ -4,6 +4,7 @@ id: p_zDTc9bKmkz18U1SKVRc2v1
 status: active
 merged_into: null
 display_name: 王光重
+cbdb_id: 308697
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_SfcEYoZkoLruJ4uuLuNwXA
 status: active
 merged_into: null
 display_name: 王寰
+cbdb_id: 175567
 revision: 1
 properties:
   - predicate: bio.summary

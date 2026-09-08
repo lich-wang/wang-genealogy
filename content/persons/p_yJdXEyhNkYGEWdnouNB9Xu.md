@@ -4,6 +4,7 @@ id: p_yJdXEyhNkYGEWdnouNB9Xu
 status: active
 merged_into: null
 display_name: 王廷瞻
+cbdb_id: 34669
 revision: 1
 properties:
   - predicate: bio.summary

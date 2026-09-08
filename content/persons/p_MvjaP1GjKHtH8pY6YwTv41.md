@@ -4,6 +4,7 @@ id: p_MvjaP1GjKHtH8pY6YwTv41
 status: active
 merged_into: null
 display_name: 王炳南
+cbdb_id: 415066
 revision: 1
 properties:
   - predicate: bio.summary

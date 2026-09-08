@@ -4,6 +4,7 @@ id: p_isAh514C873LGUNoaD4yVY
 status: active
 merged_into: null
 display_name: 王汝瑗
+cbdb_id: 441161
 revision: 1
 properties:
   - predicate: bio.summary

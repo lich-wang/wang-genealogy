@@ -4,6 +4,7 @@ id: p_ALnGH7uowije6trJgmryLj
 status: active
 merged_into: null
 display_name: 王友德
+cbdb_id: 236841
 revision: 1
 properties:
   - predicate: bio.summary

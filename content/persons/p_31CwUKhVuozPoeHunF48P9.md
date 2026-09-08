@@ -4,6 +4,7 @@ id: p_31CwUKhVuozPoeHunF48P9
 status: active
 merged_into: null
 display_name: 王聯甲
+cbdb_id: 415297
 revision: 1
 properties:
   - predicate: bio.summary

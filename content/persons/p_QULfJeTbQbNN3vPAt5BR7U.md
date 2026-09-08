@@ -4,6 +4,7 @@ id: p_QULfJeTbQbNN3vPAt5BR7U
 status: active
 merged_into: null
 display_name: 王應傑
+cbdb_id: 414634
 revision: 1
 properties:
   - predicate: bio.summary

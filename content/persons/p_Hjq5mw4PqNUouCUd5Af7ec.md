@@ -4,6 +4,7 @@ id: p_Hjq5mw4PqNUouCUd5Af7ec
 status: active
 merged_into: null
 display_name: 王正行
+cbdb_id: 499555
 revision: 1
 properties:
   - predicate: bio.summary

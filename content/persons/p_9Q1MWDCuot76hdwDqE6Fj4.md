@@ -4,6 +4,7 @@ id: p_9Q1MWDCuot76hdwDqE6Fj4
 status: active
 merged_into: null
 display_name: 王業新
+cbdb_id: 414880
 revision: 1
 properties:
   - predicate: bio.summary

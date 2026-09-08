@@ -4,6 +4,7 @@ id: p_8q7EWpu1hSNBYo3c2qZ1Hi
 status: active
 merged_into: null
 display_name: 王心自在
+cbdb_id: 140899
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_MQw6zqb5PMzxmJgQ7D4f7W
 status: active
 merged_into: null
 display_name: 王用相
+cbdb_id: 284148
 revision: 1
 properties:
   - predicate: bio.summary

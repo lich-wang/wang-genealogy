@@ -4,6 +4,7 @@ id: p_8feVFJChXiuqdjuvDVpPFr
 status: active
 merged_into: null
 display_name: 王季烈
+cbdb_id: 342113
 revision: 2
 properties:
   - predicate: bio.summary

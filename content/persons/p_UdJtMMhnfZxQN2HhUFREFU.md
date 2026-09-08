@@ -4,6 +4,7 @@ id: p_UdJtMMhnfZxQN2HhUFREFU
 status: active
 merged_into: null
 display_name: 王盛周
+cbdb_id: 415160
 revision: 1
 properties:
   - predicate: bio.summary

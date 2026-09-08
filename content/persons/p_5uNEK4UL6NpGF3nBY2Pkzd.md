@@ -4,6 +4,7 @@ id: p_5uNEK4UL6NpGF3nBY2Pkzd
 status: active
 merged_into: null
 display_name: 王衷亮
+cbdb_id: 341651
 revision: 1
 properties:
   - predicate: bio.summary

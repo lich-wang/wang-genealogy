@@ -4,6 +4,7 @@ id: p_tseeWB2X5JdNCnq855GMhg
 status: active
 merged_into: null
 display_name: 王元諭
+cbdb_id: 35743
 revision: 1
 properties:
   - predicate: bio.summary

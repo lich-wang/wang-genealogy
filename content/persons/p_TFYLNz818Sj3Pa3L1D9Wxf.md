@@ -4,6 +4,7 @@ id: p_TFYLNz818Sj3Pa3L1D9Wxf
 status: active
 merged_into: null
 display_name: 郭氏
+cbdb_id: 334084
 revision: 1
 properties:
   - predicate: name.primary

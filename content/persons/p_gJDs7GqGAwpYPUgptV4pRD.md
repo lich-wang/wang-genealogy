@@ -4,6 +4,7 @@ id: p_gJDs7GqGAwpYPUgptV4pRD
 status: active
 merged_into: null
 display_name: 王世茂
+cbdb_id: 439030
 revision: 1
 properties:
   - predicate: bio.summary

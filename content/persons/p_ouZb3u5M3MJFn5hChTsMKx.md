@@ -4,6 +4,7 @@ id: p_ouZb3u5M3MJFn5hChTsMKx
 status: active
 merged_into: null
 display_name: 王從祐
+cbdb_id: 159089
 revision: 1
 properties:
   - predicate: bio.summary

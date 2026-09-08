@@ -4,6 +4,7 @@ id: p_fKvPMpKncv85g4YdkPMD3x
 status: active
 merged_into: null
 display_name: 王龍韶
+cbdb_id: 341655
 revision: 1
 properties:
   - predicate: bio.summary

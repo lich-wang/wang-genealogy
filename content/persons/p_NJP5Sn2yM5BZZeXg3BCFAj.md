@@ -4,6 +4,7 @@ id: p_NJP5Sn2yM5BZZeXg3BCFAj
 status: active
 merged_into: null
 display_name: 王世翊
+cbdb_id: 413724
 revision: 1
 properties:
   - predicate: bio.summary

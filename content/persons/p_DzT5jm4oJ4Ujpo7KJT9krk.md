@@ -4,6 +4,7 @@ id: p_DzT5jm4oJ4Ujpo7KJT9krk
 status: active
 merged_into: null
 display_name: 王幼山
+cbdb_id: 61618
 revision: 1
 properties:
   - predicate: bio.summary

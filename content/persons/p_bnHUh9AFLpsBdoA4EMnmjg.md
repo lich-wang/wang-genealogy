@@ -4,6 +4,7 @@ id: p_bnHUh9AFLpsBdoA4EMnmjg
 status: active
 merged_into: null
 display_name: 王克從
+cbdb_id: 39054
 revision: 1
 properties:
   - predicate: bio.summary

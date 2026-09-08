@@ -4,6 +4,7 @@ id: p_nZxuzwuZ74TcymvsCP5xz2
 status: active
 merged_into: null
 display_name: 王鍍
+cbdb_id: 212646
 revision: 1
 properties:
   - predicate: bio.summary

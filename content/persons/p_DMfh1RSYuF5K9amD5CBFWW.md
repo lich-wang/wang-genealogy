@@ -4,6 +4,7 @@ id: p_DMfh1RSYuF5K9amD5CBFWW
 status: active
 merged_into: null
 display_name: 王希夷
+cbdb_id: 287981
 revision: 1
 properties:
   - predicate: bio.summary

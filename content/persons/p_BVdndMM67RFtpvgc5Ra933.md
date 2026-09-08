@@ -4,6 +4,7 @@ id: p_BVdndMM67RFtpvgc5Ra933
 status: active
 merged_into: null
 display_name: 王元芝
+cbdb_id: 413916
 revision: 1
 properties:
   - predicate: bio.summary

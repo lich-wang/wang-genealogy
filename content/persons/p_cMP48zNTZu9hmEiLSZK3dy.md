@@ -4,6 +4,7 @@ id: p_cMP48zNTZu9hmEiLSZK3dy
 status: active
 merged_into: null
 display_name: 王适
+cbdb_id: 175508
 revision: 1
 properties:
   - predicate: bio.summary

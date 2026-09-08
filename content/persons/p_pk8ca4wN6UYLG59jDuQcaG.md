@@ -4,6 +4,7 @@ id: p_pk8ca4wN6UYLG59jDuQcaG
 status: active
 merged_into: null
 display_name: 王養心
+cbdb_id: 22227
 revision: 1
 properties:
   - predicate: bio.summary

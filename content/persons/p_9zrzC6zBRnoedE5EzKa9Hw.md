@@ -4,6 +4,7 @@ id: p_9zrzC6zBRnoedE5EzKa9Hw
 status: active
 merged_into: null
 display_name: 王永光
+cbdb_id: 126480
 revision: 1
 properties:
   - predicate: bio.summary

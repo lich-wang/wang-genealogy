@@ -4,6 +4,7 @@ id: p_bm6LWSBAb2PXxQaQvhN3Lv
 status: active
 merged_into: null
 display_name: 王清蘭
+cbdb_id: 100193
 revision: 1
 properties:
   - predicate: bio.summary

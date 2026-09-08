@@ -4,6 +4,7 @@ id: p_w6cWAgmTWF9XZ318UHjSya
 status: active
 merged_into: null
 display_name: 王思與
+cbdb_id: 274764
 revision: 1
 properties:
   - predicate: bio.summary

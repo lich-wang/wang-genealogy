@@ -4,6 +4,7 @@ id: p_oBLDjR5Hdjeu8G8S7GFHUw
 status: active
 merged_into: null
 display_name: 王民熙
+cbdb_id: 210124
 revision: 1
 properties:
   - predicate: bio.summary

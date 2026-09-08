@@ -4,6 +4,7 @@ id: p_jbNCS4zKqNQcPnKY3bgC64
 status: active
 merged_into: null
 display_name: 王汝服
+cbdb_id: 493086
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_LyoULi7vVcEXN17nLEirWQ
 status: active
 merged_into: null
 display_name: 王七斤
+cbdb_id: 156058
 revision: 1
 properties:
   - predicate: bio.summary

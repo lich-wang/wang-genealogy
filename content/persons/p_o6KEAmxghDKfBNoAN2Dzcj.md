@@ -4,6 +4,7 @@ id: p_o6KEAmxghDKfBNoAN2Dzcj
 status: active
 merged_into: null
 display_name: 王蒙古不花
+cbdb_id: 101477
 revision: 1
 properties:
   - predicate: bio.summary

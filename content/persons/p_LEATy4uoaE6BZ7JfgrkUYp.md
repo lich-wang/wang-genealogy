@@ -4,6 +4,7 @@ id: p_LEATy4uoaE6BZ7JfgrkUYp
 status: active
 merged_into: null
 display_name: 王所諏
+cbdb_id: 414681
 revision: 1
 properties:
   - predicate: bio.summary

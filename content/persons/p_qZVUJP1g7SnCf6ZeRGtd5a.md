@@ -4,6 +4,7 @@ id: p_qZVUJP1g7SnCf6ZeRGtd5a
 status: active
 merged_into: null
 display_name: 王行中
+cbdb_id: 214288
 revision: 1
 properties:
   - predicate: bio.summary

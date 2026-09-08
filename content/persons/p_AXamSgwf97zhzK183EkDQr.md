@@ -4,6 +4,7 @@ id: p_AXamSgwf97zhzK183EkDQr
 status: active
 merged_into: null
 display_name: 王國文
+cbdb_id: 191567
 revision: 1
 properties:
   - predicate: bio.summary

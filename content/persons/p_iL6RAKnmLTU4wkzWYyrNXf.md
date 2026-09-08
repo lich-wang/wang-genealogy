@@ -4,6 +4,7 @@ id: p_iL6RAKnmLTU4wkzWYyrNXf
 status: active
 merged_into: null
 display_name: 王啟玉
+cbdb_id: 136193
 revision: 1
 properties:
   - predicate: bio.summary

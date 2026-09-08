@@ -4,6 +4,7 @@ id: p_CoDhAE6fC5JFB1FsBJjCq1
 status: active
 merged_into: null
 display_name: 邢氏
+cbdb_id: 220265
 revision: 1
 properties:
   - predicate: name.primary

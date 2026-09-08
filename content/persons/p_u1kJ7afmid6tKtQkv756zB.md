@@ -4,6 +4,7 @@ id: p_u1kJ7afmid6tKtQkv756zB
 status: active
 merged_into: null
 display_name: 王景獻
+cbdb_id: 343490
 revision: 1
 properties:
   - predicate: bio.summary

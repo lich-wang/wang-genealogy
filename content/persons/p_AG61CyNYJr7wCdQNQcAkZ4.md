@@ -4,6 +4,7 @@ id: p_AG61CyNYJr7wCdQNQcAkZ4
 status: active
 merged_into: null
 display_name: 王神祐
+cbdb_id: 149142
 revision: 1
 properties:
   - predicate: bio.summary

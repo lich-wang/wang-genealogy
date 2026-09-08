@@ -4,6 +4,7 @@ id: p_5HQu23jcME6zt69ukr6bAw
 status: active
 merged_into: null
 display_name: 王訟之
+cbdb_id: 209585
 revision: 1
 properties:
   - predicate: bio.summary

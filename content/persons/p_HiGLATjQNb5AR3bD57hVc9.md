@@ -4,6 +4,7 @@ id: p_HiGLATjQNb5AR3bD57hVc9
 status: active
 merged_into: null
 display_name: 王遷善
+cbdb_id: 28624
 revision: 1
 properties:
   - predicate: bio.summary

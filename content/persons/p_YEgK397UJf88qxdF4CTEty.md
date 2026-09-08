@@ -4,6 +4,7 @@ id: p_YEgK397UJf88qxdF4CTEty
 status: active
 merged_into: null
 display_name: 王偉士
+cbdb_id: 342329
 revision: 1
 properties:
   - predicate: bio.summary

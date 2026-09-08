@@ -4,6 +4,7 @@ id: p_Q7wseUVMMzks3Dk919AK4X
 status: active
 merged_into: null
 display_name: 王禮賢
+cbdb_id: 285853
 revision: 1
 properties:
   - predicate: bio.summary

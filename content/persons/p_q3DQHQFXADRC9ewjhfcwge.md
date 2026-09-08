@@ -4,6 +4,7 @@ id: p_q3DQHQFXADRC9ewjhfcwge
 status: active
 merged_into: null
 display_name: 王乘樞
+cbdb_id: 413776
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_cJMYCKLs8uMSrB7rZNBjD2
 status: active
 merged_into: null
 display_name: 王譲
+cbdb_id: 415424
 revision: 1
 properties:
   - predicate: bio.summary

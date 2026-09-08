@@ -4,6 +4,7 @@ id: p_sK1j99h8Uv3HbgcWA8mwrQ
 status: active
 merged_into: null
 display_name: 王家憲
+cbdb_id: 342524
 revision: 1
 properties:
   - predicate: bio.summary

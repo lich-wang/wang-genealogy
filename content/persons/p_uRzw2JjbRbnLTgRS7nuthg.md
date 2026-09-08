@@ -4,6 +4,7 @@ id: p_uRzw2JjbRbnLTgRS7nuthg
 status: active
 merged_into: null
 display_name: 王清林
+cbdb_id: 500511
 revision: 1
 properties:
   - predicate: bio.summary

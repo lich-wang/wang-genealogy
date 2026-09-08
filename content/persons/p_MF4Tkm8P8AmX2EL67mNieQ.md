@@ -4,6 +4,7 @@ id: p_MF4Tkm8P8AmX2EL67mNieQ
 status: active
 merged_into: null
 display_name: 王广臣
+cbdb_id: 36574
 revision: 2
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_Ex9uXZxP6i2wPp5KSJ7RrH
 status: active
 merged_into: null
 display_name: 王肯穀
+cbdb_id: 342170
 revision: 1
 properties:
   - predicate: bio.summary

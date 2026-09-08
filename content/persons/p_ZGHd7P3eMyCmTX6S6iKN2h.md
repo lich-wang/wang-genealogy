@@ -4,6 +4,7 @@ id: p_ZGHd7P3eMyCmTX6S6iKN2h
 status: active
 merged_into: null
 display_name: 王兀愛
+cbdb_id: 101025
 revision: 1
 properties:
   - predicate: bio.summary

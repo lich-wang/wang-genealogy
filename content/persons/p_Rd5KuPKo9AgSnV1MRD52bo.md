@@ -4,6 +4,7 @@ id: p_Rd5KuPKo9AgSnV1MRD52bo
 status: active
 merged_into: null
 display_name: 王敕
+cbdb_id: 343404
 revision: 1
 properties:
   - predicate: bio.summary

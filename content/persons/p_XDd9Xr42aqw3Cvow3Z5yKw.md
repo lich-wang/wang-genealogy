@@ -4,6 +4,7 @@ id: p_XDd9Xr42aqw3Cvow3Z5yKw
 status: active
 merged_into: null
 display_name: 王允仁
+cbdb_id: 291909
 revision: 1
 properties:
   - predicate: bio.summary

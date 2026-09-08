@@ -4,6 +4,7 @@ id: p_RshiyrUfRWUC5cxB5UZNsr
 status: active
 merged_into: null
 display_name: 王養廉
+cbdb_id: 343767
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_nGm5to4a52i6hjRikxNRAk
 status: active
 merged_into: null
 display_name: 王革享
+cbdb_id: 415599
 revision: 1
 properties:
   - predicate: bio.summary

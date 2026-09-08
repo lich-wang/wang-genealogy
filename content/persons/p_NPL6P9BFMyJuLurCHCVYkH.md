@@ -4,6 +4,7 @@ id: p_NPL6P9BFMyJuLurCHCVYkH
 status: active
 merged_into: null
 display_name: 王貴華
+cbdb_id: 322902
 revision: 1
 properties:
   - predicate: bio.summary

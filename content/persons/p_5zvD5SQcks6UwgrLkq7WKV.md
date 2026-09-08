@@ -4,6 +4,7 @@ id: p_5zvD5SQcks6UwgrLkq7WKV
 status: active
 merged_into: null
 display_name: 王養盛
+cbdb_id: 415612
 revision: 1
 properties:
   - predicate: bio.summary

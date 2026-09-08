@@ -4,6 +4,7 @@ id: p_VC8bBPzAyQehLYq3eBykXc
 status: active
 merged_into: null
 display_name: 王時儉
+cbdb_id: 203083
 revision: 1
 properties:
   - predicate: bio.summary

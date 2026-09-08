@@ -4,6 +4,7 @@ id: p_D3EQoi8fQsH2iVoHKAD5QL
 status: active
 merged_into: null
 display_name: 王滿五
+cbdb_id: 277193
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_JkLZ98GMjWU2FaE41FtyPu
 status: active
 merged_into: null
 display_name: 王扈
+cbdb_id: 97903
 revision: 1
 properties:
   - predicate: bio.summary

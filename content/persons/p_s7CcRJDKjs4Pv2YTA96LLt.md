@@ -4,6 +4,7 @@ id: p_s7CcRJDKjs4Pv2YTA96LLt
 status: active
 merged_into: null
 display_name: 王天貴
+cbdb_id: 496075
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_XGa4gJRyCRnpFSH2iKejgz
 status: active
 merged_into: null
 display_name: 王克欽
+cbdb_id: 413951
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_Dwc6dHhq5Ueq73FAXoGUUj
 status: active
 merged_into: null
 display_name: 王叔政
+cbdb_id: 383483
 revision: 1
 properties:
   - predicate: bio.summary

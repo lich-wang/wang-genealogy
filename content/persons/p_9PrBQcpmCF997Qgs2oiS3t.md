@@ -4,6 +4,7 @@ id: p_9PrBQcpmCF997Qgs2oiS3t
 status: active
 merged_into: null
 display_name: 王本儉
+cbdb_id: 199945
 revision: 1
 properties:
   - predicate: bio.summary

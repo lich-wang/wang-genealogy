@@ -4,6 +4,7 @@ id: p_BgN1jLcg47MdSkxx7nEyNR
 status: active
 merged_into: null
 display_name: 王國淑
+cbdb_id: 517385
 revision: 1
 properties:
   - predicate: bio.summary

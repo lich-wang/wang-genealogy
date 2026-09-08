@@ -4,6 +4,7 @@ id: p_kxtMcEYWenafuViNkrNUQE
 status: active
 merged_into: null
 display_name: 王世球
+cbdb_id: 71465
 revision: 1
 properties:
   - predicate: bio.summary

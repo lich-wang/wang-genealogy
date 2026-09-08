@@ -4,6 +4,7 @@ id: p_wu7ZAyddjnFGGy2EwtNa1z
 status: active
 merged_into: null
 display_name: 王來覲
+cbdb_id: 69242
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_GeKn9BcCAf5zuoKvTV3MAf
 status: active
 merged_into: null
 display_name: 王化新
+cbdb_id: 234433
 revision: 1
 properties:
   - predicate: bio.summary

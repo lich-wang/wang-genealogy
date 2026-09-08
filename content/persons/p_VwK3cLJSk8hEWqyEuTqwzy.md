@@ -4,6 +4,7 @@ id: p_VwK3cLJSk8hEWqyEuTqwzy
 status: active
 merged_into: null
 display_name: 王次傳
+cbdb_id: 38601
 revision: 1
 properties:
   - predicate: bio.summary

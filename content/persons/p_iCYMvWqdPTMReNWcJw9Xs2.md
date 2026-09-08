@@ -4,6 +4,7 @@ id: p_iCYMvWqdPTMReNWcJw9Xs2
 status: active
 merged_into: null
 display_name: 王臣端
+cbdb_id: 158749
 revision: 1
 properties:
   - predicate: bio.summary

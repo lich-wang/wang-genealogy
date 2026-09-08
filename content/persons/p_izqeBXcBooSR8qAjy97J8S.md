@@ -4,6 +4,7 @@ id: p_izqeBXcBooSR8qAjy97J8S
 status: active
 merged_into: null
 display_name: 王澤隆
+cbdb_id: 415051
 revision: 1
 properties:
   - predicate: bio.summary

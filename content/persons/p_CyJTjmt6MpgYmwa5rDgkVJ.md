@@ -4,6 +4,7 @@ id: p_CyJTjmt6MpgYmwa5rDgkVJ
 status: active
 merged_into: null
 display_name: 王宗休
+cbdb_id: 226573
 revision: 1
 properties:
   - predicate: bio.summary

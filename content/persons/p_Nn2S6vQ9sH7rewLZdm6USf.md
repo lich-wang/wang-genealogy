@@ -4,6 +4,7 @@ id: p_Nn2S6vQ9sH7rewLZdm6USf
 status: active
 merged_into: null
 display_name: 王納陳
+cbdb_id: 281217
 revision: 1
 properties:
   - predicate: bio.summary

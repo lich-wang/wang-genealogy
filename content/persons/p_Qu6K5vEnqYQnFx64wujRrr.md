@@ -4,6 +4,7 @@ id: p_Qu6K5vEnqYQnFx64wujRrr
 status: active
 merged_into: null
 display_name: 王銘錫
+cbdb_id: 343833
 revision: 1
 properties:
   - predicate: bio.summary

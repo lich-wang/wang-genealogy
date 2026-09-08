@@ -4,6 +4,7 @@ id: p_M6dfkXN9dBBDD5LBfYYcmm
 status: active
 merged_into: null
 display_name: 王追騏
+cbdb_id: 338248
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_QqmW4LbV4TtYFNgQc248uD
 status: active
 merged_into: null
 display_name: 王建斗
+cbdb_id: 522132
 revision: 1
 properties:
   - predicate: bio.summary

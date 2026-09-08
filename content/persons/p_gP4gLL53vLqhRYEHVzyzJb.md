@@ -4,6 +4,7 @@ id: p_gP4gLL53vLqhRYEHVzyzJb
 status: active
 merged_into: null
 display_name: 王蘂修
+cbdb_id: 343217
 revision: 1
 properties:
   - predicate: bio.summary

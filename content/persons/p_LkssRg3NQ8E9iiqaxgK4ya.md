@@ -4,6 +4,7 @@ id: p_LkssRg3NQ8E9iiqaxgK4ya
 status: active
 merged_into: null
 display_name: 王允臣
+cbdb_id: 413895
 revision: 1
 properties:
   - predicate: bio.summary

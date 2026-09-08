@@ -4,6 +4,7 @@ id: p_LQLpRTgBTaLv4pJUAStLZb
 status: active
 merged_into: null
 display_name: 王惟叢
+cbdb_id: 414611
 revision: 1
 properties:
   - predicate: bio.summary

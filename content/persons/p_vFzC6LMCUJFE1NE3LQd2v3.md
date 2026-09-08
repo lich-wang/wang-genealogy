@@ -4,6 +4,7 @@ id: p_vFzC6LMCUJFE1NE3LQd2v3
 status: active
 merged_into: null
 display_name: 王宗湋
+cbdb_id: 305713
 revision: 1
 properties:
   - predicate: bio.summary

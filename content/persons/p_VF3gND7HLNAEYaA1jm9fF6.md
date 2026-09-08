@@ -4,6 +4,7 @@ id: p_VF3gND7HLNAEYaA1jm9fF6
 status: active
 merged_into: null
 display_name: 王晉孫
+cbdb_id: 514234
 revision: 1
 properties:
   - predicate: bio.summary

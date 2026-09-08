@@ -4,6 +4,7 @@ id: p_ehYqdoNwM4M6Y7jppYHDh1
 status: active
 merged_into: null
 display_name: 王化民
+cbdb_id: 414000
 revision: 1
 properties:
   - predicate: bio.summary

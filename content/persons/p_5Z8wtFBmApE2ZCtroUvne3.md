@@ -4,6 +4,7 @@ id: p_5Z8wtFBmApE2ZCtroUvne3
 status: active
 merged_into: null
 display_name: 王加棟
+cbdb_id: 413991
 revision: 1
 properties:
   - predicate: bio.summary

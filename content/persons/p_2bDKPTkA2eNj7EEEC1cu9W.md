@@ -4,6 +4,7 @@ id: p_2bDKPTkA2eNj7EEEC1cu9W
 status: active
 merged_into: null
 display_name: 王季貞
+cbdb_id: 175811
 revision: 1
 properties:
   - predicate: bio.summary

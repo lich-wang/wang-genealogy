@@ -4,6 +4,7 @@ id: p_5RSxEJAu5VuwNpaediNpWE
 status: active
 merged_into: null
 display_name: 王孫武
+cbdb_id: 513489
 revision: 1
 properties:
   - predicate: bio.summary

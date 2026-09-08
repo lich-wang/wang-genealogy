@@ -4,6 +4,7 @@ id: p_xUA4eT3TDB7jBSsjASgaPt
 status: active
 merged_into: null
 display_name: 王振祚
+cbdb_id: 343366
 revision: 1
 properties:
   - predicate: bio.summary

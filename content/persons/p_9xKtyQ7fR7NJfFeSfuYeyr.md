@@ -4,6 +4,7 @@ id: p_9xKtyQ7fR7NJfFeSfuYeyr
 status: active
 merged_into: null
 display_name: 王尚得
+cbdb_id: 414381
 revision: 1
 properties:
   - predicate: bio.summary

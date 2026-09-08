@@ -4,6 +4,7 @@ id: p_md9WMgNKG6ZRuR3NnqP8b5
 status: active
 merged_into: null
 display_name: 王與玟
+cbdb_id: 126756
 revision: 1
 properties:
   - predicate: bio.summary

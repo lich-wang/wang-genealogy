@@ -4,6 +4,7 @@ id: p_3GQppBhM3idUfJASVhdQG5
 status: active
 merged_into: null
 display_name: 王冬芳
+cbdb_id: 413980
 revision: 1
 properties:
   - predicate: bio.summary

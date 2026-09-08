@@ -4,6 +4,7 @@ id: p_8o27SggqbSfrSHjarjjmM5
 status: active
 merged_into: null
 display_name: 王浩翁
+cbdb_id: 101316
 revision: 1
 properties:
   - predicate: bio.summary

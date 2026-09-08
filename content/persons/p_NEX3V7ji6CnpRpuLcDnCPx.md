@@ -4,6 +4,7 @@ id: p_NEX3V7ji6CnpRpuLcDnCPx
 status: active
 merged_into: null
 display_name: 王份
+cbdb_id: 175579
 revision: 1
 properties:
   - predicate: bio.summary

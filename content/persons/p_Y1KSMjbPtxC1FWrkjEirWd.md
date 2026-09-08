@@ -4,6 +4,7 @@ id: p_Y1KSMjbPtxC1FWrkjEirWd
 status: active
 merged_into: null
 display_name: 王允鼎
+cbdb_id: 413899
 revision: 1
 properties:
   - predicate: bio.summary

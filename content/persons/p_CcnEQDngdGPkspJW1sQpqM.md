@@ -4,6 +4,7 @@ id: p_CcnEQDngdGPkspJW1sQpqM
 status: active
 merged_into: null
 display_name: 王芃
+cbdb_id: 222178
 revision: 1
 properties:
   - predicate: bio.summary

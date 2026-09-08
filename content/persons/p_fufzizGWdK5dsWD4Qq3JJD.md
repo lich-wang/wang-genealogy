@@ -4,6 +4,7 @@ id: p_fufzizGWdK5dsWD4Qq3JJD
 status: active
 merged_into: null
 display_name: 王伯康
+cbdb_id: 101183
 revision: 1
 properties:
   - predicate: bio.summary

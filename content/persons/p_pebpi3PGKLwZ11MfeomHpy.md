@@ -4,6 +4,7 @@ id: p_pebpi3PGKLwZ11MfeomHpy
 status: active
 merged_into: null
 display_name: 王昭誨
+cbdb_id: 190462
 revision: 1
 properties:
   - predicate: bio.summary

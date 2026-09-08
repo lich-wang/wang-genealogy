@@ -4,6 +4,7 @@ id: p_hiVAr6WUUN6ACAQdKNTSg2
 status: active
 merged_into: null
 display_name: 王仙姿
+cbdb_id: 120463
 revision: 1
 properties:
   - predicate: bio.summary

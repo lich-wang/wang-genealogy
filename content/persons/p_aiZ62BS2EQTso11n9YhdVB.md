@@ -4,6 +4,7 @@ id: p_aiZ62BS2EQTso11n9YhdVB
 status: active
 merged_into: null
 display_name: 丁肇圣
+cbdb_id: 122753
 revision: 1
 properties:
   - predicate: bio.summary

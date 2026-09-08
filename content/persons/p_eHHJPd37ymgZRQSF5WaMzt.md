@@ -4,6 +4,7 @@ id: p_eHHJPd37ymgZRQSF5WaMzt
 status: active
 merged_into: null
 display_name: 王延禧
+cbdb_id: 17916
 revision: 1
 properties:
   - predicate: bio.summary

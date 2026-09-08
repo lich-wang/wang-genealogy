@@ -4,6 +4,7 @@ id: p_kAPsKZEYuDhLPWohCn8oJQ
 status: active
 merged_into: null
 display_name: 王雲萬
+cbdb_id: 341847
 revision: 1
 properties:
   - predicate: bio.summary

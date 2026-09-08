@@ -4,6 +4,7 @@ id: p_oLmJkXrQwRpJQh8z2hJtbQ
 status: active
 merged_into: null
 display_name: 王奎文
+cbdb_id: 101264
 revision: 1
 properties:
   - predicate: bio.summary

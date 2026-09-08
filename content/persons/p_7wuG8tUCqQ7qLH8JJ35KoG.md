@@ -4,6 +4,7 @@ id: p_7wuG8tUCqQ7qLH8JJ35KoG
 status: active
 merged_into: null
 display_name: 王九淵
+cbdb_id: 221746
 revision: 1
 properties:
   - predicate: bio.summary

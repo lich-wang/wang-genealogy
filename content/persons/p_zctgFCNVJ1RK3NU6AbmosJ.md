@@ -4,6 +4,7 @@ id: p_zctgFCNVJ1RK3NU6AbmosJ
 status: active
 merged_into: null
 display_name: 王行成
+cbdb_id: 165865
 revision: 1
 properties:
   - predicate: bio.summary

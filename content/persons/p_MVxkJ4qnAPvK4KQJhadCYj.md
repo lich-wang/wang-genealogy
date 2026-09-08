@@ -4,6 +4,7 @@ id: p_MVxkJ4qnAPvK4KQJhadCYj
 status: active
 merged_into: null
 display_name: 王元蘭
+cbdb_id: 235480
 revision: 1
 properties:
   - predicate: bio.summary

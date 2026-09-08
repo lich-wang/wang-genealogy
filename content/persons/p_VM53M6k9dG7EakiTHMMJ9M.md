@@ -4,6 +4,7 @@ id: p_VM53M6k9dG7EakiTHMMJ9M
 status: active
 merged_into: null
 display_name: 王凌
+cbdb_id: 413982
 revision: 1
 properties:
   - predicate: bio.summary

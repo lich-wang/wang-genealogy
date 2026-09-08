@@ -4,6 +4,7 @@ id: p_3Myb97D1SiKjhymH1XsKkM
 status: active
 merged_into: null
 display_name: 王子琦
+cbdb_id: 27012
 revision: 1
 properties:
   - predicate: bio.summary

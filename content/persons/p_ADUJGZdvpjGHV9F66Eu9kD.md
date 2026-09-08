@@ -4,6 +4,7 @@ id: p_ADUJGZdvpjGHV9F66Eu9kD
 status: active
 merged_into: null
 display_name: 王思中
+cbdb_id: 414589
 revision: 1
 properties:
   - predicate: bio.summary

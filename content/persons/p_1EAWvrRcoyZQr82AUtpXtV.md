@@ -4,6 +4,7 @@ id: p_1EAWvrRcoyZQr82AUtpXtV
 status: active
 merged_into: null
 display_name: 王爾彥
+cbdb_id: 415088
 revision: 1
 properties:
   - predicate: bio.summary

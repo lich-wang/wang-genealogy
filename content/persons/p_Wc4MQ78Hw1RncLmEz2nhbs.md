@@ -4,6 +4,7 @@ id: p_Wc4MQ78Hw1RncLmEz2nhbs
 status: active
 merged_into: null
 display_name: 王溫故
+cbdb_id: 415037
 revision: 1
 properties:
   - predicate: bio.summary

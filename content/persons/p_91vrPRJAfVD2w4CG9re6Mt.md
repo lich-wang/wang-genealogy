@@ -4,6 +4,7 @@ id: p_91vrPRJAfVD2w4CG9re6Mt
 status: active
 merged_into: null
 display_name: 王稷臣
+cbdb_id: 144811
 revision: 1
 properties:
   - predicate: bio.summary

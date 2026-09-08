@@ -4,6 +4,7 @@ id: p_8r6AL5FTP3fryHvmmK78YC
 status: active
 merged_into: null
 display_name: 王陛臣
+cbdb_id: 415577
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_AxxwYJjCBzKJ3mM7CDjks6
 status: active
 merged_into: null
 display_name: 王惟和
+cbdb_id: 72007
 revision: 1
 properties:
   - predicate: bio.summary

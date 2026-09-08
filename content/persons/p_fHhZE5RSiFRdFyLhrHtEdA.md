@@ -4,6 +4,7 @@ id: p_fHhZE5RSiFRdFyLhrHtEdA
 status: active
 merged_into: null
 display_name: 王僚先
+cbdb_id: 97801
 revision: 1
 properties:
   - predicate: bio.summary

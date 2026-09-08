@@ -4,6 +4,7 @@ id: p_zoyUEEcMGfte7ZGkLA4ZXs
 status: active
 merged_into: null
 display_name: 王述曾
+cbdb_id: 71737
 revision: 1
 properties:
   - predicate: bio.summary

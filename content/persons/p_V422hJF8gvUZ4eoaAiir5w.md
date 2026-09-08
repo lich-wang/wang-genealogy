@@ -4,6 +4,7 @@ id: p_V422hJF8gvUZ4eoaAiir5w
 status: active
 merged_into: null
 display_name: 王文宇
+cbdb_id: 561458
 revision: 1
 properties:
   - predicate: bio.summary

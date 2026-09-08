@@ -4,6 +4,7 @@ id: p_TRCfxeV2R56ijFDgAFbL21
 status: active
 merged_into: null
 display_name: 王汝振
+cbdb_id: 414966
 revision: 1
 properties:
   - predicate: bio.summary

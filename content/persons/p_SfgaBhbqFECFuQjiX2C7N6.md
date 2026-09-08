@@ -4,6 +4,7 @@ id: p_SfgaBhbqFECFuQjiX2C7N6
 status: active
 merged_into: null
 display_name: 王維章
+cbdb_id: 342136
 revision: 1
 properties:
   - predicate: bio.summary

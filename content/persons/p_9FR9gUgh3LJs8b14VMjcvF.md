@@ -4,6 +4,7 @@ id: p_9FR9gUgh3LJs8b14VMjcvF
 status: active
 merged_into: null
 display_name: 王貫行
+cbdb_id: 415434
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_DZ3863UwnB2WQvWfuKkA6B
 status: active
 merged_into: null
 display_name: 王可舉
+cbdb_id: 101124
 revision: 1
 properties:
   - predicate: bio.summary

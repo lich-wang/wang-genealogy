@@ -4,6 +4,7 @@ id: p_DFXfjXnMSNvR6NYCxK1F74
 status: active
 merged_into: null
 display_name: 王熙齡
+cbdb_id: 343652
 revision: 1
 properties:
   - predicate: bio.summary

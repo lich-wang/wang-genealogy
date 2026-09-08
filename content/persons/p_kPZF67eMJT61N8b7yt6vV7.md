@@ -4,6 +4,7 @@ id: p_kPZF67eMJT61N8b7yt6vV7
 status: active
 merged_into: null
 display_name: 王致道
+cbdb_id: 212073
 revision: 1
 properties:
   - predicate: bio.summary

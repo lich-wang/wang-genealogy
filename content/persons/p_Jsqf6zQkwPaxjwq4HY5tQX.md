@@ -4,6 +4,7 @@ id: p_Jsqf6zQkwPaxjwq4HY5tQX
 status: active
 merged_into: null
 display_name: 王与文
+cbdb_id: 235541
 revision: 1
 properties:
   - predicate: name.primary

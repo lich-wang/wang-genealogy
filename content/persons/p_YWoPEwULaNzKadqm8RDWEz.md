@@ -4,6 +4,7 @@ id: p_YWoPEwULaNzKadqm8RDWEz
 status: active
 merged_into: null
 display_name: 王惺
+cbdb_id: 343923
 revision: 1
 properties:
   - predicate: bio.summary

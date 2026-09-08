@@ -4,6 +4,7 @@ id: p_NbRopM3FzW4PQR8Tj37pV8
 status: active
 merged_into: null
 display_name: 王公拳
+cbdb_id: 481544
 revision: 1
 properties:
   - predicate: bio.summary

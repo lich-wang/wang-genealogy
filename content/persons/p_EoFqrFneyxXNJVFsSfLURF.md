@@ -4,6 +4,7 @@ id: p_EoFqrFneyxXNJVFsSfLURF
 status: active
 merged_into: null
 display_name: 王仁忠
+cbdb_id: 175870
 revision: 2
 properties:
   - predicate: bio.summary

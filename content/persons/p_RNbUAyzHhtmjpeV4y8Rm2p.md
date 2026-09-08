@@ -4,6 +4,7 @@ id: p_RNbUAyzHhtmjpeV4y8Rm2p
 status: active
 merged_into: null
 display_name: 王顕
+cbdb_id: 415604
 revision: 1
 properties:
   - predicate: bio.summary

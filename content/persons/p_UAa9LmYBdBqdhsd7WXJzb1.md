@@ -4,6 +4,7 @@ id: p_UAa9LmYBdBqdhsd7WXJzb1
 status: active
 merged_into: null
 display_name: 王弘誥
+cbdb_id: 331182
 revision: 1
 properties:
   - predicate: bio.summary

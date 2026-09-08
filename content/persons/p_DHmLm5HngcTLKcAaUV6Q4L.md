@@ -4,6 +4,7 @@ id: p_DHmLm5HngcTLKcAaUV6Q4L
 status: active
 merged_into: null
 display_name: 王先进
+cbdb_id: 30378
 revision: 1
 properties:
   - predicate: bio.summary

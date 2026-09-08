@@ -4,6 +4,7 @@ id: p_XdM9kVVD7CxyDqeYGbGgo1
 status: active
 merged_into: null
 display_name: 王崇憲
+cbdb_id: 222715
 revision: 1
 properties:
   - predicate: bio.summary

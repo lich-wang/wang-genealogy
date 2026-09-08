@@ -4,6 +4,7 @@ id: p_zK991JnPgoDLt2L6zBXFf9
 status: active
 merged_into: null
 display_name: 王禹都
+cbdb_id: 209578
 revision: 1
 properties:
   - predicate: bio.summary

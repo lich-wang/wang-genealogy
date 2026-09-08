@@ -4,6 +4,7 @@ id: p_pUGER5MszyJwVSJPy8XARQ
 status: active
 merged_into: null
 display_name: 王乃新
+cbdb_id: 69050
 revision: 1
 properties:
   - predicate: bio.summary

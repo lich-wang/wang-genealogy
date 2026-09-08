@@ -4,6 +4,7 @@ id: p_s9KgpZk9CwND5Zg1aDnkjK
 status: active
 merged_into: null
 display_name: 王玉成
+cbdb_id: 69116
 revision: 1
 properties:
   - predicate: bio.summary

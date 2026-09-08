@@ -4,6 +4,7 @@ id: p_quzuLvPecHArZ4vX7i12WD
 status: active
 merged_into: null
 display_name: 王原遠
+cbdb_id: 253505
 revision: 1
 properties:
   - predicate: bio.summary

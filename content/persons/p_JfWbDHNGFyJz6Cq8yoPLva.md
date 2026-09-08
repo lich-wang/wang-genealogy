@@ -4,6 +4,7 @@ id: p_JfWbDHNGFyJz6Cq8yoPLva
 status: active
 merged_into: null
 display_name: 王崇基
+cbdb_id: 33014
 revision: 2
 properties:
   - predicate: bio.summary

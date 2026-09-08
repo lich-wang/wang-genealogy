@@ -4,6 +4,7 @@ id: p_Ki7T9v633MwS8hgG6F86Ar
 status: active
 merged_into: null
 display_name: 王師虔
+cbdb_id: 381226
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_AHLmSv3tJfg28rWvY8tFaX
 status: active
 merged_into: null
 display_name: 王事逢
+cbdb_id: 413789
 revision: 1
 properties:
   - predicate: bio.summary

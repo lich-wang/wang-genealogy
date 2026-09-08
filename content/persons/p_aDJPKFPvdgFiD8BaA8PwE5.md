@@ -4,6 +4,7 @@ id: p_aDJPKFPvdgFiD8BaA8PwE5
 status: active
 merged_into: null
 display_name: 王鴻勳
+cbdb_id: 415640
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_GT9uGJsZBGUbPRhb87K9nh
 status: active
 merged_into: null
 display_name: 王復輝
+cbdb_id: 414544
 revision: 1
 properties:
   - predicate: bio.summary

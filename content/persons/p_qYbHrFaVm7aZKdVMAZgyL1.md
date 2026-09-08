@@ -4,6 +4,7 @@ id: p_qYbHrFaVm7aZKdVMAZgyL1
 status: active
 merged_into: null
 display_name: 王应斌
+cbdb_id: 294875
 revision: 1
 properties:
   - predicate: bio.summary

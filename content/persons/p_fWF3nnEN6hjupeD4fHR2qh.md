@@ -4,6 +4,7 @@ id: p_fWF3nnEN6hjupeD4fHR2qh
 status: active
 merged_into: null
 display_name: 王嵩卿
+cbdb_id: 24350
 revision: 1
 properties:
   - predicate: bio.summary

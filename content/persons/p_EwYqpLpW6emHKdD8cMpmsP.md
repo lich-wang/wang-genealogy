@@ -4,6 +4,7 @@ id: p_EwYqpLpW6emHKdD8cMpmsP
 status: active
 merged_into: null
 display_name: 王濟邦
+cbdb_id: 415056
 revision: 1
 properties:
   - predicate: bio.summary

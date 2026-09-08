@@ -4,6 +4,7 @@ id: p_eHPGE6GvUtTD8VCfeCV2pJ
 status: active
 merged_into: null
 display_name: 王嘉聘
+cbdb_id: 208854
 revision: 1
 properties:
   - predicate: bio.summary

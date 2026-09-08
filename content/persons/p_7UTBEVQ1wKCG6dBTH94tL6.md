@@ -4,6 +4,7 @@ id: p_7UTBEVQ1wKCG6dBTH94tL6
 status: active
 merged_into: null
 display_name: 王喜仙
+cbdb_id: 439467
 revision: 1
 properties:
   - predicate: bio.summary

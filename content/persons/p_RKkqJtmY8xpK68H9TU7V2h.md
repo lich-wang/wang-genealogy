@@ -4,6 +4,7 @@ id: p_RKkqJtmY8xpK68H9TU7V2h
 status: active
 merged_into: null
 display_name: 王岳錫
+cbdb_id: 206741
 revision: 1
 properties:
   - predicate: bio.summary

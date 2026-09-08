@@ -4,6 +4,7 @@ id: p_C9pC1pixC3sE8dJBZharbM
 status: active
 merged_into: null
 display_name: 王紫綬
+cbdb_id: 69335
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_8b3iLW9bXH42d3DjadCJky
 status: active
 merged_into: null
 display_name: 王少陽
+cbdb_id: 221868
 revision: 1
 properties:
   - predicate: bio.summary

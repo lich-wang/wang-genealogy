@@ -4,6 +4,7 @@ id: p_NtDADaEfWNLcf32TeZQKe5
 status: active
 merged_into: null
 display_name: 王師會
+cbdb_id: 185229
 revision: 1
 properties:
   - predicate: bio.summary

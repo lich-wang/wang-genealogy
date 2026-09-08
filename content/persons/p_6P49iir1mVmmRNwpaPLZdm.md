@@ -4,6 +4,7 @@ id: p_6P49iir1mVmmRNwpaPLZdm
 status: active
 merged_into: null
 display_name: 王應鈺
+cbdb_id: 312623
 revision: 1
 properties:
   - predicate: bio.summary

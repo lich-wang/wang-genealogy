@@ -4,6 +4,7 @@ id: p_wCQ4n6gjkTCPS8LugdRHWA
 status: active
 merged_into: null
 display_name: 王承休
+cbdb_id: 17750
 revision: 2
 properties:
   - predicate: bio.summary

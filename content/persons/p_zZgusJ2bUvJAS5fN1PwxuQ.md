@@ -4,6 +4,7 @@ id: p_zZgusJ2bUvJAS5fN1PwxuQ
 status: active
 merged_into: null
 display_name: 王崇勳
+cbdb_id: 302980
 revision: 1
 properties:
   - predicate: bio.summary

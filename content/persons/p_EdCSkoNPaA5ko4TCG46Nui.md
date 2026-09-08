@@ -4,6 +4,7 @@ id: p_EdCSkoNPaA5ko4TCG46Nui
 status: active
 merged_into: null
 display_name: 王寅祖
+cbdb_id: 97866
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_rZE11xR3Y2Qvf6UYQaFi79
 status: active
 merged_into: null
 display_name: 王揩
+cbdb_id: 414707
 revision: 1
 properties:
   - predicate: bio.summary

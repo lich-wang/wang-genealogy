@@ -4,6 +4,7 @@ id: p_9BA38RY5sU43FcBeA4NG6C
 status: active
 merged_into: null
 display_name: 王寶森
+cbdb_id: 414365
 revision: 1
 properties:
   - predicate: bio.summary

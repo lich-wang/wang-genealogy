@@ -4,6 +4,7 @@ id: p_VLtC8CDJh5E2i42Aedjyf9
 status: active
 merged_into: null
 display_name: 王時譽
+cbdb_id: 291902
 revision: 1
 properties:
   - predicate: bio.summary

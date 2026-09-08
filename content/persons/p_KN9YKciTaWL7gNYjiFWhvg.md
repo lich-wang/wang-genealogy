@@ -4,6 +4,7 @@ id: p_KN9YKciTaWL7gNYjiFWhvg
 status: active
 merged_into: null
 display_name: 王隆熙
+cbdb_id: 72025
 revision: 1
 properties:
   - predicate: bio.summary

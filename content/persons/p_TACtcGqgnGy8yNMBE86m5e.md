@@ -4,6 +4,7 @@ id: p_TACtcGqgnGy8yNMBE86m5e
 status: active
 merged_into: null
 display_name: 王士喜
+cbdb_id: 35061
 revision: 1
 properties:
   - predicate: bio.summary

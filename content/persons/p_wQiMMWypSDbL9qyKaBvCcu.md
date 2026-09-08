@@ -4,6 +4,7 @@ id: p_wQiMMWypSDbL9qyKaBvCcu
 status: active
 merged_into: null
 display_name: 王勝輝
+cbdb_id: 413995
 revision: 1
 properties:
   - predicate: bio.summary

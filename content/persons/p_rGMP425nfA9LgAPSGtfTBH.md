@@ -4,6 +4,7 @@ id: p_rGMP425nfA9LgAPSGtfTBH
 status: active
 merged_into: null
 display_name: 王允康
+cbdb_id: 413891
 revision: 1
 properties:
   - predicate: bio.summary

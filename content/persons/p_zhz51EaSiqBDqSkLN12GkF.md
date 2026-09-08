@@ -4,6 +4,7 @@ id: p_zhz51EaSiqBDqSkLN12GkF
 status: active
 merged_into: null
 display_name: 王道源
+cbdb_id: 342857
 revision: 1
 properties:
   - predicate: bio.summary

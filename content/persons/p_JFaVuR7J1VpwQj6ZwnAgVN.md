@@ -4,6 +4,7 @@ id: p_JFaVuR7J1VpwQj6ZwnAgVN
 status: active
 merged_into: null
 display_name: 王僧護
+cbdb_id: 151430
 revision: 1
 properties:
   - predicate: bio.summary

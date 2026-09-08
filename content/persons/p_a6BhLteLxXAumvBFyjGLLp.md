@@ -4,6 +4,7 @@ id: p_a6BhLteLxXAumvBFyjGLLp
 status: active
 merged_into: null
 display_name: 王徐朗
+cbdb_id: 521857
 revision: 1
 properties:
   - predicate: bio.summary

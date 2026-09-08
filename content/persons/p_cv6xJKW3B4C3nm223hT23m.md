@@ -4,6 +4,7 @@ id: p_cv6xJKW3B4C3nm223hT23m
 status: active
 merged_into: null
 display_name: 王璋
+cbdb_id: 175457
 revision: 1
 properties:
   - predicate: bio.summary

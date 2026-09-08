@@ -4,6 +4,7 @@ id: p_rfQk2qP7ta4kccxSLyf9bL
 status: active
 merged_into: null
 display_name: 王金徽
+cbdb_id: 415527
 revision: 1
 properties:
   - predicate: bio.summary

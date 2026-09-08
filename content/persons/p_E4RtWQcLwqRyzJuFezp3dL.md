@@ -4,6 +4,7 @@ id: p_E4RtWQcLwqRyzJuFezp3dL
 status: active
 merged_into: null
 display_name: 王永興
+cbdb_id: 414954
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_PZNi3riQ8mBQoZepK6cGdE
 status: active
 merged_into: null
 display_name: 王存芳
+cbdb_id: 481752
 revision: 1
 properties:
   - predicate: bio.summary

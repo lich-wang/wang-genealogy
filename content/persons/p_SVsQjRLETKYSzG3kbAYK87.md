@@ -4,6 +4,7 @@ id: p_SVsQjRLETKYSzG3kbAYK87
 status: active
 merged_into: null
 display_name: 王惟志
+cbdb_id: 17253
 revision: 1
 properties:
   - predicate: bio.summary

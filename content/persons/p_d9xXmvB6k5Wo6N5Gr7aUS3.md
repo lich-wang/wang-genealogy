@@ -4,6 +4,7 @@ id: p_d9xXmvB6k5Wo6N5Gr7aUS3
 status: active
 merged_into: null
 display_name: 王國興
+cbdb_id: 511600
 revision: 1
 properties:
   - predicate: bio.summary

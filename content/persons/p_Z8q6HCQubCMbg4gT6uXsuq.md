@@ -4,6 +4,7 @@ id: p_Z8q6HCQubCMbg4gT6uXsuq
 status: active
 merged_into: null
 display_name: 王景麟
+cbdb_id: 511617
 revision: 1
 properties:
   - predicate: bio.summary

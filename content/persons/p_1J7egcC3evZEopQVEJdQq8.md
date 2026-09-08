@@ -4,6 +4,7 @@ id: p_1J7egcC3evZEopQVEJdQq8
 status: active
 merged_into: null
 display_name: 王時能
+cbdb_id: 247516
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_du1wv75PTsu7D1KzQJ7qDz
 status: active
 merged_into: null
 display_name: 王季緖
+cbdb_id: 526911
 revision: 1
 properties:
   - predicate: bio.summary

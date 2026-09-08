@@ -4,6 +4,7 @@ id: p_WbhywedDSH6B9wFYLnLNcU
 status: active
 merged_into: null
 display_name: 王齡
+cbdb_id: 324284
 revision: 1
 properties:
   - predicate: bio.summary

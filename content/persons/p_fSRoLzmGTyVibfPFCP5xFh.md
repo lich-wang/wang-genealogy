@@ -4,6 +4,7 @@ id: p_fSRoLzmGTyVibfPFCP5xFh
 status: active
 merged_into: null
 display_name: 王命爵
+cbdb_id: 206334
 revision: 1
 properties:
   - predicate: bio.summary

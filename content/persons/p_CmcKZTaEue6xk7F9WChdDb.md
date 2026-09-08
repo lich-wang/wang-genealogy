@@ -4,6 +4,7 @@ id: p_CmcKZTaEue6xk7F9WChdDb
 status: active
 merged_into: null
 display_name: 王芳明
+cbdb_id: 415341
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_U2Fggori7BCBLtrGmDkhHG
 status: active
 merged_into: null
 display_name: 王侨
+cbdb_id: 199828
 revision: 1
 properties:
   - predicate: bio.summary

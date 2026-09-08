@@ -4,6 +4,7 @@ id: p_2D3Uiid7tmFDXR6PrK3xNB
 status: active
 merged_into: null
 display_name: 王智珪
+cbdb_id: 135162
 revision: 1
 properties:
   - predicate: bio.summary

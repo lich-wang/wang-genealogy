@@ -4,6 +4,7 @@ id: p_mgvYR7QnqLqNgeRoj7P6LC
 status: active
 merged_into: null
 display_name: 王惟實
+cbdb_id: 159956
 revision: 1
 properties:
   - predicate: bio.summary

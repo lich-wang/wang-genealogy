@@ -4,6 +4,7 @@ id: p_s1G8THmnnjEDHat96956Pe
 status: active
 merged_into: null
 display_name: 王封東
+cbdb_id: 230482
 revision: 1
 properties:
   - predicate: bio.summary

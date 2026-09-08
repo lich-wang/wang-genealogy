@@ -4,6 +4,7 @@ id: p_JcjBFNQo2NU4UvF1qMREi6
 status: active
 merged_into: null
 display_name: 王廷義
+cbdb_id: 39382
 revision: 1
 properties:
   - predicate: bio.summary

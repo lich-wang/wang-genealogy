@@ -4,6 +4,7 @@ id: p_1U97mvSkDnRXKBMDswoG52
 status: active
 merged_into: null
 display_name: 王之敬
+cbdb_id: 69034
 revision: 1
 properties:
   - predicate: bio.summary

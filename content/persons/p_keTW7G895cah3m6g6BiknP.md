@@ -4,6 +4,7 @@ id: p_keTW7G895cah3m6g6BiknP
 status: active
 merged_into: null
 display_name: 王朔曾
+cbdb_id: 414836
 revision: 1
 properties:
   - predicate: bio.summary

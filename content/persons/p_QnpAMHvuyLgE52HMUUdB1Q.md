@@ -4,6 +4,7 @@ id: p_QnpAMHvuyLgE52HMUUdB1Q
 status: active
 merged_into: null
 display_name: 王好義
+cbdb_id: 338030
 revision: 1
 properties:
   - predicate: bio.summary

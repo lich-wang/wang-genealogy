@@ -4,6 +4,7 @@ id: p_TBas9GnK48YxxoALsWTyfY
 status: active
 merged_into: null
 display_name: 王政魁
+cbdb_id: 414717
 revision: 1
 properties:
   - predicate: bio.summary

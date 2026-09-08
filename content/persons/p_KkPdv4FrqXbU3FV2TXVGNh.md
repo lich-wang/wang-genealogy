@@ -4,6 +4,7 @@ id: p_KkPdv4FrqXbU3FV2TXVGNh
 status: active
 merged_into: null
 display_name: 王师逞
+cbdb_id: 175431
 revision: 1
 properties:
   - predicate: bio.summary

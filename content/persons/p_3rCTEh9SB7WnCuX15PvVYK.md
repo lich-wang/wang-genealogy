@@ -4,6 +4,7 @@ id: p_3rCTEh9SB7WnCuX15PvVYK
 status: active
 merged_into: null
 display_name: 王善果
+cbdb_id: 29340
 revision: 1
 properties:
   - predicate: bio.summary

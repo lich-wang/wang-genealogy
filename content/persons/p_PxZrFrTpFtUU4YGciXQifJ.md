@@ -4,6 +4,7 @@ id: p_PxZrFrTpFtUU4YGciXQifJ
 status: active
 merged_into: null
 display_name: 王維通
+cbdb_id: 342141
 revision: 1
 properties:
   - predicate: bio.summary

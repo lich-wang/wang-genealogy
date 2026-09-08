@@ -4,6 +4,7 @@ id: p_D3uVxqQFBH491G6DL79z4g
 status: active
 merged_into: null
 display_name: 王应桢
+cbdb_id: 294872
 revision: 1
 properties:
   - predicate: bio.summary

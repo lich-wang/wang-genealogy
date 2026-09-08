@@ -4,6 +4,7 @@ id: p_6CsBtUkKZsiVpBL5KJ61Rz
 status: active
 merged_into: null
 display_name: 崔氏
+cbdb_id: 145437
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_XZE1VL4RN2Jp2kUkbJFZTC
 status: active
 merged_into: null
 display_name: 王永蔭
+cbdb_id: 414955
 revision: 1
 properties:
   - predicate: bio.summary

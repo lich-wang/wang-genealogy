@@ -4,6 +4,7 @@ id: p_wPP6KKF6WwHyKyxYd7MWpu
 status: active
 merged_into: null
 display_name: 王宗楚
+cbdb_id: 226575
 revision: 1
 properties:
   - predicate: bio.summary

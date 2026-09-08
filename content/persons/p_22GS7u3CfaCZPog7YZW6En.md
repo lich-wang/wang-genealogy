@@ -4,6 +4,7 @@ id: p_22GS7u3CfaCZPog7YZW6En
 status: active
 merged_into: null
 display_name: 王國楠
+cbdb_id: 60901
 revision: 1
 properties:
   - predicate: bio.summary

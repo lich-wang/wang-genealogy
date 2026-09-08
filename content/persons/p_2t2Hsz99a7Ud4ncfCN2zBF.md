@@ -4,6 +4,7 @@ id: p_2t2Hsz99a7Ud4ncfCN2zBF
 status: active
 merged_into: null
 display_name: 王奉珍
+cbdb_id: 165211
 revision: 1
 properties:
   - predicate: bio.summary

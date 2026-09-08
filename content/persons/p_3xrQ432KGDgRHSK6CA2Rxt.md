@@ -4,6 +4,7 @@ id: p_3xrQ432KGDgRHSK6CA2Rxt
 status: active
 merged_into: null
 display_name: 王夢德
+cbdb_id: 526787
 revision: 1
 properties:
   - predicate: bio.summary

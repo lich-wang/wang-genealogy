@@ -4,6 +4,7 @@ id: p_FaLwth23AGSDh2qKnKC6N9
 status: active
 merged_into: null
 display_name: 王圜
+cbdb_id: 228110
 revision: 1
 properties:
   - predicate: bio.summary

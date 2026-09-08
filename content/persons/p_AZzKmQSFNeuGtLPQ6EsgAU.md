@@ -4,6 +4,7 @@ id: p_AZzKmQSFNeuGtLPQ6EsgAU
 status: active
 merged_into: null
 display_name: 王有容
+cbdb_id: 71532
 revision: 1
 properties:
   - predicate: bio.summary

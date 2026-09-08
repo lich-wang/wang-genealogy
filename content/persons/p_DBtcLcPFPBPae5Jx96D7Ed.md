@@ -4,6 +4,7 @@ id: p_DBtcLcPFPBPae5Jx96D7Ed
 status: active
 merged_into: null
 display_name: 王溫舒
+cbdb_id: 462482
 revision: 1
 properties:
   - predicate: bio.summary

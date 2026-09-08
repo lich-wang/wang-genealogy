@@ -4,6 +4,7 @@ id: p_xqL4jrntEUDQrYwiv69mkj
 status: active
 merged_into: null
 display_name: 王心安
+cbdb_id: 69027
 revision: 1
 properties:
   - predicate: bio.summary

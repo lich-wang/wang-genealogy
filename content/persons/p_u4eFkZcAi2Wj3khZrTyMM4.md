@@ -4,6 +4,7 @@ id: p_u4eFkZcAi2Wj3khZrTyMM4
 status: active
 merged_into: null
 display_name: 王棣
+cbdb_id: 22210
 revision: 1
 properties:
   - predicate: bio.summary

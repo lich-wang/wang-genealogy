@@ -4,6 +4,7 @@ id: p_VqmVBo3uME7n3zbJa64ToW
 status: active
 merged_into: null
 display_name: 萧纲
+cbdb_id: 33251
 revision: 1
 properties:
   - predicate: bio.summary

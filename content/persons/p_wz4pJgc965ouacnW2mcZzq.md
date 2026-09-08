@@ -4,6 +4,7 @@ id: p_wz4pJgc965ouacnW2mcZzq
 status: active
 merged_into: null
 display_name: 王我繩
+cbdb_id: 294346
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_39hKySbW7rCCbNVGgcEod3
 status: active
 merged_into: null
 display_name: 王豐兒
+cbdb_id: 160469
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_A7Zdgd5ucHXmmLq8Lsxa9z
 status: active
 merged_into: null
 display_name: 王雲居
+cbdb_id: 159062
 revision: 1
 properties:
   - predicate: bio.summary

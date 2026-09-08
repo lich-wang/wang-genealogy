@@ -4,6 +4,7 @@ id: p_juAXAz9RsCbi2CNKuJXTVm
 status: active
 merged_into: null
 display_name: 王秉鈞
+cbdb_id: 100202
 revision: 1
 properties:
   - predicate: bio.summary

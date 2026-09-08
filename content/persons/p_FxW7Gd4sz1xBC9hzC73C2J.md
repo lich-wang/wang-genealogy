@@ -4,6 +4,7 @@ id: p_FxW7Gd4sz1xBC9hzC73C2J
 status: active
 merged_into: null
 display_name: 王言從
+cbdb_id: 175959
 revision: 1
 properties:
   - predicate: bio.summary

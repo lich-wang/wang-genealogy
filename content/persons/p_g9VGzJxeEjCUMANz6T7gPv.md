@@ -4,6 +4,7 @@ id: p_g9VGzJxeEjCUMANz6T7gPv
 status: active
 merged_into: null
 display_name: 王茂孚
+cbdb_id: 324569
 revision: 1
 properties:
   - predicate: bio.summary

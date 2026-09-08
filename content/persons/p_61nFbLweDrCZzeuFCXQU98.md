@@ -4,6 +4,7 @@ id: p_61nFbLweDrCZzeuFCXQU98
 status: active
 merged_into: null
 display_name: 王尹法
+cbdb_id: 524802
 revision: 1
 properties:
   - predicate: bio.summary

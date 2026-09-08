@@ -4,6 +4,7 @@ id: p_rQQ5ZmDaRcbRmGn72wPL2r
 status: active
 merged_into: null
 display_name: 王弘璣
+cbdb_id: 148843
 revision: 1
 properties:
   - predicate: bio.summary

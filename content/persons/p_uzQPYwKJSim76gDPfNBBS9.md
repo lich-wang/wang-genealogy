@@ -4,6 +4,7 @@ id: p_uzQPYwKJSim76gDPfNBBS9
 status: active
 merged_into: null
 display_name: 王起家
+cbdb_id: 98030
 revision: 1
 properties:
   - predicate: bio.summary

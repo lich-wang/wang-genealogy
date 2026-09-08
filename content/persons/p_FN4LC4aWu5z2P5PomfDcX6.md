@@ -4,6 +4,7 @@ id: p_FN4LC4aWu5z2P5PomfDcX6
 status: active
 merged_into: null
 display_name: 孙氏
+cbdb_id: 326997
 revision: 1
 properties:
   - predicate: bio.summary

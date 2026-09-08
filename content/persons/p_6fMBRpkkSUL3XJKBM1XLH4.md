@@ -4,6 +4,7 @@ id: p_6fMBRpkkSUL3XJKBM1XLH4
 status: active
 merged_into: null
 display_name: 王化捷
+cbdb_id: 413998
 revision: 1
 properties:
   - predicate: bio.summary

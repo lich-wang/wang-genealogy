@@ -4,6 +4,7 @@ id: p_wc85vRPUK4BvKLCcBWYcH7
 status: active
 merged_into: null
 display_name: 王宗業
+cbdb_id: 307074
 revision: 1
 properties:
   - predicate: bio.summary

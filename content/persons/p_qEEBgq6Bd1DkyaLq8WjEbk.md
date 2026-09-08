@@ -4,6 +4,7 @@ id: p_qEEBgq6Bd1DkyaLq8WjEbk
 status: active
 merged_into: null
 display_name: 王維常
+cbdb_id: 415247
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_t4oJJoq5VUoSCrFbsBSSMm
 status: active
 merged_into: null
 display_name: 王昌世
+cbdb_id: 19883
 revision: 1
 properties:
   - predicate: bio.summary

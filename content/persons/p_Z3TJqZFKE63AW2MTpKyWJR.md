@@ -4,6 +4,7 @@ id: p_Z3TJqZFKE63AW2MTpKyWJR
 status: active
 merged_into: null
 display_name: 王學遵
+cbdb_id: 414269
 revision: 1
 properties:
   - predicate: bio.summary

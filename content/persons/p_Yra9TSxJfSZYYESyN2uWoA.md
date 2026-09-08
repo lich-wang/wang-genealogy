@@ -4,6 +4,7 @@ id: p_Yra9TSxJfSZYYESyN2uWoA
 status: active
 merged_into: null
 display_name: 王如璧
+cbdb_id: 215084
 revision: 1
 properties:
   - predicate: bio.summary

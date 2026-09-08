@@ -4,6 +4,7 @@ id: p_2pfuJRufpgRKEJpaePui7C
 status: active
 merged_into: null
 display_name: 王彥輝
+cbdb_id: 254112
 revision: 1
 properties:
   - predicate: bio.summary

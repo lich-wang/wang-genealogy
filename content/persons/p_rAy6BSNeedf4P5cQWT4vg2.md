@@ -4,6 +4,7 @@ id: p_rAy6BSNeedf4P5cQWT4vg2
 status: active
 merged_into: null
 display_name: 王一方
+cbdb_id: 306161
 revision: 1
 properties:
   - predicate: bio.summary

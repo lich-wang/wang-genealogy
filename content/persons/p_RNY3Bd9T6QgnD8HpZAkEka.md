@@ -4,6 +4,7 @@ id: p_RNY3Bd9T6QgnD8HpZAkEka
 status: active
 merged_into: null
 display_name: 王宗嗣
+cbdb_id: 101235
 revision: 1
 properties:
   - predicate: bio.summary

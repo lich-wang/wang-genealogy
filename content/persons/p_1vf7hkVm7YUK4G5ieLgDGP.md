@@ -4,6 +4,7 @@ id: p_1vf7hkVm7YUK4G5ieLgDGP
 status: active
 merged_into: null
 display_name: 王士實
+cbdb_id: 414163
 revision: 1
 properties:
   - predicate: bio.summary

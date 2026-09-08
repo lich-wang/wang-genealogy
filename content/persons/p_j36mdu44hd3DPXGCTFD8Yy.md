@@ -4,6 +4,7 @@ id: p_j36mdu44hd3DPXGCTFD8Yy
 status: active
 merged_into: null
 display_name: 王雲鯤
+cbdb_id: 415589
 revision: 1
 properties:
   - predicate: bio.summary

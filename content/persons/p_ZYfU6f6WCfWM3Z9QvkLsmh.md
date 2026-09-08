@@ -4,6 +4,7 @@ id: p_ZYfU6f6WCfWM3Z9QvkLsmh
 status: active
 merged_into: null
 display_name: 王元綱
+cbdb_id: 151320
 revision: 1
 properties:
   - predicate: bio.summary

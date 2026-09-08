@@ -4,6 +4,7 @@ id: p_Luy3Sk2RyTAmqV85eGNNce
 status: active
 merged_into: null
 display_name: 王德中
+cbdb_id: 414555
 revision: 1
 properties:
   - predicate: bio.summary

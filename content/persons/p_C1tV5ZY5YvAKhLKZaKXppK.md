@@ -4,6 +4,7 @@ id: p_C1tV5ZY5YvAKhLKZaKXppK
 status: active
 merged_into: null
 display_name: 黄氏
+cbdb_id: 38478
 revision: 1
 properties:
   - predicate: name.primary

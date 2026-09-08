@@ -4,6 +4,7 @@ id: p_YorBp3QdkukixtBGPrhSQo
 status: active
 merged_into: null
 display_name: 王伯芻
+cbdb_id: 26889
 revision: 1
 properties:
   - predicate: bio.summary

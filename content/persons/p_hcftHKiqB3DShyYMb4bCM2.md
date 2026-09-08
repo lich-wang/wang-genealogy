@@ -4,6 +4,7 @@ id: p_hcftHKiqB3DShyYMb4bCM2
 status: active
 merged_into: null
 display_name: 王玉文
+cbdb_id: 69115
 revision: 1
 properties:
   - predicate: bio.summary

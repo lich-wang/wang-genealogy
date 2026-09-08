@@ -4,6 +4,7 @@ id: p_xEHw9dCD6Nqfs9ejJPDUUE
 status: active
 merged_into: null
 display_name: 王文貞
+cbdb_id: 162295
 revision: 1
 properties:
   - predicate: bio.summary

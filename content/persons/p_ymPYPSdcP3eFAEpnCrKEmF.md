@@ -4,6 +4,7 @@ id: p_ymPYPSdcP3eFAEpnCrKEmF
 status: active
 merged_into: null
 display_name: 王楚堂
+cbdb_id: 69429
 revision: 1
 properties:
   - predicate: bio.summary

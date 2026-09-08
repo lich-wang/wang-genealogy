@@ -4,6 +4,7 @@ id: p_arJqBH5d8XcVfPqczQBUsx
 status: active
 merged_into: null
 display_name: 王晞高
+cbdb_id: 37371
 revision: 1
 properties:
   - predicate: bio.summary

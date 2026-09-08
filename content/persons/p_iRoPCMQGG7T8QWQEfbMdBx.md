@@ -4,6 +4,7 @@ id: p_iRoPCMQGG7T8QWQEfbMdBx
 status: active
 merged_into: null
 display_name: 王汝鲁
+cbdb_id: 126502
 revision: 2
 properties:
   - predicate: bio.summary

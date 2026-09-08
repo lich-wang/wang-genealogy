@@ -4,6 +4,7 @@ id: p_xCWQF1nmLBtY4dUN9W6Nph
 status: active
 merged_into: null
 display_name: 王某基
+cbdb_id: 476502
 revision: 1
 properties:
   - predicate: bio.summary

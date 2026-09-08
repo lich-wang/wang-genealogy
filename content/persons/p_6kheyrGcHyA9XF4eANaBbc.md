@@ -4,6 +4,7 @@ id: p_6kheyrGcHyA9XF4eANaBbc
 status: active
 merged_into: null
 display_name: 王炳奎
+cbdb_id: 343901
 revision: 1
 properties:
   - predicate: bio.summary

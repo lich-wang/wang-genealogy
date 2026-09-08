@@ -4,6 +4,7 @@ id: p_sxNJvhEF3qokuGvjMery4Y
 status: active
 merged_into: null
 display_name: 王化東
+cbdb_id: 577042
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_8frUJ3LrDhGKx8fT6HKVXg
 status: active
 merged_into: null
 display_name: 王祉
+cbdb_id: 282824
 revision: 1
 properties:
   - predicate: bio.summary

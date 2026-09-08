@@ -4,6 +4,7 @@ id: p_attXpVUNq5Leu9LSRnM6z8
 status: active
 merged_into: null
 display_name: 王本梧
+cbdb_id: 69154
 revision: 1
 properties:
   - predicate: bio.summary

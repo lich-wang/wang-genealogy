@@ -4,6 +4,7 @@ id: p_XtuzjzgZNJ1tgfmAzKJqqx
 status: active
 merged_into: null
 display_name: 王心存
+cbdb_id: 414568
 revision: 1
 properties:
   - predicate: bio.summary

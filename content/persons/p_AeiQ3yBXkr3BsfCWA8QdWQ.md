@@ -4,6 +4,7 @@ id: p_AeiQ3yBXkr3BsfCWA8QdWQ
 status: active
 merged_into: null
 display_name: 王世長
+cbdb_id: 37408
 revision: 1
 properties:
   - predicate: bio.summary

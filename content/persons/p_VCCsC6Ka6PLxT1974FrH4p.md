@@ -4,6 +4,7 @@ id: p_VCCsC6Ka6PLxT1974FrH4p
 status: active
 merged_into: null
 display_name: 王宏之
+cbdb_id: 162538
 revision: 1
 properties:
   - predicate: bio.summary

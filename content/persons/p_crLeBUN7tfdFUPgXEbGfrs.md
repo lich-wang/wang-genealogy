@@ -4,6 +4,7 @@ id: p_crLeBUN7tfdFUPgXEbGfrs
 status: active
 merged_into: null
 display_name: 王文衡
+cbdb_id: 414750
 revision: 1
 properties:
   - predicate: bio.summary

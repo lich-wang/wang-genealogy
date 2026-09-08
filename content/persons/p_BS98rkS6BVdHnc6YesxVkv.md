@@ -4,6 +4,7 @@ id: p_BS98rkS6BVdHnc6YesxVkv
 status: active
 merged_into: null
 display_name: 王安尹
+cbdb_id: 234991
 revision: 1
 properties:
   - predicate: bio.summary

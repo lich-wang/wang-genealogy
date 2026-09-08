@@ -4,6 +4,7 @@ id: p_dnPtsKEtjAp3Do6nrbinqW
 status: active
 merged_into: null
 display_name: 钱大昕
+cbdb_id: 29876
 revision: 2
 properties:
   - predicate: name.primary

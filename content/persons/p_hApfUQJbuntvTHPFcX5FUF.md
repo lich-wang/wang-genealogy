@@ -4,6 +4,7 @@ id: p_hApfUQJbuntvTHPFcX5FUF
 status: active
 merged_into: null
 display_name: 王永新
+cbdb_id: 414942
 revision: 1
 properties:
   - predicate: bio.summary

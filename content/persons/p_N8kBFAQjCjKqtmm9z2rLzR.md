@@ -4,6 +4,7 @@ id: p_N8kBFAQjCjKqtmm9z2rLzR
 status: active
 merged_into: null
 display_name: 王尊旦
+cbdb_id: 343737
 revision: 1
 properties:
   - predicate: bio.summary

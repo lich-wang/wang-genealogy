@@ -4,6 +4,7 @@ id: p_JL9cnkyVNMTWPLh5GNZ3YN
 status: active
 merged_into: null
 display_name: 王芥園
+cbdb_id: 343113
 revision: 1
 properties:
   - predicate: bio.summary

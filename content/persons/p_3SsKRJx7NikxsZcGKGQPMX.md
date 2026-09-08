@@ -4,6 +4,7 @@ id: p_3SsKRJx7NikxsZcGKGQPMX
 status: active
 merged_into: null
 display_name: 王命賞
+cbdb_id: 216552
 revision: 1
 properties:
   - predicate: bio.summary

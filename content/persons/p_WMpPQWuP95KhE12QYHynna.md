@@ -4,6 +4,7 @@ id: p_WMpPQWuP95KhE12QYHynna
 status: active
 merged_into: null
 display_name: 王仁政
+cbdb_id: 231323
 revision: 1
 properties:
   - predicate: bio.summary

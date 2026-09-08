@@ -4,6 +4,7 @@ id: p_BePJ4ta2cGv5PaGX9DnnYs
 status: active
 merged_into: null
 display_name: 王一化
+cbdb_id: 413670
 revision: 1
 properties:
   - predicate: bio.summary

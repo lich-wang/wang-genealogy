@@ -4,6 +4,7 @@ id: p_atWPit8tNKJoLUwDUdtphW
 status: active
 merged_into: null
 display_name: 王行模
+cbdb_id: 149478
 revision: 1
 properties:
   - predicate: bio.summary

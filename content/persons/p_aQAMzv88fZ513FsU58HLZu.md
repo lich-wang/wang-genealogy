@@ -4,6 +4,7 @@ id: p_aQAMzv88fZ513FsU58HLZu
 status: active
 merged_into: null
 display_name: 王之肱
+cbdb_id: 494060
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_fxmhVGu9RtKGvsjb8zFq2V
 status: active
 merged_into: null
 display_name: 王興詩
+cbdb_id: 333205
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_RHej4thY2GCTDbWNxNW52P
 status: active
 merged_into: null
 display_name: 王宗愿
+cbdb_id: 22050
 revision: 1
 properties:
   - predicate: bio.summary

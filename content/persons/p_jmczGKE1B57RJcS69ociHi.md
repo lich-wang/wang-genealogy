@@ -4,6 +4,7 @@ id: p_jmczGKE1B57RJcS69ociHi
 status: active
 merged_into: null
 display_name: 王仙葩
+cbdb_id: 153275
 revision: 1
 properties:
   - predicate: bio.summary

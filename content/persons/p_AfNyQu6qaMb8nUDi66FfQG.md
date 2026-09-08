@@ -4,6 +4,7 @@ id: p_AfNyQu6qaMb8nUDi66FfQG
 status: active
 merged_into: null
 display_name: 王子然
+cbdb_id: 295466
 revision: 1
 properties:
   - predicate: bio.summary

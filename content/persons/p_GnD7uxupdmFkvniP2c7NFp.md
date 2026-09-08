@@ -4,6 +4,7 @@ id: p_GnD7uxupdmFkvniP2c7NFp
 status: active
 merged_into: null
 display_name: 王金甲
+cbdb_id: 415530
 revision: 1
 properties:
   - predicate: bio.summary

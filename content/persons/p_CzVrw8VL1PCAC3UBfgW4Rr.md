@@ -4,6 +4,7 @@ id: p_CzVrw8VL1PCAC3UBfgW4Rr
 status: active
 merged_into: null
 display_name: 王雙鳳
+cbdb_id: 121904
 revision: 1
 properties:
   - predicate: bio.summary

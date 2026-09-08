@@ -4,6 +4,7 @@ id: p_4vdSvSD5BUu5uYcGsx6QVM
 status: active
 merged_into: null
 display_name: 王潤民
+cbdb_id: 209991
 revision: 1
 properties:
   - predicate: bio.summary

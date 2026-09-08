@@ -4,6 +4,7 @@ id: p_68BXiE1HVEqk2V31DdKxFh
 status: active
 merged_into: null
 display_name: 王魁春
+cbdb_id: 415626
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_YTBz4fGCBrcfT1SwWNc91W
 status: active
 merged_into: null
 display_name: 王八元
+cbdb_id: 330492
 revision: 1
 properties:
   - predicate: bio.summary

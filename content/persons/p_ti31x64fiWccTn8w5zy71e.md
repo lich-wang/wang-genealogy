@@ -4,6 +4,7 @@ id: p_ti31x64fiWccTn8w5zy71e
 status: active
 merged_into: null
 display_name: 王周詔
+cbdb_id: 414051
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_zdH8ZZvkaC5ZG5BwA6dxG4
 status: active
 merged_into: null
 display_name: 王受祿
+cbdb_id: 526687
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_DVbamv1pJ41ZEV9p5nYJ7c
 status: active
 merged_into: null
 display_name: 王需
+cbdb_id: 24977
 revision: 1
 properties:
   - predicate: bio.summary

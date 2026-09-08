@@ -4,6 +4,7 @@ id: p_4KLT1DmyLQEnA3zxSQp31o
 status: active
 merged_into: null
 display_name: 王時任
+cbdb_id: 343515
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_YAuqhDCG8jhbuRWRDK5RgG
 status: active
 merged_into: null
 display_name: 王蔭堂
+cbdb_id: 526834
 revision: 1
 properties:
   - predicate: bio.summary

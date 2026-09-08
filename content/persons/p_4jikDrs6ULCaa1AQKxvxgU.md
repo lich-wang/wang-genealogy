@@ -4,6 +4,7 @@ id: p_4jikDrs6ULCaa1AQKxvxgU
 status: active
 merged_into: null
 display_name: 王伯善
+cbdb_id: 413853
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_XDK6cgnefUP27UkQSiWaKU
 status: active
 merged_into: null
 display_name: 王毓賢
+cbdb_id: 438924
 revision: 1
 properties:
   - predicate: bio.summary

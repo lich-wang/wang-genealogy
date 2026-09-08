@@ -4,6 +4,7 @@ id: p_Eo3x5BVMmizyxxEaJmawa5
 status: active
 merged_into: null
 display_name: 王嘉柔
+cbdb_id: 205854
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_BKdvtUjMuxoZLG7RXxMXL2
 status: active
 merged_into: null
 display_name: 王積簣
+cbdb_id: 67183
 revision: 1
 properties:
   - predicate: bio.summary

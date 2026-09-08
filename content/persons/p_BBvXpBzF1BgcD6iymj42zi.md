@@ -4,6 +4,7 @@ id: p_BBvXpBzF1BgcD6iymj42zi
 status: active
 merged_into: null
 display_name: 王尚柱
+cbdb_id: 414382
 revision: 1
 properties:
   - predicate: bio.summary

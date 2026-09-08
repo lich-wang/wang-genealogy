@@ -4,6 +4,7 @@ id: p_7mKHWPMU13pSpD87AVQtyv
 status: active
 merged_into: null
 display_name: 王世珂
+cbdb_id: 513970
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_cHA9LAEc5A8EKN1RguXQ6u
 status: active
 merged_into: null
 display_name: 王湘貞
+cbdb_id: 123419
 revision: 1
 properties:
   - predicate: bio.summary

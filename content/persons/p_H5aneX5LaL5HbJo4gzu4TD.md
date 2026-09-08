@@ -4,6 +4,7 @@ id: p_H5aneX5LaL5HbJo4gzu4TD
 status: active
 merged_into: null
 display_name: 王可敬
+cbdb_id: 237174
 revision: 1
 properties:
   - predicate: bio.summary

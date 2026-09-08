@@ -4,6 +4,7 @@ id: p_d3w2Zz33HMdUXy7wFyvT4A
 status: active
 merged_into: null
 display_name: 王恕
+cbdb_id: 29509
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_eWXi3PTZuUydWABbJZcGKP
 status: active
 merged_into: null
 display_name: 王師敏
+cbdb_id: 27183
 revision: 1
 properties:
   - predicate: bio.summary

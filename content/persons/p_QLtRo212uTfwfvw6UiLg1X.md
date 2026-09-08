@@ -4,6 +4,7 @@ id: p_QLtRo212uTfwfvw6UiLg1X
 status: active
 merged_into: null
 display_name: 王應璽
+cbdb_id: 414649
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_2Qf2G5mNP8vcGWueDU9wCt
 status: active
 merged_into: null
 display_name: 王惟昌
+cbdb_id: 159957
 revision: 1
 properties:
   - predicate: bio.summary

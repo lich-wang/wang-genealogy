@@ -4,6 +4,7 @@ id: p_aVTp7k7MmuJw7oNPyCCp37
 status: active
 merged_into: null
 display_name: 王謙謙
+cbdb_id: 415423
 revision: 1
 properties:
   - predicate: bio.summary

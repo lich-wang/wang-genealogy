@@ -4,6 +4,7 @@ id: p_bMD9vbZbS2ZmpeEsBUXa6J
 status: active
 merged_into: null
 display_name: 王貴翁
+cbdb_id: 101369
 revision: 1
 properties:
   - predicate: bio.summary

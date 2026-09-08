@@ -4,6 +4,7 @@ id: p_voeJwZCUJ5rMMjExk4andz
 status: active
 merged_into: null
 display_name: 王景勉
+cbdb_id: 101361
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_aPiMAb5oTtX96t8b291thQ
 status: active
 merged_into: null
 display_name: 王銷
+cbdb_id: 445680
 revision: 1
 properties:
   - predicate: bio.summary

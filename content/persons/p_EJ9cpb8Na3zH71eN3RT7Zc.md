@@ -4,6 +4,7 @@ id: p_EJ9cpb8Na3zH71eN3RT7Zc
 status: active
 merged_into: null
 display_name: 王拱陽
+cbdb_id: 414692
 revision: 1
 properties:
   - predicate: bio.summary

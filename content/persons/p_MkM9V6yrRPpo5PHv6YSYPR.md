@@ -4,6 +4,7 @@ id: p_MkM9V6yrRPpo5PHv6YSYPR
 status: active
 merged_into: null
 display_name: 王方貴
+cbdb_id: 101109
 revision: 1
 properties:
   - predicate: bio.summary

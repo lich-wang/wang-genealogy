@@ -4,6 +4,7 @@ id: p_Z3LjcYsvDQBk55A5EqpdvK
 status: active
 merged_into: null
 display_name: 王少繼
+cbdb_id: 166891
 revision: 1
 properties:
   - predicate: bio.summary

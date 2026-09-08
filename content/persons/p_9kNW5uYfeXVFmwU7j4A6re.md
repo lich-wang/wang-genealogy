@@ -4,6 +4,7 @@ id: p_9kNW5uYfeXVFmwU7j4A6re
 status: active
 merged_into: null
 display_name: 王體巽
+cbdb_id: 334182
 revision: 1
 properties:
   - predicate: bio.summary

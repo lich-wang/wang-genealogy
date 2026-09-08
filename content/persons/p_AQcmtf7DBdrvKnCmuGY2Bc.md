@@ -4,6 +4,7 @@ id: p_AQcmtf7DBdrvKnCmuGY2Bc
 status: active
 merged_into: null
 display_name: 王繼承
+cbdb_id: 415273
 revision: 1
 properties:
   - predicate: bio.summary

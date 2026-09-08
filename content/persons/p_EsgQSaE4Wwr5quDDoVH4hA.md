@@ -4,6 +4,7 @@ id: p_EsgQSaE4Wwr5quDDoVH4hA
 status: active
 merged_into: null
 display_name: 王懷璧
+cbdb_id: 153717
 revision: 1
 properties:
   - predicate: bio.summary

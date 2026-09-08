@@ -4,6 +4,7 @@ id: p_X6qoMRsfWz3v9cc3fES7Um
 status: active
 merged_into: null
 display_name: 王福勳
+cbdb_id: 513500
 revision: 1
 properties:
   - predicate: bio.summary

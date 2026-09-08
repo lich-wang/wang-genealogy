@@ -4,6 +4,7 @@ id: p_E6npEtnMZpEDx79AVK39VM
 status: active
 merged_into: null
 display_name: 王力士
+cbdb_id: 139205
 revision: 1
 properties:
   - predicate: bio.summary

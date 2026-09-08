@@ -4,6 +4,7 @@ id: p_YdVDNR5mz7n6HzgPXAmFbG
 status: active
 merged_into: null
 display_name: 王當亨
+cbdb_id: 415140
 revision: 1
 properties:
   - predicate: bio.summary

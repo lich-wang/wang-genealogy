@@ -4,6 +4,7 @@ id: p_UV7mz92KYx7FMiHSFBHEPD
 status: active
 merged_into: null
 display_name: 王毓柱
+cbdb_id: 72164
 revision: 1
 properties:
   - predicate: bio.summary

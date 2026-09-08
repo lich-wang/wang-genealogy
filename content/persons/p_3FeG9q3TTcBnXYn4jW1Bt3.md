@@ -4,6 +4,7 @@ id: p_3FeG9q3TTcBnXYn4jW1Bt3
 status: active
 merged_into: null
 display_name: 王天寵
+cbdb_id: 59942
 revision: 1
 properties:
   - predicate: bio.summary

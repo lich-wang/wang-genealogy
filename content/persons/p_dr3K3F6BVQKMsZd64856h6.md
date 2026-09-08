@@ -4,6 +4,7 @@ id: p_dr3K3F6BVQKMsZd64856h6
 status: active
 merged_into: null
 display_name: 王雲起
+cbdb_id: 101373
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_ytEH4BRHd5aQr898RpJ44D
 status: active
 merged_into: null
 display_name: 王一鳯
+cbdb_id: 413682
 revision: 1
 properties:
   - predicate: bio.summary

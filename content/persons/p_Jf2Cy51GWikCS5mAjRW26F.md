@@ -4,6 +4,7 @@ id: p_Jf2Cy51GWikCS5mAjRW26F
 status: active
 merged_into: null
 display_name: 王衍疇
+cbdb_id: 526808
 revision: 1
 properties:
   - predicate: bio.summary

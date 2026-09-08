@@ -4,6 +4,7 @@ id: p_WMP4XS9fvBGQuQiXrASYoi
 status: active
 merged_into: null
 display_name: 王自學
+cbdb_id: 513457
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_PiXeb8yvLQhYVsFyyNWk3N
 status: active
 merged_into: null
 display_name: 王獻言
+cbdb_id: 312070
 revision: 1
 properties:
   - predicate: bio.summary

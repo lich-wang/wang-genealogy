@@ -4,6 +4,7 @@ id: p_XjupuoZtM7GbiaQbn194GQ
 status: active
 merged_into: null
 display_name: 王修文
+cbdb_id: 118585
 revision: 1
 properties:
   - predicate: bio.summary

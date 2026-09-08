@@ -4,6 +4,7 @@ id: p_VZ8xQbRBx9KJK3iAQ5wKrB
 status: active
 merged_into: null
 display_name: 王壽山
+cbdb_id: 522136
 revision: 1
 properties:
   - predicate: bio.summary

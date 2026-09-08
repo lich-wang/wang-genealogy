@@ -4,6 +4,7 @@ id: p_o2ZKr2zWN1bXiPBb4FTtAV
 status: active
 merged_into: null
 display_name: 王兆珠
+cbdb_id: 413924
 revision: 1
 properties:
   - predicate: bio.summary

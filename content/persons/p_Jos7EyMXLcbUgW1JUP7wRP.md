@@ -4,6 +4,7 @@ id: p_Jos7EyMXLcbUgW1JUP7wRP
 status: active
 merged_into: null
 display_name: 王士平
+cbdb_id: 194206
 revision: 1
 properties:
   - predicate: name.primary

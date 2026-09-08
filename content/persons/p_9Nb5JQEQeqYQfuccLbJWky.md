@@ -4,6 +4,7 @@ id: p_9Nb5JQEQeqYQfuccLbJWky
 status: active
 merged_into: null
 display_name: 王天眷
+cbdb_id: 341830
 revision: 1
 properties:
   - predicate: bio.summary

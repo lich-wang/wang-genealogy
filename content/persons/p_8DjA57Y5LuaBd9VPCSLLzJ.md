@@ -4,6 +4,7 @@ id: p_8DjA57Y5LuaBd9VPCSLLzJ
 status: active
 merged_into: null
 display_name: 王公宏
+cbdb_id: 30409
 revision: 1
 properties:
   - predicate: bio.summary

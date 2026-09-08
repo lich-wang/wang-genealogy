@@ -4,6 +4,7 @@ id: p_raJNU9XFaTjQCkPaDGyZMr
 status: active
 merged_into: null
 display_name: 王仁表
+cbdb_id: 186697
 revision: 1
 properties:
   - predicate: name.primary

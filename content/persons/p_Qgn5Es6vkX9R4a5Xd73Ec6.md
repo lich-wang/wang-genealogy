@@ -4,6 +4,7 @@ id: p_Qgn5Es6vkX9R4a5Xd73Ec6
 status: active
 merged_into: null
 display_name: 王傳宣
+cbdb_id: 526692
 revision: 1
 properties:
   - predicate: bio.summary

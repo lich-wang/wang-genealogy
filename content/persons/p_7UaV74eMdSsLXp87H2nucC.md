@@ -4,6 +4,7 @@ id: p_7UaV74eMdSsLXp87H2nucC
 status: active
 merged_into: null
 display_name: 王浩存
+cbdb_id: 386696
 revision: 1
 properties:
   - predicate: bio.summary

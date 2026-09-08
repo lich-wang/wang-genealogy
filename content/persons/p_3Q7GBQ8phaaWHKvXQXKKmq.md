@@ -4,6 +4,7 @@ id: p_3Q7GBQ8phaaWHKvXQXKKmq
 status: active
 merged_into: null
 display_name: 王宗乙
+cbdb_id: 97858
 revision: 1
 properties:
   - predicate: bio.summary

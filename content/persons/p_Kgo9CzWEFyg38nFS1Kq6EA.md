@@ -4,6 +4,7 @@ id: p_Kgo9CzWEFyg38nFS1Kq6EA
 status: active
 merged_into: null
 display_name: 王兆興
+cbdb_id: 413926
 revision: 1
 properties:
   - predicate: bio.summary

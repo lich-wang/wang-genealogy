@@ -4,6 +4,7 @@ id: p_MGb34T3N3Wzm66xCsSF5Vq
 status: active
 merged_into: null
 display_name: 王文誥
+cbdb_id: 71426
 revision: 1
 properties:
   - predicate: bio.summary

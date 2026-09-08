@@ -4,6 +4,7 @@ id: p_MeFZQEb7d1NDXAkETnNC7B
 status: active
 merged_into: null
 display_name: 王東美
+cbdb_id: 19221
 revision: 1
 properties:
   - predicate: bio.summary

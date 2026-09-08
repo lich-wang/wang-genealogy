@@ -4,6 +4,7 @@ id: p_d4ATUEA7eNvP7nbVxM1DxN
 status: active
 merged_into: null
 display_name: 王添福
+cbdb_id: 415025
 revision: 1
 properties:
   - predicate: bio.summary

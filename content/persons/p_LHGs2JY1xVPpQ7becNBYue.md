@@ -4,6 +4,7 @@ id: p_LHGs2JY1xVPpQ7becNBYue
 status: active
 merged_into: null
 display_name: 王隆孫
+cbdb_id: 415579
 revision: 1
 properties:
   - predicate: bio.summary

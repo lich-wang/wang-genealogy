@@ -4,6 +4,7 @@ id: p_qMBPniX9L5uzUSacCxGcRs
 status: active
 merged_into: null
 display_name: 王昺
+cbdb_id: 308147
 revision: 2
 properties:
   - predicate: bio.summary

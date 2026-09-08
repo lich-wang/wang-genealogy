@@ -4,6 +4,7 @@ id: p_8zeKJw2wr4WyJ8GekmHwSG
 status: active
 merged_into: null
 display_name: 王興時
+cbdb_id: 498237
 revision: 1
 properties:
   - predicate: bio.summary

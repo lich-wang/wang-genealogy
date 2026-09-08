@@ -4,6 +4,7 @@ id: p_CheRpr32r27oRv6HXcwC1k
 status: active
 merged_into: null
 display_name: 王德韶
+cbdb_id: 92116
 revision: 1
 properties:
   - predicate: bio.summary

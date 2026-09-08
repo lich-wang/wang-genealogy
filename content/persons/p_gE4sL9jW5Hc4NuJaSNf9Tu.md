@@ -4,6 +4,7 @@ id: p_gE4sL9jW5Hc4NuJaSNf9Tu
 status: active
 merged_into: null
 display_name: 王夏
+cbdb_id: 1814
 revision: 2
 properties:
   - predicate: bio.summary

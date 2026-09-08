@@ -4,6 +4,7 @@ id: p_NCBsUHpQcGK3ka6w88K9Cj
 status: active
 merged_into: null
 display_name: 王靚
+cbdb_id: 12121
 revision: 1
 properties:
   - predicate: bio.summary

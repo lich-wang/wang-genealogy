@@ -4,6 +4,7 @@ id: p_m1vwRj9QZiJwCT2gjJ4qtS
 status: active
 merged_into: null
 display_name: 王以述
+cbdb_id: 221826
 revision: 1
 properties:
   - predicate: bio.summary

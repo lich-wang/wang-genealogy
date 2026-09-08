@@ -4,6 +4,7 @@ id: p_cmSWpmMC4GUZ7P7o2kYzDr
 status: active
 merged_into: null
 display_name: 王甥稙
+cbdb_id: 72079
 revision: 1
 properties:
   - predicate: bio.summary

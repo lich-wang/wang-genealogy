@@ -4,6 +4,7 @@ id: p_nswqt2qWk48qo6PamRPBbg
 status: active
 merged_into: null
 display_name: 王之珂
+cbdb_id: 413754
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_uN3upEQ3DbGiJRvD3qMmuY
 status: active
 merged_into: null
 display_name: 王以順
+cbdb_id: 413829
 revision: 1
 properties:
   - predicate: bio.summary

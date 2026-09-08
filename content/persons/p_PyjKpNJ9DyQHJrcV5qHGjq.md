@@ -4,6 +4,7 @@ id: p_PyjKpNJ9DyQHJrcV5qHGjq
 status: active
 merged_into: null
 display_name: 王履平
+cbdb_id: 517433
 revision: 1
 properties:
   - predicate: bio.summary

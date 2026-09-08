@@ -4,6 +4,7 @@ id: p_hUphvs7h4ExD4D4EJkKZ61
 status: active
 merged_into: null
 display_name: 王仲文
+cbdb_id: 175573
 revision: 1
 properties:
   - predicate: bio.summary

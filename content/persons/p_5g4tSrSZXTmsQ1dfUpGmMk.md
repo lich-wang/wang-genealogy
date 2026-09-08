@@ -4,6 +4,7 @@ id: p_5g4tSrSZXTmsQ1dfUpGmMk
 status: active
 merged_into: null
 display_name: 王保舜
+cbdb_id: 514370
 revision: 1
 properties:
   - predicate: bio.summary

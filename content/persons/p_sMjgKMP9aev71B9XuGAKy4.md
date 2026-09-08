@@ -4,6 +4,7 @@ id: p_sMjgKMP9aev71B9XuGAKy4
 status: active
 merged_into: null
 display_name: 王清棟
+cbdb_id: 342755
 revision: 1
 properties:
   - predicate: bio.summary

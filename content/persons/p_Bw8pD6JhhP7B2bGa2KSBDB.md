@@ -4,6 +4,7 @@ id: p_Bw8pD6JhhP7B2bGa2KSBDB
 status: active
 merged_into: null
 display_name: 王永恭
+cbdb_id: 342514
 revision: 1
 properties:
   - predicate: bio.summary

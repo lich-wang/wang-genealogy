@@ -4,6 +4,7 @@ id: p_631DC9e1iJAezZraGCuHTm
 status: active
 merged_into: null
 display_name: 王應晉
+cbdb_id: 208840
 revision: 1
 properties:
   - predicate: bio.summary

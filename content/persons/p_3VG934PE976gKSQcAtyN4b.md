@@ -4,6 +4,7 @@ id: p_3VG934PE976gKSQcAtyN4b
 status: active
 merged_into: null
 display_name: 王祖謙
+cbdb_id: 415186
 revision: 1
 properties:
   - predicate: bio.summary

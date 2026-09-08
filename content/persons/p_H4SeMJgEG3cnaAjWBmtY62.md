@@ -4,6 +4,7 @@ id: p_H4SeMJgEG3cnaAjWBmtY62
 status: active
 merged_into: null
 display_name: 王玉銳
+cbdb_id: 143519
 revision: 1
 properties:
   - predicate: bio.summary

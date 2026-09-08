@@ -4,6 +4,7 @@ id: p_CqiqNAmQuia8S26ATCBzUL
 status: active
 merged_into: null
 display_name: 王安邦
+cbdb_id: 414291
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_NcMNQSpxuadJhig28TaDJU
 status: active
 merged_into: null
 display_name: 王維厚
+cbdb_id: 297170
 revision: 1
 properties:
   - predicate: bio.summary

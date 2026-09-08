@@ -4,6 +4,7 @@ id: p_Wt3fUnDpuQS1oTi5r5wSD3
 status: active
 merged_into: null
 display_name: 王尚繩
+cbdb_id: 526683
 revision: 1
 properties:
   - predicate: bio.summary

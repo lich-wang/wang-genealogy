@@ -4,6 +4,7 @@ id: p_nbBA76J4d7cdNx4kb5xfXu
 status: active
 merged_into: null
 display_name: 王君萬
+cbdb_id: 22001
 revision: 1
 properties:
   - predicate: bio.summary

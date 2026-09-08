@@ -4,6 +4,7 @@ id: p_YgE7ftdaAKz2Mh9mzMz4BN
 status: active
 merged_into: null
 display_name: 王井
+cbdb_id: 261846
 revision: 1
 properties:
   - predicate: bio.summary

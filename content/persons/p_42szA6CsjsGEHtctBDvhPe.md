@@ -4,6 +4,7 @@ id: p_42szA6CsjsGEHtctBDvhPe
 status: active
 merged_into: null
 display_name: 王玩
+cbdb_id: 19872
 revision: 1
 properties:
   - predicate: bio.summary

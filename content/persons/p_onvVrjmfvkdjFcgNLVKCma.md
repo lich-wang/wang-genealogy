@@ -4,6 +4,7 @@ id: p_onvVrjmfvkdjFcgNLVKCma
 status: active
 merged_into: null
 display_name: 王棋
+cbdb_id: 222283
 revision: 1
 properties:
   - predicate: name.primary

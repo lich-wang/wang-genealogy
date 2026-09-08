@@ -4,6 +4,7 @@ id: p_b8z3AshEUaWSDVZdUAZQmw
 status: active
 merged_into: null
 display_name: 王從用
+cbdb_id: 386571
 revision: 1
 properties:
   - predicate: bio.summary

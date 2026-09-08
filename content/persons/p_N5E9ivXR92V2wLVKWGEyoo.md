@@ -4,6 +4,7 @@ id: p_N5E9ivXR92V2wLVKWGEyoo
 status: active
 merged_into: null
 display_name: 王宗傳
+cbdb_id: 37678
 revision: 1
 properties:
   - predicate: bio.summary

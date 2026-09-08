@@ -4,6 +4,7 @@ id: p_TcEgoCK92NB84dZ85NVqLx
 status: active
 merged_into: null
 display_name: 王學歐
+cbdb_id: 303180
 revision: 1
 properties:
   - predicate: bio.summary

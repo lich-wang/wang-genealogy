@@ -4,6 +4,7 @@ id: p_3CPeDPFiUBasT55qBbv3H9
 status: active
 merged_into: null
 display_name: 王命申
+cbdb_id: 414055
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_jsMbG8KGCyPS5RDHGFBQf6
 status: active
 merged_into: null
 display_name: 王知鲁
+cbdb_id: 175410
 revision: 1
 properties:
   - predicate: bio.summary

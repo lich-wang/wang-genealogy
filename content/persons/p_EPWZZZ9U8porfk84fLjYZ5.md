@@ -4,6 +4,7 @@ id: p_EPWZZZ9U8porfk84fLjYZ5
 status: active
 merged_into: null
 display_name: 王福某
+cbdb_id: 231748
 revision: 1
 properties:
   - predicate: bio.summary

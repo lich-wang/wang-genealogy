@@ -4,6 +4,7 @@ id: p_wYLAck9GDVt14VUrS3Zjv9
 status: active
 merged_into: null
 display_name: 王世家
+cbdb_id: 413710
 revision: 1
 properties:
   - predicate: bio.summary

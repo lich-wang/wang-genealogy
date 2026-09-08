@@ -4,6 +4,7 @@ id: p_WC3t7ScaDP8rdM6Bed4qDQ
 status: active
 merged_into: null
 display_name: 王承美
+cbdb_id: 37661
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_B7XdXcgmaJ9AEFmBt2tR4D
 status: active
 merged_into: null
 display_name: 王崇正
+cbdb_id: 378389
 revision: 1
 properties:
   - predicate: bio.summary

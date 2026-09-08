@@ -4,6 +4,7 @@ id: p_pVr2YmvW2g7u44dWJVuytr
 status: active
 merged_into: null
 display_name: 王應行
+cbdb_id: 338257
 revision: 1
 properties:
   - predicate: bio.summary

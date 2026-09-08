@@ -4,6 +4,7 @@ id: p_yACyJMyRRSG9nPLiR6teqQ
 status: active
 merged_into: null
 display_name: 王吉貞
+cbdb_id: 520473
 revision: 1
 properties:
   - predicate: bio.summary

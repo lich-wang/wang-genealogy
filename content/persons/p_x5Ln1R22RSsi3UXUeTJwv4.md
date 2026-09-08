@@ -4,6 +4,7 @@ id: p_x5Ln1R22RSsi3UXUeTJwv4
 status: active
 merged_into: null
 display_name: 王志深
+cbdb_id: 175389
 revision: 1
 properties:
   - predicate: bio.summary

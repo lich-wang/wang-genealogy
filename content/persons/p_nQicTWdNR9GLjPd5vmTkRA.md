@@ -4,6 +4,7 @@ id: p_nQicTWdNR9GLjPd5vmTkRA
 status: active
 merged_into: null
 display_name: 王一貞
+cbdb_id: 306160
 revision: 1
 properties:
   - predicate: bio.summary

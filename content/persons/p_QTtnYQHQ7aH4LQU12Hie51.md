@@ -4,6 +4,7 @@ id: p_QTtnYQHQ7aH4LQU12Hie51
 status: active
 merged_into: null
 display_name: 王及之
+cbdb_id: 1778
 revision: 1
 properties:
   - predicate: bio.summary

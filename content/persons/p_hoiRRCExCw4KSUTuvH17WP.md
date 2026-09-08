@@ -4,6 +4,7 @@ id: p_hoiRRCExCw4KSUTuvH17WP
 status: active
 merged_into: null
 display_name: 王楣
+cbdb_id: 205205
 revision: 1
 properties:
   - predicate: bio.summary

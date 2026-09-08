@@ -4,6 +4,7 @@ id: p_MEH1igtTGpBLoLri2nnfSs
 status: active
 merged_into: null
 display_name: 王膺天
+cbdb_id: 415311
 revision: 1
 properties:
   - predicate: bio.summary

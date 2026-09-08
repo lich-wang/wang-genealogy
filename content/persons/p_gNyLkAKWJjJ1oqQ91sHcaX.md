@@ -4,6 +4,7 @@ id: p_gNyLkAKWJjJ1oqQ91sHcaX
 status: active
 merged_into: null
 display_name: 王過
+cbdb_id: 38941
 revision: 1
 properties:
   - predicate: bio.summary

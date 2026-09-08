@@ -4,6 +4,7 @@ id: p_nViMG9XxbGdupLW88WX7qW
 status: active
 merged_into: null
 display_name: 王應運
+cbdb_id: 414655
 revision: 1
 properties:
   - predicate: bio.summary

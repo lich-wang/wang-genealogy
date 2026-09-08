@@ -4,6 +4,7 @@ id: p_LMJZsZxW2ArkRcBta9mL6v
 status: active
 merged_into: null
 display_name: 王時邁
+cbdb_id: 71669
 revision: 1
 properties:
   - predicate: bio.summary

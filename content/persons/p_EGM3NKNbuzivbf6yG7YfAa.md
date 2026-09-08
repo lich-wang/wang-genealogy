@@ -4,6 +4,7 @@ id: p_EGM3NKNbuzivbf6yG7YfAa
 status: active
 merged_into: null
 display_name: 王鎌
+cbdb_id: 318310
 revision: 1
 properties:
   - predicate: bio.summary

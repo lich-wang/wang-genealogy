@@ -4,6 +4,7 @@ id: p_TVq23n2RQddg1PbX7pTRGV
 status: active
 merged_into: null
 display_name: 王克詢
+cbdb_id: 16043
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_9XNcHhC73KCmkzMWB5323C
 status: active
 merged_into: null
 display_name: 王符震
+cbdb_id: 415216
 revision: 1
 properties:
   - predicate: bio.summary

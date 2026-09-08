@@ -4,6 +4,7 @@ id: p_8k5gvfQ6wf4cTqfhUKxV6i
 status: active
 merged_into: null
 display_name: 王文瑞
+cbdb_id: 71429
 revision: 1
 properties:
   - predicate: bio.summary

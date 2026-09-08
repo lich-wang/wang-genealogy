@@ -4,6 +4,7 @@ id: p_Wft3MqkARxabMc8JuLMegQ
 status: active
 merged_into: null
 display_name: 王如水
+cbdb_id: 513591
 revision: 1
 properties:
   - predicate: bio.summary

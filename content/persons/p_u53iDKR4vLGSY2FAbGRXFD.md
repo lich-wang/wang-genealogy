@@ -4,6 +4,7 @@ id: p_u53iDKR4vLGSY2FAbGRXFD
 status: active
 merged_into: null
 display_name: 王巨濟
+cbdb_id: 101126
 revision: 1
 properties:
   - predicate: bio.summary

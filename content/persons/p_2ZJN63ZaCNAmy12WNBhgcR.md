@@ -4,6 +4,7 @@ id: p_2ZJN63ZaCNAmy12WNBhgcR
 status: active
 merged_into: null
 display_name: 王才甫
+cbdb_id: 281052
 revision: 1
 properties:
   - predicate: bio.summary

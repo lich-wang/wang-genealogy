@@ -4,6 +4,7 @@ id: p_k1ReEjUbGBQeqE3wi5hZZi
 status: active
 merged_into: null
 display_name: 王行寬
+cbdb_id: 147247
 revision: 1
 properties:
   - predicate: bio.summary

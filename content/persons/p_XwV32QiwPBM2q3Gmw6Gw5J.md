@@ -4,6 +4,7 @@ id: p_XwV32QiwPBM2q3Gmw6Gw5J
 status: active
 merged_into: null
 display_name: 王契
+cbdb_id: 445633
 revision: 1
 properties:
   - predicate: bio.summary

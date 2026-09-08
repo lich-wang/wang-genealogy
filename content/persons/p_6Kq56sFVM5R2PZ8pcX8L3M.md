@@ -4,6 +4,7 @@ id: p_6Kq56sFVM5R2PZ8pcX8L3M
 status: active
 merged_into: null
 display_name: 王洪琛
+cbdb_id: 71915
 revision: 1
 properties:
   - predicate: bio.summary

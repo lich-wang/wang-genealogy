@@ -4,6 +4,7 @@ id: p_cNcL5T1puFGTNuJXH348dP
 status: active
 merged_into: null
 display_name: 王文教
+cbdb_id: 318799
 revision: 1
 properties:
   - predicate: bio.summary

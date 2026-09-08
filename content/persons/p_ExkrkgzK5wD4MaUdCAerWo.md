@@ -4,6 +4,7 @@ id: p_ExkrkgzK5wD4MaUdCAerWo
 status: active
 merged_into: null
 display_name: 王师造
+cbdb_id: 175432
 revision: 1
 properties:
   - predicate: bio.summary

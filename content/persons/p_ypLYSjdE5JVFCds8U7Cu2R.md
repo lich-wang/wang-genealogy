@@ -4,6 +4,7 @@ id: p_ypLYSjdE5JVFCds8U7Cu2R
 status: active
 merged_into: null
 display_name: 王意娘子
+cbdb_id: 158869
 revision: 1
 properties:
   - predicate: bio.summary

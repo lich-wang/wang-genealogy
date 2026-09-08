@@ -4,6 +4,7 @@ id: p_Db6SUN5EEphzZ94YGKvMzT
 status: active
 merged_into: null
 display_name: 王家坦
+cbdb_id: 414338
 revision: 1
 properties:
   - predicate: bio.summary

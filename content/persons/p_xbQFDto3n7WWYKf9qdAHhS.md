@@ -4,6 +4,7 @@ id: p_xbQFDto3n7WWYKf9qdAHhS
 status: active
 merged_into: null
 display_name: 王幼孫
+cbdb_id: 38549
 revision: 1
 properties:
   - predicate: bio.summary

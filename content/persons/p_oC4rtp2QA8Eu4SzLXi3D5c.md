@@ -4,6 +4,7 @@ id: p_oC4rtp2QA8Eu4SzLXi3D5c
 status: active
 merged_into: null
 display_name: 王德通
+cbdb_id: 313084
 revision: 1
 properties:
   - predicate: bio.summary

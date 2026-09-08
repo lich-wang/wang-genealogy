@@ -4,6 +4,7 @@ id: p_BBYaCB2FNMj3GGzAocZ7iE
 status: active
 merged_into: null
 display_name: 王雨雨
+cbdb_id: 160470
 revision: 1
 properties:
   - predicate: bio.summary

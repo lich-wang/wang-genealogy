@@ -4,6 +4,7 @@ id: p_XGdUZV2x1jP4ergiaVAGLa
 status: active
 merged_into: null
 display_name: 王慱物
+cbdb_id: 414625
 revision: 1
 properties:
   - predicate: bio.summary

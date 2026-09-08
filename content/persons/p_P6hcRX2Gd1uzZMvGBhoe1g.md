@@ -4,6 +4,7 @@ id: p_P6hcRX2Gd1uzZMvGBhoe1g
 status: active
 merged_into: null
 display_name: 王靜明
+cbdb_id: 5062
 revision: 1
 properties:
   - predicate: bio.summary

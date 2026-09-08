@@ -4,6 +4,7 @@ id: p_Due7YPYyDF67h9DsnLUJEB
 status: active
 merged_into: null
 display_name: 王桐蔭
+cbdb_id: 343298
 revision: 1
 properties:
   - predicate: bio.summary

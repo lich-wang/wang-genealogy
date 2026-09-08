@@ -4,6 +4,7 @@ id: p_3V7J6Cw5ZiEox5if48naUe
 status: active
 merged_into: null
 display_name: 陆氏
+cbdb_id: 250189
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_PXxoeRmNCcr8SKW1mBSbT7
 status: active
 merged_into: null
 display_name: 王履源
+cbdb_id: 72208
 revision: 1
 properties:
   - predicate: bio.summary

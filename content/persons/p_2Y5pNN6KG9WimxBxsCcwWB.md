@@ -4,6 +4,7 @@ id: p_2Y5pNN6KG9WimxBxsCcwWB
 status: active
 merged_into: null
 display_name: 王弘信
+cbdb_id: 185066
 revision: 1
 properties:
   - predicate: bio.summary

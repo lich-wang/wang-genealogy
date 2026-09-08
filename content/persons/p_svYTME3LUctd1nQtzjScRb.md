@@ -4,6 +4,7 @@ id: p_svYTME3LUctd1nQtzjScRb
 status: active
 merged_into: null
 display_name: 王塘
+cbdb_id: 318918
 revision: 1
 properties:
   - predicate: bio.summary

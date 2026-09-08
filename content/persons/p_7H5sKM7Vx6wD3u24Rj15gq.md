@@ -4,6 +4,7 @@ id: p_7H5sKM7Vx6wD3u24Rj15gq
 status: active
 merged_into: null
 display_name: 王成存
+cbdb_id: 265220
 revision: 1
 properties:
   - predicate: bio.summary

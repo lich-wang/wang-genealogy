@@ -4,6 +4,7 @@ id: p_aCs5iNmYqDrpDc3jN3UnYK
 status: active
 merged_into: null
 display_name: 王夢臣
+cbdb_id: 414190
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_51A95erKgp7sVv9EKMzqQy
 status: active
 merged_into: null
 display_name: 王兆蘭
+cbdb_id: 342661
 revision: 1
 properties:
   - predicate: bio.summary

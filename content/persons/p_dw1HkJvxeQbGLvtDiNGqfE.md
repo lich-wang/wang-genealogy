@@ -4,6 +4,7 @@ id: p_dw1HkJvxeQbGLvtDiNGqfE
 status: active
 merged_into: null
 display_name: 王惟寧
+cbdb_id: 204346
 revision: 1
 properties:
   - predicate: bio.summary

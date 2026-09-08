@@ -4,6 +4,7 @@ id: p_nXwiWePzD9b9ELo6fkm6tA
 status: active
 merged_into: null
 display_name: 王之淹
+cbdb_id: 526798
 revision: 1
 properties:
   - predicate: bio.summary

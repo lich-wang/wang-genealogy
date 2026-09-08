@@ -4,6 +4,7 @@ id: p_NM7ArbcDKLJCCAgkV9UW7k
 status: active
 merged_into: null
 display_name: 王輔國
+cbdb_id: 517854
 revision: 1
 properties:
   - predicate: bio.summary

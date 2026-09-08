@@ -4,6 +4,7 @@ id: p_BeEeFgsJiRPYT211696kgA
 status: active
 merged_into: null
 display_name: 王開仍
+cbdb_id: 522908
 revision: 1
 properties:
   - predicate: bio.summary

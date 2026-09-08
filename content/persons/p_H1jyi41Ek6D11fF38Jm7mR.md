@@ -4,6 +4,7 @@ id: p_H1jyi41Ek6D11fF38Jm7mR
 status: active
 merged_into: null
 display_name: 王宗信
+cbdb_id: 101233
 revision: 1
 properties:
   - predicate: bio.summary

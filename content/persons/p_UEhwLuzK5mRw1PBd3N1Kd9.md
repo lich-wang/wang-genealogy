@@ -4,6 +4,7 @@ id: p_UEhwLuzK5mRw1PBd3N1Kd9
 status: active
 merged_into: null
 display_name: 王文盛
+cbdb_id: 326520
 revision: 1
 properties:
   - predicate: bio.summary

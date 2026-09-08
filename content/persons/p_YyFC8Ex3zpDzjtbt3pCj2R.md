@@ -4,6 +4,7 @@ id: p_YyFC8Ex3zpDzjtbt3pCj2R
 status: active
 merged_into: null
 display_name: 王立坊
+cbdb_id: 526839
 revision: 1
 properties:
   - predicate: bio.summary

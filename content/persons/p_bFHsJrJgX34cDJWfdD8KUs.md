@@ -4,6 +4,7 @@ id: p_bFHsJrJgX34cDJWfdD8KUs
 status: active
 merged_into: null
 display_name: 王震昌
+cbdb_id: 341817
 revision: 1
 properties:
   - predicate: bio.summary

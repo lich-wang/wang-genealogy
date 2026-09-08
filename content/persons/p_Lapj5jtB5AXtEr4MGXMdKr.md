@@ -4,6 +4,7 @@ id: p_Lapj5jtB5AXtEr4MGXMdKr
 status: active
 merged_into: null
 display_name: 王弘範
+cbdb_id: 257399
 revision: 1
 properties:
   - predicate: bio.summary

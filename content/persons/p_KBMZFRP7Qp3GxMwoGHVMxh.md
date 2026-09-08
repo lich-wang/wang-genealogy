@@ -4,6 +4,7 @@ id: p_KBMZFRP7Qp3GxMwoGHVMxh
 status: active
 merged_into: null
 display_name: 王慎克
+cbdb_id: 414621
 revision: 1
 properties:
   - predicate: bio.summary

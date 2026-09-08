@@ -4,6 +4,7 @@ id: p_JWu6v32GSbRJXvXuGEiWAw
 status: active
 merged_into: null
 display_name: 王慎修
+cbdb_id: 343915
 revision: 1
 properties:
   - predicate: bio.summary

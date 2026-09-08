@@ -4,6 +4,7 @@ id: p_vjSVhCwSQK9qKvEb9RG9vG
 status: active
 merged_into: null
 display_name: 王清揚
+cbdb_id: 415030
 revision: 1
 properties:
   - predicate: bio.summary

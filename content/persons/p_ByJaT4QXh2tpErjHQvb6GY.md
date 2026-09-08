@@ -4,6 +4,7 @@ id: p_ByJaT4QXh2tpErjHQvb6GY
 status: active
 merged_into: null
 display_name: 王用學
+cbdb_id: 415127
 revision: 1
 properties:
   - predicate: bio.summary

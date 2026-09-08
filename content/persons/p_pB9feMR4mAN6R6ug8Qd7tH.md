@@ -4,6 +4,7 @@ id: p_pB9feMR4mAN6R6ug8Qd7tH
 status: active
 merged_into: null
 display_name: 王汝善
+cbdb_id: 212509
 revision: 1
 properties:
   - predicate: bio.summary

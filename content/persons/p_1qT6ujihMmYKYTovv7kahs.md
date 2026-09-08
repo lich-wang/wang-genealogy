@@ -4,6 +4,7 @@ id: p_1qT6ujihMmYKYTovv7kahs
 status: active
 merged_into: null
 display_name: 王玄貞
+cbdb_id: 191082
 revision: 1
 properties:
   - predicate: bio.summary

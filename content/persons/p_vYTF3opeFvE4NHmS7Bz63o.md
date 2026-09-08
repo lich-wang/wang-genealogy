@@ -4,6 +4,7 @@ id: p_vYTF3opeFvE4NHmS7Bz63o
 status: active
 merged_into: null
 display_name: 王試選
+cbdb_id: 415412
 revision: 1
 properties:
   - predicate: bio.summary

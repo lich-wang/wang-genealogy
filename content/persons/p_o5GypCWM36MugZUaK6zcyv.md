@@ -4,6 +4,7 @@ id: p_o5GypCWM36MugZUaK6zcyv
 status: active
 merged_into: null
 display_name: 王惇信
+cbdb_id: 287976
 revision: 1
 properties:
   - predicate: bio.summary

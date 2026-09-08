@@ -4,6 +4,7 @@ id: p_ww4fqBNJHtfNbqji5SFFQL
 status: active
 merged_into: null
 display_name: 王曰愈
+cbdb_id: 71401
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_vw9ptMUJtjJ5hp3qyQFvyH
 status: active
 merged_into: null
 display_name: 王巴什
+cbdb_id: 414402
 revision: 1
 properties:
   - predicate: bio.summary

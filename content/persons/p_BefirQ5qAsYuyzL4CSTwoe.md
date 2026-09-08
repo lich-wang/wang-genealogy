@@ -4,6 +4,7 @@ id: p_BefirQ5qAsYuyzL4CSTwoe
 status: active
 merged_into: null
 display_name: 王誡
+cbdb_id: 313485
 revision: 1
 properties:
   - predicate: bio.summary

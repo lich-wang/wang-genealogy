@@ -4,6 +4,7 @@ id: p_qLqbBJeZY5tKPrvKcGAvDa
 status: active
 merged_into: null
 display_name: 王師儉
+cbdb_id: 414416
 revision: 1
 properties:
   - predicate: bio.summary

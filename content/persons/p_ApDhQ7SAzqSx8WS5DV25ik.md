@@ -4,6 +4,7 @@ id: p_ApDhQ7SAzqSx8WS5DV25ik
 status: active
 merged_into: null
 display_name: 王德恆
+cbdb_id: 230040
 revision: 1
 properties:
   - predicate: bio.summary

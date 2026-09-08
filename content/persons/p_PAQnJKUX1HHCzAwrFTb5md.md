@@ -4,6 +4,7 @@ id: p_PAQnJKUX1HHCzAwrFTb5md
 status: active
 merged_into: null
 display_name: 王本
+cbdb_id: 257534
 revision: 2
 properties:
   - predicate: bio.summary

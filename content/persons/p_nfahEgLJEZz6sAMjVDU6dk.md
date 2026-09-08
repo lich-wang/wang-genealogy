@@ -4,6 +4,7 @@ id: p_nfahEgLJEZz6sAMjVDU6dk
 status: active
 merged_into: null
 display_name: 王喬吳
+cbdb_id: 336217
 revision: 1
 properties:
   - predicate: bio.summary

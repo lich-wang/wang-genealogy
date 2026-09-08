@@ -4,6 +4,7 @@ id: p_pyTdWHXHxNi9jmFsKvH7UH
 status: active
 merged_into: null
 display_name: 王嘉輅
+cbdb_id: 297022
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_9weaDKuts44uqhsJarY8PD
 status: active
 merged_into: null
 display_name: 王朝雲
+cbdb_id: 123459
 revision: 1
 properties:
   - predicate: bio.summary

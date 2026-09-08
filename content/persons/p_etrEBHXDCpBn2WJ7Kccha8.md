@@ -4,6 +4,7 @@ id: p_etrEBHXDCpBn2WJ7Kccha8
 status: active
 merged_into: null
 display_name: 王肇護
+cbdb_id: 289990
 revision: 1
 properties:
   - predicate: bio.summary

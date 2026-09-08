@@ -4,6 +4,7 @@ id: p_VMNrG1S43t3sJVsyKiGKvU
 status: active
 merged_into: null
 display_name: 王安明
+cbdb_id: 414289
 revision: 1
 properties:
   - predicate: bio.summary

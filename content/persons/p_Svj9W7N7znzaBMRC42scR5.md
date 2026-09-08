@@ -4,6 +4,7 @@ id: p_Svj9W7N7znzaBMRC42scR5
 status: active
 merged_into: null
 display_name: 王殿墀
+cbdb_id: 526770
 revision: 1
 properties:
   - predicate: bio.summary

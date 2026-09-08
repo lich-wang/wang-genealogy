@@ -4,6 +4,7 @@ id: p_XD3H4oXhmaonPt6uhjPXrk
 status: active
 merged_into: null
 display_name: 王卓越
+cbdb_id: 277148
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_eYo8RVEb4c4CEZbBo9Xbjb
 status: active
 merged_into: null
 display_name: 王復勝
+cbdb_id: 61654
 revision: 1
 properties:
   - predicate: bio.summary

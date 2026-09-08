@@ -4,6 +4,7 @@ id: p_Dnwyyna7MAat7ibXQJ7yrX
 status: active
 merged_into: null
 display_name: 王迪吉
+cbdb_id: 101296
 revision: 1
 properties:
   - predicate: bio.summary

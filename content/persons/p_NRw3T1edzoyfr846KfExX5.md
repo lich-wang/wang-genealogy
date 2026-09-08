@@ -4,6 +4,7 @@ id: p_NRw3T1edzoyfr846KfExX5
 status: active
 merged_into: null
 display_name: 王古堂
+cbdb_id: 511596
 revision: 1
 properties:
   - predicate: bio.summary

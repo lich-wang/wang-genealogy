@@ -4,6 +4,7 @@ id: p_1ruxvtnFk3xYbrznp37pjw
 status: active
 merged_into: null
 display_name: 王問學
+cbdb_id: 306926
 revision: 1
 properties:
   - predicate: bio.summary

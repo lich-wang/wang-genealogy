@@ -4,6 +4,7 @@ id: p_2jLwcaaQ1k96wMzTYBT7JR
 status: active
 merged_into: null
 display_name: 王宅
+cbdb_id: 342599
 revision: 1
 properties:
   - predicate: bio.summary

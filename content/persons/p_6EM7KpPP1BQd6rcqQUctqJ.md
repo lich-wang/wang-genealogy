@@ -4,6 +4,7 @@ id: p_6EM7KpPP1BQd6rcqQUctqJ
 status: active
 merged_into: null
 display_name: 王撫疆
+cbdb_id: 414709
 revision: 1
 properties:
   - predicate: bio.summary

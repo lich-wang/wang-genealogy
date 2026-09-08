@@ -4,6 +4,7 @@ id: p_4q8cqFV5poQX3amSqxFECV
 status: active
 merged_into: null
 display_name: 王靈妃
+cbdb_id: 445444
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_fUCHacNBi6Jb94qtKQ928C
 status: active
 merged_into: null
 display_name: 刘英媛
+cbdb_id: 120213
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_hKdPByG821ALMEdoQo4ac5
 status: active
 merged_into: null
 display_name: 王道得
+cbdb_id: 219574
 revision: 1
 properties:
   - predicate: bio.summary

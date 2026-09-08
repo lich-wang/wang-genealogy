@@ -4,6 +4,7 @@ id: p_1UovNv3RvaDjuSDcVBcdxK
 status: active
 merged_into: null
 display_name: 王令傑
+cbdb_id: 14933
 revision: 1
 properties:
   - predicate: bio.summary

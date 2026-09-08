@@ -4,6 +4,7 @@ id: p_EqB3k3FnyJMqG691NyYb5v
 status: active
 merged_into: null
 display_name: 王鍾珣
+cbdb_id: 67231
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_Q3nWKrtrk1fxAXUkvipx72
 status: active
 merged_into: null
 display_name: 王殖
+cbdb_id: 17886
 revision: 1
 properties:
   - predicate: bio.summary

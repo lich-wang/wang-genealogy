@@ -4,6 +4,7 @@ id: p_GUYLnGM4rWDWWLLPQPgoPA
 status: active
 merged_into: null
 display_name: 王辟章
+cbdb_id: 98033
 revision: 1
 properties:
   - predicate: bio.summary

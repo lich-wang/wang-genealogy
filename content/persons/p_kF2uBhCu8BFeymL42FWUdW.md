@@ -4,6 +4,7 @@ id: p_kF2uBhCu8BFeymL42FWUdW
 status: active
 merged_into: null
 display_name: 王舜鼎
+cbdb_id: 342107
 revision: 1
 properties:
   - predicate: bio.summary

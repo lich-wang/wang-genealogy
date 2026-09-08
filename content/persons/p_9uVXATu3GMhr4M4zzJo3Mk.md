@@ -4,6 +4,7 @@ id: p_9uVXATu3GMhr4M4zzJo3Mk
 status: active
 merged_into: null
 display_name: 王廷亮
+cbdb_id: 331066
 revision: 1
 properties:
   - predicate: bio.summary

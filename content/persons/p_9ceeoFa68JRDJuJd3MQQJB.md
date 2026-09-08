@@ -4,6 +4,7 @@ id: p_9ceeoFa68JRDJuJd3MQQJB
 status: active
 merged_into: null
 display_name: 王源德
+cbdb_id: 415036
 revision: 1
 properties:
   - predicate: bio.summary

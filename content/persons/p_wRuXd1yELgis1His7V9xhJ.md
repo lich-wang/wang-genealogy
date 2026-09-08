@@ -4,6 +4,7 @@ id: p_wRuXd1yELgis1His7V9xhJ
 status: active
 merged_into: null
 display_name: 王必登
+cbdb_id: 414570
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_Ux8Xp62KKG3HU19XqQQb5K
 status: active
 merged_into: null
 display_name: 王揖
+cbdb_id: 414705
 revision: 1
 properties:
   - predicate: bio.summary

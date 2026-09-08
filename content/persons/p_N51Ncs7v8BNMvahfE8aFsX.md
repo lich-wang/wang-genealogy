@@ -4,6 +4,7 @@ id: p_N51Ncs7v8BNMvahfE8aFsX
 status: active
 merged_into: null
 display_name: 张府君
+cbdb_id: 162327
 revision: 1
 properties:
   - predicate: bio.summary

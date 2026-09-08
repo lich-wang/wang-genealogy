@@ -4,6 +4,7 @@ id: p_m7x7kd6jNgx7Pq4bxwBw7f
 status: active
 merged_into: null
 display_name: 王廷憲
+cbdb_id: 341921
 revision: 1
 properties:
   - predicate: bio.summary

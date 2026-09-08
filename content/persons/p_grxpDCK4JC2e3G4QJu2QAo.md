@@ -4,6 +4,7 @@ id: p_grxpDCK4JC2e3G4QJu2QAo
 status: active
 merged_into: null
 display_name: 王守元
+cbdb_id: 414276
 revision: 1
 properties:
   - predicate: bio.summary

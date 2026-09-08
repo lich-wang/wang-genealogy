@@ -4,6 +4,7 @@ id: p_mmnCaAQw2e5jVUAxsHQnXb
 status: active
 merged_into: null
 display_name: 王奇榜
+cbdb_id: 229383
 revision: 1
 properties:
   - predicate: bio.summary

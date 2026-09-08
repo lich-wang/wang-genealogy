@@ -4,6 +4,7 @@ id: p_hmAn57MwGaKJKqqX9Q4u9C
 status: active
 merged_into: null
 display_name: 王孟南
+cbdb_id: 239760
 revision: 1
 properties:
   - predicate: bio.summary

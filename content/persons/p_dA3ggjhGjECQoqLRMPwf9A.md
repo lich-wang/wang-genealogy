@@ -4,6 +4,7 @@ id: p_dA3ggjhGjECQoqLRMPwf9A
 status: active
 merged_into: null
 display_name: 王堯叟
+cbdb_id: 36456
 revision: 1
 properties:
   - predicate: bio.summary

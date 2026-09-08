@@ -4,6 +4,7 @@ id: p_Myr7yL2y4NUdhUtw1bG9bq
 status: active
 merged_into: null
 display_name: 王扶
+cbdb_id: 1804
 revision: 2
 properties:
   - predicate: bio.summary

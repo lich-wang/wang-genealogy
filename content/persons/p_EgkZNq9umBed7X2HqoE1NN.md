@@ -4,6 +4,7 @@ id: p_EgkZNq9umBed7X2HqoE1NN
 status: active
 merged_into: null
 display_name: 王谷英
+cbdb_id: 254337
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_mtMHeaLVMRzHPiV6MMKoBB
 status: active
 merged_into: null
 display_name: 王慎术
+cbdb_id: 22056
 revision: 2
 properties:
   - predicate: bio.summary

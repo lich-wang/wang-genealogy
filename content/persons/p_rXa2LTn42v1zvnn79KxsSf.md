@@ -4,6 +4,7 @@ id: p_rXa2LTn42v1zvnn79KxsSf
 status: active
 merged_into: null
 display_name: 王壽搏
+cbdb_id: 121088
 revision: 1
 properties:
   - predicate: bio.summary

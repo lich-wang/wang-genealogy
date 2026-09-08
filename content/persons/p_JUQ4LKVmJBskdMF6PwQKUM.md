@@ -4,6 +4,7 @@ id: p_JUQ4LKVmJBskdMF6PwQKUM
 status: active
 merged_into: null
 display_name: 王金相
+cbdb_id: 343707
 revision: 1
 properties:
   - predicate: bio.summary

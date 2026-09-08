@@ -4,6 +4,7 @@ id: p_fg8LEqA7PGgSwFFEBSeQfN
 status: active
 merged_into: null
 display_name: 王元良
+cbdb_id: 221931
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_KNSywyVP8aqXeaxi93du7e
 status: active
 merged_into: null
 display_name: 王大忠
+cbdb_id: 264452
 revision: 1
 properties:
   - predicate: bio.summary

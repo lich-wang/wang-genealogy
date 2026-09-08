@@ -4,6 +4,7 @@ id: p_YWwL8KCdbbduKp6KT5b2ji
 status: active
 merged_into: null
 display_name: 王育桐
+cbdb_id: 515705
 revision: 1
 properties:
   - predicate: bio.summary

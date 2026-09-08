@@ -4,6 +4,7 @@ id: p_WGUfkzjw11qSufDf2m7LUH
 status: active
 merged_into: null
 display_name: 王汝斌
+cbdb_id: 414967
 revision: 1
 properties:
   - predicate: bio.summary

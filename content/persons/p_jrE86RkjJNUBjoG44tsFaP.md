@@ -4,6 +4,7 @@ id: p_jrE86RkjJNUBjoG44tsFaP
 status: active
 merged_into: null
 display_name: 王宜章
+cbdb_id: 342479
 revision: 1
 properties:
   - predicate: bio.summary

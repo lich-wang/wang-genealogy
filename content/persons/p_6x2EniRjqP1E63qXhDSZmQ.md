@@ -4,6 +4,7 @@ id: p_6x2EniRjqP1E63qXhDSZmQ
 status: active
 merged_into: null
 display_name: 王擢
+cbdb_id: 175501
 revision: 1
 properties:
   - predicate: bio.summary

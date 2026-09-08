@@ -4,6 +4,7 @@ id: p_XKo2jeR9Udduamk45iNJzS
 status: active
 merged_into: null
 display_name: 王先甲
+cbdb_id: 342296
 revision: 1
 properties:
   - predicate: bio.summary

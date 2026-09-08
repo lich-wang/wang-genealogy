@@ -4,6 +4,7 @@ id: p_eJdKzNPvPGqGFk5vNPPWhh
 status: active
 merged_into: null
 display_name: 王仲詹
+cbdb_id: 186740
 revision: 1
 properties:
   - predicate: bio.summary

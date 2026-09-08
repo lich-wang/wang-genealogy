@@ -4,6 +4,7 @@ id: p_4y4hsyWFb4sdDAPsmZsNBQ
 status: active
 merged_into: null
 display_name: 王文燈
+cbdb_id: 316805
 revision: 1
 properties:
   - predicate: bio.summary

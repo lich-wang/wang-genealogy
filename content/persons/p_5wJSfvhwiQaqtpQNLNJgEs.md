@@ -4,6 +4,7 @@ id: p_5wJSfvhwiQaqtpQNLNJgEs
 status: active
 merged_into: null
 display_name: 王顯周
+cbdb_id: 232793
 revision: 1
 properties:
   - predicate: bio.summary

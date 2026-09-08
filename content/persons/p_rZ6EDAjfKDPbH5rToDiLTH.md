@@ -4,6 +4,7 @@ id: p_rZ6EDAjfKDPbH5rToDiLTH
 status: active
 merged_into: null
 display_name: 王游道
+cbdb_id: 148890
 revision: 1
 properties:
   - predicate: bio.summary

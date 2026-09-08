@@ -4,6 +4,7 @@ id: p_H2nZeMmMCtwnjqap2CdN61
 status: active
 merged_into: null
 display_name: 王贞淑
+cbdb_id: 123026
 revision: 2
 properties:
   - predicate: bio.summary

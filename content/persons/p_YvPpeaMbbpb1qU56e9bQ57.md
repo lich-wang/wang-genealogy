@@ -4,6 +4,7 @@ id: p_YvPpeaMbbpb1qU56e9bQ57
 status: active
 merged_into: null
 display_name: 王崇曾
+cbdb_id: 342227
 revision: 1
 properties:
   - predicate: bio.summary

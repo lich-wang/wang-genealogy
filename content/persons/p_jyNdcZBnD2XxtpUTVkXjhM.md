@@ -4,6 +4,7 @@ id: p_jyNdcZBnD2XxtpUTVkXjhM
 status: active
 merged_into: null
 display_name: 王續友
+cbdb_id: 308734
 revision: 1
 properties:
   - predicate: bio.summary

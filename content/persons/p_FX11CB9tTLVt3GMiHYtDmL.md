@@ -4,6 +4,7 @@ id: p_FX11CB9tTLVt3GMiHYtDmL
 status: active
 merged_into: null
 display_name: 唐高宗
+cbdb_id: 19241
 revision: 1
 properties:
   - predicate: bio.summary

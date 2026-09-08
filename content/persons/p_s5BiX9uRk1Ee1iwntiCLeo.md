@@ -4,6 +4,7 @@ id: p_s5BiX9uRk1Ee1iwntiCLeo
 status: active
 merged_into: null
 display_name: 王德三
+cbdb_id: 414554
 revision: 1
 properties:
   - predicate: bio.summary

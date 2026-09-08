@@ -4,6 +4,7 @@ id: p_LgeU4bcQAWUfK5vozNrGZY
 status: active
 merged_into: null
 display_name: 王貽訓
+cbdb_id: 415440
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_P82gW5LVfAmq8iJm9zG56P
 status: active
 merged_into: null
 display_name: 王徵逸
+cbdb_id: 525992
 revision: 1
 properties:
   - predicate: bio.summary

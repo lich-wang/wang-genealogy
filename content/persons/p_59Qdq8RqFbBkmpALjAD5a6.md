@@ -4,6 +4,7 @@ id: p_59Qdq8RqFbBkmpALjAD5a6
 status: active
 merged_into: null
 display_name: 王錫綸
+cbdb_id: 72118
 revision: 1
 properties:
   - predicate: bio.summary

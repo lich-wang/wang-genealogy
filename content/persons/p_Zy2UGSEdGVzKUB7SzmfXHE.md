@@ -4,6 +4,7 @@ id: p_Zy2UGSEdGVzKUB7SzmfXHE
 status: active
 merged_into: null
 display_name: 王兆符
+cbdb_id: 71597
 revision: 1
 properties:
   - predicate: bio.summary

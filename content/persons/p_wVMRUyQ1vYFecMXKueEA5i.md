@@ -4,6 +4,7 @@ id: p_wVMRUyQ1vYFecMXKueEA5i
 status: active
 merged_into: null
 display_name: 王延楫
+cbdb_id: 414446
 revision: 1
 properties:
   - predicate: bio.summary

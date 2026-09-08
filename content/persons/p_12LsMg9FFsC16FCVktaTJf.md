@@ -4,6 +4,7 @@ id: p_12LsMg9FFsC16FCVktaTJf
 status: active
 merged_into: null
 display_name: 王闊城
+cbdb_id: 343594
 revision: 1
 properties:
   - predicate: bio.summary

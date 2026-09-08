@@ -4,6 +4,7 @@ id: p_xDMdcXt4mrfHRXTCQ2BTZ3
 status: active
 merged_into: null
 display_name: 王天石
+cbdb_id: 526682
 revision: 1
 properties:
   - predicate: bio.summary

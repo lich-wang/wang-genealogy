@@ -4,6 +4,7 @@ id: p_7Rk8vpkphNysXpDjsPMVi5
 status: active
 merged_into: null
 display_name: 王茂剛
+cbdb_id: 37885
 revision: 1
 properties:
   - predicate: bio.summary

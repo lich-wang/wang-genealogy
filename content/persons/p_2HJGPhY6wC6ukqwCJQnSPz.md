@@ -4,6 +4,7 @@ id: p_2HJGPhY6wC6ukqwCJQnSPz
 status: active
 merged_into: null
 display_name: 王道起
+cbdb_id: 415502
 revision: 1
 properties:
   - predicate: bio.summary

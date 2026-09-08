@@ -4,6 +4,7 @@ id: p_RwyXU98cqpzAo3smZBKob4
 status: active
 merged_into: null
 display_name: 王幡然
+cbdb_id: 35305
 revision: 1
 properties:
   - predicate: bio.summary

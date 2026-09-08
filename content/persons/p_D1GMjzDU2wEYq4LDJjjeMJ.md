@@ -4,6 +4,7 @@ id: p_D1GMjzDU2wEYq4LDJjjeMJ
 status: active
 merged_into: null
 display_name: 王雙鶴
+cbdb_id: 522261
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_ey6G7WQyDsa37JLiT1MG8w
 status: active
 merged_into: null
 display_name: 王叔鸾
+cbdb_id: 175504
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_4pEEaYLxGFB6Maka6VFFMZ
 status: active
 merged_into: null
 display_name: 王自功
+cbdb_id: 415315
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_vyU9JZFQt1T6xX15RLtAhR
 status: active
 merged_into: null
 display_name: 王尚吉
+cbdb_id: 414380
 revision: 1
 properties:
   - predicate: bio.summary

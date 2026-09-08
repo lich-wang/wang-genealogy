@@ -4,6 +4,7 @@ id: p_3NLrzrSSHKzjmRv78pJAPK
 status: active
 merged_into: null
 display_name: 王士逵
+cbdb_id: 336303
 revision: 1
 properties:
   - predicate: bio.summary

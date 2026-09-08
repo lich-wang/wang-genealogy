@@ -4,6 +4,7 @@ id: p_R1RF133N5mwNT6YsnkkDcE
 status: active
 merged_into: null
 display_name: 王仲堪
+cbdb_id: 141326
 revision: 1
 properties:
   - predicate: bio.summary

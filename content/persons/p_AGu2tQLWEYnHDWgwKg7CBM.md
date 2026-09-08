@@ -4,6 +4,7 @@ id: p_AGu2tQLWEYnHDWgwKg7CBM
 status: active
 merged_into: null
 display_name: 王喻
+cbdb_id: 207601
 revision: 1
 properties:
   - predicate: bio.summary

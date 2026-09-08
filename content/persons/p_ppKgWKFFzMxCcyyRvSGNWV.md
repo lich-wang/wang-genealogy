@@ -4,6 +4,7 @@ id: p_ppKgWKFFzMxCcyyRvSGNWV
 status: active
 merged_into: null
 display_name: 王帝臣
+cbdb_id: 471670
 revision: 1
 properties:
   - predicate: bio.summary

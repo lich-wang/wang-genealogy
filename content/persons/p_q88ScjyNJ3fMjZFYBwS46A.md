@@ -4,6 +4,7 @@ id: p_q88ScjyNJ3fMjZFYBwS46A
 status: active
 merged_into: null
 display_name: 王原簡
+cbdb_id: 238051
 revision: 1
 properties:
   - predicate: bio.summary

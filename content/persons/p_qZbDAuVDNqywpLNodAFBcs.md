@@ -4,6 +4,7 @@ id: p_qZbDAuVDNqywpLNodAFBcs
 status: active
 merged_into: null
 display_name: 王源昌
+cbdb_id: 342652
 revision: 1
 properties:
   - predicate: bio.summary

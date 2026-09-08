@@ -4,6 +4,7 @@ id: p_P5NNMTUVjfZsT4UX3JLxj3
 status: active
 merged_into: null
 display_name: 王關
+cbdb_id: 415572
 revision: 1
 properties:
   - predicate: bio.summary

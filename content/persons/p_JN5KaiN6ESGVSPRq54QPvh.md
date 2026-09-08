@@ -4,6 +4,7 @@ id: p_JN5KaiN6ESGVSPRq54QPvh
 status: active
 merged_into: null
 display_name: 王蘭廣
+cbdb_id: 459665
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_2NpPCjfK1zKG1Y4vBq5gUX
 status: active
 merged_into: null
 display_name: 王士瀚
+cbdb_id: 342934
 revision: 1
 properties:
   - predicate: bio.summary

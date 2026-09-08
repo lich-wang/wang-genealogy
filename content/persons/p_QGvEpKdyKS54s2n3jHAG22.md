@@ -4,6 +4,7 @@ id: p_QGvEpKdyKS54s2n3jHAG22
 status: active
 merged_into: null
 display_name: 王福謙
+cbdb_id: 415194
 revision: 1
 properties:
   - predicate: bio.summary

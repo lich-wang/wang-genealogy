@@ -4,6 +4,7 @@ id: p_wHhfyKr3J1YKfs4iJbPgWs
 status: active
 merged_into: null
 display_name: 王伯需
+cbdb_id: 413861
 revision: 1
 properties:
   - predicate: bio.summary

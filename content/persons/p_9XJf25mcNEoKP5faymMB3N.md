@@ -4,6 +4,7 @@ id: p_9XJf25mcNEoKP5faymMB3N
 status: active
 merged_into: null
 display_name: 王源谦
+cbdb_id: 175532
 revision: 1
 properties:
   - predicate: bio.summary

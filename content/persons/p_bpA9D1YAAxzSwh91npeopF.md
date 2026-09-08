@@ -4,6 +4,7 @@ id: p_bpA9D1YAAxzSwh91npeopF
 status: active
 merged_into: null
 display_name: 王應統
+cbdb_id: 414653
 revision: 1
 properties:
   - predicate: bio.summary

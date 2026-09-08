@@ -4,6 +4,7 @@ id: p_sQ5BkZRhs6GYEqAHihQgAv
 status: active
 merged_into: null
 display_name: 王镛
+cbdb_id: 21994
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_L4CnGcjLQB3md1g9BVZ9Bi
 status: active
 merged_into: null
 display_name: 王昌印
+cbdb_id: 414773
 revision: 1
 properties:
   - predicate: bio.summary

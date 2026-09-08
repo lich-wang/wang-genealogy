@@ -4,6 +4,7 @@ id: p_r1k2sDBB5VVGGjCnxF9ura
 status: active
 merged_into: null
 display_name: 王定昇
+cbdb_id: 526699
 revision: 1
 properties:
   - predicate: bio.summary

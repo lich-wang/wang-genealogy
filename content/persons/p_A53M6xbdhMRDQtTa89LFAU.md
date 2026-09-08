@@ -4,6 +4,7 @@ id: p_A53M6xbdhMRDQtTa89LFAU
 status: active
 merged_into: null
 display_name: 王秉公
+cbdb_id: 415198
 revision: 1
 properties:
   - predicate: bio.summary

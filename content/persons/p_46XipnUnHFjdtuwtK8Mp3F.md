@@ -4,6 +4,7 @@ id: p_46XipnUnHFjdtuwtK8Mp3F
 status: active
 merged_into: null
 display_name: 王蕙貞
+cbdb_id: 121811
 revision: 1
 properties:
   - predicate: bio.summary

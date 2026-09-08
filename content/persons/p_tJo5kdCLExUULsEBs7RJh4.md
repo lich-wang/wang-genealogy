@@ -4,6 +4,7 @@ id: p_tJo5kdCLExUULsEBs7RJh4
 status: active
 merged_into: null
 display_name: 王同規
+cbdb_id: 153848
 revision: 1
 properties:
   - predicate: bio.summary

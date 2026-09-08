@@ -4,6 +4,7 @@ id: p_bUysoeJPPingc7y8SLHBRy
 status: active
 merged_into: null
 display_name: 王雲瑞
+cbdb_id: 291949
 revision: 1
 properties:
   - predicate: bio.summary

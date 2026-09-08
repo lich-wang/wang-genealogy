@@ -4,6 +4,7 @@ id: p_qh6oWiwsyaBYCenaECzN8z
 status: active
 merged_into: null
 display_name: 王孝煃
+cbdb_id: 71653
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_ENcN1JP5Ttz5sbf9M3tXox
 status: active
 merged_into: null
 display_name: 王三壽
+cbdb_id: 214406
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_E4pMHYMAXs99BURPBqYUBB
 status: active
 merged_into: null
 display_name: 王命邵
+cbdb_id: 71784
 revision: 1
 properties:
   - predicate: bio.summary

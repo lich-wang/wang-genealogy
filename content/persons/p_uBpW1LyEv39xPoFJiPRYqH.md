@@ -4,6 +4,7 @@ id: p_uBpW1LyEv39xPoFJiPRYqH
 status: active
 merged_into: null
 display_name: 王磁
+cbdb_id: 45803
 revision: 1
 properties:
   - predicate: bio.summary

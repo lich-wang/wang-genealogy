@@ -4,6 +4,7 @@ id: p_bMAfqpytJ9o56871VAfAs2
 status: active
 merged_into: null
 display_name: 王冲惠
+cbdb_id: 413981
 revision: 1
 properties:
   - predicate: bio.summary

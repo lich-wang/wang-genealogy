@@ -4,6 +4,7 @@ id: p_1PiLPfNT1F62VGuJ9svND2
 status: active
 merged_into: null
 display_name: 王言如
+cbdb_id: 511628
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_D13YWU3jLVG79WyyHfTQHB
 status: active
 merged_into: null
 display_name: 王象良
+cbdb_id: 211366
 revision: 1
 properties:
   - predicate: bio.summary

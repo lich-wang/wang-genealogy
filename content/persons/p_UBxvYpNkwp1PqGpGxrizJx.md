@@ -4,6 +4,7 @@ id: p_UBxvYpNkwp1PqGpGxrizJx
 status: active
 merged_into: null
 display_name: 王一統
+cbdb_id: 126437
 revision: 1
 properties:
   - predicate: bio.summary

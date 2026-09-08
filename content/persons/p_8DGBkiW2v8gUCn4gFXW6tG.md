@@ -4,6 +4,7 @@ id: p_8DGBkiW2v8gUCn4gFXW6tG
 status: active
 merged_into: null
 display_name: 王如璐
+cbdb_id: 414234
 revision: 1
 properties:
   - predicate: bio.summary

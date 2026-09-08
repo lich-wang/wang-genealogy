@@ -4,6 +4,7 @@ id: p_j5mqwaCp9Qo2k1UFKbqGgU
 status: active
 merged_into: null
 display_name: 王師宗
+cbdb_id: 157992
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_AjPBrK3KRnWF6QxHbu4MtJ
 status: active
 merged_into: null
 display_name: 王业弘
+cbdb_id: 30380
 revision: 1
 properties:
   - predicate: bio.summary

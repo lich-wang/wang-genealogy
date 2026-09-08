@@ -4,6 +4,7 @@ id: p_3cULc28mPZ4HcdEjdxa91W
 status: active
 merged_into: null
 display_name: 王緒級
+cbdb_id: 486659
 revision: 1
 properties:
   - predicate: bio.summary

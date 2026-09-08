@@ -4,6 +4,7 @@ id: p_j4tzTt8FeBrFQ8mTkVCdD7
 status: active
 merged_into: null
 display_name: 王頤勳
+cbdb_id: 62050
 revision: 1
 properties:
   - predicate: bio.summary

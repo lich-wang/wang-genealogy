@@ -4,6 +4,7 @@ id: p_xrq9qyfwqop4m438PFbqGm
 status: active
 merged_into: null
 display_name: 王耀南
+cbdb_id: 123604
 revision: 1
 properties:
   - predicate: bio.summary

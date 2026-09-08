@@ -4,6 +4,7 @@ id: p_gzSAA7pnJGSp9duTKAiL6T
 status: active
 merged_into: null
 display_name: 王端嚴
+cbdb_id: 154995
 revision: 1
 properties:
   - predicate: bio.summary

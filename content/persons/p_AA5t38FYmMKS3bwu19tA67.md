@@ -4,6 +4,7 @@ id: p_AA5t38FYmMKS3bwu19tA67
 status: active
 merged_into: null
 display_name: 王景略
+cbdb_id: 23165
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_YFbUeup27BHQjMjW6DG46t
 status: active
 merged_into: null
 display_name: 王惠民
+cbdb_id: 414615
 revision: 1
 properties:
   - predicate: bio.summary

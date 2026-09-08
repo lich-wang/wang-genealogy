@@ -4,6 +4,7 @@ id: p_ZnA8SbAr9UJ3Rztec1iR46
 status: active
 merged_into: null
 display_name: 王侯寵
+cbdb_id: 413873
 revision: 1
 properties:
   - predicate: bio.summary

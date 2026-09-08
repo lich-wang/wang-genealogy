@@ -4,6 +4,7 @@ id: p_dR3SqdokCDWaEL26C6zKwq
 status: active
 merged_into: null
 display_name: 王守謙
+cbdb_id: 414287
 revision: 1
 properties:
   - predicate: bio.summary

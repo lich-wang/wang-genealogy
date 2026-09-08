@@ -4,6 +4,7 @@ id: p_jUTkQfMDCr3w6FBBG7qpZK
 status: active
 merged_into: null
 display_name: 王永盛
+cbdb_id: 69121
 revision: 1
 properties:
   - predicate: bio.summary

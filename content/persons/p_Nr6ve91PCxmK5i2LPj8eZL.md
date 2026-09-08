@@ -4,6 +4,7 @@ id: p_Nr6ve91PCxmK5i2LPj8eZL
 status: active
 merged_into: null
 display_name: 王有仁
+cbdb_id: 60028
 revision: 1
 properties:
   - predicate: bio.summary

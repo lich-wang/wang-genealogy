@@ -4,6 +4,7 @@ id: p_sSU67kq43JC5TkTGyq8gVi
 status: active
 merged_into: null
 display_name: 王漢楷
+cbdb_id: 494147
 revision: 1
 properties:
   - predicate: bio.summary

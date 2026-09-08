@@ -4,6 +4,7 @@ id: p_GNQ8J2z8sSWE3xNrYHBQjn
 status: active
 merged_into: null
 display_name: 王慶善
+cbdb_id: 522383
 revision: 1
 properties:
   - predicate: bio.summary

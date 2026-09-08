@@ -4,6 +4,7 @@ id: p_K5d5vBbrnCHKZZagHUtauk
 status: active
 merged_into: null
 display_name: 王元權
+cbdb_id: 413907
 revision: 1
 properties:
   - predicate: bio.summary

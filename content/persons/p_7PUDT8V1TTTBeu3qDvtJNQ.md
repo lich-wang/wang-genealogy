@@ -4,6 +4,7 @@ id: p_7PUDT8V1TTTBeu3qDvtJNQ
 status: active
 merged_into: null
 display_name: 王大公
+cbdb_id: 246419
 revision: 1
 properties:
   - predicate: bio.summary

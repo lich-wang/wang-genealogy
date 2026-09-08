@@ -4,6 +4,7 @@ id: p_LtibHoqT49GS1fdf4zHFf9
 status: active
 merged_into: null
 display_name: 王映奎
+cbdb_id: 120730
 revision: 1
 properties:
   - predicate: bio.summary

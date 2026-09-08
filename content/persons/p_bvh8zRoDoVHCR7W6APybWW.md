@@ -4,6 +4,7 @@ id: p_bvh8zRoDoVHCR7W6APybWW
 status: active
 merged_into: null
 display_name: 王必中
+cbdb_id: 22092
 revision: 1
 properties:
   - predicate: bio.summary

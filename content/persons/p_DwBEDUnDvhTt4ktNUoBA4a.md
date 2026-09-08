@@ -4,6 +4,7 @@ id: p_DwBEDUnDvhTt4ktNUoBA4a
 status: active
 merged_into: null
 display_name: 王子洙
+cbdb_id: 97851
 revision: 1
 properties:
   - predicate: bio.summary

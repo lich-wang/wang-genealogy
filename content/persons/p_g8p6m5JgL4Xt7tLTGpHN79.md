@@ -4,6 +4,7 @@ id: p_g8p6m5JgL4Xt7tLTGpHN79
 status: active
 merged_into: null
 display_name: 王鳯麒
+cbdb_id: 462347
 revision: 1
 properties:
   - predicate: bio.summary

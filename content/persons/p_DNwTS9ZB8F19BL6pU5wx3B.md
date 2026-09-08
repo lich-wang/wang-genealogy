@@ -4,6 +4,7 @@ id: p_DNwTS9ZB8F19BL6pU5wx3B
 status: active
 merged_into: null
 display_name: 王衍璞
+cbdb_id: 342158
 revision: 1
 properties:
   - predicate: bio.summary

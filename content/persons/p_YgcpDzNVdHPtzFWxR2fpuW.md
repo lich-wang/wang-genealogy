@@ -4,6 +4,7 @@ id: p_YgcpDzNVdHPtzFWxR2fpuW
 status: active
 merged_into: null
 display_name: 王明紀
+cbdb_id: 414785
 revision: 1
 properties:
   - predicate: bio.summary

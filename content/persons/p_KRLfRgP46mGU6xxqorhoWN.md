@@ -4,6 +4,7 @@ id: p_KRLfRgP46mGU6xxqorhoWN
 status: active
 merged_into: null
 display_name: 王肇敏
+cbdb_id: 342875
 revision: 1
 properties:
   - predicate: bio.summary

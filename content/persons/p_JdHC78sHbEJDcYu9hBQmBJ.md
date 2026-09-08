@@ -4,6 +4,7 @@ id: p_JdHC78sHbEJDcYu9hBQmBJ
 status: active
 merged_into: null
 display_name: 王公易
+cbdb_id: 445668
 revision: 1
 properties:
   - predicate: bio.summary

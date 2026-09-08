@@ -4,6 +4,7 @@ id: p_u89tPzkDusF6SdK6p8sZk8
 status: active
 merged_into: null
 display_name: 王至淑
+cbdb_id: 134058
 revision: 1
 properties:
   - predicate: bio.summary

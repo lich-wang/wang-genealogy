@@ -4,6 +4,7 @@ id: p_wsFAVGfuKix48GNXEaitKt
 status: active
 merged_into: null
 display_name: 王珣瑜
+cbdb_id: 37984
 revision: 1
 properties:
   - predicate: bio.summary

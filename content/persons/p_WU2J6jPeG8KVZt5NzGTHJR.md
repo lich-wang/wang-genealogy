@@ -4,6 +4,7 @@ id: p_WU2J6jPeG8KVZt5NzGTHJR
 status: active
 merged_into: null
 display_name: 王世琮
+cbdb_id: 126489
 revision: 1
 properties:
   - predicate: bio.summary

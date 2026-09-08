@@ -4,6 +4,7 @@ id: p_5jPSJ5bRFDJFyiiYFvL8Jy
 status: active
 merged_into: null
 display_name: 王率賓
+cbdb_id: 277146
 revision: 1
 properties:
   - predicate: bio.summary

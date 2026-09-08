@@ -4,6 +4,7 @@ id: p_PgRcXXHS2uLS2y2JXngJy8
 status: active
 merged_into: null
 display_name: 王慧雲
+cbdb_id: 54815
 revision: 1
 properties:
   - predicate: bio.summary

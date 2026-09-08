@@ -4,6 +4,7 @@ id: p_qcjEXsDJZzCBeUmARPpBb9
 status: active
 merged_into: null
 display_name: 王尚之
+cbdb_id: 37693
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_1FkfYLjNSkoeDHSvHCrDvX
 status: active
 merged_into: null
 display_name: 王聯豫
+cbdb_id: 64438
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_SXJ6T36eqZPEiKFDiDZuwh
 status: active
 merged_into: null
 display_name: 王文然
+cbdb_id: 441244
 revision: 1
 properties:
   - predicate: bio.summary

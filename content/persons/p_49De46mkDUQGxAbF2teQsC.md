@@ -4,6 +4,7 @@ id: p_49De46mkDUQGxAbF2teQsC
 status: active
 merged_into: null
 display_name: 王彦规
+cbdb_id: 175418
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_jZCidZkym8zE2dU2j4CAQ9
 status: active
 merged_into: null
 display_name: 王禎兆
+cbdb_id: 225804
 revision: 1
 properties:
   - predicate: bio.summary

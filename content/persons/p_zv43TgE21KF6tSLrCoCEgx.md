@@ -4,6 +4,7 @@ id: p_zv43TgE21KF6tSLrCoCEgx
 status: active
 merged_into: null
 display_name: 王玉懷
+cbdb_id: 526731
 revision: 1
 properties:
   - predicate: bio.summary

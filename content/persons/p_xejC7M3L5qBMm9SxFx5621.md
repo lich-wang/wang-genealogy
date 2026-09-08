@@ -4,6 +4,7 @@ id: p_xejC7M3L5qBMm9SxFx5621
 status: active
 merged_into: null
 display_name: 王湰長
+cbdb_id: 415035
 revision: 1
 properties:
   - predicate: bio.summary

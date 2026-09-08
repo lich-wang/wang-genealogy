@@ -4,6 +4,7 @@ id: p_s8TYNK5KRsJ4xvfbXhaP2x
 status: active
 merged_into: null
 display_name: 王時進
+cbdb_id: 414797
 revision: 1
 properties:
   - predicate: bio.summary

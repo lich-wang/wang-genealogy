@@ -4,6 +4,7 @@ id: p_HK7Yqf7oZNVE1Sm8bdpuJV
 status: active
 merged_into: null
 display_name: 王文藝
+cbdb_id: 210434
 revision: 1
 properties:
   - predicate: bio.summary

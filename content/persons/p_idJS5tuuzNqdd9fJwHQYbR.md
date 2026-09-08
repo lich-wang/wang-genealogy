@@ -4,6 +4,7 @@ id: p_idJS5tuuzNqdd9fJwHQYbR
 status: active
 merged_into: null
 display_name: 王周霖
+cbdb_id: 414052
 revision: 1
 properties:
   - predicate: bio.summary

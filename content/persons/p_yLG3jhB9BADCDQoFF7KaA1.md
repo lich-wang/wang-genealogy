@@ -4,6 +4,7 @@ id: p_yLG3jhB9BADCDQoFF7KaA1
 status: active
 merged_into: null
 display_name: 王欽哉
+cbdb_id: 35026
 revision: 1
 properties:
   - predicate: bio.summary

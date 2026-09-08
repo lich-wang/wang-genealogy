@@ -4,6 +4,7 @@ id: p_81CvExYf89XJWc841QKkeM
 status: active
 merged_into: null
 display_name: 王槐卿
+cbdb_id: 121679
 revision: 1
 properties:
   - predicate: bio.summary

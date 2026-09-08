@@ -4,6 +4,7 @@ id: p_GMiqJBh7YQ1MMn468wZyQK
 status: active
 merged_into: null
 display_name: 王曰然
+cbdb_id: 203455
 revision: 1
 properties:
   - predicate: bio.summary

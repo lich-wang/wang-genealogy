@@ -4,6 +4,7 @@ id: p_qP8dD7nKADM89skhcxYC8i
 status: active
 merged_into: null
 display_name: 王尚義
+cbdb_id: 414372
 revision: 1
 properties:
   - predicate: bio.summary

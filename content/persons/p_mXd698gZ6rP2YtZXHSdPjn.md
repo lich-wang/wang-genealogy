@@ -4,6 +4,7 @@ id: p_mXd698gZ6rP2YtZXHSdPjn
 status: active
 merged_into: null
 display_name: 王應試
+cbdb_id: 297739
 revision: 1
 properties:
   - predicate: bio.summary

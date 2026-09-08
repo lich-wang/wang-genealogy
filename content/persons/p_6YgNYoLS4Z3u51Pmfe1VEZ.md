@@ -4,6 +4,7 @@ id: p_6YgNYoLS4Z3u51Pmfe1VEZ
 status: active
 merged_into: null
 display_name: 王臨民
+cbdb_id: 415313
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_1UWx5FcBiYVDukDuC4R6RW
 status: active
 merged_into: null
 display_name: 王潮海
+cbdb_id: 415046
 revision: 1
 properties:
   - predicate: bio.summary

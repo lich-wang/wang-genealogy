@@ -4,6 +4,7 @@ id: p_PjuZjM9vxj26BaS4qsF6d8
 status: active
 merged_into: null
 display_name: 王淑昭
+cbdb_id: 72020
 revision: 1
 properties:
   - predicate: bio.summary

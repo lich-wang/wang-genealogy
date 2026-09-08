@@ -4,6 +4,7 @@ id: p_dUnqoMtek8mzjqS73GZGfE
 status: active
 merged_into: null
 display_name: 王錫純
+cbdb_id: 72117
 revision: 1
 properties:
   - predicate: bio.summary

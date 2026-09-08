@@ -4,6 +4,7 @@ id: p_3ZRkLDEZG2dQQN3S5tXUNJ
 status: active
 merged_into: null
 display_name: 王诠
+cbdb_id: 175868
 revision: 2
 properties:
   - predicate: bio.summary

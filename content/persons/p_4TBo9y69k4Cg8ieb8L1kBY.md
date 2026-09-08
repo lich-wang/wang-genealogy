@@ -4,6 +4,7 @@ id: p_4TBo9y69k4Cg8ieb8L1kBY
 status: active
 merged_into: null
 display_name: 王祖卿
+cbdb_id: 33389
 revision: 1
 properties:
   - predicate: bio.summary

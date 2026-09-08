@@ -4,6 +4,7 @@ id: p_8LbnzZxpxnASaQCZW2Z1wW
 status: active
 merged_into: null
 display_name: 王克鞏
+cbdb_id: 342966
 revision: 1
 properties:
   - predicate: bio.summary

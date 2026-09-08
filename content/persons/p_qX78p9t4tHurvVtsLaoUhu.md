@@ -4,6 +4,7 @@ id: p_qX78p9t4tHurvVtsLaoUhu
 status: active
 merged_into: null
 display_name: 王憲且
+cbdb_id: 235981
 revision: 1
 properties:
   - predicate: bio.summary

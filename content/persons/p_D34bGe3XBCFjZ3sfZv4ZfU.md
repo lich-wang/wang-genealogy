@@ -4,6 +4,7 @@ id: p_D34bGe3XBCFjZ3sfZv4ZfU
 status: active
 merged_into: null
 display_name: 王忠民
+cbdb_id: 37689
 revision: 1
 properties:
   - predicate: bio.summary

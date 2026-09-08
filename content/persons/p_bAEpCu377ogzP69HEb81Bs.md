@@ -4,6 +4,7 @@ id: p_bAEpCu377ogzP69HEb81Bs
 status: active
 merged_into: null
 display_name: 王超
+cbdb_id: 7077
 revision: 2
 properties:
   - predicate: bio.summary

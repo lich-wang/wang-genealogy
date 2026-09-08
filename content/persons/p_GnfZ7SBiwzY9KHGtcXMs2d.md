@@ -4,6 +4,7 @@ id: p_GnfZ7SBiwzY9KHGtcXMs2d
 status: active
 merged_into: null
 display_name: 王德宿
+cbdb_id: 218712
 revision: 1
 properties:
   - predicate: bio.summary

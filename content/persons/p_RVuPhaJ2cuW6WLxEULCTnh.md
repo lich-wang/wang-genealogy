@@ -4,6 +4,7 @@ id: p_RVuPhaJ2cuW6WLxEULCTnh
 status: active
 merged_into: null
 display_name: 王東儒
+cbdb_id: 343359
 revision: 1
 properties:
   - predicate: bio.summary

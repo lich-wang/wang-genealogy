@@ -4,6 +4,7 @@ id: p_HQN79dJJDzCif1Vqe18XqZ
 status: active
 merged_into: null
 display_name: 王耀基
+cbdb_id: 123176
 revision: 1
 properties:
   - predicate: bio.summary

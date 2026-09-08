@@ -4,6 +4,7 @@ id: p_4e4a1Q6UoGcPq42s5wxYww
 status: active
 merged_into: null
 display_name: 王拔羣
+cbdb_id: 343377
 revision: 1
 properties:
   - predicate: bio.summary

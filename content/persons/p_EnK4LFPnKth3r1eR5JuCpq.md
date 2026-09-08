@@ -4,6 +4,7 @@ id: p_EnK4LFPnKth3r1eR5JuCpq
 status: active
 merged_into: null
 display_name: 王念兹
+cbdb_id: 236485
 revision: 1
 properties:
   - predicate: bio.summary

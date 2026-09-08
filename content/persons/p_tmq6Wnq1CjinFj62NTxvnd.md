@@ -4,6 +4,7 @@ id: p_tmq6Wnq1CjinFj62NTxvnd
 status: active
 merged_into: null
 display_name: 王师颜
+cbdb_id: 22250
 revision: 2
 properties:
   - predicate: name.primary

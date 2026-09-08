@@ -4,6 +4,7 @@ id: p_ajkoqL97eE9UGE4SHxYpXo
 status: active
 merged_into: null
 display_name: 王雲洙
+cbdb_id: 466459
 revision: 1
 properties:
   - predicate: bio.summary

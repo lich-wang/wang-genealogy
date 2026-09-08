@@ -4,6 +4,7 @@ id: p_CxyZa6TEKBz4MjoJnsZpoy
 status: active
 merged_into: null
 display_name: 王均玉
+cbdb_id: 237853
 revision: 1
 properties:
   - predicate: bio.summary

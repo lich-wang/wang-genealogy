@@ -4,6 +4,7 @@ id: p_c69C5SsLnoWZTBom6WXYQY
 status: active
 merged_into: null
 display_name: 王一屏
+cbdb_id: 69039
 revision: 1
 properties:
   - predicate: bio.summary

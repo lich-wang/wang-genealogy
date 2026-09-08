@@ -4,6 +4,7 @@ id: p_5ai8dyq8yszY5qzzqs4u8x
 status: active
 merged_into: null
 display_name: 王宗龍
+cbdb_id: 69241
 revision: 1
 properties:
   - predicate: bio.summary

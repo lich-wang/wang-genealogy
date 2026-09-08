@@ -4,6 +4,7 @@ id: p_39p4Z47cj6Pu66BinzwEbo
 status: active
 merged_into: null
 display_name: 王崇禎
+cbdb_id: 315366
 revision: 1
 properties:
   - predicate: bio.summary

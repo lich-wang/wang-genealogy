@@ -4,6 +4,7 @@ id: p_UMJFqTgVr7D6dCthamBiCp
 status: active
 merged_into: null
 display_name: 王師魯
+cbdb_id: 445490
 revision: 1
 properties:
   - predicate: bio.summary

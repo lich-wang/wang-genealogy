@@ -4,6 +4,7 @@ id: p_97NzEwfFody7AUaGYnKNdD
 status: active
 merged_into: null
 display_name: 王應宣
+cbdb_id: 414639
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_rCH1h9AsEu2A6kZDKWvc7X
 status: active
 merged_into: null
 display_name: 王儒翰
+cbdb_id: 572214
 revision: 1
 properties:
   - predicate: bio.summary

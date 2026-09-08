@@ -4,6 +4,7 @@ id: p_Ef5VE9CLFhhmpDq6fdSAuK
 status: active
 merged_into: null
 display_name: 王象艮
+cbdb_id: 235529
 revision: 1
 properties:
   - predicate: bio.summary

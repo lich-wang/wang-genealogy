@@ -4,6 +4,7 @@ id: p_LdrAUpv6xQEub6YGNkASRW
 status: active
 merged_into: null
 display_name: 王良史
+cbdb_id: 309430
 revision: 1
 properties:
   - predicate: bio.summary

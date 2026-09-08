@@ -4,6 +4,7 @@ id: p_rup9XcZMd1yvLD6QJJ4f6H
 status: active
 merged_into: null
 display_name: 王吾伯
+cbdb_id: 572339
 revision: 1
 properties:
   - predicate: bio.summary

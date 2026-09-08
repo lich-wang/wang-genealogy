@@ -4,6 +4,7 @@ id: p_eRJeYWLuxnFsaoPSnvX4JJ
 status: active
 merged_into: null
 display_name: 王士宏
+cbdb_id: 414162
 revision: 1
 properties:
   - predicate: bio.summary

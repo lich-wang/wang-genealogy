@@ -4,6 +4,7 @@ id: p_9ykAqz3teDmM63tMZoaV1m
 status: active
 merged_into: null
 display_name: 王任聘
+cbdb_id: 334519
 revision: 1
 properties:
   - predicate: bio.summary

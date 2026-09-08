@@ -4,6 +4,7 @@ id: p_af66BN3ZLffAeWDrtDBmM8
 status: active
 merged_into: null
 display_name: 王延熙
+cbdb_id: 414447
 revision: 1
 properties:
   - predicate: bio.summary

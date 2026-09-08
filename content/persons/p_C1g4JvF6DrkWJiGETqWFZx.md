@@ -4,6 +4,7 @@ id: p_C1g4JvF6DrkWJiGETqWFZx
 status: active
 merged_into: null
 display_name: 王天麒
+cbdb_id: 251781
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_Pw4V9B2YZddUe16WxLunML
 status: active
 merged_into: null
 display_name: 王德彬
+cbdb_id: 280952
 revision: 1
 properties:
   - predicate: bio.summary

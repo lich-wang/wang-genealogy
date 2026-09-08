@@ -4,6 +4,7 @@ id: p_MCvyMYE19i4LNYZ1HcuQQ4
 status: active
 merged_into: null
 display_name: 王有先
+cbdb_id: 414826
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_zzQn3afESvutWcTEBVbFTe
 status: active
 merged_into: null
 display_name: 王恆汎
+cbdb_id: 141368
 revision: 1
 properties:
   - predicate: bio.summary

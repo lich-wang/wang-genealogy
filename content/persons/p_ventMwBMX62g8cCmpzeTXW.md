@@ -4,6 +4,7 @@ id: p_ventMwBMX62g8cCmpzeTXW
 status: active
 merged_into: null
 display_name: 王孟寬
+cbdb_id: 258058
 revision: 1
 properties:
   - predicate: bio.summary

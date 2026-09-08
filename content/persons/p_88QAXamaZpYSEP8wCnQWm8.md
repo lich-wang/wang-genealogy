@@ -4,6 +4,7 @@ id: p_88QAXamaZpYSEP8wCnQWm8
 status: active
 merged_into: null
 display_name: 王廷韶
+cbdb_id: 71569
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_Q9rBAKZ68eWprGhbiDzntS
 status: active
 merged_into: null
 display_name: 王祖德
+cbdb_id: 213207
 revision: 1
 properties:
   - predicate: bio.summary

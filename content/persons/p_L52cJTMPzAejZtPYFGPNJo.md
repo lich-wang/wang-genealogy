@@ -4,6 +4,7 @@ id: p_L52cJTMPzAejZtPYFGPNJo
 status: active
 merged_into: null
 display_name: 王以第
+cbdb_id: 331770
 revision: 1
 properties:
   - predicate: bio.summary

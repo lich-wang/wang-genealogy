@@ -4,6 +4,7 @@ id: p_dr5THMYZGs7zW675Bw8A4u
 status: active
 merged_into: null
 display_name: 王玉圭
+cbdb_id: 221458
 revision: 1
 properties:
   - predicate: bio.summary

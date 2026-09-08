@@ -4,6 +4,7 @@ id: p_JC7xE3RoD3x2pAoc8aYDdU
 status: active
 merged_into: null
 display_name: 王宗汜
+cbdb_id: 305714
 revision: 1
 properties:
   - predicate: bio.summary

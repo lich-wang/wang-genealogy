@@ -4,6 +4,7 @@ id: p_9Bm8jiJiKVgRdaCFCRVeqr
 status: active
 merged_into: null
 display_name: 王會篇
+cbdb_id: 329993
 revision: 1
 properties:
   - predicate: bio.summary

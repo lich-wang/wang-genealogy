@@ -4,6 +4,7 @@ id: p_LhMp3jzsASgNz6Bu42mrJ4
 status: active
 merged_into: null
 display_name: 王承教
+cbdb_id: 414684
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_nQuut1g1ouB5gnHvQKaVjQ
 status: active
 merged_into: null
 display_name: 王湯夫
+cbdb_id: 264593
 revision: 1
 properties:
   - predicate: bio.summary

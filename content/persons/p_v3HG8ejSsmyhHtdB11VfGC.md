@@ -4,6 +4,7 @@ id: p_v3HG8ejSsmyhHtdB11VfGC
 status: active
 merged_into: null
 display_name: 王家挺
+cbdb_id: 67122
 revision: 1
 properties:
   - predicate: bio.summary

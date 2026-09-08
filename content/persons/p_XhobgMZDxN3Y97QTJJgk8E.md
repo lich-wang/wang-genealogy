@@ -4,6 +4,7 @@ id: p_XhobgMZDxN3Y97QTJJgk8E
 status: active
 merged_into: null
 display_name: 王傅英
+cbdb_id: 413885
 revision: 1
 properties:
   - predicate: bio.summary

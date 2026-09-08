@@ -4,6 +4,7 @@ id: p_GYZYeCEFAABsTQwFy7Lrmg
 status: active
 merged_into: null
 display_name: 王希遷
+cbdb_id: 191564
 revision: 1
 properties:
   - predicate: bio.summary

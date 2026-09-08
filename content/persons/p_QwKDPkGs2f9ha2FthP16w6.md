@@ -4,6 +4,7 @@ id: p_QwKDPkGs2f9ha2FthP16w6
 status: active
 merged_into: null
 display_name: 王師簡
+cbdb_id: 445492
 revision: 1
 properties:
   - predicate: bio.summary

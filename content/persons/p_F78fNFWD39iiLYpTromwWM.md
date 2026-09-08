@@ -4,6 +4,7 @@ id: p_F78fNFWD39iiLYpTromwWM
 status: active
 merged_into: null
 display_name: 王忠貴
+cbdb_id: 61480
 revision: 1
 properties:
   - predicate: bio.summary

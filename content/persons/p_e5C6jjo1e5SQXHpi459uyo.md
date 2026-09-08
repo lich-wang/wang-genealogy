@@ -4,6 +4,7 @@ id: p_e5C6jjo1e5SQXHpi459uyo
 status: active
 merged_into: null
 display_name: 王雲嘉
+cbdb_id: 415583
 revision: 1
 properties:
   - predicate: bio.summary

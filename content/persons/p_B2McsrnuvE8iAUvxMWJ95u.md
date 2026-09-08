@@ -4,6 +4,7 @@ id: p_B2McsrnuvE8iAUvxMWJ95u
 status: active
 merged_into: null
 display_name: 王朝璋
+cbdb_id: 282732
 revision: 1
 properties:
   - predicate: bio.summary

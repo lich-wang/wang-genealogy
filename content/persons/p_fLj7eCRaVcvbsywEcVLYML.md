@@ -4,6 +4,7 @@ id: p_fLj7eCRaVcvbsywEcVLYML
 status: active
 merged_into: null
 display_name: 王象峰
+cbdb_id: 513477
 revision: 1
 properties:
   - predicate: bio.summary

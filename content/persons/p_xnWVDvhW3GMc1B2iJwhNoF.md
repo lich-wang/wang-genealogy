@@ -4,6 +4,7 @@ id: p_xnWVDvhW3GMc1B2iJwhNoF
 status: active
 merged_into: null
 display_name: 王昭信
+cbdb_id: 474401
 revision: 1
 properties:
   - predicate: bio.summary

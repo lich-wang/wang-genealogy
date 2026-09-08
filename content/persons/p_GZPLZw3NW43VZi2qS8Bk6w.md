@@ -4,6 +4,7 @@ id: p_GZPLZw3NW43VZi2qS8Bk6w
 status: active
 merged_into: null
 display_name: 王世賢
+cbdb_id: 413727
 revision: 1
 properties:
   - predicate: bio.summary

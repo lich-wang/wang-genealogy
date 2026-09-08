@@ -4,6 +4,7 @@ id: p_ViHZi63LAyFugZfLkYqSCD
 status: active
 merged_into: null
 display_name: 王伏
+cbdb_id: 148930
 revision: 1
 properties:
   - predicate: bio.summary

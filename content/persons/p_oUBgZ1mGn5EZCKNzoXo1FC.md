@@ -4,6 +4,7 @@ id: p_oUBgZ1mGn5EZCKNzoXo1FC
 status: active
 merged_into: null
 display_name: 王煥崧
+cbdb_id: 72022
 revision: 1
 properties:
   - predicate: bio.summary

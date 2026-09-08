@@ -4,6 +4,7 @@ id: p_Cko6NaeyqxymHmTtmvP7pb
 status: active
 merged_into: null
 display_name: 王復表
+cbdb_id: 414543
 revision: 1
 properties:
   - predicate: bio.summary

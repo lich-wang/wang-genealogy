@@ -4,6 +4,7 @@ id: p_m6JqkVZNfJm95LmoghtH9J
 status: active
 merged_into: null
 display_name: 王嵊時
+cbdb_id: 513478
 revision: 1
 properties:
   - predicate: bio.summary

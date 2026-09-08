@@ -4,6 +4,7 @@ id: p_kj7xLVAdnL38cq8xDTKsqF
 status: active
 merged_into: null
 display_name: 王叔遇
+cbdb_id: 157224
 revision: 1
 properties:
   - predicate: bio.summary

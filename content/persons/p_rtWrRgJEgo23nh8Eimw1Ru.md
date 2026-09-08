@@ -4,6 +4,7 @@ id: p_rtWrRgJEgo23nh8Eimw1Ru
 status: active
 merged_into: null
 display_name: 王同福
+cbdb_id: 140942
 revision: 1
 properties:
   - predicate: bio.summary

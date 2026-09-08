@@ -4,6 +4,7 @@ id: p_cCZKSey14o7Po5z49ZTLuG
 status: active
 merged_into: null
 display_name: 王之駿
+cbdb_id: 54866
 revision: 1
 properties:
   - predicate: bio.summary

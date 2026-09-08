@@ -4,6 +4,7 @@ id: p_8GYhzDLDE59gLF9wXqpeeh
 status: active
 merged_into: null
 display_name: 王崇光
+cbdb_id: 414395
 revision: 1
 properties:
   - predicate: bio.summary

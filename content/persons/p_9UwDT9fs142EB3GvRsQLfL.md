@@ -4,6 +4,7 @@ id: p_9UwDT9fs142EB3GvRsQLfL
 status: active
 merged_into: null
 display_name: 王承寿
+cbdb_id: 24463
 revision: 2
 properties:
   - predicate: bio.summary

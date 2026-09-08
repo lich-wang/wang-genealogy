@@ -4,6 +4,7 @@ id: p_7MWcx5vJoLYT3CwZ9CrfPq
 status: active
 merged_into: null
 display_name: 王觀澄
+cbdb_id: 439378
 revision: 1
 properties:
   - predicate: bio.summary

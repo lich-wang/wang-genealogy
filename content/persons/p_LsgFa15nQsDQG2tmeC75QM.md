@@ -4,6 +4,7 @@ id: p_LsgFa15nQsDQG2tmeC75QM
 status: active
 merged_into: null
 display_name: 王寘
+cbdb_id: 38724
 revision: 1
 properties:
   - predicate: bio.summary

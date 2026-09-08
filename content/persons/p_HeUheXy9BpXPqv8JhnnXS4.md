@@ -4,6 +4,7 @@ id: p_HeUheXy9BpXPqv8JhnnXS4
 status: active
 merged_into: null
 display_name: 王萬秋
+cbdb_id: 415364
 revision: 1
 properties:
   - predicate: bio.summary

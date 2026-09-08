@@ -4,6 +4,7 @@ id: p_2FcyjCsveAH53fSz4mvYVW
 status: active
 merged_into: null
 display_name: 王麗堂
+cbdb_id: 494305
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_L8q27Num255fjZnXmvsiW5
 status: active
 merged_into: null
 display_name: 王懷光
+cbdb_id: 151425
 revision: 1
 properties:
   - predicate: bio.summary

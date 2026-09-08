@@ -4,6 +4,7 @@ id: p_3cpMcrdb3FJuM9DP1FAn9C
 status: active
 merged_into: null
 display_name: 王哲輔
+cbdb_id: 414061
 revision: 1
 properties:
   - predicate: bio.summary

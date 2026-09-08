@@ -4,6 +4,7 @@ id: p_2jbUSp9pUyEuUdReswY15E
 status: active
 merged_into: null
 display_name: 王載錫
+cbdb_id: 245400
 revision: 1
 properties:
   - predicate: bio.summary

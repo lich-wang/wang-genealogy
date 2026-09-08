@@ -4,6 +4,7 @@ id: p_HcUddbR3ACCQaYp3tuLUJC
 status: active
 merged_into: null
 display_name: 王元裕
+cbdb_id: 445446
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_4LBA1MYVAifo2Bn8B54Nia
 status: active
 merged_into: null
 display_name: 王文斗
+cbdb_id: 414736
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_F17rSH6MP27eQEzrw7C1hZ
 status: active
 merged_into: null
 display_name: 王慶潮
+cbdb_id: 497080
 revision: 1
 properties:
   - predicate: bio.summary

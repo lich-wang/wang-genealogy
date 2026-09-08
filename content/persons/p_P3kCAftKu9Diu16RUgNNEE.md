@@ -4,6 +4,7 @@ id: p_P3kCAftKu9Diu16RUgNNEE
 status: active
 merged_into: null
 display_name: 王伯儲
+cbdb_id: 254945
 revision: 1
 properties:
   - predicate: bio.summary

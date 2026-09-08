@@ -4,6 +4,7 @@ id: p_jMe4uL3Vio2DE2HPaUusXH
 status: active
 merged_into: null
 display_name: 王陳榮
+cbdb_id: 67151
 revision: 1
 properties:
   - predicate: bio.summary

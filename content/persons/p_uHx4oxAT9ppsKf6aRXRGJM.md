@@ -4,6 +4,7 @@ id: p_uHx4oxAT9ppsKf6aRXRGJM
 status: active
 merged_into: null
 display_name: 王尚貞
+cbdb_id: 210676
 revision: 1
 properties:
   - predicate: bio.summary

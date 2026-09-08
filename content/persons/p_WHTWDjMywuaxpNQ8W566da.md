@@ -4,6 +4,7 @@ id: p_WHTWDjMywuaxpNQ8W566da
 status: active
 merged_into: null
 display_name: 王汝浙
+cbdb_id: 284227
 revision: 1
 properties:
   - predicate: bio.summary

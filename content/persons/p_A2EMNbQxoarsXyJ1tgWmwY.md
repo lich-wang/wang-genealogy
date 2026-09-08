@@ -4,6 +4,7 @@ id: p_A2EMNbQxoarsXyJ1tgWmwY
 status: active
 merged_into: null
 display_name: 王玄宗
+cbdb_id: 139327
 revision: 1
 properties:
   - predicate: bio.summary

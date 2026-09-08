@@ -4,6 +4,7 @@ id: p_NbDhZemfLM9Qu7A9Q5xLzX
 status: active
 merged_into: null
 display_name: 王日省
+cbdb_id: 414767
 revision: 1
 properties:
   - predicate: bio.summary

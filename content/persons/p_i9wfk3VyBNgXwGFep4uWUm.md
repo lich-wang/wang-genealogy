@@ -4,6 +4,7 @@ id: p_i9wfk3VyBNgXwGFep4uWUm
 status: active
 merged_into: null
 display_name: 王振先
+cbdb_id: 343363
 revision: 1
 properties:
   - predicate: bio.summary

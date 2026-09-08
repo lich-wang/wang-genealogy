@@ -4,6 +4,7 @@ id: p_9MM4odvcPEpH8HALw8vRdA
 status: active
 merged_into: null
 display_name: 王崇嗣
+cbdb_id: 151487
 revision: 1
 properties:
   - predicate: bio.summary

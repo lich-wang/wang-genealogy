@@ -4,6 +4,7 @@ id: p_6TDuB46V1FVbbvKyUq5cB8
 status: active
 merged_into: null
 display_name: 王宗禮
+cbdb_id: 267647
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_h14kYmGUrknTR7oJP4DxFe
 status: active
 merged_into: null
 display_name: 王毓秀
+cbdb_id: 30061
 revision: 1
 properties:
   - predicate: bio.summary

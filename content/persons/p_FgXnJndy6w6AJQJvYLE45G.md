@@ -4,6 +4,7 @@ id: p_FgXnJndy6w6AJQJvYLE45G
 status: active
 merged_into: null
 display_name: 王翊昌
+cbdb_id: 415287
 revision: 1
 properties:
   - predicate: bio.summary

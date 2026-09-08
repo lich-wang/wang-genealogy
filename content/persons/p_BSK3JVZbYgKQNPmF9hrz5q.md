@@ -4,6 +4,7 @@ id: p_BSK3JVZbYgKQNPmF9hrz5q
 status: active
 merged_into: null
 display_name: 王炳璿
+cbdb_id: 126592
 revision: 1
 properties:
   - predicate: bio.summary

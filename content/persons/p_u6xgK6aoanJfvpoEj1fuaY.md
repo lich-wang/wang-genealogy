@@ -4,6 +4,7 @@ id: p_u6xgK6aoanJfvpoEj1fuaY
 status: active
 merged_into: null
 display_name: 王夢賢
+cbdb_id: 313202
 revision: 1
 properties:
   - predicate: bio.summary

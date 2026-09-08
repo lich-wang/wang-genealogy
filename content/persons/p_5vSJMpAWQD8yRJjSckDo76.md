@@ -4,6 +4,7 @@ id: p_5vSJMpAWQD8yRJjSckDo76
 status: active
 merged_into: null
 display_name: 王士泰
+cbdb_id: 414168
 revision: 1
 properties:
   - predicate: bio.summary

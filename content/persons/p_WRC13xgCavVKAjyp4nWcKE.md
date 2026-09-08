@@ -4,6 +4,7 @@ id: p_WRC13xgCavVKAjyp4nWcKE
 status: active
 merged_into: null
 display_name: 王攸寧
+cbdb_id: 71679
 revision: 1
 properties:
   - predicate: bio.summary

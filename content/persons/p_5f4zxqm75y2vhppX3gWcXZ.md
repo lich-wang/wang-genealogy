@@ -4,6 +4,7 @@ id: p_5f4zxqm75y2vhppX3gWcXZ
 status: active
 merged_into: null
 display_name: 王善澤
+cbdb_id: 343749
 revision: 1
 properties:
   - predicate: bio.summary

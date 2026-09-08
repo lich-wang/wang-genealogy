@@ -4,6 +4,7 @@ id: p_eRKMW8ejBDpf6b4JF1yMww
 status: active
 merged_into: null
 display_name: 王鐘齡
+cbdb_id: 120401
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_fGRik2zbqeRzCZVV91gwg6
 status: active
 merged_into: null
 display_name: 王祿朋
+cbdb_id: 439793
 revision: 1
 properties:
   - predicate: bio.summary

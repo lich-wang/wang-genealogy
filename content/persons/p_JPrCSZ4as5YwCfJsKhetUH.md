@@ -4,6 +4,7 @@ id: p_JPrCSZ4as5YwCfJsKhetUH
 status: active
 merged_into: null
 display_name: 王崇應
+cbdb_id: 285767
 revision: 1
 properties:
   - predicate: bio.summary

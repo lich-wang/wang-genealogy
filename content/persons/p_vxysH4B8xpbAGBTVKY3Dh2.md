@@ -4,6 +4,7 @@ id: p_vxysH4B8xpbAGBTVKY3Dh2
 status: active
 merged_into: null
 display_name: 王原道
+cbdb_id: 333144
 revision: 2
 properties:
   - predicate: bio.summary

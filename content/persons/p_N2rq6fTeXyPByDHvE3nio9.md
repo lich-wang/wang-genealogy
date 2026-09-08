@@ -4,6 +4,7 @@ id: p_N2rq6fTeXyPByDHvE3nio9
 status: active
 merged_into: null
 display_name: 王儒贤
+cbdb_id: 32170
 revision: 1
 properties:
   - predicate: bio.summary

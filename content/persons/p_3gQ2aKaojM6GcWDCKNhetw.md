@@ -4,6 +4,7 @@ id: p_3gQ2aKaojM6GcWDCKNhetw
 status: active
 merged_into: null
 display_name: 王智章
+cbdb_id: 92091
 revision: 1
 properties:
   - predicate: bio.summary

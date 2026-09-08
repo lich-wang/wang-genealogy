@@ -4,6 +4,7 @@ id: p_CTrYyLCUmQX23JSxsSQkqy
 status: active
 merged_into: null
 display_name: 王源长
+cbdb_id: 175483
 revision: 1
 properties:
   - predicate: bio.summary

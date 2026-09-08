@@ -4,6 +4,7 @@ id: p_7wW1HszyZJVtcha7euKGLM
 status: active
 merged_into: null
 display_name: 王士璋
+cbdb_id: 228291
 revision: 1
 properties:
   - predicate: bio.summary

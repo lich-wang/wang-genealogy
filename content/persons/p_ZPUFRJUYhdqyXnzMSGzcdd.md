@@ -4,6 +4,7 @@ id: p_ZPUFRJUYhdqyXnzMSGzcdd
 status: active
 merged_into: null
 display_name: 王晞祖
+cbdb_id: 37373
 revision: 1
 properties:
   - predicate: bio.summary

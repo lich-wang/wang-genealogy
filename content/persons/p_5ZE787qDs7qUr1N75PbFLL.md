@@ -4,6 +4,7 @@ id: p_5ZE787qDs7qUr1N75PbFLL
 status: active
 merged_into: null
 display_name: 王正甫
+cbdb_id: 24469
 revision: 1
 properties:
   - predicate: bio.summary

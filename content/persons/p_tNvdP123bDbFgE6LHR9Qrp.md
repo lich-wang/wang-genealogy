@@ -4,6 +4,7 @@ id: p_tNvdP123bDbFgE6LHR9Qrp
 status: active
 merged_into: null
 display_name: 王盛言
+cbdb_id: 515677
 revision: 1
 properties:
   - predicate: bio.summary

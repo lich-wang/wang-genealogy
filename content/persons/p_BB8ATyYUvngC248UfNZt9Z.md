@@ -4,6 +4,7 @@ id: p_BB8ATyYUvngC248UfNZt9Z
 status: active
 merged_into: null
 display_name: 王玄中
+cbdb_id: 234437
 revision: 1
 properties:
   - predicate: bio.summary

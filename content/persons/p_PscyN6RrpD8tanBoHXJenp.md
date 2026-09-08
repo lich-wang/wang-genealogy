@@ -4,6 +4,7 @@ id: p_PscyN6RrpD8tanBoHXJenp
 status: active
 merged_into: null
 display_name: 王能甫
+cbdb_id: 38069
 revision: 1
 properties:
   - predicate: bio.summary

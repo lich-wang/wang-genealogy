@@ -4,6 +4,7 @@ id: p_7UeP8FttiN2sjK938QZYon
 status: active
 merged_into: null
 display_name: 王同言
+cbdb_id: 228277
 revision: 1
 properties:
   - predicate: bio.summary

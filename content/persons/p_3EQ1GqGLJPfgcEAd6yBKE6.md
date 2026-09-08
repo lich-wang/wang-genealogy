@@ -4,6 +4,7 @@ id: p_3EQ1GqGLJPfgcEAd6yBKE6
 status: active
 merged_into: null
 display_name: 王專
+cbdb_id: 97871
 revision: 1
 properties:
   - predicate: bio.summary

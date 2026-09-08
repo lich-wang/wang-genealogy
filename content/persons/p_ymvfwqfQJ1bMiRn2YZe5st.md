@@ -4,6 +4,7 @@ id: p_ymvfwqfQJ1bMiRn2YZe5st
 status: active
 merged_into: null
 display_name: 王彥音
+cbdb_id: 261601
 revision: 1
 properties:
   - predicate: bio.summary

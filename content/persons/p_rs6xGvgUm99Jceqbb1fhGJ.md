@@ -4,6 +4,7 @@ id: p_rs6xGvgUm99Jceqbb1fhGJ
 status: active
 merged_into: null
 display_name: 王于聘
+cbdb_id: 413792
 revision: 1
 properties:
   - predicate: bio.summary

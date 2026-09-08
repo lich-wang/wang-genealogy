@@ -4,6 +4,7 @@ id: p_Asi7vGi3PmsBGKLCMf9RtK
 status: active
 merged_into: null
 display_name: 王家璽
+cbdb_id: 333603
 revision: 1
 properties:
   - predicate: bio.summary

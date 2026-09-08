@@ -4,6 +4,7 @@ id: p_3JM7HjRefMK1fps3tVTWYd
 status: active
 merged_into: null
 display_name: 王遥榖
+cbdb_id: 415505
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_9MHgH51uGrbGoVRK1SJi1w
 status: active
 merged_into: null
 display_name: 王宏嘉
+cbdb_id: 71711
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_VczHkFQYHiLCrjxskrUgAh
 status: active
 merged_into: null
 display_name: 王升
+cbdb_id: 175469
 revision: 1
 properties:
   - predicate: bio.summary

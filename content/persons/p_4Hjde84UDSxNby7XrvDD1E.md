@@ -4,6 +4,7 @@ id: p_4Hjde84UDSxNby7XrvDD1E
 status: active
 merged_into: null
 display_name: 王寂
+cbdb_id: 17425
 revision: 2
 properties:
   - predicate: bio.summary

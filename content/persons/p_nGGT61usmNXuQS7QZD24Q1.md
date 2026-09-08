@@ -4,6 +4,7 @@ id: p_nGGT61usmNXuQS7QZD24Q1
 status: active
 merged_into: null
 display_name: 王邦采
+cbdb_id: 71516
 revision: 1
 properties:
   - predicate: bio.summary

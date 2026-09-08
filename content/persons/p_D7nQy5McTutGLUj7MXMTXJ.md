@@ -4,6 +4,7 @@ id: p_D7nQy5McTutGLUj7MXMTXJ
 status: active
 merged_into: null
 display_name: 王文儒
+cbdb_id: 341612
 revision: 1
 properties:
   - predicate: bio.summary

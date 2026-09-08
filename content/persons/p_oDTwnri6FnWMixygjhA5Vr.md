@@ -4,6 +4,7 @@ id: p_oDTwnri6FnWMixygjhA5Vr
 status: active
 merged_into: null
 display_name: 王守立
+cbdb_id: 314099
 revision: 1
 properties:
   - predicate: bio.summary

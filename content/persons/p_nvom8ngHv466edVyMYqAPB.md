@@ -4,6 +4,7 @@ id: p_nvom8ngHv466edVyMYqAPB
 status: active
 merged_into: null
 display_name: 王主
+cbdb_id: 45790
 revision: 1
 properties:
   - predicate: bio.summary

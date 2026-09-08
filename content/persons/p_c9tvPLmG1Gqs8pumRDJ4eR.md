@@ -4,6 +4,7 @@ id: p_c9tvPLmG1Gqs8pumRDJ4eR
 status: active
 merged_into: null
 display_name: 王鑑翁
+cbdb_id: 101461
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_2NTHSuTRAQfY7rnLH41fx7
 status: active
 merged_into: null
 display_name: 王仲连
+cbdb_id: 175540
 revision: 1
 properties:
   - predicate: bio.summary

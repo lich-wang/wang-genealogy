@@ -4,6 +4,7 @@ id: p_R7AWC2Jzm3PqixaJivvnqR
 status: active
 merged_into: null
 display_name: 王應及
+cbdb_id: 101447
 revision: 1
 properties:
   - predicate: bio.summary

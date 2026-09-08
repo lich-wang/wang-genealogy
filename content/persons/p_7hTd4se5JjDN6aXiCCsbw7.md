@@ -4,6 +4,7 @@ id: p_7hTd4se5JjDN6aXiCCsbw7
 status: active
 merged_into: null
 display_name: 王孝友
+cbdb_id: 267975
 revision: 1
 properties:
   - predicate: bio.summary

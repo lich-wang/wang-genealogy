@@ -4,6 +4,7 @@ id: p_x7VwK647VbQmFReaD1Nhbk
 status: active
 merged_into: null
 display_name: 王宗基
+cbdb_id: 342635
 revision: 1
 properties:
   - predicate: bio.summary

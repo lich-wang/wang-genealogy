@@ -4,6 +4,7 @@ id: p_uZv23AiDMRHnE4LSw9tig5
 status: active
 merged_into: null
 display_name: 王敏吉
+cbdb_id: 237271
 revision: 1
 properties:
   - predicate: bio.summary

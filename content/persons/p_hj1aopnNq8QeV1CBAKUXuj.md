@@ -4,6 +4,7 @@ id: p_hj1aopnNq8QeV1CBAKUXuj
 status: active
 merged_into: null
 display_name: 王守綱
+cbdb_id: 526162
 revision: 1
 properties:
   - predicate: bio.summary

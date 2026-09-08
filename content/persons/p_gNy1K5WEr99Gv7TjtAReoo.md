@@ -4,6 +4,7 @@ id: p_gNy1K5WEr99Gv7TjtAReoo
 status: active
 merged_into: null
 display_name: 王宮午
+cbdb_id: 342598
 revision: 1
 properties:
   - predicate: bio.summary

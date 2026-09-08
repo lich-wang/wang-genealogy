@@ -4,6 +4,7 @@ id: p_abxFxpHcJCpYnnG5k8S7f5
 status: active
 merged_into: null
 display_name: 王維世
+cbdb_id: 415243
 revision: 1
 properties:
   - predicate: bio.summary

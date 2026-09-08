@@ -4,6 +4,7 @@ id: p_LEQpdJpHPhjPpitoCFFp8Q
 status: active
 merged_into: null
 display_name: 王崇寬
+cbdb_id: 246482
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_rjDwSEixiSPVfaYah7y3K3
 status: active
 merged_into: null
 display_name: 王希雋
+cbdb_id: 376299
 revision: 1
 properties:
   - predicate: bio.summary

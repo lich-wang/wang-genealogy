@@ -4,6 +4,7 @@ id: p_X9VBuv3nvM6mjb4edZAPnV
 status: active
 merged_into: null
 display_name: 王太貞
+cbdb_id: 142149
 revision: 1
 properties:
   - predicate: bio.summary

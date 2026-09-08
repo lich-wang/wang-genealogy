@@ -4,6 +4,7 @@ id: p_QDMgaCLn9CeEes99W7dE45
 status: active
 merged_into: null
 display_name: 王本固
+cbdb_id: 126484
 revision: 1
 properties:
   - predicate: bio.summary

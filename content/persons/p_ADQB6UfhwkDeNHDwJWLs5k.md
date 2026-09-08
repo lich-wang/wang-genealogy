@@ -4,6 +4,7 @@ id: p_ADQB6UfhwkDeNHDwJWLs5k
 status: active
 merged_into: null
 display_name: 王四光
+cbdb_id: 216147
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_D3z8LjQkLgGxFGKKZZcbKs
 status: active
 merged_into: null
 display_name: 王繼仁
+cbdb_id: 336281
 revision: 1
 properties:
   - predicate: bio.summary

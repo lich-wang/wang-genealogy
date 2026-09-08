@@ -4,6 +4,7 @@ id: p_LNVFwyexJ8BKXjtTFgaadD
 status: active
 merged_into: null
 display_name: 王象孚
+cbdb_id: 235535
 revision: 1
 properties:
   - predicate: bio.summary

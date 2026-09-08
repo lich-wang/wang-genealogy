@@ -4,6 +4,7 @@ id: p_CHFMrQP33bcW5Sb2z1iSg4
 status: active
 merged_into: null
 display_name: 王奉林
+cbdb_id: 156542
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_1jjskAT514Mx1SC274368i
 status: active
 merged_into: null
 display_name: 王道育
+cbdb_id: 321161
 revision: 1
 properties:
   - predicate: bio.summary

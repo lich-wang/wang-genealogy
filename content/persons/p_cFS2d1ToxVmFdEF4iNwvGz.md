@@ -4,6 +4,7 @@ id: p_cFS2d1ToxVmFdEF4iNwvGz
 status: active
 merged_into: null
 display_name: 王潛之
+cbdb_id: 415044
 revision: 1
 properties:
   - predicate: bio.summary

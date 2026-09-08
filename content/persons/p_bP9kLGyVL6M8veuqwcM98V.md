@@ -4,6 +4,7 @@ id: p_bP9kLGyVL6M8veuqwcM98V
 status: active
 merged_into: null
 display_name: 王應甫
+cbdb_id: 38350
 revision: 1
 properties:
   - predicate: bio.summary

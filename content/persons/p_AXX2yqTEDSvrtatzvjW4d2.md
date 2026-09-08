@@ -4,6 +4,7 @@ id: p_AXX2yqTEDSvrtatzvjW4d2
 status: active
 merged_into: null
 display_name: 王希倩
+cbdb_id: 175399
 revision: 1
 properties:
   - predicate: bio.summary

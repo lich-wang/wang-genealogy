@@ -4,6 +4,7 @@ id: p_r7orts4FGsSDqkzrvdje47
 status: active
 merged_into: null
 display_name: 王永世
+cbdb_id: 69101
 revision: 1
 properties:
   - predicate: bio.summary

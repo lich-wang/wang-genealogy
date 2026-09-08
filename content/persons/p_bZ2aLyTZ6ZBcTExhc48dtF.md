@@ -4,6 +4,7 @@ id: p_bZ2aLyTZ6ZBcTExhc48dtF
 status: active
 merged_into: null
 display_name: 王景琚
+cbdb_id: 25088
 revision: 1
 properties:
   - predicate: bio.summary

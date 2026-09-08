@@ -4,6 +4,7 @@ id: p_FwGUVF4WAmRXYVL39isYoz
 status: active
 merged_into: null
 display_name: 王通古
+cbdb_id: 381557
 revision: 1
 properties:
   - predicate: bio.summary

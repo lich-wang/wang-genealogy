@@ -4,6 +4,7 @@ id: p_s1p8WCeyRmVMrkHZdFhtKo
 status: active
 merged_into: null
 display_name: 王駐
+cbdb_id: 415617
 revision: 1
 properties:
   - predicate: bio.summary

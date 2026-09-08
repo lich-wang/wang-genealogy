@@ -4,6 +4,7 @@ id: p_LNf8smqH73ZjMfUV1HmCb8
 status: active
 merged_into: null
 display_name: 王脫
+cbdb_id: 35522
 revision: 1
 properties:
   - predicate: bio.summary

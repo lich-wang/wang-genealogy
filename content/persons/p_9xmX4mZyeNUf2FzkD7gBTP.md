@@ -4,6 +4,7 @@ id: p_9xmX4mZyeNUf2FzkD7gBTP
 status: active
 merged_into: null
 display_name: 王澤定
+cbdb_id: 415049
 revision: 1
 properties:
   - predicate: bio.summary

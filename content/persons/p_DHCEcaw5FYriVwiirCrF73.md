@@ -4,6 +4,7 @@ id: p_DHCEcaw5FYriVwiirCrF73
 status: active
 merged_into: null
 display_name: 王肇奎
+cbdb_id: 72172
 revision: 1
 properties:
   - predicate: bio.summary

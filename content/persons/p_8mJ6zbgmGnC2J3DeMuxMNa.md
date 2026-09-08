@@ -4,6 +4,7 @@ id: p_8mJ6zbgmGnC2J3DeMuxMNa
 status: active
 merged_into: null
 display_name: 王協燦
+cbdb_id: 343075
 revision: 1
 properties:
   - predicate: bio.summary

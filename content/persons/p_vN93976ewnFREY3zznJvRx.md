@@ -4,6 +4,7 @@ id: p_vN93976ewnFREY3zznJvRx
 status: active
 merged_into: null
 display_name: 王邦濟
+cbdb_id: 415510
 revision: 1
 properties:
   - predicate: bio.summary

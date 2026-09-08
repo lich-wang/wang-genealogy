@@ -4,6 +4,7 @@ id: p_EJ7K5yC1dfEgFXSMbvj8zT
 status: active
 merged_into: null
 display_name: 王右肱
+cbdb_id: 152723
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_o4Bre2uT4597dxUzHimybf
 status: active
 merged_into: null
 display_name: 王雲程
+cbdb_id: 341845
 revision: 1
 properties:
   - predicate: bio.summary

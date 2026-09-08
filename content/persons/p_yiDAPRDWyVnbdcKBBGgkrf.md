@@ -4,6 +4,7 @@ id: p_yiDAPRDWyVnbdcKBBGgkrf
 status: active
 merged_into: null
 display_name: 王廷文
+cbdb_id: 414462
 revision: 1
 properties:
   - predicate: bio.summary

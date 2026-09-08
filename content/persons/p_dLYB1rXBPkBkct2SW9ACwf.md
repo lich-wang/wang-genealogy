@@ -4,6 +4,7 @@ id: p_dLYB1rXBPkBkct2SW9ACwf
 status: active
 merged_into: null
 display_name: 王明弼
+cbdb_id: 37649
 revision: 1
 properties:
   - predicate: bio.summary

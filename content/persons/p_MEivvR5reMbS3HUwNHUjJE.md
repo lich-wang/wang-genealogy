@@ -4,6 +4,7 @@ id: p_MEivvR5reMbS3HUwNHUjJE
 status: active
 merged_into: null
 display_name: 王献臣
+cbdb_id: 3954
 revision: 1
 properties:
   - predicate: name.primary

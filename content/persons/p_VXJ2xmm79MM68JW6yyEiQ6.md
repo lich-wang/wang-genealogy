@@ -4,6 +4,7 @@ id: p_VXJ2xmm79MM68JW6yyEiQ6
 status: active
 merged_into: null
 display_name: 王穀振
+cbdb_id: 343303
 revision: 1
 properties:
   - predicate: bio.summary

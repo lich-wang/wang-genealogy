@@ -4,6 +4,7 @@ id: p_SJMgdM5PMU9EQfshPXQGWm
 status: active
 merged_into: null
 display_name: 王嗣秦
+cbdb_id: 414091
 revision: 1
 properties:
   - predicate: bio.summary

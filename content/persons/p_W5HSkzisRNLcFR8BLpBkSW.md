@@ -4,6 +4,7 @@ id: p_W5HSkzisRNLcFR8BLpBkSW
 status: active
 merged_into: null
 display_name: 王時芳
+cbdb_id: 414795
 revision: 1
 properties:
   - predicate: bio.summary

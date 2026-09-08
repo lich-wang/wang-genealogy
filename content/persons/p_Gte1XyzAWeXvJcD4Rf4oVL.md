@@ -4,6 +4,7 @@ id: p_Gte1XyzAWeXvJcD4Rf4oVL
 status: active
 merged_into: null
 display_name: 王毓貞
+cbdb_id: 120452
 revision: 1
 properties:
   - predicate: bio.summary

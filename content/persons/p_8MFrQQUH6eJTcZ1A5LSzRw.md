@@ -4,6 +4,7 @@ id: p_8MFrQQUH6eJTcZ1A5LSzRw
 status: active
 merged_into: null
 display_name: 王徵南
+cbdb_id: 511609
 revision: 1
 properties:
   - predicate: bio.summary

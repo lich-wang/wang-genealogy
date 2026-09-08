@@ -4,6 +4,7 @@ id: p_wefPXNZhsYmMVSh2dQMnNV
 status: active
 merged_into: null
 display_name: 王興式
+cbdb_id: 518983
 revision: 1
 properties:
   - predicate: bio.summary

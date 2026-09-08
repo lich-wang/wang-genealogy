@@ -4,6 +4,7 @@ id: p_6BVg5XTFHGs5WQLK88uH4B
 status: active
 merged_into: null
 display_name: 王世臨
+cbdb_id: 233806
 revision: 1
 properties:
   - predicate: bio.summary

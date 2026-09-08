@@ -4,6 +4,7 @@ id: p_rcPAcS7Lyjcup6SuHz77V7
 status: active
 merged_into: null
 display_name: 王春承
+cbdb_id: 526751
 revision: 1
 properties:
   - predicate: bio.summary

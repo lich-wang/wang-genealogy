@@ -4,6 +4,7 @@ id: p_kyQP8cLHbo81AkLyfXAH11
 status: active
 merged_into: null
 display_name: 王漢庭
+cbdb_id: 494004
 revision: 1
 properties:
   - predicate: bio.summary

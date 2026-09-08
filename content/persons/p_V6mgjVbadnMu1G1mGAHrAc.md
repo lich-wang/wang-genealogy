@@ -4,6 +4,7 @@ id: p_V6mgjVbadnMu1G1mGAHrAc
 status: active
 merged_into: null
 display_name: 王鳳鼎
+cbdb_id: 343599
 revision: 1
 properties:
   - predicate: bio.summary

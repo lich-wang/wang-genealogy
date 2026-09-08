@@ -4,6 +4,7 @@ id: p_fE1qPb3wvPQVPGAw5Pu7n9
 status: active
 merged_into: null
 display_name: 王有賢
+cbdb_id: 309080
 revision: 1
 properties:
   - predicate: bio.summary

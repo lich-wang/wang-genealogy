@@ -4,6 +4,7 @@ id: p_wbC5CZ2DZBMURJAJA8qmMy
 status: active
 merged_into: null
 display_name: 王祚遠
+cbdb_id: 342833
 revision: 1
 properties:
   - predicate: bio.summary

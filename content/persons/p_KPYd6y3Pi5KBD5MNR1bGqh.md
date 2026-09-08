@@ -4,6 +4,7 @@ id: p_KPYd6y3Pi5KBD5MNR1bGqh
 status: active
 merged_into: null
 display_name: 王史直
+cbdb_id: 71486
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_BQewNPstP6NcgNQkQ8CeVw
 status: active
 merged_into: null
 display_name: 王萬化
+cbdb_id: 415358
 revision: 1
 properties:
   - predicate: bio.summary

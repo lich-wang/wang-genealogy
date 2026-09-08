@@ -4,6 +4,7 @@ id: p_ZNh1e4gVAd5jRM6DJL4oty
 status: active
 merged_into: null
 display_name: 王弘中
+cbdb_id: 241180
 revision: 1
 properties:
   - predicate: bio.summary

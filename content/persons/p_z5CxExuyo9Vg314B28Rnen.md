@@ -4,6 +4,7 @@ id: p_z5CxExuyo9Vg314B28Rnen
 status: active
 merged_into: null
 display_name: 王祖昌
+cbdb_id: 264713
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_e7pMrBNExwuXaaP2nN3L3K
 status: active
 merged_into: null
 display_name: 王恩注
+cbdb_id: 343468
 revision: 1
 properties:
   - predicate: bio.summary

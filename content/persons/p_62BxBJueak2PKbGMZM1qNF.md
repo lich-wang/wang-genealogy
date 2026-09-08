@@ -4,6 +4,7 @@ id: p_62BxBJueak2PKbGMZM1qNF
 status: active
 merged_into: null
 display_name: 王位之
+cbdb_id: 92012
 revision: 1
 properties:
   - predicate: bio.summary

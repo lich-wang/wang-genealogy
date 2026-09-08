@@ -4,6 +4,7 @@ id: p_xToCYQTwQ4VxgkzUD71R6r
 status: active
 merged_into: null
 display_name: 王守剛
+cbdb_id: 414278
 revision: 1
 properties:
   - predicate: bio.summary

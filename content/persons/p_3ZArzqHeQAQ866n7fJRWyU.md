@@ -4,6 +4,7 @@ id: p_3ZArzqHeQAQ866n7fJRWyU
 status: active
 merged_into: null
 display_name: 王洪汎
+cbdb_id: 167727
 revision: 1
 properties:
   - predicate: bio.summary

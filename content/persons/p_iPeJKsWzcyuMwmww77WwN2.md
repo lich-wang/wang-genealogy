@@ -4,6 +4,7 @@ id: p_iPeJKsWzcyuMwmww77WwN2
 status: active
 merged_into: null
 display_name: 王次嚴
+cbdb_id: 158170
 revision: 1
 properties:
   - predicate: bio.summary

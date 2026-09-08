@@ -4,6 +4,7 @@ id: p_YC82GKKNnnwork3CVxiFQb
 status: active
 merged_into: null
 display_name: 王益壽
+cbdb_id: 415156
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_oRDvznu4syTic9ZyER4cPh
 status: active
 merged_into: null
 display_name: 王性演
+cbdb_id: 192003
 revision: 1
 properties:
   - predicate: bio.summary

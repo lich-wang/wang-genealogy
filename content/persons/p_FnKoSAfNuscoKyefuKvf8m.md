@@ -4,6 +4,7 @@ id: p_FnKoSAfNuscoKyefuKvf8m
 status: active
 merged_into: null
 display_name: 华叔阳
+cbdb_id: 131528
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_28qFx7HJic6TeMWS9XbAjd
 status: active
 merged_into: null
 display_name: 王之埜
+cbdb_id: 45893
 revision: 1
 properties:
   - predicate: bio.summary

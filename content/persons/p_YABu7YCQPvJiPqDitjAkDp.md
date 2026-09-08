@@ -4,6 +4,7 @@ id: p_YABu7YCQPvJiPqDitjAkDp
 status: active
 merged_into: null
 display_name: 王汝鹽
+cbdb_id: 282879
 revision: 1
 properties:
   - predicate: bio.summary

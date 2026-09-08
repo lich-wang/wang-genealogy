@@ -4,6 +4,7 @@ id: p_1NFpKAdMuHUnaxbGrqKLeD
 status: active
 merged_into: null
 display_name: 王追美
+cbdb_id: 230473
 revision: 1
 properties:
   - predicate: bio.summary

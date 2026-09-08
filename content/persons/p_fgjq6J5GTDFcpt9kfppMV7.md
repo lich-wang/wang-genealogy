@@ -4,6 +4,7 @@ id: p_fgjq6J5GTDFcpt9kfppMV7
 status: active
 merged_into: null
 display_name: 王國俊
+cbdb_id: 214958
 revision: 1
 properties:
   - predicate: bio.summary

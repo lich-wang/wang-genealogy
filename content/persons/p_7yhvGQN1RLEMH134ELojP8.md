@@ -4,6 +4,7 @@ id: p_7yhvGQN1RLEMH134ELojP8
 status: active
 merged_into: null
 display_name: 王海涵
+cbdb_id: 342828
 revision: 1
 properties:
   - predicate: bio.summary

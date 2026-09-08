@@ -4,6 +4,7 @@ id: p_rzWVYhxBK9oeQF6on3qVdy
 status: active
 merged_into: null
 display_name: 王延索
+cbdb_id: 34588
 revision: 1
 properties:
   - predicate: bio.summary

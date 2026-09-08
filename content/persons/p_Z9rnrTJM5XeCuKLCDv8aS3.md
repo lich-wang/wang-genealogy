@@ -4,6 +4,7 @@ id: p_Z9rnrTJM5XeCuKLCDv8aS3
 status: active
 merged_into: null
 display_name: 王子政
+cbdb_id: 414239
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_nAsGNwKEFp395j5sL6Pc2r
 status: active
 merged_into: null
 display_name: 王一造
+cbdb_id: 458173
 revision: 1
 properties:
   - predicate: bio.summary

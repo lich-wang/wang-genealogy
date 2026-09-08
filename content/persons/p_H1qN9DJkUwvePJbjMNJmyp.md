@@ -4,6 +4,7 @@ id: p_H1qN9DJkUwvePJbjMNJmyp
 status: active
 merged_into: null
 display_name: 王士崧
+cbdb_id: 35068
 revision: 2
 properties:
   - predicate: bio.summary

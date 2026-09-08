@@ -4,6 +4,7 @@ id: p_8dMoppvhgbfMHUM2dSCPA1
 status: active
 merged_into: null
 display_name: 陈伯宗
+cbdb_id: 21301
 revision: 1
 properties:
   - predicate: bio.summary

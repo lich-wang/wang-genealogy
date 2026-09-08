@@ -4,6 +4,7 @@ id: p_zYtNvNJ1SGQ8mhHpswNA2V
 status: active
 merged_into: null
 display_name: 王晉藩
+cbdb_id: 414798
 revision: 1
 properties:
   - predicate: bio.summary

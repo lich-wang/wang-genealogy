@@ -4,6 +4,7 @@ id: p_LCMCDJjDb9a6qJCoVFhKDj
 status: active
 merged_into: null
 display_name: 王延客
+cbdb_id: 175641
 revision: 1
 properties:
   - predicate: bio.summary

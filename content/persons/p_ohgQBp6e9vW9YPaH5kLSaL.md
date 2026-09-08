@@ -4,6 +4,7 @@ id: p_ohgQBp6e9vW9YPaH5kLSaL
 status: active
 merged_into: null
 display_name: 王用化
+cbdb_id: 333041
 revision: 1
 properties:
   - predicate: bio.summary

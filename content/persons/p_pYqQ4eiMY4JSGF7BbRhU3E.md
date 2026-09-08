@@ -4,6 +4,7 @@ id: p_pYqQ4eiMY4JSGF7BbRhU3E
 status: active
 merged_into: null
 display_name: 王棺
+cbdb_id: 37901
 revision: 1
 properties:
   - predicate: bio.summary

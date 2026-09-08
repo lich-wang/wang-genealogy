@@ -4,6 +4,7 @@ id: p_qyyrECEdBSmBAtCcPNDFf4
 status: active
 merged_into: null
 display_name: 王應濟
+cbdb_id: 414647
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_5dg8UCxKGMkEj2sqY4Uptf
 status: active
 merged_into: null
 display_name: 王惕
+cbdb_id: 191405
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_CJxNevghHWDgVDRMMrkHvk
 status: active
 merged_into: null
 display_name: 王義昭
+cbdb_id: 231051
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_MkrPbfTpQxhFZEy4TWiC1Q
 status: active
 merged_into: null
 display_name: 王居巖
+cbdb_id: 3946
 revision: 1
 properties:
   - predicate: bio.summary

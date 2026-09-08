@@ -4,6 +4,7 @@ id: p_ScT3B5KuyqUNJoXZCsfAkM
 status: active
 merged_into: null
 display_name: 王庶善
+cbdb_id: 72003
 revision: 1
 properties:
   - predicate: bio.summary

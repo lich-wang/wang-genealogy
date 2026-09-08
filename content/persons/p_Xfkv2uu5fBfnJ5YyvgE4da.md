@@ -4,6 +4,7 @@ id: p_Xfkv2uu5fBfnJ5YyvgE4da
 status: active
 merged_into: null
 display_name: 王厚
+cbdb_id: 15746
 revision: 1
 properties:
   - predicate: name.primary

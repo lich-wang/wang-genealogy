@@ -4,6 +4,7 @@ id: p_ME3dJpCb56N7c85f8K1MSR
 status: active
 merged_into: null
 display_name: 王至誠
+cbdb_id: 134061
 revision: 1
 properties:
   - predicate: bio.summary

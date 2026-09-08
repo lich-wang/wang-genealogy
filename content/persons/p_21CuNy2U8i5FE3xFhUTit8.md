@@ -4,6 +4,7 @@ id: p_21CuNy2U8i5FE3xFhUTit8
 status: active
 merged_into: null
 display_name: 王竹軒
+cbdb_id: 415215
 revision: 1
 properties:
   - predicate: bio.summary

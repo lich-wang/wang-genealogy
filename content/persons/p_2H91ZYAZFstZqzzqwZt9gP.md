@@ -4,6 +4,7 @@ id: p_2H91ZYAZFstZqzzqwZt9gP
 status: active
 merged_into: null
 display_name: 王長齡
+cbdb_id: 415570
 revision: 1
 properties:
   - predicate: bio.summary

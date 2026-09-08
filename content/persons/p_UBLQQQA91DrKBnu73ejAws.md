@@ -4,6 +4,7 @@ id: p_UBLQQQA91DrKBnu73ejAws
 status: active
 merged_into: null
 display_name: 王鍾林
+cbdb_id: 526704
 revision: 1
 properties:
   - predicate: bio.summary

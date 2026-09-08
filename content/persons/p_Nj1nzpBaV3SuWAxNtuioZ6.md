@@ -4,6 +4,7 @@ id: p_Nj1nzpBaV3SuWAxNtuioZ6
 status: active
 merged_into: null
 display_name: 王夣弼
+cbdb_id: 502814
 revision: 1
 properties:
   - predicate: bio.summary

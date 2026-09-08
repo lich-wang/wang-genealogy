@@ -4,6 +4,7 @@ id: p_KeGSscWAEH7D7h42L1PxCb
 status: active
 merged_into: null
 display_name: 王啓棻
+cbdb_id: 414072
 revision: 1
 properties:
   - predicate: bio.summary

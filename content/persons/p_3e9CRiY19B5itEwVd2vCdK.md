@@ -4,6 +4,7 @@ id: p_3e9CRiY19B5itEwVd2vCdK
 status: active
 merged_into: null
 display_name: 王玉麟
+cbdb_id: 61474
 revision: 1
 properties:
   - predicate: bio.summary

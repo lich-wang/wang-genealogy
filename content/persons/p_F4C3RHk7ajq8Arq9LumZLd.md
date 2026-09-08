@@ -4,6 +4,7 @@ id: p_F4C3RHk7ajq8Arq9LumZLd
 status: active
 merged_into: null
 display_name: 王勝鑑
+cbdb_id: 212074
 revision: 1
 properties:
   - predicate: bio.summary

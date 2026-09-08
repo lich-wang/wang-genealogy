@@ -4,6 +4,7 @@ id: p_Ze2R6ckmZLMBeSbaygYZyd
 status: active
 merged_into: null
 display_name: 王訢然
+cbdb_id: 415410
 revision: 1
 properties:
   - predicate: bio.summary

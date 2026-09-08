@@ -4,6 +4,7 @@ id: p_81gSgBQhcTk9cJ8qrkcqmc
 status: active
 merged_into: null
 display_name: 王汝寵
+cbdb_id: 313775
 revision: 1
 properties:
   - predicate: bio.summary

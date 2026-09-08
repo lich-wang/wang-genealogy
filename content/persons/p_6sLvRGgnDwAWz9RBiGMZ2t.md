@@ -4,6 +4,7 @@ id: p_6sLvRGgnDwAWz9RBiGMZ2t
 status: active
 merged_into: null
 display_name: 王勤禮
+cbdb_id: 385914
 revision: 1
 properties:
   - predicate: bio.summary

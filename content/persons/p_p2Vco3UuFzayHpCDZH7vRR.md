@@ -4,6 +4,7 @@ id: p_p2Vco3UuFzayHpCDZH7vRR
 status: active
 merged_into: null
 display_name: 王至順
+cbdb_id: 522152
 revision: 1
 properties:
   - predicate: bio.summary

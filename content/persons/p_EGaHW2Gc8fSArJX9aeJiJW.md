@@ -4,6 +4,7 @@ id: p_EGaHW2Gc8fSArJX9aeJiJW
 status: active
 merged_into: null
 display_name: 王允灌
+cbdb_id: 342252
 revision: 1
 properties:
   - predicate: bio.summary

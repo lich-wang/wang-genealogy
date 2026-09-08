@@ -4,6 +4,7 @@ id: p_qkAjboEd1JT7DVetsJmXPs
 status: active
 merged_into: null
 display_name: 王書勳
+cbdb_id: 343351
 revision: 1
 properties:
   - predicate: bio.summary

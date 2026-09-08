@@ -4,6 +4,7 @@ id: p_CHADHJsq81rcmswZHVVcRf
 status: active
 merged_into: null
 display_name: 王連第
+cbdb_id: 228979
 revision: 1
 properties:
   - predicate: bio.summary

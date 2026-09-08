@@ -4,6 +4,7 @@ id: p_9FP6DzArF1ZVMpeBEDaJVL
 status: active
 merged_into: null
 display_name: 王伯虎
+cbdb_id: 3971
 revision: 1
 properties:
   - predicate: bio.summary

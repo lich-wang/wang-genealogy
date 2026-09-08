@@ -4,6 +4,7 @@ id: p_hjgBPjWMd7g5aEQVAxSGMr
 status: active
 merged_into: null
 display_name: 王德錄
+cbdb_id: 441153
 revision: 1
 properties:
   - predicate: bio.summary

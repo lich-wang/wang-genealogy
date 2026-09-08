@@ -4,6 +4,7 @@ id: p_EHQiUQG97dn6WKyHmdu7jg
 status: active
 merged_into: null
 display_name: 王圖選
+cbdb_id: 414137
 revision: 1
 properties:
   - predicate: bio.summary

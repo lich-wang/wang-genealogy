@@ -4,6 +4,7 @@ id: p_A4EUEFdw1QJgH3Q73hDNbn
 status: active
 merged_into: null
 display_name: 王民表
+cbdb_id: 237912
 revision: 1
 properties:
   - predicate: bio.summary

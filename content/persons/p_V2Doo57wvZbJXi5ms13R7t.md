@@ -4,6 +4,7 @@ id: p_V2Doo57wvZbJXi5ms13R7t
 status: active
 merged_into: null
 display_name: 王与准
+cbdb_id: 254712
 revision: 1
 properties:
   - predicate: bio.summary

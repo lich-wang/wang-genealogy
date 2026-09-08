@@ -4,6 +4,7 @@ id: p_GTCk6T5jVex5fc6mAem8Af
 status: active
 merged_into: null
 display_name: 王步週
+cbdb_id: 69216
 revision: 1
 properties:
   - predicate: bio.summary

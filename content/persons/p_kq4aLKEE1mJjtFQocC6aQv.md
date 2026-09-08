@@ -4,6 +4,7 @@ id: p_kq4aLKEE1mJjtFQocC6aQv
 status: active
 merged_into: null
 display_name: 王谷宰
+cbdb_id: 415426
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_bWS6dyCRFbobGToyXQueQ5
 status: active
 merged_into: null
 display_name: 王先达
+cbdb_id: 30376
 revision: 1
 properties:
   - predicate: bio.summary

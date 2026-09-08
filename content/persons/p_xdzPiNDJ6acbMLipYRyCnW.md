@@ -4,6 +4,7 @@ id: p_xdzPiNDJ6acbMLipYRyCnW
 status: active
 merged_into: null
 display_name: 王埕
+cbdb_id: 414146
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_njfbn7Jdq9tce3UpcHzJJk
 status: active
 merged_into: null
 display_name: 王緒昌
+cbdb_id: 236274
 revision: 1
 properties:
   - predicate: bio.summary

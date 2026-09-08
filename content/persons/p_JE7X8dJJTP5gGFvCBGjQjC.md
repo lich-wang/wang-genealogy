@@ -4,6 +4,7 @@ id: p_JE7X8dJJTP5gGFvCBGjQjC
 status: active
 merged_into: null
 display_name: 王翁信
+cbdb_id: 445664
 revision: 1
 properties:
   - predicate: bio.summary

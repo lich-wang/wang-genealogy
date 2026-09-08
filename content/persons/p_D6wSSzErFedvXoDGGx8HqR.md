@@ -4,6 +4,7 @@ id: p_D6wSSzErFedvXoDGGx8HqR
 status: active
 merged_into: null
 display_name: 王士琦
+cbdb_id: 35067
 revision: 2
 properties:
   - predicate: bio.summary

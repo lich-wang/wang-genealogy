@@ -4,6 +4,7 @@ id: p_Ca6eWbDHWoszLa5oHPwcFs
 status: active
 merged_into: null
 display_name: 王景祺
+cbdb_id: 441156
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_PijqqT4NMfwwv599Dg9MVc
 status: active
 merged_into: null
 display_name: 王一俞
+cbdb_id: 413669
 revision: 1
 properties:
   - predicate: bio.summary

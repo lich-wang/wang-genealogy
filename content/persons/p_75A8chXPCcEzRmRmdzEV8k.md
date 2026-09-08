@@ -4,6 +4,7 @@ id: p_75A8chXPCcEzRmRmdzEV8k
 status: active
 merged_into: null
 display_name: 王憲文
+cbdb_id: 235990
 revision: 1
 properties:
   - predicate: bio.summary

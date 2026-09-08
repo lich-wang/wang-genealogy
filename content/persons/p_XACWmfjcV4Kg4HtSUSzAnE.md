@@ -4,6 +4,7 @@ id: p_XACWmfjcV4Kg4HtSUSzAnE
 status: active
 merged_into: null
 display_name: 王文偉
+cbdb_id: 294996
 revision: 1
 properties:
   - predicate: bio.summary

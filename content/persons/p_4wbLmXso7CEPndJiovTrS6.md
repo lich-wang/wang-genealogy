@@ -4,6 +4,7 @@ id: p_4wbLmXso7CEPndJiovTrS6
 status: active
 merged_into: null
 display_name: 王涧
+cbdb_id: 175512
 revision: 1
 properties:
   - predicate: bio.summary

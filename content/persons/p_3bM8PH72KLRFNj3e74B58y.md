@@ -4,6 +4,7 @@ id: p_3bM8PH72KLRFNj3e74B58y
 status: active
 merged_into: null
 display_name: 王蒙
+cbdb_id: 69868
 revision: 1
 properties:
   - predicate: bio.summary

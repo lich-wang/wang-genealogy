@@ -4,6 +4,7 @@ id: p_WARoy7ipSH5r2cNMBp11mh
 status: active
 merged_into: null
 display_name: 王榮統
+cbdb_id: 414892
 revision: 1
 properties:
   - predicate: bio.summary

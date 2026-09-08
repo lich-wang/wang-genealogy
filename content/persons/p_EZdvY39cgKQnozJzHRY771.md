@@ -4,6 +4,7 @@ id: p_EZdvY39cgKQnozJzHRY771
 status: active
 merged_into: null
 display_name: 王佐登
+cbdb_id: 342305
 revision: 1
 properties:
   - predicate: bio.summary

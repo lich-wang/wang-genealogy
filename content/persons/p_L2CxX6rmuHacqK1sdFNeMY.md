@@ -4,6 +4,7 @@ id: p_L2CxX6rmuHacqK1sdFNeMY
 status: active
 merged_into: null
 display_name: 王克和
+cbdb_id: 265189
 revision: 1
 properties:
   - predicate: bio.summary

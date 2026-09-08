@@ -4,6 +4,7 @@ id: p_EjgKZosseJbMoFKBB2G7JA
 status: active
 merged_into: null
 display_name: 王嗣中
+cbdb_id: 219544
 revision: 1
 properties:
   - predicate: bio.summary

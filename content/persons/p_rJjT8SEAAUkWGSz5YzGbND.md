@@ -4,6 +4,7 @@ id: p_rJjT8SEAAUkWGSz5YzGbND
 status: active
 merged_into: null
 display_name: 王良劍
+cbdb_id: 155638
 revision: 1
 properties:
   - predicate: bio.summary

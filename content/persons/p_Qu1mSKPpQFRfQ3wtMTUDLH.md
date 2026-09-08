@@ -4,6 +4,7 @@ id: p_Qu1mSKPpQFRfQ3wtMTUDLH
 status: active
 merged_into: null
 display_name: 王德豐
+cbdb_id: 38421
 revision: 1
 properties:
   - predicate: bio.summary

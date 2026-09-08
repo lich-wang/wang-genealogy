@@ -4,6 +4,7 @@ id: p_NaMGvbnm227tz8KN98BHyZ
 status: active
 merged_into: null
 display_name: 王聖孫
+cbdb_id: 101383
 revision: 1
 properties:
   - predicate: bio.summary

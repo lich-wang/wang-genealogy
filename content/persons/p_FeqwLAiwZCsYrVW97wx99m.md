@@ -4,6 +4,7 @@ id: p_FeqwLAiwZCsYrVW97wx99m
 status: active
 merged_into: null
 display_name: 王繹新
+cbdb_id: 415266
 revision: 1
 properties:
   - predicate: bio.summary

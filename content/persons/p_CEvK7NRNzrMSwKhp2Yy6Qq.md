@@ -4,6 +4,7 @@ id: p_CEvK7NRNzrMSwKhp2Yy6Qq
 status: active
 merged_into: null
 display_name: 王文粹
+cbdb_id: 318797
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_MvDkTEyoxt1BiLsscV6A64
 status: active
 merged_into: null
 display_name: 王毗
+cbdb_id: 155510
 revision: 1
 properties:
   - predicate: bio.summary

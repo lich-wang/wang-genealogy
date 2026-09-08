@@ -4,6 +4,7 @@ id: p_DURPppoTyXETXo1qhWeAkv
 status: active
 merged_into: null
 display_name: 王士芳
+cbdb_id: 71317
 revision: 1
 properties:
   - predicate: bio.summary

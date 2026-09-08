@@ -4,6 +4,7 @@ id: p_btyLjEDjLPQrn182pZi5zm
 status: active
 merged_into: null
 display_name: 王象賁
+cbdb_id: 220269
 revision: 1
 properties:
   - predicate: bio.summary

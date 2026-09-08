@@ -4,6 +4,7 @@ id: p_XCqo1JwnyrgF2Yo3j5zHdS
 status: active
 merged_into: null
 display_name: 王繩武
+cbdb_id: 342417
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_cd1PD93j6nB83AV9QE4hXd
 status: active
 merged_into: null
 display_name: 王九霄
+cbdb_id: 413784
 revision: 1
 properties:
   - predicate: bio.summary

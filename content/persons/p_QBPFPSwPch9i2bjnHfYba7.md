@@ -4,6 +4,7 @@ id: p_QBPFPSwPch9i2bjnHfYba7
 status: active
 merged_into: null
 display_name: 王士溝
+cbdb_id: 414170
 revision: 1
 properties:
   - predicate: bio.summary

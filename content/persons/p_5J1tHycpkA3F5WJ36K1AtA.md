@@ -4,6 +4,7 @@ id: p_5J1tHycpkA3F5WJ36K1AtA
 status: active
 merged_into: null
 display_name: 王維愷
+cbdb_id: 415248
 revision: 1
 properties:
   - predicate: bio.summary

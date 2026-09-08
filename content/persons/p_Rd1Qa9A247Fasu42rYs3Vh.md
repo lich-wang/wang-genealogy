@@ -4,6 +4,7 @@ id: p_Rd1Qa9A247Fasu42rYs3Vh
 status: active
 merged_into: null
 display_name: 王伯揚
+cbdb_id: 97793
 revision: 1
 properties:
   - predicate: bio.summary

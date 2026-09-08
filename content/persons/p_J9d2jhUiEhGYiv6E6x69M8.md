@@ -4,6 +4,7 @@ id: p_J9d2jhUiEhGYiv6E6x69M8
 status: active
 merged_into: null
 display_name: 王鼎言
+cbdb_id: 415661
 revision: 1
 properties:
   - predicate: bio.summary

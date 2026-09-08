@@ -4,6 +4,7 @@ id: p_6UzRa7pwiSeHLxtYxLgCG2
 status: active
 merged_into: null
 display_name: 王洮
+cbdb_id: 168891
 revision: 1
 properties:
   - predicate: bio.summary

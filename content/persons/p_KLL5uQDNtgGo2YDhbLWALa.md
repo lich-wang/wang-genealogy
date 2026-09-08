@@ -4,6 +4,7 @@ id: p_KLL5uQDNtgGo2YDhbLWALa
 status: active
 merged_into: null
 display_name: 王基弘
+cbdb_id: 414148
 revision: 1
 properties:
   - predicate: bio.summary

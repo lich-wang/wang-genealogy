@@ -4,6 +4,7 @@ id: p_jYbkJx8MntSDxU7RqUFwEu
 status: active
 merged_into: null
 display_name: 王德屏
+cbdb_id: 69436
 revision: 1
 properties:
   - predicate: bio.summary

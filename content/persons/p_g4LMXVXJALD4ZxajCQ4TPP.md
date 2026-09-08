@@ -4,6 +4,7 @@ id: p_g4LMXVXJALD4ZxajCQ4TPP
 status: active
 merged_into: null
 display_name: 王嘉應
+cbdb_id: 414096
 revision: 1
 properties:
   - predicate: bio.summary

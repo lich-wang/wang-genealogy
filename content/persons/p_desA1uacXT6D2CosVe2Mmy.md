@@ -4,6 +4,7 @@ id: p_desA1uacXT6D2CosVe2Mmy
 status: active
 merged_into: null
 display_name: 王应吉
+cbdb_id: 207445
 revision: 1
 properties:
   - predicate: bio.summary

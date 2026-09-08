@@ -4,6 +4,7 @@ id: p_3cTtbkopLwtNgxN8eSzosJ
 status: active
 merged_into: null
 display_name: 王子顏
+cbdb_id: 190671
 revision: 1
 properties:
   - predicate: bio.summary

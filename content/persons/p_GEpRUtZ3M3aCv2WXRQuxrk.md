@@ -4,6 +4,7 @@ id: p_GEpRUtZ3M3aCv2WXRQuxrk
 status: active
 merged_into: null
 display_name: 王培新
+cbdb_id: 71991
 revision: 1
 properties:
   - predicate: bio.summary

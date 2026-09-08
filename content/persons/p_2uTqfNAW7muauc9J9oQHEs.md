@@ -4,6 +4,7 @@ id: p_2uTqfNAW7muauc9J9oQHEs
 status: active
 merged_into: null
 display_name: 王孟宜
+cbdb_id: 240767
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_nxaViRSwEVPGPnLfCWgh1U
 status: active
 merged_into: null
 display_name: 王良卿
+cbdb_id: 342606
 revision: 1
 properties:
   - predicate: bio.summary

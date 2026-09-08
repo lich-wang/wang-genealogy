@@ -4,6 +4,7 @@ id: p_xHr3XaRrT84QgHCS6x3jos
 status: active
 merged_into: null
 display_name: 王家仁
+cbdb_id: 332965
 revision: 1
 properties:
   - predicate: bio.summary

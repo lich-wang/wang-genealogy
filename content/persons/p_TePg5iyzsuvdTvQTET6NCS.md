@@ -4,6 +4,7 @@ id: p_TePg5iyzsuvdTvQTET6NCS
 status: active
 merged_into: null
 display_name: 王金逵
+cbdb_id: 515671
 revision: 1
 properties:
   - predicate: bio.summary

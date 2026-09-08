@@ -4,6 +4,7 @@ id: p_g9Yir1APiQpFvmBiV6zzPF
 status: active
 merged_into: null
 display_name: 王同儼
+cbdb_id: 326627
 revision: 1
 properties:
   - predicate: bio.summary

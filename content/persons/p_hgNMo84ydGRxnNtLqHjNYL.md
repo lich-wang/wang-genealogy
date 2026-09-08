@@ -4,6 +4,7 @@ id: p_hgNMo84ydGRxnNtLqHjNYL
 status: active
 merged_into: null
 display_name: 王光佐
+cbdb_id: 201648
 revision: 1
 properties:
   - predicate: bio.summary

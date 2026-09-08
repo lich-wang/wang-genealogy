@@ -4,6 +4,7 @@ id: p_dD4S9x1YsD9YUUeJKBRPvJ
 status: active
 merged_into: null
 display_name: 王廷湊
+cbdb_id: 380146
 revision: 1
 properties:
   - predicate: bio.summary

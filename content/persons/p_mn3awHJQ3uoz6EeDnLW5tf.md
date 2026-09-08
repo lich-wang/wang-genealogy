@@ -4,6 +4,7 @@ id: p_mn3awHJQ3uoz6EeDnLW5tf
 status: active
 merged_into: null
 display_name: 王捷南
+cbdb_id: 511614
 revision: 1
 properties:
   - predicate: bio.summary

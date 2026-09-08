@@ -4,6 +4,7 @@ id: p_ZcCtRwPUhFCzursYvGeobN
 status: active
 merged_into: null
 display_name: 王作所
+cbdb_id: 413866
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_viaM6m196hS8EVYS6L8gg8
 status: active
 merged_into: null
 display_name: 王宣化
+cbdb_id: 205636
 revision: 1
 properties:
   - predicate: bio.summary

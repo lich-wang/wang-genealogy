@@ -4,6 +4,7 @@ id: p_2FNNRYFAugxMrpERNwo86S
 status: active
 merged_into: null
 display_name: 王洪兆
+cbdb_id: 415005
 revision: 1
 properties:
   - predicate: bio.summary

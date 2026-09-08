@@ -4,6 +4,7 @@ id: p_3ZCNYK9CCqmwSjHamrDc1Z
 status: active
 merged_into: null
 display_name: 王師誨
+cbdb_id: 379391
 revision: 1
 properties:
   - predicate: bio.summary

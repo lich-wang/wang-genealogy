@@ -4,6 +4,7 @@ id: p_5V15QYsZZEwGMxSKSmHbYU
 status: active
 merged_into: null
 display_name: 王護兒
+cbdb_id: 168574
 revision: 1
 properties:
   - predicate: bio.summary

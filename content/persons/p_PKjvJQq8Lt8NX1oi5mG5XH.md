@@ -4,6 +4,7 @@ id: p_PKjvJQq8Lt8NX1oi5mG5XH
 status: active
 merged_into: null
 display_name: 王忠仁
+cbdb_id: 33391
 revision: 1
 properties:
   - predicate: bio.summary

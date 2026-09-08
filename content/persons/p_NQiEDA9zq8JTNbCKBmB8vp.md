@@ -4,6 +4,7 @@ id: p_NQiEDA9zq8JTNbCKBmB8vp
 status: active
 merged_into: null
 display_name: 王文翼
+cbdb_id: 414748
 revision: 1
 properties:
   - predicate: bio.summary

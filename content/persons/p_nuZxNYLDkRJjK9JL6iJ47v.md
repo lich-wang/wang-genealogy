@@ -4,6 +4,7 @@ id: p_nuZxNYLDkRJjK9JL6iJ47v
 status: active
 merged_into: null
 display_name: 王彝憲
+cbdb_id: 438325
 revision: 1
 properties:
   - predicate: bio.summary

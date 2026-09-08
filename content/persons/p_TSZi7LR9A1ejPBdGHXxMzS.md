@@ -4,6 +4,7 @@ id: p_TSZi7LR9A1ejPBdGHXxMzS
 status: active
 merged_into: null
 display_name: 王康産
+cbdb_id: 414436
 revision: 1
 properties:
   - predicate: bio.summary

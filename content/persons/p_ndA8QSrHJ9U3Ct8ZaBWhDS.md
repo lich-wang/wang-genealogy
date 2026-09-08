@@ -4,6 +4,7 @@ id: p_ndA8QSrHJ9U3Ct8ZaBWhDS
 status: active
 merged_into: null
 display_name: 王伯顏不花
+cbdb_id: 101471
 revision: 1
 properties:
   - predicate: bio.summary

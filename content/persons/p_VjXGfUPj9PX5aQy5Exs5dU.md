@@ -4,6 +4,7 @@ id: p_VjXGfUPj9PX5aQy5Exs5dU
 status: active
 merged_into: null
 display_name: 王合璧
+cbdb_id: 414038
 revision: 1
 properties:
   - predicate: bio.summary

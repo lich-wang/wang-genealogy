@@ -4,6 +4,7 @@ id: p_DGudBctYSpQoCMekqhGfLF
 status: active
 merged_into: null
 display_name: 王尚湄
+cbdb_id: 414383
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_54VLRCtN5nZ7KB6yLF4jAP
 status: active
 merged_into: null
 display_name: 王康徳
+cbdb_id: 414435
 revision: 1
 properties:
   - predicate: bio.summary

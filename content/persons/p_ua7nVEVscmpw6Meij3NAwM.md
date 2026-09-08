@@ -4,6 +4,7 @@ id: p_ua7nVEVscmpw6Meij3NAwM
 status: active
 merged_into: null
 display_name: 王士莊
+cbdb_id: 414176
 revision: 1
 properties:
   - predicate: bio.summary

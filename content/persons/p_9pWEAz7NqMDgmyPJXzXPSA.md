@@ -4,6 +4,7 @@ id: p_9pWEAz7NqMDgmyPJXzXPSA
 status: active
 merged_into: null
 display_name: 王福政
+cbdb_id: 167292
 revision: 1
 properties:
   - predicate: bio.summary

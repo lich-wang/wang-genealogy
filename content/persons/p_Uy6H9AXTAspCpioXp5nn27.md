@@ -4,6 +4,7 @@ id: p_Uy6H9AXTAspCpioXp5nn27
 status: active
 merged_into: null
 display_name: 王淳民
+cbdb_id: 209985
 revision: 1
 properties:
   - predicate: bio.summary

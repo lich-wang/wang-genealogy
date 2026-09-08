@@ -4,6 +4,7 @@ id: p_CiJPDmrHnjH3i1SjFztPki
 status: active
 merged_into: null
 display_name: 王邦益
+cbdb_id: 327287
 revision: 1
 properties:
   - predicate: bio.summary

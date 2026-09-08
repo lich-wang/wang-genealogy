@@ -4,6 +4,7 @@ id: p_xZpq5Wncb1eFGiKsRsheWy
 status: active
 merged_into: null
 display_name: 王直哉
+cbdb_id: 35027
 revision: 1
 properties:
   - predicate: bio.summary

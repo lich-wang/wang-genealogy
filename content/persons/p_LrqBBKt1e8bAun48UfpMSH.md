@@ -4,6 +4,7 @@ id: p_LrqBBKt1e8bAun48UfpMSH
 status: active
 merged_into: null
 display_name: 王書俊
+cbdb_id: 414819
 revision: 1
 properties:
   - predicate: bio.summary

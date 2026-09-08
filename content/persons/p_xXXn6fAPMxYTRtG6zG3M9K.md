@@ -4,6 +4,7 @@ id: p_xXXn6fAPMxYTRtG6zG3M9K
 status: active
 merged_into: null
 display_name: 王仕榮
+cbdb_id: 22194
 revision: 1
 properties:
   - predicate: bio.summary

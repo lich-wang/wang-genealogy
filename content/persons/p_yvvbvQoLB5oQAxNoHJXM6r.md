@@ -4,6 +4,7 @@ id: p_yvvbvQoLB5oQAxNoHJXM6r
 status: active
 merged_into: null
 display_name: 王守志
+cbdb_id: 457225
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_Wz9m4ecxdF3qNvU7bSo9YM
 status: active
 merged_into: null
 display_name: 王善忠
+cbdb_id: 333035
 revision: 1
 properties:
   - predicate: bio.summary

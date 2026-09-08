@@ -4,6 +4,7 @@ id: p_1qBSzgic18ML32VHM8faVK
 status: active
 merged_into: null
 display_name: 王紹翰
+cbdb_id: 71841
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_GHXFXhNWLMgYWtG7wU1bsA
 status: active
 merged_into: null
 display_name: 王繼濤
+cbdb_id: 38461
 revision: 1
 properties:
   - predicate: bio.summary

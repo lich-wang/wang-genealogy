@@ -4,6 +4,7 @@ id: p_sVcDuMAtYkjArHqJ9B4mfg
 status: active
 merged_into: null
 display_name: 王重章
+cbdb_id: 185352
 revision: 1
 properties:
   - predicate: bio.summary

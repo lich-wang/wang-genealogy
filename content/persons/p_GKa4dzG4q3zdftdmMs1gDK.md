@@ -4,6 +4,7 @@ id: p_GKa4dzG4q3zdftdmMs1gDK
 status: active
 merged_into: null
 display_name: 王一俊
+cbdb_id: 413668
 revision: 1
 properties:
   - predicate: bio.summary

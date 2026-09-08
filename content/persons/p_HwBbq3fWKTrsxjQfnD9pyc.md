@@ -4,6 +4,7 @@ id: p_HwBbq3fWKTrsxjQfnD9pyc
 status: active
 merged_into: null
 display_name: 王炳昆
+cbdb_id: 343903
 revision: 1
 properties:
   - predicate: bio.summary

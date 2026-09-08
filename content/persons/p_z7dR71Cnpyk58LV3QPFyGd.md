@@ -4,6 +4,7 @@ id: p_z7dR71Cnpyk58LV3QPFyGd
 status: active
 merged_into: null
 display_name: 王志方
+cbdb_id: 285766
 revision: 1
 properties:
   - predicate: bio.summary

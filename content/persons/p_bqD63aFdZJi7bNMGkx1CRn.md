@@ -4,6 +4,7 @@ id: p_bqD63aFdZJi7bNMGkx1CRn
 status: active
 merged_into: null
 display_name: 王繼耀
+cbdb_id: 294880
 revision: 1
 properties:
   - predicate: bio.summary

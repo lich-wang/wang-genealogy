@@ -4,6 +4,7 @@ id: p_kD6PKtUCmfy2ZYWFwjEErf
 status: active
 merged_into: null
 display_name: 王中微
+cbdb_id: 97772
 revision: 1
 properties:
   - predicate: bio.summary

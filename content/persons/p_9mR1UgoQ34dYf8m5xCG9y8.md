@@ -4,6 +4,7 @@ id: p_9mR1UgoQ34dYf8m5xCG9y8
 status: active
 merged_into: null
 display_name: 王爾定
+cbdb_id: 573130
 revision: 1
 properties:
   - predicate: bio.summary

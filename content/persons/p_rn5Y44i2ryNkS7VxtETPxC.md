@@ -4,6 +4,7 @@ id: p_rn5Y44i2ryNkS7VxtETPxC
 status: active
 merged_into: null
 display_name: 王原樸
+cbdb_id: 327876
 revision: 1
 properties:
   - predicate: bio.summary

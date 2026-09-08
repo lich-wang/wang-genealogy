@@ -4,6 +4,7 @@ id: p_rCHze2ELdfpGnVc3ALXbbK
 status: active
 merged_into: null
 display_name: 王元樑
+cbdb_id: 341791
 revision: 1
 properties:
   - predicate: bio.summary

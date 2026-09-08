@@ -4,6 +4,7 @@ id: p_5MY68y6LagQzBCHvBQS7E1
 status: active
 merged_into: null
 display_name: 王裕世
+cbdb_id: 415393
 revision: 1
 properties:
   - predicate: bio.summary

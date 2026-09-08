@@ -4,6 +4,7 @@ id: p_QA23hQV5iT5kPr7FCfzaTH
 status: active
 merged_into: null
 display_name: 王來泰
+cbdb_id: 520426
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_6NtuXhBr3zL7twqvMGemTq
 status: active
 merged_into: null
 display_name: 王嘉讓
+cbdb_id: 414108
 revision: 1
 properties:
   - predicate: bio.summary

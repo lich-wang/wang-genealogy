@@ -4,6 +4,7 @@ id: p_SJZn4Kq4MzAjEmakYwmjLK
 status: active
 merged_into: null
 display_name: 王長策
+cbdb_id: 415568
 revision: 1
 properties:
   - predicate: bio.summary

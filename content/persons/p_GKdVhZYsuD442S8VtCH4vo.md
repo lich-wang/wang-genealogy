@@ -4,6 +4,7 @@ id: p_GKdVhZYsuD442S8VtCH4vo
 status: active
 merged_into: null
 display_name: 王士謙
+cbdb_id: 493095
 revision: 1
 properties:
   - predicate: bio.summary

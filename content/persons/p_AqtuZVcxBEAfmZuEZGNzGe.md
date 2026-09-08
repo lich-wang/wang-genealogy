@@ -4,6 +4,7 @@ id: p_AqtuZVcxBEAfmZuEZGNzGe
 status: active
 merged_into: null
 display_name: 王從芬
+cbdb_id: 155368
 revision: 1
 properties:
   - predicate: bio.summary

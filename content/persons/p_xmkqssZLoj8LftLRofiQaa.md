@@ -4,6 +4,7 @@ id: p_xmkqssZLoj8LftLRofiQaa
 status: active
 merged_into: null
 display_name: 王時楷
+cbdb_id: 280640
 revision: 1
 properties:
   - predicate: bio.summary

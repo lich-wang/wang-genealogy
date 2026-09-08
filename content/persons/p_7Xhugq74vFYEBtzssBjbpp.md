@@ -4,6 +4,7 @@ id: p_7Xhugq74vFYEBtzssBjbpp
 status: active
 merged_into: null
 display_name: 王元则
+cbdb_id: 30878
 revision: 1
 properties:
   - predicate: bio.summary

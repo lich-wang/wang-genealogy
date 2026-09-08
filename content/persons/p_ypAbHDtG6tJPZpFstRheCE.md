@@ -4,6 +4,7 @@ id: p_ypAbHDtG6tJPZpFstRheCE
 status: active
 merged_into: null
 display_name: 王章奎
+cbdb_id: 415211
 revision: 1
 properties:
   - predicate: bio.summary

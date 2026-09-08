@@ -4,6 +4,7 @@ id: p_acsQ4vyYzZvhaD4oRzR66q
 status: active
 merged_into: null
 display_name: 王伯琪
+cbdb_id: 22019
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_2Zy8egjMHWy8uWeDrKu4fe
 status: active
 merged_into: null
 display_name: 王銘詔
+cbdb_id: 517408
 revision: 1
 properties:
   - predicate: bio.summary

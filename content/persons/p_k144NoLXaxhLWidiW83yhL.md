@@ -4,6 +4,7 @@ id: p_k144NoLXaxhLWidiW83yhL
 status: active
 merged_into: null
 display_name: 王彥彰
+cbdb_id: 101268
 revision: 1
 properties:
   - predicate: bio.summary

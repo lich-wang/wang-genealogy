@@ -4,6 +4,7 @@ id: p_FXmHfz5GmcJktJPe9NMK9x
 status: active
 merged_into: null
 display_name: 王崇典
+cbdb_id: 302979
 revision: 1
 properties:
   - predicate: bio.summary

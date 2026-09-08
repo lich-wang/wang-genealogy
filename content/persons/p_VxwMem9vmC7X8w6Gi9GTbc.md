@@ -4,6 +4,7 @@ id: p_VxwMem9vmC7X8w6Gi9GTbc
 status: active
 merged_into: null
 display_name: 王升鼎
+cbdb_id: 414004
 revision: 1
 properties:
   - predicate: bio.summary

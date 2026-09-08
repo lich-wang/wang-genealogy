@@ -4,6 +4,7 @@ id: p_rvgMrjq6CUy1tpidW7f6u7
 status: active
 merged_into: null
 display_name: 王徵賢
+cbdb_id: 414552
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_ebGKhtL47ChCVHD6qmPgZv
 status: active
 merged_into: null
 display_name: 王胤虞
+cbdb_id: 415310
 revision: 1
 properties:
   - predicate: bio.summary

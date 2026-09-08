@@ -4,6 +4,7 @@ id: p_xG5EFPCyXGbZh5FaMxiUL8
 status: active
 merged_into: null
 display_name: 王元圭
+cbdb_id: 461146
 revision: 1
 properties:
   - predicate: bio.summary

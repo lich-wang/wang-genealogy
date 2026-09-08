@@ -4,6 +4,7 @@ id: p_MvDJZDEzqAS25HLuuBsUHX
 status: active
 merged_into: null
 display_name: 王汝樞
+cbdb_id: 327814
 revision: 1
 properties:
   - predicate: bio.summary

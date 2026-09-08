@@ -4,6 +4,7 @@ id: p_88N8F7QC67BDANQ41w4EaZ
 status: active
 merged_into: null
 display_name: 王顯仁
+cbdb_id: 206702
 revision: 1
 properties:
   - predicate: bio.summary

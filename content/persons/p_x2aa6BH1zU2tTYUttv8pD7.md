@@ -4,6 +4,7 @@ id: p_x2aa6BH1zU2tTYUttv8pD7
 status: active
 merged_into: null
 display_name: 王宗廉
+cbdb_id: 97862
 revision: 1
 properties:
   - predicate: bio.summary

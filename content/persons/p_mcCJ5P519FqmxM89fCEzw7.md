@@ -4,6 +4,7 @@ id: p_mcCJ5P519FqmxM89fCEzw7
 status: active
 merged_into: null
 display_name: 王道蒸
+cbdb_id: 223212
 revision: 1
 properties:
   - predicate: bio.summary

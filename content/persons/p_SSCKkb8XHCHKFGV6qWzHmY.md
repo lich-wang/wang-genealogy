@@ -4,6 +4,7 @@ id: p_SSCKkb8XHCHKFGV6qWzHmY
 status: active
 merged_into: null
 display_name: 王榆
+cbdb_id: 212936
 revision: 1
 properties:
   - predicate: bio.summary

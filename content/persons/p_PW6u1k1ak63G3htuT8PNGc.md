@@ -4,6 +4,7 @@ id: p_PW6u1k1ak63G3htuT8PNGc
 status: active
 merged_into: null
 display_name: 王拭
+cbdb_id: 338251
 revision: 1
 properties:
   - predicate: bio.summary

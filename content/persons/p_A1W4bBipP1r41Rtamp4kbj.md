@@ -4,6 +4,7 @@ id: p_A1W4bBipP1r41Rtamp4kbj
 status: active
 merged_into: null
 display_name: 张奎
+cbdb_id: 3150
 revision: 1
 properties:
   - predicate: bio.summary

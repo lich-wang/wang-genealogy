@@ -4,6 +4,7 @@ id: p_3qBaYMEudY17Eom81S8GB4
 status: active
 merged_into: null
 display_name: 王叔謙
+cbdb_id: 342422
 revision: 1
 properties:
   - predicate: bio.summary

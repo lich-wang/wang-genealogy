@@ -4,6 +4,7 @@ id: p_y2wPDE6dWkgB37QiaZyE55
 status: active
 merged_into: null
 display_name: 王敬念
+cbdb_id: 164190
 revision: 1
 properties:
   - predicate: bio.summary

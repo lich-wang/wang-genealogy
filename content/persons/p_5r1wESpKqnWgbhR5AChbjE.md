@@ -4,6 +4,7 @@ id: p_5r1wESpKqnWgbhR5AChbjE
 status: active
 merged_into: null
 display_name: 王之猷
+cbdb_id: 126467
 revision: 2
 properties:
   - predicate: bio.summary

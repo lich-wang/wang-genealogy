@@ -4,6 +4,7 @@ id: p_D9N98oB92wT9B2XW2TfNE4
 status: active
 merged_into: null
 display_name: 王良策
+cbdb_id: 328155
 revision: 1
 properties:
   - predicate: bio.summary

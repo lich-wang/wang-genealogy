@@ -4,6 +4,7 @@ id: p_3GfmC8MTFBUnnSqz1tct8A
 status: active
 merged_into: null
 display_name: 王瓊瑛
+cbdb_id: 118577
 revision: 1
 properties:
   - predicate: bio.summary

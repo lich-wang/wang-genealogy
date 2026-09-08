@@ -4,6 +4,7 @@ id: p_RzsWY3U375Gt6254dkss3G
 status: active
 merged_into: null
 display_name: 王茂先
+cbdb_id: 37883
 revision: 1
 properties:
   - predicate: bio.summary

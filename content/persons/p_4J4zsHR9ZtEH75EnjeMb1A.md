@@ -4,6 +4,7 @@ id: p_4J4zsHR9ZtEH75EnjeMb1A
 status: active
 merged_into: null
 display_name: 王命誥
+cbdb_id: 414056
 revision: 1
 properties:
   - predicate: bio.summary

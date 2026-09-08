@@ -4,6 +4,7 @@ id: p_mjSm3Mzt5TdtosHWyrig2H
 status: active
 merged_into: null
 display_name: 王惟肖
+cbdb_id: 35313
 revision: 1
 properties:
   - predicate: bio.summary

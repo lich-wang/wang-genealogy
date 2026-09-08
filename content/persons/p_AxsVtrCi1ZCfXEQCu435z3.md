@@ -4,6 +4,7 @@ id: p_AxsVtrCi1ZCfXEQCu435z3
 status: active
 merged_into: null
 display_name: 王适迪
+cbdb_id: 279742
 revision: 1
 properties:
   - predicate: bio.summary

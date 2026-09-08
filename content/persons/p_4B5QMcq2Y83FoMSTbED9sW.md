@@ -4,6 +4,7 @@ id: p_4B5QMcq2Y83FoMSTbED9sW
 status: active
 merged_into: null
 display_name: 王曼壽
+cbdb_id: 514397
 revision: 1
 properties:
   - predicate: bio.summary

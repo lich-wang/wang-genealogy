@@ -4,6 +4,7 @@ id: p_MPvLHtziNCGPCPEemK1JuV
 status: active
 merged_into: null
 display_name: 王廷楊
+cbdb_id: 325994
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_B9Pdw9C9qeF6k6crMywRYK
 status: active
 merged_into: null
 display_name: 王汝端
+cbdb_id: 265943
 revision: 1
 properties:
   - predicate: bio.summary

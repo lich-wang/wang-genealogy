@@ -4,6 +4,7 @@ id: p_cY2tnR3e6ztVnK3mnY1yJF
 status: active
 merged_into: null
 display_name: 王恆豫
+cbdb_id: 414599
 revision: 1
 properties:
   - predicate: bio.summary

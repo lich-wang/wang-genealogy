@@ -4,6 +4,7 @@ id: p_utasrpisSyJQhCsWp2dMWZ
 status: active
 merged_into: null
 display_name: 王畝
+cbdb_id: 343558
 revision: 1
 properties:
   - predicate: bio.summary

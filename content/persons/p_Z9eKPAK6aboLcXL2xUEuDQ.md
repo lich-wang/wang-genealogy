@@ -4,6 +4,7 @@ id: p_Z9eKPAK6aboLcXL2xUEuDQ
 status: active
 merged_into: null
 display_name: 王行古
+cbdb_id: 175945
 revision: 1
 properties:
   - predicate: bio.summary

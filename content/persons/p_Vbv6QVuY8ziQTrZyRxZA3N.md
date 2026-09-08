@@ -4,6 +4,7 @@ id: p_Vbv6QVuY8ziQTrZyRxZA3N
 status: active
 merged_into: null
 display_name: 王國纘
+cbdb_id: 414129
 revision: 1
 properties:
   - predicate: bio.summary

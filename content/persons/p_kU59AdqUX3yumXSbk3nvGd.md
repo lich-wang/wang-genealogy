@@ -4,6 +4,7 @@ id: p_kU59AdqUX3yumXSbk3nvGd
 status: active
 merged_into: null
 display_name: 王自謹
+cbdb_id: 415320
 revision: 1
 properties:
   - predicate: bio.summary

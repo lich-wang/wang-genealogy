@@ -4,6 +4,7 @@ id: p_TXR4BZHWFYBdp9oHRn9hCf
 status: active
 merged_into: null
 display_name: 王聿
+cbdb_id: 37770
 revision: 1
 properties:
   - predicate: name.primary

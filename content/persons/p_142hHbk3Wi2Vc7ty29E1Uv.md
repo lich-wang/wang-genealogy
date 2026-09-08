@@ -4,6 +4,7 @@ id: p_142hHbk3Wi2Vc7ty29E1Uv
 status: active
 merged_into: null
 display_name: 王國南
+cbdb_id: 414115
 revision: 1
 properties:
   - predicate: bio.summary

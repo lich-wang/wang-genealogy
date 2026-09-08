@@ -4,6 +4,7 @@ id: p_M1KH4gE3FPL7qQTpokbpPa
 status: active
 merged_into: null
 display_name: 王軼士
+cbdb_id: 464265
 revision: 1
 properties:
   - predicate: bio.summary

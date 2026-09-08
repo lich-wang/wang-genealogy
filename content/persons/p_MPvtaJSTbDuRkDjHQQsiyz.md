@@ -4,6 +4,7 @@ id: p_MPvtaJSTbDuRkDjHQQsiyz
 status: active
 merged_into: null
 display_name: 王宜亨
+cbdb_id: 414328
 revision: 1
 properties:
   - predicate: bio.summary

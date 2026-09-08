@@ -4,6 +4,7 @@ id: p_7VobzQAMiJYm8EetTfvf3e
 status: active
 merged_into: null
 display_name: 王琛仁
+cbdb_id: 415111
 revision: 1
 properties:
   - predicate: bio.summary

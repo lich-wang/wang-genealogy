@@ -4,6 +4,7 @@ id: p_X7H8DWty8RmeVA2FURA4qP
 status: active
 merged_into: null
 display_name: 王錫書
+cbdb_id: 343818
 revision: 1
 properties:
   - predicate: bio.summary

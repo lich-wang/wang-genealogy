@@ -4,6 +4,7 @@ id: p_uJMWw9UMNCrJyoKUmutkFK
 status: active
 merged_into: null
 display_name: 王貽燕
+cbdb_id: 71881
 revision: 1
 properties:
   - predicate: bio.summary

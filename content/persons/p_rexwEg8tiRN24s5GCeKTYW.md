@@ -4,6 +4,7 @@ id: p_rexwEg8tiRN24s5GCeKTYW
 status: active
 merged_into: null
 display_name: 王德炳
+cbdb_id: 342321
 revision: 1
 properties:
   - predicate: bio.summary

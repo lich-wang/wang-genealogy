@@ -4,6 +4,7 @@ id: p_NagG8yzgxihG7BrC5mFCcE
 status: active
 merged_into: null
 display_name: 王以充
+cbdb_id: 331773
 revision: 1
 properties:
   - predicate: bio.summary

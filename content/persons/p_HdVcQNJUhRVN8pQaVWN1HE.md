@@ -4,6 +4,7 @@ id: p_HdVcQNJUhRVN8pQaVWN1HE
 status: active
 merged_into: null
 display_name: 王文瑾
+cbdb_id: 414743
 revision: 1
 properties:
   - predicate: bio.summary

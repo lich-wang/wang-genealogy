@@ -4,6 +4,7 @@ id: p_6KHXWGaiHyr5JGp2xAZLWR
 status: active
 merged_into: null
 display_name: 王曾淑
+cbdb_id: 414821
 revision: 1
 properties:
   - predicate: bio.summary

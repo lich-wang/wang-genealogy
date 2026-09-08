@@ -4,6 +4,7 @@ id: p_kCSh1iVciGCTCFYrCGG5vf
 status: active
 merged_into: null
 display_name: 王在公
+cbdb_id: 126509
 revision: 1
 properties:
   - predicate: bio.summary

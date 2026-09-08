@@ -4,6 +4,7 @@ id: p_mDNoW2rCNYbFVhHDcXUMD2
 status: active
 merged_into: null
 display_name: 王闊闊帖木兒
+cbdb_id: 101479
 revision: 1
 properties:
   - predicate: bio.summary

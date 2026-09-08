@@ -4,6 +4,7 @@ id: p_L1jU9LZ9gXYBEu6zPZMPdK
 status: active
 merged_into: null
 display_name: 王崇範
+cbdb_id: 414396
 revision: 1
 properties:
   - predicate: bio.summary

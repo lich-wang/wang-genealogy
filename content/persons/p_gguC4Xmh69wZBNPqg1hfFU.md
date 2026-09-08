@@ -4,6 +4,7 @@ id: p_gguC4Xmh69wZBNPqg1hfFU
 status: active
 merged_into: null
 display_name: 王必莊
+cbdb_id: 523837
 revision: 1
 properties:
   - predicate: bio.summary

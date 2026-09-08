@@ -4,6 +4,7 @@ id: p_3BvBua6ZTDGv4MpNMX8be5
 status: active
 merged_into: null
 display_name: 王炳榮
+cbdb_id: 515676
 revision: 1
 properties:
   - predicate: bio.summary

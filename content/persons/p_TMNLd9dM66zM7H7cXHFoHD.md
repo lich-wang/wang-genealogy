@@ -4,6 +4,7 @@ id: p_TMNLd9dM66zM7H7cXHFoHD
 status: active
 merged_into: null
 display_name: 王象璧
+cbdb_id: 220274
 revision: 1
 properties:
   - predicate: bio.summary

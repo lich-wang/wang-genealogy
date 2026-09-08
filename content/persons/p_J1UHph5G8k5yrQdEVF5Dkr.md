@@ -4,6 +4,7 @@ id: p_J1UHph5G8k5yrQdEVF5Dkr
 status: active
 merged_into: null
 display_name: 王廷前
+cbdb_id: 414455
 revision: 1
 properties:
   - predicate: bio.summary

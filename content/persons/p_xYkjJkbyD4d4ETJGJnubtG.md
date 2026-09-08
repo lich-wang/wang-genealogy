@@ -4,6 +4,7 @@ id: p_xYkjJkbyD4d4ETJGJnubtG
 status: active
 merged_into: null
 display_name: 王承柱
+cbdb_id: 414685
 revision: 1
 properties:
   - predicate: bio.summary

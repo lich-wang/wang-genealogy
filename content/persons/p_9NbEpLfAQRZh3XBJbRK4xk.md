@@ -4,6 +4,7 @@ id: p_9NbEpLfAQRZh3XBJbRK4xk
 status: active
 merged_into: null
 display_name: 王公蒙
+cbdb_id: 258048
 revision: 1
 properties:
   - predicate: bio.summary

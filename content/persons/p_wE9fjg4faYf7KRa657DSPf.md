@@ -4,6 +4,7 @@ id: p_wE9fjg4faYf7KRa657DSPf
 status: active
 merged_into: null
 display_name: 王庭光
+cbdb_id: 414432
 revision: 1
 properties:
   - predicate: bio.summary

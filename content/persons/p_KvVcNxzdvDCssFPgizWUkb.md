@@ -4,6 +4,7 @@ id: p_KvVcNxzdvDCssFPgizWUkb
 status: active
 merged_into: null
 display_name: 王耕心
+cbdb_id: 71929
 revision: 1
 properties:
   - predicate: bio.summary

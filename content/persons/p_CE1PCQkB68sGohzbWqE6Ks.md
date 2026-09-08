@@ -4,6 +4,7 @@ id: p_CE1PCQkB68sGohzbWqE6Ks
 status: active
 merged_into: null
 display_name: 王貴德
+cbdb_id: 415435
 revision: 1
 properties:
   - predicate: bio.summary

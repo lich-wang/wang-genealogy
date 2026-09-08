@@ -4,6 +4,7 @@ id: p_p6x1d3BsTeDKvxNNP35LQX
 status: active
 merged_into: null
 display_name: 王貽孫
+cbdb_id: 22070
 revision: 1
 properties:
   - predicate: bio.summary

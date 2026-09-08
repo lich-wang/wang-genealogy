@@ -4,6 +4,7 @@ id: p_abjGDYhmbmHTr8kA6A4L4U
 status: active
 merged_into: null
 display_name: 王濯征
+cbdb_id: 415059
 revision: 1
 properties:
   - predicate: bio.summary

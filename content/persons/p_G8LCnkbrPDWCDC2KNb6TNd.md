@@ -4,6 +4,7 @@ id: p_G8LCnkbrPDWCDC2KNb6TNd
 status: active
 merged_into: null
 display_name: 王壽元
+cbdb_id: 121091
 revision: 1
 properties:
   - predicate: bio.summary

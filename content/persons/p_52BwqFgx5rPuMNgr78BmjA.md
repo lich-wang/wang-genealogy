@@ -4,6 +4,7 @@ id: p_52BwqFgx5rPuMNgr78BmjA
 status: active
 merged_into: null
 display_name: 王蘭谷
+cbdb_id: 61780
 revision: 1
 properties:
   - predicate: bio.summary

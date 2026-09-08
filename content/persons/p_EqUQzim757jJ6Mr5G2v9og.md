@@ -4,6 +4,7 @@ id: p_EqUQzim757jJ6Mr5G2v9og
 status: active
 merged_into: null
 display_name: 王昌鉥
+cbdb_id: 185203
 revision: 1
 properties:
   - predicate: bio.summary

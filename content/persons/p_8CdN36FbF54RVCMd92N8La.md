@@ -4,6 +4,7 @@ id: p_8CdN36FbF54RVCMd92N8La
 status: active
 merged_into: null
 display_name: 王允某
+cbdb_id: 291910
 revision: 1
 properties:
   - predicate: bio.summary

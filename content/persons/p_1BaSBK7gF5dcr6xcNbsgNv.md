@@ -4,6 +4,7 @@ id: p_1BaSBK7gF5dcr6xcNbsgNv
 status: active
 merged_into: null
 display_name: 王本智
+cbdb_id: 526830
 revision: 1
 properties:
   - predicate: bio.summary

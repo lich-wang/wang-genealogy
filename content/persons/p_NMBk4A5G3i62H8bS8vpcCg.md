@@ -4,6 +4,7 @@ id: p_NMBk4A5G3i62H8bS8vpcCg
 status: active
 merged_into: null
 display_name: 王禹堂
+cbdb_id: 342117
 revision: 1
 properties:
   - predicate: bio.summary

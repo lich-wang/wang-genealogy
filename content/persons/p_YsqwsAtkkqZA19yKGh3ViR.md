@@ -4,6 +4,7 @@ id: p_YsqwsAtkkqZA19yKGh3ViR
 status: active
 merged_into: null
 display_name: 王重貴
+cbdb_id: 551740
 revision: 1
 properties:
   - predicate: bio.summary

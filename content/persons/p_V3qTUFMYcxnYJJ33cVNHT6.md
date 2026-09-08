@@ -4,6 +4,7 @@ id: p_V3qTUFMYcxnYJJ33cVNHT6
 status: active
 merged_into: null
 display_name: 王仲威
+cbdb_id: 255803
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_2gutpsjZT1LpwamgLWSr9D
 status: active
 merged_into: null
 display_name: 王炳燿
+cbdb_id: 343905
 revision: 1
 properties:
   - predicate: bio.summary

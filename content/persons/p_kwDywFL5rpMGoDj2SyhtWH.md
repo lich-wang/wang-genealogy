@@ -4,6 +4,7 @@ id: p_kwDywFL5rpMGoDj2SyhtWH
 status: active
 merged_into: null
 display_name: 王勤垣
+cbdb_id: 413996
 revision: 1
 properties:
   - predicate: bio.summary

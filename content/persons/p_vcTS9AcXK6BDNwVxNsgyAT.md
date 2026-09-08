@@ -4,6 +4,7 @@ id: p_vcTS9AcXK6BDNwVxNsgyAT
 status: active
 merged_into: null
 display_name: 王延允
+cbdb_id: 414442
 revision: 1
 properties:
   - predicate: bio.summary

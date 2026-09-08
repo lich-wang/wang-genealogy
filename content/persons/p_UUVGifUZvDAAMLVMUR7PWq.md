@@ -4,6 +4,7 @@ id: p_UUVGifUZvDAAMLVMUR7PWq
 status: active
 merged_into: null
 display_name: 王星煥
+cbdb_id: 69311
 revision: 1
 properties:
   - predicate: bio.summary

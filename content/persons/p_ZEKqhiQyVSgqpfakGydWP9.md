@@ -4,6 +4,7 @@ id: p_ZEKqhiQyVSgqpfakGydWP9
 status: active
 merged_into: null
 display_name: 王國顯
+cbdb_id: 215049
 revision: 1
 properties:
   - predicate: bio.summary

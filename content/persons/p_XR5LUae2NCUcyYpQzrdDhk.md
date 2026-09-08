@@ -4,6 +4,7 @@ id: p_XR5LUae2NCUcyYpQzrdDhk
 status: active
 merged_into: null
 display_name: 王希樂
+cbdb_id: 232997
 revision: 1
 properties:
   - predicate: bio.summary

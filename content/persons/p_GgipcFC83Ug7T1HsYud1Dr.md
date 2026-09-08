@@ -4,6 +4,7 @@ id: p_GgipcFC83Ug7T1HsYud1Dr
 status: active
 merged_into: null
 display_name: 王公讓
+cbdb_id: 166870
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_dueMo6SGbbHSQaQsnutfLk
 status: active
 merged_into: null
 display_name: 王正愈
+cbdb_id: 288243
 revision: 1
 properties:
   - predicate: bio.summary

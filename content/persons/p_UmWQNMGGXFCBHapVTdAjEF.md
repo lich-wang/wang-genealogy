@@ -4,6 +4,7 @@ id: p_UmWQNMGGXFCBHapVTdAjEF
 status: active
 merged_into: null
 display_name: 王世佶
+cbdb_id: 441474
 revision: 1
 properties:
   - predicate: bio.summary

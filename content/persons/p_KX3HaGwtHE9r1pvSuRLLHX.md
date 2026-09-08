@@ -4,6 +4,7 @@ id: p_KX3HaGwtHE9r1pvSuRLLHX
 status: active
 merged_into: null
 display_name: 王渊
+cbdb_id: 3998
 revision: 2
 properties:
   - predicate: bio.summary

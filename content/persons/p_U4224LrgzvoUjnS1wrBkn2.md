@@ -4,6 +4,7 @@ id: p_U4224LrgzvoUjnS1wrBkn2
 status: active
 merged_into: null
 display_name: 王文慰
+cbdb_id: 101102
 revision: 1
 properties:
   - predicate: bio.summary

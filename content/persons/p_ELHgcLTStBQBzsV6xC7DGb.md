@@ -4,6 +4,7 @@ id: p_ELHgcLTStBQBzsV6xC7DGb
 status: active
 merged_into: null
 display_name: 王智明
+cbdb_id: 414810
 revision: 1
 properties:
   - predicate: bio.summary

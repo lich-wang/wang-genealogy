@@ -4,6 +4,7 @@ id: p_8NeLNfq79M84ozcRkiDW1b
 status: active
 merged_into: null
 display_name: 王弘隆
+cbdb_id: 241182
 revision: 1
 properties:
   - predicate: bio.summary

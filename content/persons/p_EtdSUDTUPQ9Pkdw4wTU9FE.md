@@ -4,6 +4,7 @@ id: p_EtdSUDTUPQ9Pkdw4wTU9FE
 status: active
 merged_into: null
 display_name: 王熾昌
+cbdb_id: 343914
 revision: 1
 properties:
   - predicate: bio.summary

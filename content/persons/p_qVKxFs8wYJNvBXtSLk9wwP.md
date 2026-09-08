@@ -4,6 +4,7 @@ id: p_qVKxFs8wYJNvBXtSLk9wwP
 status: active
 merged_into: null
 display_name: 王君維
+cbdb_id: 186388
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_vLABSD5cPjkEwGAaWjtVtN
 status: active
 merged_into: null
 display_name: 王源爽
+cbdb_id: 175609
 revision: 1
 properties:
   - predicate: bio.summary

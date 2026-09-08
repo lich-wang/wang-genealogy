@@ -4,6 +4,7 @@ id: p_FFyB22C3wcwBz8kziATn14
 status: active
 merged_into: null
 display_name: 王浩然
+cbdb_id: 415015
 revision: 1
 properties:
   - predicate: bio.summary

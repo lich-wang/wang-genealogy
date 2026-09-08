@@ -4,6 +4,7 @@ id: p_XMmKgW9Y1Ks8nJESU63kFu
 status: active
 merged_into: null
 display_name: 王望古
+cbdb_id: 152090
 revision: 1
 properties:
   - predicate: bio.summary

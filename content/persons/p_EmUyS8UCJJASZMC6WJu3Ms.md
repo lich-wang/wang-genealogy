@@ -4,6 +4,7 @@ id: p_EmUyS8UCJJASZMC6WJu3Ms
 status: active
 merged_into: null
 display_name: 王信功
+cbdb_id: 342108
 revision: 1
 properties:
   - predicate: bio.summary

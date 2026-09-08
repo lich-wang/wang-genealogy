@@ -4,6 +4,7 @@ id: p_9R6yLWJqy9QZVUAQhYQHfj
 status: active
 merged_into: null
 display_name: 王铎
+cbdb_id: 3984
 revision: 1
 properties:
   - predicate: bio.summary

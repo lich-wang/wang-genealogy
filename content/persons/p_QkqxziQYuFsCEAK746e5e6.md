@@ -4,6 +4,7 @@ id: p_QkqxziQYuFsCEAK746e5e6
 status: active
 merged_into: null
 display_name: 王景玄
+cbdb_id: 159938
 revision: 1
 properties:
   - predicate: bio.summary

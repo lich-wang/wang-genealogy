@@ -4,6 +4,7 @@ id: p_RE2FPybTY98m2ajbLpJq2f
 status: active
 merged_into: null
 display_name: 王于一
+cbdb_id: 511591
 revision: 1
 properties:
   - predicate: bio.summary

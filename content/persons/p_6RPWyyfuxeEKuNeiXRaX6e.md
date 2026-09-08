@@ -4,6 +4,7 @@ id: p_6RPWyyfuxeEKuNeiXRaX6e
 status: active
 merged_into: null
 display_name: 王開祖
+cbdb_id: 37969
 revision: 1
 properties:
   - predicate: bio.summary

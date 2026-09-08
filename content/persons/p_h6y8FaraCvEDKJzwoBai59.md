@@ -4,6 +4,7 @@ id: p_h6y8FaraCvEDKJzwoBai59
 status: active
 merged_into: null
 display_name: 王貴莊
+cbdb_id: 343357
 revision: 1
 properties:
   - predicate: bio.summary

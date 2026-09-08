@@ -4,6 +4,7 @@ id: p_9PcP1eVw2Xs1K2J2cm2szS
 status: active
 merged_into: null
 display_name: 王堯日
+cbdb_id: 126715
 revision: 1
 properties:
   - predicate: bio.summary

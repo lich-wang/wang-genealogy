@@ -4,6 +4,7 @@ id: p_gKNJ2G66J5Tx6NjFf4uFH2
 status: active
 merged_into: null
 display_name: 王孟中
+cbdb_id: 304152
 revision: 1
 properties:
   - predicate: bio.summary

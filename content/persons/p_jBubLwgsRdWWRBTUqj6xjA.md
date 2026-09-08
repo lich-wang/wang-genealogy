@@ -4,6 +4,7 @@ id: p_jBubLwgsRdWWRBTUqj6xjA
 status: active
 merged_into: null
 display_name: 王懷興
+cbdb_id: 123610
 revision: 1
 properties:
   - predicate: bio.summary

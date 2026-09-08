@@ -4,6 +4,7 @@ id: p_Mg6JZui6rTZsVJKew7MsRK
 status: active
 merged_into: null
 display_name: 王連元
+cbdb_id: 495189
 revision: 1
 properties:
   - predicate: bio.summary

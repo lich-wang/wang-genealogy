@@ -4,6 +4,7 @@ id: p_1fv2brPkMhmS57LdqNmeqK
 status: active
 merged_into: null
 display_name: 王行審
+cbdb_id: 377798
 revision: 1
 properties:
   - predicate: bio.summary

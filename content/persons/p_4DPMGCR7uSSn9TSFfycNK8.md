@@ -4,6 +4,7 @@ id: p_4DPMGCR7uSSn9TSFfycNK8
 status: active
 merged_into: null
 display_name: 王希淳
+cbdb_id: 414410
 revision: 1
 properties:
   - predicate: bio.summary

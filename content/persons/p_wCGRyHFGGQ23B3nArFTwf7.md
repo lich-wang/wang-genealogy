@@ -4,6 +4,7 @@ id: p_wCGRyHFGGQ23B3nArFTwf7
 status: active
 merged_into: null
 display_name: 王萬乘
+cbdb_id: 415356
 revision: 1
 properties:
   - predicate: bio.summary

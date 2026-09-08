@@ -4,6 +4,7 @@ id: p_P5Dp2T3HZ6MYNmBa7Ebwhf
 status: active
 merged_into: null
 display_name: 王敬勳
+cbdb_id: 414724
 revision: 1
 properties:
   - predicate: bio.summary

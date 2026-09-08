@@ -4,6 +4,7 @@ id: p_mA2xaCxrUQ4pViatnTgcKt
 status: active
 merged_into: null
 display_name: 王曇生
+cbdb_id: 414812
 revision: 1
 properties:
   - predicate: bio.summary

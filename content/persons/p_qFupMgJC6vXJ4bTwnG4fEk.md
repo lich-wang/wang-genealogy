@@ -4,6 +4,7 @@ id: p_qFupMgJC6vXJ4bTwnG4fEk
 status: active
 merged_into: null
 display_name: 王粟
+cbdb_id: 252279
 revision: 1
 properties:
   - predicate: bio.summary

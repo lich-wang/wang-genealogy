@@ -4,6 +4,7 @@ id: p_U1pN3xb2qr3uQmi1mVpQem
 status: active
 merged_into: null
 display_name: 王宏佐
+cbdb_id: 414292
 revision: 1
 properties:
   - predicate: bio.summary

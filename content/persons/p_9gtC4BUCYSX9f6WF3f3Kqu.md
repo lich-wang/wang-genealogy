@@ -4,6 +4,7 @@ id: p_9gtC4BUCYSX9f6WF3f3Kqu
 status: active
 merged_into: null
 display_name: 王衡宏
+cbdb_id: 326823
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_VZ6oEPm3xy7bonsAK7NdT8
 status: active
 merged_into: null
 display_name: 王子孝
+cbdb_id: 292312
 revision: 1
 properties:
   - predicate: bio.summary

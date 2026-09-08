@@ -4,6 +4,7 @@ id: p_m6q9t8sTP9HXMyKDQb6EY6
 status: active
 merged_into: null
 display_name: 王令均
+cbdb_id: 156470
 revision: 1
 properties:
   - predicate: bio.summary

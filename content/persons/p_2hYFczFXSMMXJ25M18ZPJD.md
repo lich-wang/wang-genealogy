@@ -4,6 +4,7 @@ id: p_2hYFczFXSMMXJ25M18ZPJD
 status: active
 merged_into: null
 display_name: 王乂衡
+cbdb_id: 264447
 revision: 1
 properties:
   - predicate: bio.summary

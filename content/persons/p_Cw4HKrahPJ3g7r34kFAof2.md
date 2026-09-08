@@ -4,6 +4,7 @@ id: p_Cw4HKrahPJ3g7r34kFAof2
 status: active
 merged_into: null
 display_name: 王無違
+cbdb_id: 415076
 revision: 1
 properties:
   - predicate: bio.summary

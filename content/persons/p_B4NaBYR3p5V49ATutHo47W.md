@@ -4,6 +4,7 @@ id: p_B4NaBYR3p5V49ATutHo47W
 status: active
 merged_into: null
 display_name: 王執謙
+cbdb_id: 101333
 revision: 1
 properties:
   - predicate: bio.summary

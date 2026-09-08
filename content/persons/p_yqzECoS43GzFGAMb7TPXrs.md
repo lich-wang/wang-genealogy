@@ -4,6 +4,7 @@ id: p_yqzECoS43GzFGAMb7TPXrs
 status: active
 merged_into: null
 display_name: 王用臣
+cbdb_id: 284143
 revision: 1
 properties:
   - predicate: bio.summary

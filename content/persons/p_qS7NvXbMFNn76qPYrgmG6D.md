@@ -4,6 +4,7 @@ id: p_qS7NvXbMFNn76qPYrgmG6D
 status: active
 merged_into: null
 display_name: 王大溪
+cbdb_id: 306734
 revision: 1
 properties:
   - predicate: bio.summary

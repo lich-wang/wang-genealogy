@@ -4,6 +4,7 @@ id: p_gWoRusN1yZ4Gkp9hmVUDgp
 status: active
 merged_into: null
 display_name: 王汝洪
+cbdb_id: 266714
 revision: 1
 properties:
   - predicate: bio.summary

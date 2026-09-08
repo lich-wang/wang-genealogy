@@ -4,6 +4,7 @@ id: p_CyCQkBsjyMATib6ZPd3cVm
 status: active
 merged_into: null
 display_name: 王陳言
+cbdb_id: 321238
 revision: 1
 properties:
   - predicate: bio.summary

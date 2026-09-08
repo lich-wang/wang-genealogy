@@ -4,6 +4,7 @@ id: p_g85Poiphi9f2XQw1zs1m8x
 status: active
 merged_into: null
 display_name: 王洪惟
+cbdb_id: 280897
 revision: 1
 properties:
   - predicate: bio.summary

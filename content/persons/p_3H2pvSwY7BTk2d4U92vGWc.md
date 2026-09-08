@@ -4,6 +4,7 @@ id: p_3H2pvSwY7BTk2d4U92vGWc
 status: active
 merged_into: null
 display_name: 王正惠
+cbdb_id: 288245
 revision: 1
 properties:
   - predicate: bio.summary

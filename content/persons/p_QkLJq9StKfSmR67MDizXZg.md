@@ -4,6 +4,7 @@ id: p_QkLJq9StKfSmR67MDizXZg
 status: active
 merged_into: null
 display_name: 王紹光
+cbdb_id: 216152
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_kUxE9X3sZ78nNMfMGhswmt
 status: active
 merged_into: null
 display_name: 王祚興
+cbdb_id: 342838
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_iG2QH9QE78vEcSajdGWULK
 status: active
 merged_into: null
 display_name: 王經方
+cbdb_id: 415238
 revision: 1
 properties:
   - predicate: bio.summary

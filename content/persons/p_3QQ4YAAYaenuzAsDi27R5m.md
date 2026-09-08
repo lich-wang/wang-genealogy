@@ -4,6 +4,7 @@ id: p_3QQ4YAAYaenuzAsDi27R5m
 status: active
 merged_into: null
 display_name: 王玉輝
+cbdb_id: 341756
 revision: 1
 properties:
   - predicate: bio.summary

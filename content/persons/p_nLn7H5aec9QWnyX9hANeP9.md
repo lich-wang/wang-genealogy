@@ -4,6 +4,7 @@ id: p_nLn7H5aec9QWnyX9hANeP9
 status: active
 merged_into: null
 display_name: 王士欽
+cbdb_id: 414167
 revision: 1
 properties:
   - predicate: bio.summary

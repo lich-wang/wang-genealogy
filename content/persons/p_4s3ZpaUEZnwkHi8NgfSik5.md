@@ -4,6 +4,7 @@ id: p_4s3ZpaUEZnwkHi8NgfSik5
 status: active
 merged_into: null
 display_name: 王恭濟
+cbdb_id: 282382
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_FgnH5Tex3eEM8HgEHgSdm9
 status: active
 merged_into: null
 display_name: 王道貞
+cbdb_id: 524359
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_4vUfgvuGYUKQyk2GvjMLQv
 status: active
 merged_into: null
 display_name: 王文素
+cbdb_id: 34059
 revision: 1
 properties:
   - predicate: bio.summary

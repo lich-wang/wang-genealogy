@@ -4,6 +4,7 @@ id: p_VYnbiHMWyGkDSsFyemhi7D
 status: active
 merged_into: null
 display_name: 王文恕
+cbdb_id: 514449
 revision: 1
 properties:
   - predicate: bio.summary

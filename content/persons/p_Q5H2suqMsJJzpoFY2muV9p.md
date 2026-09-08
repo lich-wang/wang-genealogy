@@ -4,6 +4,7 @@ id: p_Q5H2suqMsJJzpoFY2muV9p
 status: active
 merged_into: null
 display_name: 王友俊
+cbdb_id: 414018
 revision: 1
 properties:
   - predicate: bio.summary

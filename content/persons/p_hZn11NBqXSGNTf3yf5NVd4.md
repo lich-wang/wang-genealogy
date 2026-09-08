@@ -4,6 +4,7 @@ id: p_hZn11NBqXSGNTf3yf5NVd4
 status: active
 merged_into: null
 display_name: 王廷胤
+cbdb_id: 144875
 revision: 1
 properties:
   - predicate: bio.summary

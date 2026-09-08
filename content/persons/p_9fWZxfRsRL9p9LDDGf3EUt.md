@@ -4,6 +4,7 @@ id: p_9fWZxfRsRL9p9LDDGf3EUt
 status: active
 merged_into: null
 display_name: 王承俊
+cbdb_id: 17752
 revision: 1
 properties:
   - predicate: bio.summary

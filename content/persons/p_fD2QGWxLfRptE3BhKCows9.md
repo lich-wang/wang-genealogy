@@ -4,6 +4,7 @@ id: p_fD2QGWxLfRptE3BhKCows9
 status: active
 merged_into: null
 display_name: 王明萼
+cbdb_id: 71763
 revision: 1
 properties:
   - predicate: bio.summary

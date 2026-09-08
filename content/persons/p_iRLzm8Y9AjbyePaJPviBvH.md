@@ -4,6 +4,7 @@ id: p_iRLzm8Y9AjbyePaJPviBvH
 status: active
 merged_into: null
 display_name: 王景檀
+cbdb_id: 343494
 revision: 1
 properties:
   - predicate: bio.summary

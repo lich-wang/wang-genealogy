@@ -4,6 +4,7 @@ id: p_JrbtFDzSMuV1roFQKT7K2V
 status: active
 merged_into: null
 display_name: 王麟圖
+cbdb_id: 415653
 revision: 1
 properties:
   - predicate: bio.summary

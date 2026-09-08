@@ -4,6 +4,7 @@ id: p_1LjXtHaC5ZgBX5ntEmabuX
 status: active
 merged_into: null
 display_name: 王彦成
+cbdb_id: 240857
 revision: 1
 properties:
   - predicate: name.primary

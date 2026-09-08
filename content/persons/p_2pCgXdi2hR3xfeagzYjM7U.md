@@ -4,6 +4,7 @@ id: p_2pCgXdi2hR3xfeagzYjM7U
 status: active
 merged_into: null
 display_name: 王文雷
+cbdb_id: 414754
 revision: 1
 properties:
   - predicate: bio.summary

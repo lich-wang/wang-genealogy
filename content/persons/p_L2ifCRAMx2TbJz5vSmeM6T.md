@@ -4,6 +4,7 @@ id: p_L2ifCRAMx2TbJz5vSmeM6T
 status: active
 merged_into: null
 display_name: 赵氏
+cbdb_id: 38569
 revision: 1
 properties:
   - predicate: name.primary

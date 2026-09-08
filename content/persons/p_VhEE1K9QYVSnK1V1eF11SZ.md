@@ -4,6 +4,7 @@ id: p_VhEE1K9QYVSnK1V1eF11SZ
 status: active
 merged_into: null
 display_name: 王天鐸
+cbdb_id: 28726
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_acJL151CL8ZU3mDEqikzmS
 status: active
 merged_into: null
 display_name: 王固己
+cbdb_id: 140737
 revision: 1
 properties:
   - predicate: bio.summary

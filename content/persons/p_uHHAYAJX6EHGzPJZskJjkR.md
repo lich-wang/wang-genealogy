@@ -4,6 +4,7 @@ id: p_uHHAYAJX6EHGzPJZskJjkR
 status: active
 merged_into: null
 display_name: 王大卿
+cbdb_id: 511601
 revision: 1
 properties:
   - predicate: bio.summary

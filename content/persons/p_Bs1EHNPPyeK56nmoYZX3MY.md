@@ -4,6 +4,7 @@ id: p_Bs1EHNPPyeK56nmoYZX3MY
 status: active
 merged_into: null
 display_name: 王昌符
+cbdb_id: 414775
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_mp7P4UBZABx2Ck1spunSEE
 status: active
 merged_into: null
 display_name: 王公居
+cbdb_id: 101068
 revision: 1
 properties:
   - predicate: bio.summary

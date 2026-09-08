@@ -4,6 +4,7 @@ id: p_EZsdgH4bL7hZgkg9wpRwUP
 status: active
 merged_into: null
 display_name: 王元稚
+cbdb_id: 71380
 revision: 1
 properties:
   - predicate: bio.summary

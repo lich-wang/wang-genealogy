@@ -4,6 +4,7 @@ id: p_BuUqPp8FpLpJVqrz7AhY2H
 status: active
 merged_into: null
 display_name: 王明孺
+cbdb_id: 414778
 revision: 1
 properties:
   - predicate: bio.summary

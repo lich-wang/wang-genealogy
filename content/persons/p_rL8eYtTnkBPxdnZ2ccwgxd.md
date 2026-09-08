@@ -4,6 +4,7 @@ id: p_rL8eYtTnkBPxdnZ2ccwgxd
 status: active
 merged_into: null
 display_name: 王作箕
+cbdb_id: 234992
 revision: 1
 properties:
   - predicate: bio.summary

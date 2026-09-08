@@ -4,6 +4,7 @@ id: p_Mb79fZrWskuRC8726StBaj
 status: active
 merged_into: null
 display_name: 王謝
+cbdb_id: 118116
 revision: 1
 properties:
   - predicate: bio.summary

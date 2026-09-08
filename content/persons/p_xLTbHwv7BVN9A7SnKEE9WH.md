@@ -4,6 +4,7 @@ id: p_xLTbHwv7BVN9A7SnKEE9WH
 status: active
 merged_into: null
 display_name: 王庭梅
+cbdb_id: 341584
 revision: 1
 properties:
   - predicate: bio.summary

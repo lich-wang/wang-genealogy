@@ -4,6 +4,7 @@ id: p_AWp5c4QJAbEnSizgBNeQ9C
 status: active
 merged_into: null
 display_name: 王西星
+cbdb_id: 525644
 revision: 1
 properties:
   - predicate: bio.summary

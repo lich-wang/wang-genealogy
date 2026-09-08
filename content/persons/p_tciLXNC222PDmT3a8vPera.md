@@ -4,6 +4,7 @@ id: p_tciLXNC222PDmT3a8vPera
 status: active
 merged_into: null
 display_name: 王致清
+cbdb_id: 342086
 revision: 1
 properties:
   - predicate: bio.summary

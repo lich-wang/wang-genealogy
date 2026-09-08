@@ -4,6 +4,7 @@ id: p_cUV1C65FDffcbStFoe34YE
 status: active
 merged_into: null
 display_name: 王其勤
+cbdb_id: 204225
 revision: 1
 properties:
   - predicate: bio.summary

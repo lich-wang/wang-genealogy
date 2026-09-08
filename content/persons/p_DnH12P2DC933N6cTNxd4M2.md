@@ -4,6 +4,7 @@ id: p_DnH12P2DC933N6cTNxd4M2
 status: active
 merged_into: null
 display_name: 王仲安
+cbdb_id: 38859
 revision: 1
 properties:
   - predicate: bio.summary

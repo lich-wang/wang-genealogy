@@ -4,6 +4,7 @@ id: p_Pxigk9D7prDgC8K8RAnBDM
 status: active
 merged_into: null
 display_name: 王伯堃
+cbdb_id: 441162
 revision: 1
 properties:
   - predicate: bio.summary

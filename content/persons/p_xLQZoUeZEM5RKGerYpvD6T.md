@@ -4,6 +4,7 @@ id: p_xLQZoUeZEM5RKGerYpvD6T
 status: active
 merged_into: null
 display_name: 王师遂
+cbdb_id: 175429
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_S21V1QtRVNHD8arYZz2Tbo
 status: active
 merged_into: null
 display_name: 王睡之
+cbdb_id: 384594
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_DFm1g41V1W6Tduf3mP926L
 status: active
 merged_into: null
 display_name: 王三公
+cbdb_id: 413684
 revision: 1
 properties:
   - predicate: bio.summary

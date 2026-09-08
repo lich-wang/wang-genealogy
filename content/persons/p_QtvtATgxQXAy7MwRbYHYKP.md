@@ -4,6 +4,7 @@ id: p_QtvtATgxQXAy7MwRbYHYKP
 status: active
 merged_into: null
 display_name: 王華甫
+cbdb_id: 38113
 revision: 1
 properties:
   - predicate: bio.summary

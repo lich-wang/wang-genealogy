@@ -4,6 +4,7 @@ id: p_mR8y3PTiCrMPbVWSCQfHXh
 status: active
 merged_into: null
 display_name: 王麟生
+cbdb_id: 517398
 revision: 1
 properties:
   - predicate: bio.summary

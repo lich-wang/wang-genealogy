@@ -4,6 +4,7 @@ id: p_T6d1Q9V7SUt55vSFUZZLwN
 status: active
 merged_into: null
 display_name: 王遠宜
+cbdb_id: 342745
 revision: 1
 properties:
   - predicate: bio.summary

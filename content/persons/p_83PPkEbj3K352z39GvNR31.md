@@ -4,6 +4,7 @@ id: p_83PPkEbj3K352z39GvNR31
 status: active
 merged_into: null
 display_name: 王之壐
+cbdb_id: 413743
 revision: 1
 properties:
   - predicate: bio.summary

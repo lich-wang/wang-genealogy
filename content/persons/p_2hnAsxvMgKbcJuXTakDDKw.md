@@ -4,6 +4,7 @@ id: p_2hnAsxvMgKbcJuXTakDDKw
 status: active
 merged_into: null
 display_name: 王端甫
+cbdb_id: 22014
 revision: 2
 properties:
   - predicate: bio.summary

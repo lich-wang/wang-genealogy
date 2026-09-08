@@ -4,6 +4,7 @@ id: p_to4EFd5n9fTxzMYKjKNKxc
 status: active
 merged_into: null
 display_name: 王汝立
+cbdb_id: 414974
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_NSvH9onWTVZ6YSBW9FZSci
 status: active
 merged_into: null
 display_name: 王子禎
+cbdb_id: 524485
 revision: 1
 properties:
   - predicate: bio.summary

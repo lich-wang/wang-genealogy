@@ -4,6 +4,7 @@ id: p_ro6G6j28vQb3THHmGL9bxo
 status: active
 merged_into: null
 display_name: 王冲
+cbdb_id: 15752
 revision: 2
 properties:
   - predicate: bio.summary

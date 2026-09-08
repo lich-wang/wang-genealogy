@@ -4,6 +4,7 @@ id: p_8fsZEL9XmcRMd4hdjZ9d91
 status: active
 merged_into: null
 display_name: 王之旦
+cbdb_id: 342569
 revision: 1
 properties:
   - predicate: bio.summary

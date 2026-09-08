@@ -4,6 +4,7 @@ id: p_6TW397KYJb7vx4wkHQCYtc
 status: active
 merged_into: null
 display_name: 王金適
+cbdb_id: 515673
 revision: 1
 properties:
   - predicate: bio.summary

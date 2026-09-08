@@ -4,6 +4,7 @@ id: p_7Ghj5QJtqevsPsECQin61K
 status: active
 merged_into: null
 display_name: 王業洵
+cbdb_id: 30381
 revision: 1
 properties:
   - predicate: bio.summary

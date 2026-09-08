@@ -4,6 +4,7 @@ id: p_2oscm2YVA3D9g4ZdtXKS9C
 status: active
 merged_into: null
 display_name: 王宏信
+cbdb_id: 69175
 revision: 1
 properties:
   - predicate: bio.summary

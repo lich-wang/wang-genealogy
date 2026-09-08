@@ -4,6 +4,7 @@ id: p_vziev5XZKu5i15QAie4vMb
 status: active
 merged_into: null
 display_name: 王景深
+cbdb_id: 237267
 revision: 1
 properties:
   - predicate: bio.summary

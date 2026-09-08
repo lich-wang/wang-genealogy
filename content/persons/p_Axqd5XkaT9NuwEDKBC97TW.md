@@ -4,6 +4,7 @@ id: p_Axqd5XkaT9NuwEDKBC97TW
 status: active
 merged_into: null
 display_name: 王合新
+cbdb_id: 234432
 revision: 1
 properties:
   - predicate: bio.summary

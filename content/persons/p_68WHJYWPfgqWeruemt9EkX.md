@@ -4,6 +4,7 @@ id: p_68WHJYWPfgqWeruemt9EkX
 status: active
 merged_into: null
 display_name: 王南傑
+cbdb_id: 37704
 revision: 1
 properties:
   - predicate: bio.summary

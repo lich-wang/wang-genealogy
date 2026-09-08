@@ -4,6 +4,7 @@ id: p_7MBJ1D7RXxTyecDK1fHrBW
 status: active
 merged_into: null
 display_name: 王鎭邦
+cbdb_id: 415562
 revision: 1
 properties:
   - predicate: bio.summary

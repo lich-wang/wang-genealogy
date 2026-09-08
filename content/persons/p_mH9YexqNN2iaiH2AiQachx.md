@@ -4,6 +4,7 @@ id: p_mH9YexqNN2iaiH2AiQachx
 status: active
 merged_into: null
 display_name: 王濬仲
+cbdb_id: 36922
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_6JXRL3F79bgFhmG1swGLay
 status: active
 merged_into: null
 display_name: 王维
+cbdb_id: 175377
 revision: 1
 properties:
   - predicate: bio.summary

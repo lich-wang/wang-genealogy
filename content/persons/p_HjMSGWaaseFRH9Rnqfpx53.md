@@ -4,6 +4,7 @@ id: p_HjMSGWaaseFRH9Rnqfpx53
 status: active
 merged_into: null
 display_name: 王守礼
+cbdb_id: 288233
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_WYnFbnYEjK51XNAX7npdwC
 status: active
 merged_into: null
 display_name: 王珍賢
+cbdb_id: 415107
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_B9NZANTFQpKfHzC32TxRmr
 status: active
 merged_into: null
 display_name: 王與襄
+cbdb_id: 343681
 revision: 1
 properties:
   - predicate: bio.summary

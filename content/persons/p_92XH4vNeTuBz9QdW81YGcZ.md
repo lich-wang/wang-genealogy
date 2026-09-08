@@ -4,6 +4,7 @@ id: p_92XH4vNeTuBz9QdW81YGcZ
 status: active
 merged_into: null
 display_name: 王體震
+cbdb_id: 334178
 revision: 1
 properties:
   - predicate: bio.summary

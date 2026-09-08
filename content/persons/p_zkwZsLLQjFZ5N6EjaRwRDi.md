@@ -4,6 +4,7 @@ id: p_zkwZsLLQjFZ5N6EjaRwRDi
 status: active
 merged_into: null
 display_name: 王嗣構
+cbdb_id: 522349
 revision: 1
 properties:
   - predicate: bio.summary

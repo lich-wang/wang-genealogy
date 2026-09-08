@@ -4,6 +4,7 @@ id: p_rYwDhmi97xXa7ozFMjq7zJ
 status: active
 merged_into: null
 display_name: 王雅南
+cbdb_id: 343562
 revision: 1
 properties:
   - predicate: bio.summary

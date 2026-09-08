@@ -4,6 +4,7 @@ id: p_R1YcFcTaj7Jz6vSgi3zNfa
 status: active
 merged_into: null
 display_name: 王朝極
+cbdb_id: 414843
 revision: 1
 properties:
   - predicate: bio.summary

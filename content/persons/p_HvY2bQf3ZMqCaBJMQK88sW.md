@@ -4,6 +4,7 @@ id: p_HvY2bQf3ZMqCaBJMQK88sW
 status: active
 merged_into: null
 display_name: 王鳳澤
+cbdb_id: 280412
 revision: 1
 properties:
   - predicate: bio.summary

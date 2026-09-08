@@ -4,6 +4,7 @@ id: p_ufZP78fAjpAL3GSLCQvWtA
 status: active
 merged_into: null
 display_name: 王玉佩
+cbdb_id: 69124
 revision: 1
 properties:
   - predicate: bio.summary

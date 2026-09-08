@@ -4,6 +4,7 @@ id: p_uvbqZLqGhwRFJTBw42jZxG
 status: active
 merged_into: null
 display_name: 王文充
+cbdb_id: 341608
 revision: 1
 properties:
   - predicate: bio.summary

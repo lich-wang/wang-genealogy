@@ -4,6 +4,7 @@ id: p_DmWoAyVfb7mAQJH3WKADwA
 status: active
 merged_into: null
 display_name: 王鼎印
+cbdb_id: 415659
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_Q7ze7pnk6x88hZDm3ZFKt3
 status: active
 merged_into: null
 display_name: 王湯相
+cbdb_id: 209579
 revision: 1
 properties:
   - predicate: bio.summary

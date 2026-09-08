@@ -4,6 +4,7 @@ id: p_DvVKW3AUxK5cCLW8rtgfB4
 status: active
 merged_into: null
 display_name: 王湯孫
+cbdb_id: 207629
 revision: 1
 properties:
   - predicate: bio.summary

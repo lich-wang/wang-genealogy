@@ -4,6 +4,7 @@ id: p_saq8i4WhkVV3bUYnTa4goX
 status: active
 merged_into: null
 display_name: 王育英
+cbdb_id: 415308
 revision: 1
 properties:
   - predicate: bio.summary

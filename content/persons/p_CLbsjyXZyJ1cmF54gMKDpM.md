@@ -4,6 +4,7 @@ id: p_CLbsjyXZyJ1cmF54gMKDpM
 status: active
 merged_into: null
 display_name: 王矧陽
+cbdb_id: 214165
 revision: 1
 properties:
   - predicate: bio.summary

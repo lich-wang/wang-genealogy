@@ -4,6 +4,7 @@ id: p_fLhvntNww6tCL949em6hEQ
 status: active
 merged_into: null
 display_name: 王炳震
+cbdb_id: 343899
 revision: 1
 properties:
   - predicate: bio.summary

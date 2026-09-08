@@ -4,6 +4,7 @@ id: p_hPLFM4nuwXpHwDwRtjk2Bk
 status: active
 merged_into: null
 display_name: 王象豐
+cbdb_id: 235537
 revision: 1
 properties:
   - predicate: bio.summary

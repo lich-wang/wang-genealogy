@@ -4,6 +4,7 @@ id: p_jcVNErWTJ62nGyH2J1qnHG
 status: active
 merged_into: null
 display_name: 王邦選
+cbdb_id: 71517
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_ZPiJcbwj4KJjw7t1YK6E4f
 status: active
 merged_into: null
 display_name: 王世厚
+cbdb_id: 17763
 revision: 2
 properties:
   - predicate: bio.summary

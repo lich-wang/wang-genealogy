@@ -4,6 +4,7 @@ id: p_cR8Wy9ippRepXxNQNHK459
 status: active
 merged_into: null
 display_name: 王惟堯
+cbdb_id: 10684
 revision: 1
 properties:
   - predicate: bio.summary

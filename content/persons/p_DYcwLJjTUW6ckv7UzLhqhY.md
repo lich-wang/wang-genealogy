@@ -4,6 +4,7 @@ id: p_DYcwLJjTUW6ckv7UzLhqhY
 status: active
 merged_into: null
 display_name: 王瀘滔
+cbdb_id: 266604
 revision: 1
 properties:
   - predicate: bio.summary

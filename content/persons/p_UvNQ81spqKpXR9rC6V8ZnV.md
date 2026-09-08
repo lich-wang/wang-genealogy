@@ -4,6 +4,7 @@ id: p_UvNQ81spqKpXR9rC6V8ZnV
 status: active
 merged_into: null
 display_name: 王應哲
+cbdb_id: 249259
 revision: 1
 properties:
   - predicate: bio.summary

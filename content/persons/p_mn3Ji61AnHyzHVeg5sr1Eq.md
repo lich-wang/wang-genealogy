@@ -4,6 +4,7 @@ id: p_mn3Ji61AnHyzHVeg5sr1Eq
 status: active
 merged_into: null
 display_name: 王簡言
+cbdb_id: 38378
 revision: 1
 properties:
   - predicate: bio.summary

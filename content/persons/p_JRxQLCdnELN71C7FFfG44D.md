@@ -4,6 +4,7 @@ id: p_JRxQLCdnELN71C7FFfG44D
 status: active
 merged_into: null
 display_name: 王子杰
+cbdb_id: 150134
 revision: 1
 properties:
   - predicate: bio.summary

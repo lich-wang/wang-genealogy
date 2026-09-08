@@ -4,6 +4,7 @@ id: p_LD36WZHMBRnFYN8hscJDei
 status: active
 merged_into: null
 display_name: 王慎興
+cbdb_id: 265196
 revision: 1
 properties:
   - predicate: bio.summary

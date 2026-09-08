@@ -4,6 +4,7 @@ id: p_ABHWjEscFjoCVEgF2qr4dX
 status: active
 merged_into: null
 display_name: 王宗性
+cbdb_id: 203595
 revision: 2
 properties:
   - predicate: bio.summary

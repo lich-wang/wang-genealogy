@@ -4,6 +4,7 @@ id: p_ffKBXMTZthLyDPHTW4nPZ2
 status: active
 merged_into: null
 display_name: 王與直
+cbdb_id: 25593
 revision: 1
 properties:
   - predicate: bio.summary

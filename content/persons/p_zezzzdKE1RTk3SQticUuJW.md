@@ -4,6 +4,7 @@ id: p_zezzzdKE1RTk3SQticUuJW
 status: active
 merged_into: null
 display_name: 王映庚
+cbdb_id: 526916
 revision: 1
 properties:
   - predicate: bio.summary

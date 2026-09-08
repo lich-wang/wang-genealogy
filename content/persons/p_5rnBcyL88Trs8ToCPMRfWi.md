@@ -4,6 +4,7 @@ id: p_5rnBcyL88Trs8ToCPMRfWi
 status: active
 merged_into: null
 display_name: 王震雷
+cbdb_id: 415591
 revision: 1
 properties:
   - predicate: bio.summary

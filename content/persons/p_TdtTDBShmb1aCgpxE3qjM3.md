@@ -4,6 +4,7 @@ id: p_TdtTDBShmb1aCgpxE3qjM3
 status: active
 merged_into: null
 display_name: 王資善
+cbdb_id: 248128
 revision: 1
 properties:
   - predicate: bio.summary

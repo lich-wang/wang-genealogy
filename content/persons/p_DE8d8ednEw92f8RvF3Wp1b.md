@@ -4,6 +4,7 @@ id: p_DE8d8ednEw92f8RvF3Wp1b
 status: active
 merged_into: null
 display_name: 王無擇
+cbdb_id: 175926
 revision: 1
 properties:
   - predicate: bio.summary

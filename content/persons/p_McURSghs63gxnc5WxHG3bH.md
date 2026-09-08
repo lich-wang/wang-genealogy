@@ -4,6 +4,7 @@ id: p_McURSghs63gxnc5WxHG3bH
 status: active
 merged_into: null
 display_name: 王周紹
+cbdb_id: 205463
 revision: 1
 properties:
   - predicate: bio.summary

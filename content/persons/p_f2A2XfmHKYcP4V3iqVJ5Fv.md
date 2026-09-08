@@ -4,6 +4,7 @@ id: p_f2A2XfmHKYcP4V3iqVJ5Fv
 status: active
 merged_into: null
 display_name: 王加敏
+cbdb_id: 61620
 revision: 1
 properties:
   - predicate: bio.summary

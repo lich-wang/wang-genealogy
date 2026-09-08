@@ -4,6 +4,7 @@ id: p_jAWC9pLdoDy9ig1a59h9MZ
 status: active
 merged_into: null
 display_name: 王永靖
+cbdb_id: 221621
 revision: 1
 properties:
   - predicate: bio.summary

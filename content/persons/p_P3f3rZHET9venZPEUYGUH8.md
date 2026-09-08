@@ -4,6 +4,7 @@ id: p_P3f3rZHET9venZPEUYGUH8
 status: active
 merged_into: null
 display_name: 王基盛
+cbdb_id: 414150
 revision: 1
 properties:
   - predicate: bio.summary

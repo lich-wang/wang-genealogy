@@ -4,6 +4,7 @@ id: p_o4PADh3txE9cKhi9feW2DH
 status: active
 merged_into: null
 display_name: 王液
+cbdb_id: 175358
 revision: 1
 properties:
   - predicate: bio.summary

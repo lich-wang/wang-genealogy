@@ -4,6 +4,7 @@ id: p_SnmCt3LsUd41XXeFm6Zpto
 status: active
 merged_into: null
 display_name: 王玉堂
+cbdb_id: 453671
 revision: 1
 properties:
   - predicate: bio.summary

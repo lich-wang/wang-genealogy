@@ -4,6 +4,7 @@ id: p_jWwbRvM3rCpioALr3rfmK1
 status: active
 merged_into: null
 display_name: 王汝鶴
+cbdb_id: 414984
 revision: 1
 properties:
   - predicate: bio.summary

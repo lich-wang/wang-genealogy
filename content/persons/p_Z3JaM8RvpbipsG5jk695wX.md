@@ -4,6 +4,7 @@ id: p_Z3JaM8RvpbipsG5jk695wX
 status: active
 merged_into: null
 display_name: 王景旻
+cbdb_id: 186490
 revision: 1
 properties:
   - predicate: bio.summary

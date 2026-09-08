@@ -4,6 +4,7 @@ id: p_gAvm6kvWoh31DQU1S15J9W
 status: active
 merged_into: null
 display_name: 王殿傑
+cbdb_id: 414928
 revision: 1
 properties:
   - predicate: bio.summary

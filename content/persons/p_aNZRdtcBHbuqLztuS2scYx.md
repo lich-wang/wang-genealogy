@@ -4,6 +4,7 @@ id: p_aNZRdtcBHbuqLztuS2scYx
 status: active
 merged_into: null
 display_name: 王捷元
+cbdb_id: 414703
 revision: 1
 properties:
   - predicate: bio.summary

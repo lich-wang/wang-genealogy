@@ -4,6 +4,7 @@ id: p_j1wUhScLR6C7kS8y5jb1Dh
 status: active
 merged_into: null
 display_name: 王成甫
+cbdb_id: 250445
 revision: 1
 properties:
   - predicate: bio.summary

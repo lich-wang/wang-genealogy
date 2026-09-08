@@ -4,6 +4,7 @@ id: p_j7iDB6Dc2UErBLvywHCfrP
 status: active
 merged_into: null
 display_name: 王風采
+cbdb_id: 343595
 revision: 1
 properties:
   - predicate: bio.summary

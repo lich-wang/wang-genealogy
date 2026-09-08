@@ -4,6 +4,7 @@ id: p_HMFuHmCYBUufukipuXCeKx
 status: active
 merged_into: null
 display_name: 王學潛
+cbdb_id: 343662
 revision: 1
 properties:
   - predicate: bio.summary

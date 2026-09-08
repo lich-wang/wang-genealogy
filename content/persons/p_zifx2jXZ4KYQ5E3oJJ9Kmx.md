@@ -4,6 +4,7 @@ id: p_zifx2jXZ4KYQ5E3oJJ9Kmx
 status: active
 merged_into: null
 display_name: 王少微
+cbdb_id: 153386
 revision: 1
 properties:
   - predicate: bio.summary

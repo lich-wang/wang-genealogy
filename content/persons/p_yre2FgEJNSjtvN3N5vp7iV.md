@@ -4,6 +4,7 @@ id: p_yre2FgEJNSjtvN3N5vp7iV
 status: active
 merged_into: null
 display_name: 王仕益
+cbdb_id: 69160
 revision: 1
 properties:
   - predicate: bio.summary

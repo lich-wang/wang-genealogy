@@ -4,6 +4,7 @@ id: p_CLdF5UcaR98Rj51619NfpN
 status: active
 merged_into: null
 display_name: 王一之
+cbdb_id: 207376
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_XLdA4tWCJmmxH1dYR6uzPv
 status: active
 merged_into: null
 display_name: 王道謙
+cbdb_id: 223218
 revision: 1
 properties:
   - predicate: bio.summary

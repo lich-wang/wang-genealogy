@@ -4,6 +4,7 @@ id: p_6HtdAYrhzGGxHHcDDecn3j
 status: active
 merged_into: null
 display_name: 王庭弼
+cbdb_id: 101307
 revision: 1
 properties:
   - predicate: bio.summary

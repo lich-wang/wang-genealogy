@@ -4,6 +4,7 @@ id: p_jJQaMNnE8Wv9iuJmFTw48q
 status: active
 merged_into: null
 display_name: 王日存
+cbdb_id: 38120
 revision: 1
 properties:
   - predicate: bio.summary

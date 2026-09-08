@@ -4,6 +4,7 @@ id: p_npi4KiVAf6bhs4K2C2NGNy
 status: active
 merged_into: null
 display_name: 王仁整
+cbdb_id: 101054
 revision: 1
 properties:
   - predicate: bio.summary

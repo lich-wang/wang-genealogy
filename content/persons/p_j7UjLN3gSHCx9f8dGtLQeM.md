@@ -4,6 +4,7 @@ id: p_j7UjLN3gSHCx9f8dGtLQeM
 status: active
 merged_into: null
 display_name: 王汝美
+cbdb_id: 414977
 revision: 1
 properties:
   - predicate: bio.summary

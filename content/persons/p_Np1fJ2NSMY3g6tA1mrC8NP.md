@@ -4,6 +4,7 @@ id: p_Np1fJ2NSMY3g6tA1mrC8NP
 status: active
 merged_into: null
 display_name: 王添成
+cbdb_id: 280633
 revision: 1
 properties:
   - predicate: bio.summary

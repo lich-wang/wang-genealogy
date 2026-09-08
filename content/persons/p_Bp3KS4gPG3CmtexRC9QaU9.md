@@ -4,6 +4,7 @@ id: p_Bp3KS4gPG3CmtexRC9QaU9
 status: active
 merged_into: null
 display_name: 王華一
+cbdb_id: 250566
 revision: 1
 properties:
   - predicate: bio.summary

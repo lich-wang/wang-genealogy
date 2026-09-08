@@ -4,6 +4,7 @@ id: p_oYefTot2EGCYoXmKyUe9cv
 status: active
 merged_into: null
 display_name: 王孟瓛
+cbdb_id: 250011
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_EL7SP8U832N9b4kbVBJX4o
 status: active
 merged_into: null
 display_name: 王政行
+cbdb_id: 71845
 revision: 1
 properties:
   - predicate: bio.summary

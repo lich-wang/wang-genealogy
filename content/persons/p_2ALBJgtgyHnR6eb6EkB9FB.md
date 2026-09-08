@@ -4,6 +4,7 @@ id: p_2ALBJgtgyHnR6eb6EkB9FB
 status: active
 merged_into: null
 display_name: 王必榮
+cbdb_id: 414569
 revision: 1
 properties:
   - predicate: bio.summary

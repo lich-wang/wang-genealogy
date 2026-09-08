@@ -4,6 +4,7 @@ id: p_VsHER7rTMHVjNkm5jP4JHH
 status: active
 merged_into: null
 display_name: 王服義
+cbdb_id: 295251
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_1FUJk1LyDLhEgRQ77wKTEi
 status: active
 merged_into: null
 display_name: 王居隱
+cbdb_id: 35580
 revision: 1
 properties:
   - predicate: bio.summary

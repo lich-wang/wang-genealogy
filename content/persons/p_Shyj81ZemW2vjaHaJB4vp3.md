@@ -4,6 +4,7 @@ id: p_Shyj81ZemW2vjaHaJB4vp3
 status: active
 merged_into: null
 display_name: 王曰智
+cbdb_id: 414817
 revision: 1
 properties:
   - predicate: bio.summary

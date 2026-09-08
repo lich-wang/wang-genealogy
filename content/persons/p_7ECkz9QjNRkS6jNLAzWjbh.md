@@ -4,6 +4,7 @@ id: p_7ECkz9QjNRkS6jNLAzWjbh
 status: active
 merged_into: null
 display_name: 王宗琰
+cbdb_id: 342630
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_oKTVLEsoFr8zgV8PhCr3sb
 status: active
 merged_into: null
 display_name: 王環之
+cbdb_id: 415121
 revision: 1
 properties:
   - predicate: bio.summary

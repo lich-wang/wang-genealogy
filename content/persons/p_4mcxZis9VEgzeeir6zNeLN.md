@@ -4,6 +4,7 @@ id: p_4mcxZis9VEgzeeir6zNeLN
 status: active
 merged_into: null
 display_name: 王星遠
+cbdb_id: 56002
 revision: 1
 properties:
   - predicate: bio.summary

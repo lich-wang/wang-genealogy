@@ -4,6 +4,7 @@ id: p_FisdT3cjZ77SEtKVr6StYB
 status: active
 merged_into: null
 display_name: 王RR
+cbdb_id: 35059
 revision: 1
 properties:
   - predicate: bio.summary

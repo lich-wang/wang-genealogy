@@ -4,6 +4,7 @@ id: p_xVKY7KvYN9zv7pvkuAt8xf
 status: active
 merged_into: null
 display_name: 王勉新
+cbdb_id: 217248
 revision: 1
 properties:
   - predicate: bio.summary

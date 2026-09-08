@@ -4,6 +4,7 @@ id: p_mgL569hmDTkz44QU95GEhJ
 status: active
 merged_into: null
 display_name: 王懷敏
+cbdb_id: 21978
 revision: 1
 properties:
   - predicate: bio.summary

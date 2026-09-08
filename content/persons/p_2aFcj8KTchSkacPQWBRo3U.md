@@ -4,6 +4,7 @@ id: p_2aFcj8KTchSkacPQWBRo3U
 status: active
 merged_into: null
 display_name: 王仲千
+cbdb_id: 38854
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_fbzKwFnip9EhEf2G4NEZSx
 status: active
 merged_into: null
 display_name: 王追
+cbdb_id: 290817
 revision: 1
 properties:
   - predicate: bio.summary

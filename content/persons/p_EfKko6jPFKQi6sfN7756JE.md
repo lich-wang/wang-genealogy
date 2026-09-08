@@ -4,6 +4,7 @@ id: p_EfKko6jPFKQi6sfN7756JE
 status: active
 merged_into: null
 display_name: 王重益
+cbdb_id: 185356
 revision: 1
 properties:
   - predicate: bio.summary

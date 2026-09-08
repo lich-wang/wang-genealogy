@@ -4,6 +4,7 @@ id: p_SeER6gzsJFyEjnyJm77Ynj
 status: active
 merged_into: null
 display_name: 王有問
+cbdb_id: 261514
 revision: 1
 properties:
   - predicate: bio.summary

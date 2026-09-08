@@ -4,6 +4,7 @@ id: p_DHmm96wyqH3FThEZbr7NNh
 status: active
 merged_into: null
 display_name: 王應顯
+cbdb_id: 204039
 revision: 1
 properties:
   - predicate: bio.summary

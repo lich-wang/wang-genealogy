@@ -4,6 +4,7 @@ id: p_zNxTvn1H24yDFph8A7MDq4
 status: active
 merged_into: null
 display_name: 王寳
+cbdb_id: 414364
 revision: 1
 properties:
   - predicate: bio.summary

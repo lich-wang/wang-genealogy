@@ -4,6 +4,7 @@ id: p_jLj9x5Hx3ewwMHtmL6YHsw
 status: active
 merged_into: null
 display_name: 王見三
+cbdb_id: 521769
 revision: 1
 properties:
   - predicate: bio.summary

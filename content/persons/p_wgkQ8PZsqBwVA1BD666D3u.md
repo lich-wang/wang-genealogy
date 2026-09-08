@@ -4,6 +4,7 @@ id: p_wgkQ8PZsqBwVA1BD666D3u
 status: active
 merged_into: null
 display_name: 王獻策
+cbdb_id: 312067
 revision: 1
 properties:
   - predicate: bio.summary

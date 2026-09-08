@@ -4,6 +4,7 @@ id: p_ywBCNDf9sjE38bNz2unXB4
 status: active
 merged_into: null
 display_name: 王某果
+cbdb_id: 413664
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_WWzBNm59GqZ39h7Lo4Hn4Y
 status: active
 merged_into: null
 display_name: 王巨威
+cbdb_id: 414401
 revision: 1
 properties:
   - predicate: bio.summary

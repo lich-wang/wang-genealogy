@@ -4,6 +4,7 @@ id: p_mMMvUVTqSGCzN9tBPNL2KP
 status: active
 merged_into: null
 display_name: 王南夫
+cbdb_id: 22130
 revision: 1
 properties:
   - predicate: bio.summary

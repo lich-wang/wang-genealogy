@@ -4,6 +4,7 @@ id: p_73Gb2kH9Fcy2uXTDwJZy3m
 status: active
 merged_into: null
 display_name: 王悔
+cbdb_id: 445688
 revision: 1
 properties:
   - predicate: bio.summary

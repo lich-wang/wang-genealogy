@@ -4,6 +4,7 @@ id: p_871EfDhC9LQyMbGVu8iWG6
 status: active
 merged_into: null
 display_name: 王宏義
+cbdb_id: 414296
 revision: 1
 properties:
   - predicate: bio.summary

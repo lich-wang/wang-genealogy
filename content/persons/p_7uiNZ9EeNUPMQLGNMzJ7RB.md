@@ -4,6 +4,7 @@ id: p_7uiNZ9EeNUPMQLGNMzJ7RB
 status: active
 merged_into: null
 display_name: 王宗城
+cbdb_id: 445561
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_1XeZrDWGxMqDeXmFKJXqCF
 status: active
 merged_into: null
 display_name: 王宗訓
+cbdb_id: 414313
 revision: 1
 properties:
   - predicate: bio.summary

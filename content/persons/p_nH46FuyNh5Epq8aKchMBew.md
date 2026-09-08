@@ -4,6 +4,7 @@ id: p_nH46FuyNh5Epq8aKchMBew
 status: active
 merged_into: null
 display_name: 王嬌鳳
+cbdb_id: 122292
 revision: 1
 properties:
   - predicate: bio.summary

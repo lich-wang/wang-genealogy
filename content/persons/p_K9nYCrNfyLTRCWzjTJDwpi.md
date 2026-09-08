@@ -4,6 +4,7 @@ id: p_K9nYCrNfyLTRCWzjTJDwpi
 status: active
 merged_into: null
 display_name: 王倣
+cbdb_id: 322379
 revision: 1
 properties:
   - predicate: bio.summary

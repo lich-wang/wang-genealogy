@@ -4,6 +4,7 @@ id: p_sRVBHewBeYHntey1LPKtEX
 status: active
 merged_into: null
 display_name: 王錫周
+cbdb_id: 415543
 revision: 1
 properties:
   - predicate: bio.summary

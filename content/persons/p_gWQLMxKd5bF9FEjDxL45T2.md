@@ -4,6 +4,7 @@ id: p_gWQLMxKd5bF9FEjDxL45T2
 status: active
 merged_into: null
 display_name: 王敬堯
+cbdb_id: 414725
 revision: 1
 properties:
   - predicate: bio.summary

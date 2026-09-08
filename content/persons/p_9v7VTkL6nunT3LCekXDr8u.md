@@ -4,6 +4,7 @@ id: p_9v7VTkL6nunT3LCekXDr8u
 status: active
 merged_into: null
 display_name: 王維漢
+cbdb_id: 415253
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_B6CvWMQvzNPBJGChH6N3h7
 status: active
 merged_into: null
 display_name: 王楫山
+cbdb_id: 414876
 revision: 1
 properties:
   - predicate: bio.summary

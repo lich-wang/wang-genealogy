@@ -4,6 +4,7 @@ id: p_bm8k59A8QzoYjCmwC64dCk
 status: active
 merged_into: null
 display_name: 王士恭
+cbdb_id: 101031
 revision: 1
 properties:
   - predicate: bio.summary

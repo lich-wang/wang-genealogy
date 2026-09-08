@@ -4,6 +4,7 @@ id: p_XN4ssF3XcVhfasCHSV11eb
 status: active
 merged_into: null
 display_name: 王邵定
+cbdb_id: 415515
 revision: 1
 properties:
   - predicate: bio.summary

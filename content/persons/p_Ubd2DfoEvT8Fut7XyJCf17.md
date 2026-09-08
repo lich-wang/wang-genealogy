@@ -4,6 +4,7 @@ id: p_Ubd2DfoEvT8Fut7XyJCf17
 status: active
 merged_into: null
 display_name: 王秉慎
+cbdb_id: 441134
 revision: 1
 properties:
   - predicate: bio.summary

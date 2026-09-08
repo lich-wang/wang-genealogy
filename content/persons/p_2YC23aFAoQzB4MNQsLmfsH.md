@@ -4,6 +4,7 @@ id: p_2YC23aFAoQzB4MNQsLmfsH
 status: active
 merged_into: null
 display_name: 王尚雄
+cbdb_id: 437544
 revision: 1
 properties:
   - predicate: bio.summary

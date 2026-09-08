@@ -4,6 +4,7 @@ id: p_A3Bgn7qCKZvyGbDcoGW18n
 status: active
 merged_into: null
 display_name: 王兼濟
+cbdb_id: 37944
 revision: 1
 properties:
   - predicate: bio.summary

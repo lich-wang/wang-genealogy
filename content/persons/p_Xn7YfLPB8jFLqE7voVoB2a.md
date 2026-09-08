@@ -4,6 +4,7 @@ id: p_Xn7YfLPB8jFLqE7voVoB2a
 status: active
 merged_into: null
 display_name: 蒋氏
+cbdb_id: 143330
 revision: 1
 properties:
   - predicate: bio.summary

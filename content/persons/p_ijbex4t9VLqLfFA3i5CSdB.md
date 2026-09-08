@@ -4,6 +4,7 @@ id: p_ijbex4t9VLqLfFA3i5CSdB
 status: active
 merged_into: null
 display_name: 王宏德
+cbdb_id: 314792
 revision: 1
 properties:
   - predicate: bio.summary

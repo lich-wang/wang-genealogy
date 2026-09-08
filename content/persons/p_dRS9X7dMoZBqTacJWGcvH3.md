@@ -4,6 +4,7 @@ id: p_dRS9X7dMoZBqTacJWGcvH3
 status: active
 merged_into: null
 display_name: 王崇欽
+cbdb_id: 325293
 revision: 1
 properties:
   - predicate: bio.summary

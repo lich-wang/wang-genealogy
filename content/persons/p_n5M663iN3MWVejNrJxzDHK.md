@@ -4,6 +4,7 @@ id: p_n5M663iN3MWVejNrJxzDHK
 status: active
 merged_into: null
 display_name: 王芳與
+cbdb_id: 69901
 revision: 1
 properties:
   - predicate: bio.summary

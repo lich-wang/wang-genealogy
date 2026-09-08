@@ -4,6 +4,7 @@ id: p_S1K9VxMVUpV3Bfb216WDQS
 status: active
 merged_into: null
 display_name: 王之義
+cbdb_id: 13952
 revision: 1
 properties:
   - predicate: bio.summary

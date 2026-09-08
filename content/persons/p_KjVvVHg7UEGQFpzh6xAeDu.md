@@ -4,6 +4,7 @@ id: p_KjVvVHg7UEGQFpzh6xAeDu
 status: active
 merged_into: null
 display_name: 王宏志
+cbdb_id: 414294
 revision: 1
 properties:
   - predicate: bio.summary

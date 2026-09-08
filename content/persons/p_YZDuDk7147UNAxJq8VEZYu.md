@@ -4,6 +4,7 @@ id: p_YZDuDk7147UNAxJq8VEZYu
 status: active
 merged_into: null
 display_name: 王克常
+cbdb_id: 35594
 revision: 1
 properties:
   - predicate: bio.summary

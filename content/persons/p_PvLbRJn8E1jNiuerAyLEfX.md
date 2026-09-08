@@ -4,6 +4,7 @@ id: p_PvLbRJn8E1jNiuerAyLEfX
 status: active
 merged_into: null
 display_name: 王道翁
+cbdb_id: 38246
 revision: 1
 properties:
   - predicate: bio.summary

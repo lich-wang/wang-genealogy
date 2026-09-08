@@ -4,6 +4,7 @@ id: p_CqdH2vNBX5dBAHtdLtF8hN
 status: active
 merged_into: null
 display_name: 王光宙
+cbdb_id: 297378
 revision: 1
 properties:
   - predicate: bio.summary

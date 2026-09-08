@@ -4,6 +4,7 @@ id: p_oN958Ro85LqNtavSHNF3yw
 status: active
 merged_into: null
 display_name: 王維忠
+cbdb_id: 38324
 revision: 1
 properties:
   - predicate: bio.summary

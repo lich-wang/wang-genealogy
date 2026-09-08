@@ -4,6 +4,7 @@ id: p_LkkHmEhfygpsfv8hYtVnPM
 status: active
 merged_into: null
 display_name: 王愈基
+cbdb_id: 414618
 revision: 1
 properties:
   - predicate: bio.summary

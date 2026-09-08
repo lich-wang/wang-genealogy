@@ -4,6 +4,7 @@ id: p_FNfrSn5qku67Ca9gH7ugC2
 status: active
 merged_into: null
 display_name: 王來旬
+cbdb_id: 338038
 revision: 1
 properties:
   - predicate: bio.summary

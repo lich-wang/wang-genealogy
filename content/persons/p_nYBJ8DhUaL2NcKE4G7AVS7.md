@@ -4,6 +4,7 @@ id: p_nYBJ8DhUaL2NcKE4G7AVS7
 status: active
 merged_into: null
 display_name: 王希遠
+cbdb_id: 237765
 revision: 1
 properties:
   - predicate: bio.summary

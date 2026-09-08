@@ -4,6 +4,7 @@ id: p_Q6z2Rzm5XaJUBN19vPaCM4
 status: active
 merged_into: null
 display_name: 王納議
+cbdb_id: 314800
 revision: 1
 properties:
   - predicate: bio.summary

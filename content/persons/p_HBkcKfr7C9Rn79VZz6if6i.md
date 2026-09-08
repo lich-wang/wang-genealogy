@@ -4,6 +4,7 @@ id: p_HBkcKfr7C9Rn79VZz6if6i
 status: active
 merged_into: null
 display_name: 王子载
+cbdb_id: 445475
 revision: 1
 properties:
   - predicate: bio.summary

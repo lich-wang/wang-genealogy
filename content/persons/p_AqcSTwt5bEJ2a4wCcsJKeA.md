@@ -4,6 +4,7 @@ id: p_AqcSTwt5bEJ2a4wCcsJKeA
 status: active
 merged_into: null
 display_name: 王彙征
+cbdb_id: 414511
 revision: 1
 properties:
   - predicate: bio.summary

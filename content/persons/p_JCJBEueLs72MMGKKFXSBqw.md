@@ -4,6 +4,7 @@ id: p_JCJBEueLs72MMGKKFXSBqw
 status: active
 merged_into: null
 display_name: 王缙
+cbdb_id: 333591
 revision: 1
 properties:
   - predicate: name.primary

@@ -4,6 +4,7 @@ id: p_AoBir6hSMNLuhQPCTPedCQ
 status: active
 merged_into: null
 display_name: 汪浩
+cbdb_id: 21055
 revision: 1
 properties:
   - predicate: name.primary

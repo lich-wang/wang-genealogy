@@ -4,6 +4,7 @@ id: p_PEyCMMv29eWgrzJvDCZK9V
 status: active
 merged_into: null
 display_name: 王掄秀
+cbdb_id: 30059
 revision: 1
 properties:
   - predicate: bio.summary

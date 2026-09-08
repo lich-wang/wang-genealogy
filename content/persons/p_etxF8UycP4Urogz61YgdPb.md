@@ -4,6 +4,7 @@ id: p_etxF8UycP4Urogz61YgdPb
 status: active
 merged_into: null
 display_name: 王安舜
+cbdb_id: 207738
 revision: 1
 properties:
   - predicate: bio.summary

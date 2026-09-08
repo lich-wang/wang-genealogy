@@ -4,6 +4,7 @@ id: p_gEnZLZ59BdARRR4HvdHJTz
 status: active
 merged_into: null
 display_name: 王一文
+cbdb_id: 230480
 revision: 1
 properties:
   - predicate: bio.summary

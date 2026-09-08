@@ -4,6 +4,7 @@ id: p_J4cFZzbaxA8bbfRrrnuBXH
 status: active
 merged_into: null
 display_name: 王仲符
+cbdb_id: 38892
 revision: 1
 properties:
   - predicate: bio.summary

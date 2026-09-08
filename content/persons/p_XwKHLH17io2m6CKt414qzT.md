@@ -4,6 +4,7 @@ id: p_XwKHLH17io2m6CKt414qzT
 status: active
 merged_into: null
 display_name: 王伍
+cbdb_id: 217730
 revision: 2
 properties:
   - predicate: bio.summary

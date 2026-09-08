@@ -4,6 +4,7 @@ id: p_mRFpmHuBZRJHK7zxpR6KjF
 status: active
 merged_into: null
 display_name: 王仲名
+cbdb_id: 413833
 revision: 1
 properties:
   - predicate: bio.summary

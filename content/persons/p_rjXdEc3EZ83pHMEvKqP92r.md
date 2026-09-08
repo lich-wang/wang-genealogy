@@ -4,6 +4,7 @@ id: p_rjXdEc3EZ83pHMEvKqP92r
 status: active
 merged_into: null
 display_name: 王仁善
+cbdb_id: 294929
 revision: 1
 properties:
   - predicate: bio.summary

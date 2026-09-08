@@ -4,6 +4,7 @@ id: p_3WXtv2kcWPVKbpetC94s5m
 status: active
 merged_into: null
 display_name: 王叔雅
+cbdb_id: 141433
 revision: 1
 properties:
   - predicate: bio.summary

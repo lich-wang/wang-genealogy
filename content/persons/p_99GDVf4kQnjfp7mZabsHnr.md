@@ -4,6 +4,7 @@ id: p_99GDVf4kQnjfp7mZabsHnr
 status: active
 merged_into: null
 display_name: 王履康
+cbdb_id: 61993
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_eYQNVTdY7TVhN2D6gKvHbG
 status: active
 merged_into: null
 display_name: 王聲遠
+cbdb_id: 415300
 revision: 1
 properties:
   - predicate: bio.summary

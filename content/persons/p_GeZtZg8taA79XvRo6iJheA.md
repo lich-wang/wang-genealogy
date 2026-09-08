@@ -4,6 +4,7 @@ id: p_GeZtZg8taA79XvRo6iJheA
 status: active
 merged_into: null
 display_name: 王朝璽
+cbdb_id: 282727
 revision: 1
 properties:
   - predicate: bio.summary

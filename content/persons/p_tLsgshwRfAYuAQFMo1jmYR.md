@@ -4,6 +4,7 @@ id: p_tLsgshwRfAYuAQFMo1jmYR
 status: active
 merged_into: null
 display_name: 王福兆
+cbdb_id: 225801
 revision: 1
 properties:
   - predicate: bio.summary

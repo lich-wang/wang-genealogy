@@ -4,6 +4,7 @@ id: p_4ge9g3zqZM4xWPeSfHAsbv
 status: active
 merged_into: null
 display_name: 王名善
+cbdb_id: 126523
 revision: 1
 properties:
   - predicate: bio.summary

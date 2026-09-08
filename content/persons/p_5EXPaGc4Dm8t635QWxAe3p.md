@@ -4,6 +4,7 @@ id: p_5EXPaGc4Dm8t635QWxAe3p
 status: active
 merged_into: null
 display_name: 王玉明
+cbdb_id: 526745
 revision: 1
 properties:
   - predicate: bio.summary

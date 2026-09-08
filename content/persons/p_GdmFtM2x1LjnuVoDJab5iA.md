@@ -4,6 +4,7 @@ id: p_GdmFtM2x1LjnuVoDJab5iA
 status: active
 merged_into: null
 display_name: 王者詔
+cbdb_id: 343154
 revision: 1
 properties:
   - predicate: bio.summary

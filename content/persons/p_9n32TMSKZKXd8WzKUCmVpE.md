@@ -4,6 +4,7 @@ id: p_9n32TMSKZKXd8WzKUCmVpE
 status: active
 merged_into: null
 display_name: 王起
+cbdb_id: 175480
 revision: 1
 properties:
   - predicate: bio.summary

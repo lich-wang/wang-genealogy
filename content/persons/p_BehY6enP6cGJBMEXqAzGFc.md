@@ -4,6 +4,7 @@ id: p_BehY6enP6cGJBMEXqAzGFc
 status: active
 merged_into: null
 display_name: 王庭諭
+cbdb_id: 206637
 revision: 1
 properties:
   - predicate: bio.summary

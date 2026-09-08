@@ -4,6 +4,7 @@ id: p_D3iizU76zuq4k823LE7ekz
 status: active
 merged_into: null
 display_name: 王啟賢
+cbdb_id: 287083
 revision: 1
 properties:
   - predicate: bio.summary

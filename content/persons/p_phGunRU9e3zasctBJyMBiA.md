@@ -4,6 +4,7 @@ id: p_phGunRU9e3zasctBJyMBiA
 status: active
 merged_into: null
 display_name: 王伯豫
+cbdb_id: 413860
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_ASmBptU9jrcURupyEbhPcU
 status: active
 merged_into: null
 display_name: 王文晟
+cbdb_id: 37963
 revision: 1
 properties:
   - predicate: bio.summary

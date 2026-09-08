@@ -4,6 +4,7 @@ id: p_M551nrJ5d7pTaQmmJZsfEa
 status: active
 merged_into: null
 display_name: 王孟通
+cbdb_id: 239759
 revision: 1
 properties:
   - predicate: bio.summary

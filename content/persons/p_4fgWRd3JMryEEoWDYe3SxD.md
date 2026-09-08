@@ -4,6 +4,7 @@ id: p_4fgWRd3JMryEEoWDYe3SxD
 status: active
 merged_into: null
 display_name: 王世達
+cbdb_id: 317030
 revision: 1
 properties:
   - predicate: bio.summary

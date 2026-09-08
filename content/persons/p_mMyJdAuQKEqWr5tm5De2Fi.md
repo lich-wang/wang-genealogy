@@ -4,6 +4,7 @@ id: p_mMyJdAuQKEqWr5tm5De2Fi
 status: active
 merged_into: null
 display_name: 王士怡
+cbdb_id: 259205
 revision: 1
 properties:
   - predicate: bio.summary

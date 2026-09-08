@@ -4,6 +4,7 @@ id: p_Fo2QVN92CyKkBgg1mvJ6sg
 status: active
 merged_into: null
 display_name: 王叔全
+cbdb_id: 36281
 revision: 1
 properties:
   - predicate: bio.summary

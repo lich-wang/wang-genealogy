@@ -4,6 +4,7 @@ id: p_JtSRot8TMJBze85PeVNirz
 status: active
 merged_into: null
 display_name: 王文璽
+cbdb_id: 414745
 revision: 1
 properties:
   - predicate: bio.summary

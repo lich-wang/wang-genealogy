@@ -4,6 +4,7 @@ id: p_ixrhbxQk6QtxPXr5z5DBuT
 status: active
 merged_into: null
 display_name: 王處謙
+cbdb_id: 160573
 revision: 1
 properties:
   - predicate: bio.summary

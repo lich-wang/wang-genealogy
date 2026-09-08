@@ -4,6 +4,7 @@ id: p_1dbPFx8DinJSbnFHKJaKLg
 status: active
 merged_into: null
 display_name: 王之結
+cbdb_id: 137842
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_KXhS86oRgYaAb2kUg4RmLM
 status: active
 merged_into: null
 display_name: 王榮昌
+cbdb_id: 118083
 revision: 1
 properties:
   - predicate: bio.summary

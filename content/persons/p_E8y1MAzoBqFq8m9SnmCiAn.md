@@ -4,6 +4,7 @@ id: p_E8y1MAzoBqFq8m9SnmCiAn
 status: active
 merged_into: null
 display_name: 王棲
+cbdb_id: 134046
 revision: 1
 properties:
   - predicate: bio.summary

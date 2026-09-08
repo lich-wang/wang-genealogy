@@ -4,6 +4,7 @@ id: p_8fDiA64i7XEi5BnTAt9qhu
 status: active
 merged_into: null
 display_name: 王炳衡
+cbdb_id: 126591
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_RVRNrX9rKNd1gaaY5iE462
 status: active
 merged_into: null
 display_name: 王庭訓
+cbdb_id: 149843
 revision: 1
 properties:
   - predicate: bio.summary

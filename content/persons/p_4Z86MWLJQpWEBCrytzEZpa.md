@@ -4,6 +4,7 @@ id: p_4Z86MWLJQpWEBCrytzEZpa
 status: active
 merged_into: null
 display_name: 王尚仁
+cbdb_id: 292169
 revision: 1
 properties:
   - predicate: bio.summary

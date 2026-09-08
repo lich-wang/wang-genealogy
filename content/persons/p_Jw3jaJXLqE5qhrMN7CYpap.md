@@ -4,6 +4,7 @@ id: p_Jw3jaJXLqE5qhrMN7CYpap
 status: active
 merged_into: null
 display_name: 王人鑑
+cbdb_id: 23100
 revision: 1
 properties:
   - predicate: bio.summary

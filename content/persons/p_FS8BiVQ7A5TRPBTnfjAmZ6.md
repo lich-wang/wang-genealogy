@@ -4,6 +4,7 @@ id: p_FS8BiVQ7A5TRPBTnfjAmZ6
 status: active
 merged_into: null
 display_name: 王彥民
+cbdb_id: 204329
 revision: 1
 properties:
   - predicate: bio.summary

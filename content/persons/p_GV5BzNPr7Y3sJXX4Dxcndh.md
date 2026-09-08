@@ -4,6 +4,7 @@ id: p_GV5BzNPr7Y3sJXX4Dxcndh
 status: active
 merged_into: null
 display_name: 王志崇
+cbdb_id: 255491
 revision: 1
 properties:
   - predicate: bio.summary

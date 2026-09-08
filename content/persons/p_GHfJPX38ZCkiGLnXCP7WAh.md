@@ -4,6 +4,7 @@ id: p_GHfJPX38ZCkiGLnXCP7WAh
 status: active
 merged_into: null
 display_name: 王洽中
+cbdb_id: 415013
 revision: 1
 properties:
   - predicate: bio.summary

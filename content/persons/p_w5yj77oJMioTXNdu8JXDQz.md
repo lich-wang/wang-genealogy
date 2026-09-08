@@ -4,6 +4,7 @@ id: p_w5yj77oJMioTXNdu8JXDQz
 status: active
 merged_into: null
 display_name: 王家章
+cbdb_id: 414350
 revision: 1
 properties:
   - predicate: bio.summary

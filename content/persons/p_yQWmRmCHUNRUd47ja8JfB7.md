@@ -4,6 +4,7 @@ id: p_yQWmRmCHUNRUd47ja8JfB7
 status: active
 merged_into: null
 display_name: 王福清
+cbdb_id: 342655
 revision: 1
 properties:
   - predicate: bio.summary

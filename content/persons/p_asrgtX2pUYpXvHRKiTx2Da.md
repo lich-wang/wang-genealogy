@@ -4,6 +4,7 @@ id: p_asrgtX2pUYpXvHRKiTx2Da
 status: active
 merged_into: null
 display_name: 王聞凱
+cbdb_id: 236741
 revision: 1
 properties:
   - predicate: bio.summary

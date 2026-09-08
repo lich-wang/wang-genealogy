@@ -4,6 +4,7 @@ id: p_Se45cXwL9o2WnPoq4pncyB
 status: active
 merged_into: null
 display_name: 王泛
+cbdb_id: 175528
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_9in8REHLed81EofQaUdNJQ
 status: active
 merged_into: null
 display_name: 王伯履
+cbdb_id: 253504
 revision: 1
 properties:
   - predicate: bio.summary

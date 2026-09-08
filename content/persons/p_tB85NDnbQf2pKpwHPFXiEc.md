@@ -4,6 +4,7 @@ id: p_tB85NDnbQf2pKpwHPFXiEc
 status: active
 merged_into: null
 display_name: 王志熹
+cbdb_id: 414577
 revision: 1
 properties:
   - predicate: bio.summary

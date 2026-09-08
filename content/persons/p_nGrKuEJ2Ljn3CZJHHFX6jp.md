@@ -4,6 +4,7 @@ id: p_nGrKuEJ2Ljn3CZJHHFX6jp
 status: active
 merged_into: null
 display_name: 王都俞
+cbdb_id: 343290
 revision: 1
 properties:
   - predicate: bio.summary

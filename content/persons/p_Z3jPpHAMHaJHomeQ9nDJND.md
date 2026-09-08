@@ -4,6 +4,7 @@ id: p_Z3jPpHAMHaJHomeQ9nDJND
 status: active
 merged_into: null
 display_name: 王同春
+cbdb_id: 343629
 revision: 1
 properties:
   - predicate: bio.summary

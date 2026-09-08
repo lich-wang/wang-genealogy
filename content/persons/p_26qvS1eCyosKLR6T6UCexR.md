@@ -4,6 +4,7 @@ id: p_26qvS1eCyosKLR6T6UCexR
 status: active
 merged_into: null
 display_name: 王時舉
+cbdb_id: 68472
 revision: 1
 properties:
   - predicate: bio.summary

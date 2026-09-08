@@ -4,6 +4,7 @@ id: p_cNPQCRESnHPNJBxvhHBfT4
 status: active
 merged_into: null
 display_name: 王就聘
+cbdb_id: 226713
 revision: 1
 properties:
   - predicate: bio.summary

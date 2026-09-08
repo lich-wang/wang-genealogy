@@ -4,6 +4,7 @@ id: p_uacg4unT4sHhTZnpParnK2
 status: active
 merged_into: null
 display_name: 王貞婦
+cbdb_id: 121555
 revision: 1
 properties:
   - predicate: bio.summary

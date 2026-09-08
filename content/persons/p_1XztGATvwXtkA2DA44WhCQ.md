@@ -4,6 +4,7 @@ id: p_1XztGATvwXtkA2DA44WhCQ
 status: active
 merged_into: null
 display_name: 王學龍
+cbdb_id: 287450
 revision: 1
 properties:
   - predicate: bio.summary

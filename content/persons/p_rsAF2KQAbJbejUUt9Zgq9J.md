@@ -4,6 +4,7 @@ id: p_rsAF2KQAbJbejUUt9Zgq9J
 status: active
 merged_into: null
 display_name: 王用卿
+cbdb_id: 284146
 revision: 1
 properties:
   - predicate: bio.summary

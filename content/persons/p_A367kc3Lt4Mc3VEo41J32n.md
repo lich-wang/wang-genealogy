@@ -4,6 +4,7 @@ id: p_A367kc3Lt4Mc3VEo41J32n
 status: active
 merged_into: null
 display_name: 王賡琰
+cbdb_id: 341604
 revision: 1
 properties:
   - predicate: bio.summary

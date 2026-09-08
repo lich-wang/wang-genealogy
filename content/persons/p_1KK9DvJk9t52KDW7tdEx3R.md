@@ -4,6 +4,7 @@ id: p_1KK9DvJk9t52KDW7tdEx3R
 status: active
 merged_into: null
 display_name: 王荀龍
+cbdb_id: 22245
 revision: 1
 properties:
   - predicate: bio.summary

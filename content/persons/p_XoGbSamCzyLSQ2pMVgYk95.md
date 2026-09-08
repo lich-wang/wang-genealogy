@@ -4,6 +4,7 @@ id: p_XoGbSamCzyLSQ2pMVgYk95
 status: active
 merged_into: null
 display_name: 王子上
+cbdb_id: 45865
 revision: 1
 properties:
   - predicate: bio.summary

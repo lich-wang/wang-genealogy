@@ -4,6 +4,7 @@ id: p_zCNrrJEq1CGEUsXqoL4QXz
 status: active
 merged_into: null
 display_name: 王祖瓚
+cbdb_id: 520243
 revision: 1
 properties:
   - predicate: bio.summary

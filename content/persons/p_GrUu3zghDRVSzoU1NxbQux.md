@@ -4,6 +4,7 @@ id: p_GrUu3zghDRVSzoU1NxbQux
 status: active
 merged_into: null
 display_name: 王宗耀
+cbdb_id: 71815
 revision: 1
 properties:
   - predicate: bio.summary

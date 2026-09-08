@@ -4,6 +4,7 @@ id: p_MBxEwD36sfUcqcU6YcpiMN
 status: active
 merged_into: null
 display_name: 王伯廣
+cbdb_id: 39447
 revision: 1
 properties:
   - predicate: bio.summary

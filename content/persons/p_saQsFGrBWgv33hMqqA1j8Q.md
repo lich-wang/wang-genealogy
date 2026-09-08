@@ -4,6 +4,7 @@ id: p_saQsFGrBWgv33hMqqA1j8Q
 status: active
 merged_into: null
 display_name: 王學吉
+cbdb_id: 316261
 revision: 1
 properties:
   - predicate: bio.summary

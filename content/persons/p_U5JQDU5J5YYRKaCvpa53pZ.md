@@ -4,6 +4,7 @@ id: p_U5JQDU5J5YYRKaCvpa53pZ
 status: active
 merged_into: null
 display_name: 王明
+cbdb_id: 18552
 revision: 1
 properties:
   - predicate: bio.summary

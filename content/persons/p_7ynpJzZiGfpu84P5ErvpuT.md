@@ -4,6 +4,7 @@ id: p_7ynpJzZiGfpu84P5ErvpuT
 status: active
 merged_into: null
 display_name: 王庭默
+cbdb_id: 414434
 revision: 1
 properties:
   - predicate: bio.summary

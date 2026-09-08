@@ -4,6 +4,7 @@ id: p_7NCEK5U9GqB6xrx3grQXiw
 status: active
 merged_into: null
 display_name: 王伯政
+cbdb_id: 274047
 revision: 1
 properties:
   - predicate: bio.summary

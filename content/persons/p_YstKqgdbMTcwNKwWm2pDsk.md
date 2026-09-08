@@ -4,6 +4,7 @@ id: p_YstKqgdbMTcwNKwWm2pDsk
 status: active
 merged_into: null
 display_name: 王席珍
+cbdb_id: 414425
 revision: 1
 properties:
   - predicate: bio.summary

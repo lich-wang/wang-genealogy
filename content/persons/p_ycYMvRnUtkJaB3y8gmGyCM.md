@@ -4,6 +4,7 @@ id: p_ycYMvRnUtkJaB3y8gmGyCM
 status: active
 merged_into: null
 display_name: 王鑑之
+cbdb_id: 126887
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_GjhAm5V7ztreZ6BiPG57ZC
 status: active
 merged_into: null
 display_name: 王振吉
+cbdb_id: 414694
 revision: 1
 properties:
   - predicate: bio.summary

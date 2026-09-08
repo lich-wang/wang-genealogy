@@ -4,6 +4,7 @@ id: p_5gxVMxVHEsmyHKD9hjsbp5
 status: active
 merged_into: null
 display_name: 王晉和
+cbdb_id: 335475
 revision: 1
 properties:
   - predicate: bio.summary

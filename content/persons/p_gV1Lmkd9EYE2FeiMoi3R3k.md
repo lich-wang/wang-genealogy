@@ -4,6 +4,7 @@ id: p_gV1Lmkd9EYE2FeiMoi3R3k
 status: active
 merged_into: null
 display_name: 王紹華
+cbdb_id: 415233
 revision: 1
 properties:
   - predicate: bio.summary

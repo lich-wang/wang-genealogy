@@ -4,6 +4,7 @@ id: p_YiBgGPYCKE2g174nd8cxWF
 status: active
 merged_into: null
 display_name: 王汝綬
+cbdb_id: 414976
 revision: 1
 properties:
   - predicate: bio.summary

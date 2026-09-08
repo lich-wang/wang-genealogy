@@ -4,6 +4,7 @@ id: p_LhDftPTdBSJ1CGALBq6bm6
 status: active
 merged_into: null
 display_name: 王铭
+cbdb_id: 222284
 revision: 2
 properties:
   - predicate: bio.summary

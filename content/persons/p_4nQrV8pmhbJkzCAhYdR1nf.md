@@ -4,6 +4,7 @@ id: p_4nQrV8pmhbJkzCAhYdR1nf
 status: active
 merged_into: null
 display_name: 王煥功
+cbdb_id: 415079
 revision: 1
 properties:
   - predicate: bio.summary

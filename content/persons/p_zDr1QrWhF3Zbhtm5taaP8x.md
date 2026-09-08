@@ -4,6 +4,7 @@ id: p_zDr1QrWhF3Zbhtm5taaP8x
 status: active
 merged_into: null
 display_name: 王聘珍
+cbdb_id: 69389
 revision: 1
 properties:
   - predicate: bio.summary

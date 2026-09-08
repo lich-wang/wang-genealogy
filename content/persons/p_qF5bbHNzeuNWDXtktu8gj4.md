@@ -4,6 +4,7 @@ id: p_qF5bbHNzeuNWDXtktu8gj4
 status: active
 merged_into: null
 display_name: 王仲景
+cbdb_id: 121863
 revision: 1
 properties:
   - predicate: bio.summary

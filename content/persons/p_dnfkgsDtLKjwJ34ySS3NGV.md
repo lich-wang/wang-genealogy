@@ -4,6 +4,7 @@ id: p_dnfkgsDtLKjwJ34ySS3NGV
 status: active
 merged_into: null
 display_name: 王士则
+cbdb_id: 196170
 revision: 1
 properties:
   - predicate: name.primary

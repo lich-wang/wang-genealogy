@@ -4,6 +4,7 @@ id: p_LRYFh3EVivQ4txPh8VKaoH
 status: active
 merged_into: null
 display_name: 王問賢
+cbdb_id: 414064
 revision: 1
 properties:
   - predicate: bio.summary

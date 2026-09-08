@@ -4,6 +4,7 @@ id: p_Y9xi5GPdWUoNBPYmwpa5vm
 status: active
 merged_into: null
 display_name: 王庚官
+cbdb_id: 514425
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_KiUEA45h33uB1nFv7xg6Fq
 status: active
 merged_into: null
 display_name: 王瑩中
+cbdb_id: 343942
 revision: 1
 properties:
   - predicate: bio.summary

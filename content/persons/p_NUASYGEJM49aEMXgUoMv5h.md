@@ -4,6 +4,7 @@ id: p_NUASYGEJM49aEMXgUoMv5h
 status: active
 merged_into: null
 display_name: 王繼儔
+cbdb_id: 415268
 revision: 1
 properties:
   - predicate: bio.summary

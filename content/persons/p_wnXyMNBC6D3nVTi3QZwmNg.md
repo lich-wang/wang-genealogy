@@ -4,6 +4,7 @@ id: p_wnXyMNBC6D3nVTi3QZwmNg
 status: active
 merged_into: null
 display_name: 王經濱
+cbdb_id: 415240
 revision: 1
 properties:
   - predicate: bio.summary

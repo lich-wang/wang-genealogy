@@ -4,6 +4,7 @@ id: p_6FsKAwdC5GTwi4pEzPo5fD
 status: active
 merged_into: null
 display_name: 王占得
+cbdb_id: 69143
 revision: 1
 properties:
   - predicate: bio.summary

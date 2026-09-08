@@ -4,6 +4,7 @@ id: p_H98GekL49GgpYeKf4B8Yds
 status: active
 merged_into: null
 display_name: 王昭俊
+cbdb_id: 195154
 revision: 1
 properties:
   - predicate: bio.summary

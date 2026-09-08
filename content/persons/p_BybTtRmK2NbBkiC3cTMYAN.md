@@ -4,6 +4,7 @@ id: p_BybTtRmK2NbBkiC3cTMYAN
 status: active
 merged_into: null
 display_name: 王謹微
+cbdb_id: 72137
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_Tny9SKkyGtwef2Wt6g95gy
 status: active
 merged_into: null
 display_name: 王鈵紳
+cbdb_id: 343771
 revision: 1
 properties:
   - predicate: bio.summary

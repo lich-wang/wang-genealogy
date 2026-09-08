@@ -4,6 +4,7 @@ id: p_rZKeoziqhpQbtQiPHqWJ79
 status: active
 merged_into: null
 display_name: 王志望
+cbdb_id: 235163
 revision: 1
 properties:
   - predicate: bio.summary

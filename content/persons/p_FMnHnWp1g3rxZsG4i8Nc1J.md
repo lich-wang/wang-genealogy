@@ -4,6 +4,7 @@ id: p_FMnHnWp1g3rxZsG4i8Nc1J
 status: active
 merged_into: null
 display_name: 王庚華
+cbdb_id: 414431
 revision: 1
 properties:
   - predicate: bio.summary

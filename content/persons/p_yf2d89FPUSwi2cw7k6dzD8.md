@@ -4,6 +4,7 @@ id: p_yf2d89FPUSwi2cw7k6dzD8
 status: active
 merged_into: null
 display_name: 王君賜
+cbdb_id: 325024
 revision: 1
 properties:
   - predicate: bio.summary

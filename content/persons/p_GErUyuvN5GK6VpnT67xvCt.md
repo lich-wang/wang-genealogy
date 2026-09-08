@@ -4,6 +4,7 @@ id: p_GErUyuvN5GK6VpnT67xvCt
 status: active
 merged_into: null
 display_name: 王成輔
+cbdb_id: 414676
 revision: 1
 properties:
   - predicate: bio.summary

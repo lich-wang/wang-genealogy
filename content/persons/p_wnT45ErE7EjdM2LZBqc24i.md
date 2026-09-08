@@ -4,6 +4,7 @@ id: p_wnT45ErE7EjdM2LZBqc24i
 status: active
 merged_into: null
 display_name: 王懷素
+cbdb_id: 149249
 revision: 1
 properties:
   - predicate: bio.summary

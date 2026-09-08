@@ -4,6 +4,7 @@ id: p_nZRGhhZnG5QsX19dUjvZjo
 status: active
 merged_into: null
 display_name: 王寓
+cbdb_id: 30874
 revision: 1
 properties:
   - predicate: bio.summary

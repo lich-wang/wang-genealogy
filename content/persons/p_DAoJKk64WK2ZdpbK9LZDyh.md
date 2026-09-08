@@ -4,6 +4,7 @@ id: p_DAoJKk64WK2ZdpbK9LZDyh
 status: active
 merged_into: null
 display_name: 王弘詔
+cbdb_id: 331181
 revision: 1
 properties:
   - predicate: bio.summary

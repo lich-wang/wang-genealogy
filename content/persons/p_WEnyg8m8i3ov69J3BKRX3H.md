@@ -4,6 +4,7 @@ id: p_WEnyg8m8i3ov69J3BKRX3H
 status: active
 merged_into: null
 display_name: 王守恩
+cbdb_id: 463663
 revision: 1
 properties:
   - predicate: bio.summary

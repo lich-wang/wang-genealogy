@@ -4,6 +4,7 @@ id: p_7HDUGrPmTsmTb1WQPtMVmc
 status: active
 merged_into: null
 display_name: 王士敬
+cbdb_id: 101034
 revision: 1
 properties:
   - predicate: bio.summary

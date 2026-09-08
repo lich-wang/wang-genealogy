@@ -4,6 +4,7 @@ id: p_GoX1HcvR89FQWuj4HX6FjJ
 status: active
 merged_into: null
 display_name: 王郁蘭
+cbdb_id: 120984
 revision: 1
 properties:
   - predicate: bio.summary

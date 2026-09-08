@@ -4,6 +4,7 @@ id: p_jHkSQh9iXjtoxDPUczWRbn
 status: active
 merged_into: null
 display_name: 王损
+cbdb_id: 175552
 revision: 1
 properties:
   - predicate: bio.summary

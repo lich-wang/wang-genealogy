@@ -4,6 +4,7 @@ id: p_hb1chaQQ5nNJHx6CneR37f
 status: active
 merged_into: null
 display_name: 王世伦
+cbdb_id: 22201
 revision: 1
 properties:
   - predicate: bio.summary

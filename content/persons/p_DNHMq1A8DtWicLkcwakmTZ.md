@@ -4,6 +4,7 @@ id: p_DNHMq1A8DtWicLkcwakmTZ
 status: active
 merged_into: null
 display_name: 王文在
+cbdb_id: 61611
 revision: 1
 properties:
   - predicate: bio.summary

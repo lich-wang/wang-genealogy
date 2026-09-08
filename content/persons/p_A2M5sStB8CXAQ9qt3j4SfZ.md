@@ -4,6 +4,7 @@ id: p_A2M5sStB8CXAQ9qt3j4SfZ
 status: active
 merged_into: null
 display_name: 王朝英
+cbdb_id: 414849
 revision: 1
 properties:
   - predicate: bio.summary

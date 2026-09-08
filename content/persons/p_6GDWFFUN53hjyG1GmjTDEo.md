@@ -4,6 +4,7 @@ id: p_6GDWFFUN53hjyG1GmjTDEo
 status: active
 merged_into: null
 display_name: 王長鈞
+cbdb_id: 22017
 revision: 1
 properties:
   - predicate: bio.summary

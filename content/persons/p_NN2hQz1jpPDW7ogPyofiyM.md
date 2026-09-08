@@ -4,6 +4,7 @@ id: p_NN2hQz1jpPDW7ogPyofiyM
 status: active
 merged_into: null
 display_name: 王一科
+cbdb_id: 213984
 revision: 1
 properties:
   - predicate: bio.summary

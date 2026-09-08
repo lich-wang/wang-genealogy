@@ -4,6 +4,7 @@ id: p_dQQbfPQ3mtSoCiBSLQNr5R
 status: active
 merged_into: null
 display_name: 王士軾
+cbdb_id: 414177
 revision: 1
 properties:
   - predicate: bio.summary

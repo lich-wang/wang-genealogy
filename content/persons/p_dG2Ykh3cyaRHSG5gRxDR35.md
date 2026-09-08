@@ -4,6 +4,7 @@ id: p_dG2Ykh3cyaRHSG5gRxDR35
 status: active
 merged_into: null
 display_name: 王道秀
+cbdb_id: 163840
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_WoHPyBYM3zwkiMMq8Yo5SM
 status: active
 merged_into: null
 display_name: 王若霖
+cbdb_id: 291018
 revision: 1
 properties:
   - predicate: bio.summary

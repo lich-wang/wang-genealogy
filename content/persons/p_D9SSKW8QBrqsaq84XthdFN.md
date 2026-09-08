@@ -4,6 +4,7 @@ id: p_D9SSKW8QBrqsaq84XthdFN
 status: active
 merged_into: null
 display_name: 王建善
+cbdb_id: 342004
 revision: 1
 properties:
   - predicate: bio.summary

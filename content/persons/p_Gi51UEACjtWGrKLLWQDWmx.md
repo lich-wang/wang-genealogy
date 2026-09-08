@@ -4,6 +4,7 @@ id: p_Gi51UEACjtWGrKLLWQDWmx
 status: active
 merged_into: null
 display_name: 王紹芬
+cbdb_id: 442721
 revision: 1
 properties:
   - predicate: bio.summary

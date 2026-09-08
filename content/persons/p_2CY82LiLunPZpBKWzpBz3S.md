@@ -4,6 +4,7 @@ id: p_2CY82LiLunPZpBKWzpBz3S
 status: active
 merged_into: null
 display_name: 王倬
+cbdb_id: 126663
 revision: 1
 properties:
   - predicate: bio.summary

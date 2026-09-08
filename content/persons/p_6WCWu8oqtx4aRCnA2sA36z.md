@@ -4,6 +4,7 @@ id: p_6WCWu8oqtx4aRCnA2sA36z
 status: active
 merged_into: null
 display_name: 王宗魯
+cbdb_id: 414316
 revision: 1
 properties:
   - predicate: bio.summary

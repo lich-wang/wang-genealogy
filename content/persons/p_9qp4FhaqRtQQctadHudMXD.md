@@ -4,6 +4,7 @@ id: p_9qp4FhaqRtQQctadHudMXD
 status: active
 merged_into: null
 display_name: 王來碩
+cbdb_id: 413870
 revision: 1
 properties:
   - predicate: bio.summary

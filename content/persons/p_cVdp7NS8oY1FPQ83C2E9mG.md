@@ -4,6 +4,7 @@ id: p_cVdp7NS8oY1FPQ83C2E9mG
 status: active
 merged_into: null
 display_name: 王六謙
+cbdb_id: 71421
 revision: 1
 properties:
   - predicate: bio.summary

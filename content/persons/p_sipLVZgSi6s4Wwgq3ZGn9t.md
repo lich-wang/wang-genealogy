@@ -4,6 +4,7 @@ id: p_sipLVZgSi6s4Wwgq3ZGn9t
 status: active
 merged_into: null
 display_name: 王仁治
+cbdb_id: 413803
 revision: 1
 properties:
   - predicate: bio.summary

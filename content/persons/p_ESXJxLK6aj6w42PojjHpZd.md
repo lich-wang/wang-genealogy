@@ -4,6 +4,7 @@ id: p_ESXJxLK6aj6w42PojjHpZd
 status: active
 merged_into: null
 display_name: 王汝旦
+cbdb_id: 414968
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_AKmLmij99A1H4M4Y8UPbBu
 status: active
 merged_into: null
 display_name: 王家遴
+cbdb_id: 414353
 revision: 1
 properties:
   - predicate: bio.summary

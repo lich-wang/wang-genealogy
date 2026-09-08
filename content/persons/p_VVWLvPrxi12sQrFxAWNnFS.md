@@ -4,6 +4,7 @@ id: p_VVWLvPrxi12sQrFxAWNnFS
 status: active
 merged_into: null
 display_name: 王魏勝
+cbdb_id: 72219
 revision: 1
 properties:
   - predicate: bio.summary

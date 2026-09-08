@@ -4,6 +4,7 @@ id: p_vG8PQBwfZ9HjqfNa8GhzNJ
 status: active
 merged_into: null
 display_name: 王作璧
+cbdb_id: 234994
 revision: 1
 properties:
   - predicate: bio.summary

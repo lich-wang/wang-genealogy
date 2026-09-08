@@ -4,6 +4,7 @@ id: p_1K7R9dopP5VHZe2zi4Egi3
 status: active
 merged_into: null
 display_name: 王蘭新
+cbdb_id: 343109
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_39GvdpgmfJ6WNqFacLWaGh
 status: active
 merged_into: null
 display_name: 王巨孝
+cbdb_id: 69136
 revision: 1
 properties:
   - predicate: bio.summary

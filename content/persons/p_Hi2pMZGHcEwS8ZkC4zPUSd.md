@@ -4,6 +4,7 @@ id: p_Hi2pMZGHcEwS8ZkC4zPUSd
 status: active
 merged_into: null
 display_name: 王待價
+cbdb_id: 22171
 revision: 1
 properties:
   - predicate: bio.summary

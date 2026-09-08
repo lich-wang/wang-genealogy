@@ -4,6 +4,7 @@ id: p_LDBJsV41sHuXhsNh6h9oMK
 status: active
 merged_into: null
 display_name: 王希伊
+cbdb_id: 69221
 revision: 1
 properties:
   - predicate: bio.summary

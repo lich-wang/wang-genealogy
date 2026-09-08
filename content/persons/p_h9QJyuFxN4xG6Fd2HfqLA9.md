@@ -4,6 +4,7 @@ id: p_h9QJyuFxN4xG6Fd2HfqLA9
 status: active
 merged_into: null
 display_name: 王貴省
+cbdb_id: 343358
 revision: 1
 properties:
   - predicate: bio.summary

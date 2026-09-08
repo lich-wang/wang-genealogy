@@ -4,6 +4,7 @@ id: p_quVbW5wRL2Mwgsf9EGRmqu
 status: active
 merged_into: null
 display_name: 王箴本
+cbdb_id: 517420
 revision: 1
 properties:
   - predicate: bio.summary

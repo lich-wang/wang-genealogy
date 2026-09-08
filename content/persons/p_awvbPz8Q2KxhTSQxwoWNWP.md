@@ -4,6 +4,7 @@ id: p_awvbPz8Q2KxhTSQxwoWNWP
 status: active
 merged_into: null
 display_name: 王文超
+cbdb_id: 143400
 revision: 1
 properties:
   - predicate: bio.summary

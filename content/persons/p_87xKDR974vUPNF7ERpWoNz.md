@@ -4,6 +4,7 @@ id: p_87xKDR974vUPNF7ERpWoNz
 status: active
 merged_into: null
 display_name: 王孝本
+cbdb_id: 414251
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_jEVGyCWdr9id3tdCNr1hgE
 status: active
 merged_into: null
 display_name: 王谷平
+cbdb_id: 322372
 revision: 1
 properties:
   - predicate: bio.summary

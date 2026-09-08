@@ -4,6 +4,7 @@ id: p_Ht8zc6W727GPoey5XfEVrw
 status: active
 merged_into: null
 display_name: 王宜勒
+cbdb_id: 517382
 revision: 1
 properties:
   - predicate: bio.summary

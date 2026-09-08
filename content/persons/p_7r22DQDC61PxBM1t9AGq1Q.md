@@ -4,6 +4,7 @@ id: p_7r22DQDC61PxBM1t9AGq1Q
 status: active
 merged_into: null
 display_name: 王資深
+cbdb_id: 38199
 revision: 1
 properties:
   - predicate: bio.summary

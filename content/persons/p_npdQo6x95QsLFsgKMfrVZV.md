@@ -4,6 +4,7 @@ id: p_npdQo6x95QsLFsgKMfrVZV
 status: active
 merged_into: null
 display_name: 王蔭昌
+cbdb_id: 71848
 revision: 1
 properties:
   - predicate: bio.summary

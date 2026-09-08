@@ -4,6 +4,7 @@ id: p_16H8ppABGGE2m7ovxS7BoG
 status: active
 merged_into: null
 display_name: 王汝妥
+cbdb_id: 414963
 revision: 1
 properties:
   - predicate: bio.summary

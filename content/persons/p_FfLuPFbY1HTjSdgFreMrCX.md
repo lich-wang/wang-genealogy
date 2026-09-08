@@ -4,6 +4,7 @@ id: p_FfLuPFbY1HTjSdgFreMrCX
 status: active
 merged_into: null
 display_name: 王之尹
+cbdb_id: 413746
 revision: 1
 properties:
   - predicate: bio.summary

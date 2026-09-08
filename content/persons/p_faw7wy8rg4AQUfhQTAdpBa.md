@@ -4,6 +4,7 @@ id: p_faw7wy8rg4AQUfhQTAdpBa
 status: active
 merged_into: null
 display_name: 王九清
+cbdb_id: 413778
 revision: 1
 properties:
   - predicate: bio.summary

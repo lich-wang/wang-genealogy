@@ -4,6 +4,7 @@ id: p_57n6iXQPA9eJ7NL5fQNjQU
 status: active
 merged_into: null
 display_name: 王仲義
+cbdb_id: 281883
 revision: 1
 properties:
   - predicate: bio.summary

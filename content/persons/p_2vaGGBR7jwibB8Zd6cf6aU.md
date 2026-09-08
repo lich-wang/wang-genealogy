@@ -4,6 +4,7 @@ id: p_2vaGGBR7jwibB8Zd6cf6aU
 status: active
 merged_into: null
 display_name: 王猛略
+cbdb_id: 147772
 revision: 1
 properties:
   - predicate: bio.summary

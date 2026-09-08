@@ -4,6 +4,7 @@ id: p_tUUJLRTLozjhgRk2GuHbbu
 status: active
 merged_into: null
 display_name: 王尚瑀
+cbdb_id: 294710
 revision: 1
 properties:
   - predicate: bio.summary

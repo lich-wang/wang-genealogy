@@ -4,6 +4,7 @@ id: p_RQeyyQ8v759GU56Ye8JJst
 status: active
 merged_into: null
 display_name: 王崇冠
+cbdb_id: 202901
 revision: 1
 properties:
   - predicate: bio.summary

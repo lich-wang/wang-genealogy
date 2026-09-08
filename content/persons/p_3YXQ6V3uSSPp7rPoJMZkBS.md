@@ -4,6 +4,7 @@ id: p_3YXQ6V3uSSPp7rPoJMZkBS
 status: active
 merged_into: null
 display_name: 王志徳
+cbdb_id: 414573
 revision: 1
 properties:
   - predicate: bio.summary

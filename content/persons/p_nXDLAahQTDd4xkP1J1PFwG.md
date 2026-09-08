@@ -4,6 +4,7 @@ id: p_nXDLAahQTDd4xkP1J1PFwG
 status: active
 merged_into: null
 display_name: 王養元
+cbdb_id: 415610
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_6f2299M3mLffa8gC5Pa17w
 status: active
 merged_into: null
 display_name: 王德宜
+cbdb_id: 54318
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_1d6hWDkBdUF6ggvZbGWQ8Q
 status: active
 merged_into: null
 display_name: 王國元
+cbdb_id: 343427
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_YeDuBRffhPgU4my3fpH9gW
 status: active
 merged_into: null
 display_name: 王鼎
+cbdb_id: 1895
 revision: 1
 properties:
   - predicate: bio.summary

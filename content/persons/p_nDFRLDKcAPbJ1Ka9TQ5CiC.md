@@ -4,6 +4,7 @@ id: p_nDFRLDKcAPbJ1Ka9TQ5CiC
 status: active
 merged_into: null
 display_name: 王寶倫
+cbdb_id: 155121
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_8ML7eWKKE1dKR3KNGDrXGi
 status: active
 merged_into: null
 display_name: 王朋臣
+cbdb_id: 235994
 revision: 1
 properties:
   - predicate: bio.summary

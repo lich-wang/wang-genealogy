@@ -4,6 +4,7 @@ id: p_619K4j5NFu81iZ5RKk45QF
 status: active
 merged_into: null
 display_name: 王丕業
+cbdb_id: 413699
 revision: 1
 properties:
   - predicate: bio.summary

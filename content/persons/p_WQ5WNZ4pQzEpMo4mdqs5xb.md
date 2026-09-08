@@ -4,6 +4,7 @@ id: p_WQ5WNZ4pQzEpMo4mdqs5xb
 status: active
 merged_into: null
 display_name: 柳氏
+cbdb_id: 444926
 revision: 1
 properties:
   - predicate: bio.summary

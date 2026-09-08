@@ -4,6 +4,7 @@ id: p_pGwtpQB21LaLNysEJuYZ4Q
 status: active
 merged_into: null
 display_name: 王啟岱
+cbdb_id: 414079
 revision: 1
 properties:
   - predicate: bio.summary

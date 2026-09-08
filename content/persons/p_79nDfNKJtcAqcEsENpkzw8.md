@@ -4,6 +4,7 @@ id: p_79nDfNKJtcAqcEsENpkzw8
 status: active
 merged_into: null
 display_name: 王明池
+cbdb_id: 414782
 revision: 1
 properties:
   - predicate: bio.summary

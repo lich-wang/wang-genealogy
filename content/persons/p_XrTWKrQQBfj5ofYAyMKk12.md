@@ -4,6 +4,7 @@ id: p_XrTWKrQQBfj5ofYAyMKk12
 status: active
 merged_into: null
 display_name: 王垂拱
+cbdb_id: 698404
 revision: 1
 properties:
   - predicate: bio.summary

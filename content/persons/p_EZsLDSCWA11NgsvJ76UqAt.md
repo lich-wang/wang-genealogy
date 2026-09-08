@@ -4,6 +4,7 @@ id: p_EZsLDSCWA11NgsvJ76UqAt
 status: active
 merged_into: null
 display_name: 王孟晚
+cbdb_id: 228580
 revision: 1
 properties:
   - predicate: bio.summary

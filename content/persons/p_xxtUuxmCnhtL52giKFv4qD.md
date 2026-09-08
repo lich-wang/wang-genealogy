@@ -4,6 +4,7 @@ id: p_xxtUuxmCnhtL52giKFv4qD
 status: active
 merged_into: null
 display_name: 王國朋
+cbdb_id: 414121
 revision: 1
 properties:
   - predicate: bio.summary

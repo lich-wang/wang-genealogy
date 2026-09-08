@@ -4,6 +4,7 @@ id: p_oa5Pt8TiMJKHKJwHnWUHn5
 status: active
 merged_into: null
 display_name: 王應同
+cbdb_id: 414636
 revision: 1
 properties:
   - predicate: bio.summary

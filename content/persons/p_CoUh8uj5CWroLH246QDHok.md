@@ -4,6 +4,7 @@ id: p_CoUh8uj5CWroLH246QDHok
 status: active
 merged_into: null
 display_name: 王而縉
+cbdb_id: 232799
 revision: 1
 properties:
   - predicate: bio.summary

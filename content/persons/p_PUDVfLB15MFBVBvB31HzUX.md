@@ -4,6 +4,7 @@ id: p_PUDVfLB15MFBVBvB31HzUX
 status: active
 merged_into: null
 display_name: 王錫疇
+cbdb_id: 120511
 revision: 1
 properties:
   - predicate: bio.summary

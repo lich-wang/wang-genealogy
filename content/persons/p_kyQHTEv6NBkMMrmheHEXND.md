@@ -4,6 +4,7 @@ id: p_kyQHTEv6NBkMMrmheHEXND
 status: active
 merged_into: null
 display_name: 王繩祖
+cbdb_id: 415265
 revision: 1
 properties:
   - predicate: bio.summary

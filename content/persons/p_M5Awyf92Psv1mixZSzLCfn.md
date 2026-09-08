@@ -4,6 +4,7 @@ id: p_M5Awyf92Psv1mixZSzLCfn
 status: active
 merged_into: null
 display_name: 王昭諭
+cbdb_id: 414789
 revision: 1
 properties:
   - predicate: bio.summary

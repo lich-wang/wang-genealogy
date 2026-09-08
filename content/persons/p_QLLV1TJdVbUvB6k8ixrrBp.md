@@ -4,6 +4,7 @@ id: p_QLLV1TJdVbUvB6k8ixrrBp
 status: active
 merged_into: null
 display_name: 王延聚
+cbdb_id: 333665
 revision: 1
 properties:
   - predicate: bio.summary

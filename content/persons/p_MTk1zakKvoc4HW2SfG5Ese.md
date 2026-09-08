@@ -4,6 +4,7 @@ id: p_MTk1zakKvoc4HW2SfG5Ese
 status: active
 merged_into: null
 display_name: 王渎
+cbdb_id: 3986
 revision: 2
 properties:
   - predicate: bio.summary

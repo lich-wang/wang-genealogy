@@ -4,6 +4,7 @@ id: p_5v5TTV5Tt66u1aqqmSDQhd
 status: active
 merged_into: null
 display_name: 王仲問
+cbdb_id: 413834
 revision: 1
 properties:
   - predicate: bio.summary

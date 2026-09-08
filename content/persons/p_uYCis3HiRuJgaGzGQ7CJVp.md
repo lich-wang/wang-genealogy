@@ -4,6 +4,7 @@ id: p_uYCis3HiRuJgaGzGQ7CJVp
 status: active
 merged_into: null
 display_name: 王化泰
+cbdb_id: 69093
 revision: 1
 properties:
   - predicate: bio.summary

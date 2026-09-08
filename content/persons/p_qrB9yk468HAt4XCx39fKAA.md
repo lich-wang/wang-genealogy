@@ -4,6 +4,7 @@ id: p_qrB9yk468HAt4XCx39fKAA
 status: active
 merged_into: null
 display_name: 王伯靈
+cbdb_id: 524722
 revision: 1
 properties:
   - predicate: bio.summary

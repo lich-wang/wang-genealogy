@@ -4,6 +4,7 @@ id: p_okg9A8tE1fuAD5wCQZkWM2
 status: active
 merged_into: null
 display_name: 王作亮
+cbdb_id: 513976
 revision: 1
 properties:
   - predicate: bio.summary

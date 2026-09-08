@@ -4,6 +4,7 @@ id: p_i7xPdYNXrWfTp18yHuCiTX
 status: active
 merged_into: null
 display_name: 王士達
+cbdb_id: 70369
 revision: 1
 properties:
   - predicate: bio.summary

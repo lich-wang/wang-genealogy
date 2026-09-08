@@ -4,6 +4,7 @@ id: p_RD747J84MXs5gfUaNwubrZ
 status: active
 merged_into: null
 display_name: 王世敬
+cbdb_id: 413714
 revision: 1
 properties:
   - predicate: bio.summary

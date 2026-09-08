@@ -4,6 +4,7 @@ id: p_tCWTokfmwcHpjKwS77qQe7
 status: active
 merged_into: null
 display_name: 王元輝
+cbdb_id: 413918
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_B69cKyKFhqtXABhNQM9smr
 status: active
 merged_into: null
 display_name: 王孫章
+cbdb_id: 60769
 revision: 1
 properties:
   - predicate: bio.summary

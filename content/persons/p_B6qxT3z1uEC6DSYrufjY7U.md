@@ -4,6 +4,7 @@ id: p_B6qxT3z1uEC6DSYrufjY7U
 status: active
 merged_into: null
 display_name: 王胤第
+cbdb_id: 227304
 revision: 1
 properties:
   - predicate: bio.summary

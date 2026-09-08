@@ -4,6 +4,7 @@ id: p_iJs6W69jNCQoBGLGAKerbc
 status: active
 merged_into: null
 display_name: 王瞻祖
+cbdb_id: 343543
 revision: 1
 properties:
   - predicate: bio.summary

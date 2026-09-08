@@ -4,6 +4,7 @@ id: p_XJMxVKmn39AdU4iXHzn6VQ
 status: active
 merged_into: null
 display_name: 王榮壯
+cbdb_id: 414887
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_SgbtLUiVjVqER9dxfLoZgG
 status: active
 merged_into: null
 display_name: 王仰參
+cbdb_id: 413831
 revision: 1
 properties:
   - predicate: bio.summary

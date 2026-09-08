@@ -4,6 +4,7 @@ id: p_kmpABikpWftaJACcFD3yJ1
 status: active
 merged_into: null
 display_name: 王繼德
+cbdb_id: 327528
 revision: 1
 properties:
   - predicate: bio.summary

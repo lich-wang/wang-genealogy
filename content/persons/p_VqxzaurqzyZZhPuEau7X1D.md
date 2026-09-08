@@ -4,6 +4,7 @@ id: p_VqxzaurqzyZZhPuEau7X1D
 status: active
 merged_into: null
 display_name: 王雋孚
+cbdb_id: 22255
 revision: 1
 properties:
   - predicate: bio.summary

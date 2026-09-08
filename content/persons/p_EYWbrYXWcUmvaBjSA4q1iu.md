@@ -4,6 +4,7 @@ id: p_EYWbrYXWcUmvaBjSA4q1iu
 status: active
 merged_into: null
 display_name: 王厚孫
+cbdb_id: 19884
 revision: 1
 properties:
   - predicate: bio.summary

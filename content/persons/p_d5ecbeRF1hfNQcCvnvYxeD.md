@@ -4,6 +4,7 @@ id: p_d5ecbeRF1hfNQcCvnvYxeD
 status: active
 merged_into: null
 display_name: 王肯構
+cbdb_id: 342169
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_tWvLcyqPqfcv2k5sniX1uV
 status: active
 merged_into: null
 display_name: 王玄起
+cbdb_id: 140444
 revision: 1
 properties:
   - predicate: bio.summary

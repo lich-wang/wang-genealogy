@@ -4,6 +4,7 @@ id: p_A3htMyYv1SZdF7d9GnU5GW
 status: active
 merged_into: null
 display_name: 王德集
+cbdb_id: 322371
 revision: 1
 properties:
   - predicate: bio.summary

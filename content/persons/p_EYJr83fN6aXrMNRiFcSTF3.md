@@ -4,6 +4,7 @@ id: p_EYJr83fN6aXrMNRiFcSTF3
 status: active
 merged_into: null
 display_name: 王倖
+cbdb_id: 298826
 revision: 1
 properties:
   - predicate: bio.summary

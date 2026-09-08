@@ -4,6 +4,7 @@ id: p_LoLutNbt7u1P4iCzWsAGdH
 status: active
 merged_into: null
 display_name: 王侶塞
+cbdb_id: 66357
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_9DbP9s44CVp9nrc6LZn6Nq
 status: active
 merged_into: null
 display_name: 王定昌
+cbdb_id: 414326
 revision: 1
 properties:
   - predicate: bio.summary

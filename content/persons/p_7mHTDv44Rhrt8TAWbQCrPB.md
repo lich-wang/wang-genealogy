@@ -4,6 +4,7 @@ id: p_7mHTDv44Rhrt8TAWbQCrPB
 status: active
 merged_into: null
 display_name: 王一卿
+cbdb_id: 298428
 revision: 1
 properties:
   - predicate: bio.summary

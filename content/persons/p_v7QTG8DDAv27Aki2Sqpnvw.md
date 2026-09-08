@@ -4,6 +4,7 @@ id: p_v7QTG8DDAv27Aki2Sqpnvw
 status: active
 merged_into: null
 display_name: 王問卿
+cbdb_id: 206092
 revision: 1
 properties:
   - predicate: bio.summary

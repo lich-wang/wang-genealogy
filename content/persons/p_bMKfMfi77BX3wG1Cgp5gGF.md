@@ -4,6 +4,7 @@ id: p_bMKfMfi77BX3wG1Cgp5gGF
 status: active
 merged_into: null
 display_name: 王滄亭
+cbdb_id: 511623
 revision: 1
 properties:
   - predicate: bio.summary

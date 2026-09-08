@@ -4,6 +4,7 @@ id: p_6xFVTS2jSAp8f3hb2TEhxb
 status: active
 merged_into: null
 display_name: 王鳳昌
+cbdb_id: 71417
 revision: 1
 properties:
   - predicate: bio.summary

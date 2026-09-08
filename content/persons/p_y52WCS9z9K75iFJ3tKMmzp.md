@@ -4,6 +4,7 @@ id: p_y52WCS9z9K75iFJ3tKMmzp
 status: active
 merged_into: null
 display_name: 王兆漁
+cbdb_id: 118030
 revision: 1
 properties:
   - predicate: bio.summary

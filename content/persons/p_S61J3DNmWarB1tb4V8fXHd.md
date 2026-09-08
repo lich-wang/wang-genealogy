@@ -4,6 +4,7 @@ id: p_S61J3DNmWarB1tb4V8fXHd
 status: active
 merged_into: null
 display_name: 王累仁
+cbdb_id: 221773
 revision: 1
 properties:
   - predicate: bio.summary

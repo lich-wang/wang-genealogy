@@ -4,6 +4,7 @@ id: p_67rWeKsiUBFaSDE7KsmxXj
 status: active
 merged_into: null
 display_name: 王邦乂
+cbdb_id: 27276
 revision: 1
 properties:
   - predicate: bio.summary

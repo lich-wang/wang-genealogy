@@ -4,6 +4,7 @@ id: p_eFFZHoBfpZVRHyhJs9tNKY
 status: active
 merged_into: null
 display_name: 王玄亮
+cbdb_id: 148738
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_p4knG9GMBQT3w6MAsJF9S5
 status: active
 merged_into: null
 display_name: 王為俊
+cbdb_id: 342704
 revision: 1
 properties:
   - predicate: bio.summary

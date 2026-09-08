@@ -4,6 +4,7 @@ id: p_1sCPD5dNNhHvwXEHFRUt3m
 status: active
 merged_into: null
 display_name: 王英明
+cbdb_id: 126613
 revision: 1
 properties:
   - predicate: bio.summary

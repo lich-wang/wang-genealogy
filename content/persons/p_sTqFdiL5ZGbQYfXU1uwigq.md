@@ -4,6 +4,7 @@ id: p_sTqFdiL5ZGbQYfXU1uwigq
 status: active
 merged_into: null
 display_name: 王時來
+cbdb_id: 414791
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_543sqZae6wghudWNrTBs92
 status: active
 merged_into: null
 display_name: 王樂山
+cbdb_id: 244145
 revision: 1
 properties:
   - predicate: bio.summary

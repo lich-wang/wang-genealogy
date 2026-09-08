@@ -4,6 +4,7 @@ id: p_Ji6uf48BPmwCS3ik42iRg6
 status: active
 merged_into: null
 display_name: 王氏
+cbdb_id: 228811
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_XXKnMfEmABEqcMJJi5dAP6
 status: active
 merged_into: null
 display_name: 王如在
+cbdb_id: 226070
 revision: 1
 properties:
   - predicate: bio.summary

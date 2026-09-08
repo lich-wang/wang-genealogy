@@ -4,6 +4,7 @@ id: p_7YL746p8uFHqgHSN29Dj5W
 status: active
 merged_into: null
 display_name: 王光朝
+cbdb_id: 101154
 revision: 1
 properties:
   - predicate: bio.summary

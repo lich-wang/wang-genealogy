@@ -4,6 +4,7 @@ id: p_Y65WFXbr4oXLiVv3P4oN1a
 status: active
 merged_into: null
 display_name: 王榮忠
+cbdb_id: 101399
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_9R66DKoMEdwQumF8nzUQx3
 status: active
 merged_into: null
 display_name: 王遜夫
+cbdb_id: 415504
 revision: 1
 properties:
   - predicate: bio.summary

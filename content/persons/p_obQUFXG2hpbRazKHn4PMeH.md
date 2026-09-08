@@ -4,6 +4,7 @@ id: p_obQUFXG2hpbRazKHn4PMeH
 status: active
 merged_into: null
 display_name: 王務光
+cbdb_id: 164198
 revision: 1
 properties:
   - predicate: bio.summary

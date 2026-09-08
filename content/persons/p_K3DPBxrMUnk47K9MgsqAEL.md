@@ -4,6 +4,7 @@ id: p_K3DPBxrMUnk47K9MgsqAEL
 status: active
 merged_into: null
 display_name: 王禧翁
+cbdb_id: 101453
 revision: 1
 properties:
   - predicate: bio.summary

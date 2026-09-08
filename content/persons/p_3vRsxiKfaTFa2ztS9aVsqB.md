@@ -4,6 +4,7 @@ id: p_3vRsxiKfaTFa2ztS9aVsqB
 status: active
 merged_into: null
 display_name: 王惟新
+cbdb_id: 238376
 revision: 1
 properties:
   - predicate: bio.summary

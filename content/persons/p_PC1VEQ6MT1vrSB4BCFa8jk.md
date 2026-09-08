@@ -4,6 +4,7 @@ id: p_PC1VEQ6MT1vrSB4BCFa8jk
 status: active
 merged_into: null
 display_name: 王恭人
+cbdb_id: 29896
 revision: 2
 properties:
   - predicate: bio.summary

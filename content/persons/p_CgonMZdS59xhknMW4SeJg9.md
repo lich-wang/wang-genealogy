@@ -4,6 +4,7 @@ id: p_CgonMZdS59xhknMW4SeJg9
 status: active
 merged_into: null
 display_name: 王公述
+cbdb_id: 97813
 revision: 1
 properties:
   - predicate: bio.summary

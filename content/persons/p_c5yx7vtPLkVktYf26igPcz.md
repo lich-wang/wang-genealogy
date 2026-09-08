@@ -4,6 +4,7 @@ id: p_c5yx7vtPLkVktYf26igPcz
 status: active
 merged_into: null
 display_name: 王國彥
+cbdb_id: 343425
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_hrkwssAjZWAEjjKCiBfoB5
 status: active
 merged_into: null
 display_name: 王耆奧
+cbdb_id: 690346
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_xJDNpnsNADNBXU5rjjwf2U
 status: active
 merged_into: null
 display_name: 王端臣
+cbdb_id: 1906
 revision: 1
 properties:
   - predicate: bio.summary

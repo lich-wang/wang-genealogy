@@ -4,6 +4,7 @@ id: p_7bSSxAxSSQe2oUuGLPmUxk
 status: active
 merged_into: null
 display_name: 王田穎
+cbdb_id: 343472
 revision: 1
 properties:
   - predicate: bio.summary

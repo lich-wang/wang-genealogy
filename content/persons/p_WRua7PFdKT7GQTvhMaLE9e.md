@@ -4,6 +4,7 @@ id: p_WRua7PFdKT7GQTvhMaLE9e
 status: active
 merged_into: null
 display_name: 王國望
+cbdb_id: 38124
 revision: 1
 properties:
   - predicate: bio.summary

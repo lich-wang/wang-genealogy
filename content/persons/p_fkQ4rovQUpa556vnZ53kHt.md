@@ -4,6 +4,7 @@ id: p_fkQ4rovQUpa556vnZ53kHt
 status: active
 merged_into: null
 display_name: 王堯峰
+cbdb_id: 120917
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_CfBg4EkiVZYyTKeny1Eajm
 status: active
 merged_into: null
 display_name: 王元節
+cbdb_id: 28880
 revision: 1
 properties:
   - predicate: bio.summary

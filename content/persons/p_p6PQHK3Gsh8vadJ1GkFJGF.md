@@ -4,6 +4,7 @@ id: p_p6PQHK3Gsh8vadJ1GkFJGF
 status: active
 merged_into: null
 display_name: 王問仁
+cbdb_id: 329116
 revision: 1
 properties:
   - predicate: bio.summary

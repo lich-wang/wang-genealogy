@@ -4,6 +4,7 @@ id: p_9Qv4fnxmNanZo1jw1xR9XD
 status: active
 merged_into: null
 display_name: 王好生
+cbdb_id: 10130
 revision: 1
 properties:
   - predicate: bio.summary

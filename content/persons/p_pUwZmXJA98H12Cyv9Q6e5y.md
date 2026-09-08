@@ -4,6 +4,7 @@ id: p_pUwZmXJA98H12Cyv9Q6e5y
 status: active
 merged_into: null
 display_name: 王時柯
+cbdb_id: 68118
 revision: 1
 properties:
   - predicate: bio.summary

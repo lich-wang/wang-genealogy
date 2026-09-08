@@ -4,6 +4,7 @@ id: p_1jcRr27ZZeubBmW943XmGF
 status: active
 merged_into: null
 display_name: 王懋竑
+cbdb_id: 35054
 revision: 1
 properties:
   - predicate: bio.summary

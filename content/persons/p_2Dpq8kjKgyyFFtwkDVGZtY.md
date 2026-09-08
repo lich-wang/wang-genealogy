@@ -4,6 +4,7 @@ id: p_2Dpq8kjKgyyFFtwkDVGZtY
 status: active
 merged_into: null
 display_name: 王汝愚
+cbdb_id: 334087
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_22pKaN2zYM6QeEkJYpHwdk
 status: active
 merged_into: null
 display_name: 王國璉
+cbdb_id: 71754
 revision: 1
 properties:
   - predicate: bio.summary

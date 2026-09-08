@@ -4,6 +4,7 @@ id: p_6AQicbmKRasFFvvqCXfVxU
 status: active
 merged_into: null
 display_name: 王潭
+cbdb_id: 97950
 revision: 1
 properties:
   - predicate: bio.summary

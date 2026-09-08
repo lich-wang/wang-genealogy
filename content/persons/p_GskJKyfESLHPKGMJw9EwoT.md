@@ -4,6 +4,7 @@ id: p_GskJKyfESLHPKGMJw9EwoT
 status: active
 merged_into: null
 display_name: 王文凱
+cbdb_id: 327379
 revision: 1
 properties:
   - predicate: bio.summary

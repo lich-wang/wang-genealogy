@@ -4,6 +4,7 @@ id: p_quhTQJ7o7xEQK4hH9TnNRe
 status: active
 merged_into: null
 display_name: 王若遇
+cbdb_id: 415345
 revision: 1
 properties:
   - predicate: bio.summary

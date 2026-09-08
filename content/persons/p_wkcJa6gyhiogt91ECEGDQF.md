@@ -4,6 +4,7 @@ id: p_wkcJa6gyhiogt91ECEGDQF
 status: active
 merged_into: null
 display_name: 王濱叟
+cbdb_id: 36455
 revision: 1
 properties:
   - predicate: bio.summary

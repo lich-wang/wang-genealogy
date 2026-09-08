@@ -4,6 +4,7 @@ id: p_2y6d8Z4nicvSAG555PEzMF
 status: active
 merged_into: null
 display_name: 王守澄
+cbdb_id: 196063
 revision: 1
 properties:
   - predicate: bio.summary

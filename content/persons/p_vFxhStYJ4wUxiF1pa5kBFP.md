@@ -4,6 +4,7 @@ id: p_vFxhStYJ4wUxiF1pa5kBFP
 status: active
 merged_into: null
 display_name: 王風文
+cbdb_id: 343597
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_tMKgeECppMdruu2YkShj3F
 status: active
 merged_into: null
 display_name: 王文湧
+cbdb_id: 69317
 revision: 1
 properties:
   - predicate: bio.summary

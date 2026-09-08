@@ -4,6 +4,7 @@ id: p_zicKU4bgAdp55gRC45KJy4
 status: active
 merged_into: null
 display_name: 王子忠
+cbdb_id: 326662
 revision: 2
 properties:
   - predicate: bio.summary

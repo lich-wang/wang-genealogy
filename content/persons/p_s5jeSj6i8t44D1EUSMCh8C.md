@@ -4,6 +4,7 @@ id: p_s5jeSj6i8t44D1EUSMCh8C
 status: active
 merged_into: null
 display_name: 董氏
+cbdb_id: 314682
 revision: 1
 properties:
   - predicate: bio.summary

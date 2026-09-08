@@ -4,6 +4,7 @@ id: p_6SUebLd95jVousCGt8Mk53
 status: active
 merged_into: null
 display_name: 王殿衡
+cbdb_id: 29997
 revision: 1
 properties:
   - predicate: bio.summary

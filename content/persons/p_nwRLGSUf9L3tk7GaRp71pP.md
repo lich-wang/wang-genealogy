@@ -4,6 +4,7 @@ id: p_nwRLGSUf9L3tk7GaRp71pP
 status: active
 merged_into: null
 display_name: 王徳用
+cbdb_id: 469253
 revision: 1
 properties:
   - predicate: bio.summary

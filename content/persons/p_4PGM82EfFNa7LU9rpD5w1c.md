@@ -4,6 +4,7 @@ id: p_4PGM82EfFNa7LU9rpD5w1c
 status: active
 merged_into: null
 display_name: 王如垓
+cbdb_id: 226072
 revision: 1
 properties:
   - predicate: bio.summary

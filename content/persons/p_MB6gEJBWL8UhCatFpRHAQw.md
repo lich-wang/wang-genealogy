@@ -4,6 +4,7 @@ id: p_MB6gEJBWL8UhCatFpRHAQw
 status: active
 merged_into: null
 display_name: 王時昱
+cbdb_id: 287091
 revision: 1
 properties:
   - predicate: bio.summary

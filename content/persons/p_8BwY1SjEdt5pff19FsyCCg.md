@@ -4,6 +4,7 @@ id: p_8BwY1SjEdt5pff19FsyCCg
 status: active
 merged_into: null
 display_name: 王惟祗
+cbdb_id: 336617
 revision: 1
 properties:
   - predicate: bio.summary

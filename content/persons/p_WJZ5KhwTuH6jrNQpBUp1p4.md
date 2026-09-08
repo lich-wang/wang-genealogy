@@ -4,6 +4,7 @@ id: p_WJZ5KhwTuH6jrNQpBUp1p4
 status: active
 merged_into: null
 display_name: 王允楚
+cbdb_id: 342254
 revision: 1
 properties:
   - predicate: bio.summary

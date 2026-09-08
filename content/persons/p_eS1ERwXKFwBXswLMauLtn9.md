@@ -4,6 +4,7 @@ id: p_eS1ERwXKFwBXswLMauLtn9
 status: active
 merged_into: null
 display_name: 王希齊
+cbdb_id: 287987
 revision: 1
 properties:
   - predicate: bio.summary

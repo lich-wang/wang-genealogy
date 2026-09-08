@@ -4,6 +4,7 @@ id: p_mCBQWzjGHzY4kMkDdjrCgp
 status: active
 merged_into: null
 display_name: 王作興
+cbdb_id: 413867
 revision: 1
 properties:
   - predicate: bio.summary

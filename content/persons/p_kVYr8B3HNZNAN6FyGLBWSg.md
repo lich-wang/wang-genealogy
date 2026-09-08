@@ -4,6 +4,7 @@ id: p_kVYr8B3HNZNAN6FyGLBWSg
 status: active
 merged_into: null
 display_name: 王恭確
+cbdb_id: 71940
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_k56NV9rgDghGTPDaQfrfU6
 status: active
 merged_into: null
 display_name: 王守斌
+cbdb_id: 14932
 revision: 1
 properties:
   - predicate: bio.summary

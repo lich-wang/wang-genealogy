@@ -4,6 +4,7 @@ id: p_fUSUFYw8PxLAvHTcKXqGMF
 status: active
 merged_into: null
 display_name: 王公進
+cbdb_id: 101070
 revision: 1
 properties:
   - predicate: bio.summary

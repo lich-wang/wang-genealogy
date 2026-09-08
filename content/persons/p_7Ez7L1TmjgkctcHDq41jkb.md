@@ -4,6 +4,7 @@ id: p_7Ez7L1TmjgkctcHDq41jkb
 status: active
 merged_into: null
 display_name: 王前席
+cbdb_id: 511594
 revision: 1
 properties:
   - predicate: bio.summary

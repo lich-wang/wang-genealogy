@@ -4,6 +4,7 @@ id: p_PLZYvFKaN5T4EifkDJ2W7A
 status: active
 merged_into: null
 display_name: 王守業
+cbdb_id: 219514
 revision: 1
 properties:
   - predicate: bio.summary

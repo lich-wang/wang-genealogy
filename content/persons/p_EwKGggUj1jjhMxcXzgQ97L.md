@@ -4,6 +4,7 @@ id: p_EwKGggUj1jjhMxcXzgQ97L
 status: active
 merged_into: null
 display_name: 王彥德
+cbdb_id: 300439
 revision: 1
 properties:
   - predicate: bio.summary

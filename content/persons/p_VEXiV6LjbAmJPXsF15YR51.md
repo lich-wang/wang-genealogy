@@ -4,6 +4,7 @@ id: p_VEXiV6LjbAmJPXsF15YR51
 status: active
 merged_into: null
 display_name: 王文宸
+cbdb_id: 414731
 revision: 1
 properties:
   - predicate: bio.summary

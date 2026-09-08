@@ -4,6 +4,7 @@ id: p_sLHRqDEjx9xarv4Dcnhuhe
 status: active
 merged_into: null
 display_name: 王穎芳
+cbdb_id: 342190
 revision: 1
 properties:
   - predicate: bio.summary

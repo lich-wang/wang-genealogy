@@ -4,6 +4,7 @@ id: p_RvEKjqqiLGHMgDiUhXwQ66
 status: active
 merged_into: null
 display_name: 王秉章
+cbdb_id: 415202
 revision: 1
 properties:
   - predicate: bio.summary

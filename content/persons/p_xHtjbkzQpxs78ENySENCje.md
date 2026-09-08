@@ -4,6 +4,7 @@ id: p_xHtjbkzQpxs78ENySENCje
 status: active
 merged_into: null
 display_name: 王藻
+cbdb_id: 120215
 revision: 1
 properties:
   - predicate: bio.summary

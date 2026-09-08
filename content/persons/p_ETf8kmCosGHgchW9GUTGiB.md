@@ -4,6 +4,7 @@ id: p_ETf8kmCosGHgchW9GUTGiB
 status: active
 merged_into: null
 display_name: 王絕
+cbdb_id: 285657
 revision: 1
 properties:
   - predicate: bio.summary

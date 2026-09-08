@@ -4,6 +4,7 @@ id: p_ycGgNxfxozdfaZd69tXQfq
 status: active
 merged_into: null
 display_name: 王乃餘
+cbdb_id: 30037
 revision: 1
 properties:
   - predicate: bio.summary

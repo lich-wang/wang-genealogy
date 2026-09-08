@@ -4,6 +4,7 @@ id: p_a3shL71Vf7vNdMpt5MeewY
 status: active
 merged_into: null
 display_name: 王協和
+cbdb_id: 343073
 revision: 1
 properties:
   - predicate: bio.summary

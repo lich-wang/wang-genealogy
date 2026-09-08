@@ -4,6 +4,7 @@ id: p_zgCoPqxLm18aKQ5gsrpuhw
 status: active
 merged_into: null
 display_name: 王勉哲
+cbdb_id: 217226
 revision: 1
 properties:
   - predicate: bio.summary

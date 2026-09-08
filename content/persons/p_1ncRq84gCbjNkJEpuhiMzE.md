@@ -4,6 +4,7 @@ id: p_1ncRq84gCbjNkJEpuhiMzE
 status: active
 merged_into: null
 display_name: 王士仕
+cbdb_id: 414158
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_ABkZGYn5dYsdKbphNh8z19
 status: active
 merged_into: null
 display_name: 王家樸
+cbdb_id: 414345
 revision: 1
 properties:
   - predicate: bio.summary

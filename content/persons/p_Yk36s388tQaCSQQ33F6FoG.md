@@ -4,6 +4,7 @@ id: p_Yk36s388tQaCSQQ33F6FoG
 status: active
 merged_into: null
 display_name: 王景榮
+cbdb_id: 414802
 revision: 1
 properties:
   - predicate: bio.summary

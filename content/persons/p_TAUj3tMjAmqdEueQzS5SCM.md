@@ -4,6 +4,7 @@ id: p_TAUj3tMjAmqdEueQzS5SCM
 status: active
 merged_into: null
 display_name: 王詩質
+cbdb_id: 415413
 revision: 1
 properties:
   - predicate: bio.summary

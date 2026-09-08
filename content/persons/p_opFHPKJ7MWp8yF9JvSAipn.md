@@ -4,6 +4,7 @@ id: p_opFHPKJ7MWp8yF9JvSAipn
 status: active
 merged_into: null
 display_name: 王文彥
+cbdb_id: 414733
 revision: 1
 properties:
   - predicate: bio.summary

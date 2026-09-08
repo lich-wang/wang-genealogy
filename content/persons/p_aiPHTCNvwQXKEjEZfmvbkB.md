@@ -4,6 +4,7 @@ id: p_aiPHTCNvwQXKEjEZfmvbkB
 status: active
 merged_into: null
 display_name: 王明選
+cbdb_id: 414787
 revision: 1
 properties:
   - predicate: bio.summary

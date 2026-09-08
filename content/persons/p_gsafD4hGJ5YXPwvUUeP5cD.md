@@ -4,6 +4,7 @@ id: p_gsafD4hGJ5YXPwvUUeP5cD
 status: active
 merged_into: null
 display_name: 王龍震
+cbdb_id: 341656
 revision: 1
 properties:
   - predicate: bio.summary

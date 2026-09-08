@@ -4,6 +4,7 @@ id: p_E4s34dhK1oMBK8zuMfCwaE
 status: active
 merged_into: null
 display_name: 王畦
+cbdb_id: 117592
 revision: 1
 properties:
   - predicate: bio.summary

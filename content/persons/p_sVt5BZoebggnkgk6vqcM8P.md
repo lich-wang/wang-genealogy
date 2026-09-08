@@ -4,6 +4,7 @@ id: p_sVt5BZoebggnkgk6vqcM8P
 status: active
 merged_into: null
 display_name: 王敏資
+cbdb_id: 414721
 revision: 1
 properties:
   - predicate: bio.summary

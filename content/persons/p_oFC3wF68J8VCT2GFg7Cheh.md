@@ -4,6 +4,7 @@ id: p_oFC3wF68J8VCT2GFg7Cheh
 status: active
 merged_into: null
 display_name: 王晉老
+cbdb_id: 22240
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_x1jKB4L3mywDe7wJqjKaGa
 status: active
 merged_into: null
 display_name: 王夢周
+cbdb_id: 414187
 revision: 1
 properties:
   - predicate: bio.summary

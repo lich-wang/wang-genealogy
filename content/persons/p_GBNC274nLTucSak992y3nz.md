@@ -4,6 +4,7 @@ id: p_GBNC274nLTucSak992y3nz
 status: active
 merged_into: null
 display_name: 王承明
+cbdb_id: 238217
 revision: 1
 properties:
   - predicate: bio.summary

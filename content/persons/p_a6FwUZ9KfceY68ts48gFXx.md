@@ -4,6 +4,7 @@ id: p_a6FwUZ9KfceY68ts48gFXx
 status: active
 merged_into: null
 display_name: 王錦繡
+cbdb_id: 58630
 revision: 1
 properties:
   - predicate: bio.summary

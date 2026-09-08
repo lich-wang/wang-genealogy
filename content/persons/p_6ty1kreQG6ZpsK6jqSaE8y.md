@@ -4,6 +4,7 @@ id: p_6ty1kreQG6ZpsK6jqSaE8y
 status: active
 merged_into: null
 display_name: 王淑喬
+cbdb_id: 331191
 revision: 1
 properties:
   - predicate: bio.summary

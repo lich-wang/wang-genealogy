@@ -4,6 +4,7 @@ id: p_1TzjqCjDPvtjbf3fHbGchk
 status: active
 merged_into: null
 display_name: 王成成
+cbdb_id: 414672
 revision: 1
 properties:
   - predicate: bio.summary

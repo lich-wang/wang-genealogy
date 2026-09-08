@@ -4,6 +4,7 @@ id: p_6NFBjeLuqxMUD9Gpw5FYoE
 status: active
 merged_into: null
 display_name: 王益原
+cbdb_id: 415155
 revision: 1
 properties:
   - predicate: bio.summary

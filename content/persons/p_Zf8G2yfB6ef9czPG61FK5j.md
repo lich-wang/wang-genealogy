@@ -4,6 +4,7 @@ id: p_Zf8G2yfB6ef9czPG61FK5j
 status: active
 merged_into: null
 display_name: 王叔某
+cbdb_id: 414022
 revision: 1
 properties:
   - predicate: bio.summary

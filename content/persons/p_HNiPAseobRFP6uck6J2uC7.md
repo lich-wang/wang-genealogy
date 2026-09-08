@@ -4,6 +4,7 @@ id: p_HNiPAseobRFP6uck6J2uC7
 status: active
 merged_into: null
 display_name: 王蓉生
+cbdb_id: 121137
 revision: 1
 properties:
   - predicate: bio.summary

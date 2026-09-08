@@ -4,6 +4,7 @@ id: p_BAnHGJfakKy3RYes9PYs9S
 status: active
 merged_into: null
 display_name: 王某曾
+cbdb_id: 413663
 revision: 1
 properties:
   - predicate: bio.summary

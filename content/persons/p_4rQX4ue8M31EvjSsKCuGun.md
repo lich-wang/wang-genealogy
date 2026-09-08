@@ -4,6 +4,7 @@ id: p_4rQX4ue8M31EvjSsKCuGun
 status: active
 merged_into: null
 display_name: 王郵
+cbdb_id: 415518
 revision: 1
 properties:
   - predicate: bio.summary

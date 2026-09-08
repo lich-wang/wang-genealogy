@@ -4,6 +4,7 @@ id: p_GbjoLBYDxAWAuAAdwTiJ1z
 status: active
 merged_into: null
 display_name: 桃根
+cbdb_id: 135443
 revision: 1
 properties:
   - predicate: bio.summary

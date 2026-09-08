@@ -4,6 +4,7 @@ id: p_2PsjaHZ7g9TMH3bkJqMDUp
 status: active
 merged_into: null
 display_name: 王克勳
+cbdb_id: 69176
 revision: 1
 properties:
   - predicate: bio.summary

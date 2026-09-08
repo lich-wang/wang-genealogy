@@ -4,6 +4,7 @@ id: p_8zBM7Y9bp1UrxF2LtdHdrn
 status: active
 merged_into: null
 display_name: 王守恭
+cbdb_id: 71631
 revision: 1
 properties:
   - predicate: bio.summary

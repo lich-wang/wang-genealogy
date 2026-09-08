@@ -4,6 +4,7 @@ id: p_cUHFpK4uLF1JjUJFFBaYi4
 status: active
 merged_into: null
 display_name: 王杉
+cbdb_id: 274258
 revision: 1
 properties:
   - predicate: bio.summary

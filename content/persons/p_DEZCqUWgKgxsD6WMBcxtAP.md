@@ -4,6 +4,7 @@ id: p_DEZCqUWgKgxsD6WMBcxtAP
 status: active
 merged_into: null
 display_name: 王靜山
+cbdb_id: 511631
 revision: 1
 properties:
   - predicate: bio.summary

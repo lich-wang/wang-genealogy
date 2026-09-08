@@ -4,6 +4,7 @@ id: p_Q7ggBttVytDDHAgopL9CKb
 status: active
 merged_into: null
 display_name: 王鳳生
+cbdb_id: 56490
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_QnmEwQHENmCEtEe6Kpvw8Y
 status: active
 merged_into: null
 display_name: 王弘化
+cbdb_id: 232609
 revision: 1
 properties:
   - predicate: bio.summary

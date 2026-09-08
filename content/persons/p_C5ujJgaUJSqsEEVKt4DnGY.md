@@ -4,6 +4,7 @@ id: p_C5ujJgaUJSqsEEVKt4DnGY
 status: active
 merged_into: null
 display_name: 王洪仁
+cbdb_id: 415003
 revision: 1
 properties:
   - predicate: bio.summary

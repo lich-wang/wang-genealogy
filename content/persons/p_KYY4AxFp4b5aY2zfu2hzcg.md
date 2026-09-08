@@ -4,6 +4,7 @@ id: p_KYY4AxFp4b5aY2zfu2hzcg
 status: active
 merged_into: null
 display_name: 王化德
+cbdb_id: 577044
 revision: 1
 properties:
   - predicate: bio.summary

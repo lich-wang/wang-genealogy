@@ -4,6 +4,7 @@ id: p_DbeaWeCVzt9Kvz67vUvuuQ
 status: active
 merged_into: null
 display_name: 王名芳
+cbdb_id: 414043
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_RwxHF1Ntsy8Aq41TEDYhAY
 status: active
 merged_into: null
 display_name: 王有藩
+cbdb_id: 309082
 revision: 1
 properties:
   - predicate: bio.summary

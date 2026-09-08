@@ -4,6 +4,7 @@ id: p_yK419ZQfaz2JU61QkkMyJy
 status: active
 merged_into: null
 display_name: 王仲傑
+cbdb_id: 525507
 revision: 1
 properties:
   - predicate: bio.summary

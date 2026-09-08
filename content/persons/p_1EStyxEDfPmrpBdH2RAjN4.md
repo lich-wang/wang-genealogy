@@ -4,6 +4,7 @@ id: p_1EStyxEDfPmrpBdH2RAjN4
 status: active
 merged_into: null
 display_name: 王旅
+cbdb_id: 295306
 revision: 1
 properties:
   - predicate: bio.summary

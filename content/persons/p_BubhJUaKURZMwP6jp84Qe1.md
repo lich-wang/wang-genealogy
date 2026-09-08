@@ -4,6 +4,7 @@ id: p_BubhJUaKURZMwP6jp84Qe1
 status: active
 merged_into: null
 display_name: 王槍
+cbdb_id: 29208
 revision: 1
 properties:
   - predicate: bio.summary

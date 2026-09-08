@@ -4,6 +4,7 @@ id: p_ENp2zBhPwP2aKEL6iVVfT2
 status: active
 merged_into: null
 display_name: 王琢玉
+cbdb_id: 205655
 revision: 1
 properties:
   - predicate: bio.summary

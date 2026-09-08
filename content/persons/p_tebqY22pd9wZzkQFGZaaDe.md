@@ -4,6 +4,7 @@ id: p_tebqY22pd9wZzkQFGZaaDe
 status: active
 merged_into: null
 display_name: 王熙
+cbdb_id: 56873
 revision: 2
 properties:
   - predicate: bio.summary

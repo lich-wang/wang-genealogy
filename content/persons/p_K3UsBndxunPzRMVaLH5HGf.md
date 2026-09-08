@@ -4,6 +4,7 @@ id: p_K3UsBndxunPzRMVaLH5HGf
 status: active
 merged_into: null
 display_name: 王子佐
+cbdb_id: 414235
 revision: 1
 properties:
   - predicate: bio.summary

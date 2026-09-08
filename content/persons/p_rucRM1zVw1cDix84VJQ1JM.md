@@ -4,6 +4,7 @@ id: p_rucRM1zVw1cDix84VJQ1JM
 status: active
 merged_into: null
 display_name: 王惟純
+cbdb_id: 97896
 revision: 1
 properties:
   - predicate: bio.summary

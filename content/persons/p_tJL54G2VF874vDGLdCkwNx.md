@@ -4,6 +4,7 @@ id: p_tJL54G2VF874vDGLdCkwNx
 status: active
 merged_into: null
 display_name: 王宗矩
+cbdb_id: 382839
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_qcCVcen8Bt57KMExSuuKZ5
 status: active
 merged_into: null
 display_name: 王似祖
+cbdb_id: 236263
 revision: 1
 properties:
   - predicate: bio.summary

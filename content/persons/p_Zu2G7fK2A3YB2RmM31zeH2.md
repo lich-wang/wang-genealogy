@@ -4,6 +4,7 @@ id: p_Zu2G7fK2A3YB2RmM31zeH2
 status: active
 merged_into: null
 display_name: 王子年
+cbdb_id: 123475
 revision: 1
 properties:
   - predicate: bio.summary

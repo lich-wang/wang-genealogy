@@ -4,6 +4,7 @@ id: p_PaQ5yP1i6ggstQ3reseLJo
 status: active
 merged_into: null
 display_name: 王尚準
+cbdb_id: 185765
 revision: 1
 properties:
   - predicate: bio.summary

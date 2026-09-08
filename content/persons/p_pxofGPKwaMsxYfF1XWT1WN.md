@@ -4,6 +4,7 @@ id: p_pxofGPKwaMsxYfF1XWT1WN
 status: active
 merged_into: null
 display_name: 王錫慶
+cbdb_id: 343802
 revision: 1
 properties:
   - predicate: bio.summary

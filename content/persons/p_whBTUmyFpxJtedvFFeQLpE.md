@@ -4,6 +4,7 @@ id: p_whBTUmyFpxJtedvFFeQLpE
 status: active
 merged_into: null
 display_name: 王道克
+cbdb_id: 415496
 revision: 1
 properties:
   - predicate: bio.summary

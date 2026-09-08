@@ -4,6 +4,7 @@ id: p_5J7f6wYMRMxs7athYCFm1K
 status: active
 merged_into: null
 display_name: 王永臣
+cbdb_id: 213407
 revision: 1
 properties:
   - predicate: bio.summary

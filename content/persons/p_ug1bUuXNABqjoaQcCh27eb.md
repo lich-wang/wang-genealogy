@@ -4,6 +4,7 @@ id: p_ug1bUuXNABqjoaQcCh27eb
 status: active
 merged_into: null
 display_name: 王震定
+cbdb_id: 38362
 revision: 1
 properties:
   - predicate: bio.summary

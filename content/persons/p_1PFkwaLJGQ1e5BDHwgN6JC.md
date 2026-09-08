@@ -4,6 +4,7 @@ id: p_1PFkwaLJGQ1e5BDHwgN6JC
 status: active
 merged_into: null
 display_name: 王以敬
+cbdb_id: 413825
 revision: 1
 properties:
   - predicate: bio.summary

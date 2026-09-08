@@ -4,6 +4,7 @@ id: p_rSbH5Jirx2YtwcDpdfCtBL
 status: active
 merged_into: null
 display_name: 王宗讓
+cbdb_id: 101237
 revision: 1
 properties:
   - predicate: bio.summary

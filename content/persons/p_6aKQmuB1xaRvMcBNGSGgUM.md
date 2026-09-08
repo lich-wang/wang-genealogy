@@ -4,6 +4,7 @@ id: p_6aKQmuB1xaRvMcBNGSGgUM
 status: active
 merged_into: null
 display_name: 王齐望
+cbdb_id: 175855
 revision: 1
 properties:
   - predicate: name.primary

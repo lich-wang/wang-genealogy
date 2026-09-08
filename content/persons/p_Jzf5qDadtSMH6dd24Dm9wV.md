@@ -4,6 +4,7 @@ id: p_Jzf5qDadtSMH6dd24Dm9wV
 status: active
 merged_into: null
 display_name: 王日嚴
+cbdb_id: 97913
 revision: 1
 properties:
   - predicate: bio.summary

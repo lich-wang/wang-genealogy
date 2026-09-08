@@ -4,6 +4,7 @@ id: p_za3b1aKjpz5jYSp7iVS3Fk
 status: active
 merged_into: null
 display_name: 王景昌
+cbdb_id: 245399
 revision: 1
 properties:
   - predicate: bio.summary

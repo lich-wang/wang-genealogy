@@ -4,6 +4,7 @@ id: p_pY4bR9vVd19RvXkc3AZrMW
 status: active
 merged_into: null
 display_name: 王彥禎
+cbdb_id: 322373
 revision: 1
 properties:
   - predicate: bio.summary

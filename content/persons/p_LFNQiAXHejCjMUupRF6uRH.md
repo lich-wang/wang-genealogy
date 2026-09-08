@@ -4,6 +4,7 @@ id: p_LFNQiAXHejCjMUupRF6uRH
 status: active
 merged_into: null
 display_name: 王問冲
+cbdb_id: 329118
 revision: 1
 properties:
   - predicate: bio.summary

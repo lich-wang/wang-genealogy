@@ -4,6 +4,7 @@ id: p_dhViQGfAS7Kif9LatNZWPh
 status: active
 merged_into: null
 display_name: 王瑞昌
+cbdb_id: 304146
 revision: 1
 properties:
   - predicate: bio.summary

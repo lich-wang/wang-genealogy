@@ -4,6 +4,7 @@ id: p_7QrhcSCpByfzYfPYz7zK5h
 status: active
 merged_into: null
 display_name: 王支某
+cbdb_id: 141376
 revision: 1
 properties:
   - predicate: bio.summary

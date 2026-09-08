@@ -4,6 +4,7 @@ id: p_VHN6G65X2VvkHE4QXFmjpz
 status: active
 merged_into: null
 display_name: 王嘉植
+cbdb_id: 414098
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_BYaRLGQNAj9rfPBQKF4TqS
 status: active
 merged_into: null
 display_name: 王聖徒
+cbdb_id: 38272
 revision: 1
 properties:
   - predicate: bio.summary

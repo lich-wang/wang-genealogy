@@ -4,6 +4,7 @@ id: p_JFSyR8NJmhCLHZk6LZi9Pp
 status: active
 merged_into: null
 display_name: 王叔祥
+cbdb_id: 126284
 revision: 1
 properties:
   - predicate: bio.summary

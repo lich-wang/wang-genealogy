@@ -4,6 +4,7 @@ id: p_NV96i13qnUuFmjYtGuQFye
 status: active
 merged_into: null
 display_name: 王忠陛
+cbdb_id: 343349
 revision: 1
 properties:
   - predicate: bio.summary

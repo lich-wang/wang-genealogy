@@ -4,6 +4,7 @@ id: p_cKTnA4U1a2j9Q12wXoaYGH
 status: active
 merged_into: null
 display_name: 王學遜
+cbdb_id: 414268
 revision: 1
 properties:
   - predicate: bio.summary

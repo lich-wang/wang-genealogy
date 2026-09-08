@@ -4,6 +4,7 @@ id: p_ad32BrcoPU4xRMCM2tcFkg
 status: active
 merged_into: null
 display_name: 王同穀
+cbdb_id: 294340
 revision: 1
 properties:
   - predicate: bio.summary

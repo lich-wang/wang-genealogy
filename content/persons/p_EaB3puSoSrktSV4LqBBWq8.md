@@ -4,6 +4,7 @@ id: p_EaB3puSoSrktSV4LqBBWq8
 status: active
 merged_into: null
 display_name: 王孫卿
+cbdb_id: 97855
 revision: 1
 properties:
   - predicate: bio.summary

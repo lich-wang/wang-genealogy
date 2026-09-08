@@ -4,6 +4,7 @@ id: p_moE7rJDFp2R9Aac3W4FxPZ
 status: active
 merged_into: null
 display_name: 王友亮
+cbdb_id: 58603
 revision: 1
 properties:
   - predicate: bio.summary

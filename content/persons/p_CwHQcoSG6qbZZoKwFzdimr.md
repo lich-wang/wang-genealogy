@@ -4,6 +4,7 @@ id: p_CwHQcoSG6qbZZoKwFzdimr
 status: active
 merged_into: null
 display_name: 王文標
+cbdb_id: 341618
 revision: 1
 properties:
   - predicate: bio.summary

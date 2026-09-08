@@ -4,6 +4,7 @@ id: p_sLfupwUzfgDqZ8YZvZZpx9
 status: active
 merged_into: null
 display_name: 王克完
+cbdb_id: 210113
 revision: 1
 properties:
   - predicate: bio.summary

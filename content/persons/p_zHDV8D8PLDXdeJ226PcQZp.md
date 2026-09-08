@@ -4,6 +4,7 @@ id: p_zHDV8D8PLDXdeJ226PcQZp
 status: active
 merged_into: null
 display_name: 王調鼎
+cbdb_id: 341690
 revision: 1
 properties:
   - predicate: bio.summary

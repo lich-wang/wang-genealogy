@@ -4,6 +4,7 @@ id: p_VZvP9c65nAiSZgcnJv5EfA
 status: active
 merged_into: null
 display_name: 王秉秀
+cbdb_id: 415201
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_NUAVv2juZCbr8F6sC1twi9
 status: active
 merged_into: null
 display_name: 王之居
+cbdb_id: 333327
 revision: 1
 properties:
   - predicate: bio.summary

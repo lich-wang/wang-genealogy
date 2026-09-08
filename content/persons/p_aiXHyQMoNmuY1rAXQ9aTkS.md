@@ -4,6 +4,7 @@ id: p_aiXHyQMoNmuY1rAXQ9aTkS
 status: active
 merged_into: null
 display_name: 王祚恆
+cbdb_id: 233976
 revision: 1
 properties:
   - predicate: bio.summary

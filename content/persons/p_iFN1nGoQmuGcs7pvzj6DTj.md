@@ -4,6 +4,7 @@ id: p_iFN1nGoQmuGcs7pvzj6DTj
 status: active
 merged_into: null
 display_name: 王調羮
+cbdb_id: 415419
 revision: 1
 properties:
   - predicate: bio.summary

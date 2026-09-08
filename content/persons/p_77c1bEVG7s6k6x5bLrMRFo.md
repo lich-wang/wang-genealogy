@@ -4,6 +4,7 @@ id: p_77c1bEVG7s6k6x5bLrMRFo
 status: active
 merged_into: null
 display_name: 王大輔
+cbdb_id: 414201
 revision: 1
 properties:
   - predicate: bio.summary

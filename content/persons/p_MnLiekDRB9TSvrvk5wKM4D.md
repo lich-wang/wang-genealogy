@@ -4,6 +4,7 @@ id: p_MnLiekDRB9TSvrvk5wKM4D
 status: active
 merged_into: null
 display_name: 王大礽
+cbdb_id: 59895
 revision: 1
 properties:
   - predicate: bio.summary

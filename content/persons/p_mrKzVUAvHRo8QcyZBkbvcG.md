@@ -4,6 +4,7 @@ id: p_mrKzVUAvHRo8QcyZBkbvcG
 status: active
 merged_into: null
 display_name: 王士鏞
+cbdb_id: 414180
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_USwjCD4169wZfgP5vFNbSD
 status: active
 merged_into: null
 display_name: 王服經
+cbdb_id: 343634
 revision: 1
 properties:
   - predicate: bio.summary

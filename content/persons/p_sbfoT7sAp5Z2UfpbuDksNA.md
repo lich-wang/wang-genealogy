@@ -4,6 +4,7 @@ id: p_sbfoT7sAp5Z2UfpbuDksNA
 status: active
 merged_into: null
 display_name: 王璧成
+cbdb_id: 415119
 revision: 1
 properties:
   - predicate: bio.summary

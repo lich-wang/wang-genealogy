@@ -4,6 +4,7 @@ id: p_GC7HJfoz6w5CZwewBYe7WR
 status: active
 merged_into: null
 display_name: 王綾
+cbdb_id: 219509
 revision: 1
 properties:
   - predicate: bio.summary

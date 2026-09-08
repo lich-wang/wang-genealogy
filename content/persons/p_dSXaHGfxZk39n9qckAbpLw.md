@@ -4,6 +4,7 @@ id: p_dSXaHGfxZk39n9qckAbpLw
 status: active
 merged_into: null
 display_name: 王用政
+cbdb_id: 250477
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_CgzpCKBF2Cnch1g1qwE9Ao
 status: active
 merged_into: null
 display_name: 王世能
+cbdb_id: 205793
 revision: 1
 properties:
   - predicate: bio.summary

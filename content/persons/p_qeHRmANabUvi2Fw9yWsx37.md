@@ -4,6 +4,7 @@ id: p_qeHRmANabUvi2Fw9yWsx37
 status: active
 merged_into: null
 display_name: 王晞韓
+cbdb_id: 11482
 revision: 1
 properties:
   - predicate: bio.summary

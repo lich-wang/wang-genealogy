@@ -4,6 +4,7 @@ id: p_QVYnzKQ3Qmo2oe1E9Nx6jF
 status: active
 merged_into: null
 display_name: 王紹肅
+cbdb_id: 315365
 revision: 1
 properties:
   - predicate: bio.summary

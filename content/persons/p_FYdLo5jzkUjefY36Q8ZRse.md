@@ -4,6 +4,7 @@ id: p_FYdLo5jzkUjefY36Q8ZRse
 status: active
 merged_into: null
 display_name: 王粹然
+cbdb_id: 38335
 revision: 1
 properties:
   - predicate: bio.summary

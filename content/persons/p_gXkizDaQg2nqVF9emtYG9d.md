@@ -4,6 +4,7 @@ id: p_gXkizDaQg2nqVF9emtYG9d
 status: active
 merged_into: null
 display_name: 王繼雄
+cbdb_id: 415275
 revision: 1
 properties:
   - predicate: bio.summary

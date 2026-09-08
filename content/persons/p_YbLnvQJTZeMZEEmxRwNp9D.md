@@ -4,6 +4,7 @@ id: p_YbLnvQJTZeMZEEmxRwNp9D
 status: active
 merged_into: null
 display_name: 王丙應
+cbdb_id: 101117
 revision: 1
 properties:
   - predicate: bio.summary

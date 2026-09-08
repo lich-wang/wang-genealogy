@@ -4,6 +4,7 @@ id: p_43iz8zXuv3uGf9Xq8n94JD
 status: active
 merged_into: null
 display_name: 王光仕
+cbdb_id: 275621
 revision: 1
 properties:
   - predicate: bio.summary

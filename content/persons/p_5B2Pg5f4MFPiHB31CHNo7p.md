@@ -4,6 +4,7 @@ id: p_5B2Pg5f4MFPiHB31CHNo7p
 status: active
 merged_into: null
 display_name: 王大勳
+cbdb_id: 69094
 revision: 1
 properties:
   - predicate: bio.summary

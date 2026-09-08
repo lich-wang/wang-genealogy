@@ -4,6 +4,7 @@ id: p_LsT3g22LWMifPv9AFPFXPW
 status: active
 merged_into: null
 display_name: 王僧逹
+cbdb_id: 468163
 revision: 1
 properties:
   - predicate: bio.summary

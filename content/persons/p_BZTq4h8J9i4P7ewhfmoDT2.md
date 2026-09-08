@@ -4,6 +4,7 @@ id: p_BZTq4h8J9i4P7ewhfmoDT2
 status: active
 merged_into: null
 display_name: 王用善
+cbdb_id: 555051
 revision: 1
 properties:
   - predicate: bio.summary

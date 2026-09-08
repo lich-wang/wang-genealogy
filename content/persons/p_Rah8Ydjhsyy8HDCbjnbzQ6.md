@@ -4,6 +4,7 @@ id: p_Rah8Ydjhsyy8HDCbjnbzQ6
 status: active
 merged_into: null
 display_name: 王客卿
+cbdb_id: 414330
 revision: 1
 properties:
   - predicate: bio.summary

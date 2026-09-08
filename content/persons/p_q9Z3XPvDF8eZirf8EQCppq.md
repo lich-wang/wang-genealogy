@@ -4,6 +4,7 @@ id: p_q9Z3XPvDF8eZirf8EQCppq
 status: active
 merged_into: null
 display_name: 王子梅
+cbdb_id: 329988
 revision: 1
 properties:
   - predicate: bio.summary

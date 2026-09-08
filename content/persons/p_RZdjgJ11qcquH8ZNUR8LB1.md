@@ -4,6 +4,7 @@ id: p_RZdjgJ11qcquH8ZNUR8LB1
 status: active
 merged_into: null
 display_name: 王存住
+cbdb_id: 522257
 revision: 1
 properties:
   - predicate: bio.summary

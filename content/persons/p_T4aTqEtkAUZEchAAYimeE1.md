@@ -4,6 +4,7 @@ id: p_T4aTqEtkAUZEchAAYimeE1
 status: active
 merged_into: null
 display_name: 王諾
+cbdb_id: 415420
 revision: 1
 properties:
   - predicate: bio.summary

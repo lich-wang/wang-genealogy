@@ -4,6 +4,7 @@ id: p_hjGPuzvt26PHeWuKNeCk5i
 status: active
 merged_into: null
 display_name: 王文勤
+cbdb_id: 300172
 revision: 1
 properties:
   - predicate: bio.summary

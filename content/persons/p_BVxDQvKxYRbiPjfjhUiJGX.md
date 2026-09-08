@@ -4,6 +4,7 @@ id: p_BVxDQvKxYRbiPjfjhUiJGX
 status: active
 merged_into: null
 display_name: 王同辰
+cbdb_id: 327393
 revision: 1
 properties:
   - predicate: bio.summary

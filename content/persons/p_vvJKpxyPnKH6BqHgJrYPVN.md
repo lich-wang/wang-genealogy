@@ -4,6 +4,7 @@ id: p_vvJKpxyPnKH6BqHgJrYPVN
 status: active
 merged_into: null
 display_name: 王秉圭
+cbdb_id: 313477
 revision: 1
 properties:
   - predicate: bio.summary

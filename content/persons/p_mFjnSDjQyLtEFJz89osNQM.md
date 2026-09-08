@@ -4,6 +4,7 @@ id: p_mFjnSDjQyLtEFJz89osNQM
 status: active
 merged_into: null
 display_name: 王思江
+cbdb_id: 260516
 revision: 1
 properties:
   - predicate: bio.summary

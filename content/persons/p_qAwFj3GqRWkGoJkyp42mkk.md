@@ -4,6 +4,7 @@ id: p_qAwFj3GqRWkGoJkyp42mkk
 status: active
 merged_into: null
 display_name: 王枟芳
+cbdb_id: 71736
 revision: 1
 properties:
   - predicate: bio.summary

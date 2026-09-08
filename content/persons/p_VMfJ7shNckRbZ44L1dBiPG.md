@@ -4,6 +4,7 @@ id: p_VMfJ7shNckRbZ44L1dBiPG
 status: active
 merged_into: null
 display_name: 王正心
+cbdb_id: 288236
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_P4oAEcF78neAuvnwQBF9EK
 status: active
 merged_into: null
 display_name: 王文貫
+cbdb_id: 25596
 revision: 1
 properties:
   - predicate: bio.summary

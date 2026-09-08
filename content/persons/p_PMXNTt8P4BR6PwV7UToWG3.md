@@ -4,6 +4,7 @@ id: p_PMXNTt8P4BR6PwV7UToWG3
 status: active
 merged_into: null
 display_name: 王敬錫
+cbdb_id: 343320
 revision: 1
 properties:
   - predicate: bio.summary

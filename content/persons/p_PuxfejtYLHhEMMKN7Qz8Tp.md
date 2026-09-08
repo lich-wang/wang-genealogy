@@ -4,6 +4,7 @@ id: p_PuxfejtYLHhEMMKN7Qz8Tp
 status: active
 merged_into: null
 display_name: 王彥祖
+cbdb_id: 525766
 revision: 1
 properties:
   - predicate: bio.summary

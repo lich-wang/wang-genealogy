@@ -4,6 +4,7 @@ id: p_TfRE2PtormURx9X7QK28D9
 status: active
 merged_into: null
 display_name: 王其智
+cbdb_id: 277147
 revision: 1
 properties:
   - predicate: bio.summary

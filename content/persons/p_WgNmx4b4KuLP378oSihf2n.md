@@ -4,6 +4,7 @@ id: p_WgNmx4b4KuLP378oSihf2n
 status: active
 merged_into: null
 display_name: 王堅叔
+cbdb_id: 136561
 revision: 1
 properties:
   - predicate: bio.summary

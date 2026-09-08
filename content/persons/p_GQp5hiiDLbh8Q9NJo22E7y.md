@@ -4,6 +4,7 @@ id: p_GQp5hiiDLbh8Q9NJo22E7y
 status: active
 merged_into: null
 display_name: 王致知
+cbdb_id: 415322
 revision: 1
 properties:
   - predicate: bio.summary

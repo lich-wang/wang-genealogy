@@ -4,6 +4,7 @@ id: p_NSq22v18MetWG3Z7WXW4xn
 status: active
 merged_into: null
 display_name: 王山輝
+cbdb_id: 151017
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_ayr63C9j4FCs6LB1rxnwhd
 status: active
 merged_into: null
 display_name: 王季卿
+cbdb_id: 232797
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_Que1Sc9ugp524zabUcC6Bk
 status: active
 merged_into: null
 display_name: 王體復
+cbdb_id: 205493
 revision: 1
 properties:
   - predicate: bio.summary

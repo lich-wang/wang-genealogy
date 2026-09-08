@@ -4,6 +4,7 @@ id: p_DesZDxt6575VcnUQiRTKpR
 status: active
 merged_into: null
 display_name: 王顯聲
+cbdb_id: 415607
 revision: 1
 properties:
   - predicate: bio.summary

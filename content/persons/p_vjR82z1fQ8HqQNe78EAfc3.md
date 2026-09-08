@@ -4,6 +4,7 @@ id: p_vjR82z1fQ8HqQNe78EAfc3
 status: active
 merged_into: null
 display_name: 王宇大
+cbdb_id: 342589
 revision: 1
 properties:
   - predicate: bio.summary

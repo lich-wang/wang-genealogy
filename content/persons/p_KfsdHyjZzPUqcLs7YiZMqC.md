@@ -4,6 +4,7 @@ id: p_KfsdHyjZzPUqcLs7YiZMqC
 status: active
 merged_into: null
 display_name: 王憲申
+cbdb_id: 235984
 revision: 1
 properties:
   - predicate: bio.summary

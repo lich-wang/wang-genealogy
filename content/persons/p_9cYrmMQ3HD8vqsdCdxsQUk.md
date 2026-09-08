@@ -4,6 +4,7 @@ id: p_9cYrmMQ3HD8vqsdCdxsQUk
 status: active
 merged_into: null
 display_name: 王里寶
+cbdb_id: 287975
 revision: 1
 properties:
   - predicate: bio.summary

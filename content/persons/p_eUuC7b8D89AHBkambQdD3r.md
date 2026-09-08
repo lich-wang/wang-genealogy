@@ -4,6 +4,7 @@ id: p_eUuC7b8D89AHBkambQdD3r
 status: active
 merged_into: null
 display_name: 王守熾
+cbdb_id: 526907
 revision: 1
 properties:
   - predicate: bio.summary

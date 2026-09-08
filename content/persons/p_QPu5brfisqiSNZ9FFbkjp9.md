@@ -4,6 +4,7 @@ id: p_QPu5brfisqiSNZ9FFbkjp9
 status: active
 merged_into: null
 display_name: 王邦義
+cbdb_id: 415513
 revision: 1
 properties:
   - predicate: bio.summary

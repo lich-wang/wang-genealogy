@@ -4,6 +4,7 @@ id: p_BL2XNsL5WMCL1S8Rqp4P4R
 status: active
 merged_into: null
 display_name: 王敷極
+cbdb_id: 343401
 revision: 1
 properties:
   - predicate: bio.summary

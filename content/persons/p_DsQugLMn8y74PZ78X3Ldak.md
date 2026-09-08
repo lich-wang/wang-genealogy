@@ -4,6 +4,7 @@ id: p_DsQugLMn8y74PZ78X3Ldak
 status: active
 merged_into: null
 display_name: 王承學
+cbdb_id: 526011
 revision: 1
 properties:
   - predicate: bio.summary

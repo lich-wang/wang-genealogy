@@ -4,6 +4,7 @@ id: p_zf1m4zyay4f4HN9xeboK45
 status: active
 merged_into: null
 display_name: 王茂燿
+cbdb_id: 526728
 revision: 1
 properties:
   - predicate: bio.summary

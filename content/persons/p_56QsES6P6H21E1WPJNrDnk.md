@@ -4,6 +4,7 @@ id: p_56QsES6P6H21E1WPJNrDnk
 status: active
 merged_into: null
 display_name: 王廉清
+cbdb_id: 22253
 revision: 1
 properties:
   - predicate: bio.summary

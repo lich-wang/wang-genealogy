@@ -4,6 +4,7 @@ id: p_myi41RNkAhkoQKnPjpLxbD
 status: active
 merged_into: null
 display_name: 王敬恕
+cbdb_id: 414726
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_79hxwv7SaC9NQBmtcJELoN
 status: active
 merged_into: null
 display_name: 王濟吾
+cbdb_id: 415054
 revision: 1
 properties:
   - predicate: bio.summary

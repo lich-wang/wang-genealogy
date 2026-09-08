@@ -4,6 +4,7 @@ id: p_CW6Zs1yGppKxu7Tj73nxFd
 status: active
 merged_into: null
 display_name: 王公楷
+cbdb_id: 343765
 revision: 1
 properties:
   - predicate: bio.summary

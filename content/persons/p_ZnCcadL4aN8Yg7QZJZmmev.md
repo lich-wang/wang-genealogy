@@ -4,6 +4,7 @@ id: p_ZnCcadL4aN8Yg7QZJZmmev
 status: active
 merged_into: null
 display_name: 王依崇阿
+cbdb_id: 60938
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_1KuNjTCxJRLCSLZbqLudzf
 status: active
 merged_into: null
 display_name: 王梅友
+cbdb_id: 414869
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_C9JHxtahhJrmvEsxjEQ6uJ
 status: active
 merged_into: null
 display_name: 王德廣
+cbdb_id: 26174
 revision: 1
 properties:
   - predicate: bio.summary

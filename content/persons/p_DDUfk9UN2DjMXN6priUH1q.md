@@ -4,6 +4,7 @@ id: p_DDUfk9UN2DjMXN6priUH1q
 status: active
 merged_into: null
 display_name: 王得貞
+cbdb_id: 101336
 revision: 1
 properties:
   - predicate: bio.summary

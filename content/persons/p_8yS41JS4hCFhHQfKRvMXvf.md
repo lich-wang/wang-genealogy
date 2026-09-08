@@ -4,6 +4,7 @@ id: p_8yS41JS4hCFhHQfKRvMXvf
 status: active
 merged_into: null
 display_name: 王友中
+cbdb_id: 414017
 revision: 1
 properties:
   - predicate: bio.summary

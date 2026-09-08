@@ -4,6 +4,7 @@ id: p_9mXC5Vf3jEyoF6c6eS5VsK
 status: active
 merged_into: null
 display_name: 张氏
+cbdb_id: 37848
 revision: 2
 properties:
   - predicate: bio.summary

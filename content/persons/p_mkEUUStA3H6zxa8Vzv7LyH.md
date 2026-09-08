@@ -4,6 +4,7 @@ id: p_mkEUUStA3H6zxa8Vzv7LyH
 status: active
 merged_into: null
 display_name: 王昂
+cbdb_id: 337975
 revision: 2
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_v9mVj2SEBUGRFniDPfF8Xe
 status: active
 merged_into: null
 display_name: 王季點
+cbdb_id: 526910
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_xFe1w72YFJWfX1e9JdFBgT
 status: active
 merged_into: null
 display_name: 王敬某
+cbdb_id: 453392
 revision: 1
 properties:
   - predicate: bio.summary

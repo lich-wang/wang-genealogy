@@ -4,6 +4,7 @@ id: p_aS3VZka9W3GWYch6YyDoFs
 status: active
 merged_into: null
 display_name: 王致平
+cbdb_id: 386851
 revision: 1
 properties:
   - predicate: bio.summary

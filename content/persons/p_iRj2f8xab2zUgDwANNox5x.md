@@ -4,6 +4,7 @@ id: p_iRj2f8xab2zUgDwANNox5x
 status: active
 merged_into: null
 display_name: 王欣然
+cbdb_id: 414908
 revision: 1
 properties:
   - predicate: bio.summary

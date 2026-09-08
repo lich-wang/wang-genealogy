@@ -4,6 +4,7 @@ id: p_denisU8g6Sp8EuHN194y8n
 status: active
 merged_into: null
 display_name: 王式鈺
+cbdb_id: 414502
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_MbPZdhUM9C79eioKGG5F4Z
 status: active
 merged_into: null
 display_name: 王國槐
+cbdb_id: 414122
 revision: 1
 properties:
   - predicate: bio.summary

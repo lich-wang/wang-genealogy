@@ -4,6 +4,7 @@ id: p_RYAhUs1ATN2FqSqLmBj15y
 status: active
 merged_into: null
 display_name: 王叔原
+cbdb_id: 141460
 revision: 1
 properties:
   - predicate: bio.summary

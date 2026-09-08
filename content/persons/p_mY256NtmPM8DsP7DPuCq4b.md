@@ -4,6 +4,7 @@ id: p_mY256NtmPM8DsP7DPuCq4b
 status: active
 merged_into: null
 display_name: 王有朝
+cbdb_id: 461372
 revision: 1
 properties:
   - predicate: bio.summary

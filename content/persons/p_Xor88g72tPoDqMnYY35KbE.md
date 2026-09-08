@@ -4,6 +4,7 @@ id: p_Xor88g72tPoDqMnYY35KbE
 status: active
 merged_into: null
 display_name: 王喜培
+cbdb_id: 414087
 revision: 1
 properties:
   - predicate: bio.summary

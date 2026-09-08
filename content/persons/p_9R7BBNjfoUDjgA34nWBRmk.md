@@ -4,6 +4,7 @@ id: p_9R7BBNjfoUDjgA34nWBRmk
 status: active
 merged_into: null
 display_name: 王時顯
+cbdb_id: 299513
 revision: 1
 properties:
   - predicate: bio.summary

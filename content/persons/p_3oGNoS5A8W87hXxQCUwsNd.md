@@ -4,6 +4,7 @@ id: p_3oGNoS5A8W87hXxQCUwsNd
 status: active
 merged_into: null
 display_name: 王士建
+cbdb_id: 441129
 revision: 1
 properties:
   - predicate: bio.summary

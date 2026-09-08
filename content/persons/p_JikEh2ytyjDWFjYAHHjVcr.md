@@ -4,6 +4,7 @@ id: p_JikEh2ytyjDWFjYAHHjVcr
 status: active
 merged_into: null
 display_name: 王師沆
+cbdb_id: 414422
 revision: 1
 properties:
   - predicate: bio.summary

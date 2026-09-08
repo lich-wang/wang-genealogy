@@ -4,6 +4,7 @@ id: p_6tt4hsMiMngzJX6wMc4JPH
 status: active
 merged_into: null
 display_name: 王止敬
+cbdb_id: 280405
 revision: 1
 properties:
   - predicate: bio.summary

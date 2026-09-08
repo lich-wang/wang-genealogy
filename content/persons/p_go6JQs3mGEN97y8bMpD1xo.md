@@ -4,6 +4,7 @@ id: p_go6JQs3mGEN97y8bMpD1xo
 status: active
 merged_into: null
 display_name: 王居守
+cbdb_id: 414388
 revision: 1
 properties:
   - predicate: bio.summary

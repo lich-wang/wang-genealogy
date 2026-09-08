@@ -4,6 +4,7 @@ id: p_AxapQZEiMoAjDZ9keMMWMM
 status: active
 merged_into: null
 display_name: 王褒然
+cbdb_id: 415401
 revision: 1
 properties:
   - predicate: bio.summary

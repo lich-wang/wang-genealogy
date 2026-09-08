@@ -4,6 +4,7 @@ id: p_Frzy82Pddoh3noG2YBakWo
 status: active
 merged_into: null
 display_name: 王一揆
+cbdb_id: 213983
 revision: 1
 properties:
   - predicate: bio.summary

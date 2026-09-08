@@ -4,6 +4,7 @@ id: p_4pYw1nM36fCxddDyxG2NdT
 status: active
 merged_into: null
 display_name: 王九官
+cbdb_id: 217986
 revision: 1
 properties:
   - predicate: bio.summary

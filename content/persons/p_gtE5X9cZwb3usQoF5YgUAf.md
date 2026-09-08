@@ -4,6 +4,7 @@ id: p_gtE5X9cZwb3usQoF5YgUAf
 status: active
 merged_into: null
 display_name: 王楚玉
+cbdb_id: 143771
 revision: 1
 properties:
   - predicate: bio.summary

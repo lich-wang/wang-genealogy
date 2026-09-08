@@ -4,6 +4,7 @@ id: p_uS7V4P4KMenpgfUZzDHcZ5
 status: active
 merged_into: null
 display_name: 王應遴
+cbdb_id: 439078
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_2FTzE7ZnUah2E4HvWe1Dw1
 status: active
 merged_into: null
 display_name: 王象曾
+cbdb_id: 235540
 revision: 1
 properties:
   - predicate: bio.summary

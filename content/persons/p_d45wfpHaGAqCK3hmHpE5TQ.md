@@ -4,6 +4,7 @@ id: p_d45wfpHaGAqCK3hmHpE5TQ
 status: active
 merged_into: null
 display_name: 王行健
+cbdb_id: 342168
 revision: 1
 properties:
   - predicate: bio.summary

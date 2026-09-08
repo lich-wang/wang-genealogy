@@ -4,6 +4,7 @@ id: p_dYTNdPJMxSGg9r4QyZbNNG
 status: active
 merged_into: null
 display_name: 王嗣源
+cbdb_id: 175562
 revision: 1
 properties:
   - predicate: bio.summary

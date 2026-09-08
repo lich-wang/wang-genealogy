@@ -4,6 +4,7 @@ id: p_RFSk9U6s1PdRrrCWPSXxDg
 status: active
 merged_into: null
 display_name: 王中逵
+cbdb_id: 205715
 revision: 1
 properties:
   - predicate: bio.summary

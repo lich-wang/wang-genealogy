@@ -4,6 +4,7 @@ id: p_AaQhjwT4qUJGsYqjkKJ322
 status: active
 merged_into: null
 display_name: 王穀韋
+cbdb_id: 55952
 revision: 1
 properties:
   - predicate: bio.summary

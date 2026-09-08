@@ -4,6 +4,7 @@ id: p_YuN5uE3qLGJeHR5TVbzewa
 status: active
 merged_into: null
 display_name: 王唆郎吉歹
+cbdb_id: 101476
 revision: 1
 properties:
   - predicate: bio.summary

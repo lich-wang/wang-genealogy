@@ -4,6 +4,7 @@ id: p_uYLSGvbMEtL5nTj23DKtWW
 status: active
 merged_into: null
 display_name: 王嘉楨
+cbdb_id: 414099
 revision: 1
 properties:
   - predicate: bio.summary

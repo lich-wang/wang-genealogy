@@ -4,6 +4,7 @@ id: p_VwdLiXTLGec4EgWiCoVSn4
 status: active
 merged_into: null
 display_name: 王業惇
+cbdb_id: 414879
 revision: 1
 properties:
   - predicate: bio.summary

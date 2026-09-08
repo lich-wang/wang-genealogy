@@ -4,6 +4,7 @@ id: p_C16Ft2BrnZrwGmbVpDLcfc
 status: active
 merged_into: null
 display_name: 王紹美
+cbdb_id: 342431
 revision: 1
 properties:
   - predicate: bio.summary

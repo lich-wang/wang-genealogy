@@ -4,6 +4,7 @@ id: p_igCtmJ34q9gbxGMJ3KYXqz
 status: active
 merged_into: null
 display_name: 王殿颺
+cbdb_id: 29996
 revision: 1
 properties:
   - predicate: bio.summary

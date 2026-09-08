@@ -4,6 +4,7 @@ id: p_FXHwcoHY4AFBFWRSSNw52j
 status: active
 merged_into: null
 display_name: 王夢證
+cbdb_id: 22172
 revision: 1
 properties:
   - predicate: bio.summary

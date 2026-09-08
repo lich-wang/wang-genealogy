@@ -4,6 +4,7 @@ id: p_Tz7JDdQT3Cz479rWKkVbr6
 status: active
 merged_into: null
 display_name: 王欣
+cbdb_id: 474766
 revision: 1
 properties:
   - predicate: bio.summary

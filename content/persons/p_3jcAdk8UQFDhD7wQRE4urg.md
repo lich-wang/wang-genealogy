@@ -4,6 +4,7 @@ id: p_3jcAdk8UQFDhD7wQRE4urg
 status: active
 merged_into: null
 display_name: 王永秀
+cbdb_id: 414951
 revision: 1
 properties:
   - predicate: bio.summary

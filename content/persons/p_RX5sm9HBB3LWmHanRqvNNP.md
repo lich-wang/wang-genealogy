@@ -4,6 +4,7 @@ id: p_RX5sm9HBB3LWmHanRqvNNP
 status: active
 merged_into: null
 display_name: 王鳴岐
+cbdb_id: 343542
 revision: 1
 properties:
   - predicate: bio.summary

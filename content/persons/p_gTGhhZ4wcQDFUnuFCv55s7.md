@@ -4,6 +4,7 @@ id: p_gTGhhZ4wcQDFUnuFCv55s7
 status: active
 merged_into: null
 display_name: 王大賢
+cbdb_id: 226931
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_TgGHUeYJzrPYxnJonu3ZA6
 status: active
 merged_into: null
 display_name: 王世冬
+cbdb_id: 384845
 revision: 1
 properties:
   - predicate: bio.summary

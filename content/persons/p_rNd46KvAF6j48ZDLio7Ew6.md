@@ -4,6 +4,7 @@ id: p_rNd46KvAF6j48ZDLio7Ew6
 status: active
 merged_into: null
 display_name: 王堯明
+cbdb_id: 37962
 revision: 1
 properties:
   - predicate: bio.summary

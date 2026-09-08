@@ -4,6 +4,7 @@ id: p_MYmCtcLQMLLVJCWEXqgWgw
 status: active
 merged_into: null
 display_name: 王覬
+cbdb_id: 385853
 revision: 1
 properties:
   - predicate: bio.summary

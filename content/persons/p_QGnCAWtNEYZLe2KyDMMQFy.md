@@ -4,6 +4,7 @@ id: p_QGnCAWtNEYZLe2KyDMMQFy
 status: active
 merged_into: null
 display_name: 王金達
+cbdb_id: 515672
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_VzPQdqg74cL2wJQ6u3iSUn
 status: active
 merged_into: null
 display_name: 王啟臣
+cbdb_id: 235987
 revision: 1
 properties:
   - predicate: bio.summary

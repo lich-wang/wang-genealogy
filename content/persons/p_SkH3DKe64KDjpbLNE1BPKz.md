@@ -4,6 +4,7 @@ id: p_SkH3DKe64KDjpbLNE1BPKz
 status: active
 merged_into: null
 display_name: 王繼廉
+cbdb_id: 342229
 revision: 1
 properties:
   - predicate: bio.summary

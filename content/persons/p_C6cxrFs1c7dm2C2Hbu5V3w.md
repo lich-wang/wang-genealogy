@@ -4,6 +4,7 @@ id: p_C6cxrFs1c7dm2C2Hbu5V3w
 status: active
 merged_into: null
 display_name: 王公虞
+cbdb_id: 526678
 revision: 1
 properties:
   - predicate: bio.summary

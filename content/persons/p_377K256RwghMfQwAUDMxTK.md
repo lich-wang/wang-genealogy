@@ -4,6 +4,7 @@ id: p_377K256RwghMfQwAUDMxTK
 status: active
 merged_into: null
 display_name: 王敷政
+cbdb_id: 493979
 revision: 1
 properties:
   - predicate: bio.summary

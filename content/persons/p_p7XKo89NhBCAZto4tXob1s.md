@@ -4,6 +4,7 @@ id: p_p7XKo89NhBCAZto4tXob1s
 status: active
 merged_into: null
 display_name: 王希夔
+cbdb_id: 207197
 revision: 1
 properties:
   - predicate: bio.summary

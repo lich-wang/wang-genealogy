@@ -4,6 +4,7 @@ id: p_dfvvCkvP2ETFgDkAvCrtbD
 status: active
 merged_into: null
 display_name: 王九皋
+cbdb_id: 268143
 revision: 1
 properties:
   - predicate: bio.summary

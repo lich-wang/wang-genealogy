@@ -4,6 +4,7 @@ id: p_mjmQ8fdw2pCEZioXPtfU7q
 status: active
 merged_into: null
 display_name: 王章甫
+cbdb_id: 415213
 revision: 1
 properties:
   - predicate: bio.summary

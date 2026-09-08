@@ -4,6 +4,7 @@ id: p_syE11AesnvHZwkxsqWM3xk
 status: active
 merged_into: null
 display_name: 王學琦
+cbdb_id: 71797
 revision: 1
 properties:
   - predicate: bio.summary

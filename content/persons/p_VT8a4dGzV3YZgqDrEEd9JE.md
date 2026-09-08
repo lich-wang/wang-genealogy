@@ -4,6 +4,7 @@ id: p_VT8a4dGzV3YZgqDrEEd9JE
 status: active
 merged_into: null
 display_name: 王應官
+cbdb_id: 219867
 revision: 1
 properties:
   - predicate: bio.summary

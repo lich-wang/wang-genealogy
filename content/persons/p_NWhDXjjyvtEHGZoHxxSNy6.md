@@ -4,6 +4,7 @@ id: p_NWhDXjjyvtEHGZoHxxSNy6
 status: active
 merged_into: null
 display_name: 王實學
+cbdb_id: 306925
 revision: 1
 properties:
   - predicate: bio.summary

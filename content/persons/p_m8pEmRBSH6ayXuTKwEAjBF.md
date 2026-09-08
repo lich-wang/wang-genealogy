@@ -4,6 +4,7 @@ id: p_m8pEmRBSH6ayXuTKwEAjBF
 status: active
 merged_into: null
 display_name: 王惟真
+cbdb_id: 240858
 revision: 2
 properties:
   - predicate: bio.summary

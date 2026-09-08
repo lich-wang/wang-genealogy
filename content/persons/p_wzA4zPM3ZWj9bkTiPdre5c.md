@@ -4,6 +4,7 @@ id: p_wzA4zPM3ZWj9bkTiPdre5c
 status: active
 merged_into: null
 display_name: 王福興
+cbdb_id: 273727
 revision: 1
 properties:
   - predicate: bio.summary

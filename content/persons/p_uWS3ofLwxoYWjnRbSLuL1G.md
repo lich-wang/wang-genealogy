@@ -4,6 +4,7 @@ id: p_uWS3ofLwxoYWjnRbSLuL1G
 status: active
 merged_into: null
 display_name: 王在京
+cbdb_id: 294723
 revision: 1
 properties:
   - predicate: bio.summary

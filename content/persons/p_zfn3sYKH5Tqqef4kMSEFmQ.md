@@ -4,6 +4,7 @@ id: p_zfn3sYKH5Tqqef4kMSEFmQ
 status: active
 merged_into: null
 display_name: 王尚簡
+cbdb_id: 269876
 revision: 1
 properties:
   - predicate: bio.summary

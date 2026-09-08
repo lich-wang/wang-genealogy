@@ -4,6 +4,7 @@ id: p_HJHnZDt2KtXxAq293GJX4x
 status: active
 merged_into: null
 display_name: 王晉昇
+cbdb_id: 497069
 revision: 1
 properties:
   - predicate: bio.summary

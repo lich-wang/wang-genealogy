@@ -4,6 +4,7 @@ id: p_wSrNAdQurGDJ12t62ZtHAj
 status: active
 merged_into: null
 display_name: 王守唐
+cbdb_id: 414279
 revision: 1
 properties:
   - predicate: bio.summary

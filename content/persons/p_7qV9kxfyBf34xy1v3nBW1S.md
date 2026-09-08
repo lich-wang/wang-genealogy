@@ -4,6 +4,7 @@ id: p_7qV9kxfyBf34xy1v3nBW1S
 status: active
 merged_into: null
 display_name: 王長年
+cbdb_id: 343579
 revision: 1
 properties:
   - predicate: bio.summary

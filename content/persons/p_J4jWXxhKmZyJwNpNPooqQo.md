@@ -4,6 +4,7 @@ id: p_J4jWXxhKmZyJwNpNPooqQo
 status: active
 merged_into: null
 display_name: 王晝
+cbdb_id: 97920
 revision: 1
 properties:
   - predicate: bio.summary

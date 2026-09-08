@@ -4,6 +4,7 @@ id: p_A881rM9t1ZsBXULN5A4SBH
 status: active
 merged_into: null
 display_name: 王师逸
+cbdb_id: 175428
 revision: 1
 properties:
   - predicate: bio.summary

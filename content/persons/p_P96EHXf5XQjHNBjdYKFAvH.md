@@ -4,6 +4,7 @@ id: p_P96EHXf5XQjHNBjdYKFAvH
 status: active
 merged_into: null
 display_name: 王履沆
+cbdb_id: 72206
 revision: 1
 properties:
   - predicate: bio.summary

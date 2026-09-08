@@ -4,6 +4,7 @@ id: p_sy5UdvZm1QN2cZ2npxPeP4
 status: active
 merged_into: null
 display_name: 王容昭
+cbdb_id: 441135
 revision: 1
 properties:
   - predicate: bio.summary

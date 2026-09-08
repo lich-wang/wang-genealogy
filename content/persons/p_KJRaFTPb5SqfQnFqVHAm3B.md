@@ -4,6 +4,7 @@ id: p_KJRaFTPb5SqfQnFqVHAm3B
 status: active
 merged_into: null
 display_name: 王知白
+cbdb_id: 445676
 revision: 1
 properties:
   - predicate: bio.summary

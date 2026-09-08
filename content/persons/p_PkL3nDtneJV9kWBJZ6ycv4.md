@@ -4,6 +4,7 @@ id: p_PkL3nDtneJV9kWBJZ6ycv4
 status: active
 merged_into: null
 display_name: 王賡惠
+cbdb_id: 341606
 revision: 1
 properties:
   - predicate: bio.summary

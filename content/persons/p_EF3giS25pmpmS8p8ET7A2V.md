@@ -4,6 +4,7 @@ id: p_EF3giS25pmpmS8p8ET7A2V
 status: active
 merged_into: null
 display_name: 王家基
+cbdb_id: 69285
 revision: 1
 properties:
   - predicate: bio.summary

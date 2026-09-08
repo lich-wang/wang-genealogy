@@ -4,6 +4,7 @@ id: p_KADXczJu2XoRuXfmpoNaHr
 status: active
 merged_into: null
 display_name: 王愫
+cbdb_id: 55970
 revision: 1
 properties:
   - predicate: bio.summary

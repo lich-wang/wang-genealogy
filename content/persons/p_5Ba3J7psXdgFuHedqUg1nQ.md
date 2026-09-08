@@ -4,6 +4,7 @@ id: p_5Ba3J7psXdgFuHedqUg1nQ
 status: active
 merged_into: null
 display_name: 王尚進
+cbdb_id: 414376
 revision: 1
 properties:
   - predicate: bio.summary

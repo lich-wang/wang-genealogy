@@ -4,6 +4,7 @@ id: p_zAMNQJueCwPPKR5vjoLaAD
 status: active
 merged_into: null
 display_name: 王彦博
+cbdb_id: 26229
 revision: 2
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_evhYNbeGTEFPDfBjaanHM3
 status: active
 merged_into: null
 display_name: 王蘭庭
+cbdb_id: 343107
 revision: 1
 properties:
   - predicate: bio.summary

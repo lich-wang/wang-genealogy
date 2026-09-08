@@ -4,6 +4,7 @@ id: p_tbB7DKgBsu4kvV55eAhJXH
 status: active
 merged_into: null
 display_name: 王恩榮
+cbdb_id: 69321
 revision: 1
 properties:
   - predicate: bio.summary

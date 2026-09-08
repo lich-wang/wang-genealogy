@@ -4,6 +4,7 @@ id: p_HAaBXG5iFadS2upqBN8ZSE
 status: active
 merged_into: null
 display_name: 王婉儀
+cbdb_id: 122121
 revision: 1
 properties:
   - predicate: bio.summary

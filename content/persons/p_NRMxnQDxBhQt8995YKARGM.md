@@ -4,6 +4,7 @@ id: p_NRMxnQDxBhQt8995YKARGM
 status: active
 merged_into: null
 display_name: 王道夫
+cbdb_id: 22177
 revision: 1
 properties:
   - predicate: bio.summary

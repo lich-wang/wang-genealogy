@@ -4,6 +4,7 @@ id: p_R52ou9enwLDEw3UZNn8kjJ
 status: active
 merged_into: null
 display_name: 王本深
+cbdb_id: 292406
 revision: 1
 properties:
   - predicate: bio.summary

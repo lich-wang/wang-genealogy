@@ -4,6 +4,7 @@ id: p_Y1xx972zB5fAsNd9VJ13sZ
 status: active
 merged_into: null
 display_name: 王之瑚
+cbdb_id: 342551
 revision: 1
 properties:
   - predicate: bio.summary

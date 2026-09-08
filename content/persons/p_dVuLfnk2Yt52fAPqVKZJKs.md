@@ -4,6 +4,7 @@ id: p_dVuLfnk2Yt52fAPqVKZJKs
 status: active
 merged_into: null
 display_name: 王彥質
+cbdb_id: 237264
 revision: 1
 properties:
   - predicate: bio.summary

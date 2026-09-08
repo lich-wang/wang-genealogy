@@ -4,6 +4,7 @@ id: p_MCzGhwDdqcbLyC8aUm4opc
 status: active
 merged_into: null
 display_name: 王介夫
+cbdb_id: 101055
 revision: 1
 properties:
   - predicate: bio.summary

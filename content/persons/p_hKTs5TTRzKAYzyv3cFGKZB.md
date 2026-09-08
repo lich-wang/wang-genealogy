@@ -4,6 +4,7 @@ id: p_hKTs5TTRzKAYzyv3cFGKZB
 status: active
 merged_into: null
 display_name: 王晔
+cbdb_id: 175576
 revision: 1
 properties:
   - predicate: bio.summary

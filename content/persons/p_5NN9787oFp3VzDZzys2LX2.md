@@ -4,6 +4,7 @@ id: p_5NN9787oFp3VzDZzys2LX2
 status: active
 merged_into: null
 display_name: 王子唐
+cbdb_id: 162294
 revision: 1
 properties:
   - predicate: bio.summary

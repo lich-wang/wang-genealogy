@@ -4,6 +4,7 @@ id: p_x7W1bGjysMx89D19ZbvJC7
 status: active
 merged_into: null
 display_name: 王云耒
+cbdb_id: 413793
 revision: 1
 properties:
   - predicate: bio.summary

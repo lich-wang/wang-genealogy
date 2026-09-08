@@ -4,6 +4,7 @@ id: p_bbnLJTopGwQzLSfFyxzGkq
 status: active
 merged_into: null
 display_name: 王原遣
+cbdb_id: 284753
 revision: 1
 properties:
   - predicate: bio.summary

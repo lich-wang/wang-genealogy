@@ -4,6 +4,7 @@ id: p_rJYU2wNdxEKjJN9LTcDGkn
 status: active
 merged_into: null
 display_name: 王政資
+cbdb_id: 342081
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_SAFCH8kCyEvT1CdC95hE3x
 status: active
 merged_into: null
 display_name: 王廷繡
+cbdb_id: 414482
 revision: 1
 properties:
   - predicate: bio.summary

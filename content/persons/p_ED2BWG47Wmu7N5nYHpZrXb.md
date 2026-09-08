@@ -4,6 +4,7 @@ id: p_ED2BWG47Wmu7N5nYHpZrXb
 status: active
 merged_into: null
 display_name: 王義朝
+cbdb_id: 1826
 revision: 1
 properties:
   - predicate: bio.summary

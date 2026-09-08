@@ -4,6 +4,7 @@ id: p_rYAsS9ahUKMpizrxkDcLVs
 status: active
 merged_into: null
 display_name: 王延閣
+cbdb_id: 341957
 revision: 1
 properties:
   - predicate: bio.summary

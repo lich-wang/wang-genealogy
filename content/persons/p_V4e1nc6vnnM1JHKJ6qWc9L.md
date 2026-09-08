@@ -4,6 +4,7 @@ id: p_V4e1nc6vnnM1JHKJ6qWc9L
 status: active
 merged_into: null
 display_name: 王東泰
+cbdb_id: 248668
 revision: 1
 properties:
   - predicate: bio.summary

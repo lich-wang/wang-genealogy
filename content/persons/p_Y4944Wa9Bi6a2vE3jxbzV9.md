@@ -4,6 +4,7 @@ id: p_Y4944Wa9Bi6a2vE3jxbzV9
 status: active
 merged_into: null
 display_name: 王憲羲
+cbdb_id: 235977
 revision: 1
 properties:
   - predicate: bio.summary

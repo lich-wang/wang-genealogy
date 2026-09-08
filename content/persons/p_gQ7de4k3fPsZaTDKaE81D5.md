@@ -4,6 +4,7 @@ id: p_gQ7de4k3fPsZaTDKaE81D5
 status: active
 merged_into: null
 display_name: 王三宅
+cbdb_id: 126449
 revision: 1
 properties:
   - predicate: bio.summary

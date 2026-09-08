@@ -4,6 +4,7 @@ id: p_2Q1dVYomcAnmT39HuisWTS
 status: active
 merged_into: null
 display_name: 曾兆鳌
+cbdb_id: 374642
 revision: 2
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_sfYsvyDKQgtH9D6MQ6goUD
 status: active
 merged_into: null
 display_name: 王就見
+cbdb_id: 414385
 revision: 1
 properties:
   - predicate: bio.summary

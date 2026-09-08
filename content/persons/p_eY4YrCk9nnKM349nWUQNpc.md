@@ -4,6 +4,7 @@ id: p_eY4YrCk9nnKM349nWUQNpc
 status: active
 merged_into: null
 display_name: 王夀仁
+cbdb_id: 457098
 revision: 1
 properties:
   - predicate: bio.summary

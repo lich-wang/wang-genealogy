@@ -4,6 +4,7 @@ id: p_zPbRkqGuDNx8wqWXtZCj9n
 status: active
 merged_into: null
 display_name: 华氏
+cbdb_id: 37823
 revision: 1
 properties:
   - predicate: name.primary

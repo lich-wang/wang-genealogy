@@ -4,6 +4,7 @@ id: p_8Dg6XHckcaLtCF8z4S2GGo
 status: active
 merged_into: null
 display_name: 王行威
+cbdb_id: 139330
 revision: 1
 properties:
   - predicate: bio.summary

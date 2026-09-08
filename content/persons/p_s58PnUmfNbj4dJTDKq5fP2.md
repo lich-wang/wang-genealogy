@@ -4,6 +4,7 @@ id: p_s58PnUmfNbj4dJTDKq5fP2
 status: active
 merged_into: null
 display_name: 王同議
+cbdb_id: 326623
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_4HhziPspy354v4LvPDBTMY
 status: active
 merged_into: null
 display_name: 王錫奎
+cbdb_id: 343814
 revision: 1
 properties:
   - predicate: bio.summary

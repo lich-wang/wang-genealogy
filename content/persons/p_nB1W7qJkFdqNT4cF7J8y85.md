@@ -4,6 +4,7 @@ id: p_nB1W7qJkFdqNT4cF7J8y85
 status: active
 merged_into: null
 display_name: 王克篤
+cbdb_id: 691327
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_XMELQFzFyAw2uFqMdBr6CS
 status: active
 merged_into: null
 display_name: 王弘譽
+cbdb_id: 414507
 revision: 1
 properties:
   - predicate: bio.summary

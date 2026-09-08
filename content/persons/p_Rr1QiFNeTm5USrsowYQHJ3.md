@@ -4,6 +4,7 @@ id: p_Rr1QiFNeTm5USrsowYQHJ3
 status: active
 merged_into: null
 display_name: 王成玉
+cbdb_id: 69208
 revision: 1
 properties:
   - predicate: bio.summary

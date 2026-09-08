@@ -4,6 +4,7 @@ id: p_EPLQXRHTZWwt8GKqbYT5HG
 status: active
 merged_into: null
 display_name: 王晉燾
+cbdb_id: 71943
 revision: 1
 properties:
   - predicate: bio.summary

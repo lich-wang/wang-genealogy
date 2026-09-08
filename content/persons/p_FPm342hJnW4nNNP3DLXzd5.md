@@ -4,6 +4,7 @@ id: p_FPm342hJnW4nNNP3DLXzd5
 status: active
 merged_into: null
 display_name: 王一官
+cbdb_id: 59886
 revision: 1
 properties:
   - predicate: bio.summary

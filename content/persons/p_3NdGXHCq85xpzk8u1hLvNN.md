@@ -4,6 +4,7 @@ id: p_3NdGXHCq85xpzk8u1hLvNN
 status: active
 merged_into: null
 display_name: 王纯臣
+cbdb_id: 15753
 revision: 1
 properties:
   - predicate: name.primary

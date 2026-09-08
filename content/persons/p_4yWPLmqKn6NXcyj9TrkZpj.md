@@ -4,6 +4,7 @@ id: p_4yWPLmqKn6NXcyj9TrkZpj
 status: active
 merged_into: null
 display_name: 司马德宗
+cbdb_id: 30912
 revision: 1
 properties:
   - predicate: bio.summary

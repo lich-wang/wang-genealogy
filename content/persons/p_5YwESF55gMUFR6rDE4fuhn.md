@@ -4,6 +4,7 @@ id: p_5YwESF55gMUFR6rDE4fuhn
 status: active
 merged_into: null
 display_name: 王松秀
+cbdb_id: 30062
 revision: 1
 properties:
   - predicate: bio.summary

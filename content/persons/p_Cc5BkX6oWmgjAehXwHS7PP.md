@@ -4,6 +4,7 @@ id: p_Cc5BkX6oWmgjAehXwHS7PP
 status: active
 merged_into: null
 display_name: 王廷藻
+cbdb_id: 414485
 revision: 1
 properties:
   - predicate: bio.summary

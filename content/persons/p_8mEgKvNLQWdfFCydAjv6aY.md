@@ -4,6 +4,7 @@ id: p_8mEgKvNLQWdfFCydAjv6aY
 status: active
 merged_into: null
 display_name: 王慎貞
+cbdb_id: 151490
 revision: 1
 properties:
   - predicate: bio.summary

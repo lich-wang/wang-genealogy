@@ -4,6 +4,7 @@ id: p_fQew2SunLNyB9PtdKuJri3
 status: active
 merged_into: null
 display_name: 王鋼城
+cbdb_id: 690964
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_K7SU9AP7GmKVZSjKE1oq1N
 status: active
 merged_into: null
 display_name: 王舍宗
+cbdb_id: 265527
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_3Ai1qkYjUBdtWJB4qPpmzV
 status: active
 merged_into: null
 display_name: 王湘
+cbdb_id: 22015
 revision: 1
 properties:
   - predicate: name.primary

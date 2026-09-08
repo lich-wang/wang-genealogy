@@ -4,6 +4,7 @@ id: p_JXFpHeB2tMBVzbzTLrvJgU
 status: active
 merged_into: null
 display_name: 王德健
+cbdb_id: 342309
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_G39AdG1FxMEPRoXpdeTZVZ
 status: active
 merged_into: null
 display_name: 王季初
+cbdb_id: 144839
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_WwEJUnHYM8GD6EyQah1vEc
 status: active
 merged_into: null
 display_name: 王斗文
+cbdb_id: 45888
 revision: 1
 properties:
   - predicate: bio.summary

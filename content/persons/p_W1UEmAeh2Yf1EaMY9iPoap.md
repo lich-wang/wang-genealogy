@@ -4,6 +4,7 @@ id: p_W1UEmAeh2Yf1EaMY9iPoap
 status: active
 merged_into: null
 display_name: 王世行
+cbdb_id: 38414
 revision: 1
 properties:
   - predicate: bio.summary

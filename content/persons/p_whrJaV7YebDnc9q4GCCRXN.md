@@ -4,6 +4,7 @@ id: p_whrJaV7YebDnc9q4GCCRXN
 status: active
 merged_into: null
 display_name: 王令軌
+cbdb_id: 151779
 revision: 1
 properties:
   - predicate: bio.summary

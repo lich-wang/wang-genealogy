@@ -4,6 +4,7 @@ id: p_QijNj3iZ4NYhsZqc6vKFmE
 status: active
 merged_into: null
 display_name: 王仲楚
+cbdb_id: 286461
 revision: 1
 properties:
   - predicate: bio.summary

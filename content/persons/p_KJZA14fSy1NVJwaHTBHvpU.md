@@ -4,6 +4,7 @@ id: p_KJZA14fSy1NVJwaHTBHvpU
 status: active
 merged_into: null
 display_name: 王自臣
+cbdb_id: 501078
 revision: 1
 properties:
   - predicate: bio.summary

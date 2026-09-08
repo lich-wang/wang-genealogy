@@ -4,6 +4,7 @@ id: p_PUFKaKFAAj1aGBHLmeoVyz
 status: active
 merged_into: null
 display_name: 王友仲
+cbdb_id: 38090
 revision: 1
 properties:
   - predicate: bio.summary

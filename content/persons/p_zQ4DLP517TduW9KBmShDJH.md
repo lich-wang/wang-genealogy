@@ -4,6 +4,7 @@ id: p_zQ4DLP517TduW9KBmShDJH
 status: active
 merged_into: null
 display_name: 王有壬
+cbdb_id: 34586
 revision: 2
 properties:
   - predicate: bio.summary

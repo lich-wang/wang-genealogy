@@ -4,6 +4,7 @@ id: p_HgaWqM5nscyN4tzrPQd5UX
 status: active
 merged_into: null
 display_name: 王重賢
+cbdb_id: 202269
 revision: 1
 properties:
   - predicate: bio.summary

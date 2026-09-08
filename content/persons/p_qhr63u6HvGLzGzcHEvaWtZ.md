@@ -4,6 +4,7 @@ id: p_qhr63u6HvGLzGzcHEvaWtZ
 status: active
 merged_into: null
 display_name: 王用之
+cbdb_id: 18553
 revision: 1
 properties:
   - predicate: bio.summary

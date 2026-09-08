@@ -4,6 +4,7 @@ id: p_pQd4AMt5sB2K9aFQabekCb
 status: active
 merged_into: null
 display_name: 王憲臣
+cbdb_id: 235974
 revision: 1
 properties:
   - predicate: bio.summary

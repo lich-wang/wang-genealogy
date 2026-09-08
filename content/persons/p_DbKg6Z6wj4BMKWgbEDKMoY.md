@@ -4,6 +4,7 @@ id: p_DbKg6Z6wj4BMKWgbEDKMoY
 status: active
 merged_into: null
 display_name: 王佾
+cbdb_id: 175585
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_8cQsPSbXyxHGELWHQU9W4y
 status: active
 merged_into: null
 display_name: 王賜召
+cbdb_id: 343529
 revision: 1
 properties:
   - predicate: bio.summary

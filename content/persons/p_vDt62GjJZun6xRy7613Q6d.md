@@ -4,6 +4,7 @@ id: p_vDt62GjJZun6xRy7613Q6d
 status: active
 merged_into: null
 display_name: 王承迪
+cbdb_id: 383579
 revision: 1
 properties:
   - predicate: bio.summary

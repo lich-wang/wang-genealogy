@@ -4,6 +4,7 @@ id: p_65VMUGA6qbK4R77Pu7xNTc
 status: active
 merged_into: null
 display_name: 王起牧
+cbdb_id: 162481
 revision: 1
 properties:
   - predicate: bio.summary

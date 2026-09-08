@@ -4,6 +4,7 @@ id: p_kLmDgP69qeuoA6HRjsHa4K
 status: active
 merged_into: null
 display_name: 王映
+cbdb_id: 22007
 revision: 1
 properties:
   - predicate: bio.summary

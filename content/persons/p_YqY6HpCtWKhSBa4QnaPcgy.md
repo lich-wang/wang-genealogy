@@ -4,6 +4,7 @@ id: p_YqY6HpCtWKhSBa4QnaPcgy
 status: active
 merged_into: null
 display_name: 王芃生
+cbdb_id: 71525
 revision: 1
 properties:
   - predicate: bio.summary

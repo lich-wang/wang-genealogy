@@ -4,6 +4,7 @@ id: p_w4ezLJLy4hfFp7fG4YLjAJ
 status: active
 merged_into: null
 display_name: 王曜昇
+cbdb_id: 526803
 revision: 1
 properties:
   - predicate: bio.summary

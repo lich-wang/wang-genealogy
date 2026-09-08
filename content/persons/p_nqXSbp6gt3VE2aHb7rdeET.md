@@ -4,6 +4,7 @@ id: p_nqXSbp6gt3VE2aHb7rdeET
 status: active
 merged_into: null
 display_name: 王希烈
+cbdb_id: 126546
 revision: 1
 properties:
   - predicate: bio.summary

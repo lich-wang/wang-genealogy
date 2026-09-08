@@ -4,6 +4,7 @@ id: p_jn8aAdpcWHKWqzjQEP3keG
 status: active
 merged_into: null
 display_name: 王維振
+cbdb_id: 415249
 revision: 1
 properties:
   - predicate: bio.summary

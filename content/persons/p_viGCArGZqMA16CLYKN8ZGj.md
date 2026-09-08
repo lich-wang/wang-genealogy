@@ -4,6 +4,7 @@ id: p_viGCArGZqMA16CLYKN8ZGj
 status: active
 merged_into: null
 display_name: 王邦光
+cbdb_id: 343396
 revision: 1
 properties:
   - predicate: bio.summary

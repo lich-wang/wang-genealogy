@@ -4,6 +4,7 @@ id: p_2kqeoUNHtuY3VkNyjL441X
 status: active
 merged_into: null
 display_name: 王之誠
+cbdb_id: 307686
 revision: 1
 properties:
   - predicate: bio.summary

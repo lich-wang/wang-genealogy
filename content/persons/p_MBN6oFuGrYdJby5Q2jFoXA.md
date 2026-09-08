@@ -4,6 +4,7 @@ id: p_MBN6oFuGrYdJby5Q2jFoXA
 status: active
 merged_into: null
 display_name: 王子丕
+cbdb_id: 332822
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_nZvn7tH7hwLzHZ4aSkjukU
 status: active
 merged_into: null
 display_name: 王充榮
+cbdb_id: 238213
 revision: 1
 properties:
   - predicate: bio.summary

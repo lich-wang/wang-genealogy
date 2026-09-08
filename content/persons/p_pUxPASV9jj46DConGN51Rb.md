@@ -4,6 +4,7 @@ id: p_pUxPASV9jj46DConGN51Rb
 status: active
 merged_into: null
 display_name: 王建功
+cbdb_id: 414496
 revision: 1
 properties:
   - predicate: bio.summary

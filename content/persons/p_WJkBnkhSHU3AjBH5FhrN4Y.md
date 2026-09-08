@@ -4,6 +4,7 @@ id: p_WJkBnkhSHU3AjBH5FhrN4Y
 status: active
 merged_into: null
 display_name: 王正起
+cbdb_id: 65697
 revision: 1
 properties:
   - predicate: bio.summary

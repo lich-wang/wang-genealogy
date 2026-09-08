@@ -4,6 +4,7 @@ id: p_7KQYA5hnGXuoCHKsGtX71z
 status: active
 merged_into: null
 display_name: 王安上
+cbdb_id: 1761
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_dqbea7KC6b34QnganHGig3
 status: active
 merged_into: null
 display_name: 王允茂
+cbdb_id: 525514
 revision: 1
 properties:
   - predicate: bio.summary

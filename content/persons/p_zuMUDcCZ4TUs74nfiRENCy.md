@@ -4,6 +4,7 @@ id: p_zuMUDcCZ4TUs74nfiRENCy
 status: active
 merged_into: null
 display_name: 王希佑
+cbdb_id: 414404
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_Hgxi33jEZJCNUrJvtuJpZh
 status: active
 merged_into: null
 display_name: 王庭哲
+cbdb_id: 270483
 revision: 1
 properties:
   - predicate: bio.summary

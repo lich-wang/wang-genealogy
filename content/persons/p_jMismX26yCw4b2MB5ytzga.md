@@ -4,6 +4,7 @@ id: p_jMismX26yCw4b2MB5ytzga
 status: active
 merged_into: null
 display_name: 王守恥
+cbdb_id: 526904
 revision: 1
 properties:
   - predicate: bio.summary

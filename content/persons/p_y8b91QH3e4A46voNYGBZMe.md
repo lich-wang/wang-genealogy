@@ -4,6 +4,7 @@ id: p_y8b91QH3e4A46voNYGBZMe
 status: active
 merged_into: null
 display_name: 王嗣昌
+cbdb_id: 175559
 revision: 1
 properties:
   - predicate: bio.summary

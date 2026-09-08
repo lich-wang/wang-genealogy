@@ -4,6 +4,7 @@ id: p_g8yjPAazS4duEjdSoPu22v
 status: active
 merged_into: null
 display_name: 王通
+cbdb_id: 11965
 revision: 1
 properties:
   - predicate: bio.summary

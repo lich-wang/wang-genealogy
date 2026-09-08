@@ -4,6 +4,7 @@ id: p_7Sw9K7A1yKfAGjLy668sdN
 status: active
 merged_into: null
 display_name: 王源茂
+cbdb_id: 175456
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_JZoHTFUFRha7fZ9F5A32Rd
 status: active
 merged_into: null
 display_name: 王叔達
+cbdb_id: 35946
 revision: 1
 properties:
   - predicate: bio.summary

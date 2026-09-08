@@ -4,6 +4,7 @@ id: p_F5eJWEbAr7A8TPLP4MEWxZ
 status: active
 merged_into: null
 display_name: 王士業
+cbdb_id: 222410
 revision: 1
 properties:
   - predicate: bio.summary

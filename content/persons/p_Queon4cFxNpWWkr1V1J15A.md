@@ -4,6 +4,7 @@ id: p_Queon4cFxNpWWkr1V1J15A
 status: active
 merged_into: null
 display_name: 王都民
+cbdb_id: 415519
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_f2HMY9Wpv2H1eTSUd9ZuTu
 status: active
 merged_into: null
 display_name: 王逎槃
+cbdb_id: 342657
 revision: 1
 properties:
   - predicate: bio.summary

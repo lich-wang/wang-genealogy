@@ -4,6 +4,7 @@ id: p_JszcF75DvQZ6pd4C7c74ci
 status: active
 merged_into: null
 display_name: 王登龍
+cbdb_id: 415147
 revision: 1
 properties:
   - predicate: bio.summary

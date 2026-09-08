@@ -4,6 +4,7 @@ id: p_UP87EPPKs8Z4AJzk3Lt574
 status: active
 merged_into: null
 display_name: 王鳳英
+cbdb_id: 121661
 revision: 1
 properties:
   - predicate: bio.summary

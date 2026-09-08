@@ -4,6 +4,7 @@ id: p_htnTsymFpY6c3cH3oB4jPS
 status: active
 merged_into: null
 display_name: 王繼學
+cbdb_id: 285309
 revision: 1
 properties:
   - predicate: bio.summary

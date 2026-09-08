@@ -4,6 +4,7 @@ id: p_VJppnzH8QEnRzy4cuHqGDc
 status: active
 merged_into: null
 display_name: 王文亮
+cbdb_id: 19904
 revision: 1
 properties:
   - predicate: bio.summary

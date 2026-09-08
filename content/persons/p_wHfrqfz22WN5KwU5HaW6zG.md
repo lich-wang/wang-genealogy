@@ -4,6 +4,7 @@ id: p_wHfrqfz22WN5KwU5HaW6zG
 status: active
 merged_into: null
 display_name: 王仁著
+cbdb_id: 38322
 revision: 1
 properties:
   - predicate: bio.summary

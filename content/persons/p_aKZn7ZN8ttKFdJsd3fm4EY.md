@@ -4,6 +4,7 @@ id: p_aKZn7ZN8ttKFdJsd3fm4EY
 status: active
 merged_into: null
 display_name: 王允誠
+cbdb_id: 454005
 revision: 1
 properties:
   - predicate: bio.summary

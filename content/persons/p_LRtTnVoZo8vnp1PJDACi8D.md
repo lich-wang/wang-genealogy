@@ -4,6 +4,7 @@ id: p_LRtTnVoZo8vnp1PJDACi8D
 status: active
 merged_into: null
 display_name: 王智之
+cbdb_id: 414809
 revision: 1
 properties:
   - predicate: bio.summary

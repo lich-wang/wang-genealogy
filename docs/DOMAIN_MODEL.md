@@ -42,6 +42,7 @@ Markdown front matter 字段：
 - `status`：`candidate`、`active`、`merged`、`suppressed`；
 - `merged_into`：软合并目标；
 - `display_name`：构建期标题摘要；
+- `cbdb_id`：可选的中国历代人物传记资料库（CBDB）人物编号；仅在来源已确认同一人物时填写，为无前缀的正整数。构建产物据此生成官方 CBDB 记录链接；
 - `revision`：当前文件内的内容版本提示；
 - `properties`、`relationships`：结构化主张集合。
 

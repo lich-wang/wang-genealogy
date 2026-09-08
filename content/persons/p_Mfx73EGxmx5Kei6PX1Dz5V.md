@@ -4,6 +4,7 @@ id: p_Mfx73EGxmx5Kei6PX1Dz5V
 status: active
 merged_into: null
 display_name: 王濡
+cbdb_id: 175454
 revision: 1
 properties:
   - predicate: bio.summary

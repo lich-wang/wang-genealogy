@@ -4,6 +4,7 @@ id: p_tY3fUuR3KqLB96ee5sqys8
 status: active
 merged_into: null
 display_name: 王傚通
+cbdb_id: 342457
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_uTkvzk6QHh8QoakbQmViKF
 status: active
 merged_into: null
 display_name: 王仙期
+cbdb_id: 170105
 revision: 1
 properties:
   - predicate: bio.summary

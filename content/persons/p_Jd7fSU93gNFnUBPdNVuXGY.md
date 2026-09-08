@@ -4,6 +4,7 @@ id: p_Jd7fSU93gNFnUBPdNVuXGY
 status: active
 merged_into: null
 display_name: 王尺水
+cbdb_id: 513589
 revision: 1
 properties:
   - predicate: bio.summary

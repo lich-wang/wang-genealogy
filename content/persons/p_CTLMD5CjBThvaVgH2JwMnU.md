@@ -4,6 +4,7 @@ id: p_CTLMD5CjBThvaVgH2JwMnU
 status: active
 merged_into: null
 display_name: 王至卿
+cbdb_id: 38729
 revision: 1
 properties:
   - predicate: bio.summary

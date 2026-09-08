@@ -4,6 +4,7 @@ id: p_cBQwe7c25qRNWE1KYeNJiV
 status: active
 merged_into: null
 display_name: 王銓孫
+cbdb_id: 514238
 revision: 1
 properties:
   - predicate: bio.summary

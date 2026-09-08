@@ -4,6 +4,7 @@ id: p_e5Yxa17z8LMgF4Ftp8xCBu
 status: active
 merged_into: null
 display_name: 王兆萬
+cbdb_id: 413928
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_X23xHeJUCkj9HMMZ6z8PNj
 status: active
 merged_into: null
 display_name: 王坚儿
+cbdb_id: 158880
 revision: 1
 properties:
   - predicate: bio.summary

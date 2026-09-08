@@ -4,6 +4,7 @@ id: p_6rpmDD8DWh62mNVGvwDKAF
 status: active
 merged_into: null
 display_name: 王嘉徴
+cbdb_id: 414095
 revision: 1
 properties:
   - predicate: bio.summary

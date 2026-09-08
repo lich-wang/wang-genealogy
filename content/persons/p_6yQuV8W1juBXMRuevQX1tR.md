@@ -4,6 +4,7 @@ id: p_6yQuV8W1juBXMRuevQX1tR
 status: active
 merged_into: null
 display_name: 王良翁
+cbdb_id: 38963
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_nrNeCS9BGJQYEnPXHdP1Fo
 status: active
 merged_into: null
 display_name: 王奕仁
+cbdb_id: 67123
 revision: 1
 properties:
   - predicate: bio.summary

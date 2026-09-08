@@ -4,6 +4,7 @@ id: p_f9DmRms8APfAby8NBxEDgt
 status: active
 merged_into: null
 display_name: 王子揆
+cbdb_id: 23702
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_b3oZxxFmxM1dmXgZ15xed3
 status: active
 merged_into: null
 display_name: 王惟清
+cbdb_id: 27692
 revision: 1
 properties:
   - predicate: bio.summary

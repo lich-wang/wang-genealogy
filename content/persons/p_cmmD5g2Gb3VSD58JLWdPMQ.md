@@ -4,6 +4,7 @@ id: p_cmmD5g2Gb3VSD58JLWdPMQ
 status: active
 merged_into: null
 display_name: 王之琪
+cbdb_id: 413756
 revision: 1
 properties:
   - predicate: bio.summary

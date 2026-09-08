@@ -4,6 +4,7 @@ id: p_FF1YrD4c7XEFnhopiUqjtj
 status: active
 merged_into: null
 display_name: 王旭齡
+cbdb_id: 343232
 revision: 1
 properties:
   - predicate: bio.summary

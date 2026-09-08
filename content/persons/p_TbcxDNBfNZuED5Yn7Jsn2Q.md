@@ -4,6 +4,7 @@ id: p_TbcxDNBfNZuED5Yn7Jsn2Q
 status: active
 merged_into: null
 display_name: 王允陟
+cbdb_id: 413897
 revision: 1
 properties:
   - predicate: bio.summary

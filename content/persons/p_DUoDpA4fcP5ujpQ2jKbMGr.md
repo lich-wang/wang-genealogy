@@ -4,6 +4,7 @@ id: p_DUoDpA4fcP5ujpQ2jKbMGr
 status: active
 merged_into: null
 display_name: 王子興
+cbdb_id: 525127
 revision: 1
 properties:
   - predicate: bio.summary

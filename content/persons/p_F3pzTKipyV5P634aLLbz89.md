@@ -4,6 +4,7 @@ id: p_F3pzTKipyV5P634aLLbz89
 status: active
 merged_into: null
 display_name: 王堵
+cbdb_id: 225731
 revision: 1
 properties:
   - predicate: bio.summary

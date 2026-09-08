@@ -4,6 +4,7 @@ id: p_kCoUDxYM8cp6BYEAe11GNA
 status: active
 merged_into: null
 display_name: 王英英
+cbdb_id: 37887
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_V1xQXGfzDq3c5T2mntyP9z
 status: active
 merged_into: null
 display_name: 王會隆
+cbdb_id: 414823
 revision: 1
 properties:
   - predicate: bio.summary

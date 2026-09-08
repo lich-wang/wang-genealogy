@@ -4,6 +4,7 @@ id: p_P2RiNto8sumSvUL2j6eniw
 status: active
 merged_into: null
 display_name: 王時溫
+cbdb_id: 299506
 revision: 1
 properties:
   - predicate: bio.summary

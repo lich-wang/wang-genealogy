@@ -4,6 +4,7 @@ id: p_w1phGC972ufLghUdwgcHPa
 status: active
 merged_into: null
 display_name: 王毓菁
+cbdb_id: 414934
 revision: 1
 properties:
   - predicate: bio.summary

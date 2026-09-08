@@ -4,6 +4,7 @@ id: p_fnQo19rEG5m89KE5ETgumg
 status: active
 merged_into: null
 display_name: 王廷筠
+cbdb_id: 414480
 revision: 1
 properties:
   - predicate: bio.summary

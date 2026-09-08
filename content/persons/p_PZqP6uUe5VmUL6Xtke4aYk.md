@@ -4,6 +4,7 @@ id: p_PZqP6uUe5VmUL6Xtke4aYk
 status: active
 merged_into: null
 display_name: 王廷霈
+cbdb_id: 341906
 revision: 1
 properties:
   - predicate: bio.summary

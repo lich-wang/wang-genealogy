@@ -4,6 +4,7 @@ id: p_bAv4kZDZikFJRJLuqKPuii
 status: active
 merged_into: null
 display_name: 王溥文
+cbdb_id: 444985
 revision: 1
 properties:
   - predicate: bio.summary

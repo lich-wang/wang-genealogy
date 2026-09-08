@@ -4,6 +4,7 @@ id: p_fmFzhAjduymGbkCjtQ3i8K
 status: active
 merged_into: null
 display_name: 王师锡
+cbdb_id: 38062
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_EVLq7xAUTLGpaeFfQpgjH5
 status: active
 merged_into: null
 display_name: 周氏
+cbdb_id: 264941
 revision: 1
 properties:
   - predicate: bio.summary

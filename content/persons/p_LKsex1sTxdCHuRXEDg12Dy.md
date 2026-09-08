@@ -4,6 +4,7 @@ id: p_LKsex1sTxdCHuRXEDg12Dy
 status: active
 merged_into: null
 display_name: 王齊休
+cbdb_id: 175865
 revision: 1
 properties:
   - predicate: bio.summary

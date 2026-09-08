@@ -4,6 +4,7 @@ id: p_LzjdCGakLRWmznAdSFNuyP
 status: active
 merged_into: null
 display_name: 王妙璘
+cbdb_id: 101210
 revision: 1
 properties:
   - predicate: bio.summary

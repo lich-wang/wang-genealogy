@@ -4,6 +4,7 @@ id: p_6JoYFcFq1UGafVc1R52LBD
 status: active
 merged_into: null
 display_name: 王保健
+cbdb_id: 342375
 revision: 1
 properties:
   - predicate: bio.summary

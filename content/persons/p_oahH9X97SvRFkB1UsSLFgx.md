@@ -4,6 +4,7 @@ id: p_oahH9X97SvRFkB1UsSLFgx
 status: active
 merged_into: null
 display_name: 王國勳
+cbdb_id: 212071
 revision: 1
 properties:
   - predicate: bio.summary

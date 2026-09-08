@@ -4,6 +4,7 @@ id: p_4otBg1xjFfpjDCBKCwjG7N
 status: active
 merged_into: null
 display_name: 王會典
+cbdb_id: 329994
 revision: 1
 properties:
   - predicate: bio.summary

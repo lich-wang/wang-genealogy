@@ -4,6 +4,7 @@ id: p_yC6J3X1CgHu8NBNyJ1EDht
 status: active
 merged_into: null
 display_name: 王星源
+cbdb_id: 517406
 revision: 1
 properties:
   - predicate: bio.summary

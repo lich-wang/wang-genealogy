@@ -4,6 +4,7 @@ id: p_U3w11r9F31b7NJ97fzFhke
 status: active
 merged_into: null
 display_name: 王世充
+cbdb_id: 134932
 revision: 1
 properties:
   - predicate: bio.summary

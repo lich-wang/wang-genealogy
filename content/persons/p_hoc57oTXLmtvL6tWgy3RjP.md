@@ -4,6 +4,7 @@ id: p_hoc57oTXLmtvL6tWgy3RjP
 status: active
 merged_into: null
 display_name: 王孫蕃
+cbdb_id: 71641
 revision: 1
 properties:
   - predicate: bio.summary

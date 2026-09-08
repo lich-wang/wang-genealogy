@@ -4,6 +4,7 @@ id: p_7DijCkeXFY4spP845PqeSc
 status: active
 merged_into: null
 display_name: 王乙齋
+cbdb_id: 511590
 revision: 1
 properties:
   - predicate: bio.summary

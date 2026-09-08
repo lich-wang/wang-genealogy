@@ -4,6 +4,7 @@ id: p_iativ75NAKz8dhNEqi3Swi
 status: active
 merged_into: null
 display_name: 王咸宜
+cbdb_id: 414060
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_2y3zcjSddC9WuWn1GXL3w6
 status: active
 merged_into: null
 display_name: 王崇雅
+cbdb_id: 302978
 revision: 1
 properties:
   - predicate: bio.summary

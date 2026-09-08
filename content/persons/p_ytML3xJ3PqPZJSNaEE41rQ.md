@@ -4,6 +4,7 @@ id: p_ytML3xJ3PqPZJSNaEE41rQ
 status: active
 merged_into: null
 display_name: 王簡之
+cbdb_id: 343858
 revision: 1
 properties:
   - predicate: bio.summary

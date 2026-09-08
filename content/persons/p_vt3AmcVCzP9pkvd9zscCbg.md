@@ -4,6 +4,7 @@ id: p_vt3AmcVCzP9pkvd9zscCbg
 status: active
 merged_into: null
 display_name: 王學吾
+cbdb_id: 287453
 revision: 1
 properties:
   - predicate: bio.summary

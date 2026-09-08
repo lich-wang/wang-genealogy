@@ -4,6 +4,7 @@ id: p_cRoBKjPjEZXjWG3ryj94j3
 status: active
 merged_into: null
 display_name: 王子昂
+cbdb_id: 154554
 revision: 1
 properties:
   - predicate: bio.summary

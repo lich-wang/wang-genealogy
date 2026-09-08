@@ -4,6 +4,7 @@ id: p_QBQLEZ5UPwMpuCqz2RCFSi
 status: active
 merged_into: null
 display_name: 王嘉兆
+cbdb_id: 225806
 revision: 1
 properties:
   - predicate: bio.summary

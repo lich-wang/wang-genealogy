@@ -4,6 +4,7 @@ id: p_17oK99DspuBT9okPYzji4T
 status: active
 merged_into: null
 display_name: 王綏之
+cbdb_id: 326827
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_EswMvP7VGuydnr4Xe2zHpk
 status: active
 merged_into: null
 display_name: 王肅時
+cbdb_id: 210675
 revision: 1
 properties:
   - predicate: bio.summary

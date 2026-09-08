@@ -4,6 +4,7 @@ id: p_6ZA1HPpsbqBBBsxMD2HU8E
 status: active
 merged_into: null
 display_name: 王有守
+cbdb_id: 309081
 revision: 1
 properties:
   - predicate: bio.summary

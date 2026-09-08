@@ -4,6 +4,7 @@ id: p_pvz638Q4DBZ9hFCRxEPGiN
 status: active
 merged_into: null
 display_name: 王徵霞
+cbdb_id: 414553
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_ZTcnfCa91iQV3tKzMmrvPP
 status: active
 merged_into: null
 display_name: 王功懋
+cbdb_id: 413988
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_S3wL46qhSVMW3TDdGUdqcU
 status: active
 merged_into: null
 display_name: 王緯之
+cbdb_id: 326825
 revision: 1
 properties:
   - predicate: bio.summary

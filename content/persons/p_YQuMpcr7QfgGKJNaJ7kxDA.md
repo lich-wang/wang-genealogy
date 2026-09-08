@@ -4,6 +4,7 @@ id: p_YQuMpcr7QfgGKJNaJ7kxDA
 status: active
 merged_into: null
 display_name: 王安仁
+cbdb_id: 21944
 revision: 1
 properties:
   - predicate: bio.summary

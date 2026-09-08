@@ -4,6 +4,7 @@ id: p_CJhV3iHxp58rQ5FFcEEMAN
 status: active
 merged_into: null
 display_name: 王替化
+cbdb_id: 336311
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_KxFfNRE66F6ARrWit1GcZu
 status: active
 merged_into: null
 display_name: 王宸儁
+cbdb_id: 414356
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_2z5tUJ2dGDBX5WDfNKnMNw
 status: active
 merged_into: null
 display_name: 王吉臣
+cbdb_id: 414039
 revision: 1
 properties:
   - predicate: bio.summary

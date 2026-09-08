@@ -4,6 +4,7 @@ id: p_QqV1SEU1pVLf7c6DabGMkj
 status: active
 merged_into: null
 display_name: 王宗烈
+cbdb_id: 12564
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_dfzESDPuANZ9Fjx8g1Pg45
 status: active
 merged_into: null
 display_name: 王李氏
+cbdb_id: 520359
 revision: 1
 properties:
   - predicate: bio.summary

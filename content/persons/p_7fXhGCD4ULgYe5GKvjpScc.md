@@ -4,6 +4,7 @@ id: p_7fXhGCD4ULgYe5GKvjpScc
 status: active
 merged_into: null
 display_name: 王峪
+cbdb_id: 100753
 revision: 1
 properties:
   - predicate: bio.summary

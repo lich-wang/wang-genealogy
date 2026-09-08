@@ -4,6 +4,7 @@ id: p_FJ6SmLeBzpcP6D9LgcDubz
 status: active
 merged_into: null
 display_name: 王福山
+cbdb_id: 518982
 revision: 1
 properties:
   - predicate: bio.summary

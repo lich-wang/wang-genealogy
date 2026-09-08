@@ -4,6 +4,7 @@ id: p_zjQMXTGNWTchLi9wmdCnEK
 status: active
 merged_into: null
 display_name: 王澤宏
+cbdb_id: 69467
 revision: 1
 properties:
   - predicate: bio.summary

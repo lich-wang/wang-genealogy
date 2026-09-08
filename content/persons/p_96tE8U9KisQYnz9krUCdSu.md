@@ -4,6 +4,7 @@ id: p_96tE8U9KisQYnz9krUCdSu
 status: active
 merged_into: null
 display_name: 王充之
+cbdb_id: 28901
 revision: 1
 properties:
   - predicate: bio.summary

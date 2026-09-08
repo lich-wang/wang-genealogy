@@ -4,6 +4,7 @@ id: p_vEhXCL8FygQQwURMRVeMJc
 status: active
 merged_into: null
 display_name: 王长文
+cbdb_id: 175463
 revision: 1
 properties:
   - predicate: bio.summary

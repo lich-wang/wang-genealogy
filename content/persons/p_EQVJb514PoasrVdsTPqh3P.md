@@ -4,6 +4,7 @@ id: p_EQVJb514PoasrVdsTPqh3P
 status: active
 merged_into: null
 display_name: 王羨
+cbdb_id: 379921
 revision: 1
 properties:
   - predicate: bio.summary

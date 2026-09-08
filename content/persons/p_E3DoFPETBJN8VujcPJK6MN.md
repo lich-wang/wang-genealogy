@@ -4,6 +4,7 @@ id: p_E3DoFPETBJN8VujcPJK6MN
 status: active
 merged_into: null
 display_name: 王憲之
+cbdb_id: 97899
 revision: 1
 properties:
   - predicate: bio.summary

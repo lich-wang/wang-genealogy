@@ -4,6 +4,7 @@ id: p_YK7ABNV6dntqReNgEsTPMp
 status: active
 merged_into: null
 display_name: 司马遹
+cbdb_id: 135465
 revision: 1
 properties:
   - predicate: bio.summary

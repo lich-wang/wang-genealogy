@@ -4,6 +4,7 @@ id: p_eLdavBPNJZKt5GB8Gq63SW
 status: active
 merged_into: null
 display_name: 王修仁
+cbdb_id: 413881
 revision: 1
 properties:
   - predicate: bio.summary

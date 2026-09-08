@@ -4,6 +4,7 @@ id: p_vQFziafcft1ddvfSB8y785
 status: active
 merged_into: null
 display_name: 王拜住
+cbdb_id: 414690
 revision: 1
 properties:
   - predicate: bio.summary

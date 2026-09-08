@@ -4,6 +4,7 @@ id: p_E19bLoRN6jgDD6aKqAtJRM
 status: active
 merged_into: null
 display_name: 王樹實
+cbdb_id: 441263
 revision: 1
 properties:
   - predicate: bio.summary

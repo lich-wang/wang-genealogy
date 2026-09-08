@@ -4,6 +4,7 @@ id: p_Mvmjiz1iw5AW2FEWxvhUEU
 status: active
 merged_into: null
 display_name: 王世琇
+cbdb_id: 124395
 revision: 1
 properties:
   - predicate: bio.summary

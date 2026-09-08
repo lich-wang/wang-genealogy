@@ -4,6 +4,7 @@ id: p_zJhNe3iRSgrv4HAPpX8Ex2
 status: active
 merged_into: null
 display_name: 王用亨
+cbdb_id: 38502
 revision: 1
 properties:
   - predicate: bio.summary

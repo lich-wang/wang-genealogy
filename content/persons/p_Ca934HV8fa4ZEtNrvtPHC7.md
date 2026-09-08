@@ -4,6 +4,7 @@ id: p_Ca934HV8fa4ZEtNrvtPHC7
 status: active
 merged_into: null
 display_name: 王重道
+cbdb_id: 295413
 revision: 1
 properties:
   - predicate: bio.summary

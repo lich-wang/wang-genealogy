@@ -4,6 +4,7 @@ id: p_dbuMbmu68k6GPq87A8FC4Q
 status: active
 merged_into: null
 display_name: 王興慈
+cbdb_id: 461143
 revision: 1
 properties:
   - predicate: bio.summary

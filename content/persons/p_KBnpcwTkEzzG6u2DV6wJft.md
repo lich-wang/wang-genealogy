@@ -4,6 +4,7 @@ id: p_KBnpcwTkEzzG6u2DV6wJft
 status: active
 merged_into: null
 display_name: 王印臣
+cbdb_id: 414010
 revision: 1
 properties:
   - predicate: bio.summary

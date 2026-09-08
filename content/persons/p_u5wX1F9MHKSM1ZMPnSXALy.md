@@ -4,6 +4,7 @@ id: p_u5wX1F9MHKSM1ZMPnSXALy
 status: active
 merged_into: null
 display_name: 王伯瑛
+cbdb_id: 247599
 revision: 1
 properties:
   - predicate: bio.summary

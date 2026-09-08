@@ -4,6 +4,7 @@ id: p_LA48PYUBz9UqNhUBMVSZH1
 status: active
 merged_into: null
 display_name: 王覲宸
+cbdb_id: 343239
 revision: 1
 properties:
   - predicate: bio.summary

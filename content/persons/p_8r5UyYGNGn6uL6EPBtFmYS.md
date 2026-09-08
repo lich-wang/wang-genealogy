@@ -4,6 +4,7 @@ id: p_8r5UyYGNGn6uL6EPBtFmYS
 status: active
 merged_into: null
 display_name: 王謹言
+cbdb_id: 38368
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_fbcjmX688Gs2kLT5MbYSLr
 status: active
 merged_into: null
 display_name: 王伯堅
+cbdb_id: 273594
 revision: 1
 properties:
   - predicate: bio.summary

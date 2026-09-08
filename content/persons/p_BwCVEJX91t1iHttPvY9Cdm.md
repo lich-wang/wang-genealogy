@@ -4,6 +4,7 @@ id: p_BwCVEJX91t1iHttPvY9Cdm
 status: active
 merged_into: null
 display_name: 王宸佶
+cbdb_id: 342544
 revision: 1
 properties:
   - predicate: bio.summary

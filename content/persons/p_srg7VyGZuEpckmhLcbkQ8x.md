@@ -4,6 +4,7 @@ id: p_srg7VyGZuEpckmhLcbkQ8x
 status: active
 merged_into: null
 display_name: 王萬夫
+cbdb_id: 36116
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_1vb9HNS5ThpsdB5pVrwZ7j
 status: active
 merged_into: null
 display_name: 王乘
+cbdb_id: 38150
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_zJtLB5vPKruAcnUFcgzTvS
 status: active
 merged_into: null
 display_name: 王企堂
+cbdb_id: 471120
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_EoDRNiMrfw4KyjE24nphY6
 status: active
 merged_into: null
 display_name: 王伯翼
+cbdb_id: 101186
 revision: 1
 properties:
   - predicate: bio.summary

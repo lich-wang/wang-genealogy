@@ -4,6 +4,7 @@ id: p_XB7Kxjd9dm6dR7wGBfFHhy
 status: active
 merged_into: null
 display_name: 王禮禎
+cbdb_id: 415196
 revision: 1
 properties:
   - predicate: bio.summary

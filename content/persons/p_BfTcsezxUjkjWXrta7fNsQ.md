@@ -4,6 +4,7 @@ id: p_BfTcsezxUjkjWXrta7fNsQ
 status: active
 merged_into: null
 display_name: 王束
+cbdb_id: 525762
 revision: 1
 properties:
   - predicate: bio.summary

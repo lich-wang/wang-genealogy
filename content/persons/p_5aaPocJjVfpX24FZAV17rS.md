@@ -4,6 +4,7 @@ id: p_5aaPocJjVfpX24FZAV17rS
 status: active
 merged_into: null
 display_name: 王應嵩
+cbdb_id: 297016
 revision: 1
 properties:
   - predicate: bio.summary

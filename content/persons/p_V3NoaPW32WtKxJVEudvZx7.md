@@ -4,6 +4,7 @@ id: p_V3NoaPW32WtKxJVEudvZx7
 status: active
 merged_into: null
 display_name: 王三鑑
+cbdb_id: 279881
 revision: 1
 properties:
   - predicate: bio.summary

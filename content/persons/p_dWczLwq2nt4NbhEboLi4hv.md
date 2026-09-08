@@ -4,6 +4,7 @@ id: p_dWczLwq2nt4NbhEboLi4hv
 status: active
 merged_into: null
 display_name: 王逵
+cbdb_id: 158714
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_gg4X88WChFbJy2DVbDJGyu
 status: active
 merged_into: null
 display_name: 王弘慶
+cbdb_id: 185063
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_29J8nWJ8RkktrTK6SHXgwJ
 status: active
 merged_into: null
 display_name: 王人英
+cbdb_id: 45861
 revision: 1
 properties:
   - predicate: bio.summary

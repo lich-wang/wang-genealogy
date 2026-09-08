@@ -4,6 +4,7 @@ id: p_59ArzFs44vkWcsELWr4q9e
 status: active
 merged_into: null
 display_name: 王符雯
+cbdb_id: 526811
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_j1EQwBRr8jvQr1qcKXLVj7
 status: active
 merged_into: null
 display_name: 王弘寂
+cbdb_id: 160795
 revision: 1
 properties:
   - predicate: bio.summary

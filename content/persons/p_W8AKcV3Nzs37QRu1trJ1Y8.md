@@ -4,6 +4,7 @@ id: p_W8AKcV3Nzs37QRu1trJ1Y8
 status: active
 merged_into: null
 display_name: 王本華
+cbdb_id: 414856
 revision: 1
 properties:
   - predicate: bio.summary

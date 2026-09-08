@@ -4,6 +4,7 @@ id: p_F8AaKsMPDv95sczjmVffH9
 status: active
 merged_into: null
 display_name: 王憲儉
+cbdb_id: 235991
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_PKPnxZYET1wxYB5DroJAiD
 status: active
 merged_into: null
 display_name: 王暖
+cbdb_id: 247368
 revision: 1
 properties:
   - predicate: bio.summary

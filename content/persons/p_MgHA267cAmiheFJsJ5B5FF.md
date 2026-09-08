@@ -4,6 +4,7 @@ id: p_MgHA267cAmiheFJsJ5B5FF
 status: active
 merged_into: null
 display_name: 王建康
+cbdb_id: 414497
 revision: 1
 properties:
   - predicate: bio.summary

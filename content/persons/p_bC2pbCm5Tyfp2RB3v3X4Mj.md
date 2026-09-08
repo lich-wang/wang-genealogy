@@ -4,6 +4,7 @@ id: p_bC2pbCm5Tyfp2RB3v3X4Mj
 status: active
 merged_into: null
 display_name: 王守善
+cbdb_id: 414280
 revision: 1
 properties:
   - predicate: bio.summary

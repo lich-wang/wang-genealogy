@@ -4,6 +4,7 @@ id: p_S3MwG2kKk5brnwtbib7BVJ
 status: active
 merged_into: null
 display_name: 王同恩
+cbdb_id: 154138
 revision: 1
 properties:
   - predicate: bio.summary

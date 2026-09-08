@@ -4,6 +4,7 @@ id: p_FCxCpCKAFqgabhzbL3SyJC
 status: active
 merged_into: null
 display_name: 王從浩
+cbdb_id: 10683
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_GAScAhQ4S5kNKYEH1hjeS7
 status: active
 merged_into: null
 display_name: 王子謹
+cbdb_id: 267624
 revision: 1
 properties:
   - predicate: bio.summary

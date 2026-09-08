@@ -4,6 +4,7 @@ id: p_h8sJHgEUaQHScKxtt1BkuB
 status: active
 merged_into: null
 display_name: 王宣清
+cbdb_id: 254948
 revision: 1
 properties:
   - predicate: bio.summary

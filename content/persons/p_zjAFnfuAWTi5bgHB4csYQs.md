@@ -4,6 +4,7 @@ id: p_zjAFnfuAWTi5bgHB4csYQs
 status: active
 merged_into: null
 display_name: 王如玉
+cbdb_id: 71636
 revision: 1
 properties:
   - predicate: bio.summary

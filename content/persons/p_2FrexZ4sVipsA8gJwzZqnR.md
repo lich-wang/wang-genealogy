@@ -4,6 +4,7 @@ id: p_2FrexZ4sVipsA8gJwzZqnR
 status: active
 merged_into: null
 display_name: 王道固
+cbdb_id: 175587
 revision: 1
 properties:
   - predicate: bio.summary

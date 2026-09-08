@@ -4,6 +4,7 @@ id: p_MvW31q6RrSYAK9X67TBbdU
 status: active
 merged_into: null
 display_name: 王愷伯
+cbdb_id: 414619
 revision: 1
 properties:
   - predicate: bio.summary

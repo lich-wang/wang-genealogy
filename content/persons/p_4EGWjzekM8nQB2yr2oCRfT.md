@@ -4,6 +4,7 @@ id: p_4EGWjzekM8nQB2yr2oCRfT
 status: active
 merged_into: null
 display_name: 王瑞璋
+cbdb_id: 526801
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_i5E5HFsxLpYVf6HhNWMR82
 status: active
 merged_into: null
 display_name: 王千秋
+cbdb_id: 45887
 revision: 1
 properties:
   - predicate: bio.summary

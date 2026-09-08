@@ -4,6 +4,7 @@ id: p_rraFGLTYB58U7anuduBTPf
 status: active
 merged_into: null
 display_name: 王宗睿
+cbdb_id: 240892
 revision: 1
 properties:
   - predicate: bio.summary

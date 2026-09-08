@@ -4,6 +4,7 @@ id: p_DTH2rCsEKqTDBH8mjeGqkt
 status: active
 merged_into: null
 display_name: 王獻書
+cbdb_id: 312065
 revision: 1
 properties:
   - predicate: bio.summary

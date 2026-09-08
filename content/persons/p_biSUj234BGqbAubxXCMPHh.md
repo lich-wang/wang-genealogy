@@ -4,6 +4,7 @@ id: p_biSUj234BGqbAubxXCMPHh
 status: active
 merged_into: null
 display_name: 王君濟
+cbdb_id: 386168
 revision: 1
 properties:
   - predicate: bio.summary

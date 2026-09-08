@@ -4,6 +4,7 @@ id: p_GaH3ELMWjmtFhbmAVyycQM
 status: active
 merged_into: null
 display_name: 王有樹
+cbdb_id: 342988
 revision: 1
 properties:
   - predicate: bio.summary

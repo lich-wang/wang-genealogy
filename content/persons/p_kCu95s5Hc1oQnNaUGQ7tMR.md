@@ -4,6 +4,7 @@ id: p_kCu95s5Hc1oQnNaUGQ7tMR
 status: active
 merged_into: null
 display_name: 王謹禮
+cbdb_id: 38369
 revision: 1
 properties:
   - predicate: bio.summary

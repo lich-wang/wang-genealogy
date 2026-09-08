@@ -4,6 +4,7 @@ id: p_q8fWA7FFJMZ1QDsVLnZF5K
 status: active
 merged_into: null
 display_name: 王自任
+cbdb_id: 415314
 revision: 1
 properties:
   - predicate: bio.summary

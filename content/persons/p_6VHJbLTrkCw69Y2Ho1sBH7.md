@@ -4,6 +4,7 @@ id: p_6VHJbLTrkCw69Y2Ho1sBH7
 status: active
 merged_into: null
 display_name: 王象节
+cbdb_id: 207553
 revision: 2
 properties:
   - predicate: bio.summary

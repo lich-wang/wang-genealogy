@@ -4,6 +4,7 @@ id: p_xJckw5M7s3953PwfjKtPgj
 status: active
 merged_into: null
 display_name: 王東溪
+cbdb_id: 261338
 revision: 1
 properties:
   - predicate: bio.summary

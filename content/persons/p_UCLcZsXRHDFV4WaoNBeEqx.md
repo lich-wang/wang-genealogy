@@ -4,6 +4,7 @@ id: p_UCLcZsXRHDFV4WaoNBeEqx
 status: active
 merged_into: null
 display_name: 王國翰
+cbdb_id: 414131
 revision: 1
 properties:
   - predicate: bio.summary

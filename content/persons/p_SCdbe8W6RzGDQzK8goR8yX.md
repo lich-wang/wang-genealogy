@@ -4,6 +4,7 @@ id: p_SCdbe8W6RzGDQzK8goR8yX
 status: active
 merged_into: null
 display_name: 王仲清
+cbdb_id: 413843
 revision: 1
 properties:
   - predicate: bio.summary

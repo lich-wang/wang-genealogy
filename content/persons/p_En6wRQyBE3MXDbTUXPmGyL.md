@@ -4,6 +4,7 @@ id: p_En6wRQyBE3MXDbTUXPmGyL
 status: active
 merged_into: null
 display_name: 王元烈
+cbdb_id: 413909
 revision: 1
 properties:
   - predicate: bio.summary

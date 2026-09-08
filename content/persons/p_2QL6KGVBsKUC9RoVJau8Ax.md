@@ -4,6 +4,7 @@ id: p_2QL6KGVBsKUC9RoVJau8Ax
 status: active
 merged_into: null
 display_name: 王以孚
+cbdb_id: 331771
 revision: 1
 properties:
   - predicate: bio.summary

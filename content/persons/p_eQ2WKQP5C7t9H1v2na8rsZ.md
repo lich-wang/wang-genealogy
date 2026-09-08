@@ -4,6 +4,7 @@ id: p_eQ2WKQP5C7t9H1v2na8rsZ
 status: active
 merged_into: null
 display_name: 王朝逺
+cbdb_id: 414851
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_biiWR5qLgYM8Hhf9e9MAWT
 status: active
 merged_into: null
 display_name: 王景厚
+cbdb_id: 186491
 revision: 1
 properties:
   - predicate: bio.summary

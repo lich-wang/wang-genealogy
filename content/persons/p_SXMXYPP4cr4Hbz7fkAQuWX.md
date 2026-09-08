@@ -4,6 +4,7 @@ id: p_SXMXYPP4cr4Hbz7fkAQuWX
 status: active
 merged_into: null
 display_name: 王鑅桂
+cbdb_id: 72160
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_wigusvpVqHD6pH8bsZG35j
 status: active
 merged_into: null
 display_name: 王德宏
+cbdb_id: 120769
 revision: 1
 properties:
   - predicate: bio.summary

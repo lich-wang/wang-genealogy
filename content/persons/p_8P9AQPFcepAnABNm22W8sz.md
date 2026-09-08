@@ -4,6 +4,7 @@ id: p_8P9AQPFcepAnABNm22W8sz
 status: active
 merged_into: null
 display_name: 王琚仁
+cbdb_id: 101366
 revision: 1
 properties:
   - predicate: bio.summary

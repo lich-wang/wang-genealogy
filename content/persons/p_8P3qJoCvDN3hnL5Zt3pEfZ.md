@@ -4,6 +4,7 @@ id: p_8P3qJoCvDN3hnL5Zt3pEfZ
 status: active
 merged_into: null
 display_name: 王大娘
+cbdb_id: 147626
 revision: 1
 properties:
   - predicate: bio.summary

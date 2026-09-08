@@ -4,6 +4,7 @@ id: p_U9QFgNN4xUyZk7sXhHHQqo
 status: active
 merged_into: null
 display_name: 王良學
+cbdb_id: 22229
 revision: 1
 properties:
   - predicate: bio.summary

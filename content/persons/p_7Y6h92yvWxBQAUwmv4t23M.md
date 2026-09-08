@@ -4,6 +4,7 @@ id: p_7Y6h92yvWxBQAUwmv4t23M
 status: active
 merged_into: null
 display_name: 王孟遠
+cbdb_id: 258055
 revision: 1
 properties:
   - predicate: bio.summary

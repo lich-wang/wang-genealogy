@@ -4,6 +4,7 @@ id: p_RQNnvu8c2y9N9EYgnmFtCC
 status: active
 merged_into: null
 display_name: 王期古
+cbdb_id: 204782
 revision: 1
 properties:
   - predicate: bio.summary

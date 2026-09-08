@@ -4,6 +4,7 @@ id: p_P7bCfoRBqERHn6Vg3zuS6T
 status: active
 merged_into: null
 display_name: 王孝基
+cbdb_id: 414250
 revision: 1
 properties:
   - predicate: bio.summary

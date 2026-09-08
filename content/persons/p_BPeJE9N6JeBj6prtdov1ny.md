@@ -4,6 +4,7 @@ id: p_BPeJE9N6JeBj6prtdov1ny
 status: active
 merged_into: null
 display_name: 王世輔
+cbdb_id: 526809
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_jRujMv3ENHWJuzzP6oL17G
 status: active
 merged_into: null
 display_name: 王次能
+cbdb_id: 97940
 revision: 1
 properties:
   - predicate: bio.summary

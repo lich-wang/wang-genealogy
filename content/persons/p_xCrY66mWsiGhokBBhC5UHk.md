@@ -4,6 +4,7 @@ id: p_xCrY66mWsiGhokBBhC5UHk
 status: active
 merged_into: null
 display_name: 王師禮
+cbdb_id: 157995
 revision: 1
 properties:
   - predicate: bio.summary

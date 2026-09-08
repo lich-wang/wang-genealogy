@@ -4,6 +4,7 @@ id: p_3JFwo88GtLi8pcCY7MeAMZ
 status: active
 merged_into: null
 display_name: 王吉士
+cbdb_id: 343024
 revision: 1
 properties:
   - predicate: bio.summary

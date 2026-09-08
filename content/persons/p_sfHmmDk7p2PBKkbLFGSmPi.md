@@ -4,6 +4,7 @@ id: p_sfHmmDk7p2PBKkbLFGSmPi
 status: active
 merged_into: null
 display_name: 王玉彬
+cbdb_id: 415098
 revision: 1
 properties:
   - predicate: bio.summary

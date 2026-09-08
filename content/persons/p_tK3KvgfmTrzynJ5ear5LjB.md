@@ -4,6 +4,7 @@ id: p_tK3KvgfmTrzynJ5ear5LjB
 status: active
 merged_into: null
 display_name: 王作礪
+cbdb_id: 342443
 revision: 1
 properties:
   - predicate: bio.summary

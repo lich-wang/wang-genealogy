@@ -4,6 +4,7 @@ id: p_GsbVM3sDzY5NMmwXdfBsgF
 status: active
 merged_into: null
 display_name: 王矞雲
+cbdb_id: 521771
 revision: 1
 properties:
   - predicate: bio.summary

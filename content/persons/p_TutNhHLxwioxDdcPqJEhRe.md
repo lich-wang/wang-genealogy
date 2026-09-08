@@ -4,6 +4,7 @@ id: p_TutNhHLxwioxDdcPqJEhRe
 status: active
 merged_into: null
 display_name: 王宗桓
+cbdb_id: 71809
 revision: 1
 properties:
   - predicate: bio.summary

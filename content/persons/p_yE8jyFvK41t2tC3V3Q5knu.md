@@ -4,6 +4,7 @@ id: p_yE8jyFvK41t2tC3V3Q5knu
 status: active
 merged_into: null
 display_name: 王曰銓
+cbdb_id: 222717
 revision: 1
 properties:
   - predicate: bio.summary

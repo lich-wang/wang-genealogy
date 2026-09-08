@@ -4,6 +4,7 @@ id: p_kSn9qye62cR1yUgwzLX6AY
 status: active
 merged_into: null
 display_name: 王玄德
+cbdb_id: 331287
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_Sx9YSMsniFRchvVWbXBzn1
 status: active
 merged_into: null
 display_name: 王道昌
+cbdb_id: 35301
 revision: 1
 properties:
   - predicate: bio.summary

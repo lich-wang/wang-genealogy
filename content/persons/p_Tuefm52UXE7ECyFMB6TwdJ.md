@@ -4,6 +4,7 @@ id: p_Tuefm52UXE7ECyFMB6TwdJ
 status: active
 merged_into: null
 display_name: 王瀅
+cbdb_id: 513963
 revision: 1
 properties:
   - predicate: bio.summary

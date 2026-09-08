@@ -4,6 +4,7 @@ id: p_kLoj5S4agkCg893EahiYZL
 status: active
 merged_into: null
 display_name: 王國吉
+cbdb_id: 60897
 revision: 1
 properties:
   - predicate: bio.summary

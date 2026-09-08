@@ -4,6 +4,7 @@ id: p_5vusLtuc16bdf1U7W22gxR
 status: active
 merged_into: null
 display_name: 王九純
+cbdb_id: 413780
 revision: 1
 properties:
   - predicate: bio.summary

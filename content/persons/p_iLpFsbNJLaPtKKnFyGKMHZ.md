@@ -4,6 +4,7 @@ id: p_iLpFsbNJLaPtKKnFyGKMHZ
 status: active
 merged_into: null
 display_name: 王道久
+cbdb_id: 415494
 revision: 1
 properties:
   - predicate: bio.summary

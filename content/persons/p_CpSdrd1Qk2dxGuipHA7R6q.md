@@ -4,6 +4,7 @@ id: p_CpSdrd1Qk2dxGuipHA7R6q
 status: active
 merged_into: null
 display_name: 王錦韓
+cbdb_id: 72127
 revision: 1
 properties:
   - predicate: bio.summary

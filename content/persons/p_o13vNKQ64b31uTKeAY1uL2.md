@@ -4,6 +4,7 @@ id: p_o13vNKQ64b31uTKeAY1uL2
 status: active
 merged_into: null
 display_name: 李收
+cbdb_id: 186699
 revision: 1
 properties:
   - predicate: name.primary

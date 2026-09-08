@@ -4,6 +4,7 @@ id: p_sUy5otJ58tR82UUFFebTy9
 status: active
 merged_into: null
 display_name: 王永濬
+cbdb_id: 414945
 revision: 1
 properties:
   - predicate: bio.summary

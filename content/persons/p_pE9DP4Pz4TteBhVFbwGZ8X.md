@@ -4,6 +4,7 @@ id: p_pE9DP4Pz4TteBhVFbwGZ8X
 status: active
 merged_into: null
 display_name: 王兆騏
+cbdb_id: 413931
 revision: 1
 properties:
   - predicate: bio.summary

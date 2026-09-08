@@ -4,6 +4,7 @@ id: p_sSz1JLrpbEAh5C4HX1sPsb
 status: active
 merged_into: null
 display_name: 王龜年
+cbdb_id: 511633
 revision: 1
 properties:
   - predicate: bio.summary

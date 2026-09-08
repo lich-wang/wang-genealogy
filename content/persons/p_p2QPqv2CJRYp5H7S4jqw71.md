@@ -4,6 +4,7 @@ id: p_p2QPqv2CJRYp5H7S4jqw71
 status: active
 merged_into: null
 display_name: 王象履
+cbdb_id: 235539
 revision: 1
 properties:
   - predicate: bio.summary

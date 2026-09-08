@@ -4,6 +4,7 @@ id: p_4TNohHEE6rL7Dksg31Ahph
 status: active
 merged_into: null
 display_name: 王文堉
+cbdb_id: 414730
 revision: 1
 properties:
   - predicate: bio.summary

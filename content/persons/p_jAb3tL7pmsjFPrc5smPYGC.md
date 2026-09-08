@@ -4,6 +4,7 @@ id: p_jAb3tL7pmsjFPrc5smPYGC
 status: active
 merged_into: null
 display_name: 王繼美
+cbdb_id: 342239
 revision: 1
 properties:
   - predicate: bio.summary

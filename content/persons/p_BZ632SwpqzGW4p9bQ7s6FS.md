@@ -4,6 +4,7 @@ id: p_BZ632SwpqzGW4p9bQ7s6FS
 status: active
 merged_into: null
 display_name: 王廷政
+cbdb_id: 324338
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_QoPib81xPBfCvkNBtFaDo1
 status: active
 merged_into: null
 display_name: 王正感
+cbdb_id: 288249
 revision: 1
 properties:
   - predicate: bio.summary

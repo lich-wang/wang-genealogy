@@ -4,6 +4,7 @@ id: p_evP7FDzZ5MiNEw3bnwVwJV
 status: active
 merged_into: null
 display_name: 王宮桂
+cbdb_id: 100211
 revision: 1
 properties:
   - predicate: bio.summary

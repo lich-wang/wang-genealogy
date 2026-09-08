@@ -4,6 +4,7 @@ id: p_Bw29JB6xrMefKzHD81Xm6D
 status: active
 merged_into: null
 display_name: 王贈芳
+cbdb_id: 61623
 revision: 1
 properties:
   - predicate: bio.summary

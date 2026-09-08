@@ -4,6 +4,7 @@ id: p_qbWcARBwiNzFhFH7v3oZN5
 status: active
 merged_into: null
 display_name: 王桥
+cbdb_id: 226562
 revision: 2
 properties:
   - predicate: bio.summary

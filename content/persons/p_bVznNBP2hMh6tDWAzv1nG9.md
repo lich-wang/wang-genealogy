@@ -4,6 +4,7 @@ id: p_bVznNBP2hMh6tDWAzv1nG9
 status: active
 merged_into: null
 display_name: 王钻
+cbdb_id: 262449
 revision: 2
 properties:
   - predicate: bio.summary

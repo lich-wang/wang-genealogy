@@ -4,6 +4,7 @@ id: p_LzwTC7rjboeY7nbXhQjcvS
 status: active
 merged_into: null
 display_name: 王東蒙
+cbdb_id: 248669
 revision: 1
 properties:
   - predicate: bio.summary

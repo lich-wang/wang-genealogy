@@ -4,6 +4,7 @@ id: p_PmA2kepT7zDVryGmS2mMCU
 status: active
 merged_into: null
 display_name: 王介禧
+cbdb_id: 343722
 revision: 1
 properties:
   - predicate: bio.summary

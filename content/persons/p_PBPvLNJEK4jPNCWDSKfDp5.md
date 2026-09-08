@@ -4,6 +4,7 @@ id: p_PBPvLNJEK4jPNCWDSKfDp5
 status: active
 merged_into: null
 display_name: 王春復
+cbdb_id: 203136
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_DSVroXgE128DDQ1uQLCMZ7
 status: active
 merged_into: null
 display_name: 王貞春
+cbdb_id: 71541
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_sXg5jBkPho8Nr4m51NBBrD
 status: active
 merged_into: null
 display_name: 王鴻儀
+cbdb_id: 123582
 revision: 1
 properties:
   - predicate: bio.summary

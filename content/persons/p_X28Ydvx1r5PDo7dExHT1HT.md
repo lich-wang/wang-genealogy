@@ -4,6 +4,7 @@ id: p_X28Ydvx1r5PDo7dExHT1HT
 status: active
 merged_into: null
 display_name: 王全才
+cbdb_id: 343700
 revision: 1
 properties:
   - predicate: bio.summary

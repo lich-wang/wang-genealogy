@@ -4,6 +4,7 @@ id: p_Z7ZY6f1BLeHfACq1Q6k7Y7
 status: active
 merged_into: null
 display_name: 王永化
+cbdb_id: 336314
 revision: 1
 properties:
   - predicate: bio.summary

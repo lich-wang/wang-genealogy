@@ -4,6 +4,7 @@ id: p_DyDwnotNaEGHDTfCUEzzuL
 status: active
 merged_into: null
 display_name: 王學閩
+cbdb_id: 328256
 revision: 1
 properties:
   - predicate: bio.summary

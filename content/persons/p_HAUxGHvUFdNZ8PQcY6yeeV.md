@@ -4,6 +4,7 @@ id: p_HAUxGHvUFdNZ8PQcY6yeeV
 status: active
 merged_into: null
 display_name: 王守仙
+cbdb_id: 165204
 revision: 1
 properties:
   - predicate: bio.summary

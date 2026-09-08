@@ -4,6 +4,7 @@ id: p_iEzBpfQksvKwtnLVgiEPSK
 status: active
 merged_into: null
 display_name: 王賜良
+cbdb_id: 221864
 revision: 1
 properties:
   - predicate: bio.summary

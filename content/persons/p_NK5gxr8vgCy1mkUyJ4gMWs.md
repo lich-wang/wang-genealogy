@@ -4,6 +4,7 @@ id: p_NK5gxr8vgCy1mkUyJ4gMWs
 status: active
 merged_into: null
 display_name: 王貽慶
+cbdb_id: 22071
 revision: 1
 properties:
   - predicate: bio.summary

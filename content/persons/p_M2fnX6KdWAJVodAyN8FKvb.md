@@ -4,6 +4,7 @@ id: p_M2fnX6KdWAJVodAyN8FKvb
 status: active
 merged_into: null
 display_name: 王文建
+cbdb_id: 414732
 revision: 1
 properties:
   - predicate: bio.summary

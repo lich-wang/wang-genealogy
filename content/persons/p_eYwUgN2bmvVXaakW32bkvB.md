@@ -4,6 +4,7 @@ id: p_eYwUgN2bmvVXaakW32bkvB
 status: active
 merged_into: null
 display_name: 王季則
+cbdb_id: 92041
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_DgtowFWEnG8WMdKCeh3PtV
 status: active
 merged_into: null
 display_name: 王沛恂
+cbdb_id: 71708
 revision: 1
 properties:
   - predicate: bio.summary

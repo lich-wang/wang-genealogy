@@ -4,6 +4,7 @@ id: p_GgA5yWBQ4Bo7MikK34W1R2
 status: active
 merged_into: null
 display_name: 王發桂
+cbdb_id: 58624
 revision: 1
 properties:
   - predicate: bio.summary

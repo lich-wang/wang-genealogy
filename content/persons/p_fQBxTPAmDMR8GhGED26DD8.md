@@ -4,6 +4,7 @@ id: p_fQBxTPAmDMR8GhGED26DD8
 status: active
 merged_into: null
 display_name: 王壽俊
+cbdb_id: 414183
 revision: 1
 properties:
   - predicate: bio.summary

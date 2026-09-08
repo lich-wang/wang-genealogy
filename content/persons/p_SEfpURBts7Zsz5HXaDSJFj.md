@@ -4,6 +4,7 @@ id: p_SEfpURBts7Zsz5HXaDSJFj
 status: active
 merged_into: null
 display_name: 王起蛟
+cbdb_id: 343294
 revision: 1
 properties:
   - predicate: bio.summary

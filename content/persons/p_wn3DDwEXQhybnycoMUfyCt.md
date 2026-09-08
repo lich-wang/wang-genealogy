@@ -4,6 +4,7 @@ id: p_wn3DDwEXQhybnycoMUfyCt
 status: active
 merged_into: null
 display_name: 王炼
+cbdb_id: 175476
 revision: 1
 properties:
   - predicate: bio.summary

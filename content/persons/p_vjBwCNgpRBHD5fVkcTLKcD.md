@@ -4,6 +4,7 @@ id: p_vjBwCNgpRBHD5fVkcTLKcD
 status: active
 merged_into: null
 display_name: 王修礼
+cbdb_id: 175534
 revision: 1
 properties:
   - predicate: bio.summary

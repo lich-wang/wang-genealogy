@@ -4,6 +4,7 @@ id: p_yUp8hcQibPozQZh5EKEyeF
 status: active
 merged_into: null
 display_name: 王元煒
+cbdb_id: 118049
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_YDHZcKGiRMxxLcCTtxgXh4
 status: active
 merged_into: null
 display_name: 陈氏
+cbdb_id: 252225
 revision: 1
 properties:
   - predicate: bio.summary

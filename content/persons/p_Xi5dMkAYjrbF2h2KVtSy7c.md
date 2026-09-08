@@ -4,6 +4,7 @@ id: p_Xi5dMkAYjrbF2h2KVtSy7c
 status: active
 merged_into: null
 display_name: 王師克
+cbdb_id: 379392
 revision: 1
 properties:
   - predicate: bio.summary

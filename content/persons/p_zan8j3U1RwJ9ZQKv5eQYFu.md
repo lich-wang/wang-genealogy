@@ -4,6 +4,7 @@ id: p_zan8j3U1RwJ9ZQKv5eQYFu
 status: active
 merged_into: null
 display_name: 王繼晃
+cbdb_id: 294877
 revision: 1
 properties:
   - predicate: bio.summary

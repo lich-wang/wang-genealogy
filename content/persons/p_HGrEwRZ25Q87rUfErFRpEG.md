@@ -4,6 +4,7 @@ id: p_HGrEwRZ25Q87rUfErFRpEG
 status: active
 merged_into: null
 display_name: 王大英
+cbdb_id: 474769
 revision: 1
 properties:
   - predicate: bio.summary

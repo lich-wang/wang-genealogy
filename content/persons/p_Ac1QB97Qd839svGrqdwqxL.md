@@ -4,6 +4,7 @@ id: p_Ac1QB97Qd839svGrqdwqxL
 status: active
 merged_into: null
 display_name: 王養濂
+cbdb_id: 303033
 revision: 1
 properties:
   - predicate: bio.summary

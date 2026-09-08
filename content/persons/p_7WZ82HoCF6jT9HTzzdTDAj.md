@@ -4,6 +4,7 @@ id: p_7WZ82HoCF6jT9HTzzdTDAj
 status: active
 merged_into: null
 display_name: 王鳴琦
+cbdb_id: 415638
 revision: 1
 properties:
   - predicate: bio.summary

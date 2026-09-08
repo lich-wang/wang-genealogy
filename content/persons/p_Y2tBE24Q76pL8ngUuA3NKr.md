@@ -4,6 +4,7 @@ id: p_Y2tBE24Q76pL8ngUuA3NKr
 status: active
 merged_into: null
 display_name: 王配明
+cbdb_id: 415521
 revision: 1
 properties:
   - predicate: bio.summary

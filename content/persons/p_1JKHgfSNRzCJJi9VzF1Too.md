@@ -4,6 +4,7 @@ id: p_1JKHgfSNRzCJJi9VzF1Too
 status: active
 merged_into: null
 display_name: 王明尊
+cbdb_id: 414780
 revision: 1
 properties:
   - predicate: bio.summary

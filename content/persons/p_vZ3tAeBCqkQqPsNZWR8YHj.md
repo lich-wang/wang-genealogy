@@ -4,6 +4,7 @@ id: p_vZ3tAeBCqkQqPsNZWR8YHj
 status: active
 merged_into: null
 display_name: 王方巖
+cbdb_id: 38336
 revision: 1
 properties:
   - predicate: bio.summary

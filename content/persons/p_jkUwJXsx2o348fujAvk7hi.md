@@ -4,6 +4,7 @@ id: p_jkUwJXsx2o348fujAvk7hi
 status: active
 merged_into: null
 display_name: 王化龍
+cbdb_id: 69098
 revision: 1
 properties:
   - predicate: bio.summary

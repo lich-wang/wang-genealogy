@@ -4,6 +4,7 @@ id: p_fC4vfzdKZR6Bmpr1FUk2sp
 status: active
 merged_into: null
 display_name: 王體健
+cbdb_id: 71675
 revision: 1
 properties:
   - predicate: bio.summary

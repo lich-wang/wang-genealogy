@@ -4,6 +4,7 @@ id: p_xbae9uYHimaaUVgfERem7w
 status: active
 merged_into: null
 display_name: 王仲春
+cbdb_id: 320869
 revision: 1
 properties:
   - predicate: bio.summary

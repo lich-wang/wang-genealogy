@@ -4,6 +4,7 @@ id: p_oWugPyGUAqLAbUqc22RLQq
 status: active
 merged_into: null
 display_name: 王希召
+cbdb_id: 229380
 revision: 1
 properties:
   - predicate: bio.summary

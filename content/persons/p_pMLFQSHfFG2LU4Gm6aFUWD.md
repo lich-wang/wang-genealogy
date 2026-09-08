@@ -4,6 +4,7 @@ id: p_pMLFQSHfFG2LU4Gm6aFUWD
 status: active
 merged_into: null
 display_name: 王頤孫
+cbdb_id: 514244
 revision: 1
 properties:
   - predicate: bio.summary

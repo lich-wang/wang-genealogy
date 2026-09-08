@@ -4,6 +4,7 @@ id: p_EzTbdBF4wZFdPB4edMAPSF
 status: active
 merged_into: null
 display_name: 王慶甲
+cbdb_id: 514239
 revision: 1
 properties:
   - predicate: bio.summary

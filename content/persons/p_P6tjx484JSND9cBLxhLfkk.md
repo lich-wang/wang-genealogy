@@ -4,6 +4,7 @@ id: p_P6tjx484JSND9cBLxhLfkk
 status: active
 merged_into: null
 display_name: 王胄
+cbdb_id: 32172
 revision: 1
 properties:
   - predicate: bio.summary

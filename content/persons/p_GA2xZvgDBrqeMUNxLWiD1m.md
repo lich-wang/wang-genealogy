@@ -4,6 +4,7 @@ id: p_GA2xZvgDBrqeMUNxLWiD1m
 status: active
 merged_into: null
 display_name: 王大信
+cbdb_id: 264453
 revision: 1
 properties:
   - predicate: bio.summary

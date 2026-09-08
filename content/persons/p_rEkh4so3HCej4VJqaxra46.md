@@ -4,6 +4,7 @@ id: p_rEkh4so3HCej4VJqaxra46
 status: active
 merged_into: null
 display_name: 王希鏊
+cbdb_id: 68573
 revision: 1
 properties:
   - predicate: bio.summary

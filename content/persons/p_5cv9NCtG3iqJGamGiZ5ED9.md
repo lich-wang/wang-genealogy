@@ -4,6 +4,7 @@ id: p_5cv9NCtG3iqJGamGiZ5ED9
 status: active
 merged_into: null
 display_name: 王六娘
+cbdb_id: 167695
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_HMqcE5PTHiSWLPUZa4GMLK
 status: active
 merged_into: null
 display_name: 王俊夫
+cbdb_id: 413874
 revision: 1
 properties:
   - predicate: bio.summary

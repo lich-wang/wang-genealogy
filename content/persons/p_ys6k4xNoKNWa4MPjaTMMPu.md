@@ -4,6 +4,7 @@ id: p_ys6k4xNoKNWa4MPjaTMMPu
 status: active
 merged_into: null
 display_name: 王宗遜
+cbdb_id: 307078
 revision: 1
 properties:
   - predicate: bio.summary

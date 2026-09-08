@@ -4,6 +4,7 @@ id: p_8Dvbg89PXkBEbBJAzYBkNw
 status: active
 merged_into: null
 display_name: 沈瓒
+cbdb_id: 136038
 revision: 1
 properties:
   - predicate: bio.summary

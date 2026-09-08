@@ -4,6 +4,7 @@ id: p_9YrVLvyn37JbE6EgkrLXFV
 status: active
 merged_into: null
 display_name: 王炳宏
+cbdb_id: 415068
 revision: 1
 properties:
   - predicate: bio.summary

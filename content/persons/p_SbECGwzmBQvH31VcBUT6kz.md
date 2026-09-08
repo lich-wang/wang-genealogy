@@ -4,6 +4,7 @@ id: p_SbECGwzmBQvH31VcBUT6kz
 status: active
 merged_into: null
 display_name: 王守毅
+cbdb_id: 71633
 revision: 1
 properties:
   - predicate: bio.summary

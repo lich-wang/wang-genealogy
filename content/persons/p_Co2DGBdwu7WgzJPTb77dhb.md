@@ -4,6 +4,7 @@ id: p_Co2DGBdwu7WgzJPTb77dhb
 status: active
 merged_into: null
 display_name: 王思慶
+cbdb_id: 151197
 revision: 1
 properties:
   - predicate: bio.summary

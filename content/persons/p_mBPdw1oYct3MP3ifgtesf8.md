@@ -4,6 +4,7 @@ id: p_mBPdw1oYct3MP3ifgtesf8
 status: active
 merged_into: null
 display_name: 王敦仁
+cbdb_id: 221779
 revision: 1
 properties:
   - predicate: bio.summary

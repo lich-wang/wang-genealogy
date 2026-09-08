@@ -4,6 +4,7 @@ id: p_N2gb5pMqtzse3xWR5G5kGz
 status: active
 merged_into: null
 display_name: 王希名
+cbdb_id: 247517
 revision: 1
 properties:
   - predicate: bio.summary

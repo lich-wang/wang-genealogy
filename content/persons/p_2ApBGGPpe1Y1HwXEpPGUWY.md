@@ -4,6 +4,7 @@ id: p_2ApBGGPpe1Y1HwXEpPGUWY
 status: active
 merged_into: null
 display_name: 王景暘
+cbdb_id: 214074
 revision: 1
 properties:
   - predicate: bio.summary

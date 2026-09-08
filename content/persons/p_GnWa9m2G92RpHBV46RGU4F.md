@@ -4,6 +4,7 @@ id: p_GnWa9m2G92RpHBV46RGU4F
 status: active
 merged_into: null
 display_name: 王承家
+cbdb_id: 175963
 revision: 1
 properties:
   - predicate: bio.summary

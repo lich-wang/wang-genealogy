@@ -4,6 +4,7 @@ id: p_q6YX52F6Pxg79L7NSt8rRv
 status: active
 merged_into: null
 display_name: 王紹銓
+cbdb_id: 68586
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_zKm2Fb3Ha4tGAxBtG4ZV4X
 status: active
 merged_into: null
 display_name: 王明清
+cbdb_id: 7085
 revision: 1
 properties:
   - predicate: bio.summary

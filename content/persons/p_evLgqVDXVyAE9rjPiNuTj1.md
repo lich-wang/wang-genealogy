@@ -4,6 +4,7 @@ id: p_evLgqVDXVyAE9rjPiNuTj1
 status: active
 merged_into: null
 display_name: 王治謨
+cbdb_id: 342697
 revision: 1
 properties:
   - predicate: bio.summary

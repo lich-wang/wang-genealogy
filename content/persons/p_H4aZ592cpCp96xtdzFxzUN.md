@@ -4,6 +4,7 @@ id: p_H4aZ592cpCp96xtdzFxzUN
 status: active
 merged_into: null
 display_name: 王之深
+cbdb_id: 13953
 revision: 1
 properties:
   - predicate: bio.summary

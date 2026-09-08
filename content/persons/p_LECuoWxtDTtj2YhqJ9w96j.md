@@ -4,6 +4,7 @@ id: p_LECuoWxtDTtj2YhqJ9w96j
 status: active
 merged_into: null
 display_name: 王孟熙
+cbdb_id: 342018
 revision: 1
 properties:
   - predicate: bio.summary

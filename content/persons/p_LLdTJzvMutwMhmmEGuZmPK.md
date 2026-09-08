@@ -4,6 +4,7 @@ id: p_LLdTJzvMutwMhmmEGuZmPK
 status: active
 merged_into: null
 display_name: 王立堂
+cbdb_id: 124419
 revision: 1
 properties:
   - predicate: bio.summary

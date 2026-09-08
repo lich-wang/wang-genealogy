@@ -4,6 +4,7 @@ id: p_wAoiyddU9xbZpcziSX1uUw
 status: active
 merged_into: null
 display_name: 王德瑛
+cbdb_id: 72195
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_voHpA8GisKqT6bhA1i6mvV
 status: active
 merged_into: null
 display_name: 王憲宸
+cbdb_id: 235992
 revision: 1
 properties:
   - predicate: bio.summary

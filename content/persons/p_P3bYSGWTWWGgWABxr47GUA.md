@@ -4,6 +4,7 @@ id: p_P3bYSGWTWWGgWABxr47GUA
 status: active
 merged_into: null
 display_name: 王寶鈿
+cbdb_id: 342627
 revision: 1
 properties:
   - predicate: bio.summary

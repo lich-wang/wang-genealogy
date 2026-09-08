@@ -4,6 +4,7 @@ id: p_8GQyQsicrnLX752NAq66ZP
 status: active
 merged_into: null
 display_name: 王覲光
+cbdb_id: 494034
 revision: 1
 properties:
   - predicate: bio.summary

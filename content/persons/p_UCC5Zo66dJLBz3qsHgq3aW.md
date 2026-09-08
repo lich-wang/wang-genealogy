@@ -4,6 +4,7 @@ id: p_UCC5Zo66dJLBz3qsHgq3aW
 status: active
 merged_into: null
 display_name: 王衍梅
+cbdb_id: 69266
 revision: 1
 properties:
   - predicate: bio.summary

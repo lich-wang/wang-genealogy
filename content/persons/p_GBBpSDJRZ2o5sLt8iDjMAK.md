@@ -4,6 +4,7 @@ id: p_GBBpSDJRZ2o5sLt8iDjMAK
 status: active
 merged_into: null
 display_name: 王绪
+cbdb_id: 175365
 revision: 1
 properties:
   - predicate: bio.summary

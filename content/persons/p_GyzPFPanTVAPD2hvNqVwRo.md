@@ -4,6 +4,7 @@ id: p_GyzPFPanTVAPD2hvNqVwRo
 status: active
 merged_into: null
 display_name: 王良啟
+cbdb_id: 273654
 revision: 1
 properties:
   - predicate: bio.summary

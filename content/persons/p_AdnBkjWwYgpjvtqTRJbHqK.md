@@ -4,6 +4,7 @@ id: p_AdnBkjWwYgpjvtqTRJbHqK
 status: active
 merged_into: null
 display_name: 王一恩
+cbdb_id: 306157
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_PMHDEn49o8y5aW5qiXbb15
 status: active
 merged_into: null
 display_name: 王琳
+cbdb_id: 91982
 revision: 1
 properties:
   - predicate: bio.summary

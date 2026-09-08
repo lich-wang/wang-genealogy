@@ -4,6 +4,7 @@ id: p_xC29uhGkAByCrqu8Ld7uwy
 status: active
 merged_into: null
 display_name: 王在璣
+cbdb_id: 414139
 revision: 1
 properties:
   - predicate: bio.summary

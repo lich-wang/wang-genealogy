@@ -4,6 +4,7 @@ id: p_YN2bi35jN8EKBymoEEUjxN
 status: active
 merged_into: null
 display_name: 王惠忠
+cbdb_id: 140752
 revision: 1
 properties:
   - predicate: bio.summary

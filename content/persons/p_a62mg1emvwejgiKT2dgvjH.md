@@ -4,6 +4,7 @@ id: p_a62mg1emvwejgiKT2dgvjH
 status: active
 merged_into: null
 display_name: 王應銓
+cbdb_id: 71700
 revision: 1
 properties:
   - predicate: bio.summary

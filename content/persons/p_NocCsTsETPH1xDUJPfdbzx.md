@@ -4,6 +4,7 @@ id: p_NocCsTsETPH1xDUJPfdbzx
 status: active
 merged_into: null
 display_name: 王弘撰
+cbdb_id: 71512
 revision: 1
 properties:
   - predicate: bio.summary

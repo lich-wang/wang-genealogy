@@ -4,6 +4,7 @@ id: p_uGE9BKx8cB8q7vxNwL7651
 status: active
 merged_into: null
 display_name: 王宛
+cbdb_id: 241844
 revision: 1
 properties:
   - predicate: bio.summary

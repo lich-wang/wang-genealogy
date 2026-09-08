@@ -4,6 +4,7 @@ id: p_Qx2wUB1F6XhrWp74dztm5p
 status: active
 merged_into: null
 display_name: 王鳯靈
+cbdb_id: 415633
 revision: 1
 properties:
   - predicate: bio.summary

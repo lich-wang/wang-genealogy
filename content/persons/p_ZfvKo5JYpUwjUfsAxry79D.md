@@ -4,6 +4,7 @@ id: p_ZfvKo5JYpUwjUfsAxry79D
 status: active
 merged_into: null
 display_name: 王普達
+cbdb_id: 326263
 revision: 1
 properties:
   - predicate: bio.summary

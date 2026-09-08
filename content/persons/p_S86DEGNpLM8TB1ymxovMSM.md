@@ -4,6 +4,7 @@ id: p_S86DEGNpLM8TB1ymxovMSM
 status: active
 merged_into: null
 display_name: 王順榮
+cbdb_id: 101374
 revision: 1
 properties:
   - predicate: bio.summary

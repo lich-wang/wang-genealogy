@@ -4,6 +4,7 @@ id: p_PDHavSCV8oGBv2rqw3oL53
 status: active
 merged_into: null
 display_name: 王士點
+cbdb_id: 28792
 revision: 1
 properties:
   - predicate: bio.summary

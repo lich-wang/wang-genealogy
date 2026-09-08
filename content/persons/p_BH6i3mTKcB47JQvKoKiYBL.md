@@ -4,6 +4,7 @@ id: p_BH6i3mTKcB47JQvKoKiYBL
 status: active
 merged_into: null
 display_name: 王從宣
+cbdb_id: 311387
 revision: 1
 properties:
   - predicate: bio.summary

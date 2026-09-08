@@ -4,6 +4,7 @@ id: p_95CJxi5X1GFFUffKm8dr14
 status: active
 merged_into: null
 display_name: 王引年
+cbdb_id: 414503
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_vdZieMhnLp5EpsY2e1XmJV
 status: active
 merged_into: null
 display_name: 王嘉亮
+cbdb_id: 414092
 revision: 1
 properties:
   - predicate: bio.summary

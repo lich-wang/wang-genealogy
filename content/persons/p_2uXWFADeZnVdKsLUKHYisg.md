@@ -4,6 +4,7 @@ id: p_2uXWFADeZnVdKsLUKHYisg
 status: active
 merged_into: null
 display_name: 王善思
+cbdb_id: 343752
 revision: 1
 properties:
   - predicate: bio.summary

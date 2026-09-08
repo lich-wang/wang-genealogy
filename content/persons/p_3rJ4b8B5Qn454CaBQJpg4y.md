@@ -4,6 +4,7 @@ id: p_3rJ4b8B5Qn454CaBQJpg4y
 status: active
 merged_into: null
 display_name: 王閎孚
+cbdb_id: 22252
 revision: 1
 properties:
   - predicate: bio.summary

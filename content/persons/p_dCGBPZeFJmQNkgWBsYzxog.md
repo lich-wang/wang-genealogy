@@ -4,6 +4,7 @@ id: p_dCGBPZeFJmQNkgWBsYzxog
 status: active
 merged_into: null
 display_name: 王靖廷
+cbdb_id: 439034
 revision: 1
 properties:
   - predicate: bio.summary

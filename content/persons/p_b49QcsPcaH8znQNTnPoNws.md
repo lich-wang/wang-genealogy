@@ -4,6 +4,7 @@ id: p_b49QcsPcaH8znQNTnPoNws
 status: active
 merged_into: null
 display_name: 王子春
+cbdb_id: 134478
 revision: 1
 properties:
   - predicate: bio.summary

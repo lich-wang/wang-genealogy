@@ -4,6 +4,7 @@ id: p_ck2BrVefon5H9bCvfyBGcG
 status: active
 merged_into: null
 display_name: 王奇樑
+cbdb_id: 229382
 revision: 1
 properties:
   - predicate: bio.summary

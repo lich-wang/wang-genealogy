@@ -4,6 +4,7 @@ id: p_4A1ftN3jcTq1MaGNMSCbVY
 status: active
 merged_into: null
 display_name: 王善興
+cbdb_id: 237438
 revision: 1
 properties:
   - predicate: bio.summary

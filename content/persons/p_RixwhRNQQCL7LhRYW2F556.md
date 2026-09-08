@@ -4,6 +4,7 @@ id: p_RixwhRNQQCL7LhRYW2F556
 status: active
 merged_into: null
 display_name: 王雪溪
+cbdb_id: 525739
 revision: 1
 properties:
   - predicate: bio.summary

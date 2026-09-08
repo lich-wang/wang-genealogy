@@ -4,6 +4,7 @@ id: p_oo2wLyErNqNHevX5c26BLG
 status: active
 merged_into: null
 display_name: 王揚基
+cbdb_id: 343388
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_LYaz2jXQYirPEMyaCBQQTG
 status: active
 merged_into: null
 display_name: 王一敏
+cbdb_id: 413672
 revision: 1
 properties:
   - predicate: bio.summary

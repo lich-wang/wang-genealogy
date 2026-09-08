@@ -4,6 +4,7 @@ id: p_n613FfpZSCJ7MEY987BPaM
 status: active
 merged_into: null
 display_name: 王希閔
+cbdb_id: 208939
 revision: 1
 properties:
   - predicate: bio.summary

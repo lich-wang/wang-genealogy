@@ -4,6 +4,7 @@ id: p_tgsYcGLBHirWiZHRoYiDdX
 status: active
 merged_into: null
 display_name: 王庠皇
+cbdb_id: 437536
 revision: 1
 properties:
   - predicate: bio.summary

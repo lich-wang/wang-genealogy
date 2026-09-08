@@ -4,6 +4,7 @@ id: p_EiHTYbCwNgFcHn8XwhbjFh
 status: active
 merged_into: null
 display_name: 王得辛
+cbdb_id: 273829
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_A4s6k8YKqLYw4r861W7Bsq
 status: active
 merged_into: null
 display_name: 王廷聘
+cbdb_id: 71568
 revision: 1
 properties:
   - predicate: bio.summary

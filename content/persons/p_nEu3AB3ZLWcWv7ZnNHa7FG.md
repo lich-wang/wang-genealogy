@@ -4,6 +4,7 @@ id: p_nEu3AB3ZLWcWv7ZnNHa7FG
 status: active
 merged_into: null
 display_name: 王雲望
+cbdb_id: 415585
 revision: 1
 properties:
   - predicate: bio.summary

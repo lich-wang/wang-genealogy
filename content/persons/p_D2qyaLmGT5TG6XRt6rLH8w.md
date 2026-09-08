@@ -4,6 +4,7 @@ id: p_D2qyaLmGT5TG6XRt6rLH8w
 status: active
 merged_into: null
 display_name: 王期道
+cbdb_id: 324020
 revision: 1
 properties:
   - predicate: bio.summary

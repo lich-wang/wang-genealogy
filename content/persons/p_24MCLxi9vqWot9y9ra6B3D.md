@@ -4,6 +4,7 @@ id: p_24MCLxi9vqWot9y9ra6B3D
 status: active
 merged_into: null
 display_name: 王紘
+cbdb_id: 175836
 revision: 1
 properties:
   - predicate: bio.summary

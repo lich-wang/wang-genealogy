@@ -4,6 +4,7 @@ id: p_kUPaWNvtFG1Gd4JKD8JkQ2
 status: active
 merged_into: null
 display_name: 王知詩
+cbdb_id: 333207
 revision: 1
 properties:
   - predicate: bio.summary

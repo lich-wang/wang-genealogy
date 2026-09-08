@@ -4,6 +4,7 @@ id: p_D1pWDsHWNd5wRUwygKh8wV
 status: active
 merged_into: null
 display_name: 王三餘
+cbdb_id: 126452
 revision: 1
 properties:
   - predicate: bio.summary

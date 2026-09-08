@@ -4,6 +4,7 @@ id: p_oETmTn9J6N4eKzLNbB1SH3
 status: active
 merged_into: null
 display_name: 王昶
+cbdb_id: 175465
 revision: 1
 properties:
   - predicate: bio.summary

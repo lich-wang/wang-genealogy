@@ -4,6 +4,7 @@ id: p_Xeon7wNRj64Mbj4Xs6WS9n
 status: active
 merged_into: null
 display_name: 王谦之
+cbdb_id: 23218
 revision: 2
 properties:
   - predicate: bio.summary

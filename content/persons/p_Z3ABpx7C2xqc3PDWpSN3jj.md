@@ -4,6 +4,7 @@ id: p_Z3ABpx7C2xqc3PDWpSN3jj
 status: active
 merged_into: null
 display_name: 王德山
+cbdb_id: 577676
 revision: 1
 properties:
   - predicate: bio.summary

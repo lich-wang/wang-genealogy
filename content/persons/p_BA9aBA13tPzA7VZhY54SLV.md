@@ -4,6 +4,7 @@ id: p_BA9aBA13tPzA7VZhY54SLV
 status: active
 merged_into: null
 display_name: 王成性
+cbdb_id: 414671
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_ybe5jUPL3jqpTv7TRwnMv5
 status: active
 merged_into: null
 display_name: 王任選
+cbdb_id: 334522
 revision: 1
 properties:
   - predicate: bio.summary

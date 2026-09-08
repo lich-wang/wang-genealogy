@@ -4,6 +4,7 @@ id: p_p2MFjXdzUYy2BrYLDMEsdj
 status: active
 merged_into: null
 display_name: 王洪旦
+cbdb_id: 415008
 revision: 1
 properties:
   - predicate: bio.summary

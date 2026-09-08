@@ -4,6 +4,7 @@ id: p_6MGDJDsMfhoCMpi8TCXnFR
 status: active
 merged_into: null
 display_name: 王承衍
+cbdb_id: 3939
 revision: 2
 properties:
   - predicate: bio.summary

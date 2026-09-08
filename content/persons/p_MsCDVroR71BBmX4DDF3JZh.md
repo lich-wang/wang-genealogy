@@ -4,6 +4,7 @@ id: p_MsCDVroR71BBmX4DDF3JZh
 status: active
 merged_into: null
 display_name: 王學濤
+cbdb_id: 414266
 revision: 1
 properties:
   - predicate: bio.summary

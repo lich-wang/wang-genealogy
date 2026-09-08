@@ -4,6 +4,7 @@ id: p_ZkaYNspb6PYADnSpidxdmU
 status: active
 merged_into: null
 display_name: 王肇修
+cbdb_id: 342870
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_W4GYg56AkNAN2bCWW2iLMN
 status: active
 merged_into: null
 display_name: 王光泰
+cbdb_id: 518984
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_DVAR164RnRJtARnW72NSPN
 status: active
 merged_into: null
 display_name: 王萬鎰
+cbdb_id: 415367
 revision: 1
 properties:
   - predicate: bio.summary

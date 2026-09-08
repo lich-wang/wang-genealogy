@@ -4,6 +4,7 @@ id: p_3wwHFZ5uwRk9r267TApJMG
 status: active
 merged_into: null
 display_name: 王懿穀
+cbdb_id: 414667
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_3haP4DQAxDYFqX7qrXJiD2
 status: active
 merged_into: null
 display_name: 王大斆
+cbdb_id: 414199
 revision: 1
 properties:
   - predicate: bio.summary

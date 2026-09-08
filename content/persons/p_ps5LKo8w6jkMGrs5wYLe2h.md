@@ -4,6 +4,7 @@ id: p_ps5LKo8w6jkMGrs5wYLe2h
 status: active
 merged_into: null
 display_name: 王顯臣
+cbdb_id: 524248
 revision: 1
 properties:
   - predicate: bio.summary

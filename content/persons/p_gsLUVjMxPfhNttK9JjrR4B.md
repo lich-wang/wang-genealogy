@@ -4,6 +4,7 @@ id: p_gsLUVjMxPfhNttK9JjrR4B
 status: active
 merged_into: null
 display_name: 王毓陽
+cbdb_id: 126796
 revision: 1
 properties:
   - predicate: bio.summary

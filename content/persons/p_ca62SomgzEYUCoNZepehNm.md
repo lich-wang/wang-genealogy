@@ -4,6 +4,7 @@ id: p_ca62SomgzEYUCoNZepehNm
 status: active
 merged_into: null
 display_name: 王廷英
+cbdb_id: 341930
 revision: 1
 properties:
   - predicate: bio.summary

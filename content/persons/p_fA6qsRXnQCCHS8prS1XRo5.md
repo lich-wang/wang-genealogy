@@ -4,6 +4,7 @@ id: p_fA6qsRXnQCCHS8prS1XRo5
 status: active
 merged_into: null
 display_name: 王少達
+cbdb_id: 166892
 revision: 1
 properties:
   - predicate: bio.summary

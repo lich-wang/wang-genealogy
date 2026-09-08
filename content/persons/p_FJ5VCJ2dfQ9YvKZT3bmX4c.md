@@ -4,6 +4,7 @@ id: p_FJ5VCJ2dfQ9YvKZT3bmX4c
 status: active
 merged_into: null
 display_name: 王汝述
+cbdb_id: 204086
 revision: 1
 properties:
   - predicate: bio.summary

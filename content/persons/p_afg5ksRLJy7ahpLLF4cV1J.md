@@ -4,6 +4,7 @@ id: p_afg5ksRLJy7ahpLLF4cV1J
 status: active
 merged_into: null
 display_name: 王拯
+cbdb_id: 175553
 revision: 1
 properties:
   - predicate: bio.summary

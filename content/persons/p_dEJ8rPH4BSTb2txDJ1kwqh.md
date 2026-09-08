@@ -4,6 +4,7 @@ id: p_dEJ8rPH4BSTb2txDJ1kwqh
 status: active
 merged_into: null
 display_name: 王盡道
+cbdb_id: 415166
 revision: 1
 properties:
   - predicate: bio.summary

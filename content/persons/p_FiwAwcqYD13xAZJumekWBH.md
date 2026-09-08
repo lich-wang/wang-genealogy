@@ -4,6 +4,7 @@ id: p_FiwAwcqYD13xAZJumekWBH
 status: active
 merged_into: null
 display_name: 王廷阮
+cbdb_id: 170078
 revision: 1
 properties:
   - predicate: bio.summary

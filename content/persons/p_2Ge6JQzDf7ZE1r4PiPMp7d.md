@@ -4,6 +4,7 @@ id: p_2Ge6JQzDf7ZE1r4PiPMp7d
 status: active
 merged_into: null
 display_name: 王珩
+cbdb_id: 19873
 revision: 2
 properties:
   - predicate: bio.summary

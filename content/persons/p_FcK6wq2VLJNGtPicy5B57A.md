@@ -4,6 +4,7 @@ id: p_FcK6wq2VLJNGtPicy5B57A
 status: active
 merged_into: null
 display_name: 王廷正
+cbdb_id: 414466
 revision: 1
 properties:
   - predicate: bio.summary

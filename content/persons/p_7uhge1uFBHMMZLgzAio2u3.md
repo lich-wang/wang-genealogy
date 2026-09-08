@@ -4,6 +4,7 @@ id: p_7uhge1uFBHMMZLgzAio2u3
 status: active
 merged_into: null
 display_name: 王蘊文
+cbdb_id: 101459
 revision: 1
 properties:
   - predicate: bio.summary

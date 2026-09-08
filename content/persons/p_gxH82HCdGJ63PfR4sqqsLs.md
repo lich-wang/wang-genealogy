@@ -4,6 +4,7 @@ id: p_gxH82HCdGJ63PfR4sqqsLs
 status: active
 merged_into: null
 display_name: 王學韓
+cbdb_id: 303179
 revision: 1
 properties:
   - predicate: bio.summary

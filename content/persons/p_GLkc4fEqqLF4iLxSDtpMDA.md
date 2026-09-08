@@ -4,6 +4,7 @@ id: p_GLkc4fEqqLF4iLxSDtpMDA
 status: active
 merged_into: null
 display_name: 王丹墀
+cbdb_id: 71414
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_QVjFE2QiM6nYiNQ7St51r1
 status: active
 merged_into: null
 display_name: 王仁恪
+cbdb_id: 147219
 revision: 1
 properties:
   - predicate: bio.summary

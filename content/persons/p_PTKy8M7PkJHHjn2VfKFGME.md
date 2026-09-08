@@ -4,6 +4,7 @@ id: p_PTKy8M7PkJHHjn2VfKFGME
 status: active
 merged_into: null
 display_name: 王曰宏
+cbdb_id: 414814
 revision: 1
 properties:
   - predicate: bio.summary

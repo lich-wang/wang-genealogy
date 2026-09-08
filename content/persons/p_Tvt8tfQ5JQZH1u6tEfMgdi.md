@@ -4,6 +4,7 @@ id: p_Tvt8tfQ5JQZH1u6tEfMgdi
 status: active
 merged_into: null
 display_name: 王紹汶
+cbdb_id: 101351
 revision: 1
 properties:
   - predicate: bio.summary

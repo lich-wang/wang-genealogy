@@ -4,6 +4,7 @@ id: p_63BFGxqwX56uumHwnZN67r
 status: active
 merged_into: null
 display_name: 王俟
+cbdb_id: 342262
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_fDRwd8SnHCskaL1yGeEmNf
 status: active
 merged_into: null
 display_name: 王謙和
+cbdb_id: 240890
 revision: 1
 properties:
   - predicate: bio.summary

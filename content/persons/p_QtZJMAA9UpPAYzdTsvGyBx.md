@@ -4,6 +4,7 @@ id: p_QtZJMAA9UpPAYzdTsvGyBx
 status: active
 merged_into: null
 display_name: 王得欽
+cbdb_id: 414529
 revision: 1
 properties:
   - predicate: bio.summary

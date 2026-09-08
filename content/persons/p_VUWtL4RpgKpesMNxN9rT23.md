@@ -4,6 +4,7 @@ id: p_VUWtL4RpgKpesMNxN9rT23
 status: active
 merged_into: null
 display_name: 王舉元
+cbdb_id: 1795
 revision: 1
 properties:
   - predicate: bio.summary

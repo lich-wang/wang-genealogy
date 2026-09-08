@@ -4,6 +4,7 @@ id: p_1sqCGJv2Ezy4fCzaCriRLC
 status: active
 merged_into: null
 display_name: 王一唯
+cbdb_id: 256440
 revision: 1
 properties:
   - predicate: bio.summary

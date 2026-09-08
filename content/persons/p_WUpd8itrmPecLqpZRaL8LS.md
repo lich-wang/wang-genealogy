@@ -4,6 +4,7 @@ id: p_WUpd8itrmPecLqpZRaL8LS
 status: active
 merged_into: null
 display_name: 王基鴻
+cbdb_id: 414152
 revision: 1
 properties:
   - predicate: bio.summary

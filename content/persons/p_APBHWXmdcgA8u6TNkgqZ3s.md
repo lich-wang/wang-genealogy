@@ -4,6 +4,7 @@ id: p_APBHWXmdcgA8u6TNkgqZ3s
 status: active
 merged_into: null
 display_name: 王惠濟
+cbdb_id: 282381
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_mckqWboiZJczJQEicSns1i
 status: active
 merged_into: null
 display_name: 王震芳
+cbdb_id: 415590
 revision: 1
 properties:
   - predicate: bio.summary

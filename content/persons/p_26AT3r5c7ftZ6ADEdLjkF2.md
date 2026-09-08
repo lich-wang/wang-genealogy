@@ -4,6 +4,7 @@ id: p_26AT3r5c7ftZ6ADEdLjkF2
 status: active
 merged_into: null
 display_name: 王之儀
+cbdb_id: 69058
 revision: 1
 properties:
   - predicate: bio.summary

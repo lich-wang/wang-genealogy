@@ -4,6 +4,7 @@ id: p_S5afZnx4HUbL6UmzQFmGaa
 status: active
 merged_into: null
 display_name: 王希朱
+cbdb_id: 208941
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_CqRLubCAJw2W8PMASBJVc6
 status: active
 merged_into: null
 display_name: 王巽言
+cbdb_id: 321239
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_mxcPanzqKKzAH8GE9Zk1aa
 status: active
 merged_into: null
 display_name: 王絹
+cbdb_id: 326384
 revision: 1
 properties:
   - predicate: bio.summary

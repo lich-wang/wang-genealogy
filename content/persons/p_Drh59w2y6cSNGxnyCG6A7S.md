@@ -4,6 +4,7 @@ id: p_Drh59w2y6cSNGxnyCG6A7S
 status: active
 merged_into: null
 display_name: 王善壽
+cbdb_id: 514399
 revision: 1
 properties:
   - predicate: bio.summary

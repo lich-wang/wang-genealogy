@@ -4,6 +4,7 @@ id: p_Ps7tjGeDrYHZch7ZGs8ptK
 status: active
 merged_into: null
 display_name: 王曰忠
+cbdb_id: 414815
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_BMVqPTZK2zy3FP17CMU7GJ
 status: active
 merged_into: null
 display_name: 王鵬壽
+cbdb_id: 72131
 revision: 1
 properties:
   - predicate: bio.summary

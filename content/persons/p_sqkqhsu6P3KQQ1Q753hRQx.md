@@ -4,6 +4,7 @@ id: p_sqkqhsu6P3KQQ1Q753hRQx
 status: active
 merged_into: null
 display_name: 王國儒
+cbdb_id: 343430
 revision: 1
 properties:
   - predicate: bio.summary

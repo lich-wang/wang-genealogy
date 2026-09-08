@@ -4,6 +4,7 @@ id: p_WYBVDefMepwPbbNYpiw6QQ
 status: active
 merged_into: null
 display_name: 王冠
+cbdb_id: 175619
 revision: 1
 properties:
   - predicate: bio.summary

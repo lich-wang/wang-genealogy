@@ -4,6 +4,7 @@ id: p_FdJB95EhHHTcCUD9pK11nb
 status: active
 merged_into: null
 display_name: 王力行
+cbdb_id: 45726
 revision: 1
 properties:
   - predicate: bio.summary

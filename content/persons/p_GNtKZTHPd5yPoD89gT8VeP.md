@@ -4,6 +4,7 @@ id: p_GNtKZTHPd5yPoD89gT8VeP
 status: active
 merged_into: null
 display_name: 王沐
+cbdb_id: 175481
 revision: 1
 properties:
   - predicate: bio.summary

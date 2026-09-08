@@ -4,6 +4,7 @@ id: p_91u4y2jBPG2fJcbPSajtFT
 status: active
 merged_into: null
 display_name: 王甲榮
+cbdb_id: 71484
 revision: 1
 properties:
   - predicate: bio.summary

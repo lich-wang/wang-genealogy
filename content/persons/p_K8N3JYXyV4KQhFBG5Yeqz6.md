@@ -4,6 +4,7 @@ id: p_K8N3JYXyV4KQhFBG5Yeqz6
 status: active
 merged_into: null
 display_name: 王推化
+cbdb_id: 336306
 revision: 1
 properties:
   - predicate: bio.summary

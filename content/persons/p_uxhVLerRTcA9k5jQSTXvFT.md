@@ -4,6 +4,7 @@ id: p_uxhVLerRTcA9k5jQSTXvFT
 status: active
 merged_into: null
 display_name: 王敬祖
+cbdb_id: 262687
 revision: 1
 properties:
   - predicate: bio.summary

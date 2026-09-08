@@ -4,6 +4,7 @@ id: p_ztkQFjZmaeN2Qe9Fi45XJB
 status: active
 merged_into: null
 display_name: 王尊約
+cbdb_id: 236429
 revision: 1
 properties:
   - predicate: bio.summary

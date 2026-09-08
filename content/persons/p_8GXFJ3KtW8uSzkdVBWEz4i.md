@@ -4,6 +4,7 @@ id: p_8GXFJ3KtW8uSzkdVBWEz4i
 status: active
 merged_into: null
 display_name: 王恭祖
+cbdb_id: 414608
 revision: 1
 properties:
   - predicate: bio.summary

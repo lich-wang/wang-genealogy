@@ -4,6 +4,7 @@ id: p_FeDoosWCZKAHAvFZkgFcym
 status: active
 merged_into: null
 display_name: 王遵義
+cbdb_id: 415506
 revision: 1
 properties:
   - predicate: bio.summary

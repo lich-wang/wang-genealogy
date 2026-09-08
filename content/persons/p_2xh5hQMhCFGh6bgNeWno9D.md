@@ -4,6 +4,7 @@ id: p_2xh5hQMhCFGh6bgNeWno9D
 status: active
 merged_into: null
 display_name: 王定大
+cbdb_id: 414322
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_Gw8qBpqKij9eGQhR344Cit
 status: active
 merged_into: null
 display_name: 王志行
+cbdb_id: 414578
 revision: 1
 properties:
   - predicate: bio.summary

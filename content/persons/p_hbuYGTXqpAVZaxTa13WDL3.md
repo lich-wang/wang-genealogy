@@ -4,6 +4,7 @@ id: p_hbuYGTXqpAVZaxTa13WDL3
 status: active
 merged_into: null
 display_name: 王啟渠
+cbdb_id: 342880
 revision: 1
 properties:
   - predicate: bio.summary

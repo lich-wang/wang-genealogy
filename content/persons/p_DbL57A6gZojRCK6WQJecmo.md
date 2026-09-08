@@ -4,6 +4,7 @@ id: p_DbL57A6gZojRCK6WQJecmo
 status: active
 merged_into: null
 display_name: 王兆正
+cbdb_id: 71596
 revision: 1
 properties:
   - predicate: bio.summary

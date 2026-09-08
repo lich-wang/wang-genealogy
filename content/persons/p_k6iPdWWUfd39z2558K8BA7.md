@@ -4,6 +4,7 @@ id: p_k6iPdWWUfd39z2558K8BA7
 status: active
 merged_into: null
 display_name: 王士舉
+cbdb_id: 246418
 revision: 1
 properties:
   - predicate: bio.summary

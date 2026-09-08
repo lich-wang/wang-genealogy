@@ -4,6 +4,7 @@ id: p_ADQADMoywb8nRBdiv1tZwW
 status: active
 merged_into: null
 display_name: 王绎
+cbdb_id: 32176
 revision: 1
 properties:
   - predicate: bio.summary

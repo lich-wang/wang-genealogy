@@ -4,6 +4,7 @@ id: p_L9pA8CzD5PNS2DuqaqaMJH
 status: active
 merged_into: null
 display_name: 王夢明
+cbdb_id: 496096
 revision: 1
 properties:
   - predicate: bio.summary

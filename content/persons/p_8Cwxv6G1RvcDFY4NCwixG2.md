@@ -4,6 +4,7 @@ id: p_8Cwxv6G1RvcDFY4NCwixG2
 status: active
 merged_into: null
 display_name: 王子西
+cbdb_id: 175487
 revision: 1
 properties:
   - predicate: bio.summary

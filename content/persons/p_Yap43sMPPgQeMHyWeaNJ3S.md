@@ -4,6 +4,7 @@ id: p_Yap43sMPPgQeMHyWeaNJ3S
 status: active
 merged_into: null
 display_name: 王嶸
+cbdb_id: 332922
 revision: 1
 properties:
   - predicate: bio.summary

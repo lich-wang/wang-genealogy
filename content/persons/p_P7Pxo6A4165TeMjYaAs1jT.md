@@ -4,6 +4,7 @@ id: p_P7Pxo6A4165TeMjYaAs1jT
 status: active
 merged_into: null
 display_name: 王似之
+cbdb_id: 19420
 revision: 1
 properties:
   - predicate: bio.summary

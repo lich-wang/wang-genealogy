@@ -4,6 +4,7 @@ id: p_4LHh2MQ5tJXCGCia3mTBBy
 status: active
 merged_into: null
 display_name: 陈金凤
+cbdb_id: 93612
 revision: 1
 properties:
   - predicate: name.primary

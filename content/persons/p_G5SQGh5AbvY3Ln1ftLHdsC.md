@@ -4,6 +4,7 @@ id: p_G5SQGh5AbvY3Ln1ftLHdsC
 status: active
 merged_into: null
 display_name: 王克存
+cbdb_id: 3963
 revision: 1
 properties:
   - predicate: name.primary

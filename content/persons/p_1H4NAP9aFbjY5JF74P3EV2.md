@@ -4,6 +4,7 @@ id: p_1H4NAP9aFbjY5JF74P3EV2
 status: active
 merged_into: null
 display_name: 王椅
+cbdb_id: 29211
 revision: 1
 properties:
   - predicate: bio.summary

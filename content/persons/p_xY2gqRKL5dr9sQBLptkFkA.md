@@ -4,6 +4,7 @@ id: p_xY2gqRKL5dr9sQBLptkFkA
 status: active
 merged_into: null
 display_name: 王孝敬
+cbdb_id: 381600
 revision: 1
 properties:
   - predicate: bio.summary

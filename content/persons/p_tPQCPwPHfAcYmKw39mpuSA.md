@@ -4,6 +4,7 @@ id: p_tPQCPwPHfAcYmKw39mpuSA
 status: active
 merged_into: null
 display_name: 王宜甫
+cbdb_id: 39464
 revision: 1
 properties:
   - predicate: bio.summary

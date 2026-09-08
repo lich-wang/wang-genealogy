@@ -4,6 +4,7 @@ id: p_GC48VWjH6nXpUGctnChT8m
 status: active
 merged_into: null
 display_name: 王師俊
+cbdb_id: 162931
 revision: 1
 properties:
   - predicate: bio.summary

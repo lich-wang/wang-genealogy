@@ -4,6 +4,7 @@ id: p_55KCanakt5PHarYLAzp2Ts
 status: active
 merged_into: null
 display_name: 王之蕙
+cbdb_id: 413766
 revision: 1
 properties:
   - predicate: bio.summary

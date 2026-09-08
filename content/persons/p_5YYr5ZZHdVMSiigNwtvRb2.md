@@ -4,6 +4,7 @@ id: p_5YYr5ZZHdVMSiigNwtvRb2
 status: active
 merged_into: null
 display_name: 王華羣
+cbdb_id: 343152
 revision: 1
 properties:
   - predicate: bio.summary

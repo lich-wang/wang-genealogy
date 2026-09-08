@@ -4,6 +4,7 @@ id: p_jRG5KQHBS9PPM75Rahm22N
 status: active
 merged_into: null
 display_name: 王莧
+cbdb_id: 22147
 revision: 1
 properties:
   - predicate: bio.summary

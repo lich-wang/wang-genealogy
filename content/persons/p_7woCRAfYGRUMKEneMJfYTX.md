@@ -4,6 +4,7 @@ id: p_7woCRAfYGRUMKEneMJfYTX
 status: active
 merged_into: null
 display_name: 王榮第
+cbdb_id: 67759
 revision: 1
 properties:
   - predicate: bio.summary

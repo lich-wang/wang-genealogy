@@ -4,6 +4,7 @@ id: p_DxjskV5QQbWK43XQQTjaRU
 status: active
 merged_into: null
 display_name: 王宗卿
+cbdb_id: 175581
 revision: 1
 properties:
   - predicate: bio.summary

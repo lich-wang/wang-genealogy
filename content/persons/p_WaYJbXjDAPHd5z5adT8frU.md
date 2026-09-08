@@ -4,6 +4,7 @@ id: p_WaYJbXjDAPHd5z5adT8frU
 status: active
 merged_into: null
 display_name: 王如槐
+cbdb_id: 414231
 revision: 1
 properties:
   - predicate: bio.summary

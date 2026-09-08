@@ -4,6 +4,7 @@ id: p_fFLLwyJLnFYY27SjFBvkxD
 status: active
 merged_into: null
 display_name: 王鏡瀾
+cbdb_id: 72212
 revision: 1
 properties:
   - predicate: bio.summary

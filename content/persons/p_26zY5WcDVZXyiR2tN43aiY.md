@@ -4,6 +4,7 @@ id: p_26zY5WcDVZXyiR2tN43aiY
 status: active
 merged_into: null
 display_name: 王猷允
+cbdb_id: 299907
 revision: 1
 properties:
   - predicate: bio.summary

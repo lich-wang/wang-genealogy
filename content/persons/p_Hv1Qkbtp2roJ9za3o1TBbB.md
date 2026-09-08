@@ -4,6 +4,7 @@ id: p_Hv1Qkbtp2roJ9za3o1TBbB
 status: active
 merged_into: null
 display_name: 王羔兒
+cbdb_id: 415284
 revision: 1
 properties:
   - predicate: bio.summary

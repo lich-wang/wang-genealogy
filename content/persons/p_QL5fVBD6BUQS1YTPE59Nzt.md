@@ -4,6 +4,7 @@ id: p_QL5fVBD6BUQS1YTPE59Nzt
 status: active
 merged_into: null
 display_name: 王姚泰
+cbdb_id: 121039
 revision: 1
 properties:
   - predicate: bio.summary

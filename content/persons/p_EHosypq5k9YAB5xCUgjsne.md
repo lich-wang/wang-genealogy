@@ -4,6 +4,7 @@ id: p_EHosypq5k9YAB5xCUgjsne
 status: active
 merged_into: null
 display_name: 王志
+cbdb_id: 26227
 revision: 1
 properties:
   - predicate: name.primary

@@ -4,6 +4,7 @@ id: p_9yrh3LG22eDzqwJQoBMgVx
 status: active
 merged_into: null
 display_name: 王世揚
+cbdb_id: 126490
 revision: 1
 properties:
   - predicate: bio.summary

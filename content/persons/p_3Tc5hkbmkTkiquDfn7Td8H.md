@@ -4,6 +4,7 @@ id: p_3Tc5hkbmkTkiquDfn7Td8H
 status: active
 merged_into: null
 display_name: 王岳靈
+cbdb_id: 92042
 revision: 1
 properties:
   - predicate: bio.summary

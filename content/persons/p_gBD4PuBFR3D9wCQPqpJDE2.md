@@ -4,6 +4,7 @@ id: p_gBD4PuBFR3D9wCQPqpJDE2
 status: active
 merged_into: null
 display_name: 王宏猷
+cbdb_id: 441137
 revision: 1
 properties:
   - predicate: bio.summary

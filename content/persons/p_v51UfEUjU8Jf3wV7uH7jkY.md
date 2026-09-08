@@ -4,6 +4,7 @@ id: p_v51UfEUjU8Jf3wV7uH7jkY
 status: active
 merged_into: null
 display_name: 王懷智
+cbdb_id: 149003
 revision: 1
 properties:
   - predicate: bio.summary

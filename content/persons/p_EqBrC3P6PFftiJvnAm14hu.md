@@ -4,6 +4,7 @@ id: p_EqBrC3P6PFftiJvnAm14hu
 status: active
 merged_into: null
 display_name: 王希仁
+cbdb_id: 296934
 revision: 1
 properties:
   - predicate: bio.summary

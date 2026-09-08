@@ -4,6 +4,7 @@ id: p_hYJQmtNCrG8GMuHRYcfzUZ
 status: active
 merged_into: null
 display_name: 王恩圻
+cbdb_id: 496929
 revision: 1
 properties:
   - predicate: bio.summary

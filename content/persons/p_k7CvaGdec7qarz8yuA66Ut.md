@@ -4,6 +4,7 @@ id: p_k7CvaGdec7qarz8yuA66Ut
 status: active
 merged_into: null
 display_name: 王時格
+cbdb_id: 308747
 revision: 1
 properties:
   - predicate: bio.summary

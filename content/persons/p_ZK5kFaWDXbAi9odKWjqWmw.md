@@ -4,6 +4,7 @@ id: p_ZK5kFaWDXbAi9odKWjqWmw
 status: active
 merged_into: null
 display_name: 王穩住
+cbdb_id: 522262
 revision: 1
 properties:
   - predicate: bio.summary

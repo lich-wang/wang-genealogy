@@ -4,6 +4,7 @@ id: p_V8jynzKLZNGYw9PD8YeQik
 status: active
 merged_into: null
 display_name: 王師虞
+cbdb_id: 23164
 revision: 1
 properties:
   - predicate: bio.summary

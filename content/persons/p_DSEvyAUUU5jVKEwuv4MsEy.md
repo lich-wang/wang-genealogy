@@ -4,6 +4,7 @@ id: p_DSEvyAUUU5jVKEwuv4MsEy
 status: active
 merged_into: null
 display_name: 王貴學
+cbdb_id: 259204
 revision: 1
 properties:
   - predicate: bio.summary

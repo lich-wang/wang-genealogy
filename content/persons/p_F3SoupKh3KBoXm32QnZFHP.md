@@ -4,6 +4,7 @@ id: p_F3SoupKh3KBoXm32QnZFHP
 status: active
 merged_into: null
 display_name: 王穎悟
+cbdb_id: 445499
 revision: 1
 properties:
   - predicate: bio.summary

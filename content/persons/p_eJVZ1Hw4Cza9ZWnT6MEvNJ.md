@@ -4,6 +4,7 @@ id: p_eJVZ1Hw4Cza9ZWnT6MEvNJ
 status: active
 merged_into: null
 display_name: 王得相
+cbdb_id: 414530
 revision: 1
 properties:
   - predicate: bio.summary

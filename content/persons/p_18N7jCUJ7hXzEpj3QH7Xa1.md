@@ -4,6 +4,7 @@ id: p_18N7jCUJ7hXzEpj3QH7Xa1
 status: active
 merged_into: null
 display_name: 王步墀
+cbdb_id: 414924
 revision: 1
 properties:
   - predicate: bio.summary

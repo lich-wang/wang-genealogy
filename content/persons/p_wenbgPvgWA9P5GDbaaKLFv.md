@@ -4,6 +4,7 @@ id: p_wenbgPvgWA9P5GDbaaKLFv
 status: active
 merged_into: null
 display_name: 王宝
+cbdb_id: 175494
 revision: 1
 properties:
   - predicate: bio.summary

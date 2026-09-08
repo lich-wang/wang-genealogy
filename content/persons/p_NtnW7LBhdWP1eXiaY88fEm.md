@@ -4,6 +4,7 @@ id: p_NtnW7LBhdWP1eXiaY88fEm
 status: active
 merged_into: null
 display_name: 王功達
+cbdb_id: 413989
 revision: 1
 properties:
   - predicate: bio.summary

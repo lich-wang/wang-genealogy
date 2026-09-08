@@ -4,6 +4,7 @@ id: p_9scMvZbY1QFgKzRKBWDHTa
 status: active
 merged_into: null
 display_name: 王萬修
+cbdb_id: 3990
 revision: 1
 properties:
   - predicate: bio.summary

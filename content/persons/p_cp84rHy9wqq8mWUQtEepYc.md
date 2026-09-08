@@ -4,6 +4,7 @@ id: p_cp84rHy9wqq8mWUQtEepYc
 status: active
 merged_into: null
 display_name: 王季高
+cbdb_id: 414261
 revision: 1
 properties:
   - predicate: bio.summary

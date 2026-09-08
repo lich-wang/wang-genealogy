@@ -4,6 +4,7 @@ id: p_BLux6dwAqCAkgnznDJJrd9
 status: active
 merged_into: null
 display_name: 王欽禮
+cbdb_id: 101365
 revision: 1
 properties:
   - predicate: bio.summary

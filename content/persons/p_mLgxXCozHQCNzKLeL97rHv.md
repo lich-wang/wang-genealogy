@@ -4,6 +4,7 @@ id: p_mLgxXCozHQCNzKLeL97rHv
 status: active
 merged_into: null
 display_name: 王家民
+cbdb_id: 332964
 revision: 1
 properties:
   - predicate: bio.summary

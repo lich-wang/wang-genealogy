@@ -4,6 +4,7 @@ id: p_woqEE9m1vxbSja7pejiELv
 status: active
 merged_into: null
 display_name: 王晧
+cbdb_id: 163588
 revision: 1
 properties:
   - predicate: bio.summary

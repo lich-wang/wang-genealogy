@@ -4,6 +4,7 @@ id: p_qDDgDTbxrSZByFZfE8FHZn
 status: active
 merged_into: null
 display_name: 王慶勛
+cbdb_id: 71605
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_AgYiBCM7MfwDaoeuNsJi33
 status: active
 merged_into: null
 display_name: 王惟寅
+cbdb_id: 25801
 revision: 1
 properties:
   - predicate: bio.summary

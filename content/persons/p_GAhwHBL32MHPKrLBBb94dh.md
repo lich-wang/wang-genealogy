@@ -4,6 +4,7 @@ id: p_GAhwHBL32MHPKrLBBb94dh
 status: active
 merged_into: null
 display_name: 王可使
+cbdb_id: 318734
 revision: 1
 properties:
   - predicate: bio.summary

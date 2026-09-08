@@ -4,6 +4,7 @@ id: p_nuBK1wsMvCBFXuA1nKxaa5
 status: active
 merged_into: null
 display_name: 王納講
+cbdb_id: 204128
 revision: 1
 properties:
   - predicate: bio.summary

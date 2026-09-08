@@ -4,6 +4,7 @@ id: p_4mMGUMkz1ey1JmZi5tXtsQ
 status: active
 merged_into: null
 display_name: 王克同
+cbdb_id: 379483
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_NerxVER9Swf4Y33DwKHk3u
 status: active
 merged_into: null
 display_name: 王朝恩
+cbdb_id: 60977
 revision: 1
 properties:
   - predicate: bio.summary

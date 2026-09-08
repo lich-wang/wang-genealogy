@@ -4,6 +4,7 @@ id: p_whxfs6F7FGcjhCSBTAZMKC
 status: active
 merged_into: null
 display_name: 王孟錡
+cbdb_id: 258062
 revision: 1
 properties:
   - predicate: bio.summary

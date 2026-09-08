@@ -4,6 +4,7 @@ id: p_xM76Qng99LgyKKPr87QFhC
 status: active
 merged_into: null
 display_name: 王景良
+cbdb_id: 38056
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_AQqXiLmd9APKeEofkCx3Nv
 status: active
 merged_into: null
 display_name: 王文選
+cbdb_id: 273646
 revision: 1
 properties:
   - predicate: bio.summary

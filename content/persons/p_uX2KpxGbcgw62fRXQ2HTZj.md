@@ -4,6 +4,7 @@ id: p_uX2KpxGbcgw62fRXQ2HTZj
 status: active
 merged_into: null
 display_name: 王世彰
+cbdb_id: 287986
 revision: 1
 properties:
   - predicate: bio.summary

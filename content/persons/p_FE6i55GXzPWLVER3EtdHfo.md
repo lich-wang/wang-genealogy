@@ -4,6 +4,7 @@ id: p_FE6i55GXzPWLVER3EtdHfo
 status: active
 merged_into: null
 display_name: 王彥泓
+cbdb_id: 120462
 revision: 1
 properties:
   - predicate: bio.summary

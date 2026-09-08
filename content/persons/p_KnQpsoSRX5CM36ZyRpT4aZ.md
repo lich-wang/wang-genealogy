@@ -4,6 +4,7 @@ id: p_KnQpsoSRX5CM36ZyRpT4aZ
 status: active
 merged_into: null
 display_name: 王兆泰
+cbdb_id: 342664
 revision: 1
 properties:
   - predicate: bio.summary

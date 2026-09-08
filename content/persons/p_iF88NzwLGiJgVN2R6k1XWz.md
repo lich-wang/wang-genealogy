@@ -4,6 +4,7 @@ id: p_iF88NzwLGiJgVN2R6k1XWz
 status: active
 merged_into: null
 display_name: 王滸
+cbdb_id: 39073
 revision: 1
 properties:
   - predicate: bio.summary

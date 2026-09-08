@@ -4,6 +4,7 @@ id: p_WtKQyYX6aH8C33XPVE1n1V
 status: active
 merged_into: null
 display_name: 王鼎子
+cbdb_id: 175604
 revision: 1
 properties:
   - predicate: bio.summary

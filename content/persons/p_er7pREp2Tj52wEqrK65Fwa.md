@@ -4,6 +4,7 @@ id: p_er7pREp2Tj52wEqrK65Fwa
 status: active
 merged_into: null
 display_name: 王鈺孫
+cbdb_id: 514237
 revision: 1
 properties:
   - predicate: bio.summary

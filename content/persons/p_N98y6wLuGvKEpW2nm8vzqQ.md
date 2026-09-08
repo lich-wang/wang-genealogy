@@ -4,6 +4,7 @@ id: p_N98y6wLuGvKEpW2nm8vzqQ
 status: active
 merged_into: null
 display_name: 王嘉議
+cbdb_id: 229671
 revision: 1
 properties:
   - predicate: bio.summary

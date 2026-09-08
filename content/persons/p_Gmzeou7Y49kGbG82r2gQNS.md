@@ -4,6 +4,7 @@ id: p_Gmzeou7Y49kGbG82r2gQNS
 status: active
 merged_into: null
 display_name: 王弘幹
+cbdb_id: 257397
 revision: 1
 properties:
   - predicate: bio.summary

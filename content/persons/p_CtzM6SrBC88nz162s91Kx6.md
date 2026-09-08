@@ -4,6 +4,7 @@ id: p_CtzM6SrBC88nz162s91Kx6
 status: active
 merged_into: null
 display_name: 王用官
+cbdb_id: 324566
 revision: 1
 properties:
   - predicate: bio.summary

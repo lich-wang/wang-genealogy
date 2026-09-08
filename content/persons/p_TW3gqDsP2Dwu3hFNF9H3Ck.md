@@ -4,6 +4,7 @@ id: p_TW3gqDsP2Dwu3hFNF9H3Ck
 status: active
 merged_into: null
 display_name: 王國昂
+cbdb_id: 384397
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_2YQK8AJdvGZnrgAkpjNZA1
 status: active
 merged_into: null
 display_name: 王懿昌
+cbdb_id: 450501
 revision: 1
 properties:
   - predicate: bio.summary

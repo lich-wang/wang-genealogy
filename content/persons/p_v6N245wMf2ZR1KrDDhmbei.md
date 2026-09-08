@@ -4,6 +4,7 @@ id: p_v6N245wMf2ZR1KrDDhmbei
 status: active
 merged_into: null
 display_name: 王式武
+cbdb_id: 343070
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_1D1bTUepgK5vw9CJqVWx3G
 status: active
 merged_into: null
 display_name: 王樂雍
+cbdb_id: 71493
 revision: 1
 properties:
   - predicate: bio.summary

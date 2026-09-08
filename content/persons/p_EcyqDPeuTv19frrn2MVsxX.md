@@ -4,6 +4,7 @@ id: p_EcyqDPeuTv19frrn2MVsxX
 status: active
 merged_into: null
 display_name: 王飛
+cbdb_id: 513349
 revision: 1
 properties:
   - predicate: bio.summary

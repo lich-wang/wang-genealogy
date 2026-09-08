@@ -4,6 +4,7 @@ id: p_ufM1Ri6DvvZDdaMDSQA2Um
 status: active
 merged_into: null
 display_name: 王嘉經
+cbdb_id: 414106
 revision: 1
 properties:
   - predicate: bio.summary

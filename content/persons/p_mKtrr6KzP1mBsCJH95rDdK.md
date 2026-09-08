@@ -4,6 +4,7 @@ id: p_mKtrr6KzP1mBsCJH95rDdK
 status: active
 merged_into: null
 display_name: 王希彥
+cbdb_id: 414408
 revision: 1
 properties:
   - predicate: bio.summary

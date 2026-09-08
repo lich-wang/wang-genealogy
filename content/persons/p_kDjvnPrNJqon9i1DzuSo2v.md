@@ -4,6 +4,7 @@ id: p_kDjvnPrNJqon9i1DzuSo2v
 status: active
 merged_into: null
 display_name: 王命相
+cbdb_id: 69274
 revision: 1
 properties:
   - predicate: bio.summary

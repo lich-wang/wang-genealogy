@@ -4,6 +4,7 @@ id: p_oWDXUPyv9KmoJt18dhD1fe
 status: active
 merged_into: null
 display_name: 王時讓
+cbdb_id: 299511
 revision: 1
 properties:
   - predicate: bio.summary

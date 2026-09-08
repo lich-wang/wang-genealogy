@@ -4,6 +4,7 @@ id: p_BEW5rWi4QNcAkVZCqQEsFa
 status: active
 merged_into: null
 display_name: 王鏡熙
+cbdb_id: 526848
 revision: 1
 properties:
   - predicate: bio.summary

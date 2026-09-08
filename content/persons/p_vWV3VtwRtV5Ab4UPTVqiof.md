@@ -4,6 +4,7 @@ id: p_vWV3VtwRtV5Ab4UPTVqiof
 status: active
 merged_into: null
 display_name: 王士鸞
+cbdb_id: 294543
 revision: 1
 properties:
   - predicate: bio.summary

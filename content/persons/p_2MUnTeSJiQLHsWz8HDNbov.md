@@ -4,6 +4,7 @@ id: p_2MUnTeSJiQLHsWz8HDNbov
 status: active
 merged_into: null
 display_name: 王從巖
+cbdb_id: 155367
 revision: 1
 properties:
   - predicate: bio.summary

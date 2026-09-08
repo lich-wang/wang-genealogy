@@ -4,6 +4,7 @@ id: p_M7VPt6ViMUcsP7SiN9Wznv
 status: active
 merged_into: null
 display_name: 王存善
+cbdb_id: 71534
 revision: 1
 properties:
   - predicate: bio.summary

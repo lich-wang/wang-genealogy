@@ -4,6 +4,7 @@ id: p_9BjemQ2sEPzfHjRymCew46
 status: active
 merged_into: null
 display_name: 王孝吉
+cbdb_id: 525988
 revision: 1
 properties:
   - predicate: bio.summary

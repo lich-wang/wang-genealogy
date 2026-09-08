@@ -4,6 +4,7 @@ id: p_t9MH72fuW9TVKk8Dso6LP5
 status: active
 merged_into: null
 display_name: 王堯春
+cbdb_id: 301849
 revision: 1
 properties:
   - predicate: bio.summary

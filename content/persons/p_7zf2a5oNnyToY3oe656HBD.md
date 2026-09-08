@@ -4,6 +4,7 @@ id: p_7zf2a5oNnyToY3oe656HBD
 status: active
 merged_into: null
 display_name: 王強學
+cbdb_id: 33394
 revision: 1
 properties:
   - predicate: bio.summary

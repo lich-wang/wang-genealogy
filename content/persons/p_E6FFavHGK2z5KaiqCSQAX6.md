@@ -4,6 +4,7 @@ id: p_E6FFavHGK2z5KaiqCSQAX6
 status: active
 merged_into: null
 display_name: 王三星
+cbdb_id: 61602
 revision: 1
 properties:
   - predicate: bio.summary

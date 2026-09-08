@@ -4,6 +4,7 @@ id: p_PdXHh7pDrGLEbKLAE4sy9G
 status: active
 merged_into: null
 display_name: 王知感
+cbdb_id: 196292
 revision: 1
 properties:
   - predicate: name.primary

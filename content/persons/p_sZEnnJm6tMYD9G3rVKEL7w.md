@@ -4,6 +4,7 @@ id: p_sZEnnJm6tMYD9G3rVKEL7w
 status: active
 merged_into: null
 display_name: 王弘誨
+cbdb_id: 126486
 revision: 1
 properties:
   - predicate: bio.summary

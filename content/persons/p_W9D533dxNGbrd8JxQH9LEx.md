@@ -4,6 +4,7 @@ id: p_W9D533dxNGbrd8JxQH9LEx
 status: active
 merged_into: null
 display_name: 王從長
+cbdb_id: 161289
 revision: 1
 properties:
   - predicate: bio.summary

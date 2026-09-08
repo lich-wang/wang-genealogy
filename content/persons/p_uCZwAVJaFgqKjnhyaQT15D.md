@@ -4,6 +4,7 @@ id: p_uCZwAVJaFgqKjnhyaQT15D
 status: active
 merged_into: null
 display_name: 王命禹
+cbdb_id: 343761
 revision: 1
 properties:
   - predicate: bio.summary

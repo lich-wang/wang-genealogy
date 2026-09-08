@@ -4,6 +4,7 @@ id: p_cS1PEs4aqrcsoYW8mi5kH9
 status: active
 merged_into: null
 display_name: 王性存
+cbdb_id: 101251
 revision: 1
 properties:
   - predicate: bio.summary

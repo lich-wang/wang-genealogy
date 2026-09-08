@@ -4,6 +4,7 @@ id: p_JtmXng1Pk3QaoKDLMN1c9L
 status: active
 merged_into: null
 display_name: 王昭被
+cbdb_id: 343545
 revision: 1
 properties:
   - predicate: bio.summary

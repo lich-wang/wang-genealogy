@@ -4,6 +4,7 @@ id: p_UkPVMQzkGabKg6B9gH8cH4
 status: active
 merged_into: null
 display_name: 王伯誠
+cbdb_id: 413859
 revision: 1
 properties:
   - predicate: bio.summary

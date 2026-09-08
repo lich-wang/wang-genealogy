@@ -4,6 +4,7 @@ id: p_gMAHHHUi8Na88zAJFKzf32
 status: active
 merged_into: null
 display_name: 王椿祥
+cbdb_id: 414872
 revision: 1
 properties:
   - predicate: bio.summary

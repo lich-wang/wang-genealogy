@@ -4,6 +4,7 @@ id: p_X1UCfgUyoJHi8W8xdH58BE
 status: active
 merged_into: null
 display_name: 王士真
+cbdb_id: 169076
 revision: 2
 properties:
   - predicate: bio.summary

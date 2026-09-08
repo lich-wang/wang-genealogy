@@ -4,6 +4,7 @@ id: p_dyfJdpRLSTTVophuBFTL31
 status: active
 merged_into: null
 display_name: 王之問
+cbdb_id: 413742
 revision: 1
 properties:
   - predicate: bio.summary

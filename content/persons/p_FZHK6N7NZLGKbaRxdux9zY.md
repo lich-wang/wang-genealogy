@@ -4,6 +4,7 @@ id: p_FZHK6N7NZLGKbaRxdux9zY
 status: active
 merged_into: null
 display_name: 王佑賢
+cbdb_id: 120350
 revision: 1
 properties:
   - predicate: bio.summary

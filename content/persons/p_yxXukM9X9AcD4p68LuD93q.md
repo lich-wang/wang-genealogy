@@ -4,6 +4,7 @@ id: p_yxXukM9X9AcD4p68LuD93q
 status: active
 merged_into: null
 display_name: 王歪歪
+cbdb_id: 414925
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_h58EgsHL8RbN2F8pGAfby6
 status: active
 merged_into: null
 display_name: 王安哥
+cbdb_id: 101172
 revision: 1
 properties:
   - predicate: bio.summary

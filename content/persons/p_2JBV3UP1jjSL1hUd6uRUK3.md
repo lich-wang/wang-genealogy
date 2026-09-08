@@ -4,6 +4,7 @@ id: p_2JBV3UP1jjSL1hUd6uRUK3
 status: active
 merged_into: null
 display_name: 王鸾
+cbdb_id: 222285
 revision: 2
 properties:
   - predicate: bio.summary

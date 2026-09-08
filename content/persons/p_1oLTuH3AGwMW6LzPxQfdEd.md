@@ -4,6 +4,7 @@ id: p_1oLTuH3AGwMW6LzPxQfdEd
 status: active
 merged_into: null
 display_name: 王玉樹
+cbdb_id: 415099
 revision: 1
 properties:
   - predicate: bio.summary

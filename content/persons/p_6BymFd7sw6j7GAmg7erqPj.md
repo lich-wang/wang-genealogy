@@ -4,6 +4,7 @@ id: p_6BymFd7sw6j7GAmg7erqPj
 status: active
 merged_into: null
 display_name: 王智兴
+cbdb_id: 92090
 revision: 2
 properties:
   - predicate: bio.summary

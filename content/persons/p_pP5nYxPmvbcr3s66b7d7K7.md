@@ -4,6 +4,7 @@ id: p_pP5nYxPmvbcr3s66b7d7K7
 status: active
 merged_into: null
 display_name: 王嘉政
+cbdb_id: 414097
 revision: 1
 properties:
   - predicate: bio.summary

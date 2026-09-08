@@ -4,6 +4,7 @@ id: p_w5aKZ9LJHKfHBfzJKoqr6E
 status: active
 merged_into: null
 display_name: 王正愚
+cbdb_id: 288247
 revision: 1
 properties:
   - predicate: bio.summary

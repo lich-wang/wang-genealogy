@@ -4,6 +4,7 @@ id: p_7XWkven58npQrrRbKAf8FD
 status: active
 merged_into: null
 display_name: 王孟鑑
+cbdb_id: 258061
 revision: 1
 properties:
   - predicate: bio.summary

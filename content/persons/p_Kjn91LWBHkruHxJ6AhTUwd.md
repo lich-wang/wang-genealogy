@@ -4,6 +4,7 @@ id: p_Kjn91LWBHkruHxJ6AhTUwd
 status: active
 merged_into: null
 display_name: 王無虧
+cbdb_id: 150704
 revision: 1
 properties:
   - predicate: bio.summary

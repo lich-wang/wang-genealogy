@@ -4,6 +4,7 @@ id: p_pRHuzHP7LP57EjcGVi8LER
 status: active
 merged_into: null
 display_name: 王宽
+cbdb_id: 175627
 revision: 1
 properties:
   - predicate: bio.summary

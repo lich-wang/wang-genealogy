@@ -4,6 +4,7 @@ id: p_j6yFKCjZuRSKE6EaY7VL2H
 status: active
 merged_into: null
 display_name: 王先宗
+cbdb_id: 221570
 revision: 1
 properties:
   - predicate: bio.summary

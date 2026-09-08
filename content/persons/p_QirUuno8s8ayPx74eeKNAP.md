@@ -4,6 +4,7 @@ id: p_QirUuno8s8ayPx74eeKNAP
 status: active
 merged_into: null
 display_name: 王嘉聞
+cbdb_id: 38221
 revision: 1
 properties:
   - predicate: bio.summary

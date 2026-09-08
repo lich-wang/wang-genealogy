@@ -4,6 +4,7 @@ id: p_M7yR2N6radi7SJKEvust2s
 status: active
 merged_into: null
 display_name: 王临
+cbdb_id: 2133
 revision: 2
 properties:
   - predicate: bio.summary

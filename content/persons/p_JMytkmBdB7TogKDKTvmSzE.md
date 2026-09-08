@@ -4,6 +4,7 @@ id: p_JMytkmBdB7TogKDKTvmSzE
 status: active
 merged_into: null
 display_name: 王邦禎
+cbdb_id: 415512
 revision: 1
 properties:
   - predicate: bio.summary

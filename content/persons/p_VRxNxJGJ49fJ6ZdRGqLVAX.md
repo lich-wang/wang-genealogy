@@ -4,6 +4,7 @@ id: p_VRxNxJGJ49fJ6ZdRGqLVAX
 status: active
 merged_into: null
 display_name: 王兆鳳
+cbdb_id: 290831
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_BSdKViSr47Ca2QyKQUdQhv
 status: active
 merged_into: null
 display_name: 王汶
+cbdb_id: 175557
 revision: 1
 properties:
   - predicate: bio.summary

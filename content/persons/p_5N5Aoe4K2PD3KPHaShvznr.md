@@ -4,6 +4,7 @@ id: p_5N5Aoe4K2PD3KPHaShvznr
 status: active
 merged_into: null
 display_name: 王赐
+cbdb_id: 175515
 revision: 1
 properties:
   - predicate: bio.summary

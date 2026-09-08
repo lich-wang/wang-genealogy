@@ -4,6 +4,7 @@ id: p_sJV3o1g9cdPaCH2Ho9mKA7
 status: active
 merged_into: null
 display_name: 王祖慶
+cbdb_id: 56784
 revision: 1
 properties:
   - predicate: bio.summary

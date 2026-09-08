@@ -4,6 +4,7 @@ id: p_6RpXXEfXnGvAQXNQQcuQeh
 status: active
 merged_into: null
 display_name: 孔传铎
+cbdb_id: 56694
 revision: 1
 properties:
   - predicate: name.primary

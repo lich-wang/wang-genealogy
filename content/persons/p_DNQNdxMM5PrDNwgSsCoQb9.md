@@ -4,6 +4,7 @@ id: p_DNQNdxMM5PrDNwgSsCoQb9
 status: active
 merged_into: null
 display_name: 王童蔚
+cbdb_id: 341527
 revision: 1
 properties:
   - predicate: bio.summary

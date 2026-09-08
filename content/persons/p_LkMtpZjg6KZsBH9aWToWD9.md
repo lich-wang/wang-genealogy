@@ -4,6 +4,7 @@ id: p_LkMtpZjg6KZsBH9aWToWD9
 status: active
 merged_into: null
 display_name: 王武俊
+cbdb_id: 191752
 revision: 2
 properties:
   - predicate: bio.summary

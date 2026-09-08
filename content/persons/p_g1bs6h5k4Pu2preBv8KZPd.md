@@ -4,6 +4,7 @@ id: p_g1bs6h5k4Pu2preBv8KZPd
 status: active
 merged_into: null
 display_name: 王仲智
+cbdb_id: 264035
 revision: 2
 properties:
   - predicate: bio.summary

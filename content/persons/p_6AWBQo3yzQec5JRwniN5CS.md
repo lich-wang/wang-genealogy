@@ -4,6 +4,7 @@ id: p_6AWBQo3yzQec5JRwniN5CS
 status: active
 merged_into: null
 display_name: 王次山
+cbdb_id: 97939
 revision: 1
 properties:
   - predicate: bio.summary

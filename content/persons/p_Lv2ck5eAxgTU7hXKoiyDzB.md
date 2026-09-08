@@ -4,6 +4,7 @@ id: p_Lv2ck5eAxgTU7hXKoiyDzB
 status: active
 merged_into: null
 display_name: 王廷珹
+cbdb_id: 341911
 revision: 1
 properties:
   - predicate: bio.summary

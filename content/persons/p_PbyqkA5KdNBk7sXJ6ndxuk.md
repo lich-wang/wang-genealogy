@@ -4,6 +4,7 @@ id: p_PbyqkA5KdNBk7sXJ6ndxuk
 status: active
 merged_into: null
 display_name: 王象離
+cbdb_id: 330759
 revision: 1
 properties:
   - predicate: bio.summary

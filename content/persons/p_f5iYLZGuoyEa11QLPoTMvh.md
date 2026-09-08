@@ -4,6 +4,7 @@ id: p_f5iYLZGuoyEa11QLPoTMvh
 status: active
 merged_into: null
 display_name: 王啟汧
+cbdb_id: 513444
 revision: 1
 properties:
   - predicate: bio.summary

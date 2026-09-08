@@ -4,6 +4,7 @@ id: p_m3rysv2G86VxyeTDnZGSoW
 status: active
 merged_into: null
 display_name: 王玉姊
+cbdb_id: 122445
 revision: 1
 properties:
   - predicate: bio.summary

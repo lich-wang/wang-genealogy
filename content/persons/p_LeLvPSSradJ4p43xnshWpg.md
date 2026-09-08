@@ -4,6 +4,7 @@ id: p_LeLvPSSradJ4p43xnshWpg
 status: active
 merged_into: null
 display_name: 王重盈
+cbdb_id: 185354
 revision: 1
 properties:
   - predicate: bio.summary

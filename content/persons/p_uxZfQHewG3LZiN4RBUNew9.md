@@ -4,6 +4,7 @@ id: p_uxZfQHewG3LZiN4RBUNew9
 status: active
 merged_into: null
 display_name: 王驥良
+cbdb_id: 415623
 revision: 1
 properties:
   - predicate: bio.summary

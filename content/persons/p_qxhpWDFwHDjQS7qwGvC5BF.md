@@ -4,6 +4,7 @@ id: p_qxhpWDFwHDjQS7qwGvC5BF
 status: active
 merged_into: null
 display_name: 王士昕
+cbdb_id: 414165
 revision: 1
 properties:
   - predicate: bio.summary

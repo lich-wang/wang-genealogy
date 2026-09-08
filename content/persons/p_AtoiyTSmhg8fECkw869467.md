@@ -4,6 +4,7 @@ id: p_AtoiyTSmhg8fECkw869467
 status: active
 merged_into: null
 display_name: 王邦美
+cbdb_id: 282555
 revision: 1
 properties:
   - predicate: bio.summary

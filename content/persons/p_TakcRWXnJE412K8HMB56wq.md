@@ -4,6 +4,7 @@ id: p_TakcRWXnJE412K8HMB56wq
 status: active
 merged_into: null
 display_name: 王學博
+cbdb_id: 526880
 revision: 1
 properties:
   - predicate: bio.summary

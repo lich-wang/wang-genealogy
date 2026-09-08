@@ -4,6 +4,7 @@ id: p_3EE6nGkdK5nWXbTdYxSyfy
 status: active
 merged_into: null
 display_name: 王伯俊
+cbdb_id: 261548
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_1YSBHW2jxXLTmetsFUjG83
 status: active
 merged_into: null
 display_name: 王光顯
+cbdb_id: 526688
 revision: 1
 properties:
   - predicate: bio.summary

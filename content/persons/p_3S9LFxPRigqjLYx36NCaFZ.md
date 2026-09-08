@@ -4,6 +4,7 @@ id: p_3S9LFxPRigqjLYx36NCaFZ
 status: active
 merged_into: null
 display_name: 王晞曾
+cbdb_id: 37372
 revision: 1
 properties:
   - predicate: bio.summary

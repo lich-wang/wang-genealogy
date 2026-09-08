@@ -4,6 +4,7 @@ id: p_27GHqyReEEbEZdSbBg6qbw
 status: active
 merged_into: null
 display_name: 王孫延
+cbdb_id: 341961
 revision: 1
 properties:
   - predicate: bio.summary

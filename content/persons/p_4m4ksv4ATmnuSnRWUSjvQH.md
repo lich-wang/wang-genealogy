@@ -4,6 +4,7 @@ id: p_4m4ksv4ATmnuSnRWUSjvQH
 status: active
 merged_into: null
 display_name: 王政忠
+cbdb_id: 37698
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_D6hhALHQZy1JP2VSFANMPh
 status: active
 merged_into: null
 display_name: 王源端
+cbdb_id: 175522
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_JpSK7vWCh5LB3Zzt4BGkQA
 status: active
 merged_into: null
 display_name: 王孝曾
+cbdb_id: 27614
 revision: 1
 properties:
   - predicate: bio.summary

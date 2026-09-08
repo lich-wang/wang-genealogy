@@ -4,6 +4,7 @@ id: p_3MNg9pS4nCDsJLutjEktvi
 status: active
 merged_into: null
 display_name: 王朝鈞
+cbdb_id: 285774
 revision: 1
 properties:
   - predicate: bio.summary

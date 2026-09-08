@@ -4,6 +4,7 @@ id: p_rwxpcAov6fmMJDCwssCy51
 status: active
 merged_into: null
 display_name: 王弘夫
+cbdb_id: 384355
 revision: 1
 properties:
   - predicate: bio.summary

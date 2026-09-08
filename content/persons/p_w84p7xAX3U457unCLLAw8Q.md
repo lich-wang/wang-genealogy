@@ -4,6 +4,7 @@ id: p_w84p7xAX3U457unCLLAw8Q
 status: active
 merged_into: null
 display_name: 王麟德
+cbdb_id: 339391
 revision: 1
 properties:
   - predicate: bio.summary

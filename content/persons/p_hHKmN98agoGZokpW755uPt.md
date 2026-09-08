@@ -4,6 +4,7 @@ id: p_hHKmN98agoGZokpW755uPt
 status: active
 merged_into: null
 display_name: 王雲聲
+cbdb_id: 341848
 revision: 1
 properties:
   - predicate: bio.summary

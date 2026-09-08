@@ -4,6 +4,7 @@ id: p_KoWpBaYsJhUfAqg3D9kGzB
 status: active
 merged_into: null
 display_name: 王洪徵
+cbdb_id: 415007
 revision: 1
 properties:
   - predicate: bio.summary

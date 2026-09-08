@@ -4,6 +4,7 @@ id: p_f7kk8xcVZme78AQvgfP7Mu
 status: active
 merged_into: null
 display_name: 王德裔
+cbdb_id: 1892
 revision: 1
 properties:
   - predicate: bio.summary

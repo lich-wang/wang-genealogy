@@ -4,6 +4,7 @@ id: p_MCx7EzXN6PbE82Xg7dkiFA
 status: active
 merged_into: null
 display_name: 王啓養
+cbdb_id: 414077
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_JFKXHj1gRnCvsKa8G4SJC8
 status: active
 merged_into: null
 display_name: 王容昇
+cbdb_id: 69298
 revision: 1
 properties:
   - predicate: bio.summary

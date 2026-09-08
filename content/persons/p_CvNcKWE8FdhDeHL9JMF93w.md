@@ -4,6 +4,7 @@ id: p_CvNcKWE8FdhDeHL9JMF93w
 status: active
 merged_into: null
 display_name: 王胤東
+cbdb_id: 217340
 revision: 1
 properties:
   - predicate: bio.summary

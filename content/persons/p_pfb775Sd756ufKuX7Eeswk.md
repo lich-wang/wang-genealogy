@@ -4,6 +4,7 @@ id: p_pfb775Sd756ufKuX7Eeswk
 status: active
 merged_into: null
 display_name: 王連瑛
+cbdb_id: 342762
 revision: 1
 properties:
   - predicate: bio.summary

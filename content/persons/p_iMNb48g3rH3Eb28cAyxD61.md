@@ -4,6 +4,7 @@ id: p_iMNb48g3rH3Eb28cAyxD61
 status: active
 merged_into: null
 display_name: 王福庚
+cbdb_id: 415193
 revision: 1
 properties:
   - predicate: bio.summary

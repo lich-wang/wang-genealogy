@@ -4,6 +4,7 @@ id: p_zgv1SMZqH9eDf28KchsL7f
 status: active
 merged_into: null
 display_name: 王承禋
+cbdb_id: 264049
 revision: 1
 properties:
   - predicate: bio.summary

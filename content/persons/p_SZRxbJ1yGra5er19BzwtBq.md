@@ -4,6 +4,7 @@ id: p_SZRxbJ1yGra5er19BzwtBq
 status: active
 merged_into: null
 display_name: 王元正
+cbdb_id: 68064
 revision: 1
 properties:
   - predicate: bio.summary

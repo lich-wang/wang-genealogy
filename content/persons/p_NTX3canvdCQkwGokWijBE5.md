@@ -4,6 +4,7 @@ id: p_NTX3canvdCQkwGokWijBE5
 status: active
 merged_into: null
 display_name: 王惠子
+cbdb_id: 155091
 revision: 1
 properties:
   - predicate: bio.summary

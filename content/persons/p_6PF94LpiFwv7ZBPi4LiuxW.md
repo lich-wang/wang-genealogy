@@ -4,6 +4,7 @@ id: p_6PF94LpiFwv7ZBPi4LiuxW
 status: active
 merged_into: null
 display_name: 王景孝
+cbdb_id: 175867
 revision: 2
 properties:
   - predicate: name.primary

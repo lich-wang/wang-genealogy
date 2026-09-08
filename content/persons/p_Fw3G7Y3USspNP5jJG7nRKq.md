@@ -4,6 +4,7 @@ id: p_Fw3G7Y3USspNP5jJG7nRKq
 status: active
 merged_into: null
 display_name: 王光祿
+cbdb_id: 122409
 revision: 1
 properties:
   - predicate: bio.summary

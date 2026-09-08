@@ -4,6 +4,7 @@ id: p_C4dwTQaKSpGV8jUkdF3wG4
 status: active
 merged_into: null
 display_name: 王兆鰲
+cbdb_id: 413932
 revision: 1
 properties:
   - predicate: bio.summary

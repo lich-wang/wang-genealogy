@@ -4,6 +4,7 @@ id: p_GpDVwXfmFgEjDaDBEoHp5m
 status: active
 merged_into: null
 display_name: 王振元
+cbdb_id: 60846
 revision: 1
 properties:
   - predicate: bio.summary

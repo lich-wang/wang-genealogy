@@ -4,6 +4,7 @@ id: p_4usLWsqkqpAbFc9tyhp3fK
 status: active
 merged_into: null
 display_name: 王繹曾
+cbdb_id: 415267
 revision: 1
 properties:
   - predicate: bio.summary

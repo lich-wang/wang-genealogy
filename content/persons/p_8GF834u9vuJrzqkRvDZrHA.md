@@ -4,6 +4,7 @@ id: p_8GF834u9vuJrzqkRvDZrHA
 status: active
 merged_into: null
 display_name: 吴氏
+cbdb_id: 437905
 revision: 1
 properties:
   - predicate: name.primary

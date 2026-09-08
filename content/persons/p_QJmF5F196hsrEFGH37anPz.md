@@ -4,6 +4,7 @@ id: p_QJmF5F196hsrEFGH37anPz
 status: active
 merged_into: null
 display_name: 王某泰
+cbdb_id: 459623
 revision: 1
 properties:
   - predicate: bio.summary

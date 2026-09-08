@@ -4,6 +4,7 @@ id: p_nYT5NgJhG44Ck13GqWDgfJ
 status: active
 merged_into: null
 display_name: 王庚吉
+cbdb_id: 331763
 revision: 1
 properties:
   - predicate: bio.summary

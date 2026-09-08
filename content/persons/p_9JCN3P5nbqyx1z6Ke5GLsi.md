@@ -4,6 +4,7 @@ id: p_9JCN3P5nbqyx1z6Ke5GLsi
 status: active
 merged_into: null
 display_name: 王靜言
+cbdb_id: 123362
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_D8BPbgHPViD7fkU3C6m7tv
 status: active
 merged_into: null
 display_name: 王泰輔
+cbdb_id: 526734
 revision: 1
 properties:
   - predicate: bio.summary

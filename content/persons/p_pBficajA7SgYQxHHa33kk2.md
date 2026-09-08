@@ -4,6 +4,7 @@ id: p_pBficajA7SgYQxHHa33kk2
 status: active
 merged_into: null
 display_name: 王廷湛
+cbdb_id: 414467
 revision: 1
 properties:
   - predicate: bio.summary

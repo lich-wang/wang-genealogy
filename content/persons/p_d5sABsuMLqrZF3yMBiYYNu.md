@@ -4,6 +4,7 @@ id: p_d5sABsuMLqrZF3yMBiYYNu
 status: active
 merged_into: null
 display_name: 王壽衍
+cbdb_id: 101396
 revision: 1
 properties:
   - predicate: bio.summary

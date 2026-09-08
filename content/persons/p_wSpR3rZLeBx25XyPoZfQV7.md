@@ -4,6 +4,7 @@ id: p_wSpR3rZLeBx25XyPoZfQV7
 status: active
 merged_into: null
 display_name: 王崇讓
+cbdb_id: 266142
 revision: 1
 properties:
   - predicate: bio.summary

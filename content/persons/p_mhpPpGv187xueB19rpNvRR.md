@@ -4,6 +4,7 @@ id: p_mhpPpGv187xueB19rpNvRR
 status: active
 merged_into: null
 display_name: 王嘉正
+cbdb_id: 414102
 revision: 1
 properties:
   - predicate: bio.summary

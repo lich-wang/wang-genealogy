@@ -4,6 +4,7 @@ id: p_PSyC8WZAjgZjxMfNDFp9rN
 status: active
 merged_into: null
 display_name: 王萬斛
+cbdb_id: 415361
 revision: 1
 properties:
   - predicate: bio.summary

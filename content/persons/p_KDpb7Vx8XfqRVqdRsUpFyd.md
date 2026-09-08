@@ -4,6 +4,7 @@ id: p_KDpb7Vx8XfqRVqdRsUpFyd
 status: active
 merged_into: null
 display_name: 王獻夫
+cbdb_id: 265734
 revision: 1
 properties:
   - predicate: bio.summary

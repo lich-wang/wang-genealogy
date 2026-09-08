@@ -4,6 +4,7 @@ id: p_Zr3cc57cGmUXGbD4psHLyS
 status: active
 merged_into: null
 display_name: 王仕復
+cbdb_id: 238052
 revision: 1
 properties:
   - predicate: bio.summary

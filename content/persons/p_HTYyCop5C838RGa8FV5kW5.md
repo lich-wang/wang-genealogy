@@ -4,6 +4,7 @@ id: p_HTYyCop5C838RGa8FV5kW5
 status: active
 merged_into: null
 display_name: 王綺書
+cbdb_id: 72027
 revision: 1
 properties:
   - predicate: bio.summary

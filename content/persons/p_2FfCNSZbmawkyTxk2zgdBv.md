@@ -4,6 +4,7 @@ id: p_2FfCNSZbmawkyTxk2zgdBv
 status: active
 merged_into: null
 display_name: 王僧修
+cbdb_id: 175866
 revision: 2
 properties:
   - predicate: bio.summary

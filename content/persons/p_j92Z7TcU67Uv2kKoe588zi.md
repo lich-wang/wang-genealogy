@@ -4,6 +4,7 @@ id: p_j92Z7TcU67Uv2kKoe588zi
 status: active
 merged_into: null
 display_name: 王慶垣
+cbdb_id: 341596
 revision: 1
 properties:
   - predicate: bio.summary

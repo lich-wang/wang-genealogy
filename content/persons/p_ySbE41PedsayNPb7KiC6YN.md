@@ -4,6 +4,7 @@ id: p_ySbE41PedsayNPb7KiC6YN
 status: active
 merged_into: null
 display_name: 王廷誥
+cbdb_id: 414487
 revision: 1
 properties:
   - predicate: bio.summary

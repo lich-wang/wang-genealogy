@@ -4,6 +4,7 @@ id: p_k8HuKiS8fiU1EwD3GHzVjc
 status: active
 merged_into: null
 display_name: 王子完
+cbdb_id: 268917
 revision: 1
 properties:
   - predicate: bio.summary

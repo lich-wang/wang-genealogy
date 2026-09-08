@@ -4,6 +4,7 @@ id: p_5WrLnVoNTCh5kCwFcCRHpP
 status: active
 merged_into: null
 display_name: 王加茂
+cbdb_id: 332993
 revision: 1
 properties:
   - predicate: bio.summary

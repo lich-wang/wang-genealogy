@@ -4,6 +4,7 @@ id: p_XmKEvprHRjSYX3Q3owLScL
 status: active
 merged_into: null
 display_name: 王有大
+cbdb_id: 35585
 revision: 2
 properties:
   - predicate: bio.summary

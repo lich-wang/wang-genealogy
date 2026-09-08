@@ -4,6 +4,7 @@ id: p_TNwE9Q6c4iBUHKn7SACyzb
 status: active
 merged_into: null
 display_name: 王女
+cbdb_id: 134358
 revision: 1
 properties:
   - predicate: bio.summary

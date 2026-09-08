@@ -4,6 +4,7 @@ id: p_VFQ8oDe67KTSTHKBVdkHry
 status: active
 merged_into: null
 display_name: 王惟翰
+cbdb_id: 336619
 revision: 1
 properties:
   - predicate: bio.summary

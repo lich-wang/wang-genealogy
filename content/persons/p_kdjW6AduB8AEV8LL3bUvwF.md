@@ -4,6 +4,7 @@ id: p_kdjW6AduB8AEV8LL3bUvwF
 status: active
 merged_into: null
 display_name: 王巨甫
+cbdb_id: 326383
 revision: 1
 properties:
   - predicate: bio.summary

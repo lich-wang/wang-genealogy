@@ -4,6 +4,7 @@ id: p_XimyDHXBQWPqcKmGUFF19c
 status: active
 merged_into: null
 display_name: 王鴻發
+cbdb_id: 68616
 revision: 1
 properties:
   - predicate: bio.summary

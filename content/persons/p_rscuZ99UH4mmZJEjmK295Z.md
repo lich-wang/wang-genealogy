@@ -4,6 +4,7 @@ id: p_rscuZ99UH4mmZJEjmK295Z
 status: active
 merged_into: null
 display_name: 王朝獻
+cbdb_id: 285771
 revision: 1
 properties:
   - predicate: bio.summary

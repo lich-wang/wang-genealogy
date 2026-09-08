@@ -4,6 +4,7 @@ id: p_1wXPtvz3skCJhc9NMLK9o8
 status: active
 merged_into: null
 display_name: 王允則
+cbdb_id: 36566
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_Wgw4bGM6hG66ToMF6agV3N
 status: active
 merged_into: null
 display_name: 王就學
+cbdb_id: 126705
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_FppM3Psb49wdjiEDLgj4ih
 status: active
 merged_into: null
 display_name: 王子學
+cbdb_id: 292313
 revision: 1
 properties:
   - predicate: bio.summary

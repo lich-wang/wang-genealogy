@@ -4,6 +4,7 @@ id: p_DsK4LiLgsXzm5ZAToagJEP
 status: active
 merged_into: null
 display_name: 王瑋慶
+cbdb_id: 56480
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_Fqf98231G66GDJtjxHT3fS
 status: active
 merged_into: null
 display_name: 王孝遠
+cbdb_id: 151071
 revision: 1
 properties:
   - predicate: bio.summary

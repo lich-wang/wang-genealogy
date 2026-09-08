@@ -4,6 +4,7 @@ id: p_T4k4SBS78oNJyg2yW7zv2X
 status: active
 merged_into: null
 display_name: 王之吉
+cbdb_id: 413741
 revision: 1
 properties:
   - predicate: bio.summary

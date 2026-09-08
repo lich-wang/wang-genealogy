@@ -4,6 +4,7 @@ id: p_BpeRmcFuvQPsp4SrcSN9L5
 status: active
 merged_into: null
 display_name: 王可賓
+cbdb_id: 414033
 revision: 1
 properties:
   - predicate: bio.summary

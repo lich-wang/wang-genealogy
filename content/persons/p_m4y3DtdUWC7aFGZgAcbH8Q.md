@@ -4,6 +4,7 @@ id: p_m4y3DtdUWC7aFGZgAcbH8Q
 status: active
 merged_into: null
 display_name: 王守高
+cbdb_id: 314100
 revision: 1
 properties:
   - predicate: bio.summary

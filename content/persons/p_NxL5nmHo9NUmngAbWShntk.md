@@ -4,6 +4,7 @@ id: p_NxL5nmHo9NUmngAbWShntk
 status: active
 merged_into: null
 display_name: 王延璋
+cbdb_id: 175444
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_xYrcuBn3tSFA4ieZH7SugN
 status: active
 merged_into: null
 display_name: 王窳
+cbdb_id: 22009
 revision: 1
 properties:
   - predicate: bio.summary

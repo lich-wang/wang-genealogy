@@ -4,6 +4,7 @@ id: p_vJwBgtoVctdkoHZJcnh28k
 status: active
 merged_into: null
 display_name: 王維慤
+cbdb_id: 342146
 revision: 1
 properties:
   - predicate: bio.summary

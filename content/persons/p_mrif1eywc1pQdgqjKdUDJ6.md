@@ -4,6 +4,7 @@ id: p_mrif1eywc1pQdgqjKdUDJ6
 status: active
 merged_into: null
 display_name: 王孟洪
+cbdb_id: 258054
 revision: 1
 properties:
   - predicate: bio.summary

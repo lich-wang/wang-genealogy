@@ -4,6 +4,7 @@ id: p_wrGMV2RNrKMjEKAyqQQu7z
 status: active
 merged_into: null
 display_name: 王承錫
+cbdb_id: 414688
 revision: 1
 properties:
   - predicate: bio.summary

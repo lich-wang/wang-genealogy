@@ -4,6 +4,7 @@ id: p_XYtaBrRbJB1dskMLS47jZ6
 status: active
 merged_into: null
 display_name: 王有俊
+cbdb_id: 414825
 revision: 1
 properties:
   - predicate: bio.summary

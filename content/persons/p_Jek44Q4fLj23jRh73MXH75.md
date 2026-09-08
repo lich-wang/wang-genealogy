@@ -4,6 +4,7 @@ id: p_Jek44Q4fLj23jRh73MXH75
 status: active
 merged_into: null
 display_name: 王某慶
+cbdb_id: 192582
 revision: 1
 properties:
   - predicate: bio.summary

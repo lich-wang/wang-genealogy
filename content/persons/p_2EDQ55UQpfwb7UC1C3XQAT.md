@@ -4,6 +4,7 @@ id: p_2EDQ55UQpfwb7UC1C3XQAT
 status: active
 merged_into: null
 display_name: 王郁文
+cbdb_id: 278853
 revision: 1
 properties:
   - predicate: bio.summary

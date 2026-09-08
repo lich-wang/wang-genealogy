@@ -4,6 +4,7 @@ id: p_JetxyS3pjMkDSLHFN9xR4X
 status: active
 merged_into: null
 display_name: 王以詠
+cbdb_id: 97785
 revision: 1
 properties:
   - predicate: bio.summary

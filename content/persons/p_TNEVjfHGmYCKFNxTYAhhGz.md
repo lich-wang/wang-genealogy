@@ -4,6 +4,7 @@ id: p_TNEVjfHGmYCKFNxTYAhhGz
 status: active
 merged_into: null
 display_name: 王維誠
+cbdb_id: 415256
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_hhC7WcHCPL6E8fvMUH5DQ3
 status: active
 merged_into: null
 display_name: 王璘
+cbdb_id: 282593
 revision: 1
 properties:
   - predicate: name.primary

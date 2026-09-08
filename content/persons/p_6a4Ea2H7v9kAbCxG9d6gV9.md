@@ -4,6 +4,7 @@ id: p_6a4Ea2H7v9kAbCxG9d6gV9
 status: active
 merged_into: null
 display_name: 王兆秦
+cbdb_id: 413925
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_4BFbF2D5CjTVVGnKZRvPjH
 status: active
 merged_into: null
 display_name: 王脩福
+cbdb_id: 140405
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_DNBu7dKBcHTFT8EoXEHiXT
 status: active
 merged_into: null
 display_name: 丁氏
+cbdb_id: 437904
 revision: 1
 properties:
   - predicate: name.primary

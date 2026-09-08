@@ -4,6 +4,7 @@ id: p_gA6k1DKo8a4Uf7sSoirphQ
 status: active
 merged_into: null
 display_name: 王立信
+cbdb_id: 415205
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_ayDBbENQJQKZToA3G7hGQm
 status: active
 merged_into: null
 display_name: 谢氏
+cbdb_id: 5305
 revision: 1
 properties:
   - predicate: bio.summary

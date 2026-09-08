@@ -4,6 +4,7 @@ id: p_X3aLnkpLYSuKDFkPBYNPFW
 status: active
 merged_into: null
 display_name: 王良器
+cbdb_id: 309428
 revision: 1
 properties:
   - predicate: bio.summary

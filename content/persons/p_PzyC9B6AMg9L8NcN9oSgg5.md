@@ -4,6 +4,7 @@ id: p_PzyC9B6AMg9L8NcN9oSgg5
 status: active
 merged_into: null
 display_name: 王治模
+cbdb_id: 71792
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_AbZUuyWRBSPKbc1QtJF8Su
 status: active
 merged_into: null
 display_name: 王閱
+cbdb_id: 244960
 revision: 1
 properties:
   - predicate: bio.summary

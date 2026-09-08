@@ -4,6 +4,7 @@ id: p_HyNpiQuWU12zJ5JsVoQJrY
 status: active
 merged_into: null
 display_name: 王似
+cbdb_id: 39097
 revision: 1
 properties:
   - predicate: bio.summary

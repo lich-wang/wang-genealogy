@@ -4,6 +4,7 @@ id: p_ifL5XvSNR9KWs4FeFVZRJv
 status: active
 merged_into: null
 display_name: 王發基
+cbdb_id: 415148
 revision: 1
 properties:
   - predicate: bio.summary

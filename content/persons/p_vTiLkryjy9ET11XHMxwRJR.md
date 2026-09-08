@@ -4,6 +4,7 @@ id: p_vTiLkryjy9ET11XHMxwRJR
 status: active
 merged_into: null
 display_name: 王清宇
+cbdb_id: 282497
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_dAWNGSC4UZ3S5otnkB8F6j
 status: active
 merged_into: null
 display_name: 王某祖
+cbdb_id: 334093
 revision: 1
 properties:
   - predicate: bio.summary

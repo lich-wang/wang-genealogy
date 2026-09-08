@@ -4,6 +4,7 @@ id: p_m9ke5s6jyKd8xb2ZsgShBm
 status: active
 merged_into: null
 display_name: 王國鈞
+cbdb_id: 343442
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_8TfnuWoSAsZk7JeKEartwY
 status: active
 merged_into: null
 display_name: 王體文
+cbdb_id: 38485
 revision: 1
 properties:
   - predicate: bio.summary

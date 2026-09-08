@@ -4,6 +4,7 @@ id: p_V8TuRPJz1LKfD6dQy8Jxkx
 status: active
 merged_into: null
 display_name: 王方平
+cbdb_id: 153008
 revision: 1
 properties:
   - predicate: bio.summary

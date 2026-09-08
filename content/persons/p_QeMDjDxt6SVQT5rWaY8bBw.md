@@ -4,6 +4,7 @@ id: p_QeMDjDxt6SVQT5rWaY8bBw
 status: active
 merged_into: null
 display_name: 王我統
+cbdb_id: 294351
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_EJtnKKhnh9eX81YEbQqHiK
 status: active
 merged_into: null
 display_name: 王文源
+cbdb_id: 414739
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_4uqEpzsZPn5Pq8rwSNhRpH
 status: active
 merged_into: null
 display_name: 王以作
+cbdb_id: 331779
 revision: 1
 properties:
   - predicate: bio.summary

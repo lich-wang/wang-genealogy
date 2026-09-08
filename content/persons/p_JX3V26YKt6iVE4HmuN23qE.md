@@ -4,6 +4,7 @@ id: p_JX3V26YKt6iVE4HmuN23qE
 status: active
 merged_into: null
 display_name: 王壽長
+cbdb_id: 343033
 revision: 1
 properties:
   - predicate: bio.summary

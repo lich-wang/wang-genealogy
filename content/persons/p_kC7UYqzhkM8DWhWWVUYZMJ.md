@@ -4,6 +4,7 @@ id: p_kC7UYqzhkM8DWhWWVUYZMJ
 status: active
 merged_into: null
 display_name: 王炳魁
+cbdb_id: 210111
 revision: 1
 properties:
   - predicate: bio.summary

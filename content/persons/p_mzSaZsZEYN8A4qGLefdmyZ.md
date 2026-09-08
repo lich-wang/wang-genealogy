@@ -4,6 +4,7 @@ id: p_mzSaZsZEYN8A4qGLefdmyZ
 status: active
 merged_into: null
 display_name: 王遵範
+cbdb_id: 98044
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_vm7EauccgPL2iFinKNhfkE
 status: active
 merged_into: null
 display_name: 王嗣孫
+cbdb_id: 452586
 revision: 1
 properties:
   - predicate: bio.summary

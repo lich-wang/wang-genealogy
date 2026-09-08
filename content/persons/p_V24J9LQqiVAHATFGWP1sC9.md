@@ -4,6 +4,7 @@ id: p_V24J9LQqiVAHATFGWP1sC9
 status: active
 merged_into: null
 display_name: 王懋忠
+cbdb_id: 337977
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_4kd7CXSr8ZuyN7FLgQDR4R
 status: active
 merged_into: null
 display_name: 王日昇
+cbdb_id: 343407
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_5oPycHUW3mpNUYhM7rnWa6
 status: active
 merged_into: null
 display_name: 王伯慶
+cbdb_id: 137717
 revision: 1
 properties:
   - predicate: bio.summary

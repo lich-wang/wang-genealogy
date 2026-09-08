@@ -4,6 +4,7 @@ id: p_TWCnfNk4JhWMRKCzbpeZoQ
 status: active
 merged_into: null
 display_name: 王守方
+cbdb_id: 166372
 revision: 1
 properties:
   - predicate: bio.summary

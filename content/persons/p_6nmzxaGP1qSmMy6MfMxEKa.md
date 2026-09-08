@@ -4,6 +4,7 @@ id: p_6nmzxaGP1qSmMy6MfMxEKa
 status: active
 merged_into: null
 display_name: 王汝繼
+cbdb_id: 314234
 revision: 1
 properties:
   - predicate: bio.summary

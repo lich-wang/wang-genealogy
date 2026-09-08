@@ -4,6 +4,7 @@ id: p_7y4B6MY3XweDWkajZB9Bem
 status: active
 merged_into: null
 display_name: 王開甲
+cbdb_id: 61906
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_fMFobdjf8wJE5CFJGPcg7L
 status: active
 merged_into: null
 display_name: 王克剛
+cbdb_id: 413946
 revision: 1
 properties:
   - predicate: bio.summary

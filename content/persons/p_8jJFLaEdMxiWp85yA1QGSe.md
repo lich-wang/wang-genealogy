@@ -4,6 +4,7 @@ id: p_8jJFLaEdMxiWp85yA1QGSe
 status: active
 merged_into: null
 display_name: 王損之
+cbdb_id: 445630
 revision: 1
 properties:
   - predicate: bio.summary

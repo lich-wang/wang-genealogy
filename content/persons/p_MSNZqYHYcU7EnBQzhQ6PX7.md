@@ -4,6 +4,7 @@ id: p_MSNZqYHYcU7EnBQzhQ6PX7
 status: active
 merged_into: null
 display_name: 王一藝
+cbdb_id: 337568
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_GHmTgX7RCFiK6MBEnJDVoB
 status: active
 merged_into: null
 display_name: 王楚鼇
+cbdb_id: 117598
 revision: 1
 properties:
   - predicate: bio.summary

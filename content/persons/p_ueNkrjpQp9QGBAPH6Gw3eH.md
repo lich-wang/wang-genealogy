@@ -4,6 +4,7 @@ id: p_ueNkrjpQp9QGBAPH6Gw3eH
 status: active
 merged_into: null
 display_name: 王槐青
+cbdb_id: 414895
 revision: 1
 properties:
   - predicate: bio.summary

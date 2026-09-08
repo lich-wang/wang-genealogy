@@ -4,6 +4,7 @@ id: p_Y1LJt1fbRrve98s4v1UUF2
 status: active
 merged_into: null
 display_name: 王志積
+cbdb_id: 255122
 revision: 1
 properties:
   - predicate: bio.summary

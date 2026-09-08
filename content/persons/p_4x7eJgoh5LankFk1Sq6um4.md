@@ -4,6 +4,7 @@ id: p_4x7eJgoh5LankFk1Sq6um4
 status: active
 merged_into: null
 display_name: 王侗
+cbdb_id: 175599
 revision: 1
 properties:
   - predicate: bio.summary

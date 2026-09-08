@@ -4,6 +4,7 @@ id: p_sx5SEy4ZbuewAPsbA6hNGm
 status: active
 merged_into: null
 display_name: 王希古
+cbdb_id: 175440
 revision: 1
 properties:
   - predicate: bio.summary

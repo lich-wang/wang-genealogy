@@ -4,6 +4,7 @@ id: p_nvAKtJTobqRGuQM2YSGFp4
 status: active
 merged_into: null
 display_name: 王象奉
+cbdb_id: 211362
 revision: 1
 properties:
   - predicate: bio.summary

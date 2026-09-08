@@ -4,6 +4,7 @@ id: p_94c89e5wW4HwVLc9t5cktH
 status: active
 merged_into: null
 display_name: 王位
+cbdb_id: 229904
 revision: 1
 properties:
   - predicate: bio.summary

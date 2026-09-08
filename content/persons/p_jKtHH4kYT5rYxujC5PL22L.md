@@ -4,6 +4,7 @@ id: p_jKtHH4kYT5rYxujC5PL22L
 status: active
 merged_into: null
 display_name: 王祖導
+cbdb_id: 513442
 revision: 1
 properties:
   - predicate: bio.summary

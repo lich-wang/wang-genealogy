@@ -4,6 +4,7 @@ id: p_gEPN4Y1sSEhqz6ktqB2iGE
 status: active
 merged_into: null
 display_name: 王所用
+cbdb_id: 207628
 revision: 1
 properties:
   - predicate: bio.summary

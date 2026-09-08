@@ -4,6 +4,7 @@ id: p_9nLDDR64tTe6Yf8U9FsNKb
 status: active
 merged_into: null
 display_name: 王紃
+cbdb_id: 309074
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_8mFJP2Y3Yw2EQdqbHRHn1D
 status: active
 merged_into: null
 display_name: 王可任
+cbdb_id: 318732
 revision: 1
 properties:
   - predicate: bio.summary

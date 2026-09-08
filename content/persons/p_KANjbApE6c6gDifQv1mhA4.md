@@ -4,6 +4,7 @@ id: p_KANjbApE6c6gDifQv1mhA4
 status: active
 merged_into: null
 display_name: 王貫成
+cbdb_id: 415432
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_1xGhXZ8SgPP6NYZk7NUqk9
 status: active
 merged_into: null
 display_name: 王希張
+cbdb_id: 315375
 revision: 1
 properties:
   - predicate: bio.summary

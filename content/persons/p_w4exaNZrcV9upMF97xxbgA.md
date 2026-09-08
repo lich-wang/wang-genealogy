@@ -4,6 +4,7 @@ id: p_w4exaNZrcV9upMF97xxbgA
 status: active
 merged_into: null
 display_name: 王蘭溪
+cbdb_id: 415379
 revision: 1
 properties:
   - predicate: bio.summary

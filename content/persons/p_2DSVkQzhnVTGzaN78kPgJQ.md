@@ -4,6 +4,7 @@ id: p_2DSVkQzhnVTGzaN78kPgJQ
 status: active
 merged_into: null
 display_name: 王臣弼
+cbdb_id: 55192
 revision: 1
 properties:
   - predicate: bio.summary

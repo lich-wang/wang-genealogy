@@ -4,6 +4,7 @@ id: p_Y8rsQ7aQrPku86WVWbohJ2
 status: active
 merged_into: null
 display_name: 王振漢
+cbdb_id: 414697
 revision: 1
 properties:
   - predicate: bio.summary

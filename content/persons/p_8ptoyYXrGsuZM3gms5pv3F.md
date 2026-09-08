@@ -4,6 +4,7 @@ id: p_8ptoyYXrGsuZM3gms5pv3F
 status: active
 merged_into: null
 display_name: 王晏深
+cbdb_id: 184946
 revision: 2
 properties:
   - predicate: bio.summary

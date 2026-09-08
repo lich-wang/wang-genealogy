@@ -4,6 +4,7 @@ id: p_jJnbhZFP2NBWF7scp6eXoP
 status: active
 merged_into: null
 display_name: 王孫某
+cbdb_id: 474955
 revision: 1
 properties:
   - predicate: bio.summary

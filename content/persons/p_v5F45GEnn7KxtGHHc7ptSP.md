@@ -4,6 +4,7 @@ id: p_v5F45GEnn7KxtGHHc7ptSP
 status: active
 merged_into: null
 display_name: 王炳然
+cbdb_id: 415071
 revision: 1
 properties:
   - predicate: bio.summary

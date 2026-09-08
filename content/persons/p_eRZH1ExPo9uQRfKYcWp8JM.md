@@ -4,6 +4,7 @@ id: p_eRZH1ExPo9uQRfKYcWp8JM
 status: active
 merged_into: null
 display_name: 王子信
+cbdb_id: 414236
 revision: 1
 properties:
   - predicate: bio.summary

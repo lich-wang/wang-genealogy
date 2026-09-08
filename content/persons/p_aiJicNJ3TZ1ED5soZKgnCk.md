@@ -4,6 +4,7 @@ id: p_aiJicNJ3TZ1ED5soZKgnCk
 status: active
 merged_into: null
 display_name: 王惠軒
+cbdb_id: 286915
 revision: 1
 properties:
   - predicate: bio.summary

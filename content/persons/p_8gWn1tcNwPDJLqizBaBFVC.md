@@ -4,6 +4,7 @@ id: p_8gWn1tcNwPDJLqizBaBFVC
 status: active
 merged_into: null
 display_name: 王效通
+cbdb_id: 71965
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_3qMgFHcRQvpK8sdeAZ4L1A
 status: active
 merged_into: null
 display_name: 王同廉
+cbdb_id: 228279
 revision: 1
 properties:
   - predicate: bio.summary

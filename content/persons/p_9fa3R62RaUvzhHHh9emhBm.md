@@ -4,6 +4,7 @@ id: p_9fa3R62RaUvzhHHh9emhBm
 status: active
 merged_into: null
 display_name: 王曇影
+cbdb_id: 122452
 revision: 1
 properties:
   - predicate: bio.summary

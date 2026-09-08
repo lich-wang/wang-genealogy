@@ -4,6 +4,7 @@ id: p_2bAFPA2B6z7Y79GVcB1qC2
 status: active
 merged_into: null
 display_name: 王緒隆
+cbdb_id: 236273
 revision: 1
 properties:
   - predicate: bio.summary

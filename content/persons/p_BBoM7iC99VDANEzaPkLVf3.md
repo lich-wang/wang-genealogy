@@ -4,6 +4,7 @@ id: p_BBoM7iC99VDANEzaPkLVf3
 status: active
 merged_into: null
 display_name: 王臻祿
+cbdb_id: 526854
 revision: 1
 properties:
   - predicate: bio.summary

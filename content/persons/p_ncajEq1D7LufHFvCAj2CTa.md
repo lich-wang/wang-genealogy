@@ -4,6 +4,7 @@ id: p_ncajEq1D7LufHFvCAj2CTa
 status: active
 merged_into: null
 display_name: 王家駒
+cbdb_id: 342543
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_24hwrxn9MWTyA2XwawK7t1
 status: active
 merged_into: null
 display_name: 王奠民
+cbdb_id: 414225
 revision: 1
 properties:
   - predicate: bio.summary

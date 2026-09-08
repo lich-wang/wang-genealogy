@@ -4,6 +4,7 @@ id: p_LGi6SB3ZX61ssNB6g4tgLo
 status: active
 merged_into: null
 display_name: 王相舉
+cbdb_id: 415169
 revision: 1
 properties:
   - predicate: bio.summary

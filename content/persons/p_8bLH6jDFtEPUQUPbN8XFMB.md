@@ -4,6 +4,7 @@ id: p_8bLH6jDFtEPUQUPbN8XFMB
 status: active
 merged_into: null
 display_name: 王思名
+cbdb_id: 231087
 revision: 1
 properties:
   - predicate: bio.summary

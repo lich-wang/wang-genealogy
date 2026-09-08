@@ -4,6 +4,7 @@ id: p_EEs19N4Hmc8BLFfeiTTcUT
 status: active
 merged_into: null
 display_name: 王內敬
+cbdb_id: 101067
 revision: 1
 properties:
   - predicate: bio.summary

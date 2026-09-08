@@ -4,6 +4,7 @@ id: p_UGGhxMbTunS1FPc45Yn1Qk
 status: active
 merged_into: null
 display_name: 王可宗
+cbdb_id: 414028
 revision: 1
 properties:
   - predicate: bio.summary

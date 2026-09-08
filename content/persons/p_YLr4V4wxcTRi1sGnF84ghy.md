@@ -4,6 +4,7 @@ id: p_YLr4V4wxcTRi1sGnF84ghy
 status: active
 merged_into: null
 display_name: 王文祐
+cbdb_id: 97909
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_Rtoh67ecKEDAjF2PNBDiVv
 status: active
 merged_into: null
 display_name: 王周惠
+cbdb_id: 23704
 revision: 1
 properties:
   - predicate: bio.summary

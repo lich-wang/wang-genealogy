@@ -4,6 +4,7 @@ id: p_nbxUAycRwb21TEe1VC36YJ
 status: active
 merged_into: null
 display_name: 王彥自
+cbdb_id: 97887
 revision: 1
 properties:
   - predicate: bio.summary

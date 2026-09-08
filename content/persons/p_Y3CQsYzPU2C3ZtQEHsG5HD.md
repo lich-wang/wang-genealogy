@@ -4,6 +4,7 @@ id: p_Y3CQsYzPU2C3ZtQEHsG5HD
 status: active
 merged_into: null
 display_name: 王正方
+cbdb_id: 313127
 revision: 1
 properties:
   - predicate: bio.summary

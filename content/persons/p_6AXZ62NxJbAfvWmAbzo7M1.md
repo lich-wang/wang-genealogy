@@ -4,6 +4,7 @@ id: p_6AXZ62NxJbAfvWmAbzo7M1
 status: active
 merged_into: null
 display_name: 王羨門
+cbdb_id: 92095
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_S59q6ZwoGhr3b5bxTn3QuB
 status: active
 merged_into: null
 display_name: 王猶龍
+cbdb_id: 415095
 revision: 1
 properties:
   - predicate: bio.summary

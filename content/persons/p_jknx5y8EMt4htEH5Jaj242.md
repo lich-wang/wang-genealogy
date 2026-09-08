@@ -4,6 +4,7 @@ id: p_jknx5y8EMt4htEH5Jaj242
 status: active
 merged_into: null
 display_name: 王獻箴
+cbdb_id: 212076
 revision: 1
 properties:
   - predicate: bio.summary

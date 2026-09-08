@@ -4,6 +4,7 @@ id: p_wJYhNSMGGVLY9T9CW7t2QW
 status: active
 merged_into: null
 display_name: 王延曦
+cbdb_id: 479056
 revision: 1
 properties:
   - predicate: bio.summary

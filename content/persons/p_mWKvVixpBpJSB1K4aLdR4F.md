@@ -4,6 +4,7 @@ id: p_mWKvVixpBpJSB1K4aLdR4F
 status: active
 merged_into: null
 display_name: 王祿明
+cbdb_id: 342807
 revision: 1
 properties:
   - predicate: bio.summary

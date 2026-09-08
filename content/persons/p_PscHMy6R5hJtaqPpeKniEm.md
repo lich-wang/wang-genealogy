@@ -4,6 +4,7 @@ id: p_PscHMy6R5hJtaqPpeKniEm
 status: active
 merged_into: null
 display_name: 王循學
+cbdb_id: 342216
 revision: 1
 properties:
   - predicate: bio.summary

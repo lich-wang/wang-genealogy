@@ -4,6 +4,7 @@ id: p_fCPXHjH4yCKUbitvqXTwDL
 status: active
 merged_into: null
 display_name: 王德信
+cbdb_id: 101416
 revision: 1
 properties:
   - predicate: bio.summary

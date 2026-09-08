@@ -4,6 +4,7 @@ id: p_PH9swCR3BER5xJ2yaEFsgY
 status: active
 merged_into: null
 display_name: 王厚德
+cbdb_id: 414012
 revision: 1
 properties:
   - predicate: bio.summary

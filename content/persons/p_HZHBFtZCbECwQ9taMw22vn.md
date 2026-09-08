@@ -4,6 +4,7 @@ id: p_HZHBFtZCbECwQ9taMw22vn
 status: active
 merged_into: null
 display_name: 王克莊
+cbdb_id: 69355
 revision: 1
 properties:
   - predicate: bio.summary

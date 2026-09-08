@@ -4,6 +4,7 @@ id: p_L5vGff6Gm4DrhF5SRM8VzE
 status: active
 merged_into: null
 display_name: 王封昆
+cbdb_id: 71843
 revision: 1
 properties:
   - predicate: bio.summary

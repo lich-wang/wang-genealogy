@@ -4,6 +4,7 @@ id: p_dWcZ38uBoPToBcS8pzjFDV
 status: active
 merged_into: null
 display_name: 王之度
+cbdb_id: 307687
 revision: 1
 properties:
   - predicate: bio.summary

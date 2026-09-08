@@ -4,6 +4,7 @@ id: p_NDedJKaS5ggTaMxUP1Bgoj
 status: active
 merged_into: null
 display_name: 王秉義
+cbdb_id: 342130
 revision: 1
 properties:
   - predicate: bio.summary

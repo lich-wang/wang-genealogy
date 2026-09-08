@@ -4,6 +4,7 @@ id: p_7EGNsPYKAb55zYC7LUAuqP
 status: active
 merged_into: null
 display_name: 王士雄
+cbdb_id: 69156
 revision: 1
 properties:
   - predicate: bio.summary

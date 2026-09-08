@@ -4,6 +4,7 @@ id: p_vikXrBMKnbMBLaHcYcsA5k
 status: active
 merged_into: null
 display_name: 王德復
+cbdb_id: 300362
 revision: 1
 properties:
   - predicate: bio.summary

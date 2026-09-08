@@ -4,6 +4,7 @@ id: p_5AQ57q8Z41Z9KKNQtp5g66
 status: active
 merged_into: null
 display_name: 王慧民
+cbdb_id: 317553
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_qQLVLvke8TLoUiEqkgYQyo
 status: active
 merged_into: null
 display_name: 王志謹
+cbdb_id: 101222
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_DTs4G2aSLjLgujLzMZ2Jy8
 status: active
 merged_into: null
 display_name: 王存粹
+cbdb_id: 414249
 revision: 1
 properties:
   - predicate: bio.summary

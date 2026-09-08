@@ -4,6 +4,7 @@ id: p_a1qoNPMF19KNJJgFTs1t1Y
 status: active
 merged_into: null
 display_name: 王道智
+cbdb_id: 139501
 revision: 1
 properties:
   - predicate: bio.summary

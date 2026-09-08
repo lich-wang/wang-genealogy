@@ -4,6 +4,7 @@ id: p_nkDcN1JGLKHkFeGM2jCRoz
 status: active
 merged_into: null
 display_name: 王同謙
+cbdb_id: 343624
 revision: 1
 properties:
   - predicate: bio.summary

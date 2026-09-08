@@ -4,6 +4,7 @@ id: p_yyG5m7BqW1DAadHkjg2Ep9
 status: active
 merged_into: null
 display_name: 王擇從
+cbdb_id: 158493
 revision: 1
 properties:
   - predicate: bio.summary

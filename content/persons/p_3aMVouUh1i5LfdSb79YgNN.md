@@ -4,6 +4,7 @@ id: p_3aMVouUh1i5LfdSb79YgNN
 status: active
 merged_into: null
 display_name: 王元命
+cbdb_id: 206711
 revision: 1
 properties:
   - predicate: bio.summary

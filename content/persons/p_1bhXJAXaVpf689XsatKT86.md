@@ -4,6 +4,7 @@ id: p_1bhXJAXaVpf689XsatKT86
 status: active
 merged_into: null
 display_name: 王公冕
+cbdb_id: 332833
 revision: 1
 properties:
   - predicate: bio.summary

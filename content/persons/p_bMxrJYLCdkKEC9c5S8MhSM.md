@@ -4,6 +4,7 @@ id: p_bMxrJYLCdkKEC9c5S8MhSM
 status: active
 merged_into: null
 display_name: 王天申
+cbdb_id: 414212
 revision: 1
 properties:
   - predicate: bio.summary

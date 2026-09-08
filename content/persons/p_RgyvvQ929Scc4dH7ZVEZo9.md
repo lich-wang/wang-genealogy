@@ -4,6 +4,7 @@ id: p_RgyvvQ929Scc4dH7ZVEZo9
 status: active
 merged_into: null
 display_name: 王廷瓚
+cbdb_id: 341912
 revision: 1
 properties:
   - predicate: bio.summary

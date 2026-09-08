@@ -4,6 +4,7 @@ id: p_mJG7GdFzqXYfsqQo96kKr3
 status: active
 merged_into: null
 display_name: 王曰申
+cbdb_id: 71396
 revision: 1
 properties:
   - predicate: bio.summary

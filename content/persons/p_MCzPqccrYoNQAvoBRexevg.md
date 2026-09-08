@@ -4,6 +4,7 @@ id: p_MCzPqccrYoNQAvoBRexevg
 status: active
 merged_into: null
 display_name: 王商霖
+cbdb_id: 341548
 revision: 1
 properties:
   - predicate: bio.summary

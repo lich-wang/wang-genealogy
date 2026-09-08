@@ -4,6 +4,7 @@ id: p_3DzeUj5KKY2KUxXUDf96hY
 status: active
 merged_into: null
 display_name: 王桑中
+cbdb_id: 37562
 revision: 1
 properties:
   - predicate: bio.summary

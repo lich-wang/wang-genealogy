@@ -4,6 +4,7 @@ id: p_PragFVm9xkVYvhELKD7hJR
 status: active
 merged_into: null
 display_name: 王徳功
+cbdb_id: 414547
 revision: 1
 properties:
   - predicate: bio.summary

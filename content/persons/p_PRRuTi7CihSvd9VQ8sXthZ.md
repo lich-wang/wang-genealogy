@@ -4,6 +4,7 @@ id: p_PRRuTi7CihSvd9VQ8sXthZ
 status: active
 merged_into: null
 display_name: 王伯固
+cbdb_id: 445532
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_vuTsDeGm3KUu9zxFbpevga
 status: active
 merged_into: null
 display_name: 王德清
+cbdb_id: 414563
 revision: 1
 properties:
   - predicate: bio.summary

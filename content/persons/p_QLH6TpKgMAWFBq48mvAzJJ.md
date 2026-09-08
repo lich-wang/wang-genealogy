@@ -4,6 +4,7 @@ id: p_QLH6TpKgMAWFBq48mvAzJJ
 status: active
 merged_into: null
 display_name: 王幼慈
+cbdb_id: 205804
 revision: 1
 properties:
   - predicate: bio.summary

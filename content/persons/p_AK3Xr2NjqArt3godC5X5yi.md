@@ -4,6 +4,7 @@ id: p_AK3Xr2NjqArt3godC5X5yi
 status: active
 merged_into: null
 display_name: 王文賓
+cbdb_id: 414751
 revision: 1
 properties:
   - predicate: bio.summary

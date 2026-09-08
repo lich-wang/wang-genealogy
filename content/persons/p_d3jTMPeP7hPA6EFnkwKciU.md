@@ -4,6 +4,7 @@ id: p_d3jTMPeP7hPA6EFnkwKciU
 status: active
 merged_into: null
 display_name: 王相兒
+cbdb_id: 139454
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_yFccF1oudXdGWxsFrHyo42
 status: active
 merged_into: null
 display_name: 王嘉祐
+cbdb_id: 7371
 revision: 1
 properties:
   - predicate: bio.summary

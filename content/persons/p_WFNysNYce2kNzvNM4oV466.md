@@ -4,6 +4,7 @@ id: p_WFNysNYce2kNzvNM4oV466
 status: active
 merged_into: null
 display_name: 王道墉
+cbdb_id: 342860
 revision: 1
 properties:
   - predicate: bio.summary

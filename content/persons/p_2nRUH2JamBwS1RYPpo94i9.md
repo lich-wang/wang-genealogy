@@ -4,6 +4,7 @@ id: p_2nRUH2JamBwS1RYPpo94i9
 status: active
 merged_into: null
 display_name: 王清仕
+cbdb_id: 415026
 revision: 1
 properties:
   - predicate: bio.summary

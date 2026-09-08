@@ -4,6 +4,7 @@ id: p_QFCTxhgASRLNxJA1LsQ6Bw
 status: active
 merged_into: null
 display_name: 王之經
+cbdb_id: 97774
 revision: 1
 properties:
   - predicate: bio.summary

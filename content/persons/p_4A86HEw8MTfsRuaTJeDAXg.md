@@ -4,6 +4,7 @@ id: p_4A86HEw8MTfsRuaTJeDAXg
 status: active
 merged_into: null
 display_name: 王如堅
+cbdb_id: 126521
 revision: 1
 properties:
   - predicate: bio.summary

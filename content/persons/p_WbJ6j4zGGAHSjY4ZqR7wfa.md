@@ -4,6 +4,7 @@ id: p_WbJ6j4zGGAHSjY4ZqR7wfa
 status: active
 merged_into: null
 display_name: 王公正
+cbdb_id: 279057
 revision: 1
 properties:
   - predicate: bio.summary

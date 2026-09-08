@@ -4,6 +4,7 @@ id: p_agBDpkjwQG73j8yBTm3pwR
 status: active
 merged_into: null
 display_name: 王泓
+cbdb_id: 134193
 revision: 1
 properties:
   - predicate: bio.summary

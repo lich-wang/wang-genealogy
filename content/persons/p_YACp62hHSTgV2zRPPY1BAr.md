@@ -4,6 +4,7 @@ id: p_YACp62hHSTgV2zRPPY1BAr
 status: active
 merged_into: null
 display_name: 王允猷
+cbdb_id: 342260
 revision: 1
 properties:
   - predicate: bio.summary

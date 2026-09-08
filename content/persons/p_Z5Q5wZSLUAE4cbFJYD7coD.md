@@ -4,6 +4,7 @@ id: p_Z5Q5wZSLUAE4cbFJYD7coD
 status: active
 merged_into: null
 display_name: 王時梧
+cbdb_id: 308748
 revision: 1
 properties:
   - predicate: bio.summary

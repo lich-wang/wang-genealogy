@@ -4,6 +4,7 @@ id: p_A1PiyeyBZmp3PGy45p7qJP
 status: active
 merged_into: null
 display_name: 王至剛
+cbdb_id: 134059
 revision: 1
 properties:
   - predicate: bio.summary

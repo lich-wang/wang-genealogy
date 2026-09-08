@@ -4,6 +4,7 @@ id: p_Bn3hMg1QYCuCYi7zPLoRYk
 status: active
 merged_into: null
 display_name: 王肇巽
+cbdb_id: 72174
 revision: 1
 properties:
   - predicate: bio.summary

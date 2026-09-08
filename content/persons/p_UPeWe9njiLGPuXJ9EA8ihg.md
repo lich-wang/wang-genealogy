@@ -4,6 +4,7 @@ id: p_UPeWe9njiLGPuXJ9EA8ihg
 status: active
 merged_into: null
 display_name: 王墀奏
+cbdb_id: 227357
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_Gs18bULR7oT66HdPHicq65
 status: active
 merged_into: null
 display_name: 王定成
+cbdb_id: 414324
 revision: 1
 properties:
   - predicate: bio.summary

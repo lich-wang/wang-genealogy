@@ -4,6 +4,7 @@ id: p_xnFCV6EtnypuEAvQtMf7G3
 status: active
 merged_into: null
 display_name: 王友玉
+cbdb_id: 143321
 revision: 1
 properties:
   - predicate: bio.summary

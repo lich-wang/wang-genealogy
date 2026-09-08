@@ -4,6 +4,7 @@ id: p_zDE4ZxSreGoWdfYFJTbE9Q
 status: active
 merged_into: null
 display_name: 王真翁
+cbdb_id: 118813
 revision: 1
 properties:
   - predicate: bio.summary

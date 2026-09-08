@@ -4,6 +4,7 @@ id: p_kKrz1QMZM38oh9Cm3WzWm4
 status: active
 merged_into: null
 display_name: 王早
+cbdb_id: 175464
 revision: 1
 properties:
   - predicate: bio.summary

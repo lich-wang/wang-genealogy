@@ -4,6 +4,7 @@ id: p_HeMsxKqYWGTgetcTN6Vxrv
 status: active
 merged_into: null
 display_name: 王懷節
+cbdb_id: 21977
 revision: 1
 properties:
   - predicate: bio.summary

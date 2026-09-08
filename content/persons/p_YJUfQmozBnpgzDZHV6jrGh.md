@@ -4,6 +4,7 @@ id: p_YJUfQmozBnpgzDZHV6jrGh
 status: active
 merged_into: null
 display_name: 李氏
+cbdb_id: 140322
 revision: 1
 properties:
   - predicate: name.primary

@@ -4,6 +4,7 @@ id: p_pCCqWa3ZwHpgz3Eo8fdHVr
 status: active
 merged_into: null
 display_name: 王應圖
+cbdb_id: 97900
 revision: 1
 properties:
   - predicate: bio.summary

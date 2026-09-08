@@ -4,6 +4,7 @@ id: p_ynWdfZUbfQVgjARghmAXHi
 status: active
 merged_into: null
 display_name: 王山集
+cbdb_id: 262527
 revision: 1
 properties:
   - predicate: bio.summary

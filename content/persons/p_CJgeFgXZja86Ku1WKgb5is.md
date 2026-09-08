@@ -4,6 +4,7 @@ id: p_CJgeFgXZja86Ku1WKgb5is
 status: active
 merged_into: null
 display_name: 王鍔孫
+cbdb_id: 514245
 revision: 1
 properties:
   - predicate: bio.summary

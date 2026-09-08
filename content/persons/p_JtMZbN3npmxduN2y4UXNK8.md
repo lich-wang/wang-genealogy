@@ -4,6 +4,7 @@ id: p_JtMZbN3npmxduN2y4UXNK8
 status: active
 merged_into: null
 display_name: 王士鵬
+cbdb_id: 294542
 revision: 1
 properties:
   - predicate: bio.summary

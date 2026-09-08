@@ -4,6 +4,7 @@ id: p_eSDSC5KHX2vSCzhjVNMKre
 status: active
 merged_into: null
 display_name: 王仙周
+cbdb_id: 153051
 revision: 1
 properties:
   - predicate: bio.summary

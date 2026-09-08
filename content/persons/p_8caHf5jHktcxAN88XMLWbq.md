@@ -4,6 +4,7 @@ id: p_8caHf5jHktcxAN88XMLWbq
 status: active
 merged_into: null
 display_name: 王主鼎
+cbdb_id: 59985
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_eixCMY8F45gHBETJjABoJ5
 status: active
 merged_into: null
 display_name: 王連璧
+cbdb_id: 415486
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_hKFRGLXq8WXe249MjHQ238
 status: active
 merged_into: null
 display_name: 王晉俗
+cbdb_id: 141177
 revision: 1
 properties:
   - predicate: bio.summary

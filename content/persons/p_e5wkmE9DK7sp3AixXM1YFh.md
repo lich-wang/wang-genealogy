@@ -4,6 +4,7 @@ id: p_e5wkmE9DK7sp3AixXM1YFh
 status: active
 merged_into: null
 display_name: 蒋倩
+cbdb_id: 145354
 revision: 1
 properties:
   - predicate: bio.summary

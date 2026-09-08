@@ -4,6 +4,7 @@ id: p_FQ5cbUU8vK4rg8GHdfgFiE
 status: active
 merged_into: null
 display_name: 王威仁
+cbdb_id: 147630
 revision: 1
 properties:
   - predicate: bio.summary

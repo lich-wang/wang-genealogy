@@ -4,6 +4,7 @@ id: p_691jukaqPqsQGsFHBsNzWD
 status: active
 merged_into: null
 display_name: 王至善
+cbdb_id: 201900
 revision: 1
 properties:
   - predicate: bio.summary

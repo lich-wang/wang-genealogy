@@ -4,6 +4,7 @@ id: p_qo7L8hGNzo4A8e28q6Qa88
 status: active
 merged_into: null
 display_name: 王茂忠
+cbdb_id: 415349
 revision: 1
 properties:
   - predicate: bio.summary

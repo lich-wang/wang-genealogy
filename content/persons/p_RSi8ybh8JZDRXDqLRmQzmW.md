@@ -4,6 +4,7 @@ id: p_RSi8ybh8JZDRXDqLRmQzmW
 status: active
 merged_into: null
 display_name: 王國美
+cbdb_id: 414130
 revision: 1
 properties:
   - predicate: bio.summary

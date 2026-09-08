@@ -4,6 +4,7 @@ id: p_JiWtPR49xLqVA9xDrBgamp
 status: active
 merged_into: null
 display_name: 王鳴韶
+cbdb_id: 69408
 revision: 1
 properties:
   - predicate: bio.summary

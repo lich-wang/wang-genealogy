@@ -4,6 +4,7 @@ id: p_GBxpGNdjR4iLCG1ATgPoqx
 status: active
 merged_into: null
 display_name: 王清惠
+cbdb_id: 38076
 revision: 1
 properties:
   - predicate: bio.summary

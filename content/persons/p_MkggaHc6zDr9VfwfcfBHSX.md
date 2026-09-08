@@ -4,6 +4,7 @@ id: p_MkggaHc6zDr9VfwfcfBHSX
 status: active
 merged_into: null
 display_name: 王貽標
+cbdb_id: 415439
 revision: 1
 properties:
   - predicate: bio.summary

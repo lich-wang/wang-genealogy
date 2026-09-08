@@ -4,6 +4,7 @@ id: p_j5QK4MXR5LwaE6dHX7rsYc
 status: active
 merged_into: null
 display_name: 王慶嵩
+cbdb_id: 120420
 revision: 1
 properties:
   - predicate: bio.summary

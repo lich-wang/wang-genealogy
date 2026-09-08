@@ -4,6 +4,7 @@ id: p_RGdzAAiXNPB57eZEMA9dci
 status: active
 merged_into: null
 display_name: 王之材
+cbdb_id: 223428
 revision: 1
 properties:
   - predicate: bio.summary

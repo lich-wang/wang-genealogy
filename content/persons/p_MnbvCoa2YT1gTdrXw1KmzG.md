@@ -4,6 +4,7 @@ id: p_MnbvCoa2YT1gTdrXw1KmzG
 status: active
 merged_into: null
 display_name: 王兆金
+cbdb_id: 413929
 revision: 1
 properties:
   - predicate: bio.summary

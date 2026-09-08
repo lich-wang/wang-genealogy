@@ -4,6 +4,7 @@ id: p_Uk1sTpuAhJTFEFkNaNbJ1J
 status: active
 merged_into: null
 display_name: 王承議
+cbdb_id: 23285
 revision: 1
 properties:
   - predicate: bio.summary

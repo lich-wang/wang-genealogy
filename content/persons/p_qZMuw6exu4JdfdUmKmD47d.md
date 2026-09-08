@@ -4,6 +4,7 @@ id: p_qZMuw6exu4JdfdUmKmD47d
 status: active
 merged_into: null
 display_name: 王一价
+cbdb_id: 413667
 revision: 1
 properties:
   - predicate: bio.summary

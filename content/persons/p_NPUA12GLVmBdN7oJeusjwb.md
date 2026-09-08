@@ -4,6 +4,7 @@ id: p_NPUA12GLVmBdN7oJeusjwb
 status: active
 merged_into: null
 display_name: 王湯谷
+cbdb_id: 511622
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_pDZNSWBV6bDJP2PC4Pk8vz
 status: active
 merged_into: null
 display_name: 王錫極
+cbdb_id: 415545
 revision: 1
 properties:
   - predicate: bio.summary

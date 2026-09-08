@@ -4,6 +4,7 @@ id: p_dpxJ79yjeoZcbwCdkzQmv6
 status: active
 merged_into: null
 display_name: 王珪
+cbdb_id: 33013
 revision: 3
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_XJtMz83Kx9v1KmJBhcX33i
 status: active
 merged_into: null
 display_name: 王黑廝
+cbdb_id: 35389
 revision: 1
 properties:
   - predicate: bio.summary

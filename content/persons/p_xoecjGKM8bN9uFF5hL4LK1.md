@@ -4,6 +4,7 @@ id: p_xoecjGKM8bN9uFF5hL4LK1
 status: active
 merged_into: null
 display_name: 王君白
+cbdb_id: 97828
 revision: 1
 properties:
   - predicate: bio.summary

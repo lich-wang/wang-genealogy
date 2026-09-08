@@ -4,6 +4,7 @@ id: p_1FgN42JZ25N9CyGSJbNMAc
 status: active
 merged_into: null
 display_name: 王善長
+cbdb_id: 38187
 revision: 1
 properties:
   - predicate: bio.summary

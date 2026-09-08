@@ -4,6 +4,7 @@ id: p_RvwBFNFYPjXE486YSxqqGH
 status: active
 merged_into: null
 display_name: 王光考
+cbdb_id: 306651
 revision: 1
 properties:
   - predicate: bio.summary

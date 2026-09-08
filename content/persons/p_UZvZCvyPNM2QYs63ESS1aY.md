@@ -4,6 +4,7 @@ id: p_UZvZCvyPNM2QYs63ESS1aY
 status: active
 merged_into: null
 display_name: 王士藹
+cbdb_id: 526739
 revision: 1
 properties:
   - predicate: bio.summary

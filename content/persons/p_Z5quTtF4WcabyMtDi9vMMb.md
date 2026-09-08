@@ -4,6 +4,7 @@ id: p_Z5quTtF4WcabyMtDi9vMMb
 status: active
 merged_into: null
 display_name: 王載揚
+cbdb_id: 325027
 revision: 1
 properties:
   - predicate: bio.summary

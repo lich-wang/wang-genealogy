@@ -4,6 +4,7 @@ id: p_pCLRnm7JyZacankUnzAktU
 status: active
 merged_into: null
 display_name: 王氣
+cbdb_id: 414937
 revision: 1
 properties:
   - predicate: bio.summary

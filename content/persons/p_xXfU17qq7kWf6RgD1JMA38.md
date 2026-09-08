@@ -4,6 +4,7 @@ id: p_xXfU17qq7kWf6RgD1JMA38
 status: active
 merged_into: null
 display_name: 王學韶
+cbdb_id: 265188
 revision: 1
 properties:
   - predicate: bio.summary

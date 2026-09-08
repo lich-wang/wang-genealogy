@@ -4,6 +4,7 @@ id: p_8Ep5P5ZpEFCitMHRmNMN6i
 status: active
 merged_into: null
 display_name: 王民傑
+cbdb_id: 210118
 revision: 1
 properties:
   - predicate: bio.summary

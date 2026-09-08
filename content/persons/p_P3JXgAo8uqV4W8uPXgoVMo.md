@@ -4,6 +4,7 @@ id: p_P3JXgAo8uqV4W8uPXgoVMo
 status: active
 merged_into: null
 display_name: 王學呂
+cbdb_id: 328250
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_5LbkjGHubbcvGPbg3TNESX
 status: active
 merged_into: null
 display_name: 王信甫
+cbdb_id: 241962
 revision: 1
 properties:
   - predicate: bio.summary

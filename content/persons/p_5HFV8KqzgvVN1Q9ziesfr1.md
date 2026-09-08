@@ -4,6 +4,7 @@ id: p_5HFV8KqzgvVN1Q9ziesfr1
 status: active
 merged_into: null
 display_name: 王鳯佚
+cbdb_id: 415631
 revision: 1
 properties:
   - predicate: bio.summary

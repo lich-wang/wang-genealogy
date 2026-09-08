@@ -4,6 +4,7 @@ id: p_1uALN2FHDxxLSiud4Fo6cL
 status: active
 merged_into: null
 display_name: 王汝溟
+cbdb_id: 414971
 revision: 1
 properties:
   - predicate: bio.summary

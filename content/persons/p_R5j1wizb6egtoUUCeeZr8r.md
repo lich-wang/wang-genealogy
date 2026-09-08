@@ -4,6 +4,7 @@ id: p_R5j1wizb6egtoUUCeeZr8r
 status: active
 merged_into: null
 display_name: 王恪
+cbdb_id: 175516
 revision: 1
 properties:
   - predicate: bio.summary

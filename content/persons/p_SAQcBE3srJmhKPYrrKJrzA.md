@@ -4,6 +4,7 @@ id: p_SAQcBE3srJmhKPYrrKJrzA
 status: active
 merged_into: null
 display_name: 王登進
+cbdb_id: 60987
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_rtTpAcE9M3Q5KZbcW2tezW
 status: active
 merged_into: null
 display_name: 王敬達
+cbdb_id: 309084
 revision: 1
 properties:
   - predicate: bio.summary

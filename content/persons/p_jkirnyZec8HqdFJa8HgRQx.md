@@ -4,6 +4,7 @@ id: p_jkirnyZec8HqdFJa8HgRQx
 status: active
 merged_into: null
 display_name: 王公友
+cbdb_id: 384908
 revision: 1
 properties:
   - predicate: bio.summary

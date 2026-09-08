@@ -4,6 +4,7 @@ id: p_ggJH4efawYDw1ER4zzsqjA
 status: active
 merged_into: null
 display_name: 王亶翔
+cbdb_id: 526844
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_r8YjNLhAQ8K3Eo5127r562
 status: active
 merged_into: null
 display_name: 王胡翰
+cbdb_id: 526022
 revision: 1
 properties:
   - predicate: bio.summary

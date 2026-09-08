@@ -4,6 +4,7 @@ id: p_1zQKz8NF2y11zRhB2FT2AU
 status: active
 merged_into: null
 display_name: 王履端
+cbdb_id: 526819
 revision: 1
 properties:
   - predicate: bio.summary

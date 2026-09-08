@@ -4,6 +4,7 @@ id: p_kMwLaUFMkiHyub27rTXmQq
 status: active
 merged_into: null
 display_name: 王超凡
+cbdb_id: 415463
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_YwirFNE8NFu56PBcbk2GrG
 status: active
 merged_into: null
 display_name: 王錫榮
+cbdb_id: 415546
 revision: 1
 properties:
   - predicate: bio.summary

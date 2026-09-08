@@ -4,6 +4,7 @@ id: p_KH423Ebe1Sd9zT5ABb6kBH
 status: active
 merged_into: null
 display_name: 王胤隆
+cbdb_id: 342195
 revision: 1
 properties:
   - predicate: bio.summary

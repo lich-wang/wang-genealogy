@@ -4,6 +4,7 @@ id: p_h2AkTUDWdJYRnZuo41KPuQ
 status: active
 merged_into: null
 display_name: 王祖熙
+cbdb_id: 71926
 revision: 1
 properties:
   - predicate: bio.summary

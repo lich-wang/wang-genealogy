@@ -4,6 +4,7 @@ id: p_NF6koKBuV7f9DyKfqKc4MA
 status: active
 merged_into: null
 display_name: 王迎吉
+cbdb_id: 415474
 revision: 1
 properties:
   - predicate: bio.summary

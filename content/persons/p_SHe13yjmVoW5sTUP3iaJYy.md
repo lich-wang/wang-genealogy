@@ -4,6 +4,7 @@ id: p_SHe13yjmVoW5sTUP3iaJYy
 status: active
 merged_into: null
 display_name: 王公操
+cbdb_id: 143642
 revision: 1
 properties:
   - predicate: bio.summary

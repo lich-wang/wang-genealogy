@@ -4,6 +4,7 @@ id: p_AYW3SKpFyWc6LQ4SMJ7Ln8
 status: active
 merged_into: null
 display_name: 王祥
+cbdb_id: 25785
 revision: 1
 properties:
   - predicate: bio.summary

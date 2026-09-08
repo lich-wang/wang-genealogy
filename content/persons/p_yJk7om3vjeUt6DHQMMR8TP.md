@@ -4,6 +4,7 @@ id: p_yJk7om3vjeUt6DHQMMR8TP
 status: active
 merged_into: null
 display_name: 王宜釗
+cbdb_id: 71819
 revision: 1
 properties:
   - predicate: bio.summary

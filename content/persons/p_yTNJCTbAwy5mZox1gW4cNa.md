@@ -4,6 +4,7 @@ id: p_yTNJCTbAwy5mZox1gW4cNa
 status: active
 merged_into: null
 display_name: 王漢滄
+cbdb_id: 331412
 revision: 1
 properties:
   - predicate: bio.summary

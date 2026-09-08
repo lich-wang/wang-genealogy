@@ -4,6 +4,7 @@ id: p_GaiDYJbZ28sStMCpBn1qBe
 status: active
 merged_into: null
 display_name: 王某徵
+cbdb_id: 163961
 revision: 1
 properties:
   - predicate: bio.summary

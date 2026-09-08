@@ -4,6 +4,7 @@ id: p_vHoxdq9TDRoy7D4u6fjgnn
 status: active
 merged_into: null
 display_name: 王邦達
+cbdb_id: 222825
 revision: 1
 properties:
   - predicate: bio.summary

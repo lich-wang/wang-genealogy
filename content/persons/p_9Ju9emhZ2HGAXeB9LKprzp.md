@@ -4,6 +4,7 @@ id: p_9Ju9emhZ2HGAXeB9LKprzp
 status: active
 merged_into: null
 display_name: 王肇對
+cbdb_id: 342871
 revision: 1
 properties:
   - predicate: bio.summary

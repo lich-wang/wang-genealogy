@@ -4,6 +4,7 @@ id: p_BwURJGL96x1YaxRhvugS8d
 status: active
 merged_into: null
 display_name: 王再興
+cbdb_id: 341831
 revision: 1
 properties:
   - predicate: bio.summary

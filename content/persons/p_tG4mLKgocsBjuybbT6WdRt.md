@@ -4,6 +4,7 @@ id: p_tG4mLKgocsBjuybbT6WdRt
 status: active
 merged_into: null
 display_name: 王會某
+cbdb_id: 329995
 revision: 1
 properties:
   - predicate: bio.summary

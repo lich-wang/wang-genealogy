@@ -4,6 +4,7 @@ id: p_CizWXhM8V9jWVXN61mXFR5
 status: active
 merged_into: null
 display_name: 王賡陛
+cbdb_id: 526845
 revision: 1
 properties:
   - predicate: bio.summary

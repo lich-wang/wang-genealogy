@@ -4,6 +4,7 @@ id: p_Ui9Ki5EFvcLxHes45dtePo
 status: active
 merged_into: null
 display_name: 王宗瑾
+cbdb_id: 30554
 revision: 1
 properties:
   - predicate: bio.summary

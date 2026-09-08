@@ -4,6 +4,7 @@ id: p_JGt1MkSi7BCejfPkiAJ9yB
 status: active
 merged_into: null
 display_name: 王應鎬
+cbdb_id: 312619
 revision: 1
 properties:
   - predicate: bio.summary

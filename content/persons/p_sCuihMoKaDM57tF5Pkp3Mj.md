@@ -4,6 +4,7 @@ id: p_sCuihMoKaDM57tF5Pkp3Mj
 status: active
 merged_into: null
 display_name: 王安国
+cbdb_id: 34191
 revision: 1
 properties:
   - predicate: name.primary

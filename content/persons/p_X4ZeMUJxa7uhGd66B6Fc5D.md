@@ -4,6 +4,7 @@ id: p_X4ZeMUJxa7uhGd66B6Fc5D
 status: active
 merged_into: null
 display_name: 王文驥
+cbdb_id: 441164
 revision: 1
 properties:
   - predicate: bio.summary

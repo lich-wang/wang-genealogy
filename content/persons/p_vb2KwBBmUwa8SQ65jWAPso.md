@@ -4,6 +4,7 @@ id: p_vb2KwBBmUwa8SQ65jWAPso
 status: active
 merged_into: null
 display_name: 王晋
+cbdb_id: 175458
 revision: 1
 properties:
   - predicate: bio.summary

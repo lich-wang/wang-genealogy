@@ -4,6 +4,7 @@ id: p_596s4A8i6r9PRN7rPGV3NA
 status: active
 merged_into: null
 display_name: 王演
+cbdb_id: 3992
 revision: 2
 properties:
   - predicate: bio.summary

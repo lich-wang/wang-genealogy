@@ -4,6 +4,7 @@ id: p_cXjEgih3ppqfi6YKPMTCjP
 status: active
 merged_into: null
 display_name: 王伯俞
+cbdb_id: 413850
 revision: 1
 properties:
   - predicate: bio.summary

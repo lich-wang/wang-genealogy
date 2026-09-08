@@ -4,6 +4,7 @@ id: p_qCuDCmn4tyL67raACBzQpT
 status: active
 merged_into: null
 display_name: 王正色
+cbdb_id: 302738
 revision: 1
 properties:
   - predicate: bio.summary

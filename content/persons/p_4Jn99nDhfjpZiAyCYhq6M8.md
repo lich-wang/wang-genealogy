@@ -4,6 +4,7 @@ id: p_4Jn99nDhfjpZiAyCYhq6M8
 status: active
 merged_into: null
 display_name: 王時隆
+cbdb_id: 291903
 revision: 1
 properties:
   - predicate: bio.summary

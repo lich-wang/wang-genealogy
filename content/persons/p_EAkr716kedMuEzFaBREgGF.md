@@ -4,6 +4,7 @@ id: p_EAkr716kedMuEzFaBREgGF
 status: active
 merged_into: null
 display_name: 王應榜
+cbdb_id: 414644
 revision: 1
 properties:
   - predicate: bio.summary

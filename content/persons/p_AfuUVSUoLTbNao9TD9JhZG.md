@@ -4,6 +4,7 @@ id: p_AfuUVSUoLTbNao9TD9JhZG
 status: active
 merged_into: null
 display_name: 王仁东
+cbdb_id: 71402
 revision: 2
 properties:
   - predicate: bio.summary

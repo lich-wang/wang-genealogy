@@ -4,6 +4,7 @@ id: p_974YX6JvNPvwcY53qysuun
 status: active
 merged_into: null
 display_name: 王宗顯
+cbdb_id: 66479
 revision: 1
 properties:
   - predicate: bio.summary

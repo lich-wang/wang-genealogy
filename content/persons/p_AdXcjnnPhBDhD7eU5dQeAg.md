@@ -4,6 +4,7 @@ id: p_AdXcjnnPhBDhD7eU5dQeAg
 status: active
 merged_into: null
 display_name: 王敬信
+cbdb_id: 414723
 revision: 1
 properties:
   - predicate: bio.summary

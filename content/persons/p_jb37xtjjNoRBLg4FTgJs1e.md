@@ -4,6 +4,7 @@ id: p_jb37xtjjNoRBLg4FTgJs1e
 status: active
 merged_into: null
 display_name: 王毓芑
+cbdb_id: 414932
 revision: 1
 properties:
   - predicate: bio.summary

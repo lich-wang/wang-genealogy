@@ -4,6 +4,7 @@ id: p_uiopQQNfoS7m2dtHM9yXTB
 status: active
 merged_into: null
 display_name: 王知信
+cbdb_id: 196293
 revision: 1
 properties:
   - predicate: name.primary

@@ -4,6 +4,7 @@ id: p_9g6z7B5XihKh1azjTDKJ9P
 status: active
 merged_into: null
 display_name: 王慶洋
+cbdb_id: 117604
 revision: 1
 properties:
   - predicate: bio.summary

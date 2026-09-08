@@ -4,6 +4,7 @@ id: p_zf7oFPjrmgHFZY3CMeGN4N
 status: active
 merged_into: null
 display_name: 王雄
+cbdb_id: 175590
 revision: 1
 properties:
   - predicate: bio.summary

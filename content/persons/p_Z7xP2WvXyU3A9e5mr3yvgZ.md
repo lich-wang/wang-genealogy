@@ -4,6 +4,7 @@ id: p_Z7xP2WvXyU3A9e5mr3yvgZ
 status: active
 merged_into: null
 display_name: 王學貢
+cbdb_id: 458815
 revision: 1
 properties:
   - predicate: bio.summary

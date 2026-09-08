@@ -4,6 +4,7 @@ id: p_j1YheM1SAEiE8T3Hfe1zHv
 status: active
 merged_into: null
 display_name: 王學誦
+cbdb_id: 316265
 revision: 1
 properties:
   - predicate: bio.summary

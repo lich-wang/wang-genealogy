@@ -4,6 +4,7 @@ id: p_LrMmLqP8UX3PAEont2NFmW
 status: active
 merged_into: null
 display_name: 王洪順
+cbdb_id: 69265
 revision: 1
 properties:
   - predicate: bio.summary

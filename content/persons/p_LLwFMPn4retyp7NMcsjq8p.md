@@ -4,6 +4,7 @@ id: p_LLwFMPn4retyp7NMcsjq8p
 status: active
 merged_into: null
 display_name: 王德立
+cbdb_id: 54749
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_h1ZFQxYfXvV1VfF2eM6San
 status: active
 merged_into: null
 display_name: 王靖祥
+cbdb_id: 455320
 revision: 1
 properties:
   - predicate: bio.summary

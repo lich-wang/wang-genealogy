@@ -4,6 +4,7 @@ id: p_99J5DCoib8EkW4HfzgvqHJ
 status: active
 merged_into: null
 display_name: 王伯唐
+cbdb_id: 413851
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_JyeBB32hUkcTLMGNxucHth
 status: active
 merged_into: null
 display_name: 王檀
+cbdb_id: 175919
 revision: 2
 properties:
   - predicate: bio.summary

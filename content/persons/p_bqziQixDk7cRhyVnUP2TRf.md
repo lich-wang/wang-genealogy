@@ -4,6 +4,7 @@ id: p_bqziQixDk7cRhyVnUP2TRf
 status: active
 merged_into: null
 display_name: 王伽
+cbdb_id: 148775
 revision: 1
 properties:
   - predicate: bio.summary

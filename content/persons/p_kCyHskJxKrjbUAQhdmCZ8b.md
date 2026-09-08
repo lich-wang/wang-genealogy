@@ -4,6 +4,7 @@ id: p_kCyHskJxKrjbUAQhdmCZ8b
 status: active
 merged_into: null
 display_name: 王一光
+cbdb_id: 210798
 revision: 1
 properties:
   - predicate: bio.summary

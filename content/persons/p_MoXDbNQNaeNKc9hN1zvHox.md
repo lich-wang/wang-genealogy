@@ -4,6 +4,7 @@ id: p_MoXDbNQNaeNKc9hN1zvHox
 status: active
 merged_into: null
 display_name: 王仙敬
+cbdb_id: 150415
 revision: 1
 properties:
   - predicate: bio.summary

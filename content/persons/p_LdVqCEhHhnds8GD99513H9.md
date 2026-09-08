@@ -4,6 +4,7 @@ id: p_LdVqCEhHhnds8GD99513H9
 status: active
 merged_into: null
 display_name: 王玄恪
+cbdb_id: 234439
 revision: 1
 properties:
   - predicate: bio.summary

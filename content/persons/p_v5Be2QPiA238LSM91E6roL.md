@@ -4,6 +4,7 @@ id: p_v5Be2QPiA238LSM91E6roL
 status: active
 merged_into: null
 display_name: 王士鏡
+cbdb_id: 517394
 revision: 1
 properties:
   - predicate: bio.summary

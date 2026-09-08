@@ -4,6 +4,7 @@ id: p_cwPcbm1JjsLqJWiAmUG3yk
 status: active
 merged_into: null
 display_name: 王靜巖
+cbdb_id: 55857
 revision: 1
 properties:
   - predicate: bio.summary

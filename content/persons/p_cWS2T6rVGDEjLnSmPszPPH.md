@@ -4,6 +4,7 @@ id: p_cWS2T6rVGDEjLnSmPszPPH
 status: active
 merged_into: null
 display_name: 王一泰
+cbdb_id: 413674
 revision: 1
 properties:
   - predicate: bio.summary

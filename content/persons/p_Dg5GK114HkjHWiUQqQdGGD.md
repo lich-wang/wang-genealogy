@@ -4,6 +4,7 @@ id: p_Dg5GK114HkjHWiUQqQdGGD
 status: active
 merged_into: null
 display_name: 王來訪
+cbdb_id: 298284
 revision: 1
 properties:
   - predicate: bio.summary

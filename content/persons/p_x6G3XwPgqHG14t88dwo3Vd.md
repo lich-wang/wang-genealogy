@@ -4,6 +4,7 @@ id: p_x6G3XwPgqHG14t88dwo3Vd
 status: active
 merged_into: null
 display_name: 王文姜
+cbdb_id: 274753
 revision: 1
 properties:
   - predicate: bio.summary

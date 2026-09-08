@@ -4,6 +4,7 @@ id: p_AAxQGZ484s4cB5whrDBc9J
 status: active
 merged_into: null
 display_name: 王齊輿
+cbdb_id: 38086
 revision: 1
 properties:
   - predicate: bio.summary

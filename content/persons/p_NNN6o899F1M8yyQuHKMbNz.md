@@ -4,6 +4,7 @@ id: p_NNN6o899F1M8yyQuHKMbNz
 status: active
 merged_into: null
 display_name: 王演疇
+cbdb_id: 207468
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_GuQFsAkukJ9WUs38TCwHMW
 status: active
 merged_into: null
 display_name: 王震午
+cbdb_id: 38334
 revision: 1
 properties:
   - predicate: bio.summary

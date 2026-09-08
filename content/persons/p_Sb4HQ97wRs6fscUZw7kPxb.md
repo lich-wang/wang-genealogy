@@ -4,6 +4,7 @@ id: p_Sb4HQ97wRs6fscUZw7kPxb
 status: active
 merged_into: null
 display_name: 王仲寧
+cbdb_id: 38887
 revision: 1
 properties:
   - predicate: bio.summary

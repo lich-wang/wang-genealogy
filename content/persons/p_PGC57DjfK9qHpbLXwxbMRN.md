@@ -4,6 +4,7 @@ id: p_PGC57DjfK9qHpbLXwxbMRN
 status: active
 merged_into: null
 display_name: 王時政
+cbdb_id: 223161
 revision: 1
 properties:
   - predicate: bio.summary

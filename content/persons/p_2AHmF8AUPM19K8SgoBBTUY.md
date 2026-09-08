@@ -4,6 +4,7 @@ id: p_2AHmF8AUPM19K8SgoBBTUY
 status: active
 merged_into: null
 display_name: 王貽德
+cbdb_id: 205304
 revision: 1
 properties:
   - predicate: bio.summary

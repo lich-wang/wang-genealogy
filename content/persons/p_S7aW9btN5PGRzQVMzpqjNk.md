@@ -4,6 +4,7 @@ id: p_S7aW9btN5PGRzQVMzpqjNk
 status: active
 merged_into: null
 display_name: 王孚鏞
+cbdb_id: 342112
 revision: 1
 properties:
   - predicate: bio.summary

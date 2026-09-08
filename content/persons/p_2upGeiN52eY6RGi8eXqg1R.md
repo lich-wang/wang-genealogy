@@ -4,6 +4,7 @@ id: p_2upGeiN52eY6RGi8eXqg1R
 status: active
 merged_into: null
 display_name: 王士昌
+cbdb_id: 35069
 revision: 2
 properties:
   - predicate: bio.summary

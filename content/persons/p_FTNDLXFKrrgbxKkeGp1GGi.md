@@ -4,6 +4,7 @@ id: p_FTNDLXFKrrgbxKkeGp1GGi
 status: active
 merged_into: null
 display_name: 王暨
+cbdb_id: 37802
 revision: 1
 properties:
   - predicate: bio.summary

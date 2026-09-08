@@ -4,6 +4,7 @@ id: p_3hnH7wZH8D5Xo6SB4y6YDG
 status: active
 merged_into: null
 display_name: 王德良
+cbdb_id: 101414
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_7sL8RLmuiFfTvhgxv4U3Hi
 status: active
 merged_into: null
 display_name: 王延昭
+cbdb_id: 525607
 revision: 1
 properties:
   - predicate: bio.summary

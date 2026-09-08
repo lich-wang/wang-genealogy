@@ -4,6 +4,7 @@ id: p_1PGxkfhdBq5H6pifon2LFg
 status: active
 merged_into: null
 display_name: 王春楨
+cbdb_id: 343353
 revision: 1
 properties:
   - predicate: bio.summary

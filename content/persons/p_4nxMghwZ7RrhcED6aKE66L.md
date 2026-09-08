@@ -4,6 +4,7 @@ id: p_4nxMghwZ7RrhcED6aKE66L
 status: active
 merged_into: null
 display_name: 王重士
+cbdb_id: 415525
 revision: 1
 properties:
   - predicate: bio.summary

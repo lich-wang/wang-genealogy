@@ -4,6 +4,7 @@ id: p_W9wujGjCH1D7zSdV1xUWCm
 status: active
 merged_into: null
 display_name: 王壑
+cbdb_id: 45811
 revision: 1
 properties:
   - predicate: bio.summary

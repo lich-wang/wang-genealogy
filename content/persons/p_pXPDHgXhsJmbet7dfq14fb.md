@@ -4,6 +4,7 @@ id: p_pXPDHgXhsJmbet7dfq14fb
 status: active
 merged_into: null
 display_name: 王三讓
+cbdb_id: 303947
 revision: 1
 properties:
   - predicate: bio.summary

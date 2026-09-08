@@ -4,6 +4,7 @@ id: p_gJCvFm1EpXVbn8KGq84z5N
 status: active
 merged_into: null
 display_name: 王曾培
+cbdb_id: 72089
 revision: 1
 properties:
   - predicate: bio.summary

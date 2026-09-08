@@ -4,6 +4,7 @@ id: p_7H6sQDDwgwPq3cUTpdeoRk
 status: active
 merged_into: null
 display_name: 王仕用
+cbdb_id: 413813
 revision: 1
 properties:
   - predicate: bio.summary

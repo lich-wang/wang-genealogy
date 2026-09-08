@@ -4,6 +4,7 @@ id: p_gYEbYCMM3pDuooynkr8Brj
 status: active
 merged_into: null
 display_name: 王晠
+cbdb_id: 195784
 revision: 1
 properties:
   - predicate: bio.summary

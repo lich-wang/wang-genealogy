@@ -4,6 +4,7 @@ id: p_LHngC55hXJ8yxM6sSH2Het
 status: active
 merged_into: null
 display_name: 王相英
+cbdb_id: 54597
 revision: 1
 properties:
   - predicate: bio.summary

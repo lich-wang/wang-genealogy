@@ -4,6 +4,7 @@ id: p_K2RyEcuX6X7Q3n3ypDbFYp
 status: active
 merged_into: null
 display_name: 王進孝
+cbdb_id: 415488
 revision: 1
 properties:
   - predicate: bio.summary

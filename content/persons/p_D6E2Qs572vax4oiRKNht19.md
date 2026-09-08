@@ -4,6 +4,7 @@ id: p_D6E2Qs572vax4oiRKNht19
 status: active
 merged_into: null
 display_name: 王彬孫
+cbdb_id: 514235
 revision: 1
 properties:
   - predicate: bio.summary

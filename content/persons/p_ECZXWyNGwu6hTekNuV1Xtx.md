@@ -4,6 +4,7 @@ id: p_ECZXWyNGwu6hTekNuV1Xtx
 status: active
 merged_into: null
 display_name: 王建常
+cbdb_id: 69299
 revision: 1
 properties:
   - predicate: bio.summary

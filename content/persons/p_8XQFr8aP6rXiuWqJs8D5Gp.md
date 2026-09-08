@@ -4,6 +4,7 @@ id: p_8XQFr8aP6rXiuWqJs8D5Gp
 status: active
 merged_into: null
 display_name: 王鳳璘
+cbdb_id: 71420
 revision: 1
 properties:
   - predicate: bio.summary

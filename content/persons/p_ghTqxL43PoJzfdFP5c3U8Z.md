@@ -4,6 +4,7 @@ id: p_ghTqxL43PoJzfdFP5c3U8Z
 status: active
 merged_into: null
 display_name: 王存敬
+cbdb_id: 342991
 revision: 1
 properties:
   - predicate: bio.summary

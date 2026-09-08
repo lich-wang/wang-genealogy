@@ -4,6 +4,7 @@ id: p_QZp4mE18uPxf8kxyXQoM8P
 status: active
 merged_into: null
 display_name: 王明得
+cbdb_id: 526694
 revision: 1
 properties:
   - predicate: bio.summary

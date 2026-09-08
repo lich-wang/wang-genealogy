@@ -4,6 +4,7 @@ id: p_zNy3Z8ecX5EDLCwy4tCCdv
 status: active
 merged_into: null
 display_name: 王庭鈺
+cbdb_id: 101308
 revision: 1
 properties:
   - predicate: bio.summary

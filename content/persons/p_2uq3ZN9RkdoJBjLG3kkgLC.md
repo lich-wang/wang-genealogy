@@ -4,6 +4,7 @@ id: p_2uq3ZN9RkdoJBjLG3kkgLC
 status: active
 merged_into: null
 display_name: 王之和
+cbdb_id: 97773
 revision: 1
 properties:
   - predicate: bio.summary

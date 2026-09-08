@@ -4,6 +4,7 @@ id: p_1WQmTU233ach8AxuTKh3jA
 status: active
 merged_into: null
 display_name: 王随之
+cbdb_id: 25808
 revision: 1
 properties:
   - predicate: bio.summary

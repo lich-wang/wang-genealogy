@@ -4,6 +4,7 @@ id: p_sixrhbbNLRF6Mv9nNNBLE2
 status: active
 merged_into: null
 display_name: 王仁和
+cbdb_id: 69081
 revision: 1
 properties:
   - predicate: bio.summary

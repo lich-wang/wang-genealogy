@@ -4,6 +4,7 @@ id: p_CnZaSbhkknBxcKEGNZs4oi
 status: active
 merged_into: null
 display_name: 王濛
+cbdb_id: 175391
 revision: 1
 properties:
   - predicate: bio.summary

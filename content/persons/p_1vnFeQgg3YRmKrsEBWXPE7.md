@@ -4,6 +4,7 @@ id: p_1vnFeQgg3YRmKrsEBWXPE7
 status: active
 merged_into: null
 display_name: 王於潛
+cbdb_id: 165043
 revision: 1
 properties:
   - predicate: bio.summary

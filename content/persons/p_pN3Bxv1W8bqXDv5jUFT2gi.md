@@ -4,6 +4,7 @@ id: p_pN3Bxv1W8bqXDv5jUFT2gi
 status: active
 merged_into: null
 display_name: 王以均
+cbdb_id: 413823
 revision: 1
 properties:
   - predicate: bio.summary

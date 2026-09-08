@@ -4,6 +4,7 @@ id: p_XnPgaaqPmCgs79HMCSoWCY
 status: active
 merged_into: null
 display_name: 王厚焴
+cbdb_id: 693654
 revision: 1
 properties:
   - predicate: bio.summary

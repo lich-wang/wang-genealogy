@@ -4,6 +4,7 @@ id: p_aFoQhfFEQY2CMrDBBmF6bs
 status: active
 merged_into: null
 display_name: 王顯政
+cbdb_id: 101462
 revision: 1
 properties:
   - predicate: bio.summary

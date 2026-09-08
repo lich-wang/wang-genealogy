@@ -4,6 +4,7 @@ id: p_BLgoHxNpQaoz3KHbpCYtqP
 status: active
 merged_into: null
 display_name: 许氏
+cbdb_id: 235521
 revision: 1
 properties:
   - predicate: name.primary

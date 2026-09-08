@@ -4,6 +4,7 @@ id: p_2374XCMJtKHpcoZ6BqGWXD
 status: active
 merged_into: null
 display_name: 王仁膺
+cbdb_id: 413805
 revision: 1
 properties:
   - predicate: bio.summary

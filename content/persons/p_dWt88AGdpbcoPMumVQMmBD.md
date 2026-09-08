@@ -4,6 +4,7 @@ id: p_dWt88AGdpbcoPMumVQMmBD
 status: active
 merged_into: null
 display_name: 王葵初
+cbdb_id: 415371
 revision: 1
 properties:
   - predicate: bio.summary

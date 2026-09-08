@@ -4,6 +4,7 @@ id: p_7hYGg2HEWoVWy98Ce12JpB
 status: active
 merged_into: null
 display_name: 王浩
+cbdb_id: 175360
 revision: 1
 properties:
   - predicate: bio.summary

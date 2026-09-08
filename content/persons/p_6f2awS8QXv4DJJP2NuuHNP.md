@@ -4,6 +4,7 @@ id: p_6f2awS8QXv4DJJP2NuuHNP
 status: active
 merged_into: null
 display_name: 王汝詔
+cbdb_id: 320261
 revision: 1
 properties:
   - predicate: bio.summary

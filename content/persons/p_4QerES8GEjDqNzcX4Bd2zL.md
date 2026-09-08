@@ -4,6 +4,7 @@ id: p_4QerES8GEjDqNzcX4Bd2zL
 status: active
 merged_into: null
 display_name: 王學雋
+cbdb_id: 343658
 revision: 1
 properties:
   - predicate: bio.summary

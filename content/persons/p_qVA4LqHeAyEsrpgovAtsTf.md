@@ -4,6 +4,7 @@ id: p_qVA4LqHeAyEsrpgovAtsTf
 status: active
 merged_into: null
 display_name: 王期遠
+cbdb_id: 343295
 revision: 1
 properties:
   - predicate: bio.summary

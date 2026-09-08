@@ -4,6 +4,7 @@ id: p_67pZrfg4Fv5o6U7QELBM9s
 status: active
 merged_into: null
 display_name: 王錫蒲
+cbdb_id: 343815
 revision: 1
 properties:
   - predicate: bio.summary

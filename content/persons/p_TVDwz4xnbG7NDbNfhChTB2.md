@@ -4,6 +4,7 @@ id: p_TVDwz4xnbG7NDbNfhChTB2
 status: active
 merged_into: null
 display_name: 王後
+cbdb_id: 22216
 revision: 1
 properties:
   - predicate: bio.summary

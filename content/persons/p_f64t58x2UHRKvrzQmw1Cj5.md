@@ -4,6 +4,7 @@ id: p_f64t58x2UHRKvrzQmw1Cj5
 status: active
 merged_into: null
 display_name: 王仲初
+cbdb_id: 186738
 revision: 1
 properties:
   - predicate: bio.summary

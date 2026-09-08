@@ -4,6 +4,7 @@ id: p_K16kNHeUibJ8ZBQ9xmGBx7
 status: active
 merged_into: null
 display_name: 王嗣皐
+cbdb_id: 343548
 revision: 1
 properties:
   - predicate: bio.summary

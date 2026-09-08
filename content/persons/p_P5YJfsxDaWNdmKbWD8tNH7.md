@@ -4,6 +4,7 @@ id: p_P5YJfsxDaWNdmKbWD8tNH7
 status: active
 merged_into: null
 display_name: 王應雲
+cbdb_id: 221972
 revision: 1
 properties:
   - predicate: bio.summary

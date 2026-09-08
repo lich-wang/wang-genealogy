@@ -4,6 +4,7 @@ id: p_LCDZSEFLnkNUGBCXB5a5GQ
 status: active
 merged_into: null
 display_name: 王胤登
+cbdb_id: 227303
 revision: 1
 properties:
   - predicate: bio.summary

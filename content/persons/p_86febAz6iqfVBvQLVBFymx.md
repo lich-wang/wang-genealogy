@@ -4,6 +4,7 @@ id: p_86febAz6iqfVBvQLVBFymx
 status: active
 merged_into: null
 display_name: 王珍業
+cbdb_id: 146550
 revision: 1
 properties:
   - predicate: bio.summary

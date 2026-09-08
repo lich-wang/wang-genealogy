@@ -4,6 +4,7 @@ id: p_iVE9xBcbfFQ3RnRnST9GJA
 status: active
 merged_into: null
 display_name: 王仕允
+cbdb_id: 240891
 revision: 1
 properties:
   - predicate: bio.summary

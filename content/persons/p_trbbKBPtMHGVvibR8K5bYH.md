@@ -4,6 +4,7 @@ id: p_trbbKBPtMHGVvibR8K5bYH
 status: active
 merged_into: null
 display_name: 王仲麟
+cbdb_id: 441163
 revision: 1
 properties:
   - predicate: bio.summary

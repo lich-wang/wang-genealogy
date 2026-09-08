@@ -4,6 +4,7 @@ id: p_j5Bqy4Wu3dJSN6oEWEvjvo
 status: active
 merged_into: null
 display_name: 王大詔
+cbdb_id: 45875
 revision: 1
 properties:
   - predicate: bio.summary

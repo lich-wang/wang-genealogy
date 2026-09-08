@@ -4,6 +4,7 @@ id: p_imTkhuDtwvWTtJTmW9TPEh
 status: active
 merged_into: null
 display_name: 王香亭
+cbdb_id: 415615
 revision: 1
 properties:
   - predicate: bio.summary

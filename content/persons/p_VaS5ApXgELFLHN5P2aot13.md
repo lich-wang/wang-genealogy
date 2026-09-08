@@ -4,6 +4,7 @@ id: p_VaS5ApXgELFLHN5P2aot13
 status: active
 merged_into: null
 display_name: 王蔭祜
+cbdb_id: 71849
 revision: 1
 properties:
   - predicate: bio.summary

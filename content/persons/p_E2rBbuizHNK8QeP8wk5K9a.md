@@ -4,6 +4,7 @@ id: p_E2rBbuizHNK8QeP8wk5K9a
 status: active
 merged_into: null
 display_name: 王彥全
+cbdb_id: 268918
 revision: 1
 properties:
   - predicate: bio.summary

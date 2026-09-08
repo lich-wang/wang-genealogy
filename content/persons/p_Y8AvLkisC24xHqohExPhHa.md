@@ -4,6 +4,7 @@ id: p_Y8AvLkisC24xHqohExPhHa
 status: active
 merged_into: null
 display_name: 王許可
+cbdb_id: 415411
 revision: 1
 properties:
   - predicate: bio.summary

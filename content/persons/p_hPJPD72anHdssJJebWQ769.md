@@ -4,6 +4,7 @@ id: p_hPJPD72anHdssJJebWQ769
 status: active
 merged_into: null
 display_name: 曹氏
+cbdb_id: 338009
 revision: 1
 properties:
   - predicate: bio.summary

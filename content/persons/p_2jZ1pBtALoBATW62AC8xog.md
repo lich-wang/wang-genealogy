@@ -4,6 +4,7 @@ id: p_2jZ1pBtALoBATW62AC8xog
 status: active
 merged_into: null
 display_name: 王書思
+cbdb_id: 526686
 revision: 1
 properties:
   - predicate: bio.summary

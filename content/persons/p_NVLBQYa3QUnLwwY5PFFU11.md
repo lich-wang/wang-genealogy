@@ -4,6 +4,7 @@ id: p_NVLBQYa3QUnLwwY5PFFU11
 status: active
 merged_into: null
 display_name: 王升
+cbdb_id: 262446
 revision: 1
 properties:
   - predicate: name.primary

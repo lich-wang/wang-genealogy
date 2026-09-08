@@ -4,6 +4,7 @@ id: p_E7YL8K8cBwHS7NPmFdwMBH
 status: active
 merged_into: null
 display_name: 王元應
+cbdb_id: 38040
 revision: 1
 properties:
   - predicate: bio.summary

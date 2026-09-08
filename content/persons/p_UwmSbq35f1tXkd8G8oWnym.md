@@ -4,6 +4,7 @@ id: p_UwmSbq35f1tXkd8G8oWnym
 status: active
 merged_into: null
 display_name: 王稚夔
+cbdb_id: 514236
 revision: 1
 properties:
   - predicate: bio.summary

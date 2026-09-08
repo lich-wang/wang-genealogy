@@ -4,6 +4,7 @@ id: p_EtFrWvftwySWb5vUTdpWtp
 status: active
 merged_into: null
 display_name: 王仲庸
+cbdb_id: 97787
 revision: 1
 properties:
   - predicate: bio.summary

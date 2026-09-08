@@ -4,6 +4,7 @@ id: p_17TEWfKXuY1bwQ6W31UoBo
 status: active
 merged_into: null
 display_name: 王修行
+cbdb_id: 342391
 revision: 1
 properties:
   - predicate: bio.summary

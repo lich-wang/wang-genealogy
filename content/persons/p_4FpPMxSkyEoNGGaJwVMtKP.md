@@ -4,6 +4,7 @@ id: p_4FpPMxSkyEoNGGaJwVMtKP
 status: active
 merged_into: null
 display_name: 王璧方
+cbdb_id: 415120
 revision: 1
 properties:
   - predicate: bio.summary

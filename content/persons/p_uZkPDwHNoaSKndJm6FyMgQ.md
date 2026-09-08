@@ -4,6 +4,7 @@ id: p_uZkPDwHNoaSKndJm6FyMgQ
 status: active
 merged_into: null
 display_name: 王炤
+cbdb_id: 294718
 revision: 1
 properties:
   - predicate: bio.summary

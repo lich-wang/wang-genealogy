@@ -4,6 +4,7 @@ id: p_FJ8kB5ov8PURm7VjHpvGtx
 status: active
 merged_into: null
 display_name: 王自超
+cbdb_id: 71587
 revision: 1
 properties:
   - predicate: bio.summary

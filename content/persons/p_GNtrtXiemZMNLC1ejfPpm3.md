@@ -4,6 +4,7 @@ id: p_GNtrtXiemZMNLC1ejfPpm3
 status: active
 merged_into: null
 display_name: 王士錀
+cbdb_id: 342947
 revision: 1
 properties:
   - predicate: bio.summary

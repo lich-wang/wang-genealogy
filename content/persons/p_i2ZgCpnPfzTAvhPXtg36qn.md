@@ -4,6 +4,7 @@ id: p_i2ZgCpnPfzTAvhPXtg36qn
 status: active
 merged_into: null
 display_name: 王程焰
+cbdb_id: 342382
 revision: 1
 properties:
   - predicate: bio.summary

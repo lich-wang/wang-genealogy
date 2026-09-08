@@ -4,6 +4,7 @@ id: p_g2qxKL19KNMbcQqmEVvWNp
 status: active
 merged_into: null
 display_name: 王似椿
+cbdb_id: 413863
 revision: 1
 properties:
   - predicate: bio.summary

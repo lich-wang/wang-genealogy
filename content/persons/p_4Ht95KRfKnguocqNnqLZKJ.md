@@ -4,6 +4,7 @@ id: p_4Ht95KRfKnguocqNnqLZKJ
 status: active
 merged_into: null
 display_name: 王乃斌
+cbdb_id: 413736
 revision: 1
 properties:
   - predicate: bio.summary

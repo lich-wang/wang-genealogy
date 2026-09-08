@@ -4,6 +4,7 @@ id: p_pSEeJKUF3qMxSGtyx2QMLA
 status: active
 merged_into: null
 display_name: 王奕組
+cbdb_id: 71899
 revision: 1
 properties:
   - predicate: bio.summary

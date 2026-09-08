@@ -4,6 +4,7 @@ id: p_Hr9mf3hFTf1JYmwnu4JWuS
 status: active
 merged_into: null
 display_name: 卢惕
+cbdb_id: 185864
 revision: 1
 properties:
   - predicate: name.primary

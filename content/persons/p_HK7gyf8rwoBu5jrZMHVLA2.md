@@ -4,6 +4,7 @@ id: p_HK7gyf8rwoBu5jrZMHVLA2
 status: active
 merged_into: null
 display_name: 刘骏
+cbdb_id: 339538
 revision: 1
 properties:
   - predicate: bio.summary

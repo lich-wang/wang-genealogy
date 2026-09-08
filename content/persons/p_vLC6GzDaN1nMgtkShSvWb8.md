@@ -4,6 +4,7 @@ id: p_vLC6GzDaN1nMgtkShSvWb8
 status: active
 merged_into: null
 display_name: 王述昌
+cbdb_id: 415479
 revision: 1
 properties:
   - predicate: bio.summary

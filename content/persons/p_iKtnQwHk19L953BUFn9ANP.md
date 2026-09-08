@@ -4,6 +4,7 @@ id: p_iKtnQwHk19L953BUFn9ANP
 status: active
 merged_into: null
 display_name: 呼韩邪
+cbdb_id: 135319
 revision: 1
 properties:
   - predicate: bio.summary

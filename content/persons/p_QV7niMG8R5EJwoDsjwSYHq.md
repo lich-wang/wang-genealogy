@@ -4,6 +4,7 @@ id: p_QV7niMG8R5EJwoDsjwSYHq
 status: active
 merged_into: null
 display_name: 王毓美
+cbdb_id: 414931
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_t71p1LGMtBRKV4XLXkzXwU
 status: active
 merged_into: null
 display_name: 王希忠
+cbdb_id: 60038
 revision: 1
 properties:
   - predicate: bio.summary

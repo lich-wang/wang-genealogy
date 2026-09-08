@@ -4,6 +4,7 @@ id: p_EFHu2f75P5hv7hu9BKehC4
 status: active
 merged_into: null
 display_name: 王唐臣
+cbdb_id: 22174
 revision: 1
 properties:
   - predicate: bio.summary

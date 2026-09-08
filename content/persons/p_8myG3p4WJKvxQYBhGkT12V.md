@@ -4,6 +4,7 @@ id: p_8myG3p4WJKvxQYBhGkT12V
 status: active
 merged_into: null
 display_name: 王相老
+cbdb_id: 175628
 revision: 1
 properties:
   - predicate: bio.summary

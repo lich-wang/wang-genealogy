@@ -4,6 +4,7 @@ id: p_czJKGFt3dD9YJSycJunCF4
 status: active
 merged_into: null
 display_name: 王聯堂
+cbdb_id: 341891
 revision: 1
 properties:
   - predicate: bio.summary

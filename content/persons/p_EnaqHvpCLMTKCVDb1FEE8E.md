@@ -4,6 +4,7 @@ id: p_EnaqHvpCLMTKCVDb1FEE8E
 status: active
 merged_into: null
 display_name: 王公詔
+cbdb_id: 23703
 revision: 1
 properties:
   - predicate: bio.summary

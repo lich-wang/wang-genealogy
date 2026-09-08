@@ -4,6 +4,7 @@ id: p_1xPJZmDPTEARDyJUDADBVk
 status: active
 merged_into: null
 display_name: 王謙初
+cbdb_id: 415422
 revision: 1
 properties:
   - predicate: bio.summary

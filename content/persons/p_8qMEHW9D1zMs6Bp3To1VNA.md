@@ -4,6 +4,7 @@ id: p_8qMEHW9D1zMs6Bp3To1VNA
 status: active
 merged_into: null
 display_name: 王一范
+cbdb_id: 341720
 revision: 1
 properties:
   - predicate: bio.summary

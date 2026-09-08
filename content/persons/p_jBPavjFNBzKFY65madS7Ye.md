@@ -4,6 +4,7 @@ id: p_jBPavjFNBzKFY65madS7Ye
 status: active
 merged_into: null
 display_name: 王者都
+cbdb_id: 343158
 revision: 1
 properties:
   - predicate: bio.summary

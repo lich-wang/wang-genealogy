@@ -4,6 +4,7 @@ id: p_iPwm7jK2Axe5oJF4QUV5LC
 status: active
 merged_into: null
 display_name: 王仲浙
+cbdb_id: 413841
 revision: 1
 properties:
   - predicate: bio.summary

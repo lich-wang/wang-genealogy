@@ -4,6 +4,7 @@ id: p_eEXVv3bK6MYV4TmpBr3G1N
 status: active
 merged_into: null
 display_name: 王乂
+cbdb_id: 175554
 revision: 1
 properties:
   - predicate: bio.summary

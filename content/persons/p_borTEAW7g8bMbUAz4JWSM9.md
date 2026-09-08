@@ -4,6 +4,7 @@ id: p_borTEAW7g8bMbUAz4JWSM9
 status: active
 merged_into: null
 display_name: 王再某
+cbdb_id: 192503
 revision: 1
 properties:
   - predicate: bio.summary

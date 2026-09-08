@@ -4,6 +4,7 @@ id: p_byePaPbZp6jPRJqt19xyjN
 status: active
 merged_into: null
 display_name: 王奇橙
+cbdb_id: 216205
 revision: 1
 properties:
   - predicate: bio.summary

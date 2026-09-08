@@ -4,6 +4,7 @@ id: p_E5ueS4ckSMmcQFDrzCPSVi
 status: active
 merged_into: null
 display_name: 王人傑
+cbdb_id: 69048
 revision: 1
 properties:
   - predicate: bio.summary

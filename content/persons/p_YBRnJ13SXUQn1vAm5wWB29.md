@@ -4,6 +4,7 @@ id: p_YBRnJ13SXUQn1vAm5wWB29
 status: active
 merged_into: null
 display_name: 王化臣
+cbdb_id: 25048
 revision: 1
 properties:
   - predicate: bio.summary

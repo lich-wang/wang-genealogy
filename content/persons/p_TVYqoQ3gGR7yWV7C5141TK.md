@@ -4,6 +4,7 @@ id: p_TVYqoQ3gGR7yWV7C5141TK
 status: active
 merged_into: null
 display_name: 王廷遷
+cbdb_id: 325995
 revision: 1
 properties:
   - predicate: bio.summary

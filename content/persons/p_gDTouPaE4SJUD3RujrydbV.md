@@ -4,6 +4,7 @@ id: p_gDTouPaE4SJUD3RujrydbV
 status: active
 merged_into: null
 display_name: 王涿
+cbdb_id: 260080
 revision: 1
 properties:
   - predicate: bio.summary

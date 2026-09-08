@@ -4,6 +4,7 @@ id: p_sHb3y5RnrBeFzb237QLBgR
 status: active
 merged_into: null
 display_name: 祁德莞
+cbdb_id: 123315
 revision: 2
 properties:
   - predicate: bio.summary

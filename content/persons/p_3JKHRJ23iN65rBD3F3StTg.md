@@ -4,6 +4,7 @@ id: p_3JKHRJ23iN65rBD3F3StTg
 status: active
 merged_into: null
 display_name: 王伯蘭
+cbdb_id: 220567
 revision: 1
 properties:
   - predicate: bio.summary

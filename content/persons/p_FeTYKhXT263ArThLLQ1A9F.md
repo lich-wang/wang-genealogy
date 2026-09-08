@@ -4,6 +4,7 @@ id: p_FeTYKhXT263ArThLLQ1A9F
 status: active
 merged_into: null
 display_name: 王世彦
+cbdb_id: 17779
 revision: 2
 properties:
   - predicate: bio.summary

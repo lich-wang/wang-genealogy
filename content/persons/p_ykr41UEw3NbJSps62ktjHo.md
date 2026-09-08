@@ -4,6 +4,7 @@ id: p_ykr41UEw3NbJSps62ktjHo
 status: active
 merged_into: null
 display_name: 王衮
+cbdb_id: 288232
 revision: 1
 properties:
   - predicate: bio.summary

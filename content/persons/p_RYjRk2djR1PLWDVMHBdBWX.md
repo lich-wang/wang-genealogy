@@ -4,6 +4,7 @@ id: p_RYjRk2djR1PLWDVMHBdBWX
 status: active
 merged_into: null
 display_name: 王恆宬
+cbdb_id: 191128
 revision: 1
 properties:
   - predicate: bio.summary

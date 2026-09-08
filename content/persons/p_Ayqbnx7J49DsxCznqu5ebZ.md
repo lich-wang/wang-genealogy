@@ -4,6 +4,7 @@ id: p_Ayqbnx7J49DsxCznqu5ebZ
 status: active
 merged_into: null
 display_name: 王乃濬
+cbdb_id: 413737
 revision: 1
 properties:
   - predicate: bio.summary

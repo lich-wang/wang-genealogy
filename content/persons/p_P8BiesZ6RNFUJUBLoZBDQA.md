@@ -4,6 +4,7 @@ id: p_P8BiesZ6RNFUJUBLoZBDQA
 status: active
 merged_into: null
 display_name: 王一山
+cbdb_id: 101021
 revision: 1
 properties:
   - predicate: bio.summary

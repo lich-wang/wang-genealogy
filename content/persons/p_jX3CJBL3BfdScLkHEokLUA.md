@@ -4,6 +4,7 @@ id: p_jX3CJBL3BfdScLkHEokLUA
 status: active
 merged_into: null
 display_name: 王雨
+cbdb_id: 100705
 revision: 1
 properties:
   - predicate: bio.summary

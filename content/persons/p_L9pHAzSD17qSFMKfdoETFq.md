@@ -4,6 +4,7 @@ id: p_L9pHAzSD17qSFMKfdoETFq
 status: active
 merged_into: null
 display_name: 王符霈
+cbdb_id: 526813
 revision: 1
 properties:
   - predicate: bio.summary

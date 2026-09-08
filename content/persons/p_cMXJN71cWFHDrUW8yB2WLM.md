@@ -4,6 +4,7 @@ id: p_cMXJN71cWFHDrUW8yB2WLM
 status: active
 merged_into: null
 display_name: 王廷佳
+cbdb_id: 414453
 revision: 1
 properties:
   - predicate: bio.summary

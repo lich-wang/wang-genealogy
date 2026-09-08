@@ -4,6 +4,7 @@ id: p_Yj1zyQHBgbm2riBuN8qVkV
 status: active
 merged_into: null
 display_name: 王秉正
+cbdb_id: 342124
 revision: 1
 properties:
   - predicate: bio.summary

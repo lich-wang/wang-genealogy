@@ -4,6 +4,7 @@ id: p_xPN2qGBhMthYExv33wTCKq
 status: active
 merged_into: null
 display_name: 王顯光
+cbdb_id: 415605
 revision: 1
 properties:
   - predicate: bio.summary

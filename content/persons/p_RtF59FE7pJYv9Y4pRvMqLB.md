@@ -4,6 +4,7 @@ id: p_RtF59FE7pJYv9Y4pRvMqLB
 status: active
 merged_into: null
 display_name: 王锐
+cbdb_id: 175408
 revision: 1
 properties:
   - predicate: bio.summary

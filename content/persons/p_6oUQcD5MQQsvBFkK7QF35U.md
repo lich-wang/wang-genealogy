@@ -4,6 +4,7 @@ id: p_6oUQcD5MQQsvBFkK7QF35U
 status: active
 merged_into: null
 display_name: 王垂象
+cbdb_id: 414144
 revision: 1
 properties:
   - predicate: bio.summary

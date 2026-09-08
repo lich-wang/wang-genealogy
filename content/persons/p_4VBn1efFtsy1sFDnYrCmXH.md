@@ -4,6 +4,7 @@ id: p_4VBn1efFtsy1sFDnYrCmXH
 status: active
 merged_into: null
 display_name: 王奎章
+cbdb_id: 513696
 revision: 1
 properties:
   - predicate: bio.summary

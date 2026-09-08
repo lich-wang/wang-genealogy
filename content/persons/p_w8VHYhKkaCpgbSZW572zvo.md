@@ -4,6 +4,7 @@ id: p_w8VHYhKkaCpgbSZW572zvo
 status: active
 merged_into: null
 display_name: 王廷策
+cbdb_id: 414479
 revision: 1
 properties:
   - predicate: bio.summary

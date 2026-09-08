@@ -4,6 +4,7 @@ id: p_qCg5QEXeiZ289NBjB54Hkn
 status: active
 merged_into: null
 display_name: 王恆堂
+cbdb_id: 414601
 revision: 1
 properties:
   - predicate: bio.summary

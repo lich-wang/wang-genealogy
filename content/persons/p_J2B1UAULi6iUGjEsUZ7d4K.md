@@ -4,6 +4,7 @@ id: p_J2B1UAULi6iUGjEsUZ7d4K
 status: active
 merged_into: null
 display_name: 王輝曾
+cbdb_id: 415472
 revision: 1
 properties:
   - predicate: bio.summary

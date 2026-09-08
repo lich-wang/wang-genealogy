@@ -4,6 +4,7 @@ id: p_s2csbXjocsYcsXXrsyC9LW
 status: active
 merged_into: null
 display_name: 王子民
+cbdb_id: 244023
 revision: 1
 properties:
   - predicate: bio.summary

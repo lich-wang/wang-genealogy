@@ -4,6 +4,7 @@ id: p_mk3dTkzG94aLkYaNf5KJ63
 status: active
 merged_into: null
 display_name: 王希善
+cbdb_id: 238212
 revision: 1
 properties:
   - predicate: bio.summary

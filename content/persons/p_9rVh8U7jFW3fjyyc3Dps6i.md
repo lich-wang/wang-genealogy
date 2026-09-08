@@ -4,6 +4,7 @@ id: p_9rVh8U7jFW3fjyyc3Dps6i
 status: active
 merged_into: null
 display_name: 王用密
+cbdb_id: 415129
 revision: 1
 properties:
   - predicate: bio.summary

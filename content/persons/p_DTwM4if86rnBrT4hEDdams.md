@@ -4,6 +4,7 @@ id: p_DTwM4if86rnBrT4hEDdams
 status: active
 merged_into: null
 display_name: 王都中
+cbdb_id: 101371
 revision: 1
 properties:
   - predicate: bio.summary

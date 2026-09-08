@@ -4,6 +4,7 @@ id: p_SSTJUCFgcoSjH84AQbMYES
 status: active
 merged_into: null
 display_name: 王之豫
+cbdb_id: 149916
 revision: 1
 properties:
   - predicate: bio.summary

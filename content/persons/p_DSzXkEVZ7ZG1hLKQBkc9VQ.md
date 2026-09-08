@@ -4,6 +4,7 @@ id: p_DSzXkEVZ7ZG1hLKQBkc9VQ
 status: active
 merged_into: null
 display_name: 王嘉名
+cbdb_id: 414093
 revision: 1
 properties:
   - predicate: bio.summary

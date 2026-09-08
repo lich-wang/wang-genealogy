@@ -4,6 +4,7 @@ id: p_jKCJ6k5JZjLvzraS5r4ie7
 status: active
 merged_into: null
 display_name: 王麟熒
+cbdb_id: 341711
 revision: 1
 properties:
   - predicate: bio.summary

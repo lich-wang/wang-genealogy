@@ -4,6 +4,7 @@ id: p_TGtuJvATC2ahD1ndjj2c2D
 status: active
 merged_into: null
 display_name: 王雲飛
+cbdb_id: 526714
 revision: 1
 properties:
   - predicate: bio.summary

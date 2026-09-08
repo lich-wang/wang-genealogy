@@ -4,6 +4,7 @@ id: p_ZUr2GCobesJYT5BFF8aWW4
 status: active
 merged_into: null
 display_name: 王毓宗
+cbdb_id: 343740
 revision: 1
 properties:
   - predicate: bio.summary

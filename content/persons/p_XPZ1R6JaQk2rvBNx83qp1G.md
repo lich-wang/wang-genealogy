@@ -4,6 +4,7 @@ id: p_XPZ1R6JaQk2rvBNx83qp1G
 status: active
 merged_into: null
 display_name: 王笈流
+cbdb_id: 227252
 revision: 1
 properties:
   - predicate: bio.summary

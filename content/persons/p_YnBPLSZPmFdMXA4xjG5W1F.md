@@ -4,6 +4,7 @@ id: p_YnBPLSZPmFdMXA4xjG5W1F
 status: active
 merged_into: null
 display_name: 王遺直
+cbdb_id: 101443
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_7QCsqm2voLxAgvsAHW7iuF
 status: active
 merged_into: null
 display_name: 王錫三
+cbdb_id: 72114
 revision: 1
 properties:
   - predicate: bio.summary

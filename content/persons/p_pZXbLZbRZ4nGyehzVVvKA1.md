@@ -4,6 +4,7 @@ id: p_pZXbLZbRZ4nGyehzVVvKA1
 status: active
 merged_into: null
 display_name: 王仲嘉
+cbdb_id: 101147
 revision: 1
 properties:
   - predicate: bio.summary

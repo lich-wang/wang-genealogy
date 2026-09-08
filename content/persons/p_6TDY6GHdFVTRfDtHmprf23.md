@@ -4,6 +4,7 @@ id: p_6TDY6GHdFVTRfDtHmprf23
 status: active
 merged_into: null
 display_name: 王允修
+cbdb_id: 342251
 revision: 1
 properties:
   - predicate: bio.summary

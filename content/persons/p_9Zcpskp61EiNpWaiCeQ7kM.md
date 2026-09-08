@@ -4,6 +4,7 @@ id: p_9Zcpskp61EiNpWaiCeQ7kM
 status: active
 merged_into: null
 display_name: 王調元
+cbdb_id: 71981
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_5CFHv5X2NNSSPkLguScrJm
 status: active
 merged_into: null
 display_name: 王安德
+cbdb_id: 101175
 revision: 1
 properties:
   - predicate: bio.summary

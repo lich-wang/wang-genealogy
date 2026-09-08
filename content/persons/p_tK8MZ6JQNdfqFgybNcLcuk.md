@@ -4,6 +4,7 @@ id: p_tK8MZ6JQNdfqFgybNcLcuk
 status: active
 merged_into: null
 display_name: 王誨說
+cbdb_id: 45908
 revision: 1
 properties:
   - predicate: bio.summary

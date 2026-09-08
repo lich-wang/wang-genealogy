@@ -4,6 +4,7 @@ id: p_YyXQ2rQCeviyY6wmd7sPRB
 status: active
 merged_into: null
 display_name: 王甘霖
+cbdb_id: 343197
 revision: 1
 properties:
   - predicate: bio.summary

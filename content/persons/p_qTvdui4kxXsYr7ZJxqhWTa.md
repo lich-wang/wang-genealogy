@@ -4,6 +4,7 @@ id: p_qTvdui4kxXsYr7ZJxqhWTa
 status: active
 merged_into: null
 display_name: 王餘晉
+cbdb_id: 343866
 revision: 1
 properties:
   - predicate: bio.summary

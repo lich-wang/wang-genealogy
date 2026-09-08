@@ -4,6 +4,7 @@ id: p_3hq4JS1QL8Hor6NZk8t5cG
 status: active
 merged_into: null
 display_name: 王令謙
+cbdb_id: 413821
 revision: 1
 properties:
   - predicate: bio.summary

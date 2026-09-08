@@ -4,6 +4,7 @@ id: p_BnqT97Hd2v2PTKqLmsYzS9
 status: active
 merged_into: null
 display_name: 王鼎爵
+cbdb_id: 124003
 revision: 1
 properties:
   - predicate: bio.summary

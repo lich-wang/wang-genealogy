@@ -4,6 +4,7 @@ id: p_CGkJtm8VupEuaCofySvwdX
 status: active
 merged_into: null
 display_name: 王緒延
+cbdb_id: 236275
 revision: 1
 properties:
   - predicate: bio.summary

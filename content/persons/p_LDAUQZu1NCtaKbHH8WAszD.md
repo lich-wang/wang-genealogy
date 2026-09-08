@@ -4,6 +4,7 @@ id: p_LDAUQZu1NCtaKbHH8WAszD
 status: active
 merged_into: null
 display_name: 王鳳翎
+cbdb_id: 415635
 revision: 1
 properties:
   - predicate: bio.summary

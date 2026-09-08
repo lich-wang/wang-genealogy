@@ -4,6 +4,7 @@ id: p_S8HLtFDDBHcXVtx11UNHQB
 status: active
 merged_into: null
 display_name: 王道質
+cbdb_id: 154278
 revision: 1
 properties:
   - predicate: bio.summary

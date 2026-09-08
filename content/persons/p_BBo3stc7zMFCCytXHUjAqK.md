@@ -4,6 +4,7 @@ id: p_BBo3stc7zMFCCytXHUjAqK
 status: active
 merged_into: null
 display_name: 王上選
+cbdb_id: 342157
 revision: 1
 properties:
   - predicate: bio.summary

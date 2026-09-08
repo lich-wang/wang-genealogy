@@ -4,6 +4,7 @@ id: p_7Djb9Ea4YKLog1hynHFzL1
 status: active
 merged_into: null
 display_name: 王賽玉
+cbdb_id: 123323
 revision: 1
 properties:
   - predicate: bio.summary

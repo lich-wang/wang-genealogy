@@ -4,6 +4,7 @@ id: p_2wg4ZyAiCBX1cTw8Sw1ETa
 status: active
 merged_into: null
 display_name: 王世恩
+cbdb_id: 71468
 revision: 1
 properties:
   - predicate: bio.summary

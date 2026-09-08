@@ -4,6 +4,7 @@ id: p_gxg1tvb69bMaBqryEU6H5f
 status: active
 merged_into: null
 display_name: 王澤龍
+cbdb_id: 415052
 revision: 1
 properties:
   - predicate: bio.summary

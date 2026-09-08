@@ -4,6 +4,7 @@ id: p_QPWcBhZvepu7gGFoTRUZnE
 status: active
 merged_into: null
 display_name: 王謙輔
+cbdb_id: 526738
 revision: 1
 properties:
   - predicate: bio.summary

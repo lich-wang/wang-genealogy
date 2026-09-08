@@ -4,6 +4,7 @@ id: p_ZRaahbKLRwVmrsXYLQD4nd
 status: active
 merged_into: null
 display_name: 王素行
+cbdb_id: 440781
 revision: 1
 properties:
   - predicate: bio.summary

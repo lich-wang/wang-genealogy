@@ -4,6 +4,7 @@ id: p_y73WZfD6EQswMhBPESL4F9
 status: active
 merged_into: null
 display_name: 王思勤
+cbdb_id: 101277
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_EmFM2pfhnEBEC9nGupFcuT
 status: active
 merged_into: null
 display_name: 王回仲
+cbdb_id: 524249
 revision: 1
 properties:
   - predicate: bio.summary

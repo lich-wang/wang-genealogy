@@ -4,6 +4,7 @@ id: p_ZcGKYjaN51mdbb2tYsRPW6
 status: active
 merged_into: null
 display_name: 王彥繼
+cbdb_id: 97885
 revision: 1
 properties:
   - predicate: bio.summary

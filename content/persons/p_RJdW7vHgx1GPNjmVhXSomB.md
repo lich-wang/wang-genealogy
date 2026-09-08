@@ -4,6 +4,7 @@ id: p_RJdW7vHgx1GPNjmVhXSomB
 status: active
 merged_into: null
 display_name: 王審淵
+cbdb_id: 526823
 revision: 1
 properties:
   - predicate: bio.summary

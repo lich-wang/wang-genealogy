@@ -4,6 +4,7 @@ id: p_GWtadWYBAYdaaLx4eSKn7t
 status: active
 merged_into: null
 display_name: 王九蘭
+cbdb_id: 413782
 revision: 1
 properties:
   - predicate: bio.summary

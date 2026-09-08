@@ -4,6 +4,7 @@ id: p_XN4SV32D7Hp5Ue7FeWdq1T
 status: active
 merged_into: null
 display_name: 王叔文
+cbdb_id: 33597
 revision: 1
 properties:
   - predicate: bio.summary

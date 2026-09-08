@@ -4,6 +4,7 @@ id: p_bxFyGgbM35m4XDqkFCoWH3
 status: active
 merged_into: null
 display_name: 王爾璽
+cbdb_id: 415090
 revision: 1
 properties:
   - predicate: bio.summary

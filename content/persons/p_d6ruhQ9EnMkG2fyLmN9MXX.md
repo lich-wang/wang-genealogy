@@ -4,6 +4,7 @@ id: p_d6ruhQ9EnMkG2fyLmN9MXX
 status: active
 merged_into: null
 display_name: 王馨穀
+cbdb_id: 343287
 revision: 1
 properties:
   - predicate: bio.summary

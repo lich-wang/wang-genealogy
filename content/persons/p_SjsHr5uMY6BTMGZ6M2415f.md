@@ -4,6 +4,7 @@ id: p_SjsHr5uMY6BTMGZ6M2415f
 status: active
 merged_into: null
 display_name: 王汝甯
+cbdb_id: 414973
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_XLQnjXPKwDsW1NBJZky1dr
 status: active
 merged_into: null
 display_name: 王平言
+cbdb_id: 119737
 revision: 1
 properties:
   - predicate: bio.summary

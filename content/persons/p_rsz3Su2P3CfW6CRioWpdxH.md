@@ -4,6 +4,7 @@ id: p_rsz3Su2P3CfW6CRioWpdxH
 status: active
 merged_into: null
 display_name: 王繼昺
+cbdb_id: 342236
 revision: 1
 properties:
   - predicate: bio.summary

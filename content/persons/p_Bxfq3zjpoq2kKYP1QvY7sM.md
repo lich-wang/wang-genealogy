@@ -4,6 +4,7 @@ id: p_Bxfq3zjpoq2kKYP1QvY7sM
 status: active
 merged_into: null
 display_name: 王世融
+cbdb_id: 3972
 revision: 2
 properties:
   - predicate: bio.summary

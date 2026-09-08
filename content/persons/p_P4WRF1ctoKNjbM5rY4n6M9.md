@@ -4,6 +4,7 @@ id: p_P4WRF1ctoKNjbM5rY4n6M9
 status: active
 merged_into: null
 display_name: 王之勳
+cbdb_id: 413739
 revision: 1
 properties:
   - predicate: bio.summary

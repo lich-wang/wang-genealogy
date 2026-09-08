@@ -4,6 +4,7 @@ id: p_K8Qnh5q942zNztACDCTAZC
 status: active
 merged_into: null
 display_name: 王昌涉
+cbdb_id: 445641
 revision: 1
 properties:
   - predicate: bio.summary

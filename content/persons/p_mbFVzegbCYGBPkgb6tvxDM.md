@@ -4,6 +4,7 @@ id: p_mbFVzegbCYGBPkgb6tvxDM
 status: active
 merged_into: null
 display_name: 王開雲
+cbdb_id: 71366
 revision: 1
 properties:
   - predicate: bio.summary

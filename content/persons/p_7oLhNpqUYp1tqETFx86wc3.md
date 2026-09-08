@@ -4,6 +4,7 @@ id: p_7oLhNpqUYp1tqETFx86wc3
 status: active
 merged_into: null
 display_name: 苏氏
+cbdb_id: 222407
 revision: 2
 properties:
   - predicate: bio.summary

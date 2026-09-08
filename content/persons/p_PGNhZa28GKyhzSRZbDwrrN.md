@@ -4,6 +4,7 @@ id: p_PGNhZa28GKyhzSRZbDwrrN
 status: active
 merged_into: null
 display_name: 王時良
+cbdb_id: 299508
 revision: 1
 properties:
   - predicate: bio.summary

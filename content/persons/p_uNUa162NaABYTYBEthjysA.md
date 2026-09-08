@@ -4,6 +4,7 @@ id: p_uNUa162NaABYTYBEthjysA
 status: active
 merged_into: null
 display_name: 王一通
+cbdb_id: 413680
 revision: 1
 properties:
   - predicate: bio.summary

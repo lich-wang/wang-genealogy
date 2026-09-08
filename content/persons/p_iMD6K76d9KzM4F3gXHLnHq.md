@@ -4,6 +4,7 @@ id: p_iMD6K76d9KzM4F3gXHLnHq
 status: active
 merged_into: null
 display_name: 王肇晉
+cbdb_id: 72173
 revision: 1
 properties:
   - predicate: bio.summary

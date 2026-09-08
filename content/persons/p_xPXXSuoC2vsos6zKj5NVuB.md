@@ -4,6 +4,7 @@ id: p_xPXXSuoC2vsos6zKj5NVuB
 status: active
 merged_into: null
 display_name: 王初桐
+cbdb_id: 100221
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_J8WXMG4xeiMoDK19KJbUdL
 status: active
 merged_into: null
 display_name: 王道燫
+cbdb_id: 223219
 revision: 1
 properties:
   - predicate: bio.summary

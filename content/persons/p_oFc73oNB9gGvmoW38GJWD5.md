@@ -4,6 +4,7 @@ id: p_oFc73oNB9gGvmoW38GJWD5
 status: active
 merged_into: null
 display_name: 王大命
+cbdb_id: 301957
 revision: 1
 properties:
   - predicate: bio.summary

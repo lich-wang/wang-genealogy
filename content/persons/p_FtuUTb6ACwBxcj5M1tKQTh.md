@@ -4,6 +4,7 @@ id: p_FtuUTb6ACwBxcj5M1tKQTh
 status: active
 merged_into: null
 display_name: 王義立
+cbdb_id: 158751
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_6UPWxADcsJayN2apHyxMd9
 status: active
 merged_into: null
 display_name: 王浩智
+cbdb_id: 415014
 revision: 1
 properties:
   - predicate: bio.summary

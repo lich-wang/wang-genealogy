@@ -4,6 +4,7 @@ id: p_fKtWdwRHcKRYSUnR9nmC5g
 status: active
 merged_into: null
 display_name: 王志密
+cbdb_id: 235159
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_jBgJYPosqvju9ZFDAynNhf
 status: active
 merged_into: null
 display_name: 王異公
+cbdb_id: 511626
 revision: 1
 properties:
   - predicate: bio.summary

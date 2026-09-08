@@ -4,6 +4,7 @@ id: p_gF3Y1aXcMAh7SnfvFVcECZ
 status: active
 merged_into: null
 display_name: 王揚濱
+cbdb_id: 343387
 revision: 1
 properties:
   - predicate: bio.summary

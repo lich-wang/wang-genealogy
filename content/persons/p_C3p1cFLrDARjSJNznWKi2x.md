@@ -4,6 +4,7 @@ id: p_C3p1cFLrDARjSJNznWKi2x
 status: active
 merged_into: null
 display_name: 王國實
+cbdb_id: 191566
 revision: 1
 properties:
   - predicate: bio.summary

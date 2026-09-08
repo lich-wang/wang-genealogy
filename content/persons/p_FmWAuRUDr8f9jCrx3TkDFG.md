@@ -4,6 +4,7 @@ id: p_FmWAuRUDr8f9jCrx3TkDFG
 status: active
 merged_into: null
 display_name: 王用龍
+cbdb_id: 38504
 revision: 1
 properties:
   - predicate: bio.summary

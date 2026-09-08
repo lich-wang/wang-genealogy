@@ -4,6 +4,7 @@ id: p_Jn24ddEtGRkRhXC97HT9p8
 status: active
 merged_into: null
 display_name: 王盡孝
+cbdb_id: 415164
 revision: 1
 properties:
   - predicate: bio.summary

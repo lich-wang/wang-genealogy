@@ -4,6 +4,7 @@ id: p_fHsJhWWJ5zGeFNNXCA8YLU
 status: active
 merged_into: null
 display_name: 王仲淮
+cbdb_id: 117576
 revision: 1
 properties:
   - predicate: bio.summary

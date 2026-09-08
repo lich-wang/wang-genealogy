@@ -4,6 +4,7 @@ id: p_CQfx9Ba3WNyA32G4VxP7dC
 status: active
 merged_into: null
 display_name: 王速復
+cbdb_id: 300364
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_iu1jFRrXCA8214YaBQfsUS
 status: active
 merged_into: null
 display_name: 王茂时
+cbdb_id: 33016
 revision: 1
 properties:
   - predicate: name.primary

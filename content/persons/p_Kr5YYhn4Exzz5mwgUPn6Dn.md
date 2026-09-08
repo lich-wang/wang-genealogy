@@ -4,6 +4,7 @@ id: p_Kr5YYhn4Exzz5mwgUPn6Dn
 status: active
 merged_into: null
 display_name: 王榮武
+cbdb_id: 414890
 revision: 1
 properties:
   - predicate: bio.summary

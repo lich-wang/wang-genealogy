@@ -4,6 +4,7 @@ id: p_M3JQHLddCwRkUxu5tYGpDN
 status: active
 merged_into: null
 display_name: 王端章
+cbdb_id: 376239
 revision: 1
 properties:
   - predicate: bio.summary

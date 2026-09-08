@@ -4,6 +4,7 @@ id: p_x7QruPVxDBQ1h15ruFBESm
 status: active
 merged_into: null
 display_name: 王榮之
+cbdb_id: 71853
 revision: 1
 properties:
   - predicate: bio.summary

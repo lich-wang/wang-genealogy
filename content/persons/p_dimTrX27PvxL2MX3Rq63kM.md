@@ -4,6 +4,7 @@ id: p_dimTrX27PvxL2MX3Rq63kM
 status: active
 merged_into: null
 display_name: 王龍從
+cbdb_id: 20094
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_2T4g1tF53okicbuNcE5nR6
 status: active
 merged_into: null
 display_name: 王炳勳
+cbdb_id: 343900
 revision: 1
 properties:
   - predicate: bio.summary

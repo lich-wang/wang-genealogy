@@ -4,6 +4,7 @@ id: p_Z58w2P9xhUTHtutpPf7Gif
 status: active
 merged_into: null
 display_name: 王淑增
+cbdb_id: 100198
 revision: 1
 properties:
   - predicate: bio.summary

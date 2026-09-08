@@ -4,6 +4,7 @@ id: p_qWSyYMR4UnPC4UPmH16CkD
 status: active
 merged_into: null
 display_name: 王朝琳
+cbdb_id: 414846
 revision: 1
 properties:
   - predicate: bio.summary

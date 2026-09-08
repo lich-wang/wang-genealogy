@@ -4,6 +4,7 @@ id: p_HptMLAHHNTiRkt9PHs5tuR
 status: active
 merged_into: null
 display_name: 王叔泰
+cbdb_id: 193854
 revision: 2
 properties:
   - predicate: bio.summary

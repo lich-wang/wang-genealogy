@@ -4,6 +4,7 @@ id: p_LcDFK2jg5Pshjk7BATBHA9
 status: active
 merged_into: null
 display_name: 王仲端
+cbdb_id: 3944
 revision: 1
 properties:
   - predicate: bio.summary

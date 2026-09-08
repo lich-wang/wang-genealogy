@@ -4,6 +4,7 @@ id: p_N3ZuFejVAoch5nMUoopCR9
 status: active
 merged_into: null
 display_name: 王漢傑
+cbdb_id: 342710
 revision: 1
 properties:
   - predicate: bio.summary

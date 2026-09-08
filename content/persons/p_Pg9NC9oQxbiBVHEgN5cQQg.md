@@ -4,6 +4,7 @@ id: p_Pg9NC9oQxbiBVHEgN5cQQg
 status: active
 merged_into: null
 display_name: 王宣宸
+cbdb_id: 326824
 revision: 1
 properties:
   - predicate: bio.summary

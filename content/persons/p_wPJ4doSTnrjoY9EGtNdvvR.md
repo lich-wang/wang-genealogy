@@ -4,6 +4,7 @@ id: p_wPJ4doSTnrjoY9EGtNdvvR
 status: active
 merged_into: null
 display_name: 王崑山
+cbdb_id: 517445
 revision: 1
 properties:
   - predicate: bio.summary

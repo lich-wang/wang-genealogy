@@ -4,6 +4,7 @@ id: p_GVeuimQoKKYAhuWAyyDaVs
 status: active
 merged_into: null
 display_name: 王居信
+cbdb_id: 101243
 revision: 1
 properties:
   - predicate: bio.summary

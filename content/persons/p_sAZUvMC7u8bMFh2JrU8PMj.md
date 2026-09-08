@@ -4,6 +4,7 @@ id: p_sAZUvMC7u8bMFh2JrU8PMj
 status: active
 merged_into: null
 display_name: 王良心
+cbdb_id: 205923
 revision: 1
 properties:
   - predicate: bio.summary

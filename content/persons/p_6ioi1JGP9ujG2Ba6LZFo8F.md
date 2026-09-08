@@ -4,6 +4,7 @@ id: p_6ioi1JGP9ujG2Ba6LZFo8F
 status: active
 merged_into: null
 display_name: 王呂廬
+cbdb_id: 121085
 revision: 1
 properties:
   - predicate: bio.summary

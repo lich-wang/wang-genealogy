@@ -4,6 +4,7 @@ id: p_cvP1gJz184hGC1Ducr4dLY
 status: active
 merged_into: null
 display_name: 王子文
+cbdb_id: 308146
 revision: 1
 properties:
   - predicate: name.primary

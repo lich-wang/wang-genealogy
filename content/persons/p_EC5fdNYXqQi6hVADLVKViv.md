@@ -4,6 +4,7 @@ id: p_EC5fdNYXqQi6hVADLVKViv
 status: active
 merged_into: null
 display_name: 王業隆
+cbdb_id: 414884
 revision: 1
 properties:
   - predicate: bio.summary

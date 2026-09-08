@@ -4,6 +4,7 @@ id: p_BrY3vRFyhaL9Eciz6cKGtA
 status: active
 merged_into: null
 display_name: 王九徵
+cbdb_id: 526838
 revision: 1
 properties:
   - predicate: bio.summary

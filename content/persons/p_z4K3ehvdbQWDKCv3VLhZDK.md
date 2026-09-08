@@ -4,6 +4,7 @@ id: p_z4K3ehvdbQWDKCv3VLhZDK
 status: active
 merged_into: null
 display_name: 王可學
+cbdb_id: 201954
 revision: 1
 properties:
   - predicate: bio.summary

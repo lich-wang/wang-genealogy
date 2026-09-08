@@ -4,6 +4,7 @@ id: p_M6bmPyZ1Q1V2tN4jxPLfm7
 status: active
 merged_into: null
 display_name: 王紹武
+cbdb_id: 513490
 revision: 1
 properties:
   - predicate: bio.summary

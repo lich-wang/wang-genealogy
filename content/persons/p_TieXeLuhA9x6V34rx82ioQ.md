@@ -4,6 +4,7 @@ id: p_TieXeLuhA9x6V34rx82ioQ
 status: active
 merged_into: null
 display_name: 王景瀛
+cbdb_id: 414804
 revision: 1
 properties:
   - predicate: bio.summary

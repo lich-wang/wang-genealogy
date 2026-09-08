@@ -4,6 +4,7 @@ id: p_nG9bos18tuhRBDQJmt4mt2
 status: active
 merged_into: null
 display_name: 王元宰
+cbdb_id: 413902
 revision: 1
 properties:
   - predicate: bio.summary

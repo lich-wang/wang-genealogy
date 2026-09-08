@@ -4,6 +4,7 @@ id: p_CB5sZsdA8nvcULyQC2dvjd
 status: active
 merged_into: null
 display_name: 王同軌
+cbdb_id: 126517
 revision: 1
 properties:
   - predicate: bio.summary

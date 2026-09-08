@@ -4,6 +4,7 @@ id: p_RHmK5LM1ALcSH6QkVvLA38
 status: active
 merged_into: null
 display_name: 王士鵠
+cbdb_id: 35064
 revision: 1
 properties:
   - predicate: bio.summary

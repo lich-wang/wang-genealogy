@@ -4,6 +4,7 @@ id: p_76rg22GKYQYHr1zeA82FbJ
 status: active
 merged_into: null
 display_name: 王鼎彝
+cbdb_id: 342201
 revision: 1
 properties:
   - predicate: bio.summary

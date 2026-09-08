@@ -4,6 +4,7 @@ id: p_aJ5J2cPFB2J5wBLDS27uNZ
 status: active
 merged_into: null
 display_name: 王煩
+cbdb_id: 306647
 revision: 1
 properties:
   - predicate: bio.summary

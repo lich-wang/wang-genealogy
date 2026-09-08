@@ -4,6 +4,7 @@ id: p_Ph6H5UfByMXzu6xf7SwcFP
 status: active
 merged_into: null
 display_name: 王攬
+cbdb_id: 414712
 revision: 1
 properties:
   - predicate: bio.summary

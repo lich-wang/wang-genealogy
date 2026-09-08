@@ -4,6 +4,7 @@ id: p_FgR9VvAXpxLb9taXRJM7DE
 status: active
 merged_into: null
 display_name: 王隆
+cbdb_id: 30883
 revision: 1
 properties:
   - predicate: bio.summary

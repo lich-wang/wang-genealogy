@@ -4,6 +4,7 @@ id: p_TgmnnroV6Hn9SxmDKcy24F
 status: active
 merged_into: null
 display_name: 王德溢
+cbdb_id: 342313
 revision: 1
 properties:
   - predicate: bio.summary

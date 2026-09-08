@@ -4,6 +4,7 @@ id: p_Eh3kPKaSjnmi4kvdvTFveB
 status: active
 merged_into: null
 display_name: 王再聘
+cbdb_id: 206273
 revision: 1
 properties:
   - predicate: bio.summary

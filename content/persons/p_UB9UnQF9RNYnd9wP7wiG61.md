@@ -4,6 +4,7 @@ id: p_UB9UnQF9RNYnd9wP7wiG61
 status: active
 merged_into: null
 display_name: 王崇素
+cbdb_id: 266146
 revision: 1
 properties:
   - predicate: bio.summary

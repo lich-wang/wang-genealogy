@@ -4,6 +4,7 @@ id: p_C3r5RABg5FdWA7ur57n2j2
 status: active
 merged_into: null
 display_name: 王天和
+cbdb_id: 473214
 revision: 1
 properties:
   - predicate: bio.summary

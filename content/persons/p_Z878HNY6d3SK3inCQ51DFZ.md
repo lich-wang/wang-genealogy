@@ -4,6 +4,7 @@ id: p_Z878HNY6d3SK3inCQ51DFZ
 status: active
 merged_into: null
 display_name: 王存視
+cbdb_id: 71533
 revision: 1
 properties:
   - predicate: bio.summary

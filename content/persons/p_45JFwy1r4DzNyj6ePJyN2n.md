@@ -4,6 +4,7 @@ id: p_45JFwy1r4DzNyj6ePJyN2n
 status: active
 merged_into: null
 display_name: 王彭會
+cbdb_id: 343056
 revision: 1
 properties:
   - predicate: bio.summary

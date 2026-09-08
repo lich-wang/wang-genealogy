@@ -4,6 +4,7 @@ id: p_33cmq4u7DNW9QidGhiaNeK
 status: active
 merged_into: null
 display_name: 王慈質
+cbdb_id: 148235
 revision: 1
 properties:
   - predicate: bio.summary

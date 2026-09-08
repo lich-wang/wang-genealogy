@@ -4,6 +4,7 @@ id: p_JHYkG4D5bDS11ywRtQogJy
 status: active
 merged_into: null
 display_name: 王進宗
+cbdb_id: 221818
 revision: 1
 properties:
   - predicate: bio.summary

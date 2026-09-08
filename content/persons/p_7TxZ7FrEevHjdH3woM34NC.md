@@ -4,6 +4,7 @@ id: p_7TxZ7FrEevHjdH3woM34NC
 status: active
 merged_into: null
 display_name: 王魚
+cbdb_id: 415628
 revision: 1
 properties:
   - predicate: bio.summary

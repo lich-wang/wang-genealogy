@@ -4,6 +4,7 @@ id: p_ywCtuCsPMAT7YZG9XFD31C
 status: active
 merged_into: null
 display_name: 王五鼎
+cbdb_id: 413794
 revision: 1
 properties:
   - predicate: bio.summary

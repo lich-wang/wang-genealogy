@@ -4,6 +4,7 @@ id: p_RJcAp3N5Ep4AoiM8JQvChT
 status: active
 merged_into: null
 display_name: 王秉儉
+cbdb_id: 272760
 revision: 1
 properties:
   - predicate: bio.summary

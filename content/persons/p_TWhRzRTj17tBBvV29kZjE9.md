@@ -4,6 +4,7 @@ id: p_TWhRzRTj17tBBvV29kZjE9
 status: active
 merged_into: null
 display_name: 王宇寬
+cbdb_id: 331064
 revision: 1
 properties:
   - predicate: bio.summary

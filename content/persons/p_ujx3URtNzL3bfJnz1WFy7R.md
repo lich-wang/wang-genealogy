@@ -4,6 +4,7 @@ id: p_ujx3URtNzL3bfJnz1WFy7R
 status: active
 merged_into: null
 display_name: 王世下
+cbdb_id: 413700
 revision: 1
 properties:
   - predicate: bio.summary

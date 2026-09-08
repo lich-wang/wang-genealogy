@@ -4,6 +4,7 @@ id: p_C9ZhQHFbKm8NVsiMdFE7iv
 status: active
 merged_into: null
 display_name: 王蛟
+cbdb_id: 415385
 revision: 1
 properties:
   - predicate: bio.summary

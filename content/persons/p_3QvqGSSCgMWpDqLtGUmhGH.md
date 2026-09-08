@@ -4,6 +4,7 @@ id: p_3QvqGSSCgMWpDqLtGUmhGH
 status: active
 merged_into: null
 display_name: 王宗巳
+cbdb_id: 22935
 revision: 1
 properties:
   - predicate: bio.summary

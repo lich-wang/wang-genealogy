@@ -4,6 +4,7 @@ id: p_LoPnz34XhBVwFF38rXs3DF
 status: active
 merged_into: null
 display_name: 王惟懋
+cbdb_id: 308704
 revision: 1
 properties:
   - predicate: bio.summary

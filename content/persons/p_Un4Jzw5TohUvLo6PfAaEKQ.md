@@ -4,6 +4,7 @@ id: p_Un4Jzw5TohUvLo6PfAaEKQ
 status: active
 merged_into: null
 display_name: 王基洪
+cbdb_id: 343082
 revision: 1
 properties:
   - predicate: bio.summary

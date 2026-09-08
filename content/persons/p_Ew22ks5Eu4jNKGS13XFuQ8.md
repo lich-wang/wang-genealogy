@@ -4,6 +4,7 @@ id: p_Ew22ks5Eu4jNKGS13XFuQ8
 status: active
 merged_into: null
 display_name: 王希范
+cbdb_id: 175511
 revision: 1
 properties:
   - predicate: bio.summary

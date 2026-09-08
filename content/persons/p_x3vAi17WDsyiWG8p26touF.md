@@ -4,6 +4,7 @@ id: p_x3vAi17WDsyiWG8p26touF
 status: active
 merged_into: null
 display_name: 王受益
+cbdb_id: 101230
 revision: 1
 properties:
   - predicate: bio.summary

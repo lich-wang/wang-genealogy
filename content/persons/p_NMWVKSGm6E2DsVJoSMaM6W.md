@@ -4,6 +4,7 @@ id: p_NMWVKSGm6E2DsVJoSMaM6W
 status: active
 merged_into: null
 display_name: 王汝平
+cbdb_id: 16687
 revision: 1
 properties:
   - predicate: bio.summary

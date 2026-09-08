@@ -4,6 +4,7 @@ id: p_ZDhJrFTTNwPzjHRmEJcH8V
 status: active
 merged_into: null
 display_name: 王會通
+cbdb_id: 329996
 revision: 1
 properties:
   - predicate: bio.summary

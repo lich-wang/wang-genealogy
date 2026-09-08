@@ -4,6 +4,7 @@ id: p_Kp1M42e291kM87kxonoww8
 status: active
 merged_into: null
 display_name: 王昌業
+cbdb_id: 71757
 revision: 1
 properties:
   - predicate: bio.summary

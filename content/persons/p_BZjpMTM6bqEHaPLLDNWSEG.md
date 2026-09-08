@@ -4,6 +4,7 @@ id: p_BZjpMTM6bqEHaPLLDNWSEG
 status: active
 merged_into: null
 display_name: 王儒林
+cbdb_id: 333540
 revision: 1
 properties:
   - predicate: bio.summary

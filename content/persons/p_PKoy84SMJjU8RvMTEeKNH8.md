@@ -4,6 +4,7 @@ id: p_PKoy84SMJjU8RvMTEeKNH8
 status: active
 merged_into: null
 display_name: 王必寧
+cbdb_id: 342686
 revision: 1
 properties:
   - predicate: bio.summary

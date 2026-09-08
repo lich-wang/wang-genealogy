@@ -4,6 +4,7 @@ id: p_nAcvuR3XXjLqTH4m91wGfV
 status: active
 merged_into: null
 display_name: 王宜之
+cbdb_id: 36517
 revision: 1
 properties:
   - predicate: bio.summary

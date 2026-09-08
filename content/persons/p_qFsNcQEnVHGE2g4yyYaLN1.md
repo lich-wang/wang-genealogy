@@ -4,6 +4,7 @@ id: p_qFsNcQEnVHGE2g4yyYaLN1
 status: active
 merged_into: null
 display_name: 王胤祜
+cbdb_id: 211339
 revision: 1
 properties:
   - predicate: bio.summary

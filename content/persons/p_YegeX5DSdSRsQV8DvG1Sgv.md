@@ -4,6 +4,7 @@ id: p_YegeX5DSdSRsQV8DvG1Sgv
 status: active
 merged_into: null
 display_name: 王偌
+cbdb_id: 30520
 revision: 1
 properties:
   - predicate: bio.summary

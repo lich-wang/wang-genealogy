@@ -4,6 +4,7 @@ id: p_9jcAeWsLJyBxJk7tgcLm3Q
 status: active
 merged_into: null
 display_name: 王宣辰
+cbdb_id: 71917
 revision: 1
 properties:
   - predicate: bio.summary

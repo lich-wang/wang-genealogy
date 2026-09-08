@@ -4,6 +4,7 @@ id: p_zkDYwd29LScc5MrymJwHNf
 status: active
 merged_into: null
 display_name: 王箴翼
+cbdb_id: 35056
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_9t9xEsSkQNveNEN37UF5T9
 status: active
 merged_into: null
 display_name: 王日杏
+cbdb_id: 69078
 revision: 1
 properties:
   - predicate: bio.summary

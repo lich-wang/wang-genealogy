@@ -4,6 +4,7 @@ id: p_8hEQSDpQiMuP5E1chdzVWG
 status: active
 merged_into: null
 display_name: 王簪流
+cbdb_id: 227251
 revision: 1
 properties:
   - predicate: bio.summary

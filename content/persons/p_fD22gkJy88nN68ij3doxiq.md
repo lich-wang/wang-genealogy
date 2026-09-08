@@ -4,6 +4,7 @@ id: p_fD22gkJy88nN68ij3doxiq
 status: active
 merged_into: null
 display_name: 王鉛
+cbdb_id: 39048
 revision: 1
 properties:
   - predicate: bio.summary

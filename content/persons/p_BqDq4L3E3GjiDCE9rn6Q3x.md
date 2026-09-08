@@ -4,6 +4,7 @@ id: p_BqDq4L3E3GjiDCE9rn6Q3x
 status: active
 merged_into: null
 display_name: 王仲彬
+cbdb_id: 237764
 revision: 1
 properties:
   - predicate: bio.summary

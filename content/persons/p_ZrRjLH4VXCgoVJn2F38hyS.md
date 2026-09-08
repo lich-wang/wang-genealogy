@@ -4,6 +4,7 @@ id: p_ZrRjLH4VXCgoVJn2F38hyS
 status: active
 merged_into: null
 display_name: 王恩甲
+cbdb_id: 414605
 revision: 1
 properties:
   - predicate: bio.summary

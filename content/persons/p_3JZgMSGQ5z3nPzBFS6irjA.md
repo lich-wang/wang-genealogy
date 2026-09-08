@@ -4,6 +4,7 @@ id: p_3JZgMSGQ5z3nPzBFS6irjA
 status: active
 merged_into: null
 display_name: 王琬
+cbdb_id: 34581
 revision: 2
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_r9qyhdN8LJVyrTK8Knmhs3
 status: active
 merged_into: null
 display_name: 王仰觀
+cbdb_id: 248135
 revision: 1
 properties:
   - predicate: bio.summary

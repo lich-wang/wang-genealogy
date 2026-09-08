@@ -4,6 +4,7 @@ id: p_8Gyo5Ug5GpSLQHhziXTjRW
 status: active
 merged_into: null
 display_name: 王師孝
+cbdb_id: 495630
 revision: 1
 properties:
   - predicate: bio.summary

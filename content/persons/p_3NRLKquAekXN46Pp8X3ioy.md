@@ -4,6 +4,7 @@ id: p_3NRLKquAekXN46Pp8X3ioy
 status: active
 merged_into: null
 display_name: 王覺玉
+cbdb_id: 237864
 revision: 1
 properties:
   - predicate: bio.summary

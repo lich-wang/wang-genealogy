@@ -4,6 +4,7 @@ id: p_xJf4hheW88yz2QYGycFsip
 status: active
 merged_into: null
 display_name: 王學可
+cbdb_id: 22257
 revision: 1
 properties:
   - predicate: bio.summary

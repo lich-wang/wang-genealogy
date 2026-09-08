@@ -4,6 +4,7 @@ id: p_PLwQbKfLnyAn5BB4Z94axi
 status: active
 merged_into: null
 display_name: 王延臺
+cbdb_id: 139204
 revision: 1
 properties:
   - predicate: bio.summary

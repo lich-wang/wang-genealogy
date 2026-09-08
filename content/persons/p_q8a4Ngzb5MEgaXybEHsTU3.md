@@ -4,6 +4,7 @@ id: p_q8a4Ngzb5MEgaXybEHsTU3
 status: active
 merged_into: null
 display_name: 王之變
+cbdb_id: 413769
 revision: 1
 properties:
   - predicate: bio.summary

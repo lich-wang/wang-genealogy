@@ -4,6 +4,7 @@ id: p_o9X4e64D4iKX33c4myBcBe
 status: active
 merged_into: null
 display_name: 王繼禮
+cbdb_id: 202226
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_pkGx6M29iSBcCWS4PfHNkN
 status: active
 merged_into: null
 display_name: 王英臣
+cbdb_id: 25609
 revision: 1
 properties:
   - predicate: bio.summary

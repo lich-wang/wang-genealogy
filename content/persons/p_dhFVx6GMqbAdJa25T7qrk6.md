@@ -4,6 +4,7 @@ id: p_dhFVx6GMqbAdJa25T7qrk6
 status: active
 merged_into: null
 display_name: 齐氏
+cbdb_id: 5399
 revision: 1
 properties:
   - predicate: bio.summary

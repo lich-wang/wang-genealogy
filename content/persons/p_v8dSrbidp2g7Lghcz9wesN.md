@@ -4,6 +4,7 @@ id: p_v8dSrbidp2g7Lghcz9wesN
 status: active
 merged_into: null
 display_name: 王胡仁
+cbdb_id: 163698
 revision: 1
 properties:
   - predicate: bio.summary

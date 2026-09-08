@@ -4,6 +4,7 @@ id: p_ACDvUdDooSZF414kWMC8J1
 status: active
 merged_into: null
 display_name: 王錫珩
+cbdb_id: 415547
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_rv71sPAYSSZzx61F472aB3
 status: active
 merged_into: null
 display_name: 王省山
+cbdb_id: 71866
 revision: 1
 properties:
   - predicate: bio.summary

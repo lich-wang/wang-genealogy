@@ -4,6 +4,7 @@ id: p_y5yAfDJ7txKBsyu98tdwqZ
 status: active
 merged_into: null
 display_name: 王運洪
+cbdb_id: 61038
 revision: 1
 properties:
   - predicate: bio.summary

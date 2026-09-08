@@ -4,6 +4,7 @@ id: p_XS4TqGS9r7kcsge8zvEibD
 status: active
 merged_into: null
 display_name: 王在復
+cbdb_id: 126511
 revision: 1
 properties:
   - predicate: bio.summary

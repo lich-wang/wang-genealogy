@@ -4,6 +4,7 @@ id: p_6c9kQQkcDHxUm2D9LsHmUB
 status: active
 merged_into: null
 display_name: 王勝四
+cbdb_id: 525767
 revision: 1
 properties:
   - predicate: bio.summary

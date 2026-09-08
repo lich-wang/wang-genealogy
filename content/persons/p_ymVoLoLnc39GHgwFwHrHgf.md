@@ -4,6 +4,7 @@ id: p_ymVoLoLnc39GHgwFwHrHgf
 status: active
 merged_into: null
 display_name: 王虔徽
+cbdb_id: 160569
 revision: 1
 properties:
   - predicate: bio.summary

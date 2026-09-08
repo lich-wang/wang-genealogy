@@ -4,6 +4,7 @@ id: p_38q7CdV8jAgrWaGkWNWvpG
 status: active
 merged_into: null
 display_name: 王相為
+cbdb_id: 68585
 revision: 1
 properties:
   - predicate: bio.summary

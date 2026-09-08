@@ -4,6 +4,7 @@ id: p_MKEeuk1mgm8RUyauFjj5KM
 status: active
 merged_into: null
 display_name: 王禹臣
+cbdb_id: 22176
 revision: 1
 properties:
   - predicate: bio.summary

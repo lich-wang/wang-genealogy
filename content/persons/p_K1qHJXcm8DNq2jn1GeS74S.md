@@ -4,6 +4,7 @@ id: p_K1qHJXcm8DNq2jn1GeS74S
 status: active
 merged_into: null
 display_name: 王元漢
+cbdb_id: 413908
 revision: 1
 properties:
   - predicate: bio.summary

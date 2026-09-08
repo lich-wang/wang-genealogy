@@ -4,6 +4,7 @@ id: p_RTC13nbomSHaV44XbxQAm1
 status: active
 merged_into: null
 display_name: 王萃二
+cbdb_id: 71986
 revision: 1
 properties:
   - predicate: bio.summary

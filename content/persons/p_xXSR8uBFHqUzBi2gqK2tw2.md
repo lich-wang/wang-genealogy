@@ -4,6 +4,7 @@ id: p_xXSR8uBFHqUzBi2gqK2tw2
 status: active
 merged_into: null
 display_name: 王惟恕
+cbdb_id: 203695
 revision: 1
 properties:
   - predicate: bio.summary

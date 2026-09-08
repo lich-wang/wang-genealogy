@@ -4,6 +4,7 @@ id: p_86wTZFBZPTN3Z1XQarsVFQ
 status: active
 merged_into: null
 display_name: 王同康
+cbdb_id: 228276
 revision: 1
 properties:
   - predicate: bio.summary

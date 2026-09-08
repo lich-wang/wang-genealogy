@@ -4,6 +4,7 @@ id: p_q35fqV3H3AYEG2ZudPtiBB
 status: active
 merged_into: null
 display_name: 王廷松
+cbdb_id: 414464
 revision: 1
 properties:
   - predicate: bio.summary

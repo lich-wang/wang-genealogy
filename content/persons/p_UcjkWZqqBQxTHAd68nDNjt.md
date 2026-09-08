@@ -4,6 +4,7 @@ id: p_UcjkWZqqBQxTHAd68nDNjt
 status: active
 merged_into: null
 display_name: 王景象
+cbdb_id: 203284
 revision: 1
 properties:
   - predicate: bio.summary

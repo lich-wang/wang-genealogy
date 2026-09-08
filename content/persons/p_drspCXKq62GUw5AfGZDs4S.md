@@ -4,6 +4,7 @@ id: p_drspCXKq62GUw5AfGZDs4S
 status: active
 merged_into: null
 display_name: 王其輝
+cbdb_id: 413974
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_LZJ69Yd2HfkRZ452KR3Nu4
 status: active
 merged_into: null
 display_name: 王大樹
+cbdb_id: 342910
 revision: 1
 properties:
   - predicate: bio.summary

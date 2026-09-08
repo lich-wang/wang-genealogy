@@ -4,6 +4,7 @@ id: p_ZCfGVDKighqeDmYkscbvFX
 status: active
 merged_into: null
 display_name: 王汝中
+cbdb_id: 525981
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_1rtBHEYm2EzgpKQnXK3g7u
 status: active
 merged_into: null
 display_name: 王盡制
+cbdb_id: 415163
 revision: 1
 properties:
   - predicate: bio.summary

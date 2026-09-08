@@ -4,6 +4,7 @@ id: p_3DJpARXoEdUFjzt6r4Pn6o
 status: active
 merged_into: null
 display_name: 王芶龍
+cbdb_id: 1839
 revision: 1
 properties:
   - predicate: bio.summary

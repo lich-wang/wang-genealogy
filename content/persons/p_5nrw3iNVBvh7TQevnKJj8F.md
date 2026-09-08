@@ -4,6 +4,7 @@ id: p_5nrw3iNVBvh7TQevnKJj8F
 status: active
 merged_into: null
 display_name: 王廷美
+cbdb_id: 279498
 revision: 1
 properties:
   - predicate: bio.summary

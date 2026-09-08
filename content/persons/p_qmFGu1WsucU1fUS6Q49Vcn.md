@@ -4,6 +4,7 @@ id: p_qmFGu1WsucU1fUS6Q49Vcn
 status: active
 merged_into: null
 display_name: 王彥恢
+cbdb_id: 97883
 revision: 1
 properties:
   - predicate: bio.summary

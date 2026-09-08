@@ -4,6 +4,7 @@ id: p_dSWfj8qqFQt3kwrxcMEAmX
 status: active
 merged_into: null
 display_name: 王士琇
+cbdb_id: 414171
 revision: 1
 properties:
   - predicate: bio.summary

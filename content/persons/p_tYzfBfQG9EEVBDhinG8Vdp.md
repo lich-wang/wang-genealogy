@@ -4,6 +4,7 @@ id: p_tYzfBfQG9EEVBDhinG8Vdp
 status: active
 merged_into: null
 display_name: 王伯海
+cbdb_id: 274048
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_X1HNFvM3BHppHWpk8ZM7Y3
 status: active
 merged_into: null
 display_name: 王弘耀
+cbdb_id: 241178
 revision: 1
 properties:
   - predicate: bio.summary

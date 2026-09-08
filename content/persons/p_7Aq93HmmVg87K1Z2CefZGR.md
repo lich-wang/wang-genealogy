@@ -4,6 +4,7 @@ id: p_7Aq93HmmVg87K1Z2CefZGR
 status: active
 merged_into: null
 display_name: 王宏化
+cbdb_id: 414293
 revision: 1
 properties:
   - predicate: bio.summary

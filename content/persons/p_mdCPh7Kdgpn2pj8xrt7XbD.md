@@ -4,6 +4,7 @@ id: p_mdCPh7Kdgpn2pj8xrt7XbD
 status: active
 merged_into: null
 display_name: 王荊
+cbdb_id: 523840
 revision: 1
 properties:
   - predicate: bio.summary

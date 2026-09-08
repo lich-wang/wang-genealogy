@@ -4,6 +4,7 @@ id: p_awEWD4PFE8u2EVxcU51iT5
 status: active
 merged_into: null
 display_name: 王源
+cbdb_id: 175385
 revision: 1
 properties:
   - predicate: bio.summary

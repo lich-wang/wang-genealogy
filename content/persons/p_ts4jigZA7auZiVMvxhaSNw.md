@@ -4,6 +4,7 @@ id: p_ts4jigZA7auZiVMvxhaSNw
 status: active
 merged_into: null
 display_name: 王來興
+cbdb_id: 413871
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_hmTpA85PrqjnHjTecd3hGY
 status: active
 merged_into: null
 display_name: 王牧謙
+cbdb_id: 252935
 revision: 1
 properties:
   - predicate: bio.summary

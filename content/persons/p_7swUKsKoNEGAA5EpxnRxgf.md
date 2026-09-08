@@ -4,6 +4,7 @@ id: p_7swUKsKoNEGAA5EpxnRxgf
 status: active
 merged_into: null
 display_name: 王祖壽
+cbdb_id: 231763
 revision: 1
 properties:
   - predicate: bio.summary

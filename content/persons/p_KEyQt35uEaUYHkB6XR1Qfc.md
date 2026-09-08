@@ -4,6 +4,7 @@ id: p_KEyQt35uEaUYHkB6XR1Qfc
 status: active
 merged_into: null
 display_name: 王秀鴻
+cbdb_id: 101232
 revision: 1
 properties:
   - predicate: bio.summary

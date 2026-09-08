@@ -4,6 +4,7 @@ id: p_DoWNVNC6JZBAasWbqdoiCX
 status: active
 merged_into: null
 display_name: 王祖嫡
+cbdb_id: 126631
 revision: 1
 properties:
   - predicate: bio.summary

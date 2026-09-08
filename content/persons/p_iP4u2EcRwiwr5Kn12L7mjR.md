@@ -4,6 +4,7 @@ id: p_iP4u2EcRwiwr5Kn12L7mjR
 status: active
 merged_into: null
 display_name: 王志瀜
+cbdb_id: 439417
 revision: 1
 properties:
   - predicate: bio.summary

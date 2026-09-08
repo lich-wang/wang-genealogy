@@ -4,6 +4,7 @@ id: p_5qnxLGJrHC3ZoFuBpPF3gq
 status: active
 merged_into: null
 display_name: 王度冲
+cbdb_id: 60746
 revision: 1
 properties:
   - predicate: bio.summary

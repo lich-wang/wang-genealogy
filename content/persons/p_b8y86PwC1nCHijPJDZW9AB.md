@@ -4,6 +4,7 @@ id: p_b8y86PwC1nCHijPJDZW9AB
 status: active
 merged_into: null
 display_name: 王廷籌
+cbdb_id: 328858
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_vvHSQNDSfE6nLUen9b792c
 status: active
 merged_into: null
 display_name: 王正言
+cbdb_id: 145035
 revision: 1
 properties:
   - predicate: bio.summary

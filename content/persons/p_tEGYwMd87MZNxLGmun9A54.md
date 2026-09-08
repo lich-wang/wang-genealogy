@@ -4,6 +4,7 @@ id: p_tEGYwMd87MZNxLGmun9A54
 status: active
 merged_into: null
 display_name: 王述獻
+cbdb_id: 415480
 revision: 1
 properties:
   - predicate: bio.summary

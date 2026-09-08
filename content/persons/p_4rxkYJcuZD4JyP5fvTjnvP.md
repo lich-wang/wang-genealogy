@@ -4,6 +4,7 @@ id: p_4rxkYJcuZD4JyP5fvTjnvP
 status: active
 merged_into: null
 display_name: 王愈太
+cbdb_id: 526807
 revision: 1
 properties:
   - predicate: bio.summary

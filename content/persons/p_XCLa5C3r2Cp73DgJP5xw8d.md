@@ -4,6 +4,7 @@ id: p_XCLa5C3r2Cp73DgJP5xw8d
 status: active
 merged_into: null
 display_name: 王龍澤
+cbdb_id: 38426
 revision: 1
 properties:
   - predicate: bio.summary

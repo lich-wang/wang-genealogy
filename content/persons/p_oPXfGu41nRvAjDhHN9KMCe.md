@@ -4,6 +4,7 @@ id: p_oPXfGu41nRvAjDhHN9KMCe
 status: active
 merged_into: null
 display_name: 王某賢
+cbdb_id: 292753
 revision: 1
 properties:
   - predicate: bio.summary

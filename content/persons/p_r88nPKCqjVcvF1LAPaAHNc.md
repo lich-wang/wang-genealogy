@@ -4,6 +4,7 @@ id: p_r88nPKCqjVcvF1LAPaAHNc
 status: active
 merged_into: null
 display_name: 王南仲
+cbdb_id: 526733
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_zeZuZNMwnhZ83ze1SKiLnN
 status: active
 merged_into: null
 display_name: 魏氏
+cbdb_id: 309377
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_K4YBuW5imBqaXRgSbFebHf
 status: active
 merged_into: null
 display_name: 王幼學
+cbdb_id: 101127
 revision: 1
 properties:
   - predicate: bio.summary

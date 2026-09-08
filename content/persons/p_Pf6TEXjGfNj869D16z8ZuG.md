@@ -4,6 +4,7 @@ id: p_Pf6TEXjGfNj869D16z8ZuG
 status: active
 merged_into: null
 display_name: 王守充
+cbdb_id: 204079
 revision: 1
 properties:
   - predicate: bio.summary

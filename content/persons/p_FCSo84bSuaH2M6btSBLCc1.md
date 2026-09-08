@@ -4,6 +4,7 @@ id: p_FCSo84bSuaH2M6btSBLCc1
 status: active
 merged_into: null
 display_name: 王野民
+cbdb_id: 38162
 revision: 1
 properties:
   - predicate: bio.summary

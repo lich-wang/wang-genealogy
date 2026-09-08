@@ -4,6 +4,7 @@ id: p_6Uj7h3k6AcMQquEzQiGzSE
 status: active
 merged_into: null
 display_name: 王颐
+cbdb_id: 326773
 revision: 2
 properties:
   - predicate: bio.summary

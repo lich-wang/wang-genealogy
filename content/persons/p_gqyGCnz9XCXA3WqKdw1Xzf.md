@@ -4,6 +4,7 @@ id: p_gqyGCnz9XCXA3WqKdw1Xzf
 status: active
 merged_into: null
 display_name: 王其仁
+cbdb_id: 136191
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_cPVM8ZBfFuRRTuH1YzPFBc
 status: active
 merged_into: null
 display_name: 王恆巖
+cbdb_id: 192005
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_iSDAK9rAdV4GWxV3onjyv3
 status: active
 merged_into: null
 display_name: 王克爲
+cbdb_id: 413953
 revision: 1
 properties:
   - predicate: bio.summary

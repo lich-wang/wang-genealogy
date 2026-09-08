@@ -4,6 +4,7 @@ id: p_1vwHH8EjSEP1q2oifpwF8P
 status: active
 merged_into: null
 display_name: 王象春
+cbdb_id: 126731
 revision: 2
 properties:
   - predicate: bio.summary

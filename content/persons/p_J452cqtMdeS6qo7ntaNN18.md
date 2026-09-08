@@ -4,6 +4,7 @@ id: p_J452cqtMdeS6qo7ntaNN18
 status: active
 merged_into: null
 display_name: 王世正
+cbdb_id: 413716
 revision: 1
 properties:
   - predicate: bio.summary

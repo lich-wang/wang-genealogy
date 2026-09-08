@@ -4,6 +4,7 @@ id: p_ofV2sVdAkYm29sUt171KNG
 status: active
 merged_into: null
 display_name: 王景喬
+cbdb_id: 494015
 revision: 1
 properties:
   - predicate: bio.summary

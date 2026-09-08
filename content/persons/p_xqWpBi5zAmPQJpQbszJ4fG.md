@@ -4,6 +4,7 @@ id: p_xqWpBi5zAmPQJpQbszJ4fG
 status: active
 merged_into: null
 display_name: 王仰文
+cbdb_id: 248134
 revision: 1
 properties:
   - predicate: bio.summary

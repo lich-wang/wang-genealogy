@@ -4,6 +4,7 @@ id: p_8ExfDapoZE3qRdeTeJrGdz
 status: active
 merged_into: null
 display_name: 王可陞
+cbdb_id: 57820
 revision: 1
 properties:
   - predicate: bio.summary

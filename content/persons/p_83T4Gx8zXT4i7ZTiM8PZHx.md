@@ -4,6 +4,7 @@ id: p_83T4Gx8zXT4i7ZTiM8PZHx
 status: active
 merged_into: null
 display_name: 王汝濟
+cbdb_id: 318320
 revision: 1
 properties:
   - predicate: bio.summary

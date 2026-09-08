@@ -4,6 +4,7 @@ id: p_9cqQF8NJNYAfqBFsfSMEVp
 status: active
 merged_into: null
 display_name: 王玄冲
+cbdb_id: 341648
 revision: 1
 properties:
   - predicate: bio.summary

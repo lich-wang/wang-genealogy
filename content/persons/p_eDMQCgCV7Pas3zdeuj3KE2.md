@@ -4,6 +4,7 @@ id: p_eDMQCgCV7Pas3zdeuj3KE2
 status: active
 merged_into: null
 display_name: 王翘
+cbdb_id: 193294
 revision: 1
 properties:
   - predicate: bio.summary

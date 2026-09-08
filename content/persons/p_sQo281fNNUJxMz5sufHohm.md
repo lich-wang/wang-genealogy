@@ -4,6 +4,7 @@ id: p_sQo281fNNUJxMz5sufHohm
 status: active
 merged_into: null
 display_name: 王增韻
+cbdb_id: 517386
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_zLacRuamenC19zgVsLVZMx
 status: active
 merged_into: null
 display_name: 王應之
+cbdb_id: 19421
 revision: 1
 properties:
   - predicate: bio.summary

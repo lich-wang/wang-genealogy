@@ -4,6 +4,7 @@ id: p_kEvMN9RqPYL2tHBQ8FGyWy
 status: active
 merged_into: null
 display_name: 王鵬翥
+cbdb_id: 343632
 revision: 1
 properties:
   - predicate: bio.summary

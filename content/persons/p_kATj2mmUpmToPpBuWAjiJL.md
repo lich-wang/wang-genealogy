@@ -4,6 +4,7 @@ id: p_kATj2mmUpmToPpBuWAjiJL
 status: active
 merged_into: null
 display_name: 王鳯池
+cbdb_id: 415632
 revision: 1
 properties:
   - predicate: bio.summary

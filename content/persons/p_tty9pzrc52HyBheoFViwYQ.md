@@ -4,6 +4,7 @@ id: p_tty9pzrc52HyBheoFViwYQ
 status: active
 merged_into: null
 display_name: 王孝光
+cbdb_id: 1816
 revision: 1
 properties:
   - predicate: bio.summary

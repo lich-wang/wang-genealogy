@@ -4,6 +4,7 @@ id: p_wqPgWwGe174uJ9Tz5Rcgmb
 status: active
 merged_into: null
 display_name: 王之樑
+cbdb_id: 413753
 revision: 1
 properties:
   - predicate: bio.summary

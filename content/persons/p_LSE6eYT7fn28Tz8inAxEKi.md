@@ -4,6 +4,7 @@ id: p_LSE6eYT7fn28Tz8inAxEKi
 status: active
 merged_into: null
 display_name: 王景行
+cbdb_id: 101358
 revision: 1
 properties:
   - predicate: bio.summary

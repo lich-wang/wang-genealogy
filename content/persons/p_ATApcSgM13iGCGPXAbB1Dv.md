@@ -4,6 +4,7 @@ id: p_ATApcSgM13iGCGPXAbB1Dv
 status: active
 merged_into: null
 display_name: 王恢之
+cbdb_id: 414602
 revision: 1
 properties:
   - predicate: bio.summary

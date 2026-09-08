@@ -4,6 +4,7 @@ id: p_igr79QD3SMuv1DE4R5Vprj
 status: active
 merged_into: null
 display_name: 王恩仲
+cbdb_id: 71953
 revision: 1
 properties:
   - predicate: bio.summary

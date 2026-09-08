@@ -4,6 +4,7 @@ id: p_rEB5DmBZbyXKxLzhqJfXn4
 status: active
 merged_into: null
 display_name: 王谷堡
+cbdb_id: 254561
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_NdcP7C5V252BcaU9eHbGmK
 status: active
 merged_into: null
 display_name: 王定乾
+cbdb_id: 414320
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_vAe9af7B8YL3DZd9MNExN9
 status: active
 merged_into: null
 display_name: 王清賢
+cbdb_id: 439489
 revision: 1
 properties:
   - predicate: bio.summary

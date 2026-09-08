@@ -4,6 +4,7 @@ id: p_5s8NQz2KrWQjU3M8kphozW
 status: active
 merged_into: null
 display_name: 王擇仁
+cbdb_id: 97904
 revision: 1
 properties:
   - predicate: bio.summary

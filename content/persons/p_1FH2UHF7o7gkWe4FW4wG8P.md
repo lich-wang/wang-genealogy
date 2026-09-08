@@ -4,6 +4,7 @@ id: p_1FH2UHF7o7gkWe4FW4wG8P
 status: active
 merged_into: null
 display_name: 王瑤芬
+cbdb_id: 54422
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_B7d6Gg9E4jAA41bmvNUeBm
 status: active
 merged_into: null
 display_name: 王家佐
+cbdb_id: 414335
 revision: 1
 properties:
   - predicate: bio.summary

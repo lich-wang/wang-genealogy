@@ -4,6 +4,7 @@ id: p_b9QqZMYeTz5iwiHBnepPUw
 status: active
 merged_into: null
 display_name: 王重孫
+cbdb_id: 28734
 revision: 1
 properties:
   - predicate: bio.summary

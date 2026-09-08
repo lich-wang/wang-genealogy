@@ -4,6 +4,7 @@ id: p_AVrR3LdJguqSq8W22nbNtd
 status: active
 merged_into: null
 display_name: 王孫蕙
+cbdb_id: 341963
 revision: 1
 properties:
   - predicate: bio.summary

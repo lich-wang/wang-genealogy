@@ -4,6 +4,7 @@ id: p_Jfk9eB4yX96aRjAaciXwH7
 status: active
 merged_into: null
 display_name: 王槿
+cbdb_id: 414896
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_T4zZ1oyPke8c8GPU2ZJ3YR
 status: active
 merged_into: null
 display_name: 王楚之
+cbdb_id: 414875
 revision: 1
 properties:
   - predicate: bio.summary

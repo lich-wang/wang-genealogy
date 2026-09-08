@@ -4,6 +4,7 @@ id: p_9mgXrUT6pG3TvPhHYN9dtB
 status: active
 merged_into: null
 display_name: 王良質
+cbdb_id: 415338
 revision: 1
 properties:
   - predicate: bio.summary

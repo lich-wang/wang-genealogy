@@ -4,6 +4,7 @@ id: p_FMm2Nzo8rzC1Ujf8nNPK3P
 status: active
 merged_into: null
 display_name: 王茲教
+cbdb_id: 415352
 revision: 1
 properties:
   - predicate: bio.summary

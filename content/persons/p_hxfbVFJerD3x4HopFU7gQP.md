@@ -4,6 +4,7 @@ id: p_hxfbVFJerD3x4HopFU7gQP
 status: active
 merged_into: null
 display_name: 王公立
+cbdb_id: 34062
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_BDy7i3QuPsbyTK8Fcj3xSF
 status: active
 merged_into: null
 display_name: 王守坤
+cbdb_id: 439473
 revision: 1
 properties:
   - predicate: bio.summary

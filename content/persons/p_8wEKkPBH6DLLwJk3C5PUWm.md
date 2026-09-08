@@ -4,6 +4,7 @@ id: p_8wEKkPBH6DLLwJk3C5PUWm
 status: active
 merged_into: null
 display_name: 王娥
+cbdb_id: 118388
 revision: 1
 properties:
   - predicate: bio.summary

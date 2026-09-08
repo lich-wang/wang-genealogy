@@ -4,6 +4,7 @@ id: p_7akCZ3bnT1SfocyTuVvJJv
 status: active
 merged_into: null
 display_name: 王樹楠
+cbdb_id: 71862
 revision: 1
 properties:
   - predicate: bio.summary

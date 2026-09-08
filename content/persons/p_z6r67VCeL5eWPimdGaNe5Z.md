@@ -4,6 +4,7 @@ id: p_z6r67VCeL5eWPimdGaNe5Z
 status: active
 merged_into: null
 display_name: 王棟夫
+cbdb_id: 414870
 revision: 1
 properties:
   - predicate: bio.summary

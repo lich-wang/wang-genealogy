@@ -4,6 +4,7 @@ id: p_QANfpVM39qAowmL8TPseUK
 status: active
 merged_into: null
 display_name: 王匀
+cbdb_id: 455322
 revision: 1
 properties:
   - predicate: bio.summary

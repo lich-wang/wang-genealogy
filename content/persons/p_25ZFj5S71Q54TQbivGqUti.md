@@ -4,6 +4,7 @@ id: p_25ZFj5S71Q54TQbivGqUti
 status: active
 merged_into: null
 display_name: 王孝巖
+cbdb_id: 39113
 revision: 1
 properties:
   - predicate: bio.summary

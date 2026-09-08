@@ -4,6 +4,7 @@ id: p_wco7Me8DCXuxY5JBG2J4E9
 status: active
 merged_into: null
 display_name: 王章炳
+cbdb_id: 341638
 revision: 1
 properties:
   - predicate: bio.summary

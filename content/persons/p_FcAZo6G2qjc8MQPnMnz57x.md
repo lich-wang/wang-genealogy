@@ -4,6 +4,7 @@ id: p_FcAZo6G2qjc8MQPnMnz57x
 status: active
 merged_into: null
 display_name: 王茂才
+cbdb_id: 415350
 revision: 1
 properties:
   - predicate: bio.summary

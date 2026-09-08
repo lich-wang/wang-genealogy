@@ -4,6 +4,7 @@ id: p_8DqghfKxv1u7cAHjQLabDD
 status: active
 merged_into: null
 display_name: 王樹德
+cbdb_id: 343209
 revision: 1
 properties:
   - predicate: bio.summary

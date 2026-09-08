@@ -4,6 +4,7 @@ id: p_6qFqzHC21Z9f8VhXAcZ1P4
 status: active
 merged_into: null
 display_name: 王舉正
+cbdb_id: 8145
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_HvQXAFxjPKS5JvwBF3wcUY
 status: active
 merged_into: null
 display_name: 王斛斯
+cbdb_id: 378441
 revision: 1
 properties:
   - predicate: bio.summary

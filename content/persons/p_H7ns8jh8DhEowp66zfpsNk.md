@@ -4,6 +4,7 @@ id: p_H7ns8jh8DhEowp66zfpsNk
 status: active
 merged_into: null
 display_name: 王源广
+cbdb_id: 175368
 revision: 1
 properties:
   - predicate: bio.summary

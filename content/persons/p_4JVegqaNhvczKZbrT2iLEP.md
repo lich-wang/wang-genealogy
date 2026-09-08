@@ -4,6 +4,7 @@ id: p_4JVegqaNhvczKZbrT2iLEP
 status: active
 merged_into: null
 display_name: 王奴子
+cbdb_id: 148969
 revision: 1
 properties:
   - predicate: bio.summary

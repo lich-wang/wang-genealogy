@@ -4,6 +4,7 @@ id: p_TMW1y3NdQmj9LhKMvD9Tut
 status: active
 merged_into: null
 display_name: 王思佑
+cbdb_id: 135136
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_22yDb17tJfWQbo8a8cs1y8
 status: active
 merged_into: null
 display_name: 王捷三
+cbdb_id: 343384
 revision: 1
 properties:
   - predicate: bio.summary

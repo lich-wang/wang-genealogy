@@ -4,6 +4,7 @@ id: p_v7aUzZp4K1Qpnj3aQZXVNr
 status: active
 merged_into: null
 display_name: 王士喆
+cbdb_id: 526740
 revision: 1
 properties:
   - predicate: bio.summary

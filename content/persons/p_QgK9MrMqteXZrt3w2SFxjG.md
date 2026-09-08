@@ -4,6 +4,7 @@ id: p_QgK9MrMqteXZrt3w2SFxjG
 status: active
 merged_into: null
 display_name: 王承瀚
+cbdb_id: 517447
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_MBzE87fF1moBPmQ8mvLEEm
 status: active
 merged_into: null
 display_name: 王豫立
+cbdb_id: 342055
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_7NDJ89UZ7vGVaeWE7kAwXN
 status: active
 merged_into: null
 display_name: 王克承
+cbdb_id: 513576
 revision: 2
 properties:
   - predicate: bio.summary

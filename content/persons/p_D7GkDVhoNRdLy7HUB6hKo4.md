@@ -4,6 +4,7 @@ id: p_D7GkDVhoNRdLy7HUB6hKo4
 status: active
 merged_into: null
 display_name: 王守寧
+cbdb_id: 101167
 revision: 1
 properties:
   - predicate: bio.summary

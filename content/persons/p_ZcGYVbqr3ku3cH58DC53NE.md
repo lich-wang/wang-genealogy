@@ -4,6 +4,7 @@ id: p_ZcGYVbqr3ku3cH58DC53NE
 status: active
 merged_into: null
 display_name: 王大堉
+cbdb_id: 55433
 revision: 1
 properties:
   - predicate: bio.summary

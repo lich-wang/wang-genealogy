@@ -4,6 +4,7 @@ id: p_WLV64Ck8v3CgJLVH6Th9Nz
 status: active
 merged_into: null
 display_name: 王亘京
+cbdb_id: 294727
 revision: 1
 properties:
   - predicate: bio.summary

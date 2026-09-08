@@ -4,6 +4,7 @@ id: p_39miVJyWesZ6B5d95cz7mV
 status: active
 merged_into: null
 display_name: 王春淮
+cbdb_id: 308960
 revision: 1
 properties:
   - predicate: bio.summary

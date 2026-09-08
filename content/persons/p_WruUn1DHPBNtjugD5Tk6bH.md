@@ -4,6 +4,7 @@ id: p_WruUn1DHPBNtjugD5Tk6bH
 status: active
 merged_into: null
 display_name: 王登元
+cbdb_id: 118477
 revision: 1
 properties:
   - predicate: bio.summary

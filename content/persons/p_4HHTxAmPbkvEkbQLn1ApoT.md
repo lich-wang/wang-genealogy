@@ -4,6 +4,7 @@ id: p_4HHTxAmPbkvEkbQLn1ApoT
 status: active
 merged_into: null
 display_name: 王彥復
+cbdb_id: 381782
 revision: 1
 properties:
   - predicate: bio.summary

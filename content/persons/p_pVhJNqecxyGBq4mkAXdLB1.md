@@ -4,6 +4,7 @@ id: p_pVhJNqecxyGBq4mkAXdLB1
 status: active
 merged_into: null
 display_name: 王邦綺
+cbdb_id: 282599
 revision: 1
 properties:
   - predicate: bio.summary

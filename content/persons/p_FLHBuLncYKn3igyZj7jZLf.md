@@ -4,6 +4,7 @@ id: p_FLHBuLncYKn3igyZj7jZLf
 status: active
 merged_into: null
 display_name: 王時臨
+cbdb_id: 343523
 revision: 1
 properties:
   - predicate: bio.summary

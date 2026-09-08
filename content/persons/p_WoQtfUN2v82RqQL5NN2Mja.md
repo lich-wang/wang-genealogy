@@ -4,6 +4,7 @@ id: p_WoQtfUN2v82RqQL5NN2Mja
 status: active
 merged_into: null
 display_name: 王維正
+cbdb_id: 415252
 revision: 1
 properties:
   - predicate: bio.summary

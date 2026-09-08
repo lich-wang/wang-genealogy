@@ -4,6 +4,7 @@ id: p_tRbjMW4CxHPPZyxjo8xaiK
 status: active
 merged_into: null
 display_name: 王承澤
+cbdb_id: 69247
 revision: 1
 properties:
   - predicate: bio.summary

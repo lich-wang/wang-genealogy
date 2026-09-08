@@ -4,6 +4,7 @@ id: p_NaqU1aw8UWbr1wEBFKkSug
 status: active
 merged_into: null
 display_name: 王洪誥
+cbdb_id: 342739
 revision: 1
 properties:
   - predicate: bio.summary

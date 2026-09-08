@@ -4,6 +4,7 @@ id: p_zzJ4ZDoiD31Veqi7XMMf5a
 status: active
 merged_into: null
 display_name: 王少愷
+cbdb_id: 22934
 revision: 1
 properties:
   - predicate: bio.summary

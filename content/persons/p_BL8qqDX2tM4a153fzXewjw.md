@@ -4,6 +4,7 @@ id: p_BL8qqDX2tM4a153fzXewjw
 status: active
 merged_into: null
 display_name: 王仁某
+cbdb_id: 143737
 revision: 1
 properties:
   - predicate: bio.summary

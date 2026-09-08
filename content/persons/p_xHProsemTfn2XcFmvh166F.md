@@ -4,6 +4,7 @@ id: p_xHProsemTfn2XcFmvh166F
 status: active
 merged_into: null
 display_name: 王守爵
+cbdb_id: 414286
 revision: 1
 properties:
   - predicate: bio.summary

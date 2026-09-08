@@ -4,6 +4,7 @@ id: p_cFYBiN2By1pvP86HyaLdUp
 status: active
 merged_into: null
 display_name: 王曰敏
+cbdb_id: 283925
 revision: 1
 properties:
   - predicate: bio.summary

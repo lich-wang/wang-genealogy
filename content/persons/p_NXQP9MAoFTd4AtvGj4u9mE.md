@@ -4,6 +4,7 @@ id: p_NXQP9MAoFTd4AtvGj4u9mE
 status: active
 merged_into: null
 display_name: 王竹
+cbdb_id: 328174
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_sepYCwB56d9QGyCTjBCt9z
 status: active
 merged_into: null
 display_name: 王元麟
+cbdb_id: 71384
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_HyBs8BMhRNhJAME8bN8aqU
 status: active
 merged_into: null
 display_name: 王誠心
+cbdb_id: 415416
 revision: 1
 properties:
   - predicate: bio.summary

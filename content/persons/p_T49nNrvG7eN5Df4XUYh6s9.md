@@ -4,6 +4,7 @@ id: p_T49nNrvG7eN5Df4XUYh6s9
 status: active
 merged_into: null
 display_name: 司馬昱
+cbdb_id: 30910
 revision: 1
 properties:
   - predicate: bio.summary

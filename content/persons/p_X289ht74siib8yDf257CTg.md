@@ -4,6 +4,7 @@ id: p_X289ht74siib8yDf257CTg
 status: active
 merged_into: null
 display_name: 王懷筠
+cbdb_id: 37662
 revision: 1
 properties:
   - predicate: bio.summary

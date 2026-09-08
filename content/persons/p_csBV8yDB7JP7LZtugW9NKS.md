@@ -4,6 +4,7 @@ id: p_csBV8yDB7JP7LZtugW9NKS
 status: active
 merged_into: null
 display_name: 王汝騏
+cbdb_id: 71617
 revision: 1
 properties:
   - predicate: bio.summary

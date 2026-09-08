@@ -4,6 +4,7 @@ id: p_QkhCaGoZhcyF2De4tN5s15
 status: active
 merged_into: null
 display_name: 王文济
+cbdb_id: 175869
 revision: 2
 properties:
   - predicate: name.primary

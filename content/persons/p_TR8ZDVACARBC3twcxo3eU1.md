@@ -4,6 +4,7 @@ id: p_TR8ZDVACARBC3twcxo3eU1
 status: active
 merged_into: null
 display_name: 王紹正
+cbdb_id: 68435
 revision: 1
 properties:
   - predicate: bio.summary

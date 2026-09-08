@@ -4,6 +4,7 @@ id: p_Yz95yscGJ1Xt841CW2oDCB
 status: active
 merged_into: null
 display_name: 王進興
+cbdb_id: 167296
 revision: 1
 properties:
   - predicate: bio.summary

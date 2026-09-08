@@ -4,6 +4,7 @@ id: p_RNdtC5tC4dGoNM8UX7rM1Q
 status: active
 merged_into: null
 display_name: 王文廣
+cbdb_id: 209975
 revision: 1
 properties:
   - predicate: bio.summary

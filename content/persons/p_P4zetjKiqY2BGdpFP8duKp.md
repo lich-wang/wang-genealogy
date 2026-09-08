@@ -4,6 +4,7 @@ id: p_P4zetjKiqY2BGdpFP8duKp
 status: active
 merged_into: null
 display_name: 王之麒
+cbdb_id: 216057
 revision: 1
 properties:
   - predicate: bio.summary

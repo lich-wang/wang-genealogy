@@ -4,6 +4,7 @@ id: p_rVSU7SGR7ggL3Y16sLKSe2
 status: active
 merged_into: null
 display_name: 王褒
+cbdb_id: 157867
 revision: 1
 properties:
   - predicate: bio.summary

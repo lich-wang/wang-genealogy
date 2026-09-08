@@ -4,6 +4,7 @@ id: p_i7CTFBQtNxaVxkvf766h6t
 status: active
 merged_into: null
 display_name: 王莊淑
+cbdb_id: 135135
 revision: 1
 properties:
   - predicate: bio.summary

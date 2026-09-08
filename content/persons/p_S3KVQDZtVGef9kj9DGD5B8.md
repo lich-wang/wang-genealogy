@@ -4,6 +4,7 @@ id: p_S3KVQDZtVGef9kj9DGD5B8
 status: active
 merged_into: null
 display_name: 王嘉寀
+cbdb_id: 209791
 revision: 1
 properties:
   - predicate: bio.summary

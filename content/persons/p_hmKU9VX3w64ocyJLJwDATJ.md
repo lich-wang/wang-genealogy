@@ -4,6 +4,7 @@ id: p_hmKU9VX3w64ocyJLJwDATJ
 status: active
 merged_into: null
 display_name: 王弘裕
+cbdb_id: 185061
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_7Hgmv7THVpCQKAF6SoQGEt
 status: active
 merged_into: null
 display_name: 王師積
+cbdb_id: 190516
 revision: 1
 properties:
   - predicate: bio.summary

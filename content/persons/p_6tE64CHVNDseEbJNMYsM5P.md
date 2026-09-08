@@ -4,6 +4,7 @@ id: p_6tE64CHVNDseEbJNMYsM5P
 status: active
 merged_into: null
 display_name: 王英謀
+cbdb_id: 415346
 revision: 1
 properties:
   - predicate: bio.summary

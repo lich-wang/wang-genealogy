@@ -4,6 +4,7 @@ id: p_AEv4UjMqpkRwJJqLF35aN2
 status: active
 merged_into: null
 display_name: 王缄
+cbdb_id: 175394
 revision: 1
 properties:
   - predicate: bio.summary

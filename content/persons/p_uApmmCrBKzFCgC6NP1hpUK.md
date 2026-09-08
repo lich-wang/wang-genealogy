@@ -4,6 +4,7 @@ id: p_uApmmCrBKzFCgC6NP1hpUK
 status: active
 merged_into: null
 display_name: 王宗明
+cbdb_id: 307071
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_tZW44NfiePoNXF2LiFTkkb
 status: active
 merged_into: null
 display_name: 王如寶
+cbdb_id: 193633
 revision: 1
 properties:
   - predicate: bio.summary

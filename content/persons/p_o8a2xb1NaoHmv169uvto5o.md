@@ -4,6 +4,7 @@ id: p_o8a2xb1NaoHmv169uvto5o
 status: active
 merged_into: null
 display_name: 某氏
+cbdb_id: 38684
 revision: 1
 properties:
   - predicate: bio.summary

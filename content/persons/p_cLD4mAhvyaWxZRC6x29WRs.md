@@ -4,6 +4,7 @@ id: p_cLD4mAhvyaWxZRC6x29WRs
 status: active
 merged_into: null
 display_name: 王繹宗
+cbdb_id: 292172
 revision: 1
 properties:
   - predicate: bio.summary

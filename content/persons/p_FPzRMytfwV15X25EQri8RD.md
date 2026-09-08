@@ -4,6 +4,7 @@ id: p_FPzRMytfwV15X25EQri8RD
 status: active
 merged_into: null
 display_name: 王元復
+cbdb_id: 69074
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_AaYhG8i94aCBr7G4XWyBAo
 status: active
 merged_into: null
 display_name: 王禮培
+cbdb_id: 71502
 revision: 1
 properties:
   - predicate: bio.summary

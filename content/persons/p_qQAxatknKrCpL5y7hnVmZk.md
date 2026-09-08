@@ -4,6 +4,7 @@ id: p_qQAxatknKrCpL5y7hnVmZk
 status: active
 merged_into: null
 display_name: 王明悟
+cbdb_id: 155944
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_ZrwKZ4oXkB21KZFkVn2uhH
 status: active
 merged_into: null
 display_name: 王所施
+cbdb_id: 414679
 revision: 1
 properties:
   - predicate: bio.summary

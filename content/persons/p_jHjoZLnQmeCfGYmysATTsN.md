@@ -4,6 +4,7 @@ id: p_jHjoZLnQmeCfGYmysATTsN
 status: active
 merged_into: null
 display_name: 王國樞
+cbdb_id: 414124
 revision: 1
 properties:
   - predicate: bio.summary

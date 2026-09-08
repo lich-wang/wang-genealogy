@@ -4,6 +4,7 @@ id: p_Ac7UH2xcWY3aDjbY3yku8B
 status: active
 merged_into: null
 display_name: 王止水
+cbdb_id: 513590
 revision: 1
 properties:
   - predicate: bio.summary

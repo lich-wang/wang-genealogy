@@ -4,6 +4,7 @@ id: p_QPbyr8oBpnwgkk4K6BoEug
 status: active
 merged_into: null
 display_name: 王君奐
+cbdb_id: 502669
 revision: 1
 properties:
   - predicate: bio.summary

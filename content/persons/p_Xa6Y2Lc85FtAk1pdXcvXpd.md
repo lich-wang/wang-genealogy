@@ -4,6 +4,7 @@ id: p_Xa6Y2Lc85FtAk1pdXcvXpd
 status: active
 merged_into: null
 display_name: 王那仁
+cbdb_id: 162063
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_rJ1f7ooA9jPEPSrDSvEcw5
 status: active
 merged_into: null
 display_name: 王崇約
+cbdb_id: 225808
 revision: 1
 properties:
   - predicate: bio.summary

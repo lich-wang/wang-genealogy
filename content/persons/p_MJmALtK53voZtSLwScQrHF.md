@@ -4,6 +4,7 @@ id: p_MJmALtK53voZtSLwScQrHF
 status: active
 merged_into: null
 display_name: 王從美
+cbdb_id: 231572
 revision: 1
 properties:
   - predicate: bio.summary

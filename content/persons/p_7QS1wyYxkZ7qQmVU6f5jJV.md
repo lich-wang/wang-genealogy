@@ -4,6 +4,7 @@ id: p_7QS1wyYxkZ7qQmVU6f5jJV
 status: active
 merged_into: null
 display_name: 王守倫
+cbdb_id: 414275
 revision: 1
 properties:
   - predicate: bio.summary

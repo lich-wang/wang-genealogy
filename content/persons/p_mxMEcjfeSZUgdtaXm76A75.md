@@ -4,6 +4,7 @@ id: p_mxMEcjfeSZUgdtaXm76A75
 status: active
 merged_into: null
 display_name: 王禮道
+cbdb_id: 217159
 revision: 1
 properties:
   - predicate: bio.summary

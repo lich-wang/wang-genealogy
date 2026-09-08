@@ -4,6 +4,7 @@ id: p_4GN6zCzZ6LyAWr3HZzKS9E
 status: active
 merged_into: null
 display_name: 王慰南
+cbdb_id: 121919
 revision: 1
 properties:
   - predicate: bio.summary

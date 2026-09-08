@@ -4,6 +4,7 @@ id: p_H3m5zSkG1aJYhK4tSAfPQK
 status: active
 merged_into: null
 display_name: 王鵬翼
+cbdb_id: 415649
 revision: 1
 properties:
   - predicate: bio.summary

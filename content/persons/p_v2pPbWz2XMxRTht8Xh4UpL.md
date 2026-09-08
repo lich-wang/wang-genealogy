@@ -4,6 +4,7 @@ id: p_v2pPbWz2XMxRTht8Xh4UpL
 status: active
 merged_into: null
 display_name: 王定祥
+cbdb_id: 71818
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_yZE22C48WQLMnCce8bgCN8
 status: active
 merged_into: null
 display_name: 王保祿
+cbdb_id: 571433
 revision: 1
 properties:
   - predicate: bio.summary

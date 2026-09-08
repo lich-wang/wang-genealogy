@@ -4,6 +4,7 @@ id: p_TkTqcnoNDR9H5eN9f7PtHE
 status: active
 merged_into: null
 display_name: 王佑甫
+cbdb_id: 413865
 revision: 1
 properties:
   - predicate: bio.summary

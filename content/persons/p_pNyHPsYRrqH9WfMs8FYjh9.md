@@ -4,6 +4,7 @@ id: p_pNyHPsYRrqH9WfMs8FYjh9
 status: active
 merged_into: null
 display_name: 王叔良
+cbdb_id: 282085
 revision: 1
 properties:
   - predicate: bio.summary

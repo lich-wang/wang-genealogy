@@ -4,6 +4,7 @@ id: p_MeL4Zz5JgqsPqBgfGWaL7k
 status: active
 merged_into: null
 display_name: 王應瑜
+cbdb_id: 341555
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_P1dfjmbEcRUjawic9P8Mzq
 status: active
 merged_into: null
 display_name: 王與權
+cbdb_id: 38262
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_MhkWzNC8rGuJFft6Cq4tR1
 status: active
 merged_into: null
 display_name: 王之斌
+cbdb_id: 69106
 revision: 1
 properties:
   - predicate: bio.summary

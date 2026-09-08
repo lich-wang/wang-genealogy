@@ -4,6 +4,7 @@ id: p_HDRXbCw76NvogZND7K8uqG
 status: active
 merged_into: null
 display_name: 王資仁
+cbdb_id: 38197
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_tWnTsDgv7RBJ8YThAE5T8t
 status: active
 merged_into: null
 display_name: 王廷玫
+cbdb_id: 341935
 revision: 1
 properties:
   - predicate: bio.summary

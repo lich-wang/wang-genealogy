@@ -4,6 +4,7 @@ id: p_D4mUPFVAkiMBgXqe5yCFBQ
 status: active
 merged_into: null
 display_name: 王之稷
+cbdb_id: 413763
 revision: 1
 properties:
   - predicate: bio.summary

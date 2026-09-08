@@ -4,6 +4,7 @@ id: p_Cj6M93AwGRJ5MiNLd6oWre
 status: active
 merged_into: null
 display_name: 王朝華
+cbdb_id: 526913
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_wa52uMh15QYL2q9w6tkgYA
 status: active
 merged_into: null
 display_name: 王守規
+cbdb_id: 38711
 revision: 1
 properties:
   - predicate: bio.summary

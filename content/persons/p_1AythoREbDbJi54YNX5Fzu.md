@@ -4,6 +4,7 @@ id: p_1AythoREbDbJi54YNX5Fzu
 status: active
 merged_into: null
 display_name: 王稚
+cbdb_id: 437667
 revision: 2
 properties:
   - predicate: bio.summary

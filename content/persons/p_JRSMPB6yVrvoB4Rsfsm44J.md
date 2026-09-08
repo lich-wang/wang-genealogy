@@ -4,6 +4,7 @@ id: p_JRSMPB6yVrvoB4Rsfsm44J
 status: active
 merged_into: null
 display_name: 王懷廣
+cbdb_id: 257393
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_Ptf6EwTsU44vQMHvn9yb7n
 status: active
 merged_into: null
 display_name: 王懋禧
+cbdb_id: 414661
 revision: 1
 properties:
   - predicate: bio.summary

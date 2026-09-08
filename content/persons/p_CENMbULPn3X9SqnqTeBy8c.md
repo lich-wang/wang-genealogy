@@ -4,6 +4,7 @@ id: p_CENMbULPn3X9SqnqTeBy8c
 status: active
 merged_into: null
 display_name: 王夫燧
+cbdb_id: 414221
 revision: 1
 properties:
   - predicate: bio.summary

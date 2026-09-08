@@ -4,6 +4,7 @@ id: p_B5SB5pj3iBFhzvqNpRZMHT
 status: active
 merged_into: null
 display_name: 王興堯
+cbdb_id: 71626
 revision: 1
 properties:
   - predicate: bio.summary

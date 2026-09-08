@@ -4,6 +4,7 @@ id: p_MjNLaKPtsDxgi954Xrasku
 status: active
 merged_into: null
 display_name: 王傳約
+cbdb_id: 17797
 revision: 1
 properties:
   - predicate: bio.summary

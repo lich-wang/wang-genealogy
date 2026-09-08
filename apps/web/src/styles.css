@@ -1556,6 +1556,12 @@ img.signed-in-avatar { object-fit: cover; }
 .person-title-row .section-kicker,
 .source-head .section-kicker { color: var(--accent); }
 .revision-label { color: var(--muted); font-size: 0.75rem; }
+.cbdb-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.75rem;
+}
 .person-page > section { padding: 1.5rem; }
 .content-section-head {
   display: flex;

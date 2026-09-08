@@ -4,6 +4,7 @@ id: p_eGZvichP4t3y5QrhZULQQu
 status: active
 merged_into: null
 display_name: 王正秀
+cbdb_id: 414923
 revision: 1
 properties:
   - predicate: bio.summary

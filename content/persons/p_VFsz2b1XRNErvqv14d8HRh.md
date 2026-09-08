@@ -4,6 +4,7 @@ id: p_VFsz2b1XRNErvqv14d8HRh
 status: active
 merged_into: null
 display_name: 王它中
+cbdb_id: 414271
 revision: 1
 properties:
   - predicate: bio.summary

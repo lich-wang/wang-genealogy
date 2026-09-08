@@ -4,6 +4,7 @@ id: p_AG5jP7DpH2uPhK3Kt3UCJp
 status: active
 merged_into: null
 display_name: 王夢虎
+cbdb_id: 69267
 revision: 1
 properties:
   - predicate: bio.summary

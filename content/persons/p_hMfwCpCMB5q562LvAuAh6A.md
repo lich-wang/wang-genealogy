@@ -4,6 +4,7 @@ id: p_hMfwCpCMB5q562LvAuAh6A
 status: active
 merged_into: null
 display_name: 王威古
+cbdb_id: 445627
 revision: 1
 properties:
   - predicate: bio.summary

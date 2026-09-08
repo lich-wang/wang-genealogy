@@ -4,6 +4,7 @@ id: p_kAqmJC9XxgqbW9D1EEHmok
 status: active
 merged_into: null
 display_name: 王文江
+cbdb_id: 238211
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_c4pHW4ZDyaMb9z5Mt8e6Lf
 status: active
 merged_into: null
 display_name: 王子厚
+cbdb_id: 292315
 revision: 1
 properties:
   - predicate: bio.summary

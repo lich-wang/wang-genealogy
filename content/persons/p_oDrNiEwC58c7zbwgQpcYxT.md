@@ -4,6 +4,7 @@ id: p_oDrNiEwC58c7zbwgQpcYxT
 status: active
 merged_into: null
 display_name: 王公穹
+cbdb_id: 413969
 revision: 1
 properties:
   - predicate: bio.summary

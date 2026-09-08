@@ -4,6 +4,7 @@ id: p_eKfSMwBRfJQQhnwYk2b6Tx
 status: active
 merged_into: null
 display_name: 王可椅
+cbdb_id: 318733
 revision: 1
 properties:
   - predicate: bio.summary

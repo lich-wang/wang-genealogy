@@ -4,6 +4,7 @@ id: p_heKv1Lrv2nNs2FP242e8RP
 status: active
 merged_into: null
 display_name: 王士望
+cbdb_id: 218704
 revision: 1
 properties:
   - predicate: bio.summary

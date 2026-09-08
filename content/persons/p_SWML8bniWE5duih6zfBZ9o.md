@@ -4,6 +4,7 @@ id: p_SWML8bniWE5duih6zfBZ9o
 status: active
 merged_into: null
 display_name: 王全信
+cbdb_id: 444949
 revision: 1
 properties:
   - predicate: bio.summary

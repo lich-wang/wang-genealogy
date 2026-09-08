@@ -4,6 +4,7 @@ id: p_3fcH9ES9qAurb6CYRaNykg
 status: active
 merged_into: null
 display_name: 王兆淑
+cbdb_id: 69815
 revision: 1
 properties:
   - predicate: bio.summary

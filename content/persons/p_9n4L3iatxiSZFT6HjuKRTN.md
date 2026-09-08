@@ -4,6 +4,7 @@ id: p_9n4L3iatxiSZFT6HjuKRTN
 status: active
 merged_into: null
 display_name: 王濬初
+cbdb_id: 415057
 revision: 1
 properties:
   - predicate: bio.summary

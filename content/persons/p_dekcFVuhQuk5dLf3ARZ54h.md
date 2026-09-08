@@ -4,6 +4,7 @@ id: p_dekcFVuhQuk5dLf3ARZ54h
 status: active
 merged_into: null
 display_name: 王南溟
+cbdb_id: 71852
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_Z4NuQyYedqRsHN3HCm4JpM
 status: active
 merged_into: null
 display_name: 王維鏞
+cbdb_id: 526898
 revision: 1
 properties:
   - predicate: bio.summary

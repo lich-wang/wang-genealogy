@@ -4,6 +4,7 @@ id: p_AJ36QsHYvNFFPiM32NAShM
 status: active
 merged_into: null
 display_name: 王秉良
+cbdb_id: 201458
 revision: 1
 properties:
   - predicate: bio.summary

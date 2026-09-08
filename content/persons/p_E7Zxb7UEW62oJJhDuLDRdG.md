@@ -4,6 +4,7 @@ id: p_E7Zxb7UEW62oJJhDuLDRdG
 status: active
 merged_into: null
 display_name: 王期治
+cbdb_id: 324017
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_376VMM9oJKQVq1YFMjzNpg
 status: active
 merged_into: null
 display_name: 王文斌
+cbdb_id: 61613
 revision: 1
 properties:
   - predicate: bio.summary

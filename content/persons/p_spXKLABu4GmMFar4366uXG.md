@@ -4,6 +4,7 @@ id: p_spXKLABu4GmMFar4366uXG
 status: active
 merged_into: null
 display_name: 王歷山
+cbdb_id: 414926
 revision: 1
 properties:
   - predicate: bio.summary

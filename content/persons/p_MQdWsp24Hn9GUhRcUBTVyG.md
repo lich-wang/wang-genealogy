@@ -4,6 +4,7 @@ id: p_MQdWsp24Hn9GUhRcUBTVyG
 status: active
 merged_into: null
 display_name: 王君廓
+cbdb_id: 379717
 revision: 1
 properties:
   - predicate: bio.summary

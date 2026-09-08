@@ -4,6 +4,7 @@ id: p_2HUXpkk9pxQEqgcQ9WG6J1
 status: active
 merged_into: null
 display_name: 王時迪
+cbdb_id: 212507
 revision: 1
 properties:
   - predicate: bio.summary

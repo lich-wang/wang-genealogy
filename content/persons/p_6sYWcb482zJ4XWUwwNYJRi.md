@@ -4,6 +4,7 @@ id: p_6sYWcb482zJ4XWUwwNYJRi
 status: active
 merged_into: null
 display_name: 王士先
+cbdb_id: 329624
 revision: 1
 properties:
   - predicate: bio.summary

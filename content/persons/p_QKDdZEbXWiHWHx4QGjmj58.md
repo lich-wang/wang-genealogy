@@ -4,6 +4,7 @@ id: p_QKDdZEbXWiHWHx4QGjmj58
 status: active
 merged_into: null
 display_name: 王道深
+cbdb_id: 38249
 revision: 1
 properties:
   - predicate: bio.summary

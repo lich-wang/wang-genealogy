@@ -4,6 +4,7 @@ id: p_BRk8GRJ9ALS1shYv5ub2na
 status: active
 merged_into: null
 display_name: 王汝光
+cbdb_id: 314230
 revision: 1
 properties:
   - predicate: bio.summary

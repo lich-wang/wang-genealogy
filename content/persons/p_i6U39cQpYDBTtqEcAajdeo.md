@@ -4,6 +4,7 @@ id: p_i6U39cQpYDBTtqEcAajdeo
 status: active
 merged_into: null
 display_name: 王禮乾
+cbdb_id: 71501
 revision: 1
 properties:
   - predicate: bio.summary

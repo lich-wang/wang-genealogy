@@ -4,6 +4,7 @@ id: p_Q2TfjVNNt1iLwHax2XQvve
 status: active
 merged_into: null
 display_name: 王兆鄭
+cbdb_id: 513440
 revision: 1
 properties:
   - predicate: bio.summary

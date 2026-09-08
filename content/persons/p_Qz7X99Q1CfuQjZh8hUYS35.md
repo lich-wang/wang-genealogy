@@ -4,6 +4,7 @@ id: p_Qz7X99Q1CfuQjZh8hUYS35
 status: active
 merged_into: null
 display_name: 王光烈
+cbdb_id: 71546
 revision: 1
 properties:
   - predicate: bio.summary

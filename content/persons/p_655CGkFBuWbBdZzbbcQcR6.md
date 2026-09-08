@@ -4,6 +4,7 @@ id: p_655CGkFBuWbBdZzbbcQcR6
 status: active
 merged_into: null
 display_name: 王舜夫
+cbdb_id: 200919
 revision: 1
 properties:
   - predicate: bio.summary

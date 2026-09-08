@@ -4,6 +4,7 @@ id: p_jnUqv9LoXdmeyuUoQF5J2o
 status: active
 merged_into: null
 display_name: 王志遴
+cbdb_id: 414580
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_o3dPM3L8iD6m2Q3kSQ9NQe
 status: active
 merged_into: null
 display_name: 王庸之
+cbdb_id: 414437
 revision: 1
 properties:
   - predicate: bio.summary

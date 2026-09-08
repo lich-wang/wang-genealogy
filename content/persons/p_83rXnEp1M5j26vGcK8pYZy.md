@@ -4,6 +4,7 @@ id: p_83rXnEp1M5j26vGcK8pYZy
 status: active
 merged_into: null
 display_name: 王俊秀
+cbdb_id: 69293
 revision: 1
 properties:
   - predicate: bio.summary

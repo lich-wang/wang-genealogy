@@ -4,6 +4,7 @@ id: p_FpxZwn8ebhcVvxXBoxwZJM
 status: active
 merged_into: null
 display_name: 王思榮
+cbdb_id: 263442
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_PTuiF9CbfDx8Sy93ZpKxhp
 status: active
 merged_into: null
 display_name: 王平子
+cbdb_id: 175565
 revision: 1
 properties:
   - predicate: bio.summary

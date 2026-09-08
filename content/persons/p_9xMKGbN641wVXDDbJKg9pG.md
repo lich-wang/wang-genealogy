@@ -4,6 +4,7 @@ id: p_9xMKGbN641wVXDDbJKg9pG
 status: active
 merged_into: null
 display_name: 王骞
+cbdb_id: 162328
 revision: 1
 properties:
   - predicate: bio.summary

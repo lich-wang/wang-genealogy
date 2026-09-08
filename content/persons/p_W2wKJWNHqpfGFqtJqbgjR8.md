@@ -4,6 +4,7 @@ id: p_W2wKJWNHqpfGFqtJqbgjR8
 status: active
 merged_into: null
 display_name: 王嘉彥
+cbdb_id: 18657
 revision: 1
 properties:
   - predicate: bio.summary

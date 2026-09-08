@@ -4,6 +4,7 @@ id: p_oJbeS1yQokcb2GuoF8vRjd
 status: active
 merged_into: null
 display_name: 王洗
+cbdb_id: 415001
 revision: 1
 properties:
   - predicate: bio.summary

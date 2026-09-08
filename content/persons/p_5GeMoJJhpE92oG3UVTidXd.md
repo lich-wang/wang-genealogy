@@ -4,6 +4,7 @@ id: p_5GeMoJJhpE92oG3UVTidXd
 status: active
 merged_into: null
 display_name: 王喬衡
+cbdb_id: 336213
 revision: 1
 properties:
   - predicate: bio.summary

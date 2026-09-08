@@ -4,6 +4,7 @@ id: p_c5qcS9jcwmb7aDjPrEV5Hr
 status: active
 merged_into: null
 display_name: 王元真
+cbdb_id: 148229
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_s2J6v6Z1BCr8cEtWSejd2v
 status: active
 merged_into: null
 display_name: 王時習
+cbdb_id: 202373
 revision: 1
 properties:
   - predicate: bio.summary

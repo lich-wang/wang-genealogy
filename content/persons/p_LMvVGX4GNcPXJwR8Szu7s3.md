@@ -4,6 +4,7 @@ id: p_LMvVGX4GNcPXJwR8Szu7s3
 status: active
 merged_into: null
 display_name: 王學浩
+cbdb_id: 69469
 revision: 1
 properties:
   - predicate: bio.summary

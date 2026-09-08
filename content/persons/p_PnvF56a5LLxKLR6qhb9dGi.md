@@ -4,6 +4,7 @@ id: p_PnvF56a5LLxKLR6qhb9dGi
 status: active
 merged_into: null
 display_name: 王氏
+cbdb_id: 5119
 revision: 1
 properties:
   - predicate: name.primary

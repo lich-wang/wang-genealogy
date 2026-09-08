@@ -4,6 +4,7 @@ id: p_ZarZeo9p11Wxhx96NHpZN6
 status: active
 merged_into: null
 display_name: 王在隆
+cbdb_id: 342964
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_cMnxxkQPmYhcD4Anh653Kf
 status: active
 merged_into: null
 display_name: 王祖孫
+cbdb_id: 43751
 revision: 1
 properties:
   - predicate: bio.summary

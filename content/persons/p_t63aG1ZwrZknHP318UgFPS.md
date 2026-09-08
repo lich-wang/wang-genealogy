@@ -4,6 +4,7 @@ id: p_t63aG1ZwrZknHP318UgFPS
 status: active
 merged_into: null
 display_name: 王德合
+cbdb_id: 153849
 revision: 1
 properties:
   - predicate: bio.summary

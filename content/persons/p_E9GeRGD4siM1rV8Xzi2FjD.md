@@ -4,6 +4,7 @@ id: p_E9GeRGD4siM1rV8Xzi2FjD
 status: active
 merged_into: null
 display_name: 王用儀
+cbdb_id: 343615
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_14z56cozKBR178wmK7Q4e5
 status: active
 merged_into: null
 display_name: 王公達
+cbdb_id: 24511
 revision: 1
 properties:
   - predicate: bio.summary

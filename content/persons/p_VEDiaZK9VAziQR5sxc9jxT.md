@@ -4,6 +4,7 @@ id: p_VEDiaZK9VAziQR5sxc9jxT
 status: active
 merged_into: null
 display_name: 王先吉
+cbdb_id: 71552
 revision: 1
 properties:
   - predicate: bio.summary

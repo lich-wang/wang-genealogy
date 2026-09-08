@@ -4,6 +4,7 @@ id: p_18VWWVtKhkMLcAnQxRUhqA
 status: active
 merged_into: null
 display_name: 王啟演
+cbdb_id: 526690
 revision: 1
 properties:
   - predicate: bio.summary

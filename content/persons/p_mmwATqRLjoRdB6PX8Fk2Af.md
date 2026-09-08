@@ -4,6 +4,7 @@ id: p_mmwATqRLjoRdB6PX8Fk2Af
 status: active
 merged_into: null
 display_name: 王夢高
+cbdb_id: 136461
 revision: 1
 properties:
   - predicate: bio.summary

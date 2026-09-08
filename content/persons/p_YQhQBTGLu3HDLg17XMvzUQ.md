@@ -4,6 +4,7 @@ id: p_YQhQBTGLu3HDLg17XMvzUQ
 status: active
 merged_into: null
 display_name: 王褒德
+cbdb_id: 221974
 revision: 1
 properties:
   - predicate: bio.summary

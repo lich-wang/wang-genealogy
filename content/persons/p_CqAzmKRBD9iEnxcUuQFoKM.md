@@ -4,6 +4,7 @@ id: p_CqAzmKRBD9iEnxcUuQFoKM
 status: active
 merged_into: null
 display_name: 王如玖
+cbdb_id: 414232
 revision: 1
 properties:
   - predicate: bio.summary

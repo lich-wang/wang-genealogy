@@ -4,6 +4,7 @@ id: p_o9Ly7NXgeJLDgSWHFeZMoM
 status: active
 merged_into: null
 display_name: 王元欽
+cbdb_id: 140941
 revision: 1
 properties:
   - predicate: bio.summary

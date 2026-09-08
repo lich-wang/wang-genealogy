@@ -4,6 +4,7 @@ id: p_yuxPQkyrP7dfdub5aAyY47
 status: active
 merged_into: null
 display_name: 王众
+cbdb_id: 175558
 revision: 1
 properties:
   - predicate: bio.summary

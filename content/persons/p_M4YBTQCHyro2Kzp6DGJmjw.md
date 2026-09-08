@@ -4,6 +4,7 @@ id: p_M4YBTQCHyro2Kzp6DGJmjw
 status: active
 merged_into: null
 display_name: 王元季
+cbdb_id: 150803
 revision: 1
 properties:
   - predicate: bio.summary

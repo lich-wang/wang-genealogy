@@ -4,6 +4,7 @@ id: p_YzzMWW58D8YcaThYSmHjMN
 status: active
 merged_into: null
 display_name: 王子誠
+cbdb_id: 269542
 revision: 1
 properties:
   - predicate: bio.summary

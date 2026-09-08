@@ -4,6 +4,7 @@ id: p_ceQJJxB3aDomDUeaERx3Tw
 status: active
 merged_into: null
 display_name: 王贊襄
+cbdb_id: 342336
 revision: 1
 properties:
   - predicate: bio.summary

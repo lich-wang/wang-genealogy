@@ -4,6 +4,7 @@ id: p_3w9KiL5k9du8Z7UbUeRxEe
 status: active
 merged_into: null
 display_name: 王楚鳳
+cbdb_id: 305534
 revision: 1
 properties:
   - predicate: bio.summary

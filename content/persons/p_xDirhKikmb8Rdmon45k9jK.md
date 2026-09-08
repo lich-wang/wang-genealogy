@@ -4,6 +4,7 @@ id: p_xDirhKikmb8Rdmon45k9jK
 status: active
 merged_into: null
 display_name: 王三暘
+cbdb_id: 413688
 revision: 1
 properties:
   - predicate: bio.summary

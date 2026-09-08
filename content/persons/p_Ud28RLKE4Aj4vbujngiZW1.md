@@ -4,6 +4,7 @@ id: p_Ud28RLKE4Aj4vbujngiZW1
 status: active
 merged_into: null
 display_name: 王申之
+cbdb_id: 136272
 revision: 1
 properties:
   - predicate: bio.summary

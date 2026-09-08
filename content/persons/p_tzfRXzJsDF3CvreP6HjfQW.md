@@ -4,6 +4,7 @@ id: p_tzfRXzJsDF3CvreP6HjfQW
 status: active
 merged_into: null
 display_name: 王再晟
+cbdb_id: 192505
 revision: 1
 properties:
   - predicate: bio.summary

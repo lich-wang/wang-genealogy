@@ -4,6 +4,7 @@ id: p_KnCP9KH6TPFyDP6s1V9fGB
 status: active
 merged_into: null
 display_name: 王舒綸
+cbdb_id: 58431
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_zmtJUQG7GpnizD8vv9VRWD
 status: active
 merged_into: null
 display_name: 王希呂
+cbdb_id: 39362
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_QN4oHNKtKRwry5cSS7XPvV
 status: active
 merged_into: null
 display_name: 王輔舜
+cbdb_id: 519743
 revision: 1
 properties:
   - predicate: bio.summary

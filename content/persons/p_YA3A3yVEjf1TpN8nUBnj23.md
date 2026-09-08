@@ -4,6 +4,7 @@ id: p_YA3A3yVEjf1TpN8nUBnj23
 status: active
 merged_into: null
 display_name: 王鍾溎
+cbdb_id: 343779
 revision: 1
 properties:
   - predicate: bio.summary

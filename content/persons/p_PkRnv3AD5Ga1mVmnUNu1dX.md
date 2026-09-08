@@ -4,6 +4,7 @@ id: p_PkRnv3AD5Ga1mVmnUNu1dX
 status: active
 merged_into: null
 display_name: 王謀道
+cbdb_id: 415421
 revision: 1
 properties:
   - predicate: bio.summary

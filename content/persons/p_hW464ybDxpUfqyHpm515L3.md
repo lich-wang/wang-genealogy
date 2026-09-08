@@ -4,6 +4,7 @@ id: p_hW464ybDxpUfqyHpm515L3
 status: active
 merged_into: null
 display_name: 王享
+cbdb_id: 413797
 revision: 1
 properties:
   - predicate: bio.summary

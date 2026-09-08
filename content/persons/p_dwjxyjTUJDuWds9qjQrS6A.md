@@ -4,6 +4,7 @@ id: p_dwjxyjTUJDuWds9qjQrS6A
 status: active
 merged_into: null
 display_name: 王之柱
+cbdb_id: 342560
 revision: 1
 properties:
   - predicate: bio.summary

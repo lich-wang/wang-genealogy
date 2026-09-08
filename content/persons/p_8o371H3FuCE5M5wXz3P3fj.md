@@ -4,6 +4,7 @@ id: p_8o371H3FuCE5M5wXz3P3fj
 status: active
 merged_into: null
 display_name: 王肇翥
+cbdb_id: 415306
 revision: 1
 properties:
   - predicate: bio.summary

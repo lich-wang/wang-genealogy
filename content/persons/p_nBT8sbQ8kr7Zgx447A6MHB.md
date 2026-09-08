@@ -4,6 +4,7 @@ id: p_nBT8sbQ8kr7Zgx447A6MHB
 status: active
 merged_into: null
 display_name: 王美君
+cbdb_id: 56631
 revision: 1
 properties:
   - predicate: bio.summary

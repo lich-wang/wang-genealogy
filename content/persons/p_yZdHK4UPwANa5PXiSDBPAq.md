@@ -4,6 +4,7 @@ id: p_yZdHK4UPwANa5PXiSDBPAq
 status: active
 merged_into: null
 display_name: 王銘慎
+cbdb_id: 517409
 revision: 1
 properties:
   - predicate: bio.summary

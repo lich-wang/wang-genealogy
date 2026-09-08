@@ -4,6 +4,7 @@ id: p_xfL6UvEvB9froEHitSGnJF
 status: active
 merged_into: null
 display_name: 王體元
+cbdb_id: 415624
 revision: 1
 properties:
   - predicate: bio.summary

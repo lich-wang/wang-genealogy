@@ -4,6 +4,7 @@ id: p_nmBEwxxvxc5SGj8Xbr51UY
 status: active
 merged_into: null
 display_name: 王啟汸
+cbdb_id: 513443
 revision: 1
 properties:
   - predicate: bio.summary

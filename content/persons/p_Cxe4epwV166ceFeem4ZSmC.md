@@ -4,6 +4,7 @@ id: p_Cxe4epwV166ceFeem4ZSmC
 status: active
 merged_into: null
 display_name: 王師警
+cbdb_id: 185228
 revision: 1
 properties:
   - predicate: bio.summary

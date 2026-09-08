@@ -4,6 +4,7 @@ id: p_FojijtxJJhVsRkF2Bt86Mf
 status: active
 merged_into: null
 display_name: 王汝登
+cbdb_id: 211985
 revision: 1
 properties:
   - predicate: bio.summary

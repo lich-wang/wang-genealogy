@@ -4,6 +4,7 @@ id: p_H96RgBwvc8Z3yM1wUzGMan
 status: active
 merged_into: null
 display_name: 王宏烈
+cbdb_id: 414295
 revision: 1
 properties:
   - predicate: bio.summary

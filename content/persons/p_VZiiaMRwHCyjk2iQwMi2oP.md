@@ -4,6 +4,7 @@ id: p_VZiiaMRwHCyjk2iQwMi2oP
 status: active
 merged_into: null
 display_name: 王仁旭
+cbdb_id: 38305
 revision: 1
 properties:
   - predicate: bio.summary

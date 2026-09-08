@@ -4,6 +4,7 @@ id: p_uD5gNrJFykDpvvhJEVBAse
 status: active
 merged_into: null
 display_name: 王马老
+cbdb_id: 175406
 revision: 1
 properties:
   - predicate: bio.summary

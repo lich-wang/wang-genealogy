@@ -4,6 +4,7 @@ id: p_L4Zft6SMN9QrksCpFx1tX3
 status: active
 merged_into: null
 display_name: 王寧孫
+cbdb_id: 19885
 revision: 1
 properties:
   - predicate: bio.summary

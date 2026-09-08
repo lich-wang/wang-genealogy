@@ -4,6 +4,7 @@ id: p_GSDtNSQeMrvbi1rr5JiEic
 status: active
 merged_into: null
 display_name: 王台老
+cbdb_id: 175403
 revision: 1
 properties:
   - predicate: bio.summary

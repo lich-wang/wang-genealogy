@@ -4,6 +4,7 @@ id: p_fNDQKdiX4EXsh5cDx6tGL7
 status: active
 merged_into: null
 display_name: 王咸融
+cbdb_id: 119747
 revision: 1
 properties:
   - predicate: bio.summary

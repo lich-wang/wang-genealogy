@@ -4,6 +4,7 @@ id: p_XzRWA9VtNLaubLBb8qZGW4
 status: active
 merged_into: null
 display_name: 王佐清
+cbdb_id: 413864
 revision: 1
 properties:
   - predicate: bio.summary

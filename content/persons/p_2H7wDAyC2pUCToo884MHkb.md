@@ -4,6 +4,7 @@ id: p_2H7wDAyC2pUCToo884MHkb
 status: active
 merged_into: null
 display_name: 王陳善
+cbdb_id: 310886
 revision: 1
 properties:
   - predicate: bio.summary

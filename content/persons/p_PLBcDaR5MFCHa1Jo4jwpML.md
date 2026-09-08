@@ -4,6 +4,7 @@ id: p_PLBcDaR5MFCHa1Jo4jwpML
 status: active
 merged_into: null
 display_name: 王紹卿
+cbdb_id: 194266
 revision: 1
 properties:
   - predicate: bio.summary

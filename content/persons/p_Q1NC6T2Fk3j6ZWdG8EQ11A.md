@@ -4,6 +4,7 @@ id: p_Q1NC6T2Fk3j6ZWdG8EQ11A
 status: active
 merged_into: null
 display_name: 王同老
+cbdb_id: 1888
 revision: 2
 properties:
   - predicate: bio.summary

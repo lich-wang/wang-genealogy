@@ -4,6 +4,7 @@ id: p_uBQSNz6265pj7jQUYJU3TJ
 status: active
 merged_into: null
 display_name: 王孫蔚
+cbdb_id: 69343
 revision: 1
 properties:
   - predicate: bio.summary

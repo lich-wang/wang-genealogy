@@ -4,6 +4,7 @@ id: p_oYJGWUyNYPAi41RCr11KNf
 status: active
 merged_into: null
 display_name: 王淺
+cbdb_id: 17816
 revision: 1
 properties:
   - predicate: bio.summary

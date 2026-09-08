@@ -4,6 +4,7 @@ id: p_QQdiGH2WvTaAyGpeBnpjCB
 status: active
 merged_into: null
 display_name: 王垣
+cbdb_id: 514419
 revision: 1
 properties:
   - predicate: bio.summary

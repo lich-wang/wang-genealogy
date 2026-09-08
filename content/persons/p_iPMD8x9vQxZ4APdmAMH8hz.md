@@ -4,6 +4,7 @@ id: p_iPMD8x9vQxZ4APdmAMH8hz
 status: active
 merged_into: null
 display_name: 王汝進
+cbdb_id: 414981
 revision: 1
 properties:
   - predicate: bio.summary

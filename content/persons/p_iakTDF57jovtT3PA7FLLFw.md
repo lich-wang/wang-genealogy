@@ -4,6 +4,7 @@ id: p_iakTDF57jovtT3PA7FLLFw
 status: active
 merged_into: null
 display_name: 王一蘭
+cbdb_id: 413678
 revision: 1
 properties:
   - predicate: bio.summary

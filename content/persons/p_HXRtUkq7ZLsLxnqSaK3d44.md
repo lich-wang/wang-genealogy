@@ -4,6 +4,7 @@ id: p_HXRtUkq7ZLsLxnqSaK3d44
 status: active
 merged_into: null
 display_name: 王庭濟
+cbdb_id: 238291
 revision: 1
 properties:
   - predicate: bio.summary

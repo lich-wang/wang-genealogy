@@ -4,6 +4,7 @@ id: p_vVD23MXXkZ4HHk8p8UyubX
 status: active
 merged_into: null
 display_name: 王慶昌
+cbdb_id: 71603
 revision: 1
 properties:
   - predicate: bio.summary

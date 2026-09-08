@@ -4,6 +4,7 @@ id: p_DtN8Z5QdtH34dfH2KX2i1q
 status: active
 merged_into: null
 display_name: 王夢暘
+cbdb_id: 206693
 revision: 1
 properties:
   - predicate: bio.summary

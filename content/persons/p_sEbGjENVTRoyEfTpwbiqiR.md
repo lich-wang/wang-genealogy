@@ -4,6 +4,7 @@ id: p_sEbGjENVTRoyEfTpwbiqiR
 status: active
 merged_into: null
 display_name: 王思恕
+cbdb_id: 414592
 revision: 1
 properties:
   - predicate: bio.summary

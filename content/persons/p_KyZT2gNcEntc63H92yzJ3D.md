@@ -4,6 +4,7 @@ id: p_KyZT2gNcEntc63H92yzJ3D
 status: active
 merged_into: null
 display_name: 王昭義
+cbdb_id: 97917
 revision: 1
 properties:
   - predicate: bio.summary

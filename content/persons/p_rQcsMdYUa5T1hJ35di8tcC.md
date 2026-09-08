@@ -4,6 +4,7 @@ id: p_rQcsMdYUa5T1hJ35di8tcC
 status: active
 merged_into: null
 display_name: 王一凱
+cbdb_id: 210796
 revision: 1
 properties:
   - predicate: bio.summary

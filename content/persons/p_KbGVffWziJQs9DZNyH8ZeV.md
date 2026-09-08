@@ -4,6 +4,7 @@ id: p_KbGVffWziJQs9DZNyH8ZeV
 status: active
 merged_into: null
 display_name: 王思韓
+cbdb_id: 414598
 revision: 1
 properties:
   - predicate: bio.summary

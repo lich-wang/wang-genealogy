@@ -4,6 +4,7 @@ id: p_gqRqyCB9SbCQ4hrRNwLZxF
 status: active
 merged_into: null
 display_name: 王汝賓
+cbdb_id: 202144
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_Mov7XLzivvCDtjhu2dnYci
 status: active
 merged_into: null
 display_name: 王子庸
+cbdb_id: 45868
 revision: 1
 properties:
   - predicate: bio.summary

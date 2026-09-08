@@ -4,6 +4,7 @@ id: p_vRkVwpywf6cPdYpi4ihv8b
 status: active
 merged_into: null
 display_name: 王循友
+cbdb_id: 1819
 revision: 1
 properties:
   - predicate: bio.summary

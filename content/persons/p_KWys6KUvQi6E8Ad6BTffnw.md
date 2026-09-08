@@ -4,6 +4,7 @@ id: p_KWys6KUvQi6E8Ad6BTffnw
 status: active
 merged_into: null
 display_name: 王有亨
+cbdb_id: 219263
 revision: 1
 properties:
   - predicate: bio.summary

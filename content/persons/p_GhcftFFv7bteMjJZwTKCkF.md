@@ -4,6 +4,7 @@ id: p_GhcftFFv7bteMjJZwTKCkF
 status: active
 merged_into: null
 display_name: 王昌銳
+cbdb_id: 185202
 revision: 1
 properties:
   - predicate: bio.summary

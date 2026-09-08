@@ -4,6 +4,7 @@ id: p_CWrEV263fzPv1NbxCvDuqV
 status: active
 merged_into: null
 display_name: 王瑞徵
+cbdb_id: 341879
 revision: 1
 properties:
   - predicate: bio.summary

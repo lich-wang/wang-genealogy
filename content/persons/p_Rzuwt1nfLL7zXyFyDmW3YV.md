@@ -4,6 +4,7 @@ id: p_Rzuwt1nfLL7zXyFyDmW3YV
 status: active
 merged_into: null
 display_name: 王永爵
+cbdb_id: 414946
 revision: 1
 properties:
   - predicate: bio.summary

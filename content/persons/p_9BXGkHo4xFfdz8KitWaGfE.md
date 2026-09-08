@@ -4,6 +4,7 @@ id: p_9BXGkHo4xFfdz8KitWaGfE
 status: active
 merged_into: null
 display_name: 王貞教
+cbdb_id: 415431
 revision: 1
 properties:
   - predicate: bio.summary

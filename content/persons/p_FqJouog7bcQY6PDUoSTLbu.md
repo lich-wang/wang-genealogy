@@ -4,6 +4,7 @@ id: p_FqJouog7bcQY6PDUoSTLbu
 status: active
 merged_into: null
 display_name: 王鴻詞
+cbdb_id: 72014
 revision: 1
 properties:
   - predicate: bio.summary

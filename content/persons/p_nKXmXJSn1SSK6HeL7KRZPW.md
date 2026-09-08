@@ -4,6 +4,7 @@ id: p_nKXmXJSn1SSK6HeL7KRZPW
 status: active
 merged_into: null
 display_name: 王润
+cbdb_id: 175498
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_Yn5ABuRW9QJNhz87KhQtFX
 status: active
 merged_into: null
 display_name: 王一齊
+cbdb_id: 298425
 revision: 1
 properties:
   - predicate: bio.summary

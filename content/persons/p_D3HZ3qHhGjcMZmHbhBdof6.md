@@ -4,6 +4,7 @@ id: p_D3HZ3qHhGjcMZmHbhBdof6
 status: active
 merged_into: null
 display_name: 王孝詠
+cbdb_id: 71652
 revision: 1
 properties:
   - predicate: bio.summary

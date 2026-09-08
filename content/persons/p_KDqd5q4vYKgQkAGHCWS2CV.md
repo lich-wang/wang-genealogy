@@ -4,6 +4,7 @@ id: p_KDqd5q4vYKgQkAGHCWS2CV
 status: active
 merged_into: null
 display_name: 王錫瑞
+cbdb_id: 72124
 revision: 1
 properties:
   - predicate: bio.summary

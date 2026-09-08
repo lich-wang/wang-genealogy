@@ -4,6 +4,7 @@ id: p_W7sbBGFLw3pXj4tgKRKqhx
 status: active
 merged_into: null
 display_name: 王镐
+cbdb_id: 175474
 revision: 1
 properties:
   - predicate: bio.summary

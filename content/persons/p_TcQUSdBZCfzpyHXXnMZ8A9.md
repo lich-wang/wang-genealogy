@@ -4,6 +4,7 @@ id: p_TcQUSdBZCfzpyHXXnMZ8A9
 status: active
 merged_into: null
 display_name: 王可與
+cbdb_id: 101122
 revision: 1
 properties:
   - predicate: bio.summary

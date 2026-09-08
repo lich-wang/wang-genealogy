@@ -4,6 +4,7 @@ id: p_DS1gkA8YGFKvPgDkcuB1Q1
 status: active
 merged_into: null
 display_name: 王在璋
+cbdb_id: 342962
 revision: 1
 properties:
   - predicate: bio.summary

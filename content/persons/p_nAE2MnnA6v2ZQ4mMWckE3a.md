@@ -4,6 +4,7 @@ id: p_nAE2MnnA6v2ZQ4mMWckE3a
 status: active
 merged_into: null
 display_name: 王朝海
+cbdb_id: 486650
 revision: 1
 properties:
   - predicate: bio.summary

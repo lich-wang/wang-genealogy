@@ -4,6 +4,7 @@ id: p_uZTvuMBYenXTTgLQkWjKGH
 status: active
 merged_into: null
 display_name: 王叔釗
+cbdb_id: 71744
 revision: 1
 properties:
   - predicate: bio.summary

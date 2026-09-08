@@ -4,6 +4,7 @@ id: p_GVwZgkc56EAhrAFNCo5DfJ
 status: active
 merged_into: null
 display_name: 王宗彭
+cbdb_id: 27076
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_dqmEghqiiEQ92yHeRUQXnZ
 status: active
 merged_into: null
 display_name: 王憲恭
+cbdb_id: 235988
 revision: 1
 properties:
   - predicate: bio.summary

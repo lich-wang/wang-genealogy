@@ -4,6 +4,7 @@ id: p_GTieLzNQ74rYisejtAhtGE
 status: active
 merged_into: null
 display_name: 王咸義
+cbdb_id: 27694
 revision: 1
 properties:
   - predicate: bio.summary

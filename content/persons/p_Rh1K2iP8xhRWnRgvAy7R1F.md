@@ -4,6 +4,7 @@ id: p_Rh1K2iP8xhRWnRgvAy7R1F
 status: active
 merged_into: null
 display_name: 王時庸
+cbdb_id: 304774
 revision: 1
 properties:
   - predicate: bio.summary

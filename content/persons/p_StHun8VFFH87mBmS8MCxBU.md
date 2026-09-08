@@ -4,6 +4,7 @@ id: p_StHun8VFFH87mBmS8MCxBU
 status: active
 merged_into: null
 display_name: 王季鋚
+cbdb_id: 526912
 revision: 1
 properties:
   - predicate: bio.summary

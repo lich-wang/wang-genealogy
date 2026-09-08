@@ -4,6 +4,7 @@ id: p_wouX66UGEeX282XPgoi42i
 status: active
 merged_into: null
 display_name: 王家賔
+cbdb_id: 414352
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_FZAbQKQN42srG9zPG5AZm2
 status: active
 merged_into: null
 display_name: 王岱東
+cbdb_id: 342278
 revision: 1
 properties:
   - predicate: bio.summary

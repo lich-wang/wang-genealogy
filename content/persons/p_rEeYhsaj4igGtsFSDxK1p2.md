@@ -4,6 +4,7 @@ id: p_rEeYhsaj4igGtsFSDxK1p2
 status: active
 merged_into: null
 display_name: 王宇文
+cbdb_id: 101160
 revision: 1
 properties:
   - predicate: bio.summary

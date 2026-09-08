@@ -4,6 +4,7 @@ id: p_sEeXqdWXxCSXF7ps67if1m
 status: active
 merged_into: null
 display_name: 王朝器
+cbdb_id: 126721
 revision: 1
 properties:
   - predicate: bio.summary

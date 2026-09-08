@@ -4,6 +4,7 @@ id: p_Kbko8XXuCLNGELepq2P1s4
 status: active
 merged_into: null
 display_name: 王定貴
+cbdb_id: 414327
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_CXcBc6HZ2UF1xVd9cohkZD
 status: active
 merged_into: null
 display_name: 王丕振
+cbdb_id: 413698
 revision: 1
 properties:
   - predicate: bio.summary

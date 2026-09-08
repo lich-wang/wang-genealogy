@@ -4,6 +4,7 @@ id: p_LtJ44Gm8BvQAajeZJNo8mV
 status: active
 merged_into: null
 display_name: 王也先不華
+cbdb_id: 35492
 revision: 1
 properties:
   - predicate: bio.summary

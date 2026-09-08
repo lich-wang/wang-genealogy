@@ -4,6 +4,7 @@ id: p_PjiCcizWbkCtddZkJYPxH2
 status: active
 merged_into: null
 display_name: 王從厚
+cbdb_id: 414533
 revision: 1
 properties:
   - predicate: bio.summary

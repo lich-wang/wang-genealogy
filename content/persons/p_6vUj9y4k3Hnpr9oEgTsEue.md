@@ -4,6 +4,7 @@ id: p_6vUj9y4k3Hnpr9oEgTsEue
 status: active
 merged_into: null
 display_name: 王用懋
+cbdb_id: 472313
 revision: 1
 properties:
   - predicate: bio.summary

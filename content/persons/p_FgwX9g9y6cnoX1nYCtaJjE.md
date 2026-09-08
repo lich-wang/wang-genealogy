@@ -4,6 +4,7 @@ id: p_FgwX9g9y6cnoX1nYCtaJjE
 status: active
 merged_into: null
 display_name: 王仁榮
+cbdb_id: 526901
 revision: 1
 properties:
   - predicate: bio.summary

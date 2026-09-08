@@ -4,6 +4,7 @@ id: p_jJ6uwzEZ3GiRCVSQcjzESL
 status: active
 merged_into: null
 display_name: 王來檄
+cbdb_id: 335620
 revision: 1
 properties:
   - predicate: bio.summary

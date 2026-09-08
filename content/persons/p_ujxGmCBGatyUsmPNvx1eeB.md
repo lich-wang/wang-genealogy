@@ -4,6 +4,7 @@ id: p_ujxGmCBGatyUsmPNvx1eeB
 status: active
 merged_into: null
 display_name: 王绅
+cbdb_id: 28112
 revision: 2
 properties:
   - predicate: bio.summary

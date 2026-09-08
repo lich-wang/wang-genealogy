@@ -4,6 +4,7 @@ id: p_Hp2gs71z7Ej3aTLnCJZ2pJ
 status: active
 merged_into: null
 display_name: 王元選
+cbdb_id: 235478
 revision: 1
 properties:
   - predicate: bio.summary

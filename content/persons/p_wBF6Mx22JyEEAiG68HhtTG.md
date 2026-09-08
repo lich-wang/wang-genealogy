@@ -4,6 +4,7 @@ id: p_wBF6Mx22JyEEAiG68HhtTG
 status: active
 merged_into: null
 display_name: 王仁鼎
+cbdb_id: 413809
 revision: 1
 properties:
   - predicate: bio.summary

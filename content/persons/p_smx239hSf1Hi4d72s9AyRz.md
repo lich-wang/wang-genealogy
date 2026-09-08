@@ -4,6 +4,7 @@ id: p_smx239hSf1Hi4d72s9AyRz
 status: active
 merged_into: null
 display_name: 王坤京
+cbdb_id: 294721
 revision: 1
 properties:
   - predicate: bio.summary

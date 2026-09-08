@@ -4,6 +4,7 @@ id: p_ds7Xs587VEtetVc8UbqxG2
 status: active
 merged_into: null
 display_name: 王學誠
+cbdb_id: 316260
 revision: 1
 properties:
   - predicate: bio.summary

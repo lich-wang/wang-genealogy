@@ -4,6 +4,7 @@ id: p_Xm1UV146ys4gE2RpAVwced
 status: active
 merged_into: null
 display_name: 王仁深
+cbdb_id: 472136
 revision: 1
 properties:
   - predicate: bio.summary

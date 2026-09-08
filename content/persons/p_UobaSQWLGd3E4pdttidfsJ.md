@@ -4,6 +4,7 @@ id: p_UobaSQWLGd3E4pdttidfsJ
 status: active
 merged_into: null
 display_name: 王良賓
+cbdb_id: 342604
 revision: 1
 properties:
   - predicate: bio.summary

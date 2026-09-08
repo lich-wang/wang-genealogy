@@ -4,6 +4,7 @@ id: p_UAmpr69dPGf7GW8GVYTezF
 status: active
 merged_into: null
 display_name: 王師臣
+cbdb_id: 235993
 revision: 1
 properties:
   - predicate: bio.summary

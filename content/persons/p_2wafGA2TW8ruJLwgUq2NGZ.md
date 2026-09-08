@@ -4,6 +4,7 @@ id: p_2wafGA2TW8ruJLwgUq2NGZ
 status: active
 merged_into: null
 display_name: 王彥先
+cbdb_id: 97882
 revision: 1
 properties:
   - predicate: bio.summary

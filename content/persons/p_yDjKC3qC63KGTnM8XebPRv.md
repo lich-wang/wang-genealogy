@@ -4,6 +4,7 @@ id: p_yDjKC3qC63KGTnM8XebPRv
 status: active
 merged_into: null
 display_name: 王裕瑾
+cbdb_id: 280700
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_GUsU2GkiVfyNQksKgfQ34h
 status: active
 merged_into: null
 display_name: 王立志
+cbdb_id: 415206
 revision: 1
 properties:
   - predicate: bio.summary

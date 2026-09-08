@@ -4,6 +4,7 @@ id: p_WPTYDDpAiL1fVi778ZtMum
 status: active
 merged_into: null
 display_name: 王汝孝
+cbdb_id: 342728
 revision: 1
 properties:
   - predicate: bio.summary

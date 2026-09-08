@@ -4,6 +4,7 @@ id: p_DqdY2LB9aP2uPmFA2qtbYm
 status: active
 merged_into: null
 display_name: 王孕懋
+cbdb_id: 126524
 revision: 1
 properties:
   - predicate: bio.summary

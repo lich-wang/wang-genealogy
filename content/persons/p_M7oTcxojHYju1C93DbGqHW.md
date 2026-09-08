@@ -4,6 +4,7 @@ id: p_M7oTcxojHYju1C93DbGqHW
 status: active
 merged_into: null
 display_name: 王錫琯
+cbdb_id: 343807
 revision: 1
 properties:
   - predicate: bio.summary

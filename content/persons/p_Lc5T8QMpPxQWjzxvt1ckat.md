@@ -4,6 +4,7 @@ id: p_Lc5T8QMpPxQWjzxvt1ckat
 status: active
 merged_into: null
 display_name: 王全義
+cbdb_id: 170010
 revision: 1
 properties:
   - predicate: bio.summary

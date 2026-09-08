@@ -4,6 +4,7 @@ id: p_5NQtk9mAwoQps4NSXJ6J6x
 status: active
 merged_into: null
 display_name: 王鵬海
+cbdb_id: 526719
 revision: 2
 properties:
   - predicate: bio.summary

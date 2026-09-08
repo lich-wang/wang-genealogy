@@ -4,6 +4,7 @@ id: p_82AfZXH9hrPyRvPSYGBd19
 status: active
 merged_into: null
 display_name: 王正直
+cbdb_id: 313126
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_EjfvNZV4MZXzkEhT5KVGi1
 status: active
 merged_into: null
 display_name: 王時昶
+cbdb_id: 287098
 revision: 1
 properties:
   - predicate: bio.summary

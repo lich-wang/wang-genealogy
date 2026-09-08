@@ -4,6 +4,7 @@ id: p_D9obMig5jN89VZFYFZHVPZ
 status: active
 merged_into: null
 display_name: 王竹素
+cbdb_id: 121696
 revision: 1
 properties:
   - predicate: bio.summary

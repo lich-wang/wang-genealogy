@@ -4,6 +4,7 @@ id: p_dSuUazziKeCQzdFbsVLHSp
 status: active
 merged_into: null
 display_name: 王珠裕
+cbdb_id: 71934
 revision: 1
 properties:
   - predicate: bio.summary

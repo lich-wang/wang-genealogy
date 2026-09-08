@@ -4,6 +4,7 @@ id: p_WKwHRqa7HXp2iGX9LV8FBY
 status: active
 merged_into: null
 display_name: 王賡旦
+cbdb_id: 415454
 revision: 1
 properties:
   - predicate: bio.summary

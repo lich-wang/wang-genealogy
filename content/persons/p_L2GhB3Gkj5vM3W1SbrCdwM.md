@@ -4,6 +4,7 @@ id: p_L2GhB3Gkj5vM3W1SbrCdwM
 status: active
 merged_into: null
 display_name: 王順賢
+cbdb_id: 307136
 revision: 1
 properties:
   - predicate: bio.summary

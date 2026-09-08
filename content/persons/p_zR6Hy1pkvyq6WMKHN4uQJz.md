@@ -4,6 +4,7 @@ id: p_zR6Hy1pkvyq6WMKHN4uQJz
 status: active
 merged_into: null
 display_name: 王梵志
+cbdb_id: 92072
 revision: 1
 properties:
   - predicate: bio.summary

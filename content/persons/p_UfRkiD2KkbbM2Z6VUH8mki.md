@@ -4,6 +4,7 @@ id: p_UfRkiD2KkbbM2Z6VUH8mki
 status: active
 merged_into: null
 display_name: 王孟保
+cbdb_id: 414256
 revision: 1
 properties:
   - predicate: bio.summary

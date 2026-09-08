@@ -4,6 +4,7 @@ id: p_ho6jwKhrntJjTtg84cL6oq
 status: active
 merged_into: null
 display_name: 王經天
+cbdb_id: 415237
 revision: 1
 properties:
   - predicate: bio.summary

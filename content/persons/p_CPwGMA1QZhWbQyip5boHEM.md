@@ -4,6 +4,7 @@ id: p_CPwGMA1QZhWbQyip5boHEM
 status: active
 merged_into: null
 display_name: 王景珍
+cbdb_id: 151605
 revision: 1
 properties:
   - predicate: bio.summary

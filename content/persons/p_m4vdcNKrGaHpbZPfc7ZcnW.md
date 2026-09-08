@@ -4,6 +4,7 @@ id: p_m4vdcNKrGaHpbZPfc7ZcnW
 status: active
 merged_into: null
 display_name: 王景方
+cbdb_id: 414800
 revision: 1
 properties:
   - predicate: bio.summary

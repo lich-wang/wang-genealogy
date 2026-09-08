@@ -4,6 +4,7 @@ id: p_EmvdTfiVhLSzNGjqDBEQKB
 status: active
 merged_into: null
 display_name: 王世享
+cbdb_id: 413702
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_BUudMPLirLsofmSHESv5xL
 status: active
 merged_into: null
 display_name: 王祥兆
+cbdb_id: 225805
 revision: 1
 properties:
   - predicate: bio.summary

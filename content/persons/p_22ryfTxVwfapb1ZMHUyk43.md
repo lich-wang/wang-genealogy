@@ -4,6 +4,7 @@ id: p_22ryfTxVwfapb1ZMHUyk43
 status: active
 merged_into: null
 display_name: 王象益
+cbdb_id: 235538
 revision: 1
 properties:
   - predicate: bio.summary

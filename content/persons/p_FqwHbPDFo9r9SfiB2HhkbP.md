@@ -4,6 +4,7 @@ id: p_FqwHbPDFo9r9SfiB2HhkbP
 status: active
 merged_into: null
 display_name: 王廷養
+cbdb_id: 414494
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_n3nPq1WofNomL7BU696aia
 status: active
 merged_into: null
 display_name: 王德光
+cbdb_id: 230043
 revision: 1
 properties:
   - predicate: bio.summary

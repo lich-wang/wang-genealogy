@@ -4,6 +4,7 @@ id: p_reALNjDCi9PsL2X5DGaLs5
 status: active
 merged_into: null
 display_name: 王洪儒
+cbdb_id: 415004
 revision: 1
 properties:
   - predicate: bio.summary

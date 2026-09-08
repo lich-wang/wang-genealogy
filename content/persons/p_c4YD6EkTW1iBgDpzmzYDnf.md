@@ -4,6 +4,7 @@ id: p_c4YD6EkTW1iBgDpzmzYDnf
 status: active
 merged_into: null
 display_name: 王可用
+cbdb_id: 414031
 revision: 1
 properties:
   - predicate: bio.summary

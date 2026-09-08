@@ -4,6 +4,7 @@ id: p_3gdkjt43co47VHsAwCLJqd
 status: active
 merged_into: null
 display_name: 王懋貞
+cbdb_id: 337978
 revision: 1
 properties:
   - predicate: bio.summary

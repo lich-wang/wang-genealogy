@@ -4,6 +4,7 @@ id: p_DLWERaAR8sEZNFucA9dZN3
 status: active
 merged_into: null
 display_name: 王仙猷
+cbdb_id: 97783
 revision: 1
 properties:
   - predicate: bio.summary

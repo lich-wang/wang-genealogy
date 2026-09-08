@@ -4,6 +4,7 @@ id: p_n4p43ECzNzGHq1vp3dKsGh
 status: active
 merged_into: null
 display_name: 王國言
+cbdb_id: 300445
 revision: 1
 properties:
   - predicate: bio.summary

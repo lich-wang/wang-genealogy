@@ -4,6 +4,7 @@ id: p_fgfnB4fBgsywWPJDR2RSYZ
 status: active
 merged_into: null
 display_name: 王好文
+cbdb_id: 277026
 revision: 1
 properties:
   - predicate: bio.summary

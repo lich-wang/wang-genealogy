@@ -4,6 +4,7 @@ id: p_cnrEPYET4EEehYc95se4vZ
 status: active
 merged_into: null
 display_name: 王泰階
+cbdb_id: 71930
 revision: 1
 properties:
   - predicate: bio.summary

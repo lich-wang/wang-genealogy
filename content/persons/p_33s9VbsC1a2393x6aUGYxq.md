@@ -4,6 +4,7 @@ id: p_33s9VbsC1a2393x6aUGYxq
 status: active
 merged_into: null
 display_name: 王荃善
+cbdb_id: 343079
 revision: 1
 properties:
   - predicate: bio.summary

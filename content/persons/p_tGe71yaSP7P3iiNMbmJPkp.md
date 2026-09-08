@@ -4,6 +4,7 @@ id: p_tGe71yaSP7P3iiNMbmJPkp
 status: active
 merged_into: null
 display_name: 王登魁
+cbdb_id: 415146
 revision: 1
 properties:
   - predicate: bio.summary

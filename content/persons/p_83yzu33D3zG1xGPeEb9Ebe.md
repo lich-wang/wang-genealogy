@@ -4,6 +4,7 @@ id: p_83yzu33D3zG1xGPeEb9Ebe
 status: active
 merged_into: null
 display_name: 王傅
+cbdb_id: 279739
 revision: 2
 properties:
   - predicate: bio.summary

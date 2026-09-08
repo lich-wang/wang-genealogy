@@ -4,6 +4,7 @@ id: p_4Nm1A6dNPo6MHzQwpKn175
 status: active
 merged_into: null
 display_name: 王紹勲
+cbdb_id: 415227
 revision: 1
 properties:
   - predicate: bio.summary

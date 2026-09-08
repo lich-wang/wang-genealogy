@@ -4,6 +4,7 @@ id: p_1nfJqagcvUJ1YUw4314f5h
 status: active
 merged_into: null
 display_name: 王鏡蓉
+cbdb_id: 526849
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_VLPN2ybQtkqyCPrJiYL7vx
 status: active
 merged_into: null
 display_name: 王之辅
+cbdb_id: 227717
 revision: 2
 properties:
   - predicate: bio.summary

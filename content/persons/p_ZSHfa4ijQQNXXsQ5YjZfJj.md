@@ -4,6 +4,7 @@ id: p_ZSHfa4ijQQNXXsQ5YjZfJj
 status: active
 merged_into: null
 display_name: 王嘉閭
+cbdb_id: 101394
 revision: 1
 properties:
   - predicate: bio.summary

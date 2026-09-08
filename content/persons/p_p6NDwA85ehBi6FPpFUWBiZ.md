@@ -4,6 +4,7 @@ id: p_p6NDwA85ehBi6FPpFUWBiZ
 status: active
 merged_into: null
 display_name: 王规
+cbdb_id: 162329
 revision: 1
 properties:
   - predicate: bio.summary

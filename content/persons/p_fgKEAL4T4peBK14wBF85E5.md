@@ -4,6 +4,7 @@ id: p_fgKEAL4T4peBK14wBF85E5
 status: active
 merged_into: null
 display_name: 王燕緒
+cbdb_id: 136115
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_LQse1MhCVe1jN8oaDADydk
 status: active
 merged_into: null
 display_name: 王乾三
+cbdb_id: 413787
 revision: 1
 properties:
   - predicate: bio.summary

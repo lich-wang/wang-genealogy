@@ -4,6 +4,7 @@ id: p_Jq2yDTSdBE6JgPn4mQWZDR
 status: active
 merged_into: null
 display_name: 王沂
+cbdb_id: 175364
 revision: 1
 properties:
   - predicate: bio.summary

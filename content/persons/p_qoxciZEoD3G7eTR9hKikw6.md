@@ -4,6 +4,7 @@ id: p_qoxciZEoD3G7eTR9hKikw6
 status: active
 merged_into: null
 display_name: 王蔭楠
+cbdb_id: 343115
 revision: 1
 properties:
   - predicate: bio.summary

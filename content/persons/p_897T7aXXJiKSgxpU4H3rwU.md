@@ -4,6 +4,7 @@ id: p_897T7aXXJiKSgxpU4H3rwU
 status: active
 merged_into: null
 display_name: 王昔剌
+cbdb_id: 101255
 revision: 1
 properties:
   - predicate: bio.summary

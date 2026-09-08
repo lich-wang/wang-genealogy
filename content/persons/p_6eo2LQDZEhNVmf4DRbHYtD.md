@@ -4,6 +4,7 @@ id: p_6eo2LQDZEhNVmf4DRbHYtD
 status: active
 merged_into: null
 display_name: 王釐土
+cbdb_id: 343400
 revision: 1
 properties:
   - predicate: bio.summary

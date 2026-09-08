@@ -4,6 +4,7 @@ id: p_9Nv1o3zSRkmnBR6jD8YwLZ
 status: active
 merged_into: null
 display_name: 王致正
+cbdb_id: 236739
 revision: 1
 properties:
   - predicate: bio.summary

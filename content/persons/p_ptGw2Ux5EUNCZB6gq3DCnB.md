@@ -4,6 +4,7 @@ id: p_ptGw2Ux5EUNCZB6gq3DCnB
 status: active
 merged_into: null
 display_name: 王拱仁
+cbdb_id: 279463
 revision: 1
 properties:
   - predicate: bio.summary

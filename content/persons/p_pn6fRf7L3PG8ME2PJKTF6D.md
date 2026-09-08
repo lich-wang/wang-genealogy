@@ -4,6 +4,7 @@ id: p_pn6fRf7L3PG8ME2PJKTF6D
 status: active
 merged_into: null
 display_name: 王師協
+cbdb_id: 142812
 revision: 1
 properties:
   - predicate: bio.summary

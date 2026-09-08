@@ -4,6 +4,7 @@ id: p_DJt4K9mss6BtvsbZD7TW8Q
 status: active
 merged_into: null
 display_name: 王獲麟
+cbdb_id: 477353
 revision: 1
 properties:
   - predicate: bio.summary

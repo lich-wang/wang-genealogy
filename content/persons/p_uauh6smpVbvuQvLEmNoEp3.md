@@ -4,6 +4,7 @@ id: p_uauh6smpVbvuQvLEmNoEp3
 status: active
 merged_into: null
 display_name: 王下賢
+cbdb_id: 413697
 revision: 1
 properties:
   - predicate: bio.summary

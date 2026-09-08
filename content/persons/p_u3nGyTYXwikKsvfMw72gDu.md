@@ -4,6 +4,7 @@ id: p_u3nGyTYXwikKsvfMw72gDu
 status: active
 merged_into: null
 display_name: 王學孟
+cbdb_id: 315448
 revision: 1
 properties:
   - predicate: bio.summary

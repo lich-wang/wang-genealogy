@@ -4,6 +4,7 @@ id: p_wEqzbGB8aCXLD5emfBhrkY
 status: active
 merged_into: null
 display_name: 王原校
+cbdb_id: 327872
 revision: 1
 properties:
   - predicate: bio.summary

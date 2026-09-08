@@ -4,6 +4,7 @@ id: p_5ABX42xiWLQy2Z1PTb9Lca
 status: active
 merged_into: null
 display_name: 王如金
+cbdb_id: 71638
 revision: 1
 properties:
   - predicate: bio.summary

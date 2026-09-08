@@ -4,6 +4,7 @@ id: p_n8otk5J6h144ffRBjB5Udy
 status: active
 merged_into: null
 display_name: 王某象
+cbdb_id: 453379
 revision: 1
 properties:
   - predicate: bio.summary

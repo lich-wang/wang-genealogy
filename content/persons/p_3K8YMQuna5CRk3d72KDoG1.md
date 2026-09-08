@@ -4,6 +4,7 @@ id: p_3K8YMQuna5CRk3d72KDoG1
 status: active
 merged_into: null
 display_name: 王淑民
+cbdb_id: 205869
 revision: 1
 properties:
   - predicate: bio.summary

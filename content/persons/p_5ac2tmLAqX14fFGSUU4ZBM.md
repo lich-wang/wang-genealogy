@@ -4,6 +4,7 @@ id: p_5ac2tmLAqX14fFGSUU4ZBM
 status: active
 merged_into: null
 display_name: 王德譽
+cbdb_id: 101429
 revision: 1
 properties:
   - predicate: bio.summary

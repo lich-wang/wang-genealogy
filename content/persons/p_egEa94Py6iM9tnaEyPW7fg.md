@@ -4,6 +4,7 @@ id: p_egEa94Py6iM9tnaEyPW7fg
 status: active
 merged_into: null
 display_name: 王輯寧
+cbdb_id: 343390
 revision: 1
 properties:
   - predicate: bio.summary

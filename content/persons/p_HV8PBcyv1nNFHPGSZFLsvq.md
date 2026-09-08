@@ -4,6 +4,7 @@ id: p_HV8PBcyv1nNFHPGSZFLsvq
 status: active
 merged_into: null
 display_name: 王勒
+cbdb_id: 413993
 revision: 1
 properties:
   - predicate: bio.summary

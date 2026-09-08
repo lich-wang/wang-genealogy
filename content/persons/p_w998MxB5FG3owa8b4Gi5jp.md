@@ -4,6 +4,7 @@ id: p_w998MxB5FG3owa8b4Gi5jp
 status: active
 merged_into: null
 display_name: 王昭善
+cbdb_id: 287042
 revision: 1
 properties:
   - predicate: bio.summary

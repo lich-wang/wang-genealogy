@@ -4,6 +4,7 @@ id: p_BiLpZkjETeFd25vsXY2m8t
 status: active
 merged_into: null
 display_name: 王宗蔚
+cbdb_id: 71810
 revision: 1
 properties:
   - predicate: bio.summary

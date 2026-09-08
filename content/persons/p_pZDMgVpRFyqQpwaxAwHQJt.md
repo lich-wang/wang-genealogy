@@ -4,6 +4,7 @@ id: p_pZDMgVpRFyqQpwaxAwHQJt
 status: active
 merged_into: null
 display_name: 王大過
+cbdb_id: 97849
 revision: 1
 properties:
   - predicate: bio.summary

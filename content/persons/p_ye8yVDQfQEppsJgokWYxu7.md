@@ -4,6 +4,7 @@ id: p_ye8yVDQfQEppsJgokWYxu7
 status: active
 merged_into: null
 display_name: 王靜涵
+cbdb_id: 72144
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_i523jNhSi3icj5ucoLTLt9
 status: active
 merged_into: null
 display_name: 王處俊
+cbdb_id: 342171
 revision: 1
 properties:
   - predicate: bio.summary

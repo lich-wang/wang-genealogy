@@ -4,6 +4,7 @@ id: p_okT8NSaAK4W9U6Kxgf8vBB
 status: active
 merged_into: null
 display_name: 王慕孫
+cbdb_id: 514243
 revision: 1
 properties:
   - predicate: bio.summary

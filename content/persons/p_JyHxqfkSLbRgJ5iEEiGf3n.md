@@ -4,6 +4,7 @@ id: p_JyHxqfkSLbRgJ5iEEiGf3n
 status: active
 merged_into: null
 display_name: 王惟賓
+cbdb_id: 328628
 revision: 1
 properties:
   - predicate: bio.summary

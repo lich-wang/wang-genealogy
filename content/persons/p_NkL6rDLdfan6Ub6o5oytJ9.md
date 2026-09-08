@@ -4,6 +4,7 @@ id: p_NkL6rDLdfan6Ub6o5oytJ9
 status: active
 merged_into: null
 display_name: 王之言
+cbdb_id: 228833
 revision: 1
 properties:
   - predicate: bio.summary

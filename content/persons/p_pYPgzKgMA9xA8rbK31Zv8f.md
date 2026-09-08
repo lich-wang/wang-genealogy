@@ -4,6 +4,7 @@ id: p_pYPgzKgMA9xA8rbK31Zv8f
 status: active
 merged_into: null
 display_name: 王廷授
+cbdb_id: 341939
 revision: 1
 properties:
   - predicate: bio.summary

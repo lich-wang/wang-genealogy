@@ -4,6 +4,7 @@ id: p_yjJHk4NQLwrMf9GBXWPGfp
 status: active
 merged_into: null
 display_name: 王孟陽
+cbdb_id: 414258
 revision: 1
 properties:
   - predicate: bio.summary

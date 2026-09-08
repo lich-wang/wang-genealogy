@@ -4,6 +4,7 @@ id: p_p4Yai21VqTdzqKrZCcy2NM
 status: active
 merged_into: null
 display_name: 王祖焯
+cbdb_id: 342805
 revision: 1
 properties:
   - predicate: bio.summary

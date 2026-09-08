@@ -4,6 +4,7 @@ id: p_JDtg7PX3MajSBfpNGXkndC
 status: active
 merged_into: null
 display_name: 王晚
+cbdb_id: 247373
 revision: 1
 properties:
   - predicate: bio.summary

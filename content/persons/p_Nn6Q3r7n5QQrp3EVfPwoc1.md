@@ -4,6 +4,7 @@ id: p_Nn6Q3r7n5QQrp3EVfPwoc1
 status: active
 merged_into: null
 display_name: 王肩吾
+cbdb_id: 101257
 revision: 1
 properties:
   - predicate: bio.summary

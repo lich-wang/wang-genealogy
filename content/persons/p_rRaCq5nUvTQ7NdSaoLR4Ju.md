@@ -4,6 +4,7 @@ id: p_rRaCq5nUvTQ7NdSaoLR4Ju
 status: active
 merged_into: null
 display_name: 王忠吉
+cbdb_id: 264628
 revision: 1
 properties:
   - predicate: bio.summary

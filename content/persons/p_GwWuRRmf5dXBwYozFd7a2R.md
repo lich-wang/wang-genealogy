@@ -4,6 +4,7 @@ id: p_GwWuRRmf5dXBwYozFd7a2R
 status: active
 merged_into: null
 display_name: 王我緒
+cbdb_id: 294349
 revision: 1
 properties:
   - predicate: bio.summary

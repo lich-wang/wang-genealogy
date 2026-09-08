@@ -4,6 +4,7 @@ id: p_s4pJCAjTsoPic4xi2YpMo6
 status: active
 merged_into: null
 display_name: 王星若
+cbdb_id: 517431
 revision: 1
 properties:
   - predicate: bio.summary

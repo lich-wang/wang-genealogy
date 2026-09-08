@@ -4,6 +4,7 @@ id: p_EUzAFEWXjUZg2i9K4g9DQQ
 status: active
 merged_into: null
 display_name: 王履眞
+cbdb_id: 414393
 revision: 1
 properties:
   - predicate: bio.summary

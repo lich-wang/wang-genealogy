@@ -4,6 +4,7 @@ id: p_gFD38TcLYY9Xf6WG4cce5D
 status: active
 merged_into: null
 display_name: 王良驥
+cbdb_id: 210733
 revision: 1
 properties:
   - predicate: bio.summary

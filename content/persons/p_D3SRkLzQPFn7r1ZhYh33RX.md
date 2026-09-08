@@ -4,6 +4,7 @@ id: p_D3SRkLzQPFn7r1ZhYh33RX
 status: active
 merged_into: null
 display_name: 王汝則
+cbdb_id: 414960
 revision: 1
 properties:
   - predicate: bio.summary

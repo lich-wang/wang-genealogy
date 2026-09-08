@@ -4,6 +4,7 @@ id: p_8PkzyBKthyWfXrLXageoXK
 status: active
 merged_into: null
 display_name: 王之珍
+cbdb_id: 413755
 revision: 1
 properties:
   - predicate: bio.summary

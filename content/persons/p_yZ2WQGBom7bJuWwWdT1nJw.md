@@ -4,6 +4,7 @@ id: p_yZ2WQGBom7bJuWwWdT1nJw
 status: active
 merged_into: null
 display_name: 王廷琬
+cbdb_id: 341910
 revision: 1
 properties:
   - predicate: bio.summary

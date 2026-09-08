@@ -4,6 +4,7 @@ id: p_sqxP6E3CPWieDjjQ3Lj2e2
 status: active
 merged_into: null
 display_name: 王察某
+cbdb_id: 192496
 revision: 1
 properties:
   - predicate: bio.summary

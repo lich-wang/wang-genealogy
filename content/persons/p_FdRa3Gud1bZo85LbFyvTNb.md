@@ -4,6 +4,7 @@ id: p_FdRa3Gud1bZo85LbFyvTNb
 status: active
 merged_into: null
 display_name: 王報春
+cbdb_id: 60924
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_XCP8Ne2Q4y156vs1dfUzmo
 status: active
 merged_into: null
 display_name: 王景芬
+cbdb_id: 7080
 revision: 1
 properties:
   - predicate: bio.summary

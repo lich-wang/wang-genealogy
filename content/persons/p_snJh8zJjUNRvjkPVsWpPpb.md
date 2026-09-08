@@ -4,6 +4,7 @@ id: p_snJh8zJjUNRvjkPVsWpPpb
 status: active
 merged_into: null
 display_name: 王大來
+cbdb_id: 342909
 revision: 1
 properties:
   - predicate: bio.summary

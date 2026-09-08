@@ -4,6 +4,7 @@ id: p_D3a6ys1WW9Fr6DZXPLMYia
 status: active
 merged_into: null
 display_name: 王御
+cbdb_id: 54316
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_PoHTWn7CrXrY2GWV8Wcx41
 status: active
 merged_into: null
 display_name: 王開期
+cbdb_id: 343670
 revision: 1
 properties:
   - predicate: bio.summary

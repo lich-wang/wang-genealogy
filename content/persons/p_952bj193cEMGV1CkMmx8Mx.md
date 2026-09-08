@@ -4,6 +4,7 @@ id: p_952bj193cEMGV1CkMmx8Mx
 status: active
 merged_into: null
 display_name: 王應秋
+cbdb_id: 212301
 revision: 1
 properties:
   - predicate: bio.summary

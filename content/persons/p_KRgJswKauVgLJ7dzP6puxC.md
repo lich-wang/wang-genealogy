@@ -4,6 +4,7 @@ id: p_KRgJswKauVgLJ7dzP6puxC
 status: active
 merged_into: null
 display_name: 王新運
+cbdb_id: 414758
 revision: 1
 properties:
   - predicate: bio.summary

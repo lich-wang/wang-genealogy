@@ -4,6 +4,7 @@ id: p_tx98ZJJ7cXHx67RAXvKkLb
 status: active
 merged_into: null
 display_name: 王之栋
+cbdb_id: 217740
 revision: 1
 properties:
   - predicate: bio.summary

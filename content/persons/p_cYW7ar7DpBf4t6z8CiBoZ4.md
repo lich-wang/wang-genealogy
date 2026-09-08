@@ -4,6 +4,7 @@ id: p_cYW7ar7DpBf4t6z8CiBoZ4
 status: active
 merged_into: null
 display_name: 王資益
+cbdb_id: 342823
 revision: 1
 properties:
   - predicate: bio.summary

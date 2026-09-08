@@ -4,6 +4,7 @@ id: p_TJccrjGLQnbx2Aqp31nmhW
 status: active
 merged_into: null
 display_name: 王洵仁
+cbdb_id: 526772
 revision: 1
 properties:
   - predicate: bio.summary

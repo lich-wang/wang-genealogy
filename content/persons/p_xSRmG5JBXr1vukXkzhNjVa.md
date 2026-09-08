@@ -4,6 +4,7 @@ id: p_xSRmG5JBXr1vukXkzhNjVa
 status: active
 merged_into: null
 display_name: 王仲博
+cbdb_id: 36788
 revision: 1
 properties:
   - predicate: bio.summary

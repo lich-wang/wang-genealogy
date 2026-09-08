@@ -4,6 +4,7 @@ id: p_tE38h7PQT2RGTDHJYfdJbH
 status: active
 merged_into: null
 display_name: 王鍾秀
+cbdb_id: 30063
 revision: 1
 properties:
   - predicate: bio.summary

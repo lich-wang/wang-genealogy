@@ -4,6 +4,7 @@ id: p_Y3hGU45P2mcc267FmG9iUj
 status: active
 merged_into: null
 display_name: 王尚輔
+cbdb_id: 22141
 revision: 1
 properties:
   - predicate: bio.summary

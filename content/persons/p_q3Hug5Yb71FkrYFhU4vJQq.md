@@ -4,6 +4,7 @@ id: p_q3Hug5Yb71FkrYFhU4vJQq
 status: active
 merged_into: null
 display_name: 王紫紳
+cbdb_id: 342182
 revision: 1
 properties:
   - predicate: bio.summary

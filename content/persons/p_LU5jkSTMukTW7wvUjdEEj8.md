@@ -4,6 +4,7 @@ id: p_LU5jkSTMukTW7wvUjdEEj8
 status: active
 merged_into: null
 display_name: 郑氏
+cbdb_id: 254717
 revision: 1
 properties:
   - predicate: bio.summary

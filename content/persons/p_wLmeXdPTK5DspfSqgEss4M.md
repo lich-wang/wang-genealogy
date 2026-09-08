@@ -4,6 +4,7 @@ id: p_wLmeXdPTK5DspfSqgEss4M
 status: active
 merged_into: null
 display_name: 王必高
+cbdb_id: 274037
 revision: 1
 properties:
   - predicate: bio.summary

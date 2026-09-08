@@ -4,6 +4,7 @@ id: p_NXZtqANwda3bgHFfd4tm2D
 status: active
 merged_into: null
 display_name: 王葆清
+cbdb_id: 72043
 revision: 1
 properties:
   - predicate: bio.summary

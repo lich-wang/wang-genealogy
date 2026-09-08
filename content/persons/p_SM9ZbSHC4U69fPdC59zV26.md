@@ -4,6 +4,7 @@ id: p_SM9ZbSHC4U69fPdC59zV26
 status: active
 merged_into: null
 display_name: 王玉珂
+cbdb_id: 341746
 revision: 1
 properties:
   - predicate: bio.summary

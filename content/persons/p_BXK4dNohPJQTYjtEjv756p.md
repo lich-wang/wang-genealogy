@@ -4,6 +4,7 @@ id: p_BXK4dNohPJQTYjtEjv756p
 status: active
 merged_into: null
 display_name: 王延钧
+cbdb_id: 11521
 revision: 2
 properties:
   - predicate: bio.summary

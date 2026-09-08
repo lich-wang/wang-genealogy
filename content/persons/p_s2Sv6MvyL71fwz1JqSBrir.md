@@ -4,6 +4,7 @@ id: p_s2Sv6MvyL71fwz1JqSBrir
 status: active
 merged_into: null
 display_name: 王仁
+cbdb_id: 333133
 revision: 1
 properties:
   - predicate: name.primary

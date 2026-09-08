@@ -4,6 +4,7 @@ id: p_Ao4pT7PM9r4HFGEPCJyEmY
 status: active
 merged_into: null
 display_name: 王叔毅
+cbdb_id: 101228
 revision: 1
 properties:
   - predicate: bio.summary

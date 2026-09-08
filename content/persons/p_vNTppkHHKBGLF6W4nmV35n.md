@@ -4,6 +4,7 @@ id: p_vNTppkHHKBGLF6W4nmV35n
 status: active
 merged_into: null
 display_name: 王涵煉
+cbdb_id: 415020
 revision: 1
 properties:
   - predicate: bio.summary

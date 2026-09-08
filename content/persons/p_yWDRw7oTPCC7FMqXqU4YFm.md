@@ -4,6 +4,7 @@ id: p_yWDRw7oTPCC7FMqXqU4YFm
 status: active
 merged_into: null
 display_name: 王贾
+cbdb_id: 175497
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_TBymA1M9JA1ksEN3BsmNi6
 status: active
 merged_into: null
 display_name: 王緯璧
+cbdb_id: 517770
 revision: 1
 properties:
   - predicate: bio.summary

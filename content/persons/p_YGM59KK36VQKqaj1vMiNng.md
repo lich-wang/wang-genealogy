@@ -4,6 +4,7 @@ id: p_YGM59KK36VQKqaj1vMiNng
 status: active
 merged_into: null
 display_name: 王志授
+cbdb_id: 342997
 revision: 1
 properties:
   - predicate: bio.summary

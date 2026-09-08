@@ -4,6 +4,7 @@ id: p_4BZEjb4RmSoM8g2SGinzYD
 status: active
 merged_into: null
 display_name: 王訓賢
+cbdb_id: 214160
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_uDdLmYU9jfQUkQM2GiCthQ
 status: active
 merged_into: null
 display_name: 王文章
+cbdb_id: 69031
 revision: 1
 properties:
   - predicate: bio.summary

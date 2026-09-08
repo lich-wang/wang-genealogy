@@ -4,6 +4,7 @@ id: p_TRtJneYSY8YR9kEAnqFWse
 status: active
 merged_into: null
 display_name: 王晉豐
+cbdb_id: 517399
 revision: 1
 properties:
   - predicate: bio.summary

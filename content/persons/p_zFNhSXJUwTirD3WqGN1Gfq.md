@@ -4,6 +4,7 @@ id: p_zFNhSXJUwTirD3WqGN1Gfq
 status: active
 merged_into: null
 display_name: 王應銑
+cbdb_id: 304277
 revision: 1
 properties:
   - predicate: bio.summary

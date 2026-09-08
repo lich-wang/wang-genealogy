@@ -4,6 +4,7 @@ id: p_tGgX2QEfvBTpBpZa1o438e
 status: active
 merged_into: null
 display_name: 王務民
+cbdb_id: 38114
 revision: 1
 properties:
   - predicate: bio.summary

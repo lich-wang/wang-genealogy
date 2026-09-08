@@ -4,6 +4,7 @@ id: p_9GRoG38Kf26ZzhTwV1oNE8
 status: active
 merged_into: null
 display_name: 王招
+cbdb_id: 414689
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_wV4tfa6rqeec47q9qXtyoE
 status: active
 merged_into: null
 display_name: 王庸世
+cbdb_id: 526180
 revision: 1
 properties:
   - predicate: bio.summary

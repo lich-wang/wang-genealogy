@@ -4,6 +4,7 @@ id: p_DZfu6jZdGvm828i5ZvsqF9
 status: active
 merged_into: null
 display_name: 王韻香
+cbdb_id: 122028
 revision: 1
 properties:
   - predicate: bio.summary

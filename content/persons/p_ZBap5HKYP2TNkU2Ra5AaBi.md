@@ -4,6 +4,7 @@ id: p_ZBap5HKYP2TNkU2Ra5AaBi
 status: active
 merged_into: null
 display_name: 王印保
+cbdb_id: 526777
 revision: 1
 properties:
   - predicate: bio.summary

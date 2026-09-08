@@ -4,6 +4,7 @@ id: p_8MiHWup5G4Se9K4k1rNvvW
 status: active
 merged_into: null
 display_name: 王維方
+cbdb_id: 101402
 revision: 1
 properties:
   - predicate: bio.summary

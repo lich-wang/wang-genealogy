@@ -4,6 +4,7 @@ id: p_MDTxBhAMjQG132jNt8B4BG
 status: active
 merged_into: null
 display_name: 王懽
+cbdb_id: 175523
 revision: 1
 properties:
   - predicate: bio.summary

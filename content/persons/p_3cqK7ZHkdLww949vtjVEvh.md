@@ -4,6 +4,7 @@ id: p_3cqK7ZHkdLww949vtjVEvh
 status: active
 merged_into: null
 display_name: 王召卿
+cbdb_id: 414027
 revision: 1
 properties:
   - predicate: bio.summary

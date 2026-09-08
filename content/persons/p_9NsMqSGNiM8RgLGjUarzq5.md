@@ -4,6 +4,7 @@ id: p_9NsMqSGNiM8RgLGjUarzq5
 status: active
 merged_into: null
 display_name: 王若納
+cbdb_id: 26351
 revision: 1
 properties:
   - predicate: bio.summary

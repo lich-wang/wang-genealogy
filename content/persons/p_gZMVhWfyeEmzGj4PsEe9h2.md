@@ -4,6 +4,7 @@ id: p_gZMVhWfyeEmzGj4PsEe9h2
 status: active
 merged_into: null
 display_name: 王廷謙
+cbdb_id: 526698
 revision: 1
 properties:
   - predicate: bio.summary

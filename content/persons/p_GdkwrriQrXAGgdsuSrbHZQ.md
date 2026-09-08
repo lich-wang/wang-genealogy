@@ -4,6 +4,7 @@ id: p_GdkwrriQrXAGgdsuSrbHZQ
 status: active
 merged_into: null
 display_name: 王榮卿
+cbdb_id: 239751
 revision: 1
 properties:
   - predicate: bio.summary

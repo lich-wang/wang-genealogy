@@ -4,6 +4,7 @@ id: p_sPY9hApmcYqheKRo9zHsds
 status: active
 merged_into: null
 display_name: 王審起
+cbdb_id: 97869
 revision: 1
 properties:
   - predicate: bio.summary

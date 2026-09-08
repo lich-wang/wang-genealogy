@@ -4,6 +4,7 @@ id: p_6kSqeA8nzyjebN8S1STKeB
 status: active
 merged_into: null
 display_name: 王推
+cbdb_id: 22936
 revision: 1
 properties:
   - predicate: bio.summary

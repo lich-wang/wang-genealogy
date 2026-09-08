@@ -4,6 +4,7 @@ id: p_U94bu44wMpk3QBcBNXBwq6
 status: active
 merged_into: null
 display_name: 王復春
+cbdb_id: 414541
 revision: 1
 properties:
   - predicate: bio.summary

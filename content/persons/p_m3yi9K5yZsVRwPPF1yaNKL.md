@@ -4,6 +4,7 @@ id: p_m3yi9K5yZsVRwPPF1yaNKL
 status: active
 merged_into: null
 display_name: 王國翼
+cbdb_id: 207372
 revision: 1
 properties:
   - predicate: bio.summary

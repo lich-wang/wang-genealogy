@@ -4,6 +4,7 @@ id: p_mAwMg2bFvFHzqyHw88Q29Y
 status: active
 merged_into: null
 display_name: 王延童
+cbdb_id: 690390
 revision: 1
 properties:
   - predicate: bio.summary

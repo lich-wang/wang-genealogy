@@ -4,6 +4,7 @@ id: p_BaArq1ArX6B56176RxJY8C
 status: active
 merged_into: null
 display_name: 王頌霖
+cbdb_id: 71959
 revision: 1
 properties:
   - predicate: bio.summary

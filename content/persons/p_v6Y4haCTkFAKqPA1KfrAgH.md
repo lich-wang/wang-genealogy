@@ -4,6 +4,7 @@ id: p_v6Y4haCTkFAKqPA1KfrAgH
 status: active
 merged_into: null
 display_name: 王克禮
+cbdb_id: 413955
 revision: 1
 properties:
   - predicate: bio.summary

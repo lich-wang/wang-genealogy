@@ -4,6 +4,7 @@ id: p_EMU4pX4z4qRFz6L3iM1NYp
 status: active
 merged_into: null
 display_name: 王左
+cbdb_id: 288565
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_oREt11jH9kA8Wdz1Yqzk92
 status: active
 merged_into: null
 display_name: 王暠雲
+cbdb_id: 72159
 revision: 1
 properties:
   - predicate: bio.summary

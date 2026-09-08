@@ -4,6 +4,7 @@ id: p_EW8EydaZ8wxDcvfR19G4ZY
 status: active
 merged_into: null
 display_name: 王均稅
+cbdb_id: 254335
 revision: 1
 properties:
   - predicate: bio.summary

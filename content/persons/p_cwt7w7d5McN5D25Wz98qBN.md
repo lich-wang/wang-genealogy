@@ -4,6 +4,7 @@ id: p_cwt7w7d5McN5D25Wz98qBN
 status: active
 merged_into: null
 display_name: 王伯序
+cbdb_id: 17445
 revision: 1
 properties:
   - predicate: bio.summary

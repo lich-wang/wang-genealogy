@@ -4,6 +4,7 @@ id: p_b2MWJoRPw8eQD6tKTBzWN2
 status: active
 merged_into: null
 display_name: 王信之
+cbdb_id: 239110
 revision: 1
 properties:
   - predicate: bio.summary

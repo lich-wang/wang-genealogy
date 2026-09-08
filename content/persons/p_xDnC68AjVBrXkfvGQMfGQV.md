@@ -4,6 +4,7 @@ id: p_xDnC68AjVBrXkfvGQMfGQV
 status: active
 merged_into: null
 display_name: 王國衡
+cbdb_id: 226717
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_ZEMLGDTnxRPNgvSDEyJC8w
 status: active
 merged_into: null
 display_name: 王文簡
+cbdb_id: 36399
 revision: 1
 properties:
   - predicate: bio.summary

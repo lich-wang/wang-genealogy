@@ -4,6 +4,7 @@ id: p_fkptU31NgUVBykD6RxY5QD
 status: active
 merged_into: null
 display_name: 王嶼孫
+cbdb_id: 342410
 revision: 1
 properties:
   - predicate: bio.summary

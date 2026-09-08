@@ -4,6 +4,7 @@ id: p_r45Lkbpe9jd5Ba1Ediq7hy
 status: active
 merged_into: null
 display_name: 王洪基
+cbdb_id: 415006
 revision: 1
 properties:
   - predicate: bio.summary

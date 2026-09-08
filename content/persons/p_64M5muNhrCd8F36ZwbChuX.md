@@ -4,6 +4,7 @@ id: p_64M5muNhrCd8F36ZwbChuX
 status: active
 merged_into: null
 display_name: 王思欽
+cbdb_id: 164336
 revision: 1
 properties:
   - predicate: bio.summary

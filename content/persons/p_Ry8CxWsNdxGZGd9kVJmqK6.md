@@ -4,6 +4,7 @@ id: p_Ry8CxWsNdxGZGd9kVJmqK6
 status: active
 merged_into: null
 display_name: 王淑吉
+cbdb_id: 331197
 revision: 1
 properties:
   - predicate: bio.summary

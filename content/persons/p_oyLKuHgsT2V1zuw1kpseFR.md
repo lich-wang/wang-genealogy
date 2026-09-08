@@ -4,6 +4,7 @@ id: p_oyLKuHgsT2V1zuw1kpseFR
 status: active
 merged_into: null
 display_name: 王嗣三
+cbdb_id: 233004
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_3YfGj4is8xidR3bZEoJwJr
 status: active
 merged_into: null
 display_name: 薛氏
+cbdb_id: 154134
 revision: 1
 properties:
   - predicate: bio.summary

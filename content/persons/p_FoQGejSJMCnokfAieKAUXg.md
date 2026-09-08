@@ -4,6 +4,7 @@ id: p_FoQGejSJMCnokfAieKAUXg
 status: active
 merged_into: null
 display_name: 王汝臣
+cbdb_id: 284226
 revision: 1
 properties:
   - predicate: bio.summary

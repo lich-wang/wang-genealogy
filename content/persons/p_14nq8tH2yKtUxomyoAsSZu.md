@@ -4,6 +4,7 @@ id: p_14nq8tH2yKtUxomyoAsSZu
 status: active
 merged_into: null
 display_name: 王者臣
+cbdb_id: 343159
 revision: 1
 properties:
   - predicate: bio.summary

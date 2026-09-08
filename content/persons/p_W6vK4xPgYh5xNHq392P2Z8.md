@@ -4,6 +4,7 @@ id: p_W6vK4xPgYh5xNHq392P2Z8
 status: active
 merged_into: null
 display_name: 王丕曾
+cbdb_id: 69534
 revision: 1
 properties:
   - predicate: bio.summary

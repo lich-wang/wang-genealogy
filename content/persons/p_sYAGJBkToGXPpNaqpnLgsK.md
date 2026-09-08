@@ -4,6 +4,7 @@ id: p_sYAGJBkToGXPpNaqpnLgsK
 status: active
 merged_into: null
 display_name: 王頒
+cbdb_id: 415602
 revision: 1
 properties:
   - predicate: bio.summary

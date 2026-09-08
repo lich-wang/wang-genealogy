@@ -4,6 +4,7 @@ id: p_1Cgnj5Am2fgM4cVN9JQz9z
 status: active
 merged_into: null
 display_name: 王凱冲
+cbdb_id: 151566
 revision: 1
 properties:
   - predicate: bio.summary

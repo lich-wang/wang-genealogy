@@ -4,6 +4,7 @@ id: p_at4QoeZfU9nbj6i9mG5Vre
 status: active
 merged_into: null
 display_name: 王應遇
+cbdb_id: 341559
 revision: 1
 properties:
   - predicate: bio.summary

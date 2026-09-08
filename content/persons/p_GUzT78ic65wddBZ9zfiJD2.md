@@ -4,6 +4,7 @@ id: p_GUzT78ic65wddBZ9zfiJD2
 status: active
 merged_into: null
 display_name: 王鍾麒
+cbdb_id: 71886
 revision: 1
 properties:
   - predicate: bio.summary

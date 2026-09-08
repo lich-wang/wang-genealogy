@@ -4,6 +4,7 @@ id: p_SRfUKQqteav4tZouZgQHsC
 status: active
 merged_into: null
 display_name: 王瑞祥
+cbdb_id: 72103
 revision: 1
 properties:
   - predicate: bio.summary

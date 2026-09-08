@@ -4,6 +4,7 @@ id: p_kVhUcbKAKsPpj1EHFizJ7Z
 status: active
 merged_into: null
 display_name: 王恆直
+cbdb_id: 185295
 revision: 1
 properties:
   - predicate: bio.summary

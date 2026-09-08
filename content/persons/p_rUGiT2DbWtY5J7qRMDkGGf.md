@@ -4,6 +4,7 @@ id: p_rUGiT2DbWtY5J7qRMDkGGf
 status: active
 merged_into: null
 display_name: 王渭老
+cbdb_id: 415032
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_Wru3goaote1jcMCQy1KJ5F
 status: active
 merged_into: null
 display_name: 王淵學
+cbdb_id: 415024
 revision: 1
 properties:
   - predicate: bio.summary

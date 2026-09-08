@@ -4,6 +4,7 @@ id: p_C7v8aLYTLh1AE6KDrKiF4r
 status: active
 merged_into: null
 display_name: 王士仲
+cbdb_id: 414159
 revision: 1
 properties:
   - predicate: bio.summary

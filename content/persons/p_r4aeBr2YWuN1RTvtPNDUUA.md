@@ -4,6 +4,7 @@ id: p_r4aeBr2YWuN1RTvtPNDUUA
 status: active
 merged_into: null
 display_name: 王蕙卿
+cbdb_id: 122343
 revision: 1
 properties:
   - predicate: bio.summary

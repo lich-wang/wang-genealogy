@@ -4,6 +4,7 @@ id: p_YaxMbMnJ8Da9KdF3UpC5kq
 status: active
 merged_into: null
 display_name: 王神感
+cbdb_id: 147840
 revision: 1
 properties:
   - predicate: bio.summary

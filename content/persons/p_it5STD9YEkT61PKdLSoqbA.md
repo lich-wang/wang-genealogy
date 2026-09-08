@@ -4,6 +4,7 @@ id: p_it5STD9YEkT61PKdLSoqbA
 status: active
 merged_into: null
 display_name: 王芝莊
+cbdb_id: 415340
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_k34ZxihPVrsTG6XCDpNhfP
 status: active
 merged_into: null
 display_name: 王學漁
+cbdb_id: 306735
 revision: 1
 properties:
   - predicate: bio.summary

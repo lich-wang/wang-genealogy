@@ -4,6 +4,7 @@ id: p_YZgMMK2h5d44s5CGoUpM7o
 status: active
 merged_into: null
 display_name: 王盧
+cbdb_id: 198449
 revision: 1
 properties:
   - predicate: bio.summary

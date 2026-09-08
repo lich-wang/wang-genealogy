@@ -4,6 +4,7 @@ id: p_CxGK66CGQTocSW3DdK8C5x
 status: active
 merged_into: null
 display_name: 王承仅
+cbdb_id: 17753
 revision: 1
 properties:
   - predicate: bio.summary

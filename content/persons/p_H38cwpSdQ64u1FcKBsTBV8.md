@@ -4,6 +4,7 @@ id: p_H38cwpSdQ64u1FcKBsTBV8
 status: active
 merged_into: null
 display_name: 王壽慈
+cbdb_id: 61349
 revision: 1
 properties:
   - predicate: bio.summary

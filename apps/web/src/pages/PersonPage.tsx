@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { Download, GitFork, Home, Info, PenLine, Users } from 'lucide-react';
+import { Download, ExternalLink, GitFork, Home, Info, PenLine, Users } from 'lucide-react';
 import type { ClaimWithSources, PersonSummary } from '@wang/domain';
 import { api } from '../api';
 import { relationshipGenerationCount, relationshipParentRole } from '../format';
@@ -79,6 +79,16 @@ export function PersonPage() {
             <div className="person-meta">
               <PersonStatusBadge status={person.status} />
               <span className="revision-label">{t(`资料版本 ${summary.current_revision}`)}</span>
+              {summary.cbdb_id ? (
+                <a
+                  className="cbdb-link"
+                  href={`https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=${summary.cbdb_id}&o=json`}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  CBDB {summary.cbdb_id}<ExternalLink size={13} aria-hidden="true" />
+                </a>
+              ) : null}
             </div>
           </div>
           <Link className="btn person-tree-action" to={`/persons/${encodeURIComponent(person.id)}/tree`}>

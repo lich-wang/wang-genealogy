@@ -4,6 +4,7 @@ id: p_uKCBzbTyWs2fYVFjAf8n4A
 status: active
 merged_into: null
 display_name: 王智崇
+cbdb_id: 159061
 revision: 1
 properties:
   - predicate: bio.summary

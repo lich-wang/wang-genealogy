@@ -4,6 +4,7 @@ id: p_fSHYJFsqTgJ7S9u3wfwDUd
 status: active
 merged_into: null
 display_name: 王仲良
+cbdb_id: 413844
 revision: 1
 properties:
   - predicate: bio.summary

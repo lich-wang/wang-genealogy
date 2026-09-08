@@ -4,6 +4,7 @@ id: p_96BxodT5MiXx3oFPqpeKMP
 status: active
 merged_into: null
 display_name: 王德昂
+cbdb_id: 232691
 revision: 1
 properties:
   - predicate: bio.summary

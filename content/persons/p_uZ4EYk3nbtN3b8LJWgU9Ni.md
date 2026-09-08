@@ -4,6 +4,7 @@ id: p_uZ4EYk3nbtN3b8LJWgU9Ni
 status: active
 merged_into: null
 display_name: 王令之
+cbdb_id: 167724
 revision: 1
 properties:
   - predicate: bio.summary

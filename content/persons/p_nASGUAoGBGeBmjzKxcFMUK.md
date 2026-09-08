@@ -4,6 +4,7 @@ id: p_nASGUAoGBGeBmjzKxcFMUK
 status: active
 merged_into: null
 display_name: 王蓉初
+cbdb_id: 415373
 revision: 1
 properties:
   - predicate: bio.summary

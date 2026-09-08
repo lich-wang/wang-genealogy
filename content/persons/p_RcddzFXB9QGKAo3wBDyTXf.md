@@ -4,6 +4,7 @@ id: p_RcddzFXB9QGKAo3wBDyTXf
 status: active
 merged_into: null
 display_name: 王正賢
+cbdb_id: 493035
 revision: 1
 properties:
   - predicate: bio.summary

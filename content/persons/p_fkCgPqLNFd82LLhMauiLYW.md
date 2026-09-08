@@ -4,6 +4,7 @@ id: p_fkCgPqLNFd82LLhMauiLYW
 status: active
 merged_into: null
 display_name: 王憲恩
+cbdb_id: 414629
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_S4kseHZzKj5fJb2NRRxfLT
 status: active
 merged_into: null
 display_name: 王伯度
+cbdb_id: 36234
 revision: 1
 properties:
   - predicate: bio.summary

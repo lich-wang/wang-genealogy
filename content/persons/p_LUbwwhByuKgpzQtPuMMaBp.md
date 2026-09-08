@@ -4,6 +4,7 @@ id: p_LUbwwhByuKgpzQtPuMMaBp
 status: active
 merged_into: null
 display_name: 王光經
+cbdb_id: 343882
 revision: 1
 properties:
   - predicate: bio.summary

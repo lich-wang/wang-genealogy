@@ -4,6 +4,7 @@ id: p_8mExp5yMEpk6UPfybMARKS
 status: active
 merged_into: null
 display_name: 王世儉
+cbdb_id: 285108
 revision: 1
 properties:
   - predicate: bio.summary

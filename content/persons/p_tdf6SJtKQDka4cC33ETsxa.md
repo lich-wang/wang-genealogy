@@ -4,6 +4,7 @@ id: p_tdf6SJtKQDka4cC33ETsxa
 status: active
 merged_into: null
 display_name: 王與誥
+cbdb_id: 415325
 revision: 1
 properties:
   - predicate: bio.summary

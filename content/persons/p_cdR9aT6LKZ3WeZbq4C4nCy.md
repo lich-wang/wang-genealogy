@@ -4,6 +4,7 @@ id: p_cdR9aT6LKZ3WeZbq4C4nCy
 status: active
 merged_into: null
 display_name: 王熏
+cbdb_id: 97957
 revision: 1
 properties:
   - predicate: bio.summary

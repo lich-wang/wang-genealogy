@@ -4,6 +4,7 @@ id: p_2PEwTfAE3FWrEZC6jX8ECZ
 status: active
 merged_into: null
 display_name: 王象雲
+cbdb_id: 342394
 revision: 1
 properties:
   - predicate: bio.summary

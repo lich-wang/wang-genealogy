@@ -4,6 +4,7 @@ id: p_6dLBtnRVDbQe7NTeFE5RtU
 status: active
 merged_into: null
 display_name: 王長忻
+cbdb_id: 134479
 revision: 1
 properties:
   - predicate: bio.summary

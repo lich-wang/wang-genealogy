@@ -4,6 +4,7 @@ id: p_b9PphcCd1K3vSN9YazyhLY
 status: active
 merged_into: null
 display_name: 王曰升
+cbdb_id: 71394
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_gE2ff1MhtDCCafuKa4FbJ6
 status: active
 merged_into: null
 display_name: 王問達
+cbdb_id: 414065
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_seb87HYPLPD1wJaavpDMMc
 status: active
 merged_into: null
 display_name: 王克謹
+cbdb_id: 97810
 revision: 1
 properties:
   - predicate: bio.summary

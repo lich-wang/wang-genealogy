@@ -4,6 +4,7 @@ id: p_QQFn116LPiaHWnUPtVthDQ
 status: active
 merged_into: null
 display_name: 王鴻才
+cbdb_id: 415643
 revision: 1
 properties:
   - predicate: bio.summary

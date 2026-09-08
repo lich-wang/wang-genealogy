@@ -4,6 +4,7 @@ id: p_7orRPC4dAUdKkVVhgcBrpS
 status: active
 merged_into: null
 display_name: 王繼昭
+cbdb_id: 215086
 revision: 1
 properties:
   - predicate: bio.summary

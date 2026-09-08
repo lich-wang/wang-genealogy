@@ -4,6 +4,7 @@ id: p_6HcTFXM8o7jGP9HyscW8Hm
 status: active
 merged_into: null
 display_name: 王胤祥
+cbdb_id: 126623
 revision: 1
 properties:
   - predicate: bio.summary

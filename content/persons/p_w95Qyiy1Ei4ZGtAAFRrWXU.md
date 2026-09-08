@@ -4,6 +4,7 @@ id: p_w95Qyiy1Ei4ZGtAAFRrWXU
 status: active
 merged_into: null
 display_name: 王時言
+cbdb_id: 290010
 revision: 1
 properties:
   - predicate: bio.summary

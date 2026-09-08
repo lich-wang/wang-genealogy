@@ -4,6 +4,7 @@ id: p_6jyxGrjQkpKvXQeAuBSg3Z
 status: active
 merged_into: null
 display_name: 王志賢
+cbdb_id: 226928
 revision: 1
 properties:
   - predicate: bio.summary

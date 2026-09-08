@@ -4,6 +4,7 @@ id: p_5umqDxxd3qxZscHXyAmZu9
 status: active
 merged_into: null
 display_name: 王延福
+cbdb_id: 414449
 revision: 1
 properties:
   - predicate: bio.summary

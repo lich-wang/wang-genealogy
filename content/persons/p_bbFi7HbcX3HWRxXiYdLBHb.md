@@ -4,6 +4,7 @@ id: p_bbFi7HbcX3HWRxXiYdLBHb
 status: active
 merged_into: null
 display_name: 王肇成
+cbdb_id: 342874
 revision: 1
 properties:
   - predicate: bio.summary

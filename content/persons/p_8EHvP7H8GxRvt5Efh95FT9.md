@@ -4,6 +4,7 @@ id: p_8EHvP7H8GxRvt5Efh95FT9
 status: active
 merged_into: null
 display_name: 王成吉
+cbdb_id: 414668
 revision: 1
 properties:
   - predicate: bio.summary

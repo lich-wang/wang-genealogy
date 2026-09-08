@@ -4,6 +4,7 @@ id: p_14PoqGzVYbVsfRXiL7FCVn
 status: active
 merged_into: null
 display_name: 王子鑒
+cbdb_id: 71365
 revision: 1
 properties:
   - predicate: bio.summary

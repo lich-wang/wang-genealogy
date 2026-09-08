@@ -4,6 +4,7 @@ id: p_wa7zhyM3UyFuVi67U7TZhs
 status: active
 merged_into: null
 display_name: 王儀南
+cbdb_id: 413889
 revision: 1
 properties:
   - predicate: bio.summary

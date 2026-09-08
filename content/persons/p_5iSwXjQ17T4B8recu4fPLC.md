@@ -4,6 +4,7 @@ id: p_5iSwXjQ17T4B8recu4fPLC
 status: active
 merged_into: null
 display_name: 王仰極
+cbdb_id: 248133
 revision: 1
 properties:
   - predicate: bio.summary

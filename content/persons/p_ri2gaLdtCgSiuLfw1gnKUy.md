@@ -4,6 +4,7 @@ id: p_ri2gaLdtCgSiuLfw1gnKUy
 status: active
 merged_into: null
 display_name: 王同會
+cbdb_id: 327390
 revision: 1
 properties:
   - predicate: bio.summary

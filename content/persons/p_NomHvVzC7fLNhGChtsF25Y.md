@@ -4,6 +4,7 @@ id: p_NomHvVzC7fLNhGChtsF25Y
 status: active
 merged_into: null
 display_name: 王宗原
+cbdb_id: 263624
 revision: 1
 properties:
   - predicate: bio.summary

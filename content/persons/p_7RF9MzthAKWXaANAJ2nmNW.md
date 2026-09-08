@@ -4,6 +4,7 @@ id: p_7RF9MzthAKWXaANAJ2nmNW
 status: active
 merged_into: null
 display_name: 王至隆
+cbdb_id: 134062
 revision: 1
 properties:
   - predicate: bio.summary

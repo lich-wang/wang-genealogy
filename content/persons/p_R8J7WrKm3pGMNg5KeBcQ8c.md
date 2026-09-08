@@ -4,6 +4,7 @@ id: p_R8J7WrKm3pGMNg5KeBcQ8c
 status: active
 merged_into: null
 display_name: 王公選
+cbdb_id: 343764
 revision: 1
 properties:
   - predicate: bio.summary

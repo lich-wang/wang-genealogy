@@ -4,6 +4,7 @@ id: p_6rtL2H47KkimwCJLs4PZ9n
 status: active
 merged_into: null
 display_name: 王浩順
+cbdb_id: 415016
 revision: 1
 properties:
   - predicate: bio.summary

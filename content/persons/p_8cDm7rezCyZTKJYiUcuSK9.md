@@ -4,6 +4,7 @@ id: p_8cDm7rezCyZTKJYiUcuSK9
 status: active
 merged_into: null
 display_name: 王丕修
+cbdb_id: 341761
 revision: 1
 properties:
   - predicate: bio.summary

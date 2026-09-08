@@ -4,6 +4,7 @@ id: p_tFBEWUgYjefES2HTxytcTA
 status: active
 merged_into: null
 display_name: 王有朋
+cbdb_id: 385850
 revision: 1
 properties:
   - predicate: bio.summary

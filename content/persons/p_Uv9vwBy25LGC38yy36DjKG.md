@@ -4,6 +4,7 @@ id: p_Uv9vwBy25LGC38yy36DjKG
 status: active
 merged_into: null
 display_name: 王萬延
+cbdb_id: 415359
 revision: 1
 properties:
   - predicate: bio.summary

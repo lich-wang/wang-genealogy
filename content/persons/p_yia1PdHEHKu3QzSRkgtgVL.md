@@ -4,6 +4,7 @@ id: p_yia1PdHEHKu3QzSRkgtgVL
 status: active
 merged_into: null
 display_name: 王元起
+cbdb_id: 413917
 revision: 1
 properties:
   - predicate: bio.summary

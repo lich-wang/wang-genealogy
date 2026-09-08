@@ -4,6 +4,7 @@ id: p_a3Z77DL9GxcG2NAvX5dG2G
 status: active
 merged_into: null
 display_name: 王行恕
+cbdb_id: 517395
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_FHKYKS2N9qGsxoqVq4Xqcd
 status: active
 merged_into: null
 display_name: 王崇有
+cbdb_id: 266144
 revision: 1
 properties:
   - predicate: bio.summary

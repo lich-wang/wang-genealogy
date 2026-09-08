@@ -4,6 +4,7 @@ id: p_Ykjf8WmFFGi8bijTB1MHcN
 status: active
 merged_into: null
 display_name: 王君娘
+cbdb_id: 154909
 revision: 1
 properties:
   - predicate: bio.summary

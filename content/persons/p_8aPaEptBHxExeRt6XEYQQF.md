@@ -4,6 +4,7 @@ id: p_8aPaEptBHxExeRt6XEYQQF
 status: active
 merged_into: null
 display_name: 王休泰
+cbdb_id: 141176
 revision: 1
 properties:
   - predicate: bio.summary

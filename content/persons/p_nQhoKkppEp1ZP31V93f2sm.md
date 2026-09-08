@@ -4,6 +4,7 @@ id: p_nQhoKkppEp1ZP31V93f2sm
 status: active
 merged_into: null
 display_name: 王希昂
+cbdb_id: 315371
 revision: 1
 properties:
   - predicate: bio.summary

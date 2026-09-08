@@ -4,6 +4,7 @@ id: p_hFoArUF5VGw1ykQUan2yRg
 status: active
 merged_into: null
 display_name: 王公塗
+cbdb_id: 35527
 revision: 1
 properties:
   - predicate: bio.summary

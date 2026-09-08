@@ -4,6 +4,7 @@ id: p_FftLK4cDP6h9jAzvaZiSBP
 status: active
 merged_into: null
 display_name: 王洪宣
+cbdb_id: 280908
 revision: 1
 properties:
   - predicate: bio.summary

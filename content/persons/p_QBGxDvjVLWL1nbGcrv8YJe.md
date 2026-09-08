@@ -4,6 +4,7 @@ id: p_QBGxDvjVLWL1nbGcrv8YJe
 status: active
 merged_into: null
 display_name: 王䋲丈
+cbdb_id: 232796
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_opZnitpSF9MeuQpVb5FBf2
 status: active
 merged_into: null
 display_name: 王體晉
+cbdb_id: 343591
 revision: 1
 properties:
   - predicate: bio.summary

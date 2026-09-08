@@ -4,6 +4,7 @@ id: p_frf9N66kjg8BdEBvBjaPSU
 status: active
 merged_into: null
 display_name: 王玄爽
+cbdb_id: 166617
 revision: 1
 properties:
   - predicate: bio.summary

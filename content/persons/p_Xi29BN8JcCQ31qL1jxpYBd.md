@@ -4,6 +4,7 @@ id: p_Xi29BN8JcCQ31qL1jxpYBd
 status: active
 merged_into: null
 display_name: 王無將
+cbdb_id: 343729
 revision: 1
 properties:
   - predicate: bio.summary

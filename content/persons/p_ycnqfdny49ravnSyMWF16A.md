@@ -4,6 +4,7 @@ id: p_ycnqfdny49ravnSyMWF16A
 status: active
 merged_into: null
 display_name: 王雷
+cbdb_id: 301983
 revision: 1
 properties:
   - predicate: bio.summary

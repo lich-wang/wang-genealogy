@@ -4,6 +4,7 @@ id: p_9hx7hNoEHGJpUAxJbhWXoH
 status: active
 merged_into: null
 display_name: 陈宝琛
+cbdb_id: 54950
 revision: 1
 properties:
   - predicate: name.primary

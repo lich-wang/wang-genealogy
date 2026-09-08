@@ -4,6 +4,7 @@ id: p_Het6ynGCgNeu2nqT4x2WZx
 status: active
 merged_into: null
 display_name: 王麗真
+cbdb_id: 95161
 revision: 1
 properties:
   - predicate: bio.summary

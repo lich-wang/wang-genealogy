@@ -4,6 +4,7 @@ id: p_r2tBEoPxZiV5e34Wq9H7Kr
 status: active
 merged_into: null
 display_name: 王伏金
+cbdb_id: 69214
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_LUnVV55ZrwMU5EKJ1p6MqL
 status: active
 merged_into: null
 display_name: 王要漢
+cbdb_id: 378732
 revision: 1
 properties:
   - predicate: bio.summary

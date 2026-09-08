@@ -4,6 +4,7 @@ id: p_UyJLRZpx82C1wxcr6EdBou
 status: active
 merged_into: null
 display_name: 王文靜
+cbdb_id: 101106
 revision: 1
 properties:
   - predicate: bio.summary

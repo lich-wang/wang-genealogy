@@ -4,6 +4,7 @@ id: p_EeEpuisuA3Qq5iKmC1k22C
 status: active
 merged_into: null
 display_name: 王紀之
+cbdb_id: 326826
 revision: 1
 properties:
   - predicate: bio.summary

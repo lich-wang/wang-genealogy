@@ -4,6 +4,7 @@ id: p_u8Amyw6eGSJkNRkp23mnNF
 status: active
 merged_into: null
 display_name: 王華玉
+cbdb_id: 343151
 revision: 1
 properties:
   - predicate: bio.summary

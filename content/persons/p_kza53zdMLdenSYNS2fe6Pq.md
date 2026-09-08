@@ -4,6 +4,7 @@ id: p_kza53zdMLdenSYNS2fe6Pq
 status: active
 merged_into: null
 display_name: 王訓成
+cbdb_id: 37945
 revision: 1
 properties:
   - predicate: bio.summary

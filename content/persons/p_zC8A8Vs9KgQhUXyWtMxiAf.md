@@ -4,6 +4,7 @@ id: p_zC8A8Vs9KgQhUXyWtMxiAf
 status: active
 merged_into: null
 display_name: 王伯良
+cbdb_id: 342370
 revision: 1
 properties:
   - predicate: bio.summary

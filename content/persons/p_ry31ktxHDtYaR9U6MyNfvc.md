@@ -4,6 +4,7 @@ id: p_ry31ktxHDtYaR9U6MyNfvc
 status: active
 merged_into: null
 display_name: 王中穀
+cbdb_id: 441155
 revision: 1
 properties:
   - predicate: bio.summary

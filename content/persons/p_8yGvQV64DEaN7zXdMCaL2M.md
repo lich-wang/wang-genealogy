@@ -4,6 +4,7 @@ id: p_8yGvQV64DEaN7zXdMCaL2M
 status: active
 merged_into: null
 display_name: 王益恭
+cbdb_id: 22054
 revision: 2
 properties:
   - predicate: bio.summary

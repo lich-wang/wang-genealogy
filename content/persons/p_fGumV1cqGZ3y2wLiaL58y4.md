@@ -4,6 +4,7 @@ id: p_fGumV1cqGZ3y2wLiaL58y4
 status: active
 merged_into: null
 display_name: 王子知
+cbdb_id: 45867
 revision: 1
 properties:
   - predicate: bio.summary

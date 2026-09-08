@@ -4,6 +4,7 @@ id: p_WWQGW1HN4avqt3zhEhPT5M
 status: active
 merged_into: null
 display_name: 王世基
+cbdb_id: 441248
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_VFY7pa85s4J6zQ3CEWQetD
 status: active
 merged_into: null
 display_name: 王及
+cbdb_id: 175543
 revision: 1
 properties:
   - predicate: bio.summary

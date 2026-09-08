@@ -4,6 +4,7 @@ id: p_Xx34Dy1MF8hRRMWVzQbLuE
 status: active
 merged_into: null
 display_name: 王持福
+cbdb_id: 386185
 revision: 1
 properties:
   - predicate: bio.summary

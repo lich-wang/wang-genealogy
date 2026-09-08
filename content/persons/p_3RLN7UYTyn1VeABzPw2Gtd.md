@@ -4,6 +4,7 @@ id: p_3RLN7UYTyn1VeABzPw2Gtd
 status: active
 merged_into: null
 display_name: 王摻昌
+cbdb_id: 28656
 revision: 1
 properties:
   - predicate: bio.summary

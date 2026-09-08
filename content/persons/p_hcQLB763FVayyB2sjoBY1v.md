@@ -4,6 +4,7 @@ id: p_hcQLB763FVayyB2sjoBY1v
 status: active
 merged_into: null
 display_name: 王輔銘
+cbdb_id: 71997
 revision: 1
 properties:
   - predicate: bio.summary

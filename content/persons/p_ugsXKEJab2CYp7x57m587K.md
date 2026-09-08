@@ -4,6 +4,7 @@ id: p_ugsXKEJab2CYp7x57m587K
 status: active
 merged_into: null
 display_name: 王公邁
+cbdb_id: 97814
 revision: 1
 properties:
   - predicate: bio.summary

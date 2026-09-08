@@ -4,6 +4,7 @@ id: p_mNthtnVHS8BBEnqU1Q78Ve
 status: active
 merged_into: null
 display_name: 王應淼
+cbdb_id: 414646
 revision: 1
 properties:
   - predicate: bio.summary

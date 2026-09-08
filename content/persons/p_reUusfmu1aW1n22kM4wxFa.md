@@ -4,6 +4,7 @@ id: p_reUusfmu1aW1n22kM4wxFa
 status: active
 merged_into: null
 display_name: 王宜亭
+cbdb_id: 342478
 revision: 1
 properties:
   - predicate: bio.summary

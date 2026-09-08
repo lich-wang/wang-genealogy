@@ -4,6 +4,7 @@ id: p_86yZFFSTz4LMY9fqCEMwMy
 status: active
 merged_into: null
 display_name: 王家圭
+cbdb_id: 414337
 revision: 1
 properties:
   - predicate: bio.summary

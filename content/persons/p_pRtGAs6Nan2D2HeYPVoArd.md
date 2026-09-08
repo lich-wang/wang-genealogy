@@ -4,6 +4,7 @@ id: p_pRtGAs6Nan2D2HeYPVoArd
 status: active
 merged_into: null
 display_name: 王仁威
+cbdb_id: 383269
 revision: 1
 properties:
   - predicate: bio.summary

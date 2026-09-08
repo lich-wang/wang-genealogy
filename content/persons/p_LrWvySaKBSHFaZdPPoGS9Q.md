@@ -4,6 +4,7 @@ id: p_LrWvySaKBSHFaZdPPoGS9Q
 status: active
 merged_into: null
 display_name: 王道寬
+cbdb_id: 313343
 revision: 1
 properties:
   - predicate: bio.summary

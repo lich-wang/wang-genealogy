@@ -4,6 +4,7 @@ id: p_GJZdvM178wTHTHL1zBLdfe
 status: active
 merged_into: null
 display_name: 王無逸
+cbdb_id: 415075
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_Ghms3xa2yCWnMb7o2tgKE4
 status: active
 merged_into: null
 display_name: 王弘让
+cbdb_id: 154136
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_5QoPdCGLNh3AFKD729c8r8
 status: active
 merged_into: null
 display_name: 王際新
+cbdb_id: 234436
 revision: 1
 properties:
   - predicate: bio.summary

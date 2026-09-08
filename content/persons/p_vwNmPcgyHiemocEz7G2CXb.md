@@ -4,6 +4,7 @@ id: p_vwNmPcgyHiemocEz7G2CXb
 status: active
 merged_into: null
 display_name: 王裕泰
+cbdb_id: 415397
 revision: 1
 properties:
   - predicate: bio.summary

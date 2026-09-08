@@ -4,6 +4,7 @@ id: p_upp5kBekQ15jrZwKh79eE5
 status: active
 merged_into: null
 display_name: 王如瓚
+cbdb_id: 210790
 revision: 1
 properties:
   - predicate: bio.summary

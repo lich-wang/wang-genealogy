@@ -4,6 +4,7 @@ id: p_KUNGD7CVY3yb4qq55PK8zi
 status: active
 merged_into: null
 display_name: 王龜
+cbdb_id: 92015
 revision: 1
 properties:
   - predicate: bio.summary

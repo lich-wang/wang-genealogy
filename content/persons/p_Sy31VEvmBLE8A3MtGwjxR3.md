@@ -4,6 +4,7 @@ id: p_Sy31VEvmBLE8A3MtGwjxR3
 status: active
 merged_into: null
 display_name: 王元讓
+cbdb_id: 71373
 revision: 1
 properties:
   - predicate: bio.summary

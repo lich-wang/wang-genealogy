@@ -4,6 +4,7 @@ id: p_nauC3gPyC9F4eNZQfgox1p
 status: active
 merged_into: null
 display_name: 王承德
+cbdb_id: 17748
 revision: 2
 properties:
   - predicate: bio.summary

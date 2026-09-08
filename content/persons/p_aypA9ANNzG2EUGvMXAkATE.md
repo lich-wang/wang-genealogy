@@ -4,6 +4,7 @@ id: p_aypA9ANNzG2EUGvMXAkATE
 status: active
 merged_into: null
 display_name: 王安
+cbdb_id: 22196
 revision: 1
 properties:
   - predicate: bio.summary

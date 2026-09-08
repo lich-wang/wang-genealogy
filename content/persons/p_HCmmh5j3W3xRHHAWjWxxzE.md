@@ -4,6 +4,7 @@ id: p_HCmmh5j3W3xRHHAWjWxxzE
 status: active
 merged_into: null
 display_name: 王原泗
+cbdb_id: 414014
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_TzChr8o9YCL8UmExJ6vM3w
 status: active
 merged_into: null
 display_name: 王象天
+cbdb_id: 342393
 revision: 1
 properties:
   - predicate: bio.summary

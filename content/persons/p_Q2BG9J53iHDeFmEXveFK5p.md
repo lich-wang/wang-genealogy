@@ -4,6 +4,7 @@ id: p_Q2BG9J53iHDeFmEXveFK5p
 status: active
 merged_into: null
 display_name: 王善渾
+cbdb_id: 72085
 revision: 1
 properties:
   - predicate: bio.summary

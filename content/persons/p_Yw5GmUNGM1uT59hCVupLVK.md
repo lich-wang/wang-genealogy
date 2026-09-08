@@ -4,6 +4,7 @@ id: p_Yw5GmUNGM1uT59hCVupLVK
 status: active
 merged_into: null
 display_name: 王希先
+cbdb_id: 384652
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_Gw7B8bAAtRnjKzBrTNyQYT
 status: active
 merged_into: null
 display_name: 王道和
+cbdb_id: 230469
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_s45QjoKtzGxYWn92iAyF1v
 status: active
 merged_into: null
 display_name: 王尊素
+cbdb_id: 236430
 revision: 1
 properties:
   - predicate: bio.summary

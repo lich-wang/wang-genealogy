@@ -4,6 +4,7 @@ id: p_ZFKEN8S4y8VDqnCyxtJs6Z
 status: active
 merged_into: null
 display_name: 王希禮
+cbdb_id: 308735
 revision: 1
 properties:
   - predicate: bio.summary

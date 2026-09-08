@@ -4,6 +4,7 @@ id: p_6BGp3KZLHi7qCSgT4tacwJ
 status: active
 merged_into: null
 display_name: 王庭佐
+cbdb_id: 101306
 revision: 1
 properties:
   - predicate: bio.summary

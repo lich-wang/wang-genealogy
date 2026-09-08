@@ -4,6 +4,7 @@ id: p_sif3fGcwr2fDxQSME8rKoa
 status: active
 merged_into: null
 display_name: 王鴻業
+cbdb_id: 72013
 revision: 1
 properties:
   - predicate: bio.summary

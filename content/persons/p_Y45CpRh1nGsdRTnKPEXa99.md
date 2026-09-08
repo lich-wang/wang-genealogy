@@ -4,6 +4,7 @@ id: p_Y45CpRh1nGsdRTnKPEXa99
 status: active
 merged_into: null
 display_name: 虢国公主
+cbdb_id: 194203
 revision: 1
 properties:
   - predicate: name.primary

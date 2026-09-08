@@ -4,6 +4,7 @@ id: p_qWPYx86ADkXXEpnoP665bD
 status: active
 merged_into: null
 display_name: 王廷禧
+cbdb_id: 39386
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_B5mQ7kbzLM3vgbBCkgHMb6
 status: active
 merged_into: null
 display_name: 王家榛
+cbdb_id: 69979
 revision: 1
 properties:
   - predicate: bio.summary

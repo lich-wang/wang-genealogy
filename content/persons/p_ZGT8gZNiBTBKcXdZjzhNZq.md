@@ -4,6 +4,7 @@ id: p_ZGT8gZNiBTBKcXdZjzhNZq
 status: active
 merged_into: null
 display_name: 王俊
+cbdb_id: 145900
 revision: 2
 properties:
   - predicate: bio.summary

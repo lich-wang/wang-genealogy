@@ -4,6 +4,7 @@ id: p_xq19QF22Q1bkxBvLnVGu2X
 status: active
 merged_into: null
 display_name: 王寵受
+cbdb_id: 342495
 revision: 1
 properties:
   - predicate: bio.summary

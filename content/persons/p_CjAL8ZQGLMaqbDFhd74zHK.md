@@ -4,6 +4,7 @@ id: p_CjAL8ZQGLMaqbDFhd74zHK
 status: active
 merged_into: null
 display_name: 王明全
+cbdb_id: 71761
 revision: 1
 properties:
   - predicate: bio.summary

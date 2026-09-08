@@ -4,6 +4,7 @@ id: p_dWYb6X7kmuycUpQPFrF9H9
 status: active
 merged_into: null
 display_name: 王普恕
+cbdb_id: 325996
 revision: 1
 properties:
   - predicate: bio.summary

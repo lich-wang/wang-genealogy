@@ -4,6 +4,7 @@ id: p_tSnNHt3rjyNpzu8RXxYW6K
 status: active
 merged_into: null
 display_name: 王啓佐
+cbdb_id: 414067
 revision: 1
 properties:
   - predicate: bio.summary

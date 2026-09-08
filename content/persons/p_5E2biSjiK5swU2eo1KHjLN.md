@@ -4,6 +4,7 @@ id: p_5E2biSjiK5swU2eo1KHjLN
 status: active
 merged_into: null
 display_name: 王齊愈
+cbdb_id: 38315
 revision: 1
 properties:
   - predicate: bio.summary

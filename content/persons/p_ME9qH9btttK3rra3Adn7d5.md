@@ -4,6 +4,7 @@ id: p_ME9qH9btttK3rra3Adn7d5
 status: active
 merged_into: null
 display_name: 王志叔
+cbdb_id: 38990
 revision: 1
 properties:
   - predicate: bio.summary

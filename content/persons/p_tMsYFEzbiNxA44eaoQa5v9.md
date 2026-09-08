@@ -4,6 +4,7 @@ id: p_tMsYFEzbiNxA44eaoQa5v9
 status: active
 merged_into: null
 display_name: 王大復
+cbdb_id: 414198
 revision: 1
 properties:
   - predicate: bio.summary

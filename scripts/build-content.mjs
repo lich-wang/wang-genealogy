@@ -103,11 +103,14 @@ console.log(`已校验并生成 ${records.size} 个人物页面、${sources.size
 function validateRecord(record, file) {
   if (record.schema !== 'wang-person/v1') throw new Error(`${file}: schema 必须是 wang-person/v1`);
   if (!record.id || `${record.id}.md` !== file) throw new Error(`${file}: 文件名必须与 id 一致`);
+  if (record.cbdb_id !== undefined && (!/^[1-9]\d*$/.test(String(record.cbdb_id)))) {
+    throw new Error(`${file}: cbdb_id 必须是无前缀的正整数`);
+  }
   if (!Array.isArray(record.properties) || !record.relationships) throw new Error(`${file}: 缺少 properties 或 relationships`);
 }
 function toSummary(record) {
   const now = '1970-01-01T00:00:00.000Z';
-  return { person: { id: record.id, status: record.status, merged_into_person_id: record.merged_into ?? null, created_by_user_id: 'git', created_at: now, updated_at: now, current_revision: record.revision }, redirect_to_person_id: record.merged_into ?? null, display_name: record.display_name ?? null, properties: record.properties, relationships: record.relationships, current_revision: record.revision };
+  return { person: { id: record.id, status: record.status, merged_into_person_id: record.merged_into ?? null, created_by_user_id: 'git', created_at: now, updated_at: now, current_revision: record.revision }, redirect_to_person_id: record.merged_into ?? null, display_name: record.display_name ?? null, cbdb_id: record.cbdb_id ? String(record.cbdb_id) : null, properties: record.properties, relationships: record.relationships, current_revision: record.revision };
 }
 function allClaimItems(record) { return [...record.properties.flatMap((field) => [field.recommended, ...(field.alternatives ?? [])]).filter(Boolean), ...relationshipItems(record)]; }
 function relationshipItems(record) { return Object.values(record.relationships).flat(); }

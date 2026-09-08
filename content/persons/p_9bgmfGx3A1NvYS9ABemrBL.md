@@ -4,6 +4,7 @@ id: p_9bgmfGx3A1NvYS9ABemrBL
 status: active
 merged_into: null
 display_name: 王繼崇
+cbdb_id: 415270
 revision: 1
 properties:
   - predicate: bio.summary

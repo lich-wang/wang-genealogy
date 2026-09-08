@@ -4,6 +4,7 @@ id: p_31fj3DYMMpcFqtcy8MYe53
 status: active
 merged_into: null
 display_name: 杨氏
+cbdb_id: 226565
 revision: 1
 properties:
   - predicate: name.primary

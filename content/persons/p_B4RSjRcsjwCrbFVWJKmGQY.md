@@ -4,6 +4,7 @@ id: p_B4RSjRcsjwCrbFVWJKmGQY
 status: active
 merged_into: null
 display_name: 王予爵
+cbdb_id: 413788
 revision: 1
 properties:
   - predicate: bio.summary

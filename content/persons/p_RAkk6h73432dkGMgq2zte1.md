@@ -4,6 +4,7 @@ id: p_RAkk6h73432dkGMgq2zte1
 status: active
 merged_into: null
 display_name: 王心田
+cbdb_id: 69026
 revision: 1
 properties:
   - predicate: bio.summary

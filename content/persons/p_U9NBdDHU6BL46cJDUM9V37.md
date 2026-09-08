@@ -4,6 +4,7 @@ id: p_U9NBdDHU6BL46cJDUM9V37
 status: active
 merged_into: null
 display_name: 王重臣
+cbdb_id: 235978
 revision: 1
 properties:
   - predicate: bio.summary

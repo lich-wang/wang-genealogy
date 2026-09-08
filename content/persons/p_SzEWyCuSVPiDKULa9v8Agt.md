@@ -4,6 +4,7 @@ id: p_SzEWyCuSVPiDKULa9v8Agt
 status: active
 merged_into: null
 display_name: 王寧㷆
+cbdb_id: 342493
 revision: 1
 properties:
   - predicate: bio.summary

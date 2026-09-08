@@ -4,6 +4,7 @@ id: p_JFQu2iSFEDE6JSen9KH459
 status: active
 merged_into: null
 display_name: 王誼夫
+cbdb_id: 38332
 revision: 1
 properties:
   - predicate: bio.summary

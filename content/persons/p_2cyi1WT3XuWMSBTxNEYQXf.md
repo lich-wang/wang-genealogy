@@ -4,6 +4,7 @@ id: p_2cyi1WT3XuWMSBTxNEYQXf
 status: active
 merged_into: null
 display_name: 王世元
+cbdb_id: 413706
 revision: 1
 properties:
   - predicate: bio.summary

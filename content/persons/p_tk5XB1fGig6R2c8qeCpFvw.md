@@ -4,6 +4,7 @@ id: p_tk5XB1fGig6R2c8qeCpFvw
 status: active
 merged_into: null
 display_name: 王得財
+cbdb_id: 232657
 revision: 1
 properties:
   - predicate: bio.summary

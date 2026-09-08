@@ -4,6 +4,7 @@ id: p_3zYCjbZcQo6nRLakkYjU2T
 status: active
 merged_into: null
 display_name: 王為時
+cbdb_id: 336614
 revision: 1
 properties:
   - predicate: bio.summary

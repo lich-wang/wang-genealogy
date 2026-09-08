@@ -4,6 +4,7 @@ id: p_vpih8rpLxjm39HU48JcdDK
 status: active
 merged_into: null
 display_name: 王弘德
+cbdb_id: 185068
 revision: 1
 properties:
   - predicate: bio.summary

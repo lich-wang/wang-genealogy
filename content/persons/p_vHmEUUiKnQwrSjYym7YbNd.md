@@ -4,6 +4,7 @@ id: p_vHmEUUiKnQwrSjYym7YbNd
 status: active
 merged_into: null
 display_name: 王紹業
+cbdb_id: 415229
 revision: 1
 properties:
   - predicate: bio.summary

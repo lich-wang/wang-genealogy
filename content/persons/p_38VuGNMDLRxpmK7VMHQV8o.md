@@ -4,6 +4,7 @@ id: p_38VuGNMDLRxpmK7VMHQV8o
 status: active
 merged_into: null
 display_name: 王正恩
+cbdb_id: 288238
 revision: 1
 properties:
   - predicate: bio.summary

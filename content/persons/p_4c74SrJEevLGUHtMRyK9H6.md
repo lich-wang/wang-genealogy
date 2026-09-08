@@ -4,6 +4,7 @@ id: p_4c74SrJEevLGUHtMRyK9H6
 status: active
 merged_into: null
 display_name: 王元徹
+cbdb_id: 97805
 revision: 1
 properties:
   - predicate: bio.summary

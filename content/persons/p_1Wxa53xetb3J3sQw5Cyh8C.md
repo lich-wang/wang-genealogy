@@ -4,6 +4,7 @@ id: p_1Wxa53xetb3J3sQw5Cyh8C
 status: active
 merged_into: null
 display_name: 王汝極
+cbdb_id: 327815
 revision: 1
 properties:
   - predicate: bio.summary

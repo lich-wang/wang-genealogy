@@ -4,6 +4,7 @@ id: p_BFDV7acnCdY6xJ5FNvZKDJ
 status: active
 merged_into: null
 display_name: 王墀京
+cbdb_id: 294725
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_sC18QG5iJC59gzmyfkaegv
 status: active
 merged_into: null
 display_name: 王文洪
+cbdb_id: 414738
 revision: 1
 properties:
   - predicate: bio.summary

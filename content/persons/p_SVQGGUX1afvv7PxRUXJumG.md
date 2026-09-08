@@ -4,6 +4,7 @@ id: p_SVQGGUX1afvv7PxRUXJumG
 status: active
 merged_into: null
 display_name: 崔缊
+cbdb_id: 145159
 revision: 1
 properties:
   - predicate: bio.summary

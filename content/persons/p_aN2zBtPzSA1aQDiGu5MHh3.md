@@ -4,6 +4,7 @@ id: p_aN2zBtPzSA1aQDiGu5MHh3
 status: active
 merged_into: null
 display_name: 王燮清
+cbdb_id: 415087
 revision: 1
 properties:
   - predicate: bio.summary

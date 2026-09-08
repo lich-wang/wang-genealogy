@@ -4,6 +4,7 @@ id: p_zYsGWZ26RZr9NP9BPEi82D
 status: active
 merged_into: null
 display_name: 王永潮
+cbdb_id: 260630
 revision: 1
 properties:
   - predicate: bio.summary

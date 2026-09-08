@@ -4,6 +4,7 @@ id: p_MWFGy9uHg9NsSwK8c42QRv
 status: active
 merged_into: null
 display_name: 王同休
+cbdb_id: 207136
 revision: 1
 properties:
   - predicate: bio.summary

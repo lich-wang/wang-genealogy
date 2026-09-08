@@ -4,6 +4,7 @@ id: p_Y9dpDqhqYc7SaXv78YwB9m
 status: active
 merged_into: null
 display_name: 王居卿
+cbdb_id: 1793
 revision: 1
 properties:
   - predicate: bio.summary

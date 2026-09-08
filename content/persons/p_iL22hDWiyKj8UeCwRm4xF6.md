@@ -4,6 +4,7 @@ id: p_iL22hDWiyKj8UeCwRm4xF6
 status: active
 merged_into: null
 display_name: 王元建
+cbdb_id: 341778
 revision: 1
 properties:
   - predicate: bio.summary

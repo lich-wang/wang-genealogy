@@ -4,6 +4,7 @@ id: p_icMQsLh5AxUKdKqwb4NPgz
 status: active
 merged_into: null
 display_name: 王芝異
+cbdb_id: 517412
 revision: 1
 properties:
   - predicate: bio.summary

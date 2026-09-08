@@ -4,6 +4,7 @@ id: p_cH6MB9aCbftNyAWmXHzvFS
 status: active
 merged_into: null
 display_name: 王正儒
+cbdb_id: 521418
 revision: 1
 properties:
   - predicate: bio.summary

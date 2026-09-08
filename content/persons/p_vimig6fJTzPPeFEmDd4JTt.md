@@ -4,6 +4,7 @@ id: p_vimig6fJTzPPeFEmDd4JTt
 status: active
 merged_into: null
 display_name: 王得中
+cbdb_id: 19850
 revision: 1
 properties:
   - predicate: bio.summary

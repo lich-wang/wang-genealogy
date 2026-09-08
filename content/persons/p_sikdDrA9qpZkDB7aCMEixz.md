@@ -4,6 +4,7 @@ id: p_sikdDrA9qpZkDB7aCMEixz
 status: active
 merged_into: null
 display_name: 王孝逸
+cbdb_id: 525989
 revision: 1
 properties:
   - predicate: bio.summary

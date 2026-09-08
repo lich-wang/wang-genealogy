@@ -4,6 +4,7 @@ id: p_G6TTy42oGuEaEe7C4FnKVc
 status: active
 merged_into: null
 display_name: 陈玉
+cbdb_id: 100029
 revision: 1
 properties:
   - predicate: bio.summary

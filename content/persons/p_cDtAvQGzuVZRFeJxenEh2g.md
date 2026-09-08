@@ -4,6 +4,7 @@ id: p_cDtAvQGzuVZRFeJxenEh2g
 status: active
 merged_into: null
 display_name: 王可信
+cbdb_id: 204413
 revision: 1
 properties:
   - predicate: bio.summary

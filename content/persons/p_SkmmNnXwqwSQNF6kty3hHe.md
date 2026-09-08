@@ -4,6 +4,7 @@ id: p_SkmmNnXwqwSQNF6kty3hHe
 status: active
 merged_into: null
 display_name: 王時炯
+cbdb_id: 414794
 revision: 1
 properties:
   - predicate: bio.summary

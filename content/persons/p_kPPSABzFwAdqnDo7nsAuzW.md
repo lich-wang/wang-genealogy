@@ -4,6 +4,7 @@ id: p_kPPSABzFwAdqnDo7nsAuzW
 status: active
 merged_into: null
 display_name: 王裝
+cbdb_id: 415400
 revision: 1
 properties:
   - predicate: bio.summary

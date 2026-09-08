@@ -4,6 +4,7 @@ id: p_2bTHVqd5kCoczCDgXc9NAZ
 status: active
 merged_into: null
 display_name: 王俊文
+cbdb_id: 413875
 revision: 1
 properties:
   - predicate: bio.summary

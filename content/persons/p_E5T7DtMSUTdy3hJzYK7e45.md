@@ -4,6 +4,7 @@ id: p_E5T7DtMSUTdy3hJzYK7e45
 status: active
 merged_into: null
 display_name: 王奕
+cbdb_id: 134093
 revision: 1
 properties:
   - predicate: bio.summary

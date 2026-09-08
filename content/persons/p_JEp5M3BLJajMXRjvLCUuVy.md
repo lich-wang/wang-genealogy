@@ -4,6 +4,7 @@ id: p_JEp5M3BLJajMXRjvLCUuVy
 status: active
 merged_into: null
 display_name: 王惟熙
+cbdb_id: 27691
 revision: 1
 properties:
   - predicate: bio.summary

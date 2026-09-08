@@ -4,6 +4,7 @@ id: p_C8S76xL9QeVY84yBo32FLj
 status: active
 merged_into: null
 display_name: 陈德卿
+cbdb_id: 123338
 revision: 2
 properties:
   - predicate: bio.summary

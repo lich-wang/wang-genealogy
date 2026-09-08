@@ -4,6 +4,7 @@ id: p_A5n2WXRqDodUy7kmhCiAPu
 status: active
 merged_into: null
 display_name: 王舜中
+cbdb_id: 22169
 revision: 1
 properties:
   - predicate: bio.summary

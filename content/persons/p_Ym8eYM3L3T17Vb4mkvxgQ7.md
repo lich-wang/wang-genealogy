@@ -4,6 +4,7 @@ id: p_Ym8eYM3L3T17Vb4mkvxgQ7
 status: active
 merged_into: null
 display_name: 王安孝
+cbdb_id: 414288
 revision: 1
 properties:
   - predicate: bio.summary

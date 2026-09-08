@@ -4,6 +4,7 @@ id: p_fwC3pBy6ccvaFLEwFaAgdu
 status: active
 merged_into: null
 display_name: 王海云
+cbdb_id: 175450
 revision: 1
 properties:
   - predicate: bio.summary

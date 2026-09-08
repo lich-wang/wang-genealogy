@@ -4,6 +4,7 @@ id: p_AnKZbS79XmanoTa8z8w17m
 status: active
 merged_into: null
 display_name: 王士瑞
+cbdb_id: 342925
 revision: 1
 properties:
   - predicate: bio.summary

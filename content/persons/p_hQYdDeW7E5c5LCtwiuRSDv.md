@@ -4,6 +4,7 @@ id: p_hQYdDeW7E5c5LCtwiuRSDv
 status: active
 merged_into: null
 display_name: 王汝高
+cbdb_id: 330485
 revision: 1
 properties:
   - predicate: bio.summary

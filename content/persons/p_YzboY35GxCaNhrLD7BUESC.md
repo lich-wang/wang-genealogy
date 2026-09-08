@@ -4,6 +4,7 @@ id: p_YzboY35GxCaNhrLD7BUESC
 status: active
 merged_into: null
 display_name: 王海觀
+cbdb_id: 342829
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_SBC6jVF25DcuCRSFont7N3
 status: active
 merged_into: null
 display_name: 王道鳳
+cbdb_id: 415503
 revision: 1
 properties:
   - predicate: bio.summary

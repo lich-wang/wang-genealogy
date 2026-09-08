@@ -4,6 +4,7 @@ id: p_x8tNNS522Fp4o2Do9u3mi2
 status: active
 merged_into: null
 display_name: 王大捷
+cbdb_id: 342912
 revision: 1
 properties:
   - predicate: bio.summary

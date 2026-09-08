@@ -4,6 +4,7 @@ id: p_EtgJYM45SqjSG2h9VRdFaw
 status: active
 merged_into: null
 display_name: 王奎甲
+cbdb_id: 342952
 revision: 1
 properties:
   - predicate: bio.summary

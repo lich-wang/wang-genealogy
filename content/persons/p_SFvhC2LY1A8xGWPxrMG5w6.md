@@ -4,6 +4,7 @@ id: p_SFvhC2LY1A8xGWPxrMG5w6
 status: active
 merged_into: null
 display_name: 王平孫
+cbdb_id: 414426
 revision: 1
 properties:
   - predicate: bio.summary

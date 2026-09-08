@@ -4,6 +4,7 @@ id: p_wFwEfChnSXSZSJHjuMQKKW
 status: active
 merged_into: null
 display_name: 王昌桂
+cbdb_id: 522392
 revision: 1
 properties:
   - predicate: bio.summary

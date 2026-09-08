@@ -4,6 +4,7 @@ id: p_RkHV6W2bBSe1gigFE7FsYA
 status: active
 merged_into: null
 display_name: 王君擢
+cbdb_id: 414048
 revision: 1
 properties:
   - predicate: bio.summary

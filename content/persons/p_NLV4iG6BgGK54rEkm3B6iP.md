@@ -4,6 +4,7 @@ id: p_NLV4iG6BgGK54rEkm3B6iP
 status: active
 merged_into: null
 display_name: 王潤身
+cbdb_id: 342782
 revision: 1
 properties:
   - predicate: bio.summary

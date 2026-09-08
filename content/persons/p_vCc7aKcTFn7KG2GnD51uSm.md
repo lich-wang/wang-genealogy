@@ -4,6 +4,7 @@ id: p_vCc7aKcTFn7KG2GnD51uSm
 status: active
 merged_into: null
 display_name: 王環冲
+cbdb_id: 415122
 revision: 1
 properties:
   - predicate: bio.summary

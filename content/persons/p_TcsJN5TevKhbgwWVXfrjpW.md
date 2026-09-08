@@ -4,6 +4,7 @@ id: p_TcsJN5TevKhbgwWVXfrjpW
 status: active
 merged_into: null
 display_name: 王豫修
+cbdb_id: 342056
 revision: 1
 properties:
   - predicate: bio.summary

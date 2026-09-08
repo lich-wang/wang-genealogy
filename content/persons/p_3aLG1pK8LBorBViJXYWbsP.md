@@ -4,6 +4,7 @@ id: p_3aLG1pK8LBorBViJXYWbsP
 status: active
 merged_into: null
 display_name: 王仁瞻
+cbdb_id: 97782
 revision: 1
 properties:
   - predicate: bio.summary

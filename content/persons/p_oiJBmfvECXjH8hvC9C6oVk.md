@@ -4,6 +4,7 @@ id: p_oiJBmfvECXjH8hvC9C6oVk
 status: active
 merged_into: null
 display_name: 王友方
+cbdb_id: 220568
 revision: 1
 properties:
   - predicate: bio.summary

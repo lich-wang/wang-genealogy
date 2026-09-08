@@ -4,6 +4,7 @@ id: p_GUbnK6mUS93kMfC6N9Wrur
 status: active
 merged_into: null
 display_name: 王道孟
+cbdb_id: 101386
 revision: 1
 properties:
   - predicate: bio.summary

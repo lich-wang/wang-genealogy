@@ -4,6 +4,7 @@ id: p_92G2jrrPR7GnW2LYnwT7Wr
 status: active
 merged_into: null
 display_name: 王迸
+cbdb_id: 38373
 revision: 1
 properties:
   - predicate: bio.summary

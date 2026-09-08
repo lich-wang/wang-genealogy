@@ -4,6 +4,7 @@ id: p_6es6XQ9pfmNf8BVum2oix6
 status: active
 merged_into: null
 display_name: 王堯咨
+cbdb_id: 273834
 revision: 1
 properties:
   - predicate: bio.summary

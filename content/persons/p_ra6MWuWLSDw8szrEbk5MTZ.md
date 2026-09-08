@@ -4,6 +4,7 @@ id: p_ra6MWuWLSDw8szrEbk5MTZ
 status: active
 merged_into: null
 display_name: 王承系
+cbdb_id: 194205
 revision: 2
 properties:
   - predicate: bio.summary

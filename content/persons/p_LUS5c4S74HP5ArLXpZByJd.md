@@ -4,6 +4,7 @@ id: p_LUS5c4S74HP5ArLXpZByJd
 status: active
 merged_into: null
 display_name: 王以桓
+cbdb_id: 524804
 revision: 1
 properties:
   - predicate: bio.summary

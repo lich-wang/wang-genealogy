@@ -4,6 +4,7 @@ id: p_CYUjjkPJTHC57GwcoU4nwz
 status: active
 merged_into: null
 display_name: 王仁照
+cbdb_id: 342164
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_iWfriPaGjcYEawAEVHD6sy
 status: active
 merged_into: null
 display_name: 王丕烈
+cbdb_id: 59982
 revision: 1
 properties:
   - predicate: bio.summary

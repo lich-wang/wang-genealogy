@@ -4,6 +4,7 @@ id: p_adRFAQLWhyXmaT47pftg3g
 status: active
 merged_into: null
 display_name: 王同化
+cbdb_id: 326624
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_cggLGxzDfNZb95PH7MpQJj
 status: active
 merged_into: null
 display_name: 王主簿
+cbdb_id: 38359
 revision: 1
 properties:
   - predicate: bio.summary

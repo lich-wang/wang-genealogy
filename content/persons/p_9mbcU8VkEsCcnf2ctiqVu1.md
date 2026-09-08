@@ -4,6 +4,7 @@ id: p_9mbcU8VkEsCcnf2ctiqVu1
 status: active
 merged_into: null
 display_name: 王承猷
+cbdb_id: 414686
 revision: 1
 properties:
   - predicate: bio.summary

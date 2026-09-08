@@ -4,6 +4,7 @@ id: p_ZDmMNcB7MedPTQbgwxH7RB
 status: active
 merged_into: null
 display_name: 王鄭卿
+cbdb_id: 175799
 revision: 1
 properties:
   - predicate: bio.summary

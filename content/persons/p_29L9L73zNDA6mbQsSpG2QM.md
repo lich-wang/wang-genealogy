@@ -4,6 +4,7 @@ id: p_29L9L73zNDA6mbQsSpG2QM
 status: active
 merged_into: null
 display_name: 王惟光
+cbdb_id: 343879
 revision: 1
 properties:
   - predicate: bio.summary

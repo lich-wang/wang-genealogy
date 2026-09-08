@@ -4,6 +4,7 @@ id: p_P7cZrKpwh44EGMwMKR3XMy
 status: active
 merged_into: null
 display_name: 王明時
+cbdb_id: 206277
 revision: 1
 properties:
   - predicate: bio.summary

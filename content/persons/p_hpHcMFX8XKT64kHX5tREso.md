@@ -4,6 +4,7 @@ id: p_hpHcMFX8XKT64kHX5tREso
 status: active
 merged_into: null
 display_name: 王率祖
+cbdb_id: 334094
 revision: 1
 properties:
   - predicate: bio.summary

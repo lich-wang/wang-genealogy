@@ -4,6 +4,7 @@ id: p_cbdGNn3TayNdwMz7JNqm1U
 status: active
 merged_into: null
 display_name: 王大明
+cbdb_id: 148853
 revision: 1
 properties:
   - predicate: bio.summary

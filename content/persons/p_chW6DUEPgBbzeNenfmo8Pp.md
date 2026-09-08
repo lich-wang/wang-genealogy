@@ -4,6 +4,7 @@ id: p_chW6DUEPgBbzeNenfmo8Pp
 status: active
 merged_into: null
 display_name: 王頤正
+cbdb_id: 72104
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_QwwT5psiYNqVNMCf3n8cmj
 status: active
 merged_into: null
 display_name: 王國剛
+cbdb_id: 28883
 revision: 1
 properties:
   - predicate: bio.summary

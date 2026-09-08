@@ -4,6 +4,7 @@ id: p_saaECjeVK4P193bjeUAPMi
 status: active
 merged_into: null
 display_name: 王略
+cbdb_id: 158876
 revision: 1
 properties:
   - predicate: bio.summary

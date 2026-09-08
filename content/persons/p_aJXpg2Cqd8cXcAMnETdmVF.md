@@ -4,6 +4,7 @@ id: p_aJXpg2Cqd8cXcAMnETdmVF
 status: active
 merged_into: null
 display_name: 王知謹
+cbdb_id: 151106
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_zikqYJmt2yXmsG2MTkfxPa
 status: active
 merged_into: null
 display_name: 王金臺
+cbdb_id: 343706
 revision: 1
 properties:
   - predicate: bio.summary

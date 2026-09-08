@@ -4,6 +4,7 @@ id: p_tnZWqjvxDtMYBY5PURR5KY
 status: active
 merged_into: null
 display_name: 王初應
+cbdb_id: 101204
 revision: 1
 properties:
   - predicate: bio.summary

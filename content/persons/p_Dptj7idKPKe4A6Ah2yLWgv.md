@@ -4,6 +4,7 @@ id: p_Dptj7idKPKe4A6Ah2yLWgv
 status: active
 merged_into: null
 display_name: 王家脩
+cbdb_id: 332968
 revision: 1
 properties:
   - predicate: bio.summary

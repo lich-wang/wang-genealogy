@@ -4,6 +4,7 @@ id: p_fC9r8DDE1tJhWsGzXPaaR9
 status: active
 merged_into: null
 display_name: 王應鯨
+cbdb_id: 71702
 revision: 1
 properties:
   - predicate: bio.summary

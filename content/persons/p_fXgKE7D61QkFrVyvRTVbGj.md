@@ -4,6 +4,7 @@ id: p_fXgKE7D61QkFrVyvRTVbGj
 status: active
 merged_into: null
 display_name: 王翊清
+cbdb_id: 341688
 revision: 1
 properties:
   - predicate: bio.summary

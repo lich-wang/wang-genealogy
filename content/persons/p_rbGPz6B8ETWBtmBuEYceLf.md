@@ -4,6 +4,7 @@ id: p_rbGPz6B8ETWBtmBuEYceLf
 status: active
 merged_into: null
 display_name: 王沛森
+cbdb_id: 414990
 revision: 1
 properties:
   - predicate: bio.summary

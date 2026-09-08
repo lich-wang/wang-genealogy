@@ -4,6 +4,7 @@ id: p_2TP6dNe4vu3EfhSiDunrh7
 status: active
 merged_into: null
 display_name: 王居善
+cbdb_id: 23372
 revision: 1
 properties:
   - predicate: bio.summary

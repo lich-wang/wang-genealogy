@@ -4,6 +4,7 @@ id: p_RQFRb7ZkfNHmmspp2wmJ84
 status: active
 merged_into: null
 display_name: 王方泰
+cbdb_id: 154137
 revision: 1
 properties:
   - predicate: bio.summary

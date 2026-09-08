@@ -4,6 +4,7 @@ id: p_yXpYfxRQLi9yLfUe6jJN9N
 status: active
 merged_into: null
 display_name: 王嘉裕
+cbdb_id: 414107
 revision: 1
 properties:
   - predicate: bio.summary

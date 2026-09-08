@@ -4,6 +4,7 @@ id: p_ApX1g4AJxZ7Gy4p2M3H8ic
 status: active
 merged_into: null
 display_name: 王穀禎
+cbdb_id: 287792
 revision: 1
 properties:
   - predicate: bio.summary

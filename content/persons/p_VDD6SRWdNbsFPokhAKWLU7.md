@@ -4,6 +4,7 @@ id: p_VDD6SRWdNbsFPokhAKWLU7
 status: active
 merged_into: null
 display_name: 王思寧
+cbdb_id: 101283
 revision: 1
 properties:
   - predicate: bio.summary

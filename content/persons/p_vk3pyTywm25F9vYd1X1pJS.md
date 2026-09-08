@@ -4,6 +4,7 @@ id: p_vk3pyTywm25F9vYd1X1pJS
 status: active
 merged_into: null
 display_name: 王君山
+cbdb_id: 572625
 revision: 1
 properties:
   - predicate: bio.summary

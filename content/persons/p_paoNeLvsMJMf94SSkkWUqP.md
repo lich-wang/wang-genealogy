@@ -4,6 +4,7 @@ id: p_paoNeLvsMJMf94SSkkWUqP
 status: active
 merged_into: null
 display_name: 王大熙
+cbdb_id: 301955
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_zgMxPAPh9nRRPkisXUCpxq
 status: active
 merged_into: null
 display_name: 王雲鷖
+cbdb_id: 210684
 revision: 1
 properties:
   - predicate: bio.summary

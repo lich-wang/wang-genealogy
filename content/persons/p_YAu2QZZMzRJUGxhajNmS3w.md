@@ -4,6 +4,7 @@ id: p_YAu2QZZMzRJUGxhajNmS3w
 status: active
 merged_into: null
 display_name: 王門
+cbdb_id: 168235
 revision: 1
 properties:
   - predicate: bio.summary

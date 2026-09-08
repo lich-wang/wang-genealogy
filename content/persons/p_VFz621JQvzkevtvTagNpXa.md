@@ -4,6 +4,7 @@ id: p_VFz621JQvzkevtvTagNpXa
 status: active
 merged_into: null
 display_name: 王編
+cbdb_id: 207578
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_r6H9zhBwHH7pzeWxF3frCR
 status: active
 merged_into: null
 display_name: 王恆中
+cbdb_id: 304154
 revision: 1
 properties:
   - predicate: bio.summary

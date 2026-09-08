@@ -4,6 +4,7 @@ id: p_wJa89oWwAQ916LvofuGWAh
 status: active
 merged_into: null
 display_name: 王桐
+cbdb_id: 21969
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_ZWypDfDdSWhB1gKA9Sq5FX
 status: active
 merged_into: null
 display_name: 王輔義
+cbdb_id: 153076
 revision: 1
 properties:
   - predicate: bio.summary

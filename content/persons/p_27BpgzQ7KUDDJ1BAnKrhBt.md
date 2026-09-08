@@ -4,6 +4,7 @@ id: p_27BpgzQ7KUDDJ1BAnKrhBt
 status: active
 merged_into: null
 display_name: 王章粲
+cbdb_id: 341637
 revision: 1
 properties:
   - predicate: bio.summary

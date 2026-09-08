@@ -4,6 +4,7 @@ id: p_Pba1j4SQ8CmKNEfsQY2msD
 status: active
 merged_into: null
 display_name: 王慎儀
+cbdb_id: 38269
 revision: 1
 properties:
   - predicate: bio.summary

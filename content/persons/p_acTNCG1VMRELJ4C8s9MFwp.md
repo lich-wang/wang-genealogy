@@ -4,6 +4,7 @@ id: p_acTNCG1VMRELJ4C8s9MFwp
 status: active
 merged_into: null
 display_name: 王賁亨
+cbdb_id: 219262
 revision: 1
 properties:
   - predicate: bio.summary

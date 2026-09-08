@@ -4,6 +4,7 @@ id: p_CVYQ6ZcLXbA91DnWS8v6Bb
 status: active
 merged_into: null
 display_name: 王維羆
+cbdb_id: 309660
 revision: 1
 properties:
   - predicate: bio.summary

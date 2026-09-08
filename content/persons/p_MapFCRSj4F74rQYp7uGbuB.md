@@ -4,6 +4,7 @@ id: p_MapFCRSj4F74rQYp7uGbuB
 status: active
 merged_into: null
 display_name: 王仲超
+cbdb_id: 261839
 revision: 1
 properties:
   - predicate: bio.summary

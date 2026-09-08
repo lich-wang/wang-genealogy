@@ -4,6 +4,7 @@ id: p_j2n3ygo1YiMXzXoDz14tZ3
 status: active
 merged_into: null
 display_name: 王代裕
+cbdb_id: 526826
 revision: 1
 properties:
   - predicate: bio.summary

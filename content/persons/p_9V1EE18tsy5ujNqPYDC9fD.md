@@ -4,6 +4,7 @@ id: p_9V1EE18tsy5ujNqPYDC9fD
 status: active
 merged_into: null
 display_name: 王正興
+cbdb_id: 262559
 revision: 1
 properties:
   - predicate: bio.summary

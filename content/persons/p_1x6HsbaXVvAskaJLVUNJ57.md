@@ -4,6 +4,7 @@ id: p_1x6HsbaXVvAskaJLVUNJ57
 status: active
 merged_into: null
 display_name: 王佶
+cbdb_id: 175637
 revision: 1
 properties:
   - predicate: bio.summary

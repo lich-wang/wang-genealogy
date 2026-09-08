@@ -4,6 +4,7 @@ id: p_oePtXbEia4JdymEA4zpf4F
 status: active
 merged_into: null
 display_name: 王明發
+cbdb_id: 37650
 revision: 1
 properties:
   - predicate: bio.summary

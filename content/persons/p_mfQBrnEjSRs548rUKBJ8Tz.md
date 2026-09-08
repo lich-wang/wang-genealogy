@@ -4,6 +4,7 @@ id: p_mfQBrnEjSRs548rUKBJ8Tz
 status: active
 merged_into: null
 display_name: 王綦溥
+cbdb_id: 415242
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_rP1SdxkNvEkxQt1vGkS8G4
 status: active
 merged_into: null
 display_name: 王禮復
+cbdb_id: 300366
 revision: 1
 properties:
   - predicate: bio.summary

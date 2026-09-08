@@ -4,6 +4,7 @@ id: p_rUEgLRCG3yytW75gR21hk8
 status: active
 merged_into: null
 display_name: 王宗說
+cbdb_id: 27074
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_zms3XCQG3jDEGZghagHh4H
 status: active
 merged_into: null
 display_name: 王源旭
+cbdb_id: 175598
 revision: 1
 properties:
   - predicate: bio.summary

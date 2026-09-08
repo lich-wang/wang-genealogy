@@ -4,6 +4,7 @@ id: p_74adsqKZv664Pv7VStbEe6
 status: active
 merged_into: null
 display_name: 王政恆
+cbdb_id: 342084
 revision: 1
 properties:
   - predicate: bio.summary

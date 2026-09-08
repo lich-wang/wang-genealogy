@@ -4,6 +4,7 @@ id: p_KJXqqDdNPW4RGS64UuXPoQ
 status: active
 merged_into: null
 display_name: 王融
+cbdb_id: 175413
 revision: 1
 properties:
   - predicate: bio.summary

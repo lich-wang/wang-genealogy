@@ -4,6 +4,7 @@ id: p_53ULDxytygvtNZqREQXorf
 status: active
 merged_into: null
 display_name: 王致柔
+cbdb_id: 13483
 revision: 1
 properties:
   - predicate: bio.summary

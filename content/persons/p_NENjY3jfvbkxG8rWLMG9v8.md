@@ -4,6 +4,7 @@ id: p_NENjY3jfvbkxG8rWLMG9v8
 status: active
 merged_into: null
 display_name: 王景濬
+cbdb_id: 343492
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_YAkZ6Jg8Ybu7VV1WBM9bQv
 status: active
 merged_into: null
 display_name: 王按攤不花
+cbdb_id: 101475
 revision: 1
 properties:
   - predicate: bio.summary

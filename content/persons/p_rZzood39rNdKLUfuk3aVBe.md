@@ -4,6 +4,7 @@ id: p_rZzood39rNdKLUfuk3aVBe
 status: active
 merged_into: null
 display_name: 王啟聰
+cbdb_id: 342878
 revision: 1
 properties:
   - predicate: bio.summary

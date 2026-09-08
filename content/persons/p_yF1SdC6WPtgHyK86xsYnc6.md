@@ -4,6 +4,7 @@ id: p_yF1SdC6WPtgHyK86xsYnc6
 status: active
 merged_into: null
 display_name: 王徳明
+cbdb_id: 414550
 revision: 1
 properties:
   - predicate: bio.summary

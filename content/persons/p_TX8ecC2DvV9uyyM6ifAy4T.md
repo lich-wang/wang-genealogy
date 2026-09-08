@@ -4,6 +4,7 @@ id: p_TX8ecC2DvV9uyyM6ifAy4T
 status: active
 merged_into: null
 display_name: 王攀桂
+cbdb_id: 123603
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_ZJLtpiBJE1W13rnTx3AQ9Y
 status: active
 merged_into: null
 display_name: 王兆元
+cbdb_id: 413923
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_ewq8agCN6HGWjejNqfDHDw
 status: active
 merged_into: null
 display_name: 王鳳顯
+cbdb_id: 439460
 revision: 1
 properties:
   - predicate: bio.summary

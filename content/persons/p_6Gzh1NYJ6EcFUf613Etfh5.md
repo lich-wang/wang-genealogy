@@ -4,6 +4,7 @@ id: p_6Gzh1NYJ6EcFUf613Etfh5
 status: active
 merged_into: null
 display_name: 王憲章
+cbdb_id: 414630
 revision: 1
 properties:
   - predicate: bio.summary

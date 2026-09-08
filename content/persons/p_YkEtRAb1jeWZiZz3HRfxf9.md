@@ -4,6 +4,7 @@ id: p_YkEtRAb1jeWZiZz3HRfxf9
 status: active
 merged_into: null
 display_name: 王晦伯
+cbdb_id: 445648
 revision: 1
 properties:
   - predicate: bio.summary

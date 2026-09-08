@@ -4,6 +4,7 @@ id: p_qz69kSDJ128SMxKWWsMnJ8
 status: active
 merged_into: null
 display_name: 王三師
+cbdb_id: 147957
 revision: 1
 properties:
   - predicate: bio.summary

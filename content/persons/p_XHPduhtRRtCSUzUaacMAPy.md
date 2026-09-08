@@ -4,6 +4,7 @@ id: p_XHPduhtRRtCSUzUaacMAPy
 status: active
 merged_into: null
 display_name: 王郢
+cbdb_id: 415517
 revision: 1
 properties:
   - predicate: bio.summary

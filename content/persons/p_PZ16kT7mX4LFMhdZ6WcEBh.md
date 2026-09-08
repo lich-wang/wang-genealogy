@@ -4,6 +4,7 @@ id: p_PZ16kT7mX4LFMhdZ6WcEBh
 status: active
 merged_into: null
 display_name: 王有譽
+cbdb_id: 522572
 revision: 1
 properties:
   - predicate: bio.summary

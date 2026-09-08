@@ -4,6 +4,7 @@ id: p_fBSpr1XLTJQSPTHxe8gQcL
 status: active
 merged_into: null
 display_name: 王墀獻
+cbdb_id: 227356
 revision: 1
 properties:
   - predicate: bio.summary

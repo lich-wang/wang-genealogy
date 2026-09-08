@@ -4,6 +4,7 @@ id: p_jhmTi4r4WfRpFK4vF1pzQj
 status: active
 merged_into: null
 display_name: 王濺
+cbdb_id: 163972
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_5byPebZZRLMmQ6Zo7FrN4n
 status: active
 merged_into: null
 display_name: 王學濂
+cbdb_id: 343661
 revision: 1
 properties:
   - predicate: bio.summary

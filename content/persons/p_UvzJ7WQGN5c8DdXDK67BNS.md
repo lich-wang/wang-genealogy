@@ -4,6 +4,7 @@ id: p_UvzJ7WQGN5c8DdXDK67BNS
 status: active
 merged_into: null
 display_name: 王克名
+cbdb_id: 252698
 revision: 1
 properties:
   - predicate: bio.summary

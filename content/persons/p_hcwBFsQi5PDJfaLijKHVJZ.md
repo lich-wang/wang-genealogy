@@ -4,6 +4,7 @@ id: p_hcwBFsQi5PDJfaLijKHVJZ
 status: active
 merged_into: null
 display_name: 王顯世
+cbdb_id: 38476
 revision: 1
 properties:
   - predicate: bio.summary

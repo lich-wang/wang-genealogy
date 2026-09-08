@@ -4,6 +4,7 @@ id: p_zaLZ7MeMFzW6L2M9Y63jvQ
 status: active
 merged_into: null
 display_name: 王一臣
+cbdb_id: 298427
 revision: 1
 properties:
   - predicate: bio.summary

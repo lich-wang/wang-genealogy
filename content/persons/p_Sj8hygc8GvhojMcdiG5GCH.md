@@ -4,6 +4,7 @@ id: p_Sj8hygc8GvhojMcdiG5GCH
 status: active
 merged_into: null
 display_name: 王槐起
+cbdb_id: 123340
 revision: 2
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_581ZPLkr9ogpgK4G8VJbih
 status: active
 merged_into: null
 display_name: 王珍之
+cbdb_id: 415106
 revision: 1
 properties:
   - predicate: bio.summary

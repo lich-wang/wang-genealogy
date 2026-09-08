@@ -4,6 +4,7 @@ id: p_9eCcDpeVkEgC9tqMMZEZWG
 status: active
 merged_into: null
 display_name: 王忠
+cbdb_id: 35273
 revision: 1
 properties:
   - predicate: name.primary

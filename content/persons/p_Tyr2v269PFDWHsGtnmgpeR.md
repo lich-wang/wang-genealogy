@@ -4,6 +4,7 @@ id: p_Tyr2v269PFDWHsGtnmgpeR
 status: active
 merged_into: null
 display_name: 王賜印
+cbdb_id: 415446
 revision: 1
 properties:
   - predicate: bio.summary

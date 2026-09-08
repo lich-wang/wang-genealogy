@@ -4,6 +4,7 @@ id: p_pGYXbBi6Lr5aP7uQ3WrZhZ
 status: active
 merged_into: null
 display_name: 王熊兆
+cbdb_id: 342173
 revision: 1
 properties:
   - predicate: bio.summary

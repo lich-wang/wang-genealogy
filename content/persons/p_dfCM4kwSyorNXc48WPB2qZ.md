@@ -4,6 +4,7 @@ id: p_dfCM4kwSyorNXc48WPB2qZ
 status: active
 merged_into: null
 display_name: 王促
+cbdb_id: 273736
 revision: 1
 properties:
   - predicate: bio.summary

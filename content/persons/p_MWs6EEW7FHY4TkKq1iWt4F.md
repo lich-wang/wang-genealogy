@@ -4,6 +4,7 @@ id: p_MWs6EEW7FHY4TkKq1iWt4F
 status: active
 merged_into: null
 display_name: 王惟昪
+cbdb_id: 159962
 revision: 1
 properties:
   - predicate: bio.summary

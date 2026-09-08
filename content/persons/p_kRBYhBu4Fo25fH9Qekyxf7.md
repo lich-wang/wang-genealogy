@@ -4,6 +4,7 @@ id: p_kRBYhBu4Fo25fH9Qekyxf7
 status: active
 merged_into: null
 display_name: 王麟允
+cbdb_id: 415651
 revision: 1
 properties:
   - predicate: bio.summary

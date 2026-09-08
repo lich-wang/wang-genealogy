@@ -4,6 +4,7 @@ id: p_5p71LDupxSiT4UNxVpx8U7
 status: active
 merged_into: null
 display_name: 王新丰
+cbdb_id: 175461
 revision: 1
 properties:
   - predicate: bio.summary

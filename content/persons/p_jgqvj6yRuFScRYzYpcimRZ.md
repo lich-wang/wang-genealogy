@@ -4,6 +4,7 @@ id: p_jgqvj6yRuFScRYzYpcimRZ
 status: active
 merged_into: null
 display_name: 王士彦
+cbdb_id: 307065
 revision: 2
 properties:
   - predicate: bio.summary

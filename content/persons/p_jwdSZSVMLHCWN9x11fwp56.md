@@ -4,6 +4,7 @@ id: p_jwdSZSVMLHCWN9x11fwp56
 status: active
 merged_into: null
 display_name: 王績威
+cbdb_id: 415263
 revision: 1
 properties:
   - predicate: bio.summary

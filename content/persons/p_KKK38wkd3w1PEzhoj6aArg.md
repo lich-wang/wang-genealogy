@@ -4,6 +4,7 @@ id: p_KKK38wkd3w1PEzhoj6aArg
 status: active
 merged_into: null
 display_name: 王槐慶
+cbdb_id: 522133
 revision: 1
 properties:
   - predicate: bio.summary

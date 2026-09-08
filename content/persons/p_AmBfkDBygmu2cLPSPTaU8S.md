@@ -4,6 +4,7 @@ id: p_AmBfkDBygmu2cLPSPTaU8S
 status: active
 merged_into: null
 display_name: 王汝新
+cbdb_id: 314237
 revision: 1
 properties:
   - predicate: bio.summary

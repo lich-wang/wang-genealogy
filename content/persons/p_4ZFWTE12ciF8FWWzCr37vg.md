@@ -4,6 +4,7 @@ id: p_4ZFWTE12ciF8FWWzCr37vg
 status: active
 merged_into: null
 display_name: 王保大
+cbdb_id: 22145
 revision: 1
 properties:
   - predicate: bio.summary

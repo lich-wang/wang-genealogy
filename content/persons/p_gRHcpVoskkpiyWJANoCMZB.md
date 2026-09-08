@@ -4,6 +4,7 @@ id: p_gRHcpVoskkpiyWJANoCMZB
 status: active
 merged_into: null
 display_name: 王朝式
+cbdb_id: 69378
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_ApYDpLsRLS71x5CzS8kbPD
 status: active
 merged_into: null
 display_name: 王作極
+cbdb_id: 342449
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_LJN6MLgH1KFdRC5BEKtSdK
 status: active
 merged_into: null
 display_name: 王賢甫
+cbdb_id: 415456
 revision: 1
 properties:
   - predicate: bio.summary

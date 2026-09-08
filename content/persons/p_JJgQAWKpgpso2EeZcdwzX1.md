@@ -4,6 +4,7 @@ id: p_JJgQAWKpgpso2EeZcdwzX1
 status: active
 merged_into: null
 display_name: 王延贊
+cbdb_id: 39406
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_RDNJ8o72vFMxrah1zdPAKv
 status: active
 merged_into: null
 display_name: 王龍榮
+cbdb_id: 25594
 revision: 1
 properties:
   - predicate: bio.summary

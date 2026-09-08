@@ -4,6 +4,7 @@ id: p_J7RLh9g8kkBqfkKSJnwL4p
 status: active
 merged_into: null
 display_name: 王同庶
+cbdb_id: 228285
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_xA5GreqfjX2TtrKBVdzGXc
 status: active
 merged_into: null
 display_name: 王士銓
+cbdb_id: 496044
 revision: 1
 properties:
   - predicate: bio.summary

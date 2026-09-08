@@ -4,6 +4,7 @@ id: p_nNM44KLpmjM3JH2WvQLbx2
 status: active
 merged_into: null
 display_name: 王家礎
+cbdb_id: 207591
 revision: 1
 properties:
   - predicate: bio.summary

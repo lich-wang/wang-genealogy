@@ -4,6 +4,7 @@ id: p_fbHh6HPeT18J7aeK9HXbmV
 status: active
 merged_into: null
 display_name: 王養某
+cbdb_id: 496224
 revision: 1
 properties:
   - predicate: bio.summary

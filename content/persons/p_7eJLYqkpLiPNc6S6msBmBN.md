@@ -4,6 +4,7 @@ id: p_7eJLYqkpLiPNc6S6msBmBN
 status: active
 merged_into: null
 display_name: 王朝佑
+cbdb_id: 267258
 revision: 1
 properties:
   - predicate: bio.summary

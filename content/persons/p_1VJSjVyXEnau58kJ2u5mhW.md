@@ -4,6 +4,7 @@ id: p_1VJSjVyXEnau58kJ2u5mhW
 status: active
 merged_into: null
 display_name: 王炳輔
+cbdb_id: 213346
 revision: 1
 properties:
   - predicate: bio.summary

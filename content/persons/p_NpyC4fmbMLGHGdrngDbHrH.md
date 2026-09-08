@@ -4,6 +4,7 @@ id: p_NpyC4fmbMLGHGdrngDbHrH
 status: active
 merged_into: null
 display_name: 王貢賞
+cbdb_id: 524788
 revision: 1
 properties:
   - predicate: bio.summary

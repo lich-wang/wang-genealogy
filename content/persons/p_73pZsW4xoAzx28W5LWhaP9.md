@@ -4,6 +4,7 @@ id: p_73pZsW4xoAzx28W5LWhaP9
 status: active
 merged_into: null
 display_name: 王雨化
+cbdb_id: 336313
 revision: 1
 properties:
   - predicate: bio.summary

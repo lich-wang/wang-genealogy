@@ -4,6 +4,7 @@ id: p_QgAKGJMuGM4ng3rJwQxmzL
 status: active
 merged_into: null
 display_name: 王好賢
+cbdb_id: 285849
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_gULjRN5A1MWfuPZ17CSZoc
 status: active
 merged_into: null
 display_name: 王文璧
+cbdb_id: 414744
 revision: 1
 properties:
   - predicate: bio.summary

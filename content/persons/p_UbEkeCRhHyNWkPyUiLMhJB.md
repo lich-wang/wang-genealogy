@@ -4,6 +4,7 @@ id: p_UbEkeCRhHyNWkPyUiLMhJB
 status: active
 merged_into: null
 display_name: 王惠常
+cbdb_id: 118178
 revision: 1
 properties:
   - predicate: bio.summary

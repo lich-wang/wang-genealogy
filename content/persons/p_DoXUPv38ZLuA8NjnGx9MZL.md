@@ -4,6 +4,7 @@ id: p_DoXUPv38ZLuA8NjnGx9MZL
 status: active
 merged_into: null
 display_name: 王特選
+cbdb_id: 71957
 revision: 1
 properties:
   - predicate: bio.summary

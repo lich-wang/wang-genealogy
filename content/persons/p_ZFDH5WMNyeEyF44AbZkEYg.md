@@ -4,6 +4,7 @@ id: p_ZFDH5WMNyeEyF44AbZkEYg
 status: active
 merged_into: null
 display_name: 王自牧
+cbdb_id: 558018
 revision: 1
 properties:
   - predicate: bio.summary

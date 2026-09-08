@@ -4,6 +4,7 @@ id: p_NMC9HyK2b3NRX3PXmAHnYA
 status: active
 merged_into: null
 display_name: 王從讓
+cbdb_id: 231573
 revision: 1
 properties:
   - predicate: bio.summary

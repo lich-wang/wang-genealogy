@@ -4,6 +4,7 @@ id: p_fkuF3WpffZDj8zKuas13wo
 status: active
 merged_into: null
 display_name: 王原模
+cbdb_id: 327875
 revision: 1
 properties:
   - predicate: bio.summary

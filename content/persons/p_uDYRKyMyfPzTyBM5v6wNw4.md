@@ -4,6 +4,7 @@ id: p_uDYRKyMyfPzTyBM5v6wNw4
 status: active
 merged_into: null
 display_name: 王齊由
+cbdb_id: 151198
 revision: 1
 properties:
   - predicate: bio.summary

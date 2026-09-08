@@ -4,6 +4,7 @@ id: p_wU8P88JFTt3L9W3HaP1MeX
 status: active
 merged_into: null
 display_name: 王正大
+cbdb_id: 35586
 revision: 2
 properties:
   - predicate: bio.summary

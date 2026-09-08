@@ -4,6 +4,7 @@ id: p_BZ9vURktHiuqn4iz4rmTQK
 status: active
 merged_into: null
 display_name: 王獻元
+cbdb_id: 415096
 revision: 1
 properties:
   - predicate: bio.summary

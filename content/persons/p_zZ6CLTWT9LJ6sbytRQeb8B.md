@@ -4,6 +4,7 @@ id: p_zZ6CLTWT9LJ6sbytRQeb8B
 status: active
 merged_into: null
 display_name: 王士隆
+cbdb_id: 45883
 revision: 1
 properties:
   - predicate: bio.summary

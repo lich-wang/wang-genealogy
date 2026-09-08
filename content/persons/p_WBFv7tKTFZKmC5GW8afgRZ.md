@@ -4,6 +4,7 @@ id: p_WBFv7tKTFZKmC5GW8afgRZ
 status: active
 merged_into: null
 display_name: 王惟應
+cbdb_id: 308705
 revision: 1
 properties:
   - predicate: bio.summary

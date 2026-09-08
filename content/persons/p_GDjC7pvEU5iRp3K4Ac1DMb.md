@@ -4,6 +4,7 @@ id: p_GDjC7pvEU5iRp3K4Ac1DMb
 status: active
 merged_into: null
 display_name: 王玉和
+cbdb_id: 280406
 revision: 1
 properties:
   - predicate: bio.summary

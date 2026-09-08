@@ -4,6 +4,7 @@ id: p_4yer6RaD2W3SvLPWsRXSkx
 status: active
 merged_into: null
 display_name: 王傳慶
+cbdb_id: 193634
 revision: 1
 properties:
   - predicate: bio.summary

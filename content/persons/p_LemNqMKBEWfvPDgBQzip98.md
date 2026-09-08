@@ -4,6 +4,7 @@ id: p_LemNqMKBEWfvPDgBQzip98
 status: active
 merged_into: null
 display_name: 王本才
+cbdb_id: 414855
 revision: 1
 properties:
   - predicate: bio.summary

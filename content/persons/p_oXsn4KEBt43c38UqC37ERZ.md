@@ -4,6 +4,7 @@ id: p_oXsn4KEBt43c38UqC37ERZ
 status: active
 merged_into: null
 display_name: 王啟仁
+cbdb_id: 517397
 revision: 1
 properties:
   - predicate: bio.summary

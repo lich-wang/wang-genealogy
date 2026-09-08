@@ -4,6 +4,7 @@ id: p_tC6DjJ8Fwtj2D6kqdrmDjF
 status: active
 merged_into: null
 display_name: 王公綬
+cbdb_id: 699337
 revision: 1
 properties:
   - predicate: bio.summary

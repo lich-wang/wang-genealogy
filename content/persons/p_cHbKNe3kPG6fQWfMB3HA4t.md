@@ -4,6 +4,7 @@ id: p_cHbKNe3kPG6fQWfMB3HA4t
 status: active
 merged_into: null
 display_name: 王景讓
+cbdb_id: 38080
 revision: 1
 properties:
   - predicate: bio.summary

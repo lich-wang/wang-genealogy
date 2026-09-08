@@ -4,6 +4,7 @@ id: p_YUKAdQiXr1DTx2KFsrYLgt
 status: active
 merged_into: null
 display_name: 王琛
+cbdb_id: 264938
 revision: 2
 properties:
   - predicate: bio.summary

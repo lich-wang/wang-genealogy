@@ -4,6 +4,7 @@ id: p_VUBwbVEMgoWQJop96sY3WM
 status: active
 merged_into: null
 display_name: 王惠範
+cbdb_id: 414616
 revision: 1
 properties:
   - predicate: bio.summary

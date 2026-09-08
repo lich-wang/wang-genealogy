@@ -4,6 +4,7 @@ id: p_h94RYJsotCcXbyJGXE7U2C
 status: active
 merged_into: null
 display_name: 王一弼
+cbdb_id: 298426
 revision: 1
 properties:
   - predicate: bio.summary

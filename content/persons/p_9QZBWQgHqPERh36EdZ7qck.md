@@ -4,6 +4,7 @@ id: p_9QZBWQgHqPERh36EdZ7qck
 status: active
 merged_into: null
 display_name: 王小
+cbdb_id: 139617
 revision: 1
 properties:
   - predicate: bio.summary

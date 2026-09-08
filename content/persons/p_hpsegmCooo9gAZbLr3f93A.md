@@ -4,6 +4,7 @@ id: p_hpsegmCooo9gAZbLr3f93A
 status: active
 merged_into: null
 display_name: 王元爽
+cbdb_id: 207767
 revision: 1
 properties:
   - predicate: bio.summary

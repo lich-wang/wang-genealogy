@@ -4,6 +4,7 @@ id: p_oovgjJMJK2LD3jmKnJV4YK
 status: active
 merged_into: null
 display_name: 王瀘淵
+cbdb_id: 415060
 revision: 1
 properties:
   - predicate: bio.summary

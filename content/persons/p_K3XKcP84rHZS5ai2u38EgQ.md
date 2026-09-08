@@ -4,6 +4,7 @@ id: p_K3XKcP84rHZS5ai2u38EgQ
 status: active
 merged_into: null
 display_name: 王纲
+cbdb_id: 175378
 revision: 1
 properties:
   - predicate: bio.summary

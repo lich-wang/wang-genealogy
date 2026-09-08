@@ -4,6 +4,7 @@ id: p_DvugYwv6oMVSWxvWgWY1wQ
 status: active
 merged_into: null
 display_name: 王光佩
+cbdb_id: 343883
 revision: 1
 properties:
   - predicate: bio.summary

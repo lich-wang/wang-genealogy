@@ -4,6 +4,7 @@ id: p_47d6KFC2AqBEDKtDcZ73yr
 status: active
 merged_into: null
 display_name: 王無疾
+cbdb_id: 117595
 revision: 1
 properties:
   - predicate: bio.summary

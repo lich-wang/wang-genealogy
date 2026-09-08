@@ -4,6 +4,7 @@ id: p_JRhtxyQUnHhcs6HZBWxNgu
 status: active
 merged_into: null
 display_name: 王洪祖
+cbdb_id: 97944
 revision: 1
 properties:
   - predicate: bio.summary

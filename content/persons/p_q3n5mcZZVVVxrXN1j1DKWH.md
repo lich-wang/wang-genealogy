@@ -4,6 +4,7 @@ id: p_q3n5mcZZVVVxrXN1j1DKWH
 status: active
 merged_into: null
 display_name: 王熊采
+cbdb_id: 415080
 revision: 1
 properties:
   - predicate: bio.summary

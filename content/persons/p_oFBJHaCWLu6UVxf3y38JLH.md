@@ -4,6 +4,7 @@ id: p_oFBJHaCWLu6UVxf3y38JLH
 status: active
 merged_into: null
 display_name: 徐安吉
+cbdb_id: 69770
 revision: 2
 properties:
   - predicate: bio.summary

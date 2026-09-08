@@ -4,6 +4,7 @@ id: p_zTj1eNcAG3BPvbBjiJxYtN
 status: active
 merged_into: null
 display_name: 王文琮
+cbdb_id: 271492
 revision: 1
 properties:
   - predicate: bio.summary

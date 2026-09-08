@@ -4,6 +4,7 @@ id: p_T32jzbzJcHzypfJYEv1iMf
 status: active
 merged_into: null
 display_name: 王伯淳
+cbdb_id: 517404
 revision: 1
 properties:
   - predicate: bio.summary

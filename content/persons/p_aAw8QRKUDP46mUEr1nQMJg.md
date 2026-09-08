@@ -4,6 +4,7 @@ id: p_aAw8QRKUDP46mUEr1nQMJg
 status: active
 merged_into: null
 display_name: 王耳
+cbdb_id: 221465
 revision: 1
 properties:
   - predicate: bio.summary

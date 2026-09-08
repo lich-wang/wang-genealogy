@@ -4,6 +4,7 @@ id: p_wm6KMTej7ugu8jJgRxzghC
 status: active
 merged_into: null
 display_name: 王得志
+cbdb_id: 327149
 revision: 1
 properties:
   - predicate: bio.summary

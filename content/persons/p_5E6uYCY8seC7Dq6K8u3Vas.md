@@ -4,6 +4,7 @@ id: p_5E6uYCY8seC7Dq6K8u3Vas
 status: active
 merged_into: null
 display_name: 王鴻典
+cbdb_id: 69484
 revision: 1
 properties:
   - predicate: bio.summary

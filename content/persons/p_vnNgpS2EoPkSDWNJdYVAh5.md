@@ -4,6 +4,7 @@ id: p_vnNgpS2EoPkSDWNJdYVAh5
 status: active
 merged_into: null
 display_name: 王資良
+cbdb_id: 200587
 revision: 1
 properties:
   - predicate: bio.summary

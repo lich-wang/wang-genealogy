@@ -4,6 +4,7 @@ id: p_5Np11bpUk1ewMpdWYFHGy2
 status: active
 merged_into: null
 display_name: 王令思
+cbdb_id: 163178
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_X8ey8mTATQs82jLVUHi3v5
 status: active
 merged_into: null
 display_name: 王遲速
+cbdb_id: 279743
 revision: 1
 properties:
   - predicate: bio.summary

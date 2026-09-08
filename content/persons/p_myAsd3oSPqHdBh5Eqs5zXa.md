@@ -4,6 +4,7 @@ id: p_myAsd3oSPqHdBh5Eqs5zXa
 status: active
 merged_into: null
 display_name: 王基謙
+cbdb_id: 414151
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_zw9tnG2aWxAJEChJcyJp7z
 status: active
 merged_into: null
 display_name: 王志嚴
+cbdb_id: 275659
 revision: 1
 properties:
   - predicate: bio.summary

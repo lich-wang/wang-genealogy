@@ -4,6 +4,7 @@ id: p_vgoWcNsg5TJm8CAAjNf5Xr
 status: active
 merged_into: null
 display_name: 王道卿
+cbdb_id: 22254
 revision: 1
 properties:
   - predicate: bio.summary

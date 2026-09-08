@@ -4,6 +4,7 @@ id: p_VKVLpjhVUtcmRg8U7moQQJ
 status: active
 merged_into: null
 display_name: 王弘謨
+cbdb_id: 331180
 revision: 1
 properties:
   - predicate: bio.summary

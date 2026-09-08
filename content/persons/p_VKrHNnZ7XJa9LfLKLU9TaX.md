@@ -4,6 +4,7 @@ id: p_VKrHNnZ7XJa9LfLKLU9TaX
 status: active
 merged_into: null
 display_name: 王偉楨
+cbdb_id: 71574
 revision: 1
 properties:
   - predicate: bio.summary

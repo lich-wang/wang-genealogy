@@ -4,6 +4,7 @@ id: p_MMf4wMgDfwJiLrKWxazywD
 status: active
 merged_into: null
 display_name: 王學稷
+cbdb_id: 414267
 revision: 1
 properties:
   - predicate: bio.summary

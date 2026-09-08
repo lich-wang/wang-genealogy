@@ -4,6 +4,7 @@ id: p_HRM7GsrH6RKGj5BRRsKgDG
 status: active
 merged_into: null
 display_name: 王學讓
+cbdb_id: 316266
 revision: 1
 properties:
   - predicate: bio.summary

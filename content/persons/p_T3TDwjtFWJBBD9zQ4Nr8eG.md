@@ -4,6 +4,7 @@ id: p_T3TDwjtFWJBBD9zQ4Nr8eG
 status: active
 merged_into: null
 display_name: 王汝和
+cbdb_id: 342721
 revision: 1
 properties:
   - predicate: bio.summary

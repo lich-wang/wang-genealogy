@@ -4,6 +4,7 @@ id: p_ji3PdBw1no4rnU7EssCSR7
 status: active
 merged_into: null
 display_name: 王步雲
+cbdb_id: 441611
 revision: 1
 properties:
   - predicate: bio.summary

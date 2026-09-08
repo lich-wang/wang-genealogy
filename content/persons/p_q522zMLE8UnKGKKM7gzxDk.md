@@ -4,6 +4,7 @@ id: p_q522zMLE8UnKGKKM7gzxDk
 status: active
 merged_into: null
 display_name: 王內丘
+cbdb_id: 446574
 revision: 1
 properties:
   - predicate: bio.summary

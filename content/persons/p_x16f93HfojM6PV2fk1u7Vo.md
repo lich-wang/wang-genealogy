@@ -4,6 +4,7 @@ id: p_x16f93HfojM6PV2fk1u7Vo
 status: active
 merged_into: null
 display_name: 王玄辯
+cbdb_id: 147377
 revision: 1
 properties:
   - predicate: bio.summary

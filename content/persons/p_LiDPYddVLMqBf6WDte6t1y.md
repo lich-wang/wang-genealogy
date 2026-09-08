@@ -4,6 +4,7 @@ id: p_LiDPYddVLMqBf6WDte6t1y
 status: active
 merged_into: null
 display_name: 王弘雅
+cbdb_id: 160328
 revision: 1
 properties:
   - predicate: bio.summary

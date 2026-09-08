@@ -4,6 +4,7 @@ id: p_DK1eBMbHVfxDanwn7xNzmC
 status: active
 merged_into: null
 display_name: 王汝汲
+cbdb_id: 211413
 revision: 1
 properties:
   - predicate: bio.summary

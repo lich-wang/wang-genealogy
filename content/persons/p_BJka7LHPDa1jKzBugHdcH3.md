@@ -4,6 +4,7 @@ id: p_BJka7LHPDa1jKzBugHdcH3
 status: active
 merged_into: null
 display_name: 王志貴
+cbdb_id: 414579
 revision: 1
 properties:
   - predicate: bio.summary

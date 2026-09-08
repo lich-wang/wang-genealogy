@@ -4,6 +4,7 @@ id: p_XqyNtYCHXNFR3PsAa3nfyp
 status: active
 merged_into: null
 display_name: 王愛山
+cbdb_id: 101376
 revision: 1
 properties:
   - predicate: bio.summary

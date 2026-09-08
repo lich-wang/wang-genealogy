@@ -4,6 +4,7 @@ id: p_1D3hbNKxcbsT82F3n6P9mE
 status: active
 merged_into: null
 display_name: 王庭暉
+cbdb_id: 155369
 revision: 1
 properties:
   - predicate: bio.summary

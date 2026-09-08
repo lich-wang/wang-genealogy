@@ -4,6 +4,7 @@ id: p_ayycRJwvXJ67FqzLiFbkse
 status: active
 merged_into: null
 display_name: 王徽音
+cbdb_id: 325302
 revision: 1
 properties:
   - predicate: bio.summary

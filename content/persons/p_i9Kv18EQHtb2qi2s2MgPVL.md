@@ -4,6 +4,7 @@ id: p_i9Kv18EQHtb2qi2s2MgPVL
 status: active
 merged_into: null
 display_name: 王自良
+cbdb_id: 415319
 revision: 1
 properties:
   - predicate: bio.summary

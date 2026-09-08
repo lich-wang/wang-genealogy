@@ -4,6 +4,7 @@ id: p_PDE4HdocGFKpChkazhKMLF
 status: active
 merged_into: null
 display_name: 王式旦
+cbdb_id: 71520
 revision: 1
 properties:
   - predicate: bio.summary

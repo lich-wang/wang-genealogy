@@ -4,6 +4,7 @@ id: p_HKTof3Mwz4d6YLtw9p9b6r
 status: active
 merged_into: null
 display_name: 王明山
+cbdb_id: 69239
 revision: 1
 properties:
   - predicate: bio.summary

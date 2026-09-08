@@ -4,6 +4,7 @@ id: p_DZ5nnk3EGWck2YG4du17po
 status: active
 merged_into: null
 display_name: 王作楷
+cbdb_id: 342451
 revision: 1
 properties:
   - predicate: bio.summary

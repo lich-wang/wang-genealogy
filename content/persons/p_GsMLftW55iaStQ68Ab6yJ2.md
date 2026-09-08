@@ -4,6 +4,7 @@ id: p_GsMLftW55iaStQ68Ab6yJ2
 status: active
 merged_into: null
 display_name: 王同節
+cbdb_id: 22170
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_fj97sG1LzpBaRtp35NJpLY
 status: active
 merged_into: null
 display_name: 王亮器
+cbdb_id: 231882
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_kP6VABQWbKR9ndmes7Y926
 status: active
 merged_into: null
 display_name: 王武烈
+cbdb_id: 214071
 revision: 1
 properties:
   - predicate: bio.summary

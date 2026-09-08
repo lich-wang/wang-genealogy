@@ -4,6 +4,7 @@ id: p_HLJc15MQ6Zdco3YKBiTQmz
 status: active
 merged_into: null
 display_name: 王采薇
+cbdb_id: 54395
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_q1GNFo9iauMULWQoMnSPpW
 status: active
 merged_into: null
 display_name: 王令儀
+cbdb_id: 413818
 revision: 1
 properties:
   - predicate: bio.summary

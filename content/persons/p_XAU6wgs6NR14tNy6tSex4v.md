@@ -4,6 +4,7 @@ id: p_XAU6wgs6NR14tNy6tSex4v
 status: active
 merged_into: null
 display_name: 王建和
+cbdb_id: 341994
 revision: 1
 properties:
   - predicate: bio.summary

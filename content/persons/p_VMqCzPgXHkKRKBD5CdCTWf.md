@@ -4,6 +4,7 @@ id: p_VMqCzPgXHkKRKBD5CdCTWf
 status: active
 merged_into: null
 display_name: 王榮寵
+cbdb_id: 513595
 revision: 1
 properties:
   - predicate: bio.summary

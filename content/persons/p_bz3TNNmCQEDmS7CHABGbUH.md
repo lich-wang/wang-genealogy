@@ -4,6 +4,7 @@ id: p_bz3TNNmCQEDmS7CHABGbUH
 status: active
 merged_into: null
 display_name: 王得元
+cbdb_id: 414528
 revision: 1
 properties:
   - predicate: bio.summary

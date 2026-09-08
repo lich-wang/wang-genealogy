@@ -4,6 +4,7 @@ id: p_5p53EfmQ44vsjoPLQMGmHx
 status: active
 merged_into: null
 display_name: 王體道
+cbdb_id: 295415
 revision: 1
 properties:
   - predicate: bio.summary

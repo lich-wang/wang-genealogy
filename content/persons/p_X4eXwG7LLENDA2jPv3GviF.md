@@ -4,6 +4,7 @@ id: p_X4eXwG7LLENDA2jPv3GviF
 status: active
 merged_into: null
 display_name: 王際有
+cbdb_id: 343648
 revision: 1
 properties:
   - predicate: bio.summary

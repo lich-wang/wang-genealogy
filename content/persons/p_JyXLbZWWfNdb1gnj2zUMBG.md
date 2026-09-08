@@ -4,6 +4,7 @@ id: p_JyXLbZWWfNdb1gnj2zUMBG
 status: active
 merged_into: null
 display_name: 王湄
+cbdb_id: 522069
 revision: 1
 properties:
   - predicate: bio.summary

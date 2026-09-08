@@ -4,6 +4,7 @@ id: p_YR5yqB6W195SpUorotK6xo
 status: active
 merged_into: null
 display_name: 王日翰
+cbdb_id: 414768
 revision: 1
 properties:
   - predicate: bio.summary

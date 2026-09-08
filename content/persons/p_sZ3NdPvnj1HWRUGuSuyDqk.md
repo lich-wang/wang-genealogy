@@ -4,6 +4,7 @@ id: p_sZ3NdPvnj1HWRUGuSuyDqk
 status: active
 merged_into: null
 display_name: 王育燿
+cbdb_id: 517998
 revision: 1
 properties:
   - predicate: bio.summary

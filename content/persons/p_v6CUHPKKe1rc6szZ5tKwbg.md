@@ -4,6 +4,7 @@ id: p_v6CUHPKKe1rc6szZ5tKwbg
 status: active
 merged_into: null
 display_name: 王汝廉
+cbdb_id: 414964
 revision: 1
 properties:
   - predicate: bio.summary

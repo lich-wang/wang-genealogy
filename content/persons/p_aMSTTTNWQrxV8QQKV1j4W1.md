@@ -4,6 +4,7 @@ id: p_aMSTTTNWQrxV8QQKV1j4W1
 status: active
 merged_into: null
 display_name: 王克任
+cbdb_id: 413945
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_tkxnEVRAGY2FNrg3LkqDT4
 status: active
 merged_into: null
 display_name: 王允善
+cbdb_id: 342259
 revision: 1
 properties:
   - predicate: bio.summary

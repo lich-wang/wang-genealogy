@@ -4,6 +4,7 @@ id: p_8JkFNe2nzMeDg7thTkkyLK
 status: active
 merged_into: null
 display_name: 王有光
+cbdb_id: 216145
 revision: 1
 properties:
   - predicate: bio.summary

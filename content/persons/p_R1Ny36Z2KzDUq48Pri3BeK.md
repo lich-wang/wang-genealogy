@@ -4,6 +4,7 @@ id: p_R1Ny36Z2KzDUq48Pri3BeK
 status: active
 merged_into: null
 display_name: 王慎行
+cbdb_id: 22055
 revision: 2
 properties:
   - predicate: bio.summary

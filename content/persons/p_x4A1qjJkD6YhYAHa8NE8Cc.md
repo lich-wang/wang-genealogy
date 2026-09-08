@@ -4,6 +4,7 @@ id: p_x4A1qjJkD6YhYAHa8NE8Cc
 status: active
 merged_into: null
 display_name: 王子華
+cbdb_id: 320861
 revision: 1
 properties:
   - predicate: bio.summary

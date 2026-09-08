@@ -4,6 +4,7 @@ id: p_7GKNA3uyknJPNe6oZhNnPz
 status: active
 merged_into: null
 display_name: 王保隆
+cbdb_id: 25839
 revision: 1
 properties:
   - predicate: bio.summary

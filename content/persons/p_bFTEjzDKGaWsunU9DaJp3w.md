@@ -4,6 +4,7 @@ id: p_bFTEjzDKGaWsunU9DaJp3w
 status: active
 merged_into: null
 display_name: 王雲煥
+cbdb_id: 61836
 revision: 1
 properties:
   - predicate: bio.summary

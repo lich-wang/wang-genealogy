@@ -4,6 +4,7 @@ id: p_xsnR2nso5Ewzd4xpZw67wk
 status: active
 merged_into: null
 display_name: 王师迥
+cbdb_id: 175426
 revision: 1
 properties:
   - predicate: bio.summary

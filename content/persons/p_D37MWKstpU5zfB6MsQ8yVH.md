@@ -4,6 +4,7 @@ id: p_D37MWKstpU5zfB6MsQ8yVH
 status: active
 merged_into: null
 display_name: 王聯晉
+cbdb_id: 67230
 revision: 1
 properties:
   - predicate: bio.summary

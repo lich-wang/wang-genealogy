@@ -4,6 +4,7 @@ id: p_4yyYWVuQGfZJDD4mgAnDBk
 status: active
 merged_into: null
 display_name: 王素英
+cbdb_id: 101319
 revision: 1
 properties:
   - predicate: bio.summary

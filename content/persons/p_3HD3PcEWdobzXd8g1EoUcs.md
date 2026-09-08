@@ -4,6 +4,7 @@ id: p_3HD3PcEWdobzXd8g1EoUcs
 status: active
 merged_into: null
 display_name: 王孫謀
+cbdb_id: 341959
 revision: 1
 properties:
   - predicate: bio.summary

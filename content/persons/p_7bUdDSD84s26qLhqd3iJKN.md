@@ -4,6 +4,7 @@ id: p_7bUdDSD84s26qLhqd3iJKN
 status: active
 merged_into: null
 display_name: 王啟沆
+cbdb_id: 71715
 revision: 1
 properties:
   - predicate: bio.summary

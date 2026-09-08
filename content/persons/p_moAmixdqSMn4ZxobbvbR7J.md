@@ -4,6 +4,7 @@ id: p_moAmixdqSMn4ZxobbvbR7J
 status: active
 merged_into: null
 display_name: 王堯善
+cbdb_id: 26316
 revision: 1
 properties:
   - predicate: bio.summary

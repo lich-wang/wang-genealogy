@@ -4,6 +4,7 @@ id: p_4T4YhsidVU2NFfdAtSPY8Z
 status: active
 merged_into: null
 display_name: 王立隆
+cbdb_id: 229794
 revision: 2
 properties:
   - predicate: bio.summary

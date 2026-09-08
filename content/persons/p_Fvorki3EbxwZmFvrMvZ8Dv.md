@@ -4,6 +4,7 @@ id: p_Fvorki3EbxwZmFvrMvZ8Dv
 status: active
 merged_into: null
 display_name: 王令一
+cbdb_id: 165019
 revision: 1
 properties:
   - predicate: bio.summary

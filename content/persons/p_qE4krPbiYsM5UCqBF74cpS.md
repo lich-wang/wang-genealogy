@@ -4,6 +4,7 @@ id: p_qE4krPbiYsM5UCqBF74cpS
 status: active
 merged_into: null
 display_name: 王正恕
+cbdb_id: 288242
 revision: 1
 properties:
   - predicate: bio.summary

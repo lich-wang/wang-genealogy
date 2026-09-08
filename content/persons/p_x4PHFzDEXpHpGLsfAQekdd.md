@@ -4,6 +4,7 @@ id: p_x4PHFzDEXpHpGLsfAQekdd
 status: active
 merged_into: null
 display_name: 王鴻治
+cbdb_id: 415644
 revision: 1
 properties:
   - predicate: bio.summary

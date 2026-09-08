@@ -4,6 +4,7 @@ id: p_A9ZTjfbRQUDdu2AbQLSUs3
 status: active
 merged_into: null
 display_name: 王廷濬
+cbdb_id: 341923
 revision: 1
 properties:
   - predicate: bio.summary

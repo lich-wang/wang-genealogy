@@ -4,6 +4,7 @@ id: p_C9xm5jCmEkeQHuYEcbM82J
 status: active
 merged_into: null
 display_name: 王景
+cbdb_id: 236876
 revision: 1
 properties:
   - predicate: name.primary

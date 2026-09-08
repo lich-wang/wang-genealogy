@@ -4,6 +4,7 @@ id: p_mfQXgp9oZ7quC2KtJAEAjv
 status: active
 merged_into: null
 display_name: 王順卿
+cbdb_id: 322766
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_uDws44fZu54Eq8cAigBHGN
 status: active
 merged_into: null
 display_name: 阎氏
+cbdb_id: 262451
 revision: 1
 properties:
   - predicate: bio.summary

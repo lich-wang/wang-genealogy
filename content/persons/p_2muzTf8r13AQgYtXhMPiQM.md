@@ -4,6 +4,7 @@ id: p_2muzTf8r13AQgYtXhMPiQM
 status: active
 merged_into: null
 display_name: 王樂志
+cbdb_id: 238442
 revision: 1
 properties:
   - predicate: bio.summary

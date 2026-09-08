@@ -4,6 +4,7 @@ id: p_tfSbnDZBoDF5ziKNcDfpiV
 status: active
 merged_into: null
 display_name: 刘氏
+cbdb_id: 277434
 revision: 1
 properties:
   - predicate: bio.summary

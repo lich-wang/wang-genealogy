@@ -4,6 +4,7 @@ id: p_auKShgYLoKGMUZrPg2akKL
 status: active
 merged_into: null
 display_name: 王仲儀
+cbdb_id: 236848
 revision: 1
 properties:
   - predicate: bio.summary

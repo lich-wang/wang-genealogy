@@ -4,6 +4,7 @@ id: p_fGFLPTt5uGUuNYwHq73ffZ
 status: active
 merged_into: null
 display_name: 王啟圖
+cbdb_id: 342883
 revision: 1
 properties:
   - predicate: bio.summary

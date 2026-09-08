@@ -4,6 +4,7 @@ id: p_zBnpxAgEVqKAKmiE7z7pCP
 status: active
 merged_into: null
 display_name: 王翼之
+cbdb_id: 468184
 revision: 1
 properties:
   - predicate: bio.summary

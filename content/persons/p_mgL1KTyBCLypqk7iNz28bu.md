@@ -4,6 +4,7 @@ id: p_mgL1KTyBCLypqk7iNz28bu
 status: active
 merged_into: null
 display_name: 王金棟
+cbdb_id: 526792
 revision: 1
 properties:
   - predicate: bio.summary

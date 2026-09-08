@@ -4,6 +4,7 @@ id: p_3wz8fBFxVb7CTtNJiGp6zF
 status: active
 merged_into: null
 display_name: 王七教
+cbdb_id: 330491
 revision: 1
 properties:
   - predicate: bio.summary

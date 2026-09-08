@@ -4,6 +4,7 @@ id: p_tGseb3s8HjqWiZqR8tDwuU
 status: active
 merged_into: null
 display_name: 王伦
+cbdb_id: 175548
 revision: 1
 properties:
   - predicate: bio.summary

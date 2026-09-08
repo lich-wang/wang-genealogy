@@ -4,6 +4,7 @@ id: p_rtNwhfFFHHGUX29MKfMBfM
 status: active
 merged_into: null
 display_name: 王心朝
+cbdb_id: 342684
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_iakMxcTt4K11MQpDiZ6F4w
 status: active
 merged_into: null
 display_name: 王作賓
+cbdb_id: 342448
 revision: 1
 properties:
   - predicate: bio.summary

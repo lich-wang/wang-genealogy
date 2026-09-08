@@ -4,6 +4,7 @@ id: p_3iyxEBFwgRpJCsXBwB3FWC
 status: active
 merged_into: null
 display_name: 王恩民
+cbdb_id: 205656
 revision: 1
 properties:
   - predicate: bio.summary

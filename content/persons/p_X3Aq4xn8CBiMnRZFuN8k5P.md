@@ -4,6 +4,7 @@ id: p_X3Aq4xn8CBiMnRZFuN8k5P
 status: active
 merged_into: null
 display_name: 王毓藻
+cbdb_id: 58621
 revision: 1
 properties:
   - predicate: bio.summary

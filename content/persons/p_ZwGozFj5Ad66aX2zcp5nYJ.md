@@ -4,6 +4,7 @@ id: p_ZwGozFj5Ad66aX2zcp5nYJ
 status: active
 merged_into: null
 display_name: 王檻
+cbdb_id: 36871
 revision: 1
 properties:
   - predicate: bio.summary

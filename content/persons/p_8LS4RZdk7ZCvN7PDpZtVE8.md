@@ -4,6 +4,7 @@ id: p_8LS4RZdk7ZCvN7PDpZtVE8
 status: active
 merged_into: null
 display_name: 王庭玉
+cbdb_id: 101305
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_qMg6Q8CEPodQMPp2EgjAAi
 status: active
 merged_into: null
 display_name: 王以通
+cbdb_id: 206705
 revision: 1
 properties:
   - predicate: bio.summary

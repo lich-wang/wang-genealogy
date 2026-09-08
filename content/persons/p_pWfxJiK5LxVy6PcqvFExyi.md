@@ -4,6 +4,7 @@ id: p_pWfxJiK5LxVy6PcqvFExyi
 status: active
 merged_into: null
 display_name: 王鑭
+cbdb_id: 261856
 revision: 1
 properties:
   - predicate: bio.summary

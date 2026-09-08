@@ -4,6 +4,7 @@ id: p_ir4k8EpPwcJcToQeUmRZ9b
 status: active
 merged_into: null
 display_name: 王銘琛
+cbdb_id: 415537
 revision: 1
 properties:
   - predicate: bio.summary

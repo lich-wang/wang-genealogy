@@ -4,6 +4,7 @@ id: p_ZRQGakw1b52uVgFa6TPuo2
 status: active
 merged_into: null
 display_name: 王体仁
+cbdb_id: 175853
 revision: 1
 properties:
   - predicate: name.primary

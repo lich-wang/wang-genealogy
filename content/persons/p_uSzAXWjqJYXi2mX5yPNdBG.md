@@ -4,6 +4,7 @@ id: p_uSzAXWjqJYXi2mX5yPNdBG
 status: active
 merged_into: null
 display_name: 王良韜
+cbdb_id: 461352
 revision: 1
 properties:
   - predicate: bio.summary

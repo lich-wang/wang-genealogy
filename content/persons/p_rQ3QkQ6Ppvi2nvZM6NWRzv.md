@@ -4,6 +4,7 @@ id: p_rQ3QkQ6Ppvi2nvZM6NWRzv
 status: active
 merged_into: null
 display_name: 王應橫
+cbdb_id: 326285
 revision: 1
 properties:
   - predicate: bio.summary

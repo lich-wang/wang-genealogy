@@ -4,6 +4,7 @@ id: p_r4ijWCDx3yMAGT9efG6AvN
 status: active
 merged_into: null
 display_name: 王世延
+cbdb_id: 243244
 revision: 1
 properties:
   - predicate: bio.summary

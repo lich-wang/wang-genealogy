@@ -4,6 +4,7 @@ id: p_85EbDNcrsn9ZB6rqXHzzZx
 status: active
 merged_into: null
 display_name: 王承祐
+cbdb_id: 17749
 revision: 2
 properties:
   - predicate: bio.summary

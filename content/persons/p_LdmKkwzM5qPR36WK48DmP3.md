@@ -4,6 +4,7 @@ id: p_LdmKkwzM5qPR36WK48DmP3
 status: active
 merged_into: null
 display_name: 王金玨
+cbdb_id: 511629
 revision: 1
 properties:
   - predicate: bio.summary

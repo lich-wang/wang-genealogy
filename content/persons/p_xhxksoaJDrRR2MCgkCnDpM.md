@@ -4,6 +4,7 @@ id: p_xhxksoaJDrRR2MCgkCnDpM
 status: active
 merged_into: null
 display_name: 王克新
+cbdb_id: 452908
 revision: 1
 properties:
   - predicate: bio.summary

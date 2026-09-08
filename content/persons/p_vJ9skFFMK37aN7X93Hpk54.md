@@ -4,6 +4,7 @@ id: p_vJ9skFFMK37aN7X93Hpk54
 status: active
 merged_into: null
 display_name: 王之瑾
+cbdb_id: 413758
 revision: 1
 properties:
   - predicate: bio.summary

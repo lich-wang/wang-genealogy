@@ -4,6 +4,7 @@ id: p_QVu7YvjNWJMNBbUMtDPCFH
 status: active
 merged_into: null
 display_name: 王繼生
+cbdb_id: 342232
 revision: 1
 properties:
   - predicate: bio.summary

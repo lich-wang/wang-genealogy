@@ -4,6 +4,7 @@ id: p_2JGKheEYqb6ZL2PvqfuVXH
 status: active
 merged_into: null
 display_name: 王五四子
+cbdb_id: 157448
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_XaJtHAs6jak6ZT7MtLsMXY
 status: active
 merged_into: null
 display_name: 王耀文
+cbdb_id: 343931
 revision: 1
 properties:
   - predicate: bio.summary

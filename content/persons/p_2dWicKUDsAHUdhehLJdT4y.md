@@ -4,6 +4,7 @@ id: p_2dWicKUDsAHUdhehLJdT4y
 status: active
 merged_into: null
 display_name: 王振翽
+cbdb_id: 30052
 revision: 1
 properties:
   - predicate: bio.summary

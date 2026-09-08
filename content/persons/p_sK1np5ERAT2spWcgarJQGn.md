@@ -4,6 +4,7 @@ id: p_sK1np5ERAT2spWcgarJQGn
 status: active
 merged_into: null
 display_name: 王孟慶
+cbdb_id: 239758
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_dsXu6qru9Yov26mx6zbQEA
 status: active
 merged_into: null
 display_name: 王保住
+cbdb_id: 519667
 revision: 1
 properties:
   - predicate: bio.summary

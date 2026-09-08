@@ -4,6 +4,7 @@ id: p_oPViFpmbRxLKPFfnzfyNo4
 status: active
 merged_into: null
 display_name: 王爾鑑
+cbdb_id: 341812
 revision: 1
 properties:
   - predicate: bio.summary

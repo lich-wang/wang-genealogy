@@ -4,6 +4,7 @@ id: p_YWkQnSn4rASSwAza6mMrBM
 status: active
 merged_into: null
 display_name: 王廷枚
+cbdb_id: 71561
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_NAMvYyCF9R4kNfLKReVsEZ
 status: active
 merged_into: null
 display_name: 王果
+cbdb_id: 175462
 revision: 1
 properties:
   - predicate: bio.summary

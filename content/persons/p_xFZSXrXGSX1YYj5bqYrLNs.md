@@ -4,6 +4,7 @@ id: p_xFZSXrXGSX1YYj5bqYrLNs
 status: active
 merged_into: null
 display_name: 王慶祺
+cbdb_id: 69473
 revision: 1
 properties:
   - predicate: bio.summary

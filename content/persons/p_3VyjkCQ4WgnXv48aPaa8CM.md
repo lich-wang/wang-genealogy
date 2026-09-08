@@ -4,6 +4,7 @@ id: p_3VyjkCQ4WgnXv48aPaa8CM
 status: active
 merged_into: null
 display_name: 王芝傑
+cbdb_id: 343123
 revision: 1
 properties:
   - predicate: bio.summary

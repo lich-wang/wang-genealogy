@@ -4,6 +4,7 @@ id: p_b2BNKpQqMbC3xJGHf9un3N
 status: active
 merged_into: null
 display_name: 王明
+cbdb_id: 1855
 revision: 1
 properties:
   - predicate: name.primary

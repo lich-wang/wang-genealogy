@@ -4,6 +4,7 @@ id: p_soPWG2JxysqfJjV8tB16nV
 status: active
 merged_into: null
 display_name: 王紀綱
+cbdb_id: 274338
 revision: 1
 properties:
   - predicate: bio.summary

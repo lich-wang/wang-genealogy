@@ -4,6 +4,7 @@ id: p_EKrJRUzp55sHFe7CX9Xu27
 status: active
 merged_into: null
 display_name: 王葆昌
+cbdb_id: 343120
 revision: 1
 properties:
   - predicate: bio.summary

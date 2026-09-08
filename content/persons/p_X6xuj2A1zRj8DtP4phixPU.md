@@ -4,6 +4,7 @@ id: p_X6xuj2A1zRj8DtP4phixPU
 status: active
 merged_into: null
 display_name: 王時會
+cbdb_id: 25587
 revision: 1
 properties:
   - predicate: bio.summary

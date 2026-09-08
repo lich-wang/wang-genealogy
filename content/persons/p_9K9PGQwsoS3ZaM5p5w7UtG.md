@@ -4,6 +4,7 @@ id: p_9K9PGQwsoS3ZaM5p5w7UtG
 status: active
 merged_into: null
 display_name: 王夢羔
+cbdb_id: 309661
 revision: 1
 properties:
   - predicate: bio.summary

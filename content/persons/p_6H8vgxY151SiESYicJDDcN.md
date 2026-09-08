@@ -4,6 +4,7 @@ id: p_6H8vgxY151SiESYicJDDcN
 status: active
 merged_into: null
 display_name: 王錫年
+cbdb_id: 343822
 revision: 1
 properties:
   - predicate: bio.summary

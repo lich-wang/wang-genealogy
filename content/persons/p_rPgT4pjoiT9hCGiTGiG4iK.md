@@ -4,6 +4,7 @@ id: p_rPgT4pjoiT9hCGiTGiG4iK
 status: active
 merged_into: null
 display_name: 王天運
+cbdb_id: 414215
 revision: 1
 properties:
   - predicate: bio.summary

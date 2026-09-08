@@ -4,6 +4,7 @@ id: p_fNZdtSCfwtT2Dhpg72Q2P3
 status: active
 merged_into: null
 display_name: 王祥慶
+cbdb_id: 151450
 revision: 1
 properties:
   - predicate: bio.summary

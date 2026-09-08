@@ -4,6 +4,7 @@ id: p_TgiLa7ddPyJpEcTbWxU292
 status: active
 merged_into: null
 display_name: 王嵩隱
+cbdb_id: 445503
 revision: 1
 properties:
   - predicate: bio.summary

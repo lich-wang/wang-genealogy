@@ -4,6 +4,7 @@ id: p_1VL9yWy3AxpvH3DV26BCQr
 status: active
 merged_into: null
 display_name: 王乃祿
+cbdb_id: 526776
 revision: 1
 properties:
   - predicate: bio.summary

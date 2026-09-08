@@ -4,6 +4,7 @@ id: p_J92caqiee9j8GLWDWbc6jh
 status: active
 merged_into: null
 display_name: 王遇潮
+cbdb_id: 415491
 revision: 1
 properties:
   - predicate: bio.summary

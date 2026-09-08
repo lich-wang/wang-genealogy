@@ -4,6 +4,7 @@ id: p_MLHR7ZHi3PzUCJkt1i75tm
 status: active
 merged_into: null
 display_name: 王咸有
+cbdb_id: 38405
 revision: 1
 properties:
   - predicate: bio.summary

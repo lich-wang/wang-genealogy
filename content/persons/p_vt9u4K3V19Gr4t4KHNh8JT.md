@@ -4,6 +4,7 @@ id: p_vt9u4K3V19Gr4t4KHNh8JT
 status: active
 merged_into: null
 display_name: 王宠
+cbdb_id: 92046
 revision: 1
 properties:
   - predicate: bio.summary

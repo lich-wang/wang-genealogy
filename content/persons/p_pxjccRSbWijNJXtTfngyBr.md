@@ -4,6 +4,7 @@ id: p_pxjccRSbWijNJXtTfngyBr
 status: active
 merged_into: null
 display_name: 王汝詠
+cbdb_id: 209905
 revision: 1
 properties:
   - predicate: bio.summary

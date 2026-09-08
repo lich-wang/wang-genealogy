@@ -4,6 +4,7 @@ id: p_iko9zCvjCxvA9HKpjEWpt4
 status: active
 merged_into: null
 display_name: 王象恒
+cbdb_id: 126730
 revision: 2
 properties:
   - predicate: bio.summary

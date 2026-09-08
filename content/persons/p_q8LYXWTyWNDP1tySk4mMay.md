@@ -4,6 +4,7 @@ id: p_q8LYXWTyWNDP1tySk4mMay
 status: active
 merged_into: null
 display_name: 王引昌
+cbdb_id: 341893
 revision: 1
 properties:
   - predicate: bio.summary

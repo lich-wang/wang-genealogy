@@ -4,6 +4,7 @@ id: p_rTHjAJnVUoSvrQRVB79JkJ
 status: active
 merged_into: null
 display_name: 王用士
+cbdb_id: 415126
 revision: 1
 properties:
   - predicate: bio.summary

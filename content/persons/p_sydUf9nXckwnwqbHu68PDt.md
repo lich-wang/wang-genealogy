@@ -4,6 +4,7 @@ id: p_sydUf9nXckwnwqbHu68PDt
 status: active
 merged_into: null
 display_name: 王其華
+cbdb_id: 343200
 revision: 1
 properties:
   - predicate: bio.summary

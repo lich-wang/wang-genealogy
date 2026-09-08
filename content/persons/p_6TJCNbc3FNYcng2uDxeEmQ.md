@@ -4,6 +4,7 @@ id: p_6TJCNbc3FNYcng2uDxeEmQ
 status: active
 merged_into: null
 display_name: 王昌某
+cbdb_id: 488090
 revision: 1
 properties:
   - predicate: bio.summary

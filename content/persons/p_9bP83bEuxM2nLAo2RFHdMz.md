@@ -4,6 +4,7 @@ id: p_9bP83bEuxM2nLAo2RFHdMz
 status: active
 merged_into: null
 display_name: 王叔孫
+cbdb_id: 147345
 revision: 1
 properties:
   - predicate: bio.summary

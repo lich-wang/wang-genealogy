@@ -4,6 +4,7 @@ id: p_F65Smn4tzBTtXf85ZrDJ8Q
 status: active
 merged_into: null
 display_name: 王蔚宗
+cbdb_id: 72158
 revision: 1
 properties:
   - predicate: bio.summary

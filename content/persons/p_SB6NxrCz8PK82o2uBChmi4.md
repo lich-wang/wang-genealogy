@@ -4,6 +4,7 @@ id: p_SB6NxrCz8PK82o2uBChmi4
 status: active
 merged_into: null
 display_name: 王汝浹
+cbdb_id: 211416
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_tssiy7MKBVzaMdzo43sBiR
 status: active
 merged_into: null
 display_name: 王國貞
+cbdb_id: 414133
 revision: 1
 properties:
   - predicate: bio.summary

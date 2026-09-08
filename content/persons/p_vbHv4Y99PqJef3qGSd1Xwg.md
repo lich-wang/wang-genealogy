@@ -4,6 +4,7 @@ id: p_vbHv4Y99PqJef3qGSd1Xwg
 status: active
 merged_into: null
 display_name: 王國麟
+cbdb_id: 414136
 revision: 1
 properties:
   - predicate: bio.summary

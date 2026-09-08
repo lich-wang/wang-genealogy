@@ -4,6 +4,7 @@ id: p_MAT69uNcTpg1JrBruUbZu2
 status: active
 merged_into: null
 display_name: 王虛白
+cbdb_id: 342167
 revision: 1
 properties:
   - predicate: bio.summary

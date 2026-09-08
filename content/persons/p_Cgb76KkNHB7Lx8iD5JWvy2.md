@@ -4,6 +4,7 @@ id: p_Cgb76KkNHB7Lx8iD5JWvy2
 status: active
 merged_into: null
 display_name: 王貴行
+cbdb_id: 38042
 revision: 1
 properties:
   - predicate: bio.summary

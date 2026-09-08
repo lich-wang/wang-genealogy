@@ -4,6 +4,7 @@ id: p_KwVHJjbYAGi845QL2iWLW9
 status: active
 merged_into: null
 display_name: 王善寶
+cbdb_id: 72084
 revision: 1
 properties:
   - predicate: bio.summary

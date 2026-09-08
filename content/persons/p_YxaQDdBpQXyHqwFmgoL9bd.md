@@ -4,6 +4,7 @@ id: p_YxaQDdBpQXyHqwFmgoL9bd
 status: active
 merged_into: null
 display_name: 王證
+cbdb_id: 247218
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_65uwuN4kNM3odBECM82TgR
 status: active
 merged_into: null
 display_name: 王光宗
+cbdb_id: 524330
 revision: 1
 properties:
   - predicate: bio.summary

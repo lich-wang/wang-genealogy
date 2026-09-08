@@ -4,6 +4,7 @@ id: p_WcvHfXbMDGMgHfA4fcZtb1
 status: active
 merged_into: null
 display_name: 王世仕
+cbdb_id: 343175
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_XWRD91AtU7Yr63Ezea1JXD
 status: active
 merged_into: null
 display_name: 王檢心
+cbdb_id: 71994
 revision: 1
 properties:
   - predicate: bio.summary

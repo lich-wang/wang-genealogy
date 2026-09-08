@@ -4,6 +4,7 @@ id: p_jN1PJodTtuPE7LYqkLXLjM
 status: active
 merged_into: null
 display_name: 王寶庸
+cbdb_id: 71803
 revision: 1
 properties:
   - predicate: bio.summary

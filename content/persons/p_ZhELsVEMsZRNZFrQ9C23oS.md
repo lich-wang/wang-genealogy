@@ -4,6 +4,7 @@ id: p_ZhELsVEMsZRNZFrQ9C23oS
 status: active
 merged_into: null
 display_name: 王標極
+cbdb_id: 343051
 revision: 1
 properties:
   - predicate: bio.summary

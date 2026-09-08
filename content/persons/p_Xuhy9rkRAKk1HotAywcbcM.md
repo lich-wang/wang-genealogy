@@ -4,6 +4,7 @@ id: p_Xuhy9rkRAKk1HotAywcbcM
 status: active
 merged_into: null
 display_name: 王組瑋
+cbdb_id: 264943
 revision: 1
 properties:
   - predicate: bio.summary

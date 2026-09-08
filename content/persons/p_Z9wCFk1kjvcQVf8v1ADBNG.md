@@ -4,6 +4,7 @@ id: p_Z9wCFk1kjvcQVf8v1ADBNG
 status: active
 merged_into: null
 display_name: 王鼎鎮
+cbdb_id: 342207
 revision: 1
 properties:
   - predicate: bio.summary

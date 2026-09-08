@@ -4,6 +4,7 @@ id: p_gdG9jxKiAYxb4vyDxAXDEG
 status: active
 merged_into: null
 display_name: 王同志
+cbdb_id: 321414
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_A15SyJp8rQ8H3wHmX2vs8E
 status: active
 merged_into: null
 display_name: 王考祥
+cbdb_id: 343091
 revision: 1
 properties:
   - predicate: bio.summary

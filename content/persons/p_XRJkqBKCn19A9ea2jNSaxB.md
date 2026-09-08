@@ -4,6 +4,7 @@ id: p_XRJkqBKCn19A9ea2jNSaxB
 status: active
 merged_into: null
 display_name: 王次學
+cbdb_id: 266593
 revision: 1
 properties:
   - predicate: bio.summary

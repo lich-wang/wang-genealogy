@@ -4,6 +4,7 @@ id: p_5G2qt9GaLPiCw5KRtPLsEg
 status: active
 merged_into: null
 display_name: 王代興
+cbdb_id: 526827
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_jHw1ZP6CKrMSaDwjpFt5do
 status: active
 merged_into: null
 display_name: 王湘娥
+cbdb_id: 121031
 revision: 1
 properties:
   - predicate: bio.summary

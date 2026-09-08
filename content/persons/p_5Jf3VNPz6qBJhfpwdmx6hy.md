@@ -4,6 +4,7 @@ id: p_5Jf3VNPz6qBJhfpwdmx6hy
 status: active
 merged_into: null
 display_name: 王雲貴
+cbdb_id: 438064
 revision: 1
 properties:
   - predicate: bio.summary

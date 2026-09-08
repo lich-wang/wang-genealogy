@@ -4,6 +4,7 @@ id: p_yYWP56xYF7YEvgG32tAH3B
 status: active
 merged_into: null
 display_name: 王弘訓
+cbdb_id: 152941
 revision: 2
 properties:
   - predicate: bio.summary

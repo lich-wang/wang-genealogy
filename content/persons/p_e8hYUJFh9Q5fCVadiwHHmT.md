@@ -4,6 +4,7 @@ id: p_e8hYUJFh9Q5fCVadiwHHmT
 status: active
 merged_into: null
 display_name: 王赫
+cbdb_id: 271473
 revision: 1
 properties:
   - predicate: bio.summary

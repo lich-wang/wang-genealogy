@@ -4,6 +4,7 @@ id: p_kTahVtsGT3vBT8NBG25mpK
 status: active
 merged_into: null
 display_name: 王大綬
+cbdb_id: 59902
 revision: 1
 properties:
   - predicate: bio.summary

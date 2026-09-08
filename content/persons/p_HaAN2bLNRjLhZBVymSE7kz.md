@@ -4,6 +4,7 @@ id: p_HaAN2bLNRjLhZBVymSE7kz
 status: active
 merged_into: null
 display_name: 王用行
+cbdb_id: 324573
 revision: 1
 properties:
   - predicate: bio.summary

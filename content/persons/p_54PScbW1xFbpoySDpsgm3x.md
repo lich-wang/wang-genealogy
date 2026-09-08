@@ -4,6 +4,7 @@ id: p_54PScbW1xFbpoySDpsgm3x
 status: active
 merged_into: null
 display_name: 王沛文
+cbdb_id: 414989
 revision: 1
 properties:
   - predicate: bio.summary

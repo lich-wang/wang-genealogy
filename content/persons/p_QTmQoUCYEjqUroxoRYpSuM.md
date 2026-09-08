@@ -4,6 +4,7 @@ id: p_QTmQoUCYEjqUroxoRYpSuM
 status: active
 merged_into: null
 display_name: 王師周
+cbdb_id: 414418
 revision: 1
 properties:
   - predicate: bio.summary

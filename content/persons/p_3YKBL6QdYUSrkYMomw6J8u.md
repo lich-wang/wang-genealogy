@@ -4,6 +4,7 @@ id: p_3YKBL6QdYUSrkYMomw6J8u
 status: active
 merged_into: null
 display_name: 王士则
+cbdb_id: 175561
 revision: 1
 properties:
   - predicate: bio.summary

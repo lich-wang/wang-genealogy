@@ -4,6 +4,7 @@ id: p_j4UF47DB91CXeW7Ajmon1d
 status: active
 merged_into: null
 display_name: 王時瑞
+cbdb_id: 343514
 revision: 1
 properties:
   - predicate: bio.summary

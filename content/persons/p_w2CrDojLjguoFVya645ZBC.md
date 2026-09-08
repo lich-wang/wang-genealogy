@@ -4,6 +4,7 @@ id: p_w2CrDojLjguoFVya645ZBC
 status: active
 merged_into: null
 display_name: 王以逸
+cbdb_id: 221823
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_c7nc4rLNogxcSn8S2Gw8A4
 status: active
 merged_into: null
 display_name: 王三樂
+cbdb_id: 413689
 revision: 1
 properties:
   - predicate: bio.summary

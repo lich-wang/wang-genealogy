@@ -4,6 +4,7 @@ id: p_bbEXYAzw2LcpmH1vz7xgAo
 status: active
 merged_into: null
 display_name: 王道福
+cbdb_id: 415500
 revision: 1
 properties:
   - predicate: bio.summary

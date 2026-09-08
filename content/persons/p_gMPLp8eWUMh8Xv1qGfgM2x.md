@@ -4,6 +4,7 @@ id: p_gMPLp8eWUMh8Xv1qGfgM2x
 status: active
 merged_into: null
 display_name: 王允吉
+cbdb_id: 462035
 revision: 1
 properties:
   - predicate: bio.summary

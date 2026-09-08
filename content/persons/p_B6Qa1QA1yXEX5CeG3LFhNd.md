@@ -4,6 +4,7 @@ id: p_B6Qa1QA1yXEX5CeG3LFhNd
 status: active
 merged_into: null
 display_name: 王纯
+cbdb_id: 175362
 revision: 1
 properties:
   - predicate: bio.summary

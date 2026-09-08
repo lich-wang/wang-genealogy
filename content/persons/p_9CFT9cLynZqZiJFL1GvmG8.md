@@ -4,6 +4,7 @@ id: p_9CFT9cLynZqZiJFL1GvmG8
 status: active
 merged_into: null
 display_name: 王鹿瑞
+cbdb_id: 341532
 revision: 1
 properties:
   - predicate: bio.summary

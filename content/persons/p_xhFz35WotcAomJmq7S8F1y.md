@@ -4,6 +4,7 @@ id: p_xhFz35WotcAomJmq7S8F1y
 status: active
 merged_into: null
 display_name: 王時勉
+cbdb_id: 26175
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_hCzKn1nSfNfQRLjCB3DtBQ
 status: active
 merged_into: null
 display_name: 王鐲
+cbdb_id: 301180
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_aPqQE12hu6hs8Uao2TNNPa
 status: active
 merged_into: null
 display_name: 王思珩
+cbdb_id: 414595
 revision: 1
 properties:
   - predicate: bio.summary

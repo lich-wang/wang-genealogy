@@ -4,6 +4,7 @@ id: p_svxPkksGkTM6Ss3zjMFmF4
 status: active
 merged_into: null
 display_name: 王治成
+cbdb_id: 414994
 revision: 1
 properties:
   - predicate: bio.summary

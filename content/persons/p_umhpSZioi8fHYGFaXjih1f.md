@@ -4,6 +4,7 @@ id: p_umhpSZioi8fHYGFaXjih1f
 status: active
 merged_into: null
 display_name: 王有孚
+cbdb_id: 97925
 revision: 1
 properties:
   - predicate: bio.summary

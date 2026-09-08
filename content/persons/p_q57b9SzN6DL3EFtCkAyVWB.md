@@ -4,6 +4,7 @@ id: p_q57b9SzN6DL3EFtCkAyVWB
 status: active
 merged_into: null
 display_name: 王某吉
+cbdb_id: 462405
 revision: 1
 properties:
   - predicate: bio.summary

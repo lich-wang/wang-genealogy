@@ -4,6 +4,7 @@ id: p_h1avz726BoZSKsSMLgnMDe
 status: active
 merged_into: null
 display_name: 王和義
+cbdb_id: 246478
 revision: 1
 properties:
   - predicate: bio.summary

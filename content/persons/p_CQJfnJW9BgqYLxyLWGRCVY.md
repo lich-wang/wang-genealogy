@@ -4,6 +4,7 @@ id: p_CQJfnJW9BgqYLxyLWGRCVY
 status: active
 merged_into: null
 display_name: 王自中
+cbdb_id: 38808
 revision: 1
 properties:
   - predicate: bio.summary

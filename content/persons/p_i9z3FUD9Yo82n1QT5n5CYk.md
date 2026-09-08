@@ -4,6 +4,7 @@ id: p_i9z3FUD9Yo82n1QT5n5CYk
 status: active
 merged_into: null
 display_name: 王射
+cbdb_id: 29335
 revision: 1
 properties:
   - predicate: bio.summary

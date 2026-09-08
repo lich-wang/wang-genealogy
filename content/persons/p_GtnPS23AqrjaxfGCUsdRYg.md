@@ -4,6 +4,7 @@ id: p_GtnPS23AqrjaxfGCUsdRYg
 status: active
 merged_into: null
 display_name: 王一筠
+cbdb_id: 341724
 revision: 1
 properties:
   - predicate: bio.summary

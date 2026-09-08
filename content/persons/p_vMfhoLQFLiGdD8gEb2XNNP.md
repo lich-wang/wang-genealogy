@@ -4,6 +4,7 @@ id: p_vMfhoLQFLiGdD8gEb2XNNP
 status: active
 merged_into: null
 display_name: 王鳳兒
+cbdb_id: 445655
 revision: 1
 properties:
   - predicate: bio.summary

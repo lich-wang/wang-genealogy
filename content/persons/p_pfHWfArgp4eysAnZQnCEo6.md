@@ -4,6 +4,7 @@ id: p_pfHWfArgp4eysAnZQnCEo6
 status: active
 merged_into: null
 display_name: 王承谷
+cbdb_id: 71826
 revision: 1
 properties:
   - predicate: bio.summary

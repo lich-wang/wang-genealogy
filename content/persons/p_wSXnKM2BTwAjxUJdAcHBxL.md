@@ -4,6 +4,7 @@ id: p_wSXnKM2BTwAjxUJdAcHBxL
 status: active
 merged_into: null
 display_name: 王勝受
+cbdb_id: 248444
 revision: 1
 properties:
   - predicate: bio.summary

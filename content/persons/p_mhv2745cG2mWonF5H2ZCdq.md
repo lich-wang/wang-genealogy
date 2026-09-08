@@ -4,6 +4,7 @@ id: p_mhv2745cG2mWonF5H2ZCdq
 status: active
 merged_into: null
 display_name: 王古平
+cbdb_id: 286917
 revision: 1
 properties:
   - predicate: bio.summary

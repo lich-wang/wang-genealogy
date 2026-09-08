@@ -4,6 +4,7 @@ id: p_ik4fWoERb52dRtkJhmP8s8
 status: active
 merged_into: null
 display_name: 王伯珪
+cbdb_id: 413857
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_HQnmd4RJFt5d8vk8o8quqE
 status: active
 merged_into: null
 display_name: 王海
+cbdb_id: 175401
 revision: 1
 properties:
   - predicate: bio.summary

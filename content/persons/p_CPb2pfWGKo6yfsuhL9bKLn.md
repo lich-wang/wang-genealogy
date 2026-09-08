@@ -4,6 +4,7 @@ id: p_CPb2pfWGKo6yfsuhL9bKLn
 status: active
 merged_into: null
 display_name: 王劉老
+cbdb_id: 158108
 revision: 1
 properties:
   - predicate: bio.summary

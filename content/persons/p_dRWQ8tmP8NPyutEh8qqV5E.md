@@ -4,6 +4,7 @@ id: p_dRWQ8tmP8NPyutEh8qqV5E
 status: active
 merged_into: null
 display_name: 王家樑
+cbdb_id: 414344
 revision: 1
 properties:
   - predicate: bio.summary

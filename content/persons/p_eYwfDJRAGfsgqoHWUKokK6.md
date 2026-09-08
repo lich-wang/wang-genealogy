@@ -4,6 +4,7 @@ id: p_eYwfDJRAGfsgqoHWUKokK6
 status: active
 merged_into: null
 display_name: 王珣琇
+cbdb_id: 463818
 revision: 1
 properties:
   - predicate: bio.summary

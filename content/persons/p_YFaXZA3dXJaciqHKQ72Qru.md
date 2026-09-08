@@ -4,6 +4,7 @@ id: p_YFaXZA3dXJaciqHKQ72Qru
 status: active
 merged_into: null
 display_name: 王堯仁
+cbdb_id: 221770
 revision: 1
 properties:
   - predicate: bio.summary

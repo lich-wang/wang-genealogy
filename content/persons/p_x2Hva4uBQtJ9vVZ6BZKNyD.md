@@ -4,6 +4,7 @@ id: p_x2Hva4uBQtJ9vVZ6BZKNyD
 status: active
 merged_into: null
 display_name: 王相龍
+cbdb_id: 69254
 revision: 1
 properties:
   - predicate: bio.summary

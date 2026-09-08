@@ -4,6 +4,7 @@ id: p_wPBmvnECQT1GB1CU6Jp4p8
 status: active
 merged_into: null
 display_name: 王獻文
+cbdb_id: 312069
 revision: 1
 properties:
   - predicate: bio.summary

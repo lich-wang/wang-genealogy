@@ -4,6 +4,7 @@ id: p_sFYiPnGsm9R1LoDmnMAp5n
 status: active
 merged_into: null
 display_name: 王應宗
+cbdb_id: 414638
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_xjVBfxiRiJK5Bx9HG49yUs
 status: active
 merged_into: null
 display_name: 王壽仁
+cbdb_id: 414182
 revision: 1
 properties:
   - predicate: bio.summary

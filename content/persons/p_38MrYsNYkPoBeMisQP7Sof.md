@@ -4,6 +4,7 @@ id: p_38MrYsNYkPoBeMisQP7Sof
 status: active
 merged_into: null
 display_name: 王经
+cbdb_id: 200712
 revision: 2
 properties:
   - predicate: bio.summary

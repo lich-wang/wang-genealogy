@@ -4,6 +4,7 @@ id: p_EgF6159zTeoxFCZpxCx9LH
 status: active
 merged_into: null
 display_name: 王漸民
+cbdb_id: 209990
 revision: 1
 properties:
   - predicate: bio.summary

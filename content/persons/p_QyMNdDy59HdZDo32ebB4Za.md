@@ -4,6 +4,7 @@ id: p_QyMNdDy59HdZDo32ebB4Za
 status: active
 merged_into: null
 display_name: 王廷驊
+cbdb_id: 414495
 revision: 1
 properties:
   - predicate: bio.summary

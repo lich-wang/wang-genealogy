@@ -4,6 +4,7 @@ id: p_cojJSQjAH97J8dPWYrRzuD
 status: active
 merged_into: null
 display_name: 王謳
+cbdb_id: 126857
 revision: 1
 properties:
   - predicate: bio.summary

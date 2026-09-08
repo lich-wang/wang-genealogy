@@ -4,6 +4,7 @@ id: p_GfMM5pWq9s1Hj72ApEnsJN
 status: active
 merged_into: null
 display_name: 王第魁
+cbdb_id: 438894
 revision: 1
 properties:
   - predicate: bio.summary

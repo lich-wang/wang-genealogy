@@ -4,6 +4,7 @@ id: p_otjXdPHA91SqX39A5y53bi
 status: active
 merged_into: null
 display_name: 王國佑
+cbdb_id: 101323
 revision: 1
 properties:
   - predicate: bio.summary

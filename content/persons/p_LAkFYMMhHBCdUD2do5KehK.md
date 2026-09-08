@@ -4,6 +4,7 @@ id: p_LAkFYMMhHBCdUD2do5KehK
 status: active
 merged_into: null
 display_name: 王盧姐
+cbdb_id: 118389
 revision: 1
 properties:
   - predicate: bio.summary

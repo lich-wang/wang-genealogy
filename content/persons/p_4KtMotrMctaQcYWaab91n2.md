@@ -4,6 +4,7 @@ id: p_4KtMotrMctaQcYWaab91n2
 status: active
 merged_into: null
 display_name: 王胡師
+cbdb_id: 150533
 revision: 1
 properties:
   - predicate: bio.summary

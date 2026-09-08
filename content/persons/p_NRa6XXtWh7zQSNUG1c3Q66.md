@@ -4,6 +4,7 @@ id: p_NRa6XXtWh7zQSNUG1c3Q66
 status: active
 merged_into: null
 display_name: 王友誠
+cbdb_id: 251770
 revision: 1
 properties:
   - predicate: bio.summary

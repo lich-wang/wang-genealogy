@@ -4,6 +4,7 @@ id: p_44Kmse4y3QwxuZ24pwLEpe
 status: active
 merged_into: null
 display_name: 王弘鈞
+cbdb_id: 101128
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_GzJFJ5xqWWra94Hs5J3DBk
 status: active
 merged_into: null
 display_name: 王惟質
+cbdb_id: 159958
 revision: 1
 properties:
   - predicate: bio.summary

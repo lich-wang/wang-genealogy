@@ -4,6 +4,7 @@ id: p_vzCfY5P8EPpPuqcBKJVNdK
 status: active
 merged_into: null
 display_name: 王谢老
+cbdb_id: 175624
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_ZBjViJ6o8ACxJ7kiuxaV8Q
 status: active
 merged_into: null
 display_name: 王一直
+cbdb_id: 413677
 revision: 1
 properties:
   - predicate: bio.summary

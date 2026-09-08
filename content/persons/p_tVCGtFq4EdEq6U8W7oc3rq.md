@@ -4,6 +4,7 @@ id: p_tVCGtFq4EdEq6U8W7oc3rq
 status: active
 merged_into: null
 display_name: 王厚墉
+cbdb_id: 693619
 revision: 1
 properties:
   - predicate: bio.summary

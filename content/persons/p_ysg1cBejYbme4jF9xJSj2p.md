@@ -4,6 +4,7 @@ id: p_ysg1cBejYbme4jF9xJSj2p
 status: active
 merged_into: null
 display_name: 王增年
+cbdb_id: 691190
 revision: 1
 properties:
   - predicate: bio.summary

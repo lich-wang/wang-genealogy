@@ -4,6 +4,7 @@ id: p_82qs9CEtP8mHtyQcRtAHiE
 status: active
 merged_into: null
 display_name: 王遂休
+cbdb_id: 156673
 revision: 1
 properties:
   - predicate: bio.summary

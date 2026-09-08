@@ -4,6 +4,7 @@ id: p_sziDCoXrKTUefCn4kaJ4E8
 status: active
 merged_into: null
 display_name: 王坊京
+cbdb_id: 294722
 revision: 1
 properties:
   - predicate: bio.summary

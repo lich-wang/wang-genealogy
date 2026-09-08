@@ -4,6 +4,7 @@ id: p_78RagDdaNsyfMD2L9KN1J1
 status: active
 merged_into: null
 display_name: 王元繼
+cbdb_id: 235475
 revision: 1
 properties:
   - predicate: bio.summary

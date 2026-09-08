@@ -4,6 +4,7 @@ id: p_vvSk6ApCbbv7LsfvozXgPt
 status: active
 merged_into: null
 display_name: 王洞玄
+cbdb_id: 175632
 revision: 1
 properties:
   - predicate: bio.summary

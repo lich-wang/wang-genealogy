@@ -4,6 +4,7 @@ id: p_opy5i84MG6yAt4FcbfBzbm
 status: active
 merged_into: null
 display_name: 王昔
+cbdb_id: 153907
 revision: 1
 properties:
   - predicate: bio.summary

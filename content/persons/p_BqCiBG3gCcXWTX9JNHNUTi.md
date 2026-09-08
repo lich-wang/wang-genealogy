@@ -4,6 +4,7 @@ id: p_BqCiBG3gCcXWTX9JNHNUTi
 status: active
 merged_into: null
 display_name: 王鶴鳴
+cbdb_id: 415650
 revision: 1
 properties:
   - predicate: bio.summary

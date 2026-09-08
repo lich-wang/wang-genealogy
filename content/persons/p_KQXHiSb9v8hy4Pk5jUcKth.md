@@ -4,6 +4,7 @@ id: p_KQXHiSb9v8hy4Pk5jUcKth
 status: active
 merged_into: null
 display_name: 王庭芳
+cbdb_id: 19081
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_aPt93kSHDUyNC8ZF6JTLpf
 status: active
 merged_into: null
 display_name: 陈安石
+cbdb_id: 17
 revision: 2
 properties:
   - predicate: bio.summary

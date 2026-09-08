@@ -4,6 +4,7 @@ id: p_bJDwnRF36suy4m8SMoCnpZ
 status: active
 merged_into: null
 display_name: 王進朝
+cbdb_id: 520474
 revision: 1
 properties:
   - predicate: bio.summary

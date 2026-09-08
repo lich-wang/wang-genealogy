@@ -4,6 +4,7 @@ id: p_rfNi35kMF1FSma9nVH7tNg
 status: active
 merged_into: null
 display_name: 王彦祥
+cbdb_id: 34584
 revision: 1
 properties:
   - predicate: name.primary

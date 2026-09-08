@@ -4,6 +4,7 @@ id: p_ZDS8b2hs5VCfwm23qN4h5Q
 status: active
 merged_into: null
 display_name: 王晉之
+cbdb_id: 69331
 revision: 1
 properties:
   - predicate: bio.summary

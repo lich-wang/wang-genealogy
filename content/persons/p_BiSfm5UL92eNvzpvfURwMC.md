@@ -4,6 +4,7 @@ id: p_BiSfm5UL92eNvzpvfURwMC
 status: active
 merged_into: null
 display_name: 王應洪
+cbdb_id: 414645
 revision: 1
 properties:
   - predicate: bio.summary

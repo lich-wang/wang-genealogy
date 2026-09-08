@@ -4,6 +4,7 @@ id: p_5VypVz8JKLtuQkq73tQrYV
 status: active
 merged_into: null
 display_name: 王逢五
+cbdb_id: 415484
 revision: 1
 properties:
   - predicate: bio.summary

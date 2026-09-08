@@ -4,6 +4,7 @@ id: p_pSPUQQj4uGUjufxnL2fe5r
 status: active
 merged_into: null
 display_name: 王齊旦
+cbdb_id: 148835
 revision: 1
 properties:
   - predicate: bio.summary

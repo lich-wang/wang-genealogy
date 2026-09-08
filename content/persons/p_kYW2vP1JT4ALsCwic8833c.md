@@ -4,6 +4,7 @@ id: p_kYW2vP1JT4ALsCwic8833c
 status: active
 merged_into: null
 display_name: 王洪緒
+cbdb_id: 280941
 revision: 1
 properties:
   - predicate: bio.summary

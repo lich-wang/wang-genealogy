@@ -4,6 +4,7 @@ id: p_7JzyVVbjHJGgH92y3q22jd
 status: active
 merged_into: null
 display_name: 王承後
+cbdb_id: 156460
 revision: 1
 properties:
   - predicate: bio.summary

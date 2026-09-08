@@ -4,6 +4,7 @@ id: p_VWWqQv6vR5MEFVM4pbbjGs
 status: active
 merged_into: null
 display_name: 王幼度
+cbdb_id: 192088
 revision: 1
 properties:
   - predicate: bio.summary

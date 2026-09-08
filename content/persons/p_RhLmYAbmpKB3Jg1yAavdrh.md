@@ -4,6 +4,7 @@ id: p_RhLmYAbmpKB3Jg1yAavdrh
 status: active
 merged_into: null
 display_name: 王兆林
+cbdb_id: 69167
 revision: 1
 properties:
   - predicate: bio.summary

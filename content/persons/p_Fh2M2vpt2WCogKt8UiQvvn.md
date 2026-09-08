@@ -4,6 +4,7 @@ id: p_Fh2M2vpt2WCogKt8UiQvvn
 status: active
 merged_into: null
 display_name: 王純智
+cbdb_id: 415224
 revision: 1
 properties:
   - predicate: bio.summary

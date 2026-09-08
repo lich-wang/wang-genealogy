@@ -4,6 +4,7 @@ id: p_yv8SGEh1yCP849cH7azrtA
 status: active
 merged_into: null
 display_name: 王斯立
+cbdb_id: 210112
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_5mjHyYsFqboLGdAD72Zsrj
 status: active
 merged_into: null
 display_name: 萧长懋
+cbdb_id: 34006
 revision: 1
 properties:
   - predicate: bio.summary

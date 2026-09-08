@@ -4,6 +4,7 @@ id: p_y6k5bbhVEm5GUb8nPt89ho
 status: active
 merged_into: null
 display_name: 王同孝
+cbdb_id: 282498
 revision: 1
 properties:
   - predicate: bio.summary

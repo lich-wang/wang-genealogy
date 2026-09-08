@@ -4,6 +4,7 @@ id: p_oTjwFW82cDAsgh765nM8QW
 status: active
 merged_into: null
 display_name: 王昭純
+cbdb_id: 260345
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_c18VC82xWyCu1LYJp8Mpgv
 status: active
 merged_into: null
 display_name: 王國宗
+cbdb_id: 414116
 revision: 1
 properties:
   - predicate: bio.summary

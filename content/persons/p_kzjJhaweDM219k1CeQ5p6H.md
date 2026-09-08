@@ -4,6 +4,7 @@ id: p_kzjJhaweDM219k1CeQ5p6H
 status: active
 merged_into: null
 display_name: 王紹益
+cbdb_id: 415230
 revision: 1
 properties:
   - predicate: bio.summary

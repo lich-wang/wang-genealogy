@@ -4,6 +4,7 @@ id: p_uAjBjVSEd6CRKzEbLgrPNF
 status: active
 merged_into: null
 display_name: 王沅德
+cbdb_id: 519948
 revision: 1
 properties:
   - predicate: bio.summary

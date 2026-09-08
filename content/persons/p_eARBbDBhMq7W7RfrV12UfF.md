@@ -4,6 +4,7 @@ id: p_eARBbDBhMq7W7RfrV12UfF
 status: active
 merged_into: null
 display_name: 王盛唐
+cbdb_id: 514408
 revision: 1
 properties:
   - predicate: bio.summary

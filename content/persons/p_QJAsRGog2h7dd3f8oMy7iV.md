@@ -4,6 +4,7 @@ id: p_QJAsRGog2h7dd3f8oMy7iV
 status: active
 merged_into: null
 display_name: 王孟彝
+cbdb_id: 247207
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_PAPYm71YoZSgHjqURxAZY5
 status: active
 merged_into: null
 display_name: 王國仕
+cbdb_id: 414112
 revision: 1
 properties:
   - predicate: bio.summary

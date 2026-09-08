@@ -4,6 +4,7 @@ id: p_NoaVA5Pgdg33fqWJGG2FHb
 status: active
 merged_into: null
 display_name: 王萬金
+cbdb_id: 343150
 revision: 1
 properties:
   - predicate: bio.summary

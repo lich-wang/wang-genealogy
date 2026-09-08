@@ -4,6 +4,7 @@ id: p_qaPq4Sj3Ee1Mhf9K92RLju
 status: active
 merged_into: null
 display_name: 王师述
+cbdb_id: 175430
 revision: 1
 properties:
   - predicate: bio.summary

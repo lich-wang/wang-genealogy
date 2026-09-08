@@ -4,6 +4,7 @@ id: p_YSTXqxuQ3t1tqbYBFx6TCv
 status: active
 merged_into: null
 display_name: 王恭壽
+cbdb_id: 414607
 revision: 1
 properties:
   - predicate: bio.summary

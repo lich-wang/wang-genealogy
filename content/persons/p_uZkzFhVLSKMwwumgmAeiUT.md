@@ -4,6 +4,7 @@ id: p_uZkzFhVLSKMwwumgmAeiUT
 status: active
 merged_into: null
 display_name: 王景榆
+cbdb_id: 101362
 revision: 1
 properties:
   - predicate: bio.summary

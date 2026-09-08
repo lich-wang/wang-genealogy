@@ -4,6 +4,7 @@ id: p_GqKu1PLEX1JvWNxUfs7Dzz
 status: active
 merged_into: null
 display_name: 王較
+cbdb_id: 155791
 revision: 1
 properties:
   - predicate: bio.summary

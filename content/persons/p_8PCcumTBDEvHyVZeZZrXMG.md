@@ -4,6 +4,7 @@ id: p_8PCcumTBDEvHyVZeZZrXMG
 status: active
 merged_into: null
 display_name: 王鼎黃
+cbdb_id: 415662
 revision: 1
 properties:
   - predicate: bio.summary

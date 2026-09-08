@@ -4,6 +4,7 @@ id: p_uKaMLxEP9pJu7gJCicb8eT
 status: active
 merged_into: null
 display_name: 劉奭
+cbdb_id: 135026
 revision: 1
 properties:
   - predicate: bio.summary

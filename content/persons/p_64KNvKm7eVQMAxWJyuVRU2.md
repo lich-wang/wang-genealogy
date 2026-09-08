@@ -4,6 +4,7 @@ id: p_64KNvKm7eVQMAxWJyuVRU2
 status: active
 merged_into: null
 display_name: 王聯桂
+cbdb_id: 415295
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_Mq6taFsBHLxFj1CBt9EG8r
 status: active
 merged_into: null
 display_name: 王志寧
+cbdb_id: 155582
 revision: 1
 properties:
   - predicate: bio.summary

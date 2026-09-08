@@ -4,6 +4,7 @@ id: p_DPLB7GTcBTLEeL51Yhrdfa
 status: active
 merged_into: null
 display_name: 王希稷
+cbdb_id: 229381
 revision: 1
 properties:
   - predicate: bio.summary

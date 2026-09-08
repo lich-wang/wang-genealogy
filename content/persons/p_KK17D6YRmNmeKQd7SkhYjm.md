@@ -4,6 +4,7 @@ id: p_KK17D6YRmNmeKQd7SkhYjm
 status: active
 merged_into: null
 display_name: 王登科
+cbdb_id: 415145
 revision: 1
 properties:
   - predicate: bio.summary

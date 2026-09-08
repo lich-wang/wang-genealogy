@@ -4,6 +4,7 @@ id: p_PZmWZAvjnBzBPtMpJCL684
 status: active
 merged_into: null
 display_name: 王載寧
+cbdb_id: 415468
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_k8jxdZkoKJuHuoK64XUbRq
 status: active
 merged_into: null
 display_name: 王思古
+cbdb_id: 414591
 revision: 1
 properties:
   - predicate: bio.summary

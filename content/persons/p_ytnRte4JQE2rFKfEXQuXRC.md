@@ -4,6 +4,7 @@ id: p_ytnRte4JQE2rFKfEXQuXRC
 status: active
 merged_into: null
 display_name: 王鼎胤
+cbdb_id: 342200
 revision: 1
 properties:
   - predicate: bio.summary

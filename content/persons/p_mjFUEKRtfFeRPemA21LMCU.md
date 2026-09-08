@@ -4,6 +4,7 @@ id: p_mjFUEKRtfFeRPemA21LMCU
 status: active
 merged_into: null
 display_name: 王映山
+cbdb_id: 526822
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_yXMvzHVHDmsiAEXqY9ZtCQ
 status: active
 merged_into: null
 display_name: 王子巖
+cbdb_id: 511603
 revision: 1
 properties:
   - predicate: bio.summary

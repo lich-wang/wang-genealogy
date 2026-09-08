@@ -4,6 +4,7 @@ id: p_fNtPJTWC7fcrSwmbHchnC5
 status: active
 merged_into: null
 display_name: 王映斗
+cbdb_id: 61547
 revision: 1
 properties:
   - predicate: bio.summary

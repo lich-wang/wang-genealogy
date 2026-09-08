@@ -4,6 +4,7 @@ id: p_2o1nyrXCmdhi6MCa1wjULP
 status: active
 merged_into: null
 display_name: 王仕雲
+cbdb_id: 71487
 revision: 1
 properties:
   - predicate: bio.summary

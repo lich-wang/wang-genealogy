@@ -4,6 +4,7 @@ id: p_DKUEGC8DG8czvxmZyxeMx7
 status: active
 merged_into: null
 display_name: 王榮綋
+cbdb_id: 414893
 revision: 1
 properties:
   - predicate: bio.summary

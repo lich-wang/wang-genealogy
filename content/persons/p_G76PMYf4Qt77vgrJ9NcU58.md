@@ -4,6 +4,7 @@ id: p_G76PMYf4Qt77vgrJ9NcU58
 status: active
 merged_into: null
 display_name: 王贊學
+cbdb_id: 445517
 revision: 1
 properties:
   - predicate: bio.summary

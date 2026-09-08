@@ -4,6 +4,7 @@ id: p_xySdE3Z4iyx3Gx1gK8CUvb
 status: active
 merged_into: null
 display_name: 王贊勳
+cbdb_id: 519407
 revision: 1
 properties:
   - predicate: bio.summary

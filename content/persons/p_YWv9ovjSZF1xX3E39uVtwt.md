@@ -4,6 +4,7 @@ id: p_YWv9ovjSZF1xX3E39uVtwt
 status: active
 merged_into: null
 display_name: 郁氏
+cbdb_id: 303469
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_WMMyKgYG468eYfuybPAE71
 status: active
 merged_into: null
 display_name: 王春藻
+cbdb_id: 343354
 revision: 1
 properties:
   - predicate: bio.summary

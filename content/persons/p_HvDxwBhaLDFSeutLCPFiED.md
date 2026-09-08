@@ -4,6 +4,7 @@ id: p_HvDxwBhaLDFSeutLCPFiED
 status: active
 merged_into: null
 display_name: 王汝璐
+cbdb_id: 441158
 revision: 1
 properties:
   - predicate: bio.summary

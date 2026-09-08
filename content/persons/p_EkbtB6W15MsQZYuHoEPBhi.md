@@ -4,6 +4,7 @@ id: p_EkbtB6W15MsQZYuHoEPBhi
 status: active
 merged_into: null
 display_name: 李氏
+cbdb_id: 333598
 revision: 1
 properties:
   - predicate: bio.summary

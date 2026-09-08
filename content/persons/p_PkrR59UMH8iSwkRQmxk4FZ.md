@@ -4,6 +4,7 @@ id: p_PkrR59UMH8iSwkRQmxk4FZ
 status: active
 merged_into: null
 display_name: 王惟能
+cbdb_id: 156473
 revision: 1
 properties:
   - predicate: bio.summary

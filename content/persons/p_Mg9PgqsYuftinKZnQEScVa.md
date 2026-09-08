@@ -4,6 +4,7 @@ id: p_Mg9PgqsYuftinKZnQEScVa
 status: active
 merged_into: null
 display_name: 王友賢
+cbdb_id: 204802
 revision: 1
 properties:
   - predicate: bio.summary

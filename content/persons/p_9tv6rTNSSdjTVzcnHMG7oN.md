@@ -4,6 +4,7 @@ id: p_9tv6rTNSSdjTVzcnHMG7oN
 status: active
 merged_into: null
 display_name: 王世平
+cbdb_id: 71455
 revision: 1
 properties:
   - predicate: bio.summary

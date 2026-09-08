@@ -4,6 +4,7 @@ id: p_B4CKfBqD7P1xQHebUcGwzY
 status: active
 merged_into: null
 display_name: 王凝遠
+cbdb_id: 413984
 revision: 1
 properties:
   - predicate: bio.summary

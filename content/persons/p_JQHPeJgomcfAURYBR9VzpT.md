@@ -4,6 +4,7 @@ id: p_JQHPeJgomcfAURYBR9VzpT
 status: active
 merged_into: null
 display_name: 王永義
+cbdb_id: 414953
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_bnFbDiwr7sCxW5itm4HQAz
 status: active
 merged_into: null
 display_name: 王慶澤
+cbdb_id: 117609
 revision: 1
 properties:
   - predicate: bio.summary

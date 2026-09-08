@@ -4,6 +4,7 @@ id: p_dDHYnGAnK1DYGbrFYBFLLA
 status: active
 merged_into: null
 display_name: 王惟時
+cbdb_id: 294963
 revision: 1
 properties:
   - predicate: bio.summary

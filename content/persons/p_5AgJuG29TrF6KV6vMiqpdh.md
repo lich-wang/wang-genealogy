@@ -4,6 +4,7 @@ id: p_5AgJuG29TrF6KV6vMiqpdh
 status: active
 merged_into: null
 display_name: 王山隱
+cbdb_id: 165042
 revision: 1
 properties:
   - predicate: bio.summary

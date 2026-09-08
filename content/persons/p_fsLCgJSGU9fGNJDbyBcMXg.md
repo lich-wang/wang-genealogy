@@ -4,6 +4,7 @@ id: p_fsLCgJSGU9fGNJDbyBcMXg
 status: active
 merged_into: null
 display_name: 王景運
+cbdb_id: 414806
 revision: 1
 properties:
   - predicate: bio.summary

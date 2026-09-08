@@ -4,6 +4,7 @@ id: p_5kBeiGPTh9zzzB99spZLjF
 status: active
 merged_into: null
 display_name: 王序禮
+cbdb_id: 118493
 revision: 1
 properties:
   - predicate: bio.summary

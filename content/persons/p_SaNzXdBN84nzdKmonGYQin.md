@@ -4,6 +4,7 @@ id: p_SaNzXdBN84nzdKmonGYQin
 status: active
 merged_into: null
 display_name: 王應蔚
+cbdb_id: 341564
 revision: 1
 properties:
   - predicate: bio.summary

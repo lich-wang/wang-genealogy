@@ -4,6 +4,7 @@ id: p_THMATe3fmmunF8FS2EjMc2
 status: active
 merged_into: null
 display_name: 王良知
+cbdb_id: 415337
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_5n5BCmMC6knNH6nTbms1wx
 status: active
 merged_into: null
 display_name: 王靖
+cbdb_id: 29508
 revision: 1
 properties:
   - predicate: bio.summary

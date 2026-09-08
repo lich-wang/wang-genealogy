@@ -4,6 +4,7 @@ id: p_RkmmFr3mX5uEuQtyGxDs8n
 status: active
 merged_into: null
 display_name: 王寅揆
+cbdb_id: 342616
 revision: 1
 properties:
   - predicate: bio.summary

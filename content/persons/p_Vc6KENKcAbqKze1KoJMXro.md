@@ -4,6 +4,7 @@ id: p_Vc6KENKcAbqKze1KoJMXro
 status: active
 merged_into: null
 display_name: 王望道
+cbdb_id: 295414
 revision: 1
 properties:
   - predicate: bio.summary

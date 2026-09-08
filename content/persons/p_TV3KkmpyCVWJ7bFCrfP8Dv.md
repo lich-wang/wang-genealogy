@@ -4,6 +4,7 @@ id: p_TV3KkmpyCVWJ7bFCrfP8Dv
 status: active
 merged_into: null
 display_name: 王立綱
+cbdb_id: 454477
 revision: 1
 properties:
   - predicate: bio.summary

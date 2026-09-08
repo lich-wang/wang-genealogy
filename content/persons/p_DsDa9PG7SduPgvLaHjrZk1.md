@@ -4,6 +4,7 @@ id: p_DsDa9PG7SduPgvLaHjrZk1
 status: active
 merged_into: null
 display_name: 王時芷
+cbdb_id: 414796
 revision: 1
 properties:
   - predicate: bio.summary

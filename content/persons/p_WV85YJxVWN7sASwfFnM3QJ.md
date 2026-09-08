@@ -4,6 +4,7 @@ id: p_WV85YJxVWN7sASwfFnM3QJ
 status: active
 merged_into: null
 display_name: 王豐鎬
+cbdb_id: 61655
 revision: 1
 properties:
   - predicate: bio.summary

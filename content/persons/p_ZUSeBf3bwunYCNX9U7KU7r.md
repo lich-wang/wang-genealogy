@@ -4,6 +4,7 @@ id: p_ZUSeBf3bwunYCNX9U7KU7r
 status: active
 merged_into: null
 display_name: 王汝良
+cbdb_id: 265940
 revision: 1
 properties:
   - predicate: bio.summary

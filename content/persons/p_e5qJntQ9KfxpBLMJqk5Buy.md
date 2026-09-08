@@ -4,6 +4,7 @@ id: p_e5qJntQ9KfxpBLMJqk5Buy
 status: active
 merged_into: null
 display_name: 王民牧
+cbdb_id: 414936
 revision: 1
 properties:
   - predicate: bio.summary

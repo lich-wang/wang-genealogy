@@ -4,6 +4,7 @@ id: p_KyFBJQ8cyn9h2XGKHF9azD
 status: active
 merged_into: null
 display_name: 王頑童
+cbdb_id: 35391
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_XwjP3UWsCvEzDA9bAymAv2
 status: active
 merged_into: null
 display_name: 王觀達
+cbdb_id: 343244
 revision: 1
 properties:
   - predicate: bio.summary

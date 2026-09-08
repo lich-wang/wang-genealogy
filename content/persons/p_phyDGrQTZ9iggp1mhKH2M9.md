@@ -4,6 +4,7 @@ id: p_phyDGrQTZ9iggp1mhKH2M9
 status: active
 merged_into: null
 display_name: 王宗民
+cbdb_id: 273946
 revision: 1
 properties:
   - predicate: bio.summary

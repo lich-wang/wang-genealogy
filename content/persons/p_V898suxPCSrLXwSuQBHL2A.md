@@ -4,6 +4,7 @@ id: p_V898suxPCSrLXwSuQBHL2A
 status: active
 merged_into: null
 display_name: 王光宅
+cbdb_id: 297379
 revision: 1
 properties:
   - predicate: bio.summary

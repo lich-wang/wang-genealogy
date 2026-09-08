@@ -4,6 +4,7 @@ id: p_MuUNErSXrGYLc2LefB2Bga
 status: active
 merged_into: null
 display_name: 王良阡
+cbdb_id: 415339
 revision: 1
 properties:
   - predicate: bio.summary

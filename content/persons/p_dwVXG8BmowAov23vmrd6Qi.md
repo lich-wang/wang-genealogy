@@ -4,6 +4,7 @@ id: p_dwVXG8BmowAov23vmrd6Qi
 status: active
 merged_into: null
 display_name: 王保庸
+cbdb_id: 69253
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_K6bLFVt8Asek8FkfEuXRF2
 status: active
 merged_into: null
 display_name: 王乙
+cbdb_id: 22199
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_HC1Cj7ZiY17yUhphNR4xep
 status: active
 merged_into: null
 display_name: 王懷勳
+cbdb_id: 38395
 revision: 1
 properties:
   - predicate: bio.summary

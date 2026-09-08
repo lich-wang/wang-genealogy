@@ -4,6 +4,7 @@ id: p_NBfSRAmMFQXbAcD1HfX597
 status: active
 merged_into: null
 display_name: 王耿言
+cbdb_id: 342089
 revision: 1
 properties:
   - predicate: bio.summary

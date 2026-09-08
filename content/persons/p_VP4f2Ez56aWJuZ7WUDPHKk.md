@@ -4,6 +4,7 @@ id: p_VP4f2Ez56aWJuZ7WUDPHKk
 status: active
 merged_into: null
 display_name: 王伯稠
+cbdb_id: 126551
 revision: 1
 properties:
   - predicate: bio.summary

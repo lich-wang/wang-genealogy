@@ -4,6 +4,7 @@ id: p_DqPNQNtr4QjBC97r73HQfB
 status: active
 merged_into: null
 display_name: 王五女
+cbdb_id: 158878
 revision: 1
 properties:
   - predicate: bio.summary

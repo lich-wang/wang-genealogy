@@ -4,6 +4,7 @@ id: p_cLiHcJcALcfrwqNT4WjUxE
 status: active
 merged_into: null
 display_name: 王殿顯
+cbdb_id: 67163
 revision: 1
 properties:
   - predicate: bio.summary

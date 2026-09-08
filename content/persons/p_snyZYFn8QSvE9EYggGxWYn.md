@@ -4,6 +4,7 @@ id: p_snyZYFn8QSvE9EYggGxWYn
 status: active
 merged_into: null
 display_name: 王挺秀
+cbdb_id: 30055
 revision: 1
 properties:
   - predicate: bio.summary

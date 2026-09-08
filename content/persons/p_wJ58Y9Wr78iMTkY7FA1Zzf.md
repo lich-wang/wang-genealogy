@@ -4,6 +4,7 @@ id: p_wJ58Y9Wr78iMTkY7FA1Zzf
 status: active
 merged_into: null
 display_name: 王堰
+cbdb_id: 194514
 revision: 1
 properties:
   - predicate: bio.summary

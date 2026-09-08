@@ -4,6 +4,7 @@ id: p_rr4diTY4mwqa6m1AdeML55
 status: active
 merged_into: null
 display_name: 王志友
+cbdb_id: 266935
 revision: 1
 properties:
   - predicate: bio.summary

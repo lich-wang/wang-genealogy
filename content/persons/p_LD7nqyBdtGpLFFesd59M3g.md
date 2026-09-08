@@ -4,6 +4,7 @@ id: p_LD7nqyBdtGpLFFesd59M3g
 status: active
 merged_into: null
 display_name: 王煌
+cbdb_id: 415078
 revision: 1
 properties:
   - predicate: bio.summary

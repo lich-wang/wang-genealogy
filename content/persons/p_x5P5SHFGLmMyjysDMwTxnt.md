@@ -4,6 +4,7 @@ id: p_x5P5SHFGLmMyjysDMwTxnt
 status: active
 merged_into: null
 display_name: 王拯世
+cbdb_id: 578506
 revision: 1
 properties:
   - predicate: bio.summary

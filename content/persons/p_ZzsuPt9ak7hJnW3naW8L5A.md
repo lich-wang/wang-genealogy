@@ -4,6 +4,7 @@ id: p_ZzsuPt9ak7hJnW3naW8L5A
 status: active
 merged_into: null
 display_name: 王茂材
+cbdb_id: 415351
 revision: 1
 properties:
   - predicate: bio.summary

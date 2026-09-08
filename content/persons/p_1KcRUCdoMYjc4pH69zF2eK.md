@@ -4,6 +4,7 @@ id: p_1KcRUCdoMYjc4pH69zF2eK
 status: active
 merged_into: null
 display_name: 王志良
+cbdb_id: 156968
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_v5JqnR99BGgma6kKXeLn4N
 status: active
 merged_into: null
 display_name: 王會龍
+cbdb_id: 22047
 revision: 1
 properties:
   - predicate: bio.summary

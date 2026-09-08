@@ -4,6 +4,7 @@ id: p_nvv5aTGdGdEAFHM2GrNEmm
 status: active
 merged_into: null
 display_name: 王臨亭
+cbdb_id: 343692
 revision: 1
 properties:
   - predicate: bio.summary

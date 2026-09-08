@@ -4,6 +4,7 @@ id: p_eCRvwj6b5Gb3nX1nQ23Gc4
 status: active
 merged_into: null
 display_name: 王則堯
+cbdb_id: 343509
 revision: 1
 properties:
   - predicate: bio.summary

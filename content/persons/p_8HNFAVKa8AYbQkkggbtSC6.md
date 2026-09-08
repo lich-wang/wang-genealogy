@@ -4,6 +4,7 @@ id: p_8HNFAVKa8AYbQkkggbtSC6
 status: active
 merged_into: null
 display_name: 王厚
+cbdb_id: 17819
 revision: 1
 properties:
   - predicate: bio.summary

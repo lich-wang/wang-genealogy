@@ -4,6 +4,7 @@ id: p_EGA8PSLHTPfzF4Ex1G1iRS
 status: active
 merged_into: null
 display_name: 王光奭
+cbdb_id: 413937
 revision: 1
 properties:
   - predicate: bio.summary

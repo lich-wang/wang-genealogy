@@ -4,6 +4,7 @@ id: p_qH965HRtNLEtPyefHwgvpn
 status: active
 merged_into: null
 display_name: 王宗吉
+cbdb_id: 262879
 revision: 1
 properties:
   - predicate: bio.summary

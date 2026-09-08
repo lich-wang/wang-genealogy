@@ -4,6 +4,7 @@ id: p_GWsofKJpEbYC2MCfuoSMjA
 status: active
 merged_into: null
 display_name: 王弘蘊
+cbdb_id: 241179
 revision: 1
 properties:
   - predicate: bio.summary

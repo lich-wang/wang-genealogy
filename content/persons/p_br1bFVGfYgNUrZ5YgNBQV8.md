@@ -4,6 +4,7 @@ id: p_br1bFVGfYgNUrZ5YgNBQV8
 status: active
 merged_into: null
 display_name: 王承某
+cbdb_id: 502200
 revision: 1
 properties:
   - predicate: bio.summary

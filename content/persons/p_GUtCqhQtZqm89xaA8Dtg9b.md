@@ -4,6 +4,7 @@ id: p_GUtCqhQtZqm89xaA8Dtg9b
 status: active
 merged_into: null
 display_name: 王安福
+cbdb_id: 54271
 revision: 1
 properties:
   - predicate: bio.summary

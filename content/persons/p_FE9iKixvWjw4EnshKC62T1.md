@@ -4,6 +4,7 @@ id: p_FE9iKixvWjw4EnshKC62T1
 status: active
 merged_into: null
 display_name: 王拳
+cbdb_id: 266171
 revision: 1
 properties:
   - predicate: bio.summary

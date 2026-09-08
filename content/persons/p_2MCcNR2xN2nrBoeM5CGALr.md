@@ -4,6 +4,7 @@ id: p_2MCcNR2xN2nrBoeM5CGALr
 status: active
 merged_into: null
 display_name: 王麟昭
+cbdb_id: 237905
 revision: 1
 properties:
   - predicate: bio.summary

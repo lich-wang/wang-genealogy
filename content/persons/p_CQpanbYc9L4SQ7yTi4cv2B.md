@@ -4,6 +4,7 @@ id: p_CQpanbYc9L4SQ7yTi4cv2B
 status: active
 merged_into: null
 display_name: 王用言
+cbdb_id: 321241
 revision: 1
 properties:
   - predicate: bio.summary

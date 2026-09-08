@@ -4,6 +4,7 @@ id: p_aw8p4FmLC8GKP34Mxi5aJ7
 status: active
 merged_into: null
 display_name: 王斆成
+cbdb_id: 343689
 revision: 1
 properties:
   - predicate: bio.summary

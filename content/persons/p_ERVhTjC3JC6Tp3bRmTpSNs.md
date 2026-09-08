@@ -4,6 +4,7 @@ id: p_ERVhTjC3JC6Tp3bRmTpSNs
 status: active
 merged_into: null
 display_name: 王覬揚
+cbdb_id: 415403
 revision: 1
 properties:
   - predicate: bio.summary

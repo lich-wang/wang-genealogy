@@ -4,6 +4,7 @@ id: p_mrkwxgh9XYptnDAW7R63Rn
 status: active
 merged_into: null
 display_name: 王祚顯
+cbdb_id: 342837
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_ak5gNuHbF9RKVFzXE4Qsst
 status: active
 merged_into: null
 display_name: 王沛獻
+cbdb_id: 342487
 revision: 1
 properties:
   - predicate: bio.summary

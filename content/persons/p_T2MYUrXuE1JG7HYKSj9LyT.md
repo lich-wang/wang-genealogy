@@ -4,6 +4,7 @@ id: p_T2MYUrXuE1JG7HYKSj9LyT
 status: active
 merged_into: null
 display_name: 王師醇
+cbdb_id: 10687
 revision: 1
 properties:
   - predicate: bio.summary

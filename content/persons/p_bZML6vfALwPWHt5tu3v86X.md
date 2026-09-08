@@ -4,6 +4,7 @@ id: p_bZML6vfALwPWHt5tu3v86X
 status: active
 merged_into: null
 display_name: 王真臣
+cbdb_id: 17884
 revision: 1
 properties:
   - predicate: bio.summary

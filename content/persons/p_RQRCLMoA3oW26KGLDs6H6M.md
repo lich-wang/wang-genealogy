@@ -4,6 +4,7 @@ id: p_RQRCLMoA3oW26KGLDs6H6M
 status: active
 merged_into: null
 display_name: 王陽復
+cbdb_id: 300359
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_tBTQ6yW25kokyd4VAL4Xhi
 status: active
 merged_into: null
 display_name: 王元音
+cbdb_id: 341773
 revision: 1
 properties:
   - predicate: bio.summary

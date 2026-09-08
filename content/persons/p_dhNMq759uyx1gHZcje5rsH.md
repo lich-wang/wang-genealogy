@@ -4,6 +4,7 @@ id: p_dhNMq759uyx1gHZcje5rsH
 status: active
 merged_into: null
 display_name: 王元韜
+cbdb_id: 457299
 revision: 1
 properties:
   - predicate: bio.summary

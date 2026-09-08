@@ -4,6 +4,7 @@ id: p_mQw5PtK1fE7Cx7FiMRYTSJ
 status: active
 merged_into: null
 display_name: 王孟時
+cbdb_id: 228581
 revision: 1
 properties:
   - predicate: bio.summary

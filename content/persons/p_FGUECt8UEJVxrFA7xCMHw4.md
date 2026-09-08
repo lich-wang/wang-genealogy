@@ -4,6 +4,7 @@ id: p_FGUECt8UEJVxrFA7xCMHw4
 status: active
 merged_into: null
 display_name: 蒋季锡
+cbdb_id: 55820
 revision: 2
 properties:
   - predicate: bio.summary

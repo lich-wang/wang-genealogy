@@ -4,6 +4,7 @@ id: p_LWouE38zrijcXXQPG5ma9Z
 status: active
 merged_into: null
 display_name: 王貽矩
+cbdb_id: 22072
 revision: 1
 properties:
   - predicate: bio.summary

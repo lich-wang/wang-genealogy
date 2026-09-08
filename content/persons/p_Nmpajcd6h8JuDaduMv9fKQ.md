@@ -4,6 +4,7 @@ id: p_Nmpajcd6h8JuDaduMv9fKQ
 status: active
 merged_into: null
 display_name: 王應琮
+cbdb_id: 313625
 revision: 1
 properties:
   - predicate: bio.summary

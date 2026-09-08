@@ -4,6 +4,7 @@ id: p_uGBi1WoF6BrELYiXAT74gA
 status: active
 merged_into: null
 display_name: 王機發
+cbdb_id: 414905
 revision: 1
 properties:
   - predicate: bio.summary

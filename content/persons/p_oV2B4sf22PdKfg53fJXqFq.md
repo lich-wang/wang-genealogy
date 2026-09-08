@@ -4,6 +4,7 @@ id: p_oV2B4sf22PdKfg53fJXqFq
 status: active
 merged_into: null
 display_name: 王永楨
+cbdb_id: 414944
 revision: 1
 properties:
   - predicate: bio.summary

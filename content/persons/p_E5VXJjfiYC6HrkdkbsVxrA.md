@@ -4,6 +4,7 @@ id: p_E5VXJjfiYC6HrkdkbsVxrA
 status: active
 merged_into: null
 display_name: 王碧蘭
+cbdb_id: 122911
 revision: 1
 properties:
   - predicate: bio.summary

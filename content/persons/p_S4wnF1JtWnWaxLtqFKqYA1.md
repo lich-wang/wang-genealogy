@@ -4,6 +4,7 @@ id: p_S4wnF1JtWnWaxLtqFKqYA1
 status: active
 merged_into: null
 display_name: 王日川
+cbdb_id: 414764
 revision: 1
 properties:
   - predicate: bio.summary

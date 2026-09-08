@@ -4,6 +4,7 @@ id: p_fWczF2jSL5FxnJaYaEq9Jv
 status: active
 merged_into: null
 display_name: 王陞京
+cbdb_id: 294729
 revision: 1
 properties:
   - predicate: bio.summary

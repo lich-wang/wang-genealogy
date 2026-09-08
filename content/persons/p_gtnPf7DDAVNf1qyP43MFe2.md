@@ -4,6 +4,7 @@ id: p_gtnPf7DDAVNf1qyP43MFe2
 status: active
 merged_into: null
 display_name: 王朝漢
+cbdb_id: 414845
 revision: 1
 properties:
   - predicate: bio.summary

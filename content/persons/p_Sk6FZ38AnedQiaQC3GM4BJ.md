@@ -4,6 +4,7 @@ id: p_Sk6FZ38AnedQiaQC3GM4BJ
 status: active
 merged_into: null
 display_name: 王聖維
+cbdb_id: 415293
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_GAwffkZeWcJx2GVgGXpAtW
 status: active
 merged_into: null
 display_name: 王增祺
+cbdb_id: 72179
 revision: 1
 properties:
   - predicate: bio.summary

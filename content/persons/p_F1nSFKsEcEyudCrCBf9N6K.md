@@ -4,6 +4,7 @@ id: p_F1nSFKsEcEyudCrCBf9N6K
 status: active
 merged_into: null
 display_name: 王留留
+cbdb_id: 160468
 revision: 1
 properties:
   - predicate: bio.summary

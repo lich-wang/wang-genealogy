@@ -4,6 +4,7 @@ id: p_24UuL72mF4iL5kBwfgJosd
 status: active
 merged_into: null
 display_name: 王如珩
+cbdb_id: 414233
 revision: 1
 properties:
   - predicate: bio.summary

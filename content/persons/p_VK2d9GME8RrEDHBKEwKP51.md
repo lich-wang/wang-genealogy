@@ -4,6 +4,7 @@ id: p_VK2d9GME8RrEDHBKEwKP51
 status: active
 merged_into: null
 display_name: 王輝光
+cbdb_id: 216150
 revision: 1
 properties:
   - predicate: bio.summary

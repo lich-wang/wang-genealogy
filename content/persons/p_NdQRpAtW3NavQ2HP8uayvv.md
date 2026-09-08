@@ -4,6 +4,7 @@ id: p_NdQRpAtW3NavQ2HP8uayvv
 status: active
 merged_into: null
 display_name: 王二郎
+cbdb_id: 253051
 revision: 1
 properties:
   - predicate: bio.summary

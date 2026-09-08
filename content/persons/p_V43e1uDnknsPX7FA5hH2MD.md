@@ -4,6 +4,7 @@ id: p_V43e1uDnknsPX7FA5hH2MD
 status: active
 merged_into: null
 display_name: 王廷吉
+cbdb_id: 262604
 revision: 1
 properties:
   - predicate: bio.summary

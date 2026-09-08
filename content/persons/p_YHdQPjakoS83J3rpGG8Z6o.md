@@ -4,6 +4,7 @@ id: p_YHdQPjakoS83J3rpGG8Z6o
 status: active
 merged_into: null
 display_name: 王武緯
+cbdb_id: 60651
 revision: 1
 properties:
   - predicate: bio.summary

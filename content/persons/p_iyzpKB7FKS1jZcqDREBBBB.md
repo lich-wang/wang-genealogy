@@ -4,6 +4,7 @@ id: p_iyzpKB7FKS1jZcqDREBBBB
 status: active
 merged_into: null
 display_name: 王秉運
+cbdb_id: 342128
 revision: 1
 properties:
   - predicate: bio.summary

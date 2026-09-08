@@ -4,6 +4,7 @@ id: p_SWp2subtFywGZX8kj4gPUR
 status: active
 merged_into: null
 display_name: 王登庸
+cbdb_id: 341869
 revision: 1
 properties:
   - predicate: bio.summary

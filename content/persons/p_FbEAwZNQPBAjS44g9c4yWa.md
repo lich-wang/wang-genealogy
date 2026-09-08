@@ -4,6 +4,7 @@ id: p_FbEAwZNQPBAjS44g9c4yWa
 status: active
 merged_into: null
 display_name: 王正卓
+cbdb_id: 414912
 revision: 1
 properties:
   - predicate: bio.summary

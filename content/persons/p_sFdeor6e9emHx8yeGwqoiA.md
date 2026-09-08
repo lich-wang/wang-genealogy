@@ -4,6 +4,7 @@ id: p_sFdeor6e9emHx8yeGwqoiA
 status: active
 merged_into: null
 display_name: 王芳壽
+cbdb_id: 526655
 revision: 1
 properties:
   - predicate: bio.summary

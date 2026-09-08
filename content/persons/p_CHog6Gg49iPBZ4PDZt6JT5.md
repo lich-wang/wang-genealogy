@@ -4,6 +4,7 @@ id: p_CHog6Gg49iPBZ4PDZt6JT5
 status: active
 merged_into: null
 display_name: 王之龍
+cbdb_id: 216060
 revision: 1
 properties:
   - predicate: bio.summary

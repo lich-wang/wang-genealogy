@@ -4,6 +4,7 @@ id: p_JxVssT4xQHnaHhDAVoVdi6
 status: active
 merged_into: null
 display_name: 王為寶
+cbdb_id: 97954
 revision: 1
 properties:
   - predicate: bio.summary

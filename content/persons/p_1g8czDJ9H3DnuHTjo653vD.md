@@ -4,6 +4,7 @@ id: p_1g8czDJ9H3DnuHTjo653vD
 status: active
 merged_into: null
 display_name: 王士清
+cbdb_id: 185621
 revision: 1
 properties:
   - predicate: name.primary

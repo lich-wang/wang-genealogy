@@ -4,6 +4,7 @@ id: p_zBRwS68C8yj8Mq4XD2KSZf
 status: active
 merged_into: null
 display_name: 王建樞
+cbdb_id: 341997
 revision: 1
 properties:
   - predicate: bio.summary

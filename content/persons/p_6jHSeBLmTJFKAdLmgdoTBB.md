@@ -4,6 +4,7 @@ id: p_6jHSeBLmTJFKAdLmgdoTBB
 status: active
 merged_into: null
 display_name: 王行表
+cbdb_id: 148570
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_FzH7EDCutEmYdBJqLD6PCS
 status: active
 merged_into: null
 display_name: 王止善
+cbdb_id: 437541
 revision: 1
 properties:
   - predicate: bio.summary

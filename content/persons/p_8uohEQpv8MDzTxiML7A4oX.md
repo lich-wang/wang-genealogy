@@ -4,6 +4,7 @@ id: p_8uohEQpv8MDzTxiML7A4oX
 status: active
 merged_into: null
 display_name: 王賓清
+cbdb_id: 278550
 revision: 1
 properties:
   - predicate: bio.summary

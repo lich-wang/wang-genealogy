@@ -4,6 +4,7 @@ id: p_dACwgZwbNR1ZJ5Htbc7g4U
 status: active
 merged_into: null
 display_name: 王義仙
+cbdb_id: 158750
 revision: 1
 properties:
   - predicate: bio.summary

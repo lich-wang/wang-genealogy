@@ -4,6 +4,7 @@ id: p_xRD18NvA9nimTLZjm2c9a5
 status: active
 merged_into: null
 display_name: 王揖唐
+cbdb_id: 72058
 revision: 1
 properties:
   - predicate: bio.summary

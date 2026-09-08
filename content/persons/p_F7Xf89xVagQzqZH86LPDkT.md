@@ -4,6 +4,7 @@ id: p_F7Xf89xVagQzqZH86LPDkT
 status: active
 merged_into: null
 display_name: 王奉先
+cbdb_id: 270235
 revision: 1
 properties:
   - predicate: bio.summary

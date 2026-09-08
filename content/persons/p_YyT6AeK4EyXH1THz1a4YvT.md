@@ -4,6 +4,7 @@ id: p_YyT6AeK4EyXH1THz1a4YvT
 status: active
 merged_into: null
 display_name: 王茂春
+cbdb_id: 248127
 revision: 1
 properties:
   - predicate: bio.summary

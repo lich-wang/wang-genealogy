@@ -4,6 +4,7 @@ id: p_RoXGcjquyWnuw2r71H1Drc
 status: active
 merged_into: null
 display_name: 王志坦
+cbdb_id: 101220
 revision: 1
 properties:
   - predicate: bio.summary

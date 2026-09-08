@@ -4,6 +4,7 @@ id: p_TYL2ZBNuX5MKNGvaA2vBM3
 status: active
 merged_into: null
 display_name: 王宸凝
+cbdb_id: 414358
 revision: 1
 properties:
   - predicate: bio.summary

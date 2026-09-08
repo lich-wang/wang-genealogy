@@ -4,6 +4,7 @@ id: p_aY3z86FkKZJsHmbA2SFACD
 status: active
 merged_into: null
 display_name: 王典孫
+cbdb_id: 37659
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_56wqZjb1MHTk65zvhkXnt4
 status: active
 merged_into: null
 display_name: 王啟渾
+cbdb_id: 513446
 revision: 1
 properties:
   - predicate: bio.summary

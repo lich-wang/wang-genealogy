@@ -4,6 +4,7 @@ id: p_b8pqYpeav9mR5MMDJszNgm
 status: active
 merged_into: null
 display_name: 王得山
+cbdb_id: 101335
 revision: 1
 properties:
   - predicate: bio.summary

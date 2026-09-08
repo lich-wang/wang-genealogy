@@ -4,6 +4,7 @@ id: p_67S67TuCjsVTnC1eMak4CE
 status: active
 merged_into: null
 display_name: 王思敏
+cbdb_id: 101275
 revision: 1
 properties:
   - predicate: bio.summary

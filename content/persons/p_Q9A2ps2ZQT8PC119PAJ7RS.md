@@ -4,6 +4,7 @@ id: p_Q9A2ps2ZQT8PC119PAJ7RS
 status: active
 merged_into: null
 display_name: 王承胤
+cbdb_id: 60615
 revision: 1
 properties:
   - predicate: bio.summary

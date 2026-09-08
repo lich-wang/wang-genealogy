@@ -4,6 +4,7 @@ id: p_6e5ELnuv2E5KGPsNrAysQX
 status: active
 merged_into: null
 display_name: 王庾
+cbdb_id: 126670
 revision: 1
 properties:
   - predicate: bio.summary

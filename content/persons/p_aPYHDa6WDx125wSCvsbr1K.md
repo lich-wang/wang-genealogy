@@ -4,6 +4,7 @@ id: p_aPYHDa6WDx125wSCvsbr1K
 status: active
 merged_into: null
 display_name: 王蒼書
+cbdb_id: 26714
 revision: 1
 properties:
   - predicate: bio.summary

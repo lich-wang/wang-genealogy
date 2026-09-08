@@ -4,6 +4,7 @@ id: p_DRLN4b7szmfwfobm6Jeenj
 status: active
 merged_into: null
 display_name: 王管
+cbdb_id: 526003
 revision: 1
 properties:
   - predicate: bio.summary

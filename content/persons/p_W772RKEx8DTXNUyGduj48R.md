@@ -4,6 +4,7 @@ id: p_W772RKEx8DTXNUyGduj48R
 status: active
 merged_into: null
 display_name: 王恩祥
+cbdb_id: 343470
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_TwZjG25iBgeMPFsGDBpeu8
 status: active
 merged_into: null
 display_name: 王勉宜
+cbdb_id: 217259
 revision: 1
 properties:
   - predicate: bio.summary

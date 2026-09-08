@@ -4,6 +4,7 @@ id: p_YjdGyG1P51THjHw36zvLpe
 status: active
 merged_into: null
 display_name: 王裕之
+cbdb_id: 101382
 revision: 1
 properties:
   - predicate: bio.summary

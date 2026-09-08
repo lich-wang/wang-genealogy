@@ -4,6 +4,7 @@ id: p_M7KktR4vBSqqA14QcPLBP4
 status: active
 merged_into: null
 display_name: 王宗瀛
+cbdb_id: 414305
 revision: 1
 properties:
   - predicate: bio.summary

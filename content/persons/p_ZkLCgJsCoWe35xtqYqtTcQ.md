@@ -4,6 +4,7 @@ id: p_ZkLCgJsCoWe35xtqYqtTcQ
 status: active
 merged_into: null
 display_name: 王慶節
+cbdb_id: 414627
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_RzmH3WSuJJ2kXUFeqrauTr
 status: active
 merged_into: null
 display_name: 王榮慶
+cbdb_id: 414889
 revision: 1
 properties:
   - predicate: bio.summary

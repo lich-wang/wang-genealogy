@@ -4,6 +4,7 @@ id: p_GCFGFLbb5w3812Ph1sajEv
 status: active
 merged_into: null
 display_name: 王秉誠
+cbdb_id: 272758
 revision: 1
 properties:
   - predicate: bio.summary

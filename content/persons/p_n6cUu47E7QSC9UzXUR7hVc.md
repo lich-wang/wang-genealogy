@@ -4,6 +4,7 @@ id: p_n6cUu47E7QSC9UzXUR7hVc
 status: active
 merged_into: null
 display_name: 王之舜
+cbdb_id: 413764
 revision: 1
 properties:
   - predicate: bio.summary

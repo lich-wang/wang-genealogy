@@ -4,6 +4,7 @@ id: p_7hSEsnknGNPMP96HiE2DQo
 status: active
 merged_into: null
 display_name: 王与胤
+cbdb_id: 61087
 revision: 1
 properties:
   - predicate: bio.summary

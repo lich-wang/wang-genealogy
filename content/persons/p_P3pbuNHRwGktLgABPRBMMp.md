@@ -4,6 +4,7 @@ id: p_P3pbuNHRwGktLgABPRBMMp
 status: active
 merged_into: null
 display_name: 王世錦
+cbdb_id: 71471
 revision: 1
 properties:
   - predicate: bio.summary

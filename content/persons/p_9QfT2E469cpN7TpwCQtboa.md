@@ -4,6 +4,7 @@ id: p_9QfT2E469cpN7TpwCQtboa
 status: active
 merged_into: null
 display_name: 王繼祀
+cbdb_id: 342235
 revision: 1
 properties:
   - predicate: bio.summary

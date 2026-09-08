@@ -4,6 +4,7 @@ id: p_pSBMj38n59vtLbkzXg38QC
 status: active
 merged_into: null
 display_name: 王仪
+cbdb_id: 175610
 revision: 1
 properties:
   - predicate: bio.summary

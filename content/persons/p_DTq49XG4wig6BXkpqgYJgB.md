@@ -4,6 +4,7 @@ id: p_DTq49XG4wig6BXkpqgYJgB
 status: active
 merged_into: null
 display_name: 王齊賢
+cbdb_id: 415663
 revision: 1
 properties:
   - predicate: bio.summary

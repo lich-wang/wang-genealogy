@@ -4,6 +4,7 @@ id: p_Jjd91H99BErN3VxSzYX5Mf
 status: active
 merged_into: null
 display_name: 王序爵
+cbdb_id: 118494
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_rRx92rsgj5B1Dfj7HhD6jF
 status: active
 merged_into: null
 display_name: 王拱臣
+cbdb_id: 282045
 revision: 1
 properties:
   - predicate: bio.summary

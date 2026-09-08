@@ -4,6 +4,7 @@ id: p_c5NxeWaA7QxGoJJ3FMURwU
 status: active
 merged_into: null
 display_name: 王守愚
+cbdb_id: 514451
 revision: 1
 properties:
   - predicate: bio.summary

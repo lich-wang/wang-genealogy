@@ -4,6 +4,7 @@ id: p_6JLCo5EzMW7F2kapW4gNNi
 status: active
 merged_into: null
 display_name: 王象貴
+cbdb_id: 330757
 revision: 1
 properties:
   - predicate: bio.summary

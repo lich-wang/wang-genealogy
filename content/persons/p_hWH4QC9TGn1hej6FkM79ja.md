@@ -4,6 +4,7 @@ id: p_hWH4QC9TGn1hej6FkM79ja
 status: active
 merged_into: null
 display_name: 王先明
+cbdb_id: 288161
 revision: 1
 properties:
   - predicate: bio.summary

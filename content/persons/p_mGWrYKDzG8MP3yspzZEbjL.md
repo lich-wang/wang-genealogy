@@ -4,6 +4,7 @@ id: p_mGWrYKDzG8MP3yspzZEbjL
 status: active
 merged_into: null
 display_name: 王湘嬃
+cbdb_id: 121021
 revision: 1
 properties:
   - predicate: bio.summary

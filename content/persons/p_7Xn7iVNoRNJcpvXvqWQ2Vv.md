@@ -4,6 +4,7 @@ id: p_7Xn7iVNoRNJcpvXvqWQ2Vv
 status: active
 merged_into: null
 display_name: 王士煥
+cbdb_id: 28789
 revision: 1
 properties:
   - predicate: bio.summary

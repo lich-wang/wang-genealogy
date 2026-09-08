@@ -4,6 +4,7 @@ id: p_uh9JDyjBsS5F7cD6zNvbj7
 status: active
 merged_into: null
 display_name: 王璞敬
+cbdb_id: 520221
 revision: 1
 properties:
   - predicate: bio.summary

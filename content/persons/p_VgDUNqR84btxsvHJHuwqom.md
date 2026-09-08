@@ -4,6 +4,7 @@ id: p_VgDUNqR84btxsvHJHuwqom
 status: active
 merged_into: null
 display_name: 王應微
+cbdb_id: 338256
 revision: 1
 properties:
   - predicate: bio.summary

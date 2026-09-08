@@ -4,6 +4,7 @@ id: p_z3H5DJhgMwFewM9zMZs8YC
 status: active
 merged_into: null
 display_name: 王采珍
+cbdb_id: 342122
 revision: 1
 properties:
   - predicate: bio.summary

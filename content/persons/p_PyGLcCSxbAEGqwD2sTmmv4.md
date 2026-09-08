@@ -4,6 +4,7 @@ id: p_PyGLcCSxbAEGqwD2sTmmv4
 status: active
 merged_into: null
 display_name: 王應井
+cbdb_id: 414633
 revision: 1
 properties:
   - predicate: bio.summary

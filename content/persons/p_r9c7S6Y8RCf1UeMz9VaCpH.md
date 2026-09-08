@@ -4,6 +4,7 @@ id: p_r9c7S6Y8RCf1UeMz9VaCpH
 status: active
 merged_into: null
 display_name: 孙氏
+cbdb_id: 307068
 revision: 1
 properties:
   - predicate: name.primary

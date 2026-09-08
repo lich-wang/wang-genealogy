@@ -4,6 +4,7 @@ id: p_CXQUeaTXgPLx6KHh6MrvhC
 status: active
 merged_into: null
 display_name: 王原析
+cbdb_id: 327873
 revision: 1
 properties:
   - predicate: bio.summary

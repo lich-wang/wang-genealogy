@@ -4,6 +4,7 @@ id: p_m2QYGPhbisbHaux7DbV9kP
 status: active
 merged_into: null
 display_name: 王斤
+cbdb_id: 414756
 revision: 1
 properties:
   - predicate: bio.summary

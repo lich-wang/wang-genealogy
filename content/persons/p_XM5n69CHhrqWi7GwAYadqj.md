@@ -4,6 +4,7 @@ id: p_XM5n69CHhrqWi7GwAYadqj
 status: active
 merged_into: null
 display_name: 王仲奎
+cbdb_id: 249003
 revision: 1
 properties:
   - predicate: bio.summary

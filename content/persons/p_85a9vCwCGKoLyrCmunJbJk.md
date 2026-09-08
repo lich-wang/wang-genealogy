@@ -4,6 +4,7 @@ id: p_85a9vCwCGKoLyrCmunJbJk
 status: active
 merged_into: null
 display_name: 王夢桂
+cbdb_id: 343095
 revision: 1
 properties:
   - predicate: bio.summary

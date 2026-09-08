@@ -4,6 +4,7 @@ id: p_BKzrj8B5aVv9fN11xwUMfz
 status: active
 merged_into: null
 display_name: 王性安
+cbdb_id: 281307
 revision: 1
 properties:
   - predicate: bio.summary

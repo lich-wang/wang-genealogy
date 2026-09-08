@@ -4,6 +4,7 @@ id: p_dsZ9D4HHH9UmkFqhLKnw63
 status: active
 merged_into: null
 display_name: 王方士
+cbdb_id: 175351
 revision: 1
 properties:
   - predicate: bio.summary

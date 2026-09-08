@@ -4,6 +4,7 @@ id: p_PxHDB3zxDMCUHN3Eg9gFqD
 status: active
 merged_into: null
 display_name: 王之璽
+cbdb_id: 413760
 revision: 1
 properties:
   - predicate: bio.summary

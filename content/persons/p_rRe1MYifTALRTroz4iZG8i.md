@@ -4,6 +4,7 @@ id: p_rRe1MYifTALRTroz4iZG8i
 status: active
 merged_into: null
 display_name: 王纵
+cbdb_id: 175381
 revision: 1
 properties:
   - predicate: bio.summary

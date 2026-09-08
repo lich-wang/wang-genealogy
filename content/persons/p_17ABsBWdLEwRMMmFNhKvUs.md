@@ -4,6 +4,7 @@ id: p_17ABsBWdLEwRMMmFNhKvUs
 status: active
 merged_into: null
 display_name: 王延祚
+cbdb_id: 175445
 revision: 1
 properties:
   - predicate: bio.summary

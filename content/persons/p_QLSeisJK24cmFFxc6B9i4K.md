@@ -4,6 +4,7 @@ id: p_QLSeisJK24cmFFxc6B9i4K
 status: active
 merged_into: null
 display_name: 王文繼
+cbdb_id: 134045
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_3HwM4h6E5W1BCtZKCaHLnu
 status: active
 merged_into: null
 display_name: 王守兌
+cbdb_id: 526902
 revision: 1
 properties:
   - predicate: bio.summary

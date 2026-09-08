@@ -4,6 +4,7 @@ id: p_556QY2aLP4bFt9NKECxT7M
 status: active
 merged_into: null
 display_name: 王元相
+cbdb_id: 221929
 revision: 1
 properties:
   - predicate: bio.summary

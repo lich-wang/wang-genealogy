@@ -4,6 +4,7 @@ id: p_DQuW3Qdh1YQmAr39hnzSPn
 status: active
 merged_into: null
 display_name: 王乘龍
+cbdb_id: 69306
 revision: 1
 properties:
   - predicate: bio.summary

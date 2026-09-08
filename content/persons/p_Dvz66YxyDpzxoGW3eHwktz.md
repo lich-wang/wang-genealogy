@@ -4,6 +4,7 @@ id: p_Dvz66YxyDpzxoGW3eHwktz
 status: active
 merged_into: null
 display_name: 王甫全
+cbdb_id: 221966
 revision: 1
 properties:
   - predicate: bio.summary

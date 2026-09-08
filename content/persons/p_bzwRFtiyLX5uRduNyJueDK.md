@@ -4,6 +4,7 @@ id: p_bzwRFtiyLX5uRduNyJueDK
 status: active
 merged_into: null
 display_name: 王時弟
+cbdb_id: 414792
 revision: 1
 properties:
   - predicate: bio.summary

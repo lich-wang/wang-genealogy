@@ -4,6 +4,7 @@ id: p_SGGdU1LxHBDdFcjKk3iP6L
 status: active
 merged_into: null
 display_name: 王升遒
+cbdb_id: 287273
 revision: 1
 properties:
   - predicate: bio.summary

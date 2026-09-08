@@ -4,6 +4,7 @@ id: p_pZadMXEMBNS4hCxLoJiq79
 status: active
 merged_into: null
 display_name: 王茂松
+cbdb_id: 67712
 revision: 1
 properties:
   - predicate: bio.summary

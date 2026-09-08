@@ -4,6 +4,7 @@ id: p_jaAc5XqcCPJPng5Xe47src
 status: active
 merged_into: null
 display_name: 王貂
+cbdb_id: 415430
 revision: 1
 properties:
   - predicate: bio.summary

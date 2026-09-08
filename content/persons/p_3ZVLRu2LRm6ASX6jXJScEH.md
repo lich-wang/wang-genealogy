@@ -4,6 +4,7 @@ id: p_3ZVLRu2LRm6ASX6jXJScEH
 status: active
 merged_into: null
 display_name: 王太
+cbdb_id: 414217
 revision: 1
 properties:
   - predicate: bio.summary

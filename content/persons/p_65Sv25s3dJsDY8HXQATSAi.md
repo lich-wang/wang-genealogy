@@ -4,6 +4,7 @@ id: p_65Sv25s3dJsDY8HXQATSAi
 status: active
 merged_into: null
 display_name: 王洛客
+cbdb_id: 146283
 revision: 1
 properties:
   - predicate: bio.summary

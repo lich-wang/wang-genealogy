@@ -4,6 +4,7 @@ id: p_jWFo8jJuwVACCAnLSsnmqR
 status: active
 merged_into: null
 display_name: 王元琬
+cbdb_id: 378120
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_ZCSuUHoy8LB9y37MGJqtLn
 status: active
 merged_into: null
 display_name: 王宗禹
+cbdb_id: 317697
 revision: 1
 properties:
   - predicate: bio.summary

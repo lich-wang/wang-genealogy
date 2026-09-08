@@ -4,6 +4,7 @@ id: p_7Bf4ZXvAFHzV9L1P1qBKDF
 status: active
 merged_into: null
 display_name: 王通
+cbdb_id: 66788
 revision: 1
 properties:
   - predicate: bio.summary

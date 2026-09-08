@@ -4,6 +4,7 @@ id: p_LkQPFPTR4KJebCyhPZZdjx
 status: active
 merged_into: null
 display_name: 王光恩
+cbdb_id: 59999
 revision: 1
 properties:
   - predicate: bio.summary

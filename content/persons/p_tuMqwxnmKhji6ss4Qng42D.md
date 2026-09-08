@@ -4,6 +4,7 @@ id: p_tuMqwxnmKhji6ss4Qng42D
 status: active
 merged_into: null
 display_name: 王廷受
+cbdb_id: 232995
 revision: 1
 properties:
   - predicate: bio.summary

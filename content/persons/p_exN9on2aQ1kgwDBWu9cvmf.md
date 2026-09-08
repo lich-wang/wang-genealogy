@@ -4,6 +4,7 @@ id: p_exN9on2aQ1kgwDBWu9cvmf
 status: active
 merged_into: null
 display_name: 王錫芾
+cbdb_id: 441157
 revision: 1
 properties:
   - predicate: bio.summary

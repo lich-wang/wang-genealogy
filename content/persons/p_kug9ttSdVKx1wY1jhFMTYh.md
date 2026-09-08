@@ -4,6 +4,7 @@ id: p_kug9ttSdVKx1wY1jhFMTYh
 status: active
 merged_into: null
 display_name: 王鴻薦
+cbdb_id: 342787
 revision: 1
 properties:
   - predicate: bio.summary

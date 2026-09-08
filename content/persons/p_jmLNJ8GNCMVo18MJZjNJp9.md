@@ -4,6 +4,7 @@ id: p_jmLNJ8GNCMVo18MJZjNJp9
 status: active
 merged_into: null
 display_name: 王巽申
+cbdb_id: 37953
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_p7p78wkqQ9Ts6M56vEh3CL
 status: active
 merged_into: null
 display_name: 王貞憲
+cbdb_id: 71542
 revision: 1
 properties:
   - predicate: bio.summary

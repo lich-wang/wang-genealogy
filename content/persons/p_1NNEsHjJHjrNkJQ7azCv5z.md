@@ -4,6 +4,7 @@ id: p_1NNEsHjJHjrNkJQ7azCv5z
 status: active
 merged_into: null
 display_name: 王璇甫
+cbdb_id: 415116
 revision: 1
 properties:
   - predicate: bio.summary

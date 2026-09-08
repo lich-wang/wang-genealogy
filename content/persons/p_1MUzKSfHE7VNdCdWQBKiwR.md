@@ -4,6 +4,7 @@ id: p_1MUzKSfHE7VNdCdWQBKiwR
 status: active
 merged_into: null
 display_name: 王之仲
+cbdb_id: 519653
 revision: 1
 properties:
   - predicate: bio.summary

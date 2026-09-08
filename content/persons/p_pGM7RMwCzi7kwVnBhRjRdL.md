@@ -4,6 +4,7 @@ id: p_pGM7RMwCzi7kwVnBhRjRdL
 status: active
 merged_into: null
 display_name: 王杰
+cbdb_id: 30882
 revision: 1
 properties:
   - predicate: bio.summary

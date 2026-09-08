@@ -4,6 +4,7 @@ id: p_JzrFjkQL311y5dpcGHWwvy
 status: active
 merged_into: null
 display_name: 王文冕
+cbdb_id: 341623
 revision: 1
 properties:
   - predicate: bio.summary

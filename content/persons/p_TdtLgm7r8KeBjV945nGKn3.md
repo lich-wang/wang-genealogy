@@ -4,6 +4,7 @@ id: p_TdtLgm7r8KeBjV945nGKn3
 status: active
 merged_into: null
 display_name: 王如彭
+cbdb_id: 226075
 revision: 1
 properties:
   - predicate: bio.summary

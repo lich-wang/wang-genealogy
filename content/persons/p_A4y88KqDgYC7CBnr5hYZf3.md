@@ -4,6 +4,7 @@ id: p_A4y88KqDgYC7CBnr5hYZf3
 status: active
 merged_into: null
 display_name: 王龜齡
+cbdb_id: 26988
 revision: 2
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_H9B33vC4QHrsm6q86C5Dz8
 status: active
 merged_into: null
 display_name: 王君昌
+cbdb_id: 69213
 revision: 1
 properties:
   - predicate: bio.summary

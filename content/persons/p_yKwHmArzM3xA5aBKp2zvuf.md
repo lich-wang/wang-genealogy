@@ -4,6 +4,7 @@ id: p_yKwHmArzM3xA5aBKp2zvuf
 status: active
 merged_into: null
 display_name: 王封渭
+cbdb_id: 343076
 revision: 1
 properties:
   - predicate: bio.summary

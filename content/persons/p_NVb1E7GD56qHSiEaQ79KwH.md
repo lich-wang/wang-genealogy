@@ -4,6 +4,7 @@ id: p_NVb1E7GD56qHSiEaQ79KwH
 status: active
 merged_into: null
 display_name: 王道章
+cbdb_id: 321159
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_E31hKdm2MmKbfJVJDnwaYG
 status: active
 merged_into: null
 display_name: 王汝潤
+cbdb_id: 71615
 revision: 1
 properties:
   - predicate: bio.summary

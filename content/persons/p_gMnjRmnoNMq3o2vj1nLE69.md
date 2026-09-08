@@ -4,6 +4,7 @@ id: p_gMnjRmnoNMq3o2vj1nLE69
 status: active
 merged_into: null
 display_name: 王某華
+cbdb_id: 278404
 revision: 1
 properties:
   - predicate: bio.summary

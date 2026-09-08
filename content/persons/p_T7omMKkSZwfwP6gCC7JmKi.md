@@ -4,6 +4,7 @@ id: p_T7omMKkSZwfwP6gCC7JmKi
 status: active
 merged_into: null
 display_name: 王夢祖
+cbdb_id: 514421
 revision: 1
 properties:
   - predicate: bio.summary

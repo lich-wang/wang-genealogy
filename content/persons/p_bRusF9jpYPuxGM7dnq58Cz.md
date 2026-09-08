@@ -4,6 +4,7 @@ id: p_bRusF9jpYPuxGM7dnq58Cz
 status: active
 merged_into: null
 display_name: 王熙泰
+cbdb_id: 415082
 revision: 1
 properties:
   - predicate: bio.summary

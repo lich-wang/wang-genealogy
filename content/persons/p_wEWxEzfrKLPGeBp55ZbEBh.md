@@ -4,6 +4,7 @@ id: p_wEWxEzfrKLPGeBp55ZbEBh
 status: active
 merged_into: null
 display_name: 王知遠
+cbdb_id: 97979
 revision: 1
 properties:
   - predicate: bio.summary

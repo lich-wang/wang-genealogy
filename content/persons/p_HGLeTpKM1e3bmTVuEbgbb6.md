@@ -4,6 +4,7 @@ id: p_HGLeTpKM1e3bmTVuEbgbb6
 status: active
 merged_into: null
 display_name: 王沛霖
+cbdb_id: 467104
 revision: 1
 properties:
   - predicate: bio.summary

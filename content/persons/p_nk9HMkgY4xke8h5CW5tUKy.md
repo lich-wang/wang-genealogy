@@ -4,6 +4,7 @@ id: p_nk9HMkgY4xke8h5CW5tUKy
 status: active
 merged_into: null
 display_name: 王汝倬
+cbdb_id: 314236
 revision: 1
 properties:
   - predicate: bio.summary

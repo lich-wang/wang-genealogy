@@ -4,6 +4,7 @@ id: p_uN35ox8sGBpd5Qx7N1kcPF
 status: active
 merged_into: null
 display_name: 王師洛
+cbdb_id: 414423
 revision: 1
 properties:
   - predicate: bio.summary

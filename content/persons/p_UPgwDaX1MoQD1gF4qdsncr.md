@@ -4,6 +4,7 @@ id: p_UPgwDaX1MoQD1gF4qdsncr
 status: active
 merged_into: null
 display_name: 王楊五
+cbdb_id: 160467
 revision: 1
 properties:
   - predicate: bio.summary

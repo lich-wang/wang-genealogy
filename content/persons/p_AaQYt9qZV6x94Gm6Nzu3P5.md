@@ -4,6 +4,7 @@ id: p_AaQYt9qZV6x94Gm6Nzu3P5
 status: active
 merged_into: null
 display_name: 王迺德
+cbdb_id: 54082
 revision: 1
 properties:
   - predicate: bio.summary

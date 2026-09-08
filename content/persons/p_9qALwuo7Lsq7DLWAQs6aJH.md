@@ -4,6 +4,7 @@ id: p_9qALwuo7Lsq7DLWAQs6aJH
 status: active
 merged_into: null
 display_name: 王德民
+cbdb_id: 459221
 revision: 1
 properties:
   - predicate: bio.summary

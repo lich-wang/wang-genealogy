@@ -4,6 +4,7 @@ id: p_z1SHK5rCakVADQKWBxugAh
 status: active
 merged_into: null
 display_name: 王運隆
+cbdb_id: 415492
 revision: 1
 properties:
   - predicate: bio.summary

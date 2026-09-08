@@ -4,6 +4,7 @@ id: p_QyVQQbt4VbA4Hx7YZ8Kozc
 status: active
 merged_into: null
 display_name: 王宗麒
+cbdb_id: 239754
 revision: 1
 properties:
   - predicate: bio.summary

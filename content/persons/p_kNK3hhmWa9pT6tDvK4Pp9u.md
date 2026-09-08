@@ -4,6 +4,7 @@ id: p_kNK3hhmWa9pT6tDvK4Pp9u
 status: active
 merged_into: null
 display_name: 王任重
+cbdb_id: 126522
 revision: 1
 properties:
   - predicate: bio.summary

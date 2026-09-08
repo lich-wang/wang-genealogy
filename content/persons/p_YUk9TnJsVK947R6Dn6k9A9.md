@@ -4,6 +4,7 @@ id: p_YUk9TnJsVK947R6Dn6k9A9
 status: active
 merged_into: null
 display_name: 王伯傑
+cbdb_id: 101184
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_WLCe42PxLyK1wCH9ptHacB
 status: active
 merged_into: null
 display_name: 王錫棨
+cbdb_id: 521514
 revision: 1
 properties:
   - predicate: bio.summary

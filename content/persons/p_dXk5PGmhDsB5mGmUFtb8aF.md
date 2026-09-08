@@ -4,6 +4,7 @@ id: p_dXk5PGmhDsB5mGmUFtb8aF
 status: active
 merged_into: null
 display_name: 王祥鳳
+cbdb_id: 151452
 revision: 1
 properties:
   - predicate: bio.summary

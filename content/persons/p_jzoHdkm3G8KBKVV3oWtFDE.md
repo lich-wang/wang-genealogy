@@ -4,6 +4,7 @@ id: p_jzoHdkm3G8KBKVV3oWtFDE
 status: active
 merged_into: null
 display_name: 王忠立
+cbdb_id: 37791
 revision: 1
 properties:
   - predicate: bio.summary

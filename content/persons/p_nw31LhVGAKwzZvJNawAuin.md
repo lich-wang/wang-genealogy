@@ -4,6 +4,7 @@ id: p_nw31LhVGAKwzZvJNawAuin
 status: active
 merged_into: null
 display_name: 王续
+cbdb_id: 175442
 revision: 1
 properties:
   - predicate: bio.summary

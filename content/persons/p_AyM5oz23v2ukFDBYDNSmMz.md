@@ -4,6 +4,7 @@ id: p_AyM5oz23v2ukFDBYDNSmMz
 status: active
 merged_into: null
 display_name: 王春瀾
+cbdb_id: 308959
 revision: 1
 properties:
   - predicate: bio.summary

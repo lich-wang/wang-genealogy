@@ -4,6 +4,7 @@ id: p_QaJcCuCDjy1HYFu25hJGbT
 status: active
 merged_into: null
 display_name: 王德之
+cbdb_id: 573346
 revision: 1
 properties:
   - predicate: bio.summary

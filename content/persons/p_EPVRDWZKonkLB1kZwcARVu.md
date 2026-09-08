@@ -4,6 +4,7 @@ id: p_EPVRDWZKonkLB1kZwcARVu
 status: active
 merged_into: null
 display_name: 王顯德
+cbdb_id: 241171
 revision: 1
 properties:
   - predicate: bio.summary

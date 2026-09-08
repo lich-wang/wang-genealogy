@@ -4,6 +4,7 @@ id: p_XP9b5H3YCRqxqgDmJQQaKJ
 status: active
 merged_into: null
 display_name: 王宗謹
+cbdb_id: 383807
 revision: 1
 properties:
   - predicate: bio.summary

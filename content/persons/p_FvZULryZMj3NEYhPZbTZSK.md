@@ -4,6 +4,7 @@ id: p_FvZULryZMj3NEYhPZbTZSK
 status: active
 merged_into: null
 display_name: 王健庵
+cbdb_id: 100206
 revision: 1
 properties:
   - predicate: bio.summary

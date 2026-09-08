@@ -4,6 +4,7 @@ id: p_4E3PDHvEhDSt2yERRP4jwQ
 status: active
 merged_into: null
 display_name: 王命德
+cbdb_id: 493093
 revision: 1
 properties:
   - predicate: bio.summary

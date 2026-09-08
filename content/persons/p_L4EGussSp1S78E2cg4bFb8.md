@@ -4,6 +4,7 @@ id: p_L4EGussSp1S78E2cg4bFb8
 status: active
 merged_into: null
 display_name: 王鼎起
+cbdb_id: 69771
 revision: 2
 properties:
   - predicate: bio.summary

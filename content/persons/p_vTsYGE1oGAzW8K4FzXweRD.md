@@ -4,6 +4,7 @@ id: p_vTsYGE1oGAzW8K4FzXweRD
 status: active
 merged_into: null
 display_name: 王克學
+cbdb_id: 413948
 revision: 1
 properties:
   - predicate: bio.summary

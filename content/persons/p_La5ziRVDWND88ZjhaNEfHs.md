@@ -4,6 +4,7 @@ id: p_La5ziRVDWND88ZjhaNEfHs
 status: active
 merged_into: null
 display_name: 王進誠
+cbdb_id: 384209
 revision: 1
 properties:
   - predicate: bio.summary

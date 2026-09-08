@@ -4,6 +4,7 @@ id: p_JGWTgQGeycs8ysgbNEPCMg
 status: active
 merged_into: null
 display_name: 王懷普
+cbdb_id: 21984
 revision: 1
 properties:
   - predicate: bio.summary

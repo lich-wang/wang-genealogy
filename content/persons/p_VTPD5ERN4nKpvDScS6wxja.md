@@ -4,6 +4,7 @@ id: p_VTPD5ERN4nKpvDScS6wxja
 status: active
 merged_into: null
 display_name: 王贵
+cbdb_id: 302566
 revision: 1
 properties:
   - predicate: name.primary

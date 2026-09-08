@@ -4,6 +4,7 @@ id: p_MfbHBEdoBGhuy9vohUbLQY
 status: active
 merged_into: null
 display_name: 王四某
+cbdb_id: 491345
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_jgUJCmxXmDa19Lahr6npL7
 status: active
 merged_into: null
 display_name: 王貞仙
+cbdb_id: 119323
 revision: 1
 properties:
   - predicate: bio.summary

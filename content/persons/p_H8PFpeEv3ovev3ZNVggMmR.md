@@ -4,6 +4,7 @@ id: p_H8PFpeEv3ovev3ZNVggMmR
 status: active
 merged_into: null
 display_name: 王椿蔭
+cbdb_id: 343230
 revision: 1
 properties:
   - predicate: bio.summary

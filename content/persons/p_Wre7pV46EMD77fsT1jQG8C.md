@@ -4,6 +4,7 @@ id: p_Wre7pV46EMD77fsT1jQG8C
 status: active
 merged_into: null
 display_name: 王軔
+cbdb_id: 329350
 revision: 1
 properties:
   - predicate: bio.summary

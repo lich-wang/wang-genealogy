@@ -4,6 +4,7 @@ id: p_MYJTqXeZdyDtCAHT4NxNCB
 status: active
 merged_into: null
 display_name: 王賦
+cbdb_id: 100950
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_4VdN5z8AG6K1dV3uydKhui
 status: active
 merged_into: null
 display_name: 王元書
+cbdb_id: 413905
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_Y7LiRy28LBCVrZQczbT42S
 status: active
 merged_into: null
 display_name: 王傳忠
+cbdb_id: 413887
 revision: 1
 properties:
   - predicate: bio.summary

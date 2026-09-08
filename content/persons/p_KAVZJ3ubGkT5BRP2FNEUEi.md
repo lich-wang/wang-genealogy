@@ -4,6 +4,7 @@ id: p_KAVZJ3ubGkT5BRP2FNEUEi
 status: active
 merged_into: null
 display_name: 王潺金
+cbdb_id: 118996
 revision: 1
 properties:
   - predicate: bio.summary

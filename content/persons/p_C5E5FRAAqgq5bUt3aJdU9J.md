@@ -4,6 +4,7 @@ id: p_C5E5FRAAqgq5bUt3aJdU9J
 status: active
 merged_into: null
 display_name: 王茕立
+cbdb_id: 279737
 revision: 1
 properties:
   - predicate: name.primary

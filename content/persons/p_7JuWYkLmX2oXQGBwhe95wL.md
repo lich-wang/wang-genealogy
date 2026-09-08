@@ -4,6 +4,7 @@ id: p_7JuWYkLmX2oXQGBwhe95wL
 status: active
 merged_into: null
 display_name: 王仁錫
+cbdb_id: 413807
 revision: 1
 properties:
   - predicate: bio.summary

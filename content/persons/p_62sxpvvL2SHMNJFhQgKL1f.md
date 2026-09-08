@@ -4,6 +4,7 @@ id: p_62sxpvvL2SHMNJFhQgKL1f
 status: active
 merged_into: null
 display_name: 王循理
+cbdb_id: 213503
 revision: 1
 properties:
   - predicate: bio.summary

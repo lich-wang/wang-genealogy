@@ -4,6 +4,7 @@ id: p_q7je9PRJiBbQ6WHz7pKw9p
 status: active
 merged_into: null
 display_name: 王豫昭
+cbdb_id: 415429
 revision: 1
 properties:
   - predicate: bio.summary

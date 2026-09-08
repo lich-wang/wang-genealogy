@@ -4,6 +4,7 @@ id: p_n8gJ8LAH7u4tCjt15ALE93
 status: active
 merged_into: null
 display_name: 王朝用
+cbdb_id: 333592
 revision: 2
 properties:
   - predicate: bio.summary

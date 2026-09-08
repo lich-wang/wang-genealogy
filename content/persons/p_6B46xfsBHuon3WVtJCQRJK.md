@@ -4,6 +4,7 @@ id: p_6B46xfsBHuon3WVtJCQRJK
 status: active
 merged_into: null
 display_name: 毕氏
+cbdb_id: 211357
 revision: 1
 properties:
   - predicate: bio.summary

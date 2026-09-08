@@ -4,6 +4,7 @@ id: p_BAsTPzr6Vm683uWTRsXWEW
 status: active
 merged_into: null
 display_name: 王廣齋
+cbdb_id: 255480
 revision: 1
 properties:
   - predicate: bio.summary

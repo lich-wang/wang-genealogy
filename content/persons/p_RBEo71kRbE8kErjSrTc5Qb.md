@@ -4,6 +4,7 @@ id: p_RBEo71kRbE8kErjSrTc5Qb
 status: active
 merged_into: null
 display_name: 王宗智
+cbdb_id: 286126
 revision: 1
 properties:
   - predicate: bio.summary

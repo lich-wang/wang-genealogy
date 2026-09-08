@@ -4,6 +4,7 @@ id: p_yjjnGi66486C7Qm4RitBqB
 status: active
 merged_into: null
 display_name: 王一鴻
+cbdb_id: 336285
 revision: 1
 properties:
   - predicate: bio.summary

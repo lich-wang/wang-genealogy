@@ -4,6 +4,7 @@ id: p_GjAaPLLFSErv4Qc5HK4L5s
 status: active
 merged_into: null
 display_name: 王金度
+cbdb_id: 415526
 revision: 1
 properties:
   - predicate: bio.summary

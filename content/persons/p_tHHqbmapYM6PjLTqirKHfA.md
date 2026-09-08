@@ -4,6 +4,7 @@ id: p_tHHqbmapYM6PjLTqirKHfA
 status: active
 merged_into: null
 display_name: 王秀翁
+cbdb_id: 265524
 revision: 1
 properties:
   - predicate: bio.summary

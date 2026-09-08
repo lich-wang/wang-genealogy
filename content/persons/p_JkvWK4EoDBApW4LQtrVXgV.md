@@ -4,6 +4,7 @@ id: p_JkvWK4EoDBApW4LQtrVXgV
 status: active
 merged_into: null
 display_name: 王尚明
+cbdb_id: 269875
 revision: 1
 properties:
   - predicate: bio.summary

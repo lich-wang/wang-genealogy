@@ -4,6 +4,7 @@ id: p_sNFiCX8EzEuFLrC2QEquSg
 status: active
 merged_into: null
 display_name: 王九吉
+cbdb_id: 472300
 revision: 1
 properties:
   - predicate: bio.summary

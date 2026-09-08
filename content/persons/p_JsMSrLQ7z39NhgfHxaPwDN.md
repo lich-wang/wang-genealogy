@@ -4,6 +4,7 @@ id: p_JsMSrLQ7z39NhgfHxaPwDN
 status: active
 merged_into: null
 display_name: 王蘊貞
+cbdb_id: 120898
 revision: 1
 properties:
   - predicate: bio.summary

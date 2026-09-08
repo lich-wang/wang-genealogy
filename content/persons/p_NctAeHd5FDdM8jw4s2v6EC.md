@@ -4,6 +4,7 @@ id: p_NctAeHd5FDdM8jw4s2v6EC
 status: active
 merged_into: null
 display_name: 王明汲
+cbdb_id: 414783
 revision: 1
 properties:
   - predicate: bio.summary

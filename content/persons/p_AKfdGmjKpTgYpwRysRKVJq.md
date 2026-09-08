@@ -4,6 +4,7 @@ id: p_AKfdGmjKpTgYpwRysRKVJq
 status: active
 merged_into: null
 display_name: 王子獻
+cbdb_id: 1910
 revision: 1
 properties:
   - predicate: bio.summary

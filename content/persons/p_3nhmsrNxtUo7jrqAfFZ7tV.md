@@ -4,6 +4,7 @@ id: p_3nhmsrNxtUo7jrqAfFZ7tV
 status: active
 merged_into: null
 display_name: 王以曜
+cbdb_id: 67114
 revision: 1
 properties:
   - predicate: bio.summary

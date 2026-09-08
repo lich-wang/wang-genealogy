@@ -4,6 +4,7 @@ id: p_5e9t1458YUJPNs25FKSC6P
 status: active
 merged_into: null
 display_name: 王子燁
+cbdb_id: 97852
 revision: 1
 properties:
   - predicate: bio.summary

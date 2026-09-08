@@ -4,6 +4,7 @@ id: p_GNwCViEhToGerMGQ9wYxPR
 status: active
 merged_into: null
 display_name: 王企翶
+cbdb_id: 413848
 revision: 1
 properties:
   - predicate: bio.summary

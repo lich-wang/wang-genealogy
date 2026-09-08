@@ -4,6 +4,7 @@ id: p_ENj4KHekyz7VfGePP8ETiG
 status: active
 merged_into: null
 display_name: 王纉聖
+cbdb_id: 415278
 revision: 1
 properties:
   - predicate: bio.summary

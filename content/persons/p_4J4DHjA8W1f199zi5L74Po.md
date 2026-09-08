@@ -4,6 +4,7 @@ id: p_4J4DHjA8W1f199zi5L74Po
 status: active
 merged_into: null
 display_name: 王仲徳
+cbdb_id: 413838
 revision: 1
 properties:
   - predicate: bio.summary

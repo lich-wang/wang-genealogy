@@ -4,6 +4,7 @@ id: p_T5xdiZk7EHC1y497wDEYbC
 status: active
 merged_into: null
 display_name: 王允澤
+cbdb_id: 342253
 revision: 1
 properties:
   - predicate: bio.summary

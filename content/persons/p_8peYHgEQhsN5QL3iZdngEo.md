@@ -4,6 +4,7 @@ id: p_8peYHgEQhsN5QL3iZdngEo
 status: active
 merged_into: null
 display_name: 王继鹏
+cbdb_id: 11522
 revision: 1
 properties:
   - predicate: name.primary

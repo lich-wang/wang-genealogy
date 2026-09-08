@@ -4,6 +4,7 @@ id: p_wu6s3A9WJ69UBGd66ce1zF
 status: active
 merged_into: null
 display_name: 王春洛
+cbdb_id: 308961
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_4hPsBwPFh7Ef1V2F25a2LG
 status: active
 merged_into: null
 display_name: 王念瑜
+cbdb_id: 414587
 revision: 1
 properties:
   - predicate: bio.summary

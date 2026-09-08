@@ -4,6 +4,7 @@ id: p_LyJ9tobZ2fr5fW49xrucMa
 status: active
 merged_into: null
 display_name: 王可度
+cbdb_id: 168659
 revision: 1
 properties:
   - predicate: bio.summary

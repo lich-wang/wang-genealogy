@@ -4,6 +4,7 @@ id: p_zN5CkYRsAqXYKS76qUps77
 status: active
 merged_into: null
 display_name: 王宗果
+cbdb_id: 217868
 revision: 2
 properties:
   - predicate: bio.summary

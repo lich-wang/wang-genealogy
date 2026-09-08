@@ -4,6 +4,7 @@ id: p_JsftmCutiY1jUzBJV78ksL
 status: active
 merged_into: null
 display_name: 王嗣復
+cbdb_id: 119746
 revision: 1
 properties:
   - predicate: bio.summary

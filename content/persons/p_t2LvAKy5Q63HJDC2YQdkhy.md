@@ -4,6 +4,7 @@ id: p_t2LvAKy5Q63HJDC2YQdkhy
 status: active
 merged_into: null
 display_name: 王昭遜
+cbdb_id: 21983
 revision: 1
 properties:
   - predicate: bio.summary

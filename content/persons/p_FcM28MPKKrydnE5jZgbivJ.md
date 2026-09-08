@@ -4,6 +4,7 @@ id: p_FcM28MPKKrydnE5jZgbivJ
 status: active
 merged_into: null
 display_name: 王繹高
+cbdb_id: 526804
 revision: 1
 properties:
   - predicate: bio.summary

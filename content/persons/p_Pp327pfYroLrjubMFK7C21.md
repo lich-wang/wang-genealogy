@@ -4,6 +4,7 @@ id: p_Pp327pfYroLrjubMFK7C21
 status: active
 merged_into: null
 display_name: 王筌流
+cbdb_id: 227253
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_bTuxSsQNkZHgtJAuPjMvCR
 status: active
 merged_into: null
 display_name: 王光斗
+cbdb_id: 413938
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_TWVZdtkHCAJE3rdF74jZxi
 status: active
 merged_into: null
 display_name: 王之咸
+cbdb_id: 146035
 revision: 1
 properties:
   - predicate: bio.summary

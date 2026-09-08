@@ -4,6 +4,7 @@ id: p_WPWxGETvpBW7NxwcrYbV9S
 status: active
 merged_into: null
 display_name: 王文資
+cbdb_id: 37980
 revision: 1
 properties:
   - predicate: bio.summary

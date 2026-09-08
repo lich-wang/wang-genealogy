@@ -4,6 +4,7 @@ id: p_vGXg15UJqeGyhg6h5Eh8Yw
 status: active
 merged_into: null
 display_name: 王虚
+cbdb_id: 415384
 revision: 1
 properties:
   - predicate: bio.summary

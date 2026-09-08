@@ -4,6 +4,7 @@ id: p_CqBg4yUCepcHAE8r6vCYuZ
 status: active
 merged_into: null
 display_name: 王必申
+cbdb_id: 138084
 revision: 1
 properties:
   - predicate: bio.summary

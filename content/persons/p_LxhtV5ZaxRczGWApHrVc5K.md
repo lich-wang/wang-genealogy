@@ -4,6 +4,7 @@ id: p_LxhtV5ZaxRczGWApHrVc5K
 status: active
 merged_into: null
 display_name: 王镇之
+cbdb_id: 25809
 revision: 1
 properties:
   - predicate: bio.summary

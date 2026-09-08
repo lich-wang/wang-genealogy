@@ -4,6 +4,7 @@ id: p_CeCKJToPiqJ44CrjN1dbFC
 status: active
 merged_into: null
 display_name: 王弘福
+cbdb_id: 151252
 revision: 2
 properties:
   - predicate: bio.summary

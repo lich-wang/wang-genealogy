@@ -4,6 +4,7 @@ id: p_vDvLPmoHTr8gTjEfR5TrL1
 status: active
 merged_into: null
 display_name: 王旭錫
+cbdb_id: 414770
 revision: 1
 properties:
   - predicate: bio.summary

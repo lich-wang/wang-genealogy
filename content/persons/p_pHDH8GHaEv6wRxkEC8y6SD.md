@@ -4,6 +4,7 @@ id: p_pHDH8GHaEv6wRxkEC8y6SD
 status: active
 merged_into: null
 display_name: 王顯高
+cbdb_id: 343501
 revision: 1
 properties:
   - predicate: bio.summary

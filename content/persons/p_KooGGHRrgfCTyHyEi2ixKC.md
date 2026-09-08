@@ -4,6 +4,7 @@ id: p_KooGGHRrgfCTyHyEi2ixKC
 status: active
 merged_into: null
 display_name: 王栈
+cbdb_id: 320130
 revision: 1
 properties:
   - predicate: bio.summary

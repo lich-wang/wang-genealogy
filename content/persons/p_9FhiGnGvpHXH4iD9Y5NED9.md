@@ -4,6 +4,7 @@ id: p_9FhiGnGvpHXH4iD9Y5NED9
 status: active
 merged_into: null
 display_name: 王宗璽
+cbdb_id: 414306
 revision: 1
 properties:
   - predicate: bio.summary

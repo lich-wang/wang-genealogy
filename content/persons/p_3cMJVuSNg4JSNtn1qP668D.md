@@ -4,6 +4,7 @@ id: p_3cMJVuSNg4JSNtn1qP668D
 status: active
 merged_into: null
 display_name: 王蕙蘭
+cbdb_id: 343128
 revision: 1
 properties:
   - predicate: bio.summary

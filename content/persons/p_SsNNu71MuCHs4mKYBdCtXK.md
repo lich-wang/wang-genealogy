@@ -4,6 +4,7 @@ id: p_SsNNu71MuCHs4mKYBdCtXK
 status: active
 merged_into: null
 display_name: 王仁諫
+cbdb_id: 413806
 revision: 1
 properties:
   - predicate: bio.summary

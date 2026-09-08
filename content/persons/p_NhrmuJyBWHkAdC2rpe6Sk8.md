@@ -4,6 +4,7 @@ id: p_NhrmuJyBWHkAdC2rpe6Sk8
 status: active
 merged_into: null
 display_name: 王興義
+cbdb_id: 415327
 revision: 1
 properties:
   - predicate: bio.summary

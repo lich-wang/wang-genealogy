@@ -4,6 +4,7 @@ id: p_CGwznjWmztEMddej4T6i2L
 status: active
 merged_into: null
 display_name: 王治鼎
+cbdb_id: 414996
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_2Z8fhEdQR8uQZfBp4A6Q7i
 status: active
 merged_into: null
 display_name: 王智才
+cbdb_id: 214157
 revision: 1
 properties:
   - predicate: bio.summary

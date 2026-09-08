@@ -4,6 +4,7 @@ id: p_8bF4i5x2ocJMKeudjfqjjX
 status: active
 merged_into: null
 display_name: 王陳翼
+cbdb_id: 69519
 revision: 1
 properties:
   - predicate: bio.summary

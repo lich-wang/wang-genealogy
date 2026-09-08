@@ -4,6 +4,7 @@ id: p_NVoACn7cLLvPqpu5A7oM6u
 status: active
 merged_into: null
 display_name: 王延肃
+cbdb_id: 175446
 revision: 1
 properties:
   - predicate: bio.summary

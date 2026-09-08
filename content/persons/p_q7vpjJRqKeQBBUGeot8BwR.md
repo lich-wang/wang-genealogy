@@ -4,6 +4,7 @@ id: p_q7vpjJRqKeQBBUGeot8BwR
 status: active
 merged_into: null
 display_name: 王廣綸
+cbdb_id: 526871
 revision: 1
 properties:
   - predicate: bio.summary

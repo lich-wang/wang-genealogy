@@ -4,6 +4,7 @@ id: p_Pqfok8XEREUH6LwYPaEu2a
 status: active
 merged_into: null
 display_name: 王寶臣
+cbdb_id: 19852
 revision: 1
 properties:
   - predicate: bio.summary

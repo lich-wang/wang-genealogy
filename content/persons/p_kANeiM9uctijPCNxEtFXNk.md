@@ -4,6 +4,7 @@ id: p_kANeiM9uctijPCNxEtFXNk
 status: active
 merged_into: null
 display_name: 王祖培
+cbdb_id: 58607
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_iLsUkwsFybytz9ED8go5KQ
 status: active
 merged_into: null
 display_name: 王某坊
+cbdb_id: 413661
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_fFB9GPFz5B8U8nS4wu66VZ
 status: active
 merged_into: null
 display_name: 王翼鳳
+cbdb_id: 72220
 revision: 1
 properties:
   - predicate: bio.summary

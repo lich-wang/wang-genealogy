@@ -4,6 +4,7 @@ id: p_MnDiqNwWr2tdGy1C6WX8aV
 status: active
 merged_into: null
 display_name: 王昌嗣
+cbdb_id: 175434
 revision: 1
 properties:
   - predicate: bio.summary

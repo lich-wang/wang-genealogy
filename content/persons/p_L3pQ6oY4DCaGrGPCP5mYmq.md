@@ -4,6 +4,7 @@ id: p_L3pQ6oY4DCaGrGPCP5mYmq
 status: active
 merged_into: null
 display_name: 王悅道
+cbdb_id: 119733
 revision: 1
 properties:
   - predicate: bio.summary

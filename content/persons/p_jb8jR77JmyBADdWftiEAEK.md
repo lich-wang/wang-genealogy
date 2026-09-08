@@ -4,6 +4,7 @@ id: p_jb8jR77JmyBADdWftiEAEK
 status: active
 merged_into: null
 display_name: 王守先
+cbdb_id: 414277
 revision: 1
 properties:
   - predicate: bio.summary

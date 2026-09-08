@@ -4,6 +4,7 @@ id: p_6WucMbhkQXJwBzBACZWi7R
 status: active
 merged_into: null
 display_name: 王淑通
+cbdb_id: 331192
 revision: 1
 properties:
   - predicate: bio.summary

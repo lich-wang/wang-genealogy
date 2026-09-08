@@ -4,6 +4,7 @@ id: p_N7LQKKxzWH2FTeeQ16zEq6
 status: active
 merged_into: null
 display_name: 王紹雍
+cbdb_id: 338566
 revision: 1
 properties:
   - predicate: bio.summary

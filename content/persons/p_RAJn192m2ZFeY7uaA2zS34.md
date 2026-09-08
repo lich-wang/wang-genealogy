@@ -4,6 +4,7 @@ id: p_RAJn192m2ZFeY7uaA2zS34
 status: active
 merged_into: null
 display_name: 王憲彥
+cbdb_id: 235989
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_tbdF719iaM43dCPwE1ecxt
 status: active
 merged_into: null
 display_name: 王敬同
+cbdb_id: 186696
 revision: 2
 properties:
   - predicate: bio.summary

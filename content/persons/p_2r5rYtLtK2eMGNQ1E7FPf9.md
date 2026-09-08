@@ -4,6 +4,7 @@ id: p_2r5rYtLtK2eMGNQ1E7FPf9
 status: active
 merged_into: null
 display_name: 王洪泰
+cbdb_id: 415009
 revision: 1
 properties:
   - predicate: bio.summary

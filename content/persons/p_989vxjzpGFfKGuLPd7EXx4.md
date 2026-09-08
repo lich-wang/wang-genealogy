@@ -4,6 +4,7 @@ id: p_989vxjzpGFfKGuLPd7EXx4
 status: active
 merged_into: null
 display_name: 王闡
+cbdb_id: 175808
 revision: 1
 properties:
   - predicate: bio.summary

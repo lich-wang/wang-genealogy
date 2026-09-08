@@ -4,6 +4,7 @@ id: p_yxXS2mEEhY3AXTnfCJNNpM
 status: active
 merged_into: null
 display_name: 王孫貴
+cbdb_id: 37948
 revision: 1
 properties:
   - predicate: bio.summary

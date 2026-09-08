@@ -4,6 +4,7 @@ id: p_YM8xkP2Z1JrY8tpmptL9kS
 status: active
 merged_into: null
 display_name: 王文域
+cbdb_id: 69033
 revision: 1
 properties:
   - predicate: bio.summary

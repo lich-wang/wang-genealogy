@@ -4,6 +4,7 @@ id: p_zhudny1EqjW8Jzr3nvTJ9E
 status: active
 merged_into: null
 display_name: 王希白
+cbdb_id: 101214
 revision: 1
 properties:
   - predicate: bio.summary

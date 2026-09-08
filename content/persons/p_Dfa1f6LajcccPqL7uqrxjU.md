@@ -4,6 +4,7 @@ id: p_Dfa1f6LajcccPqL7uqrxjU
 status: active
 merged_into: null
 display_name: 王休
+cbdb_id: 175537
 revision: 1
 properties:
   - predicate: bio.summary

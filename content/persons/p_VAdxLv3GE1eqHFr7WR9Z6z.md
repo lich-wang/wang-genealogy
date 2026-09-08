@@ -4,6 +4,7 @@ id: p_VAdxLv3GE1eqHFr7WR9Z6z
 status: active
 merged_into: null
 display_name: 王光晉
+cbdb_id: 413939
 revision: 1
 properties:
   - predicate: bio.summary

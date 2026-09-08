@@ -4,6 +4,7 @@ id: p_CEGQ9AchiED5nPx7FjcBQs
 status: active
 merged_into: null
 display_name: 王道坦
+cbdb_id: 441154
 revision: 1
 properties:
   - predicate: bio.summary

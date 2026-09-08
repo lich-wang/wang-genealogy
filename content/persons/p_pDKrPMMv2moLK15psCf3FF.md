@@ -4,6 +4,7 @@ id: p_pDKrPMMv2moLK15psCf3FF
 status: active
 merged_into: null
 display_name: 王汝期
+cbdb_id: 414969
 revision: 1
 properties:
   - predicate: bio.summary

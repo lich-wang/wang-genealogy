@@ -4,6 +4,7 @@ id: p_NwosFpCuQh3ufUu48APSSq
 status: active
 merged_into: null
 display_name: 王仁聞
+cbdb_id: 316797
 revision: 1
 properties:
   - predicate: bio.summary

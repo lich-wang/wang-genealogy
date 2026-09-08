@@ -4,6 +4,7 @@ id: p_wcKsMDcQa79PFEB3wS2j5j
 status: active
 merged_into: null
 display_name: 王用升
+cbdb_id: 415124
 revision: 1
 properties:
   - predicate: bio.summary

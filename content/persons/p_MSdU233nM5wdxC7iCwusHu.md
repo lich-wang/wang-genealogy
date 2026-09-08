@@ -4,6 +4,7 @@ id: p_MSdU233nM5wdxC7iCwusHu
 status: active
 merged_into: null
 display_name: 王澄
+cbdb_id: 175470
 revision: 1
 properties:
   - predicate: bio.summary

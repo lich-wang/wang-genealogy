@@ -4,6 +4,7 @@ id: p_XxKMPHvrG9fAzhpVu7454q
 status: active
 merged_into: null
 display_name: 王孟曙
+cbdb_id: 228579
 revision: 1
 properties:
   - predicate: bio.summary

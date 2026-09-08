@@ -4,6 +4,7 @@ id: p_gh8GqDbUWcLHbi66xPJAFZ
 status: active
 merged_into: null
 display_name: 王瞰
+cbdb_id: 415174
 revision: 1
 properties:
   - predicate: bio.summary

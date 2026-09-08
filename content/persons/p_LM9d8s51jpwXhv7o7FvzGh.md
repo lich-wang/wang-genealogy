@@ -4,6 +4,7 @@ id: p_LM9d8s51jpwXhv7o7FvzGh
 status: active
 merged_into: null
 display_name: 王進祖
+cbdb_id: 342546
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_LDRGVM6syGza6ewauTPN2B
 status: active
 merged_into: null
 display_name: 王德鈞
+cbdb_id: 72190
 revision: 1
 properties:
   - predicate: bio.summary

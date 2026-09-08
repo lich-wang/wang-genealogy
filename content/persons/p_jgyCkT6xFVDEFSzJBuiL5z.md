@@ -4,6 +4,7 @@ id: p_jgyCkT6xFVDEFSzJBuiL5z
 status: active
 merged_into: null
 display_name: 王元默
+cbdb_id: 314304
 revision: 1
 properties:
   - predicate: bio.summary

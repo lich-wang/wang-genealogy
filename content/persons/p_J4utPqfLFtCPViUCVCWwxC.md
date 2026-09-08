@@ -4,6 +4,7 @@ id: p_J4utPqfLFtCPViUCVCWwxC
 status: active
 merged_into: null
 display_name: 王相說
+cbdb_id: 343258
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_uym8ZYHMZML23NLgGPRY4p
 status: active
 merged_into: null
 display_name: 王令聞
+cbdb_id: 121699
 revision: 1
 properties:
   - predicate: bio.summary

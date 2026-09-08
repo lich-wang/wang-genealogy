@@ -4,6 +4,7 @@ id: p_b3m7hRAK8FG8XFw2186M2U
 status: active
 merged_into: null
 display_name: 王汝咨
+cbdb_id: 290268
 revision: 1
 properties:
   - predicate: bio.summary

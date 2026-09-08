@@ -4,6 +4,7 @@ id: p_xctJJVtENF8A3hmT7SgzWv
 status: active
 merged_into: null
 display_name: 王清箱
+cbdb_id: 342757
 revision: 1
 properties:
   - predicate: bio.summary

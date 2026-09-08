@@ -4,6 +4,7 @@ id: p_JBQ1MoN8cQLy7m1GWiPbMt
 status: active
 merged_into: null
 display_name: 王孝輔
+cbdb_id: 526732
 revision: 1
 properties:
   - predicate: bio.summary

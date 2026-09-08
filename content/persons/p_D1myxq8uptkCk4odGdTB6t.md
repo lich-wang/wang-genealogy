@@ -4,6 +4,7 @@ id: p_D1myxq8uptkCk4odGdTB6t
 status: active
 merged_into: null
 display_name: 王綬宗
+cbdb_id: 292175
 revision: 1
 properties:
   - predicate: bio.summary

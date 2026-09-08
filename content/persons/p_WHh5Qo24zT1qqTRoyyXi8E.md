@@ -4,6 +4,7 @@ id: p_WHh5Qo24zT1qqTRoyyXi8E
 status: active
 merged_into: null
 display_name: 王光頡
+cbdb_id: 526873
 revision: 1
 properties:
   - predicate: bio.summary

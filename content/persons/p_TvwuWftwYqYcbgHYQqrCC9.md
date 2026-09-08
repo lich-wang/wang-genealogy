@@ -4,6 +4,7 @@ id: p_TvwuWftwYqYcbgHYQqrCC9
 status: active
 merged_into: null
 display_name: 王履清
+cbdb_id: 379559
 revision: 1
 properties:
   - predicate: bio.summary

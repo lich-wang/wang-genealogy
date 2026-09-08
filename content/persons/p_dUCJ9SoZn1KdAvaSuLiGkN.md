@@ -4,6 +4,7 @@ id: p_dUCJ9SoZn1KdAvaSuLiGkN
 status: active
 merged_into: null
 display_name: 王徽言
+cbdb_id: 325299
 revision: 1
 properties:
   - predicate: bio.summary

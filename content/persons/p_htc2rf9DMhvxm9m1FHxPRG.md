@@ -4,6 +4,7 @@ id: p_htc2rf9DMhvxm9m1FHxPRG
 status: active
 merged_into: null
 display_name: 王炳佶
+cbdb_id: 415064
 revision: 1
 properties:
   - predicate: bio.summary

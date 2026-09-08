@@ -4,6 +4,7 @@ id: p_DAqLPLrxJg32GpD5MUhDju
 status: active
 merged_into: null
 display_name: 王正琥
+cbdb_id: 414920
 revision: 1
 properties:
   - predicate: bio.summary

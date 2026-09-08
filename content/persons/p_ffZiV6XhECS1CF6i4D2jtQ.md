@@ -4,6 +4,7 @@ id: p_ffZiV6XhECS1CF6i4D2jtQ
 status: active
 merged_into: null
 display_name: 王仲原
+cbdb_id: 1800
 revision: 1
 properties:
   - predicate: bio.summary

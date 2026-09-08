@@ -4,6 +4,7 @@ id: p_yZCLjnAKK9E36SndaZ6sv8
 status: active
 merged_into: null
 display_name: 王者起
+cbdb_id: 415291
 revision: 1
 properties:
   - predicate: bio.summary

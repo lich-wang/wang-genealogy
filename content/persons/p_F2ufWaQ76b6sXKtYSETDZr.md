@@ -4,6 +4,7 @@ id: p_F2ufWaQ76b6sXKtYSETDZr
 status: active
 merged_into: null
 display_name: 王進功
+cbdb_id: 60994
 revision: 1
 properties:
   - predicate: bio.summary

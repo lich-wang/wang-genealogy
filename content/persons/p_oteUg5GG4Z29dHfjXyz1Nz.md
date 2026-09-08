@@ -4,6 +4,7 @@ id: p_oteUg5GG4Z29dHfjXyz1Nz
 status: active
 merged_into: null
 display_name: 王道煦
+cbdb_id: 223217
 revision: 1
 properties:
   - predicate: bio.summary

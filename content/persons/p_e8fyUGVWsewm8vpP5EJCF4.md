@@ -4,6 +4,7 @@ id: p_e8fyUGVWsewm8vpP5EJCF4
 status: active
 merged_into: null
 display_name: 王民望
+cbdb_id: 136440
 revision: 1
 properties:
   - predicate: bio.summary

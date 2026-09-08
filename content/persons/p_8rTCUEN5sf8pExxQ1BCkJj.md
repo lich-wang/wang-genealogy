@@ -4,6 +4,7 @@ id: p_8rTCUEN5sf8pExxQ1BCkJj
 status: active
 merged_into: null
 display_name: 王憲周
+cbdb_id: 414628
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_gM2uuq9zKAnXxqWcMadAcB
 status: active
 merged_into: null
 display_name: 王葢綸
+cbdb_id: 415370
 revision: 1
 properties:
   - predicate: bio.summary

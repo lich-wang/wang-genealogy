@@ -4,6 +4,7 @@ id: p_FXMLfkx3mEfRWFYSNqqopV
 status: active
 merged_into: null
 display_name: 王上達
+cbdb_id: 413696
 revision: 1
 properties:
   - predicate: bio.summary

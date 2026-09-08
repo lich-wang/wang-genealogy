@@ -4,6 +4,7 @@ id: p_gws1d7Ekj22FrGHUwLmNaM
 status: active
 merged_into: null
 display_name: 王建德
+cbdb_id: 414498
 revision: 1
 properties:
   - predicate: bio.summary

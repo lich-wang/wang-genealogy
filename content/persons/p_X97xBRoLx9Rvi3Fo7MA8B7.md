@@ -4,6 +4,7 @@ id: p_X97xBRoLx9Rvi3Fo7MA8B7
 status: active
 merged_into: null
 display_name: 王雲銘
+cbdb_id: 341853
 revision: 1
 properties:
   - predicate: bio.summary

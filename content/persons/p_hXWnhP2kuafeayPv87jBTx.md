@@ -4,6 +4,7 @@ id: p_hXWnhP2kuafeayPv87jBTx
 status: active
 merged_into: null
 display_name: 王家仕
+cbdb_id: 71968
 revision: 1
 properties:
   - predicate: bio.summary

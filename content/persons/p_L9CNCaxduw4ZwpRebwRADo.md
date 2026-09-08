@@ -4,6 +4,7 @@ id: p_L9CNCaxduw4ZwpRebwRADo
 status: active
 merged_into: null
 display_name: 王夢旭
+cbdb_id: 343096
 revision: 1
 properties:
   - predicate: bio.summary

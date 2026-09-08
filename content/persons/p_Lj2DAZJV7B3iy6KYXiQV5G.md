@@ -4,6 +4,7 @@ id: p_Lj2DAZJV7B3iy6KYXiQV5G
 status: active
 merged_into: null
 display_name: 王景西
+cbdb_id: 72063
 revision: 1
 properties:
   - predicate: bio.summary

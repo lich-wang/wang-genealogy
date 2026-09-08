@@ -4,6 +4,7 @@ id: p_qsFykwEkn331sniP7xaPke
 status: active
 merged_into: null
 display_name: 王添祥
+cbdb_id: 238292
 revision: 1
 properties:
   - predicate: bio.summary

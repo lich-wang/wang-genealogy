@@ -4,6 +4,7 @@ id: p_3V7gQ7gti5Eiina6dPHnmQ
 status: active
 merged_into: null
 display_name: 王孚遠
+cbdb_id: 101211
 revision: 1
 properties:
   - predicate: bio.summary

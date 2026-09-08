@@ -4,6 +4,7 @@ id: p_H6sB99LDCuxXA25A1F7LzY
 status: active
 merged_into: null
 display_name: 王幼元
+cbdb_id: 158495
 revision: 1
 properties:
   - predicate: bio.summary

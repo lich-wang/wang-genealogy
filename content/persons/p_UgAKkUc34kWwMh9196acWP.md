@@ -4,6 +4,7 @@ id: p_UgAKkUc34kWwMh9196acWP
 status: active
 merged_into: null
 display_name: 赵氏
+cbdb_id: 38577
 revision: 1
 properties:
   - predicate: bio.summary

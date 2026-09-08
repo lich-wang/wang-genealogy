@@ -4,6 +4,7 @@ id: p_sJJ2tDojNzfBmwtUuRZRJK
 status: active
 merged_into: null
 display_name: 王汝謹
+cbdb_id: 209903
 revision: 1
 properties:
   - predicate: bio.summary

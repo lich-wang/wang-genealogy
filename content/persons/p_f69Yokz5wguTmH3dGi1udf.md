@@ -4,6 +4,7 @@ id: p_f69Yokz5wguTmH3dGi1udf
 status: active
 merged_into: null
 display_name: 王宗可
+cbdb_id: 327780
 revision: 1
 properties:
   - predicate: bio.summary

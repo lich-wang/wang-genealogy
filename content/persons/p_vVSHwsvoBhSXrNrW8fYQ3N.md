@@ -4,6 +4,7 @@ id: p_vVSHwsvoBhSXrNrW8fYQ3N
 status: active
 merged_into: null
 display_name: 王敬銘
+cbdb_id: 72046
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_AgMZD8G7EJ5K7P49yaqHgS
 status: active
 merged_into: null
 display_name: 王順媖
+cbdb_id: 522348
 revision: 1
 properties:
   - predicate: bio.summary

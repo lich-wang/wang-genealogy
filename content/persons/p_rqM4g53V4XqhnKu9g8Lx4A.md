@@ -4,6 +4,7 @@ id: p_rqM4g53V4XqhnKu9g8Lx4A
 status: active
 merged_into: null
 display_name: 王最
+cbdb_id: 33307
 revision: 1
 properties:
   - predicate: bio.summary

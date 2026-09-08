@@ -4,6 +4,7 @@ id: p_cikw8dsZq2pT5MWXyzDmm3
 status: active
 merged_into: null
 display_name: 唐玄宗
+cbdb_id: 19244
 revision: 2
 properties:
   - predicate: bio.summary

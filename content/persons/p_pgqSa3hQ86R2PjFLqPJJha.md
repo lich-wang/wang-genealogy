@@ -4,6 +4,7 @@ id: p_pgqSa3hQ86R2PjFLqPJJha
 status: active
 merged_into: null
 display_name: 王蘭畦
+cbdb_id: 511627
 revision: 1
 properties:
   - predicate: bio.summary

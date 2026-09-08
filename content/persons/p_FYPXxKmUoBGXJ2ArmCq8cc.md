@@ -4,6 +4,7 @@ id: p_FYPXxKmUoBGXJ2ArmCq8cc
 status: active
 merged_into: null
 display_name: 王誦詩
+cbdb_id: 333206
 revision: 1
 properties:
   - predicate: bio.summary

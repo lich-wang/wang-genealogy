@@ -4,6 +4,7 @@ id: p_DE2NBKWJpr9M9BHeQEHtCj
 status: active
 merged_into: null
 display_name: 王遇賓
+cbdb_id: 342777
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_rLQf9KDFFAW86SJRKbkQiM
 status: active
 merged_into: null
 display_name: 王公蘋
+cbdb_id: 385862
 revision: 1
 properties:
   - predicate: bio.summary

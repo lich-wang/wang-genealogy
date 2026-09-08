@@ -4,6 +4,7 @@ id: p_dyYmeV73g2ChFzCNXtt4Ci
 status: active
 merged_into: null
 display_name: 王宗舉
+cbdb_id: 101236
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_D3X69KnEaAGksT2UkjS9EL
 status: active
 merged_into: null
 display_name: 王善之
+cbdb_id: 38185
 revision: 1
 properties:
   - predicate: bio.summary

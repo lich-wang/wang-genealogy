@@ -4,6 +4,7 @@ id: p_sN3PcXnM88ou4acFpbnUWs
 status: active
 merged_into: null
 display_name: 王一成
+cbdb_id: 213991
 revision: 1
 properties:
   - predicate: bio.summary

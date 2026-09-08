@@ -4,6 +4,7 @@ id: p_cWPRvb6zfKPyHeSgYdr1WL
 status: active
 merged_into: null
 display_name: 王閣
+cbdb_id: 343673
 revision: 1
 properties:
   - predicate: bio.summary

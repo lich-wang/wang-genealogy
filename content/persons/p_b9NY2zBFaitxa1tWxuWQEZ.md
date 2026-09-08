@@ -4,6 +4,7 @@ id: p_b9NY2zBFaitxa1tWxuWQEZ
 status: active
 merged_into: null
 display_name: 王緒祖
+cbdb_id: 61074
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_gmSkBYBnj6AUDqkC7pewDS
 status: active
 merged_into: null
 display_name: 王某選
+cbdb_id: 279050
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_hMDo8ZJE6rxGQVCmjYvY2P
 status: active
 merged_into: null
 display_name: 王瑤湘
+cbdb_id: 55872
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_nwJRPY9m5PVUYB86Wk7N9k
 status: active
 merged_into: null
 display_name: 王堯節
+cbdb_id: 301853
 revision: 1
 properties:
   - predicate: bio.summary

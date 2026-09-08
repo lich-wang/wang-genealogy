@@ -4,6 +4,7 @@ id: p_cWLSoXHQ8UHEBUXaxRR6Dn
 status: active
 merged_into: null
 display_name: 王垿時
+cbdb_id: 513476
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_KXU6APsLAReQWLf4m6PA6P
 status: active
 merged_into: null
 display_name: 王企曾
+cbdb_id: 513574
 revision: 1
 properties:
   - predicate: bio.summary

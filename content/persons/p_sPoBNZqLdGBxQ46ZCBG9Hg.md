@@ -4,6 +4,7 @@ id: p_sPoBNZqLdGBxQ46ZCBG9Hg
 status: active
 merged_into: null
 display_name: 王士會
+cbdb_id: 32342
 revision: 1
 properties:
   - predicate: bio.summary

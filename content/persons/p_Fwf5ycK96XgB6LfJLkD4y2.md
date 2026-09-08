@@ -4,6 +4,7 @@ id: p_Fwf5ycK96XgB6LfJLkD4y2
 status: active
 merged_into: null
 display_name: 王徳成
+cbdb_id: 414549
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_6L1VRPkbwRV5iRh3M3H1BR
 status: active
 merged_into: null
 display_name: 王忠廕
+cbdb_id: 526840
 revision: 1
 properties:
   - predicate: bio.summary

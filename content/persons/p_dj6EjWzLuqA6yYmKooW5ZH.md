@@ -4,6 +4,7 @@ id: p_dj6EjWzLuqA6yYmKooW5ZH
 status: active
 merged_into: null
 display_name: 王希侈
+cbdb_id: 384910
 revision: 1
 properties:
   - predicate: bio.summary

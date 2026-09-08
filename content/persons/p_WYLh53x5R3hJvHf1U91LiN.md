@@ -4,6 +4,7 @@ id: p_WYLh53x5R3hJvHf1U91LiN
 status: active
 merged_into: null
 display_name: 王彝訓
+cbdb_id: 445537
 revision: 1
 properties:
   - predicate: bio.summary

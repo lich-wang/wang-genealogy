@@ -4,6 +4,7 @@ id: p_kDje1SsHFxfPTFCVt4mhCu
 status: active
 merged_into: null
 display_name: 王逢庚
+cbdb_id: 71962
 revision: 1
 properties:
   - predicate: bio.summary

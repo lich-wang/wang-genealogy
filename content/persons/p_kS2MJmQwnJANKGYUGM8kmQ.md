@@ -4,6 +4,7 @@ id: p_kS2MJmQwnJANKGYUGM8kmQ
 status: active
 merged_into: null
 display_name: 王國渠
+cbdb_id: 414125
 revision: 1
 properties:
   - predicate: bio.summary

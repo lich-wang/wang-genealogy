@@ -4,6 +4,7 @@ id: p_ATDKa8xMg8vHhQpgkPCYFC
 status: active
 merged_into: null
 display_name: 王資堅
+cbdb_id: 260061
 revision: 1
 properties:
   - predicate: bio.summary

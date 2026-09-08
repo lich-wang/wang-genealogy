@@ -4,6 +4,7 @@ id: p_PYqXpUQmBjVDWZEm6K1Dc7
 status: active
 merged_into: null
 display_name: 王福坤
+cbdb_id: 517415
 revision: 1
 properties:
   - predicate: bio.summary

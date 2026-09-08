@@ -4,6 +4,7 @@ id: p_1P2GcfxA2ArPBAVULsK1uK
 status: active
 merged_into: null
 display_name: 王養俊
+cbdb_id: 343769
 revision: 1
 properties:
   - predicate: bio.summary

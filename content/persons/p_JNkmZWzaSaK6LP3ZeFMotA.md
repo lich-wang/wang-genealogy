@@ -4,6 +4,7 @@ id: p_JNkmZWzaSaK6LP3ZeFMotA
 status: active
 merged_into: null
 display_name: 王仲武
+cbdb_id: 175575
 revision: 1
 properties:
   - predicate: bio.summary

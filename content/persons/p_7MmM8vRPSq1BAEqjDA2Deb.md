@@ -4,6 +4,7 @@ id: p_7MmM8vRPSq1BAEqjDA2Deb
 status: active
 merged_into: null
 display_name: 王飛翹
+cbdb_id: 415609
 revision: 1
 properties:
   - predicate: bio.summary

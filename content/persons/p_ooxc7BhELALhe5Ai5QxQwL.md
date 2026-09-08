@@ -4,6 +4,7 @@ id: p_ooxc7BhELALhe5Ai5QxQwL
 status: active
 merged_into: null
 display_name: 王利涉
+cbdb_id: 39451
 revision: 1
 properties:
   - predicate: bio.summary

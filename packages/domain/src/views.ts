@@ -45,6 +45,8 @@ export interface PersonSummary {
   /** null unless status = merged; then callers should redirect. */
   redirect_to_person_id: string | null;
   display_name: string | null;
+  /** CBDB 人物编号；仅在已确认收录时提供，无前缀数字字符串。 */
+  cbdb_id: string | null;
   properties: SummaryField[];
   relationships: {
     parents: ClaimWithSources[];

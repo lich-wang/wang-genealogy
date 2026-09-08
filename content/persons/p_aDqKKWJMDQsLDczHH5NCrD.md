@@ -4,6 +4,7 @@ id: p_aDqKKWJMDQsLDczHH5NCrD
 status: active
 merged_into: null
 display_name: 王子寬
+cbdb_id: 165436
 revision: 1
 properties:
   - predicate: bio.summary

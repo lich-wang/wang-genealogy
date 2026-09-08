@@ -4,6 +4,7 @@ id: p_iuR2JS69X2RAgKFZCUBdob
 status: active
 merged_into: null
 display_name: 王素娟
+cbdb_id: 55711
 revision: 1
 properties:
   - predicate: bio.summary

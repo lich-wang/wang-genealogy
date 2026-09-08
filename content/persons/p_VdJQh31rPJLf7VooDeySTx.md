@@ -4,6 +4,7 @@ id: p_VdJQh31rPJLf7VooDeySTx
 status: active
 merged_into: null
 display_name: 王清霞
+cbdb_id: 72010
 revision: 1
 properties:
   - predicate: bio.summary

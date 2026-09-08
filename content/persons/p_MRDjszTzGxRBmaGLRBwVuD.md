@@ -4,6 +4,7 @@ id: p_MRDjszTzGxRBmaGLRBwVuD
 status: active
 merged_into: null
 display_name: 王衍謙
+cbdb_id: 71897
 revision: 1
 properties:
   - predicate: bio.summary

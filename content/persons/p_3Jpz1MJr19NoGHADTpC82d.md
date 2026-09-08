@@ -4,6 +4,7 @@ id: p_3Jpz1MJr19NoGHADTpC82d
 status: active
 merged_into: null
 display_name: 王串
+cbdb_id: 37767
 revision: 1
 properties:
   - predicate: name.primary

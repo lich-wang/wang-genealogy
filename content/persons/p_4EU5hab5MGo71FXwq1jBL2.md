@@ -4,6 +4,7 @@ id: p_4EU5hab5MGo71FXwq1jBL2
 status: active
 merged_into: null
 display_name: 王方智
+cbdb_id: 152942
 revision: 2
 properties:
   - predicate: bio.summary

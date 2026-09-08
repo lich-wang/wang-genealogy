@@ -4,6 +4,7 @@ id: p_2L23vgTSzx7Z2QYCVTW5Cd
 status: active
 merged_into: null
 display_name: 王仁福
+cbdb_id: 69082
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_U4CRjiu8AaE9a1JViGDQ9D
 status: active
 merged_into: null
 display_name: 王端履
+cbdb_id: 72170
 revision: 1
 properties:
   - predicate: bio.summary

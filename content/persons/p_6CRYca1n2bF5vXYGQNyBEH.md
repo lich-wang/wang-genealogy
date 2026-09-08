@@ -4,6 +4,7 @@ id: p_6CRYca1n2bF5vXYGQNyBEH
 status: active
 merged_into: null
 display_name: 王賓田
+cbdb_id: 71978
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_7NCMzTjd3GKLRxFrwXNrak
 status: active
 merged_into: null
 display_name: 王令圖
+cbdb_id: 1851
 revision: 1
 properties:
   - predicate: bio.summary

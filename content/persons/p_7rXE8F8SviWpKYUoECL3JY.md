@@ -4,6 +4,7 @@ id: p_7rXE8F8SviWpKYUoECL3JY
 status: active
 merged_into: null
 display_name: 王君寵
+cbdb_id: 325026
 revision: 1
 properties:
   - predicate: bio.summary

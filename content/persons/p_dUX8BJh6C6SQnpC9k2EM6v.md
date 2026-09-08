@@ -4,6 +4,7 @@ id: p_dUX8BJh6C6SQnpC9k2EM6v
 status: active
 merged_into: null
 display_name: 王觥
+cbdb_id: 306630
 revision: 1
 properties:
   - predicate: bio.summary

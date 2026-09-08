@@ -4,6 +4,7 @@ id: p_Fk69JFkThW2Z1eerxMQcHu
 status: active
 merged_into: null
 display_name: 王景祚
+cbdb_id: 69388
 revision: 1
 properties:
   - predicate: bio.summary

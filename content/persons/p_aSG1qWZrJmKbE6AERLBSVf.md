@@ -4,6 +4,7 @@ id: p_aSG1qWZrJmKbE6AERLBSVf
 status: active
 merged_into: null
 display_name: 王念基
+cbdb_id: 414586
 revision: 1
 properties:
   - predicate: bio.summary

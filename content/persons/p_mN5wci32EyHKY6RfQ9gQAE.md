@@ -4,6 +4,7 @@ id: p_mN5wci32EyHKY6RfQ9gQAE
 status: active
 merged_into: null
 display_name: 王彥彬
+cbdb_id: 414512
 revision: 1
 properties:
   - predicate: bio.summary

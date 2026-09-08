@@ -4,6 +4,7 @@ id: p_3uABpPw9KSZVxTXv7YjW5E
 status: active
 merged_into: null
 display_name: 王汝亮
+cbdb_id: 579136
 revision: 1
 properties:
   - predicate: bio.summary

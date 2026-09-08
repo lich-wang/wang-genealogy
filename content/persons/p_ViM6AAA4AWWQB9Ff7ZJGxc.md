@@ -4,6 +4,7 @@ id: p_ViM6AAA4AWWQB9Ff7ZJGxc
 status: active
 merged_into: null
 display_name: 王文謙
+cbdb_id: 514450
 revision: 1
 properties:
   - predicate: bio.summary

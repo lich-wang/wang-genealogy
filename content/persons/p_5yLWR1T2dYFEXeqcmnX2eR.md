@@ -4,6 +4,7 @@ id: p_5yLWR1T2dYFEXeqcmnX2eR
 status: active
 merged_into: null
 display_name: 王肇熊
+cbdb_id: 415305
 revision: 1
 properties:
   - predicate: bio.summary

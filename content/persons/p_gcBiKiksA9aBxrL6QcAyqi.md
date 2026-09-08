@@ -4,6 +4,7 @@ id: p_gcBiKiksA9aBxrL6QcAyqi
 status: active
 merged_into: null
 display_name: 王朝賓
+cbdb_id: 414850
 revision: 1
 properties:
   - predicate: bio.summary

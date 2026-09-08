@@ -4,6 +4,7 @@ id: p_UGaGhPWmvj6EjNvZiQaTd5
 status: active
 merged_into: null
 display_name: 王津祖
+cbdb_id: 519011
 revision: 1
 properties:
   - predicate: bio.summary

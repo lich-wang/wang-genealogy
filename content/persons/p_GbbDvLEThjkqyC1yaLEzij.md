@@ -4,6 +4,7 @@ id: p_GbbDvLEThjkqyC1yaLEzij
 status: active
 merged_into: null
 display_name: 王續宗
+cbdb_id: 292174
 revision: 1
 properties:
   - predicate: bio.summary

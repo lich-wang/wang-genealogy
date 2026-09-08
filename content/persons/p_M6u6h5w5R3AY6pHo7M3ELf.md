@@ -4,6 +4,7 @@ id: p_M6u6h5w5R3AY6pHo7M3ELf
 status: active
 merged_into: null
 display_name: 王与敕
+cbdb_id: 71342
 revision: 2
 properties:
   - predicate: bio.summary

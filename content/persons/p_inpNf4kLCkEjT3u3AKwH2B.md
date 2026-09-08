@@ -4,6 +4,7 @@ id: p_inpNf4kLCkEjT3u3AKwH2B
 status: active
 merged_into: null
 display_name: 王世科
+cbdb_id: 208609
 revision: 1
 properties:
   - predicate: bio.summary

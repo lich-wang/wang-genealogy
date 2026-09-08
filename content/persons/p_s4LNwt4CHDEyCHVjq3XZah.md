@@ -4,6 +4,7 @@ id: p_s4LNwt4CHDEyCHVjq3XZah
 status: active
 merged_into: null
 display_name: 王益子
+cbdb_id: 415157
 revision: 1
 properties:
   - predicate: bio.summary

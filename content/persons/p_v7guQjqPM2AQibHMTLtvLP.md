@@ -4,6 +4,7 @@ id: p_v7guQjqPM2AQibHMTLtvLP
 status: active
 merged_into: null
 display_name: 王賜魁
+cbdb_id: 415451
 revision: 1
 properties:
   - predicate: bio.summary

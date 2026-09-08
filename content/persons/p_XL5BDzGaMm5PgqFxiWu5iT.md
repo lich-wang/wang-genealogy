@@ -4,6 +4,7 @@ id: p_XL5BDzGaMm5PgqFxiWu5iT
 status: active
 merged_into: null
 display_name: 王寶賢
+cbdb_id: 414366
 revision: 1
 properties:
   - predicate: bio.summary

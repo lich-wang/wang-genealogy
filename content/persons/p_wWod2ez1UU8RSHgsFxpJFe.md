@@ -4,6 +4,7 @@ id: p_wWod2ez1UU8RSHgsFxpJFe
 status: active
 merged_into: null
 display_name: 王小衢
+cbdb_id: 185432
 revision: 1
 properties:
   - predicate: bio.summary

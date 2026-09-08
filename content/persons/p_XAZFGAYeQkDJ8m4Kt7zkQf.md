@@ -4,6 +4,7 @@ id: p_XAZFGAYeQkDJ8m4Kt7zkQf
 status: active
 merged_into: null
 display_name: 王宗曜
+cbdb_id: 258050
 revision: 1
 properties:
   - predicate: bio.summary

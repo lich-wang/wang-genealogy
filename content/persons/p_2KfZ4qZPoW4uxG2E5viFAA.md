@@ -4,6 +4,7 @@ id: p_2KfZ4qZPoW4uxG2E5viFAA
 status: active
 merged_into: null
 display_name: 王大劍
+cbdb_id: 141434
 revision: 1
 properties:
   - predicate: bio.summary

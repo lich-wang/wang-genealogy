@@ -4,6 +4,7 @@ id: p_44zGrKGkCCXQ5J2Nv7XZi7
 status: active
 merged_into: null
 display_name: 王宏聲
+cbdb_id: 414297
 revision: 1
 properties:
   - predicate: bio.summary

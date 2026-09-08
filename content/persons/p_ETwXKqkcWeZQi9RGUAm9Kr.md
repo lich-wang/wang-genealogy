@@ -4,6 +4,7 @@ id: p_ETwXKqkcWeZQi9RGUAm9Kr
 status: active
 merged_into: null
 display_name: 王建賔
+cbdb_id: 414499
 revision: 1
 properties:
   - predicate: bio.summary

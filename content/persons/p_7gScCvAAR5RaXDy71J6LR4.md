@@ -4,6 +4,7 @@ id: p_7gScCvAAR5RaXDy71J6LR4
 status: active
 merged_into: null
 display_name: 王奉道
+cbdb_id: 490624
 revision: 1
 properties:
   - predicate: bio.summary

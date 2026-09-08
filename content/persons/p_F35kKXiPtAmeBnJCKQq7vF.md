@@ -4,6 +4,7 @@ id: p_F35kKXiPtAmeBnJCKQq7vF
 status: active
 merged_into: null
 display_name: 王惠真
+cbdb_id: 50840
 revision: 1
 properties:
   - predicate: bio.summary

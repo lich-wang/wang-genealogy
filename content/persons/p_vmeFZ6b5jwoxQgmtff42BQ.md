@@ -4,6 +4,7 @@ id: p_vmeFZ6b5jwoxQgmtff42BQ
 status: active
 merged_into: null
 display_name: 王賓彝
+cbdb_id: 415442
 revision: 1
 properties:
   - predicate: bio.summary

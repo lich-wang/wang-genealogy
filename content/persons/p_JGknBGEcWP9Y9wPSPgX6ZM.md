@@ -4,6 +4,7 @@ id: p_JGknBGEcWP9Y9wPSPgX6ZM
 status: active
 merged_into: null
 display_name: 王昌順
+cbdb_id: 414776
 revision: 1
 properties:
   - predicate: bio.summary

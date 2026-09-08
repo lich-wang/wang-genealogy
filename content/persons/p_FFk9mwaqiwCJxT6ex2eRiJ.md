@@ -4,6 +4,7 @@ id: p_FFk9mwaqiwCJxT6ex2eRiJ
 status: active
 merged_into: null
 display_name: 王文言
+cbdb_id: 59943
 revision: 1
 properties:
   - predicate: bio.summary

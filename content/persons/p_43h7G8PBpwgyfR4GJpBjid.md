@@ -4,6 +4,7 @@ id: p_43h7G8PBpwgyfR4GJpBjid
 status: active
 merged_into: null
 display_name: 王尚友
+cbdb_id: 37671
 revision: 1
 properties:
   - predicate: bio.summary

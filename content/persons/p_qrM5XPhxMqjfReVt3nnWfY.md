@@ -4,6 +4,7 @@ id: p_qrM5XPhxMqjfReVt3nnWfY
 status: active
 merged_into: null
 display_name: 王崇元
+cbdb_id: 518914
 revision: 1
 properties:
   - predicate: bio.summary

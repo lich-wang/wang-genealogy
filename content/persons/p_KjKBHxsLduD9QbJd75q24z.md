@@ -4,6 +4,7 @@ id: p_KjKBHxsLduD9QbJd75q24z
 status: active
 merged_into: null
 display_name: 王政義
+cbdb_id: 342082
 revision: 1
 properties:
   - predicate: bio.summary

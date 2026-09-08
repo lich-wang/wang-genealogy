@@ -4,6 +4,7 @@ id: p_gESx6a66eSbozj4hL42N74
 status: active
 merged_into: null
 display_name: 王壯圖
+cbdb_id: 342292
 revision: 1
 properties:
   - predicate: bio.summary

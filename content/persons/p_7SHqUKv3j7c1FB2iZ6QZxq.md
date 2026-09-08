@@ -4,6 +4,7 @@ id: p_7SHqUKv3j7c1FB2iZ6QZxq
 status: active
 merged_into: null
 display_name: 王繼成
+cbdb_id: 415272
 revision: 1
 properties:
   - predicate: bio.summary

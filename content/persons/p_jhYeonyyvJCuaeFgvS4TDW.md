@@ -4,6 +4,7 @@ id: p_jhYeonyyvJCuaeFgvS4TDW
 status: active
 merged_into: null
 display_name: 王德冑
+cbdb_id: 414556
 revision: 1
 properties:
   - predicate: bio.summary

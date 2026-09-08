@@ -4,6 +4,7 @@ id: p_GUDG44H2W8NPECAf8QhyEe
 status: active
 merged_into: null
 display_name: 王叔璵
+cbdb_id: 101229
 revision: 1
 properties:
   - predicate: bio.summary

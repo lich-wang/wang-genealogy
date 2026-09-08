@@ -4,6 +4,7 @@ id: p_3xJ1dK6TaHCgHnTsK3ECyM
 status: active
 merged_into: null
 display_name: 王成章
+cbdb_id: 414675
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_F6Sje4UgGUofRq4sn2m6V5
 status: active
 merged_into: null
 display_name: 王效賓
+cbdb_id: 414720
 revision: 1
 properties:
   - predicate: bio.summary

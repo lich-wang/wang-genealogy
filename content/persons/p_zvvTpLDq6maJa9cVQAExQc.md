@@ -4,6 +4,7 @@ id: p_zvvTpLDq6maJa9cVQAExQc
 status: active
 merged_into: null
 display_name: 王衡仲
+cbdb_id: 98018
 revision: 1
 properties:
   - predicate: bio.summary

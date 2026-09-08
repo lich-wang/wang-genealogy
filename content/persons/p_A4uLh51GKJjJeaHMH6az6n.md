@@ -4,6 +4,7 @@ id: p_A4uLh51GKJjJeaHMH6az6n
 status: active
 merged_into: null
 display_name: 王永偉
+cbdb_id: 221617
 revision: 1
 properties:
   - predicate: bio.summary

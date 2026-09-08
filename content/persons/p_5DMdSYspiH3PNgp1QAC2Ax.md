@@ -4,6 +4,7 @@ id: p_5DMdSYspiH3PNgp1QAC2Ax
 status: active
 merged_into: null
 display_name: 王存夫
+cbdb_id: 157874
 revision: 1
 properties:
   - predicate: bio.summary

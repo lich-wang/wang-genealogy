@@ -4,6 +4,7 @@ id: p_Ve7cK1TkcHimk5vjDXkoQk
 status: active
 merged_into: null
 display_name: 王欽智
+cbdb_id: 312128
 revision: 1
 properties:
   - predicate: bio.summary

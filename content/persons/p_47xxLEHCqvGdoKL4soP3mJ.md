@@ -4,6 +4,7 @@ id: p_47xxLEHCqvGdoKL4soP3mJ
 status: active
 merged_into: null
 display_name: 王承益
+cbdb_id: 342052
 revision: 1
 properties:
   - predicate: bio.summary

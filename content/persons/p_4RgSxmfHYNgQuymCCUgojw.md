@@ -4,6 +4,7 @@ id: p_4RgSxmfHYNgQuymCCUgojw
 status: active
 merged_into: null
 display_name: 王家治
+cbdb_id: 414346
 revision: 1
 properties:
   - predicate: bio.summary

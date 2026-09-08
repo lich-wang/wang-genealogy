@@ -4,6 +4,7 @@ id: p_PdRkzyCE8dbVGJM6pbU2vZ
 status: active
 merged_into: null
 display_name: 王涔
+cbdb_id: 21997
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_ocEUJejrzovHV828rb9Dmu
 status: active
 merged_into: null
 display_name: 王保建
+cbdb_id: 71890
 revision: 1
 properties:
   - predicate: bio.summary

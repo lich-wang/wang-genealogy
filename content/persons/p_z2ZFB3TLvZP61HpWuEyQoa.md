@@ -4,6 +4,7 @@ id: p_z2ZFB3TLvZP61HpWuEyQoa
 status: active
 merged_into: null
 display_name: 王十三娘
+cbdb_id: 154992
 revision: 1
 properties:
   - predicate: bio.summary

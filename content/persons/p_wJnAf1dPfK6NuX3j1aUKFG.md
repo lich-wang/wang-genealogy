@@ -4,6 +4,7 @@ id: p_wJnAf1dPfK6NuX3j1aUKFG
 status: active
 merged_into: null
 display_name: 王宪武
+cbdb_id: 333593
 revision: 2
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_C92FkFgepDESC2MLabMgSC
 status: active
 merged_into: null
 display_name: 王克弘
+cbdb_id: 522258
 revision: 1
 properties:
   - predicate: bio.summary

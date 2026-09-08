@@ -4,6 +4,7 @@ id: p_NhTEbSVmYgtCzpciTRQqHZ
 status: active
 merged_into: null
 display_name: 王昭懿
+cbdb_id: 21982
 revision: 1
 properties:
   - predicate: bio.summary

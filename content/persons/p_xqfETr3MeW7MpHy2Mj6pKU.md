@@ -4,6 +4,7 @@ id: p_xqfETr3MeW7MpHy2Mj6pKU
 status: active
 merged_into: null
 display_name: 王宏遠
+cbdb_id: 494217
 revision: 1
 properties:
   - predicate: bio.summary

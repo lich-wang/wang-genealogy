@@ -4,6 +4,7 @@ id: p_ZyaaYf2z2zkCQrW5x8CknM
 status: active
 merged_into: null
 display_name: 王太岳
+cbdb_id: 57809
 revision: 1
 properties:
   - predicate: bio.summary

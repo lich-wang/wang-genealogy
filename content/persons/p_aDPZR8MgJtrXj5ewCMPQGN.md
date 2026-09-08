@@ -4,6 +4,7 @@ id: p_aDPZR8MgJtrXj5ewCMPQGN
 status: active
 merged_into: null
 display_name: 王克諧
+cbdb_id: 413959
 revision: 1
 properties:
   - predicate: bio.summary

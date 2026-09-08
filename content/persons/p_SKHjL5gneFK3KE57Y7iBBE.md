@@ -4,6 +4,7 @@ id: p_SKHjL5gneFK3KE57Y7iBBE
 status: active
 merged_into: null
 display_name: 王擇友
+cbdb_id: 37151
 revision: 1
 properties:
   - predicate: bio.summary

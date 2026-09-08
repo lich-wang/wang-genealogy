@@ -4,6 +4,7 @@ id: p_AKau3YGD2fLhQfpC89d2EM
 status: active
 merged_into: null
 display_name: 王金耀
+cbdb_id: 415531
 revision: 1
 properties:
   - predicate: bio.summary

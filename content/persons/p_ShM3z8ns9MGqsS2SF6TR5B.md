@@ -4,6 +4,7 @@ id: p_ShM3z8ns9MGqsS2SF6TR5B
 status: active
 merged_into: null
 display_name: 王時阜
+cbdb_id: 288160
 revision: 1
 properties:
   - predicate: bio.summary

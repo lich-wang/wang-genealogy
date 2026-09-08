@@ -4,6 +4,7 @@ id: p_D2gWNUt9uxgcP7sr6nNjBM
 status: active
 merged_into: null
 display_name: 王復政
+cbdb_id: 256274
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_Lk3Gn9ALaZHqp7zimCMvsj
 status: active
 merged_into: null
 display_name: 王耀龍
+cbdb_id: 123613
 revision: 1
 properties:
   - predicate: bio.summary

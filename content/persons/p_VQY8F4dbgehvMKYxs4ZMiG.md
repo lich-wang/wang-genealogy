@@ -4,6 +4,7 @@ id: p_VQY8F4dbgehvMKYxs4ZMiG
 status: active
 merged_into: null
 display_name: 王仲丘
+cbdb_id: 152427
 revision: 1
 properties:
   - predicate: bio.summary

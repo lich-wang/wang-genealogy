@@ -4,6 +4,7 @@ id: p_5tNoFj5nAYdu1BPKer5LA3
 status: active
 merged_into: null
 display_name: 王廣兼
+cbdb_id: 414440
 revision: 1
 properties:
   - predicate: bio.summary

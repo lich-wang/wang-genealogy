@@ -4,6 +4,7 @@ id: p_WvKfEJB5FudMr9CF2R37Ax
 status: active
 merged_into: null
 display_name: 王尔达
+cbdb_id: 29897
 revision: 2
 properties:
   - predicate: bio.summary

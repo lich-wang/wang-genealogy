@@ -4,6 +4,7 @@ id: p_KZhSYUNpqY24QscbSq6FRQ
 status: active
 merged_into: null
 display_name: 王光勳
+cbdb_id: 413935
 revision: 1
 properties:
   - predicate: bio.summary

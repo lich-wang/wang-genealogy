@@ -4,6 +4,7 @@ id: p_gsGeFvLHdHM7GEK4UUZnr7
 status: active
 merged_into: null
 display_name: 王柏心
+cbdb_id: 35057
 revision: 1
 properties:
   - predicate: bio.summary

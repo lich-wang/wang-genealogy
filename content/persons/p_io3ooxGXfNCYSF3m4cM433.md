@@ -4,6 +4,7 @@ id: p_io3ooxGXfNCYSF3m4cM433
 status: active
 merged_into: null
 display_name: 王宗敏
+cbdb_id: 307077
 revision: 1
 properties:
   - predicate: bio.summary

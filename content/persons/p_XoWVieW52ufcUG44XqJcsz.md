@@ -4,6 +4,7 @@ id: p_XoWVieW52ufcUG44XqJcsz
 status: active
 merged_into: null
 display_name: 王持國
+cbdb_id: 450800
 revision: 1
 properties:
   - predicate: bio.summary

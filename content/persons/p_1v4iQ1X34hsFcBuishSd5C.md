@@ -4,6 +4,7 @@ id: p_1v4iQ1X34hsFcBuishSd5C
 status: active
 merged_into: null
 display_name: 王素雯
+cbdb_id: 54836
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_guCTzDXrYoKmeJ925cN91P
 status: active
 merged_into: null
 display_name: 王從泰
+cbdb_id: 159087
 revision: 1
 properties:
   - predicate: bio.summary

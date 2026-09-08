@@ -4,6 +4,7 @@ id: p_dS59cmg2f2cMGWXSKD371d
 status: active
 merged_into: null
 display_name: 王翊元
+cbdb_id: 146205
 revision: 1
 properties:
   - predicate: bio.summary

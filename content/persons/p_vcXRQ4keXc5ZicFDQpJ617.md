@@ -4,6 +4,7 @@ id: p_vcXRQ4keXc5ZicFDQpJ617
 status: active
 merged_into: null
 display_name: 王迺容
+cbdb_id: 54083
 revision: 1
 properties:
   - predicate: bio.summary

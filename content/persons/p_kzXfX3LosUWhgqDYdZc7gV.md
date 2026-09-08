@@ -4,6 +4,7 @@ id: p_kzXfX3LosUWhgqDYdZc7gV
 status: active
 merged_into: null
 display_name: 王恩衍
+cbdb_id: 343467
 revision: 1
 properties:
   - predicate: bio.summary

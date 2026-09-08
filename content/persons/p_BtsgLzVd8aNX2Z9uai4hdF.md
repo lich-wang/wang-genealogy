@@ -4,6 +4,7 @@ id: p_BtsgLzVd8aNX2Z9uai4hdF
 status: active
 merged_into: null
 display_name: 王鄰臣
+cbdb_id: 21799
 revision: 1
 properties:
   - predicate: bio.summary

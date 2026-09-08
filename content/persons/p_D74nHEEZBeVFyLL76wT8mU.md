@@ -4,6 +4,7 @@ id: p_D74nHEEZBeVFyLL76wT8mU
 status: active
 merged_into: null
 display_name: 王家光
+cbdb_id: 69284
 revision: 1
 properties:
   - predicate: bio.summary

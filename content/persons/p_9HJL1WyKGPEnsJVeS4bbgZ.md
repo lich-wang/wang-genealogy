@@ -4,6 +4,7 @@ id: p_9HJL1WyKGPEnsJVeS4bbgZ
 status: active
 merged_into: null
 display_name: 王如某
+cbdb_id: 414228
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_yo6HEdGrwRzSRMfLW2tNjr
 status: active
 merged_into: null
 display_name: 王髙
+cbdb_id: 415625
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_DPHwJWGwR2i9E42JHdhDTg
 status: active
 merged_into: null
 display_name: 王一忠
+cbdb_id: 413671
 revision: 1
 properties:
   - predicate: bio.summary

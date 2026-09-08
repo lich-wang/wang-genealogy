@@ -4,6 +4,7 @@ id: p_1Ry1wmyDQ91Bp8qFnmCBNf
 status: active
 merged_into: null
 display_name: 王兆英
+cbdb_id: 413927
 revision: 1
 properties:
   - predicate: bio.summary

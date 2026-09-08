@@ -4,6 +4,7 @@ id: p_s8oEuGSh1iMMSs3R71XwXy
 status: active
 merged_into: null
 display_name: 王弘太
+cbdb_id: 160794
 revision: 1
 properties:
   - predicate: bio.summary

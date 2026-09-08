@@ -4,6 +4,7 @@ id: p_Ada1sjGMt787T793a6Ee7H
 status: active
 merged_into: null
 display_name: 王君慶
+cbdb_id: 168103
 revision: 1
 properties:
   - predicate: bio.summary

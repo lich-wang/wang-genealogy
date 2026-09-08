@@ -4,6 +4,7 @@ id: p_QqduQ4bBt2W7EX3AgTxcR6
 status: active
 merged_into: null
 display_name: 王忠嗣
+cbdb_id: 32662
 revision: 1
 properties:
   - predicate: bio.summary

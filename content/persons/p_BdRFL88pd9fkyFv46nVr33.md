@@ -4,6 +4,7 @@ id: p_BdRFL88pd9fkyFv46nVr33
 status: active
 merged_into: null
 display_name: 王起峩
+cbdb_id: 343292
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_gFwBHF9Ka4CkfJcu6TEQy4
 status: active
 merged_into: null
 display_name: 王子覺
+cbdb_id: 134164
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_b5sCnEynEg8hf3tXrLTDrR
 status: active
 merged_into: null
 display_name: 王駕
+cbdb_id: 92050
 revision: 1
 properties:
   - predicate: bio.summary

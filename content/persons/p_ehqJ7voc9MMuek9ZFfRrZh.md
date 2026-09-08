@@ -4,6 +4,7 @@ id: p_ehqJ7voc9MMuek9ZFfRrZh
 status: active
 merged_into: null
 display_name: 王橫
+cbdb_id: 35385
 revision: 1
 properties:
   - predicate: bio.summary

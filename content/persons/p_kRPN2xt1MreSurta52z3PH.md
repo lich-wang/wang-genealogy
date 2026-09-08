@@ -4,6 +4,7 @@ id: p_kRPN2xt1MreSurta52z3PH
 status: active
 merged_into: null
 display_name: 王誠立
+cbdb_id: 526715
 revision: 2
 properties:
   - predicate: bio.summary

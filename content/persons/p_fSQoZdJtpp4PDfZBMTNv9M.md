@@ -4,6 +4,7 @@ id: p_fSQoZdJtpp4PDfZBMTNv9M
 status: active
 merged_into: null
 display_name: 王民悅
+cbdb_id: 210123
 revision: 1
 properties:
   - predicate: bio.summary

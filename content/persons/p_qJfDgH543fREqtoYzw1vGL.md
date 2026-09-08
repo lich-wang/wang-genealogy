@@ -4,6 +4,7 @@ id: p_qJfDgH543fREqtoYzw1vGL
 status: active
 merged_into: null
 display_name: 王才鼎
+cbdb_id: 342959
 revision: 1
 properties:
   - predicate: bio.summary

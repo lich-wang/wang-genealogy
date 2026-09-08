@@ -4,6 +4,7 @@ id: p_797Nfwx1qA2gNTU2uaGRpc
 status: active
 merged_into: null
 display_name: 王昌裔
+cbdb_id: 175436
 revision: 1
 properties:
   - predicate: bio.summary

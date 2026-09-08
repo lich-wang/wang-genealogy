@@ -4,6 +4,7 @@ id: p_eY8EfR1RNk6RwbouvBQCRd
 status: active
 merged_into: null
 display_name: 王承宗
+cbdb_id: 169026
 revision: 2
 properties:
   - predicate: bio.summary

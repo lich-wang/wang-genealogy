@@ -4,6 +4,7 @@ id: p_HwzFLqxbVsRUv4XG7D989R
 status: active
 merged_into: null
 display_name: 王賢本
+cbdb_id: 148879
 revision: 1
 properties:
   - predicate: bio.summary

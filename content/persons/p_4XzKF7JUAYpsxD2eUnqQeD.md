@@ -4,6 +4,7 @@ id: p_4XzKF7JUAYpsxD2eUnqQeD
 status: active
 merged_into: null
 display_name: 王承乾
+cbdb_id: 414682
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_DGUd8ZLCHnTj9z5r8CrKp3
 status: active
 merged_into: null
 display_name: 王時柏
+cbdb_id: 308745
 revision: 1
 properties:
   - predicate: bio.summary

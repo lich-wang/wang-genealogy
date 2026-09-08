@@ -4,6 +4,7 @@ id: p_pJDeBq695chcX76VyN4BEP
 status: active
 merged_into: null
 display_name: 王麟孫
+cbdb_id: 415654
 revision: 1
 properties:
   - predicate: bio.summary

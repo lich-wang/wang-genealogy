@@ -4,6 +4,7 @@ id: p_2jLF8Z5zHXYNSfB95H7d2Z
 status: active
 merged_into: null
 display_name: 王義瓚
+cbdb_id: 170220
 revision: 1
 properties:
   - predicate: bio.summary

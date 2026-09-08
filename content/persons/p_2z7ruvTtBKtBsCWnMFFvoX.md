@@ -4,6 +4,7 @@ id: p_2z7ruvTtBKtBsCWnMFFvoX
 status: active
 merged_into: null
 display_name: 王發第
+cbdb_id: 415150
 revision: 1
 properties:
   - predicate: bio.summary

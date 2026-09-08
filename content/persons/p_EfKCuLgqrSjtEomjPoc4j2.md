@@ -4,6 +4,7 @@ id: p_EfKCuLgqrSjtEomjPoc4j2
 status: active
 merged_into: null
 display_name: 王知蕴
+cbdb_id: 145209
 revision: 1
 properties:
   - predicate: bio.summary

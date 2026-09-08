@@ -4,6 +4,7 @@ id: p_sXjzq1eE3XnKjFre3JXwb9
 status: active
 merged_into: null
 display_name: 王法祖
+cbdb_id: 334092
 revision: 1
 properties:
   - predicate: bio.summary

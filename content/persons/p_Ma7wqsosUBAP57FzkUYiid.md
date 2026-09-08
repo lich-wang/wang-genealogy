@@ -4,6 +4,7 @@ id: p_Ma7wqsosUBAP57FzkUYiid
 status: active
 merged_into: null
 display_name: 王天壽
+cbdb_id: 284128
 revision: 1
 properties:
   - predicate: bio.summary

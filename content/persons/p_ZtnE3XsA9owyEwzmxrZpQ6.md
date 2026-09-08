@@ -4,6 +4,7 @@ id: p_ZtnE3XsA9owyEwzmxrZpQ6
 status: active
 merged_into: null
 display_name: 王履吉
+cbdb_id: 414391
 revision: 1
 properties:
   - predicate: bio.summary

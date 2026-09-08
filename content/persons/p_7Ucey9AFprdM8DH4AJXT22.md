@@ -4,6 +4,7 @@ id: p_7Ucey9AFprdM8DH4AJXT22
 status: active
 merged_into: null
 display_name: 王令宾
+cbdb_id: 175639
 revision: 1
 properties:
   - predicate: bio.summary

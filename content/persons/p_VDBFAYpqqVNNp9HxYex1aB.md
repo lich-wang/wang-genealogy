@@ -4,6 +4,7 @@ id: p_VDBFAYpqqVNNp9HxYex1aB
 status: active
 merged_into: null
 display_name: 王應薦
+cbdb_id: 221581
 revision: 1
 properties:
   - predicate: bio.summary

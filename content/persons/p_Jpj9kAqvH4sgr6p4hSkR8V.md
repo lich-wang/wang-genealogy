@@ -4,6 +4,7 @@ id: p_Jpj9kAqvH4sgr6p4hSkR8V
 status: active
 merged_into: null
 display_name: 王聯鳳
+cbdb_id: 415299
 revision: 1
 properties:
   - predicate: bio.summary

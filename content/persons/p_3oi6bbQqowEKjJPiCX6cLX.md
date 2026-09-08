@@ -4,6 +4,7 @@ id: p_3oi6bbQqowEKjJPiCX6cLX
 status: active
 merged_into: null
 display_name: 王寅弼
+cbdb_id: 342615
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_sryFq4VzDKxzGahi6cTMsS
 status: active
 merged_into: null
 display_name: 王辰應
+cbdb_id: 25189
 revision: 1
 properties:
   - predicate: bio.summary

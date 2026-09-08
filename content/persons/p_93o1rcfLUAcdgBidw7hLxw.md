@@ -4,6 +4,7 @@ id: p_93o1rcfLUAcdgBidw7hLxw
 status: active
 merged_into: null
 display_name: 王應祚
+cbdb_id: 101448
 revision: 1
 properties:
   - predicate: bio.summary

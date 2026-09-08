@@ -4,6 +4,7 @@ id: p_jrFb4yQjkQLdP7qmfe1ms1
 status: active
 merged_into: null
 display_name: 王觀潮
+cbdb_id: 415406
 revision: 1
 properties:
   - predicate: bio.summary

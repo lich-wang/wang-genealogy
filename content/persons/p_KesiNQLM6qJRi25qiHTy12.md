@@ -4,6 +4,7 @@ id: p_KesiNQLM6qJRi25qiHTy12
 status: active
 merged_into: null
 display_name: 王命新
+cbdb_id: 207714
 revision: 1
 properties:
   - predicate: bio.summary

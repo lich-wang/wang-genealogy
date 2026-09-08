@@ -4,6 +4,7 @@ id: p_ZcRRyhD22BUEiphuDVMUAC
 status: active
 merged_into: null
 display_name: 王鄭
+cbdb_id: 154231
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_kTGoBXvcTPqYHs94H6Wbm9
 status: active
 merged_into: null
 display_name: 王作楨
+cbdb_id: 124337
 revision: 1
 properties:
   - predicate: bio.summary

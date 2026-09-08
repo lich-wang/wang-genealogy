@@ -4,6 +4,7 @@ id: p_fiiwFR3xeBFjHFG9YJLGzC
 status: active
 merged_into: null
 display_name: 王廷華
+cbdb_id: 71556
 revision: 1
 properties:
   - predicate: bio.summary

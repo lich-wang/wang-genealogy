@@ -4,6 +4,7 @@ id: p_nd9XECB6vnPr5Ug79w22q6
 status: active
 merged_into: null
 display_name: 王光鸞
+cbdb_id: 523020
 revision: 1
 properties:
   - predicate: bio.summary

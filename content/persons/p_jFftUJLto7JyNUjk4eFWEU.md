@@ -4,6 +4,7 @@ id: p_jFftUJLto7JyNUjk4eFWEU
 status: active
 merged_into: null
 display_name: 王承泰
+cbdb_id: 191754
 revision: 2
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_Yg8ebgjyFaVh8pfoaiwPw4
 status: active
 merged_into: null
 display_name: 王斗明
+cbdb_id: 414755
 revision: 1
 properties:
   - predicate: bio.summary

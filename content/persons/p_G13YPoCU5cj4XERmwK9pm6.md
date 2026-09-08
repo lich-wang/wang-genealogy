@@ -4,6 +4,7 @@ id: p_G13YPoCU5cj4XERmwK9pm6
 status: active
 merged_into: null
 display_name: 王溥
+cbdb_id: 175591
 revision: 1
 properties:
   - predicate: bio.summary

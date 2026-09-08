@@ -4,6 +4,7 @@ id: p_7AQrojYvNG7ubK7WAdcSJY
 status: active
 merged_into: null
 display_name: 王所諮
+cbdb_id: 343582
 revision: 1
 properties:
   - predicate: bio.summary

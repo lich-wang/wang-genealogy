@@ -4,6 +4,7 @@ id: p_NqLGmwkofxHe31JjXAzJut
 status: active
 merged_into: null
 display_name: 王巧兒
+cbdb_id: 101125
 revision: 1
 properties:
   - predicate: bio.summary

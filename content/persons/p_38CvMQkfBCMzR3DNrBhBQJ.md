@@ -4,6 +4,7 @@ id: p_38CvMQkfBCMzR3DNrBhBQJ
 status: active
 merged_into: null
 display_name: 王世懋
+cbdb_id: 34719
 revision: 1
 properties:
   - predicate: bio.summary

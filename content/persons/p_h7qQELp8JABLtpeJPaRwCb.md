@@ -4,6 +4,7 @@ id: p_h7qQELp8JABLtpeJPaRwCb
 status: active
 merged_into: null
 display_name: 王懷吉
+cbdb_id: 38381
 revision: 1
 properties:
   - predicate: bio.summary

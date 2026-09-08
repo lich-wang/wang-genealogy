@@ -4,6 +4,7 @@ id: p_SZqFyuHgTbEzikkLw7DQbY
 status: active
 merged_into: null
 display_name: 王蔓滎
+cbdb_id: 415376
 revision: 1
 properties:
   - predicate: bio.summary

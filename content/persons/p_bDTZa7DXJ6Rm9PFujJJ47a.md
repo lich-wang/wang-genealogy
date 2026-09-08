@@ -4,6 +4,7 @@ id: p_bDTZa7DXJ6Rm9PFujJJ47a
 status: active
 merged_into: null
 display_name: 王廷第
+cbdb_id: 325998
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_aHa5vswPi3psrWGH2Gk1F9
 status: active
 merged_into: null
 display_name: 王肇銘
+cbdb_id: 572629
 revision: 1
 properties:
   - predicate: bio.summary

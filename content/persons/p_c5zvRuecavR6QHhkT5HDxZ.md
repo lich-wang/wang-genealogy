@@ -4,6 +4,7 @@ id: p_c5zvRuecavR6QHhkT5HDxZ
 status: active
 merged_into: null
 display_name: 王肇慶
+cbdb_id: 61081
 revision: 1
 properties:
   - predicate: bio.summary

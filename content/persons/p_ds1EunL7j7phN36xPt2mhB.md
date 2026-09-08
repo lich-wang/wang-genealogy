@@ -4,6 +4,7 @@ id: p_ds1EunL7j7phN36xPt2mhB
 status: active
 merged_into: null
 display_name: 王世武
+cbdb_id: 276005
 revision: 1
 properties:
   - predicate: bio.summary

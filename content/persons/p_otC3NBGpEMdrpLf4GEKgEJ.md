@@ -4,6 +4,7 @@ id: p_otC3NBGpEMdrpLf4GEKgEJ
 status: active
 merged_into: null
 display_name: 王允實
+cbdb_id: 159086
 revision: 1
 properties:
   - predicate: bio.summary

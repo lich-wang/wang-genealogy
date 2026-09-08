@@ -4,6 +4,7 @@ id: p_JBDFbWst1DyuG8uE7cRaPU
 status: active
 merged_into: null
 display_name: 王初集
+cbdb_id: 413985
 revision: 1
 properties:
   - predicate: bio.summary

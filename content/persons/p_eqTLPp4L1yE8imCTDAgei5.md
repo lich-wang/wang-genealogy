@@ -4,6 +4,7 @@ id: p_eqTLPp4L1yE8imCTDAgei5
 status: active
 merged_into: null
 display_name: 王英進
+cbdb_id: 158748
 revision: 1
 properties:
   - predicate: bio.summary

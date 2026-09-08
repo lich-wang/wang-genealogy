@@ -4,6 +4,7 @@ id: p_zDX5ZyHAt485hvn1mPFa5J
 status: active
 merged_into: null
 display_name: 王國冀
+cbdb_id: 414113
 revision: 1
 properties:
   - predicate: bio.summary

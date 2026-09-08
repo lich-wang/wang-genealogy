@@ -4,6 +4,7 @@ id: p_VTD6HQfBtR8o5G3fAEbd8w
 status: active
 merged_into: null
 display_name: 王同遊
+cbdb_id: 321413
 revision: 1
 properties:
   - predicate: bio.summary

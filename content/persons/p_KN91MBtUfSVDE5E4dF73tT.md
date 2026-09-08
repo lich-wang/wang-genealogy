@@ -4,6 +4,7 @@ id: p_KN91MBtUfSVDE5E4dF73tT
 status: active
 merged_into: null
 display_name: 王一居
+cbdb_id: 67106
 revision: 1
 properties:
   - predicate: bio.summary

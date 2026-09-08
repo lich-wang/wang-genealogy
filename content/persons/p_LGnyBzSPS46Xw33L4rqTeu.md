@@ -4,6 +4,7 @@ id: p_LGnyBzSPS46Xw33L4rqTeu
 status: active
 merged_into: null
 display_name: 王啟睿
+cbdb_id: 414085
 revision: 1
 properties:
   - predicate: bio.summary

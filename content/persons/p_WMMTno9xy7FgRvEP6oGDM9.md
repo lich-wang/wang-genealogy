@@ -4,6 +4,7 @@ id: p_WMMTno9xy7FgRvEP6oGDM9
 status: active
 merged_into: null
 display_name: 王式烈
+cbdb_id: 71522
 revision: 1
 properties:
   - predicate: bio.summary

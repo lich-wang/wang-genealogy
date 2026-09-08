@@ -4,6 +4,7 @@ id: p_t72HWLpmLRw3PZCKzb25Hu
 status: active
 merged_into: null
 display_name: 王肇齊
+cbdb_id: 415307
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_FJCeSj1CQr4weUDVdcpP42
 status: active
 merged_into: null
 display_name: 王循甫
+cbdb_id: 414545
 revision: 1
 properties:
   - predicate: bio.summary

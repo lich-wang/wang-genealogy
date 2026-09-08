@@ -4,6 +4,7 @@ id: p_b8xHgbT88TtbY1e6ywd1W6
 status: active
 merged_into: null
 display_name: 王開福
+cbdb_id: 415571
 revision: 1
 properties:
   - predicate: bio.summary

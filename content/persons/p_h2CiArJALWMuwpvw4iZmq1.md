@@ -4,6 +4,7 @@ id: p_h2CiArJALWMuwpvw4iZmq1
 status: active
 merged_into: null
 display_name: 王前光
+cbdb_id: 308157
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_xGfDhmKCEvrK69xjukGpvw
 status: active
 merged_into: null
 display_name: 王谷
+cbdb_id: 36881
 revision: 1
 properties:
   - predicate: bio.summary

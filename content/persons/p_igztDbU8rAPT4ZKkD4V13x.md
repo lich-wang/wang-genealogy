@@ -4,6 +4,7 @@ id: p_igztDbU8rAPT4ZKkD4V13x
 status: active
 merged_into: null
 display_name: 王謙夫
+cbdb_id: 22931
 revision: 1
 properties:
   - predicate: bio.summary

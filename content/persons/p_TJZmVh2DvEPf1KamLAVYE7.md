@@ -4,6 +4,7 @@ id: p_TJZmVh2DvEPf1KamLAVYE7
 status: active
 merged_into: null
 display_name: 王二雅
+cbdb_id: 330488
 revision: 1
 properties:
   - predicate: bio.summary

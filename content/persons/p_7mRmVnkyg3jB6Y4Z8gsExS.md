@@ -4,6 +4,7 @@ id: p_7mRmVnkyg3jB6Y4Z8gsExS
 status: active
 merged_into: null
 display_name: 王五娘
+cbdb_id: 167694
 revision: 1
 properties:
   - predicate: bio.summary

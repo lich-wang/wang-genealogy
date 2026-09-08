@@ -4,6 +4,7 @@ id: p_LvEkX5XrjM8SRGb4HxWdgi
 status: active
 merged_into: null
 display_name: 王舉直
+cbdb_id: 38343
 revision: 1
 properties:
   - predicate: bio.summary

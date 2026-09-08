@@ -4,6 +4,7 @@ id: p_xq2eGGMB7xfyvwy6WzeF8J
 status: active
 merged_into: null
 display_name: 王臣縉
+cbdb_id: 343576
 revision: 1
 properties:
   - predicate: bio.summary

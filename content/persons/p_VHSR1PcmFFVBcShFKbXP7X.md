@@ -4,6 +4,7 @@ id: p_VHSR1PcmFFVBcShFKbXP7X
 status: active
 merged_into: null
 display_name: 王其賢
+cbdb_id: 37692
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_k85eqktcPRVs542G1NLDAc
 status: active
 merged_into: null
 display_name: 王霖澍
+cbdb_id: 341858
 revision: 1
 properties:
   - predicate: bio.summary

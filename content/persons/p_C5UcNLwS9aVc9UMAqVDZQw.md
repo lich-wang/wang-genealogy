@@ -4,6 +4,7 @@ id: p_C5UcNLwS9aVc9UMAqVDZQw
 status: active
 merged_into: null
 display_name: 王長銳
+cbdb_id: 22018
 revision: 1
 properties:
   - predicate: bio.summary

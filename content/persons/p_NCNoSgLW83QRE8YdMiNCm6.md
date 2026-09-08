@@ -4,6 +4,7 @@ id: p_NCNoSgLW83QRE8YdMiNCm6
 status: active
 merged_into: null
 display_name: 王化南
+cbdb_id: 342287
 revision: 1
 properties:
   - predicate: bio.summary

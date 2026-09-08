@@ -4,6 +4,7 @@ id: p_D3kBgnEA4q7V4ffzusSRM4
 status: active
 merged_into: null
 display_name: 王蘭桂
+cbdb_id: 415378
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_DHA1F9BzASj45vF1L6vJuD
 status: active
 merged_into: null
 display_name: 王伯勉
+cbdb_id: 69223
 revision: 1
 properties:
   - predicate: bio.summary

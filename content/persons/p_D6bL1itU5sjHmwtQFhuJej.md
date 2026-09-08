@@ -4,6 +4,7 @@ id: p_D6bL1itU5sjHmwtQFhuJej
 status: active
 merged_into: null
 display_name: 王上元
+cbdb_id: 413695
 revision: 1
 properties:
   - predicate: bio.summary

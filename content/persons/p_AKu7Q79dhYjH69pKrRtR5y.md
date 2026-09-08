@@ -4,6 +4,7 @@ id: p_AKu7Q79dhYjH69pKrRtR5y
 status: active
 merged_into: null
 display_name: 王之翰
+cbdb_id: 217735
 revision: 2
 properties:
   - predicate: bio.summary

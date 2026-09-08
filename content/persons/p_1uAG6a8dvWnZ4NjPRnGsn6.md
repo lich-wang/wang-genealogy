@@ -4,6 +4,7 @@ id: p_1uAG6a8dvWnZ4NjPRnGsn6
 status: active
 merged_into: null
 display_name: 王實一
+cbdb_id: 271030
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_PV1N9AJ49Net787Bq8MWNN
 status: active
 merged_into: null
 display_name: 王高
+cbdb_id: 175510
 revision: 1
 properties:
   - predicate: bio.summary

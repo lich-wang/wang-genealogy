@@ -4,6 +4,7 @@ id: p_RhrZdmtEvG4GBHsk9vJB6R
 status: active
 merged_into: null
 display_name: 王述之
+cbdb_id: 415477
 revision: 1
 properties:
   - predicate: bio.summary

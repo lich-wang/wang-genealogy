@@ -4,6 +4,7 @@ id: p_dyB4AcJo45o8QK4CH5LKAB
 status: active
 merged_into: null
 display_name: 王建子
+cbdb_id: 175402
 revision: 1
 properties:
   - predicate: bio.summary

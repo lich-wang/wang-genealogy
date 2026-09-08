@@ -4,6 +4,7 @@ id: p_ExaepAMt3B3riVMSGXxsEJ
 status: active
 merged_into: null
 display_name: 王聯
+cbdb_id: 341890
 revision: 1
 properties:
   - predicate: bio.summary

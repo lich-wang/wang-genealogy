@@ -4,6 +4,7 @@ id: p_FSzR4TPvZM32tNBYFYZnFD
 status: active
 merged_into: null
 display_name: 王選侍
+cbdb_id: 525260
 revision: 1
 properties:
   - predicate: bio.summary

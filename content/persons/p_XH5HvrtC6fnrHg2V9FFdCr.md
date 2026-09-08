@@ -4,6 +4,7 @@ id: p_XH5HvrtC6fnrHg2V9FFdCr
 status: active
 merged_into: null
 display_name: 王魯復
+cbdb_id: 92094
 revision: 1
 properties:
   - predicate: bio.summary

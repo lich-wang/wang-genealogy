@@ -4,6 +4,7 @@ id: p_BqvmZ5X4GCP6wUqCtVSwcN
 status: active
 merged_into: null
 display_name: 王桂芬
+cbdb_id: 519949
 revision: 1
 properties:
   - predicate: bio.summary

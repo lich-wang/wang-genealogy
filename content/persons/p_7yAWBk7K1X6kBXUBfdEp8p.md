@@ -4,6 +4,7 @@ id: p_7yAWBk7K1X6kBXUBfdEp8p
 status: active
 merged_into: null
 display_name: 王來彝
+cbdb_id: 413868
 revision: 1
 properties:
   - predicate: bio.summary

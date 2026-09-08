@@ -4,6 +4,7 @@ id: p_x8WnBg8TwCB8zhG8ci3DCA
 status: active
 merged_into: null
 display_name: 王錦文
+cbdb_id: 67758
 revision: 1
 properties:
   - predicate: bio.summary

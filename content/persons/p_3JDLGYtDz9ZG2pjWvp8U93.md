@@ -4,6 +4,7 @@ id: p_3JDLGYtDz9ZG2pjWvp8U93
 status: active
 merged_into: null
 display_name: 王復旦
+cbdb_id: 342458
 revision: 1
 properties:
   - predicate: bio.summary

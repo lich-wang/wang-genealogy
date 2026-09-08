@@ -4,6 +4,7 @@ id: p_m3ZaszmXMYNEpqJBcUTT1L
 status: active
 merged_into: null
 display_name: 蔡卞
+cbdb_id: 8131
 revision: 1
 properties:
   - predicate: bio.summary

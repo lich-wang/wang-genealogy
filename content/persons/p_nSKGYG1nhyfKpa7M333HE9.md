@@ -4,6 +4,7 @@ id: p_nSKGYG1nhyfKpa7M333HE9
 status: active
 merged_into: null
 display_name: 王慶淵
+cbdb_id: 117606
 revision: 1
 properties:
   - predicate: bio.summary

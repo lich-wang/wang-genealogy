@@ -4,6 +4,7 @@ id: p_8bGr4jFTQLKJiLViGa22Vs
 status: active
 merged_into: null
 display_name: 王應可
+cbdb_id: 414635
 revision: 1
 properties:
   - predicate: bio.summary

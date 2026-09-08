@@ -4,6 +4,7 @@ id: p_Ys65mYTEgMHoCKTKksv9NP
 status: active
 merged_into: null
 display_name: 王振孫
+cbdb_id: 28736
 revision: 1
 properties:
   - predicate: bio.summary

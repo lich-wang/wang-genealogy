@@ -4,6 +4,7 @@ id: p_yhpnegRFzja3V59LzDFfMQ
 status: active
 merged_into: null
 display_name: 王福保
+cbdb_id: 342654
 revision: 1
 properties:
   - predicate: bio.summary

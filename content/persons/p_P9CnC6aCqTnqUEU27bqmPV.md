@@ -4,6 +4,7 @@ id: p_P9CnC6aCqTnqUEU27bqmPV
 status: active
 merged_into: null
 display_name: 王起文
+cbdb_id: 415461
 revision: 1
 properties:
   - predicate: bio.summary

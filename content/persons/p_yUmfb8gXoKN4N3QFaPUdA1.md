@@ -4,6 +4,7 @@ id: p_yUmfb8gXoKN4N3QFaPUdA1
 status: active
 merged_into: null
 display_name: 王顯謨
+cbdb_id: 71869
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_UCuWmdu88wkXMEGK9geKmL
 status: active
 merged_into: null
 display_name: 王象蒙
+cbdb_id: 206595
 revision: 2
 properties:
   - predicate: bio.summary

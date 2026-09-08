@@ -4,6 +4,7 @@ id: p_r8jMTz5d8EtW5WnsB75BCx
 status: active
 merged_into: null
 display_name: 王景齊
+cbdb_id: 22146
 revision: 1
 properties:
   - predicate: bio.summary

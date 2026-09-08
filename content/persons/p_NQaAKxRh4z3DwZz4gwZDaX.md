@@ -4,6 +4,7 @@ id: p_NQaAKxRh4z3DwZz4gwZDaX
 status: active
 merged_into: null
 display_name: 王亨道
+cbdb_id: 413796
 revision: 1
 properties:
   - predicate: bio.summary

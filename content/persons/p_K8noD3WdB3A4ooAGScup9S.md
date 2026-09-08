@@ -4,6 +4,7 @@ id: p_K8noD3WdB3A4ooAGScup9S
 status: active
 merged_into: null
 display_name: 王之騏
+cbdb_id: 122105
 revision: 1
 properties:
   - predicate: bio.summary

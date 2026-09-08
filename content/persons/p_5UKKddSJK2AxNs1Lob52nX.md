@@ -4,6 +4,7 @@ id: p_5UKKddSJK2AxNs1Lob52nX
 status: active
 merged_into: null
 display_name: 王保衛
+cbdb_id: 92057
 revision: 1
 properties:
   - predicate: bio.summary

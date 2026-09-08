@@ -4,6 +4,7 @@ id: p_dpFxB7LhaLHJRUvSEYagHY
 status: active
 merged_into: null
 display_name: 王裕基
+cbdb_id: 415396
 revision: 1
 properties:
   - predicate: bio.summary

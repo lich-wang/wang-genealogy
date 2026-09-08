@@ -4,6 +4,7 @@ id: p_EUHvHseeDaeEK44dH4jAWf
 status: active
 merged_into: null
 display_name: 王六與
+cbdb_id: 330490
 revision: 1
 properties:
   - predicate: bio.summary

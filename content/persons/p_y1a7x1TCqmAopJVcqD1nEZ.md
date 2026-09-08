@@ -4,6 +4,7 @@ id: p_y1a7x1TCqmAopJVcqD1nEZ
 status: active
 merged_into: null
 display_name: 王時棟
+cbdb_id: 308750
 revision: 1
 properties:
   - predicate: bio.summary

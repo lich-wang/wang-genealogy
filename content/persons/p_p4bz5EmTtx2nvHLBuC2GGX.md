@@ -4,6 +4,7 @@ id: p_p4bz5EmTtx2nvHLBuC2GGX
 status: active
 merged_into: null
 display_name: 王靜甫
+cbdb_id: 100022
 revision: 1
 properties:
   - predicate: bio.summary

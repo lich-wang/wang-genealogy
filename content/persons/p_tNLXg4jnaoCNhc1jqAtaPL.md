@@ -4,6 +4,7 @@ id: p_tNLXg4jnaoCNhc1jqAtaPL
 status: active
 merged_into: null
 display_name: 王醜醜
+cbdb_id: 101455
 revision: 1
 properties:
   - predicate: bio.summary

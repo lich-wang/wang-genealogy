@@ -4,6 +4,7 @@ id: p_5qr2bHe6yoL5c6g9pL4qiL
 status: active
 merged_into: null
 display_name: 王修德
+cbdb_id: 413882
 revision: 1
 properties:
   - predicate: bio.summary

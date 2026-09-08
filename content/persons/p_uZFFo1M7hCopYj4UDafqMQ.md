@@ -4,6 +4,7 @@ id: p_uZFFo1M7hCopYj4UDafqMQ
 status: active
 merged_into: null
 display_name: 王業潤
+cbdb_id: 414881
 revision: 1
 properties:
   - predicate: bio.summary

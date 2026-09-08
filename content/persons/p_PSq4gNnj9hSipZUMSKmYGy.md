@@ -4,6 +4,7 @@ id: p_PSq4gNnj9hSipZUMSKmYGy
 status: active
 merged_into: null
 display_name: 王宜勵
+cbdb_id: 517384
 revision: 1
 properties:
   - predicate: bio.summary

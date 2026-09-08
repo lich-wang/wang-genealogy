@@ -4,6 +4,7 @@ id: p_sngjuq2gdb1yuDFvgB8jW3
 status: active
 merged_into: null
 display_name: 王孝治
+cbdb_id: 414252
 revision: 1
 properties:
   - predicate: bio.summary

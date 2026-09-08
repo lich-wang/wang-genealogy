@@ -4,6 +4,7 @@ id: p_J7gMbpNRBvFNanWSCrNShv
 status: active
 merged_into: null
 display_name: 王國瑚
+cbdb_id: 207582
 revision: 1
 properties:
   - predicate: bio.summary

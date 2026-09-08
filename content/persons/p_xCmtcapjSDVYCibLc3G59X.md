@@ -4,6 +4,7 @@ id: p_xCmtcapjSDVYCibLc3G59X
 status: active
 merged_into: null
 display_name: 王袤
+cbdb_id: 38049
 revision: 1
 properties:
   - predicate: bio.summary

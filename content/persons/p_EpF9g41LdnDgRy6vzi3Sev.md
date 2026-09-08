@@ -4,6 +4,7 @@ id: p_EpF9g41LdnDgRy6vzi3Sev
 status: active
 merged_into: null
 display_name: 王允初
+cbdb_id: 37701
 revision: 1
 properties:
   - predicate: bio.summary

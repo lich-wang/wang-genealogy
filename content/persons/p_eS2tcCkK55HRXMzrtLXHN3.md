@@ -4,6 +4,7 @@ id: p_eS2tcCkK55HRXMzrtLXHN3
 status: active
 merged_into: null
 display_name: 王熙彬
+cbdb_id: 72156
 revision: 1
 properties:
   - predicate: bio.summary

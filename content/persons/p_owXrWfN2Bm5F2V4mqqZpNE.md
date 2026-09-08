@@ -4,6 +4,7 @@ id: p_owXrWfN2Bm5F2V4mqqZpNE
 status: active
 merged_into: null
 display_name: 王之祚
+cbdb_id: 413761
 revision: 1
 properties:
   - predicate: bio.summary

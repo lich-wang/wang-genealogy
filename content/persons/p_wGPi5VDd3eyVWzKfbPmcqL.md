@@ -4,6 +4,7 @@ id: p_wGPi5VDd3eyVWzKfbPmcqL
 status: active
 merged_into: null
 display_name: 王德敏
+cbdb_id: 218708
 revision: 1
 properties:
   - predicate: bio.summary

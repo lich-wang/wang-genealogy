@@ -4,6 +4,7 @@ id: p_RB7j1kQ2fDoPNyza5PRWdd
 status: active
 merged_into: null
 display_name: 王核
+cbdb_id: 327150
 revision: 1
 properties:
   - predicate: bio.summary

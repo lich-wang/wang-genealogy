@@ -4,6 +4,7 @@ id: p_hVM62VDFgxefXn489fmeYM
 status: active
 merged_into: null
 display_name: 王兆雷
+cbdb_id: 71600
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_doh7n6XG4LRCKcdG4A9qGV
 status: active
 merged_into: null
 display_name: 王洪極
+cbdb_id: 233445
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_tzn9UrPvs7x1RCyiDggv2V
 status: active
 merged_into: null
 display_name: 王一兌
+cbdb_id: 210799
 revision: 1
 properties:
   - predicate: bio.summary

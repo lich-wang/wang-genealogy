@@ -4,6 +4,7 @@ id: p_ybJRugWHLcWcvTB254ssJw
 status: active
 merged_into: null
 display_name: 王時通
+cbdb_id: 299507
 revision: 1
 properties:
   - predicate: bio.summary

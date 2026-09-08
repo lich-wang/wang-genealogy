@@ -4,6 +4,7 @@ id: p_j2HfXyaRQ3M8V7AUhMGGJQ
 status: active
 merged_into: null
 display_name: 王孫錫
+cbdb_id: 518870
 revision: 1
 properties:
   - predicate: bio.summary

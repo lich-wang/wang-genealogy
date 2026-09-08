@@ -4,6 +4,7 @@ id: p_oWAhPU8CDjWMANeq21D2Mt
 status: active
 merged_into: null
 display_name: 王一驥
+cbdb_id: 341723
 revision: 1
 properties:
   - predicate: bio.summary

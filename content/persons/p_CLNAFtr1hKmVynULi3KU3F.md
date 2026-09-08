@@ -4,6 +4,7 @@ id: p_CLNAFtr1hKmVynULi3KU3F
 status: active
 merged_into: null
 display_name: 王周老
+cbdb_id: 97840
 revision: 2
 properties:
   - predicate: bio.summary

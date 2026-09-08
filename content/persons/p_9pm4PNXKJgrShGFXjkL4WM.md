@@ -4,6 +4,7 @@ id: p_9pm4PNXKJgrShGFXjkL4WM
 status: active
 merged_into: null
 display_name: 王思立
+cbdb_id: 164671
 revision: 1
 properties:
   - predicate: bio.summary

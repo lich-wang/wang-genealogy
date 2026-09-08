@@ -4,6 +4,7 @@ id: p_zgWjAeM1N1EqCXTXQW9HkX
 status: active
 merged_into: null
 display_name: 王承勋
+cbdb_id: 30377
 revision: 1
 properties:
   - predicate: bio.summary

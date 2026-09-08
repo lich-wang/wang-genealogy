@@ -4,6 +4,7 @@ id: p_qtzkK64rADkwbFMxEWVfXw
 status: active
 merged_into: null
 display_name: 王瑞龍
+cbdb_id: 68603
 revision: 1
 properties:
   - predicate: bio.summary

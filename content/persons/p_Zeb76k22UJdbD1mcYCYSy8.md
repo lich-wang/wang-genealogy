@@ -4,6 +4,7 @@ id: p_Zeb76k22UJdbD1mcYCYSy8
 status: active
 merged_into: null
 display_name: 王知亨
+cbdb_id: 415175
 revision: 1
 properties:
   - predicate: bio.summary

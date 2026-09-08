@@ -4,6 +4,7 @@ id: p_qDis5SqpQLsDPJ1cr1uRrg
 status: active
 merged_into: null
 display_name: 王官臻
+cbdb_id: 71820
 revision: 1
 properties:
   - predicate: bio.summary

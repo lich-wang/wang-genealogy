@@ -4,6 +4,7 @@ id: p_RzZ1dQxXH2DcBFXXM1jEce
 status: active
 merged_into: null
 display_name: 王朝嶽
+cbdb_id: 333152
 revision: 1
 properties:
   - predicate: bio.summary

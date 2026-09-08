@@ -4,6 +4,7 @@ id: p_1pCGM2Cc1wMXsx8vMAcyPe
 status: active
 merged_into: null
 display_name: 王撫乾
+cbdb_id: 701844
 revision: 1
 properties:
   - predicate: bio.summary

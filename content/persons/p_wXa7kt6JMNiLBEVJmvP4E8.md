@@ -4,6 +4,7 @@ id: p_wXa7kt6JMNiLBEVJmvP4E8
 status: active
 merged_into: null
 display_name: 王克家
+cbdb_id: 342970
 revision: 1
 properties:
   - predicate: bio.summary

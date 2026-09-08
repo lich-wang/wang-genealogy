@@ -4,6 +4,7 @@ id: p_f98QE6Q3ZRPwPYfZj3DRmu
 status: active
 merged_into: null
 display_name: 王幸胡
+cbdb_id: 168573
 revision: 1
 properties:
   - predicate: bio.summary

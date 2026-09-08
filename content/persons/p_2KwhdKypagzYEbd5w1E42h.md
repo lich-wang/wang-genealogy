@@ -4,6 +4,7 @@ id: p_2KwhdKypagzYEbd5w1E42h
 status: active
 merged_into: null
 display_name: 王用光
+cbdb_id: 415123
 revision: 1
 properties:
   - predicate: bio.summary

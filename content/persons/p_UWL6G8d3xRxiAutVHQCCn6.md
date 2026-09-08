@@ -4,6 +4,7 @@ id: p_UWL6G8d3xRxiAutVHQCCn6
 status: active
 merged_into: null
 display_name: 王伯萬
+cbdb_id: 274046
 revision: 1
 properties:
   - predicate: bio.summary

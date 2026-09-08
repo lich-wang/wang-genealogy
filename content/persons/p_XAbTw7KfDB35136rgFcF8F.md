@@ -4,6 +4,7 @@ id: p_XAbTw7KfDB35136rgFcF8F
 status: active
 merged_into: null
 display_name: 王應宸
+cbdb_id: 414640
 revision: 1
 properties:
   - predicate: bio.summary

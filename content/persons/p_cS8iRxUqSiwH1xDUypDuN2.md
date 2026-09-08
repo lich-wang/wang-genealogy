@@ -4,6 +4,7 @@ id: p_cS8iRxUqSiwH1xDUypDuN2
 status: active
 merged_into: null
 display_name: 王元啟
+cbdb_id: 69073
 revision: 1
 properties:
   - predicate: bio.summary

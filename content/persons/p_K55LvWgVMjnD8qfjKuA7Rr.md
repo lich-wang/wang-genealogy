@@ -4,6 +4,7 @@ id: p_K55LvWgVMjnD8qfjKuA7Rr
 status: active
 merged_into: null
 display_name: 王九寧
+cbdb_id: 271244
 revision: 1
 properties:
   - predicate: bio.summary

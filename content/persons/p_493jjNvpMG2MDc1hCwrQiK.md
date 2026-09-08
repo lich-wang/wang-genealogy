@@ -4,6 +4,7 @@ id: p_493jjNvpMG2MDc1hCwrQiK
 status: active
 merged_into: null
 display_name: 王紹某
+cbdb_id: 278854
 revision: 1
 properties:
   - predicate: bio.summary

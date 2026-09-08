@@ -4,6 +4,7 @@ id: p_GUXg9vMARJ8RejkJHBrrHU
 status: active
 merged_into: null
 display_name: 王沛憬
+cbdb_id: 414988
 revision: 1
 properties:
   - predicate: bio.summary

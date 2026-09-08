@@ -4,6 +4,7 @@ id: p_Ff4MvR2ST1sQsj9MoVn4Yn
 status: active
 merged_into: null
 display_name: 王聖儀
+cbdb_id: 415292
 revision: 1
 properties:
   - predicate: bio.summary

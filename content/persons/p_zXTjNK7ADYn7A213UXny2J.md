@@ -4,6 +4,7 @@ id: p_zXTjNK7ADYn7A213UXny2J
 status: active
 merged_into: null
 display_name: 王蒙正
+cbdb_id: 98013
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_kPcJSE7EkV4dMvXgKH8AyL
 status: active
 merged_into: null
 display_name: 魏国大长公主
+cbdb_id: 37660
 revision: 2
 properties:
   - predicate: bio.summary

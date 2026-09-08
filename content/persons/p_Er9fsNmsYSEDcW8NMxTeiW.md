@@ -4,6 +4,7 @@ id: p_Er9fsNmsYSEDcW8NMxTeiW
 status: active
 merged_into: null
 display_name: 王汝儀
+cbdb_id: 314235
 revision: 1
 properties:
   - predicate: bio.summary

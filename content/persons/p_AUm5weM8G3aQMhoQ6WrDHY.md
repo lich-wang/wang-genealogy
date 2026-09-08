@@ -4,6 +4,7 @@ id: p_AUm5weM8G3aQMhoQ6WrDHY
 status: active
 merged_into: null
 display_name: 王宗夏
+cbdb_id: 317692
 revision: 1
 properties:
   - predicate: bio.summary

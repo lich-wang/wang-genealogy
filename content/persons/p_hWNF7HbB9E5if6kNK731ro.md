@@ -4,6 +4,7 @@ id: p_hWNF7HbB9E5if6kNK731ro
 status: active
 merged_into: null
 display_name: 王祿兆
+cbdb_id: 206985
 revision: 1
 properties:
   - predicate: bio.summary

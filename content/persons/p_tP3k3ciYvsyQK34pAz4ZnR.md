@@ -4,6 +4,7 @@ id: p_tP3k3ciYvsyQK34pAz4ZnR
 status: active
 merged_into: null
 display_name: 王朝命
+cbdb_id: 414839
 revision: 1
 properties:
   - predicate: bio.summary

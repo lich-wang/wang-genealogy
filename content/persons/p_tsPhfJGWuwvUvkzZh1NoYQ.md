@@ -4,6 +4,7 @@ id: p_tsPhfJGWuwvUvkzZh1NoYQ
 status: active
 merged_into: null
 display_name: 王淨德
+cbdb_id: 154994
 revision: 1
 properties:
   - predicate: bio.summary

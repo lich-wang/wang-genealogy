@@ -4,6 +4,7 @@ id: p_BctVzt33J6G1ckbJKCusbq
 status: active
 merged_into: null
 display_name: 王勤政
+cbdb_id: 413997
 revision: 1
 properties:
   - predicate: bio.summary

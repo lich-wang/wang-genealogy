@@ -4,6 +4,7 @@ id: p_B1t6GJQ3EPnYM1uA1s2H95
 status: active
 merged_into: null
 display_name: 王應達
+cbdb_id: 414656
 revision: 1
 properties:
   - predicate: bio.summary

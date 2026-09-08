@@ -4,6 +4,7 @@ id: p_ZyrbUQzJSc8r8t3Ud7TNAC
 status: active
 merged_into: null
 display_name: 王鳳靈
+cbdb_id: 126795
 revision: 1
 properties:
   - predicate: bio.summary

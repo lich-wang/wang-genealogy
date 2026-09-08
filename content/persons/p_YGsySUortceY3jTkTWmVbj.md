@@ -4,6 +4,7 @@ id: p_YGsySUortceY3jTkTWmVbj
 status: active
 merged_into: null
 display_name: 王埈
+cbdb_id: 226578
 revision: 1
 properties:
   - predicate: name.primary

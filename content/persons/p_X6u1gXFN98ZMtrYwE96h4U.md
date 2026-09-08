@@ -4,6 +4,7 @@ id: p_X6u1gXFN98ZMtrYwE96h4U
 status: active
 merged_into: null
 display_name: 王南珍
+cbdb_id: 456222
 revision: 1
 properties:
   - predicate: bio.summary

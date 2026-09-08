@@ -4,6 +4,7 @@ id: p_WAU6sgK1XE5s5Kb2qJv5id
 status: active
 merged_into: null
 display_name: 王仲虎
+cbdb_id: 413845
 revision: 1
 properties:
   - predicate: bio.summary

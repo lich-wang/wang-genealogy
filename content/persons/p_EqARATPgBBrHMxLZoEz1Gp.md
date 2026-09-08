@@ -4,6 +4,7 @@ id: p_EqARATPgBBrHMxLZoEz1Gp
 status: active
 merged_into: null
 display_name: 王坤亨
+cbdb_id: 219264
 revision: 1
 properties:
   - predicate: bio.summary

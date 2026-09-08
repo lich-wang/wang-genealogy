@@ -4,6 +4,7 @@ id: p_M8DmRvcfyqwX9MGH7rJ7SF
 status: active
 merged_into: null
 display_name: 王會汾
+cbdb_id: 58611
 revision: 1
 properties:
   - predicate: bio.summary

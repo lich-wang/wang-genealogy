@@ -4,6 +4,7 @@ id: p_8M1i94w3acDzg1kYhCgGjB
 status: active
 merged_into: null
 display_name: 王克基
+cbdb_id: 17759
 revision: 1
 properties:
   - predicate: bio.summary

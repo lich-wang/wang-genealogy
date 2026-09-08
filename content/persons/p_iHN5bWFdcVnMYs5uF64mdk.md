@@ -4,6 +4,7 @@ id: p_iHN5bWFdcVnMYs5uF64mdk
 status: active
 merged_into: null
 display_name: 王家賁
+cbdb_id: 414351
 revision: 1
 properties:
   - predicate: bio.summary

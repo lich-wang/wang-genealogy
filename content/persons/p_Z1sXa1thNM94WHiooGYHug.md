@@ -4,6 +4,7 @@ id: p_Z1sXa1thNM94WHiooGYHug
 status: active
 merged_into: null
 display_name: 王孟煦
+cbdb_id: 207153
 revision: 1
 properties:
   - predicate: bio.summary

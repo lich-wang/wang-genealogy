@@ -4,6 +4,7 @@ id: p_DgA93iH24ZodpFmFWyHcNR
 status: active
 merged_into: null
 display_name: 王搏
+cbdb_id: 175545
 revision: 1
 properties:
   - predicate: bio.summary

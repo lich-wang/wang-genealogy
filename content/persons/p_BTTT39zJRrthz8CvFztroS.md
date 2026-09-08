@@ -4,6 +4,7 @@ id: p_BTTT39zJRrthz8CvFztroS
 status: active
 merged_into: null
 display_name: 王廷温
+cbdb_id: 22197
 revision: 1
 properties:
   - predicate: bio.summary

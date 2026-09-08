@@ -4,6 +4,7 @@ id: p_sWkSZMSo1SeY2dmrHvKN8G
 status: active
 merged_into: null
 display_name: 王惠卿
+cbdb_id: 414614
 revision: 1
 properties:
   - predicate: bio.summary

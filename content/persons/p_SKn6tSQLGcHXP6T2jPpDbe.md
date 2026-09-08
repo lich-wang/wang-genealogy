@@ -4,6 +4,7 @@ id: p_SKn6tSQLGcHXP6T2jPpDbe
 status: active
 merged_into: null
 display_name: 王秉某
+cbdb_id: 415197
 revision: 1
 properties:
   - predicate: bio.summary

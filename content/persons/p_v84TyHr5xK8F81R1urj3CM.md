@@ -4,6 +4,7 @@ id: p_v84TyHr5xK8F81R1urj3CM
 status: active
 merged_into: null
 display_name: 王秉珩
+cbdb_id: 415200
 revision: 1
 properties:
   - predicate: bio.summary

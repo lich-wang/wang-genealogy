@@ -4,6 +4,7 @@ id: p_m61w6sjhCgcEC9Kpvosva9
 status: active
 merged_into: null
 display_name: 王信賢
+cbdb_id: 413880
 revision: 1
 properties:
   - predicate: bio.summary

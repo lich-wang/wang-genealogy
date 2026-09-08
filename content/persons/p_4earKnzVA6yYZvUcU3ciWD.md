@@ -4,6 +4,7 @@ id: p_4earKnzVA6yYZvUcU3ciWD
 status: active
 merged_into: null
 display_name: 王昌彥
+cbdb_id: 478064
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_oZrH2XFhHiKrpYjuEUvDEB
 status: active
 merged_into: null
 display_name: 王太堪
+cbdb_id: 195155
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_waicV9Fo2q7nkgGJNdNMWK
 status: active
 merged_into: null
 display_name: 王察言
+cbdb_id: 204284
 revision: 1
 properties:
   - predicate: bio.summary

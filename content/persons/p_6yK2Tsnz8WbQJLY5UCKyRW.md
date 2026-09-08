@@ -4,6 +4,7 @@ id: p_6yK2Tsnz8WbQJLY5UCKyRW
 status: active
 merged_into: null
 display_name: 王永佑
+cbdb_id: 414938
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_eBH7z6jEjeC1jBxCyxjBia
 status: active
 merged_into: null
 display_name: 王振祥
+cbdb_id: 100113
 revision: 1
 properties:
   - predicate: bio.summary

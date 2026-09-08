@@ -4,6 +4,7 @@ id: p_VmxMBQPfyxUr32ATQz1Ta9
 status: active
 merged_into: null
 display_name: 王時暘
+cbdb_id: 287524
 revision: 1
 properties:
   - predicate: bio.summary

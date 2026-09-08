@@ -4,6 +4,7 @@ id: p_UkPp61zPoKXswTkME5j3Ce
 status: active
 merged_into: null
 display_name: 王如堯
+cbdb_id: 226069
 revision: 1
 properties:
   - predicate: bio.summary

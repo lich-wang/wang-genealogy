@@ -4,6 +4,7 @@ id: p_bR58M5z5uimNJPKCzwsfSS
 status: active
 merged_into: null
 display_name: 王宜孫
+cbdb_id: 28735
 revision: 1
 properties:
   - predicate: bio.summary

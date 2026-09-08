@@ -4,6 +4,7 @@ id: p_vQPKLZgELrLHjDj87Mi5N7
 status: active
 merged_into: null
 display_name: 王以訓
+cbdb_id: 342435
 revision: 1
 properties:
   - predicate: bio.summary

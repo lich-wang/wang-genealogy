@@ -4,6 +4,7 @@ id: p_gk5TtsLrBkBuAxrGyWvWEZ
 status: active
 merged_into: null
 display_name: 王忠親
+cbdb_id: 145938
 revision: 1
 properties:
   - predicate: bio.summary

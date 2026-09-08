@@ -4,6 +4,7 @@ id: p_C2aFPyKtFVwWnhkXsMGeHp
 status: active
 merged_into: null
 display_name: 王朝槐
+cbdb_id: 414844
 revision: 1
 properties:
   - predicate: bio.summary

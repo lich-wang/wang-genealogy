@@ -4,6 +4,7 @@ id: p_ZkNGfGFLPe7dF63rTWLe4c
 status: active
 merged_into: null
 display_name: 王衍福
+cbdb_id: 342159
 revision: 1
 properties:
   - predicate: bio.summary

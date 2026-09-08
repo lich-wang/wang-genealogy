@@ -4,6 +4,7 @@ id: p_Qa61NZVoSxfEH9opac7xGu
 status: active
 merged_into: null
 display_name: 王西應
+cbdb_id: 20092
 revision: 1
 properties:
   - predicate: bio.summary

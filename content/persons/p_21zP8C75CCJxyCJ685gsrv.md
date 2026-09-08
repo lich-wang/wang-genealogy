@@ -4,6 +4,7 @@ id: p_21zP8C75CCJxyCJ685gsrv
 status: active
 merged_into: null
 display_name: 王亮教
+cbdb_id: 60734
 revision: 1
 properties:
   - predicate: bio.summary

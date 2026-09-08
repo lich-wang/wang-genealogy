@@ -4,6 +4,7 @@ id: p_2un7yxFLHpMMGGR7NJLTdf
 status: active
 merged_into: null
 display_name: 王式金
+cbdb_id: 71521
 revision: 1
 properties:
   - predicate: bio.summary

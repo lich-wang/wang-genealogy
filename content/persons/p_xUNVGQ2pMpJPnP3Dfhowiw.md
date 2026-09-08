@@ -4,6 +4,7 @@ id: p_xUNVGQ2pMpJPnP3Dfhowiw
 status: active
 merged_into: null
 display_name: 王懷淳
+cbdb_id: 38392
 revision: 1
 properties:
   - predicate: bio.summary

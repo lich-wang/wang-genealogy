@@ -4,6 +4,7 @@ id: p_8bYnH6KpAtqWdUF7jd9khM
 status: active
 merged_into: null
 display_name: 王瀟
+cbdb_id: 415061
 revision: 1
 properties:
   - predicate: bio.summary

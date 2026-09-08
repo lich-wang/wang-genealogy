@@ -4,6 +4,7 @@ id: p_9VQ44g5AaCxQrVHsGXoNtR
 status: active
 merged_into: null
 display_name: 王維仁
+cbdb_id: 415244
 revision: 1
 properties:
   - predicate: bio.summary

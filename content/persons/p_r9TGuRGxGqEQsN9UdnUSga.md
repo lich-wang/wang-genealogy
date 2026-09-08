@@ -4,6 +4,7 @@ id: p_r9TGuRGxGqEQsN9UdnUSga
 status: active
 merged_into: null
 display_name: 王增錞
+cbdb_id: 414156
 revision: 1
 properties:
   - predicate: bio.summary

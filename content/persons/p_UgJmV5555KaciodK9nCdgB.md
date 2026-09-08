@@ -4,6 +4,7 @@ id: p_UgJmV5555KaciodK9nCdgB
 status: active
 merged_into: null
 display_name: 王太初
+cbdb_id: 414218
 revision: 1
 properties:
   - predicate: bio.summary

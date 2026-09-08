@@ -4,6 +4,7 @@ id: p_DpZEtJHCYEMGRGyB8dPbsZ
 status: active
 merged_into: null
 display_name: 王進昌
+cbdb_id: 61004
 revision: 1
 properties:
   - predicate: bio.summary

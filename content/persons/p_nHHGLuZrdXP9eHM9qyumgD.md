@@ -4,6 +4,7 @@ id: p_nHHGLuZrdXP9eHM9qyumgD
 status: active
 merged_into: null
 display_name: 王欽霖
+cbdb_id: 71887
 revision: 1
 properties:
   - predicate: bio.summary

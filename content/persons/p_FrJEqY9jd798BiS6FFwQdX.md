@@ -4,6 +4,7 @@ id: p_FrJEqY9jd798BiS6FFwQdX
 status: active
 merged_into: null
 display_name: 王維瀚
+cbdb_id: 526718
 revision: 2
 properties:
   - predicate: bio.summary

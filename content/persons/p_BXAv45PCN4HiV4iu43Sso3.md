@@ -4,6 +4,7 @@ id: p_BXAv45PCN4HiV4iu43Sso3
 status: active
 merged_into: null
 display_name: 王時方
+cbdb_id: 287094
 revision: 1
 properties:
   - predicate: bio.summary

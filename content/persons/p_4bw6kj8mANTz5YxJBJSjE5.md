@@ -4,6 +4,7 @@ id: p_4bw6kj8mANTz5YxJBJSjE5
 status: active
 merged_into: null
 display_name: 王承业
+cbdb_id: 195919
 revision: 2
 properties:
   - predicate: bio.summary

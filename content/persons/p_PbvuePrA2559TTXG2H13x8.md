@@ -4,6 +4,7 @@ id: p_PbvuePrA2559TTXG2H13x8
 status: active
 merged_into: null
 display_name: 王九娘
+cbdb_id: 152415
 revision: 1
 properties:
   - predicate: bio.summary

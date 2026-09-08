@@ -4,6 +4,7 @@ id: p_c8cNWHX855ThCyxu9d1ngq
 status: active
 merged_into: null
 display_name: 王彥政
+cbdb_id: 254110
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_PqLcGeRrAgJy9preHv1VeF
 status: active
 merged_into: null
 display_name: 王名晉
+cbdb_id: 414041
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_rKbSXrMPsXrsgH3rEyJQWC
 status: active
 merged_into: null
 display_name: 王仲俨
+cbdb_id: 386036
 revision: 1
 properties:
   - predicate: name.primary

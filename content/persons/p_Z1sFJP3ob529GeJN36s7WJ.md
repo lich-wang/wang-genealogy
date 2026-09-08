@@ -4,6 +4,7 @@ id: p_Z1sFJP3ob529GeJN36s7WJ
 status: active
 merged_into: null
 display_name: 王所錫
+cbdb_id: 511613
 revision: 1
 properties:
   - predicate: bio.summary

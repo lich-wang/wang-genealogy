@@ -4,6 +4,7 @@ id: p_xJsRqYi6bQ21m8ncMBogv4
 status: active
 merged_into: null
 display_name: 王民
+cbdb_id: 277428
 revision: 1
 properties:
   - predicate: name.primary

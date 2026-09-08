@@ -4,6 +4,7 @@ id: p_V57BmCNK9BwJStiF9LE1tu
 status: active
 merged_into: null
 display_name: 王時相
+cbdb_id: 308749
 revision: 1
 properties:
   - predicate: bio.summary

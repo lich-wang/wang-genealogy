@@ -4,6 +4,7 @@ id: p_f4JuEaK4LNhkn4Zgbm74PZ
 status: active
 merged_into: null
 display_name: 王堡京
+cbdb_id: 294726
 revision: 1
 properties:
   - predicate: bio.summary

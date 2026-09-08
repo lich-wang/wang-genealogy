@@ -4,6 +4,7 @@ id: p_cDWthnmfmZUMrDM5JdsS9A
 status: active
 merged_into: null
 display_name: 王十二
+cbdb_id: 274559
 revision: 1
 properties:
   - predicate: bio.summary

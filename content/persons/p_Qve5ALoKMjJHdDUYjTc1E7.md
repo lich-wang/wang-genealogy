@@ -4,6 +4,7 @@ id: p_Qve5ALoKMjJHdDUYjTc1E7
 status: active
 merged_into: null
 display_name: 王柳坪
+cbdb_id: 511619
 revision: 1
 properties:
   - predicate: bio.summary

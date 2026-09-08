@@ -4,6 +4,7 @@ id: p_6EDxBNb6A4KZM4GUSLwb5Y
 status: active
 merged_into: null
 display_name: 王穹
+cbdb_id: 313621
 revision: 1
 properties:
   - predicate: bio.summary

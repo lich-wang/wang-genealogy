@@ -4,6 +4,7 @@ id: p_DDPxLckGGCzyQhfWEiLFHC
 status: active
 merged_into: null
 display_name: 王嗣槐
+cbdb_id: 69426
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_23Etd25TXCcVnTgzgsN8Z9
 status: active
 merged_into: null
 display_name: 石氏
+cbdb_id: 311231
 revision: 1
 properties:
   - predicate: bio.summary

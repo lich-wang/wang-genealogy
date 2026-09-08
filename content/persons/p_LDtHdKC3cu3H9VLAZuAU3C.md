@@ -4,6 +4,7 @@ id: p_LDtHdKC3cu3H9VLAZuAU3C
 status: active
 merged_into: null
 display_name: 王治泰
+cbdb_id: 71791
 revision: 1
 properties:
   - predicate: bio.summary

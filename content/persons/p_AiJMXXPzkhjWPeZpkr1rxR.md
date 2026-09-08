@@ -4,6 +4,7 @@ id: p_AiJMXXPzkhjWPeZpkr1rxR
 status: active
 merged_into: null
 display_name: 王之鑰
+cbdb_id: 342575
 revision: 1
 properties:
   - predicate: bio.summary

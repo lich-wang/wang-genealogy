@@ -4,6 +4,7 @@ id: p_Rfy3HVEp1zMVW8SiZ4rMr3
 status: active
 merged_into: null
 display_name: 王寵兒
+cbdb_id: 160466
 revision: 1
 properties:
   - predicate: bio.summary

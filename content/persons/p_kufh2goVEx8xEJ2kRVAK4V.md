@@ -4,6 +4,7 @@ id: p_kufh2goVEx8xEJ2kRVAK4V
 status: active
 merged_into: null
 display_name: 王希岡
+cbdb_id: 414407
 revision: 1
 properties:
   - predicate: bio.summary

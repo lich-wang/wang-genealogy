@@ -4,6 +4,7 @@ id: p_RPNRG1FMrXm2xB7Z46nBJB
 status: active
 merged_into: null
 display_name: 王起之
+cbdb_id: 37974
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_bqtofWaqSAEqVZFFEQFzEG
 status: active
 merged_into: null
 display_name: 王孟堅
+cbdb_id: 175894
 revision: 1
 properties:
   - predicate: bio.summary

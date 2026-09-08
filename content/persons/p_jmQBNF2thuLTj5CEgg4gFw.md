@@ -4,6 +4,7 @@ id: p_jmQBNF2thuLTj5CEgg4gFw
 status: active
 merged_into: null
 display_name: 王宗載
+cbdb_id: 205060
 revision: 1
 properties:
   - predicate: bio.summary

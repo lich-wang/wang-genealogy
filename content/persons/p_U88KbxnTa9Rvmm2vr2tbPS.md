@@ -4,6 +4,7 @@ id: p_U88KbxnTa9Rvmm2vr2tbPS
 status: active
 merged_into: null
 display_name: 王應電
+cbdb_id: 126848
 revision: 1
 properties:
   - predicate: bio.summary

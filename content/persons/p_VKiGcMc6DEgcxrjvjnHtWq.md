@@ -4,6 +4,7 @@ id: p_VKiGcMc6DEgcxrjvjnHtWq
 status: active
 merged_into: null
 display_name: 王燿
+cbdb_id: 526746
 revision: 1
 properties:
   - predicate: bio.summary

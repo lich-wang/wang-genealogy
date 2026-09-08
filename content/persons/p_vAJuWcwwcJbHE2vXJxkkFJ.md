@@ -4,6 +4,7 @@ id: p_vAJuWcwwcJbHE2vXJxkkFJ
 status: active
 merged_into: null
 display_name: 王祀
+cbdb_id: 415182
 revision: 1
 properties:
   - predicate: bio.summary

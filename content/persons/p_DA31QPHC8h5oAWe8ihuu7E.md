@@ -4,6 +4,7 @@ id: p_DA31QPHC8h5oAWe8ihuu7E
 status: active
 merged_into: null
 display_name: 王江洧
+cbdb_id: 331413
 revision: 1
 properties:
   - predicate: bio.summary

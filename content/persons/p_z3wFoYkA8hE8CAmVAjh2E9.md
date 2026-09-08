@@ -4,6 +4,7 @@ id: p_z3wFoYkA8hE8CAmVAjh2E9
 status: active
 merged_into: null
 display_name: 王原京
+cbdb_id: 101301
 revision: 1
 properties:
   - predicate: bio.summary

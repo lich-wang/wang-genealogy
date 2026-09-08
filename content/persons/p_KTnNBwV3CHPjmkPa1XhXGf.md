@@ -4,6 +4,7 @@ id: p_KTnNBwV3CHPjmkPa1XhXGf
 status: active
 merged_into: null
 display_name: 王祖福
+cbdb_id: 213206
 revision: 1
 properties:
   - predicate: bio.summary

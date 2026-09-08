@@ -4,6 +4,7 @@ id: p_iownahwhyVTvRCab3jvgcE
 status: active
 merged_into: null
 display_name: 王文脩
+cbdb_id: 302522
 revision: 1
 properties:
   - predicate: bio.summary

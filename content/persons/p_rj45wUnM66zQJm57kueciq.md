@@ -4,6 +4,7 @@ id: p_rj45wUnM66zQJm57kueciq
 status: active
 merged_into: null
 display_name: 王喬岱
+cbdb_id: 336212
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_a6UK2e1PrqijFa6onX1Dtc
 status: active
 merged_into: null
 display_name: 王仕暹
+cbdb_id: 284752
 revision: 1
 properties:
   - predicate: bio.summary

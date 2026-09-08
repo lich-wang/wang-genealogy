@@ -4,6 +4,7 @@ id: p_6QDbQZu3Posftw8fqKmNXG
 status: active
 merged_into: null
 display_name: 王仕英
+cbdb_id: 413814
 revision: 1
 properties:
   - predicate: bio.summary

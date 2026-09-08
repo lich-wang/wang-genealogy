@@ -4,6 +4,7 @@ id: p_pkqhngkrX958LDeWWXBqfj
 status: active
 merged_into: null
 display_name: 王元達
+cbdb_id: 413919
 revision: 1
 properties:
   - predicate: bio.summary

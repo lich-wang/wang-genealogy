@@ -4,6 +4,7 @@ id: p_8LsJEYCjbbE642tn4yUoiz
 status: active
 merged_into: null
 display_name: 王延陵
+cbdb_id: 34587
 revision: 1
 properties:
   - predicate: bio.summary

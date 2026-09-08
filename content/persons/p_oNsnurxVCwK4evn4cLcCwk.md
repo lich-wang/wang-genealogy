@@ -4,6 +4,7 @@ id: p_oNsnurxVCwK4evn4cLcCwk
 status: active
 merged_into: null
 display_name: 王玄充
+cbdb_id: 186030
 revision: 1
 properties:
   - predicate: bio.summary

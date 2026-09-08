@@ -4,6 +4,7 @@ id: p_fy6WS44aKuLX9PaFkFZWV3
 status: active
 merged_into: null
 display_name: 王弘爽
+cbdb_id: 185062
 revision: 1
 properties:
   - predicate: bio.summary

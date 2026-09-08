@@ -4,6 +4,7 @@ id: p_64CPNNCBaPZc5W3H7aXcGc
 status: active
 merged_into: null
 display_name: 王祖望
+cbdb_id: 415185
 revision: 1
 properties:
   - predicate: bio.summary

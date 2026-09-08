@@ -4,6 +4,7 @@ id: p_v8zZN3EXqwwkboRzTjL8vp
 status: active
 merged_into: null
 display_name: 王希堂
+cbdb_id: 414406
 revision: 1
 properties:
   - predicate: bio.summary

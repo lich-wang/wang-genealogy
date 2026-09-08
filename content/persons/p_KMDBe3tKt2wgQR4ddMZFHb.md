@@ -4,6 +4,7 @@ id: p_KMDBe3tKt2wgQR4ddMZFHb
 status: active
 merged_into: null
 display_name: 王葆華
+cbdb_id: 415369
 revision: 1
 properties:
   - predicate: bio.summary

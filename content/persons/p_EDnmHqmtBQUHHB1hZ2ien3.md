@@ -4,6 +4,7 @@ id: p_EDnmHqmtBQUHHB1hZ2ien3
 status: active
 merged_into: null
 display_name: 王公柔
+cbdb_id: 264214
 revision: 1
 properties:
   - predicate: bio.summary

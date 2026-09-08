@@ -4,6 +4,7 @@ id: p_V4rtHggYG34wADMNCNuW7Z
 status: active
 merged_into: null
 display_name: 王增佑
+cbdb_id: 343306
 revision: 1
 properties:
   - predicate: bio.summary

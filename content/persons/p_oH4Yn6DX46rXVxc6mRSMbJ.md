@@ -4,6 +4,7 @@ id: p_oH4Yn6DX46rXVxc6mRSMbJ
 status: active
 merged_into: null
 display_name: 司马曜
+cbdb_id: 30911
 revision: 1
 properties:
   - predicate: bio.summary

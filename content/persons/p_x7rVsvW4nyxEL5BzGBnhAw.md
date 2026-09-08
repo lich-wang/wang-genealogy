@@ -4,6 +4,7 @@ id: p_x7rVsvW4nyxEL5BzGBnhAw
 status: active
 merged_into: null
 display_name: 王賡元
+cbdb_id: 415452
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_5Za2UKqHmTn9qNoDC69xsZ
 status: active
 merged_into: null
 display_name: 王裕璸
+cbdb_id: 415398
 revision: 1
 properties:
   - predicate: bio.summary

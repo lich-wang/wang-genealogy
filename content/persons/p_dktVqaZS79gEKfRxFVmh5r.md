@@ -4,6 +4,7 @@ id: p_dktVqaZS79gEKfRxFVmh5r
 status: active
 merged_into: null
 display_name: 王定民
+cbdb_id: 39465
 revision: 1
 properties:
   - predicate: bio.summary

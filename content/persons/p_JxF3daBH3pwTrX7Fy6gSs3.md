@@ -4,6 +4,7 @@ id: p_JxF3daBH3pwTrX7Fy6gSs3
 status: active
 merged_into: null
 display_name: 王昌
+cbdb_id: 149913
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_fW5PFHmaC8xsbepaeoac9q
 status: active
 merged_into: null
 display_name: 王永琨
+cbdb_id: 414947
 revision: 1
 properties:
   - predicate: bio.summary

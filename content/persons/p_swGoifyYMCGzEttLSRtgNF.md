@@ -4,6 +4,7 @@ id: p_swGoifyYMCGzEttLSRtgNF
 status: active
 merged_into: null
 display_name: 王可賢
+cbdb_id: 292754
 revision: 1
 properties:
   - predicate: bio.summary

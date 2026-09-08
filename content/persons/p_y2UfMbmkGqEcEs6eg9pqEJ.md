@@ -4,6 +4,7 @@ id: p_y2UfMbmkGqEcEs6eg9pqEJ
 status: active
 merged_into: null
 display_name: 王肅章
+cbdb_id: 65801
 revision: 1
 properties:
   - predicate: bio.summary

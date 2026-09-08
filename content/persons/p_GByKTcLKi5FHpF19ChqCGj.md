@@ -4,6 +4,7 @@ id: p_GByKTcLKi5FHpF19ChqCGj
 status: active
 merged_into: null
 display_name: 王學孝
+cbdb_id: 221576
 revision: 1
 properties:
   - predicate: bio.summary

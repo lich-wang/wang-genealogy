@@ -4,6 +4,7 @@ id: p_KEDHbq5Tu2q7J1eKc2cd3C
 status: active
 merged_into: null
 display_name: 王撝之
+cbdb_id: 26613
 revision: 1
 properties:
   - predicate: bio.summary

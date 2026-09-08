@@ -4,6 +4,7 @@ id: p_L6Vux9KyE8N8xyR2L4UVo3
 status: active
 merged_into: null
 display_name: 王文聯
+cbdb_id: 414749
 revision: 1
 properties:
   - predicate: bio.summary

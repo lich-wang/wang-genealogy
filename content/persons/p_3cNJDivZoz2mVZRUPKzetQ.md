@@ -4,6 +4,7 @@ id: p_3cNJDivZoz2mVZRUPKzetQ
 status: active
 merged_into: null
 display_name: 王復登
+cbdb_id: 414542
 revision: 1
 properties:
   - predicate: bio.summary

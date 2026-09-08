@@ -4,6 +4,7 @@ id: p_p1PA2KbjvHxQvffSgyf3Y4
 status: active
 merged_into: null
 display_name: 王可封
+cbdb_id: 445449
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_9yUsLx8gKe9km4PvyMBpGL
 status: active
 merged_into: null
 display_name: 王期尹
+cbdb_id: 253918
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_3nxKjvA6NNiHXnhqMMk7mJ
 status: active
 merged_into: null
 display_name: 王仲衡
+cbdb_id: 38926
 revision: 1
 properties:
   - predicate: bio.summary

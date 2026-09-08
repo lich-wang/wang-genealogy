@@ -4,6 +4,7 @@ id: p_8hh6AFzwKDsJFPwN8t9CVF
 status: active
 merged_into: null
 display_name: 王華卿
+cbdb_id: 242759
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_DUnAJiYeksnp3F3vurBhYT
 status: active
 merged_into: null
 display_name: 王永譽
+cbdb_id: 59996
 revision: 1
 properties:
   - predicate: bio.summary

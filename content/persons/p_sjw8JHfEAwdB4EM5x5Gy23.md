@@ -4,6 +4,7 @@ id: p_sjw8JHfEAwdB4EM5x5Gy23
 status: active
 merged_into: null
 display_name: 王岱嶷
+cbdb_id: 414394
 revision: 1
 properties:
   - predicate: bio.summary

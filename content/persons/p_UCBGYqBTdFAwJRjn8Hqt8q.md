@@ -4,6 +4,7 @@ id: p_UCBGYqBTdFAwJRjn8Hqt8q
 status: active
 merged_into: null
 display_name: 王青蓮
+cbdb_id: 61510
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_CtusG7u8o2WD1c1JghCTe4
 status: active
 merged_into: null
 display_name: 王學渟
+cbdb_id: 343660
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_RmnBwidGasQcN5gwDKjwDg
 status: active
 merged_into: null
 display_name: 王傳臣
+cbdb_id: 235985
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_MAiRkitkM5dtxpiXBoh3Jq
 status: active
 merged_into: null
 display_name: 王朝隱
+cbdb_id: 22225
 revision: 1
 properties:
   - predicate: bio.summary

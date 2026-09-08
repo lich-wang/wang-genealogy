@@ -4,6 +4,7 @@ id: p_nsiaCP7xvP26NLsPX64dYP
 status: active
 merged_into: null
 display_name: 王德毅
+cbdb_id: 37723
 revision: 1
 properties:
   - predicate: bio.summary

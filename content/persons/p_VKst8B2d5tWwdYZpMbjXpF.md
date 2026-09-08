@@ -4,6 +4,7 @@ id: p_VKst8B2d5tWwdYZpMbjXpF
 status: active
 merged_into: null
 display_name: 王砺
+cbdb_id: 15706
 revision: 2
 properties:
   - predicate: bio.summary

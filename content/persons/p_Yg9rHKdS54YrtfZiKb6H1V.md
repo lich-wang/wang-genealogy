@@ -4,6 +4,7 @@ id: p_Yg9rHKdS54YrtfZiKb6H1V
 status: active
 merged_into: null
 display_name: 王樹勳
+cbdb_id: 414899
 revision: 1
 properties:
   - predicate: bio.summary

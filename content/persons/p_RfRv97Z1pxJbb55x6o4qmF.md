@@ -4,6 +4,7 @@ id: p_RfRv97Z1pxJbb55x6o4qmF
 status: active
 merged_into: null
 display_name: 王泰寧
+cbdb_id: 269142
 revision: 1
 properties:
   - predicate: bio.summary

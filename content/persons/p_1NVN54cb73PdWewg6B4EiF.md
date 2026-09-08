@@ -4,6 +4,7 @@ id: p_1NVN54cb73PdWewg6B4EiF
 status: active
 merged_into: null
 display_name: 王世則
+cbdb_id: 38429
 revision: 1
 properties:
   - predicate: bio.summary

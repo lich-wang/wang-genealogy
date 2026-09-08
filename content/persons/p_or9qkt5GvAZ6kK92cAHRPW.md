@@ -4,6 +4,7 @@ id: p_or9qkt5GvAZ6kK92cAHRPW
 status: active
 merged_into: null
 display_name: 王伯名
+cbdb_id: 287272
 revision: 1
 properties:
   - predicate: bio.summary

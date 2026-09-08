@@ -4,6 +4,7 @@ id: p_CdwM3THTpPaWK4dEbPKnqz
 status: active
 merged_into: null
 display_name: 王存尚
+cbdb_id: 260634
 revision: 1
 properties:
   - predicate: bio.summary

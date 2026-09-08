@@ -4,6 +4,7 @@ id: p_E91Pj5koCPgs9Hjp5Bysnt
 status: active
 merged_into: null
 display_name: 王節之
+cbdb_id: 35729
 revision: 1
 properties:
   - predicate: bio.summary

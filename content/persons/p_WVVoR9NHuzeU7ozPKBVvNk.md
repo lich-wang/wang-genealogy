@@ -4,6 +4,7 @@ id: p_WVVoR9NHuzeU7ozPKBVvNk
 status: active
 merged_into: null
 display_name: 王伯智
+cbdb_id: 255901
 revision: 1
 properties:
   - predicate: bio.summary

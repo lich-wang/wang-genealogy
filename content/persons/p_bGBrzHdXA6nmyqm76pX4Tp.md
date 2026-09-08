@@ -4,6 +4,7 @@ id: p_bGBrzHdXA6nmyqm76pX4Tp
 status: active
 merged_into: null
 display_name: 王應綵
+cbdb_id: 61240
 revision: 1
 properties:
   - predicate: bio.summary

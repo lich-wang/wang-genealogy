@@ -4,6 +4,7 @@ id: p_JTc1E7LgQAh6Uz9airZSVG
 status: active
 merged_into: null
 display_name: 王雲鷺
+cbdb_id: 205920
 revision: 1
 properties:
   - predicate: bio.summary

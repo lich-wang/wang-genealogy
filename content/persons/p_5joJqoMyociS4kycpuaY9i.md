@@ -4,6 +4,7 @@ id: p_5joJqoMyociS4kycpuaY9i
 status: active
 merged_into: null
 display_name: 王以修
+cbdb_id: 126492
 revision: 1
 properties:
   - predicate: bio.summary

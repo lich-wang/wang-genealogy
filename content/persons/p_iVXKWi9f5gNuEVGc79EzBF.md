@@ -4,6 +4,7 @@ id: p_iVXKWi9f5gNuEVGc79EzBF
 status: active
 merged_into: null
 display_name: 王晏宝
+cbdb_id: 184943
 revision: 2
 properties:
   - predicate: bio.summary

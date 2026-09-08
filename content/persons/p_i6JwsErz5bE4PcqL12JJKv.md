@@ -4,6 +4,7 @@ id: p_i6JwsErz5bE4PcqL12JJKv
 status: active
 merged_into: null
 display_name: 王覺任
+cbdb_id: 71916
 revision: 1
 properties:
   - predicate: bio.summary

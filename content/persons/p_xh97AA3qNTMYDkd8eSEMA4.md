@@ -4,6 +4,7 @@ id: p_xh97AA3qNTMYDkd8eSEMA4
 status: active
 merged_into: null
 display_name: 王符電
+cbdb_id: 526812
 revision: 1
 properties:
   - predicate: bio.summary

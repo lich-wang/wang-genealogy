@@ -4,6 +4,7 @@ id: p_VeK5HianhFoHZHZJJ3vmDH
 status: active
 merged_into: null
 display_name: 王齊叟
+cbdb_id: 38309
 revision: 1
 properties:
   - predicate: bio.summary

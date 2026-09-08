@@ -4,6 +4,7 @@ id: p_jhEZERf87Yu1gr8MbYEspe
 status: active
 merged_into: null
 display_name: 吴氏
+cbdb_id: 247603
 revision: 1
 properties:
   - predicate: bio.summary

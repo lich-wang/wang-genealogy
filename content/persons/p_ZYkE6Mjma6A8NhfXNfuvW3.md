@@ -4,6 +4,7 @@ id: p_ZYkE6Mjma6A8NhfXNfuvW3
 status: active
 merged_into: null
 display_name: 王應召
+cbdb_id: 526646
 revision: 1
 properties:
   - predicate: bio.summary

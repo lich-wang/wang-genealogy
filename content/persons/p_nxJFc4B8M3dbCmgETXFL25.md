@@ -4,6 +4,7 @@ id: p_nxJFc4B8M3dbCmgETXFL25
 status: active
 merged_into: null
 display_name: 王叔元
+cbdb_id: 56206
 revision: 1
 properties:
   - predicate: bio.summary

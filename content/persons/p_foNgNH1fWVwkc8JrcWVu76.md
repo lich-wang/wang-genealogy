@@ -4,6 +4,7 @@ id: p_foNgNH1fWVwkc8JrcWVu76
 status: active
 merged_into: null
 display_name: 王漸逑
+cbdb_id: 279746
 revision: 1
 properties:
   - predicate: bio.summary

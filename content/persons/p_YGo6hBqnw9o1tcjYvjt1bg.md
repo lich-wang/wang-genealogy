@@ -4,6 +4,7 @@ id: p_YGo6hBqnw9o1tcjYvjt1bg
 status: active
 merged_into: null
 display_name: 王智翰
+cbdb_id: 414811
 revision: 1
 properties:
   - predicate: bio.summary

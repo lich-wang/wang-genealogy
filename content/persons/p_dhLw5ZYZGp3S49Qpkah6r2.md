@@ -4,6 +4,7 @@ id: p_dhLw5ZYZGp3S49Qpkah6r2
 status: active
 merged_into: null
 display_name: 王來麟
+cbdb_id: 513593
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_AyVBXEpeKMi8zdLGnLqfxr
 status: active
 merged_into: null
 display_name: 王瑞貞
+cbdb_id: 121042
 revision: 1
 properties:
   - predicate: bio.summary

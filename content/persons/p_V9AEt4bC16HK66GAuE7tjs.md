@@ -4,6 +4,7 @@ id: p_V9AEt4bC16HK66GAuE7tjs
 status: active
 merged_into: null
 display_name: 王之鑑
+cbdb_id: 413773
 revision: 1
 properties:
   - predicate: bio.summary

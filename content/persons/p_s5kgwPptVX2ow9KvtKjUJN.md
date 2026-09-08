@@ -4,6 +4,7 @@ id: p_s5kgwPptVX2ow9KvtKjUJN
 status: active
 merged_into: null
 display_name: 王志简
+cbdb_id: 175392
 revision: 1
 properties:
   - predicate: bio.summary

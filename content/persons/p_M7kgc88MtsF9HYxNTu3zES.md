@@ -4,6 +4,7 @@ id: p_M7kgc88MtsF9HYxNTu3zES
 status: active
 merged_into: null
 display_name: 王延裪
+cbdb_id: 71579
 revision: 1
 properties:
   - predicate: bio.summary

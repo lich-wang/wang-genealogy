@@ -4,6 +4,7 @@ id: p_FrfwbNPHimFWcT5aHCJwfs
 status: active
 merged_into: null
 display_name: 王昭德
+cbdb_id: 386180
 revision: 1
 properties:
   - predicate: bio.summary

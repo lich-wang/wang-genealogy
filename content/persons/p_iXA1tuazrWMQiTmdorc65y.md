@@ -4,6 +4,7 @@ id: p_iXA1tuazrWMQiTmdorc65y
 status: active
 merged_into: null
 display_name: 王仁徹
+cbdb_id: 381651
 revision: 1
 properties:
   - predicate: bio.summary

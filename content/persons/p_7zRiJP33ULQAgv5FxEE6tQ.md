@@ -4,6 +4,7 @@ id: p_7zRiJP33ULQAgv5FxEE6tQ
 status: active
 merged_into: null
 display_name: 王啟光
+cbdb_id: 216146
 revision: 1
 properties:
   - predicate: bio.summary

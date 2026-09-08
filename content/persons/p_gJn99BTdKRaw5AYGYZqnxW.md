@@ -4,6 +4,7 @@ id: p_gJn99BTdKRaw5AYGYZqnxW
 status: active
 merged_into: null
 display_name: 王太不花
+cbdb_id: 101465
 revision: 1
 properties:
   - predicate: bio.summary

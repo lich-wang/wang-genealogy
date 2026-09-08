@@ -4,6 +4,7 @@ id: p_BaCtxExXAmsxuoh52McPA8
 status: active
 merged_into: null
 display_name: 王廷統
+cbdb_id: 526750
 revision: 1
 properties:
   - predicate: bio.summary

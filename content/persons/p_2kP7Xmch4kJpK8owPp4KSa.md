@@ -4,6 +4,7 @@ id: p_2kP7Xmch4kJpK8owPp4KSa
 status: active
 merged_into: null
 display_name: 王宣哲
+cbdb_id: 37706
 revision: 1
 properties:
   - predicate: bio.summary

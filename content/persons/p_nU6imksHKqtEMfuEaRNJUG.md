@@ -4,6 +4,7 @@ id: p_nU6imksHKqtEMfuEaRNJUG
 status: active
 merged_into: null
 display_name: 王上客
+cbdb_id: 191289
 revision: 1
 properties:
   - predicate: name.primary

@@ -4,6 +4,7 @@ id: p_G5stHnMK82gdFnbGia9fRP
 status: active
 merged_into: null
 display_name: 王宗河
+cbdb_id: 278555
 revision: 1
 properties:
   - predicate: bio.summary

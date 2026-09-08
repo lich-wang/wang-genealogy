@@ -4,6 +4,7 @@ id: p_f6c89f6UCiFQDVNgHWVvuT
 status: active
 merged_into: null
 display_name: 王清選
+cbdb_id: 342754
 revision: 1
 properties:
   - predicate: bio.summary

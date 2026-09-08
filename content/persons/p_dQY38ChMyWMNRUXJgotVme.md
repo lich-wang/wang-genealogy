@@ -4,6 +4,7 @@ id: p_dQY38ChMyWMNRUXJgotVme
 status: active
 merged_into: null
 display_name: 王朝傑
+cbdb_id: 343279
 revision: 1
 properties:
   - predicate: bio.summary

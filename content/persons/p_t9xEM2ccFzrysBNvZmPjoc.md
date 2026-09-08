@@ -4,6 +4,7 @@ id: p_t9xEM2ccFzrysBNvZmPjoc
 status: active
 merged_into: null
 display_name: 王九誥
+cbdb_id: 413783
 revision: 1
 properties:
   - predicate: bio.summary

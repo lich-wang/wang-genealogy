@@ -4,6 +4,7 @@ id: p_BJspr9EWCRsqMfe9TeD6zB
 status: active
 merged_into: null
 display_name: 王謀文
+cbdb_id: 54793
 revision: 1
 properties:
   - predicate: bio.summary

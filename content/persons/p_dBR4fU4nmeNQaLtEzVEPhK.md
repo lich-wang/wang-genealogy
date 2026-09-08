@@ -4,6 +4,7 @@ id: p_dBR4fU4nmeNQaLtEzVEPhK
 status: active
 merged_into: null
 display_name: 王宗續
+cbdb_id: 307072
 revision: 1
 properties:
   - predicate: bio.summary

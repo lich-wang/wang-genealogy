@@ -4,6 +4,7 @@ id: p_SyGzt2QVX9p9429Xmvya6D
 status: active
 merged_into: null
 display_name: 赵氏
+cbdb_id: 217871
 revision: 1
 properties:
   - predicate: bio.summary

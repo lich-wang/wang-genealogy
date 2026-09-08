@@ -4,6 +4,7 @@ id: p_oEGj7G7AYx8UHqY1XvXqYH
 status: active
 merged_into: null
 display_name: 王承鑑
+cbdb_id: 238218
 revision: 1
 properties:
   - predicate: bio.summary

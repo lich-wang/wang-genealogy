@@ -4,6 +4,7 @@ id: p_4RdBz4yqStWy94sdFFBDWq
 status: active
 merged_into: null
 display_name: 王顯之
+cbdb_id: 326831
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_m4VozeEEDbwDDHSWL1z3po
 status: active
 merged_into: null
 display_name: 王廷珏
+cbdb_id: 414471
 revision: 1
 properties:
   - predicate: bio.summary

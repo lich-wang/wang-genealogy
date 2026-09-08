@@ -4,6 +4,7 @@ id: p_Heu9Er3kWPahWKEGq9Je7R
 status: active
 merged_into: null
 display_name: 王東林
+cbdb_id: 343360
 revision: 1
 properties:
   - predicate: bio.summary

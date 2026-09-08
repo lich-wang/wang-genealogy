@@ -4,6 +4,7 @@ id: p_xQgm5Xc54SJxf3Gpfe37YB
 status: active
 merged_into: null
 display_name: 王佺期
+cbdb_id: 175374
 revision: 1
 properties:
   - predicate: bio.summary

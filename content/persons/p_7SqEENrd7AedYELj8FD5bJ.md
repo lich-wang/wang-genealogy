@@ -4,6 +4,7 @@ id: p_7SqEENrd7AedYELj8FD5bJ
 status: active
 merged_into: null
 display_name: 王世遠
+cbdb_id: 343181
 revision: 1
 properties:
   - predicate: bio.summary

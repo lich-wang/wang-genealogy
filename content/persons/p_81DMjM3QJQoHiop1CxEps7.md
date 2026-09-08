@@ -4,6 +4,7 @@ id: p_81DMjM3QJQoHiop1CxEps7
 status: active
 merged_into: null
 display_name: 王道文
+cbdb_id: 321158
 revision: 1
 properties:
   - predicate: bio.summary

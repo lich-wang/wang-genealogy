@@ -4,6 +4,7 @@ id: p_QEmoodtDA25bHb3Lbf1q74
 status: active
 merged_into: null
 display_name: 王君弼
+cbdb_id: 414047
 revision: 1
 properties:
   - predicate: bio.summary

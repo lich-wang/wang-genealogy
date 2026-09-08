@@ -4,6 +4,7 @@ id: p_GvzM8bUCZXb8PEe34qfnLB
 status: active
 merged_into: null
 display_name: 王聖蕃
+cbdb_id: 510921
 revision: 1
 properties:
   - predicate: bio.summary

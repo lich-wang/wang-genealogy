@@ -4,6 +4,7 @@ id: p_jot8L945T3wfGcLdE46XY1
 status: active
 merged_into: null
 display_name: 王仲筠
+cbdb_id: 101146
 revision: 1
 properties:
   - predicate: bio.summary

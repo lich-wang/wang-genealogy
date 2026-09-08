@@ -4,6 +4,7 @@ id: p_M5B7SxK83UpkrLpzZWB3P7
 status: active
 merged_into: null
 display_name: 王志凝
+cbdb_id: 154139
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_GF6iAebNsFgoePvByoccyQ
 status: active
 merged_into: null
 display_name: 王元道
+cbdb_id: 314307
 revision: 1
 properties:
   - predicate: bio.summary

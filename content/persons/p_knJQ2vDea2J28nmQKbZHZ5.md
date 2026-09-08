@@ -4,6 +4,7 @@ id: p_knJQ2vDea2J28nmQKbZHZ5
 status: active
 merged_into: null
 display_name: 王夢堯
+cbdb_id: 343094
 revision: 1
 properties:
   - predicate: bio.summary

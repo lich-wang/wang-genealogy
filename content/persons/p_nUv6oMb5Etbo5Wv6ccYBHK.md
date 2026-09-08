@@ -4,6 +4,7 @@ id: p_nUv6oMb5Etbo5Wv6ccYBHK
 status: active
 merged_into: null
 display_name: 王子岱
+cbdb_id: 523971
 revision: 1
 properties:
   - predicate: bio.summary

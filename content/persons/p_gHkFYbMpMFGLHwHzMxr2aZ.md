@@ -4,6 +4,7 @@ id: p_gHkFYbMpMFGLHwHzMxr2aZ
 status: active
 merged_into: null
 display_name: 王藏
+cbdb_id: 151196
 revision: 1
 properties:
   - predicate: bio.summary

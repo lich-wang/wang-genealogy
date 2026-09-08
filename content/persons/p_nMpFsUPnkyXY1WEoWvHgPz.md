@@ -4,6 +4,7 @@ id: p_nMpFsUPnkyXY1WEoWvHgPz
 status: active
 merged_into: null
 display_name: 王昌發
+cbdb_id: 69273
 revision: 1
 properties:
   - predicate: bio.summary

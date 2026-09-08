@@ -4,6 +4,7 @@ id: p_1tCSH4qvU8Gxs2zqiHmkFr
 status: active
 merged_into: null
 display_name: 王鼎汾
+cbdb_id: 526843
 revision: 1
 properties:
   - predicate: bio.summary

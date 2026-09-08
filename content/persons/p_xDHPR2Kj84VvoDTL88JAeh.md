@@ -4,6 +4,7 @@ id: p_xDHPR2Kj84VvoDTL88JAeh
 status: active
 merged_into: null
 display_name: 王懷仁
+cbdb_id: 158362
 revision: 1
 properties:
   - predicate: bio.summary

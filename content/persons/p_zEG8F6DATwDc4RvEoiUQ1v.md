@@ -4,6 +4,7 @@ id: p_zEG8F6DATwDc4RvEoiUQ1v
 status: active
 merged_into: null
 display_name: 王世國
+cbdb_id: 59954
 revision: 1
 properties:
   - predicate: bio.summary

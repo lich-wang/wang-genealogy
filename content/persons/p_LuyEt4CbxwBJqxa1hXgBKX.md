@@ -4,6 +4,7 @@ id: p_LuyEt4CbxwBJqxa1hXgBKX
 status: active
 merged_into: null
 display_name: 王嗣端
+cbdb_id: 175560
 revision: 1
 properties:
   - predicate: bio.summary

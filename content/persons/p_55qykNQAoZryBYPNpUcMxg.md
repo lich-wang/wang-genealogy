@@ -4,6 +4,7 @@ id: p_55qykNQAoZryBYPNpUcMxg
 status: active
 merged_into: null
 display_name: 王復古
+cbdb_id: 22119
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_qHWEFvat5qe8sNPkZm2a3f
 status: active
 merged_into: null
 display_name: 王永迪
+cbdb_id: 238365
 revision: 1
 properties:
   - predicate: bio.summary

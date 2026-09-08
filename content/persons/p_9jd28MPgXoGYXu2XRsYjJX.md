@@ -4,6 +4,7 @@ id: p_9jd28MPgXoGYXu2XRsYjJX
 status: active
 merged_into: null
 display_name: 王熙桂
+cbdb_id: 72155
 revision: 1
 properties:
   - predicate: bio.summary

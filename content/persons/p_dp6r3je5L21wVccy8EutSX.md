@@ -4,6 +4,7 @@ id: p_dp6r3je5L21wVccy8EutSX
 status: active
 merged_into: null
 display_name: 王命銓
+cbdb_id: 414058
 revision: 1
 properties:
   - predicate: bio.summary

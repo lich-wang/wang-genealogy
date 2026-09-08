@@ -4,6 +4,7 @@ id: p_U6haTVwRobrtGTMe16zZmQ
 status: active
 merged_into: null
 display_name: 王振璋
+cbdb_id: 71951
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_5JaskhrdQ3PeuLsNvA3kdk
 status: active
 merged_into: null
 display_name: 王所安
+cbdb_id: 280830
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_YBCHm7yBrAhedTyRZP7BRr
 status: active
 merged_into: null
 display_name: 王夢麒
+cbdb_id: 221667
 revision: 1
 properties:
   - predicate: bio.summary

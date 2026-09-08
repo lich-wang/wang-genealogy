@@ -4,6 +4,7 @@ id: p_7bD1J3U626Q6tgeCWf9TSH
 status: active
 merged_into: null
 display_name: 王朵羅歹
+cbdb_id: 101467
 revision: 1
 properties:
   - predicate: bio.summary

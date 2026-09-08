@@ -4,6 +4,7 @@ id: p_8vaWxLtKAay3NrBgZSBhqq
 status: active
 merged_into: null
 display_name: 王屬
+cbdb_id: 236261
 revision: 1
 properties:
   - predicate: bio.summary

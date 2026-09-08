@@ -4,6 +4,7 @@ id: p_Ltd2Q8MpRwwcmH3rLWv9vX
 status: active
 merged_into: null
 display_name: 王諄
+cbdb_id: 37911
 revision: 1
 properties:
   - predicate: bio.summary

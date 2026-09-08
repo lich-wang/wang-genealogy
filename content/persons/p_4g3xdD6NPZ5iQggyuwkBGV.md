@@ -4,6 +4,7 @@ id: p_4g3xdD6NPZ5iQggyuwkBGV
 status: active
 merged_into: null
 display_name: 王令
+cbdb_id: 3967
 revision: 1
 properties:
   - predicate: bio.summary

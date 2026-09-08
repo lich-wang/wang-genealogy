@@ -4,6 +4,7 @@ id: p_33KokniZL21s1thwAaox5M
 status: active
 merged_into: null
 display_name: 王和及
+cbdb_id: 175617
 revision: 1
 properties:
   - predicate: bio.summary

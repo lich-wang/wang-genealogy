@@ -4,6 +4,7 @@ id: p_1CnDV1uXu2cPKxk5ki1EED
 status: active
 merged_into: null
 display_name: 王景道
+cbdb_id: 244354
 revision: 1
 properties:
   - predicate: bio.summary

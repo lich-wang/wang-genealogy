@@ -4,6 +4,7 @@ id: p_sgpYo3rzXNe4SaPLP3zmd9
 status: active
 merged_into: null
 display_name: 王清圖
+cbdb_id: 415027
 revision: 1
 properties:
   - predicate: bio.summary

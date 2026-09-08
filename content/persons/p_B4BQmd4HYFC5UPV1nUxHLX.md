@@ -4,6 +4,7 @@ id: p_B4BQmd4HYFC5UPV1nUxHLX
 status: active
 merged_into: null
 display_name: 王伯威
+cbdb_id: 413854
 revision: 1
 properties:
   - predicate: bio.summary

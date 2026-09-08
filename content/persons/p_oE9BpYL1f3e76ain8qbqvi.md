@@ -4,6 +4,7 @@ id: p_oE9BpYL1f3e76ain8qbqvi
 status: active
 merged_into: null
 display_name: 王履初
+cbdb_id: 22933
 revision: 1
 properties:
   - predicate: bio.summary

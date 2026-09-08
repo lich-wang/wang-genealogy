@@ -4,6 +4,7 @@ id: p_ywuPWcfaQRW2BgCQvzq7yQ
 status: active
 merged_into: null
 display_name: 王錠
+cbdb_id: 481681
 revision: 1
 properties:
   - predicate: bio.summary

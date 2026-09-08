@@ -4,6 +4,7 @@ id: p_7R4n26F86UHbBJWQVDXKxm
 status: active
 merged_into: null
 display_name: 王希祥
+cbdb_id: 164524
 revision: 1
 properties:
   - predicate: bio.summary

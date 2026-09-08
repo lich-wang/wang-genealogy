@@ -4,6 +4,7 @@ id: p_1CGBTonP4mySFLuMBD415a
 status: active
 merged_into: null
 display_name: 王朝信
+cbdb_id: 414837
 revision: 1
 properties:
   - predicate: bio.summary

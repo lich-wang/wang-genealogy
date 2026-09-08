@@ -4,6 +4,7 @@ id: p_uMoYvHtHcYSbRrJYWwDGUq
 status: active
 merged_into: null
 display_name: 王陳策
+cbdb_id: 203846
 revision: 1
 properties:
   - predicate: bio.summary

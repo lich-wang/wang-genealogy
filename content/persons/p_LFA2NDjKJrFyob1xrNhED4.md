@@ -4,6 +4,7 @@ id: p_LFA2NDjKJrFyob1xrNhED4
 status: active
 merged_into: null
 display_name: 王映榮
+cbdb_id: 526705
 revision: 1
 properties:
   - predicate: bio.summary

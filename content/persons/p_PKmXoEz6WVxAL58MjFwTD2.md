@@ -4,6 +4,7 @@ id: p_PKmXoEz6WVxAL58MjFwTD2
 status: active
 merged_into: null
 display_name: 王景信
+cbdb_id: 257072
 revision: 1
 properties:
   - predicate: bio.summary

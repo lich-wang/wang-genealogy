@@ -4,6 +4,7 @@ id: p_3wL2fQErDSb4B4arPG5LJq
 status: active
 merged_into: null
 display_name: 王有懋
+cbdb_id: 226064
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_mWd3ghvkAxaic2rH5LEQoX
 status: active
 merged_into: null
 display_name: 王成名
+cbdb_id: 414669
 revision: 1
 properties:
   - predicate: bio.summary

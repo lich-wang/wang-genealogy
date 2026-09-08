@@ -4,6 +4,7 @@ id: p_h167qCAMpGsREC31zmatdE
 status: active
 merged_into: null
 display_name: 王仲思
+cbdb_id: 413839
 revision: 1
 properties:
   - predicate: bio.summary

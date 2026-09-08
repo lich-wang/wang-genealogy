@@ -4,6 +4,7 @@ id: p_K8X3omozfoFUR118VqVNhm
 status: active
 merged_into: null
 display_name: 王咬住
+cbdb_id: 439458
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_CcSeYesqggrZm5aEhuP8DZ
 status: active
 merged_into: null
 display_name: 王自適
+cbdb_id: 22032
 revision: 1
 properties:
   - predicate: bio.summary

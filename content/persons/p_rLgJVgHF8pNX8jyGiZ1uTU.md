@@ -4,6 +4,7 @@ id: p_rLgJVgHF8pNX8jyGiZ1uTU
 status: active
 merged_into: null
 display_name: 王玉鼎
+cbdb_id: 458442
 revision: 1
 properties:
   - predicate: bio.summary

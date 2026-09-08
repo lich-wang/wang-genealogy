@@ -4,6 +4,7 @@ id: p_wjDeENxZiJFU8wRERBPeUd
 status: active
 merged_into: null
 display_name: 王明远
+cbdb_id: 175937
 revision: 1
 properties:
   - predicate: name.primary

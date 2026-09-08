@@ -4,6 +4,7 @@ id: p_3ZDZmq5CVsJU9PVY6GZ6uT
 status: active
 merged_into: null
 display_name: 王申錫
+cbdb_id: 222536
 revision: 1
 properties:
   - predicate: bio.summary

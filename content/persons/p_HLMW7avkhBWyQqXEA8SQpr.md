@@ -4,6 +4,7 @@ id: p_HLMW7avkhBWyQqXEA8SQpr
 status: active
 merged_into: null
 display_name: 王夢翼
+cbdb_id: 414189
 revision: 1
 properties:
   - predicate: bio.summary

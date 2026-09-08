@@ -4,6 +4,7 @@ id: p_w5xjrAZSV7xjoCcNJp8JN1
 status: active
 merged_into: null
 display_name: 王顧問
+cbdb_id: 98060
 revision: 1
 properties:
   - predicate: bio.summary

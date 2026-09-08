@@ -4,6 +4,7 @@ id: p_cFYT9cQ2mUiYVDSuNqMz81
 status: active
 merged_into: null
 display_name: 王丽
+cbdb_id: 175582
 revision: 1
 properties:
   - predicate: bio.summary

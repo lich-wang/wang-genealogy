@@ -4,6 +4,7 @@ id: p_FhjTvj6P9GuZYWW9qJ9HeY
 status: active
 merged_into: null
 display_name: 王遜志
+cbdb_id: 28741
 revision: 1
 properties:
   - predicate: bio.summary

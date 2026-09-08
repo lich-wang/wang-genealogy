@@ -4,6 +4,7 @@ id: p_h5RJJyXoT4Ns1hryVoU1Ar
 status: active
 merged_into: null
 display_name: 王萬青
+cbdb_id: 415368
 revision: 1
 properties:
   - predicate: bio.summary

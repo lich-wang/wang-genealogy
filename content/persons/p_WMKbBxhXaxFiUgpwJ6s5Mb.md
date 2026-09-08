@@ -4,6 +4,7 @@ id: p_WMKbBxhXaxFiUgpwJ6s5Mb
 status: active
 merged_into: null
 display_name: 王璋福
+cbdb_id: 415117
 revision: 1
 properties:
   - predicate: bio.summary

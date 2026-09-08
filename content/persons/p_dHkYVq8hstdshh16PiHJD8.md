@@ -4,6 +4,7 @@ id: p_dHkYVq8hstdshh16PiHJD8
 status: active
 merged_into: null
 display_name: 王獻蓋
+cbdb_id: 293687
 revision: 1
 properties:
   - predicate: bio.summary

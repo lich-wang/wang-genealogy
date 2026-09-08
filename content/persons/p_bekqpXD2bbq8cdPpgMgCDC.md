@@ -4,6 +4,7 @@ id: p_bekqpXD2bbq8cdPpgMgCDC
 status: active
 merged_into: null
 display_name: 王栩
+cbdb_id: 283703
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_BChCuFHjEoLkJji1RG47tG
 status: active
 merged_into: null
 display_name: 王崇遇
+cbdb_id: 24513
 revision: 1
 properties:
   - predicate: bio.summary

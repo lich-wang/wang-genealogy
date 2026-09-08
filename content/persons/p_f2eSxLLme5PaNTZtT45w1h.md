@@ -4,6 +4,7 @@ id: p_f2eSxLLme5PaNTZtT45w1h
 status: active
 merged_into: null
 display_name: 王發槐
+cbdb_id: 415149
 revision: 1
 properties:
   - predicate: bio.summary

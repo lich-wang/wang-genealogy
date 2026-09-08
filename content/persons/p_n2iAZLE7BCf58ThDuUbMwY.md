@@ -4,6 +4,7 @@ id: p_n2iAZLE7BCf58ThDuUbMwY
 status: active
 merged_into: null
 display_name: 王堯年
+cbdb_id: 301850
 revision: 1
 properties:
   - predicate: bio.summary

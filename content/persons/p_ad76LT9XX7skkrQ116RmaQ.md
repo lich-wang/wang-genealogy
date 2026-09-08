@@ -4,6 +4,7 @@ id: p_ad76LT9XX7skkrQ116RmaQ
 status: active
 merged_into: null
 display_name: 王廷瑚
+cbdb_id: 524268
 revision: 1
 properties:
   - predicate: bio.summary

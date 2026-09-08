@@ -4,6 +4,7 @@ id: p_qMGzQPFe24TmAuxc4CupbF
 status: active
 merged_into: null
 display_name: 王光燮
+cbdb_id: 54398
 revision: 1
 properties:
   - predicate: bio.summary

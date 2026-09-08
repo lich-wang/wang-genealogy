@@ -4,6 +4,7 @@ id: p_iSUAeGyEb2hAFEnFZQUFww
 status: active
 merged_into: null
 display_name: 王從繩
+cbdb_id: 71411
 revision: 1
 properties:
   - predicate: bio.summary

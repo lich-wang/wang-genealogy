@@ -4,6 +4,7 @@ id: p_1N1DMSNij1QVwie6MdHCh4
 status: active
 merged_into: null
 display_name: 王士巽
+cbdb_id: 244941
 revision: 1
 properties:
   - predicate: bio.summary

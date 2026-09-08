@@ -4,6 +4,7 @@ id: p_q2QWZkb8qW7263rc3iKHSn
 status: active
 merged_into: null
 display_name: 王古敏
+cbdb_id: 445592
 revision: 1
 properties:
   - predicate: bio.summary

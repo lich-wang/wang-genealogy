@@ -4,6 +4,7 @@ id: p_D2y2Lv2wwPmAeHd6wAzori
 status: active
 merged_into: null
 display_name: 王源孚
+cbdb_id: 175595
 revision: 1
 properties:
   - predicate: bio.summary

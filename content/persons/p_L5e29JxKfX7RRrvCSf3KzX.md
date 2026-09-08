@@ -4,6 +4,7 @@ id: p_L5e29JxKfX7RRrvCSf3KzX
 status: active
 merged_into: null
 display_name: 王執璧
+cbdb_id: 330528
 revision: 1
 properties:
   - predicate: bio.summary

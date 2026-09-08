@@ -4,6 +4,7 @@ id: p_8wBKhGEndLXas4ENZDEWFf
 status: active
 merged_into: null
 display_name: 王好敬
+cbdb_id: 236421
 revision: 1
 properties:
   - predicate: bio.summary

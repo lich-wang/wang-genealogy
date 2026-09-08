@@ -4,6 +4,7 @@ id: p_cWnz1m5oAqmkbBxuxL4TG3
 status: active
 merged_into: null
 display_name: 王雲信
+cbdb_id: 497926
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_QvEHwLg9mMdRK1CTAhUdLB
 status: active
 merged_into: null
 display_name: 王錫璋
+cbdb_id: 343804
 revision: 1
 properties:
   - predicate: bio.summary

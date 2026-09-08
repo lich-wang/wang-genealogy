@@ -4,6 +4,7 @@ id: p_VbCW6WGwwUGJMtEFqfDRNb
 status: active
 merged_into: null
 display_name: 王士顯
+cbdb_id: 101036
 revision: 1
 properties:
   - predicate: bio.summary

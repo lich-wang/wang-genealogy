@@ -4,6 +4,7 @@ id: p_T57BhsLmx7WNLiHJDMC2n8
 status: active
 merged_into: null
 display_name: 王義升
+cbdb_id: 38215
 revision: 1
 properties:
   - predicate: bio.summary

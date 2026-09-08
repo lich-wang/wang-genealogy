@@ -4,6 +4,7 @@ id: p_YXYURyzHweb2SxBZEu7SLu
 status: active
 merged_into: null
 display_name: 王僧慧
+cbdb_id: 342464
 revision: 1
 properties:
   - predicate: bio.summary

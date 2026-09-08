@@ -4,6 +4,7 @@ id: p_EKiD1Jc6GngFELNWT5F3RT
 status: active
 merged_into: null
 display_name: 王廷鈞
+cbdb_id: 519947
 revision: 1
 properties:
   - predicate: bio.summary

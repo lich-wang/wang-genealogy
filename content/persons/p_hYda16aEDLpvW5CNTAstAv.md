@@ -4,6 +4,7 @@ id: p_hYda16aEDLpvW5CNTAstAv
 status: active
 merged_into: null
 display_name: 王弘簡
+cbdb_id: 148334
 revision: 1
 properties:
   - predicate: bio.summary

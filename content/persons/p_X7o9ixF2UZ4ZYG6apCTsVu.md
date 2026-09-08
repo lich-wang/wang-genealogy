@@ -4,6 +4,7 @@ id: p_X7o9ixF2UZ4ZYG6apCTsVu
 status: active
 merged_into: null
 display_name: 王志忠
+cbdb_id: 155583
 revision: 1
 properties:
   - predicate: bio.summary

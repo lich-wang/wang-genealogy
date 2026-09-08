@@ -4,6 +4,7 @@ id: p_iHMh7eWrNMdmn3tpjzgVvy
 status: active
 merged_into: null
 display_name: 王言中
+cbdb_id: 331765
 revision: 1
 properties:
   - predicate: bio.summary

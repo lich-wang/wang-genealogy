@@ -4,6 +4,7 @@ id: p_8US8SW91TW7rxE4FPNsHyC
 status: active
 merged_into: null
 display_name: 王松壑
+cbdb_id: 55266
 revision: 1
 properties:
   - predicate: bio.summary

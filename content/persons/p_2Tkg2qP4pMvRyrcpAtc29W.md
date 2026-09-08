@@ -4,6 +4,7 @@ id: p_2Tkg2qP4pMvRyrcpAtc29W
 status: active
 merged_into: null
 display_name: 王禮冠
+cbdb_id: 328846
 revision: 1
 properties:
   - predicate: bio.summary

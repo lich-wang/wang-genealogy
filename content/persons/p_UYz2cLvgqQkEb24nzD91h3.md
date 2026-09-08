@@ -4,6 +4,7 @@ id: p_UYz2cLvgqQkEb24nzD91h3
 status: active
 merged_into: null
 display_name: 王清碩
+cbdb_id: 415031
 revision: 1
 properties:
   - predicate: bio.summary

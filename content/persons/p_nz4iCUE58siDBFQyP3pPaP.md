@@ -4,6 +4,7 @@ id: p_nz4iCUE58siDBFQyP3pPaP
 status: active
 merged_into: null
 display_name: 王慶遜
+cbdb_id: 22074
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_NaA4vxnbLqTV4fYbwc2NWi
 status: active
 merged_into: null
 display_name: 王庭楨
+cbdb_id: 414433
 revision: 1
 properties:
   - predicate: bio.summary

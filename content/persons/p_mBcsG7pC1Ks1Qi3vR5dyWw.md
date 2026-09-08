@@ -4,6 +4,7 @@ id: p_mBcsG7pC1Ks1Qi3vR5dyWw
 status: active
 merged_into: null
 display_name: 王慎猷
+cbdb_id: 343918
 revision: 1
 properties:
   - predicate: bio.summary

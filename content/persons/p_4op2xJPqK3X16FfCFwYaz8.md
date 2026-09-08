@@ -4,6 +4,7 @@ id: p_4op2xJPqK3X16FfCFwYaz8
 status: active
 merged_into: null
 display_name: 王廷僚
+cbdb_id: 341916
 revision: 1
 properties:
   - predicate: bio.summary

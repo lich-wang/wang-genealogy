@@ -4,6 +4,7 @@ id: p_S3M19LwxV4vMoM2EMMcdHu
 status: active
 merged_into: null
 display_name: 王叔獻
+cbdb_id: 22881
 revision: 1
 properties:
   - predicate: bio.summary

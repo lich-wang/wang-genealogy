@@ -4,6 +4,7 @@ id: p_2UcG17dr8sxa1rHBCtgoZz
 status: active
 merged_into: null
 display_name: 王僧愷
+cbdb_id: 342465
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_23HzH6gnvP49sVtCp1KzgH
 status: active
 merged_into: null
 display_name: 王世熈
+cbdb_id: 413718
 revision: 1
 properties:
   - predicate: bio.summary

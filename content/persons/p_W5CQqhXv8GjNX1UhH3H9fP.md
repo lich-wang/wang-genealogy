@@ -4,6 +4,7 @@ id: p_W5CQqhXv8GjNX1UhH3H9fP
 status: active
 merged_into: null
 display_name: 王可佳
+cbdb_id: 318735
 revision: 1
 properties:
   - predicate: bio.summary

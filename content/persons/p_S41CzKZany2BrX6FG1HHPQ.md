@@ -4,6 +4,7 @@ id: p_S41CzKZany2BrX6FG1HHPQ
 status: active
 merged_into: null
 display_name: 王仲翔
+cbdb_id: 175895
 revision: 1
 properties:
   - predicate: bio.summary

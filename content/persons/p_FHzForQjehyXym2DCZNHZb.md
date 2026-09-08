@@ -4,6 +4,7 @@ id: p_FHzForQjehyXym2DCZNHZb
 status: active
 merged_into: null
 display_name: 王仲侃
+cbdb_id: 386037
 revision: 1
 properties:
   - predicate: name.primary

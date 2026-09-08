@@ -4,6 +4,7 @@ id: p_kk8XgfXR44rEdojYPXyRzP
 status: active
 merged_into: null
 display_name: 王正吉
+cbdb_id: 414913
 revision: 1
 properties:
   - predicate: bio.summary

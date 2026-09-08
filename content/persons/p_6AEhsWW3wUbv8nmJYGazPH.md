@@ -4,6 +4,7 @@ id: p_6AEhsWW3wUbv8nmJYGazPH
 status: active
 merged_into: null
 display_name: 王應參
+cbdb_id: 313050
 revision: 1
 properties:
   - predicate: bio.summary

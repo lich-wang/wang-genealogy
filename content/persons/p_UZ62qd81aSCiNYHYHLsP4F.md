@@ -4,6 +4,7 @@ id: p_UZ62qd81aSCiNYHYHLsP4F
 status: active
 merged_into: null
 display_name: 王坑
+cbdb_id: 21271
 revision: 1
 properties:
   - predicate: bio.summary

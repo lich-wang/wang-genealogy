@@ -4,6 +4,7 @@ id: p_NyMxvL8t5EDQwKs2QzmNVz
 status: active
 merged_into: null
 display_name: 王充耘
+cbdb_id: 101150
 revision: 1
 properties:
   - predicate: bio.summary

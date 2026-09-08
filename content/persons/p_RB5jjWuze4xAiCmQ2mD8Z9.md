@@ -4,6 +4,7 @@ id: p_RB5jjWuze4xAiCmQ2mD8Z9
 status: active
 merged_into: null
 display_name: 王徽詔
+cbdb_id: 325304
 revision: 1
 properties:
   - predicate: bio.summary

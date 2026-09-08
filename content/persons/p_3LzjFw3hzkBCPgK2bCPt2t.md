@@ -4,6 +4,7 @@ id: p_3LzjFw3hzkBCPgK2bCPt2t
 status: active
 merged_into: null
 display_name: 王孝章
+cbdb_id: 327160
 revision: 1
 properties:
   - predicate: bio.summary

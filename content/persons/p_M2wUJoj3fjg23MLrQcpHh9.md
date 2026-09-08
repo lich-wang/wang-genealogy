@@ -4,6 +4,7 @@ id: p_M2wUJoj3fjg23MLrQcpHh9
 status: active
 merged_into: null
 display_name: 劉徹
+cbdb_id: 16626
 revision: 1
 properties:
   - predicate: bio.summary

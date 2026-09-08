@@ -4,6 +4,7 @@ id: p_KbE3VYwBQk3rLuTGnVB2me
 status: active
 merged_into: null
 display_name: 王正国
+cbdb_id: 68263
 revision: 2
 properties:
   - predicate: bio.summary

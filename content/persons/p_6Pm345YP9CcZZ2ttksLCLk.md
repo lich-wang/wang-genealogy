@@ -4,6 +4,7 @@ id: p_6Pm345YP9CcZZ2ttksLCLk
 status: active
 merged_into: null
 display_name: 王宣之
+cbdb_id: 414331
 revision: 1
 properties:
   - predicate: bio.summary

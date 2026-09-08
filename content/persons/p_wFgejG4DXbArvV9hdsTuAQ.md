@@ -4,6 +4,7 @@ id: p_wFgejG4DXbArvV9hdsTuAQ
 status: active
 merged_into: null
 display_name: 王效成
+cbdb_id: 71964
 revision: 1
 properties:
   - predicate: bio.summary

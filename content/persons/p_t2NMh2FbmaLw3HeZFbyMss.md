@@ -4,6 +4,7 @@ id: p_t2NMh2FbmaLw3HeZFbyMss
 status: active
 merged_into: null
 display_name: 王洪顥
+cbdb_id: 342740
 revision: 1
 properties:
   - predicate: bio.summary

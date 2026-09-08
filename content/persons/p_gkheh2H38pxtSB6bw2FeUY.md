@@ -4,6 +4,7 @@ id: p_gkheh2H38pxtSB6bw2FeUY
 status: active
 merged_into: null
 display_name: 王正辭
+cbdb_id: 26352
 revision: 1
 properties:
   - predicate: bio.summary

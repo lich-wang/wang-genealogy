@@ -4,6 +4,7 @@ id: p_wynaTYNuiG5FsaQCMCnXSJ
 status: active
 merged_into: null
 display_name: 王錫琨
+cbdb_id: 343808
 revision: 1
 properties:
   - predicate: bio.summary

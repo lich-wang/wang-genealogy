@@ -4,6 +4,7 @@ id: p_v7nJaizNS5sDQwdXaJxtMQ
 status: active
 merged_into: null
 display_name: 王師契
+cbdb_id: 414419
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_sXRES3LSmDpedb49KUTwHf
 status: active
 merged_into: null
 display_name: 王篤祐
+cbdb_id: 415219
 revision: 1
 properties:
   - predicate: bio.summary

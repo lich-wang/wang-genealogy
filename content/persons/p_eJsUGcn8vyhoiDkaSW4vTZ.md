@@ -4,6 +4,7 @@ id: p_eJsUGcn8vyhoiDkaSW4vTZ
 status: active
 merged_into: null
 display_name: 王學尹
+cbdb_id: 414265
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_QwpbodXwefBukWs16gPFvi
 status: active
 merged_into: null
 display_name: 王益祥
+cbdb_id: 37942
 revision: 1
 properties:
   - predicate: bio.summary

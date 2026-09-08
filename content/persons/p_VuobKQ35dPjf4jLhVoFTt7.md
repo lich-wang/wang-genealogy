@@ -4,6 +4,7 @@ id: p_VuobKQ35dPjf4jLhVoFTt7
 status: active
 merged_into: null
 display_name: 王知載
+cbdb_id: 37645
 revision: 1
 properties:
   - predicate: bio.summary

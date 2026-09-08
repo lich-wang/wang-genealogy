@@ -4,6 +4,7 @@ id: p_AzHbFDisRRKkMao2Tmvw7Z
 status: active
 merged_into: null
 display_name: 王庭諫
+cbdb_id: 218644
 revision: 1
 properties:
   - predicate: bio.summary

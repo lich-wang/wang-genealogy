@@ -4,6 +4,7 @@ id: p_KFkPjiE1rx8LUbA89gQMuB
 status: active
 merged_into: null
 display_name: 王世雄
+cbdb_id: 17755
 revision: 2
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_1z78Jsi6C4k2YqfC96ULFu
 status: active
 merged_into: null
 display_name: 王為璧
+cbdb_id: 415074
 revision: 1
 properties:
   - predicate: bio.summary

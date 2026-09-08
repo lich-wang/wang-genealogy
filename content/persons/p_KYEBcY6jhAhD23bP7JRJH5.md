@@ -4,6 +4,7 @@ id: p_KYEBcY6jhAhD23bP7JRJH5
 status: active
 merged_into: null
 display_name: 王粱
+cbdb_id: 274254
 revision: 1
 properties:
   - predicate: bio.summary

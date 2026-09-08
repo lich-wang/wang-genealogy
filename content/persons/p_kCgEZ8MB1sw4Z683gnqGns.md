@@ -4,6 +4,7 @@ id: p_kCgEZ8MB1sw4Z683gnqGns
 status: active
 merged_into: null
 display_name: 王士仁
+cbdb_id: 342926
 revision: 1
 properties:
   - predicate: bio.summary

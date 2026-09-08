@@ -4,6 +4,7 @@ id: p_2TkvfHD8PdXuGBoUsyEu82
 status: active
 merged_into: null
 display_name: 王蘭彰
+cbdb_id: 343108
 revision: 1
 properties:
   - predicate: bio.summary

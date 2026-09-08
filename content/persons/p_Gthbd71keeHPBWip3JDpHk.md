@@ -4,6 +4,7 @@ id: p_Gthbd71keeHPBWip3JDpHk
 status: active
 merged_into: null
 display_name: 王皆
+cbdb_id: 22012
 revision: 1
 properties:
   - predicate: bio.summary

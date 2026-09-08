@@ -4,6 +4,7 @@ id: p_c38tN16Fc9soQ3nEBvLYcA
 status: active
 merged_into: null
 display_name: 王源上
+cbdb_id: 175482
 revision: 1
 properties:
   - predicate: bio.summary

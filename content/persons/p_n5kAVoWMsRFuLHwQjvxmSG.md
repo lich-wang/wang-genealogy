@@ -4,6 +4,7 @@ id: p_n5kAVoWMsRFuLHwQjvxmSG
 status: active
 merged_into: null
 display_name: 王四傑
+cbdb_id: 343446
 revision: 1
 properties:
   - predicate: bio.summary

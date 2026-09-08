@@ -4,6 +4,7 @@ id: p_7ZLkhM6fzxrjvBYHUXQTJQ
 status: active
 merged_into: null
 display_name: 王念孙
+cbdb_id: 34190
 revision: 2
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_XzQbJ25qhaxLXsCui7XRLL
 status: active
 merged_into: null
 display_name: 王世濟
+cbdb_id: 208607
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_sJMGSEkPKCr7cmm7whFRD3
 status: active
 merged_into: null
 display_name: 王見川
+cbdb_id: 343448
 revision: 1
 properties:
   - predicate: bio.summary

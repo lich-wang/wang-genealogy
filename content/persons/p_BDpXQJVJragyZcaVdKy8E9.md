@@ -4,6 +4,7 @@ id: p_BDpXQJVJragyZcaVdKy8E9
 status: active
 merged_into: null
 display_name: 王美韶
+cbdb_id: 415283
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_MGmit54AmziqBQHDxXTxaf
 status: active
 merged_into: null
 display_name: 王道宗
+cbdb_id: 119718
 revision: 1
 properties:
   - predicate: bio.summary

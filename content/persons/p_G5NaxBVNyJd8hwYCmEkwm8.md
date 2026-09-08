@@ -4,6 +4,7 @@ id: p_G5NaxBVNyJd8hwYCmEkwm8
 status: active
 merged_into: null
 display_name: 王朝孫
+cbdb_id: 37992
 revision: 1
 properties:
   - predicate: bio.summary

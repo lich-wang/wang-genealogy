@@ -4,6 +4,7 @@ id: p_J4Dcph2Aors8aW9Hj4oECm
 status: active
 merged_into: null
 display_name: 王松全
+cbdb_id: 519666
 revision: 1
 properties:
   - predicate: bio.summary

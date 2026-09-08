@@ -4,6 +4,7 @@ id: p_8CkpkqZa6ixN8eSVefmKjB
 status: active
 merged_into: null
 display_name: 王霞起
+cbdb_id: 123071
 revision: 2
 properties:
   - predicate: bio.summary

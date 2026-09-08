@@ -4,6 +4,7 @@ id: p_TYvJo43BKA6x6Dqj2QR2PJ
 status: active
 merged_into: null
 display_name: 王允濟
+cbdb_id: 23651
 revision: 1
 properties:
   - predicate: bio.summary

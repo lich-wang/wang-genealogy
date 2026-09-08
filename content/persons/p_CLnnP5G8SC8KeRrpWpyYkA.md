@@ -4,6 +4,7 @@ id: p_CLnnP5G8SC8KeRrpWpyYkA
 status: active
 merged_into: null
 display_name: 王黝儿
+cbdb_id: 158881
 revision: 1
 properties:
   - predicate: bio.summary

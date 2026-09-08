@@ -4,6 +4,7 @@ id: p_e1WtvekDQJQZuKtd6f5iXP
 status: active
 merged_into: null
 display_name: 王恭禮
+cbdb_id: 414609
 revision: 1
 properties:
   - predicate: bio.summary

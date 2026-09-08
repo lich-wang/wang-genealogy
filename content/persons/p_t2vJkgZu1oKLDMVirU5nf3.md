@@ -4,6 +4,7 @@ id: p_t2vJkgZu1oKLDMVirU5nf3
 status: active
 merged_into: null
 display_name: 王捷靑
+cbdb_id: 414704
 revision: 1
 properties:
   - predicate: bio.summary

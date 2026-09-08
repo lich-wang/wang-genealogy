@@ -4,6 +4,7 @@ id: p_QAMF6tew4uJCHAhfgzATVx
 status: active
 merged_into: null
 display_name: 王任傑
+cbdb_id: 342197
 revision: 1
 properties:
   - predicate: bio.summary

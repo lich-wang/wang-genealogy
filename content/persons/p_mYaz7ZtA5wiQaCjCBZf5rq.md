@@ -4,6 +4,7 @@ id: p_mYaz7ZtA5wiQaCjCBZf5rq
 status: active
 merged_into: null
 display_name: 王子蕙
+cbdb_id: 205224
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_5cREcqbhxgXG2hVD29ybNb
 status: active
 merged_into: null
 display_name: 王文灼
+cbdb_id: 291901
 revision: 1
 properties:
   - predicate: bio.summary

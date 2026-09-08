@@ -4,6 +4,7 @@ id: p_gzMPaAZf4gXUk8JtWEwTVj
 status: active
 merged_into: null
 display_name: 王萬瞻
+cbdb_id: 415363
 revision: 1
 properties:
   - predicate: bio.summary

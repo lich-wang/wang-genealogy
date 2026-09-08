@@ -4,6 +4,7 @@ id: p_bug336Kqw9J2qg5p5PRtUB
 status: active
 merged_into: null
 display_name: 王汝某
+cbdb_id: 478883
 revision: 1
 properties:
   - predicate: bio.summary

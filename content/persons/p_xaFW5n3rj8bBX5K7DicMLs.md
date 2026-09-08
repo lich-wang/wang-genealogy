@@ -4,6 +4,7 @@ id: p_xaFW5n3rj8bBX5K7DicMLs
 status: active
 merged_into: null
 display_name: 王三成
+cbdb_id: 336834
 revision: 1
 properties:
   - predicate: bio.summary

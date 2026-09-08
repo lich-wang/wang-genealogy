@@ -4,6 +4,7 @@ id: p_JqP7tTBXa3J64HEAAAchh1
 status: active
 merged_into: null
 display_name: 王師襲
+cbdb_id: 157932
 revision: 1
 properties:
   - predicate: bio.summary

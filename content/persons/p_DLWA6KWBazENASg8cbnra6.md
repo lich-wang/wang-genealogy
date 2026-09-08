@@ -4,6 +4,7 @@ id: p_DLWA6KWBazENASg8cbnra6
 status: active
 merged_into: null
 display_name: 王徽謨
+cbdb_id: 325300
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_EgRz95qRGSQbLwKDLqNaqW
 status: active
 merged_into: null
 display_name: 王崇善
+cbdb_id: 28625
 revision: 1
 properties:
   - predicate: bio.summary

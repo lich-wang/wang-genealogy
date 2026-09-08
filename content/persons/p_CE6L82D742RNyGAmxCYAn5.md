@@ -4,6 +4,7 @@ id: p_CE6L82D742RNyGAmxCYAn5
 status: active
 merged_into: null
 display_name: 王三陽
+cbdb_id: 206708
 revision: 1
 properties:
   - predicate: bio.summary

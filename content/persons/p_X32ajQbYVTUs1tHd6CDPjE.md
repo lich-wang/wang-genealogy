@@ -4,6 +4,7 @@ id: p_X32ajQbYVTUs1tHd6CDPjE
 status: active
 merged_into: null
 display_name: 王延學
+cbdb_id: 414444
 revision: 1
 properties:
   - predicate: bio.summary

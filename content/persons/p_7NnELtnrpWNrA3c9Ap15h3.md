@@ -4,6 +4,7 @@ id: p_7NnELtnrpWNrA3c9Ap15h3
 status: active
 merged_into: null
 display_name: 王命世
+cbdb_id: 414054
 revision: 1
 properties:
   - predicate: bio.summary

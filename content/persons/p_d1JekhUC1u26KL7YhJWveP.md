@@ -4,6 +4,7 @@ id: p_d1JekhUC1u26KL7YhJWveP
 status: active
 merged_into: null
 display_name: 王得輿
+cbdb_id: 101337
 revision: 1
 properties:
   - predicate: bio.summary

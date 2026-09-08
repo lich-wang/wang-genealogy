@@ -4,6 +4,7 @@ id: p_EAy6EpYd7xY3okELDUUtpB
 status: active
 merged_into: null
 display_name: 王元珩
+cbdb_id: 413912
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_J4bwVjgwPmmAxJK7z2pH9n
 status: active
 merged_into: null
 display_name: 王應将
+cbdb_id: 414641
 revision: 1
 properties:
   - predicate: bio.summary

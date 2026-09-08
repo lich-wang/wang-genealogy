@@ -4,6 +4,7 @@ id: p_Ga4exmxcHLAX2Pat1WL3rz
 status: active
 merged_into: null
 display_name: 王貞鎰
+cbdb_id: 156110
 revision: 1
 properties:
   - predicate: bio.summary

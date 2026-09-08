@@ -4,6 +4,7 @@ id: p_1XAvVX4xQ23SuePwWbe2WD
 status: active
 merged_into: null
 display_name: 王弘儒
+cbdb_id: 414505
 revision: 1
 properties:
   - predicate: bio.summary

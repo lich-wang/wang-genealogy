@@ -4,6 +4,7 @@ id: p_yCmo4it2633H71JuS76MJF
 status: active
 merged_into: null
 display_name: 王培佑
+cbdb_id: 61590
 revision: 1
 properties:
   - predicate: bio.summary

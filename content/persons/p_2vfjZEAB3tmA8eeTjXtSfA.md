@@ -4,6 +4,7 @@ id: p_2vfjZEAB3tmA8eeTjXtSfA
 status: active
 merged_into: null
 display_name: 王兆禎
+cbdb_id: 290833
 revision: 1
 properties:
   - predicate: bio.summary

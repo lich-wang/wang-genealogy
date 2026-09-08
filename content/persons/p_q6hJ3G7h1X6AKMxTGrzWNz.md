@@ -4,6 +4,7 @@ id: p_q6hJ3G7h1X6AKMxTGrzWNz
 status: active
 merged_into: null
 display_name: 王汝器
+cbdb_id: 290270
 revision: 1
 properties:
   - predicate: bio.summary

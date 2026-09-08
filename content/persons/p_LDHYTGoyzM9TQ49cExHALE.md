@@ -4,6 +4,7 @@ id: p_LDHYTGoyzM9TQ49cExHALE
 status: active
 merged_into: null
 display_name: 王學祖
+cbdb_id: 300374
 revision: 1
 properties:
   - predicate: bio.summary

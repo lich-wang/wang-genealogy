@@ -4,6 +4,7 @@ id: p_XK5ZiQAQhABQCvnLdSN8Sv
 status: active
 merged_into: null
 display_name: 王元二
+cbdb_id: 326382
 revision: 1
 properties:
   - predicate: bio.summary

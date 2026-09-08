@@ -4,6 +4,7 @@ id: p_rgk4fmEhMoSgMaFR2n8Pwk
 status: active
 merged_into: null
 display_name: 王恆某
+cbdb_id: 192006
 revision: 1
 properties:
   - predicate: bio.summary

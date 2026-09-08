@@ -4,6 +4,7 @@ id: p_QXNbLSuU13cChBATKzfA8C
 status: active
 merged_into: null
 display_name: 王階泰
+cbdb_id: 415580
 revision: 1
 properties:
   - predicate: bio.summary

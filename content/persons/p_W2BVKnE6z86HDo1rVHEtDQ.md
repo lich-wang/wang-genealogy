@@ -4,6 +4,7 @@ id: p_W2BVKnE6z86HDo1rVHEtDQ
 status: active
 merged_into: null
 display_name: 王虎山
+cbdb_id: 415380
 revision: 1
 properties:
   - predicate: bio.summary

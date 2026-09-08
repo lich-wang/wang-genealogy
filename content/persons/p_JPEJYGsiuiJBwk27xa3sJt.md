@@ -4,6 +4,7 @@ id: p_JPEJYGsiuiJBwk27xa3sJt
 status: active
 merged_into: null
 display_name: 王赓
+cbdb_id: 186790
 revision: 1
 properties:
   - predicate: bio.summary

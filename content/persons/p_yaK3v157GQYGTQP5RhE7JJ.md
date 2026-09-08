@@ -4,6 +4,7 @@ id: p_yaK3v157GQYGTQP5RhE7JJ
 status: active
 merged_into: null
 display_name: 王俊卿
+cbdb_id: 236877
 revision: 2
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_QvJGCAYNYePw9xfTGwnTA2
 status: active
 merged_into: null
 display_name: 王維文
+cbdb_id: 415250
 revision: 1
 properties:
   - predicate: bio.summary

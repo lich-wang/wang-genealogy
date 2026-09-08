@@ -4,6 +4,7 @@ id: p_RDqZJF6KLmYwStUbKLPpxB
 status: active
 merged_into: null
 display_name: 王炳陽
+cbdb_id: 210107
 revision: 1
 properties:
   - predicate: bio.summary

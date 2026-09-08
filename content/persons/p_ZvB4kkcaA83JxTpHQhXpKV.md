@@ -4,6 +4,7 @@ id: p_ZvB4kkcaA83JxTpHQhXpKV
 status: active
 merged_into: null
 display_name: 王樹穀
+cbdb_id: 71863
 revision: 1
 properties:
   - predicate: bio.summary

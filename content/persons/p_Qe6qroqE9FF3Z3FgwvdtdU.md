@@ -4,6 +4,7 @@ id: p_Qe6qroqE9FF3Z3FgwvdtdU
 status: active
 merged_into: null
 display_name: 王定寧
+cbdb_id: 255877
 revision: 1
 properties:
   - predicate: bio.summary

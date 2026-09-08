@@ -4,6 +4,7 @@ id: p_WTbUSL1DG5jZk9S2xXfGdz
 status: active
 merged_into: null
 display_name: 王好間
+cbdb_id: 414227
 revision: 1
 properties:
   - predicate: bio.summary

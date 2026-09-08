@@ -4,6 +4,7 @@ id: p_eTKLECHdx4a5sjD8ucAPHW
 status: active
 merged_into: null
 display_name: 王致
+cbdb_id: 226581
 revision: 1
 properties:
   - predicate: name.primary

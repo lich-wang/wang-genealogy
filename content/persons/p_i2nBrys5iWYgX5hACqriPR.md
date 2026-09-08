@@ -4,6 +4,7 @@ id: p_i2nBrys5iWYgX5hACqriPR
 status: active
 merged_into: null
 display_name: 王愛子
+cbdb_id: 148017
 revision: 1
 properties:
   - predicate: bio.summary

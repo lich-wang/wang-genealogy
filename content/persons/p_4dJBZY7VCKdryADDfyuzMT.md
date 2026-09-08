@@ -4,6 +4,7 @@ id: p_4dJBZY7VCKdryADDfyuzMT
 status: active
 merged_into: null
 display_name: 王命卿
+cbdb_id: 343762
 revision: 1
 properties:
   - predicate: bio.summary

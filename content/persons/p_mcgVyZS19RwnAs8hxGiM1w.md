@@ -4,6 +4,7 @@ id: p_mcgVyZS19RwnAs8hxGiM1w
 status: active
 merged_into: null
 display_name: 王從仁
+cbdb_id: 101338
 revision: 1
 properties:
   - predicate: bio.summary

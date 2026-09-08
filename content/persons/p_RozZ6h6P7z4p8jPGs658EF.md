@@ -4,6 +4,7 @@ id: p_RozZ6h6P7z4p8jPGs658EF
 status: active
 merged_into: null
 display_name: 王應伸
+cbdb_id: 234429
 revision: 1
 properties:
   - predicate: bio.summary

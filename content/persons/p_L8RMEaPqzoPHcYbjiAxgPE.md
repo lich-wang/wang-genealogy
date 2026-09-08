@@ -4,6 +4,7 @@ id: p_L8RMEaPqzoPHcYbjiAxgPE
 status: active
 merged_into: null
 display_name: 王兆柏
+cbdb_id: 342663
 revision: 1
 properties:
   - predicate: bio.summary

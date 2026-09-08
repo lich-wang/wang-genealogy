@@ -4,6 +4,7 @@ id: p_aHPReprmP4wQVxVgMNvTbZ
 status: active
 merged_into: null
 display_name: 王仲兹
+cbdb_id: 413832
 revision: 1
 properties:
   - predicate: bio.summary

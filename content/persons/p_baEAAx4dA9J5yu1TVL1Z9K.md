@@ -4,6 +4,7 @@ id: p_baEAAx4dA9J5yu1TVL1Z9K
 status: active
 merged_into: null
 display_name: 王慶銘
+cbdb_id: 514242
 revision: 1
 properties:
   - predicate: bio.summary

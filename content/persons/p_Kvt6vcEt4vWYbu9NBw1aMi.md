@@ -4,6 +4,7 @@ id: p_Kvt6vcEt4vWYbu9NBw1aMi
 status: active
 merged_into: null
 display_name: 王甸臣
+cbdb_id: 282049
 revision: 1
 properties:
   - predicate: bio.summary

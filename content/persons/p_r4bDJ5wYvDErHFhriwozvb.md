@@ -4,6 +4,7 @@ id: p_r4bDJ5wYvDErHFhriwozvb
 status: active
 merged_into: null
 display_name: 王之都
+cbdb_id: 342565
 revision: 1
 properties:
   - predicate: name.primary

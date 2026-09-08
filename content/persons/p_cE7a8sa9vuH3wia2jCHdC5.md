@@ -4,6 +4,7 @@ id: p_cE7a8sa9vuH3wia2jCHdC5
 status: active
 merged_into: null
 display_name: 王伸
+cbdb_id: 175636
 revision: 1
 properties:
   - predicate: bio.summary

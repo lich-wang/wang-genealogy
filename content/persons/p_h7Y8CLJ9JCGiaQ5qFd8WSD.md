@@ -4,6 +4,7 @@ id: p_h7Y8CLJ9JCGiaQ5qFd8WSD
 status: active
 merged_into: null
 display_name: 王同求
+cbdb_id: 237754
 revision: 1
 properties:
   - predicate: bio.summary

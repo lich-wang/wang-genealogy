@@ -4,6 +4,7 @@ id: p_TXJvtdFRgZUQXsFzGvjCnR
 status: active
 merged_into: null
 display_name: 王世规
+cbdb_id: 17818
 revision: 2
 properties:
   - predicate: bio.summary

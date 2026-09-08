@@ -4,6 +4,7 @@ id: p_LHBEe5rE4i8NQMbPASG1o4
 status: active
 merged_into: null
 display_name: 王希璧
+cbdb_id: 414411
 revision: 1
 properties:
   - predicate: bio.summary

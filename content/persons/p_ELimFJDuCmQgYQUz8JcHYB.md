@@ -4,6 +4,7 @@ id: p_ELimFJDuCmQgYQUz8JcHYB
 status: active
 merged_into: null
 display_name: 王将勗
+cbdb_id: 194048
 revision: 2
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_QjfR2K6qEH2ronotkDwU7B
 status: active
 merged_into: null
 display_name: 王關成
+cbdb_id: 415574
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_fAkfdSuZnRvkPMrYd7Bjqp
 status: active
 merged_into: null
 display_name: 王壯猷
+cbdb_id: 522322
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_vKnTYZkMnhEhgMRQeZWtJ8
 status: active
 merged_into: null
 display_name: 王愿
+cbdb_id: 175514
 revision: 1
 properties:
   - predicate: bio.summary

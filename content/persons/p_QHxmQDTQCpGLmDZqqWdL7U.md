@@ -4,6 +4,7 @@ id: p_QHxmQDTQCpGLmDZqqWdL7U
 status: active
 merged_into: null
 display_name: 王弦
+cbdb_id: 32177
 revision: 1
 properties:
   - predicate: bio.summary

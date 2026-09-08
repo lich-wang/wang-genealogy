@@ -4,6 +4,7 @@ id: p_bAYnpX1K25XbG8UipPRRsn
 status: active
 merged_into: null
 display_name: 王奕鴻
+cbdb_id: 69264
 revision: 1
 properties:
   - predicate: bio.summary

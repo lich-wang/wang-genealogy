@@ -4,6 +4,7 @@ id: p_Z8wSz3EeuVREGEiX7EKHPc
 status: active
 merged_into: null
 display_name: 王一敬
+cbdb_id: 413673
 revision: 1
 properties:
   - predicate: bio.summary

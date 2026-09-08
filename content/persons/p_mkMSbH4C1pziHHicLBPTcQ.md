@@ -4,6 +4,7 @@ id: p_mkMSbH4C1pziHHicLBPTcQ
 status: active
 merged_into: null
 display_name: 王宗瑀
+cbdb_id: 30557
 revision: 1
 properties:
   - predicate: bio.summary

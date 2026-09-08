@@ -4,6 +4,7 @@ id: p_ENniZqHcCtrdr8jZ91474J
 status: active
 merged_into: null
 display_name: 王祚明
+cbdb_id: 455900
 revision: 1
 properties:
   - predicate: bio.summary

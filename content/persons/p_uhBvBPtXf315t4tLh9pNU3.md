@@ -4,6 +4,7 @@ id: p_uhBvBPtXf315t4tLh9pNU3
 status: active
 merged_into: null
 display_name: 王志慶
+cbdb_id: 235162
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_Pru9M9jcnPKS1B5AjY5Ygt
 status: active
 merged_into: null
 display_name: 王振熙
+cbdb_id: 343368
 revision: 1
 properties:
   - predicate: bio.summary

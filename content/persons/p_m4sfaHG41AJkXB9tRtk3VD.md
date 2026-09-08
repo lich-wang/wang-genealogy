@@ -4,6 +4,7 @@ id: p_m4sfaHG41AJkXB9tRtk3VD
 status: active
 merged_into: null
 display_name: 王時瞻
+cbdb_id: 299510
 revision: 1
 properties:
   - predicate: bio.summary

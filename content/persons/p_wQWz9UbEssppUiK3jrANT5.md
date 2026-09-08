@@ -4,6 +4,7 @@ id: p_wQWz9UbEssppUiK3jrANT5
 status: active
 merged_into: null
 display_name: 王起中
+cbdb_id: 415459
 revision: 1
 properties:
   - predicate: bio.summary

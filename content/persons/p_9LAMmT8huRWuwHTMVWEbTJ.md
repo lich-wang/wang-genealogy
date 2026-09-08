@@ -4,6 +4,7 @@ id: p_9LAMmT8huRWuwHTMVWEbTJ
 status: active
 merged_into: null
 display_name: 王有臣
+cbdb_id: 414834
 revision: 1
 properties:
   - predicate: bio.summary

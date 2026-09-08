@@ -4,6 +4,7 @@ id: p_hrNsSN4wVj9jcL4eC2GhRW
 status: active
 merged_into: null
 display_name: 王晏斌
+cbdb_id: 184947
 revision: 2
 properties:
   - predicate: bio.summary

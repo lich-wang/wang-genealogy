@@ -4,6 +4,7 @@ id: p_DVvSQ8nKd6ynCG43s3FP6A
 status: active
 merged_into: null
 display_name: 王朝璘
+cbdb_id: 60982
 revision: 1
 properties:
   - predicate: bio.summary

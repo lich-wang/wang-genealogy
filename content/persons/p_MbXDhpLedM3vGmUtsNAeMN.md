@@ -4,6 +4,7 @@ id: p_MbXDhpLedM3vGmUtsNAeMN
 status: active
 merged_into: null
 display_name: 王仙官
+cbdb_id: 153276
 revision: 1
 properties:
   - predicate: bio.summary

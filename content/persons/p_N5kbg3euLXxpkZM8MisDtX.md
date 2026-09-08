@@ -4,6 +4,7 @@ id: p_N5kbg3euLXxpkZM8MisDtX
 status: active
 merged_into: null
 display_name: 王慎
+cbdb_id: 175411
 revision: 1
 properties:
   - predicate: bio.summary

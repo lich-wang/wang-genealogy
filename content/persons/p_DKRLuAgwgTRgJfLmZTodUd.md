@@ -4,6 +4,7 @@ id: p_DKRLuAgwgTRgJfLmZTodUd
 status: active
 merged_into: null
 display_name: 王道進
+cbdb_id: 167691
 revision: 1
 properties:
   - predicate: bio.summary

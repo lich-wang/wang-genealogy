@@ -4,6 +4,7 @@ id: p_kbvpaoHr9vrPi8zX9FPCfJ
 status: active
 merged_into: null
 display_name: 王徽典
+cbdb_id: 325301
 revision: 1
 properties:
   - predicate: bio.summary

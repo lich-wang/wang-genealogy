@@ -4,6 +4,7 @@ id: p_YFFiM38SpQdA3i8oaTb1SM
 status: active
 merged_into: null
 display_name: 王曜章
+cbdb_id: 526789
 revision: 1
 properties:
   - predicate: bio.summary

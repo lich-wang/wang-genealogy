@@ -4,6 +4,7 @@ id: p_qMVBXrXHRKvQfbSVAM8wUy
 status: active
 merged_into: null
 display_name: 王汝湘
+cbdb_id: 211409
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_ELTFwpJhBRCdcynL2AFhCN
 status: active
 merged_into: null
 display_name: 王振艱
+cbdb_id: 28619
 revision: 1
 properties:
   - predicate: bio.summary

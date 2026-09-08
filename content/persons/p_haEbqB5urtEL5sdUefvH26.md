@@ -4,6 +4,7 @@ id: p_haEbqB5urtEL5sdUefvH26
 status: active
 merged_into: null
 display_name: 王嘉宴
+cbdb_id: 414094
 revision: 1
 properties:
   - predicate: bio.summary

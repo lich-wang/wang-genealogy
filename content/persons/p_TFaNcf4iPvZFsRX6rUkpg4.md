@@ -4,6 +4,7 @@ id: p_TFaNcf4iPvZFsRX6rUkpg4
 status: active
 merged_into: null
 display_name: 王阿剌帖木兒
+cbdb_id: 101478
 revision: 1
 properties:
   - predicate: bio.summary

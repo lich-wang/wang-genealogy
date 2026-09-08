@@ -4,6 +4,7 @@ id: p_mkR6kcUHpe5aBUQaBs5jmA
 status: active
 merged_into: null
 display_name: 王钦臣
+cbdb_id: 1767
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_sa7HcKM9Pqnx8VLSSn5ypv
 status: active
 merged_into: null
 display_name: 王希魯
+cbdb_id: 270646
 revision: 1
 properties:
   - predicate: bio.summary

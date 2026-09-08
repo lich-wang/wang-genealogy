@@ -4,6 +4,7 @@ id: p_A1138VJxBzA36XW5H1g132
 status: active
 merged_into: null
 display_name: 王與定
+cbdb_id: 136385
 revision: 1
 properties:
   - predicate: bio.summary

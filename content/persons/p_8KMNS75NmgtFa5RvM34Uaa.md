@@ -4,6 +4,7 @@ id: p_8KMNS75NmgtFa5RvM34Uaa
 status: active
 merged_into: null
 display_name: 王盛剛
+cbdb_id: 322436
 revision: 1
 properties:
   - predicate: bio.summary

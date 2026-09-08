@@ -4,6 +4,7 @@ id: p_zuM3Mpr6KWo8nddkeNeGAg
 status: active
 merged_into: null
 display_name: 王建初
+cbdb_id: 185234
 revision: 1
 properties:
   - predicate: bio.summary

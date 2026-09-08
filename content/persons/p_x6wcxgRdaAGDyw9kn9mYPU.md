@@ -4,6 +4,7 @@ id: p_x6wcxgRdaAGDyw9kn9mYPU
 status: active
 merged_into: null
 display_name: 王邦仁
+cbdb_id: 415507
 revision: 1
 properties:
   - predicate: bio.summary

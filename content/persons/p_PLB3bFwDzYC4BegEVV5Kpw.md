@@ -4,6 +4,7 @@ id: p_PLB3bFwDzYC4BegEVV5Kpw
 status: active
 merged_into: null
 display_name: 王季寅
+cbdb_id: 71774
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_tRYFvc5UtumXuxxsyGdrX3
 status: active
 merged_into: null
 display_name: 王广
+cbdb_id: 186781
 revision: 1
 properties:
   - predicate: bio.summary

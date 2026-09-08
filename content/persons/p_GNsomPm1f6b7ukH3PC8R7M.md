@@ -4,6 +4,7 @@ id: p_GNsomPm1f6b7ukH3PC8R7M
 status: active
 merged_into: null
 display_name: 王贞
+cbdb_id: 175613
 revision: 1
 properties:
   - predicate: bio.summary

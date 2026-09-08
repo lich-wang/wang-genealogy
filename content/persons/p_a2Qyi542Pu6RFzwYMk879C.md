@@ -4,6 +4,7 @@ id: p_a2Qyi542Pu6RFzwYMk879C
 status: active
 merged_into: null
 display_name: 王元曾
+cbdb_id: 413906
 revision: 1
 properties:
   - predicate: bio.summary

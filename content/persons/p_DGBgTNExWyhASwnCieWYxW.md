@@ -4,6 +4,7 @@ id: p_DGBgTNExWyhASwnCieWYxW
 status: active
 merged_into: null
 display_name: 王循紀
+cbdb_id: 287443
 revision: 1
 properties:
   - predicate: bio.summary

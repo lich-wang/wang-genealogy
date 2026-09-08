@@ -4,6 +4,7 @@ id: p_NGExpJtqHT81zuYHgFbQr4
 status: active
 merged_into: null
 display_name: 王稽中
+cbdb_id: 38423
 revision: 1
 properties:
   - predicate: bio.summary

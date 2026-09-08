@@ -4,6 +4,7 @@ id: p_qg54QBXqwGojtESwYH4vEL
 status: active
 merged_into: null
 display_name: 王時正
+cbdb_id: 262457
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_3D598VUknyRC3JBZXgsDBR
 status: active
 merged_into: null
 display_name: 王元雅
+cbdb_id: 341800
 revision: 1
 properties:
   - predicate: bio.summary

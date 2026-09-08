@@ -4,6 +4,7 @@ id: p_oHfR1GybeXDX1vjnS9Y17v
 status: active
 merged_into: null
 display_name: 王泰賮
+cbdb_id: 414999
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_Aw5RAiarFLN9457SjFo9ZK
 status: active
 merged_into: null
 display_name: 王孝師
+cbdb_id: 380211
 revision: 1
 properties:
   - predicate: bio.summary

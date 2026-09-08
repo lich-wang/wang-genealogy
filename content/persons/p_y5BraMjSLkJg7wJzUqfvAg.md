@@ -4,6 +4,7 @@ id: p_y5BraMjSLkJg7wJzUqfvAg
 status: active
 merged_into: null
 display_name: 王時閏
+cbdb_id: 287090
 revision: 1
 properties:
   - predicate: bio.summary

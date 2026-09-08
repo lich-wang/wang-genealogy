@@ -4,6 +4,7 @@ id: p_fNqUCAWhrMdJ5BW4ELe5dZ
 status: active
 merged_into: null
 display_name: 王又京
+cbdb_id: 414016
 revision: 1
 properties:
   - predicate: bio.summary

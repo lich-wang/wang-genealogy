@@ -4,6 +4,7 @@ id: p_1BjfWTQ3bxaePX6m9r2vdD
 status: active
 merged_into: null
 display_name: 王源芳
+cbdb_id: 175597
 revision: 1
 properties:
   - predicate: bio.summary

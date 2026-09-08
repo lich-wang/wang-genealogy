@@ -4,6 +4,7 @@ id: p_nMUNNxs1EPY2fBJ6k3RNbe
 status: active
 merged_into: null
 display_name: 王澄淵
+cbdb_id: 415048
 revision: 1
 properties:
   - predicate: bio.summary

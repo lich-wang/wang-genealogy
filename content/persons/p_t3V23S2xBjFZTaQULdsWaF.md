@@ -4,6 +4,7 @@ id: p_t3V23S2xBjFZTaQULdsWaF
 status: active
 merged_into: null
 display_name: 王西林
+cbdb_id: 415402
 revision: 1
 properties:
   - predicate: bio.summary

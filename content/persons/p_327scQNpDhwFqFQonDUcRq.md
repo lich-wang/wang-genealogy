@@ -4,6 +4,7 @@ id: p_327scQNpDhwFqFQonDUcRq
 status: active
 merged_into: null
 display_name: 王庭璬
+cbdb_id: 382341
 revision: 1
 properties:
   - predicate: bio.summary

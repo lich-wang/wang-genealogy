@@ -4,6 +4,7 @@ id: p_qdNGaEhGU1GUznjsGhvFiB
 status: active
 merged_into: null
 display_name: 王大諫
+cbdb_id: 293432
 revision: 1
 properties:
   - predicate: bio.summary

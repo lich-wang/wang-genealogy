@@ -4,6 +4,7 @@ id: p_CHT1tUNiFGN2VAtr2LLdCs
 status: active
 merged_into: null
 display_name: 王居茂
+cbdb_id: 414390
 revision: 1
 properties:
   - predicate: bio.summary

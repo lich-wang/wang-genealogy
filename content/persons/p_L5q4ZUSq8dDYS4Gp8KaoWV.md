@@ -4,6 +4,7 @@ id: p_L5q4ZUSq8dDYS4Gp8KaoWV
 status: active
 merged_into: null
 display_name: 王處善
+cbdb_id: 415383
 revision: 1
 properties:
   - predicate: bio.summary

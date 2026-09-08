@@ -4,6 +4,7 @@ id: p_g52w9ERfvuLUPXuENyJ2a4
 status: active
 merged_into: null
 display_name: 王煊
+cbdb_id: 521889
 revision: 1
 properties:
   - predicate: bio.summary

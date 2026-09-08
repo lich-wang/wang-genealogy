@@ -4,6 +4,7 @@ id: p_PC3qgmrvoGt2wAmwX4ZzhR
 status: active
 merged_into: null
 display_name: 王日暉
+cbdb_id: 343408
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_PpKZr5nF16fF6fpWkTo8nv
 status: active
 merged_into: null
 display_name: 王兆京
+cbdb_id: 413922
 revision: 1
 properties:
   - predicate: bio.summary

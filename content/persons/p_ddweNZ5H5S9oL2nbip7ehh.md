@@ -4,6 +4,7 @@ id: p_ddweNZ5H5S9oL2nbip7ehh
 status: active
 merged_into: null
 display_name: 王盛德
+cbdb_id: 415161
 revision: 1
 properties:
   - predicate: bio.summary

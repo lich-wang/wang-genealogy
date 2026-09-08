@@ -4,6 +4,7 @@ id: p_gLRJKr7VDnTGS3DdpFvZbo
 status: active
 merged_into: null
 display_name: 王同衣
+cbdb_id: 228281
 revision: 1
 properties:
   - predicate: bio.summary

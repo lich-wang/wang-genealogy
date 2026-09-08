@@ -4,6 +4,7 @@ id: p_ff5byaF53YEKVepZwxhutb
 status: active
 merged_into: null
 display_name: 王仲民
+cbdb_id: 38857
 revision: 1
 properties:
   - predicate: bio.summary

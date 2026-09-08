@@ -4,6 +4,7 @@ id: p_4mF3kZ98ab5JCUNsBSmHKq
 status: active
 merged_into: null
 display_name: 王瑞星
+cbdb_id: 341882
 revision: 1
 properties:
   - predicate: bio.summary

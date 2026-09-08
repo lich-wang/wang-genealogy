@@ -4,6 +4,7 @@ id: p_dWRWFHgxvJBT5TEBKBQG8N
 status: active
 merged_into: null
 display_name: 王尚逸
+cbdb_id: 175854
 revision: 1
 properties:
   - predicate: name.primary

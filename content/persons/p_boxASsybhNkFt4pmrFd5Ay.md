@@ -4,6 +4,7 @@ id: p_boxASsybhNkFt4pmrFd5Ay
 status: active
 merged_into: null
 display_name: 王野倩
+cbdb_id: 122393
 revision: 1
 properties:
   - predicate: bio.summary

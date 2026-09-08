@@ -4,6 +4,7 @@ id: p_T5kTijaJaqDYcjBundqNAV
 status: active
 merged_into: null
 display_name: 王景龍
+cbdb_id: 36178
 revision: 1
 properties:
   - predicate: bio.summary

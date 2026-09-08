@@ -4,6 +4,7 @@ id: p_BHA5tuv4cFs4fpagFYiGcD
 status: active
 merged_into: null
 display_name: 王國聰
+cbdb_id: 69334
 revision: 1
 properties:
   - predicate: bio.summary

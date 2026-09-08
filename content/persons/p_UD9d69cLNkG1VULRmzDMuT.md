@@ -4,6 +4,7 @@ id: p_UD9d69cLNkG1VULRmzDMuT
 status: active
 merged_into: null
 display_name: 王正忠
+cbdb_id: 288239
 revision: 1
 properties:
   - predicate: bio.summary

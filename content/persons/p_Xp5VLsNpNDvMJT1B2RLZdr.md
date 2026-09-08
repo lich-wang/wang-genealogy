@@ -4,6 +4,7 @@ id: p_Xp5VLsNpNDvMJT1B2RLZdr
 status: active
 merged_into: null
 display_name: 王廷綸
+cbdb_id: 341920
 revision: 1
 properties:
   - predicate: bio.summary

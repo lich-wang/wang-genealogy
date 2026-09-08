@@ -4,6 +4,7 @@ id: p_adZwSq94fGqJuMovKZStu2
 status: active
 merged_into: null
 display_name: 王励臣
+cbdb_id: 15748
 revision: 1
 properties:
   - predicate: bio.summary

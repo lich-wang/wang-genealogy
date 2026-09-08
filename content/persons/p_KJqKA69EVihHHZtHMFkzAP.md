@@ -4,6 +4,7 @@ id: p_KJqKA69EVihHHZtHMFkzAP
 status: active
 merged_into: null
 display_name: 王元寳
+cbdb_id: 413903
 revision: 1
 properties:
   - predicate: bio.summary

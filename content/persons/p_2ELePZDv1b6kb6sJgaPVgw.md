@@ -4,6 +4,7 @@ id: p_2ELePZDv1b6kb6sJgaPVgw
 status: active
 merged_into: null
 display_name: 王汝鼎
+cbdb_id: 71620
 revision: 1
 properties:
   - predicate: bio.summary

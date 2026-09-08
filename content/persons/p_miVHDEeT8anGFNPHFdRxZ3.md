@@ -4,6 +4,7 @@ id: p_miVHDEeT8anGFNPHFdRxZ3
 status: active
 merged_into: null
 display_name: 王威宣
+cbdb_id: 58605
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_E8zFzGgKtuZr9NNkF21ymA
 status: active
 merged_into: null
 display_name: 王彥珍
+cbdb_id: 242453
 revision: 1
 properties:
   - predicate: bio.summary

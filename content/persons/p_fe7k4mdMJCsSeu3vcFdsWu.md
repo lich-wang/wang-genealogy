@@ -4,6 +4,7 @@ id: p_fe7k4mdMJCsSeu3vcFdsWu
 status: active
 merged_into: null
 display_name: 王顯節
+cbdb_id: 415606
 revision: 1
 properties:
   - predicate: bio.summary

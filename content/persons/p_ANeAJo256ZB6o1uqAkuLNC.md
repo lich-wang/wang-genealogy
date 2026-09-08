@@ -4,6 +4,7 @@ id: p_ANeAJo256ZB6o1uqAkuLNC
 status: active
 merged_into: null
 display_name: 王如庠
+cbdb_id: 343248
 revision: 1
 properties:
   - predicate: bio.summary

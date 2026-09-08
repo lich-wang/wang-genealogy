@@ -4,6 +4,7 @@ id: p_V7dqLqE9LbBh5NHi9YVyn6
 status: active
 merged_into: null
 display_name: 王肇淇
+cbdb_id: 415304
 revision: 1
 properties:
   - predicate: bio.summary

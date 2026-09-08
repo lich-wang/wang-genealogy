@@ -4,6 +4,7 @@ id: p_257MpeNBbY2sbpHwUhVfp4
 status: active
 merged_into: null
 display_name: 王秀亭
+cbdb_id: 56350
 revision: 1
 properties:
   - predicate: bio.summary

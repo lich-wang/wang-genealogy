@@ -4,6 +4,7 @@ id: p_C9BMfb9hgvLxMF7jFuMrKT
 status: active
 merged_into: null
 display_name: 王去惡
+cbdb_id: 97826
 revision: 1
 properties:
   - predicate: bio.summary

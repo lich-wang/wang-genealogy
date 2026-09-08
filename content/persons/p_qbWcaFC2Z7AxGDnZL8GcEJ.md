@@ -4,6 +4,7 @@ id: p_qbWcaFC2Z7AxGDnZL8GcEJ
 status: active
 merged_into: null
 display_name: 王价藩
+cbdb_id: 71586
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_C1QmDb88xZLZ6KiTQPpz1g
 status: active
 merged_into: null
 display_name: 王亞夫
+cbdb_id: 37675
 revision: 1
 properties:
   - predicate: bio.summary

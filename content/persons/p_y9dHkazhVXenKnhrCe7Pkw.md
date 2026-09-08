@@ -4,6 +4,7 @@ id: p_y9dHkazhVXenKnhrCe7Pkw
 status: active
 merged_into: null
 display_name: 王茂德
+cbdb_id: 415348
 revision: 1
 properties:
   - predicate: bio.summary

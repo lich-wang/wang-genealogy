@@ -4,6 +4,7 @@ id: p_4UWqDdEuSMGNCateYhG3Ui
 status: active
 merged_into: null
 display_name: 王宣猷
+cbdb_id: 342477
 revision: 1
 properties:
   - predicate: bio.summary

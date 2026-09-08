@@ -4,6 +4,7 @@ id: p_AKX34udJCG8VGNL3fweDLX
 status: active
 merged_into: null
 display_name: 王延祺
+cbdb_id: 341954
 revision: 1
 properties:
   - predicate: bio.summary

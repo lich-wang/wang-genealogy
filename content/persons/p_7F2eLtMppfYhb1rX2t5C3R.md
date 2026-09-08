@@ -4,6 +4,7 @@ id: p_7F2eLtMppfYhb1rX2t5C3R
 status: active
 merged_into: null
 display_name: 王九德
+cbdb_id: 206699
 revision: 1
 properties:
   - predicate: bio.summary

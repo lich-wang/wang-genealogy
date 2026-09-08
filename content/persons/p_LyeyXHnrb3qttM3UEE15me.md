@@ -4,6 +4,7 @@ id: p_LyeyXHnrb3qttM3UEE15me
 status: active
 merged_into: null
 display_name: 王志洪
+cbdb_id: 414576
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_KmoiyZjVKRNSgVWzs3VYFC
 status: active
 merged_into: null
 display_name: 王康侯
+cbdb_id: 60908
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_1kYbPE7sbkgJq48xQd5ngt
 status: active
 merged_into: null
 display_name: 王世經
+cbdb_id: 413722
 revision: 1
 properties:
   - predicate: bio.summary

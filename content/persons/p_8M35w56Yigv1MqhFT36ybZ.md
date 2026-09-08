@@ -4,6 +4,7 @@ id: p_8M35w56Yigv1MqhFT36ybZ
 status: active
 merged_into: null
 display_name: 王志佐
+cbdb_id: 60062
 revision: 1
 properties:
   - predicate: bio.summary

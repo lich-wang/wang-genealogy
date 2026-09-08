@@ -4,6 +4,7 @@ id: p_Vb12uqmowHEWMP3JHAwPyx
 status: active
 merged_into: null
 display_name: 王桉
+cbdb_id: 249004
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_MfKLied2HZWSMNPPaLUegW
 status: active
 merged_into: null
 display_name: 王懋才
+cbdb_id: 343136
 revision: 1
 properties:
   - predicate: bio.summary

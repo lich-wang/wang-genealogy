@@ -4,6 +4,7 @@ id: p_na3NKTEmwaNv7J8LLnRxQi
 status: active
 merged_into: null
 display_name: 王仝春
+cbdb_id: 413816
 revision: 1
 properties:
   - predicate: bio.summary

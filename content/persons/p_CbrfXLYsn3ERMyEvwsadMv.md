@@ -4,6 +4,7 @@ id: p_CbrfXLYsn3ERMyEvwsadMv
 status: active
 merged_into: null
 display_name: 王若常
+cbdb_id: 71733
 revision: 1
 properties:
   - predicate: bio.summary

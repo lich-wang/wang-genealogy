@@ -4,6 +4,7 @@ id: p_Yep3jv444A6aFd4NH6cndv
 status: active
 merged_into: null
 display_name: 王幼貞
+cbdb_id: 70002
 revision: 1
 properties:
   - predicate: bio.summary

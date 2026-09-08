@@ -4,6 +4,7 @@ id: p_ZSBMnefxQNX4zwGDPTrYX5
 status: active
 merged_into: null
 display_name: 王方庆
+cbdb_id: 175451
 revision: 2
 properties:
   - predicate: bio.summary

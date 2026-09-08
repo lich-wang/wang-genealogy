@@ -4,6 +4,7 @@ id: p_xkR2JVaQE9hnma1HpccwBd
 status: active
 merged_into: null
 display_name: 王得君
+cbdb_id: 1891
 revision: 1
 properties:
   - predicate: name.primary

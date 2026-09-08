@@ -4,6 +4,7 @@ id: p_GZbsE9QaKe1eQKtqPL2T7F
 status: active
 merged_into: null
 display_name: 孔氏
+cbdb_id: 37779
 revision: 2
 properties:
   - predicate: bio.summary

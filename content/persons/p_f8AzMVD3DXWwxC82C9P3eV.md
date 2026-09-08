@@ -4,6 +4,7 @@ id: p_f8AzMVD3DXWwxC82C9P3eV
 status: active
 merged_into: null
 display_name: 王承裘
+cbdb_id: 342048
 revision: 1
 properties:
   - predicate: bio.summary

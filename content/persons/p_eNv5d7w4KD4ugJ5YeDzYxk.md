@@ -4,6 +4,7 @@ id: p_eNv5d7w4KD4ugJ5YeDzYxk
 status: active
 merged_into: null
 display_name: 王汝耀
+cbdb_id: 314231
 revision: 1
 properties:
   - predicate: bio.summary

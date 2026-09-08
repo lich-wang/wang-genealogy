@@ -4,6 +4,7 @@ id: p_1oodw5KMyHddZ5LmNR35kQ
 status: active
 merged_into: null
 display_name: 王汝正
+cbdb_id: 204315
 revision: 1
 properties:
   - predicate: bio.summary

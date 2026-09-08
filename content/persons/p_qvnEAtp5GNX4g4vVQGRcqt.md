@@ -4,6 +4,7 @@ id: p_qvnEAtp5GNX4g4vVQGRcqt
 status: active
 merged_into: null
 display_name: 王仁輔
+cbdb_id: 101053
 revision: 1
 properties:
   - predicate: bio.summary

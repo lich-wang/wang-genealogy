@@ -4,6 +4,7 @@ id: p_327BbGrUWddtTGMc5FNCC9
 status: active
 merged_into: null
 display_name: 王鹽鼎
+cbdb_id: 438945
 revision: 1
 properties:
   - predicate: bio.summary

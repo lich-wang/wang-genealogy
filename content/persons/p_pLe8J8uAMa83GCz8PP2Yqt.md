@@ -4,6 +4,7 @@ id: p_pLe8J8uAMa83GCz8PP2Yqt
 status: active
 merged_into: null
 display_name: 王日初
+cbdb_id: 414763
 revision: 1
 properties:
   - predicate: bio.summary

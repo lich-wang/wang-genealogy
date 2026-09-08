@@ -4,6 +4,7 @@ id: p_6E2W1NKHyeLPCWmDUE7yC4
 status: active
 merged_into: null
 display_name: 王甫禮
+cbdb_id: 337144
 revision: 1
 properties:
   - predicate: bio.summary

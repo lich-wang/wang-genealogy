@@ -4,6 +4,7 @@ id: p_z5u3jCA88DDJrzfkRCxrEK
 status: active
 merged_into: null
 display_name: 王孝先
+cbdb_id: 2130
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_aMKjknD2FxkqKKyHRH27FA
 status: active
 merged_into: null
 display_name: 王廷銳
+cbdb_id: 341946
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_LMJRYU7YyBtdm7r3dU33YN
 status: active
 merged_into: null
 display_name: 王崇拯
+cbdb_id: 45906
 revision: 1
 properties:
   - predicate: bio.summary

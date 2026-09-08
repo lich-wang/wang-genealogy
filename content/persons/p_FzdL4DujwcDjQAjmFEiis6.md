@@ -4,6 +4,7 @@ id: p_FzdL4DujwcDjQAjmFEiis6
 status: active
 merged_into: null
 display_name: 王兆鄂
+cbdb_id: 513437
 revision: 1
 properties:
   - predicate: bio.summary

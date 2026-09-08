@@ -4,6 +4,7 @@ id: p_iTqKF6d5DFftKyBtDG4KDL
 status: active
 merged_into: null
 display_name: 王胡子
+cbdb_id: 154142
 revision: 1
 properties:
   - predicate: bio.summary

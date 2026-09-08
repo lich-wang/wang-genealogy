@@ -4,6 +4,7 @@ id: p_CF8MpVyD1GW83ysE4TpJEy
 status: active
 merged_into: null
 display_name: 王参
+cbdb_id: 175551
 revision: 1
 properties:
   - predicate: bio.summary

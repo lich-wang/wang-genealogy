@@ -4,6 +4,7 @@ id: p_MpRHKYQgMhyeJ8uJAKZD2Z
 status: active
 merged_into: null
 display_name: 王榮貴
+cbdb_id: 221573
 revision: 1
 properties:
   - predicate: bio.summary

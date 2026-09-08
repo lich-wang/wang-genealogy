@@ -4,6 +4,7 @@ id: p_SK7Vz36tmcrq1y4sL2hKF5
 status: active
 merged_into: null
 display_name: 王師旦
+cbdb_id: 342178
 revision: 1
 properties:
   - predicate: bio.summary

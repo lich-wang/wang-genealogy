@@ -4,6 +4,7 @@ id: p_793LbrFg7DY99VBty6JTnV
 status: active
 merged_into: null
 display_name: 王敏禮
+cbdb_id: 237272
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_Pzr5Pq53sTDJ6Bk3SBUGLC
 status: active
 merged_into: null
 display_name: 王登寶
+cbdb_id: 415143
 revision: 1
 properties:
   - predicate: bio.summary

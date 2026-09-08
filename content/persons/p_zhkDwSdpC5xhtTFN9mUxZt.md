@@ -4,6 +4,7 @@ id: p_zhkDwSdpC5xhtTFN9mUxZt
 status: active
 merged_into: null
 display_name: 王玉璋
+cbdb_id: 415100
 revision: 1
 properties:
   - predicate: bio.summary

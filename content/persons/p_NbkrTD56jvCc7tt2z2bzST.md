@@ -4,6 +4,7 @@ id: p_NbkrTD56jvCc7tt2z2bzST
 status: active
 merged_into: null
 display_name: 王汝琛
+cbdb_id: 69880
 revision: 1
 properties:
   - predicate: bio.summary

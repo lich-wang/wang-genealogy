@@ -4,6 +4,7 @@ id: p_WFDFi7dZecPF4bo3TfpKHe
 status: active
 merged_into: null
 display_name: 王四聰
+cbdb_id: 343445
 revision: 1
 properties:
   - predicate: bio.summary

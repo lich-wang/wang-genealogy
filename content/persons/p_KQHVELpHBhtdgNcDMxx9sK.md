@@ -4,6 +4,7 @@ id: p_KQHVELpHBhtdgNcDMxx9sK
 status: active
 merged_into: null
 display_name: 王樹人
+cbdb_id: 343214
 revision: 1
 properties:
   - predicate: bio.summary

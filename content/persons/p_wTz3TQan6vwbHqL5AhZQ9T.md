@@ -4,6 +4,7 @@ id: p_wTz3TQan6vwbHqL5AhZQ9T
 status: active
 merged_into: null
 display_name: 王彥傳
+cbdb_id: 97881
 revision: 1
 properties:
   - predicate: bio.summary

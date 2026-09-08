@@ -4,6 +4,7 @@ id: p_Z6XvkY4GoCsmQ93wmFEy6e
 status: active
 merged_into: null
 display_name: 王實甫
+cbdb_id: 690977
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_tvnrFsvHvQUKrNdzPoHEVm
 status: active
 merged_into: null
 display_name: 王益之
+cbdb_id: 22239
 revision: 2
 properties:
   - predicate: bio.summary

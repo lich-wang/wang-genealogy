@@ -4,6 +4,7 @@ id: p_xHqAeNNJfhxMMaVoSDhgiw
 status: active
 merged_into: null
 display_name: 王振武
+cbdb_id: 414696
 revision: 1
 properties:
   - predicate: bio.summary

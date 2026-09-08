@@ -4,6 +4,7 @@ id: p_KVFqBGn7bBaPvGK3Qh6usX
 status: active
 merged_into: null
 display_name: 王正巳
+cbdb_id: 33301
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_L3UayiJaLKkhpVgMTYiPyN
 status: active
 merged_into: null
 display_name: 王學鏡
+cbdb_id: 414270
 revision: 1
 properties:
   - predicate: bio.summary

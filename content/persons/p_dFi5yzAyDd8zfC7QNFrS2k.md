@@ -4,6 +4,7 @@ id: p_dFi5yzAyDd8zfC7QNFrS2k
 status: active
 merged_into: null
 display_name: 王紹聞
+cbdb_id: 415231
 revision: 1
 properties:
   - predicate: bio.summary

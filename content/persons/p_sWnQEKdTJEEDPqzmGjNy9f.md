@@ -4,6 +4,7 @@ id: p_sWnQEKdTJEEDPqzmGjNy9f
 status: active
 merged_into: null
 display_name: 王海
+cbdb_id: 246748
 revision: 1
 properties:
   - predicate: name.primary

@@ -4,6 +4,7 @@ id: p_zZSCY67HkNBWB8Tm85kU28
 status: active
 merged_into: null
 display_name: 王民質
+cbdb_id: 201570
 revision: 1
 properties:
   - predicate: bio.summary

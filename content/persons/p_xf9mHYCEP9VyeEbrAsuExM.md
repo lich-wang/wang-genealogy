@@ -4,6 +4,7 @@ id: p_xf9mHYCEP9VyeEbrAsuExM
 status: active
 merged_into: null
 display_name: 王仁
+cbdb_id: 25783
 revision: 1
 properties:
   - predicate: bio.summary

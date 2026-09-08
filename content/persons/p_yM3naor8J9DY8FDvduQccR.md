@@ -4,6 +4,7 @@ id: p_yM3naor8J9DY8FDvduQccR
 status: active
 merged_into: null
 display_name: 王孝德
+cbdb_id: 379768
 revision: 1
 properties:
   - predicate: bio.summary

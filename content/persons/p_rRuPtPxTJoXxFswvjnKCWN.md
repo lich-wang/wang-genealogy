@@ -4,6 +4,7 @@ id: p_rRuPtPxTJoXxFswvjnKCWN
 status: active
 merged_into: null
 display_name: 王宗曾
+cbdb_id: 414302
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_6zGR13ZpugDgb7THpig17A
 status: active
 merged_into: null
 display_name: 王兆馥
+cbdb_id: 413930
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_BVBKSKkbmm3UpBzszMgVLL
 status: active
 merged_into: null
 display_name: 王漸造
+cbdb_id: 279745
 revision: 1
 properties:
   - predicate: bio.summary

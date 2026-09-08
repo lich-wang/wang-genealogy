@@ -4,6 +4,7 @@ id: p_KzX3UftT3Pziz8eD7e1Fyf
 status: active
 merged_into: null
 display_name: 王荀息
+cbdb_id: 379785
 revision: 1
 properties:
   - predicate: bio.summary

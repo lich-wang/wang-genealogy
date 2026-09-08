@@ -4,6 +4,7 @@ id: p_43fPLvXfku5KTd8XTuScVE
 status: active
 merged_into: null
 display_name: 王元均
+cbdb_id: 38016
 revision: 1
 properties:
   - predicate: bio.summary

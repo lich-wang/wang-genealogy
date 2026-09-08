@@ -4,6 +4,7 @@ id: p_PzQMN95GqE7HZfgDzsGUwc
 status: active
 merged_into: null
 display_name: 王希雍
+cbdb_id: 208940
 revision: 1
 properties:
   - predicate: bio.summary

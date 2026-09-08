@@ -4,6 +4,7 @@ id: p_bMx31uknDFEjhBVm4z8iVA
 status: active
 merged_into: null
 display_name: 王老老
+cbdb_id: 157913
 revision: 1
 properties:
   - predicate: bio.summary

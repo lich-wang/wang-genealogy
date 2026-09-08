@@ -4,6 +4,7 @@ id: p_WnWoB39QnGQaNueaRLMdhK
 status: active
 merged_into: null
 display_name: 王大旦
+cbdb_id: 526726
 revision: 1
 properties:
   - predicate: bio.summary

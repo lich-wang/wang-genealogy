@@ -4,6 +4,7 @@ id: p_M56PP494xYmHJWqGvzBF4T
 status: active
 merged_into: null
 display_name: 王仲森
+cbdb_id: 413840
 revision: 1
 properties:
   - predicate: bio.summary

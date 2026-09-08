@@ -4,6 +4,7 @@ id: p_LxAHaJnuez9o2NxrgLoki1
 status: active
 merged_into: null
 display_name: 王群壽
+cbdb_id: 72141
 revision: 1
 properties:
   - predicate: bio.summary

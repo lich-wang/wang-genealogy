@@ -4,6 +4,7 @@ id: p_3VBgSmZDGk4HDPezRLUB1S
 status: active
 merged_into: null
 display_name: 王道著
+cbdb_id: 415501
 revision: 1
 properties:
   - predicate: bio.summary

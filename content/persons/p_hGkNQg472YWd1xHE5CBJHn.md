@@ -4,6 +4,7 @@ id: p_hGkNQg472YWd1xHE5CBJHn
 status: active
 merged_into: null
 display_name: 王又沂
+cbdb_id: 514233
 revision: 1
 properties:
   - predicate: bio.summary

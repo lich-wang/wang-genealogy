@@ -4,6 +4,7 @@ id: p_vTaG88WDaT4Yu42keQkxGR
 status: active
 merged_into: null
 display_name: 王懷中
+cbdb_id: 414663
 revision: 1
 properties:
   - predicate: bio.summary

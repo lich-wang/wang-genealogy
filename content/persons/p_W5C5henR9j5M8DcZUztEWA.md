@@ -4,6 +4,7 @@ id: p_W5C5henR9j5M8DcZUztEWA
 status: active
 merged_into: null
 display_name: 王一麒
+cbdb_id: 298430
 revision: 1
 properties:
   - predicate: bio.summary

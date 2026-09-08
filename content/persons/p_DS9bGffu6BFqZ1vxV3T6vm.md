@@ -4,6 +4,7 @@ id: p_DS9bGffu6BFqZ1vxV3T6vm
 status: active
 merged_into: null
 display_name: 王求
+cbdb_id: 175620
 revision: 1
 properties:
   - predicate: bio.summary

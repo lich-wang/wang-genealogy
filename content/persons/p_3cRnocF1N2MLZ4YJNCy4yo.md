@@ -4,6 +4,7 @@ id: p_3cRnocF1N2MLZ4YJNCy4yo
 status: active
 merged_into: null
 display_name: 王某觀
+cbdb_id: 163585
 revision: 1
 properties:
   - predicate: bio.summary

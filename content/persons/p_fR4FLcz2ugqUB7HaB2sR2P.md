@@ -4,6 +4,7 @@ id: p_fR4FLcz2ugqUB7HaB2sR2P
 status: active
 merged_into: null
 display_name: 王日永
+cbdb_id: 13484
 revision: 1
 properties:
   - predicate: bio.summary

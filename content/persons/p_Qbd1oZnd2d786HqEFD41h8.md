@@ -4,6 +4,7 @@ id: p_Qbd1oZnd2d786HqEFD41h8
 status: active
 merged_into: null
 display_name: 王元琳
+cbdb_id: 413913
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_se95B8kZNAXsXxn2LCC9C7
 status: active
 merged_into: null
 display_name: 王彥雍
+cbdb_id: 37709
 revision: 1
 properties:
   - predicate: bio.summary

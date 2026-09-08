@@ -4,6 +4,7 @@ id: p_qw7A5xSNX3EYUYSKVpSM2i
 status: active
 merged_into: null
 display_name: 王繩堯
+cbdb_id: 415264
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_2CU8eA9r3CCkKxHvn51H7a
 status: active
 merged_into: null
 display_name: 王應掄
+cbdb_id: 341571
 revision: 1
 properties:
   - predicate: bio.summary

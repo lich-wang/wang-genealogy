@@ -4,6 +4,7 @@ id: p_aGJZ7Y8BLhu7M984xjCPht
 status: active
 merged_into: null
 display_name: 王錦陽
+cbdb_id: 415539
 revision: 1
 properties:
   - predicate: bio.summary

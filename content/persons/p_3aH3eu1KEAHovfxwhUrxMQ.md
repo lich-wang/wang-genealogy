@@ -4,6 +4,7 @@ id: p_3aH3eu1KEAHovfxwhUrxMQ
 status: active
 merged_into: null
 display_name: 王敏尚
+cbdb_id: 134098
 revision: 1
 properties:
   - predicate: bio.summary

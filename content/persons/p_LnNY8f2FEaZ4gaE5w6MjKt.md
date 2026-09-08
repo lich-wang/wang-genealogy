@@ -4,6 +4,7 @@ id: p_LnNY8f2FEaZ4gaE5w6MjKt
 status: active
 merged_into: null
 display_name: 王希偁
+cbdb_id: 414405
 revision: 1
 properties:
   - predicate: bio.summary

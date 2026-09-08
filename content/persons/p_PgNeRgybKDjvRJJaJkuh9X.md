@@ -4,6 +4,7 @@ id: p_PgNeRgybKDjvRJJaJkuh9X
 status: active
 merged_into: null
 display_name: 王琳徵
+cbdb_id: 415112
 revision: 1
 properties:
   - predicate: bio.summary

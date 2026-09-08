@@ -4,6 +4,7 @@ id: p_EznM75kidP1u1N8LqFw52D
 status: active
 merged_into: null
 display_name: 王晦名
+cbdb_id: 1823
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_XF7yJiP1cS5cZywFmXQ7di
 status: active
 merged_into: null
 display_name: 王起晦
+cbdb_id: 37982
 revision: 1
 properties:
   - predicate: bio.summary

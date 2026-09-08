@@ -4,6 +4,7 @@ id: p_K4gGAqtumy6rEBy4WMtsbe
 status: active
 merged_into: null
 display_name: 王京洛
+cbdb_id: 71786
 revision: 1
 properties:
   - predicate: bio.summary

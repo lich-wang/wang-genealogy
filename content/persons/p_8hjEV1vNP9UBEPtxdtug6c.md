@@ -4,6 +4,7 @@ id: p_8hjEV1vNP9UBEPtxdtug6c
 status: active
 merged_into: null
 display_name: 王苕
+cbdb_id: 222176
 revision: 1
 properties:
   - predicate: bio.summary

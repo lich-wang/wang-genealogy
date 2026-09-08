@@ -4,6 +4,7 @@ id: p_PYN4CyiPosgbkemxzp3xsX
 status: active
 merged_into: null
 display_name: 王辉远
+cbdb_id: 175640
 revision: 1
 properties:
   - predicate: bio.summary

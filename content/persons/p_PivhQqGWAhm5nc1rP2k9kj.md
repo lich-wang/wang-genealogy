@@ -4,6 +4,7 @@ id: p_PivhQqGWAhm5nc1rP2k9kj
 status: active
 merged_into: null
 display_name: 王希祉
+cbdb_id: 693653
 revision: 1
 properties:
   - predicate: bio.summary

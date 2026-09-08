@@ -4,6 +4,7 @@ id: p_zZtGn7QiP2bH9mkgy1o96N
 status: active
 merged_into: null
 display_name: 王維鈺
+cbdb_id: 61932
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_6wKwZuoV6zBMfMppuMEAjn
 status: active
 merged_into: null
 display_name: 王公及
+cbdb_id: 38286
 revision: 1
 properties:
   - predicate: bio.summary

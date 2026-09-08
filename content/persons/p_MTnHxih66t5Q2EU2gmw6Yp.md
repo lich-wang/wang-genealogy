@@ -4,6 +4,7 @@ id: p_MTnHxih66t5Q2EU2gmw6Yp
 status: active
 merged_into: null
 display_name: 王绮
+cbdb_id: 175359
 revision: 1
 properties:
   - predicate: bio.summary

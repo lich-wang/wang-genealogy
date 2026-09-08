@@ -4,6 +4,7 @@ id: p_2BZTYtweXYja81g4qeSs2i
 status: active
 merged_into: null
 display_name: 王宗孔
+cbdb_id: 317693
 revision: 1
 properties:
   - predicate: bio.summary

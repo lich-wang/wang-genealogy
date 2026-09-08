@@ -4,6 +4,7 @@ id: p_R6XjGtgE5QKHT7KdACZW2B
 status: active
 merged_into: null
 display_name: 王汝金
+cbdb_id: 71613
 revision: 1
 properties:
   - predicate: bio.summary

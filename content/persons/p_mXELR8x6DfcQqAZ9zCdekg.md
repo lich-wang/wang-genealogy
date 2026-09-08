@@ -4,6 +4,7 @@ id: p_mXELR8x6DfcQqAZ9zCdekg
 status: active
 merged_into: null
 display_name: 王岳起
+cbdb_id: 123316
 revision: 2
 properties:
   - predicate: bio.summary

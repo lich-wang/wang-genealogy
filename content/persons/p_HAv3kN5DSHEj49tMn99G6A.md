@@ -4,6 +4,7 @@ id: p_HAv3kN5DSHEj49tMn99G6A
 status: active
 merged_into: null
 display_name: 王錫瓚
+cbdb_id: 415549
 revision: 1
 properties:
   - predicate: bio.summary

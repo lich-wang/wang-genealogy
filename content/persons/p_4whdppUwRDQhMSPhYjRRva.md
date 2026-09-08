@@ -4,6 +4,7 @@ id: p_4whdppUwRDQhMSPhYjRRva
 status: active
 merged_into: null
 display_name: 王慎知
+cbdb_id: 151489
 revision: 1
 properties:
   - predicate: bio.summary

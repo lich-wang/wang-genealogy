@@ -4,6 +4,7 @@ id: p_J3r4egDAk291FHqMu29aXc
 status: active
 merged_into: null
 display_name: 王得名
+cbdb_id: 263527
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_RNTPxYgBJAhxCwiGx15VEJ
 status: active
 merged_into: null
 display_name: 王甯
+cbdb_id: 415137
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_9wAPVGy1D3QZqQkHupd1oN
 status: active
 merged_into: null
 display_name: 王承訓
+cbdb_id: 166173
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_zNuBaBWZsMU4TAdk23ekxC
 status: active
 merged_into: null
 display_name: 王仲肅
+cbdb_id: 337155
 revision: 1
 properties:
   - predicate: bio.summary

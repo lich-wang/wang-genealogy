@@ -4,6 +4,7 @@ id: p_PBKAyfAVK9K3kiD5FqQqip
 status: active
 merged_into: null
 display_name: 王老志
+cbdb_id: 38745
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_Y5WaSafCKgrSWU79kr8SB5
 status: active
 merged_into: null
 display_name: 王行芳
+cbdb_id: 71588
 revision: 1
 properties:
   - predicate: bio.summary

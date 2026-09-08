@@ -4,6 +4,7 @@ id: p_rb8tznEkJuEZhnFRpwU8px
 status: active
 merged_into: null
 display_name: 王世范
+cbdb_id: 17764
 revision: 2
 properties:
   - predicate: bio.summary

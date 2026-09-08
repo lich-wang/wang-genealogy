@@ -4,6 +4,7 @@ id: p_4mGjJ46JNnYHLveScS4Lji
 status: active
 merged_into: null
 display_name: 王陸一
+cbdb_id: 71723
 revision: 1
 properties:
   - predicate: bio.summary

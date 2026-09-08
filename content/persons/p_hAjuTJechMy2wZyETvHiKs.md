@@ -4,6 +4,7 @@ id: p_hAjuTJechMy2wZyETvHiKs
 status: active
 merged_into: null
 display_name: 王元用
+cbdb_id: 158171
 revision: 1
 properties:
   - predicate: bio.summary

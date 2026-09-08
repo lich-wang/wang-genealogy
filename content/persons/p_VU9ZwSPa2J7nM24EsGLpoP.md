@@ -4,6 +4,7 @@ id: p_VU9ZwSPa2J7nM24EsGLpoP
 status: active
 merged_into: null
 display_name: 王應某
+cbdb_id: 496738
 revision: 1
 properties:
   - predicate: bio.summary

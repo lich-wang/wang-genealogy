@@ -4,6 +4,7 @@ id: p_tCKp1gYi5QhowxvZYFbJnt
 status: active
 merged_into: null
 display_name: 王澹
+cbdb_id: 175363
 revision: 1
 properties:
   - predicate: bio.summary

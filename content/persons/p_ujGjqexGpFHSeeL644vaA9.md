@@ -4,6 +4,7 @@ id: p_ujGjqexGpFHSeeL644vaA9
 status: active
 merged_into: null
 display_name: 王弘直
+cbdb_id: 175393
 revision: 1
 properties:
   - predicate: bio.summary

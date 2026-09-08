@@ -4,6 +4,7 @@ id: p_DHYbJsS7LE12BDd6qGrWUt
 status: active
 merged_into: null
 display_name: 王蒔蘭
+cbdb_id: 69391
 revision: 1
 properties:
   - predicate: bio.summary

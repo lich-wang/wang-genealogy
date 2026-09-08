@@ -4,6 +4,7 @@ id: p_diXe274QnHJvK7qQ78GT8f
 status: active
 merged_into: null
 display_name: 王諤臣
+cbdb_id: 38437
 revision: 1
 properties:
   - predicate: bio.summary

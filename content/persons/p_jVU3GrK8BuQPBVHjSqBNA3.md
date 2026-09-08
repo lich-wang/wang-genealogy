@@ -4,6 +4,7 @@ id: p_jVU3GrK8BuQPBVHjSqBNA3
 status: active
 merged_into: null
 display_name: 王廷宋
+cbdb_id: 414457
 revision: 1
 properties:
   - predicate: bio.summary

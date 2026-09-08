@@ -4,6 +4,7 @@ id: p_e69m9xmJM7ytDWbR7uuvmB
 status: active
 merged_into: null
 display_name: 王應綬
+cbdb_id: 71701
 revision: 1
 properties:
   - predicate: bio.summary

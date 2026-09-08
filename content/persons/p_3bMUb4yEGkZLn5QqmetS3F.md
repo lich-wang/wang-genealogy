@@ -4,6 +4,7 @@ id: p_3bMUb4yEGkZLn5QqmetS3F
 status: active
 merged_into: null
 display_name: 王鳳姑
+cbdb_id: 522153
 revision: 1
 properties:
   - predicate: bio.summary

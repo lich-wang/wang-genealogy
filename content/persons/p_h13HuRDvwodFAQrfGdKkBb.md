@@ -4,6 +4,7 @@ id: p_h13HuRDvwodFAQrfGdKkBb
 status: active
 merged_into: null
 display_name: 王葆琛
+cbdb_id: 343118
 revision: 1
 properties:
   - predicate: bio.summary

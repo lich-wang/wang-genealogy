@@ -4,6 +4,7 @@ id: p_V5cKdi1jWAZANn9M5ojt8b
 status: active
 merged_into: null
 display_name: 王彥琦
+cbdb_id: 242454
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_vx7q9PQBMT5VZvJ9yYG8PR
 status: active
 merged_into: null
 display_name: 王貞白
+cbdb_id: 91990
 revision: 1
 properties:
   - predicate: bio.summary

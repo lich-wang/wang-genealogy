@@ -4,6 +4,7 @@ id: p_JAnDf2diFtSrmRkMRezTMo
 status: active
 merged_into: null
 display_name: 王章燦
+cbdb_id: 415212
 revision: 1
 properties:
   - predicate: bio.summary

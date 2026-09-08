@@ -4,6 +4,7 @@ id: p_tTF5xWCQr61Y9V5j36CVNz
 status: active
 merged_into: null
 display_name: 王滋德
+cbdb_id: 232794
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_KQ43jri1TgMLLT1r2xbZb7
 status: active
 merged_into: null
 display_name: 王家材
+cbdb_id: 233440
 revision: 1
 properties:
   - predicate: bio.summary

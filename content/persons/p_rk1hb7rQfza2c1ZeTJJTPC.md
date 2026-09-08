@@ -4,6 +4,7 @@ id: p_rk1hb7rQfza2c1ZeTJJTPC
 status: active
 merged_into: null
 display_name: 王黯之
+cbdb_id: 153389
 revision: 1
 properties:
   - predicate: bio.summary

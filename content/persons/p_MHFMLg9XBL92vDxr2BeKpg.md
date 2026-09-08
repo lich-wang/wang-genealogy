@@ -4,6 +4,7 @@ id: p_MHFMLg9XBL92vDxr2BeKpg
 status: active
 merged_into: null
 display_name: 王守敬
+cbdb_id: 281211
 revision: 1
 properties:
   - predicate: bio.summary

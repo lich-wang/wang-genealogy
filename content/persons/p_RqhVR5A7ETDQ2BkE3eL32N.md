@@ -4,6 +4,7 @@ id: p_RqhVR5A7ETDQ2BkE3eL32N
 status: active
 merged_into: null
 display_name: 王雲祥
+cbdb_id: 415587
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_fSPTyvZx6JgS18E4r7jHpT
 status: active
 merged_into: null
 display_name: 王忻都
+cbdb_id: 414588
 revision: 1
 properties:
   - predicate: bio.summary

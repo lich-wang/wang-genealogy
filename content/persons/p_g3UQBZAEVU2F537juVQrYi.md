@@ -4,6 +4,7 @@ id: p_g3UQBZAEVU2F537juVQrYi
 status: active
 merged_into: null
 display_name: 王同朝
+cbdb_id: 228282
 revision: 1
 properties:
   - predicate: bio.summary

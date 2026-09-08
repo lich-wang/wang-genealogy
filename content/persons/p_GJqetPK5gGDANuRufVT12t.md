@@ -4,6 +4,7 @@ id: p_GJqetPK5gGDANuRufVT12t
 status: active
 merged_into: null
 display_name: 王道高
+cbdb_id: 321164
 revision: 1
 properties:
   - predicate: bio.summary

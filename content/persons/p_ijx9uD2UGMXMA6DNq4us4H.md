@@ -4,6 +4,7 @@ id: p_ijx9uD2UGMXMA6DNq4us4H
 status: active
 merged_into: null
 display_name: 王仁鏡
+cbdb_id: 413808
 revision: 1
 properties:
   - predicate: bio.summary

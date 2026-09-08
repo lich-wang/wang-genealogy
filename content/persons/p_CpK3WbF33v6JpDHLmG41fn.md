@@ -4,6 +4,7 @@ id: p_CpK3WbF33v6JpDHLmG41fn
 status: active
 merged_into: null
 display_name: 王志一
+cbdb_id: 261817
 revision: 1
 properties:
   - predicate: bio.summary

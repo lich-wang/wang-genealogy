@@ -4,6 +4,7 @@ id: p_1ed84zppGFyEhUrM6saQJV
 status: active
 merged_into: null
 display_name: 王鼎基
+cbdb_id: 342202
 revision: 1
 properties:
   - predicate: bio.summary

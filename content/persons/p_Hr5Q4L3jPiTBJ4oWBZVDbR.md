@@ -4,6 +4,7 @@ id: p_Hr5Q4L3jPiTBJ4oWBZVDbR
 status: active
 merged_into: null
 display_name: 王遏
+cbdb_id: 151614
 revision: 1
 properties:
   - predicate: bio.summary

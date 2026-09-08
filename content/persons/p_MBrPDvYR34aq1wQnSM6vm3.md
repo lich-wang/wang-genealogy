@@ -4,6 +4,7 @@ id: p_MBrPDvYR34aq1wQnSM6vm3
 status: active
 merged_into: null
 display_name: 王才傑
+cbdb_id: 261596
 revision: 1
 properties:
   - predicate: bio.summary

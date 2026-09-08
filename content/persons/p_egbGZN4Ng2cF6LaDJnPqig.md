@@ -4,6 +4,7 @@ id: p_egbGZN4Ng2cF6LaDJnPqig
 status: active
 merged_into: null
 display_name: 王命教
+cbdb_id: 493023
 revision: 1
 properties:
   - predicate: bio.summary

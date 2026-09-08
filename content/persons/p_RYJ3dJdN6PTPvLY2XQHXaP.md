@@ -4,6 +4,7 @@ id: p_RYJ3dJdN6PTPvLY2XQHXaP
 status: active
 merged_into: null
 display_name: 王從諫
+cbdb_id: 154555
 revision: 1
 properties:
   - predicate: bio.summary

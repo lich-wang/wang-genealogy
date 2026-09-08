@@ -4,6 +4,7 @@ id: p_8YDjoJXWBi5PyNmkv6AW5r
 status: active
 merged_into: null
 display_name: 王仁生
+cbdb_id: 236492
 revision: 1
 properties:
   - predicate: bio.summary

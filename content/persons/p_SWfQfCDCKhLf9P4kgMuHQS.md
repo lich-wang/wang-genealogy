@@ -4,6 +4,7 @@ id: p_SWfQfCDCKhLf9P4kgMuHQS
 status: active
 merged_into: null
 display_name: 王立程
+cbdb_id: 702263
 revision: 2
 properties:
   - predicate: bio.summary

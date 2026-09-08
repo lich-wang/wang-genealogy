@@ -4,6 +4,7 @@ id: p_1wWAbEEGdmqiGkE8Kv1Fsb
 status: active
 merged_into: null
 display_name: 王昇善
+cbdb_id: 101252
 revision: 1
 properties:
   - predicate: bio.summary

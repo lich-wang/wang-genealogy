@@ -4,6 +4,7 @@ id: p_QvPhnczVXd8EJkAtkRAA2Q
 status: active
 merged_into: null
 display_name: 王芳媚
+cbdb_id: 142971
 revision: 1
 properties:
   - predicate: bio.summary

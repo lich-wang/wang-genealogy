@@ -4,6 +4,7 @@ id: p_G6aLsWXSmZW6hMNSaoQ5VW
 status: active
 merged_into: null
 display_name: 王希佐
+cbdb_id: 315376
 revision: 1
 properties:
   - predicate: bio.summary

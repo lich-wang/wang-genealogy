@@ -4,6 +4,7 @@ id: p_aV5Zc8BcWF5HHt1kdYi48X
 status: active
 merged_into: null
 display_name: 王敬夫
+cbdb_id: 158496
 revision: 1
 properties:
   - predicate: bio.summary

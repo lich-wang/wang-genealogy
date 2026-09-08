@@ -4,6 +4,7 @@ id: p_ZCGCL9LmAetw9nf577tv3E
 status: active
 merged_into: null
 display_name: 王朝選
+cbdb_id: 72050
 revision: 1
 properties:
   - predicate: bio.summary

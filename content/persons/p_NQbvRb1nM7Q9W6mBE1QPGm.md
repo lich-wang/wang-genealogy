@@ -4,6 +4,7 @@ id: p_NQbvRb1nM7Q9W6mBE1QPGm
 status: active
 merged_into: null
 display_name: 王晏
+cbdb_id: 175372
 revision: 1
 properties:
   - predicate: bio.summary

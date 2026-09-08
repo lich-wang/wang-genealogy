@@ -4,6 +4,7 @@ id: p_6ByrbT4hRD7Sz6c6BmBGYZ
 status: active
 merged_into: null
 display_name: 王伯時
+cbdb_id: 97795
 revision: 1
 properties:
   - predicate: bio.summary

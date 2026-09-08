@@ -4,6 +4,7 @@ id: p_ETtkX5L21aLwU1bvPt6vxz
 status: active
 merged_into: null
 display_name: 王又白
+cbdb_id: 133909
 revision: 1
 properties:
   - predicate: bio.summary

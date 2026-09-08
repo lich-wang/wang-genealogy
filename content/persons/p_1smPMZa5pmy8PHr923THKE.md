@@ -4,6 +4,7 @@ id: p_1smPMZa5pmy8PHr923THKE
 status: active
 merged_into: null
 display_name: 王宗祿
+cbdb_id: 414308
 revision: 1
 properties:
   - predicate: bio.summary

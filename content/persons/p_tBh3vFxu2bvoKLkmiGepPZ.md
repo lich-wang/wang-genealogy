@@ -4,6 +4,7 @@ id: p_tBh3vFxu2bvoKLkmiGepPZ
 status: active
 merged_into: null
 display_name: 王贊儒
+cbdb_id: 415458
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_G1iDfB3gpXRcTDDBVUHcYa
 status: active
 merged_into: null
 display_name: 王庭華
+cbdb_id: 341583
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_akpqJMSSGZNHLkzngCE1Qi
 status: active
 merged_into: null
 display_name: 王子成
+cbdb_id: 200985
 revision: 1
 properties:
   - predicate: bio.summary

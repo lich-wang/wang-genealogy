@@ -4,6 +4,7 @@ id: p_FcsQFbJzYD1KyFK3wCW2xz
 status: active
 merged_into: null
 display_name: 王燮鴻
+cbdb_id: 522263
 revision: 1
 properties:
   - predicate: bio.summary

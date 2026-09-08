@@ -4,6 +4,7 @@ id: p_nLzV7tENsHZDmF9T6AR7FN
 status: active
 merged_into: null
 display_name: 王炳如
+cbdb_id: 415067
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_9trnTxMJH6XbK8DNVRiQvo
 status: active
 merged_into: null
 display_name: 王鏈
+cbdb_id: 273673
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_uAujjG392SPymDDHoGZN88
 status: active
 merged_into: null
 display_name: 王廷望
+cbdb_id: 315367
 revision: 1
 properties:
   - predicate: bio.summary

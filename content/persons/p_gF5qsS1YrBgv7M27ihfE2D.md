@@ -4,6 +4,7 @@ id: p_gF5qsS1YrBgv7M27ihfE2D
 status: active
 merged_into: null
 display_name: 王培厚
+cbdb_id: 414147
 revision: 1
 properties:
   - predicate: bio.summary

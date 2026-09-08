@@ -4,6 +4,7 @@ id: p_5jdoYejsQkfLqGA75X2L7y
 status: active
 merged_into: null
 display_name: 王廣田
+cbdb_id: 414441
 revision: 1
 properties:
   - predicate: bio.summary

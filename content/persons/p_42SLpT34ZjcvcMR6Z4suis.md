@@ -4,6 +4,7 @@ id: p_42SLpT34ZjcvcMR6Z4suis
 status: active
 merged_into: null
 display_name: 王期化
+cbdb_id: 324018
 revision: 1
 properties:
   - predicate: bio.summary

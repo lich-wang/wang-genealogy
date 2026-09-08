@@ -4,6 +4,7 @@ id: p_BsHNXXn7uEnEAxUmf31gH4
 status: active
 merged_into: null
 display_name: 王聿修
+cbdb_id: 69184
 revision: 1
 properties:
   - predicate: bio.summary

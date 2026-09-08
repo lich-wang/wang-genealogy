@@ -4,6 +4,7 @@ id: p_7XZDFMGnBwMNXByMk9mi77
 status: active
 merged_into: null
 display_name: 王思或
+cbdb_id: 155331
 revision: 1
 properties:
   - predicate: bio.summary

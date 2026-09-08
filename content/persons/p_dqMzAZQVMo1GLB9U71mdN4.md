@@ -4,6 +4,7 @@ id: p_dqMzAZQVMo1GLB9U71mdN4
 status: active
 merged_into: null
 display_name: 王策範
+cbdb_id: 343870
 revision: 1
 properties:
   - predicate: bio.summary

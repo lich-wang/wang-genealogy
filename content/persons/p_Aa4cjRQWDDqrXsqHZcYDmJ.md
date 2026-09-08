@@ -4,6 +4,7 @@ id: p_Aa4cjRQWDDqrXsqHZcYDmJ
 status: active
 merged_into: null
 display_name: 王世永
+cbdb_id: 343179
 revision: 1
 properties:
   - predicate: bio.summary

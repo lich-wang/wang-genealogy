@@ -4,6 +4,7 @@ id: p_S577eZ1S4aBdPX2TsbdbsM
 status: active
 merged_into: null
 display_name: 王畹生
+cbdb_id: 135172
 revision: 1
 properties:
   - predicate: bio.summary

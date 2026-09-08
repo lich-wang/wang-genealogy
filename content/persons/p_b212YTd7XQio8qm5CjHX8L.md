@@ -4,6 +4,7 @@ id: p_b212YTd7XQio8qm5CjHX8L
 status: active
 merged_into: null
 display_name: 王鴻洲
+cbdb_id: 415645
 revision: 1
 properties:
   - predicate: bio.summary

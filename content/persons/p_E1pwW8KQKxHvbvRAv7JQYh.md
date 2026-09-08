@@ -4,6 +4,7 @@ id: p_E1pwW8KQKxHvbvRAv7JQYh
 status: active
 merged_into: null
 display_name: 王愚軒
+cbdb_id: 100196
 revision: 1
 properties:
   - predicate: bio.summary

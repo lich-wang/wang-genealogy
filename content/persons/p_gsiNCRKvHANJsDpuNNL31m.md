@@ -4,6 +4,7 @@ id: p_gsiNCRKvHANJsDpuNNL31m
 status: active
 merged_into: null
 display_name: 王廣宇
+cbdb_id: 441140
 revision: 1
 properties:
   - predicate: bio.summary

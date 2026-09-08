@@ -4,6 +4,7 @@ id: p_srzfvu6gnixJXQ62YGFNvV
 status: active
 merged_into: null
 display_name: 王雅量
+cbdb_id: 343563
 revision: 1
 properties:
   - predicate: bio.summary

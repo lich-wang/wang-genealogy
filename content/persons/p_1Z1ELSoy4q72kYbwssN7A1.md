@@ -4,6 +4,7 @@ id: p_1Z1ELSoy4q72kYbwssN7A1
 status: active
 merged_into: null
 display_name: 王懷義
+cbdb_id: 414666
 revision: 1
 properties:
   - predicate: bio.summary

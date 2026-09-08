@@ -4,6 +4,7 @@ id: p_14x7rGh9oPptwu81wW4v9i
 status: active
 merged_into: null
 display_name: 王纬
+cbdb_id: 92022
 revision: 1
 properties:
   - predicate: bio.summary

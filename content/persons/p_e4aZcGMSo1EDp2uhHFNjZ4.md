@@ -4,6 +4,7 @@ id: p_e4aZcGMSo1EDp2uhHFNjZ4
 status: active
 merged_into: null
 display_name: 王中徹
+cbdb_id: 185431
 revision: 1
 properties:
   - predicate: bio.summary

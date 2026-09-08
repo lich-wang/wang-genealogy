@@ -4,6 +4,7 @@ id: p_2CN1rb9zH543xRBstFNPXh
 status: active
 merged_into: null
 display_name: 王保璐
+cbdb_id: 515675
 revision: 1
 properties:
   - predicate: bio.summary

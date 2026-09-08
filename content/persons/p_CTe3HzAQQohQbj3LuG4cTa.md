@@ -4,6 +4,7 @@ id: p_CTe3HzAQQohQbj3LuG4cTa
 status: active
 merged_into: null
 display_name: 王篆流
+cbdb_id: 227249
 revision: 1
 properties:
   - predicate: bio.summary

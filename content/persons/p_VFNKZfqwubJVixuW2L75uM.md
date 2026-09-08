@@ -4,6 +4,7 @@ id: p_VFNKZfqwubJVixuW2L75uM
 status: active
 merged_into: null
 display_name: 王賡欽
+cbdb_id: 341605
 revision: 1
 properties:
   - predicate: bio.summary

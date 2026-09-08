@@ -4,6 +4,7 @@ id: p_J2sm2QjBDXQ9KbXi2v7H6H
 status: active
 merged_into: null
 display_name: 王鶚舉
+cbdb_id: 27286
 revision: 1
 properties:
   - predicate: bio.summary

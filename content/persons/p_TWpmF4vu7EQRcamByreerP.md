@@ -4,6 +4,7 @@ id: p_TWpmF4vu7EQRcamByreerP
 status: active
 merged_into: null
 display_name: 王延之
+cbdb_id: 175447
 revision: 1
 properties:
   - predicate: bio.summary

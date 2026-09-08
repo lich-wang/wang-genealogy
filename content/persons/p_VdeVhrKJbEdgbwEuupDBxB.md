@@ -4,6 +4,7 @@ id: p_VdeVhrKJbEdgbwEuupDBxB
 status: active
 merged_into: null
 display_name: 王從初
+cbdb_id: 381703
 revision: 1
 properties:
   - predicate: bio.summary

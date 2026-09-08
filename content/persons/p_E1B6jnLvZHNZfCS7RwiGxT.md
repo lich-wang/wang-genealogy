@@ -4,6 +4,7 @@ id: p_E1B6jnLvZHNZfCS7RwiGxT
 status: active
 merged_into: null
 display_name: 王鍚爵
+cbdb_id: 415555
 revision: 1
 properties:
   - predicate: bio.summary

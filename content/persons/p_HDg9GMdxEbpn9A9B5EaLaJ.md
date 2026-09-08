@@ -4,6 +4,7 @@ id: p_HDg9GMdxEbpn9A9B5EaLaJ
 status: active
 merged_into: null
 display_name: 王鎮興
+cbdb_id: 72187
 revision: 1
 properties:
   - predicate: bio.summary

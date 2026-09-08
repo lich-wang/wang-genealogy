@@ -4,6 +4,7 @@ id: p_S8wJYWUE8oeWbtmDP4q3iR
 status: active
 merged_into: null
 display_name: 王啓雲
+cbdb_id: 414076
 revision: 1
 properties:
   - predicate: bio.summary

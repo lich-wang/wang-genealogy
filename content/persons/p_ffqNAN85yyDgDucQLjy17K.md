@@ -4,6 +4,7 @@ id: p_ffqNAN85yyDgDucQLjy17K
 status: active
 merged_into: null
 display_name: 王可道
+cbdb_id: 28654
 revision: 1
 properties:
   - predicate: bio.summary

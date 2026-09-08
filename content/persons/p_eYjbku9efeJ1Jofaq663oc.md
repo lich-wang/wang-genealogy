@@ -4,6 +4,7 @@ id: p_eYjbku9efeJ1Jofaq663oc
 status: active
 merged_into: null
 display_name: 王宿善
+cbdb_id: 414359
 revision: 1
 properties:
   - predicate: bio.summary

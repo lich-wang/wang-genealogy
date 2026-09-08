@@ -4,6 +4,7 @@ id: p_8rMkfz6NPWpdFnSHaR5ZAV
 status: active
 merged_into: null
 display_name: 王增謙
+cbdb_id: 61951
 revision: 1
 properties:
   - predicate: bio.summary

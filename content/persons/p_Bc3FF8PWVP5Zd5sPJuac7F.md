@@ -4,6 +4,7 @@ id: p_Bc3FF8PWVP5Zd5sPJuac7F
 status: active
 merged_into: null
 display_name: 王禮臣
+cbdb_id: 306743
 revision: 1
 properties:
   - predicate: bio.summary

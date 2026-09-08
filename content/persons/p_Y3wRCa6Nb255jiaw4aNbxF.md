@@ -4,6 +4,7 @@ id: p_Y3wRCa6Nb255jiaw4aNbxF
 status: active
 merged_into: null
 display_name: 王仕亨
+cbdb_id: 254338
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_q3f1YXuX9xs22ndzs91ctb
 status: active
 merged_into: null
 display_name: 王獻奇
+cbdb_id: 312066
 revision: 1
 properties:
   - predicate: bio.summary

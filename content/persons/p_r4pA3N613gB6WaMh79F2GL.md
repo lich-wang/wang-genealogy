@@ -4,6 +4,7 @@ id: p_r4pA3N613gB6WaMh79F2GL
 status: active
 merged_into: null
 display_name: 王弘贄
+cbdb_id: 414508
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_8b7B5JqkJF8w821pxRm7Au
 status: active
 merged_into: null
 display_name: 王鎮雄
+cbdb_id: 68618
 revision: 1
 properties:
   - predicate: bio.summary

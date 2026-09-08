@@ -4,6 +4,7 @@ id: p_3mibMvnEdQJnc7fhQ8bNox
 status: active
 merged_into: null
 display_name: 王人麒
+cbdb_id: 343695
 revision: 1
 properties:
   - predicate: bio.summary

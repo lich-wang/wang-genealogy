@@ -4,6 +4,7 @@ id: p_wFbkD9ooHcAPU8PmEvFg93
 status: active
 merged_into: null
 display_name: 王剛父
+cbdb_id: 101299
 revision: 1
 properties:
   - predicate: bio.summary

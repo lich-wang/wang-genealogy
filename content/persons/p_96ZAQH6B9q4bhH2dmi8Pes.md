@@ -4,6 +4,7 @@ id: p_96ZAQH6B9q4bhH2dmi8Pes
 status: active
 merged_into: null
 display_name: 王得保
+cbdb_id: 414527
 revision: 1
 properties:
   - predicate: bio.summary

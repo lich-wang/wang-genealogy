@@ -4,6 +4,7 @@ id: p_cWVn6jWdFJQQRMBKdT7C7Y
 status: active
 merged_into: null
 display_name: 王鼎伯
+cbdb_id: 72061
 revision: 1
 properties:
   - predicate: bio.summary

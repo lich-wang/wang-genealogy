@@ -4,6 +4,7 @@ id: p_jvyneAmQwsyuMFavFeHLZy
 status: active
 merged_into: null
 display_name: 王遵魯
+cbdb_id: 224061
 revision: 1
 properties:
   - predicate: bio.summary

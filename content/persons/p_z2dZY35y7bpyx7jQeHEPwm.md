@@ -4,6 +4,7 @@ id: p_z2dZY35y7bpyx7jQeHEPwm
 status: active
 merged_into: null
 display_name: 王從詔
+cbdb_id: 414538
 revision: 1
 properties:
   - predicate: bio.summary

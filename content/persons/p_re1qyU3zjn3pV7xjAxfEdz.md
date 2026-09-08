@@ -4,6 +4,7 @@ id: p_re1qyU3zjn3pV7xjAxfEdz
 status: active
 merged_into: null
 display_name: 王守奇
+cbdb_id: 414282
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_QAy8esGqXh4jpJu14jC2nj
 status: active
 merged_into: null
 display_name: 王方则
+cbdb_id: 175354
 revision: 1
 properties:
   - predicate: bio.summary

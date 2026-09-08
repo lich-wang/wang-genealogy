@@ -4,6 +4,7 @@ id: p_R3vLMhfhY23yJ6gN5mPnaf
 status: active
 merged_into: null
 display_name: 王待問
+cbdb_id: 13954
 revision: 1
 properties:
   - predicate: bio.summary

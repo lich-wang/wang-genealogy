@@ -4,6 +4,7 @@ id: p_1a5DvSKyHZPpss3j5aDdef
 status: active
 merged_into: null
 display_name: 王達志
+cbdb_id: 237439
 revision: 1
 properties:
   - predicate: bio.summary

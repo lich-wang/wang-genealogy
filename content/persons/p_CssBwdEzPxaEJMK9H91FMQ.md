@@ -4,6 +4,7 @@ id: p_CssBwdEzPxaEJMK9H91FMQ
 status: active
 merged_into: null
 display_name: 王云
+cbdb_id: 257532
 revision: 1
 properties:
   - predicate: name.primary

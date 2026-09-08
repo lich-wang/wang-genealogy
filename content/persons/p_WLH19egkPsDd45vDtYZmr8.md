@@ -4,6 +4,7 @@ id: p_WLH19egkPsDd45vDtYZmr8
 status: active
 merged_into: null
 display_name: 王毓璘
+cbdb_id: 414930
 revision: 1
 properties:
   - predicate: bio.summary

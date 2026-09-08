@@ -4,6 +4,7 @@ id: p_6tt42hCZA528675DNELou4
 status: active
 merged_into: null
 display_name: 王敬民
+cbdb_id: 126758
 revision: 1
 properties:
   - predicate: bio.summary

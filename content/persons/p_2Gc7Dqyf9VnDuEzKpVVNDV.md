@@ -4,6 +4,7 @@ id: p_2Gc7Dqyf9VnDuEzKpVVNDV
 status: active
 merged_into: null
 display_name: 王友沂
+cbdb_id: 521012
 revision: 1
 properties:
   - predicate: bio.summary

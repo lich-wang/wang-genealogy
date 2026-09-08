@@ -4,6 +4,7 @@ id: p_AvRKiedGX8c5u92S2EUWEa
 status: active
 merged_into: null
 display_name: 王鍾吉
+cbdb_id: 343780
 revision: 1
 properties:
   - predicate: bio.summary

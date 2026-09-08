@@ -4,6 +4,7 @@ id: p_CCzMWKQQX3WY69yb53JKMF
 status: active
 merged_into: null
 display_name: 王文員
+cbdb_id: 341624
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_FekPAGJTS2MEpfWDkLmhCu
 status: active
 merged_into: null
 display_name: 王漪
+cbdb_id: 175527
 revision: 1
 properties:
   - predicate: bio.summary

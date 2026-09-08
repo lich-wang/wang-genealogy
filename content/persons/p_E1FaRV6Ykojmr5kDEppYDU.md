@@ -4,6 +4,7 @@ id: p_E1FaRV6Ykojmr5kDEppYDU
 status: active
 merged_into: null
 display_name: 王尹方
+cbdb_id: 342062
 revision: 1
 properties:
   - predicate: bio.summary

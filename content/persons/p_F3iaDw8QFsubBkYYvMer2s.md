@@ -4,6 +4,7 @@ id: p_F3iaDw8QFsubBkYYvMer2s
 status: active
 merged_into: null
 display_name: 王苞林
+cbdb_id: 494088
 revision: 1
 properties:
   - predicate: bio.summary

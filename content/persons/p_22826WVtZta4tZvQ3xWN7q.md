@@ -4,6 +4,7 @@ id: p_22826WVtZta4tZvQ3xWN7q
 status: active
 merged_into: null
 display_name: 王友潤
+cbdb_id: 414020
 revision: 1
 properties:
   - predicate: bio.summary

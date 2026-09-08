@@ -4,6 +4,7 @@ id: p_TXubGPinJtSPjzrNAc37Hn
 status: active
 merged_into: null
 display_name: 王寅熙
+cbdb_id: 72024
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_muf5LSh6aGkW56UNfBDJFd
 status: active
 merged_into: null
 display_name: 王锡
+cbdb_id: 175477
 revision: 1
 properties:
   - predicate: bio.summary

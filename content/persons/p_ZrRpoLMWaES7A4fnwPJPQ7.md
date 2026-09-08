@@ -4,6 +4,7 @@ id: p_ZrRpoLMWaES7A4fnwPJPQ7
 status: active
 merged_into: null
 display_name: 王一孜
+cbdb_id: 256439
 revision: 1
 properties:
   - predicate: bio.summary

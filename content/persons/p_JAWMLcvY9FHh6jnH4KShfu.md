@@ -4,6 +4,7 @@ id: p_JAWMLcvY9FHh6jnH4KShfu
 status: active
 merged_into: null
 display_name: 王重華
+cbdb_id: 175685
 revision: 1
 properties:
   - predicate: bio.summary

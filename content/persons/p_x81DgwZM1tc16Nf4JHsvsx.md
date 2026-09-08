@@ -4,6 +4,7 @@ id: p_x81DgwZM1tc16Nf4JHsvsx
 status: active
 merged_into: null
 display_name: 王淑曾
+cbdb_id: 331193
 revision: 1
 properties:
   - predicate: bio.summary

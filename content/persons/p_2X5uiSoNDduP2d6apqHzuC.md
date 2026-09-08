@@ -4,6 +4,7 @@ id: p_2X5uiSoNDduP2d6apqHzuC
 status: active
 merged_into: null
 display_name: 王拱安
+cbdb_id: 22236
 revision: 1
 properties:
   - predicate: bio.summary

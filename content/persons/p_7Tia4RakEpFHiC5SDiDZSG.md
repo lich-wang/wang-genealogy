@@ -4,6 +4,7 @@ id: p_7Tia4RakEpFHiC5SDiDZSG
 status: active
 merged_into: null
 display_name: 王让
+cbdb_id: 333155
 revision: 2
 properties:
   - predicate: bio.summary

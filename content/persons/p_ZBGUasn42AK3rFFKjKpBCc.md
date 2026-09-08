@@ -4,6 +4,7 @@ id: p_ZBGUasn42AK3rFFKjKpBCc
 status: active
 merged_into: null
 display_name: 王道任
+cbdb_id: 415495
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_7w7R7PSA759EpLs8K9jpxH
 status: active
 merged_into: null
 display_name: 王民秀
+cbdb_id: 210125
 revision: 1
 properties:
   - predicate: bio.summary

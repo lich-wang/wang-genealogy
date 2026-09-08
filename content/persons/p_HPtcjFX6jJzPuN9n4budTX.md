@@ -4,6 +4,7 @@ id: p_HPtcjFX6jJzPuN9n4budTX
 status: active
 merged_into: null
 display_name: 王行約
+cbdb_id: 463163
 revision: 1
 properties:
   - predicate: bio.summary

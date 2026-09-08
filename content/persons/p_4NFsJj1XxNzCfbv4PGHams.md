@@ -4,6 +4,7 @@ id: p_4NFsJj1XxNzCfbv4PGHams
 status: active
 merged_into: null
 display_name: 王在鎬
+cbdb_id: 71530
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_WQ7Fk2JkN9CLXSW8EvM4tQ
 status: active
 merged_into: null
 display_name: 王子才
+cbdb_id: 329990
 revision: 1
 properties:
   - predicate: bio.summary

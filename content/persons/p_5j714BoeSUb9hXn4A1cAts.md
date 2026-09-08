@@ -4,6 +4,7 @@ id: p_5j714BoeSUb9hXn4A1cAts
 status: active
 merged_into: null
 display_name: 王守默
+cbdb_id: 216142
 revision: 1
 properties:
   - predicate: bio.summary

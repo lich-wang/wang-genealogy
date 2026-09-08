@@ -4,6 +4,7 @@ id: p_TiLsX87HgiNvg1wZnaqCXq
 status: active
 merged_into: null
 display_name: 王龜鼎
+cbdb_id: 384927
 revision: 1
 properties:
   - predicate: bio.summary

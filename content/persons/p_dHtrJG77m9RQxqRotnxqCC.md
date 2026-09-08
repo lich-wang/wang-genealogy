@@ -4,6 +4,7 @@ id: p_dHtrJG77m9RQxqRotnxqCC
 status: active
 merged_into: null
 display_name: 王世僎
+cbdb_id: 441473
 revision: 1
 properties:
   - predicate: bio.summary

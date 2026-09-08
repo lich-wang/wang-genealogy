@@ -4,6 +4,7 @@ id: p_9xcQkNMJKmNkfPhtCTA6pF
 status: active
 merged_into: null
 display_name: 王益字
+cbdb_id: 101318
 revision: 1
 properties:
   - predicate: bio.summary

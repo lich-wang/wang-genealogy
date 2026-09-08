@@ -4,6 +4,7 @@ id: p_veRhq4DFQ4MsCj9bEHhLZk
 status: active
 merged_into: null
 display_name: 王若木
+cbdb_id: 98006
 revision: 1
 properties:
   - predicate: bio.summary

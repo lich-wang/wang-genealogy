@@ -4,6 +4,7 @@ id: p_xPpogW4h8Gk2BuGvi1B3Ao
 status: active
 merged_into: null
 display_name: 王均美
+cbdb_id: 414142
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_FpPuF59j14VJHp32Cia9ah
 status: active
 merged_into: null
 display_name: 王顯誥
+cbdb_id: 415608
 revision: 1
 properties:
   - predicate: bio.summary

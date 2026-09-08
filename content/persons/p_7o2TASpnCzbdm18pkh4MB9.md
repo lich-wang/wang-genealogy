@@ -4,6 +4,7 @@ id: p_7o2TASpnCzbdm18pkh4MB9
 status: active
 merged_into: null
 display_name: 王紹思
+cbdb_id: 524789
 revision: 1
 properties:
   - predicate: bio.summary

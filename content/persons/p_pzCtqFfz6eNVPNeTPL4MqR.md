@@ -4,6 +4,7 @@ id: p_pzCtqFfz6eNVPNeTPL4MqR
 status: active
 merged_into: null
 display_name: 王俨
+cbdb_id: 175932
 revision: 2
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_RBWRC81dBQKqNs5pJfThe8
 status: active
 merged_into: null
 display_name: 王知本
+cbdb_id: 101256
 revision: 1
 properties:
   - predicate: bio.summary

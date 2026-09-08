@@ -4,6 +4,7 @@ id: p_q6Gkhd6CkCVqheAVsg3RbK
 status: active
 merged_into: null
 display_name: 王繼安
+cbdb_id: 513562
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_w9i3DxK5tYZ48zzRUjm6Xn
 status: active
 merged_into: null
 display_name: 王警道
+cbdb_id: 240078
 revision: 1
 properties:
   - predicate: bio.summary

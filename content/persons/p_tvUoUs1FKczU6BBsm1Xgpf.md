@@ -4,6 +4,7 @@ id: p_tvUoUs1FKczU6BBsm1Xgpf
 status: active
 merged_into: null
 display_name: 王伯憲
+cbdb_id: 413855
 revision: 1
 properties:
   - predicate: bio.summary

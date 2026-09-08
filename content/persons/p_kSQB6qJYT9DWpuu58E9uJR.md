@@ -4,6 +4,7 @@ id: p_kSQB6qJYT9DWpuu58E9uJR
 status: active
 merged_into: null
 display_name: 王登祿
+cbdb_id: 415144
 revision: 1
 properties:
   - predicate: bio.summary

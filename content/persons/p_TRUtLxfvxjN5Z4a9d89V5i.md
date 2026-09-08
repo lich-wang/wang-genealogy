@@ -4,6 +4,7 @@ id: p_TRUtLxfvxjN5Z4a9d89V5i
 status: active
 merged_into: null
 display_name: 王啟棠
+cbdb_id: 342885
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_staV7NpqmWaPNLuzEjvKNG
 status: active
 merged_into: null
 display_name: 王宗寶
+cbdb_id: 221967
 revision: 1
 properties:
   - predicate: bio.summary

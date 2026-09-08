@@ -4,6 +4,7 @@ id: p_9tNwVp4keF8zTML59sHoNo
 status: active
 merged_into: null
 display_name: 王世翰
+cbdb_id: 517435
 revision: 1
 properties:
   - predicate: bio.summary

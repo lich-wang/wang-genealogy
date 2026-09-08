@@ -4,6 +4,7 @@ id: p_ZbD99C4BekXwqC5kDUcsjZ
 status: active
 merged_into: null
 display_name: 王必达
+cbdb_id: 69135
 revision: 3
 properties:
   - predicate: bio.summary

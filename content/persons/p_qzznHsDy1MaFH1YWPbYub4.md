@@ -4,6 +4,7 @@ id: p_qzznHsDy1MaFH1YWPbYub4
 status: active
 merged_into: null
 display_name: 王培龄
+cbdb_id: 202447
 revision: 2
 properties:
   - predicate: bio.summary

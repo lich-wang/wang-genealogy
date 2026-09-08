@@ -4,6 +4,7 @@ id: p_Ch8G8ysWFs91khUE5LQNnF
 status: active
 merged_into: null
 display_name: 王之鰲
+cbdb_id: 216062
 revision: 1
 properties:
   - predicate: bio.summary

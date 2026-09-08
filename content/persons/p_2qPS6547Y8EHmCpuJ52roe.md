@@ -4,6 +4,7 @@ id: p_2qPS6547Y8EHmCpuJ52roe
 status: active
 merged_into: null
 display_name: 王雪窗
+cbdb_id: 134851
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_tMmNBogY2GrGVpEr3aauMV
 status: active
 merged_into: null
 display_name: 王惟成
+cbdb_id: 72021
 revision: 1
 properties:
   - predicate: bio.summary

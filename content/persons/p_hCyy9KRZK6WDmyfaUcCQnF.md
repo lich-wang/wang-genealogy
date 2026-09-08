@@ -4,6 +4,7 @@ id: p_hCyy9KRZK6WDmyfaUcCQnF
 status: active
 merged_into: null
 display_name: 王鄂芳
+cbdb_id: 517026
 revision: 1
 properties:
   - predicate: bio.summary

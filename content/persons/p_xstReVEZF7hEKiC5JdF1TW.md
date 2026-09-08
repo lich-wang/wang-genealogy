@@ -4,6 +4,7 @@ id: p_xstReVEZF7hEKiC5JdF1TW
 status: active
 merged_into: null
 display_name: 王八娘
+cbdb_id: 156471
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_6cnkAoS31yJE96Dt1N7zgw
 status: active
 merged_into: null
 display_name: 王思廉
+cbdb_id: 101278
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_5STPAh14G4hiyjJt1KMACm
 status: active
 merged_into: null
 display_name: 王朝金
+cbdb_id: 414852
 revision: 1
 properties:
   - predicate: bio.summary

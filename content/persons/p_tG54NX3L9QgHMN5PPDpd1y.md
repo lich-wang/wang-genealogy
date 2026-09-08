@@ -4,6 +4,7 @@ id: p_tG54NX3L9QgHMN5PPDpd1y
 status: active
 merged_into: null
 display_name: 王國成
+cbdb_id: 324371
 revision: 1
 properties:
   - predicate: bio.summary

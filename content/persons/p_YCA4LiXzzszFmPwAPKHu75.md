@@ -4,6 +4,7 @@ id: p_YCA4LiXzzszFmPwAPKHu75
 status: active
 merged_into: null
 display_name: 王宣詔
+cbdb_id: 29995
 revision: 1
 properties:
   - predicate: bio.summary

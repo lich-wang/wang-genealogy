@@ -4,6 +4,7 @@ id: p_HV9eWukyMWwdeuNgfr9uRk
 status: active
 merged_into: null
 display_name: 王占春
+cbdb_id: 414007
 revision: 1
 properties:
   - predicate: bio.summary

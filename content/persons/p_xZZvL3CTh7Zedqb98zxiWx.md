@@ -4,6 +4,7 @@ id: p_xZZvL3CTh7Zedqb98zxiWx
 status: active
 merged_into: null
 display_name: 王翼甫
+cbdb_id: 101454
 revision: 1
 properties:
   - predicate: bio.summary

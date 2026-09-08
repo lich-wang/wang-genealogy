@@ -4,6 +4,7 @@ id: p_WTUPeVosFRfEMPFeaT6LVn
 status: active
 merged_into: null
 display_name: 王雲岸
+cbdb_id: 415584
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_Tffvt8PaRx7qSEiYdDgfFH
 status: active
 merged_into: null
 display_name: 王淑陵
+cbdb_id: 205297
 revision: 1
 properties:
   - predicate: bio.summary

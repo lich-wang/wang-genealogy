@@ -4,6 +4,7 @@ id: p_39GWjbzJQtkejPEWb4G4LN
 status: active
 merged_into: null
 display_name: 陈树勷
+cbdb_id: 55734
 revision: 2
 properties:
   - predicate: bio.summary

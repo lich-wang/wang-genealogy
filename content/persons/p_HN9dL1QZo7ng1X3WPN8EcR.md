@@ -4,6 +4,7 @@ id: p_HN9dL1QZo7ng1X3WPN8EcR
 status: active
 merged_into: null
 display_name: 丘氏
+cbdb_id: 38574
 revision: 1
 properties:
   - predicate: name.primary

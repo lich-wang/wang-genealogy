@@ -4,6 +4,7 @@ id: p_bfJqSqW8CKzHKbLhmae5ty
 status: active
 merged_into: null
 display_name: 王逢士
+cbdb_id: 38166
 revision: 1
 properties:
   - predicate: bio.summary

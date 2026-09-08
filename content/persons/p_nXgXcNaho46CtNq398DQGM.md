@@ -4,6 +4,7 @@ id: p_nXgXcNaho46CtNq398DQGM
 status: active
 merged_into: null
 display_name: 王體坤
+cbdb_id: 232017
 revision: 1
 properties:
   - predicate: bio.summary

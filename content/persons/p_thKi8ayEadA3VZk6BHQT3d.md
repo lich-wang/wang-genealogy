@@ -4,6 +4,7 @@ id: p_thKi8ayEadA3VZk6BHQT3d
 status: active
 merged_into: null
 display_name: 王儒珪
+cbdb_id: 101437
 revision: 1
 properties:
   - predicate: bio.summary

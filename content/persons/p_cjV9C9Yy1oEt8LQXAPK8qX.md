@@ -4,6 +4,7 @@ id: p_cjV9C9Yy1oEt8LQXAPK8qX
 status: active
 merged_into: null
 display_name: 王映軫
+cbdb_id: 526917
 revision: 1
 properties:
   - predicate: bio.summary

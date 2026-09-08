@@ -4,6 +4,7 @@ id: p_BhBqmnsgNCnRtzDmYZFzgB
 status: active
 merged_into: null
 display_name: 王辛元
+cbdb_id: 341635
 revision: 1
 properties:
   - predicate: bio.summary

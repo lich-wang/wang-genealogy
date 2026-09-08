@@ -4,6 +4,7 @@ id: p_Xkp9HmZB1xgMWuiuv2Hx7g
 status: active
 merged_into: null
 display_name: 王蘭思
+cbdb_id: 101460
 revision: 1
 properties:
   - predicate: bio.summary

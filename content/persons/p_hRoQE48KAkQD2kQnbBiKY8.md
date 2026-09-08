@@ -4,6 +4,7 @@ id: p_hRoQE48KAkQD2kQnbBiKY8
 status: active
 merged_into: null
 display_name: 王汝俸
+cbdb_id: 414958
 revision: 1
 properties:
   - predicate: bio.summary

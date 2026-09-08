@@ -4,6 +4,7 @@ id: p_pZQEkPwF13kvhJdAiVHVhx
 status: active
 merged_into: null
 display_name: 王顯祚
+cbdb_id: 438271
 revision: 1
 properties:
   - predicate: bio.summary

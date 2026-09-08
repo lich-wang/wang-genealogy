@@ -4,6 +4,7 @@ id: p_2ouab6WYY6xcZHd7SQ75UP
 status: active
 merged_into: null
 display_name: 王汝敬
+cbdb_id: 342729
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_FLFcPPEXByru3j5c6vxzPG
 status: active
 merged_into: null
 display_name: 王览
+cbdb_id: 25786
 revision: 1
 properties:
   - predicate: bio.summary

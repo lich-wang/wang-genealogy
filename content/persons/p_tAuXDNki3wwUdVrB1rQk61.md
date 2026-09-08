@@ -4,6 +4,7 @@ id: p_tAuXDNki3wwUdVrB1rQk61
 status: active
 merged_into: null
 display_name: 王瑞栴
+cbdb_id: 341881
 revision: 1
 properties:
   - predicate: bio.summary

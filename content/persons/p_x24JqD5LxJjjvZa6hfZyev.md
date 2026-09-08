@@ -4,6 +4,7 @@ id: p_x24JqD5LxJjjvZa6hfZyev
 status: active
 merged_into: null
 display_name: 王熊伯
+cbdb_id: 72177
 revision: 1
 properties:
   - predicate: bio.summary

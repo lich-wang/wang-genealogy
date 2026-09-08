@@ -4,6 +4,7 @@ id: p_ag7sp3txji7SbxJ1AoP1eA
 status: active
 merged_into: null
 display_name: 王阿師
+cbdb_id: 149004
 revision: 1
 properties:
   - predicate: bio.summary

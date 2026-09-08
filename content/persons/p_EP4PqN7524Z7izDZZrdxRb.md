@@ -4,6 +4,7 @@ id: p_EP4PqN7524Z7izDZZrdxRb
 status: active
 merged_into: null
 display_name: 王图炜
+cbdb_id: 69624
 revision: 2
 properties:
   - predicate: bio.summary

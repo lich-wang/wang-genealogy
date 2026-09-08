@@ -4,6 +4,7 @@ id: p_X5Xq3Vz2tnZgQMCAP5JAqG
 status: active
 merged_into: null
 display_name: 王恩域
+cbdb_id: 496893
 revision: 1
 properties:
   - predicate: bio.summary

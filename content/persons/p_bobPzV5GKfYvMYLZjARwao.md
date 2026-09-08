@@ -4,6 +4,7 @@ id: p_bobPzV5GKfYvMYLZjARwao
 status: active
 merged_into: null
 display_name: 王克貞
+cbdb_id: 39043
 revision: 1
 properties:
   - predicate: bio.summary

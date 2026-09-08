@@ -4,6 +4,7 @@ id: p_YmwYo8RSMwngpebeueQT9v
 status: active
 merged_into: null
 display_name: 王式廬
+cbdb_id: 414501
 revision: 1
 properties:
   - predicate: bio.summary

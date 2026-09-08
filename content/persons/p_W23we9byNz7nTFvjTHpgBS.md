@@ -4,6 +4,7 @@ id: p_W23we9byNz7nTFvjTHpgBS
 status: active
 merged_into: null
 display_name: 王振
+cbdb_id: 22013
 revision: 2
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_rkLXhSrQp42YWZ7vwKKqH5
 status: active
 merged_into: null
 display_name: 王奉國
+cbdb_id: 156543
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_f5PPfyt9oFAMk7K58cFksS
 status: active
 merged_into: null
 display_name: 王仙柯
+cbdb_id: 445507
 revision: 1
 properties:
   - predicate: bio.summary

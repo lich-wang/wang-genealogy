@@ -4,6 +4,7 @@ id: p_XEi4FBsz26HafiFGC9X5uF
 status: active
 merged_into: null
 display_name: 王正坤
+cbdb_id: 414914
 revision: 1
 properties:
   - predicate: bio.summary

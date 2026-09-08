@@ -4,6 +4,7 @@ id: p_fNUQTeY9r9U4uZNpkZAEFJ
 status: active
 merged_into: null
 display_name: 王對揚
+cbdb_id: 216912
 revision: 1
 properties:
   - predicate: bio.summary

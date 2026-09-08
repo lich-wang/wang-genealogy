@@ -4,6 +4,7 @@ id: p_52fz1XAFZcK8hpmrNkZw8t
 status: active
 merged_into: null
 display_name: 王南玉
+cbdb_id: 329623
 revision: 1
 properties:
   - predicate: bio.summary

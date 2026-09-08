@@ -4,6 +4,7 @@ id: p_MmBv8UuDK8TCMHPc1z1WJW
 status: active
 merged_into: null
 display_name: 王孟鈞
+cbdb_id: 258059
 revision: 1
 properties:
   - predicate: bio.summary

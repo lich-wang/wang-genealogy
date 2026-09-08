@@ -4,6 +4,7 @@ id: p_y8qq6ZZQLo2v36rcUxxeFP
 status: active
 merged_into: null
 display_name: 王民戴
+cbdb_id: 210127
 revision: 1
 properties:
   - predicate: bio.summary

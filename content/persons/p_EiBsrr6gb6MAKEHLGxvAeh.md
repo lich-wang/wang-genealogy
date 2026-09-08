@@ -4,6 +4,7 @@ id: p_EiBsrr6gb6MAKEHLGxvAeh
 status: active
 merged_into: null
 display_name: 王永玉
+cbdb_id: 288602
 revision: 1
 properties:
   - predicate: bio.summary

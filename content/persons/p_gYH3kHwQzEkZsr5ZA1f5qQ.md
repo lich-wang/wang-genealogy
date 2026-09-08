@@ -4,6 +4,7 @@ id: p_gYH3kHwQzEkZsr5ZA1f5qQ
 status: active
 merged_into: null
 display_name: 王天舜
+cbdb_id: 324345
 revision: 1
 properties:
   - predicate: bio.summary

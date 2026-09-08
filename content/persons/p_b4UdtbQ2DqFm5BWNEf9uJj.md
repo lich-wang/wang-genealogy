@@ -4,6 +4,7 @@ id: p_b4UdtbQ2DqFm5BWNEf9uJj
 status: active
 merged_into: null
 display_name: 王執璋
+cbdb_id: 330527
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_L1xJcebV4e7ZmLgBivAJo4
 status: active
 merged_into: null
 display_name: 王錩
+cbdb_id: 415541
 revision: 1
 properties:
   - predicate: bio.summary

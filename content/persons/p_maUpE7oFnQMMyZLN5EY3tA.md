@@ -4,6 +4,7 @@ id: p_maUpE7oFnQMMyZLN5EY3tA
 status: active
 merged_into: null
 display_name: 王天榮
+cbdb_id: 414210
 revision: 1
 properties:
   - predicate: bio.summary

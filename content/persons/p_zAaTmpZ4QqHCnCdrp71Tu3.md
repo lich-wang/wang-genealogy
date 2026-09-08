@@ -4,6 +4,7 @@ id: p_zAaTmpZ4QqHCnCdrp71Tu3
 status: active
 merged_into: null
 display_name: 王若毅
+cbdb_id: 101294
 revision: 1
 properties:
   - predicate: bio.summary

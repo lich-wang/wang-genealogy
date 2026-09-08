@@ -4,6 +4,7 @@ id: p_k5EQuK4TxxSq85mbWUD5Ma
 status: active
 merged_into: null
 display_name: 王定生
+cbdb_id: 121826
 revision: 1
 properties:
   - predicate: bio.summary

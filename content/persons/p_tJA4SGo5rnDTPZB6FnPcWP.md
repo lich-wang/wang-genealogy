@@ -4,6 +4,7 @@ id: p_tJA4SGo5rnDTPZB6FnPcWP
 status: active
 merged_into: null
 display_name: 周氏
+cbdb_id: 37792
 revision: 1
 properties:
   - predicate: name.primary

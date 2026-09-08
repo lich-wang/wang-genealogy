@@ -4,6 +4,7 @@ id: p_HU55tHV9NJNEXnoVTT53M4
 status: active
 merged_into: null
 display_name: 王重廉
+cbdb_id: 526693
 revision: 1
 properties:
   - predicate: bio.summary

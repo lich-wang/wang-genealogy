@@ -4,6 +4,7 @@ id: p_u1wp8xocy2jBFDuqxm11QW
 status: active
 merged_into: null
 display_name: 王夢虺
+cbdb_id: 230387
 revision: 1
 properties:
   - predicate: bio.summary

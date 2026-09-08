@@ -4,6 +4,7 @@ id: p_ezSkEkdK3taAcseziwUUqQ
 status: active
 merged_into: null
 display_name: 王仝福
+cbdb_id: 413817
 revision: 1
 properties:
   - predicate: bio.summary

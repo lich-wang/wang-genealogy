@@ -4,6 +4,7 @@ id: p_bGtwBsMuUAuXoi2ok9LjRY
 status: active
 merged_into: null
 display_name: 王武才
+cbdb_id: 210018
 revision: 1
 properties:
   - predicate: bio.summary

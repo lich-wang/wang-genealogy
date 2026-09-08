@@ -4,6 +4,7 @@ id: p_b4bisUW9C7vmM7GVAbGAqe
 status: active
 merged_into: null
 display_name: 王大韶
+cbdb_id: 226560
 revision: 2
 properties:
   - predicate: bio.summary

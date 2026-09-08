@@ -4,6 +4,7 @@ id: p_DjEdAKpeRWEQhWBFhSNWLy
 status: active
 merged_into: null
 display_name: 王徳地
+cbdb_id: 414548
 revision: 1
 properties:
   - predicate: bio.summary

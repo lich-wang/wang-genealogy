@@ -4,6 +4,7 @@ id: p_3c3tQqXdmv6oNaCqp7pULH
 status: active
 merged_into: null
 display_name: 王佛奴
+cbdb_id: 175600
 revision: 1
 properties:
   - predicate: bio.summary

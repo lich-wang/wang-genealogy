@@ -4,6 +4,7 @@ id: p_z9CRsNnooiFQRCG4ksEvqr
 status: active
 merged_into: null
 display_name: 王膺
+cbdb_id: 186789
 revision: 1
 properties:
   - predicate: bio.summary

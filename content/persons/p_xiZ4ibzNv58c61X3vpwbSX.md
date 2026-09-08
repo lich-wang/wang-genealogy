@@ -4,6 +4,7 @@ id: p_xiZ4ibzNv58c61X3vpwbSX
 status: active
 merged_into: null
 display_name: 王廷猷
+cbdb_id: 341945
 revision: 1
 properties:
   - predicate: bio.summary

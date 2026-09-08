@@ -4,6 +4,7 @@ id: p_NGbd2mH7UDvFHQwaMK5Ckp
 status: active
 merged_into: null
 display_name: 王琲
+cbdb_id: 266767
 revision: 1
 properties:
   - predicate: bio.summary

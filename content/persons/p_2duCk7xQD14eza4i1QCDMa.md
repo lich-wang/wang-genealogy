@@ -4,6 +4,7 @@ id: p_2duCk7xQD14eza4i1QCDMa
 status: active
 merged_into: null
 display_name: 王徵吉
+cbdb_id: 525991
 revision: 1
 properties:
   - predicate: bio.summary

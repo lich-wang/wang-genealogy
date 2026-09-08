@@ -4,6 +4,7 @@ id: p_nCrxFgDnWbo6QZrG4H7Ki3
 status: active
 merged_into: null
 display_name: 王孚化
+cbdb_id: 336307
 revision: 1
 properties:
   - predicate: bio.summary

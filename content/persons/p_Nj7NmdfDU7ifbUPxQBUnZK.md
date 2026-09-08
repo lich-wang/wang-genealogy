@@ -4,6 +4,7 @@ id: p_Nj7NmdfDU7ifbUPxQBUnZK
 status: active
 merged_into: null
 display_name: 王名卿
+cbdb_id: 511597
 revision: 1
 properties:
   - predicate: bio.summary

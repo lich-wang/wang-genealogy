@@ -4,6 +4,7 @@ id: p_JJAMHktHVsNh4PdjuG5NDs
 status: active
 merged_into: null
 display_name: 王醴泉
+cbdb_id: 121968
 revision: 1
 properties:
   - predicate: bio.summary

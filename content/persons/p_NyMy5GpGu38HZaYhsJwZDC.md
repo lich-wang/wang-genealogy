@@ -4,6 +4,7 @@ id: p_NyMy5GpGu38HZaYhsJwZDC
 status: active
 merged_into: null
 display_name: 王獻吉
+cbdb_id: 119188
 revision: 1
 properties:
   - predicate: bio.summary

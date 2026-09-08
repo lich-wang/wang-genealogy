@@ -4,6 +4,7 @@ id: p_sXHkiFBVbT66P4UH4qYAmy
 status: active
 merged_into: null
 display_name: 王新極
+cbdb_id: 414757
 revision: 1
 properties:
   - predicate: bio.summary

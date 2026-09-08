@@ -4,6 +4,7 @@ id: p_xdm6YMht41V6T5QLC46xCk
 status: active
 merged_into: null
 display_name: 王尚行
+cbdb_id: 414373
 revision: 1
 properties:
   - predicate: bio.summary

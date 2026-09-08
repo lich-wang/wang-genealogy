@@ -4,6 +4,7 @@ id: p_BNP6oPtKhY88Lc6k7HCBF5
 status: active
 merged_into: null
 display_name: 王遇某
+cbdb_id: 509372
 revision: 1
 properties:
   - predicate: bio.summary

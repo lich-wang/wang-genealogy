@@ -4,6 +4,7 @@ id: p_QL4f8iQKvdxUmPhBivaz8T
 status: active
 merged_into: null
 display_name: 王聞遠
+cbdb_id: 71905
 revision: 1
 properties:
   - predicate: bio.summary

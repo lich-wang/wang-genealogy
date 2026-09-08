@@ -4,6 +4,7 @@ id: p_NAdVRpE8XYFtDN9QsAv8aU
 status: active
 merged_into: null
 display_name: 王汝宜
+cbdb_id: 313772
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_f8eZWzNps1kpP8jH3uNQTB
 status: active
 merged_into: null
 display_name: 王誠羲
+cbdb_id: 61903
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_LBemnLQC7Me24TEorZJGE6
 status: active
 merged_into: null
 display_name: 王仲伸
+cbdb_id: 157936
 revision: 1
 properties:
   - predicate: bio.summary

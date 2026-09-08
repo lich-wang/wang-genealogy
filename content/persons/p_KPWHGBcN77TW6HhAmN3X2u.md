@@ -4,6 +4,7 @@ id: p_KPWHGBcN77TW6HhAmN3X2u
 status: active
 merged_into: null
 display_name: 王一鶴
+cbdb_id: 413683
 revision: 1
 properties:
   - predicate: bio.summary

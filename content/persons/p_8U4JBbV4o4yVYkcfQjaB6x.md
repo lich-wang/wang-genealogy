@@ -4,6 +4,7 @@ id: p_8U4JBbV4o4yVYkcfQjaB6x
 status: active
 merged_into: null
 display_name: 王纘祖
+cbdb_id: 415282
 revision: 1
 properties:
   - predicate: bio.summary

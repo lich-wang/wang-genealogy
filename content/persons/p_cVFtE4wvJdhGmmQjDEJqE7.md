@@ -4,6 +4,7 @@ id: p_cVFtE4wvJdhGmmQjDEJqE7
 status: active
 merged_into: null
 display_name: 王孝政
+cbdb_id: 163062
 revision: 1
 properties:
   - predicate: bio.summary

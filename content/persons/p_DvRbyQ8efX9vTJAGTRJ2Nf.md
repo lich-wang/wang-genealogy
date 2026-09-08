@@ -4,6 +4,7 @@ id: p_DvRbyQ8efX9vTJAGTRJ2Nf
 status: active
 merged_into: null
 display_name: 王錫祉
+cbdb_id: 526773
 revision: 1
 properties:
   - predicate: bio.summary

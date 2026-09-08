@@ -4,6 +4,7 @@ id: p_i2UQKwz22Z88LRYj1TsSqo
 status: active
 merged_into: null
 display_name: 王繡君
+cbdb_id: 69811
 revision: 1
 properties:
   - predicate: bio.summary

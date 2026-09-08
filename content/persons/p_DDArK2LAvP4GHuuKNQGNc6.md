@@ -4,6 +4,7 @@ id: p_DDArK2LAvP4GHuuKNQGNc6
 status: active
 merged_into: null
 display_name: 王昉夫
+cbdb_id: 158499
 revision: 1
 properties:
   - predicate: bio.summary

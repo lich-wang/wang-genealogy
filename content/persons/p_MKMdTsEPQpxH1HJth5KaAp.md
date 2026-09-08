@@ -4,6 +4,7 @@ id: p_MKMdTsEPQpxH1HJth5KaAp
 status: active
 merged_into: null
 display_name: 王觉
+cbdb_id: 175626
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_D7oFmf6BSZPnoLhWWTLnqX
 status: active
 merged_into: null
 display_name: 王汝泰
+cbdb_id: 342733
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_Ns4Cdmr9SZRQforztCwkrA
 status: active
 merged_into: null
 display_name: 王成
+cbdb_id: 257533
 revision: 2
 properties:
   - predicate: bio.summary

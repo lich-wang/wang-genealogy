@@ -4,6 +4,7 @@ id: p_X5z4rgH2gVNLW1jZWHYtQj
 status: active
 merged_into: null
 display_name: 王重義
+cbdb_id: 69302
 revision: 1
 properties:
   - predicate: bio.summary

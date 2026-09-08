@@ -4,6 +4,7 @@ id: p_gVSxArPwZM1zubh7qqChKw
 status: active
 merged_into: null
 display_name: 王廷建
+cbdb_id: 414458
 revision: 1
 properties:
   - predicate: bio.summary

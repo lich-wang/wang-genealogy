@@ -4,6 +4,7 @@ id: p_DTdjsS6QERsLdYy57NhSNT
 status: active
 merged_into: null
 display_name: 王恆輳
+cbdb_id: 192004
 revision: 1
 properties:
   - predicate: bio.summary

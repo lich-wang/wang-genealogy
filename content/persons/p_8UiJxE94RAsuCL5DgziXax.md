@@ -4,6 +4,7 @@ id: p_8UiJxE94RAsuCL5DgziXax
 status: active
 merged_into: null
 display_name: 王大端
+cbdb_id: 328845
 revision: 1
 properties:
   - predicate: bio.summary

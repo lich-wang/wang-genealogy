@@ -4,6 +4,7 @@ id: p_zJ1Pzko9B5NNeaFihXANes
 status: active
 merged_into: null
 display_name: 王客僧
+cbdb_id: 162660
 revision: 1
 properties:
   - predicate: bio.summary

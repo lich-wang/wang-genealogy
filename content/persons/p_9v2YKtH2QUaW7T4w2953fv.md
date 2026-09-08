@@ -4,6 +4,7 @@ id: p_9v2YKtH2QUaW7T4w2953fv
 status: active
 merged_into: null
 display_name: 王振興
+cbdb_id: 414699
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_J9iMztX68v4di9ztM2BukU
 status: active
 merged_into: null
 display_name: 王承徳
+cbdb_id: 414683
 revision: 1
 properties:
   - predicate: bio.summary

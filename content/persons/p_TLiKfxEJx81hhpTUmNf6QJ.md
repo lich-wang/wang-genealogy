@@ -4,6 +4,7 @@ id: p_TLiKfxEJx81hhpTUmNf6QJ
 status: active
 merged_into: null
 display_name: 王建藩
+cbdb_id: 227354
 revision: 1
 properties:
   - predicate: bio.summary

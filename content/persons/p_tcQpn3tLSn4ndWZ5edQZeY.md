@@ -4,6 +4,7 @@ id: p_tcQpn3tLSn4ndWZ5edQZeY
 status: active
 merged_into: null
 display_name: 王遡曾
+cbdb_id: 342809
 revision: 1
 properties:
   - predicate: bio.summary

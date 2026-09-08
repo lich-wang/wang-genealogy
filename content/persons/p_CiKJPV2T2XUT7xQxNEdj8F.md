@@ -4,6 +4,7 @@ id: p_CiKJPV2T2XUT7xQxNEdj8F
 status: active
 merged_into: null
 display_name: 王陟臣
+cbdb_id: 1785
 revision: 1
 properties:
   - predicate: bio.summary

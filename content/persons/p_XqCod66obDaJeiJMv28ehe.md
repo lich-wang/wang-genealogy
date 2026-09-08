@@ -4,6 +4,7 @@ id: p_XqCod66obDaJeiJMv28ehe
 status: active
 merged_into: null
 display_name: 王世遵
+cbdb_id: 413728
 revision: 1
 properties:
   - predicate: bio.summary

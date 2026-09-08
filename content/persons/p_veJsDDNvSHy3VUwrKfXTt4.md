@@ -4,6 +4,7 @@ id: p_veJsDDNvSHy3VUwrKfXTt4
 status: active
 merged_into: null
 display_name: 王思恭
+cbdb_id: 175398
 revision: 1
 properties:
   - predicate: bio.summary

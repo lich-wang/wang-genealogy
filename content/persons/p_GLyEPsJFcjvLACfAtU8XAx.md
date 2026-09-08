@@ -4,6 +4,7 @@ id: p_GLyEPsJFcjvLACfAtU8XAx
 status: active
 merged_into: null
 display_name: 王鼎冕
+cbdb_id: 342203
 revision: 1
 properties:
   - predicate: bio.summary

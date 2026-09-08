@@ -4,6 +4,7 @@ id: p_awB88fWmNMCTQpBUe2qmCA
 status: active
 merged_into: null
 display_name: 王可正
+cbdb_id: 414030
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_o5J4W4rTvFvFVnE78dKETx
 status: active
 merged_into: null
 display_name: 王沛生
+cbdb_id: 414991
 revision: 1
 properties:
   - predicate: bio.summary

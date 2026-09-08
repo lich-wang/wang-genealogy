@@ -4,6 +4,7 @@ id: p_fX4rtwwvmj6B8GGZ6uSzKs
 status: active
 merged_into: null
 display_name: 王文邁
+cbdb_id: 341615
 revision: 1
 properties:
   - predicate: bio.summary

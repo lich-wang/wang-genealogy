@@ -4,6 +4,7 @@ id: p_EzT5ojW5jYCp4PxisAE9KC
 status: active
 merged_into: null
 display_name: 王僧辨
+cbdb_id: 468081
 revision: 1
 properties:
   - predicate: bio.summary

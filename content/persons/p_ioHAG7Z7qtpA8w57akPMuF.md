@@ -4,6 +4,7 @@ id: p_ioHAG7Z7qtpA8w57akPMuF
 status: active
 merged_into: null
 display_name: 王弘舒
+cbdb_id: 241183
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_wZrAHpBrWk4NUaM75h8tNC
 status: active
 merged_into: null
 display_name: 王退思
+cbdb_id: 175525
 revision: 1
 properties:
   - predicate: bio.summary

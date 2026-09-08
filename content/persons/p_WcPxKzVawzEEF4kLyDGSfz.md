@@ -4,6 +4,7 @@ id: p_WcPxKzVawzEEF4kLyDGSfz
 status: active
 merged_into: null
 display_name: 王惟喆
+cbdb_id: 414612
 revision: 1
 properties:
   - predicate: bio.summary

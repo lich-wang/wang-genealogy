@@ -4,6 +4,7 @@ id: p_3RDpAXrGbVGNh9uJEksDiF
 status: active
 merged_into: null
 display_name: 王機褚
+cbdb_id: 522712
 revision: 1
 properties:
   - predicate: bio.summary

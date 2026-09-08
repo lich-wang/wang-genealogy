@@ -4,6 +4,7 @@ id: p_FH4NP8bQvGXMaQzeneV225
 status: active
 merged_into: null
 display_name: 王三驅
+cbdb_id: 413693
 revision: 1
 properties:
   - predicate: bio.summary

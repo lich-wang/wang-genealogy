@@ -4,6 +4,7 @@ id: p_Jj9MyHrAhxttVzzbCt67ZT
 status: active
 merged_into: null
 display_name: 王堉時
+cbdb_id: 513475
 revision: 1
 properties:
   - predicate: bio.summary

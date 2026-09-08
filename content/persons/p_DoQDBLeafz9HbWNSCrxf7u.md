@@ -4,6 +4,7 @@ id: p_DoQDBLeafz9HbWNSCrxf7u
 status: active
 merged_into: null
 display_name: 王元恪
+cbdb_id: 150404
 revision: 1
 properties:
   - predicate: bio.summary

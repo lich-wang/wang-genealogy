@@ -4,6 +4,7 @@ id: p_cpP3HEGs835CY46hfANuxz
 status: active
 merged_into: null
 display_name: 王克繼
+cbdb_id: 101203
 revision: 1
 properties:
   - predicate: bio.summary

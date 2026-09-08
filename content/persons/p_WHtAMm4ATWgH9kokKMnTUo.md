@@ -4,6 +4,7 @@ id: p_WHtAMm4ATWgH9kokKMnTUo
 status: active
 merged_into: null
 display_name: 王孟德
+cbdb_id: 279496
 revision: 1
 properties:
   - predicate: bio.summary

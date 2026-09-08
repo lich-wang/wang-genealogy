@@ -4,6 +4,7 @@ id: p_8U5b3D3NLzgy2C63Y6cVHC
 status: active
 merged_into: null
 display_name: 王兆棠
+cbdb_id: 439099
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_iFTHomc2Wt9CNV2GS5Hguz
 status: active
 merged_into: null
 display_name: 王維豫
+cbdb_id: 526716
 revision: 2
 properties:
   - predicate: bio.summary

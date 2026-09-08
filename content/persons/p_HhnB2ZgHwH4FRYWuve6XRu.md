@@ -4,6 +4,7 @@ id: p_HhnB2ZgHwH4FRYWuve6XRu
 status: active
 merged_into: null
 display_name: 王良彝
+cbdb_id: 415333
 revision: 1
 properties:
   - predicate: bio.summary

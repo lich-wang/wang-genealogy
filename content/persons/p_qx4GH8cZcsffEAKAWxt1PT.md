@@ -4,6 +4,7 @@ id: p_qx4GH8cZcsffEAKAWxt1PT
 status: active
 merged_into: null
 display_name: 王就問
+cbdb_id: 226714
 revision: 1
 properties:
   - predicate: bio.summary

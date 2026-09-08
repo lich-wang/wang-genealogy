@@ -4,6 +4,7 @@ id: p_g6xPJFz9HYLoPy7cn5g4C7
 status: active
 merged_into: null
 display_name: 王銘鼎
+cbdb_id: 343831
 revision: 1
 properties:
   - predicate: bio.summary

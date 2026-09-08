@@ -4,6 +4,7 @@ id: p_bSVq6dMPtkpTzDfm9a5Gq7
 status: active
 merged_into: null
 display_name: 王祖制
+cbdb_id: 415184
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_KKJt5tgxg5R1H8GQRrFzE6
 status: active
 merged_into: null
 display_name: 王邦裕
+cbdb_id: 343394
 revision: 1
 properties:
   - predicate: bio.summary

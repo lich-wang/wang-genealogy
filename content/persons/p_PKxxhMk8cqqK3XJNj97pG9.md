@@ -4,6 +4,7 @@ id: p_PKxxhMk8cqqK3XJNj97pG9
 status: active
 merged_into: null
 display_name: 王金珠
+cbdb_id: 134686
 revision: 1
 properties:
   - predicate: bio.summary

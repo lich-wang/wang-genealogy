@@ -4,6 +4,7 @@ id: p_KKz6KARDQ3x69qogbh6R3M
 status: active
 merged_into: null
 display_name: 王所瞻
+cbdb_id: 414680
 revision: 1
 properties:
   - predicate: bio.summary

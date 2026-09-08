@@ -4,6 +4,7 @@ id: p_pKkLW1uBtTf3sCihfyksSx
 status: active
 merged_into: null
 display_name: 王惟憑
+cbdb_id: 308703
 revision: 1
 properties:
   - predicate: bio.summary

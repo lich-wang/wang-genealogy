@@ -4,6 +4,7 @@ id: p_jJ6kaj5744Vbg1nXi4mv62
 status: active
 merged_into: null
 display_name: 王尹鯉
+cbdb_id: 414387
 revision: 1
 properties:
   - predicate: bio.summary

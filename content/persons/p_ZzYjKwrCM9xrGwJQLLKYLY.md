@@ -4,6 +4,7 @@ id: p_ZzYjKwrCM9xrGwJQLLKYLY
 status: active
 merged_into: null
 display_name: 王順道
+cbdb_id: 295417
 revision: 1
 properties:
   - predicate: bio.summary

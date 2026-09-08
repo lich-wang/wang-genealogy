@@ -4,6 +4,7 @@ id: p_z6jKD949RdAtZDLSM1cjFB
 status: active
 merged_into: null
 display_name: 王家瑄
+cbdb_id: 333600
 revision: 1
 properties:
   - predicate: bio.summary

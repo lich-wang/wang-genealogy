@@ -4,6 +4,7 @@ id: p_52w1s3w8H7njLX18KjCtYT
 status: active
 merged_into: null
 display_name: 王樂孟
+cbdb_id: 414897
 revision: 1
 properties:
   - predicate: bio.summary

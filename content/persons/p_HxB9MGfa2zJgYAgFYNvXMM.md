@@ -4,6 +4,7 @@ id: p_HxB9MGfa2zJgYAgFYNvXMM
 status: active
 merged_into: null
 display_name: 王應虎
+cbdb_id: 414654
 revision: 1
 properties:
   - predicate: bio.summary

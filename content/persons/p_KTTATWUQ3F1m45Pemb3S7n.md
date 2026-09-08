@@ -4,6 +4,7 @@ id: p_KTTATWUQ3F1m45Pemb3S7n
 status: active
 merged_into: null
 display_name: 王安礼
+cbdb_id: 1760
 revision: 1
 properties:
   - predicate: bio.summary

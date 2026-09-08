@@ -4,6 +4,7 @@ id: p_U5XKJheya9AFpCv5NsWEe9
 status: active
 merged_into: null
 display_name: 王阿八
+cbdb_id: 148582
 revision: 1
 properties:
   - predicate: bio.summary

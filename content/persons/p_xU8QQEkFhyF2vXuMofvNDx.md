@@ -4,6 +4,7 @@ id: p_xU8QQEkFhyF2vXuMofvNDx
 status: active
 merged_into: null
 display_name: 王天一
+cbdb_id: 341825
 revision: 1
 properties:
   - predicate: bio.summary

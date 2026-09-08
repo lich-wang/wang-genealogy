@@ -4,6 +4,7 @@ id: p_JMHGBPz1BzUPBgjVj5JKnn
 status: active
 merged_into: null
 display_name: 王忙古歹
+cbdb_id: 101466
 revision: 1
 properties:
   - predicate: bio.summary

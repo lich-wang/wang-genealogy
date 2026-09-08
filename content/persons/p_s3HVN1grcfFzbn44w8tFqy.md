@@ -4,6 +4,7 @@ id: p_s3HVN1grcfFzbn44w8tFqy
 status: active
 merged_into: null
 display_name: 王崇涑
+cbdb_id: 211417
 revision: 1
 properties:
   - predicate: bio.summary

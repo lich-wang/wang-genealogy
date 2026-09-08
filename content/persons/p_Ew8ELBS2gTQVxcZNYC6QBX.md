@@ -4,6 +4,7 @@ id: p_Ew8ELBS2gTQVxcZNYC6QBX
 status: active
 merged_into: null
 display_name: 王讀
+cbdb_id: 526791
 revision: 1
 properties:
   - predicate: bio.summary

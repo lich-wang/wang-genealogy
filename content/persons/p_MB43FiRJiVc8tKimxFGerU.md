@@ -4,6 +4,7 @@ id: p_MB43FiRJiVc8tKimxFGerU
 status: active
 merged_into: null
 display_name: 王鏡涵
+cbdb_id: 526846
 revision: 1
 properties:
   - predicate: bio.summary

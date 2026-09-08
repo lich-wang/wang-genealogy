@@ -4,6 +4,7 @@ id: p_b2dVpiEE5pZJVmFUVc9xU9
 status: active
 merged_into: null
 display_name: 王寄
+cbdb_id: 100789
 revision: 1
 properties:
   - predicate: bio.summary

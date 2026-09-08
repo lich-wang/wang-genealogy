@@ -4,6 +4,7 @@ id: p_rwYSyn8KZwsLiCYpn54nbZ
 status: active
 merged_into: null
 display_name: 王允汲
+cbdb_id: 413892
 revision: 1
 properties:
   - predicate: bio.summary

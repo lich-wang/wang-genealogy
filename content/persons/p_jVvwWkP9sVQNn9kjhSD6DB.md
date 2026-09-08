@@ -4,6 +4,7 @@ id: p_jVvwWkP9sVQNn9kjhSD6DB
 status: active
 merged_into: null
 display_name: 王福鍾
+cbdb_id: 342656
 revision: 1
 properties:
   - predicate: bio.summary

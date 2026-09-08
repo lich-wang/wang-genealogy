@@ -4,6 +4,7 @@ id: p_neCFTWDyoCegULxGdjKFYm
 status: active
 merged_into: null
 display_name: 王于曜
+cbdb_id: 341822
 revision: 1
 properties:
   - predicate: bio.summary

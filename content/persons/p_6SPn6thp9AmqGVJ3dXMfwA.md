@@ -4,6 +4,7 @@ id: p_6SPn6thp9AmqGVJ3dXMfwA
 status: active
 merged_into: null
 display_name: 王雋卿
+cbdb_id: 22243
 revision: 1
 properties:
   - predicate: bio.summary

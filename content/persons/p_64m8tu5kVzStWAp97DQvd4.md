@@ -4,6 +4,7 @@ id: p_64m8tu5kVzStWAp97DQvd4
 status: active
 merged_into: null
 display_name: 王正典
+cbdb_id: 69150
 revision: 1
 properties:
   - predicate: bio.summary

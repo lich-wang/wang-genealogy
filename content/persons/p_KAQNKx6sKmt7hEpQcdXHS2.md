@@ -4,6 +4,7 @@ id: p_KAQNKx6sKmt7hEpQcdXHS2
 status: active
 merged_into: null
 display_name: 王簡能
+cbdb_id: 157705
 revision: 1
 properties:
   - predicate: bio.summary

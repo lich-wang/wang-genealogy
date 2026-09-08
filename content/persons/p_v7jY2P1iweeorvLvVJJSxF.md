@@ -4,6 +4,7 @@ id: p_v7jY2P1iweeorvLvVJJSxF
 status: active
 merged_into: null
 display_name: 王明臣
+cbdb_id: 561704
 revision: 1
 properties:
   - predicate: bio.summary

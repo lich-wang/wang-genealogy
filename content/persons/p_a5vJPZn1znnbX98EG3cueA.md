@@ -4,6 +4,7 @@ id: p_a5vJPZn1znnbX98EG3cueA
 status: active
 merged_into: null
 display_name: 孟氏
+cbdb_id: 211358
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_BikhdxbpkDbQxHXvTt32Ev
 status: active
 merged_into: null
 display_name: 王彥通
+cbdb_id: 414523
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_PPNZnTHWQZoFJFBeBGWT9K
 status: active
 merged_into: null
 display_name: 王來徵
+cbdb_id: 336276
 revision: 1
 properties:
   - predicate: bio.summary

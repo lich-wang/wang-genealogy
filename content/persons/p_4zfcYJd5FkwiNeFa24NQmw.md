@@ -4,6 +4,7 @@ id: p_4zfcYJd5FkwiNeFa24NQmw
 status: active
 merged_into: null
 display_name: 王曆新
+cbdb_id: 234434
 revision: 1
 properties:
   - predicate: bio.summary

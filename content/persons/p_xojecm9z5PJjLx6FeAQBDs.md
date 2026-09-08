@@ -4,6 +4,7 @@ id: p_xojecm9z5PJjLx6FeAQBDs
 status: active
 merged_into: null
 display_name: 王復道
+cbdb_id: 101356
 revision: 1
 properties:
   - predicate: bio.summary

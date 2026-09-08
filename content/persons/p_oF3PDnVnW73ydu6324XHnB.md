@@ -4,6 +4,7 @@ id: p_oF3PDnVnW73ydu6324XHnB
 status: active
 merged_into: null
 display_name: 王審銳
+cbdb_id: 11690
 revision: 1
 properties:
   - predicate: bio.summary

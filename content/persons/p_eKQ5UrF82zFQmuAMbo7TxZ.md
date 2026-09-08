@@ -4,6 +4,7 @@ id: p_eKQ5UrF82zFQmuAMbo7TxZ
 status: active
 merged_into: null
 display_name: 王涣
+cbdb_id: 175361
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_FayUwoWdm46GzZ8FEWjrT6
 status: active
 merged_into: null
 display_name: 王廣謀
+cbdb_id: 101408
 revision: 1
 properties:
   - predicate: bio.summary

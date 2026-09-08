@@ -4,6 +4,7 @@ id: p_shk3xnD2NcF3CzPPZFUeRq
 status: active
 merged_into: null
 display_name: 王坦
+cbdb_id: 175366
 revision: 1
 properties:
   - predicate: bio.summary

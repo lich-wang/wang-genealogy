@@ -4,6 +4,7 @@ id: p_CaxhV3WpC3bWeKjSHRUMHG
 status: active
 merged_into: null
 display_name: 王遵忠
+cbdb_id: 224062
 revision: 1
 properties:
   - predicate: bio.summary

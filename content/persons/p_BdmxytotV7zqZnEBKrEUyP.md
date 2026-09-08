@@ -4,6 +4,7 @@ id: p_BdmxytotV7zqZnEBKrEUyP
 status: active
 merged_into: null
 display_name: 王纶
+cbdb_id: 277430
 revision: 2
 properties:
   - predicate: bio.summary

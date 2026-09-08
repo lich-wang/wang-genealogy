@@ -4,6 +4,7 @@ id: p_CJo299SVAc1152UcV67Adk
 status: active
 merged_into: null
 display_name: 王慶鈞
+cbdb_id: 514241
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_Wr6W2GYyd3CGqL1V2htAHM
 status: active
 merged_into: null
 display_name: 王肇光
+cbdb_id: 521761
 revision: 1
 properties:
   - predicate: bio.summary

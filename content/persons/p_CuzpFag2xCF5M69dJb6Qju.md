@@ -4,6 +4,7 @@ id: p_CuzpFag2xCF5M69dJb6Qju
 status: active
 merged_into: null
 display_name: 王聲溢
+cbdb_id: 343277
 revision: 1
 properties:
   - predicate: bio.summary

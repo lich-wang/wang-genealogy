@@ -4,6 +4,7 @@ id: p_4i3jHPAhfhAhxjuPATCoyQ
 status: active
 merged_into: null
 display_name: 李珏
+cbdb_id: 5236
 revision: 1
 properties:
   - predicate: bio.summary

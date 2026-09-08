@@ -4,6 +4,7 @@ id: p_RbNc5YF6Th4SC6AGmA53nz
 status: active
 merged_into: null
 display_name: 王殊渥
+cbdb_id: 414927
 revision: 1
 properties:
   - predicate: bio.summary

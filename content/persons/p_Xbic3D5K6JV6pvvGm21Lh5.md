@@ -4,6 +4,7 @@ id: p_Xbic3D5K6JV6pvvGm21Lh5
 status: active
 merged_into: null
 display_name: 王仕傑
+cbdb_id: 413812
 revision: 1
 properties:
   - predicate: bio.summary

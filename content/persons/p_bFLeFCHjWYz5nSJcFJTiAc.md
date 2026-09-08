@@ -4,6 +4,7 @@ id: p_bFLeFCHjWYz5nSJcFJTiAc
 status: active
 merged_into: null
 display_name: 王嘉慶
+cbdb_id: 343005
 revision: 1
 properties:
   - predicate: bio.summary

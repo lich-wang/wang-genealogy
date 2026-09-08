@@ -4,6 +4,7 @@ id: p_aobhqcHKu9zdy7mxA8GiP2
 status: active
 merged_into: null
 display_name: 王濟羙
+cbdb_id: 415055
 revision: 1
 properties:
   - predicate: bio.summary

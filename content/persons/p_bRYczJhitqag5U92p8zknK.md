@@ -4,6 +4,7 @@ id: p_bRYczJhitqag5U92p8zknK
 status: active
 merged_into: null
 display_name: 王葆定
+cbdb_id: 522135
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_HN3wvQGcyeirDW1CMYtJmt
 status: active
 merged_into: null
 display_name: 王象頤
+cbdb_id: 211371
 revision: 1
 properties:
   - predicate: bio.summary

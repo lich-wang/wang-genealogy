@@ -4,6 +4,7 @@ id: p_aoBLs3jEDMDN1QvHMh86HP
 status: active
 merged_into: null
 display_name: 王綏猷
+cbdb_id: 342244
 revision: 1
 properties:
   - predicate: bio.summary

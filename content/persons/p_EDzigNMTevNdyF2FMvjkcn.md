@@ -4,6 +4,7 @@ id: p_EDzigNMTevNdyF2FMvjkcn
 status: active
 merged_into: null
 display_name: 王淑縉
+cbdb_id: 331195
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_3Z1Mv3WDcPuC8YgCUj1m1E
 status: active
 merged_into: null
 display_name: 王嗣初
+cbdb_id: 219543
 revision: 1
 properties:
   - predicate: bio.summary

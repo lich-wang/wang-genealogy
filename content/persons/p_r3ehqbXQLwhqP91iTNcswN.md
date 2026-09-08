@@ -4,6 +4,7 @@ id: p_r3ehqbXQLwhqP91iTNcswN
 status: active
 merged_into: null
 display_name: 王理之
+cbdb_id: 255185
 revision: 1
 properties:
   - predicate: bio.summary

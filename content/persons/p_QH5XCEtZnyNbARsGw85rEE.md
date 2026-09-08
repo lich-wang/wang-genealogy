@@ -4,6 +4,7 @@ id: p_QH5XCEtZnyNbARsGw85rEE
 status: active
 merged_into: null
 display_name: 王加命
+cbdb_id: 413990
 revision: 1
 properties:
   - predicate: bio.summary

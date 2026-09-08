@@ -4,6 +4,7 @@ id: p_ibAe1c6W43y9REP3UEXR5K
 status: active
 merged_into: null
 display_name: 王邦畿
+cbdb_id: 415511
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_NrxATPg8kjjtBN7eaDimPM
 status: active
 merged_into: null
 display_name: 王邇
+cbdb_id: 100996
 revision: 1
 properties:
   - predicate: bio.summary

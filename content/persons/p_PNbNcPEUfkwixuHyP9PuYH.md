@@ -4,6 +4,7 @@ id: p_PNbNcPEUfkwixuHyP9PuYH
 status: active
 merged_into: null
 display_name: 王上齡
+cbdb_id: 198503
 revision: 1
 properties:
   - predicate: bio.summary

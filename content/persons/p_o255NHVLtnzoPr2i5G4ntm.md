@@ -4,6 +4,7 @@ id: p_o255NHVLtnzoPr2i5G4ntm
 status: active
 merged_into: null
 display_name: 王贯之
+cbdb_id: 3965
 revision: 1
 properties:
   - predicate: bio.summary

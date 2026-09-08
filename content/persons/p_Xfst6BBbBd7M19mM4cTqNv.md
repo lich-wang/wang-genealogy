@@ -4,6 +4,7 @@ id: p_Xfst6BBbBd7M19mM4cTqNv
 status: active
 merged_into: null
 display_name: 王彥華
+cbdb_id: 260515
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_ojGchAZHmRHY7mAfMcQCu4
 status: active
 merged_into: null
 display_name: 王珣
+cbdb_id: 134773
 revision: 2
 properties:
   - predicate: bio.summary

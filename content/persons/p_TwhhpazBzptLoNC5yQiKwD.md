@@ -4,6 +4,7 @@ id: p_TwhhpazBzptLoNC5yQiKwD
 status: active
 merged_into: null
 display_name: 王家楹
+cbdb_id: 342537
 revision: 1
 properties:
   - predicate: bio.summary

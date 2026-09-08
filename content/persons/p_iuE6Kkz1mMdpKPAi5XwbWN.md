@@ -4,6 +4,7 @@ id: p_iuE6Kkz1mMdpKPAi5XwbWN
 status: active
 merged_into: null
 display_name: 王德載
+cbdb_id: 382086
 revision: 1
 properties:
   - predicate: bio.summary

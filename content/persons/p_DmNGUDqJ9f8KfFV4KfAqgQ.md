@@ -4,6 +4,7 @@ id: p_DmNGUDqJ9f8KfFV4KfAqgQ
 status: active
 merged_into: null
 display_name: 王进
+cbdb_id: 175424
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_rzdGCJdbAnivH2NuEMbZHX
 status: active
 merged_into: null
 display_name: 王世學
+cbdb_id: 336580
 revision: 1
 properties:
   - predicate: bio.summary

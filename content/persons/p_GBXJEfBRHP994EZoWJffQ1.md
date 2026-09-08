@@ -4,6 +4,7 @@ id: p_GBXJEfBRHP994EZoWJffQ1
 status: active
 merged_into: null
 display_name: 王相之
+cbdb_id: 316214
 revision: 1
 properties:
   - predicate: bio.summary

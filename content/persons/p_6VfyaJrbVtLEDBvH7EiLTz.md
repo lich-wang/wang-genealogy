@@ -4,6 +4,7 @@ id: p_6VfyaJrbVtLEDBvH7EiLTz
 status: active
 merged_into: null
 display_name: 王斯覺
+cbdb_id: 35516
 revision: 1
 properties:
   - predicate: bio.summary

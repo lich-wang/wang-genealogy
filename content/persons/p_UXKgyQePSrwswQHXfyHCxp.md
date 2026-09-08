@@ -4,6 +4,7 @@ id: p_UXKgyQePSrwswQHXfyHCxp
 status: active
 merged_into: null
 display_name: 王作翼
+cbdb_id: 234993
 revision: 1
 properties:
   - predicate: bio.summary

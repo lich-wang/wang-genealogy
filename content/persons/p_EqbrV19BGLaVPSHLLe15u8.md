@@ -4,6 +4,7 @@ id: p_EqbrV19BGLaVPSHLLe15u8
 status: active
 merged_into: null
 display_name: 谢道韫
+cbdb_id: 134836
 revision: 1
 properties:
   - predicate: bio.summary

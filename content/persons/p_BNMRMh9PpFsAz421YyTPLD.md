@@ -4,6 +4,7 @@ id: p_BNMRMh9PpFsAz421YyTPLD
 status: active
 merged_into: null
 display_name: 王庭臣
+cbdb_id: 37926
 revision: 1
 properties:
   - predicate: bio.summary

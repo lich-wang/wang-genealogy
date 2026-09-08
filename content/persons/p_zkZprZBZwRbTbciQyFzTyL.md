@@ -4,6 +4,7 @@ id: p_zkZprZBZwRbTbciQyFzTyL
 status: active
 merged_into: null
 display_name: 王世盛
+cbdb_id: 59956
 revision: 1
 properties:
   - predicate: bio.summary

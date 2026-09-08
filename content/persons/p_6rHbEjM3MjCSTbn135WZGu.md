@@ -4,6 +4,7 @@ id: p_6rHbEjM3MjCSTbn135WZGu
 status: active
 merged_into: null
 display_name: 王垚辰
+cbdb_id: 517407
 revision: 1
 properties:
   - predicate: bio.summary

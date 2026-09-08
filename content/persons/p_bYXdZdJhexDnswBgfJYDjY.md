@@ -4,6 +4,7 @@ id: p_bYXdZdJhexDnswBgfJYDjY
 status: active
 merged_into: null
 display_name: 王懷正
+cbdb_id: 21986
 revision: 1
 properties:
   - predicate: bio.summary

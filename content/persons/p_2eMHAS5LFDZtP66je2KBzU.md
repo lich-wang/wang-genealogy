@@ -4,6 +4,7 @@ id: p_2eMHAS5LFDZtP66je2KBzU
 status: active
 merged_into: null
 display_name: 王時梅
+cbdb_id: 308743
 revision: 1
 properties:
   - predicate: bio.summary

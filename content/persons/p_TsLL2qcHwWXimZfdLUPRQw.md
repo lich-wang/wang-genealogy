@@ -4,6 +4,7 @@ id: p_TsLL2qcHwWXimZfdLUPRQw
 status: active
 merged_into: null
 display_name: 王季安
+cbdb_id: 27287
 revision: 1
 properties:
   - predicate: bio.summary

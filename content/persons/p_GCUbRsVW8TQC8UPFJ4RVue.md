@@ -4,6 +4,7 @@ id: p_GCUbRsVW8TQC8UPFJ4RVue
 status: active
 merged_into: null
 display_name: 王海朝
+cbdb_id: 143290
 revision: 1
 properties:
   - predicate: bio.summary

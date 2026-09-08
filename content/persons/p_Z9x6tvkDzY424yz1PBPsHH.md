@@ -4,6 +4,7 @@ id: p_Z9x6tvkDzY424yz1PBPsHH
 status: active
 merged_into: null
 display_name: 王禮甲
+cbdb_id: 71500
 revision: 1
 properties:
   - predicate: bio.summary

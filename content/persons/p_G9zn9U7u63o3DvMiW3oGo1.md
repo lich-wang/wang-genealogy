@@ -4,6 +4,7 @@ id: p_G9zn9U7u63o3DvMiW3oGo1
 status: active
 merged_into: null
 display_name: 王蕊修
+cbdb_id: 72181
 revision: 1
 properties:
   - predicate: bio.summary

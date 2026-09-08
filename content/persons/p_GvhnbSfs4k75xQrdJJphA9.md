@@ -4,6 +4,7 @@ id: p_GvhnbSfs4k75xQrdJJphA9
 status: active
 merged_into: null
 display_name: 王承祖
+cbdb_id: 308148
 revision: 2
 properties:
   - predicate: bio.summary

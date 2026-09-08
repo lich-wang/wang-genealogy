@@ -4,6 +4,7 @@ id: p_72fjsVys7G83VhJYtKwnEg
 status: active
 merged_into: null
 display_name: 王永緒
+cbdb_id: 342503
 revision: 1
 properties:
   - predicate: bio.summary

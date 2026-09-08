@@ -4,6 +4,7 @@ id: p_k2Exjy1AEH6WNgAjMikVB8
 status: active
 merged_into: null
 display_name: 王以選
+cbdb_id: 221828
 revision: 1
 properties:
   - predicate: bio.summary

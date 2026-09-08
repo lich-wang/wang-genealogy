@@ -4,6 +4,7 @@ id: p_vbbzhaCsxSKLtbbNUUjjDF
 status: active
 merged_into: null
 display_name: 王豐年
+cbdb_id: 415428
 revision: 1
 properties:
   - predicate: bio.summary

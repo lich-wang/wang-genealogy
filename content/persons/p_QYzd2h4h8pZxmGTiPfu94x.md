@@ -4,6 +4,7 @@ id: p_QYzd2h4h8pZxmGTiPfu94x
 status: active
 merged_into: null
 display_name: 王用梅
+cbdb_id: 415131
 revision: 1
 properties:
   - predicate: bio.summary

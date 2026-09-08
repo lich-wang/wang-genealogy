@@ -4,6 +4,7 @@ id: p_hV4FccBsTXSAEpS7L3B7RC
 status: active
 merged_into: null
 display_name: 仇氏
+cbdb_id: 45817
 revision: 1
 properties:
   - predicate: name.primary

@@ -4,6 +4,7 @@ id: p_1v8G5VhFvxjtAjW6tjWbPN
 status: active
 merged_into: null
 display_name: 王河圖
+cbdb_id: 414992
 revision: 1
 properties:
   - predicate: bio.summary

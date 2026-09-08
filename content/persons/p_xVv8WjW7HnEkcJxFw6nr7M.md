@@ -4,6 +4,7 @@ id: p_xVv8WjW7HnEkcJxFw6nr7M
 status: active
 merged_into: null
 display_name: 王百忍
+cbdb_id: 69182
 revision: 1
 properties:
   - predicate: bio.summary

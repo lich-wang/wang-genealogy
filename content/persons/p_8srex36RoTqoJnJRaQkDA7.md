@@ -4,6 +4,7 @@ id: p_8srex36RoTqoJnJRaQkDA7
 status: active
 merged_into: null
 display_name: 王成龍
+cbdb_id: 414677
 revision: 1
 properties:
   - predicate: bio.summary

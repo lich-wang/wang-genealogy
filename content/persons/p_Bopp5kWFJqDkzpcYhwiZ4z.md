@@ -4,6 +4,7 @@ id: p_Bopp5kWFJqDkzpcYhwiZ4z
 status: active
 merged_into: null
 display_name: 王忌
+cbdb_id: 140739
 revision: 1
 properties:
   - predicate: bio.summary

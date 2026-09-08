@@ -4,6 +4,7 @@ id: p_hChQD5v3e37DJkjnLjrE4A
 status: active
 merged_into: null
 display_name: 王徴
+cbdb_id: 414551
 revision: 1
 properties:
   - predicate: bio.summary

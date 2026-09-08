@@ -4,6 +4,7 @@ id: p_qQSxE5WaBRYUgEjAyuy152
 status: active
 merged_into: null
 display_name: 王昌崇
+cbdb_id: 414774
 revision: 1
 properties:
   - predicate: bio.summary

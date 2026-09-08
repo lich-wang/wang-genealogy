@@ -4,6 +4,7 @@ id: p_ohUAEY5d3fTbvQZF5yos24
 status: active
 merged_into: null
 display_name: 王辟疆
+cbdb_id: 38278
 revision: 1
 properties:
   - predicate: bio.summary

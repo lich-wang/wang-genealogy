@@ -4,6 +4,7 @@ id: p_v5q8hACD2MdAUcJvnY39At
 status: active
 merged_into: null
 display_name: 王佐聖
+cbdb_id: 126549
 revision: 1
 properties:
   - predicate: bio.summary

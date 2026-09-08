@@ -4,6 +4,7 @@ id: p_GWEDQ8SKXUwN2mr8EJN8Zm
 status: active
 merged_into: null
 display_name: 王子襄
+cbdb_id: 296544
 revision: 1
 properties:
   - predicate: bio.summary

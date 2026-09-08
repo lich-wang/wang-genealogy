@@ -4,6 +4,7 @@ id: p_sMjY6kwGmS2PR67RexN7yL
 status: active
 merged_into: null
 display_name: 王崇之
+cbdb_id: 126685
 revision: 1
 properties:
   - predicate: bio.summary

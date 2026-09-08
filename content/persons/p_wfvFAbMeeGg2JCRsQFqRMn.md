@@ -4,6 +4,7 @@ id: p_wfvFAbMeeGg2JCRsQFqRMn
 status: active
 merged_into: null
 display_name: 王家卿
+cbdb_id: 205423
 revision: 1
 properties:
   - predicate: bio.summary

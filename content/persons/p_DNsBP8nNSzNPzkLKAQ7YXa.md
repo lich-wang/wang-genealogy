@@ -4,6 +4,7 @@ id: p_DNsBP8nNSzNPzkLKAQ7YXa
 status: active
 merged_into: null
 display_name: 王閏孫
+cbdb_id: 101372
 revision: 1
 properties:
   - predicate: bio.summary

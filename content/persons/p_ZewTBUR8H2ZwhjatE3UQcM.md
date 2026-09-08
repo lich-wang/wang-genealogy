@@ -4,6 +4,7 @@ id: p_ZewTBUR8H2ZwhjatE3UQcM
 status: active
 merged_into: null
 display_name: 王支榮
+cbdb_id: 414713
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_ifKdzffE4TJqKt3GDfHGnh
 status: active
 merged_into: null
 display_name: 成氏
+cbdb_id: 39435
 revision: 2
 properties:
   - predicate: bio.summary

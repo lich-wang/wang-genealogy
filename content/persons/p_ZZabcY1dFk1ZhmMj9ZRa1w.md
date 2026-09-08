@@ -4,6 +4,7 @@ id: p_ZZabcY1dFk1ZhmMj9ZRa1w
 status: active
 merged_into: null
 display_name: 王家軒
+cbdb_id: 492980
 revision: 1
 properties:
   - predicate: bio.summary

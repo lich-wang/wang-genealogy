@@ -4,6 +4,7 @@ id: p_hmLDYN1bVWXedTQ3iy22EJ
 status: active
 merged_into: null
 display_name: 王汝蒞
+cbdb_id: 211418
 revision: 1
 properties:
   - predicate: bio.summary

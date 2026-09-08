@@ -4,6 +4,7 @@ id: p_kW6BHpFnPbBsA8JbJBRAGy
 status: active
 merged_into: null
 display_name: 王師正
+cbdb_id: 141595
 revision: 1
 properties:
   - predicate: bio.summary

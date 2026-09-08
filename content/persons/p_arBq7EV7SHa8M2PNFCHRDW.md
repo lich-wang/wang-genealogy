@@ -4,6 +4,7 @@ id: p_arBq7EV7SHa8M2PNFCHRDW
 status: active
 merged_into: null
 display_name: 王玉林
+cbdb_id: 69122
 revision: 1
 properties:
   - predicate: bio.summary

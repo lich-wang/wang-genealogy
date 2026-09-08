@@ -4,6 +4,7 @@ id: p_gYyBHFMPwATU18hyCoNpwJ
 status: active
 merged_into: null
 display_name: 王東漢
+cbdb_id: 513559
 revision: 1
 properties:
   - predicate: bio.summary

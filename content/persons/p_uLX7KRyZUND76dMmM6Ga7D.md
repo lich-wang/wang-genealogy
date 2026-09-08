@@ -4,6 +4,7 @@ id: p_uLX7KRyZUND76dMmM6Ga7D
 status: active
 merged_into: null
 display_name: 王意通
+cbdb_id: 159085
 revision: 1
 properties:
   - predicate: bio.summary

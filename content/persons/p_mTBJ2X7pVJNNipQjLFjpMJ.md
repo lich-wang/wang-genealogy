@@ -4,6 +4,7 @@ id: p_mTBJ2X7pVJNNipQjLFjpMJ
 status: active
 merged_into: null
 display_name: 王真壽
+cbdb_id: 268956
 revision: 1
 properties:
   - predicate: bio.summary

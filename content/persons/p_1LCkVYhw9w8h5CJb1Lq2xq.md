@@ -4,6 +4,7 @@ id: p_1LCkVYhw9w8h5CJb1Lq2xq
 status: active
 merged_into: null
 display_name: 王豆
+cbdb_id: 415427
 revision: 1
 properties:
   - predicate: bio.summary

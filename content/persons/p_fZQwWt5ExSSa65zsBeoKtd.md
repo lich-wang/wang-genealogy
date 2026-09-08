@@ -4,6 +4,7 @@ id: p_fZQwWt5ExSSa65zsBeoKtd
 status: active
 merged_into: null
 display_name: 王有報
+cbdb_id: 414827
 revision: 1
 properties:
   - predicate: bio.summary

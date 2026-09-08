@@ -4,6 +4,7 @@ id: p_FkS64zHfN6yiBBDLXmCedC
 status: active
 merged_into: null
 display_name: 王國宥
+cbdb_id: 191569
 revision: 1
 properties:
   - predicate: bio.summary

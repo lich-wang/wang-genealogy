@@ -4,6 +4,7 @@ id: p_cnoLHXftJ1ctnJB13cPnLw
 status: active
 merged_into: null
 display_name: 王灝儒
+cbdb_id: 342650
 revision: 1
 properties:
   - predicate: bio.summary

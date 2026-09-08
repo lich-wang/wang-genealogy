@@ -4,6 +4,7 @@ id: p_4p7V4p5eFXQ8MixqGbFnV3
 status: active
 merged_into: null
 display_name: 王德沅
+cbdb_id: 67164
 revision: 1
 properties:
   - predicate: bio.summary

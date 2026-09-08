@@ -4,6 +4,7 @@ id: p_jkjMpCaRnAqGkKH8mdtFRA
 status: active
 merged_into: null
 display_name: 王時達
+cbdb_id: 299512
 revision: 1
 properties:
   - predicate: bio.summary

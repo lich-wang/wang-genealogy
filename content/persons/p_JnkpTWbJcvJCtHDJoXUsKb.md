@@ -4,6 +4,7 @@ id: p_JnkpTWbJcvJCtHDJoXUsKb
 status: active
 merged_into: null
 display_name: 吴安持
+cbdb_id: 1957
 revision: 1
 properties:
   - predicate: bio.summary

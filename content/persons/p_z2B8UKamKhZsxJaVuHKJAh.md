@@ -4,6 +4,7 @@ id: p_z2B8UKamKhZsxJaVuHKJAh
 status: active
 merged_into: null
 display_name: 王名登
+cbdb_id: 342405
 revision: 1
 properties:
   - predicate: bio.summary

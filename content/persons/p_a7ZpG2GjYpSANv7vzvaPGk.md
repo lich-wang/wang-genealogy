@@ -4,6 +4,7 @@ id: p_a7ZpG2GjYpSANv7vzvaPGk
 status: active
 merged_into: null
 display_name: 王彥瑢
+cbdb_id: 242456
 revision: 1
 properties:
   - predicate: bio.summary

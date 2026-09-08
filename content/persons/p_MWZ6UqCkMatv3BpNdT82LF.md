@@ -4,6 +4,7 @@ id: p_MWZ6UqCkMatv3BpNdT82LF
 status: active
 merged_into: null
 display_name: 王元量
+cbdb_id: 38024
 revision: 1
 properties:
   - predicate: bio.summary

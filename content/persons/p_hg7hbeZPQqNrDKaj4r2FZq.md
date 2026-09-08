@@ -4,6 +4,7 @@ id: p_hg7hbeZPQqNrDKaj4r2FZq
 status: active
 merged_into: null
 display_name: 王衍慶
+cbdb_id: 439474
 revision: 1
 properties:
   - predicate: bio.summary

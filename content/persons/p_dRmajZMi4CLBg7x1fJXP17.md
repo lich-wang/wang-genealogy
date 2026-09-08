@@ -4,6 +4,7 @@ id: p_dRmajZMi4CLBg7x1fJXP17
 status: active
 merged_into: null
 display_name: 王講
+cbdb_id: 238058
 revision: 1
 properties:
   - predicate: bio.summary

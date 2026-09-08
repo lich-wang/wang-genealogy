@@ -4,6 +4,7 @@ id: p_prHqmerzCM6YpbMCaZuJpq
 status: active
 merged_into: null
 display_name: 王茂績
+cbdb_id: 221817
 revision: 1
 properties:
   - predicate: bio.summary

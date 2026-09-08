@@ -4,6 +4,7 @@ id: p_ghyYDQ5eZ8uxN8ip6BX7KC
 status: active
 merged_into: null
 display_name: 王原相
+cbdb_id: 205067
 revision: 2
 properties:
   - predicate: bio.summary

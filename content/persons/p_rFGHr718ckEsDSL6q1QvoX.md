@@ -4,6 +4,7 @@ id: p_rFGHr718ckEsDSL6q1QvoX
 status: active
 merged_into: null
 display_name: 王鳴球
+cbdb_id: 343541
 revision: 1
 properties:
   - predicate: bio.summary

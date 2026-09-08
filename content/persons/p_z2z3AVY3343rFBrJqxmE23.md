@@ -4,6 +4,7 @@ id: p_z2z3AVY3343rFBrJqxmE23
 status: active
 merged_into: null
 display_name: 王权
+cbdb_id: 175917
 revision: 2
 properties:
   - predicate: bio.summary

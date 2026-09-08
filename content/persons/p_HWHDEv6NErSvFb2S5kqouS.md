@@ -4,6 +4,7 @@ id: p_HWHDEv6NErSvFb2S5kqouS
 status: active
 merged_into: null
 display_name: 王輔之
+cbdb_id: 415470
 revision: 1
 properties:
   - predicate: bio.summary

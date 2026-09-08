@@ -4,6 +4,7 @@ id: p_BLnE9nncUpXkxeyUSBMut9
 status: active
 merged_into: null
 display_name: 王漢之
+cbdb_id: 26611
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_HQvvpwEE4MKh3cQPLmK7AG
 status: active
 merged_into: null
 display_name: 王承詔
+cbdb_id: 60618
 revision: 1
 properties:
   - predicate: bio.summary

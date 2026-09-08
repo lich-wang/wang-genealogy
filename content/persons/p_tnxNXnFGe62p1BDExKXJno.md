@@ -4,6 +4,7 @@ id: p_tnxNXnFGe62p1BDExKXJno
 status: active
 merged_into: null
 display_name: 王如鏊
+cbdb_id: 71639
 revision: 1
 properties:
   - predicate: bio.summary

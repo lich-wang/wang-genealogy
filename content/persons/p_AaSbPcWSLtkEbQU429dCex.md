@@ -4,6 +4,7 @@ id: p_AaSbPcWSLtkEbQU429dCex
 status: active
 merged_into: null
 display_name: 王廷甫
+cbdb_id: 414477
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_Vcyaehh7496j3B412JBLPE
 status: active
 merged_into: null
 display_name: 王符霖
+cbdb_id: 526814
 revision: 1
 properties:
   - predicate: bio.summary

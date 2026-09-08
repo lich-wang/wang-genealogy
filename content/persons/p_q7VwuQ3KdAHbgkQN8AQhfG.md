@@ -4,6 +4,7 @@ id: p_q7VwuQ3KdAHbgkQN8AQhfG
 status: active
 merged_into: null
 display_name: 王晦之
+cbdb_id: 414799
 revision: 1
 properties:
   - predicate: bio.summary

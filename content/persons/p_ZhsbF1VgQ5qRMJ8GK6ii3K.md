@@ -4,6 +4,7 @@ id: p_ZhsbF1VgQ5qRMJ8GK6ii3K
 status: active
 merged_into: null
 display_name: 王子景
+cbdb_id: 150802
 revision: 1
 properties:
   - predicate: bio.summary

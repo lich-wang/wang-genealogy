@@ -4,6 +4,7 @@ id: p_7FiWxKjtAQyqGxbHnGz9AP
 status: active
 merged_into: null
 display_name: 王頤貞
+cbdb_id: 523973
 revision: 1
 properties:
   - predicate: bio.summary

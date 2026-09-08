@@ -4,6 +4,7 @@ id: p_x8Pfh3mEu2L8yisF1Zzp6B
 status: active
 merged_into: null
 display_name: 王孟寧
+cbdb_id: 297813
 revision: 1
 properties:
   - predicate: bio.summary

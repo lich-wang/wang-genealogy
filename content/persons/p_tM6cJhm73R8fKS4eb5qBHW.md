@@ -4,6 +4,7 @@ id: p_tM6cJhm73R8fKS4eb5qBHW
 status: active
 merged_into: null
 display_name: 王箋
+cbdb_id: 328172
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_ancDNgt3suS1JGAbttEeKU
 status: active
 merged_into: null
 display_name: 王家槐
+cbdb_id: 414343
 revision: 1
 properties:
   - predicate: bio.summary

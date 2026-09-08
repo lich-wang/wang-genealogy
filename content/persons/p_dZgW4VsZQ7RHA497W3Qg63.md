@@ -4,6 +4,7 @@ id: p_dZgW4VsZQ7RHA497W3Qg63
 status: active
 merged_into: null
 display_name: 王文彬
+cbdb_id: 260629
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_2Z9ovzoyssBJVDk5H5EyEb
 status: active
 merged_into: null
 display_name: 王昌祖
+cbdb_id: 236490
 revision: 1
 properties:
   - predicate: bio.summary

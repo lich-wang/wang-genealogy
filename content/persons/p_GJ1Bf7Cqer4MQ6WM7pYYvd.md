@@ -4,6 +4,7 @@ id: p_GJ1Bf7Cqer4MQ6WM7pYYvd
 status: active
 merged_into: null
 display_name: 王恭亮
+cbdb_id: 414606
 revision: 1
 properties:
   - predicate: bio.summary

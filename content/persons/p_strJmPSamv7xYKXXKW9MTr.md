@@ -4,6 +4,7 @@ id: p_strJmPSamv7xYKXXKW9MTr
 status: active
 merged_into: null
 display_name: 王迁
+cbdb_id: 21991
 revision: 1
 properties:
   - predicate: name.primary

@@ -4,6 +4,7 @@ id: p_AoSWVXp4chCzhsPPdALpzf
 status: active
 merged_into: null
 display_name: 王資相
+cbdb_id: 415441
 revision: 1
 properties:
   - predicate: bio.summary

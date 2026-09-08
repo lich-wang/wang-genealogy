@@ -4,6 +4,7 @@ id: p_fNk8mctJoDfvWDeA2Ns3LB
 status: active
 merged_into: null
 display_name: 王士英
+cbdb_id: 342938
 revision: 1
 properties:
   - predicate: bio.summary

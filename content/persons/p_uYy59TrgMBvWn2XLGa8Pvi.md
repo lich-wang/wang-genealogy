@@ -4,6 +4,7 @@ id: p_uYy59TrgMBvWn2XLGa8Pvi
 status: active
 merged_into: null
 display_name: 王世棠
+cbdb_id: 343195
 revision: 1
 properties:
   - predicate: bio.summary

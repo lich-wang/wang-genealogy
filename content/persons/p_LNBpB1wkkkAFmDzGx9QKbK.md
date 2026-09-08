@@ -4,6 +4,7 @@ id: p_LNBpB1wkkkAFmDzGx9QKbK
 status: active
 merged_into: null
 display_name: 王登才
+cbdb_id: 341871
 revision: 1
 properties:
   - predicate: bio.summary

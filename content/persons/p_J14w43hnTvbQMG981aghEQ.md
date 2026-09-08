@@ -4,6 +4,7 @@ id: p_J14w43hnTvbQMG981aghEQ
 status: active
 merged_into: null
 display_name: 王庭槐
+cbdb_id: 326274
 revision: 1
 properties:
   - predicate: bio.summary

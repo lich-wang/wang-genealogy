@@ -4,6 +4,7 @@ id: p_wCFeJH7VaTonEockyP2zKx
 status: active
 merged_into: null
 display_name: 王天养
+cbdb_id: 175612
 revision: 1
 properties:
   - predicate: bio.summary

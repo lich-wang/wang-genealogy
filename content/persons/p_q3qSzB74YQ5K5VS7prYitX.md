@@ -4,6 +4,7 @@ id: p_q3qSzB74YQ5K5VS7prYitX
 status: active
 merged_into: null
 display_name: 王有學
+cbdb_id: 261559
 revision: 1
 properties:
   - predicate: bio.summary

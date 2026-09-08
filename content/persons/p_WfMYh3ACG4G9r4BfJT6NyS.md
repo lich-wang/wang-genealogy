@@ -4,6 +4,7 @@ id: p_WfMYh3ACG4G9r4BfJT6NyS
 status: active
 merged_into: null
 display_name: 王經爵
+cbdb_id: 415241
 revision: 1
 properties:
   - predicate: bio.summary

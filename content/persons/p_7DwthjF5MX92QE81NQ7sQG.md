@@ -4,6 +4,7 @@ id: p_7DwthjF5MX92QE81NQ7sQG
 status: active
 merged_into: null
 display_name: 王安宗
+cbdb_id: 234990
 revision: 1
 properties:
   - predicate: bio.summary

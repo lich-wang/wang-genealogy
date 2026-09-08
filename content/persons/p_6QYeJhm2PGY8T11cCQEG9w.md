@@ -4,6 +4,7 @@ id: p_6QYeJhm2PGY8T11cCQEG9w
 status: active
 merged_into: null
 display_name: 王素交
+cbdb_id: 97992
 revision: 1
 properties:
   - predicate: bio.summary

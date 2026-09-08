@@ -4,6 +4,7 @@ id: p_TRrMFTNNuUK45RpnkNjXf9
 status: active
 merged_into: null
 display_name: 沈大荣
+cbdb_id: 56146
 revision: 1
 properties:
   - predicate: bio.summary

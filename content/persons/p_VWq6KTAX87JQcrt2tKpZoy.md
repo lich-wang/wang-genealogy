@@ -4,6 +4,7 @@ id: p_VWq6KTAX87JQcrt2tKpZoy
 status: active
 merged_into: null
 display_name: 王恩晉
+cbdb_id: 69320
 revision: 1
 properties:
   - predicate: bio.summary

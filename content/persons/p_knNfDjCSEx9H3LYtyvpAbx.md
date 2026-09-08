@@ -4,6 +4,7 @@ id: p_knNfDjCSEx9H3LYtyvpAbx
 status: active
 merged_into: null
 display_name: 王掄春
+cbdb_id: 71667
 revision: 1
 properties:
   - predicate: bio.summary

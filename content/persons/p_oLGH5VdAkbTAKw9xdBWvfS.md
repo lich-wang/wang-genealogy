@@ -4,6 +4,7 @@ id: p_oLGH5VdAkbTAKw9xdBWvfS
 status: active
 merged_into: null
 display_name: 王文暉
+cbdb_id: 290012
 revision: 1
 properties:
   - predicate: bio.summary

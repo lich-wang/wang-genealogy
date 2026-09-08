@@ -4,6 +4,7 @@ id: p_MVwmAa8XxVraY642kABvqG
 status: active
 merged_into: null
 display_name: 王停停
+cbdb_id: 158879
 revision: 1
 properties:
   - predicate: bio.summary

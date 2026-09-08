@@ -4,6 +4,7 @@ id: p_pSr9CM34CCkhJLHipdDtfV
 status: active
 merged_into: null
 display_name: 王俞昌
+cbdb_id: 343724
 revision: 1
 properties:
   - predicate: bio.summary

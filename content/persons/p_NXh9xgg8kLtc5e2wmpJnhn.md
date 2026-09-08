@@ -4,6 +4,7 @@ id: p_NXh9xgg8kLtc5e2wmpJnhn
 status: active
 merged_into: null
 display_name: 王繼濂
+cbdb_id: 303917
 revision: 1
 properties:
   - predicate: bio.summary

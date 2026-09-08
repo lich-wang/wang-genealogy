@@ -4,6 +4,7 @@ id: p_UDRBDb3kUk16a7nDBEFGva
 status: active
 merged_into: null
 display_name: 王沂之
+cbdb_id: 97942
 revision: 1
 properties:
   - predicate: bio.summary

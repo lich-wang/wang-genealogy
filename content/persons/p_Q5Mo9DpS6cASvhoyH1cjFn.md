@@ -4,6 +4,7 @@ id: p_Q5Mo9DpS6cASvhoyH1cjFn
 status: active
 merged_into: null
 display_name: 王朝忠
+cbdb_id: 257476
 revision: 1
 properties:
   - predicate: bio.summary

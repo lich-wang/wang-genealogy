@@ -4,6 +4,7 @@ id: p_tcWDCYEjZBxpgXVNCyJD9U
 status: active
 merged_into: null
 display_name: 王惟直
+cbdb_id: 264034
 revision: 1
 properties:
   - predicate: name.primary

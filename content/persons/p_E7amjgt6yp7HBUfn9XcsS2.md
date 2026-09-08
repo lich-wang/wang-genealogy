@@ -4,6 +4,7 @@ id: p_E7amjgt6yp7HBUfn9XcsS2
 status: active
 merged_into: null
 display_name: 王令顯
+cbdb_id: 117573
 revision: 1
 properties:
   - predicate: bio.summary

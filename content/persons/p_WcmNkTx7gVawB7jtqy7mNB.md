@@ -4,6 +4,7 @@ id: p_WcmNkTx7gVawB7jtqy7mNB
 status: active
 merged_into: null
 display_name: 王命璿
+cbdb_id: 343760
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_z4V1wj79D5SePUD41S3v6Q
 status: active
 merged_into: null
 display_name: 王履咸
+cbdb_id: 343640
 revision: 1
 properties:
   - predicate: bio.summary

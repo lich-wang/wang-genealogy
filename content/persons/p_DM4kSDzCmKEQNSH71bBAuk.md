@@ -4,6 +4,7 @@ id: p_DM4kSDzCmKEQNSH71bBAuk
 status: active
 merged_into: null
 display_name: 王懷亮
+cbdb_id: 378418
 revision: 1
 properties:
   - predicate: bio.summary

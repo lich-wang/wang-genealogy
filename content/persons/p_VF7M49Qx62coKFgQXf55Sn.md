@@ -4,6 +4,7 @@ id: p_VF7M49Qx62coKFgQXf55Sn
 status: active
 merged_into: null
 display_name: 王赦
+cbdb_id: 445620
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_hEACaGCC2YTvn1kubsF4b2
 status: active
 merged_into: null
 display_name: 王夢應
+cbdb_id: 38313
 revision: 1
 properties:
   - predicate: bio.summary

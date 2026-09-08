@@ -4,6 +4,7 @@ id: p_MkBR12cPHskMiqfgCBZBmd
 status: active
 merged_into: null
 display_name: 王龍標
+cbdb_id: 415665
 revision: 1
 properties:
   - predicate: bio.summary

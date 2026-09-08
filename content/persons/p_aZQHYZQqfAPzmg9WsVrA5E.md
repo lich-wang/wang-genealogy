@@ -4,6 +4,7 @@ id: p_aZQHYZQqfAPzmg9WsVrA5E
 status: active
 merged_into: null
 display_name: 王仲漣
+cbdb_id: 381340
 revision: 1
 properties:
   - predicate: bio.summary

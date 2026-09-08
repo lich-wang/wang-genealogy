@@ -4,6 +4,7 @@ id: p_ir28M4eoa7EWTaR2r94g8r
 status: active
 merged_into: null
 display_name: 王元贞
+cbdb_id: 175588
 revision: 1
 properties:
   - predicate: bio.summary

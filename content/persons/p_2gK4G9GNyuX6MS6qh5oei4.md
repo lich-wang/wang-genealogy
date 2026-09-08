@@ -4,6 +4,7 @@ id: p_2gK4G9GNyuX6MS6qh5oei4
 status: active
 merged_into: null
 display_name: 王居實
+cbdb_id: 21999
 revision: 1
 properties:
   - predicate: bio.summary

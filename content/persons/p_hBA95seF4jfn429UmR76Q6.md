@@ -4,6 +4,7 @@ id: p_hBA95seF4jfn429UmR76Q6
 status: active
 merged_into: null
 display_name: 王守質
+cbdb_id: 141183
 revision: 1
 properties:
   - predicate: bio.summary

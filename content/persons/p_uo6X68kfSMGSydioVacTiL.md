@@ -4,6 +4,7 @@ id: p_uo6X68kfSMGSydioVacTiL
 status: active
 merged_into: null
 display_name: 王賢卿
+cbdb_id: 415455
 revision: 1
 properties:
   - predicate: bio.summary

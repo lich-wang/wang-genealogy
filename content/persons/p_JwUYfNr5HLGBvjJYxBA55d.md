@@ -4,6 +4,7 @@ id: p_JwUYfNr5HLGBvjJYxBA55d
 status: active
 merged_into: null
 display_name: 王道淵
+cbdb_id: 286304
 revision: 1
 properties:
   - predicate: bio.summary

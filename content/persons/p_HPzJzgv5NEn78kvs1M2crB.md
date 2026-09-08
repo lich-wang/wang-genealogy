@@ -4,6 +4,7 @@ id: p_HPzJzgv5NEn78kvs1M2crB
 status: active
 merged_into: null
 display_name: 王萬世
+cbdb_id: 415355
 revision: 1
 properties:
   - predicate: bio.summary

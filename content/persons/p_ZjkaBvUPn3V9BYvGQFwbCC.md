@@ -4,6 +4,7 @@ id: p_ZjkaBvUPn3V9BYvGQFwbCC
 status: active
 merged_into: null
 display_name: 王允學
+cbdb_id: 216052
 revision: 1
 properties:
   - predicate: bio.summary

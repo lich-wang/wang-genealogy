@@ -4,6 +4,7 @@ id: p_eKUo3Fh2GQtAyed9LXZJFy
 status: active
 merged_into: null
 display_name: 王應鈐
+cbdb_id: 414657
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_KMEe45FojJ82CoKt6wtVfE
 status: active
 merged_into: null
 display_name: 王于陛
+cbdb_id: 341823
 revision: 1
 properties:
   - predicate: bio.summary

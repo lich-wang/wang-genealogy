@@ -4,6 +4,7 @@ id: p_Lq7akvF2H5JESKpzcPgJ6Y
 status: active
 merged_into: null
 display_name: 王忠順
+cbdb_id: 166053
 revision: 1
 properties:
   - predicate: bio.summary

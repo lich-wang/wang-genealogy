@@ -4,6 +4,7 @@ id: p_8tFsd34Fq42Fj7cKFcqpsQ
 status: active
 merged_into: null
 display_name: 王季春
+cbdb_id: 320871
 revision: 1
 properties:
   - predicate: bio.summary

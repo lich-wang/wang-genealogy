@@ -4,6 +4,7 @@ id: p_oASRQV26mFF6UVeutbBaHu
 status: active
 merged_into: null
 display_name: 司馬丕
+cbdb_id: 30908
 revision: 1
 properties:
   - predicate: bio.summary

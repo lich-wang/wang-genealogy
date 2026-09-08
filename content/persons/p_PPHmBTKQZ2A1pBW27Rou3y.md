@@ -4,6 +4,7 @@ id: p_PPHmBTKQZ2A1pBW27Rou3y
 status: active
 merged_into: null
 display_name: 王希明
+cbdb_id: 92014
 revision: 1
 properties:
   - predicate: bio.summary

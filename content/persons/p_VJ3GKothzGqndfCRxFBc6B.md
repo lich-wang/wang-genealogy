@@ -4,6 +4,7 @@ id: p_VJ3GKothzGqndfCRxFBc6B
 status: active
 merged_into: null
 display_name: 王鵬年
+cbdb_id: 62067
 revision: 1
 properties:
   - predicate: bio.summary

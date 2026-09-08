@@ -4,6 +4,7 @@ id: p_s3Qm6GtW3M8NzyLSpEdc3p
 status: active
 merged_into: null
 display_name: 王同和
+cbdb_id: 237756
 revision: 1
 properties:
   - predicate: bio.summary

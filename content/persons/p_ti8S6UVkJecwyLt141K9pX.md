@@ -4,6 +4,7 @@ id: p_ti8S6UVkJecwyLt141K9pX
 status: active
 merged_into: null
 display_name: 王司鐸
+cbdb_id: 571716
 revision: 1
 properties:
   - predicate: bio.summary

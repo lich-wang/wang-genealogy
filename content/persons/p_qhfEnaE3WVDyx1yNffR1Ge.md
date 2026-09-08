@@ -4,6 +4,7 @@ id: p_qhfEnaE3WVDyx1yNffR1Ge
 status: active
 merged_into: null
 display_name: 王佩葵
+cbdb_id: 342387
 revision: 1
 properties:
   - predicate: bio.summary

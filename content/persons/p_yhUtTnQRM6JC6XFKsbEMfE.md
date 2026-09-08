@@ -4,6 +4,7 @@ id: p_yhUtTnQRM6JC6XFKsbEMfE
 status: active
 merged_into: null
 display_name: 王均海
+cbdb_id: 278098
 revision: 1
 properties:
   - predicate: bio.summary

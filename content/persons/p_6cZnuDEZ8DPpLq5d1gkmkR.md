@@ -4,6 +4,7 @@ id: p_6cZnuDEZ8DPpLq5d1gkmkR
 status: active
 merged_into: null
 display_name: 王豫芳
+cbdb_id: 517027
 revision: 1
 properties:
   - predicate: bio.summary

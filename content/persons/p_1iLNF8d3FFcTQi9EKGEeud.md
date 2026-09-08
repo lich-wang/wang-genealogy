@@ -4,6 +4,7 @@ id: p_1iLNF8d3FFcTQi9EKGEeud
 status: active
 merged_into: null
 display_name: 王欽德
+cbdb_id: 247206
 revision: 1
 properties:
   - predicate: bio.summary

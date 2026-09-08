@@ -4,6 +4,7 @@ id: p_2fvCLtPMcdyhy2wd169iJT
 status: active
 merged_into: null
 display_name: 王夣禮
+cbdb_id: 414192
 revision: 1
 properties:
   - predicate: bio.summary

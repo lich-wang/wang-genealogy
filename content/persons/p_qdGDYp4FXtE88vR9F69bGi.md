@@ -4,6 +4,7 @@ id: p_qdGDYp4FXtE88vR9F69bGi
 status: active
 merged_into: null
 display_name: 王廷輝
+cbdb_id: 341949
 revision: 1
 properties:
   - predicate: bio.summary

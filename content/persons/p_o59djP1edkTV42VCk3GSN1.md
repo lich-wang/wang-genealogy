@@ -4,6 +4,7 @@ id: p_o59djP1edkTV42VCk3GSN1
 status: active
 merged_into: null
 display_name: 王晏逸
+cbdb_id: 184945
 revision: 2
 properties:
   - predicate: bio.summary

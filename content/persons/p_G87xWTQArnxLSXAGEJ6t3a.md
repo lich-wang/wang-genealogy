@@ -4,6 +4,7 @@ id: p_G87xWTQArnxLSXAGEJ6t3a
 status: active
 merged_into: null
 display_name: 王豫齋
+cbdb_id: 120574
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_Q2puxDAeQGwsTYEVJUNpgg
 status: active
 merged_into: null
 display_name: 王師忠
+cbdb_id: 414420
 revision: 1
 properties:
   - predicate: bio.summary

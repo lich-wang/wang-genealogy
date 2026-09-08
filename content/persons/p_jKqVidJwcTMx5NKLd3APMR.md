@@ -4,6 +4,7 @@ id: p_jKqVidJwcTMx5NKLd3APMR
 status: active
 merged_into: null
 display_name: 王瓌
+cbdb_id: 184937
 revision: 1
 properties:
   - predicate: name.primary

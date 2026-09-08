@@ -4,6 +4,7 @@ id: p_Fqahu1Tzm7wuLSu7e9txiu
 status: active
 merged_into: null
 display_name: 王與安
+cbdb_id: 571645
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_t96wegbjJf44k7ip1qSp8G
 status: active
 merged_into: null
 display_name: 王敏中
+cbdb_id: 37560
 revision: 1
 properties:
   - predicate: bio.summary

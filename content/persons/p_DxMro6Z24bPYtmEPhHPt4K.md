@@ -4,6 +4,7 @@ id: p_DxMro6Z24bPYtmEPhHPt4K
 status: active
 merged_into: null
 display_name: 王麟趾
+cbdb_id: 206638
 revision: 1
 properties:
   - predicate: bio.summary

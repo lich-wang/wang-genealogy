@@ -4,6 +4,7 @@ id: p_u9keua67vK3ibPs4DEwWfL
 status: active
 merged_into: null
 display_name: 王源明
+cbdb_id: 175593
 revision: 1
 properties:
   - predicate: bio.summary

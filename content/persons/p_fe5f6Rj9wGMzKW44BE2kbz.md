@@ -4,6 +4,7 @@ id: p_fe5f6Rj9wGMzKW44BE2kbz
 status: active
 merged_into: null
 display_name: 王履直
+cbdb_id: 150460
 revision: 1
 properties:
   - predicate: bio.summary

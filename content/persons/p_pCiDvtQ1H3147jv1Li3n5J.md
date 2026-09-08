@@ -4,6 +4,7 @@ id: p_pCiDvtQ1H3147jv1Li3n5J
 status: active
 merged_into: null
 display_name: 王延瑞
+cbdb_id: 341953
 revision: 1
 properties:
   - predicate: bio.summary

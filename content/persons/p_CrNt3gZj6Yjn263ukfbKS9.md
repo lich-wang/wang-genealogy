@@ -4,6 +4,7 @@ id: p_CrNt3gZj6Yjn263ukfbKS9
 status: active
 merged_into: null
 display_name: 王復亨
+cbdb_id: 101354
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_qWA3jFywbwCfpMHjKmeRfa
 status: active
 merged_into: null
 display_name: 王處泰
+cbdb_id: 155599
 revision: 1
 properties:
   - predicate: bio.summary

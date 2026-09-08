@@ -4,6 +4,7 @@ id: p_54oQ2MCjugcwbRktPkU239
 status: active
 merged_into: null
 display_name: 王宗洛
+cbdb_id: 305716
 revision: 1
 properties:
   - predicate: bio.summary

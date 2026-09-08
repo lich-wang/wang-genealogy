@@ -4,6 +4,7 @@ id: p_qoFSPRtHcy51aLyVN73KPB
 status: active
 merged_into: null
 display_name: 王秉能
+cbdb_id: 272757
 revision: 1
 properties:
   - predicate: bio.summary

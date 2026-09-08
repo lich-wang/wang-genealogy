@@ -4,6 +4,7 @@ id: p_xYin523MUijjPHQi64Mp4N
 status: active
 merged_into: null
 display_name: 王克緒
+cbdb_id: 17760
 revision: 1
 properties:
   - predicate: bio.summary

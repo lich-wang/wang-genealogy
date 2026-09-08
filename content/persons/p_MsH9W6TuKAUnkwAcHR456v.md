@@ -4,6 +4,7 @@ id: p_MsH9W6TuKAUnkwAcHR456v
 status: active
 merged_into: null
 display_name: 王宣人
+cbdb_id: 414332
 revision: 1
 properties:
   - predicate: bio.summary

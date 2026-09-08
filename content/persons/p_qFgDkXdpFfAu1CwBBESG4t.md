@@ -4,6 +4,7 @@ id: p_qFgDkXdpFfAu1CwBBESG4t
 status: active
 merged_into: null
 display_name: 王德觀
+cbdb_id: 101430
 revision: 1
 properties:
   - predicate: bio.summary

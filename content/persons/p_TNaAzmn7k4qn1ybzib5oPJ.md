@@ -4,6 +4,7 @@ id: p_TNaAzmn7k4qn1ybzib5oPJ
 status: active
 merged_into: null
 display_name: 王原傑
+cbdb_id: 101302
 revision: 1
 properties:
   - predicate: bio.summary

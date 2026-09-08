@@ -4,6 +4,7 @@ id: p_rft7uoLMevmFycgtBazAT5
 status: active
 merged_into: null
 display_name: 王冠珪
+cbdb_id: 413979
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_GNoY3QbvQr2Q1Zxz21cEDk
 status: active
 merged_into: null
 display_name: 王和軒
+cbdb_id: 342381
 revision: 1
 properties:
   - predicate: bio.summary

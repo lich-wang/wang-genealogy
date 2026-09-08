@@ -4,6 +4,7 @@ id: p_iN53V4mFM6PKNc4Xcrnzf6
 status: active
 merged_into: null
 display_name: 王敦本
+cbdb_id: 236840
 revision: 1
 properties:
   - predicate: bio.summary

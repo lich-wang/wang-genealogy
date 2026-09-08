@@ -4,6 +4,7 @@ id: p_ZoEkZFwU5fwGE62RPG29TM
 status: active
 merged_into: null
 display_name: 王祖肅
+cbdb_id: 71922
 revision: 1
 properties:
   - predicate: bio.summary

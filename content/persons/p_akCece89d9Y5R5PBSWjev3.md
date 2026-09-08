@@ -4,6 +4,7 @@ id: p_akCece89d9Y5R5PBSWjev3
 status: active
 merged_into: null
 display_name: 王仲鑒
+cbdb_id: 71583
 revision: 1
 properties:
   - predicate: bio.summary

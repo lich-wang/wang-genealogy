@@ -4,6 +4,7 @@ id: p_zyFvq5NtETJ14BiimvhvE2
 status: active
 merged_into: null
 display_name: 王寥
+cbdb_id: 175950
 revision: 1
 properties:
   - predicate: bio.summary

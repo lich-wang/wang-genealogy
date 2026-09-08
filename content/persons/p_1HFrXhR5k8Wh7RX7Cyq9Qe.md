@@ -4,6 +4,7 @@ id: p_1HFrXhR5k8Wh7RX7Cyq9Qe
 status: active
 merged_into: null
 display_name: 王助
+cbdb_id: 91979
 revision: 1
 properties:
   - predicate: bio.summary

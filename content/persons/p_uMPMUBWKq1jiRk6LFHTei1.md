@@ -4,6 +4,7 @@ id: p_uMPMUBWKq1jiRk6LFHTei1
 status: active
 merged_into: null
 display_name: 陈仪春
+cbdb_id: 123038
 revision: 2
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_AuCKU8vCgLCLaoyApF5P6w
 status: active
 merged_into: null
 display_name: 王梵
+cbdb_id: 259548
 revision: 1
 properties:
   - predicate: bio.summary

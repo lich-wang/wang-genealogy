@@ -4,6 +4,7 @@ id: p_G1ykgCfKWZQhXAt9QemUyd
 status: active
 merged_into: null
 display_name: 王紹績
+cbdb_id: 222279
 revision: 1
 properties:
   - predicate: bio.summary

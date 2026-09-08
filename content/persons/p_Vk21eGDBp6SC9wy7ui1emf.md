@@ -4,6 +4,7 @@ id: p_Vk21eGDBp6SC9wy7ui1emf
 status: active
 merged_into: null
 display_name: 王伏世
+cbdb_id: 413849
 revision: 1
 properties:
   - predicate: bio.summary

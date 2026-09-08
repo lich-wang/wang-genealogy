@@ -4,6 +4,7 @@ id: p_t2gZLgDbrpuojkd3ba166u
 status: active
 merged_into: null
 display_name: 王贊元
+cbdb_id: 342337
 revision: 1
 properties:
   - predicate: bio.summary

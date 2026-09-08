@@ -4,6 +4,7 @@ id: p_1F6rYaPHwFsRxodfNdNw5j
 status: active
 merged_into: null
 display_name: 王仁肅
+cbdb_id: 150800
 revision: 1
 properties:
   - predicate: bio.summary

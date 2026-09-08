@@ -4,6 +4,7 @@ id: p_GxHKNa17CTs5pZRJ5uqRQY
 status: active
 merged_into: null
 display_name: 王峻德
+cbdb_id: 331286
 revision: 1
 properties:
   - predicate: bio.summary

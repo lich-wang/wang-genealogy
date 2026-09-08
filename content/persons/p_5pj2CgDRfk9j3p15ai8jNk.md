@@ -4,6 +4,7 @@ id: p_5pj2CgDRfk9j3p15ai8jNk
 status: active
 merged_into: null
 display_name: 王元鍾
+cbdb_id: 522571
 revision: 1
 properties:
   - predicate: bio.summary

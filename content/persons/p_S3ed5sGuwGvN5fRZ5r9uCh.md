@@ -4,6 +4,7 @@ id: p_S3ed5sGuwGvN5fRZ5r9uCh
 status: active
 merged_into: null
 display_name: 王师达
+cbdb_id: 175427
 revision: 1
 properties:
   - predicate: bio.summary

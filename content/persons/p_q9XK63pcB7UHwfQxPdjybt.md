@@ -4,6 +4,7 @@ id: p_q9XK63pcB7UHwfQxPdjybt
 status: active
 merged_into: null
 display_name: 王傳璨
+cbdb_id: 71575
 revision: 1
 properties:
   - predicate: bio.summary

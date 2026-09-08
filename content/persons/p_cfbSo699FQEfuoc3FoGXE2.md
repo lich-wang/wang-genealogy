@@ -4,6 +4,7 @@ id: p_cfbSo699FQEfuoc3FoGXE2
 status: active
 merged_into: null
 display_name: 王先鋐
+cbdb_id: 526009
 revision: 1
 properties:
   - predicate: bio.summary

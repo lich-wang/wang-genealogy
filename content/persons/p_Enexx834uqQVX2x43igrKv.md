@@ -4,6 +4,7 @@ id: p_Enexx834uqQVX2x43igrKv
 status: active
 merged_into: null
 display_name: 王貫旒
+cbdb_id: 415433
 revision: 1
 properties:
   - predicate: bio.summary

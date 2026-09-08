@@ -4,6 +4,7 @@ id: p_Aa4p5dY4uQntdmkvhjUGzp
 status: active
 merged_into: null
 display_name: 张廉穆
+cbdb_id: 142438
 revision: 1
 properties:
   - predicate: bio.summary

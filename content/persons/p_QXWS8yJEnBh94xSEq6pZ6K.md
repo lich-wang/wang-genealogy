@@ -4,6 +4,7 @@ id: p_QXWS8yJEnBh94xSEq6pZ6K
 status: active
 merged_into: null
 display_name: 王伯祥
+cbdb_id: 239745
 revision: 1
 properties:
   - predicate: bio.summary

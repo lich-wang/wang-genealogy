@@ -4,6 +4,7 @@ id: p_7kMH1Y5SmfB7fFjUKEApqP
 status: active
 merged_into: null
 display_name: 王伯崇
+cbdb_id: 284010
 revision: 1
 properties:
   - predicate: bio.summary

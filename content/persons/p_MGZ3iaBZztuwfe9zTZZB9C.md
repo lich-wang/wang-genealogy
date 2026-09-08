@@ -4,6 +4,7 @@ id: p_MGZ3iaBZztuwfe9zTZZB9C
 status: active
 merged_into: null
 display_name: 王萱齡
+cbdb_id: 69440
 revision: 1
 properties:
   - predicate: bio.summary

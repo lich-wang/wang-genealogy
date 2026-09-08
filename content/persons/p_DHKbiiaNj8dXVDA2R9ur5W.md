@@ -4,6 +4,7 @@ id: p_DHKbiiaNj8dXVDA2R9ur5W
 status: active
 merged_into: null
 display_name: 王朝颺
+cbdb_id: 67767
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_VsHXhzLcS1rSRcDLWuJf1a
 status: active
 merged_into: null
 display_name: 王九命
+cbdb_id: 217987
 revision: 1
 properties:
   - predicate: bio.summary

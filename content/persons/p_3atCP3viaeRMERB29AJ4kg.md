@@ -4,6 +4,7 @@ id: p_3atCP3viaeRMERB29AJ4kg
 status: active
 merged_into: null
 display_name: 王解公
+cbdb_id: 167129
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_eh39zdRgSvpNWuD7pQeAwH
 status: active
 merged_into: null
 display_name: 王崇敏
+cbdb_id: 246484
 revision: 1
 properties:
   - predicate: bio.summary

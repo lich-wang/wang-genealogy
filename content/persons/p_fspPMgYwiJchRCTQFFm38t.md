@@ -4,6 +4,7 @@ id: p_fspPMgYwiJchRCTQFFm38t
 status: active
 merged_into: null
 display_name: 王元貢
+cbdb_id: 152398
 revision: 1
 properties:
   - predicate: bio.summary

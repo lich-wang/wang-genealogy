@@ -4,6 +4,7 @@ id: p_T3eCYqvXkHmvxr7mbNPNzJ
 status: active
 merged_into: null
 display_name: 王笥
+cbdb_id: 328179
 revision: 1
 properties:
   - predicate: bio.summary

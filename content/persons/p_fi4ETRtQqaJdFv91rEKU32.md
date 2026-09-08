@@ -4,6 +4,7 @@ id: p_fi4ETRtQqaJdFv91rEKU32
 status: active
 merged_into: null
 display_name: 王永紹
+cbdb_id: 250010
 revision: 1
 properties:
   - predicate: bio.summary

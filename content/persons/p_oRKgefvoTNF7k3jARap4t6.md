@@ -4,6 +4,7 @@ id: p_oRKgefvoTNF7k3jARap4t6
 status: active
 merged_into: null
 display_name: 王君遂
+cbdb_id: 168102
 revision: 1
 properties:
   - predicate: bio.summary

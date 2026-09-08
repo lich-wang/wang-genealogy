@@ -4,6 +4,7 @@ id: p_U5GQKvDibnAhzybaVgUKQr
 status: active
 merged_into: null
 display_name: 王藝芳
+cbdb_id: 54847
 revision: 1
 properties:
   - predicate: bio.summary

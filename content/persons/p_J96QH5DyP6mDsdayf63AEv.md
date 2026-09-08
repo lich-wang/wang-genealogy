@@ -4,6 +4,7 @@ id: p_J96QH5DyP6mDsdayf63AEv
 status: active
 merged_into: null
 display_name: 王法農
+cbdb_id: 441141
 revision: 1
 properties:
   - predicate: bio.summary

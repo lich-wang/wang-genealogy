@@ -4,6 +4,7 @@ id: p_JdFR8yxrtP83oNDQKZ1JW5
 status: active
 merged_into: null
 display_name: 王三格
+cbdb_id: 214405
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_6dmwHFe6BSR5j5bdBtfcis
 status: active
 merged_into: null
 display_name: 王智辯
+cbdb_id: 444902
 revision: 1
 properties:
   - predicate: bio.summary

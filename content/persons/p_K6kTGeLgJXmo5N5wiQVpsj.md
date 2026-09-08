@@ -4,6 +4,7 @@ id: p_K6kTGeLgJXmo5N5wiQVpsj
 status: active
 merged_into: null
 display_name: 王潤孫
+cbdb_id: 97949
 revision: 1
 properties:
   - predicate: bio.summary

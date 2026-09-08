@@ -4,6 +4,7 @@ id: p_bFN7xv8uxhEhKDNFS3ypF4
 status: active
 merged_into: null
 display_name: 王民彥
+cbdb_id: 414935
 revision: 1
 properties:
   - predicate: bio.summary

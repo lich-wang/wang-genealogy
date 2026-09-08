@@ -4,6 +4,7 @@ id: p_VWi6QFXPAVphznHYANEusb
 status: active
 merged_into: null
 display_name: 王代亨
+cbdb_id: 279764
 revision: 1
 properties:
   - predicate: bio.summary

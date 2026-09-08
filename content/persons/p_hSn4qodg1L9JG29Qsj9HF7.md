@@ -4,6 +4,7 @@ id: p_hSn4qodg1L9JG29Qsj9HF7
 status: active
 merged_into: null
 display_name: 王基京
+cbdb_id: 294730
 revision: 1
 properties:
   - predicate: bio.summary

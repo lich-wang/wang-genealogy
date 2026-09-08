@@ -4,6 +4,7 @@ id: p_WD6sKtB4QrYcsNadyYnMBU
 status: active
 merged_into: null
 display_name: 王平格
+cbdb_id: 341824
 revision: 1
 properties:
   - predicate: bio.summary

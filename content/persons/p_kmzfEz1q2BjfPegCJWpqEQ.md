@@ -4,6 +4,7 @@ id: p_kmzfEz1q2BjfPegCJWpqEQ
 status: active
 merged_into: null
 display_name: 王傑士
+cbdb_id: 413886
 revision: 1
 properties:
   - predicate: bio.summary

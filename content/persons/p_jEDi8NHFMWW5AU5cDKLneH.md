@@ -4,6 +4,7 @@ id: p_jEDi8NHFMWW5AU5cDKLneH
 status: active
 merged_into: null
 display_name: 王紀曾
+cbdb_id: 342416
 revision: 1
 properties:
   - predicate: bio.summary

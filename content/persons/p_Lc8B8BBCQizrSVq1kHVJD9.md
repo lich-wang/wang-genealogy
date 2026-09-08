@@ -4,6 +4,7 @@ id: p_Lc8B8BBCQizrSVq1kHVJD9
 status: active
 merged_into: null
 display_name: 王世卞
+cbdb_id: 38403
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_3F4tUNNkku3vfja1G5JLt6
 status: active
 merged_into: null
 display_name: 王宗浹
+cbdb_id: 305715
 revision: 1
 properties:
   - predicate: bio.summary

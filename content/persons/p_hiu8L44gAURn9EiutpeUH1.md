@@ -4,6 +4,7 @@ id: p_hiu8L44gAURn9EiutpeUH1
 status: active
 merged_into: null
 display_name: 王聯璧
+cbdb_id: 72041
 revision: 1
 properties:
   - predicate: bio.summary

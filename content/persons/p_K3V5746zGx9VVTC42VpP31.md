@@ -4,6 +4,7 @@ id: p_K3V5746zGx9VVTC42VpP31
 status: active
 merged_into: null
 display_name: 王静淑
+cbdb_id: 55730
 revision: 2
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_dZ4WRuqU21YtPjHm98BWcJ
 status: active
 merged_into: null
 display_name: 王士瑾
+cbdb_id: 414173
 revision: 1
 properties:
   - predicate: bio.summary

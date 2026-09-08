@@ -4,6 +4,7 @@ id: p_Lc2gCDF5BzW25Fdhb8evAr
 status: active
 merged_into: null
 display_name: 王蘊徽
+cbdb_id: 56783
 revision: 1
 properties:
   - predicate: bio.summary

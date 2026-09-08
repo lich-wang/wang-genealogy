@@ -4,6 +4,7 @@ id: p_yUzqviNoJXsLMPELJLBNQB
 status: active
 merged_into: null
 display_name: 王昭素
+cbdb_id: 37685
 revision: 1
 properties:
   - predicate: bio.summary

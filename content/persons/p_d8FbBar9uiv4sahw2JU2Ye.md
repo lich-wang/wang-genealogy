@@ -4,6 +4,7 @@ id: p_d8FbBar9uiv4sahw2JU2Ye
 status: active
 merged_into: null
 display_name: 王修泰
+cbdb_id: 526700
 revision: 1
 properties:
   - predicate: bio.summary

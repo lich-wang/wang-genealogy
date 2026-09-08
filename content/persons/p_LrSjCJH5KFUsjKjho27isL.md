@@ -4,6 +4,7 @@ id: p_LrSjCJH5KFUsjKjho27isL
 status: active
 merged_into: null
 display_name: 王葆和
+cbdb_id: 522134
 revision: 1
 properties:
   - predicate: bio.summary

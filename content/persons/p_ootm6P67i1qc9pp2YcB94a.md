@@ -4,6 +4,7 @@ id: p_ootm6P67i1qc9pp2YcB94a
 status: active
 merged_into: null
 display_name: 王復宗
+cbdb_id: 458070
 revision: 1
 properties:
   - predicate: bio.summary

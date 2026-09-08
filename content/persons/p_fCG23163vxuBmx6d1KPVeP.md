@@ -4,6 +4,7 @@ id: p_fCG23163vxuBmx6d1KPVeP
 status: active
 merged_into: null
 display_name: 王紹孔
+cbdb_id: 415228
 revision: 1
 properties:
   - predicate: bio.summary

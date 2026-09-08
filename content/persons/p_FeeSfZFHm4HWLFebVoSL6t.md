@@ -4,6 +4,7 @@ id: p_FeeSfZFHm4HWLFebVoSL6t
 status: active
 merged_into: null
 display_name: 王南美
+cbdb_id: 37705
 revision: 1
 properties:
   - predicate: bio.summary

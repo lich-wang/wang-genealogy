@@ -4,6 +4,7 @@ id: p_L2au7qcuY4KSh3fMjd7mCz
 status: active
 merged_into: null
 display_name: 王明嗣
+cbdb_id: 101254
 revision: 1
 properties:
   - predicate: bio.summary

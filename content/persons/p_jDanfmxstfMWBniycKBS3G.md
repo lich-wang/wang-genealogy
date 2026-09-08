@@ -4,6 +4,7 @@ id: p_jDanfmxstfMWBniycKBS3G
 status: active
 merged_into: null
 display_name: 王景儒
+cbdb_id: 380186
 revision: 1
 properties:
   - predicate: bio.summary

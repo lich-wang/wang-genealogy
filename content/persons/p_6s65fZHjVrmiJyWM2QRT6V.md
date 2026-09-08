@@ -4,6 +4,7 @@ id: p_6s65fZHjVrmiJyWM2QRT6V
 status: active
 merged_into: null
 display_name: 王其康
+cbdb_id: 71730
 revision: 1
 properties:
   - predicate: bio.summary

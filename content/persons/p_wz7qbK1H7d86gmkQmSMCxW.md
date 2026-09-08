@@ -4,6 +4,7 @@ id: p_wz7qbK1H7d86gmkQmSMCxW
 status: active
 merged_into: null
 display_name: 王嘉喆
+cbdb_id: 72149
 revision: 1
 properties:
   - predicate: bio.summary

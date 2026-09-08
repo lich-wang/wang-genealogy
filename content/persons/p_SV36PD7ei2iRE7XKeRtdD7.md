@@ -4,6 +4,7 @@ id: p_SV36PD7ei2iRE7XKeRtdD7
 status: active
 merged_into: null
 display_name: 王洄
+cbdb_id: 190804
 revision: 1
 properties:
   - predicate: bio.summary

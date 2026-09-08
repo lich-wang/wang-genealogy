@@ -4,6 +4,7 @@ id: p_wt2aZcXFJPe7n39C53XGHw
 status: active
 merged_into: null
 display_name: 王式穀
+cbdb_id: 343071
 revision: 1
 properties:
   - predicate: bio.summary

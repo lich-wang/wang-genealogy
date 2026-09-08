@@ -4,6 +4,7 @@ id: p_w8CP1WN1DoH2uadPLEGj1c
 status: active
 merged_into: null
 display_name: 王崇瀾
+cbdb_id: 211411
 revision: 1
 properties:
   - predicate: bio.summary

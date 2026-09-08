@@ -4,6 +4,7 @@ id: p_gmFJfD78CxFaYdgvN29q1k
 status: active
 merged_into: null
 display_name: 王特晉
+cbdb_id: 415092
 revision: 1
 properties:
   - predicate: bio.summary

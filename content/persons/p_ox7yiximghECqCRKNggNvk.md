@@ -4,6 +4,7 @@ id: p_ox7yiximghECqCRKNggNvk
 status: active
 merged_into: null
 display_name: 秦氏
+cbdb_id: 305711
 revision: 1
 properties:
   - predicate: bio.summary

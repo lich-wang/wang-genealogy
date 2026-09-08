@@ -4,6 +4,7 @@ id: p_g6tTV8xspEG83C3EPVzpm7
 status: active
 merged_into: null
 display_name: 王乾溥
+cbdb_id: 261841
 revision: 1
 properties:
   - predicate: bio.summary

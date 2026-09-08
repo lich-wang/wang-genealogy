@@ -4,6 +4,7 @@ id: p_iNxqBS7vuAqjwMzH7Q4baF
 status: active
 merged_into: null
 display_name: 王時椿
+cbdb_id: 308742
 revision: 1
 properties:
   - predicate: bio.summary

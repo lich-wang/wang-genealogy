@@ -4,6 +4,7 @@ id: p_ACQdkzaJw9wBmzXHNYbmx8
 status: active
 merged_into: null
 display_name: 王曰都
+cbdb_id: 61073
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_ZC73RUm9jimFMG5mD6D7HU
 status: active
 merged_into: null
 display_name: 王聲聞
+cbdb_id: 121702
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_Cgg5Y6pur65XPHJfTYPyFi
 status: active
 merged_into: null
 display_name: 王宗己
+cbdb_id: 97860
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_JirTxmVijtiT96YhPfvEVf
 status: active
 merged_into: null
 display_name: 王宗恆
+cbdb_id: 202460
 revision: 1
 properties:
   - predicate: bio.summary

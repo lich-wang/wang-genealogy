@@ -4,6 +4,7 @@ id: p_Ad2dYXqMUQsRMKuYdaGHm3
 status: active
 merged_into: null
 display_name: 王麗天
+cbdb_id: 341866
 revision: 1
 properties:
   - predicate: bio.summary

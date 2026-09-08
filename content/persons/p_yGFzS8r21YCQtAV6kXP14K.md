@@ -4,6 +4,7 @@ id: p_yGFzS8r21YCQtAV6kXP14K
 status: active
 merged_into: null
 display_name: 王良棟
+cbdb_id: 415334
 revision: 1
 properties:
   - predicate: bio.summary

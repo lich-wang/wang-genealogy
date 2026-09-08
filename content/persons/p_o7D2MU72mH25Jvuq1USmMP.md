@@ -4,6 +4,7 @@ id: p_o7D2MU72mH25Jvuq1USmMP
 status: active
 merged_into: null
 display_name: 王大雍
+cbdb_id: 301954
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_b6us2Pa8Vc64FEi5UvkZtX
 status: active
 merged_into: null
 display_name: 王遵式
+cbdb_id: 119717
 revision: 1
 properties:
   - predicate: bio.summary

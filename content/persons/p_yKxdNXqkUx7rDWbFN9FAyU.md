@@ -4,6 +4,7 @@ id: p_yKxdNXqkUx7rDWbFN9FAyU
 status: active
 merged_into: null
 display_name: 王在臺
+cbdb_id: 342963
 revision: 1
 properties:
   - predicate: bio.summary

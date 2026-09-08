@@ -4,6 +4,7 @@ id: p_Xcyh7tamvPSZtQ361fFGXR
 status: active
 merged_into: null
 display_name: 王順恩
+cbdb_id: 526899
 revision: 1
 properties:
   - predicate: bio.summary

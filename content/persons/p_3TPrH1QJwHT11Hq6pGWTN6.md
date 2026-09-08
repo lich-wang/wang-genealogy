@@ -4,6 +4,7 @@ id: p_3TPrH1QJwHT11Hq6pGWTN6
 status: active
 merged_into: null
 display_name: 王夢彩
+cbdb_id: 414188
 revision: 1
 properties:
   - predicate: bio.summary

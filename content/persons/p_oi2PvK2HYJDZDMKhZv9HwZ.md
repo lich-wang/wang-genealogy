@@ -4,6 +4,7 @@ id: p_oi2PvK2HYJDZDMKhZv9HwZ
 status: active
 merged_into: null
 display_name: 王民聘
+cbdb_id: 210121
 revision: 1
 properties:
   - predicate: bio.summary

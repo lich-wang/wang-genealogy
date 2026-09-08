@@ -4,6 +4,7 @@ id: p_GrstbQhCfFg1k42ukQrVfL
 status: active
 merged_into: null
 display_name: 王萬連
+cbdb_id: 415365
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_cy9QL3g4hhhRoKSspm9Yjh
 status: active
 merged_into: null
 display_name: 王慶忠
+cbdb_id: 326519
 revision: 1
 properties:
   - predicate: bio.summary

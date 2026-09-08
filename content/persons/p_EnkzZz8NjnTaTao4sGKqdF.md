@@ -4,6 +4,7 @@ id: p_EnkzZz8NjnTaTao4sGKqdF
 status: active
 merged_into: null
 display_name: 王世峰
+cbdb_id: 506900
 revision: 1
 properties:
   - predicate: bio.summary

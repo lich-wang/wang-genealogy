@@ -4,6 +4,7 @@ id: p_VRCThcLw4YU17zxznf4zQ4
 status: active
 merged_into: null
 display_name: 王德駿
+cbdb_id: 414567
 revision: 1
 properties:
   - predicate: bio.summary

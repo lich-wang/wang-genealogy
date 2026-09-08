@@ -4,6 +4,7 @@ id: p_YGPufLUWajzkTLcs2sQboV
 status: active
 merged_into: null
 display_name: 王維禧
+cbdb_id: 526717
 revision: 2
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_GApuhFgjSF5QNTE41oACF6
 status: active
 merged_into: null
 display_name: 王尚質
+cbdb_id: 320455
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_yBeCMx9kBGuKpFcJ1jrLRb
 status: active
 merged_into: null
 display_name: 王夢澤
+cbdb_id: 97843
 revision: 1
 properties:
   - predicate: bio.summary

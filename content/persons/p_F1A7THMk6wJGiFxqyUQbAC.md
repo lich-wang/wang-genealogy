@@ -4,6 +4,7 @@ id: p_F1A7THMk6wJGiFxqyUQbAC
 status: active
 merged_into: null
 display_name: 王桂枝
+cbdb_id: 343220
 revision: 1
 properties:
   - predicate: bio.summary

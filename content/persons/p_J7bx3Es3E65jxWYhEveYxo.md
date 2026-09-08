@@ -4,6 +4,7 @@ id: p_J7bx3Es3E65jxWYhEveYxo
 status: active
 merged_into: null
 display_name: 王叔卿
+cbdb_id: 148218
 revision: 1
 properties:
   - predicate: bio.summary

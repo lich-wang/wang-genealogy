@@ -4,6 +4,7 @@ id: p_1HXDM8KKMTLtxbW9bTRp2c
 status: active
 merged_into: null
 display_name: 王瑞珎
+cbdb_id: 325294
 revision: 1
 properties:
   - predicate: bio.summary

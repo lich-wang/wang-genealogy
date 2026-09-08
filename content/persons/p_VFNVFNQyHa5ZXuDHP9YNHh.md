@@ -4,6 +4,7 @@ id: p_VFNVFNQyHa5ZXuDHP9YNHh
 status: active
 merged_into: null
 display_name: 王喬舄
+cbdb_id: 336219
 revision: 1
 properties:
   - predicate: bio.summary

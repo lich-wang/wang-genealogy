@@ -4,6 +4,7 @@ id: p_Tk3p38QuaW568Yy2qwKUzu
 status: active
 merged_into: null
 display_name: 王之造
+cbdb_id: 413771
 revision: 1
 properties:
   - predicate: bio.summary

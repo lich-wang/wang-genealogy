@@ -4,6 +4,7 @@ id: p_8Gs2T4C5jw8oPYS3DAfCUG
 status: active
 merged_into: null
 display_name: 王昱
+cbdb_id: 175376
 revision: 1
 properties:
   - predicate: bio.summary

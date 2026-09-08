@@ -4,6 +4,7 @@ id: p_EDeDd23jL5jsx3bGQJEcBh
 status: active
 merged_into: null
 display_name: 王懷孟
+cbdb_id: 71704
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_M8QcCephzV5BLsFjaQVADH
 status: active
 merged_into: null
 display_name: 王象鼎
+cbdb_id: 235536
 revision: 1
 properties:
   - predicate: bio.summary

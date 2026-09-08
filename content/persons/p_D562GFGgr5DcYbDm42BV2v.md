@@ -4,6 +4,7 @@ id: p_D562GFGgr5DcYbDm42BV2v
 status: active
 merged_into: null
 display_name: 桃叶
+cbdb_id: 135442
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_McjCMVjTp4G5WuQTbJ5Tbw
 status: active
 merged_into: null
 display_name: 王惠翼
+cbdb_id: 445623
 revision: 1
 properties:
   - predicate: bio.summary

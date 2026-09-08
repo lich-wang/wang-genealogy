@@ -4,6 +4,7 @@ id: p_Q6fFeQW2ehU9rtmya4vkWx
 status: active
 merged_into: null
 display_name: 王思祖
+cbdb_id: 334095
 revision: 1
 properties:
   - predicate: bio.summary

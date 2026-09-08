@@ -4,6 +4,7 @@ id: p_CiW5m44PgV5XK7vb3FfKfP
 status: active
 merged_into: null
 display_name: 王沼
+cbdb_id: 175491
 revision: 1
 properties:
   - predicate: bio.summary

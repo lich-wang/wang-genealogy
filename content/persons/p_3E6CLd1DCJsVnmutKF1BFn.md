@@ -4,6 +4,7 @@ id: p_3E6CLd1DCJsVnmutKF1BFn
 status: active
 merged_into: null
 display_name: 王杓
+cbdb_id: 437535
 revision: 1
 properties:
   - predicate: bio.summary

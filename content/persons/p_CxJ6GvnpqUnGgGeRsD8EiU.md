@@ -4,6 +4,7 @@ id: p_CxJ6GvnpqUnGgGeRsD8EiU
 status: active
 merged_into: null
 display_name: 王恭
+cbdb_id: 145176
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_X9FNcEU9SUMZe9rxnwmg4s
 status: active
 merged_into: null
 display_name: 王九祿
+cbdb_id: 413779
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_uCo5R2a9Tue76zWm83NNJ9
 status: active
 merged_into: null
 display_name: 王允言
+cbdb_id: 413896
 revision: 1
 properties:
   - predicate: bio.summary

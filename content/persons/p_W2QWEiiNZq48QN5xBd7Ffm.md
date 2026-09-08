@@ -4,6 +4,7 @@ id: p_W2QWEiiNZq48QN5xBd7Ffm
 status: active
 merged_into: null
 display_name: 王世亮
+cbdb_id: 343167
 revision: 1
 properties:
   - predicate: bio.summary

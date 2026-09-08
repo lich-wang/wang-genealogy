@@ -4,6 +4,7 @@ id: p_EyKhwQLPMxNpf2UZ9mfnK3
 status: active
 merged_into: null
 display_name: 王大得
+cbdb_id: 414197
 revision: 1
 properties:
   - predicate: bio.summary

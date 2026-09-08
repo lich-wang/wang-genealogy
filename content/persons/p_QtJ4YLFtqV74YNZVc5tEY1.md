@@ -4,6 +4,7 @@ id: p_QtJ4YLFtqV74YNZVc5tEY1
 status: active
 merged_into: null
 display_name: 王彪文
+cbdb_id: 414526
 revision: 1
 properties:
   - predicate: bio.summary

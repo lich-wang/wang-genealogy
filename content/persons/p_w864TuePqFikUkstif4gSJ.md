@@ -4,6 +4,7 @@ id: p_w864TuePqFikUkstif4gSJ
 status: active
 merged_into: null
 display_name: 王敬方
+cbdb_id: 101377
 revision: 1
 properties:
   - predicate: bio.summary

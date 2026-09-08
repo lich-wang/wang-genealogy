@@ -4,6 +4,7 @@ id: p_rJamXXC7WceDx1oGQqdELk
 status: active
 merged_into: null
 display_name: 王世允
+cbdb_id: 413705
 revision: 1
 properties:
   - predicate: bio.summary

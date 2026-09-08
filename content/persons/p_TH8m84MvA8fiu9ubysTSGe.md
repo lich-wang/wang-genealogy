@@ -4,6 +4,7 @@ id: p_TH8m84MvA8fiu9ubysTSGe
 status: active
 merged_into: null
 display_name: 王順之
+cbdb_id: 241289
 revision: 1
 properties:
   - predicate: bio.summary

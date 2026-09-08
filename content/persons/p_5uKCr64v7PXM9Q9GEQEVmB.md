@@ -4,6 +4,7 @@ id: p_5uKCr64v7PXM9Q9GEQEVmB
 status: active
 merged_into: null
 display_name: 王乾皓
+cbdb_id: 164257
 revision: 1
 properties:
   - predicate: bio.summary

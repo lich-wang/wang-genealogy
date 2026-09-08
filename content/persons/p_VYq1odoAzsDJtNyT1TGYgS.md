@@ -4,6 +4,7 @@ id: p_VYq1odoAzsDJtNyT1TGYgS
 status: active
 merged_into: null
 display_name: 王顯一
+cbdb_id: 343503
 revision: 1
 properties:
   - predicate: bio.summary

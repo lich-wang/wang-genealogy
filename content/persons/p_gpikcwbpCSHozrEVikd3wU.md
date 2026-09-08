@@ -4,6 +4,7 @@ id: p_gpikcwbpCSHozrEVikd3wU
 status: active
 merged_into: null
 display_name: 王中庸
+cbdb_id: 38241
 revision: 1
 properties:
   - predicate: bio.summary

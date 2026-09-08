@@ -4,6 +4,7 @@ id: p_EpoFqEyiKhHLN9p7LSJgWL
 status: active
 merged_into: null
 display_name: 王開泰
+cbdb_id: 343671
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_94pBfwALAX3sUH1uWsCED7
 status: active
 merged_into: null
 display_name: 王重理
+cbdb_id: 255101
 revision: 1
 properties:
   - predicate: bio.summary

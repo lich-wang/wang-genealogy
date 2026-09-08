@@ -4,6 +4,7 @@ id: p_r7mAK2q3ZPJCMyCzcxb226
 status: active
 merged_into: null
 display_name: 王莘叟
+cbdb_id: 38165
 revision: 1
 properties:
   - predicate: bio.summary

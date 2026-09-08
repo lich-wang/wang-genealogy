@@ -4,6 +4,7 @@ id: p_zxLXBFuG5vobvocjbzPzxu
 status: active
 merged_into: null
 display_name: 王九卿
+cbdb_id: 217989
 revision: 1
 properties:
   - predicate: bio.summary

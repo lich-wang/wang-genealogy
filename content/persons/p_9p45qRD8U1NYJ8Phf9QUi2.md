@@ -4,6 +4,7 @@ id: p_9p45qRD8U1NYJ8Phf9QUi2
 status: active
 merged_into: null
 display_name: 王時熙
+cbdb_id: 126654
 revision: 1
 properties:
   - predicate: bio.summary

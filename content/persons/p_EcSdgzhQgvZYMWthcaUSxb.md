@@ -4,6 +4,7 @@ id: p_EcSdgzhQgvZYMWthcaUSxb
 status: active
 merged_into: null
 display_name: 王崑藻
+cbdb_id: 56786
 revision: 1
 properties:
   - predicate: bio.summary

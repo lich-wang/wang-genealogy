@@ -4,6 +4,7 @@ id: p_zSJSG1Fn1QBVNWrDYTxYvz
 status: active
 merged_into: null
 display_name: 王必大
+cbdb_id: 38377
 revision: 1
 properties:
   - predicate: bio.summary

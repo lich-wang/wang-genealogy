@@ -4,6 +4,7 @@ id: p_jJpSp75MVxBxr7MACduWs3
 status: active
 merged_into: null
 display_name: 王恪亭
+cbdb_id: 526829
 revision: 1
 properties:
   - predicate: bio.summary

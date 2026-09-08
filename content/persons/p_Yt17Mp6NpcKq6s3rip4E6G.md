@@ -4,6 +4,7 @@ id: p_Yt17Mp6NpcKq6s3rip4E6G
 status: active
 merged_into: null
 display_name: 王朝楚
+cbdb_id: 414842
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_VHFY4whfwcoTnJ8AtLo19j
 status: active
 merged_into: null
 display_name: 王II
+cbdb_id: 27111
 revision: 1
 properties:
   - predicate: bio.summary

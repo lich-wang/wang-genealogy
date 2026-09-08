@@ -4,6 +4,7 @@ id: p_NF2KTDEDDGNN2QD7gX36yS
 status: active
 merged_into: null
 display_name: 王佛生
+cbdb_id: 101192
 revision: 1
 properties:
   - predicate: bio.summary

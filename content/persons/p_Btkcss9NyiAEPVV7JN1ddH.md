@@ -4,6 +4,7 @@ id: p_Btkcss9NyiAEPVV7JN1ddH
 status: active
 merged_into: null
 display_name: 王崇高
+cbdb_id: 266139
 revision: 1
 properties:
   - predicate: bio.summary

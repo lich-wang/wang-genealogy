@@ -4,6 +4,7 @@ id: p_5Drssue4KRkK7sPyMEaQ5G
 status: active
 merged_into: null
 display_name: 王晏皋
+cbdb_id: 184942
 revision: 2
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_jNE5GJ9fjc5rXUtk81xqQt
 status: active
 merged_into: null
 display_name: 王天壁
+cbdb_id: 414207
 revision: 1
 properties:
   - predicate: bio.summary

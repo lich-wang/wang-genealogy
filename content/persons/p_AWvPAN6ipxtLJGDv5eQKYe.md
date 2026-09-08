@@ -4,6 +4,7 @@ id: p_AWvPAN6ipxtLJGDv5eQKYe
 status: active
 merged_into: null
 display_name: 王孫蘭
+cbdb_id: 125079
 revision: 1
 properties:
   - predicate: bio.summary

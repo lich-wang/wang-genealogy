@@ -4,6 +4,7 @@ id: p_3TFD4bat7CbETGvNvLQZbF
 status: active
 merged_into: null
 display_name: 王德淵
+cbdb_id: 101424
 revision: 1
 properties:
   - predicate: bio.summary

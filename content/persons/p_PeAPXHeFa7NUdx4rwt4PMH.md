@@ -4,6 +4,7 @@ id: p_PeAPXHeFa7NUdx4rwt4PMH
 status: active
 merged_into: null
 display_name: 王夢驥
+cbdb_id: 224187
 revision: 1
 properties:
   - predicate: bio.summary

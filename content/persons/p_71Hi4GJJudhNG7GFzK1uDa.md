@@ -4,6 +4,7 @@ id: p_71Hi4GJJudhNG7GFzK1uDa
 status: active
 merged_into: null
 display_name: 王公佐
+cbdb_id: 38289
 revision: 1
 properties:
   - predicate: bio.summary

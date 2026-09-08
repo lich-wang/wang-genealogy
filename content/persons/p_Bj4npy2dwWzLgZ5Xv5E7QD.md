@@ -4,6 +4,7 @@ id: p_Bj4npy2dwWzLgZ5Xv5E7QD
 status: active
 merged_into: null
 display_name: 王嗣恭
+cbdb_id: 175563
 revision: 1
 properties:
   - predicate: bio.summary

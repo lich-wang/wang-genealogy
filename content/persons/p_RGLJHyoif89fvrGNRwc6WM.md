@@ -4,6 +4,7 @@ id: p_RGLJHyoif89fvrGNRwc6WM
 status: active
 merged_into: null
 display_name: 王天位
+cbdb_id: 118473
 revision: 1
 properties:
   - predicate: bio.summary

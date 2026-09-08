@@ -4,6 +4,7 @@ id: p_PeE7qguYvVccjMCtMKDCvi
 status: active
 merged_into: null
 display_name: 王德寬
+cbdb_id: 342312
 revision: 1
 properties:
   - predicate: bio.summary

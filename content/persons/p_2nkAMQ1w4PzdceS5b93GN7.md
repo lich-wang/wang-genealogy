@@ -4,6 +4,7 @@ id: p_2nkAMQ1w4PzdceS5b93GN7
 status: active
 merged_into: null
 display_name: 王慎憲
+cbdb_id: 414623
 revision: 1
 properties:
   - predicate: bio.summary

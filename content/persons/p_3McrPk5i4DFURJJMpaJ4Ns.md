@@ -4,6 +4,7 @@ id: p_3McrPk5i4DFURJJMpaJ4Ns
 status: active
 merged_into: null
 display_name: 王炳斗
+cbdb_id: 213353
 revision: 1
 properties:
   - predicate: bio.summary

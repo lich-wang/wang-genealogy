@@ -4,6 +4,7 @@ id: p_TdCGJkaDBDD2sDaykpJqA5
 status: active
 merged_into: null
 display_name: 王枕
+cbdb_id: 211334
 revision: 1
 properties:
   - predicate: bio.summary

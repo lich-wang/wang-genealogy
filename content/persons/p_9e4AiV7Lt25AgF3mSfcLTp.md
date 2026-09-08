@@ -4,6 +4,7 @@ id: p_9e4AiV7Lt25AgF3mSfcLTp
 status: active
 merged_into: null
 display_name: 王以新
+cbdb_id: 331775
 revision: 1
 properties:
   - predicate: bio.summary

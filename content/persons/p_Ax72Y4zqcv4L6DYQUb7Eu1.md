@@ -4,6 +4,7 @@ id: p_Ax72Y4zqcv4L6DYQUb7Eu1
 status: active
 merged_into: null
 display_name: 王久壽
+cbdb_id: 266956
 revision: 1
 properties:
   - predicate: bio.summary

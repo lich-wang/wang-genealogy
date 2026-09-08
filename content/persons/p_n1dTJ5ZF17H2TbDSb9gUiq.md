@@ -4,6 +4,7 @@ id: p_n1dTJ5ZF17H2TbDSb9gUiq
 status: active
 merged_into: null
 display_name: 王逹
+cbdb_id: 415490
 revision: 1
 properties:
   - predicate: bio.summary

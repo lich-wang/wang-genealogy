@@ -4,6 +4,7 @@ id: p_a8XosENufEzSCYCJT8ySEN
 status: active
 merged_into: null
 display_name: 王德佑
+cbdb_id: 493271
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_DE3ZSfiQ222CYvtm6eF5r4
 status: active
 merged_into: null
 display_name: 王棨人
+cbdb_id: 526701
 revision: 1
 properties:
   - predicate: bio.summary

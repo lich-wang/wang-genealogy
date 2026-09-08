@@ -4,6 +4,7 @@ id: p_Cg9bCFiwbwFZ5DeCWev5Vs
 status: active
 merged_into: null
 display_name: 王企孫
+cbdb_id: 324336
 revision: 1
 properties:
   - predicate: bio.summary

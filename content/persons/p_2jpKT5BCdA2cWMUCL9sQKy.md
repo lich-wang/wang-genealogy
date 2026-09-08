@@ -4,6 +4,7 @@ id: p_2jpKT5BCdA2cWMUCL9sQKy
 status: active
 merged_into: null
 display_name: 王汝彰
+cbdb_id: 525738
 revision: 1
 properties:
   - predicate: bio.summary

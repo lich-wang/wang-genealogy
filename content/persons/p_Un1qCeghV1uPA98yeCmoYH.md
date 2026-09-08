@@ -4,6 +4,7 @@ id: p_Un1qCeghV1uPA98yeCmoYH
 status: active
 merged_into: null
 display_name: 王晏韬
+cbdb_id: 184948
 revision: 2
 properties:
   - predicate: bio.summary

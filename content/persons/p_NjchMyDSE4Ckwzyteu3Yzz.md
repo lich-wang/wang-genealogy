@@ -4,6 +4,7 @@ id: p_NjchMyDSE4Ckwzyteu3Yzz
 status: active
 merged_into: null
 display_name: 王學純
+cbdb_id: 461318
 revision: 1
 properties:
   - predicate: bio.summary

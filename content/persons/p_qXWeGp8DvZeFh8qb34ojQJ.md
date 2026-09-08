@@ -4,6 +4,7 @@ id: p_qXWeGp8DvZeFh8qb34ojQJ
 status: active
 merged_into: null
 display_name: 王某宗
+cbdb_id: 413662
 revision: 1
 properties:
   - predicate: bio.summary

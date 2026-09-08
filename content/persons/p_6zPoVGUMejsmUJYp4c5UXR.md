@@ -4,6 +4,7 @@ id: p_6zPoVGUMejsmUJYp4c5UXR
 status: active
 merged_into: null
 display_name: 王德政
+cbdb_id: 97891
 revision: 1
 properties:
   - predicate: bio.summary

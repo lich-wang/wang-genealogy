@@ -4,6 +4,7 @@ id: p_b1fbyWJPGsq5Ne5d22xDP8
 status: active
 merged_into: null
 display_name: 王孟韓
+cbdb_id: 253916
 revision: 1
 properties:
   - predicate: bio.summary

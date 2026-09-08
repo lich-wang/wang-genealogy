@@ -4,6 +4,7 @@ id: p_s2Ci3S96sKz8q9W2YdX1pM
 status: active
 merged_into: null
 display_name: 王審瓊
+cbdb_id: 689254
 revision: 1
 properties:
   - predicate: bio.summary

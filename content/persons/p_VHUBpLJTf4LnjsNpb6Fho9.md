@@ -4,6 +4,7 @@ id: p_VHUBpLJTf4LnjsNpb6Fho9
 status: active
 merged_into: null
 display_name: 王奇逢
+cbdb_id: 414222
 revision: 1
 properties:
   - predicate: bio.summary

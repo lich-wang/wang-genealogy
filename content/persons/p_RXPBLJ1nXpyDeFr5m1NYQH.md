@@ -4,6 +4,7 @@ id: p_RXPBLJ1nXpyDeFr5m1NYQH
 status: active
 merged_into: null
 display_name: 王君顯
+cbdb_id: 26172
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_G75C2511qS5W1XZFG8NAVb
 status: active
 merged_into: null
 display_name: 王啟昆
+cbdb_id: 71717
 revision: 1
 properties:
   - predicate: bio.summary

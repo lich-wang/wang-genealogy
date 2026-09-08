@@ -4,6 +4,7 @@ id: p_4uvoKAg17ory8UzdqJfZce
 status: active
 merged_into: null
 display_name: 王用吉
+cbdb_id: 415125
 revision: 1
 properties:
   - predicate: bio.summary

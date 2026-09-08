@@ -4,6 +4,7 @@ id: p_N27zaVAVE31vavnkwj7Dft
 status: active
 merged_into: null
 display_name: 王伯永
+cbdb_id: 272142
 revision: 1
 properties:
   - predicate: name.primary

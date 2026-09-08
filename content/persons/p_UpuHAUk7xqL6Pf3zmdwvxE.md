@@ -4,6 +4,7 @@ id: p_UpuHAUk7xqL6Pf3zmdwvxE
 status: active
 merged_into: null
 display_name: 王希濂
+cbdb_id: 120662
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_zVv4Y4Shi3QhzSLgEg9sTt
 status: active
 merged_into: null
 display_name: 王養粹
+cbdb_id: 71907
 revision: 1
 properties:
   - predicate: bio.summary

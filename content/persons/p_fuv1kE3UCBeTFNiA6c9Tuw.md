@@ -4,6 +4,7 @@ id: p_fuv1kE3UCBeTFNiA6c9Tuw
 status: active
 merged_into: null
 display_name: 王安石
+cbdb_id: 1762
 revision: 1
 properties:
   - predicate: bio.summary

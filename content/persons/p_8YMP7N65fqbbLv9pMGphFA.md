@@ -4,6 +4,7 @@ id: p_8YMP7N65fqbbLv9pMGphFA
 status: active
 merged_into: null
 display_name: 王审知
+cbdb_id: 11520
 revision: 3
 properties:
   - predicate: bio.summary

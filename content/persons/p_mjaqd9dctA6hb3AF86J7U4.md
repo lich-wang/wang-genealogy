@@ -4,6 +4,7 @@ id: p_mjaqd9dctA6hb3AF86J7U4
 status: active
 merged_into: null
 display_name: 王秋英
+cbdb_id: 119317
 revision: 1
 properties:
   - predicate: bio.summary

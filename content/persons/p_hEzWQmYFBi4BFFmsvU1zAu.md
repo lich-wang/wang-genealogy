@@ -4,6 +4,7 @@ id: p_hEzWQmYFBi4BFFmsvU1zAu
 status: active
 merged_into: null
 display_name: 王守和
+cbdb_id: 376144
 revision: 1
 properties:
   - predicate: bio.summary

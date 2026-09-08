@@ -4,6 +4,7 @@ id: p_GUY42anzhEmrW3MkiP5GSB
 status: active
 merged_into: null
 display_name: 王夢雷
+cbdb_id: 221666
 revision: 1
 properties:
   - predicate: bio.summary

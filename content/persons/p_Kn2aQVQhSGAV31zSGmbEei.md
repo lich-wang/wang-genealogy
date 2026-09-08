@@ -4,6 +4,7 @@ id: p_Kn2aQVQhSGAV31zSGmbEei
 status: active
 merged_into: null
 display_name: 王本龍
+cbdb_id: 414857
 revision: 1
 properties:
   - predicate: bio.summary

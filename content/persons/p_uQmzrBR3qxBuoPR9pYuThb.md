@@ -4,6 +4,7 @@ id: p_uQmzrBR3qxBuoPR9pYuThb
 status: active
 merged_into: null
 display_name: 王宗祖
+cbdb_id: 308419
 revision: 1
 properties:
   - predicate: bio.summary

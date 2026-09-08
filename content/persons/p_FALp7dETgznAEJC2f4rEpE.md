@@ -4,6 +4,7 @@ id: p_FALp7dETgznAEJC2f4rEpE
 status: active
 merged_into: null
 display_name: 王培仁
+cbdb_id: 342954
 revision: 1
 properties:
   - predicate: bio.summary

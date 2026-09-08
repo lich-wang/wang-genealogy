@@ -4,6 +4,7 @@ id: p_woHoigigWwFnoaodu4eFMG
 status: active
 merged_into: null
 display_name: 王兆松
+cbdb_id: 69318
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_aE8BJNQJMvShc1BQ8KJMip
 status: active
 merged_into: null
 display_name: 王士昭
+cbdb_id: 201216
 revision: 1
 properties:
   - predicate: bio.summary

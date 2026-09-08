@@ -4,6 +4,7 @@ id: p_toTpSCF8HLoL2b34iQHLMg
 status: active
 merged_into: null
 display_name: 王汝璋
+cbdb_id: 441160
 revision: 1
 properties:
   - predicate: bio.summary

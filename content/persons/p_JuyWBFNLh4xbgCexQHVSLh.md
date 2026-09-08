@@ -4,6 +4,7 @@ id: p_JuyWBFNLh4xbgCexQHVSLh
 status: active
 merged_into: null
 display_name: 卫氏
+cbdb_id: 308154
 revision: 1
 properties:
   - predicate: bio.summary

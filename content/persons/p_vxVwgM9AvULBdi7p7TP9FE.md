@@ -4,6 +4,7 @@ id: p_vxVwgM9AvULBdi7p7TP9FE
 status: active
 merged_into: null
 display_name: 王元老
+cbdb_id: 7090
 revision: 1
 properties:
   - predicate: bio.summary

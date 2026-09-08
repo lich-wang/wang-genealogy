@@ -4,6 +4,7 @@ id: p_AcD8rLBCCjpZ5E8dG4nLKD
 status: active
 merged_into: null
 display_name: 王崇惠
+cbdb_id: 246485
 revision: 1
 properties:
   - predicate: bio.summary

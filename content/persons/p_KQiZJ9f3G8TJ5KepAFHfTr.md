@@ -4,6 +4,7 @@ id: p_KQiZJ9f3G8TJ5KepAFHfTr
 status: active
 merged_into: null
 display_name: 王必貴
+cbdb_id: 278109
 revision: 1
 properties:
   - predicate: bio.summary

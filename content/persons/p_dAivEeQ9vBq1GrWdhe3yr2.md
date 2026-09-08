@@ -4,6 +4,7 @@ id: p_dAivEeQ9vBq1GrWdhe3yr2
 status: active
 merged_into: null
 display_name: 王理得
+cbdb_id: 445466
 revision: 1
 properties:
   - predicate: bio.summary

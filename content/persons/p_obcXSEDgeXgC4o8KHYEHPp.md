@@ -4,6 +4,7 @@ id: p_obcXSEDgeXgC4o8KHYEHPp
 status: active
 merged_into: null
 display_name: 王衍祚
+cbdb_id: 415388
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_Y2WG3zCdK2aFTioMVuDmCJ
 status: active
 merged_into: null
 display_name: 王壽祺
+cbdb_id: 121093
 revision: 1
 properties:
   - predicate: bio.summary

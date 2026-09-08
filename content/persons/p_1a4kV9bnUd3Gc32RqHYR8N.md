@@ -4,6 +4,7 @@ id: p_1a4kV9bnUd3Gc32RqHYR8N
 status: active
 merged_into: null
 display_name: 王思义
+cbdb_id: 337953
 revision: 1
 properties:
   - predicate: name.primary

@@ -4,6 +4,7 @@ id: p_CjunbCQTCELymD2WFYZcPP
 status: active
 merged_into: null
 display_name: 王輔聖
+cbdb_id: 415471
 revision: 1
 properties:
   - predicate: bio.summary

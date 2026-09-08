@@ -4,6 +4,7 @@ id: p_EJMiGRB8Xxv7bfsivdmRTR
 status: active
 merged_into: null
 display_name: 王晟
+cbdb_id: 175468
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_tvECKDSY48Gd7GPcz1shq2
 status: active
 merged_into: null
 display_name: 王克宏
+cbdb_id: 342971
 revision: 1
 properties:
   - predicate: bio.summary

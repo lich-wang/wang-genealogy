@@ -4,6 +4,7 @@ id: p_C3BVyaK9GqDYaLCiy4TTP6
 status: active
 merged_into: null
 display_name: 王之仁
+cbdb_id: 526706
 revision: 1
 properties:
   - predicate: bio.summary

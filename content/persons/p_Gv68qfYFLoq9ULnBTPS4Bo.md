@@ -4,6 +4,7 @@ id: p_Gv68qfYFLoq9ULnBTPS4Bo
 status: active
 merged_into: null
 display_name: 王榮岐
+cbdb_id: 414888
 revision: 1
 properties:
   - predicate: bio.summary

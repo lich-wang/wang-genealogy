@@ -4,6 +4,7 @@ id: p_vmyJxdsVKLAK266GdLGYHF
 status: active
 merged_into: null
 display_name: 王廷珠
+cbdb_id: 414472
 revision: 1
 properties:
   - predicate: bio.summary

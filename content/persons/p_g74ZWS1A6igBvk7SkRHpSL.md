@@ -4,6 +4,7 @@ id: p_g74ZWS1A6igBvk7SkRHpSL
 status: active
 merged_into: null
 display_name: 王有爵
+cbdb_id: 414831
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_eCL3Ajyfbs3otg3PQm6LF5
 status: active
 merged_into: null
 display_name: 王長庚
+cbdb_id: 343577
 revision: 1
 properties:
   - predicate: bio.summary

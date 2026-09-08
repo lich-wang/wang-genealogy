@@ -4,6 +4,7 @@ id: p_4EEgBQWAFUW189KU5BXtAJ
 status: active
 merged_into: null
 display_name: 王志龍
+cbdb_id: 235161
 revision: 1
 properties:
   - predicate: bio.summary

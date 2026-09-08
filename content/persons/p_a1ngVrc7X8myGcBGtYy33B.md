@@ -4,6 +4,7 @@ id: p_a1ngVrc7X8myGcBGtYy33B
 status: active
 merged_into: null
 display_name: 王士錚
+cbdb_id: 342946
 revision: 1
 properties:
   - predicate: bio.summary

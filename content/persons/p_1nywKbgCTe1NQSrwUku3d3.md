@@ -4,6 +4,7 @@ id: p_1nywKbgCTe1NQSrwUku3d3
 status: active
 merged_into: null
 display_name: 王應瑾
+cbdb_id: 101449
 revision: 1
 properties:
   - predicate: bio.summary

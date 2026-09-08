@@ -4,6 +4,7 @@ id: p_uKBcGpwyDkCHnL6vSJcDK9
 status: active
 merged_into: null
 display_name: 王永精
+cbdb_id: 414952
 revision: 1
 properties:
   - predicate: bio.summary

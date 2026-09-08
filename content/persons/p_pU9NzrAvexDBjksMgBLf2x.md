@@ -4,6 +4,7 @@ id: p_pU9NzrAvexDBjksMgBLf2x
 status: active
 merged_into: null
 display_name: 王汝相
+cbdb_id: 290271
 revision: 1
 properties:
   - predicate: bio.summary

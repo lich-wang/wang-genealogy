@@ -4,6 +4,7 @@ id: p_F2Czyoo9AQEXZPZruPNCUL
 status: active
 merged_into: null
 display_name: 王淵用
+cbdb_id: 437540
 revision: 1
 properties:
   - predicate: bio.summary

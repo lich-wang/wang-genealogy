@@ -4,6 +4,7 @@ id: p_f3x6ZqfqAqHySQZJKV2HhK
 status: active
 merged_into: null
 display_name: 王錫祚
+cbdb_id: 415550
 revision: 1
 properties:
   - predicate: bio.summary

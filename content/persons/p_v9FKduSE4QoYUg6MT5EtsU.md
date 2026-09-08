@@ -4,6 +4,7 @@ id: p_v9FKduSE4QoYUg6MT5EtsU
 status: active
 merged_into: null
 display_name: 王文序
+cbdb_id: 22133
 revision: 1
 properties:
   - predicate: bio.summary

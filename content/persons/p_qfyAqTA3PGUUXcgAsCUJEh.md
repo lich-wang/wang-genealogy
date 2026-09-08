@@ -4,6 +4,7 @@ id: p_qfyAqTA3PGUUXcgAsCUJEh
 status: active
 merged_into: null
 display_name: 王正思
+cbdb_id: 202442
 revision: 1
 properties:
   - predicate: bio.summary

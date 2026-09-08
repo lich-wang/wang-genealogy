@@ -4,6 +4,7 @@ id: p_8BV8yv249319uyHRhn3Xd8
 status: active
 merged_into: null
 display_name: 王玄彊
+cbdb_id: 234438
 revision: 1
 properties:
   - predicate: bio.summary

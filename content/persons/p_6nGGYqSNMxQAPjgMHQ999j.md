@@ -4,6 +4,7 @@ id: p_6nGGYqSNMxQAPjgMHQ999j
 status: active
 merged_into: null
 display_name: 王爭光
+cbdb_id: 308156
 revision: 1
 properties:
   - predicate: bio.summary

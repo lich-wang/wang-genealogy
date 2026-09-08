@@ -4,6 +4,7 @@ id: p_o1PLMtXazVXomUr3srQQWC
 status: active
 merged_into: null
 display_name: 王敬義
+cbdb_id: 101379
 revision: 1
 properties:
   - predicate: bio.summary

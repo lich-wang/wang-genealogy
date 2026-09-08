@@ -4,6 +4,7 @@ id: p_hkxRnkwdABHFBvtuuQxejY
 status: active
 merged_into: null
 display_name: 王象坤
+cbdb_id: 205267
 revision: 2
 properties:
   - predicate: bio.summary

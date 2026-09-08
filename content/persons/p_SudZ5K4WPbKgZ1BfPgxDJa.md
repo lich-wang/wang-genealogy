@@ -4,6 +4,7 @@ id: p_SudZ5K4WPbKgZ1BfPgxDJa
 status: active
 merged_into: null
 display_name: 王家翰
+cbdb_id: 333601
 revision: 1
 properties:
   - predicate: bio.summary

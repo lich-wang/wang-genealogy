@@ -4,6 +4,7 @@ id: p_n13PcwgWiKYnhGy8oyCXBq
 status: active
 merged_into: null
 display_name: 王永富
+cbdb_id: 38356
 revision: 1
 properties:
   - predicate: bio.summary

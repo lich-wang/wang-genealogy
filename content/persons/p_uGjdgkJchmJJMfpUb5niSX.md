@@ -4,6 +4,7 @@ id: p_uGjdgkJchmJJMfpUb5niSX
 status: active
 merged_into: null
 display_name: 王惕夫
+cbdb_id: 511612
 revision: 1
 properties:
   - predicate: bio.summary

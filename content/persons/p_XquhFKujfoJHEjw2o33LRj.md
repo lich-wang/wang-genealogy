@@ -4,6 +4,7 @@ id: p_XquhFKujfoJHEjw2o33LRj
 status: active
 merged_into: null
 display_name: 王宇峻
+cbdb_id: 414272
 revision: 1
 properties:
   - predicate: bio.summary

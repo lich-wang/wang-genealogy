@@ -4,6 +4,7 @@ id: p_miRWGgdwUfGS5JhZC9Zpup
 status: active
 merged_into: null
 display_name: 王种賓
+cbdb_id: 329107
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_LRuywdvE4fSvsjDbnKKrGb
 status: active
 merged_into: null
 display_name: 王子緖
+cbdb_id: 414242
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_PV9HEpJdMFYkwc1kmVbqh1
 status: active
 merged_into: null
 display_name: 王賈僧
+cbdb_id: 101384
 revision: 1
 properties:
   - predicate: bio.summary

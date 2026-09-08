@@ -4,6 +4,7 @@ id: p_MzjvisS65eTZTH4c6EA4mL
 status: active
 merged_into: null
 display_name: 王昌功
+cbdb_id: 222275
 revision: 1
 properties:
   - predicate: bio.summary

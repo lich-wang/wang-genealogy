@@ -4,6 +4,7 @@ id: p_APEkErBADR9C45kBqY6Zjf
 status: active
 merged_into: null
 display_name: 王庭龍
+cbdb_id: 341581
 revision: 1
 properties:
   - predicate: bio.summary

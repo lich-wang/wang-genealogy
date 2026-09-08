@@ -4,6 +4,7 @@ id: p_sqxomKmHSgUr95ZqmCsocm
 status: active
 merged_into: null
 display_name: 王懋新
+cbdb_id: 61245
 revision: 1
 properties:
   - predicate: bio.summary

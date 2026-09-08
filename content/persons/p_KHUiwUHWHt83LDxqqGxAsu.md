@@ -4,6 +4,7 @@ id: p_KHUiwUHWHt83LDxqqGxAsu
 status: active
 merged_into: null
 display_name: 王廷享
+cbdb_id: 71562
 revision: 1
 properties:
   - predicate: bio.summary

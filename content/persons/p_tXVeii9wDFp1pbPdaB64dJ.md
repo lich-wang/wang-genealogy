@@ -4,6 +4,7 @@ id: p_tXVeii9wDFp1pbPdaB64dJ
 status: active
 merged_into: null
 display_name: 王艮翰
+cbdb_id: 415330
 revision: 1
 properties:
   - predicate: bio.summary

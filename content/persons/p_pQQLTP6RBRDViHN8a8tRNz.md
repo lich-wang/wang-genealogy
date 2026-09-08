@@ -4,6 +4,7 @@ id: p_pQQLTP6RBRDViHN8a8tRNz
 status: active
 merged_into: null
 display_name: 王世名
+cbdb_id: 126487
 revision: 1
 properties:
   - predicate: bio.summary

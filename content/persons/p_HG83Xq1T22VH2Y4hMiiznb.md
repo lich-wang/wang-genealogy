@@ -4,6 +4,7 @@ id: p_HG83Xq1T22VH2Y4hMiiznb
 status: active
 merged_into: null
 display_name: 王象旭
+cbdb_id: 220273
 revision: 1
 properties:
   - predicate: bio.summary

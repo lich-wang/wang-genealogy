@@ -4,6 +4,7 @@ id: p_5qXFzXkSH6JPczFY4f68UZ
 status: active
 merged_into: null
 display_name: 王寶手
+cbdb_id: 140616
 revision: 1
 properties:
   - predicate: bio.summary

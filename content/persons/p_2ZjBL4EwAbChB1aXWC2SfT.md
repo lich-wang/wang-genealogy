@@ -4,6 +4,7 @@ id: p_2ZjBL4EwAbChB1aXWC2SfT
 status: active
 merged_into: null
 display_name: 王壽枬
+cbdb_id: 343031
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_jKrz7wAG7kSqp2N7HpxJ4F
 status: active
 merged_into: null
 display_name: 王喬桂
+cbdb_id: 205629
 revision: 1
 properties:
   - predicate: bio.summary

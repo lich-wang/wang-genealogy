@@ -4,6 +4,7 @@ id: p_Y1J494C1wxoCGbqWhaRwAG
 status: active
 merged_into: null
 display_name: 王平生
+cbdb_id: 267255
 revision: 1
 properties:
   - predicate: bio.summary

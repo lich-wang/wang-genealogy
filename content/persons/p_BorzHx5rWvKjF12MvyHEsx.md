@@ -4,6 +4,7 @@ id: p_BorzHx5rWvKjF12MvyHEsx
 status: active
 merged_into: null
 display_name: 王治岐
+cbdb_id: 414993
 revision: 1
 properties:
   - predicate: bio.summary

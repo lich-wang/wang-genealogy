@@ -4,6 +4,7 @@ id: p_AJuSqssquVEDG7M8UbTvDR
 status: active
 merged_into: null
 display_name: 王鼎勳
+cbdb_id: 415658
 revision: 1
 properties:
   - predicate: bio.summary

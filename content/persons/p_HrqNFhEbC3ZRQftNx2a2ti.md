@@ -4,6 +4,7 @@ id: p_HrqNFhEbC3ZRQftNx2a2ti
 status: active
 merged_into: null
 display_name: 王尚一
+cbdb_id: 445684
 revision: 1
 properties:
   - predicate: bio.summary

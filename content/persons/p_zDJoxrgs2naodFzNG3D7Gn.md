@@ -4,6 +4,7 @@ id: p_zDJoxrgs2naodFzNG3D7Gn
 status: active
 merged_into: null
 display_name: 王襄臣
+cbdb_id: 297188
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_W36C1qhCsF3P97e2Xtj95b
 status: active
 merged_into: null
 display_name: 王曰晉
+cbdb_id: 517416
 revision: 1
 properties:
   - predicate: bio.summary

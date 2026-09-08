@@ -4,6 +4,7 @@ id: p_VoLSDd4vZUtCuWpyyvPCpL
 status: active
 merged_into: null
 display_name: 王隅
+cbdb_id: 100850
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_eX4figeaUfQvW3nH6pwLG5
 status: active
 merged_into: null
 display_name: 王履豐
+cbdb_id: 517400
 revision: 1
 properties:
   - predicate: bio.summary

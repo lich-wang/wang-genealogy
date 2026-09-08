@@ -4,6 +4,7 @@ id: p_fdXx9WXc5iDGBMMcVgHJxM
 status: active
 merged_into: null
 display_name: 王元柄
+cbdb_id: 221932
 revision: 1
 properties:
   - predicate: bio.summary

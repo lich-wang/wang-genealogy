@@ -4,6 +4,7 @@ id: p_gSzDVPGT2BN41d8fohDJuo
 status: active
 merged_into: null
 display_name: 王子儉
+cbdb_id: 231330
 revision: 1
 properties:
   - predicate: bio.summary

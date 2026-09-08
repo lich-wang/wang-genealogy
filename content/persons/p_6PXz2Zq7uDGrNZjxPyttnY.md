@@ -4,6 +4,7 @@ id: p_6PXz2Zq7uDGrNZjxPyttnY
 status: active
 merged_into: null
 display_name: 王三曾
+cbdb_id: 341734
 revision: 1
 properties:
   - predicate: bio.summary

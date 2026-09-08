@@ -4,6 +4,7 @@ id: p_hkpRW1N4MN1rfNGTn3G9MB
 status: active
 merged_into: null
 display_name: 王玉藻
+cbdb_id: 69125
 revision: 1
 properties:
   - predicate: bio.summary

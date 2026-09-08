@@ -4,6 +4,7 @@ id: p_sWjJ5NubDXAgs1m3jEMTLL
 status: active
 merged_into: null
 display_name: 王龜範
+cbdb_id: 379810
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_ao53AE5PsxsDGLGJEGt4KS
 status: active
 merged_into: null
 display_name: 王星照
+cbdb_id: 343421
 revision: 1
 properties:
   - predicate: bio.summary

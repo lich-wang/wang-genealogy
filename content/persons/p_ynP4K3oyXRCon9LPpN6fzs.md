@@ -4,6 +4,7 @@ id: p_ynP4K3oyXRCon9LPpN6fzs
 status: active
 merged_into: null
 display_name: 王士堯
+cbdb_id: 23373
 revision: 1
 properties:
   - predicate: bio.summary

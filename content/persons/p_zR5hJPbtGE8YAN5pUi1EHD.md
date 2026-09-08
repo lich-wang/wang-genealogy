@@ -4,6 +4,7 @@ id: p_zR5hJPbtGE8YAN5pUi1EHD
 status: active
 merged_into: null
 display_name: 王有極
+cbdb_id: 414829
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_oREgSd4itdA3Mz6Mp8dkNX
 status: active
 merged_into: null
 display_name: 晁氏
+cbdb_id: 37788
 revision: 1
 properties:
   - predicate: name.primary

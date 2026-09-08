@@ -4,6 +4,7 @@ id: p_dsKdJmxGEgXimyPn78iufE
 status: active
 merged_into: null
 display_name: 王庆远
+cbdb_id: 175928
 revision: 2
 properties:
   - predicate: bio.summary

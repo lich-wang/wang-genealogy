@@ -4,6 +4,7 @@ id: p_4UEFBcdn4qvmSAF8exwkNT
 status: active
 merged_into: null
 display_name: 王曰魁
+cbdb_id: 414818
 revision: 1
 properties:
   - predicate: bio.summary

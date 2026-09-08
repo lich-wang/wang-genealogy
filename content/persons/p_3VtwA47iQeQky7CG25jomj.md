@@ -4,6 +4,7 @@ id: p_3VtwA47iQeQky7CG25jomj
 status: active
 merged_into: null
 display_name: 王選第
+cbdb_id: 228980
 revision: 1
 properties:
   - predicate: bio.summary

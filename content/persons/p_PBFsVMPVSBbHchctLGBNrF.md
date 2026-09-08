@@ -4,6 +4,7 @@ id: p_PBFsVMPVSBbHchctLGBNrF
 status: active
 merged_into: null
 display_name: 王懋勳
+cbdb_id: 123584
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_jnF7A5Ubvx97C6nt3zpqmi
 status: active
 merged_into: null
 display_name: 王以貞
+cbdb_id: 331776
 revision: 1
 properties:
   - predicate: bio.summary

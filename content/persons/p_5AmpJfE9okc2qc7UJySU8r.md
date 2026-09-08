@@ -4,6 +4,7 @@ id: p_5AmpJfE9okc2qc7UJySU8r
 status: active
 merged_into: null
 display_name: 王世瀚
+cbdb_id: 513971
 revision: 1
 properties:
   - predicate: bio.summary

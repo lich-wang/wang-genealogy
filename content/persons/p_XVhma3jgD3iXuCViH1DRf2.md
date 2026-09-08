@@ -4,6 +4,7 @@ id: p_XVhma3jgD3iXuCViH1DRf2
 status: active
 merged_into: null
 display_name: 王隆德
+cbdb_id: 343609
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_gtEXC1DMUEBkuDA89n1SGF
 status: active
 merged_into: null
 display_name: 王期昇
+cbdb_id: 343296
 revision: 1
 properties:
   - predicate: bio.summary

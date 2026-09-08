@@ -4,6 +4,7 @@ id: p_LzKzBUerAfGDhBNRUiQn4j
 status: active
 merged_into: null
 display_name: 王愷中
+cbdb_id: 304158
 revision: 1
 properties:
   - predicate: bio.summary

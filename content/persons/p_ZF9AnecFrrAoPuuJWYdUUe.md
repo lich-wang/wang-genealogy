@@ -4,6 +4,7 @@ id: p_ZF9AnecFrrAoPuuJWYdUUe
 status: active
 merged_into: null
 display_name: 王昴
+cbdb_id: 97918
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_HDCYSdtJbYwV1MTMryabN6
 status: active
 merged_into: null
 display_name: 王惟惠
+cbdb_id: 308702
 revision: 1
 properties:
   - predicate: bio.summary

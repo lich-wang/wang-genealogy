@@ -4,6 +4,7 @@ id: p_YJVwBt8aJa3Vhiz3iFfzNL
 status: active
 merged_into: null
 display_name: 王酉發
+cbdb_id: 39348
 revision: 1
 properties:
   - predicate: bio.summary

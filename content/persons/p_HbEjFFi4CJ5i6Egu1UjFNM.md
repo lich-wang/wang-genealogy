@@ -4,6 +4,7 @@ id: p_HbEjFFi4CJ5i6Egu1UjFNM
 status: active
 merged_into: null
 display_name: 王進善
+cbdb_id: 415487
 revision: 1
 properties:
   - predicate: bio.summary

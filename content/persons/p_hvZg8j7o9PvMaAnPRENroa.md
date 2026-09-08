@@ -4,6 +4,7 @@ id: p_hvZg8j7o9PvMaAnPRENroa
 status: active
 merged_into: null
 display_name: 王安欽
+cbdb_id: 526833
 revision: 1
 properties:
   - predicate: bio.summary

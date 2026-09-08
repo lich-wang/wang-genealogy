@@ -4,6 +4,7 @@ id: p_NqQyEwd3bCtKj7syzzCf1B
 status: active
 merged_into: null
 display_name: 王從周
+cbdb_id: 414534
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_bujBvWgZxPpvypX9KK6kk9
 status: active
 merged_into: null
 display_name: 王璀
+cbdb_id: 149858
 revision: 1
 properties:
   - predicate: bio.summary

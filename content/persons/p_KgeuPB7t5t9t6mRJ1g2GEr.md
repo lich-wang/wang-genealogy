@@ -4,6 +4,7 @@ id: p_KgeuPB7t5t9t6mRJ1g2GEr
 status: active
 merged_into: null
 display_name: 王怡則
+cbdb_id: 192578
 revision: 1
 properties:
   - predicate: bio.summary

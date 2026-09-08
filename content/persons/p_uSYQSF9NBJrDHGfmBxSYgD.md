@@ -4,6 +4,7 @@ id: p_uSYQSF9NBJrDHGfmBxSYgD
 status: active
 merged_into: null
 display_name: 王仲寳
+cbdb_id: 413836
 revision: 1
 properties:
   - predicate: bio.summary

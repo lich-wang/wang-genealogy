@@ -4,6 +4,7 @@ id: p_MWki8ReFmHCVhMaaeaZu2A
 status: active
 merged_into: null
 display_name: 王覺蓮
+cbdb_id: 343611
 revision: 1
 properties:
   - predicate: bio.summary

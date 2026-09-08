@@ -4,6 +4,7 @@ id: p_9GiwE6GiBQ6nGoTcZMY8LJ
 status: active
 merged_into: null
 display_name: 王時英
+cbdb_id: 343520
 revision: 1
 properties:
   - predicate: bio.summary

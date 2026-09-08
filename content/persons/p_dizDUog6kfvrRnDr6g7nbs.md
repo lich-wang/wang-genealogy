@@ -4,6 +4,7 @@ id: p_dizDUog6kfvrRnDr6g7nbs
 status: active
 merged_into: null
 display_name: 王聯槐
+cbdb_id: 415296
 revision: 1
 properties:
   - predicate: bio.summary

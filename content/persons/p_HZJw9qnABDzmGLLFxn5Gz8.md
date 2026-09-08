@@ -4,6 +4,7 @@ id: p_HZJw9qnABDzmGLLFxn5Gz8
 status: active
 merged_into: null
 display_name: 王鳴鳯
+cbdb_id: 415639
 revision: 1
 properties:
   - predicate: bio.summary

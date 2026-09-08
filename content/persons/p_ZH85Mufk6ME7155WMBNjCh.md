@@ -4,6 +4,7 @@ id: p_ZH85Mufk6ME7155WMBNjCh
 status: active
 merged_into: null
 display_name: 王行立
+cbdb_id: 193647
 revision: 1
 properties:
   - predicate: bio.summary

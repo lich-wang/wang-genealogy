@@ -4,6 +4,7 @@ id: p_wYASkiS1UfW3jVF2GqGoJR
 status: active
 merged_into: null
 display_name: 王肇和
+cbdb_id: 517387
 revision: 1
 properties:
   - predicate: bio.summary

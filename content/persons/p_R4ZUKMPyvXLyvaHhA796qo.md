@@ -4,6 +4,7 @@ id: p_R4ZUKMPyvXLyvaHhA796qo
 status: active
 merged_into: null
 display_name: 王文麗
+cbdb_id: 40163
 revision: 1
 properties:
   - predicate: bio.summary

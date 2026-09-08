@@ -4,6 +4,7 @@ id: p_nNi2gaNrUKe9ojc5ByLPyP
 status: active
 merged_into: null
 display_name: 王齡長
+cbdb_id: 526877
 revision: 1
 properties:
   - predicate: bio.summary

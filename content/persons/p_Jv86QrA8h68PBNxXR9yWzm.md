@@ -4,6 +4,7 @@ id: p_Jv86QrA8h68PBNxXR9yWzm
 status: active
 merged_into: null
 display_name: 王濡之
+cbdb_id: 101452
 revision: 1
 properties:
   - predicate: bio.summary

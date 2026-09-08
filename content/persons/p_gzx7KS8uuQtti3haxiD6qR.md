@@ -4,6 +4,7 @@ id: p_gzx7KS8uuQtti3haxiD6qR
 status: active
 merged_into: null
 display_name: 王克寛
+cbdb_id: 413949
 revision: 1
 properties:
   - predicate: bio.summary

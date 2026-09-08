@@ -4,6 +4,7 @@ id: p_9DSGNufkeHidpgbtuFJZ47
 status: active
 merged_into: null
 display_name: 王光嗣
+cbdb_id: 38798
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_iPVCAZSr8mzU9FPDG21P5N
 status: active
 merged_into: null
 display_name: 王御榮
+cbdb_id: 414540
 revision: 1
 properties:
   - predicate: bio.summary

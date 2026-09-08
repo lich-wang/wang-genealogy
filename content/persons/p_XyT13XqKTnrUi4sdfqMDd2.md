@@ -4,6 +4,7 @@ id: p_XyT13XqKTnrUi4sdfqMDd2
 status: active
 merged_into: null
 display_name: 王志宏
+cbdb_id: 235158
 revision: 1
 properties:
   - predicate: bio.summary

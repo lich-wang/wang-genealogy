@@ -4,6 +4,7 @@ id: p_9csocYwU6Ph8S2WjzuDKuP
 status: active
 merged_into: null
 display_name: 王仲平
+cbdb_id: 38855
 revision: 1
 properties:
   - predicate: bio.summary

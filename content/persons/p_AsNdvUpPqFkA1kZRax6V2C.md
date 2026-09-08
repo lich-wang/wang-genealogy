@@ -4,6 +4,7 @@ id: p_AsNdvUpPqFkA1kZRax6V2C
 status: active
 merged_into: null
 display_name: 王彥瓊
+cbdb_id: 242457
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_A1tXxgh42mmsn6d6eNs4nD
 status: active
 merged_into: null
 display_name: 王奉忠
+cbdb_id: 158747
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_UDXBmceRLhUBfq8Xtjxmsv
 status: active
 merged_into: null
 display_name: 王箴輿
+cbdb_id: 35055
 revision: 1
 properties:
   - predicate: bio.summary

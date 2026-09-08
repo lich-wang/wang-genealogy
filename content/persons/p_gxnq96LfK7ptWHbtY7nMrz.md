@@ -4,6 +4,7 @@ id: p_gxnq96LfK7ptWHbtY7nMrz
 status: active
 merged_into: null
 display_name: 王龍徳
+cbdb_id: 415664
 revision: 1
 properties:
   - predicate: bio.summary

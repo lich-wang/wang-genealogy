@@ -4,6 +4,7 @@ id: p_xdMmyTQBkhL8iBNWY99mYL
 status: active
 merged_into: null
 display_name: 王道公
+cbdb_id: 313346
 revision: 1
 properties:
   - predicate: bio.summary

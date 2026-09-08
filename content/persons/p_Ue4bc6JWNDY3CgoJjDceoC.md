@@ -4,6 +4,7 @@ id: p_Ue4bc6JWNDY3CgoJjDceoC
 status: active
 merged_into: null
 display_name: 王丕
+cbdb_id: 26228
 revision: 2
 properties:
   - predicate: bio.summary

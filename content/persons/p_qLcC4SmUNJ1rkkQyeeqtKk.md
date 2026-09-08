@@ -4,6 +4,7 @@ id: p_qLcC4SmUNJ1rkkQyeeqtKk
 status: active
 merged_into: null
 display_name: 王廷陳
+cbdb_id: 34668
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_ispdGyuEm2FQrF9pDbjogj
 status: active
 merged_into: null
 display_name: 王家錦
+cbdb_id: 526842
 revision: 1
 properties:
   - predicate: bio.summary

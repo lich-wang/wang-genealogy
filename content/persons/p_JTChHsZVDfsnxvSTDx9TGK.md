@@ -4,6 +4,7 @@ id: p_JTChHsZVDfsnxvSTDx9TGK
 status: active
 merged_into: null
 display_name: 王國樟
+cbdb_id: 294344
 revision: 1
 properties:
   - predicate: bio.summary

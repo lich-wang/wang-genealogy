@@ -4,6 +4,7 @@ id: p_CCfxoXtCJcJcSiqPF7zJi3
 status: active
 merged_into: null
 display_name: 王孝叔
+cbdb_id: 39108
 revision: 1
 properties:
   - predicate: bio.summary

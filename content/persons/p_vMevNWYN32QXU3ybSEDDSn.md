@@ -4,6 +4,7 @@ id: p_vMevNWYN32QXU3ybSEDDSn
 status: active
 merged_into: null
 display_name: 王組經
+cbdb_id: 264942
 revision: 1
 properties:
   - predicate: bio.summary

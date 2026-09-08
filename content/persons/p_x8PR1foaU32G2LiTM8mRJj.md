@@ -4,6 +4,7 @@ id: p_x8PR1foaU32G2LiTM8mRJj
 status: active
 merged_into: null
 display_name: 王公魯
+cbdb_id: 161380
 revision: 1
 properties:
   - predicate: bio.summary

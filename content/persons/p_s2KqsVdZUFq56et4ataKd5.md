@@ -4,6 +4,7 @@ id: p_s2KqsVdZUFq56et4ataKd5
 status: active
 merged_into: null
 display_name: 王三魁
+cbdb_id: 413694
 revision: 1
 properties:
   - predicate: bio.summary

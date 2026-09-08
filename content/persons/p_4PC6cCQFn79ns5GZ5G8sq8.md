@@ -4,6 +4,7 @@ id: p_4PC6cCQFn79ns5GZ5G8sq8
 status: active
 merged_into: null
 display_name: 王之琳
+cbdb_id: 59909
 revision: 1
 properties:
   - predicate: bio.summary

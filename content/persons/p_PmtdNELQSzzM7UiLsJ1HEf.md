@@ -4,6 +4,7 @@ id: p_PmtdNELQSzzM7UiLsJ1HEf
 status: active
 merged_into: null
 display_name: 王溥民
+cbdb_id: 209994
 revision: 1
 properties:
   - predicate: bio.summary

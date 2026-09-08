@@ -4,6 +4,7 @@ id: p_PG9Fvg9NtVnjeDz9wSwJyM
 status: active
 merged_into: null
 display_name: 王僧辩
+cbdb_id: 164581
 revision: 1
 properties:
   - predicate: name.primary

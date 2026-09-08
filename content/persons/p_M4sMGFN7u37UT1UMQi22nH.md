@@ -4,6 +4,7 @@ id: p_M4sMGFN7u37UT1UMQi22nH
 status: active
 merged_into: null
 display_name: 王炳權
+cbdb_id: 210110
 revision: 1
 properties:
   - predicate: bio.summary

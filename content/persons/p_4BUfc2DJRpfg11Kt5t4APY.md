@@ -4,6 +4,7 @@ id: p_4BUfc2DJRpfg11Kt5t4APY
 status: active
 merged_into: null
 display_name: 王松茂
+cbdb_id: 343325
 revision: 1
 properties:
   - predicate: bio.summary

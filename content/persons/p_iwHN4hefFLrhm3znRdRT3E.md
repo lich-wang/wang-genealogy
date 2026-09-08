@@ -4,6 +4,7 @@ id: p_iwHN4hefFLrhm3znRdRT3E
 status: active
 merged_into: null
 display_name: 王振鑾
+cbdb_id: 500647
 revision: 1
 properties:
   - predicate: bio.summary

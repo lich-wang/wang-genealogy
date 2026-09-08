@@ -4,6 +4,7 @@ id: p_ABttrGR9ETMfaUWfuE5Xsi
 status: active
 merged_into: null
 display_name: 王逸
+cbdb_id: 175421
 revision: 1
 properties:
   - predicate: bio.summary

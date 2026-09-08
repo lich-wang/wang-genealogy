@@ -4,6 +4,7 @@ id: p_51xAMNHvn2P77VPa5zzeJS
 status: active
 merged_into: null
 display_name: 王一見
+cbdb_id: 256441
 revision: 1
 properties:
   - predicate: bio.summary

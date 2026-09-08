@@ -4,6 +4,7 @@ id: p_UVUES2Kh9quUTtSQQmBLX7
 status: active
 merged_into: null
 display_name: 王小觀
+cbdb_id: 45884
 revision: 1
 properties:
   - predicate: bio.summary

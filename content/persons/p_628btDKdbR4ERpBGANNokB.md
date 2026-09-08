@@ -4,6 +4,7 @@ id: p_628btDKdbR4ERpBGANNokB
 status: active
 merged_into: null
 display_name: 王咸熙
+cbdb_id: 21947
 revision: 2
 properties:
   - predicate: bio.summary

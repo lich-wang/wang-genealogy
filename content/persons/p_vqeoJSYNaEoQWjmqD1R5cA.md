@@ -4,6 +4,7 @@ id: p_vqeoJSYNaEoQWjmqD1R5cA
 status: active
 merged_into: null
 display_name: 王恩源
+cbdb_id: 414603
 revision: 1
 properties:
   - predicate: bio.summary

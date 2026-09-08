@@ -4,6 +4,7 @@ id: p_uFwD6xBc7pcKYRU4SJgBny
 status: active
 merged_into: null
 display_name: 王萬悅
+cbdb_id: 268919
 revision: 1
 properties:
   - predicate: bio.summary

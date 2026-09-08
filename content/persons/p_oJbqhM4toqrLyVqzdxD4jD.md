@@ -4,6 +4,7 @@ id: p_oJbqhM4toqrLyVqzdxD4jD
 status: active
 merged_into: null
 display_name: 王命官
+cbdb_id: 216551
 revision: 1
 properties:
   - predicate: bio.summary

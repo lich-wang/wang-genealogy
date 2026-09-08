@@ -4,6 +4,7 @@ id: p_Qor8K88oXzG2Mu1FoZbo5Q
 status: active
 merged_into: null
 display_name: 王憲祚
+cbdb_id: 235979
 revision: 1
 properties:
   - predicate: bio.summary

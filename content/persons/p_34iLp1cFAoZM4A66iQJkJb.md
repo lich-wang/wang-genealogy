@@ -4,6 +4,7 @@ id: p_34iLp1cFAoZM4A66iQJkJb
 status: active
 merged_into: null
 display_name: 王寧火阜
+cbdb_id: 69406
 revision: 1
 properties:
   - predicate: bio.summary

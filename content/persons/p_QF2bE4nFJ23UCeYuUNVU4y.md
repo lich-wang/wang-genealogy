@@ -4,6 +4,7 @@ id: p_QF2bE4nFJ23UCeYuUNVU4y
 status: active
 merged_into: null
 display_name: 王孟华
+cbdb_id: 302966
 revision: 1
 properties:
   - predicate: name.primary

@@ -4,6 +4,7 @@ id: p_wx8pV5FXm9qYnA5ZT1tswN
 status: active
 merged_into: null
 display_name: 葛氏
+cbdb_id: 272146
 revision: 1
 properties:
   - predicate: bio.summary

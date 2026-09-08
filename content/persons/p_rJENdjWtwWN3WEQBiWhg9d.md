@@ -4,6 +4,7 @@ id: p_rJENdjWtwWN3WEQBiWhg9d
 status: active
 merged_into: null
 display_name: 王方岐
+cbdb_id: 511616
 revision: 1
 properties:
   - predicate: bio.summary

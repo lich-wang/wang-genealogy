@@ -4,6 +4,7 @@ id: p_MsfMcGcchq6K8HRY5gx7Go
 status: active
 merged_into: null
 display_name: 王永詔
+cbdb_id: 414956
 revision: 1
 properties:
   - predicate: bio.summary

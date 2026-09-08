@@ -4,6 +4,7 @@ id: p_zPXnwjs8aeKwRa27owWDHv
 status: active
 merged_into: null
 display_name: 王申子
+cbdb_id: 101134
 revision: 1
 properties:
   - predicate: bio.summary

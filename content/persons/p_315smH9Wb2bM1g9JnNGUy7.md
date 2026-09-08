@@ -4,6 +4,7 @@ id: p_315smH9Wb2bM1g9JnNGUy7
 status: active
 merged_into: null
 display_name: 王元昭
+cbdb_id: 498228
 revision: 1
 properties:
   - predicate: bio.summary

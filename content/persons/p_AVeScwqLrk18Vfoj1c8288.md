@@ -4,6 +4,7 @@ id: p_AVeScwqLrk18Vfoj1c8288
 status: active
 merged_into: null
 display_name: 王改住
+cbdb_id: 414715
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_RSQHpN1w6cmsNZi8icjSo3
 status: active
 merged_into: null
 display_name: 王時晟
+cbdb_id: 236523
 revision: 1
 properties:
   - predicate: bio.summary

@@ -4,6 +4,7 @@ id: p_yudA6ZEw2iJN85eNtCgZcR
 status: active
 merged_into: null
 display_name: 王文溥
+cbdb_id: 70273
 revision: 1
 properties:
   - predicate: bio.summary

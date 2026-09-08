@@ -4,6 +4,7 @@ id: p_PLdr4HzfLKbdZ815EbDVvb
 status: active
 merged_into: null
 display_name: 王淶民
+cbdb_id: 209986
 revision: 1
 properties:
   - predicate: bio.summary

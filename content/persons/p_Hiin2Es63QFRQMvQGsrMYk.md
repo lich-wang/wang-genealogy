@@ -4,6 +4,7 @@ id: p_Hiin2Es63QFRQMvQGsrMYk
 status: active
 merged_into: null
 display_name: 王察罕
+cbdb_id: 414362
 revision: 1
 properties:
   - predicate: bio.summary

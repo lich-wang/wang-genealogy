@@ -4,6 +4,7 @@ id: p_DWFQE5N8VM7Yfu3E32oMAW
 status: active
 merged_into: null
 display_name: 王夢達
+cbdb_id: 384946
 revision: 1
 properties:
   - predicate: bio.summary

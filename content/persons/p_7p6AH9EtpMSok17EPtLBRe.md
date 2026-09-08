@@ -4,6 +4,7 @@ id: p_7p6AH9EtpMSok17EPtLBRe
 status: active
 merged_into: null
 display_name: 王奉禮
+cbdb_id: 248662
 revision: 1
 properties:
   - predicate: bio.summary

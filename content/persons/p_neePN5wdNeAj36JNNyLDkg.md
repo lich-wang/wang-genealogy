@@ -4,6 +4,7 @@ id: p_neePN5wdNeAj36JNNyLDkg
 status: active
 merged_into: null
 display_name: 王祖庾
+cbdb_id: 520241
 revision: 1
 properties:
   - predicate: bio.summary
