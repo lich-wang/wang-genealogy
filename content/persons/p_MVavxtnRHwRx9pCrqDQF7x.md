@@ -1,0 +1,103 @@
+---
+schema: wang-person/v1
+id: p_MVavxtnRHwRx9pCrqDQF7x
+status: active
+merged_into: null
+display_name: 王新楨
+revision: 1
+properties:
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_fqrrgtLM6kWweHVJHpoQJq
+        subject_person_id: p_MVavxtnRHwRx9pCrqDQF7x
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王新楨
+          language: zh-Hant
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_1dJgkzUAv8sZq152E61Xff
+          claim_id: c_fqrrgtLM6kWweHVJHpoQJq
+          source_id: s_jxAWi9K28hPG7Sw4sNu9DF
+          stance: supports
+          locator: CBDB:638304
+          quotation: null
+          interpretation_note: CBDB 明确记录的王姓历史人物（638304）
+          source: &a1
+            id: s_jxAWi9K28hPG7Sw4sNu9DF
+            source_type: api_record
+            title: 中国历代人物传记资料库：王新楨（CBDB 638304）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=638304&o=json
+            external_identifier: CBDB:638304
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:26.662Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_1gdhoKA55YT8L1yz11t6kY
+        subject_person_id: p_MVavxtnRHwRx9pCrqDQF7x
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: CBDB 记载为清人物
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_P5Y5MQ7xio8A7JadARGHr8
+          claim_id: c_1gdhoKA55YT8L1yz11t6kY
+          source_id: s_jxAWi9K28hPG7Sw4sNu9DF
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 朝代归属
+          source: *a1
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses: []
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王新楨
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| name.primary | 王新楨 | accepted |
+| bio.summary | CBDB 记载为清人物 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+
+## 外部来源
+
+- [中国历代人物传记资料库：王新楨（CBDB 638304）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=638304&o=json)

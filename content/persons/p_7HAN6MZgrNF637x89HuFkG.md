@@ -1,0 +1,103 @@
+---
+schema: wang-person/v1
+id: p_7HAN6MZgrNF637x89HuFkG
+status: active
+merged_into: null
+display_name: 王浩
+revision: 1
+properties:
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_x7EVzecqLMKirMTygy8VK5
+        subject_person_id: p_7HAN6MZgrNF637x89HuFkG
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王浩
+          language: zh-Hant
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_uXGTph5Jc4vF8vr7EeeMp1
+          claim_id: c_x7EVzecqLMKirMTygy8VK5
+          source_id: s_wmC3MDEPgsKi3WAVSqTheD
+          stance: supports
+          locator: CBDB:301984
+          quotation: null
+          interpretation_note: CBDB 明确记录的王姓历史人物（301984）
+          source: &a1
+            id: s_wmC3MDEPgsKi3WAVSqTheD
+            source_type: api_record
+            title: 中国历代人物传记资料库：王浩（CBDB 301984）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=301984&o=json
+            external_identifier: CBDB:301984
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.646Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_eAmKC5sqURYPgAbTHLhXEf
+        subject_person_id: p_7HAN6MZgrNF637x89HuFkG
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: CBDB 记载为明人物
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_e4ph1X7vBbTG4b8y9trf2W
+          claim_id: c_eAmKC5sqURYPgAbTHLhXEf
+          source_id: s_wmC3MDEPgsKi3WAVSqTheD
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 朝代归属
+          source: *a1
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses: []
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王浩
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| name.primary | 王浩 | accepted |
+| bio.summary | CBDB 记载为明人物 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+
+## 外部来源
+
+- [中国历代人物传记资料库：王浩（CBDB 301984）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=301984&o=json)

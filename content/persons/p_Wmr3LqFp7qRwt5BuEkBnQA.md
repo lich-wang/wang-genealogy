@@ -1,0 +1,161 @@
+---
+schema: wang-person/v1
+id: p_Wmr3LqFp7qRwt5BuEkBnQA
+status: active
+merged_into: null
+display_name: 王琳
+revision: 1
+properties:
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_PJBG8NMujNCPNrLWUoJf9j
+        subject_person_id: p_Wmr3LqFp7qRwt5BuEkBnQA
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王琳
+          language: zh-Hant
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_c6AZBieme2PykxriKU818q
+          claim_id: c_PJBG8NMujNCPNrLWUoJf9j
+          source_id: s_Qg2iQraMV4k5asSDFnqMvw
+          stance: supports
+          locator: CBDB:578122
+          quotation: null
+          interpretation_note: CBDB 明确记录的王姓历史人物（578122）
+          source: &a1
+            id: s_Qg2iQraMV4k5asSDFnqMvw
+            source_type: api_record
+            title: 中国历代人物传记资料库：王琳（CBDB 578122）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=578122&o=json
+            external_identifier: CBDB:578122
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:25.972Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
+  - predicate: birth.date
+    recommended:
+      claim:
+        id: c_umns6uuFPXDrwZQSW7KtCv
+        subject_person_id: p_Wmr3LqFp7qRwt5BuEkBnQA
+        claim_kind: property
+        predicate: birth.date
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          date:
+            original_text: 1138年
+            calendar_note: CBDB 生年字段，精度：年
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_TpBBe1AZWpLaR9jJ4jaYnQ
+          claim_id: c_umns6uuFPXDrwZQSW7KtCv
+          source_id: s_Qg2iQraMV4k5asSDFnqMvw
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 生年
+          source: *a1
+      object_person: null
+    alternatives: []
+  - predicate: death.date
+    recommended:
+      claim:
+        id: c_tbFfXXWGAqDhE584dGdqLP
+        subject_person_id: p_Wmr3LqFp7qRwt5BuEkBnQA
+        claim_kind: property
+        predicate: death.date
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          date:
+            original_text: 1204年
+            calendar_note: CBDB 卒年字段，精度：年
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_k4tCM8ZF6xUCrzjNykgApY
+          claim_id: c_tbFfXXWGAqDhE584dGdqLP
+          source_id: s_Qg2iQraMV4k5asSDFnqMvw
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 卒年
+          source: *a1
+      object_person: null
+    alternatives: []
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_awpWi3fJZRkKFfm1B5AL5W
+        subject_person_id: p_Wmr3LqFp7qRwt5BuEkBnQA
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: CBDB 记载为宋人物
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_g5yMq4r452MguFNxBt4YTz
+          claim_id: c_awpWi3fJZRkKFfm1B5AL5W
+          source_id: s_Qg2iQraMV4k5asSDFnqMvw
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 朝代归属
+          source: *a1
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses: []
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王琳
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| name.primary | 王琳 | accepted |
+| birth.date | 1138年 | accepted |
+| death.date | 1204年 | accepted |
+| bio.summary | CBDB 记载为宋人物 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+
+## 外部来源
+
+- [中国历代人物传记资料库：王琳（CBDB 578122）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=578122&o=json)

@@ -1,0 +1,103 @@
+---
+schema: wang-person/v1
+id: p_m6HL6xfYZDbJLzaR1qNshq
+status: active
+merged_into: null
+display_name: 王霸
+revision: 1
+properties:
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_BVpx35PC9Q3kcNTGx4S3dy
+        subject_person_id: p_m6HL6xfYZDbJLzaR1qNshq
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王霸
+          language: zh-Hant
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_Avy98YAkmreHeTPk9SB3N2
+          claim_id: c_BVpx35PC9Q3kcNTGx4S3dy
+          source_id: s_V7FA4Lo2ccV1cAuBvsF4Pq
+          stance: supports
+          locator: CBDB:12116
+          quotation: null
+          interpretation_note: CBDB 明确记录的王姓历史人物（12116）
+          source: &a1
+            id: s_V7FA4Lo2ccV1cAuBvsF4Pq
+            source_type: api_record
+            title: 中国历代人物传记资料库：王霸（CBDB 12116）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=12116&o=json
+            external_identifier: CBDB:12116
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.585Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_3c2h61PN6FXQgjLbt9mk3f
+        subject_person_id: p_m6HL6xfYZDbJLzaR1qNshq
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: CBDB 记载为東漢人物
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ajN8zDCF8ix9C9H1GJR8Py
+          claim_id: c_3c2h61PN6FXQgjLbt9mk3f
+          source_id: s_V7FA4Lo2ccV1cAuBvsF4Pq
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 朝代归属
+          source: *a1
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses: []
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王霸
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| name.primary | 王霸 | accepted |
+| bio.summary | CBDB 记载为東漢人物 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+
+## 外部来源
+
+- [中国历代人物传记资料库：王霸（CBDB 12116）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=12116&o=json)

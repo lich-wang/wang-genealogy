@@ -1,0 +1,103 @@
+---
+schema: wang-person/v1
+id: p_ZPFLk4wbXyzPE5F5zCLZaL
+status: active
+merged_into: null
+display_name: 王綱
+revision: 1
+properties:
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_6DJjyRpa3Qie8qRPsj8Lf6
+        subject_person_id: p_ZPFLk4wbXyzPE5F5zCLZaL
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王綱
+          language: zh-Hant
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_kvZ8j2BjfPjsArP8HdSa75
+          claim_id: c_6DJjyRpa3Qie8qRPsj8Lf6
+          source_id: s_vTVSbWUBwEMFVypTmGHdWd
+          stance: supports
+          locator: CBDB:317279
+          quotation: null
+          interpretation_note: CBDB 明确记录的王姓历史人物（317279）
+          source: &a1
+            id: s_vTVSbWUBwEMFVypTmGHdWd
+            source_type: api_record
+            title: 中国历代人物传记资料库：王綱（CBDB 317279）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=317279&o=json
+            external_identifier: CBDB:317279
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.971Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_M3tGEBPRaynmdPJpJ3yCFj
+        subject_person_id: p_ZPFLk4wbXyzPE5F5zCLZaL
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: CBDB 记载为明人物
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kdhL84gAWWu5FtHnv8Q44m
+          claim_id: c_M3tGEBPRaynmdPJpJ3yCFj
+          source_id: s_vTVSbWUBwEMFVypTmGHdWd
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 朝代归属
+          source: *a1
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses: []
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王綱
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| name.primary | 王綱 | accepted |
+| bio.summary | CBDB 记载为明人物 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+
+## 外部来源
+
+- [中国历代人物传记资料库：王綱（CBDB 317279）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=317279&o=json)

@@ -1,0 +1,161 @@
+---
+schema: wang-person/v1
+id: p_8kgVQUAKsHG2eDVp9wKUEc
+status: active
+merged_into: null
+display_name: 王居義
+revision: 1
+properties:
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_Fe7AFiS8poHRBoe6K7YkCQ
+        subject_person_id: p_8kgVQUAKsHG2eDVp9wKUEc
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王居義
+          language: zh-Hant
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_Sjbc2DvVVeAue8AmQYJDXn
+          claim_id: c_Fe7AFiS8poHRBoe6K7YkCQ
+          source_id: s_x6eipvEZk1EKQJPrCzog94
+          stance: supports
+          locator: CBDB:386193
+          quotation: null
+          interpretation_note: CBDB 明确记录的王姓历史人物（386193）
+          source: &a1
+            id: s_x6eipvEZk1EKQJPrCzog94
+            source_type: api_record
+            title: 中国历代人物传记资料库：王居義（CBDB 386193）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=386193&o=json
+            external_identifier: CBDB:386193
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:21.889Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
+  - predicate: birth.date
+    recommended:
+      claim:
+        id: c_bKCgK3UwtQyHtd72Z5wWJR
+        subject_person_id: p_8kgVQUAKsHG2eDVp9wKUEc
+        claim_kind: property
+        predicate: birth.date
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          date:
+            original_text: 978年
+            calendar_note: CBDB 生年字段，精度：年
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_uq6nzeHQcGWB1Vc7oNk3K3
+          claim_id: c_bKCgK3UwtQyHtd72Z5wWJR
+          source_id: s_x6eipvEZk1EKQJPrCzog94
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 生年
+          source: *a1
+      object_person: null
+    alternatives: []
+  - predicate: death.date
+    recommended:
+      claim:
+        id: c_sDeivDiYgxji2HF7d18EXJ
+        subject_person_id: p_8kgVQUAKsHG2eDVp9wKUEc
+        claim_kind: property
+        predicate: death.date
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          date:
+            original_text: 1059年
+            calendar_note: CBDB 卒年字段，精度：年
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WTXkB6EUCkBFWEB5xYAZRv
+          claim_id: c_sDeivDiYgxji2HF7d18EXJ
+          source_id: s_x6eipvEZk1EKQJPrCzog94
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 卒年
+          source: *a1
+      object_person: null
+    alternatives: []
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_LRVxafw8iUEPLJCRUyHdUG
+        subject_person_id: p_8kgVQUAKsHG2eDVp9wKUEc
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: CBDB 记载为宋人物
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wnhA4tdgBGcF8FF3M78RVi
+          claim_id: c_LRVxafw8iUEPLJCRUyHdUG
+          source_id: s_x6eipvEZk1EKQJPrCzog94
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 朝代归属
+          source: *a1
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses: []
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王居義
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| name.primary | 王居義 | accepted |
+| birth.date | 978年 | accepted |
+| death.date | 1059年 | accepted |
+| bio.summary | CBDB 记载为宋人物 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+
+## 外部来源
+
+- [中国历代人物传记资料库：王居義（CBDB 386193）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=386193&o=json)

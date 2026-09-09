@@ -1,0 +1,103 @@
+---
+schema: wang-person/v1
+id: p_NHpRmhNMeDLuxF6nBTKhKF
+status: active
+merged_into: null
+display_name: 王植基
+revision: 1
+properties:
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_b16hR61hUq1GL8Sh5Lv5sL
+        subject_person_id: p_NHpRmhNMeDLuxF6nBTKhKF
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王植基
+          language: zh-Hant
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_XiCpqQgorKEuTFzeiuLnKE
+          claim_id: c_b16hR61hUq1GL8Sh5Lv5sL
+          source_id: s_1WbjL6EmWNupE9crVyTdqu
+          stance: supports
+          locator: CBDB:638743
+          quotation: null
+          interpretation_note: CBDB 明确记录的王姓历史人物（638743）
+          source: &a1
+            id: s_1WbjL6EmWNupE9crVyTdqu
+            source_type: api_record
+            title: 中国历代人物传记资料库：王植基（CBDB 638743）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=638743&o=json
+            external_identifier: CBDB:638743
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:05.733Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_qyFamo5NN64CRvW83Tb7jC
+        subject_person_id: p_NHpRmhNMeDLuxF6nBTKhKF
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: CBDB 记载为清人物
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Z5xgLwJ9GGQK5qu8zWNQLX
+          claim_id: c_qyFamo5NN64CRvW83Tb7jC
+          source_id: s_1WbjL6EmWNupE9crVyTdqu
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 朝代归属
+          source: *a1
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses: []
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王植基
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| name.primary | 王植基 | accepted |
+| bio.summary | CBDB 记载为清人物 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+
+## 外部来源
+
+- [中国历代人物传记资料库：王植基（CBDB 638743）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=638743&o=json)

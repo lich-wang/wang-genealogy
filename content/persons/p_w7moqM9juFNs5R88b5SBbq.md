@@ -1,0 +1,103 @@
+---
+schema: wang-person/v1
+id: p_w7moqM9juFNs5R88b5SBbq
+status: active
+merged_into: null
+display_name: 王鑾
+revision: 1
+properties:
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_qoC4xFGPP96dHjYq7azBmQ
+        subject_person_id: p_w7moqM9juFNs5R88b5SBbq
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王鑾
+          language: zh-Hant
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_BDdCEhsyJ63zsMMmREm61o
+          claim_id: c_qoC4xFGPP96dHjYq7azBmQ
+          source_id: s_sxEM34WriACZzxY4J6eTou
+          stance: supports
+          locator: CBDB:460668
+          quotation: null
+          interpretation_note: CBDB 明确记录的王姓历史人物（460668）
+          source: &a1
+            id: s_sxEM34WriACZzxY4J6eTou
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鑾（CBDB 460668）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=460668&o=json
+            external_identifier: CBDB:460668
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:22.781Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_xBy9dWD5NTiN9CfVCAzkyN
+        subject_person_id: p_w7moqM9juFNs5R88b5SBbq
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: CBDB 记载为明人物
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2txT4c6Xf4prLFKsTuYMem
+          claim_id: c_xBy9dWD5NTiN9CfVCAzkyN
+          source_id: s_sxEM34WriACZzxY4J6eTou
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 朝代归属
+          source: *a1
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses: []
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王鑾
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| name.primary | 王鑾 | accepted |
+| bio.summary | CBDB 记载为明人物 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+
+## 外部来源
+
+- [中国历代人物传记资料库：王鑾（CBDB 460668）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=460668&o=json)

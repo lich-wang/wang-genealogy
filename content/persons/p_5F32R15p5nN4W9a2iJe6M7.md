@@ -1,0 +1,103 @@
+---
+schema: wang-person/v1
+id: p_5F32R15p5nN4W9a2iJe6M7
+status: active
+merged_into: null
+display_name: 王念祖
+revision: 1
+properties:
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_BD3M3hC9KiaRsU1rEMKuTq
+        subject_person_id: p_5F32R15p5nN4W9a2iJe6M7
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王念祖
+          language: zh-Hant
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_TwpC4PEJMLeThGH6BQ95Ns
+          claim_id: c_BD3M3hC9KiaRsU1rEMKuTq
+          source_id: s_EGrpbDrKUrdAHaBPqiuT99
+          stance: supports
+          locator: CBDB:343733
+          quotation: null
+          interpretation_note: CBDB 明确记录的王姓历史人物（343733）
+          source: &a1
+            id: s_EGrpbDrKUrdAHaBPqiuT99
+            source_type: api_record
+            title: 中国历代人物传记资料库：王念祖（CBDB 343733）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=343733&o=json
+            external_identifier: CBDB:343733
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:21.478Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_1BVDPe9zcU8H8hP3JTQrVH
+        subject_person_id: p_5F32R15p5nN4W9a2iJe6M7
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: CBDB 记载为清人物
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KT3CusiGjvbzjLK7BT1bvL
+          claim_id: c_1BVDPe9zcU8H8hP3JTQrVH
+          source_id: s_EGrpbDrKUrdAHaBPqiuT99
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 朝代归属
+          source: *a1
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses: []
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王念祖
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| name.primary | 王念祖 | accepted |
+| bio.summary | CBDB 记载为清人物 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+
+## 外部来源
+
+- [中国历代人物传记资料库：王念祖（CBDB 343733）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=343733&o=json)

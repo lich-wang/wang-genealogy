@@ -1,0 +1,132 @@
+---
+schema: wang-person/v1
+id: p_2Bzd4ufHMiNN87K8ABLGJi
+status: active
+merged_into: null
+display_name: 王玟
+revision: 1
+properties:
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_FZgu6LPd7VGVddCpAo55MJ
+        subject_person_id: p_2Bzd4ufHMiNN87K8ABLGJi
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王玟
+          language: zh-Hant
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_dx8mSeowW57oJEtD8vgz7X
+          claim_id: c_FZgu6LPd7VGVddCpAo55MJ
+          source_id: s_TX7rzpmbcYWF1VnCHBXqz4
+          stance: supports
+          locator: CBDB:192266
+          quotation: null
+          interpretation_note: CBDB 明确记录的王姓历史人物（192266）
+          source: &a1
+            id: s_TX7rzpmbcYWF1VnCHBXqz4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王玟（CBDB 192266）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=192266&o=json
+            external_identifier: CBDB:192266
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.398Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
+  - predicate: death.date
+    recommended:
+      claim:
+        id: c_2dWBm7SqL8Bsrer1EMfCXH
+        subject_person_id: p_2Bzd4ufHMiNN87K8ABLGJi
+        claim_kind: property
+        predicate: death.date
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          date:
+            original_text: 858年
+            calendar_note: CBDB 卒年字段，精度：年
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Y6XxXLoDg3vgPVvfidt4kM
+          claim_id: c_2dWBm7SqL8Bsrer1EMfCXH
+          source_id: s_TX7rzpmbcYWF1VnCHBXqz4
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 卒年
+          source: *a1
+      object_person: null
+    alternatives: []
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_G89jJ8AEM37etwbKrBXnU3
+        subject_person_id: p_2Bzd4ufHMiNN87K8ABLGJi
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: CBDB 记载为唐人物
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_D3orkBV4R8P3SpGBcJVFb3
+          claim_id: c_G89jJ8AEM37etwbKrBXnU3
+          source_id: s_TX7rzpmbcYWF1VnCHBXqz4
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 朝代归属
+          source: *a1
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses: []
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王玟
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| name.primary | 王玟 | accepted |
+| death.date | 858年 | accepted |
+| bio.summary | CBDB 记载为唐人物 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+
+## 外部来源
+
+- [中国历代人物传记资料库：王玟（CBDB 192266）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=192266&o=json)

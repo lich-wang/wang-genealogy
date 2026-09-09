@@ -1,0 +1,103 @@
+---
+schema: wang-person/v1
+id: p_PYQvX4V7eJ1PE2NBb2Pni7
+status: active
+merged_into: null
+display_name: 王誠
+revision: 1
+properties:
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_NXrg6V8HrMdAZsoTcDcb8C
+        subject_person_id: p_PYQvX4V7eJ1PE2NBb2Pni7
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王誠
+          language: zh-Hant
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_DsiwfbDyHJmxKyoR9Fg7JV
+          claim_id: c_NXrg6V8HrMdAZsoTcDcb8C
+          source_id: s_6T492BgJvZHsqEnDebc46K
+          stance: supports
+          locator: CBDB:198067
+          quotation: null
+          interpretation_note: CBDB 明确记录的王姓历史人物（198067）
+          source: &a1
+            id: s_6T492BgJvZHsqEnDebc46K
+            source_type: api_record
+            title: 中国历代人物传记资料库：王誠（CBDB 198067）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198067&o=json
+            external_identifier: CBDB:198067
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.468Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_eSzqEDGMjyyDFBwnyBCMRP
+        subject_person_id: p_PYQvX4V7eJ1PE2NBb2Pni7
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: CBDB 记载为明人物
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_nQSQwJ5Twc43MEu1m6nJsE
+          claim_id: c_eSzqEDGMjyyDFBwnyBCMRP
+          source_id: s_6T492BgJvZHsqEnDebc46K
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 朝代归属
+          source: *a1
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses: []
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王誠
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| name.primary | 王誠 | accepted |
+| bio.summary | CBDB 记载为明人物 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+
+## 外部来源
+
+- [中国历代人物传记资料库：王誠（CBDB 198067）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198067&o=json)

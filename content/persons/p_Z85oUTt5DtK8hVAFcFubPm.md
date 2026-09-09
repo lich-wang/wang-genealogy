@@ -1,0 +1,103 @@
+---
+schema: wang-person/v1
+id: p_Z85oUTt5DtK8hVAFcFubPm
+status: active
+merged_into: null
+display_name: 王培宗
+revision: 1
+properties:
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_is7xxA4s78RXL7yYwix5eH
+        subject_person_id: p_Z85oUTt5DtK8hVAFcFubPm
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王培宗
+          language: zh-Hant
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_2wxjYb6LxedN6gaDWH4zjh
+          claim_id: c_is7xxA4s78RXL7yYwix5eH
+          source_id: s_Nsbuh4ZHT1KnKpAt1Ro8MU
+          stance: supports
+          locator: CBDB:67153
+          quotation: null
+          interpretation_note: CBDB 明确记录的王姓历史人物（67153）
+          source: &a1
+            id: s_Nsbuh4ZHT1KnKpAt1Ro8MU
+            source_type: api_record
+            title: 中国历代人物传记资料库：王培宗（CBDB 67153）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67153&o=json
+            external_identifier: CBDB:67153
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.976Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_8VLqaRQU9CzyhYVMmfJctW
+        subject_person_id: p_Z85oUTt5DtK8hVAFcFubPm
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: CBDB 记载为清人物
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kHjVu9PJ8BKe4ic9P7uMhR
+          claim_id: c_8VLqaRQU9CzyhYVMmfJctW
+          source_id: s_Nsbuh4ZHT1KnKpAt1Ro8MU
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 朝代归属
+          source: *a1
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses: []
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王培宗
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| name.primary | 王培宗 | accepted |
+| bio.summary | CBDB 记载为清人物 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+
+## 外部来源
+
+- [中国历代人物传记资料库：王培宗（CBDB 67153）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67153&o=json)

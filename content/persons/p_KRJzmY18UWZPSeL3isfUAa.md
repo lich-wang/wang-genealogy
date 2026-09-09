@@ -1,0 +1,161 @@
+---
+schema: wang-person/v1
+id: p_KRJzmY18UWZPSeL3isfUAa
+status: active
+merged_into: null
+display_name: 王行果
+revision: 1
+properties:
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_6PgbRecKR4qjxxN8swoT7i
+        subject_person_id: p_KRJzmY18UWZPSeL3isfUAa
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王行果
+          language: zh-Hant
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_fQ7ZCtn4hHzBF8Tb81nZDu
+          claim_id: c_6PgbRecKR4qjxxN8swoT7i
+          source_id: s_FMpUG2NpjBSvTGRRMTG6sQ
+          stance: supports
+          locator: CBDB:140254
+          quotation: null
+          interpretation_note: CBDB 明确记录的王姓历史人物（140254）
+          source: &a1
+            id: s_FMpUG2NpjBSvTGRRMTG6sQ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王行果（CBDB 140254）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140254&o=json
+            external_identifier: CBDB:140254
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.202Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
+  - predicate: birth.date
+    recommended:
+      claim:
+        id: c_HK4KZvFmWJAgUUu1c6Z4vU
+        subject_person_id: p_KRJzmY18UWZPSeL3isfUAa
+        claim_kind: property
+        predicate: birth.date
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          date:
+            original_text: 626年
+            calendar_note: CBDB 生年字段，精度：年
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_W2JwWPNZ4JF5LXJEGBQwnk
+          claim_id: c_HK4KZvFmWJAgUUu1c6Z4vU
+          source_id: s_FMpUG2NpjBSvTGRRMTG6sQ
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 生年
+          source: *a1
+      object_person: null
+    alternatives: []
+  - predicate: death.date
+    recommended:
+      claim:
+        id: c_jC4mbMX9WRY4PHdewaTtws
+        subject_person_id: p_KRJzmY18UWZPSeL3isfUAa
+        claim_kind: property
+        predicate: death.date
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          date:
+            original_text: 672年
+            calendar_note: CBDB 卒年字段，精度：年
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ATFC1J3AUA62J921n1JmMe
+          claim_id: c_jC4mbMX9WRY4PHdewaTtws
+          source_id: s_FMpUG2NpjBSvTGRRMTG6sQ
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 卒年
+          source: *a1
+      object_person: null
+    alternatives: []
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_9WQoD9KiUdaMukoWWNtkfQ
+        subject_person_id: p_KRJzmY18UWZPSeL3isfUAa
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: CBDB 记载为唐人物
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zUnAERRYAFay9CenZBZYBt
+          claim_id: c_9WQoD9KiUdaMukoWWNtkfQ
+          source_id: s_FMpUG2NpjBSvTGRRMTG6sQ
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 朝代归属
+          source: *a1
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses: []
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王行果
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| name.primary | 王行果 | accepted |
+| birth.date | 626年 | accepted |
+| death.date | 672年 | accepted |
+| bio.summary | CBDB 记载为唐人物 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+
+## 外部来源
+
+- [中国历代人物传记资料库：王行果（CBDB 140254）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140254&o=json)

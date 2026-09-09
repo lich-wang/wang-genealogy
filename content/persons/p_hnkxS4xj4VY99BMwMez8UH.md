@@ -1,0 +1,103 @@
+---
+schema: wang-person/v1
+id: p_hnkxS4xj4VY99BMwMez8UH
+status: active
+merged_into: null
+display_name: 王勇
+revision: 1
+properties:
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_4L9QcDs9YJCngwvxxGu2uA
+        subject_person_id: p_hnkxS4xj4VY99BMwMez8UH
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王勇
+          language: zh-Hant
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_mNXw8nW7xCmPM7iBeBnX2R
+          claim_id: c_4L9QcDs9YJCngwvxxGu2uA
+          source_id: s_nYotBYoU7R8wB9cUKCd4VW
+          stance: supports
+          locator: CBDB:462321
+          quotation: null
+          interpretation_note: CBDB 明确记录的王姓历史人物（462321）
+          source: &a1
+            id: s_nYotBYoU7R8wB9cUKCd4VW
+            source_type: api_record
+            title: 中国历代人物传记资料库：王勇（CBDB 462321）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=462321&o=json
+            external_identifier: CBDB:462321
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:22.842Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_cautBoYNYzMRrkX6NucLmT
+        subject_person_id: p_hnkxS4xj4VY99BMwMez8UH
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: CBDB 记载为清人物
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xXvVsgGTfUDV9z9xvmU1jP
+          claim_id: c_cautBoYNYzMRrkX6NucLmT
+          source_id: s_nYotBYoU7R8wB9cUKCd4VW
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 朝代归属
+          source: *a1
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses: []
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王勇
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| name.primary | 王勇 | accepted |
+| bio.summary | CBDB 记载为清人物 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+
+## 外部来源
+
+- [中国历代人物传记资料库：王勇（CBDB 462321）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=462321&o=json)

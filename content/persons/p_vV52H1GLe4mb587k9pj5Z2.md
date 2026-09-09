@@ -1,0 +1,132 @@
+---
+schema: wang-person/v1
+id: p_vV52H1GLe4mb587k9pj5Z2
+status: active
+merged_into: null
+display_name: 王聘
+revision: 1
+properties:
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_teuF3L4PPukRDLLuRYkZr3
+        subject_person_id: p_vV52H1GLe4mb587k9pj5Z2
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王聘
+          language: zh-Hant
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_MGL9HKtbzjyeMCFSL63qLp
+          claim_id: c_teuF3L4PPukRDLLuRYkZr3
+          source_id: s_TQ9N34U1Jj94n614j53RxX
+          stance: supports
+          locator: CBDB:207693
+          quotation: null
+          interpretation_note: CBDB 明确记录的王姓历史人物（207693）
+          source: &a1
+            id: s_TQ9N34U1Jj94n614j53RxX
+            source_type: api_record
+            title: 中国历代人物传记资料库：王聘（CBDB 207693）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207693&o=json
+            external_identifier: CBDB:207693
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.926Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
+  - predicate: birth.date
+    recommended:
+      claim:
+        id: c_oAULiCGMkj2vUBw8Yq4Ae1
+        subject_person_id: p_vV52H1GLe4mb587k9pj5Z2
+        claim_kind: property
+        predicate: birth.date
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          date:
+            original_text: 1579年
+            calendar_note: CBDB 生年字段，精度：年
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FD1Hn4VVgAJAGuFFAWvRTU
+          claim_id: c_oAULiCGMkj2vUBw8Yq4Ae1
+          source_id: s_TQ9N34U1Jj94n614j53RxX
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 生年
+          source: *a1
+      object_person: null
+    alternatives: []
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_Hom1zEG9CyFgjPzpAxYU2v
+        subject_person_id: p_vV52H1GLe4mb587k9pj5Z2
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: CBDB 记载为明人物
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hMo7kqjptKPTtkD4d5Pj9A
+          claim_id: c_Hom1zEG9CyFgjPzpAxYU2v
+          source_id: s_TQ9N34U1Jj94n614j53RxX
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 朝代归属
+          source: *a1
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses: []
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王聘
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| name.primary | 王聘 | accepted |
+| birth.date | 1579年 | accepted |
+| bio.summary | CBDB 记载为明人物 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+
+## 外部来源
+
+- [中国历代人物传记资料库：王聘（CBDB 207693）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207693&o=json)

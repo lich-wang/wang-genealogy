@@ -1,0 +1,161 @@
+---
+schema: wang-person/v1
+id: p_bnA3961k3JoTm11z7TSTS5
+status: active
+merged_into: null
+display_name: 王泰來
+revision: 1
+properties:
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_b7GBKKMMrZyXz71AguSvki
+        subject_person_id: p_bnA3961k3JoTm11z7TSTS5
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王泰來
+          language: zh-Hant
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_n1bxEpPUDhb6DS7jMchpNq
+          claim_id: c_b7GBKKMMrZyXz71AguSvki
+          source_id: s_VsD9ktYiW3BBpq7VUSucRs
+          stance: supports
+          locator: CBDB:22241
+          quotation: null
+          interpretation_note: CBDB 明确记录的王姓历史人物（22241）
+          source: &a1
+            id: s_VsD9ktYiW3BBpq7VUSucRs
+            source_type: api_record
+            title: 中国历代人物传记资料库：王泰來（CBDB 22241）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22241&o=json
+            external_identifier: CBDB:22241
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.860Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
+  - predicate: birth.date
+    recommended:
+      claim:
+        id: c_FM32V8avJY4ehHhsJrHYqg
+        subject_person_id: p_bnA3961k3JoTm11z7TSTS5
+        claim_kind: property
+        predicate: birth.date
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          date:
+            original_text: 1236年
+            calendar_note: CBDB 生年字段，精度：年
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rRqLsNWC1ZSrgLF5nbi7n2
+          claim_id: c_FM32V8avJY4ehHhsJrHYqg
+          source_id: s_VsD9ktYiW3BBpq7VUSucRs
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 生年
+          source: *a1
+      object_person: null
+    alternatives: []
+  - predicate: death.date
+    recommended:
+      claim:
+        id: c_CnbtefjS3Q3Rf2t65x8zUy
+        subject_person_id: p_bnA3961k3JoTm11z7TSTS5
+        claim_kind: property
+        predicate: death.date
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          date:
+            original_text: 1308年
+            calendar_note: CBDB 卒年字段，精度：年
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_n4y2sBYnXqyEU7C1rTzeaT
+          claim_id: c_CnbtefjS3Q3Rf2t65x8zUy
+          source_id: s_VsD9ktYiW3BBpq7VUSucRs
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 卒年
+          source: *a1
+      object_person: null
+    alternatives: []
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_MMw5t5sssKCsAKyjjR8Rvj
+        subject_person_id: p_bnA3961k3JoTm11z7TSTS5
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: CBDB 记载为宋人物
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_uLvCbbYFZu5pqGAwYtE67w
+          claim_id: c_MMw5t5sssKCsAKyjjR8Rvj
+          source_id: s_VsD9ktYiW3BBpq7VUSucRs
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 朝代归属
+          source: *a1
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses: []
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王泰來
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| name.primary | 王泰來 | accepted |
+| birth.date | 1236年 | accepted |
+| death.date | 1308年 | accepted |
+| bio.summary | CBDB 记载为宋人物 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+
+## 外部来源
+
+- [中国历代人物传记资料库：王泰來（CBDB 22241）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22241&o=json)

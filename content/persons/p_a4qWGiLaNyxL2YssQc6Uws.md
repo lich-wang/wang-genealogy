@@ -1,0 +1,103 @@
+---
+schema: wang-person/v1
+id: p_a4qWGiLaNyxL2YssQc6Uws
+status: active
+merged_into: null
+display_name: 王守敦
+revision: 1
+properties:
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_FhnLehjJYWPiMeZyJfGWLu
+        subject_person_id: p_a4qWGiLaNyxL2YssQc6Uws
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王守敦
+          language: zh-Hant
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_ZKRQkiStC3CjRLa6f1t6D2
+          claim_id: c_FhnLehjJYWPiMeZyJfGWLu
+          source_id: s_CxMfsjBGABUHgoTex1449E
+          stance: supports
+          locator: CBDB:557117
+          quotation: null
+          interpretation_note: CBDB 明确记录的王姓历史人物（557117）
+          source: &a1
+            id: s_CxMfsjBGABUHgoTex1449E
+            source_type: api_record
+            title: 中国历代人物传记资料库：王守敦（CBDB 557117）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=557117&o=json
+            external_identifier: CBDB:557117
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.535Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_acKtSY1FDqZM1P9MHENFYz
+        subject_person_id: p_a4qWGiLaNyxL2YssQc6Uws
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: CBDB 记载为清人物
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wSDqwLtAShTw37q6kYugRv
+          claim_id: c_acKtSY1FDqZM1P9MHENFYz
+          source_id: s_CxMfsjBGABUHgoTex1449E
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 朝代归属
+          source: *a1
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses: []
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王守敦
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| name.primary | 王守敦 | accepted |
+| bio.summary | CBDB 记载为清人物 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+
+## 外部来源
+
+- [中国历代人物传记资料库：王守敦（CBDB 557117）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=557117&o=json)

@@ -1,0 +1,103 @@
+---
+schema: wang-person/v1
+id: p_BLe6EnmW552kvosZFmyApm
+status: active
+merged_into: null
+display_name: 王文燦
+revision: 1
+properties:
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_wH7N1fGanhEHGTgj7jXR2b
+        subject_person_id: p_BLe6EnmW552kvosZFmyApm
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王文燦
+          language: zh-Hant
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_sBHfNs5cCjLmYhg4edKdSf
+          claim_id: c_wH7N1fGanhEHGTgj7jXR2b
+          source_id: s_hPD3f2PRHs6emBXp4vt1LD
+          stance: supports
+          locator: CBDB:638263
+          quotation: null
+          interpretation_note: CBDB 明确记录的王姓历史人物（638263）
+          source: &a1
+            id: s_hPD3f2PRHs6emBXp4vt1LD
+            source_type: api_record
+            title: 中国历代人物传记资料库：王文燦（CBDB 638263）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=638263&o=json
+            external_identifier: CBDB:638263
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:26.650Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_JhSoqJVopVtyVcX4wWY9gi
+        subject_person_id: p_BLe6EnmW552kvosZFmyApm
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: CBDB 记载为清人物
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8ah3Lg5cr5kwDkw1rAis6t
+          claim_id: c_JhSoqJVopVtyVcX4wWY9gi
+          source_id: s_hPD3f2PRHs6emBXp4vt1LD
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 朝代归属
+          source: *a1
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses: []
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王文燦
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| name.primary | 王文燦 | accepted |
+| bio.summary | CBDB 记载为清人物 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+
+## 外部来源
+
+- [中国历代人物传记资料库：王文燦（CBDB 638263）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=638263&o=json)

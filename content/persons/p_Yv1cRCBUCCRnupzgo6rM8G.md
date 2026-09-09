@@ -1,0 +1,103 @@
+---
+schema: wang-person/v1
+id: p_Yv1cRCBUCCRnupzgo6rM8G
+status: active
+merged_into: null
+display_name: 王公衮
+revision: 1
+properties:
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_UHJd14TPzKKxjAZ7FAnmNr
+        subject_person_id: p_Yv1cRCBUCCRnupzgo6rM8G
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王公衮
+          language: zh-Hans
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_iwxSmM2wVp7TSAx6Lom7bS
+          claim_id: c_UHJd14TPzKKxjAZ7FAnmNr
+          source_id: s_wefuKDGN8VZV6HSsMBJu2q
+          stance: supports
+          locator: CBDB:536413
+          quotation: null
+          interpretation_note: CBDB 明确记录的王姓历史人物（536413）
+          source: &a1
+            id: s_wefuKDGN8VZV6HSsMBJu2q
+            source_type: api_record
+            title: 中国历代人物传记资料库：王公衮（CBDB 536413）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=536413&o=json
+            external_identifier: CBDB:536413
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:25.405Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_TcBhkgniEHuXEpL3umKxX1
+        subject_person_id: p_Yv1cRCBUCCRnupzgo6rM8G
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: CBDB 记载为宋人物
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_RscQoY9cLZ4QTb9KP3fWEx
+          claim_id: c_TcBhkgniEHuXEpL3umKxX1
+          source_id: s_wefuKDGN8VZV6HSsMBJu2q
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 朝代归属
+          source: *a1
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses: []
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王公衮
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| name.primary | 王公衮 | accepted |
+| bio.summary | CBDB 记载为宋人物 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+
+## 外部来源
+
+- [中国历代人物传记资料库：王公衮（CBDB 536413）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=536413&o=json)

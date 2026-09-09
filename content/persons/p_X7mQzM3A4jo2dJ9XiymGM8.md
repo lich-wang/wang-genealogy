@@ -1,0 +1,103 @@
+---
+schema: wang-person/v1
+id: p_X7mQzM3A4jo2dJ9XiymGM8
+status: active
+merged_into: null
+display_name: 王濯
+revision: 1
+properties:
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_7rXLgztEZzeKj52GGp5TZj
+        subject_person_id: p_X7mQzM3A4jo2dJ9XiymGM8
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王濯
+          language: zh-Hant
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_WKudXfTkS3VMHg6XS7F956
+          claim_id: c_7rXLgztEZzeKj52GGp5TZj
+          source_id: s_NLkiHkBDYj3vfks7nu2A1j
+          stance: supports
+          locator: CBDB:92125
+          quotation: null
+          interpretation_note: CBDB 明确记录的王姓历史人物（92125）
+          source: &a1
+            id: s_NLkiHkBDYj3vfks7nu2A1j
+            source_type: api_record
+            title: 中国历代人物传记资料库：王濯（CBDB 92125）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=92125&o=json
+            external_identifier: CBDB:92125
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:14.149Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_GkgSMLQbsL1gmDRSNXAWDc
+        subject_person_id: p_X7mQzM3A4jo2dJ9XiymGM8
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: CBDB 记载为唐人物
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_k8qCj6W7ZJ3LQE5b4Zaxcb
+          claim_id: c_GkgSMLQbsL1gmDRSNXAWDc
+          source_id: s_NLkiHkBDYj3vfks7nu2A1j
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 朝代归属
+          source: *a1
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses: []
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王濯
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| name.primary | 王濯 | accepted |
+| bio.summary | CBDB 记载为唐人物 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+
+## 外部来源
+
+- [中国历代人物传记资料库：王濯（CBDB 92125）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=92125&o=json)

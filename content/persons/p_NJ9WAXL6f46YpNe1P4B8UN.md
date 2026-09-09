@@ -1,0 +1,103 @@
+---
+schema: wang-person/v1
+id: p_NJ9WAXL6f46YpNe1P4B8UN
+status: active
+merged_into: null
+display_name: 王信
+revision: 1
+properties:
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_tF7e44vcXHEaNDywypUPMs
+        subject_person_id: p_NJ9WAXL6f46YpNe1P4B8UN
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王信
+          language: zh-Hant
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_n6NHHFUhwYbqan3wAUrXib
+          claim_id: c_tF7e44vcXHEaNDywypUPMs
+          source_id: s_hCQKWPBQBT3F44V7AUwPf3
+          stance: supports
+          locator: CBDB:282951
+          quotation: null
+          interpretation_note: CBDB 明确记录的王姓历史人物（282951）
+          source: &a1
+            id: s_hCQKWPBQBT3F44V7AUwPf3
+            source_type: api_record
+            title: 中国历代人物传记资料库：王信（CBDB 282951）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282951&o=json
+            external_identifier: CBDB:282951
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.116Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_HcGMArUX9PbDoZTvn56pr5
+        subject_person_id: p_NJ9WAXL6f46YpNe1P4B8UN
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: CBDB 记载为明人物
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_41TKfrAxKDQhT59Dp8L86q
+          claim_id: c_HcGMArUX9PbDoZTvn56pr5
+          source_id: s_hCQKWPBQBT3F44V7AUwPf3
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 朝代归属
+          source: *a1
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses: []
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王信
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| name.primary | 王信 | accepted |
+| bio.summary | CBDB 记载为明人物 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+
+## 外部来源
+
+- [中国历代人物传记资料库：王信（CBDB 282951）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282951&o=json)

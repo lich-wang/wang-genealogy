@@ -1,0 +1,103 @@
+---
+schema: wang-person/v1
+id: p_uXP8GH1kamKiqBgoCfawDD
+status: active
+merged_into: null
+display_name: 王感
+revision: 1
+properties:
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_3bu3jXhD39JWT1KCJwnBo9
+        subject_person_id: p_uXP8GH1kamKiqBgoCfawDD
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王感
+          language: zh-Hant
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_qhAg871BULEB6wr2qzTRhp
+          claim_id: c_3bu3jXhD39JWT1KCJwnBo9
+          source_id: s_BDUwENiFtqsQoSXyJaR8Qg
+          stance: supports
+          locator: CBDB:153050
+          quotation: null
+          interpretation_note: CBDB 明确记录的王姓历史人物（153050）
+          source: &a1
+            id: s_BDUwENiFtqsQoSXyJaR8Qg
+            source_type: api_record
+            title: 中国历代人物传记资料库：王感（CBDB 153050）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=153050&o=json
+            external_identifier: CBDB:153050
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.857Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_oDUJ7VKsV1eaPqw1dsFpsU
+        subject_person_id: p_uXP8GH1kamKiqBgoCfawDD
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: CBDB 记载为唐人物
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_UGKCFr6pe3LxBeWzk15PwD
+          claim_id: c_oDUJ7VKsV1eaPqw1dsFpsU
+          source_id: s_BDUwENiFtqsQoSXyJaR8Qg
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 朝代归属
+          source: *a1
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses: []
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王感
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| name.primary | 王感 | accepted |
+| bio.summary | CBDB 记载为唐人物 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+
+## 外部来源
+
+- [中国历代人物传记资料库：王感（CBDB 153050）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=153050&o=json)

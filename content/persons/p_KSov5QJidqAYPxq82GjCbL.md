@@ -1,0 +1,103 @@
+---
+schema: wang-person/v1
+id: p_KSov5QJidqAYPxq82GjCbL
+status: active
+merged_into: null
+display_name: 王得功
+revision: 1
+properties:
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_D5maZGA48aceYAXkTM2Aok
+        subject_person_id: p_KSov5QJidqAYPxq82GjCbL
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王得功
+          language: zh-Hant
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_KwaV1CSD72x3w9KrnXK8C4
+          claim_id: c_D5maZGA48aceYAXkTM2Aok
+          source_id: s_87c6yof8sprfgqhSqbVA5Q
+          stance: supports
+          locator: CBDB:459877
+          quotation: null
+          interpretation_note: CBDB 明确记录的王姓历史人物（459877）
+          source: &a1
+            id: s_87c6yof8sprfgqhSqbVA5Q
+            source_type: api_record
+            title: 中国历代人物传记资料库：王得功（CBDB 459877）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=459877&o=json
+            external_identifier: CBDB:459877
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:22.736Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_DCFWN28ojDHjdJxqfR6TAv
+        subject_person_id: p_KSov5QJidqAYPxq82GjCbL
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: CBDB 记载为清人物
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Veqc5Q5Sn2QWAuKB6KKBcY
+          claim_id: c_DCFWN28ojDHjdJxqfR6TAv
+          source_id: s_87c6yof8sprfgqhSqbVA5Q
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 朝代归属
+          source: *a1
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses: []
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王得功
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| name.primary | 王得功 | accepted |
+| bio.summary | CBDB 记载为清人物 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+
+## 外部来源
+
+- [中国历代人物传记资料库：王得功（CBDB 459877）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=459877&o=json)

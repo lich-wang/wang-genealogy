@@ -1,0 +1,103 @@
+---
+schema: wang-person/v1
+id: p_tvk7dcYWXE9rKhZL9cWTE3
+status: active
+merged_into: null
+display_name: 王昆倬
+revision: 1
+properties:
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_RzZ2G5VLvbN3322QsXdbju
+        subject_person_id: p_tvk7dcYWXE9rKhZL9cWTE3
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王昆倬
+          language: zh-Hant
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_pgJjYruqFkTawnT1mdqqkR
+          claim_id: c_RzZ2G5VLvbN3322QsXdbju
+          source_id: s_MxQNLjbj69uZb9Adkh7rsB
+          stance: supports
+          locator: CBDB:638361
+          quotation: null
+          interpretation_note: CBDB 明确记录的王姓历史人物（638361）
+          source: &a1
+            id: s_MxQNLjbj69uZb9Adkh7rsB
+            source_type: api_record
+            title: 中国历代人物传记资料库：王昆倬（CBDB 638361）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=638361&o=json
+            external_identifier: CBDB:638361
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:05.603Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_SdCgC3DBNE162RF6Bhyp6H
+        subject_person_id: p_tvk7dcYWXE9rKhZL9cWTE3
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: CBDB 记载为清人物
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_G1zdqdH66VapdPNsTTx5rY
+          claim_id: c_SdCgC3DBNE162RF6Bhyp6H
+          source_id: s_MxQNLjbj69uZb9Adkh7rsB
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 朝代归属
+          source: *a1
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses: []
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王昆倬
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| name.primary | 王昆倬 | accepted |
+| bio.summary | CBDB 记载为清人物 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+
+## 外部来源
+
+- [中国历代人物传记资料库：王昆倬（CBDB 638361）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=638361&o=json)

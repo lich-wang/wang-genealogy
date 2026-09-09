@@ -1,0 +1,103 @@
+---
+schema: wang-person/v1
+id: p_p7AMmuHRGb2aEAcFL4VH5A
+status: active
+merged_into: null
+display_name: 王開瑩
+revision: 1
+properties:
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_25qFB861bVV27AuxCuiEhk
+        subject_person_id: p_p7AMmuHRGb2aEAcFL4VH5A
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王開瑩
+          language: zh-Hant
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_KA9UAezoDK9ZQkoxNKQB1K
+          claim_id: c_25qFB861bVV27AuxCuiEhk
+          source_id: s_NKSLJWtN24UKHkvpzMusER
+          stance: supports
+          locator: CBDB:640751
+          quotation: null
+          interpretation_note: CBDB 明确记录的王姓历史人物（640751）
+          source: &a1
+            id: s_NKSLJWtN24UKHkvpzMusER
+            source_type: api_record
+            title: 中国历代人物传记资料库：王開瑩（CBDB 640751）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=640751&o=json
+            external_identifier: CBDB:640751
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:06.356Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_wwzj73H6rQiaMCLCTvEXCh
+        subject_person_id: p_p7AMmuHRGb2aEAcFL4VH5A
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: CBDB 记载为清人物
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_oe8Vmw2vWE8nouWj7uBGwc
+          claim_id: c_wwzj73H6rQiaMCLCTvEXCh
+          source_id: s_NKSLJWtN24UKHkvpzMusER
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 朝代归属
+          source: *a1
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses: []
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王開瑩
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| name.primary | 王開瑩 | accepted |
+| bio.summary | CBDB 记载为清人物 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+
+## 外部来源
+
+- [中国历代人物传记资料库：王開瑩（CBDB 640751）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=640751&o=json)

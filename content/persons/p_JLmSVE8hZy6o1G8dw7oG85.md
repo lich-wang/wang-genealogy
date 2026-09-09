@@ -1,0 +1,103 @@
+---
+schema: wang-person/v1
+id: p_JLmSVE8hZy6o1G8dw7oG85
+status: active
+merged_into: null
+display_name: 王碩
+revision: 1
+properties:
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_rKfdX84ThpC5ZiiUuk6QYF
+        subject_person_id: p_JLmSVE8hZy6o1G8dw7oG85
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王碩
+          language: zh-Hant
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_ioXiCYXaJdTmpmosrQQrXe
+          claim_id: c_rKfdX84ThpC5ZiiUuk6QYF
+          source_id: s_6TWHWbkC2SpXh2A5PnVpTu
+          stance: supports
+          locator: CBDB:481124
+          quotation: null
+          interpretation_note: CBDB 明确记录的王姓历史人物（481124）
+          source: &a1
+            id: s_6TWHWbkC2SpXh2A5PnVpTu
+            source_type: api_record
+            title: 中国历代人物传记资料库：王碩（CBDB 481124）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=481124&o=json
+            external_identifier: CBDB:481124
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:23.677Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_ZaK8HKshaCq11dNSHS8MQN
+        subject_person_id: p_JLmSVE8hZy6o1G8dw7oG85
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: CBDB 记载为宋人物
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YXCv9mGoNfTaPL9dBaBSsY
+          claim_id: c_ZaK8HKshaCq11dNSHS8MQN
+          source_id: s_6TWHWbkC2SpXh2A5PnVpTu
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 朝代归属
+          source: *a1
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses: []
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王碩
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| name.primary | 王碩 | accepted |
+| bio.summary | CBDB 记载为宋人物 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+
+## 外部来源
+
+- [中国历代人物传记资料库：王碩（CBDB 481124）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=481124&o=json)

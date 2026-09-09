@@ -1,0 +1,103 @@
+---
+schema: wang-person/v1
+id: p_cz9Sy5m4p2LkdCX3NMb7bn
+status: active
+merged_into: null
+display_name: 王再榮
+revision: 1
+properties:
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_LPtnsCv99DCY9qAWCQwCjd
+        subject_person_id: p_cz9Sy5m4p2LkdCX3NMb7bn
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王再榮
+          language: zh-Hant
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_Ej7Af67qy7LNzKGD7dSkmA
+          claim_id: c_LPtnsCv99DCY9qAWCQwCjd
+          source_id: s_G7qYCZDrFGD85op2PeEBN1
+          stance: supports
+          locator: CBDB:135683
+          quotation: null
+          interpretation_note: CBDB 明确记录的王姓历史人物（135683）
+          source: &a1
+            id: s_G7qYCZDrFGD85op2PeEBN1
+            source_type: api_record
+            title: 中国历代人物传记资料库：王再榮（CBDB 135683）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=135683&o=json
+            external_identifier: CBDB:135683
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.342Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_DVBWTFLPdtXYo2WECEzmMU
+        subject_person_id: p_cz9Sy5m4p2LkdCX3NMb7bn
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: CBDB 记载为宋人物
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6D8pogMMf6cUyvACjXVwFL
+          claim_id: c_DVBWTFLPdtXYo2WECEzmMU
+          source_id: s_G7qYCZDrFGD85op2PeEBN1
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 朝代归属
+          source: *a1
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses: []
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王再榮
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| name.primary | 王再榮 | accepted |
+| bio.summary | CBDB 记载为宋人物 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+
+## 外部来源
+
+- [中国历代人物传记资料库：王再榮（CBDB 135683）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=135683&o=json)

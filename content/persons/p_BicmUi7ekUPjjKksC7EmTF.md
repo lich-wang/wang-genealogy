@@ -1,0 +1,132 @@
+---
+schema: wang-person/v1
+id: p_BicmUi7ekUPjjKksC7EmTF
+status: active
+merged_into: null
+display_name: 王賓
+revision: 1
+properties:
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_E1imBr3oVPF5TdQkeBfYrp
+        subject_person_id: p_BicmUi7ekUPjjKksC7EmTF
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王賓
+          language: zh-Hant
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_sig33qNyDiNVU6VVJjt3DN
+          claim_id: c_E1imBr3oVPF5TdQkeBfYrp
+          source_id: s_2MMAEQAfmtNUtQGHC6Q9ZV
+          stance: supports
+          locator: CBDB:175941
+          quotation: null
+          interpretation_note: CBDB 明确记录的王姓历史人物（175941）
+          source: &a1
+            id: s_2MMAEQAfmtNUtQGHC6Q9ZV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王賓（CBDB 175941）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175941&o=json
+            external_identifier: CBDB:175941
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.210Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
+  - predicate: death.date
+    recommended:
+      claim:
+        id: c_155k8Qe5tD6APhSh8viJYy
+        subject_person_id: p_BicmUi7ekUPjjKksC7EmTF
+        claim_kind: property
+        predicate: death.date
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          date:
+            original_text: 763年
+            calendar_note: CBDB 卒年字段，精度：年
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ruU86mvRAXibPaUCyBoqWX
+          claim_id: c_155k8Qe5tD6APhSh8viJYy
+          source_id: s_2MMAEQAfmtNUtQGHC6Q9ZV
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 卒年
+          source: *a1
+      object_person: null
+    alternatives: []
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_WcRtEB1Gh14cQkaC1ZcPzz
+        subject_person_id: p_BicmUi7ekUPjjKksC7EmTF
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: CBDB 记载为唐人物
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WggQ4JKE5p8vNj3Z1mRBxE
+          claim_id: c_WcRtEB1Gh14cQkaC1ZcPzz
+          source_id: s_2MMAEQAfmtNUtQGHC6Q9ZV
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 朝代归属
+          source: *a1
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses: []
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王賓
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| name.primary | 王賓 | accepted |
+| death.date | 763年 | accepted |
+| bio.summary | CBDB 记载为唐人物 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+
+## 外部来源
+
+- [中国历代人物传记资料库：王賓（CBDB 175941）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175941&o=json)

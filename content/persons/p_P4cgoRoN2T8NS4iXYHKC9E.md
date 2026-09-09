@@ -1,0 +1,161 @@
+---
+schema: wang-person/v1
+id: p_P4cgoRoN2T8NS4iXYHKC9E
+status: active
+merged_into: null
+display_name: 王崇本
+revision: 1
+properties:
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_x77rtQ5AKqsHBEeRd4dKiZ
+        subject_person_id: p_P4cgoRoN2T8NS4iXYHKC9E
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王崇本
+          language: zh-Hant
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_uCE47P1JKXLGoNhdZk2Mhj
+          claim_id: c_x77rtQ5AKqsHBEeRd4dKiZ
+          source_id: s_R9CxWibTMAJvQW2wjY9cAc
+          stance: supports
+          locator: CBDB:71998
+          quotation: null
+          interpretation_note: CBDB 明确记录的王姓历史人物（71998）
+          source: &a1
+            id: s_R9CxWibTMAJvQW2wjY9cAc
+            source_type: api_record
+            title: 中国历代人物传记资料库：王崇本（CBDB 71998）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=71998&o=json
+            external_identifier: CBDB:71998
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:13.953Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
+  - predicate: birth.date
+    recommended:
+      claim:
+        id: c_X6Gj8X4CeWy12VVWMg8SFW
+        subject_person_id: p_P4cgoRoN2T8NS4iXYHKC9E
+        claim_kind: property
+        predicate: birth.date
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          date:
+            original_text: 1765年
+            calendar_note: CBDB 生年字段，精度：年
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_UYUS4DmjLMTCXe9qz8jNLS
+          claim_id: c_X6Gj8X4CeWy12VVWMg8SFW
+          source_id: s_R9CxWibTMAJvQW2wjY9cAc
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 生年
+          source: *a1
+      object_person: null
+    alternatives: []
+  - predicate: death.date
+    recommended:
+      claim:
+        id: c_yE6pWo3CyyaAFytTrc568r
+        subject_person_id: p_P4cgoRoN2T8NS4iXYHKC9E
+        claim_kind: property
+        predicate: death.date
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          date:
+            original_text: 1823年
+            calendar_note: CBDB 卒年字段，精度：年
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mfKfh1bEQ5YhMT4J5TRq3C
+          claim_id: c_yE6pWo3CyyaAFytTrc568r
+          source_id: s_R9CxWibTMAJvQW2wjY9cAc
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 卒年
+          source: *a1
+      object_person: null
+    alternatives: []
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_wYBLDkjdBoWkNFTLymLFtM
+        subject_person_id: p_P4cgoRoN2T8NS4iXYHKC9E
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: CBDB 记载为清人物
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6Z41KsVYbENhpWdMhf5YWM
+          claim_id: c_wYBLDkjdBoWkNFTLymLFtM
+          source_id: s_R9CxWibTMAJvQW2wjY9cAc
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 朝代归属
+          source: *a1
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses: []
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王崇本
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| name.primary | 王崇本 | accepted |
+| birth.date | 1765年 | accepted |
+| death.date | 1823年 | accepted |
+| bio.summary | CBDB 记载为清人物 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+
+## 外部来源
+
+- [中国历代人物传记资料库：王崇本（CBDB 71998）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=71998&o=json)

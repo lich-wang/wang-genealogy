@@ -1,0 +1,103 @@
+---
+schema: wang-person/v1
+id: p_qCnKgqb9zdMQhkrWHd1vdT
+status: active
+merged_into: null
+display_name: 王鳳管
+revision: 1
+properties:
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_1QHy5JunroRqvZRuGA9tdA
+        subject_person_id: p_qCnKgqb9zdMQhkrWHd1vdT
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王鳳管
+          language: zh-Hant
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_dCDXBBC88tEJ46pu3sFZAR
+          claim_id: c_1QHy5JunroRqvZRuGA9tdA
+          source_id: s_xmxbtGJ1UxRyfbeFM9pwX1
+          stance: supports
+          locator: CBDB:640940
+          quotation: null
+          interpretation_note: CBDB 明确记录的王姓历史人物（640940）
+          source: &a1
+            id: s_xmxbtGJ1UxRyfbeFM9pwX1
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鳳管（CBDB 640940）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=640940&o=json
+            external_identifier: CBDB:640940
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:06.418Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_DzrUvP2jM9WQSdNYPLCk9T
+        subject_person_id: p_qCnKgqb9zdMQhkrWHd1vdT
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: CBDB 记载为清人物
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QH1Wtu4LPBuvPvg9dR8XdS
+          claim_id: c_DzrUvP2jM9WQSdNYPLCk9T
+          source_id: s_xmxbtGJ1UxRyfbeFM9pwX1
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 朝代归属
+          source: *a1
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses: []
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王鳳管
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| name.primary | 王鳳管 | accepted |
+| bio.summary | CBDB 记载为清人物 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+
+## 外部来源
+
+- [中国历代人物传记资料库：王鳳管（CBDB 640940）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=640940&o=json)

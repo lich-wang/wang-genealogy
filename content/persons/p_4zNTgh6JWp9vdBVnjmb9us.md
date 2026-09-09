@@ -1,0 +1,161 @@
+---
+schema: wang-person/v1
+id: p_4zNTgh6JWp9vdBVnjmb9us
+status: active
+merged_into: null
+display_name: 王濬
+revision: 1
+properties:
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_4ZpmaEo8CNDG3zHXKTZJMZ
+        subject_person_id: p_4zNTgh6JWp9vdBVnjmb9us
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王濬
+          language: zh-Hant
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_U4uGtG3jX7R4CougGAgac4
+          claim_id: c_4ZpmaEo8CNDG3zHXKTZJMZ
+          source_id: s_bNM9DEUNL4vZBhZL7EmoD2
+          stance: supports
+          locator: CBDB:126842
+          quotation: null
+          interpretation_note: CBDB 明确记录的王姓历史人物（126842）
+          source: &a1
+            id: s_bNM9DEUNL4vZBhZL7EmoD2
+            source_type: api_record
+            title: 中国历代人物传记资料库：王濬（CBDB 126842）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126842&o=json
+            external_identifier: CBDB:126842
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.255Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
+  - predicate: birth.date
+    recommended:
+      claim:
+        id: c_DaxhF9k7WM1frhMijVsq1w
+        subject_person_id: p_4zNTgh6JWp9vdBVnjmb9us
+        claim_kind: property
+        predicate: birth.date
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          date:
+            original_text: 1464年
+            calendar_note: CBDB 生年字段，精度：年
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Yk97ctXkdMdsW3YK7Fgayb
+          claim_id: c_DaxhF9k7WM1frhMijVsq1w
+          source_id: s_bNM9DEUNL4vZBhZL7EmoD2
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 生年
+          source: *a1
+      object_person: null
+    alternatives: []
+  - predicate: death.date
+    recommended:
+      claim:
+        id: c_tRhopSmHtEHY8ZsXhyQrDH
+        subject_person_id: p_4zNTgh6JWp9vdBVnjmb9us
+        claim_kind: property
+        predicate: death.date
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          date:
+            original_text: 1507年
+            calendar_note: CBDB 卒年字段，精度：年
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_j6zTLS5tg6PDaxHf5sAWM4
+          claim_id: c_tRhopSmHtEHY8ZsXhyQrDH
+          source_id: s_bNM9DEUNL4vZBhZL7EmoD2
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 卒年
+          source: *a1
+      object_person: null
+    alternatives: []
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_PaXZ2d6EqHW2J2754cJ2L5
+        subject_person_id: p_4zNTgh6JWp9vdBVnjmb9us
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: CBDB 记载为明人物
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YqJE5ov83uMdeCnWHJT46z
+          claim_id: c_PaXZ2d6EqHW2J2754cJ2L5
+          source_id: s_bNM9DEUNL4vZBhZL7EmoD2
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 朝代归属
+          source: *a1
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses: []
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王濬
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| name.primary | 王濬 | accepted |
+| birth.date | 1464年 | accepted |
+| death.date | 1507年 | accepted |
+| bio.summary | CBDB 记载为明人物 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+
+## 外部来源
+
+- [中国历代人物传记资料库：王濬（CBDB 126842）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126842&o=json)

@@ -1,0 +1,103 @@
+---
+schema: wang-person/v1
+id: p_KiGj6jgyNk8uP8FrpcQi4v
+status: active
+merged_into: null
+display_name: 王仁裕
+revision: 1
+properties:
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_VkMCCHv81f5hcx1MkvjWtT
+        subject_person_id: p_KiGj6jgyNk8uP8FrpcQi4v
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王仁裕
+          language: zh-Hant
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_LHsuCYEaLydKpJECyd3D6q
+          claim_id: c_VkMCCHv81f5hcx1MkvjWtT
+          source_id: s_3Us8RQp78se8PAtM6wptmW
+          stance: supports
+          locator: CBDB:507696
+          quotation: null
+          interpretation_note: CBDB 明确记录的王姓历史人物（507696）
+          source: &a1
+            id: s_3Us8RQp78se8PAtM6wptmW
+            source_type: api_record
+            title: 中国历代人物传记资料库：王仁裕（CBDB 507696）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=507696&o=json
+            external_identifier: CBDB:507696
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:25.047Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_Jwq6cwjduB4Dhcjr6bkxa9
+        subject_person_id: p_KiGj6jgyNk8uP8FrpcQi4v
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: CBDB 记载为五代人物
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bwuQNZwEVLvCFa2CDKgN91
+          claim_id: c_Jwq6cwjduB4Dhcjr6bkxa9
+          source_id: s_3Us8RQp78se8PAtM6wptmW
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 朝代归属
+          source: *a1
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses: []
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王仁裕
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| name.primary | 王仁裕 | accepted |
+| bio.summary | CBDB 记载为五代人物 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+
+## 外部来源
+
+- [中国历代人物传记资料库：王仁裕（CBDB 507696）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=507696&o=json)

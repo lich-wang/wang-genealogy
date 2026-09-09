@@ -1,0 +1,103 @@
+---
+schema: wang-person/v1
+id: p_jaCUkWKBm45DgbK43bdKRS
+status: active
+merged_into: null
+display_name: 王偉
+revision: 1
+properties:
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_aoojt5Ff1mhD5MtqF43QhV
+        subject_person_id: p_jaCUkWKBm45DgbK43bdKRS
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王偉
+          language: zh-Hant
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_A24VvXzeefPdWQyLh4UrtB
+          claim_id: c_aoojt5Ff1mhD5MtqF43QhV
+          source_id: s_9SFM2LPpZrkzgoG4XG1Yjm
+          stance: supports
+          locator: CBDB:100780
+          quotation: null
+          interpretation_note: CBDB 明确记录的王姓历史人物（100780）
+          source: &a1
+            id: s_9SFM2LPpZrkzgoG4XG1Yjm
+            source_type: api_record
+            title: 中国历代人物传记资料库：王偉（CBDB 100780）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=100780&o=json
+            external_identifier: CBDB:100780
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:14.438Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_yLKNAB1CVV6L5CpAnAxTCj
+        subject_person_id: p_jaCUkWKBm45DgbK43bdKRS
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: CBDB 记载为元人物
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VJDQ7LSMeJ7vAkfzpw6ZGE
+          claim_id: c_yLKNAB1CVV6L5CpAnAxTCj
+          source_id: s_9SFM2LPpZrkzgoG4XG1Yjm
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 朝代归属
+          source: *a1
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses: []
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王偉
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| name.primary | 王偉 | accepted |
+| bio.summary | CBDB 记载为元人物 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+
+## 外部来源
+
+- [中国历代人物传记资料库：王偉（CBDB 100780）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=100780&o=json)

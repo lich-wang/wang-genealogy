@@ -1,0 +1,103 @@
+---
+schema: wang-person/v1
+id: p_q7MnR4TSZaoWDaNbYFxWfh
+status: active
+merged_into: null
+display_name: 王啟鳳
+revision: 1
+properties:
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_SwoVYArHrJt2ZDsnwDgt74
+        subject_person_id: p_q7MnR4TSZaoWDaNbYFxWfh
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王啟鳳
+          language: zh-Hant
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_v48DWLN7SuYKfJT4mRKmfh
+          claim_id: c_SwoVYArHrJt2ZDsnwDgt74
+          source_id: s_tNu1QC6fdFR3GoRK8ticHK
+          stance: supports
+          locator: CBDB:636568
+          quotation: null
+          interpretation_note: CBDB 明确记录的王姓历史人物（636568）
+          source: &a1
+            id: s_tNu1QC6fdFR3GoRK8ticHK
+            source_type: api_record
+            title: 中国历代人物传记资料库：王啟鳳（CBDB 636568）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=636568&o=json
+            external_identifier: CBDB:636568
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:05.033Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_5bmrhg17c9wFVySmvcJQrJ
+        subject_person_id: p_q7MnR4TSZaoWDaNbYFxWfh
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: CBDB 记载为清人物
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fW46EYQy5Qt4goZc8k3CAr
+          claim_id: c_5bmrhg17c9wFVySmvcJQrJ
+          source_id: s_tNu1QC6fdFR3GoRK8ticHK
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 朝代归属
+          source: *a1
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses: []
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王啟鳳
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| name.primary | 王啟鳳 | accepted |
+| bio.summary | CBDB 记载为清人物 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+
+## 外部来源
+
+- [中国历代人物传记资料库：王啟鳳（CBDB 636568）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=636568&o=json)

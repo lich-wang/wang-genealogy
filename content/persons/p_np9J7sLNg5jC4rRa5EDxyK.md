@@ -1,0 +1,103 @@
+---
+schema: wang-person/v1
+id: p_np9J7sLNg5jC4rRa5EDxyK
+status: active
+merged_into: null
+display_name: 王延年
+revision: 1
+properties:
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_Rb2LJq2TX9J8ssLQdvEv82
+        subject_person_id: p_np9J7sLNg5jC4rRa5EDxyK
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王延年
+          language: zh-Hant
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_ho9QjHmYbaB2ck7i3E9P7R
+          claim_id: c_Rb2LJq2TX9J8ssLQdvEv82
+          source_id: s_NyW1Nnw21Pf9Lf1o9dHUsE
+          stance: supports
+          locator: CBDB:69238
+          quotation: null
+          interpretation_note: CBDB 明确记录的王姓历史人物（69238）
+          source: &a1
+            id: s_NyW1Nnw21Pf9Lf1o9dHUsE
+            source_type: api_record
+            title: 中国历代人物传记资料库：王延年（CBDB 69238）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69238&o=json
+            external_identifier: CBDB:69238
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:13.169Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_cyadej1ihnuMLmgszqC7mU
+        subject_person_id: p_np9J7sLNg5jC4rRa5EDxyK
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: CBDB 记载为清人物
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_RRW1GeEy6fxT9bXEeFrTQ9
+          claim_id: c_cyadej1ihnuMLmgszqC7mU
+          source_id: s_NyW1Nnw21Pf9Lf1o9dHUsE
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 朝代归属
+          source: *a1
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses: []
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王延年
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| name.primary | 王延年 | accepted |
+| bio.summary | CBDB 记载为清人物 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+
+## 外部来源
+
+- [中国历代人物传记资料库：王延年（CBDB 69238）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69238&o=json)

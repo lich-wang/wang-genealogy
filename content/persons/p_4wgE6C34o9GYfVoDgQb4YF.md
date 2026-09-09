@@ -1,0 +1,161 @@
+---
+schema: wang-person/v1
+id: p_4wgE6C34o9GYfVoDgQb4YF
+status: active
+merged_into: null
+display_name: 王忠孝
+revision: 1
+properties:
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_Dvm4BUNyRL56Lg1mss9TMk
+        subject_person_id: p_4wgE6C34o9GYfVoDgQb4YF
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王忠孝
+          language: zh-Hant
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_HtLMt69LidTvPr5w892W7i
+          claim_id: c_Dvm4BUNyRL56Lg1mss9TMk
+          source_id: s_dZGUdCZkmcaxnj3KD6jfdK
+          stance: supports
+          locator: CBDB:69255
+          quotation: null
+          interpretation_note: CBDB 明确记录的王姓历史人物（69255）
+          source: &a1
+            id: s_dZGUdCZkmcaxnj3KD6jfdK
+            source_type: api_record
+            title: 中国历代人物传记资料库：王忠孝（CBDB 69255）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69255&o=json
+            external_identifier: CBDB:69255
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:13.175Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
+  - predicate: birth.date
+    recommended:
+      claim:
+        id: c_A6rpATurrDTgQvUFQeesUr
+        subject_person_id: p_4wgE6C34o9GYfVoDgQb4YF
+        claim_kind: property
+        predicate: birth.date
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          date:
+            original_text: 1593年
+            calendar_note: CBDB 生年字段，精度：年
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_h4JLLdNuBkNRDDkVqctNay
+          claim_id: c_A6rpATurrDTgQvUFQeesUr
+          source_id: s_dZGUdCZkmcaxnj3KD6jfdK
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 生年
+          source: *a1
+      object_person: null
+    alternatives: []
+  - predicate: death.date
+    recommended:
+      claim:
+        id: c_eSD9rPP4RBdnAPg3a1vrqd
+        subject_person_id: p_4wgE6C34o9GYfVoDgQb4YF
+        claim_kind: property
+        predicate: death.date
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          date:
+            original_text: 1666年
+            calendar_note: CBDB 卒年字段，精度：年
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_a4L1rH3xGv5YfHjAEPbt93
+          claim_id: c_eSD9rPP4RBdnAPg3a1vrqd
+          source_id: s_dZGUdCZkmcaxnj3KD6jfdK
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 卒年
+          source: *a1
+      object_person: null
+    alternatives: []
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_CYiHCMe6EjMHCDR45KPGFF
+        subject_person_id: p_4wgE6C34o9GYfVoDgQb4YF
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: CBDB 记载为清人物
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_drHKR9tB2sRLZg9t2HDjsY
+          claim_id: c_CYiHCMe6EjMHCDR45KPGFF
+          source_id: s_dZGUdCZkmcaxnj3KD6jfdK
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 朝代归属
+          source: *a1
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses: []
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王忠孝
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| name.primary | 王忠孝 | accepted |
+| birth.date | 1593年 | accepted |
+| death.date | 1666年 | accepted |
+| bio.summary | CBDB 记载为清人物 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+
+## 外部来源
+
+- [中国历代人物传记资料库：王忠孝（CBDB 69255）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69255&o=json)

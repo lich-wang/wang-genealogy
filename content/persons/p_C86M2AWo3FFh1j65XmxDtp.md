@@ -1,0 +1,132 @@
+---
+schema: wang-person/v1
+id: p_C86M2AWo3FFh1j65XmxDtp
+status: active
+merged_into: null
+display_name: 王潺
+revision: 1
+properties:
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_dA2gEjFnKoJ3JAC2Mew99L
+        subject_person_id: p_C86M2AWo3FFh1j65XmxDtp
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王潺
+          language: zh-Hant
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_btG6ZepcgjJBRF6ChQnt5S
+          claim_id: c_dA2gEjFnKoJ3JAC2Mew99L
+          source_id: s_1E3QVAzkV53k9iBggB6iY6
+          stance: supports
+          locator: CBDB:204037
+          quotation: null
+          interpretation_note: CBDB 明确记录的王姓历史人物（204037）
+          source: &a1
+            id: s_1E3QVAzkV53k9iBggB6iY6
+            source_type: api_record
+            title: 中国历代人物传记资料库：王潺（CBDB 204037）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204037&o=json
+            external_identifier: CBDB:204037
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.814Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
+  - predicate: birth.date
+    recommended:
+      claim:
+        id: c_G5CPMaAcqRLth1iHrpsotH
+        subject_person_id: p_C86M2AWo3FFh1j65XmxDtp
+        claim_kind: property
+        predicate: birth.date
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          date:
+            original_text: 1510年
+            calendar_note: CBDB 生年字段，精度：年
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HT15dwqybaqReQHFga4uja
+          claim_id: c_G5CPMaAcqRLth1iHrpsotH
+          source_id: s_1E3QVAzkV53k9iBggB6iY6
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 生年
+          source: *a1
+      object_person: null
+    alternatives: []
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_bmyfejFRyGrbdHBHu71a5D
+        subject_person_id: p_C86M2AWo3FFh1j65XmxDtp
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: CBDB 记载为明人物
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3AiCaJSCp9Rs87p66oKAHn
+          claim_id: c_bmyfejFRyGrbdHBHu71a5D
+          source_id: s_1E3QVAzkV53k9iBggB6iY6
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 朝代归属
+          source: *a1
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses: []
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王潺
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| name.primary | 王潺 | accepted |
+| birth.date | 1510年 | accepted |
+| bio.summary | CBDB 记载为明人物 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+
+## 外部来源
+
+- [中国历代人物传记资料库：王潺（CBDB 204037）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204037&o=json)

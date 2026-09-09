@@ -1,0 +1,103 @@
+---
+schema: wang-person/v1
+id: p_1MPscaXEcpabbgvFqMptWx
+status: active
+merged_into: null
+display_name: 王潁
+revision: 1
+properties:
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_NdFxEGQbBxEe7o8gL7i26f
+        subject_person_id: p_1MPscaXEcpabbgvFqMptWx
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王潁
+          language: zh-Hant
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_J65KKpGJELfVmoXwSrUsTG
+          claim_id: c_NdFxEGQbBxEe7o8gL7i26f
+          source_id: s_S5Cu568wXCNu1G5idM8G7D
+          stance: supports
+          locator: CBDB:415043
+          quotation: null
+          interpretation_note: CBDB 明确记录的王姓历史人物（415043）
+          source: &a1
+            id: s_S5Cu568wXCNu1G5idM8G7D
+            source_type: api_record
+            title: 中国历代人物传记资料库：王潁（CBDB 415043）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=415043&o=json
+            external_identifier: CBDB:415043
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:21.985Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_D5TfvCLv1AQGXYXBV6yPFm
+        subject_person_id: p_1MPscaXEcpabbgvFqMptWx
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: CBDB 记载为清人物
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_eQHFSnXF1s8Z971CdhoKRj
+          claim_id: c_D5TfvCLv1AQGXYXBV6yPFm
+          source_id: s_S5Cu568wXCNu1G5idM8G7D
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 朝代归属
+          source: *a1
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses: []
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王潁
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| name.primary | 王潁 | accepted |
+| bio.summary | CBDB 记载为清人物 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+
+## 外部来源
+
+- [中国历代人物传记资料库：王潁（CBDB 415043）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=415043&o=json)

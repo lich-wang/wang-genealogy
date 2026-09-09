@@ -1,0 +1,103 @@
+---
+schema: wang-person/v1
+id: p_rx146yfAJAttd9S4hWxx2n
+status: active
+merged_into: null
+display_name: 王堅
+revision: 1
+properties:
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_FwstGYKF4TXNch3MScsxKX
+        subject_person_id: p_rx146yfAJAttd9S4hWxx2n
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王堅
+          language: zh-Hant
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_wngP8kidS962e57GtFygfA
+          claim_id: c_FwstGYKF4TXNch3MScsxKX
+          source_id: s_Wa9uDJTwPW9VkhjEm7XSh6
+          stance: supports
+          locator: CBDB:222817
+          quotation: null
+          interpretation_note: CBDB 明确记录的王姓历史人物（222817）
+          source: &a1
+            id: s_Wa9uDJTwPW9VkhjEm7XSh6
+            source_type: api_record
+            title: 中国历代人物传记资料库：王堅（CBDB 222817）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222817&o=json
+            external_identifier: CBDB:222817
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.395Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_W2BbYk9Q5Q2Brz5ktxk4TD
+        subject_person_id: p_rx146yfAJAttd9S4hWxx2n
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: CBDB 记载为明人物
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vDYYjzMq4wKb73Kt5SopN6
+          claim_id: c_W2BbYk9Q5Q2Brz5ktxk4TD
+          source_id: s_Wa9uDJTwPW9VkhjEm7XSh6
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 朝代归属
+          source: *a1
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses: []
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王堅
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| name.primary | 王堅 | accepted |
+| bio.summary | CBDB 记载为明人物 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+
+## 外部来源
+
+- [中国历代人物传记资料库：王堅（CBDB 222817）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222817&o=json)

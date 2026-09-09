@@ -1,0 +1,103 @@
+---
+schema: wang-person/v1
+id: p_4G7GPMPKSe8tghRsWqzaah
+status: active
+merged_into: null
+display_name: 王維儉
+revision: 1
+properties:
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_B1YyC3HfkLH4J81rDwxd44
+        subject_person_id: p_4G7GPMPKSe8tghRsWqzaah
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王維儉
+          language: zh-Hant
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_L6cCnvNGE8Gy48eFXtHnPB
+          claim_id: c_B1YyC3HfkLH4J81rDwxd44
+          source_id: s_md59LvLvzKcDEPsKtR2Wjf
+          stance: supports
+          locator: CBDB:510920
+          quotation: null
+          interpretation_note: CBDB 明确记录的王姓历史人物（510920）
+          source: &a1
+            id: s_md59LvLvzKcDEPsKtR2Wjf
+            source_type: api_record
+            title: 中国历代人物传记资料库：王維儉（CBDB 510920）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=510920&o=json
+            external_identifier: CBDB:510920
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:25.269Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_dKJ4t1ihMauXdJzJ5vB9nf
+        subject_person_id: p_4G7GPMPKSe8tghRsWqzaah
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: CBDB 记载为明人物
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_u3XNFeHghYgJszV8hqGZkr
+          claim_id: c_dKJ4t1ihMauXdJzJ5vB9nf
+          source_id: s_md59LvLvzKcDEPsKtR2Wjf
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 朝代归属
+          source: *a1
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses: []
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王維儉
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| name.primary | 王維儉 | accepted |
+| bio.summary | CBDB 记载为明人物 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+
+## 外部来源
+
+- [中国历代人物传记资料库：王維儉（CBDB 510920）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=510920&o=json)

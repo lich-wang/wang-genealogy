@@ -1,0 +1,161 @@
+---
+schema: wang-person/v1
+id: p_NCcpGv1P1CiTE2pLU2KQhf
+status: active
+merged_into: null
+display_name: 王同人
+revision: 1
+properties:
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_vcwLDgae6UnvFtRdL7JSC6
+        subject_person_id: p_NCcpGv1P1CiTE2pLU2KQhf
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王同人
+          language: zh-Hant
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_G96JnXRETEKfX6MkNe68ih
+          claim_id: c_vcwLDgae6UnvFtRdL7JSC6
+          source_id: s_JSiQZ8t6RNVB8m8CrP5sQV
+          stance: supports
+          locator: CBDB:140654
+          quotation: null
+          interpretation_note: CBDB 明确记录的王姓历史人物（140654）
+          source: &a1
+            id: s_JSiQZ8t6RNVB8m8CrP5sQV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王同人（CBDB 140654）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140654&o=json
+            external_identifier: CBDB:140654
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.524Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
+  - predicate: birth.date
+    recommended:
+      claim:
+        id: c_i6mF4KTwC4K2ei3QTRXm8N
+        subject_person_id: p_NCcpGv1P1CiTE2pLU2KQhf
+        claim_kind: property
+        predicate: birth.date
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          date:
+            original_text: 672年
+            calendar_note: CBDB 生年字段，精度：年
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Gjsp5X1uVASQyiFhQzJVq2
+          claim_id: c_i6mF4KTwC4K2ei3QTRXm8N
+          source_id: s_JSiQZ8t6RNVB8m8CrP5sQV
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 生年
+          source: *a1
+      object_person: null
+    alternatives: []
+  - predicate: death.date
+    recommended:
+      claim:
+        id: c_6A4B991r81HQd6hcaHQUjk
+        subject_person_id: p_NCcpGv1P1CiTE2pLU2KQhf
+        claim_kind: property
+        predicate: death.date
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          date:
+            original_text: 728年
+            calendar_note: CBDB 卒年字段，精度：年
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mgjLkqb6EAFvJ4ZPbQBDdM
+          claim_id: c_6A4B991r81HQd6hcaHQUjk
+          source_id: s_JSiQZ8t6RNVB8m8CrP5sQV
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 卒年
+          source: *a1
+      object_person: null
+    alternatives: []
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_PYSggmoLKugnDcCAkyCPUQ
+        subject_person_id: p_NCcpGv1P1CiTE2pLU2KQhf
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: CBDB 记载为唐人物
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NVa4nEQ1TSpLJ97t9GqCBp
+          claim_id: c_PYSggmoLKugnDcCAkyCPUQ
+          source_id: s_JSiQZ8t6RNVB8m8CrP5sQV
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 朝代归属
+          source: *a1
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses: []
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王同人
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| name.primary | 王同人 | accepted |
+| birth.date | 672年 | accepted |
+| death.date | 728年 | accepted |
+| bio.summary | CBDB 记载为唐人物 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+
+## 外部来源
+
+- [中国历代人物传记资料库：王同人（CBDB 140654）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140654&o=json)

@@ -1,0 +1,103 @@
+---
+schema: wang-person/v1
+id: p_TfTFzTJ4Kx4TRzYvWHh978
+status: active
+merged_into: null
+display_name: 王南
+revision: 1
+properties:
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_idKs8YWR5AuPpSeNfoWdUF
+        subject_person_id: p_TfTFzTJ4Kx4TRzYvWHh978
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王南
+          language: zh-Hant
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_WrxksKhdUYpajYaybECi2F
+          claim_id: c_idKs8YWR5AuPpSeNfoWdUF
+          source_id: s_1DFcPmC91DnVhAy7PCpbX8
+          stance: supports
+          locator: CBDB:538085
+          quotation: null
+          interpretation_note: CBDB 明确记录的王姓历史人物（538085）
+          source: &a1
+            id: s_1DFcPmC91DnVhAy7PCpbX8
+            source_type: api_record
+            title: 中国历代人物传记资料库：王南（CBDB 538085）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=538085&o=json
+            external_identifier: CBDB:538085
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.414Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_782FBU4bD7LtnXMAtr3GGK
+        subject_person_id: p_TfTFzTJ4Kx4TRzYvWHh978
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: CBDB 记载为宋人物
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dHbLs1uQS1XDU3k8MtEHc7
+          claim_id: c_782FBU4bD7LtnXMAtr3GGK
+          source_id: s_1DFcPmC91DnVhAy7PCpbX8
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 朝代归属
+          source: *a1
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses: []
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王南
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| name.primary | 王南 | accepted |
+| bio.summary | CBDB 记载为宋人物 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+
+## 外部来源
+
+- [中国历代人物传记资料库：王南（CBDB 538085）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=538085&o=json)

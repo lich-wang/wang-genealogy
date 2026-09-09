@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-09-09T00:03:27.836Z",
+  "source_release": "CBDB 2026-09-05",
+  "source_database": "/tmp/cbdb-latest-bIGI9e/extracted/cbdb_20260905.sqlite3",
+  "source_wang_rows": 39089,
+  "existing_cbdb_ids": 13519,
+  "accepted": 20967,
+  "skipped": {
+    "existing_cbdb_id": 13366,
+    "invalid_or_placeholder_name": 3894,
+    "insufficient_historical_period_evidence": 862
+  },
+  "mode": "apply"
+}

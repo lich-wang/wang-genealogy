@@ -1,0 +1,103 @@
+---
+schema: wang-person/v1
+id: p_5aieVZgg7i5UDwwxjdajzP
+status: active
+merged_into: null
+display_name: 王昌嗣
+revision: 1
+properties:
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_tACE34JP1R9MHi4CEbHRa1
+        subject_person_id: p_5aieVZgg7i5UDwwxjdajzP
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王昌嗣
+          language: zh-Hant
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_C2QWJDCHZfcA2gCaYP2CTY
+          claim_id: c_tACE34JP1R9MHi4CEbHRa1
+          source_id: s_5bzswU64w1NCgDSZv8BcLg
+          stance: supports
+          locator: CBDB:343480
+          quotation: null
+          interpretation_note: CBDB 明确记录的王姓历史人物（343480）
+          source: &a1
+            id: s_5bzswU64w1NCgDSZv8BcLg
+            source_type: api_record
+            title: 中国历代人物传记资料库：王昌嗣（CBDB 343480）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=343480&o=json
+            external_identifier: CBDB:343480
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:21.364Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_5hBK8HMuZU9FyPjkPBdja9
+        subject_person_id: p_5aieVZgg7i5UDwwxjdajzP
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: CBDB 记载为清人物
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_nXyceFBaQu9rwNVJ8LsJpX
+          claim_id: c_5hBK8HMuZU9FyPjkPBdja9
+          source_id: s_5bzswU64w1NCgDSZv8BcLg
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 朝代归属
+          source: *a1
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses: []
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王昌嗣
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| name.primary | 王昌嗣 | accepted |
+| bio.summary | CBDB 记载为清人物 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+
+## 外部来源
+
+- [中国历代人物传记资料库：王昌嗣（CBDB 343480）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=343480&o=json)

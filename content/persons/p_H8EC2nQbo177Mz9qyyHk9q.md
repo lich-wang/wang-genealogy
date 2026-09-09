@@ -1,0 +1,103 @@
+---
+schema: wang-person/v1
+id: p_H8EC2nQbo177Mz9qyyHk9q
+status: active
+merged_into: null
+display_name: 王寶澐
+revision: 1
+properties:
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_13eA6TCmUefdH9W3orv7G7
+        subject_person_id: p_H8EC2nQbo177Mz9qyyHk9q
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王寶澐
+          language: zh-Hant
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_oUTggYrZfaUoaCyqtjxkxf
+          claim_id: c_13eA6TCmUefdH9W3orv7G7
+          source_id: s_dKEoZRX8MfKBPMNxp3v9Nr
+          stance: supports
+          locator: CBDB:637262
+          quotation: null
+          interpretation_note: CBDB 明确记录的王姓历史人物（637262）
+          source: &a1
+            id: s_dKEoZRX8MfKBPMNxp3v9Nr
+            source_type: api_record
+            title: 中国历代人物传记资料库：王寶澐（CBDB 637262）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=637262&o=json
+            external_identifier: CBDB:637262
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:05.261Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_rHJJd8KMc7F23BMsHSBFFf
+        subject_person_id: p_H8EC2nQbo177Mz9qyyHk9q
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: CBDB 记载为清人物
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_B81novtifF1XdLFK16TDNF
+          claim_id: c_rHJJd8KMc7F23BMsHSBFFf
+          source_id: s_dKEoZRX8MfKBPMNxp3v9Nr
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 朝代归属
+          source: *a1
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses: []
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王寶澐
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| name.primary | 王寶澐 | accepted |
+| bio.summary | CBDB 记载为清人物 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+
+## 外部来源
+
+- [中国历代人物传记资料库：王寶澐（CBDB 637262）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=637262&o=json)

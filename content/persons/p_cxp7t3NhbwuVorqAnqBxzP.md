@@ -1,0 +1,103 @@
+---
+schema: wang-person/v1
+id: p_cxp7t3NhbwuVorqAnqBxzP
+status: active
+merged_into: null
+display_name: 王廷榮
+revision: 1
+properties:
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_jX7DJ2174b86Vagu89DRoG
+        subject_person_id: p_cxp7t3NhbwuVorqAnqBxzP
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王廷榮
+          language: zh-Hant
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_eK51XgZiouNZJ5zLRyphap
+          claim_id: c_jX7DJ2174b86Vagu89DRoG
+          source_id: s_18jPh5EddF5qK4TcZA2QuD
+          stance: supports
+          locator: CBDB:637517
+          quotation: null
+          interpretation_note: CBDB 明确记录的王姓历史人物（637517）
+          source: &a1
+            id: s_18jPh5EddF5qK4TcZA2QuD
+            source_type: api_record
+            title: 中国历代人物传记资料库：王廷榮（CBDB 637517）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=637517&o=json
+            external_identifier: CBDB:637517
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:26.428Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_o6DyDD61pP6cJMe9hjqpdQ
+        subject_person_id: p_cxp7t3NhbwuVorqAnqBxzP
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: CBDB 记载为清人物
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Y2i8cz5ySyQN5FF6Pm9Z3v
+          claim_id: c_o6DyDD61pP6cJMe9hjqpdQ
+          source_id: s_18jPh5EddF5qK4TcZA2QuD
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 朝代归属
+          source: *a1
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses: []
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王廷榮
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| name.primary | 王廷榮 | accepted |
+| bio.summary | CBDB 记载为清人物 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+
+## 外部来源
+
+- [中国历代人物传记资料库：王廷榮（CBDB 637517）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=637517&o=json)

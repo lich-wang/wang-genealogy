@@ -1,0 +1,103 @@
+---
+schema: wang-person/v1
+id: p_Jnep33KBrxQNnwGHMML1sX
+status: active
+merged_into: null
+display_name: 王繪聲
+revision: 1
+properties:
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_YUPLk3uwk4vTVXiaiPaiu9
+        subject_person_id: p_Jnep33KBrxQNnwGHMML1sX
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王繪聲
+          language: zh-Hant
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_28HWJAKhQ1PpH1AYhJqNv5
+          claim_id: c_YUPLk3uwk4vTVXiaiPaiu9
+          source_id: s_XuHWHoXA5oHhNMcB63T7AN
+          stance: supports
+          locator: CBDB:639859
+          quotation: null
+          interpretation_note: CBDB 明确记录的王姓历史人物（639859）
+          source: &a1
+            id: s_XuHWHoXA5oHhNMcB63T7AN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王繪聲（CBDB 639859）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=639859&o=json
+            external_identifier: CBDB:639859
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:06.067Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_RPDHRDBEvLi7yhCTEXi1Fe
+        subject_person_id: p_Jnep33KBrxQNnwGHMML1sX
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: CBDB 记载为清人物
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_aMhL9LykJW4WKWXwDEG1eS
+          claim_id: c_RPDHRDBEvLi7yhCTEXi1Fe
+          source_id: s_XuHWHoXA5oHhNMcB63T7AN
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 朝代归属
+          source: *a1
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses: []
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王繪聲
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| name.primary | 王繪聲 | accepted |
+| bio.summary | CBDB 记载为清人物 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+
+## 外部来源
+
+- [中国历代人物传记资料库：王繪聲（CBDB 639859）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=639859&o=json)

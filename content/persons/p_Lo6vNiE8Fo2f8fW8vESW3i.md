@@ -1,0 +1,103 @@
+---
+schema: wang-person/v1
+id: p_Lo6vNiE8Fo2f8fW8vESW3i
+status: active
+merged_into: null
+display_name: 王鉅
+revision: 1
+properties:
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_FX3WM3gb7AJXfNxA4qYcCv
+        subject_person_id: p_Lo6vNiE8Fo2f8fW8vESW3i
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王鉅
+          language: zh-Hant
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_FAGMsLMVGL1ZSyiZM6gzFc
+          claim_id: c_FX3WM3gb7AJXfNxA4qYcCv
+          source_id: s_vjn7vPkHWCZtDJUhH3oKXF
+          stance: supports
+          locator: CBDB:284021
+          quotation: null
+          interpretation_note: CBDB 明确记录的王姓历史人物（284021）
+          source: &a1
+            id: s_vjn7vPkHWCZtDJUhH3oKXF
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鉅（CBDB 284021）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=284021&o=json
+            external_identifier: CBDB:284021
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.170Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_NmQEa1MD38wp4QyWA1pD2K
+        subject_person_id: p_Lo6vNiE8Fo2f8fW8vESW3i
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: CBDB 记载为明人物
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hzmZGotm7m95sG9w6Q9GWf
+          claim_id: c_NmQEa1MD38wp4QyWA1pD2K
+          source_id: s_vjn7vPkHWCZtDJUhH3oKXF
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 朝代归属
+          source: *a1
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses: []
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王鉅
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| name.primary | 王鉅 | accepted |
+| bio.summary | CBDB 记载为明人物 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+
+## 外部来源
+
+- [中国历代人物传记资料库：王鉅（CBDB 284021）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=284021&o=json)

@@ -1,0 +1,161 @@
+---
+schema: wang-person/v1
+id: p_uEBsw62GZpP7Jv5oaHffEz
+status: active
+merged_into: null
+display_name: 王曾
+revision: 1
+properties:
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_ujdPmhchYwp9UspA9qfBXs
+        subject_person_id: p_uEBsw62GZpP7Jv5oaHffEz
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王曾
+          language: zh-Hant
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_tMKmM3S6vh1eWGHcvoubVS
+          claim_id: c_ujdPmhchYwp9UspA9qfBXs
+          source_id: s_ALMNzYXANCKK1erRJwiTib
+          stance: supports
+          locator: CBDB:1901
+          quotation: null
+          interpretation_note: CBDB 明确记录的王姓历史人物（1901）
+          source: &a1
+            id: s_ALMNzYXANCKK1erRJwiTib
+            source_type: api_record
+            title: 中国历代人物传记资料库：王曾（CBDB 1901）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1901&o=json
+            external_identifier: CBDB:1901
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.383Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
+  - predicate: birth.date
+    recommended:
+      claim:
+        id: c_xo98HuVmCZ7QxYcnNrvZKJ
+        subject_person_id: p_uEBsw62GZpP7Jv5oaHffEz
+        claim_kind: property
+        predicate: birth.date
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          date:
+            original_text: 978年
+            calendar_note: CBDB 生年字段，精度：年
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1JZ7mZY44p3UGZhM7qiFkz
+          claim_id: c_xo98HuVmCZ7QxYcnNrvZKJ
+          source_id: s_ALMNzYXANCKK1erRJwiTib
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 生年
+          source: *a1
+      object_person: null
+    alternatives: []
+  - predicate: death.date
+    recommended:
+      claim:
+        id: c_au3GwS7hB6wSE24CMxymWZ
+        subject_person_id: p_uEBsw62GZpP7Jv5oaHffEz
+        claim_kind: property
+        predicate: death.date
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          date:
+            original_text: 1038年
+            calendar_note: CBDB 卒年字段，精度：年
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_u6L31BCrQ6e4WnV1EGhWaY
+          claim_id: c_au3GwS7hB6wSE24CMxymWZ
+          source_id: s_ALMNzYXANCKK1erRJwiTib
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 卒年
+          source: *a1
+      object_person: null
+    alternatives: []
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_dN6kMMFJoDZkeEYgdY1KNM
+        subject_person_id: p_uEBsw62GZpP7Jv5oaHffEz
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: CBDB 记载为宋人物
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_53AEjbWw3S5afBYUknAGN9
+          claim_id: c_dN6kMMFJoDZkeEYgdY1KNM
+          source_id: s_ALMNzYXANCKK1erRJwiTib
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 朝代归属
+          source: *a1
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses: []
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王曾
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| name.primary | 王曾 | accepted |
+| birth.date | 978年 | accepted |
+| death.date | 1038年 | accepted |
+| bio.summary | CBDB 记载为宋人物 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+
+## 外部来源
+
+- [中国历代人物传记资料库：王曾（CBDB 1901）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1901&o=json)

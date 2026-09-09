@@ -1,0 +1,103 @@
+---
+schema: wang-person/v1
+id: p_TysZYAL243LGEd1gAUSbh6
+status: active
+merged_into: null
+display_name: 王瑾
+revision: 1
+properties:
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_hATW7cQRLQwVpSj1AGPBTo
+        subject_person_id: p_TysZYAL243LGEd1gAUSbh6
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王瑾
+          language: zh-Hant
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_TwSSF8V3nFWS2xzC23NJJ9
+          claim_id: c_hATW7cQRLQwVpSj1AGPBTo
+          source_id: s_22p1CYAd34NSmbDed6BNfB
+          stance: supports
+          locator: CBDB:133849
+          quotation: null
+          interpretation_note: CBDB 明确记录的王姓历史人物（133849）
+          source: &a1
+            id: s_22p1CYAd34NSmbDed6BNfB
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瑾（CBDB 133849）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=133849&o=json
+            external_identifier: CBDB:133849
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.298Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_Zo6t3VEdBeMEBaPHbGDZAL
+        subject_person_id: p_TysZYAL243LGEd1gAUSbh6
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: CBDB 记载为清人物
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gm6kBSeodEMNc6rZLeLyeo
+          claim_id: c_Zo6t3VEdBeMEBaPHbGDZAL
+          source_id: s_22p1CYAd34NSmbDed6BNfB
+          stance: supports
+          locator: null
+          quotation: null
+          interpretation_note: CBDB 朝代归属
+          source: *a1
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses: []
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 王瑾
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| name.primary | 王瑾 | accepted |
+| bio.summary | CBDB 记载为清人物 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+
+## 外部来源
+
+- [中国历代人物传记资料库：王瑾（CBDB 133849）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=133849&o=json)
