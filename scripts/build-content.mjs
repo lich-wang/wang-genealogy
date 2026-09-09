@@ -34,13 +34,17 @@ const paternalChainErrors = validateCompletePaternalChains(records);
 if (paternalChainErrors.length) throw new Error(paternalChainErrors.join('\n'));
 
 const summaries = new Map();
+const personShards = new Map();
+const graphShards = new Map();
 const claims = new Map();
 const claimFingerprints = new Map();
 const sources = new Map();
 for (const record of records.values()) {
   const summary = toSummary(record);
   summaries.set(record.id, summary);
-  fs.writeFileSync(path.join(personDir, `${record.id}.json`), JSON.stringify(summary));
+  const shard = record.id.slice(2, 3) || '_';
+  if (!personShards.has(shard)) personShards.set(shard, {});
+  personShards.get(shard)[record.id] = summary;
   for (const item of allClaimItems(record)) {
     const fingerprint = JSON.stringify({ claim: item.claim, sources: item.sources });
     const existingFingerprint = claimFingerprints.get(item.claim.id);
@@ -55,6 +59,7 @@ for (const record of records.values()) {
     }
   }
 }
+for (const [shard, entries] of personShards) fs.writeFileSync(path.join(personDir, `${shard}.json`), JSON.stringify(entries));
 
 const edges = buildEdges(claims.values());
 const adjacency = new Map([...records.keys()].map((id) => [id, new Set()]));
@@ -79,8 +84,11 @@ while (unvisited.size) {
     descent_edges: edges.descent_edges.filter((edge) => component.includes(edge.ancestor_id) && component.includes(edge.descendant_id)),
     truncated: false,
   };
-  fs.writeFileSync(path.join(graphDir, `${componentId}.json`), JSON.stringify(graph));
+  const shard = componentId.slice(0, 1) || '_';
+  if (!graphShards.has(shard)) graphShards.set(shard, {});
+  graphShards.get(shard)[componentId] = graph;
 }
+for (const [shard, entries] of graphShards) fs.writeFileSync(path.join(graphDir, `${shard}.json`), JSON.stringify(entries));
 
 const sourceClaims = new Map([...sources.keys()].map((id) => [id, []]));
 for (const item of claims.values()) for (const ref of item.sources ?? []) if (ref.source) sourceClaims.get(ref.source.id)?.push(item);

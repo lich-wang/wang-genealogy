@@ -128,7 +128,7 @@ export const api = {
       body: JSON.stringify(input),
     },
   ),
-  getPerson: (id: string) => getJson<PersonSummary>(`/data/persons/${encodeURIComponent(id)}.json`),
+  getPerson: (id: string) => getPerson(id),
   getPersonClaims: (id: string, status?: string) => api.getPerson(id).then((summary) =>
     [...summary.properties.flatMap((field) => [field.recommended, ...field.alternatives]), ...Object.values(summary.relationships).flat()]
       .filter((item): item is ClaimWithSources => item !== null && (!status || item.claim.status === status))
@@ -165,6 +165,14 @@ export const api = {
   createMerge: readOnly,
 };
 
+async function getPerson(id: string): Promise<PersonSummary> {
+  const shard = id.slice(2, 3) || '_';
+  const entries = await getJson<Record<string, PersonSummary>>(`/data/persons/${encodeURIComponent(shard)}.json`);
+  const person = entries[id];
+  if (!person) throw new ApiRequestError(404, 'not_found', '未找到人物');
+  return person;
+}
+
 function page<T>(items: T[], cursor?: string): Cursor<T> {
   const start = cursor ? Number(cursor) : 0;
   const next = start + PAGE_SIZE;
@@ -175,7 +183,10 @@ async function getGraph(id: string) {
   const index = await getIndex();
   const component = index.graph_lookup[id];
   if (!component) throw new ApiRequestError(404, 'not_found', '未找到家族图');
-  const graph = await getJson<RelativesGraph>(`/data/graphs/${component}.json`);
+  const shard = component.slice(0, 1) || '_';
+  const entries = await getJson<Record<string, RelativesGraph>>(`/data/graphs/${shard}.json`);
+  const graph = entries[component];
+  if (!graph) throw new ApiRequestError(404, 'not_found', '未找到家族图');
   return { ...graph, root_id: id };
 }
 
