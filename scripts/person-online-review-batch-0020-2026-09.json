@@ -1,0 +1,33 @@
+{
+  "schema": "wang-person-online-review-batch/v1",
+  "reviewer": "luna",
+  "reviewed_at": "2026-09-10",
+  "queue_positions": [191, 200],
+  "summary": { "reviewed": 10, "proposed": 2, "unchanged": 8, "manual_review": 1, "relationships_added": 4 },
+  "results": [
+    { "position": 191, "person_id": "p_1GhPFs5m4G2BPwjpU26jtR", "name": "王亮", "external_id": "CBDB:207345", "decision": "proposed", "relationships": [
+      { "predicate": "kinship.father_of", "subject": "p_Jn7Z5DoHyCUh3Tr3UBMSXH", "object": "p_1GhPFs5m4G2BPwjpU26jtR", "generation_count": null, "locator": "宣德八年進士登科錄:一卷，第三甲第三十八名：父" },
+      { "predicate": "kinship.father_of", "subject": "p_4bu2im8699zCsccbtJF1P5", "object": "p_Jn7Z5DoHyCUh3Tr3UBMSXH", "generation_count": null, "locator": "宣德八年進士登科錄:一卷，第三甲第三十八名：祖父" },
+      { "predicate": "kinship.father_of", "subject": "p_CqoXtbYtPK4GM5A6zB25Z1", "object": "p_4bu2im8699zCsccbtJF1P5", "generation_count": null, "locator": "宣德八年進士登科錄:一卷，第三甲第三十八名：曾祖" }
+    ], "ignored_relations": ["兄 王從政、王從美、王從讓（CBDB 231571-231573）", "母史氏、妻呂氏（女性端点，本批不新建）"] },
+    { "position": 192, "person_id": "p_1gLBGDfSnx9iTe26JK2uhB", "name": "王景雲", "external_id": "CBDB:638514", "decision": "unchanged" },
+    { "position": 193, "person_id": "p_1gmFF5RuD7dEBXDurLjCzA", "name": "王綸", "external_id": "CBDB:488219", "decision": "unchanged" },
+    { "position": 194, "person_id": "p_1gMJ6NpQ7CbPiCgahWrTwG", "name": "王京", "external_id": "CBDB:294431", "decision": "proposed", "relationships": [{ "predicate": "kinship.ancestor_of", "subject": "p_1gMJ6NpQ7CbPiCgahWrTwG", "object": "p_TdovnQSDHPgtdb6L5QzgtZ", "generation_count": 2, "locator": "嘉靖十一年進士登科錄:一卷，第三甲第一百九十八名：孫" }] },
+    { "position": 195, "person_id": "p_1GTNNbnt67Hgpc6SHxjPWJ", "name": "王廉", "external_id": "CBDB:481572", "decision": "unchanged" },
+    { "position": 196, "person_id": "p_1GVkcEM6UstbiXdwXGEAQK", "name": "王之彩", "external_id": "CBDB:635783", "decision": "unchanged" },
+    { "position": 197, "person_id": "p_1gVKGNfjsEagYK2KHtqxi5", "name": "王綯", "external_id": "CBDB:3980", "decision": "unchanged", "manual_review": [
+      { "kind": "unsourced_kinship", "name": "王審禮（CBDB 12128）", "note": "CBDB 记为父，底本为“未知”，暂不物化。" },
+      { "kind": "unsourced_kinship", "name": "王炎（CBDB 1925）", "note": "CBDB 记为长子，底本为“未知”，暂不物化。" }
+    ] },
+    { "position": 198, "person_id": "p_1H49QYmUM7Hsa8yBPMH3z5", "name": "王大舉", "external_id": "CBDB:545732", "decision": "unchanged" },
+    { "position": 199, "person_id": "p_1h6Ad3pxGghsqupvkawDoQ", "name": "王紹復", "external_id": "CBDB:639763", "decision": "unchanged" },
+    { "position": 200, "person_id": "p_1hgWJjYPsJeU6Nr7VAY7UF", "name": "王居安", "external_id": "CBDB:21998", "decision": "unchanged", "ignored_relations": ["弟 王居實（CBDB 21999）", "從子 王甸（CBDB 39029）"] }
+  ],
+  "relationships": [
+    { "subject": "p_Jn7Z5DoHyCUh3Tr3UBMSXH", "object": "p_1GhPFs5m4G2BPwjpU26jtR", "predicate": "kinship.father_of" },
+    { "subject": "p_4bu2im8699zCsccbtJF1P5", "object": "p_Jn7Z5DoHyCUh3Tr3UBMSXH", "predicate": "kinship.father_of" },
+    { "subject": "p_CqoXtbYtPK4GM5A6zB25Z1", "object": "p_4bu2im8699zCsccbtJF1P5", "predicate": "kinship.father_of" },
+    { "subject": "p_1gMJ6NpQ7CbPiCgahWrTwG", "object": "p_TdovnQSDHPgtdb6L5QzgtZ", "predicate": "kinship.ancestor_of", "generation_count": 2 }
+  ],
+  "unchanged": ["p_1gLBGDfSnx9iTe26JK2uhB", "p_1gmFF5RuD7dEBXDurLjCzA", "p_1GTNNbnt67Hgpc6SHxjPWJ", "p_1GVkcEM6UstbiXdwXGEAQK", "p_1gVKGNfjsEagYK2KHtqxi5", "p_1H49QYmUM7Hsa8yBPMH3z5", "p_1h6Ad3pxGghsqupvkawDoQ", "p_1hgWJjYPsJeU6Nr7VAY7UF"]
+}

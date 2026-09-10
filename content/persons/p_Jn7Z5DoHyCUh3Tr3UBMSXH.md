@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王甫林
 cbdb_id: 231568
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,8 +86,71 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_WGQoQPJWdOaVGDZ6fKSseX
+        subject_person_id: p_4bu2im8699zCsccbtJF1P5
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Jn7Z5DoHyCUh3Tr3UBMSXH
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SZedctSzMyq1QpRcFGFW9J
+          claim_id: c_WGQoQPJWdOaVGDZ6fKSseX
+          source_id: s_kEMvWdXNEMrMUFHnwDnn61
+          stance: supports
+          locator: 宣德八年進士登科錄:一卷，第三甲第三十八名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: &a1
+            id: s_kEMvWdXNEMrMUFHnwDnn61
+            source_type: api_record
+            title: 中国历代人物传记资料库：王亮（CBDB 207345）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207345&o=json
+            external_identifier: CBDB:207345
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.919Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_4bu2im8699zCsccbtJF1P5
+        status: active
+        display_name: 王某中
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_8gITiTW42Lj8rwHU8Dd1dJ
+        subject_person_id: p_Jn7Z5DoHyCUh3Tr3UBMSXH
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_1GhPFs5m4G2BPwjpU26jtR
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_IF1QRaoJbp1MozUWC5QACt
+          claim_id: c_8gITiTW42Lj8rwHU8Dd1dJ
+          source_id: s_kEMvWdXNEMrMUFHnwDnn61
+          stance: supports
+          locator: 宣德八年進士登科錄:一卷，第三甲第三十八名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_1GhPFs5m4G2BPwjpU26jtR
+        status: active
+        display_name: 王亮
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,7 +174,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_4bu2im8699zCsccbtJF1P5 | 王某中 | accepted |
+| children | p_1GhPFs5m4G2BPwjpU26jtR | 王亮 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王甫林（CBDB 231568）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231568&o=json)
+- [中国历代人物传记资料库：王亮（CBDB 207345）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207345&o=json)
