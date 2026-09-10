@@ -1,0 +1,25 @@
+{
+  "schema": "wang-person-online-review-batch/v1",
+  "reviewer": "luna",
+  "reviewed_at": "2026-09-10",
+  "queue_positions": [181, 190],
+  "summary": { "reviewed": 10, "proposed": 3, "unchanged": 7, "manual_review": 0, "relationships_added": 3 },
+  "results": [
+    { "position": 181, "person_id": "p_1FWC98DomVPHQfj1FbqF75", "name": "王熊", "external_id": "CBDB:639322", "decision": "unchanged" },
+    { "position": 182, "person_id": "p_1fwuWUVpZ9MWwFA3Puza8t", "name": "王友直", "external_id": "CBDB:229763", "decision": "proposed", "relationships": [{ "predicate": "kinship.ancestor_of", "subject": "p_1fwuWUVpZ9MWwFA3Puza8t", "object": "p_APgCbU3BBu68y3JhFPX3Tu", "generation_count": 2, "locator": "成化二年進士登科錄:一卷，第三甲第十二名：孫" }] },
+    { "position": 183, "person_id": "p_1Fx9pqQwhUEiguMU152Qa1", "name": "王化行", "external_id": "CBDB:342285", "decision": "unchanged" },
+    { "position": 184, "person_id": "p_1G549N2d23KvV8NGLNV5ym", "name": "王致中", "external_id": "CBDB:244025", "decision": "proposed", "relationships": [{ "predicate": "kinship.father_of", "subject": "p_1G549N2d23KvV8NGLNV5ym", "object": "p_8P5PCH5aTQeZpUfSAM9z5q", "generation_count": null, "locator": "成化五年進士登科錄:一卷，第三甲第六十七名：子" }] },
+    { "position": 185, "person_id": "p_1gaXiDAESPY5ZYsaeQuZdC", "name": "王悦", "external_id": "CBDB:60845", "decision": "unchanged" },
+    { "position": 186, "person_id": "p_1gaZDQ7d8kFL8eFuBSCEFG", "name": "王友信", "external_id": "CBDB:285844", "decision": "proposed", "relationships": [{ "predicate": "kinship.ancestor_of", "subject": "p_1gaZDQ7d8kFL8eFuBSCEFG", "object": "p_HgaWqM5nscyN4tzrPQd5UX", "generation_count": 3, "locator": "正德十六年登科錄:一卷，第三甲第一百六十三名：曾孫; 重孫" }] },
+    { "position": 187, "person_id": "p_1gBatDiwwV3Vx6V6hWvqcN", "name": "王寄岩", "external_id": "CBDB:566437", "decision": "unchanged" },
+    { "position": 188, "person_id": "p_1GCg1R6ru1LsgSx5SpmxTn", "name": "王文思", "external_id": "CBDB:37973", "decision": "unchanged" },
+    { "position": 189, "person_id": "p_1GeQWnmee8j4FHYqTRA5Ww", "name": "王得福", "external_id": "CBDB:414531", "decision": "unchanged" },
+    { "position": 190, "person_id": "p_1gFQ9HANVUsFXGJoR2sgJ1", "name": "王翰臣", "external_id": "CBDB:639903", "decision": "unchanged" }
+  ],
+  "relationships": [
+    { "subject": "p_1fwuWUVpZ9MWwFA3Puza8t", "object": "p_APgCbU3BBu68y3JhFPX3Tu", "predicate": "kinship.ancestor_of", "generation_count": 2 },
+    { "subject": "p_1G549N2d23KvV8NGLNV5ym", "object": "p_8P5PCH5aTQeZpUfSAM9z5q", "predicate": "kinship.father_of" },
+    { "subject": "p_1gaZDQ7d8kFL8eFuBSCEFG", "object": "p_HgaWqM5nscyN4tzrPQd5UX", "predicate": "kinship.ancestor_of", "generation_count": 3 }
+  ],
+  "unchanged": ["p_1FWC98DomVPHQfj1FbqF75", "p_1Fx9pqQwhUEiguMU152Qa1", "p_1gaXiDAESPY5ZYsaeQuZdC", "p_1gBatDiwwV3Vx6V6hWvqcN", "p_1GCg1R6ru1LsgSx5SpmxTn", "p_1GeQWnmee8j4FHYqTRA5Ww", "p_1gFQ9HANVUsFXGJoR2sgJ1"]
+}
