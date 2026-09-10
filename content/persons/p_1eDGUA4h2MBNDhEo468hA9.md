@@ -4,7 +4,7 @@ id: p_1eDGUA4h2MBNDhEo468hA9
 status: active
 merged_into: null
 display_name: 王玘
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_pWTxftRzAWZb6lSvwW2vYU
+        subject_person_id: p_1eDGUA4h2MBNDhEo468hA9
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_waicV9Fo2q7nkgGJNdNMWK
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Pm3TFIc5An1sGAuG_HI7XA
+          claim_id: c_pWTxftRzAWZb6lSvwW2vYU
+          source_id: s_xeyDUNW7nZ6ZFRaYA3FmGZ
+          stance: supports
+          locator: 嘉靖三十二年進士登科錄:一卷，第三甲第九十七名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_waicV9Fo2q7nkgGJNdNMWK
+        status: active
+        display_name: 王察言
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_waicV9Fo2q7nkgGJNdNMWK | 王察言 | accepted |
 
 ## 外部来源
 

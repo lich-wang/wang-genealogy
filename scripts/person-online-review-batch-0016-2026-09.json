@@ -1,0 +1,23 @@
+{
+  "schema": "wang-person-online-review-batch/v1",
+  "reviewer": "luna",
+  "reviewed_at": "2026-09-10",
+  "queue_positions": [151, 160],
+  "summary": { "reviewed": 10, "proposed": 1, "unchanged": 9, "manual_review": 1, "relationships_added": 1 },
+  "results": [
+    { "position": 151, "person_id": "p_1dy3RBbxnoqV9q43JiJa8u", "name": "王家坊", "external_id": "CBDB:637169", "decision": "unchanged" },
+    { "position": 152, "person_id": "p_1DZCXowTYGJQZjmYkj33RY", "name": "王炳燮", "external_id": "CBDB:71914", "decision": "unchanged" },
+    { "position": 153, "person_id": "p_1dZvkuZQM68RGosi7sKQG6", "name": "王牧", "external_id": "CBDB:241088", "decision": "unchanged", "ignored_relations": ["弟 王育（CBDB 208149）"] },
+    { "position": 154, "person_id": "p_1E46KsM7pMvrQftHvAkFrZ", "name": "王賓", "external_id": "CBDB:126776", "decision": "unchanged" },
+    { "position": 155, "person_id": "p_1EatzxCEuA8v7SeSNyZF3y", "name": "王仲方", "external_id": "CBDB:690111", "decision": "unchanged", "manual_review": [{ "kind": "unsourced_kinship", "name": "王璘（CBDB 22213）", "note": "CBDB 记为父，但该条底本为“未知”，无法排除仅凭同名自动挂接；暂不物化。" }] },
+    { "position": 156, "person_id": "p_1EcG7THbghLqetxLrmUYy9", "name": "王察", "external_id": "CBDB:382305", "decision": "unchanged" },
+    { "position": 157, "person_id": "p_1eDGUA4h2MBNDhEo468hA9", "name": "王玘", "external_id": "CBDB:317014", "decision": "proposed", "relationships": [{ "predicate": "kinship.ancestor_of", "subject": "p_1eDGUA4h2MBNDhEo468hA9", "object": "p_waicV9Fo2q7nkgGJNdNMWK", "generation_count": 3, "locator": "嘉靖三十二年進士登科錄:一卷，第三甲第九十七名：曾孫; 重孫" }] },
+    { "position": 158, "person_id": "p_1EDkxg7n9AAdAAF99rMXuQ", "name": "王恩啟", "external_id": "CBDB:637833", "decision": "unchanged" },
+    { "position": 159, "person_id": "p_1EHMCErKECPeK2kCw1QG9A", "name": "王鵬博", "external_id": "CBDB:641009", "decision": "unchanged" },
+    { "position": 160, "person_id": "p_1EJWRnnmajBZEiSqLonCFs", "name": "王成麟", "external_id": "CBDB:638052", "decision": "unchanged" }
+  ],
+  "relationships": [
+    { "subject": "p_1eDGUA4h2MBNDhEo468hA9", "object": "p_waicV9Fo2q7nkgGJNdNMWK", "predicate": "kinship.ancestor_of", "generation_count": 3 }
+  ],
+  "unchanged": ["p_1dy3RBbxnoqV9q43JiJa8u", "p_1DZCXowTYGJQZjmYkj33RY", "p_1dZvkuZQM68RGosi7sKQG6", "p_1E46KsM7pMvrQftHvAkFrZ", "p_1EatzxCEuA8v7SeSNyZF3y", "p_1EcG7THbghLqetxLrmUYy9", "p_1EDkxg7n9AAdAAF99rMXuQ", "p_1EHMCErKECPeK2kCw1QG9A", "p_1EJWRnnmajBZEiSqLonCFs"]
+}
