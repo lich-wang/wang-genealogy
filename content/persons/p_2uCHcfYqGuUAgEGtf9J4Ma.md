@@ -4,7 +4,7 @@ id: p_2uCHcfYqGuUAgEGtf9J4Ma
 status: active
 merged_into: null
 display_name: 王東珣
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_II0Ehbpu4Ouj03k3w6S1Wx
+        subject_person_id: p_11QT6G8zMZ2KEb6RXCMf9i
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_2uCHcfYqGuUAgEGtf9J4Ma
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KY6JxPZVmJxewB6lERgeLw
+          claim_id: c_II0Ehbpu4Ouj03k3w6S1Wx
+          source_id: s_9TQW4Q16DZe37taJP5JP9C
+          stance: supports
+          locator: PersonKinshipInfo：次子（王東珣）
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_9TQW4Q16DZe37taJP5JP9C
+            source_type: api_record
+            title: 中国历代人物传记资料库：王悅（CBDB 12126）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=12126&o=json
+            external_identifier: CBDB:12126
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.587Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_11QT6G8zMZ2KEb6RXCMf9i
+        status: active
+        display_name: 王悅
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_11QT6G8zMZ2KEb6RXCMf9i | 王悅 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王東珣（CBDB 12127）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=12127&o=json)
+- [中国历代人物传记资料库：王悅（CBDB 12126）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=12126&o=json)

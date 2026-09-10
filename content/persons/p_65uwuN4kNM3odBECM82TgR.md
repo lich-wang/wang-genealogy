@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王光宗
 cbdb_id: 524330
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -87,7 +87,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_LjvtOz5Cuva1jSROAqGMVD
+        subject_person_id: p_65uwuN4kNM3odBECM82TgR
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_V79sffhr8EsGA7KMPhMvfm
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_oLERKW6xY5gz75R99jmH7g
+          claim_id: c_LjvtOz5Cuva1jSROAqGMVD
+          source_id: s_PaZFEvqn3Ui7QLvfYuYAk1
+          stance: supports
+          locator: IHP 人名權威資料 10840：祖父王光宗、父王景聖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_PaZFEvqn3Ui7QLvfYuYAk1
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瓚（CBDB 67236）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67236&o=json
+            external_identifier: CBDB:67236
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.980Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_V79sffhr8EsGA7KMPhMvfm
+        status: active
+        display_name: 王景聖
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_V79sffhr8EsGA7KMPhMvfm | 王景聖 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王光宗（CBDB 524330）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=524330&o=json)
+- [中国历代人物传记资料库：王瓚（CBDB 67236）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67236&o=json)

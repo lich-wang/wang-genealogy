@@ -4,7 +4,7 @@ id: p_o3rUP2kQ1XZ8uF6hpE5TbV
 status: active
 merged_into: null
 display_name: 王恢
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,71 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_b-fbNGB0IN5UIeM43TKYfH
+        subject_person_id: p_hsrd5jGJNsGh8XhCPGY3RN
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_o3rUP2kQ1XZ8uF6hpE5TbV
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KcJjhte2_YvyKhj20NJlog
+          claim_id: c_b-fbNGB0IN5UIeM43TKYfH
+          source_id: s_ZeEXZ4gqmGctbEfXb8vPv6
+          stance: supports
+          locator: 嘉靖二十六年進士登科錄:一卷，第三甲第一百六十五名：曾祖、祖父、父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: &a2
+            id: s_ZeEXZ4gqmGctbEfXb8vPv6
+            source_type: api_record
+            title: 中国历代人物传记资料库：王任用（CBDB 203867）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203867&o=json
+            external_identifier: CBDB:203867
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.803Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_hsrd5jGJNsGh8XhCPGY3RN
+        status: active
+        display_name: 王訓
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_1uE_tPyaLic2lSv2TO3vy0
+        subject_person_id: p_o3rUP2kQ1XZ8uF6hpE5TbV
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_CvzpEJfQqQbdZFgH5SKxcJ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_sOsOO8ba5Wy-X506L0NnqE
+          claim_id: c_1uE_tPyaLic2lSv2TO3vy0
+          source_id: s_ZeEXZ4gqmGctbEfXb8vPv6
+          stance: supports
+          locator: 嘉靖二十六年進士登科錄:一卷，第三甲第一百六十五名：曾祖、祖父、父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_CvzpEJfQqQbdZFgH5SKxcJ
+        status: active
+        display_name: 王時雨
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,7 +160,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_hsrd5jGJNsGh8XhCPGY3RN | 王訓 | accepted |
+| children | p_CvzpEJfQqQbdZFgH5SKxcJ | 王時雨 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王恢（CBDB 311205）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=311205&o=json)
+- [中国历代人物传记资料库：王任用（CBDB 203867）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203867&o=json)

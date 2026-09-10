@@ -4,7 +4,7 @@ id: p_12ENn8i513xnkn8JBTb6gA
 status: active
 merged_into: null
 display_name: 王溥
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_0-gHK5Oo6UfXURvKwxT8uO
+        subject_person_id: p_12ENn8i513xnkn8JBTb6gA
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_WpmK1LLF92wQ4nu3TJsJw7
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ygh185pQ7kO2FiufdgFdc3
+          claim_id: c_0-gHK5Oo6UfXURvKwxT8uO
+          source_id: s_F3UPSz5VW8gNYjakcLBu2F
+          stance: supports
+          locator: 隆慶五年進士登科錄:一卷，第三甲第二十名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_WpmK1LLF92wQ4nu3TJsJw7
+        status: active
+        display_name: 王庭
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_WpmK1LLF92wQ4nu3TJsJw7 | 王庭 | accepted |
 
 ## 外部来源
 

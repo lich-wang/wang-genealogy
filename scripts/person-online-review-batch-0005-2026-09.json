@@ -1,0 +1,16 @@
+{
+  "schema":"wang-person-online-review-batch/v1","reviewer":"luna","reviewed_at":"2026-09-09","queue_positions":[41,50],
+  "summary":{"reviewed":10,"proposed":0,"unchanged":10,"manual_review":1,"relationships_added":0},
+  "results":[
+    {"position":41,"person_id":"p_15y8ZEgZz9qqrA8SRM1Jm8","name":"王炫","external_id":"CBDB:505292","decision":"unchanged","relationships":[]},
+    {"position":42,"person_id":"p_15ZxJBjMwdYPjPybzLR5sG","name":"王璠","external_id":"CBDB:255908","decision":"unchanged","relationships":[],"ignored_relations":["弟"]},
+    {"position":43,"person_id":"p_161GNVSM8DiRJnB3XBWjtc","name":"王景亮","external_id":"CBDB:38058","decision":"unchanged","relationships":[],"manual_review":[{"kind":"spouse_endpoint","name":"張氏（王景亮妻）","external_id":"CBDB:38063","locator":"宋人傳記資料索引(電子版)：妻子","note":"配偶尚未入库；建立最小配偶端点前需复核。"}]},
+    {"position":44,"person_id":"p_165JvZDKBHBjeynVHmRARE","name":"王深","external_id":"CBDB:468214","decision":"unchanged","relationships":[]},
+    {"position":45,"person_id":"p_166au4zZnzi8yCQsEi7E93","name":"王欽","external_id":"CBDB:491169","decision":"unchanged","relationships":[]},
+    {"position":46,"person_id":"p_167CXEsqNNe3jC2PsxkRFM","name":"王文質","external_id":"CBDB:687262","decision":"unchanged","relationships":[]},
+    {"position":47,"person_id":"p_167r24cVPHRwbrhrhBWRFh","name":"王佐","external_id":"CBDB:67283","decision":"unchanged","relationships":[]},
+    {"position":48,"person_id":"p_16AGHupVcMjCzZiksp1An6","name":"王義","external_id":"CBDB:100876","decision":"unchanged","relationships":[]},
+    {"position":49,"person_id":"p_16bBevNKHhwAUZxMrEvmqS","name":"王舜年","external_id":"CBDB:466379","decision":"unchanged","relationships":[]},
+    {"position":50,"person_id":"p_16c8P6sc7MdPtJt6rwPhUD","name":"王謩","external_id":"CBDB:487038","decision":"unchanged","relationships":[]}
+  ]
+}

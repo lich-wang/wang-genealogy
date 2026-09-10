@@ -4,7 +4,7 @@ id: p_1AkPLN4jpbDDRN9hsKXn8b
 status: active
 merged_into: null
 display_name: 王安
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_9WKXfZh9J0mtcmhcXDcpZo
+        subject_person_id: p_1AkPLN4jpbDDRN9hsKXn8b
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_RCL72tBj6tofvSVsLY2voQ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mG7VGK7GyTkfLK2rADHvtw
+          claim_id: c_9WKXfZh9J0mtcmhcXDcpZo
+          source_id: s_H4jFAwgWWBH9gKFtqHk52X
+          stance: supports
+          locator: 弘治十八年進士登科錄:一卷，第三甲第九十一名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_RCL72tBj6tofvSVsLY2voQ
+        status: active
+        display_name: 王希孟
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_RCL72tBj6tofvSVsLY2voQ | 王希孟 | accepted |
 
 ## 外部来源
 

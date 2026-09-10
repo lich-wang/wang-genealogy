@@ -4,7 +4,7 @@ id: p_15eeBkVsaekxgLBnZp3VuC
 status: active
 merged_into: null
 display_name: 王炎午
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,8 +128,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_XcMRDc8sAB31RDZ-Iq6K1z
+        subject_person_id: p_q81q3PkerhDLZkUmCUStf4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_15eeBkVsaekxgLBnZp3VuC
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qdtobUIzI68t08nbmpCq1Y
+          claim_id: c_XcMRDc8sAB31RDZ-Iq6K1z
+          source_id: s_DAHNRvZ4JWoGtAPgXnN5BQ
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1673;1674：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_q81q3PkerhDLZkUmCUStf4
+        status: active
+        display_name: 刘氏
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_bANA1kGKl7tkch2af4pROs
+        subject_person_id: p_15eeBkVsaekxgLBnZp3VuC
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_wHqDNVMPHqNfDHv4xucqMF
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MFs0iFCMPs9hreCQqSuFH7
+          claim_id: c_bANA1kGKl7tkch2af4pROs
+          source_id: s_DAHNRvZ4JWoGtAPgXnN5BQ
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1673;1676：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_wHqDNVMPHqNfDHv4xucqMF
+        status: active
+        display_name: 王留孙
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +207,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_q81q3PkerhDLZkUmCUStf4 | 刘氏 | accepted |
+| children | p_wHqDNVMPHqNfDHv4xucqMF | 王留孙 | accepted |
 
 ## 外部来源
 

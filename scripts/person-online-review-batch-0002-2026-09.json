@@ -1,0 +1,23 @@
+{
+  "schema": "wang-person-online-review-batch/v1",
+  "reviewer": "luna",
+  "reviewed_at": "2026-09-09",
+  "queue_positions": [11, 20],
+  "summary": { "reviewed": 10, "proposed": 5, "unchanged": 5, "manual_review": 1, "relationships_added": 7 },
+  "results": [
+    { "position": 11, "person_id": "p_122U3UcQxnXPB1MWFG1BEz", "name": "王綰", "external_id": "CBDB:1914", "decision": "unchanged", "relationships": [] },
+    { "position": 12, "person_id": "p_127UF7yvGqCLXapDi883c4", "name": "王貽永", "external_id": "CBDB:1829", "decision": "proposed", "relationships": [
+      { "predicate": "kinship.father_of", "subject": "p_KwbmAJ2D4cYa2NFwUSg9RA", "object": "p_dTXH6ubpBbfKsj26LKdQqL", "generation_count": null, "locator": "BasicInfo Notes：父王貽正、祖父王溥" },
+      { "predicate": "kinship.father_of", "subject": "p_dTXH6ubpBbfKsj26LKdQqL", "object": "p_127UF7yvGqCLXapDi883c4", "generation_count": null, "locator": "PersonKinshipInfo：父（王貽正）" },
+      { "predicate": "kinship.father_of", "subject": "p_127UF7yvGqCLXapDi883c4", "object": "p_vgoWcNsg5TJm8CAAjNf5Xr", "generation_count": null, "locator": "宋人傳記資料索引(電子版)，1966：子" }
+    ], "manual_review": [{ "kind": "spouse_identity", "related_cbdb_ids": ["CBDB:38089", "CBDB:691876"], "note": "趙氏（王貽永妻）与鄭國懿順大長公主可能是同一人，须先消歧；本批不物化。" }], "skipped_out_of_scope": [{ "name": "申氏（王貽永母）", "external_id": "CBDB:691871", "reason": "非王姓父母且非配偶，超出收录边界。" }] },
+    { "position": 13, "person_id": "p_12DEVgMDKmXWxrfKEnUPE7", "name": "王琅", "external_id": "CBDB:217181", "decision": "proposed", "relationships": [{ "predicate": "kinship.father_of", "subject": "p_12DEVgMDKmXWxrfKEnUPE7", "object": "p_JL51TddY85M5VjjQdk9Dbd", "generation_count": null, "locator": "天順八年進士登科錄:一卷，第三甲第一百五十名：子" }] },
+    { "position": 14, "person_id": "p_12ENn8i513xnkn8JBTb6gA", "name": "王溥", "external_id": "CBDB:209008", "decision": "proposed", "relationships": [{ "predicate": "kinship.ancestor_of", "subject": "p_12ENn8i513xnkn8JBTb6gA", "object": "p_WpmK1LLF92wQ4nu3TJsJw7", "generation_count": 2, "locator": "隆慶五年進士登科錄:一卷，第三甲第二十名：孫" }] },
+    { "position": 15, "person_id": "p_12fugntPdQ95DSE9i3S65K", "name": "王愷", "external_id": "CBDB:71138", "decision": "unchanged", "relationships": [] },
+    { "position": 16, "person_id": "p_12gEHbYtnZsV9GiCjyw7WA", "name": "王溱", "external_id": "CBDB:503162", "decision": "unchanged", "relationships": [] },
+    { "position": 17, "person_id": "p_12jgJLHbKkLvQcFSkbKykL", "name": "王沛膏", "external_id": "CBDB:639056", "decision": "unchanged", "relationships": [] },
+    { "position": 18, "person_id": "p_12q5jBq6XL9aBiWK6P4q54", "name": "王理", "external_id": "CBDB:312785", "decision": "proposed", "relationships": [{ "predicate": "kinship.father_of", "subject": "p_12q5jBq6XL9aBiWK6P4q54", "object": "p_tBUiiaLdovkgJJmciCi2LY", "generation_count": null, "locator": "天順四年進士登科錄:一卷，第二甲第三十三名：子" }] },
+    { "position": 19, "person_id": "p_12QVqUWNEpNLYLoMQszsiR", "name": "王澄", "external_id": "CBDB:319423", "decision": "proposed", "relationships": [{ "predicate": "kinship.ancestor_of", "subject": "p_12QVqUWNEpNLYLoMQszsiR", "object": "p_RFP8uQh7mfvwWjCYzUDpGk", "generation_count": 2, "locator": "嘉靖三十五年進士登科錄:一卷，第二甲第三十七名：孫" }] },
+    { "position": 20, "person_id": "p_131T1NnjTKYWeJb43vsBhP", "name": "王華", "external_id": "CBDB:467184", "decision": "unchanged", "relationships": [] }
+  ]
+}

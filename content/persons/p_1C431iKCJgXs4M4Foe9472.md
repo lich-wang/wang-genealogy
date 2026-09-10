@@ -4,7 +4,7 @@ id: p_1C431iKCJgXs4M4Foe9472
 status: active
 merged_into: null
 display_name: 王巖叟
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_i6yBB02gMNM-VEWzgwHieG
+        subject_person_id: p_1KK9DvJk9t52KDW7tdEx3R
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_1C431iKCJgXs4M4Foe9472
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QDLdBsMMmxF7YDazEeLfVs
+          claim_id: c_i6yBB02gMNM-VEWzgwHieG
+          source_id: s_FKX84eUdLLLqADjNPKQQQJ
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1843：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_1KK9DvJk9t52KDW7tdEx3R
+        status: active
+        display_name: 王荀龍
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -155,6 +181,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_1KK9DvJk9t52KDW7tdEx3R | 王荀龍 | accepted |
 
 ## 外部来源
 

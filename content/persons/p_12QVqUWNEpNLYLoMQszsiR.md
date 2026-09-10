@@ -4,7 +4,7 @@ id: p_12QVqUWNEpNLYLoMQszsiR
 status: active
 merged_into: null
 display_name: 王澄
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_jR0Igh735LizkC50dlGim5
+        subject_person_id: p_12QVqUWNEpNLYLoMQszsiR
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_RFP8uQh7mfvwWjCYzUDpGk
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5bX9dsN9EMXYKUxE7YA2se
+          claim_id: c_jR0Igh735LizkC50dlGim5
+          source_id: s_o2xNQ2SH9zMqEEydR3Q8f4
+          stance: supports
+          locator: 嘉靖三十五年進士登科錄:一卷，第二甲第三十七名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_RFP8uQh7mfvwWjCYzUDpGk
+        status: active
+        display_name: 王凝
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_RFP8uQh7mfvwWjCYzUDpGk | 王凝 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_127UF7yvGqCLXapDi883c4
 status: active
 merged_into: null
 display_name: 王貽永
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_LA6uSvW2gM-hWAGss3--AZ
+        subject_person_id: p_dTXH6ubpBbfKsj26LKdQqL
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_127UF7yvGqCLXapDi883c4
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Cxj_Gfpmwr3yUtb5e5BF__
+          claim_id: c_LA6uSvW2gM-hWAGss3--AZ
+          source_id: s_XY9srzhf4QvcQx3M7SMojE
+          stance: supports
+          locator: PersonKinshipInfo：父（王貽正）
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_dTXH6ubpBbfKsj26LKdQqL
+        status: active
+        display_name: 王貽正
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_Xk4HlvpWcBqTojcQ1taJgc
+        subject_person_id: p_127UF7yvGqCLXapDi883c4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_vgoWcNsg5TJm8CAAjNf5Xr
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_brXm2tPMCz7IayyxHzkRrM
+          claim_id: c_Xk4HlvpWcBqTojcQ1taJgc
+          source_id: s_XY9srzhf4QvcQx3M7SMojE
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1966：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_vgoWcNsg5TJm8CAAjNf5Xr
+        status: active
+        display_name: 王道卿
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_dTXH6ubpBbfKsj26LKdQqL | 王貽正 | accepted |
+| children | p_vgoWcNsg5TJm8CAAjNf5Xr | 王道卿 | accepted |
 
 ## 外部来源
 

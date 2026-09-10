@@ -4,7 +4,7 @@ id: p_EAKJt6kT5T4F5kcYrF9f6y
 status: active
 merged_into: null
 display_name: 王玠
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -105,7 +105,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_V1BDeFlFMX5KnmvxIiq78q
+        subject_person_id: p_1BUERPSE2qTiZp6JCwdvN5
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_EAKJt6kT5T4F5kcYrF9f6y
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cR1Ib8dkcFxX8p4quM4lIq
+          claim_id: c_V1BDeFlFMX5KnmvxIiq78q
+          source_id: s_i387Vtc8AvgYW6GnRdVjnc
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄：曾孫；重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_i387Vtc8AvgYW6GnRdVjnc
+            source_type: api_record
+            title: 中国历代人物传记资料库：王忠（CBDB 230872）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=230872&o=json
+            external_identifier: CBDB:230872
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.622Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_1BUERPSE2qTiZp6JCwdvN5
+        status: active
+        display_name: 王忠
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_1BUERPSE2qTiZp6JCwdvN5 | 王忠 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王玠（CBDB 207286）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207286&o=json)
+- [中国历代人物传记资料库：王忠（CBDB 230872）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=230872&o=json)

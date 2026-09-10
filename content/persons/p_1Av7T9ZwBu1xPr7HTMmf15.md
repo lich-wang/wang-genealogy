@@ -4,7 +4,7 @@ id: p_1Av7T9ZwBu1xPr7HTMmf15
 status: active
 merged_into: null
 display_name: 王堂
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_d7GsbPC5CMzGwPSstAoA2d
+        subject_person_id: p_1NoLGELS55sxBxKNhbH7WB
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_1Av7T9ZwBu1xPr7HTMmf15
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_k9zsT2XfCnzQMP0xEpGAb7
+          claim_id: c_d7GsbPC5CMzGwPSstAoA2d
+          source_id: s_5S7KCAfRwEjrqMxDVJVinm
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_1NoLGELS55sxBxKNhbH7WB
+        status: active
+        display_name: 王文
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_1NoLGELS55sxBxKNhbH7WB | 王文 | accepted |
 
 ## 外部来源
 

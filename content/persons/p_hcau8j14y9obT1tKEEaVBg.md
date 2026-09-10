@@ -4,7 +4,7 @@ id: p_hcau8j14y9obT1tKEEaVBg
 status: active
 merged_into: null
 display_name: 王霆
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_PBQKY_HcUWfaeTiOFa0dn5
+        subject_person_id: p_hcau8j14y9obT1tKEEaVBg
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_11VHy3Y2n8cYGBfjtV3Dbz
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_V7_ZZ6Ufa8JXF-XPbAJnS1
+          claim_id: c_PBQKY_HcUWfaeTiOFa0dn5
+          source_id: s_137hBXJEFC186D2c7P1EhU
+          stance: supports
+          locator: 宋史，王霆傳：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_137hBXJEFC186D2c7P1EhU
+            source_type: api_record
+            title: 中国历代人物传记资料库：王安國（CBDB 101173）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=101173&o=json
+            external_identifier: CBDB:101173
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:14.724Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_11VHy3Y2n8cYGBfjtV3Dbz
+        status: active
+        display_name: 王安國
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_11VHy3Y2n8cYGBfjtV3Dbz | 王安國 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王安國（CBDB 101173）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=101173&o=json)
 - [中国历代人物传记资料库：王霆（CBDB 37861）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37861&o=json)

@@ -1,0 +1,19 @@
+{
+  "schema": "wang-person-online-review-batch/v1",
+  "reviewer": "luna",
+  "reviewed_at": "2026-09-09",
+  "queue_positions": [1, 10],
+  "summary": { "reviewed": 10, "proposed": 7, "unchanged": 3, "manual_review": 0, "relationships_added": 10 },
+  "results": [
+    { "position": 1, "person_id": "p_1153YmzQrFf4MqpahVJUVe", "name": "王俊卿", "external_id": "CBDB:227928", "decision": "proposed", "relationships": [{ "predicate": "kinship.ancestor_of", "subject": "p_1153YmzQrFf4MqpahVJUVe", "object": "p_gYCzF6vom9uRciu3ySukCo", "generation_count": 3 }] },
+    { "position": 2, "person_id": "p_118579QWz8dGbmtPQtEUvj", "name": "王兆雲", "external_id": "CBDB:636221", "decision": "unchanged", "relationships": [] },
+    { "position": 3, "person_id": "p_11fTNqG9anHNZWcmN5xUv7", "name": "王相", "external_id": "CBDB:226917", "decision": "proposed", "relationships": [{ "predicate": "kinship.ancestor_of", "subject": "p_11fTNqG9anHNZWcmN5xUv7", "object": "p_NGHFT8W3h8WaBq7fkVhjck", "generation_count": 2 }] },
+    { "position": 4, "person_id": "p_11FWC6oFexYsE4x2p3yyZp", "name": "王伯大", "external_id": "CBDB:101181", "decision": "unchanged", "relationships": [] },
+    { "position": 5, "person_id": "p_11iWb9gejmcDFDWm3HpHGM", "name": "王彪", "external_id": "CBDB:190092", "decision": "proposed", "relationships": [{ "predicate": "kinship.father_of", "subject": "p_XHyvJtE4AFhgXPWDApbS3G", "object": "p_11iWb9gejmcDFDWm3HpHGM" }, { "predicate": "kinship.father_of", "subject": "p_11iWb9gejmcDFDWm3HpHGM", "object": "p_tMG7KPDU3KLVpHRvgs3g63" }] },
+    { "position": 6, "person_id": "p_11MSZMVXxRShpojSiW7snG", "name": "王朝用", "external_id": "CBDB:638634", "decision": "unchanged", "relationships": [] },
+    { "position": 7, "person_id": "p_11QT6G8zMZ2KEb6RXCMf9i", "name": "王悅", "external_id": "CBDB:12126", "decision": "proposed", "relationships": [{ "predicate": "kinship.father_of", "subject": "p_cRLSAHFJHoJPUza3pFx6hs", "object": "p_11QT6G8zMZ2KEb6RXCMf9i" }, { "predicate": "kinship.father_of", "subject": "p_11QT6G8zMZ2KEb6RXCMf9i", "object": "p_2uCHcfYqGuUAgEGtf9J4Ma" }] },
+    { "position": 8, "person_id": "p_11RhKLzn2Mi6Moy5jEp4MD", "name": "王汝猷", "external_id": "CBDB:291880", "decision": "proposed", "relationships": [{ "predicate": "kinship.father_of", "subject": "p_11RhKLzn2Mi6Moy5jEp4MD", "object": "p_oDCtFv3cf2CiUbXVcBy9FF" }] },
+    { "position": 9, "person_id": "p_11VHy3Y2n8cYGBfjtV3Dbz", "name": "王安國", "external_id": "CBDB:101173", "decision": "proposed", "relationships": [{ "predicate": "kinship.ancestor_of", "subject": "p_hcau8j14y9obT1tKEEaVBg", "object": "p_11VHy3Y2n8cYGBfjtV3Dbz", "generation_count": 2 }] },
+    { "position": 10, "person_id": "p_121ZuM6cn6h5tFBRPmBPBT", "name": "王九功", "external_id": "CBDB:175976", "decision": "proposed", "relationships": [{ "predicate": "kinship.father_of", "subject": "p_GsA3E3fpoGBL3KAwr5V6BX", "object": "p_121ZuM6cn6h5tFBRPmBPBT" }, { "predicate": "kinship.father_of", "subject": "p_121ZuM6cn6h5tFBRPmBPBT", "object": "p_qgkpgxy97hH5Ez9wAERUUB" }] }
+  ]
+}

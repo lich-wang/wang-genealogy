@@ -1,0 +1,19 @@
+{
+  "schema": "wang-person-online-review-batch/v1",
+  "reviewer": "luna",
+  "reviewed_at": "2026-09-09",
+  "queue_positions": [21, 30],
+  "summary": { "reviewed": 10, "proposed": 2, "unchanged": 8, "manual_review": 0, "relationships_added": 2 },
+  "results": [
+    { "position": 21, "person_id": "p_132aYSAMGNw8VTxGUWrAsn", "name": "王志遠", "external_id": "CBDB:126539", "decision": "unchanged", "relationships": [] },
+    { "position": 22, "person_id": "p_134eFWApSDSA3YicLLEfKS", "name": "王璽", "external_id": "CBDB:341760", "decision": "unchanged", "relationships": [] },
+    { "position": 23, "person_id": "p_137v6VDSGN8QnHX3Wi5DRs", "name": "王珪", "external_id": "CBDB:491578", "decision": "unchanged", "relationships": [] },
+    { "position": 24, "person_id": "p_13ghJqQJVLDqAzj5qwLrLg", "name": "王元蘅", "external_id": "CBDB:341792", "decision": "unchanged", "relationships": [] },
+    { "position": 25, "person_id": "p_13gQHDnpDKBDffrUVTMW5N", "name": "王宏", "external_id": "CBDB:100671", "decision": "unchanged", "relationships": [] },
+    { "position": 26, "person_id": "p_13JDpAT34hTX3KU7Bz5ogh", "name": "王日新", "external_id": "CBDB:506877", "decision": "unchanged", "relationships": [] },
+    { "position": 27, "person_id": "p_13RmhF22e6LFRmpmecd8LK", "name": "王忠", "external_id": "CBDB:237775", "decision": "proposed", "relationships": [{ "predicate": "kinship.father_of", "subject": "p_13RmhF22e6LFRmpmecd8LK", "object": "p_rEM4FmnErK6MdZnXyWnxsa", "generation_count": null, "locator": "成化二年進士登科錄:一卷，第三甲第九十名：子" }] },
+    { "position": 28, "person_id": "p_13Xd7AsGJYZQwj7FeorAp8", "name": "王徵", "external_id": "CBDB:65826", "decision": "unchanged", "relationships": [] },
+    { "position": 29, "person_id": "p_13Zytad1dt6fDx9yVchgcS", "name": "王銑", "external_id": "CBDB:497830", "decision": "unchanged", "relationships": [] },
+    { "position": 30, "person_id": "p_147vTB9B2hmyVeDmch7YB2", "name": "王應先", "external_id": "CBDB:326107", "decision": "proposed", "relationships": [{ "predicate": "kinship.ancestor_of", "subject": "p_147vTB9B2hmyVeDmch7YB2", "object": "p_BiHBv5kE6hFqq82j1ZogDT", "generation_count": 2, "locator": "景泰二年進士登科錄:一卷，第三甲第五名：孫" }] }
+  ]
+}

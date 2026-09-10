@@ -1,0 +1,28 @@
+{
+  "schema": "wang-person-online-review-batch/v1",
+  "reviewer": "luna",
+  "reviewed_at": "2026-09-09",
+  "queue_positions": [51, 60],
+  "summary": { "reviewed": 10, "proposed": 4, "unchanged": 6, "manual_review": 1, "relationships_added": 7 },
+  "results": [
+    { "position": 51, "person_id": "p_16ha2YtS6eGhgo4wdoM39V", "name": "王瓚", "external_id": "CBDB:67236", "decision": "proposed" },
+    { "position": 52, "person_id": "p_16LZfjJgFKsuKHxg2CeNoF", "name": "王成緒", "external_id": "CBDB:638046", "decision": "unchanged" },
+    { "position": 53, "person_id": "p_16MmSS3utaAD7uCEKL7nkU", "name": "王來聘", "external_id": "CBDB:335619", "decision": "unchanged", "note": "仅有弟关系，按领域规则不记录" },
+    { "position": 54, "person_id": "p_16nv23omiPWM5bXpCbD3EC", "name": "王儒", "external_id": "CBDB:204801", "decision": "proposed", "manual_review": "妻徐氏（CBDB 324277）尚未建立配偶端点；母沈氏越界不录" },
+    { "position": 55, "person_id": "p_16RbGhSEcKBxA1f5LMSqsr", "name": "王由道", "external_id": "CBDB:559947", "decision": "unchanged" },
+    { "position": 56, "person_id": "p_17ezvsyBGPRAey9AHdjJyJ", "name": "王徹", "external_id": "CBDB:148530", "decision": "proposed" },
+    { "position": 57, "person_id": "p_17g9WzHBmm92T5vCwaiK4M", "name": "王國嶼", "external_id": "CBDB:636646", "decision": "unchanged" },
+    { "position": 58, "person_id": "p_17iFZ1jdT8TPiQ1KScjNMT", "name": "王璵", "external_id": "CBDB:380551", "decision": "unchanged" },
+    { "position": 59, "person_id": "p_17jinvJgJkNfMHNLccVsdR", "name": "王能", "external_id": "CBDB:493871", "decision": "unchanged" },
+    { "position": 60, "person_id": "p_17jUtXnoMjU3kpESe25w4v", "name": "王道生", "external_id": "CBDB:226710", "decision": "proposed" }
+  ],
+  "relationships": [
+    { "subject": "p_65uwuN4kNM3odBECM82TgR", "object": "p_V79sffhr8EsGA7KMPhMvfm", "predicate": "kinship.father_of" },
+    { "subject": "p_V79sffhr8EsGA7KMPhMvfm", "object": "p_16ha2YtS6eGhgo4wdoM39V", "predicate": "kinship.father_of" },
+    { "subject": "p_WvSGc6pWDJNiRH33Kr62rr", "object": "p_RpANZtrRwU83qAy8Q8XYEf", "predicate": "kinship.father_of" },
+    { "subject": "p_RpANZtrRwU83qAy8Q8XYEf", "object": "p_m9QLtFof8trVhJCPC8QcyA", "predicate": "kinship.father_of" },
+    { "subject": "p_m9QLtFof8trVhJCPC8QcyA", "object": "p_16nv23omiPWM5bXpCbD3EC", "predicate": "kinship.father_of" },
+    { "subject": "p_17ezvsyBGPRAey9AHdjJyJ", "object": "p_9QZBWQgHqPERh36EdZ7qck", "predicate": "kinship.father_of" },
+    { "subject": "p_17jUtXnoMjU3kpESe25w4v", "object": "p_Wgw4bGM6hG66ToMF6agV3N", "predicate": "kinship.father_of" }
+  ]
+}

@@ -4,7 +4,7 @@ id: p_1ACKLnuM8rd7xX3FtfoL2G
 status: active
 merged_into: null
 display_name: 王源
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_ldW1NwY_3q4YpJDzUbcGgL
+        subject_person_id: p_1ACKLnuM8rd7xX3FtfoL2G
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_LrwY5tXkYCUNXA8ZrdXwSb
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VDmbh9wKKpW1lgOhW48bXC
+          claim_id: c_ldW1NwY_3q4YpJDzUbcGgL
+          source_id: s_tNDproXMSfVB1nCM9DLLmB
+          stance: supports
+          locator: 嘉靖十四年進士登科錄:一卷，第三甲第一百零三名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_LrwY5tXkYCUNXA8ZrdXwSb
+        status: active
+        display_name: 王維楨
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_LrwY5tXkYCUNXA8ZrdXwSb | 王維楨 | accepted |
 
 ## 外部来源
 

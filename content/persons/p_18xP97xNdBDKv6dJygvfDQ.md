@@ -4,7 +4,7 @@ id: p_18xP97xNdBDKv6dJygvfDQ
 status: active
 merged_into: null
 display_name: 王迥
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_o5pV0NYNZ8rlocOGiBj5rP
+        subject_person_id: p_F8NZqodJZq6dvtt7kXmm8U
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_18xP97xNdBDKv6dJygvfDQ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zAodw_iFzETRSup1iLC_Af
+          claim_id: c_o5pV0NYNZ8rlocOGiBj5rP
+          source_id: s_a3jvJj3mziCfCqi2zx4GQS
+          stance: supports
+          locator: CBDB PersonKinshipInfo：父、子、孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_F8NZqodJZq6dvtt7kXmm8U
+        status: active
+        display_name: 王徽
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_KA4ceuhml8VhcjXoohyfQ4
+        subject_person_id: p_18xP97xNdBDKv6dJygvfDQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_JM5uLVVjFnCGT8GqMYeHgG
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QPRurdV1FyXhdiPxx2mU_h
+          claim_id: c_KA4ceuhml8VhcjXoohyfQ4
+          source_id: s_a3jvJj3mziCfCqi2zx4GQS
+          stance: supports
+          locator: CBDB PersonKinshipInfo：父、子、孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_JM5uLVVjFnCGT8GqMYeHgG
+        status: active
+        display_name: 王思文
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_F8NZqodJZq6dvtt7kXmm8U | 王徽 | accepted |
+| children | p_JM5uLVVjFnCGT8GqMYeHgG | 王思文 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_158f7PNpeKDhP8PqDUi5rA
 status: active
 merged_into: null
 display_name: 王馴
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_LXABCM3u0ebrDdwR-e4wEh
+        subject_person_id: p_yWVC23hzSUsYCD3NwnfPLE
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_158f7PNpeKDhP8PqDUi5rA
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WM5sWWxUcb6rHPYFvJPi0a
+          claim_id: c_LXABCM3u0ebrDdwR-e4wEh
+          source_id: s_QLDimjK4ySvbqQYyeCU6yH
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)，R 33702：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_yWVC23hzSUsYCD3NwnfPLE
+        status: active
+        display_name: 王瓊
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_hl_CE0LD0K_oDHlnnWM0WU
+        subject_person_id: p_158f7PNpeKDhP8PqDUi5rA
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_pYRXGFH1MvQseutGkDjD1M
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gQCcfL7gn5MUvBtlYTsbxZ
+          claim_id: c_hl_CE0LD0K_oDHlnnWM0WU
+          source_id: s_QLDimjK4ySvbqQYyeCU6yH
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)，R 33701：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_pYRXGFH1MvQseutGkDjD1M
+        status: active
+        display_name: 王恆
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_yWVC23hzSUsYCD3NwnfPLE | 王瓊 | accepted |
+| children | p_pYRXGFH1MvQseutGkDjD1M | 王恆 | accepted |
 
 ## 外部来源
 

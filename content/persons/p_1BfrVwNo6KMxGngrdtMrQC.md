@@ -4,7 +4,7 @@ id: p_1BfrVwNo6KMxGngrdtMrQC
 status: active
 merged_into: null
 display_name: 王煇
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -73,11 +73,63 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_tnKIHKu_cT6_Bci30SxcaP
+        subject_person_id: p_1BfrVwNo6KMxGngrdtMrQC
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_m4LMsDs1QJMNb7B4hFNvPT
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PZRZM6NAflNxtx4Yn6Xu6X
+          claim_id: c_tnKIHKu_cT6_Bci30SxcaP
+          source_id: s_gqmwEU56k6tFMccUQF4t4V
+          stance: supports
+          locator: 寶祐登科錄：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_m4LMsDs1QJMNb7B4hFNvPT
+        status: active
+        display_name: 王壡
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_yENalvVcLlEjZvOUjtLLiR
+        subject_person_id: p_iu7y5uzAHNAHpBHrqhDhMe
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_1BfrVwNo6KMxGngrdtMrQC
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7tNgVKD3VZSEft-kIS9qZ0
+          claim_id: c_yENalvVcLlEjZvOUjtLLiR
+          source_id: s_gqmwEU56k6tFMccUQF4t4V
+          stance: supports
+          locator: 寶祐登科錄：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_iu7y5uzAHNAHpBHrqhDhMe
+        status: active
+        display_name: 王驥
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_m4LMsDs1QJMNb7B4hFNvPT | 王壡 | accepted |
+| ancestors | p_iu7y5uzAHNAHpBHrqhDhMe | 王驥 | accepted |
 
 ## 外部来源
 

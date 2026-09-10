@@ -4,7 +4,7 @@ id: p_GsA3E3fpoGBL3KAwr5V6BX
 status: active
 merged_into: null
 display_name: 王德玄
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -101,7 +101,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_0FiH5s0NFkgQzFXnCeCd0J
+        subject_person_id: p_GsA3E3fpoGBL3KAwr5V6BX
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_121ZuM6cn6h5tFBRPmBPBT
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9Mr4ixnHgDzoz74Mfb_Uh9
+          claim_id: c_0FiH5s0NFkgQzFXnCeCd0J
+          source_id: s_BoVpnTWQqtZHZYCMybbrfh
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)，R 8381：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_BoVpnTWQqtZHZYCMybbrfh
+            source_type: api_record
+            title: 中国历代人物传记资料库：王九功（CBDB 175976）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175976&o=json
+            external_identifier: CBDB:175976
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.228Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_121ZuM6cn6h5tFBRPmBPBT
+        status: active
+        display_name: 王九功
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_121ZuM6cn6h5tFBRPmBPBT | 王九功 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王德玄（CBDB 175975）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175975&o=json)
+- [中国历代人物传记资料库：王九功（CBDB 175976）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175976&o=json)

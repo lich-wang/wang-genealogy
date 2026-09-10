@@ -4,7 +4,7 @@ id: p_11QT6G8zMZ2KEb6RXCMf9i
 status: active
 merged_into: null
 display_name: 王悅
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_kEdV_d9ZRV59mF5EIV8qc_
+        subject_person_id: p_cRLSAHFJHoJPUza3pFx6hs
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_11QT6G8zMZ2KEb6RXCMf9i
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mLD_ZEiGm-0k8oabc_yBTo
+          claim_id: c_kEdV_d9ZRV59mF5EIV8qc_
+          source_id: s_9TQW4Q16DZe37taJP5JP9C
+          stance: supports
+          locator: PersonKinshipInfo：父（王永錫）
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_cRLSAHFJHoJPUza3pFx6hs
+        status: active
+        display_name: 王永錫
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_II0Ehbpu4Ouj03k3w6S1Wx
+        subject_person_id: p_11QT6G8zMZ2KEb6RXCMf9i
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_2uCHcfYqGuUAgEGtf9J4Ma
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KY6JxPZVmJxewB6lERgeLw
+          claim_id: c_II0Ehbpu4Ouj03k3w6S1Wx
+          source_id: s_9TQW4Q16DZe37taJP5JP9C
+          stance: supports
+          locator: PersonKinshipInfo：次子（王東珣）
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_2uCHcfYqGuUAgEGtf9J4Ma
+        status: active
+        display_name: 王東珣
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_cRLSAHFJHoJPUza3pFx6hs | 王永錫 | accepted |
+| children | p_2uCHcfYqGuUAgEGtf9J4Ma | 王東珣 | accepted |
 
 ## 外部来源
 

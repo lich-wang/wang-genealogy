@@ -1,0 +1,13 @@
+{
+  "schema": "wang-person-online-review-batch/v1",
+  "reviewer": "luna",
+  "reviewed_at": "2026-09-09",
+  "queue_positions": [101, 110],
+  "summary": { "reviewed": 10, "proposed": 2, "unchanged": 8, "manual_review": 2, "relationships_added": 3 },
+  "relationships": [
+    { "subject": "p_X3KgUwftEJuFzG5Sp9xV61", "object": "p_1BdwrzHXbPpt9SaMHCG8WV", "predicate": "kinship.father_of" },
+    { "subject": "p_iu7y5uzAHNAHpBHrqhDhMe", "object": "p_1BfrVwNo6KMxGngrdtMrQC", "predicate": "kinship.ancestor_of", "generation_count": 2 },
+    { "subject": "p_1BfrVwNo6KMxGngrdtMrQC", "object": "p_m4LMsDs1QJMNb7B4hFNvPT", "predicate": "kinship.father_of" }
+  ],
+  "manual_review": ["王煇之父王知未唯一定位仓库端点", "王煇妻蕭氏（CBDB 138303）端点未入库"]
+}

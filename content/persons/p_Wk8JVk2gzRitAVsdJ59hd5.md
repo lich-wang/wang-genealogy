@@ -4,7 +4,7 @@ id: p_Wk8JVk2gzRitAVsdJ59hd5
 status: active
 merged_into: null
 display_name: 王鉉
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -105,7 +105,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_DLOXxklgJg0mmn4svtXPT8
+        subject_person_id: p_15BkHSFf25QSrVM7giDU5m
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Wk8JVk2gzRitAVsdJ59hd5
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8BBL7XRc18RX-giHTRQkZz
+          claim_id: c_DLOXxklgJg0mmn4svtXPT8
+          source_id: s_P5Vpy2qjv8uzitA4FGH7RC
+          stance: supports
+          locator: 景泰五年進士登科錄:一卷，第二甲第七名：曾孫；重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_P5Vpy2qjv8uzitA4FGH7RC
+            source_type: api_record
+            title: 中国历代人物传记资料库：王思善（CBDB 248754）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=248754&o=json
+            external_identifier: CBDB:248754
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.160Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_15BkHSFf25QSrVM7giDU5m
+        status: active
+        display_name: 王思善
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_15BkHSFf25QSrVM7giDU5m | 王思善 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王思善（CBDB 248754）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=248754&o=json)
 - [中国历代人物传记资料库：王鉉（CBDB 198267）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198267&o=json)
