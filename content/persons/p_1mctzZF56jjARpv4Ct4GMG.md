@@ -4,7 +4,7 @@ id: p_1mctzZF56jjARpv4Ct4GMG
 status: active
 merged_into: null
 display_name: 王則
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_Hihxdlg43LotoRppBAbgGg
+        subject_person_id: p_5SGPiz9MZ9u6EsuhPUsUgj
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_1mctzZF56jjARpv4Ct4GMG
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AG5c8oAdj_wSd2jAuin7gQ
+          claim_id: c_Hihxdlg43LotoRppBAbgGg
+          source_id: s_sGNNT41a6uYTV9scwP54wH
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Yonghui 53 YP NewEpitaphID=266：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_5SGPiz9MZ9u6EsuhPUsUgj
+        status: active
+        display_name: 王伯仁
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -155,6 +181,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_5SGPiz9MZ9u6EsuhPUsUgj | 王伯仁 | accepted |
 
 ## 外部来源
 
