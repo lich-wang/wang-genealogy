@@ -1,10 +1,10 @@
 ---
 schema: wang-person/v1
 id: p_9vPNkYXgE5ypKRpd8uYFJG
-status: active
-merged_into: null
+status: merged
+merged_into: p_cstL9BTvsD4SQ3GTDYx54b
 display_name: 王睦
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -128,65 +128,7 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents:
-    - claim:
-        id: c_CjE4Df5U2stCSFtaq6vi2e
-        subject_person_id: p_L84jn2bobEqW6DPu32c5vg
-        claim_kind: relationship
-        predicate: kinship.parent_of
-        object_person_id: p_9vPNkYXgE5ypKRpd8uYFJG
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 2
-      sources:
-        - id: cs_VzUDg8C8BFChwbGMssMs5A
-          claim_id: c_CjE4Df5U2stCSFtaq6vi2e
-          source_id: s_p6T7LvPabQDRJgqL2oYwEH
-          stance: supports
-          locator: P22（父）
-          quotation: null
-          interpretation_note: null
-          source:
-            id: s_p6T7LvPabQDRJgqL2oYwEH
-            source_type: api_record
-            title: 维基数据：王睦（Q100292568）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q100292568
-            external_identifier: Q100292568
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T00:38:03.927Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%9D%A6
-        - id: cs_iki9pkqBLZ49VrA9q48ADS
-          claim_id: c_CjE4Df5U2stCSFtaq6vi2e
-          source_id: s_e3TcvhZK4GEeRDZ93ML51A
-          stance: supports
-          locator: P40（子女）
-          quotation: null
-          interpretation_note: null
-          source:
-            id: s_e3TcvhZK4GEeRDZ93ML51A
-            source_type: api_record
-            title: 维基数据：王邑（Q11573232）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q11573232
-            external_identifier: Q11573232
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T03:10:19.655Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%82%91_(%E6%96%B0%E6%9C%9D)
-      object_person:
-        id: p_L84jn2bobEqW6DPu32c5vg
-        status: active
-        display_name: 王邑
-        merged_into_person_id: null
+  parents: []
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -212,9 +154,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| parents | p_L84jn2bobEqW6DPu32c5vg | 王邑 | accepted |
 
 ## 外部来源
 
 - [维基数据：王睦（Q100292568）](https://www.wikidata.org/wiki/Q100292568)
-- [维基数据：王邑（Q11573232）](https://www.wikidata.org/wiki/Q11573232)

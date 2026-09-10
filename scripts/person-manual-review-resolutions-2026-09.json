@@ -3,7 +3,13 @@
   "reviewed_at": "2026-09-10",
   "merges": [
     { "source": "p_1CAD7Cg5ACndjPsTMwMUQ7", "target": "p_SAKZSsVXkQRnwcLYqa1oYe", "reason": "同为明代王越；CBDB 467429 来源即指向 Wikidata Q15898715，目标已挂父王頤、祖王子忠、曾祖王顯道及妻孫氏。" },
-    { "source": "p_1HLRDPP5GEjvYAj6jfrJ31", "target": "p_6BymFd7sw6j7GAmg7erqPj", "reason": "CBDB 同人两号 184939/92090，父同王縉、子同王晏平；目标已挂父王缙与诸子。" }
+    { "source": "p_1HLRDPP5GEjvYAj6jfrJ31", "target": "p_6BymFd7sw6j7GAmg7erqPj", "reason": "CBDB 同人两号 184939/92090，父同王縉、子同王晏平；目标已挂父王缙与诸子。" },
+    { "source": "p_AYW3SKpFyWc6LQ4SMJ7Ln8", "target": "p_Xategg2TUsqjtsJGVyycV2", "reason": "duplicate-merges.json approve：王祥 Q45408733→Q710053，Wikidata 父均 Q22814786。" },
+    { "source": "p_9vPNkYXgE5ypKRpd8uYFJG", "target": "p_cstL9BTvsD4SQ3GTDYx54b", "reason": "duplicate-merges.json approve：王睦 Q100292568→Q26209973，Wikidata 父均 Q11573232。" },
+    { "source": "p_kdP4rCdMUaqm8XsL572Ypm", "target": "p_nNCdrm1mnJ77Np28ADWXHR", "reason": "duplicate-merges.json approve：王衡（CBDB 124005，太仓）→王衡（王锡爵之子），父王锡爵、子王時敏相同。" }
+  ],
+  "rejected_merges": [
+    { "source": "p_mxbESjeJMqx1uiQKJg1sN2", "target": "p_irTA1gthdaRFGCsbuP9hX4", "reason": "duplicate-merges.json approve 项“王融 Q16906208→Q11573204”系误判：太子中庶子王融（父王奂）与中书郎王融（父王道琰）为两位不同人物；王诵 p_rbZNYEH2GP46qNZ57sZo3K 指向中书郎王融之父系边属错挂，宜另行撤回。" }
   ],
   "accepted_relationships": [
     { "subject": "p_TsLL2qcHwWXimZfdLUPRQw", "object": "p_1coFu8NvA3X5y8iSrc3XXg", "predicate": "kinship.father_of", "evidence": "CBDB 双向 + Wikidata Q45411710/Q45411713" },
@@ -18,6 +24,8 @@
   "remaining": [
     { "kind": "spouse_identity", "note": "王貽永妻：趙氏（CBDB 38089）与鄭國懿順大長公主（CBDB 691876）须先消歧。" },
     { "kind": "spouse_endpoint", "cbdb_ids": ["CBDB:255124", "CBDB:38063", "CBDB:324277", "CBDB:134604", "CBDB:311209", "CBDB:56403", "CBDB:138303", "CBDB:119189"], "note": "配偶端点未入库，需新建最小人物记录。" },
-    { "kind": "ambiguous_parent", "note": "王煇之父王知未唯一定位仓库端点。" }
+    { "kind": "ambiguous_parent", "note": "王煇之父王知未唯一定位仓库端点。" },
+    { "kind": "duplicate_person", "note": "王耆之 p_B1Pwn6…(Q22814794) 与 p_xgQoPQ…(Q45408771) 父同王廙、子各为一条同名王随之，须先合并重复的王随之及其子系。" },
+    { "kind": "duplicate_person", "note": "全库扫描发现迁移前遗留的同名同父重复：王承(王暕子)、王丹(王立子)、王谭(王訢子)、王恕(王承裕父)、王炎午(王留孙父)，建议另立清理批次。" }
   ]
 }

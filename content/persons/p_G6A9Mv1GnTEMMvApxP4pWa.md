@@ -358,81 +358,6 @@ relationships:
         status: active
         display_name: 王览
         merged_into_person_id: null
-    - claim:
-        id: c_C29ZpwpAkcE4aS3my4YgxL
-        subject_person_id: p_G6A9Mv1GnTEMMvApxP4pWa
-        claim_kind: relationship
-        predicate: kinship.parent_of
-        object_person_id: p_AYW3SKpFyWc6LQ4SMJ7Ln8
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 2
-      sources:
-        - id: cs_2jZbDpkCbbinjfhLxa1YZk
-          claim_id: c_C29ZpwpAkcE4aS3my4YgxL
-          source_id: s_S8JbQJEnNKo2LHwZj9XxHh
-          stance: supports
-          locator: P22（父）
-          quotation: null
-          interpretation_note: null
-          source:
-            id: s_S8JbQJEnNKo2LHwZj9XxHh
-            source_type: api_record
-            title: 维基数据：王祥（Q45408733）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q45408733
-            external_identifier: Q45408733
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T00:38:01.056Z
-            metadata_json: null
-        - id: cs_DKP4vBo27jCu63Hr8yU5JY
-          claim_id: c_C29ZpwpAkcE4aS3my4YgxL
-          source_id: s_hKoGvmAvsyR2xVzQX9fBWX
-          stance: supports
-          locator: P40（子女）
-          quotation: null
-          interpretation_note: null
-          source:
-            id: s_hKoGvmAvsyR2xVzQX9fBWX
-            source_type: api_record
-            title: 維基數據：王融（Q22814786）
-            creator: 維基數據貢獻者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q22814786
-            external_identifier: Q22814786
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T02:10:33.786Z
-            metadata_json: null
-        - id: cs_kSMe73tSdXRvAbpfBQoE4K
-          claim_id: c_C29ZpwpAkcE4aS3my4YgxL
-          source_id: s_usi9A3QdLgsHXzkSBTdf9P
-          stance: supports
-          locator: 亲属关系：長子
-          quotation: null
-          interpretation_note: CBDB 注明此条来源：未知
-          source:
-            id: s_usi9A3QdLgsHXzkSBTdf9P
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：王融（25784）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=25784&o=json
-            external_identifier: CBDB:25784
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-08-24T02:51:33.735Z
-            metadata_json: null
-      object_person:
-        id: p_AYW3SKpFyWc6LQ4SMJ7Ln8
-        status: active
-        display_name: 王祥
-        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -459,13 +384,11 @@ relationships:
 | parents | p_xf9mHYCEP9VyeEbrAsuExM | 王仁 | accepted |
 | children | p_Xategg2TUsqjtsJGVyycV2 | 王祥 | accepted |
 | children | p_FLFcPPEXByru3j5c6vxzPG | 王览 | accepted |
-| children | p_AYW3SKpFyWc6LQ4SMJ7Ln8 | 王祥 | accepted |
 
 ## 外部来源
 
 - [维基数据：王览（Q15907839）](https://www.wikidata.org/wiki/Q15907839)
 - [维基数据：王仁（Q22814785）](https://www.wikidata.org/wiki/Q22814785)
-- [维基数据：王祥（Q45408733）](https://www.wikidata.org/wiki/Q45408733)
 - [維基數據：王融（Q22814786）](https://www.wikidata.org/wiki/Q22814786)
 - [維基數據：王祥（Q710053）](https://www.wikidata.org/wiki/Q710053)
 - [中文维基百科：王祥](https://zh.wikipedia.org/wiki/王祥)
