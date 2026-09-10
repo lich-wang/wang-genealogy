@@ -4,7 +4,7 @@ id: p_1D9UJ3qbxhZuhm9688Gxjt
 status: active
 merged_into: null
 display_name: 王嗣祖
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,12 +72,64 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_Du4l6mM2y0yFYBie1x_AN8
+        subject_person_id: p_gT8Y6oM2Xv4kiuH3CHGLND
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_1D9UJ3qbxhZuhm9688Gxjt
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_I988z40na6JeuX6WAJdTU4
+          claim_id: c_Du4l6mM2y0yFYBie1x_AN8
+          source_id: s_8mb74tFPKTmL3GwfEttLm6
+          stance: supports
+          locator: (乾隆)信陽州志，lgid=868515：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_gT8Y6oM2Xv4kiuH3CHGLND
+        status: active
+        display_name: 王鳳徵
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_zixTncPXWuwxU5uUvSMc50
+        subject_person_id: p_TTntK269568eA9RALQmA43
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_1D9UJ3qbxhZuhm9688Gxjt
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_LommJFJOQhI6Nm135v00jh
+          claim_id: c_zixTncPXWuwxU5uUvSMc50
+          source_id: s_8mb74tFPKTmL3GwfEttLm6
+          stance: supports
+          locator: (乾隆)信陽州志，lgid=868515：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_TTntK269568eA9RALQmA43
+        status: active
+        display_name: 王納言
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_gT8Y6oM2Xv4kiuH3CHGLND | 王鳳徵 | accepted |
+| ancestors | p_TTntK269568eA9RALQmA43 | 王納言 | accepted |
 
 ## 外部来源
 

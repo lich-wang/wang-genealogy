@@ -4,7 +4,7 @@ id: p_1dDUfoPDrypfyq5dfHhY4C
 status: active
 merged_into: null
 display_name: 王瓊
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -101,7 +101,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_6Y12giYrsZ7XA4hqqwOJx8
+        subject_person_id: p_1dDUfoPDrypfyq5dfHhY4C
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_VFHd1HePcZxzPPEmJtTsvn
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_V1oa40zo2uv3lJS9bJWsOj
+          claim_id: c_6Y12giYrsZ7XA4hqqwOJx8
+          source_id: s_a9vSz1MjkqPiQmABf9Hk5s
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)，R 32812：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_VFHd1HePcZxzPPEmJtTsvn
+        status: active
+        display_name: 王洪簡
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,6 +152,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_VFHd1HePcZxzPPEmJtTsvn | 王洪簡 | accepted |
 
 ## 外部来源
 

@@ -1,0 +1,28 @@
+{
+  "schema": "wang-person-online-review-batch/v1",
+  "reviewer": "luna",
+  "reviewed_at": "2026-09-10",
+  "queue_positions": [131, 140],
+  "summary": { "reviewed": 10, "proposed": 5, "unchanged": 5, "manual_review": 0, "relationships_added": 6 },
+  "results": [
+    { "position": 131, "person_id": "p_1CxHHcR6UoEHhBsMsyBKWC", "name": "王蘋", "external_id": "CBDB:175921", "decision": "proposed", "relationships": [{ "predicate": "kinship.father_of", "subject": "p_eReJ1uLz4wXetehw7XVZ4d", "object": "p_1CxHHcR6UoEHhBsMsyBKWC", "generation_count": null, "locator": "唐五代人物傳記與社會網絡資料庫(1.0版)，R 8326：父" }] },
+    { "position": 132, "person_id": "p_1CXi5ToNNM8JG81gBJbiHG", "name": "王公濟", "external_id": "CBDB:685309", "decision": "unchanged" },
+    { "position": 133, "person_id": "p_1D7RB15BHLuwCjT8rR8VHQ", "name": "王奇哲", "external_id": "CBDB:194722", "decision": "proposed", "relationships": [{ "predicate": "kinship.father_of", "subject": "p_en59K3fagj8VJPQw7ris7d", "object": "p_1D7RB15BHLuwCjT8rR8VHQ", "generation_count": null, "locator": "唐五代人物傳記與社會網絡資料庫(1.0版)，R 35684：父" }] },
+    { "position": 134, "person_id": "p_1D9UJ3qbxhZuhm9688Gxjt", "name": "王嗣祖", "external_id": "CBDB:557424", "decision": "proposed", "relationships": [{ "predicate": "kinship.father_of", "subject": "p_gT8Y6oM2Xv4kiuH3CHGLND", "object": "p_1D9UJ3qbxhZuhm9688Gxjt", "generation_count": null, "locator": "(乾隆)信陽州志，lgid=868515：父" }, { "predicate": "kinship.ancestor_of", "subject": "p_TTntK269568eA9RALQmA43", "object": "p_1D9UJ3qbxhZuhm9688Gxjt", "generation_count": 3, "locator": "(乾隆)信陽州志，lgid=868515：曾祖" }], "skipped_out_of_scope": [{ "name": "何洛書（外祖父，CBDB 206325）", "reason": "母系外祖父，非父系王姓直系。" }, { "name": "何氏（王鳳徵妻，CBDB 557423）", "reason": "母亲端点，本批不新建人物。" }] },
+    { "position": 135, "person_id": "p_1DbPQdunDUM1LhayPvC4mL", "name": "王瑛曾", "external_id": "CBDB:639423", "decision": "unchanged" },
+    { "position": 136, "person_id": "p_1dDUfoPDrypfyq5dfHhY4C", "name": "王瓊", "external_id": "CBDB:192978", "decision": "proposed", "relationships": [{ "predicate": "kinship.father_of", "subject": "p_1dDUfoPDrypfyq5dfHhY4C", "object": "p_VFHd1HePcZxzPPEmJtTsvn", "generation_count": null, "locator": "唐五代人物傳記與社會網絡資料庫(1.0版)，R 32812：子" }] },
+    { "position": 137, "person_id": "p_1DDVjEqFvCNUptVH9S7M8L", "name": "王蕘", "external_id": "CBDB:175696", "decision": "proposed", "relationships": [{ "predicate": "kinship.father_of", "subject": "p_wgfYedxmMy9VG8HzciXPDK", "object": "p_1DDVjEqFvCNUptVH9S7M8L", "generation_count": null, "locator": "唐五代人物傳記與社會網絡資料庫(1.0版)，R 8100：父" }] },
+    { "position": 138, "person_id": "p_1DMauCEvdM8HSoHJfMCK4i", "name": "王中", "external_id": "CBDB:100623", "decision": "unchanged" },
+    { "position": 139, "person_id": "p_1DN4A5uqgwyMVvj4uPndX5", "name": "王克捷", "external_id": "CBDB:71661", "decision": "unchanged" },
+    { "position": 140, "person_id": "p_1DoiQ3qNhBdETqtPDfzs4K", "name": "王增禧", "external_id": "CBDB:636775", "decision": "unchanged" }
+  ],
+  "relationships": [
+    { "subject": "p_eReJ1uLz4wXetehw7XVZ4d", "object": "p_1CxHHcR6UoEHhBsMsyBKWC", "predicate": "kinship.father_of" },
+    { "subject": "p_en59K3fagj8VJPQw7ris7d", "object": "p_1D7RB15BHLuwCjT8rR8VHQ", "predicate": "kinship.father_of" },
+    { "subject": "p_gT8Y6oM2Xv4kiuH3CHGLND", "object": "p_1D9UJ3qbxhZuhm9688Gxjt", "predicate": "kinship.father_of" },
+    { "subject": "p_TTntK269568eA9RALQmA43", "object": "p_1D9UJ3qbxhZuhm9688Gxjt", "predicate": "kinship.ancestor_of", "generation_count": 3 },
+    { "subject": "p_1dDUfoPDrypfyq5dfHhY4C", "object": "p_VFHd1HePcZxzPPEmJtTsvn", "predicate": "kinship.father_of" },
+    { "subject": "p_wgfYedxmMy9VG8HzciXPDK", "object": "p_1DDVjEqFvCNUptVH9S7M8L", "predicate": "kinship.father_of" }
+  ],
+  "unchanged": ["p_1CXi5ToNNM8JG81gBJbiHG", "p_1DbPQdunDUM1LhayPvC4mL", "p_1DMauCEvdM8HSoHJfMCK4i", "p_1DN4A5uqgwyMVvj4uPndX5", "p_1DoiQ3qNhBdETqtPDfzs4K"]
+}
