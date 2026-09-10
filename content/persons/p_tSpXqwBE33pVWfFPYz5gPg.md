@@ -4,7 +4,7 @@ id: p_tSpXqwBE33pVWfFPYz5gPg
 status: active
 merged_into: null
 display_name: 王士麟
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ properties:
 relationships:
   parents: []
   children: []
-  adoptive_parents: []
+  adoptive_parents:
+    - claim:
+        id: c_UwxKkDuh21CwFaYDxAe_Jy
+        subject_person_id: p_1oC2qMk3qZtNNJEcLaYnhz
+        claim_kind: relationship
+        predicate: kinship.adoptive_father_of
+        object_person_id: p_tSpXqwBE33pVWfFPYz5gPg
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_UMh4KPTjmD-akhbJ73mPEA
+          claim_id: c_UwxKkDuh21CwFaYDxAe_Jy
+          source_id: s_5GHnvLiEPe9GvE8cxarqQo
+          stance: supports
+          locator: 宋濂全集，1606：過繼的嗣子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_5GHnvLiEPe9GvE8cxarqQo
+            source_type: api_record
+            title: 中国历代人物传记资料库：王汶（CBDB 134165）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134165&o=json
+            external_identifier: CBDB:134165
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.306Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_1oC2qMk3qZtNNJEcLaYnhz
+        status: active
+        display_name: 王汶
+        merged_into_person_id: null
   adoptive_children: []
   spouses: []
   ancestors: []
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| adoptive_parents | p_1oC2qMk3qZtNNJEcLaYnhz | 王汶 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王士麟（CBDB 101037）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=101037&o=json)
+- [中国历代人物传记资料库：王汶（CBDB 134165）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134165&o=json)

@@ -4,7 +4,7 @@ id: p_1nKt64gGCKiDcB8W4XD12c
 status: active
 merged_into: null
 display_name: 王恩
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_JQXIREoeq_Km-_0Oq4e2t4
+        subject_person_id: p_NghqnvQpJa8P4vxxEpxjeJ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_1nKt64gGCKiDcB8W4XD12c
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Go2_ytaI3-YEm6hq4LeW2R
+          claim_id: c_JQXIREoeq_Km-_0Oq4e2t4
+          source_id: s_UxH42YMEfHKyZzwykoMUCQ
+          stance: supports
+          locator: PersonKinshipInfo：父（王劌）
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_NghqnvQpJa8P4vxxEpxjeJ
+        status: active
+        display_name: 王劌
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_xItKSbdm_lBSB-BfdmB3Xs
+        subject_person_id: p_1nKt64gGCKiDcB8W4XD12c
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Hw9gy67gpeydJLtoAg5qH1
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_a-hmKmnsh6q3w9fM7WCJp8
+          claim_id: c_xItKSbdm_lBSB-BfdmB3Xs
+          source_id: s_UxH42YMEfHKyZzwykoMUCQ
+          stance: supports
+          locator: PersonKinshipInfo：子（王惟正）
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Hw9gy67gpeydJLtoAg5qH1
+        status: active
+        display_name: 王惟正
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_NghqnvQpJa8P4vxxEpxjeJ | 王劌 | accepted |
+| children | p_Hw9gy67gpeydJLtoAg5qH1 | 王惟正 | accepted |
 
 ## 外部来源
 

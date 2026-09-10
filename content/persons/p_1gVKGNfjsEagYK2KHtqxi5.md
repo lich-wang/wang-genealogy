@@ -4,7 +4,7 @@ id: p_1gVKGNfjsEagYK2KHtqxi5
 status: active
 merged_into: null
 display_name: 王綯
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,8 +128,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_mCLIU2d23-mFOxiXwyoMrh
+        subject_person_id: p_e6SDMxbycaZxf6Gn6kq738
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_1gVKGNfjsEagYK2KHtqxi5
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_suk7AgvaUI844xAmp8RrHr
+          claim_id: c_mCLIU2d23-mFOxiXwyoMrh
+          source_id: s_LNfZbFixLcBQEbaCQLRd6m
+          stance: supports
+          locator: PersonKinshipInfo：父（王審禮）
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_e6SDMxbycaZxf6Gn6kq738
+        status: active
+        display_name: 王審禮
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_CuSLBtodIMRgjU4X8p2PFE
+        subject_person_id: p_1gVKGNfjsEagYK2KHtqxi5
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ppNrCoxKm2QPkuS8D33fu9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_G6gp_4gyqVnrwQdbFXikmw
+          claim_id: c_CuSLBtodIMRgjU4X8p2PFE
+          source_id: s_LNfZbFixLcBQEbaCQLRd6m
+          stance: supports
+          locator: PersonKinshipInfo：長子（王炎）
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_ppNrCoxKm2QPkuS8D33fu9
+        status: active
+        display_name: 王炎
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +207,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_e6SDMxbycaZxf6Gn6kq738 | 王審禮 | accepted |
+| children | p_ppNrCoxKm2QPkuS8D33fu9 | 王炎 | accepted |
 
 ## 外部来源
 

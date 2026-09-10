@@ -1,0 +1,23 @@
+{
+  "schema": "wang-person-manual-review-resolutions/v1",
+  "reviewed_at": "2026-09-10",
+  "merges": [
+    { "source": "p_1CAD7Cg5ACndjPsTMwMUQ7", "target": "p_SAKZSsVXkQRnwcLYqa1oYe", "reason": "同为明代王越；CBDB 467429 来源即指向 Wikidata Q15898715，目标已挂父王頤、祖王子忠、曾祖王顯道及妻孫氏。" },
+    { "source": "p_1HLRDPP5GEjvYAj6jfrJ31", "target": "p_6BymFd7sw6j7GAmg7erqPj", "reason": "CBDB 同人两号 184939/92090，父同王縉、子同王晏平；目标已挂父王缙与诸子。" }
+  ],
+  "accepted_relationships": [
+    { "subject": "p_TsLL2qcHwWXimZfdLUPRQw", "object": "p_1coFu8NvA3X5y8iSrc3XXg", "predicate": "kinship.father_of", "evidence": "CBDB 双向 + Wikidata Q45411710/Q45411713" },
+    { "subject": "p_5HLAwt21hgN7UKGzKG2BNZ", "object": "p_1EatzxCEuA8v7SeSNyZF3y", "predicate": "kinship.father_of", "evidence": "宋代墓誌輯釋（王璘墓誌）" },
+    { "subject": "p_e6SDMxbycaZxf6Gn6kq738", "object": "p_1gVKGNfjsEagYK2KHtqxi5", "predicate": "kinship.father_of", "evidence": "CBDB 双向 + Wikidata Q45373566/Q45363027" },
+    { "subject": "p_1gVKGNfjsEagYK2KHtqxi5", "object": "p_ppNrCoxKm2QPkuS8D33fu9", "predicate": "kinship.father_of", "evidence": "Wikidata Q45359795 P22" },
+    { "subject": "p_ePUgH55QWsG6Hauqd4raHD", "object": "p_1JRUmvaU3Up47BAzPVpNrj", "predicate": "kinship.ancestor_of", "generation_count": 2, "evidence": "全元文第55冊 page 588" },
+    { "subject": "p_NghqnvQpJa8P4vxxEpxjeJ", "object": "p_1nKt64gGCKiDcB8W4XD12c", "predicate": "kinship.father_of", "evidence": "CBDB 双向 + Wikidata Q45401997/Q45401998" },
+    { "subject": "p_1nKt64gGCKiDcB8W4XD12c", "object": "p_Hw9gy67gpeydJLtoAg5qH1", "predicate": "kinship.father_of", "evidence": "Wikidata Q45359773 P22" },
+    { "subject": "p_1oC2qMk3qZtNNJEcLaYnhz", "object": "p_tSpXqwBE33pVWfFPYz5gPg", "predicate": "kinship.adoptive_father_of", "evidence": "宋濂全集 1606（過繼的嗣子/嗣父）" }
+  ],
+  "remaining": [
+    { "kind": "spouse_identity", "note": "王貽永妻：趙氏（CBDB 38089）与鄭國懿順大長公主（CBDB 691876）须先消歧。" },
+    { "kind": "spouse_endpoint", "cbdb_ids": ["CBDB:255124", "CBDB:38063", "CBDB:324277", "CBDB:134604", "CBDB:311209", "CBDB:56403", "CBDB:138303", "CBDB:119189"], "note": "配偶端点未入库，需新建最小人物记录。" },
+    { "kind": "ambiguous_parent", "note": "王煇之父王知未唯一定位仓库端点。" }
+  ]
+}

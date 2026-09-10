@@ -4,7 +4,7 @@ id: p_ppNrCoxKm2QPkuS8D33fu9
 status: active
 merged_into: null
 display_name: 王炎
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_CuSLBtodIMRgjU4X8p2PFE
+        subject_person_id: p_1gVKGNfjsEagYK2KHtqxi5
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ppNrCoxKm2QPkuS8D33fu9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_G6gp_4gyqVnrwQdbFXikmw
+          claim_id: c_CuSLBtodIMRgjU4X8p2PFE
+          source_id: s_LNfZbFixLcBQEbaCQLRd6m
+          stance: supports
+          locator: PersonKinshipInfo：長子（王炎）
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_LNfZbFixLcBQEbaCQLRd6m
+            source_type: api_record
+            title: 中国历代人物传记资料库：王綯（CBDB 3980）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3980&o=json
+            external_identifier: CBDB:3980
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.443Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_1gVKGNfjsEagYK2KHtqxi5
+        status: active
+        display_name: 王綯
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_1gVKGNfjsEagYK2KHtqxi5 | 王綯 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王綯（CBDB 3980）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3980&o=json)
 - [中国历代人物传记资料库：王炎（CBDB 1925）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1925&o=json)

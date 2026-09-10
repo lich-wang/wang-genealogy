@@ -4,7 +4,7 @@ id: p_5HLAwt21hgN7UKGzKG2BNZ
 status: active
 merged_into: null
 display_name: 王璘
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -129,7 +129,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_XsBxmOSKLt_QvjMj-2g2wj
+        subject_person_id: p_5HLAwt21hgN7UKGzKG2BNZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_1EatzxCEuA8v7SeSNyZF3y
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XqQQdl6jZdeoFCvu4ey9Pq
+          claim_id: c_XsBxmOSKLt_QvjMj-2g2wj
+          source_id: s_LFSav72YdHRoFFrNfNU1Jf
+          stance: supports
+          locator: 宋代墓誌輯釋，大宋贈秘書少監王府君（璘）墓誌銘并序：五男
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_LFSav72YdHRoFFrNfNU1Jf
+            source_type: api_record
+            title: 中国历代人物传记资料库：王仲方（CBDB 690111）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=690111&o=json
+            external_identifier: CBDB:690111
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:06.480Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_1EatzxCEuA8v7SeSNyZF3y
+        status: active
+        display_name: 王仲方
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_1EatzxCEuA8v7SeSNyZF3y | 王仲方 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王璘（CBDB 22213）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22213&o=json)
+- [中国历代人物传记资料库：王仲方（CBDB 690111）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=690111&o=json)

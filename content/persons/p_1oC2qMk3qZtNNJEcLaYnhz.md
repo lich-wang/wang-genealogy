@@ -4,7 +4,7 @@ id: p_1oC2qMk3qZtNNJEcLaYnhz
 status: active
 merged_into: null
 display_name: 王汶
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -75,7 +75,33 @@ relationships:
   parents: []
   children: []
   adoptive_parents: []
-  adoptive_children: []
+  adoptive_children:
+    - claim:
+        id: c_UwxKkDuh21CwFaYDxAe_Jy
+        subject_person_id: p_1oC2qMk3qZtNNJEcLaYnhz
+        claim_kind: relationship
+        predicate: kinship.adoptive_father_of
+        object_person_id: p_tSpXqwBE33pVWfFPYz5gPg
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_UMh4KPTjmD-akhbJ73mPEA
+          claim_id: c_UwxKkDuh21CwFaYDxAe_Jy
+          source_id: s_5GHnvLiEPe9GvE8cxarqQo
+          stance: supports
+          locator: 宋濂全集，1606：過繼的嗣子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_tSpXqwBE33pVWfFPYz5gPg
+        status: active
+        display_name: 王士麟
+        merged_into_person_id: null
   spouses: []
   ancestors: []
   descendants: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| adoptive_children | p_tSpXqwBE33pVWfFPYz5gPg | 王士麟 | accepted |
 
 ## 外部来源
 

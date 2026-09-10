@@ -1,10 +1,10 @@
 ---
 schema: wang-person/v1
 id: p_1CAD7Cg5ACndjPsTMwMUQ7
-status: active
-merged_into: null
+status: merged
+merged_into: p_SAKZSsVXkQRnwcLYqa1oYe
 display_name: 王越
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:

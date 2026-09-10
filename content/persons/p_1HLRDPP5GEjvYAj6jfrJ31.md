@@ -1,10 +1,10 @@
 ---
 schema: wang-person/v1
 id: p_1HLRDPP5GEjvYAj6jfrJ31
-status: active
-merged_into: null
+status: merged
+merged_into: p_6BymFd7sw6j7GAmg7erqPj
 display_name: 王智興
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
