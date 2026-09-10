@@ -4,7 +4,7 @@ id: p_1NoLGELS55sxBxKNhbH7WB
 status: active
 merged_into: null
 display_name: 王文
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -111,6 +111,32 @@ relationships:
         status: active
         display_name: 王堂
         merged_into_person_id: null
+    - claim:
+        id: c_TpN4Vb2kJKN-oyahJutkrL
+        subject_person_id: p_1NoLGELS55sxBxKNhbH7WB
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_aKLZoUMaRiaZwxC5LrucJ9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jQVwYinRuoOVfv_wRgBu4u
+          claim_id: c_TpN4Vb2kJKN-oyahJutkrL
+          source_id: s_K2M6FbVsdvMaqBG5jMmoBH
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)：長子; 第一子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_aKLZoUMaRiaZwxC5LrucJ9
+        status: active
+        display_name: 王椿
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,6 +161,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_1Av7T9ZwBu1xPr7HTMmf15 | 王堂 | accepted |
+| children | p_aKLZoUMaRiaZwxC5LrucJ9 | 王椿 | accepted |
 
 ## 外部来源
 

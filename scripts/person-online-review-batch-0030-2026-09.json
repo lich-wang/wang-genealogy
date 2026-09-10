@@ -1,0 +1,39 @@
+{
+  "schema": "wang-person-online-review-batch/v1",
+  "reviewer": "luna",
+  "reviewed_at": "2026-09-10",
+  "queue_positions": [291, 300],
+  "summary": { "reviewed": 10, "proposed": 4, "unchanged": 6, "manual_review": 1, "relationships_added": 7 },
+  "results": [
+    { "position": 291, "person_id": "p_1nj5Vo66whrteQ2mchLsSE", "name": "王思齊", "external_id": "CBDB:140628", "decision": "proposed", "relationships": [
+      { "predicate": "kinship.father_of", "subject": "p_PHvvhzgyD6dNCPqjCEyc3q", "object": "p_1nj5Vo66whrteQ2mchLsSE", "generation_count": null, "locator": "唐代墓誌匯編:二卷，Kaiyuan 266 YP NewEpitaphID=1838：父" },
+      { "predicate": "kinship.father_of", "subject": "p_1nj5Vo66whrteQ2mchLsSE", "object": "p_hH5AANuEA54J92JN8cKLf1", "generation_count": null, "locator": "唐代墓誌匯編:二卷，Kaiyuan 266 YP NewEpitaphID=1838：子" }
+    ], "skipped_out_of_scope": [{ "name": "王貴、王詮（曾祖、祖父，CBDB 152075、152076）", "reason": "端点未入库，本批不新建人物。" }] },
+    { "position": 292, "person_id": "p_1njht49uj6Dbij2r7uCY1b", "name": "王秀生", "external_id": "CBDB:517446", "decision": "proposed", "relationships": [{ "predicate": "kinship.ancestor_of", "subject": "p_1njht49uj6Dbij2r7uCY1b", "object": "p_os3EARVo1edJtSU4wyQ9C6", "generation_count": 3, "locator": "人名權威資料（中央研究院歷史語言研究所），1896：曾孫; 重孫" }] },
+    { "position": 293, "person_id": "p_1njjUtvxdJACVK9V76iuVt", "name": "王許", "external_id": "CBDB:497661", "decision": "unchanged" },
+    { "position": 294, "person_id": "p_1nKt64gGCKiDcB8W4XD12c", "name": "王恩", "external_id": "CBDB:22181", "decision": "unchanged", "manual_review": [
+      { "kind": "unsourced_kinship", "name": "王劌（CBDB 22180）", "note": "CBDB 记为父，底本为“未知”，暂不物化。" },
+      { "kind": "unsourced_kinship", "name": "王惟正（CBDB 1916）", "note": "CBDB 记为子，底本为“未知”，暂不物化。" }
+    ] },
+    { "position": 295, "person_id": "p_1NmaoPyuciYJ3ixGSte2St", "name": "王佐", "external_id": "CBDB:45792", "decision": "unchanged" },
+    { "position": 296, "person_id": "p_1nMcVMRLcLM2nKWAijjL3r", "name": "王善", "external_id": "CBDB:495450", "decision": "unchanged" },
+    { "position": 297, "person_id": "p_1NoLGELS55sxBxKNhbH7WB", "name": "王文", "external_id": "CBDB:38820", "decision": "proposed", "relationships": [{ "predicate": "kinship.father_of", "subject": "p_1NoLGELS55sxBxKNhbH7WB", "object": "p_aKLZoUMaRiaZwxC5LrucJ9", "generation_count": null, "locator": "宋人傳記資料索引(電子版)：長子; 第一子" }], "note": "次子王堂（CBDB 38894）父子关系已在库，本次不重复。" },
+    { "position": 298, "person_id": "p_1NqAdbkJoKdgBXcKdAojEF", "name": "王建勳", "external_id": "CBDB:474784", "decision": "unchanged" },
+    { "position": 299, "person_id": "p_1NRJDMaRvyp9yNoVJiZmjE", "name": "王慎德", "external_id": "CBDB:206584", "decision": "proposed", "relationships": [
+      { "predicate": "kinship.father_of", "subject": "p_EoXnHjFHxPjhcD8KsqKTGz", "object": "p_1NRJDMaRvyp9yNoVJiZmjE", "generation_count": null, "locator": "萬曆八年進士登科錄:一卷，第三甲第七十二名：父" },
+      { "predicate": "kinship.father_of", "subject": "p_MvdGFnhj1EQnLBNV2b5DR9", "object": "p_EoXnHjFHxPjhcD8KsqKTGz", "generation_count": null, "locator": "萬曆八年進士登科錄:一卷，第三甲第七十二名：祖父" },
+      { "predicate": "kinship.father_of", "subject": "p_W1u9oKcXenmwqBgULRmE5G", "object": "p_MvdGFnhj1EQnLBNV2b5DR9", "generation_count": null, "locator": "萬曆八年進士登科錄:一卷，第三甲第七十二名：曾祖" }
+    ], "ignored_relations": ["兄 王袞、弟 王恆德、王懷德（CBDB 220120-220122）", "母張氏、妻黃氏（女性端点，本批不新建）"] },
+    { "position": 300, "person_id": "p_1nrnCJEQ6GAKqiPhq7ve1C", "name": "王祖禹", "external_id": "CBDB:639579", "decision": "unchanged" }
+  ],
+  "relationships": [
+    { "subject": "p_PHvvhzgyD6dNCPqjCEyc3q", "object": "p_1nj5Vo66whrteQ2mchLsSE", "predicate": "kinship.father_of" },
+    { "subject": "p_1nj5Vo66whrteQ2mchLsSE", "object": "p_hH5AANuEA54J92JN8cKLf1", "predicate": "kinship.father_of" },
+    { "subject": "p_1njht49uj6Dbij2r7uCY1b", "object": "p_os3EARVo1edJtSU4wyQ9C6", "predicate": "kinship.ancestor_of", "generation_count": 3 },
+    { "subject": "p_1NoLGELS55sxBxKNhbH7WB", "object": "p_aKLZoUMaRiaZwxC5LrucJ9", "predicate": "kinship.father_of" },
+    { "subject": "p_EoXnHjFHxPjhcD8KsqKTGz", "object": "p_1NRJDMaRvyp9yNoVJiZmjE", "predicate": "kinship.father_of" },
+    { "subject": "p_MvdGFnhj1EQnLBNV2b5DR9", "object": "p_EoXnHjFHxPjhcD8KsqKTGz", "predicate": "kinship.father_of" },
+    { "subject": "p_W1u9oKcXenmwqBgULRmE5G", "object": "p_MvdGFnhj1EQnLBNV2b5DR9", "predicate": "kinship.father_of" }
+  ],
+  "unchanged": ["p_1njjUtvxdJACVK9V76iuVt", "p_1nKt64gGCKiDcB8W4XD12c", "p_1NmaoPyuciYJ3ixGSte2St", "p_1nMcVMRLcLM2nKWAijjL3r", "p_1NqAdbkJoKdgBXcKdAojEF", "p_1nrnCJEQ6GAKqiPhq7ve1C"]
+}

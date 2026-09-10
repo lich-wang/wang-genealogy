@@ -4,7 +4,7 @@ id: p_1njht49uj6Dbij2r7uCY1b
 status: active
 merged_into: null
 display_name: 王秀生
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_Q6YQz4RaVJ5HJspoRBAP3E
+        subject_person_id: p_1njht49uj6Dbij2r7uCY1b
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_os3EARVo1edJtSU4wyQ9C6
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_DmFTa0QEa6rRblPHaLYFvz
+          claim_id: c_Q6YQz4RaVJ5HJspoRBAP3E
+          source_id: s_tK3kMjRK737oBSB8tDYMxA
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），1896：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_os3EARVo1edJtSU4wyQ9C6
+        status: active
+        display_name: 王錫朋
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_os3EARVo1edJtSU4wyQ9C6 | 王錫朋 | accepted |
 
 ## 外部来源
 
