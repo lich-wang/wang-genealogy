@@ -52,13 +52,32 @@ CBDB `PersonKinshipInfo` 的 `Source` 为“未知”时，先查两端是否为
 | --- | --- |
 | 王汶 → 王士麟（`kinship.adoptive_father_of`） | CBDB 王汶记“過繼的嗣子王士麟”，王士麟记“嗣父王汶”，底本均为《宋濂全集》1606。 |
 
-## 四、仍待新建端点（未处理）
+## 四、配偶端点的建立
 
-以下配偶／女性端点尚未入库，物化前需新建最小人物记录，或属跨记录身份消歧，超出“复核与合并”范围，保持挂起：
+以下配偶／女性端点原不在库，现依 CBDB 记录新建最小人物记录（`name.primary` + `kinship.spouse_of` 双向），并在原人物文件补上对应配偶关系：
 
-- 王貽永妻：趙氏（CBDB 38089）与鄭國懿順大長公主（CBDB 691876）疑为同一人，须先消歧。
-- 王宥妻徐氏（CBDB 255124）、王景亮妻張氏（CBDB 38063）、王儒妻徐氏（CBDB 324277）、王良妻某氏（CBDB 134604）、王任用妻錢氏（CBDB 311209）、王進之妻葉慧光（CBDB 56403）、王煇妻蕭氏（CBDB 138303）。
-- 王鳳嫻夫张本嘉（CBDB 119189）。
+| 新建人物 | CBDB | 配偶（原人物） | 底本 |
+| --- | --- | --- | --- |
+| 徐氏 `p_ZiM4N5Gs41SCGQ3WKw5622` | 255124 | 王宥 `p_15Nh8Xnsw6Q2WxxXdtixbY` | 成化十七年進士登科錄 |
+| 張氏 `p_5ZSVQNW7tLuMVH6CLhp3wL` | 38063 | 王景亮 `p_161GNVSM8DiRJnB3XBWjtc` | 宋人傳記資料索引(電子版) 1920 |
+| 徐氏 `p_KwijCE3WHKKrFHTR2UVJLz` | 324277 | 王儒 `p_16nv23omiPWM5bXpCbD3EC` | 嘉靖三十八年進士登科錄 |
+| 某氏 `p_uH3FpppC9zy3QgMqbzW5AL` | 134604 | 王良 `p_17LFViQqC7kDQcKC7Pxwru` | 明清婦女著作數據庫 MQWW #2497 |
+| 錢氏 `p_QfJB6kHdWiEPHQYHnuHvBt` | 311209 | 王任用 `p_18GnPkpUEcGNgbFCDg5gah` | 嘉靖二十六年進士登科錄 |
+| 葉慧光 `p_QXjebW9cakU2CLFMGsUv6M` | 56403 | 王進之 `p_19HhxBBa41LXR8XidmLDzC` | 明清婦女著作數據庫 MQWW #890 |
+| 蕭氏 `p_QakmAcbWphZrG5JAN338dk` | 138303 | 王煇 `p_1BfrVwNo6KMxGngrdtMrQC` | 寶祐登科錄 |
+| 張本嘉 `p_dL4jP8DHdSRLNu6vNpG9kU` | 119189 | 王鳳嫻 `p_18fFnjtnGXtoq2dgN1ume2` | 明清婦女著作數據庫 MQWW #3313 |
+| 趙氏 `p_15zkLYv3q2p9LKJwXkpuD5` | 38089 + 691876 | 王貽永 `p_127UF7yvGqCLXapDi883c4` | 宋人傳記資料索引 1928;1929；鄭國懿順大長公主据新出宋代墓志碑刻輯錄 |
+
+王貽永妻原列两项（趙氏 CBDB 38089、鄭國懿順大長公主 CBDB 691876）：趙氏即宋太宗之女（父趙炅），691876 记“太宗皇帝第六女”，二者同为王貽永之妻，经消歧后合为一条记录，主张同时保留两份 CBDB 来源。
+
+## 五、撤回错挂关系
+
+王诵 `p_rbZNYEH2GP46qNZ57sZo3K` 原同时挂太子中庶子王融 `p_mxbESjeJMqx1uiQKJg1sN2`（正确，Q16906208）与中书郎王融 `p_irTA1gthdaRFGCsbuP9hX4`（错误，Q11573204）为父。据中文维基《王融 (太子中庶子)》（王奂长子）与 Wikidata Q22079109 P22，已删除错挂主张 `c_SQoCUCiytwtShan4oQhPHJ`（两个文件同步移除）；Git 历史保留原记录可追溯。
+
+## 六、仍未处理
+
 - 王煇之父王知，CBDB 未能唯一定位仓库端点。
+- 王耆之/王随之重复须先合并重复子系。
+- 全库扫描发现迁移前遗留的同名同父重复：王承、王丹、王谭、王恕、王炎午。
 
 机器可读记录见 `scripts/person-manual-review-resolutions-2026-09.json`。

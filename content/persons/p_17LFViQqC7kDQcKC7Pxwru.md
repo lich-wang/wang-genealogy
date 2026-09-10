@@ -4,7 +4,7 @@ id: p_17LFViQqC7kDQcKC7Pxwru
 status: active
 merged_into: null
 display_name: 王良
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -76,7 +76,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_gLEPBJVaCAOhLmCziPrlmm
+        subject_person_id: p_uH3FpppC9zy3QgMqbzW5AL
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_17LFViQqC7kDQcKC7Pxwru
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ybwskdOV5u6i772gli-Fbh
+          claim_id: c_gLEPBJVaCAOhLmCziPrlmm
+          source_id: s_gPPmkS50kejAaNDVbeb_XZ
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #2497：丈夫"
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_gPPmkS50kejAaNDVbeb_XZ
+            source_type: api_record
+            title: 中国历代人物传记资料库：某氏(王良妻)（CBDB 134604）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134604&o=json
+            external_identifier: CBDB:134604
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-10T13:33:56.265Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_uH3FpppC9zy3QgMqbzW5AL
+        status: active
+        display_name: 某氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_uH3FpppC9zy3QgMqbzW5AL | 某氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：某氏(王良妻)（CBDB 134604）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134604&o=json)
 - [中国历代人物传记资料库：王良（CBDB 134605）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134605&o=json)

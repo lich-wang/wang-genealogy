@@ -21,9 +21,21 @@
     { "subject": "p_1nKt64gGCKiDcB8W4XD12c", "object": "p_Hw9gy67gpeydJLtoAg5qH1", "predicate": "kinship.father_of", "evidence": "Wikidata Q45359773 P22" },
     { "subject": "p_1oC2qMk3qZtNNJEcLaYnhz", "object": "p_tSpXqwBE33pVWfFPYz5gPg", "predicate": "kinship.adoptive_father_of", "evidence": "宋濂全集 1606（過繼的嗣子/嗣父）" }
   ],
+  "created_spouse_endpoints": [
+    { "person_id": "p_ZiM4N5Gs41SCGQ3WKw5622", "display_name": "徐氏", "cbdb_id": 255124, "spouse_person_id": "p_15Nh8Xnsw6Q2WxxXdtixbY", "spouse_name": "王宥" },
+    { "person_id": "p_5ZSVQNW7tLuMVH6CLhp3wL", "display_name": "張氏", "cbdb_id": 38063, "spouse_person_id": "p_161GNVSM8DiRJnB3XBWjtc", "spouse_name": "王景亮" },
+    { "person_id": "p_KwijCE3WHKKrFHTR2UVJLz", "display_name": "徐氏", "cbdb_id": 324277, "spouse_person_id": "p_16nv23omiPWM5bXpCbD3EC", "spouse_name": "王儒" },
+    { "person_id": "p_uH3FpppC9zy3QgMqbzW5AL", "display_name": "某氏", "cbdb_id": 134604, "spouse_person_id": "p_17LFViQqC7kDQcKC7Pxwru", "spouse_name": "王良" },
+    { "person_id": "p_QfJB6kHdWiEPHQYHnuHvBt", "display_name": "錢氏", "cbdb_id": 311209, "spouse_person_id": "p_18GnPkpUEcGNgbFCDg5gah", "spouse_name": "王任用" },
+    { "person_id": "p_QXjebW9cakU2CLFMGsUv6M", "display_name": "葉慧光", "cbdb_id": 56403, "spouse_person_id": "p_19HhxBBa41LXR8XidmLDzC", "spouse_name": "王進之" },
+    { "person_id": "p_QakmAcbWphZrG5JAN338dk", "display_name": "蕭氏", "cbdb_id": 138303, "spouse_person_id": "p_1BfrVwNo6KMxGngrdtMrQC", "spouse_name": "王煇" },
+    { "person_id": "p_dL4jP8DHdSRLNu6vNpG9kU", "display_name": "張本嘉", "cbdb_id": 119189, "spouse_person_id": "p_18fFnjtnGXtoq2dgN1ume2", "spouse_name": "王鳳嫻" },
+    { "person_id": "p_15zkLYv3q2p9LKJwXkpuD5", "display_name": "趙氏", "cbdb_ids": [38089, 691876], "spouse_person_id": "p_127UF7yvGqCLXapDi883c4", "spouse_name": "王貽永", "note": "趙氏（宋太宗之女）与鄭國懿順大長公主经消歧后合为一条记录。" }
+  ],
+  "withdrawn_claims": [
+    { "claim_id": "c_SQoCUCiytwtShan4oQhPHJ", "note": "王诵错挂中书郎王融（p_irTA1gthdaRFGCsbuP9hX4）为父；据 Wikidata Q22079109 P22 应为太子中庶子王融（p_mxbESjeJMqx1uiQKJg1sN2）。两个文件同步移除。" }
+  ],
   "remaining": [
-    { "kind": "spouse_identity", "note": "王貽永妻：趙氏（CBDB 38089）与鄭國懿順大長公主（CBDB 691876）须先消歧。" },
-    { "kind": "spouse_endpoint", "cbdb_ids": ["CBDB:255124", "CBDB:38063", "CBDB:324277", "CBDB:134604", "CBDB:311209", "CBDB:56403", "CBDB:138303", "CBDB:119189"], "note": "配偶端点未入库，需新建最小人物记录。" },
     { "kind": "ambiguous_parent", "note": "王煇之父王知未唯一定位仓库端点。" },
     { "kind": "duplicate_person", "note": "王耆之 p_B1Pwn6…(Q22814794) 与 p_xgQoPQ…(Q45408771) 父同王廙、子各为一条同名王随之，须先合并重复的王随之及其子系。" },
     { "kind": "duplicate_person", "note": "全库扫描发现迁移前遗留的同名同父重复：王承(王暕子)、王丹(王立子)、王谭(王訢子)、王恕(王承裕父)、王炎午(王留孙父)，建议另立清理批次。" }

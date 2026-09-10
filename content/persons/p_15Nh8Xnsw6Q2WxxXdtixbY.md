@@ -4,7 +4,7 @@ id: p_15Nh8Xnsw6Q2WxxXdtixbY
 status: active
 merged_into: null
 display_name: 王宥
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_Jrj-VJ01J5eqNojB8Tw_5e
+        subject_person_id: p_ZiM4N5Gs41SCGQ3WKw5622
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_15Nh8Xnsw6Q2WxxXdtixbY
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HFW0XKWif2TXk6C7C0nt3C
+          claim_id: c_Jrj-VJ01J5eqNojB8Tw_5e
+          source_id: s_0Q1g4m1HimdpRhpab3Atrh
+          stance: supports
+          locator: 成化十七年進士登科錄:一卷，第二甲第四十二名：丈夫
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_0Q1g4m1HimdpRhpab3Atrh
+            source_type: api_record
+            title: 中国历代人物传记资料库：徐氏(王宥妻)（CBDB 255124）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255124&o=json
+            external_identifier: CBDB:255124
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-10T13:33:56.265Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ZiM4N5Gs41SCGQ3WKw5622
+        status: active
+        display_name: 徐氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -153,7 +190,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_Y1LJt1fbRrve98s4v1UUF2 | 王志積 | accepted |
+| spouses | p_ZiM4N5Gs41SCGQ3WKw5622 | 徐氏 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王宥（CBDB 200225）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200225&o=json)
+- [中国历代人物传记资料库：徐氏(王宥妻)（CBDB 255124）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255124&o=json)

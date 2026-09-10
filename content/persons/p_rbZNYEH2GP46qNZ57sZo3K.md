@@ -4,7 +4,7 @@ id: p_rbZNYEH2GP46qNZ57sZo3K
 status: active
 merged_into: null
 display_name: 王诵
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -172,44 +172,6 @@ properties:
 relationships:
   parents:
     - claim:
-        id: c_SQoCUCiytwtShan4oQhPHJ
-        subject_person_id: p_irTA1gthdaRFGCsbuP9hX4
-        claim_kind: relationship
-        predicate: kinship.father_of
-        object_person_id: p_rbZNYEH2GP46qNZ57sZo3K
-        generation_count: null
-        parent_role: father
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 3
-      sources:
-        - id: cs_3ksHvE7Up7gcEUef8Ddxai
-          claim_id: c_SQoCUCiytwtShan4oQhPHJ
-          source_id: s_dMRMFYNYvzkE9Dwy93uBji
-          stance: supports
-          locator: P22（父）
-          quotation: null
-          interpretation_note: null
-          source:
-            id: s_dMRMFYNYvzkE9Dwy93uBji
-            source_type: api_record
-            title: 维基数据：王诵（Q22079109）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q22079109
-            external_identifier: Q22079109
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T03:31:21.461Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%AF%B5_(%E5%8D%97%E5%8C%97%E6%9C%9D)
-      object_person:
-        id: p_irTA1gthdaRFGCsbuP9hX4
-        status: active
-        display_name: 王融
-        merged_into_person_id: null
-    - claim:
         id: c_k2dz6EpuDWqb2ZNX3qtdF7
         subject_person_id: p_mxbESjeJMqx1uiQKJg1sN2
         claim_kind: relationship
@@ -293,7 +255,6 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| parents | p_irTA1gthdaRFGCsbuP9hX4 | 王融 | accepted |
 | parents | p_mxbESjeJMqx1uiQKJg1sN2 | 王融 | accepted |
 
 ## 外部来源
