@@ -4,7 +4,7 @@ id: p_1DrQjoCaBy8kCLHN3o7pc1
 status: active
 merged_into: null
 display_name: 王頊
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,8 +100,86 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_5LCKB3uc8IxRyu8o3_GyRD
+        subject_person_id: p_aMH6LTAy41QNB3jZAPp6oX
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_1DrQjoCaBy8kCLHN3o7pc1
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PgDg_Kzb60V6WJ7BVZpw4n
+          claim_id: c_5LCKB3uc8IxRyu8o3_GyRD
+          source_id: s_euKJkUcKyKvg5zCCtgzZRF
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)，R 8209：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_aMH6LTAy41QNB3jZAPp6oX
+        status: active
+        display_name: 王仙客
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_kj8aO9sj_GKlK18gosHqhj
+        subject_person_id: p_1DrQjoCaBy8kCLHN3o7pc1
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_NAyT4ftPtq6cjLCWA9F1ym
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QpQgC-WSgzJeL1cG5Ec-wb
+          claim_id: c_kj8aO9sj_GKlK18gosHqhj
+          source_id: s_euKJkUcKyKvg5zCCtgzZRF
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)，R 8210：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_NAyT4ftPtq6cjLCWA9F1ym
+        status: active
+        display_name: 王鈞
+        merged_into_person_id: null
+    - claim:
+        id: c_uSCId3gVF_5kvXSTXbgNUR
+        subject_person_id: p_1DrQjoCaBy8kCLHN3o7pc1
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_XkASXMtAcYaJTsp7v8xTAK
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dyo0GoZaN2-U8A97EaReve
+          claim_id: c_uSCId3gVF_5kvXSTXbgNUR
+          source_id: s_euKJkUcKyKvg5zCCtgzZRF
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)，R 8211：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_XkASXMtAcYaJTsp7v8xTAK
+        status: active
+        display_name: 王釗
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_aMH6LTAy41QNB3jZAPp6oX | 王仙客 | accepted |
+| children | p_NAyT4ftPtq6cjLCWA9F1ym | 王鈞 | accepted |
+| children | p_XkASXMtAcYaJTsp7v8xTAK | 王釗 | accepted |
 
 ## 外部来源
 
