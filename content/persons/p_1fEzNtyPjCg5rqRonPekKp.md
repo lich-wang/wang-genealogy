@@ -4,7 +4,7 @@ id: p_1fEzNtyPjCg5rqRonPekKp
 status: active
 merged_into: null
 display_name: 王澤
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,59 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_7RQ6feULIK9k1Q0Cs9uzK6
+        subject_person_id: p_1fEzNtyPjCg5rqRonPekKp
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_FebULYZ1Mok5osGeZL97Vp
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Rstty4MlXzkGFr_YovmD7t
+          claim_id: c_7RQ6feULIK9k1Q0Cs9uzK6
+          source_id: s_oRCAgNvVuPRjjqBzMZFSP8
+          stance: supports
+          locator: 成化十七年進士登科錄:一卷，第三甲第一百五十七名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_FebULYZ1Mok5osGeZL97Vp
+        status: active
+        display_name: 王嶽
+        merged_into_person_id: null
+    - claim:
+        id: c_RDRDDTUjrsqGd1-StLBJef
+        subject_person_id: p_1fEzNtyPjCg5rqRonPekKp
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_vDzf6isJ8G9fr8y7scc2fq
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wMWrkP_oDMFCnUeZLmgrTe
+          claim_id: c_RDRDDTUjrsqGd1-StLBJef
+          source_id: s_oRCAgNvVuPRjjqBzMZFSP8
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第三甲第四十七名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_vDzf6isJ8G9fr8y7scc2fq
+        status: active
+        display_name: 王崑
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_FebULYZ1Mok5osGeZL97Vp | 王嶽 | accepted |
+| children | p_vDzf6isJ8G9fr8y7scc2fq | 王崑 | accepted |
 
 ## 外部来源
 

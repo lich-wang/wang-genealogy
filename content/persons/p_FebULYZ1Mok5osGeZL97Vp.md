@@ -4,7 +4,7 @@ id: p_FebULYZ1Mok5osGeZL97Vp
 status: active
 merged_into: null
 display_name: 王嶽
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_7RQ6feULIK9k1Q0Cs9uzK6
+        subject_person_id: p_1fEzNtyPjCg5rqRonPekKp
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_FebULYZ1Mok5osGeZL97Vp
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Rstty4MlXzkGFr_YovmD7t
+          claim_id: c_7RQ6feULIK9k1Q0Cs9uzK6
+          source_id: s_oRCAgNvVuPRjjqBzMZFSP8
+          stance: supports
+          locator: 成化十七年進士登科錄:一卷，第三甲第一百五十七名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_oRCAgNvVuPRjjqBzMZFSP8
+            source_type: api_record
+            title: 中国历代人物传记资料库：王澤（CBDB 257073）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257073&o=json
+            external_identifier: CBDB:257073
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.407Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_1fEzNtyPjCg5rqRonPekKp
+        status: active
+        display_name: 王澤
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_1fEzNtyPjCg5rqRonPekKp | 王澤 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王嶽（CBDB 200389）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200389&o=json)
+- [中国历代人物传记资料库：王澤（CBDB 257073）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257073&o=json)

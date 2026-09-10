@@ -1,0 +1,35 @@
+{
+  "schema": "wang-person-online-review-batch/v1",
+  "reviewer": "luna",
+  "reviewed_at": "2026-09-10",
+  "queue_positions": [171, 180],
+  "summary": { "reviewed": 10, "proposed": 3, "unchanged": 7, "manual_review": 0, "relationships_added": 6 },
+  "results": [
+    { "position": 171, "person_id": "p_1FBPum8LTBdeJMCSbLMi71", "name": "王曰可", "external_id": "CBDB:214227", "decision": "proposed", "relationships": [{ "predicate": "kinship.father_of", "subject": "p_1FBPum8LTBdeJMCSbLMi71", "object": "p_gQ7de4k3fPsZaTDKaE81D5", "generation_count": null, "locator": "萬曆二年進士登科錄:一卷，第三甲第一百零五名：子" }] },
+    { "position": 172, "person_id": "p_1FCXxHhqD3wzUFWARQDXSE", "name": "王道行", "external_id": "CBDB:126744", "decision": "proposed", "relationships": [
+      { "predicate": "kinship.father_of", "subject": "p_Lg426XjwtGThS6GKpMTASR", "object": "p_1FCXxHhqD3wzUFWARQDXSE", "generation_count": null, "locator": "嘉靖二十九年進士登科錄:一卷，第二甲第四十二名：父" },
+      { "predicate": "kinship.father_of", "subject": "p_oaNDfLCNACocvS6e5dX6tR", "object": "p_Lg426XjwtGThS6GKpMTASR", "generation_count": null, "locator": "嘉靖二十九年進士登科錄:一卷，第二甲第四十二名：祖父" },
+      { "predicate": "kinship.father_of", "subject": "p_m69DkPkNmbULcq7eko5aNw", "object": "p_oaNDfLCNACocvS6e5dX6tR", "generation_count": null, "locator": "嘉靖二十九年進士登科錄:一卷，第二甲第四十二名：曾祖" }
+    ], "ignored_relations": ["弟 王道明（CBDB 312142）", "母米氏、妻楊氏（女性端点，本批不新建）"] },
+    { "position": 173, "person_id": "p_1fEzNtyPjCg5rqRonPekKp", "name": "王澤", "external_id": "CBDB:257073", "decision": "proposed", "relationships": [
+      { "predicate": "kinship.father_of", "subject": "p_1fEzNtyPjCg5rqRonPekKp", "object": "p_FebULYZ1Mok5osGeZL97Vp", "generation_count": null, "locator": "成化十七年進士登科錄:一卷，第三甲第一百五十七名：子" },
+      { "predicate": "kinship.father_of", "subject": "p_1fEzNtyPjCg5rqRonPekKp", "object": "p_vDzf6isJ8G9fr8y7scc2fq", "generation_count": null, "locator": "正德十二年進士登科錄:一卷，第三甲第四十七名：子" }
+    ] },
+    { "position": 174, "person_id": "p_1FFsqRFebi26v7Y7w87KMn", "name": "王光庭", "external_id": "CBDB:297381", "decision": "unchanged", "ignored_relations": ["兄 王光宇（CBDB 202958）"] },
+    { "position": 175, "person_id": "p_1fGae3tz8gS1ApXCpEMA72", "name": "王顯揚", "external_id": "CBDB:640876", "decision": "unchanged" },
+    { "position": 176, "person_id": "p_1fiR4UxoNNJGJuh6BoVGer", "name": "王廷瑞", "external_id": "CBDB:341909", "decision": "unchanged" },
+    { "position": 177, "person_id": "p_1FKhqcGYVs5rmbsoiupsCV", "name": "王燦", "external_id": "CBDB:212083", "decision": "unchanged", "ignored_relations": ["兄 王煥（CBDB 206011）"] },
+    { "position": 178, "person_id": "p_1FM8KGzGyTt4dNwoRsgrpU", "name": "王志達", "external_id": "CBDB:637772", "decision": "unchanged" },
+    { "position": 179, "person_id": "p_1FqAC6ob7rkRN3XhC1EL4E", "name": "王茂中", "external_id": "CBDB:640081", "decision": "unchanged" },
+    { "position": 180, "person_id": "p_1fTYLeGPXQ4uXUh9u7Fssq", "name": "王徵瑞", "external_id": "CBDB:694590", "decision": "unchanged" }
+  ],
+  "relationships": [
+    { "subject": "p_1FBPum8LTBdeJMCSbLMi71", "object": "p_gQ7de4k3fPsZaTDKaE81D5", "predicate": "kinship.father_of" },
+    { "subject": "p_Lg426XjwtGThS6GKpMTASR", "object": "p_1FCXxHhqD3wzUFWARQDXSE", "predicate": "kinship.father_of" },
+    { "subject": "p_oaNDfLCNACocvS6e5dX6tR", "object": "p_Lg426XjwtGThS6GKpMTASR", "predicate": "kinship.father_of" },
+    { "subject": "p_m69DkPkNmbULcq7eko5aNw", "object": "p_oaNDfLCNACocvS6e5dX6tR", "predicate": "kinship.father_of" },
+    { "subject": "p_1fEzNtyPjCg5rqRonPekKp", "object": "p_FebULYZ1Mok5osGeZL97Vp", "predicate": "kinship.father_of" },
+    { "subject": "p_1fEzNtyPjCg5rqRonPekKp", "object": "p_vDzf6isJ8G9fr8y7scc2fq", "predicate": "kinship.father_of" }
+  ],
+  "unchanged": ["p_1FFsqRFebi26v7Y7w87KMn", "p_1fGae3tz8gS1ApXCpEMA72", "p_1fiR4UxoNNJGJuh6BoVGer", "p_1FKhqcGYVs5rmbsoiupsCV", "p_1FM8KGzGyTt4dNwoRsgrpU", "p_1FqAC6ob7rkRN3XhC1EL4E", "p_1fTYLeGPXQ4uXUh9u7Fssq"]
+}
