@@ -4,7 +4,7 @@ id: p_1oiuSieCMVbXj1XDqjNuA2
 status: active
 merged_into: null
 display_name: 王礎
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,13 +72,91 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_pRVp0tZRI6X49ZXaUTjfzW
+        subject_person_id: p_BebbGAkpNrhM7t1MBqkTy2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_1oiuSieCMVbXj1XDqjNuA2
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fU4EBRVBEuOz9fJxevKbdE
+          claim_id: c_pRVp0tZRI6X49ZXaUTjfzW
+          source_id: s_1QLvDYfeuEAHRWXRHjyZEU
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)，R 8284：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_BebbGAkpNrhM7t1MBqkTy2
+        status: active
+        display_name: 王崟
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_rL-kY6gk5aKQfPQYpxLpI0
+        subject_person_id: p_1oiuSieCMVbXj1XDqjNuA2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_8Nwq8JeFN35Jr7m5925uCr
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_z7F0rzqAzg7vbcuogPiV-7
+          claim_id: c_rL-kY6gk5aKQfPQYpxLpI0
+          source_id: s_1QLvDYfeuEAHRWXRHjyZEU
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)，R 26669：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_8Nwq8JeFN35Jr7m5925uCr
+        status: active
+        display_name: 王璠
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_1XZr8MAsfLQZUjK3ci9Cvx
+        subject_person_id: p_1oiuSieCMVbXj1XDqjNuA2
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_6rmNH9TpfJz2BMZQnh16Lg
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_R5QEHXAejsHY7g4BNigFxr
+          claim_id: c_1XZr8MAsfLQZUjK3ci9Cvx
+          source_id: s_1QLvDYfeuEAHRWXRHjyZEU
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Dahe 67 YP NewEpitaphID=2966：孫女
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_6rmNH9TpfJz2BMZQnh16Lg
+        status: active
+        display_name: 王緩
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +175,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_BebbGAkpNrhM7t1MBqkTy2 | 王崟 | accepted |
+| children | p_8Nwq8JeFN35Jr7m5925uCr | 王璠 | accepted |
+| descendants | p_6rmNH9TpfJz2BMZQnh16Lg | 王緩 | accepted |
 
 ## 外部来源
 

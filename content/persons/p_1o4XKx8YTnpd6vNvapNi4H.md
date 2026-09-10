@@ -4,7 +4,7 @@ id: p_1o4XKx8YTnpd6vNvapNi4H
 status: active
 merged_into: null
 display_name: 王崇節
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_sST8qtoVMXw02eB02KMdbU
+        subject_person_id: p_hWNF7HbB9E5if6kNK731ro
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_1o4XKx8YTnpd6vNvapNi4H
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_EKZJYdtG52SAdksXVX4zfN
+          claim_id: c_sST8qtoVMXw02eB02KMdbU
+          source_id: s_qVe1pydzV49DWLWaLBAF5r
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第三甲第一百九十五名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_hWNF7HbB9E5if6kNK731ro
+        status: active
+        display_name: 王祿兆
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_hWNF7HbB9E5if6kNK731ro | 王祿兆 | accepted |
 
 ## 外部来源
 

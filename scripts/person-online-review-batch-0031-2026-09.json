@@ -1,0 +1,31 @@
+{
+  "schema": "wang-person-online-review-batch/v1",
+  "reviewer": "luna",
+  "reviewed_at": "2026-09-10",
+  "queue_positions": [301, 310],
+  "summary": { "reviewed": 10, "proposed": 3, "unchanged": 7, "manual_review": 1, "relationships_added": 5 },
+  "results": [
+    { "position": 301, "person_id": "p_1NtQKU7sgnw9wmDXNJJE9C", "name": "王宣", "external_id": "CBDB:491984", "decision": "unchanged" },
+    { "position": 302, "person_id": "p_1NWD3HtaeasQ2UZxbhSJ3h", "name": "王敬", "external_id": "CBDB:476422", "decision": "unchanged" },
+    { "position": 303, "person_id": "p_1nyA3xBscHfV72UEC69f2K", "name": "王謙", "external_id": "CBDB:124995", "decision": "unchanged" },
+    { "position": 304, "person_id": "p_1NYr4Q9WBhDtqe9M277LQP", "name": "王惟一", "external_id": "CBDB:38082", "decision": "unchanged" },
+    { "position": 305, "person_id": "p_1o4XKx8YTnpd6vNvapNi4H", "name": "王崇節", "external_id": "CBDB:225809", "decision": "proposed", "relationships": [{ "predicate": "kinship.father_of", "subject": "p_hWNF7HbB9E5if6kNK731ro", "object": "p_1o4XKx8YTnpd6vNvapNi4H", "generation_count": null, "locator": "萬曆丙戌科進士同年總錄，第三甲第一百九十五名：父" }] },
+    { "position": 306, "person_id": "p_1oA2SCUtyqTAKoNj4aeMg8", "name": "王冕", "external_id": "CBDB:166180", "decision": "proposed", "relationships": [{ "predicate": "kinship.father_of", "subject": "p_Ni8kPQG3R7QcxGnDogRUMg", "object": "p_1oA2SCUtyqTAKoNj4aeMg8", "generation_count": null, "locator": "唐五代人物傳記與社會網絡資料庫(1.0版)，R 29933：父" }], "ignored_relations": ["兄 王叔寧（CBDB 143282）"] },
+    { "position": 307, "person_id": "p_1oBhpnEUGLzNqq65wJcgaf", "name": "王致雲", "external_id": "CBDB:640024", "decision": "unchanged" },
+    { "position": 308, "person_id": "p_1oC2qMk3qZtNNJEcLaYnhz", "name": "王汶", "external_id": "CBDB:134165", "decision": "unchanged", "manual_review": [{ "kind": "adoptive_kinship", "name": "王士麟（CBDB 101037）", "note": "CBDB 记为過繼的嗣子，属收养关系，需按 `kinship.adoptive_father_of` 单独物化；本批暂不处理。" }], "ignored_relations": ["兄 王澄（CBDB 100938）"] },
+    { "position": 309, "person_id": "p_1oFhpjs348phC1g1FbBNiS", "name": "王珊", "external_id": "CBDB:458774", "decision": "unchanged" },
+    { "position": 310, "person_id": "p_1oiuSieCMVbXj1XDqjNuA2", "name": "王礎", "external_id": "CBDB:157947", "decision": "proposed", "relationships": [
+      { "predicate": "kinship.father_of", "subject": "p_BebbGAkpNrhM7t1MBqkTy2", "object": "p_1oiuSieCMVbXj1XDqjNuA2", "generation_count": null, "locator": "唐五代人物傳記與社會網絡資料庫(1.0版)，R 8284：父" },
+      { "predicate": "kinship.father_of", "subject": "p_1oiuSieCMVbXj1XDqjNuA2", "object": "p_8Nwq8JeFN35Jr7m5925uCr", "generation_count": null, "locator": "唐五代人物傳記與社會網絡資料庫(1.0版)，R 26669：子" },
+      { "predicate": "kinship.ancestor_of", "subject": "p_1oiuSieCMVbXj1XDqjNuA2", "object": "p_6rmNH9TpfJz2BMZQnh16Lg", "generation_count": 2, "locator": "唐代墓誌匯編:二卷，Dahe 67 YP NewEpitaphID=2966：孫女" }
+    ] }
+  ],
+  "relationships": [
+    { "subject": "p_hWNF7HbB9E5if6kNK731ro", "object": "p_1o4XKx8YTnpd6vNvapNi4H", "predicate": "kinship.father_of" },
+    { "subject": "p_Ni8kPQG3R7QcxGnDogRUMg", "object": "p_1oA2SCUtyqTAKoNj4aeMg8", "predicate": "kinship.father_of" },
+    { "subject": "p_BebbGAkpNrhM7t1MBqkTy2", "object": "p_1oiuSieCMVbXj1XDqjNuA2", "predicate": "kinship.father_of" },
+    { "subject": "p_1oiuSieCMVbXj1XDqjNuA2", "object": "p_8Nwq8JeFN35Jr7m5925uCr", "predicate": "kinship.father_of" },
+    { "subject": "p_1oiuSieCMVbXj1XDqjNuA2", "object": "p_6rmNH9TpfJz2BMZQnh16Lg", "predicate": "kinship.ancestor_of", "generation_count": 2 }
+  ],
+  "unchanged": ["p_1NtQKU7sgnw9wmDXNJJE9C", "p_1NWD3HtaeasQ2UZxbhSJ3h", "p_1nyA3xBscHfV72UEC69f2K", "p_1NYr4Q9WBhDtqe9M277LQP", "p_1oBhpnEUGLzNqq65wJcgaf", "p_1oC2qMk3qZtNNJEcLaYnhz", "p_1oFhpjs348phC1g1FbBNiS"]
+}
