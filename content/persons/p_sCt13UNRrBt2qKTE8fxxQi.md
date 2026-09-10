@@ -4,7 +4,7 @@ id: p_sCt13UNRrBt2qKTE8fxxQi
 status: active
 merged_into: null
 display_name: 王鉞
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -105,7 +105,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_riI0ksbXVXtNAH0_4-FPzd
+        subject_person_id: p_1KLjzWiphK1fHeWpJUZ68o
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_sCt13UNRrBt2qKTE8fxxQi
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OnVXZ1NvjlFc8pFARfCdAg
+          claim_id: c_riI0ksbXVXtNAH0_4-FPzd
+          source_id: s_zNe5p4xHKGdWAQfSc7GtbZ
+          stance: supports
+          locator: 弘治三年進士登科錄:一卷，第三甲第九十名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_zNe5p4xHKGdWAQfSc7GtbZ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王祚（CBDB 262667）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262667&o=json
+            external_identifier: CBDB:262667
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.602Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_1KLjzWiphK1fHeWpJUZ68o
+        status: active
+        display_name: 王祚
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_1KLjzWiphK1fHeWpJUZ68o | 王祚 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王鉞（CBDB 200774）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200774&o=json)
+- [中国历代人物传记资料库：王祚（CBDB 262667）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262667&o=json)
