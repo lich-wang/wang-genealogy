@@ -1,0 +1,21 @@
+{
+  "schema": "wang-person-online-review-batch/v1",
+  "reviewer": "luna",
+  "reviewed_at": "2026-09-10",
+  "queue_positions": [161, 170],
+  "summary": { "reviewed": 10, "proposed": 0, "unchanged": 10, "manual_review": 0, "relationships_added": 0 },
+  "results": [
+    { "position": 161, "person_id": "p_1EPhZo2JcPzaBXoHAbsPag", "name": "王唐珪", "external_id": "CBDB:687782", "decision": "unchanged" },
+    { "position": 162, "person_id": "p_1erH4vvE924WnCE5wa3B6j", "name": "王應堂", "external_id": "CBDB:637980", "decision": "unchanged" },
+    { "position": 163, "person_id": "p_1EUXQ22hJMeLExftAg1Zdu", "name": "王恩綸", "external_id": "CBDB:637858", "decision": "unchanged" },
+    { "position": 164, "person_id": "p_1EzCdVdGBnScFiHaLq22BP", "name": "王漢潮", "external_id": "CBDB:700341", "decision": "unchanged" },
+    { "position": 165, "person_id": "p_1EzGtciQSLScFhEaW9PEDN", "name": "王欽", "external_id": "CBDB:289111", "decision": "unchanged", "ignored_relations": ["弟 王銳（CBDB 202497）"] },
+    { "position": 166, "person_id": "p_1EzqE6eCT82PAVGTuwu9fW", "name": "王林桂", "external_id": "CBDB:638687", "decision": "unchanged" },
+    { "position": 167, "person_id": "p_1eZvKHP7xLbKnzNKxFNCJ4", "name": "王日修", "external_id": "CBDB:638329", "decision": "unchanged" },
+    { "position": 168, "person_id": "p_1F37AxbmaYsGs2GVt6Kyz7", "name": "王官雲", "external_id": "CBDB:637132", "decision": "unchanged" },
+    { "position": 169, "person_id": "p_1f598Eetr283pKxcuWmfw9", "name": "王章", "external_id": "CBDB:496697", "decision": "unchanged" },
+    { "position": 170, "person_id": "p_1FaqKLCgwHmiE76BpmLwBw", "name": "王簪節", "external_id": "CBDB:639726", "decision": "unchanged" }
+  ],
+  "relationships": [],
+  "unchanged": ["p_1EPhZo2JcPzaBXoHAbsPag", "p_1erH4vvE924WnCE5wa3B6j", "p_1EUXQ22hJMeLExftAg1Zdu", "p_1EzCdVdGBnScFiHaLq22BP", "p_1EzGtciQSLScFhEaW9PEDN", "p_1EzqE6eCT82PAVGTuwu9fW", "p_1eZvKHP7xLbKnzNKxFNCJ4", "p_1F37AxbmaYsGs2GVt6Kyz7", "p_1f598Eetr283pKxcuWmfw9", "p_1FaqKLCgwHmiE76BpmLwBw"]
+}
