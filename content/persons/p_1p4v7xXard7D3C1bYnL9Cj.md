@@ -4,7 +4,7 @@ id: p_1p4v7xXard7D3C1bYnL9Cj
 status: active
 merged_into: null
 display_name: 王徽
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_SHTqrfKZkDaPmoWMEEBs_R
+        subject_person_id: p_cPByiJ9wXckn8oTbxdb6fC
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_1p4v7xXard7D3C1bYnL9Cj
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Mp2aNVuqkg3UjJJXsDihJE
+          claim_id: c_SHTqrfKZkDaPmoWMEEBs_R
+          source_id: s_AVZMZdTFx3hfJDs1ou81fK
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #5176：父"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_cPByiJ9wXckn8oTbxdb6fC
+        status: active
+        display_name: 王世仁
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_cPByiJ9wXckn8oTbxdb6fC | 王世仁 | accepted |
 
 ## 外部来源
 
