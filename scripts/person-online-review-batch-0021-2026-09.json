@@ -1,0 +1,23 @@
+{
+  "schema": "wang-person-online-review-batch/v1",
+  "reviewer": "luna",
+  "reviewed_at": "2026-09-10",
+  "queue_positions": [201, 210],
+  "summary": { "reviewed": 10, "proposed": 1, "unchanged": 9, "manual_review": 1, "relationships_added": 1 },
+  "results": [
+    { "position": 201, "person_id": "p_1hiaUDcqT9Q3Gui2HWxRNW", "name": "王瑞金", "external_id": "CBDB:639437", "decision": "unchanged" },
+    { "position": 202, "person_id": "p_1HkFkTf4tHoX7LaHqLF6KD", "name": "王來聘", "external_id": "CBDB:336275", "decision": "unchanged", "ignored_relations": ["弟 王詔（CBDB 205634）"] },
+    { "position": 203, "person_id": "p_1HLRDPP5GEjvYAj6jfrJ31", "name": "王智興", "external_id": "CBDB:184939", "decision": "unchanged", "manual_review": [{ "kind": "duplicate_person", "existing_person_id": "p_6BymFd7sw6j7GAmg7erqPj", "existing_external_id": "Q7967776 / CBDB:92090", "note": "CBDB 就同一王智興另有 92090 号权威记录；既有 p_6BymFd7… 已挂父王缙及王晏平等诸子。须先合并两条 CBDB 记录，本批不重复建边。" }] },
+    { "position": 204, "person_id": "p_1hNmaXKCzNEnVBe9Aj5xE5", "name": "王維楨", "external_id": "CBDB:639824", "decision": "unchanged" },
+    { "position": 205, "person_id": "p_1HqBTUsmZ7YVXXfU2nesaV", "name": "王輅", "external_id": "CBDB:71160", "decision": "unchanged" },
+    { "position": 206, "person_id": "p_1hqccPqW8uK4ayF2CoV6ho", "name": "王占魁", "external_id": "CBDB:636439", "decision": "unchanged" },
+    { "position": 207, "person_id": "p_1HsQ5XGCj447pVf57R6VCU", "name": "王九牧", "external_id": "CBDB:635832", "decision": "unchanged" },
+    { "position": 208, "person_id": "p_1HSvDAY4afw9QEeKJ9n4DD", "name": "王亦曾", "external_id": "CBDB:71608", "decision": "unchanged" },
+    { "position": 209, "person_id": "p_1HVQQFssbQnGiP4iYoy78D", "name": "王琮", "external_id": "CBDB:496803", "decision": "unchanged" },
+    { "position": 210, "person_id": "p_1hVXBXzb9AqnWg7U8mKs9Q", "name": "王佐", "external_id": "CBDB:317686", "decision": "proposed", "relationships": [{ "predicate": "kinship.ancestor_of", "subject": "p_1hVXBXzb9AqnWg7U8mKs9Q", "object": "p_9DQWxHegXc6PNKo9W5YA34", "generation_count": 3, "locator": "嘉靖三十二年進士登科錄:一卷，第三甲第一百六十七名：曾孫; 重孫" }] }
+  ],
+  "relationships": [
+    { "subject": "p_1hVXBXzb9AqnWg7U8mKs9Q", "object": "p_9DQWxHegXc6PNKo9W5YA34", "predicate": "kinship.ancestor_of", "generation_count": 3 }
+  ],
+  "unchanged": ["p_1hiaUDcqT9Q3Gui2HWxRNW", "p_1HkFkTf4tHoX7LaHqLF6KD", "p_1HLRDPP5GEjvYAj6jfrJ31", "p_1hNmaXKCzNEnVBe9Aj5xE5", "p_1HqBTUsmZ7YVXXfU2nesaV", "p_1hqccPqW8uK4ayF2CoV6ho", "p_1HsQ5XGCj447pVf57R6VCU", "p_1HSvDAY4afw9QEeKJ9n4DD", "p_1HVQQFssbQnGiP4iYoy78D"]
+}
