@@ -1,0 +1,23 @@
+{
+  "schema": "wang-person-online-review-batch/v1",
+  "reviewer": "luna",
+  "reviewed_at": "2026-09-10",
+  "queue_positions": [231, 240],
+  "summary": { "reviewed": 10, "proposed": 1, "unchanged": 9, "manual_review": 1, "relationships_added": 1 },
+  "results": [
+    { "position": 231, "person_id": "p_1JRUmvaU3Up47BAzPVpNrj", "name": "王廩", "external_id": "CBDB:437554", "decision": "unchanged", "manual_review": [{ "kind": "unsourced_kinship", "name": "王文彪（CBDB 101100）", "note": "CBDB 记为祖父，但该条 Source 为“未知”，仅 Notes 注“全元文第55冊 page: 588”；暂不物化。" }] },
+    { "position": 232, "person_id": "p_1JTYSiPuzU4zie6wknPJxm", "name": "王人紀", "external_id": "CBDB:562514", "decision": "unchanged", "ignored_relations": ["兄弟 王人雄、王人麒（CBDB 562513、343695）"] },
+    { "position": 233, "person_id": "p_1JWiBVqkLvsgipeiv7ZQ8q", "name": "王贊", "external_id": "CBDB:501487", "decision": "unchanged" },
+    { "position": 234, "person_id": "p_1JWWj6GgiJsZXG8KbERueF", "name": "王丕功", "external_id": "CBDB:635650", "decision": "unchanged" },
+    { "position": 235, "person_id": "p_1jz2eECTsX1sen39e2jJQD", "name": "王子端", "external_id": "CBDB:250008", "decision": "proposed", "relationships": [{ "predicate": "kinship.ancestor_of", "subject": "p_1jz2eECTsX1sen39e2jJQD", "object": "p_XU2HBZFhmiBGAyoKHD4B6w", "generation_count": 3, "locator": "成化十一年進士登科錄:一卷，第三甲第一百三十六名：曾孫; 重孫" }] },
+    { "position": 236, "person_id": "p_1K2VTdJqJ5HmKQKDf8sTeG", "name": "王隴", "external_id": "CBDB:453513", "decision": "unchanged" },
+    { "position": 237, "person_id": "p_1k4jGPb1Tddhj2hHYRLFfj", "name": "王居仁", "external_id": "CBDB:637302", "decision": "unchanged" },
+    { "position": 238, "person_id": "p_1k4jva8M211y4mWbuZsdgb", "name": "王兆魚", "external_id": "CBDB:636223", "decision": "unchanged" },
+    { "position": 239, "person_id": "p_1K9o25qC7y19xFWq1B9Dvn", "name": "王慶", "external_id": "CBDB:477653", "decision": "unchanged" },
+    { "position": 240, "person_id": "p_1KA5BPyWZ9rF3W6ZZb6AAu", "name": "王鎬", "external_id": "CBDB:289113", "decision": "unchanged", "ignored_relations": ["弟 王銳（CBDB 202497）"] }
+  ],
+  "relationships": [
+    { "subject": "p_1jz2eECTsX1sen39e2jJQD", "object": "p_XU2HBZFhmiBGAyoKHD4B6w", "predicate": "kinship.ancestor_of", "generation_count": 3 }
+  ],
+  "unchanged": ["p_1JRUmvaU3Up47BAzPVpNrj", "p_1JTYSiPuzU4zie6wknPJxm", "p_1JWiBVqkLvsgipeiv7ZQ8q", "p_1JWWj6GgiJsZXG8KbERueF", "p_1K2VTdJqJ5HmKQKDf8sTeG", "p_1k4jGPb1Tddhj2hHYRLFfj", "p_1k4jva8M211y4mWbuZsdgb", "p_1K9o25qC7y19xFWq1B9Dvn", "p_1KA5BPyWZ9rF3W6ZZb6AAu"]
+}
