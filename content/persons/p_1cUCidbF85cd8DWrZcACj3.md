@@ -4,7 +4,7 @@ id: p_1cUCidbF85cd8DWrZcACj3
 status: active
 merged_into: null
 display_name: 王德昇
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_ESoVWsjJSDAa3cBA9nuEZc
+        subject_person_id: p_1cUCidbF85cd8DWrZcACj3
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Zv9iBHh6zJnNFQipkrhq3H
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_yymBVfEqy7SX1_9d8C3pKG
+          claim_id: c_ESoVWsjJSDAa3cBA9nuEZc
+          source_id: s_oXRjf1kBatv1gFGRM2Nw4h
+          stance: supports
+          locator: 成化二年進士登科錄:一卷，第三甲第二百零二名：曾孫；重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Zv9iBHh6zJnNFQipkrhq3H
+        status: active
+        display_name: 王億
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_Zv9iBHh6zJnNFQipkrhq3H | 王億 | accepted |
 
 ## 外部来源
 

@@ -1,0 +1,24 @@
+{
+  "schema": "wang-person-online-review-batch/v1",
+  "reviewer": "luna",
+  "reviewed_at": "2026-09-10",
+  "queue_positions": [121, 130],
+  "summary": { "reviewed": 10, "proposed": 2, "unchanged": 8, "manual_review": 2, "relationships_added": 2 },
+  "results": [
+    { "position": 121, "person_id": "p_1CAD7Cg5ACndjPsTMwMUQ7", "name": "王越", "external_id": "CBDB:467429", "decision": "unchanged", "manual_review": [{ "kind": "duplicate_person", "existing_person_id": "p_SAKZSsVXkQRnwcLYqa1oYe", "existing_external_id": "Q15898715", "note": "与既有王越（Wikidata Q15898715）为同一人，其父王頤、祖父王子忠、曾祖王顯道及妻孫氏已挂在该端点；须先合并，本批不重复建边。" }] },
+    { "position": 122, "person_id": "p_1Ci7qL1s3qigXkMm76Urwd", "name": "王念祖", "external_id": "CBDB:334096", "decision": "unchanged", "ignored_relations": ["兄 王汝魯（CBDB 126502）"] },
+    { "position": 123, "person_id": "p_1cNK6DnFQBeTq8wnBe9Fb9", "name": "王顏", "external_id": "CBDB:640871", "decision": "unchanged" },
+    { "position": 124, "person_id": "p_1cNtwLFCVZoUYA5v384KEP", "name": "王犀", "external_id": "CBDB:565992", "decision": "unchanged" },
+    { "position": 125, "person_id": "p_1coFu8NvA3X5y8iSrc3XXg", "name": "王孚", "external_id": "CBDB:27289", "decision": "unchanged", "manual_review": [{ "kind": "unsourced_kinship", "name": "王季安（CBDB 27287）", "note": "CBDB 记为父，但该条底本为“未知”，无法排除仅凭同名自动挂接；暂不物化。" }] },
+    { "position": 126, "person_id": "p_1Cr5Pky1SrM9HhUrJ76tav", "name": "王佐才", "external_id": "CBDB:39410", "decision": "unchanged" },
+    { "position": 127, "person_id": "p_1cSFNwBVz9Qp2GKW915NZL", "name": "王旦", "external_id": "CBDB:471680", "decision": "unchanged" },
+    { "position": 128, "person_id": "p_1CTQbPvGFsDXMUfES1DeyK", "name": "王夢敃", "external_id": "CBDB:545899", "decision": "unchanged" },
+    { "position": 129, "person_id": "p_1cUCidbF85cd8DWrZcACj3", "name": "王德昇", "external_id": "CBDB:242133", "decision": "proposed", "relationships": [{ "predicate": "kinship.ancestor_of", "subject": "p_1cUCidbF85cd8DWrZcACj3", "object": "p_Zv9iBHh6zJnNFQipkrhq3H", "generation_count": 3, "locator": "成化二年進士登科錄:一卷，第三甲第二百零二名：曾孫；重孫" }] },
+    { "position": 130, "person_id": "p_1CVjWfj6Z4oLLDvpZ3BxLu", "name": "王元會", "external_id": "CBDB:190307", "decision": "proposed", "relationships": [{ "predicate": "kinship.father_of", "subject": "p_iExwTUSihbBvbcDkEjipqk", "object": "p_1CVjWfj6Z4oLLDvpZ3BxLu", "generation_count": null, "locator": "唐五代人物傳記與社會網絡資料庫(1.0版)，R 28647：父" }] }
+  ],
+  "relationships": [
+    { "subject": "p_1cUCidbF85cd8DWrZcACj3", "object": "p_Zv9iBHh6zJnNFQipkrhq3H", "predicate": "kinship.ancestor_of", "generation_count": 3 },
+    { "subject": "p_iExwTUSihbBvbcDkEjipqk", "object": "p_1CVjWfj6Z4oLLDvpZ3BxLu", "predicate": "kinship.father_of" }
+  ],
+  "unchanged": ["p_1CAD7Cg5ACndjPsTMwMUQ7", "p_1Ci7qL1s3qigXkMm76Urwd", "p_1cNK6DnFQBeTq8wnBe9Fb9", "p_1cNtwLFCVZoUYA5v384KEP", "p_1coFu8NvA3X5y8iSrc3XXg", "p_1Cr5Pky1SrM9HhUrJ76tav", "p_1cSFNwBVz9Qp2GKW915NZL", "p_1CTQbPvGFsDXMUfES1DeyK"]
+}
