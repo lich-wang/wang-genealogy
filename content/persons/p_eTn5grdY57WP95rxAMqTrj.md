@@ -4,7 +4,7 @@ id: p_eTn5grdY57WP95rxAMqTrj
 status: active
 merged_into: null
 display_name: 王炎
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,8 +128,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_9-s5RdHZhgd9zPj0LYaqBL
+        subject_person_id: p_RRsdpNBt4C7vWYviTZiLTp
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_eTn5grdY57WP95rxAMqTrj
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_TKPhoJFN4aOBQLfYyMlNLV
+          claim_id: c_9-s5RdHZhgd9zPj0LYaqBL
+          source_id: s_ayXwHa3P8JZGjiVZ55uyM9
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1119：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_RRsdpNBt4C7vWYviTZiLTp
+        status: active
+        display_name: 王橐
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_DrvPomLp1ZgZT2xME35Dn5
+        subject_person_id: p_eTn5grdY57WP95rxAMqTrj
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_83TjrUjA3z5F7VVjyocHdu
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KS5QwSbvsL-Csxil74DKpW
+          claim_id: c_DrvPomLp1ZgZT2xME35Dn5
+          source_id: s_ayXwHa3P8JZGjiVZ55uyM9
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，859：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_83TjrUjA3z5F7VVjyocHdu
+        status: active
+        display_name: 王恕
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +207,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_RRsdpNBt4C7vWYviTZiLTp | 王橐 | accepted |
+| children | p_83TjrUjA3z5F7VVjyocHdu | 王恕 | accepted |
 
 ## 外部来源
 

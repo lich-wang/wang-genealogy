@@ -4,7 +4,7 @@ id: p_ftZ1PRscrPmBh4Qh3AiyfY
 status: active
 merged_into: null
 display_name: 王思任
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -204,6 +204,32 @@ relationships:
         status: active
         display_name: 王玉映
         merged_into_person_id: null
+    - claim:
+        id: c_g2JavvqRciaDXr4FyOcmEB
+        subject_person_id: p_ftZ1PRscrPmBh4Qh3AiyfY
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_mXELR8x6DfcQqAZ9zCdekg
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4MUc429ZLHuIC2VuxzmssA
+          claim_id: c_g2JavvqRciaDXr4FyOcmEB
+          source_id: s_wzB8H1VeEUUxxH32LdLqx3
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #1201, HuWenKai #472：子"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_mXELR8x6DfcQqAZ9zCdekg
+        status: active
+        display_name: 王岳起
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -268,6 +294,7 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_9Pusq65KpMmMVKf8JdS8fy | 王端淑 | accepted |
 | children | p_DqeZRrh1AHPNm4EUNSCfwn | 王玉映 | accepted |
+| children | p_mXELR8x6DfcQqAZ9zCdekg | 王岳起 | accepted |
 | descendants | p_9nMQd6ceMAGfnhGs6TTb7s | 王袞錫 | accepted |
 
 ## 外部来源

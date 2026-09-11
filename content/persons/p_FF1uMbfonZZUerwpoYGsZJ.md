@@ -4,7 +4,7 @@ id: p_FF1uMbfonZZUerwpoYGsZJ
 status: active
 merged_into: null
 display_name: 王郁
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_ABpOvXIP9XZgec_iAYKYd3
+        subject_person_id: p_ubGBvK1Bop9yB5KzQTMqqg
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_FF1uMbfonZZUerwpoYGsZJ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_oAmSHKx2KaI65Unt4ZDcr8
+          claim_id: c_ABpOvXIP9XZgec_iAYKYd3
+          source_id: s_zCS6b7dveiWpFNsmNscBEW
+          stance: supports
+          locator: 建文二年殿試登科錄:一卷，第三甲第四十三名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_ubGBvK1Bop9yB5KzQTMqqg
+        status: active
+        display_name: 王聚
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_obaf0TOUgkp7Zt2zBnBCcG
+        subject_person_id: p_sNWwAL6to8rH1MBPLZwd3p
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_FF1uMbfonZZUerwpoYGsZJ
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_U8KHopoD1XTc-hmfStwQn5
+          claim_id: c_obaf0TOUgkp7Zt2zBnBCcG
+          source_id: s_zCS6b7dveiWpFNsmNscBEW
+          stance: supports
+          locator: 建文二年殿試登科錄:一卷，第三甲第四十三名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_sNWwAL6to8rH1MBPLZwd3p
+        status: active
+        display_name: 王朝
+        merged_into_person_id: null
+    - claim:
+        id: c_8W3KUs4pCNHpWkDkmlvnOT
+        subject_person_id: p_h6ur3n3rWfGs73DSqdakhr
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_FF1uMbfonZZUerwpoYGsZJ
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ydt5KTZr5_A-o4FgspoyXQ
+          claim_id: c_8W3KUs4pCNHpWkDkmlvnOT
+          source_id: s_zCS6b7dveiWpFNsmNscBEW
+          stance: supports
+          locator: 建文二年殿試登科錄:一卷，第三甲第四十三名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_h6ur3n3rWfGs73DSqdakhr
+        status: active
+        display_name: 王通
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_ubGBvK1Bop9yB5KzQTMqqg | 王聚 | accepted |
+| ancestors | p_sNWwAL6to8rH1MBPLZwd3p | 王朝 | accepted |
+| ancestors | p_h6ur3n3rWfGs73DSqdakhr | 王通 | accepted |
 
 ## 外部来源
 

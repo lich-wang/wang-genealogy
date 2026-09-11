@@ -4,7 +4,7 @@ id: p_exNPQqiad19zXtFzRk4E7x
 status: active
 merged_into: null
 display_name: 王琦
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_ibeI6KZV63buuQLp9TJ3rf
+        subject_person_id: p_exNPQqiad19zXtFzRk4E7x
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_UHUqHrmc3KJzYiDRgXCMg7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_w3jg7aKUVMegM2yCV7Ho8T
+          claim_id: c_ibeI6KZV63buuQLp9TJ3rf
+          source_id: s_KJ2LiRNY2XexW7aMiZuRKD
+          stance: supports
+          locator: 正德十六年登科錄:一卷，第三甲第一百八十二名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_UHUqHrmc3KJzYiDRgXCMg7
+        status: active
+        display_name: 王傅
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_UHUqHrmc3KJzYiDRgXCMg7 | 王傅 | accepted |
 
 ## 外部来源
 

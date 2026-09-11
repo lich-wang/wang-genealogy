@@ -4,7 +4,7 @@ id: p_F6MGX9AM41o32x7Ua37zoL
 status: active
 merged_into: null
 display_name: 王諤
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_NpTHXqxuZONg0mK1k1WNBi
+        subject_person_id: p_XnWWyie2QoqQEGKUXxSKDd
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_F6MGX9AM41o32x7Ua37zoL
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_i0j-IuwsDAFWNc5sdT3pFg
+          claim_id: c_NpTHXqxuZONg0mK1k1WNBi
+          source_id: s_QHcTVDFF18xEJhK6F5gREL
+          stance: supports
+          locator: 范太史集，卷四六《右監門衛大將軍妻王氏墓志銘》：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_XnWWyie2QoqQEGKUXxSKDd
+        status: active
+        display_name: 王尭基
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_a77fewhKaOq1zVNU0qTdZw
+        subject_person_id: p_F6MGX9AM41o32x7Ua37zoL
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_jt5YppxyiGatB2BhrUMGAE
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-hF5-SbX5jXLODpH5oMC8j
+          claim_id: c_a77fewhKaOq1zVNU0qTdZw
+          source_id: s_QHcTVDFF18xEJhK6F5gREL
+          stance: supports
+          locator: 范太史集，卷四六《右監門衛大將軍妻王氏墓志銘》：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_jt5YppxyiGatB2BhrUMGAE
+        status: active
+        display_name: 王瞳
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_XnWWyie2QoqQEGKUXxSKDd | 王尭基 | accepted |
+| children | p_jt5YppxyiGatB2BhrUMGAE | 王瞳 | accepted |
 
 ## 外部来源
 

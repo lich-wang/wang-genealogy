@@ -4,7 +4,7 @@ id: p_Lco3TtbC9ZPkbUR4MaV6iK
 status: active
 merged_into: null
 display_name: 王致中
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_OitR8J3ToDRddRij7N-nc-
+        subject_person_id: p_Lco3TtbC9ZPkbUR4MaV6iK
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_F8Lc6ug2pEzEkp7PbM9ut6
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_RdBjw1h0iHI6Hh34YGLmJP
+          claim_id: c_OitR8J3ToDRddRij7N-nc-
+          source_id: s_PSQMdHqdWWUaMx64nL2pie
+          stance: supports
+          locator: 上虞縣志，lgid=324953：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_PSQMdHqdWWUaMx64nL2pie
+            source_type: api_record
+            title: 中国历代人物传记资料库：王煐（CBDB 703447）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=703447&o=json
+            external_identifier: CBDB:703447
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:27.826Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_F8Lc6ug2pEzEkp7PbM9ut6
+        status: active
+        display_name: 王煐
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_F8Lc6ug2pEzEkp7PbM9ut6 | 王煐 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王煐（CBDB 703447）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=703447&o=json)
 - [中国历代人物传记资料库：王致中（CBDB 703446）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=703446&o=json)

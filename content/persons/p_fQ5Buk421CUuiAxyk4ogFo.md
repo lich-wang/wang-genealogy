@@ -4,7 +4,7 @@ id: p_fQ5Buk421CUuiAxyk4ogFo
 status: active
 merged_into: null
 display_name: 王茂怡
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_TyR4Za8durpAx3cSrfyWTP
+        subject_person_id: p_iC9eyW5EGTjEu2z7hi9uMs
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_fQ5Buk421CUuiAxyk4ogFo
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_aUHoxFcAGto0dsCZysHppl
+          claim_id: c_TyR4Za8durpAx3cSrfyWTP
+          source_id: s_qeG9o7wSVDqarvMicZUZAa
+          stance: supports
+          locator: (道光)徽州府志:十六卷卷首一卷，lgid=1160984：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_iC9eyW5EGTjEu2z7hi9uMs
+        status: active
+        display_name: 王士階
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_Vp4xx1-KlR4kf8LwtxV-DZ
+        subject_person_id: p_fQ5Buk421CUuiAxyk4ogFo
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_PZ5QGmBiXkdeYy8tBcE7VF
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-uc65RWLHUSJHAAeXpvNig
+          claim_id: c_Vp4xx1-KlR4kf8LwtxV-DZ
+          source_id: s_qeG9o7wSVDqarvMicZUZAa
+          stance: supports
+          locator: (道光)徽州府志:十六卷卷首一卷，lgid=1160984：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_PZ5QGmBiXkdeYy8tBcE7VF
+        status: active
+        display_name: 王恭
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_iC9eyW5EGTjEu2z7hi9uMs | 王士階 | accepted |
+| children | p_PZ5QGmBiXkdeYy8tBcE7VF | 王恭 | accepted |
 
 ## 外部来源
 

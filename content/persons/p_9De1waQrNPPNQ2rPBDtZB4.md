@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王某
 cbdb_id: 175930
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -229,6 +229,43 @@ relationships:
         status: active
         display_name: 王长述
         merged_into_person_id: null
+    - claim:
+        id: c_9JQZUxQ-8bjTs_zlUC6d49
+        subject_person_id: p_FT9RqRRd8aA6VTvUJwSsKh
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_9De1waQrNPPNQ2rPBDtZB4
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lMec_cq8qA9qEdZi-A6NSD
+          claim_id: c_9JQZUxQ-8bjTs_zlUC6d49
+          source_id: s_Z4fSgBune8n8AebnCNQ3RV
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Z4fSgBune8n8AebnCNQ3RV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王述（CBDB 175929）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175929&o=json
+            external_identifier: CBDB:175929
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.205Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_FT9RqRRd8aA6VTvUJwSsKh
+        status: active
+        display_name: 王述
+        merged_into_person_id: null
   children:
     - claim:
         id: c_NniP89raoMtEkYbCwcFNHe
@@ -345,6 +382,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_BK7k2QcLRSfSmKmA6kf5hq | 王长述 | accepted |
+| parents | p_FT9RqRRd8aA6VTvUJwSsKh | 王述 | accepted |
 | children | p_FTKFSomQccaLQiqMWKmQJ6 | 王无畏 | accepted |
 | children | p_pzCtqFfz6eNVPNeTPL4MqR | 王俨 | accepted |
 
@@ -354,5 +392,5 @@ relationships:
 - [维基数据：王无畏（Q45679805）](https://www.wikidata.org/wiki/Q45679805)
 - [维基数据：王俨（Q45679837）](https://www.wikidata.org/wiki/Q45679837)
 - [维基数据：王长述（Q11573236）](https://www.wikidata.org/wiki/Q11573236)
+- [中国历代人物传记资料库：王述（CBDB 175929）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175929&o=json)
 - [CBDB 中国历代人物传记资料库：王某（175930）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175930&o=json)
-- [CBDB 中国历代人物传记资料库：王述（175929）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175929&o=json)

@@ -4,7 +4,7 @@ id: p_yw8Ldi3TsRvFBDPd73FPjN
 status: active
 merged_into: null
 display_name: 王玉
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -170,7 +170,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_6S7PiF5Kwk5KeckwTY1UiE
+        subject_person_id: p_fPJxFS18uHAM4wH2bHoPQT
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_yw8Ldi3TsRvFBDPd73FPjN
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cLf1jIa-u0xRzxWTBgA_YB
+          claim_id: c_6S7PiF5Kwk5KeckwTY1UiE
+          source_id: s_txHj7A9ZBZBniukpTmrvQL
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Dazhong75：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_txHj7A9ZBZBniukpTmrvQL
+            source_type: api_record
+            title: 中国历代人物传记资料库：王毅（CBDB 167688）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=167688&o=json
+            external_identifier: CBDB:167688
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.993Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_fPJxFS18uHAM4wH2bHoPQT
+        status: active
+        display_name: 王毅
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -193,8 +230,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_7E6gPyjzh8j7LkwEcAWwmH | 王清 | accepted |
+| ancestors | p_fPJxFS18uHAM4wH2bHoPQT | 王毅 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王清（CBDB 169430）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=169430&o=json)
+- [中国历代人物传记资料库：王毅（CBDB 167688）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=167688&o=json)
 - [中国历代人物传记资料库：王玉（CBDB 143515）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=143515&o=json)

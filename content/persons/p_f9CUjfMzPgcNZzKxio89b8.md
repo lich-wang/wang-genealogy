@@ -4,7 +4,7 @@ id: p_f9CUjfMzPgcNZzKxio89b8
 status: active
 merged_into: null
 display_name: 王造
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_XiFEvymK3ZnsI0byxhQ3pY
+        subject_person_id: p_f9CUjfMzPgcNZzKxio89b8
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_wVdaKV1vL17hPdbSwwto5D
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gij0v3qMpC_FMX5V8xB1DK
+          claim_id: c_XiFEvymK3ZnsI0byxhQ3pY
+          source_id: s_VWovSADM3YBZ8KZwAzmi8b
+          stance: supports
+          locator: 元人傳記資料索引，792：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_wVdaKV1vL17hPdbSwwto5D
+        status: active
+        display_name: 王諶
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_wVdaKV1vL17hPdbSwwto5D | 王諶 | accepted |
 
 ## 外部来源
 

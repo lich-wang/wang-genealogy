@@ -4,7 +4,7 @@ id: p_F5nnq1jNL9a7a9ZGJiwQTR
 status: active
 merged_into: null
 display_name: 王愷
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -111,6 +111,32 @@ relationships:
         status: active
         display_name: 王述
         merged_into_person_id: null
+    - claim:
+        id: c_mORivjgcDQ3-e9rbR_wjDg
+        subject_person_id: p_F5nnq1jNL9a7a9ZGJiwQTR
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_UaKk5ztx8dJU2yAsFhPPHe
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ybhCl2DzmjPCjuRg7X2TSF
+          claim_id: c_mORivjgcDQ3-e9rbR_wjDg
+          source_id: s_646AWZ8BGPzZE1TScnWF6D
+          stance: supports
+          locator: (康熙)固始縣志，lgid= 871425：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_UaKk5ztx8dJU2yAsFhPPHe
+        status: active
+        display_name: 王建
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,6 +161,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_cuLRLhG5ZU9mKGxZ61YTb9 | 王述 | accepted |
+| children | p_UaKk5ztx8dJU2yAsFhPPHe | 王建 | accepted |
 
 ## 外部来源
 

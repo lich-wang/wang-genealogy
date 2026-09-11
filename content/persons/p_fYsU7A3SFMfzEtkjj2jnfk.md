@@ -4,7 +4,7 @@ id: p_fYsU7A3SFMfzEtkjj2jnfk
 status: active
 merged_into: null
 display_name: 王之臣
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -143,6 +143,43 @@ relationships:
         status: active
         display_name: 王充
         merged_into_person_id: null
+    - claim:
+        id: c_TNGLi0OK1WHTrd0iJETc6x
+        subject_person_id: p_FF5NEoKt6BCvbiCkrfJPv5
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_fYsU7A3SFMfzEtkjj2jnfk
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8wUINuMcWBJXPJvxHRSlGY
+          claim_id: c_TNGLi0OK1WHTrd0iJETc6x
+          source_id: s_wyYMzBGD6hQTHBVCDvJjvj
+          stance: supports
+          locator: 嘉靖十七年進士登科錄:一卷，第三甲第四十三名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_wyYMzBGD6hQTHBVCDvJjvj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王能（CBDB 300164）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=300164&o=json
+            external_identifier: CBDB:300164
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.612Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_FF5NEoKt6BCvbiCkrfJPv5
+        status: active
+        display_name: 王能
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_97kSyM8YLYzB5cHKtZsf2Q | 王充 | accepted |
+| ancestors | p_FF5NEoKt6BCvbiCkrfJPv5 | 王能 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王充（CBDB 300165）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=300165&o=json)
+- [中国历代人物传记资料库：王能（CBDB 300164）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=300164&o=json)
 - [中国历代人物传记资料库：王之臣（CBDB 203124）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203124&o=json)

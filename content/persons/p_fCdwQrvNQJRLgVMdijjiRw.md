@@ -4,7 +4,7 @@ id: p_fCdwQrvNQJRLgVMdijjiRw
 status: active
 merged_into: null
 display_name: 王傅
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -143,6 +143,43 @@ relationships:
         status: active
         display_name: 王寧
         merged_into_person_id: null
+    - claim:
+        id: c_kotQG7dlZn7Xz0k3YKxP0Q
+        subject_person_id: p_fH3QPxWYwefsNiUYRQKpuS
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_fCdwQrvNQJRLgVMdijjiRw
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_UeaP-oQaUmBDgw793W23mm
+          claim_id: c_kotQG7dlZn7Xz0k3YKxP0Q
+          source_id: s_wFSM1zKf9Ct9ssTmjDgpeX
+          stance: supports
+          locator: 成化十一年進士登科錄:一卷，第三甲第八十名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_wFSM1zKf9Ct9ssTmjDgpeX
+            source_type: api_record
+            title: 中国历代人物传记资料库：王福慶（CBDB 249468）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=249468&o=json
+            external_identifier: CBDB:249468
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.168Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_fH3QPxWYwefsNiUYRQKpuS
+        status: active
+        display_name: 王福慶
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_3HptA51T1i366pFuDiXhD4 | 王寧 | accepted |
+| ancestors | p_fH3QPxWYwefsNiUYRQKpuS | 王福慶 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王福慶（CBDB 249468）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=249468&o=json)
 - [中国历代人物传记资料库：王傅（CBDB 199770）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=199770&o=json)
 - [中国历代人物传记资料库：王寧（CBDB 249469）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=249469&o=json)

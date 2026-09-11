@@ -4,7 +4,7 @@ id: p_EYrfu6prdEPRvFMWEDEnKy
 status: active
 merged_into: null
 display_name: 王朗
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_ZaUTgLbmmhuyiVtDvI-dk-
+        subject_person_id: p_FE6i55GXzPWLVER3EtdHfo
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_EYrfu6prdEPRvFMWEDEnKy
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bvNSshqeoPRv1p8A5HqjA7
+          claim_id: c_ZaUTgLbmmhuyiVtDvI-dk-
+          source_id: s_A7M1WnEfVBk5R5fbsCbuZs
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #3548, HuWenKai #86：父"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_FE6i55GXzPWLVER3EtdHfo
+        status: active
+        display_name: 王彥泓
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_FE6i55GXzPWLVER3EtdHfo | 王彥泓 | accepted |
 
 ## 外部来源
 

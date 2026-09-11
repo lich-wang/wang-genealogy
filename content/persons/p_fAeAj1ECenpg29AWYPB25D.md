@@ -4,7 +4,7 @@ id: p_fAeAj1ECenpg29AWYPB25D
 status: active
 merged_into: null
 display_name: 王國光
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,12 +128,116 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_DfEMDKl6WGKNlKXj_k2k8I
+        subject_person_id: p_GvhnbSfs4k75xQrdJJphA9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_fAeAj1ECenpg29AWYPB25D
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_g9fuktUL2THbIiSSUW1K_g
+          claim_id: c_DfEMDKl6WGKNlKXj_k2k8I
+          source_id: s_Vt2QnjwfvAN63GjXwa6CEm
+          stance: supports
+          locator: 嘉靖二十三年登科錄:一卷，第三甲第一百八十九名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_GvhnbSfs4k75xQrdJJphA9
+        status: active
+        display_name: 王承祖
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
-  ancestors: []
+  spouses:
+    - claim:
+        id: c_hdEbDYI7T8T-wPP9f1la9H
+        subject_person_id: p_fAeAj1ECenpg29AWYPB25D
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_f1W6QHDX2UCjZCHSgwPUAM
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_iK4VXYne4jWVGUqW1CQ5c6
+          claim_id: c_hdEbDYI7T8T-wPP9f1la9H
+          source_id: s_Vt2QnjwfvAN63GjXwa6CEm
+          stance: supports
+          locator: 嘉靖二十三年登科錄:一卷，第三甲第一百八十九名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_f1W6QHDX2UCjZCHSgwPUAM
+        status: active
+        display_name: 张氏
+        merged_into_person_id: null
+  ancestors:
+    - claim:
+        id: c_aipovPq7p-ELtEsrNjEq_n
+        subject_person_id: p_cvP1gJz184hGC1Ducr4dLY
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_fAeAj1ECenpg29AWYPB25D
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_DdYMAPenwL-nkFDNTsxqs3
+          claim_id: c_aipovPq7p-ELtEsrNjEq_n
+          source_id: s_Vt2QnjwfvAN63GjXwa6CEm
+          stance: supports
+          locator: 嘉靖二十三年登科錄:一卷，第三甲第一百八十九名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_cvP1gJz184hGC1Ducr4dLY
+        status: active
+        display_name: 王子文
+        merged_into_person_id: null
+    - claim:
+        id: c__W6JwAKbn2I2AZxme4wUv1
+        subject_person_id: p_qMBPniX9L5uzUSacCxGcRs
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_fAeAj1ECenpg29AWYPB25D
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_80eUobPhK2fz4u5EmCXMgG
+          claim_id: c__W6JwAKbn2I2AZxme4wUv1
+          source_id: s_Vt2QnjwfvAN63GjXwa6CEm
+          stance: supports
+          locator: 嘉靖二十三年登科錄:一卷，第三甲第一百八十九名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_qMBPniX9L5uzUSacCxGcRs
+        status: active
+        display_name: 王昺
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,6 +259,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_GvhnbSfs4k75xQrdJJphA9 | 王承祖 | accepted |
+| spouses | p_f1W6QHDX2UCjZCHSgwPUAM | 张氏 | accepted |
+| ancestors | p_cvP1gJz184hGC1Ducr4dLY | 王子文 | accepted |
+| ancestors | p_qMBPniX9L5uzUSacCxGcRs | 王昺 | accepted |
 
 ## 外部来源
 

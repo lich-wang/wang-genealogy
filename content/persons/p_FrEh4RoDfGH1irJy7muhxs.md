@@ -4,7 +4,7 @@ id: p_FrEh4RoDfGH1irJy7muhxs
 status: active
 merged_into: null
 display_name: 王禧
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_0jQ3Pbjro8ozPdtHV9tNCk
+        subject_person_id: p_FrEh4RoDfGH1irJy7muhxs
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_sZEnnJm6tMYD9G3rVKEL7w
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_m5mkkb9WSdobIS9JuEFXGe
+          claim_id: c_0jQ3Pbjro8ozPdtHV9tNCk
+          source_id: s_HBMs9tcq6jppg6KKBbxWQN
+          stance: supports
+          locator: 嘉靖四十四年進士登科錄:一卷，第三甲第八十九名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_sZEnnJm6tMYD9G3rVKEL7w
+        status: active
+        display_name: 王弘誨
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_sZEnnJm6tMYD9G3rVKEL7w | 王弘誨 | accepted |
 
 ## 外部来源
 

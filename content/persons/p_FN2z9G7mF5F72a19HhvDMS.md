@@ -4,7 +4,7 @@ id: p_FN2z9G7mF5F72a19HhvDMS
 status: active
 merged_into: null
 display_name: 王相
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -77,7 +77,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c__kpJ7HJPgVh5JTUGQrXbUU
+        subject_person_id: p_PuxfejtYLHhEMMKN7Qz8Tp
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_FN2z9G7mF5F72a19HhvDMS
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MAvR1WeBGdc-Q7kg4uI6qs
+          claim_id: c__kpJ7HJPgVh5JTUGQrXbUU
+          source_id: s_3w4T7QpWZdbGyP5xC5bfyy
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），11728：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_PuxfejtYLHhEMMKN7Qz8Tp
+        status: active
+        display_name: 王彥祖
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_PuxfejtYLHhEMMKN7Qz8Tp | 王彥祖 | accepted |
 
 ## 外部来源
 

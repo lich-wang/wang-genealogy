@@ -4,7 +4,7 @@ id: p_F8SHg1jghtRVYuUPgXkEsb
 status: active
 merged_into: null
 display_name: 王一夔
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_SAlnyBCP197RIYMgzH9y-o
+        subject_person_id: p_UdfLEMsJyH99khtJRw2xU3
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_F8SHg1jghtRVYuUPgXkEsb
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qswjlk4BbKtDlKz5wRvmW4
+          claim_id: c_SAlnyBCP197RIYMgzH9y-o
+          source_id: s_mYFdB2AZEiw9KW11gdLcFC
+          stance: supports
+          locator: 南昌府志，Igid=1202886：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_UdfLEMsJyH99khtJRw2xU3
+        status: active
+        display_name: 王仁
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -155,6 +181,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_UdfLEMsJyH99khtJRw2xU3 | 王仁 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_Fn3VWmbwHWaLfGAks8JyJ5
 status: active
 merged_into: null
 display_name: 王守正
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_LaBQqg1Znrko3p0LCyD6OY
+        subject_person_id: p_Fn3VWmbwHWaLfGAks8JyJ5
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_WQT1Hm7LSS63rTgZwvcsM7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_spHtRW_4xuhPfx2ARlr_LP
+          claim_id: c_LaBQqg1Znrko3p0LCyD6OY
+          source_id: s_i2UaexLr7DobyCqJATPx7L
+          stance: supports
+          locator: 嘉靖二十九年進士登科錄:一卷，第三甲第三十名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_WQT1Hm7LSS63rTgZwvcsM7
+        status: active
+        display_name: 王希堯
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_WQT1Hm7LSS63rTgZwvcsM7 | 王希堯 | accepted |
 
 ## 外部来源
 

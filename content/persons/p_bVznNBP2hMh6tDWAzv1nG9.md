@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王钻
 cbdb_id: 262449
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -225,6 +225,43 @@ relationships:
         status: active
         display_name: 王时中
         merged_into_person_id: null
+    - claim:
+        id: c_EdR-0N5fC-b-zB6YA3ZG_v
+        subject_person_id: p_bVznNBP2hMh6tDWAzv1nG9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_fEfMjJL54WdS6wVP79X5vL
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tAle7BNTGle2qrw6mX4bnU
+          claim_id: c_EdR-0N5fC-b-zB6YA3ZG_v
+          source_id: s_XorrntH4J6QdzdVHhn6Fby
+          stance: supports
+          locator: 弘治三年進士登科錄:一卷，第三甲第六十五名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_XorrntH4J6QdzdVHhn6Fby
+            source_type: api_record
+            title: 中国历代人物传记资料库：王時中（CBDB 68328）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=68328&o=json
+            external_identifier: CBDB:68328
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:13.066Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_fEfMjJL54WdS6wVP79X5vL
+        status: active
+        display_name: 王時中
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -250,10 +287,12 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_snnHYhecDpk5HZ7B1gQ1jo | 王琏 | accepted |
 | children | p_3SWv8LY5fsb1rb4ZwewsLo | 王时中 | accepted |
+| children | p_fEfMjJL54WdS6wVP79X5vL | 王時中 | accepted |
 
 ## 外部来源
 
 - [维基数据：王琏（Q45476476）](https://www.wikidata.org/wiki/Q45476476)
 - [维基数据：王时中（Q15913916）](https://www.wikidata.org/wiki/Q15913916)
 - [维基数据：王钻（Q45476540）](https://www.wikidata.org/wiki/Q45476540)
+- [中国历代人物传记资料库：王時中（CBDB 68328）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=68328&o=json)
 - [CBDB 中国历代人物传记资料库：王鑽（262449）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262449&o=json)

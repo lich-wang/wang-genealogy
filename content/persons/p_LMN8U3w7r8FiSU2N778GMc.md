@@ -4,7 +4,7 @@ id: p_LMN8U3w7r8FiSU2N778GMc
 status: active
 merged_into: null
 display_name: 王勳
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -105,7 +105,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_o59oD6MVVvOKIutED9Q1pB
+        subject_person_id: p_FqUud2w7N1wezRTEw6MRZ4
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_LMN8U3w7r8FiSU2N778GMc
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gs2KV_37Kl2m0HCPO1C6EX
+          claim_id: c_o59oD6MVVvOKIutED9Q1pB
+          source_id: s_Kt2AfBh7fKuTLiRwHyCwPY
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1234：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Kt2AfBh7fKuTLiRwHyCwPY
+            source_type: api_record
+            title: 中国历代人物传记资料库：王說（CBDB 19870）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19870&o=json
+            external_identifier: CBDB:19870
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.740Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_FqUud2w7N1wezRTEw6MRZ4
+        status: active
+        display_name: 王說
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_FqUud2w7N1wezRTEw6MRZ4 | 王說 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王說（CBDB 19870）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19870&o=json)
 - [中国历代人物传记资料库：王勳（CBDB 1818）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1818&o=json)

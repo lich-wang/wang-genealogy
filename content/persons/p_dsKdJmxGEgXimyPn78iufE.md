@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王庆远
 cbdb_id: 175928
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -287,6 +287,43 @@ relationships:
         status: active
         display_name: 王长述
         merged_into_person_id: null
+    - claim:
+        id: c_LurHj854l6qDTWnlEGMT7A
+        subject_person_id: p_dsKdJmxGEgXimyPn78iufE
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_FT9RqRRd8aA6VTvUJwSsKh
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_EVgfSx-ZHUgKYUX5gbzAOt
+          claim_id: c_LurHj854l6qDTWnlEGMT7A
+          source_id: s_Z4fSgBune8n8AebnCNQ3RV
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Z4fSgBune8n8AebnCNQ3RV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王述（CBDB 175929）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175929&o=json
+            external_identifier: CBDB:175929
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.205Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_FT9RqRRd8aA6VTvUJwSsKh
+        status: active
+        display_name: 王述
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -313,11 +350,13 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_eSRcJG6YidrDKEjtoJGGoF | 王罴 | accepted |
 | children | p_BK7k2QcLRSfSmKmA6kf5hq | 王长述 | accepted |
+| children | p_FT9RqRRd8aA6VTvUJwSsKh | 王述 | accepted |
 
 ## 外部来源
 
 - [维基数据：王罴（Q18700798）](https://www.wikidata.org/wiki/Q18700798)
 - [维基数据：王庆远（Q45679705）](https://www.wikidata.org/wiki/Q45679705)
 - [维基数据：王长述（Q11573236）](https://www.wikidata.org/wiki/Q11573236)
+- [中国历代人物传记资料库：王述（CBDB 175929）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175929&o=json)
 - [CBDB 中国历代人物传记资料库：王羆（175927）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175927&o=json)
 - [CBDB 中国历代人物传记资料库：王慶遠（175928）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175928&o=json)

@@ -4,7 +4,7 @@ id: p_kAp4jgFVdUZGBRH4zNTPTY
 status: active
 merged_into: null
 display_name: 王承芳
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,86 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_9-fEapURkTST3HbPQaaQv4
+        subject_person_id: p_FPuXLEGAJYG7bRWewEjk1X
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_kAp4jgFVdUZGBRH4zNTPTY
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_x4izBbGSxfT5zIAnuQKNYg
+          claim_id: c_9-fEapURkTST3HbPQaaQv4
+          source_id: s_1uV6KejwwsLF4cJJE2a1mk
+          stance: supports
+          locator: 嘉靖四十一年進士登科錄:一卷，第三甲第一百三十八名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_1uV6KejwwsLF4cJJE2a1mk
+            source_type: api_record
+            title: 中国历代人物传记资料库：王義（CBDB 328625）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=328625&o=json
+            external_identifier: CBDB:328625
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.307Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_FPuXLEGAJYG7bRWewEjk1X
+        status: active
+        display_name: 王義
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_fM2imRz-HaBxjAem72AhJa
+        subject_person_id: p_fTmpC1A5d2U7VnChtChQKk
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_kAp4jgFVdUZGBRH4zNTPTY
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BxY4E668j6VgLK-6M87LUY
+          claim_id: c_fM2imRz-HaBxjAem72AhJa
+          source_id: s_yEPE58AsCaLaoNFBLcu9KY
+          stance: supports
+          locator: 嘉靖四十一年進士登科錄:一卷，第三甲第一百三十八名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_yEPE58AsCaLaoNFBLcu9KY
+            source_type: api_record
+            title: 中国历代人物传记资料库：王洪（CBDB 328624）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=328624&o=json
+            external_identifier: CBDB:328624
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.307Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_fTmpC1A5d2U7VnChtChQKk
+        status: active
+        display_name: 王洪
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,7 +200,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_FPuXLEGAJYG7bRWewEjk1X | 王義 | accepted |
+| ancestors | p_fTmpC1A5d2U7VnChtChQKk | 王洪 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王承芳（CBDB 205124）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205124&o=json)
+- [中国历代人物传记资料库：王洪（CBDB 328624）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=328624&o=json)
+- [中国历代人物传记资料库：王義（CBDB 328625）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=328625&o=json)

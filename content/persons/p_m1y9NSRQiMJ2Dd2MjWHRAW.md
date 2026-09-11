@@ -4,7 +4,7 @@ id: p_m1y9NSRQiMJ2Dd2MjWHRAW
 status: active
 merged_into: null
 display_name: 王獻
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_AeuIScV2qRnsNO8ZV-K9hO
+        subject_person_id: p_m1y9NSRQiMJ2Dd2MjWHRAW
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_feVTPN7HCaS1BxqehN6dAD
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pvr_KciF2ijENtcabGYI4q
+          claim_id: c_AeuIScV2qRnsNO8ZV-K9hO
+          source_id: s_4BCKDC9vCQZBt84PMj5mSb
+          stance: supports
+          locator: 隆慶五年進士登科錄:一卷，第三甲第二百九十七名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_4BCKDC9vCQZBt84PMj5mSb
+            source_type: api_record
+            title: 中国历代人物传记资料库：王度（CBDB 206012）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206012&o=json
+            external_identifier: CBDB:206012
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.879Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_feVTPN7HCaS1BxqehN6dAD
+        status: active
+        display_name: 王度
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_feVTPN7HCaS1BxqehN6dAD | 王度 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王度（CBDB 206012）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206012&o=json)
 - [中国历代人物传记资料库：王獻（CBDB 212084）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=212084&o=json)

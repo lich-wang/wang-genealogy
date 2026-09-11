@@ -4,7 +4,7 @@ id: p_qDMQBGR2e3tZ2gAPo7nDfp
 status: active
 merged_into: null
 display_name: 王政
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_BBtKIhvUbuNB-Rftmo_nw_
+        subject_person_id: p_qDMQBGR2e3tZ2gAPo7nDfp
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_fJbtRZx7s1XqSoTR8tLmBu
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0B9MPrpLItaTvNScdLWepH
+          claim_id: c_BBtKIhvUbuNB-Rftmo_nw_
+          source_id: s_9t6MfGDZdGonHJQxFCm4qT
+          stance: supports
+          locator: 嘉靖十四年進士登科錄:一卷，第二甲第三十七名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_9t6MfGDZdGonHJQxFCm4qT
+            source_type: api_record
+            title: 中国历代人物传记资料库：王珉（CBDB 202834）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202834&o=json
+            external_identifier: CBDB:202834
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.759Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_fJbtRZx7s1XqSoTR8tLmBu
+        status: active
+        display_name: 王珉
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_fJbtRZx7s1XqSoTR8tLmBu | 王珉 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王珉（CBDB 202834）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202834&o=json)
 - [中国历代人物传记资料库：王政（CBDB 295399）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=295399&o=json)

@@ -4,7 +4,7 @@ id: p_F1ztzuz1U8ujDjC1zTRTfv
 status: active
 merged_into: null
 display_name: 王陸
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_ewl21wyAVlYfqibDN_AhmF
+        subject_person_id: p_F1ztzuz1U8ujDjC1zTRTfv
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Q746PBZNycHf9YN5GVT1MS
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gLER_ireIs5xhCp5mw7u99
+          claim_id: c_ewl21wyAVlYfqibDN_AhmF
+          source_id: s_V5rjyX2LipcYUg7MCz2X2J
+          stance: supports
+          locator: 成化十七年進士登科錄:一卷，第三甲第四十四名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Q746PBZNycHf9YN5GVT1MS
+        status: active
+        display_name: 王璇
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_Q746PBZNycHf9YN5GVT1MS | 王璇 | accepted |
 
 ## 外部来源
 

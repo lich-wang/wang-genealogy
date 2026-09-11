@@ -4,7 +4,7 @@ id: p_fHWLZSGPRrVehEZSh8KThr
 status: active
 merged_into: null
 display_name: 王宋
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_z3jPlKRTMtGLw-KIj72a3r
+        subject_person_id: p_fHWLZSGPRrVehEZSh8KThr
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_jmQBNF2thuLTj5CEgg4gFw
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_L0Kj6li0EgP9quHYvhW5kX
+          claim_id: c_z3jPlKRTMtGLw-KIj72a3r
+          source_id: s_cMnNa2PZHz5zfAfcQ4NsVj
+          stance: supports
+          locator: 嘉靖四十一年進士登科錄:一卷，第三甲第五十八名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_jmQBNF2thuLTj5CEgg4gFw
+        status: active
+        display_name: 王宗載
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_jmQBNF2thuLTj5CEgg4gFw | 王宗載 | accepted |
 
 ## 外部来源
 

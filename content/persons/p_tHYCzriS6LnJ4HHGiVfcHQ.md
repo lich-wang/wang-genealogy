@@ -4,7 +4,7 @@ id: p_tHYCzriS6LnJ4HHGiVfcHQ
 status: active
 merged_into: null
 display_name: 王汝清
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -101,7 +101,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_dt5J2y3tkayt_nny68JiX2
+        subject_person_id: p_tHYCzriS6LnJ4HHGiVfcHQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_FbvUfnrJsMZAACE7dBpnUs
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_c8X1Xpr9Xqsk0v8Co95E3O
+          claim_id: c_dt5J2y3tkayt_nny68JiX2
+          source_id: s_Ee5YLNRT2rhjRFBBFroTte
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第三甲第七十八名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Ee5YLNRT2rhjRFBBFroTte
+            source_type: api_record
+            title: 中国历代人物传记资料库：王胤賢（CBDB 201978）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201978&o=json
+            external_identifier: CBDB:201978
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.707Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_FbvUfnrJsMZAACE7dBpnUs
+        status: active
+        display_name: 王胤賢
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_FbvUfnrJsMZAACE7dBpnUs | 王胤賢 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王汝清（CBDB 201079）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201079&o=json)
+- [中国历代人物传记资料库：王胤賢（CBDB 201978）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201978&o=json)

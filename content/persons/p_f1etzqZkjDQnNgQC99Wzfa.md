@@ -4,7 +4,7 @@ id: p_f1etzqZkjDQnNgQC99Wzfa
 status: active
 merged_into: null
 display_name: 王昺
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_95Oeg7WpWeEOEpcsALeyai
+        subject_person_id: p_f1etzqZkjDQnNgQC99Wzfa
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_etxF8UycP4Urogz61YgdPb
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_uSVxQfPA7U-XZco-_nv5P3
+          claim_id: c_95Oeg7WpWeEOEpcsALeyai
+          source_id: s_9wW7a6AbKnTUU7Ce259nvU
+          stance: supports
+          locator: 萬曆三十八年庚戌科序齒錄:一卷，第三甲第九十三名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_etxF8UycP4Urogz61YgdPb
+        status: active
+        display_name: 王安舜
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_etxF8UycP4Urogz61YgdPb | 王安舜 | accepted |
 
 ## 外部来源
 

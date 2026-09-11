@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王世懋
 cbdb_id: 34719
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -614,6 +614,43 @@ relationships:
         status: active
         display_name: 王倬
         merged_into_person_id: null
+    - claim:
+        id: c_oGa2TJhXENDeVdan-Wuxro
+        subject_person_id: p_fPxsvuPDLTWcoKeLr8C2kd
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_38CvMQkfBCMzR3DNrBhBQJ
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_E7_jw0WdJFG1bMYUvDF-8y
+          claim_id: c_oGa2TJhXENDeVdan-Wuxro
+          source_id: s_KHnVYsu4cDy25LW4o2hhvi
+          stance: supports
+          locator: 嘉靖三十八年進士登科錄:一卷，第三甲第一百四十七名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_KHnVYsu4cDy25LW4o2hhvi
+            source_type: api_record
+            title: 中国历代人物传记资料库：王輅（CBDB 325412）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=325412&o=json
+            external_identifier: CBDB:325412
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.199Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_fPxsvuPDLTWcoKeLr8C2kd
+        status: active
+        display_name: 王輅
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -640,6 +677,7 @@ relationships:
 | spouses | p_SgThifkjTUbYEBc8gUKfZc | 章氏 | accepted |
 | ancestors | p_hhmhrJoJhGam6MtTDBQHpt | 王辂 | accepted |
 | ancestors | p_2CY82LiLunPZpBKWzpBz3S | 王倬 | accepted |
+| ancestors | p_fPxsvuPDLTWcoKeLr8C2kd | 王輅 | accepted |
 
 ## 外部来源
 
@@ -647,6 +685,7 @@ relationships:
 - [维基数据：王世懋（Q16260750）](https://www.wikidata.org/wiki/Q16260750)
 - [维基数据：章氏（Q65851988）](https://www.wikidata.org/wiki/Q65851988)
 - [維基數據：王忬（Q15933350）](https://www.wikidata.org/wiki/Q15933350)
+- [中国历代人物传记资料库：王輅（CBDB 325412）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=325412&o=json)
 - [中文维基百科：王世懋](https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%B8%96%E6%87%8B)
 - [CBDB 中国历代人物传记资料库：王士騄（136069）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=136069&o=json)
 - [CBDB 中国历代人物传记资料库：王世懋（34719）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34719&o=json)

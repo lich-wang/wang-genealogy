@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王民望
 cbdb_id: 136440
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,7 +86,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_9DW103s0In1X-dxb14dYOI
+        subject_person_id: p_Fo5H89gRd1G7FrWqXFVXtt
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_e8fyUGVWsewm8vpP5EJCF4
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_k7_V6G7fLIrU2gUtRgunvH
+          claim_id: c_9DW103s0In1X-dxb14dYOI
+          source_id: s_ME4J2g2xqALo2PrEEMnvAH
+          stance: supports
+          locator: 寶祐登科錄：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ME4J2g2xqALo2PrEEMnvAH
+            source_type: api_record
+            title: 中国历代人物传记资料库：王節（CBDB 137375）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=137375&o=json
+            external_identifier: CBDB:137375
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.346Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Fo5H89gRd1G7FrWqXFVXtt
+        status: active
+        display_name: 王節
+        merged_into_person_id: null
   children:
     - claim:
         id: c_R30nqXl1Khd5LlsoOCB389
@@ -148,9 +185,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Fo5H89gRd1G7FrWqXFVXtt | 王節 | accepted |
 | children | p_6yFP175w8qJgJRVTRiUkab | 王一奇 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王節（CBDB 137375）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=137375&o=json)
 - [中国历代人物传记资料库：王民望（CBDB 136440）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=136440&o=json)
 - [中国历代人物传记资料库：王一奇（CBDB 12910）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=12910&o=json)

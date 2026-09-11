@@ -4,7 +4,7 @@ id: p_CNQq29PPARqLQdyYsUrpxT
 status: active
 merged_into: null
 display_name: 王辯
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -267,6 +267,43 @@ relationships:
         status: active
         display_name: 王元之
         merged_into_person_id: null
+    - claim:
+        id: c_TKu7GVHQwKqibzAm3h2Eef
+        subject_person_id: p_CNQq29PPARqLQdyYsUrpxT
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_eVoFMkFMC1ME5ByDN5Fpbj
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__TyTYqwNhiSmpimt6r8Uh9
+          claim_id: c_TKu7GVHQwKqibzAm3h2Eef
+          source_id: s_xPtABPGKTcY38F3MR1Yxzu
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，北宋卷226 王辯墓志：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_xPtABPGKTcY38F3MR1Yxzu
+            source_type: api_record
+            title: 中国历代人物传记资料库：王脩之（CBDB 700903）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=700903&o=json
+            external_identifier: CBDB:700903
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:27.790Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_eVoFMkFMC1ME5ByDN5Fpbj
+        status: active
+        display_name: 王脩之
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -348,6 +385,7 @@ relationships:
 | children | p_a6iBVSH4AvDbFzM1nurSan | 王真卿 | accepted |
 | children | p_az3PoNHrQPcMf7JchdnEpq | 王伯清 | accepted |
 | children | p_D7d4NRSbDa42wt9zYGD7Et | 王元之 | accepted |
+| children | p_eVoFMkFMC1ME5ByDN5Fpbj | 王脩之 | accepted |
 | ancestors | p_EAKGvrLB7qJXthZERUG6pi | 王崇謙 | accepted |
 | ancestors | p_x9sCiMBHHPYfMF5fv5uEG1 | 王允正 | accepted |
 
@@ -355,5 +393,6 @@ relationships:
 
 - [中国历代人物传记资料库：王辯（CBDB 700887）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=700887&o=json)
 - [中国历代人物传记资料库：王伯清（CBDB 700900）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=700900&o=json)
+- [中国历代人物传记资料库：王脩之（CBDB 700903）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=700903&o=json)
 - [中国历代人物传记资料库：王元之（CBDB 700899）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=700899&o=json)
 - [中国历代人物传记资料库：王真卿（CBDB 700901）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=700901&o=json)

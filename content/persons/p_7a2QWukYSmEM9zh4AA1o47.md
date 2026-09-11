@@ -4,7 +4,7 @@ id: p_7a2QWukYSmEM9zh4AA1o47
 status: active
 merged_into: null
 display_name: 王得孚
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -208,6 +208,43 @@ relationships:
         status: active
         display_name: 王永芳
         merged_into_person_id: null
+    - claim:
+        id: c_PqTNR1fqgYfM4E_KHPOyP6
+        subject_person_id: p_eSAMJxeFXaqnK1yWfAKdFJ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_7a2QWukYSmEM9zh4AA1o47
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_d_NtcGBM4TrU4d95-QNK0f
+          claim_id: c_PqTNR1fqgYfM4E_KHPOyP6
+          source_id: s_HA26jyGcz1iSaNCzcar8En
+          stance: supports
+          locator: 成化二年進士登科錄:一卷，第三甲第一百七十三名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_HA26jyGcz1iSaNCzcar8En
+            source_type: api_record
+            title: 中国历代人物传记资料库：王景銘（CBDB 241838）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241838&o=json
+            external_identifier: CBDB:241838
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.956Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_eSAMJxeFXaqnK1yWfAKdFJ
+        status: active
+        display_name: 王景銘
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -231,9 +268,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_eN26ab6vRMdN7dn1bE1CDf | 王子榮 | accepted |
 | ancestors | p_56sUTAFmEaA2xmEhCBUKJe | 王永芳 | accepted |
+| ancestors | p_eSAMJxeFXaqnK1yWfAKdFJ | 王景銘 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王得孚（CBDB 126702）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126702&o=json)
+- [中国历代人物传记资料库：王景銘（CBDB 241838）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241838&o=json)
 - [中国历代人物传记资料库：王永芳（CBDB 241839）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241839&o=json)
 - [中国历代人物传记资料库：王子榮（CBDB 241841）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241841&o=json)

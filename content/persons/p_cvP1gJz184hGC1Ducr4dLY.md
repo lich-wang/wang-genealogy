@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王子文
 cbdb_id: 308146
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -143,7 +143,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_aipovPq7p-ELtEsrNjEq_n
+        subject_person_id: p_cvP1gJz184hGC1Ducr4dLY
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_fAeAj1ECenpg29AWYPB25D
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_DdYMAPenwL-nkFDNTsxqs3
+          claim_id: c_aipovPq7p-ELtEsrNjEq_n
+          source_id: s_Vt2QnjwfvAN63GjXwa6CEm
+          stance: supports
+          locator: 嘉靖二十三年登科錄:一卷，第三甲第一百八十九名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Vt2QnjwfvAN63GjXwa6CEm
+            source_type: api_record
+            title: 中国历代人物传记资料库：王國光（CBDB 125310）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=125310&o=json
+            external_identifier: CBDB:125310
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:14.950Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_fAeAj1ECenpg29AWYPB25D
+        status: active
+        display_name: 王國光
+        merged_into_person_id: null
   other: []
 ---
 
@@ -163,9 +200,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_qMBPniX9L5uzUSacCxGcRs | 王昺 | accepted |
+| descendants | p_fAeAj1ECenpg29AWYPB25D | 王國光 | accepted |
 
 ## 外部来源
 
 - [维基数据：王昺（Q45621024）](https://www.wikidata.org/wiki/Q45621024)
 - [维基数据：王子文（Q45620962）](https://www.wikidata.org/wiki/Q45620962)
+- [中国历代人物传记资料库：王國光（CBDB 125310）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=125310&o=json)
 - [CBDB 中国历代人物传记资料库：王子文（308146）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=308146&o=json)

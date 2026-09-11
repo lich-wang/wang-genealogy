@@ -4,7 +4,7 @@ id: p_N8A5uBxQ6WYAScVBd1MwWK
 status: active
 merged_into: null
 display_name: 王納言
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_OCAy-nrNZGgRulKoYZCPhC
+        subject_person_id: p_EtunJTDuKzmTUvcCoNYvEE
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_N8A5uBxQ6WYAScVBd1MwWK
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jTWR7NTawrTKJeptL4AGkT
+          claim_id: c_OCAy-nrNZGgRulKoYZCPhC
+          source_id: s_FyPwC1CGbriX4Jrb8FKBXx
+          stance: supports
+          locator: 嘉靖四十一年進士登科錄:一卷，第三甲第八十一名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_FyPwC1CGbriX4Jrb8FKBXx
+            source_type: api_record
+            title: 中国历代人物传记资料库：王棟（CBDB 328021）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=328021&o=json
+            external_identifier: CBDB:328021
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.286Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_EtunJTDuKzmTUvcCoNYvEE
+        status: active
+        display_name: 王棟
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -163,9 +200,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_EtunJTDuKzmTUvcCoNYvEE | 王棟 | accepted |
 | ancestors | p_5qEzsE79D6PfvuW1bJkxqf | 王澍 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王棟（CBDB 328021）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=328021&o=json)
 - [中国历代人物传记资料库：王納言（CBDB 205080）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205080&o=json)
 - [中国历代人物传记资料库：王澍（CBDB 328020）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=328020&o=json)

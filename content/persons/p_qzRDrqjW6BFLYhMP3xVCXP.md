@@ -4,7 +4,7 @@ id: p_qzRDrqjW6BFLYhMP3xVCXP
 status: active
 merged_into: null
 display_name: 王尙志
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_HXJ-r1yFL27xfsSdPmxCkM
+        subject_person_id: p_qzRDrqjW6BFLYhMP3xVCXP
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_fDhimD1m3wM6F4kC7gocUW
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_M9dm0qhcTPmcByvamp3QlP
+          claim_id: c_HXJ-r1yFL27xfsSdPmxCkM
+          source_id: s_S7X7GeP8bWcnwLmVZxa1s6
+          stance: supports
+          locator: "海鹽縣志: 二十二卷(光緒)，lgid=294038：父"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_S7X7GeP8bWcnwLmVZxa1s6
+            source_type: api_record
+            title: 中国历代人物传记资料库：王溥（CBDB 694296）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=694296&o=json
+            external_identifier: CBDB:694296
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:27.670Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_fDhimD1m3wM6F4kC7gocUW
+        status: active
+        display_name: 王溥
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_fDhimD1m3wM6F4kC7gocUW | 王溥 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王溥（CBDB 694296）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=694296&o=json)
 - [中国历代人物传记资料库：王尙志（CBDB 694288）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=694288&o=json)

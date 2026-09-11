@@ -4,7 +4,7 @@ id: p_iExwTUSihbBvbcDkEjipqk
 status: active
 merged_into: null
 display_name: 王珍
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -176,6 +176,80 @@ relationships:
         status: active
         display_name: 王元皐
         merged_into_person_id: null
+    - claim:
+        id: c_zHkPom0Deo05P2zuLAAXqT
+        subject_person_id: p_iExwTUSihbBvbcDkEjipqk
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_EwNPNustBQxxCU5PjvQLo4
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_15sS-TqlETWMIOeksPXS0x
+          claim_id: c_zHkPom0Deo05P2zuLAAXqT
+          source_id: s_LYrNrmBcf5P7Ra2VcWpnth
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_LYrNrmBcf5P7Ra2VcWpnth
+            source_type: api_record
+            title: 中国历代人物传记资料库：王睿（CBDB 145126）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=145126&o=json
+            external_identifier: CBDB:145126
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.653Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_EwNPNustBQxxCU5PjvQLo4
+        status: active
+        display_name: 王睿
+        merged_into_person_id: null
+    - claim:
+        id: c_aWf084hFn_KpNPoscEDNvF
+        subject_person_id: p_iExwTUSihbBvbcDkEjipqk
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_fS36NNNGPw2p33jWLuZLp3
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zL_gq4lcoabINJALZILfXs
+          claim_id: c_aWf084hFn_KpNPoscEDNvF
+          source_id: s_F6FjkfVw5Bi47bQpKh6SU5
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_F6FjkfVw5Bi47bQpKh6SU5
+            source_type: api_record
+            title: 中国历代人物传记资料库：王元紹（CBDB 190306）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=190306&o=json
+            external_identifier: CBDB:190306
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.280Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_fS36NNNGPw2p33jWLuZLp3
+        status: active
+        display_name: 王元紹
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -202,9 +276,13 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_1CVjWfj6Z4oLLDvpZ3BxLu | 王元會 | accepted |
 | children | p_7KDsHR3PRRgyvAjBid66pt | 王元皐 | accepted |
+| children | p_EwNPNustBQxxCU5PjvQLo4 | 王睿 | accepted |
+| children | p_fS36NNNGPw2p33jWLuZLp3 | 王元紹 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王睿（CBDB 145126）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=145126&o=json)
 - [中国历代人物传记资料库：王元皐（CBDB 190305）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=190305&o=json)
 - [中国历代人物传记资料库：王元會（CBDB 190307）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=190307&o=json)
+- [中国历代人物传记资料库：王元紹（CBDB 190306）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=190306&o=json)
 - [中国历代人物传记资料库：王珍（CBDB 169475）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=169475&o=json)

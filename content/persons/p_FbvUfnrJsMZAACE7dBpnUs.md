@@ -4,7 +4,7 @@ id: p_FbvUfnrJsMZAACE7dBpnUs
 status: active
 merged_into: null
 display_name: 王胤賢
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_dt5J2y3tkayt_nny68JiX2
+        subject_person_id: p_tHYCzriS6LnJ4HHGiVfcHQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_FbvUfnrJsMZAACE7dBpnUs
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_c8X1Xpr9Xqsk0v8Co95E3O
+          claim_id: c_dt5J2y3tkayt_nny68JiX2
+          source_id: s_Ee5YLNRT2rhjRFBBFroTte
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第三甲第七十八名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_tHYCzriS6LnJ4HHGiVfcHQ
+        status: active
+        display_name: 王汝清
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_PIgoGpNqAATA__l9mubd-r
+        subject_person_id: p_QogBPUoy6ogb9CeCDBCCo9
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_FbvUfnrJsMZAACE7dBpnUs
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_r5yyNMWomNZQjMHwIkd4VB
+          claim_id: c_PIgoGpNqAATA__l9mubd-r
+          source_id: s_Ee5YLNRT2rhjRFBBFroTte
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第三甲第七十八名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_QogBPUoy6ogb9CeCDBCCo9
+        status: active
+        display_name: 王翰
+        merged_into_person_id: null
+    - claim:
+        id: c_PQlT2TlW9P5JV_m7gvy5JZ
+        subject_person_id: p_uKE1GZcJjjWN4cHRBMP9aK
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_FbvUfnrJsMZAACE7dBpnUs
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dbb4cGip20tOPjzAhlZd4V
+          claim_id: c_PQlT2TlW9P5JV_m7gvy5JZ
+          source_id: s_Ee5YLNRT2rhjRFBBFroTte
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第三甲第七十八名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_uKE1GZcJjjWN4cHRBMP9aK
+        status: active
+        display_name: 王璿
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_tHYCzriS6LnJ4HHGiVfcHQ | 王汝清 | accepted |
+| ancestors | p_QogBPUoy6ogb9CeCDBCCo9 | 王翰 | accepted |
+| ancestors | p_uKE1GZcJjjWN4cHRBMP9aK | 王璿 | accepted |
 
 ## 外部来源
 

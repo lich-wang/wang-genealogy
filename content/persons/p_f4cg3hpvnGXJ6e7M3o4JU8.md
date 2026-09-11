@@ -4,7 +4,7 @@ id: p_f4cg3hpvnGXJ6e7M3o4JU8
 status: active
 merged_into: null
 display_name: 王𠠹
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -77,7 +77,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_QehhlnSnx8MJa72VCr9weJ
+        subject_person_id: p_XBdYGhhY6KYRHheCG3YBMX
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_f4cg3hpvnGXJ6e7M3o4JU8
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GrMjcj0MYTLRfvX8-ULqWE
+          claim_id: c_QehhlnSnx8MJa72VCr9weJ
+          source_id: s_bi28NPpqXtAUs3XnhPYcMw
+          stance: supports
+          locator: 長安縣志，488：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_XBdYGhhY6KYRHheCG3YBMX
+        status: active
+        display_name: 王平
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_XBdYGhhY6KYRHheCG3YBMX | 王平 | accepted |
 
 ## 外部来源
 

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王蒔蘭
 cbdb_id: 69391
-revision: 4
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,8 +86,82 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_DXgPFpGp3jHMqR41o1h8s-
+        subject_person_id: p_fRAzL4ApNNZCFckyCVpB9u
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_DHYbJsS7LE12BDd6qGrWUt
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7LIFlxerzJgd0jmlkAUthq
+          claim_id: c_DXgPFpGp3jHMqR41o1h8s-
+          source_id: s_dwPEeECEogUePtjAgMJSQu
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13096：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_dwPEeECEogUePtjAgMJSQu
+            source_type: api_record
+            title: 中国历代人物传记资料库：王立誠（CBDB 526930）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526930&o=json
+            external_identifier: CBDB:526930
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.306Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_fRAzL4ApNNZCFckyCVpB9u
+        status: active
+        display_name: 王立誠
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_EgnGdKlS3Kq6-s5VPyOhiK
+        subject_person_id: p_DHYbJsS7LE12BDd6qGrWUt
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_FGbhkWB4xy2gtmPSMVpsUL
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fXHEu1hOUO0je4a7Z_nvr-
+          claim_id: c_EgnGdKlS3Kq6-s5VPyOhiK
+          source_id: s_JnzPWFKMsPGYEGDpq9gRvA
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13096：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_JnzPWFKMsPGYEGDpq9gRvA
+            source_type: api_record
+            title: 中国历代人物传记资料库：王予衮（CBDB 526923）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526923&o=json
+            external_identifier: CBDB:526923
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.303Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_FGbhkWB4xy2gtmPSMVpsUL
+        status: active
+        display_name: 王予衮
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -128,6 +202,43 @@ relationships:
         id: p_dgp8k2g45uX342yUGpkNtj
         status: active
         display_name: 王承法
+        merged_into_person_id: null
+    - claim:
+        id: c_t8bqf5bX9MuniZGWYW10JH
+        subject_person_id: p_fa8ewBKTQnXHUsssHpGU8J
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_DHYbJsS7LE12BDd6qGrWUt
+        generation_count: 4
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8NolL8AWh6kJ4XQ3ZH-lPP
+          claim_id: c_t8bqf5bX9MuniZGWYW10JH
+          source_id: s_y4J3ryK9MPTyUER8cNaeho
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13096：玄孫;四世孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_y4J3ryK9MPTyUER8cNaeho
+            source_type: api_record
+            title: 中国历代人物传记资料库：王應堯（CBDB 526933）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526933&o=json
+            external_identifier: CBDB:526933
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.306Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_fa8ewBKTQnXHUsssHpGU8J
+        status: active
+        display_name: 王應堯
         merged_into_person_id: null
   descendants:
     - claim:
@@ -222,7 +333,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_fRAzL4ApNNZCFckyCVpB9u | 王立誠 | accepted |
+| children | p_FGbhkWB4xy2gtmPSMVpsUL | 王予衮 | accepted |
 | ancestors | p_dgp8k2g45uX342yUGpkNtj | 王承法 | accepted |
+| ancestors | p_fa8ewBKTQnXHUsssHpGU8J | 王應堯 | accepted |
 | descendants | p_5nNKgjEiLhifykXD8rQVag | 王丙燽 | accepted |
 | descendants | p_A7GQGqeizjCQayLYiygXyu | 王世鈞 | accepted |
 
@@ -230,5 +344,8 @@ relationships:
 
 - [中国历代人物传记资料库：王丙燽（CBDB 526924）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526924&o=json)
 - [中国历代人物传记资料库：王承法（CBDB 526931）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526931&o=json)
+- [中国历代人物传记资料库：王立誠（CBDB 526930）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526930&o=json)
 - [中国历代人物传记资料库：王蒔蘭（CBDB 69391）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69391&o=json)
 - [中国历代人物传记资料库：王世鈞（CBDB 526926）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526926&o=json)
+- [中国历代人物传记资料库：王應堯（CBDB 526933）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526933&o=json)
+- [中国历代人物传记资料库：王予衮（CBDB 526923）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526923&o=json)

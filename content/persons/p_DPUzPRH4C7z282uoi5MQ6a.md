@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王志用
 cbdb_id: 143395
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -177,7 +177,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_MwlCcEyycPjBHdMjofxdPt
+        subject_person_id: p_FoG33WZRA2VaDZVLo9UXti
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_DPUzPRH4C7z282uoi5MQ6a
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ogG_hlfjDuHzD8AxRLU0tk
+          claim_id: c_MwlCcEyycPjBHdMjofxdPt
+          source_id: s_89BhHxXG23hFEMuMB8PUmh
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Kaicheng13：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_89BhHxXG23hFEMuMB8PUmh
+            source_type: api_record
+            title: 中国历代人物传记资料库：王仙（CBDB 169042）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=169042&o=json
+            external_identifier: CBDB:169042
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.007Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_FoG33WZRA2VaDZVLo9UXti
+        status: active
+        display_name: 王仙
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -199,7 +236,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_FoG33WZRA2VaDZVLo9UXti | 王仙 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王仙（CBDB 169042）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=169042&o=json)
 - [中国历代人物传记资料库：王志用（CBDB 143395）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=143395&o=json)

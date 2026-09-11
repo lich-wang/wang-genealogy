@@ -4,7 +4,7 @@ id: p_eT2q7FzkPQ3U7QqmPg5Qkg
 status: active
 merged_into: null
 display_name: 王敘
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_B961IW471d9JoU1Qe9OprJ
+        subject_person_id: p_bbtkRepz65zt6fY1dTLEkm
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_eT2q7FzkPQ3U7QqmPg5Qkg
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HinH8LnT1qy9B3H4kqEI6x
+          claim_id: c_B961IW471d9JoU1Qe9OprJ
+          source_id: s_HwM1uuNbU1XRDYfergAfD6
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_bbtkRepz65zt6fY1dTLEkm
+        status: active
+        display_name: 王沁
+        merged_into_person_id: null
   children:
     - claim:
         id: c_x4ROnN6DA77V3XxBkhDqa3
@@ -163,6 +189,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_bbtkRepz65zt6fY1dTLEkm | 王沁 | accepted |
 | children | p_Ak6f1y1jiB6tMkqCSFMAPZ | 王弘禮 | accepted |
 
 ## 外部来源

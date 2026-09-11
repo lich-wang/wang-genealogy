@@ -4,7 +4,7 @@ id: p_eV5c7tC3nbgohQT5xf6PWJ
 status: active
 merged_into: null
 display_name: 王仲元
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,59 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_3R-UTjIda9Na_p1WHsBTZG
+        subject_person_id: p_eV5c7tC3nbgohQT5xf6PWJ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_rDE6oaYwRUa3VS2oD8KHYn
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_v-Fythts-NSwbUc__qKwTs
+          claim_id: c_3R-UTjIda9Na_p1WHsBTZG
+          source_id: s_NNHUWydD1VEuUatqYXhomq
+          stance: supports
+          locator: 寶祐登科錄：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_rDE6oaYwRUa3VS2oD8KHYn
+        status: active
+        display_name: 王貫
+        merged_into_person_id: null
+    - claim:
+        id: c_HXSdBBii1DUIypS45ZAYjS
+        subject_person_id: p_eV5c7tC3nbgohQT5xf6PWJ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_6wKwZuoV6zBMfMppuMEAjn
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4lVq9_YDJHuReWZP-rbRao
+          claim_id: c_HXSdBBii1DUIypS45ZAYjS
+          source_id: s_NNHUWydD1VEuUatqYXhomq
+          stance: supports
+          locator: 寶祐登科錄：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_6wKwZuoV6zBMfMppuMEAjn
+        status: active
+        display_name: 王公及
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_rDE6oaYwRUa3VS2oD8KHYn | 王貫 | accepted |
+| descendants | p_6wKwZuoV6zBMfMppuMEAjn | 王公及 | accepted |
 
 ## 外部来源
 

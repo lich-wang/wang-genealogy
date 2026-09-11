@@ -4,7 +4,7 @@ id: p_Koi5WJ5jcXbBAKpaCrntSB
 status: active
 merged_into: null
 display_name: 王復
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -133,7 +133,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_1H5iOo4MgPIvmNXq4X_KLw
+        subject_person_id: p_EXUMXpFadPPwv3VumQBd89
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Koi5WJ5jcXbBAKpaCrntSB
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_maDJOGugwup7aPxw1EeOsj
+          claim_id: c_1H5iOo4MgPIvmNXq4X_KLw
+          source_id: s_i8GbRr4cAnXZkhaChHVAmG
+          stance: supports
+          locator: 正统七年進士登科錄:一卷，第二甲第十名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_i8GbRr4cAnXZkhaChHVAmG
+            source_type: api_record
+            title: 中国历代人物传记资料库：王遜（CBDB 237573）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237573&o=json
+            external_identifier: CBDB:237573
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.847Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_EXUMXpFadPPwv3VumQBd89
+        status: active
+        display_name: 王遜
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_EXUMXpFadPPwv3VumQBd89 | 王遜 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王復（CBDB 67655）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67655&o=json)
+- [中国历代人物传记资料库：王遜（CBDB 237573）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237573&o=json)

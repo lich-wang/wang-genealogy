@@ -4,7 +4,7 @@ id: p_EvAbb7DY8himCdLDQKtXZq
 status: active
 merged_into: null
 display_name: 王連
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_jvS9BIAasdxz7AzR_QcQp9
+        subject_person_id: p_EvAbb7DY8himCdLDQKtXZq
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_k3fw4jn7UF1hujd81L3vBe
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5rQi2uHw1MTMYIapw4ogYq
+          claim_id: c_jvS9BIAasdxz7AzR_QcQp9
+          source_id: s_D7h21eHSxKfMBTxBmEqCHD
+          stance: supports
+          locator: 隆慶五年進士登科錄:一卷，第三甲第一百四十八名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_k3fw4jn7UF1hujd81L3vBe
+        status: active
+        display_name: 王蔚
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_k3fw4jn7UF1hujd81L3vBe | 王蔚 | accepted |
 
 ## 外部来源
 

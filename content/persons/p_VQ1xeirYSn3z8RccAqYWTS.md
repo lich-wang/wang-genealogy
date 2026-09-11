@@ -4,7 +4,7 @@ id: p_VQ1xeirYSn3z8RccAqYWTS
 status: active
 merged_into: null
 display_name: 王業偉
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_2zylaDvMUPfALZtBX1dPAe
+        subject_person_id: p_VQ1xeirYSn3z8RccAqYWTS
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_fKNHKBLag79DPiTzJGUWh9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_meJaEzShSN__JWGxus8oxM
+          claim_id: c_2zylaDvMUPfALZtBX1dPAe
+          source_id: s_XYbNa83PR3SBRDmHyxHqVF
+          stance: supports
+          locator: 紹興府志:八十卷，lgid=316825：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_XYbNa83PR3SBRDmHyxHqVF
+            source_type: api_record
+            title: 中国历代人物传记资料库：王振遠（CBDB 570500）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=570500&o=json
+            external_identifier: CBDB:570500
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.641Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_fKNHKBLag79DPiTzJGUWh9
+        status: active
+        display_name: 王振遠
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_fKNHKBLag79DPiTzJGUWh9 | 王振遠 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王業偉（CBDB 556672）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=556672&o=json)
+- [中国历代人物传记资料库：王振遠（CBDB 570500）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=570500&o=json)

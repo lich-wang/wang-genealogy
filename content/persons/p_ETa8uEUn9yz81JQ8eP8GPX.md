@@ -4,7 +4,7 @@ id: p_ETa8uEUn9yz81JQ8eP8GPX
 status: active
 merged_into: null
 display_name: 王紀
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_LGK8kYtLH9s0xlOiiPAaAG
+        subject_person_id: p_ETa8uEUn9yz81JQ8eP8GPX
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_9PcP1eVw2Xs1K2J2cm2szS
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VPfk1gsF7eL3ZeQxTlxe4D
+          claim_id: c_LGK8kYtLH9s0xlOiiPAaAG
+          source_id: s_55np26azUV2QxQy6R4V2oZ
+          stance: supports
+          locator: 嘉靖十七年進士登科錄:一卷，第三甲第二百零六名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_9PcP1eVw2Xs1K2J2cm2szS
+        status: active
+        display_name: 王堯日
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_9PcP1eVw2Xs1K2J2cm2szS | 王堯日 | accepted |
 
 ## 外部来源
 

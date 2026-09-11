@@ -4,7 +4,7 @@ id: p_eyEgZHjpFKo8sASqikaQ1F
 status: active
 merged_into: null
 display_name: 王體乾
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_efHYmSB7WcedeylGuutjXz
+        subject_person_id: p_yt96UUYNj3ASszrYuN2kTm
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_eyEgZHjpFKo8sASqikaQ1F
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_yQjIodGGmgyfcY14gecx4q
+          claim_id: c_efHYmSB7WcedeylGuutjXz
+          source_id: s_TCoCk5rJbijhXUNkXHCUHx
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第三甲第二百四名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_yt96UUYNj3ASszrYuN2kTm
+        status: active
+        display_name: 王嘉賓
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_yt96UUYNj3ASszrYuN2kTm | 王嘉賓 | accepted |
 
 ## 外部来源
 

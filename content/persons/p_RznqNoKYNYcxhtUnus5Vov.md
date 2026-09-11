@@ -4,7 +4,7 @@ id: p_RznqNoKYNYcxhtUnus5Vov
 status: active
 merged_into: null
 display_name: 王曉
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -142,7 +142,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_rTQkJcCMLQ49JOqGGJbGFX
+        subject_person_id: p_F39Q7SQgdoYApUKzJf32to
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_RznqNoKYNYcxhtUnus5Vov
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9Q1El9iRW_cMW5w7rK2NA8
+          claim_id: c_rTQkJcCMLQ49JOqGGJbGFX
+          source_id: s_w6aW3x2Wcm6h57vANHEu3S
+          stance: supports
+          locator: 隆慶五年進士登科錄:一卷，第三甲第七名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_w6aW3x2Wcm6h57vANHEu3S
+            source_type: api_record
+            title: 中国历代人物传记资料库：王振（CBDB 208866）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=208866&o=json
+            external_identifier: CBDB:208866
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.964Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_F39Q7SQgdoYApUKzJf32to
+        status: active
+        display_name: 王振
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_548o1SKAP1oKBMmyuHA5jA | 王崇義 | accepted |
+| ancestors | p_F39Q7SQgdoYApUKzJf32to | 王振 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王崇義（CBDB 208868）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=208868&o=json)
 - [中国历代人物传记资料库：王曉（CBDB 205806）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205806&o=json)
+- [中国历代人物传记资料库：王振（CBDB 208866）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=208866&o=json)

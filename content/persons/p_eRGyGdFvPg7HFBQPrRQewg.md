@@ -4,7 +4,7 @@ id: p_eRGyGdFvPg7HFBQPrRQewg
 status: active
 merged_into: null
 display_name: 王翫
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,8 +100,86 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_jaK0DyBX706eZ8OPe7tAmu
+        subject_person_id: p_z2q5T7PxdSDGTYFAvqTB9t
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_eRGyGdFvPg7HFBQPrRQewg
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7L2dylTZCIqW9Kc8d2v52I
+          claim_id: c_jaK0DyBX706eZ8OPe7tAmu
+          source_id: s_YENVnLt7xAPoTrPBjdBq4u
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_z2q5T7PxdSDGTYFAvqTB9t
+        status: active
+        display_name: 王思
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_vo3SjrjUGzPcW48iDM0zC_
+        subject_person_id: p_eRGyGdFvPg7HFBQPrRQewg
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_RYAhUs1ATN2FqSqLmBj15y
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NFTpPhfUQY541SKVodbEgZ
+          claim_id: c_vo3SjrjUGzPcW48iDM0zC_
+          source_id: s_YENVnLt7xAPoTrPBjdBq4u
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_RYAhUs1ATN2FqSqLmBj15y
+        status: active
+        display_name: 王叔原
+        merged_into_person_id: null
+    - claim:
+        id: c__8umbma5LDfwwoUUQva47j
+        subject_person_id: p_eRGyGdFvPg7HFBQPrRQewg
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Ka2VJXXHm5PK7oLL84VyUD
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_EJVt-KpmdBqXaI1IhvMhvz
+          claim_id: c__8umbma5LDfwwoUUQva47j
+          source_id: s_YENVnLt7xAPoTrPBjdBq4u
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Ka2VJXXHm5PK7oLL84VyUD
+        status: active
+        display_name: 王知徽
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_z2q5T7PxdSDGTYFAvqTB9t | 王思 | accepted |
+| children | p_RYAhUs1ATN2FqSqLmBj15y | 王叔原 | accepted |
+| children | p_Ka2VJXXHm5PK7oLL84VyUD | 王知徽 | accepted |
 
 ## 外部来源
 

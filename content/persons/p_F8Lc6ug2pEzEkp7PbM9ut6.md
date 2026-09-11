@@ -4,7 +4,7 @@ id: p_F8Lc6ug2pEzEkp7PbM9ut6
 status: active
 merged_into: null
 display_name: 王煐
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -77,7 +77,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_OitR8J3ToDRddRij7N-nc-
+        subject_person_id: p_Lco3TtbC9ZPkbUR4MaV6iK
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_F8Lc6ug2pEzEkp7PbM9ut6
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_RdBjw1h0iHI6Hh34YGLmJP
+          claim_id: c_OitR8J3ToDRddRij7N-nc-
+          source_id: s_PSQMdHqdWWUaMx64nL2pie
+          stance: supports
+          locator: 上虞縣志，lgid=324953：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Lco3TtbC9ZPkbUR4MaV6iK
+        status: active
+        display_name: 王致中
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_Lco3TtbC9ZPkbUR4MaV6iK | 王致中 | accepted |
 
 ## 外部来源
 

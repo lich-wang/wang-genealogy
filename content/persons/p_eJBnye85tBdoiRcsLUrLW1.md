@@ -4,7 +4,7 @@ id: p_eJBnye85tBdoiRcsLUrLW1
 status: active
 merged_into: null
 display_name: 王絳
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -138,7 +138,44 @@ relationships:
         status: active
         display_name: 王伯倫
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c__0zudz4WenMJbtGO-fEb8P
+        subject_person_id: p_eJBnye85tBdoiRcsLUrLW1
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_F1sDaCQr35NYU54Y7uiWGP
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NeW8mJQDxDs500qO_2bh08
+          claim_id: c__0zudz4WenMJbtGO-fEb8P
+          source_id: s_Fs3poSFGn4jeZcrcUQJz5R
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Fs3poSFGn4jeZcrcUQJz5R
+            source_type: api_record
+            title: 中国历代人物传记资料库：王萇（CBDB 191192）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191192&o=json
+            external_identifier: CBDB:191192
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.352Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_F1sDaCQr35NYU54Y7uiWGP
+        status: active
+        display_name: 王萇
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_CF7yfgasHmLpFwcb1NWfXr | 王伯倫 | accepted |
+| children | p_F1sDaCQr35NYU54Y7uiWGP | 王萇 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王伯倫（CBDB 191191）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191191&o=json)
+- [中国历代人物传记资料库：王萇（CBDB 191192）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191192&o=json)
 - [中国历代人物传记资料库：王絳（CBDB 191190）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191190&o=json)

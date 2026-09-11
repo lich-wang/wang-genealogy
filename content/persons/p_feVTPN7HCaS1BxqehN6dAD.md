@@ -4,7 +4,7 @@ id: p_feVTPN7HCaS1BxqehN6dAD
 status: active
 merged_into: null
 display_name: 王度
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_esYuCObzkoLGQbY4pVD2UY
+        subject_person_id: p_gBwRWdErARQJVzB6EHJVfE
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_feVTPN7HCaS1BxqehN6dAD
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KUWdG6365fFceLqaCGEIL1
+          claim_id: c_esYuCObzkoLGQbY4pVD2UY
+          source_id: s_4BCKDC9vCQZBt84PMj5mSb
+          stance: supports
+          locator: 隆慶五年進士登科錄:一卷，第三甲第二百九十七名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_gBwRWdErARQJVzB6EHJVfE
+        status: active
+        display_name: 王朝棟
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_AeuIScV2qRnsNO8ZV-K9hO
+        subject_person_id: p_m1y9NSRQiMJ2Dd2MjWHRAW
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_feVTPN7HCaS1BxqehN6dAD
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pvr_KciF2ijENtcabGYI4q
+          claim_id: c_AeuIScV2qRnsNO8ZV-K9hO
+          source_id: s_4BCKDC9vCQZBt84PMj5mSb
+          stance: supports
+          locator: 隆慶五年進士登科錄:一卷，第三甲第二百九十七名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_m1y9NSRQiMJ2Dd2MjWHRAW
+        status: active
+        display_name: 王獻
+        merged_into_person_id: null
+    - claim:
+        id: c_f9aASNqnk7p19hT4WUC_iw
+        subject_person_id: p_nNfNDpAPmaSEibBKUCYkZU
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_feVTPN7HCaS1BxqehN6dAD
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZMK_5ozwH30HGqzGJdLapa
+          claim_id: c_f9aASNqnk7p19hT4WUC_iw
+          source_id: s_4BCKDC9vCQZBt84PMj5mSb
+          stance: supports
+          locator: 隆慶五年進士登科錄:一卷，第三甲第二百九十七名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_nNfNDpAPmaSEibBKUCYkZU
+        status: active
+        display_name: 王溥
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_gBwRWdErARQJVzB6EHJVfE | 王朝棟 | accepted |
+| ancestors | p_m1y9NSRQiMJ2Dd2MjWHRAW | 王獻 | accepted |
+| ancestors | p_nNfNDpAPmaSEibBKUCYkZU | 王溥 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_FT9RqRRd8aA6VTvUJwSsKh
 status: active
 merged_into: null
 display_name: 王述
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,8 +100,86 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_LurHj854l6qDTWnlEGMT7A
+        subject_person_id: p_dsKdJmxGEgXimyPn78iufE
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_FT9RqRRd8aA6VTvUJwSsKh
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_EVgfSx-ZHUgKYUX5gbzAOt
+          claim_id: c_LurHj854l6qDTWnlEGMT7A
+          source_id: s_Z4fSgBune8n8AebnCNQ3RV
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_dsKdJmxGEgXimyPn78iufE
+        status: active
+        display_name: 王庆远
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_XbTOr9ARzKZKJkkStj-aYV
+        subject_person_id: p_FT9RqRRd8aA6VTvUJwSsKh
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_CeCKJToPiqJ44CrjN1dbFC
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_j0psWqMsRMvDHN5MQCvqSa
+          claim_id: c_XbTOr9ARzKZKJkkStj-aYV
+          source_id: s_Z4fSgBune8n8AebnCNQ3RV
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_CeCKJToPiqJ44CrjN1dbFC
+        status: active
+        display_name: 王弘福
+        merged_into_person_id: null
+    - claim:
+        id: c_9JQZUxQ-8bjTs_zlUC6d49
+        subject_person_id: p_FT9RqRRd8aA6VTvUJwSsKh
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_9De1waQrNPPNQ2rPBDtZB4
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lMec_cq8qA9qEdZi-A6NSD
+          claim_id: c_9JQZUxQ-8bjTs_zlUC6d49
+          source_id: s_Z4fSgBune8n8AebnCNQ3RV
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_9De1waQrNPPNQ2rPBDtZB4
+        status: active
+        display_name: 王某
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_dsKdJmxGEgXimyPn78iufE | 王庆远 | accepted |
+| children | p_CeCKJToPiqJ44CrjN1dbFC | 王弘福 | accepted |
+| children | p_9De1waQrNPPNQ2rPBDtZB4 | 王某 | accepted |
 
 ## 外部来源
 

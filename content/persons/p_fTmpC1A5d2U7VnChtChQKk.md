@@ -4,7 +4,7 @@ id: p_fTmpC1A5d2U7VnChtChQKk
 status: active
 merged_into: null
 display_name: 王洪
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_fM2imRz-HaBxjAem72AhJa
+        subject_person_id: p_fTmpC1A5d2U7VnChtChQKk
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_kAp4jgFVdUZGBRH4zNTPTY
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BxY4E668j6VgLK-6M87LUY
+          claim_id: c_fM2imRz-HaBxjAem72AhJa
+          source_id: s_yEPE58AsCaLaoNFBLcu9KY
+          stance: supports
+          locator: 嘉靖四十一年進士登科錄:一卷，第三甲第一百三十八名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_kAp4jgFVdUZGBRH4zNTPTY
+        status: active
+        display_name: 王承芳
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_kAp4jgFVdUZGBRH4zNTPTY | 王承芳 | accepted |
 
 ## 外部来源
 

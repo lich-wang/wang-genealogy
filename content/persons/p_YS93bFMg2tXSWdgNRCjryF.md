@@ -4,7 +4,7 @@ id: p_YS93bFMg2tXSWdgNRCjryF
 status: active
 merged_into: null
 display_name: 王宗彝
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_m_w3FdsiRAEqkwe4-WT2Dl
+        subject_person_id: p_eQTph1AyQLCRGPwJS5yprV
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_YS93bFMg2tXSWdgNRCjryF
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rdYFQU2E8Q0eRe-8emoLVi
+          claim_id: c_m_w3FdsiRAEqkwe4-WT2Dl
+          source_id: s_qf5hsZqv3ZBiyVrRkjb7CZ
+          stance: supports
+          locator: 成化二年進士登科錄:一卷，第二甲第六十九名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_qf5hsZqv3ZBiyVrRkjb7CZ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王文（CBDB 225993）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=225993&o=json
+            external_identifier: CBDB:225993
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.451Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_eQTph1AyQLCRGPwJS5yprV
+        status: active
+        display_name: 王文
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -134,9 +171,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_eQTph1AyQLCRGPwJS5yprV | 王文 | accepted |
 | ancestors | p_DnHsbgmu4N2LK2hm5zmcYp | 王緒 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王文（CBDB 225993）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=225993&o=json)
 - [中国历代人物传记资料库：王緒（CBDB 225980）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=225980&o=json)
 - [中国历代人物传记资料库：王宗彝（CBDB 126562）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126562&o=json)

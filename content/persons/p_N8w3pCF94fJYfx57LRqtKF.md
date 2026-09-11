@@ -4,7 +4,7 @@ id: p_N8w3pCF94fJYfx57LRqtKF
 status: active
 merged_into: null
 display_name: 王朗
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_9lpmqmbJQ_WaFh3JoOycTm
+        subject_person_id: p_N8w3pCF94fJYfx57LRqtKF
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ewVR3hFtZjvum2Uhn4Nxtd
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mS6ifmGwY3zMXlQGsNpUyJ
+          claim_id: c_9lpmqmbJQ_WaFh3JoOycTm
+          source_id: s_Pt6SYpJncc4NRFCN1pq5rP
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Changshou 20：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Pt6SYpJncc4NRFCN1pq5rP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王義（CBDB 139896）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=139896&o=json
+            external_identifier: CBDB:139896
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.458Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ewVR3hFtZjvum2Uhn4Nxtd
+        status: active
+        display_name: 王義
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_ewVR3hFtZjvum2Uhn4Nxtd | 王義 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王朗（CBDB 149682）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=149682&o=json)
+- [中国历代人物传记资料库：王義（CBDB 139896）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=139896&o=json)

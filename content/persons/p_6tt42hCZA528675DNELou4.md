@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王敬民
 cbdb_id: 126758
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,7 +86,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_1w4hI1qkzo1t5m97MDUMqo
+        subject_person_id: p_FnmNgMN9f39gDixwHRx4Tp
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_6tt42hCZA528675DNELou4
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BUUQayz8lr7lolfbcXGJVb
+          claim_id: c_1w4hI1qkzo1t5m97MDUMqo
+          source_id: s_AzZ9BbHBmUEKYWxdZeoDND
+          stance: supports
+          locator: 隆慶五年進士登科錄:一卷，第三甲第一百六十六名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_AzZ9BbHBmUEKYWxdZeoDND
+            source_type: api_record
+            title: 中国历代人物传记资料库：王稅（CBDB 210653）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210653&o=json
+            external_identifier: CBDB:210653
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.015Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_FnmNgMN9f39gDixwHRx4Tp
+        status: active
+        display_name: 王稅
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_FnmNgMN9f39gDixwHRx4Tp | 王稅 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王敬民（CBDB 126758）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126758&o=json)
+- [中国历代人物传记资料库：王稅（CBDB 210653）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210653&o=json)

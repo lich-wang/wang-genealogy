@@ -4,7 +4,7 @@ id: p_fPJxFS18uHAM4wH2bHoPQT
 status: active
 merged_into: null
 display_name: 王毅
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -115,7 +115,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_6S7PiF5Kwk5KeckwTY1UiE
+        subject_person_id: p_fPJxFS18uHAM4wH2bHoPQT
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_yw8Ldi3TsRvFBDPd73FPjN
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cLf1jIa-u0xRzxWTBgA_YB
+          claim_id: c_6S7PiF5Kwk5KeckwTY1UiE
+          source_id: s_txHj7A9ZBZBniukpTmrvQL
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Dazhong75：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_yw8Ldi3TsRvFBDPd73FPjN
+        status: active
+        display_name: 王玉
+        merged_into_person_id: null
   other: []
 ---
 
@@ -135,6 +161,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_7E6gPyjzh8j7LkwEcAWwmH | 王清 | accepted |
+| descendants | p_yw8Ldi3TsRvFBDPd73FPjN | 王玉 | accepted |
 
 ## 外部来源
 

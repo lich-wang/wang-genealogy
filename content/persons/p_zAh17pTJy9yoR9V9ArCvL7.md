@@ -4,7 +4,7 @@ id: p_zAh17pTJy9yoR9V9ArCvL7
 status: active
 merged_into: null
 display_name: 王楠
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -143,6 +143,43 @@ relationships:
         status: active
         display_name: 王福榮
         merged_into_person_id: null
+    - claim:
+        id: c_DeUS0MHXgvaa_a0kJkTHqY
+        subject_person_id: p_fd9uj7Lqzrgnx5zjkGE8Mh
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_zAh17pTJy9yoR9V9ArCvL7
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__FBPxPqjx5Kwo8wQmPrggg
+          claim_id: c_DeUS0MHXgvaa_a0kJkTHqY
+          source_id: s_KRaEPUpi5ARbenCV1fTyFP
+          stance: supports
+          locator: 嘉靖二十三年登科錄:一卷，第三甲第五十二名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_KRaEPUpi5ARbenCV1fTyFP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王聚（CBDB 306729）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306729&o=json
+            external_identifier: CBDB:306729
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.773Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_fd9uj7Lqzrgnx5zjkGE8Mh
+        status: active
+        display_name: 王聚
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_56i4DUP2wFzJ6ymmACpTVE | 王福榮 | accepted |
+| ancestors | p_fd9uj7Lqzrgnx5zjkGE8Mh | 王聚 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王福榮（CBDB 306727）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306727&o=json)
+- [中国历代人物传记资料库：王聚（CBDB 306729）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306729&o=json)
 - [中国历代人物传记资料库：王楠（CBDB 203575）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203575&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王末怛活
 cbdb_id: 159536
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -124,7 +124,44 @@ relationships:
         status: active
         display_name: 王五哥之
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_UWbEdZPwQ_nPKQmSGDHaQE
+        subject_person_id: p_GvNvKVT9ToHtsKcM7N1gcY
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_EzMUKy9VQQxtLyAvd3YBRM
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1nJPjRIUJG9LYn4QQ1FyEB
+          claim_id: c_UWbEdZPwQ_nPKQmSGDHaQE
+          source_id: s_bJcyg5f5Za13XdP5DsLL6h
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_bJcyg5f5Za13XdP5DsLL6h
+            source_type: api_record
+            title: 中国历代人物传记资料库：王昇朝（CBDB 159541）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=159541&o=json
+            external_identifier: CBDB:159541
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.933Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_EzMUKy9VQQxtLyAvd3YBRM
+        status: active
+        display_name: 王昇朝
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -149,8 +186,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_3FNZauS21Gbd2HX3KGHkrh | 王五哥之 | accepted |
+| children | p_EzMUKy9VQQxtLyAvd3YBRM | 王昇朝 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王末怛活（CBDB 159536）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=159536&o=json)
+- [中国历代人物传记资料库：王昇朝（CBDB 159541）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=159541&o=json)
 - [中国历代人物传记资料库：王五哥之（CBDB 194709）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=194709&o=json)

@@ -4,7 +4,7 @@ id: p_sDoU33d57NRf1uCYSqMQ4P
 status: active
 merged_into: null
 display_name: 王賢
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_X63zujne3eZcmZnGOOWV3v
+        subject_person_id: p_sDoU33d57NRf1uCYSqMQ4P
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_fsfzbsXi2CKQ2Y6QzQVevK
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_W-4wGs9fUhWqs3X-0nM1mY
+          claim_id: c_X63zujne3eZcmZnGOOWV3v
+          source_id: s_e4gn9sbVUfNayyCtQbAqLZ
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第三甲第一百三十三名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_e4gn9sbVUfNayyCtQbAqLZ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王莘（CBDB 126692）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126692&o=json
+            external_identifier: CBDB:126692
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.128Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_fsfzbsXi2CKQ2Y6QzQVevK
+        status: active
+        display_name: 王莘
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_fsfzbsXi2CKQ2Y6QzQVevK | 王莘 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王莘（CBDB 126692）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126692&o=json)
 - [中国历代人物传记资料库：王賢（CBDB 282016）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282016&o=json)

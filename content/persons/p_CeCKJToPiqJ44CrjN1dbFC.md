@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王弘福
 cbdb_id: 151252
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -187,6 +187,43 @@ relationships:
         status: active
         display_name: 王长述
         merged_into_person_id: null
+    - claim:
+        id: c_XbTOr9ARzKZKJkkStj-aYV
+        subject_person_id: p_FT9RqRRd8aA6VTvUJwSsKh
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_CeCKJToPiqJ44CrjN1dbFC
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_j0psWqMsRMvDHN5MQCvqSa
+          claim_id: c_XbTOr9ARzKZKJkkStj-aYV
+          source_id: s_Z4fSgBune8n8AebnCNQ3RV
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Z4fSgBune8n8AebnCNQ3RV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王述（CBDB 175929）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175929&o=json
+            external_identifier: CBDB:175929
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.205Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_FT9RqRRd8aA6VTvUJwSsKh
+        status: active
+        display_name: 王述
+        merged_into_person_id: null
   children:
     - claim:
         id: c_s69JxZkxNsxbyAu3L8fTgf
@@ -276,6 +313,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_BK7k2QcLRSfSmKmA6kf5hq | 王长述 | accepted |
+| parents | p_FT9RqRRd8aA6VTvUJwSsKh | 王述 | accepted |
 | children | p_ELimFJDuCmQgYQUz8JcHYB | 王将勗 | accepted |
 
 ## 外部来源
@@ -283,5 +321,5 @@ relationships:
 - [维基数据：王弘福（Q45485004）](https://www.wikidata.org/wiki/Q45485004)
 - [维基数据：王将勗（Q45510314）](https://www.wikidata.org/wiki/Q45510314)
 - [维基数据：王长述（Q11573236）](https://www.wikidata.org/wiki/Q11573236)
+- [中国历代人物传记资料库：王述（CBDB 175929）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175929&o=json)
 - [CBDB 中国历代人物传记资料库：王弘福（151252）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=151252&o=json)
-- [CBDB 中国历代人物传记资料库：王述（175929）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175929&o=json)

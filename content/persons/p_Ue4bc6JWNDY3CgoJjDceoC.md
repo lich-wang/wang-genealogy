@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王丕
 cbdb_id: 26228
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -268,7 +268,44 @@ relationships:
         display_name: 周氏
         merged_into_person_id: null
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_WtGFfR5EZsVLqwxNkvL_v7
+        subject_person_id: p_Ue4bc6JWNDY3CgoJjDceoC
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Ev8XowZ6nSYmLVFhftHwD9
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bdfB9xSRvB0uro-1JRlWbi
+          claim_id: c_WtGFfR5EZsVLqwxNkvL_v7
+          source_id: s_KhL1QVcWVym2A4HW67B91h
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_KhL1QVcWVym2A4HW67B91h
+            source_type: api_record
+            title: 中国历代人物传记资料库：王彬（CBDB 36852）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=36852&o=json
+            external_identifier: CBDB:36852
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.178Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Ev8XowZ6nSYmLVFhftHwD9
+        status: active
+        display_name: 王彬
+        merged_into_person_id: null
   other: []
 ---
 
@@ -290,6 +327,7 @@ relationships:
 | parents | p_EHosypq5k9YAB5xCUgjsne | 王志 | accepted |
 | children | p_zAMNQJueCwPPKR5vjoLaAD | 王彦博 | accepted |
 | spouses | p_tJA4SGo5rnDTPZB6FnPcWP | 周氏 | accepted |
+| descendants | p_Ev8XowZ6nSYmLVFhftHwD9 | 王彬 | accepted |
 
 ## 外部来源
 
@@ -297,4 +335,5 @@ relationships:
 - [维基数据：王彦博（Q45409553）](https://www.wikidata.org/wiki/Q45409553)
 - [维基数据：王志（Q45409550）](https://www.wikidata.org/wiki/Q45409550)
 - [维基数据：周氏（Q45432073）](https://www.wikidata.org/wiki/Q45432073)
+- [中国历代人物传记资料库：王彬（CBDB 36852）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=36852&o=json)
 - [CBDB 中国历代人物传记资料库：王丕（26228）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26228&o=json)

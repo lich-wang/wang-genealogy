@@ -4,7 +4,7 @@ id: p_vfDXSYv21EJ7XU3BpbWwqR
 status: active
 merged_into: null
 display_name: 王佇
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_fUvAjdrd91qxnSoKMTt_z1
+        subject_person_id: p_EYZbMdgB89m9nTMAVEYZW1
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_vfDXSYv21EJ7XU3BpbWwqR
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3PAud7eKykRZkm3_SR8AnH
+          claim_id: c_fUvAjdrd91qxnSoKMTt_z1
+          source_id: s_N6fdUC1wQvY1MF4eo2RbmL
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_N6fdUC1wQvY1MF4eo2RbmL
+            source_type: api_record
+            title: 中国历代人物传记资料库：王仲璋（CBDB 175753）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175753&o=json
+            external_identifier: CBDB:175753
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.256Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_EYZbMdgB89m9nTMAVEYZW1
+        status: active
+        display_name: 王仲璋
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_EYZbMdgB89m9nTMAVEYZW1 | 王仲璋 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王仲璋（CBDB 175753）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175753&o=json)
 - [中国历代人物传记资料库：王佇（CBDB 175754）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175754&o=json)

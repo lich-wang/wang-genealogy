@@ -4,7 +4,7 @@ id: p_EXWMEY77h2ZixCBJTGZN8L
 status: active
 merged_into: null
 display_name: 王朝遠
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -133,7 +133,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_vhmFUcwaXdtkQgCCx1f_C0
+        subject_person_id: p_g5Ha41wvakoJ9LUZR1yboJ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_EXWMEY77h2ZixCBJTGZN8L
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lrMrUOsTBOW5yXWkpby7AI
+          claim_id: c_vhmFUcwaXdtkQgCCx1f_C0
+          source_id: s_mspaKvtFWSbB4qe49Xevk1
+          stance: supports
+          locator: 景泰五年進士登科錄:一卷，第二甲第十一名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_g5Ha41wvakoJ9LUZR1yboJ
+        status: active
+        display_name: 王伯某
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,6 +181,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_g5Ha41wvakoJ9LUZR1yboJ | 王伯某 | accepted |
 
 ## 外部来源
 

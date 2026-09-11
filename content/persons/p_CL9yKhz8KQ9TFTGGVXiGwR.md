@@ -4,7 +4,7 @@ id: p_CL9yKhz8KQ9TFTGGVXiGwR
 status: active
 merged_into: null
 display_name: 王大任
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -110,7 +110,44 @@ relationships:
         status: active
         display_name: 王廷傑
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c__s7Tiv7-DfTYlwtWNzFVoc
+        subject_person_id: p_CL9yKhz8KQ9TFTGGVXiGwR
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_EttFGqvGgX6cDZewDBFGTa
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lRl2ntZSjzpvP4efR6cXTa
+          claim_id: c__s7Tiv7-DfTYlwtWNzFVoc
+          source_id: s_GiUcCvX1aonW1gXKYkaJpQ
+          stance: supports
+          locator: "海鹽縣志: 二十二卷(光緒)，lgid=293849：父"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_GiUcCvX1aonW1gXKYkaJpQ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王臣霖（CBDB 692035）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=692035&o=json
+            external_identifier: CBDB:692035
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:06.498Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_EttFGqvGgX6cDZewDBFGTa
+        status: active
+        display_name: 王臣霖
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +172,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_7Ar5PzC26XbEgUcnAsMSDe | 王廷傑 | accepted |
+| children | p_EttFGqvGgX6cDZewDBFGTa | 王臣霖 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王臣霖（CBDB 692035）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=692035&o=json)
 - [中国历代人物传记资料库：王大任（CBDB 692034）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=692034&o=json)
 - [中国历代人物传记资料库：王廷傑（CBDB 692033）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=692033&o=json)

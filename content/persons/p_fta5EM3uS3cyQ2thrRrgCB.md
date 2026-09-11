@@ -4,7 +4,7 @@ id: p_fta5EM3uS3cyQ2thrRrgCB
 status: active
 merged_into: null
 display_name: 王省
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -139,6 +139,32 @@ relationships:
         status: active
         display_name: 王靜
         merged_into_person_id: null
+    - claim:
+        id: c_Tk7a8MbaymLik9ol0E4mYP
+        subject_person_id: p_fta5EM3uS3cyQ2thrRrgCB
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_NDWv4CNzuntgkizFKYGS3V
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VSkYDmIWRqonhD311wsygX
+          claim_id: c_Tk7a8MbaymLik9ol0E4mYP
+          source_id: s_NaWrvScCa2X99MQmjZefPd
+          stance: supports
+          locator: 江西通志，Igid=1197537：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_NDWv4CNzuntgkizFKYGS3V
+        status: active
+        display_name: 王禎
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -164,6 +190,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_1YEsp8usN8hvu7JJXfgp6L | 王靜 | accepted |
+| children | p_NDWv4CNzuntgkizFKYGS3V | 王禎 | accepted |
 
 ## 外部来源
 

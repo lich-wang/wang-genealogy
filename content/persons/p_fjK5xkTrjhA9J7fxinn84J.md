@@ -4,7 +4,7 @@ id: p_fjK5xkTrjhA9J7fxinn84J
 status: active
 merged_into: null
 display_name: 王思武
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_kkRaXDcfCVLtMeegbgHIez
+        subject_person_id: p_fjK5xkTrjhA9J7fxinn84J
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_wWApByJ4C128PwLJ8AeXkW
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jAHiblJ6euVNr-iTWrC76m
+          claim_id: c_kkRaXDcfCVLtMeegbgHIez
+          source_id: s_AdRUVTjS2EN7ctZGmapXud
+          stance: supports
+          locator: 成化十七年進士登科錄:一卷，第二甲第四十九名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_wWApByJ4C128PwLJ8AeXkW
+        status: active
+        display_name: 王玘
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_wWApByJ4C128PwLJ8AeXkW | 王玘 | accepted |
 
 ## 外部来源
 

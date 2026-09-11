@@ -4,7 +4,7 @@ id: p_EsRDyFvEK3YaUwwwR2A4xp
 status: active
 merged_into: null
 display_name: 王璣
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,12 +128,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_ZeqDGGOnD-gmdKrsSacXIK
+        subject_person_id: p_oLGH5VdAkbTAKw9xdBWvfS
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_EsRDyFvEK3YaUwwwR2A4xp
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_H6eIEiFsLWjk8RdULOsir9
+          claim_id: c_ZeqDGGOnD-gmdKrsSacXIK
+          source_id: s_pjZuWWz5q9b7suKN74HyQM
+          stance: supports
+          locator: 嘉靖八年進士登科錄:一卷，第三甲第一百五十九名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_oLGH5VdAkbTAKw9xdBWvfS
+        status: active
+        display_name: 王文暉
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_9U64Y2kTvLL9FQeKFgSCwH
+        subject_person_id: p_w95Qyiy1Ei4ZGtAAFRrWXU
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_EsRDyFvEK3YaUwwwR2A4xp
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XiTBYO5yw500R4k2QarQyj
+          claim_id: c_9U64Y2kTvLL9FQeKFgSCwH
+          source_id: s_pjZuWWz5q9b7suKN74HyQM
+          stance: supports
+          locator: 嘉靖八年進士登科錄:一卷，第三甲第一百五十九名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_w95Qyiy1Ei4ZGtAAFRrWXU
+        status: active
+        display_name: 王時言
+        merged_into_person_id: null
+    - claim:
+        id: c_ZiDScIPZQ96xDRBIChezw4
+        subject_person_id: p_SKTCYUFHWsLRhaeZBL7nG7
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_EsRDyFvEK3YaUwwwR2A4xp
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zDBbwFB8u6TN6XY1LAs7Vh
+          claim_id: c_ZiDScIPZQ96xDRBIChezw4
+          source_id: s_pjZuWWz5q9b7suKN74HyQM
+          stance: supports
+          locator: 嘉靖八年進士登科錄:一卷，第三甲第一百五十九名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_SKTCYUFHWsLRhaeZBL7nG7
+        status: active
+        display_name: 王璽
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,6 +233,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_oLGH5VdAkbTAKw9xdBWvfS | 王文暉 | accepted |
+| ancestors | p_w95Qyiy1Ei4ZGtAAFRrWXU | 王時言 | accepted |
+| ancestors | p_SKTCYUFHWsLRhaeZBL7nG7 | 王璽 | accepted |
 
 ## 外部来源
 

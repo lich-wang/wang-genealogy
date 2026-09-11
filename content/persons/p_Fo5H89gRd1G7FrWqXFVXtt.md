@@ -4,7 +4,7 @@ id: p_Fo5H89gRd1G7FrWqXFVXtt
 status: active
 merged_into: null
 display_name: 王節
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_wq-4vvNFj6xSKWCWWvPqXN
+        subject_person_id: p_S6ZZKMVMpbpMSQYqkUgMjL
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Fo5H89gRd1G7FrWqXFVXtt
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gk1U0i5PlJLwKIO8TCIkNz
+          claim_id: c_wq-4vvNFj6xSKWCWWvPqXN
+          source_id: s_ME4J2g2xqALo2PrEEMnvAH
+          stance: supports
+          locator: 寶祐登科錄：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_S6ZZKMVMpbpMSQYqkUgMjL
+        status: active
+        display_name: 王晞亮
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_9DW103s0In1X-dxb14dYOI
+        subject_person_id: p_Fo5H89gRd1G7FrWqXFVXtt
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_e8fyUGVWsewm8vpP5EJCF4
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_k7_V6G7fLIrU2gUtRgunvH
+          claim_id: c_9DW103s0In1X-dxb14dYOI
+          source_id: s_ME4J2g2xqALo2PrEEMnvAH
+          stance: supports
+          locator: 寶祐登科錄：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_e8fyUGVWsewm8vpP5EJCF4
+        status: active
+        display_name: 王民望
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -134,6 +186,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_S6ZZKMVMpbpMSQYqkUgMjL | 王晞亮 | accepted |
+| children | p_e8fyUGVWsewm8vpP5EJCF4 | 王民望 | accepted |
 | descendants | p_6yFP175w8qJgJRVTRiUkab | 王一奇 | accepted |
 
 ## 外部来源

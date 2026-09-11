@@ -4,7 +4,7 @@ id: p_FaBysRhu4YJQNPZBE1X6B1
 status: active
 merged_into: null
 display_name: 王程
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_2yTinsLbPz-q4UhqrJZm5e
+        subject_person_id: p_Qi19at8PMDrxmYxJWwMtyG
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_FaBysRhu4YJQNPZBE1X6B1
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_r2VAkJCQGFNqH5AqFCLXlG
+          claim_id: c_2yTinsLbPz-q4UhqrJZm5e
+          source_id: s_ETXvHF37Pt8uXCNmXW1pL7
+          stance: supports
+          locator: (道光)徽州府志:十六卷卷首一卷，lgid=1160869：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Qi19at8PMDrxmYxJWwMtyG
+        status: active
+        display_name: 王樹桂
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_6V-pNLH89NhPkjlfAQnqaI
+        subject_person_id: p_FaBysRhu4YJQNPZBE1X6B1
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_UP5UGFMjp7jZjLkQo114G2
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_j6lRDtLqZep2phjAaHumEU
+          claim_id: c_6V-pNLH89NhPkjlfAQnqaI
+          source_id: s_ETXvHF37Pt8uXCNmXW1pL7
+          stance: supports
+          locator: (道光)徽州府志:十六卷卷首一卷，lgid=1160869：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_UP5UGFMjp7jZjLkQo114G2
+        status: active
+        display_name: 王根
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Qi19at8PMDrxmYxJWwMtyG | 王樹桂 | accepted |
+| children | p_UP5UGFMjp7jZjLkQo114G2 | 王根 | accepted |
 
 ## 外部来源
 

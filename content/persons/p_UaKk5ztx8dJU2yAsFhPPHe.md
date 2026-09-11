@@ -4,7 +4,7 @@ id: p_UaKk5ztx8dJU2yAsFhPPHe
 status: active
 merged_into: null
 display_name: 王建
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_mORivjgcDQ3-e9rbR_wjDg
+        subject_person_id: p_F5nnq1jNL9a7a9ZGJiwQTR
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_UaKk5ztx8dJU2yAsFhPPHe
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ybhCl2DzmjPCjuRg7X2TSF
+          claim_id: c_mORivjgcDQ3-e9rbR_wjDg
+          source_id: s_646AWZ8BGPzZE1TScnWF6D
+          stance: supports
+          locator: (康熙)固始縣志，lgid= 871425：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_646AWZ8BGPzZE1TScnWF6D
+            source_type: api_record
+            title: 中国历代人物传记资料库：王愷（CBDB 683469）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=683469&o=json
+            external_identifier: CBDB:683469
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:27.299Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_F5nnq1jNL9a7a9ZGJiwQTR
+        status: active
+        display_name: 王愷
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_F5nnq1jNL9a7a9ZGJiwQTR | 王愷 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王建（CBDB 683470）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=683470&o=json)
+- [中国历代人物传记资料库：王愷（CBDB 683469）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=683469&o=json)

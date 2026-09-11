@@ -4,7 +4,7 @@ id: p_ewVR3hFtZjvum2Uhn4Nxtd
 status: active
 merged_into: null
 display_name: 王義
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_9lpmqmbJQ_WaFh3JoOycTm
+        subject_person_id: p_N8w3pCF94fJYfx57LRqtKF
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ewVR3hFtZjvum2Uhn4Nxtd
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mS6ifmGwY3zMXlQGsNpUyJ
+          claim_id: c_9lpmqmbJQ_WaFh3JoOycTm
+          source_id: s_Pt6SYpJncc4NRFCN1pq5rP
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Changshou 20：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_N8w3pCF94fJYfx57LRqtKF
+        status: active
+        display_name: 王朗
+        merged_into_person_id: null
   children:
     - claim:
         id: c_vb1yfuumjWzamjJqSunLL6
@@ -192,6 +218,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_N8w3pCF94fJYfx57LRqtKF | 王朗 | accepted |
 | children | p_2ANLW3U2dwXrGoPY1xKNCD | 王玄應 | accepted |
 
 ## 外部来源

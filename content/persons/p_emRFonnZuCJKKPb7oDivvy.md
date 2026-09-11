@@ -4,7 +4,7 @@ id: p_emRFonnZuCJKKPb7oDivvy
 status: active
 merged_into: null
 display_name: 王道直
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,43 @@ relationships:
         status: active
         display_name: 王才
         merged_into_person_id: null
+    - claim:
+        id: c_2S3fH34wuN6TOKbAlGuJCR
+        subject_person_id: p_FJvozsV24nKnT7VfdoPWCG
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_emRFonnZuCJKKPb7oDivvy
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hXlNbYF9wiXCyxYdIqLJcc
+          claim_id: c_2S3fH34wuN6TOKbAlGuJCR
+          source_id: s_ddyMY9r6uA18GATDufhd6U
+          stance: supports
+          locator: 嘉靖二十九年進士登科錄:一卷，第三甲第六十七名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ddyMY9r6uA18GATDufhd6U
+            source_type: api_record
+            title: 中国历代人物传记资料库：王整（CBDB 313334）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313334&o=json
+            external_identifier: CBDB:313334
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.903Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_FJvozsV24nKnT7VfdoPWCG
+        status: active
+        display_name: 王整
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_5g7L2cx4uEGXE6LnD5Pz5F | 王獻 | accepted |
 | ancestors | p_9dndF91Cp3MxiCBxuANawM | 王才 | accepted |
+| ancestors | p_FJvozsV24nKnT7VfdoPWCG | 王整 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王才（CBDB 313335）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313335&o=json)
 - [中国历代人物传记资料库：王道直（CBDB 204021）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204021&o=json)
 - [中国历代人物传记资料库：王獻（CBDB 313336）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313336&o=json)
+- [中国历代人物传记资料库：王整（CBDB 313334）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313334&o=json)

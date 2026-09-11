@@ -4,7 +4,7 @@ id: p_EtqfqDDuQtb8WTLKx29oE8
 status: active
 merged_into: null
 display_name: 王惟
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_5SEYL_QjmJHPYuM4tAIl9U
+        subject_person_id: p_hKFRGLXq8WXe249MjHQ238
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_EtqfqDDuQtb8WTLKx29oE8
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tVkelUrqcndes3lTHUV3mQ
+          claim_id: c_5SEYL_QjmJHPYuM4tAIl9U
+          source_id: s_X6Vej1jufKMo3we1MZzwzd
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Dali 24：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_hKFRGLXq8WXe249MjHQ238
+        status: active
+        display_name: 王晉俗
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_hKFRGLXq8WXe249MjHQ238 | 王晉俗 | accepted |
 
 ## 外部来源
 

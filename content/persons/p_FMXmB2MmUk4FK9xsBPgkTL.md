@@ -4,7 +4,7 @@ id: p_FMXmB2MmUk4FK9xsBPgkTL
 status: active
 merged_into: null
 display_name: 王澈
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,8 +128,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_yuYxgZhlrNj6Q8GYp9gFIx
+        subject_person_id: p_LLwpFTjvD9WfHmqYjFwtNd
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_FMXmB2MmUk4FK9xsBPgkTL
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_U45x_pvdRzWErDpSm5-iVQ
+          claim_id: c_yuYxgZhlrNj6Q8GYp9gFIx
+          source_id: s_MX4N5wv6B9wWJBWsvey5KM
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_LLwpFTjvD9WfHmqYjFwtNd
+        status: active
+        display_name: 王咸
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_7rx5plC1Nitg-u3F-D24rH
+        subject_person_id: p_FMXmB2MmUk4FK9xsBPgkTL
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_RR9PPqquuGdswQ5A9s8RMa
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SuK6n_C9rEubGFBj6_i4f8
+          claim_id: c_7rx5plC1Nitg-u3F-D24rH
+          source_id: s_MX4N5wv6B9wWJBWsvey5KM
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_RR9PPqquuGdswQ5A9s8RMa
+        status: active
+        display_name: 王景中
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +207,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_LLwpFTjvD9WfHmqYjFwtNd | 王咸 | accepted |
+| children | p_RR9PPqquuGdswQ5A9s8RMa | 王景中 | accepted |
 
 ## 外部来源
 

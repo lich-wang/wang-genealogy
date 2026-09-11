@@ -4,7 +4,7 @@ id: p_euwEM6MRM5xpuaBi1NzoJT
 status: active
 merged_into: null
 display_name: 王珍
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_p7qiBhJF8rep-5oJN0lJDD
+        subject_person_id: p_B7FD4iudbdLWEbnPmCp21w
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_euwEM6MRM5xpuaBi1NzoJT
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2mn2OoSJo3WwsQ3CjNxr-F
+          claim_id: c_p7qiBhJF8rep-5oJN0lJDD
+          source_id: s_s2AHS7PEGQd23e4zfZDi9L
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_B7FD4iudbdLWEbnPmCp21w
+        status: active
+        display_name: 王傪
+        merged_into_person_id: null
   children:
     - claim:
         id: c_hab5NiPvRCoT80Bai82eLf
@@ -192,6 +218,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_B7FD4iudbdLWEbnPmCp21w | 王傪 | accepted |
 | children | p_249hfeG74f2k4d2rvhHU5d | 王端 | accepted |
 
 ## 外部来源

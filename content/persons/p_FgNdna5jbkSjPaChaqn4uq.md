@@ -4,7 +4,7 @@ id: p_FgNdna5jbkSjPaChaqn4uq
 status: active
 merged_into: null
 display_name: 王邕
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,8 +100,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_rB2eyv8_jiZ9RaVsSIx0L7
+        subject_person_id: p_ZfyvU5K6XVnRk6apGKi83i
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_FgNdna5jbkSjPaChaqn4uq
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fR0mgKELuAuP6IbYkaYGIH
+          claim_id: c_rB2eyv8_jiZ9RaVsSIx0L7
+          source_id: s_uPCPzGSjaQ1Jkg91ZKh1Y9
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_ZfyvU5K6XVnRk6apGKi83i
+        status: active
+        display_name: 王光復
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_NI-y9eA9J6NsaGOl9TweV5
+        subject_person_id: p_FgNdna5jbkSjPaChaqn4uq
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ihVd3DFKV5nSykQvLr4972
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1nYwdwuaBnuLslhaSHQD4E
+          claim_id: c_NI-y9eA9J6NsaGOl9TweV5
+          source_id: s_uPCPzGSjaQ1Jkg91ZKh1Y9
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_ihVd3DFKV5nSykQvLr4972
+        status: active
+        display_name: 王篆
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,6 +178,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_ZfyvU5K6XVnRk6apGKi83i | 王光復 | accepted |
+| children | p_ihVd3DFKV5nSykQvLr4972 | 王篆 | accepted |
 
 ## 外部来源
 

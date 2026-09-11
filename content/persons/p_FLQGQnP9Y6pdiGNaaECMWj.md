@@ -4,7 +4,7 @@ id: p_FLQGQnP9Y6pdiGNaaECMWj
 status: active
 merged_into: null
 display_name: 王衣
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -129,7 +129,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_vOUMwDuj_wmsz1IARZWb_h
+        subject_person_id: p_FLQGQnP9Y6pdiGNaaECMWj
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_HPYYkmNEETrV6SW1UZLFZN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_B4L9pSP9ttyTGcwxwKHeQg
+          claim_id: c_vOUMwDuj_wmsz1IARZWb_h
+          source_id: s_sBEoEx9NZnfVFPbFtT3ccb
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1528：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_HPYYkmNEETrV6SW1UZLFZN
+        status: active
+        display_name: 王次張
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +181,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_HPYYkmNEETrV6SW1UZLFZN | 王次張 | accepted |
 
 ## 外部来源
 

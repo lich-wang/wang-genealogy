@@ -4,7 +4,7 @@ id: p_RR9PPqquuGdswQ5A9s8RMa
 status: active
 merged_into: null
 display_name: 王景中
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_7rx5plC1Nitg-u3F-D24rH
+        subject_person_id: p_FMXmB2MmUk4FK9xsBPgkTL
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_RR9PPqquuGdswQ5A9s8RMa
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SuK6n_C9rEubGFBj6_i4f8
+          claim_id: c_7rx5plC1Nitg-u3F-D24rH
+          source_id: s_MX4N5wv6B9wWJBWsvey5KM
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_MX4N5wv6B9wWJBWsvey5KM
+            source_type: api_record
+            title: 中国历代人物传记资料库：王澈（CBDB 145283）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=145283&o=json
+            external_identifier: CBDB:145283
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.660Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_FMXmB2MmUk4FK9xsBPgkTL
+        status: active
+        display_name: 王澈
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_FMXmB2MmUk4FK9xsBPgkTL | 王澈 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王澈（CBDB 145283）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=145283&o=json)
 - [中国历代人物传记资料库：王景中（CBDB 189362）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=189362&o=json)

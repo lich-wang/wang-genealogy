@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王莚
 cbdb_id: 206009
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -129,7 +129,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_4iwyngyNcOx6vxIV3ULEau
+        subject_person_id: p_FjEtN9HHE5cWHWRD9ddU2X
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_RvVueiXkPRQ3GnRokiv2tg
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_812fmjwpSz0ndZ4sL7QZ8i
+          claim_id: c_4iwyngyNcOx6vxIV3ULEau
+          source_id: s_b1K7y7CiNbij2Zu24rUgXG
+          stance: supports
+          locator: 隆慶五年進士登科錄:一卷，第三甲第二百九十二名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_b1K7y7CiNbij2Zu24rUgXG
+            source_type: api_record
+            title: 中国历代人物传记资料库：王浙（CBDB 212031）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=212031&o=json
+            external_identifier: CBDB:212031
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.053Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_FjEtN9HHE5cWHWRD9ddU2X
+        status: active
+        display_name: 王浙
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_FjEtN9HHE5cWHWRD9ddU2X | 王浙 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王莚（CBDB 206009）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206009&o=json)
+- [中国历代人物传记资料库：王浙（CBDB 212031）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=212031&o=json)

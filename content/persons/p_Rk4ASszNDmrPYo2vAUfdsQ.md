@@ -4,7 +4,7 @@ id: p_Rk4ASszNDmrPYo2vAUfdsQ
 status: active
 merged_into: null
 display_name: 王懋中
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -105,7 +105,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_2nglTPi7fyiqkM6-wYPXZs
+        subject_person_id: p_F8NA6DNMSyjPgtdTfVsijN
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Rk4ASszNDmrPYo2vAUfdsQ
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_RcXaE9nFy8Z7Q8wcMzG619
+          claim_id: c_2nglTPi7fyiqkM6-wYPXZs
+          source_id: s_yfHPWTAGWPnaf13HbAsHHw
+          stance: supports
+          locator: 萬曆二年進士登科錄:一卷，第三甲第一百八十四名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_yfHPWTAGWPnaf13HbAsHHw
+            source_type: api_record
+            title: 中国历代人物传记资料库：王天錫（CBDB 215046）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=215046&o=json
+            external_identifier: CBDB:215046
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.174Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_F8NA6DNMSyjPgtdTfVsijN
+        status: active
+        display_name: 王天錫
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_F8NA6DNMSyjPgtdTfVsijN | 王天錫 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王懋中（CBDB 206224）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206224&o=json)
+- [中国历代人物传记资料库：王天錫（CBDB 215046）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=215046&o=json)

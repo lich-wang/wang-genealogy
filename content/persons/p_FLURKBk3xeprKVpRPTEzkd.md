@@ -4,7 +4,7 @@ id: p_FLURKBk3xeprKVpRPTEzkd
 status: active
 merged_into: null
 display_name: 王緜泰
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -77,7 +77,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_O58c_Jodrl4IAFErvpJCsO
+        subject_person_id: p_RuQhs8uJ9fucx5As4cNei9
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_FLURKBk3xeprKVpRPTEzkd
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_f1bokSV8wJ54BRJG0btH9I
+          claim_id: c_O58c_Jodrl4IAFErvpJCsO
+          source_id: s_aTG1523xWms7tBouLJaGPg
+          stance: supports
+          locator: (道光)徽州府志:十六卷卷首一卷，lgid=1160561：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_RuQhs8uJ9fucx5As4cNei9
+        status: active
+        display_name: 王作霖
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_RuQhs8uJ9fucx5As4cNei9 | 王作霖 | accepted |
 
 ## 外部来源
 

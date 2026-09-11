@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王仁忠
 cbdb_id: 175870
-revision: 4
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -242,6 +242,43 @@ relationships:
         status: active
         display_name: 王嵩
         merged_into_person_id: null
+    - claim:
+        id: c_8X1tWy69RLtYg7oITGiw6Z
+        subject_person_id: p_EoFqrFneyxXNJVFsSfLURF
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_fCRf7pKJyhsAXWGSNN7cKV
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GIrfCDnBM5GWEFjPVFwWVp
+          claim_id: c_8X1tWy69RLtYg7oITGiw6Z
+          source_id: s_DGKxb11paufQRHpSzNTQMa
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_DGKxb11paufQRHpSzNTQMa
+            source_type: api_record
+            title: 中国历代人物传记资料库：王崑（CBDB 175873）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175873&o=json
+            external_identifier: CBDB:175873
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.171Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_fCRf7pKJyhsAXWGSNN7cKV
+        status: active
+        display_name: 王崑
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -269,9 +306,11 @@ relationships:
 | parents | p_QkhCaGoZhcyF2De4tN5s15 | 王文济 | accepted |
 | children | p_4LwKm81HesPgBivVeco1an | 王嶷 | accepted |
 | children | p_CBzCZUvGKqZ1aB3PK8FovR | 王嵩 | accepted |
+| children | p_fCRf7pKJyhsAXWGSNN7cKV | 王崑 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王崑（CBDB 175873）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175873&o=json)
 - [中国历代人物传记资料库：王仁忠（CBDB 175870）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175870&o=json)
 - [中国历代人物传记资料库：王嵩（CBDB 175872）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175872&o=json)
 - [中国历代人物传记资料库：王嶷（CBDB 175871）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175871&o=json)
