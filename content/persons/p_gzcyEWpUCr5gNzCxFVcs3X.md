@@ -4,7 +4,7 @@ id: p_gzcyEWpUCr5gNzCxFVcs3X
 status: active
 merged_into: null
 display_name: 王冕
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -171,6 +171,43 @@ relationships:
         status: active
         display_name: 王珉
         merged_into_person_id: null
+    - claim:
+        id: c_4de7bdFAe-a-_ByCrjftxj
+        subject_person_id: p_edNbGPMXY5fR7hqPMkj3RX
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_gzcyEWpUCr5gNzCxFVcs3X
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_CzMkvqwdGvKzd5OclhcCO7
+          claim_id: c_4de7bdFAe-a-_ByCrjftxj
+          source_id: s_Byb5PEVHc6Z9Mm235ZQcPH
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第三甲第一百零四名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Byb5PEVHc6Z9Mm235ZQcPH
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鑑（CBDB 281721）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=281721&o=json
+            external_identifier: CBDB:281721
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.052Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_edNbGPMXY5fR7hqPMkj3RX
+        status: active
+        display_name: 王鑑
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -193,8 +230,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_67qMPLTYasCb3s1pUyvhCX | 王珉 | accepted |
+| ancestors | p_edNbGPMXY5fR7hqPMkj3RX | 王鑑 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王鑑（CBDB 281721）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=281721&o=json)
 - [中国历代人物传记资料库：王冕（CBDB 67901）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67901&o=json)
 - [中国历代人物传记资料库：王珉（CBDB 281722）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=281722&o=json)

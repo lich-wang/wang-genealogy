@@ -4,7 +4,7 @@ id: p_iRFm6e1TaQGqodt29a3YWr
 status: active
 merged_into: null
 display_name: 王廷錫
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -142,7 +142,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_qhjhzUjm_CulphOEQuzWvy
+        subject_person_id: p_DqQ2vtWXjGyWfEvq6qa2wB
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_iRFm6e1TaQGqodt29a3YWr
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BeuSyT-LE5mOgbFXOxaVE6
+          claim_id: c_qhjhzUjm_CulphOEQuzWvy
+          source_id: s_6U6GF9yBuKbJ1xDhguwF91
+          stance: supports
+          locator: 萬曆二十年壬辰科進士歷履便覽:一卷，第三甲第八十名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_6U6GF9yBuKbJ1xDhguwF91
+            source_type: api_record
+            title: 中国历代人物传记资料库：王詔（CBDB 232016）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=232016&o=json
+            external_identifier: CBDB:232016
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.684Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_DqQ2vtWXjGyWfEvq6qa2wB
+        status: active
+        display_name: 王詔
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_9LSFQN2Ue5grcfePxzwh6f | 王承勳 | accepted |
+| ancestors | p_DqQ2vtWXjGyWfEvq6qa2wB | 王詔 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王承勳（CBDB 232018）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=232018&o=json)
 - [中国历代人物传记资料库：王廷錫（CBDB 207424）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207424&o=json)
+- [中国历代人物传记资料库：王詔（CBDB 232016）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=232016&o=json)

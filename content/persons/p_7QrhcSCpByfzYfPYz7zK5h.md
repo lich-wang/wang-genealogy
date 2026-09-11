@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王支某
 cbdb_id: 141376
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -251,7 +251,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_obh7O0k6jAE-vCtA8-ujXf
+        subject_person_id: p_EG5yKUEaWTYurjNt333buJ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_7QrhcSCpByfzYfPYz7zK5h
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AzzmpjBBbLNcvtpe80x5PW
+          claim_id: c_obh7O0k6jAE-vCtA8-ujXf
+          source_id: s_ZH8N7VhSvuHLNwMMchyZVA
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Zhenyuan 126：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ZH8N7VhSvuHLNwMMchyZVA
+            source_type: api_record
+            title: 中国历代人物传记资料库：王同皎（CBDB 154781）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=154781&o=json
+            external_identifier: CBDB:154781
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.870Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_EG5yKUEaWTYurjNt333buJ
+        status: active
+        display_name: 王同皎
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -275,9 +312,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_7wCLqcQbBY1uXQ63JU3AKf | 王訓 | accepted |
 | children | p_42ee5BzsvLKc8zC31q5au9 | 王貞素 | accepted |
+| ancestors | p_EG5yKUEaWTYurjNt333buJ | 王同皎 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王同皎（CBDB 154781）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=154781&o=json)
 - [中国历代人物传记资料库：王訓（CBDB 141157）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=141157&o=json)
 - [中国历代人物传记资料库：王貞素（CBDB 156109）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=156109&o=json)
 - [中国历代人物传记资料库：王支某（CBDB 141376）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=141376&o=json)

@@ -4,7 +4,7 @@ id: p_eA4FrXeT3P8a3tixJUEnZZ
 status: active
 merged_into: null
 display_name: 王進
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,8 +128,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_HPOwQmdOqEyfB9gS36CcoF
+        subject_person_id: p_KuGbu9PjyVdi4EKz2hPeD4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_eA4FrXeT3P8a3tixJUEnZZ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_oS0Lqu5gorqz5lzFDTdAUL
+          claim_id: c_HPOwQmdOqEyfB9gS36CcoF
+          source_id: s_R3EgJpv4nKJVpnPeQuEwWr
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Shengli 27：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_KuGbu9PjyVdi4EKz2hPeD4
+        status: active
+        display_name: 王德
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_ARZ344RUwwdKHhZY0opkmw
+        subject_person_id: p_eA4FrXeT3P8a3tixJUEnZZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_VKF2NqYW5p4kmBYyN5kL9t
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lYt9wUAVhzwctw8z8jRYmH
+          claim_id: c_ARZ344RUwwdKHhZY0opkmw
+          source_id: s_R3EgJpv4nKJVpnPeQuEwWr
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Shengli 27：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_VKF2NqYW5p4kmBYyN5kL9t
+        status: active
+        display_name: 王履信
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +207,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_KuGbu9PjyVdi4EKz2hPeD4 | 王德 | accepted |
+| children | p_VKF2NqYW5p4kmBYyN5kL9t | 王履信 | accepted |
 
 ## 外部来源
 

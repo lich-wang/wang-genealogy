@@ -4,7 +4,7 @@ id: p_dsXDbzf3uzBdHwwc8H9ywp
 status: active
 merged_into: null
 display_name: 王渾
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,12 +73,64 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_6xEUWL3YzY5hcpbld5n3sG
+        subject_person_id: p_dsXDbzf3uzBdHwwc8H9ywp
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_hwEjFsDcDtXnEaxF75VjrK
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_aiyfI3SEv5domqrNrpvtKC
+          claim_id: c_6xEUWL3YzY5hcpbld5n3sG
+          source_id: s_8bpLJHLrK1qncEgFRUeePN
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_hwEjFsDcDtXnEaxF75VjrK
+        status: active
+        display_name: 王釴
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_OBemzVSsBNZnvWOG8pKqu6
+        subject_person_id: p_dsXDbzf3uzBdHwwc8H9ywp
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_2KfZ4qZPoW4uxG2E5viFAA
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lLOOMtwQdlHzwmIkZ2ezMW
+          claim_id: c_OBemzVSsBNZnvWOG8pKqu6
+          source_id: s_8bpLJHLrK1qncEgFRUeePN
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Yuanhe 34：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_2KfZ4qZPoW4uxG2E5viFAA
+        status: active
+        display_name: 王大劍
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_hwEjFsDcDtXnEaxF75VjrK | 王釴 | accepted |
+| descendants | p_2KfZ4qZPoW4uxG2E5viFAA | 王大劍 | accepted |
 
 ## 外部来源
 

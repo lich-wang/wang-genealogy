@@ -4,7 +4,7 @@ id: p_EceEHftq1dAuWXPD2WaHe8
 status: active
 merged_into: null
 display_name: 王訓
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,59 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_F2X-3xLCDFdRpMMSti7YET
+        subject_person_id: p_EceEHftq1dAuWXPD2WaHe8
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_GQ5Yfy9Q67yZ3hJuaQcGg3
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tujwpC4HGe9BqE1_wuxuLg
+          claim_id: c_F2X-3xLCDFdRpMMSti7YET
+          source_id: s_U9Q7JHAntALJujZ1eiyVy8
+          stance: supports
+          locator: 嘉靖十四年進士登科錄:一卷，第三甲第一百二十八名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_GQ5Yfy9Q67yZ3hJuaQcGg3
+        status: active
+        display_name: 王三接
+        merged_into_person_id: null
+    - claim:
+        id: c_EGwAUn2nG5Gr_pS0gN7b6A
+        subject_person_id: p_EceEHftq1dAuWXPD2WaHe8
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Tx5e1nr85Ax8xBvbkFoMbF
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dwonzHSUQvK7273-WgF-IR
+          claim_id: c_EGwAUn2nG5Gr_pS0gN7b6A
+          source_id: s_U9Q7JHAntALJujZ1eiyVy8
+          stance: supports
+          locator: 嘉靖八年進士登科錄:一卷，第二甲第十九名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Tx5e1nr85Ax8xBvbkFoMbF
+        status: active
+        display_name: 王三錫
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_GQ5Yfy9Q67yZ3hJuaQcGg3 | 王三接 | accepted |
+| descendants | p_Tx5e1nr85Ax8xBvbkFoMbF | 王三錫 | accepted |
 
 ## 外部来源
 

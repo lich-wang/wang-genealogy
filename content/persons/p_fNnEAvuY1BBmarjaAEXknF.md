@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王時和
 cbdb_id: 207820
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -167,7 +167,44 @@ relationships:
         status: active
         display_name: 王思忠
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_LlzIlzWINDf0fjjm_5WLWB
+        subject_person_id: p_fNnEAvuY1BBmarjaAEXknF
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ehAQTX99pWAsbKpM9FwW96
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_LA1ldb6MN_7K_wALRhf8g-
+          claim_id: c_LlzIlzWINDf0fjjm_5WLWB
+          source_id: s_4BqgQUw5MJu6WrjN4u9NAE
+          stance: supports
+          locator: 萬曆三十八年庚戌科序齒錄:一卷，第三甲第一百五名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_4BqgQUw5MJu6WrjN4u9NAE
+            source_type: api_record
+            title: 中国历代人物传记资料库：王憲（CBDB 236524）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236524&o=json
+            external_identifier: CBDB:236524
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.798Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ehAQTX99pWAsbKpM9FwW96
+        status: active
+        display_name: 王憲
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -230,6 +267,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_9wDw1cnSCGgEg7vtH1AinD | 王思忠 | accepted |
+| children | p_ehAQTX99pWAsbKpM9FwW96 | 王憲 | accepted |
 | ancestors | p_2yTQ8hH65SYjMEBxTsJ81R | 王秉 | accepted |
 
 ## 外部来源
@@ -237,3 +275,4 @@ relationships:
 - [中国历代人物传记资料库：王秉（CBDB 236515）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236515&o=json)
 - [中国历代人物传记资料库：王時和（CBDB 207820）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207820&o=json)
 - [中国历代人物传记资料库：王思忠（CBDB 236517）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236517&o=json)
+- [中国历代人物传记资料库：王憲（CBDB 236524）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236524&o=json)

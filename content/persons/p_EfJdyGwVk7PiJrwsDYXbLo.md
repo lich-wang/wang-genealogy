@@ -4,7 +4,7 @@ id: p_EfJdyGwVk7PiJrwsDYXbLo
 status: active
 merged_into: null
 display_name: 王豸
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_EScBJlf4iptlRWUea6dRRF
+        subject_person_id: p_EfJdyGwVk7PiJrwsDYXbLo
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_DA2QvREynL5ZUoyG8V9cNp
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ihJYwIQ4q8inh0LtOaXpNJ
+          claim_id: c_EScBJlf4iptlRWUea6dRRF
+          source_id: s_xKQ5jL6DiHY4YSqMSAPFzD
+          stance: supports
+          locator: 嘉靖二十六年進士登科錄:一卷，第二甲第三十九名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_DA2QvREynL5ZUoyG8V9cNp
+        status: active
+        display_name: 王春澤
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_DA2QvREynL5ZUoyG8V9cNp | 王春澤 | accepted |
 
 ## 外部来源
 

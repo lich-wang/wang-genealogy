@@ -4,7 +4,7 @@ id: p_dushLD8QJLJynRyKBeici3
 status: active
 merged_into: null
 display_name: 王冷然
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,8 +128,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_ONNXLpDINBxJmQAvjLeVU0
+        subject_person_id: p_Fg3vtbfub5wpwSDzMxnYPv
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_dushLD8QJLJynRyKBeici3
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_q-lgfvDoGsj8BOYtOyupyM
+          claim_id: c_ONNXLpDINBxJmQAvjLeVU0
+          source_id: s_m1aEb2D4xvYRS8Jbz4CGVd
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Tianbao 2：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Fg3vtbfub5wpwSDzMxnYPv
+        status: active
+        display_name: 王義諶
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_G7LaMKPfgBfE9ckJnj5mZB
+        subject_person_id: p_dushLD8QJLJynRyKBeici3
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_MbXDhpLedM3vGmUtsNAeMN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_62T27kUKZdH3GcYoog02vj
+          claim_id: c_G7LaMKPfgBfE9ckJnj5mZB
+          source_id: s_m1aEb2D4xvYRS8Jbz4CGVd
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Tianbao 2：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_MbXDhpLedM3vGmUtsNAeMN
+        status: active
+        display_name: 王仙官
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +207,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Fg3vtbfub5wpwSDzMxnYPv | 王義諶 | accepted |
+| children | p_MbXDhpLedM3vGmUtsNAeMN | 王仙官 | accepted |
 
 ## 外部来源
 

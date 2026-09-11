@@ -4,7 +4,7 @@ id: p_DNoFqs5WRDmQfihCwCiECy
 status: active
 merged_into: null
 display_name: 王憲
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,8 +100,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_QYtMgRJ3n28jmWeKuLg-tC
+        subject_person_id: p_DE8d8ednEw92f8RvF3Wp1b
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_DNoFqs5WRDmQfihCwCiECy
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tnhrxXP6gz1QfiawOzDgGD
+          claim_id: c_QYtMgRJ3n28jmWeKuLg-tC
+          source_id: s_PWkfRGPXkBhVTJGRfB49hm
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_DE8d8ednEw92f8RvF3Wp1b
+        status: active
+        display_name: 王無擇
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_uE-8q4A6KL4zpO68ZNtG9G
+        subject_person_id: p_DNoFqs5WRDmQfihCwCiECy
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_RQWy44B8Szn7GTHLiqzPzY
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qFvisM14mIZyJVqxDDMNw4
+          claim_id: c_uE-8q4A6KL4zpO68ZNtG9G
+          source_id: s_PWkfRGPXkBhVTJGRfB49hm
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_RQWy44B8Szn7GTHLiqzPzY
+        status: active
+        display_name: 王自勉
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,6 +178,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_DE8d8ednEw92f8RvF3Wp1b | 王無擇 | accepted |
+| children | p_RQWy44B8Szn7GTHLiqzPzY | 王自勉 | accepted |
 
 ## 外部来源
 

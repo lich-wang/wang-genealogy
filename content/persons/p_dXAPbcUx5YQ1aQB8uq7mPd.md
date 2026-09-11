@@ -4,7 +4,7 @@ id: p_dXAPbcUx5YQ1aQB8uq7mPd
 status: active
 merged_into: null
 display_name: 王天鑑
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,13 +128,65 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_ZlQ7OUqIY1Bt-fwsmxN_8u
+        subject_person_id: p_hQLEynziTD7U2V4km8Pxrq
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_dXAPbcUx5YQ1aQB8uq7mPd
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jbt2hL0RD_c_L12C94z8cB
+          claim_id: c_ZlQ7OUqIY1Bt-fwsmxN_8u
+          source_id: s_416y2w9RZNHCTvtcwgNL6Y
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），12764：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_hQLEynziTD7U2V4km8Pxrq
+        status: active
+        display_name: 王道舒
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_yr2gotG3thVxfHZN7yhD6l
+        subject_person_id: p_dXAPbcUx5YQ1aQB8uq7mPd
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_C6cxrFs1c7dm2C2Hbu5V3w
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QtAF8ShGSI-biJKuO3VP82
+          claim_id: c_yr2gotG3thVxfHZN7yhD6l
+          source_id: s_416y2w9RZNHCTvtcwgNL6Y
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），12764：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_C6cxrFs1c7dm2C2Hbu5V3w
+        status: active
+        display_name: 王公虞
+        merged_into_person_id: null
   other: []
 ---
 
@@ -155,6 +207,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_hQLEynziTD7U2V4km8Pxrq | 王道舒 | accepted |
+| descendants | p_C6cxrFs1c7dm2C2Hbu5V3w | 王公虞 | accepted |
 
 ## 外部来源
 

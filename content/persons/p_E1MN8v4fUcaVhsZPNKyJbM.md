@@ -4,7 +4,7 @@ id: p_E1MN8v4fUcaVhsZPNKyJbM
 status: active
 merged_into: null
 display_name: 王崇義
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_UxL3ZsvygAiYyX8lJHoX5Z
+        subject_person_id: p_xfuuciWrW1oRJMYJWgyk2k
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_E1MN8v4fUcaVhsZPNKyJbM
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_aaQzY4Yf9GWfBpbHQtNgCu
+          claim_id: c_UxL3ZsvygAiYyX8lJHoX5Z
+          source_id: s_F6y4SeFWHuzCVYWWJoZFtG
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaiyuan 268：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_xfuuciWrW1oRJMYJWgyk2k
+        status: active
+        display_name: 王晉
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_xfuuciWrW1oRJMYJWgyk2k | 王晉 | accepted |
 
 ## 外部来源
 

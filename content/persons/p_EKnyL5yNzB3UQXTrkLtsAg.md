@@ -4,7 +4,7 @@ id: p_EKnyL5yNzB3UQXTrkLtsAg
 status: active
 merged_into: null
 display_name: 王鎮
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_qGvjGbAmTdtNdZZuggdsS6
+        subject_person_id: p_b2MWJoRPw8eQD6tKTBzWN2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_EKnyL5yNzB3UQXTrkLtsAg
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_t18Q5tb-XCFuP3kZ1JMkc1
+          claim_id: c_qGvjGbAmTdtNdZZuggdsS6
+          source_id: s_ocnBND2ZpeAEqtQToHFBV8
+          stance: supports
+          locator: 正统十年進士登科錄:一卷，第二甲第二十八名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_b2MWJoRPw8eQD6tKTBzWN2
+        status: active
+        display_name: 王信之
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_241mXXo3WHnZ8cnNCtAxIs
+        subject_person_id: p_P5KZVGkiLwMdc6i3jDHipC
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_EKnyL5yNzB3UQXTrkLtsAg
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_CIhHf8cKJLDXmV6WQV0ISw
+          claim_id: c_241mXXo3WHnZ8cnNCtAxIs
+          source_id: s_ocnBND2ZpeAEqtQToHFBV8
+          stance: supports
+          locator: 正统十年進士登科錄:一卷，第二甲第二十八名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_P5KZVGkiLwMdc6i3jDHipC
+        status: active
+        display_name: 王以清
+        merged_into_person_id: null
+    - claim:
+        id: c_DcEPJ-ucP7m-IgRpLdFpAS
+        subject_person_id: p_iajFy8vjSxmZFzUeQAyxVV
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_EKnyL5yNzB3UQXTrkLtsAg
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ebFv6UL7zNVv8OjgAKQ5IE
+          claim_id: c_DcEPJ-ucP7m-IgRpLdFpAS
+          source_id: s_ocnBND2ZpeAEqtQToHFBV8
+          stance: supports
+          locator: 正统十年進士登科錄:一卷，第二甲第二十八名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_iajFy8vjSxmZFzUeQAyxVV
+        status: active
+        display_name: 王財興
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_b2MWJoRPw8eQD6tKTBzWN2 | 王信之 | accepted |
+| ancestors | p_P5KZVGkiLwMdc6i3jDHipC | 王以清 | accepted |
+| ancestors | p_iajFy8vjSxmZFzUeQAyxVV | 王財興 | accepted |
 
 ## 外部来源
 

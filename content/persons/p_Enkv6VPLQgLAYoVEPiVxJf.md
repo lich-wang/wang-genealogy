@@ -4,7 +4,7 @@ id: p_Enkv6VPLQgLAYoVEPiVxJf
 status: active
 merged_into: null
 display_name: 王明
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_O6SY3vEO07NPh4ZDmiheEV
+        subject_person_id: p_Enkv6VPLQgLAYoVEPiVxJf
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_q8kfUyHi4DSEJ6L6oLkg4M
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_m2Y63KsgfxMHs3R7gt5kfV
+          claim_id: c_O6SY3vEO07NPh4ZDmiheEV
+          source_id: s_7PENGV3jgRQN61G67J36Jo
+          stance: supports
+          locator: 嘉靖四十一年進士登科錄:一卷，第三甲第一百八十五名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_q8kfUyHi4DSEJ6L6oLkg4M
+        status: active
+        display_name: 王問臣
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_q8kfUyHi4DSEJ6L6oLkg4M | 王問臣 | accepted |
 
 ## 外部来源
 

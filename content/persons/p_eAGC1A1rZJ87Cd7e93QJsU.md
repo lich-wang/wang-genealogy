@@ -4,7 +4,7 @@ id: p_eAGC1A1rZJ87Cd7e93QJsU
 status: active
 merged_into: null
 display_name: 王大義
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_gLiAliAo03o7iEisQxndfL
+        subject_person_id: p_uXFJE4D57JtN6isVFHL2bP
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_eAGC1A1rZJ87Cd7e93QJsU
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JIyXonxj3aDNecx9MXX71V
+          claim_id: c_gLiAliAo03o7iEisQxndfL
+          source_id: s_APRgwvUc96iFixGqw6nCNL
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Xianqing 123：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_uXFJE4D57JtN6isVFHL2bP
+        status: active
+        display_name: 王進
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_uXFJE4D57JtN6isVFHL2bP | 王進 | accepted |
 
 ## 外部来源
 

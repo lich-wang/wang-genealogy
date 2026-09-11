@@ -4,7 +4,7 @@ id: p_dt99CHtLQV9MQYtFwsXeCG
 status: active
 merged_into: null
 display_name: 王威
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_vMt1IWdWw0VvXKyBSvbWsH
+        subject_person_id: p_dt99CHtLQV9MQYtFwsXeCG
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_MsBA8Ftmoz1fdfwfvZzMEV
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_e0ENK6Ur3z9OD1vYJG93Ug
+          claim_id: c_vMt1IWdWw0VvXKyBSvbWsH
+          source_id: s_5T6u3sJF18S8kdNwfNC56C
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Xianheng 66：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_MsBA8Ftmoz1fdfwfvZzMEV
+        status: active
+        display_name: 王甑生
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_MsBA8Ftmoz1fdfwfvZzMEV | 王甑生 | accepted |
 
 ## 外部来源
 

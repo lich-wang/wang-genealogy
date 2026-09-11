@@ -4,7 +4,7 @@ id: p_q8kfUyHi4DSEJ6L6oLkg4M
 status: active
 merged_into: null
 display_name: 王問臣
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_O6SY3vEO07NPh4ZDmiheEV
+        subject_person_id: p_Enkv6VPLQgLAYoVEPiVxJf
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_q8kfUyHi4DSEJ6L6oLkg4M
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_m2Y63KsgfxMHs3R7gt5kfV
+          claim_id: c_O6SY3vEO07NPh4ZDmiheEV
+          source_id: s_7PENGV3jgRQN61G67J36Jo
+          stance: supports
+          locator: 嘉靖四十一年進士登科錄:一卷，第三甲第一百八十五名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_7PENGV3jgRQN61G67J36Jo
+            source_type: api_record
+            title: 中国历代人物传记资料库：王明（CBDB 329112）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329112&o=json
+            external_identifier: CBDB:329112
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.318Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Enkv6VPLQgLAYoVEPiVxJf
+        status: active
+        display_name: 王明
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -163,9 +200,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Enkv6VPLQgLAYoVEPiVxJf | 王明 | accepted |
 | ancestors | p_CKxjDR1LGVYYypW4hUBVVW | 王怡 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王明（CBDB 329112）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329112&o=json)
 - [中国历代人物传记资料库：王問臣（CBDB 205162）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205162&o=json)
 - [中国历代人物传记资料库：王怡（CBDB 329111）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329111&o=json)

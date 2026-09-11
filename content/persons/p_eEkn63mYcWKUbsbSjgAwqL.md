@@ -4,7 +4,7 @@ id: p_eEkn63mYcWKUbsbSjgAwqL
 status: active
 merged_into: null
 display_name: 王大鈞
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,59 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_kQfVppGtiOANf4jkGiME1j
+        subject_person_id: p_eEkn63mYcWKUbsbSjgAwqL
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_gwxgTkP1LM4tNwhvH3o4rj
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_p7TrX_QP4XIqVTF4RuLfOT
+          claim_id: c_kQfVppGtiOANf4jkGiME1j
+          source_id: s_1VYKApJEqsSZnY28cwpmaG
+          stance: supports
+          locator: 寶祐登科錄：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_gwxgTkP1LM4tNwhvH3o4rj
+        status: active
+        display_name: 王元卯
+        merged_into_person_id: null
+    - claim:
+        id: c_vnv28T4jnHS9KhMTzcBuY4
+        subject_person_id: p_eEkn63mYcWKUbsbSjgAwqL
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_GuQFsAkukJ9WUs38TCwHMW
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6yu8ms8vQNPM8snUzv5PqS
+          claim_id: c_vnv28T4jnHS9KhMTzcBuY4
+          source_id: s_1VYKApJEqsSZnY28cwpmaG
+          stance: supports
+          locator: 寶祐登科錄：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_GuQFsAkukJ9WUs38TCwHMW
+        status: active
+        display_name: 王震午
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_gwxgTkP1LM4tNwhvH3o4rj | 王元卯 | accepted |
+| descendants | p_GuQFsAkukJ9WUs38TCwHMW | 王震午 | accepted |
 
 ## 外部来源
 

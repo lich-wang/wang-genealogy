@@ -4,7 +4,7 @@ id: p_sgFwSYG2RsvjHFjEuyLwo4
 status: active
 merged_into: null
 display_name: 王煜文
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -111,6 +111,43 @@ relationships:
         status: active
         display_name: 王應超
         merged_into_person_id: null
+    - claim:
+        id: c_wUSlO-7GMaXGY-uaeJrAQw
+        subject_person_id: p_sgFwSYG2RsvjHFjEuyLwo4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_eab83fhKiYdmkqRbFKa9Kk
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ET-VQxnNJAemU0M_TCAoNF
+          claim_id: c_wUSlO-7GMaXGY-uaeJrAQw
+          source_id: s_VQuitjz7w9KkjRgmPHWUPa
+          stance: supports
+          locator: (道光)徽州府志:十六卷卷首一卷，lgid=1160562：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_VQuitjz7w9KkjRgmPHWUPa
+            source_type: api_record
+            title: 中国历代人物传记资料库：王應科（CBDB 551388）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=551388&o=json
+            external_identifier: CBDB:551388
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:25.591Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_eab83fhKiYdmkqRbFKa9Kk
+        status: active
+        display_name: 王應科
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +172,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_8uNUQvi293HuAyjPDSunag | 王應超 | accepted |
+| children | p_eab83fhKiYdmkqRbFKa9Kk | 王應科 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王應超（CBDB 551389）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=551389&o=json)
+- [中国历代人物传记资料库：王應科（CBDB 551388）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=551388&o=json)
 - [中国历代人物传记资料库：王煜文（CBDB 551386）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=551386&o=json)

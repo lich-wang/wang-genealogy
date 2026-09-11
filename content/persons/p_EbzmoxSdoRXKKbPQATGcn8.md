@@ -4,7 +4,7 @@ id: p_EbzmoxSdoRXKKbPQATGcn8
 status: active
 merged_into: null
 display_name: 王嬙
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -76,7 +76,33 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_6HDZsotTSycryWOHW2adug
+        subject_person_id: p_EbzmoxSdoRXKKbPQATGcn8
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_iKtnQwHk19L953BUFn9ANP
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OWB4k_BOnxYrLPDiuifn-C
+          claim_id: c_6HDZsotTSycryWOHW2adug
+          source_id: s_QexD522Erg5damFL5RVKL3
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #1988：丈夫"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_iKtnQwHk19L953BUFn9ANP
+        status: active
+        display_name: 呼韩邪
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_iKtnQwHk19L953BUFn9ANP | 呼韩邪 | accepted |
 
 ## 外部来源
 

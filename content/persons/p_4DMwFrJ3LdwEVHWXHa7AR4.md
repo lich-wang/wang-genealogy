@@ -4,7 +4,7 @@ id: p_4DMwFrJ3LdwEVHWXHa7AR4
 status: active
 merged_into: null
 display_name: 王珪
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,43 @@ relationships:
         status: active
         display_name: 王光祖
         merged_into_person_id: null
+    - claim:
+        id: c_5HBFd8xYOBt3HwumMjxJ07
+        subject_person_id: p_4DMwFrJ3LdwEVHWXHa7AR4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_DQhLjxe4hW6pcn7G3Cc97m
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_N7R_QvUnL0xXwdqQsIPj9F
+          claim_id: c_5HBFd8xYOBt3HwumMjxJ07
+          source_id: s_qi79DLmTGF1QFokNwrstLQ
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_qi79DLmTGF1QFokNwrstLQ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王光世（CBDB 38775）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38775&o=json
+            external_identifier: CBDB:38775
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.551Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_DQhLjxe4hW6pcn7G3Cc97m
+        status: active
+        display_name: 王光世
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -150,8 +187,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_aQUm4rgRek7xJEszjxoqQS | 王光祖 | accepted |
+| children | p_DQhLjxe4hW6pcn7G3Cc97m | 王光世 | accepted |
 | descendants | p_eYTYqcoj54BTfQQyLN9VGt | 王稟 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王光世（CBDB 38775）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38775&o=json)
 - [中国历代人物传记资料库：王珪（CBDB 38294）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38294&o=json)

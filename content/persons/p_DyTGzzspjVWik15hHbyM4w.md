@@ -4,7 +4,7 @@ id: p_DyTGzzspjVWik15hHbyM4w
 status: active
 merged_into: null
 display_name: 王昌齡
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -129,7 +129,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_UXDWZIkiTP3uNpFobYq5g0
+        subject_person_id: p_DyTGzzspjVWik15hHbyM4w
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_R89BoJ7zW7kBGSAZbJKZbQ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Uw6wRR9eapv4NJ_ZdMu4L1
+          claim_id: c_UXDWZIkiTP3uNpFobYq5g0
+          source_id: s_zw8iFbtJgjEMN5ytSjeNUP
+          stance: supports
+          locator: 元人傳記資料索引，641：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_R89BoJ7zW7kBGSAZbJKZbQ
+        status: active
+        display_name: 王復
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +181,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_R89BoJ7zW7kBGSAZbJKZbQ | 王復 | accepted |
 
 ## 外部来源
 

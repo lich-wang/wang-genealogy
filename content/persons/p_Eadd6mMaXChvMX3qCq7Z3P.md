@@ -4,7 +4,7 @@ id: p_Eadd6mMaXChvMX3qCq7Z3P
 status: active
 merged_into: null
 display_name: 王寬
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_R-5hp6QtAMSZH3OWZrkPCy
+        subject_person_id: p_Eadd6mMaXChvMX3qCq7Z3P
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_CE6L82D742RNyGAmxCYAn5
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_IWKvfoSg8orieM3ld-3Xpq
+          claim_id: c_R-5hp6QtAMSZH3OWZrkPCy
+          source_id: s_DSRV9jMjzb3raA6Jv7LWVW
+          stance: supports
+          locator: 萬曆八年進士登科錄:一卷，第三甲第二百二十五名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_CE6L82D742RNyGAmxCYAn5
+        status: active
+        display_name: 王三陽
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_CE6L82D742RNyGAmxCYAn5 | 王三陽 | accepted |
 
 ## 外部来源
 

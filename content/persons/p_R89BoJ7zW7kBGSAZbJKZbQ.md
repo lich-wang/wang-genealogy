@@ -4,7 +4,7 @@ id: p_R89BoJ7zW7kBGSAZbJKZbQ
 status: active
 merged_into: null
 display_name: 王復
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_UXDWZIkiTP3uNpFobYq5g0
+        subject_person_id: p_DyTGzzspjVWik15hHbyM4w
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_R89BoJ7zW7kBGSAZbJKZbQ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Uw6wRR9eapv4NJ_ZdMu4L1
+          claim_id: c_UXDWZIkiTP3uNpFobYq5g0
+          source_id: s_zw8iFbtJgjEMN5ytSjeNUP
+          stance: supports
+          locator: 元人傳記資料索引，641：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_zw8iFbtJgjEMN5ytSjeNUP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王昌齡（CBDB 101253）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=101253&o=json
+            external_identifier: CBDB:101253
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:14.773Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_DyTGzzspjVWik15hHbyM4w
+        status: active
+        display_name: 王昌齡
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_DyTGzzspjVWik15hHbyM4w | 王昌齡 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王昌齡（CBDB 101253）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=101253&o=json)
 - [中国历代人物传记资料库：王復（CBDB 100822）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=100822&o=json)

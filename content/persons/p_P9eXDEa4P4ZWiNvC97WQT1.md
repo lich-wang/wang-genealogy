@@ -4,7 +4,7 @@ id: p_P9eXDEa4P4ZWiNvC97WQT1
 status: active
 merged_into: null
 display_name: 王澤
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_keQ7jE3tg-4oqM3MqK37MR
+        subject_person_id: p_P9eXDEa4P4ZWiNvC97WQT1
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_e8Z59Em5hbj5KfsGE7UhVQ
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_sVWGZInqK8qJlHTUa-uAMd
+          claim_id: c_keQ7jE3tg-4oqM3MqK37MR
+          source_id: s_1SUmsFVocSHYtEuenTLpTH
+          stance: supports
+          locator: 嘉靖四十四年進士登科錄:一卷，第二甲第十七名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_1SUmsFVocSHYtEuenTLpTH
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鑑（CBDB 126886）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126886&o=json
+            external_identifier: CBDB:126886
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.285Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_e8Z59Em5hbj5KfsGE7UhVQ
+        status: active
+        display_name: 王鑑
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_e8Z59Em5hbj5KfsGE7UhVQ | 王鑑 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王鑑（CBDB 126886）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126886&o=json)
 - [中国历代人物传记资料库：王澤（CBDB 329589）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329589&o=json)

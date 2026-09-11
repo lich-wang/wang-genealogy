@@ -4,7 +4,7 @@ id: p_E6K5e7Xk9yvQnbSUqCD5fD
 status: active
 merged_into: null
 display_name: 王景某
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_AHlB8jUnHbxFVk_2WvRQBb
+        subject_person_id: p_E6K5e7Xk9yvQnbSUqCD5fD
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_NCWXMHUiC6tyK4PRKjtWra
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hIAOeZBPn46kDQ05nJ_oHI
+          claim_id: c_AHlB8jUnHbxFVk_2WvRQBb
+          source_id: s_s4BZwH7EdFaBv2NjhmXXSk
+          stance: supports
+          locator: 成化十四年進士登科錄:一卷，第二甲第十五名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_NCWXMHUiC6tyK4PRKjtWra
+        status: active
+        display_name: 王欽
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_NCWXMHUiC6tyK4PRKjtWra | 王欽 | accepted |
 
 ## 外部来源
 

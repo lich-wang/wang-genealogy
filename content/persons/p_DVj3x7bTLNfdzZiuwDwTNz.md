@@ -4,7 +4,7 @@ id: p_DVj3x7bTLNfdzZiuwDwTNz
 status: active
 merged_into: null
 display_name: 王應選
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_i2cnYUv5DyaBGRhmOJXKO9
+        subject_person_id: p_ihrtmmYxDE76Umzs4UE6Cs
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_DVj3x7bTLNfdzZiuwDwTNz
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hrFkJ3WZPlubIIuUO8kMKw
+          claim_id: c_i2cnYUv5DyaBGRhmOJXKO9
+          source_id: s_N92t1qt6tC69nFxar3kdyC
+          stance: supports
+          locator: 萬曆二年進士登科錄:一卷，第一甲第三名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_ihrtmmYxDE76Umzs4UE6Cs
+        status: active
+        display_name: 王亮采
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_G9WKEKd2-oiCHhulONfELw
+        subject_person_id: p_mK5D2X8Ro4CfZ376aeXdHw
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_DVj3x7bTLNfdzZiuwDwTNz
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_615pO42QSdNpGWnGjYjB7x
+          claim_id: c_G9WKEKd2-oiCHhulONfELw
+          source_id: s_N92t1qt6tC69nFxar3kdyC
+          stance: supports
+          locator: 萬曆二年進士登科錄:一卷，第一甲第三名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_mK5D2X8Ro4CfZ376aeXdHw
+        status: active
+        display_name: 王鋼
+        merged_into_person_id: null
+    - claim:
+        id: c_B5yBVZ1_QHAEdLisfEE5xB
+        subject_person_id: p_f9fKkrpc2WRdSRBHDWdsek
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_DVj3x7bTLNfdzZiuwDwTNz
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hcTh8dlFhfo23ViNSd6A3W
+          claim_id: c_B5yBVZ1_QHAEdLisfEE5xB
+          source_id: s_N92t1qt6tC69nFxar3kdyC
+          stance: supports
+          locator: 萬曆二年進士登科錄:一卷，第一甲第三名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_f9fKkrpc2WRdSRBHDWdsek
+        status: active
+        display_name: 王游
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_ihrtmmYxDE76Umzs4UE6Cs | 王亮采 | accepted |
+| ancestors | p_mK5D2X8Ro4CfZ376aeXdHw | 王鋼 | accepted |
+| ancestors | p_f9fKkrpc2WRdSRBHDWdsek | 王游 | accepted |
 
 ## 外部来源
 

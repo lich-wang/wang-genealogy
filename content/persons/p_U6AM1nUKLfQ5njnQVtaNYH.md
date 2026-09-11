@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王肇林
 cbdb_id: 205462
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -129,12 +129,86 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_oTPX1GMTidRCJKwYNUvLqU
+        subject_person_id: p_DZDgMAJW6oNAC7MVuAcThi
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_U6AM1nUKLfQ5njnQVtaNYH
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OvrjHLPw-ZqAaRsBbqMLmJ
+          claim_id: c_oTPX1GMTidRCJKwYNUvLqU
+          source_id: s_35E6xFgK6BZA6GzBnHdK7E
+          stance: supports
+          locator: 嘉靖四十四年進士登科錄:一卷，第三甲第三百一十四名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_35E6xFgK6BZA6GzBnHdK7E
+            source_type: api_record
+            title: 中国历代人物传记资料库：王都（CBDB 333534）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333534&o=json
+            external_identifier: CBDB:333534
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.414Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_DZDgMAJW6oNAC7MVuAcThi
+        status: active
+        display_name: 王都
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_3dFN8FjsffyWSF0a5dh8q4
+        subject_person_id: p_DSNv22AjexaVDNmXJfwfXJ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_U6AM1nUKLfQ5njnQVtaNYH
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1UFi9dLOlk0NjdeK5Ft2Wz
+          claim_id: c_3dFN8FjsffyWSF0a5dh8q4
+          source_id: s_mh9VMpcf66YGaf3Y7LLURB
+          stance: supports
+          locator: 嘉靖四十四年進士登科錄:一卷，第三甲第三百一十四名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_mh9VMpcf66YGaf3Y7LLURB
+            source_type: api_record
+            title: 中国历代人物传记资料库：王聰（CBDB 333533）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333533&o=json
+            external_identifier: CBDB:333533
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.413Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_DSNv22AjexaVDNmXJfwfXJ
+        status: active
+        display_name: 王聰
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,7 +229,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_DZDgMAJW6oNAC7MVuAcThi | 王都 | accepted |
+| ancestors | p_DSNv22AjexaVDNmXJfwfXJ | 王聰 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王聰（CBDB 333533）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333533&o=json)
+- [中国历代人物传记资料库：王都（CBDB 333534）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333534&o=json)
 - [中国历代人物传记资料库：王肇林（CBDB 205462）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205462&o=json)

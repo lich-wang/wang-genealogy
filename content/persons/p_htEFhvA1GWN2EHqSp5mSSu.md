@@ -4,7 +4,7 @@ id: p_htEFhvA1GWN2EHqSp5mSSu
 status: active
 merged_into: null
 display_name: 王世芳
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -105,7 +105,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_qvPGgis8SjW3vKWSM4Ssar
+        subject_person_id: p_emSVrN2cQ2GqKFX79DRrPL
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_htEFhvA1GWN2EHqSp5mSSu
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YuiPXGA0AZbC1blrDYuH4B
+          claim_id: c_qvPGgis8SjW3vKWSM4Ssar
+          source_id: s_sEQEViKcXkMBW7thxPUFxi
+          stance: supports
+          locator: 正德十六年登科錄:一卷，第二甲第四十五名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_sEQEViKcXkMBW7thxPUFxi
+            source_type: api_record
+            title: 中国历代人物传记资料库：王僑（CBDB 283503）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=283503&o=json
+            external_identifier: CBDB:283503
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.136Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_emSVrN2cQ2GqKFX79DRrPL
+        status: active
+        display_name: 王僑
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_emSVrN2cQ2GqKFX79DRrPL | 王僑 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王僑（CBDB 283503）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=283503&o=json)
 - [中国历代人物传记资料库：王世芳（CBDB 202098）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202098&o=json)

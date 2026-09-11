@@ -4,7 +4,7 @@ id: p_EJz6NDNXPRUy1b3XSr2FQp
 status: active
 merged_into: null
 display_name: 王稼
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_6Np6EDyXWGJYrHP6z1zPLa
+        subject_person_id: p_EJz6NDNXPRUy1b3XSr2FQp
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_EoY6249MAYNFPdVz2u3z4E
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_S-cL3tdcuz_PZodfZ14scd
+          claim_id: c_6Np6EDyXWGJYrHP6z1zPLa
+          source_id: s_uNgy8ncguYMsX9WoGJzPaL
+          stance: supports
+          locator: 嘉靖八年進士登科錄:一卷，第二甲第十一名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_EoY6249MAYNFPdVz2u3z4E
+        status: active
+        display_name: 王學益
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_EoY6249MAYNFPdVz2u3z4E | 王學益 | accepted |
 
 ## 外部来源
 

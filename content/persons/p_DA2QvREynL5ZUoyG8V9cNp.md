@@ -4,7 +4,7 @@ id: p_DA2QvREynL5ZUoyG8V9cNp
 status: active
 merged_into: null
 display_name: 王春澤
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_EScBJlf4iptlRWUea6dRRF
+        subject_person_id: p_EfJdyGwVk7PiJrwsDYXbLo
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_DA2QvREynL5ZUoyG8V9cNp
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ihJYwIQ4q8inh0LtOaXpNJ
+          claim_id: c_EScBJlf4iptlRWUea6dRRF
+          source_id: s_xKQ5jL6DiHY4YSqMSAPFzD
+          stance: supports
+          locator: 嘉靖二十六年進士登科錄:一卷，第二甲第三十九名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_xKQ5jL6DiHY4YSqMSAPFzD
+            source_type: api_record
+            title: 中国历代人物传记资料库：王豸（CBDB 308956）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=308956&o=json
+            external_identifier: CBDB:308956
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.802Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_EfJdyGwVk7PiJrwsDYXbLo
+        status: active
+        display_name: 王豸
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -192,9 +229,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_EfJdyGwVk7PiJrwsDYXbLo | 王豸 | accepted |
 | ancestors | p_84TjPXi8y71DsxeYjH99RG | 王龍 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王春澤（CBDB 126604）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126604&o=json)
 - [中国历代人物传记资料库：王龍（CBDB 308955）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=308955&o=json)
+- [中国历代人物传记资料库：王豸（CBDB 308956）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=308956&o=json)

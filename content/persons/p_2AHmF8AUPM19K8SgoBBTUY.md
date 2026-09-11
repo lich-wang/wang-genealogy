@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王貽德
 cbdb_id: 205304
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -129,7 +129,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_-J1p8EcgNt8M-6P8jUUKJJ
+        subject_person_id: p_DYn2sTkHCEDbpaSHuEuC5e
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_2AHmF8AUPM19K8SgoBBTUY
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_F2L3b6bnUJ2lsVuFYenmc0
+          claim_id: c_-J1p8EcgNt8M-6P8jUUKJJ
+          source_id: s_PzmkJBxD656b3F9v7bVzPz
+          stance: supports
+          locator: 嘉靖四十四年進士登科錄:一卷，第三甲第九十九名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_PzmkJBxD656b3F9v7bVzPz
+            source_type: api_record
+            title: 中国历代人物传记资料库：王謐（CBDB 331283）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=331283&o=json
+            external_identifier: CBDB:331283
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.364Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_DYn2sTkHCEDbpaSHuEuC5e
+        status: active
+        display_name: 王謐
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_DYn2sTkHCEDbpaSHuEuC5e | 王謐 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王謐（CBDB 331283）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=331283&o=json)
 - [中国历代人物传记资料库：王貽德（CBDB 205304）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205304&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王道舒
 cbdb_id: 526679
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -87,7 +87,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_ZlQ7OUqIY1Bt-fwsmxN_8u
+        subject_person_id: p_hQLEynziTD7U2V4km8Pxrq
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_dXAPbcUx5YQ1aQB8uq7mPd
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jbt2hL0RD_c_L12C94z8cB
+          claim_id: c_ZlQ7OUqIY1Bt-fwsmxN_8u
+          source_id: s_416y2w9RZNHCTvtcwgNL6Y
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），12764：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_416y2w9RZNHCTvtcwgNL6Y
+            source_type: api_record
+            title: 中国历代人物传记资料库：王天鑑（CBDB 69068）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69068&o=json
+            external_identifier: CBDB:69068
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:13.106Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_dXAPbcUx5YQ1aQB8uq7mPd
+        status: active
+        display_name: 王天鑑
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_dXAPbcUx5YQ1aQB8uq7mPd | 王天鑑 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王道舒（CBDB 526679）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526679&o=json)
+- [中国历代人物传记资料库：王天鑑（CBDB 69068）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69068&o=json)

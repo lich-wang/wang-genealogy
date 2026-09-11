@@ -4,7 +4,7 @@ id: p_duVc1ppxfeRS2wEdtvap8L
 status: active
 merged_into: null
 display_name: 王釗
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_e12HLvIoEvUaFxKhMjG6JO
+        subject_person_id: p_duVc1ppxfeRS2wEdtvap8L
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_cakXozT1Ed1TLgH5Avqt9N
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2KODmwvR0R6jq_9vg62XCa
+          claim_id: c_e12HLvIoEvUaFxKhMjG6JO
+          source_id: s_vznFpLWL35vJPn5RjiUecp
+          stance: supports
+          locator: 隆慶五年進士登科錄:一卷，第三甲第九十六名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_cakXozT1Ed1TLgH5Avqt9N
+        status: active
+        display_name: 王汝訓
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_cakXozT1Ed1TLgH5Avqt9N | 王汝訓 | accepted |
 
 ## 外部来源
 

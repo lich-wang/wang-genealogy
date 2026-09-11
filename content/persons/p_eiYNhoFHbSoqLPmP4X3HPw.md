@@ -4,7 +4,7 @@ id: p_eiYNhoFHbSoqLPmP4X3HPw
 status: active
 merged_into: null
 display_name: 王儉
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,8 +128,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_UBEoDEGhZEYfHE8EXH8pyB
+        subject_person_id: p_PFAhy5DeN8TrMCHHyKTGNK
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_eiYNhoFHbSoqLPmP4X3HPw
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MpJywxtpxDwdMXieGtlyEP
+          claim_id: c_UBEoDEGhZEYfHE8EXH8pyB
+          source_id: s_a1m9dbAawAMyuFH6eQPFjk
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Xianheng 93：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_PFAhy5DeN8TrMCHHyKTGNK
+        status: active
+        display_name: 王獎
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_-8txQt8JmlVuWZO7X3n2l7
+        subject_person_id: p_eiYNhoFHbSoqLPmP4X3HPw
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_9NjQBNK5rLjXD8pmvsET72
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wwoNKb_xbXmAmGxwC9TMU_
+          claim_id: c_-8txQt8JmlVuWZO7X3n2l7
+          source_id: s_a1m9dbAawAMyuFH6eQPFjk
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Xianheng 93：嗣子(作為繼承人的兒子)
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_9NjQBNK5rLjXD8pmvsET72
+        status: active
+        display_name: 王文殊
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +207,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_PFAhy5DeN8TrMCHHyKTGNK | 王獎 | accepted |
+| children | p_9NjQBNK5rLjXD8pmvsET72 | 王文殊 | accepted |
 
 ## 外部来源
 

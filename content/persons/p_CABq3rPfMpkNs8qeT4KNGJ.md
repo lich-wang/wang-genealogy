@@ -4,7 +4,7 @@ id: p_CABq3rPfMpkNs8qeT4KNGJ
 status: active
 merged_into: null
 display_name: 王頤
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_-wqagVcfjzCVRnF3mUBNIE
+        subject_person_id: p_e8bXSz4GNvW4GQBY9EosiG
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_CABq3rPfMpkNs8qeT4KNGJ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_aGNCLTYof-7pPLLbiP4Nl8
+          claim_id: c_-wqagVcfjzCVRnF3mUBNIE
+          source_id: s_pweSSvVFt9oRXh1DB5io9A
+          stance: supports
+          locator: 宣德八年進士登科錄:一卷，第三甲第六十名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_pweSSvVFt9oRXh1DB5io9A
+            source_type: api_record
+            title: 中国历代人物传记资料库：王英（CBDB 231745）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231745&o=json
+            external_identifier: CBDB:231745
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.653Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_e8bXSz4GNvW4GQBY9EosiG
+        status: active
+        display_name: 王英
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -163,9 +200,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_e8bXSz4GNvW4GQBY9EosiG | 王英 | accepted |
 | ancestors | p_bdcyFM17ttoZgF23qJm3Hk | 王忠 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王頤（CBDB 207361）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207361&o=json)
+- [中国历代人物传记资料库：王英（CBDB 231745）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231745&o=json)
 - [中国历代人物传记资料库：王忠（CBDB 231742）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231742&o=json)

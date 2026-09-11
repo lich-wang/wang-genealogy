@@ -4,7 +4,7 @@ id: p_RQWy44B8Szn7GTHLiqzPzY
 status: active
 merged_into: null
 display_name: 王自勉
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_uE-8q4A6KL4zpO68ZNtG9G
+        subject_person_id: p_DNoFqs5WRDmQfihCwCiECy
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_RQWy44B8Szn7GTHLiqzPzY
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qFvisM14mIZyJVqxDDMNw4
+          claim_id: c_uE-8q4A6KL4zpO68ZNtG9G
+          source_id: s_PWkfRGPXkBhVTJGRfB49hm
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_PWkfRGPXkBhVTJGRfB49hm
+            source_type: api_record
+            title: 中国历代人物传记资料库：王憲（CBDB 191817）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191817&o=json
+            external_identifier: CBDB:191817
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.382Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_DNoFqs5WRDmQfihCwCiECy
+        status: active
+        display_name: 王憲
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_DNoFqs5WRDmQfihCwCiECy | 王憲 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王憲（CBDB 191817）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191817&o=json)
 - [中国历代人物传记资料库：王自勉（CBDB 191818）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191818&o=json)

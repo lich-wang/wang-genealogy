@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王夢高
 cbdb_id: 136461
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -91,7 +91,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_YLYS-EoCqJyXoIoEToIIyQ
+        subject_person_id: p_EbP5CwcHhyLj6ngpYVu5ad
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_mmwATqRLjoRdB6PX8Fk2Af
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FZ2PX5Z0ruib9vKmkJYsw3
+          claim_id: c_YLYS-EoCqJyXoIoEToIIyQ
+          source_id: s_6ipmewd8kLs5VFrEaZ9E21
+          stance: supports
+          locator: 寶祐登科錄：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_6ipmewd8kLs5VFrEaZ9E21
+            source_type: api_record
+            title: 中国历代人物传记资料库：王齊（CBDB 137933）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=137933&o=json
+            external_identifier: CBDB:137933
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.353Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_EbP5CwcHhyLj6ngpYVu5ad
+        status: active
+        display_name: 王齊
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_EbP5CwcHhyLj6ngpYVu5ad | 王齊 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王夢高（CBDB 136461）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=136461&o=json)
+- [中国历代人物传记资料库：王齊（CBDB 137933）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=137933&o=json)

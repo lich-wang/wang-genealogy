@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王幼虞
 cbdb_id: 143628
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -214,7 +214,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_HbCjpMf2QfYx8HuJ_pODbV
+        subject_person_id: p_EekV1er5JkAj6hekaqJDVE
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_YsPayRFH97RfRhHgyPnWty
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4KX1H0Wr1TNGAol2CqwXuu
+          claim_id: c_HbCjpMf2QfYx8HuJ_pODbV
+          source_id: s_zk5P4Ec6BpG4pRMBmch3A3
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Qianfu8：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_zk5P4Ec6BpG4pRMBmch3A3
+            source_type: api_record
+            title: 中国历代人物传记资料库：王昌（CBDB 168569）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=168569&o=json
+            external_identifier: CBDB:168569
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.999Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_EekV1er5JkAj6hekaqJDVE
+        status: active
+        display_name: 王昌
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -237,8 +274,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_2By3HyEqWFSrUPCpwFaSLa | 王仲甫 | accepted |
+| ancestors | p_EekV1er5JkAj6hekaqJDVE | 王昌 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王昌（CBDB 168569）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=168569&o=json)
 - [中国历代人物传记资料库：王幼虞（CBDB 143628）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=143628&o=json)
 - [中国历代人物传记资料库：王仲甫（CBDB 168571）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=168571&o=json)

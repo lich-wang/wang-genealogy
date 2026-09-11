@@ -4,7 +4,7 @@ id: p_G4qJhuZsQYn7A9yfHcTR6Z
 status: active
 merged_into: null
 display_name: 王獻
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_mBllBBCnHLbUZR1ElSYn6-
+        subject_person_id: p_do7sRWRkXm9HbF91DJTFWy
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_G4qJhuZsQYn7A9yfHcTR6Z
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__I4ztS48i22vikE5YKL7lO
+          claim_id: c_mBllBBCnHLbUZR1ElSYn6-
+          source_id: s_x8iqghaZ9G1jhaNV7hymRN
+          stance: supports
+          locator: 景泰二年進士登科錄:一卷，第二甲第三十六名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_x8iqghaZ9G1jhaNV7hymRN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王智（CBDB 281419）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=281419&o=json
+            external_identifier: CBDB:281419
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.051Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_do7sRWRkXm9HbF91DJTFWy
+        status: active
+        display_name: 王智
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_do7sRWRkXm9HbF91DJTFWy | 王智 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王獻（CBDB 126875）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126875&o=json)
+- [中国历代人物传记资料库：王智（CBDB 281419）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=281419&o=json)

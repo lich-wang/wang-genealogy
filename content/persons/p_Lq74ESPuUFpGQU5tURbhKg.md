@@ -4,7 +4,7 @@ id: p_Lq74ESPuUFpGQU5tURbhKg
 status: active
 merged_into: null
 display_name: 王文禮
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_lTTvGJQpxqfPSM1L4wmAbX
+        subject_person_id: p_EekV1er5JkAj6hekaqJDVE
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Lq74ESPuUFpGQU5tURbhKg
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8nDFCM17kBRjF71aJiCZKE
+          claim_id: c_lTTvGJQpxqfPSM1L4wmAbX
+          source_id: s_zk5P4Ec6BpG4pRMBmch3A3
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_zk5P4Ec6BpG4pRMBmch3A3
+            source_type: api_record
+            title: 中国历代人物传记资料库：王昌（CBDB 168569）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=168569&o=json
+            external_identifier: CBDB:168569
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.999Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_EekV1er5JkAj6hekaqJDVE
+        status: active
+        display_name: 王昌
+        merged_into_person_id: null
   children:
     - claim:
         id: c_VuPgVIm9hitkELdydw-xed
@@ -134,9 +171,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_EekV1er5JkAj6hekaqJDVE | 王昌 | accepted |
 | children | p_2By3HyEqWFSrUPCpwFaSLa | 王仲甫 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王昌（CBDB 168569）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=168569&o=json)
 - [中国历代人物传记资料库：王文禮（CBDB 168570）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=168570&o=json)
 - [中国历代人物传记资料库：王仲甫（CBDB 168571）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=168571&o=json)

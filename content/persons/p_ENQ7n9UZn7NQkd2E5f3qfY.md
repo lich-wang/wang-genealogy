@@ -4,7 +4,7 @@ id: p_ENQ7n9UZn7NQkd2E5f3qfY
 status: active
 merged_into: null
 display_name: 王懷感
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_YQiJu8jn0U5xIAdZulJgtP
+        subject_person_id: p_V6Vh65UhA29fnCXkG6WPsA
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ENQ7n9UZn7NQkd2E5f3qfY
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_q8kvJ62nbZuQu3V7Zti_Jh
+          claim_id: c_YQiJu8jn0U5xIAdZulJgtP
+          source_id: s_yKHLKiAAu5ZhCejCr5SWmv
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Changan 68：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_V6Vh65UhA29fnCXkG6WPsA
+        status: active
+        display_name: 王某通
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_V6Vh65UhA29fnCXkG6WPsA | 王某通 | accepted |
 
 ## 外部来源
 

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王象蒙
 cbdb_id: 206595
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -257,7 +257,44 @@ relationships:
         status: active
         display_name: 邢氏
         merged_into_person_id: null
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_KClhAyMfn6pNFK52zPT7mr
+        subject_person_id: p_ekUUUcSyzN6WhRbt4eNPox
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_UCuWmdu88wkXMEGK9geKmL
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_I7SOF5ieNwyF3pF04fibWr
+          claim_id: c_KClhAyMfn6pNFK52zPT7mr
+          source_id: s_UPbhN87m2i3NV2QMsCPaZa
+          stance: supports
+          locator: 萬曆八年進士登科錄:一卷，第三甲第八十七名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_UPbhN87m2i3NV2QMsCPaZa
+            source_type: api_record
+            title: 中国历代人物传记资料库：王重光（CBDB 220262）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=220262&o=json
+            external_identifier: CBDB:220262
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.298Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ekUUUcSyzN6WhRbt4eNPox
+        status: active
+        display_name: 王重光
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -280,10 +317,12 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_VLPN2ybQtkqyCPrJiYL7vx | 王之辅 | accepted |
 | spouses | p_CoDhAE6fC5JFB1FsBJjCq1 | 邢氏 | accepted |
+| ancestors | p_ekUUUcSyzN6WhRbt4eNPox | 王重光 | accepted |
 
 ## 外部来源
 
 - [维基数据：王象蒙（Q45647401）](https://www.wikidata.org/wiki/Q45647401)
 - [维基数据：王之辅（Q16075319）](https://www.wikidata.org/wiki/Q16075319)
 - [维基数据：邢氏（Q65823254）](https://www.wikidata.org/wiki/Q65823254)
+- [中国历代人物传记资料库：王重光（CBDB 220262）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=220262&o=json)
 - [CBDB 中国历代人物传记资料库：王象蒙（206595）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206595&o=json)

@@ -4,7 +4,7 @@ id: p_DYYX5QMN2Am56hJCjJrxsQ
 status: active
 merged_into: null
 display_name: 王元凱
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -77,7 +77,59 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_NrY5vKNTMr2QbD5AAMrqZ3
+        subject_person_id: p_V1jW6HDBWbj1BBCdhexxp1
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_DYYX5QMN2Am56hJCjJrxsQ
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pC-_NoPMtxwIXm6Djlb-1l
+          claim_id: c_NrY5vKNTMr2QbD5AAMrqZ3
+          source_id: s_5Nh1R95Mr81Xk4XFG2bvEe
+          stance: supports
+          locator: 正德六年進士登科錄:一卷，第二甲第三十七名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_V1jW6HDBWbj1BBCdhexxp1
+        status: active
+        display_name: 王榮
+        merged_into_person_id: null
+    - claim:
+        id: c_ze9v8x3gZx9jufMRHrhavR
+        subject_person_id: p_K6wLixAyGjd3ARAhq77jQR
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_DYYX5QMN2Am56hJCjJrxsQ
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_yPbSFn-KtE6wnwZ-1PcyiB
+          claim_id: c_ze9v8x3gZx9jufMRHrhavR
+          source_id: s_5Nh1R95Mr81Xk4XFG2bvEe
+          stance: supports
+          locator: 正德六年進士登科錄:一卷，第二甲第三十七名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_K6wLixAyGjd3ARAhq77jQR
+        status: active
+        display_name: 王璽
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_V1jW6HDBWbj1BBCdhexxp1 | 王榮 | accepted |
+| ancestors | p_K6wLixAyGjd3ARAhq77jQR | 王璽 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_fVwHvivQzDYcoN8uZB1uwy
 status: active
 merged_into: null
 display_name: 王良臣
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,43 @@ relationships:
         status: active
         display_name: 王魯
         merged_into_person_id: null
+    - claim:
+        id: c_jv4Av7orUItFpZiAObR3gW
+        subject_person_id: p_E8R8PCXPkP9eN4uAPUmfkY
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_fVwHvivQzDYcoN8uZB1uwy
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_e9ZscdiwNVZ4PL6Xg7RFi6
+          claim_id: c_jv4Av7orUItFpZiAObR3gW
+          source_id: s_C9cLmmQjXiVzCxgPjKe73o
+          stance: supports
+          locator: 萬曆三十八年庚戌科序齒錄:一卷，第三甲第三十二名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_C9cLmmQjXiVzCxgPjKe73o
+            source_type: api_record
+            title: 中国历代人物传记资料库：王嘉言（CBDB 235968）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235968&o=json
+            external_identifier: CBDB:235968
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.766Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_E8R8PCXPkP9eN4uAPUmfkY
+        status: active
+        display_name: 王嘉言
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_A3oct87FbnEp6SgQ2qLz7K | 王應昌 | accepted |
 | ancestors | p_77iaWpWMwfPvQUKF6BCdCD | 王魯 | accepted |
+| ancestors | p_E8R8PCXPkP9eN4uAPUmfkY | 王嘉言 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王嘉言（CBDB 235968）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235968&o=json)
 - [中国历代人物传记资料库：王良臣（CBDB 207791）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207791&o=json)
 - [中国历代人物传记资料库：王魯（CBDB 235967）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235967&o=json)
 - [中国历代人物传记资料库：王應昌（CBDB 235996）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235996&o=json)

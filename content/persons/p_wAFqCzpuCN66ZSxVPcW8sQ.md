@@ -4,7 +4,7 @@ id: p_wAFqCzpuCN66ZSxVPcW8sQ
 status: active
 merged_into: null
 display_name: 王湜
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -143,6 +143,43 @@ relationships:
         status: active
         display_name: 王允壽
         merged_into_person_id: null
+    - claim:
+        id: c_sN8IbKmVGrqTiT3Z1sr-ao
+        subject_person_id: p_EbApBXkRihCybB7ywSQD8z
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_wAFqCzpuCN66ZSxVPcW8sQ
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_LXNiuUSIzFyytoYX796FlG
+          claim_id: c_sN8IbKmVGrqTiT3Z1sr-ao
+          source_id: s_nWLHm7YKRKkFT1t8wd9azh
+          stance: supports
+          locator: 嘉靖三十八年進士登科錄:一卷，第二甲第三名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_nWLHm7YKRKkFT1t8wd9azh
+            source_type: api_record
+            title: 中国历代人物传记资料库：王朝卿（CBDB 323017）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=323017&o=json
+            external_identifier: CBDB:323017
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.136Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_EbApBXkRihCybB7ywSQD8z
+        status: active
+        display_name: 王朝卿
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_42i6rg5dKgeiFrYCq2a9DQ | 王允壽 | accepted |
+| ancestors | p_EbApBXkRihCybB7ywSQD8z | 王朝卿 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王朝卿（CBDB 323017）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=323017&o=json)
 - [中国历代人物传记资料库：王湜（CBDB 204714）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204714&o=json)
 - [中国历代人物传记资料库：王允壽（CBDB 323016）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=323016&o=json)

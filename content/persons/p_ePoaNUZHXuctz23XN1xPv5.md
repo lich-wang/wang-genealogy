@@ -4,7 +4,7 @@ id: p_ePoaNUZHXuctz23XN1xPv5
 status: active
 merged_into: null
 display_name: 王珤
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_I9HIWGNmDyiI0rk8RQArFE
+        subject_person_id: p_ePoaNUZHXuctz23XN1xPv5
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_aE8BJNQJMvShc1BQ8KJMip
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xxxNHxdN-yxl6_qMtmnZYP
+          claim_id: c_I9HIWGNmDyiI0rk8RQArFE
+          source_id: s_nJFu1D7iWY3jKXk8j2xYvf
+          stance: supports
+          locator: 弘治九年進士登科錄:一卷，第三甲第一百一十七名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_aE8BJNQJMvShc1BQ8KJMip
+        status: active
+        display_name: 王士昭
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_aE8BJNQJMvShc1BQ8KJMip | 王士昭 | accepted |
 
 ## 外部来源
 

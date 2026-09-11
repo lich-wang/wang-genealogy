@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 呼韩邪
 cbdb_id: 135319
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -505,6 +505,43 @@ relationships:
         status: active
         display_name: 王昭君
         merged_into_person_id: null
+    - claim:
+        id: c_6HDZsotTSycryWOHW2adug
+        subject_person_id: p_EbzmoxSdoRXKKbPQATGcn8
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_iKtnQwHk19L953BUFn9ANP
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OWB4k_BOnxYrLPDiuifn-C
+          claim_id: c_6HDZsotTSycryWOHW2adug
+          source_id: s_QexD522Erg5damFL5RVKL3
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #1988：丈夫"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_QexD522Erg5damFL5RVKL3
+            source_type: api_record
+            title: 中国历代人物传记资料库：王嬙（CBDB 135318）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=135318&o=json
+            external_identifier: CBDB:135318
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.185Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_EbzmoxSdoRXKKbPQATGcn8
+        status: active
+        display_name: 王嬙
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -528,12 +565,13 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | spouses | p_BUaGJXVbdiGWZgD8yeJs5F | 王昭君 | accepted |
+| spouses | p_EbzmoxSdoRXKKbPQATGcn8 | 王嬙 | accepted |
 
 ## 外部来源
 
 - [维基数据：呼韩邪单于（Q2986904）](https://www.wikidata.org/wiki/Q2986904)
 - [維基數據：王昭君（Q701037）](https://www.wikidata.org/wiki/Q701037)
+- [中国历代人物传记资料库：王嬙（CBDB 135318）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=135318&o=json)
 - [中文维基百科：呼韓邪單于](https://zh.wikipedia.org/wiki/%E5%91%BC%E9%9F%93%E9%82%AA%E5%96%AE%E4%BA%8E)
 - [中文维基百科：王昭君](https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%98%AD%E5%90%9B)
 - [CBDB 中国历代人物传记资料库：呼韩邪（135319）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=135319&o=json)
-- [CBDB 中国历代人物传记资料库：王嬙（135318）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=135318&o=json)

@@ -4,7 +4,7 @@ id: p_JX2kojoi67e76MdeNUyP8W
 status: active
 merged_into: null
 display_name: 王穀祥
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -208,6 +208,43 @@ relationships:
         status: active
         display_name: 王寬
         merged_into_person_id: null
+    - claim:
+        id: c_cR-0Xxf__ShUxQtUgAvdaY
+        subject_person_id: p_DWE6S4xteL8yk7eB9AqbYc
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_JX2kojoi67e76MdeNUyP8W
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hzSMJVOlKt1Wqbjs558ree
+          claim_id: c_cR-0Xxf__ShUxQtUgAvdaY
+          source_id: s_BGyy5djCjAFmRKqJUj5XEK
+          stance: supports
+          locator: 嘉靖八年進士登科錄:一卷，第二甲第四十五名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_BGyy5djCjAFmRKqJUj5XEK
+            source_type: api_record
+            title: 中国历代人物传记资料库：王敏（CBDB 287787）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287787&o=json
+            external_identifier: CBDB:287787
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.273Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_DWE6S4xteL8yk7eB9AqbYc
+        status: active
+        display_name: 王敏
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -231,9 +268,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_C8ZxQAECatcwVFYPVsxFYQ | 王觀 | accepted |
 | ancestors | p_2GDsntkMHuduCdY1F2na53 | 王寬 | accepted |
+| ancestors | p_DWE6S4xteL8yk7eB9AqbYc | 王敏 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王穀祥（CBDB 126804）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126804&o=json)
 - [中国历代人物传记资料库：王觀（CBDB 287788）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287788&o=json)
 - [中国历代人物传记资料库：王寬（CBDB 287786）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287786&o=json)
+- [中国历代人物传记资料库：王敏（CBDB 287787）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287787&o=json)

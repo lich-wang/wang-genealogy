@@ -4,7 +4,7 @@ id: p_E31oomNBRBVCzfypYEt5JV
 status: active
 merged_into: null
 display_name: 王嘉謀
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_ZaRHHq7w41zYSuz98o74nt
+        subject_person_id: p_E31oomNBRBVCzfypYEt5JV
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_J9N7hzaFrJkzxknueiQ82Y
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bBzgqTxy3CB-o1WmjeiOKO
+          claim_id: c_ZaRHHq7w41zYSuz98o74nt
+          source_id: s_U6drzBkRt9CU9vE5VConTZ
+          stance: supports
+          locator: 景泰五年進士登科錄:一卷，第三甲第二百零七名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_J9N7hzaFrJkzxknueiQ82Y
+        status: active
+        display_name: 王度
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_J9N7hzaFrJkzxknueiQ82Y | 王度 | accepted |
 
 ## 外部来源
 

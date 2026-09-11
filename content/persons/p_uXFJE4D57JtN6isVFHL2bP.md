@@ -4,7 +4,7 @@ id: p_uXFJE4D57JtN6isVFHL2bP
 status: active
 merged_into: null
 display_name: 王進
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -129,7 +129,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_gLiAliAo03o7iEisQxndfL
+        subject_person_id: p_uXFJE4D57JtN6isVFHL2bP
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_eAGC1A1rZJ87Cd7e93QJsU
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JIyXonxj3aDNecx9MXX71V
+          claim_id: c_gLiAliAo03o7iEisQxndfL
+          source_id: s_APRgwvUc96iFixGqw6nCNL
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Xianqing 123：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_APRgwvUc96iFixGqw6nCNL
+            source_type: api_record
+            title: 中国历代人物传记资料库：王大義（CBDB 147586）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=147586&o=json
+            external_identifier: CBDB:147586
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.740Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_eAGC1A1rZJ87Cd7e93QJsU
+        status: active
+        display_name: 王大義
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_eAGC1A1rZJ87Cd7e93QJsU | 王大義 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王大義（CBDB 147586）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=147586&o=json)
 - [中国历代人物传记资料库：王進（CBDB 139190）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=139190&o=json)

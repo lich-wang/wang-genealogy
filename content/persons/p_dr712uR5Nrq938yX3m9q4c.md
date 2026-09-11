@@ -4,7 +4,7 @@ id: p_dr712uR5Nrq938yX3m9q4c
 status: active
 merged_into: null
 display_name: 王承寵
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_9rkeJ0X4t4AUdTDUdCAd19
+        subject_person_id: p_dr712uR5Nrq938yX3m9q4c
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_uE9vhWkxQBJksgZpNxnTgv
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NbLl1HVnYczvAfe5BVjUmC
+          claim_id: c_9rkeJ0X4t4AUdTDUdCAd19
+          source_id: s_qHTHUFgGuKjHrEoSB3PrMQ
+          stance: supports
+          locator: "元和唯亭志: 二十卷，lgid=179031：子"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_uE9vhWkxQBJksgZpNxnTgv
+        status: active
+        display_name: 王康中
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_uE9vhWkxQBJksgZpNxnTgv | 王康中 | accepted |
 
 ## 外部来源
 

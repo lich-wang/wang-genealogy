@@ -4,7 +4,7 @@ id: p_ekQdUE4KoV1wLq7q5qqecF
 status: active
 merged_into: null
 display_name: 王復
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -167,6 +167,32 @@ relationships:
         status: active
         display_name: 王崧生
         merged_into_person_id: null
+    - claim:
+        id: c_sPw4Bpte2Su_ZNwpvaSqBh
+        subject_person_id: p_ekQdUE4KoV1wLq7q5qqecF
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Z5MBFmq7sBAvppnMomxKEi
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OHa-s2zH_GLGgWeV1HiDQ6
+          claim_id: c_sPw4Bpte2Su_ZNwpvaSqBh
+          source_id: s_Fu5GFLZoDxZtCf12B9s2aN
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13130：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Z5MBFmq7sBAvppnMomxKEi
+        status: active
+        display_name: 王梁生
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -193,6 +219,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_cnbYqduEX3SbiD5E1M5816 | 王崧生 | accepted |
+| children | p_Z5MBFmq7sBAvppnMomxKEi | 王梁生 | accepted |
 
 ## 外部来源
 

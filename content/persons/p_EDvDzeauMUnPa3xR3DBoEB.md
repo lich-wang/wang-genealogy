@@ -4,7 +4,7 @@ id: p_EDvDzeauMUnPa3xR3DBoEB
 status: active
 merged_into: null
 display_name: 王杲
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_gR_EAhUgZI5phaNY2u1aqZ
+        subject_person_id: p_EDvDzeauMUnPa3xR3DBoEB
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_HkNX6H623Y1z9EYnBdcJJC
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vKA8th7NDbV3xQLYN4o8zf
+          claim_id: c_gR_EAhUgZI5phaNY2u1aqZ
+          source_id: s_Vqqd3gFRffW4XQFAAzm79r
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第二甲第四十七名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_HkNX6H623Y1z9EYnBdcJJC
+        status: active
+        display_name: 王三錫
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_HkNX6H623Y1z9EYnBdcJJC | 王三錫 | accepted |
 
 ## 外部来源
 

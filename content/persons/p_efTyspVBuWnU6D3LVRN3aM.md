@@ -4,7 +4,7 @@ id: p_efTyspVBuWnU6D3LVRN3aM
 status: active
 merged_into: null
 display_name: 王憲
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_8ZXBaSGMnOCxHoEKA6r8Ui
+        subject_person_id: p_efTyspVBuWnU6D3LVRN3aM
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_sMjY6kwGmS2PR67RexN7yL
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WDRjo47WNp13sub5p-vX6K
+          claim_id: c_8ZXBaSGMnOCxHoEKA6r8Ui
+          source_id: s_k5uqKuA9pNZyhL66BDa72e
+          stance: supports
+          locator: 天順八年進士登科錄:一卷，第三甲第一百一十六名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_sMjY6kwGmS2PR67RexN7yL
+        status: active
+        display_name: 王崇之
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_sMjY6kwGmS2PR67RexN7yL | 王崇之 | accepted |
 
 ## 外部来源
 

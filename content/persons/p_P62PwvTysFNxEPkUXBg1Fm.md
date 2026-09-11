@@ -4,7 +4,7 @@ id: p_P62PwvTysFNxEPkUXBg1Fm
 status: active
 merged_into: null
 display_name: 王德新
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -115,6 +115,43 @@ relationships:
         status: active
         display_name: 王衡
         merged_into_person_id: null
+    - claim:
+        id: c_sRTH-3orK1zIPagGa-R_vw
+        subject_person_id: p_ecFrd5qerDXA9XmtuZkUzM
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_P62PwvTysFNxEPkUXBg1Fm
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xXQ8xX2yE1T-7wioCF2rFw
+          claim_id: c_sRTH-3orK1zIPagGa-R_vw
+          source_id: s_WxYJKMb12xXJ9o4cKteH53
+          stance: supports
+          locator: 萬曆八年進士登科錄:一卷，第二甲第六名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_WxYJKMb12xXJ9o4cKteH53
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宗舜（CBDB 218702）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=218702&o=json
+            external_identifier: CBDB:218702
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.269Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ecFrd5qerDXA9XmtuZkUzM
+        status: active
+        display_name: 王宗舜
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -135,8 +172,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_BmJiYvE4u2XkahiPTHU6KL | 王衡 | accepted |
+| ancestors | p_ecFrd5qerDXA9XmtuZkUzM | 王宗舜 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王德新（CBDB 126819）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126819&o=json)
 - [中国历代人物传记资料库：王衡（CBDB 218701）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=218701&o=json)
+- [中国历代人物传记资料库：王宗舜（CBDB 218702）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=218702&o=json)

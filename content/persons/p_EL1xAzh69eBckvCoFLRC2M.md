@@ -4,7 +4,7 @@ id: p_EL1xAzh69eBckvCoFLRC2M
 status: active
 merged_into: null
 display_name: 王紀
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_fAIMBC1grvzG0gatA6XXbn
+        subject_person_id: p_EL1xAzh69eBckvCoFLRC2M
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_V5Z6bC9P1YiqepVeP78NQA
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZRk4tkubFIvKPn23O0HmtZ
+          claim_id: c_fAIMBC1grvzG0gatA6XXbn
+          source_id: s_rthLjWyt6aPyKHFsejFoGT
+          stance: supports
+          locator: 嘉靖二十年進士登科錄:一卷，第三甲第一百零六名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_V5Z6bC9P1YiqepVeP78NQA
+        status: active
+        display_name: 王惟中
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_V5Z6bC9P1YiqepVeP78NQA | 王惟中 | accepted |
 
 ## 外部来源
 

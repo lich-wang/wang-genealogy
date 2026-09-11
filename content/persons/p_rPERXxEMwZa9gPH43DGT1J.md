@@ -4,7 +4,7 @@ id: p_rPERXxEMwZa9gPH43DGT1J
 status: active
 merged_into: null
 display_name: 王肅
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -142,7 +142,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_x0QT3Bj2IIQ8xN3ZC-xWi9
+        subject_person_id: p_eNfmXWwQAqx11jVRqVFu7o
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_rPERXxEMwZa9gPH43DGT1J
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2Gwb0R9bNH-U8D_Nt9bdxF
+          claim_id: c_x0QT3Bj2IIQ8xN3ZC-xWi9
+          source_id: s_J7ASRzcFbLcmHLjfSY2GFC
+          stance: supports
+          locator: 成化八年進士登科錄:一卷，第三甲第六十一名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_J7ASRzcFbLcmHLjfSY2GFC
+            source_type: api_record
+            title: 中国历代人物传记资料库：王中立（CBDB 246477）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=246477&o=json
+            external_identifier: CBDB:246477
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.086Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_eNfmXWwQAqx11jVRqVFu7o
+        status: active
+        display_name: 王中立
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_2xBigkvdUU97a4F86QBCjb | 王同德 | accepted |
+| ancestors | p_eNfmXWwQAqx11jVRqVFu7o | 王中立 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王肅（CBDB 199546）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=199546&o=json)
 - [中国历代人物传记资料库：王同德（CBDB 246479）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=246479&o=json)
+- [中国历代人物传记资料库：王中立（CBDB 246477）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=246477&o=json)

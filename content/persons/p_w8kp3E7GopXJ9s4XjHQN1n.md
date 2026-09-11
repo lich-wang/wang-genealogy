@@ -4,7 +4,7 @@ id: p_w8kp3E7GopXJ9s4XjHQN1n
 status: active
 merged_into: null
 display_name: 王哲
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -105,7 +105,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_RujeudHnCK0xqgSdn5U_O7
+        subject_person_id: p_EAsE9fwqa4L48kMqLQ6ANz
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_w8kp3E7GopXJ9s4XjHQN1n
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-8jpc9a-K69kXwnaqiLItB
+          claim_id: c_RujeudHnCK0xqgSdn5U_O7
+          source_id: s_ncRuJzQGUbpUsLwa718fgN
+          stance: supports
+          locator: 天順四年進士登科錄:一卷，第三甲第五十三名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ncRuJzQGUbpUsLwa718fgN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王克仁（CBDB 319529）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=319529&o=json
+            external_identifier: CBDB:319529
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.043Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_EAsE9fwqa4L48kMqLQ6ANz
+        status: active
+        display_name: 王克仁
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_EAsE9fwqa4L48kMqLQ6ANz | 王克仁 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王克仁（CBDB 319529）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=319529&o=json)
 - [中国历代人物传记资料库：王哲（CBDB 198811）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198811&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王用謨
 cbdb_id: 207571
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -171,7 +171,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_-EwUTu6jFHNFMZleWTg5VV
+        subject_person_id: p_e3xVMXrvD7f81LuaK78bKW
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_D7dK1u4GKLagJY81LcTNi5
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_U1S_b-B_bMOrlh2NQbmq_7
+          claim_id: c_-EwUTu6jFHNFMZleWTg5VV
+          source_id: s_brDB3HUKfuJfMmCz3kPVvw
+          stance: supports
+          locator: 萬曆二十年壬辰科進士歷履便覽:一卷，第三甲第一百七十八名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_brDB3HUKfuJfMmCz3kPVvw
+            source_type: api_record
+            title: 中国历代人物传记资料库：王舜弼（CBDB 232584）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=232584&o=json
+            external_identifier: CBDB:232584
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.692Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_e3xVMXrvD7f81LuaK78bKW
+        status: active
+        display_name: 王舜弼
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -193,8 +230,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_b6w6en5bMsXhtNVTcf96XT | 王九經 | accepted |
+| ancestors | p_e3xVMXrvD7f81LuaK78bKW | 王舜弼 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王九經（CBDB 232586）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=232586&o=json)
+- [中国历代人物传记资料库：王舜弼（CBDB 232584）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=232584&o=json)
 - [中国历代人物传记资料库：王用謨（CBDB 207571）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207571&o=json)

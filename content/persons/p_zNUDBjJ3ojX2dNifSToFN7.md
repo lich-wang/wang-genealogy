@@ -4,7 +4,7 @@ id: p_zNUDBjJ3ojX2dNifSToFN7
 status: active
 merged_into: null
 display_name: 王成
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_SR4znXUvSvcx9iLhZjXlL_
+        subject_person_id: p_zNUDBjJ3ojX2dNifSToFN7
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_E7LZ9JqaeFU8tKfb1vvmx1
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Bezg4y31MyzJCekia8Emj0
+          claim_id: c_SR4znXUvSvcx9iLhZjXlL_
+          source_id: s_TuCs12u1K8NYTgGHWZ2uhf
+          stance: supports
+          locator: 隆慶二年進士登科錄:一卷，第三甲第二百三十五名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_TuCs12u1K8NYTgGHWZ2uhf
+            source_type: api_record
+            title: 中国历代人物传记资料库：王大用（CBDB 205680）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205680&o=json
+            external_identifier: CBDB:205680
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.871Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_E7LZ9JqaeFU8tKfb1vvmx1
+        status: active
+        display_name: 王大用
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_E7LZ9JqaeFU8tKfb1vvmx1 | 王大用 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王成（CBDB 336875）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336875&o=json)
+- [中国历代人物传记资料库：王大用（CBDB 205680）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205680&o=json)

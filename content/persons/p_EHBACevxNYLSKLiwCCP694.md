@@ -4,7 +4,7 @@ id: p_EHBACevxNYLSKLiwCCP694
 status: active
 merged_into: null
 display_name: 王家瑞
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_CKCmZYzZCp0OgpP1UuB1Ax
+        subject_person_id: p_EHBACevxNYLSKLiwCCP694
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_oqnvJxsCG5azw65wAKYaKf
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__Z60DxvJ82rgMdzpEfpoZi
+          claim_id: c_CKCmZYzZCp0OgpP1UuB1Ax
+          source_id: s_qcFThbKZk3mwSobTDZyneg
+          stance: supports
+          locator: "(民國)黟縣四志: 十六卷卷首一卷卷末一卷，lgid=1167185：子"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_oqnvJxsCG5azw65wAKYaKf
+        status: active
+        display_name: 王士暄
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_oqnvJxsCG5azw65wAKYaKf | 王士暄 | accepted |
 
 ## 外部来源
 

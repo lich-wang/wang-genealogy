@@ -4,7 +4,7 @@ id: p_xG6Uatb4hvJpHFBwk8TY1u
 status: active
 merged_into: null
 display_name: 王祐
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_WIcnzjCt9FN4nHnkKiQihq
+        subject_person_id: p_Dufhb5NoCZnQdaJkaB21gq
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_xG6Uatb4hvJpHFBwk8TY1u
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zVxVShY8aAHUowvDP4Cw7l
+          claim_id: c_WIcnzjCt9FN4nHnkKiQihq
+          source_id: s_rnBUmXnkUN5eKJh6vXXPas
+          stance: supports
+          locator: 景泰二年進士登科錄:一卷，第二甲第四名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_rnBUmXnkUN5eKJh6vXXPas
+            source_type: api_record
+            title: 中国历代人物传记资料库：王璘（CBDB 248853）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=248853&o=json
+            external_identifier: CBDB:248853
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.164Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Dufhb5NoCZnQdaJkaB21gq
+        status: active
+        display_name: 王璘
+        merged_into_person_id: null
   children:
     - claim:
         id: c_Lb9Aw9CzMd6BDTtJB39n8U
@@ -200,11 +237,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Dufhb5NoCZnQdaJkaB21gq | 王璘 | accepted |
 | children | p_3BqLdv5ornEQLqdPoknpXE | 王屏 | accepted |
 | ancestors | p_cCQdbNu8vKtiv9UU7u2aGs | 王彥暉 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王璘（CBDB 248853）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=248853&o=json)
 - [中国历代人物传记资料库：王屏（CBDB 199995）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=199995&o=json)
 - [中国历代人物传记资料库：王彥暉（CBDB 248742）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=248742&o=json)
 - [中国历代人物传记资料库：王祐（CBDB 198138）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198138&o=json)

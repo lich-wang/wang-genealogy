@@ -4,7 +4,7 @@ id: p_e9Epe4CDBkbdaTY8PT9SQQ
 status: active
 merged_into: null
 display_name: 王瑞鳳
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -101,7 +101,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_3JJio9A8t1i9sansP8Jxf4
+        subject_person_id: p_e9Epe4CDBkbdaTY8PT9SQQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_iiHqihdrVd8svFNtcnuyKG
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rMnEeKiwZrr_8js-4CX4QK
+          claim_id: c_3JJio9A8t1i9sansP8Jxf4
+          source_id: s_9NFAJbeZbSPi8ss1Sprzt2
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13147：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_iiHqihdrVd8svFNtcnuyKG
+        status: active
+        display_name: 王者香
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,6 +152,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_iiHqihdrVd8svFNtcnuyKG | 王者香 | accepted |
 
 ## 外部来源
 

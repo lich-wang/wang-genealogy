@@ -4,7 +4,7 @@ id: p_DYLT56WnxF8ucjBEfxKt7G
 status: active
 merged_into: null
 display_name: 王和
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,8 +128,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_T0B4l_pD03RmTNbvzA9K4q
+        subject_person_id: p_yKiEYZhExh7QE7KLEomey3
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_DYLT56WnxF8ucjBEfxKt7G
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SudUC1vqCXjeYYHXOjNgR9
+          claim_id: c_T0B4l_pD03RmTNbvzA9K4q
+          source_id: s_TrbZ1QLxmczCSANfHPm41D
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Qianfeng 40：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_yKiEYZhExh7QE7KLEomey3
+        status: active
+        display_name: 王護
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_yWGvO99YqO_A0PXdD4JKJ0
+        subject_person_id: p_DYLT56WnxF8ucjBEfxKt7G
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_33cmq4u7DNW9QidGhiaNeK
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MNtu8lMFEkaNCwa6gPT8Ol
+          claim_id: c_yWGvO99YqO_A0PXdD4JKJ0
+          source_id: s_TrbZ1QLxmczCSANfHPm41D
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Qianfeng 40：嗣子(作為繼承人的兒子)
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_33cmq4u7DNW9QidGhiaNeK
+        status: active
+        display_name: 王慈質
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +207,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_yKiEYZhExh7QE7KLEomey3 | 王護 | accepted |
+| children | p_33cmq4u7DNW9QidGhiaNeK | 王慈質 | accepted |
 
 ## 外部来源
 

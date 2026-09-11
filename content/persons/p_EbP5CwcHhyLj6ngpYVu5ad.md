@@ -4,7 +4,7 @@ id: p_EbP5CwcHhyLj6ngpYVu5ad
 status: active
 merged_into: null
 display_name: 王齊
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,59 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_YLYS-EoCqJyXoIoEToIIyQ
+        subject_person_id: p_EbP5CwcHhyLj6ngpYVu5ad
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_mmwATqRLjoRdB6PX8Fk2Af
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FZ2PX5Z0ruib9vKmkJYsw3
+          claim_id: c_YLYS-EoCqJyXoIoEToIIyQ
+          source_id: s_6ipmewd8kLs5VFrEaZ9E21
+          stance: supports
+          locator: 寶祐登科錄：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_mmwATqRLjoRdB6PX8Fk2Af
+        status: active
+        display_name: 王夢高
+        merged_into_person_id: null
+    - claim:
+        id: c_aA6CSpJ_alqqSOazCAxCU4
+        subject_person_id: p_EbP5CwcHhyLj6ngpYVu5ad
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_6yQuV8W1juBXMRuevQX1tR
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_U9HwE7NPE8bDPpbeX_Rg_w
+          claim_id: c_aA6CSpJ_alqqSOazCAxCU4
+          source_id: s_6ipmewd8kLs5VFrEaZ9E21
+          stance: supports
+          locator: 寶祐登科錄：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_6yQuV8W1juBXMRuevQX1tR
+        status: active
+        display_name: 王良翁
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_mmwATqRLjoRdB6PX8Fk2Af | 王夢高 | accepted |
+| descendants | p_6yQuV8W1juBXMRuevQX1tR | 王良翁 | accepted |
 
 ## 外部来源
 

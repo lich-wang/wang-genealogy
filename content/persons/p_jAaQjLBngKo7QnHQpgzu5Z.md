@@ -4,7 +4,7 @@ id: p_jAaQjLBngKo7QnHQpgzu5Z
 status: active
 merged_into: null
 display_name: 王燦
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_miT_GoNxLE-EUC6AMbr6NS
+        subject_person_id: p_e7M2JfSWhybNrgAnjziyG7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_jAaQjLBngKo7QnHQpgzu5Z
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_UF9Nw3h71hlXAPc5j8CcIR
+          claim_id: c_miT_GoNxLE-EUC6AMbr6NS
+          source_id: s_6ANYHJAEsStyoizT1q6U65
+          stance: supports
+          locator: 紹興府志:八十卷，Igid=316291：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_6ANYHJAEsStyoizT1q6U65
+            source_type: api_record
+            title: 中国历代人物传记资料库：王業法（CBDB 556671）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=556671&o=json
+            external_identifier: CBDB:556671
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.528Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_e7M2JfSWhybNrgAnjziyG7
+        status: active
+        display_name: 王業法
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_e7M2JfSWhybNrgAnjziyG7 | 王業法 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王燦（CBDB 555299）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=555299&o=json)
+- [中国历代人物传记资料库：王業法（CBDB 556671）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=556671&o=json)

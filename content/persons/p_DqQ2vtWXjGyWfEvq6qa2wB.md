@@ -4,7 +4,7 @@ id: p_DqQ2vtWXjGyWfEvq6qa2wB
 status: active
 merged_into: null
 display_name: 王詔
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_qhjhzUjm_CulphOEQuzWvy
+        subject_person_id: p_DqQ2vtWXjGyWfEvq6qa2wB
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_iRFm6e1TaQGqodt29a3YWr
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BeuSyT-LE5mOgbFXOxaVE6
+          claim_id: c_qhjhzUjm_CulphOEQuzWvy
+          source_id: s_6U6GF9yBuKbJ1xDhguwF91
+          stance: supports
+          locator: 萬曆二十年壬辰科進士歷履便覽:一卷，第三甲第八十名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_iRFm6e1TaQGqodt29a3YWr
+        status: active
+        display_name: 王廷錫
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_iRFm6e1TaQGqodt29a3YWr | 王廷錫 | accepted |
 
 ## 外部来源
 

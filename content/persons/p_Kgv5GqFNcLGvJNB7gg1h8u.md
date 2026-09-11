@@ -4,7 +4,7 @@ id: p_Kgv5GqFNcLGvJNB7gg1h8u
 status: active
 merged_into: null
 display_name: 王道焜
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_TEDIPdl1jfdNR1cX_U3iJt
+        subject_person_id: p_DXMshDM7UaUaaoZZtStjDV
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Kgv5GqFNcLGvJNB7gg1h8u
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pKLYCtZbabCVGm3UQaOw_Q
+          claim_id: c_TEDIPdl1jfdNR1cX_U3iJt
+          source_id: s_TxAhCuY7jNr8xvUsKW7LhY
+          stance: supports
+          locator: 錢塘縣志，lgid=219720：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_TxAhCuY7jNr8xvUsKW7LhY
+            source_type: api_record
+            title: 中国历代人物传记资料库：王國柱（CBDB 691010）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=691010&o=json
+            external_identifier: CBDB:691010
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:27.596Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_DXMshDM7UaUaaoZZtStjDV
+        status: active
+        display_name: 王國柱
+        merged_into_person_id: null
   children:
     - claim:
         id: c_QC1EqEEm7DJKgIIVGRW5MT
@@ -163,9 +200,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_DXMshDM7UaUaaoZZtStjDV | 王國柱 | accepted |
 | children | p_1xofn6UHzGPoqgEhFfUDGW | 王均 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王道焜（CBDB 124346）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=124346&o=json)
+- [中国历代人物传记资料库：王國柱（CBDB 691010）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=691010&o=json)
 - [中国历代人物传记资料库：王均（CBDB 700303）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=700303&o=json)
