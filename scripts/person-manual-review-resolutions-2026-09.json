@@ -39,5 +39,11 @@
     { "kind": "ambiguous_parent", "note": "王煇之父王知未唯一定位仓库端点。" },
     { "kind": "duplicate_person", "note": "王耆之 p_B1Pwn6…(Q22814794) 与 p_xgQoPQ…(Q45408771) 父同王廙、子各为一条同名王随之，须先合并重复的王随之及其子系。" },
     { "kind": "duplicate_person", "note": "全库扫描发现迁移前遗留的同名同父重复：王承(王暕子)、王丹(王立子)、王谭(王訢子)、王恕(王承裕父)、王炎午(王留孙父)，建议另立清理批次。" }
-  ]
+  ],
+  "bulk_resolution_2026-09-11": {
+    "unsourced": { "total": 1678, "accepted_by_reciprocal": 642, "already_present": 611, "no_reciprocal": 411, "misc": 14 },
+    "spouse_endpoints": { "total": 946, "created": 940, "edges_added": 6 },
+    "duplicate_flags": { "total": 2310, "false_positives_already_linked": 2299, "genuine_merged": 11 },
+    "no_cbdb_identity": { "total": 1223, "actionable": 0, "note": "无 CBDB 权威号；Wikidata 亲属 QID 多不在库，无法建边。" }
+  }
 }
