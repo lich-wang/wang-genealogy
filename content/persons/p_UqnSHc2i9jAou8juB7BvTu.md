@@ -4,7 +4,7 @@ id: p_UqnSHc2i9jAou8juB7BvTu
 status: active
 merged_into: null
 display_name: 王守誠
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -114,7 +114,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_GCL4shpOb2syeGsN1r2pHj
+        subject_person_id: p_UhuFten7ezvCR724Avu4bd
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_UqnSHc2i9jAou8juB7BvTu
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QM_wblz2hl32JH-sKOSxEu
+          claim_id: c_GCL4shpOb2syeGsN1r2pHj
+          source_id: s_nvMaKfo93axqowLpsJmiQV
+          stance: supports
+          locator: 隆慶五年進士登科錄:一卷，第二甲第六十六名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_nvMaKfo93axqowLpsJmiQV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王振（CBDB 208678）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=208678&o=json
+            external_identifier: CBDB:208678
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.953Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_UhuFten7ezvCR724Avu4bd
+        status: active
+        display_name: 王振
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -135,8 +172,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_raxD6LxzWqCCT2c1xHSNBU | 王京 | accepted |
+| ancestors | p_UhuFten7ezvCR724Avu4bd | 王振 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王京（CBDB 208679）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=208679&o=json)
 - [中国历代人物传记资料库：王守誠（CBDB 126508）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126508&o=json)
+- [中国历代人物传记资料库：王振（CBDB 208678）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=208678&o=json)

@@ -4,7 +4,7 @@ id: p_6r5VwfkrP2qbqzP6hHoNQi
 status: active
 merged_into: null
 display_name: 王弁
-revision: 5
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -465,6 +465,43 @@ relationships:
         status: active
         display_name: 王慶喜
         merged_into_person_id: null
+    - claim:
+        id: c_zKh3eQNCHkfmChgtlPq9sA
+        subject_person_id: p_6r5VwfkrP2qbqzP6hHoNQi
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Ug8tVLHjYBKyJHh1LR369W
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gRsFuNDkAGwVTrqjvz7JOn
+          claim_id: c_zKh3eQNCHkfmChgtlPq9sA
+          source_id: s_JSig7bP4LUEWwqbH6VExwt
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，80：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_JSig7bP4LUEWwqbH6VExwt
+            source_type: api_record
+            title: 中国历代人物传记资料库：王敬息（CBDB 699429）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699429&o=json
+            external_identifier: CBDB:699429
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:06.583Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Ug8tVLHjYBKyJHh1LR369W
+        status: active
+        display_name: 王敬息
+        merged_into_person_id: null
   other: []
 ---
 
@@ -496,10 +533,12 @@ relationships:
 | descendants | p_vd8kpM5xBWhGP9F2B4Ngun | 王楊姐 | accepted |
 | descendants | p_BX84MnygPGnzNAEC8vVqh2 | 王忝喜 | accepted |
 | descendants | p_v4cVQTy66xpHpnivKPuhYH | 王慶喜 | accepted |
+| descendants | p_Ug8tVLHjYBKyJHh1LR369W | 王敬息 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王弁（CBDB 699373）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699373&o=json)
+- [中国历代人物传记资料库：王敬息（CBDB 699429）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699429&o=json)
 - [中国历代人物传记资料库：王恕（CBDB 699404）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699404&o=json)
 - [中国历代人物传记资料库：王嵩（CBDB 699412）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699412&o=json)
 - [中国历代人物传记资料库：王息哥（CBDB 699422）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699422&o=json)

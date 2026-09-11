@@ -4,7 +4,7 @@ id: p_vJEZ9Szh9s5FpFkeZXoWPH
 status: active
 merged_into: null
 display_name: 王維綱
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -114,7 +114,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_yJ-wquMRdljRS3HqHsaB4g
+        subject_person_id: p_UnMgCiAN82PWUFatFPfQM1
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_vJEZ9Szh9s5FpFkeZXoWPH
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QKoSIf_Kb2igkys3mjvFfU
+          claim_id: c_yJ-wquMRdljRS3HqHsaB4g
+          source_id: s_DZAmuJs7qzwPkeyC2QmE72
+          stance: supports
+          locator: "海鹽縣志: 二十二卷(光緒)，lgid=294040：孫"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_DZAmuJs7qzwPkeyC2QmE72
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鶴齡（CBDB 694315）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=694315&o=json
+            external_identifier: CBDB:694315
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:27.671Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_UnMgCiAN82PWUFatFPfQM1
+        status: active
+        display_name: 王鶴齡
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -135,8 +172,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_SzZzqtcWVHRpdQpET7gHaa | 王會 | accepted |
+| ancestors | p_UnMgCiAN82PWUFatFPfQM1 | 王鶴齡 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王鶴齡（CBDB 694315）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=694315&o=json)
 - [中国历代人物传记资料库：王會（CBDB 694314）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=694314&o=json)
 - [中国历代人物传记资料库：王維綱（CBDB 694313）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=694313&o=json)

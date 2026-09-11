@@ -4,7 +4,7 @@ id: p_JEUpyam7C1Pm8JC9r4xGZ3
 status: active
 merged_into: null
 display_name: 王舉
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c__HKktwuJu5SqDtwQKuGtlB
+        subject_person_id: p_uBzLRGUwS4yvUJPvtC7Mfv
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_JEUpyam7C1Pm8JC9r4xGZ3
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_y4EYz1BdKWBtX5RAohdwg2
+          claim_id: c__HKktwuJu5SqDtwQKuGtlB
+          source_id: s_KMw9QPDX84rB4MUKxnL14K
+          stance: supports
+          locator: 成化十一年進士登科錄:一卷，第三甲第九十四名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_KMw9QPDX84rB4MUKxnL14K
+            source_type: api_record
+            title: 中国历代人物传记资料库：王傑（CBDB 249596）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=249596&o=json
+            external_identifier: CBDB:249596
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.182Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_uBzLRGUwS4yvUJPvtC7Mfv
+        status: active
+        display_name: 王傑
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -163,9 +200,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_uBzLRGUwS4yvUJPvtC7Mfv | 王傑 | accepted |
 | ancestors | p_hMqJFCXEHXDTPbh4yzS2wD | 王志剛 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王傑（CBDB 249596）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=249596&o=json)
 - [中国历代人物传记资料库：王舉（CBDB 199783）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=199783&o=json)
 - [中国历代人物传记资料库：王志剛（CBDB 249595）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=249595&o=json)

@@ -4,7 +4,7 @@ id: p_UogPVB2nhkpP38jnhpw9oR
 status: active
 merged_into: null
 display_name: 王和
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_M7Wf2Cc2r4hnGQuKLvCewR
+        subject_person_id: p_UogPVB2nhkpP38jnhpw9oR
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_LrwY5tXkYCUNXA8ZrdXwSb
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7JU5OvN4-trW7j-3TfcCx7
+          claim_id: c_M7Wf2Cc2r4hnGQuKLvCewR
+          source_id: s_3oZMV4SBRC34N3izp7CkEZ
+          stance: supports
+          locator: 嘉靖十四年進士登科錄:一卷，第三甲第一百零三名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_LrwY5tXkYCUNXA8ZrdXwSb
+        status: active
+        display_name: 王維楨
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_LrwY5tXkYCUNXA8ZrdXwSb | 王維楨 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_qLd4Pf4cDMmmQ6kBWSiJ8T
 status: active
 merged_into: null
 display_name: 王壽
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -138,7 +138,44 @@ relationships:
         status: active
         display_name: 王俊
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_jjllQqXVm7nxyyqjNKnYMd
+        subject_person_id: p_qLd4Pf4cDMmmQ6kBWSiJ8T
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_U84FBZ7gdYAb1BPBWe3Ukm
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Yonf-9MoYqzx3Q8Oq7daka
+          claim_id: c_jjllQqXVm7nxyyqjNKnYMd
+          source_id: s_gCqPfS7xLAogpBsQFYxi5k
+          stance: supports
+          locator: (道光)徽州府志:十六卷卷首一卷，lgid=1160764：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_gCqPfS7xLAogpBsQFYxi5k
+            source_type: api_record
+            title: 中国历代人物传记资料库：王廷蘭（CBDB 572480）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=572480&o=json
+            external_identifier: CBDB:572480
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:25.888Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_U84FBZ7gdYAb1BPBWe3Ukm
+        status: active
+        display_name: 王廷蘭
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -201,6 +238,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_8ncCPBjMxsJMBARy66EQjw | 王俊 | accepted |
+| children | p_U84FBZ7gdYAb1BPBWe3Ukm | 王廷蘭 | accepted |
 | ancestors | p_nXk2hY7EmJcMfmCBa8SJtx | 王思義 | accepted |
 
 ## 外部来源
@@ -208,3 +246,4 @@ relationships:
 - [中国历代人物传记资料库：王俊（CBDB 267650）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=267650&o=json)
 - [中国历代人物传记资料库：王壽（CBDB 201134）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201134&o=json)
 - [中国历代人物传记资料库：王思義（CBDB 267648）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=267648&o=json)
+- [中国历代人物传记资料库：王廷蘭（CBDB 572480）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=572480&o=json)

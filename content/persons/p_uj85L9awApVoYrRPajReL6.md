@@ -4,7 +4,7 @@ id: p_uj85L9awApVoYrRPajReL6
 status: active
 merged_into: null
 display_name: 王安道
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -116,6 +116,32 @@ relationships:
         status: active
         display_name: 王應鳳
         merged_into_person_id: null
+    - claim:
+        id: c_FojAqngVwHp07_2tCaSTNL
+        subject_person_id: p_uj85L9awApVoYrRPajReL6
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_UKZ9JENMUQXopMywb8jsK4
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_u8cZmWVtHeRkjaPfbuxPU9
+          claim_id: c_FojAqngVwHp07_2tCaSTNL
+          source_id: s_A33HFE2WqEdA9EPgjLpQjh
+          stance: supports
+          locator: 寶祐登科錄：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_UKZ9JENMUQXopMywb8jsK4
+        status: active
+        display_name: 王撝
+        merged_into_person_id: null
   other: []
 ---
 
@@ -135,6 +161,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | descendants | p_dLxnrx2EJoX5qeZ6Qa78ZU | 王應鳳 | accepted |
+| descendants | p_UKZ9JENMUQXopMywb8jsK4 | 王撝 | accepted |
 
 ## 外部来源
 

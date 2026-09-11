@@ -4,7 +4,7 @@ id: p_UigxC39qu348GRPzwB2VV6
 status: active
 merged_into: null
 display_name: 王理
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,12 +72,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_uz8_RIU-zWviff7nQMIRCf
+        subject_person_id: p_nZvn7tH7hwLzHZ4aSkjukU
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_UigxC39qu348GRPzwB2VV6
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NESmuYePDZ-MeudOh5OwBV
+          claim_id: c_uz8_RIU-zWviff7nQMIRCf
+          source_id: s_ePBk9yjtryp6Aok3sJ2P9k
+          stance: supports
+          locator: 正统七年進士登科錄:一卷，第三甲第二十九名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_nZvn7tH7hwLzHZ4aSkjukU
+        status: active
+        display_name: 王充榮
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_oLD9wyCqlHsRc8OTHodYJ8
+        subject_person_id: p_kAqmJC9XxgqbW9D1EEHmok
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_UigxC39qu348GRPzwB2VV6
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Iw_exa0lga-Zc6H-v0JkjK
+          claim_id: c_oLD9wyCqlHsRc8OTHodYJ8
+          source_id: s_ePBk9yjtryp6Aok3sJ2P9k
+          stance: supports
+          locator: 正统七年進士登科錄:一卷，第三甲第二十九名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_kAqmJC9XxgqbW9D1EEHmok
+        status: active
+        display_name: 王文江
+        merged_into_person_id: null
+    - claim:
+        id: c_y4iLQTrXMubKAe4QboGi-Z
+        subject_person_id: p_mk3dTkzG94aLkYaNf5KJ63
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_UigxC39qu348GRPzwB2VV6
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7S7RO7Z3UI_ez6LjwQpV1F
+          claim_id: c_y4iLQTrXMubKAe4QboGi-Z
+          source_id: s_ePBk9yjtryp6Aok3sJ2P9k
+          stance: supports
+          locator: 正统七年進士登科錄:一卷，第三甲第二十九名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_mk3dTkzG94aLkYaNf5KJ63
+        status: active
+        display_name: 王希善
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +175,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_nZvn7tH7hwLzHZ4aSkjukU | 王充榮 | accepted |
+| ancestors | p_kAqmJC9XxgqbW9D1EEHmok | 王文江 | accepted |
+| ancestors | p_mk3dTkzG94aLkYaNf5KJ63 | 王希善 | accepted |
 
 ## 外部来源
 

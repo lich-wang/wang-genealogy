@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王嗣美
 cbdb_id: 206544
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -209,6 +209,43 @@ relationships:
         status: active
         display_name: 王朝雍
         merged_into_person_id: null
+    - claim:
+        id: c_O1dAhl7ixSr-1vXJiBibVk
+        subject_person_id: p_u9RtCfw8ECtD1jhMsF6wk6
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_tEHS6YSuyxSKL9JTr26FoR
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XsI5jivkbi6b4vYs5AaSEM
+          claim_id: c_O1dAhl7ixSr-1vXJiBibVk
+          source_id: s_9tVeWMS5ajxWVmyGAjKzRy
+          stance: supports
+          locator: 萬曆八年進士登科錄:一卷，第三甲第二十三名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_9tVeWMS5ajxWVmyGAjKzRy
+            source_type: api_record
+            title: 中国历代人物传记资料库：王三省（CBDB 219539）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219539&o=json
+            external_identifier: CBDB:219539
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.283Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_u9RtCfw8ECtD1jhMsF6wk6
+        status: active
+        display_name: 王三省
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -231,9 +268,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_NF9HbHTtZ8ow78qFYfTJ3z | 王傳 | accepted |
 | ancestors | p_9WpcStsZRmHLcorTLRGwCH | 王朝雍 | accepted |
+| ancestors | p_u9RtCfw8ECtD1jhMsF6wk6 | 王三省 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王朝雍（CBDB 219537）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219537&o=json)
 - [中国历代人物传记资料库：王傳（CBDB 219540）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219540&o=json)
+- [中国历代人物传记资料库：王三省（CBDB 219539）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219539&o=json)
 - [中国历代人物传记资料库：王嗣美（CBDB 206544）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206544&o=json)

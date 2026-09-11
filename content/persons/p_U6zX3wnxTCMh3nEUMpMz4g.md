@@ -4,7 +4,7 @@ id: p_U6zX3wnxTCMh3nEUMpMz4g
 status: active
 merged_into: null
 display_name: 王一貫
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_7PvY0msdix01v06pxb2oxd
+        subject_person_id: p_U6zX3wnxTCMh3nEUMpMz4g
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_McURSghs63gxnc5WxHG3bH
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_b3YnqCeGQADyKZFNL-gXPR
+          claim_id: c_7PvY0msdix01v06pxb2oxd
+          source_id: s_hJqj7Z5xZmWaxak2Py5xRH
+          stance: supports
+          locator: 隆慶二年進士登科錄:一卷，第二甲第五名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_McURSghs63gxnc5WxHG3bH
+        status: active
+        display_name: 王周紹
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_McURSghs63gxnc5WxHG3bH | 王周紹 | accepted |
 
 ## 外部来源
 

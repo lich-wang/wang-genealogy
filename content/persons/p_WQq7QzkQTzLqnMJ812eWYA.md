@@ -4,7 +4,7 @@ id: p_WQq7QzkQTzLqnMJ812eWYA
 status: active
 merged_into: null
 display_name: 王之誥
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -189,6 +189,43 @@ relationships:
         status: active
         display_name: 王俸
         merged_into_person_id: null
+    - claim:
+        id: c_R1zNe7YvZifHIpLsYBF33d
+        subject_person_id: p_TqbdmyxqR2Ucz5qM82wt26
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_WQq7QzkQTzLqnMJ812eWYA
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_I3AoGPVCUSO85_2DGWq4zu
+          claim_id: c_R1zNe7YvZifHIpLsYBF33d
+          source_id: s_G2oEBAvKvvVxWb8a4y2nhC
+          stance: supports
+          locator: 嘉靖二十三年登科錄:一卷，第三甲第一百四十三名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_G2oEBAvKvvVxWb8a4y2nhC
+            source_type: api_record
+            title: 中国历代人物传记资料库：王伯載（CBDB 307681）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=307681&o=json
+            external_identifier: CBDB:307681
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.793Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_TqbdmyxqR2Ucz5qM82wt26
+        status: active
+        display_name: 王伯載
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -211,9 +248,11 @@ relationships:
 | parents | p_HxEM6RL9fRNSLHFJ3ioZEE | 王芳 | accepted |
 | children | p_AmqhuDVmsQBqJU7SL3xZMz | 王夢麟 | accepted |
 | ancestors | p_JQ2MtbSvxnZ2BtVWDiPUDG | 王俸 | accepted |
+| ancestors | p_TqbdmyxqR2Ucz5qM82wt26 | 王伯載 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王伯載（CBDB 307681）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=307681&o=json)
 - [中国历代人物传记资料库：王芳（CBDB 307682）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=307682&o=json)
 - [中国历代人物传记资料库：王俸（CBDB 307680）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=307680&o=json)
 - [中国历代人物传记资料库：王夢麟（CBDB 528036）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=528036&o=json)

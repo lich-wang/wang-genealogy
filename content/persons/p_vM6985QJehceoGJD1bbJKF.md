@@ -4,7 +4,7 @@ id: p_vM6985QJehceoGJD1bbJKF
 status: active
 merged_into: null
 display_name: 王澄
-revision: 13
+revision: 14
 properties:
   - predicate: name.primary
     recommended:
@@ -129,7 +129,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_PBQ6Z6ofsh1iPpY8Gy_nM5
+        subject_person_id: p_vM6985QJehceoGJD1bbJKF
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_tSpXqwBE33pVWfFPYz5gPg
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1T1lW6tgr92n7HZCS5Cvae
+          claim_id: c_PBQ6Z6ofsh1iPpY8Gy_nM5
+          source_id: s_y7FNEsGonfjXi7PPEnWuXe
+          stance: supports
+          locator: 元人傳記資料索引，870：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_y7FNEsGonfjXi7PPEnWuXe
+            source_type: api_record
+            title: 中国历代人物传记资料库：王士麟（CBDB 101037）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=101037&o=json
+            external_identifier: CBDB:101037
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:14.658Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_tSpXqwBE33pVWfFPYz5gPg
+        status: active
+        display_name: 王士麟
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -747,6 +784,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_tSpXqwBE33pVWfFPYz5gPg | 王士麟 | accepted |
 | descendants | p_2b14Pj9cMfbGVVm23QMpPW | 王應 | accepted |
 | descendants | p_2M3Bp18QYjru654oK8qp9J | 王瀹 | accepted |
 | descendants | p_A41SYFNqMRpiFQWr968GE9 | 王淇 | accepted |
@@ -777,6 +815,7 @@ relationships:
 - [中国历代人物传记资料库：王淇（CBDB 134181）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134181&o=json)
 - [中国历代人物传记资料库：王潛（CBDB 134186）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134186&o=json)
 - [中国历代人物传记资料库：王慶（CBDB 134171）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134171&o=json)
+- [中国历代人物传记资料库：王士麟（CBDB 101037）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=101037&o=json)
 - [中国历代人物传记资料库：王溫（CBDB 134180）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134180&o=json)
 - [中国历代人物传记资料库：王涯（CBDB 134192）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134192&o=json)
 - [中国历代人物传记资料库：王沇（CBDB 134190）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134190&o=json)

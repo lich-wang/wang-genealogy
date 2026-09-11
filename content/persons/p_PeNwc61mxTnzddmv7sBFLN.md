@@ -4,7 +4,7 @@ id: p_PeNwc61mxTnzddmv7sBFLN
 status: active
 merged_into: null
 display_name: 王延
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,43 @@ relationships:
         status: active
         display_name: 王昺
         merged_into_person_id: null
+    - claim:
+        id: c_DVh8e755yIShypPFZIKQ3B
+        subject_person_id: p_tqtMHz3Bi98PexrAqccU5a
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_PeNwc61mxTnzddmv7sBFLN
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Yutf70ClmrPXdL-JSrcDG5
+          claim_id: c_DVh8e755yIShypPFZIKQ3B
+          source_id: s_TRrWG2yR1ucUC1wGBA4Qit
+          stance: supports
+          locator: 隆慶五年進士登科錄:一卷，第三甲第九十四名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_TRrWG2yR1ucUC1wGBA4Qit
+            source_type: api_record
+            title: 中国历代人物传记资料库：王銳（CBDB 209883）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=209883&o=json
+            external_identifier: CBDB:209883
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.986Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_tqtMHz3Bi98PexrAqccU5a
+        status: active
+        display_name: 王銳
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_N7qE8Uar4CzK9TTK6UVM28 | 王希文 | accepted |
 | ancestors | p_6AWFkDwvMEx3gmWMnZMPwe | 王昺 | accepted |
+| ancestors | p_tqtMHz3Bi98PexrAqccU5a | 王銳 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王昺（CBDB 209880）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=209880&o=json)
+- [中国历代人物传记资料库：王銳（CBDB 209883）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=209883&o=json)
 - [中国历代人物传记资料库：王希文（CBDB 209884）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=209884&o=json)
 - [中国历代人物传记资料库：王延（CBDB 205861）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205861&o=json)

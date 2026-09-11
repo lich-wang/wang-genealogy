@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王雲鷺
 cbdb_id: 205920
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -134,7 +134,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_XpQxw3zqqO4cW3vGeuz9PJ
+        subject_person_id: p_tSboei7PeevkFbNm86EkDE
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_JTc1E7LgQAh6Uz9airZSVG
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_l08uS7oxul1LFZzXigmXLO
+          claim_id: c_XpQxw3zqqO4cW3vGeuz9PJ
+          source_id: s_Hb5mu4upFxdvgLSWq1eni7
+          stance: supports
+          locator: 隆慶五年進士登科錄:一卷，第三甲第一百六十八名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Hb5mu4upFxdvgLSWq1eni7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王文（CBDB 210674）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210674&o=json
+            external_identifier: CBDB:210674
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.016Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_tSboei7PeevkFbNm86EkDE
+        status: active
+        display_name: 王文
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_tSboei7PeevkFbNm86EkDE | 王文 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王文（CBDB 210674）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210674&o=json)
 - [中国历代人物传记资料库：王雲鷺（CBDB 205920）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205920&o=json)

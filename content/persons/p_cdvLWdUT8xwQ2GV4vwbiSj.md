@@ -4,7 +4,7 @@ id: p_cdvLWdUT8xwQ2GV4vwbiSj
 status: active
 merged_into: null
 display_name: 王明
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -115,6 +115,43 @@ relationships:
         status: active
         display_name: 王欽
         merged_into_person_id: null
+    - claim:
+        id: c_noFp2Wu2x0oSM4TkEWUKpU
+        subject_person_id: p_UcLAoUsQRg5X99v3V1g2V3
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_cdvLWdUT8xwQ2GV4vwbiSj
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_b0pHWgnhzNtTXdlAAhfWBa
+          claim_id: c_noFp2Wu2x0oSM4TkEWUKpU
+          source_id: s_6zk7K7BDHaiyRFzuzbu6kq
+          stance: supports
+          locator: 萬曆八年進士登科錄:一卷，第三甲第一百九十名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_6zk7K7BDHaiyRFzuzbu6kq
+            source_type: api_record
+            title: 中国历代人物传记资料库：王和（CBDB 221457）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221457&o=json
+            external_identifier: CBDB:221457
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.312Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_UcLAoUsQRg5X99v3V1g2V3
+        status: active
+        display_name: 王和
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -135,8 +172,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_8YJr5iN4qPp3nLCKpSvh1Z | 王欽 | accepted |
+| ancestors | p_UcLAoUsQRg5X99v3V1g2V3 | 王和 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王和（CBDB 221457）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221457&o=json)
 - [中国历代人物传记资料库：王明（CBDB 126580）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126580&o=json)
 - [中国历代人物传记资料库：王欽（CBDB 221456）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221456&o=json)

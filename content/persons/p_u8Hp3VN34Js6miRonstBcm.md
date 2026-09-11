@@ -4,7 +4,7 @@ id: p_u8Hp3VN34Js6miRonstBcm
 status: active
 merged_into: null
 display_name: 王璇
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_kj-uttt59obTM4vb0Mdieb
+        subject_person_id: p_u8Hp3VN34Js6miRonstBcm
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_3hY5he8M9mkvGyZik66bM3
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_aacWHQhDDqqVlUh9tudQHy
+          claim_id: c_kj-uttt59obTM4vb0Mdieb
+          source_id: s_EkX2aC5RxaEMZbBXFZpK3k
+          stance: supports
+          locator: 萬曆十一年進士登科錄:一卷，第三甲第六十九名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_3hY5he8M9mkvGyZik66bM3
+        status: active
+        display_name: 王室垣
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_3hY5he8M9mkvGyZik66bM3 | 王室垣 | accepted |
 
 ## 外部来源
 

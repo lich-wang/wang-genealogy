@@ -4,7 +4,7 @@ id: p_U9b6v9c6R1jEbuddukv4n9
 status: active
 merged_into: null
 display_name: 王立德
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_wW9r1Gdw4tmbH2YLcY7QNY
+        subject_person_id: p_4A86HEw8MTfsRuaTJeDAXg
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_U9b6v9c6R1jEbuddukv4n9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HkrkTxkcTFwI4rQIHO_Y7X
+          claim_id: c_wW9r1Gdw4tmbH2YLcY7QNY
+          source_id: s_BqHyFtHt2YcdckWj72LYMx
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第三甲第一百六十九名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_4A86HEw8MTfsRuaTJeDAXg
+        status: active
+        display_name: 王如堅
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_4A86HEw8MTfsRuaTJeDAXg | 王如堅 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_15Nh8Xnsw6Q2WxxXdtixbY
 status: active
 merged_into: null
 display_name: 王宥
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -206,6 +206,43 @@ relationships:
         status: active
         display_name: 王本宗
         merged_into_person_id: null
+    - claim:
+        id: c_vEcRKw3cKn82YycKpXCKfl
+        subject_person_id: p_uhg7M4Hh4FFL2fV4HjE6Cg
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_15Nh8Xnsw6Q2WxxXdtixbY
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_n2Djk_JqndlZv1ajUcwgaj
+          claim_id: c_vEcRKw3cKn82YycKpXCKfl
+          source_id: s_dwHKdGW4846v56a4aCvGNb
+          stance: supports
+          locator: 成化十七年進士登科錄:一卷，第二甲第四十二名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_dwHKdGW4846v56a4aCvGNb
+            source_type: api_record
+            title: 中国历代人物传记资料库：王榮（CBDB 255120）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255120&o=json
+            external_identifier: CBDB:255120
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.330Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_uhg7M4Hh4FFL2fV4HjE6Cg
+        status: active
+        display_name: 王榮
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -229,9 +266,11 @@ relationships:
 | parents | p_Y1LJt1fbRrve98s4v1UUF2 | 王志積 | accepted |
 | spouses | p_ZiM4N5Gs41SCGQ3WKw5622 | 徐氏 | accepted |
 | ancestors | p_fYwp6rZCTtFvp8J8toSZti | 王本宗 | accepted |
+| ancestors | p_uhg7M4Hh4FFL2fV4HjE6Cg | 王榮 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王本宗（CBDB 255121）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255121&o=json)
+- [中国历代人物传记资料库：王榮（CBDB 255120）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255120&o=json)
 - [中国历代人物传记资料库：王宥（CBDB 200225）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200225&o=json)
 - [中国历代人物传记资料库：徐氏(王宥妻)（CBDB 255124）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255124&o=json)

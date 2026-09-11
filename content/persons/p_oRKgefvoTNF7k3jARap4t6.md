@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王君遂
 cbdb_id: 168102
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,7 +86,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_JGIzkaRA4JKDErmBimfcjU
+        subject_person_id: p_uqx89h8aE16F23TeWrVKqk
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_oRKgefvoTNF7k3jARap4t6
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GIICC0K6SoIMB_VzBeCUG3
+          claim_id: c_JGIzkaRA4JKDErmBimfcjU
+          source_id: s_9WURxCEnYvk4Q2J8co9RE9
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Xiantong54：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_9WURxCEnYvk4Q2J8co9RE9
+            source_type: api_record
+            title: 中国历代人物传记资料库：王德（CBDB 143571）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=143571&o=json
+            external_identifier: CBDB:143571
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.625Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_uqx89h8aE16F23TeWrVKqk
+        status: active
+        display_name: 王德
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_uqx89h8aE16F23TeWrVKqk | 王德 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王德（CBDB 143571）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=143571&o=json)
 - [中国历代人物传记资料库：王君遂（CBDB 168102）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=168102&o=json)

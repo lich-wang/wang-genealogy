@@ -4,7 +4,7 @@ id: p_uhg7M4Hh4FFL2fV4HjE6Cg
 status: active
 merged_into: null
 display_name: 王榮
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -115,7 +115,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_vEcRKw3cKn82YycKpXCKfl
+        subject_person_id: p_uhg7M4Hh4FFL2fV4HjE6Cg
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_15Nh8Xnsw6Q2WxxXdtixbY
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_n2Djk_JqndlZv1ajUcwgaj
+          claim_id: c_vEcRKw3cKn82YycKpXCKfl
+          source_id: s_dwHKdGW4846v56a4aCvGNb
+          stance: supports
+          locator: 成化十七年進士登科錄:一卷，第二甲第四十二名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_15Nh8Xnsw6Q2WxxXdtixbY
+        status: active
+        display_name: 王宥
+        merged_into_person_id: null
   other: []
 ---
 
@@ -135,6 +161,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_fYwp6rZCTtFvp8J8toSZti | 王本宗 | accepted |
+| descendants | p_15Nh8Xnsw6Q2WxxXdtixbY | 王宥 | accepted |
 
 ## 外部来源
 

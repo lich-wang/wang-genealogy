@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王文江
 cbdb_id: 238211
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -92,7 +92,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_oLD9wyCqlHsRc8OTHodYJ8
+        subject_person_id: p_kAqmJC9XxgqbW9D1EEHmok
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_UigxC39qu348GRPzwB2VV6
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Iw_exa0lga-Zc6H-v0JkjK
+          claim_id: c_oLD9wyCqlHsRc8OTHodYJ8
+          source_id: s_ePBk9yjtryp6Aok3sJ2P9k
+          stance: supports
+          locator: 正统七年進士登科錄:一卷，第三甲第二十九名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ePBk9yjtryp6Aok3sJ2P9k
+            source_type: api_record
+            title: 中国历代人物传记资料库：王理（CBDB 126681）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126681&o=json
+            external_identifier: CBDB:126681
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.118Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_UigxC39qu348GRPzwB2VV6
+        status: active
+        display_name: 王理
+        merged_into_person_id: null
   other: []
 ---
 
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_UigxC39qu348GRPzwB2VV6 | 王理 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王理（CBDB 126681）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126681&o=json)
 - [中国历代人物传记资料库：王文江（CBDB 238211）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=238211&o=json)

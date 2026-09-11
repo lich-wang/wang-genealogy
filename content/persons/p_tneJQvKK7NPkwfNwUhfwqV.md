@@ -4,7 +4,7 @@ id: p_tneJQvKK7NPkwfNwUhfwqV
 status: active
 merged_into: null
 display_name: 王孝倫
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,8 +100,86 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_dGWJRNuD7va9hcBePjLK_h
+        subject_person_id: p_EV8fEUrhLwWyvaPQ2UhEec
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_tneJQvKK7NPkwfNwUhfwqV
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ttxqd7rZEqGh12irY-7o68
+          claim_id: c_dGWJRNuD7va9hcBePjLK_h
+          source_id: s_P4PcPxcheiEx26Wv36v5Mk
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_EV8fEUrhLwWyvaPQ2UhEec
+        status: active
+        display_name: 王君儒
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_JGhf4n6ydoqBud817hyWkk
+        subject_person_id: p_tneJQvKK7NPkwfNwUhfwqV
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_zuufXjtyAjy8GSAVLJySPz
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9O_WoRxUkqEl-n24KcleSY
+          claim_id: c_JGhf4n6ydoqBud817hyWkk
+          source_id: s_P4PcPxcheiEx26Wv36v5Mk
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_zuufXjtyAjy8GSAVLJySPz
+        status: active
+        display_name: 王嶔
+        merged_into_person_id: null
+    - claim:
+        id: c_z-MoRyUhGGSTmDnXV1Y8-x
+        subject_person_id: p_tneJQvKK7NPkwfNwUhfwqV
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_raJNU9XFaTjQCkPaDGyZMr
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Z80aFoBVR02KI2g24nlPmR
+          claim_id: c_z-MoRyUhGGSTmDnXV1Y8-x
+          source_id: s_P4PcPxcheiEx26Wv36v5Mk
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_raJNU9XFaTjQCkPaDGyZMr
+        status: active
+        display_name: 王仁表
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_EV8fEUrhLwWyvaPQ2UhEec | 王君儒 | accepted |
+| children | p_zuufXjtyAjy8GSAVLJySPz | 王嶔 | accepted |
+| children | p_raJNU9XFaTjQCkPaDGyZMr | 王仁表 | accepted |
 
 ## 外部来源
 

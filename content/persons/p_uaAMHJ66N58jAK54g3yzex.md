@@ -4,7 +4,7 @@ id: p_uaAMHJ66N58jAK54g3yzex
 status: active
 merged_into: null
 display_name: 王敏
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,8 +128,86 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_UGtptpCoe2neWMfsNvY4v0
+        subject_person_id: p_YryEUozc38E4eMFzKVvEC7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_uaAMHJ66N58jAK54g3yzex
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VjcrxZd7jlsTRoFkUdIZ8g
+          claim_id: c_UGtptpCoe2neWMfsNvY4v0
+          source_id: s_Nt6nF28fYvG5y659nzmrGC
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Changan 65：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_YryEUozc38E4eMFzKVvEC7
+        status: active
+        display_name: 王才
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_izU4eaSCMHyi9qscwCmfhP
+        subject_person_id: p_uaAMHJ66N58jAK54g3yzex
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_4KtMotrMctaQcYWaab91n2
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SzxyGc15VJwsRCB1oWc6Ih
+          claim_id: c_izU4eaSCMHyi9qscwCmfhP
+          source_id: s_Nt6nF28fYvG5y659nzmrGC
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Changan 65：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_4KtMotrMctaQcYWaab91n2
+        status: active
+        display_name: 王胡師
+        merged_into_person_id: null
+    - claim:
+        id: c_GRgZWAdYr3nJplUyOnolA8
+        subject_person_id: p_uaAMHJ66N58jAK54g3yzex
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_L6M4SZMsciHvaQVG5T5vBP
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_giyEY96nJhDq2aK4eNTRx0
+          claim_id: c_GRgZWAdYr3nJplUyOnolA8
+          source_id: s_Nt6nF28fYvG5y659nzmrGC
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Changan 65：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_L6M4SZMsciHvaQVG5T5vBP
+        status: active
+        display_name: 王英浦
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +233,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_YryEUozc38E4eMFzKVvEC7 | 王才 | accepted |
+| children | p_4KtMotrMctaQcYWaab91n2 | 王胡師 | accepted |
+| children | p_L6M4SZMsciHvaQVG5T5vBP | 王英浦 | accepted |
 
 ## 外部来源
 

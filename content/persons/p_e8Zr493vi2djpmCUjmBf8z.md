@@ -4,7 +4,7 @@ id: p_e8Zr493vi2djpmCUjmBf8z
 status: active
 merged_into: null
 display_name: 王敞
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,43 @@ relationships:
         status: active
         display_name: 王興
         merged_into_person_id: null
+    - claim:
+        id: c_XHUkHhrGlhclo4LTHnpH0x
+        subject_person_id: p_tT3AHMVCDA6J2Jocyd9E1J
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_e8Zr493vi2djpmCUjmBf8z
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_j8brIICzNaW-Zkywze8VXb
+          claim_id: c_XHUkHhrGlhclo4LTHnpH0x
+          source_id: s_sQr49zkzngEj8QWATa1oCU
+          stance: supports
+          locator: 正统十年進士登科錄:一卷，第三甲第六十四名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_sQr49zkzngEj8QWATa1oCU
+            source_type: api_record
+            title: 中国历代人物传记资料库：王隆（CBDB 239879）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=239879&o=json
+            external_identifier: CBDB:239879
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.901Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_tT3AHMVCDA6J2Jocyd9E1J
+        status: active
+        display_name: 王隆
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_14ogWJ1NeYn1acYejdfnia | 王斌 | accepted |
 | ancestors | p_BJgvXxRKD9rteYtVcW6w5x | 王興 | accepted |
+| ancestors | p_tT3AHMVCDA6J2Jocyd9E1J | 王隆 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王斌（CBDB 239881）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=239881&o=json)
 - [中国历代人物传记资料库：王敞（CBDB 208063）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=208063&o=json)
+- [中国历代人物传记资料库：王隆（CBDB 239879）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=239879&o=json)
 - [中国历代人物传记资料库：王興（CBDB 239880）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=239880&o=json)

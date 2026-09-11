@@ -4,7 +4,7 @@ id: p_u7xzUadSLg4WCL9E773b8L
 status: active
 merged_into: null
 display_name: 王侃
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_9EgImteFHnEswsEPHpjiE3
+        subject_person_id: p_u7xzUadSLg4WCL9E773b8L
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_P7cZrKpwh44EGMwMKR3XMy
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_TkTLZaVQ1lfEsGWa-8SWfQ
+          claim_id: c_9EgImteFHnEswsEPHpjiE3
+          source_id: s_bwvjQuaB22P1jKEPzVcYAN
+          stance: supports
+          locator: 萬曆五年進士登科錄:一卷，第二甲第二十四名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_P7cZrKpwh44EGMwMKR3XMy
+        status: active
+        display_name: 王明時
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_P7cZrKpwh44EGMwMKR3XMy | 王明時 | accepted |
 
 ## 外部来源
 

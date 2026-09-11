@@ -4,7 +4,7 @@ id: p_uQaNbqHDcDVAcDy4Fuqf6C
 status: active
 merged_into: null
 display_name: 王世鼎
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_ukgvQV4kxQEaiCCOCZC4zp
+        subject_person_id: p_WmFTihaGM8KRJSc8kBpUBP
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_uQaNbqHDcDVAcDy4Fuqf6C
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dAMPj6qW5DdDJGiJfXTUvF
+          claim_id: c_ukgvQV4kxQEaiCCOCZC4zp
+          source_id: s_5Gkc42WduWozUpEw8ovZr4
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_WmFTihaGM8KRJSc8kBpUBP
+        status: active
+        display_name: 王友札
+        merged_into_person_id: null
   children:
     - claim:
         id: c_kufRydlN78PUulVNDcWahD
@@ -237,6 +263,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_WmFTihaGM8KRJSc8kBpUBP | 王友札 | accepted |
 | children | p_1J8t9MKe5FE8aJP2Fkpe8U | 王邈 | accepted |
 | children | p_8fDrLw8VCGEdLrGRH6rJ4L | 王懷讓 | accepted |
 | children | p_m4ZBzdYERmSTqCk8AC6KDU | 王懷禮 | accepted |

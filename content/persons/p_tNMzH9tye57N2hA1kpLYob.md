@@ -4,7 +4,7 @@ id: p_tNMzH9tye57N2hA1kpLYob
 status: active
 merged_into: null
 display_name: 王㝢
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_pCftOINz6ojHXdTKYPOEnV
+        subject_person_id: p_n6NQ7DT7469Pu952KwCWaA
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_tNMzH9tye57N2hA1kpLYob
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HCw_wiDt_OUNuTP-yE0TXU
+          claim_id: c_pCftOINz6ojHXdTKYPOEnV
+          source_id: s_UuYEQGujaqrc86gKBj2DpC
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1736：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_n6NQ7DT7469Pu952KwCWaA
+        status: active
+        display_name: 王易簡
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -126,6 +152,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_n6NQ7DT7469Pu952KwCWaA | 王易簡 | accepted |
 
 ## 外部来源
 

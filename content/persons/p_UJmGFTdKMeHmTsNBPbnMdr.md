@@ -4,7 +4,7 @@ id: p_UJmGFTdKMeHmTsNBPbnMdr
 status: active
 merged_into: null
 display_name: 王佺
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_Slf4uWljDz-2-rtpPp_oBW
+        subject_person_id: p_UJmGFTdKMeHmTsNBPbnMdr
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_pJwhh9SEH9qmj8mm8eFbV6
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GFT2XEDpNMtp6ubNfwGreL
+          claim_id: c_Slf4uWljDz-2-rtpPp_oBW
+          source_id: s_rgUWQt6k92pRLduLZCXPcQ
+          stance: supports
+          locator: 嘉靖二十三年登科錄:一卷，第三甲第二百一十三名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_pJwhh9SEH9qmj8mm8eFbV6
+        status: active
+        display_name: 王宗聖
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_pJwhh9SEH9qmj8mm8eFbV6 | 王宗聖 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_uBzLRGUwS4yvUJPvtC7Mfv
 status: active
 merged_into: null
 display_name: 王傑
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c__HKktwuJu5SqDtwQKuGtlB
+        subject_person_id: p_uBzLRGUwS4yvUJPvtC7Mfv
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_JEUpyam7C1Pm8JC9r4xGZ3
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_y4EYz1BdKWBtX5RAohdwg2
+          claim_id: c__HKktwuJu5SqDtwQKuGtlB
+          source_id: s_KMw9QPDX84rB4MUKxnL14K
+          stance: supports
+          locator: 成化十一年進士登科錄:一卷，第三甲第九十四名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_JEUpyam7C1Pm8JC9r4xGZ3
+        status: active
+        display_name: 王舉
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_JEUpyam7C1Pm8JC9r4xGZ3 | 王舉 | accepted |
 
 ## 外部来源
 

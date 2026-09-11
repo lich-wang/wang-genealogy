@@ -4,7 +4,7 @@ id: p_R4kNKSmBcgnyHB9JioBPEt
 status: active
 merged_into: null
 display_name: 王袞
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -110,7 +110,44 @@ relationships:
         status: active
         display_name: 王係
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_rxGolBfPJhHHN3E6RREJEJ
+        subject_person_id: p_R4kNKSmBcgnyHB9JioBPEt
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_uLwVmgMC518Yd4ehoNd1de
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qivJiz-LAPHdkZLwN1IZkT
+          claim_id: c_rxGolBfPJhHHN3E6RREJEJ
+          source_id: s_cUBuvMo9eRXEUn6UkP3FHH
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Xiantong 45：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_cUBuvMo9eRXEUn6UkP3FHH
+            source_type: api_record
+            title: 中国历代人物传记资料库：王誕（CBDB 141997）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=141997&o=json
+            external_identifier: CBDB:141997
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.573Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_uLwVmgMC518Yd4ehoNd1de
+        status: active
+        display_name: 王誕
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +172,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_iexjD2e4i4jYiVA31n7oHj | 王係 | accepted |
+| children | p_uLwVmgMC518Yd4ehoNd1de | 王誕 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王誕（CBDB 141997）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=141997&o=json)
 - [中国历代人物传记资料库：王袞（CBDB 160465）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=160465&o=json)
 - [中国历代人物传记资料库：王係（CBDB 169596）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=169596&o=json)

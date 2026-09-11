@@ -4,7 +4,7 @@ id: p_2nye6BM6PDRwcFsFBhjHhi
 status: active
 merged_into: null
 display_name: 王喬年
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_dTHSMyh8PxVeX8fD0vgzjt
+        subject_person_id: p_UnD9iZ6MiH4KnEMHzKtDfC
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_2nye6BM6PDRwcFsFBhjHhi
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XF5rt4C38zqFKWm3e9nCMR
+          claim_id: c_dTHSMyh8PxVeX8fD0vgzjt
+          source_id: s_Z656JzqQ8FojQ7wiQF4nvM
+          stance: supports
+          locator: 嘉靖二十九年進士登科錄:一卷，第三甲第一百八十八名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Z656JzqQ8FojQ7wiQF4nvM
+            source_type: api_record
+            title: 中国历代人物传记资料库：王邦憲（CBDB 314564）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314564&o=json
+            external_identifier: CBDB:314564
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.935Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_UnD9iZ6MiH4KnEMHzKtDfC
+        status: active
+        display_name: 王邦憲
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -200,11 +237,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_UnD9iZ6MiH4KnEMHzKtDfC | 王邦憲 | accepted |
 | ancestors | p_1z9SjjmStg9myNnfG5GYgP | 王輔 | accepted |
 | ancestors | p_8CRhEiT8Pich4ngDid6FVh | 王仁 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王邦憲（CBDB 314564）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314564&o=json)
 - [中国历代人物传记资料库：王輔（CBDB 314563）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314563&o=json)
 - [中国历代人物传记资料库：王喬年（CBDB 204111）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204111&o=json)
 - [中国历代人物传记资料库：王仁（CBDB 314561）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314561&o=json)

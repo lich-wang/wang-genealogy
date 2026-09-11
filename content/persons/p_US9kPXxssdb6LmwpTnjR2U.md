@@ -4,7 +4,7 @@ id: p_US9kPXxssdb6LmwpTnjR2U
 status: active
 merged_into: null
 display_name: 王愔
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_A8Xioy74VM_PO5a0BBd2Px
+        subject_person_id: p_g2qc4piXEUaM3GmzDY5nSR
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_US9kPXxssdb6LmwpTnjR2U
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AqcwYggzCd78InfoxTn96T
+          claim_id: c_A8Xioy74VM_PO5a0BBd2Px
+          source_id: s_miW6oef6WacDiRM8tLqBv3
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_g2qc4piXEUaM3GmzDY5nSR
+        status: active
+        display_name: 王鎡
+        merged_into_person_id: null
   children:
     - claim:
         id: c_SH7G9FO7l_AAvvlrJvtBCk
@@ -163,6 +189,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_g2qc4piXEUaM3GmzDY5nSR | 王鎡 | accepted |
 | children | p_j6MwXYCWV4BTorutLMDBo2 | 王渙 | accepted |
 
 ## 外部来源

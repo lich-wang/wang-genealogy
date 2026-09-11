@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王宗性
 cbdb_id: 203595
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -316,6 +316,43 @@ relationships:
         status: active
         display_name: 王綱
         merged_into_person_id: null
+    - claim:
+        id: c_G38y3ySBRuJTtBvvMtAomv
+        subject_person_id: p_U1vbELeED3P5A251WNQQjj
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_ABHWjEscFjoCVEgF2qr4dX
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0lKvtt8x0jcYH-8QvQL4ih
+          claim_id: c_G38y3ySBRuJTtBvvMtAomv
+          source_id: s_Xu1xfLgD4ieqsFuFQF7T5M
+          stance: supports
+          locator: 嘉靖二十三年登科錄:一卷，第三甲第八十一名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Xu1xfLgD4ieqsFuFQF7T5M
+            source_type: api_record
+            title: 中国历代人物传记资料库：王璟（CBDB 307064）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=307064&o=json
+            external_identifier: CBDB:307064
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.780Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_U1vbELeED3P5A251WNQQjj
+        status: active
+        display_name: 王璟
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -339,6 +376,7 @@ relationships:
 | parents | p_jgqvj6yRuFScRYzYpcimRZ | 王士彦 | accepted |
 | spouses | p_r9c7S6Y8RCf1UeMz9VaCpH | 孙氏 | accepted |
 | ancestors | p_941b793yF1uZG7jyN114nF | 王綱 | accepted |
+| ancestors | p_U1vbELeED3P5A251WNQQjj | 王璟 | accepted |
 
 ## 外部来源
 
@@ -346,5 +384,6 @@ relationships:
 - [维基数据：王士彦（Q45573102）](https://www.wikidata.org/wiki/Q45573102)
 - [维基数据：王宗性（Q45458696）](https://www.wikidata.org/wiki/Q45458696)
 - [中国历代人物传记资料库：王綱（CBDB 307063）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=307063&o=json)
+- [中国历代人物传记资料库：王璟（CBDB 307064）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=307064&o=json)
 - [CBDB 中国历代人物传记资料库：王士彥（307065）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=307065&o=json)
 - [CBDB 中国历代人物传记资料库：王宗性（203595）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203595&o=json)

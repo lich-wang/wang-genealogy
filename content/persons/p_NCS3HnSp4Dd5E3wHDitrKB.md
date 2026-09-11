@@ -4,7 +4,7 @@ id: p_NCS3HnSp4Dd5E3wHDitrKB
 status: active
 merged_into: null
 display_name: 王慶祚
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -204,6 +204,43 @@ relationships:
         status: active
         display_name: 王望之
         merged_into_person_id: null
+    - claim:
+        id: c_KeU9rYhl8Bc0MhAKA6Vi99
+        subject_person_id: p_NCS3HnSp4Dd5E3wHDitrKB
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_uKdNtGwQULffFJg9MB96Pf
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1wSjDnW1OFRb92ZxkcGWwt
+          claim_id: c_KeU9rYhl8Bc0MhAKA6Vi99
+          source_id: s_3vbNEzGean3XjQnahm2yUh
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Shengli 17：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_3vbNEzGean3XjQnahm2yUh
+            source_type: api_record
+            title: 中国历代人物传记资料库：王光胄（CBDB 150088）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=150088&o=json
+            external_identifier: CBDB:150088
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.809Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_uKdNtGwQULffFJg9MB96Pf
+        status: active
+        display_name: 王光胄
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -231,9 +268,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_7aKyC49Foj81yU2JAL4fyu | 王子奇 | accepted |
 | children | p_qLJJ2HRFjbNRgDjqX4mp4p | 王望之 | accepted |
+| children | p_uKdNtGwQULffFJg9MB96Pf | 王光胄 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王光胄（CBDB 150088）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=150088&o=json)
 - [中国历代人物传记资料库：王慶祚（CBDB 140050）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140050&o=json)
 - [中国历代人物传记资料库：王望之（CBDB 140051）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140051&o=json)
 - [中国历代人物传记资料库：王子奇（CBDB 150087）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=150087&o=json)

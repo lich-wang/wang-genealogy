@@ -4,7 +4,7 @@ id: p_KhmS5kyzCCCFTjqjDJhXt2
 status: active
 merged_into: null
 display_name: 王用康
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,43 @@ relationships:
         status: active
         display_name: 王萱
         merged_into_person_id: null
+    - claim:
+        id: c_sHtPDNcP4BDWz2QPMJv-N_
+        subject_person_id: p_tP5KCeJ7js1QoBJvxCT1Uq
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_KhmS5kyzCCCFTjqjDJhXt2
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bx-t3AE_pdO0lUsbTBsknb
+          claim_id: c_sHtPDNcP4BDWz2QPMJv-N_
+          source_id: s_uRCEMjFBmqVA9mcEhZJ3Yp
+          stance: supports
+          locator: 嘉靖二十九年進士登科錄:一卷，第三甲第八十二名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_uRCEMjFBmqVA9mcEhZJ3Yp
+            source_type: api_record
+            title: 中国历代人物传记资料库：王亮（CBDB 313486）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313486&o=json
+            external_identifier: CBDB:313486
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.909Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_tP5KCeJ7js1QoBJvxCT1Uq
+        status: active
+        display_name: 王亮
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_CNhGCXJt47qYJmsa2oXPha | 王尚忠 | accepted |
 | ancestors | p_kEiW2DFXECMJ78e5d2rZzN | 王萱 | accepted |
+| ancestors | p_tP5KCeJ7js1QoBJvxCT1Uq | 王亮 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王亮（CBDB 313486）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313486&o=json)
 - [中国历代人物传记资料库：王尚忠（CBDB 313488）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313488&o=json)
 - [中国历代人物传记资料库：王萱（CBDB 313487）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313487&o=json)
 - [中国历代人物传记资料库：王用康（CBDB 204031）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204031&o=json)

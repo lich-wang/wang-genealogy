@@ -4,7 +4,7 @@ id: p_tXZASZkZUbtAHM4Rg6fiXV
 status: active
 merged_into: null
 display_name: 王逢年
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_yd2bB5x4FLIJRA-0Y23OYs
+        subject_person_id: p_uQx6CsD653L6hRpaz3mPf9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_tXZASZkZUbtAHM4Rg6fiXV
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zgSnWnBzxgTRzGobq79NXg
+          claim_id: c_yd2bB5x4FLIJRA-0Y23OYs
+          source_id: s_2amJnBHLFEU78yAFc6hn52
+          stance: supports
+          locator: 江南通志，lgid=65724：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_uQx6CsD653L6hRpaz3mPf9
+        status: active
+        display_name: 王同祖
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_uQx6CsD653L6hRpaz3mPf9 | 王同祖 | accepted |
 
 ## 外部来源
 

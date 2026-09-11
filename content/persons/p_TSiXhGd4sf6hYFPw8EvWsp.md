@@ -4,7 +4,7 @@ id: p_TSiXhGd4sf6hYFPw8EvWsp
 status: active
 merged_into: null
 display_name: 王守琦
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,8 +100,138 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_B03rh5qkv_bO4pxh7WiYmi
+        subject_person_id: p_uLX7KRyZUND76dMmM6Ga7D
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_TSiXhGd4sf6hYFPw8EvWsp
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7PPiNhlsQIVPeD5U4Xc151
+          claim_id: c_B03rh5qkv_bO4pxh7WiYmi
+          source_id: s_97EYxJPEnRvhgya9nsk7Fp
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Dazhong 32：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_uLX7KRyZUND76dMmM6Ga7D
+        status: active
+        display_name: 王意通
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_ZRyyQLlXueWpAPyG0_27TR
+        subject_person_id: p_TSiXhGd4sf6hYFPw8EvWsp
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_guCTzDXrYoKmeJ925cN91P
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xqaX89Wv-X8a4eUTWGyfbA
+          claim_id: c_ZRyyQLlXueWpAPyG0_27TR
+          source_id: s_97EYxJPEnRvhgya9nsk7Fp
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_guCTzDXrYoKmeJ925cN91P
+        status: active
+        display_name: 王從泰
+        merged_into_person_id: null
+    - claim:
+        id: c_5aSrWuNGNrkIeSXXTqO_m4
+        subject_person_id: p_TSiXhGd4sf6hYFPw8EvWsp
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_baMid58DQ36C4L4JRGTG3E
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6RTQPikAi2xw9-YlzaV_Mc
+          claim_id: c_5aSrWuNGNrkIeSXXTqO_m4
+          source_id: s_97EYxJPEnRvhgya9nsk7Fp
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_baMid58DQ36C4L4JRGTG3E
+        status: active
+        display_name: 王從盈
+        merged_into_person_id: null
+    - claim:
+        id: c_Pt8oEUm_MeNakkcg8laJ5Z
+        subject_person_id: p_TSiXhGd4sf6hYFPw8EvWsp
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ouZb3u5M3MJFn5hChTsMKx
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_CaDOf2RoGoe4tJed9TvutZ
+          claim_id: c_Pt8oEUm_MeNakkcg8laJ5Z
+          source_id: s_97EYxJPEnRvhgya9nsk7Fp
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_ouZb3u5M3MJFn5hChTsMKx
+        status: active
+        display_name: 王從祐
+        merged_into_person_id: null
+    - claim:
+        id: c_xTs6VRsSuOqH_7669CMKis
+        subject_person_id: p_TSiXhGd4sf6hYFPw8EvWsp
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_otC3NBGpEMdrpLf4GEKgEJ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4DWTJoXpboP4rqfKxkXTvC
+          claim_id: c_xTs6VRsSuOqH_7669CMKis
+          source_id: s_97EYxJPEnRvhgya9nsk7Fp
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Dazhong 32：嗣子(作為繼承人的兒子)
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_otC3NBGpEMdrpLf4GEKgEJ
+        status: active
+        display_name: 王允實
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,6 +256,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_uLX7KRyZUND76dMmM6Ga7D | 王意通 | accepted |
+| children | p_guCTzDXrYoKmeJ925cN91P | 王從泰 | accepted |
+| children | p_baMid58DQ36C4L4JRGTG3E | 王從盈 | accepted |
+| children | p_ouZb3u5M3MJFn5hChTsMKx | 王從祐 | accepted |
+| children | p_otC3NBGpEMdrpLf4GEKgEJ | 王允實 | accepted |
 
 ## 外部来源
 

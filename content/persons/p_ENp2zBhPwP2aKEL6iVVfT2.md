@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王琢玉
 cbdb_id: 205655
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -129,7 +129,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_ESpwwSc74l2Ta0KbYZkmJt
+        subject_person_id: p_tRuYVQrj6CoDxdrV87C339
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ENp2zBhPwP2aKEL6iVVfT2
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_P3vOt2erKYgk4ZV7AYoVAq
+          claim_id: c_ESpwwSc74l2Ta0KbYZkmJt
+          source_id: s_JcYY5RC8Q9nKj77uECwH77
+          stance: supports
+          locator: 隆慶二年進士登科錄:一卷，第三甲第二百零五名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_JcYY5RC8Q9nKj77uECwH77
+            source_type: api_record
+            title: 中国历代人物传记资料库：王國定（CBDB 336571）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336571&o=json
+            external_identifier: CBDB:336571
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.483Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_tRuYVQrj6CoDxdrV87C339
+        status: active
+        display_name: 王國定
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -229,11 +266,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_tRuYVQrj6CoDxdrV87C339 | 王國定 | accepted |
 | ancestors | p_pGU79yfpT77FbgMJmmqkpi | 王勤 | accepted |
 | ancestors | p_qXj5QLQCNULbC7HTQtWA8Z | 王實 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王國定（CBDB 336571）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336571&o=json)
 - [中国历代人物传记资料库：王勤（CBDB 336569）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336569&o=json)
 - [中国历代人物传记资料库：王實（CBDB 336570）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336570&o=json)
 - [中国历代人物传记资料库：王琢玉（CBDB 205655）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205655&o=json)

@@ -4,7 +4,7 @@ id: p_DFK89goyEYyfrbYrvJfN3v
 status: active
 merged_into: null
 display_name: 王襲
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -138,7 +138,44 @@ relationships:
         status: active
         display_name: 王叡
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_oUzk2LLmurTxeh46IRxeWI
+        subject_person_id: p_DFK89goyEYyfrbYrvJfN3v
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_u7a9BbAMb71iwjCXAx65Ue
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xImfeyVUpHb6IsmFR5c8A-
+          claim_id: c_oUzk2LLmurTxeh46IRxeWI
+          source_id: s_KoAj9EJxEAhaJPBAMVBaKy
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_KoAj9EJxEAhaJPBAMVBaKy
+            source_type: api_record
+            title: 中国历代人物传记资料库：王忻（CBDB 175898）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175898&o=json
+            external_identifier: CBDB:175898
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.187Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_u7a9BbAMb71iwjCXAx65Ue
+        status: active
+        display_name: 王忻
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_7g3Vf9QWCJCw4r1p1UKdJR | 王叡 | accepted |
+| children | p_u7a9BbAMb71iwjCXAx65Ue | 王忻 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王叡（CBDB 175896）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175896&o=json)
 - [中国历代人物传记资料库：王襲（CBDB 175897）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175897&o=json)
+- [中国历代人物传记资料库：王忻（CBDB 175898）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175898&o=json)

@@ -4,7 +4,7 @@ id: p_UE1q4HTiHr6dP2UxKLMoFA
 status: active
 merged_into: null
 display_name: 王元泰
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,8 +128,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_jX0Wb4XDmsvrvF4ZGwpvA9
+        subject_person_id: p_VbTv9jyE8TE8W3rehz6ZA8
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_UE1q4HTiHr6dP2UxKLMoFA
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bSw3eW5-EjuAImL2yb31-G
+          claim_id: c_jX0Wb4XDmsvrvF4ZGwpvA9
+          source_id: s_5ZZNZR6VKb5bbwhoTrqg8B
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Tianbao 127：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_VbTv9jyE8TE8W3rehz6ZA8
+        status: active
+        display_name: 王義
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_KAJIYkl01XQ0A1OqBWIChY
+        subject_person_id: p_UE1q4HTiHr6dP2UxKLMoFA
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_8sgyq9bT5PQJxoEiFi2tPf
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lcChoxcB7IB7yQO5snZePc
+          claim_id: c_KAJIYkl01XQ0A1OqBWIChY
+          source_id: s_5ZZNZR6VKb5bbwhoTrqg8B
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Tianbao 127：嗣子(作為繼承人的兒子)
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_8sgyq9bT5PQJxoEiFi2tPf
+        status: active
+        display_name: 王庭誨
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +207,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_VbTv9jyE8TE8W3rehz6ZA8 | 王義 | accepted |
+| children | p_8sgyq9bT5PQJxoEiFi2tPf | 王庭誨 | accepted |
 
 ## 外部来源
 

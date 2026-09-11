@@ -4,7 +4,7 @@ id: p_tqsFqbzif5j3BcpmAE3NTe
 status: active
 merged_into: null
 display_name: 王泰文
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_6mc4HtMycQwT9weNyr5ZMT
+        subject_person_id: p_tqsFqbzif5j3BcpmAE3NTe
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_VVkAYnQtUyWdWCpmXePbBp
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cGeJldYWs6PkTNfy5Xz-Bx
+          claim_id: c_6mc4HtMycQwT9weNyr5ZMT
+          source_id: s_t5Fc96JECmMMNzz44JGHA1
+          stance: supports
+          locator: 宣德八年進士登科錄:一卷，第三甲第十名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_VVkAYnQtUyWdWCpmXePbBp
+        status: active
+        display_name: 王鐸
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_VVkAYnQtUyWdWCpmXePbBp | 王鐸 | accepted |
 
 ## 外部来源
 

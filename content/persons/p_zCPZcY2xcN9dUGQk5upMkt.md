@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王鈴
 cbdb_id: 203785
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -172,6 +172,43 @@ relationships:
         status: active
         display_name: 王秬
         merged_into_person_id: null
+    - claim:
+        id: c__maOhUKXNZQF4NJXVK9UY7
+        subject_person_id: p_uEcTfswie4QmwwYkcLQnJ5
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_zCPZcY2xcN9dUGQk5upMkt
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Y1E_Y8H0ferdwcR5-3picL
+          claim_id: c__maOhUKXNZQF4NJXVK9UY7
+          source_id: s_7P9P8QUy5UepQ6Md115RGk
+          stance: supports
+          locator: 嘉靖二十六年進士登科錄:一卷，第三甲第四十五名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_7P9P8QUy5UepQ6Md115RGk
+            source_type: api_record
+            title: 中国历代人物传记资料库：王烜（CBDB 309976）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309976&o=json
+            external_identifier: CBDB:309976
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.836Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_uEcTfswie4QmwwYkcLQnJ5
+        status: active
+        display_name: 王烜
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -193,8 +230,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_Aw33K7k1W4Rsa8EDciuADn | 王秬 | accepted |
+| ancestors | p_uEcTfswie4QmwwYkcLQnJ5 | 王烜 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王秬（CBDB 309975）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309975&o=json)
 - [中国历代人物传记资料库：王鈴（CBDB 203785）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203785&o=json)
+- [中国历代人物传记资料库：王烜（CBDB 309976）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309976&o=json)

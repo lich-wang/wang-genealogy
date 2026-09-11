@@ -4,7 +4,7 @@ id: p_RMejjGJewJRvFyGM3arPK4
 status: active
 merged_into: null
 display_name: 王傳
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -208,6 +208,43 @@ relationships:
         status: active
         display_name: 王榮
         merged_into_person_id: null
+    - claim:
+        id: c_ZH559Na7KfpmMk8sUpvdHz
+        subject_person_id: p_UPEaGSR5BWodRiY8QZ4gbo
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_RMejjGJewJRvFyGM3arPK4
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_g8Oge3t5Sux8gTaLJ_m8rJ
+          claim_id: c_ZH559Na7KfpmMk8sUpvdHz
+          source_id: s_MGjrtUZS2Rn3x7FBV84Pa7
+          stance: supports
+          locator: 成化十一年進士登科錄:一卷，第二甲第十三名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_MGjrtUZS2Rn3x7FBV84Pa7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王克中（CBDB 247746）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=247746&o=json
+            external_identifier: CBDB:247746
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.128Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_UPEaGSR5BWodRiY8QZ4gbo
+        status: active
+        display_name: 王克中
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -231,9 +268,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_76zy8a3P4X496DVsdChzJX | 王璽 | accepted |
 | ancestors | p_7Yja38GWcuBt14xXp8sQcE | 王榮 | accepted |
+| ancestors | p_UPEaGSR5BWodRiY8QZ4gbo | 王克中 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王傳（CBDB 126769）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126769&o=json)
+- [中国历代人物传记资料库：王克中（CBDB 247746）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=247746&o=json)
 - [中国历代人物传记资料库：王榮（CBDB 247747）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=247747&o=json)
 - [中国历代人物传记资料库：王璽（CBDB 247748）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=247748&o=json)

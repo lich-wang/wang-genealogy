@@ -4,7 +4,7 @@ id: p_uaek5dH7vUvS3w7o2aMbko
 status: active
 merged_into: null
 display_name: 王存禮
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_q75jy5dJlHBJZ0dsFcics0
+        subject_person_id: p_UCY7Lf35hoXK1P9ERpnsFv
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_uaek5dH7vUvS3w7o2aMbko
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-nH6kJUQkYJVieOGT1n3MG
+          claim_id: c_q75jy5dJlHBJZ0dsFcics0
+          source_id: s_2ALbcHnh28ruonXPAzF68S
+          stance: supports
+          locator: 天順元年進士登科錄:一卷，第三甲第四十名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_UCY7Lf35hoXK1P9ERpnsFv
+        status: active
+        display_name: 王子昌
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_dmvjyZu_-o4Y3CsRwSLc-c
+        subject_person_id: p_x3vAi17WDsyiWG8p26touF
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_uaek5dH7vUvS3w7o2aMbko
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JTr9wFN2UcBP8wahQH3hDR
+          claim_id: c_dmvjyZu_-o4Y3CsRwSLc-c
+          source_id: s_2ALbcHnh28ruonXPAzF68S
+          stance: supports
+          locator: 天順元年進士登科錄:一卷，第三甲第四十名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_x3vAi17WDsyiWG8p26touF
+        status: active
+        display_name: 王受益
+        merged_into_person_id: null
+    - claim:
+        id: c_wARAxpaUlKx7RfX7uQygCD
+        subject_person_id: p_rjXdEc3EZ83pHMEvKqP92r
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_uaek5dH7vUvS3w7o2aMbko
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_reYGRLpPCcluPD5hwgzIc9
+          claim_id: c_wARAxpaUlKx7RfX7uQygCD
+          source_id: s_2ALbcHnh28ruonXPAzF68S
+          stance: supports
+          locator: 天順元年進士登科錄:一卷，第三甲第四十名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_rjXdEc3EZ83pHMEvKqP92r
+        status: active
+        display_name: 王仁善
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_UCY7Lf35hoXK1P9ERpnsFv | 王子昌 | accepted |
+| ancestors | p_x3vAi17WDsyiWG8p26touF | 王受益 | accepted |
+| ancestors | p_rjXdEc3EZ83pHMEvKqP92r | 王仁善 | accepted |
 
 ## 外部来源
 

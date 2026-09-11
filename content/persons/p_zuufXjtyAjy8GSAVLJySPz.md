@@ -4,7 +4,7 @@ id: p_zuufXjtyAjy8GSAVLJySPz
 status: active
 merged_into: null
 display_name: 王嶔
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_JGhf4n6ydoqBud817hyWkk
+        subject_person_id: p_tneJQvKK7NPkwfNwUhfwqV
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_zuufXjtyAjy8GSAVLJySPz
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9O_WoRxUkqEl-n24KcleSY
+          claim_id: c_JGhf4n6ydoqBud817hyWkk
+          source_id: s_P4PcPxcheiEx26Wv36v5Mk
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_P4PcPxcheiEx26Wv36v5Mk
+            source_type: api_record
+            title: 中国历代人物传记资料库：王孝倫（CBDB 175773）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175773&o=json
+            external_identifier: CBDB:175773
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.259Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_tneJQvKK7NPkwfNwUhfwqV
+        status: active
+        display_name: 王孝倫
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_tneJQvKK7NPkwfNwUhfwqV | 王孝倫 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王嶔（CBDB 175774）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175774&o=json)
+- [中国历代人物传记资料库：王孝倫（CBDB 175773）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175773&o=json)

@@ -4,7 +4,7 @@ id: p_R58pqFjKH7zhFPrnUA5Ato
 status: active
 merged_into: null
 display_name: 王楷
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -152,6 +152,43 @@ relationships:
         status: active
         display_name: 王綸
         merged_into_person_id: null
+    - claim:
+        id: c_fsuwQnuua2WwwRLzEAbTYH
+        subject_person_id: p_un89UE3uS9c7AraXePBzQd
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_R58pqFjKH7zhFPrnUA5Ato
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JCIRR5HvPZKrnqaL5A7DyL
+          claim_id: c_fsuwQnuua2WwwRLzEAbTYH
+          source_id: s_GDhZp4yTa8qY5cCcLu4ocm
+          stance: supports
+          locator: 嘉靖三十五年進士登科錄:一卷，第三甲第十二名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_GDhZp4yTa8qY5cCcLu4ocm
+            source_type: api_record
+            title: 中国历代人物传记资料库：王乾（CBDB 320119）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=320119&o=json
+            external_identifier: CBDB:320119
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.047Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_un89UE3uS9c7AraXePBzQd
+        status: active
+        display_name: 王乾
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -173,9 +210,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_4TKB9CF1Pcy4hP4NGvXiGk | 王淮 | accepted |
 | ancestors | p_6kY5sYCXypt3u98Ntpz45B | 王綸 | accepted |
+| ancestors | p_un89UE3uS9c7AraXePBzQd | 王乾 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王淮（CBDB 320121）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=320121&o=json)
 - [中国历代人物传记资料库：王楷（CBDB 126753）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126753&o=json)
 - [中国历代人物传记资料库：王綸（CBDB 320120）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=320120&o=json)
+- [中国历代人物传记资料库：王乾（CBDB 320119）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=320119&o=json)

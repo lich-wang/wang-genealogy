@@ -4,7 +4,7 @@ id: p_uqx89h8aE16F23TeWrVKqk
 status: active
 merged_into: null
 display_name: 王德
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -129,7 +129,59 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_JGIzkaRA4JKDErmBimfcjU
+        subject_person_id: p_uqx89h8aE16F23TeWrVKqk
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_oRKgefvoTNF7k3jARap4t6
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GIICC0K6SoIMB_VzBeCUG3
+          claim_id: c_JGIzkaRA4JKDErmBimfcjU
+          source_id: s_9WURxCEnYvk4Q2J8co9RE9
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Xiantong54：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_oRKgefvoTNF7k3jARap4t6
+        status: active
+        display_name: 王君遂
+        merged_into_person_id: null
+    - claim:
+        id: c_W-RTLpOV5N-XNIpWlTVGAB
+        subject_person_id: p_uqx89h8aE16F23TeWrVKqk
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Ada1sjGMt787T793a6Ee7H
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5M2XVrOeS1SpGe-3HEOPwU
+          claim_id: c_W-RTLpOV5N-XNIpWlTVGAB
+          source_id: s_9WURxCEnYvk4Q2J8co9RE9
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Xiantong54：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Ada1sjGMt787T793a6Ee7H
+        status: active
+        display_name: 王君慶
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +207,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_oRKgefvoTNF7k3jARap4t6 | 王君遂 | accepted |
+| children | p_Ada1sjGMt787T793a6Ee7H | 王君慶 | accepted |
 
 ## 外部来源
 

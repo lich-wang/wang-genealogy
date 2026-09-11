@@ -4,7 +4,7 @@ id: p_uAAyHX7RHTcurCnZEtd77T
 status: active
 merged_into: null
 display_name: 王麒
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_imbc8wXY-Acdo7ZlL448Zw
+        subject_person_id: p_uAAyHX7RHTcurCnZEtd77T
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_RFP8uQh7mfvwWjCYzUDpGk
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZmPOByn0J3Rwwaby5UkgTS
+          claim_id: c_imbc8wXY-Acdo7ZlL448Zw
+          source_id: s_ub5aLpvzEMBT7H8FNMbH5e
+          stance: supports
+          locator: 嘉靖三十五年進士登科錄:一卷，第二甲第三十七名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_RFP8uQh7mfvwWjCYzUDpGk
+        status: active
+        display_name: 王凝
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_RFP8uQh7mfvwWjCYzUDpGk | 王凝 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_z8mgWQExeo9ps9NYQ1o1hg
 status: active
 merged_into: null
 display_name: 王凱
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,43 @@ relationships:
         status: active
         display_name: 王弘
         merged_into_person_id: null
+    - claim:
+        id: c_c2pZNYUX3RpCvuAOCkuX_d
+        subject_person_id: p_tSAfAuPkdu48fzV9msaJC7
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_z8mgWQExeo9ps9NYQ1o1hg
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Fk54G3f1rILc-U3k6DBWhK
+          claim_id: c_c2pZNYUX3RpCvuAOCkuX_d
+          source_id: s_ZLDddWfb3Nb2GKyujX95t2
+          stance: supports
+          locator: 弘治三年進士登科錄:一卷，第三甲第四十八名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ZLDddWfb3Nb2GKyujX95t2
+            source_type: api_record
+            title: 中国历代人物传记资料库：王忠（CBDB 262288）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262288&o=json
+            external_identifier: CBDB:262288
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.581Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_tSAfAuPkdu48fzV9msaJC7
+        status: active
+        display_name: 王忠
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_2XQ9edNzTjVFAjV2kU7q1C | 王舉 | accepted |
 | ancestors | p_SdVnGLjTg6VFNyLJJmbBDp | 王弘 | accepted |
+| ancestors | p_tSAfAuPkdu48fzV9msaJC7 | 王忠 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王弘（CBDB 262287）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262287&o=json)
 - [中国历代人物传记资料库：王舉（CBDB 262289）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262289&o=json)
 - [中国历代人物传记资料库：王凱（CBDB 200743）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200743&o=json)
+- [中国历代人物传记资料库：王忠（CBDB 262288）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262288&o=json)

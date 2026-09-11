@@ -4,7 +4,7 @@ id: p_MRcNDk25WD9q2qKW2Sg6T2
 status: active
 merged_into: null
 display_name: 王誠
-revision: 5
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -301,6 +301,43 @@ relationships:
         status: active
         display_name: 王翁怜
         merged_into_person_id: null
+    - claim:
+        id: c_CC1sriEechWur5eGaSV-qj
+        subject_person_id: p_MRcNDk25WD9q2qKW2Sg6T2
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_uPSpJEuAvvHGuLtXwodH7m
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QPx8sVA_jNJxBlJ3f7NZjj
+          claim_id: c_CC1sriEechWur5eGaSV-qj
+          source_id: s_Gi3iqCqDJKFUj6RDVyAdrs
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，王誠墓誌：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Gi3iqCqDJKFUj6RDVyAdrs
+            source_type: api_record
+            title: 中国历代人物传记资料库：王韓留（CBDB 696193）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696193&o=json
+            external_identifier: CBDB:696193
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:06.545Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_uPSpJEuAvvHGuLtXwodH7m
+        status: active
+        display_name: 王韓留
+        merged_into_person_id: null
   other: []
 ---
 
@@ -325,11 +362,13 @@ relationships:
 | children | p_nRcMz2seT6EHfF2neQtxKh | 王五兒 | accepted |
 | ancestors | p_93knEVXDHk5dRYRuf8P4GQ | 王某贊 | accepted |
 | descendants | p_ATA13cPezR7oDEojWMksBV | 王翁怜 | accepted |
+| descendants | p_uPSpJEuAvvHGuLtXwodH7m | 王韓留 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王婢兒（CBDB 696182）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696182&o=json)
 - [中国历代人物传记资料库：王誠（CBDB 696155）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696155&o=json)
+- [中国历代人物传记资料库：王韓留（CBDB 696193）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696193&o=json)
 - [中国历代人物传记资料库：王某贊（CBDB 696158）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696158&o=json)
 - [中国历代人物传记资料库：王三兒（CBDB 696171）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696171&o=json)
 - [中国历代人物传记资料库：王翁怜（CBDB 696189）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696189&o=json)

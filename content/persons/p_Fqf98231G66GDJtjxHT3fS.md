@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王孝遠
 cbdb_id: 151071
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -125,6 +125,43 @@ relationships:
         status: active
         display_name: 王崇
         merged_into_person_id: null
+    - claim:
+        id: c_OFcNrA49tad7GgQkOqujcb
+        subject_person_id: p_Fqf98231G66GDJtjxHT3fS
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_uEBEoGitzHAkzsm1Lhs1px
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_t1VP6EYji9bCAM_E76yPZO
+          claim_id: c_OFcNrA49tad7GgQkOqujcb
+          source_id: s_jD91Kp69RJC6vQB1gq5h23
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_jD91Kp69RJC6vQB1gq5h23
+            source_type: api_record
+            title: 中国历代人物传记资料库：王嶷（CBDB 175777）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175777&o=json
+            external_identifier: CBDB:175777
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.119Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_uEBEoGitzHAkzsm1Lhs1px
+        status: active
+        display_name: 王嶷
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -149,8 +186,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_RvTW8uNTkyPJAAx88TaQxP | 王崇 | accepted |
+| children | p_uEBEoGitzHAkzsm1Lhs1px | 王嶷 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王崇（CBDB 151072）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=151072&o=json)
 - [中国历代人物传记资料库：王孝遠（CBDB 151071）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=151071&o=json)
+- [中国历代人物传记资料库：王嶷（CBDB 175777）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175777&o=json)

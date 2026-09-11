@@ -4,7 +4,7 @@ id: p_tn8DUA9bYGXcmK139JjzXS
 status: active
 merged_into: null
 display_name: 王少華
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_m77YLszXa2pfZhsQhwEWRp
+        subject_person_id: p_pfkAJ6LT6dUqP7JHbgQTA7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_tn8DUA9bYGXcmK139JjzXS
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AfzmjB8QGLGBuMlUycQI-7
+          claim_id: c_m77YLszXa2pfZhsQhwEWRp
+          source_id: s_r23iQ39bnk1Sxvw5JQGBHE
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #3623, HuWenKai #230：父"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_pfkAJ6LT6dUqP7JHbgQTA7
+        status: active
+        display_name: 王廷言
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_pfkAJ6LT6dUqP7JHbgQTA7 | 王廷言 | accepted |
 
 ## 外部来源
 

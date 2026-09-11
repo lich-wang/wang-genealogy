@@ -4,7 +4,7 @@ id: p_uHrCvB41gMR5178qTvwuSd
 status: active
 merged_into: null
 display_name: 王懿榮
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -208,7 +208,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_sM6H7wtNqphStegb8dNGUK
+        subject_person_id: p_uHrCvB41gMR5178qTvwuSd
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_PYqXpUQmBjVDWZEm6K1Dc7
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_peVDqKtd7vLL2Uck5mOEmJ
+          claim_id: c_sM6H7wtNqphStegb8dNGUK
+          source_id: s_T4sVkDCK5AUrnaEQCPiBp4
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），1876：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_PYqXpUQmBjVDWZEm6K1Dc7
+        status: active
+        display_name: 王福坤
+        merged_into_person_id: null
   other: []
 ---
 
@@ -231,6 +257,7 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_N9YGTYKs97rttAqaXy2oDv | 王崇煥 | accepted |
 | children | p_QVrKab4NhP9YyPmgiRAN4g | 王崇烈 | accepted |
+| descendants | p_PYqXpUQmBjVDWZEm6K1Dc7 | 王福坤 | accepted |
 
 ## 外部来源
 

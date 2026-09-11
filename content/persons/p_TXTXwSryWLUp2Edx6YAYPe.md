@@ -4,7 +4,7 @@ id: p_TXTXwSryWLUp2Edx6YAYPe
 status: active
 merged_into: null
 display_name: 王永年
-revision: 5
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -283,6 +283,32 @@ relationships:
         status: active
         display_name: 王紹祖
         merged_into_person_id: null
+    - claim:
+        id: c_iDhJ5paV91jDylXHkDRSne
+        subject_person_id: p_TXTXwSryWLUp2Edx6YAYPe
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_6sLvRGgnDwAWz9RBiGMZ2t
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Q9wa5UnwUjClEpXVjW8y_l
+          claim_id: c_iDhJ5paV91jDylXHkDRSne
+          source_id: s_GzuwDJtuZq25gZiJYdCJcE
+          stance: supports
+          locator: 全宋文，卷 5677：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_6sLvRGgnDwAWz9RBiGMZ2t
+        status: active
+        display_name: 王勤禮
+        merged_into_person_id: null
   other: []
 ---
 
@@ -307,6 +333,7 @@ relationships:
 | descendants | p_pC2CzgxCWVGh53LF21SEoo | 王興祖 | accepted |
 | descendants | p_QPtFHPnLUxAqMigpNU1Ceu | 王光祖 | accepted |
 | descendants | p_r1Eok1MVUkgv9Psaq8rq3F | 王紹祖 | accepted |
+| descendants | p_6sLvRGgnDwAWz9RBiGMZ2t | 王勤禮 | accepted |
 
 ## 外部来源
 

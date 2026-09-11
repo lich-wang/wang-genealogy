@@ -4,7 +4,7 @@ id: p_YmbxT6WWcjneK7JVCkb5ja
 status: active
 merged_into: null
 display_name: 王榮
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_gIKFuQYUiREKAy0EbIe-9u
+        subject_person_id: p_YmbxT6WWcjneK7JVCkb5ja
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_uP1bD9Zx7E65bhCATKc6Cp
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_95mLbO_En--Qc5Q5WyjTBq
+          claim_id: c_gIKFuQYUiREKAy0EbIe-9u
+          source_id: s_35E6sF9z3gVL8xnu3DgEXs
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Xianqing 74：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_35E6sF9z3gVL8xnu3DgEXs
+            source_type: api_record
+            title: 中国历代人物传记资料库：王媛（CBDB 139140）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=139140&o=json
+            external_identifier: CBDB:139140
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.389Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_uP1bD9Zx7E65bhCATKc6Cp
+        status: active
+        display_name: 王媛
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_uP1bD9Zx7E65bhCATKc6Cp | 王媛 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王榮（CBDB 147461）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=147461&o=json)
+- [中国历代人物传记资料库：王媛（CBDB 139140）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=139140&o=json)

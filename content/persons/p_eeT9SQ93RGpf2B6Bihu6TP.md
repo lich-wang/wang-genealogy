@@ -4,7 +4,7 @@ id: p_eeT9SQ93RGpf2B6Bihu6TP
 status: active
 merged_into: null
 display_name: 王臣
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -217,6 +217,43 @@ relationships:
         status: active
         display_name: 王子善
         merged_into_person_id: null
+    - claim:
+        id: c_yYV0lJtl1C2DRlK028hX8b
+        subject_person_id: p_TLfa1FjrG1yPPr6LYNqiLH
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_eeT9SQ93RGpf2B6Bihu6TP
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tblBFDngiLvwMce8hBbFRO
+          claim_id: c_yYV0lJtl1C2DRlK028hX8b
+          source_id: s_kMf4TzTHvQP5gWnruJA5xc
+          stance: supports
+          locator: 成化五年進士登科錄:一卷，第二甲第六十二名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_kMf4TzTHvQP5gWnruJA5xc
+            source_type: api_record
+            title: 中国历代人物传记资料库：王仲起（CBDB 243237）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=243237&o=json
+            external_identifier: CBDB:243237
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.994Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_TLfa1FjrG1yPPr6LYNqiLH
+        status: active
+        display_name: 王仲起
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -240,10 +277,12 @@ relationships:
 | parents | p_2N77V679N67chKYe7DivHB | 王槩 | accepted |
 | parents | p_Q7ZnKzk1uz2jTGR32Sk1WY | 王槩 | accepted |
 | ancestors | p_jqEiBuqNdYKWEF4cuEvm5K | 王子善 | accepted |
+| ancestors | p_TLfa1FjrG1yPPr6LYNqiLH | 王仲起 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王臣（CBDB 199309）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=199309&o=json)
 - [中国历代人物传记资料库：王槩（CBDB 126810）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126810&o=json)
 - [中国历代人物传记资料库：王槩（CBDB 243238）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=243238&o=json)
+- [中国历代人物传记资料库：王仲起（CBDB 243237）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=243237&o=json)
 - [中国历代人物传记资料库：王子善（CBDB 243236）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=243236&o=json)

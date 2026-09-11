@@ -4,7 +4,7 @@ id: p_uKE1GZcJjjWN4cHRBMP9aK
 status: active
 merged_into: null
 display_name: 王璿
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_e5jrA5Nhmi3Juazf3lvV0R
+        subject_person_id: p_uKE1GZcJjjWN4cHRBMP9aK
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_tHYCzriS6LnJ4HHGiVfcHQ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2z9izPYn7qcp5ylTylnYQC
+          claim_id: c_e5jrA5Nhmi3Juazf3lvV0R
+          source_id: s_Yn8KP1n61f6yGwukEqwKKr
+          stance: supports
+          locator: 弘治六年進士登科錄:一卷，第三甲第二百零二名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_tHYCzriS6LnJ4HHGiVfcHQ
+        status: active
+        display_name: 王汝清
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -134,6 +160,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_tHYCzriS6LnJ4HHGiVfcHQ | 王汝清 | accepted |
 | descendants | p_FbvUfnrJsMZAACE7dBpnUs | 王胤賢 | accepted |
 
 ## 外部来源

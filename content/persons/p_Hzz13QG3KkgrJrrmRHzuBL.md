@@ -4,7 +4,7 @@ id: p_Hzz13QG3KkgrJrrmRHzuBL
 status: active
 merged_into: null
 display_name: 王宣
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,43 @@ relationships:
         status: active
         display_name: 王琳
         merged_into_person_id: null
+    - claim:
+        id: c_EgTTkv6np4Tj0j7_i7J33M
+        subject_person_id: p_ULELBwMik2U1wn4d9FWqsW
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Hzz13QG3KkgrJrrmRHzuBL
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_oGuE-fjjNgmbYYqsdvKi6R
+          claim_id: c_EgTTkv6np4Tj0j7_i7J33M
+          source_id: s_wzt6XYsN6GXf9zfxTu1wmV
+          stance: supports
+          locator: 弘治九年進士登科錄:一卷，第二甲第二十三名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_wzt6XYsN6GXf9zfxTu1wmV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王思恭（CBDB 267015）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=267015&o=json
+            external_identifier: CBDB:267015
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.758Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ULELBwMik2U1wn4d9FWqsW
+        status: active
+        display_name: 王思恭
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_7zDtBoXJhHQDuC7LGFFtF6 | 王朝輔 | accepted |
 | ancestors | p_1meANRjBEetnxL4bUgGNQH | 王琳 | accepted |
+| ancestors | p_ULELBwMik2U1wn4d9FWqsW | 王思恭 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王朝輔（CBDB 267017）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=267017&o=json)
 - [中国历代人物传记资料库：王琳（CBDB 267014）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=267014&o=json)
+- [中国历代人物传记资料库：王思恭（CBDB 267015）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=267015&o=json)
 - [中国历代人物传记资料库：王宣（CBDB 201094）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201094&o=json)

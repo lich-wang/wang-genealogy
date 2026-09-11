@@ -4,7 +4,7 @@ id: p_tJVHjGjKc27ATYVAuaH8nP
 status: active
 merged_into: null
 display_name: 王瑄
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_EHFENOmakZWuj_VRB8mObh
+        subject_person_id: p_tJVHjGjKc27ATYVAuaH8nP
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_wzpgCTfy9H3iqMXKhqaPfp
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XC88WczPbME9hEhfCNX7is
+          claim_id: c_EHFENOmakZWuj_VRB8mObh
+          source_id: s_GTjDTtJCADJetUY4LvTp7A
+          stance: supports
+          locator: 成化二年進士登科錄:一卷，第三甲第一百八十五名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_wzpgCTfy9H3iqMXKhqaPfp
+        status: active
+        display_name: 王俁
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_wzpgCTfy9H3iqMXKhqaPfp | 王俁 | accepted |
 
 ## 外部来源
 

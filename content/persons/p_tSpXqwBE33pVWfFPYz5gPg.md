@@ -4,7 +4,7 @@ id: p_tSpXqwBE33pVWfFPYz5gPg
 status: active
 merged_into: null
 display_name: 王士麟
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_PBQ6Z6ofsh1iPpY8Gy_nM5
+        subject_person_id: p_vM6985QJehceoGJD1bbJKF
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_tSpXqwBE33pVWfFPYz5gPg
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1T1lW6tgr92n7HZCS5Cvae
+          claim_id: c_PBQ6Z6ofsh1iPpY8Gy_nM5
+          source_id: s_y7FNEsGonfjXi7PPEnWuXe
+          stance: supports
+          locator: 元人傳記資料索引，870：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_vM6985QJehceoGJD1bbJKF
+        status: active
+        display_name: 王澄
+        merged_into_person_id: null
   children: []
   adoptive_parents:
     - claim:
@@ -192,6 +218,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_vM6985QJehceoGJD1bbJKF | 王澄 | accepted |
 | adoptive_parents | p_1oC2qMk3qZtNNJEcLaYnhz | 王汶 | accepted |
 
 ## 外部来源

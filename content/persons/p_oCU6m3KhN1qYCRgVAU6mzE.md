@@ -4,7 +4,7 @@ id: p_oCU6m3KhN1qYCRgVAU6mzE
 status: active
 merged_into: null
 display_name: 王嘉賓
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -152,6 +152,43 @@ relationships:
         status: active
         display_name: 王美
         merged_into_person_id: null
+    - claim:
+        id: c_O7AlTheDylq8tQ4ktjwh0O
+        subject_person_id: p_tNgkKtGqZPKoCHfNUfMVwp
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_oCU6m3KhN1qYCRgVAU6mzE
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5ZuE85jmkWANLsh96nQBJf
+          claim_id: c_O7AlTheDylq8tQ4ktjwh0O
+          source_id: s_UWuXMh88C5S38FHFUFr43h
+          stance: supports
+          locator: 嘉靖四十一年進士登科錄:一卷，第三甲第一百八十四名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_UWuXMh88C5S38FHFUFr43h
+            source_type: api_record
+            title: 中国历代人物传记资料库：王峻（CBDB 329101）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329101&o=json
+            external_identifier: CBDB:329101
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.316Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_tNgkKtGqZPKoCHfNUfMVwp
+        status: active
+        display_name: 王峻
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -173,9 +210,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_ti6Fg8MT1rHxww4P7Fhfft | 王天敘 | accepted |
 | ancestors | p_8rr68g8cnLvivKeGYTCMFh | 王美 | accepted |
+| ancestors | p_tNgkKtGqZPKoCHfNUfMVwp | 王峻 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王嘉賓（CBDB 126781）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126781&o=json)
+- [中国历代人物传记资料库：王峻（CBDB 329101）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329101&o=json)
 - [中国历代人物传记资料库：王美（CBDB 329102）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329102&o=json)
 - [中国历代人物传记资料库：王天敘（CBDB 329103）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329103&o=json)

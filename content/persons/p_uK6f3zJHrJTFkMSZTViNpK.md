@@ -4,7 +4,7 @@ id: p_uK6f3zJHrJTFkMSZTViNpK
 status: active
 merged_into: null
 display_name: 王鼎銘
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -106,7 +106,59 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_75zXH8RWO2_uV7eDD53JKb
+        subject_person_id: p_uK6f3zJHrJTFkMSZTViNpK
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_zezzzdKE1RTk3SQticUuJW
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YKC1aR-5ntIgq91OE2ppJF
+          claim_id: c_75zXH8RWO2_uV7eDD53JKb
+          source_id: s_PH9MVT6mUY7zCGUeaat8NL
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13095：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_zezzzdKE1RTk3SQticUuJW
+        status: active
+        display_name: 王映庚
+        merged_into_person_id: null
+    - claim:
+        id: c_0WpHfig7LFCJdfSaVQIk2a
+        subject_person_id: p_uK6f3zJHrJTFkMSZTViNpK
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_cjV9C9Yy1oEt8LQXAPK8qX
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QMU35l2Ur_kXSJXgD1-MRw
+          claim_id: c_0WpHfig7LFCJdfSaVQIk2a
+          source_id: s_PH9MVT6mUY7zCGUeaat8NL
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13095：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_cjV9C9Yy1oEt8LQXAPK8qX
+        status: active
+        display_name: 王映軫
+        merged_into_person_id: null
   other: []
 ---
 
@@ -126,6 +178,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_zezzzdKE1RTk3SQticUuJW | 王映庚 | accepted |
+| descendants | p_cjV9C9Yy1oEt8LQXAPK8qX | 王映軫 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_uEBEoGitzHAkzsm1Lhs1px
 status: active
 merged_into: null
 display_name: 王嶷
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,8 +100,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_OFcNrA49tad7GgQkOqujcb
+        subject_person_id: p_Fqf98231G66GDJtjxHT3fS
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_uEBEoGitzHAkzsm1Lhs1px
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_t1VP6EYji9bCAM_E76yPZO
+          claim_id: c_OFcNrA49tad7GgQkOqujcb
+          source_id: s_jD91Kp69RJC6vQB1gq5h23
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Fqf98231G66GDJtjxHT3fS
+        status: active
+        display_name: 王孝遠
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_qqoYwhH-24UKwBnwyXwLB7
+        subject_person_id: p_uEBEoGitzHAkzsm1Lhs1px
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_dPrDcxvzw77CiuihLH4sqV
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gt0karteSzrOIC3lpi9JNz
+          claim_id: c_qqoYwhH-24UKwBnwyXwLB7
+          source_id: s_jD91Kp69RJC6vQB1gq5h23
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_dPrDcxvzw77CiuihLH4sqV
+        status: active
+        display_name: 王旡難
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,6 +178,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Fqf98231G66GDJtjxHT3fS | 王孝遠 | accepted |
+| children | p_dPrDcxvzw77CiuihLH4sqV | 王旡難 | accepted |
 
 ## 外部来源
 

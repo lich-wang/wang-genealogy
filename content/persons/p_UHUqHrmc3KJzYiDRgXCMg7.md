@@ -4,7 +4,7 @@ id: p_UHUqHrmc3KJzYiDRgXCMg7
 status: active
 merged_into: null
 display_name: 王傅
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,43 @@ relationships:
         status: active
         display_name: 王安
         merged_into_person_id: null
+    - claim:
+        id: c_zpm-F3W-XebP2D5Maz8zf6
+        subject_person_id: p_TmD36wVHjfD8DL7MMyVRvc
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_UHUqHrmc3KJzYiDRgXCMg7
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QBtfYw5wFx6ENdGYMI7ojM
+          claim_id: c_zpm-F3W-XebP2D5Maz8zf6
+          source_id: s_66VboCNuZpSouvAFPnGnLC
+          stance: supports
+          locator: 正德十六年登科錄:一卷，第三甲第一百八十二名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_66VboCNuZpSouvAFPnGnLC
+            source_type: api_record
+            title: 中国历代人物传记资料库：王洪（CBDB 286064）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=286064&o=json
+            external_identifier: CBDB:286064
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.228Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_TmD36wVHjfD8DL7MMyVRvc
+        status: active
+        display_name: 王洪
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_exNPQqiad19zXtFzRk4E7x | 王琦 | accepted |
 | ancestors | p_iwotRk166CwUddrnrJYHtv | 王安 | accepted |
+| ancestors | p_TmD36wVHjfD8DL7MMyVRvc | 王洪 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王安（CBDB 286063）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=286063&o=json)
 - [中国历代人物传记资料库：王傅（CBDB 202284）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202284&o=json)
+- [中国历代人物传记资料库：王洪（CBDB 286064）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=286064&o=json)
 - [中国历代人物传记资料库：王琦（CBDB 286065）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=286065&o=json)

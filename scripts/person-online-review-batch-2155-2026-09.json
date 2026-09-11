@@ -1,0 +1,77 @@
+{
+  "schema": "wang-person-online-review-batch/v1",
+  "reviewer": "luna",
+  "reviewed_at": "2026-09-11",
+  "queue_positions": [
+    21541,
+    21550
+  ],
+  "summary": {
+    "reviewed": 10,
+    "relationships_added": 9,
+    "manual_review": 1
+  },
+  "relationships": [
+    {
+      "subject": "p_ua4wWGnxrrEiXXF9Cv3bbC",
+      "object": "p_x6FL5WRR9hDKHmd3EtZQ2C",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    },
+    {
+      "subject": "p_ua5krNPGJgzwR73W4Jck6v",
+      "object": "p_HYHpKaJa17iu8Upo6wdU7W",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 3
+    },
+    {
+      "subject": "p_YryEUozc38E4eMFzKVvEC7",
+      "object": "p_uaAMHJ66N58jAK54g3yzex",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    },
+    {
+      "subject": "p_uaAMHJ66N58jAK54g3yzex",
+      "object": "p_4KtMotrMctaQcYWaab91n2",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    },
+    {
+      "subject": "p_uaAMHJ66N58jAK54g3yzex",
+      "object": "p_L6M4SZMsciHvaQVG5T5vBP",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    },
+    {
+      "subject": "p_uAAyHX7RHTcurCnZEtd77T",
+      "object": "p_RFP8uQh7mfvwWjCYzUDpGk",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    },
+    {
+      "subject": "p_x3vAi17WDsyiWG8p26touF",
+      "object": "p_uaek5dH7vUvS3w7o2aMbko",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 3
+    },
+    {
+      "subject": "p_rjXdEc3EZ83pHMEvKqP92r",
+      "object": "p_uaek5dH7vUvS3w7o2aMbko",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 2
+    },
+    {
+      "subject": "p_UCY7Lf35hoXK1P9ERpnsFv",
+      "object": "p_uaek5dH7vUvS3w7o2aMbko",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    }
+  ],
+  "unchanged": [
+    "p_UA1Gy66YKiLva8dqHq5Y7h",
+    "p_UAAM7FSBX715etFhfpCdS4",
+    "p_uaarCqY7SXht5UFq5E2Gy8",
+    "p_UaCWmtg1iDKCxjd8EhT6Wz",
+    "p_uagHYmSR1zus6Jfxsio5hd"
+  ]
+}

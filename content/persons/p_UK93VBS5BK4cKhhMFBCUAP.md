@@ -4,7 +4,7 @@ id: p_UK93VBS5BK4cKhhMFBCUAP
 status: active
 merged_into: null
 display_name: 王慶玄
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -138,7 +138,33 @@ relationships:
         status: active
         display_name: 王子奇
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_fsUkESRGkW-pb9SLwA9Jmb
+        subject_person_id: p_UK93VBS5BK4cKhhMFBCUAP
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ZfyvU5K6XVnRk6apGKi83i
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cL1fyvzLCGQHy4hhiv_TGD
+          claim_id: c_fsUkESRGkW-pb9SLwA9Jmb
+          source_id: s_UeiE3hdZpqdouSCGZnUwFd
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_ZfyvU5K6XVnRk6apGKi83i
+        status: active
+        display_name: 王光復
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -164,6 +190,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_7aKyC49Foj81yU2JAL4fyu | 王子奇 | accepted |
+| children | p_ZfyvU5K6XVnRk6apGKi83i | 王光復 | accepted |
 
 ## 外部来源
 

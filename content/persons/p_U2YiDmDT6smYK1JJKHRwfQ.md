@@ -4,7 +4,7 @@ id: p_U2YiDmDT6smYK1JJKHRwfQ
 status: active
 merged_into: null
 display_name: 王顒
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_cwn2VKJ-zapUkZW_RqZaSh
+        subject_person_id: p_zPA3i3KEXxiLMEnkBzskLE
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_U2YiDmDT6smYK1JJKHRwfQ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pG5we0W2J44UFcMQFlb9SI
+          claim_id: c_cwn2VKJ-zapUkZW_RqZaSh
+          source_id: s_BFo837xf3DsLPaLeKBPCxJ
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_zPA3i3KEXxiLMEnkBzskLE
+        status: active
+        display_name: 王昌庭
+        merged_into_person_id: null
   children:
     - claim:
         id: c_0l70uugPWlTFQNygkwmamq
@@ -229,6 +255,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_zPA3i3KEXxiLMEnkBzskLE | 王昌庭 | accepted |
 | children | p_5Ma5zRu2ZvuxU2DRiwu789 | 王楚 | accepted |
 | children | p_M79KaY8vg2bzCw7nUFpsxE | 王讓 | accepted |
 

@@ -4,7 +4,7 @@ id: p_TmD36wVHjfD8DL7MMyVRvc
 status: active
 merged_into: null
 display_name: 王洪
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_zpm-F3W-XebP2D5Maz8zf6
+        subject_person_id: p_TmD36wVHjfD8DL7MMyVRvc
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_UHUqHrmc3KJzYiDRgXCMg7
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QBtfYw5wFx6ENdGYMI7ojM
+          claim_id: c_zpm-F3W-XebP2D5Maz8zf6
+          source_id: s_66VboCNuZpSouvAFPnGnLC
+          stance: supports
+          locator: 正德十六年登科錄:一卷，第三甲第一百八十二名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_UHUqHrmc3KJzYiDRgXCMg7
+        status: active
+        display_name: 王傅
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_UHUqHrmc3KJzYiDRgXCMg7 | 王傅 | accepted |
 
 ## 外部来源
 

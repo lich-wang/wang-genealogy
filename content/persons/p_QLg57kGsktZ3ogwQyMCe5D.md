@@ -4,7 +4,7 @@ id: p_QLg57kGsktZ3ogwQyMCe5D
 status: active
 merged_into: null
 display_name: 王濟
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_a3i0IipBysidvP2IbMQzfR
+        subject_person_id: p_uPy1xxHnaF5N46mHou6eoZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_QLg57kGsktZ3ogwQyMCe5D
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OPmfo5nL0g4x0fW0cFDwDv
+          claim_id: c_a3i0IipBysidvP2IbMQzfR
+          source_id: s_JFEUMBoStgcGfpBonVnTYd
+          stance: supports
+          locator: 成化十七年進士登科錄:一卷，第二甲第四十名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_JFEUMBoStgcGfpBonVnTYd
+            source_type: api_record
+            title: 中国历代人物传记资料库：王禮（CBDB 255104）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255104&o=json
+            external_identifier: CBDB:255104
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.328Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_uPy1xxHnaF5N46mHou6eoZ
+        status: active
+        display_name: 王禮
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -134,9 +171,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_uPy1xxHnaF5N46mHou6eoZ | 王禮 | accepted |
 | ancestors | p_Q77UD6T281bv2U6BNYSTjJ | 王希賢 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王濟（CBDB 126843）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126843&o=json)
+- [中国历代人物传记资料库：王禮（CBDB 255104）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255104&o=json)
 - [中国历代人物传记资料库：王希賢（CBDB 255102）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255102&o=json)

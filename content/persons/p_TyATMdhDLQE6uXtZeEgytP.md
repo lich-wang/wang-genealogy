@@ -4,7 +4,7 @@ id: p_TyATMdhDLQE6uXtZeEgytP
 status: active
 merged_into: null
 display_name: 王璿
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -116,6 +116,32 @@ relationships:
         status: active
         display_name: 王煥
         merged_into_person_id: null
+    - claim:
+        id: c_NmdRPeYTb27YxXuSppWwwH
+        subject_person_id: p_TyATMdhDLQE6uXtZeEgytP
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_x5chVJWUxFzThLSZwhLKJP
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_j34TT2COeY2GYnHX7jHfK7
+          claim_id: c_NmdRPeYTb27YxXuSppWwwH
+          source_id: s_mW7BpTS8i3S12SDY1dZ9ra
+          stance: supports
+          locator: 寶祐登科錄：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_x5chVJWUxFzThLSZwhLKJP
+        status: active
+        display_name: 王唐
+        merged_into_person_id: null
   other: []
 ---
 
@@ -135,6 +161,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | descendants | p_6GGJVngcs8ogdZy2FpEF4u | 王煥 | accepted |
+| descendants | p_x5chVJWUxFzThLSZwhLKJP | 王唐 | accepted |
 
 ## 外部来源
 
