@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王仲堪
 cbdb_id: 141326
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:141326
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_rErY2LTTPyhEcZTnzj5Up6
             source_type: api_record
             title: 中国历代人物传记资料库：王仲堪（CBDB 141326）
@@ -172,7 +172,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_0s7F0jmpFWbWbxlfS7zhs7
+        subject_person_id: p_V1WNcEWFyMKGiDwCARFKJg
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_R1RF133N5mwNT6YsnkkDcE
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YjXA2HBP9M7tk-kFPogCe3
+          claim_id: c_0s7F0jmpFWbWbxlfS7zhs7
+          source_id: s_rErY2LTTPyhEcZTnzj5Up6
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Zhenyuan 76：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_V1WNcEWFyMKGiDwCARFKJg
+        status: active
+        display_name: 王令仙
+        merged_into_person_id: null
   children:
     - claim:
         id: c_jHWMVCa3NQT_wl3uEN3cYa
@@ -274,6 +300,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_V1WNcEWFyMKGiDwCARFKJg | 王令仙 | accepted |
 | children | p_4K6CbpgcT5TowC24d9AA7r | 王存 | accepted |
 | children | p_GqKu1PLEX1JvWNxUfs7Dzz | 王較 | accepted |
 

@@ -4,7 +4,7 @@ id: p_gE38wphVgSX2ysH6WXuLZH
 status: active
 merged_into: null
 display_name: 王大禮
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -205,6 +205,44 @@ relationships:
         status: active
         display_name: 王起牧
         merged_into_person_id: null
+    - claim:
+        id: c_862Dae6yNNTAtP1JbHDhcS
+        subject_person_id: p_gE38wphVgSX2ysH6WXuLZH
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_tWvLcyqPqfcv2k5sniX1uV
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9ItQzMYxkIXBihhZJ-JKPu
+          claim_id: c_862Dae6yNNTAtP1JbHDhcS
+          source_id: s_Pg3fv61z448uccdBG9fJFt
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Pg3fv61z448uccdBG9fJFt
+            source_type: api_record
+            title: 中国历代人物传记资料库：王玄起（CBDB 140444）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140444&o=json
+            external_identifier: CBDB:140444
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:39.240Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_tWvLcyqPqfcv2k5sniX1uV
+        status: active
+        display_name: 王玄起
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -232,9 +270,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_BBMZKVuEpxR5WRY9AieqFs | 王朗 | accepted |
 | children | p_65VMUGA6qbK4R77Pu7xNTc | 王起牧 | accepted |
+| children | p_tWvLcyqPqfcv2k5sniX1uV | 王玄起 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王大禮（CBDB 142599）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=142599&o=json)
 - [中国历代人物传记资料库：王朗（CBDB 162480）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=162480&o=json)
 - [中国历代人物传记资料库：王起牧（CBDB 162481）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=162481&o=json)
+- [中国历代人物传记资料库：王玄起（CBDB 140444）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140444&o=json)

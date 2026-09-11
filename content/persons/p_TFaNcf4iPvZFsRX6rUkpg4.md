@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王阿剌帖木兒
 cbdb_id: 101478
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:101478
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_qshDi2LxMb8NvB6c4rEPSn
             source_type: api_record
             title: 中国历代人物传记资料库：王阿剌帖木兒（CBDB 101478）
@@ -86,7 +86,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_ZSUHA3BarBASFpw_JP8i93
+        subject_person_id: p_2NMYzKK7wTac2gL33PTAn5
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_TFaNcf4iPvZFsRX6rUkpg4
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0rZmSK1bEHqxHn5hdj_qUo
+          claim_id: c_ZSUHA3BarBASFpw_JP8i93
+          source_id: s_qshDi2LxMb8NvB6c4rEPSn
+          stance: supports
+          locator: 元人傳記資料索引，1339：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_2NMYzKK7wTac2gL33PTAn5
+        status: active
+        display_name: 王綧
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_2NMYzKK7wTac2gL33PTAn5 | 王綧 | accepted |
 
 ## 外部来源
 

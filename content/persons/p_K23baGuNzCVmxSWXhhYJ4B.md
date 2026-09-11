@@ -4,7 +4,7 @@ id: p_K23baGuNzCVmxSWXhhYJ4B
 status: active
 merged_into: null
 display_name: 王士性
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -169,7 +169,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_q6YnG7ZXWs728tOzlLCg8W
+        subject_person_id: p_SyGzt2QVX9p9429Xmvya6D
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_K23baGuNzCVmxSWXhhYJ4B
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_EkP6yTh2TotMaxLgonhFBH
+          claim_id: c_q6YnG7ZXWs728tOzlLCg8W
+          source_id: s_kbnye63zTpxMvNcdscZoJi
+          stance: supports
+          locator: 萬曆五年進士登科錄:一卷，第三甲第一百六十九名：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_kbnye63zTpxMvNcdscZoJi
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：趙氏（217871）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217871&o=json
+            external_identifier: CBDB:217871
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:59:35.134Z
+            metadata_json: null
+      object_person:
+        id: p_SyGzt2QVX9p9429Xmvya6D
+        status: active
+        display_name: 赵氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_XqhZQirKmKPuTLfyiKMSPQ
@@ -208,6 +245,43 @@ relationships:
         status: active
         display_name: 王明
         merged_into_person_id: null
+    - claim:
+        id: c__8Stv11ss-Es03WX2U3GeN
+        subject_person_id: p_tc8tLCyEu49sXcAYbw2GP6
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_K23baGuNzCVmxSWXhhYJ4B
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vRxg2tCumYQoGl4-9bm3p7
+          claim_id: c__8Stv11ss-Es03WX2U3GeN
+          source_id: s_ub9ZomX4NcFY5GpeLj5pja
+          stance: supports
+          locator: 萬曆五年進士登科錄:一卷，第三甲第一百六十九名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ub9ZomX4NcFY5GpeLj5pja
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王誾（217867）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217867&o=json
+            external_identifier: CBDB:217867
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:07:00.598Z
+            metadata_json: null
+      object_person:
+        id: p_tc8tLCyEu49sXcAYbw2GP6
+        status: active
+        display_name: 王訚
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -230,10 +304,14 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_xHekMpoEQyryADJWz2qmff | 王立轂 | accepted |
+| spouses | p_SyGzt2QVX9p9429Xmvya6D | 赵氏 | accepted |
 | ancestors | p_gSGT3VNm7ARS5peJbqNALW | 王明 | accepted |
+| ancestors | p_tc8tLCyEu49sXcAYbw2GP6 | 王訚 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王立轂（CBDB 702399）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=702399&o=json)
 - [中国历代人物传记资料库：王士性（CBDB 35066）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35066&o=json)
 - [CBDB 中国历代人物传记资料库：王明（217866）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217866&o=json)
+- [CBDB 中国历代人物传记资料库：王誾（217867）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217867&o=json)
+- [CBDB 中国历代人物传记资料库：趙氏（217871）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217871&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王克賡
 cbdb_id: 513577
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -111,6 +111,43 @@ relationships:
         status: active
         display_name: 王熙
         merged_into_person_id: null
+    - claim:
+        id: c_BN8f_R96QNYS9EqAUKuDEy
+        subject_person_id: p_tebqY22pd9wZzkQFGZaaDe
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_u3XFwsnU5Aqqrr7MXVuWXG
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wwHGp4ZC95zhhWFxmOPlhm
+          claim_id: c_BN8f_R96QNYS9EqAUKuDEy
+          source_id: s_48LqQaDxdZaKx1Y5S35tbe
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），71：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_48LqQaDxdZaKx1Y5S35tbe
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王熙（56873）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=56873&o=json
+            external_identifier: CBDB:56873
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:59:21.685Z
+            metadata_json: null
+      object_person:
+        id: p_tebqY22pd9wZzkQFGZaaDe
+        status: active
+        display_name: 王熙
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -135,6 +172,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_tebqY22pd9wZzkQFGZaaDe | 王熙 | accepted |
 | parents | p_tebqY22pd9wZzkQFGZaaDe | 王熙 | accepted |
 
 ## 外部来源

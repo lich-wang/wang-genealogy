@@ -4,7 +4,7 @@ id: p_5MbQaN6sLNicuc7FmMieJd
 status: active
 merged_into: null
 display_name: 王文錦
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -232,6 +232,44 @@ relationships:
         status: active
         display_name: 王金達
         merged_into_person_id: null
+    - claim:
+        id: c_4wnJDi7I-HbEfCe0bU-Pet
+        subject_person_id: p_5MbQaN6sLNicuc7FmMieJd
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_TePg5iyzsuvdTvQTET6NCS
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_RcU1FaYSMFiEjHzMGhuZ9F
+          claim_id: c_4wnJDi7I-HbEfCe0bU-Pet
+          source_id: s_XvEkFpYpyHLyt3Uebo4UFi
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），1042：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_XvEkFpYpyHLyt3Uebo4UFi
+            source_type: api_record
+            title: 中国历代人物传记资料库：王金逵（CBDB 515671）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=515671&o=json
+            external_identifier: CBDB:515671
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:18:16.852Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_TePg5iyzsuvdTvQTET6NCS
+        status: active
+        display_name: 王金逵
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -338,6 +376,7 @@ relationships:
 | parents | p_3BvBua6ZTDGv4MpNMX8be5 | 王炳榮 | accepted |
 | children | p_6TW397KYJb7vx4wkHQCYtc | 王金適 | accepted |
 | children | p_QGnCAWtNEYZLe2KyDMMQFy | 王金達 | accepted |
+| children | p_TePg5iyzsuvdTvQTET6NCS | 王金逵 | accepted |
 | ancestors | p_tNvdP123bDbFgE6LHR9Qrp | 王盛言 | accepted |
 | descendants | p_DZWt9AM7bc3P3e9fG5Py1x | 王保琪 | accepted |
 | descendants | p_2CN1rb9zH543xRBstFNPXh | 王保璐 | accepted |
@@ -345,5 +384,6 @@ relationships:
 ## 外部来源
 
 - [中国历代人物传记资料库：王金達（CBDB 515672）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=515672&o=json)
+- [中国历代人物传记资料库：王金逵（CBDB 515671）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=515671&o=json)
 - [中国历代人物传记资料库：王金適（CBDB 515673）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=515673&o=json)
 - [中国历代人物传记资料库：王文錦（CBDB 57810）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=57810&o=json)

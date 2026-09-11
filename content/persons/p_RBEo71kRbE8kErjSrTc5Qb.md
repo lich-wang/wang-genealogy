@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王宗智
 cbdb_id: 286126
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:286126
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_7j7yNMtPWAQUWPCeW7LqTj
             source_type: api_record
             title: 中国历代人物传记资料库：王宗智（CBDB 286126）
@@ -92,7 +92,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_PExiPM6HjQHXprmZmF5DSU
+        subject_person_id: p_RBEo71kRbE8kErjSrTc5Qb
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_AEPDTFs3e2Ci1GpeDM9fLo
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fSfzquvdwYj71uqMdGnqtQ
+          claim_id: c_PExiPM6HjQHXprmZmF5DSU
+          source_id: s_7j7yNMtPWAQUWPCeW7LqTj
+          stance: supports
+          locator: 正德十六年登科錄:一卷，第三甲第一百八十八名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_AEPDTFs3e2Ci1GpeDM9fLo
+        status: active
+        display_name: 王芳
+        merged_into_person_id: null
   other: []
 ---
 
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_AEPDTFs3e2Ci1GpeDM9fLo | 王芳 | accepted |
 
 ## 外部来源
 

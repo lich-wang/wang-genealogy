@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 刘氏
 cbdb_id: 277434
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -69,7 +69,7 @@ properties:
           locator: Q65886390
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_2q7JBathLoxDKP4nVWSx3w
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：劉氏（277434）
@@ -172,6 +172,32 @@ relationships:
         status: active
         display_name: 王以旗
         merged_into_person_id: null
+    - claim:
+        id: c_f0CVVSvoQ5s_jyyEMdqhdd
+        subject_person_id: p_tfSbnDZBoDF5ziKNcDfpiV
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_PuUiGdtpzWdsK7wcEt3S7p
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_i8wwauszulyHEPsxihD1aT
+          claim_id: c_f0CVVSvoQ5s_jyyEMdqhdd
+          source_id: s_2q7JBathLoxDKP4nVWSx3w
+          stance: supports
+          locator: 正德六年進士登科錄:一卷，第三甲第四十八名：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_PuUiGdtpzWdsK7wcEt3S7p
+        status: active
+        display_name: 王以旂
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -193,6 +219,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | spouses | p_xTUQkpHtgJpkRB8hx9DSUD | 王以旗 | accepted |
+| spouses | p_PuUiGdtpzWdsK7wcEt3S7p | 王以旂 | accepted |
 
 ## 外部来源
 

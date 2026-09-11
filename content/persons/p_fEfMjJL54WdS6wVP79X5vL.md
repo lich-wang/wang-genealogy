@@ -4,7 +4,7 @@ id: p_fEfMjJL54WdS6wVP79X5vL
 status: active
 merged_into: null
 display_name: 王時中
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -211,6 +211,43 @@ relationships:
         status: active
         display_name: 阎氏
         merged_into_person_id: null
+    - claim:
+        id: c_dxjnsXSyb39_c4ZMtJgsAy
+        subject_person_id: p_uDws44fZu54Eq8cAigBHGN
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_fEfMjJL54WdS6wVP79X5vL
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dn7AvpB5bCecI9oF5iDeiC
+          claim_id: c_dxjnsXSyb39_c4ZMtJgsAy
+          source_id: s_WR4FVLexzdT5jvPbjG2tFA
+          stance: supports
+          locator: 弘治三年進士登科錄:一卷，第三甲第六十五名：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_WR4FVLexzdT5jvPbjG2tFA
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：閻氏（262451）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262451&o=json
+            external_identifier: CBDB:262451
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:59:43.275Z
+            metadata_json: null
+      object_person:
+        id: p_uDws44fZu54Eq8cAigBHGN
+        status: active
+        display_name: 阎氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_4i_75Thps7XdKavR0C-n8r
@@ -288,9 +325,11 @@ relationships:
 | parents | p_bVznNBP2hMh6tDWAzv1nG9 | 王钻 | accepted |
 | children | p_hj1aopnNq8QeV1CBAKUXuj | 王守綱 | accepted |
 | spouses | p_uDws44fZu54Eq8cAigBHGN | 阎氏 | accepted |
+| spouses | p_uDws44fZu54Eq8cAigBHGN | 阎氏 | accepted |
 | ancestors | p_NVLBQYa3QUnLwwY5PFFU11 | 王升 | accepted |
 | ancestors | p_snnHYhecDpk5HZ7B1gQ1jo | 王琏 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王時中（CBDB 68328）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=68328&o=json)
+- [CBDB 中国历代人物传记资料库：閻氏（262451）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262451&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王元伯
 cbdb_id: 150370
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:150370
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_JtFvPAJpf3pthZ97eum63K
             source_type: api_record
             title: 中国历代人物传记资料库：王元伯（CBDB 150370）
@@ -86,7 +86,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_NA1ce9FUawxiFEV4XM-T87
+        subject_person_id: p_hEEgxGG3WH41XSNVFrkGHK
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_U8ouLRnZUnZ157zzvNoh6g
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_uqYJE3hZOlrOvyohzhcKHj
+          claim_id: c_NA1ce9FUawxiFEV4XM-T87
+          source_id: s_JtFvPAJpf3pthZ97eum63K
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Changan 22：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_hEEgxGG3WH41XSNVFrkGHK
+        status: active
+        display_name: 王嘉
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_hEEgxGG3WH41XSNVFrkGHK | 王嘉 | accepted |
 
 ## 外部来源
 

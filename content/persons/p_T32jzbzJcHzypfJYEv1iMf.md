@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王伯淳
 cbdb_id: 517404
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:517404
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_n1SWy4fsrPQc3f9o78UH87
             source_type: api_record
             title: 中国历代人物传记资料库：王伯淳（CBDB 517404）
@@ -86,7 +86,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_dagW2zyowvr41xYyVN7znk
+        subject_person_id: p_a4Z1SS7vUfao8RBemz7Fq9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_T32jzbzJcHzypfJYEv1iMf
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_LUZrE18imZpCMOGJF4lOs4
+          claim_id: c_dagW2zyowvr41xYyVN7znk
+          source_id: s_n1SWy4fsrPQc3f9o78UH87
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），1869：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_a4Z1SS7vUfao8RBemz7Fq9
+        status: active
+        display_name: 王兆琛
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_a4Z1SS7vUfao8RBemz7Fq9 | 王兆琛 | accepted |
 
 ## 外部来源
 

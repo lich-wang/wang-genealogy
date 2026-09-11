@@ -4,7 +4,7 @@ id: p_NMRFUBeVmvdX6z58cRugYK
 status: active
 merged_into: null
 display_name: 王弘
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -181,6 +181,44 @@ relationships:
         status: active
         display_name: 王舍宗
         merged_into_person_id: null
+    - claim:
+        id: c_JWEd8m3QOjRI3k93s_zJUS
+        subject_person_id: p_tHHqbmapYM6PjLTqirKHfA
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_NMRFUBeVmvdX6z58cRugYK
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_TqaSzV2GduY5hFi36ploZm
+          claim_id: c_JWEd8m3QOjRI3k93s_zJUS
+          source_id: s_Kg42FLV9BJ6dXTXRRiZhBU
+          stance: supports
+          locator: 弘治六年進士登科錄:一卷，第三甲第八十一名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Kg42FLV9BJ6dXTXRRiZhBU
+            source_type: api_record
+            title: 中国历代人物传记资料库：王秀翁（CBDB 265524）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265524&o=json
+            external_identifier: CBDB:265524
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:01.428Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_tHHqbmapYM6PjLTqirKHfA
+        status: active
+        display_name: 王秀翁
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -203,9 +241,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_K74x4UruQpAW2fkYoD9eky | 王清 | accepted |
 | ancestors | p_K7SU9AP7GmKVZSjKE1oq1N | 王舍宗 | accepted |
+| ancestors | p_tHHqbmapYM6PjLTqirKHfA | 王秀翁 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王弘（CBDB 200979）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200979&o=json)
 - [中国历代人物传记资料库：王清（CBDB 265528）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265528&o=json)
 - [中国历代人物传记资料库：王舍宗（CBDB 265527）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265527&o=json)
+- [中国历代人物传记资料库：王秀翁（CBDB 265524）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265524&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王槐起
 cbdb_id: 123340
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -244,6 +244,32 @@ relationships:
         status: active
         display_name: 陈德卿
         merged_into_person_id: null
+    - claim:
+        id: c_ZQWv4tXG_OqXGw79if6u5c
+        subject_person_id: p_Sj8hygc8GvhojMcdiG5GCH
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_C8S76xL9QeVY84yBo32FLj
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BI6eM0-98j80UnKUQkwxXH
+          claim_id: c_ZQWv4tXG_OqXGw79if6u5c
+          source_id: s_Mzx6GHSLqTuVLs67XBw7DL
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #5157：妻子"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_C8S76xL9QeVY84yBo32FLj
+        status: active
+        display_name: 陈德卿
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -265,6 +291,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_WgJjrR3eV8FZmEbV9t77oX | 王思任 | accepted |
+| spouses | p_C8S76xL9QeVY84yBo32FLj | 陈德卿 | accepted |
 | spouses | p_C8S76xL9QeVY84yBo32FLj | 陈德卿 | accepted |
 
 ## 外部来源

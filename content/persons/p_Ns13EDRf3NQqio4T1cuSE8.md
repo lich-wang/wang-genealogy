@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王景秀
 cbdb_id: 141201
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -249,6 +249,44 @@ relationships:
         status: active
         display_name: 王端嚴
         merged_into_person_id: null
+    - claim:
+        id: c_GOY2TZOOw_o6adx12a7gNM
+        subject_person_id: p_Ns13EDRf3NQqio4T1cuSE8
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_tsPhfJGWuwvUvkzZh1NoYQ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_LT2Bh_yyvjA1OJClF2B8OX
+          claim_id: c_GOY2TZOOw_o6adx12a7gNM
+          source_id: s_MSkmDDLjJPcNdYq5w18zb8
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Dali 48：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_MSkmDDLjJPcNdYq5w18zb8
+            source_type: api_record
+            title: 中国历代人物传记资料库：王淨德（CBDB 154994）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=154994&o=json
+            external_identifier: CBDB:154994
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:54.122Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_tsPhfJGWuwvUvkzZh1NoYQ
+        status: active
+        display_name: 王淨德
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -276,9 +314,11 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_pyf4sBuDxBZjfwC93u5Nsr | 王明德 | accepted |
 | children | p_gzSAA7pnJGSp9duTKAiL6T | 王端嚴 | accepted |
+| children | p_tsPhfJGWuwvUvkzZh1NoYQ | 王淨德 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王端嚴（CBDB 154995）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=154995&o=json)
 - [中国历代人物传记资料库：王景秀（CBDB 141201）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=141201&o=json)
+- [中国历代人物传记资料库：王淨德（CBDB 154994）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=154994&o=json)
 - [中国历代人物传记资料库：王明德（CBDB 154993）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=154993&o=json)

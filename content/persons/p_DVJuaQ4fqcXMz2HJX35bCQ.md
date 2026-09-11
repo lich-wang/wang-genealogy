@@ -4,7 +4,7 @@ id: p_DVJuaQ4fqcXMz2HJX35bCQ
 status: active
 merged_into: null
 display_name: 王一魁
-revision: 5
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -176,6 +176,44 @@ relationships:
         status: active
         display_name: 王夢熊
         merged_into_person_id: null
+    - claim:
+        id: c_v6BBqrr2w7MRYAldWAHf6-
+        subject_person_id: p_DVJuaQ4fqcXMz2HJX35bCQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_u1wp8xocy2jBFDuqxm11QW
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_22p3kKxBPwyK4eELhmPbb2
+          claim_id: c_v6BBqrr2w7MRYAldWAHf6-
+          source_id: s_pLkctrqmr8msH8i455HrdA
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第二甲第二百三十一名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_pLkctrqmr8msH8i455HrdA
+            source_type: api_record
+            title: 中国历代人物传记资料库：王夢虺（CBDB 230387）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=230387&o=json
+            external_identifier: CBDB:230387
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:58.142Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_u1wp8xocy2jBFDuqxm11QW
+        status: active
+        display_name: 王夢虺
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -276,6 +314,7 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_6Yn1HjpWop229REQ9NGBi2 | 王承光 | accepted |
 | children | p_HAPwpvZBVPzcnguyVmhnBB | 王夢熊 | accepted |
+| children | p_u1wp8xocy2jBFDuqxm11QW | 王夢虺 | accepted |
 | ancestors | p_JYdYtadGp7FCR1QziP7DkZ | 王平 | accepted |
 | ancestors | p_Rs4iVjw5c4LdbvYywk1bLT | 王瓘 | accepted |
 
@@ -283,6 +322,7 @@ relationships:
 
 - [中国历代人物传记资料库：王承光（CBDB 230377）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=230377&o=json)
 - [中国历代人物传记资料库：王瓘（CBDB 230375）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=230375&o=json)
+- [中国历代人物传记资料库：王夢虺（CBDB 230387）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=230387&o=json)
 - [中国历代人物传记资料库：王夢熊（CBDB 230386）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=230386&o=json)
 - [中国历代人物传记资料库：王平（CBDB 230376）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=230376&o=json)
 - [中国历代人物传记资料库：王一魁（CBDB 207258）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207258&o=json)

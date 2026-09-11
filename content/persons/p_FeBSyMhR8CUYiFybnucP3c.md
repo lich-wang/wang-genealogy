@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王秦客
 cbdb_id: 140839
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -250,6 +250,82 @@ relationships:
         status: active
         display_name: 王照之
         merged_into_person_id: null
+    - claim:
+        id: c_It03A8xs-gpZJSa595Tdr6
+        subject_person_id: p_FeBSyMhR8CUYiFybnucP3c
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_rk1hb7rQfza2c1ZeTJJTPC
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8dP3gQPDt2ooILCBx1bQof
+          claim_id: c_It03A8xs-gpZJSa595Tdr6
+          source_id: s_RWUhYEEEkLguVQnTHs8WrF
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Tianbao 34：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_RWUhYEEEkLguVQnTHs8WrF
+            source_type: api_record
+            title: 中国历代人物传记资料库：王黯之（CBDB 153389）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=153389&o=json
+            external_identifier: CBDB:153389
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:53.368Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_rk1hb7rQfza2c1ZeTJJTPC
+        status: active
+        display_name: 王黯之
+        merged_into_person_id: null
+    - claim:
+        id: c_Oyn7Tc6zu7DOkoqXip9KIc
+        subject_person_id: p_FeBSyMhR8CUYiFybnucP3c
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_tCGkhHK1ehogrCSauFXj39
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-3SlbA7cfR1jZnbVBblxKE
+          claim_id: c_Oyn7Tc6zu7DOkoqXip9KIc
+          source_id: s_yxoRnfFbu8Qpr7ZfYrCh3F
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Tianbao 34：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_yxoRnfFbu8Qpr7ZfYrCh3F
+            source_type: api_record
+            title: 中国历代人物传记资料库：王晤微（CBDB 153387）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=153387&o=json
+            external_identifier: CBDB:153387
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:53.368Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_tCGkhHK1ehogrCSauFXj39
+        status: active
+        display_name: 王晤微
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -314,11 +390,15 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_P5dzHJVD8yhzKzypAHxi6T | 王兼之 | accepted |
 | children | p_PWDBkLLZPWy1X8Fv8YmdiM | 王照之 | accepted |
+| children | p_rk1hb7rQfza2c1ZeTJJTPC | 王黯之 | accepted |
+| children | p_tCGkhHK1ehogrCSauFXj39 | 王晤微 | accepted |
 | ancestors | p_oLa6u987MQb63j3ya1tAqU | 王德素 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王黯之（CBDB 153389）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=153389&o=json)
 - [中国历代人物传记资料库：王德素（CBDB 153383）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=153383&o=json)
 - [中国历代人物传记资料库：王兼之（CBDB 153385）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=153385&o=json)
 - [中国历代人物传记资料库：王秦客（CBDB 140839）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140839&o=json)
+- [中国历代人物传记资料库：王晤微（CBDB 153387）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=153387&o=json)
 - [中国历代人物传记资料库：王照之（CBDB 153388）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=153388&o=json)

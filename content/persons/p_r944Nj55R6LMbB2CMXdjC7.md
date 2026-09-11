@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 薛氏
 cbdb_id: 140005
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -153,7 +153,7 @@ properties:
           locator: Q65802894
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_D2uq9qPZEDYPyXqkZuCFjL
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：薛氏（140005）
@@ -177,7 +177,85 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_f50zfH-Yi2ZLYeubSMyFLT
+        subject_person_id: p_r944Nj55R6LMbB2CMXdjC7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_E9ytpKcjGYRd1XZGve34gy
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mkgYRh-JIZJJXkt0906Wk-
+          claim_id: c_f50zfH-Yi2ZLYeubSMyFLT
+          source_id: s_D2uq9qPZEDYPyXqkZuCFjL
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Wansuitongtian 14：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_E9ytpKcjGYRd1XZGve34gy
+        status: active
+        display_name: 王景
+        merged_into_person_id: null
+    - claim:
+        id: c_S6vRt8aIKHSfdYbyQGNSWH
+        subject_person_id: p_r944Nj55R6LMbB2CMXdjC7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_65Sv25s3dJsDY8HXQATSAi
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__tYRwYN-b4BNCpuYJOL8sX
+          claim_id: c_S6vRt8aIKHSfdYbyQGNSWH
+          source_id: s_D2uq9qPZEDYPyXqkZuCFjL
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Wansuitongtian 14：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_65Sv25s3dJsDY8HXQATSAi
+        status: active
+        display_name: 王洛客
+        merged_into_person_id: null
+    - claim:
+        id: c_eZv9pJMogs5J_PFxlIo4A0
+        subject_person_id: p_r944Nj55R6LMbB2CMXdjC7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_JxF3daBH3pwTrX7Fy6gSs3
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2577JQL_5qK4ROcvmIdLic
+          claim_id: c_eZv9pJMogs5J_PFxlIo4A0
+          source_id: s_D2uq9qPZEDYPyXqkZuCFjL
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Wansuitongtian 14：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_JxF3daBH3pwTrX7Fy6gSs3
+        status: active
+        display_name: 王昌
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses:
@@ -275,8 +353,60 @@ relationships:
         status: active
         display_name: 王府君
         merged_into_person_id: null
+    - claim:
+        id: c_i50LMuhvTI8amwExFDIJFy
+        subject_person_id: p_r944Nj55R6LMbB2CMXdjC7
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_PrWK41ukxCufULdQG38iQM
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hG8u_gAX3DP2tAJX7QOsTU
+          claim_id: c_i50LMuhvTI8amwExFDIJFy
+          source_id: s_D2uq9qPZEDYPyXqkZuCFjL
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Wansuitongtian 14：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_PrWK41ukxCufULdQG38iQM
+        status: active
+        display_name: 王府君
+        merged_into_person_id: null
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_ldQ9FtrejRip95KD4M7_q1
+        subject_person_id: p_r944Nj55R6LMbB2CMXdjC7
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_SSTJUCFgcoSjH84AQbMYES
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_oL3Ao2WO0HP0coLhahbFlV
+          claim_id: c_ldQ9FtrejRip95KD4M7_q1
+          source_id: s_D2uq9qPZEDYPyXqkZuCFjL
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Wansuitongtian 14：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_SSTJUCFgcoSjH84AQbMYES
+        status: active
+        display_name: 王之豫
+        merged_into_person_id: null
   other: []
 ---
 
@@ -297,7 +427,12 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_E9ytpKcjGYRd1XZGve34gy | 王景 | accepted |
+| children | p_65Sv25s3dJsDY8HXQATSAi | 王洛客 | accepted |
+| children | p_JxF3daBH3pwTrX7Fy6gSs3 | 王昌 | accepted |
 | spouses | p_PrWK41ukxCufULdQG38iQM | 王府君 | accepted |
+| spouses | p_PrWK41ukxCufULdQG38iQM | 王府君 | accepted |
+| descendants | p_SSTJUCFgcoSjH84AQbMYES | 王之豫 | accepted |
 
 ## 外部来源
 

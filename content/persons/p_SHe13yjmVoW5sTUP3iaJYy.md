@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王公操
 cbdb_id: 143642
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:143642
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_1U9tXUzeWB34Sj6qaUeCBN
             source_type: api_record
             title: 中国历代人物传记资料库：王公操（CBDB 143642）
@@ -209,7 +209,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_G0a6TM1TV3B2TTajJUXOrV
+        subject_person_id: p_DPUzPRH4C7z282uoi5MQ6a
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_SHe13yjmVoW5sTUP3iaJYy
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_broVPDAtfzzvM-QUX0ZacQ
+          claim_id: c_G0a6TM1TV3B2TTajJUXOrV
+          source_id: s_1U9tXUzeWB34Sj6qaUeCBN
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Qianfu22：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_DPUzPRH4C7z282uoi5MQ6a
+        status: active
+        display_name: 王志用
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -232,6 +258,7 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_NhJEuRkw8RUmufbhCLgHKX | 王存禮 | accepted |
 | children | p_LyJ9tobZ2fr5fW49xrucMa | 王可度 | accepted |
+| ancestors | p_DPUzPRH4C7z282uoi5MQ6a | 王志用 | accepted |
 
 ## 外部来源
 

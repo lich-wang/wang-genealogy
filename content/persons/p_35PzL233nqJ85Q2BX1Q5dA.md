@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王良柱
 cbdb_id: 202803
-revision: 9
+revision: 10
 properties:
   - predicate: bio.summary
     recommended:
@@ -283,6 +283,44 @@ relationships:
         status: active
         display_name: 王錞
         merged_into_person_id: null
+    - claim:
+        id: c_026tZKUweOw8rG2KHudUE9
+        subject_person_id: p_tUUJLRTLozjhgRk2GuHbbu
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_35PzL233nqJ85Q2BX1Q5dA
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__mam5bYv4jRsKP0tU_cv4w
+          claim_id: c_026tZKUweOw8rG2KHudUE9
+          source_id: s_BDcXHrEWGRFHM9nkXiRv5B
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第二百一十九名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_BDcXHrEWGRFHM9nkXiRv5B
+            source_type: api_record
+            title: 中国历代人物传记资料库：王尚瑀（CBDB 294710）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294710&o=json
+            external_identifier: CBDB:294710
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:03.722Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_tUUJLRTLozjhgRk2GuHbbu
+        status: active
+        display_name: 王尚瑀
+        merged_into_person_id: null
   descendants:
     - claim:
         id: c_PEoFAH4wPDT3QJClD7ivrQ
@@ -473,6 +511,82 @@ relationships:
         status: active
         display_name: 王基京
         merged_into_person_id: null
+    - claim:
+        id: c_yZrXtXn9Pe1pQulcjp9P_L
+        subject_person_id: p_35PzL233nqJ85Q2BX1Q5dA
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_smx239hSf1Hi4d72s9AyRz
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HJjhM4m-JqXpF3GMFi71Ma
+          claim_id: c_yZrXtXn9Pe1pQulcjp9P_L
+          source_id: s_FBj6jAMvHWu7d6L58wNs8v
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第二百一十九名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_FBj6jAMvHWu7d6L58wNs8v
+            source_type: api_record
+            title: 中国历代人物传记资料库：王坤京（CBDB 294721）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294721&o=json
+            external_identifier: CBDB:294721
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:03.722Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_smx239hSf1Hi4d72s9AyRz
+        status: active
+        display_name: 王坤京
+        merged_into_person_id: null
+    - claim:
+        id: c_b22sBrTSXCA62CWhkous34
+        subject_person_id: p_35PzL233nqJ85Q2BX1Q5dA
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_sziDCoXrKTUefCn4kaJ4E8
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZEnpoL0sZ6T0_s-K-aV3P1
+          claim_id: c_b22sBrTSXCA62CWhkous34
+          source_id: s_akrNxoN4sE8z3CwMFAqxAQ
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第二百一十九名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_akrNxoN4sE8z3CwMFAqxAQ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王坊京（CBDB 294722）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294722&o=json
+            external_identifier: CBDB:294722
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:03.722Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_sziDCoXrKTUefCn4kaJ4E8
+        status: active
+        display_name: 王坊京
+        merged_into_person_id: null
   other: []
 ---
 
@@ -496,11 +610,14 @@ relationships:
 | children | p_25bxYkxDg88jPw2BmTPRrX | 王列 | accepted |
 | children | p_4GriEgrqEP5KnKX7db7riC | 王點 | accepted |
 | ancestors | p_gVSd52s65yGFeVvBTqbk7q | 王錞 | accepted |
+| ancestors | p_tUUJLRTLozjhgRk2GuHbbu | 王尚瑀 | accepted |
 | descendants | p_JyQurP22g37oU9bmwXM9Eq | 王繼曾 | accepted |
 | descendants | p_BFDV7acnCdY6xJ5FNvZKDJ | 王墀京 | accepted |
 | descendants | p_f4JuEaK4LNhkn4Zgbm74PZ | 王堡京 | accepted |
 | descendants | p_fWczF2jSL5FxnJaYaEq9Jv | 王陞京 | accepted |
 | descendants | p_hSn4qodg1L9JG29Qsj9HF7 | 王基京 | accepted |
+| descendants | p_smx239hSf1Hi4d72s9AyRz | 王坤京 | accepted |
+| descendants | p_sziDCoXrKTUefCn4kaJ4E8 | 王坊京 | accepted |
 
 ## 外部来源
 
@@ -508,9 +625,12 @@ relationships:
 - [中国历代人物传记资料库：王墀京（CBDB 294725）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294725&o=json)
 - [中国历代人物传记资料库：王錞（CBDB 294711）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294711&o=json)
 - [中国历代人物传记资料库：王點（CBDB 294719）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294719&o=json)
+- [中国历代人物传记资料库：王坊京（CBDB 294722）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294722&o=json)
 - [中国历代人物传记资料库：王海（CBDB 294712）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294712&o=json)
 - [中国历代人物传记资料库：王基京（CBDB 294730）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294730&o=json)
 - [中国历代人物传记资料库：王繼曾（CBDB 294731）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294731&o=json)
+- [中国历代人物传记资料库：王坤京（CBDB 294721）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294721&o=json)
 - [中国历代人物传记资料库：王良柱（CBDB 202803）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202803&o=json)
 - [中国历代人物传记资料库：王列（CBDB 294720）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294720&o=json)
+- [中国历代人物传记资料库：王尚瑀（CBDB 294710）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294710&o=json)
 - [中国历代人物传记资料库：王陞京（CBDB 294729）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294729&o=json)

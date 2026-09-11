@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王玄起
 cbdb_id: 140444
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:140444
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_Pg3fv61z448uccdBG9fJFt
             source_type: api_record
             title: 中国历代人物传记资料库：王玄起（CBDB 140444）
@@ -172,7 +172,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_862Dae6yNNTAtP1JbHDhcS
+        subject_person_id: p_gE38wphVgSX2ysH6WXuLZH
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_tWvLcyqPqfcv2k5sniX1uV
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9ItQzMYxkIXBihhZJ-JKPu
+          claim_id: c_862Dae6yNNTAtP1JbHDhcS
+          source_id: s_Pg3fv61z448uccdBG9fJFt
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_gE38wphVgSX2ysH6WXuLZH
+        status: active
+        display_name: 王大禮
+        merged_into_person_id: null
   children:
     - claim:
         id: c_L7XO-qjIRKFwIGXnp2JOVZ
@@ -273,6 +299,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_gE38wphVgSX2ysH6WXuLZH | 王大禮 | accepted |
 | children | p_8g8Qs1D562BbS3RLayRcPg | 王象 | accepted |
 | children | p_AFbFHZuiA1cXihLNwqN1PX | 王熊 | accepted |
 

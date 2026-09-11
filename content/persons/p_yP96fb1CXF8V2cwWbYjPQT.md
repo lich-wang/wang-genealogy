@@ -4,7 +4,7 @@ id: p_yP96fb1CXF8V2cwWbYjPQT
 status: active
 merged_into: null
 display_name: 王則
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -280,6 +280,82 @@ relationships:
         status: active
         display_name: 王祥慶
         merged_into_person_id: null
+    - claim:
+        id: c_53Ne56TeqAxV-uNhxULe3J
+        subject_person_id: p_yP96fb1CXF8V2cwWbYjPQT
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_rHGb2gSvSSkgZLjaB75DLA
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PrunCJUzSh0QyDtGcAtnw5
+          claim_id: c_53Ne56TeqAxV-uNhxULe3J
+          source_id: s_ELGBQ7b5ypKi4mdUFeyWam
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaiyuan 97：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ELGBQ7b5ypKi4mdUFeyWam
+            source_type: api_record
+            title: 中国历代人物传记资料库：王褘之（CBDB 151453）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=151453&o=json
+            external_identifier: CBDB:151453
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:53.368Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_rHGb2gSvSSkgZLjaB75DLA
+        status: active
+        display_name: 王褘之
+        merged_into_person_id: null
+    - claim:
+        id: c_3o2vQKjD9gjfdnFTaAfC24
+        subject_person_id: p_yP96fb1CXF8V2cwWbYjPQT
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_s94PJcRjXKLprDiKqkMqEj
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_IdBfpCvsdYkoez42cu5VEW
+          claim_id: c_3o2vQKjD9gjfdnFTaAfC24
+          source_id: s_KLWi7sGeaMMRiPX1sgu8Rr
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaiyuan 97：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_KLWi7sGeaMMRiPX1sgu8Rr
+            source_type: api_record
+            title: 中国历代人物传记资料库：王祥芝（CBDB 151451）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=151451&o=json
+            external_identifier: CBDB:151451
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:53.368Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_s94PJcRjXKLprDiKqkMqEj
+        status: active
+        display_name: 王祥芝
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -309,11 +385,15 @@ relationships:
 | children | p_g4sFp2xrphY4opHL4cs7cS | 王子奇 | accepted |
 | children | p_dXk5PGmhDsB5mGmUFtb8aF | 王祥鳳 | accepted |
 | children | p_fNZdtSCfwtT2Dhpg72Q2P3 | 王祥慶 | accepted |
+| children | p_rHGb2gSvSSkgZLjaB75DLA | 王褘之 | accepted |
+| children | p_s94PJcRjXKLprDiKqkMqEj | 王祥芝 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王暉（CBDB 151448）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=151448&o=json)
+- [中国历代人物传记资料库：王褘之（CBDB 151453）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=151453&o=json)
 - [中国历代人物传记资料库：王祥鳳（CBDB 151452）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=151452&o=json)
 - [中国历代人物传记资料库：王祥慶（CBDB 151450）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=151450&o=json)
+- [中国历代人物传记资料库：王祥芝（CBDB 151451）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=151451&o=json)
 - [中国历代人物传记资料库：王則（CBDB 140371）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140371&o=json)
 - [中国历代人物传记资料库：王子奇（CBDB 151449）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=151449&o=json)

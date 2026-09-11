@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王必达
 cbdb_id: 69135
-revision: 4
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -455,7 +455,45 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_4TAfpv243IIdwPxr1w8Gyx
+        subject_person_id: p_TGtuJvATC2ahD1ndjj2c2D
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_ZbD99C4BekXwqC5kDUcsjZ
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mCfqSV7mlrvfMcdH0uOOqT
+          claim_id: c_4TAfpv243IIdwPxr1w8Gyx
+          source_id: s_7fPP3UKJ5xiLCxR4bb5L4t
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），12833：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_7fPP3UKJ5xiLCxR4bb5L4t
+            source_type: api_record
+            title: 中国历代人物传记资料库：王雲飛（CBDB 526714）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526714&o=json
+            external_identifier: CBDB:526714
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:18:18.829Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_TGtuJvATC2ahD1ndjj2c2D
+        status: active
+        display_name: 王雲飛
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -484,10 +522,12 @@ relationships:
 | children | p_YGPufLUWajzkTLcs2sQboV | 王維禧 | accepted |
 | children | p_FrJEqY9jd798BiS6FFwQdX | 王維瀚 | accepted |
 | children | p_5NQtk9mAwoQps4NSXJ6J6x | 王鵬海 | accepted |
+| ancestors | p_TGtuJvATC2ahD1ndjj2c2D | 王雲飛 | accepted |
 
 ## 外部来源
 
 - [维基数据：王必达（Q45652582）](https://www.wikidata.org/wiki/Q45652582)
 - [维基数据：王鹏运（Q15941767）](https://www.wikidata.org/wiki/Q15941767)
 - [中国历代人物传记资料库：王誠立（CBDB 526715）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526715&o=json)
+- [中国历代人物传记资料库：王雲飛（CBDB 526714）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526714&o=json)
 - [CBDB 中国历代人物传记资料库：王必達（69135）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69135&o=json)

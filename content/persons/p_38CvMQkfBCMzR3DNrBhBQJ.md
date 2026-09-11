@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王世懋
 cbdb_id: 34719
-revision: 4
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -576,6 +576,43 @@ relationships:
         status: active
         display_name: 章氏
         merged_into_person_id: null
+    - claim:
+        id: c_DEFuyxexLrntnk2ODfcDWl
+        subject_person_id: p_SgThifkjTUbYEBc8gUKfZc
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_38CvMQkfBCMzR3DNrBhBQJ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7BQjs7P3iJV9aqTcRIY8B9
+          claim_id: c_DEFuyxexLrntnk2ODfcDWl
+          source_id: s_tdWQqB2uL459RPJUrKruXc
+          stance: supports
+          locator: 嘉靖三十八年進士登科錄:一卷，第三甲第一百四十七名：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_tdWQqB2uL459RPJUrKruXc
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：章氏（325416）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=325416&o=json
+            external_identifier: CBDB:325416
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T03:10:16.606Z
+            metadata_json: null
+      object_person:
+        id: p_SgThifkjTUbYEBc8gUKfZc
+        status: active
+        display_name: 章氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_fixNDz8Gr4LBTth1Ke3NQi
@@ -749,6 +786,7 @@ relationships:
 | parents | p_rhWqaakmtKs2T99dEuZoHh | 王忬 | accepted |
 | parents | p_ssAqXP1XN82W3Z1XD178zK | 王忬 | accepted |
 | children | p_8bp8UFt5ftmZi9Ry3T9KQh | 王士𫘧 | accepted |
+| spouses | p_SgThifkjTUbYEBc8gUKfZc | 章氏 | accepted |
 | spouses | p_SgThifkjTUbYEBc8gUKfZc | 章氏 | accepted |
 | ancestors | p_hhmhrJoJhGam6MtTDBQHpt | 王辂 | accepted |
 | ancestors | p_2CY82LiLunPZpBKWzpBz3S | 王倬 | accepted |

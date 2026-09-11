@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王希烈
 cbdb_id: 126546
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,7 +86,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_goH8tcrzsm3AhZpG_L3CGk
+        subject_person_id: p_uAujjG392SPymDDHoGZN88
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_nqXSbp6gt3VE2aHb7rdeET
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_f5gVqQuUpjiqWbuCU4kUx-
+          claim_id: c_goH8tcrzsm3AhZpG_L3CGk
+          source_id: s_V1MpscM6Ut3vE83ht3RtGq
+          stance: supports
+          locator: 嘉靖三十二年進士登科錄:一卷，第二甲第四十四名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_V1MpscM6Ut3vE83ht3RtGq
+            source_type: api_record
+            title: 中国历代人物传记资料库：王廷望（CBDB 315367）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=315367&o=json
+            external_identifier: CBDB:315367
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:06.030Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_uAujjG392SPymDDHoGZN88
+        status: active
+        display_name: 王廷望
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -187,6 +225,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_uAujjG392SPymDDHoGZN88 | 王廷望 | accepted |
 | ancestors | p_39p4Z47cj6Pu66BinzwEbo | 王崇禎 | accepted |
 | ancestors | p_QVYnzKQ3Qmo2oe1E9Nx6jF | 王紹肅 | accepted |
 
@@ -194,4 +233,5 @@ relationships:
 
 - [中国历代人物传记资料库：王崇禎（CBDB 315366）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=315366&o=json)
 - [中国历代人物传记资料库：王紹肅（CBDB 315365）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=315365&o=json)
+- [中国历代人物传记资料库：王廷望（CBDB 315367）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=315367&o=json)
 - [中国历代人物传记资料库：王希烈（CBDB 126546）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126546&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 赵氏
 cbdb_id: 217871
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -77,7 +77,7 @@ properties:
           locator: Q65820612
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_kbnye63zTpxMvNcdscZoJi
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：趙氏（217871）
@@ -172,6 +172,32 @@ relationships:
         status: active
         display_name: 王士性
         merged_into_person_id: null
+    - claim:
+        id: c_q6YnG7ZXWs728tOzlLCg8W
+        subject_person_id: p_SyGzt2QVX9p9429Xmvya6D
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_K23baGuNzCVmxSWXhhYJ4B
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_EkP6yTh2TotMaxLgonhFBH
+          claim_id: c_q6YnG7ZXWs728tOzlLCg8W
+          source_id: s_kbnye63zTpxMvNcdscZoJi
+          stance: supports
+          locator: 萬曆五年進士登科錄:一卷，第三甲第一百六十九名：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_K23baGuNzCVmxSWXhhYJ4B
+        status: active
+        display_name: 王士性
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -193,6 +219,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | spouses | p_ZHWKRzPsbezhFJuM1r6DbE | 王士性 | accepted |
+| spouses | p_K23baGuNzCVmxSWXhhYJ4B | 王士性 | accepted |
 
 ## 外部来源
 

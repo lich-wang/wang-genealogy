@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 章氏
 cbdb_id: 325416
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -77,7 +77,7 @@ properties:
           locator: Q65851988
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_tdWQqB2uL459RPJUrKruXc
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：章氏（325416）
@@ -211,6 +211,32 @@ relationships:
         status: active
         display_name: 王世懋
         merged_into_person_id: null
+    - claim:
+        id: c_DEFuyxexLrntnk2ODfcDWl
+        subject_person_id: p_SgThifkjTUbYEBc8gUKfZc
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_38CvMQkfBCMzR3DNrBhBQJ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7BQjs7P3iJV9aqTcRIY8B9
+          claim_id: c_DEFuyxexLrntnk2ODfcDWl
+          source_id: s_tdWQqB2uL459RPJUrKruXc
+          stance: supports
+          locator: 嘉靖三十八年進士登科錄:一卷，第三甲第一百四十七名：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_38CvMQkfBCMzR3DNrBhBQJ
+        status: active
+        display_name: 王世懋
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -231,6 +257,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_38CvMQkfBCMzR3DNrBhBQJ | 王世懋 | accepted |
 | spouses | p_38CvMQkfBCMzR3DNrBhBQJ | 王世懋 | accepted |
 
 ## 外部来源

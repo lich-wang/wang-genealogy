@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王瀠
 cbdb_id: 207813
-revision: 5
+revision: 6
 properties:
   - predicate: bio.summary
     recommended:
@@ -207,6 +207,44 @@ relationships:
         status: active
         display_name: 王尊坦
         merged_into_person_id: null
+    - claim:
+        id: c_lCpDdbBy2m-EtlGFVwAcr-
+        subject_person_id: p_fRd4kHJooaS9AErLa6rFp5
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_s45QjoKtzGxYWn92iAyF1v
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_CjRS4Vug5yLfBPxUKWi8Kr
+          claim_id: c_lCpDdbBy2m-EtlGFVwAcr-
+          source_id: s_CgQDiqKGwijHEkesDBTViy
+          stance: supports
+          locator: 萬曆三十八年庚戌科序齒錄:一卷，第三甲第一百五十二名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_CgQDiqKGwijHEkesDBTViy
+            source_type: api_record
+            title: 中国历代人物传记资料库：王尊素（CBDB 236430）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236430&o=json
+            external_identifier: CBDB:236430
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:58.856Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_s45QjoKtzGxYWn92iAyF1v
+        status: active
+        display_name: 王尊素
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -307,6 +345,7 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_8wBKhGEndLXas4ENZDEWFf | 王好敬 | accepted |
 | children | p_FdD4rxds3nCm5qJcDTUmi7 | 王尊坦 | accepted |
+| children | p_s45QjoKtzGxYWn92iAyF1v | 王尊素 | accepted |
 | ancestors | p_45n56RiQTWtDC21tW3p7zG | 王寶 | accepted |
 | ancestors | p_8EVZxxAjXpWHbww1dEyK7t | 王希哲 | accepted |
 
@@ -316,4 +355,5 @@ relationships:
 - [中国历代人物传记资料库：王好敬（CBDB 236421）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236421&o=json)
 - [中国历代人物传记资料库：王希哲（CBDB 236419）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236419&o=json)
 - [中国历代人物传记资料库：王瀠（CBDB 207813）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207813&o=json)
+- [中国历代人物传记资料库：王尊素（CBDB 236430）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236430&o=json)
 - [中国历代人物传记资料库：王尊坦（CBDB 236428）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236428&o=json)

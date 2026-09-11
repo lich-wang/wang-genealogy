@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王志悌
 cbdb_id: 140994
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -640,6 +640,43 @@ relationships:
         status: active
         display_name: 李氏
         merged_into_person_id: null
+    - claim:
+        id: c_uA2mVQ1HPqiWBq_eQedofp
+        subject_person_id: p_sJy5HhqgLH3dD5PKotzG8r
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_KXD6a4zaL9E1N69hTNkTMP
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qXpccsQllI6ld_d4Q3TY1B
+          claim_id: c_uA2mVQ1HPqiWBq_eQedofp
+          source_id: s_g976X44Q93pkoABpTU6h3j
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Tianbao 190：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_g976X44Q93pkoABpTU6h3j
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：崔氏（154151）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=154151&o=json
+            external_identifier: CBDB:154151
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T04:10:56.084Z
+            metadata_json: null
+      object_person:
+        id: p_sJy5HhqgLH3dD5PKotzG8r
+        status: active
+        display_name: 崔氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -668,6 +705,7 @@ relationships:
 | spouses | p_a3GyCfQsaAPkPQhLi9t2Z8 | 李氏 | accepted |
 | spouses | p_sJy5HhqgLH3dD5PKotzG8r | 崔氏 | accepted |
 | spouses | p_a3GyCfQsaAPkPQhLi9t2Z8 | 李氏 | accepted |
+| spouses | p_sJy5HhqgLH3dD5PKotzG8r | 崔氏 | accepted |
 
 ## 外部来源
 
@@ -677,6 +715,7 @@ relationships:
 - [维基数据：王胡子（Q45623519）](https://www.wikidata.org/wiki/Q45623519)
 - [维基数据：王同恩（Q45623269）](https://www.wikidata.org/wiki/Q45623269)
 - [维基数据：王志悌（Q45507893）](https://www.wikidata.org/wiki/Q45507893)
+- [CBDB 中国历代人物传记资料库：崔氏（154151）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=154151&o=json)
 - [CBDB 中国历代人物传记资料库：李氏（154150）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=154150&o=json)
 - [CBDB 中国历代人物传记资料库：王鴻（140992）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140992&o=json)
 - [CBDB 中国历代人物传记资料库：王鬍子（154142）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=154142&o=json)

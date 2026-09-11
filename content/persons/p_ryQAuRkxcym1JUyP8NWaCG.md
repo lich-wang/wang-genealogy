@@ -4,7 +4,7 @@ id: p_ryQAuRkxcym1JUyP8NWaCG
 status: active
 merged_into: null
 display_name: 王藎
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -152,6 +152,44 @@ relationships:
         status: active
         display_name: 王整
         merged_into_person_id: null
+    - claim:
+        id: c_1JObqHCaqxm96WCFHb-DaO
+        subject_person_id: p_rr4diTY4mwqa6m1AdeML55
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_ryQAuRkxcym1JUyP8NWaCG
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_A2fEHPO1HX_wHvzf6vg6tY
+          claim_id: c_1JObqHCaqxm96WCFHb-DaO
+          source_id: s_7BeNVARVZZCR6NwYSfFDGi
+          stance: supports
+          locator: 弘治九年進士登科錄:一卷，第二甲第十六名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_7BeNVARVZZCR6NwYSfFDGi
+            source_type: api_record
+            title: 中国历代人物传记资料库：王志友（CBDB 266935）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266935&o=json
+            external_identifier: CBDB:266935
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:01.428Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_rr4diTY4mwqa6m1AdeML55
+        status: active
+        display_name: 王志友
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -173,9 +211,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_GnhAaQQ4LxSawSCcG7G6UV | 王端 | accepted |
 | ancestors | p_bES4rRr9KHWRHyBtt2iz2m | 王整 | accepted |
+| ancestors | p_rr4diTY4mwqa6m1AdeML55 | 王志友 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王端（CBDB 266938）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266938&o=json)
 - [中国历代人物传记资料库：王藎（CBDB 126860）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126860&o=json)
 - [中国历代人物传记资料库：王整（CBDB 266936）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266936&o=json)
+- [中国历代人物传记资料库：王志友（CBDB 266935）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266935&o=json)

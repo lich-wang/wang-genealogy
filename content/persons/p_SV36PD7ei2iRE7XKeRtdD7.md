@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王洄
 cbdb_id: 190804
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:190804
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_TY8zY83SzdHrpvrqws41B8
             source_type: api_record
             title: 中国历代人物传记资料库：王洄（CBDB 190804）
@@ -129,7 +129,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_io4Q7qJheW0pnJOI2q6UUE
+        subject_person_id: p_HeGfMzKQ5r77Gp7MCsAkL6
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_SV36PD7ei2iRE7XKeRtdD7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_p21b7BZFxnSmGjvlhuQ6A-
+          claim_id: c_io4Q7qJheW0pnJOI2q6UUE
+          source_id: s_TY8zY83SzdHrpvrqws41B8
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_HeGfMzKQ5r77Gp7MCsAkL6
+        status: active
+        display_name: 王仲舒
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -155,6 +181,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_HeGfMzKQ5r77Gp7MCsAkL6 | 王仲舒 | accepted |
 
 ## 外部来源
 

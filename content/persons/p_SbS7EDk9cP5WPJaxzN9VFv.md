@@ -4,7 +4,7 @@ id: p_SbS7EDk9cP5WPJaxzN9VFv
 status: active
 merged_into: null
 display_name: 王著
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,83 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_E06tmjek5XKst0DJ3cNW_x
+        subject_person_id: p_S2bMf5TT7zeBk1PmuJVUuC
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_SbS7EDk9cP5WPJaxzN9VFv
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_c_zOtcezK6_5VIGzHk1Q7r
+          claim_id: c_E06tmjek5XKst0DJ3cNW_x
+          source_id: s_W17WSpMWdKxsKzVJi92is7
+          stance: supports
+          locator: 宋史：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_W17WSpMWdKxsKzVJi92is7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王景瓌（CBDB 121447）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=121447&o=json
+            external_identifier: CBDB:121447
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:51.722Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_S2bMf5TT7zeBk1PmuJVUuC
+        status: active
+        display_name: 王景瓌
+        merged_into_person_id: null
+    - claim:
+        id: c_9hLu6F4piprGRRX531hpwp
+        subject_person_id: p_tK22ze8qNKadSKiBXKRZGS
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_SbS7EDk9cP5WPJaxzN9VFv
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VnBOpvtFti576TCAFNrpgH
+          claim_id: c_9hLu6F4piprGRRX531hpwp
+          source_id: s_DaioyjoE9RDKG8CxsV5w9o
+          stance: supports
+          locator: 宋史：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_DaioyjoE9RDKG8CxsV5w9o
+            source_type: api_record
+            title: 中国历代人物传记资料库：王景瓖（CBDB 119730）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=119730&o=json
+            external_identifier: CBDB:119730
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:51.102Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_tK22ze8qNKadSKiBXKRZGS
+        status: active
+        display_name: 王景瓖
+        merged_into_person_id: null
   children:
     - claim:
         id: c_RkdHo_L6N_TUpd1t2JW9M7
@@ -201,11 +277,15 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_S2bMf5TT7zeBk1PmuJVUuC | 王景瓌 | accepted |
+| parents | p_tK22ze8qNKadSKiBXKRZGS | 王景瓖 | accepted |
 | children | p_JsftmCutiY1jUzBJV78ksL | 王嗣復 | accepted |
 | ancestors | p_8NZNv7f7tQow6sK17omZEp | 王賁 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王賁（CBDB 38805）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38805&o=json)
+- [中国历代人物传记资料库：王景瓌（CBDB 121447）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=121447&o=json)
+- [中国历代人物传记资料库：王景瓖（CBDB 119730）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=119730&o=json)
 - [中国历代人物传记资料库：王嗣復（CBDB 119746）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=119746&o=json)
 - [中国历代人物传记资料库：王著（CBDB 38965）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38965&o=json)

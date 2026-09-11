@@ -4,7 +4,7 @@ id: p_X3KgUwftEJuFzG5Sp9xV61
 status: active
 merged_into: null
 display_name: 王公晟
-revision: 6
+revision: 7
 properties:
   - predicate: name.primary
     recommended:
@@ -280,6 +280,44 @@ relationships:
         status: active
         display_name: 王弘雅
         merged_into_person_id: null
+    - claim:
+        id: c_eyMetWRHnCF5BOM44WrJ4X
+        subject_person_id: p_X3KgUwftEJuFzG5Sp9xV61
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_s8oEuGSh1iMMSs3R71XwXy
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2DdahAAoqzsk1uA5IQBJ2X
+          claim_id: c_eyMetWRHnCF5BOM44WrJ4X
+          source_id: s_DF5B9216aE2LNFuPDhCZxg
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Xiantong 83：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_DF5B9216aE2LNFuPDhCZxg
+            source_type: api_record
+            title: 中国历代人物传记资料库：王弘太（CBDB 160794）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=160794&o=json
+            external_identifier: CBDB:160794
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:54.741Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_s8oEuGSh1iMMSs3R71XwXy
+        status: active
+        display_name: 王弘太
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -346,6 +384,7 @@ relationships:
 | children | p_1BdwrzHXbPpt9SaMHCG8WV | 王弘楚 | accepted |
 | children | p_j1EQwBRr8jvQr1qcKXLVj7 | 王弘寂 | accepted |
 | children | p_LiDPYddVLMqBf6WDte6t1y | 王弘雅 | accepted |
+| children | p_s8oEuGSh1iMMSs3R71XwXy | 王弘太 | accepted |
 | ancestors | p_wYdGtG5JQEKNtrrjFh5BBV | 王清 | accepted |
 
 ## 外部来源
@@ -353,6 +392,7 @@ relationships:
 - [中国历代人物传记资料库：王公晟（CBDB 142034）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=142034&o=json)
 - [中国历代人物传记资料库：王弘楚（CBDB 160325）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=160325&o=json)
 - [中国历代人物传记资料库：王弘寂（CBDB 160795）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=160795&o=json)
+- [中国历代人物传记资料库：王弘太（CBDB 160794）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=160794&o=json)
 - [中国历代人物传记资料库：王弘雅（CBDB 160328）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=160328&o=json)
 - [中国历代人物传记资料库：王清（CBDB 160791）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=160791&o=json)
 - [中国历代人物传记资料库：王盈（CBDB 160793）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=160793&o=json)

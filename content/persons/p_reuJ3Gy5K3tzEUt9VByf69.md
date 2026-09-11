@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王理
 cbdb_id: 232113
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -208,7 +208,59 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_LjtJ9ltq2c3y36dGRbuHkS
+        subject_person_id: p_reuJ3Gy5K3tzEUt9VByf69
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_netpjn2vvpbP4gRNZK5nnW
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SsdmcH_AYfb_Hkp3gWtgoD
+          claim_id: c_LjtJ9ltq2c3y36dGRbuHkS
+          source_id: s_jC7QVg7b9xMaKB5QAPhZP2
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第二百二十七名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_netpjn2vvpbP4gRNZK5nnW
+        status: active
+        display_name: 王畿
+        merged_into_person_id: null
+    - claim:
+        id: c_xDAp090pW1WQ1dHhozmvpo
+        subject_person_id: p_reuJ3Gy5K3tzEUt9VByf69
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_desA1uacXT6D2CosVe2Mmy
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_53zQ1XQxej8YJ0wxY8TIM1
+          claim_id: c_xDAp090pW1WQ1dHhozmvpo
+          source_id: s_jC7QVg7b9xMaKB5QAPhZP2
+          stance: supports
+          locator: 萬曆二十年壬辰科進士歷履便覽:一卷，第三甲第二百四十名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_desA1uacXT6D2CosVe2Mmy
+        status: active
+        display_name: 王应吉
+        merged_into_person_id: null
   other: []
 ---
 
@@ -229,6 +281,8 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_GSmwJBLeFLbzGBorXyeZgE | 王可旺 | accepted |
 | children | p_38MrYsNYkPoBeMisQP7Sof | 王经 | accepted |
+| descendants | p_netpjn2vvpbP4gRNZK5nnW | 王畿 | accepted |
+| descendants | p_desA1uacXT6D2CosVe2Mmy | 王应吉 | accepted |
 
 ## 外部来源
 

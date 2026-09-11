@@ -4,7 +4,7 @@ id: p_94q1e1836gtMmWzZkszZK7
 status: active
 merged_into: null
 display_name: 王益
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -207,7 +207,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_oiPYkRmfeGcbZSwZLL6Zvd
+        subject_person_id: p_U5JQDU5J5YYRKaCvpa53pZ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_94q1e1836gtMmWzZkszZK7
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_J8HBk65tcAv5g-Nbh7lonN
+          claim_id: c_oiPYkRmfeGcbZSwZLL6Zvd
+          source_id: s_r1DEUtGRws9a3wk7bfrEBS
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，812;813：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_r1DEUtGRws9a3wk7bfrEBS
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王明（18552）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=18552&o=json
+            external_identifier: CBDB:18552
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T03:10:04.915Z
+            metadata_json: null
+      object_person:
+        id: p_U5JQDU5J5YYRKaCvpa53pZ
+        status: active
+        display_name: 王明
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -231,9 +268,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_ayDBbENQJQKZToA3G7hGQm | 谢氏 | accepted |
 | children | p_fuv1kE3UCBeTFNiA6c9Tuw | 王安石 | accepted |
+| ancestors | p_U5JQDU5J5YYRKaCvpa53pZ | 王明 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王益（CBDB 7082）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=7082&o=json)
 - [CBDB 中国历代人物传记资料库](https://cbdb.fas.harvard.edu)
+- [CBDB 中国历代人物传记资料库：王明（18552）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=18552&o=json)
 - [CBDB 中国历代人物传记资料库：謝氏（5305）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=5305&o=json)

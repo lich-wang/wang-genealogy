@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王祥芝
 cbdb_id: 151451
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:151451
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_KLWi7sGeaMMRiPX1sgu8Rr
             source_type: api_record
             title: 中国历代人物传记资料库：王祥芝（CBDB 151451）
@@ -86,7 +86,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_3o2vQKjD9gjfdnFTaAfC24
+        subject_person_id: p_yP96fb1CXF8V2cwWbYjPQT
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_s94PJcRjXKLprDiKqkMqEj
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_IdBfpCvsdYkoez42cu5VEW
+          claim_id: c_3o2vQKjD9gjfdnFTaAfC24
+          source_id: s_KLWi7sGeaMMRiPX1sgu8Rr
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaiyuan 97：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_yP96fb1CXF8V2cwWbYjPQT
+        status: active
+        display_name: 王則
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_yP96fb1CXF8V2cwWbYjPQT | 王則 | accepted |
 
 ## 外部来源
 

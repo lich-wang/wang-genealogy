@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王滋德
 cbdb_id: 232794
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:232794
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_4UPr2Fo69LTVzaH7Mm2dyt
             source_type: api_record
             title: 中国历代人物传记资料库：王滋德（CBDB 232794）
@@ -86,7 +86,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_9jEpCVZayrRxrkTukD57hI
+        subject_person_id: p_gEPN4Y1sSEhqz6ktqB2iGE
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_tTF5xWCQr61Y9V5j36CVNz
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_R8kdWbWDavhodwPel3Pr7F
+          claim_id: c_9jEpCVZayrRxrkTukD57hI
+          source_id: s_4UPr2Fo69LTVzaH7Mm2dyt
+          stance: supports
+          locator: 萬曆三十八年庚戌科序齒錄:一卷，第二甲第二十五名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_gEPN4Y1sSEhqz6ktqB2iGE
+        status: active
+        display_name: 王所用
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_gEPN4Y1sSEhqz6ktqB2iGE | 王所用 | accepted |
 
 ## 外部来源
 

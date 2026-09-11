@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王德表
 cbdb_id: 92112
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -613,7 +613,45 @@ relationships:
         status: active
         display_name: 王子杰
         merged_into_person_id: null
-  descendants: []
+  descendants:
+    - claim:
+        id: c_vqwJrlvnI4z1srCPBWgUnI
+        subject_person_id: p_GMCTq5KrktL4A6wV97QsyN
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_SSTJUCFgcoSjH84AQbMYES
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_i5chNrDKsASLdiDHx1AOml
+          claim_id: c_vqwJrlvnI4z1srCPBWgUnI
+          source_id: s_s1BpvJd4Mrwb22gPAse4dh
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Shengli 28：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_s1BpvJd4Mrwb22gPAse4dh
+            source_type: api_record
+            title: 中国历代人物传记资料库：王之豫（CBDB 149916）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=149916&o=json
+            external_identifier: CBDB:149916
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:53.368Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_SSTJUCFgcoSjH84AQbMYES
+        status: active
+        display_name: 王之豫
+        merged_into_person_id: null
   other: []
 ---
 
@@ -640,12 +678,14 @@ relationships:
 | children | p_MHnJiH3KT72B1d43pNjdsL | 王昱 | accepted |
 | children | p_JxF3daBH3pwTrX7Fy6gSs3 | 王昌 | accepted |
 | ancestors | p_JRxQLCdnELN71C7FFfG44D | 王子杰 | accepted |
+| descendants | p_SSTJUCFgcoSjH84AQbMYES | 王之豫 | accepted |
 
 ## 外部来源
 
 - [维基数据：王昌（Q45671769）](https://www.wikidata.org/wiki/Q45671769)
 - [维基数据：王德表（Q45447026）](https://www.wikidata.org/wiki/Q45447026)
 - [维基数据：王洛客（Q45503855）](https://www.wikidata.org/wiki/Q45503855)
+- [中国历代人物传记资料库：王之豫（CBDB 149916）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=149916&o=json)
 - [CBDB 中国历代人物传记资料库：王昌（149913）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=149913&o=json)
 - [CBDB 中国历代人物传记资料库：王德表（92112）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=92112&o=json)
 - [CBDB 中国历代人物传记资料库：王景（92088）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=92088&o=json)

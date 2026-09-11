@@ -4,7 +4,7 @@ id: p_w2z816UY6mM4xzeNHAgB83
 status: active
 merged_into: null
 display_name: 王渙
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -190,6 +190,44 @@ relationships:
         status: active
         display_name: 王在明
         merged_into_person_id: null
+    - claim:
+        id: c_awJEtPB7ViPUMcqbcb_hdE
+        subject_person_id: p_RfRv97Z1pxJbb55x6o4qmF
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_w2z816UY6mM4xzeNHAgB83
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_83Q-CNUrsv1kX9eQuu4zQg
+          claim_id: c_awJEtPB7ViPUMcqbcb_hdE
+          source_id: s_rfT8XuG7QSG6P7gbXUiRNS
+          stance: supports
+          locator: 弘治九年進士登科錄:一卷，第三甲第一百三十七名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_rfT8XuG7QSG6P7gbXUiRNS
+            source_type: api_record
+            title: 中国历代人物传记资料库：王泰寧（CBDB 269142）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=269142&o=json
+            external_identifier: CBDB:269142
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:01.428Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_RfRv97Z1pxJbb55x6o4qmF
+        status: active
+        display_name: 王泰寧
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -212,10 +250,12 @@ relationships:
 | parents | p_PbcMSPmGuF3fVvYFwz57Eb | 王京 | accepted |
 | children | p_bVxT7EN2J5N6Hv8i7T9bhX | 王挻 | accepted |
 | ancestors | p_d3GLG2yi3SZLVMfnxLc5V7 | 王在明 | accepted |
+| ancestors | p_RfRv97Z1pxJbb55x6o4qmF | 王泰寧 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王渙（CBDB 67928）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67928&o=json)
 - [中国历代人物传记资料库：王京（CBDB 269144）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=269144&o=json)
 - [中国历代人物传记资料库：王挻（CBDB 525668）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=525668&o=json)
+- [中国历代人物传记资料库：王泰寧（CBDB 269142）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=269142&o=json)
 - [中国历代人物传记资料库：王在明（CBDB 269143）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=269143&o=json)

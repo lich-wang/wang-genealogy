@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王昌
 cbdb_id: 149913
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -206,6 +206,43 @@ relationships:
         status: active
         display_name: 王德表
         merged_into_person_id: null
+    - claim:
+        id: c_eZv9pJMogs5J_PFxlIo4A0
+        subject_person_id: p_r944Nj55R6LMbB2CMXdjC7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_JxF3daBH3pwTrX7Fy6gSs3
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2577JQL_5qK4ROcvmIdLic
+          claim_id: c_eZv9pJMogs5J_PFxlIo4A0
+          source_id: s_D2uq9qPZEDYPyXqkZuCFjL
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Wansuitongtian 14：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_D2uq9qPZEDYPyXqkZuCFjL
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：薛氏（140005）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140005&o=json
+            external_identifier: CBDB:140005
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T03:10:23.644Z
+            metadata_json: null
+      object_person:
+        id: p_r944Nj55R6LMbB2CMXdjC7
+        status: active
+        display_name: 薛氏
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -231,6 +268,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_GMCTq5KrktL4A6wV97QsyN | 王德表 | accepted |
+| parents | p_r944Nj55R6LMbB2CMXdjC7 | 薛氏 | accepted |
 
 ## 外部来源
 
@@ -238,3 +276,4 @@ relationships:
 - [维基数据：王德表（Q45447026）](https://www.wikidata.org/wiki/Q45447026)
 - [CBDB 中国历代人物传记资料库：王昌（149913）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=149913&o=json)
 - [CBDB 中国历代人物传记资料库：王德表（92112）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=92112&o=json)
+- [CBDB 中国历代人物传记资料库：薛氏（140005）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140005&o=json)

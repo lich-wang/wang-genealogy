@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王公綬
 cbdb_id: 699337
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:699337
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_MVV2MwLDC1pgJjC3NxGELm
             source_type: api_record
             title: 中国历代人物传记资料库：王公綬（CBDB 699337）
@@ -172,7 +172,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_YI-o3AZGG0h2-K6E3yut0J
+        subject_person_id: p_A8o12ZD95CjiGDu4WMnHXc
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_tC6DjJ8Fwtj2D6kqdrmDjF
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ONItRN9pz1MzeMblBR6hIs
+          claim_id: c_YI-o3AZGG0h2-K6E3yut0J
+          source_id: s_MVV2MwLDC1pgJjC3NxGELm
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，北宋175 王公綬墓志：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_A8o12ZD95CjiGDu4WMnHXc
+        status: active
+        display_name: 王廩
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -199,6 +225,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_A8o12ZD95CjiGDu4WMnHXc | 王廩 | accepted |
 
 ## 外部来源
 

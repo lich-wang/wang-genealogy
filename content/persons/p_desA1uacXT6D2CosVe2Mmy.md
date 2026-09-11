@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王应吉
 cbdb_id: 207445
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -275,6 +275,43 @@ relationships:
         status: active
         display_name: 王經
         merged_into_person_id: null
+    - claim:
+        id: c_xDAp090pW1WQ1dHhozmvpo
+        subject_person_id: p_reuJ3Gy5K3tzEUt9VByf69
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_desA1uacXT6D2CosVe2Mmy
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_53zQ1XQxej8YJ0wxY8TIM1
+          claim_id: c_xDAp090pW1WQ1dHhozmvpo
+          source_id: s_jC7QVg7b9xMaKB5QAPhZP2
+          stance: supports
+          locator: 萬曆二十年壬辰科進士歷履便覽:一卷，第三甲第二百四十名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_jC7QVg7b9xMaKB5QAPhZP2
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王理（232113）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=232113&o=json
+            external_identifier: CBDB:232113
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:06:18.936Z
+            metadata_json: null
+      object_person:
+        id: p_reuJ3Gy5K3tzEUt9VByf69
+        status: active
+        display_name: 王理
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -297,6 +334,7 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_aXikAW5GmUNHUB4Mexh2vK | 王龙溪 | accepted |
 | ancestors | p_8gY9eTVRT2EQWmPPoaXa3X | 王經 | accepted |
+| ancestors | p_reuJ3Gy5K3tzEUt9VByf69 | 王理 | accepted |
 
 ## 外部来源
 
@@ -304,4 +342,5 @@ relationships:
 - [维基数据：王应吉（Q45685847）](https://www.wikidata.org/wiki/Q45685847)
 - [中国历代人物传记资料库：王經（CBDB 232114）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=232114&o=json)
 - [CBDB 中国历代人物传记资料库：王畿（126814）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126814&o=json)
+- [CBDB 中国历代人物传记资料库：王理（232113）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=232113&o=json)
 - [CBDB 中国历代人物传记资料库：王應吉（207445）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207445&o=json)

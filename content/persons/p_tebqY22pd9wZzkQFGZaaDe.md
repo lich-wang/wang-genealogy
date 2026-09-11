@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王熙
 cbdb_id: 56873
-revision: 5
+revision: 6
 properties:
   - predicate: bio.summary
     recommended:
@@ -423,6 +423,58 @@ relationships:
         status: active
         display_name: 王克賡
         merged_into_person_id: null
+    - claim:
+        id: c_7e3k_OeVkJ6Kgz_uoFxRqu
+        subject_person_id: p_tebqY22pd9wZzkQFGZaaDe
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_7NDJ89UZ7vGVaeWE7kAwXN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hqHxLP1z5KFoBAalmyWZ7i
+          claim_id: c_7e3k_OeVkJ6Kgz_uoFxRqu
+          source_id: s_48LqQaDxdZaKx1Y5S35tbe
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），71：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_7NDJ89UZ7vGVaeWE7kAwXN
+        status: active
+        display_name: 王克承
+        merged_into_person_id: null
+    - claim:
+        id: c_BN8f_R96QNYS9EqAUKuDEy
+        subject_person_id: p_tebqY22pd9wZzkQFGZaaDe
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_u3XFwsnU5Aqqrr7MXVuWXG
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wwHGp4ZC95zhhWFxmOPlhm
+          claim_id: c_BN8f_R96QNYS9EqAUKuDEy
+          source_id: s_48LqQaDxdZaKx1Y5S35tbe
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），71：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_u3XFwsnU5Aqqrr7MXVuWXG
+        status: active
+        display_name: 王克賡
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -603,6 +655,8 @@ relationships:
 | parents | p_CiuLfhowQZTcgDe4ZP3kiG | 王崇简 | accepted |
 | children | p_YbJtXntaA19PL7EU5mpmxE | 王氏 | accepted |
 | children | p_cxd5bBJMRXQ1FLgie23F8Z | 王克昌 | accepted |
+| children | p_7NDJ89UZ7vGVaeWE7kAwXN | 王克承 | accepted |
+| children | p_u3XFwsnU5Aqqrr7MXVuWXG | 王克賡 | accepted |
 | children | p_7NDJ89UZ7vGVaeWE7kAwXN | 王克承 | accepted |
 | children | p_u3XFwsnU5Aqqrr7MXVuWXG | 王克賡 | accepted |
 | descendants | p_F219MyNR97HgxYW2pAHDtK | 王則曾 | accepted |

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 陈德卿
 cbdb_id: 123338
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -161,6 +161,43 @@ relationships:
         status: active
         display_name: 王槐起
         merged_into_person_id: null
+    - claim:
+        id: c_ZQWv4tXG_OqXGw79if6u5c
+        subject_person_id: p_Sj8hygc8GvhojMcdiG5GCH
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_C8S76xL9QeVY84yBo32FLj
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BI6eM0-98j80UnKUQkwxXH
+          claim_id: c_ZQWv4tXG_OqXGw79if6u5c
+          source_id: s_Mzx6GHSLqTuVLs67XBw7DL
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #5157：妻子"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Mzx6GHSLqTuVLs67XBw7DL
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王槐起（123340）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=123340&o=json
+            external_identifier: CBDB:123340
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:00:14.657Z
+            metadata_json: null
+      object_person:
+        id: p_Sj8hygc8GvhojMcdiG5GCH
+        status: active
+        display_name: 王槐起
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -181,6 +218,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_Sj8hygc8GvhojMcdiG5GCH | 王槐起 | accepted |
 | spouses | p_Sj8hygc8GvhojMcdiG5GCH | 王槐起 | accepted |
 
 ## 外部来源

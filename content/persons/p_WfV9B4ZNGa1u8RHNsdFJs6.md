@@ -4,7 +4,7 @@ id: p_WfV9B4ZNGa1u8RHNsdFJs6
 status: active
 merged_into: null
 display_name: 王瑩
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_bP16IwHZPOzORV8IGf42pi
+        subject_person_id: p_SQbqrU6uRV1rZFhGVtQz9b
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_WfV9B4ZNGa1u8RHNsdFJs6
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Ax6rsQpdS_0QzUmygF4HCe
+          claim_id: c_bP16IwHZPOzORV8IGf42pi
+          source_id: s_sng5qohNtGDs2t4ziUWfPZ
+          stance: supports
+          locator: 弘治三年進士登科錄:一卷，第二甲第十名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_sng5qohNtGDs2t4ziUWfPZ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王稶（CBDB 261015）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261015&o=json
+            external_identifier: CBDB:261015
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:00.581Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_SQbqrU6uRV1rZFhGVtQz9b
+        status: active
+        display_name: 王稶
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -200,6 +238,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_SQbqrU6uRV1rZFhGVtQz9b | 王稶 | accepted |
 | ancestors | p_cPYX8RobAKWa2Dxnipi19F | 王浩 | accepted |
 | ancestors | p_LaSeLTpRwPyLiUTpu3t1Wu | 王文 | accepted |
 
@@ -208,3 +247,4 @@ relationships:
 - [中国历代人物传记资料库：王浩（CBDB 261013）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261013&o=json)
 - [中国历代人物传记资料库：王文（CBDB 261012）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261012&o=json)
 - [中国历代人物传记资料库：王瑩（CBDB 200655）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200655&o=json)
+- [中国历代人物传记资料库：王稶（CBDB 261015）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261015&o=json)

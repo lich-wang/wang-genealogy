@@ -4,7 +4,7 @@ id: p_8P5PCH5aTQeZpUfSAM9z5q
 status: active
 merged_into: null
 display_name: 王儼
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -152,6 +152,44 @@ relationships:
         status: active
         display_name: 王琛
         merged_into_person_id: null
+    - claim:
+        id: c_imQsHD-klt-W9WME7Wd74m
+        subject_person_id: p_s2csbXjocsYcsXXrsyC9LW
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_8P5PCH5aTQeZpUfSAM9z5q
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tFyYOLlTQUqbao0yIEnv84
+          claim_id: c_imQsHD-klt-W9WME7Wd74m
+          source_id: s_isAYGiMV7CgqSnZYqQ1W6h
+          stance: supports
+          locator: 成化五年進士登科錄:一卷，第三甲第六十七名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_isAYGiMV7CgqSnZYqQ1W6h
+            source_type: api_record
+            title: 中国历代人物传记资料库：王子民（CBDB 244023）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244023&o=json
+            external_identifier: CBDB:244023
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:59.761Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_s2csbXjocsYcsXXrsyC9LW
+        status: active
+        display_name: 王子民
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -173,9 +211,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_1G549N2d23KvV8NGLNV5ym | 王致中 | accepted |
 | ancestors | p_YhQdL9W3hbyh6iSy4bBDfB | 王琛 | accepted |
+| ancestors | p_s2csbXjocsYcsXXrsyC9LW | 王子民 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王琛（CBDB 244024）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244024&o=json)
 - [中国历代人物传记资料库：王儼（CBDB 126889）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126889&o=json)
 - [中国历代人物传记资料库：王致中（CBDB 244025）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244025&o=json)
+- [中国历代人物传记资料库：王子民（CBDB 244023）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244023&o=json)

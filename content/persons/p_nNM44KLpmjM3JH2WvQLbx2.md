@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王家礎
 cbdb_id: 207591
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -209,6 +209,44 @@ relationships:
         status: active
         display_name: 王寰
         merged_into_person_id: null
+    - claim:
+        id: c_UNzqiErJ5NszVxQfqxroFg
+        subject_person_id: p_tk5XB1fGig6R2c8qeCpFvw
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_nNM44KLpmjM3JH2WvQLbx2
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_logMgBtK767T5iw2a2uupl
+          claim_id: c_UNzqiErJ5NszVxQfqxroFg
+          source_id: s_oSiFQXvAkCavnxrmTnKLVp
+          stance: supports
+          locator: 萬曆二十年壬辰科進士歷履便覽:一卷，第三甲第四十一名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_oSiFQXvAkCavnxrmTnKLVp
+            source_type: api_record
+            title: 中国历代人物传记资料库：王得財（CBDB 232657）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=232657&o=json
+            external_identifier: CBDB:232657
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:58.142Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_tk5XB1fGig6R2c8qeCpFvw
+        status: active
+        display_name: 王得財
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -231,9 +269,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_NLK3MLLCWV39uoAkjLfgCa | 王豸 | accepted |
 | ancestors | p_Y7djPzAqLmAEHdsBaYr578 | 王寰 | accepted |
+| ancestors | p_tk5XB1fGig6R2c8qeCpFvw | 王得財 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王得財（CBDB 232657）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=232657&o=json)
 - [中国历代人物传记资料库：王寰（CBDB 232656）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=232656&o=json)
 - [中国历代人物传记资料库：王家礎（CBDB 207591）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207591&o=json)
 - [中国历代人物传记资料库：王豸（CBDB 232658）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=232658&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 李氏
 cbdb_id: 140938
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -161,7 +161,7 @@ properties:
           locator: Q65803036
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_oQtwPumURyxwA6cHx8wRTZ
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：李氏（140938）
@@ -177,7 +177,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_KJHlZqMG7KYb_-y7NCte7v
+        subject_person_id: p_s92BnuiYU99B9CbbcpkN5z
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_74AVJogdybebtFT6DXvEhJ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AgZaD1UJsyIDu9Bj_gLKV1
+          claim_id: c_KJHlZqMG7KYb_-y7NCte7v
+          source_id: s_oQtwPumURyxwA6cHx8wRTZ
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Tianbao 134：嗣子(作為繼承人的兒子)
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_74AVJogdybebtFT6DXvEhJ
+        status: active
+        display_name: 王羽
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses:
@@ -275,6 +301,32 @@ relationships:
         status: active
         display_name: 王某
         merged_into_person_id: null
+    - claim:
+        id: c_ilNB6gGXiRbLCNGzgWdFXT
+        subject_person_id: p_s92BnuiYU99B9CbbcpkN5z
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_MsHVjVc63eV8A8rm6FJdQR
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mUlBTBgZxhhttELlkmgSE9
+          claim_id: c_ilNB6gGXiRbLCNGzgWdFXT
+          source_id: s_oQtwPumURyxwA6cHx8wRTZ
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Tianbao 134：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_MsHVjVc63eV8A8rm6FJdQR
+        status: active
+        display_name: 王某
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -297,6 +349,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_74AVJogdybebtFT6DXvEhJ | 王羽 | accepted |
+| spouses | p_MsHVjVc63eV8A8rm6FJdQR | 王某 | accepted |
 | spouses | p_MsHVjVc63eV8A8rm6FJdQR | 王某 | accepted |
 
 ## 外部来源

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王應召
 cbdb_id: 526646
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -91,7 +91,45 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_XllbdK_rjUJjzhz8Q2ThT7
+        subject_person_id: p_uDdLmYU9jfQUkQM2GiCthQ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_ZYkE6Mjma6A8NhfXNfuvW3
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_UNCwhK_cZxf0wwgg1m0FXw
+          claim_id: c_XllbdK_rjUJjzhz8Q2ThT7
+          source_id: s_3BscJ8Ee9szkKzoNeu1PhH
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），12726：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_3BscJ8Ee9szkKzoNeu1PhH
+            source_type: api_record
+            title: 中国历代人物传记资料库：王文章（CBDB 69031）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69031&o=json
+            external_identifier: CBDB:69031
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:34.254Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_uDdLmYU9jfQUkQM2GiCthQ
+        status: active
+        display_name: 王文章
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -111,7 +149,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_uDdLmYU9jfQUkQM2GiCthQ | 王文章 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王文章（CBDB 69031）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69031&o=json)
 - [中国历代人物传记资料库：王應召（CBDB 526646）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526646&o=json)

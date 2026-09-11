@@ -4,7 +4,7 @@ id: p_HeGfMzKQ5r77Gp7MCsAkL6
 status: active
 merged_into: null
 display_name: 王仲舒
-revision: 5
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -352,6 +352,44 @@ relationships:
         status: active
         display_name: 王貞
         merged_into_person_id: null
+    - claim:
+        id: c_io4Q7qJheW0pnJOI2q6UUE
+        subject_person_id: p_HeGfMzKQ5r77Gp7MCsAkL6
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_SV36PD7ei2iRE7XKeRtdD7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_p21b7BZFxnSmGjvlhuQ6A-
+          claim_id: c_io4Q7qJheW0pnJOI2q6UUE
+          source_id: s_TY8zY83SzdHrpvrqws41B8
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_TY8zY83SzdHrpvrqws41B8
+            source_type: api_record
+            title: 中国历代人物传记资料库：王洄（CBDB 190804）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=190804&o=json
+            external_identifier: CBDB:190804
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:40.348Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_SV36PD7ei2iRE7XKeRtdD7
+        status: active
+        display_name: 王洄
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -383,11 +421,13 @@ relationships:
 | children | p_oiaWF1Wm3SGjSjnkEZ6joz | 王復 | accepted |
 | children | p_QsMHiHx445hmeqx5eEYc9b | 王宏 | accepted |
 | children | p_QUgQkTrn8xZi1gEd2SrxTK | 王貞 | accepted |
+| children | p_SV36PD7ei2iRE7XKeRtdD7 | 王洄 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王復（CBDB 190803）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=190803&o=json)
 - [中国历代人物传记资料库：王宏（CBDB 190801）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=190801&o=json)
+- [中国历代人物传记资料库：王洄（CBDB 190804）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=190804&o=json)
 - [中国历代人物传记资料库：王泰（CBDB 190802）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=190802&o=json)
 - [中国历代人物传记资料库：王哲（CBDB 190799）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=190799&o=json)
 - [中国历代人物传记资料库：王貞（CBDB 190800）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=190800&o=json)

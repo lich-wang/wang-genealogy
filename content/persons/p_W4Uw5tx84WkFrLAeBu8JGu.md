@@ -4,7 +4,7 @@ id: p_W4Uw5tx84WkFrLAeBu8JGu
 status: active
 merged_into: null
 display_name: 王嘉孝
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_6bcKq9oC73_RHwhxRffeGW
+        subject_person_id: p_Rh1K2iP8xhRWnRgvAy7R1F
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_W4Uw5tx84WkFrLAeBu8JGu
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vcvIa-Y283Gxcm29_gIuTV
+          claim_id: c_6bcKq9oC73_RHwhxRffeGW
+          source_id: s_1PyPsCZHhFBQNjrtcqnnKA
+          stance: supports
+          locator: 嘉靖二十年進士登科錄:一卷，第三甲第一百六十一名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_1PyPsCZHhFBQNjrtcqnnKA
+            source_type: api_record
+            title: 中国历代人物传记资料库：王時庸（CBDB 304774）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=304774&o=json
+            external_identifier: CBDB:304774
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:05.361Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_Rh1K2iP8xhRWnRgvAy7R1F
+        status: active
+        display_name: 王時庸
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -200,11 +238,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Rh1K2iP8xhRWnRgvAy7R1F | 王時庸 | accepted |
 | ancestors | p_Q4zHMaLc6WfcgCJNBJHez6 | 王璋 | accepted |
 | ancestors | p_TDLYpZV6QvrzV8d89Kjarb | 王信 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王嘉孝（CBDB 203440）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203440&o=json)
+- [中国历代人物传记资料库：王時庸（CBDB 304774）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=304774&o=json)
 - [中国历代人物传记资料库：王信（CBDB 304768）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=304768&o=json)
 - [中国历代人物传记资料库：王璋（CBDB 304773）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=304773&o=json)

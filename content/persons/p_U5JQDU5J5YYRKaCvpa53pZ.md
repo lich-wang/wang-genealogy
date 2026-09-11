@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王明
 cbdb_id: 18552
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -305,7 +305,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_oiPYkRmfeGcbZSwZLL6Zvd
+        subject_person_id: p_U5JQDU5J5YYRKaCvpa53pZ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_94q1e1836gtMmWzZkszZK7
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_J8HBk65tcAv5g-Nbh7lonN
+          claim_id: c_oiPYkRmfeGcbZSwZLL6Zvd
+          source_id: s_r1DEUtGRws9a3wk7bfrEBS
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，812;813：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_94q1e1836gtMmWzZkszZK7
+        status: active
+        display_name: 王益
+        merged_into_person_id: null
   other: []
 ---
 
@@ -326,6 +352,7 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_qhr63u6HvGLzGzcHEvaWtZ | 王用之 | accepted |
 | children | p_o255NHVLtnzoPr2i5G4ntm | 王贯之 | accepted |
+| descendants | p_94q1e1836gtMmWzZkszZK7 | 王益 | accepted |
 
 ## 外部来源
 

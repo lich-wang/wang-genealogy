@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王恩民
 cbdb_id: 205656
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -129,7 +129,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_UeCwSbEpBaNHrLbDJZWuYQ
+        subject_person_id: p_rzdGCJdbAnivH2NuEMbZHX
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3iyxEBFwgRpJCsXBwB3FWC
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3ts0Xj_p9UiI2MxyU_tCOV
+          claim_id: c_UeCwSbEpBaNHrLbDJZWuYQ
+          source_id: s_C6HkK9dtgbU99Pt8SkcQnQ
+          stance: supports
+          locator: 隆慶二年進士登科錄:一卷，第三甲第二百零六名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_C6HkK9dtgbU99Pt8SkcQnQ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王世學（CBDB 336580）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336580&o=json
+            external_identifier: CBDB:336580
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:08.348Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_rzdGCJdbAnivH2NuEMbZHX
+        status: active
+        display_name: 王世學
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -229,6 +267,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_rzdGCJdbAnivH2NuEMbZHX | 王世學 | accepted |
 | ancestors | p_JXKdLRZMZ2YY2MD7Q6D8KL | 王纓 | accepted |
 | ancestors | p_tQBiADTVUbgCwCe4Xfthvg | 王錀 | accepted |
 
@@ -236,4 +275,5 @@ relationships:
 
 - [中国历代人物传记资料库：王恩民（CBDB 205656）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205656&o=json)
 - [中国历代人物传记资料库：王錀（CBDB 336578）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336578&o=json)
+- [中国历代人物传记资料库：王世學（CBDB 336580）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336580&o=json)
 - [中国历代人物传记资料库：王纓（CBDB 336579）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336579&o=json)

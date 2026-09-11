@@ -4,7 +4,7 @@ id: p_dFkzc9URqii7PnCrQFe3SM
 status: active
 merged_into: null
 display_name: 王處厚
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -106,7 +106,45 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_6UeeOBfBcrc4U8LCTW_Ov2
+        subject_person_id: p_dFkzc9URqii7PnCrQFe3SM
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_tAAE6RBrQzSby9N5qxSRzS
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VtDuBpLizh0t1CDI82oPeV
+          claim_id: c_6UeeOBfBcrc4U8LCTW_Ov2
+          source_id: s_78D6z2qWPSfDz17NcvuwwD
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，卷二〇一五/四五二頁：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_78D6z2qWPSfDz17NcvuwwD
+            source_type: api_record
+            title: 中国历代人物传记资料库：王永堅（CBDB 95224）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=95224&o=json
+            external_identifier: CBDB:95224
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:37.980Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_tAAE6RBrQzSby9N5qxSRzS
+        status: active
+        display_name: 王永堅
+        merged_into_person_id: null
   other: []
 ---
 
@@ -126,7 +164,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_tAAE6RBrQzSby9N5qxSRzS | 王永堅 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王處厚（CBDB 38116）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38116&o=json)
+- [中国历代人物传记资料库：王永堅（CBDB 95224）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=95224&o=json)

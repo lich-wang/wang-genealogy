@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王審瓊
 cbdb_id: 689254
-revision: 12
+revision: 13
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:689254
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_JfVqmXA6KZKbZCUe4FFA5i
             source_type: api_record
             title: 中国历代人物传记资料库：王審瓊（CBDB 689254）
@@ -580,6 +580,32 @@ relationships:
         status: active
         display_name: 王小䔪
         merged_into_person_id: null
+    - claim:
+        id: c_v0TPlDoeCIOkaf6AVFC2Oq
+        subject_person_id: p_s2Ci3S96sKz8q9W2YdX1pM
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_zCt3C5WkPmrTGrUYKn2GeP
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ciL6CQpEC_RMFhLXuEONLk
+          claim_id: c_v0TPlDoeCIOkaf6AVFC2Oq
+          source_id: s_JfVqmXA6KZKbZCUe4FFA5i
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，40/王審瓊墓誌：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_zCt3C5WkPmrTGrUYKn2GeP
+        status: active
+        display_name: 王忙兒
+        merged_into_person_id: null
   other: []
 ---
 
@@ -611,6 +637,7 @@ relationships:
 | descendants | p_QN76kLww6aXF2YK9ZiUjHm | 王大䔪 | accepted |
 | descendants | p_Y6hGSBTgj27TktBQCunLJM | 王守忠 | accepted |
 | descendants | p_YpHYkKy2dohfCHHUwrq8Mp | 王小䔪 | accepted |
+| descendants | p_zCt3C5WkPmrTGrUYKn2GeP | 王忙兒 | accepted |
 
 ## 外部来源
 

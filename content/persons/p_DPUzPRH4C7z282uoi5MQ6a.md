@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王志用
 cbdb_id: 143395
-revision: 5
+revision: 6
 properties:
   - predicate: bio.summary
     recommended:
@@ -328,7 +328,45 @@ relationships:
         status: active
         display_name: 王仙
         merged_into_person_id: null
-  descendants: []
+  descendants:
+    - claim:
+        id: c_G0a6TM1TV3B2TTajJUXOrV
+        subject_person_id: p_DPUzPRH4C7z282uoi5MQ6a
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_SHe13yjmVoW5sTUP3iaJYy
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_broVPDAtfzzvM-QUX0ZacQ
+          claim_id: c_G0a6TM1TV3B2TTajJUXOrV
+          source_id: s_1U9tXUzeWB34Sj6qaUeCBN
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Qianfu22：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_1U9tXUzeWB34Sj6qaUeCBN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王公操（CBDB 143642）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=143642&o=json
+            external_identifier: CBDB:143642
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:39.240Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_SHe13yjmVoW5sTUP3iaJYy
+        status: active
+        display_name: 王公操
+        merged_into_person_id: null
   other: []
 ---
 
@@ -353,9 +391,11 @@ relationships:
 | children | p_Au1WeZMnymhKU4NdK9p1ii | 王公諫 | accepted |
 | children | p_GgipcFC83Ug7T1HsYud1Dr | 王公讓 | accepted |
 | ancestors | p_FoG33WZRA2VaDZVLo9UXti | 王仙 | accepted |
+| descendants | p_SHe13yjmVoW5sTUP3iaJYy | 王公操 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王公操（CBDB 143642）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=143642&o=json)
 - [中国历代人物传记资料库：王公諫（CBDB 166869）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=166869&o=json)
 - [中国历代人物传记资料库：王公讓（CBDB 166870）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=166870&o=json)
 - [中国历代人物传记资料库：王俊（CBDB 169044）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=169044&o=json)

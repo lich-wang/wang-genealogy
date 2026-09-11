@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王景
 cbdb_id: 92088
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -243,6 +243,43 @@ relationships:
         status: active
         display_name: 王表
         merged_into_person_id: null
+    - claim:
+        id: c_f50zfH-Yi2ZLYeubSMyFLT
+        subject_person_id: p_r944Nj55R6LMbB2CMXdjC7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_E9ytpKcjGYRd1XZGve34gy
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mkgYRh-JIZJJXkt0906Wk-
+          claim_id: c_f50zfH-Yi2ZLYeubSMyFLT
+          source_id: s_D2uq9qPZEDYPyXqkZuCFjL
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Wansuitongtian 14：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_D2uq9qPZEDYPyXqkZuCFjL
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：薛氏（140005）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140005&o=json
+            external_identifier: CBDB:140005
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T03:10:23.644Z
+            metadata_json: null
+      object_person:
+        id: p_r944Nj55R6LMbB2CMXdjC7
+        status: active
+        display_name: 薛氏
+        merged_into_person_id: null
   children:
     - claim:
         id: c_EbuhyrL7zLzJ5vHWCY8aVh
@@ -419,6 +456,7 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_GMCTq5KrktL4A6wV97QsyN | 王德表 | accepted |
 | parents | p_2QzaHREwKpSyXNbQkJ4Bk3 | 王表 | accepted |
+| parents | p_r944Nj55R6LMbB2CMXdjC7 | 薛氏 | accepted |
 | children | p_KrXiuuihJGRDJgH856L9a9 | 王之涣 | disputed |
 | children | p_TWVZdtkHCAJE3rdF74jZxi | 王之咸 | accepted |
 
@@ -432,3 +470,4 @@ relationships:
 - [CBDB 中国历代人物传记资料库：王景（92088）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=92088&o=json)
 - [CBDB 中国历代人物传记资料库：王之渙（91975）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=91975&o=json)
 - [CBDB 中国历代人物传记资料库：王之咸（146035）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=146035&o=json)
+- [CBDB 中国历代人物传记资料库：薛氏（140005）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140005&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王道質
 cbdb_id: 154278
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:154278
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_yLH4Pyma6ButAkd4rpTVtd
             source_type: api_record
             title: 中国历代人物传记资料库：王道質（CBDB 154278）
@@ -86,7 +86,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_6dWaijQPcdesCg1U1MLi1S
+        subject_person_id: p_uj9iEnV6pkqMeV3HS81VMA
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_S8HLtFDDBHcXVtx11UNHQB
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kU7VbSV5A5-p4fLjJVutLZ
+          claim_id: c_6dWaijQPcdesCg1U1MLi1S
+          source_id: s_yLH4Pyma6ButAkd4rpTVtd
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_uj9iEnV6pkqMeV3HS81VMA
+        status: active
+        display_name: 王師丘
+        merged_into_person_id: null
   children:
     - claim:
         id: c_kiLYwYsAcH_P1Td0B5he92
@@ -185,6 +211,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_uj9iEnV6pkqMeV3HS81VMA | 王師丘 | accepted |
 | children | p_aMH6LTAy41QNB3jZAPp6oX | 王仙客 | accepted |
 | descendants | p_1R27M2czAahiFDCMUScN43 | 王京 | accepted |
 
