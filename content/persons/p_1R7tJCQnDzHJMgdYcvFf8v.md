@@ -4,7 +4,7 @@ id: p_1R7tJCQnDzHJMgdYcvFf8v
 status: active
 merged_into: null
 display_name: 王椿
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,116 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_nfzXWOjaaKBEjm3D2bUX83
+        subject_person_id: p_hPeC8d79fUWi5bNUMWcM89
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_1R7tJCQnDzHJMgdYcvFf8v
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0-y4LTvL8XEqUEuUNYM26J
+          claim_id: c_nfzXWOjaaKBEjm3D2bUX83
+          source_id: s_Z2FLbe9bQgBZm3cMUB3yFn
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第二甲第六十名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_hPeC8d79fUWi5bNUMWcM89
+        status: active
+        display_name: 王璘
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_Zj_hTxJHqT0YpGUsYUdoDa
+        subject_person_id: p_1R7tJCQnDzHJMgdYcvFf8v
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_rWbTFNGvrAGvijYCj882fN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Vt_p68HNPom3lR2Zw9Wfgw
+          claim_id: c_Zj_hTxJHqT0YpGUsYUdoDa
+          source_id: s_Z2FLbe9bQgBZm3cMUB3yFn
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第二甲第六十名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_rWbTFNGvrAGvijYCj882fN
+        status: active
+        display_name: 王夢龍
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_bGAux8ZUexVIUVH-2s3nPk
+        subject_person_id: p_zsHWJNVYacVKr1iEB96F37
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_1R7tJCQnDzHJMgdYcvFf8v
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_oYjTuTW15p60b7CFjsj_CK
+          claim_id: c_bGAux8ZUexVIUVH-2s3nPk
+          source_id: s_Z2FLbe9bQgBZm3cMUB3yFn
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第二甲第六十名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_zsHWJNVYacVKr1iEB96F37
+        status: active
+        display_name: 王復初
+        merged_into_person_id: null
+    - claim:
+        id: c_fzkRVwDlt8WqNGA0o7wCKD
+        subject_person_id: p_8i21KJqpcnfH33nUAntUEA
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_1R7tJCQnDzHJMgdYcvFf8v
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lPTO7hNb8C-zCZXeMnWOGH
+          claim_id: c_fzkRVwDlt8WqNGA0o7wCKD
+          source_id: s_Z2FLbe9bQgBZm3cMUB3yFn
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第二甲第六十名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_8i21KJqpcnfH33nUAntUEA
+        status: active
+        display_name: 王鏞
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +230,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_hPeC8d79fUWi5bNUMWcM89 | 王璘 | accepted |
+| children | p_rWbTFNGvrAGvijYCj882fN | 王夢龍 | accepted |
+| ancestors | p_zsHWJNVYacVKr1iEB96F37 | 王復初 | accepted |
+| ancestors | p_8i21KJqpcnfH33nUAntUEA | 王鏞 | accepted |
 
 ## 外部来源
 

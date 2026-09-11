@@ -4,7 +4,7 @@ id: p_aMH6LTAy41QNB3jZAPp6oX
 status: active
 merged_into: null
 display_name: 王仙客
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -115,7 +115,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_QSnYrJIx3vNQxNwahA2BBE
+        subject_person_id: p_aMH6LTAy41QNB3jZAPp6oX
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_1R27M2czAahiFDCMUScN43
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_c3BshL6WNg5KrjHIRcpZZR
+          claim_id: c_QSnYrJIx3vNQxNwahA2BBE
+          source_id: s_gSvbm3ZseREEmUhYMheei9
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Tianbao 216：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_gSvbm3ZseREEmUhYMheei9
+            source_type: api_record
+            title: 中国历代人物传记资料库：王京（CBDB 141020）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=141020&o=json
+            external_identifier: CBDB:141020
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.544Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_1R27M2czAahiFDCMUScN43
+        status: active
+        display_name: 王京
+        merged_into_person_id: null
   other: []
 ---
 
@@ -135,8 +172,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_1DrQjoCaBy8kCLHN3o7pc1 | 王頊 | accepted |
+| descendants | p_1R27M2czAahiFDCMUScN43 | 王京 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王京（CBDB 141020）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=141020&o=json)
 - [中国历代人物传记资料库：王仙客（CBDB 154279）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=154279&o=json)
 - [中国历代人物传记资料库：王頊（CBDB 175804）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175804&o=json)
