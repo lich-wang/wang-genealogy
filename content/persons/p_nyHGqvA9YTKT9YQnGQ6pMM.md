@@ -4,7 +4,7 @@ id: p_nyHGqvA9YTKT9YQnGQ6pMM
 status: active
 merged_into: null
 display_name: 王大賓
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_dirzWBek1Bn9wx3bUFyrtB
+        subject_person_id: p_nyHGqvA9YTKT9YQnGQ6pMM
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_MM7KWyMsCLLasX9X9VAU7R
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_evB7Uc2W8O3oksXv7a6eV6
+          claim_id: c_dirzWBek1Bn9wx3bUFyrtB
+          source_id: s_HzGWmSex6535AXKT7cDc3R
+          stance: supports
+          locator: 嘉靖二十三年登科錄:一卷，第二甲第二十八名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_MM7KWyMsCLLasX9X9VAU7R
+        status: active
+        display_name: 王宗堯
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_MM7KWyMsCLLasX9X9VAU7R | 王宗堯 | accepted |
 
 ## 外部来源
 

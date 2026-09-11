@@ -4,7 +4,7 @@ id: p_oVB52nNYpQKMMkujZuH9Lj
 status: active
 merged_into: null
 display_name: 王之彥
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,43 @@ relationships:
         status: active
         display_name: 王儒
         merged_into_person_id: null
+    - claim:
+        id: c_Theti9Rj2BfE5UVYSe8Yyw
+        subject_person_id: p_ojJjpdmR25B7wZcWwgwALq
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_oVB52nNYpQKMMkujZuH9Lj
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BBDUhIiyb7kr1b8lRWyDCA
+          claim_id: c_Theti9Rj2BfE5UVYSe8Yyw
+          source_id: s_uA89AiDWUnK1V5C8uETLSG
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第三甲第九十八名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_uA89AiDWUnK1V5C8uETLSG
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瑤（CBDB 228827）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=228827&o=json
+            external_identifier: CBDB:228827
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.563Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ojJjpdmR25B7wZcWwgwALq
+        status: active
+        display_name: 王瑤
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_53YdPXVcBwoNNtoe9v5t6c | 王衣 | accepted |
 | ancestors | p_dUMsCe5EktacGt61k92yHb | 王儒 | accepted |
+| ancestors | p_ojJjpdmR25B7wZcWwgwALq | 王瑤 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王儒（CBDB 228828）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=228828&o=json)
+- [中国历代人物传记资料库：王瑤（CBDB 228827）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=228827&o=json)
 - [中国历代人物传记资料库：王衣（CBDB 228829）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=228829&o=json)
 - [中国历代人物传记资料库：王之彥（CBDB 207166）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207166&o=json)

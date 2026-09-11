@@ -4,7 +4,7 @@ id: p_NUN9V2WpcJELAKS3hvUbxx
 status: active
 merged_into: null
 display_name: 王瑞
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_k72CkhfDxJJb829bsFCcgj
+        subject_person_id: p_NUN9V2WpcJELAKS3hvUbxx
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_HkNX6H623Y1z9EYnBdcJJC
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_h5QYsIG5JTPSRKby-x7cOb
+          claim_id: c_k72CkhfDxJJb829bsFCcgj
+          source_id: s_zjyME1KpDFD2t6hpRmnWEe
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第二甲第四十七名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_HkNX6H623Y1z9EYnBdcJJC
+        status: active
+        display_name: 王三錫
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_HkNX6H623Y1z9EYnBdcJJC | 王三錫 | accepted |
 
 ## 外部来源
 

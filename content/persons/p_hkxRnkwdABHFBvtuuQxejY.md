@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王象坤
 cbdb_id: 205267
-revision: 4
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -345,6 +345,43 @@ relationships:
         status: active
         display_name: 王重光
         merged_into_person_id: null
+    - claim:
+        id: c_YSp939RBf6StORAClh-lOF
+        subject_person_id: p_niAWGy3PExNvwx864ZUMD4
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_hkxRnkwdABHFBvtuuQxejY
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gI54Er0dD2_ymgc321fypo
+          claim_id: c_YSp939RBf6StORAClh-lOF
+          source_id: s_19CCRmEk9KFjP33x48aXKd
+          stance: supports
+          locator: 嘉靖四十四年進士登科錄:一卷，第三甲第四十七名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_19CCRmEk9KFjP33x48aXKd
+            source_type: api_record
+            title: 中国历代人物传记资料库：王麟（CBDB 330747）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=330747&o=json
+            external_identifier: CBDB:330747
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.354Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_niAWGy3PExNvwx864ZUMD4
+        status: active
+        display_name: 王麟
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -369,12 +406,14 @@ relationships:
 | parents | p_MpZ2LnFZgx3bSNmDDeFm8J | 王之翰 | accepted |
 | spouses | p_xETp6apMdzRFX9CJqBM6Mg | 田氏 | accepted |
 | ancestors | p_LpCUmvNjN1ArRLMYaP9HDJ | 王重光 | accepted |
+| ancestors | p_niAWGy3PExNvwx864ZUMD4 | 王麟 | accepted |
 
 ## 外部来源
 
 - [维基数据：田氏（Q65857717）](https://www.wikidata.org/wiki/Q65857717)
 - [维基数据：王象坤（Q16904084）](https://www.wikidata.org/wiki/Q16904084)
 - [维基数据：王之翰（Q45450999）](https://www.wikidata.org/wiki/Q45450999)
+- [中国历代人物传记资料库：王麟（CBDB 330747）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=330747&o=json)
 - [中国历代人物传记资料库：王之翰（CBDB 330749）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=330749&o=json)
 - [中国历代人物传记资料库：王重光（CBDB 330748）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=330748&o=json)
 - [中文维基百科：王象坤](https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%B1%A1%E5%9D%A4)

@@ -4,7 +4,7 @@ id: p_pg2fYMa25vFJ1qFwgpCHBx
 status: active
 merged_into: null
 display_name: 王嘉謨
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -105,7 +105,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_OWUSFo9izFzVqkDUBd2Jxe
+        subject_person_id: p_o9vgsLh7vkPL51AtR6ZoSU
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_pg2fYMa25vFJ1qFwgpCHBx
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Z4xQDYLwMZffMkicUSkKxN
+          claim_id: c_OWUSFo9izFzVqkDUBd2Jxe
+          source_id: s_xjLvD5kvsU15fcK2uCxMch
+          stance: supports
+          locator: 嘉靖十七年進士登科錄:一卷，第二甲第九十一名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_xjLvD5kvsU15fcK2uCxMch
+            source_type: api_record
+            title: 中国历代人物传记资料库：王普（CBDB 299648）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=299648&o=json
+            external_identifier: CBDB:299648
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.606Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_o9vgsLh7vkPL51AtR6ZoSU
+        status: active
+        display_name: 王普
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_o9vgsLh7vkPL51AtR6ZoSU | 王普 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王嘉謨（CBDB 203092）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203092&o=json)
+- [中国历代人物传记资料库：王普（CBDB 299648）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=299648&o=json)

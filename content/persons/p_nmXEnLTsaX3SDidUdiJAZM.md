@@ -4,7 +4,7 @@ id: p_nmXEnLTsaX3SDidUdiJAZM
 status: active
 merged_into: null
 display_name: 王廣
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_hKOBVa-Gq1kIfFcY6W7GSl
+        subject_person_id: p_nmXEnLTsaX3SDidUdiJAZM
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_PNbNcPEUfkwixuHyP9PuYH
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xiQHfRNHwLsyPyYXPYONsF
+          claim_id: c_hKOBVa-Gq1kIfFcY6W7GSl
+          source_id: s_59y65qQyrDP96UmKGX7Hoj
+          stance: supports
+          locator: 景泰五年進士登科錄:一卷，第三甲第二百零九名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_PNbNcPEUfkwixuHyP9PuYH
+        status: active
+        display_name: 王上齡
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_PNbNcPEUfkwixuHyP9PuYH | 王上齡 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_nDu4qJEiukeRG7e3WQMWCW
 status: active
 merged_into: null
 display_name: 王感
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -129,7 +129,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_zjEn62kmwJ3u3du8WksN9n
+        subject_person_id: p_nDu4qJEiukeRG7e3WQMWCW
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_1F6rYaPHwFsRxodfNdNw5j
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_IwOjmf7smKOH8lKRmcFkGM
+          claim_id: c_zjEn62kmwJ3u3du8WksN9n
+          source_id: s_cTLz7KW3XKKs5XdbHWg21v
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Jinglong 26：嗣子(作為繼承人的兒子)
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_1F6rYaPHwFsRxodfNdNw5j
+        status: active
+        display_name: 王仁肅
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +181,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_1F6rYaPHwFsRxodfNdNw5j | 王仁肅 | accepted |
 
 ## 外部来源
 

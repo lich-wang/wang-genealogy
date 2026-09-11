@@ -4,7 +4,7 @@ id: p_nyqs9ApnwkQcyXyVvZypWX
 status: active
 merged_into: null
 display_name: 王佐
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_5hP1tsmOV0yrUyO76J4r4d
+        subject_person_id: p_nyqs9ApnwkQcyXyVvZypWX
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_xbM9HhzDmWYWXqKqbHR7tL
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_CCiMJluoY5neonDdpHvs14
+          claim_id: c_5hP1tsmOV0yrUyO76J4r4d
+          source_id: s_yj1GmQFf8eL7oKHtqhB2fa
+          stance: supports
+          locator: 成化十七年進士登科錄:一卷，第三甲第四十八名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_xbM9HhzDmWYWXqKqbHR7tL
+        status: active
+        display_name: 王鼎
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_xbM9HhzDmWYWXqKqbHR7tL | 王鼎 | accepted |
 
 ## 外部来源
 

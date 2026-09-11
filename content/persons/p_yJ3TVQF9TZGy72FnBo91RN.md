@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王鳳竹
 cbdb_id: 126794
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -128,7 +128,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_VSdoPw7z6B_pP4Mq_gaPIC
+        subject_person_id: p_NrHJq3kKQ1Euax66KDyGDM
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_yJ3TVQF9TZGy72FnBo91RN
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_uDwT3BwRVW6o7GAKGovDA3
+          claim_id: c_VSdoPw7z6B_pP4Mq_gaPIC
+          source_id: s_zDMDQ7mriEMzR1NrNwMqP7
+          stance: supports
+          locator: 萬曆二年進士登科錄:一卷，第三甲第八十一名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_zDMDQ7mriEMzR1NrNwMqP7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鎮（CBDB 213947）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213947&o=json
+            external_identifier: CBDB:213947
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.130Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_NrHJq3kKQ1Euax66KDyGDM
+        status: active
+        display_name: 王鎮
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -149,8 +186,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_3w6yDwcSmUtcvcpcvahG8r | 王都 | accepted |
+| ancestors | p_NrHJq3kKQ1Euax66KDyGDM | 王鎮 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王都（CBDB 213950）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213950&o=json)
 - [中国历代人物传记资料库：王鳳竹（CBDB 126794）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126794&o=json)
+- [中国历代人物传记资料库：王鎮（CBDB 213947）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213947&o=json)

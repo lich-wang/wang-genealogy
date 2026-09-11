@@ -4,7 +4,7 @@ id: p_kGhjBDdewAMKtwMDXvy2ts
 status: active
 merged_into: null
 display_name: 王良臣
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -115,6 +115,43 @@ relationships:
         status: active
         display_name: 王乾明
         merged_into_person_id: null
+    - claim:
+        id: c_BVuZly0UOESfoGVo8wTa3D
+        subject_person_id: p_nczT1Bx4gQZPAL8J9oF8s6
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_kGhjBDdewAMKtwMDXvy2ts
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_C_71m3TKGvYHlRgQRKEauQ
+          claim_id: c_BVuZly0UOESfoGVo8wTa3D
+          source_id: s_FpLtkm1NsAZb5xrPFdfQZ8
+          stance: supports
+          locator: (康熙)武功縣續志，lgid=1045709：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_FpLtkm1NsAZb5xrPFdfQZ8
+            source_type: api_record
+            title: 中国历代人物传记资料库：王繼祖（CBDB 555105）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=555105&o=json
+            external_identifier: CBDB:555105
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:25.628Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_nczT1Bx4gQZPAL8J9oF8s6
+        status: active
+        display_name: 王繼祖
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -135,8 +172,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_fUrkW6ozGrAosrVsTorpqL | 王乾明 | accepted |
+| ancestors | p_nczT1Bx4gQZPAL8J9oF8s6 | 王繼祖 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王繼祖（CBDB 555105）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=555105&o=json)
 - [中国历代人物传记资料库：王良臣（CBDB 555108）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=555108&o=json)
 - [中国历代人物传记资料库：王乾明（CBDB 555106）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=555106&o=json)

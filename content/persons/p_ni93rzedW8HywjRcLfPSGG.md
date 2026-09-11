@@ -4,7 +4,7 @@ id: p_ni93rzedW8HywjRcLfPSGG
 status: active
 merged_into: null
 display_name: 王民
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_Cwwy8uJKiR5S4wOz-quoCp
+        subject_person_id: p_ni93rzedW8HywjRcLfPSGG
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ufRLVRWc7tv4zcxsauhE29
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Nxrc2rSyJ2hhrnwM2YO0Yq
+          claim_id: c_Cwwy8uJKiR5S4wOz-quoCp
+          source_id: s_Ezt3Na7tG3g8JumS7oJ3ZU
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第九名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_ufRLVRWc7tv4zcxsauhE29
+        status: active
+        display_name: 王京
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_ufRLVRWc7tv4zcxsauhE29 | 王京 | accepted |
 
 ## 外部来源
 

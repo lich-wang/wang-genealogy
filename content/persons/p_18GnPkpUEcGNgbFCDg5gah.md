@@ -4,7 +4,7 @@ id: p_18GnPkpUEcGNgbFCDg5gah
 status: active
 merged_into: null
 display_name: 王任用
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -206,6 +206,43 @@ relationships:
         status: active
         display_name: 王訓
         merged_into_person_id: null
+    - claim:
+        id: c_ydGID8fkxWSOCwP5YINyht
+        subject_person_id: p_o3rUP2kQ1XZ8uF6hpE5TbV
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_18GnPkpUEcGNgbFCDg5gah
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_flsEDLsy12u-LWqX2DZp_i
+          claim_id: c_ydGID8fkxWSOCwP5YINyht
+          source_id: s_tFzDULdCMkmeKGi2oTM7eH
+          stance: supports
+          locator: 嘉靖二十六年進士登科錄:一卷，第三甲第一百六十五名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_tFzDULdCMkmeKGi2oTM7eH
+            source_type: api_record
+            title: 中国历代人物传记资料库：王恢（CBDB 311205）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=311205&o=json
+            external_identifier: CBDB:311205
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.846Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_o3rUP2kQ1XZ8uF6hpE5TbV
+        status: active
+        display_name: 王恢
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -229,9 +266,11 @@ relationships:
 | parents | p_CvzpEJfQqQbdZFgH5SKxcJ | 王時雨 | accepted |
 | spouses | p_QfJB6kHdWiEPHQYHnuHvBt | 錢氏 | accepted |
 | ancestors | p_hsrd5jGJNsGh8XhCPGY3RN | 王訓 | accepted |
+| ancestors | p_o3rUP2kQ1XZ8uF6hpE5TbV | 王恢 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：錢氏(王任用妻)（CBDB 311209）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=311209&o=json)
+- [中国历代人物传记资料库：王恢（CBDB 311205）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=311205&o=json)
 - [中国历代人物传记资料库：王任用（CBDB 203867）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203867&o=json)
 - [中国历代人物传记资料库：王訓（CBDB 311204）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=311204&o=json)

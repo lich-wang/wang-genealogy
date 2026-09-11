@@ -4,7 +4,7 @@ id: p_xEHN8E9qCG1mm7pRGjhi9k
 status: active
 merged_into: null
 display_name: 王宗善
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_i6z2O8Qnbr0GrsxwtzORjf
+        subject_person_id: p_xEHN8E9qCG1mm7pRGjhi9k
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_o5iCKboKod63KLGnA3UGdF
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_LNgSezqaOgCiUTO1EAypmO
+          claim_id: c_i6z2O8Qnbr0GrsxwtzORjf
+          source_id: s_FMHjch1AxZimYXE1NLHFCo
+          stance: supports
+          locator: 宋濂全集，423-425：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_FMHjch1AxZimYXE1NLHFCo
+            source_type: api_record
+            title: 中国历代人物传记资料库：王璵（CBDB 100989）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=100989&o=json
+            external_identifier: CBDB:100989
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:14.620Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_o5iCKboKod63KLGnA3UGdF
+        status: active
+        display_name: 王璵
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_o5iCKboKod63KLGnA3UGdF | 王璵 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王璵（CBDB 100989）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=100989&o=json)
 - [中国历代人物传记资料库：王宗善（CBDB 126283）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126283&o=json)

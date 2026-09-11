@@ -4,7 +4,7 @@ id: p_NifornqC4EVpGX7eH3CAcv
 status: active
 merged_into: null
 display_name: 王參
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_dSwOwzkWJqh9oPu-wlHerY
+        subject_person_id: p_NifornqC4EVpGX7eH3CAcv
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_DgK9C1vKkrTiGsfku4YvnW
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3oXf6iEZ7_g4ViF_W-k1c4
+          claim_id: c_dSwOwzkWJqh9oPu-wlHerY
+          source_id: s_SmqXxKg59TuWN1LeiX8PTF
+          stance: supports
+          locator: 天順四年進士登科錄:一卷，第三甲第八十一名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_DgK9C1vKkrTiGsfku4YvnW
+        status: active
+        display_name: 王綸
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_DgK9C1vKkrTiGsfku4YvnW | 王綸 | accepted |
 
 ## 外部来源
 

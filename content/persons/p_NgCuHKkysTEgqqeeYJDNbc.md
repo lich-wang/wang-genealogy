@@ -4,7 +4,7 @@ id: p_NgCuHKkysTEgqqeeYJDNbc
 status: active
 merged_into: null
 display_name: 王淑
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,59 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_vBqgagC7kGq41Xml31k9d6
+        subject_person_id: p_NgCuHKkysTEgqqeeYJDNbc
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_DPKdYaX4f6yTudovTApGHk
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_sAN4WuuMIgY41XjRMUaDMO
+          claim_id: c_vBqgagC7kGq41Xml31k9d6
+          source_id: s_KoJEQz4mu2rvQmBiDH12Uy
+          stance: supports
+          locator: 嘉靖十四年進士登科錄:一卷，第三甲第九十七名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_DPKdYaX4f6yTudovTApGHk
+        status: active
+        display_name: 王喬齡
+        merged_into_person_id: null
+    - claim:
+        id: c_ABeOM57hK9snCcJReE1CBb
+        subject_person_id: p_NgCuHKkysTEgqqeeYJDNbc
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_JE4JHCNRPza84DMSHaNQDc
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WDqf5zW78QXrIoYagWXQMg
+          claim_id: c_ABeOM57hK9snCcJReE1CBb
+          source_id: s_KoJEQz4mu2rvQmBiDH12Uy
+          stance: supports
+          locator: 嘉靖二十年進士登科錄:一卷，第三甲第一百二十四名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_JE4JHCNRPza84DMSHaNQDc
+        status: active
+        display_name: 王嵩
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_DPKdYaX4f6yTudovTApGHk | 王喬齡 | accepted |
+| descendants | p_JE4JHCNRPza84DMSHaNQDc | 王嵩 | accepted |
 
 ## 外部来源
 

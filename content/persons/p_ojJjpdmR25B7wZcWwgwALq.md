@@ -4,7 +4,7 @@ id: p_ojJjpdmR25B7wZcWwgwALq
 status: active
 merged_into: null
 display_name: 王瑤
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_Theti9Rj2BfE5UVYSe8Yyw
+        subject_person_id: p_ojJjpdmR25B7wZcWwgwALq
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_oVB52nNYpQKMMkujZuH9Lj
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BBDUhIiyb7kr1b8lRWyDCA
+          claim_id: c_Theti9Rj2BfE5UVYSe8Yyw
+          source_id: s_uA89AiDWUnK1V5C8uETLSG
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第三甲第九十八名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_oVB52nNYpQKMMkujZuH9Lj
+        status: active
+        display_name: 王之彥
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_oVB52nNYpQKMMkujZuH9Lj | 王之彥 | accepted |
 
 ## 外部来源
 

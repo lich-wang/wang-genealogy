@@ -4,7 +4,7 @@ id: p_qLd4Pf4cDMmmQ6kBWSiJ8T
 status: active
 merged_into: null
 display_name: 王壽
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -142,7 +142,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_cAWDfD38Fcn_OagtHldKkh
+        subject_person_id: p_nXk2hY7EmJcMfmCBa8SJtx
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_qLd4Pf4cDMmmQ6kBWSiJ8T
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BgelXwEVmTM94GS6CxagHp
+          claim_id: c_cAWDfD38Fcn_OagtHldKkh
+          source_id: s_9Y3NevBrbo6fTFYiE855xH
+          stance: supports
+          locator: 弘治九年進士登科錄:一卷，第二甲第八十二名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_9Y3NevBrbo6fTFYiE855xH
+            source_type: api_record
+            title: 中国历代人物传记资料库：王思義（CBDB 267648）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=267648&o=json
+            external_identifier: CBDB:267648
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.783Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_nXk2hY7EmJcMfmCBa8SJtx
+        status: active
+        display_name: 王思義
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_8ncCPBjMxsJMBARy66EQjw | 王俊 | accepted |
+| ancestors | p_nXk2hY7EmJcMfmCBa8SJtx | 王思義 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王俊（CBDB 267650）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=267650&o=json)
 - [中国历代人物传记资料库：王壽（CBDB 201134）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201134&o=json)
+- [中国历代人物传记资料库：王思義（CBDB 267648）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=267648&o=json)

@@ -4,7 +4,7 @@ id: p_o8ekPajcAzxRbPTTH8DZgk
 status: active
 merged_into: null
 display_name: 王志偉
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_zFI108HHb48hqAl_VRhUlb
+        subject_person_id: p_p5Bgq9U7wnsJs77muEqiGg
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_o8ekPajcAzxRbPTTH8DZgk
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_54_rG25jIhKum5Jo5t81iD
+          claim_id: c_zFI108HHb48hqAl_VRhUlb
+          source_id: s_9ZJPo11kpPhfEQfQk26qmb
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13153：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_p5Bgq9U7wnsJs77muEqiGg
+        status: active
+        display_name: 王履亨
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_p5Bgq9U7wnsJs77muEqiGg | 王履亨 | accepted |
 
 ## 外部来源
 

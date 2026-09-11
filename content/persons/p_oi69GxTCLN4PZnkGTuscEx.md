@@ -4,7 +4,7 @@ id: p_oi69GxTCLN4PZnkGTuscEx
 status: active
 merged_into: null
 display_name: 王經
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_s2NEv3k2kVZZlAXXtdhHcK
+        subject_person_id: p_oi69GxTCLN4PZnkGTuscEx
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_W5zx3veyZyjG5gBNh4mu99
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_aOEkY1ZFzEhxyw38Wv0ei8
+          claim_id: c_s2NEv3k2kVZZlAXXtdhHcK
+          source_id: s_rKw8Zpp1wzx52DHGZ9mHvb
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第三甲第一百五十四名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_W5zx3veyZyjG5gBNh4mu99
+        status: active
+        display_name: 王道正
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_W5zx3veyZyjG5gBNh4mu99 | 王道正 | accepted |
 
 ## 外部来源
 

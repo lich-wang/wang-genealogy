@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王方智
 cbdb_id: 152942
-revision: 5
+revision: 6
 properties:
   - predicate: bio.summary
     recommended:
@@ -274,6 +274,43 @@ relationships:
         status: active
         display_name: 王固業
         merged_into_person_id: null
+    - claim:
+        id: c_FSdY46px2bCKzS38zJhTOJ
+        subject_person_id: p_4EU5hab5MGo71FXwq1jBL2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_oBD3Lrd2Yz8RsfjH7h4B9D
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_aycyq-sEDfpZ4Xzkc5KVuX
+          claim_id: c_FSdY46px2bCKzS38zJhTOJ
+          source_id: s_8LBJJynCVZJo6vfkVLbo6F
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_8LBJJynCVZJo6vfkVLbo6F
+            source_type: api_record
+            title: 中国历代人物传记资料库：王固信（CBDB 175654）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175654&o=json
+            external_identifier: CBDB:175654
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.238Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_oBD3Lrd2Yz8RsfjH7h4B9D
+        status: active
+        display_name: 王固信
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -302,12 +339,14 @@ relationships:
 | children | p_AJm6CQ4oPcuxLAr142KLDK | 王固基 | accepted |
 | children | p_B66dkqwmxQnHimr8zprK22 | 王固廉 | accepted |
 | children | p_kMB47yQQ8M34DfeF4JqNxL | 王固業 | accepted |
+| children | p_oBD3Lrd2Yz8RsfjH7h4B9D | 王固信 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王方智（CBDB 152942）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=152942&o=json)
 - [中国历代人物传记资料库：王固基（CBDB 175653）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175653&o=json)
 - [中国历代人物传记资料库：王固廉（CBDB 175657）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175657&o=json)
+- [中国历代人物传记资料库：王固信（CBDB 175654）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175654&o=json)
 - [中国历代人物传记资料库：王固業（CBDB 175656）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175656&o=json)
 - [中国历代人物传记资料库：王固貞（CBDB 175655）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175655&o=json)
 - [中国历代人物传记资料库：王弘訓（CBDB 152941）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=152941&o=json)

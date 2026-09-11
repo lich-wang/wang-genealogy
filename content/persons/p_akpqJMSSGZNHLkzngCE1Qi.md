@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王子成
 cbdb_id: 200985
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -129,7 +129,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_rj8d41foGGtKJkieDZVZxf
+        subject_person_id: p_NoQErvZxoB9KT1iHrT84WN
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_akpqJMSSGZNHLkzngCE1Qi
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_IrlVeAgRoD8BybLfkr9_nx
+          claim_id: c_rj8d41foGGtKJkieDZVZxf
+          source_id: s_gQx6RLAB7kCeVWVmM7d5GD
+          stance: supports
+          locator: 弘治六年進士登科錄:一卷，第三甲第八十九名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_gQx6RLAB7kCeVWVmM7d5GD
+            source_type: api_record
+            title: 中国历代人物传记资料库：王紹（CBDB 265617）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265617&o=json
+            external_identifier: CBDB:265617
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.693Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_NoQErvZxoB9KT1iHrT84WN
+        status: active
+        display_name: 王紹
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -229,11 +266,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_NoQErvZxoB9KT1iHrT84WN | 王紹 | accepted |
 | ancestors | p_CHr9NQtS9eMRbFoCaUAQ6g | 王本 | accepted |
 | ancestors | p_FYFV29vLWqWc2g2kXP26Mo | 王禎 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王本（CBDB 265615）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265615&o=json)
+- [中国历代人物传记资料库：王紹（CBDB 265617）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265617&o=json)
 - [中国历代人物传记资料库：王禎（CBDB 265616）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265616&o=json)
 - [中国历代人物传记资料库：王子成（CBDB 200985）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200985&o=json)

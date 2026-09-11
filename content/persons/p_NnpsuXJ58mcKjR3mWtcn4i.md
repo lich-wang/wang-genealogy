@@ -4,7 +4,7 @@ id: p_NnpsuXJ58mcKjR3mWtcn4i
 status: active
 merged_into: null
 display_name: 王琳
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_Ci611qT_aQnVuRB5mAUkQk
+        subject_person_id: p_NnpsuXJ58mcKjR3mWtcn4i
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Wi1semPtGkaEHz1tXWTdxD
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hBYa4UwdfciBWSkT-1tWwY
+          claim_id: c_Ci611qT_aQnVuRB5mAUkQk
+          source_id: s_eLeTykP4jRZHcSkCTadmBg
+          stance: supports
+          locator: 嘉靖四十一年進士登科錄:一卷，第三甲第十六名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Wi1semPtGkaEHz1tXWTdxD
+        status: active
+        display_name: 王謨
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_Wi1semPtGkaEHz1tXWTdxD | 王謨 | accepted |
 
 ## 外部来源
 

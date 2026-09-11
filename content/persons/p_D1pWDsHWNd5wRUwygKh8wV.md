@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王三餘
 cbdb_id: 126452
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,7 +86,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_ujeiQU1mGhPXS11WrbzFFP
+        subject_person_id: p_NMZVjztWKmHmBJ3VeqqESt
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_D1pWDsHWNd5wRUwygKh8wV
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_yvTmrClVjv0u7dbzQVqN02
+          claim_id: c_ujeiQU1mGhPXS11WrbzFFP
+          source_id: s_xAEVe87o3biD33g4CLb25Y
+          stance: supports
+          locator: 萬曆二年進士登科錄:一卷，第三甲第一百二十一名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_xAEVe87o3biD33g4CLb25Y
+            source_type: api_record
+            title: 中国历代人物传记资料库：王遜（CBDB 214400）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214400&o=json
+            external_identifier: CBDB:214400
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.158Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_NMZVjztWKmHmBJ3VeqqESt
+        status: active
+        display_name: 王遜
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -148,9 +185,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_NMZVjztWKmHmBJ3VeqqESt | 王遜 | accepted |
 | ancestors | p_HFYLoGj9XA7izk92Amt8wf | 王讓 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王讓（CBDB 214398）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214398&o=json)
 - [中国历代人物传记资料库：王三餘（CBDB 126452）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126452&o=json)
+- [中国历代人物传记资料库：王遜（CBDB 214400）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214400&o=json)

@@ -4,7 +4,7 @@ id: p_nXk2hY7EmJcMfmCBa8SJtx
 status: active
 merged_into: null
 display_name: 王思義
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_cAWDfD38Fcn_OagtHldKkh
+        subject_person_id: p_nXk2hY7EmJcMfmCBa8SJtx
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_qLd4Pf4cDMmmQ6kBWSiJ8T
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BgelXwEVmTM94GS6CxagHp
+          claim_id: c_cAWDfD38Fcn_OagtHldKkh
+          source_id: s_9Y3NevBrbo6fTFYiE855xH
+          stance: supports
+          locator: 弘治九年進士登科錄:一卷，第二甲第八十二名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_qLd4Pf4cDMmmQ6kBWSiJ8T
+        status: active
+        display_name: 王壽
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_qLd4Pf4cDMmmQ6kBWSiJ8T | 王壽 | accepted |
 
 ## 外部来源
 

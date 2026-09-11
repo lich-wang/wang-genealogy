@@ -4,7 +4,7 @@ id: p_NrHJq3kKQ1Euax66KDyGDM
 status: active
 merged_into: null
 display_name: 王鎮
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_VSdoPw7z6B_pP4Mq_gaPIC
+        subject_person_id: p_NrHJq3kKQ1Euax66KDyGDM
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_yJ3TVQF9TZGy72FnBo91RN
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_uDwT3BwRVW6o7GAKGovDA3
+          claim_id: c_VSdoPw7z6B_pP4Mq_gaPIC
+          source_id: s_zDMDQ7mriEMzR1NrNwMqP7
+          stance: supports
+          locator: 萬曆二年進士登科錄:一卷，第三甲第八十一名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_yJ3TVQF9TZGy72FnBo91RN
+        status: active
+        display_name: 王鳳竹
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_yJ3TVQF9TZGy72FnBo91RN | 王鳳竹 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_oATKFKdRvk6K28ajcm7R48
 status: active
 merged_into: null
 display_name: 王惟德
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_sLlTc5Cad6JziQDa8JTJug
+        subject_person_id: p_oATKFKdRvk6K28ajcm7R48
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_oEEcQRCAqs4YewibUGGkH9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__zOlaItlbRK17m5_nIN5T5
+          claim_id: c_sLlTc5Cad6JziQDa8JTJug
+          source_id: s_iNxykTShcu6BtovxLF8rS5
+          stance: supports
+          locator: 正德六年進士登科錄:一卷，第二甲第八十九名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_oEEcQRCAqs4YewibUGGkH9
+        status: active
+        display_name: 王介
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_oEEcQRCAqs4YewibUGGkH9 | 王介 | accepted |
 
 ## 外部来源
 

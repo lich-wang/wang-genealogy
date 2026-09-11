@@ -4,7 +4,7 @@ id: p_wxJ8aogLoBExSp8myCzDUq
 status: active
 merged_into: null
 display_name: 王元
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -143,6 +143,43 @@ relationships:
         status: active
         display_name: 王銳
         merged_into_person_id: null
+    - claim:
+        id: c_eHgukdqNGuAY9Kb05ESK_7
+        subject_person_id: p_NULrJYpTFWT3DnCbPhN4Dz
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_wxJ8aogLoBExSp8myCzDUq
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3AoC698ByWKhCHiKwUm2pw
+          claim_id: c_eHgukdqNGuAY9Kb05ESK_7
+          source_id: s_oRMo8ocAxy5vU7hgqGPq3E
+          stance: supports
+          locator: 萬曆五年進士登科錄:一卷，第三甲第一百三十八名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_oRMo8ocAxy5vU7hgqGPq3E
+            source_type: api_record
+            title: 中国历代人物传记资料库：王玄（CBDB 217537）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217537&o=json
+            external_identifier: CBDB:217537
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.253Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_NULrJYpTFWT3DnCbPhN4Dz
+        status: active
+        display_name: 王玄
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_EBBDGouXFwRt5NBVVq7oT2 | 王銳 | accepted |
+| ancestors | p_NULrJYpTFWT3DnCbPhN4Dz | 王玄 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王銳（CBDB 217538）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217538&o=json)
+- [中国历代人物传记资料库：王玄（CBDB 217537）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217537&o=json)
 - [中国历代人物传记资料库：王元（CBDB 206402）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206402&o=json)

@@ -4,7 +4,7 @@ id: p_NjCutxXs9zS5t3DhqKeWT7
 status: active
 merged_into: null
 display_name: 王仲周
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_6K0OMI5gKnS2jH5606bdrQ
+        subject_person_id: p_kY6pJ3GE5CREHzY1UejctY
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_NjCutxXs9zS5t3DhqKeWT7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_IB1ZjqtLU4145NEuChiF7Q
+          claim_id: c_6K0OMI5gKnS2jH5606bdrQ
+          source_id: s_FQipKMXxJb57Wgd38MHFrH
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_kY6pJ3GE5CREHzY1UejctY
+        status: active
+        display_name: 王定
+        merged_into_person_id: null
   children:
     - claim:
         id: c_LwQZEhoM3CCNuprWOah3kw
@@ -134,6 +160,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_kY6pJ3GE5CREHzY1UejctY | 王定 | accepted |
 | children | p_DK4CDWVtLrXpSu7JYcDXA1 | 王巘 | accepted |
 
 ## 外部来源

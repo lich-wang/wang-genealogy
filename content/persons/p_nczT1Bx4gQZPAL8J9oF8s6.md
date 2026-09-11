@@ -4,7 +4,7 @@ id: p_nczT1Bx4gQZPAL8J9oF8s6
 status: active
 merged_into: null
 display_name: 王繼祖
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -115,7 +115,59 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_Vub7p5jnlDfrZYpt2w41Vh
+        subject_person_id: p_nczT1Bx4gQZPAL8J9oF8s6
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_ip7XEAQBd5SU56FCiqsDGa
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kAfkfHHloGyt-b92dbRr6K
+          claim_id: c_Vub7p5jnlDfrZYpt2w41Vh
+          source_id: s_FpLtkm1NsAZb5xrPFdfQZ8
+          stance: supports
+          locator: (康熙)武功縣續志，lgid=1045709：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_ip7XEAQBd5SU56FCiqsDGa
+        status: active
+        display_name: 王受元
+        merged_into_person_id: null
+    - claim:
+        id: c_BVuZly0UOESfoGVo8wTa3D
+        subject_person_id: p_nczT1Bx4gQZPAL8J9oF8s6
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_kGhjBDdewAMKtwMDXvy2ts
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_C_71m3TKGvYHlRgQRKEauQ
+          claim_id: c_BVuZly0UOESfoGVo8wTa3D
+          source_id: s_FpLtkm1NsAZb5xrPFdfQZ8
+          stance: supports
+          locator: (康熙)武功縣續志，lgid=1045709：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_kGhjBDdewAMKtwMDXvy2ts
+        status: active
+        display_name: 王良臣
+        merged_into_person_id: null
   other: []
 ---
 
@@ -135,6 +187,8 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_fUrkW6ozGrAosrVsTorpqL | 王乾明 | accepted |
+| descendants | p_ip7XEAQBd5SU56FCiqsDGa | 王受元 | accepted |
+| descendants | p_kGhjBDdewAMKtwMDXvy2ts | 王良臣 | accepted |
 
 ## 外部来源
 

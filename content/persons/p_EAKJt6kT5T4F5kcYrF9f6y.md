@@ -4,7 +4,7 @@ id: p_EAKJt6kT5T4F5kcYrF9f6y
 status: active
 merged_into: null
 display_name: 王玠
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,43 @@ relationships:
         status: active
         display_name: 王忠
         merged_into_person_id: null
+    - claim:
+        id: c_2PcLuDTFA5LHTKfK9OYINh
+        subject_person_id: p_npDFcKuVKUC3tBNbjizFd3
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_EAKJt6kT5T4F5kcYrF9f6y
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Sn8EvxsB-nWd9VMCHYhqo6
+          claim_id: c_2PcLuDTFA5LHTKfK9OYINh
+          source_id: s_GfbeE73Cd6cjXZ8D87LduE
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_GfbeE73Cd6cjXZ8D87LduE
+            source_type: api_record
+            title: 中国历代人物传记资料库：王高（CBDB 230873）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=230873&o=json
+            external_identifier: CBDB:230873
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.623Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_npDFcKuVKUC3tBNbjizFd3
+        status: active
+        display_name: 王高
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_6tdTGr8WHYZiKQmeHZ5QVe | 王宗源 | accepted |
 | ancestors | p_1BUERPSE2qTiZp6JCwdvN5 | 王忠 | accepted |
+| ancestors | p_npDFcKuVKUC3tBNbjizFd3 | 王高 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王高（CBDB 230873）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=230873&o=json)
 - [中国历代人物传记资料库：王玠（CBDB 207286）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207286&o=json)
 - [中国历代人物传记资料库：王忠（CBDB 230872）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=230872&o=json)
 - [中国历代人物传记资料库：王宗源（CBDB 230874）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=230874&o=json)

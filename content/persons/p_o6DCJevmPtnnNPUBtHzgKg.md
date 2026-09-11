@@ -4,7 +4,7 @@ id: p_o6DCJevmPtnnNPUBtHzgKg
 status: active
 merged_into: null
 display_name: 王釋
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_JrjglYtb97mYARYEWcYDoH
+        subject_person_id: p_rKni6xGGxvJTkKnLmCXuvY
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_o6DCJevmPtnnNPUBtHzgKg
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5yZvK6d4-glBrZFkx9UCxv
+          claim_id: c_JrjglYtb97mYARYEWcYDoH
+          source_id: s_G1fuP1ZwLzxB747PqAKgEM
+          stance: supports
+          locator: 元人傳記資料索引，1107：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_rKni6xGGxvJTkKnLmCXuvY
+        status: active
+        display_name: 王則之
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_rKni6xGGxvJTkKnLmCXuvY | 王則之 | accepted |
 
 ## 外部来源
 

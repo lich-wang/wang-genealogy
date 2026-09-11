@@ -4,7 +4,7 @@ id: p_nMGCJmQq2Zcy4irJuKbEXy
 status: active
 merged_into: null
 display_name: 王遇亨
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c__CZjzaTLrxCiI_r-35CYTd
+        subject_person_id: p_nMGCJmQq2Zcy4irJuKbEXy
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_X9phLcbY9Wqsi1CQ2BDzXh
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_H6nRJeye-MHuJthvJpwfEF
+          claim_id: c__CZjzaTLrxCiI_r-35CYTd
+          source_id: s_camKSGdFC6NkAHaT57S6W8
+          stance: supports
+          locator: 吳門補乘，lgid=177497：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_X9phLcbY9Wqsi1CQ2BDzXh
+        status: active
+        display_name: 王利謙
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_X9phLcbY9Wqsi1CQ2BDzXh | 王利謙 | accepted |
 
 ## 外部来源
 

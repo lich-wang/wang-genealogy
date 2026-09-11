@@ -4,7 +4,7 @@ id: p_oaNDfLCNACocvS6e5dX6tR
 status: active
 merged_into: null
 display_name: 王鼎
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -141,7 +141,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_2mzj5rkRPPYPVt9hDRSL0e
+        subject_person_id: p_oaNDfLCNACocvS6e5dX6tR
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_1FCXxHhqD3wzUFWARQDXSE
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XJ57f_AvHF_cIadveh5LyF
+          claim_id: c_2mzj5rkRPPYPVt9hDRSL0e
+          source_id: s_5KdizvAFPJEps1ZHmf6uDF
+          stance: supports
+          locator: 嘉靖二十九年進士登科錄:一卷，第二甲第四十二名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_1FCXxHhqD3wzUFWARQDXSE
+        status: active
+        display_name: 王道行
+        merged_into_person_id: null
   other: []
 ---
 
@@ -162,6 +188,7 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_m69DkPkNmbULcq7eko5aNw | 王居 | accepted |
 | children | p_Lg426XjwtGThS6GKpMTASR | 王尚智 | accepted |
+| descendants | p_1FCXxHhqD3wzUFWARQDXSE | 王道行 | accepted |
 
 ## 外部来源
 

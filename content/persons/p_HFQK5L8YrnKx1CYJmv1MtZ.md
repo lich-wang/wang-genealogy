@@ -4,7 +4,7 @@ id: p_HFQK5L8YrnKx1CYJmv1MtZ
 status: active
 merged_into: null
 display_name: 王汲
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -129,7 +129,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_VGn8YYgVYI-0_2pK0i9zzH
+        subject_person_id: p_HFQK5L8YrnKx1CYJmv1MtZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_NiDwYtQeM1mw9R2BpSH12J
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_STvI5YvgaRIADQ3uiwXWmp
+          claim_id: c_VGn8YYgVYI-0_2pK0i9zzH
+          source_id: s_8bE4ZM3wpKGR5QKmEHmx7Q
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，一二四 王汲墓誌：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_8bE4ZM3wpKGR5QKmEHmx7Q
+            source_type: api_record
+            title: 中国历代人物传记资料库：王尚辭（CBDB 696765）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696765&o=json
+            external_identifier: CBDB:696765
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:06.552Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_NiDwYtQeM1mw9R2BpSH12J
+        status: active
+        display_name: 王尚辭
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -192,9 +229,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_NiDwYtQeM1mw9R2BpSH12J | 王尚辭 | accepted |
 | ancestors | p_88WC4Q1BzPCRUnQHKcX984 | 王福 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王福（CBDB 26507）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26507&o=json)
 - [中国历代人物传记资料库：王汲（CBDB 26509）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26509&o=json)
+- [中国历代人物传记资料库：王尚辭（CBDB 696765）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696765&o=json)

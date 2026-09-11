@@ -4,7 +4,7 @@ id: p_nF9eSAv63Vch3PwSGVjHeP
 status: active
 merged_into: null
 display_name: 王璧
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_Bgt7CjFyFNf2dCG1Afy3oT
+        subject_person_id: p_nF9eSAv63Vch3PwSGVjHeP
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ojf36Ko9wQJ75BMAk9xQXN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tEd7Uj6yd2TgC3KTeDla5x
+          claim_id: c_Bgt7CjFyFNf2dCG1Afy3oT
+          source_id: s_nQ3T8ajEmMX2wxisG4Pyyc
+          stance: supports
+          locator: 萬曆二十年壬辰科進士歷履便覽:一卷，第三甲第二百十六名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_ojf36Ko9wQJ75BMAk9xQXN
+        status: active
+        display_name: 王應元
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_ojf36Ko9wQJ75BMAk9xQXN | 王應元 | accepted |
 
 ## 外部来源
 

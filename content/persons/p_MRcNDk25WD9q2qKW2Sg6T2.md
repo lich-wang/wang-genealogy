@@ -4,7 +4,7 @@ id: p_MRcNDk25WD9q2qKW2Sg6T2
 status: active
 merged_into: null
 display_name: 王誠
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -185,6 +185,43 @@ relationships:
         status: active
         display_name: 王三兒
         merged_into_person_id: null
+    - claim:
+        id: c_xbm5aAToRSg7PE5x2PD32E
+        subject_person_id: p_MRcNDk25WD9q2qKW2Sg6T2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_nRcMz2seT6EHfF2neQtxKh
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9-Haq_0XaX7xyqArBKEAA6
+          claim_id: c_xbm5aAToRSg7PE5x2PD32E
+          source_id: s_b8x7t32mtUK5habPXcFPNA
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，王誠墓誌：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_b8x7t32mtUK5habPXcFPNA
+            source_type: api_record
+            title: 中国历代人物传记资料库：王五兒（CBDB 696169）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696169&o=json
+            external_identifier: CBDB:696169
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:06.543Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_nRcMz2seT6EHfF2neQtxKh
+        status: active
+        display_name: 王五兒
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -285,6 +322,7 @@ relationships:
 | children | p_4AFKu7y5cKNe6h7aSeSk26 | 王婢兒 | accepted |
 | children | p_AHi7umKiBUo1nUjdKA5yRP | 王用和 | accepted |
 | children | p_AMgUPJZ26fDXLPTDXBQofC | 王三兒 | accepted |
+| children | p_nRcMz2seT6EHfF2neQtxKh | 王五兒 | accepted |
 | ancestors | p_93knEVXDHk5dRYRuf8P4GQ | 王某贊 | accepted |
 | descendants | p_ATA13cPezR7oDEojWMksBV | 王翁怜 | accepted |
 
@@ -295,4 +333,5 @@ relationships:
 - [中国历代人物传记资料库：王某贊（CBDB 696158）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696158&o=json)
 - [中国历代人物传记资料库：王三兒（CBDB 696171）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696171&o=json)
 - [中国历代人物传记资料库：王翁怜（CBDB 696189）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696189&o=json)
+- [中国历代人物传记资料库：王五兒（CBDB 696169）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696169&o=json)
 - [中国历代人物传记资料库：王用和（CBDB 696168）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696168&o=json)

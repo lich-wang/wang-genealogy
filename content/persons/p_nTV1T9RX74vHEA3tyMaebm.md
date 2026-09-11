@@ -4,7 +4,7 @@ id: p_nTV1T9RX74vHEA3tyMaebm
 status: active
 merged_into: null
 display_name: 王與齡
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,12 +128,116 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_y8BO6IFrr1or262DOvxm5L
+        subject_person_id: p_KHASkzeAzAbrH4KC5REzz6
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_nTV1T9RX74vHEA3tyMaebm
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vR8flGAu7JF6SVKd2tDJ6P
+          claim_id: c_y8BO6IFrr1or262DOvxm5L
+          source_id: s_VNsrGWznq4wS5HwLa4u6ov
+          stance: supports
+          locator: 嘉靖八年進士登科錄:一卷，第三甲第一百七十七名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_KHASkzeAzAbrH4KC5REzz6
+        status: active
+        display_name: 王爵
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
-  ancestors: []
+  spouses:
+    - claim:
+        id: c_4z1vZkmLgpR8V1vdE3ruL6
+        subject_person_id: p_nTV1T9RX74vHEA3tyMaebm
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_b83k4g1WnCibKe1zSFCq2F
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_go1qh4bsiUtk096OGg4MF-
+          claim_id: c_4z1vZkmLgpR8V1vdE3ruL6
+          source_id: s_VNsrGWznq4wS5HwLa4u6ov
+          stance: supports
+          locator: 嘉靖八年進士登科錄:一卷，第三甲第一百七十七名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_b83k4g1WnCibKe1zSFCq2F
+        status: active
+        display_name: 高氏
+        merged_into_person_id: null
+  ancestors:
+    - claim:
+        id: c_Iz3YiirdX4EPqZsHBstDgE
+        subject_person_id: p_FxDnZ7tzsLrvZRviCHaK5y
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_nTV1T9RX74vHEA3tyMaebm
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mhcUwAOM6bZr0ar7TznN0g
+          claim_id: c_Iz3YiirdX4EPqZsHBstDgE
+          source_id: s_VNsrGWznq4wS5HwLa4u6ov
+          stance: supports
+          locator: 嘉靖八年進士登科錄:一卷，第三甲第一百七十七名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_FxDnZ7tzsLrvZRviCHaK5y
+        status: active
+        display_name: 王睿
+        merged_into_person_id: null
+    - claim:
+        id: c_2ThUw0DJiMfRFXCY9iAwtJ
+        subject_person_id: p_qa4sYo9q4waHmECZyCZ8M3
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_nTV1T9RX74vHEA3tyMaebm
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KYOAJRT5qsOXfoICSc_ZAB
+          claim_id: c_2ThUw0DJiMfRFXCY9iAwtJ
+          source_id: s_VNsrGWznq4wS5HwLa4u6ov
+          stance: supports
+          locator: 嘉靖八年進士登科錄:一卷，第三甲第一百七十七名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_qa4sYo9q4waHmECZyCZ8M3
+        status: active
+        display_name: 王文
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,6 +259,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_KHASkzeAzAbrH4KC5REzz6 | 王爵 | accepted |
+| spouses | p_b83k4g1WnCibKe1zSFCq2F | 高氏 | accepted |
+| ancestors | p_FxDnZ7tzsLrvZRviCHaK5y | 王睿 | accepted |
+| ancestors | p_qa4sYo9q4waHmECZyCZ8M3 | 王文 | accepted |
 
 ## 外部来源
 

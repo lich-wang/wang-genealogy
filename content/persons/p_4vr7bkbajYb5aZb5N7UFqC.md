@@ -4,7 +4,7 @@ id: p_4vr7bkbajYb5aZb5N7UFqC
 status: active
 merged_into: null
 display_name: 王槐
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_DGV8Op-hxo0rVD93NwopR5
+        subject_person_id: p_nM4qfbcaYVkmZPA3x1iCHz
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_4vr7bkbajYb5aZb5N7UFqC
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_umuS1ImsTlQMZk0MmCfc8P
+          claim_id: c_DGV8Op-hxo0rVD93NwopR5
+          source_id: s_1199fXDUpPEcQ5vutpJ6RW
+          stance: supports
+          locator: 成化十七年進士登科錄:一卷，第三甲第八十一名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_1199fXDUpPEcQ5vutpJ6RW
+            source_type: api_record
+            title: 中国历代人物传记资料库：王英（CBDB 256339）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=256339&o=json
+            external_identifier: CBDB:256339
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.385Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_nM4qfbcaYVkmZPA3x1iCHz
+        status: active
+        display_name: 王英
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -200,6 +237,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_nM4qfbcaYVkmZPA3x1iCHz | 王英 | accepted |
 | ancestors | p_3rB1AVmk8HkFeV89CX3373 | 王伯達 | accepted |
 | ancestors | p_GxBFo3Tg3mRPwqsk6hEJZf | 王益 | accepted |
 
@@ -208,3 +246,4 @@ relationships:
 - [中国历代人物传记资料库：王伯達（CBDB 256337）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=256337&o=json)
 - [中国历代人物传记资料库：王槐（CBDB 200324）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200324&o=json)
 - [中国历代人物传记资料库：王益（CBDB 256338）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=256338&o=json)
+- [中国历代人物传记资料库：王英（CBDB 256339）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=256339&o=json)

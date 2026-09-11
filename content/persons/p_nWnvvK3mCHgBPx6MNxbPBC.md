@@ -4,7 +4,7 @@ id: p_nWnvvK3mCHgBPx6MNxbPBC
 status: active
 merged_into: null
 display_name: 王崇簡
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -134,7 +134,189 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_DlBBbVIbF72OeurUQytkI9
+        subject_person_id: p_nWnvvK3mCHgBPx6MNxbPBC
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_RZdjgJ11qcquH8ZNUR8LB1
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ytBPfS3EFOGXTJm7Nd3Yr9
+          claim_id: c_DlBBbVIbF72OeurUQytkI9
+          source_id: s_PYfj8Ko8WPPJgmRb4BBBiE
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），9215：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_RZdjgJ11qcquH8ZNUR8LB1
+        status: active
+        display_name: 王存住
+        merged_into_person_id: null
+    - claim:
+        id: c_31mxKCjQKQQoymqZZc6y66
+        subject_person_id: p_nWnvvK3mCHgBPx6MNxbPBC
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_C92FkFgepDESC2MLabMgSC
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ctENqJMNGl3ueRlZVSje6X
+          claim_id: c_31mxKCjQKQQoymqZZc6y66
+          source_id: s_PYfj8Ko8WPPJgmRb4BBBiE
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），9215：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_C92FkFgepDESC2MLabMgSC
+        status: active
+        display_name: 王克弘
+        merged_into_person_id: null
+    - claim:
+        id: c_-qhC5SArW8DwsavJ1bnzRv
+        subject_person_id: p_nWnvvK3mCHgBPx6MNxbPBC
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_HCQ6JdVaaN3wiCmmgYUyL9
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_aW9eAx2C1QldfWzqPD4jH_
+          claim_id: c_-qhC5SArW8DwsavJ1bnzRv
+          source_id: s_PYfj8Ko8WPPJgmRb4BBBiE
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），9215：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_HCQ6JdVaaN3wiCmmgYUyL9
+        status: active
+        display_name: 王克遠
+        merged_into_person_id: null
+    - claim:
+        id: c_kdh8C8pp4T_v1f6w0o3P5s
+        subject_person_id: p_nWnvvK3mCHgBPx6MNxbPBC
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_D1GMjzDU2wEYq4LDJjjeMJ
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hljcw-ciCbSawaWO9ib-R0
+          claim_id: c_kdh8C8pp4T_v1f6w0o3P5s
+          source_id: s_PYfj8Ko8WPPJgmRb4BBBiE
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），9215：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_D1GMjzDU2wEYq4LDJjjeMJ
+        status: active
+        display_name: 王雙鶴
+        merged_into_person_id: null
+    - claim:
+        id: c_Ugjq7DzVeak2Qm2dAtc5eY
+        subject_person_id: p_nWnvvK3mCHgBPx6MNxbPBC
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_ZK5kFaWDXbAi9odKWjqWmw
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fvNslVNHu3FuFnoDz0Znon
+          claim_id: c_Ugjq7DzVeak2Qm2dAtc5eY
+          source_id: s_PYfj8Ko8WPPJgmRb4BBBiE
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），9215：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_ZK5kFaWDXbAi9odKWjqWmw
+        status: active
+        display_name: 王穩住
+        merged_into_person_id: null
+    - claim:
+        id: c_cMbd9h8BMxTE3RgmFpWbgn
+        subject_person_id: p_nWnvvK3mCHgBPx6MNxbPBC
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_jDcaJoocr4txWJLGakd1D3
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Xhvc0xw8YltSQb-Q95pb2i
+          claim_id: c_cMbd9h8BMxTE3RgmFpWbgn
+          source_id: s_PYfj8Ko8WPPJgmRb4BBBiE
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），9215：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_jDcaJoocr4txWJLGakd1D3
+        status: active
+        display_name: 王仲鳳
+        merged_into_person_id: null
+    - claim:
+        id: c_iIh2bnrT9X2mR9a0aaW697
+        subject_person_id: p_nWnvvK3mCHgBPx6MNxbPBC
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_hSvdFVHQZBQyyQR1M8ki7U
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GsjZ4q_DruKm_8UT1SZY4I
+          claim_id: c_iIh2bnrT9X2mR9a0aaW697
+          source_id: s_PYfj8Ko8WPPJgmRb4BBBiE
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），9215：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_hSvdFVHQZBQyyQR1M8ki7U
+        status: active
+        display_name: 王長麟
+        merged_into_person_id: null
   other: []
 ---
 
@@ -155,6 +337,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_RZdjgJ11qcquH8ZNUR8LB1 | 王存住 | accepted |
+| descendants | p_C92FkFgepDESC2MLabMgSC | 王克弘 | accepted |
+| descendants | p_HCQ6JdVaaN3wiCmmgYUyL9 | 王克遠 | accepted |
+| descendants | p_D1GMjzDU2wEYq4LDJjjeMJ | 王雙鶴 | accepted |
+| descendants | p_ZK5kFaWDXbAi9odKWjqWmw | 王穩住 | accepted |
+| descendants | p_jDcaJoocr4txWJLGakd1D3 | 王仲鳳 | accepted |
+| descendants | p_hSvdFVHQZBQyyQR1M8ki7U | 王長麟 | accepted |
 
 ## 外部来源
 

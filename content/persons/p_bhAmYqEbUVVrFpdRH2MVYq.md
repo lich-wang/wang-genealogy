@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王侁
 cbdb_id: 39569
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -276,6 +276,43 @@ relationships:
         status: active
         display_name: 王朴
         merged_into_person_id: null
+    - claim:
+        id: c_llIXVYxwafKKi5bcNxCCzE
+        subject_person_id: p_NjuqxHYFowP8erFGeN3Z21
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_bhAmYqEbUVVrFpdRH2MVYq
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2M7tNnchuzPER3KS9Vo_km
+          claim_id: c_llIXVYxwafKKi5bcNxCCzE
+          source_id: s_LXFcVF4ou49hujPA2HPLks
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_LXFcVF4ou49hujPA2HPLks
+            source_type: api_record
+            title: 中国历代人物传记资料库：王樸（CBDB 39576）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=39576&o=json
+            external_identifier: CBDB:39576
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.635Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_NjuqxHYFowP8erFGeN3Z21
+        status: active
+        display_name: 王樸
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -303,10 +340,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_6R94tR4BFCymhDkQ193mDd | 王朴 | accepted |
+| parents | p_NjuqxHYFowP8erFGeN3Z21 | 王樸 | accepted |
 
 ## 外部来源
 
 - [维基数据：王朴（Q11573113）](https://www.wikidata.org/wiki/Q11573113)
 - [维基数据：王侁（Q10412293）](https://www.wikidata.org/wiki/Q10412293)
-- [CBDB 中国历代人物传记资料库：王樸（39576）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=39576&o=json)
+- [中国历代人物传记资料库：王樸（CBDB 39576）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=39576&o=json)
 - [CBDB 中国历代人物传记资料库：王侁（39569）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=39569&o=json)

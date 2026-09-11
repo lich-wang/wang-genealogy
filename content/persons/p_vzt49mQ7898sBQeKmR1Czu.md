@@ -4,7 +4,7 @@ id: p_vzt49mQ7898sBQeKmR1Czu
 status: active
 merged_into: null
 display_name: 王儒
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -105,7 +105,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_XkJTXHnmn-b9ucYFYf4M2x
+        subject_person_id: p_NzmzS4tvPrjELzTB7xahpm
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_vzt49mQ7898sBQeKmR1Czu
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OHsJ3OT-zI3IsTFysjc2kp
+          claim_id: c_XkJTXHnmn-b9ucYFYf4M2x
+          source_id: s_MNwDEJH9bFBUvuz58vHDns
+          stance: supports
+          locator: 萬曆二年進士登科錄:一卷，第三甲第六十一名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_MNwDEJH9bFBUvuz58vHDns
+            source_type: api_record
+            title: 中国历代人物传记资料库：王邦柱（CBDB 213740）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213740&o=json
+            external_identifier: CBDB:213740
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.121Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_NzmzS4tvPrjELzTB7xahpm
+        status: active
+        display_name: 王邦柱
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_NzmzS4tvPrjELzTB7xahpm | 王邦柱 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王邦柱（CBDB 213740）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213740&o=json)
 - [中国历代人物传记资料库：王儒（CBDB 206132）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206132&o=json)

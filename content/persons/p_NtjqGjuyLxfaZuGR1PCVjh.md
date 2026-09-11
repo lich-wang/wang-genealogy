@@ -4,7 +4,7 @@ id: p_NtjqGjuyLxfaZuGR1PCVjh
 status: active
 merged_into: null
 display_name: 王宣
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_DjzCCu72FQvZG9NxvXzXQm
+        subject_person_id: p_yyG5m7BqW1DAadHkjg2Ep9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_NtjqGjuyLxfaZuGR1PCVjh
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_IcZ9caGnldqK2ZNq4eke7c
+          claim_id: c_DjzCCu72FQvZG9NxvXzXQm
+          source_id: s_9yFcVPeLWjYawJn54TYyAm
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_yyG5m7BqW1DAadHkjg2Ep9
+        status: active
+        display_name: 王擇從
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_ZCan-2DUmMSLf77uXDVxRx
+        subject_person_id: p_NtjqGjuyLxfaZuGR1PCVjh
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_vZnDcXFqAU9qkQZwwP1LXd
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SSu9FS73zewgolKrTkFsVC
+          claim_id: c_ZCan-2DUmMSLf77uXDVxRx
+          source_id: s_9yFcVPeLWjYawJn54TYyAm
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaicheng 54：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_vZnDcXFqAU9qkQZwwP1LXd
+        status: active
+        display_name: 王鍊
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_yyG5m7BqW1DAadHkjg2Ep9 | 王擇從 | accepted |
+| children | p_vZnDcXFqAU9qkQZwwP1LXd | 王鍊 | accepted |
 
 ## 外部来源
 

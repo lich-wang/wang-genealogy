@@ -4,7 +4,7 @@ id: p_HeGfMzKQ5r77Gp7MCsAkL6
 status: active
 merged_into: null
 display_name: 王仲舒
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -204,6 +204,80 @@ relationships:
         status: active
         display_name: 王泰
         merged_into_person_id: null
+    - claim:
+        id: c_EjxPX51rc4p4t1nC2lsVGe
+        subject_person_id: p_HeGfMzKQ5r77Gp7MCsAkL6
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_nAKMzF2Ukga3jR3vi2vLF8
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XY_C8k4U0p_TKlO5pLKWbO
+          claim_id: c_EjxPX51rc4p4t1nC2lsVGe
+          source_id: s_h2fwkLZFScFGG5g1D71fV4
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_h2fwkLZFScFGG5g1D71fV4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王哲（CBDB 190799）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=190799&o=json
+            external_identifier: CBDB:190799
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.337Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_nAKMzF2Ukga3jR3vi2vLF8
+        status: active
+        display_name: 王哲
+        merged_into_person_id: null
+    - claim:
+        id: c_0_wo5gwYGBfIhtHS-L6rtr
+        subject_person_id: p_HeGfMzKQ5r77Gp7MCsAkL6
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_oiaWF1Wm3SGjSjnkEZ6joz
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_W_WIA63FJPLPgy1kLgynmc
+          claim_id: c_0_wo5gwYGBfIhtHS-L6rtr
+          source_id: s_ZEtaPXBPp9Lm67PqMGtovm
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ZEtaPXBPp9Lm67PqMGtovm
+            source_type: api_record
+            title: 中国历代人物传记资料库：王復（CBDB 190803）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=190803&o=json
+            external_identifier: CBDB:190803
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.340Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_oiaWF1Wm3SGjSjnkEZ6joz
+        status: active
+        display_name: 王復
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -231,9 +305,13 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_AJthCZJzr5eAL2kCMPefer | 王政 | accepted |
 | children | p_1PHWxnMBkTahyhe3mpQdE4 | 王泰 | accepted |
+| children | p_nAKMzF2Ukga3jR3vi2vLF8 | 王哲 | accepted |
+| children | p_oiaWF1Wm3SGjSjnkEZ6joz | 王復 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王復（CBDB 190803）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=190803&o=json)
 - [中国历代人物传记资料库：王泰（CBDB 190802）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=190802&o=json)
+- [中国历代人物传记资料库：王哲（CBDB 190799）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=190799&o=json)
 - [中国历代人物传记资料库：王政（CBDB 190795）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=190795&o=json)
 - [中国历代人物传记资料库：王仲舒（CBDB 91998）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=91998&o=json)

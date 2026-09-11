@@ -4,7 +4,7 @@ id: p_NMGGEKEYPRL4JFES9eiFC5
 status: active
 merged_into: null
 display_name: 王晛
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_h-Vy9trdvV2UCo-0nU2jGY
+        subject_person_id: p_xyTfpu99iGhW5Hx23dbPxr
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_NMGGEKEYPRL4JFES9eiFC5
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_N9MkovHNV5v_qLaKwBoRK6
+          claim_id: c_h-Vy9trdvV2UCo-0nU2jGY
+          source_id: s_67z3K2TE2Ukgm1B3F7EVtW
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Kaiyuan120：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_xyTfpu99iGhW5Hx23dbPxr
+        status: active
+        display_name: 王旻
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -126,6 +152,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_xyTfpu99iGhW5Hx23dbPxr | 王旻 | accepted |
 
 ## 外部来源
 

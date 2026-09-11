@@ -4,7 +4,7 @@ id: p_netpjn2vvpbP4gRNZK5nnW
 status: active
 merged_into: null
 display_name: 王畿
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -170,7 +170,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_-RioqltpBhlvUFcUxzMYw3
+        subject_person_id: p_nk86JnBN3H44SSosh8zCKQ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_netpjn2vvpbP4gRNZK5nnW
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5sNpQ_o7HTDKm6699X1uAf
+          claim_id: c_-RioqltpBhlvUFcUxzMYw3
+          source_id: s_picJY4WWYs49eM1wbidthu
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第二百二十七名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_picJY4WWYs49eM1wbidthu
+            source_type: api_record
+            title: 中国历代人物传记资料库：王可旺（CBDB 294860）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294860&o=json
+            external_identifier: CBDB:294860
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.475Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_nk86JnBN3H44SSosh8zCKQ
+        status: active
+        display_name: 王可旺
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -193,8 +230,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_8gY9eTVRT2EQWmPPoaXa3X | 王經 | accepted |
+| ancestors | p_nk86JnBN3H44SSosh8zCKQ | 王可旺 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王畿（CBDB 126814）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126814&o=json)
 - [中国历代人物传记资料库：王經（CBDB 232114）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=232114&o=json)
+- [中国历代人物传记资料库：王可旺（CBDB 294860）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294860&o=json)

@@ -4,7 +4,7 @@ id: p_NYf4fXj4n829cEBYm96jNc
 status: active
 merged_into: null
 display_name: 王養
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -129,7 +129,85 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_oQCGTprrZODjRs2iqJeJaD
+        subject_person_id: p_NYf4fXj4n829cEBYm96jNc
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_DoQDBLeafz9HbWNSCrxf7u
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PuOGGGQdJ59A7H7CVkb3mh
+          claim_id: c_oQCGTprrZODjRs2iqJeJaD
+          source_id: s_44DPacPNBUAQJBjuRadXdB
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Changan 28：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_DoQDBLeafz9HbWNSCrxf7u
+        status: active
+        display_name: 王元恪
+        merged_into_person_id: null
+    - claim:
+        id: c_hUCnA1hgr5itrvgm0ilIx9
+        subject_person_id: p_NYf4fXj4n829cEBYm96jNc
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_qBrQzWop7Du3CQJDjmTKQZ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7IE43EG0-eDzLNNALM4aLd
+          claim_id: c_hUCnA1hgr5itrvgm0ilIx9
+          source_id: s_44DPacPNBUAQJBjuRadXdB
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Changan 28：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_qBrQzWop7Du3CQJDjmTKQZ
+        status: active
+        display_name: 王元楷
+        merged_into_person_id: null
+    - claim:
+        id: c_ercIic87Uu-v2DHFB7PHnN
+        subject_person_id: p_NYf4fXj4n829cEBYm96jNc
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_CacHLDYLr3tuVp328AhoNN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Uf8DslVV-cmiaToBCmCS3g
+          claim_id: c_ercIic87Uu-v2DHFB7PHnN
+          source_id: s_44DPacPNBUAQJBjuRadXdB
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Changan 28：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_CacHLDYLr3tuVp328AhoNN
+        status: active
+        display_name: 王元藏
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +233,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_DoQDBLeafz9HbWNSCrxf7u | 王元恪 | accepted |
+| children | p_qBrQzWop7Du3CQJDjmTKQZ | 王元楷 | accepted |
+| children | p_CacHLDYLr3tuVp328AhoNN | 王元藏 | accepted |
 
 ## 外部来源
 

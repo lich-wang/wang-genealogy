@@ -4,7 +4,7 @@ id: p_nK9apVMeY253DbErnUEdp9
 status: active
 merged_into: null
 display_name: 王翼
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,12 +128,194 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_inFvqEL-8NZ6BxwhAugHle
+        subject_person_id: p_xz2i3ijCN6yWhdomSwkBZS
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_nK9apVMeY253DbErnUEdp9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_npJqaXYgsQ5drIOYiKKSbx
+          claim_id: c_inFvqEL-8NZ6BxwhAugHle
+          source_id: s_bVmbR8kH1i5NZa5gpCFKZi
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Dahe 65：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_xz2i3ijCN6yWhdomSwkBZS
+        status: active
+        display_name: 王智溫
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_m8zvVP-nz_4s8kMA3Puzok
+        subject_person_id: p_nK9apVMeY253DbErnUEdp9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_LBemnLQC7Me24TEorZJGE6
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_aRwhoAC6Xbw6_-oFmuCgC8
+          claim_id: c_m8zvVP-nz_4s8kMA3Puzok
+          source_id: s_bVmbR8kH1i5NZa5gpCFKZi
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Dahe 65：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_LBemnLQC7Me24TEorZJGE6
+        status: active
+        display_name: 王仲伸
+        merged_into_person_id: null
+    - claim:
+        id: c_dplgMKXjDTMm38KJPGNntp
+        subject_person_id: p_nK9apVMeY253DbErnUEdp9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Y1n9ZJ2U1r4W4A8FKLq4u7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0MPeNjI8xF3IHFiHeRG3Ps
+          claim_id: c_dplgMKXjDTMm38KJPGNntp
+          source_id: s_bVmbR8kH1i5NZa5gpCFKZi
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Dahe 65：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Y1n9ZJ2U1r4W4A8FKLq4u7
+        status: active
+        display_name: 王仲儒
+        merged_into_person_id: null
+    - claim:
+        id: c_dowNncXV_XShaqM8q1uHSG
+        subject_person_id: p_nK9apVMeY253DbErnUEdp9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_YwiGQqDTRdSkEKV786SaKA
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ljCd5XcEQu3NGLkta716LM
+          claim_id: c_dowNncXV_XShaqM8q1uHSG
+          source_id: s_bVmbR8kH1i5NZa5gpCFKZi
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Dahe 65：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_YwiGQqDTRdSkEKV786SaKA
+        status: active
+        display_name: 王仲武
+        merged_into_person_id: null
+    - claim:
+        id: c_ltY7mX_Szm9BK8bixKubWH
+        subject_person_id: p_nK9apVMeY253DbErnUEdp9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_rLC7PUAc3zy8aqLzbNSQL5
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_LtJZzsX93Oamje9m_zCrq6
+          claim_id: c_ltY7mX_Szm9BK8bixKubWH
+          source_id: s_bVmbR8kH1i5NZa5gpCFKZi
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Dahe 65：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_rLC7PUAc3zy8aqLzbNSQL5
+        status: active
+        display_name: 王仲連
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_XZ1OHylQJv_zAVNlOjPcR7
+        subject_person_id: p_JqP7tTBXa3J64HEAAAchh1
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_nK9apVMeY253DbErnUEdp9
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_k43Y0ELf4-ahcUR2agehNq
+          claim_id: c_XZ1OHylQJv_zAVNlOjPcR7
+          source_id: s_bVmbR8kH1i5NZa5gpCFKZi
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Dahe 65：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_JqP7tTBXa3J64HEAAAchh1
+        status: active
+        display_name: 王師襲
+        merged_into_person_id: null
+    - claim:
+        id: c_j_8eVJ-y9vnphUrtwKzsM8
+        subject_person_id: p_a3b4xpmtfkDqmManPEL8yB
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_nK9apVMeY253DbErnUEdp9
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2HgXBC-phxWL-dP-r4Uswf
+          claim_id: c_j_8eVJ-y9vnphUrtwKzsM8
+          source_id: s_bVmbR8kH1i5NZa5gpCFKZi
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Dahe 65：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_a3b4xpmtfkDqmManPEL8yB
+        status: active
+        display_name: 王待仙
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,6 +337,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_xz2i3ijCN6yWhdomSwkBZS | 王智溫 | accepted |
+| children | p_LBemnLQC7Me24TEorZJGE6 | 王仲伸 | accepted |
+| children | p_Y1n9ZJ2U1r4W4A8FKLq4u7 | 王仲儒 | accepted |
+| children | p_YwiGQqDTRdSkEKV786SaKA | 王仲武 | accepted |
+| children | p_rLC7PUAc3zy8aqLzbNSQL5 | 王仲連 | accepted |
+| ancestors | p_JqP7tTBXa3J64HEAAAchh1 | 王師襲 | accepted |
+| ancestors | p_a3b4xpmtfkDqmManPEL8yB | 王待仙 | accepted |
 
 ## 外部来源
 

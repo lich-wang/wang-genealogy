@@ -4,7 +4,7 @@ id: p_ofDNL1hsFt1v6GYpjecDnr
 status: active
 merged_into: null
 display_name: 王億
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -208,6 +208,43 @@ relationships:
         status: active
         display_name: 王瑛
         merged_into_person_id: null
+    - claim:
+        id: c_ANJP5WZV9aSgRGXyl2GJNg
+        subject_person_id: p_oCXVM7557zGQmqzQ94ZCEU
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_ofDNL1hsFt1v6GYpjecDnr
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_w64gSgPNrF5VBg3TOYlL_W
+          claim_id: c_ANJP5WZV9aSgRGXyl2GJNg
+          source_id: s_K9jmEFrPjCK2LNic4spMmN
+          stance: supports
+          locator: 弘治十八年進士登科錄:一卷，第三甲第七十六名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_K9jmEFrPjCK2LNic4spMmN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王福（CBDB 274427）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=274427&o=json
+            external_identifier: CBDB:274427
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.925Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_oCXVM7557zGQmqzQ94ZCEU
+        status: active
+        display_name: 王福
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -231,9 +268,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_Fv1Rfd46XjEEp3EcP2H95a | 王澤 | accepted |
 | ancestors | p_d1ACSy75swo15wsQo1MMDk | 王瑛 | accepted |
+| ancestors | p_oCXVM7557zGQmqzQ94ZCEU | 王福 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王福（CBDB 274427）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=274427&o=json)
 - [中国历代人物传记资料库：王億（CBDB 126816）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126816&o=json)
 - [中国历代人物传记资料库：王瑛（CBDB 274428）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=274428&o=json)
 - [中国历代人物传记资料库：王澤（CBDB 274430）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=274430&o=json)

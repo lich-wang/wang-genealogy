@@ -4,7 +4,7 @@ id: p_NA6uA34HWqF44rhfVg8JVc
 status: active
 merged_into: null
 display_name: 王景肅
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_aP5kTOkRZijSf_vDUuS5-P
+        subject_person_id: p_65hHtwcDRsaCnRYgvqjs1A
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_NA6uA34HWqF44rhfVg8JVc
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PRqjj9Y7jy6z1Ji7ZR50gE
+          claim_id: c_aP5kTOkRZijSf_vDUuS5-P
+          source_id: s_WJradA74bz57LnNM1dUs5j
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_65hHtwcDRsaCnRYgvqjs1A
+        status: active
+        display_name: 王元暕
+        merged_into_person_id: null
   children:
     - claim:
         id: c_5I4M1qxmic411YNiIPw9d3
@@ -163,6 +189,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_65hHtwcDRsaCnRYgvqjs1A | 王元暕 | accepted |
 | children | p_AJthCZJzr5eAL2kCMPefer | 王政 | accepted |
 
 ## 外部来源

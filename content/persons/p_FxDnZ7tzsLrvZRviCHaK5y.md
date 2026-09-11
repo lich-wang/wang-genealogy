@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王睿
 cbdb_id: 288332
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -143,7 +143,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_Iz3YiirdX4EPqZsHBstDgE
+        subject_person_id: p_FxDnZ7tzsLrvZRviCHaK5y
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_nTV1T9RX74vHEA3tyMaebm
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mhcUwAOM6bZr0ar7TznN0g
+          claim_id: c_Iz3YiirdX4EPqZsHBstDgE
+          source_id: s_VNsrGWznq4wS5HwLa4u6ov
+          stance: supports
+          locator: 嘉靖八年進士登科錄:一卷，第三甲第一百七十七名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_VNsrGWznq4wS5HwLa4u6ov
+            source_type: api_record
+            title: 中国历代人物传记资料库：王與齡（CBDB 68464）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=68464&o=json
+            external_identifier: CBDB:68464
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:13.073Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_nTV1T9RX74vHEA3tyMaebm
+        status: active
+        display_name: 王與齡
+        merged_into_person_id: null
   other: []
 ---
 
@@ -163,9 +200,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_qa4sYo9q4waHmECZyCZ8M3 | 王文 | accepted |
+| descendants | p_nTV1T9RX74vHEA3tyMaebm | 王與齡 | accepted |
 
 ## 外部来源
 
 - [维基数据：王睿（Q45449642）](https://www.wikidata.org/wiki/Q45449642)
 - [维基数据：王文（Q45449706）](https://www.wikidata.org/wiki/Q45449706)
+- [中国历代人物传记资料库：王與齡（CBDB 68464）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=68464&o=json)
 - [CBDB 中国历代人物传记资料库：王睿（288332）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288332&o=json)

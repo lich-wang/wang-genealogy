@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王仁肅
 cbdb_id: 150800
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,7 +86,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_zjEn62kmwJ3u3du8WksN9n
+        subject_person_id: p_nDu4qJEiukeRG7e3WQMWCW
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_1F6rYaPHwFsRxodfNdNw5j
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_IwOjmf7smKOH8lKRmcFkGM
+          claim_id: c_zjEn62kmwJ3u3du8WksN9n
+          source_id: s_cTLz7KW3XKKs5XdbHWg21v
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Jinglong 26：嗣子(作為繼承人的兒子)
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_cTLz7KW3XKKs5XdbHWg21v
+            source_type: api_record
+            title: 中国历代人物传记资料库：王感（CBDB 140253）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140253&o=json
+            external_identifier: CBDB:140253
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.484Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_nDu4qJEiukeRG7e3WQMWCW
+        status: active
+        display_name: 王感
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_nDu4qJEiukeRG7e3WQMWCW | 王感 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王感（CBDB 140253）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140253&o=json)
 - [中国历代人物传记资料库：王仁肅（CBDB 150800）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=150800&o=json)

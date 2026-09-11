@@ -4,7 +4,7 @@ id: p_o3rUP2kQ1XZ8uF6hpE5TbV
 status: active
 merged_into: null
 display_name: 王恢
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -141,7 +141,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_ydGID8fkxWSOCwP5YINyht
+        subject_person_id: p_o3rUP2kQ1XZ8uF6hpE5TbV
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_18GnPkpUEcGNgbFCDg5gah
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_flsEDLsy12u-LWqX2DZp_i
+          claim_id: c_ydGID8fkxWSOCwP5YINyht
+          source_id: s_tFzDULdCMkmeKGi2oTM7eH
+          stance: supports
+          locator: 嘉靖二十六年進士登科錄:一卷，第三甲第一百六十五名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_18GnPkpUEcGNgbFCDg5gah
+        status: active
+        display_name: 王任用
+        merged_into_person_id: null
   other: []
 ---
 
@@ -162,6 +188,7 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_hsrd5jGJNsGh8XhCPGY3RN | 王訓 | accepted |
 | children | p_CvzpEJfQqQbdZFgH5SKxcJ | 王時雨 | accepted |
+| descendants | p_18GnPkpUEcGNgbFCDg5gah | 王任用 | accepted |
 
 ## 外部来源
 

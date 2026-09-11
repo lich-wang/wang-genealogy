@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王爵
 cbdb_id: 288334
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -268,6 +268,43 @@ relationships:
         status: active
         display_name: 王培龄
         merged_into_person_id: null
+    - claim:
+        id: c_y8BO6IFrr1or262DOvxm5L
+        subject_person_id: p_KHASkzeAzAbrH4KC5REzz6
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_nTV1T9RX74vHEA3tyMaebm
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vR8flGAu7JF6SVKd2tDJ6P
+          claim_id: c_y8BO6IFrr1or262DOvxm5L
+          source_id: s_VNsrGWznq4wS5HwLa4u6ov
+          stance: supports
+          locator: 嘉靖八年進士登科錄:一卷，第三甲第一百七十七名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_VNsrGWznq4wS5HwLa4u6ov
+            source_type: api_record
+            title: 中国历代人物传记资料库：王與齡（CBDB 68464）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=68464&o=json
+            external_identifier: CBDB:68464
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:13.073Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_nTV1T9RX74vHEA3tyMaebm
+        status: active
+        display_name: 王與齡
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -294,6 +331,7 @@ relationships:
 | parents | p_qa4sYo9q4waHmECZyCZ8M3 | 王文 | accepted |
 | children | p_LYKX47nJ8c49oqYNGB3kRd | 王与龄 | accepted |
 | children | p_qzznHsDy1MaFH1YWPbYub4 | 王培龄 | accepted |
+| children | p_nTV1T9RX74vHEA3tyMaebm | 王與齡 | accepted |
 
 ## 外部来源
 
@@ -301,4 +339,5 @@ relationships:
 - [维基数据：王培龄（Q45690317）](https://www.wikidata.org/wiki/Q45690317)
 - [维基数据：王文（Q45449706）](https://www.wikidata.org/wiki/Q45449706)
 - [维基数据：王与龄（Q15924928）](https://www.wikidata.org/wiki/Q15924928)
+- [中国历代人物传记资料库：王與齡（CBDB 68464）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=68464&o=json)
 - [CBDB 中国历代人物传记资料库：王爵（288334）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288334&o=json)

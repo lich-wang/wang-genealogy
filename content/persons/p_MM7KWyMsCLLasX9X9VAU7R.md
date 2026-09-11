@@ -4,7 +4,7 @@ id: p_MM7KWyMsCLLasX9X9VAU7R
 status: active
 merged_into: null
 display_name: 王宗堯
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -143,6 +143,43 @@ relationships:
         status: active
         display_name: 王聘
         merged_into_person_id: null
+    - claim:
+        id: c_dirzWBek1Bn9wx3bUFyrtB
+        subject_person_id: p_nyHGqvA9YTKT9YQnGQ6pMM
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_MM7KWyMsCLLasX9X9VAU7R
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_evB7Uc2W8O3oksXv7a6eV6
+          claim_id: c_dirzWBek1Bn9wx3bUFyrtB
+          source_id: s_HzGWmSex6535AXKT7cDc3R
+          stance: supports
+          locator: 嘉靖二十三年登科錄:一卷，第二甲第二十八名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_HzGWmSex6535AXKT7cDc3R
+            source_type: api_record
+            title: 中国历代人物传记资料库：王大賓（CBDB 305532）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305532&o=json
+            external_identifier: CBDB:305532
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.740Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_nyHGqvA9YTKT9YQnGQ6pMM
+        status: active
+        display_name: 王大賓
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_kMXFk2RMgWgsEh7BZJsmpC | 王聘 | accepted |
+| ancestors | p_nyHGqvA9YTKT9YQnGQ6pMM | 王大賓 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王大賓（CBDB 305532）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305532&o=json)
 - [中国历代人物传记资料库：王聘（CBDB 305533）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305533&o=json)
 - [中国历代人物传记资料库：王宗堯（CBDB 203496）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203496&o=json)

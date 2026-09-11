@@ -4,7 +4,7 @@ id: p_ngRno3M6aBRj8xR4YNhnTD
 status: active
 merged_into: null
 display_name: 王紹先
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_pdZjE97jWFVXAK2j4Viu9r
+        subject_person_id: p_ngRno3M6aBRj8xR4YNhnTD
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_mYaz7ZtA5wiQaCjCBZf5rq
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fS_N_O-lKr0eOKVF2kKHSt
+          claim_id: c_pdZjE97jWFVXAK2j4Viu9r
+          source_id: s_ugDRhybgZS9LAqKbX3tkbr
+          stance: supports
+          locator: 嘉靖四十四年進士登科錄:一卷，第二甲第五十五名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_mYaz7ZtA5wiQaCjCBZf5rq
+        status: active
+        display_name: 王子蕙
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_mYaz7ZtA5wiQaCjCBZf5rq | 王子蕙 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_BXF3dbPMGdrpkj3BGNYpWy
 status: active
 merged_into: null
 display_name: 王文政
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,43 @@ relationships:
         status: active
         display_name: 王新
         merged_into_person_id: null
+    - claim:
+        id: c_JhDTJuLddBFBDb_4upDB6J
+        subject_person_id: p_NAHrMruW3D6UbLafhCDxg8
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_BXF3dbPMGdrpkj3BGNYpWy
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kcXGv1dQOleggmG4TxbdbP
+          claim_id: c_JhDTJuLddBFBDb_4upDB6J
+          source_id: s_XoP9yrrkvfJxJDmH48ygRS
+          stance: supports
+          locator: 嘉靖三十二年進士登科錄:一卷，第三甲第二百七十五名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_XoP9yrrkvfJxJDmH48ygRS
+            source_type: api_record
+            title: 中国历代人物传记资料库：王臣（CBDB 318792）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=318792&o=json
+            external_identifier: CBDB:318792
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.025Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_NAHrMruW3D6UbLafhCDxg8
+        status: active
+        display_name: 王臣
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_BHMsY8qAbSMNGU2H8r2g2y | 王佐 | accepted |
 | ancestors | p_hcEP9UcmM7VKPZcPSqcGFm | 王新 | accepted |
+| ancestors | p_NAHrMruW3D6UbLafhCDxg8 | 王臣 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王臣（CBDB 318792）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=318792&o=json)
 - [中国历代人物传记资料库：王文政（CBDB 204419）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204419&o=json)
 - [中国历代人物传记资料库：王新（CBDB 318791）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=318791&o=json)
 - [中国历代人物传记资料库：王佐（CBDB 318793）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=318793&o=json)

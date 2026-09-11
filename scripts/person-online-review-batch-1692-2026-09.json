@@ -1,0 +1,33 @@
+{
+  "schema": "wang-person-online-review-batch/v1",
+  "reviewer": "luna",
+  "reviewed_at": "2026-09-11",
+  "queue_positions": [
+    16911,
+    16920
+  ],
+  "summary": {
+    "reviewed": 10,
+    "relationships_added": 1,
+    "manual_review": 1
+  },
+  "relationships": [
+    {
+      "subject": "p_oEjk9MMP49z4GcDFBCjNtL",
+      "object": "p_RRZuE21H2Z9728UGo3kUPT",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 3
+    }
+  ],
+  "unchanged": [
+    "p_oeFGwUdiHcXB8r2KMM92Kn",
+    "p_oEPDCRmeM6SuRgi1JTke82",
+    "p_oeTp2TB7KMDGLG8u98gMef",
+    "p_oEx5JqZovWjAWmN242q9VM",
+    "p_ofBT84JyPKeD14Y5YrTLjX",
+    "p_oFD9E9JZMErk7xQ2HZDRA5",
+    "p_ofDNL1hsFt1v6GYpjecDnr",
+    "p_oFFy9LJTFcrxUJDoqZwCes",
+    "p_ofHhRZznV5HGQa48VtAxhA"
+  ]
+}

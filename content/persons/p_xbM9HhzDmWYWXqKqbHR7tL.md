@@ -4,7 +4,7 @@ id: p_xbM9HhzDmWYWXqKqbHR7tL
 status: active
 merged_into: null
 display_name: 王鼎
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_5hP1tsmOV0yrUyO76J4r4d
+        subject_person_id: p_nyqs9ApnwkQcyXyVvZypWX
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_xbM9HhzDmWYWXqKqbHR7tL
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_CCiMJluoY5neonDdpHvs14
+          claim_id: c_5hP1tsmOV0yrUyO76J4r4d
+          source_id: s_yj1GmQFf8eL7oKHtqhB2fa
+          stance: supports
+          locator: 成化十七年進士登科錄:一卷，第三甲第四十八名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_yj1GmQFf8eL7oKHtqhB2fa
+            source_type: api_record
+            title: 中国历代人物传记资料库：王佐（CBDB 256056）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=256056&o=json
+            external_identifier: CBDB:256056
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.379Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_nyqs9ApnwkQcyXyVvZypWX
+        status: active
+        display_name: 王佐
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -200,6 +237,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_nyqs9ApnwkQcyXyVvZypWX | 王佐 | accepted |
 | ancestors | p_5pKUMRk5Sj8Xpro93UAChf | 王智 | accepted |
 | ancestors | p_AtQAeRfDFnZkhe6UwZrjme | 王良 | accepted |
 
@@ -208,3 +246,4 @@ relationships:
 - [中国历代人物传记资料库：王鼎（CBDB 67762）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67762&o=json)
 - [中国历代人物传记资料库：王良（CBDB 256054）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=256054&o=json)
 - [中国历代人物传记资料库：王智（CBDB 256055）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=256055&o=json)
+- [中国历代人物传记资料库：王佐（CBDB 256056）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=256056&o=json)

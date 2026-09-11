@@ -4,7 +4,7 @@ id: p_o6NJCbdVfAes5uyoP8PCfZ
 status: active
 merged_into: null
 display_name: 王守道
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_9WRF1O2xyCXOP9n0dvyOM6
+        subject_person_id: p_Ca3HVLeA27vo1Jq5CxZ5ag
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_o6NJCbdVfAes5uyoP8PCfZ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__VQVL34iHvu-etplPPjY-I
+          claim_id: c_9WRF1O2xyCXOP9n0dvyOM6
+          source_id: s_VzcV4xtvB3a2yz9VgrM43x
+          stance: supports
+          locator: 宋史：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Ca3HVLeA27vo1Jq5CxZ5ag
+        status: active
+        display_name: 王繼先
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Ca3HVLeA27vo1Jq5CxZ5ag | 王繼先 | accepted |
 
 ## 外部来源
 

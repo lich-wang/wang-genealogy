@@ -4,7 +4,7 @@ id: p_NmDQGJMHiS8Rr9K75H9JB5
 status: active
 merged_into: null
 display_name: 王僧
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_lEaNZxwXUIVSshROLAr_QS
+        subject_person_id: p_w8gnje796KL8beHdygMBqw
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_NmDQGJMHiS8Rr9K75H9JB5
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gkrxW7lNf8RwXSlu25isG0
+          claim_id: c_lEaNZxwXUIVSshROLAr_QS
+          source_id: s_7C6kgmwNN6hq5icNndgMen
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Xianheng30：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_w8gnje796KL8beHdygMBqw
+        status: active
+        display_name: 王湛
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -155,6 +181,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_w8gnje796KL8beHdygMBqw | 王湛 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_Hq41nXPS6acQQdhAZabmC1
 status: active
 merged_into: null
 display_name: 王鑰
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -143,6 +143,43 @@ relationships:
         status: active
         display_name: 王謙
         merged_into_person_id: null
+    - claim:
+        id: c_bR9KlkoHanaSyJAQiV-IjA
+        subject_person_id: p_nyVuV6asBpHX7JxEUXdp2Y
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Hq41nXPS6acQQdhAZabmC1
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_96UO9CSoVcu3NWw3heMWnq
+          claim_id: c_bR9KlkoHanaSyJAQiV-IjA
+          source_id: s_NW8Xpw5VkfHtvyozukfeyd
+          stance: supports
+          locator: 萬曆八年進士登科錄:一卷，第三甲第五十名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_NW8Xpw5VkfHtvyozukfeyd
+            source_type: api_record
+            title: 中国历代人物传记资料库：王漢臣（CBDB 219866）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219866&o=json
+            external_identifier: CBDB:219866
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.292Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_nyVuV6asBpHX7JxEUXdp2Y
+        status: active
+        display_name: 王漢臣
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_Bd6DMQzbp7ML12caYF6Sds | 王謙 | accepted |
+| ancestors | p_nyVuV6asBpHX7JxEUXdp2Y | 王漢臣 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王漢臣（CBDB 219866）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219866&o=json)
 - [中国历代人物传记资料库：王謙（CBDB 219865）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219865&o=json)
 - [中国历代人物传记资料库：王鑰（CBDB 206568）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206568&o=json)
