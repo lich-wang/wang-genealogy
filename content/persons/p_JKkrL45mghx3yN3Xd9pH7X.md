@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王復初，明人物。正统七年進士。（中国历代人物传记资料库 CBDB 237904）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_J65FmrSZqj3LSnmBduEpEB
+        - id: cs_E3zO_jPMtHjsSbYHm7rfrC
           claim_id: c_Cg7ad4fnA1uj7q11FsLxAd
           source_id: s_Jt1HopWFQVgduEMP2PEAfG
           stance: supports
-          locator: null
+          locator: CBDB:237904
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王復初 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王復初，明人物。正统七年進士。（中国历代人物传记资料库 CBDB 237904） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王穆，明人物。籍贯建德。（中国历代人物传记资料库 CBDB 437552）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_VRfoP6K62BheqCKMQaEAQY
+        - id: cs_6r6cq0liERghB_7w0_DvXF
           claim_id: c_7b5ZAvMwsEkvFyxGWxhHEq
           source_id: s_Bx662qtXy99StFSWsSPE9Q
           stance: supports
-          locator: null
+          locator: CBDB:437552
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -128,7 +128,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王穆 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王穆，明人物。籍贯建德。（中国历代人物传记资料库 CBDB 437552） | accepted |
 
 ## 关联关系
 

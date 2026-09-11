@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: "王柏，清人物。籍贯順天府，入仕貢生: 拔貢，曾任復設教諭。（中国历代人物传记资料库 CBDB 638695）"
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_mWz1k5cTWWyU3fjHc7XH4D
+        - id: cs_ywPpYgonapwA0BXmvgZK_Y
           claim_id: c_uNFT4qs3eCZUXnCPf7AB7q
           source_id: s_EVuXV4aQtiyCujXaoqKwh4
           stance: supports
-          locator: null
+          locator: CBDB:638695
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王柏 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王柏，清人物。籍贯順天府，入仕貢生: 拔貢，曾任復設教諭。（中国历代人物传记资料库 CBDB 638695） | accepted |
 
 ## 关联关系
 

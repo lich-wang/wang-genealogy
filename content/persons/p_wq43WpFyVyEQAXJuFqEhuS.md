@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王寧，明人物。正统七年進士，籍贯淇縣。（中国历代人物传记资料库 CBDB 238669）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_HoZAuc7uxetvMJH2hEmUMi
+        - id: cs_DJAf-cW_bJPSV4YMSHMSjy
           claim_id: c_aX1BVNTB9LViuAcUtvwSQf
           source_id: s_T748XDK6j4XMaGSw7pHAuy
           stance: supports
-          locator: null
+          locator: CBDB:238669
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王寧 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王寧，明人物。正统七年進士，籍贯淇縣。（中国历代人物传记资料库 CBDB 238669） | accepted |
 
 ## 关联关系
 

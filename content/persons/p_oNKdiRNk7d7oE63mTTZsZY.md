@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: "王學孚，清人物。籍贯登州府，入仕貢生: 拔貢，曾任復設教諭。（中国历代人物传记资料库 CBDB 637030）"
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_gPbbRtBKDSJvUMUEpFHnB3
+        - id: cs_RVbiqMkNeN7uByjYVUW2pA
           claim_id: c_up7UQMssSC15V68EUV8yi5
           source_id: s_HuqbXjny7omJZDZCnMkM1C
           stance: supports
-          locator: null
+          locator: CBDB:637030
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王學孚 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王學孚，清人物。籍贯登州府，入仕貢生: 拔貢，曾任復設教諭。（中国历代人物传记资料库 CBDB 637030） | accepted |
 
 ## 关联关系
 

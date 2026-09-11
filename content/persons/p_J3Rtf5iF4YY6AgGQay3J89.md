@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王世勛（1728年—1780年），清人物。籍贯鎮海。（中国历代人物传记资料库 CBDB 71463）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_PXxUMYMB3J8fzz9MZfE5pC
+        - id: cs_qVSucVhuRvbIzvb_-2u4Lh
           claim_id: c_5vd2xApeJKxRn3m2ZzYqUe
           source_id: s_Hena7DTZFZACrzBhvJ1wLp
           stance: supports
-          locator: null
+          locator: CBDB:71463
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王世勛 | accepted |
 | birth.date | 1728年 | accepted |
 | death.date | 1780年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王世勛（1728年—1780年），清人物。籍贯鎮海。（中国历代人物传记资料库 CBDB 71463） | accepted |
 
 ## 关联关系
 

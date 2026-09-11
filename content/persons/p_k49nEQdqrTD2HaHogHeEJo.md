@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王式文，清人物。明清進士進士，籍贯晉江，入仕進士，曾任編修、同考官。（中国历代人物传记资料库 CBDB 343069）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Qg3S4PsVLXGPdRBsw4c3Cg
+        - id: cs_I427kW2ZIt0atXeUTUTeIE
           claim_id: c_MPkRkPY8Je125Zg52brUS3
           source_id: s_Ym77HCBPWU62f4GBZBQm5m
           stance: supports
-          locator: null
+          locator: CBDB:343069
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王式文 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王式文，清人物。明清進士進士，籍贯晉江，入仕進士，曾任編修、同考官。（中国历代人物传记资料库 CBDB 343069） | accepted |
 
 ## 关联关系
 

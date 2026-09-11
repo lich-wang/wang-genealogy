@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王溎雲，清人物。籍贯齊東，入仕監生，曾任典史。（中国历代人物传记资料库 CBDB 639182）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_nXFVzgYU13afjyDc3mNE4A
+        - id: cs_bK1ClXenrkk4wyM4ZX4xaE
           claim_id: c_Ae5verbqYc6zqKfx2kL79s
           source_id: s_zDAP7QmZA5nsuaPxpo3kjb
           stance: supports
-          locator: null
+          locator: CBDB:639182
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王溎雲 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王溎雲，清人物。籍贯齊東，入仕監生，曾任典史。（中国历代人物传记资料库 CBDB 639182） | accepted |
 
 ## 关联关系
 

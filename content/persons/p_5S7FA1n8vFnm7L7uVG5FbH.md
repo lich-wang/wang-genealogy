@@ -7,6 +7,44 @@ display_name: 連氏
 revision: 1
 cbdb_id: 216209
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_au1q1i4x22wyUMI1Njh21q
+        subject_person_id: p_5S7FA1n8vFnm7L7uVG5FbH
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 連氏，明人物。萬曆五年進士。（中国历代人物传记资料库 CBDB 216209）
+          language: zh-Hant
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_foFaDNz9EQyrKJntojESCA
+          claim_id: c_au1q1i4x22wyUMI1Njh21q
+          source_id: s_H9clHjMsD2m_ncl7yPfrmb
+          stance: supports
+          locator: CBDB:216209
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_H9clHjMsD2m_ncl7yPfrmb
+            source_type: api_record
+            title: 中国历代人物传记资料库：連氏(王約妻)（CBDB 216209）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=216209&o=json
+            external_identifier: CBDB:216209
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:216209
           quotation: null
           interpretation_note: CBDB 明确记录的王約配偶
-          source: &a1
-            id: s_H9clHjMsD2m_ncl7yPfrmb
-            source_type: api_record
-            title: 中国历代人物传记资料库：連氏(王約妻)（CBDB 216209）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=216209&o=json
-            external_identifier: CBDB:216209
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 連氏，明人物。萬曆五年進士。（中国历代人物传记资料库 CBDB 216209） | accepted |
 | name.primary | 連氏 | accepted |
 
 ## 关联关系

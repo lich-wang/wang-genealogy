@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王文貴，明人物。入仕薦舉 (保任,保舉)，曾任知縣。（中国历代人物传记资料库 CBDB 453397）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_s13HkWLphixEahJjZKW8h4
+        - id: cs_6Wx-q1uW7Mp0qWxiIZB9AS
           claim_id: c_3B7NcXC8gwckNBZzcZPZ86
           source_id: s_Ych6KbnpktoiefBJDJHKFh
           stance: supports
-          locator: null
+          locator: CBDB:453397
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王文貴 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王文貴，明人物。入仕薦舉 (保任,保舉)，曾任知縣。（中国历代人物传记资料库 CBDB 453397） | accepted |
 
 ## 关联关系
 

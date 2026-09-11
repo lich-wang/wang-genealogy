@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王弼，宋人物。籍贯閩縣，入仕進士。（中国历代人物传记资料库 CBDB 687825）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_yoha1ffWc1zxeD2ff95Hod
+        - id: cs_IywnHZsoGaPX6OjP8v9mwS
           claim_id: c_xPeZbSKDLtw91t1SCxLaP2
           source_id: s_ejSp4G65zEzshRoov4pqAM
           stance: supports
-          locator: null
+          locator: CBDB:687825
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王弼 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王弼，宋人物。籍贯閩縣，入仕進士。（中国历代人物传记资料库 CBDB 687825） | accepted |
 
 ## 关联关系
 

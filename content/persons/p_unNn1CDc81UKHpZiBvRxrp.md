@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王之魯，清人物。籍贯鳳凰直隸廳，曾任教諭、復設訓導。（中国历代人物传记资料库 CBDB 635827）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_frbASPjm31nFR3cia3KwXG
+        - id: cs_t32wmVlee0O_N_6Bq6s7ml
           claim_id: c_SuWDu4fWjKxCgZ9QA5AtKd
           source_id: s_9XuxX8yBkMC3FEuG93h4u6
           stance: supports
-          locator: null
+          locator: CBDB:635827
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王之魯 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王之魯，清人物。籍贯鳳凰直隸廳，曾任教諭、復設訓導。（中国历代人物传记资料库 CBDB 635827） | accepted |
 
 ## 关联关系
 

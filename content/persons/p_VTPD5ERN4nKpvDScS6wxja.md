@@ -76,11 +76,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: Ming dynasty person CBDB = 302566
-          language: en
+          text: 王贵，明人物。嘉靖二十年進士。（中国历代人物传记资料库 CBDB 302566）
+          language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
         - id: cs_xJZAVL4QupJKCxPreXiNXz
           claim_id: c_8T78zn16DHV8iqzGTFhs2W
@@ -90,6 +90,14 @@ properties:
           quotation: null
           interpretation_note: 维基数据条目描述
           source: *a1
+        - id: cs_6vmXJwDgsbs_klnBsZNvX4
+          claim_id: c_8T78zn16DHV8iqzGTFhs2W
+          source_id: s_NsH2JrA7zFChzTypXUmby7
+          stance: supports
+          locator: CBDB:302566
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: *a2
       object_person: null
     alternatives: []
 relationships:
@@ -183,7 +191,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王贵 | accepted |
-| bio.summary | Ming dynasty person CBDB = 302566 | accepted |
+| bio.summary | 王贵，明人物。嘉靖二十年進士。（中国历代人物传记资料库 CBDB 302566） | accepted |
 
 ## 关联关系
 

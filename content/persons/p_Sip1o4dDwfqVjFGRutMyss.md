@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王伯昌，宋人物。籍贯石埭，曾任中散大夫。（中国历代人物传记资料库 CBDB 30488）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_c7xENDEtZ8CVVen7ML8BYF
+        - id: cs_3bfedA9rEjJl5KbG4mTdA-
           claim_id: c_cQij8fLrSxyKW5QL7JBHqD
           source_id: s_UiBXaDbues5CkyeD5oTFCD
           stance: supports
-          locator: null
+          locator: CBDB:30488
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王伯昌 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王伯昌，宋人物。籍贯石埭，曾任中散大夫。（中国历代人物传记资料库 CBDB 30488） | accepted |
 
 ## 关联关系
 

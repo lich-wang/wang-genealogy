@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王文爟，明人物。嘉靖十一年進士，籍贯涇縣，入仕進士，曾任刑部主事。（中国历代人物传记资料库 CBDB 291900）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_nMU553WVB4kGr77EmpJZ1S
+        - id: cs_4ul8U2QLj50sqpWEBi4noX
           claim_id: c_TyvTHnN29xXZkYt4sxN6z5
           source_id: s_eKFjaTbqNQmuFNUjRciBrj
           stance: supports
-          locator: null
+          locator: CBDB:291900
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王文爟 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王文爟，明人物。嘉靖十一年進士，籍贯涇縣，入仕進士，曾任刑部主事。（中国历代人物传记资料库 CBDB 291900） | accepted |
 
 ## 关联关系
 

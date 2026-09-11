@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王喬棟（卒于1645年），明人物。籍贯雄縣，入仕進士，曾任知縣。（中国历代人物传记资料库 CBDB 125522）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_beVpJgnpEseCKfbmQMBNsG
+        - id: cs_U8_BBY86JqzQyZdf_fRShH
           claim_id: c_XPMV2GuFV4fF646yWSK28V
           source_id: s_BWz7ugye6buTumbGA6g7KA
           stance: supports
-          locator: null
+          locator: CBDB:125522
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王喬棟 | accepted |
 | death.date | 1645年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王喬棟（卒于1645年），明人物。籍贯雄縣，入仕進士，曾任知縣。（中国历代人物传记资料库 CBDB 125522） | accepted |
 
 ## 关联关系
 

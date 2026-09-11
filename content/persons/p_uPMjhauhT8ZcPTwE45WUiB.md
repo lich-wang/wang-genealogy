@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王汝明，明人物。弘治六年進士，籍贯無錫。（中国历代人物传记资料库 CBDB 265942）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Dq2B7GwRwfMGbnt7CuEZuN
+        - id: cs_mvjJoNuSPd4RB3GwH7wuOW
           claim_id: c_bwZEEakZDiRayBuofWWFV6
           source_id: s_vqWoB4noK8iLWaZs1yYawb
           stance: supports
-          locator: null
+          locator: CBDB:265942
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王汝明 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王汝明，明人物。弘治六年進士，籍贯無錫。（中国历代人物传记资料库 CBDB 265942） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王仁全，清人物。籍贯安義，曾任訓導。（中国历代人物传记资料库 CBDB 635879）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_ANsxc8CZdTz7hnYW3CPXq2
+        - id: cs_rywQr8B00gRc1kgfClQ9au
           claim_id: c_V386ztCxoSo3UgfZZsyzga
           source_id: s_nyMLaeCFWhz2jwFd3ScN3k
           stance: supports
-          locator: null
+          locator: CBDB:635879
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王仁全 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王仁全，清人物。籍贯安義，曾任訓導。（中国历代人物传记资料库 CBDB 635879） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王敬中，明人物。嘉靖二十年進士，籍贯晉江。（中国历代人物传记资料库 CBDB 304157）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_8fGAKktG42UByWNHzBrmWr
+        - id: cs_nGx9AG_4_hFTKphhGpjEG-
           claim_id: c_QVu32kJDc1oWhgdaDiAPBD
           source_id: s_a2vnNnGspKHBe2FAmSpWUu
           stance: supports
-          locator: null
+          locator: CBDB:304157
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王敬中 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王敬中，明人物。嘉靖二十年進士，籍贯晉江。（中国历代人物传记资料库 CBDB 304157） | accepted |
 
 ## 关联关系
 

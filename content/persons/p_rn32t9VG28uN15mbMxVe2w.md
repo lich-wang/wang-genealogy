@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王喈玉，清人物。籍贯含山，入仕監生，曾任知州。（中国历代人物传记资料库 CBDB 636582）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_qenD254kjTvT41RscFRJhN
+        - id: cs_sjn_QtwALTowIiCNVbHhR6
           claim_id: c_e5CsCQWvmoReWBKCDGMDWh
           source_id: s_cUQTXdezX46uK8bTqwVgx2
           stance: supports
-          locator: null
+          locator: CBDB:636582
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王喈玉 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王喈玉，清人物。籍贯含山，入仕監生，曾任知州。（中国历代人物传记资料库 CBDB 636582） | accepted |
 
 ## 关联关系
 

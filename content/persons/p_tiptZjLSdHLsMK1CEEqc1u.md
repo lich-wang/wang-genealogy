@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王邦瑞（1495年—1561年），明人物。明清進士進士，籍贯宜陽，入仕進士，曾任兵部尚書、兵部右侍郎、兵部左侍郎。（中国历代人物传记资料库 CBDB 68262）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_dGKBD5KJMdnB8wBqVAFVZU
+        - id: cs_Hyie7EsT92OrT-YvYcxL5y
           claim_id: c_B2Vo2KmRHaj6raJDtPozMz
           source_id: s_J4Jz3KxkBLvf3x6AGAoqZ9
           stance: supports
-          locator: null
+          locator: CBDB:68262
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -297,7 +297,7 @@ relationships:
 | name.primary | 王邦瑞 | accepted |
 | birth.date | 1495年 | accepted |
 | death.date | 1561年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王邦瑞（1495年—1561年），明人物。明清進士進士，籍贯宜陽，入仕進士，曾任兵部尚書、兵部右侍郎、兵部左侍郎。（中国历代人物传记资料库 CBDB 68262） | accepted |
 
 ## 关联关系
 

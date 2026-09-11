@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王邦憲，明人物。嘉靖二十九年進士，籍贯高密，曾任訓導。（中国历代人物传记资料库 CBDB 314564）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_KmDzgzfNs3SfJ3BnyRmFkP
+        - id: cs_FPQMzLETDiGH3mrtZH9G4t
           claim_id: c_5fucnEbisD8LamRAeMMBAa
           source_id: s_Z656JzqQ8FojQ7wiQF4nvM
           stance: supports
-          locator: null
+          locator: CBDB:314564
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王邦憲 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王邦憲，明人物。嘉靖二十九年進士，籍贯高密，曾任訓導。（中国历代人物传记资料库 CBDB 314564） | accepted |
 
 ## 关联关系
 

@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王承曾（1686年—1752年），清人物。籍贯醴泉。（中国历代人物传记资料库 CBDB 71831）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_M26LaeBRx69wSPxmWnM7J1
+        - id: cs_XRrtUqvY5-Frbw3rW0sJjJ
           claim_id: c_N4wmc6N3y6izEW5C7pBCgW
           source_id: s_Ndai57tKCcPqRFyXjmmzaG
           stance: supports
-          locator: null
+          locator: CBDB:71831
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王承曾 | accepted |
 | birth.date | 1686年 | accepted |
 | death.date | 1752年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王承曾（1686年—1752年），清人物。籍贯醴泉。（中国历代人物传记资料库 CBDB 71831） | accepted |
 
 ## 关联关系
 

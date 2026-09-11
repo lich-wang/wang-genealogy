@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王宣，明人物。明清進士進士，籍贯淇縣，入仕進士。（中国历代人物传记资料库 CBDB 126596）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_1F5v8GzPDFwkCrGfE1h1wA
+        - id: cs_PUGmajDCJaLdQHcJZ5C975
           claim_id: c_GeNXEcLxiTEPgtpVvsEt9A
           source_id: s_J1228QDugEWP6w6V1LhQqr
           stance: supports
-          locator: null
+          locator: CBDB:126596
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -202,7 +202,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王宣 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王宣，明人物。明清進士進士，籍贯淇縣，入仕進士。（中国历代人物传记资料库 CBDB 126596） | accepted |
 
 ## 关联关系
 

@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王世清（卒于1849年），清人物。籍贯許州直隸州，入仕鄉貢舉人，曾任辦營務處、督標中軍副將、撫標中軍參將。（中国历代人物传记资料库 CBDB 69157）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_z2XM38AJ336oKts9v8txzy
+        - id: cs_va-Rf2sL-5hhJNZh6eIg2j
           claim_id: c_81NhUjwKXDT1cBhKfxsdUn
           source_id: s_fi1YEhsMkCMb4cSpKF3D7K
           stance: supports
-          locator: null
+          locator: CBDB:69157
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王世清 | accepted |
 | death.date | 1849年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王世清（卒于1849年），清人物。籍贯許州直隸州，入仕鄉貢舉人，曾任辦營務處、督標中軍副將、撫標中軍參將。（中国历代人物传记资料库 CBDB 69157） | accepted |
 
 ## 关联关系
 

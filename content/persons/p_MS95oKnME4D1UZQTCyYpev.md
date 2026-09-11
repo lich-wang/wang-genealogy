@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为五代人物
-          language: zh-Hans
+          text: 王靖，五代人物。籍贯長汀，身份为牙將，入仕募入軍伍。（中国历代人物传记资料库 CBDB 26362）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_gpBV8Xmf6syz9QFGfWMMuQ
+        - id: cs_GpuXewmkZvFnAyaZs79NCb
           claim_id: c_49jrgupgmaNbeJYSbHnRgR
           source_id: s_AXPsStj4tV1f6MsBZYCDTG
           stance: supports
-          locator: null
+          locator: CBDB:26362
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -154,7 +154,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王靖 | accepted |
-| bio.summary | CBDB 记载为五代人物 | accepted |
+| bio.summary | 王靖，五代人物。籍贯長汀，身份为牙將，入仕募入軍伍。（中国历代人物传记资料库 CBDB 26362） | accepted |
 
 ## 关联关系
 

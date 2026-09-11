@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王阜，宋人物。籍贯開封。（中国历代人物传记资料库 CBDB 10125）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_X3rGHx5GZDN2kt6TZZda83
+        - id: cs_B6ZQC-f_RHFd1Xzpp9tlOv
           claim_id: c_5WuhoZneP14g1brKdTavJx
           source_id: s_a61QKMjn3b7koxMK1ayGW7
           stance: supports
-          locator: null
+          locator: CBDB:10125
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -143,7 +143,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王阜 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王阜，宋人物。籍贯開封。（中国历代人物传记资料库 CBDB 10125） | accepted |
 
 ## 关联关系
 

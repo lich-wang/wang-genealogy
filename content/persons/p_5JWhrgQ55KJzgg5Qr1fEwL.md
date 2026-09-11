@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王天章，明人物。嘉靖四十一年進士。（中国历代人物传记资料库 CBDB 327810）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_M4mjEKdWkkGCHUd92giWCr
+        - id: cs_5pAH8IPi4EiiwIKm-iP11q
           claim_id: c_9mX4fRg1QZoFvMnENuKpRa
           source_id: s_wpXb4VmDxxADhyGZ4QTLxP
           stance: supports
-          locator: null
+          locator: CBDB:327810
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王天章 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王天章，明人物。嘉靖四十一年進士。（中国历代人物传记资料库 CBDB 327810） | accepted |
 
 ## 关联关系
 

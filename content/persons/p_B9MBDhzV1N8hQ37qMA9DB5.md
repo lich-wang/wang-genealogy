@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王埜，明人物。嘉靖二十年進士，曾任義官。（中国历代人物传记资料库 CBDB 304721）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_L8Q9vdo8zWv3LythUnBMBy
+        - id: cs_148SMEWFT-ScdGkk8_hNvu
           claim_id: c_bS1BMWYLJGHE55Z2Pjesy3
           source_id: s_oe7B5Gw6ApPt7ZhUTRzoV5
           stance: supports
-          locator: null
+          locator: CBDB:304721
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王埜 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王埜，明人物。嘉靖二十年進士，曾任義官。（中国历代人物传记资料库 CBDB 304721） | accepted |
 
 ## 关联关系
 

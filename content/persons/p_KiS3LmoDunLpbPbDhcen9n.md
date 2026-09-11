@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王懷清（卒于849年），唐人物。籍贯杜陵。（中国历代人物传记资料库 CBDB 175936）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_3CCp6NAws4D27yfApBc1Sb
+        - id: cs_5YVQf48P7cDVgsE7TFqm7d
           claim_id: c_GGVAXVvDRLyRA3g3pWGLnU
           source_id: s_eiB3eVvZ646T74fFVBHCko
           stance: supports
-          locator: null
+          locator: CBDB:175936
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王懷清 | accepted |
 | death.date | 849年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王懷清（卒于849年），唐人物。籍贯杜陵。（中国历代人物传记资料库 CBDB 175936） | accepted |
 
 ## 关联关系
 

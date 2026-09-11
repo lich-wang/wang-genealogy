@@ -75,11 +75,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: person, CBDB = 175867
-          language: en
+          text: 王景孝（卒于593年），南北朝人物。籍贯丹徒，曾任侍郎。（中国历代人物传记资料库 CBDB 175867）
+          language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
         - id: cs_5tkRV3Tia7hYabMf7VF6JJ
           claim_id: c_LaJKN4C1KvBk2YfKGbe18c
@@ -89,6 +89,14 @@ properties:
           quotation: null
           interpretation_note: 维基数据条目描述
           source: *a1
+        - id: cs_bm36VrU7X3gweqnuIWq-k2
+          claim_id: c_LaJKN4C1KvBk2YfKGbe18c
+          source_id: s_amneLzd6PAqKJP64P3Sdud
+          stance: supports
+          locator: CBDB:175867
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: *a2
       object_person: null
     alternatives: []
   - predicate: death.date
@@ -210,7 +218,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王景孝 | accepted |
-| bio.summary | person, CBDB = 175867 | accepted |
+| bio.summary | 王景孝（卒于593年），南北朝人物。籍贯丹徒，曾任侍郎。（中国历代人物传记资料库 CBDB 175867） | accepted |
 | death.date | 593年 | accepted |
 
 ## 关联关系

@@ -75,11 +75,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: Ming dynasty person CBDB=34584
-          language: en
+          text: 王彦祥，明人物。籍贯吳縣，身份为地方士人/鄉紳，入仕封贈。（中国历代人物传记资料库 CBDB 34584）
+          language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
         - id: cs_67EdFG2XW97JvyrF9LXMAN
           claim_id: c_fr6n9eiHRfBEo8Zo7qTtdC
@@ -89,6 +89,14 @@ properties:
           quotation: null
           interpretation_note: 维基数据条目描述
           source: *a1
+        - id: cs_K-SsLoDWpY8ltNpi4qlbfa
+          claim_id: c_fr6n9eiHRfBEo8Zo7qTtdC
+          source_id: s_nZGqGfQ2NF4qEVQNq979KR
+          stance: supports
+          locator: CBDB:34584
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: *a2
       object_person: null
     alternatives: []
 relationships:
@@ -182,7 +190,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王彦祥 | accepted |
-| bio.summary | Ming dynasty person CBDB=34584 | accepted |
+| bio.summary | 王彦祥，明人物。籍贯吳縣，身份为地方士人/鄉紳，入仕封贈。（中国历代人物传记资料库 CBDB 34584） | accepted |
 
 ## 关联关系
 

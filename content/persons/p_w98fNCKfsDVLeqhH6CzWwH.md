@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王涇，明人物。籍贯浦江。（中国历代人物传记资料库 CBDB 134177）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_iKuJt2Z7v6f5MddfY1LJkT
+        - id: cs_kIl7qus9d7F5MUGCNc-Dzu
           claim_id: c_T91kxD4fWVSjG2sna62qnU
           source_id: s_xtMm32QVJL4KnSBbX5j5h1
           stance: supports
-          locator: null
+          locator: CBDB:134177
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -128,7 +128,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王涇 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王涇，明人物。籍贯浦江。（中国历代人物传记资料库 CBDB 134177） | accepted |
 
 ## 关联关系
 

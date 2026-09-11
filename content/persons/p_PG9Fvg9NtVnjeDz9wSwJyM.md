@@ -51,7 +51,7 @@ properties:
           locator: CBDB:164581
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source:
+          source: &a2
             id: s_VbZzDNCWy7cMdC4cTM9L9g
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：王僧辯（164581）
@@ -76,11 +76,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: Liang Dynasty regent
-          language: en
+          text: 王僧辩（5世纪—555年），南北朝人物。籍贯丹徒，曾任太尉。（中国历代人物传记资料库 CBDB 164581）
+          language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
         - id: cs_FiPC8YGhYeLd4Ah8wSWZnH
           claim_id: c_4d61QCFDDurTDKS31zozJV
@@ -90,6 +90,14 @@ properties:
           quotation: null
           interpretation_note: 维基数据条目描述
           source: *a1
+        - id: cs_cO5OOtxO6MjBGkXDntU3NI
+          claim_id: c_4d61QCFDDurTDKS31zozJV
+          source_id: s_VbZzDNCWy7cMdC4cTM9L9g
+          stance: supports
+          locator: CBDB:164581
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: *a2
       object_person: null
     alternatives: []
   - predicate: birth.date
@@ -288,7 +296,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王僧辩 | accepted |
-| bio.summary | Liang Dynasty regent | accepted |
+| bio.summary | 王僧辩（5世纪—555年），南北朝人物。籍贯丹徒，曾任太尉。（中国历代人物传记资料库 CBDB 164581） | accepted |
 | birth.date | 5世纪 | accepted |
 | death.date | 555年 | accepted |
 

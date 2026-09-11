@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王丙心，清人物。籍贯都勻，入仕進士，曾任知縣。（中国历代人物传记资料库 CBDB 635731）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_QjLt4StAgUqL4PQJKKq1AK
+        - id: cs_kN_NVot5iRgyW9RkSXatY-
           claim_id: c_8T8BBZtSPBbV7u3YFKKkzT
           source_id: s_Vd9XUDkz82eoSQRYNw1JxX
           stance: supports
-          locator: null
+          locator: CBDB:635731
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王丙心 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王丙心，清人物。籍贯都勻，入仕進士，曾任知縣。（中国历代人物传记资料库 CBDB 635731） | accepted |
 
 ## 关联关系
 

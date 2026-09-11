@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王師震，清人物。籍贯武宣。（中国历代人物传记资料库 CBDB 555353）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_a84EjjECwFvzy4RgLhCAwA
+        - id: cs_-N8MZIAK-8iPTv4Rr7zlgQ
           claim_id: c_HeUaZJCzkNS8q6RbYn2gup
           source_id: s_q2SxcHj7Qx6uMDtPWnxjcU
           stance: supports
-          locator: null
+          locator: CBDB:555353
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王師震 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王師震，清人物。籍贯武宣。（中国历代人物传记资料库 CBDB 555353） | accepted |
 
 ## 关联关系
 

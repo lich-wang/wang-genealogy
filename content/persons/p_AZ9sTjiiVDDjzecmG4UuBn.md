@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王惟義，宋人物。籍贯鄞縣，身份为士人。（中国历代人物传记资料库 CBDB 19887）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_GasuTT7DjSbzYQRPWJ9brA
+        - id: cs_GmWiv3JC-FnNoFp5rLvaqv
           claim_id: c_avvC46oiSg3McyXXBjnQmJ
           source_id: s_CzrKuB5khe9w32c1V3hf5n
           stance: supports
-          locator: null
+          locator: CBDB:19887
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王惟義 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王惟義，宋人物。籍贯鄞縣，身份为士人。（中国历代人物传记资料库 CBDB 19887） | accepted |
 
 ## 关联关系
 

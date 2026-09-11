@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王昭，明人物。曾任典史、主簿。（中国历代人物传记资料库 CBDB 460208）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_vNfV6GHGzYZ8a9bpTzf15U
+        - id: cs_VScx97fR1n5ZkJ2t5uDA8i
           claim_id: c_DKQaLBs5nXAkYxFCbSsb5M
           source_id: s_rBCCuQ2ZED13q22Qip2sTp
           stance: supports
-          locator: null
+          locator: CBDB:460208
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王昭 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王昭，明人物。曾任典史、主簿。（中国历代人物传记资料库 CBDB 460208） | accepted |
 
 ## 关联关系
 

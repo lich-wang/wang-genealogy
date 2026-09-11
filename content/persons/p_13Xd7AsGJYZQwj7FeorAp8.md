@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王徵（1571年—1644年），明人物。明清進士進士，籍贯涇陽，身份为科學家，入仕進士。（中国历代人物传记资料库 CBDB 65826）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_S88byXtwcAaiDvi7UpHdEm
+        - id: cs_h0m9idd2egyhvCa-r4TG_J
           claim_id: c_NHgcagyBpPeq9oP7gh4SLc
           source_id: s_jX12Ex23kP9R16HKdhbtu9
           stance: supports
-          locator: null
+          locator: CBDB:65826
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王徵 | accepted |
 | birth.date | 1571年 | accepted |
 | death.date | 1644年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王徵（1571年—1644年），明人物。明清進士進士，籍贯涇陽，身份为科學家，入仕進士。（中国历代人物传记资料库 CBDB 65826） | accepted |
 
 ## 关联关系
 

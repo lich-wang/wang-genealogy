@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王原吉，清人物。曾任典史。（中国历代人物传记资料库 CBDB 501295）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_1dvzysJxM9ifF4JLTA3qPa
+        - id: cs_lHNRjAT8jYswObtx4nJhW0
           claim_id: c_F2AfuqQZc16cwJe2DaKVkG
           source_id: s_HQpxJSj2T72x6bArY8SV19
           stance: supports
-          locator: null
+          locator: CBDB:501295
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王原吉 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王原吉，清人物。曾任典史。（中国历代人物传记资料库 CBDB 501295） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王鎮新，清人物。明清進士進士，籍贯崇陽，入仕進士，曾任教授。（中国历代人物传记资料库 CBDB 343793）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_GNK14Rz8Ba4KC3TLVFucEA
+        - id: cs_wruztp6iU3wEMJTeqIv2F5
           claim_id: c_i3LYsSqB2u6uXQt1tmQEQN
           source_id: s_iQDRUjkf5Dnk1nLbYLaaYK
           stance: supports
-          locator: null
+          locator: CBDB:343793
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王鎮新 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王鎮新，清人物。明清進士進士，籍贯崇陽，入仕進士，曾任教授。（中国历代人物传记资料库 CBDB 343793） | accepted |
 
 ## 关联关系
 

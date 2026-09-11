@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王廷燦（1652年—1720年），清人物。籍贯錢塘，入仕鄉貢舉人，曾任知縣。（中国历代人物传记资料库 CBDB 71559）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_rTv1YinXxQUH1qWVsasbes
+        - id: cs_iQuxXvNhgcbRh1xRHn4alO
           claim_id: c_B2pP6cqAS1JxEHso1xtSuq
           source_id: s_do1DsJSBF2u7xe53rkpBwu
           stance: supports
-          locator: null
+          locator: CBDB:71559
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王廷燦 | accepted |
 | birth.date | 1652年 | accepted |
 | death.date | 1720年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王廷燦（1652年—1720年），清人物。籍贯錢塘，入仕鄉貢舉人，曾任知縣。（中国历代人物传记资料库 CBDB 71559） | accepted |
 
 ## 关联关系
 

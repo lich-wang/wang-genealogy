@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王舜年（卒于1815年），清人物。籍贯成都，入仕武舉人，曾任城守左營守備、營都司、營守備。（中国历代人物传记资料库 CBDB 69373）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_rWVkV89QnH5aW15U1XgCcC
+        - id: cs__FwGXKEf38xpunw1-R24VD
           claim_id: c_fYzdxQAE9KcBQN4P62sfRU
           source_id: s_uxT4siYDNC325dXwZGcwhc
           stance: supports
-          locator: null
+          locator: CBDB:69373
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -157,7 +157,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王舜年 | accepted |
 | death.date | 1815年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王舜年（卒于1815年），清人物。籍贯成都，入仕武舉人，曾任城守左營守備、營都司、營守備。（中国历代人物传记资料库 CBDB 69373） | accepted |
 
 ## 关联关系
 

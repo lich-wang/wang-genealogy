@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: "王錫典，清人物。籍贯同州府，入仕貢生: 恩貢，曾任復設教諭。（中国历代人物传记资料库 CBDB 640591）"
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_GAHu6E7LtP86qvK6vGLvG9
+        - id: cs_M8ajMtY5Wb0wt4r-0Y69Yu
           claim_id: c_H6JeUENdDVh1vtNTooNQgW
           source_id: s_Cq7xo8NcPi766HXj5zJgkG
           stance: supports
-          locator: null
+          locator: CBDB:640591
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王錫典 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王錫典，清人物。籍贯同州府，入仕貢生: 恩貢，曾任復設教諭。（中国历代人物传记资料库 CBDB 640591） | accepted |
 
 ## 关联关系
 

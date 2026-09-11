@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王彥昇（917年—974年），宋人物。籍贯洛陽，身份为精於劍術，曾任防禦使、團練使、東班。（中国历代人物传记资料库 CBDB 37640）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_NJA6QBugkE9pqZBrJ3HrN2
+        - id: cs_kUOyP4hoBiSyACTI1fryGd
           claim_id: c_bSB7TpJM8kuuuLdscKXLRN
           source_id: s_3VRz628t2A2DyVWSR7CCsJ
           stance: supports
-          locator: null
+          locator: CBDB:37640
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王彥昇 | accepted |
 | birth.date | 917年 | accepted |
 | death.date | 974年 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王彥昇（917年—974年），宋人物。籍贯洛陽，身份为精於劍術，曾任防禦使、團練使、東班。（中国历代人物传记资料库 CBDB 37640） | accepted |
 
 ## 关联关系
 

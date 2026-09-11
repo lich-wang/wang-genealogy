@@ -7,6 +7,44 @@ display_name: 錢氏
 revision: 1
 cbdb_id: 212078
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_pIHvMbC-N9ImEvuKkwv62D
+        subject_person_id: p_JZ9sa9wQLMVqCAy8XLfNy6
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 錢氏，明人物。隆慶五年進士。（中国历代人物传记资料库 CBDB 212078）
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pWVla0TT5fK7qy6DvFNTVj
+          claim_id: c_pIHvMbC-N9ImEvuKkwv62D
+          source_id: s_2mf35hMwizD_w_0ayy5rMk
+          stance: supports
+          locator: CBDB:212078
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_2mf35hMwizD_w_0ayy5rMk
+            source_type: api_record
+            title: 中国历代人物传记资料库：錢氏(王煥妻)（CBDB 212078）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=212078&o=json
+            external_identifier: CBDB:212078
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:212078
           quotation: null
           interpretation_note: CBDB 明确记录的王煥配偶
-          source: &a1
-            id: s_2mf35hMwizD_w_0ayy5rMk
-            source_type: api_record
-            title: 中国历代人物传记资料库：錢氏(王煥妻)（CBDB 212078）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=212078&o=json
-            external_identifier: CBDB:212078
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 錢氏，明人物。隆慶五年進士。（中国历代人物传记资料库 CBDB 212078） | accepted |
 | name.primary | 錢氏 | accepted |
 
 ## 关联关系

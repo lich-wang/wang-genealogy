@@ -7,6 +7,44 @@ display_name: 尹氏
 revision: 1
 cbdb_id: 38559
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_7EYEDIhbmm3RPtV4NdHhHw
+        subject_person_id: p_2kxukhXgmcPrZye4v5ZP7j
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 尹氏，後蜀人物。曾任國太夫人。（中国历代人物传记资料库 CBDB 38559）
+          language: zh-Hant
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JCgsGssdJcLlb0cDZ8jFRw
+          claim_id: c_7EYEDIhbmm3RPtV4NdHhHw
+          source_id: s_dRVZSZAHHLHq7-6BTkLPrV
+          stance: supports
+          locator: CBDB:38559
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_dRVZSZAHHLHq7-6BTkLPrV
+            source_type: api_record
+            title: 中国历代人物传记资料库：尹氏(王永妻)（CBDB 38559）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38559&o=json
+            external_identifier: CBDB:38559
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:38559
           quotation: null
           interpretation_note: CBDB 明确记录的王永配偶
-          source: &a1
-            id: s_dRVZSZAHHLHq7-6BTkLPrV
-            source_type: api_record
-            title: 中国历代人物传记资料库：尹氏(王永妻)（CBDB 38559）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38559&o=json
-            external_identifier: CBDB:38559
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 尹氏，後蜀人物。曾任國太夫人。（中国历代人物传记资料库 CBDB 38559） | accepted |
 | name.primary | 尹氏 | accepted |
 
 ## 关联关系

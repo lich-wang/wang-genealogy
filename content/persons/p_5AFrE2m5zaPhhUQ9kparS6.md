@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王景中，清人物。籍贯慈溪，入仕監生，曾任典史。（中国历代人物传记资料库 CBDB 638469）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_D8dRrCmU42zfp4PeQ9DgGm
+        - id: cs_ToaPQYRKORKVhLNxGciKIA
           claim_id: c_DWFhYh1PENdWU12STabZiy
           source_id: s_sY66RWw9xf7oPrx573j39h
           stance: supports
-          locator: null
+          locator: CBDB:638469
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王景中 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王景中，清人物。籍贯慈溪，入仕監生，曾任典史。（中国历代人物传记资料库 CBDB 638469） | accepted |
 
 ## 关联关系
 

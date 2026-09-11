@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王天爵（1516年—1600年），明人物。明清進士進士，籍贯歙縣，身份为以疾廢，入仕進士。（中国历代人物传记资料库 CBDB 126474）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_ohB22vRNs675XZkU5RhPCA
+        - id: cs_7TO03YHNyZ4gwiJqNhAcBs
           claim_id: c_iSKzEPmhcQ6Hzo9HypwnuK
           source_id: s_EjKdf46TDnTzhRhoN38gKt
           stance: supports
-          locator: null
+          locator: CBDB:126474
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -262,7 +262,7 @@ relationships:
 | name.primary | 王天爵 | accepted |
 | birth.date | 1516年 | accepted |
 | death.date | 1600年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王天爵（1516年—1600年），明人物。明清進士進士，籍贯歙縣，身份为以疾廢，入仕進士。（中国历代人物传记资料库 CBDB 126474） | accepted |
 
 ## 关联关系
 

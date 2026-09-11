@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王祥，明人物。成化五年進士。（中国历代人物传记资料库 CBDB 243555）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_KY19fkhEYXJ71XJgcej2aX
+        - id: cs_ukZ2KxpnB835J0lqOz7Kvf
           claim_id: c_ZVmRPDUP4x9ubtCXh4akGR
           source_id: s_r8ZVgqQW6T6WCPngB91mpv
           stance: supports
-          locator: null
+          locator: CBDB:243555
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -128,7 +128,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王祥 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王祥，明人物。成化五年進士。（中国历代人物传记资料库 CBDB 243555） | accepted |
 
 ## 关联关系
 

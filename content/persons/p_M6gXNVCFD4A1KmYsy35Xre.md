@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
+          text: 王坦（1297年—1355年），元人物。籍贯麗水。（中国历代人物传记资料库 CBDB 100684）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_LFF5Pv29FsoPSk3RQpJ7hh
+        - id: cs_KVnXQfU0nud51QYAVzXxQ-
           claim_id: c_eM3jz144cAWmBQdA4aGVk2
           source_id: s_hFksobc7oGiGMHYirujNKk
           stance: supports
-          locator: null
+          locator: CBDB:100684
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王坦 | accepted |
 | birth.date | 1297年 | accepted |
 | death.date | 1355年 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王坦（1297年—1355年），元人物。籍贯麗水。（中国历代人物传记资料库 CBDB 100684） | accepted |
 
 ## 关联关系
 

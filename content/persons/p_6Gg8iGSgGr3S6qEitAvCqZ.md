@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王政（生于1370年），明人物。建文二年殿試進士，籍贯蘄州，入仕進士。（中国历代人物传记资料库 CBDB 200180）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Zbx2wgYvi3avhxRBeCg6zP
+        - id: cs_QlC1SSjGqREws2e5wr7EKi
           claim_id: c_s22p3xD4HTVBTxEPsbGZMu
           source_id: s_EDAR71GKiVBtQ9XHGXTeMe
           stance: supports
-          locator: null
+          locator: CBDB:200180
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -235,7 +235,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王政 | accepted |
 | birth.date | 1370年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王政（生于1370年），明人物。建文二年殿試進士，籍贯蘄州，入仕進士。（中国历代人物传记资料库 CBDB 200180） | accepted |
 
 ## 关联关系
 

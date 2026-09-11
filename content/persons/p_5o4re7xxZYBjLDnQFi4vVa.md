@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
+          text: 王纉，元人物。曾任知事。（中国历代人物传记资料库 CBDB 480492）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_ocHC9LEJr3UV8HVwzdT9UA
+        - id: cs_NUWdrhQRt4_1hYIi1IbemK
           claim_id: c_4J9Zm5TZ7mFR1CqTQd7zze
           source_id: s_dW46LCgh6UECqxi75g3QVC
           stance: supports
-          locator: null
+          locator: CBDB:480492
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王纉 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王纉，元人物。曾任知事。（中国历代人物传记资料库 CBDB 480492） | accepted |
 
 ## 关联关系
 

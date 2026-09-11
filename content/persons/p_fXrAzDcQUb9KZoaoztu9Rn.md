@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王世昌，宋人物。籍贯蓬萊。（中国历代人物传记资料库 CBDB 27011）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_s5fAF2DAX8dZmMc2AWKUAB
+        - id: cs_Kt8FpB9x4LA3qme9Jh4cN9
           claim_id: c_Zv4uLxKK6182DSzsb8nEPn
           source_id: s_7K5uyMJ7d8zbD4hCw6KWWE
           stance: supports
-          locator: null
+          locator: CBDB:27011
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王世昌 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王世昌，宋人物。籍贯蓬萊。（中国历代人物传记资料库 CBDB 27011） | accepted |
 
 ## 关联关系
 

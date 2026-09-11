@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王士源，唐人物。籍贯宜城，身份为工於文。（中国历代人物传记资料库 CBDB 91974）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_CWKnd7cWceQmAXit3oAuER
+        - id: cs_nEXsixB0PPqZhuOAHdTsJT
           claim_id: c_bPfVMvYX1wgcCsBLj8DVhF
           source_id: s_8yPQcD1WqZxccY9RQuXGc8
           stance: supports
-          locator: null
+          locator: CBDB:91974
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王士源 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王士源，唐人物。籍贯宜城，身份为工於文。（中国历代人物传记资料库 CBDB 91974） | accepted |
 
 ## 关联关系
 

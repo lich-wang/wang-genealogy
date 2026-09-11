@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王殿玉，清人物。籍贯仙居，曾任藍翎侍衛、守備、中軍守備。（中国历代人物传记资料库 CBDB 638933）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_wDbNnT72ZAp5M9jwYSFAGg
+        - id: cs_DkOwDE535txVSGYFO2Z7_8
           claim_id: c_kbFRCyRHGSHkRqRieErGPJ
           source_id: s_czDjH99Y2a7Y9pHUbR9tC7
           stance: supports
-          locator: null
+          locator: CBDB:638933
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王殿玉 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王殿玉，清人物。籍贯仙居，曾任藍翎侍衛、守備、中軍守備。（中国历代人物传记资料库 CBDB 638933） | accepted |
 
 ## 关联关系
 

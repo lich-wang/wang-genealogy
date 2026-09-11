@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王重光，明人物。隆慶五年進士，曾任布政使司左參議、都察院右副都御史、太僕寺少卿。（中国历代人物传记资料库 CBDB 220262）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_9ME2HFXHejRnj1sRYpfFcJ
+        - id: cs_NI3NUSGb01Bk_nHj_OLIZ4
           claim_id: c_mVWQ4DAzaRFNMQxnQwQwYh
           source_id: s_UPbhN87m2i3NV2QMsCPaZa
           stance: supports
-          locator: null
+          locator: CBDB:220262
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -169,7 +169,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王重光 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王重光，明人物。隆慶五年進士，曾任布政使司左參議、都察院右副都御史、太僕寺少卿。（中国历代人物传记资料库 CBDB 220262） | accepted |
 
 ## 关联关系
 

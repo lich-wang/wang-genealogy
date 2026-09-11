@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王麒，明人物。籍贯曹州，身份为博學之人、詩人，入仕薦舉 (保任,保舉)，曾任掌國子監祭酒事、按察使司僉事。（中国历代人物传记资料库 CBDB 697816）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_s4DPbDek7UQBKtMdQT7LYP
+        - id: cs_Z7XhkvU_zq1ScUr44mMFu1
           claim_id: c_mNKWzBhfB3pkFoJ4jnSjD5
           source_id: s_CFqzRdAVnzQdro1Fy17ytM
           stance: supports
-          locator: null
+          locator: CBDB:697816
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -128,7 +128,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王麒 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王麒，明人物。籍贯曹州，身份为博學之人、詩人，入仕薦舉 (保任,保舉)，曾任掌國子監祭酒事、按察使司僉事。（中国历代人物传记资料库 CBDB 697816） | accepted |
 
 ## 关联关系
 

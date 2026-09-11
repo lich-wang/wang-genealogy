@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王賓（1628年—1682年），清人物。籍贯揚州府。（中国历代人物传记资料库 CBDB 71178）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_tYXB249Mm4FHsQffSJE8uJ
+        - id: cs_HOkb5K8Kp0vIkLe37qkAIx
           claim_id: c_MWsHCiztaWtecPr483wMb9
           source_id: s_t3HBiDcbVjiuKrQvJ5JPLN
           stance: supports
-          locator: null
+          locator: CBDB:71178
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王賓 | accepted |
 | birth.date | 1628年 | accepted |
 | death.date | 1682年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王賓（1628年—1682年），清人物。籍贯揚州府。（中国历代人物传记资料库 CBDB 71178） | accepted |
 
 ## 关联关系
 

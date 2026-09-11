@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王言，清人物。籍贯錢塘，身份为孝子/孝女，入仕州、府學生。（中国历代人物传记资料库 CBDB 701088）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_wBwNr9unD9opG7N2JLEgH4
+        - id: cs_jdJMpGhjYKdz8dIUtsFsIJ
           claim_id: c_qJEBx8gEuq4CXyREHNfDCA
           source_id: s_kJuHstgBq3gG9Rt2d42L17
           stance: supports
-          locator: null
+          locator: CBDB:701088
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王言 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王言，清人物。籍贯錢塘，身份为孝子/孝女，入仕州、府學生。（中国历代人物传记资料库 CBDB 701088） | accepted |
 
 ## 关联关系
 

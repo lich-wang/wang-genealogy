@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王錫蕙，清人物。籍贯順天府。（中国历代人物传记资料库 CBDB 568791）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Yv8Qgs838rUGCQeJtthva7
+        - id: cs_U1yY_HhTs4PdwTO8nMa3jZ
           claim_id: c_xuNHEG7iLQ4oAVMFJY7161
           source_id: s_oT1g1EFhAYZNRLrd6GHBV6
           stance: supports
-          locator: null
+          locator: CBDB:568791
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王錫蕙 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王錫蕙，清人物。籍贯順天府。（中国历代人物传记资料库 CBDB 568791） | accepted |
 
 ## 关联关系
 

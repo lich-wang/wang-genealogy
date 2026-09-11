@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
-          language: zh-Hans
+          text: 王鼎（卒于1360年），元人物。籍贯真州，身份为死國難。（中国历代人物传记资料库 CBDB 67750）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_fxFAUFNUsPC6Zet8xzUYAD
+        - id: cs_aU6_SxMInhfYcfWMbDHLCE
           claim_id: c_L6ZnMfkZ3P3MSwFxqDhUag
           source_id: s_DTNbyBrQpuvVe2X5HYLAFo
           stance: supports
-          locator: null
+          locator: CBDB:67750
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王鼎 | accepted |
 | death.date | 1360年 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王鼎（卒于1360年），元人物。籍贯真州，身份为死國難。（中国历代人物传记资料库 CBDB 67750） | accepted |
 
 ## 关联关系
 

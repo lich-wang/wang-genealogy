@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为南北朝人物
-          language: zh-Hans
+          text: 王開，南北朝人物。籍贯北市，曾任州司士参軍。（中国历代人物传记资料库 CBDB 146747）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_sWWj2jF5XySoeGJPSQYeDK
+        - id: cs_HtnYOm8gFS1AQkd4dqNmmh
           claim_id: c_LkaUyo1aYD2gRqpCCyFYYB
           source_id: s_xA5TM5yFwXm4B7AKPpBQzz
           stance: supports
-          locator: null
+          locator: CBDB:146747
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王開 | accepted |
-| bio.summary | CBDB 记载为南北朝人物 | accepted |
+| bio.summary | 王開，南北朝人物。籍贯北市，曾任州司士参軍。（中国历代人物传记资料库 CBDB 146747） | accepted |
 
 ## 关联关系
 

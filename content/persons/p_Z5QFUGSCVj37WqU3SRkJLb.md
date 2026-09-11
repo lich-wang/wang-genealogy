@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王應鼎，清人物。曾任司獄。（中国历代人物传记资料库 CBDB 503549）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_7H7Qzd1sQPW4fsvvJ2NGc6
+        - id: cs_iEKqthP5HZ1p7Z0aX2juRk
           claim_id: c_UycrC6T9PJTP8fE2j3F6yc
           source_id: s_Yhr6oYsC4VezSGi95T612R
           stance: supports
-          locator: null
+          locator: CBDB:503549
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王應鼎 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王應鼎，清人物。曾任司獄。（中国历代人物传记资料库 CBDB 503549） | accepted |
 
 ## 关联关系
 

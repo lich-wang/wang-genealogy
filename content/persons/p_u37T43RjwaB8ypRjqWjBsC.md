@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王福慶，清人物。籍贯甯都直隸州甯都直隸州前鋪，曾任藍翎侍衛、三等侍衛、中軍守備。（中国历代人物传记资料库 CBDB 639606）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_dWfdZQ8r6LXDQn8LWsHWQD
+        - id: cs_yllOLGa9Zsd7JZ7vn6_2IQ
           claim_id: c_RQ7FrSuw13Cja9L8DyA7U7
           source_id: s_dmkatAKJeGi2L9G3uy671k
           stance: supports
-          locator: null
+          locator: CBDB:639606
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王福慶 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王福慶，清人物。籍贯甯都直隸州甯都直隸州前鋪，曾任藍翎侍衛、三等侍衛、中軍守備。（中国历代人物传记资料库 CBDB 639606） | accepted |
 
 ## 关联关系
 

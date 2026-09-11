@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王來召（生于1541年），明人物。隆慶二年進士，籍贯成安，入仕進士。（中国历代人物传记资料库 CBDB 205587）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_rhL3BFDBD23eHuwwUrn1rL
+        - id: cs_WaIT7ol88H-RRBQ8GTPAfr
           claim_id: c_f5HyNCR9jXCM1ZidzReVVS
           source_id: s_8FiMZbHAK3Ly7T3KxBM1AV
           stance: supports
-          locator: null
+          locator: CBDB:205587
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -231,7 +231,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王來召 | accepted |
 | birth.date | 1541年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王來召（生于1541年），明人物。隆慶二年進士，籍贯成安，入仕進士。（中国历代人物传记资料库 CBDB 205587） | accepted |
 
 ## 关联关系
 

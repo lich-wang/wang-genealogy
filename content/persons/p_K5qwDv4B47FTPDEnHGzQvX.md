@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王維坤（生于1633年），清人物。籍贯長垣。（中国历代人物传记资料库 CBDB 72030）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_nawEH8bqkcq2N69fYtrnxW
+        - id: cs_8kg8qx1OS2-zbH8RPK0XrK
           claim_id: c_2H5D3qxNbspAkz3FLhGWWj
           source_id: s_Gpm2sxZ8XfP7pwhK7v5hKX
           stance: supports
-          locator: null
+          locator: CBDB:72030
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王維坤 | accepted |
 | birth.date | 1633年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王維坤（生于1633年），清人物。籍贯長垣。（中国历代人物传记资料库 CBDB 72030） | accepted |
 
 ## 关联关系
 

@@ -7,6 +7,44 @@ display_name: 蘇軾
 revision: 3
 cbdb_id: 3767
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_YFPYd85kmOFgJRk4b-v03j
+        subject_person_id: p_6bzjMpX2xVBeapMBqFLx24
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 蘇軾（1036—1101），宋人物。籍贯眉山，身份为書法家、史學家，入仕進士，曾任朝奉郎、左朝奉郎、提舉宮觀。（中国历代人物传记资料库 CBDB 3767）
+          language: zh-Hant
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Y2IJ2YBYdxxf1Ft1f-wFUf
+          claim_id: c_YFPYd85kmOFgJRk4b-v03j
+          source_id: s_VI5DJ_-v1IlqelMh78jIWH
+          stance: supports
+          locator: CBDB:3767
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_VI5DJ_-v1IlqelMh78jIWH
+            source_type: api_record
+            title: 中国历代人物传记资料库：蘇軾（CBDB 3767）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3767&o=json
+            external_identifier: CBDB:3767
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:3767
           quotation: null
           interpretation_note: CBDB 明确记录的王弗配偶
-          source: &a1
-            id: s_VI5DJ_-v1IlqelMh78jIWH
-            source_type: api_record
-            title: 中国历代人物传记资料库：蘇軾（CBDB 3767）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3767&o=json
-            external_identifier: CBDB:3767
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -165,6 +192,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 蘇軾（1036—1101），宋人物。籍贯眉山，身份为書法家、史學家，入仕進士，曾任朝奉郎、左朝奉郎、提舉宮觀。（中国历代人物传记资料库 CBDB 3767） | accepted |
 | name.primary | 蘇軾 | accepted |
 
 ## 关联关系

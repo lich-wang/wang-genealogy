@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王宗堯，明人物。嘉靖三十二年進士，籍贯聞喜，入仕考上會試/貢士。（中国历代人物传记资料库 CBDB 317694）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_xuDC7LiHjrrntLcxTzwtaD
+        - id: cs_BZGZIo65r65ONidWN5e5Ty
           claim_id: c_F1rTxHLLHAeqRLS79g1y9A
           source_id: s_koApgurJij6dNqh1yX48iF
           stance: supports
-          locator: null
+          locator: CBDB:317694
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王宗堯 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王宗堯，明人物。嘉靖三十二年進士，籍贯聞喜，入仕考上會試/貢士。（中国历代人物传记资料库 CBDB 317694） | accepted |
 
 ## 关联关系
 

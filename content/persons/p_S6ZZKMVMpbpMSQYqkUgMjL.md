@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王晞亮，宋人物。寶祐進士，籍贯莆田，入仕胥吏出職，曾任尚書省工部侍郎、朝散大夫、禮儀院。（中国历代人物传记资料库 CBDB 1813）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_MfyPewVxXCmBEdQkogW7sL
+        - id: cs_K63KtW0gioTJ1GWDzFxIV6
           claim_id: c_HMh32TgPhL2rLUz7bmsFq3
           source_id: s_x1FrR6DF9GxLpn7La1NHdM
           stance: supports
-          locator: null
+          locator: CBDB:1813
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -328,7 +328,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王晞亮 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王晞亮，宋人物。寶祐進士，籍贯莆田，入仕胥吏出職，曾任尚書省工部侍郎、朝散大夫、禮儀院。（中国历代人物传记资料库 CBDB 1813） | accepted |
 
 ## 关联关系
 

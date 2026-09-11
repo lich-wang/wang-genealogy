@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
-          language: zh-Hans
+          text: 王安仁，元人物。曾任祕書監校書郎。（中国历代人物传记资料库 CBDB 101169）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_JtmpPiwXdx7m7xXAJ5arMS
+        - id: cs_4WP7nO4J-gXPombRC94ZCZ
           claim_id: c_S3fXyco8NM4Vafavt7ViUL
           source_id: s_LyGRZTKmRTN1w7R4fA8ttR
           stance: supports
-          locator: null
+          locator: CBDB:101169
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王安仁 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王安仁，元人物。曾任祕書監校書郎。（中国历代人物传记资料库 CBDB 101169） | accepted |
 
 ## 关联关系
 

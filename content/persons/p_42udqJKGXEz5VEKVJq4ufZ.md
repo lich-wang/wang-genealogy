@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王道光，清人物。曾任知縣。（中国历代人物传记资料库 CBDB 475845）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_QeNTgMJTCPHcMrptC5wpBu
+        - id: cs_Ld2J1Eh677nhvj-bjhQjON
           claim_id: c_38G2cF1JHTwR63qCWd3NTp
           source_id: s_4g6nfP12C6F7CGv6yPPibB
           stance: supports
-          locator: null
+          locator: CBDB:475845
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王道光 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王道光，清人物。曾任知縣。（中国历代人物传记资料库 CBDB 475845） | accepted |
 
 ## 关联关系
 

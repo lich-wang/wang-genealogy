@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
-          language: zh-Hans
+          text: 王復，元人物。曾任校書郎。（中国历代人物传记资料库 CBDB 100823）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_AjHCeBenNP9dzzEi3Wcfd8
+        - id: cs_K0-ztgWzCpWD3FYTe0hQsc
           claim_id: c_ZA3oWm3AcZSkpK8hMx8mSn
           source_id: s_dZT4MSvR5PhykLcqNpH7xM
           stance: supports
-          locator: null
+          locator: CBDB:100823
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王復 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王復，元人物。曾任校書郎。（中国历代人物传记资料库 CBDB 100823） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王鼎，宋人物。籍贯襄陽，身份为行醫、醫學。（中国历代人物传记资料库 CBDB 38924）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_2tACJQHpsBpFmKN9Xd2jZ1
+        - id: cs_vduB7J1z2IgF9Dm9w_wrFW
           claim_id: c_ezF6YjfEeHnfso31KHmbyD
           source_id: s_zJS3aGkWq2KrxfQv6axDBd
           stance: supports
-          locator: null
+          locator: CBDB:38924
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王鼎 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王鼎，宋人物。籍贯襄陽，身份为行醫、醫學。（中国历代人物传记资料库 CBDB 38924） | accepted |
 
 ## 关联关系
 

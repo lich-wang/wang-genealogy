@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王若，宋人物。籍贯仙居，入仕進士，曾任朝奉大夫、安撫使司(大使司)參議官、經略安撫司參議官。（中国历代人物传记资料库 CBDB 38143）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_L8GAL3Z73GMSNBFH2hjqEn
+        - id: cs_tncjIMXFXZ6Npva7I54oP9
           claim_id: c_zohB1bZCM8j6ToPkMt5AmK
           source_id: s_1W9dWXTrcpuuUeDtrn1Aj8
           stance: supports
-          locator: null
+          locator: CBDB:38143
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王若 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王若，宋人物。籍贯仙居，入仕進士，曾任朝奉大夫、安撫使司(大使司)參議官、經略安撫司參議官。（中国历代人物传记资料库 CBDB 38143） | accepted |
 
 ## 关联关系
 

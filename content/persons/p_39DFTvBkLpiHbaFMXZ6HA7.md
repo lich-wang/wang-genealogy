@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王鑑（1598年—1677年），清人物。籍贯太倉直隸州，身份为畫家，入仕鄉貢舉人，曾任知府。（中国历代人物传记资料库 CBDB 65829）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_zr8eHLEkaoz17U7P5rnLAC
+        - id: cs_ZKhe24b0DF5WATXB7b00B2
           claim_id: c_dDZkfJwF7BdTgxKKc7DvLW
           source_id: s_jNrpwo8arNWqjDzVei79e1
           stance: supports
-          locator: null
+          locator: CBDB:65829
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王鑑 | accepted |
 | birth.date | 1598年 | accepted |
 | death.date | 1677年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王鑑（1598年—1677年），清人物。籍贯太倉直隸州，身份为畫家，入仕鄉貢舉人，曾任知府。（中国历代人物传记资料库 CBDB 65829） | accepted |
 
 ## 关联关系
 

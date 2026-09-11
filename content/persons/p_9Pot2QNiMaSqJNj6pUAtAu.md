@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王璘，明人物。成化二十三年進士，籍贯合州。（中国历代人物传记资料库 CBDB 257481）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Vc2q2yryrB5DP8mRABWMzd
+        - id: cs_Mymeda7NC75TzpEg_F3j_o
           claim_id: c_Eqwav3Wsv4z2JW8sGiH6xU
           source_id: s_sKt7NG5XvPFXPdckHSwkoa
           stance: supports
-          locator: null
+          locator: CBDB:257481
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王璘 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王璘，明人物。成化二十三年進士，籍贯合州。（中国历代人物传记资料库 CBDB 257481） | accepted |
 
 ## 关联关系
 

@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王懋（卒于1538年），明人物。籍贯咸寧，入仕進士，曾任國子學正、監察御史、縣典史。（中国历代人物传记资料库 CBDB 68131）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_DYMoB5KLRModFcGSLeqyK9
+        - id: cs_D3Y1oOk5OfNDY92jlBe8qL
           claim_id: c_GY5DwocDL73SXFNBJCTzxk
           source_id: s_rCfrCB7EUwTq8pQjCadQRV
           stance: supports
-          locator: null
+          locator: CBDB:68131
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -195,7 +195,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王懋 | accepted |
 | death.date | 1538年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王懋（卒于1538年），明人物。籍贯咸寧，入仕進士，曾任國子學正、監察御史、縣典史。（中国历代人物传记资料库 CBDB 68131） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王養蒙，明人物。籍贯鄞縣，身份为畫家。（中国历代人物传记资料库 CBDB 561250）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_x7zbNRUjREt32jNtJW8VH4
+        - id: cs_76-Ah7gTmuc2EDRg2PLDee
           claim_id: c_Bp2m8Upqb6GEK78ESMNEc1
           source_id: s_iKHFajmE26kwT9HnEXMfnZ
           stance: supports
-          locator: null
+          locator: CBDB:561250
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王養蒙 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王養蒙，明人物。籍贯鄞縣，身份为畫家。（中国历代人物传记资料库 CBDB 561250） | accepted |
 
 ## 关联关系
 

@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: "王昊（1627年—1679年），清人物。籍贯太倉直隸州，入仕學校: 生員(庠生)。（中国历代人物传记资料库 CBDB 69262）"
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_95odoEHKqmw8NTdCDmXY1c
+        - id: cs_OoLM7bsEBlAV64-ChgXMcO
           claim_id: c_DQeJo2wxzpPQju9vb7pPj4
           source_id: s_rTuc5S99rm8FC13m7vE1Te
           stance: supports
-          locator: null
+          locator: CBDB:69262
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -357,7 +357,7 @@ relationships:
 | name.primary | 王昊 | accepted |
 | birth.date | 1627年 | accepted |
 | death.date | 1679年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王昊（1627年—1679年），清人物。籍贯太倉直隸州，入仕學校: 生員(庠生)。（中国历代人物传记资料库 CBDB 69262） | accepted |
 
 ## 关联关系
 

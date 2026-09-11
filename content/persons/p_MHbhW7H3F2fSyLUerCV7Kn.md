@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王子淵，宋人物。籍贯鄄城，曾任朝請郎、司農寺少卿、太府寺少卿。（中国历代人物传记资料库 CBDB 1913）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_KQJBsLJ4HHSLnQW4RXJZhb
+        - id: cs_EaL_2atpKSQYcS80Hu1-Zw
           claim_id: c_GyFB2jvo5jhm5qrkXR3C5M
           source_id: s_q6Vg4d5qDCxUTNHYpUTw5N
           stance: supports
-          locator: null
+          locator: CBDB:1913
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王子淵 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王子淵，宋人物。籍贯鄄城，曾任朝請郎、司農寺少卿、太府寺少卿。（中国历代人物传记资料库 CBDB 1913） | accepted |
 
 ## 关联关系
 

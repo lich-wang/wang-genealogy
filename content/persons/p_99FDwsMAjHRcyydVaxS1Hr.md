@@ -7,6 +7,44 @@ display_name: 宋守有
 revision: 1
 cbdb_id: 437796
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_adBaas1hbf-aCxr7rhz4PD
+        subject_person_id: p_99FDwsMAjHRcyydVaxS1Hr
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 宋守有，元人物。籍贯金華。（中国历代人物传记资料库 CBDB 437796）
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vHOYYH6cja2XkukQbTGV6o
+          claim_id: c_adBaas1hbf-aCxr7rhz4PD
+          source_id: s_AN_m82SHYTtlSzU1Rb9wdY
+          stance: supports
+          locator: CBDB:437796
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_AN_m82SHYTtlSzU1Rb9wdY
+            source_type: api_record
+            title: 中国历代人物传记资料库：宋守有（CBDB 437796）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=437796&o=json
+            external_identifier: CBDB:437796
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:437796
           quotation: null
           interpretation_note: CBDB 明确记录的王康配偶
-          source: &a1
-            id: s_AN_m82SHYTtlSzU1Rb9wdY
-            source_type: api_record
-            title: 中国历代人物传记资料库：宋守有（CBDB 437796）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=437796&o=json
-            external_identifier: CBDB:437796
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 宋守有，元人物。籍贯金華。（中国历代人物传记资料库 CBDB 437796） | accepted |
 | name.primary | 宋守有 | accepted |
 
 ## 关联关系

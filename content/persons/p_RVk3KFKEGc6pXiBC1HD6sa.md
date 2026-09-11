@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王先慎，清人物。籍贯長沙，入仕廩生，曾任訓導、復設訓導。（中国历代人物传记资料库 CBDB 636229）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_hGKEUDCTrE6B2fyPc2KaP9
+        - id: cs_NOxx95S7whfd_9AX3gTGee
           claim_id: c_UGcbh6kAoa4qMR9qgJ4HRW
           source_id: s_cH2cn5utWS95zvpxg4z4Sn
           stance: supports
-          locator: null
+          locator: CBDB:636229
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王先慎 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王先慎，清人物。籍贯長沙，入仕廩生，曾任訓導、復設訓導。（中国历代人物传记资料库 CBDB 636229） | accepted |
 
 ## 关联关系
 

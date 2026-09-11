@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王綸（卒于1161年），宋人物。籍贯上元，入仕進士，曾任尚書省工部侍郎、同知樞密院事、監察御史。（中国历代人物传记资料库 CBDB 1852）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_GA1EF1L7sH4vcHgF9sogJU
+        - id: cs_R493xZMEniH7vcUv0PDrQN
           claim_id: c_KFVcEcPkgABbep384M83MW
           source_id: s_s8ub1KA133msmB9Z8ukuDK
           stance: supports
-          locator: null
+          locator: CBDB:1852
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王綸 | accepted |
 | death.date | 1161年 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王綸（卒于1161年），宋人物。籍贯上元，入仕進士，曾任尚書省工部侍郎、同知樞密院事、監察御史。（中国历代人物传记资料库 CBDB 1852） | accepted |
 
 ## 关联关系
 

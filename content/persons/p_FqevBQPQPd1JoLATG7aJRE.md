@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
-          language: zh-Hans
+          text: 王思獻，唐人物。籍贯長安，曾任令。（中国历代人物传记资料库 CBDB 32778）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_A7Bq2RcPDhvr1XZ14W3H8g
+        - id: cs_LbgR__VzAw4vjywg6E9veo
           claim_id: c_P4483VSC5iyoKT9n4ziFNo
           source_id: s_iLw3ZNpRNNFqr1bPs2r8A9
           stance: supports
-          locator: null
+          locator: CBDB:32778
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -143,7 +143,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王思獻 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王思獻，唐人物。籍贯長安，曾任令。（中国历代人物传记资料库 CBDB 32778） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王溥，明人物。籍贯安仁，身份为孝子/孝女，曾任行省平章政事、詹事府副詹事、中書省右丞。（中国历代人物传记资料库 CBDB 66306）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_mJqECHma4qa2KA4WArgBZg
+        - id: cs_xBJOCD_XmQ2ADhJMxJ0qGZ
           claim_id: c_2SjdLsJ9TqRRmQp3C8Qod9
           source_id: s_es66S1DZ4Fd2XENiUbDa65
           stance: supports
-          locator: null
+          locator: CBDB:66306
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王溥 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王溥，明人物。籍贯安仁，身份为孝子/孝女，曾任行省平章政事、詹事府副詹事、中書省右丞。（中国历代人物传记资料库 CBDB 66306） | accepted |
 
 ## 关联关系
 

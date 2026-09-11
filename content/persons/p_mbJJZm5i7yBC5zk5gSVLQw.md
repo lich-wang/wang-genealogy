@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王允中（卒于1741年），清人物。籍贯安徽省。（中国历代人物传记资料库 CBDB 71442）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_KbjkKxSivtjjAyf2v3JUGN
+        - id: cs_lSNrHy7akZzU2D13OKrKz1
           claim_id: c_FgZuDZ2DP9YhVBQziv2CQM
           source_id: s_bDd2agbbPEL4LGRLdJcMXM
           stance: supports
-          locator: null
+          locator: CBDB:71442
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王允中 | accepted |
 | death.date | 1741年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王允中（卒于1741年），清人物。籍贯安徽省。（中国历代人物传记资料库 CBDB 71442） | accepted |
 
 ## 关联关系
 

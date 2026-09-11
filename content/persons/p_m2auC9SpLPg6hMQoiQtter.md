@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王晏（890年—966年），宋人物。籍贯滕縣，身份为武將，入仕募入軍伍，曾任國公、節度使、太子太師。（中国历代人物传记资料库 CBDB 38122）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_aokcn3bUiQ1S39YQ6c7BgJ
+        - id: cs_iTflBAhkJK58-douM_8GD1
           claim_id: c_a2o8CTcN1rG6Z1eqRVxCyq
           source_id: s_tkyk3sBYQWzmA5i38Fg2oe
           stance: supports
-          locator: null
+          locator: CBDB:38122
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王晏 | accepted |
 | birth.date | 890年 | accepted |
 | death.date | 966年 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王晏（890年—966年），宋人物。籍贯滕縣，身份为武將，入仕募入軍伍，曾任國公、節度使、太子太師。（中国历代人物传记资料库 CBDB 38122） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王煇，宋人物。寶祐進士，籍贯龍泉。（中国历代人物传记资料库 CBDB 136338）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_ooePRKdLSTMBVZW2PLWDtZ
+        - id: cs_VVMlK42diEWSrPDQBuPW0L
           claim_id: c_j4mV3XVxhN1GJhuxQFsvQd
           source_id: s_gqmwEU56k6tFMccUQF4t4V
           stance: supports
-          locator: null
+          locator: CBDB:136338
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -180,7 +180,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王煇 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王煇，宋人物。寶祐進士，籍贯龍泉。（中国历代人物传记资料库 CBDB 136338） | accepted |
 
 ## 关联关系
 

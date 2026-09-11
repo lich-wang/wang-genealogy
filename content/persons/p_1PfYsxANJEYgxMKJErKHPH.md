@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王自章，清人物。籍贯泰安，曾任訓導。（中国历代人物传记资料库 CBDB 640010）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_C5N8aHx7fMfKWT2BFf9NjF
+        - id: cs_nAQzDZFsx_HE1uoiEjTU6w
           claim_id: c_8XsenetraZz7acBNJpWr3j
           source_id: s_Ai91m386u1B6cDkCM5p4pJ
           stance: supports
-          locator: null
+          locator: CBDB:640010
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王自章 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王自章，清人物。籍贯泰安，曾任訓導。（中国历代人物传记资料库 CBDB 640010） | accepted |
 
 ## 关联关系
 

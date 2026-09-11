@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王國甫（卒于1775年），清人物。籍贯肅州直隸州，曾任外委。（中国历代人物传记资料库 CBDB 69361）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_71PFEdVt56mKRE6LhiKrpG
+        - id: cs_ZNLsiM5LIV-0gNu6z1nAt2
           claim_id: c_58X5kr2Fjn8TGmCSNUweX2
           source_id: s_nD3Ny9CN8WHNGBjRSp2mre
           stance: supports
-          locator: null
+          locator: CBDB:69361
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王國甫 | accepted |
 | death.date | 1775年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王國甫（卒于1775年），清人物。籍贯肅州直隸州，曾任外委。（中国历代人物传记资料库 CBDB 69361） | accepted |
 
 ## 关联关系
 

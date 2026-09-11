@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为南北朝人物
+          text: 王頍（卒于593年），南北朝人物。籍贯丹徒。（中国历代人物传记资料库 CBDB 175862）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_oEXtCRSZEukN5Qc1ACcFJ2
+        - id: cs_qzkphpAYJc-YMfGZnNN1Oy
           claim_id: c_aoc6Av5ktyhgg8qvbmJET4
           source_id: s_4wgxuJ5TaoSYC5EtC5Kjsr
           stance: supports
-          locator: null
+          locator: CBDB:175862
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -183,7 +183,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王頍 | accepted |
 | death.date | 593年 | accepted |
-| bio.summary | CBDB 记载为南北朝人物 | accepted |
+| bio.summary | 王頍（卒于593年），南北朝人物。籍贯丹徒。（中国历代人物传记资料库 CBDB 175862） | accepted |
 
 ## 关联关系
 

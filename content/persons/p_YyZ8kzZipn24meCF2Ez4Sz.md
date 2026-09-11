@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: "王致和，明人物。隆慶五年進士，籍贯忻州，入仕貢生: 恩貢，曾任教諭。（中国历代人物传记资料库 CBDB 212072）"
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_7WP3R5kpo8BwD11iKt7R42
+        - id: cs_7RwbxuEWaAUk6RwwXI7Oxy
           claim_id: c_2c9NnSWRT1zUpC8An5JWtR
           source_id: s_twKfjoBHsu3hbcApX4r5kY
           stance: supports
-          locator: null
+          locator: CBDB:212072
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王致和 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王致和，明人物。隆慶五年進士，籍贯忻州，入仕貢生: 恩貢，曾任教諭。（中国历代人物传记资料库 CBDB 212072） | accepted |
 
 ## 关联关系
 

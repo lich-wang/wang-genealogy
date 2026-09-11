@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
+          text: 王崇祖，元人物。籍贯滄州，曾任知州。（中国历代人物传记资料库 CBDB 101334）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_V6QQQtbCdvP7K4UXesP7g2
+        - id: cs_RWK2tLzIEsDDo39EsluVu8
           claim_id: c_aEFJVnKP3gGkJadPAzJxFj
           source_id: s_5XT91TMKvZcwFgTBZFYv4u
           stance: supports
-          locator: null
+          locator: CBDB:101334
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王崇祖 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王崇祖，元人物。籍贯滄州，曾任知州。（中国历代人物传记资料库 CBDB 101334） | accepted |
 
 ## 关联关系
 

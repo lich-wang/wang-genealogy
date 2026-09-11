@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为吳(楊)人物
+          text: "王郁，吳(楊)人物。籍贯新喻，入仕科舉制舉: 童子舉。（中国历代人物传记资料库 CBDB 21956）"
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_dFrW3nyv799QbNdCUfgKqs
+        - id: cs_rKy38sHlqAUzMBSGXXNqSs
           claim_id: c_f7n2z2QBVKGV2EEbW4gCjt
           source_id: s_f6q5tvg1JCt8JgDCNRLgQK
           stance: supports
-          locator: null
+          locator: CBDB:21956
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -154,7 +154,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王郁 | accepted |
-| bio.summary | CBDB 记载为吳(楊)人物 | accepted |
+| bio.summary | 王郁，吳(楊)人物。籍贯新喻，入仕科舉制舉: 童子舉。（中国历代人物传记资料库 CBDB 21956） | accepted |
 
 ## 关联关系
 

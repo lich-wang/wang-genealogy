@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王士性（1546年—1598年），明人物。明清進士進士，籍贯臨海，身份为詩人、工於文，入仕進士。（中国历代人物传记资料库 CBDB 35066）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_NhRCvhiqH9pEzEZRvUgY6j
+        - id: cs_AYEHLmPpTlPw0sk-XwHSAR
           claim_id: c_AXkE9BaX6tYSm1AiDVz5eZ
           source_id: s_m2HP5AsBU7URfS5L27w4ff
           stance: supports
-          locator: null
+          locator: CBDB:35066
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -334,7 +334,7 @@ relationships:
 | name.primary | 王士性 | accepted |
 | birth.date | 1546年 | accepted |
 | death.date | 1598年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王士性（1546年—1598年），明人物。明清進士進士，籍贯臨海，身份为詩人、工於文，入仕進士。（中国历代人物传记资料库 CBDB 35066） | accepted |
 
 ## 关联关系
 

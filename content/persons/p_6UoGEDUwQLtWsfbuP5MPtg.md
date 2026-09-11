@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王一桂（卒于1636年），明人物。籍贯黃岡，入仕鄉貢舉人，曾任戶部主事、太僕寺少卿。（中国历代人物传记资料库 CBDB 68149）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_dmNuLKT8fbtJw9deuFzXm1
+        - id: cs_0GF33w1D0DWTt-GfF4h584
           claim_id: c_GYJjx1sk6nLQRBJDiRYuMb
           source_id: s_2JYqEBBn2QZqA8wCgsNjNd
           stance: supports
-          locator: null
+          locator: CBDB:68149
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王一桂 | accepted |
 | death.date | 1636年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王一桂（卒于1636年），明人物。籍贯黃岡，入仕鄉貢舉人，曾任戶部主事、太僕寺少卿。（中国历代人物传记资料库 CBDB 68149） | accepted |
 
 ## 关联关系
 

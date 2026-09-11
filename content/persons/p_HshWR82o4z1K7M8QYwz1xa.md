@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王朝鉁，清人物。籍贯順天府，入仕監生，曾任主事。（中国历代人物传记资料库 CBDB 638647）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_GPncvUJru5E1shi1b64WMe
+        - id: cs_czSxrETciauf4Wd9b2-Dfc
           claim_id: c_SfvGmdA3AMxDW4BQqJfRk8
           source_id: s_DE4HzM9VqR4iw5sRMtFRUc
           stance: supports
-          locator: null
+          locator: CBDB:638647
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王朝鉁 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王朝鉁，清人物。籍贯順天府，入仕監生，曾任主事。（中国历代人物传记资料库 CBDB 638647） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王廷襄，清人物。籍贯湖南省，入仕附貢生，曾任經歷。（中国历代人物传记资料库 CBDB 637560）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_MrnRyM8CWpUaArUD7GMMig
+        - id: cs_D_hCayvf_S3otmtUGuOx7-
           claim_id: c_jHUxvBDLURqGJnDuEmmVkf
           source_id: s_w3uYxQbCx7tLG5Xd1akZ9D
           stance: supports
-          locator: null
+          locator: CBDB:637560
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王廷襄 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王廷襄，清人物。籍贯湖南省，入仕附貢生，曾任經歷。（中国历代人物传记资料库 CBDB 637560） | accepted |
 
 ## 关联关系
 

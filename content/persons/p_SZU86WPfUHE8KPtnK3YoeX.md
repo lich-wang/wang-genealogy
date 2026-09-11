@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王行實（卒于857年），唐人物。曾任節度使。（中国历代人物传记资料库 CBDB 186055）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_ko7ZPzdbHXqTkyYQpxxJa2
+        - id: cs_5SzACFHq5OuXKOw_4K9V8i
           claim_id: c_2YhbBvFjWe3PJekzG8GgQ4
           source_id: s_z71bzXwfcmZTLbNDXxYd8b
           stance: supports
-          locator: null
+          locator: CBDB:186055
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王行實 | accepted |
 | death.date | 857年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王行實（卒于857年），唐人物。曾任節度使。（中国历代人物传记资料库 CBDB 186055） | accepted |
 
 ## 关联关系
 

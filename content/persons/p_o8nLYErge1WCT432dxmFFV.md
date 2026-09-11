@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王佇，史料所见人物。本项目依据《中国历代人物传记资料库：王佇（CBDB 122624）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_jYob6GpUkJRZBbJJ9BjYFp
+        - id: cs_9CRjeKumU-44_3GAu5KVX0
           claim_id: c_uB32rLs33NorGtcqGhhJNd
           source_id: s_gYF87ry4KMXKRjUDREjTGj
           stance: supports
-          locator: null
+          locator: CBDB:122624
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
           source: *a1
       object_person: null
     alternatives: []
@@ -128,7 +128,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王佇 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王佇，史料所见人物。本项目依据《中国历代人物传记资料库：王佇（CBDB 122624）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
 
 ## 关联关系
 

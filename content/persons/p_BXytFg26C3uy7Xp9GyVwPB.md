@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王珠，宋人物。身份为孝子/孝女。（中国历代人物传记资料库 CBDB 38288）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_9TqHEACptKzufLHocEX74q
+        - id: cs_lENVlTglc2MzabrHToUako
           claim_id: c_ZkVSEv54Z6Kg1Q8rEsF9ew
           source_id: s_2xz8kDP2GC81hgBTsrJrE6
           stance: supports
-          locator: null
+          locator: CBDB:38288
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王珠 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王珠，宋人物。身份为孝子/孝女。（中国历代人物传记资料库 CBDB 38288） | accepted |
 
 ## 关联关系
 

@@ -7,6 +7,44 @@ display_name: 司馬昭
 revision: 1
 cbdb_id: 21206
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_oJq5sn9qSalhTKtXY59zge
+        subject_person_id: p_5cdFLq7Eme8RnkMEqD8XiH
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 司馬昭（211—265），三國魏人物。籍贯溫縣，入仕世襲(替)。（中国历代人物传记资料库 CBDB 21206）
+          language: zh-Hant
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dXlxpLDaYXSzcjXd_RRJuq
+          claim_id: c_oJq5sn9qSalhTKtXY59zge
+          source_id: s_c5rQFwzDQhTzaGrE-9-yky
+          stance: supports
+          locator: CBDB:21206
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_c5rQFwzDQhTzaGrE-9-yky
+            source_type: api_record
+            title: 中国历代人物传记资料库：司馬昭（CBDB 21206）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=21206&o=json
+            external_identifier: CBDB:21206
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:21206
           quotation: null
           interpretation_note: CBDB 明确记录的王元姬配偶
-          source: &a1
-            id: s_c5rQFwzDQhTzaGrE-9-yky
-            source_type: api_record
-            title: 中国历代人物传记资料库：司馬昭（CBDB 21206）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=21206&o=json
-            external_identifier: CBDB:21206
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 司馬昭（211—265），三國魏人物。籍贯溫縣，入仕世襲(替)。（中国历代人物传记资料库 CBDB 21206） | accepted |
 | name.primary | 司馬昭 | accepted |
 
 ## 关联关系

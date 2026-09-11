@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王志長（1585年—1663年），清人物。籍贯崑山，身份为經學家。（中国历代人物传记资料库 CBDB 71654）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_11JCXLC8V8obnfsyULCi1S
+        - id: cs_EcOxN4s6obuAyAcPYOb_8E
           claim_id: c_t1pvN1PoEH96B2XBBamXRp
           source_id: s_3PBCEoZQ9U97hiUK8ruW26
           stance: supports
-          locator: null
+          locator: CBDB:71654
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王志長 | accepted |
 | birth.date | 1585年 | accepted |
 | death.date | 1663年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王志長（1585年—1663年），清人物。籍贯崑山，身份为經學家。（中国历代人物传记资料库 CBDB 71654） | accepted |
 
 ## 关联关系
 

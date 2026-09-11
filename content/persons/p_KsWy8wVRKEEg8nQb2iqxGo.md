@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王希周，明人物。萬曆八年進士，籍贯懷寧。（中国历代人物传记资料库 CBDB 219651）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_gfbfzHXzosAbSLqbUyPoBG
+        - id: cs_6I0Y4jbNFTYffamxl9PqIq
           claim_id: c_KooEhkW2x7ZfXKNdm3BDca
           source_id: s_zVeVVPj1sQKu6XBz1ayHXW
           stance: supports
-          locator: null
+          locator: CBDB:219651
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王希周 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王希周，明人物。萬曆八年進士，籍贯懷寧。（中国历代人物传记资料库 CBDB 219651） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王汝霖，清人物。曾任主簿。（中国历代人物传记资料库 CBDB 493726）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_rfWweCKDrdfFWpQAjX56bf
+        - id: cs_QbbbKEPai4gKioXWVgf3iX
           claim_id: c_JorQG5Gi8FizK3x2s2mjsg
           source_id: s_Ef5JzeVU8qk4Zr59a4cJ9o
           stance: supports
-          locator: null
+          locator: CBDB:493726
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王汝霖 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王汝霖，清人物。曾任主簿。（中国历代人物传记资料库 CBDB 493726） | accepted |
 
 ## 关联关系
 

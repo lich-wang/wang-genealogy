@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王朗，唐人物。籍贯歙州，曾任著作郎。（中国历代人物传记资料库 CBDB 162480）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_2PB3ZK3H6wnrCoTfT6ZqR2
+        - id: cs_86AifeofdaakgG8pp6Fkgo
           claim_id: c_p4PdYdjH4NScpetcGFNLBr
           source_id: s_gtGxwZcJjcb72zqCoXaPmc
           stance: supports
-          locator: null
+          locator: CBDB:162480
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王朗 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王朗，唐人物。籍贯歙州，曾任著作郎。（中国历代人物传记资料库 CBDB 162480） | accepted |
 
 ## 关联关系
 

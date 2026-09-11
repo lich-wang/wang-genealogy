@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为五代人物
+          text: 王思同（892年—934年），五代人物。籍贯幽州，身份为詩人，曾任防御使、飛騰指揮使、府尹。（中国历代人物传记资料库 CBDB 92054）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_QvxxRTQqr8HGnG6d7ot39p
+        - id: cs_0afWs9j6an_koKCRnGBtIL
           claim_id: c_oz8Kh19kenxUoZb7Vfr44C
           source_id: s_Z1K9sEJnaqud7zeYpMEC5A
           stance: supports
-          locator: null
+          locator: CBDB:92054
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王思同 | accepted |
 | birth.date | 892年 | accepted |
 | death.date | 934年 | accepted |
-| bio.summary | CBDB 记载为五代人物 | accepted |
+| bio.summary | 王思同（892年—934年），五代人物。籍贯幽州，身份为詩人，曾任防御使、飛騰指揮使、府尹。（中国历代人物传记资料库 CBDB 92054） | accepted |
 
 ## 关联关系
 

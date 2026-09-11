@@ -7,6 +7,44 @@ display_name: 魏氏
 revision: 1
 cbdb_id: 699387
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_hjP8qIb4dcLlnMwUu2X8pE
+        subject_person_id: p_1i48rkNq4kizsmgjhvawvd
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 魏氏（1000—1054），宋人物。籍贯上黨。（中国历代人物传记资料库 CBDB 699387）
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FOo_yvdndHofPsMraszuXs
+          claim_id: c_hjP8qIb4dcLlnMwUu2X8pE
+          source_id: s_1vhB1ReKa5Hl2oFshG-DRt
+          stance: supports
+          locator: CBDB:699387
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_1vhB1ReKa5Hl2oFshG-DRt
+            source_type: api_record
+            title: 中国历代人物传记资料库：魏氏(王弁妻)（CBDB 699387）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699387&o=json
+            external_identifier: CBDB:699387
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:699387
           quotation: null
           interpretation_note: CBDB 明确记录的王弁配偶
-          source: &a1
-            id: s_1vhB1ReKa5Hl2oFshG-DRt
-            source_type: api_record
-            title: 中国历代人物传记资料库：魏氏(王弁妻)（CBDB 699387）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699387&o=json
-            external_identifier: CBDB:699387
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 魏氏（1000—1054），宋人物。籍贯上黨。（中国历代人物传记资料库 CBDB 699387） | accepted |
 | name.primary | 魏氏 | accepted |
 
 ## 关联关系

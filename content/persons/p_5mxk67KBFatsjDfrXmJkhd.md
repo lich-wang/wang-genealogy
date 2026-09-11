@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
+          text: 王瑮，元人物。籍贯吳縣，身份为隱居不仕、精於某種樂器。（中国历代人物传记资料库 CBDB 100910）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_HHvZuHz7983dNDGFEZ1EHk
+        - id: cs_DXstbAl-TGVUUx8XgNv0C9
           claim_id: c_F8A8EuD7pRhpaHFUpJWGYp
           source_id: s_HZPQ77xoQMo5uCT5zA6CD5
           stance: supports
-          locator: null
+          locator: CBDB:100910
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王瑮 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王瑮，元人物。籍贯吳縣，身份为隱居不仕、精於某種樂器。（中国历代人物传记资料库 CBDB 100910） | accepted |
 
 ## 关联关系
 

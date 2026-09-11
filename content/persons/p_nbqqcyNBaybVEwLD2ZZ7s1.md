@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王鏡萸，清人物。籍贯太湖聽。（中国历代人物传记资料库 CBDB 568801）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Ytwz4t7NEE1QHj1Ya2K6Ca
+        - id: cs_CChyRizNyN00FQM1P5yVTT
           claim_id: c_EShgVT3CUzGkXs9B4moH4W
           source_id: s_3Kiy7VrckCmj7t5AT2PEFT
           stance: supports
-          locator: null
+          locator: CBDB:568801
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王鏡萸 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王鏡萸，清人物。籍贯太湖聽。（中国历代人物传记资料库 CBDB 568801） | accepted |
 
 ## 关联关系
 

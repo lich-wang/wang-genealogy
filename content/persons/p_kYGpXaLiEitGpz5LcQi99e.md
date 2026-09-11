@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: "王相，宋人物。籍贯金華，身份为工於文、好學，入仕科舉制舉: 童子舉。（中国历代人物传记资料库 CBDB 10708）"
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_8BaDQRbiJ1JGaKrLgA69z6
+        - id: cs_0EuZoH3Pl9YH3HPZRDyDuU
           claim_id: c_5aRCGJMFYyHSoCut2y1zCT
           source_id: s_6jNHhvHo7ALnJrL6nh8zB3
           stance: supports
-          locator: null
+          locator: CBDB:10708
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王相 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王相，宋人物。籍贯金華，身份为工於文、好學，入仕科舉制舉: 童子舉。（中国历代人物传记资料库 CBDB 10708） | accepted |
 
 ## 关联关系
 

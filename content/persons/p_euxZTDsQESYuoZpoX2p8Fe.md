@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王瑞（卒于1852年），清人物。籍贯長沙，入仕武舉人，曾任鎮標右營都司、鎮標右營守備。（中国历代人物传记资料库 CBDB 69437）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_pWUATH5zJVxubcB2PtnUTF
+        - id: cs_rqbecqBxJJ7lXNtDtaAbAz
           claim_id: c_HH4nPCazFthjunRkww4viQ
           source_id: s_wYx4aReFF5P2RBWuvLQ2Gt
           stance: supports
-          locator: null
+          locator: CBDB:69437
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王瑞 | accepted |
 | death.date | 1852年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王瑞（卒于1852年），清人物。籍贯長沙，入仕武舉人，曾任鎮標右營都司、鎮標右營守備。（中国历代人物传记资料库 CBDB 69437） | accepted |
 
 ## 关联关系
 

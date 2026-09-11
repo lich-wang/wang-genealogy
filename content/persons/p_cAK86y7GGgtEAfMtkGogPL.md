@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
-          language: zh-Hans
+          text: 王積翁（1229年—1284年），元人物。籍贯福寧州，曾任制置使、戶部尚書、行中書省參政。（中国历代人物传记资料库 CBDB 101438）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_1PHFsjNYrCk4W7cuTojN5M
+        - id: cs_RJ4h365KCRlKlZ1AShFHl6
           claim_id: c_GR4NNHQCfgPbdSJEYLB7t9
           source_id: s_NvxrXV1DkqaVSDKcGFm74Q
           stance: supports
-          locator: null
+          locator: CBDB:101438
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -175,7 +175,7 @@ relationships:
 | name.primary | 王積翁 | accepted |
 | birth.date | 1229年 | accepted |
 | death.date | 1284年 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王積翁（1229年—1284年），元人物。籍贯福寧州，曾任制置使、戶部尚書、行中書省參政。（中国历代人物传记资料库 CBDB 101438） | accepted |
 
 ## 关联关系
 

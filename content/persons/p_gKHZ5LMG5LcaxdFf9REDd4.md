@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王尚志，明人物。弘治十五年進士，籍贯郟縣。（中国历代人物传记资料库 CBDB 269874）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_qZc3dCmzVHbLJ2pD3fLswx
+        - id: cs_EJMw3OMoVKeBjb4nPPDED9
           claim_id: c_dX9BZiGgg5tqEnZ6rUP2v9
           source_id: s_z3BhHB1sxVwmgMdzy94trL
           stance: supports
-          locator: null
+          locator: CBDB:269874
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王尚志 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王尚志，明人物。弘治十五年進士，籍贯郟縣。（中国历代人物传记资料库 CBDB 269874） | accepted |
 
 ## 关联关系
 

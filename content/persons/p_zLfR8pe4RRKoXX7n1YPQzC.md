@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王址，明人物。萬曆十一年進士，籍贯金壇，入仕監生。（中国历代人物传记资料库 CBDB 222821）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_XZmJDgokQh7Gc4s1FqVY9b
+        - id: cs_R9EvJoCweoHnu2Fx5SQwn5
           claim_id: c_qcS5s55WH9L6mjNoPBfKt2
           source_id: s_k3soV8PVx8swWcDLDoDpNi
           stance: supports
-          locator: null
+          locator: CBDB:222821
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王址 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王址，明人物。萬曆十一年進士，籍贯金壇，入仕監生。（中国历代人物传记资料库 CBDB 222821） | accepted |
 
 ## 关联关系
 

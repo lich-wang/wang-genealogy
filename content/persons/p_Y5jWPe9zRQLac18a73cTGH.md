@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王務本，宋人物。籍贯廬陵，入仕進士。（中国历代人物传记资料库 CBDB 685055）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_4xDvZjHCDbzCyeNSC2FHZU
+        - id: cs_PYwpdb-sr5Jo7wCXsyAR7H
           claim_id: c_E8voQwu8vjvR9L2CUGtVo9
           source_id: s_r9m6Ui2hsNAenLrwjuj6Ln
           stance: supports
-          locator: null
+          locator: CBDB:685055
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王務本 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王務本，宋人物。籍贯廬陵，入仕進士。（中国历代人物传记资料库 CBDB 685055） | accepted |
 
 ## 关联关系
 

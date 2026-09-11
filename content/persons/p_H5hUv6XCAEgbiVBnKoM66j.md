@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王之翰，清人物。明清進士進士，籍贯濰縣，入仕進士，曾任編修、侍讀學士、同考官。（中国历代人物传记资料库 CBDB 342567）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_DPJAggQBy49SMyf4hjt5mF
+        - id: cs_L9yGSLs0qz5Cgqlj5IM1Rj
           claim_id: c_3XLNSsf4bhCB2L4JPHE59a
           source_id: s_YBNevx5JfLzExcJy7oTyLG
           stance: supports
-          locator: null
+          locator: CBDB:342567
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王之翰 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王之翰，清人物。明清進士進士，籍贯濰縣，入仕進士，曾任編修、侍讀學士、同考官。（中国历代人物传记资料库 CBDB 342567） | accepted |
 
 ## 关联关系
 

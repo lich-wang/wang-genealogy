@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
-          language: zh-Hans
+          text: 王約（1252年—1333年），元人物。籍贯真定，曾任兵部郎中、翰林國史院直學士、集賢大學士。（中国历代人物传记资料库 CBDB 100730）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_NHQJUJDPrgBzAJCZkrnLQY
+        - id: cs_1Vx7vcSY19K4H9xWrrF_VV
           claim_id: c_KGYqp3sM3Yr2Wmdz2GmtRK
           source_id: s_Wn1FiqAFQ4saVnnuNKoDDY
           stance: supports
-          locator: null
+          locator: CBDB:100730
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王約 | accepted |
 | birth.date | 1252年 | accepted |
 | death.date | 1333年 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王約（1252年—1333年），元人物。籍贯真定，曾任兵部郎中、翰林國史院直學士、集賢大學士。（中国历代人物传记资料库 CBDB 100730） | accepted |
 
 ## 关联关系
 

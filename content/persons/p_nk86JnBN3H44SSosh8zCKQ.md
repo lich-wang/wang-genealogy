@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王可旺，明人物。嘉靖十一年進士。（中国历代人物传记资料库 CBDB 294860）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_VMG8Uj9w8CpkvSen9vH3Fi
+        - id: cs_8Oumkn0GMXKOjPfGzRks2x
           claim_id: c_SAMwwYzdAN1TpEUFtb3gqD
           source_id: s_picJY4WWYs49eM1wbidthu
           stance: supports
-          locator: null
+          locator: CBDB:294860
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王可旺 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王可旺，明人物。嘉靖十一年進士。（中国历代人物传记资料库 CBDB 294860） | accepted |
 
 ## 关联关系
 

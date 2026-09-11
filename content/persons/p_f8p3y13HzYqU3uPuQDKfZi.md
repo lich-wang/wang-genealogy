@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王伸，宋人物。籍贯四川，曾任縣令。（中国历代人物传记资料库 CBDB 39081）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_1N4iUZGHAQDHQuY6T4UAZ3
+        - id: cs_Jf8andlbdMek9cHJymIrpx
           claim_id: c_1ELnxFBKhbK5EQkTW3XdNn
           source_id: s_Yfx7JZ5xHL6x5crv4TSKoA
           stance: supports
-          locator: null
+          locator: CBDB:39081
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王伸 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王伸，宋人物。籍贯四川，曾任縣令。（中国历代人物传记资料库 CBDB 39081） | accepted |
 
 ## 关联关系
 

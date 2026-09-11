@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
+          text: 王居仁，元人物。籍贯河間路。（中国历代人物传记资料库 CBDB 101238）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_oPeiYDzwMF3A8XUa6Adriw
+        - id: cs__fp_uuf3GU6ig3LisexkiE
           claim_id: c_js9rFxceifuKPkrB5tY4MN
           source_id: s_mwj7BthChGBZ343QbC6CVk
           stance: supports
-          locator: null
+          locator: CBDB:101238
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王居仁 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王居仁，元人物。籍贯河間路。（中国历代人物传记资料库 CBDB 101238） | accepted |
 
 ## 关联关系
 

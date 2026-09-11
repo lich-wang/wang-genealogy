@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王相（生于1454年），明人物。明清進士進士，籍贯商水，入仕進士。（中国历代人物传记资料库 CBDB 200038）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_UbZxtsHbvJwE2SdGZ23P12
+        - id: cs_q5NJ3vUMnCxEQFvpKUp4R3
           claim_id: c_9peFtY6rbQwTurCUKYttBX
           source_id: s_NXxFJQ5QppEL8W3nndMu23
           stance: supports
-          locator: null
+          locator: CBDB:200038
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -235,7 +235,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王相 | accepted |
 | birth.date | 1454年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王相（生于1454年），明人物。明清進士進士，籍贯商水，入仕進士。（中国历代人物传记资料库 CBDB 200038） | accepted |
 
 ## 关联关系
 

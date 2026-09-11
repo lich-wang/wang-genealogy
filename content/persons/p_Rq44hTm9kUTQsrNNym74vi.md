@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王佐（卒于1449年），明人物。籍贯海豐，入仕鄉貢舉人，曾任殿試讀卷官、副使、戶部尚書。（中国历代人物传记资料库 CBDB 67259）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_3PuF4GN3572CBavE4uhvaM
+        - id: cs_QxlhHLftMgq8d3fn1jeYVn
           claim_id: c_EqmorvmRuGwmGw5zBcAKDG
           source_id: s_rKk4zHoHedMZKbHAJqQ1PV
           stance: supports
-          locator: null
+          locator: CBDB:67259
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王佐 | accepted |
 | death.date | 1449年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王佐（卒于1449年），明人物。籍贯海豐，入仕鄉貢舉人，曾任殿試讀卷官、副使、戶部尚書。（中国历代人物传记资料库 CBDB 67259） | accepted |
 
 ## 关联关系
 

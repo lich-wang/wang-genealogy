@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王恪（1670年—1739年），清人物。籍贯嘉定。（中国历代人物传记资料库 CBDB 71176）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_hhDxwhhYzA13RJdMB1CU2L
+        - id: cs_Xb7GDZip8Lm1irExuwk4mM
           claim_id: c_GmYPn8YZAWztnyJrY8RBmf
           source_id: s_Qu1bBY9Rw3EbkXxpYYhPXg
           stance: supports
-          locator: null
+          locator: CBDB:71176
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王恪 | accepted |
 | birth.date | 1670年 | accepted |
 | death.date | 1739年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王恪（1670年—1739年），清人物。籍贯嘉定。（中国历代人物传记资料库 CBDB 71176） | accepted |
 
 ## 关联关系
 

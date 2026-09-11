@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王洪，宋人物。籍贯四川，身份为畫家。（中国历代人物传记资料库 CBDB 39624）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_NArB423aDmcMBFnNrKAHWz
+        - id: cs_niSmn6Wl_1OVOkEB4n8yl1
           claim_id: c_X9iZwppqQy5KBfoMf5bS3J
           source_id: s_RY2gtXo28CBLJfw48spG8Z
           stance: supports
-          locator: null
+          locator: CBDB:39624
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王洪 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王洪，宋人物。籍贯四川，身份为畫家。（中国历代人物传记资料库 CBDB 39624） | accepted |
 
 ## 关联关系
 

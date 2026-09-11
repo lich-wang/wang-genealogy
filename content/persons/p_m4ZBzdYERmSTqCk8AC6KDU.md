@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王懷禮（卒于715年），唐人物。籍贯丹徒，曾任丞。（中国历代人物传记资料库 CBDB 175792）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_nC7LQ6VXREM4o7m18BES4f
+        - id: cs_IDh7k5MKUmWEwNqV2XzrDY
           claim_id: c_yFqJh2wNaAJtH57P116EUM
           source_id: s_aLbzHif9u2eo6PqkARF3J8
           stance: supports
-          locator: null
+          locator: CBDB:175792
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -146,7 +146,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王懷禮 | accepted |
 | death.date | 715年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王懷禮（卒于715年），唐人物。籍贯丹徒，曾任丞。（中国历代人物传记资料库 CBDB 175792） | accepted |
 
 ## 关联关系
 

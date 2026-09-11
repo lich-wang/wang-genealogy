@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王感（648年—705年），唐人物。籍贯合宮。（中国历代人物传记资料库 CBDB 140253）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_aee6KZs3TJWr1nSR6XG94w
+        - id: cs_AvTTw0TPXPwcz45DuqNW0T
           claim_id: c_KPq8wL8okdVVWpGQzpiY43
           source_id: s_cTLz7KW3XKKs5XdbHWg21v
           stance: supports
-          locator: null
+          locator: CBDB:140253
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -212,7 +212,7 @@ relationships:
 | name.primary | 王感 | accepted |
 | birth.date | 648年 | accepted |
 | death.date | 705年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王感（648年—705年），唐人物。籍贯合宮。（中国历代人物传记资料库 CBDB 140253） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
+          text: 王德元，元人物。籍贯彰德路，入仕世襲(替)，曾任翼副千戶。（中国历代人物传记资料库 CBDB 101411）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_f7xPXdKe79NwwbFB9iXQay
+        - id: cs_BN0qmjK01n05ovZFpithx3
           claim_id: c_AgzVh5JxmVwtyyrmg8cE26
           source_id: s_7ub9qr6aMLyKUMqzAKMj2j
           stance: supports
-          locator: null
+          locator: CBDB:101411
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -128,7 +128,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王德元 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王德元，元人物。籍贯彰德路，入仕世襲(替)，曾任翼副千戶。（中国历代人物传记资料库 CBDB 101411） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王黑哥，宋人物。籍贯長子。（中国历代人物传记资料库 CBDB 683945）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Ecp6b15oDqXvoQyFw6sDqG
+        - id: cs_rFRCswCp2LRPZXwCtjWTo4
           claim_id: c_6GKsJU7jqrL64JGb3cS4xe
           source_id: s_DcNXFVHLnFzj1bUEUW5amB
           stance: supports
-          locator: null
+          locator: CBDB:683945
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王黑哥 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王黑哥，宋人物。籍贯長子。（中国历代人物传记资料库 CBDB 683945） | accepted |
 
 ## 关联关系
 

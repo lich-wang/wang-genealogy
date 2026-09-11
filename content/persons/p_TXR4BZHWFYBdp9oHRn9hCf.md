@@ -50,7 +50,7 @@ properties:
           locator: CBDB:37770
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source:
+          source: &a2
             id: s_pmB6pbftP6J1Q2NaAaQhjK
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：王聿（37770）
@@ -75,11 +75,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: person, CBDB = 37770
-          language: en
+          text: 王聿，史料所见人物。籍贯鉅野，入仕進士。（中国历代人物传记资料库 CBDB 37770）
+          language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
         - id: cs_hxyjqLmS8K9u6UZev18pe7
           claim_id: c_mB9tz53Bs9P81VNdrBenbk
@@ -89,6 +89,14 @@ properties:
           quotation: null
           interpretation_note: 维基数据条目描述
           source: *a1
+        - id: cs_EOCTezQ7zQmqVJsss2Mk8U
+          claim_id: c_mB9tz53Bs9P81VNdrBenbk
+          source_id: s_pmB6pbftP6J1Q2NaAaQhjK
+          stance: supports
+          locator: CBDB:37770
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: *a2
       object_person: null
     alternatives: []
 relationships:
@@ -259,7 +267,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王聿 | accepted |
-| bio.summary | person, CBDB = 37770 | accepted |
+| bio.summary | 王聿，史料所见人物。籍贯鉅野，入仕進士。（中国历代人物传记资料库 CBDB 37770） | accepted |
 
 ## 关联关系
 

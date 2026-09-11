@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王佐，明人物。籍贯侯官，入仕進士，曾任布政使司左參政、刑部河南司郎中、刑部河南司員外郎。（中国历代人物传记资料库 CBDB 67296）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_pfAEnoCvE5yErXUUvo4bTS
+        - id: cs_GIlaYG95acrTc6gu3U7Sn3
           claim_id: c_Z3rcCC8xPqrWBv7z2yPf3S
           source_id: s_QR5MvYBE1ug8w3qn2xB1v4
           stance: supports
-          locator: null
+          locator: CBDB:67296
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王佐 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王佐，明人物。籍贯侯官，入仕進士，曾任布政使司左參政、刑部河南司郎中、刑部河南司員外郎。（中国历代人物传记资料库 CBDB 67296） | accepted |
 
 ## 关联关系
 

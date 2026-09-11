@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
+          text: 王楨，元人物。籍贯須城。（中国历代人物传记资料库 CBDB 28787）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_8HuCBkzaDS56joAP7KvTLD
+        - id: cs_s1dXyiC0zb1bawL6iJa-HL
           claim_id: c_57C1fnufFF1Ww82P9XfsSK
           source_id: s_4yQNDoJmhb6Y4pRT3uHFem
           stance: supports
-          locator: null
+          locator: CBDB:28787
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王楨 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王楨，元人物。籍贯須城。（中国历代人物传记资料库 CBDB 28787） | accepted |
 
 ## 关联关系
 

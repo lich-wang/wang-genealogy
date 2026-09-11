@@ -7,6 +7,44 @@ display_name: 李洞真
 revision: 1
 cbdb_id: 145145
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_OHf4xCmFSCFRbGkujJD-y0
+        subject_person_id: p_C26pFhNM5tfh1M49m56p9M
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 李洞真（765—835），唐人物。籍贯洛陽。（中国历代人物传记资料库 CBDB 145145）
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Wt-B1U8U39VGkedQu8DpEU
+          claim_id: c_OHf4xCmFSCFRbGkujJD-y0
+          source_id: s_kNzGvRWzofYxaGhmXXwvTO
+          stance: supports
+          locator: CBDB:145145
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_kNzGvRWzofYxaGhmXXwvTO
+            source_type: api_record
+            title: 中国历代人物传记资料库：李洞真（CBDB 145145）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=145145&o=json
+            external_identifier: CBDB:145145
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:145145
           quotation: null
           interpretation_note: CBDB 明确记录的王鍊配偶
-          source: &a1
-            id: s_kNzGvRWzofYxaGhmXXwvTO
-            source_type: api_record
-            title: 中国历代人物传记资料库：李洞真（CBDB 145145）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=145145&o=json
-            external_identifier: CBDB:145145
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 李洞真（765—835），唐人物。籍贯洛陽。（中国历代人物传记资料库 CBDB 145145） | accepted |
 | name.primary | 李洞真 | accepted |
 
 ## 关联关系

@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王綱（1613年—1669年），清人物。明清進士進士，籍贯合肥，入仕進士，曾任通政使司右參議。（中国历代人物传记资料库 CBDB 61063）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_pWPTJ2S1YNK5kBwcG69w3N
+        - id: cs_ruV3_uvfD0dzQtYscoB-X3
           claim_id: c_2j1nREy2bw1G5aV7PxtLAE
           source_id: s_3txn6VkE1vHLYptDaEh8c9
           stance: supports
-          locator: null
+          locator: CBDB:61063
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王綱 | accepted |
 | birth.date | 1613年 | accepted |
 | death.date | 1669年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王綱（1613年—1669年），清人物。明清進士進士，籍贯合肥，入仕進士，曾任通政使司右參議。（中国历代人物传记资料库 CBDB 61063） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王樞，宋人物。籍贯崑山。（中国历代人物传记资料库 CBDB 561792）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_ZwPEteZeQH9MC3MN3phAg2
+        - id: cs_Hp0XPcShvWvlmp0D4m6Y0B
           claim_id: c_FSCs2dLnNQA9vHdNg2i4Nm
           source_id: s_SWDEbg7NJ1c7uPUdJ53qc8
           stance: supports
-          locator: null
+          locator: CBDB:561792
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王樞 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王樞，宋人物。籍贯崑山。（中国历代人物传记资料库 CBDB 561792） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王銘淵，清人物。明清進士進士，籍贯固始，入仕進士。（中国历代人物传记资料库 CBDB 343832）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_3VDTQQTW8j6HNQiKvWzwiX
+        - id: cs_-cZyy0xBrTonzzRU3cwL3A
           claim_id: c_kAyMx2mEERqmi65yJNKy3X
           source_id: s_e43HAULBGbukT4y72pRQnc
           stance: supports
-          locator: null
+          locator: CBDB:343832
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王銘淵 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王銘淵，清人物。明清進士進士，籍贯固始，入仕進士。（中国历代人物传记资料库 CBDB 343832） | accepted |
 
 ## 关联关系
 

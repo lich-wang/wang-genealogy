@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王午龍，宋人物。籍贯奉化，入仕進士。（中国历代人物传记资料库 CBDB 534098）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_2xyeWDxFE1Y1JBViQEjsMk
+        - id: cs_cS38b7vrDYGctxfrvcLo29
           claim_id: c_HGNNtkTECQPe5QXTj6uKwT
           source_id: s_Np3ZtZhSuhi4G7SCeEtobQ
           stance: supports
-          locator: null
+          locator: CBDB:534098
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王午龍 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王午龍，宋人物。籍贯奉化，入仕進士。（中国历代人物传记资料库 CBDB 534098） | accepted |
 
 ## 关联关系
 

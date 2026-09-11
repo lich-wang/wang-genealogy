@@ -6,6 +6,45 @@ merged_into: null
 display_name: 劉華
 revision: 1
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_1QAki9Ocpl456efKE8Yesj
+        subject_person_id: p_P6xMPZiGy4sndWtjMAiotx
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 劉華，史料所见人物。本项目依据《劉華》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tBOprqwbH29Fvkxc_vbGHR
+          claim_id: c_1QAki9Ocpl456efKE8Yesj
+          source_id: s_cCuGTSS3q83j7UqiyMhuGd
+          stance: supports
+          locator: Q4432984
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          source: &a1
+            id: s_cCuGTSS3q83j7UqiyMhuGd
+            source_type: api_record
+            title: 维基数据：劉華（Q4432984）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q4432984
+            external_identifier: Q4432984
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E6%98%8E%E6%83%A0%E7%9A%87%E5%90%8E_(%E9%96%A9)
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -30,19 +69,7 @@ properties:
           locator: Q4432984
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source: &a1
-            id: s_cCuGTSS3q83j7UqiyMhuGd
-            source_type: api_record
-            title: 维基数据：劉華（Q4432984）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q4432984
-            external_identifier: Q4432984
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T08:06:50.055Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E6%98%8E%E6%83%A0%E7%9A%87%E5%90%8E_(%E9%96%A9)
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -110,6 +137,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 劉華，史料所见人物。本项目依据《劉華》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
 | name.primary | 劉華 | accepted |
 
 ## 关联关系

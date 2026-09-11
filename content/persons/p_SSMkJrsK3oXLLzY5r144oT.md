@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王克謙（生于1903年），清人物。籍贯衢州府。（中国历代人物传记资料库 CBDB 578771）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_2zkLcAXGNGZJBuJUnNiUFd
+        - id: cs_JjhEqlxRnTbAIhAceiRetp
           claim_id: c_r8d6Jkc6aAZE6SNK6GMz51
           source_id: s_mvT7nCHvLKsa6XzhJwChzW
           stance: supports
-          locator: null
+          locator: CBDB:578771
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王克謙 | accepted |
 | birth.date | 1903年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王克謙（生于1903年），清人物。籍贯衢州府。（中国历代人物传记资料库 CBDB 578771） | accepted |
 
 ## 关联关系
 

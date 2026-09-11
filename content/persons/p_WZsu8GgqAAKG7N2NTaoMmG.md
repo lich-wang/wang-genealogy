@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王錫鈞，清人物。籍贯金壇，入仕監生，曾任典史。（中国历代人物传记资料库 CBDB 640649）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_MqQ85DiiECDgUdBk7VjL3s
+        - id: cs_tf_RSj5U0uUK0AsAT_TFEQ
           claim_id: c_dLaQ4pTXE7kMY4ED7WEbhC
           source_id: s_mqLXxfivL1H4fzsgiJTA7w
           stance: supports
-          locator: null
+          locator: CBDB:640649
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王錫鈞 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王錫鈞，清人物。籍贯金壇，入仕監生，曾任典史。（中国历代人物传记资料库 CBDB 640649） | accepted |
 
 ## 关联关系
 

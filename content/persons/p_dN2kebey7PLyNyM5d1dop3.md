@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王漢卿，宋人物。籍贯方城，曾任崇儀副使、左驍衛將軍。（中国历代人物传记资料库 CBDB 26111）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_FrGrnZ2YJtDdZKyEwQ4PcK
+        - id: cs_7GatUsaKVW02Hzn0DY31QD
           claim_id: c_7Q3Z6nMuHf4BGJxjeo29P2
           source_id: s_p1QSbnmmZXpn4CTe2hQd5H
           stance: supports
-          locator: null
+          locator: CBDB:26111
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王漢卿 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王漢卿，宋人物。籍贯方城，曾任崇儀副使、左驍衛將軍。（中国历代人物传记资料库 CBDB 26111） | accepted |
 
 ## 关联关系
 

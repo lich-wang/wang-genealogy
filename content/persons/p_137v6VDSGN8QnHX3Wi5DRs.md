@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王珪，明人物。曾任訓術。（中国历代人物传记资料库 CBDB 491578）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_a7VsdqYgV1h7uLpRpD9Tg9
+        - id: cs_-gndXU73bljKBs2Wzj2x_l
           claim_id: c_PJJ7khuGHwq9BUPBZhkShz
           source_id: s_VYwCSMuN4xN2PSQ7Asb1gQ
           stance: supports
-          locator: null
+          locator: CBDB:491578
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王珪 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王珪，明人物。曾任訓術。（中国历代人物传记资料库 CBDB 491578） | accepted |
 
 ## 关联关系
 

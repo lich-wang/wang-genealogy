@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王榘，清人物。籍贯江陵，入仕監生，曾任知縣。（中国历代人物传记资料库 CBDB 638785）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_jFCohe4BxvBX5AQ5DRECwA
+        - id: cs_eEFR2sTzLN7LmX9a7OZN7F
           claim_id: c_7HNs8eDr1qPjFzbX2QaCTV
           source_id: s_szo4A3W7ApKMCoFcXjguZ3
           stance: supports
-          locator: null
+          locator: CBDB:638785
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王榘 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王榘，清人物。籍贯江陵，入仕監生，曾任知縣。（中国历代人物传记资料库 CBDB 638785） | accepted |
 
 ## 关联关系
 

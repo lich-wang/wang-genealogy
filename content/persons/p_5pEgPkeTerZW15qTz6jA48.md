@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王攸，明人物。嘉靖二十九年進士，籍贯膠州。（中国历代人物传记资料库 CBDB 312749）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_KJmQUEEjkhEU69wzYiBcA4
+        - id: cs_ern2RfV0Am02qI6vM3VERy
           claim_id: c_WsiMrjfXxYF7DtLkErg3mS
           source_id: s_P7AteUG1KM2tcALVRiMGH2
           stance: supports
-          locator: null
+          locator: CBDB:312749
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王攸 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王攸，明人物。嘉靖二十九年進士，籍贯膠州。（中国历代人物传记资料库 CBDB 312749） | accepted |
 
 ## 关联关系
 

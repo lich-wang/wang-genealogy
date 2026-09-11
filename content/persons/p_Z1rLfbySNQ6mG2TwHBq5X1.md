@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
-          language: zh-Hans
+          text: 王瑄（1236年—1294年），元人物。籍贯藍田，身份为以疾廢，曾任肅政廉訪司副使、肅政廉訪司僉事、行中書省郎中。（中国历代人物传记资料库 CBDB 100867）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_RNT1iUoR8UtWRpuWHkFth9
+        - id: cs_KoLD0CJLDROqYxmzqwC3Rk
           claim_id: c_5L3JUF1AUsjxHw3esic37D
           source_id: s_7PMBKA6cNe5o3f2BFHwaS8
           stance: supports
-          locator: null
+          locator: CBDB:100867
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王瑄 | accepted |
 | birth.date | 1236年 | accepted |
 | death.date | 1294年 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王瑄（1236年—1294年），元人物。籍贯藍田，身份为以疾廢，曾任肅政廉訪司副使、肅政廉訪司僉事、行中書省郎中。（中国历代人物传记资料库 CBDB 100867） | accepted |
 
 ## 关联关系
 

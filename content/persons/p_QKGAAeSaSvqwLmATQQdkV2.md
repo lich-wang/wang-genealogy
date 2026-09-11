@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王臣，明人物。弘治十五年進士，籍贯猗氏。（中国历代人物传记资料库 CBDB 270449）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_nLwp1x9hJnDKk2qPdVP4Bh
+        - id: cs_hE0X9Fb25MnOBdt5QIk4Qh
           claim_id: c_7J16gJUNf8zteUiiL43MkC
           source_id: s_G4DCzEwg3q89CKSag5Wjbg
           stance: supports
-          locator: null
+          locator: CBDB:270449
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王臣 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王臣，明人物。弘治十五年進士，籍贯猗氏。（中国历代人物传记资料库 CBDB 270449） | accepted |
 
 ## 关联关系
 

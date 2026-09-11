@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王仲嶷，宋人物。籍贯長洲，身份为削籍官員，曾任待制、左通奉大夫、顯謨閣待制。（中国历代人物传记资料库 CBDB 7373）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_26mgBj1obvyfNDFCRM9sDX
+        - id: cs_B3RtTUA1ennq4Awx9ELSkr
           claim_id: c_Ntwm9yr7hrDepYpmFEoeSY
           source_id: s_M9VjMNMbsnDivVWoFgTPax
           stance: supports
-          locator: null
+          locator: CBDB:7373
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王仲嶷 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王仲嶷，宋人物。籍贯長洲，身份为削籍官員，曾任待制、左通奉大夫、顯謨閣待制。（中国历代人物传记资料库 CBDB 7373） | accepted |
 
 ## 关联关系
 

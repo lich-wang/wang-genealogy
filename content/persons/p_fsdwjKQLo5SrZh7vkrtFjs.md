@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
+          text: 王淵，元人物。曾任州同知。（中国历代人物传记资料库 CBDB 100802）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_MS7tPFot91YZV6huHM1WZu
+        - id: cs_R9WO4OJHp9EaWRx6nbbBEW
           claim_id: c_9GtZA151L4ucsT8m81kcGx
           source_id: s_Fa5hP2DYN6YUSHwe72HA8Q
           stance: supports
-          locator: null
+          locator: CBDB:100802
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王淵 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王淵，元人物。曾任州同知。（中国历代人物传记资料库 CBDB 100802） | accepted |
 
 ## 关联关系
 

@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为隋人物
+          text: 王卿（559年—607年），隋人物。籍贯太原，曾任縣丞。（中国历代人物传记资料库 CBDB 139092）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Mx66VcZjKRWu5CxwNHy2yF
+        - id: cs_BtQAkGaTPIy0CWpOd_6Y3X
           claim_id: c_iFMhYHtZLcRStq3NQG4hKM
           source_id: s_6A6Txntxc2o5RwFdvA17Ue
           stance: supports
-          locator: null
+          locator: CBDB:139092
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -212,7 +212,7 @@ relationships:
 | name.primary | 王卿 | accepted |
 | birth.date | 559年 | accepted |
 | death.date | 607年 | accepted |
-| bio.summary | CBDB 记载为隋人物 | accepted |
+| bio.summary | 王卿（559年—607年），隋人物。籍贯太原，曾任縣丞。（中国历代人物传记资料库 CBDB 139092） | accepted |
 
 ## 关联关系
 

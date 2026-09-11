@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王慶章，唐人物。籍贯廣平，曾任未詳。（中国历代人物传记资料库 CBDB 158558）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_7jM22YCmuBGQBJ7XtQhkb5
+        - id: cs_vCC7qigqZTUZrdMruvzTN0
           claim_id: c_B812p8QknYYC3L7u7MYWkM
           source_id: s_mLGo2FWnskk8DkX5kSN2Js
           stance: supports
-          locator: null
+          locator: CBDB:158558
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -128,7 +128,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王慶章 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王慶章，唐人物。籍贯廣平，曾任未詳。（中国历代人物传记资料库 CBDB 158558） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王煥，宋人物。寶祐進士，籍贯永春，曾任兩制。（中国历代人物传记资料库 CBDB 38800）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_XKx3q2icxMdtkya7Abtjvd
+        - id: cs_DtFEe4PCbSEe0FgzBtToyK
           claim_id: c_EMywo3PCbNdwYi9yh98Z17
           source_id: s_PYdJ3bPsrZPp2Ae2zELaqV
           stance: supports
-          locator: null
+          locator: CBDB:38800
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -180,7 +180,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王煥 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王煥，宋人物。寶祐進士，籍贯永春，曾任兩制。（中国历代人物传记资料库 CBDB 38800） | accepted |
 
 ## 关联关系
 

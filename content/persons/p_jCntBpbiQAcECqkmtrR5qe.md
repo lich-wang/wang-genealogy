@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王汝明，宋人物。籍贯太和，入仕鄉貢舉人，曾任朝奉郎、轉運司判官。（中国历代人物传记资料库 CBDB 1832）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_A1CruDcHMep6UnDXe7a1zb
+        - id: cs_WGnS990qDwcdVKuMLflkF-
           claim_id: c_nGrMxg2MD295Co36mxLLZH
           source_id: s_d6kj3fGfPTysdx8P9xHQoq
           stance: supports
-          locator: null
+          locator: CBDB:1832
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王汝明 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王汝明，宋人物。籍贯太和，入仕鄉貢舉人，曾任朝奉郎、轉運司判官。（中国历代人物传记资料库 CBDB 1832） | accepted |
 
 ## 关联关系
 

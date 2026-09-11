@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王誨，宋人物。籍贯長安。（中国历代人物传记资料库 CBDB 22121）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_HgWHpRQiwn85FBQnxNHhgQ
+        - id: cs_ZHkHup21vHBQtdVE5tg9XE
           claim_id: c_BYDs5jboi3EHnhMS1Lv3ak
           source_id: s_FxbqjtC8FFMoRqn6HpFi6i
           stance: supports
-          locator: null
+          locator: CBDB:22121
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -143,7 +143,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王誨 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王誨，宋人物。籍贯長安。（中国历代人物传记资料库 CBDB 22121） | accepted |
 
 ## 关联关系
 

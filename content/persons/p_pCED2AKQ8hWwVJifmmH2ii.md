@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王桂，明人物。嘉靖二十九年進士，籍贯無為州。（中国历代人物传记资料库 CBDB 312875）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Mp7jz251XabwtfLpJgAsWD
+        - id: cs_8qyOPQ-XoFCg00Rorl6L8G
           claim_id: c_9GCMxaykH7TYfPCr38umvy
           source_id: s_o3yGqn6qmEFaKvooeJB8MC
           stance: supports
-          locator: null
+          locator: CBDB:312875
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王桂 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王桂，明人物。嘉靖二十九年進士，籍贯無為州。（中国历代人物传记资料库 CBDB 312875） | accepted |
 
 ## 关联关系
 

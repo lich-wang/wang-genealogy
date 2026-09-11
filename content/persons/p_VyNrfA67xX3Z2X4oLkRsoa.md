@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王友詢（卒于1743年），清人物。籍贯臨淄，入仕武舉進士，曾任督標火器營參將、督標中軍副將、三等侍衛。（中国历代人物传记资料库 CBDB 59938）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_WCRD9R1qiKDv9vc4q9EUr9
+        - id: cs_DNf2QhiH8DIyCOiPqJsV1N
           claim_id: c_oRi9CWGS8SQTf1ukEVqZh9
           source_id: s_LCP2xwcYGS9QPf53or8tve
           stance: supports
-          locator: null
+          locator: CBDB:59938
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王友詢 | accepted |
 | death.date | 1743年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王友詢（卒于1743年），清人物。籍贯臨淄，入仕武舉進士，曾任督標火器營參將、督標中軍副將、三等侍衛。（中国历代人物传记资料库 CBDB 59938） | accepted |
 
 ## 关联关系
 

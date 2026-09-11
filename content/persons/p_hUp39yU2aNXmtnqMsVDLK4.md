@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王元士，清人物。明清進士進士，籍贯臨潼，入仕進士。（中国历代人物传记资料库 CBDB 341789）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_SjTf2Sw9KMAk81q8LC1Ggd
+        - id: cs_D_dpXsRFIl6pwS_mUAtp4E
           claim_id: c_66zmbS3XXNuhiHz33AqLJt
           source_id: s_TwQw6BSgw9G5ZJ7f7dzjYS
           stance: supports
-          locator: null
+          locator: CBDB:341789
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王元士 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王元士，清人物。明清進士進士，籍贯臨潼，入仕進士。（中国历代人物传记资料库 CBDB 341789） | accepted |
 
 ## 关联关系
 

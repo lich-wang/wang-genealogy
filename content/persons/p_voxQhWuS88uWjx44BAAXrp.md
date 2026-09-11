@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王大寶（1094年—1170年），宋人物。籍贯海陽，身份为收徒講學，入仕進士，曾任禮部尚書、騎都尉、起居郎。（中国历代人物传记资料库 CBDB 14454）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_hoB9eEbtKUM1Rc7ABUjepT
+        - id: cs_JDhD23G7KYYSMrgxEdGxos
           claim_id: c_MWCWXQGBJDakuGy84Aj8GY
           source_id: s_gRtnhxyK2yX2iSDGQHnW97
           stance: supports
-          locator: null
+          locator: CBDB:14454
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -186,7 +186,7 @@ relationships:
 | name.primary | 王大寶 | accepted |
 | birth.date | 1094年 | accepted |
 | death.date | 1170年 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王大寶（1094年—1170年），宋人物。籍贯海陽，身份为收徒講學，入仕進士，曾任禮部尚書、騎都尉、起居郎。（中国历代人物传记资料库 CBDB 14454） | accepted |
 
 ## 关联关系
 

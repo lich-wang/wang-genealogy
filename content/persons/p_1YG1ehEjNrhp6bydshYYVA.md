@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王用賓，清人物。明清進士進士，籍贯懷寧，入仕進士，曾任軍營差遣、縣知縣、知府。（中国历代人物传记资料库 CBDB 343618）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_f1nAE5F2SnFqQ5BKVg4N8P
+        - id: cs_ypEf5XJFT5ix7rW6ylBCNi
           claim_id: c_eBJSf1UoLNP6S3wru7mmiD
           source_id: s_X1ggepEtHPosA8261MLxwh
           stance: supports
-          locator: null
+          locator: CBDB:343618
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王用賓 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王用賓，清人物。明清進士進士，籍贯懷寧，入仕進士，曾任軍營差遣、縣知縣、知府。（中国历代人物传记资料库 CBDB 343618） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王同，宋人物。籍贯侯官，入仕進士，曾任架閣。（中国历代人物传记资料库 CBDB 38744）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_9ZEK9v6WDWz4gr3F3uCjSo
+        - id: cs_zRY4We24UkPX5iAQvFqWxt
           claim_id: c_CsRME3DFG143bH1UY463FG
           source_id: s_pGmEpsY3dTvCjbfDrsQkZP
           stance: supports
-          locator: null
+          locator: CBDB:38744
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王同 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王同，宋人物。籍贯侯官，入仕進士，曾任架閣。（中国历代人物传记资料库 CBDB 38744） | accepted |
 
 ## 关联关系
 

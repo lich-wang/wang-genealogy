@@ -7,6 +7,44 @@ display_name: 陸定武
 revision: 1
 cbdb_id: 133910
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_qgDwtjhckg9qSVpHWHTHi3
+        subject_person_id: p_G3QDzDNmJP44MSBdFUCnpy
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 陸定武，史料所见人物。本项目依据《中国历代人物传记资料库：陸定武（CBDB 133910）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0VuBSkjFVieEjv-nxqI8TJ
+          claim_id: c_qgDwtjhckg9qSVpHWHTHi3
+          source_id: s_KITuCpd3_XDsw6lazpn5Es
+          stance: supports
+          locator: CBDB:133910
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          source: &a1
+            id: s_KITuCpd3_XDsw6lazpn5Es
+            source_type: api_record
+            title: 中国历代人物传记资料库：陸定武（CBDB 133910）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=133910&o=json
+            external_identifier: CBDB:133910
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:133910
           quotation: null
           interpretation_note: CBDB 明确记录的王珩配偶
-          source: &a1
-            id: s_KITuCpd3_XDsw6lazpn5Es
-            source_type: api_record
-            title: 中国历代人物传记资料库：陸定武（CBDB 133910）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=133910&o=json
-            external_identifier: CBDB:133910
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 陸定武，史料所见人物。本项目依据《中国历代人物传记资料库：陸定武（CBDB 133910）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
 | name.primary | 陸定武 | accepted |
 
 ## 关联关系

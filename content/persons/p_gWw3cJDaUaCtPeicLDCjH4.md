@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王忠，明人物。曾任副千戶。（中国历代人物传记资料库 CBDB 480968）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_yyRD7FtU6z5b6xEFCZTGT2
+        - id: cs_Bwt_ybuStBRtQIv37zdc1t
           claim_id: c_NdUfU36G27a5cTqyz6W9b5
           source_id: s_aSux55mAZ2GKLoc15Z89Ae
           stance: supports
-          locator: null
+          locator: CBDB:480968
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王忠 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王忠，明人物。曾任副千戶。（中国历代人物传记资料库 CBDB 480968） | accepted |
 
 ## 关联关系
 

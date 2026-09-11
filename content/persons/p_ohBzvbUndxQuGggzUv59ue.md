@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王中孚，宋人物。入仕進士。（中国历代人物传记资料库 CBDB 687405）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_tBXtgJqC9c4RfJbh4BV4Px
+        - id: cs_T07Ddf08w4iVBHnjIFtz9u
           claim_id: c_5vXCbS9AaEZkuV8MN2P8hN
           source_id: s_fFRxUM5qEbz2aKJbH3MGNR
           stance: supports
-          locator: null
+          locator: CBDB:687405
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王中孚 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王中孚，宋人物。入仕進士。（中国历代人物传记资料库 CBDB 687405） | accepted |
 
 ## 关联关系
 

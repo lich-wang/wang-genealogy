@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王漢臣，清人物。籍贯遂寧，曾任藍翎侍衛、中軍守備。（中国历代人物传记资料库 CBDB 639196）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_7couv2kCAT8b5x5Pvtw8LB
+        - id: cs_UBBcEU8Ad2J3XeiL_RHAlH
           claim_id: c_VDHnGe8CKrjkHP62yAEQyj
           source_id: s_AuGJAgUw7kJgXvw371Sh5w
           stance: supports
-          locator: null
+          locator: CBDB:639196
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王漢臣 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王漢臣，清人物。籍贯遂寧，曾任藍翎侍衛、中軍守備。（中国历代人物传记资料库 CBDB 639196） | accepted |
 
 ## 关联关系
 

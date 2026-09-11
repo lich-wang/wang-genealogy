@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王春華，清人物。籍贯江南蘇松常鎮太道，入仕廩貢生，曾任把總、復設訓導。（中国历代人物传记资料库 CBDB 638426）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_qtiCyZwJUy6yDNDHtXwh7Q
+        - id: cs_-mTPYOaE2Vtw8_2RMXFHzf
           claim_id: c_BgcrEwB9v8gtgEgGVbJQ6Q
           source_id: s_MKhoJp1BVM5yi7HUhLL5dF
           stance: supports
-          locator: null
+          locator: CBDB:638426
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王春華 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王春華，清人物。籍贯江南蘇松常鎮太道，入仕廩貢生，曾任把總、復設訓導。（中国历代人物传记资料库 CBDB 638426） | accepted |
 
 ## 关联关系
 

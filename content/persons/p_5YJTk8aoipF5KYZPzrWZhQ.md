@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王登三，清人物。曾任知縣。（中国历代人物传记资料库 CBDB 500855）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_fZ2AGEJCgWbBD7WcH8Fuvn
+        - id: cs_7o6xvlN0kuTWJeQI_Mr8R-
           claim_id: c_8119Jt6yCQuGpsRz48wFPc
           source_id: s_ZJNTkM3e71AvhZdMCxiJ2E
           stance: supports
-          locator: null
+          locator: CBDB:500855
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王登三 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王登三，清人物。曾任知縣。（中国历代人物传记资料库 CBDB 500855） | accepted |
 
 ## 关联关系
 

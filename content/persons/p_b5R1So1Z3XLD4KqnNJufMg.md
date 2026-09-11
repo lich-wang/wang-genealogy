@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为東晉人物
-          language: zh-Hans
+          text: 王悅，東晉人物。籍贯剡縣。（中国历代人物传记资料库 CBDB 25789）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_A4bTR5DTsKsKNPLDKWaHnw
+        - id: cs_qDJfXcOD4opCELYQc-p-bN
           claim_id: c_8NLsk5sRGgAztGwFPW3BRq
           source_id: s_gkpF29M2yFHEnWt6f6Ce9i
           stance: supports
-          locator: null
+          locator: CBDB:25789
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王悅 | accepted |
-| bio.summary | CBDB 记载为東晉人物 | accepted |
+| bio.summary | 王悅，東晉人物。籍贯剡縣。（中国历代人物传记资料库 CBDB 25789） | accepted |
 
 ## 关联关系
 

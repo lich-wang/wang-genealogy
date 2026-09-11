@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
+          text: 王廷俊，元人物。曾任州提控案牘。（中国历代人物传记资料库 CBDB 101218）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_MsK2cXWHzMPXp54oLgfJxC
+        - id: cs_crhte-hAL3sqm2tvT4IFgX
           claim_id: c_JxBjdiK7SQVBzSfSLkYvKK
           source_id: s_6HnfFPD6LPqVPm89gTbSuX
           stance: supports
-          locator: null
+          locator: CBDB:101218
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王廷俊 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王廷俊，元人物。曾任州提控案牘。（中国历代人物传记资料库 CBDB 101218） | accepted |
 
 ## 关联关系
 

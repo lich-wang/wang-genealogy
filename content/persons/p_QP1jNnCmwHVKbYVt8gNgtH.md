@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王柷，唐人物。曾任州刺史。（中国历代人物传记资料库 CBDB 380998）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_ZGc3R4h5D5ZLZ5DVHECHw8
+        - id: cs_HPa6YSphL93DDKtsTPwtIO
           claim_id: c_cxv17Yfr5n9EPnEKx1adBQ
           source_id: s_MiwE9dJs8KWs3zr3ku8wWL
           stance: supports
-          locator: null
+          locator: CBDB:380998
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王柷 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王柷，唐人物。曾任州刺史。（中国历代人物传记资料库 CBDB 380998） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王文義，宋人物。籍贯大寧監，入仕進士。（中国历代人物传记资料库 CBDB 541857）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_PadqdnXwCYEBzQM5DFMwpa
+        - id: cs_jub31aCszjPrS0eb2TX9LT
           claim_id: c_Y9N34yMZPH6xsL6fPZCSMr
           source_id: s_4Gvzr6KDMuBZhHR7ukqQ5w
           stance: supports
-          locator: null
+          locator: CBDB:541857
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王文義 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王文義，宋人物。籍贯大寧監，入仕進士。（中国历代人物传记资料库 CBDB 541857） | accepted |
 
 ## 关联关系
 

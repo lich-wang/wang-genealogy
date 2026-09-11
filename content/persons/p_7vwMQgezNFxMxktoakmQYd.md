@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王國安，清人物。入仕行伍，曾任千總。（中国历代人物传记资料库 CBDB 497945）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_3z7D4qkyQ8zg7TmCUi1kGG
+        - id: cs_2SdELTnZBe_66hpuXWA5xN
           claim_id: c_q1zev1brThMEx2c8pULDfF
           source_id: s_GWdZjcCCZ7uRfpDyAqHzmk
           stance: supports
-          locator: null
+          locator: CBDB:497945
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王國安 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王國安，清人物。入仕行伍，曾任千總。（中国历代人物传记资料库 CBDB 497945） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: "王宗賢，明人物。入仕監生: 蔭監(含明代官生、恩生，或清代恩廕生、難廕生)，曾任知縣。（中国历代人物传记资料库 CBDB 492370）"
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_rYxQJsuyTCEuiikWAyFuo7
+        - id: cs_nk86uw0rdRzYcMfr9doCrZ
           claim_id: c_swRjV4LzZs2EG58JNjE4De
           source_id: s_zQ9m9KyDVkzz3s7vvcg1ud
           stance: supports
-          locator: null
+          locator: CBDB:492370
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王宗賢 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王宗賢，明人物。入仕監生: 蔭監(含明代官生、恩生，或清代恩廕生、難廕生)，曾任知縣。（中国历代人物传记资料库 CBDB 492370） | accepted |
 
 ## 关联关系
 

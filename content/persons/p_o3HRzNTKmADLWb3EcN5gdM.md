@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王廣寒（生于1840年），清人物。籍贯壽張。（中国历代人物传记资料库 CBDB 71347）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_NfwKAM8YYPEhGcQ3SiukNi
+        - id: cs_OCwgmLI4nRgY4jm7gTtVJX
           claim_id: c_vDyKjrFeMtTDXH1C9hZwUD
           source_id: s_Rs9rJ1oEbt7dTCAMCtVpD7
           stance: supports
-          locator: null
+          locator: CBDB:71347
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王廣寒 | accepted |
 | birth.date | 1840年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王廣寒（生于1840年），清人物。籍贯壽張。（中国历代人物传记资料库 CBDB 71347） | accepted |
 
 ## 关联关系
 

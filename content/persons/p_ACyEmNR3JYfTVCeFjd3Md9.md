@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王萬齡，明人物。萬曆五年進士，籍贯常熟。（中国历代人物传记资料库 CBDB 216054）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_ZMXPJQEod3C7ESCUapfxBy
+        - id: cs_GRK7_Q8hJRl6FJ0baOEe_H
           claim_id: c_Mos1MHnJFy89qUzTxvBZ1E
           source_id: s_GrB2at1R9xCZSMfT2FEm5X
           stance: supports
-          locator: null
+          locator: CBDB:216054
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王萬齡 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王萬齡，明人物。萬曆五年進士，籍贯常熟。（中国历代人物传记资料库 CBDB 216054） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: "王世功，清人物。籍贯上虞，身份为良吏;循吏，入仕學校: 生員(庠生)，曾任道御史、提督學政、巡按御史。（中国历代人物传记资料库 CBDB 703138）"
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_2PmBwCyL6yJfQi6Sw1AAcn
+        - id: cs_1_SWdvFYKCL5io0qOhVIcw
           claim_id: c_PT4JApLiEQso1ab4vJJ3vF
           source_id: s_e5n5bh5Pqg9htrT7KpxJcw
           stance: supports
-          locator: null
+          locator: CBDB:703138
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -191,7 +191,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王世功 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王世功，清人物。籍贯上虞，身份为良吏;循吏，入仕學校: 生員(庠生)，曾任道御史、提督學政、巡按御史。（中国历代人物传记资料库 CBDB 703138） | accepted |
 
 ## 关联关系
 

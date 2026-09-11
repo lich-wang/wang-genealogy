@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王登先，清人物。籍贯湖南省，入仕行伍，曾任守備。（中国历代人物传记资料库 CBDB 639498）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_PYu2NG81jpbSrpQgkvm7hw
+        - id: cs_i8Pm4f_ClMwDf5LrWCDjRU
           claim_id: c_Yfpg5etYe4R342t5qxDi9H
           source_id: s_qKphYRQ2fP77KrkcrKmgvs
           stance: supports
-          locator: null
+          locator: CBDB:639498
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王登先 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王登先，清人物。籍贯湖南省，入仕行伍，曾任守備。（中国历代人物传记资料库 CBDB 639498） | accepted |
 
 ## 关联关系
 

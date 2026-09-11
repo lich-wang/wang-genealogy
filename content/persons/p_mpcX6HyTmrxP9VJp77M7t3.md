@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为中華民國人物
-          language: zh-Hans
+          text: 王錫彤（1866年—1938年），中華民國人物。籍贯汲縣。（中国历代人物传记资料库 CBDB 72116）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_6VBjuHsZM3pPMECTxh9ivY
+        - id: cs_LB_L3efQs1PmsA2dct8qln
           claim_id: c_7K637ZcJUP3P9Kf5q6muej
           source_id: s_qSRtNJxiytFFDRuV4ULPD7
           stance: supports
-          locator: null
+          locator: CBDB:72116
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王錫彤 | accepted |
 | birth.date | 1866年 | accepted |
 | death.date | 1938年 | accepted |
-| bio.summary | CBDB 记载为中華民國人物 | accepted |
+| bio.summary | 王錫彤（1866年—1938年），中華民國人物。籍贯汲縣。（中国历代人物传记资料库 CBDB 72116） | accepted |
 
 ## 关联关系
 

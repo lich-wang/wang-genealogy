@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王濟，清人物。籍贯遵義，入仕鄉貢舉人。（中国历代人物传记资料库 CBDB 576109）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Dj2xjLTTHiPBS2NC95qHBX
+        - id: cs_4lPdvC-JWsNNnnSLF18eMI
           claim_id: c_48jb16cVFGa4JELqNCq6d6
           source_id: s_77SEXkGUMtuRnLmWRUT6wD
           stance: supports
-          locator: null
+          locator: CBDB:576109
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王濟 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王濟，清人物。籍贯遵義，入仕鄉貢舉人。（中国历代人物传记资料库 CBDB 576109） | accepted |
 
 ## 关联关系
 

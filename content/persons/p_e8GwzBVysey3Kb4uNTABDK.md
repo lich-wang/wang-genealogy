@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王敬，明人物。天順元年進士，籍贯盧龍，曾任知事。（中国历代人物传记资料库 CBDB 296945）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_S5PAcCy4emDSnUUUc3s6i7
+        - id: cs_Wnoytp-FiEyP4z9zJRxAZv
           claim_id: c_qJ7qfzQL7rBBap2A22eiuU
           source_id: s_HwM5bMkoywC5wSHBTt5VnK
           stance: supports
-          locator: null
+          locator: CBDB:296945
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -128,7 +128,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王敬 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王敬，明人物。天順元年進士，籍贯盧龍，曾任知事。（中国历代人物传记资料库 CBDB 296945） | accepted |
 
 ## 关联关系
 

@@ -7,6 +7,44 @@ display_name: 陈金凤
 cbdb_id: 93612
 revision: 1
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_Csb6NSDQUfGqQYV3D4tYSZ
+        subject_person_id: p_4LHh2MQ5tJXCGCia3mTBBy
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 陈金凤（893—935），閩國人物。籍贯福唐，身份为詩人，曾任才人、皇后、淑妃。（中国历代人物传记资料库 CBDB 93612）
+          language: zh-Hant
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2MnRZbRW5kFyQZIxiXyZcK
+          claim_id: c_Csb6NSDQUfGqQYV3D4tYSZ
+          source_id: s_FwNL6au9oXg6168eSvZy8F
+          stance: supports
+          locator: CBDB:93612
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_FwNL6au9oXg6168eSvZy8F
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：陳金鳳（93612）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=93612&o=json
+            external_identifier: CBDB:93612
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,7 +69,7 @@ properties:
           locator: Q4561923
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source: &a1
+          source: &a2
             id: s_HLfiaGNLNuQZ5Tao236Erz
             source_type: api_record
             title: 维基数据：陈金凤（Q4561923）
@@ -51,18 +89,7 @@ properties:
           locator: CBDB:93612
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source:
-            id: s_FwNL6au9oXg6168eSvZy8F
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：陳金鳳（93612）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=93612&o=json
-            external_identifier: CBDB:93612
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T08:06:50.055Z
-            metadata_json: null
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -91,7 +118,7 @@ relationships:
           locator: P26（配偶）
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: *a2
         - id: cs_awCCVyw4NQ3adDeG2x6ZCC
           claim_id: c_irT5JpGKfDAb2h9SCs6T9r
           source_id: s_jXmk1TLmajvZF3VibGyjd5
@@ -130,6 +157,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 陈金凤（893—935），閩國人物。籍贯福唐，身份为詩人，曾任才人、皇后、淑妃。（中国历代人物传记资料库 CBDB 93612） | accepted |
 | name.primary | 陈金凤 | accepted |
 
 ## 关联关系

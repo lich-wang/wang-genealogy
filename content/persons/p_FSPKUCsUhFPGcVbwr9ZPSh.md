@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王得與，宋人物。曾任司戶參軍。（中国历代人物传记资料库 CBDB 695611）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_jPrEa8jGPWxZFVre244Kju
+        - id: cs_xyAHzbAai1W3212sPZLgPB
           claim_id: c_1cFkiFPo3i1C8tdyqBCCQr
           source_id: s_TCVw33SNvv2NfoH6NHEHyL
           stance: supports
-          locator: null
+          locator: CBDB:695611
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王得與 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王得與，宋人物。曾任司戶參軍。（中国历代人物传记资料库 CBDB 695611） | accepted |
 
 ## 关联关系
 

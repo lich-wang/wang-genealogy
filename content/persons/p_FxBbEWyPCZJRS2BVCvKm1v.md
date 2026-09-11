@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王仲德，明人物。正德六年進士。（中国历代人物传记资料库 CBDB 277067）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_fNp7t53T89YTR2Jy9A1X4S
+        - id: cs_OIGpMsHK8zimA_Pe7pNxJj
           claim_id: c_W8D7xVbK7gKv3KNMJ7bmpw
           source_id: s_5qRtwrH4dMEhJ9KP8Pf3hD
           stance: supports
-          locator: null
+          locator: CBDB:277067
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -128,7 +128,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王仲德 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王仲德，明人物。正德六年進士。（中国历代人物传记资料库 CBDB 277067） | accepted |
 
 ## 关联关系
 

@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王正己（1119年—1196年），宋人物。籍贯鄞縣，身份为良吏;循吏，入仕恩蔭、蔭補，曾任朝奉郎、朝散郎、太府寺卿。（中国历代人物传记资料库 CBDB 3948）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_SFLq4DPJytdvJZgGQV4q3k
+        - id: cs_EjgeWSsfhkKvaX9j0xq2vd
           claim_id: c_8ciCKLakcFLSKokW6QWR9Y
           source_id: s_PDGaLN51VCohN5Cwc5EZEn
           stance: supports
-          locator: null
+          locator: CBDB:3948
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -286,7 +286,7 @@ relationships:
 | name.primary | 王正己 | accepted |
 | birth.date | 1119年 | accepted |
 | death.date | 1196年 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王正己（1119年—1196年），宋人物。籍贯鄞縣，身份为良吏;循吏，入仕恩蔭、蔭補，曾任朝奉郎、朝散郎、太府寺卿。（中国历代人物传记资料库 CBDB 3948） | accepted |
 
 ## 关联关系
 

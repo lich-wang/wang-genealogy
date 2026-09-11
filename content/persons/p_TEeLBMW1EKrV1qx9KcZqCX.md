@@ -7,6 +7,44 @@ display_name: 黃氏
 revision: 1
 cbdb_id: 386278
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_xXRz6FASpWas2ZBAjHc_vL
+        subject_person_id: p_TEeLBMW1EKrV1qx9KcZqCX
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 黃氏，宋人物。籍贯義烏。（中国历代人物传记资料库 CBDB 386278）
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SHZkEJ95EV8nQswAmPdwWY
+          claim_id: c_xXRz6FASpWas2ZBAjHc_vL
+          source_id: s_7gMHRZUxN8aQDgzsDol1hP
+          stance: supports
+          locator: CBDB:386278
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_7gMHRZUxN8aQDgzsDol1hP
+            source_type: api_record
+            title: 中国历代人物传记资料库：黃氏(黃伯信女)（CBDB 386278）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=386278&o=json
+            external_identifier: CBDB:386278
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:386278
           quotation: null
           interpretation_note: CBDB 明确记录的王囦金配偶
-          source: &a1
-            id: s_7gMHRZUxN8aQDgzsDol1hP
-            source_type: api_record
-            title: 中国历代人物传记资料库：黃氏(黃伯信女)（CBDB 386278）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=386278&o=json
-            external_identifier: CBDB:386278
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 黃氏，宋人物。籍贯義烏。（中国历代人物传记资料库 CBDB 386278） | accepted |
 | name.primary | 黃氏 | accepted |
 
 ## 关联关系

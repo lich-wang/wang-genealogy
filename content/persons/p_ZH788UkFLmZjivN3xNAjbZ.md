@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王業，明人物。嘉靖四十四年進士，籍贯登州府。（中国历代人物传记资料库 CBDB 329628）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_w8Q468dq9izieuu7oRMHAD
+        - id: cs_JBkMGm8a7J6-XmzZdu2bTf
           claim_id: c_bYPH3PXTGTgDuHC1UQSnaP
           source_id: s_8gBvxAmtsYQKc2T3Qi34Ew
           stance: supports
-          locator: null
+          locator: CBDB:329628
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王業 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王業，明人物。嘉靖四十四年進士，籍贯登州府。（中国历代人物传记资料库 CBDB 329628） | accepted |
 
 ## 关联关系
 

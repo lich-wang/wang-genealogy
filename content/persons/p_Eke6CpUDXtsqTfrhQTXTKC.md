@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为中華民國人物
-          language: zh-Hans
+          text: "王祖同（1862年—1919年），中華民國人物。籍贯鹿邑，入仕貢生: 恩貢，曾任道監察御史、知府。（中国历代人物传记资料库 CBDB 61551）"
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Emmjn8i7CenHXCNDE7catB
+        - id: cs_N-uaunf4g1jLmw4oujrgV-
           claim_id: c_kxu8KEQW9NDsXu2ELGkquD
           source_id: s_qCfWeYxzCCeikfXxgknu4L
           stance: supports
-          locator: null
+          locator: CBDB:61551
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王祖同 | accepted |
 | birth.date | 1862年 | accepted |
 | death.date | 1919年 | accepted |
-| bio.summary | CBDB 记载为中華民國人物 | accepted |
+| bio.summary | 王祖同（1862年—1919年），中華民國人物。籍贯鹿邑，入仕貢生: 恩貢，曾任道監察御史、知府。（中国历代人物传记资料库 CBDB 61551） | accepted |
 
 ## 关联关系
 

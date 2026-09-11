@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王仙客（卒于766年），唐人物。籍贯琅琊，曾任州司馬。（中国历代人物传记资料库 CBDB 169938）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_shqydk8C7FBXBJpHeZmXwM
+        - id: cs_Uyy_R3OvEH6I-6m060eev0
           claim_id: c_oMyGniYQ9KtdhrbK7vUHV4
           source_id: s_ezDAMAFvGrXo7Y5BjU7fPL
           stance: supports
-          locator: null
+          locator: CBDB:169938
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -146,7 +146,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王仙客 | accepted |
 | death.date | 766年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王仙客（卒于766年），唐人物。籍贯琅琊，曾任州司馬。（中国历代人物传记资料库 CBDB 169938） | accepted |
 
 ## 关联关系
 

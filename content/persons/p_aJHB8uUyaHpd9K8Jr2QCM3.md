@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王奭，宋人物。籍贯安福，身份为儒學。（中国历代人物传记资料库 CBDB 12166）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_K8ZB8m97n3m9ByYm1wLi9a
+        - id: cs_TqvCKFoozlNVweOqqBlvol
           claim_id: c_Ty31MRohNZKCjwsPNBrjJP
           source_id: s_3xeBR5zYA7qiEg9pxzJpLP
           stance: supports
-          locator: null
+          locator: CBDB:12166
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王奭 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王奭，宋人物。籍贯安福，身份为儒學。（中国历代人物传记资料库 CBDB 12166） | accepted |
 
 ## 关联关系
 

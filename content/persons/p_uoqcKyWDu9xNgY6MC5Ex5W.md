@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王鵾，明人物。入仕監生，曾任主簿。（中国历代人物传记资料库 CBDB 501629）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_9JrH7R2jYHjnSYvKKLTJBx
+        - id: cs_2C75a_7c-x7k1eVHqVhBWT
           claim_id: c_6g8xBgXQ56UtJF5yX5zfsq
           source_id: s_M1cGdXdAHLEY5yLh1f4u63
           stance: supports
-          locator: null
+          locator: CBDB:501629
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王鵾 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王鵾，明人物。入仕監生，曾任主簿。（中国历代人物传记资料库 CBDB 501629） | accepted |
 
 ## 关联关系
 

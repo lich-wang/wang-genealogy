@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王保昌，清人物。籍贯涇州直隸州，入仕廩貢生，曾任訓導。（中国历代人物传记资料库 CBDB 636051）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_JGCJTPYDqiBhPS6daK23wV
+        - id: cs_oUczJHFkCZ_iW5mpJz6TsX
           claim_id: c_WYQa2WX184zQd3mo6MBt64
           source_id: s_9hUt6JUeDGcgcAE1sKGYfd
           stance: supports
-          locator: null
+          locator: CBDB:636051
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王保昌 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王保昌，清人物。籍贯涇州直隸州，入仕廩貢生，曾任訓導。（中国历代人物传记资料库 CBDB 636051） | accepted |
 
 ## 关联关系
 

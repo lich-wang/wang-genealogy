@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
-          language: zh-Hans
+          text: 王翰，唐人物。籍贯晉陽，身份为工於文，入仕進士，曾任駕部員外郎、郡別駕、秘書省正字。（中国历代人物传记资料库 CBDB 92120）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_JSsmHsDFdMX11BLcgpybMD
+        - id: cs_hcIwEbatoAM19Co9CKz0KC
           claim_id: c_fMvPnpJXx2Ybf7kZ7H1ovG
           source_id: s_2FgA45J8fdBEFr2S9ppaw5
           stance: supports
-          locator: null
+          locator: CBDB:92120
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王翰 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王翰，唐人物。籍贯晉陽，身份为工於文，入仕進士，曾任駕部員外郎、郡別駕、秘書省正字。（中国历代人物传记资料库 CBDB 92120） | accepted |
 
 ## 关联关系
 

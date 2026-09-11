@@ -7,6 +7,45 @@ display_name: 虢国公主
 cbdb_id: 194203
 revision: 2
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_Qi9TfGihaaEAvq0x3_cyX5
+        subject_person_id: p_Y45CpRh1nGsdRTnKPEXa99
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 虢国公主，史料所见人物。本项目依据《虢国公主》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ViC_b144IG_lm5Ji1QKMAl
+          claim_id: c_Qi9TfGihaaEAvq0x3_cyX5
+          source_id: s_XM771w9hkBBydpp7tX32VV
+          stance: supports
+          locator: Q16603617
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          source: &a1
+            id: s_XM771w9hkBBydpp7tX32VV
+            source_type: api_record
+            title: 维基数据：虢国公主（Q16603617）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q16603617
+            external_identifier: Q16603617
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E8%99%A2%E5%9B%BD%E5%85%AC%E4%B8%BB
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,19 +70,7 @@ properties:
           locator: Q16603617
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source: &a1
-            id: s_XM771w9hkBBydpp7tX32VV
-            source_type: api_record
-            title: 维基数据：虢国公主（Q16603617）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q16603617
-            external_identifier: Q16603617
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T08:06:50.055Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E8%99%A2%E5%9B%BD%E5%85%AC%E4%B8%BB
+          source: *a1
         - id: cs_s8id1QyQgwubbH5LBYaVpY
           claim_id: c_1EJovGGP3vBTizkdHYaHTJ
           source_id: s_G3Xpdr7JMUhmvkGsTqmqrF
@@ -175,6 +202,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 虢国公主，史料所见人物。本项目依据《虢国公主》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
 | name.primary | 虢国公主 | accepted |
 
 ## 关联关系

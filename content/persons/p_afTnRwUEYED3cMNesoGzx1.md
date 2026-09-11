@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王顓齡，清人物。籍贯廣寧，曾任訓導。（中国历代人物传记资料库 CBDB 640869）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Ajo9e8nWLhSGyDrKohuQ39
+        - id: cs_h2O2x5Ggspj1BL4-Nanshp
           claim_id: c_3iKcEeN6S8sHzYHEKUwReq
           source_id: s_pDz5tfX5KGvLCwJzcaTHWg
           stance: supports
-          locator: null
+          locator: CBDB:640869
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王顓齡 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王顓齡，清人物。籍贯廣寧，曾任訓導。（中国历代人物传记资料库 CBDB 640869） | accepted |
 
 ## 关联关系
 

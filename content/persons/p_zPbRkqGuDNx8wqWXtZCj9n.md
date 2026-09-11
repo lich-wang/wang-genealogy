@@ -7,6 +7,44 @@ display_name: 华氏
 cbdb_id: 37823
 revision: 2
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_iuZ1W5lwO4XZj2yBVU6WHC
+        subject_person_id: p_zPbRkqGuDNx8wqWXtZCj9n
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 华氏，史料所见人物。本项目依据《华氏》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_shMqJV25_Ce-Q4rONuH9W3
+          claim_id: c_iuZ1W5lwO4XZj2yBVU6WHC
+          source_id: s_9PGPgGT51GGgN7dAyjwbno
+          stance: supports
+          locator: Q45434003
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          source: &a1
+            id: s_9PGPgGT51GGgN7dAyjwbno
+            source_type: api_record
+            title: 维基数据：华氏（Q45434003）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45434003
+            external_identifier: Q45434003
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: Q45434003
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source: &a1
-            id: s_9PGPgGT51GGgN7dAyjwbno
-            source_type: api_record
-            title: 维基数据：华氏（Q45434003）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q45434003
-            external_identifier: Q45434003
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T08:06:50.055Z
-            metadata_json: null
+          source: *a1
         - id: cs_KkBu3XBst4tDnY7pcU5Uy6
           claim_id: c_2sP45CXaUeqxH8fB3Jkdps
           source_id: s_EiurBYpV7mVedJPeqs25AR
@@ -173,6 +200,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 华氏，史料所见人物。本项目依据《华氏》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
 | name.primary | 华氏 | accepted |
 
 ## 关联关系

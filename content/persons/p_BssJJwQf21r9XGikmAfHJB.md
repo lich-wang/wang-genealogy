@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王柱，明人物。籍贯歙縣，曾任參將、守備、衛都指揮使。（中国历代人物传记资料库 CBDB 577109）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_VZ3esAaWqCGurH1ehZzfvr
+        - id: cs_ahJPj-q74mMzrjIfybpL8f
           claim_id: c_tsXkhbeSrvR2CxA3SHgQdC
           source_id: s_5eA4vKf3RQ9132sn7GZb59
           stance: supports
-          locator: null
+          locator: CBDB:577109
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王柱 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王柱，明人物。籍贯歙縣，曾任參將、守備、衛都指揮使。（中国历代人物传记资料库 CBDB 577109） | accepted |
 
 ## 关联关系
 

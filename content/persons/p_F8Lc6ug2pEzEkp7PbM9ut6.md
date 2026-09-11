@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王煐，清人物。籍贯上虞，身份为為善鄉里。（中国历代人物传记资料库 CBDB 703447）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_a49Pm6o6fz7HadMdHVtBiT
+        - id: cs_NI8yvXBIMRI6UW373kDImr
           claim_id: c_AxA8GAoWj5iyCbQ8vbKW6r
           source_id: s_PSQMdHqdWWUaMx64nL2pie
           stance: supports
-          locator: null
+          locator: CBDB:703447
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王煐 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王煐，清人物。籍贯上虞，身份为為善鄉里。（中国历代人物传记资料库 CBDB 703447） | accepted |
 
 ## 关联关系
 

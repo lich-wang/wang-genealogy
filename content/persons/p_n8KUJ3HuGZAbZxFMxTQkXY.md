@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王柦濟，清人物。籍贯錢塘，入仕監生，曾任知縣。（中国历代人物传记资料库 CBDB 638700）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_LA7ntaNHDPi4C892JrKRc9
+        - id: cs_ITPI_65m9XEqxxKwVI4jlU
           claim_id: c_NBbNgAMHggP4AeAiJFF4hn
           source_id: s_9YK93nWKtJ8y1Rn56ERh2Y
           stance: supports
-          locator: null
+          locator: CBDB:638700
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王柦濟 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王柦濟，清人物。籍贯錢塘，入仕監生，曾任知縣。（中国历代人物传记资料库 CBDB 638700） | accepted |
 
 ## 关联关系
 

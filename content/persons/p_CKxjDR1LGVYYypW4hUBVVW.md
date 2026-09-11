@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王怡，明人物。嘉靖四十一年進士。（中国历代人物传记资料库 CBDB 329111）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_F8GNm1WbnvFAKfQKaTN3vN
+        - id: cs_4gAG69D3R4zMQT6QNXDIzv
           claim_id: c_2ME849maStquWcm1GcN998
           source_id: s_v3tkFsuExWAtXMxpaPnk7m
           stance: supports
-          locator: null
+          locator: CBDB:329111
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王怡 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王怡，明人物。嘉靖四十一年進士。（中国历代人物传记资料库 CBDB 329111） | accepted |
 
 ## 关联关系
 

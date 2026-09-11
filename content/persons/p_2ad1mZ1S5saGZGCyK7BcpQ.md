@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王化宣（生于1863年），清人物。籍贯外國。（中国历代人物传记资料库 CBDB 576654）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_FTKUKE5c3Afboy5U2Ut3ro
+        - id: cs_WrsuGA7JSTFuTS9PgD30xL
           claim_id: c_kP59efo3i8jn8tFCwARMbt
           source_id: s_f4sNZbR43MPumhM8NdanrA
           stance: supports
-          locator: null
+          locator: CBDB:576654
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王化宣 | accepted |
 | birth.date | 1863年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王化宣（生于1863年），清人物。籍贯外國。（中国历代人物传记资料库 CBDB 576654） | accepted |
 
 ## 关联关系
 

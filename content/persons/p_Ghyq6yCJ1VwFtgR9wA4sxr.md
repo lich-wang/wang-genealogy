@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王洛，明人物。成化十一年進士，籍贯武進。（中国历代人物传记资料库 CBDB 247656）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_ARPAVbmw33n4WwS99pAUe6
+        - id: cs_mlD2wxXoPNqpT14UetU0YH
           claim_id: c_xuHw5eCZr4bfevKSkCLtHS
           source_id: s_o65wjJJfyzVUTx8Bo3Bq9J
           stance: supports
-          locator: null
+          locator: CBDB:247656
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王洛 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王洛，明人物。成化十一年進士，籍贯武進。（中国历代人物传记资料库 CBDB 247656） | accepted |
 
 ## 关联关系
 

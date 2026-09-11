@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王伯當，明人物。籍贯北直隸，曾任縣丞。（中国历代人物传记资料库 CBDB 551239）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_s1ZN3JzQ6W2Es8QosDJ2Hi
+        - id: cs_3dHvD-pfpWwOaSK7UDYxkB
           claim_id: c_x9m98iQ6kfHp4yBB9EZEvR
           source_id: s_2sLSXGECirL2MGUPsJDNko
           stance: supports
-          locator: null
+          locator: CBDB:551239
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王伯當 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王伯當，明人物。籍贯北直隸，曾任縣丞。（中国历代人物传记资料库 CBDB 551239） | accepted |
 
 ## 关联关系
 

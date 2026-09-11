@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王樂春，明人物。籍贯霸州，入仕科舉，曾任吏部主事。（中国历代人物传记资料库 CBDB 683935）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_xMJ1Tnn5nhz8Hip4mR9Kkr
+        - id: cs_srhtyjtq5RgYmBLi0oiKlC
           claim_id: c_GDg89P149puYECf4mmUrcJ
           source_id: s_bNAp2nrXAkXFSbj1REhRuZ
           stance: supports
-          locator: null
+          locator: CBDB:683935
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王樂春 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王樂春，明人物。籍贯霸州，入仕科舉，曾任吏部主事。（中国历代人物传记资料库 CBDB 683935） | accepted |
 
 ## 关联关系
 

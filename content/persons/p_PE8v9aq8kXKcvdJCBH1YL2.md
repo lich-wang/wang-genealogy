@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王士良，明人物。曾任知府。（中国历代人物传记资料库 CBDB 461533）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_sQNCrzc7CLEDmbaTD5D3wq
+        - id: cs_KW-2cWllarS2YsAfZvt4ak
           claim_id: c_4UDvjZHZ2tg9B3BYDqDeM5
           source_id: s_zEySf9jdQL8NRTWPCJ8nzq
           stance: supports
-          locator: null
+          locator: CBDB:461533
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王士良 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王士良，明人物。曾任知府。（中国历代人物传记资料库 CBDB 461533） | accepted |
 
 ## 关联关系
 

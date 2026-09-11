@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王聘，明人物。籍贯利津，身份为水利專家，曾任給事中、知縣、州判官。（中国历代人物传记资料库 CBDB 126754）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Ynnh4Y5ovaojH7qBii8EpY
+        - id: cs_k2_3EpQBFfrpfXizC7MNGG
           claim_id: c_KAxG4u3PNoxh2iyNNJDusa
           source_id: s_832QrVej5vgP9deoAveW1c
           stance: supports
-          locator: null
+          locator: CBDB:126754
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王聘 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王聘，明人物。籍贯利津，身份为水利專家，曾任給事中、知縣、州判官。（中国历代人物传记资料库 CBDB 126754） | accepted |
 
 ## 关联关系
 

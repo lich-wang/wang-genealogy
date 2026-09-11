@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王瓚，明人物。正統十三年進士，籍贯合州。（中国历代人物传记资料库 CBDB 241035）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_p5fb5NaS6yDFvg3h29nv8a
+        - id: cs_GTt1CR6JoBbPj8DyMI1CHc
           claim_id: c_pQzFvk1wuN26ePB7NdC4mz
           source_id: s_BHK12WH9T4TAmUMfSfWNvY
           stance: supports
-          locator: null
+          locator: CBDB:241035
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王瓚 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王瓚，明人物。正統十三年進士，籍贯合州。（中国历代人物传记资料库 CBDB 241035） | accepted |
 
 ## 关联关系
 

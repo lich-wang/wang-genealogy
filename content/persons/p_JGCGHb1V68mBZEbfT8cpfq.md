@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王敬先，明人物。永樂十年進士，籍贯泰和，曾任儒學訓導。（中国历代人物传记资料库 CBDB 286921）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_KpRG9Ed3jPidEnZzerVcQB
+        - id: cs_r6uA2zR7E1U6qYkO45AoFz
           claim_id: c_hN77NfNMuT1XSZQ3MHDqZz
           source_id: s_m3D4s4mwM8sbxWDiFXR3RS
           stance: supports
-          locator: null
+          locator: CBDB:286921
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王敬先 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王敬先，明人物。永樂十年進士，籍贯泰和，曾任儒學訓導。（中国历代人物传记资料库 CBDB 286921） | accepted |
 
 ## 关联关系
 

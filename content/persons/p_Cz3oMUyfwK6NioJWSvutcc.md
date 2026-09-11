@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王翠翹，明人物。籍贯南京。（中国历代人物传记资料库 CBDB 566448）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_5gRMQc6K9hUQj21p2La9tb
+        - id: cs_hoW4JmQ-3Y5LvOGh-4K1oL
           claim_id: c_ww2YrjmQ75qFdHepGsy6ZH
           source_id: s_PR1Dz3tsarXmaAKuP4pHhG
           stance: supports
-          locator: null
+          locator: CBDB:566448
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王翠翹 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王翠翹，明人物。籍贯南京。（中国历代人物传记资料库 CBDB 566448） | accepted |
 
 ## 关联关系
 

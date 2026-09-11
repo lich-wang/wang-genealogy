@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
+          text: 王翊，元人物。曾任諸路總管府推官。（中国历代人物传记资料库 CBDB 100807）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_ZGkh79GBDiz9NtMDTED5Fx
+        - id: cs_lmHtCXejUhMxFe-Hj-0kbj
           claim_id: c_i2DRRDXDMnCg29JzXU68Xs
           source_id: s_Dq1AJ17W9Qksp4n6UoMAms
           stance: supports
-          locator: null
+          locator: CBDB:100807
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王翊 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王翊，元人物。曾任諸路總管府推官。（中国历代人物传记资料库 CBDB 100807） | accepted |
 
 ## 关联关系
 

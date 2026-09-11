@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: "王節（1599年—1660年），清人物。籍贯吳縣，入仕學校: 生員(庠生)。（中国历代人物传记资料库 CBDB 71049）"
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_pD49GJ2CKBSgdY2t8YLJ3C
+        - id: cs_6_E0Tt48OsthOLbLR1sHy_
           claim_id: c_mBFjCgA8qA3TdjggQmT8hb
           source_id: s_KFmeLuJCW4hCx54YgLAJHz
           stance: supports
-          locator: null
+          locator: CBDB:71049
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王節 | accepted |
 | birth.date | 1599年 | accepted |
 | death.date | 1660年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王節（1599年—1660年），清人物。籍贯吳縣，入仕學校: 生員(庠生)。（中国历代人物传记资料库 CBDB 71049） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王微，宋人物。籍贯丹陽。（中国历代人物传记资料库 CBDB 3991）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_y14R2LtJXd8AmpYeaAKGS8
+        - id: cs_Oe_8l_ZoPxLvPIL0ddiHo3
           claim_id: c_JEZ4QBi2mD3pQ7ami8Uq9P
           source_id: s_J64dNdryUPBTNCBRNFFyEA
           stance: supports
-          locator: null
+          locator: CBDB:3991
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王微 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王微，宋人物。籍贯丹陽。（中国历代人物传记资料库 CBDB 3991） | accepted |
 
 ## 关联关系
 

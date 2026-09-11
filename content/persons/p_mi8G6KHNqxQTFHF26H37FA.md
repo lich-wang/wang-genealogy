@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王琪，宋人物。籍贯東明，身份为校堪學家，入仕進士，曾任殿中省丞、起居郎、三丞。（中国历代人物传记资料库 CBDB 1765）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_itczP7SaL2EQUWbLU7iRsb
+        - id: cs_Je-AFt4ecPoYnhCjCcnYev
           claim_id: c_va7RvbyMepA1ea2J2fgPmM
           source_id: s_JUaJ8FSawQq9MkHe4tNWcK
           stance: supports
-          locator: null
+          locator: CBDB:1765
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王琪 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王琪，宋人物。籍贯東明，身份为校堪學家，入仕進士，曾任殿中省丞、起居郎、三丞。（中国历代人物传记资料库 CBDB 1765） | accepted |
 
 ## 关联关系
 

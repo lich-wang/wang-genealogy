@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为中華民國人物
-          language: zh-Hans
+          text: 王錫晉（1867年—1927年），中華民國人物。籍贯無錫。（中国历代人物传记资料库 CBDB 72120）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_JqVkgFS2P6W78zzJHBszn4
+        - id: cs_aMcT6qrtYgvSGZ7Jn8aPWe
           claim_id: c_2TEJNRXo8CjdPV62nJB5jW
           source_id: s_yJemb5PHseMeacRTznYwhv
           stance: supports
-          locator: null
+          locator: CBDB:72120
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王錫晉 | accepted |
 | birth.date | 1867年 | accepted |
 | death.date | 1927年 | accepted |
-| bio.summary | CBDB 记载为中華民國人物 | accepted |
+| bio.summary | 王錫晉（1867年—1927年），中華民國人物。籍贯無錫。（中国历代人物传记资料库 CBDB 72120） | accepted |
 
 ## 关联关系
 

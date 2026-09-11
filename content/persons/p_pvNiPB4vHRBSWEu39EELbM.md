@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王貢，宋人物。籍贯永春，入仕特奏名進士、特奏名諸科 、大挑。（中国历代人物传记资料库 CBDB 688109）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_P3bZnsrEFmykb1TsXwoLGM
+        - id: cs_A1WLDGV5LSZTZ-F33hdQLL
           claim_id: c_1mAD2ApmTqbdpaVytGYE9D
           source_id: s_FykVMJYgjPd1o5chhWBeqT
           stance: supports
-          locator: null
+          locator: CBDB:688109
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王貢 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王貢，宋人物。籍贯永春，入仕特奏名進士、特奏名諸科 、大挑。（中国历代人物传记资料库 CBDB 688109） | accepted |
 
 ## 关联关系
 

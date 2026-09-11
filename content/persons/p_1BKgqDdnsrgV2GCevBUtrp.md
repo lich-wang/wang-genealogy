@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
+          text: 王藻，元人物。籍贯金華，曾任判官、州判官。（中国历代人物传记资料库 CBDB 386679）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Qv69RgHuxCkwzoVAQb94NC
+        - id: cs_gn2kG4nkqsq3DEVPvksHEr
           claim_id: c_MMou6gnkp1YNFZxd6pPNXy
           source_id: s_sVqDq5BWtgjnP8wyL4YBfr
           stance: supports
-          locator: null
+          locator: CBDB:386679
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王藻 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王藻，元人物。籍贯金華，曾任判官、州判官。（中国历代人物传记资料库 CBDB 386679） | accepted |
 
 ## 关联关系
 

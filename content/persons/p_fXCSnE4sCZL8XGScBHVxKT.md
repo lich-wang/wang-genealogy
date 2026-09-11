@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王東裏（生于1130年），宋人物。籍贯麗水，入仕制舉。（中国历代人物传记资料库 CBDB 97927）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_9HrWNmhv4oiKNh28D8SpJg
+        - id: cs_-a6Hys19LfFCSMU0c5oxZX
           claim_id: c_oGig92YbDgLEH96RyaB86p
           source_id: s_xpHjc9SLTB85r9T2gyP6VK
           stance: supports
-          locator: null
+          locator: CBDB:97927
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -146,7 +146,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王東裏 | accepted |
 | birth.date | 1130年 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王東裏（生于1130年），宋人物。籍贯麗水，入仕制舉。（中国历代人物传记资料库 CBDB 97927） | accepted |
 
 ## 关联关系
 

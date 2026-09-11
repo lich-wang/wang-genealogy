@@ -6,6 +6,45 @@ merged_into: null
 display_name: 周前
 revision: 1
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_uo5v2_Y9F1TASajfP5_OU-
+        subject_person_id: p_43nj9ZEJASEReiFxwkqziz
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 周前，中国核医学家。维基数据以独立条目 Q109348678 收录该人物。
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_32HGggReIfeQuaJlRmRzf3
+          claim_id: c_uo5v2_Y9F1TASajfP5_OU-
+          source_id: s_cf4ZP1otVdewFdKzTPVgcj
+          stance: supports
+          locator: Q109348678
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
+          source: &a1
+            id: s_cf4ZP1otVdewFdKzTPVgcj
+            source_type: api_record
+            title: 维基数据：周前（Q109348678）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q109348678
+            external_identifier: Q109348678
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E5%91%A8%E5%89%8D
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -30,19 +69,7 @@ properties:
           locator: Q109348678
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source: &a1
-            id: s_cf4ZP1otVdewFdKzTPVgcj
-            source_type: api_record
-            title: 维基数据：周前（Q109348678）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q109348678
-            external_identifier: Q109348678
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T08:06:50.055Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E5%91%A8%E5%89%8D
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -109,6 +136,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 周前，中国核医学家。维基数据以独立条目 Q109348678 收录该人物。 | accepted |
 | name.primary | 周前 | accepted |
 
 ## 关联关系

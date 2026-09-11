@@ -7,6 +7,44 @@ display_name: 崔氏
 cbdb_id: 288337
 revision: 1
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_L6tmMAzgte80yklm1TA_-4
+        subject_person_id: p_NoAq9miu6kdHMYDNaGmzDr
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 崔氏，明人物。嘉靖八年進士。（中国历代人物传记资料库 CBDB 288337）
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BQnJ9kk8waRZL2LiopJvma
+          claim_id: c_L6tmMAzgte80yklm1TA_-4
+          source_id: s_itBa6ognvF5kRu9CHLmVog
+          stance: supports
+          locator: CBDB:288337
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_itBa6ognvF5kRu9CHLmVog
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：崔氏（288337）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288337&o=json
+            external_identifier: CBDB:288337
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,7 +69,7 @@ properties:
           locator: Q65812398
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source: &a1
+          source: &a2
             id: s_Exy2Giuho6h2p3V5NW5Bgi
             source_type: api_record
             title: 维基数据：崔氏（Q65812398）
@@ -50,18 +88,7 @@ properties:
           locator: CBDB:288337
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source:
-            id: s_itBa6ognvF5kRu9CHLmVog
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：崔氏（288337）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288337&o=json
-            external_identifier: CBDB:288337
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T08:06:50.055Z
-            metadata_json: null
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -110,7 +137,7 @@ relationships:
           locator: P26（配偶）
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: *a2
         - id: cs_co2Xo3u5Cz5Q4kBqdG4qeA
           claim_id: c_Lr6V1C1pwEawbgMgP4yGWa
           source_id: s_ts58X1Zaop75mBb14WiveM
@@ -148,6 +175,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 崔氏，明人物。嘉靖八年進士。（中国历代人物传记资料库 CBDB 288337） | accepted |
 | name.primary | 崔氏 | accepted |
 
 ## 关联关系

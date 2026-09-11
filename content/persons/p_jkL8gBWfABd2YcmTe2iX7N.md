@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王陽，宋人物。身份为結社、入元祐黨籍者。（中国历代人物传记资料库 CBDB 25002）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_7PZSKJg7JF4xAcAtWdp81n
+        - id: cs_Tv2UzaSqwBV9ww9_G_6_vO
           claim_id: c_5ZFmLQjbQRtYVhpS1Q6VBQ
           source_id: s_ufa6FGyErHC974Ct6nSQVh
           stance: supports
-          locator: null
+          locator: CBDB:25002
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王陽 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王陽，宋人物。身份为結社、入元祐黨籍者。（中国历代人物传记资料库 CBDB 25002） | accepted |
 
 ## 关联关系
 

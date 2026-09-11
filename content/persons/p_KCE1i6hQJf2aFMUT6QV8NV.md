@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王光國，宋人物。籍贯常山。（中国历代人物传记资料库 CBDB 26619）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_kwcPdFFi1JCEMjTrp5A98r
+        - id: cs_D4U0InPe7bDew1SNuP9nYv
           claim_id: c_o49Gt96V72Ba1avMQ7Am7G
           source_id: s_CwZdAvK91w2mzQTvQHeYdR
           stance: supports
-          locator: null
+          locator: CBDB:26619
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王光國 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王光國，宋人物。籍贯常山。（中国历代人物传记资料库 CBDB 26619） | accepted |
 
 ## 关联关系
 

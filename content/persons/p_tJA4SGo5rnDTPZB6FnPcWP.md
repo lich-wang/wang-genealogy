@@ -7,6 +7,44 @@ display_name: 周氏
 cbdb_id: 37792
 revision: 2
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_Y_fzSYpmUoQdbc58iZGk1Z
+        subject_person_id: p_tJA4SGo5rnDTPZB6FnPcWP
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 周氏，史料所见人物。本项目依据《周氏》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_CTBF9sT9FipnFb0O1MPF-T
+          claim_id: c_Y_fzSYpmUoQdbc58iZGk1Z
+          source_id: s_wEkVgfUrxKckakiL9hkMpN
+          stance: supports
+          locator: Q45432073
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          source: &a1
+            id: s_wEkVgfUrxKckakiL9hkMpN
+            source_type: api_record
+            title: 维基数据：周氏（Q45432073）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45432073
+            external_identifier: Q45432073
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: Q45432073
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source: &a2
-            id: s_wEkVgfUrxKckakiL9hkMpN
-            source_type: api_record
-            title: 维基数据：周氏（Q45432073）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q45432073
-            external_identifier: Q45432073
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T08:06:50.055Z
-            metadata_json: null
+          source: *a1
         - id: cs_DhCeei9bVCYFBdJFpvg7Gb
           claim_id: c_eruFM9CvtRbVmptXpNvC8D
           source_id: s_ZbRR2qinMrmQKSJZ5nhy4i
@@ -50,7 +77,7 @@ properties:
           locator: CBDB:37792
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source: &a1
+          source: &a2
             id: s_ZbRR2qinMrmQKSJZ5nhy4i
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：周氏（37792）
@@ -87,7 +114,7 @@ relationships:
           locator: 宋人傳記資料索引(電子版)：子
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
+          source: *a2
       object_person:
         id: p_zAMNQJueCwPPKR5vjoLaAD
         status: active
@@ -116,7 +143,7 @@ relationships:
           locator: P26（配偶）
           quotation: null
           interpretation_note: null
-          source: *a2
+          source: *a1
         - id: cs_pUtycMAjmgxmoXHez6KEMc
           claim_id: c_tGyE6Vpg4Y6NDkC3L7GpQZ
           source_id: s_7fjU4ew89CPXuYB51QW2G2
@@ -182,7 +209,7 @@ relationships:
           locator: 宋人傳記資料索引(電子版)：孫
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
+          source: *a2
       object_person:
         id: p_A4y88KqDgYC7CBnr5hYZf3
         status: active
@@ -208,7 +235,7 @@ relationships:
           locator: 宋人傳記資料索引(電子版)：孫
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
+          source: *a2
       object_person:
         id: p_Bxf4gH2xyWjLA2FCR3BhN7
         status: active
@@ -234,7 +261,7 @@ relationships:
           locator: 宋人傳記資料索引(電子版)：曾孫; 重孫
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
+          source: *a2
       object_person:
         id: p_ib1JCPDpb1b5Zbw7uh5HuV
         status: active
@@ -260,7 +287,7 @@ relationships:
           locator: 宋人傳記資料索引(電子版)：曾孫; 重孫
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
+          source: *a2
       object_person:
         id: p_3Jpz1MJr19NoGHADTpC82d
         status: active
@@ -286,7 +313,7 @@ relationships:
           locator: 宋人傳記資料索引(電子版)：曾孫; 重孫
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
+          source: *a2
       object_person:
         id: p_TXR4BZHWFYBdp9oHRn9hCf
         status: active
@@ -312,7 +339,7 @@ relationships:
           locator: 宋人傳記資料索引(電子版)：曾孫; 重孫
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
+          source: *a2
       object_person:
         id: p_kdXLrKQ2gAzwQuRiYauex1
         status: active
@@ -338,7 +365,7 @@ relationships:
           locator: 宋人傳記資料索引(電子版)：玄孫;四世孫
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
+          source: *a2
       object_person:
         id: p_Q29adPUD8QELC98tWHj9Az
         status: active
@@ -355,6 +382,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 周氏，史料所见人物。本项目依据《周氏》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
 | name.primary | 周氏 | accepted |
 
 ## 关联关系

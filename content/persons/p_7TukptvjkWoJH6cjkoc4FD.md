@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王汾，宋人物。籍贯汝陰。（中国历代人物传记资料库 CBDB 119728）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_nsc6ajBKoFU9mh6HuyHjaU
+        - id: cs_8Oi7ZKnrjRZ2OG3ECZZX-J
           claim_id: c_ALhzgwfUeXk6uCHymfxfny
           source_id: s_ASHu7e63aVUb7NQ1NTuthZ
           stance: supports
-          locator: null
+          locator: CBDB:119728
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王汾 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王汾，宋人物。籍贯汝陰。（中国历代人物传记资料库 CBDB 119728） | accepted |
 
 ## 关联关系
 

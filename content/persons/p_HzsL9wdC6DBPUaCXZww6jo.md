@@ -7,6 +7,44 @@ display_name: 欒鳳
 revision: 1
 cbdb_id: 66328
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_C7CuQUNHXcL9CY9DbSnUh6
+        subject_person_id: p_HzsL9wdC6DBPUaCXZww6jo
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 欒鳳（卒於1363），元人物。籍贯高郵，曾任中書省管勾、知縣、知州。（中国历代人物传记资料库 CBDB 66328）
+          language: zh-Hant
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NAYoG_xCqZPu_suErkNUvw
+          claim_id: c_C7CuQUNHXcL9CY9DbSnUh6
+          source_id: s_M9M6o6YH8IiEZRsIz3DJZI
+          stance: supports
+          locator: CBDB:66328
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_M9M6o6YH8IiEZRsIz3DJZI
+            source_type: api_record
+            title: 中国历代人物传记资料库：欒鳳（CBDB 66328）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=66328&o=json
+            external_identifier: CBDB:66328
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:66328
           quotation: null
           interpretation_note: CBDB 明确记录的王素英配偶
-          source: &a1
-            id: s_M9M6o6YH8IiEZRsIz3DJZI
-            source_type: api_record
-            title: 中国历代人物传记资料库：欒鳳（CBDB 66328）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=66328&o=json
-            external_identifier: CBDB:66328
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 欒鳳（卒於1363），元人物。籍贯高郵，曾任中書省管勾、知縣、知州。（中国历代人物传记资料库 CBDB 66328） | accepted |
 | name.primary | 欒鳳 | accepted |
 
 ## 关联关系

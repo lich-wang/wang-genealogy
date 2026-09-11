@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王知新，宋人物。曾任刺史、武功郎、副都統制。（中国历代人物传记资料库 CBDB 37646）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_sG42qWeTewSaWKuLddRsbq
+        - id: cs_xOSdbUkHUI5pKfFlH10oFY
           claim_id: c_wwWHaw4RVSV26ih8dZ7uLJ
           source_id: s_AHBNpFoFhoXnZQV4fbaAFh
           stance: supports
-          locator: null
+          locator: CBDB:37646
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王知新 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王知新，宋人物。曾任刺史、武功郎、副都統制。（中国历代人物传记资料库 CBDB 37646） | accepted |
 
 ## 关联关系
 

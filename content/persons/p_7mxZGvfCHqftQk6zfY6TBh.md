@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王士奇，清人物。曾任千總。（中国历代人物传记资料库 CBDB 498346）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_1AhWa5B6dega2hgYxv4EnU
+        - id: cs_REccw7Nyakl4_HzhXXDLjA
           claim_id: c_CTFs33YBiLh3v3VCx7ygKo
           source_id: s_i8wM593S31CrGCKn3J4eRW
           stance: supports
-          locator: null
+          locator: CBDB:498346
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王士奇 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王士奇，清人物。曾任千總。（中国历代人物传记资料库 CBDB 498346） | accepted |
 
 ## 关联关系
 

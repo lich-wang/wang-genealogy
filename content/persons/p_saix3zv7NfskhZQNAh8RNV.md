@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
-          language: zh-Hans
+          text: 王瑋（1274年—1337年），元人物。籍贯蒲城，入仕徵辟，曾任行中書省掾、宣政院經歷、奎章閣鑒書博士。（中国历代人物传记资料库 CBDB 100869）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_x5guUSy7q5PofTU3CdjbZT
+        - id: cs_vclM28LhcEy0B2kbceQPf7
           claim_id: c_BUy4MxGEgP177LVBNRwqB5
           source_id: s_simi6dP1FLMrf1jfohH6jL
           stance: supports
-          locator: null
+          locator: CBDB:100869
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王瑋 | accepted |
 | birth.date | 1274年 | accepted |
 | death.date | 1337年 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王瑋（1274年—1337年），元人物。籍贯蒲城，入仕徵辟，曾任行中書省掾、宣政院經歷、奎章閣鑒書博士。（中国历代人物传记资料库 CBDB 100869） | accepted |
 
 ## 关联关系
 

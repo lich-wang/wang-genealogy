@@ -7,6 +7,44 @@ display_name: 尹氏
 revision: 1
 cbdb_id: 238215
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_L7uvsagXJLV-bWYC_59f46
+        subject_person_id: p_8J1kX9Aq2YxcruZovoQP7G
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 尹氏，明人物。正统七年進士。（中国历代人物传记资料库 CBDB 238215）
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xkbVLaKcSWhEFjPVyDohdx
+          claim_id: c_L7uvsagXJLV-bWYC_59f46
+          source_id: s_JZR84oUvU8univAiB0NW5e
+          stance: supports
+          locator: CBDB:238215
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_JZR84oUvU8univAiB0NW5e
+            source_type: api_record
+            title: 中国历代人物传记资料库：尹氏(王理妻)（CBDB 238215）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=238215&o=json
+            external_identifier: CBDB:238215
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:238215
           quotation: null
           interpretation_note: CBDB 明确记录的王理配偶
-          source: &a1
-            id: s_JZR84oUvU8univAiB0NW5e
-            source_type: api_record
-            title: 中国历代人物传记资料库：尹氏(王理妻)（CBDB 238215）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=238215&o=json
-            external_identifier: CBDB:238215
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 尹氏，明人物。正统七年進士。（中国历代人物传记资料库 CBDB 238215） | accepted |
 | name.primary | 尹氏 | accepted |
 
 ## 关联关系

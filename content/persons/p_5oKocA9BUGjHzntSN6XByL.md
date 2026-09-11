@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王汝璧（1746年—1806年），清人物。明清進士進士，籍贯銅梁，入仕進士，曾任管河道、吏部考功司員外郎、吏部文選司郎中。（中国历代人物传记资料库 CBDB 57129）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_C7WE1u37HhkkzDX33TJJCV
+        - id: cs_77mk0vIHOYEXaI4ZAOVn3z
           claim_id: c_MHENZWxQt7yQySCMPTEgcn
           source_id: s_53YgwLH5up2tZKoa3wuz1t
           stance: supports
-          locator: null
+          locator: CBDB:57129
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王汝璧 | accepted |
 | birth.date | 1746年 | accepted |
 | death.date | 1806年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王汝璧（1746年—1806年），清人物。明清進士進士，籍贯銅梁，入仕進士，曾任管河道、吏部考功司員外郎、吏部文選司郎中。（中国历代人物传记资料库 CBDB 57129） | accepted |
 
 ## 关联关系
 

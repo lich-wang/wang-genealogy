@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王晉玉，清人物。籍贯溧陽，入仕鄉貢舉人，曾任知縣。（中国历代人物传记资料库 CBDB 638458）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_HQYc431RTiSPDLEi6ju9Bd
+        - id: cs_xMK36jN9g06KNQu81fXOqt
           claim_id: c_Vx4EVPkYadC82aDjeBABbr
           source_id: s_LRLFbNkWaEpX7Y7FP3x2KF
           stance: supports
-          locator: null
+          locator: CBDB:638458
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王晉玉 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王晉玉，清人物。籍贯溧陽，入仕鄉貢舉人，曾任知縣。（中国历代人物传记资料库 CBDB 638458） | accepted |
 
 ## 关联关系
 

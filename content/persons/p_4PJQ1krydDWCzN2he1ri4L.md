@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
-          language: zh-Hans
+          text: 王厚（1300年—1376年），元人物。籍贯開封。（中国历代人物传记资料库 CBDB 690694）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_QSjCwDFcETmYfY1TMZS2zJ
+        - id: cs__9qzJ26njM39iQZ3KX0BcU
           claim_id: c_BaYGPqnjD2mSRan9t4sLWU
           source_id: s_w1GFcCBtYvtGxma1GpXfZw
           stance: supports
-          locator: null
+          locator: CBDB:690694
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王厚 | accepted |
 | birth.date | 1300年 | accepted |
 | death.date | 1376年 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王厚（1300年—1376年），元人物。籍贯開封。（中国历代人物传记资料库 CBDB 690694） | accepted |
 
 ## 关联关系
 

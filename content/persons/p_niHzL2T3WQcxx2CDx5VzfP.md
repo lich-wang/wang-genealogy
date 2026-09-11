@@ -7,6 +7,44 @@ display_name: 李氏
 revision: 1
 cbdb_id: 265224
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_aC6-pPB6qXAxPeBAuQSMt4
+        subject_person_id: p_niHzL2T3WQcxx2CDx5VzfP
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 李氏，明人物。弘治六年進士。（中国历代人物传记资料库 CBDB 265224）
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_yUvyvVVJBurTHC-BraQQtL
+          claim_id: c_aC6-pPB6qXAxPeBAuQSMt4
+          source_id: s_6Btsk_QAMfh4Z9Q8hd0sSA
+          stance: supports
+          locator: CBDB:265224
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_6Btsk_QAMfh4Z9Q8hd0sSA
+            source_type: api_record
+            title: 中国历代人物传记资料库：李氏(王時妻)（CBDB 265224）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265224&o=json
+            external_identifier: CBDB:265224
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:265224
           quotation: null
           interpretation_note: CBDB 明确记录的王時配偶
-          source: &a1
-            id: s_6Btsk_QAMfh4Z9Q8hd0sSA
-            source_type: api_record
-            title: 中国历代人物传记资料库：李氏(王時妻)（CBDB 265224）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265224&o=json
-            external_identifier: CBDB:265224
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 李氏，明人物。弘治六年進士。（中国历代人物传记资料库 CBDB 265224） | accepted |
 | name.primary | 李氏 | accepted |
 
 ## 关联关系

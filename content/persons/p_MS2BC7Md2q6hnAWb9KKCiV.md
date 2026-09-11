@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王旻，明人物。弘治九年進士。（中国历代人物传记资料库 CBDB 267254）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_7H83KCbizhddvRdMpPMmGA
+        - id: cs_oahbDXVbE24KDdks5Dc3vQ
           claim_id: c_j716tBbP2pC6J1DXXznHyq
           source_id: s_ZtaybJGVyCsBDwkZCDJku9
           stance: supports
-          locator: null
+          locator: CBDB:267254
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -128,7 +128,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王旻 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王旻，明人物。弘治九年進士。（中国历代人物传记资料库 CBDB 267254） | accepted |
 
 ## 关联关系
 

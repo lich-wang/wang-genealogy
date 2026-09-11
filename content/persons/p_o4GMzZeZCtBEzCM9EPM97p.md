@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
+          text: 王晉，元人物。曾任縣尹。（中国历代人物传记资料库 CBDB 465872）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_ncdkAo3BJ7AeSjat9uXy8o
+        - id: cs_r3-Ad7fRlREdIUC4mDHuN2
           claim_id: c_CzR8wvRbBnwAFyvtJrYFzc
           source_id: s_5u8J1uVBVZ1qfx6nm5SfJU
           stance: supports
-          locator: null
+          locator: CBDB:465872
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王晉 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王晉，元人物。曾任縣尹。（中国历代人物传记资料库 CBDB 465872） | accepted |
 
 ## 关联关系
 

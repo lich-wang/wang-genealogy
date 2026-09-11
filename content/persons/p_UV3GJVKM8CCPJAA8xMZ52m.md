@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王揮（1090年—1160年），宋人物。籍贯應天府，入仕進士，曾任通判。（中国历代人物传记资料库 CBDB 38431）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_m6Zfu95ms4VAR1vcnGRx9K
+        - id: cs_2Y20xjLy5AP6JiUE_EK7Zk
           claim_id: c_B4TAkgbR9UBdKopBKXfAwK
           source_id: s_Cu84jhKtHV7WKaQQpHkZpY
           stance: supports
-          locator: null
+          locator: CBDB:38431
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王揮 | accepted |
 | birth.date | 1090年 | accepted |
 | death.date | 1160年 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王揮（1090年—1160年），宋人物。籍贯應天府，入仕進士，曾任通判。（中国历代人物传记资料库 CBDB 38431） | accepted |
 
 ## 关联关系
 

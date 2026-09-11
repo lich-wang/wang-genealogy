@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王同京，明人物。萬曆丙戌科進士進士，籍贯晉江。（中国历代人物传记资料库 CBDB 228288）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_QCQ9gatALTQGBXFeYhtf6b
+        - id: cs_SJUNJyZ2piI5D80412Y8xD
           claim_id: c_vKjg1Wwoyb8gi5stX3LQ51
           source_id: s_YGdbtoreQ6A54rCHxF95Yp
           stance: supports
-          locator: null
+          locator: CBDB:228288
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王同京 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王同京，明人物。萬曆丙戌科進士進士，籍贯晉江。（中国历代人物传记资料库 CBDB 228288） | accepted |
 
 ## 关联关系
 

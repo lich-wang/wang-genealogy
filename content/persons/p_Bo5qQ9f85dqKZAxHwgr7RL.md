@@ -7,6 +7,44 @@ display_name: 竇氏
 revision: 1
 cbdb_id: 270651
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_Wd3b2VKs9pPYLxw01moBg6
+        subject_person_id: p_Bo5qQ9f85dqKZAxHwgr7RL
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 竇氏，明人物。弘治十五年進士。（中国历代人物传记资料库 CBDB 270651）
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_UFBbyoIgd5LPKSe6PZfs39
+          claim_id: c_Wd3b2VKs9pPYLxw01moBg6
+          source_id: s_GKv2XUvObbn3FHc3H5MSBp
+          stance: supports
+          locator: CBDB:270651
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_GKv2XUvObbn3FHc3H5MSBp
+            source_type: api_record
+            title: 中国历代人物传记资料库：竇氏(王雲妻)（CBDB 270651）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=270651&o=json
+            external_identifier: CBDB:270651
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:270651
           quotation: null
           interpretation_note: CBDB 明确记录的王雲配偶
-          source: &a1
-            id: s_GKv2XUvObbn3FHc3H5MSBp
-            source_type: api_record
-            title: 中国历代人物传记资料库：竇氏(王雲妻)（CBDB 270651）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=270651&o=json
-            external_identifier: CBDB:270651
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 竇氏，明人物。弘治十五年進士。（中国历代人物传记资料库 CBDB 270651） | accepted |
 | name.primary | 竇氏 | accepted |
 
 ## 关联关系

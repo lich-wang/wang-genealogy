@@ -51,7 +51,7 @@ properties:
           locator: CBDB:34191
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source:
+          source: &a2
             id: s_4HP7oL1E3uuVyegWK25BU7
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：王安國（34191）
@@ -76,11 +76,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: Qing dynasty politician (1694-1757; jin shi 1724)
-          language: en
+          text: "王安国（1694年—1757年），清人物。明清進士進士，籍贯高郵州，入仕貢生: 恩貢，曾任編修、侍講學士、鄉試考官。（中国历代人物传记资料库 CBDB 34191）"
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
         - id: cs_LFiGGu8XtQbeiBTbzLcBQs
           claim_id: c_BxA9k1ffg1iYuetB6afvYu
@@ -90,6 +90,14 @@ properties:
           quotation: null
           interpretation_note: 维基数据条目描述
           source: *a1
+        - id: cs_aUA7kLxamMiGwOLJKmi8_w
+          claim_id: c_BxA9k1ffg1iYuetB6afvYu
+          source_id: s_4HP7oL1E3uuVyegWK25BU7
+          stance: supports
+          locator: CBDB:34191
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: *a2
       object_person: null
     alternatives: []
   - predicate: birth.date
@@ -251,7 +259,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王安国 | accepted |
-| bio.summary | Qing dynasty politician (1694-1757; jin shi 1724) | accepted |
+| bio.summary | 王安国（1694年—1757年），清人物。明清進士進士，籍贯高郵州，入仕貢生: 恩貢，曾任編修、侍講學士、鄉試考官。（中国历代人物传记资料库 CBDB 34191） | accepted |
 | birth.date | 1694年 | accepted |
 | death.date | 1757年 | accepted |
 

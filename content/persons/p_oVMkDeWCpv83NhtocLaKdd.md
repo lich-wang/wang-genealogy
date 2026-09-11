@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王康，明人物。弘治九年進士，籍贯婺源。（中国历代人物传记资料库 CBDB 267654）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_9i2SBpe6jQ9PFErWT4CKd9
+        - id: cs_CUDwff-C5ag2bSo7fQJx5C
           claim_id: c_6f4Hu7xKtp1b93vMXdBsFu
           source_id: s_Kw4vVxuB8PX4mGLsVgJZ2G
           stance: supports
-          locator: null
+          locator: CBDB:267654
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王康 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王康，明人物。弘治九年進士，籍贯婺源。（中国历代人物传记资料库 CBDB 267654） | accepted |
 
 ## 关联关系
 

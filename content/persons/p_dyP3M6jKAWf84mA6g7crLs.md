@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王彥融（生于1108年），宋人物。籍贯金壇，入仕特賜補官、准赦文除授等，曾任右朝奉大夫、散騎常侍、通判。（中国历代人物传记资料库 CBDB 1927）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_xS8c8QcqHPwy4pGXwG2JGJ
+        - id: cs__64qwelOvT0nFY5dgiAmZZ
           claim_id: c_P3a6BwKtniD5WGvq45fWPv
           source_id: s_T2Wc2EYYQNBLKSamaLsReD
           stance: supports
-          locator: null
+          locator: CBDB:1927
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -172,7 +172,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王彥融 | accepted |
 | birth.date | 1108年 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王彥融（生于1108年），宋人物。籍贯金壇，入仕特賜補官、准赦文除授等，曾任右朝奉大夫、散騎常侍、通判。（中国历代人物传记资料库 CBDB 1927） | accepted |
 
 ## 关联关系
 

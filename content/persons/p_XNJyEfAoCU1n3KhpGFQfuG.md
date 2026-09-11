@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王世耀，清人物。明清進士進士，籍贯正定，入仕進士。（中国历代人物传记资料库 CBDB 343196）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Q1e1UVAz1Hro4ipnwyfBn4
+        - id: cs_Hg8-0ca_KClGsF2xvC2EkX
           claim_id: c_WkdLw9nHgWokcBiEaDzKm4
           source_id: s_7N8ApnhbnVogiSxs8Rue5m
           stance: supports
-          locator: null
+          locator: CBDB:343196
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王世耀 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王世耀，清人物。明清進士進士，籍贯正定，入仕進士。（中国历代人物传记资料库 CBDB 343196） | accepted |
 
 ## 关联关系
 

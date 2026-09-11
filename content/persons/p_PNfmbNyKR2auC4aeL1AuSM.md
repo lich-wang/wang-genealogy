@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为後蜀人物
-          language: zh-Hans
+          text: 王永，後蜀人物。籍贯懷寧，曾任秘書省校書郎、太師、右補闕。（中国历代人物传记资料库 CBDB 13516）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_KqV26UJGkktdH9TniP2d6s
+        - id: cs_2qmfGdtXLFHIzoXOlEC1hv
           claim_id: c_eeANAjN4HYMEarZqhaK1R7
           source_id: s_sHRCQq4nQnkKPMFBzoveAB
           stance: supports
-          locator: null
+          locator: CBDB:13516
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -191,7 +191,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王永 | accepted |
-| bio.summary | CBDB 记载为後蜀人物 | accepted |
+| bio.summary | 王永，後蜀人物。籍贯懷寧，曾任秘書省校書郎、太師、右補闕。（中国历代人物传记资料库 CBDB 13516） | accepted |
 
 ## 关联关系
 

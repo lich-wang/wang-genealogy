@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王國棟（生于1692年），清人物。籍贯興化，入仕副榜。（中国历代人物传记资料库 CBDB 71752）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_bb14EGNztpx7YCQbEf1Xmf
+        - id: cs_ms821noHaMEuzi3J6bz15I
           claim_id: c_jJSWZFBZXu1jE4U2QcBnxX
           source_id: s_io2i4dttWreEUA7djN3pJP
           stance: supports
-          locator: null
+          locator: CBDB:71752
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -157,7 +157,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王國棟 | accepted |
 | birth.date | 1692年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王國棟（生于1692年），清人物。籍贯興化，入仕副榜。（中国历代人物传记资料库 CBDB 71752） | accepted |
 
 ## 关联关系
 

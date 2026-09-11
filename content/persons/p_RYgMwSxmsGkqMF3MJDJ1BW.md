@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王益，明人物。正德六年進士，籍贯宣城。（中国历代人物传记资料库 CBDB 279343）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_XhYyt84ziaBwisK95AhrY6
+        - id: cs_I1ucrrYrhvvMKovzf6I6Ix
           claim_id: c_v33tJoPH8g3S3QQ1SKpXBT
           source_id: s_PCFwRL5mv7oU4kN8vrEzn8
           stance: supports
-          locator: null
+          locator: CBDB:279343
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王益 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王益，明人物。正德六年進士，籍贯宣城。（中国历代人物传记资料库 CBDB 279343） | accepted |
 
 ## 关联关系
 

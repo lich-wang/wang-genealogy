@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王玘，明人物。嘉靖十七年進士。（中国历代人物传记资料库 CBDB 300352）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_vLegC2Mx4QTfbVeMSTBC7p
+        - id: cs_yKVSe_ALEX1chC-5o-hvHc
           claim_id: c_MsvSfKq2t65ToGiQxBFUt8
           source_id: s_JnVfeY1b8kX24WpPPJFuMH
           stance: supports
-          locator: null
+          locator: CBDB:300352
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王玘 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王玘，明人物。嘉靖十七年進士。（中国历代人物传记资料库 CBDB 300352） | accepted |
 
 ## 关联关系
 

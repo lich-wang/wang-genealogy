@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王謹，清人物。籍贯登州府，入仕鄉貢舉人，曾任教諭、復設教諭。（中国历代人物传记资料库 CBDB 640288）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_iRsrZRikne4Z4LPH1KQQbQ
+        - id: cs_C4GR22PQyOddnSQtHUzxvg
           claim_id: c_iYfMkjMbNT2GEZobKnCKrC
           source_id: s_vzqBxDqx4UmTN75TuiLV7u
           stance: supports
-          locator: null
+          locator: CBDB:640288
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王謹 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王謹，清人物。籍贯登州府，入仕鄉貢舉人，曾任教諭、復設教諭。（中国历代人物传记资料库 CBDB 640288） | accepted |
 
 ## 关联关系
 

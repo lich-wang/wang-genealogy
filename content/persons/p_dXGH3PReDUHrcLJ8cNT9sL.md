@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
+          text: 王賢，元人物。籍贯元城，入仕進士，曾任都轉運鹽使司使、肅政廉訪司廉訪使。（中国历代人物传记资料库 CBDB 100951）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Hx5WxBgQC4W2n5LKw9r3Kc
+        - id: cs_RPbxD4jDkT69bs5kB-aW3R
           claim_id: c_ZehpBrp2nDdEzCQfC2Tiq1
           source_id: s_Eyr79R5VV433JLm8FojLU1
           stance: supports
-          locator: null
+          locator: CBDB:100951
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王賢 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王賢，元人物。籍贯元城，入仕進士，曾任都轉運鹽使司使、肅政廉訪司廉訪使。（中国历代人物传记资料库 CBDB 100951） | accepted |
 
 ## 关联关系
 

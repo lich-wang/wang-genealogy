@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
+          text: 王英，元人物。籍贯弘州，曾任縣尹。（中国历代人物传记资料库 CBDB 100733）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_YiruZ3PYkz6g2DsuPxiQaE
+        - id: cs_l9D_7OXIiE5_ciqZi44_Mj
           claim_id: c_ZBrPmibd3rGJTvqN4az5Rs
           source_id: s_5hP13wFPYNGatKFuXePULX
           stance: supports
-          locator: null
+          locator: CBDB:100733
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王英 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王英，元人物。籍贯弘州，曾任縣尹。（中国历代人物传记资料库 CBDB 100733） | accepted |
 
 ## 关联关系
 

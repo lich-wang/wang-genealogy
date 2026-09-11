@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王君佐（卒于1800年），清人物。籍贯漢軍正紅旗。（中国历代人物传记资料库 CBDB 69211）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_GM6UREbVw9JdEjMREBgJPf
+        - id: cs_75TtkKHYq2yXyx_TIQ0jmn
           claim_id: c_5iSE8V2BC4gtBSSm5aTSMy
           source_id: s_oWsP4Y4fDpGvvVkPzAUoUE
           stance: supports
-          locator: null
+          locator: CBDB:69211
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王君佐 | accepted |
 | death.date | 1800年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王君佐（卒于1800年），清人物。籍贯漢軍正紅旗。（中国历代人物传记资料库 CBDB 69211） | accepted |
 
 ## 关联关系
 

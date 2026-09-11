@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王祐（生于1422年），明人物。景泰二年進士，籍贯華亭，入仕進士，曾任按察使司僉事。（中国历代人物传记资料库 CBDB 198138）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_9KAEnPubwkcj8iGXiKDfBQ
+        - id: cs_gjP-Zug3AZMmdq_mpQLbvq
           claim_id: c_PJuPPiRB4KDyqEm2Tbz4ho
           source_id: s_XYnyDr4ADN3cVKH4o6URte
           stance: supports
-          locator: null
+          locator: CBDB:198138
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -268,7 +268,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王祐 | accepted |
 | birth.date | 1422年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王祐（生于1422年），明人物。景泰二年進士，籍贯華亭，入仕進士，曾任按察使司僉事。（中国历代人物传记资料库 CBDB 198138） | accepted |
 
 ## 关联关系
 

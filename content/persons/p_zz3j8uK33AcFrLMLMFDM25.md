@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王詔，明人物。萬曆二年進士，籍贯西安府。（中国历代人物传记资料库 CBDB 213046）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_wpSj61mrVKAwZ845D82R76
+        - id: cs_I2_W3BiXAIwXaNd3tB9LuY
           claim_id: c_z8Y3W2BFQsjbvALuQqrcpd
           source_id: s_Y6sazMFN9VEzYrYbNw1uA2
           stance: supports
-          locator: null
+          locator: CBDB:213046
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王詔 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王詔，明人物。萬曆二年進士，籍贯西安府。（中国历代人物传记资料库 CBDB 213046） | accepted |
 
 ## 关联关系
 

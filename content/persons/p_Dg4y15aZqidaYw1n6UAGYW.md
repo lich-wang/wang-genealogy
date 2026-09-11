@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王余修，清人物。籍贯富順，入仕監生，曾任主事。（中国历代人物传记资料库 CBDB 635993）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_JC6ZCTZ4C2UZBEy86tJD5a
+        - id: cs_li8B0toXARL0ssfVsMrHI0
           claim_id: c_czy9y61u164GFs5rJoM7B4
           source_id: s_Rnm6y99ZSxFvF3UykrPkfj
           stance: supports
-          locator: null
+          locator: CBDB:635993
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王余修 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王余修，清人物。籍贯富順，入仕監生，曾任主事。（中国历代人物传记资料库 CBDB 635993） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王致遠，宋人物。籍贯永嘉，身份为書院山長，入仕恩蔭、蔭補，曾任路提點刑獄公事、書院山長。（中国历代人物传记资料库 CBDB 37700）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_33UGYoGm2LTMDwQCJC2D6H
+        - id: cs_fxiuD-Q2F0V4tduakJ2sTq
           claim_id: c_BG9LLEAQ3uoAPNqaBb3G1K
           source_id: s_JfPaeoNZTd46cahoBPV4Bk
           stance: supports
-          locator: null
+          locator: CBDB:37700
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -129,7 +129,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王致遠 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王致遠，宋人物。籍贯永嘉，身份为書院山長，入仕恩蔭、蔭補，曾任路提點刑獄公事、書院山長。（中国历代人物传记资料库 CBDB 37700） | accepted |
 
 ## 关联关系
 

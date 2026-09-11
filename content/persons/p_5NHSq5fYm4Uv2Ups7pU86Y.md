@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: "王全琮，清人物。籍贯上虞，身份为孝子/孝女，入仕學校: 生員(庠生)。（中国历代人物传记资料库 CBDB 562238）"
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_6fVW2mqoVZuHvuXkSmjkFs
+        - id: cs_1kKco85G-oXgoZ3Wty8vT2
           claim_id: c_8NghTdP3m44SmUV2EtFNAW
           source_id: s_8QQsEnpvA9Nrw4NU1UE9Zk
           stance: supports
-          locator: null
+          locator: CBDB:562238
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王全琮 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王全琮，清人物。籍贯上虞，身份为孝子/孝女，入仕學校: 生員(庠生)。（中国历代人物传记资料库 CBDB 562238） | accepted |
 
 ## 关联关系
 

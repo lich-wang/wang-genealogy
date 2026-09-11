@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王瓖，宋人物。籍贯開封，入仕鄉貢舉人。（中国历代人物传记资料库 CBDB 10124）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_NXB5s3iL4G6gBmSVeB3hzQ
+        - id: cs_Oc0LNeceyqjRzpwYnqkD48
           claim_id: c_SFrXsLnTJiN8e2GFk9uPLn
           source_id: s_7MEZnrCNJ86Z4VMVH6LN7J
           stance: supports
-          locator: null
+          locator: CBDB:10124
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -128,7 +128,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王瓖 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王瓖，宋人物。籍贯開封，入仕鄉貢舉人。（中国历代人物传记资料库 CBDB 10124） | accepted |
 
 ## 关联关系
 

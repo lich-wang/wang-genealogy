@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王克灼，清人物。籍贯太平，入仕監生，曾任郎中。（中国历代人物传记资料库 CBDB 636302）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_CUgeDP7nMEAzYQGJMhK8Hz
+        - id: cs_pNdKVk_gPlcu_CHoIbZqso
           claim_id: c_8CjCcc2ziz4MFVSrDhWGR8
           source_id: s_gHh4hH6X6KpYLtB148kZbK
           stance: supports
-          locator: null
+          locator: CBDB:636302
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王克灼 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王克灼，清人物。籍贯太平，入仕監生，曾任郎中。（中国历代人物传记资料库 CBDB 636302） | accepted |
 
 ## 关联关系
 

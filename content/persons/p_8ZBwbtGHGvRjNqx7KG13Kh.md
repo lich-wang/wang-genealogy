@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
-          language: zh-Hans
+          text: 王仁皎（651年—719年），唐人物。籍贯萬年，身份为外戚，入仕武舉人，曾任太僕寺卿、左衛中郎將、大都督。（中国历代人物传记资料库 CBDB 175881）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_3sjbgQG8uPExZ5WL5Uprhf
+        - id: cs_ga8a2UGGTKdiU1sDysi3GM
           claim_id: c_gqsdCQLX87bKcgQqPSGvD3
           source_id: s_MPU2PoTJdCXdKEM8kH7BLj
           stance: supports
-          locator: null
+          locator: CBDB:175881
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -186,7 +186,7 @@ relationships:
 | name.primary | 王仁皎 | accepted |
 | birth.date | 651年 | accepted |
 | death.date | 719年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王仁皎（651年—719年），唐人物。籍贯萬年，身份为外戚，入仕武舉人，曾任太僕寺卿、左衛中郎將、大都督。（中国历代人物传记资料库 CBDB 175881） | accepted |
 
 ## 关联关系
 

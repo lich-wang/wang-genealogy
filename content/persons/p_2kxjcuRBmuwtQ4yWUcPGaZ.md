@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: "王大有，清人物。籍贯仁和，入仕學校: 生員(庠生)。（中国历代人物传记资料库 CBDB 69085）"
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_ScwXGSHXqC2sX5VbFWm5Ju
+        - id: cs_EO8HsTIPhYAZd-FugfbTtT
           claim_id: c_nc4UEweLKqpNdWbJWD2j6U
           source_id: s_UocPQzRpNqikaoTELcvm7D
           stance: supports
-          locator: null
+          locator: CBDB:69085
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王大有 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王大有，清人物。籍贯仁和，入仕學校: 生員(庠生)。（中国历代人物传记资料库 CBDB 69085） | accepted |
 
 ## 关联关系
 

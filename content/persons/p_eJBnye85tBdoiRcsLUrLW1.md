@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王絳（卒于811年），唐人物。籍贯偃師，曾任縣尉。（中国历代人物传记资料库 CBDB 191190）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_JVEBQvEXyg4Ly14fyJQLPH
+        - id: cs_t9aep46FyMNYXOyT2rMhvx
           claim_id: c_ZqJovLWQT8d7u9ZzqwAQzN
           source_id: s_Cz4v52JDz78Hfk2UraC4td
           stance: supports
-          locator: null
+          locator: CBDB:191190
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -268,7 +268,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王絳 | accepted |
 | death.date | 811年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王絳（卒于811年），唐人物。籍贯偃師，曾任縣尉。（中国历代人物传记资料库 CBDB 191190） | accepted |
 
 ## 关联关系
 

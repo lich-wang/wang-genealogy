@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
-          language: zh-Hans
+          text: 王孝通，唐人物。身份为數學家。（中国历代人物传记资料库 CBDB 551220）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_axu7G8MjpCB5GM78TDciT5
+        - id: cs_zfczwWq93Rstg37zOhJDkL
           claim_id: c_wmySu8QGPkDh2PjxT3ECAD
           source_id: s_8uuUqE9bQ9a3k5A1XxJGGq
           stance: supports
-          locator: null
+          locator: CBDB:551220
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王孝通 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王孝通，唐人物。身份为數學家。（中国历代人物传记资料库 CBDB 551220） | accepted |
 
 ## 关联关系
 

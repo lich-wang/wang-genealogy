@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
-          language: zh-Hans
+          text: 王起（760年—847年），唐人物。籍贯太原，身份为工於文，入仕進士，曾任比部郎中、兵部尚書、兵部侍郎。（中国历代人物传记资料库 CBDB 92061）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_xYbrivzD4WBSqFEi8u6jYC
+        - id: cs_56ZukDHM3Pi6OJ3qa7E_a-
           claim_id: c_TaS8HFGgMtVEnX5kyTm6cx
           source_id: s_QZUQfDNG45gtkNvmB8J354
           stance: supports
-          locator: null
+          locator: CBDB:92061
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -279,7 +279,7 @@ relationships:
 | name.primary | 王起 | accepted |
 | birth.date | 760年 | accepted |
 | death.date | 847年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王起（760年—847年），唐人物。籍贯太原，身份为工於文，入仕進士，曾任比部郎中、兵部尚書、兵部侍郎。（中国历代人物传记资料库 CBDB 92061） | accepted |
 
 ## 关联关系
 

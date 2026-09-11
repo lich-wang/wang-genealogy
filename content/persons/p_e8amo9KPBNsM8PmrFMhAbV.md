@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王逢年，明人物。籍贯廣濟，曾任鴻臚寺。（中国历代人物传记资料库 CBDB 574491）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_f8NQgYtNYrcgPHF2b4FS13
+        - id: cs_6-MKyQLMHPer0bOV5mqQOP
           claim_id: c_coV4AH7h4fBVnwJKFpxuem
           source_id: s_xGtnY9SmFSJmL67qJ8hA8W
           stance: supports
-          locator: null
+          locator: CBDB:574491
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王逢年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王逢年，明人物。籍贯廣濟，曾任鴻臚寺。（中国历代人物传记资料库 CBDB 574491） | accepted |
 
 ## 关联关系
 

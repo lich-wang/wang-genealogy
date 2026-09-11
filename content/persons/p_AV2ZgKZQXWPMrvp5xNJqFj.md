@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王克復，明人物。明清進士進士，籍贯福清，身份为法律專家，入仕進士。（中国历代人物传记资料库 CBDB 126540）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Htk5ymaLK27S5Y1Ex8egE8
+        - id: cs_K_vyBQ7nyPM6bL821CjNoG
           claim_id: c_1iyKomhQg51VXhfKXdRdpa
           source_id: s_f67YAvJ62hQ7NjsmZ31Sup
           stance: supports
-          locator: null
+          locator: CBDB:126540
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -206,7 +206,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王克復 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王克復，明人物。明清進士進士，籍贯福清，身份为法律專家，入仕進士。（中国历代人物传记资料库 CBDB 126540） | accepted |
 
 ## 关联关系
 

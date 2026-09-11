@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
+          text: 王文若（1283年—1335年），元人物。籍贯安平，曾任兵部主事、戶部員外郎、監察御史。（中国历代人物传记资料库 CBDB 101093）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_SUvytsoY4ptGrjjGMB9Qad
+        - id: cs_CFiUTJCgNkYyaxgm8qu2Dv
           claim_id: c_Xqv9pJi3hkY7W6b4F8QkUf
           source_id: s_MJpUNKHpPZd67Ds62opAgf
           stance: supports
-          locator: null
+          locator: CBDB:101093
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王文若 | accepted |
 | birth.date | 1283年 | accepted |
 | death.date | 1335年 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王文若（1283年—1335年），元人物。籍贯安平，曾任兵部主事、戶部員外郎、監察御史。（中国历代人物传记资料库 CBDB 101093） | accepted |
 
 ## 关联关系
 

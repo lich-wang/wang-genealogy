@@ -7,6 +7,44 @@ display_name: 祖氏
 revision: 1
 cbdb_id: 573297
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c__U3nQk8rkrS_Bdym0KyiIZ
+        subject_person_id: p_Aaffwf44GqGBUWNEk92BY9
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 祖氏，宋人物。曾任縣君。（中国历代人物传记资料库 CBDB 573297）
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6lMP0z1wN8-PyyUMLm5DFc
+          claim_id: c__U3nQk8rkrS_Bdym0KyiIZ
+          source_id: s_MSUbMKw5XcYoZvwTnNFEi7
+          stance: supports
+          locator: CBDB:573297
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_MSUbMKw5XcYoZvwTnNFEi7
+            source_type: api_record
+            title: 中国历代人物传记资料库：祖氏(王壽卿母)（CBDB 573297）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=573297&o=json
+            external_identifier: CBDB:573297
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:573297
           quotation: null
           interpretation_note: CBDB 明确记录的王師元配偶
-          source: &a1
-            id: s_MSUbMKw5XcYoZvwTnNFEi7
-            source_type: api_record
-            title: 中国历代人物传记资料库：祖氏(王壽卿母)（CBDB 573297）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=573297&o=json
-            external_identifier: CBDB:573297
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 祖氏，宋人物。曾任縣君。（中国历代人物传记资料库 CBDB 573297） | accepted |
 | name.primary | 祖氏 | accepted |
 
 ## 关联关系

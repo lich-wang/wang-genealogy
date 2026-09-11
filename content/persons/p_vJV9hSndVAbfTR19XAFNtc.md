@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王海（卒于1236年），宋人物。身份为死國難，曾任武翼大夫。（中国历代人物传记资料库 CBDB 38048）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_guSBizt9dS8jG7NzGH9aRL
+        - id: cs_7R80UcnGHHu1guB-Xt_H_h
           claim_id: c_wHXMmoxJEZW3pYXPF1YRuK
           source_id: s_CjPbEPHvTbUfsnEPpD87tF
           stance: supports
-          locator: null
+          locator: CBDB:38048
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王海 | accepted |
 | death.date | 1236年 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王海（卒于1236年），宋人物。身份为死國難，曾任武翼大夫。（中国历代人物传记资料库 CBDB 38048） | accepted |
 
 ## 关联关系
 

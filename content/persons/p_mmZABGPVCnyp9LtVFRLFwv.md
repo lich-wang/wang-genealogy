@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王允琳（生于1594年），清人物。籍贯漢軍鑲藍旗。（中国历代人物传记资料库 CBDB 71444）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_SjSEgFxd9eu6DNJX2esZGs
+        - id: cs_o1MzUDv3DKXtfqiOmJfBPM
           claim_id: c_DCmWYPDHrTe1A2RFNzwCLL
           source_id: s_j8vbFszXBFd2EHWmMd4noB
           stance: supports
-          locator: null
+          locator: CBDB:71444
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王允琳 | accepted |
 | birth.date | 1594年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王允琳（生于1594年），清人物。籍贯漢軍鑲藍旗。（中国历代人物传记资料库 CBDB 71444） | accepted |
 
 ## 关联关系
 

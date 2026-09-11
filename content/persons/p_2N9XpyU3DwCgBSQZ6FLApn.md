@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王明哲，唐人物。曾任內謁者監。（中国历代人物传记资料库 CBDB 166619）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_7yd5vGaxLK9vpKdUtbouih
+        - id: cs_5yfw0o1Ul-kwi7G21Ntfop
           claim_id: c_JGnrP8Ny5QT8TunzXBYNXM
           source_id: s_CHrT7AkTzxzPUCzWtaHNBx
           stance: supports
-          locator: null
+          locator: CBDB:166619
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王明哲 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王明哲，唐人物。曾任內謁者監。（中国历代人物传记资料库 CBDB 166619） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王傑，明人物。成化二年進士，籍贯閩縣。（中国历代人物传记资料库 CBDB 240598）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_iYWjFpfQ1aY9uL9JDF5DLo
+        - id: cs_ffOPgIx3_rpNLMnYjaZZWq
           claim_id: c_1DD1ffyRrfGvWmUNSvD97T
           source_id: s_fa9J6ys8rKbWFJFAMUu6dA
           stance: supports
-          locator: null
+          locator: CBDB:240598
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王傑 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王傑，明人物。成化二年進士，籍贯閩縣。（中国历代人物传记资料库 CBDB 240598） | accepted |
 
 ## 关联关系
 

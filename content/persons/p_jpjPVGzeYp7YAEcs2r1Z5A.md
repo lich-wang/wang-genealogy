@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王琳，明人物。入仕監生，曾任縣丞。（中国历代人物传记资料库 CBDB 490056）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_c8L8rKeD5tQX5cZtJ2jFUP
+        - id: cs_U8xuci8bD5XwsiApRfC9z2
           claim_id: c_LFtXvb6ReKKS3BqhGuwAey
           source_id: s_DkJU17wa6czwbtm2FYuu8x
           stance: supports
-          locator: null
+          locator: CBDB:490056
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王琳 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王琳，明人物。入仕監生，曾任縣丞。（中国历代人物传记资料库 CBDB 490056） | accepted |
 
 ## 关联关系
 

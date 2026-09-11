@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王言，宋人物。入仕鄉貢舉人。（中国历代人物传记资料库 CBDB 37280）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_QCAMETqyy4grDu6ewcd4Q6
+        - id: cs_w5Y1xjBLxDkwEorKxaPad2
           claim_id: c_UStuz4h4zs3aE84sAzWo7G
           source_id: s_WNCK5J9mEhRa6w86GXZjaR
           stance: supports
-          locator: null
+          locator: CBDB:37280
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王言 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王言，宋人物。入仕鄉貢舉人。（中国历代人物传记资料库 CBDB 37280） | accepted |
 
 ## 关联关系
 

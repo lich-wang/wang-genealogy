@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王元鶚，清人物。籍贯青州府，入仕鄉貢舉人，曾任教諭。（中国历代人物传记资料库 CBDB 636185）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_hu66WZ59J8QntA74r4g3Jq
+        - id: cs_HsfqMFXV-UAnkax87p2Hoj
           claim_id: c_696CJKLsCDRVRLgpVo38Ag
           source_id: s_nAJjtCzorz1ER4JZ66H2w8
           stance: supports
-          locator: null
+          locator: CBDB:636185
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王元鶚 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王元鶚，清人物。籍贯青州府，入仕鄉貢舉人，曾任教諭。（中国历代人物传记资料库 CBDB 636185） | accepted |
 
 ## 关联关系
 

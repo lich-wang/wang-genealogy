@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王希文（卒于1258年），宋人物。籍贯豐城，身份为未婚而卒。（中国历代人物传记资料库 CBDB 35314）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_QQTp3pwsg2QEJy89LAfPYJ
+        - id: cs_qg1EGFREjma_Ed_8fpXeFR
           claim_id: c_DHW1DTf76AF6AH427bi9SV
           source_id: s_w2639fELDkQb8jDWGeagXs
           stance: supports
-          locator: null
+          locator: CBDB:35314
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -146,7 +146,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王希文 | accepted |
 | death.date | 1258年 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王希文（卒于1258年），宋人物。籍贯豐城，身份为未婚而卒。（中国历代人物传记资料库 CBDB 35314） | accepted |
 
 ## 关联关系
 

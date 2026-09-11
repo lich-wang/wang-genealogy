@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王理，明人物。天順四年進士，籍贯高郵州。（中国历代人物传记资料库 CBDB 312785）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_eNxpBLB8d7xA8dcBxzjM2D
+        - id: cs_-xsxjmHlsfpzdyy6XaAm0X
           claim_id: c_XUKtRkfiDiPrF5T3bK961S
           source_id: s_E93zvFaFewyEzb6NDGtBap
           stance: supports
-          locator: null
+          locator: CBDB:312785
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王理 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王理，明人物。天順四年進士，籍贯高郵州。（中国历代人物传记资料库 CBDB 312785） | accepted |
 
 ## 关联关系
 

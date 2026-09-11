@@ -7,6 +7,44 @@ display_name: 陳光縡
 revision: 1
 cbdb_id: 692772
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_cEZ4U0_zKw51mljA-WNsXx
+        subject_person_id: p_dAPM2wMaNCnVqKPPY9ExnC
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: "陳光縡，清人物。籍贯海鹽，身份为史學家、博學之人，入仕學校: 生員(庠生)。（中国历代人物传记资料库 CBDB 692772）"
+          language: zh-Hant
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bEjKZlG3y-6OgdUcP97u7o
+          claim_id: c_cEZ4U0_zKw51mljA-WNsXx
+          source_id: s_-dUmIXED21HLXEZXHIexJi
+          stance: supports
+          locator: CBDB:692772
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_-dUmIXED21HLXEZXHIexJi
+            source_type: api_record
+            title: 中国历代人物传记资料库：陳光縡（CBDB 692772）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=692772&o=json
+            external_identifier: CBDB:692772
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:692772
           quotation: null
           interpretation_note: CBDB 明确记录的王煒配偶
-          source: &a1
-            id: s_-dUmIXED21HLXEZXHIexJi
-            source_type: api_record
-            title: 中国历代人物传记资料库：陳光縡（CBDB 692772）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=692772&o=json
-            external_identifier: CBDB:692772
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 陳光縡，清人物。籍贯海鹽，身份为史學家、博學之人，入仕學校: 生員(庠生)。（中国历代人物传记资料库 CBDB 692772） | accepted |
 | name.primary | 陳光縡 | accepted |
 
 ## 关联关系

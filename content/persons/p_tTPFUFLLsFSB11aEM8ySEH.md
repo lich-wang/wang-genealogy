@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王崇（卒于798年），唐人物。籍贯太原，曾任參軍。（中国历代人物传记资料库 CBDB 175874）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_6ZnfPZ8QuQLWVKNVW17r7h
+        - id: cs_PTT-nhScjwU3pmAebsLWTd
           claim_id: c_8TcjGTkffy71DX2ugLamx3
           source_id: s_juMGtsbD6WAzZoLYnwHi5r
           stance: supports
-          locator: null
+          locator: CBDB:175874
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -146,7 +146,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王崇 | accepted |
 | death.date | 798年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王崇（卒于798年），唐人物。籍贯太原，曾任參軍。（中国历代人物传记资料库 CBDB 175874） | accepted |
 
 ## 关联关系
 

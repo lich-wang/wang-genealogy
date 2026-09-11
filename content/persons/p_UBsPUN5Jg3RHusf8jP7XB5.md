@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王嚴恭，清人物。籍贯安慶府，入仕鄉貢舉人，曾任復設教諭。（中国历代人物传记资料库 CBDB 636634）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_MUkhYyJFfpjokMQFW4Se6P
+        - id: cs_sptDcCed4ftbq7OkxS9JKa
           claim_id: c_Khrs17oxEwTewbNryTwp3M
           source_id: s_AZGDf48cLYY4VkEqPgGojU
           stance: supports
-          locator: null
+          locator: CBDB:636634
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王嚴恭 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王嚴恭，清人物。籍贯安慶府，入仕鄉貢舉人，曾任復設教諭。（中国历代人物传记资料库 CBDB 636634） | accepted |
 
 ## 关联关系
 

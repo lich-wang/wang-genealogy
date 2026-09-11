@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王之俊，明人物。萬曆丙戌科進士進士，籍贯蒙陰，曾任總兵官。（中国历代人物传记资料库 CBDB 227720）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_uQivmtCQ5HM42WNi3B9k16
+        - id: cs_bFfSb0-cEf1JZ4P8f5fEMe
           claim_id: c_UF73dcNFabwjiSDG55PsK7
           source_id: s_TJtuKh2eJzsWZ7WE3Hgs2J
           stance: supports
-          locator: null
+          locator: CBDB:227720
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王之俊 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王之俊，明人物。萬曆丙戌科進士進士，籍贯蒙陰，曾任總兵官。（中国历代人物传记资料库 CBDB 227720） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王瓖，明人物。成化五年進士，籍贯襄城，曾任戶部郎中、朝列大夫。（中国历代人物传记资料库 CBDB 244355）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_LZrrxVdnmfrBSdzEjpUjJR
+        - id: cs_5jgEHDou_bfDo6vUCKO7bl
           claim_id: c_e2Wkd3TBbdDeeQGF5TAQxJ
           source_id: s_Jf83McwehKc65yc8E3wmxL
           stance: supports
-          locator: null
+          locator: CBDB:244355
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -154,7 +154,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王瓖 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王瓖，明人物。成化五年進士，籍贯襄城，曾任戶部郎中、朝列大夫。（中国历代人物传记资料库 CBDB 244355） | accepted |
 
 ## 关联关系
 

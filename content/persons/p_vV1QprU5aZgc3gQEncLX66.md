@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王保和，清人物。籍贯大興，入仕監生，曾任知縣。（中国历代人物传记资料库 CBDB 636046）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_5T9P33tN4AHWQmN53KxTkp
+        - id: cs_9LX4zwz_vooa5Tw81nrrYI
           claim_id: c_MW74dB51KdNFby3r2stPNy
           source_id: s_ThPcEXoY5qZJEE8xHTQmYL
           stance: supports
-          locator: null
+          locator: CBDB:636046
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王保和 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王保和，清人物。籍贯大興，入仕監生，曾任知縣。（中国历代人物传记资料库 CBDB 636046） | accepted |
 
 ## 关联关系
 

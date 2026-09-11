@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王礪，宋人物。曾任殿中省尚乘奉御、尚書省兵部職方司員外郎。（中国历代人物传记资料库 CBDB 97983）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_2bzD7WkjQC5izsaB2AhN1m
+        - id: cs_X_YP8Eg-Vn0YlfiCHSeWn_
           claim_id: c_ePDZVDBANiZUPZ37VDHfM7
           source_id: s_VGgrXSh71hu65Jo3juNPL6
           stance: supports
-          locator: null
+          locator: CBDB:97983
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王礪 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王礪，宋人物。曾任殿中省尚乘奉御、尚書省兵部職方司員外郎。（中国历代人物传记资料库 CBDB 97983） | accepted |
 
 ## 关联关系
 

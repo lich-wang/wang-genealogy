@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王紹先（生于1559年），明人物。明清進士進士，籍贯咸寧，入仕進士。（中国历代人物传记资料库 CBDB 206726）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_bJ3gkwv4Wn87tEtuKFCrdk
+        - id: cs_Kjeci9la2EnHccx3nsiSKe
           claim_id: c_7Z6e4pZEWaQTuNkFEbXeuG
           source_id: s_51SNKp1DcDfU2auLpQ39Cr
           stance: supports
-          locator: null
+          locator: CBDB:206726
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -235,7 +235,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王紹先 | accepted |
 | birth.date | 1559年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王紹先（生于1559年），明人物。明清進士進士，籍贯咸寧，入仕進士。（中国历代人物传记资料库 CBDB 206726） | accepted |
 
 ## 关联关系
 

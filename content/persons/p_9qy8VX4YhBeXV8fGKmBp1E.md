@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王經（生于1439年），明人物。明清進士進士，籍贯長洲，入仕進士。（中国历代人物传记资料库 CBDB 199619）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_JYR8MtFQyGnbXL8L36Ukd1
+        - id: cs_D2CBiFx1vAWR3Px9b81jyR
           claim_id: c_q5UYDR8QjVoJCXxMCN2RkU
           source_id: s_iamg2Nd5WazmGhDzWzew3L
           stance: supports
-          locator: null
+          locator: CBDB:199619
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -231,7 +231,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王經 | accepted |
 | birth.date | 1439年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王經（生于1439年），明人物。明清進士進士，籍贯長洲，入仕進士。（中国历代人物传记资料库 CBDB 199619） | accepted |
 
 ## 关联关系
 

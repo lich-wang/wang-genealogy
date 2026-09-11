@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王德用（987年—1065年），宋人物。籍贯管城，入仕恩蔭、蔭補，曾任樞密使、同知樞密院事、知樞密院事。（中国历代人物传记资料库 CBDB 1893）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_fzFWyqP4pAG28k3WrH5cAF
+        - id: cs_xNOX9zsA7slYi2LeATpslN
           claim_id: c_Nt2KKgXKFbQDnDVFtY1i57
           source_id: s_6kKWeQ8Q7nVKaSJjMMMoGq
           stance: supports
-          locator: null
+          locator: CBDB:1893
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -223,7 +223,7 @@ relationships:
 | name.primary | 王德用 | accepted |
 | birth.date | 987年 | accepted |
 | death.date | 1065年 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王德用（987年—1065年），宋人物。籍贯管城，入仕恩蔭、蔭補，曾任樞密使、同知樞密院事、知樞密院事。（中国历代人物传记资料库 CBDB 1893） | accepted |
 
 ## 关联关系
 

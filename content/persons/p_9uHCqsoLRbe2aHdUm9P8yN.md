@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
+          text: 王世亨，元人物。曾任縣主簿。（中国历代人物传记资料库 CBDB 101111）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_vStQbYVPGvqP3zJV3EPQXi
+        - id: cs_2cUgd5AwHEdT54opAi8hs3
           claim_id: c_wTNkv6MeCaQXQHzGsyW8yj
           source_id: s_KY41THAYS4GbdEg1UL1GL7
           stance: supports
-          locator: null
+          locator: CBDB:101111
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王世亨 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王世亨，元人物。曾任縣主簿。（中国历代人物传记资料库 CBDB 101111） | accepted |
 
 ## 关联关系
 

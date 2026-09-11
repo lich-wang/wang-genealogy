@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王友蓮，清人物。籍贯永濟，入仕鄉貢舉人，曾任知府、知縣。（中国历代人物传记资料库 CBDB 636460）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_twvZcqsuKGPNWSXaQQvFpT
+        - id: cs_rbe8E6wPeW5GgYLkTFu_Y-
           claim_id: c_z26nAKdb7FuU3jD7HW5Rgf
           source_id: s_VCa54j4m5x7VJ7TvMKF9gq
           stance: supports
-          locator: null
+          locator: CBDB:636460
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王友蓮 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王友蓮，清人物。籍贯永濟，入仕鄉貢舉人，曾任知府、知縣。（中国历代人物传记资料库 CBDB 636460） | accepted |
 
 ## 关联关系
 

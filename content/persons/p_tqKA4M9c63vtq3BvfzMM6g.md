@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为中華民國人物
-          language: zh-Hans
+          text: 王漱芳（卒于1916年），中華民國人物。籍贯丹徒。（中国历代人物传记资料库 CBDB 72171）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_cW9WeBH1oRNShGHtD664C3
+        - id: cs_-MT5qljVrLP1-BRifLkcJO
           claim_id: c_qDHFGZwSrdeUnVivW493GA
           source_id: s_Gx1VNFPFqNZ7ZzokfvLcL2
           stance: supports
-          locator: null
+          locator: CBDB:72171
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王漱芳 | accepted |
 | death.date | 1916年 | accepted |
-| bio.summary | CBDB 记载为中華民國人物 | accepted |
+| bio.summary | 王漱芳（卒于1916年），中華民國人物。籍贯丹徒。（中国历代人物传记资料库 CBDB 72171） | accepted |
 
 ## 关联关系
 

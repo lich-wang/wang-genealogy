@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
-          language: zh-Hans
+          text: 王齊丘（651年—709年），唐人物。籍贯河東。（中国历代人物传记资料库 CBDB 140256）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_JX3wDziM21LZJC5c8t2Gcu
+        - id: cs_kLZcFqitK3okn8K7HyoX-w
           claim_id: c_cpomEw2isKYdffW8NXke26
           source_id: s_48WBpyvYfpWTXsNqbB66pn
           stance: supports
-          locator: null
+          locator: CBDB:140256
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -223,7 +223,7 @@ relationships:
 | name.primary | 王齊丘 | accepted |
 | birth.date | 651年 | accepted |
 | death.date | 709年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王齊丘（651年—709年），唐人物。籍贯河東。（中国历代人物传记资料库 CBDB 140256） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: "王鑾，明人物。入仕貢生: 歲貢、常貢、挨貢，曾任教諭。（中国历代人物传记资料库 CBDB 493311）"
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_buDq9cjJvdSN3fdHn6fBfz
+        - id: cs_AqKJlHXJ5586pAMBaVzION
           claim_id: c_uThPF9QGrLXVA8TXnMqcDb
           source_id: s_wdiu38EtKm4q9Ft5vu6wpB
           stance: supports
-          locator: null
+          locator: CBDB:493311
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王鑾 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王鑾，明人物。入仕貢生: 歲貢、常貢、挨貢，曾任教諭。（中国历代人物传记资料库 CBDB 493311） | accepted |
 
 ## 关联关系
 

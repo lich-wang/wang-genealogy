@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王捷，明人物。曾任教諭。（中国历代人物传记资料库 CBDB 472939）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Pt6Hx7DiDZXB4xjFrkcGY2
+        - id: cs_39NdH6TZ8GaHebgNgXf-SE
           claim_id: c_vJENMhxU585APhrVxikcSD
           source_id: s_J8oEy8ynhALibcRL23HE2c
           stance: supports
-          locator: null
+          locator: CBDB:472939
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王捷 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王捷，明人物。曾任教諭。（中国历代人物传记资料库 CBDB 472939） | accepted |
 
 ## 关联关系
 

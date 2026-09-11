@@ -56,19 +56,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: Chinese politician
-          language: en
+          text: 王继沂，史料所见人物。本项目依据《王继沂》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_CmoND48FEAqmbxXrFFsknU
+        - id: cs_mTbJ3pHstbxK7G_OToOY8O
           claim_id: c_EbWTcHbuptZNFD2CUbiewE
           source_id: s_RNftsmftEDKBTmG4LmWxGj
           stance: supports
-          locator: null
+          locator: Q16260253
           quotation: null
-          interpretation_note: 维基数据条目描述
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
           source: *a1
       object_person: null
     alternatives: []
@@ -138,7 +138,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王继沂 | accepted |
-| bio.summary | Chinese politician | accepted |
+| bio.summary | 王继沂，史料所见人物。本项目依据《王继沂》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
 
 ## 关联关系
 

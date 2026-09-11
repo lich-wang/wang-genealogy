@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王鼐（卒于827年），唐人物。籍贯河南，曾任判官。（中国历代人物传记资料库 CBDB 175726）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_792Q1bdLEDbyX3CuAiSs5J
+        - id: cs_Wq1qP-pJzNw8g3xmXg6zo0
           claim_id: c_9bSgNj1hKmgU2jjJwoPCxW
           source_id: s_fUTWQ1rXxoV3oH2dCAkqpi
           stance: supports
-          locator: null
+          locator: CBDB:175726
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -146,7 +146,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王鼐 | accepted |
 | death.date | 827年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王鼐（卒于827年），唐人物。籍贯河南，曾任判官。（中国历代人物传记资料库 CBDB 175726） | accepted |
 
 ## 关联关系
 

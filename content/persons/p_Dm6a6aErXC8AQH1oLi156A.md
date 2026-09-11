@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王毓樞，清人物。籍贯利津，入仕監生，曾任主事。（中国历代人物传记资料库 CBDB 638951）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_9mvbrN3vcGooaq1jjUUdVT
+        - id: cs_WLNQVVxP3Ppm3kWp_ehNNH
           claim_id: c_kuxewNB3Vd38NN9ZRYif5X
           source_id: s_CAQHAti86iMGHB2KEY2DHb
           stance: supports
-          locator: null
+          locator: CBDB:638951
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王毓樞 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王毓樞，清人物。籍贯利津，入仕監生，曾任主事。（中国历代人物传记资料库 CBDB 638951） | accepted |
 
 ## 关联关系
 

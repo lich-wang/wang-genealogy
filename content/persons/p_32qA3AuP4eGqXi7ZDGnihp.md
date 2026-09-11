@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王隆，明人物。曾任副千戶、鎮撫。（中国历代人物传记资料库 CBDB 483883）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_tzuMvNQGv3azB9Sd5mQnri
+        - id: cs_HiMJAWq9NOE-V_-IIVM6F8
           claim_id: c_za6GFdWp53hT5TEjoEkNCU
           source_id: s_ft7W495w128pSVFNqX4TJ7
           stance: supports
-          locator: null
+          locator: CBDB:483883
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王隆 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王隆，明人物。曾任副千戶、鎮撫。（中国历代人物传记资料库 CBDB 483883） | accepted |
 
 ## 关联关系
 

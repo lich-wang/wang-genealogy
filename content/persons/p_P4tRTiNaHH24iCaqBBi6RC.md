@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王約，明人物。成化五年進士，籍贯宜興。（中国历代人物传记资料库 CBDB 242729）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_ZwHa38Rfx2EKcKs8i6N3mb
+        - id: cs_EDWme3nWzn3H3CVWXVtf0F
           claim_id: c_Bgyp85UawT7ffysLNCyiLF
           source_id: s_cv15Tx55VPJADZ5YXL1HKf
           stance: supports
-          locator: null
+          locator: CBDB:242729
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王約 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王約，明人物。成化五年進士，籍贯宜興。（中国历代人物传记资料库 CBDB 242729） | accepted |
 
 ## 关联关系
 

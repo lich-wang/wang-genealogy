@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王士璠，清人物。籍贯歙縣，身份为為善鄉里。（中国历代人物传记资料库 CBDB 683339）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_pb2H6PXakeN1kJjBJ3r895
+        - id: cs_03Ygm0gB0PqR1vrdET2UWp
           claim_id: c_cKNuxAk4XtXGftg7z5MHsz
           source_id: s_TVQDxe98wY8Ws5iZ1hw15S
           stance: supports
-          locator: null
+          locator: CBDB:683339
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王士璠 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王士璠，清人物。籍贯歙縣，身份为為善鄉里。（中国历代人物传记资料库 CBDB 683339） | accepted |
 
 ## 关联关系
 

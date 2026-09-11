@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王弁，明人物。曾任訓導。（中国历代人物传记资料库 CBDB 485270）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_GyquE8r6PV9GcoGrHJvsrR
+        - id: cs_zQNGjc0Xx83n8si2IoUwri
           claim_id: c_Uf8RgXSBvV2jkYtQecry7M
           source_id: s_4uH79iGrdQFydzLCuxcCPE
           stance: supports
-          locator: null
+          locator: CBDB:485270
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王弁 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王弁，明人物。曾任訓導。（中国历代人物传记资料库 CBDB 485270） | accepted |
 
 ## 关联关系
 

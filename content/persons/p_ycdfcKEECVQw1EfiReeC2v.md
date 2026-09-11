@@ -7,6 +7,44 @@ display_name: 張紈英
 revision: 1
 cbdb_id: 55144
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_Er4i_IBqP4le1hLc74GgYt
+        subject_person_id: p_ycdfcKEECVQw1EfiReeC2v
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 張紈英（1800—1881），清人物。籍贯陽湖。（中国历代人物传记资料库 CBDB 55144）
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KbVgJADUa5kxJi_qnkhFBP
+          claim_id: c_Er4i_IBqP4le1hLc74GgYt
+          source_id: s_y1lBLaLBCry88DDWnFSAvi
+          stance: supports
+          locator: CBDB:55144
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_y1lBLaLBCry88DDWnFSAvi
+            source_type: api_record
+            title: 中国历代人物传记资料库：張紈英（CBDB 55144）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=55144&o=json
+            external_identifier: CBDB:55144
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:55144
           quotation: null
           interpretation_note: CBDB 明确记录的王曦配偶
-          source: &a1
-            id: s_y1lBLaLBCry88DDWnFSAvi
-            source_type: api_record
-            title: 中国历代人物传记资料库：張紈英（CBDB 55144）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=55144&o=json
-            external_identifier: CBDB:55144
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 張紈英（1800—1881），清人物。籍贯陽湖。（中国历代人物传记资料库 CBDB 55144） | accepted |
 | name.primary | 張紈英 | accepted |
 
 ## 关联关系

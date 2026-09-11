@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
-          language: zh-Hans
+          text: 王肖翁（1272年—1336年），元人物。籍贯金華，身份为書院山長、收徒講學，入仕薦舉 (保任,保舉)，曾任府判、錄事司錄事、萬戶府知事。（中国历代人物传记资料库 CBDB 10722）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_C2YxKJnKzDygwSJGBSLYxj
+        - id: cs_XVHAOaUgHHlISwBT2cHzFq
           claim_id: c_2SgwWh3DX9yRpSeRdywEaU
           source_id: s_n75KUKbyAiDG91EHz3DJYN
           stance: supports
-          locator: null
+          locator: CBDB:10722
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -323,7 +323,7 @@ relationships:
 | name.primary | 王肖翁 | accepted |
 | birth.date | 1272年 | accepted |
 | death.date | 1336年 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王肖翁（1272年—1336年），元人物。籍贯金華，身份为書院山長、收徒講學，入仕薦舉 (保任,保舉)，曾任府判、錄事司錄事、萬戶府知事。（中国历代人物传记资料库 CBDB 10722） | accepted |
 
 ## 关联关系
 

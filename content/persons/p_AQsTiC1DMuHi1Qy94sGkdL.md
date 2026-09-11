@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王輔，明人物。曾任教諭。（中国历代人物传记资料库 CBDB 454765）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_JgS3PpQ7g3EFpCUHJRphrm
+        - id: cs_wMGffjwKSv7-ZIPbWw8PfG
           claim_id: c_94ZVWQrc1A9dJ86y2KhFvZ
           source_id: s_SmmpYfSHxE8b5U8rPp26JY
           stance: supports
-          locator: null
+          locator: CBDB:454765
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王輔 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王輔，明人物。曾任教諭。（中国历代人物传记资料库 CBDB 454765） | accepted |
 
 ## 关联关系
 

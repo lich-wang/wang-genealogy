@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
-          language: zh-Hans
+          text: 王沂，元人物。籍贯真定，入仕進士，曾任國子學博士、翰林國史院待制、翰林國史院國史編修官。（中国历代人物传记资料库 CBDB 28615）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_5LDDBUjMbzTH7MKr5E3cDT
+        - id: cs_3yZ7OAM27tuyRHpzv6Oa0m
           claim_id: c_iBNna2438CbefwAdt5MPWA
           source_id: s_UiS4midCV1XLhhZbiUM2Qq
           stance: supports
-          locator: null
+          locator: CBDB:28615
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王沂 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王沂，元人物。籍贯真定，入仕進士，曾任國子學博士、翰林國史院待制、翰林國史院國史編修官。（中国历代人物传记资料库 CBDB 28615） | accepted |
 
 ## 关联关系
 

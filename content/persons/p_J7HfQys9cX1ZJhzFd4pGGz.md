@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王鼎（1768年—1842年），清人物。明清進士進士，籍贯蒲城，入仕進士，曾任戶部尚書、戶部尚書協辦大學士、戶部侍郎。（中国历代人物传记资料库 CBDB 57206）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_n4r4fuW6zAw9tE5Tc3eJ3C
+        - id: cs_COIKypMscI4mGyOrX0Vt_n
           claim_id: c_2H3xy4ZhqGax8N7zoUART3
           source_id: s_2kevUgmwEeDE5MZSiXaCxu
           stance: supports
-          locator: null
+          locator: CBDB:57206
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -253,7 +253,7 @@ relationships:
 | name.primary | 王鼎 | accepted |
 | birth.date | 1768年 | accepted |
 | death.date | 1842年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王鼎（1768年—1842年），清人物。明清進士進士，籍贯蒲城，入仕進士，曾任戶部尚書、戶部尚書協辦大學士、戶部侍郎。（中国历代人物传记资料库 CBDB 57206） | accepted |
 
 ## 关联关系
 

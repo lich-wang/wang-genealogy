@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王者馨（生于1851年），清人物。籍贯朔州。（中国历代人物传记资料库 CBDB 71729）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Q8SSgzNZtWCgG4UMK31bd5
+        - id: cs_kgco1mSUYVwYxkX79TVojP
           claim_id: c_ZJBzecnPfk8A29shB6DXUN
           source_id: s_E6RAtp8JJ8vh1NAN537AE9
           stance: supports
-          locator: null
+          locator: CBDB:71729
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王者馨 | accepted |
 | birth.date | 1851年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王者馨（生于1851年），清人物。籍贯朔州。（中国历代人物传记资料库 CBDB 71729） | accepted |
 
 ## 关联关系
 

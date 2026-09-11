@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王綰，宋人物。籍贯尉氏，入仕進士，曾任尚書省工部侍郎、殿中省尚乘奉御、上護軍。（中国历代人物传记资料库 CBDB 1914）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_2mTjpC89TPHxxo5i62C7Cp
+        - id: cs_xTn6A0arz97M3sLJxq-S-E
           claim_id: c_x8FWnKbfyRaN4A97UAjCJD
           source_id: s_t9CbvSB72Funt2G9J9z8xp
           stance: supports
-          locator: null
+          locator: CBDB:1914
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王綰 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王綰，宋人物。籍贯尉氏，入仕進士，曾任尚書省工部侍郎、殿中省尚乘奉御、上護軍。（中国历代人物传记资料库 CBDB 1914） | accepted |
 
 ## 关联关系
 

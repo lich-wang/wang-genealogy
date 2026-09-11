@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王致遠，明人物。成化十七年進士。（中国历代人物传记资料库 CBDB 257071）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_5vxY8PTgLNFxL6EwrKP72W
+        - id: cs_vZZEUxxHe89WuTafeqawGb
           claim_id: c_hy5MjdtchvHsvf2n3n29Vh
           source_id: s_CBakdwAKt5Yhs5EzXoKTkB
           stance: supports
-          locator: null
+          locator: CBDB:257071
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -143,7 +143,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王致遠 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王致遠，明人物。成化十七年進士。（中国历代人物传记资料库 CBDB 257071） | accepted |
 
 ## 关联关系
 

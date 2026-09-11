@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王軏，明人物。天順八年進士，籍贯公安。（中国历代人物传记资料库 CBDB 333199）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_i6Mjv24RyxLwHQ9Zcasoev
+        - id: cs_WNl8e799zhzJzyl6S2QWFP
           claim_id: c_jF3Sjbe6XvyPhJi7Ab4xtP
           source_id: s_PpbQzU4M9qw3VSjFVkk5Wr
           stance: supports
-          locator: null
+          locator: CBDB:333199
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王軏 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王軏，明人物。天順八年進士，籍贯公安。（中国历代人物传记资料库 CBDB 333199） | accepted |
 
 ## 关联关系
 

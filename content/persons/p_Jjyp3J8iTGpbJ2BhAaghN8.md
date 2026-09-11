@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
+          text: 王克正，元人物。曾任諸路總管府推官。（中国历代人物传记资料库 CBDB 101194）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_qbzEaCJnH95dYh83uL9en9
+        - id: cs_HMibcSy4jJlj92Kr_2OqJV
           claim_id: c_3LRQf7hngVg6MkoUjfHE4t
           source_id: s_D74HjpTEbiBqbgXG2o82Gz
           stance: supports
-          locator: null
+          locator: CBDB:101194
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王克正 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王克正，元人物。曾任諸路總管府推官。（中国历代人物传记资料库 CBDB 101194） | accepted |
 
 ## 关联关系
 

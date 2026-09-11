@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王模，宋人物。籍贯金華。（中国历代人物传记资料库 CBDB 35575）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_yk7rx9iiTaVN18Hijw9yho
+        - id: cs__H7t5GWlj3VysiBNI0eYBJ
           claim_id: c_x5Nhz97TmaiXuQq2qSs1Rt
           source_id: s_BKkPW8CENefQ3Q6YYsy8Jz
           stance: supports
-          locator: null
+          locator: CBDB:35575
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王模 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王模，宋人物。籍贯金華。（中国历代人物传记资料库 CBDB 35575） | accepted |
 
 ## 关联关系
 

@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
-          language: zh-Hans
+          text: 王拱（卒于790年），唐人物。曾任國子祭酒。（中国历代人物传记资料库 CBDB 193160）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_4vEKDsdS41JNvNivC1DHKS
+        - id: cs_8Kke41AO1_kE2hTiwFuDJ3
           claim_id: c_AZHT5KR5MVBDu9G5DBzcjU
           source_id: s_2aPSBMKysrsj82XucjWXqs
           stance: supports
-          locator: null
+          locator: CBDB:193160
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王拱 | accepted |
 | death.date | 790年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王拱（卒于790年），唐人物。曾任國子祭酒。（中国历代人物传记资料库 CBDB 193160） | accepted |
 
 ## 关联关系
 

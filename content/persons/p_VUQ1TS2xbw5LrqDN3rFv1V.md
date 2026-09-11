@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王汝寧，明人物。嘉靖二十九年進士，籍贯雄縣。（中国历代人物传记资料库 CBDB 313771）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_kKqtL9LX8WNP8Tt2PWzNad
+        - id: cs_eHmxCfvLX4nzCE_SPfTG7M
           claim_id: c_ZdoxHTfVhaJjTXe6e3zKNd
           source_id: s_zfZJPtMqrJqYz5ksc3J6TK
           stance: supports
-          locator: null
+          locator: CBDB:313771
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王汝寧 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王汝寧，明人物。嘉靖二十九年進士，籍贯雄縣。（中国历代人物传记资料库 CBDB 313771） | accepted |
 
 ## 关联关系
 

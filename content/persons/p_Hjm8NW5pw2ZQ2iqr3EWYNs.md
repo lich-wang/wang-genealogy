@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王龍友，宋人物。籍贯義烏，身份为儒學，曾任學正。（中国历代人物传记资料库 CBDB 38424）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_f9NhrH7fEKU1DETAnpR2V7
+        - id: cs_gYw3h1D_Mm3--7phnkmTNx
           claim_id: c_voejvhgCTaGZHzbQ9934Ba
           source_id: s_QGAWHCzdetASAG2Fo3k2As
           stance: supports
-          locator: null
+          locator: CBDB:38424
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王龍友 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王龍友，宋人物。籍贯義烏，身份为儒學，曾任學正。（中国历代人物传记资料库 CBDB 38424） | accepted |
 
 ## 关联关系
 

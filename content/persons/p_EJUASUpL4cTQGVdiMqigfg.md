@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王繼貞，清人物。籍贯平陰。（中国历代人物传记资料库 CBDB 703810）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_KMUdPXQxkM7B6vA9fx85eX
+        - id: cs_gGGkElJmYabKTm0axk_Azy
           claim_id: c_RRBQGLhKEYux3efziToi79
           source_id: s_Frca2SrtM7pnKv4CxQJzpj
           stance: supports
-          locator: null
+          locator: CBDB:703810
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -128,7 +128,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王繼貞 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王繼貞，清人物。籍贯平陰。（中国历代人物传记资料库 CBDB 703810） | accepted |
 
 ## 关联关系
 

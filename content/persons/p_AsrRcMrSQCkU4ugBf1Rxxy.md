@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王新熙，清人物。籍贯浙江省，入仕軍功補授(軍功)，曾任中軍守備。（中国历代人物传记资料库 CBDB 638309）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_EtbV4hS2VcyLHTMHFsDxnJ
+        - id: cs_wCYlnQrvn8QXfnqJH8UsGu
           claim_id: c_ZijR6pNA57PvXohjjj9HKT
           source_id: s_p8pNqsABmt8KHjaQYxFgv5
           stance: supports
-          locator: null
+          locator: CBDB:638309
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王新熙 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王新熙，清人物。籍贯浙江省，入仕軍功補授(軍功)，曾任中軍守備。（中国历代人物传记资料库 CBDB 638309） | accepted |
 
 ## 关联关系
 

@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
-          language: zh-Hans
+          text: 王嶷（卒于798年），唐人物。籍贯太原，曾任長史。（中国历代人物传记资料库 CBDB 175871）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_5DfXTsmrBGsKbKWYzkLM75
+        - id: cs_E7T_sp9nv-Nkie1BNZHqvz
           claim_id: c_Ur6iQACT5GJjSAD3WBAYVb
           source_id: s_ExTojhQW1LXt57GnikkmjF
           stance: supports
-          locator: null
+          locator: CBDB:175871
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -146,7 +146,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王嶷 | accepted |
 | death.date | 798年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王嶷（卒于798年），唐人物。籍贯太原，曾任長史。（中国历代人物传记资料库 CBDB 175871） | accepted |
 
 ## 关联关系
 

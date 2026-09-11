@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
+          text: 王宥，元人物。身份为隱居不仕。（中国历代人物传记资料库 CBDB 100719）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_TjwV4Wn8EjpQo7cWRYJLNf
+        - id: cs_eIZwQXdz6ed1wC8QRsqXp_
           claim_id: c_GTofXd8QcrEB26WEosqPgx
           source_id: s_QZmXpEQ9bqXUEoHC1iKJ29
           stance: supports
-          locator: null
+          locator: CBDB:100719
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王宥 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王宥，元人物。身份为隱居不仕。（中国历代人物传记资料库 CBDB 100719） | accepted |
 
 ## 关联关系
 

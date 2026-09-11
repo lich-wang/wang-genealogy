@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王恩向，史料所见人物。本项目依据《中国历代人物传记资料库：王恩向（CBDB 527041）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_i8SmzZ3RpDNs98Ru4qNyLB
+        - id: cs_eFWnU5Afb3QYa6U07J0Uw7
           claim_id: c_JvQJV7Yv5U4TJ63TjGDXZK
           source_id: s_UQFpwKsAiCzGmyaFZ6Kwyh
           stance: supports
-          locator: null
+          locator: CBDB:527041
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王恩向 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王恩向，史料所见人物。本项目依据《中国历代人物传记资料库：王恩向（CBDB 527041）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王峻，明人物。嘉靖四十四年進士。（中国历代人物传记资料库 CBDB 331573）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_hFz7CzbPYYjn9sBjFVCTtS
+        - id: cs_jOwUh0G9PDTGAKOQJSfSzI
           claim_id: c_UdffgF6bwYXju1uCrMTHRR
           source_id: s_pA7sXebaPic8P156EP379D
           stance: supports
-          locator: null
+          locator: CBDB:331573
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王峻 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王峻，明人物。嘉靖四十四年進士。（中国历代人物传记资料库 CBDB 331573） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王殿光，清人物。籍贯睢州，曾任知縣。（中国历代人物传记资料库 CBDB 638929）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_rGdw61JXFwjqNTfDJ2DKsH
+        - id: cs_A-6_4dd2P__CbJ9Poroz-2
           claim_id: c_bi2eUkJfSr3D6iQrbCYPpu
           source_id: s_q3QiqoUQvx2LpaMXSKDbRC
           stance: supports
-          locator: null
+          locator: CBDB:638929
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王殿光 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王殿光，清人物。籍贯睢州，曾任知縣。（中国历代人物传记资料库 CBDB 638929） | accepted |
 
 ## 关联关系
 

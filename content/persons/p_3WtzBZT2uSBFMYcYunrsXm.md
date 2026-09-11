@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王澤溥，明人物。籍贯雲和，身份为建書院/義塾/家塾。（中国历代人物传记资料库 CBDB 575362）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_eA99B6GrLuBQMF62n7GFrw
+        - id: cs_8s_06IfrZx-UgZ3YOlP6uJ
           claim_id: c_NNAXaLXj1KqVqLRhMc2R91
           source_id: s_cE8JQ5PS4nXPs52zF53Ryg
           stance: supports
-          locator: null
+          locator: CBDB:575362
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王澤溥 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王澤溥，明人物。籍贯雲和，身份为建書院/義塾/家塾。（中国历代人物传记资料库 CBDB 575362） | accepted |
 
 ## 关联关系
 

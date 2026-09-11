@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王壎，明人物。籍贯武進。（中国历代人物传记资料库 CBDB 236483）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_29HdzDK1s31TtiFMJn65sz
+        - id: cs_eOSFZ9aI4zHNgU3S86oer6
           claim_id: c_84pxJaSP9cWy6oeP2cJW8e
           source_id: s_NHvLLy169M9v8zMxmM4Pmf
           stance: supports
-          locator: null
+          locator: CBDB:236483
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王壎 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王壎，明人物。籍贯武進。（中国历代人物传记资料库 CBDB 236483） | accepted |
 
 ## 关联关系
 

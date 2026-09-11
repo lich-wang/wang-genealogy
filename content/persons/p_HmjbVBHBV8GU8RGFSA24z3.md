@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王與階（1612年—1676年），清人物。籍贯新城。（中国历代人物传记资料库 CBDB 71339）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_ckRHDFxGtNmCHCj63CY7hy
+        - id: cs_xJbEeTDkCl3FIRoMnwIt9t
           claim_id: c_6Co4VGExy8Y5HxnAUACUvK
           source_id: s_Ns7xqMukNkooX6b99C5s9N
           stance: supports
-          locator: null
+          locator: CBDB:71339
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王與階 | accepted |
 | birth.date | 1612年 | accepted |
 | death.date | 1676年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王與階（1612年—1676年），清人物。籍贯新城。（中国历代人物传记资料库 CBDB 71339） | accepted |
 
 ## 关联关系
 

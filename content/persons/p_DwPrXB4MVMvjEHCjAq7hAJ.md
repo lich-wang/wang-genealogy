@@ -7,6 +7,44 @@ display_name: 姜氏
 revision: 1
 cbdb_id: 699841
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_ucD96RTy-6q_tDrB4SJVMZ
+        subject_person_id: p_DwPrXB4MVMvjEHCjAq7hAJ
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 姜氏，明人物。籍贯武進。（中国历代人物传记资料库 CBDB 699841）
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JYqGch3E9SIthKWM5t03yD
+          claim_id: c_ucD96RTy-6q_tDrB4SJVMZ
+          source_id: s_1sYuKAaiGztiU4zO8it-MK
+          stance: supports
+          locator: CBDB:699841
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_1sYuKAaiGztiU4zO8it-MK
+            source_type: api_record
+            title: 中国历代人物传记资料库：姜氏(王章妻)（CBDB 699841）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699841&o=json
+            external_identifier: CBDB:699841
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:699841
           quotation: null
           interpretation_note: CBDB 明确记录的王章配偶
-          source: &a1
-            id: s_1sYuKAaiGztiU4zO8it-MK
-            source_type: api_record
-            title: 中国历代人物传记资料库：姜氏(王章妻)（CBDB 699841）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699841&o=json
-            external_identifier: CBDB:699841
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 姜氏，明人物。籍贯武進。（中国历代人物传记资料库 CBDB 699841） | accepted |
 | name.primary | 姜氏 | accepted |
 
 ## 关联关系

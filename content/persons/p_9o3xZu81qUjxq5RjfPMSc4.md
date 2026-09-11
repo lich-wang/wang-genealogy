@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王如芝，清人物。籍贯黃岡，曾任教諭。（中国历代人物传记资料库 CBDB 636977）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_FF2jfKdxrRAfT57k7GURNG
+        - id: cs_uvtuRSfsxwyHVnKpSqK9ya
           claim_id: c_DVHpHKA3nWVD6n66qMrw99
           source_id: s_Mbqf8NnvDacWq8rfpmQQbd
           stance: supports
-          locator: null
+          locator: CBDB:636977
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王如芝 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王如芝，清人物。籍贯黃岡，曾任教諭。（中国历代人物传记资料库 CBDB 636977） | accepted |
 
 ## 关联关系
 

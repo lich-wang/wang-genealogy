@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王懿德（1798年—1861年），清人物。明清進士進士，籍贯祥符，入仕進士，曾任巡撫、知府。（中国历代人物传记资料库 CBDB 57222）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_kRVHBWxqdw7Rf3KCfZ9eLE
+        - id: cs_mf1Oin_Js4WyInngosuXsO
           claim_id: c_3g2Phd49bau2D2Pq7zshrU
           source_id: s_fFA9vAN1NmcpsBXnJbP6NV
           stance: supports
-          locator: null
+          locator: CBDB:57222
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -253,7 +253,7 @@ relationships:
 | name.primary | 王懿德 | accepted |
 | birth.date | 1798年 | accepted |
 | death.date | 1861年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王懿德（1798年—1861年），清人物。明清進士進士，籍贯祥符，入仕進士，曾任巡撫、知府。（中国历代人物传记资料库 CBDB 57222） | accepted |
 
 ## 关联关系
 

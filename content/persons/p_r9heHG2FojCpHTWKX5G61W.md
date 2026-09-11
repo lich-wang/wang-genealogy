@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: "王泌，宋人物。籍贯鄞縣，入仕恩蔭: 遺表蔭補。（中国历代人物传记资料库 CBDB 35689）"
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_4j8zrFCoDjkXAXgBNU3JeC
+        - id: cs_Sc19n6L0NfrNRy5XlY3UK0
           claim_id: c_PQA1sg3WjPTahRziCGQSZC
           source_id: s_Tb6hu7US98fFT3KecwZm1y
           stance: supports
-          locator: null
+          locator: CBDB:35689
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王泌 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王泌，宋人物。籍贯鄞縣，入仕恩蔭: 遺表蔭補。（中国历代人物传记资料库 CBDB 35689） | accepted |
 
 ## 关联关系
 

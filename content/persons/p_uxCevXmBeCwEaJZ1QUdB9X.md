@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王淪，唐人物。曾任州刺史。（中国历代人物传记资料库 CBDB 381752）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_hXF2Q1yf3HMmbg7Gub9eGE
+        - id: cs_pDq7Bd_XAYOpIza4mV11yF
           claim_id: c_vgPEDACJnkRQ5XeqAm9A4D
           source_id: s_EDKALziYHfgWYNgUJg8mrW
           stance: supports
-          locator: null
+          locator: CBDB:381752
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王淪 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王淪，唐人物。曾任州刺史。（中国历代人物传记资料库 CBDB 381752） | accepted |
 
 ## 关联关系
 

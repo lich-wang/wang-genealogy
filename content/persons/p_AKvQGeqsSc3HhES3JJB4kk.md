@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王鉎，清人物。籍贯上元，入仕貢生 = 貢監生 (明清賓貢,功貢)，曾任縣丞、知州。（中国历代人物传记资料库 CBDB 640556）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_HtPA55MvNbr15HzyTGxVgP
+        - id: cs_qeVBsj31ijraPScUrQ87y8
           claim_id: c_8GUm6a6ohmRh7SizPhr4b7
           source_id: s_PzUQgCiobyQ1idhrxskQgt
           stance: supports
-          locator: null
+          locator: CBDB:640556
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王鉎 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王鉎，清人物。籍贯上元，入仕貢生 = 貢監生 (明清賓貢,功貢)，曾任縣丞、知州。（中国历代人物传记资料库 CBDB 640556） | accepted |
 
 ## 关联关系
 

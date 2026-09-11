@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
-          language: zh-Hans
+          text: 王溥（1277年—1349年），元人物。籍贯安陽，曾任警巡院院使、肅政廉訪司書吏、知州。（中国历代人物传记资料库 CBDB 100863）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_UUormBw15cdP1vGx91e1ra
+        - id: cs_IxJt_DTyAVaLmJghNcAQyt
           claim_id: c_EtLeHAKnDJFNaVM1yz39mV
           source_id: s_jjKihTVEMDSrsEMYuJW6dw
           stance: supports
-          locator: null
+          locator: CBDB:100863
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王溥 | accepted |
 | birth.date | 1277年 | accepted |
 | death.date | 1349年 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王溥（1277年—1349年），元人物。籍贯安陽，曾任警巡院院使、肅政廉訪司書吏、知州。（中国历代人物传记资料库 CBDB 100863） | accepted |
 
 ## 关联关系
 

@@ -7,6 +7,44 @@ display_name: 孔传铎
 cbdb_id: 56694
 revision: 1
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_fVXpO6aozEdm3uyWxw2P-o
+        subject_person_id: p_6RpXXEfXnGvAQXNQQcuQeh
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 孔传铎（1673—1735），清人物。籍贯曲阜。（中国历代人物传记资料库 CBDB 56694）
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WarmfDNG65kk9LZtYRLmoi
+          claim_id: c_fVXpO6aozEdm3uyWxw2P-o
+          source_id: s_GSo9CDnq9yN6jTEZhE1Y8t
+          stance: supports
+          locator: CBDB:56694
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_GSo9CDnq9yN6jTEZhE1Y8t
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：孔傳鐸（56694）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=56694&o=json
+            external_identifier: CBDB:56694
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,7 +69,7 @@ properties:
           locator: Q10944224
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source: &a1
+          source: &a2
             id: s_K9LBHjQM9fJczwv6sy2kPP
             source_type: api_record
             title: 维基数据：孔传铎（Q10944224）
@@ -51,18 +89,7 @@ properties:
           locator: CBDB:56694
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source:
-            id: s_GSo9CDnq9yN6jTEZhE1Y8t
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：孔傳鐸（56694）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=56694&o=json
-            external_identifier: CBDB:56694
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T08:06:50.055Z
-            metadata_json: null
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -110,7 +137,7 @@ relationships:
           locator: P26（配偶）
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: *a2
       object_person:
         id: p_YbJtXntaA19PL7EU5mpmxE
         status: active
@@ -129,6 +156,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 孔传铎（1673—1735），清人物。籍贯曲阜。（中国历代人物传记资料库 CBDB 56694） | accepted |
 | name.primary | 孔传铎 | accepted |
 
 ## 关联关系

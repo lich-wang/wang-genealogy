@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王餘，清人物。籍贯宣化，入仕鄉貢舉人，曾任復設訓導、復設教諭。（中国历代人物传记资料库 CBDB 640883）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_NtBkYQuWVMBbufwnNqFpUz
+        - id: cs_-oYc-z_7CBNVBEiPdhyqjy
           claim_id: c_p5a5yyrbzqhGuXEQKrxLRc
           source_id: s_HjvRScaEnpdCaGWozY4bAg
           stance: supports
-          locator: null
+          locator: CBDB:640883
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王餘 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王餘，清人物。籍贯宣化，入仕鄉貢舉人，曾任復設訓導、復設教諭。（中国历代人物传记资料库 CBDB 640883） | accepted |
 
 ## 关联关系
 

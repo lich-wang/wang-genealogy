@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王夢燕，清人物。籍贯宛平，曾任典史。（中国历代人物传记资料库 CBDB 636872）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Eyt1ZbXwSWiGq6f7g5KCPb
+        - id: cs_YkF1DsSvu4RfOIqmoUYbHs
           claim_id: c_yj6M57y5p9K5N5HVVZz3uM
           source_id: s_RUyEPLjzk6UzbQemoECyDF
           stance: supports
-          locator: null
+          locator: CBDB:636872
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王夢燕 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王夢燕，清人物。籍贯宛平，曾任典史。（中国历代人物传记资料库 CBDB 636872） | accepted |
 
 ## 关联关系
 

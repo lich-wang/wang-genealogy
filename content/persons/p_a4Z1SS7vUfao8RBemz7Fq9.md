@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王兆琛（1786年—1852年），清人物。明清進士進士，籍贯福山，入仕進士，曾任布政使、編修、道監察御史。（中国历代人物传记资料库 CBDB 58608）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_AHsmR6C5Y3962ntv4s8Acc
+        - id: cs_Vkljx3Yy4_HFM7MyIrjt_F
           claim_id: c_eguMKTpP7q8YUMaA7DBgNE
           source_id: s_brKMi5GwnBcw3HCt4kiPWS
           stance: supports
-          locator: null
+          locator: CBDB:58608
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -353,7 +353,7 @@ relationships:
 | name.primary | 王兆琛 | accepted |
 | birth.date | 1786年 | accepted |
 | death.date | 1852年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王兆琛（1786年—1852年），清人物。明清進士進士，籍贯福山，入仕進士，曾任布政使、編修、道監察御史。（中国历代人物传记资料库 CBDB 58608） | accepted |
 
 ## 关联关系
 

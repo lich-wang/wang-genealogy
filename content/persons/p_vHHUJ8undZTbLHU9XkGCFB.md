@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王普（1726年—1796年），清人物。籍贯固安，曾任河標副將、外委、營副將。（中国历代人物传记资料库 CBDB 58601）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_cqxp4BTNecM7RGbBY1ZzSr
+        - id: cs_FWD7xN_8dTXIz5BsblnqZ8
           claim_id: c_CPuuVsQS9vGiTT5VPKMTEp
           source_id: s_yH3i6oubyRNQyWE6aupXyV
           stance: supports
-          locator: null
+          locator: CBDB:58601
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王普 | accepted |
 | birth.date | 1726年 | accepted |
 | death.date | 1796年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王普（1726年—1796年），清人物。籍贯固安，曾任河標副將、外委、營副將。（中国历代人物传记资料库 CBDB 58601） | accepted |
 
 ## 关联关系
 

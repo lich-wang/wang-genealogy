@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王邁（836年—855年），唐人物。籍贯硤石，曾任縣丞。（中国历代人物传记资料库 CBDB 145342）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_FDJAcFtkv4q3KeG5pwdBuA
+        - id: cs_crDq3Ww_oKdX5kV-Azrvjv
           claim_id: c_Tvw8vqRBxDGHYacxDLPH3u
           source_id: s_uEqy1f7Z1JGHThuiXZq4to
           stance: supports
-          locator: null
+          locator: CBDB:145342
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -175,7 +175,7 @@ relationships:
 | name.primary | 王邁 | accepted |
 | birth.date | 836年 | accepted |
 | death.date | 855年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王邁（836年—855年），唐人物。籍贯硤石，曾任縣丞。（中国历代人物传记资料库 CBDB 145342） | accepted |
 
 ## 关联关系
 

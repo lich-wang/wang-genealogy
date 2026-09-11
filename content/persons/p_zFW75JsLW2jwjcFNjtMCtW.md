@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王汀，宋人物。籍贯北海，身份为落第士人、收徒講學，入仕舉進士、諸科不第。（中国历代人物传记资料库 CBDB 3981）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Ww4ToT4xhUTtNzCeHD357n
+        - id: cs_ShSLz5dFqNqU8M-mnY68rO
           claim_id: c_MiWZHcEK556Eu8z7LzMp3M
           source_id: s_M6eWGAcJJAY98pAR6qxd5M
           stance: supports
-          locator: null
+          locator: CBDB:3981
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王汀 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王汀，宋人物。籍贯北海，身份为落第士人、收徒講學，入仕舉進士、諸科不第。（中国历代人物传记资料库 CBDB 3981） | accepted |
 
 ## 关联关系
 

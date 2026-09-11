@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王朝壐，清人物。籍贯湖州府，入仕鄉貢舉人，曾任復設教諭。（中国历代人物传记资料库 CBDB 638612）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Q3rMcquiajN5hc3c9BdCQr
+        - id: cs_kGLlz83ud2otgjS4nraLYW
           claim_id: c_3qxNS6FA4D6NbqS9ZiHd65
           source_id: s_FNvV7ZrqdHFyG55dVwnzrG
           stance: supports
-          locator: null
+          locator: CBDB:638612
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王朝壐 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王朝壐，清人物。籍贯湖州府，入仕鄉貢舉人，曾任復設教諭。（中国历代人物传记资料库 CBDB 638612） | accepted |
 
 ## 关联关系
 

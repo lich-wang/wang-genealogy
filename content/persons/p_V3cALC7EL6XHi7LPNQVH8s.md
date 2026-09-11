@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王鉷，唐人物。曾任黜陟使、州刺史、京兆尹。（中国历代人物传记资料库 CBDB 377516）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_VCJcWeW3KGJCpNrek9DHvg
+        - id: cs_3hV7B4N3lZE-yxqntykHli
           claim_id: c_8DCJiXVSPrbw1DmnDQCse1
           source_id: s_d4MQJhjCQrtotcQMJ63vNQ
           stance: supports
-          locator: null
+          locator: CBDB:377516
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王鉷 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王鉷，唐人物。曾任黜陟使、州刺史、京兆尹。（中国历代人物传记资料库 CBDB 377516） | accepted |
 
 ## 关联关系
 

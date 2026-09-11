@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王壽培（生于1836年），清人物。籍贯高郵州。（中国历代人物传记资料库 CBDB 71646）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_qgLCk3KPrXuZXihLoQ21Yz
+        - id: cs_ShNcXrDtyfs2HvJY1WT_iK
           claim_id: c_8gNbw4f77i8MQwm1St5Lue
           source_id: s_8Yj9Q5a5MRAcKLaus5hJ1X
           stance: supports
-          locator: null
+          locator: CBDB:71646
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王壽培 | accepted |
 | birth.date | 1836年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王壽培（生于1836年），清人物。籍贯高郵州。（中国历代人物传记资料库 CBDB 71646） | accepted |
 
 ## 关联关系
 

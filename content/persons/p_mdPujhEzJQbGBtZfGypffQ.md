@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王仲修，宋人物。籍贯鄞縣，身份为校堪學家，入仕進士，曾任著作佐郎、同知太常禮院、崇文院校書。（中国历代人物传记资料库 CBDB 45899）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_EgWBN2Q3P2iQtb6CkFy9Bv
+        - id: cs_bhUfHm9r0Qcg23-Wk5uflI
           claim_id: c_krzUVs6o7M4WHbEAmfzkU1
           source_id: s_rthG3QH9cMSJ9m1PPUdMod
           stance: supports
-          locator: null
+          locator: CBDB:45899
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -128,7 +128,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王仲修 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王仲修，宋人物。籍贯鄞縣，身份为校堪學家，入仕進士，曾任著作佐郎、同知太常禮院、崇文院校書。（中国历代人物传记资料库 CBDB 45899） | accepted |
 
 ## 关联关系
 

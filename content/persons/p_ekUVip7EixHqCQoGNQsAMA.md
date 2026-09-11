@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王藥修，清人物。籍贯英山，入仕進士，曾任內閣侍讀、知府。（中国历代人物传记资料库 CBDB 640172）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_qwjBH5M69PDGHR2KetJoTh
+        - id: cs_6YhoaU5jPnHCevu7DmGGgT
           claim_id: c_Hq8eaZM7vdxq2zwSFTJf8W
           source_id: s_FmeqWXriPYQJ2Zp1ZeKMEw
           stance: supports
-          locator: null
+          locator: CBDB:640172
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王藥修 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王藥修，清人物。籍贯英山，入仕進士，曾任內閣侍讀、知府。（中国历代人物传记资料库 CBDB 640172） | accepted |
 
 ## 关联关系
 

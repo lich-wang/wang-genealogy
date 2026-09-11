@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王承先，清人物。籍贯山陰，入仕監生，曾任經歷。（中国历代人物传记资料库 CBDB 638067）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_hFfyYoHaaUA2o2r4zUBFrr
+        - id: cs_jc7BH6wypTkpojZrQMwI3p
           claim_id: c_KfAN15HE6FAUSEAYDuRjw1
           source_id: s_CxxqEVFhXPXjGrm2qs8Ain
           stance: supports
-          locator: null
+          locator: CBDB:638067
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王承先 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王承先，清人物。籍贯山陰，入仕監生，曾任經歷。（中国历代人物传记资料库 CBDB 638067） | accepted |
 
 ## 关联关系
 

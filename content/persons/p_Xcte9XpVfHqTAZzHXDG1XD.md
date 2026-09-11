@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王常泰，清人物。籍贯蒲州府，入仕鄉貢舉人，曾任教諭。（中国历代人物传记资料库 CBDB 637402）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_NCPBdYVTE4rdKkA7v3fUhp
+        - id: cs_E2hTjrDy1Ypnqusp4qq_mF
           claim_id: c_3FrPq78G8JGumB1E1CuX6K
           source_id: s_kQEzKz71nBYetozvGL3cG2
           stance: supports
-          locator: null
+          locator: CBDB:637402
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王常泰 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王常泰，清人物。籍贯蒲州府，入仕鄉貢舉人，曾任教諭。（中国历代人物传记资料库 CBDB 637402） | accepted |
 
 ## 关联关系
 

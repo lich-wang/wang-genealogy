@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王光丞（1606年—1677年），清人物。籍贯上海，身份为書法家，入仕縣學生員。（中国历代人物传记资料库 CBDB 69205）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_r1LuJEr5qpyybJ5eEL2a8h
+        - id: cs_UYKm8Sw1bda5TLmt25m4-p
           claim_id: c_17xaN6bjgiHVQD1EzXWkQr
           source_id: s_M5j87wKw7LcCEpbBNM7J5V
           stance: supports
-          locator: null
+          locator: CBDB:69205
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王光丞 | accepted |
 | birth.date | 1606年 | accepted |
 | death.date | 1677年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王光丞（1606年—1677年），清人物。籍贯上海，身份为書法家，入仕縣學生員。（中国历代人物传记资料库 CBDB 69205） | accepted |
 
 ## 关联关系
 

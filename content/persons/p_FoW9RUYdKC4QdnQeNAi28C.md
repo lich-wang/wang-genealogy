@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王總，明人物。入仕監生，曾任縣丞。（中国历代人物传记资料库 CBDB 454085）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_4tWjT3dRCiiXj5F7ApAhP7
+        - id: cs_Xoj_4wwj1aPqtLus3Pu9y2
           claim_id: c_3sh5Nbj9mBooYq4SuiiQKG
           source_id: s_WJxAk26Hf3ws9hoeNsG9bk
           stance: supports
-          locator: null
+          locator: CBDB:454085
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王總 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王總，明人物。入仕監生，曾任縣丞。（中国历代人物传记资料库 CBDB 454085） | accepted |
 
 ## 关联关系
 

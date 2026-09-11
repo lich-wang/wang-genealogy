@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为後周人物
-          language: zh-Hans
+          text: 王樸（915年—959年），後周人物。籍贯東平，身份为工於文，入仕進士，曾任樞密使、比部郎中、東都留守。（中国历代人物传记资料库 CBDB 40517）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_WKZvTs54vmzsNKQEEXZ4G2
+        - id: cs_LzZq3mFAvEUFkAAciGrQBp
           claim_id: c_XQbb14D8zvf1oywZKsUo9c
           source_id: s_d1mZ8Zx5aUpG7QYZEZ28Uj
           stance: supports
-          locator: null
+          locator: CBDB:40517
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王樸 | accepted |
 | birth.date | 915年 | accepted |
 | death.date | 959年 | accepted |
-| bio.summary | CBDB 记载为後周人物 | accepted |
+| bio.summary | 王樸（915年—959年），後周人物。籍贯東平，身份为工於文，入仕進士，曾任樞密使、比部郎中、東都留守。（中国历代人物传记资料库 CBDB 40517） | accepted |
 
 ## 关联关系
 

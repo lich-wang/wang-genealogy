@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王時佐，明人物。成化十七年進士，籍贯長垣，曾任推官。（中国历代人物传记资料库 CBDB 256026）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_doUydny6XQ81jx5wp1ddpH
+        - id: cs_6om1FfatX40cdqK_K9u5Ri
           claim_id: c_r5dNUe1NdKgsJP9FLXf8iQ
           source_id: s_7tAA1KTugFjJh6gC8Msmfe
           stance: supports
-          locator: null
+          locator: CBDB:256026
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王時佐 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王時佐，明人物。成化十七年進士，籍贯長垣，曾任推官。（中国历代人物传记资料库 CBDB 256026） | accepted |
 
 ## 关联关系
 

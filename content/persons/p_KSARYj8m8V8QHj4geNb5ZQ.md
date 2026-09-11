@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王健，明人物。成化二年進士，籍贯長興。（中国历代人物传记资料库 CBDB 241973）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_67WobN7sR62ij7cQxf5g43
+        - id: cs_OPYPe0VHiLQeWFPW36r1tJ
           claim_id: c_2Ldo66s6Uj3jrGSf18vzRV
           source_id: s_Um4x9w2jKHBbfQAXumdeem
           stance: supports
-          locator: null
+          locator: CBDB:241973
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王健 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王健，明人物。成化二年進士，籍贯長興。（中国历代人物传记资料库 CBDB 241973） | accepted |
 
 ## 关联关系
 

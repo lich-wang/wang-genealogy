@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王循，明人物。正統十三年進士，籍贯武邑，曾任儒學訓導。（中国历代人物传记资料库 CBDB 240554）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_JAaMhZCkoUSrfJVWxRWHYS
+        - id: cs_gCEiFYdzcwjU_04CvJ1lQE
           claim_id: c_UrER7XK91wCbMzVgkEv4Pw
           source_id: s_NB2MKhiHjCLLzPMJFxGWSL
           stance: supports
-          locator: null
+          locator: CBDB:240554
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王循 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王循，明人物。正統十三年進士，籍贯武邑，曾任儒學訓導。（中国历代人物传记资料库 CBDB 240554） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王謙益，明人物。嘉靖十四年進士，籍贯臨晉。（中国历代人物传记资料库 CBDB 297373）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_tbgxMtB14p1CAQ6cJH8beH
+        - id: cs_ChIT5VlRQulDmDauYuNhdc
           claim_id: c_r6D2e7z5JeATpJG6v3YAeA
           source_id: s_NsU6DF3ZC5DB9uJmv2KDuW
           stance: supports
-          locator: null
+          locator: CBDB:297373
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王謙益 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王謙益，明人物。嘉靖十四年進士，籍贯臨晉。（中国历代人物传记资料库 CBDB 297373） | accepted |
 
 ## 关联关系
 

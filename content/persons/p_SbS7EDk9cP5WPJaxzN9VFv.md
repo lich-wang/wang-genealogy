@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王著（卒于990年），宋人物。籍贯成都府，身份为史學家，曾任殿中侍御史、衛尉寺丞、縣主簿。（中国历代人物传记资料库 CBDB 38965）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_zHA4xTe8ok5AHYstC8Wgt1
+        - id: cs_rBa9ZQ4e1jvU1lxhkVo4fJ
           claim_id: c_bt8DWcquMs89BRfPuJBmKZ
           source_id: s_n6xNx8QGRKPQZCzNFa6yQ1
           stance: supports
-          locator: null
+          locator: CBDB:38965
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -271,7 +271,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王著 | accepted |
 | death.date | 990年 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王著（卒于990年），宋人物。籍贯成都府，身份为史學家，曾任殿中侍御史、衛尉寺丞、縣主簿。（中国历代人物传记资料库 CBDB 38965） | accepted |
 
 ## 关联关系
 

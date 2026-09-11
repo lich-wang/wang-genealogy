@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王嘉，明人物。嘉靖三十八年進士，籍贯南充。（中国历代人物传记资料库 CBDB 324571）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_3Krkf6KFe7tLMV9R2tDzNd
+        - id: cs_YRA3sk6Hdi0t0SExLhlDqT
           claim_id: c_3YC539w2dCrF45vmbMiX5y
           source_id: s_hFjoXob2TkFoVK2G51FAjj
           stance: supports
-          locator: null
+          locator: CBDB:324571
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王嘉 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王嘉，明人物。嘉靖三十八年進士，籍贯南充。（中国历代人物传记资料库 CBDB 324571） | accepted |
 
 ## 关联关系
 

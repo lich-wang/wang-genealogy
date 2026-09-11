@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王庭（1488年—1571年），明人物。籍贯長洲，入仕進士，曾任布政使司參議、提刑按察使司僉事、王府長史。（中国历代人物传记资料库 CBDB 126632）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_fCVtBXBkm2QJtEmXtKFjZq
+        - id: cs_x6gG0ge4OCi8cZWKLZD2Zm
           claim_id: c_jsEP931NKFL5LKxjtEH8FT
           source_id: s_iMvHkHecNYCijisiLoXDw8
           stance: supports
-          locator: null
+          locator: CBDB:126632
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -175,7 +175,7 @@ relationships:
 | name.primary | 王庭 | accepted |
 | birth.date | 1488年 | accepted |
 | death.date | 1571年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王庭（1488年—1571年），明人物。籍贯長洲，入仕進士，曾任布政使司參議、提刑按察使司僉事、王府長史。（中国历代人物传记资料库 CBDB 126632） | accepted |
 
 ## 关联关系
 

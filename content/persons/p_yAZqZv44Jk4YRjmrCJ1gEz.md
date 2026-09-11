@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王寓，明人物。正德六年進士，籍贯遂寧。（中国历代人物传记资料库 CBDB 278871）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_SyDb68yBiPFi443qMsJV8P
+        - id: cs_ISfYccFlURq6yhahg7b-8Z
           claim_id: c_U1gnX3MjVc8s4xANwmySor
           source_id: s_oXCExgw2CmUWEkciiUpTza
           stance: supports
-          locator: null
+          locator: CBDB:278871
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王寓 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王寓，明人物。正德六年進士，籍贯遂寧。（中国历代人物传记资料库 CBDB 278871） | accepted |
 
 ## 关联关系
 

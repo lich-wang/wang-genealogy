@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王三接（1506年—1587年），明人物。明清進士進士，籍贯崑山，入仕進士，曾任禮部主事、縣令。（中国历代人物传记资料库 CBDB 126450）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Edxr3MQkubM9uZbRYN3JAi
+        - id: cs_SDgWU_pzQDHtB7c2Sbly2x
           claim_id: c_FuA7mVjxNpJdfuMN1KowJN
           source_id: s_3hzjaTJXFfi4drhQVLSG4V
           stance: supports
-          locator: null
+          locator: CBDB:126450
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -261,7 +261,7 @@ relationships:
 | name.primary | 王三接 | accepted |
 | birth.date | 1506年 | accepted |
 | death.date | 1587年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王三接（1506年—1587年），明人物。明清進士進士，籍贯崑山，入仕進士，曾任禮部主事、縣令。（中国历代人物传记资料库 CBDB 126450） | accepted |
 
 ## 关联关系
 

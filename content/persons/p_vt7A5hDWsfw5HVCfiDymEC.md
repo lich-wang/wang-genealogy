@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王舟（卒于750年），唐人物。曾任左千牛。（中国历代人物传记资料库 CBDB 191380）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_FuvXgmZ3vZoXXPJcMMDXCb
+        - id: cs_2zjt0ON8951dLS-NZ2PByQ
           claim_id: c_HfJ8oVAPHxHa7tdtFNoNyG
           source_id: s_zjGq1fH7hPK1XUSyWYgUFF
           stance: supports
-          locator: null
+          locator: CBDB:191380
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王舟 | accepted |
 | death.date | 750年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王舟（卒于750年），唐人物。曾任左千牛。（中国历代人物传记资料库 CBDB 191380） | accepted |
 
 ## 关联关系
 

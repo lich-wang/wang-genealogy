@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王一元，明人物。萬曆丙戌科進士進士，籍贯臨清。（中国历代人物传记资料库 CBDB 227298）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_MU7FBGLQw4xWAanEM8BVd9
+        - id: cs_7qIn1oHqlWjDrYJBshIFrI
           claim_id: c_hYzcM1GumZ1aoyKQnMdX72
           source_id: s_qZTW2bHy3cSoA6FjRR9Jz8
           stance: supports
-          locator: null
+          locator: CBDB:227298
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王一元 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王一元，明人物。萬曆丙戌科進士進士，籍贯臨清。（中国历代人物传记资料库 CBDB 227298） | accepted |
 
 ## 关联关系
 

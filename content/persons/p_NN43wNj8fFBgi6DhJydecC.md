@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王榮棨，清人物。籍贯靈石，入仕恩蔭、蔭補，曾任知府。（中国历代人物传记资料库 CBDB 638801）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_98wGUrsVrMWRf56TA3xb3f
+        - id: cs_DpJgEVRabwxoK7IOJgxk-k
           claim_id: c_Zis44qYu914c2tdJCALqkf
           source_id: s_1zoM5D4Zt7K2mw3Ezoscar
           stance: supports
-          locator: null
+          locator: CBDB:638801
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王榮棨 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王榮棨，清人物。籍贯靈石，入仕恩蔭、蔭補，曾任知府。（中国历代人物传记资料库 CBDB 638801） | accepted |
 
 ## 关联关系
 

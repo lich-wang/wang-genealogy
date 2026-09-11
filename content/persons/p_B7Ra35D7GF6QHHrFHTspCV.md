@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王洎，唐人物。籍贯襄陽。（中国历代人物传记资料库 CBDB 156474）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_NC13zx6CcSq46USvkKEe6Q
+        - id: cs_cAiJHO8amdk9y_vwYXUOSt
           claim_id: c_muNsT7ZMcJhfdVkxdfqj9o
           source_id: s_7tnVLQEWRjiirHbTFLxyUr
           stance: supports
-          locator: null
+          locator: CBDB:156474
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王洎 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王洎，唐人物。籍贯襄陽。（中国历代人物传记资料库 CBDB 156474） | accepted |
 
 ## 关联关系
 

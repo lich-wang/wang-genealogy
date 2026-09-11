@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王楝，清人物。籍贯奉天府，入仕鄉貢舉人，曾任知縣。（中国历代人物传记资料库 CBDB 638764）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_ocoMR6HGabVnG1BQk9jTFa
+        - id: cs_QC71OBQ305adkOTIDPKR0W
           claim_id: c_jNrLGAKTzbcC84nxDennDY
           source_id: s_ocUW9iMz7f91HiTHf4AsPU
           stance: supports
-          locator: null
+          locator: CBDB:638764
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王楝 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王楝，清人物。籍贯奉天府，入仕鄉貢舉人，曾任知縣。（中国历代人物传记资料库 CBDB 638764） | accepted |
 
 ## 关联关系
 

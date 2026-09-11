@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
-          language: zh-Hans
+          text: 王國用，元人物。曾任諸路總管府治中。（中国历代人物传记资料库 CBDB 101321）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_ne7cDNdZ1RQ8Hq9J2YdT3u
+        - id: cs_GeYltwVeaQvsNox16KL6uV
           claim_id: c_qMsYmRKD9HxX5c6pes29N8
           source_id: s_hBn4F57pikNTLBQ9SYPiBA
           stance: supports
-          locator: null
+          locator: CBDB:101321
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王國用 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王國用，元人物。曾任諸路總管府治中。（中国历代人物传记资料库 CBDB 101321） | accepted |
 
 ## 关联关系
 

@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王永積（1600年—1660年），清人物。籍贯無錫。（中国历代人物传记资料库 CBDB 71508）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_aoV4Zf8dp8Z8z3vcA9Mx1r
+        - id: cs_BCs0JloZSI6VnUOXN3cV2_
           claim_id: c_Sc1UnAHaSq8zxE2uJ6o3Uj
           source_id: s_DWHTi4B4JsQiK8eXKGh3Jc
           stance: supports
-          locator: null
+          locator: CBDB:71508
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王永積 | accepted |
 | birth.date | 1600年 | accepted |
 | death.date | 1660年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王永積（1600年—1660年），清人物。籍贯無錫。（中国历代人物传记资料库 CBDB 71508） | accepted |
 
 ## 关联关系
 

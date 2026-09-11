@@ -7,6 +7,44 @@ display_name: 田氏
 revision: 1
 cbdb_id: 683898
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_XJxP90cQ5InB2_3wXbb2Kr
+        subject_person_id: p_FQth9XmpESAYcJJoYLLYqE
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 田氏，宋人物。籍贯長子。（中国历代人物传记资料库 CBDB 683898）
+          language: zh-Hant
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_u7zjZm1_qGk1l7lJa_neHB
+          claim_id: c_XJxP90cQ5InB2_3wXbb2Kr
+          source_id: s_qNGaj_L0GoBHa8SFW7cbCI
+          stance: supports
+          locator: CBDB:683898
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_qNGaj_L0GoBHa8SFW7cbCI
+            source_type: api_record
+            title: 中国历代人物传记资料库：田氏(王伴哥妻)（CBDB 683898）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=683898&o=json
+            external_identifier: CBDB:683898
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:683898
           quotation: null
           interpretation_note: CBDB 明确记录的王伴哥配偶
-          source: &a1
-            id: s_qNGaj_L0GoBHa8SFW7cbCI
-            source_type: api_record
-            title: 中国历代人物传记资料库：田氏(王伴哥妻)（CBDB 683898）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=683898&o=json
-            external_identifier: CBDB:683898
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 田氏，宋人物。籍贯長子。（中国历代人物传记资料库 CBDB 683898） | accepted |
 | name.primary | 田氏 | accepted |
 
 ## 关联关系

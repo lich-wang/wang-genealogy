@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王中立，明人物。明清進士進士，籍贯安福，入仕進士，曾任右都御史、知縣。（中国历代人物传记资料库 CBDB 343334）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_vA9wgWX8nPE5RsLUU6wTKM
+        - id: cs_zp9zXS3gRETK31usn7RnYe
           claim_id: c_oSyF4NKomNcBCsokdrXTTV
           source_id: s_9raXoUrmvrKztA1pN598VB
           stance: supports
-          locator: null
+          locator: CBDB:343334
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王中立 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王中立，明人物。明清進士進士，籍贯安福，入仕進士，曾任右都御史、知縣。（中国历代人物传记资料库 CBDB 343334） | accepted |
 
 ## 关联关系
 

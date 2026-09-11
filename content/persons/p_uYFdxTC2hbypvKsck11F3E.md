@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王瀛洲，清人物。籍贯錢塘，入仕鄉貢舉人，曾任教諭。（中国历代人物传记资料库 CBDB 639265）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_arGB94n5fZV62vW4J9gfAM
+        - id: cs_dCr-zGwwuEFj2BoLllA4Ul
           claim_id: c_M2rB8LpXNeH7g3382nG6nc
           source_id: s_U9S6z4dfFrzBcQ9bJrdLDh
           stance: supports
-          locator: null
+          locator: CBDB:639265
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王瀛洲 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王瀛洲，清人物。籍贯錢塘，入仕鄉貢舉人，曾任教諭。（中国历代人物传记资料库 CBDB 639265） | accepted |
 
 ## 关联关系
 

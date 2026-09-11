@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王璽，明人物。明清進士進士，籍贯南豐，身份为博學之人，入仕進士。（中国历代人物传记资料库 CBDB 126871）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_o5vqsjUdXfy45qCXNBq5nb
+        - id: cs_1uyAAWYsAKZT7qoaghJ7Cz
           claim_id: c_bxMHV1v4M3XLD23yU1qL7A
           source_id: s_mRDW9EyYHrm3gzLzoUVdcS
           stance: supports
-          locator: null
+          locator: CBDB:126871
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -204,7 +204,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王璽 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王璽，明人物。明清進士進士，籍贯南豐，身份为博學之人，入仕進士。（中国历代人物传记资料库 CBDB 126871） | accepted |
 
 ## 关联关系
 

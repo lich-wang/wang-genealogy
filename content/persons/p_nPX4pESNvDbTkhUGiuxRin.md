@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王瑀，明人物。成化十七年進士，籍贯長垣，曾任承事郎。（中国历代人物传记资料库 CBDB 256031）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_41hAGccnEYWDNmCDPb31Hs
+        - id: cs_XZmElh5LmfCKKgNH2Fdr-K
           claim_id: c_rLkFmeLFhEGdWntnDAoqDg
           source_id: s_Z4KUHYid5sUNCu6teBKbje
           stance: supports
-          locator: null
+          locator: CBDB:256031
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王瑀 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王瑀，明人物。成化十七年進士，籍贯長垣，曾任承事郎。（中国历代人物传记资料库 CBDB 256031） | accepted |
 
 ## 关联关系
 

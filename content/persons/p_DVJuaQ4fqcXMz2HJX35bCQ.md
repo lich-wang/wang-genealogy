@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王一魁（生于1563年），明人物。萬曆丙戌科進士進士，籍贯洋縣，入仕進士，曾任刑部觀政。（中国历代人物传记资料库 CBDB 207258）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_BHfc3KBM3ddk2n4TAPKiLJ
+        - id: cs_aGU57UbT9tv_F7z8PzuKOS
           claim_id: c_EhFqV8fsGjx25fEVVoJHtL
           source_id: s_4H1eGnKMCeuRiiTPgajk5D
           stance: supports
-          locator: null
+          locator: CBDB:207258
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -344,7 +344,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王一魁 | accepted |
 | birth.date | 1563年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王一魁（生于1563年），明人物。萬曆丙戌科進士進士，籍贯洋縣，入仕進士，曾任刑部觀政。（中国历代人物传记资料库 CBDB 207258） | accepted |
 
 ## 关联关系
 

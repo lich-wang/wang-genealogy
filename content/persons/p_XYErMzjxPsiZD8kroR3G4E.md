@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王道正，明人物。嘉靖二十九年進士，籍贯咸陽，入仕監生。（中国历代人物传记资料库 CBDB 313341）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_S5BkaVZ1pyHpiuhPNd2CLA
+        - id: cs_amqO8XIdHcV2G8hvfjg_Jt
           claim_id: c_toUZxAMsZDLa2Qs7Kt5H4M
           source_id: s_dCTzYRzv2HWo8JsNhUwXTY
           stance: supports
-          locator: null
+          locator: CBDB:313341
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王道正 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王道正，明人物。嘉靖二十九年進士，籍贯咸陽，入仕監生。（中国历代人物传记资料库 CBDB 313341） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王應乾，明人物。入仕鄉貢舉人，曾任同知。（中国历代人物传记资料库 CBDB 450873）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_EZ7ByNZsMEG1DAuy9JF8SV
+        - id: cs_ozR7o-qevb7CGeRSOsdM1s
           claim_id: c_PJx1hDFqz5tft7YNzELL3i
           source_id: s_am2XgHfJyMGEmwSRAeZxuS
           stance: supports
-          locator: null
+          locator: CBDB:450873
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王應乾 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王應乾，明人物。入仕鄉貢舉人，曾任同知。（中国历代人物传记资料库 CBDB 450873） | accepted |
 
 ## 关联关系
 

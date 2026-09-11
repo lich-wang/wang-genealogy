@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王泰，明人物。弘治九年進士，曾任指揮同知。（中国历代人物传记资料库 CBDB 268120）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_HfQ8SC65XQbpuwvyApg82j
+        - id: cs_FMMvAR_5FilDojA-BmEUeu
           claim_id: c_Bw9YYerJE985K55S9EMjcJ
           source_id: s_kJjvSg8DuexevShKS64xJL
           stance: supports
-          locator: null
+          locator: CBDB:268120
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王泰 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王泰，明人物。弘治九年進士，曾任指揮同知。（中国历代人物传记资料库 CBDB 268120） | accepted |
 
 ## 关联关系
 

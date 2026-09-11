@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王鰋，宋人物。籍贯永嘉，入仕進士。（中国历代人物传记资料库 CBDB 541724）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Q9eotsjE6MJrUVaN22cTXc
+        - id: cs_OoVSvp8N5X17BXwDFL83Nf
           claim_id: c_WJkbKH1zNpHGg9zEPLmq8V
           source_id: s_mc9xzJ3wFMVjCR1N3eJHMK
           stance: supports
-          locator: null
+          locator: CBDB:541724
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王鰋 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王鰋，宋人物。籍贯永嘉，入仕進士。（中国历代人物传记资料库 CBDB 541724） | accepted |
 
 ## 关联关系
 

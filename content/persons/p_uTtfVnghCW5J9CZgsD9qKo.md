@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王冶，宋人物。籍贯太原府，身份为良吏;循吏。（中国历代人物传记资料库 CBDB 38778）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_6Chh5AnL3Nc4zZ4Vi42RHv
+        - id: cs_g22xdLEoK1N7WdNgw0s26T
           claim_id: c_DW3CzH8r4DboSKBN3h9Y2q
           source_id: s_eWDBpPYAW2zJHSBtC695wF
           stance: supports
-          locator: null
+          locator: CBDB:38778
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王冶 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王冶，宋人物。籍贯太原府，身份为良吏;循吏。（中国历代人物传记资料库 CBDB 38778） | accepted |
 
 ## 关联关系
 

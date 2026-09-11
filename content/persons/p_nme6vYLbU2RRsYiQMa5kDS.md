@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王璋，明人物。景泰五年進士，籍贯松江守禦千戶所。（中国历代人物传记资料库 CBDB 270694）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_UBf5NMYTJLaqkeLmSkm2tz
+        - id: cs_pCkL8Y0ulzIDp4mkdc8l_s
           claim_id: c_ADEyzpLY4A8UeDFkwA7H3E
           source_id: s_DqBcDqvEb7WbBS8fDK3cQg
           stance: supports
-          locator: null
+          locator: CBDB:270694
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王璋 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王璋，明人物。景泰五年進士，籍贯松江守禦千戶所。（中国历代人物传记资料库 CBDB 270694） | accepted |
 
 ## 关联关系
 

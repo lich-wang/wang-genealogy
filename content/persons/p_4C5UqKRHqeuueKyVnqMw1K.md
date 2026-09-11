@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王渥，宋人物。曾任朝奉大夫。（中国历代人物传记资料库 CBDB 339481）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_8Gi4tRY3aKpr9qYVNo1Bvo
+        - id: cs_Vs_5Z6v-_WbUfIZGZQmWBS
           claim_id: c_mCaiiMKTe3Uk26ZX4zNd2e
           source_id: s_7ST8WEXV72hxEonBy2nc8j
           stance: supports
-          locator: null
+          locator: CBDB:339481
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王渥 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王渥，宋人物。曾任朝奉大夫。（中国历代人物传记资料库 CBDB 339481） | accepted |
 
 ## 关联关系
 

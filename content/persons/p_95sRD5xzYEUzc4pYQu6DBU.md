@@ -7,6 +7,44 @@ display_name: 陳裴之
 revision: 1
 cbdb_id: 54716
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_EUgEPPxpUfuiH7m0nCZFu_
+        subject_person_id: p_95sRD5xzYEUzc4pYQu6DBU
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 陳裴之（1794—1826），清人物。籍贯錢塘。（中国历代人物传记资料库 CBDB 54716）
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5qyTD48yYV0MWEW3ch3oLs
+          claim_id: c_EUgEPPxpUfuiH7m0nCZFu_
+          source_id: s_x5vnWrNZhfH1UgIFS3WKZJ
+          stance: supports
+          locator: CBDB:54716
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_x5vnWrNZhfH1UgIFS3WKZJ
+            source_type: api_record
+            title: 中国历代人物传记资料库：陳裴之（CBDB 54716）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=54716&o=json
+            external_identifier: CBDB:54716
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:54716
           quotation: null
           interpretation_note: CBDB 明确记录的王子蘭配偶
-          source: &a1
-            id: s_x5vnWrNZhfH1UgIFS3WKZJ
-            source_type: api_record
-            title: 中国历代人物传记资料库：陳裴之（CBDB 54716）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=54716&o=json
-            external_identifier: CBDB:54716
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 陳裴之（1794—1826），清人物。籍贯錢塘。（中国历代人物传记资料库 CBDB 54716） | accepted |
 | name.primary | 陳裴之 | accepted |
 
 ## 关联关系

@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
-          language: zh-Hans
+          text: 王載（卒于817年），唐人物。籍贯河東。（中国历代人物传记资料库 CBDB 169179）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_UJkhFdbvMywUBWQds7wicC
+        - id: cs_QCKvz-YEauq5pqtzmOA5Tv
           claim_id: c_UV9XbXz9b9CCgRrVSX8thc
           source_id: s_WKrGPG6s3CNZ1qfGwCx37F
           stance: supports
-          locator: null
+          locator: CBDB:169179
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -194,7 +194,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王載 | accepted |
 | death.date | 817年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王載（卒于817年），唐人物。籍贯河東。（中国历代人物传记资料库 CBDB 169179） | accepted |
 
 ## 关联关系
 

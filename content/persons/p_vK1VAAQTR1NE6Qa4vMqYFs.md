@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
-          language: zh-Hans
+          text: 王遵（1225年—1288年），元人物。籍贯遷安，身份为以疾廢，曾任萬戶、諸路總管府總管、左副都元帥。（中国历代人物传记资料库 CBDB 100966）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_RJsAi1YaZi6BMhACvDZ88J
+        - id: cs_VuABfMOH9a6Q6dEAztJtxF
           claim_id: c_4gEfsDoCHi5uUviNx6s5Az
           source_id: s_MDXSJP514uzA5KmAhUm9dS
           stance: supports
-          locator: null
+          locator: CBDB:100966
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王遵 | accepted |
 | birth.date | 1225年 | accepted |
 | death.date | 1288年 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王遵（1225年—1288年），元人物。籍贯遷安，身份为以疾廢，曾任萬戶、諸路總管府總管、左副都元帥。（中国历代人物传记资料库 CBDB 100966） | accepted |
 
 ## 关联关系
 

@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为閩國人物
-          language: zh-Hans
+          text: 王延嗣（873年—966年），閩國人物。籍贯沙縣，身份为收徒講學、經學家。（中国历代人物传记资料库 CBDB 22150）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_4Muj68qMAbutWQyK8Yb4Xi
+        - id: cs_fv0G5n6Ot6i-bSXNzctjJZ
           claim_id: c_j5Ec2ZZgjUzmYzLD5AJSBz
           source_id: s_ktLrvcyVbaNe6Z4aJbFa2b
           stance: supports
-          locator: null
+          locator: CBDB:22150
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -201,7 +201,7 @@ relationships:
 | name.primary | 王延嗣 | accepted |
 | birth.date | 873年 | accepted |
 | death.date | 966年 | accepted |
-| bio.summary | CBDB 记载为閩國人物 | accepted |
+| bio.summary | 王延嗣（873年—966年），閩國人物。籍贯沙縣，身份为收徒講學、經學家。（中国历代人物传记资料库 CBDB 22150） | accepted |
 
 ## 关联关系
 

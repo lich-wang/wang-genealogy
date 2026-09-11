@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: "王承且，清人物。籍贯貴陽府，入仕貢生: 拔貢，曾任復設訓導。（中国历代人物传记资料库 CBDB 638062）"
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_idiUk3rg3ZL6ka2c5uwMqf
+        - id: cs_xZOsNHEV7-72A_9EIDIaQM
           claim_id: c_ggUxzMhDMFz3FYnoHcfmU8
           source_id: s_vq2yG2k7QK68NT7Bsyd1dz
           stance: supports
-          locator: null
+          locator: CBDB:638062
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王承且 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王承且，清人物。籍贯貴陽府，入仕貢生: 拔貢，曾任復設訓導。（中国历代人物传记资料库 CBDB 638062） | accepted |
 
 ## 关联关系
 

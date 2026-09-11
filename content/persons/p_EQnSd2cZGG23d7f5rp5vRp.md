@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: "王佳成，清人物。籍贯平江，入仕科舉制舉: 武舉科，曾任右軍守備。（中国历代人物传记资料库 CBDB 636025）"
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_27XCaY8vjxYz5T9Zzi79ob
+        - id: cs_dnQeKB1WgKOHEcP4o4zgzT
           claim_id: c_mU7jQeT7BqYV1deX2rFKQo
           source_id: s_kE33C56gfMU8LboYGqsBN9
           stance: supports
-          locator: null
+          locator: CBDB:636025
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王佳成 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王佳成，清人物。籍贯平江，入仕科舉制舉: 武舉科，曾任右軍守備。（中国历代人物传记资料库 CBDB 636025） | accepted |
 
 ## 关联关系
 

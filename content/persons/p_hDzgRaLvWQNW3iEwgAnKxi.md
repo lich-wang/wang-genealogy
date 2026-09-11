@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王惇（1748年—1831年），清人物。籍贯吳江。（中国历代人物传记资料库 CBDB 71202）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_DiJdqjLA8bT9GoYvGgb6pL
+        - id: cs_MFdDEHvTm9g6sA6L0kcu0E
           claim_id: c_QRkm5YBgkXMXJr3GcLSHpt
           source_id: s_YKEpWE9Nwh9fz9Pcp9Mizq
           stance: supports
-          locator: null
+          locator: CBDB:71202
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王惇 | accepted |
 | birth.date | 1748年 | accepted |
 | death.date | 1831年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王惇（1748年—1831年），清人物。籍贯吳江。（中国历代人物传记资料库 CBDB 71202） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王冰，唐人物。籍贯太原，曾任州刺史。（中国历代人物传记资料库 CBDB 158168）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_8CjqXaB5H8ddguP8yLLJVF
+        - id: cs_uClgm1wDfQNeBcSsx5CbJz
           claim_id: c_dwGuG6a8AF7MQ8n9EyNBfq
           source_id: s_qxN738BoX8sV5Rs2efh2Av
           stance: supports
-          locator: null
+          locator: CBDB:158168
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -143,7 +143,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王冰 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王冰，唐人物。籍贯太原，曾任州刺史。（中国历代人物传记资料库 CBDB 158168） | accepted |
 
 ## 关联关系
 

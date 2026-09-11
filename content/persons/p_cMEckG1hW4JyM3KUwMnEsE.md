@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
-          language: zh-Hans
+          text: 王士熙，元人物。籍贯須城，曾任翰林國史院待制、肅政廉訪司廉訪使、御史臺侍御史。（中国历代人物传记资料库 CBDB 28791）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_QDu137kirrUNpnUFq1EBdQ
+        - id: cs_AoslEw5YLPR6zLE9ScAW0A
           claim_id: c_pnyVNKJYLAN94T22ypSmWt
           source_id: s_XFexVN3zRzUbUHmymyvB28
           stance: supports
-          locator: null
+          locator: CBDB:28791
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王士熙 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王士熙，元人物。籍贯須城，曾任翰林國史院待制、肅政廉訪司廉訪使、御史臺侍御史。（中国历代人物传记资料库 CBDB 28791） | accepted |
 
 ## 关联关系
 

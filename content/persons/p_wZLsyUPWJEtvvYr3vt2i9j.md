@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王華（卒于806年），唐人物。籍贯北芒山，曾任水部員外郎、隊正。（中国历代人物传记资料库 CBDB 175735）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_4CvK7gJMLA4BMqH4qSHH4D
+        - id: cs_qZJDN-UO-xZEB_lNOMxOAR
           claim_id: c_AQh5NGJJahQ5wyeu5KjiHt
           source_id: s_FQ4MNp8aniHMGMWeardCca
           stance: supports
-          locator: null
+          locator: CBDB:175735
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -194,7 +194,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王華 | accepted |
 | death.date | 806年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王華（卒于806年），唐人物。籍贯北芒山，曾任水部員外郎、隊正。（中国历代人物传记资料库 CBDB 175735） | accepted |
 
 ## 关联关系
 

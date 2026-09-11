@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王淑，宋人物。身份为早卒(未成年而卒)。（中国历代人物传记资料库 CBDB 385777）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_SLE52rMhYH86yDbYrajNvN
+        - id: cs_evuKmUJWDO9hHr6CzxiyO2
           claim_id: c_qWx245G9xUNqxPCsAgEpuw
           source_id: s_AnDGfYaeCDc4TwS528G1fz
           stance: supports
-          locator: null
+          locator: CBDB:385777
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王淑 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王淑，宋人物。身份为早卒(未成年而卒)。（中国历代人物传记资料库 CBDB 385777） | accepted |
 
 ## 关联关系
 

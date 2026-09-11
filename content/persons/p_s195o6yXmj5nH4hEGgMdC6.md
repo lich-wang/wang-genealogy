@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王萬齢，清人物。籍贯涿州，入仕進士，曾任知縣。（中国历代人物传记资料库 CBDB 640129）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_FyqB5hJtPz74yvQTP4xHr4
+        - id: cs_JYrXhO0sGAwI-4g4H04VWK
           claim_id: c_EEW3imX8gHpDSXR1vPGbJ2
           source_id: s_5wx3i46ydVUtb9BYHb7zb2
           stance: supports
-          locator: null
+          locator: CBDB:640129
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王萬齢 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王萬齢，清人物。籍贯涿州，入仕進士，曾任知縣。（中国历代人物传记资料库 CBDB 640129） | accepted |
 
 ## 关联关系
 

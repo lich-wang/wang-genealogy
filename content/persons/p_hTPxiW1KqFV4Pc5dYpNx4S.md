@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王象震，明人物。隆慶五年進士，籍贯新城。（中国历代人物传记资料库 CBDB 220276）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_69ARJMJBsB7YwC8cZpMNEi
+        - id: cs_fyeOhTTfbtzcLVX3LiKFcp
           claim_id: c_CkouUF1JXVctpcb5SZ8siz
           source_id: s_Duj69prCr4XP1TV1QU73KB
           stance: supports
-          locator: null
+          locator: CBDB:220276
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王象震 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王象震，明人物。隆慶五年進士，籍贯新城。（中国历代人物传记资料库 CBDB 220276） | accepted |
 
 ## 关联关系
 

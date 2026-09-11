@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王遇亨，清人物。籍贯吳縣，入仕鄉貢舉人，曾任水利同知、知縣。（中国历代人物传记资料库 CBDB 640432）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_dgGQd1rU4Tvvbsh1bECovd
+        - id: cs__NCyCX9oXkVJlk6Ufn5SBg
           claim_id: c_KSutvAgw4Dy1sH6878rxKk
           source_id: s_camKSGdFC6NkAHaT57S6W8
           stance: supports
-          locator: null
+          locator: CBDB:640432
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王遇亨 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王遇亨，清人物。籍贯吳縣，入仕鄉貢舉人，曾任水利同知、知縣。（中国历代人物传记资料库 CBDB 640432） | accepted |
 
 ## 关联关系
 

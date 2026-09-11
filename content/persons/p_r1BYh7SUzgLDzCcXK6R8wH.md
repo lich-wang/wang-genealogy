@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王兆麟，清人物。籍贯寶坻，身份为地方士人/鄉紳，入仕封贈。（中国历代人物传记资料库 CBDB 29998）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_aAGqXxW2LRvv7W8MBm7rT6
+        - id: cs_vKkIR3OOEJemr1uaBa-n3w
           claim_id: c_7s83tur2dZfpJX8hfFWFQ3
           source_id: s_9gWPE5ciJevrk5kxjSjrj8
           stance: supports
-          locator: null
+          locator: CBDB:29998
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -143,7 +143,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王兆麟 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王兆麟，清人物。籍贯寶坻，身份为地方士人/鄉紳，入仕封贈。（中国历代人物传记资料库 CBDB 29998） | accepted |
 
 ## 关联关系
 

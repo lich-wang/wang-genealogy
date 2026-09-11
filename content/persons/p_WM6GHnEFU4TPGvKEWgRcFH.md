@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王文熙，明人物。籍贯黟縣，身份为死國難，曾任府經歷。（中国历代人物传记资料库 CBDB 690928）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_XL1zqThS4eWBSxnbDu9XeB
+        - id: cs_ASwhm1JOTMZJeZ-2U7NAUs
           claim_id: c_W9sXTDQwU8umCASBGAb85J
           source_id: s_dQHDhe1fbK7Rt9aM317MeW
           stance: supports
-          locator: null
+          locator: CBDB:690928
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王文熙 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王文熙，明人物。籍贯黟縣，身份为死國難，曾任府經歷。（中国历代人物传记资料库 CBDB 690928） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: "王士奇，清人物。入仕貢生: 選貢(優貢 after 1628)，曾任知縣。（中国历代人物传记资料库 CBDB 489463）"
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_HfJu1WTDJG76YLWjzKBtm2
+        - id: cs_vvB1FRAkS3N3Y3Ke0hPybX
           claim_id: c_G2MvwdV1r8mHFYEGsqGVkN
           source_id: s_o5ddiWZUwPGBu8Zrkwq6h5
           stance: supports
-          locator: null
+          locator: CBDB:489463
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王士奇 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王士奇，清人物。入仕貢生: 選貢(優貢 after 1628)，曾任知縣。（中国历代人物传记资料库 CBDB 489463） | accepted |
 
 ## 关联关系
 

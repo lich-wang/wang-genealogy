@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王閔，明人物。嘉靖三十八年進士，籍贯清苑。（中国历代人物传记资料库 CBDB 323758）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_pL7ku2B5QQdh1BfQfCMPjL
+        - id: cs_FEy25S8fJdnSU3tC-EdEe5
           claim_id: c_rJUyrSurP7Yt7Y9qNK6MdK
           source_id: s_4DuqkcvTjkjUKjzv1NUvFX
           stance: supports
-          locator: null
+          locator: CBDB:323758
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王閔 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王閔，明人物。嘉靖三十八年進士，籍贯清苑。（中国历代人物传记资料库 CBDB 323758） | accepted |
 
 ## 关联关系
 

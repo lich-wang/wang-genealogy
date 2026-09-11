@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为周人物
+          text: 王俱夷（628年—684年），周人物。籍贯太原。（中国历代人物传记资料库 CBDB 139822）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_gqpjAEvc5sYG5ikUCbVP1X
+        - id: cs_nsmbTxHaRtJIfvm_GM_Zxe
           claim_id: c_8hH5MBqMx8EdUtGzdH67LY
           source_id: s_dpiiRMS47N5VeaznpnD7L2
           stance: supports
-          locator: null
+          locator: CBDB:139822
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -186,7 +186,7 @@ relationships:
 | name.primary | 王俱夷 | accepted |
 | birth.date | 628年 | accepted |
 | death.date | 684年 | accepted |
-| bio.summary | CBDB 记载为周人物 | accepted |
+| bio.summary | 王俱夷（628年—684年），周人物。籍贯太原。（中国历代人物传记资料库 CBDB 139822） | accepted |
 
 ## 关联关系
 

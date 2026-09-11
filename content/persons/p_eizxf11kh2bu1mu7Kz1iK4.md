@@ -7,6 +7,44 @@ display_name: 吳氏
 revision: 1
 cbdb_id: 683894
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_hsJboKg7iQ4A5M5m9bVFV4
+        subject_person_id: p_eizxf11kh2bu1mu7Kz1iK4
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 吳氏，宋人物。籍贯長子。（中国历代人物传记资料库 CBDB 683894）
+          language: zh-Hant
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_i54r2H4lIbvhlcQEPoggqO
+          claim_id: c_hsJboKg7iQ4A5M5m9bVFV4
+          source_id: s_QInmBSdADHGlfYRNHR4apW
+          stance: supports
+          locator: CBDB:683894
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_QInmBSdADHGlfYRNHR4apW
+            source_type: api_record
+            title: 中国历代人物传记资料库：吳氏(王茂謙妻)（CBDB 683894）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=683894&o=json
+            external_identifier: CBDB:683894
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:683894
           quotation: null
           interpretation_note: CBDB 明确记录的王茂謙配偶
-          source: &a1
-            id: s_QInmBSdADHGlfYRNHR4apW
-            source_type: api_record
-            title: 中国历代人物传记资料库：吳氏(王茂謙妻)（CBDB 683894）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=683894&o=json
-            external_identifier: CBDB:683894
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 吳氏，宋人物。籍贯長子。（中国历代人物传记资料库 CBDB 683894） | accepted |
 | name.primary | 吳氏 | accepted |
 
 ## 关联关系

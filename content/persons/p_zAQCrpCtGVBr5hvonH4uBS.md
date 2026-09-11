@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王蔭頎，清人物。籍贯絳州直隸州直轄地方，入仕鄉貢舉人，曾任訓導。（中国历代人物传记资料库 CBDB 640162）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_8EULNS66oQDHLjRFJyPPZf
+        - id: cs_u85_7u-W-7J188AMMVHEya
           claim_id: c_bhvQd1L8SLhBnPEcEPiA7G
           source_id: s_DkaDd8wNsHxgu27TRss3Dc
           stance: supports
-          locator: null
+          locator: CBDB:640162
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王蔭頎 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王蔭頎，清人物。籍贯絳州直隸州直轄地方，入仕鄉貢舉人，曾任訓導。（中国历代人物传记资料库 CBDB 640162） | accepted |
 
 ## 关联关系
 

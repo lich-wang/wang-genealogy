@@ -7,6 +7,44 @@ display_name: 石錦繡
 revision: 1
 cbdb_id: 120523
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_hf9YGYt4nsKBMQBcQMaQki
+        subject_person_id: p_4pN98PGfPvKYv2EA9NFycp
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 石錦繡，清人物。籍贯會稽。（中国历代人物传记资料库 CBDB 120523）
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_i05cmwEsDNQWmNLUoXKVYb
+          claim_id: c_hf9YGYt4nsKBMQBcQMaQki
+          source_id: s_7uvfJLwHWWPfTzPcZkWo9q
+          stance: supports
+          locator: CBDB:120523
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_7uvfJLwHWWPfTzPcZkWo9q
+            source_type: api_record
+            title: 中国历代人物传记资料库：石錦繡（CBDB 120523）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=120523&o=json
+            external_identifier: CBDB:120523
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:120523
           quotation: null
           interpretation_note: CBDB 明确记录的王長治配偶
-          source: &a1
-            id: s_7uvfJLwHWWPfTzPcZkWo9q
-            source_type: api_record
-            title: 中国历代人物传记资料库：石錦繡（CBDB 120523）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=120523&o=json
-            external_identifier: CBDB:120523
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 石錦繡，清人物。籍贯會稽。（中国历代人物传记资料库 CBDB 120523） | accepted |
 | name.primary | 石錦繡 | accepted |
 
 ## 关联关系

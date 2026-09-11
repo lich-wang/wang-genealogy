@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王詡，明人物。正统七年進士，籍贯衡陽。（中国历代人物传记资料库 CBDB 238063）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_qSv55wTtGK2iSvbsWsMyoA
+        - id: cs_LLSu01tFLjN1dMHf5aNRdg
           claim_id: c_8coH667vCJzgy6jUZ1n7gz
           source_id: s_nMkGn5pL2CX8xQETeDHGWd
           stance: supports
-          locator: null
+          locator: CBDB:238063
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王詡 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王詡，明人物。正统七年進士，籍贯衡陽。（中国历代人物传记资料库 CBDB 238063） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王應鵬，清人物。籍贯西安，入仕鄉貢舉人，曾任學正。（中国历代人物传记资料库 CBDB 638006）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_vTdcUxYA148ekziQtyjWMa
+        - id: cs_yy5Deu35quKboJ7bhqJTnF
           claim_id: c_2JYvXh4aubCF1EUx87d2rh
           source_id: s_B4VnFdGujr8fJRJP7zyPpE
           stance: supports
-          locator: null
+          locator: CBDB:638006
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王應鵬 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王應鵬，清人物。籍贯西安，入仕鄉貢舉人，曾任學正。（中国历代人物传记资料库 CBDB 638006） | accepted |
 
 ## 关联关系
 

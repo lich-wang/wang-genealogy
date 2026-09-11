@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王承熬，清人物。籍贯樂陵，曾任主事。（中国历代人物传记资料库 CBDB 638094）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_PY2CDPWKJHQwJrC5kDzLjX
+        - id: cs_xms-uWpGanheCP1f4Wz-yr
           claim_id: c_gnLR62H1LpnMzCJpvH8u5P
           source_id: s_AK4eGqbgU6i623EcxX6TLe
           stance: supports
-          locator: null
+          locator: CBDB:638094
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王承熬 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王承熬，清人物。籍贯樂陵，曾任主事。（中国历代人物传记资料库 CBDB 638094） | accepted |
 
 ## 关联关系
 

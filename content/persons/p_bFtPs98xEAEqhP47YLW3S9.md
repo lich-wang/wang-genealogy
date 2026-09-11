@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王珍，清人物。籍贯衡陽。（中国历代人物传记资料库 CBDB 568647）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_DQ9sZRcT8CJsMxCzE25TP8
+        - id: cs_uD_vHgTTn_cvMTedZepVcr
           claim_id: c_JjvEFDUFgdqPA1zvT31FwL
           source_id: s_1mEB62uwkzxW4DApfHUKCR
           stance: supports
-          locator: null
+          locator: CBDB:568647
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王珍 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王珍，清人物。籍贯衡陽。（中国历代人物传记资料库 CBDB 568647） | accepted |
 
 ## 关联关系
 

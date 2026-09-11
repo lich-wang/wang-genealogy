@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: "王大勤，清人物。籍贯山東省，入仕科舉制舉: 武舉科，曾任把總。（中国历代人物传记资料库 CBDB 636889）"
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_2Aj6jNSuvkbY7cBhALRbiG
+        - id: cs_2mMIAD0e9Dxg0_59RhnWTj
           claim_id: c_Nwau4ULgJpKAM15c8xL1Dg
           source_id: s_3zZrg55wPi1UA7QUJnH2Cg
           stance: supports
-          locator: null
+          locator: CBDB:636889
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王大勤 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王大勤，清人物。籍贯山東省，入仕科舉制舉: 武舉科，曾任把總。（中国历代人物传记资料库 CBDB 636889） | accepted |
 
 ## 关联关系
 

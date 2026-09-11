@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王鑑，明人物。成化十一年進士，籍贯鄒縣。（中国历代人物传记资料库 CBDB 249602）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_ggyu8UtQRR5gA6aKZyZN2E
+        - id: cs_rJ4U3KLBR88TJVkZJJ99nP
           claim_id: c_XCd4e4cLdJ2S9BPL39YGBh
           source_id: s_WhRFs2t4o8NdLZg4qvGCdh
           stance: supports
-          locator: null
+          locator: CBDB:249602
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王鑑 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王鑑，明人物。成化十一年進士，籍贯鄒縣。（中国历代人物传记资料库 CBDB 249602） | accepted |
 
 ## 关联关系
 

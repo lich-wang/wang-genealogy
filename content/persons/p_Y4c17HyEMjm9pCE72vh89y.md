@@ -7,6 +7,44 @@ display_name: 程氏
 revision: 1
 cbdb_id: 37634
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_TbSk2Ft66pRDkYNSHsjkDb
+        subject_person_id: p_Y4c17HyEMjm9pCE72vh89y
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 程氏（卒於1179），宋人物。籍贯鄱陽。（中国历代人物传记资料库 CBDB 37634）
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QIKfI2WcwHs_MQwI8Khsl0
+          claim_id: c_TbSk2Ft66pRDkYNSHsjkDb
+          source_id: s_0btNhHnNKpIKgXqjtF7lqV
+          stance: supports
+          locator: CBDB:37634
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_0btNhHnNKpIKgXqjtF7lqV
+            source_type: api_record
+            title: 中国历代人物传记资料库：程氏(王彥暉妻)（CBDB 37634）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37634&o=json
+            external_identifier: CBDB:37634
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:37634
           quotation: null
           interpretation_note: CBDB 明确记录的王彥暉配偶
-          source: &a1
-            id: s_0btNhHnNKpIKgXqjtF7lqV
-            source_type: api_record
-            title: 中国历代人物传记资料库：程氏(王彥暉妻)（CBDB 37634）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37634&o=json
-            external_identifier: CBDB:37634
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 程氏（卒於1179），宋人物。籍贯鄱陽。（中国历代人物传记资料库 CBDB 37634） | accepted |
 | name.primary | 程氏 | accepted |
 
 ## 关联关系

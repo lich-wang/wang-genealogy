@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王約，宋人物。籍贯莘縣，曾任朝奉大夫、提轄雜買務雜賣場。（中国历代人物传记资料库 CBDB 1934）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_q25aFvuhqYwyWPYNDnQjQb
+        - id: cs_MAfuwJKaRqXOS1qSMJMDCa
           claim_id: c_xPmg4ymbrb19mRKN85tLuC
           source_id: s_3bnC56HWyUaa7Dm5vLa529
           stance: supports
-          locator: null
+          locator: CBDB:1934
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王約 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王約，宋人物。籍贯莘縣，曾任朝奉大夫、提轄雜買務雜賣場。（中国历代人物传记资料库 CBDB 1934） | accepted |
 
 ## 关联关系
 

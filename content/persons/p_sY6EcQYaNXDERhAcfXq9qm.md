@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
-          language: zh-Hans
+          text: 王餘慶，元人物。籍贯金華，曾任南臺察院監察御史、經筵檢討。（中国历代人物传记资料库 CBDB 101445）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_3qLf3pmEnNNJRU18bfB4Uu
+        - id: cs_BFpdUD5uB6GDzf7ccdEO6t
           claim_id: c_8NyaXtXsVfC3gjA1rowSss
           source_id: s_wapMcB5aw5tK1njSRD5u3o
           stance: supports
-          locator: null
+          locator: CBDB:101445
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王餘慶 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王餘慶，元人物。籍贯金華，曾任南臺察院監察御史、經筵檢討。（中国历代人物传记资料库 CBDB 101445） | accepted |
 
 ## 关联关系
 

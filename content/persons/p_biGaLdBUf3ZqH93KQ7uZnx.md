@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王懷信，宋人物。籍贯熙州，入仕封贈，曾任太子太傅。（中国历代人物传记资料库 CBDB 22195）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_VmS73eur9aLbHv23vzoXFC
+        - id: cs_BXbVyD_bcPl5afK80tN26N
           claim_id: c_yyW5ZBeRmXsA7vdDtbQoaX
           source_id: s_suZSwBcjvFPqw9MPCk4NV1
           stance: supports
-          locator: null
+          locator: CBDB:22195
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -217,7 +217,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王懷信 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王懷信，宋人物。籍贯熙州，入仕封贈，曾任太子太傅。（中国历代人物传记资料库 CBDB 22195） | accepted |
 
 ## 关联关系
 

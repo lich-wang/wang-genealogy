@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王承宗女
+          text: 王氏，王承宗女。维基数据以独立条目 Q65803894 收录该人物。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_BUFDCu5tAXQ5FX4K9ZP3mh
+        - id: cs_LLONWXq3s3Q5VsIf6ITfTj
           claim_id: c_a8BfysaJQYWS392ETZLodT
           source_id: s_U3WXgTHC7bwj1AAavjP1i3
           stance: supports
-          locator: null
+          locator: Q65803894
           quotation: null
-          interpretation_note: 维基数据条目描述
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
           source: *a1
       object_person: null
     alternatives: []
@@ -137,7 +137,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王氏 | accepted |
-| bio.summary | 王承宗女 | accepted |
+| bio.summary | 王氏，王承宗女。维基数据以独立条目 Q65803894 收录该人物。 | accepted |
 
 ## 关联关系
 

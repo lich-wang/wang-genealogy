@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王明（628年—681年），唐人物。籍贯偃師。（中国历代人物传记资料库 CBDB 139773）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_U4mihYTLFjSJh3mxKGE9v5
+        - id: cs_sq5WScs0R7psYvUleridwJ
           claim_id: c_VCJziKpyoFLhZqoSmYJ2eP
           source_id: s_VxKd1DKm3pG41W1J9mENyc
           stance: supports
-          locator: null
+          locator: CBDB:139773
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -186,7 +186,7 @@ relationships:
 | name.primary | 王明 | accepted |
 | birth.date | 628年 | accepted |
 | death.date | 681年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王明（628年—681年），唐人物。籍贯偃師。（中国历代人物传记资料库 CBDB 139773） | accepted |
 
 ## 关联关系
 

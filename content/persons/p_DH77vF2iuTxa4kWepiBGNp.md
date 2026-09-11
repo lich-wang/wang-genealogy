@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王式和，清人物。籍贯滄州，入仕進士，曾任內閣中書、同知、知府。（中国历代人物传记资料库 CBDB 637602）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_CWeYP9gXWirBwTtKhie6As
+        - id: cs_xNP97_jcbRAaJv_WSr2H6b
           claim_id: c_r3JQRKED81JN5SgYiyryvo
           source_id: s_M7dr8DD6Po1CB6DSDAkHJG
           stance: supports
-          locator: null
+          locator: CBDB:637602
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王式和 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王式和，清人物。籍贯滄州，入仕進士，曾任內閣中書、同知、知府。（中国历代人物传记资料库 CBDB 637602） | accepted |
 
 ## 关联关系
 

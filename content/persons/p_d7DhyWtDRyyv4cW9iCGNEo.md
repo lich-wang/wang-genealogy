@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王墅，清人物。籍贯蕪湖，身份为戲曲作家。（中国历代人物传记资料库 CBDB 691066）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_sbAYQhBk9yuymdjxj5DvUf
+        - id: cs_v6dwsj4qfFaI25fPnWQSiJ
           claim_id: c_1LeCHNWDekRPp8QoLTS1HW
           source_id: s_RUBBM4Ps4C4fmrcrT3TA9X
           stance: supports
-          locator: null
+          locator: CBDB:691066
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王墅 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王墅，清人物。籍贯蕪湖，身份为戲曲作家。（中国历代人物传记资料库 CBDB 691066） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王景濟，清人物。籍贯太谷，入仕監生，曾任郎中。（中国历代人物传记资料库 CBDB 638496）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_CQS1d4rYZ4DNnGR7yiKQEg
+        - id: cs_02sFXo-PBHjN-sZ6cw3bpx
           claim_id: c_48rAuHiWk5jVdnd2ey3n8Y
           source_id: s_S8d3UFNK2kx9bs3yH5SHWo
           stance: supports
-          locator: null
+          locator: CBDB:638496
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王景濟 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王景濟，清人物。籍贯太谷，入仕監生，曾任郎中。（中国历代人物传记资料库 CBDB 638496） | accepted |
 
 ## 关联关系
 

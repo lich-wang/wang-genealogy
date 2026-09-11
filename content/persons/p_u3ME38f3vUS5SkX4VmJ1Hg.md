@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王宗，明人物。成化十一年進士。（中国历代人物传记资料库 CBDB 249893）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_nJbueQH1MvJAHW2sWHAQRX
+        - id: cs_bjoBRd361Ehs0kgGRNHVQm
           claim_id: c_8mjCvCYKsiZJv1Q1VU7FFh
           source_id: s_yu5HsL9g5w5QjGNS6WxeRw
           stance: supports
-          locator: null
+          locator: CBDB:249893
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王宗 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王宗，明人物。成化十一年進士。（中国历代人物传记资料库 CBDB 249893） | accepted |
 
 ## 关联关系
 

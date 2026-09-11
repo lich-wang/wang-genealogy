@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
-          language: zh-Hans
+          text: 王何（卒于801年），唐人物。籍贯長安，曾任王傅。（中国历代人物传记资料库 CBDB 175966）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Z5P1nMkwDrmbBAp55piFNr
+        - id: cs_ieTFKVz_Xs3mK72Rhi9haT
           claim_id: c_FEwCYMsHC6ya93L8yVZryw
           source_id: s_fmJGk9uobrKSsaVtwrSRL9
           stance: supports
-          locator: null
+          locator: CBDB:175966
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -157,7 +157,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王何 | accepted |
 | death.date | 801年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王何（卒于801年），唐人物。籍贯長安，曾任王傅。（中国历代人物传记资料库 CBDB 175966） | accepted |
 
 ## 关联关系
 

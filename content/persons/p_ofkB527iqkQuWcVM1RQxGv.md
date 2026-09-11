@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王允，明人物。曾任主簿。（中国历代人物传记资料库 CBDB 499702）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_iXv8R129U9UjXHivVC2ESH
+        - id: cs_13JGVl4IQJ-n-xBoh7jdU6
           claim_id: c_uGsLyxLEmKZVKnCi1YApA7
           source_id: s_qnkwXLTFiuKgoGu4qCL3Nz
           stance: supports
-          locator: null
+          locator: CBDB:499702
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王允 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王允，明人物。曾任主簿。（中国历代人物传记资料库 CBDB 499702） | accepted |
 
 ## 关联关系
 

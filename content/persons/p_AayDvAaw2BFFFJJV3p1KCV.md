@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王世隆（976年—1042年），宋人物。籍贯河南，入仕明經，曾任司法參軍、通判、縣主簿。（中国历代人物传记资料库 CBDB 38446）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_i2H347RCeu2nghiJhGyZW5
+        - id: cs_P7qaezrI_7hieBXdQCHy4N
           claim_id: c_Lxo19MeyznP9fYqwMYwTAw
           source_id: s_VzvPDRXDpxovog7TLRDnQg
           stance: supports
-          locator: null
+          locator: CBDB:38446
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王世隆 | accepted |
 | birth.date | 976年 | accepted |
 | death.date | 1042年 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王世隆（976年—1042年），宋人物。籍贯河南，入仕明經，曾任司法參軍、通判、縣主簿。（中国历代人物传记资料库 CBDB 38446） | accepted |
 
 ## 关联关系
 

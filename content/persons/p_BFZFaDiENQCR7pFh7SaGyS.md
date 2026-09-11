@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王保，明人物。籍贯榆林衛，曾任都督僉事、都督同知、左都督。（中国历代人物传记资料库 CBDB 512852）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_N1jHqx3Cpi5mZg7HkoK7Je
+        - id: cs_Yi15SH3mlYNxmA4IA4xdJE
           claim_id: c_heRCUJoWgExQANm9wa1w8F
           source_id: s_6T6hHHBQgVocrjof6bWTao
           stance: supports
-          locator: null
+          locator: CBDB:512852
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -195,7 +195,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王保 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王保，明人物。籍贯榆林衛，曾任都督僉事、都督同知、左都督。（中国历代人物传记资料库 CBDB 512852） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: "王烜，宋人物。籍贯金壇，身份为好學，入仕恩蔭: 遺表蔭補，曾任宣教郎。（中国历代人物传记资料库 CBDB 26618）"
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_hXLG7u4xQbLjv1G2nEwnyC
+        - id: cs_x6felpsxqcDmUmLqO1JI25
           claim_id: c_JbUw8ocdwe7CRd1iYiwDXr
           source_id: s_2TkSB7YRZd3A1Cb9geVgCJ
           stance: supports
-          locator: null
+          locator: CBDB:26618
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王烜 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王烜，宋人物。籍贯金壇，身份为好學，入仕恩蔭: 遺表蔭補，曾任宣教郎。（中国历代人物传记资料库 CBDB 26618） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王楷，清人物。籍贯唐縣。（中国历代人物传记资料库 CBDB 556792）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_pX21Ji2fMFonY8gw3B3HME
+        - id: cs_cFdt6BN4o-_slM2TRuhj5H
           claim_id: c_s2EFmKHvNGTe74YBTfTxix
           source_id: s_X8xQFTYPJdtWWMby6UzhY6
           stance: supports
-          locator: null
+          locator: CBDB:556792
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -154,7 +154,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王楷 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王楷，清人物。籍贯唐縣。（中国历代人物传记资料库 CBDB 556792） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王古，宋人物。曾任舍人院、史館、賜緋。（中国历代人物传记资料库 CBDB 25042）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_kqngREAzCpDuib4QM41Qhp
+        - id: cs_IfVhHAZzV-ZlFPL0EINh49
           claim_id: c_AbK7jF2TTzxBL6yA92FXha
           source_id: s_bAohxFFEvCuCEfv743i21R
           stance: supports
-          locator: null
+          locator: CBDB:25042
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王古 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王古，宋人物。曾任舍人院、史館、賜緋。（中国历代人物传记资料库 CBDB 25042） | accepted |
 
 ## 关联关系
 

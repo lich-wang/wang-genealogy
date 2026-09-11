@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王學成，清人物。籍贯藤縣，入仕進士，曾任知縣。（中国历代人物传记资料库 CBDB 637035）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_heqzDLavq4DfTf4KN41YGr
+        - id: cs_VL2WP1r3ZwChRLPqJYs6nH
           claim_id: c_V6Cw5NYQCho4gs6T6DKmJo
           source_id: s_jnPzKkfA1t9hNpNJDEbc47
           stance: supports
-          locator: null
+          locator: CBDB:637035
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王學成 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王學成，清人物。籍贯藤縣，入仕進士，曾任知縣。（中国历代人物传记资料库 CBDB 637035） | accepted |
 
 ## 关联关系
 

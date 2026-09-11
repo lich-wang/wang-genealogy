@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王煒（1620年—1661年），清人物。籍贯太倉直隸州直轄地方，身份为書法家、畫家。（中国历代人物传记资料库 CBDB 56203）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_u8T8TNHCQvTyZqLH7SqQxP
+        - id: cs_A1tPbYEGJTcV4LZ01y9gbv
           claim_id: c_Ci5Sz9QJaCeGnzCKattQg2
           source_id: s_ueKRmgQtBBGaX8bNh3YAmE
           stance: supports
-          locator: null
+          locator: CBDB:56203
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -238,7 +238,7 @@ relationships:
 | name.primary | 王煒 | accepted |
 | birth.date | 1620年 | accepted |
 | death.date | 1661年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王煒（1620年—1661年），清人物。籍贯太倉直隸州直轄地方，身份为書法家、畫家。（中国历代人物传记资料库 CBDB 56203） | accepted |
 
 ## 关联关系
 

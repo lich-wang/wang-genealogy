@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: "王寅（1506年—1588年），明人物。籍贯歙縣，身份为諸宮調與散曲集作家，入仕學校: 生員(庠生)。（中国历代人物传记资料库 CBDB 691325）"
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_rvsse3bFM3GTxG3KnU7FD4
+        - id: cs_cZpIpUS-SceJpw7K7Zr60g
           claim_id: c_aUn7h8GZEyR65hBYCRu9xm
           source_id: s_S6vu6eP8m1LyKtnaU8tmzG
           stance: supports
-          locator: null
+          locator: CBDB:691325
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王寅 | accepted |
 | birth.date | 1506年 | accepted |
 | death.date | 1588年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王寅（1506年—1588年），明人物。籍贯歙縣，身份为諸宮調與散曲集作家，入仕學校: 生員(庠生)。（中国历代人物传记资料库 CBDB 691325） | accepted |
 
 ## 关联关系
 

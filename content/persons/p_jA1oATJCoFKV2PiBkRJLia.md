@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
-          language: zh-Hans
+          text: 王玉汝（卒于1255年），元人物。籍贯東平路，身份为以疾廢，曾任參議、郎中、奏差。（中国历代人物传记资料库 CBDB 101132）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_MBSEcyVaGxGptt3e1KzLuk
+        - id: cs_C8rCgo166Q_fY6nSfPb6Tw
           claim_id: c_FiuhVD4m6WaGc2C6yzDeMh
           source_id: s_FQH64ZN1QfdkXoaBx2mhwq
           stance: supports
-          locator: null
+          locator: CBDB:101132
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王玉汝 | accepted |
 | death.date | 1255年 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王玉汝（卒于1255年），元人物。籍贯東平路，身份为以疾廢，曾任參議、郎中、奏差。（中国历代人物传记资料库 CBDB 101132） | accepted |
 
 ## 关联关系
 

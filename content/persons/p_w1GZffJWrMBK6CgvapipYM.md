@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王樹漢，清人物。籍贯沔陽州，入仕鄉貢舉人，曾任知縣。（中国历代人物传记资料库 CBDB 638862）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_dHAD64b5vFohHke5EC1E6N
+        - id: cs_lkcBVf363qod4NwvTFp--A
           claim_id: c_jk2jA9LQ7qNXVE3MuZeW6E
           source_id: s_vGr8B5HcvNFCSdWXMUFSDW
           stance: supports
-          locator: null
+          locator: CBDB:638862
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王樹漢 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王樹漢，清人物。籍贯沔陽州，入仕鄉貢舉人，曾任知縣。（中国历代人物传记资料库 CBDB 638862） | accepted |
 
 ## 关联关系
 

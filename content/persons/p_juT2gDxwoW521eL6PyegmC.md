@@ -7,6 +7,44 @@ display_name: 彭氏
 revision: 1
 cbdb_id: 557768
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_I3chOnhufhodKpHzdPBSOQ
+        subject_person_id: p_juT2gDxwoW521eL6PyegmC
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 彭氏，清人物。籍贯鄧州，身份为貞婦/節婦。（中国历代人物传记资料库 CBDB 557768）
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3woNh10qbgKIWlxkWcIt8g
+          claim_id: c_I3chOnhufhodKpHzdPBSOQ
+          source_id: s_pZjnkVfcPhxZbbdVCfB9cw
+          stance: supports
+          locator: CBDB:557768
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_pZjnkVfcPhxZbbdVCfB9cw
+            source_type: api_record
+            title: 中国历代人物传记资料库：彭氏(王輯遠妻)（CBDB 557768）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=557768&o=json
+            external_identifier: CBDB:557768
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:557768
           quotation: null
           interpretation_note: CBDB 明确记录的王輯遠配偶
-          source: &a1
-            id: s_pZjnkVfcPhxZbbdVCfB9cw
-            source_type: api_record
-            title: 中国历代人物传记资料库：彭氏(王輯遠妻)（CBDB 557768）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=557768&o=json
-            external_identifier: CBDB:557768
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 彭氏，清人物。籍贯鄧州，身份为貞婦/節婦。（中国历代人物传记资料库 CBDB 557768） | accepted |
 | name.primary | 彭氏 | accepted |
 
 ## 关联关系

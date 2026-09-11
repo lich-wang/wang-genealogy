@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王端（764年—813年），唐人物。籍贯洛陽，曾任太常寺奉禮郎。（中国历代人物传记资料库 CBDB 192577）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Sr3tx1easPkC4qCQve2CCH
+        - id: cs_YbWjSwxtZcAxlgkJXlzA7m
           claim_id: c_eYhGWJwgtGqw9o9smEqk9J
           source_id: s_QCXfQmMjoNQqKRugr7PKZT
           stance: supports
-          locator: null
+          locator: CBDB:192577
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -227,7 +227,7 @@ relationships:
 | name.primary | 王端 | accepted |
 | birth.date | 764年 | accepted |
 | death.date | 813年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王端（764年—813年），唐人物。籍贯洛陽，曾任太常寺奉禮郎。（中国历代人物传记资料库 CBDB 192577） | accepted |
 
 ## 关联关系
 

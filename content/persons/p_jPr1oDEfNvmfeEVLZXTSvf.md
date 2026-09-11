@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王庶，清人物。曾任教諭、訓導。（中国历代人物传记资料库 CBDB 500872）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_PyDgefHkEhnu6LHWCKSjpT
+        - id: cs__P1TJneREkn4YnEG61GaWF
           claim_id: c_G7LY2qNN2JRESMVycsHz4z
           source_id: s_gaMXXsCMa6JV7x1mCAySo7
           stance: supports
-          locator: null
+          locator: CBDB:500872
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王庶 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王庶，清人物。曾任教諭、訓導。（中国历代人物传记资料库 CBDB 500872） | accepted |
 
 ## 关联关系
 

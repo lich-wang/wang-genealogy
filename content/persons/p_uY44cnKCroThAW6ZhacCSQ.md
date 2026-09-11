@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王希賢，清人物。籍贯淄川，入仕鄉貢舉人，曾任縣知縣。（中国历代人物传记资料库 CBDB 69222）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_TJob5MgRpuPSv6Dh7T1GLA
+        - id: cs_XrmzEjutGIulLxDTUfbMuj
           claim_id: c_pMp8P2AzsJvq8YSy8CTgjK
           source_id: s_LGBHmd25HmcofazNRbUSp1
           stance: supports
-          locator: null
+          locator: CBDB:69222
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王希賢 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王希賢，清人物。籍贯淄川，入仕鄉貢舉人，曾任縣知縣。（中国历代人物传记资料库 CBDB 69222） | accepted |
 
 ## 关联关系
 

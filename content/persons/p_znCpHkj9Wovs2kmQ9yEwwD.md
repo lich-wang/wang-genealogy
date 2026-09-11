@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王煥之，宋人物。籍贯江寧，曾任右宣教郎、幹辦行在諸司糧料院。（中国历代人物传记资料库 CBDB 22242）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_FYAsGTKMKu6TMkBms1d5Jt
+        - id: cs_ln0Tf-NF0GWTJfuraXyXGw
           claim_id: c_pjdUoEvdczK3VctvPTLFnr
           source_id: s_NBNWKy2BsD6nuQ5ACQcax8
           stance: supports
-          locator: null
+          locator: CBDB:22242
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -154,7 +154,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王煥之 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王煥之，宋人物。籍贯江寧，曾任右宣教郎、幹辦行在諸司糧料院。（中国历代人物传记资料库 CBDB 22242） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王天祺，清人物。曾任典史。（中国历代人物传记资料库 CBDB 492343）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_ykXtWrVqqxGp6SnwDb2FTS
+        - id: cs_ycc1q0tLSUw06Qj0Z0sEwN
           claim_id: c_7VbceJQkEABbLaVo3AmQ1w
           source_id: s_Lvjzc9CCMiBrC9ntDz5VaM
           stance: supports
-          locator: null
+          locator: CBDB:492343
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王天祺 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王天祺，清人物。曾任典史。（中国历代人物传记资料库 CBDB 492343） | accepted |
 
 ## 关联关系
 

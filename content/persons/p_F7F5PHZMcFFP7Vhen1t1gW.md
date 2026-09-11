@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王思才，清人物。籍贯四川省，入仕行伍，曾任後營遊擊。（中国历代人物传记资料库 CBDB 637798）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_pjbXwpwz6Nih2opPV8LH8m
+        - id: cs_X4mDAi3B87YN1o1rT7jlvu
           claim_id: c_nB1Krn2fFDF8NBZ6fxqKzY
           source_id: s_1U5UQqqNBjKuPe8P6jv1Jd
           stance: supports
-          locator: null
+          locator: CBDB:637798
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王思才 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王思才，清人物。籍贯四川省，入仕行伍，曾任後營遊擊。（中国历代人物传记资料库 CBDB 637798） | accepted |
 
 ## 关联关系
 

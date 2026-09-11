@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王開運（生于1680年），清人物。籍贯通城。（中国历代人物传记资料库 CBDB 71367）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_1cmzKh6EBga7JEXq7F6Hna
+        - id: cs_5pjv9Mollgi3p1jwWk-i_f
           claim_id: c_SUMegCzfh8NswAc1drSVP1
           source_id: s_d4dH7eWiCBtpa7Ak85CJof
           stance: supports
-          locator: null
+          locator: CBDB:71367
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王開運 | accepted |
 | birth.date | 1680年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王開運（生于1680年），清人物。籍贯通城。（中国历代人物传记资料库 CBDB 71367） | accepted |
 
 ## 关联关系
 

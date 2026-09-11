@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王繫（1679年—1751年），清人物。籍贯榆次。（中国历代人物传记资料库 CBDB 71083）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_uPKf2i6g2SePdFD7dM4CUb
+        - id: cs_MBsnxZD8wYJ1zLBWxDOKfm
           claim_id: c_JZvXDhXNC5pKFCgVdUmJkm
           source_id: s_pJA9tQF163VvuPq6NP3cws
           stance: supports
-          locator: null
+          locator: CBDB:71083
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王繫 | accepted |
 | birth.date | 1679年 | accepted |
 | death.date | 1751年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王繫（1679年—1751年），清人物。籍贯榆次。（中国历代人物传记资料库 CBDB 71083） | accepted |
 
 ## 关联关系
 

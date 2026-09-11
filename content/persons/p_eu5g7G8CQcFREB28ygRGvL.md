@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王自成（1169年—1221年），宋人物。籍贯泉州，入仕恩蔭、蔭補，曾任從政郎、司理參軍、縣令。（中国历代人物传记资料库 CBDB 38828）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_syXua5y6outFhcvEDTrFzJ
+        - id: cs_VAQOWD0tabg-NabtU4TZgl
           claim_id: c_UNFHMT2b713PVju2L9BHkW
           source_id: s_v24YJorKXm98KFQqZd8fVH
           stance: supports
-          locator: null
+          locator: CBDB:38828
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -175,7 +175,7 @@ relationships:
 | name.primary | 王自成 | accepted |
 | birth.date | 1169年 | accepted |
 | death.date | 1221年 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王自成（1169年—1221年），宋人物。籍贯泉州，入仕恩蔭、蔭補，曾任從政郎、司理參軍、縣令。（中国历代人物传记资料库 CBDB 38828） | accepted |
 
 ## 关联关系
 

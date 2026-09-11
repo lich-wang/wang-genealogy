@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王炳同（生于1801年），清人物。籍贯文水。（中国历代人物传记资料库 CBDB 71908）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_bYBrhij2yoamq3J1ZLE658
+        - id: cs_0cGCkssFokeaylwk10QT4b
           claim_id: c_1AHGfC6songZDTWWHepKut
           source_id: s_joYbX3PtjxaWvGGc2h52wB
           stance: supports
-          locator: null
+          locator: CBDB:71908
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王炳同 | accepted |
 | birth.date | 1801年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王炳同（生于1801年），清人物。籍贯文水。（中国历代人物传记资料库 CBDB 71908） | accepted |
 
 ## 关联关系
 

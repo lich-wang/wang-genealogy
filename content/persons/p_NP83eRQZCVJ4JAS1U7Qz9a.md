@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王多煌，明人物。籍贯弋陽。（中国历代人物传记资料库 CBDB 530971）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_ZQfxd4UVarKBx7qvUMP18X
+        - id: cs_19RArx0PkWx8JrH8eU7Yg4
           claim_id: c_Mmzt1GWJa1it8b5G2m9Rn6
           source_id: s_551sh9fBFe9PusyHTuN6FA
           stance: supports
-          locator: null
+          locator: CBDB:530971
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王多煌 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王多煌，明人物。籍贯弋陽。（中国历代人物传记资料库 CBDB 530971） | accepted |
 
 ## 关联关系
 

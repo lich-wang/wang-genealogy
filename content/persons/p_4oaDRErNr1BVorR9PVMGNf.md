@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王漢（1883年—1904年），清人物。籍贯蘄水。（中国历代人物传记资料库 CBDB 71054）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_cP1f3jC3E4dtWh7L1ehnDW
+        - id: cs_6OKFfXT2dlkMA2gS93TpxQ
           claim_id: c_6jfjosErpaB6JHqfTqWNhv
           source_id: s_B5H8b6whsbRbhWxyT24M3e
           stance: supports
-          locator: null
+          locator: CBDB:71054
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王漢 | accepted |
 | birth.date | 1883年 | accepted |
 | death.date | 1904年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王漢（1883年—1904年），清人物。籍贯蘄水。（中国历代人物传记资料库 CBDB 71054） | accepted |
 
 ## 关联关系
 

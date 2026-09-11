@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王隆，明人物。曾任醫學典科。（中国历代人物传记资料库 CBDB 477054）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_QRgUnwKncM1gfBYnPk8Soz
+        - id: cs_Hpen5Bsn5SaNq-NV_P-LV1
           claim_id: c_AxEH7WCPMhLtBoCidiCzUn
           source_id: s_j2RpRexb6B8kA6EGABCTqp
           stance: supports
-          locator: null
+          locator: CBDB:477054
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王隆 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王隆，明人物。曾任醫學典科。（中国历代人物传记资料库 CBDB 477054） | accepted |
 
 ## 关联关系
 

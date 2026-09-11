@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王延德（939年—1006年），宋人物。籍贯元城，身份为武將，入仕薦舉 (保任,保舉)，曾任三司衙司、供奉官、殿前承旨。（中国历代人物传记资料库 CBDB 1928）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_w4tiFdPdrhwhVA9z3nfHQU
+        - id: cs_hMdnJ7thw2cGloE1UQVNiE
           claim_id: c_B8nUgnbfsx7raXxd2V8GLn
           source_id: s_HWaKdKoe1C9MLHokSJd2sJ
           stance: supports
-          locator: null
+          locator: CBDB:1928
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王延德 | accepted |
 | birth.date | 939年 | accepted |
 | death.date | 1006年 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王延德（939年—1006年），宋人物。籍贯元城，身份为武將，入仕薦舉 (保任,保舉)，曾任三司衙司、供奉官、殿前承旨。（中国历代人物传记资料库 CBDB 1928） | accepted |
 
 ## 关联关系
 

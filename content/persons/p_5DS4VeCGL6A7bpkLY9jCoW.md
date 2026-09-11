@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王徽，明人物。萬曆丙戌科進士進士，入仕考上會試/貢士，曾任刑部主事。（中国历代人物传记资料库 CBDB 227986）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_JGEb5KPbsduHDfi2GvDq9F
+        - id: cs_bAMufWHIARQjaLg8ySo8z-
           claim_id: c_Mfh9NejFsDwgAVX2bXKqs8
           source_id: s_3D3h1AhYSgdPdu7wde7dMn
           stance: supports
-          locator: null
+          locator: CBDB:227986
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王徽 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王徽，明人物。萬曆丙戌科進士進士，入仕考上會試/貢士，曾任刑部主事。（中国历代人物传记资料库 CBDB 227986） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王泰，明人物。曾任知縣、知州。（中国历代人物传记资料库 CBDB 452362）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_m8BY3ZuJEP4XHP5G6deBoz
+        - id: cs_qle_TVkXn6NgVneb2EkYlK
           claim_id: c_spWScxqQsQfinwVCSMQAV3
           source_id: s_NiSscM3R4VDXhvc3pQ361X
           stance: supports
-          locator: null
+          locator: CBDB:452362
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王泰 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王泰，明人物。曾任知縣、知州。（中国历代人物传记资料库 CBDB 452362） | accepted |
 
 ## 关联关系
 

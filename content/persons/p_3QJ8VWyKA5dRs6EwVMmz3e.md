@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: "王者佐，明人物。籍贯休寧，身份为孝子/孝女，入仕學校: 生員(庠生)。（中国历代人物传记资料库 CBDB 698054）"
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_c7eZJpPjh5mUpXAHV6eJnD
+        - id: cs_vyY7D-meEZVBWIuhVfHc0q
           claim_id: c_95APNMNx8CBAjESPuaj6XK
           source_id: s_BdThcqKD2XzxxfkzmAigpq
           stance: supports
-          locator: null
+          locator: CBDB:698054
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -128,7 +128,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王者佐 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王者佐，明人物。籍贯休寧，身份为孝子/孝女，入仕學校: 生員(庠生)。（中国历代人物传记资料库 CBDB 698054） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王前，明人物。曾任知縣。（中国历代人物传记资料库 CBDB 478513）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Sx7yqMsEA5RimXz4Lw7cZJ
+        - id: cs_RrCIOjZbyeWVD1tB_n0MOs
           claim_id: c_JPArj7acJ8KLWLPyKk8dSs
           source_id: s_FT6i2skfsor3p9BKexJw42
           stance: supports
-          locator: null
+          locator: CBDB:478513
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王前 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王前，明人物。曾任知縣。（中国历代人物传记资料库 CBDB 478513） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王彥大，宋人物。籍贯莆田，入仕特奏名進士、特奏名諸科 、大挑。（中国历代人物传记资料库 CBDB 538219）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_M85nEFvXrqPWZd7pgFrPN4
+        - id: cs_Xk96Bp1y7ZZTFOeLULRIt6
           claim_id: c_DjKuTZcmKhNwZP6BosxKg4
           source_id: s_uaY6Pks4qaggUqXHe2MC1X
           stance: supports
-          locator: null
+          locator: CBDB:538219
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王彥大 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王彥大，宋人物。籍贯莆田，入仕特奏名進士、特奏名諸科 、大挑。（中国历代人物传记资料库 CBDB 538219） | accepted |
 
 ## 关联关系
 

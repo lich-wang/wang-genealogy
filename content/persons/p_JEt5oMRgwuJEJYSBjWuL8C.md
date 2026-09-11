@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王仕詮（卒于822年），唐人物。籍贯太原。（中国历代人物传记资料库 CBDB 189752）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_jLhpq7GBY18EkhK3XYkc4c
+        - id: cs_oR9XNUsnyjx03aX28f2W8p
           claim_id: c_MbRmsZ6T1QvHs4uwugaf12
           source_id: s_bzJ6ACWrci28T9nCZUEYVH
           stance: supports
-          locator: null
+          locator: CBDB:189752
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -157,7 +157,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王仕詮 | accepted |
 | death.date | 822年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王仕詮（卒于822年），唐人物。籍贯太原。（中国历代人物传记资料库 CBDB 189752） | accepted |
 
 ## 关联关系
 

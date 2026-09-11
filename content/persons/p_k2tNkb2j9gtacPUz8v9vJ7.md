@@ -7,6 +7,44 @@ display_name: 吳修月
 revision: 1
 cbdb_id: 78485
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_syCYmH9UKKIT1o9TPP37Rw
+        subject_person_id: p_k2tNkb2j9gtacPUz8v9vJ7
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 吳修月（1867—1894），清人物。籍贯歙縣，身份为詩人。（中国历代人物传记资料库 CBDB 78485）
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ze-I9ejj_k3qhtDjj68yUV
+          claim_id: c_syCYmH9UKKIT1o9TPP37Rw
+          source_id: s_hr4m_7qbEMZSSDM9OazPzQ
+          stance: supports
+          locator: CBDB:78485
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_hr4m_7qbEMZSSDM9OazPzQ
+            source_type: api_record
+            title: 中国历代人物传记资料库：吳修月（CBDB 78485）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=78485&o=json
+            external_identifier: CBDB:78485
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:78485
           quotation: null
           interpretation_note: CBDB 明确记录的王定執配偶
-          source: &a1
-            id: s_hr4m_7qbEMZSSDM9OazPzQ
-            source_type: api_record
-            title: 中国历代人物传记资料库：吳修月（CBDB 78485）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=78485&o=json
-            external_identifier: CBDB:78485
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 吳修月（1867—1894），清人物。籍贯歙縣，身份为詩人。（中国历代人物传记资料库 CBDB 78485） | accepted |
 | name.primary | 吳修月 | accepted |
 
 ## 关联关系

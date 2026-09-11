@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王釗，明人物。正統四年進士，籍贯遷安。（中国历代人物传记资料库 CBDB 237182）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_F7UTRxhR3AmtzZLy2BVPKN
+        - id: cs_DQK1--u-bhLzOLeogvlYNn
           claim_id: c_Lp7FEU31bi1BNz1Z3w8eGD
           source_id: s_gYTz47GJt3oR7cyzKAQ7Hd
           stance: supports
-          locator: null
+          locator: CBDB:237182
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王釗 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王釗，明人物。正統四年進士，籍贯遷安。（中国历代人物传记资料库 CBDB 237182） | accepted |
 
 ## 关联关系
 

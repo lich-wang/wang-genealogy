@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王瓘，宋人物。籍贯洛陽。（中国历代人物传记资料库 CBDB 45855）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_nNgoonDP5pGp4J7fQYmMiU
+        - id: cs_F67nYh1xyMCQ7e6zDDQKkT
           claim_id: c_HGcJoS7jVeiBP3VVgtxC5z
           source_id: s_jmg7jn6x5RR7Dmk8jjed1q
           stance: supports
-          locator: null
+          locator: CBDB:45855
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王瓘 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王瓘，宋人物。籍贯洛陽。（中国历代人物传记资料库 CBDB 45855） | accepted |
 
 ## 关联关系
 

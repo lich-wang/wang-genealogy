@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为中華民國人物
-          language: zh-Hans
+          text: 王祖畬（1842年—1918年），中華民國人物。籍贯鎮洋。（中国历代人物传记资料库 CBDB 71925）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_W29vJQNqgrXCLVPtLafNXx
+        - id: cs_dQ6G1pzyFuWI6wgeTSON9d
           claim_id: c_tyjQGWPTr4PzgHVaDJfb3g
           source_id: s_Uz9g6sUh5LCKqA41rKeHVo
           stance: supports
-          locator: null
+          locator: CBDB:71925
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王祖畬 | accepted |
 | birth.date | 1842年 | accepted |
 | death.date | 1918年 | accepted |
-| bio.summary | CBDB 记载为中華民國人物 | accepted |
+| bio.summary | 王祖畬（1842年—1918年），中華民國人物。籍贯鎮洋。（中国历代人物传记资料库 CBDB 71925） | accepted |
 
 ## 关联关系
 

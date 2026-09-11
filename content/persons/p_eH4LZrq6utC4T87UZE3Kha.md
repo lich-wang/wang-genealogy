@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王揚，宋人物。籍贯常州，入仕進士。（中国历代人物传记资料库 CBDB 540758）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_To5HLzeCfBe2iD7qi3NAQD
+        - id: cs_FuyBGxs8phidSRrYPQVT2w
           claim_id: c_1FhjHjEP1KvDnjAKv9tyaq
           source_id: s_L4kEgJYP2AgKDv5SxDz9di
           stance: supports
-          locator: null
+          locator: CBDB:540758
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王揚 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王揚，宋人物。籍贯常州，入仕進士。（中国历代人物传记资料库 CBDB 540758） | accepted |
 
 ## 关联关系
 

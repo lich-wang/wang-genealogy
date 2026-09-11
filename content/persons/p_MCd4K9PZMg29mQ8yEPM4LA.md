@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王廷相（1851年—1900年），清人物。明清進士進士，籍贯承德府，身份为主書院講席，入仕進士。（中国历代人物传记资料库 CBDB 58606）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_qG6NNVe3W6xFKf7vYENYFA
+        - id: cs_WZHX3wmmP77CH0k-LzEd37
           claim_id: c_qa2s4D7F13QjeeSQri9aJd
           source_id: s_D22BhvSM8bKdiDH8P5NwM7
           stance: supports
-          locator: null
+          locator: CBDB:58606
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -201,7 +201,7 @@ relationships:
 | name.primary | 王廷相 | accepted |
 | birth.date | 1851年 | accepted |
 | death.date | 1900年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王廷相（1851年—1900年），清人物。明清進士進士，籍贯承德府，身份为主書院講席，入仕進士。（中国历代人物传记资料库 CBDB 58606） | accepted |
 
 ## 关联关系
 

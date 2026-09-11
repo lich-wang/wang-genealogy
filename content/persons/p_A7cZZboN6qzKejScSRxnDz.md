@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王進寶（1626年—1685年），清人物。籍贯靖虜衛，曾任標中營遊擊、奮威將軍、提標左營遊擊。（中国历代人物传记资料库 CBDB 57194）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_15wVGf7QbXSm2rijK1dPqJ
+        - id: cs_EuPzR0e17a3kh486gYtVwQ
           claim_id: c_PyYWaJyCdMX71LXPgbQbWN
           source_id: s_YFUqUDzjxaZ35dfCSQ7F2k
           stance: supports
-          locator: null
+          locator: CBDB:57194
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王進寶 | accepted |
 | birth.date | 1626年 | accepted |
 | death.date | 1685年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王進寶（1626年—1685年），清人物。籍贯靖虜衛，曾任標中營遊擊、奮威將軍、提標左營遊擊。（中国历代人物传记资料库 CBDB 57194） | accepted |
 
 ## 关联关系
 

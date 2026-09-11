@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王琮，宋人物。籍贯崇德，身份为孝子/孝女，入仕進士。（中国历代人物传记资料库 CBDB 14773）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_NB8JKHn41uYU91C3CdJseE
+        - id: cs_1t-lmnEvdSHpYBGuTb9JFs
           claim_id: c_5cU5Le5YQvLCo7Y89VDx2N
           source_id: s_Jx1EW44gjXin7R5jr3oHBN
           stance: supports
-          locator: null
+          locator: CBDB:14773
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王琮 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王琮，宋人物。籍贯崇德，身份为孝子/孝女，入仕進士。（中国历代人物传记资料库 CBDB 14773） | accepted |
 
 ## 关联关系
 

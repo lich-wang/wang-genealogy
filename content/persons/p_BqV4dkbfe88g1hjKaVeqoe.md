@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王維德（1669年—1749年），清人物。籍贯吳縣，身份为行醫。（中国历代人物传记资料库 CBDB 69398）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_1VTP7TJEVCYKQmVbvKfPM1
+        - id: cs_tbyI5Mj4tuXNZT8JRSt_66
           claim_id: c_Ye1fjP8KzLosuX6HCvJoWz
           source_id: s_EFjyPV44zJq4g5PRSDfZMe
           stance: supports
-          locator: null
+          locator: CBDB:69398
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -175,7 +175,7 @@ relationships:
 | name.primary | 王維德 | accepted |
 | birth.date | 1669年 | accepted |
 | death.date | 1749年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王維德（1669年—1749年），清人物。籍贯吳縣，身份为行醫。（中国历代人物传记资料库 CBDB 69398） | accepted |
 
 ## 关联关系
 

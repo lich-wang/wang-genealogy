@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王紹羲（卒于1864年），清人物。籍贯湘鄉。（中国历代人物传记资料库 CBDB 69341）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Zn82rbUcpu9nunVE2rKA6g
+        - id: cs_JYH6TIZzADz6klRkmy9aXU
           claim_id: c_dkMhCWZuqUwQe3VF9fc8KW
           source_id: s_LtCJec1e6zEqZ2LaKJRKKK
           stance: supports
-          locator: null
+          locator: CBDB:69341
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王紹羲 | accepted |
 | death.date | 1864年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王紹羲（卒于1864年），清人物。籍贯湘鄉。（中国历代人物传记资料库 CBDB 69341） | accepted |
 
 ## 关联关系
 

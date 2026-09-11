@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王崇德，清人物。籍贯南昌，曾任訓導。（中国历代人物传记资料库 CBDB 637349）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Lx2deWXacjwKFBXjewU5Wv
+        - id: cs_DBtiNL5oWGUhngmbI3AUnc
           claim_id: c_jYP1z5S69JELSJcS1116BL
           source_id: s_r45qnPnwUDMXWhc29WC1hn
           stance: supports
-          locator: null
+          locator: CBDB:637349
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王崇德 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王崇德，清人物。籍贯南昌，曾任訓導。（中国历代人物传记资料库 CBDB 637349） | accepted |
 
 ## 关联关系
 

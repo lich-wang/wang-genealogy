@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
-          language: zh-Hans
+          text: 王旭，元人物。籍贯東平路，身份为士人、收徒講學。（中国历代人物传记资料库 CBDB 30357）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_1Z61uepB5LwAFHQjDP33zA
+        - id: cs_fglRBGXF0eP3XonytH5Byl
           claim_id: c_S41KzF8FJ8SCpKaShF1YjB
           source_id: s_4n7Gp3QBk5nc3shFc2PMya
           stance: supports
-          locator: null
+          locator: CBDB:30357
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王旭 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王旭，元人物。籍贯東平路，身份为士人、收徒講學。（中国历代人物传记资料库 CBDB 30357） | accepted |
 
 ## 关联关系
 

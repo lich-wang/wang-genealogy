@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王述，宋人物。身份为畫家。（中国历代人物传记资料库 CBDB 38217）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_gxDr2i9mNFssvpw8Dqa3jV
+        - id: cs_GQ8xbEXfLJhSYAdOmMcYGX
           claim_id: c_3fNP9hPyrzu2BWyxNLq1mR
           source_id: s_u27k77uDPjnLiVFYzdp4RJ
           stance: supports
-          locator: null
+          locator: CBDB:38217
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王述 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王述，宋人物。身份为畫家。（中国历代人物传记资料库 CBDB 38217） | accepted |
 
 ## 关联关系
 

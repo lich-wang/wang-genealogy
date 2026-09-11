@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王日新，宋人物。入仕進士，曾任教授。（中国历代人物传记资料库 CBDB 485169）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Mty44gEWE6W1ABhq4TeDZA
+        - id: cs_1CILdd_qfOXw7dXMbJT4hR
           claim_id: c_B67tT2PpWPtCQ1WFsiyAuz
           source_id: s_Z6HEXcP3EgM6fJDsBMrPxU
           stance: supports
-          locator: null
+          locator: CBDB:485169
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王日新 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王日新，宋人物。入仕進士，曾任教授。（中国历代人物传记资料库 CBDB 485169） | accepted |
 
 ## 关联关系
 

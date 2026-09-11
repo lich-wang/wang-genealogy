@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王文綬，清人物。籍贯保定，入仕鄉貢舉人，曾任教諭。（中国历代人物传记资料库 CBDB 638272）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_9YHAnNNeT133VyybpSDvoZ
+        - id: cs_1zHVPpIvuqZYYCtC3zVy1E
           claim_id: c_EB7jNDBbc27vX8wLkWvN3U
           source_id: s_JVBHyHNxQgvjRgT5arRGrN
           stance: supports
-          locator: null
+          locator: CBDB:638272
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王文綬 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王文綬，清人物。籍贯保定，入仕鄉貢舉人，曾任教諭。（中国历代人物传记资料库 CBDB 638272） | accepted |
 
 ## 关联关系
 

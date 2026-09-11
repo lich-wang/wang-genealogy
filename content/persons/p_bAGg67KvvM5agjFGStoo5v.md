@@ -7,6 +7,44 @@ display_name: 劉氏
 revision: 1
 cbdb_id: 5130
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_AOtDJIJIgNxfXgncM5I1q6
+        subject_person_id: p_bAGg67KvvM5agjFGStoo5v
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 劉氏（卒於1067），宋人物。籍贯太和，入仕封贈，曾任郡君。（中国历代人物传记资料库 CBDB 5130）
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xwx1Dr64fSJSSZoRSCGI8P
+          claim_id: c_AOtDJIJIgNxfXgncM5I1q6
+          source_id: s_0Md-QDTLzKQWQVBv3O7u98
+          stance: supports
+          locator: CBDB:5130
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_0Md-QDTLzKQWQVBv3O7u98
+            source_type: api_record
+            title: 中国历代人物传记资料库：劉氏(王贄妻)（CBDB 5130）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=5130&o=json
+            external_identifier: CBDB:5130
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:5130
           quotation: null
           interpretation_note: CBDB 明确记录的王贄配偶
-          source: &a1
-            id: s_0Md-QDTLzKQWQVBv3O7u98
-            source_type: api_record
-            title: 中国历代人物传记资料库：劉氏(王贄妻)（CBDB 5130）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=5130&o=json
-            external_identifier: CBDB:5130
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 劉氏（卒於1067），宋人物。籍贯太和，入仕封贈，曾任郡君。（中国历代人物传记资料库 CBDB 5130） | accepted |
 | name.primary | 劉氏 | accepted |
 
 ## 关联关系

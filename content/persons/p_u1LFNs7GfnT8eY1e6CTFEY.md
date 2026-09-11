@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王守基，清人物。明清進士進士，籍贯密縣，入仕進士。（中国历代人物传记资料库 CBDB 342584）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_phj2NsrrvzY4JRFwbe3fJy
+        - id: cs_B9MsYrKt6ZWGIoBerpk1g2
           claim_id: c_UoDgkmFecCzjGznBbN43Pu
           source_id: s_4P5Ergq3BWzDb7HerL5SPE
           stance: supports
-          locator: null
+          locator: CBDB:342584
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王守基 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王守基，清人物。明清進士進士，籍贯密縣，入仕進士。（中国历代人物传记资料库 CBDB 342584） | accepted |
 
 ## 关联关系
 

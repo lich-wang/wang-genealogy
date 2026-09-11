@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王寰，明人物。萬曆丙戌科進士進士。（中国历代人物传记资料库 CBDB 228266）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_muRAf8ghDBDLHK1eQP52R5
+        - id: cs_EgasrN9QoVTTw_6Mh4LnFa
           claim_id: c_VDNexpgtfvY1ef8B9L3d5i
           source_id: s_4GwQtJPeQrwuWxRSdyreku
           stance: supports
-          locator: null
+          locator: CBDB:228266
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王寰 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王寰，明人物。萬曆丙戌科進士進士。（中国历代人物传记资料库 CBDB 228266） | accepted |
 
 ## 关联关系
 

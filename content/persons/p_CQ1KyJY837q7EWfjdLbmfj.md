@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王殷（卒于906年），唐人物。籍贯新鄉。（中国历代人物传记资料库 CBDB 185025）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_6b9FYWV9v4fXChDmht3kq5
+        - id: cs_BTKuBG6F4Vx_0ZVruqhJU2
           claim_id: c_66kBVdsXkDUCdidzSr7XQe
           source_id: s_zBLxbpy2E2g79M9edo3M6q
           stance: supports
-          locator: null
+          locator: CBDB:185025
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -146,7 +146,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王殷 | accepted |
 | death.date | 906年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王殷（卒于906年），唐人物。籍贯新鄉。（中国历代人物传记资料库 CBDB 185025） | accepted |
 
 ## 关联关系
 

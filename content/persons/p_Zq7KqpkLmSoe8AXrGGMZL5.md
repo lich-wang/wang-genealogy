@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王明德，明人物。永樂十年進士。（中国历代人物传记资料库 CBDB 286916）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_ZBFgfdmepDBeVM196g9Qtz
+        - id: cs_ERA4MC2Aor_ZROn85KDNEk
           claim_id: c_GfNffszUBqcuMe7oNQS6vZ
           source_id: s_ioQe7PXr2JHjD9i33LXq2K
           stance: supports
-          locator: null
+          locator: CBDB:286916
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王明德 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王明德，明人物。永樂十年進士。（中国历代人物传记资料库 CBDB 286916） | accepted |
 
 ## 关联关系
 

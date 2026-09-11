@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王道全，清人物。籍贯竹谿，入仕優貢生，曾任知縣。（中国历代人物传记资料库 CBDB 640451）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_c9MAboAofbFA8pMYEAu94F
+        - id: cs_R6rs1jB_sTwYOIlCKRQz9p
           claim_id: c_gPP3Z9N9tF2R71oU1oh9TD
           source_id: s_459Fj9nySACsDstD97wf2y
           stance: supports
-          locator: null
+          locator: CBDB:640451
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王道全 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王道全，清人物。籍贯竹谿，入仕優貢生，曾任知縣。（中国历代人物传记资料库 CBDB 640451） | accepted |
 
 ## 关联关系
 

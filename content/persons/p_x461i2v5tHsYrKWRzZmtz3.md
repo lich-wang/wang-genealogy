@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王光綬，清人物。籍贯會稽，入仕監生，曾任經歷、知縣。（中国历代人物传记资料库 CBDB 636276）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_qBGq8sBMqTTR71V8x4E2iS
+        - id: cs_ff1KABynR2aWrNxc6tahTK
           claim_id: c_V9G743mpXai3E47Y96pP2w
           source_id: s_eRALbewNK4NDYJrS1e9jzU
           stance: supports
-          locator: null
+          locator: CBDB:636276
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王光綬 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王光綬，清人物。籍贯會稽，入仕監生，曾任經歷、知縣。（中国历代人物传记资料库 CBDB 636276） | accepted |
 
 ## 关联关系
 

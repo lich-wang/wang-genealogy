@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
-          language: zh-Hans
+          text: 王顒（779年—848年），唐人物。籍贯萬年。（中国历代人物传记资料库 CBDB 145057）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_HVHcgATAjqQW27xZGic97g
+        - id: cs_RPcz7TaOBBT07synNsV1L4
           claim_id: c_JsgsxTMLE8kezw2E4Yw6mm
           source_id: s_BFo837xf3DsLPaLeKBPCxJ
           stance: supports
-          locator: null
+          locator: CBDB:145057
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -249,7 +249,7 @@ relationships:
 | name.primary | 王顒 | accepted |
 | birth.date | 779年 | accepted |
 | death.date | 848年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王顒（779年—848年），唐人物。籍贯萬年。（中国历代人物传记资料库 CBDB 145057） | accepted |
 
 ## 关联关系
 

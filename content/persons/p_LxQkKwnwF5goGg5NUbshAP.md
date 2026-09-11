@@ -7,6 +7,44 @@ display_name: 周光緯
 revision: 1
 cbdb_id: 83364
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_Ey1ZLYFjS4GaGwwa578Oq7
+        subject_person_id: p_LxQkKwnwF5goGg5NUbshAP
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 周光緯（1785—1828），清人物。籍贯仁和。（中国历代人物传记资料库 CBDB 83364）
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YQ6aa9uJUqqlbM5wXCN3R3
+          claim_id: c_Ey1ZLYFjS4GaGwwa578Oq7
+          source_id: s_XLDdxCSydhYGjezwpL4jEB
+          stance: supports
+          locator: CBDB:83364
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_XLDdxCSydhYGjezwpL4jEB
+            source_type: api_record
+            title: 中国历代人物传记资料库：周光緯（CBDB 83364）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=83364&o=json
+            external_identifier: CBDB:83364
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:83364
           quotation: null
           interpretation_note: CBDB 明确记录的王淑配偶
-          source: &a1
-            id: s_XLDdxCSydhYGjezwpL4jEB
-            source_type: api_record
-            title: 中国历代人物传记资料库：周光緯（CBDB 83364）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=83364&o=json
-            external_identifier: CBDB:83364
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 周光緯（1785—1828），清人物。籍贯仁和。（中国历代人物传记资料库 CBDB 83364） | accepted |
 | name.primary | 周光緯 | accepted |
 
 ## 关联关系

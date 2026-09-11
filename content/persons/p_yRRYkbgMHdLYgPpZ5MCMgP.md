@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王衆仲，唐人物。曾任州刺史。（中国历代人物传记资料库 CBDB 382026）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_icGHXNM35rGRvm2Z3GinaR
+        - id: cs_f6zDdF1B1WRONfGN7-z2CX
           claim_id: c_jmZqzvdWtR6tQ1sQ8t8iBX
           source_id: s_MMBZ5NNm3w1BqPq3NQYi3P
           stance: supports
-          locator: null
+          locator: CBDB:382026
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王衆仲 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王衆仲，唐人物。曾任州刺史。（中国历代人物传记资料库 CBDB 382026） | accepted |
 
 ## 关联关系
 

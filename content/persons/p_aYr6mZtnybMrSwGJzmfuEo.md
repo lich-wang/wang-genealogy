@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王用中，明人物。嘉靖四十四年進士，籍贯襄陵，曾任訓導。（中国历代人物传记资料库 CBDB 332688）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_1CvmWPHSncrepKR8ejKZpf
+        - id: cs_W-qdszaV3_1FZo76_VGKuj
           claim_id: c_7YZajk9nscCKzy94KaCP1K
           source_id: s_neatp7ebYns3gQpFS6CttH
           stance: supports
-          locator: null
+          locator: CBDB:332688
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王用中 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王用中，明人物。嘉靖四十四年進士，籍贯襄陵，曾任訓導。（中国历代人物传记资料库 CBDB 332688） | accepted |
 
 ## 关联关系
 

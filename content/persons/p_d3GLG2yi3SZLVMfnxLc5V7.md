@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王在明，明人物。弘治九年進士，曾任知縣。（中国历代人物传记资料库 CBDB 269143）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_vkx8w76f4psFDfcqYVwGCh
+        - id: cs_Z82iDr9COL16dbZDeaQ98j
           claim_id: c_9aNiw4Lx75ps47jYV4uofm
           source_id: s_xhomToPMbnL32Qrd1DAE83
           stance: supports
-          locator: null
+          locator: CBDB:269143
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王在明 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王在明，明人物。弘治九年進士，曾任知縣。（中国历代人物传记资料库 CBDB 269143） | accepted |
 
 ## 关联关系
 

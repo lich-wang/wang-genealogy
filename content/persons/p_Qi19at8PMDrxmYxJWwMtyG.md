@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王樹桂，清人物。籍贯婺源，入仕特奏名進士、特奏名諸科 、大挑，曾任鄉試分校、知縣。（中国历代人物传记资料库 CBDB 696861）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_DLSRGLNtQdnZqXov1xaycS
+        - id: cs_Wu3x6_paTQ7nl-Q1NiDtzn
           claim_id: c_NqHGkDzqQgs43G5xJGb7ew
           source_id: s_UdHF6sZ6uSYHpRhhw99nvo
           stance: supports
-          locator: null
+          locator: CBDB:696861
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -154,7 +154,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王樹桂 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王樹桂，清人物。籍贯婺源，入仕特奏名進士、特奏名諸科 、大挑，曾任鄉試分校、知縣。（中国历代人物传记资料库 CBDB 696861） | accepted |
 
 ## 关联关系
 

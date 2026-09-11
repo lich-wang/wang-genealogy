@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王宰，唐人物。曾任州刺史。（中国历代人物传记资料库 CBDB 384403）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_W3GXvGtC5PhNonpz5Tn4ov
+        - id: cs_tk0cVvAlwClr9Rc2gyza6h
           claim_id: c_4Pq442R8hRHkX2c2dUpoqC
           source_id: s_SnYqz45dUb7GdfhUpivK7U
           stance: supports
-          locator: null
+          locator: CBDB:384403
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王宰 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王宰，唐人物。曾任州刺史。（中国历代人物传记资料库 CBDB 384403） | accepted |
 
 ## 关联关系
 

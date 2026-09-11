@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王卿月（1138年—1192年），宋人物。籍贯臨海，身份为早卒(未成年而卒)、詩人，入仕進士，曾任卿、太府寺卿、路提點刑獄公事。（中国历代人物传记资料库 CBDB 10127）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_dz5Q3RZwzLYUAtAEcqRQas
+        - id: cs_5DGYmCxvuqqW5kf9GBGBmV
           claim_id: c_SweKUkShpipMpuofa3vYbU
           source_id: s_Mx3ajEqeJb4j3FVLb1yFDm
           stance: supports
-          locator: null
+          locator: CBDB:10127
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -175,7 +175,7 @@ relationships:
 | name.primary | 王卿月 | accepted |
 | birth.date | 1138年 | accepted |
 | death.date | 1192年 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王卿月（1138年—1192年），宋人物。籍贯臨海，身份为早卒(未成年而卒)、詩人，入仕進士，曾任卿、太府寺卿、路提點刑獄公事。（中国历代人物传记资料库 CBDB 10127） | accepted |
 
 ## 关联关系
 

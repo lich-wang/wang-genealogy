@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王濂，清人物。明清進士進士，籍贯吳橋，入仕進士，曾任編修、同考官。（中国历代人物传记资料库 CBDB 342491）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_RSg29JfB9fUasmL2jRsnxt
+        - id: cs_anB-X89Prhmw5y6MdWljWr
           claim_id: c_e6AxhbhZh17eGTpEyCwVc2
           source_id: s_FY6HuY1EQq1cXwZMieCdU1
           stance: supports
-          locator: null
+          locator: CBDB:342491
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王濂 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王濂，清人物。明清進士進士，籍贯吳橋，入仕進士，曾任編修、同考官。（中国历代人物传记资料库 CBDB 342491） | accepted |
 
 ## 关联关系
 

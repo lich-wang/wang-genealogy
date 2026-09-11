@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王尚忠，明人物。嘉靖二十九年進士，籍贯汶上。（中国历代人物传记资料库 CBDB 313488）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_n6ezNMpMPdWcBEnAXfP71S
+        - id: cs_CqdLzGi6WhWYqDdFYs0TZG
           claim_id: c_QTmE2bE4WoGGJxsfENK4aQ
           source_id: s_B1A2xBEPUgAgkN62mCP5je
           stance: supports
-          locator: null
+          locator: CBDB:313488
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王尚忠 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王尚忠，明人物。嘉靖二十九年進士，籍贯汶上。（中国历代人物传记资料库 CBDB 313488） | accepted |
 
 ## 关联关系
 

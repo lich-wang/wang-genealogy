@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
+          text: 王建中，元人物。籍贯建德。（中国历代人物传记资料库 CBDB 437542）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_EtoG3g6CwXqvk5fVqwDDrQ
+        - id: cs_MIvy8Zun6U5eiqsQGbhxuV
           claim_id: c_eJaGrU5CLuMXMxB6ZAk8kv
           source_id: s_2SH4NB9ae1RHmzBzAkne3D
           stance: supports
-          locator: null
+          locator: CBDB:437542
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王建中 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王建中，元人物。籍贯建德。（中国历代人物传记资料库 CBDB 437542） | accepted |
 
 ## 关联关系
 

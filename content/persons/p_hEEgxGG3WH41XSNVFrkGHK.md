@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王嘉（622年—682年），唐人物。籍贯太原。（中国历代人物传记资料库 CBDB 140127）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_7YqG8S2ijnhzXC7XDZCpgm
+        - id: cs_sqGGOLZgrcMO1LQ2QanA3L
           claim_id: c_UtnevdN4MjuC8oo3nSuU8Y
           source_id: s_qPExyUBvjHvmEQNgrGjZuD
           stance: supports
-          locator: null
+          locator: CBDB:140127
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -262,7 +262,7 @@ relationships:
 | name.primary | 王嘉 | accepted |
 | birth.date | 622年 | accepted |
 | death.date | 682年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王嘉（622年—682年），唐人物。籍贯太原。（中国历代人物传记资料库 CBDB 140127） | accepted |
 
 ## 关联关系
 

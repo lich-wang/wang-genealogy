@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王徽，宋人物。曾任通判。（中国历代人物传记资料库 CBDB 484822）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_C49Mdg7kegA9qaQurUq3Y9
+        - id: cs_NLKfk-0ZcS-7p9fDUDXBfk
           claim_id: c_vN9wu9sqtFFcMynTQ1TU2R
           source_id: s_rtY5Hj8KsttQPgerXdkvxQ
           stance: supports
-          locator: null
+          locator: CBDB:484822
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王徽 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王徽，宋人物。曾任通判。（中国历代人物传记资料库 CBDB 484822） | accepted |
 
 ## 关联关系
 

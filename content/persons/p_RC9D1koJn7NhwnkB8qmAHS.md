@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王士偉（1314年—1375年），明人物。籍贯浦江。（中国历代人物传记资料库 CBDB 101032）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_yYppkcqX9XirMX8kNd6Y48
+        - id: cs_QRpYzJYneiriP2kLl68BX_
           claim_id: c_531raMtonF2BD5VB7YnSLb
           source_id: s_zEDSJxP3Mob59HNkFUEVDj
           stance: supports
-          locator: null
+          locator: CBDB:101032
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王士偉 | accepted |
 | birth.date | 1314年 | accepted |
 | death.date | 1375年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王士偉（1314年—1375年），明人物。籍贯浦江。（中国历代人物传记资料库 CBDB 101032） | accepted |
 
 ## 关联关系
 

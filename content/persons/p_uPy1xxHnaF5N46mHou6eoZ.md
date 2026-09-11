@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王禮，明人物。成化十七年進士，籍贯烏程。（中国历代人物传记资料库 CBDB 255104）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_MKyjmfhnCi2DTWT1SE4XEr
+        - id: cs_Nj3m7BNVeay58yMpR6yYMV
           claim_id: c_pz3z8iQY5V6on6TSD1QFEK
           source_id: s_JFEUMBoStgcGfpBonVnTYd
           stance: supports
-          locator: null
+          locator: CBDB:255104
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王禮 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王禮，明人物。成化十七年進士，籍贯烏程。（中国历代人物传记资料库 CBDB 255104） | accepted |
 
 ## 关联关系
 

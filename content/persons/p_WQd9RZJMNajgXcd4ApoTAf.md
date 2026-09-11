@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王宏祚，明人物。曾任典史。（中国历代人物传记资料库 CBDB 453078）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_2JE5TD9V5Cviqq22h7R92U
+        - id: cs_x_lbN6107udRp9nrF_oB0w
           claim_id: c_dgLJYZ7ADtSJTr36Z8Fbqm
           source_id: s_L3wWk7Pz6HRm6PkmagJmYV
           stance: supports
-          locator: null
+          locator: CBDB:453078
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王宏祚 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王宏祚，明人物。曾任典史。（中国历代人物传记资料库 CBDB 453078） | accepted |
 
 ## 关联关系
 

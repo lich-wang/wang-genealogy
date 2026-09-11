@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王湘，明人物。曾任訓導。（中国历代人物传记资料库 CBDB 492486）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_E5fjkdibaHpeEX6NJsFbGR
+        - id: cs_1QMLU6GaUJRLAN7jz_x9CO
           claim_id: c_FV6f9gcn6oq6eDPoY9yHC1
           source_id: s_m6QCKJp2dXCKnBM6uYRZ4p
           stance: supports
-          locator: null
+          locator: CBDB:492486
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王湘 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王湘，明人物。曾任訓導。（中国历代人物传记资料库 CBDB 492486） | accepted |
 
 ## 关联关系
 

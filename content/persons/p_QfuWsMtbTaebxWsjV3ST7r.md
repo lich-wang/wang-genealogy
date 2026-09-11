@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王校，明人物。成化二十三年進士，籍贯黃巖。（中国历代人物传记资料库 CBDB 260169）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_1t411G5DepwiJVvs5ThXXo
+        - id: cs_9Z0IDtYEpaYAWgrZjCVeb7
           claim_id: c_C14cRxgT8hnE7DNmbKrLgC
           source_id: s_rAwhMqgEhdhfE2yQ558gGX
           stance: supports
-          locator: null
+          locator: CBDB:260169
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王校 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王校，明人物。成化二十三年進士，籍贯黃巖。（中国历代人物传记资料库 CBDB 260169） | accepted |
 
 ## 关联关系
 

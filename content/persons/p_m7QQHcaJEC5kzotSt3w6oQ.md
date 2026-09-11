@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王斂福，清人物。明清進士進士，籍贯諸城，入仕進士。（中国历代人物传记资料库 CBDB 343869）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_6JNGQmjwqRZ1GZKW6bBNN6
+        - id: cs_Av0eeZWI4BwJZ3k8KV4W3R
           claim_id: c_6baYmW6C3uTq7V81BzCZFa
           source_id: s_E8p3nKMkytVk4NQyFTRPKR
           stance: supports
-          locator: null
+          locator: CBDB:343869
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王斂福 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王斂福，清人物。明清進士進士，籍贯諸城，入仕進士。（中国历代人物传记资料库 CBDB 343869） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为後蜀人物
-          language: zh-Hans
+          text: 王福，後蜀人物。籍贯南充，曾任州刺史。（中国历代人物传记资料库 CBDB 26507）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_1VUQ8oNB1fsYbSzYNB46SQ
+        - id: cs_qWphQ-8AW-A37YKF2Chyaj
           claim_id: c_qHKt6tCKd6UMiCaNmEFF3S
           source_id: s_UPM7btK78ccPWgZ4akAvDK
           stance: supports
-          locator: null
+          locator: CBDB:26507
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -143,7 +143,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王福 | accepted |
-| bio.summary | CBDB 记载为後蜀人物 | accepted |
+| bio.summary | 王福，後蜀人物。籍贯南充，曾任州刺史。（中国历代人物传记资料库 CBDB 26507） | accepted |
 
 ## 关联关系
 

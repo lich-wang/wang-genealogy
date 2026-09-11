@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王譚（813年—864年），唐人物。籍贯河南，曾任大理評事、都團練判官。（中国历代人物传记资料库 CBDB 144955）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Uac9dFZ5qCZiVqqA6J47eG
+        - id: cs_cnwYp7N_NVyiu2DEjQRXQD
           claim_id: c_KXhqF1uJB7sA6Q21JSUoBQ
           source_id: s_qoTa2nNznviLxzB6AzpSw8
           stance: supports
-          locator: null
+          locator: CBDB:144955
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -264,7 +264,7 @@ relationships:
 | name.primary | 王譚 | accepted |
 | birth.date | 813年 | accepted |
 | death.date | 864年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王譚（813年—864年），唐人物。籍贯河南，曾任大理評事、都團練判官。（中国历代人物传记资料库 CBDB 144955） | accepted |
 
 ## 关联关系
 

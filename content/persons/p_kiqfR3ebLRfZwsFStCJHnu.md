@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王奎，宋人物。籍贯華亭。（中国历代人物传记资料库 CBDB 22244）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_aq6UazCyPmyk2ERu7BNbsE
+        - id: cs_DGs1OGCN39m8MiwuOPPMb7
           claim_id: c_YYuGiXNy6eY8U1eAU64piK
           source_id: s_JNVEL29fpLdQjeQLsuLBte
           stance: supports
-          locator: null
+          locator: CBDB:22244
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -154,7 +154,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王奎 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王奎，宋人物。籍贯華亭。（中国历代人物传记资料库 CBDB 22244） | accepted |
 
 ## 关联关系
 

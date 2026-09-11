@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王衢，唐人物。籍贯樂安。（中国历代人物传记资料库 CBDB 157521）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_rEt36UMsotpdTLTW5sieob
+        - id: cs_rP7k1H1-E9MNIoadd44nIi
           claim_id: c_nZHFuJRsmNv9L8QQGCehL4
           source_id: s_iPN4dgUT6MftSRTzf5Upu7
           stance: supports
-          locator: null
+          locator: CBDB:157521
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -128,7 +128,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王衢 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王衢，唐人物。籍贯樂安。（中国历代人物传记资料库 CBDB 157521） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为東漢人物
-          language: zh-Hans
+          text: 王殷，東漢人物。籍贯祁縣。（中国历代人物传记资料库 CBDB 30872）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_La1opfzbSEDUGtLkDGjUMB
+        - id: cs_ziflEF3EmBnyWgTvvvebID
           claim_id: c_thU6ifyorgs2ShzWP5LHiy
           source_id: s_Rsz9UmNyr6ZSodvQUz2vQp
           stance: supports
-          locator: null
+          locator: CBDB:30872
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -143,7 +143,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王殷 | accepted |
-| bio.summary | CBDB 记载为東漢人物 | accepted |
+| bio.summary | 王殷，東漢人物。籍贯祁縣。（中国历代人物传记资料库 CBDB 30872） | accepted |
 
 ## 关联关系
 

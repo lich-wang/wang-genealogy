@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王之屏，清人物。曾任右營。（中国历代人物传记资料库 CBDB 459189）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_MMQViN3ZKgqX4chA67JuiQ
+        - id: cs_7VxwN4v4JSXFVthYQ9SoSs
           claim_id: c_J6c2qZzTqHeDvb1PvBQn4t
           source_id: s_zQ3xKYqyr8CPjD4qqCthrr
           stance: supports
-          locator: null
+          locator: CBDB:459189
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王之屏 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王之屏，清人物。曾任右營。（中国历代人物传记资料库 CBDB 459189） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王振，唐人物。籍贯太原，曾任史官、左拾遺。（中国历代人物传记资料库 CBDB 92064）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_dLmEKW1YheLuQGgRMgm1PG
+        - id: cs_YFWucdHZ0M2_e9Dinygdeu
           claim_id: c_NuofCz4ac32P6WVjPcQ7tC
           source_id: s_GY31Pkh8EUd5TrKvhHb1C5
           stance: supports
-          locator: null
+          locator: CBDB:92064
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王振 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王振，唐人物。籍贯太原，曾任史官、左拾遺。（中国历代人物传记资料库 CBDB 92064） | accepted |
 
 ## 关联关系
 

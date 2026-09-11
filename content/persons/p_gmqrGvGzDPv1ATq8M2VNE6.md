@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王現，明人物。成化二十三年進士，籍贯海豐。（中国历代人物传记资料库 CBDB 260244）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_xGhBDfjzjd5yZQ1395aCoh
+        - id: cs_Ff9XGnByscwgPB4ojGhGKC
           claim_id: c_aGfm6hwiLYCMnMQyQJLYe1
           source_id: s_yuEkTRSsfkKWvL9Yr9kszW
           stance: supports
-          locator: null
+          locator: CBDB:260244
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王現 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王現，明人物。成化二十三年進士，籍贯海豐。（中国历代人物传记资料库 CBDB 260244） | accepted |
 
 ## 关联关系
 

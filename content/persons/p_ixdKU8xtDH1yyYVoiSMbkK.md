@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王軫，明人物。弘治三年進士，籍贯安福。（中国历代人物传记资料库 CBDB 261848）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_uXtTA8tB8zwN461U87MrF2
+        - id: cs_axb6X-dzQ94NpzYWAYOqlT
           claim_id: c_J93t21M4BR4w41vjQ1cxaW
           source_id: s_WWLCBNPKevz3QhYa7ZVDhY
           stance: supports
-          locator: null
+          locator: CBDB:261848
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王軫 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王軫，明人物。弘治三年進士，籍贯安福。（中国历代人物传记资料库 CBDB 261848） | accepted |
 
 ## 关联关系
 

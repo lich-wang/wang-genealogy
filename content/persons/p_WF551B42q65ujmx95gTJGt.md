@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王綖（1477年—1537年），明人物。明清進士進士，籍贯開州，入仕進士。（中国历代人物传记资料库 CBDB 126771）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_1maDRKXTYPoNb9FK2KmHsF
+        - id: cs_FeTXbMrVWnukk_fM_YYcpq
           claim_id: c_RPPVQiRhEEbWg944yxkTDi
           source_id: s_VL81k4JwhPzHToHQ5Z6tGh
           stance: supports
-          locator: null
+          locator: CBDB:126771
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -260,7 +260,7 @@ relationships:
 | name.primary | 王綖 | accepted |
 | birth.date | 1477年 | accepted |
 | death.date | 1537年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王綖（1477年—1537年），明人物。明清進士進士，籍贯開州，入仕進士。（中国历代人物传记资料库 CBDB 126771） | accepted |
 
 ## 关联关系
 

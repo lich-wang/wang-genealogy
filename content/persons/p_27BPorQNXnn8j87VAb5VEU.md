@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王曰杏，清人物。籍贯無錫，曾任戶部主事。（中国历代人物传记资料库 CBDB 638528）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_wYXRzNDoARVFz5z22zKfkg
+        - id: cs_lngQOm6jBU_L2YcG1DK6WP
           claim_id: c_M3QQapwuEAz529Nrh2hWFG
           source_id: s_FyQU7CH5VwBEKg57XNeccZ
           stance: supports
-          locator: null
+          locator: CBDB:638528
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王曰杏 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王曰杏，清人物。籍贯無錫，曾任戶部主事。（中国历代人物传记资料库 CBDB 638528） | accepted |
 
 ## 关联关系
 

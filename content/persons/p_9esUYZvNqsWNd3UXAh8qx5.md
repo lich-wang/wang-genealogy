@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王縝（1463年—1523年），明人物。明清進士進士，籍贯東莞，身份为博學之人，入仕進士。（中国历代人物传记资料库 CBDB 68275）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_eLMx59GFXLRvEg2wephAn4
+        - id: cs_FLsMCOH4J1sS9Fm3KxA1Yp
           claim_id: c_GDUGK4gxd9f9guswMm312x
           source_id: s_8nUwjmnF5xTmqZCNqzBRAK
           stance: supports
-          locator: null
+          locator: CBDB:68275
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -316,7 +316,7 @@ relationships:
 | name.primary | 王縝 | accepted |
 | birth.date | 1463年 | accepted |
 | death.date | 1523年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王縝（1463年—1523年），明人物。明清進士進士，籍贯東莞，身份为博學之人，入仕進士。（中国历代人物传记资料库 CBDB 68275） | accepted |
 
 ## 关联关系
 

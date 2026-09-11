@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王廷謨，清人物。籍贯松江府，入仕鄉貢舉人，曾任教諭。（中国历代人物传记资料库 CBDB 637562）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_b9EmiDMH5vqraY38X58utz
+        - id: cs_2MJPScXc6hbB4EbOztJuSX
           claim_id: c_mWHX4xQxcP3jw2FE2CDo8r
           source_id: s_2A28fLJ5jXE9pjoX3vK4UF
           stance: supports
-          locator: null
+          locator: CBDB:637562
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王廷謨 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王廷謨，清人物。籍贯松江府，入仕鄉貢舉人，曾任教諭。（中国历代人物传记资料库 CBDB 637562） | accepted |
 
 ## 关联关系
 

@@ -76,11 +76,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: Tang dynasty person CBDB = 185621
-          language: en
+          text: 王士清（?—?），唐朝将领，王武俊的儿子，王士真的弟弟。 建中三年（782年），王武俊国号赵，以恒州为真定府，命王士真留守兼元帅，以王士清为司武尚书、王士則司文侍郎。成德节度使王武俊归顺朝廷后，攻打魏州，幽州节度使朱滔来救，派马寔、卢南史引回纥、契丹来攻打王武俊、李抱真。
+          language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
         - id: cs_7eW1bdcymdrRika7TkqBND
           claim_id: c_B6S1D6TSmTAcHG9kwHi4F6
@@ -90,6 +90,25 @@ properties:
           quotation: null
           interpretation_note: 维基数据条目描述
           source: *a1
+        - id: cs_eMT7EycEc3EVA308-VsIKY
+          claim_id: c_B6S1D6TSmTAcHG9kwHi4F6
+          source_id: s_3k8cF1cLXIj81SG2J7XV4s
+          stance: supports
+          locator: 导言
+          quotation: 王士清（?—?），唐朝将领，王武俊的儿子，王士真的弟弟。 建中三
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_3k8cF1cLXIj81SG2J7XV4s
+            source_type: website
+            title: 中文维基百科：王士清
+            creator: 维基百科贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A3%AB%E6%B8%85
+            external_identifier: Q45641702
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T08:35:13.437Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: death.date
@@ -242,7 +261,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王士清 | accepted |
-| bio.summary | Tang dynasty person CBDB = 185621 | accepted |
+| bio.summary | 王士清（?—?），唐朝将领，王武俊的儿子，王士真的弟弟。 建中三年（782年），王武俊国号赵，以恒州为真定府，命王士真留守兼元帅，以王士清为司武尚书、王士則司文侍郎。成德节度使王武俊归顺朝廷后，攻打魏州，幽州节度使朱滔来救，派马寔、卢南史引回纥、契丹来攻打王武俊、李抱真。 | accepted |
 | death.date | 831年 | accepted |
 
 ## 关联关系
@@ -257,5 +276,6 @@ relationships:
 - [维基数据：王士清（Q45641702）](https://www.wikidata.org/wiki/Q45641702)
 - [维基数据：王武俊（Q7967676）](https://www.wikidata.org/wiki/Q7967676)
 - [中国历代人物传记资料库：王承榮（CBDB 185615）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=185615&o=json)
+- [中文维基百科：王士清](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A3%AB%E6%B8%85)
 - [CBDB 中国历代人物传记资料库：王士清（185621）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=185621&o=json)
 - [CBDB 中国历代人物传记资料库：王武俊（191752）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191752&o=json)

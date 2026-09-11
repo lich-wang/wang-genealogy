@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王鯨（生于1453年），明人物。明清進士進士，籍贯祥符，入仕進士。（中国历代人物传记资料库 CBDB 200003）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_s8dM4rbUCac7fbwVDh5iRA
+        - id: cs_BO3khOAd3_92xmui1gpqjQ
           claim_id: c_JRYynTF3hartSciq9SLLWN
           source_id: s_DGNxmHQWjgxgEzgEfrXpc1
           stance: supports
-          locator: null
+          locator: CBDB:200003
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -231,7 +231,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王鯨 | accepted |
 | birth.date | 1453年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王鯨（生于1453年），明人物。明清進士進士，籍贯祥符，入仕進士。（中国历代人物传记资料库 CBDB 200003） | accepted |
 
 ## 关联关系
 

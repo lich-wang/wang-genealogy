@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: "王址，明人物。籍贯鄱陽，入仕科舉制舉: 武舉科。（中国历代人物传记资料库 CBDB 559977）"
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_hCBhtqtsgLMGtjJ6BB7UXY
+        - id: cs__t6QNeeCPiSlQGI8tJJzRk
           claim_id: c_dD29tcFZASRqXhvivpgksB
           source_id: s_8DrwaHCxTX5wbPcm1RdjQ3
           stance: supports
-          locator: null
+          locator: CBDB:559977
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王址 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王址，明人物。籍贯鄱陽，入仕科舉制舉: 武舉科。（中国历代人物传记资料库 CBDB 559977） | accepted |
 
 ## 关联关系
 

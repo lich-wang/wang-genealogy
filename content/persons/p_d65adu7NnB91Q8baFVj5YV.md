@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王固（988年—1062年），宋人物。籍贯分寧，入仕進士，曾任司理參軍、尚書省刑部都官司郎中。（中国历代人物传记资料库 CBDB 39439）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_CGAryJfgLBwHy4ioXZgFzd
+        - id: cs_jrC6mgPRHHMMJUM52_KlSl
           claim_id: c_svZqgDGuVG22Mb2U9Ly315
           source_id: s_WFMY6hR2h479d7cP54xe28
           stance: supports
-          locator: null
+          locator: CBDB:39439
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王固 | accepted |
 | birth.date | 988年 | accepted |
 | death.date | 1062年 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王固（988年—1062年），宋人物。籍贯分寧，入仕進士，曾任司理參軍、尚書省刑部都官司郎中。（中国历代人物传记资料库 CBDB 39439） | accepted |
 
 ## 关联关系
 

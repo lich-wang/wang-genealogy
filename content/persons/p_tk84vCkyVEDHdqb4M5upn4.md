@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王庶，宋人物。籍贯江陰，曾任從事郎。（中国历代人物传记资料库 CBDB 23565）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_mUKkA83NJsgmdAXcMjZRKG
+        - id: cs_DBykzvKek-tQcFspOwYHLO
           claim_id: c_d9Gg2HizG6nXubpMJE9jBV
           source_id: s_Pb9tXvKePBR6cCqNC9UMpz
           stance: supports
-          locator: null
+          locator: CBDB:23565
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -191,7 +191,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王庶 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王庶，宋人物。籍贯江陰，曾任從事郎。（中国历代人物传记资料库 CBDB 23565） | accepted |
 
 ## 关联关系
 

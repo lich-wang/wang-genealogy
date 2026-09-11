@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王瑄，明人物。宣德八年進士，籍贯信陽。（中国历代人物传记资料库 CBDB 231539）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_8i82JDAu6LM7uGTBQB28yp
+        - id: cs_CTcKSo0bd5q0B6uVzgm6gY
           claim_id: c_MQbvEcKmDGkAJucbPWN7CB
           source_id: s_kPp2Z5qJ1HUqy4KxDDYxMV
           stance: supports
-          locator: null
+          locator: CBDB:231539
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王瑄 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王瑄，明人物。宣德八年進士，籍贯信陽。（中国历代人物传记资料库 CBDB 231539） | accepted |
 
 ## 关联关系
 

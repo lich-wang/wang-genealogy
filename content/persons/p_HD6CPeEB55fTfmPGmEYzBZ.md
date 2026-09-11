@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
+          text: 王思孝，元人物。曾任照磨。（中国历代人物传记资料库 CBDB 482572）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_nwktMcT7kbyhcovXdBd4rR
+        - id: cs_v__l9EZ-FuzPC8ZnYJ3oO9
           claim_id: c_1B2E3LE6m22GzMQ5E7Jvhi
           source_id: s_tKQZgTHXXqwC98W4oeWxBS
           stance: supports
-          locator: null
+          locator: CBDB:482572
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王思孝 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王思孝，元人物。曾任照磨。（中国历代人物传记资料库 CBDB 482572） | accepted |
 
 ## 关联关系
 

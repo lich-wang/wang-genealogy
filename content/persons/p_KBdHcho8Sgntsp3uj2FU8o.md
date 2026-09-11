@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王夷簡，宋人物。曾任大理寺丞、三司判官、大理寺評事。（中国历代人物传记资料库 CBDB 38749）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_D68GZ4e153a2VWEpPxz2kQ
+        - id: cs_H69SBtzXXenELLlEjXb-nI
           claim_id: c_s3sYUXHCFFFJCqewwxn7pe
           source_id: s_dKyyt679wMgGqWnWbCM23L
           stance: supports
-          locator: null
+          locator: CBDB:38749
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王夷簡 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王夷簡，宋人物。曾任大理寺丞、三司判官、大理寺評事。（中国历代人物传记资料库 CBDB 38749） | accepted |
 
 ## 关联关系
 

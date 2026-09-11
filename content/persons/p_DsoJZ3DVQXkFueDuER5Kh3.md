@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
+          text: 王著（1254年—1282年），元人物。籍贯益都路，曾任吏、千戶。（中国历代人物传记资料库 CBDB 100880）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_BWUmEt4qva8Sg47KEkFTnS
+        - id: cs_hAc_YrxFQDN6A44X97KFy9
           claim_id: c_aocLbuNJsV29WKf5RqEzuL
           source_id: s_BBxEscuBPJUhoshRnZcaps
           stance: supports
-          locator: null
+          locator: CBDB:100880
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王著 | accepted |
 | birth.date | 1254年 | accepted |
 | death.date | 1282年 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王著（1254年—1282年），元人物。籍贯益都路，曾任吏、千戶。（中国历代人物传记资料库 CBDB 100880） | accepted |
 
 ## 关联关系
 

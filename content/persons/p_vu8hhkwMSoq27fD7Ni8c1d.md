@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王濬章，清人物。籍贯四川省，入仕縣學附生，曾任典史。（中国历代人物传记资料库 CBDB 639256）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_G4M7o7jLBD8RVnaK8KLrQr
+        - id: cs_np77Oro_cHdCoOPjSyta70
           claim_id: c_JvQ3DXB2TSzVKfC5KvjwkA
           source_id: s_iagFQE8HjUgLuE37H8AVgT
           stance: supports
-          locator: null
+          locator: CBDB:639256
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王濬章 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王濬章，清人物。籍贯四川省，入仕縣學附生，曾任典史。（中国历代人物传记资料库 CBDB 639256） | accepted |
 
 ## 关联关系
 

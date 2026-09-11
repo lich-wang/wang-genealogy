@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王允中，清人物。籍贯上虞，曾任刑部四川司郎中、刑部雲南司郎中。（中国历代人物传记资料库 CBDB 703720）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_no8Buoii84J4fu2j2EJVdb
+        - id: cs_cUKHkKD40x2OrHlELgYAxc
           claim_id: c_YVw5NpFfVENvkaJ5rBj9cB
           source_id: s_R1y7iy3vbCRJn3F23PxUUN
           stance: supports
-          locator: null
+          locator: CBDB:703720
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王允中 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王允中，清人物。籍贯上虞，曾任刑部四川司郎中、刑部雲南司郎中。（中国历代人物传记资料库 CBDB 703720） | accepted |
 
 ## 关联关系
 

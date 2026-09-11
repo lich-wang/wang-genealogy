@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
+          text: 王得福（1236年—1315年），元人物。籍贯太原路。（中国历代人物传记资料库 CBDB 690545）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_yhEUrZiJyqYu6CMHvTr6V1
+        - id: cs_bszN1Aw7kAq9tyO8M58Erx
           claim_id: c_o3aJfK93T2jx4hvw8EQLQ7
           source_id: s_yJ6iLMpGpbE9DEFUkQQrYw
           stance: supports
-          locator: null
+          locator: CBDB:690545
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王得福 | accepted |
 | birth.date | 1236年 | accepted |
 | death.date | 1315年 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王得福（1236年—1315年），元人物。籍贯太原路。（中国历代人物传记资料库 CBDB 690545） | accepted |
 
 ## 关联关系
 

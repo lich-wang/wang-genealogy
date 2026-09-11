@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王春（生于1424年），明人物。明清進士進士，籍贯濟寧州，入仕進士。（中国历代人物传记资料库 CBDB 198362）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_5CmXD2ZMPN5WM2BhSEw5ev
+        - id: cs_0me_akcCdaUWNc9ygHPb2G
           claim_id: c_zQ4dK4A5eXwP3rXovn3QYr
           source_id: s_M5K8c7YTrHQkmNymF17C3J
           stance: supports
-          locator: null
+          locator: CBDB:198362
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -232,7 +232,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王春 | accepted |
 | birth.date | 1424年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王春（生于1424年），明人物。明清進士進士，籍贯濟寧州，入仕進士。（中国历代人物传记资料库 CBDB 198362） | accepted |
 
 ## 关联关系
 

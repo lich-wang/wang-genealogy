@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王天言，宋人物。籍贯懷安，入仕進士。（中国历代人物传记资料库 CBDB 540417）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_GobzzLxWPJThYKipgcYDjh
+        - id: cs_vxZMhULymm2TMXrtO731qg
           claim_id: c_GNuemqcJxCPJuXFPM5ehLq
           source_id: s_JPKu9qKGSvaG7Udgjp6af9
           stance: supports
-          locator: null
+          locator: CBDB:540417
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王天言 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王天言，宋人物。籍贯懷安，入仕進士。（中国历代人物传记资料库 CBDB 540417） | accepted |
 
 ## 关联关系
 

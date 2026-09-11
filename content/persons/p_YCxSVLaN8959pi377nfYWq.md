@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王崇炳（1653年—1739年），清人物。籍贯東陽。（中国历代人物传记资料库 CBDB 54549）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_TAes15FAXKAfLP8paDp8ko
+        - id: cs_r3Gd2rUjhyZPYU9YRdFtuL
           claim_id: c_c4FVFnVdHZ2Fy7LNMG4HNP
           source_id: s_7Wy4EPLxi9hWjkGiWeBryL
           stance: supports
-          locator: null
+          locator: CBDB:54549
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王崇炳 | accepted |
 | birth.date | 1653年 | accepted |
 | death.date | 1739年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王崇炳（1653年—1739年），清人物。籍贯東陽。（中国历代人物传记资料库 CBDB 54549） | accepted |
 
 ## 关联关系
 

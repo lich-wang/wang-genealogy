@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王之孚（1786年—1812年），清人物。籍贯震澤。（中国历代人物传记资料库 CBDB 71352）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_DfXCW3RFTU8meWW2nukTU9
+        - id: cs_D_CrRbwL_uEfTWGvilOW4u
           claim_id: c_P9GNDcaiovqg9mszXj58pc
           source_id: s_VyVfMLfJX2y2sAAVFXhPR6
           stance: supports
-          locator: null
+          locator: CBDB:71352
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王之孚 | accepted |
 | birth.date | 1786年 | accepted |
 | death.date | 1812年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王之孚（1786年—1812年），清人物。籍贯震澤。（中国历代人物传记资料库 CBDB 71352） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王桂林，清人物。籍贯湖南省，入仕武童，曾任守備。（中国历代人物传记资料库 CBDB 638710）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_uqxEfzNdF8Fx8p5nt6h6De
+        - id: cs_pjhzX4ryiSiCC-zwg5dP4U
           claim_id: c_kcw35kSRPhQvM6KuAFwG5v
           source_id: s_zDA6wYpRqFBFhEGK7J4L5q
           stance: supports
-          locator: null
+          locator: CBDB:638710
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王桂林 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王桂林，清人物。籍贯湖南省，入仕武童，曾任守備。（中国历代人物传记资料库 CBDB 638710） | accepted |
 
 ## 关联关系
 

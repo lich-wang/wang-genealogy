@@ -75,19 +75,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: person, CBDB ID = 386036
-          language: en
+          text: 王仲俨，史料所见人物。本项目依据《王仲俨》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_LFzdR9QkwpozKoN43xU4Kj
+        - id: cs_ziOBPZ875NGKmcmFFYY70c
           claim_id: c_6jojE8wE4qb3Ld6S6oU6GW
           source_id: s_vUTvmZMYybHrQTk5eH3CTH
           stance: supports
-          locator: null
+          locator: Q65819768
           quotation: null
-          interpretation_note: 维基数据条目描述
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
           source: *a1
       object_person: null
     alternatives: []
@@ -175,7 +175,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王仲俨 | accepted |
-| bio.summary | person, CBDB ID = 386036 | accepted |
+| bio.summary | 王仲俨，史料所见人物。本项目依据《王仲俨》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
 
 ## 关联关系
 

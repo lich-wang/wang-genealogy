@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王九疇，明人物。籍贯鄧州，曾任知縣。（中国历代人物传记资料库 CBDB 557513）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_E9Cq5f6a7KP6xr9BoNr4Wo
+        - id: cs_BW6_6dcWc_r8d1Xph6y5Ro
           claim_id: c_HWCbb4D4JtUQF17vMLcc6D
           source_id: s_3iDWj628mS2B1QspgKoLVP
           stance: supports
-          locator: null
+          locator: CBDB:557513
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王九疇 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王九疇，明人物。籍贯鄧州，曾任知縣。（中国历代人物传记资料库 CBDB 557513） | accepted |
 
 ## 关联关系
 

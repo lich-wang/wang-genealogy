@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王大度，明人物。籍贯黟縣，入仕鄉貢舉人。（中国历代人物传记资料库 CBDB 690956）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_yaG4KyfCE2HcanrzsXPA3m
+        - id: cs_BhM0qwsIKbppv5mWCq8x_B
           claim_id: c_KfghVecXbRK1S1DBdd1rMH
           source_id: s_FUpRVa8DUJPsKMfr5AoV61
           stance: supports
-          locator: null
+          locator: CBDB:690956
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王大度 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王大度，明人物。籍贯黟縣，入仕鄉貢舉人。（中国历代人物传记资料库 CBDB 690956） | accepted |
 
 ## 关联关系
 

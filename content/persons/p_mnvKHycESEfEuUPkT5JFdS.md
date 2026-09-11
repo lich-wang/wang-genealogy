@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王則（589年—641年），唐人物。籍贯太原，曾任飛騎尉。（中国历代人物传记资料库 CBDB 139677）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_DJ4a6LKEv4EQrmMyRuQUd9
+        - id: cs__Ec8-bSijHJ5AS0INJBNh_
           claim_id: c_WSWDs5EfWu5j1LvcpYeJaW
           source_id: s_d7AMoMC5os4pkSBoNiLE5E
           stance: supports
-          locator: null
+          locator: CBDB:139677
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -238,7 +238,7 @@ relationships:
 | name.primary | 王則 | accepted |
 | birth.date | 589年 | accepted |
 | death.date | 641年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王則（589年—641年），唐人物。籍贯太原，曾任飛騎尉。（中国历代人物传记资料库 CBDB 139677） | accepted |
 
 ## 关联关系
 

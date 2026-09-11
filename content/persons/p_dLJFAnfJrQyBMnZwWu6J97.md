@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王瓘，宋人物。籍贯四川，曾任三司度支判官、集賢院校理、尚書省刑部刑部司郎中。（中国历代人物传记资料库 CBDB 45854）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_9cUhY6wR5XCP2wGupUeQVa
+        - id: cs_5JN3FptWNHdEl-rpdQmLtt
           claim_id: c_maUyArqAuvsMfscE8728q6
           source_id: s_2Q5tE2fSyU4Lu7XgEZtZCK
           stance: supports
-          locator: null
+          locator: CBDB:45854
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王瓘 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王瓘，宋人物。籍贯四川，曾任三司度支判官、集賢院校理、尚書省刑部刑部司郎中。（中国历代人物传记资料库 CBDB 45854） | accepted |
 
 ## 关联关系
 

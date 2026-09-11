@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王璧，明人物。嘉靖十四年進士，籍贯宜賓。（中国历代人物传记资料库 CBDB 297017）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_y3TjGnPLGPL3GowJ9mhpRE
+        - id: cs_FApeRI1awRsscj3NP9rVsl
           claim_id: c_rLeqQGcLQ7BGuKzXVApyhU
           source_id: s_cSvRQn84xMP3ZrUnt4Zgb2
           stance: supports
-          locator: null
+          locator: CBDB:297017
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王璧 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王璧，明人物。嘉靖十四年進士，籍贯宜賓。（中国历代人物传记资料库 CBDB 297017） | accepted |
 
 ## 关联关系
 

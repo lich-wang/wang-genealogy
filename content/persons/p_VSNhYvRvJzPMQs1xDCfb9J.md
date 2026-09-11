@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王詔（生于1425年），明人物。景泰五年進士，籍贯懷柔，入仕進士。（中国历代人物传记资料库 CBDB 198502）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_i4gi6r2TVWBGdhnE9A2G17
+        - id: cs_wNLfcaLGefH8qDnEDSVk2H
           claim_id: c_Fo9TjivMv92fp45jLbsHeh
           source_id: s_YLjDA4XHDh552kQMQyULHd
           stance: supports
-          locator: null
+          locator: CBDB:198502
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -233,7 +233,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王詔 | accepted |
 | birth.date | 1425年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王詔（生于1425年），明人物。景泰五年進士，籍贯懷柔，入仕進士。（中国历代人物传记资料库 CBDB 198502） | accepted |
 
 ## 关联关系
 

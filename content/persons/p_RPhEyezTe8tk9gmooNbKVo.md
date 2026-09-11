@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王齊海（生于1835年），清人物。籍贯羅田。（中国历代人物传记资料库 CBDB 71609）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_cBaGJ7p5GUchDdMrb24FHe
+        - id: cs_F8h6iKFpjOezkQQl6v9CIB
           claim_id: c_oqwqwyALPtXEawfaHmV7Tk
           source_id: s_7yENBwDrobuRh3VuPexE2v
           stance: supports
-          locator: null
+          locator: CBDB:71609
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王齊海 | accepted |
 | birth.date | 1835年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王齊海（生于1835年），清人物。籍贯羅田。（中国历代人物传记资料库 CBDB 71609） | accepted |
 
 ## 关联关系
 

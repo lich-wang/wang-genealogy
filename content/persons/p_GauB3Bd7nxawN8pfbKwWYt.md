@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王廷翰，宋人物。籍贯遂寧，入仕特奏名進士、特奏名諸科 、大挑。（中国历代人物传记资料库 CBDB 548169）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_R52AcgxJzPtBSK6BHeV2Bb
+        - id: cs_FCHjt-pQhlVlOtfo7RcSSd
           claim_id: c_FUDqS2nSRpR7mK3daRuEgg
           source_id: s_YxSG5Q9yuKef7fQ9Gt8rPr
           stance: supports
-          locator: null
+          locator: CBDB:548169
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王廷翰 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王廷翰，宋人物。籍贯遂寧，入仕特奏名進士、特奏名諸科 、大挑。（中国历代人物传记资料库 CBDB 548169） | accepted |
 
 ## 关联关系
 

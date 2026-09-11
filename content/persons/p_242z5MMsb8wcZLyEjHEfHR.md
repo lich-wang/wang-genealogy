@@ -7,6 +7,44 @@ display_name: 王應修
 cbdb_id: 550852
 revision: 1
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_qoR8UvMe6pGIVVCzyOyc4q
+        subject_person_id: p_242z5MMsb8wcZLyEjHEfHR
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王應修，明人物。籍贯南陽，曾任知府、知縣、知州。（中国历代人物传记资料库 CBDB 550852）
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9UHo4vBF98ss-jrj6DKBYk
+          claim_id: c_qoR8UvMe6pGIVVCzyOyc4q
+          source_id: s_cFYhdtSnqvyL26LauV7GFF
+          stance: supports
+          locator: CBDB:550852
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_cFYhdtSnqvyL26LauV7GFF
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王應修（550852）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=550852&o=json
+            external_identifier: CBDB:550852
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:550852
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source:
-            id: s_cFYhdtSnqvyL26LauV7GFF
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：王應修（550852）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=550852&o=json
-            external_identifier: CBDB:550852
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T08:06:50.055Z
-            metadata_json: null
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -101,6 +128,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 王應修，明人物。籍贯南陽，曾任知府、知縣、知州。（中国历代人物传记资料库 CBDB 550852） | accepted |
 | name.primary | 王應修 | accepted |
 
 ## 关联关系

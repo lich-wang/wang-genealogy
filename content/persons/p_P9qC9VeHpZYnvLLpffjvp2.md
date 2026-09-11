@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王讓，明人物。曾任主簿。（中国历代人物传记资料库 CBDB 474565）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_hT8Cx1pzNopGrvkNBbPRNQ
+        - id: cs_RuAma-fS1beO7nSdNlZsas
           claim_id: c_7bcHh4RWiYskTgouRK2MQh
           source_id: s_R47Eeb8Q4eGmKHiMkPnMF3
           stance: supports
-          locator: null
+          locator: CBDB:474565
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王讓 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王讓，明人物。曾任主簿。（中国历代人物传记资料库 CBDB 474565） | accepted |
 
 ## 关联关系
 

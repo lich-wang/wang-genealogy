@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王大猷（生于1515年），明人物。明清進士進士，籍贯海鹽，入仕進士，曾任工部員外郎、僉都御史、中書舍人。（中国历代人物传记资料库 CBDB 203868）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_3Hhabhynmx42ezKpHhg31U
+        - id: cs_5wBPPSSKan1g3uz5ruzbdn
           claim_id: c_PrCeKUHKo3vQYV8idWoztA
           source_id: s_4dbBS64CNd2A5BdZ15SRoK
           stance: supports
-          locator: null
+          locator: CBDB:203868
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -231,7 +231,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王大猷 | accepted |
 | birth.date | 1515年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王大猷（生于1515年），明人物。明清進士進士，籍贯海鹽，入仕進士，曾任工部員外郎、僉都御史、中書舍人。（中国历代人物传记资料库 CBDB 203868） | accepted |
 
 ## 关联关系
 

@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王用予（卒于1696年），清人物。籍贯靖虜衛，曾任守備、鎮總兵官、總兵。（中国历代人物传记资料库 CBDB 69147）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_vBt2cDixYL2njTs6Vo3zDp
+        - id: cs_djwMbdh1pATJNN30lNo-Oi
           claim_id: c_G1Hykzg97E3Caj9J8qLQ1m
           source_id: s_TMMnhZkAzNyQNSvmh5xTBo
           stance: supports
-          locator: null
+          locator: CBDB:69147
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王用予 | accepted |
 | death.date | 1696年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王用予（卒于1696年），清人物。籍贯靖虜衛，曾任守備、鎮總兵官、總兵。（中国历代人物传记资料库 CBDB 69147） | accepted |
 
 ## 关联关系
 

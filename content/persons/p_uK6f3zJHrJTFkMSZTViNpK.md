@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王鼎銘（卒于1832年），清人物。籍贯嶧縣，入仕貢生 = 貢監生 (明清賓貢,功貢)，曾任縣知縣。（中国历代人物传记资料库 CBDB 69390）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_tcJ17Zh7ZfaY7XjtNXurLn
+        - id: cs_8O76OCreuQiy3rpbZPH2Ft
           claim_id: c_CLg1WS9JG5qYRE4TpVf5mU
           source_id: s_PH9MVT6mUY7zCGUeaat8NL
           stance: supports
-          locator: null
+          locator: CBDB:69390
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -172,7 +172,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王鼎銘 | accepted |
 | death.date | 1832年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王鼎銘（卒于1832年），清人物。籍贯嶧縣，入仕貢生 = 貢監生 (明清賓貢,功貢)，曾任縣知縣。（中国历代人物传记资料库 CBDB 69390） | accepted |
 
 ## 关联关系
 

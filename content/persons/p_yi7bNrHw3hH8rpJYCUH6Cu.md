@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王羽，清人物。入仕進士，曾任知州。（中国历代人物传记资料库 CBDB 496027）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_hwf5TaukTZMA73bJtSh2uE
+        - id: cs_m_L80oRaVEZjzxzqIHUoJr
           claim_id: c_nmLY14x8Q7z6MUL24LRYpY
           source_id: s_Kb4QptNLT2LPHe8M8aWWdN
           stance: supports
-          locator: null
+          locator: CBDB:496027
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王羽 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王羽，清人物。入仕進士，曾任知州。（中国历代人物传记资料库 CBDB 496027） | accepted |
 
 ## 关联关系
 

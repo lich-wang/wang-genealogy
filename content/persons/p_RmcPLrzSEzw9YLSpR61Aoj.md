@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王志（生于1560年），明人物。明清進士進士，籍贯東鄉，入仕進士，曾任通政司觀政。（中国历代人物传记资料库 CBDB 207176）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_rYxHxCNdaTskK5HLdx6ips
+        - id: cs_9xML60o_-AnXpwUVYuqt32
           claim_id: c_q2Y3MAxsSosGRexhbxFsxV
           source_id: s_PTGMdun9M5vLdQniQRKQWG
           stance: supports
-          locator: null
+          locator: CBDB:207176
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -346,7 +346,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王志 | accepted |
 | birth.date | 1560年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王志（生于1560年），明人物。明清進士進士，籍贯東鄉，入仕進士，曾任通政司觀政。（中国历代人物传记资料库 CBDB 207176） | accepted |
 
 ## 关联关系
 

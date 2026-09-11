@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为五代人物
+          text: 王承業（886年—962年），五代人物。籍贯太原，身份为法律專家，曾任參軍、縣令。（中国历代人物传记资料库 CBDB 22235）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_9svtdfgFH492juqE25w4RG
+        - id: cs_gakF281TTvX7JimrAwEE_J
           claim_id: c_NxTkXoT6sKsRr6gdfZMSTN
           source_id: s_MGbE7XupRx4xaGrv4JbQBP
           stance: supports
-          locator: null
+          locator: CBDB:22235
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -223,7 +223,7 @@ relationships:
 | name.primary | 王承業 | accepted |
 | birth.date | 886年 | accepted |
 | death.date | 962年 | accepted |
-| bio.summary | CBDB 记载为五代人物 | accepted |
+| bio.summary | 王承業（886年—962年），五代人物。籍贯太原，身份为法律專家，曾任參軍、縣令。（中国历代人物传记资料库 CBDB 22235） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王楷，宋人物。籍贯金華，入仕鄉貢舉人，曾任縣令。（中国历代人物传记资料库 CBDB 21040）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_CYYVo63ui38K4C61SVd8vH
+        - id: cs_BDsaNTY7hScXheDq5vf0-i
           claim_id: c_z7EiBCx2Ty3ECFs2wLVPWW
           source_id: s_831bqNUGiyKoFhKhG3ss9b
           stance: supports
-          locator: null
+          locator: CBDB:21040
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -165,7 +165,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王楷 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王楷，宋人物。籍贯金華，入仕鄉貢舉人，曾任縣令。（中国历代人物传记资料库 CBDB 21040） | accepted |
 
 ## 关联关系
 

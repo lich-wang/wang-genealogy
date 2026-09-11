@@ -7,6 +7,44 @@ display_name: 李氏
 revision: 1
 cbdb_id: 557659
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_i_Cp3bw_BP24bTy9_WGWZ4
+        subject_person_id: p_uqFWMhK4tWJJMSM5h8iUyX
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 李氏，清人物。身份为貞婦/節婦。（中国历代人物传记资料库 CBDB 557659）
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lETc0OE918GIKslBh4Uj1m
+          claim_id: c_i_Cp3bw_BP24bTy9_WGWZ4
+          source_id: s_XgorZCT-aNuB38IjfoxHPE
+          stance: supports
+          locator: CBDB:557659
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_XgorZCT-aNuB38IjfoxHPE
+            source_type: api_record
+            title: 中国历代人物传记资料库：李氏(王文運妻)（CBDB 557659）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=557659&o=json
+            external_identifier: CBDB:557659
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:557659
           quotation: null
           interpretation_note: CBDB 明确记录的王文運配偶
-          source: &a1
-            id: s_XgorZCT-aNuB38IjfoxHPE
-            source_type: api_record
-            title: 中国历代人物传记资料库：李氏(王文運妻)（CBDB 557659）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=557659&o=json
-            external_identifier: CBDB:557659
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 李氏，清人物。身份为貞婦/節婦。（中国历代人物传记资料库 CBDB 557659） | accepted |
 | name.primary | 李氏 | accepted |
 
 ## 关联关系

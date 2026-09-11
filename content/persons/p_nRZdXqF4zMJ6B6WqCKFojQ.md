@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王徽，唐人物。曾任制置使、京兆尹。（中国历代人物传记资料库 CBDB 135111）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_PXrSMR5fGJTesC7ihTn877
+        - id: cs_0Lsit1mYfbp3MkCibqLCQU
           claim_id: c_tGQrmbCLbNv7C4PvKNZrVE
           source_id: s_N5d8AoefV8fH82pYkKmRMa
           stance: supports
-          locator: null
+          locator: CBDB:135111
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王徽 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王徽，唐人物。曾任制置使、京兆尹。（中国历代人物传记资料库 CBDB 135111） | accepted |
 
 ## 关联关系
 

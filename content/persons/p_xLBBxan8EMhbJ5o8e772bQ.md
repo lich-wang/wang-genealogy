@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王嘉楏，清人物。籍贯吳縣，入仕監生，曾任知縣。（中国历代人物传记资料库 CBDB 636615）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_pQmo8yMV4nhn2XgCwQGTLC
+        - id: cs_eGgpdFz29iyO71EDo8qaBR
           claim_id: c_SCEDJ1xnxuqSt5JHfF7q8p
           source_id: s_QBR1erNs7ZSm2MG89398Fm
           stance: supports
-          locator: null
+          locator: CBDB:636615
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王嘉楏 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王嘉楏，清人物。籍贯吳縣，入仕監生，曾任知縣。（中国历代人物传记资料库 CBDB 636615） | accepted |
 
 ## 关联关系
 

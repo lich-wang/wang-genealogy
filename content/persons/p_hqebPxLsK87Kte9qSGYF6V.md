@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王紀，清人物。明清進士進士，籍贯交河，入仕進士。（中国历代人物传记资料库 CBDB 342413）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_zCNgQPL1bzH2aQuZ1kchpE
+        - id: cs_eNluakuLacfppbKGO75pzF
           claim_id: c_KEpYuS6YC6f5UDLPBGZHU1
           source_id: s_DGFh8HBwPiZHVRNK113YoF
           stance: supports
-          locator: null
+          locator: CBDB:342413
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王紀 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王紀，清人物。明清進士進士，籍贯交河，入仕進士。（中国历代人物传记资料库 CBDB 342413） | accepted |
 
 ## 关联关系
 

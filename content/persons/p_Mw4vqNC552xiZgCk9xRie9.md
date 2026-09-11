@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王企靖，清人物。明清進士進士，籍贯雄縣，入仕進士，曾任鄉試考官、御史。（中国历代人物传记资料库 CBDB 343698）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_QuY5KLJXAedSbyPFX9MKbW
+        - id: cs_D4sZpTDGlPUp_DC170VbEx
           claim_id: c_z7ikVRquK11abKZKgbdqeZ
           source_id: s_oBZ1qHjQ6wubUw1L6t7ahF
           stance: supports
-          locator: null
+          locator: CBDB:343698
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王企靖 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王企靖，清人物。明清進士進士，籍贯雄縣，入仕進士，曾任鄉試考官、御史。（中国历代人物传记资料库 CBDB 343698） | accepted |
 
 ## 关联关系
 

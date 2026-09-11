@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: "王治國，清人物。入仕監生: 蔭監(含明代官生、恩生，或清代恩廕生、難廕生)，曾任知州。（中国历代人物传记资料库 CBDB 472251）"
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_62NFzgNJttZD6eXxJp9TD5
+        - id: cs_jkq4RVgc9kICv93GvTQMgS
           claim_id: c_NUfJA8yJR4qkdGHcRGvZJ4
           source_id: s_bFvV7TkGwfaM94wvcMs8zz
           stance: supports
-          locator: null
+          locator: CBDB:472251
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王治國 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王治國，清人物。入仕監生: 蔭監(含明代官生、恩生，或清代恩廕生、難廕生)，曾任知州。（中国历代人物传记资料库 CBDB 472251） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王永禔，清人物。籍贯桂林府，入仕鄉貢舉人，曾任訓導。（中国历代人物传记资料库 CBDB 638992）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_y7Fr6fdtXbdBvAnvNHG9oE
+        - id: cs_uBH5RXSsU6ka16A9OuWyB5
           claim_id: c_FKJnz7TK5h3A8KaT5K4QZT
           source_id: s_PfgVVVuSTJUqJRu7jEWwEE
           stance: supports
-          locator: null
+          locator: CBDB:638992
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王永禔 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王永禔，清人物。籍贯桂林府，入仕鄉貢舉人，曾任訓導。（中国历代人物传记资料库 CBDB 638992） | accepted |
 
 ## 关联关系
 

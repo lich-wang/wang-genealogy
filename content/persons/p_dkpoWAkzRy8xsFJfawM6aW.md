@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
+          text: 王安上，元人物。籍贯華陰。（中国历代人物传记资料库 CBDB 35388）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_NEmEEKRFMXivU3pPb78w6A
+        - id: cs_zSudAlIa6I-XAfZNVlEkkA
           claim_id: c_aVDSnokDLSpwgiprvj3QKX
           source_id: s_Dc6o5aKF6ACM7J2in5CvF8
           stance: supports
-          locator: null
+          locator: CBDB:35388
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王安上 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王安上，元人物。籍贯華陰。（中国历代人物传记资料库 CBDB 35388） | accepted |
 
 ## 关联关系
 

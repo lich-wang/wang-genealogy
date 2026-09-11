@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王林，宋人物。曾任閤門宣贊舍人、武顯大夫、主管鎮撫司公事。（中国历代人物传记资料库 CBDB 97928）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_GJ9GX6FCSGZ86smDqw8DdW
+        - id: cs_Z_fWkxXeLp9M-INzGG-zQi
           claim_id: c_1sP1Ubzizo1MqMXMJDn36y
           source_id: s_MBG6GAKrmGSkpTnvGKfJV3
           stance: supports
-          locator: null
+          locator: CBDB:97928
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王林 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王林，宋人物。曾任閤門宣贊舍人、武顯大夫、主管鎮撫司公事。（中国历代人物传记资料库 CBDB 97928） | accepted |
 
 ## 关联关系
 

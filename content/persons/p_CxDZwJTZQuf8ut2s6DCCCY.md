@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王弁，宋人物。籍贯侯官，入仕恩蔭、蔭補，曾任將作監主簿。（中国历代人物传记资料库 CBDB 22203）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_VmpusKcLESmV9xrE3e9T58
+        - id: cs_7b1p_woxLIC-uAZ8lkmopl
           claim_id: c_BicRVxepGnorZrgD6bBQ5Z
           source_id: s_GcRaQdEKpzsrBmGZERADjX
           stance: supports
-          locator: null
+          locator: CBDB:22203
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王弁 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王弁，宋人物。籍贯侯官，入仕恩蔭、蔭補，曾任將作監主簿。（中国历代人物传记资料库 CBDB 22203） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王衮，明人物。明清進士進士，籍贯廣安州，入仕進士。（中国历代人物传记资料库 CBDB 341649）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_ES3bExMoyBmERhrLsw6vT5
+        - id: cs_srXSBs7EWuRl0MPm1cWutu
           claim_id: c_7qwHDdJSj852ANmnm8pUTL
           source_id: s_NWYZvYUCp46SbfJAgEVKEh
           stance: supports
-          locator: null
+          locator: CBDB:341649
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王衮 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王衮，明人物。明清進士進士，籍贯廣安州，入仕進士。（中国历代人物传记资料库 CBDB 341649） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: "王明，明人物。入仕貢生: 選貢(優貢 after 1628)，曾任訓導。（中国历代人物传记资料库 CBDB 501684）"
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_cQoEdq13RNAociJ6nFc1KS
+        - id: cs_rmml6E9BWo8pe01McSn39C
           claim_id: c_qx4YgyT41DQApe9ip3FzLW
           source_id: s_FEoTuy3vCDmE3R86LrMXD9
           stance: supports
-          locator: null
+          locator: CBDB:501684
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王明 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王明，明人物。入仕貢生: 選貢(優貢 after 1628)，曾任訓導。（中国历代人物传记资料库 CBDB 501684） | accepted |
 
 ## 关联关系
 

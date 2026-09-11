@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王文忠，清人物。籍贯順慶府，入仕貢生 = 貢監生 (明清賓貢,功貢)，曾任復設教諭。（中国历代人物传记资料库 CBDB 638221）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_S23qEagVvwZ1u2GPsA69sY
+        - id: cs_wXOxwuOsbpZ0QYc7wL7ywe
           claim_id: c_jgsiq2fyPGmbU9d54SVDV1
           source_id: s_NcTD35xQ9syNxCEr2TgRTx
           stance: supports
-          locator: null
+          locator: CBDB:638221
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王文忠 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王文忠，清人物。籍贯順慶府，入仕貢生 = 貢監生 (明清賓貢,功貢)，曾任復設教諭。（中国历代人物传记资料库 CBDB 638221） | accepted |
 
 ## 关联关系
 

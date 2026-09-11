@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王智，清人物。籍贯會稽，身份为畫家。（中国历代人物传记资料库 CBDB 572076）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_hdg7r1QV5Zw3SnZk7uLn2e
+        - id: cs_TEDNNcMqCGd1V9H5P52quF
           claim_id: c_M6EXKxQSNQ4bskfoJ5ZY9k
           source_id: s_ZFZ1FRMx91J5Q1yKHpkrmE
           stance: supports
-          locator: null
+          locator: CBDB:572076
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王智 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王智，清人物。籍贯會稽，身份为畫家。（中国历代人物传记资料库 CBDB 572076） | accepted |
 
 ## 关联关系
 

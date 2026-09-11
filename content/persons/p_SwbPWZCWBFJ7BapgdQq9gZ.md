@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王安禮，清人物。籍贯太原，入仕鄉貢舉人，曾任訓導。（中国历代人物传记资料库 CBDB 637083）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_JqN6wRgJBCtdzLwcGKLYU4
+        - id: cs_72rPqD69_QQ0wUCKQXStBx
           claim_id: c_utFxBGZ1HE3QN58N4iTG6H
           source_id: s_t2HLpo6oXpQF9ZgbNS8Jpd
           stance: supports
-          locator: null
+          locator: CBDB:637083
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王安禮 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王安禮，清人物。籍贯太原，入仕鄉貢舉人，曾任訓導。（中国历代人物传记资料库 CBDB 637083） | accepted |
 
 ## 关联关系
 

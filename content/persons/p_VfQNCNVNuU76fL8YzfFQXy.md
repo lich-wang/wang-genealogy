@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王元素（卒于869年），唐人物。籍贯新鄉。（中国历代人物传记资料库 CBDB 190304）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_dVUZmrFvdk4tFfjdAQqnDA
+        - id: cs_QQcpRpufBFQzElr7AswaUt
           claim_id: c_T2HUNc269zo57Dj7H3ykU4
           source_id: s_WhX7nYf4iEzcRLfQ1zpL5o
           stance: supports
-          locator: null
+          locator: CBDB:190304
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -157,7 +157,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王元素 | accepted |
 | death.date | 869年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王元素（卒于869年），唐人物。籍贯新鄉。（中国历代人物传记资料库 CBDB 190304） | accepted |
 
 ## 关联关系
 

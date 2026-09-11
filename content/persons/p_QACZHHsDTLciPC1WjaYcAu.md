@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王美，宋人物。籍贯蔡州，身份为義門。（中国历代人物传记资料库 CBDB 38253）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_j2oTDwewDWEMifWWmx19xz
+        - id: cs_2OdaHTjYjCqpH9664dk3rR
           claim_id: c_puQXN1jQiEW7iPP4Mpyyh1
           source_id: s_gvoGrQS98fCfKwk59dCXSQ
           stance: supports
-          locator: null
+          locator: CBDB:38253
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王美 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王美，宋人物。籍贯蔡州，身份为義門。（中国历代人物传记资料库 CBDB 38253） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: "王玫，明人物。籍贯海鹽，入仕貢生: 歲貢、常貢、挨貢，曾任府同知、衛經歷、刑部員外郎。（中国历代人物传记资料库 CBDB 691584）"
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_anAj7HMsDH9GCuGNL9v8oi
+        - id: cs_YGdlf_tt8nVp7hHf6748EJ
           claim_id: c_7eRxDotshJDiCmjzTAyk3D
           source_id: s_nDcUCmVYkrHbS1mjQfT9WE
           stance: supports
-          locator: null
+          locator: CBDB:691584
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王玫 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王玫，明人物。籍贯海鹽，入仕貢生: 歲貢、常貢、挨貢，曾任府同知、衛經歷、刑部員外郎。（中国历代人物传记资料库 CBDB 691584） | accepted |
 
 ## 关联关系
 

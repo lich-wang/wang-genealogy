@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王勛，宋人物。曾任安撫使。（中国历代人物传记资料库 CBDB 97820）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_aZq1CQ96NeZHAz7GJ2T5dK
+        - id: cs_Nv29vKXPsE6f_2NJgd9eT4
           claim_id: c_LFbQmibNmBwKi7Xc6Zazzd
           source_id: s_xHpM7NRMEEtZHKh8nt8TS7
           stance: supports
-          locator: null
+          locator: CBDB:97820
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王勛 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王勛，宋人物。曾任安撫使。（中国历代人物传记资料库 CBDB 97820） | accepted |
 
 ## 关联关系
 

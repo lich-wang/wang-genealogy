@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
-          language: zh-Hans
+          text: 王宗某（1257年—1323年），元人物。籍贯真定，入仕徵辟，曾任縣主簿、行中書省掾、宣慰司令史。（中国历代人物传记资料库 CBDB 28618）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_BMbnYCjCqs3c2UsLhoFJx1
+        - id: cs_9wpVp6Tm5-XYMzbvxO7wmS
           claim_id: c_X34F12k6BBYhHGPpuUx8W5
           source_id: s_uUwq3i4nBW2ea9MsJ581Lw
           stance: supports
-          locator: null
+          locator: CBDB:28618
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -227,7 +227,7 @@ relationships:
 | name.primary | 王宗某 | accepted |
 | birth.date | 1257年 | accepted |
 | death.date | 1323年 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王宗某（1257年—1323年），元人物。籍贯真定，入仕徵辟，曾任縣主簿、行中書省掾、宣慰司令史。（中国历代人物传记资料库 CBDB 28618） | accepted |
 
 ## 关联关系
 

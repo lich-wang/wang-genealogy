@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王輅，明人物。嘉靖四十一年進士，曾任遞運所大使。（中国历代人物传记资料库 CBDB 327809）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_eZzYzvB5XN88DGjn3vm7jB
+        - id: cs_ZU7EbnZmYvspV2Kmp9_isE
           claim_id: c_SjNDo7PryL4LCmgnrL4Wks
           source_id: s_fHnuR38ukYSTFJx6xo94a8
           stance: supports
-          locator: null
+          locator: CBDB:327809
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王輅 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王輅，明人物。嘉靖四十一年進士，曾任遞運所大使。（中国历代人物传记资料库 CBDB 327809） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王价，明人物。萬曆二年進士，籍贯太原府。（中国历代人物传记资料库 CBDB 213745）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_NMw2WPUWtr3HkzosNHNG5B
+        - id: cs_ep-i1_Y9ggwbIIgPTFsjiO
           claim_id: c_MzwBTQ4TYFE23Rmz9TMMYE
           source_id: s_M9yaR8CqAJmj8zfkhZpWnH
           stance: supports
-          locator: null
+          locator: CBDB:213745
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王价 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王价，明人物。萬曆二年進士，籍贯太原府。（中国历代人物传记资料库 CBDB 213745） | accepted |
 
 ## 关联关系
 

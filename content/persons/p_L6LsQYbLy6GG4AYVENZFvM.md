@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王棨，唐人物。籍贯福唐，身份为工於文，入仕進士，曾任大理司直、觀察使團練判官、觀察使團練巡官。（中国历代人物传记资料库 CBDB 35030）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_6S9swhEqQF4U8TDK7Yb5SR
+        - id: cs_7deXHItpYnY_Cnj51m1af2
           claim_id: c_rFkKBT1aBY3X8yFEdKTyaH
           source_id: s_NbsGdULk38EAgXxDgEo9We
           stance: supports
-          locator: null
+          locator: CBDB:35030
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王棨 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王棨，唐人物。籍贯福唐，身份为工於文，入仕進士，曾任大理司直、觀察使團練判官、觀察使團練巡官。（中国历代人物传记资料库 CBDB 35030） | accepted |
 
 ## 关联关系
 

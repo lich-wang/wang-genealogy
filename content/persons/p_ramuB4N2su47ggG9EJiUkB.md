@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为中華民國人物
-          language: zh-Hans
+          text: 王式通（1864年—1931年），中華民國人物。籍贯汾陽。（中国历代人物传记资料库 CBDB 71523）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_GG12mtCUBvpxLA979H54Mb
+        - id: cs_4UqqTEK7Bb_K6EUEXEFc5r
           claim_id: c_sZL129Nw96TJmTgAbnfN6s
           source_id: s_VLeNgZ6EmRNTsaM1V2wF1L
           stance: supports
-          locator: null
+          locator: CBDB:71523
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王式通 | accepted |
 | birth.date | 1864年 | accepted |
 | death.date | 1931年 | accepted |
-| bio.summary | CBDB 记载为中華民國人物 | accepted |
+| bio.summary | 王式通（1864年—1931年），中華民國人物。籍贯汾陽。（中国历代人物传记资料库 CBDB 71523） | accepted |
 
 ## 关联关系
 

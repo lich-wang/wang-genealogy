@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
-          language: zh-Hans
+          text: 王彬，元人物。籍贯真定，曾任南臺察院監察御史。（中国历代人物传记资料库 CBDB 100797）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_493YGDkJveiYiyi3W8wSA4
+        - id: cs_W3LGI-5kXF2e2HNwWkG1Fm
           claim_id: c_pr1r9ekTDieLeTCwcAss3d
           source_id: s_WCsgxvLfpWrJoDLuc7idxk
           stance: supports
-          locator: null
+          locator: CBDB:100797
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王彬 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王彬，元人物。籍贯真定，曾任南臺察院監察御史。（中国历代人物传记资料库 CBDB 100797） | accepted |
 
 ## 关联关系
 

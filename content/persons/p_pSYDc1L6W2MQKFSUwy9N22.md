@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王三命，明人物。曾任教諭。（中国历代人物传记资料库 CBDB 413686）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_UXUGW4nhMJYG7HUdQZkZr3
+        - id: cs_5luWf6UJo5l8802VtbfDa6
           claim_id: c_LxZhGjVZJcF9jGJMbCvs9p
           source_id: s_2PQ9Nr9mUbPGxsnxbBHVKC
           stance: supports
-          locator: null
+          locator: CBDB:413686
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王三命 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王三命，明人物。曾任教諭。（中国历代人物传记资料库 CBDB 413686） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王常庚，清人物。籍贯荊州府，入仕鄉貢舉人，曾任復設教諭。（中国历代人物传记资料库 CBDB 637401）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_43brfERxSHQEFZjHGJ73Gs
+        - id: cs_lBdSD33nbPmcFcVw5BqVE1
           claim_id: c_a23yXMu3jRzASZX2n4bB29
           source_id: s_m58J6iww72VFqq9xGV9Liw
           stance: supports
-          locator: null
+          locator: CBDB:637401
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王常庚 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王常庚，清人物。籍贯荊州府，入仕鄉貢舉人，曾任復設教諭。（中国历代人物传记资料库 CBDB 637401） | accepted |
 
 ## 关联关系
 

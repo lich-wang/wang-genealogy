@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王世焯，清人物。籍贯觀城，入仕鄉貢舉人，曾任知縣、知州。（中国历代人物传记资料库 CBDB 635695）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_CKNcB6FwFcdLUxA944L5Eq
+        - id: cs_Y5ytXjFAm_SY1gJvLM8qmj
           claim_id: c_ruPpCuf9mo1DQfaFEqS3ig
           source_id: s_5vCMAqNsRnhEBurTspqqiD
           stance: supports
-          locator: null
+          locator: CBDB:635695
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王世焯 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王世焯，清人物。籍贯觀城，入仕鄉貢舉人，曾任知縣、知州。（中国历代人物传记资料库 CBDB 635695） | accepted |
 
 ## 关联关系
 

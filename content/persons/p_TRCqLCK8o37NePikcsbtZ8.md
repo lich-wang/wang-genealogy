@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王彥超（914年—986年），宋人物。籍贯大名府，曾任國公、九寺五監、節度使。（中国历代人物传记资料库 CBDB 37637）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Khfh5ipZK2AYzsLh8Z8hnp
+        - id: cs_jictGGMpp2D5qFQ0EfiJT7
           claim_id: c_j22FhpiVE4NW1jd42GFceh
           source_id: s_38f7P5s3bSFVaCRYWVdruW
           stance: supports
-          locator: null
+          locator: CBDB:37637
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -201,7 +201,7 @@ relationships:
 | name.primary | 王彥超 | accepted |
 | birth.date | 914年 | accepted |
 | death.date | 986年 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王彥超（914年—986年），宋人物。籍贯大名府，曾任國公、九寺五監、節度使。（中国历代人物传记资料库 CBDB 37637） | accepted |
 
 ## 关联关系
 

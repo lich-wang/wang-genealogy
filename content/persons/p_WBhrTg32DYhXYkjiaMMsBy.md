@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王原祁（1642年—1715年），清人物。明清進士進士，籍贯太倉直隸州直轄地方，身份为畫家、詩人，入仕進士。（中国历代人物传记资料库 CBDB 65759）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_EcVsfAcryZiNRYP8bo1hm9
+        - id: cs_-LjNGGXUQzW5X7sIRKRIms
           claim_id: c_qwFPV49AkBsrLJKye6NfHT
           source_id: s_MHAbQ5koNbkbmfiGdTe1Ms
           stance: supports
-          locator: null
+          locator: CBDB:65759
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -175,7 +175,7 @@ relationships:
 | name.primary | 王原祁 | accepted |
 | birth.date | 1642年 | accepted |
 | death.date | 1715年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王原祁（1642年—1715年），清人物。明清進士進士，籍贯太倉直隸州直轄地方，身份为畫家、詩人，入仕進士。（中国历代人物传记资料库 CBDB 65759） | accepted |
 
 ## 关联关系
 

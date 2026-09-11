@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为中華民國人物
-          language: zh-Hans
+          text: 王克敏（1873年—1945年），中華民國人物。籍贯杭州府。（中国历代人物传记资料库 CBDB 71662）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_KMxmn2Sd3bUqhJDQdpSRx4
+        - id: cs_KNm825U_HV_JAWm5yXR5th
           claim_id: c_3xwJLgxTN2G4Ng3M1hvLEE
           source_id: s_H1T53QJfF6ZVnMWjVTJMor
           stance: supports
-          locator: null
+          locator: CBDB:71662
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王克敏 | accepted |
 | birth.date | 1873年 | accepted |
 | death.date | 1945年 | accepted |
-| bio.summary | CBDB 记载为中華民國人物 | accepted |
+| bio.summary | 王克敏（1873年—1945年），中華民國人物。籍贯杭州府。（中国历代人物传记资料库 CBDB 71662） | accepted |
 
 ## 关联关系
 

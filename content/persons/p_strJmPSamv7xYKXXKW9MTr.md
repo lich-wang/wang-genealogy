@@ -50,7 +50,7 @@ properties:
           locator: CBDB:21991
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source:
+          source: &a2
             id: s_NEM2LHUbviBQ29Lmt9Jggh
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：王遷（21991）
@@ -75,11 +75,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: Song dynasty person CBDB = 21991
-          language: en
+          text: 王迁，宋人物。籍贯穀城，身份为地方士人/鄉紳，曾任太子少保、皇太后。（中国历代人物传记资料库 CBDB 21991）
+          language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
         - id: cs_KYyEHqy1QwfyXjoQyu5Guw
           claim_id: c_GhAYQSZ1VJXK9uK5xK5iTT
@@ -89,6 +89,14 @@ properties:
           quotation: null
           interpretation_note: 维基数据条目描述
           source: *a1
+        - id: cs_2bfLJDx0RcMzy5pGEaKxs4
+          claim_id: c_GhAYQSZ1VJXK9uK5xK5iTT
+          source_id: s_NEM2LHUbviBQ29Lmt9Jggh
+          stance: supports
+          locator: CBDB:21991
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: *a2
       object_person: null
     alternatives: []
 relationships:
@@ -193,7 +201,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王迁 | accepted |
-| bio.summary | Song dynasty person CBDB = 21991 | accepted |
+| bio.summary | 王迁，宋人物。籍贯穀城，身份为地方士人/鄉紳，曾任太子少保、皇太后。（中国历代人物传记资料库 CBDB 21991） | accepted |
 
 ## 关联关系
 

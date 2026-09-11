@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王力，宋人物。曾任尚書省兵部職方司郎中、尚書省刑部都官司郎中。（中国历代人物传记资料库 CBDB 38466）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_8RnWtSCEKj7KDRR1XMyn72
+        - id: cs_QT8HIMZY71nh0OD_nGpj9F
           claim_id: c_uqnp4ayuPs4jCLvmJ9mbcW
           source_id: s_6B1dQU4igsYPiX4rzGJswL
           stance: supports
-          locator: null
+          locator: CBDB:38466
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王力 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王力，宋人物。曾任尚書省兵部職方司郎中、尚書省刑部都官司郎中。（中国历代人物传记资料库 CBDB 38466） | accepted |
 
 ## 关联关系
 

@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: "王騊（1177年—1223年），宋人物。籍贯處州，入仕恩蔭: 大禮蔭補，曾任縣令、監尚書省六部門、提舉常平司幹辦公事。（中国历代人物传记资料库 CBDB 339453）"
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_hb1F25WvfYAhpqarkcb1WC
+        - id: cs_Lhp3O5yUQZ32pNlPT6RU6d
           claim_id: c_E3GMuSzYV2jRyBN5bwss5z
           source_id: s_eyGcW2dDnLnWKnJ6EY2uiU
           stance: supports
-          locator: null
+          locator: CBDB:339453
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -286,7 +286,7 @@ relationships:
 | name.primary | 王騊 | accepted |
 | birth.date | 1177年 | accepted |
 | death.date | 1223年 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王騊（1177年—1223年），宋人物。籍贯處州，入仕恩蔭: 大禮蔭補，曾任縣令、監尚書省六部門、提舉常平司幹辦公事。（中国历代人物传记资料库 CBDB 339453） | accepted |
 
 ## 关联关系
 

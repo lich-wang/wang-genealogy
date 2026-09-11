@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王世昌（955年—1032年），宋人物。籍贯長社，入仕進士，曾任縣主簿、尚書省刑部都官司郎中、尚書省刑部都官司員外郎。（中国历代人物传记资料库 CBDB 27073）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_mkLggn9JqoiMERsGrazrUb
+        - id: cs_Y0ed23FKrb9S2A75Rwbsmz
           claim_id: c_L5QSvpfeeMSKsH9UbJ3L6f
           source_id: s_GYyb8yMQS5Du4FFyEa5T8A
           stance: supports
-          locator: null
+          locator: CBDB:27073
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王世昌 | accepted |
 | birth.date | 955年 | accepted |
 | death.date | 1032年 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王世昌（955年—1032年），宋人物。籍贯長社，入仕進士，曾任縣主簿、尚書省刑部都官司郎中、尚書省刑部都官司員外郎。（中国历代人物传记资料库 CBDB 27073） | accepted |
 
 ## 关联关系
 

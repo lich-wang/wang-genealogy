@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王國英（卒于1772年），清人物。籍贯成都，入仕優貢生，曾任典史、知府、知縣。（中国历代人物传记资料库 CBDB 69364）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_gbvFwk7LNmMF57rZnd4zp5
+        - id: cs_R_cN4fF8V9tJ15Dv_6tg49
           claim_id: c_1JaD71RhD4xS497wmLR81C
           source_id: s_75n5wKgmdRxfsGey4mWeif
           stance: supports
-          locator: null
+          locator: CBDB:69364
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王國英 | accepted |
 | death.date | 1772年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王國英（卒于1772年），清人物。籍贯成都，入仕優貢生，曾任典史、知府、知縣。（中国历代人物传记资料库 CBDB 69364） | accepted |
 
 ## 关联关系
 

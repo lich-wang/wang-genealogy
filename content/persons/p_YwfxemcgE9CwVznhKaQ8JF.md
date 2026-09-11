@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为南唐人物
+          text: 王仲華，南唐人物。籍贯新喻，入仕正奏名諸科(不含明經、明法)。（中国历代人物传记资料库 CBDB 21957）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_EMrFFKPZLrJP9MQKbMCV5e
+        - id: cs_mQsrzydSiP-s2kCG7G_tB0
           claim_id: c_KWJZpSBCs9SEsVEeuLC21o
           source_id: s_BBgaX9sKcGA6uZvCh2YJ1x
           stance: supports
-          locator: null
+          locator: CBDB:21957
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -154,7 +154,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王仲華 | accepted |
-| bio.summary | CBDB 记载为南唐人物 | accepted |
+| bio.summary | 王仲華，南唐人物。籍贯新喻，入仕正奏名諸科(不含明經、明法)。（中国历代人物传记资料库 CBDB 21957） | accepted |
 
 ## 关联关系
 

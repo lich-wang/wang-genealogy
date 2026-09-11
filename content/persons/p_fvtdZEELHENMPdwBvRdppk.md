@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王維城，明人物。籍贯江陰，曾任通判。（中国历代人物传记资料库 CBDB 235969）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_LCuqF1q1EdNRNGSa14Vus6
+        - id: cs_UuxDf72Zlxyw9_seOk3m5a
           claim_id: c_UuX6BPXkqYkxB8Qq57G56e
           source_id: s_tt5HKJ24AGnwXomJ86mD6Y
           stance: supports
-          locator: null
+          locator: CBDB:235969
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王維城 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王維城，明人物。籍贯江陰，曾任通判。（中国历代人物传记资料库 CBDB 235969） | accepted |
 
 ## 关联关系
 

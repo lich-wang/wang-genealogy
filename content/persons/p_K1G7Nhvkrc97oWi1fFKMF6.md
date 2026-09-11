@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王昱，唐人物。曾任州刺史。（中国历代人物传记资料库 CBDB 380974）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_XsLiSHNTYBPf2z6TCLR1G3
+        - id: cs_cjviGaynUoROHCgEjlhqo3
           claim_id: c_K9YdKL1gzVppY6sNZ2UuJf
           source_id: s_6N8p7pG2u5JxnSB62NQjst
           stance: supports
-          locator: null
+          locator: CBDB:380974
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王昱 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王昱，唐人物。曾任州刺史。（中国历代人物传记资料库 CBDB 380974） | accepted |
 
 ## 关联关系
 

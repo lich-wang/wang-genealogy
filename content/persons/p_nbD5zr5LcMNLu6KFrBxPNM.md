@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王濟，明人物。籍贯烏程，身份为詩人、結社，曾任州判官。（中国历代人物传记资料库 CBDB 126844）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_dRx9Lk3YN6epL4kd6gFd9H
+        - id: cs_aOFUql2sJMVYB5gyvKv9F5
           claim_id: c_6yQCjrqsHnCEBcFrKvGUPG
           source_id: s_FwHg8MJ7tr2DhCNrBQjLwt
           stance: supports
-          locator: null
+          locator: CBDB:126844
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王濟 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王濟，明人物。籍贯烏程，身份为詩人、結社，曾任州判官。（中国历代人物传记资料库 CBDB 126844） | accepted |
 
 ## 关联关系
 

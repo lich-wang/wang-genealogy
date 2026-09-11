@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王鉞，明人物。嘉靖二十九年進士，籍贯長垣，曾任正千戶、武德將軍。（中国历代人物传记资料库 CBDB 313572）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_3DP6f9yyJrJZveMDerP4QZ
+        - id: cs_b_sM46HXHA7QWNCxDMSbIB
           claim_id: c_mNnPBkdn6XURoPpDcyEqND
           source_id: s_vD4iK7oraKBeogyki3o93S
           stance: supports
-          locator: null
+          locator: CBDB:313572
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王鉞 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王鉞，明人物。嘉靖二十九年進士，籍贯長垣，曾任正千戶、武德將軍。（中国历代人物传记资料库 CBDB 313572） | accepted |
 
 ## 关联关系
 

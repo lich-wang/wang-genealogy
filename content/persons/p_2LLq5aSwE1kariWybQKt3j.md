@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王昱，明人物。明清進士進士，籍贯三原，入仕進士。（中国历代人物传记资料库 CBDB 343422）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_WbS5TAtR26yFu1FaWxPQLX
+        - id: cs_Lap7u7py9Y3IjV1NP1iVfL
           claim_id: c_4NupqHn1LxFkavHKfGZy1r
           source_id: s_qCZnZXtAEaAF7CRoxR4Xbq
           stance: supports
-          locator: null
+          locator: CBDB:343422
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王昱 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王昱，明人物。明清進士進士，籍贯三原，入仕進士。（中国历代人物传记资料库 CBDB 343422） | accepted |
 
 ## 关联关系
 

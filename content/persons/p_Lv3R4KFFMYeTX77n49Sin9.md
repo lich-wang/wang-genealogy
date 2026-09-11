@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王翊（1092年—1173年），宋人物。籍贯廬陵。（中国历代人物传记资料库 CBDB 37964）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_BKX5cG7ziuMCuJnzJu2WpP
+        - id: cs_FcDF3wO3XNImXzy1e2O5UO
           claim_id: c_AM2YFyXDmX9W9jTQjeL9Jm
           source_id: s_sviDGuxZMvEm61fno8cp1H
           stance: supports
-          locator: null
+          locator: CBDB:37964
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王翊 | accepted |
 | birth.date | 1092年 | accepted |
 | death.date | 1173年 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王翊（1092年—1173年），宋人物。籍贯廬陵。（中国历代人物传记资料库 CBDB 37964） | accepted |
 
 ## 关联关系
 

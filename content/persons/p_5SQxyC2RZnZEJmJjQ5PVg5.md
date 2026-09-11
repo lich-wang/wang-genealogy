@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王文信，宋人物。身份为叛臣。（中国历代人物传记资料库 CBDB 27721）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_n7KbZH9WmUUvNw57ZCHgCc
+        - id: cs_pph3_tOK_YN71Cil1mgWG1
           claim_id: c_K87i3DeJkhq23bF3LrHT4X
           source_id: s_HZbJwm8hG8TCyt6Gkantay
           stance: supports
-          locator: null
+          locator: CBDB:27721
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王文信 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王文信，宋人物。身份为叛臣。（中国历代人物传记资料库 CBDB 27721） | accepted |
 
 ## 关联关系
 

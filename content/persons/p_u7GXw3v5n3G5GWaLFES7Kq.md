@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王綰（卒于797年），唐人物。籍贯伊闕。（中国历代人物传记资料库 CBDB 145430）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_cEcD3w3Uze3ne6M6BDe7BS
+        - id: cs_4bc3BeHAwO17t3kMp-v3Fw
           claim_id: c_7M7MohJ8JJwTKCg2fgoWZw
           source_id: s_dz6RvC58hBSCnNzp8gPyT5
           stance: supports
-          locator: null
+          locator: CBDB:145430
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王綰 | accepted |
 | death.date | 797年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王綰（卒于797年），唐人物。籍贯伊闕。（中国历代人物传记资料库 CBDB 145430） | accepted |
 
 ## 关联关系
 

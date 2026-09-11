@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为中華民國人物
-          language: zh-Hans
+          text: 王德鍾（1897年—1927年），中華民國人物。籍贯青浦。（中国历代人物传记资料库 CBDB 72189）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_w24GjGbpEBE7B3DPMqBa1Y
+        - id: cs_1eXQc4HhZgfeAbQYuEPsdL
           claim_id: c_G7LCg8Wt87rh4phQMURHJb
           source_id: s_Eq49y85xFERSRxYQSmDY8v
           stance: supports
-          locator: null
+          locator: CBDB:72189
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王德鍾 | accepted |
 | birth.date | 1897年 | accepted |
 | death.date | 1927年 | accepted |
-| bio.summary | CBDB 记载为中華民國人物 | accepted |
+| bio.summary | 王德鍾（1897年—1927年），中華民國人物。籍贯青浦。（中国历代人物传记资料库 CBDB 72189） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王慶齡，清人物。籍贯大興，曾任縣丞、主簿。（中国历代人物传记资料库 CBDB 637964）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_F2nRXX2KyrWxwug2LMRwKs
+        - id: cs_29DF-r4yciTZzS2UbATV9c
           claim_id: c_xrzYPpQ457uQVQAXiFchbh
           source_id: s_JDYfacidjcMxCCLYRrPGjp
           stance: supports
-          locator: null
+          locator: CBDB:637964
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王慶齡 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王慶齡，清人物。籍贯大興，曾任縣丞、主簿。（中国历代人物传记资料库 CBDB 637964） | accepted |
 
 ## 关联关系
 

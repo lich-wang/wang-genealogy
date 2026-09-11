@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王有年（生于1621年），清人物。籍贯金谿。（中国历代人物传记资料库 CBDB 71531）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_qBsWBdoiqE6RtB61uSnnCh
+        - id: cs_TbaDIwj9AukIqQ5YN9e82Y
           claim_id: c_3ZT1q1FFsomoQCbrz5V4ab
           source_id: s_2KVjah8yjfQ2DT9g7vwWgP
           stance: supports
-          locator: null
+          locator: CBDB:71531
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王有年 | accepted |
 | birth.date | 1621年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王有年（生于1621年），清人物。籍贯金谿。（中国历代人物传记资料库 CBDB 71531） | accepted |
 
 ## 关联关系
 

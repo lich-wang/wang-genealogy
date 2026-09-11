@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王志道，明人物。明清進士進士，籍贯漳浦，入仕進士，曾任通政使司右通政、通政使司左通政。（中国历代人物传记资料库 CBDB 342995）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_wE2ZPBeaHtmZHm8aPYYBmJ
+        - id: cs_rhfJiI77tRA_ibQRty3CQ4
           claim_id: c_crUJv2GVQqcLPH78WJWiUc
           source_id: s_WUwPd8cKbb2DU7VSaSFxWC
           stance: supports
-          locator: null
+          locator: CBDB:342995
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王志道 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王志道，明人物。明清進士進士，籍贯漳浦，入仕進士，曾任通政使司右通政、通政使司左通政。（中国历代人物传记资料库 CBDB 342995） | accepted |
 
 ## 关联关系
 

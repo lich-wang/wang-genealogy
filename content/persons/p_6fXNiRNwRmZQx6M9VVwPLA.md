@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王中正，明人物。隆慶五年進士，曾任知縣。（中国历代人物传记资料库 CBDB 208930）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_UF1QJkqrHPTX8NuqQcGqT1
+        - id: cs_GUdpY20stoJPh5VogL-fcw
           claim_id: c_y17BzmNDmx7ygDgL5H71D4
           source_id: s_FYyj3Up2prwknpFJQLpcD6
           stance: supports
-          locator: null
+          locator: CBDB:208930
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王中正 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王中正，明人物。隆慶五年進士，曾任知縣。（中国历代人物传记资料库 CBDB 208930） | accepted |
 
 ## 关联关系
 

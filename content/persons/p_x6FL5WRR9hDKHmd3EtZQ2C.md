@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王應鳳（卒于1832年），清人物。籍贯鎮遠，曾任協副將、協左營都司、鎮標中營把總。（中国历代人物传记资料库 CBDB 57213）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_B6hRkVTfjZPmA7spscWchw
+        - id: cs_ef04pYAzI0GYAuBiwatf0F
           claim_id: c_QWr2ZpLmainQ9ZCXyfWo7o
           source_id: s_kBoTTn5c2rePZwNbJy2o4n
           stance: supports
-          locator: null
+          locator: CBDB:57213
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -157,7 +157,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王應鳳 | accepted |
 | death.date | 1832年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王應鳳（卒于1832年），清人物。籍贯鎮遠，曾任協副將、協左營都司、鎮標中營把總。（中国历代人物传记资料库 CBDB 57213） | accepted |
 
 ## 关联关系
 

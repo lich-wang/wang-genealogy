@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王惟善（生于1518年），明人物。嘉靖二十六年進士，籍贯新蔡，入仕進士。（中国历代人物传记资料库 CBDB 203836）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_3TW49X8153bSLSDqATr719
+        - id: cs_lzln0Mr2I39mCXI5RRFDPB
           claim_id: c_N9b66ip5Ji4GZ1rQeieSG5
           source_id: s_FTY82EgHLMnu2svfRLKoFQ
           stance: supports
-          locator: null
+          locator: CBDB:203836
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -231,7 +231,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王惟善 | accepted |
 | birth.date | 1518年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王惟善（生于1518年），明人物。嘉靖二十六年進士，籍贯新蔡，入仕進士。（中国历代人物传记资料库 CBDB 203836） | accepted |
 
 ## 关联关系
 

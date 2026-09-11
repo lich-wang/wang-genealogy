@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王用康（生于1521年），明人物。明清進士進士，籍贯汶上，入仕進士。（中国历代人物传记资料库 CBDB 204031）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_z1fcLb2qd3CisfAe9oQEUc
+        - id: cs_2Cedy877PIod43omwuu-kg
           claim_id: c_7J4RU6GhBEB8SdcTsHZDA9
           source_id: s_4MxK9r6yC71DtSC85QaiQz
           stance: supports
-          locator: null
+          locator: CBDB:204031
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -231,7 +231,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王用康 | accepted |
 | birth.date | 1521年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王用康（生于1521年），明人物。明清進士進士，籍贯汶上，入仕進士。（中国历代人物传记资料库 CBDB 204031） | accepted |
 
 ## 关联关系
 

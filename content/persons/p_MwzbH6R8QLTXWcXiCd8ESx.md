@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王彪，明人物。入仕鄉貢舉人，曾任知縣。（中国历代人物传记资料库 CBDB 508021）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_4kv34pZ7vCdwcPH3dccuXt
+        - id: cs_7gE7HO3Af-fAxsQl6Ar0dt
           claim_id: c_PGW5U5vo7F5A4EBt8sWL24
           source_id: s_cvpiAhyKpZiFYqaYmb8Cut
           stance: supports
-          locator: null
+          locator: CBDB:508021
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王彪 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王彪，明人物。入仕鄉貢舉人，曾任知縣。（中国历代人物传记资料库 CBDB 508021） | accepted |
 
 ## 关联关系
 

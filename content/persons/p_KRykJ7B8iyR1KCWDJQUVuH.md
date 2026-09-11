@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王儀，明人物。萬曆二年進士，籍贯孟津。（中国历代人物传记资料库 CBDB 214690）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Kar3PyVKVWJs2WcJSQDtGk
+        - id: cs_7XMax7whmxHwemkgQFN9O3
           claim_id: c_2PV8hkBKdQtyVcHXM1DF3L
           source_id: s_B4mtV4wbAJrFXEDKE8iVr1
           stance: supports
-          locator: null
+          locator: CBDB:214690
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王儀 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王儀，明人物。萬曆二年進士，籍贯孟津。（中国历代人物传记资料库 CBDB 214690） | accepted |
 
 ## 关联关系
 

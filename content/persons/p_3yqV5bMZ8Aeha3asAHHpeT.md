@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王紹，明人物。明清進士進士，籍贯舒城，入仕進士。（中国历代人物传记资料库 CBDB 342423）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_y3YYARFWeTtnrNMDatARp2
+        - id: cs_5GPShz0-IqlB6Cy3pmUevL
           claim_id: c_nfMzY5t7f8H9RppBtz5ZTG
           source_id: s_ezbnw4uqhVWfpv5omhHyr5
           stance: supports
-          locator: null
+          locator: CBDB:342423
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王紹 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王紹，明人物。明清進士進士，籍贯舒城，入仕進士。（中国历代人物传记资料库 CBDB 342423） | accepted |
 
 ## 关联关系
 

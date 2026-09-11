@@ -7,6 +7,44 @@ display_name: 路氏
 revision: 1
 cbdb_id: 558201
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_QkDBBEJKMYcxPa1dpeb9P6
+        subject_person_id: p_A6XGw5wRBA39b5Xjrnp7o5
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 路氏，清人物。籍贯新野，身份为貞婦/節婦。（中国历代人物传记资料库 CBDB 558201）
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Er7bS3-aFGQBEoCW2Cz1HZ
+          claim_id: c_QkDBBEJKMYcxPa1dpeb9P6
+          source_id: s_IlcKRwEhbFOLwBZw_kgOs_
+          stance: supports
+          locator: CBDB:558201
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_IlcKRwEhbFOLwBZw_kgOs_
+            source_type: api_record
+            title: 中国历代人物传记资料库：路氏(王肇基妻)（CBDB 558201）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=558201&o=json
+            external_identifier: CBDB:558201
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:558201
           quotation: null
           interpretation_note: CBDB 明确记录的王肇基配偶
-          source: &a1
-            id: s_IlcKRwEhbFOLwBZw_kgOs_
-            source_type: api_record
-            title: 中国历代人物传记资料库：路氏(王肇基妻)（CBDB 558201）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=558201&o=json
-            external_identifier: CBDB:558201
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 路氏，清人物。籍贯新野，身份为貞婦/節婦。（中国历代人物传记资料库 CBDB 558201） | accepted |
 | name.primary | 路氏 | accepted |
 
 ## 关联关系

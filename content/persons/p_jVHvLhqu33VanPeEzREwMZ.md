@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王日休，宋人物。籍贯分水，入仕學究科。（中国历代人物传记资料库 CBDB 688753）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_HzhZQPDxm9k2c76RLxFpnC
+        - id: cs_YQ4leUornEYWizJWfmTCWb
           claim_id: c_hpC8iqJsWPUDGEve2M9zKV
           source_id: s_vfjyKjNnGvgkTrPYP6m8X8
           stance: supports
-          locator: null
+          locator: CBDB:688753
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王日休 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王日休，宋人物。籍贯分水，入仕學究科。（中国历代人物传记资料库 CBDB 688753） | accepted |
 
 ## 关联关系
 

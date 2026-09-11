@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王寶珍，清人物。籍贯綏定，入仕附貢生，曾任訓導。（中国历代人物传记资料库 CBDB 637274）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_i64xkDDHc1f83yMuHASAL1
+        - id: cs_92SB6PY1xKQ2OCfpaJX68x
           claim_id: c_4p3U2ohH8BLP7JcQ5tqYBH
           source_id: s_TFQ279w4k82xFyEGbGga2h
           stance: supports
-          locator: null
+          locator: CBDB:637274
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王寶珍 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王寶珍，清人物。籍贯綏定，入仕附貢生，曾任訓導。（中国历代人物传记资料库 CBDB 637274） | accepted |
 
 ## 关联关系
 

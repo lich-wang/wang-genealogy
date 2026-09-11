@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王世清，明人物。嘉靖八年進士，籍贯東莞。（中国历代人物传记资料库 CBDB 287982）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_f9ppzJLS4WeuRH5St38edG
+        - id: cs_ENsfTYBNXUMqAUyd8urzCl
           claim_id: c_29nH1MYZR12FV5RVf6Hkxa
           source_id: s_6vE33zD4wkF18RQWWd5UF6
           stance: supports
-          locator: null
+          locator: CBDB:287982
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王世清 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王世清，明人物。嘉靖八年進士，籍贯東莞。（中国历代人物传记资料库 CBDB 287982） | accepted |
 
 ## 关联关系
 

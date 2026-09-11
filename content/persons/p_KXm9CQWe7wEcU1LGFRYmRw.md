@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: "王泳，清人物。籍贯安陽，入仕貢生: 拔貢，曾任教授、復設教諭。（中国历代人物传记资料库 CBDB 639081）"
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_WcJvxP7TGw1EJF3Nma1gry
+        - id: cs_2vUs-k-ee-yCQlpunz_WNN
           claim_id: c_3pAMz9ofQ11Si9kf7ki8Cp
           source_id: s_MRPR7C4KkYEdsskA7KCioo
           stance: supports
-          locator: null
+          locator: CBDB:639081
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王泳 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王泳，清人物。籍贯安陽，入仕貢生: 拔貢，曾任教授、復設教諭。（中国历代人物传记资料库 CBDB 639081） | accepted |
 
 ## 关联关系
 

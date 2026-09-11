@@ -56,19 +56,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: American academic
-          language: en
+          text: 王義翹（1936年3月12日—2020年8月29日），史料所见人物。本项目依据《王義翹》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_jiPRuTT2a3aQc62WuqgQkU
+        - id: cs_fn93YEOkjg7GgSoMsypnu6
           claim_id: c_YgNp5vq2NkooNpgrbmjKCC
           source_id: s_oaMV6nWAJeKPsz8HQwVeUG
           stance: supports
-          locator: null
+          locator: Q5217566
           quotation: null
-          interpretation_note: 维基数据条目描述
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
           source: *a1
       object_person: null
     alternatives: []
@@ -194,7 +194,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王義翹 | accepted |
-| bio.summary | American academic | accepted |
+| bio.summary | 王義翹（1936年3月12日—2020年8月29日），史料所见人物。本项目依据《王義翹》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
 | birth.date | 1936年3月12日 | accepted |
 | death.date | 2020年8月29日 | accepted |
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王立本，明人物。籍贯嘉善，身份为畫家。（中国历代人物传记资料库 CBDB 560843）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_59Ex55pegaYPDkEdiDG2No
+        - id: cs_NfW1eZKxOLb3vZbDx37BKI
           claim_id: c_mZKiY81n9A4FRJYbEVLuZM
           source_id: s_Ex88sEq1pLNMoQM3k5Vvxs
           stance: supports
-          locator: null
+          locator: CBDB:560843
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王立本 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王立本，明人物。籍贯嘉善，身份为畫家。（中国历代人物传记资料库 CBDB 560843） | accepted |
 
 ## 关联关系
 

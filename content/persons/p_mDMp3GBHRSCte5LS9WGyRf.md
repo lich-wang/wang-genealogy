@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王學書，明人物。籍贯榆林衛。（中国历代人物传记资料库 CBDB 512853）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_nUGRQPtMMC95w3et6GXRoS
+        - id: cs_Wyy2pEtPo0SAv78yxVzzaJ
           claim_id: c_RqbegXYmTZV699e5hi26CG
           source_id: s_AFmg55KXZYc5x5NVcvWgw3
           stance: supports
-          locator: null
+          locator: CBDB:512853
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -128,7 +128,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王學書 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王學書，明人物。籍贯榆林衛。（中国历代人物传记资料库 CBDB 512853） | accepted |
 
 ## 关联关系
 

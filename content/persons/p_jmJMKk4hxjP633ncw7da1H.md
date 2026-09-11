@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王鐸，明人物。萬曆二年進士，曾任州同知。（中国历代人物传记资料库 CBDB 214279）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_qbCW67gM1s6jiSm2ovfBiq
+        - id: cs_3pB3Tbry_c4ap4iQnGRSOj
           claim_id: c_RPVgydNbSJ5owvbK5Jobo6
           source_id: s_X1epEuKrm64YG7f8hA4ncT
           stance: supports
-          locator: null
+          locator: CBDB:214279
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王鐸 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王鐸，明人物。萬曆二年進士，曾任州同知。（中国历代人物传记资料库 CBDB 214279） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王有齡，清人物。籍贯內鄉。（中国历代人物传记资料库 CBDB 561405）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_GqzWMEM4h1JnDyi1oWuMEG
+        - id: cs_NhjSGl7po0bVyKz83_kIeA
           claim_id: c_91ab16Zz8a4yKV2ABMFQEV
           source_id: s_6a7u9LuQC78yGFU1fk4tar
           stance: supports
-          locator: null
+          locator: CBDB:561405
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -128,7 +128,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王有齡 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王有齡，清人物。籍贯內鄉。（中国历代人物传记资料库 CBDB 561405） | accepted |
 
 ## 关联关系
 

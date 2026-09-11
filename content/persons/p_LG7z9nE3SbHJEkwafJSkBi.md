@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王鐸（生于1442年），明人物。明清進士進士，籍贯保安，入仕進士。（中国历代人物传记资料库 CBDB 200528）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_DfL95iM3PoU5ZptAyqvkxP
+        - id: cs__qtInz1Vh5Sp77FCAeKIa_
           claim_id: c_AmswqjGBaxmb1MBCAVz18i
           source_id: s_hLepfNovessaCB1mZXaZU1
           stance: supports
-          locator: null
+          locator: CBDB:200528
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -231,7 +231,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王鐸 | accepted |
 | birth.date | 1442年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王鐸（生于1442年），明人物。明清進士進士，籍贯保安，入仕進士。（中国历代人物传记资料库 CBDB 200528） | accepted |
 
 ## 关联关系
 

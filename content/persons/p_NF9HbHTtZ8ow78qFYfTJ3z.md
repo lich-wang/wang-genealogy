@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王傳，明人物。萬曆八年進士，籍贯朝邑，曾任知縣。（中国历代人物传记资料库 CBDB 219540）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_cK7t9SkPLWuUCYvMJW6rK5
+        - id: cs_neNo8qHwqf4xqVXALM080J
           claim_id: c_F9Lq9Q4FmYwj3h74iTebF3
           source_id: s_Ny7BuFfUk3DwZJkUqqTWqP
           stance: supports
-          locator: null
+          locator: CBDB:219540
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王傳 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王傳，明人物。萬曆八年進士，籍贯朝邑，曾任知縣。（中国历代人物传记资料库 CBDB 219540） | accepted |
 
 ## 关联关系
 

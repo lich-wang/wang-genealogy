@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王兆春，清人物。籍贯孝感，入仕鄉貢舉人，曾任教諭。（中国历代人物传记资料库 CBDB 574144）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_7KWz3Cn3TDmfkTAscLaHBs
+        - id: cs_ZBT8HCVmw7KcWpxOBmiF-H
           claim_id: c_3KWa21P5p9vwriSCNrGHxP
           source_id: s_bVYtab2JucVsKd4w4rVe7D
           stance: supports
-          locator: null
+          locator: CBDB:574144
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王兆春 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王兆春，清人物。籍贯孝感，入仕鄉貢舉人，曾任教諭。（中国历代人物传记资料库 CBDB 574144） | accepted |
 
 ## 关联关系
 

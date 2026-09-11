@@ -7,6 +7,44 @@ display_name: 李氏
 cbdb_id: 140322
 revision: 5
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_CPUBu8YN5OpH8xLdjpaAr4
+        subject_person_id: p_YJUfQmozBnpgzDZHV6jrGh
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 李氏（654—716），唐人物。籍贯衛南。（中国历代人物传记资料库 CBDB 140322）
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_iR5jRHZVTv1XWrQ0t2mNma
+          claim_id: c_CPUBu8YN5OpH8xLdjpaAr4
+          source_id: s_GfMGSQkwGeLC59AEiWNiKr
+          stance: supports
+          locator: CBDB:140322
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_GfMGSQkwGeLC59AEiWNiKr
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：李氏（140322）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140322&o=json
+            external_identifier: CBDB:140322
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,7 +69,7 @@ properties:
           locator: Q65802952
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source: &a1
+          source: &a2
             id: s_TMRDHAUSbWoFpWkt5oCG1k
             source_type: api_record
             title: 维基数据：李氏（Q65802952）
@@ -50,18 +88,7 @@ properties:
           locator: CBDB:140322
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source: &a2
-            id: s_GfMGSQkwGeLC59AEiWNiKr
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：李氏（140322）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140322&o=json
-            external_identifier: CBDB:140322
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T08:06:50.055Z
-            metadata_json: null
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -109,7 +136,7 @@ relationships:
           locator: P26（配偶）
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: *a2
         - id: cs_6iXso3da9NsTRCHTxSucgj
           claim_id: c_7wGur8m996P1JspXYLpc15
           source_id: s_1HjBNJSAiFFvcNMcDTE7mi
@@ -191,7 +218,7 @@ relationships:
           locator: 唐代墓誌匯編:二卷，Kaiyuan 47：丈夫
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a2
+          source: *a1
       object_person:
         id: p_cDKZ9odWpBmQ6RH3xs3UzM
         status: active
@@ -217,7 +244,7 @@ relationships:
           locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：丈夫
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a2
+          source: *a1
       object_person:
         id: p_ELimFJDuCmQgYQUz8JcHYB
         status: active
@@ -310,6 +337,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 李氏（654—716），唐人物。籍贯衛南。（中国历代人物传记资料库 CBDB 140322） | accepted |
 | name.primary | 李氏 | accepted |
 
 ## 关联关系

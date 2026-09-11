@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王岐，清人物。籍贯即墨，入仕鄉貢舉人，曾任復設教諭。（中国历代人物传记资料库 CBDB 637333）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_NS3cDXMUCq3hH5KEdpxzfD
+        - id: cs_KqTmOuO65jy15dEtRDRQ_j
           claim_id: c_1h1qJ8cqJoJwBB81rhdNDt
           source_id: s_16xrfhrw7cEX2CyYBRFSf4
           stance: supports
-          locator: null
+          locator: CBDB:637333
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王岐 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王岐，清人物。籍贯即墨，入仕鄉貢舉人，曾任復設教諭。（中国历代人物传记资料库 CBDB 637333） | accepted |
 
 ## 关联关系
 

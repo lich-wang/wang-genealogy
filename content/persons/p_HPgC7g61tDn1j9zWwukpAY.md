@@ -7,6 +7,44 @@ display_name: 馬氏
 revision: 1
 cbdb_id: 253906
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_TzWRYY5_9bt_13DKo5w29v
+        subject_person_id: p_HPgC7g61tDn1j9zWwukpAY
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 馬氏，明人物。成化十四年進士。（中国历代人物传记资料库 CBDB 253906）
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zZM6jqMpm_Gd-lb4z_kTPg
+          claim_id: c_TzWRYY5_9bt_13DKo5w29v
+          source_id: s_-PHRpKCpiqMQP_kBCfHcRJ
+          stance: supports
+          locator: CBDB:253906
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_-PHRpKCpiqMQP_kBCfHcRJ
+            source_type: api_record
+            title: 中国历代人物传记资料库：馬氏(王佐妻)（CBDB 253906）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253906&o=json
+            external_identifier: CBDB:253906
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:253906
           quotation: null
           interpretation_note: CBDB 明确记录的王佐配偶
-          source: &a1
-            id: s_-PHRpKCpiqMQP_kBCfHcRJ
-            source_type: api_record
-            title: 中国历代人物传记资料库：馬氏(王佐妻)（CBDB 253906）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253906&o=json
-            external_identifier: CBDB:253906
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 馬氏，明人物。成化十四年進士。（中国历代人物传记资料库 CBDB 253906） | accepted |
 | name.primary | 馬氏 | accepted |
 
 ## 关联关系

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: "王介，宋人物。籍贯丹徒，身份为強記;博學強記，入仕科舉制舉: 賢良方正科，曾任三司判官、殿中省尚乘奉御、賢良方正。（中国历代人物传记资料库 CBDB 26610）"
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_bAh6HmcqwjGXcKVjih55YH
+        - id: cs_bFTMAnVXunx5bEFflC7g7o
           claim_id: c_pRSqvK5mPRnYmaTRVM7qDg
           source_id: s_7zo4774w8QAmSiH1s1VitC
           stance: supports
-          locator: null
+          locator: CBDB:26610
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -206,7 +206,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王介 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王介，宋人物。籍贯丹徒，身份为強記;博學強記，入仕科舉制舉: 賢良方正科，曾任三司判官、殿中省尚乘奉御、賢良方正。（中国历代人物传记资料库 CBDB 26610） | accepted |
 
 ## 关联关系
 

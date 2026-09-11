@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王同澤，清人物。籍贯新城，入仕監生，曾任典史。（中国历代人物传记资料库 CBDB 636509）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_khmYTY2WFtf8XkWC8jNj7A
+        - id: cs_KaVbzUagtaMLUuBKR5-kD-
           claim_id: c_Xtg6T4kN4iQR5zQPv1FcnH
           source_id: s_h3DpJWDpDu4Ty6WPAfT2RS
           stance: supports
-          locator: null
+          locator: CBDB:636509
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王同澤 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王同澤，清人物。籍贯新城，入仕監生，曾任典史。（中国历代人物传记资料库 CBDB 636509） | accepted |
 
 ## 关联关系
 

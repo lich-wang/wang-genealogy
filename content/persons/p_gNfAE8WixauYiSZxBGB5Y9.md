@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王癸初，清人物。籍贯清河，入仕貢生 = 貢監生 (明清賓貢,功貢)，曾任商虞通判。（中国历代人物传记资料库 CBDB 639494）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_eFyV1mPNP5CLHc7j5n3VK7
+        - id: cs_3V70_Kb1dK2OPmLeMU53Wn
           claim_id: c_TKE7HPx4xkdQiiFKG16eNP
           source_id: s_YigQdaeYpr7sPfaAjPBvWm
           stance: supports
-          locator: null
+          locator: CBDB:639494
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王癸初 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王癸初，清人物。籍贯清河，入仕貢生 = 貢監生 (明清賓貢,功貢)，曾任商虞通判。（中国历代人物传记资料库 CBDB 639494） | accepted |
 
 ## 关联关系
 

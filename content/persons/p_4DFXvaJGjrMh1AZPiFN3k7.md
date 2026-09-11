@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王淵（1077年—1129年），宋人物。籍贯熙州，身份为精於騎射，入仕軍員轉補，曾任觀察使、節度使、秘書省校書郎。（中国历代人物传记资料库 CBDB 8156）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_8FGMTQMdzTLtMMqcZ8w4K3
+        - id: cs_6HycvnAIn7A9QpMgJ6TajA
           claim_id: c_rg4Eb8WGKoyxrNgLWb9pPF
           source_id: s_NU9snLL9YRryUoX5Cw8uxa
           stance: supports
-          locator: null
+          locator: CBDB:8156
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -290,7 +290,7 @@ relationships:
 | name.primary | 王淵 | accepted |
 | birth.date | 1077年 | accepted |
 | death.date | 1129年 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王淵（1077年—1129年），宋人物。籍贯熙州，身份为精於騎射，入仕軍員轉補，曾任觀察使、節度使、秘書省校書郎。（中国历代人物传记资料库 CBDB 8156） | accepted |
 
 ## 关联关系
 

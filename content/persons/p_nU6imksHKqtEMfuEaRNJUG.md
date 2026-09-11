@@ -75,11 +75,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: Tang dynasty person CBDB = 191289
-          language: en
+          text: 王上客（卒于738年），唐人物。籍贯偃師，曾任州刺史、總管。（中国历代人物传记资料库 CBDB 191289）
+          language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
         - id: cs_9dojjSYJTe43eF7SmQaR3D
           claim_id: c_W7M5eWFU22sy17aeVCt222
@@ -89,6 +89,14 @@ properties:
           quotation: null
           interpretation_note: 维基数据条目描述
           source: *a1
+        - id: cs_IgzLWJw6P38I8iHkfsO03h
+          claim_id: c_W7M5eWFU22sy17aeVCt222
+          source_id: s_d1BioWBySRD3o5vSLFQQoJ
+          stance: supports
+          locator: CBDB:191289
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: *a2
       object_person: null
     alternatives: []
   - predicate: death.date
@@ -210,7 +218,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王上客 | accepted |
-| bio.summary | Tang dynasty person CBDB = 191289 | accepted |
+| bio.summary | 王上客（卒于738年），唐人物。籍贯偃師，曾任州刺史、總管。（中国历代人物传记资料库 CBDB 191289） | accepted |
 | death.date | 738年 | accepted |
 
 ## 关联关系

@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王超（卒于874年），唐人物。籍贯杜陵，曾任未詳。（中国历代人物传记资料库 CBDB 175947）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_GwMzZskRDQfDT7rxQWFyN4
+        - id: cs_xnj642GwVDt2Txzgf4CRjn
           claim_id: c_shNm3okdy5d81vaEKCbM4K
           source_id: s_hqKcNiNwJ5Ef7qKS6mkic5
           stance: supports
-          locator: null
+          locator: CBDB:175947
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -157,7 +157,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王超 | accepted |
 | death.date | 874年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王超（卒于874年），唐人物。籍贯杜陵，曾任未詳。（中国历代人物传记资料库 CBDB 175947） | accepted |
 
 ## 关联关系
 

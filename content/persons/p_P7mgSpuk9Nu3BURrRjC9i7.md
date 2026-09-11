@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王錦，明人物。籍贯錢塘，身份为孝子/孝女，曾任府學教授。（中国历代人物传记资料库 CBDB 701103）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Zd8kUPdjnqJeC84KEamUA3
+        - id: cs_TdyGIrEQe4FrD__b_P8uvD
           claim_id: c_dD2ZKdD1Tf8TEbcF8yckT6
           source_id: s_bU2JZK3hSxshU3BCLn2V9A
           stance: supports
-          locator: null
+          locator: CBDB:701103
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王錦 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王錦，明人物。籍贯錢塘，身份为孝子/孝女，曾任府學教授。（中国历代人物传记资料库 CBDB 701103） | accepted |
 
 ## 关联关系
 

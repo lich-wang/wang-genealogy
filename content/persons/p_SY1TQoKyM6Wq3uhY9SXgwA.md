@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
+          text: 王惠（1261年—1322年），元人物。籍贯昆明，曾任縣尹。（中国历代人物传记资料库 CBDB 100827）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_PwMuQeQjdstKBw3arJE8cH
+        - id: cs_7l1TCMes9q-c68zWYMWY3Y
           claim_id: c_EZKxsj8rDCQpZNF8PA5DUo
           source_id: s_f8u3YDCstAE6oCopNnfxZr
           stance: supports
-          locator: null
+          locator: CBDB:100827
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -186,7 +186,7 @@ relationships:
 | name.primary | 王惠 | accepted |
 | birth.date | 1261年 | accepted |
 | death.date | 1322年 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王惠（1261年—1322年），元人物。籍贯昆明，曾任縣尹。（中国历代人物传记资料库 CBDB 100827） | accepted |
 
 ## 关联关系
 

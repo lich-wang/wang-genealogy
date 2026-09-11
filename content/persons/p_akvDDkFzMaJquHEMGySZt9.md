@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王鎭新，清人物。曾任教授。（中国历代人物传记资料库 CBDB 415561）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_ymVJL2Zii2WyKRuMggH29i
+        - id: cs_peC5sHVAUWdDsR2OoTMAUi
           claim_id: c_4itcsa5kJ3Bqswsnw3V7HB
           source_id: s_EjZU6hp9DfNkmKBN5vpL1n
           stance: supports
-          locator: null
+          locator: CBDB:415561
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王鎭新 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王鎭新，清人物。曾任教授。（中国历代人物传记资料库 CBDB 415561） | accepted |
 
 ## 关联关系
 

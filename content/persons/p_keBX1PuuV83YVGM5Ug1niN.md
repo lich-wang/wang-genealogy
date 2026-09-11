@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王鑣，清人物。曾任教諭。（中国历代人物传记资料库 CBDB 476562）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_GYMV1cgpmnKSk3LLJYPRV2
+        - id: cs_1OUpiB5gub_m0W5jHSjIX6
           claim_id: c_svKUUmL1xcxaHp8Kq2A9Jq
           source_id: s_bBKKqKRzfxKuDaFEaGk32M
           stance: supports
-          locator: null
+          locator: CBDB:476562
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王鑣 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王鑣，清人物。曾任教諭。（中国历代人物传记资料库 CBDB 476562） | accepted |
 
 ## 关联关系
 

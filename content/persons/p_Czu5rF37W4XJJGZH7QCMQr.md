@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王汝棐（生于1623年），清人物。籍贯松陽。（中国历代人物传记资料库 CBDB 71619）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_qJF9KBkcXwQB9GX2MZERjK
+        - id: cs_gOmCjrz-9OPUZYc-TaMvI2
           claim_id: c_WYBTsQJy36Mcf7fbFboZVF
           source_id: s_1ksysVAejmDMHAJaGQQP9b
           stance: supports
-          locator: null
+          locator: CBDB:71619
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王汝棐 | accepted |
 | birth.date | 1623年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王汝棐（生于1623年），清人物。籍贯松陽。（中国历代人物传记资料库 CBDB 71619） | accepted |
 
 ## 关联关系
 

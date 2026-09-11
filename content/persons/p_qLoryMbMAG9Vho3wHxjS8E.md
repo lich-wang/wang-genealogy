@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: "王杞，明人物。籍贯餘姚，入仕科舉制舉: 武舉科，曾任衛鎮撫。（中国历代人物传记资料库 CBDB 563486）"
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_r3Gsb66n1w6BcecGkKbE9s
+        - id: cs_CRzXQQV6vAYdDqaFYv8VFC
           claim_id: c_AtybM62rrFwUxUmaFjBKNq
           source_id: s_NSBsQmiQufs3oq46yJCSRt
           stance: supports
-          locator: null
+          locator: CBDB:563486
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -202,7 +202,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王杞 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王杞，明人物。籍贯餘姚，入仕科舉制舉: 武舉科，曾任衛鎮撫。（中国历代人物传记资料库 CBDB 563486） | accepted |
 
 ## 关联关系
 

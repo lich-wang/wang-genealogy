@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王獵，宋人物。籍贯長垣，身份为落第士人，入仕舉進士、諸科不第，曾任尚書省工部侍郎、天章閣待制、縣令。（中国历代人物传记资料库 CBDB 45819）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_sw5JHFA7tJDL5c4B8gbiNH
+        - id: cs__uxebwe1RGNbifPocnP0nn
           claim_id: c_sEn3U3zG6CsprWNUnZLu5D
           source_id: s_GLTHZk5KaYbqgrKUrpGQmd
           stance: supports
-          locator: null
+          locator: CBDB:45819
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王獵 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王獵，宋人物。籍贯長垣，身份为落第士人，入仕舉進士、諸科不第，曾任尚書省工部侍郎、天章閣待制、縣令。（中国历代人物传记资料库 CBDB 45819） | accepted |
 
 ## 关联关系
 

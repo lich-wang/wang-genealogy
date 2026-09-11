@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王尚恭（1007年—1084年），宋人物。籍贯河南府，入仕進士，曾任朝議大夫、秘書丞、太常寺少卿。（中国历代人物传记资料库 CBDB 26511）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_zBWmEMEuNe7TkLGXKWQSaK
+        - id: cs_d1FimFJ5heUc5QLhwDWRM-
           claim_id: c_QdsyeqjxGFKXhUi5Ro8ZHQ
           source_id: s_HJE6YQYSr8DT37MgBwYnbP
           stance: supports
-          locator: null
+          locator: CBDB:26511
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王尚恭 | accepted |
 | birth.date | 1007年 | accepted |
 | death.date | 1084年 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王尚恭（1007年—1084年），宋人物。籍贯河南府，入仕進士，曾任朝議大夫、秘書丞、太常寺少卿。（中国历代人物传记资料库 CBDB 26511） | accepted |
 
 ## 关联关系
 

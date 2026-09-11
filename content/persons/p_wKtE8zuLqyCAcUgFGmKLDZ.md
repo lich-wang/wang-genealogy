@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王貴，明人物。嘉靖八年進士，曾任壽官。（中国历代人物传记资料库 CBDB 290149）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_WphksE5ynXXVcea612hFDG
+        - id: cs_aGwhWK4Te6cjTmqbKp-sLo
           claim_id: c_k114XNYDf8L3BaKdZo8Ryc
           source_id: s_NPRLtU8Nzw29jUPcB58Jvx
           stance: supports
-          locator: null
+          locator: CBDB:290149
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -128,7 +128,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王貴 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王貴，明人物。嘉靖八年進士，曾任壽官。（中国历代人物传记资料库 CBDB 290149） | accepted |
 
 ## 关联关系
 

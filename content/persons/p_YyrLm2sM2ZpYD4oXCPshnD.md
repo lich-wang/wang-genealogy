@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王集，明人物。成化二十三年進士，籍贯寧海。（中国历代人物传记资料库 CBDB 260646）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_55A3n6vT2H15ake5uiL8Gr
+        - id: cs_W9B7ZOt83wp-c5ArFOknEU
           claim_id: c_5ByWGBQQ88Pt6gPcdthotA
           source_id: s_CKeD7tjaFeDYrsJWC6BQE4
           stance: supports
-          locator: null
+          locator: CBDB:260646
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王集 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王集，明人物。成化二十三年進士，籍贯寧海。（中国历代人物传记资料库 CBDB 260646） | accepted |
 
 ## 关联关系
 

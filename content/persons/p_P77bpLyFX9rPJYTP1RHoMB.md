@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王稷，宋人物。入仕進士，曾任殿中省尚乘奉御、太常寺博士、通判。（中国历代人物传记资料库 CBDB 37831）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Ayp65CG7P6K51PpCrnx7MX
+        - id: cs_HbQ0ibyvBncOwzErNvh2NW
           claim_id: c_SBCKdwL4mno4XgzoqUd25X
           source_id: s_xc2BwCwKTey2TNjZ11h9xu
           stance: supports
-          locator: null
+          locator: CBDB:37831
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王稷 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王稷，宋人物。入仕進士，曾任殿中省尚乘奉御、太常寺博士、通判。（中国历代人物传记资料库 CBDB 37831） | accepted |
 
 ## 关联关系
 

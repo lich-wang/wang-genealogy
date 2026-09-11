@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王澤榮，清人物。籍贯光州直隸州直轄地方，入仕鄉貢舉人，曾任訓導。（中国历代人物传记资料库 CBDB 639230）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_iNCj1e5HhBG4n12RETTPm7
+        - id: cs_vqCWEBIl_8W29DsGnBjJl3
           claim_id: c_1dvD14UP1G3ox7fdBY2fPC
           source_id: s_ktMbLd1h4jb1FvBXjKJJ9P
           stance: supports
-          locator: null
+          locator: CBDB:639230
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王澤榮 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王澤榮，清人物。籍贯光州直隸州直轄地方，入仕鄉貢舉人，曾任訓導。（中国历代人物传记资料库 CBDB 639230） | accepted |
 
 ## 关联关系
 

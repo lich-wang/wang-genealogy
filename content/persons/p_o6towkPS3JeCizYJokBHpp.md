@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王孫鑨，明人物。籍贯寧波府，身份为不求仕，入仕鄉貢舉人，曾任府通判、教諭。（中国历代人物传记资料库 CBDB 703551）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_CLzYCyr4NKp8AUwDcJPWAi
+        - id: cs_j4andUSLED0zlC2irOcDRK
           claim_id: c_teG1K59A1sFfQXA8ZQcHjV
           source_id: s_ynuCUdcHBJXQi8kPCD3Xj9
           stance: supports
-          locator: null
+          locator: CBDB:703551
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王孫鑨 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王孫鑨，明人物。籍贯寧波府，身份为不求仕，入仕鄉貢舉人，曾任府通判、教諭。（中国历代人物传记资料库 CBDB 703551） | accepted |
 
 ## 关联关系
 

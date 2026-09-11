@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王筮泰，清人物。籍贯大名，入仕鄉貢舉人，曾任知縣。（中国历代人物传记资料库 CBDB 639719）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_ebzkK1EChNRqYe9Tv5wsFC
+        - id: cs_UCJ34VaKRr5JiQqGmuk8Fn
           claim_id: c_M9FdN8tXz4XQ2X1928JFh3
           source_id: s_g5M6fgdjyZ4NmxHvsyr2Rs
           stance: supports
-          locator: null
+          locator: CBDB:639719
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王筮泰 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王筮泰，清人物。籍贯大名，入仕鄉貢舉人，曾任知縣。（中国历代人物传记资料库 CBDB 639719） | accepted |
 
 ## 关联关系
 

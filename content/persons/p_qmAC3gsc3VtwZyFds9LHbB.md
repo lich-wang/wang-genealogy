@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
+          text: 王企（1304年—1350年），元人物。籍贯金谿。（中国历代人物传记资料库 CBDB 100651）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_FaBCnZjg6RhqpGRZcQd9t5
+        - id: cs_uMvlBdyQ0P2mGUog8TA7OV
           claim_id: c_goN8sk4cFS17U7veEWtBGN
           source_id: s_PPYzsfTL9LZ9tK28DdKZkb
           stance: supports
-          locator: null
+          locator: CBDB:100651
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王企 | accepted |
 | birth.date | 1304年 | accepted |
 | death.date | 1350年 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王企（1304年—1350年），元人物。籍贯金谿。（中国历代人物传记资料库 CBDB 100651） | accepted |
 
 ## 关联关系
 

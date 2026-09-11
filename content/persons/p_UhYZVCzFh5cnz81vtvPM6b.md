@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为隋人物
+          text: 王表，隋人物。籍贯芒山，曾任縣令。（中国历代人物传记资料库 CBDB 147256）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Eu54Jt7ou4UML3vCP2Rgeu
+        - id: cs_2iNtJ-Pf7OFY5krai0qqZT
           claim_id: c_Vdsbky4k8kPEkGe6sfhqGK
           source_id: s_Z96EqvtSZ1kU96Q3aTy2bv
           stance: supports
-          locator: null
+          locator: CBDB:147256
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -128,7 +128,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王表 | accepted |
-| bio.summary | CBDB 记载为隋人物 | accepted |
+| bio.summary | 王表，隋人物。籍贯芒山，曾任縣令。（中国历代人物传记资料库 CBDB 147256） | accepted |
 
 ## 关联关系
 

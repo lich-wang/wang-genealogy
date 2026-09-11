@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王栖曜（卒于803年），唐人物。籍贯濮陽，曾任觀察使、節度使、州刺史。（中国历代人物传记资料库 CBDB 189585）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_TeQCpjAa8p8zXD72YX5Tdf
+        - id: cs_9zUrMV0QW2hDNJ99lpj4ku
           claim_id: c_ebbGX9LhFb7gZNSvwGGjQm
           source_id: s_D1W8yD5PetNe6Lxk4RYza7
           stance: supports
-          locator: null
+          locator: CBDB:189585
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -272,7 +272,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王栖曜 | accepted |
 | death.date | 803年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王栖曜（卒于803年），唐人物。籍贯濮陽，曾任觀察使、節度使、州刺史。（中国历代人物传记资料库 CBDB 189585） | accepted |
 
 ## 关联关系
 

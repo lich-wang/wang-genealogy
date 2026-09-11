@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为南北朝人物
+          text: 王續，南北朝人物。籍贯琅琊，曾任吏部郎中。（中国历代人物传记资料库 CBDB 152187）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_KGU41MtJ26jR6CyqSS7Sii
+        - id: cs_agkL-fA2lgIZBbTnNqAm2H
           claim_id: c_cy9evWiS8G38X4FzhkCq2G
           source_id: s_pRAsobtmvbmDSpdAh6tAoD
           stance: supports
-          locator: null
+          locator: CBDB:152187
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -202,7 +202,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王續 | accepted |
-| bio.summary | CBDB 记载为南北朝人物 | accepted |
+| bio.summary | 王續，南北朝人物。籍贯琅琊，曾任吏部郎中。（中国历代人物传记资料库 CBDB 152187） | accepted |
 
 ## 关联关系
 

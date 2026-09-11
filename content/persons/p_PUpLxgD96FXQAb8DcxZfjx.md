@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王茂卿，清人物。籍贯餘姚，身份为僧人。（中国历代人物传记资料库 CBDB 571847）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_g8LZhDHXzM83vyrZ8A4hH4
+        - id: cs_VUUy-O7HWA5sjW0OXvspsS
           claim_id: c_fv2EjnrwgxSL1hZTmSBYKw
           source_id: s_LLbhsmaTBRGHML9GTTGEr6
           stance: supports
-          locator: null
+          locator: CBDB:571847
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -128,7 +128,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王茂卿 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王茂卿，清人物。籍贯餘姚，身份为僧人。（中国历代人物传记资料库 CBDB 571847） | accepted |
 
 ## 关联关系
 

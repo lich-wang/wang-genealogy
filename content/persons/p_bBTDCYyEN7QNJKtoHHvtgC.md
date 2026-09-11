@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王世琛（1681年—1761年），清人物。明清進士進士，籍贯長洲，身份为畫家，入仕進士。（中国历代人物传记资料库 CBDB 67711）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_GEJ6Fh9Uwro2EVsJEU2BAL
+        - id: cs_EkWVu8UXOS5ro1c15IMFYu
           claim_id: c_7zGvRUFrYCyh2Ez2cywbrD
           source_id: s_BYYM5AHxJcY56Dq7RLrv4N
           stance: supports
-          locator: null
+          locator: CBDB:67711
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王世琛 | accepted |
 | birth.date | 1681年 | accepted |
 | death.date | 1761年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王世琛（1681年—1761年），清人物。明清進士進士，籍贯長洲，身份为畫家，入仕進士。（中国历代人物传记资料库 CBDB 67711） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王夢魁，清人物。籍贯會稽，入仕鄉貢舉人。（中国历代人物传记资料库 CBDB 576119）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_KZZGdiaVUzaAC2SEb31FTP
+        - id: cs_Iscr19yIK528WlAlINoTAi
           claim_id: c_bcfqDEruc2BtsD1UybRC75
           source_id: s_vz32S4tSsWHLWiFAuLhNcR
           stance: supports
-          locator: null
+          locator: CBDB:576119
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王夢魁 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王夢魁，清人物。籍贯會稽，入仕鄉貢舉人。（中国历代人物传记资料库 CBDB 576119） | accepted |
 
 ## 关联关系
 

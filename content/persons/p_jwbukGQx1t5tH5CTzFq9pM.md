@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王珙，清人物。明清進士進士，籍贯金匱，入仕進士。（中国历代人物传记资料库 CBDB 341985）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_yEP4DC91iVFS5dBExPRiPH
+        - id: cs_wpkcDfnaNo6NyHzaA4Mn8Q
           claim_id: c_D544aWURB53JT4q64WFigE
           source_id: s_9wbC5m5HxseeSoJ1ma7Csk
           stance: supports
-          locator: null
+          locator: CBDB:341985
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王珙 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王珙，清人物。明清進士進士，籍贯金匱，入仕進士。（中国历代人物传记资料库 CBDB 341985） | accepted |
 
 ## 关联关系
 

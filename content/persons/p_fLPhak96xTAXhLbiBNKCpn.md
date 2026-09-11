@@ -7,6 +7,44 @@ display_name: 劉氏
 revision: 1
 cbdb_id: 37929
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_6sDkHrqzCKp1WqFk_69JGB
+        subject_person_id: p_fLPhak96xTAXhLbiBNKCpn
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 劉氏（1078—1143），宋人物。籍贯安福。（中国历代人物传记资料库 CBDB 37929）
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FZtUjUskLOVUB_9Sti0woH
+          claim_id: c_6sDkHrqzCKp1WqFk_69JGB
+          source_id: s_Ccmi9QxWeiliGroC-KTK8V
+          stance: supports
+          locator: CBDB:37929
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_Ccmi9QxWeiliGroC-KTK8V
+            source_type: api_record
+            title: 中国历代人物传记资料库：劉氏(王庭珪妻)（CBDB 37929）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37929&o=json
+            external_identifier: CBDB:37929
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:37929
           quotation: null
           interpretation_note: CBDB 明确记录的王庭珪配偶
-          source: &a1
-            id: s_Ccmi9QxWeiliGroC-KTK8V
-            source_type: api_record
-            title: 中国历代人物传记资料库：劉氏(王庭珪妻)（CBDB 37929）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37929&o=json
-            external_identifier: CBDB:37929
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 劉氏（1078—1143），宋人物。籍贯安福。（中国历代人物传记资料库 CBDB 37929） | accepted |
 | name.primary | 劉氏 | accepted |
 
 ## 关联关系

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王士霖，清人物。籍贯鄞縣。（中国历代人物传记资料库 CBDB 694147）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_UAfN2cRsv1q3hSDAd4tyD1
+        - id: cs_-lr0_IM8ydmSbqrmWKOPTs
           claim_id: c_FBWMyuK6c8Tnjxb7m8jDvC
           source_id: s_hPA2wXFn6CM42W4D5FLhFz
           stance: supports
-          locator: null
+          locator: CBDB:694147
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -206,7 +206,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王士霖 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王士霖，清人物。籍贯鄞縣。（中国历代人物传记资料库 CBDB 694147） | accepted |
 
 ## 关联关系
 

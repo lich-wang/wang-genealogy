@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王永春（1610年—1668年），清人物。籍贯涇陽。（中国历代人物传记资料库 CBDB 71506）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_pypEW5hxn9PFdGHWac4RDU
+        - id: cs_g5kgj2vSPsTcPdI2XVViKK
           claim_id: c_7ES76EFtcKbKqDuNKxGBMF
           source_id: s_XpoocEtsbHWxSmPBTmUaqF
           stance: supports
-          locator: null
+          locator: CBDB:71506
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王永春 | accepted |
 | birth.date | 1610年 | accepted |
 | death.date | 1668年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王永春（1610年—1668年），清人物。籍贯涇陽。（中国历代人物传记资料库 CBDB 71506） | accepted |
 
 ## 关联关系
 

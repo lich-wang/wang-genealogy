@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王嘉禎（卒于1655年），清人物。籍贯宛平，曾任守備、水師守備、營遊擊。（中国历代人物传记资料库 CBDB 69413）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_WGF3yiMDnuPsSKR8wNA2RL
+        - id: cs_4J2IJ5-sFmSNVWZBBqoHA1
           claim_id: c_PzqCZXjXWA1hnUHze74BJ4
           source_id: s_g3Gd7aFrHip6YF6nxtebJv
           stance: supports
-          locator: null
+          locator: CBDB:69413
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王嘉禎 | accepted |
 | death.date | 1655年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王嘉禎（卒于1655年），清人物。籍贯宛平，曾任守備、水師守備、營遊擊。（中国历代人物传记资料库 CBDB 69413） | accepted |
 
 ## 关联关系
 

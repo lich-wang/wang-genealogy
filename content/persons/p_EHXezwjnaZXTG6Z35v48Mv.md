@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王普（卒于1162年），宋人物。籍贯閩縣，身份为理學家，入仕進士，曾任左朝議大夫、國子監丞、太常寺博士。（中国历代人物传记资料库 CBDB 1857）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_QKDQwm2d1MAMLkrbWSXjoz
+        - id: cs_65jVsD0oaMlxf4Utvj0RUB
           claim_id: c_Czy7NNr1gbUJzSoxqVxYo5
           source_id: s_U1avTi5BBKfBJc48k6b1mw
           stance: supports
-          locator: null
+          locator: CBDB:1857
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -157,7 +157,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王普 | accepted |
 | death.date | 1162年 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王普（卒于1162年），宋人物。籍贯閩縣，身份为理學家，入仕進士，曾任左朝議大夫、國子監丞、太常寺博士。（中国历代人物传记资料库 CBDB 1857） | accepted |
 
 ## 关联关系
 

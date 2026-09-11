@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王嘉衡，清人物。籍贯震澤，入仕監生，曾任經歷。（中国历代人物传记资料库 CBDB 636628）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_P9HvzaBGyn7dea2KQgfSS4
+        - id: cs_awuNiiajDc-Ri0XmnoCblC
           claim_id: c_1gFaa6THM4s1LSkPLEcoTD
           source_id: s_mMEBNsaxYUJf7UQsBPGN3u
           stance: supports
-          locator: null
+          locator: CBDB:636628
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王嘉衡 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王嘉衡，清人物。籍贯震澤，入仕監生，曾任經歷。（中国历代人物传记资料库 CBDB 636628） | accepted |
 
 ## 关联关系
 

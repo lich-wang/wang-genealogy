@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王椷，清人物。籍贯福山，曾任知縣。（中国历代人物传记资料库 CBDB 638747）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_z9sczWwEN1mNueyVNWuL8p
+        - id: cs_icrdr8k_7gOoRSBwR-hVK-
           claim_id: c_efKhbK4eLQbnX4D7UkD6AS
           source_id: s_EKwka629VTdiE1Lt3JdX67
           stance: supports
-          locator: null
+          locator: CBDB:638747
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王椷 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王椷，清人物。籍贯福山，曾任知縣。（中国历代人物传记资料库 CBDB 638747） | accepted |
 
 ## 关联关系
 

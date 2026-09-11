@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王鈞，明人物。萬曆二年進士，籍贯壽張，入仕監生。（中国历代人物传记资料库 CBDB 212642）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_NHzLp73CV62wUN3LgNPaWr
+        - id: cs_kfWNU9i3-I3reUsa8PGpJQ
           claim_id: c_rU1bBNYKuLjKWjWWDnyzQA
           source_id: s_ZGBNtY6jVBS4UyN1BjxRKi
           stance: supports
-          locator: null
+          locator: CBDB:212642
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王鈞 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王鈞，明人物。萬曆二年進士，籍贯壽張，入仕監生。（中国历代人物传记资料库 CBDB 212642） | accepted |
 
 ## 关联关系
 

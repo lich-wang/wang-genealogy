@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王安，明人物。成化十一年進士，籍贯汲縣。（中国历代人物传记资料库 CBDB 249821）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_pMPFg2czWy72eHg9z7pvgc
+        - id: cs_5dLxUPK-_tkb6LAw8tyI15
           claim_id: c_opfSsUAVXD8t7v71RQEngf
           source_id: s_DzJB6kFU1Gp5Ts5BQtYCsF
           stance: supports
-          locator: null
+          locator: CBDB:249821
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王安 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王安，明人物。成化十一年進士，籍贯汲縣。（中国历代人物传记资料库 CBDB 249821） | accepted |
 
 ## 关联关系
 

@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王裕嶸（生于1839年），清人物。籍贯湘潭。（中国历代人物传记资料库 CBDB 72092）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_UfyQfHexgEFemZbGNyCZyH
+        - id: cs_nPgtaIx9pskyRaAqxfTV_5
           claim_id: c_sYtFNtHPUw56WjTorDi4rB
           source_id: s_QSqZGr8kG8Zt37YbXDrap9
           stance: supports
-          locator: null
+          locator: CBDB:72092
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王裕嶸 | accepted |
 | birth.date | 1839年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王裕嶸（生于1839年），清人物。籍贯湘潭。（中国历代人物传记资料库 CBDB 72092） | accepted |
 
 ## 关联关系
 

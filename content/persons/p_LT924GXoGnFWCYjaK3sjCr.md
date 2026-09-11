@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王淑，宋人物。籍贯鉅野，曾任起居郎。（中国历代人物传记资料库 CBDB 17918）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_kysB5iqX5enusLewvAcxTb
+        - id: cs_HD7y_oVbgUJlUDwzSY8DXp
           claim_id: c_Yw4zPrYLr7EAFRSyc42RJY
           source_id: s_XUJSxbUa2WzRFCSYXqdZC1
           stance: supports
-          locator: null
+          locator: CBDB:17918
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -128,7 +128,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王淑 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王淑，宋人物。籍贯鉅野，曾任起居郎。（中国历代人物传记资料库 CBDB 17918） | accepted |
 
 ## 关联关系
 

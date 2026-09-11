@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
-          language: zh-Hans
+          text: 王炎澤（1253年—1332年），元人物。籍贯義烏，身份为書院山長、業進士，入仕薦舉 (保任,保舉)，曾任縣學教諭、書院山長。（中国历代人物传记资料库 CBDB 10724）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_eCTjHmHDruoXwNvTGxCcn3
+        - id: cs_rOLVnBq2YjJeueKXZH2piK
           claim_id: c_Mats8XLPfzZ6H7i9Ush4Vn
           source_id: s_uzCPGMUpAMX6b1wjW5hE99
           stance: supports
-          locator: null
+          locator: CBDB:10724
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -349,7 +349,7 @@ relationships:
 | name.primary | 王炎澤 | accepted |
 | birth.date | 1253年 | accepted |
 | death.date | 1332年 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王炎澤（1253年—1332年），元人物。籍贯義烏，身份为書院山長、業進士，入仕薦舉 (保任,保舉)，曾任縣學教諭、書院山長。（中国历代人物传记资料库 CBDB 10724） | accepted |
 
 ## 关联关系
 

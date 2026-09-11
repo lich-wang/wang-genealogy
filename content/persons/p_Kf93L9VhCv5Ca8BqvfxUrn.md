@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王正宗，清人物。籍贯句容，入仕監生，曾任典史。（中国历代人物传记资料库 CBDB 638893）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_4MGWC6K2ugFpSk1HmQ9Hx7
+        - id: cs_H4YSMZqNTuobety-tQh8m2
           claim_id: c_kKthE8F1hCag6vhMtnpCHa
           source_id: s_PQAP3tD1DH3FEECV1wJR72
           stance: supports
-          locator: null
+          locator: CBDB:638893
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王正宗 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王正宗，清人物。籍贯句容，入仕監生，曾任典史。（中国历代人物传记资料库 CBDB 638893） | accepted |
 
 ## 关联关系
 

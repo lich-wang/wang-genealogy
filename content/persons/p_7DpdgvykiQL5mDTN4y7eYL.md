@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王廷弼，清人物。明清進士進士，籍贯富順，入仕進士。（中国历代人物传记资料库 CBDB 341913）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_LH5sy72ZA6LetVoMPM5EP8
+        - id: cs_20J-MULBVTialZ8ZSDuKiN
           claim_id: c_5WGAR7JnFBDQL6DMLiH5Vg
           source_id: s_oLxPRBRNqNiDr4SZ56Vg3p
           stance: supports
-          locator: null
+          locator: CBDB:341913
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王廷弼 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王廷弼，清人物。明清進士進士，籍贯富順，入仕進士。（中国历代人物传记资料库 CBDB 341913） | accepted |
 
 ## 关联关系
 

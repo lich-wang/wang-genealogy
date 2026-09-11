@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王少恆，唐人物。籍贯平原。（中国历代人物传记资料库 CBDB 156969）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_t1ipSPTacHmUSTuXqAf1Xn
+        - id: cs_pAdc7TgezEI_3yaR9yJWfc
           claim_id: c_MrdMk6vMMeFDJe9EKdcxnr
           source_id: s_sNiCTwWYbkmEMmVfEC2Xoj
           stance: supports
-          locator: null
+          locator: CBDB:156969
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王少恆 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王少恆，唐人物。籍贯平原。（中国历代人物传记资料库 CBDB 156969） | accepted |
 
 ## 关联关系
 

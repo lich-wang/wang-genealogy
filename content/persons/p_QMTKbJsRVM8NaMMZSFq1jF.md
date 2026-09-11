@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王稱，宋人物。籍贯眉山，身份为史學家，入仕上書獻頌，曾任承議郎、直秘閣。（中国历代人物传记资料库 CBDB 10212）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_K1ZiP9K8o6SLPY49MA68br
+        - id: cs_RA4SmCaN6sP5g-pc7AvmDw
           claim_id: c_cSY3vug7QStsawGkSQmPJ8
           source_id: s_58R9yJGc1cB3Kg67Jj1WvX
           stance: supports
-          locator: null
+          locator: CBDB:10212
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -128,7 +128,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王稱 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王稱，宋人物。籍贯眉山，身份为史學家，入仕上書獻頌，曾任承議郎、直秘閣。（中国历代人物传记资料库 CBDB 10212） | accepted |
 
 ## 关联关系
 

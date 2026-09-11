@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为遼人物
-          language: zh-Hans
+          text: 王瓚（953年—984年），遼人物。籍贯建州，曾任上柱國、右僕射、御史大夫。（中国历代人物传记资料库 CBDB 144998）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_PXabe52oJkhN2K2F3vqM8P
+        - id: cs_KSw5lkdr1OE_YEZNwS5cgU
           claim_id: c_qam3C4ns8TVtUuebGpSUKN
           source_id: s_cLNMPFPx8RSrY4QwjD1RMF
           stance: supports
-          locator: null
+          locator: CBDB:144998
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -186,7 +186,7 @@ relationships:
 | name.primary | 王瓚 | accepted |
 | birth.date | 953年 | accepted |
 | death.date | 984年 | accepted |
-| bio.summary | CBDB 记载为遼人物 | accepted |
+| bio.summary | 王瓚（953年—984年），遼人物。籍贯建州，曾任上柱國、右僕射、御史大夫。（中国历代人物传记资料库 CBDB 144998） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王諫，明人物。嘉靖三十八年進士，籍贯臨海，曾任府通判。（中国历代人物传记资料库 CBDB 323018）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_vGhzZTkhNawkdAvKd5Ks9n
+        - id: cs_xXaMKKrGajkrrqHKsKVKJD
           claim_id: c_Tv9mr4A9L8pGYaWcJjEh81
           source_id: s_aox8CeEa13PocPCwG6L5pc
           stance: supports
-          locator: null
+          locator: CBDB:323018
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王諫 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王諫，明人物。嘉靖三十八年進士，籍贯臨海，曾任府通判。（中国历代人物传记资料库 CBDB 323018） | accepted |
 
 ## 关联关系
 

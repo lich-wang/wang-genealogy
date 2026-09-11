@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王繼庭（卒于1874年），清人物。籍贯武清。（中国历代人物传记资料库 CBDB 71983）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_bH9xixK2sMGiL66Pq1Mif7
+        - id: cs_nTIuBQp4XR1lEp4o-jQl6x
           claim_id: c_mTN5Sic8PHqr6bQQwVxdhJ
           source_id: s_bBGR1X6RLi38sTDyWttQhV
           stance: supports
-          locator: null
+          locator: CBDB:71983
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王繼庭 | accepted |
 | death.date | 1874年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王繼庭（卒于1874年），清人物。籍贯武清。（中国历代人物传记资料库 CBDB 71983） | accepted |
 
 ## 关联关系
 

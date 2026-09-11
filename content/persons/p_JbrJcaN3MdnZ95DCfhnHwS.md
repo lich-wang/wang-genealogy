@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王惲（789年—845年），唐人物。籍贯共城。（中国历代人物传记资料库 CBDB 141841）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_KozfpZTu9rzYW9aqrZhony
+        - id: cs_qsbnPJRbFignrUzSmiqa8g
           claim_id: c_FnK9rMQRGjcBJEDhwj7NZG
           source_id: s_YRUmBec1c1U1MVFLNBi7FK
           stance: supports
-          locator: null
+          locator: CBDB:141841
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -336,7 +336,7 @@ relationships:
 | name.primary | 王惲 | accepted |
 | birth.date | 789年 | accepted |
 | death.date | 845年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王惲（789年—845年），唐人物。籍贯共城。（中国历代人物传记资料库 CBDB 141841） | accepted |
 
 ## 关联关系
 

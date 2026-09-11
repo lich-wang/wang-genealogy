@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王履亨（1788年—1860年），清人物。籍贯諸城，入仕鄉貢舉人，曾任縣知縣、知府、知州。（中国历代人物传记资料库 CBDB 69443）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_je3TmzHG2BFAGQSNWkDWgA
+        - id: cs_5Ps81x4K6jnDq5tuHUj1GQ
           claim_id: c_S8GK4pdSPvyEt2ZRDLJWp6
           source_id: s_XP6yeB5bki4Uje1WNxPTGj
           stance: supports
-          locator: null
+          locator: CBDB:69443
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -264,7 +264,7 @@ relationships:
 | name.primary | 王履亨 | accepted |
 | birth.date | 1788年 | accepted |
 | death.date | 1860年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王履亨（1788年—1860年），清人物。籍贯諸城，入仕鄉貢舉人，曾任縣知縣、知府、知州。（中国历代人物传记资料库 CBDB 69443） | accepted |
 
 ## 关联关系
 

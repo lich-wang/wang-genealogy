@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王緒，明人物。萬曆五年進士，籍贯惠安。（中国历代人物传记资料库 CBDB 216219）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_wUaCTZN5Js9vT1y6sVyjMy
+        - id: cs_UpShDKJb7jI4zXSSkJiiId
           claim_id: c_KQm8RmCoYJszLTckvm7jvd
           source_id: s_EL89KZo4zoVujZfCE7PBUf
           stance: supports
-          locator: null
+          locator: CBDB:216219
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王緒 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王緒，明人物。萬曆五年進士，籍贯惠安。（中国历代人物传记资料库 CBDB 216219） | accepted |
 
 ## 关联关系
 

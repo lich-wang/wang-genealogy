@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王汝槐，清人物。籍贯山西省，入仕廩貢生，曾任郎中。（中国历代人物传记资料库 CBDB 639019）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_FbT5NEHV1N9FpJcSkcaLJG
+        - id: cs_SyBrt_2kE1HWBwlWLEMsBl
           claim_id: c_tX6PLrADy5wDvgskHwo4Yw
           source_id: s_T1kQq7y7EZYwMj6hSfGqko
           stance: supports
-          locator: null
+          locator: CBDB:639019
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王汝槐 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王汝槐，清人物。籍贯山西省，入仕廩貢生，曾任郎中。（中国历代人物传记资料库 CBDB 639019） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王發，宋人物。籍贯開封。（中国历代人物传记资料库 CBDB 36862）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_EzhkXuzAz4ZL1F6sGRfp2a
+        - id: cs_EmASWEn2YT9lLLoIXkmeo6
           claim_id: c_gWJghWu5zh1UkzmvNbaE8E
           source_id: s_cLx88B2dVstY2v267jJCsn
           stance: supports
-          locator: null
+          locator: CBDB:36862
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王發 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王發，宋人物。籍贯開封。（中国历代人物传记资料库 CBDB 36862） | accepted |
 
 ## 关联关系
 

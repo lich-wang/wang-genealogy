@@ -50,7 +50,7 @@ properties:
           locator: CBDB:22015
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source:
+          source: &a2
             id: s_JpcbamsCcMYPFtStQ26ppa
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：王湘（22015）
@@ -75,11 +75,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: Song dynasty person (CBDB = 22015)
-          language: en
+          text: 王湘（1092年—1164年），宋人物。籍贯開封府，身份为主家事，入仕恩蔭、蔭補，曾任將仕郎、修職郎、監茶。（中国历代人物传记资料库 CBDB 22015）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
         - id: cs_iQ1sLmDgmBg3sawyBa2hve
           claim_id: c_837yU7nF5NQpxiM9t1BpMa
@@ -89,6 +89,14 @@ properties:
           quotation: null
           interpretation_note: 维基数据条目描述
           source: *a1
+        - id: cs_0TOzasCTRJM1Bj5SghP6H0
+          claim_id: c_837yU7nF5NQpxiM9t1BpMa
+          source_id: s_JpcbamsCcMYPFtStQ26ppa
+          stance: supports
+          locator: CBDB:22015
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: *a2
       object_person: null
     alternatives: []
   - predicate: birth.date
@@ -268,7 +276,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王湘 | accepted |
-| bio.summary | Song dynasty person (CBDB = 22015) | accepted |
+| bio.summary | 王湘（1092年—1164年），宋人物。籍贯開封府，身份为主家事，入仕恩蔭、蔭補，曾任將仕郎、修職郎、監茶。（中国历代人物传记资料库 CBDB 22015） | accepted |
 | birth.date | 1092年 | accepted |
 | death.date | 1164年 | accepted |
 

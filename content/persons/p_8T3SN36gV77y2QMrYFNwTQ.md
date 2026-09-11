@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王濂，明人物。曾任百戶。（中国历代人物传记资料库 CBDB 477655）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_9QTqRHwC81fJXn6LsfXL4H
+        - id: cs_M16xr6ILtkGoqN5we2zz3g
           claim_id: c_r9twzFBBa1QtCgocLjhJof
           source_id: s_kpQEXL1XsmEUB8zXjkPMAN
           stance: supports
-          locator: null
+          locator: CBDB:477655
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王濂 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王濂，明人物。曾任百戶。（中国历代人物传记资料库 CBDB 477655） | accepted |
 
 ## 关联关系
 

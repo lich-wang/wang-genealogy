@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王惲，清人物。籍贯海豐，入仕廩貢生，曾任經歷。（中国历代人物传记资料库 CBDB 637906）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_CMWmU3rFyAwcAn7L9vPY22
+        - id: cs_tZaAo0pyWpYkoRXTNn5m_f
           claim_id: c_Vv3hvSvbJJnwV5zFv7xz3d
           source_id: s_wEZGqFrZkxH4qUGK2UTnGz
           stance: supports
-          locator: null
+          locator: CBDB:637906
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王惲 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王惲，清人物。籍贯海豐，入仕廩貢生，曾任經歷。（中国历代人物传记资料库 CBDB 637906） | accepted |
 
 ## 关联关系
 

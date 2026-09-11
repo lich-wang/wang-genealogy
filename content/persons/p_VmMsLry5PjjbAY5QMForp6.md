@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王章，明人物。天順元年進士，籍贯陽城。（中国历代人物传记资料库 CBDB 309151）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_ohbr7V37Xc56qBKN8bggXu
+        - id: cs_E577FmQOWXDITpBLDl1Xgc
           claim_id: c_wyRAkY5g2R7JB3uFQviT2D
           source_id: s_WK3Pp5Aj4vUHLNRqT4rNb7
           stance: supports
-          locator: null
+          locator: CBDB:309151
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王章 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王章，明人物。天順元年進士，籍贯陽城。（中国历代人物传记资料库 CBDB 309151） | accepted |
 
 ## 关联关系
 

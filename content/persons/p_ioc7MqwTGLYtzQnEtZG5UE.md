@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王仲徵，清人物。籍贯大興，入仕監生，曾任縣丞。（中国历代人物传记资料库 CBDB 635943）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_PjL8g2x8BCrcNXPRrosqej
+        - id: cs_Pf4tAB13jsMDi4BOMNsAei
           claim_id: c_iK3Uw1FsDtkVy27DBiNKkF
           source_id: s_uMHGypKxCwDm6TpSo8vN26
           stance: supports
-          locator: null
+          locator: CBDB:635943
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王仲徵 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王仲徵，清人物。籍贯大興，入仕監生，曾任縣丞。（中国历代人物传记资料库 CBDB 635943） | accepted |
 
 ## 关联关系
 

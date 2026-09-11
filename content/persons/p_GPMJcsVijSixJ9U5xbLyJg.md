@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王奭，宋人物。籍贯鹽亭，入仕進士，曾任殿中省尚輦奉御、殿中省尚舍奉御、秘書省著作郎。（中国历代人物传记资料库 CBDB 37836）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_eWdd4PaNCAccAzDreYM4jt
+        - id: cs_zrIUbl-SRqPLcZNwrOTKeh
           claim_id: c_sfVJGQyg444CvKpMwDt3zT
           source_id: s_KjT5FNTu6L222fv9nwoy2e
           stance: supports
-          locator: null
+          locator: CBDB:37836
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王奭 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王奭，宋人物。籍贯鹽亭，入仕進士，曾任殿中省尚輦奉御、殿中省尚舍奉御、秘書省著作郎。（中国历代人物传记资料库 CBDB 37836） | accepted |
 
 ## 关联关系
 

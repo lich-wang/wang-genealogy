@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王廷佐，清人物。入仕鄉貢舉人。（中国历代人物传记资料库 CBDB 576137）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_3XMri5x65PeQQex8H4FYdk
+        - id: cs_fTesPx_o246EsQHI2HEkVZ
           claim_id: c_83jRz4EZ9XcYrR24FXwJPJ
           source_id: s_6iBA4J9CCEvH5H3xQMiKTk
           stance: supports
-          locator: null
+          locator: CBDB:576137
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王廷佐 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王廷佐，清人物。入仕鄉貢舉人。（中国历代人物传记资料库 CBDB 576137） | accepted |
 
 ## 关联关系
 

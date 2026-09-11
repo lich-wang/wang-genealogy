@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王身誠，清人物。籍贯秦州直隸州直轄地方，曾任訓導。（中国历代人物传记资料库 CBDB 640367）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_wM8CPv5vvmthzogkXUoJ9K
+        - id: cs_Tfm-A5U1a8E8puZHV6wrs9
           claim_id: c_w3sBnDyPapS58bXEWpsGYW
           source_id: s_csD9kU7X9mFu6DiHLoMaus
           stance: supports
-          locator: null
+          locator: CBDB:640367
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王身誠 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王身誠，清人物。籍贯秦州直隸州直轄地方，曾任訓導。（中国历代人物传记资料库 CBDB 640367） | accepted |
 
 ## 关联关系
 

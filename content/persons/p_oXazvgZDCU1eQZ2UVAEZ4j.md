@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王曙（963年—1034年），宋人物。籍贯洛陽，入仕進士，曾任催欠司、尚書省工部侍郎、三司都憑由司。（中国历代人物传记资料库 CBDB 1877）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_JqV4BXxmqruMLJyywJyqrv
+        - id: cs_mjRGFBULiLhvsHS0FVIc9I
           claim_id: c_vJGJD3akR4LX7aTp8ViCXG
           source_id: s_e5drH5xPh5jbJyVbSxpyNA
           stance: supports
-          locator: null
+          locator: CBDB:1877
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -301,7 +301,7 @@ relationships:
 | name.primary | 王曙 | accepted |
 | birth.date | 963年 | accepted |
 | death.date | 1034年 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王曙（963年—1034年），宋人物。籍贯洛陽，入仕進士，曾任催欠司、尚書省工部侍郎、三司都憑由司。（中国历代人物传记资料库 CBDB 1877） | accepted |
 
 ## 关联关系
 

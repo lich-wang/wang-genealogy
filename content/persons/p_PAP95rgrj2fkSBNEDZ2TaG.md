@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王傑，明人物。明清進士進士，籍贯襄陽，入仕進士。（中国历代人物传记资料库 CBDB 342358）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_vM1ayJc5H1Jhv9gnkcS4Yi
+        - id: cs_-rv9dO6fBGuYZDi4NX8Qug
           claim_id: c_sQMG3B5ZwR1xEmCvLUVp9u
           source_id: s_4sUmBTcdPZVgN6NPaaL871
           stance: supports
-          locator: null
+          locator: CBDB:342358
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王傑 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王傑，明人物。明清進士進士，籍贯襄陽，入仕進士。（中国历代人物传记资料库 CBDB 342358） | accepted |
 
 ## 关联关系
 

@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王機（1699年—1773年），清人物。籍贯福山。（中国历代人物传记资料库 CBDB 71058）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_ncoY5R22h6LBzrGcxMqcdJ
+        - id: cs_c3rWneqvaaXhP2QZeZ5DQE
           claim_id: c_6RoxMHm3D37S9cdu36vBLp
           source_id: s_pk2LBpSg67MDNJ5SeU244L
           stance: supports
-          locator: null
+          locator: CBDB:71058
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王機 | accepted |
 | birth.date | 1699年 | accepted |
 | death.date | 1773年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王機（1699年—1773年），清人物。籍贯福山。（中国历代人物传记资料库 CBDB 71058） | accepted |
 
 ## 关联关系
 

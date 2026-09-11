@@ -75,11 +75,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: Ming dynasty person CBDB = 236876
-          language: en
+          text: 王景，明人物。正統四年進士，曾任水軍萬戶。（中国历代人物传记资料库 CBDB 236876）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
         - id: cs_ppKvgf3i72ewWqKkqtG2LG
           claim_id: c_amQhUbHx9vHhvrDuE4eR4z
@@ -89,6 +89,14 @@ properties:
           quotation: null
           interpretation_note: 维基数据条目描述
           source: *a1
+        - id: cs_Kd26N0dGIUQ1WJhnZyJMml
+          claim_id: c_amQhUbHx9vHhvrDuE4eR4z
+          source_id: s_aUtqpncrA5mpaxDZBmduGw
+          stance: supports
+          locator: CBDB:236876
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: *a2
       object_person: null
     alternatives: []
 relationships:
@@ -182,7 +190,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王景 | accepted |
-| bio.summary | Ming dynasty person CBDB = 236876 | accepted |
+| bio.summary | 王景，明人物。正統四年進士，曾任水軍萬戶。（中国历代人物传记资料库 CBDB 236876） | accepted |
 
 ## 关联关系
 

@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为中華民國人物
-          language: zh-Hans
+          text: 王永江（1872年—1927年），中華民國人物。籍贯金州廳。（中国历代人物传记资料库 CBDB 71505）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_3RGjkDi92KfR4Fx6ooPiKY
+        - id: cs_N36QfXTegf-pkcM0d7Bi0W
           claim_id: c_P2FehwMUe7mny7ND2A7VHy
           source_id: s_F4HPkAkFwB4UYszZvtxPLh
           stance: supports
-          locator: null
+          locator: CBDB:71505
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王永江 | accepted |
 | birth.date | 1872年 | accepted |
 | death.date | 1927年 | accepted |
-| bio.summary | CBDB 记载为中華民國人物 | accepted |
+| bio.summary | 王永江（1872年—1927年），中華民國人物。籍贯金州廳。（中国历代人物传记资料库 CBDB 71505） | accepted |
 
 ## 关联关系
 

@@ -7,6 +7,44 @@ display_name: 饒氏
 revision: 1
 cbdb_id: 261993
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_4FFg6re34KSB2kJQVi2GMp
+        subject_person_id: p_Qs82NSfkRxV82SHeQ1eQhc
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 饒氏，明人物。弘治三年進士。（中国历代人物传记资料库 CBDB 261993）
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_717gqdVkXUqcAHp9-50RLF
+          claim_id: c_4FFg6re34KSB2kJQVi2GMp
+          source_id: s_QTwLECA0gATDI9zMVPZSWu
+          stance: supports
+          locator: CBDB:261993
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_QTwLECA0gATDI9zMVPZSWu
+            source_type: api_record
+            title: 中国历代人物传记资料库：饒氏(王統妻)（CBDB 261993）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261993&o=json
+            external_identifier: CBDB:261993
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:261993
           quotation: null
           interpretation_note: CBDB 明确记录的王統配偶
-          source: &a1
-            id: s_QTwLECA0gATDI9zMVPZSWu
-            source_type: api_record
-            title: 中国历代人物传记资料库：饒氏(王統妻)（CBDB 261993）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261993&o=json
-            external_identifier: CBDB:261993
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 饒氏，明人物。弘治三年進士。（中国历代人物传记资料库 CBDB 261993） | accepted |
 | name.primary | 饒氏 | accepted |
 
 ## 关联关系

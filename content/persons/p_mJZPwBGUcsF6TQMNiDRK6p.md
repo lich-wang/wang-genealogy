@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王誥，明人物。嘉靖四十一年進士，籍贯東平州。（中国历代人物传记资料库 CBDB 327292）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_yDeaUTZEd6b9U8yqEA33Gi
+        - id: cs_953Jqb29fYnnYHucwi2SY8
           claim_id: c_FViX1RHkQvWefwCPqdoLvD
           source_id: s_5w28Lfso62mQF8BxiyT2yF
           stance: supports
-          locator: null
+          locator: CBDB:327292
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王誥 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王誥，明人物。嘉靖四十一年進士，籍贯東平州。（中国历代人物传记资料库 CBDB 327292） | accepted |
 
 ## 关联关系
 

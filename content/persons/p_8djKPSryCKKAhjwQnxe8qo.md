@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
-          language: zh-Hans
+          text: 王慶端（1225年—1304年），元人物。籍贯槁城，曾任中書省平章政事、中書省右丞相、衛直都指揮使。（中国历代人物传记资料库 CBDB 101432）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_tCfQ68JmACZBff9trho6oq
+        - id: cs_ySVE770p3cQHjFQbFqcx4L
           claim_id: c_ESCeK9b1m841sb2AXj9Myg
           source_id: s_ZabM26HyCMvhpHCTN1b54k
           stance: supports
-          locator: null
+          locator: CBDB:101432
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -175,7 +175,7 @@ relationships:
 | name.primary | 王慶端 | accepted |
 | birth.date | 1225年 | accepted |
 | death.date | 1304年 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王慶端（1225年—1304年），元人物。籍贯槁城，曾任中書省平章政事、中書省右丞相、衛直都指揮使。（中国历代人物传记资料库 CBDB 101432） | accepted |
 
 ## 关联关系
 

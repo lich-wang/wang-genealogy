@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: "王武（1632年—1690年），清人物。籍贯吳縣，身份为畫家，入仕學校: 生員(庠生)。（中国历代人物传记资料库 CBDB 69260）"
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_3zJZGLwzeXEKPjzgLC8Ney
+        - id: cs_Q-h7JZvOmzHCDo6qxxhexr
           claim_id: c_EUoSGzF4HfzTv91hbX9z5c
           source_id: s_2Nut2S3whJRX9AxEb1fsT1
           stance: supports
-          locator: null
+          locator: CBDB:69260
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王武 | accepted |
 | birth.date | 1632年 | accepted |
 | death.date | 1690年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王武（1632年—1690年），清人物。籍贯吳縣，身份为畫家，入仕學校: 生員(庠生)。（中国历代人物传记资料库 CBDB 69260） | accepted |
 
 ## 关联关系
 

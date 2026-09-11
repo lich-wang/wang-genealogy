@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王惠，明人物。入仕鄉貢舉人，曾任推官。（中国历代人物传记资料库 CBDB 503538）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_LercmVnj4D8AGfoHZH5GQq
+        - id: cs_gwuU8mYYG28l8qvK3RumH8
           claim_id: c_SBjWH2rm7XRJimrx8gi5mz
           source_id: s_HE2rB8F3jWVxKXBpQQxYu3
           stance: supports
-          locator: null
+          locator: CBDB:503538
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王惠 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王惠，明人物。入仕鄉貢舉人，曾任推官。（中国历代人物传记资料库 CBDB 503538） | accepted |
 
 ## 关联关系
 

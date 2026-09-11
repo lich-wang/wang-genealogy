@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王省躬，清人物。曾任遊擊。（中国历代人物传记资料库 CBDB 458832）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_2YPsvq9CAC1mgBWuPua3Bq
+        - id: cs_6jcn5mdInDPnJOHZA8TI2V
           claim_id: c_pE4LUPhizk4H7QRhBHVm3P
           source_id: s_K4QsG12QXQMuA2yuwbFWPu
           stance: supports
-          locator: null
+          locator: CBDB:458832
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王省躬 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王省躬，清人物。曾任遊擊。（中国历代人物传记资料库 CBDB 458832） | accepted |
 
 ## 关联关系
 

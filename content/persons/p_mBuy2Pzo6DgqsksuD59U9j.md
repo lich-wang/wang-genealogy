@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
+          text: 王祐，元人物。曾任提控案牘。（中国历代人物传记资料库 CBDB 506644）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_PAZNq2DpGy1xiYYBdiJtCR
+        - id: cs_v9xNL1F0ZSCDc1-jROQLAX
           claim_id: c_3CypDZ2bSex9GJ63C1xxEp
           source_id: s_UKgjJX243cEJkbdU1kU3uw
           stance: supports
-          locator: null
+          locator: CBDB:506644
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王祐 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王祐，元人物。曾任提控案牘。（中国历代人物传记资料库 CBDB 506644） | accepted |
 
 ## 关联关系
 

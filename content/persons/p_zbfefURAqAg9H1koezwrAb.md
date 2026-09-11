@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王相（卒于1552年），明人物。籍贯東寧衛，曾任都督同知、指揮。（中国历代人物传记资料库 CBDB 68076）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_iGSpMVKdt7XWLjayG2H9LE
+        - id: cs_ZJZTp_sVa3yrPmJ7R71E2G
           claim_id: c_6oS8ebg4Gn5BtCvW6CjcGM
           source_id: s_M36GA56fB2sTQ6ektDXjqC
           stance: supports
-          locator: null
+          locator: CBDB:68076
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王相 | accepted |
 | death.date | 1552年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王相（卒于1552年），明人物。籍贯東寧衛，曾任都督同知、指揮。（中国历代人物传记资料库 CBDB 68076） | accepted |
 
 ## 关联关系
 

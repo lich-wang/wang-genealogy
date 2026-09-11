@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王霖（1679年—1754年），清人物。籍贯處州路，身份为收徒講學，入仕鄉貢舉人，曾任樞密院都事、內閣中書、同考官。（中国历代人物传记资料库 CBDB 71277）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_LR2CAmPEYt64DwZwUagwbR
+        - id: cs_PQA7JsnSLpmf2R9Z5jti_7
           claim_id: c_gAwnbSmhGt6fajiXEWMvQm
           source_id: s_9kT5RtyhUC6xCbcXw4qFBN
           stance: supports
-          locator: null
+          locator: CBDB:71277
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王霖 | accepted |
 | birth.date | 1679年 | accepted |
 | death.date | 1754年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王霖（1679年—1754年），清人物。籍贯處州路，身份为收徒講學，入仕鄉貢舉人，曾任樞密院都事、內閣中書、同考官。（中国历代人物传记资料库 CBDB 71277） | accepted |
 
 ## 关联关系
 

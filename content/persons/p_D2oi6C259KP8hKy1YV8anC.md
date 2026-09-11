@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王鼇，清人物。入仕行伍，曾任把總。（中国历代人物传记资料库 CBDB 498375）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_ZppLUifK7WLZCE9HbeSmVg
+        - id: cs_bPst-dDSEoYPyAz_Mc1lrD
           claim_id: c_BdmD8o46FPtZH8htFpGQEV
           source_id: s_4Qq6CRPbTZPfaQuguHXjLP
           stance: supports
-          locator: null
+          locator: CBDB:498375
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王鼇 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王鼇，清人物。入仕行伍，曾任把總。（中国历代人物传记资料库 CBDB 498375） | accepted |
 
 ## 关联关系
 

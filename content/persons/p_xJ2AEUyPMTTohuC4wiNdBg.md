@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王桐，宋人物。籍贯金華，身份为士人。（中国历代人物传记资料库 CBDB 10707）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_WeB74ut6EAjRMyXWr6k4wV
+        - id: cs_mY9bk6L8ZKWXfoLG0iC9JW
           claim_id: c_PxmjsLCfGdnTYKBiPxzwxM
           source_id: s_CBr6jGgRDVLyTMRQ3gQg1u
           stance: supports
-          locator: null
+          locator: CBDB:10707
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王桐 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王桐，宋人物。籍贯金華，身份为士人。（中国历代人物传记资料库 CBDB 10707） | accepted |
 
 ## 关联关系
 

@@ -7,6 +7,44 @@ display_name: 陳氏
 revision: 1
 cbdb_id: 255906
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_YEdxRGiHSYAJFIWDZh9cck
+        subject_person_id: p_H5FWp46usFqj7Em7C4CPRY
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 陳氏，明人物。成化十七年進士。（中国历代人物传记资料库 CBDB 255906）
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tgnyEmec2KglIF75vVtyNQ
+          claim_id: c_YEdxRGiHSYAJFIWDZh9cck
+          source_id: s_kiBVGL3FBIrPv7f-IEDZwF
+          stance: supports
+          locator: CBDB:255906
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_kiBVGL3FBIrPv7f-IEDZwF
+            source_type: api_record
+            title: 中国历代人物传记资料库：陳氏(王瑫妻)（CBDB 255906）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255906&o=json
+            external_identifier: CBDB:255906
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:255906
           quotation: null
           interpretation_note: CBDB 明确记录的王瑫配偶
-          source: &a1
-            id: s_kiBVGL3FBIrPv7f-IEDZwF
-            source_type: api_record
-            title: 中国历代人物传记资料库：陳氏(王瑫妻)（CBDB 255906）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255906&o=json
-            external_identifier: CBDB:255906
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 陳氏，明人物。成化十七年進士。（中国历代人物传记资料库 CBDB 255906） | accepted |
 | name.primary | 陳氏 | accepted |
 
 ## 关联关系

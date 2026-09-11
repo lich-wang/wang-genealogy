@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王渾，唐人物。籍贯襄陽，曾任節度副使。（中国历代人物传记资料库 CBDB 156469）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_KLGQa9CcbHP8wwR4AraUmV
+        - id: cs_X9tF-Y_KHvF74Pg6o_woGE
           claim_id: c_f1A1r3VHmweqfWuUB9sj1A
           source_id: s_8bpLJHLrK1qncEgFRUeePN
           stance: supports
-          locator: null
+          locator: CBDB:156469
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -143,7 +143,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王渾 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王渾，唐人物。籍贯襄陽，曾任節度副使。（中国历代人物传记资料库 CBDB 156469） | accepted |
 
 ## 关联关系
 

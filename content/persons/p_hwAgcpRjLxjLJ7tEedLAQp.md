@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王汾，宋人物。籍贯鉅野，身份为結社、入元祐黨籍者，入仕進士，曾任尚書省工部侍郎、朝議大夫、太常寺博士。（中国历代人物传记资料库 CBDB 17917）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_FT5hJA4KL6t8gCL5GZuhgH
+        - id: cs_X7dMqKS3UKcT5mf8v8bhsw
           claim_id: c_4BTUon654AdAQKi3HzKWS2
           source_id: s_yNv17UCUZFMHxjhgtViHer
           stance: supports
-          locator: null
+          locator: CBDB:17917
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -166,7 +166,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王汾 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王汾，宋人物。籍贯鉅野，身份为結社、入元祐黨籍者，入仕進士，曾任尚書省工部侍郎、朝議大夫、太常寺博士。（中国历代人物传记资料库 CBDB 17917） | accepted |
 
 ## 关联关系
 

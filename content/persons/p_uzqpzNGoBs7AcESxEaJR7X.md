@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王興祖，明人物。景泰二年進士。（中国历代人物传记资料库 CBDB 245141）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_jPk3GMQqvQPr2rsymX45WL
+        - id: cs_oOzcX2x0ejuIHoX-NZYRo0
           claim_id: c_7inYqzX2EecNLiJZSLbnNQ
           source_id: s_xmxXLzitZgkEH1oGHMZtAZ
           stance: supports
-          locator: null
+          locator: CBDB:245141
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王興祖 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王興祖，明人物。景泰二年進士。（中国历代人物传记资料库 CBDB 245141） | accepted |
 
 ## 关联关系
 

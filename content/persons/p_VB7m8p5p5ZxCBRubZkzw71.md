@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
+          text: 王珪，元人物。身份为宦官，曾任太監、諸路總管府治中。（中国历代人物传记资料库 CBDB 100772）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Z5hUm2zaVMFqhsmSfjSJh4
+        - id: cs_IEasrmCaafM5PeLoM4baZ9
           claim_id: c_WAGgPeHAkXvfvcrV2GHMCT
           source_id: s_dE8JrVJ9YGDPyT9doFEZfZ
           stance: supports
-          locator: null
+          locator: CBDB:100772
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王珪 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王珪，元人物。身份为宦官，曾任太監、諸路總管府治中。（中国历代人物传记资料库 CBDB 100772） | accepted |
 
 ## 关联关系
 

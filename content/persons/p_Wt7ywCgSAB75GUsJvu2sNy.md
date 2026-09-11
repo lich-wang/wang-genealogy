@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: "王萬清，清人物。入仕貢生: 歲貢、常貢、挨貢，曾任教諭。（中国历代人物传记资料库 CBDB 510822）"
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Lz9iiqxzFNrvHW3y9Nxm93
+        - id: cs_e_dj42j6VyJxWTvMbEdTmb
           claim_id: c_zChH38MfoCppNvbxRpjRU1
           source_id: s_xKmt9RvtqBR3e9mUEUfuBM
           stance: supports
-          locator: null
+          locator: CBDB:510822
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王萬清 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王萬清，清人物。入仕貢生: 歲貢、常貢、挨貢，曾任教諭。（中国历代人物传记资料库 CBDB 510822） | accepted |
 
 ## 关联关系
 

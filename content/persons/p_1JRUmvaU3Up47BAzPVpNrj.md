@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王廩，明人物。籍贯建德。（中国历代人物传记资料库 CBDB 437554）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_1K7rEw11d4TcXjK4JTVHz3
+        - id: cs_yJz3QNL-Z-U2XjqS4OnwhM
           claim_id: c_o97BiS2jLAJo38Bya3ajVa
           source_id: s_HMs7UiLcgX3uTkQZAW6YhE
           stance: supports
-          locator: null
+          locator: CBDB:437554
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王廩 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王廩，明人物。籍贯建德。（中国历代人物传记资料库 CBDB 437554） | accepted |
 
 ## 关联关系
 

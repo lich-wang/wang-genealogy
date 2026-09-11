@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王旭照，清人物。籍贯寶坻，入仕貢生 = 貢監生 (明清賓貢,功貢)，曾任縣丞。（中国历代人物传记资料库 CBDB 638347）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_hMo23G6hxyV63PTkHy9WPH
+        - id: cs_3d_HYwZZMzkn5MSNhkAl27
           claim_id: c_bnpyvB3EyUAYzKfzXqFAiU
           source_id: s_5GZFMyWGjM5YZ8oVZueLZ7
           stance: supports
-          locator: null
+          locator: CBDB:638347
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王旭照 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王旭照，清人物。籍贯寶坻，入仕貢生 = 貢監生 (明清賓貢,功貢)，曾任縣丞。（中国历代人物传记资料库 CBDB 638347） | accepted |
 
 ## 关联关系
 

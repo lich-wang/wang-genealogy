@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王道仁（590年—651年），唐人物。籍贯洛陽。（中国历代人物传记资料库 CBDB 142411）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_5Ksf72tQigJZFvinDQuvC2
+        - id: cs_xHUhmjG4yTOIi5AohTrixd
           claim_id: c_KzS16vq543z3GMbX63j4mH
           source_id: s_VgjQ6DCcfBTCmxfrNWVcQh
           stance: supports
-          locator: null
+          locator: CBDB:142411
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -186,7 +186,7 @@ relationships:
 | name.primary | 王道仁 | accepted |
 | birth.date | 590年 | accepted |
 | death.date | 651年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王道仁（590年—651年），唐人物。籍贯洛陽。（中国历代人物传记资料库 CBDB 142411） | accepted |
 
 ## 关联关系
 

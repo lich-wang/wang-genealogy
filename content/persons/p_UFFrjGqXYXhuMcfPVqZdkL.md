@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王鈇，明人物。弘治三年進士，籍贯臨海。（中国历代人物传记资料库 CBDB 262677）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_WpR15eyf9p1xLZ8rL5DftR
+        - id: cs_9PMMu_LmQ_Nu9Q_Ze9oo5k
           claim_id: c_ASuU9FwPoJGBniCSNfKwRC
           source_id: s_PVVZS6URfW5HfhNdKyXm1g
           stance: supports
-          locator: null
+          locator: CBDB:262677
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王鈇 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王鈇，明人物。弘治三年進士，籍贯臨海。（中国历代人物传记资料库 CBDB 262677） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王賔，明人物。入仕監生，曾任知縣。（中国历代人物传记资料库 CBDB 454835）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_9ypDyPEVvAeinfNDt4xnG3
+        - id: cs_LD9Q-25ZR-lA5f0lyF4fPi
           claim_id: c_6BoS28jo7E2ZWaYfiKBHWA
           source_id: s_CmHZKsCZ41ghFpXCF3q3c7
           stance: supports
-          locator: null
+          locator: CBDB:454835
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王賔 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王賔，明人物。入仕監生，曾任知縣。（中国历代人物传记资料库 CBDB 454835） | accepted |
 
 ## 关联关系
 

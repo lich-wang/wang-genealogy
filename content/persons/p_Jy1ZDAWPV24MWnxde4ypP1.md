@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王化堂，清人物。明清進士進士，籍贯密縣，入仕進士。（中国历代人物传记资料库 CBDB 342289）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_3ApSzyyKyFMwEpmVJv4Udb
+        - id: cs_uTIPETYBTdRhHWNg-c8lEA
           claim_id: c_k2smx4PzkJ7kuj8xwXqeCb
           source_id: s_rk1VKrQad6xRBnNFfZdNTs
           stance: supports
-          locator: null
+          locator: CBDB:342289
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王化堂 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王化堂，清人物。明清進士進士，籍贯密縣，入仕進士。（中国历代人物传记资料库 CBDB 342289） | accepted |
 
 ## 关联关系
 

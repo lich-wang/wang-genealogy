@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王康年（生于1099年），宋人物。籍贯烏程，入仕進士。（中国历代人物传记资料库 CBDB 23241）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_F6Z4Dqc6ZTV8nrCvSogXpd
+        - id: cs_ZdKcgE4jubxmnSPKbSfiYz
           claim_id: c_k9PnFWfcLGf9cTxvu7yJAN
           source_id: s_VbzJTXyuP962w7uxzKcXZp
           stance: supports
-          locator: null
+          locator: CBDB:23241
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -194,7 +194,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王康年 | accepted |
 | birth.date | 1099年 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王康年（生于1099年），宋人物。籍贯烏程，入仕進士。（中国历代人物传记资料库 CBDB 23241） | accepted |
 
 ## 关联关系
 

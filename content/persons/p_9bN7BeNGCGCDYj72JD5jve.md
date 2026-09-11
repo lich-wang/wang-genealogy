@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: "王尊，清人物。入仕監生: 例監(附監生)，曾任知縣。（中国历代人物传记资料库 CBDB 455901）"
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_T1KrmLzKycVq69FVbKNhBv
+        - id: cs_AwTbhz6AWfWTmilG76v_nY
           claim_id: c_sQoot9eF7EcaUq1o2RWANG
           source_id: s_hdwFpczu1jpJUDgnMeo1DD
           stance: supports
-          locator: null
+          locator: CBDB:455901
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王尊 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王尊，清人物。入仕監生: 例監(附監生)，曾任知縣。（中国历代人物传记资料库 CBDB 455901） | accepted |
 
 ## 关联关系
 

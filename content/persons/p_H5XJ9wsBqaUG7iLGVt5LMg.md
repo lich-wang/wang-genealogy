@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王崇禮（673年—731年），唐人物。籍贯太原。（中国历代人物传记资料库 CBDB 140514）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_m3K2HXw44vRxEmU9EuVekG
+        - id: cs_0qAzhUQZ_5qTZb7ox1oSbS
           claim_id: c_1MDFdytw4881koPHf3PFUt
           source_id: s_HcviPY7mVXpgS4JqnPVLWr
           stance: supports
-          locator: null
+          locator: CBDB:140514
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -379,7 +379,7 @@ relationships:
 | name.primary | 王崇禮 | accepted |
 | birth.date | 673年 | accepted |
 | death.date | 731年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王崇禮（673年—731年），唐人物。籍贯太原。（中国历代人物传记资料库 CBDB 140514） | accepted |
 
 ## 关联关系
 

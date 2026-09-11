@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王錫命（生于1537年），明人物。明清進士進士，籍贯吳江，入仕進士，曾任通判。（中国历代人物传记资料库 CBDB 204975）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_H7UGBB6ukkWQYECyKdvy3B
+        - id: cs_7wJTyH9Zy5sdnSizq2VK7-
           claim_id: c_MExuyJidtKzskNG2bcMEPy
           source_id: s_aHRF3Xb81XeBz8B8Aq2qW2
           stance: supports
-          locator: null
+          locator: CBDB:204975
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -235,7 +235,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王錫命 | accepted |
 | birth.date | 1537年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王錫命（生于1537年），明人物。明清進士進士，籍贯吳江，入仕進士，曾任通判。（中国历代人物传记资料库 CBDB 204975） | accepted |
 
 ## 关联关系
 

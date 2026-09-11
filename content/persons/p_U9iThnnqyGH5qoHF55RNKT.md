@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王欽，明人物。入仕監生，曾任縣丞。（中国历代人物传记资料库 CBDB 490060）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_ZPrcXvEr9qMFXvF4cQ8HKw
+        - id: cs_HcZ-RaTog0MKdQM94oWpm9
           claim_id: c_PwhYxrYMyPk5ZfgpJ8aKDN
           source_id: s_wAR8gK5UhNHZE2SwV3MDBY
           stance: supports
-          locator: null
+          locator: CBDB:490060
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王欽 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王欽，明人物。入仕監生，曾任縣丞。（中国历代人物传记资料库 CBDB 490060） | accepted |
 
 ## 关联关系
 

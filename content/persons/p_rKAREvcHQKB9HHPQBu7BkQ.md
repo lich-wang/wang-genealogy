@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王作樸，清人物。籍贯泰安，曾任復設教諭。（中国历代人物传记资料库 CBDB 636003）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_AFg6Lap9JnCV2PwKn4XYHy
+        - id: cs_lKwVaFjPodPVsM0MvrB5bN
           claim_id: c_5PSJepfUMtFbLXQWNQ72Tt
           source_id: s_BYnSJcHpYNHRrcF4DMTqnq
           stance: supports
-          locator: null
+          locator: CBDB:636003
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王作樸 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王作樸，清人物。籍贯泰安，曾任復設教諭。（中国历代人物传记资料库 CBDB 636003） | accepted |
 
 ## 关联关系
 

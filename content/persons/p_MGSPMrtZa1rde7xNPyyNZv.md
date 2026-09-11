@@ -7,6 +7,44 @@ display_name: 游氏
 revision: 1
 cbdb_id: 573283
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_OA3E0Hc0HHp7WC4Q0qnZsy
+        subject_person_id: p_MGSPMrtZa1rde7xNPyyNZv
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 游氏，史料所见人物。本项目依据《中国历代人物传记资料库：游氏(游安民四女)（CBDB 573283）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_chWWa8ag7jyKYNSSEznHOK
+          claim_id: c_OA3E0Hc0HHp7WC4Q0qnZsy
+          source_id: s_86NPrr2TtC_esgVr1ibXAk
+          stance: supports
+          locator: CBDB:573283
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          source: &a1
+            id: s_86NPrr2TtC_esgVr1ibXAk
+            source_type: api_record
+            title: 中国历代人物传记资料库：游氏(游安民四女)（CBDB 573283）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=573283&o=json
+            external_identifier: CBDB:573283
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:573283
           quotation: null
           interpretation_note: CBDB 明确记录的王宗㐨配偶
-          source: &a1
-            id: s_86NPrr2TtC_esgVr1ibXAk
-            source_type: api_record
-            title: 中国历代人物传记资料库：游氏(游安民四女)（CBDB 573283）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=573283&o=json
-            external_identifier: CBDB:573283
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 游氏，史料所见人物。本项目依据《中国历代人物传记资料库：游氏(游安民四女)（CBDB 573283）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
 | name.primary | 游氏 | accepted |
 
 ## 关联关系

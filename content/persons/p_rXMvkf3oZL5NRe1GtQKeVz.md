@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
+          text: 王貢，元人物。曾任縣尹。（中国历代人物传记资料库 CBDB 451771）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_yKFvqpR7AN3MvqbmMEMn4x
+        - id: cs_Zcv-x4L1kGcWQLRLoudQp7
           claim_id: c_Y6FGi6UFRaEjKpwcHdvKgB
           source_id: s_v6Ba9Nxw1Cr7U1LnSEep86
           stance: supports
-          locator: null
+          locator: CBDB:451771
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王貢 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王貢，元人物。曾任縣尹。（中国历代人物传记资料库 CBDB 451771） | accepted |
 
 ## 关联关系
 

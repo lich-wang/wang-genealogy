@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
-          language: zh-Hans
+          text: 王磐（1202年—1293年），元人物。籍贯魯山，身份为農民、拒絕出仕，入仕進士，曾任翰林國史院學士承旨、翰林國史院直學士、太常少卿。（中国历代人物传记资料库 CBDB 29236）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_FK3UC8s8yDgu8DKNVr6wBC
+        - id: cs_QebP_NqZc9OHokmD1R9QJM
           claim_id: c_WA4KStZNVeTMH5EYUU8CG2
           source_id: s_Lh5HNnxT2mVNhBGKCZZJKg
           stance: supports
-          locator: null
+          locator: CBDB:29236
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -186,7 +186,7 @@ relationships:
 | name.primary | 王磐 | accepted |
 | birth.date | 1202年 | accepted |
 | death.date | 1293年 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王磐（1202年—1293年），元人物。籍贯魯山，身份为農民、拒絕出仕，入仕進士，曾任翰林國史院學士承旨、翰林國史院直學士、太常少卿。（中国历代人物传记资料库 CBDB 29236） | accepted |
 
 ## 关联关系
 

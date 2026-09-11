@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: "王祁年，清人物。籍贯江寧，入仕監生: 例監(附監生)，曾任典史。（中国历代人物传记资料库 CBDB 639563）"
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_gyuQDNqRgoYQ55xU43k94w
+        - id: cs_faiyjovlPAwQL7MY34OdxP
           claim_id: c_z842ucJ5uA8tc7B1xZVDU7
           source_id: s_wwL2MTWNtj18bAzab3iRHu
           stance: supports
-          locator: null
+          locator: CBDB:639563
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王祁年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王祁年，清人物。籍贯江寧，入仕監生: 例監(附監生)，曾任典史。（中国历代人物传记资料库 CBDB 639563） | accepted |
 
 ## 关联关系
 

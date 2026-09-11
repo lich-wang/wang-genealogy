@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王蓉，清人物。籍贯溫江。（中国历代人物传记资料库 CBDB 568664）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_L3rfSMcPyia4WpxdswUi7x
+        - id: cs_y_9K3I-szU45Kl_tN9Bd8T
           claim_id: c_wpS1tyDRi3xrKgDRdh7tu2
           source_id: s_LtJyZNrktXrLbu1v8uYxZk
           stance: supports
-          locator: null
+          locator: CBDB:568664
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王蓉 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王蓉，清人物。籍贯溫江。（中国历代人物传记资料库 CBDB 568664） | accepted |
 
 ## 关联关系
 

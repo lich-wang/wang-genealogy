@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王立中（1309年—1385年），明人物。籍贯吳縣，曾任散府知府或府尹、縣尉、知州。（中国历代人物传记资料库 CBDB 101135）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_KjZv6UwcZ5opbk5PV9RJB6
+        - id: cs_XY4JheW3XHqGCGtU0qi6Ji
           claim_id: c_C3YRapKeHvYEBrQ4xBrYiZ
           source_id: s_nKQ8QeW6W69pG63YGMuHvy
           stance: supports
-          locator: null
+          locator: CBDB:101135
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王立中 | accepted |
 | birth.date | 1309年 | accepted |
 | death.date | 1385年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王立中（1309年—1385年），明人物。籍贯吳縣，曾任散府知府或府尹、縣尉、知州。（中国历代人物传记资料库 CBDB 101135） | accepted |
 
 ## 关联关系
 

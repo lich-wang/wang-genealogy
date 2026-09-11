@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王韓留，宋人物。籍贯上黨。（中国历代人物传记资料库 CBDB 696193）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_oRX34AQnx42f1aiCi1F1NY
+        - id: cs_2aPnMBYMRXjE5FVJn8yRab
           claim_id: c_Kq2pYDZrq25ihKtJ7ubwnv
           source_id: s_Gi3iqCqDJKFUj6RDVyAdrs
           stance: supports
-          locator: null
+          locator: CBDB:696193
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王韓留 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王韓留，宋人物。籍贯上黨。（中国历代人物传记资料库 CBDB 696193） | accepted |
 
 ## 关联关系
 

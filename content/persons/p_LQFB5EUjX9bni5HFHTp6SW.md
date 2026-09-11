@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
-          language: zh-Hans
+          text: 王庸，元人物。曾任祕書監著作佐郎。（中国历代人物传记资料库 CBDB 100791）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_nqz6hj4cZcDcT9xsuSrkXs
+        - id: cs_2tiLA5wBC3bxPIhD42BPsZ
           claim_id: c_PX8tCTiiuY94GXHjD4Qw9a
           source_id: s_xnrMZKbPTSB6EnBGDQMX6m
           stance: supports
-          locator: null
+          locator: CBDB:100791
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王庸 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王庸，元人物。曾任祕書監著作佐郎。（中国历代人物传记资料库 CBDB 100791） | accepted |
 
 ## 关联关系
 

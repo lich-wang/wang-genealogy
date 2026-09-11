@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王君德，唐人物。籍贯北市。（中国历代人物传记资料库 CBDB 148581）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_WWtAhDNgM5DdZC9R6hFQ9N
+        - id: cs_KRPAsIFRK-IOMXNa0awQnn
           claim_id: c_pEGom7xcS3E318qR6iMUkt
           source_id: s_UHBcf3JbRYmM1Sx16dEzoi
           stance: supports
-          locator: null
+          locator: CBDB:148581
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -128,7 +128,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王君德 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王君德，唐人物。籍贯北市。（中国历代人物传记资料库 CBDB 148581） | accepted |
 
 ## 关联关系
 

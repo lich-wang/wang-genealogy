@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王蒙泉，清人物。籍贯安慶府，入仕鄉貢舉人，曾任復設訓導。（中国历代人物传记资料库 CBDB 640143）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_vG4rtxoTmDDfTNjPiEUTbR
+        - id: cs_rDGcvT2Fh4xawkm5TFqjja
           claim_id: c_eDue7kABYSnDiEQyRhQ9hG
           source_id: s_PUuh4Zb26tFE3uXDMTC4Bo
           stance: supports
-          locator: null
+          locator: CBDB:640143
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王蒙泉 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王蒙泉，清人物。籍贯安慶府，入仕鄉貢舉人，曾任復設訓導。（中国历代人物传记资料库 CBDB 640143） | accepted |
 
 ## 关联关系
 

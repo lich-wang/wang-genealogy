@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为五代人物
-          language: zh-Hans
+          text: 王昭遠（卒于975年），五代人物。籍贯成都，身份为武將，曾任節度使、同中書門下平章事、左領軍衛大將軍。（中国历代人物传记资料库 CBDB 37682）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_DqtD5ToF1zdcdLCBg3bB4B
+        - id: cs_oBZwd9MBNdMhOeJu_woBQq
           claim_id: c_S61PNjZ1ZSKuApDw8rnFzU
           source_id: s_cKy5x43g5JA2Y61AQNP51F
           stance: supports
-          locator: null
+          locator: CBDB:37682
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -184,7 +184,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王昭遠 | accepted |
 | death.date | 975年 | accepted |
-| bio.summary | CBDB 记载为五代人物 | accepted |
+| bio.summary | 王昭遠（卒于975年），五代人物。籍贯成都，身份为武將，曾任節度使、同中書門下平章事、左領軍衛大將軍。（中国历代人物传记资料库 CBDB 37682） | accepted |
 
 ## 关联关系
 

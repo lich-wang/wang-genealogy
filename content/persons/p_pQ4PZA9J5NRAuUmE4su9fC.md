@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王用，明人物。籍贯黟縣，身份为武將、軍卒，曾任千戶。（中国历代人物传记资料库 CBDB 690926）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Fh31DctgGaX7w5qDAbj7Rv
+        - id: cs_YbZ6dRz7qcZCqjDr6eWk_p
           claim_id: c_qWRVmPYbjtUa2oGkf3Xk54
           source_id: s_EppHqd6VFC8wR8GQtewrzh
           stance: supports
-          locator: null
+          locator: CBDB:690926
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王用 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王用，明人物。籍贯黟縣，身份为武將、軍卒，曾任千戶。（中国历代人物传记资料库 CBDB 690926） | accepted |
 
 ## 关联关系
 

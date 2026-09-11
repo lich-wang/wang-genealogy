@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王景賢，明人物。弘治六年進士。（中国历代人物传记资料库 CBDB 266728）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_7V5RNF6DkP4NuT16bRPYg1
+        - id: cs_lx5IQzyS3JEkQQuq-lK2SE
           claim_id: c_ug1H2DUfyLkTuE9buJLcx7
           source_id: s_3xLkzgdTP2z4or1Ux5xPpg
           stance: supports
-          locator: null
+          locator: CBDB:266728
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王景賢 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王景賢，明人物。弘治六年進士。（中国历代人物传记资料库 CBDB 266728） | accepted |
 
 ## 关联关系
 

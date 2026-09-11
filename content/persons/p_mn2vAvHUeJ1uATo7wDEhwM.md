@@ -7,6 +7,44 @@ display_name: 胡氏
 revision: 1
 cbdb_id: 554998
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_hra36CnqsZTsiPi34PlaZY
+        subject_person_id: p_mn2vAvHUeJ1uATo7wDEhwM
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 胡氏，清人物。籍贯南陽，身份为貞婦/節婦。（中国历代人物传记资料库 CBDB 554998）
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Z2fxd5dz4te9WZl9PNafdz
+          claim_id: c_hra36CnqsZTsiPi34PlaZY
+          source_id: s_orjb1ki3ia2yCJ5oxrcVkD
+          stance: supports
+          locator: CBDB:554998
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_orjb1ki3ia2yCJ5oxrcVkD
+            source_type: api_record
+            title: 中国历代人物传记资料库：胡氏(王朋妻)（CBDB 554998）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=554998&o=json
+            external_identifier: CBDB:554998
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:554998
           quotation: null
           interpretation_note: CBDB 明确记录的王朋配偶
-          source: &a1
-            id: s_orjb1ki3ia2yCJ5oxrcVkD
-            source_type: api_record
-            title: 中国历代人物传记资料库：胡氏(王朋妻)（CBDB 554998）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=554998&o=json
-            external_identifier: CBDB:554998
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 胡氏，清人物。籍贯南陽，身份为貞婦/節婦。（中国历代人物传记资料库 CBDB 554998） | accepted |
 | name.primary | 胡氏 | accepted |
 
 ## 关联关系

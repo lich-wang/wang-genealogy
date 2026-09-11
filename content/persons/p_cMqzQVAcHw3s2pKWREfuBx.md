@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王錫田，清人物。籍贯萬全，入仕鄉貢舉人，曾任知縣。（中国历代人物传记资料库 CBDB 640629）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_W2R9NSSfvJi75R9CNHMAQB
+        - id: cs_u4U7e_wpAWDaK4rl7nZ3iu
           claim_id: c_t1oQADqqKADJDKWrapuDfK
           source_id: s_GbrEL1YXHWN1uF4PGiXM1J
           stance: supports
-          locator: null
+          locator: CBDB:640629
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王錫田 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王錫田，清人物。籍贯萬全，入仕鄉貢舉人，曾任知縣。（中国历代人物传记资料库 CBDB 640629） | accepted |
 
 ## 关联关系
 

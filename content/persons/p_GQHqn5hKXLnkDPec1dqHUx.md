@@ -7,6 +7,44 @@ display_name: 陳池安
 revision: 1
 cbdb_id: 39173
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_bHLxbsLQKoO6R_FuCmj9Qv
+        subject_person_id: p_GQHqn5hKXLnkDPec1dqHUx
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 陳池安，史料所见人物。本项目依据《中国历代人物传记资料库：陳池安（CBDB 39173）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XOYF1yDcVBfp9v_Sk6dXaN
+          claim_id: c_bHLxbsLQKoO6R_FuCmj9Qv
+          source_id: s_Jm8Nt6i6Rr07tur9IL9SYp
+          stance: supports
+          locator: CBDB:39173
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          source: &a1
+            id: s_Jm8Nt6i6Rr07tur9IL9SYp
+            source_type: api_record
+            title: 中国历代人物传记资料库：陳池安（CBDB 39173）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=39173&o=json
+            external_identifier: CBDB:39173
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:39173
           quotation: null
           interpretation_note: CBDB 明确记录的王碩配偶
-          source: &a1
-            id: s_Jm8Nt6i6Rr07tur9IL9SYp
-            source_type: api_record
-            title: 中国历代人物传记资料库：陳池安（CBDB 39173）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=39173&o=json
-            external_identifier: CBDB:39173
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 陳池安，史料所见人物。本项目依据《中国历代人物传记资料库：陳池安（CBDB 39173）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
 | name.primary | 陳池安 | accepted |
 
 ## 关联关系

@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为中華民國人物
-          language: zh-Hans
+          text: 王秉彝（1898年—1937年），中華民國人物。籍贯寶山。（中国历代人物传记资料库 CBDB 71776）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_e4hcRnPwa3Ks4C8SNw9uBq
+        - id: cs_Zo__fBBxIkoeZSi7j7YHPA
           claim_id: c_k3vAKKTmfAZMHj3z81YMdt
           source_id: s_uAgHA3z3Nh8ZvVAAsv3NEw
           stance: supports
-          locator: null
+          locator: CBDB:71776
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王秉彝 | accepted |
 | birth.date | 1898年 | accepted |
 | death.date | 1937年 | accepted |
-| bio.summary | CBDB 记载为中華民國人物 | accepted |
+| bio.summary | 王秉彝（1898年—1937年），中華民國人物。籍贯寶山。（中国历代人物传记资料库 CBDB 71776） | accepted |
 
 ## 关联关系
 

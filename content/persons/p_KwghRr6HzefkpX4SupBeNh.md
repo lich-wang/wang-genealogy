@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王仲靈，清人物。籍贯眉州直隸州直轄地方，曾任復設訓導。（中国历代人物传记资料库 CBDB 635960）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_nZUgrTwiRzNA41dYbSjAqd
+        - id: cs_gvCskYiTzKbVg-cor7LC_7
           claim_id: c_Nm463j7p984NWsZ2RXXYdg
           source_id: s_3vkqsZmEXBJY2SK5Vur2Eo
           stance: supports
-          locator: null
+          locator: CBDB:635960
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王仲靈 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王仲靈，清人物。籍贯眉州直隸州直轄地方，曾任復設訓導。（中国历代人物传记资料库 CBDB 635960） | accepted |
 
 ## 关联关系
 

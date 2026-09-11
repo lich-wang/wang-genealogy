@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王勉（生于1674年），清人物。籍贯長安。（中国历代人物传记资料库 CBDB 71136）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_vvV1jUaPKfBEhcwqeFhkAA
+        - id: cs_Uzub10l_QptrGVi6YzGnHA
           claim_id: c_f23mkegZhWoPgKdRn9wU8Q
           source_id: s_zCkW62b7agourLqkQRLcGX
           stance: supports
-          locator: null
+          locator: CBDB:71136
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王勉 | accepted |
 | birth.date | 1674年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王勉（生于1674年），清人物。籍贯長安。（中国历代人物传记资料库 CBDB 71136） | accepted |
 
 ## 关联关系
 

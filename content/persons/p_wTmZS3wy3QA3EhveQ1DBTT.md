@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王宗猛，清人物。籍贯金匱，入仕副榜，曾任知縣。（中国历代人物传记资料库 CBDB 637113）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_mSziZ2aF568QqVKKiYd72n
+        - id: cs_Mq9YpdhLeAoCD4gnPR9bro
           claim_id: c_2doFdeStd8MA92h83zumnS
           source_id: s_G6RiBd1cHuXPM9MFR2rxie
           stance: supports
-          locator: null
+          locator: CBDB:637113
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王宗猛 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王宗猛，清人物。籍贯金匱，入仕副榜，曾任知縣。（中国历代人物传记资料库 CBDB 637113） | accepted |
 
 ## 关联关系
 

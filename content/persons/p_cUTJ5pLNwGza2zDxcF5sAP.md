@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王鉞，明人物。成化五年進士，籍贯蒲州。（中国历代人物传记资料库 CBDB 243562）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_C1b9sqJqGLSqMsS8WgYAsj
+        - id: cs_KPrd0I4ZgcVtalQRdOOdfB
           claim_id: c_WVUpKA1BH2YvDSD4pQ5aH2
           source_id: s_Jjrg3aWcD11E5R8CcZCAGB
           stance: supports
-          locator: null
+          locator: CBDB:243562
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王鉞 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王鉞，明人物。成化五年進士，籍贯蒲州。（中国历代人物传记资料库 CBDB 243562） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王相，明人物。入仕鄉貢舉人，曾任知縣。（中国历代人物传记资料库 CBDB 501860）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_ktAq2Y7ur4VXNsgefh19UB
+        - id: cs_TRZue0kNCmjTW8eSf6jizC
           claim_id: c_1RS1thXJwhn9f7tBBtRh6y
           source_id: s_krSsZjL3vCumVXtSbB1dWQ
           stance: supports
-          locator: null
+          locator: CBDB:501860
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王相 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王相，明人物。入仕鄉貢舉人，曾任知縣。（中国历代人物传记资料库 CBDB 501860） | accepted |
 
 ## 关联关系
 

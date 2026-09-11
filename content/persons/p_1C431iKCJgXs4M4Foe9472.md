@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王巖叟（1043年—1093年），宋人物。籍贯清平，身份为入元祐黨籍者，入仕明經，曾任知樞密院事、監察御史、少師。（中国历代人物传记资料库 CBDB 8154）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_F5r9mbYkK7vssPTyMXUnnE
+        - id: cs_oKJWWKJF234uKSntYvwYKZ
           claim_id: c_Y4XDcm66pSbjzFeBBfQrio
           source_id: s_FKX84eUdLLLqADjNPKQQQJ
           stance: supports
-          locator: null
+          locator: CBDB:8154
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -175,7 +175,7 @@ relationships:
 | name.primary | 王巖叟 | accepted |
 | birth.date | 1043年 | accepted |
 | death.date | 1093年 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王巖叟（1043年—1093年），宋人物。籍贯清平，身份为入元祐黨籍者，入仕明經，曾任知樞密院事、監察御史、少師。（中国历代人物传记资料库 CBDB 8154） | accepted |
 
 ## 关联关系
 

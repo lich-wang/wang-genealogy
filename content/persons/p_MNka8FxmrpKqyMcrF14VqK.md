@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王一鳳，明人物。萬曆二年進士，籍贯南城。（中国历代人物传记资料库 CBDB 213989）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_S7Vs7WG4D1M5xzbPHrLEXC
+        - id: cs_900eMPton7SERbmYCXD0-x
           claim_id: c_RfJztUszcE9cQKDmVnBMAM
           source_id: s_Zz54bd6sG7XB9TmMy4jvwV
           stance: supports
-          locator: null
+          locator: CBDB:213989
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王一鳳 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王一鳳，明人物。萬曆二年進士，籍贯南城。（中国历代人物传记资料库 CBDB 213989） | accepted |
 
 ## 关联关系
 

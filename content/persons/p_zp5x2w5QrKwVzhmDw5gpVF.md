@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王游（生于1690年），清人物。籍贯武昌。（中国历代人物传记资料库 CBDB 71230）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_ARDPtSQWEuhx4X6dQqYRs9
+        - id: cs_GnZjCMA6ZpPgumvKugm-J4
           claim_id: c_QPCDX1Xmv4XUkJt8trNeEf
           source_id: s_NB71mT2bKF59Q66eiFMhfA
           stance: supports
-          locator: null
+          locator: CBDB:71230
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王游 | accepted |
 | birth.date | 1690年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王游（生于1690年），清人物。籍贯武昌。（中国历代人物传记资料库 CBDB 71230） | accepted |
 
 ## 关联关系
 

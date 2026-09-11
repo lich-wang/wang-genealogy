@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王銘德，清人物。籍贯永平府，入仕鄉貢舉人，曾任學正。（中国历代人物传记资料库 CBDB 640561）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_N8ikgxr8GDysj9rAVyJsH5
+        - id: cs_f_u83nh_ilJ7QXPr0873uC
           claim_id: c_rqQti4NTvKmX4q1AHD8Smg
           source_id: s_gGSp1Wi4eVt8VwEg3R5DB1
           stance: supports
-          locator: null
+          locator: CBDB:640561
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王銘德 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王銘德，清人物。籍贯永平府，入仕鄉貢舉人，曾任學正。（中国历代人物传记资料库 CBDB 640561） | accepted |
 
 ## 关联关系
 

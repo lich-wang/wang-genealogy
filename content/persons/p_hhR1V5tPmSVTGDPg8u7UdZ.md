@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: "王金華，清人物。籍贯慶陽府，入仕貢生: 納貢(例貢,增貢,捐貢)，曾任復設訓導。（中国历代人物传记资料库 CBDB 640522）"
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_1qxhR4yWN1P3UmZdFW9ZhD
+        - id: cs_AV8LTl1mDjEE3qEN5hw0Gp
           claim_id: c_mMPxfqeV84nPktvnwZf9Ei
           source_id: s_KRctj49xgj5KChAVSFuTAc
           stance: supports
-          locator: null
+          locator: CBDB:640522
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王金華 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王金華，清人物。籍贯慶陽府，入仕貢生: 納貢(例貢,增貢,捐貢)，曾任復設訓導。（中国历代人物传记资料库 CBDB 640522） | accepted |
 
 ## 关联关系
 

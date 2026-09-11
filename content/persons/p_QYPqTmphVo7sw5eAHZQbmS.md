@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王進泰（1705年—1787年），清人物。籍贯漢軍鑲白旗，曾任將軍、軍參領、內大臣銜。（中国历代人物传记资料库 CBDB 57192）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_T8wpLMg3R4VDMAVDR4zRnV
+        - id: cs_bcPPuZMR80fiwj0LAWjju8
           claim_id: c_AvSyB3Ry6yK1qJe4UNTvjX
           source_id: s_H537rgHvaKyc62Yeugp8qk
           stance: supports
-          locator: null
+          locator: CBDB:57192
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -186,7 +186,7 @@ relationships:
 | name.primary | 王進泰 | accepted |
 | birth.date | 1705年 | accepted |
 | death.date | 1787年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王進泰（1705年—1787年），清人物。籍贯漢軍鑲白旗，曾任將軍、軍參領、內大臣銜。（中国历代人物传记资料库 CBDB 57192） | accepted |
 
 ## 关联关系
 

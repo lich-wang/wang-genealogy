@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王泰來，清人物。籍贯上元，入仕恩蔭、蔭補，曾任郎中。（中国历代人物传记资料库 CBDB 639074）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_R8b1GcGX6jmjXcXeiLGdQ3
+        - id: cs_6w6tn3m972C04meki_-fnA
           claim_id: c_kPvvPDcTLDHKqKroVj55rN
           source_id: s_Lw3NCh4cp7Lrxh5nnpDuCL
           stance: supports
-          locator: null
+          locator: CBDB:639074
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王泰來 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王泰來，清人物。籍贯上元，入仕恩蔭、蔭補，曾任郎中。（中国历代人物传记资料库 CBDB 639074） | accepted |
 
 ## 关联关系
 

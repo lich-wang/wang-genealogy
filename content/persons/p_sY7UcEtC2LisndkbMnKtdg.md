@@ -7,6 +7,44 @@ display_name: 薛朗
 revision: 1
 cbdb_id: 138880
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_XPBVbj4BV8ndySU1G08ZOe
+        subject_person_id: p_sY7UcEtC2LisndkbMnKtdg
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 薛朗（593—649），唐人物。籍贯汾陰，曾任監門。（中国历代人物传记资料库 CBDB 138880）
+          language: zh-Hant
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xvNXp_nMJHT0ldVjI4k8mP
+          claim_id: c_XPBVbj4BV8ndySU1G08ZOe
+          source_id: s_jBsWSJM0xmpMl1EpSYjMI6
+          stance: supports
+          locator: CBDB:138880
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_jBsWSJM0xmpMl1EpSYjMI6
+            source_type: api_record
+            title: 中国历代人物传记资料库：薛朗（CBDB 138880）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=138880&o=json
+            external_identifier: CBDB:138880
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:138880
           quotation: null
           interpretation_note: CBDB 明确记录的王玉配偶
-          source: &a1
-            id: s_jBsWSJM0xmpMl1EpSYjMI6
-            source_type: api_record
-            title: 中国历代人物传记资料库：薛朗（CBDB 138880）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=138880&o=json
-            external_identifier: CBDB:138880
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 薛朗（593—649），唐人物。籍贯汾陰，曾任監門。（中国历代人物传记资料库 CBDB 138880） | accepted |
 | name.primary | 薛朗 | accepted |
 
 ## 关联关系

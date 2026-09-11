@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王向榮，清人物。籍贯靈石，入仕監生，曾任知縣。（中国历代人物传记资料库 CBDB 636522）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_5h3Ta9sqxH2EwpJw3hj4NG
+        - id: cs_85gNSvaeRI6TDw5QUnPk6D
           claim_id: c_4PamZ3GF3aXJbUanBqW9Pn
           source_id: s_sJGixQUGVq1HY5gpK9MfCQ
           stance: supports
-          locator: null
+          locator: CBDB:636522
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王向榮 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王向榮，清人物。籍贯靈石，入仕監生，曾任知縣。（中国历代人物传记资料库 CBDB 636522） | accepted |
 
 ## 关联关系
 

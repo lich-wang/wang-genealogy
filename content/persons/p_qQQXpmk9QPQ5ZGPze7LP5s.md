@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王國鏞，清人物。籍贯東鄉，入仕監生，曾任郎中、同知、知縣。（中国历代人物传记资料库 CBDB 636676）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_idqSFtLcGy7A9jakkhM7US
+        - id: cs_hogxLFrYx60D7-KDQbbQdt
           claim_id: c_Gd6irNH2m84LEH7HZK2a2g
           source_id: s_5D4uKH99DX1Va1y8CKxTKV
           stance: supports
-          locator: null
+          locator: CBDB:636676
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王國鏞 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王國鏞，清人物。籍贯東鄉，入仕監生，曾任郎中、同知、知縣。（中国历代人物传记资料库 CBDB 636676） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: "王文烱，明人物。嘉靖四十一年進士，籍贯東平州，入仕貢生: 選貢(優貢 after 1628)，曾任知縣、序班。（中国历代人物传记资料库 CBDB 327293）"
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Tcfs4z68t7X8iMXEB1Ub1m
+        - id: cs_2r7x-_6lb3zIXCYVk7rLSr
           claim_id: c_vWgNtt9Qzg925etB7C55Jz
           source_id: s_AUQVXuEXB5Af6GsrL9K7Gd
           stance: supports
-          locator: null
+          locator: CBDB:327293
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王文烱 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王文烱，明人物。嘉靖四十一年進士，籍贯東平州，入仕貢生: 選貢(優貢 after 1628)，曾任知縣、序班。（中国历代人物传记资料库 CBDB 327293） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王詮，史料所见人物。本项目依据《中国历代人物传记资料库：王詮（CBDB 155948）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_q2AFHepNj3TLxo2b3ydv8A
+        - id: cs_gfR4hcUEf49qvqAgE83iKw
           claim_id: c_E5CWN5T12JvSE4DCMykmKK
           source_id: s_sRiTHUpJx1dCqM417fq5Xn
           stance: supports
-          locator: null
+          locator: CBDB:155948
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
           source: *a1
       object_person: null
     alternatives: []
@@ -128,7 +128,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王詮 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王詮，史料所见人物。本项目依据《中国历代人物传记资料库：王詮（CBDB 155948）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
 
 ## 关联关系
 

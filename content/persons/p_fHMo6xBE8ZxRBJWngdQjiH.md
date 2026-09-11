@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: "王性，宋人物。籍贯臨海，入仕學校: 上舍及第，曾任湖廣總領所幹辦公事、太學上舍生、湖廣總領。（中国历代人物传记资料库 CBDB 39401）"
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_pjfHRJGpED42Mzu9m96jrk
+        - id: cs_VFlLkRWAsdgRVdyhInFSrV
           claim_id: c_mQYk7MdAqp1JmLy6pTvdxb
           source_id: s_AXrFQVH5RdeN7h4YvfoCj2
           stance: supports
-          locator: null
+          locator: CBDB:39401
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王性 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王性，宋人物。籍贯臨海，入仕學校: 上舍及第，曾任湖廣總領所幹辦公事、太學上舍生、湖廣總領。（中国历代人物传记资料库 CBDB 39401） | accepted |
 
 ## 关联关系
 

@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王禎（卒于1466年），明人物。籍贯吉水，身份为死國難，入仕監生，曾任府通判、僉事、通判。（中国历代人物传记资料库 CBDB 67861）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_8eA3QtFnE9xmid6FnV2r7Q
+        - id: cs_8oPMh_TEYPUk4qZOw9Kktq
           claim_id: c_ML8C1b1MkWja5wd2ED18m4
           source_id: s_itG3YPxTwj7jRBQtav6a1r
           stance: supports
-          locator: null
+          locator: CBDB:67861
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -157,7 +157,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王禎 | accepted |
 | death.date | 1466年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王禎（卒于1466年），明人物。籍贯吉水，身份为死國難，入仕監生，曾任府通判、僉事、通判。（中国历代人物传记资料库 CBDB 67861） | accepted |
 
 ## 关联关系
 

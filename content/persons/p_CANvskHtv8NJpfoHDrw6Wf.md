@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王翊中，清人物。籍贯眉州直隸州直轄地方，入仕副榜，曾任復設教諭。（中国历代人物传记资料库 CBDB 639892）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_HDxm8DkSZ9SWjHBNLv54sY
+        - id: cs_frc3x_OqVJbr7T2KePqNfy
           claim_id: c_47WdHMTTw6ygGgrFnjQ1me
           source_id: s_K6ka2C32PoNjtW2gfEA5CR
           stance: supports
-          locator: null
+          locator: CBDB:639892
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王翊中 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王翊中，清人物。籍贯眉州直隸州直轄地方，入仕副榜，曾任復設教諭。（中国历代人物传记资料库 CBDB 639892） | accepted |
 
 ## 关联关系
 

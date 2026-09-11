@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: "王家駿，清人物。籍贯同州府，入仕貢生: 納貢(例貢,增貢,捐貢)，曾任訓導、復設訓導。（中国历代人物传记资料库 CBDB 637224）"
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_mZz9o3PFr4oaQ13pZQyAM6
+        - id: cs_QkHx5YQxTq9e4eWyDHNIwG
           claim_id: c_zi55rU2dUgz9oh8xP8E3Wo
           source_id: s_ACWEFXXSr4PsK1Qw5F1yi1
           stance: supports
-          locator: null
+          locator: CBDB:637224
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王家駿 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王家駿，清人物。籍贯同州府，入仕貢生: 納貢(例貢,增貢,捐貢)，曾任訓導、復設訓導。（中国历代人物传记资料库 CBDB 637224） | accepted |
 
 ## 关联关系
 

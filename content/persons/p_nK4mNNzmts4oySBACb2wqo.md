@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王廷錦，清人物。籍贯大城，入仕鄉貢舉人，曾任知縣。（中国历代人物传记资料库 CBDB 637571）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_YmQUYV8K6ittUSqbfawmek
+        - id: cs_DY86cLENrSOT-A4uWe3nnQ
           claim_id: c_388RVQce3s8Jiqp6R6nq58
           source_id: s_txE8B1StbV5ycp8xgz1wzy
           stance: supports
-          locator: null
+          locator: CBDB:637571
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王廷錦 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王廷錦，清人物。籍贯大城，入仕鄉貢舉人，曾任知縣。（中国历代人物传记资料库 CBDB 637571） | accepted |
 
 ## 关联关系
 

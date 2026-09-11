@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王彥超，清人物。籍贯和州直隸州直轄地方，曾任訓導。（中国历代人物传记资料库 CBDB 637633）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_hRjh6Px9JZeLG8UjfGVHon
+        - id: cs_zZUJilkS9N2_rPw-eWHifb
           claim_id: c_DrLPcJ71Z15vZ78Z881xuN
           source_id: s_NUT1wc4hPT7KjuVcWbsJRf
           stance: supports
-          locator: null
+          locator: CBDB:637633
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王彥超 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王彥超，清人物。籍贯和州直隸州直轄地方，曾任訓導。（中国历代人物传记资料库 CBDB 637633） | accepted |
 
 ## 关联关系
 

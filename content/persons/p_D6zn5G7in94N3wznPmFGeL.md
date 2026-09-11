@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王有成，明人物。曾任典史。（中国历代人物传记资料库 CBDB 452003）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_BaWp45D5ci8Am96S3qFJHg
+        - id: cs_xOrNRELva9MeNwcKk8iC3Z
           claim_id: c_gBBJqfAeZfr8sq6UQBAqSx
           source_id: s_4ZRC5DHnufQSxBhX3cUCfA
           stance: supports
-          locator: null
+          locator: CBDB:452003
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王有成 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王有成，明人物。曾任典史。（中国历代人物传记资料库 CBDB 452003） | accepted |
 
 ## 关联关系
 

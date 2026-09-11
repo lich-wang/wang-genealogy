@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
-          language: zh-Hans
+          text: 王居義，元人物。曾任祕書少監、樞密院都事、樞密院斷事官。（中国历代人物传记资料库 CBDB 101248）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_8TJVZBr3QLgQxqUEx1PjQ5
+        - id: cs_xTjgDC5AqroxrEcA9SQ0mj
           claim_id: c_zAXiSk66XGBkEcYko55vFY
           source_id: s_pD8mb2YaCmEPAozkB7muBm
           stance: supports
-          locator: null
+          locator: CBDB:101248
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王居義 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王居義，元人物。曾任祕書少監、樞密院都事、樞密院斷事官。（中国历代人物传记资料库 CBDB 101248） | accepted |
 
 ## 关联关系
 

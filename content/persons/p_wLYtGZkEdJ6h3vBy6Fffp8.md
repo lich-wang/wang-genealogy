@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王汝訥（1826年—1869年），清人物。籍贯盧龍。（中国历代人物传记资料库 CBDB 71612）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_z4zm7mKEAq13n4B4DP9Qa9
+        - id: cs_5YPNfbPBvX_VwjpZu8iswS
           claim_id: c_sV5DNMhrP7LHQ8Fdx69HyQ
           source_id: s_tPvyDeFLtFUdnfcnP57DM1
           stance: supports
-          locator: null
+          locator: CBDB:71612
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王汝訥 | accepted |
 | birth.date | 1826年 | accepted |
 | death.date | 1869年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王汝訥（1826年—1869年），清人物。籍贯盧龍。（中国历代人物传记资料库 CBDB 71612） | accepted |
 
 ## 关联关系
 

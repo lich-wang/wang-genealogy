@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王良晟，明人物。籍贯雲和。（中国历代人物传记资料库 CBDB 575370）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_m4kNpN1H9U9b97RhAtwtHH
+        - id: cs_MXJGHIsIhIRBhdbrh--9dF
           claim_id: c_PowD2DuoXy7ex4KaA5Btec
           source_id: s_1msSvG2MAD8yK29YECS9eJ
           stance: supports
-          locator: null
+          locator: CBDB:575370
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -143,7 +143,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王良晟 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王良晟，明人物。籍贯雲和。（中国历代人物传记资料库 CBDB 575370） | accepted |
 
 ## 关联关系
 

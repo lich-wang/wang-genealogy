@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王聰，明人物。正統十三年進士，籍贯夏縣。（中国历代人物传记资料库 CBDB 241027）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_VdaVkVHP5THgXyXF8t21c9
+        - id: cs_2H5YQ5cXMNJuL0pRLCzlm1
           claim_id: c_rYVkiXKM5yvTEcqKJYKYB1
           source_id: s_CkWnwj6U9ReVBKH8vqtVeJ
           stance: supports
-          locator: null
+          locator: CBDB:241027
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王聰 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王聰，明人物。正統十三年進士，籍贯夏縣。（中国历代人物传记资料库 CBDB 241027） | accepted |
 
 ## 关联关系
 

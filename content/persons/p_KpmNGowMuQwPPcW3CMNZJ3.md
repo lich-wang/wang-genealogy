@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王中正，宋人物。籍贯開封，身份为宦官，入仕恩蔭、蔭補，曾任團練使、遙郡刺史、入內內侍省內侍黃門。（中国历代人物传记资料库 CBDB 38146）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_5X2nrF2aKUoMk1qJmbbC5P
+        - id: cs_tYNPdzRoVQ5zz5DIBNWccJ
           claim_id: c_HpqBwLQoQWz6B511VjNoRx
           source_id: s_H5CkqmJJtfuCJYdVM4dtcK
           stance: supports
-          locator: null
+          locator: CBDB:38146
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王中正 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王中正，宋人物。籍贯開封，身份为宦官，入仕恩蔭、蔭補，曾任團練使、遙郡刺史、入內內侍省內侍黃門。（中国历代人物传记资料库 CBDB 38146） | accepted |
 
 ## 关联关系
 

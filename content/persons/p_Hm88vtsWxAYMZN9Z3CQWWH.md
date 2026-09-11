@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王功成（生于1594年），清人物。明清進士進士，籍贯博平，入仕進士，曾任僉事、縣知縣、學政。（中国历代人物传记资料库 CBDB 59986）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_m6xyyXpcCh1S3u2ZZdiBPj
+        - id: cs_V-6Kw81dWq1vAJiSWlom4Q
           claim_id: c_dj8zbQhd7aNUX8sSPXwDiA
           source_id: s_57M7fD3cZaWqf7fs1cjUeK
           stance: supports
-          locator: null
+          locator: CBDB:59986
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王功成 | accepted |
 | birth.date | 1594年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王功成（生于1594年），清人物。明清進士進士，籍贯博平，入仕進士，曾任僉事、縣知縣、學政。（中国历代人物传记资料库 CBDB 59986） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王鐸，明人物。正德六年進士，籍贯吳江。（中国历代人物传记资料库 CBDB 276566）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_QnknT89ebtmmf5D5cVhoBC
+        - id: cs_7T6Rsg475V_k7__XbelcYJ
           claim_id: c_7r44pE87rHSHiu3V1Gk9hV
           source_id: s_QJoUhGr8c9HReePLvsRgTs
           stance: supports
-          locator: null
+          locator: CBDB:276566
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王鐸 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王鐸，明人物。正德六年進士，籍贯吳江。（中国历代人物传记资料库 CBDB 276566） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王訓，明人物。萬曆十一年進士，曾任都察院右副都御史、通議大夫。（中国历代人物传记资料库 CBDB 222403）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_FR1N9NUBRmmd7rnxzzDaCx
+        - id: cs_b9JBBADf1weTbHO-8AKKoB
           claim_id: c_pddzSS8AQ6vXF6KJKL1nLd
           source_id: s_AgNGQmoM7waUHAeudQjo6g
           stance: supports
-          locator: null
+          locator: CBDB:222403
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -169,7 +169,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王訓 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王訓，明人物。萬曆十一年進士，曾任都察院右副都御史、通議大夫。（中国历代人物传记资料库 CBDB 222403） | accepted |
 
 ## 关联关系
 

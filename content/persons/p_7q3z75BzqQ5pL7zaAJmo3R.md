@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王公亮，明人物。籍贯華亭，身份为書法家，曾任布政使司右布政使、府丞、吏科給事中。（中国历代人物传记资料库 CBDB 126478）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Tx9HB2ccxn8BQMDGEhd6U4
+        - id: cs_TIQGfvGu4GL63aZXMwZYcg
           claim_id: c_LPDAdo8kUu8F6M5YGAgeEJ
           source_id: s_173TT6mTk75frZu5byETec
           stance: supports
-          locator: null
+          locator: CBDB:126478
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王公亮 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王公亮，明人物。籍贯華亭，身份为書法家，曾任布政使司右布政使、府丞、吏科給事中。（中国历代人物传记资料库 CBDB 126478） | accepted |
 
 ## 关联关系
 

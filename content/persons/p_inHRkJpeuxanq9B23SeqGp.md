@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王履亨（生于1844年），清人物。明清進士進士，籍贯大竹，入仕進士，曾任縣知縣。（中国历代人物传记资料库 CBDB 69459）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_BHARcVH3eKKAj2aPycrSGu
+        - id: cs_7P28QpLgynG8HmbWVA7muf
           claim_id: c_1gCm4jXG7oqS8EaRi2AP2S
           source_id: s_jQ9Z6Ea8sTqBc3omc39E2T
           stance: supports
-          locator: null
+          locator: CBDB:69459
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王履亨 | accepted |
 | birth.date | 1844年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王履亨（生于1844年），清人物。明清進士進士，籍贯大竹，入仕進士，曾任縣知縣。（中国历代人物传记资料库 CBDB 69459） | accepted |
 
 ## 关联关系
 

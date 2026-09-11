@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王宗漢，清人物。籍贯青州府，入仕鄉貢舉人，曾任教諭、學正。（中国历代人物传记资料库 CBDB 637107）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_LzYucDvJ5Driypz9DcNEMY
+        - id: cs_0B5lEmoKDUpe5ITHWyHP3S
           claim_id: c_zCoyLiThSx2aCrEoBCXy4v
           source_id: s_ZLCZLV2vLK4ex7cKbkeDiT
           stance: supports
-          locator: null
+          locator: CBDB:637107
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王宗漢 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王宗漢，清人物。籍贯青州府，入仕鄉貢舉人，曾任教諭、學正。（中国历代人物传记资料库 CBDB 637107） | accepted |
 
 ## 关联关系
 

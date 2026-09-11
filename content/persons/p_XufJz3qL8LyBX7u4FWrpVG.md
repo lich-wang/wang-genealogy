@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王琢（卒于1022年），宋人物。籍贯建州，曾任指揮使。（中国历代人物传记资料库 CBDB 190165）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_n5UeHyZpvtgxK76ytqDqYa
+        - id: cs_64p5cLGg6sAttST6RZ24zt
           claim_id: c_UXsEQsAwf5pfmJn5jecuVV
           source_id: s_Sg2dH67ZKoCwNzb8EZzvq6
           stance: supports
-          locator: null
+          locator: CBDB:190165
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -157,7 +157,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王琢 | accepted |
 | death.date | 1022年 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王琢（卒于1022年），宋人物。籍贯建州，曾任指揮使。（中国历代人物传记资料库 CBDB 190165） | accepted |
 
 ## 关联关系
 

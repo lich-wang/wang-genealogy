@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王子師，清人物。籍贯澠池，曾任復設訓導。（中国历代人物传记资料库 CBDB 636984）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_w5JqeQxPyPWK98MX1612nC
+        - id: cs_n5Gp4EPmYkRZxOdWG_OCPC
           claim_id: c_KCpWzUfcAupJujHBfc2Y7Q
           source_id: s_TdNYN49Jf4xft3bmTCqc9D
           stance: supports
-          locator: null
+          locator: CBDB:636984
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王子師 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王子師，清人物。籍贯澠池，曾任復設訓導。（中国历代人物传记资料库 CBDB 636984） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王寵光，宋人物。籍贯內江，入仕進士。（中国历代人物传记资料库 CBDB 541421）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_VxTs5x5yixATbNN8yiYD5D
+        - id: cs_nXjlfzvQscGuZ2MFeJ_mYW
           claim_id: c_hNH9fjYxU2EoWDp9r6yQFR
           source_id: s_HqHQcgFmfnfDUMwdGYRs9R
           stance: supports
-          locator: null
+          locator: CBDB:541421
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王寵光 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王寵光，宋人物。籍贯內江，入仕進士。（中国历代人物传记资料库 CBDB 541421） | accepted |
 
 ## 关联关系
 

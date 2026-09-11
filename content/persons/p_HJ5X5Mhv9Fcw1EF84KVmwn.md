@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王紹登，宋人物。籍贯安福，入仕進士。（中国历代人物传记资料库 CBDB 549653）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_SLUU81Q1Q77LrEXZ3bEu2C
+        - id: cs_fJAY97Cva3XI5L7DsHmJ-D
           claim_id: c_NoFUoias2LoUDAcLeffysF
           source_id: s_axbeLN8uTi8aBS6xxUNBLD
           stance: supports
-          locator: null
+          locator: CBDB:549653
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王紹登 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王紹登，宋人物。籍贯安福，入仕進士。（中国历代人物传记资料库 CBDB 549653） | accepted |
 
 ## 关联关系
 

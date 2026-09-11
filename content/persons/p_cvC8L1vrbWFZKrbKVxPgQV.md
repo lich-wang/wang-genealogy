@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王大韶，明人物。嘉靖十一年進士，籍贯甌寧。（中国历代人物传记资料库 CBDB 293436）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_vi62QK66D8wSfn5Mk2h6zi
+        - id: cs_XxFx-6kGlv9JdRYSuqGwms
           claim_id: c_gYot6N9CcG2ZKDhi2wotuT
           source_id: s_po7QygabEpBnpgx6QAzuXH
           stance: supports
-          locator: null
+          locator: CBDB:293436
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王大韶 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王大韶，明人物。嘉靖十一年進士，籍贯甌寧。（中国历代人物传记资料库 CBDB 293436） | accepted |
 
 ## 关联关系
 

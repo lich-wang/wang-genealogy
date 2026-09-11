@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王來瑞，清人物。籍贯朔平府，入仕鄉貢舉人，曾任教授、訓導。（中国历代人物传记资料库 CBDB 636030）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_2999CnEcwJZCJQME8x3XN6
+        - id: cs_MUkKWAyrpGQ3sUYtzj0Bck
           claim_id: c_SnD3XhSptK35jpLDAr4yxr
           source_id: s_H5UbfU7hTShKysNqCg4wmZ
           stance: supports
-          locator: null
+          locator: CBDB:636030
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王來瑞 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王來瑞，清人物。籍贯朔平府，入仕鄉貢舉人，曾任教授、訓導。（中国历代人物传记资料库 CBDB 636030） | accepted |
 
 ## 关联关系
 

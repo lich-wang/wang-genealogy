@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王宇，明人物。弘治十五年進士，籍贯猗氏。（中国历代人物传记资料库 CBDB 270457）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_YobyuzzEfmBq6KBBuApWq6
+        - id: cs_t1Slm2JwfRkAkJ6vV_Nuj-
           claim_id: c_5tF64W8v9Jcn99usGubNXQ
           source_id: s_xuzVtfT36pv13ToywMQywR
           stance: supports
-          locator: null
+          locator: CBDB:270457
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王宇 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王宇，明人物。弘治十五年進士，籍贯猗氏。（中国历代人物传记资料库 CBDB 270457） | accepted |
 
 ## 关联关系
 

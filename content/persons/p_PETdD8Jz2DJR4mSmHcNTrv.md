@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王仲舉（1044年—1111年），宋人物。籍贯吳江，身份为孝子/孝女。（中国历代人物传记资料库 CBDB 10337）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_YunWB1C4rtvpgmFDdLedpv
+        - id: cs_oC7jP8avZfH2diGIDRMQjx
           claim_id: c_JVXg24G1uNC9TwmbPf6ZhH
           source_id: s_Uuj1nLRNJwBg8b5b2msGq7
           stance: supports
-          locator: null
+          locator: CBDB:10337
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -260,7 +260,7 @@ relationships:
 | name.primary | 王仲舉 | accepted |
 | birth.date | 1044年 | accepted |
 | death.date | 1111年 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王仲舉（1044年—1111年），宋人物。籍贯吳江，身份为孝子/孝女。（中国历代人物传记资料库 CBDB 10337） | accepted |
 
 ## 关联关系
 

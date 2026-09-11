@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王㒜，明人物。成化十一年進士，籍贯海南衛。（中国历代人物传记资料库 CBDB 250575）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_EzVZQdy2o4AP9Ng8dyo8DX
+        - id: cs_Sfl3A_Q6aWHE0KanlX7zC7
           claim_id: c_frqsDigRqxnjf8NbUtH5kC
           source_id: s_EWwmJyzaxN2ow137yqbQBE
           stance: supports
-          locator: null
+          locator: CBDB:250575
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王㒜 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王㒜，明人物。成化十一年進士，籍贯海南衛。（中国历代人物传记资料库 CBDB 250575） | accepted |
 
 ## 关联关系
 

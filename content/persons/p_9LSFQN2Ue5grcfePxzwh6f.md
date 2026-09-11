@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王承勳，明人物。籍贯錢塘。（中国历代人物传记资料库 CBDB 232018）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_UstX2tH7NnzzWMJcNSmiWU
+        - id: cs_5Olxa4ZhpVkZjq2S9H8wvP
           claim_id: c_skN8Ebo1Z3a5Z6JDh9JeCj
           source_id: s_P54A5UgS2hZWgMewuAWhPP
           stance: supports
-          locator: null
+          locator: CBDB:232018
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王承勳 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王承勳，明人物。籍贯錢塘。（中国历代人物传记资料库 CBDB 232018） | accepted |
 
 ## 关联关系
 

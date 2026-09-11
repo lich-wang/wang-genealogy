@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王著（928年—969年），宋人物。籍贯單父，入仕進士，曾任翰林學士、中書舍人、尚書省戶部度支司員外郎。（中国历代人物传记资料库 CBDB 38961）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_1nqEBzs4nYpYrdd7GYKQsq
+        - id: cs_ilDEJw3s-c5mQwfWLyh6AR
           claim_id: c_g9J4CogVuCyKW7S2adLAuX
           source_id: s_3qWAN822cqiEq1tjku3xAa
           stance: supports
-          locator: null
+          locator: CBDB:38961
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王著 | accepted |
 | birth.date | 928年 | accepted |
 | death.date | 969年 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王著（928年—969年），宋人物。籍贯單父，入仕進士，曾任翰林學士、中書舍人、尚書省戶部度支司員外郎。（中国历代人物传记资料库 CBDB 38961） | accepted |
 
 ## 关联关系
 

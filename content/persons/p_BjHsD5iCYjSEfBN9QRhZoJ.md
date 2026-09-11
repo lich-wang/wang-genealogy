@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王鳳翽，清人物。籍贯紹興府，入仕鄉貢舉人，曾任復設教諭。（中国历代人物传记资料库 CBDB 640944）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_jBphWa2rguvkAPGi1F5w6M
+        - id: cs_OnogUS7yyscYrUkGXlmmXX
           claim_id: c_St6M3Ec8h3mV7Mp4ZnvE9j
           source_id: s_WKj3XaaKcc8LLFhh6DQZk2
           stance: supports
-          locator: null
+          locator: CBDB:640944
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王鳳翽 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王鳳翽，清人物。籍贯紹興府，入仕鄉貢舉人，曾任復設教諭。（中国历代人物传记资料库 CBDB 640944） | accepted |
 
 ## 关联关系
 

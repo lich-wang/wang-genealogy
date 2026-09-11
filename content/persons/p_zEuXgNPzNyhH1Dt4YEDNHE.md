@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王符，明人物。嘉靖四十一年進士，籍贯夷陵州。（中国历代人物传记资料库 CBDB 328162）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_22isneuQ8Si1CHTa7vy9CR
+        - id: cs_Ijs45aWSI8YlfFHhtnN-PO
           claim_id: c_wx438F9YCeTj381W4Jm7F7
           source_id: s_mBW9amwq21Bzn24Air8NT8
           stance: supports
-          locator: null
+          locator: CBDB:328162
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王符 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王符，明人物。嘉靖四十一年進士，籍贯夷陵州。（中国历代人物传记资料库 CBDB 328162） | accepted |
 
 ## 关联关系
 

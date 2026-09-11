@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王汝梅，明人物。入仕進士，曾任都御史、戶部分司。（中国历代人物传记资料库 CBDB 455431）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_pZ6RWs9JUwx2HQuyh78kcU
+        - id: cs_TmzN_3MB3UCjZISQVD9ql6
           claim_id: c_2u4p6SLHVmx9p9jHSor4wG
           source_id: s_iH5jF36WRwYC3S2WY3gywM
           stance: supports
-          locator: null
+          locator: CBDB:455431
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王汝梅 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王汝梅，明人物。入仕進士，曾任都御史、戶部分司。（中国历代人物传记资料库 CBDB 455431） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
-          language: zh-Hans
+          text: 王實，元人物。籍贯紹興路，身份为書院山長，曾任書院山長。（中国历代人物传记资料库 CBDB 100897）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_g4C59YU4q1hWz5jeFywNbd
+        - id: cs_ZUZNgAyLF6S9rTeLOkXBkG
           claim_id: c_3YZ74Nc8QBjXz9oqS9G1L7
           source_id: s_ZShryB8swXBM1fW5hNzaz2
           stance: supports
-          locator: null
+          locator: CBDB:100897
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王實 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王實，元人物。籍贯紹興路，身份为書院山長，曾任書院山長。（中国历代人物传记资料库 CBDB 100897） | accepted |
 
 ## 关联关系
 

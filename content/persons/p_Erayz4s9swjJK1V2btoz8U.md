@@ -50,7 +50,7 @@ properties:
           locator: CBDB:17765
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source:
+          source: &a2
             id: s_YuLRvL17PPt15VhJQX2iyM
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：王克敦（17765）
@@ -75,11 +75,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: Song dynasty person (CBDB = 17765)
-          language: en
+          text: 王克敦，宋人物。籍贯開封。（中国历代人物传记资料库 CBDB 17765）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
         - id: cs_S7myzT8JKHVPQiDTWRz5gy
           claim_id: c_7MwNyGYCKC3WwcF1bf1Ef5
@@ -89,6 +89,14 @@ properties:
           quotation: null
           interpretation_note: 维基数据条目描述
           source: *a1
+        - id: cs_dH7SUP4hwqzC0mtuYUk2zz
+          claim_id: c_7MwNyGYCKC3WwcF1bf1Ef5
+          source_id: s_YuLRvL17PPt15VhJQX2iyM
+          stance: supports
+          locator: CBDB:17765
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: *a2
       object_person: null
     alternatives: []
 relationships:
@@ -175,7 +183,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王克敦 | accepted |
-| bio.summary | Song dynasty person (CBDB = 17765) | accepted |
+| bio.summary | 王克敦，宋人物。籍贯開封。（中国历代人物传记资料库 CBDB 17765） | accepted |
 
 ## 关联关系
 

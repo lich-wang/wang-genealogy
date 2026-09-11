@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王君卿，唐人物。籍贯太原。（中国历代人物传记资料库 CBDB 150999）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_vXD7RTi54x8epTaMtgTrzi
+        - id: cs_kG036zT6EIuSSTFW14G6y5
           claim_id: c_2rpz5FhoJHB81ATYotRMiK
           source_id: s_Goj99xtDvRvDBavJFw9put
           stance: supports
-          locator: null
+          locator: CBDB:150999
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -128,7 +128,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王君卿 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王君卿，唐人物。籍贯太原。（中国历代人物传记资料库 CBDB 150999） | accepted |
 
 ## 关联关系
 

@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王毓江（卒于1911年），清人物。籍贯宿州，入仕廩貢生。（中国历代人物传记资料库 CBDB 69414）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_geuBP49PJTsfXqi7JroVd8
+        - id: cs_OtuxWsEj_v0fF5uwRwkjkZ
           claim_id: c_kcnieLQFHY48TbBj4wwuKH
           source_id: s_J73ZuN5H4ZsmYU4wqcAa1e
           stance: supports
-          locator: null
+          locator: CBDB:69414
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -157,7 +157,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王毓江 | accepted |
 | death.date | 1911年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王毓江（卒于1911年），清人物。籍贯宿州，入仕廩貢生。（中国历代人物传记资料库 CBDB 69414） | accepted |
 
 ## 关联关系
 

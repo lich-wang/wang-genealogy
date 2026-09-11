@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王興吾（1703年—1757年），史料所见人物。本项目依据《中国历代人物传记资料库：王興吾（CBDB 69625）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_kWCMpP6MBMPCb5uF3PxWs5
+        - id: cs_RuqSl0NGzvn5Rw7qxdu046
           claim_id: c_hW4B5CX5ixxRPTj9tTeN9B
           source_id: s_MMQL1L7LkzNPv3C8NoVJX6
           stance: supports
-          locator: null
+          locator: CBDB:69625
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
           source: *a1
       object_person: null
     alternatives: []
@@ -212,7 +212,7 @@ relationships:
 | name.primary | 王興吾 | accepted |
 | birth.date | 1703年 | accepted |
 | death.date | 1757年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王興吾（1703年—1757年），史料所见人物。本项目依据《中国历代人物传记资料库：王興吾（CBDB 69625）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
 
 ## 关联关系
 

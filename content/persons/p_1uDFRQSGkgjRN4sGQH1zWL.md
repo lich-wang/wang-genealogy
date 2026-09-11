@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王延琳，清人物。籍贯融縣，曾任復設訓導。（中国历代人物传记资料库 CBDB 637466）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_tR1Cou1EmSWtr7B7kDC7G2
+        - id: cs_j6R2bRL8euFeziYWTz3MBq
           claim_id: c_QFm1m4Zc4kstnP5RaUfTtf
           source_id: s_CEjQU7CCiH6Y4TYbbHN5kr
           stance: supports
-          locator: null
+          locator: CBDB:637466
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王延琳 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王延琳，清人物。籍贯融縣，曾任復設訓導。（中国历代人物传记资料库 CBDB 637466） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王學周，明人物。嘉靖二十年進士，籍贯澤州。（中国历代人物传记资料库 CBDB 303183）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_a7Fn2bWCkeS6xtaQFBECzw
+        - id: cs_pwWuYaE6qp0abUdsLr9wKW
           claim_id: c_KGSGE2DvrY5ucAmG9616DA
           source_id: s_2NMzq2fLEuPpsq6acP4ryH
           stance: supports
-          locator: null
+          locator: CBDB:303183
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王學周 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王學周，明人物。嘉靖二十年進士，籍贯澤州。（中国历代人物传记资料库 CBDB 303183） | accepted |
 
 ## 关联关系
 

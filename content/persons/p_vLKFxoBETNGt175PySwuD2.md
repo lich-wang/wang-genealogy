@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王自新，明人物。入仕考上會試/貢士，曾任教諭。（中国历代人物传记资料库 CBDB 504433）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_R53i7E9WTSsniVg7FuB8NY
+        - id: cs_yvBoYWePdgkBu7Og_tEqKt
           claim_id: c_nsy7vYAKGCHG2JDtEPrWDo
           source_id: s_mM8QReZ5iYzBwAQjGrMx4Q
           stance: supports
-          locator: null
+          locator: CBDB:504433
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王自新 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王自新，明人物。入仕考上會試/貢士，曾任教諭。（中国历代人物传记资料库 CBDB 504433） | accepted |
 
 ## 关联关系
 

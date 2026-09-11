@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
-          language: zh-Hans
+          text: 王廉，元人物。籍贯麗水，身份为書法家、工於文，曾任翰林國史院國史編修官、縣丞、安南祭弔使。（中国历代人物传记资料库 CBDB 100854）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_uhwXz1xEq2RhTUY8EYfv7d
+        - id: cs_8tvIGNp5YWrb-XrPCdLyJm
           claim_id: c_6y66f1Bdf3SQbVGvH8qzGE
           source_id: s_qk3L8vkp6WeFqjKkZmnoCP
           stance: supports
-          locator: null
+          locator: CBDB:100854
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王廉 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王廉，元人物。籍贯麗水，身份为書法家、工於文，曾任翰林國史院國史編修官、縣丞、安南祭弔使。（中国历代人物传记资料库 CBDB 100854） | accepted |
 
 ## 关联关系
 

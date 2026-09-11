@@ -7,6 +7,44 @@ display_name: 赵氏
 cbdb_id: 38569
 revision: 2
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_2E1j73YTskURgPiOBJlCcQ
+        subject_person_id: p_L2ifCRAMx2TbJz5vSmeM6T
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 赵氏，宋人物。曾任國夫人、郡夫人。（中国历代人物传记资料库 CBDB 38569）
+          language: zh-Hant
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YXRwFShTeVr4WmizGVZeCk
+          claim_id: c_2E1j73YTskURgPiOBJlCcQ
+          source_id: s_inp2TgyDeUUZJ8Zq2rkTe5
+          stance: supports
+          locator: CBDB:38569
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_inp2TgyDeUUZJ8Zq2rkTe5
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：趙氏（38569）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38569&o=json
+            external_identifier: CBDB:38569
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,7 +69,7 @@ properties:
           locator: Q45430725
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source: &a1
+          source: &a2
             id: s_pquE6piAMMVG6tzVZzsHtU
             source_type: api_record
             title: 维基数据：赵氏（Q45430725）
@@ -50,18 +88,7 @@ properties:
           locator: CBDB:38569
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source: &a2
-            id: s_inp2TgyDeUUZJ8Zq2rkTe5
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：趙氏（38569）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38569&o=json
-            external_identifier: CBDB:38569
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T08:06:50.055Z
-            metadata_json: null
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,7 +117,7 @@ relationships:
           locator: P26（配偶）
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: *a2
         - id: cs_i5PB6m3zDsMhr8nUmA2fMs
           claim_id: c_gHvL8xjTNojYSVWv31e6Ay
           source_id: s_vRaCPeuuKnxFV9tq7HyLW3
@@ -154,7 +181,7 @@ relationships:
           locator: 宋人傳記資料索引(電子版)：丈夫
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a2
+          source: *a1
       object_person:
         id: p_4Hjde84UDSxNby7XrvDD1E
         status: active
@@ -182,7 +209,7 @@ relationships:
           locator: 宋人傳記資料索引(電子版)，1517;1522：孫
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a2
+          source: *a1
       object_person:
         id: p_yapy3APS2bJCVFq3VNLaKZ
         status: active
@@ -199,6 +226,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 赵氏，宋人物。曾任國夫人、郡夫人。（中国历代人物传记资料库 CBDB 38569） | accepted |
 | name.primary | 赵氏 | accepted |
 
 ## 关联关系

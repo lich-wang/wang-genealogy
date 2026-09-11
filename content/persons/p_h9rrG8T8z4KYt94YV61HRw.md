@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王錫蕃，清人物。籍贯青陽，曾任經歷、縣丞。（中国历代人物传记资料库 CBDB 640644）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_vhM1CGFR8CRz8KE7q5K8H5
+        - id: cs_3bvrJF8WLr5ll_wQJdAwK2
           claim_id: c_hV51rT2mWi9MbGtUULEVsE
           source_id: s_oPAt3k1S9iWriETwNu9DXV
           stance: supports
-          locator: null
+          locator: CBDB:640644
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王錫蕃 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王錫蕃，清人物。籍贯青陽，曾任經歷、縣丞。（中国历代人物传记资料库 CBDB 640644） | accepted |
 
 ## 关联关系
 

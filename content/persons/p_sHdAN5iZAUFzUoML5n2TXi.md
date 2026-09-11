@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王漢，宋人物。籍贯金華，身份为士人，曾任縣尉。（中国历代人物传记资料库 CBDB 10705）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_DmQYUtjXVu5fnM8RpuKrBG
+        - id: cs_a_LeNLqHcLE3PoQ_2s5XiV
           claim_id: c_dEu1NwxyF3z53akTRVR52N
           source_id: s_PLWC5cJhaQLNwk9pDH73G9
           stance: supports
-          locator: null
+          locator: CBDB:10705
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王漢 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王漢，宋人物。籍贯金華，身份为士人，曾任縣尉。（中国历代人物传记资料库 CBDB 10705） | accepted |
 
 ## 关联关系
 

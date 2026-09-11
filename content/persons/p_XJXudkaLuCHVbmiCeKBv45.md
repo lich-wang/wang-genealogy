@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王官（生于1492年），明人物。明清進士進士，籍贯寧夏左屯衛，入仕進士。（中国历代人物传记资料库 CBDB 201950）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_1zNbD6xxuDA7FtBST8bqGK
+        - id: cs_Ay7PLnECsntWj7gC_qZXJP
           claim_id: c_XUrA9sb2mkZqFXB5myP7xH
           source_id: s_8AGtNpuGjzZmKayDN21s97
           stance: supports
-          locator: null
+          locator: CBDB:201950
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -231,7 +231,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王官 | accepted |
 | birth.date | 1492年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王官（生于1492年），明人物。明清進士進士，籍贯寧夏左屯衛，入仕進士。（中国历代人物传记资料库 CBDB 201950） | accepted |
 
 ## 关联关系
 

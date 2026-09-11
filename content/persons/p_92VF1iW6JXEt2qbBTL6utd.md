@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
+          text: 王蘭，元人物。籍贯金華，曾任錄事司判官、錄事判官。（中国历代人物传记资料库 CBDB 386680）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_BDyFgZvodQ8UYi2g7bG3xM
+        - id: cs_DjjRBiL910nb0ctinsegAf
           claim_id: c_gfShH7CFhn6fTBNUBiTTQm
           source_id: s_BsXFxD6CCLETLcv756MN8M
           stance: supports
-          locator: null
+          locator: CBDB:386680
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王蘭 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王蘭，元人物。籍贯金華，曾任錄事司判官、錄事判官。（中国历代人物传记资料库 CBDB 386680） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王國楨，明人物。明清進士進士，籍贯山陰，入仕進士。（中国历代人物传记资料库 CBDB 343435）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_eKoMcdt14BDQE7tXZdNsGL
+        - id: cs_SFQWXU73YhOf41jSd8oZh6
           claim_id: c_scSZpNJeU3ta9PAEgb4UwE
           source_id: s_WYDuMLi7H1TV7DhiA8b4W8
           stance: supports
-          locator: null
+          locator: CBDB:343435
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王國楨 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王國楨，明人物。明清進士進士，籍贯山陰，入仕進士。（中国历代人物传记资料库 CBDB 343435） | accepted |
 
 ## 关联关系
 

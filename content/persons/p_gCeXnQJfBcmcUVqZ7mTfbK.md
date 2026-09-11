@@ -7,6 +7,44 @@ display_name: 夏菊初
 revision: 1
 cbdb_id: 121124
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_9hz4Mmlt57Iw54qSWPkOGn
+        subject_person_id: p_gCeXnQJfBcmcUVqZ7mTfbK
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 夏菊初，清人物。籍贯吳縣。（中国历代人物传记资料库 CBDB 121124）
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_76rbKuhjiZOJIeSZWIlPOO
+          claim_id: c_9hz4Mmlt57Iw54qSWPkOGn
+          source_id: s_beQVfA97TfFA3ooIkLomku
+          stance: supports
+          locator: CBDB:121124
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_beQVfA97TfFA3ooIkLomku
+            source_type: api_record
+            title: 中国历代人物传记资料库：夏菊初（CBDB 121124）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=121124&o=json
+            external_identifier: CBDB:121124
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:121124
           quotation: null
           interpretation_note: CBDB 明确记录的王蓉生配偶
-          source: &a1
-            id: s_beQVfA97TfFA3ooIkLomku
-            source_type: api_record
-            title: 中国历代人物传记资料库：夏菊初（CBDB 121124）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=121124&o=json
-            external_identifier: CBDB:121124
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 夏菊初，清人物。籍贯吳縣。（中国历代人物传记资料库 CBDB 121124） | accepted |
 | name.primary | 夏菊初 | accepted |
 
 ## 关联关系

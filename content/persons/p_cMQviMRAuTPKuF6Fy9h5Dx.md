@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王之政（1753年—1821年），清人物。籍贯丹徒。（中国历代人物传记资料库 CBDB 71355）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_kEVVNJ7tTJLDHsfjvRdnhu
+        - id: cs_fhaI4t9DCXE-t2eZgKAi-m
           claim_id: c_rrV3PUAN8cAviFBpXqVkg6
           source_id: s_gKBft95fwhxuPWbxBbzs1h
           stance: supports
-          locator: null
+          locator: CBDB:71355
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王之政 | accepted |
 | birth.date | 1753年 | accepted |
 | death.date | 1821年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王之政（1753年—1821年），清人物。籍贯丹徒。（中国历代人物传记资料库 CBDB 71355） | accepted |
 
 ## 关联关系
 

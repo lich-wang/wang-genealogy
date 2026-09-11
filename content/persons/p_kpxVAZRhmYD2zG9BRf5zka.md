@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王槱，宋人物。籍贯達州，入仕進士。（中国历代人物传记资料库 CBDB 545381）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_A7mB1g7as6cL6PwG6uBUuU
+        - id: cs_MVQvhyfNxJ9fdV4AW9uRkL
           claim_id: c_vMM37QwXe68Gbetgg1e3cr
           source_id: s_LE7yUiisirstydRf9DKQ8g
           stance: supports
-          locator: null
+          locator: CBDB:545381
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王槱 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王槱，宋人物。籍贯達州，入仕進士。（中国历代人物传记资料库 CBDB 545381） | accepted |
 
 ## 关联关系
 

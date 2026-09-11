@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王思訓，清人物。明清進士進士，籍贯昆明，入仕進士，曾任編修、檢討、同考官。（中国历代人物传记资料库 CBDB 343455）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_dnGg1kbRmjXBHgFzgMtZms
+        - id: cs_V38RVKqAyKJ7tDSeF4MEye
           claim_id: c_Wvze7S862z219mJANDf27k
           source_id: s_gjZcdRtLii1gAUBHNiJZYq
           stance: supports
-          locator: null
+          locator: CBDB:343455
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王思訓 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王思訓，清人物。明清進士進士，籍贯昆明，入仕進士，曾任編修、檢討、同考官。（中国历代人物传记资料库 CBDB 343455） | accepted |
 
 ## 关联关系
 

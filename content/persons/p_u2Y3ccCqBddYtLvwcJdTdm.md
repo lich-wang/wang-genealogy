@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为後周人物
-          language: zh-Hans
+          text: 王仲簡（卒于977年），後周人物。籍贯潭州，身份为詩人，入仕進士，曾任縣丞。（中国历代人物传记资料库 CBDB 91999）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_nZv4DpcJyus5KRCSNcg7FJ
+        - id: cs_zhXGEPq37sptrHRjkRXKp4
           claim_id: c_cBqzggxGcUAdo96f67Kao7
           source_id: s_u7jjzy2mZR1LRvhnU2B26q
           stance: supports
-          locator: null
+          locator: CBDB:91999
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王仲簡 | accepted |
 | death.date | 977年 | accepted |
-| bio.summary | CBDB 记载为後周人物 | accepted |
+| bio.summary | 王仲簡（卒于977年），後周人物。籍贯潭州，身份为詩人，入仕進士，曾任縣丞。（中国历代人物传记资料库 CBDB 91999） | accepted |
 
 ## 关联关系
 

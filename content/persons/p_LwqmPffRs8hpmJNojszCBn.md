@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
+          text: 王仁（1241年—1311年），元人物。籍贯中山府，身份为以疾廢，曾任安撫司副使、肅政廉訪司廉訪使、肅政廉訪司僉事。（中国历代人物传记资料库 CBDB 100625）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_hmgnpeDuDVWw1ZLKhx5yr2
+        - id: cs_UN68L-tf6o0bjLh9s3yHvV
           claim_id: c_p8J3344P782weJ3kPDA9Eh
           source_id: s_D7kc1fvP7FxHimDxJyjLvg
           stance: supports
-          locator: null
+          locator: CBDB:100625
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王仁 | accepted |
 | birth.date | 1241年 | accepted |
 | death.date | 1311年 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王仁（1241年—1311年），元人物。籍贯中山府，身份为以疾廢，曾任安撫司副使、肅政廉訪司廉訪使、肅政廉訪司僉事。（中国历代人物传记资料库 CBDB 100625） | accepted |
 
 ## 关联关系
 

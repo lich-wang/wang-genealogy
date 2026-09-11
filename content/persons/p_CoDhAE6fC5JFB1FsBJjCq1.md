@@ -7,6 +7,44 @@ display_name: 邢氏
 cbdb_id: 220265
 revision: 1
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_VXaPTilcGqmyR5M3Vb_qgz
+        subject_person_id: p_CoDhAE6fC5JFB1FsBJjCq1
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 邢氏，明人物。萬曆八年進士。（中国历代人物传记资料库 CBDB 220265）
+          language: zh-Hant
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VR8Lg9FDurg49ugoD4uLtY
+          claim_id: c_VXaPTilcGqmyR5M3Vb_qgz
+          source_id: s_Zg27aMJEwQNPkD4Bj7dRWr
+          stance: supports
+          locator: CBDB:220265
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_Zg27aMJEwQNPkD4Bj7dRWr
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：邢氏（220265）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=220265&o=json
+            external_identifier: CBDB:220265
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,7 +69,7 @@ properties:
           locator: Q65823254
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source: &a1
+          source: &a2
             id: s_wM3Ko6rz6aq7Jxb6fMnjDL
             source_type: api_record
             title: 维基数据：邢氏（Q65823254）
@@ -50,18 +88,7 @@ properties:
           locator: CBDB:220265
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source:
-            id: s_Zg27aMJEwQNPkD4Bj7dRWr
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：邢氏（220265）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=220265&o=json
-            external_identifier: CBDB:220265
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T08:06:50.055Z
-            metadata_json: null
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -109,7 +136,7 @@ relationships:
           locator: P26（配偶）
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: *a2
         - id: cs_7qxBSe6zLgzKveAXD2Cbce
           claim_id: c_2RDr867GXnM84rCZM27YC9
           source_id: s_zcmyoLPxLotZ84tb26zKRH
@@ -147,6 +174,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 邢氏，明人物。萬曆八年進士。（中国历代人物传记资料库 CBDB 220265） | accepted |
 | name.primary | 邢氏 | accepted |
 
 ## 关联关系

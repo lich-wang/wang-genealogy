@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王景珠，清人物。籍贯高陽，曾任訓導。（中国历代人物传记资料库 CBDB 638497）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_bXSJ3Fwt51x7WRgw55vHiP
+        - id: cs_FMondfi4EJA2yK1Q_DbFET
           claim_id: c_Ky3uBB3v23VVgnj3B22Mbh
           source_id: s_sWAGJC72cfzkHkZm3vePRv
           stance: supports
-          locator: null
+          locator: CBDB:638497
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王景珠 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王景珠，清人物。籍贯高陽，曾任訓導。（中国历代人物传记资料库 CBDB 638497） | accepted |
 
 ## 关联关系
 

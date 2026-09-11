@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王厚之（1131年—1204年），宋人物。籍贯諸暨，入仕進士，曾任朝奉大夫、路提點刑獄公事、轉運司判官。（中国历代人物传记资料库 CBDB 3951）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_1MebD5rhXhxJH1EkFUvCuN
+        - id: cs_CdHw_nRIWqezx9nvX3jJn0
           claim_id: c_Fbcgq2PagEFL82WvgTCwTS
           source_id: s_eKoXf9N8S1uypnENdckBnf
           stance: supports
-          locator: null
+          locator: CBDB:3951
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -212,7 +212,7 @@ relationships:
 | name.primary | 王厚之 | accepted |
 | birth.date | 1131年 | accepted |
 | death.date | 1204年 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王厚之（1131年—1204年），宋人物。籍贯諸暨，入仕進士，曾任朝奉大夫、路提點刑獄公事、轉運司判官。（中国历代人物传记资料库 CBDB 3951） | accepted |
 
 ## 关联关系
 

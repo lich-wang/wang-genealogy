@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王廷幹（卒于1853年），清人物。明清進士進士，籍贯安邱，入仕進士，曾任縣知縣、知州銜。（中国历代人物传记资料库 CBDB 69219）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_wsM8G1A6Svn5yson86CZHu
+        - id: cs_Z8SEHE-1m98B3UUzd_112g
           claim_id: c_u8LCbnK94cQuiCA1tEncJc
           source_id: s_WGuAbPSgnwEtB3mwC4BvWH
           stance: supports
-          locator: null
+          locator: CBDB:69219
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王廷幹 | accepted |
 | death.date | 1853年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王廷幹（卒于1853年），清人物。明清進士進士，籍贯安邱，入仕進士，曾任縣知縣、知州銜。（中国历代人物传记资料库 CBDB 69219） | accepted |
 
 ## 关联关系
 

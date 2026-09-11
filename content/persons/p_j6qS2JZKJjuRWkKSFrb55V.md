@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王浵，清人物。明清進士進士，籍贯寶坻，入仕進士，曾任編修、學政。（中国历代人物传记资料库 CBDB 342674）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_w1RfQhBCz6BnANK1bQwiuE
+        - id: cs_pR3rTPctpz7QCHWjDmvvHE
           claim_id: c_NLdh3UcCXWpNbj6PF5pdbB
           source_id: s_FHrxs9PgCcFuAxcn6qc1Uw
           stance: supports
-          locator: null
+          locator: CBDB:342674
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王浵 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王浵，清人物。明清進士進士，籍贯寶坻，入仕進士，曾任編修、學政。（中国历代人物传记资料库 CBDB 342674） | accepted |
 
 ## 关联关系
 

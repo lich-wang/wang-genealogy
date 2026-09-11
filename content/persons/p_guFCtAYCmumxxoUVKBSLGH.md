@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王廷鴻，清人物。明清進士進士，籍贯孝感，入仕進士。（中国历代人物传记资料库 CBDB 341924）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_ayesUs4zAit8x6HDVp14nq
+        - id: cs_t4MfYQtKaD-J65jHZu7nec
           claim_id: c_gBH1emhky5UamFMBZwUJ5k
           source_id: s_UHL4DbWatY7tyiQsxADrqj
           stance: supports
-          locator: null
+          locator: CBDB:341924
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王廷鴻 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王廷鴻，清人物。明清進士進士，籍贯孝感，入仕進士。（中国历代人物传记资料库 CBDB 341924） | accepted |
 
 ## 关联关系
 

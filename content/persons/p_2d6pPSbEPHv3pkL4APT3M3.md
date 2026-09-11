@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
+          text: 王桂，元人物。籍贯章丘，曾任副留守、監察御史、吏部員外郎。（中国历代人物传记资料库 CBDB 100761）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_w2GTGoCgguv5MYFz7v1LiY
+        - id: cs_6Bo3KkLqFEcLe7F1drX7th
           claim_id: c_eRv8pDpA9SH1TFcuVnQM4U
           source_id: s_8mJ8MvjQQQQ43aMkN3i8Ey
           stance: supports
-          locator: null
+          locator: CBDB:100761
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王桂 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王桂，元人物。籍贯章丘，曾任副留守、監察御史、吏部員外郎。（中国历代人物传记资料库 CBDB 100761） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王炎，清人物。曾任右翼漢軍副都統。（中国历代人物传记资料库 CBDB 60693）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_pLQhtc6SGc1eWWjqVzkbgd
+        - id: cs_iiX4fLmy13_In9JpX0Jm_5
           claim_id: c_yZEaW7jrgY7zZZQnWLQVM7
           source_id: s_Mb4XKfq1uA6AkkmViaC6jH
           stance: supports
-          locator: null
+          locator: CBDB:60693
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王炎 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王炎，清人物。曾任右翼漢軍副都統。（中国历代人物传记资料库 CBDB 60693） | accepted |
 
 ## 关联关系
 

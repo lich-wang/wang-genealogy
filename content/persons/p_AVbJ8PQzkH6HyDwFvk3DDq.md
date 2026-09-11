@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王度（1157年—1213年），宋人物。籍贯會稽，入仕進士，曾任禮儀院、太學博士、太學上舍生。（中国历代人物传记资料库 CBDB 25489）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_t81Z5ZrnCbNBu2U53NWQ5R
+        - id: cs_3RAu9pnosYDSWFVvGd3vtZ
           claim_id: c_FGM9ryA5EEJbB4AMMFRJi1
           source_id: s_RT3YnR43QP4wp8cNS83TG6
           stance: supports
-          locator: null
+          locator: CBDB:25489
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -175,7 +175,7 @@ relationships:
 | name.primary | 王度 | accepted |
 | birth.date | 1157年 | accepted |
 | death.date | 1213年 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王度（1157年—1213年），宋人物。籍贯會稽，入仕進士，曾任禮儀院、太學博士、太學上舍生。（中国历代人物传记资料库 CBDB 25489） | accepted |
 
 ## 关联关系
 

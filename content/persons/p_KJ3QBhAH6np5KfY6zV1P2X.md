@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王啟論，清人物。籍贯祥符，入仕進士，曾任知縣。（中国历代人物传记资料库 CBDB 636564）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_e5zcJMcygCcVc9N8w5s5rQ
+        - id: cs_uS9fDUA4ojVpPY0mOAlOIf
           claim_id: c_Fbhk7y9MZKQng7QvYBCsWk
           source_id: s_LvxbtcjyC4Y9ErKDMoKx8R
           stance: supports
-          locator: null
+          locator: CBDB:636564
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王啟論 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王啟論，清人物。籍贯祥符，入仕進士，曾任知縣。（中国历代人物传记资料库 CBDB 636564） | accepted |
 
 ## 关联关系
 

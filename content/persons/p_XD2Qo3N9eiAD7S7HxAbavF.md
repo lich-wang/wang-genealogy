@@ -7,6 +7,44 @@ display_name: 嚴氏
 revision: 1
 cbdb_id: 38354
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_isZxsv0jErBftw8wZUoaIP
+        subject_person_id: p_XD2Qo3N9eiAD7S7HxAbavF
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 嚴氏，五代人物。曾任國太夫人。（中国历代人物传记资料库 CBDB 38354）
+          language: zh-Hant
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_40tWmpsonT5DEgAxyON4iU
+          claim_id: c_isZxsv0jErBftw8wZUoaIP
+          source_id: s_1TED0ERp4uhwYJEst2VHqR
+          stance: supports
+          locator: CBDB:38354
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_1TED0ERp4uhwYJEst2VHqR
+            source_type: api_record
+            title: 中国历代人物传记资料库：嚴氏(王延祚妻)（CBDB 38354）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38354&o=json
+            external_identifier: CBDB:38354
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:38354
           quotation: null
           interpretation_note: CBDB 明确记录的王延祚配偶
-          source: &a1
-            id: s_1TED0ERp4uhwYJEst2VHqR
-            source_type: api_record
-            title: 中国历代人物传记资料库：嚴氏(王延祚妻)（CBDB 38354）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38354&o=json
-            external_identifier: CBDB:38354
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 嚴氏，五代人物。曾任國太夫人。（中国历代人物传记资料库 CBDB 38354） | accepted |
 | name.primary | 嚴氏 | accepted |
 
 ## 关联关系

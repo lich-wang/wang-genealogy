@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王猷琠，清人物。籍贯考城，入仕副榜，曾任復設教諭。（中国历代人物传记资料库 CBDB 639367）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_4PQ9wQP8HxB8aXatLNtcDg
+        - id: cs_0tYifbsIbXRJRgtITzSyGU
           claim_id: c_Sq8NKMv3oJobX8d35eAoLj
           source_id: s_5N5twXFvfSwaMYp7acXFyt
           stance: supports
-          locator: null
+          locator: CBDB:639367
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王猷琠 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王猷琠，清人物。籍贯考城，入仕副榜，曾任復設教諭。（中国历代人物传记资料库 CBDB 639367） | accepted |
 
 ## 关联关系
 

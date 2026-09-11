@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王陶（1020年—1080年），宋人物。籍贯長社，入仕進士，曾任大理寺丞、殿中省丞、觀文殿學士。（中国历代人物传记资料库 CBDB 22123）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_7ArW4BeH1YJnFBG1vsd38a
+        - id: cs_X1y4aedYTtJA305OvAI8cf
           claim_id: c_qc4XcfUXoyW1Gh7KT7QSRE
           source_id: s_PcFFvCDJBFd44FuWEkD1A6
           stance: supports
-          locator: null
+          locator: CBDB:22123
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -212,7 +212,7 @@ relationships:
 | name.primary | 王陶 | accepted |
 | birth.date | 1020年 | accepted |
 | death.date | 1080年 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王陶（1020年—1080年），宋人物。籍贯長社，入仕進士，曾任大理寺丞、殿中省丞、觀文殿學士。（中国历代人物传记资料库 CBDB 22123） | accepted |
 
 ## 关联关系
 

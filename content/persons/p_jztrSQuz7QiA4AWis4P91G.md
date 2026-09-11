@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王象復，明人物。籍贯新城，身份为死國難，曾任知府。（中国历代人物传记资料库 CBDB 126733）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_q8Qr8Xd6ha8ekXzHkuPB5M
+        - id: cs_YeQqh-lEWWx7YiTjHNc0UU
           claim_id: c_xFDV3vPX9M8kStC2mLkLQC
           source_id: s_uYMH6KqjGHubRYyxkveHXx
           stance: supports
-          locator: null
+          locator: CBDB:126733
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王象復 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王象復，明人物。籍贯新城，身份为死國難，曾任知府。（中国历代人物传记资料库 CBDB 126733） | accepted |
 
 ## 关联关系
 

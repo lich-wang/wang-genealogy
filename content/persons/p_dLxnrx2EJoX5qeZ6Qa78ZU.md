@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王應鳳（生于1229年），宋人物。籍贯祥符，身份为收徒講學、經學家—左傳，入仕進士，曾任太常寺博士。（中国历代人物传记资料库 CBDB 19881）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_CGxyuEFJjmVKUAJW3tMR9k
+        - id: cs_2Bula5ob1l6oXGqp7uShzA
           claim_id: c_yQPQrs3hn4EMJSYpFXjar2
           source_id: s_tgQaYyBVLUeaz2cLVjcGjv
           stance: supports
-          locator: null
+          locator: CBDB:19881
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -172,7 +172,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王應鳳 | accepted |
 | birth.date | 1229年 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王應鳳（生于1229年），宋人物。籍贯祥符，身份为收徒講學、經學家—左傳，入仕進士，曾任太常寺博士。（中国历代人物传记资料库 CBDB 19881） | accepted |
 
 ## 关联关系
 

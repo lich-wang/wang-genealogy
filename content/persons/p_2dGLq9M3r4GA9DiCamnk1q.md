@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王操（620年—670年），唐人物。籍贯屯留。（中国历代人物传记资料库 CBDB 140261）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_qgvz9E31WGHJiPoswuCeqd
+        - id: cs_2mkMXvZlqiLcZQ9tB4eb_x
           claim_id: c_kPXC8Wbnj7nZrGpRrF7i6T
           source_id: s_9JFP88AJPAVEp3RLvSjawu
           stance: supports
-          locator: null
+          locator: CBDB:140261
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -212,7 +212,7 @@ relationships:
 | name.primary | 王操 | accepted |
 | birth.date | 620年 | accepted |
 | death.date | 670年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王操（620年—670年），唐人物。籍贯屯留。（中国历代人物传记资料库 CBDB 140261） | accepted |
 
 ## 关联关系
 

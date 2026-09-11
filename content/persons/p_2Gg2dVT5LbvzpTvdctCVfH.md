@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王禹佐，明人物。籍贯嵊縣，入仕薦舉 (保任,保舉)，曾任府通判、知縣。（中国历代人物传记资料库 CBDB 560335）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_eGKSA1uYP9sYSZooW1rE5G
+        - id: cs_-auDU95ZRRYxTwjDOhEfrR
           claim_id: c_Mp76C2zPHq2X9mx5yyCumA
           source_id: s_F2xVSFoBuLM7MV5gYvbKRe
           stance: supports
-          locator: null
+          locator: CBDB:560335
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王禹佐 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王禹佐，明人物。籍贯嵊縣，入仕薦舉 (保任,保舉)，曾任府通判、知縣。（中国历代人物传记资料库 CBDB 560335） | accepted |
 
 ## 关联关系
 

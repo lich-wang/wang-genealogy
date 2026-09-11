@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王土豪，清人物。籍贯曹州府，曾任訓導。（中国历代人物传记资料库 CBDB 636680）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_4mfgi9u5nHTeA3DsP3sxug
+        - id: cs_VaZwwfK8rc3UVsZJT_iCH8
           claim_id: c_VfYS3sn4KMB4pWstHrBYxv
           source_id: s_B7pSdCLgbNFLve4cEVsBnZ
           stance: supports
-          locator: null
+          locator: CBDB:636680
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王土豪 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王土豪，清人物。籍贯曹州府，曾任訓導。（中国历代人物传记资料库 CBDB 636680） | accepted |
 
 ## 关联关系
 

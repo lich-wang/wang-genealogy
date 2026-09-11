@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王汶，明人物。籍贯義烏，曾任中書舍人。（中国历代人物传记资料库 CBDB 437893）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_mCymK1TSwJrNaenuCc4JHt
+        - id: cs_CoTCDOKFmt7LvZnoXD1Ad8
           claim_id: c_MYfsJR8j5k2QGYm3KLD1qE
           source_id: s_K826AGy7oQHb7gpsHuNTDg
           stance: supports
-          locator: null
+          locator: CBDB:437893
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王汶 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王汶，明人物。籍贯義烏，曾任中書舍人。（中国历代人物传记资料库 CBDB 437893） | accepted |
 
 ## 关联关系
 

@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王彥暉（1113年—1184年），宋人物。籍贯德興，入仕恩蔭、蔭補，曾任迪功郎。（中国历代人物传记资料库 CBDB 37632）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_tQNCcvPe19p44e1S3HLm6s
+        - id: cs_padEVLwmkVZhdKXi82ebWn
           claim_id: c_T7pXDMPwmy4gmPtThzmfsH
           source_id: s_Uieh1aNWMDMRHS2pLJrPNG
           stance: supports
-          locator: null
+          locator: CBDB:37632
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -223,7 +223,7 @@ relationships:
 | name.primary | 王彥暉 | accepted |
 | birth.date | 1113年 | accepted |
 | death.date | 1184年 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王彥暉（1113年—1184年），宋人物。籍贯德興，入仕恩蔭、蔭補，曾任迪功郎。（中国历代人物传记资料库 CBDB 37632） | accepted |
 
 ## 关联关系
 

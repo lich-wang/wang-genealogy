@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王驤，宋人物。身份为死國難，曾任縣主簿。（中国历代人物传记资料库 CBDB 45860）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_WPLqbvA36BEaw1Yp53jj4w
+        - id: cs_j8tYsa4a3lvleOfyojWTfj
           claim_id: c_q7jRWMQx732XAB5KwxAHSB
           source_id: s_7G5hVAAYzDv2udQZhHBBBS
           stance: supports
-          locator: null
+          locator: CBDB:45860
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王驤 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王驤，宋人物。身份为死國難，曾任縣主簿。（中国历代人物传记资料库 CBDB 45860） | accepted |
 
 ## 关联关系
 

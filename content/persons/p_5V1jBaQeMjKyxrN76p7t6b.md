@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: "王如瀚，清人物。籍贯寧州，入仕貢生: 拔貢，曾任復設教諭。（中国历代人物传记资料库 CBDB 636972）"
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_qG2QrZe9R6f4MSLEJaRCJ4
+        - id: cs_JQvqqfENnGhAnOIGU7ThYv
           claim_id: c_8sW5Pn9AQJbmYg9r8DWkzF
           source_id: s_ApdAZX4sYtGZbs8vpQTEZ1
           stance: supports
-          locator: null
+          locator: CBDB:636972
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王如瀚 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王如瀚，清人物。籍贯寧州，入仕貢生: 拔貢，曾任復設教諭。（中国历代人物传记资料库 CBDB 636972） | accepted |
 
 ## 关联关系
 

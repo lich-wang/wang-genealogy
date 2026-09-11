@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王景中（卒于853年），唐人物。籍贯并州。（中国历代人物传记资料库 CBDB 189362）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_vjBkp7XNvV43uzTjeJjDMq
+        - id: cs_Mli-PGTE0rC4z6Nvdff_6v
           claim_id: c_vDr5Xd9ogz5sfuqPHgasx2
           source_id: s_Te9wA7d9diAwHF2g8MmSGJ
           stance: supports
-          locator: null
+          locator: CBDB:189362
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -157,7 +157,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王景中 | accepted |
 | death.date | 853年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王景中（卒于853年），唐人物。籍贯并州。（中国历代人物传记资料库 CBDB 189362） | accepted |
 
 ## 关联关系
 

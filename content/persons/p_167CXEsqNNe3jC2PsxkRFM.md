@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王文質，宋人物。籍贯涇縣，入仕進士。（中国历代人物传记资料库 CBDB 687262）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_4Lnp41Edse9MfpWyXKiNEr
+        - id: cs_isb0Pf6ZQpzj2wYxHOMlHS
           claim_id: c_rZR5CphCBPs51grzJSvHKW
           source_id: s_uaSLWRR4gpy4DLbsicEsfe
           stance: supports
-          locator: null
+          locator: CBDB:687262
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王文質 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王文質，宋人物。籍贯涇縣，入仕進士。（中国历代人物传记资料库 CBDB 687262） | accepted |
 
 ## 关联关系
 

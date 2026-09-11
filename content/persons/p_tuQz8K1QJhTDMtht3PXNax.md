@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王浹，宋人物。籍贯錢塘，入仕封贈，曾任朝請郎、通判、尚書省刑部司門司郎中。（中国历代人物传记资料库 CBDB 23648）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_LJxx6KmStzDAHe2pbbzhqc
+        - id: cs_ipZfdi1riYtXnBYC-wRdk7
           claim_id: c_gK1TVj3Sv3bXCxa63ZZd87
           source_id: s_xWo8bK1WmAhKEr5zJ99FvF
           stance: supports
-          locator: null
+          locator: CBDB:23648
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -191,7 +191,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王浹 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王浹，宋人物。籍贯錢塘，入仕封贈，曾任朝請郎、通判、尚書省刑部司門司郎中。（中国历代人物传记资料库 CBDB 23648） | accepted |
 
 ## 关联关系
 

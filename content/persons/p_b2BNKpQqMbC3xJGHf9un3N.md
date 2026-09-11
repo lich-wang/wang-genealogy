@@ -76,11 +76,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: Song dynasty person CBDB = 1855
-          language: en
+          text: 王明（919年—991年），宋人物。籍贯成安，入仕薦舉 (保任,保舉)，曾任三司使、刺史、禮部侍郎。（中国历代人物传记资料库 CBDB 1855）
+          language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
         - id: cs_ofKM1M4wQWzdbZZSZGMrwq
           claim_id: c_1eWpBpJ1CaTXLo3qGC77fX
@@ -90,6 +90,14 @@ properties:
           quotation: null
           interpretation_note: 维基数据条目描述
           source: *a1
+        - id: cs_oWUeqX3gLO5Pap_b4Q_o_I
+          claim_id: c_1eWpBpJ1CaTXLo3qGC77fX
+          source_id: s_aL4EcP94aV8eKfMQDR86hi
+          stance: supports
+          locator: CBDB:1855
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: *a2
       object_person: null
     alternatives: []
   - predicate: birth.date
@@ -303,7 +311,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王明 | accepted |
-| bio.summary | Song dynasty person CBDB = 1855 | accepted |
+| bio.summary | 王明（919年—991年），宋人物。籍贯成安，入仕薦舉 (保任,保舉)，曾任三司使、刺史、禮部侍郎。（中国历代人物传记资料库 CBDB 1855） | accepted |
 | birth.date | 919年 | accepted |
 | death.date | 991年 | accepted |
 

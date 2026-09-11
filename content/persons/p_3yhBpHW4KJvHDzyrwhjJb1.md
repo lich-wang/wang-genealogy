@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
-          language: zh-Hans
+          text: 王善（1306年—1368年），元人物。籍贯金谿，身份为拒絕出仕，入仕薦舉 (保任,保舉)，曾任諸路總管府醫學正、稅課使。（中国历代人物传记资料库 CBDB 100816）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_8b57SpZnHwm3Mp5bHktwB6
+        - id: cs_TqhBDVnkM3oLj41_qOFFQy
           claim_id: c_ebcfXG5dHvwTqBjid5KS6n
           source_id: s_YcDLS6B4X8kBJUZGxGYTBP
           stance: supports
-          locator: null
+          locator: CBDB:100816
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王善 | accepted |
 | birth.date | 1306年 | accepted |
 | death.date | 1368年 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王善（1306年—1368年），元人物。籍贯金谿，身份为拒絕出仕，入仕薦舉 (保任,保舉)，曾任諸路總管府醫學正、稅課使。（中国历代人物传记资料库 CBDB 100816） | accepted |
 
 ## 关联关系
 

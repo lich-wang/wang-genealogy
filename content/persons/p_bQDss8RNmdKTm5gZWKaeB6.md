@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王歡悅（579年—652年），史料所见人物。本项目依据《中国历代人物传记资料库：王歡悅（CBDB 142420）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_PoYyKLbaCj8eZcmS6QGz2W
+        - id: cs_QmvoxUyXn2R5TsiaRGXD92
           claim_id: c_EKq6H7CEkKuRgNkrLF43s6
           source_id: s_HDE53x1GWLgtQxBAMBP6rs
           stance: supports
-          locator: null
+          locator: CBDB:142420
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王歡悅 | accepted |
 | birth.date | 579年 | accepted |
 | death.date | 652年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王歡悅（579年—652年），史料所见人物。本项目依据《中国历代人物传记资料库：王歡悅（CBDB 142420）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
 
 ## 关联关系
 

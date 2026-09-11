@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王令高，明人物。曾任城守。（中国历代人物传记资料库 CBDB 563627）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_QwFyoSytoGQTZVYsDwFjMg
+        - id: cs_f3CZ7DUxpteWqS30kZosab
           claim_id: c_FuCunARXLcHFtbPCa2vkjK
           source_id: s_DWKMGV6s1Nz3MMk1h5SBYo
           stance: supports
-          locator: null
+          locator: CBDB:563627
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -128,7 +128,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王令高 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王令高，明人物。曾任城守。（中国历代人物传记资料库 CBDB 563627） | accepted |
 
 ## 关联关系
 

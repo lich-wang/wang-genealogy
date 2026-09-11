@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王孫（600年—661年），唐人物。籍贯偃師。（中国历代人物传记资料库 CBDB 139245）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_ExUHYEQiBSCKyLSXR4jH9s
+        - id: cs_YFubZUg3GQdjQdVMrr_DxL
           claim_id: c_fK4LcPsgoKxrzPWnV3KDny
           source_id: s_CFcqEs9yKCPDN49b8NohWb
           stance: supports
-          locator: null
+          locator: CBDB:139245
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -186,7 +186,7 @@ relationships:
 | name.primary | 王孫 | accepted |
 | birth.date | 600年 | accepted |
 | death.date | 661年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王孫（600年—661年），唐人物。籍贯偃師。（中国历代人物传记资料库 CBDB 139245） | accepted |
 
 ## 关联关系
 

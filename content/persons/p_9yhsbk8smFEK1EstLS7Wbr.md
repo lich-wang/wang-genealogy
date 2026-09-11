@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王䤴（生于1626年），清人物。籍贯朝邑。（中国历代人物传记资料库 CBDB 71253）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_EHPDfeQcxCcTsFHqL1wZbR
+        - id: cs_HusqIuIa2DJfqLPoHApW6p
           claim_id: c_Db9zFLRZ3MWKtbNeVs3gEE
           source_id: s_fUSeTz2yi1yKGfmR5UXy1J
           stance: supports
-          locator: null
+          locator: CBDB:71253
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王䤴 | accepted |
 | birth.date | 1626年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王䤴（生于1626年），清人物。籍贯朝邑。（中国历代人物传记资料库 CBDB 71253） | accepted |
 
 ## 关联关系
 

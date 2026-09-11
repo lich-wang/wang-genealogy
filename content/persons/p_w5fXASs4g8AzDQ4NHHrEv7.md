@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王湧，明人物。萬曆二年進士，籍贯南城，入仕監生。（中国历代人物传记资料库 CBDB 213978）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_AL2KN62vEANzL3CJxc3j8V
+        - id: cs_8EUG7nTUELoaUUHg2XRFK0
           claim_id: c_4qGLxEHDH8xay5bAPDt7P2
           source_id: s_fFP76qM8mRHfLkqmZSpu9Q
           stance: supports
-          locator: null
+          locator: CBDB:213978
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王湧 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王湧，明人物。萬曆二年進士，籍贯南城，入仕監生。（中国历代人物传记资料库 CBDB 213978） | accepted |
 
 ## 关联关系
 

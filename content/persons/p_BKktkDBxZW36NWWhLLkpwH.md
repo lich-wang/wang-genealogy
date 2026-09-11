@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王發，宋人物。籍贯洛陽，曾任太子太保、太子太師。（中国历代人物传记资料库 CBDB 3950）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_HQVeGQwexvTpJPgCiGaKC8
+        - id: cs_TZQjQIs86BWDgGJjZT2AAj
           claim_id: c_QxdMv1D7HoCHVavkqEFKPh
           source_id: s_K4cAAPq3xBP2LsGZ8g8G9a
           stance: supports
-          locator: null
+          locator: CBDB:3950
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -180,7 +180,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王發 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王發，宋人物。籍贯洛陽，曾任太子太保、太子太師。（中国历代人物传记资料库 CBDB 3950） | accepted |
 
 ## 关联关系
 

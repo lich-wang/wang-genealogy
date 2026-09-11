@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王國瑄，清人物。籍贯江陵，入仕監生，曾任照磨。（中国历代人物传记资料库 CBDB 636640）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_aip1z2m7PQP693W6VWVf5K
+        - id: cs_qnEvOEuWGB8pNaeqxrtu6o
           claim_id: c_YEbYFPyvYJ2R29XB44PiBF
           source_id: s_1VUGc1P7Be8V4rqmuCo4iM
           stance: supports
-          locator: null
+          locator: CBDB:636640
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王國瑄 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王國瑄，清人物。籍贯江陵，入仕監生，曾任照磨。（中国历代人物传记资料库 CBDB 636640） | accepted |
 
 ## 关联关系
 

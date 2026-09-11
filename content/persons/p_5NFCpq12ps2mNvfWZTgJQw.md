@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王麟書，清人物。入仕進士，曾任教授。（中国历代人物传记资料库 CBDB 500487）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_9PEVWLvFi7E6Mt8pN1gvgA
+        - id: cs_cRkAHVzzYCataBvchcp7r5
           claim_id: c_ykz13N2WSjFKQEWWBJYsSf
           source_id: s_C2cBG56K2Z5F2fJgNaDsfC
           stance: supports
-          locator: null
+          locator: CBDB:500487
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王麟書 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王麟書，清人物。入仕進士，曾任教授。（中国历代人物传记资料库 CBDB 500487） | accepted |
 
 ## 关联关系
 

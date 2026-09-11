@@ -7,6 +7,44 @@ display_name: 杜氏
 revision: 1
 cbdb_id: 557747
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_v_RBM25IwCnP98gFGPyxSs
+        subject_person_id: p_aF5gF1BoWgSyykjdWzUJCX
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 杜氏，清人物。籍贯信陽州。（中国历代人物传记资料库 CBDB 557747）
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_W6Qnnl8c-TyFG1IcOB3VMR
+          claim_id: c_v_RBM25IwCnP98gFGPyxSs
+          source_id: s_BIr2H5OIAbRIdA8w5vZjnG
+          stance: supports
+          locator: CBDB:557747
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_BIr2H5OIAbRIdA8w5vZjnG
+            source_type: api_record
+            title: 中国历代人物传记资料库：杜氏(王靖妻)（CBDB 557747）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=557747&o=json
+            external_identifier: CBDB:557747
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:557747
           quotation: null
           interpretation_note: CBDB 明确记录的王靖配偶
-          source: &a1
-            id: s_BIr2H5OIAbRIdA8w5vZjnG
-            source_type: api_record
-            title: 中国历代人物传记资料库：杜氏(王靖妻)（CBDB 557747）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=557747&o=json
-            external_identifier: CBDB:557747
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 杜氏，清人物。籍贯信陽州。（中国历代人物传记资料库 CBDB 557747） | accepted |
 | name.primary | 杜氏 | accepted |
 
 ## 关联关系

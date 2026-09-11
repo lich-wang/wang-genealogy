@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
+          text: 王和卿，元人物。籍贯大名路。（中国历代人物传记资料库 CBDB 101231）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_93rJ6uNSaWoRXPhba7MtQ2
+        - id: cs_TbYr9dF70gCXSdJ6geSRX8
           claim_id: c_DFjk1xb39pNHe6RAJbhU4Y
           source_id: s_1Ztqsn45KgKLRnNouVPwQN
           stance: supports
-          locator: null
+          locator: CBDB:101231
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王和卿 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王和卿，元人物。籍贯大名路。（中国历代人物传记资料库 CBDB 101231） | accepted |
 
 ## 关联关系
 

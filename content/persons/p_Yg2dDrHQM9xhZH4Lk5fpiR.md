@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王璣，清人物。籍贯秀水，入仕監生，曾任通政使、縣知縣。（中国历代人物传记资料库 CBDB 61216）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_QLAYpvDsKcNfZFFQ2egEna
+        - id: cs_Gvdyp7IiGkogcEE4jOxdjP
           claim_id: c_3EMP5ERdBhv23ESEMQVZW4
           source_id: s_BZfLR8uFGPvZX7ZrCAJeRk
           stance: supports
-          locator: null
+          locator: CBDB:61216
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王璣 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王璣，清人物。籍贯秀水，入仕監生，曾任通政使、縣知縣。（中国历代人物传记资料库 CBDB 61216） | accepted |
 
 ## 关联关系
 

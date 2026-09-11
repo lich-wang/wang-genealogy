@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王繼之，明人物。嘉靖十一年進士，籍贯南充，曾任刑部廣西司員外郎。（中国历代人物传记资料库 CBDB 290828）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_KtBU54cVUB5F4gf7AMcCsJ
+        - id: cs_OAJgG0eYYYAbBjC4Qrf_WH
           claim_id: c_8YhWbx1VnGS83gAux937hE
           source_id: s_cSaQKEBPtqnM6TA1H5wCvx
           stance: supports
-          locator: null
+          locator: CBDB:290828
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王繼之 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王繼之，明人物。嘉靖十一年進士，籍贯南充，曾任刑部廣西司員外郎。（中国历代人物传记资料库 CBDB 290828） | accepted |
 
 ## 关联关系
 

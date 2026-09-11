@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王思訥（卒于695年），唐人物。籍贯太原，曾任文林郎、治中、檢校果毅。（中国历代人物传记资料库 CBDB 139983）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_3JDC6Na51RFxdWC7adeMpb
+        - id: cs_sa7zHbz5kdUXsIg61Y9hRA
           claim_id: c_ovkgamBdMCEQ6BXwsuucS6
           source_id: s_qyXWu18LpCH4nNUUHkbWpk
           stance: supports
-          locator: null
+          locator: CBDB:139983
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -235,7 +235,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王思訥 | accepted |
 | death.date | 695年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王思訥（卒于695年），唐人物。籍贯太原，曾任文林郎、治中、檢校果毅。（中国历代人物传记资料库 CBDB 139983） | accepted |
 
 ## 关联关系
 

@@ -7,6 +7,44 @@ display_name: 钱大昕
 cbdb_id: 29876
 revision: 3
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_5P61DSt3_dbpUR7Wu_aH4u
+        subject_person_id: p_dnPtsKEtjAp3Do6nrbinqW
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 钱大昕（1728—1804），清人物。明清進士進士，籍贯嘉定，身份为考據學家，入仕進士。（中国历代人物传记资料库 CBDB 29876）
+          language: zh-Hant
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_p37INPCLQqJlc-Lz-tinyh
+          claim_id: c_5P61DSt3_dbpUR7Wu_aH4u
+          source_id: s_zaPd5CHsDUebGWSUJkAa3A
+          stance: supports
+          locator: CBDB:29876
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_zaPd5CHsDUebGWSUJkAa3A
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：錢大昕（29876）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=29876&o=json
+            external_identifier: CBDB:29876
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,7 +69,7 @@ properties:
           locator: Q7267607
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source: &a1
+          source: &a2
             id: s_dYAE54FmUNRPo5AtB1YWTG
             source_type: api_record
             title: 维基数据：钱大昕（Q7267607）
@@ -51,18 +89,7 @@ properties:
           locator: CBDB:29876
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source: &a2
-            id: s_zaPd5CHsDUebGWSUJkAa3A
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：錢大昕（29876）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=29876&o=json
-            external_identifier: CBDB:29876
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T08:06:50.055Z
-            metadata_json: null
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -110,7 +137,7 @@ relationships:
           locator: P26（配偶）
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: *a2
         - id: cs_uVAK23mdJwC7WxiKBEWgpk
           claim_id: c_CuYwRT7XLtGvVFynNLvReU
           source_id: s_jZB5k3KHwHVFfuJ247VX9g
@@ -155,7 +182,7 @@ relationships:
           locator: 亲属关系：妻子
           quotation: null
           interpretation_note: CBDB 注明此条来源：人名權威資料（中央研究院歷史語言研究所）
-          source: *a2
+          source: *a1
       object_person:
         id: p_Jun3pZ1BMQpwyok4KhGLAv
         status: active
@@ -212,6 +239,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 钱大昕（1728—1804），清人物。明清進士進士，籍贯嘉定，身份为考據學家，入仕進士。（中国历代人物传记资料库 CBDB 29876） | accepted |
 | name.primary | 钱大昕 | accepted |
 
 ## 关联关系

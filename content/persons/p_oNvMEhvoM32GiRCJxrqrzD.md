@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王感化，唐人物。籍贯建州，身份为詩人。（中国历代人物传记资料库 CBDB 92102）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_UtKMVC8pQmiycZ73WpNtgQ
+        - id: cs_xwBrmHckh4ApZdM0F14Ie2
           claim_id: c_MJpLB768TiHaa4tm7cQMDG
           source_id: s_Wf7QRK5L3YUChcajjc73bs
           stance: supports
-          locator: null
+          locator: CBDB:92102
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王感化 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王感化，唐人物。籍贯建州，身份为詩人。（中国历代人物传记资料库 CBDB 92102） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
-          language: zh-Hans
+          text: 王壽朋，元人物。曾任諸路總管府學錄。（中国历代人物传记资料库 CBDB 101395）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_omtMJ7PnosHVr5k9subdk8
+        - id: cs_LM3bBA05GKEvaU1L0xYO1l
           claim_id: c_wrU8eJUj2v21U4q14yN48T
           source_id: s_x9S9uFPTzA7An5MjsySATF
           stance: supports
-          locator: null
+          locator: CBDB:101395
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王壽朋 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王壽朋，元人物。曾任諸路總管府學錄。（中国历代人物传记资料库 CBDB 101395） | accepted |
 
 ## 关联关系
 

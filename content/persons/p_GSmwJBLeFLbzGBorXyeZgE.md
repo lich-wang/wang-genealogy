@@ -75,11 +75,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: Ming dynasty person CBDB = 261818
-          language: en
+          text: 王可旺，明人物。弘治三年進士。（中国历代人物传记资料库 CBDB 261818）
+          language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
         - id: cs_5isABNyzDA1RLUKAosRrBz
           claim_id: c_LE46rQpszbvkMCHb5i7Q6Q
@@ -89,6 +89,14 @@ properties:
           quotation: null
           interpretation_note: 维基数据条目描述
           source: *a1
+        - id: cs_XaWB5HbhHqqh_-IISlPI9-
+          claim_id: c_LE46rQpszbvkMCHb5i7Q6Q
+          source_id: s_v6s8eYTN6QA5swzJ6vY6HW
+          stance: supports
+          locator: CBDB:261818
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: *a2
       object_person: null
     alternatives: []
 relationships:
@@ -182,7 +190,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王可旺 | accepted |
-| bio.summary | Ming dynasty person CBDB = 261818 | accepted |
+| bio.summary | 王可旺，明人物。弘治三年進士。（中国历代人物传记资料库 CBDB 261818） | accepted |
 
 ## 关联关系
 

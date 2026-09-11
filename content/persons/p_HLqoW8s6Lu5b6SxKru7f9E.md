@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王建言（生于1833年），清人物。籍贯博山。（中国历代人物传记资料库 CBDB 71822）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_ACErC61JBf81DDgmeoDn2q
+        - id: cs_PXZ3Pb7K5BMpnUOmxDS-gf
           claim_id: c_iGS5BRrQa1vNZkD3sFUfkn
           source_id: s_L31Lw2RegRvV2k98CESwiP
           stance: supports
-          locator: null
+          locator: CBDB:71822
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王建言 | accepted |
 | birth.date | 1833年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王建言（生于1833年），清人物。籍贯博山。（中国历代人物传记资料库 CBDB 71822） | accepted |
 
 ## 关联关系
 

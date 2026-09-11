@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王澄，清人物。籍贯歙縣，入仕鄉貢舉人，曾任府推官。（中国历代人物传记资料库 CBDB 573187）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_RGHBwfyWcfVw3DQ1TMGum3
+        - id: cs_gvx5hR93IdrUSMj-vCb72j
           claim_id: c_6pPSeKpVZeGVaCk33gP8FG
           source_id: s_bXVo2CDFDhbBuZjXMfxPA7
           stance: supports
-          locator: null
+          locator: CBDB:573187
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王澄 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王澄，清人物。籍贯歙縣，入仕鄉貢舉人，曾任府推官。（中国历代人物传记资料库 CBDB 573187） | accepted |
 
 ## 关联关系
 

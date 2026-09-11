@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王郊，明人物。曾任指揮使。（中国历代人物传记资料库 CBDB 415516）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_cMqdwwiuF9LQFrPQJs1Axr
+        - id: cs_I83DFZfcEg8ow10ekv0NR8
           claim_id: c_6pj2958agooU97FH64zygs
           source_id: s_EoE33nGZmnTPWd3TrYSEz7
           stance: supports
-          locator: null
+          locator: CBDB:415516
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王郊 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王郊，明人物。曾任指揮使。（中国历代人物传记资料库 CBDB 415516） | accepted |
 
 ## 关联关系
 

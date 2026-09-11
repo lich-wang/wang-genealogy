@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王麟祥，清人物。明清進士進士，籍贯榮河，入仕進士。（中国历代人物传记资料库 CBDB 341706）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_V9LvJU6DG1zN9vKUmfkbNc
+        - id: cs_chpUGfWml8DZCAEDga8ggr
           claim_id: c_ZEzB87DH2GaxN954aKkPWV
           source_id: s_r7cb57mt5CR18KrfRJzq4L
           stance: supports
-          locator: null
+          locator: CBDB:341706
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王麟祥 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王麟祥，清人物。明清進士進士，籍贯榮河，入仕進士。（中国历代人物传记资料库 CBDB 341706） | accepted |
 
 ## 关联关系
 

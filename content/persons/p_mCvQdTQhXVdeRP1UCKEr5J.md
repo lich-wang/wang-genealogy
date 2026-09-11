@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王猷，清人物。明清進士進士，籍贯義州，入仕進士，曾任檢討、吏部主事、同考官。（中国历代人物传记资料库 CBDB 343789）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_J8rqKpAFZKeEv2KQpZeCRg
+        - id: cs_83eR6HErkUprP6ht9MlLK2
           claim_id: c_fDACrELULp4ZHDyX3kQCaJ
           source_id: s_6xkfUEJZrswm8B5qDJUTY1
           stance: supports
-          locator: null
+          locator: CBDB:343789
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王猷 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王猷，清人物。明清進士進士，籍贯義州，入仕進士，曾任檢討、吏部主事、同考官。（中国历代人物传记资料库 CBDB 343789） | accepted |
 
 ## 关联关系
 

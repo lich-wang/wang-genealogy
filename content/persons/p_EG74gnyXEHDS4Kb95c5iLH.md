@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王士澣，清人物。曾任海防同知。（中国历代人物传记资料库 CBDB 494606）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_KAfRnbFQD5jHzpGJVYjcGe
+        - id: cs_XD2xr_BG0fL1-rpy1K6-NR
           claim_id: c_P3eHTbtU5tMKS5JUYmHjod
           source_id: s_8NZjRuBeJCA9D2L225s4K1
           stance: supports
-          locator: null
+          locator: CBDB:494606
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王士澣 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王士澣，清人物。曾任海防同知。（中国历代人物传记资料库 CBDB 494606） | accepted |
 
 ## 关联关系
 

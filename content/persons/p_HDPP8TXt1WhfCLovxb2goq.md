@@ -7,6 +7,44 @@ display_name: 李氏
 revision: 1
 cbdb_id: 229669
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_kXyxKmauFeHf9r5kI0keF_
+        subject_person_id: p_HDPP8TXt1WhfCLovxb2goq
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 李氏，明人物。萬曆丙戌科進士進士。（中国历代人物传记资料库 CBDB 229669）
+          language: zh-Hant
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GaHK-1GZZJ_JYnKET3wEm2
+          claim_id: c_kXyxKmauFeHf9r5kI0keF_
+          source_id: s_lrlqXzDW2J5Ip7fpN6kXUv
+          stance: supports
+          locator: CBDB:229669
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_lrlqXzDW2J5Ip7fpN6kXUv
+            source_type: api_record
+            title: 中国历代人物传记资料库：李氏(王嘉謨妻)（CBDB 229669）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=229669&o=json
+            external_identifier: CBDB:229669
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:229669
           quotation: null
           interpretation_note: CBDB 明确记录的王嘉謨配偶
-          source: &a1
-            id: s_lrlqXzDW2J5Ip7fpN6kXUv
-            source_type: api_record
-            title: 中国历代人物传记资料库：李氏(王嘉謨妻)（CBDB 229669）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=229669&o=json
-            external_identifier: CBDB:229669
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 李氏，明人物。萬曆丙戌科進士進士。（中国历代人物传记资料库 CBDB 229669） | accepted |
 | name.primary | 李氏 | accepted |
 
 ## 关联关系

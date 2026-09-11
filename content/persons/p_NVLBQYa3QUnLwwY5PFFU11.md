@@ -50,7 +50,7 @@ properties:
           locator: CBDB:262446
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source:
+          source: &a2
             id: s_XLPcmSCtiyP4kEqCfR5Nvg
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：王昇（262446）
@@ -75,11 +75,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: Ming dynasty person CBDB = 262446
-          language: en
+          text: 王升，明人物。弘治三年進士。（中国历代人物传记资料库 CBDB 262446）
+          language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
         - id: cs_Wa9sN2FgpfXvHh8YbTuTbT
           claim_id: c_2YGmvAj3GQw32zhmQ3H1Xv
@@ -89,6 +89,14 @@ properties:
           quotation: null
           interpretation_note: 维基数据条目描述
           source: *a1
+        - id: cs_LAJA9gTFHJ6OLWedG--E-5
+          claim_id: c_2YGmvAj3GQw32zhmQ3H1Xv
+          source_id: s_XLPcmSCtiyP4kEqCfR5Nvg
+          stance: supports
+          locator: CBDB:262446
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: *a2
       object_person: null
     alternatives: []
 relationships:
@@ -193,7 +201,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王升 | accepted |
-| bio.summary | Ming dynasty person CBDB = 262446 | accepted |
+| bio.summary | 王升，明人物。弘治三年進士。（中国历代人物传记资料库 CBDB 262446） | accepted |
 
 ## 关联关系
 

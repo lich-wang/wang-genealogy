@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王承憲，明人物。籍贯楚雄衛，曾任衛指揮、遊擊將軍。（中国历代人物传记资料库 CBDB 126569）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_VZT3Z4KWMzVPfkjaXRQDx7
+        - id: cs_bvYeGo-o2heAd6S35KJCKQ
           claim_id: c_EfKvqPdVBVxnEht4zbJpgN
           source_id: s_2heQhbzW9qa6MJfWfAq2FN
           stance: supports
-          locator: null
+          locator: CBDB:126569
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王承憲 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王承憲，明人物。籍贯楚雄衛，曾任衛指揮、遊擊將軍。（中国历代人物传记资料库 CBDB 126569） | accepted |
 
 ## 关联关系
 

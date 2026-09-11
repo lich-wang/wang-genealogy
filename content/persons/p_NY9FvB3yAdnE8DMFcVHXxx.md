@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王炎（卒于819年），唐人物。籍贯江都，身份为詩人，曾任太常博士。（中国历代人物传记资料库 CBDB 175923）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_iTndBzDFTR2WBLEVPZpxfF
+        - id: cs_QGrIqDaVg9j3HvqZqw3c0S
           claim_id: c_wKKGNL1P4dP8WRFMvC5uMD
           source_id: s_uPnJA8KPScMDPBDNh8XtsG
           stance: supports
-          locator: null
+          locator: CBDB:175923
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -194,7 +194,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王炎 | accepted |
 | death.date | 819年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王炎（卒于819年），唐人物。籍贯江都，身份为詩人，曾任太常博士。（中国历代人物传记资料库 CBDB 175923） | accepted |
 
 ## 关联关系
 

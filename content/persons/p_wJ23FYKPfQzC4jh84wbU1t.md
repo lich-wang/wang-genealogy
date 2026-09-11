@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王寅，明人物。成化十七年進士，籍贯膚施。（中国历代人物传记资料库 CBDB 257015）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_TU9cki9XkV2kceXJuAj3gx
+        - id: cs_cFerAFkDTwLIW4vz_O8adV
           claim_id: c_4nc8RjEYbA8xE5efd2v3DW
           source_id: s_Q8LkncHjQUkrtizLf1siNA
           stance: supports
-          locator: null
+          locator: CBDB:257015
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王寅 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王寅，明人物。成化十七年進士，籍贯膚施。（中国历代人物传记资料库 CBDB 257015） | accepted |
 
 ## 关联关系
 

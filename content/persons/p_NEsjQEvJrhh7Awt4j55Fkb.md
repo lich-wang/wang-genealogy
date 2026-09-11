@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
-          language: zh-Hans
+          text: 王思誠（1291年—1357年），元人物。籍贯兗州，入仕進士，曾任兵部侍郎、國子監國子祭酒、國子監國子司業二員。（中国历代人物传记资料库 CBDB 101284）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_TtJrQzEexGfgxFTN9En5oJ
+        - id: cs_ZdOSLAuRsxuDMuhzH0ownR
           claim_id: c_yZ7BiT5dGWKBDyn1p5BxJU
           source_id: s_cQYfomi8PQkdoqMJfuBaRt
           stance: supports
-          locator: null
+          locator: CBDB:101284
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王思誠 | accepted |
 | birth.date | 1291年 | accepted |
 | death.date | 1357年 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王思誠（1291年—1357年），元人物。籍贯兗州，入仕進士，曾任兵部侍郎、國子監國子祭酒、國子監國子司業二員。（中国历代人物传记资料库 CBDB 101284） | accepted |
 
 ## 关联关系
 

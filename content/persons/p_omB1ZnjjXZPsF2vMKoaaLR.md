@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王定國，宋人物。籍贯陽曲。（中国历代人物传记资料库 CBDB 45900）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_MhxAvfk8qGd5yCQTckV6k7
+        - id: cs_EqdMY0w_Tw_7JgFzQ7YkF3
           claim_id: c_JRaEHnRogKxe6kHsQfjFK8
           source_id: s_EwirNhGjV84RM7Hj4irCGo
           stance: supports
-          locator: null
+          locator: CBDB:45900
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王定國 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王定國，宋人物。籍贯陽曲。（中国历代人物传记资料库 CBDB 45900） | accepted |
 
 ## 关联关系
 

@@ -7,6 +7,44 @@ display_name: 李氏
 cbdb_id: 135652
 revision: 2
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_-bum2MxmP7yyH_pYTsvQLA
+        subject_person_id: p_bMELRsJ3QjTLhaTLLi9E2N
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 李氏，史料所见人物。本项目依据《李氏》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vWI4V9Q0kBySbOVvlbCQzT
+          claim_id: c_-bum2MxmP7yyH_pYTsvQLA
+          source_id: s_95bXKPpoB2a5jQjTK4kvvP
+          stance: supports
+          locator: Q65801416
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          source: &a1
+            id: s_95bXKPpoB2a5jQjTK4kvvP
+            source_type: api_record
+            title: 维基数据：李氏（Q65801416）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q65801416
+            external_identifier: Q65801416
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: Q65801416
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source: &a2
-            id: s_95bXKPpoB2a5jQjTK4kvvP
-            source_type: api_record
-            title: 维基数据：李氏（Q65801416）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q65801416
-            external_identifier: Q65801416
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T08:06:50.055Z
-            metadata_json: null
+          source: *a1
         - id: cs_gqX4BGEAmvxRn7oP5zhxRN
           claim_id: c_ZEUaVgzaTbsDtNWpB9pCQK
           source_id: s_fdsV8tkVtKvNdGKmeGdswW
@@ -50,7 +77,7 @@ properties:
           locator: CBDB:135652
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source: &a1
+          source: &a2
             id: s_fdsV8tkVtKvNdGKmeGdswW
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：李氏（135652）
@@ -87,7 +114,7 @@ relationships:
           locator: "明清婦女著作數據庫，MQWW PoetID #3251：子"
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
+          source: *a2
       object_person:
         id: p_dpxJ79yjeoZcbwCdkzQmv6
         status: active
@@ -116,7 +143,7 @@ relationships:
           locator: P26（配偶）
           quotation: null
           interpretation_note: null
-          source: *a2
+          source: *a1
         - id: cs_oxCMKoEa5ttJg9TwyFraVp
           claim_id: c_42HjzJdcdWhiVfKre74hcj
           source_id: s_5364Pc1QEFgx1FqUbtfHiC
@@ -174,6 +201,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 李氏，史料所见人物。本项目依据《李氏》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
 | name.primary | 李氏 | accepted |
 
 ## 关联关系

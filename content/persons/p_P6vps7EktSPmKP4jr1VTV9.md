@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王積善，明人物。景泰五年進士。（中国历代人物传记资料库 CBDB 265004）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_MUss5KEPDAxdKFMAGJ3uc5
+        - id: cs_tGKa1Ql0-7vQn9UNAqqG7C
           claim_id: c_BkGb93VH72N6aUCFZHyhyH
           source_id: s_2DiQBERtqDt4wMQ6hRcW4h
           stance: supports
-          locator: null
+          locator: CBDB:265004
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王積善 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王積善，明人物。景泰五年進士。（中国历代人物传记资料库 CBDB 265004） | accepted |
 
 ## 关联关系
 

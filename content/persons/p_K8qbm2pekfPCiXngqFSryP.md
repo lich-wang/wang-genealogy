@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王友雲，明人物。籍贯錢塘，身份为畫家。（中国历代人物传记资料库 CBDB 561078）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_1gkm8LMa9k6LAXLV5GHN5Q
+        - id: cs_MWS1-LFuYOQjGm1H3Dn1Mq
           claim_id: c_su5igc19MQubRW8K9HAyG5
           source_id: s_UsdkKXx2FBhKqgSVkiCEUj
           stance: supports
-          locator: null
+          locator: CBDB:561078
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王友雲 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王友雲，明人物。籍贯錢塘，身份为畫家。（中国历代人物传记资料库 CBDB 561078） | accepted |
 
 ## 关联关系
 

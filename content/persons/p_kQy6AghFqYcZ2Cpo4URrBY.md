@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王夣卜，清人物。籍贯固始。（中国历代人物传记资料库 CBDB 683521）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_FiAvFqvHuacX4m9N8zxK7x
+        - id: cs_5NoiDnRXj-t5m8bSAUsToJ
           claim_id: c_ZuQqT184o87uq4HfRwLywg
           source_id: s_HJUy4AEVfWnhG2HjbCStQf
           stance: supports
-          locator: null
+          locator: CBDB:683521
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王夣卜 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王夣卜，清人物。籍贯固始。（中国历代人物传记资料库 CBDB 683521） | accepted |
 
 ## 关联关系
 

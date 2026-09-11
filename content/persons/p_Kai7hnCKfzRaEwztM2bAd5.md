@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王文雄（1749年—1800年），清人物。籍贯玉屏，入仕募入軍伍，曾任協中軍都司、鎮標中軍遊擊、鎮總兵。（中国历代人物传记资料库 CBDB 65274）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Newg4nW2t9iiMoTFF2mPN3
+        - id: cs_xM2qp4LYVUKOTVMsLjYXlK
           claim_id: c_kksLbzbPoCsfU4z5uX63Ct
           source_id: s_3jG4r3SaSNosAQn5tUXs3g
           stance: supports
-          locator: null
+          locator: CBDB:65274
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -175,7 +175,7 @@ relationships:
 | name.primary | 王文雄 | accepted |
 | birth.date | 1749年 | accepted |
 | death.date | 1800年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王文雄（1749年—1800年），清人物。籍贯玉屏，入仕募入軍伍，曾任協中軍都司、鎮標中軍遊擊、鎮總兵。（中国历代人物传记资料库 CBDB 65274） | accepted |
 
 ## 关联关系
 

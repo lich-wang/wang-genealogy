@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王天成，宋人物。籍贯長安。（中国历代人物传记资料库 CBDB 24047）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_DQfL9neRStYtG2QS84Ey6L
+        - id: cs_js6Z6pMARqDJW7FT8HSD2m
           claim_id: c_eVQXoq5QJcg3m8L2RsxzTv
           source_id: s_LfGPEoMmAwU52rMK61e23p
           stance: supports
-          locator: null
+          locator: CBDB:24047
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -143,7 +143,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王天成 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王天成，宋人物。籍贯長安。（中国历代人物传记资料库 CBDB 24047） | accepted |
 
 ## 关联关系
 

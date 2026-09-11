@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
-          language: zh-Hans
+          text: 王元（1278年—1356年），元人物。籍贯長洲。（中国历代人物传记资料库 CBDB 100632）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_RMZ3qCX8Zwt9FMgkvmDoGk
+        - id: cs_XKAf5sU6NKhPM7nJY6auAj
           claim_id: c_rx9dJBnq68KAcW6FwW5wQd
           source_id: s_mLDCfpRqRVQxGTBMVcdQNr
           stance: supports
-          locator: null
+          locator: CBDB:100632
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王元 | accepted |
 | birth.date | 1278年 | accepted |
 | death.date | 1356年 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王元（1278年—1356年），元人物。籍贯長洲。（中国历代人物传记资料库 CBDB 100632） | accepted |
 
 ## 关联关系
 

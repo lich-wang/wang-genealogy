@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
+          text: 王君用（卒于1319年），元人物。籍贯衛輝路，曾任下百戶所百戶。（中国历代人物传记资料库 CBDB 101208）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Zc1wMMNAKKHUkt89TrVauk
+        - id: cs_DOqCzUXXs5pexDj-rwLY2p
           claim_id: c_LyfB8YSiBvuqk4GuwdXD4w
           source_id: s_fVkfBK2SSrPNJoe1n1zvuH
           stance: supports
-          locator: null
+          locator: CBDB:101208
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王君用 | accepted |
 | death.date | 1319年 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王君用（卒于1319年），元人物。籍贯衛輝路，曾任下百戶所百戶。（中国历代人物传记资料库 CBDB 101208） | accepted |
 
 ## 关联关系
 

@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王天培（生于1851年），清人物。籍贯富平。（中国历代人物传记资料库 CBDB 71369）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_AeSEbHTiiSA7Atmuqq2a1G
+        - id: cs_gi-PNVHChYKfyEh1aEQib_
           claim_id: c_UPEzi8DZqChTmTc8LcM8qJ
           source_id: s_ehLmhHAdBfUPdR8YDCE7gQ
           stance: supports
-          locator: null
+          locator: CBDB:71369
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王天培 | accepted |
 | birth.date | 1851年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王天培（生于1851年），清人物。籍贯富平。（中国历代人物传记资料库 CBDB 71369） | accepted |
 
 ## 关联关系
 

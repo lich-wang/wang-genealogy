@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王科，明人物。正德十六年進士，籍贯儀真。（中国历代人物传记资料库 CBDB 283105）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_xMvCJUUumQEGMMnqwPYTqt
+        - id: cs_3R62MY86Y__O_LRv5dYymp
           claim_id: c_s12tq9sLpuSAfum7kixcG6
           source_id: s_hGnAF6aSEkU88Y6fjiEmVK
           stance: supports
-          locator: null
+          locator: CBDB:283105
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王科 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王科，明人物。正德十六年進士，籍贯儀真。（中国历代人物传记资料库 CBDB 283105） | accepted |
 
 ## 关联关系
 

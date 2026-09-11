@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王鳳梧，清人物。籍贯嚴州府，入仕鄉貢舉人，曾任教諭。（中国历代人物传记资料库 CBDB 640934）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_iQHCsbNby8ptfGFzAsGUNC
+        - id: cs_rMEfNm5wnXjdtmBkjC6LQV
           claim_id: c_d4kPHqVQ9wyfBAqLM11hoJ
           source_id: s_kpGELqaVe9ywGtc4LZ2tCq
           stance: supports
-          locator: null
+          locator: CBDB:640934
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王鳳梧 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王鳳梧，清人物。籍贯嚴州府，入仕鄉貢舉人，曾任教諭。（中国历代人物传记资料库 CBDB 640934） | accepted |
 
 ## 关联关系
 

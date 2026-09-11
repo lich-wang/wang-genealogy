@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王庭芝，宋人物。籍贯西安，入仕進士。（中国历代人物传记资料库 CBDB 688335）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_uFod27tSEHQBVSBWhN168N
+        - id: cs_ZoynQV2MrA8T7NpKi4fmBz
           claim_id: c_bUf9MjSCbUagX8chcVGKJy
           source_id: s_SbuEoba6UPft6tRauCK3Wk
           stance: supports
-          locator: null
+          locator: CBDB:688335
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王庭芝 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王庭芝，宋人物。籍贯西安，入仕進士。（中国历代人物传记资料库 CBDB 688335） | accepted |
 
 ## 关联关系
 

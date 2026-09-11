@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王道平，清人物。曾任知縣。（中国历代人物传记资料库 CBDB 475848）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_wE6UoaEoPM81xFHmE7K1ty
+        - id: cs_ZLm4Iqo3-4TJ8qYMtWJOQI
           claim_id: c_6QN4dC6n9QqL1Uq7S3EHhS
           source_id: s_3mYswf8u3wnoMkw2sbUXfy
           stance: supports
-          locator: null
+          locator: CBDB:475848
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王道平 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王道平，清人物。曾任知縣。（中国历代人物传记资料库 CBDB 475848） | accepted |
 
 ## 关联关系
 

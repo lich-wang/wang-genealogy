@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王宗義，明人物。嘉靖二十六年進士，籍贯京山。（中国历代人物传记资料库 CBDB 311238）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_7uPiBcMpotwGooN8Y9WfGb
+        - id: cs_9VjdQytqUXnRs8PAXRB4fo
           claim_id: c_veQnnS4Shs5AYsmxNEaTti
           source_id: s_Foj6LCP9JjSi62rhAHkHoo
           stance: supports
-          locator: null
+          locator: CBDB:311238
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王宗義 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王宗義，明人物。嘉靖二十六年進士，籍贯京山。（中国历代人物传记资料库 CBDB 311238） | accepted |
 
 ## 关联关系
 

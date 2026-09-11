@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王極，宋人物。曾任太府寺主簿、國子監祭酒、監察御史。（中国历代人物传记资料库 CBDB 38440）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Hp9iipHFNhsWk7HxAbqqjG
+        - id: cs_nsGOq-NmznmPnq6tH7v0RK
           claim_id: c_J6r2iE6nHAdohcNDDtDTAK
           source_id: s_1AmE5QwQzoDVMWkBGLv1qR
           stance: supports
-          locator: null
+          locator: CBDB:38440
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王極 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王極，宋人物。曾任太府寺主簿、國子監祭酒、監察御史。（中国历代人物传记资料库 CBDB 38440） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王書昌，清人物。籍贯寧晉，曾任典史。（中国历代人物传记资料库 CBDB 638544）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_HBRKxgfs5gmQDgah7XBDr6
+        - id: cs_9c_o8UYin33vncOn-9-s6A
           claim_id: c_fJKRW1mVBWsNZX5N7AoDrJ
           source_id: s_Hp7oG6fqnz8cUeWioRDkD9
           stance: supports
-          locator: null
+          locator: CBDB:638544
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王書昌 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王書昌，清人物。籍贯寧晉，曾任典史。（中国历代人物传记资料库 CBDB 638544） | accepted |
 
 ## 关联关系
 

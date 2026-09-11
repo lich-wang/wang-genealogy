@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王嗚珂，清人物。籍贯寶坻，入仕鄉貢舉人，曾任撫民同知。（中国历代人物传记资料库 CBDB 636591）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_7P2PASWAkzPF3u8xyyCFwL
+        - id: cs_3Q9iXZjD1FWD8pv0bedioh
           claim_id: c_MCnp76EzRcb8jDb2cX2mZg
           source_id: s_neu3DvEsaD2ozcWK8D3NZy
           stance: supports
-          locator: null
+          locator: CBDB:636591
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王嗚珂 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王嗚珂，清人物。籍贯寶坻，入仕鄉貢舉人，曾任撫民同知。（中国历代人物传记资料库 CBDB 636591） | accepted |
 
 ## 关联关系
 

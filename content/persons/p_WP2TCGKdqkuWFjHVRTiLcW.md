@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王志堅（1576年—1633年），明人物。明清進士進士，籍贯崑山，入仕進士，曾任兵備道、兵部車駕司主事、郎中。（中国历代人物传记资料库 CBDB 126537）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_jqoRN4MqH1cMwFsZkm6AL4
+        - id: cs_3tvjN05LxBKzC3r8PP_YWB
           claim_id: c_P7Ffs5d74Kou1BvLwCa3Q3
           source_id: s_xsF6REjiRBUCa2YzLNGC5H
           stance: supports
-          locator: null
+          locator: CBDB:126537
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -372,7 +372,7 @@ relationships:
 | name.primary | 王志堅 | accepted |
 | birth.date | 1576年 | accepted |
 | death.date | 1633年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王志堅（1576年—1633年），明人物。明清進士進士，籍贯崑山，入仕進士，曾任兵備道、兵部車駕司主事、郎中。（中国历代人物传记资料库 CBDB 126537） | accepted |
 
 ## 关联关系
 

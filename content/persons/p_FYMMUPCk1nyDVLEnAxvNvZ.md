@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王暘，宋人物。籍贯東明，曾任提舉。（中国历代人物传记资料库 CBDB 1917）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_QxD3WszaG8KAggFg8WztRL
+        - id: cs_HLvc1tacGnRB6k6W7V7iU9
           claim_id: c_Xu71wa7HaED2V3Yt4uH2fF
           source_id: s_yGzf65FGMxrmj6msD5zQpM
           stance: supports
-          locator: null
+          locator: CBDB:1917
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王暘 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王暘，宋人物。籍贯東明，曾任提舉。（中国历代人物传记资料库 CBDB 1917） | accepted |
 
 ## 关联关系
 

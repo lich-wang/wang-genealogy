@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王護，唐人物。籍贯芒山，曾任郎將。（中国历代人物传记资料库 CBDB 148234）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_1PSw2AKBtA2XB7aH9REc8X
+        - id: cs_MHb029LNAEmvxddqyKuxp6
           claim_id: c_RMGP9j16nYvy5QZk7pd3Km
           source_id: s_saxoiudXHjQRD9wJfsQjzW
           stance: supports
-          locator: null
+          locator: CBDB:148234
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -128,7 +128,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王護 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王護，唐人物。籍贯芒山，曾任郎將。（中国历代人物传记资料库 CBDB 148234） | accepted |
 
 ## 关联关系
 

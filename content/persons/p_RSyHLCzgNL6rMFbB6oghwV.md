@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王朝佐（生于1214年），宋人物。寶祐進士，籍贯廬江，身份为經學家—易經，入仕進士。（中国历代人物传记资料库 CBDB 37986）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_eRKbUKzrJcUHqnwPCuZ6rK
+        - id: cs_06aBWw80B1uUvcqmR0q8Hw
           claim_id: c_QzPd2ejBiG4yHjP3PafUEm
           source_id: s_oRhH3CtDAGjqCQDcm1u8Y1
           stance: supports
-          locator: null
+          locator: CBDB:37986
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -194,7 +194,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王朝佐 | accepted |
 | birth.date | 1214年 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王朝佐（生于1214年），宋人物。寶祐進士，籍贯廬江，身份为經學家—易經，入仕進士。（中国历代人物传记资料库 CBDB 37986） | accepted |
 
 ## 关联关系
 

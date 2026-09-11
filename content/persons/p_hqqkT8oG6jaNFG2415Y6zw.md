@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王世卿，明人物。成化五年進士，籍贯廬陵。（中国历代人物传记资料库 CBDB 243247）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_5eKYJ7xgqh8Qk3ib1R3RUn
+        - id: cs_EBbOjqTu9va9-QeQF6hA-k
           claim_id: c_NrEwspPPyY2Zhn3ZURt7Ke
           source_id: s_fcPUKx6fw8Aq8Jth3y1gWa
           stance: supports
-          locator: null
+          locator: CBDB:243247
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王世卿 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王世卿，明人物。成化五年進士，籍贯廬陵。（中国历代人物传记资料库 CBDB 243247） | accepted |
 
 ## 关联关系
 

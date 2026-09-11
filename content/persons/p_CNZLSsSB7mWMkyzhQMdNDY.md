@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王天鳳，清人物。籍贯河間，入仕貢生 = 貢監生 (明清賓貢,功貢)，曾任復設教諭。（中国历代人物传记资料库 CBDB 636941）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_P2cXd5dEeCJ2fUGVF8BLSX
+        - id: cs_VQlHVTdnA_9zz6I9ZhVmPf
           claim_id: c_j2tCo9BQZGDZpxLfC1foj1
           source_id: s_YbmMbBdWmaxFS2JpXna66T
           stance: supports
-          locator: null
+          locator: CBDB:636941
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王天鳳 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王天鳳，清人物。籍贯河間，入仕貢生 = 貢監生 (明清賓貢,功貢)，曾任復設教諭。（中国历代人物传记资料库 CBDB 636941） | accepted |
 
 ## 关联关系
 

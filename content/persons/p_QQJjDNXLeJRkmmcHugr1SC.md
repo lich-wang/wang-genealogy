@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王安國，明人物。籍贯平陰。（中国历代人物传记资料库 CBDB 702213）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_2efBHNLHMJ2Vr4PXRnntq5
+        - id: cs_7hS5oHE9KQAdQ4fLIXKshk
           claim_id: c_GJ2nveiWitwC2kTQLNAvgQ
           source_id: s_STewjELyHPoetDEKBErYNb
           stance: supports
-          locator: null
+          locator: CBDB:702213
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -128,7 +128,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王安國 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王安國，明人物。籍贯平陰。（中国历代人物传记资料库 CBDB 702213） | accepted |
 
 ## 关联关系
 

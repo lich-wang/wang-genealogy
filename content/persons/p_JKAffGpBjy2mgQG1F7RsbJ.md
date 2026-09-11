@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王怡，唐人物。曾任州刺史。（中国历代人物传记资料库 CBDB 380206）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_hhkyFPjx1hCp6AGsgM9w9J
+        - id: cs_furntX4pQ2UgBJyv7arvxE
           claim_id: c_FtR6KQMg9Bz4TXTjtTHK4Y
           source_id: s_x1h5svkF8M38BNZqD6ygEV
           stance: supports
-          locator: null
+          locator: CBDB:380206
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王怡 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王怡，唐人物。曾任州刺史。（中国历代人物传记资料库 CBDB 380206） | accepted |
 
 ## 关联关系
 

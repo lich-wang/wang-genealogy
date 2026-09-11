@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王逢（卒于864年），唐人物。曾任都知兵馬使、觀察使、節度使。（中国历代人物传记资料库 CBDB 189526）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_N5uLENMkNP31jiXuVmszsx
+        - id: cs_xabfqH6auO4S7wZPUNAR5r
           claim_id: c_vzy5KRNKdRwfEvpQU3SSdH
           source_id: s_HCE7j9M9HzNGAwXLQGsGSU
           stance: supports
-          locator: null
+          locator: CBDB:189526
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -146,7 +146,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王逢 | accepted |
 | death.date | 864年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王逢（卒于864年），唐人物。曾任都知兵馬使、觀察使、節度使。（中国历代人物传记资料库 CBDB 189526） | accepted |
 
 ## 关联关系
 

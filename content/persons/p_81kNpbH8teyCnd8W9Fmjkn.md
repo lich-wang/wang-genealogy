@@ -7,6 +7,44 @@ display_name: 季芝昌
 revision: 1
 cbdb_id: 60729
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_NyXnYc9VaVJppQEgYYV86Z
+        subject_person_id: p_81kNpbH8teyCnd8W9Fmjkn
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 季芝昌（1791—1860），清人物。明清進士進士，籍贯江陰，入仕進士，曾任辦理團練、編修、吏部侍郎。（中国历代人物传记资料库 CBDB 60729）
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MwFbzzfKxD56voE4-EdSed
+          claim_id: c_NyXnYc9VaVJppQEgYYV86Z
+          source_id: s_QS2OOL9WtEmpN5RWqoor5B
+          stance: supports
+          locator: CBDB:60729
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_QS2OOL9WtEmpN5RWqoor5B
+            source_type: api_record
+            title: 中国历代人物传记资料库：季芝昌（CBDB 60729）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=60729&o=json
+            external_identifier: CBDB:60729
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:60729
           quotation: null
           interpretation_note: CBDB 明确记录的王甥稙配偶
-          source: &a1
-            id: s_QS2OOL9WtEmpN5RWqoor5B
-            source_type: api_record
-            title: 中国历代人物传记资料库：季芝昌（CBDB 60729）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=60729&o=json
-            external_identifier: CBDB:60729
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 季芝昌（1791—1860），清人物。明清進士進士，籍贯江陰，入仕進士，曾任辦理團練、編修、吏部侍郎。（中国历代人物传记资料库 CBDB 60729） | accepted |
 | name.primary | 季芝昌 | accepted |
 
 ## 关联关系

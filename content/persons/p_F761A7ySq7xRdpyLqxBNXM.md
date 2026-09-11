@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王子敬，明人物。籍贯固始，身份为孝子/孝女，入仕縣學生員。（中国历代人物传记资料库 CBDB 683474）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_DHKSFbXELZHSv3VonCA8jb
+        - id: cs_tLRMT5WiuJu0hqAcLQr6L5
           claim_id: c_j9YdUQPj7urN9D2EhFJw7m
           source_id: s_D9qwCZ6V2iANRhNpjJw8vN
           stance: supports
-          locator: null
+          locator: CBDB:683474
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王子敬 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王子敬，明人物。籍贯固始，身份为孝子/孝女，入仕縣學生員。（中国历代人物传记资料库 CBDB 683474） | accepted |
 
 ## 关联关系
 

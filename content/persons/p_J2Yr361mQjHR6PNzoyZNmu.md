@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王世治，清人物。籍贯仁壽，曾任知縣。（中国历代人物传记资料库 CBDB 635688）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_ZpuwajkZxKcqXmj3t2xX8D
+        - id: cs_ppP1ScYrZesYL6Y7XRBao-
           claim_id: c_d7BvzU4Lhm5kzP8KePGBQa
           source_id: s_pE5bt8MmZ8mU7fPiL3SLPQ
           stance: supports
-          locator: null
+          locator: CBDB:635688
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王世治 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王世治，清人物。籍贯仁壽，曾任知縣。（中国历代人物传记资料库 CBDB 635688） | accepted |
 
 ## 关联关系
 

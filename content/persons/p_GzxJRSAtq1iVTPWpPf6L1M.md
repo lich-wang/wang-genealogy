@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王適，明人物。成化二年進士，籍贯上虞。（中国历代人物传记资料库 CBDB 229852）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_TzwEBphAjCY1EpFrZzuAWk
+        - id: cs_ygJRKgJNVpJKTSo6hcXy_Y
           claim_id: c_5A94BFJ8vqLy8fL7EXg9me
           source_id: s_Zj8SexjSsMgn6HaG5QCSxu
           stance: supports
-          locator: null
+          locator: CBDB:229852
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王適 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王適，明人物。成化二年進士，籍贯上虞。（中国历代人物传记资料库 CBDB 229852） | accepted |
 
 ## 关联关系
 

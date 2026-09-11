@@ -7,6 +7,44 @@ display_name: 史致蕃
 cbdb_id: 62775
 revision: 1
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_SEa7fVnDLasDfvbHb7z16f
+        subject_person_id: p_mX3GhtHPCXiAf4LBu5o6P4
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 史致蕃，清人物。明清進士進士，籍贯宛平，入仕進士，曾任布政使、按察使、鄉試考官。（中国历代人物传记资料库 CBDB 62775）
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_I1byjulXcC_pT3ie5n1UmD
+          claim_id: c_SEa7fVnDLasDfvbHb7z16f
+          source_id: s_Fk5PqBFSrCuFK12PLr3b1d
+          stance: supports
+          locator: CBDB:62775
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_Fk5PqBFSrCuFK12PLr3b1d
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：史致蕃（62775）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=62775&o=json
+            external_identifier: CBDB:62775
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,7 +69,7 @@ properties:
           locator: Q13688950
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source: &a1
+          source: &a2
             id: s_CC7x2cYhAh7m1CUb8G1iVZ
             source_type: api_record
             title: 维基数据：史致蕃（Q13688950）
@@ -51,18 +89,7 @@ properties:
           locator: CBDB:62775
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source:
-            id: s_Fk5PqBFSrCuFK12PLr3b1d
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：史致蕃（62775）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=62775&o=json
-            external_identifier: CBDB:62775
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T08:06:50.055Z
-            metadata_json: null
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -110,7 +137,7 @@ relationships:
           locator: P26（配偶）
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: *a2
       object_person:
         id: p_Rqtj2SNyBdvLmz523jMBP7
         status: active
@@ -129,6 +156,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 史致蕃，清人物。明清進士進士，籍贯宛平，入仕進士，曾任布政使、按察使、鄉試考官。（中国历代人物传记资料库 CBDB 62775） | accepted |
 | name.primary | 史致蕃 | accepted |
 
 ## 关联关系

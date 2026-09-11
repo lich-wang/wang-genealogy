@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王之輔，明人物。籍贯新城。（中国历代人物传记资料库 CBDB 232523）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_m5GfqQahyTD2VnWUpa2Xgm
+        - id: cs_hQ5yDdWG1W8MQ6Z5vSIKsv
           claim_id: c_7PRXaubRB1P8XF28iHFSYF
           source_id: s_6WT5gAno7eCVQdDVPgz6A2
           stance: supports
-          locator: null
+          locator: CBDB:232523
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王之輔 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王之輔，明人物。籍贯新城。（中国历代人物传记资料库 CBDB 232523） | accepted |
 
 ## 关联关系
 

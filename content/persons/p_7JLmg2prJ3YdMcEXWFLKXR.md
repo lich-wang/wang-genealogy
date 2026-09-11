@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王學古，明人物。成化五年進士，籍贯交趾，曾任知縣。（中国历代人物传记资料库 CBDB 244147）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_ef7LpdfP9EDAyLgMiqHFMs
+        - id: cs_bai87cIcTOO_pweugOjSuD
           claim_id: c_w6nbDCrRkLUncit5krNKeD
           source_id: s_B6dLHtmv2bcXri1aDmor2m
           stance: supports
-          locator: null
+          locator: CBDB:244147
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王學古 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王學古，明人物。成化五年進士，籍贯交趾，曾任知縣。（中国历代人物传记资料库 CBDB 244147） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: "王如琰，清人物。籍贯黃岡，入仕科舉制舉: 賢良方正科，曾任教諭。（中国历代人物传记资料库 CBDB 574278）"
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_cdjmknkT7iNXsHt3k6CJ9u
+        - id: cs_Z9fRf8q8IqovfxLVsZaDR2
           claim_id: c_T7aayDe5NfnSc6LpwoJAgm
           source_id: s_tPN18Fjbcd7Py46tD93miu
           stance: supports
-          locator: null
+          locator: CBDB:574278
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王如琰 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王如琰，清人物。籍贯黃岡，入仕科舉制舉: 賢良方正科，曾任教諭。（中国历代人物传记资料库 CBDB 574278） | accepted |
 
 ## 关联关系
 

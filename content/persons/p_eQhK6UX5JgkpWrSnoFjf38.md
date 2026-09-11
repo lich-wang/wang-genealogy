@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王麒（1463年—1528年），明人物。籍贯鳳翔，身份为詩人、圍棋棋手，曾任知縣。（中国历代人物传记资料库 CBDB 126868）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_RFC5r72NUSkT79mcXpTWX9
+        - id: cs_6XgfClf_e6EjtJC9khnW0k
           claim_id: c_XeRv6KhkLw5C8mzvW1qXmG
           source_id: s_Y5W4hMQrT6dpGNt7BXdMtc
           stance: supports
-          locator: null
+          locator: CBDB:126868
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王麒 | accepted |
 | birth.date | 1463年 | accepted |
 | death.date | 1528年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王麒（1463年—1528年），明人物。籍贯鳳翔，身份为詩人、圍棋棋手，曾任知縣。（中国历代人物传记资料库 CBDB 126868） | accepted |
 
 ## 关联关系
 

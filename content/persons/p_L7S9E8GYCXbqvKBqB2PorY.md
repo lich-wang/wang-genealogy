@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王鴻恩，清人物。籍贯江南蘇松常鎮太道，入仕行伍，曾任把總。（中国历代人物传记资料库 CBDB 640981）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_QuvnAVM4KanEDMPowodwNM
+        - id: cs_reHv_VmHpNNoBCeYroMmeD
           claim_id: c_PPr3d6SagTpyR2S6X9ZKvU
           source_id: s_85Hq7feZ1xVoMovwYhs3Ni
           stance: supports
-          locator: null
+          locator: CBDB:640981
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王鴻恩 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王鴻恩，清人物。籍贯江南蘇松常鎮太道，入仕行伍，曾任把總。（中国历代人物传记资料库 CBDB 640981） | accepted |
 
 ## 关联关系
 

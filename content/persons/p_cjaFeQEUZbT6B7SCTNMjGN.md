@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王佐，宋人物。曾任判官。（中国历代人物传记资料库 CBDB 469363）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_waZiEuZQvyuQTbM19WAwZU
+        - id: cs_jVcBu5HzVCVluA7DxL1IYP
           claim_id: c_CvtPtAPq8AP8vH72B9Qz2M
           source_id: s_UHwNih4cSsuakCkcPbHv4V
           stance: supports
-          locator: null
+          locator: CBDB:469363
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王佐 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王佐，宋人物。曾任判官。（中国历代人物传记资料库 CBDB 469363） | accepted |
 
 ## 关联关系
 

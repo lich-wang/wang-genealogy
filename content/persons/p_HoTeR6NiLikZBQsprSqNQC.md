@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王蕩，明人物。景泰五年進士，籍贯安福。（中国历代人物传记资料库 CBDB 252991）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_zSj4Y52kiJU8hUnc848inX
+        - id: cs_rPJm0XO8lvhut5hg4yF2uG
           claim_id: c_EFBLyoX4SHJHTtQ2LoY4UM
           source_id: s_ui977UqUYsAuEoPVG1WNtB
           stance: supports
-          locator: null
+          locator: CBDB:252991
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王蕩 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王蕩，明人物。景泰五年進士，籍贯安福。（中国历代人物传记资料库 CBDB 252991） | accepted |
 
 ## 关联关系
 

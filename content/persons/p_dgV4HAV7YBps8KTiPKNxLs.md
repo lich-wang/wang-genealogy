@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王振鷺，清人物。籍贯西安，入仕鄉貢舉人，曾任學正。（中国历代人物传记资料库 CBDB 638141）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_MYbeASPJQLFCpUD1Pk2z8r
+        - id: cs_i7fsglLtqL4cG84FjowLS4
           claim_id: c_AQiRhehDGhx7AyFd5qX8cz
           source_id: s_gm86by4aQW85N1WDCH2gDS
           stance: supports
-          locator: null
+          locator: CBDB:638141
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王振鷺 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王振鷺，清人物。籍贯西安，入仕鄉貢舉人，曾任學正。（中国历代人物传记资料库 CBDB 638141） | accepted |
 
 ## 关联关系
 

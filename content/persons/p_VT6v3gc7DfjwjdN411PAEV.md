@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王鶚，明人物。明清進士進士，籍贯高安，入仕進士。（中国历代人物传记资料库 CBDB 343550）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_RA9jZa6BA7NauDgZiaZFCU
+        - id: cs_l9k9anj3G4ydDwyQn08ecn
           claim_id: c_PDBK6W4XYBTSZ4fKjsX2on
           source_id: s_mKYz4Vyx6dpMX2iF6FUNi4
           stance: supports
-          locator: null
+          locator: CBDB:343550
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王鶚 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王鶚，明人物。明清進士進士，籍贯高安，入仕進士。（中国历代人物传记资料库 CBDB 343550） | accepted |
 
 ## 关联关系
 

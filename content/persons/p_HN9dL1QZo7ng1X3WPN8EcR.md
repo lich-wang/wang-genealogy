@@ -7,6 +7,44 @@ display_name: 丘氏
 cbdb_id: 38574
 revision: 2
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_csjSSd_p5mPwdJnXWGtGVI
+        subject_person_id: p_HN9dL1QZo7ng1X3WPN8EcR
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 丘氏，宋人物。曾任郡夫人。（中国历代人物传记资料库 CBDB 38574）
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__omTnAR6K5OW-exNJJsf7G
+          claim_id: c_csjSSd_p5mPwdJnXWGtGVI
+          source_id: s_phx6v1WRRw5pRY98qUnDbm
+          stance: supports
+          locator: CBDB:38574
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_phx6v1WRRw5pRY98qUnDbm
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：丘氏（38574）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38574&o=json
+            external_identifier: CBDB:38574
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,7 +69,7 @@ properties:
           locator: Q45431034
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source: &a1
+          source: &a2
             id: s_5gNFY2WxZYmo4JswXvHa9P
             source_type: api_record
             title: 维基数据：丘氏（Q45431034）
@@ -50,18 +88,7 @@ properties:
           locator: CBDB:38574
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source: &a2
-            id: s_phx6v1WRRw5pRY98qUnDbm
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：丘氏（38574）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38574&o=json
-            external_identifier: CBDB:38574
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T08:06:50.055Z
-            metadata_json: null
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,7 +117,7 @@ relationships:
           locator: P26（配偶）
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: *a2
         - id: cs_zxv3KfdnFgLAqdGUzmWhJQ
           claim_id: c_ZeN9zqVb73eMRCviGozeM5
           source_id: s_vRaCPeuuKnxFV9tq7HyLW3
@@ -154,7 +181,7 @@ relationships:
           locator: 宋人傳記資料索引(電子版)：丈夫
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a2
+          source: *a1
       object_person:
         id: p_4Hjde84UDSxNby7XrvDD1E
         status: active
@@ -182,7 +209,7 @@ relationships:
           locator: 宋人傳記資料索引(電子版)，1517;1523：孫
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a2
+          source: *a1
       object_person:
         id: p_yapy3APS2bJCVFq3VNLaKZ
         status: active
@@ -199,6 +226,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 丘氏，宋人物。曾任郡夫人。（中国历代人物传记资料库 CBDB 38574） | accepted |
 | name.primary | 丘氏 | accepted |
 
 ## 关联关系

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王珍，清人物。籍贯長治，入仕副榜，曾任縣知縣、知府。（中国历代人物传记资料库 CBDB 439503）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_h9LxfP5L1Pnd8LA5WMAE4b
+        - id: cs_pZwsjyvxNLgHCNA8HOY4Ma
           claim_id: c_dnNHju5A2LDoMicT67joNP
           source_id: s_wVCqYq313ixtAGLECnvFXH
           stance: supports
-          locator: null
+          locator: CBDB:439503
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王珍 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王珍，清人物。籍贯長治，入仕副榜，曾任縣知縣、知府。（中国历代人物传记资料库 CBDB 439503） | accepted |
 
 ## 关联关系
 

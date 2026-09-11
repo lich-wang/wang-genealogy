@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王綸，清人物。入仕監生，曾任通判。（中国历代人物传记资料库 CBDB 496020）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_c2VC9x2KaCXUM8mAJMH6G4
+        - id: cs_VMUG7NNiae9VWc6U_wcVRW
           claim_id: c_8mzBgYzECC9uXSfd5ECmVu
           source_id: s_PWK4RF72XCwAfhk5pCRpDS
           stance: supports
-          locator: null
+          locator: CBDB:496020
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王綸 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王綸，清人物。入仕監生，曾任通判。（中国历代人物传记资料库 CBDB 496020） | accepted |
 
 ## 关联关系
 

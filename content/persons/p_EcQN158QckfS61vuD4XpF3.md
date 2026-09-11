@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王民（卒于1800年），清人物。籍贯長安，入仕募入軍伍。（中国历代人物传记资料库 CBDB 69100）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_AiV8kyFLZN45C7sq7PWSpA
+        - id: cs_822gjtgZmpgxzlHIwT1GKO
           claim_id: c_85ac3yiFpLqM6YYgGJx6KY
           source_id: s_jKrRh2yGpDxyhYkXAKd1xy
           stance: supports
-          locator: null
+          locator: CBDB:69100
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王民 | accepted |
 | death.date | 1800年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王民（卒于1800年），清人物。籍贯長安，入仕募入軍伍。（中国历代人物传记资料库 CBDB 69100） | accepted |
 
 ## 关联关系
 

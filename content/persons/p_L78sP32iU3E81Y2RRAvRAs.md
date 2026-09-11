@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王恩照，清人物。籍贯介休，入仕縣學附生，曾任知縣、復設訓導。（中国历代人物传记资料库 CBDB 637848）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_88B1AersHP9kU7hQLWy6vi
+        - id: cs_2FMajr7u1GL67TaSJDEalh
           claim_id: c_fyBWmi3LPx5MQNB6Fdwit8
           source_id: s_g378Uci2in4zb5Y49CQx6M
           stance: supports
-          locator: null
+          locator: CBDB:637848
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王恩照 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王恩照，清人物。籍贯介休，入仕縣學附生，曾任知縣、復設訓導。（中国历代人物传记资料库 CBDB 637848） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王銘，明人物。隆慶五年進士，曾任戶部主事、承德郎。（中国历代人物传记资料库 CBDB 212030）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_w1RPirsZ96HefNeHJZN7Po
+        - id: cs_E3GmZvdFxH0YUpe1oByGsG
           claim_id: c_QShZoD73Ee6CLzhi8mDbKQ
           source_id: s_xCFVEh858mg7v6XWZNHVSP
           stance: supports
-          locator: null
+          locator: CBDB:212030
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王銘 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王銘，明人物。隆慶五年進士，曾任戶部主事、承德郎。（中国历代人物传记资料库 CBDB 212030） | accepted |
 
 ## 关联关系
 

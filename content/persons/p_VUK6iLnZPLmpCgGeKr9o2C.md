@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王榮，清人物。籍贯信陽州，曾任千總。（中国历代人物传记资料库 CBDB 557755）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_hdKJTWLjS83csiDKR9Eb2U
+        - id: cs_ppxB6cXaiKfGvF96_ygTMm
           claim_id: c_YwwHn22Xi34CkhWKh4Pt4G
           source_id: s_CFPxNPTdMGCGbHWLD38mCw
           stance: supports
-          locator: null
+          locator: CBDB:557755
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -154,7 +154,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王榮 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王榮，清人物。籍贯信陽州，曾任千總。（中国历代人物传记资料库 CBDB 557755） | accepted |
 
 ## 关联关系
 

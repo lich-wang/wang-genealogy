@@ -7,6 +7,44 @@ display_name: 徐昂
 revision: 1
 cbdb_id: 276291
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_aCN844yrgLvFOn3c14oxCg
+        subject_person_id: p_wnCBG8yAsATvdbYd2Y3fEu
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 徐昂，明人物。正德六年進士，籍贯海鹽。（中国历代人物传记资料库 CBDB 276291）
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZCHDhjqH9DKy1ro8wM-LTe
+          claim_id: c_aCN844yrgLvFOn3c14oxCg
+          source_id: s_9F11UKyiaVPrbEvrIn7ARt
+          stance: supports
+          locator: CBDB:276291
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_9F11UKyiaVPrbEvrIn7ARt
+            source_type: api_record
+            title: 中国历代人物传记资料库：徐昂（CBDB 276291）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=276291&o=json
+            external_identifier: CBDB:276291
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:276291
           quotation: null
           interpretation_note: CBDB 明确记录的王慕貞配偶
-          source: &a1
-            id: s_9F11UKyiaVPrbEvrIn7ARt
-            source_type: api_record
-            title: 中国历代人物传记资料库：徐昂（CBDB 276291）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=276291&o=json
-            external_identifier: CBDB:276291
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 徐昂，明人物。正德六年進士，籍贯海鹽。（中国历代人物传记资料库 CBDB 276291） | accepted |
 | name.primary | 徐昂 | accepted |
 
 ## 关联关系

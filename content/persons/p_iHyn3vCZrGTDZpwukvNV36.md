@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王信（1137年—1194年），宋人物。籍贯麗水，入仕進士，曾任安撫使、門下省給事中、禮部尚書。（中国历代人物传记资料库 CBDB 551402）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_2XL7Rfy1AxzYtyQTYtNLsy
+        - id: cs_c-4lDv6Nt_4Z58YM5SOmJA
           claim_id: c_E3UL6RsTct42M1V65L8XHA
           source_id: s_eTXsa16gMJMmwBbqFcFgbz
           stance: supports
-          locator: null
+          locator: CBDB:551402
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -223,7 +223,7 @@ relationships:
 | name.primary | 王信 | accepted |
 | birth.date | 1137年 | accepted |
 | death.date | 1194年 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王信（1137年—1194年），宋人物。籍贯麗水，入仕進士，曾任安撫使、門下省給事中、禮部尚書。（中国历代人物传记资料库 CBDB 551402） | accepted |
 
 ## 关联关系
 

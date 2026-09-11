@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王賡華，清人物。籍贯寧波府，入仕鄉貢舉人，曾任訓導。（中国历代人物传记资料库 CBDB 640339）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_k5LRgUDLYqvbcnC92ym69B
+        - id: cs_6hucUrbAtzI_nY472SEyqo
           claim_id: c_7b3gqaT5qQqKfu3wnM39Z8
           source_id: s_81nNEir766pQ9Baz4XH3JC
           stance: supports
-          locator: null
+          locator: CBDB:640339
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王賡華 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王賡華，清人物。籍贯寧波府，入仕鄉貢舉人，曾任訓導。（中国历代人物传记资料库 CBDB 640339） | accepted |
 
 ## 关联关系
 

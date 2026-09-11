@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王霖龍，宋人物。曾任安撫使、安撫大使。（中国历代人物传记资料库 CBDB 38442）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_sikNHVKYUPRAnHquzwaHk9
+        - id: cs_nnHkwev4cDJeMYUndPjaZM
           claim_id: c_vRPQXM6z4TrgYvSym5dTqN
           source_id: s_GfZiprdPXa9F483tYWj7va
           stance: supports
-          locator: null
+          locator: CBDB:38442
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王霖龍 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王霖龍，宋人物。曾任安撫使、安撫大使。（中国历代人物传记资料库 CBDB 38442） | accepted |
 
 ## 关联关系
 

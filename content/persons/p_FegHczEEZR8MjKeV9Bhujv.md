@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王沛，清人物。籍贯深澤，入仕鄉貢舉人，曾任學正。（中国历代人物传记资料库 CBDB 639052）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_kdHGuZBGNeXRLuMpPpaN26
+        - id: cs_8YP1wwFJgDvqEwaOgdrtWp
           claim_id: c_1AqPWWHoP6BRjazvvQCkPb
           source_id: s_zqbxXP1Zn3Ng7o6z5SVybN
           stance: supports
-          locator: null
+          locator: CBDB:639052
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王沛 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王沛，清人物。籍贯深澤，入仕鄉貢舉人，曾任學正。（中国历代人物传记资料库 CBDB 639052） | accepted |
 
 ## 关联关系
 

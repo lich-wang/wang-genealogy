@@ -7,6 +7,44 @@ display_name: 曾氏
 revision: 1
 cbdb_id: 5136
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_4-w83s-cS2JuAj007zsBB9
+        subject_person_id: p_WftzYiuDBNrJGuYMiqD2Jh
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 曾氏（1000—1078），宋人物。籍贯晉江，入仕封贈。（中国历代人物传记资料库 CBDB 5136）
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wklCzwomin0lfnBzyGZtPy
+          claim_id: c_4-w83s-cS2JuAj007zsBB9
+          source_id: s_qYm8ID5QA6nXvpux5U8FlM
+          stance: supports
+          locator: CBDB:5136
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_qYm8ID5QA6nXvpux5U8FlM
+            source_type: api_record
+            title: 中国历代人物传记资料库：曾氏（CBDB 5136）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=5136&o=json
+            external_identifier: CBDB:5136
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:5136
           quotation: null
           interpretation_note: CBDB 明确记录的王平配偶
-          source: &a1
-            id: s_qYm8ID5QA6nXvpux5U8FlM
-            source_type: api_record
-            title: 中国历代人物传记资料库：曾氏（CBDB 5136）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=5136&o=json
-            external_identifier: CBDB:5136
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 曾氏（1000—1078），宋人物。籍贯晉江，入仕封贈。（中国历代人物传记资料库 CBDB 5136） | accepted |
 | name.primary | 曾氏 | accepted |
 
 ## 关联关系

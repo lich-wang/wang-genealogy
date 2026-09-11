@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王泰（卒于858年），唐人物。籍贯太原。（中国历代人物传记资料库 CBDB 190802）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_ZbMPYdzJpoA7T5V4CU2yh9
+        - id: cs_yg9pVsWDFxysNLmxPJH_fi
           claim_id: c_5BHYobfQQBpi5t6AFPADDR
           source_id: s_nyEnxhFMZ6SWCXBCUPDwZG
           stance: supports
-          locator: null
+          locator: CBDB:190802
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -146,7 +146,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王泰 | accepted |
 | death.date | 858年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王泰（卒于858年），唐人物。籍贯太原。（中国历代人物传记资料库 CBDB 190802） | accepted |
 
 ## 关联关系
 

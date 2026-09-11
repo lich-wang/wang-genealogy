@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王鉞（1623年—1702年），清人物。明清進士進士，籍贯諸城，入仕進士，曾任縣知縣。（中国历代人物传记资料库 CBDB 69420）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_2fgExKgWiCX4nahpsoBdgM
+        - id: cs_P9UM4uD1IOPmJQlbk2E6nv
           claim_id: c_uQyvz8hjUFhzJCSN69A9AD
           source_id: s_7YeLG5uDCvpze2W3UiSauM
           stance: supports
-          locator: null
+          locator: CBDB:69420
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -223,7 +223,7 @@ relationships:
 | name.primary | 王鉞 | accepted |
 | birth.date | 1623年 | accepted |
 | death.date | 1702年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王鉞（1623年—1702年），清人物。明清進士進士，籍贯諸城，入仕進士，曾任縣知縣。（中国历代人物传记资料库 CBDB 69420） | accepted |
 
 ## 关联关系
 

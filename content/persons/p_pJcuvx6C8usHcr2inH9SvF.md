@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王梅峰，清人物。籍贯丹徒，曾任典史。（中国历代人物传记资料库 CBDB 638722）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Q49KtsyRdwzPnJGs6SvAQ7
+        - id: cs_r8TmezXS6CI0v2XDh3MT1u
           claim_id: c_uZMiCiNtR9g9VaLzvec35x
           source_id: s_HpwVTz9Q6Vx6EtzM6At63F
           stance: supports
-          locator: null
+          locator: CBDB:638722
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王梅峰 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王梅峰，清人物。籍贯丹徒，曾任典史。（中国历代人物传记资料库 CBDB 638722） | accepted |
 
 ## 关联关系
 

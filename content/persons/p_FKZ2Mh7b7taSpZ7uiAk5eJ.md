@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王建泰，明人物。明清進士進士，籍贯陽信，入仕進士，曾任知府。（中国历代人物传记资料库 CBDB 342001）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_X58j8Fff55fuorxoZwwhqi
+        - id: cs_QsbVVrcMwvKL7wQDJRYgr2
           claim_id: c_JdFHs2kfV2BD4cHMAiFYkD
           source_id: s_tXKjKmfT5fLzvuezCL7dfe
           stance: supports
-          locator: null
+          locator: CBDB:342001
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王建泰 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王建泰，明人物。明清進士進士，籍贯陽信，入仕進士，曾任知府。（中国历代人物传记资料库 CBDB 342001） | accepted |
 
 ## 关联关系
 

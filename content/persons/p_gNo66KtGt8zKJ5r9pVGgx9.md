@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
-          language: zh-Hans
+          text: 王詢（卒于877年），唐人物。籍贯河陽，曾任都督府長史、監察御史、上柱國。（中国历代人物传记资料库 CBDB 145697）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_v3Jk8fFiVv9SNHtWzCVGot
+        - id: cs_he8OLw9eF_KD1QDTegxent
           claim_id: c_D1hHF3HTPR2f3vaCWXz95V
           source_id: s_iYjJqBcqh7JAz259C5Ng1j
           stance: supports
-          locator: null
+          locator: CBDB:145697
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王詢 | accepted |
 | death.date | 877年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王詢（卒于877年），唐人物。籍贯河陽，曾任都督府長史、監察御史、上柱國。（中国历代人物传记资料库 CBDB 145697） | accepted |
 
 ## 关联关系
 

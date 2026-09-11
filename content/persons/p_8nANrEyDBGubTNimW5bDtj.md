@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王萬（卒于1234年），宋人物。籍贯蒲江，曾任太常寺博士、國子監錄。（中国历代人物传记资料库 CBDB 45799）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_73sUTqh6TB9MMjhpZdu6WT
+        - id: cs_2VYc_ZTvYpjmUtLuOc6ZID
           claim_id: c_kG2Jcscd3oPDshtQ1cNydX
           source_id: s_FPjL1PoC271HEGsEpCDAiA
           stance: supports
-          locator: null
+          locator: CBDB:45799
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王萬 | accepted |
 | death.date | 1234年 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王萬（卒于1234年），宋人物。籍贯蒲江，曾任太常寺博士、國子監錄。（中国历代人物传记资料库 CBDB 45799） | accepted |
 
 ## 关联关系
 

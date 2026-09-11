@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王安（568年—634年），唐人物。籍贯偃師，曾任縣丞、縣令、縣主簿。（中国历代人物传记资料库 CBDB 138766）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_QBoaXq3s3SBfnGn2DLR2g9
+        - id: cs_E2RhF2OZ2QctNygdg-aAwp
           claim_id: c_KzkESukAfb3FQZH1xhJjJ7
           source_id: s_QScHPF3JNHtZCDfZtP3dha
           stance: supports
-          locator: null
+          locator: CBDB:138766
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -186,7 +186,7 @@ relationships:
 | name.primary | 王安 | accepted |
 | birth.date | 568年 | accepted |
 | death.date | 634年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王安（568年—634年），唐人物。籍贯偃師，曾任縣丞、縣令、縣主簿。（中国历代人物传记资料库 CBDB 138766） | accepted |
 
 ## 关联关系
 

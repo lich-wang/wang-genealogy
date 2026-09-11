@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王鏞，明人物。嘉靖十一年進士，曾任義官。（中国历代人物传记资料库 CBDB 291524）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_ErhH76V9CznWDMz55KWBfs
+        - id: cs_cieeZ7oPdr4teAfco9zsK_
           claim_id: c_mj5nVmCnLxL9T1pL57JLbC
           source_id: s_S66cMpATbkmD5amJFieSQD
           stance: supports
-          locator: null
+          locator: CBDB:291524
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -128,7 +128,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王鏞 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王鏞，明人物。嘉靖十一年進士，曾任義官。（中国历代人物传记资料库 CBDB 291524） | accepted |
 
 ## 关联关系
 

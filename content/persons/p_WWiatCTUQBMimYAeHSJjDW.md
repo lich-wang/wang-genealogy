@@ -50,7 +50,7 @@ properties:
           locator: CBDB:264936
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source:
+          source: &a2
             id: s_jGSUx8W4tkzM5Vw59N5KbY
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：王純禮（264936）
@@ -75,11 +75,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: Ming dynasty person CBDB = 264936
-          language: en
+          text: 王纯礼，明人物。弘治六年進士。（中国历代人物传记资料库 CBDB 264936）
+          language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
         - id: cs_ZU9gJYtPUAv6Uz35jNhAMZ
           claim_id: c_x18KPTXeAwLrkNv5nGD9G7
@@ -89,6 +89,14 @@ properties:
           quotation: null
           interpretation_note: 维基数据条目描述
           source: *a1
+        - id: cs_-Cjt2W-BMDz8-A60D_3BXq
+          claim_id: c_x18KPTXeAwLrkNv5nGD9G7
+          source_id: s_jGSUx8W4tkzM5Vw59N5KbY
+          stance: supports
+          locator: CBDB:264936
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: *a2
       object_person: null
     alternatives: []
 relationships:
@@ -193,7 +201,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王纯礼 | accepted |
-| bio.summary | Ming dynasty person CBDB = 264936 | accepted |
+| bio.summary | 王纯礼，明人物。弘治六年進士。（中国历代人物传记资料库 CBDB 264936） | accepted |
 
 ## 关联关系
 

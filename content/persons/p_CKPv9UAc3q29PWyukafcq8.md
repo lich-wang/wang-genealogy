@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王文奎，明人物。景泰五年進士，籍贯溧水。（中国历代人物传记资料库 CBDB 267005）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_u4dCQqGNNrqS7VGH3ABYcN
+        - id: cs_YPRqQ9HmonKfXr782oNQcR
           claim_id: c_Ygtwg55HH8DDHTTrq6FFn5
           source_id: s_Cg2uT2jLBdKAn8ujADvzDV
           stance: supports
-          locator: null
+          locator: CBDB:267005
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王文奎 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王文奎，明人物。景泰五年進士，籍贯溧水。（中国历代人物传记资料库 CBDB 267005） | accepted |
 
 ## 关联关系
 

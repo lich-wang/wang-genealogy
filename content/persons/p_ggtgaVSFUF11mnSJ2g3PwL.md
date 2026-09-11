@@ -7,6 +7,44 @@ display_name: 陳氏
 revision: 1
 cbdb_id: 5132
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_1qQ3pdtxOQEPETihHgkEOw
+        subject_person_id: p_ggtgaVSFUF11mnSJ2g3PwL
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 陳氏（1028—1065），宋人物。籍贯吳縣，入仕封贈。（中国历代人物传记资料库 CBDB 5132）
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GbhmYsP13D04OrXICqyI0S
+          claim_id: c_1qQ3pdtxOQEPETihHgkEOw
+          source_id: s_d0PuydCoAzh6cSVVPUasm0
+          stance: supports
+          locator: CBDB:5132
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_d0PuydCoAzh6cSVVPUasm0
+            source_type: api_record
+            title: 中国历代人物传记资料库：陳氏(王逢妻)（CBDB 5132）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=5132&o=json
+            external_identifier: CBDB:5132
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:5132
           quotation: null
           interpretation_note: CBDB 明确记录的王逢配偶
-          source: &a1
-            id: s_d0PuydCoAzh6cSVVPUasm0
-            source_type: api_record
-            title: 中国历代人物传记资料库：陳氏(王逢妻)（CBDB 5132）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=5132&o=json
-            external_identifier: CBDB:5132
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 陳氏（1028—1065），宋人物。籍贯吳縣，入仕封贈。（中国历代人物传记资料库 CBDB 5132） | accepted |
 | name.primary | 陳氏 | accepted |
 
 ## 关联关系

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王惠，明人物。萬曆丙戌科進士進士。（中国历代人物传记资料库 CBDB 225795）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_R338ViBzFJkq4CThMCWkw2
+        - id: cs_4nZW6uEJaQhp-laD7Rvgd8
           claim_id: c_TbeFP2jj1i74ZfXAtAZrM9
           source_id: s_GqycFRtk33GWjyWmQYcpKA
           stance: supports
-          locator: null
+          locator: CBDB:225795
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王惠 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王惠，明人物。萬曆丙戌科進士進士。（中国历代人物传记资料库 CBDB 225795） | accepted |
 
 ## 关联关系
 

@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王培生（生于1666年），清人物。籍贯寶豐。（中国历代人物传记资料库 CBDB 71989）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_6TL1MRTFhkpVv29BBmX1su
+        - id: cs_UN24Qp0CAzo7Sbmoux8D4z
           claim_id: c_Eu6So4dARgqCYbNT4SKPaZ
           source_id: s_GkJSZtJju3KEX2aU7bwWsJ
           stance: supports
-          locator: null
+          locator: CBDB:71989
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王培生 | accepted |
 | birth.date | 1666年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王培生（生于1666年），清人物。籍贯寶豐。（中国历代人物传记资料库 CBDB 71989） | accepted |
 
 ## 关联关系
 

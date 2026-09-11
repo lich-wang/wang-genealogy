@@ -50,7 +50,7 @@ properties:
           locator: CBDB:5286
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source:
+          source: &a2
             id: s_pk23EcPayEY4oHh82TbjzT
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：王氏（5286）
@@ -75,11 +75,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 趙叔頤妻
+          text: 王氏（1047年—1069年），宋人物。籍贯開封，入仕封贈，曾任縣君。（中国历代人物传记资料库 CBDB 5286）
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
         - id: cs_hx63kcMmGxxJxv66cgUo5s
           claim_id: c_JNPsj8NUGXUrd2B91SeJsR
@@ -89,6 +89,14 @@ properties:
           quotation: null
           interpretation_note: 维基数据条目描述
           source: *a1
+        - id: cs_8CsU51ERebVpnGzzkgTlI0
+          claim_id: c_JNPsj8NUGXUrd2B91SeJsR
+          source_id: s_pk23EcPayEY4oHh82TbjzT
+          stance: supports
+          locator: CBDB:5286
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: *a2
       object_person: null
     alternatives: []
   - predicate: birth.date
@@ -231,7 +239,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王氏 | accepted |
-| bio.summary | 趙叔頤妻 | accepted |
+| bio.summary | 王氏（1047年—1069年），宋人物。籍贯開封，入仕封贈，曾任縣君。（中国历代人物传记资料库 CBDB 5286） | accepted |
 | birth.date | 1047年 | accepted |
 | death.date | 1069年 | accepted |
 

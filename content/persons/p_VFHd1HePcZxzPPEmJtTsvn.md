@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王洪簡（卒于727年），唐人物。籍贯汧陽，曾任兵部。（中国历代人物传记资料库 CBDB 192977）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_h3aegKHvb8VVz3ohx54EBS
+        - id: cs_WbZwJ-uA3sqhMXbPfwb_5M
           claim_id: c_2H4zSoh3hwVxUu1sVMU6nj
           source_id: s_G8nPmS3SX3Tq2t2o6cjXEE
           stance: supports
-          locator: null
+          locator: CBDB:192977
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -194,7 +194,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王洪簡 | accepted |
 | death.date | 727年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王洪簡（卒于727年），唐人物。籍贯汧陽，曾任兵部。（中国历代人物传记资料库 CBDB 192977） | accepted |
 
 ## 关联关系
 

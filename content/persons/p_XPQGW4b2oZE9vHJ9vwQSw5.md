@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王範，明人物。嘉靖四十一年進士，籍贯定遠。（中国历代人物传记资料库 CBDB 329348）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_9xU2aArFzqvPkW9F7JhbMD
+        - id: cs_ZL9B40kSoLz_VSBm0iGlaI
           claim_id: c_ATe8K4JoRHPnq1UgJAD68h
           source_id: s_TKpBdxoaAjmiFiF6TUWkM6
           stance: supports
-          locator: null
+          locator: CBDB:329348
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王範 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王範，明人物。嘉靖四十一年進士，籍贯定遠。（中国历代人物传记资料库 CBDB 329348） | accepted |
 
 ## 关联关系
 

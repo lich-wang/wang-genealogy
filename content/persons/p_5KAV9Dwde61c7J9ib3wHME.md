@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王鏳（1578年—1647年），清人物。籍贯金壇。（中国历代人物传记资料库 CBDB 71290）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_tVa1MRfhC5rGPVxqdSxcEd
+        - id: cs_tRACdFvYAx4O5qg-N9rJH-
           claim_id: c_WK7mYe7YKjXzfuRhTRXiyw
           source_id: s_aESRFQXcw8JSoTftq5BkoD
           stance: supports
-          locator: null
+          locator: CBDB:71290
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王鏳 | accepted |
 | birth.date | 1578年 | accepted |
 | death.date | 1647年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王鏳（1578年—1647年），清人物。籍贯金壇。（中国历代人物传记资料库 CBDB 71290） | accepted |
 
 ## 关联关系
 

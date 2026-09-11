@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王翰，明人物。正統十三年進士，曾任府學教授。（中国历代人物传记资料库 CBDB 241019）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_4D23iq1oGa2Ed4PPb89LP3
+        - id: cs_DhGAWFwpkj_dD-TntelL8c
           claim_id: c_eThSfFdWjoD6auhUPaEDrJ
           source_id: s_qQguAKHngDXJ5LiBSZ4KvS
           stance: supports
-          locator: null
+          locator: CBDB:241019
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王翰 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王翰，明人物。正統十三年進士，曾任府學教授。（中国历代人物传记资料库 CBDB 241019） | accepted |
 
 ## 关联关系
 

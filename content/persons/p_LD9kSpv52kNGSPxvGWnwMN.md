@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王贄（生于1652年），清人物。籍贯新安。（中国历代人物传记资料库 CBDB 71159）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_uk1cY6ARng2W9LLX89XJ2r
+        - id: cs_Ck0zdNmzVW2OkdgUPfe0It
           claim_id: c_nM87bFWK3PHd97Er4bsZbt
           source_id: s_CqYWWmLsTK7H1zH5ZWaZL8
           stance: supports
-          locator: null
+          locator: CBDB:71159
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王贄 | accepted |
 | birth.date | 1652年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王贄（生于1652年），清人物。籍贯新安。（中国历代人物传记资料库 CBDB 71159） | accepted |
 
 ## 关联关系
 

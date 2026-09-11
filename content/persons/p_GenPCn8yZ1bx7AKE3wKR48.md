@@ -7,6 +7,44 @@ display_name: 潘氏
 revision: 1
 cbdb_id: 700850
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_te2N0fJxI747-1-j0hua8O
+        subject_person_id: p_GenPCn8yZ1bx7AKE3wKR48
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 潘氏，清人物。籍贯蘇州府，身份为貞婦/節婦。（中国历代人物传记资料库 CBDB 700850）
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_19NeolUYnsYTHoMaMCYcZd
+          claim_id: c_te2N0fJxI747-1-j0hua8O
+          source_id: s_m5YVGDqylyxq5Md-4fcBL5
+          stance: supports
+          locator: CBDB:700850
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_m5YVGDqylyxq5Md-4fcBL5
+            source_type: api_record
+            title: 中国历代人物传记资料库：潘氏(王若滄妻)（CBDB 700850）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=700850&o=json
+            external_identifier: CBDB:700850
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:700850
           quotation: null
           interpretation_note: CBDB 明确记录的王若滄配偶
-          source: &a1
-            id: s_m5YVGDqylyxq5Md-4fcBL5
-            source_type: api_record
-            title: 中国历代人物传记资料库：潘氏(王若滄妻)（CBDB 700850）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=700850&o=json
-            external_identifier: CBDB:700850
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 潘氏，清人物。籍贯蘇州府，身份为貞婦/節婦。（中国历代人物传记资料库 CBDB 700850） | accepted |
 | name.primary | 潘氏 | accepted |
 
 ## 关联关系

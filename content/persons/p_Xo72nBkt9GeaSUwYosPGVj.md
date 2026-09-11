@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王貫（卒于729年），唐人物。籍贯同州，曾任州司馬。（中国历代人物传记资料库 CBDB 192094）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_T3QJEwNXKUm8fAc29o1Tdg
+        - id: cs_NdxP962OoNnz154wwVWTay
           claim_id: c_wnzXFMChn5S5yMPUvmJYtw
           source_id: s_GCPBV1MrAfs76e144QKXBc
           stance: supports
-          locator: null
+          locator: CBDB:192094
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -157,7 +157,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王貫 | accepted |
 | death.date | 729年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王貫（卒于729年），唐人物。籍贯同州，曾任州司馬。（中国历代人物传记资料库 CBDB 192094） | accepted |
 
 ## 关联关系
 

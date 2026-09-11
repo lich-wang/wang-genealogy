@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王國恩，清人物。籍贯榮縣，入仕監生，曾任知縣。（中国历代人物传记资料库 CBDB 636648）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_g64CdJxcZc7978nM39CtL6
+        - id: cs_z5NKfVKOAGPqU3l6xXkGHM
           claim_id: c_1QK4xfwg9uDwQSmfx26mxq
           source_id: s_Q3Y1C3SBR9E2epS6h2PF7D
           stance: supports
-          locator: null
+          locator: CBDB:636648
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王國恩 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王國恩，清人物。籍贯榮縣，入仕監生，曾任知縣。（中国历代人物传记资料库 CBDB 636648） | accepted |
 
 ## 关联关系
 

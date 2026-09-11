@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王來魯，清人物。籍贯盧氏，入仕監生，曾任典史。（中国历代人物传记资料库 CBDB 636031）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_LWJoZ8chc5qXLY8GdyGMv9
+        - id: cs_1_TRFXfTx2BHzOT3Gfv8Gr
           claim_id: c_mryujv4iXE3Mz86HJgtZae
           source_id: s_NZ3qXTSWGe1s1fKrxBGa4x
           stance: supports
-          locator: null
+          locator: CBDB:636031
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王來魯 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王來魯，清人物。籍贯盧氏，入仕監生，曾任典史。（中国历代人物传记资料库 CBDB 636031） | accepted |
 
 ## 关联关系
 

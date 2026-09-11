@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王稱（1370年—1415年），明人物。籍贯永福，入仕鄉貢舉人。（中国历代人物传记资料库 CBDB 34475）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_GZHMsCz5V9RJfc42XipSCz
+        - id: cs_4GbqOBA9LBelHXGTAYQFO9
           claim_id: c_tuJKVtg94hsC8ta7z98CCg
           source_id: s_kGm2Lbbab7Wf7MjECp1D5M
           stance: supports
-          locator: null
+          locator: CBDB:34475
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -186,7 +186,7 @@ relationships:
 | name.primary | 王稱 | accepted |
 | birth.date | 1370年 | accepted |
 | death.date | 1415年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王稱（1370年—1415年），明人物。籍贯永福，入仕鄉貢舉人。（中国历代人物传记资料库 CBDB 34475） | accepted |
 
 ## 关联关系
 

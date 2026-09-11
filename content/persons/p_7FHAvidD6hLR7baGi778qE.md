@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王浚，明人物。正統四年進士，籍贯江夏。（中国历代人物传记资料库 CBDB 236881）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_NTNt37FETWQBc6y2Xdzf3F
+        - id: cs_PKN7N-LHDntkVdf9Y3T-H-
           claim_id: c_4FLG2729YXgL7JaByd1vYL
           source_id: s_ftB9jgqd8erF7aQSdSKDxa
           stance: supports
-          locator: null
+          locator: CBDB:236881
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王浚 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王浚，明人物。正統四年進士，籍贯江夏。（中国历代人物传记资料库 CBDB 236881） | accepted |
 
 ## 关联关系
 

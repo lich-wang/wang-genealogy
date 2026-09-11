@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王本，宋人物。籍贯金華，曾任太師、魯國公。（中国历代人物传记资料库 CBDB 10685）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_UTcXoa39KNWsFNvSDjRtzj
+        - id: cs_kuH6RSlJw-PsoN-6yHyLjr
           claim_id: c_BtsCLfkPpDSnHGGEisFg9T
           source_id: s_7x6Xmq5yRXsEf53Z6Z6LRV
           stance: supports
-          locator: null
+          locator: CBDB:10685
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -128,7 +128,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王本 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王本，宋人物。籍贯金華，曾任太師、魯國公。（中国历代人物传记资料库 CBDB 10685） | accepted |
 
 ## 关联关系
 

@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王舉（生于1441年），明人物。明清進士進士，籍贯鄒縣，入仕進士。（中国历代人物传记资料库 CBDB 199783）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_nA46C8XMoby6b5QVpT6zE9
+        - id: cs_xwZUS4rW3bOb8oV4o3UnS-
           claim_id: c_Ajw1Agq5AwyEzn2PBnkv2v
           source_id: s_L6P7ygH343rxMdn3XqKfCG
           stance: supports
-          locator: null
+          locator: CBDB:199783
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -232,7 +232,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王舉 | accepted |
 | birth.date | 1441年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王舉（生于1441年），明人物。明清進士進士，籍贯鄒縣，入仕進士。（中国历代人物传记资料库 CBDB 199783） | accepted |
 
 ## 关联关系
 

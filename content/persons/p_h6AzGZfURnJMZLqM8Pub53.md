@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: "王震（1079年—1146年），宋人物。籍贯開封府，入仕學校: 上舍及第，曾任左朝奉大夫、司法參軍、縣丞。（中国历代人物传记资料库 CBDB 37853）"
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_K9gg8t3uwpxQ5H7pV5zx1b
+        - id: cs_hdDp85URDD36T3eIfKJiNk
           claim_id: c_R5ALpHHW86Mb6yNVTZiLch
           source_id: s_oCfJb2aReMkb9ffqJ2JP93
           stance: supports
-          locator: null
+          locator: CBDB:37853
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王震 | accepted |
 | birth.date | 1079年 | accepted |
 | death.date | 1146年 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王震（1079年—1146年），宋人物。籍贯開封府，入仕學校: 上舍及第，曾任左朝奉大夫、司法參軍、縣丞。（中国历代人物传记资料库 CBDB 37853） | accepted |
 
 ## 关联关系
 

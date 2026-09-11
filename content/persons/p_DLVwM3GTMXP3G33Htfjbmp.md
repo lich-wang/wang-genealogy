@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王樽（卒于1797年），清人物。籍贯惠民。（中国历代人物传记资料库 CBDB 69466）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_TRCyLc9kv5QTRT1UPfKrYy
+        - id: cs_ja_g75-FhgLGoiIqBFdPyH
           claim_id: c_Zd311mFF1CRx5yBbuUsZxg
           source_id: s_HxRPHKpP4z7F43TF95F5Zs
           stance: supports
-          locator: null
+          locator: CBDB:69466
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -157,7 +157,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王樽 | accepted |
 | death.date | 1797年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王樽（卒于1797年），清人物。籍贯惠民。（中国历代人物传记资料库 CBDB 69466） | accepted |
 
 ## 关联关系
 

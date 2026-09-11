@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王固（卒于757年），唐人物。曾任州刺史、郎中。（中国历代人物传记资料库 CBDB 192186）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_G5DFgbQsxoyajw25pcfd6C
+        - id: cs_qnb-zkeWVB2jV4OaWBKhFw
           claim_id: c_CFkKcprZnsuHzFQWugQTyq
           source_id: s_KQdPG8ikxE7UsAA53T1xik
           stance: supports
-          locator: null
+          locator: CBDB:192186
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -157,7 +157,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王固 | accepted |
 | death.date | 757年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王固（卒于757年），唐人物。曾任州刺史、郎中。（中国历代人物传记资料库 CBDB 192186） | accepted |
 
 ## 关联关系
 

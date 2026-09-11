@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王三接，清人物。明清進士進士，籍贯曹縣，入仕進士。（中国历代人物传记资料库 CBDB 341731）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_5map5CqYCFq2hJSbdjDo5F
+        - id: cs_77b-1IS1_OeToJQtLhwQdv
           claim_id: c_9DzP1B9YzE6XA6RjKEktDg
           source_id: s_vhG77UWvpwAs7LSidTnkZJ
           stance: supports
-          locator: null
+          locator: CBDB:341731
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王三接 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王三接，清人物。明清進士進士，籍贯曹縣，入仕進士。（中国历代人物传记资料库 CBDB 341731） | accepted |
 
 ## 关联关系
 

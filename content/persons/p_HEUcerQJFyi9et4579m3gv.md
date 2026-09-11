@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王遵訓（1629年—1688年），清人物。籍贯西華，入仕進士，曾任通政、通政司右通政。（中国历代人物传记资料库 CBDB 69461）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_yXXQD6kYBz6KsDtaSM19co
+        - id: cs_QGIgWzCY3rhQMmfbvMTIdY
           claim_id: c_MpiGMUgxXPtGK71VJz9YoT
           source_id: s_wRUdnTyP5CUA1SubSNpUQe
           stance: supports
-          locator: null
+          locator: CBDB:69461
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -175,7 +175,7 @@ relationships:
 | name.primary | 王遵訓 | accepted |
 | birth.date | 1629年 | accepted |
 | death.date | 1688年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王遵訓（1629年—1688年），清人物。籍贯西華，入仕進士，曾任通政、通政司右通政。（中国历代人物传记资料库 CBDB 69461） | accepted |
 
 ## 关联关系
 

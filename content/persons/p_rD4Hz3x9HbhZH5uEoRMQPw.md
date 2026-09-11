@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王臨元（卒于1674年），明人物。籍贯聊城，入仕進士，曾任知縣、僉事。（中国历代人物传记资料库 CBDB 123586）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_hrJ3sncQHzE5qRhrSZt2cV
+        - id: cs_krRErTNvZIOPfUZ2Fx-0fI
           claim_id: c_co9KNXLZmKoB5MjnTULKD7
           source_id: s_4782T63cCA8QF1kpvKBFup
           stance: supports
-          locator: null
+          locator: CBDB:123586
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王臨元 | accepted |
 | death.date | 1674年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王臨元（卒于1674年），明人物。籍贯聊城，入仕進士，曾任知縣、僉事。（中国历代人物传记资料库 CBDB 123586） | accepted |
 
 ## 关联关系
 

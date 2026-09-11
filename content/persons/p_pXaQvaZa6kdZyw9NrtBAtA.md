@@ -7,6 +7,44 @@ display_name: 沈宋圻
 revision: 1
 cbdb_id: 119268
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_rGE2ODBV-HfjZqTQt8B-Uf
+        subject_person_id: p_pXaQvaZa6kdZyw9NrtBAtA
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 沈宋圻，史料所见人物。本项目依据《中国历代人物传记资料库：沈宋圻（CBDB 119268）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__Bt0-2e_vckDIhyaXldOqc
+          claim_id: c_rGE2ODBV-HfjZqTQt8B-Uf
+          source_id: s_wa6MIvAI9dVDSkvm19gcdq
+          stance: supports
+          locator: CBDB:119268
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          source: &a1
+            id: s_wa6MIvAI9dVDSkvm19gcdq
+            source_type: api_record
+            title: 中国历代人物传记资料库：沈宋圻（CBDB 119268）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=119268&o=json
+            external_identifier: CBDB:119268
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:119268
           quotation: null
           interpretation_note: CBDB 明确记录的王琛配偶
-          source: &a1
-            id: s_wa6MIvAI9dVDSkvm19gcdq
-            source_type: api_record
-            title: 中国历代人物传记资料库：沈宋圻（CBDB 119268）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=119268&o=json
-            external_identifier: CBDB:119268
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 沈宋圻，史料所见人物。本项目依据《中国历代人物传记资料库：沈宋圻（CBDB 119268）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
 | name.primary | 沈宋圻 | accepted |
 
 ## 关联关系

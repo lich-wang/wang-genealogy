@@ -7,6 +7,44 @@ display_name: 蘇氏
 revision: 1
 cbdb_id: 551466
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_vsVv4UIId2rGj0UZf1EEqz
+        subject_person_id: p_WTBvV1dQNVSciRnC2pT1GP
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 蘇氏，明人物。籍贯南陽，身份为貞婦/節婦。（中国历代人物传记资料库 CBDB 551466）
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FNW3nsS98f9-uk4n1tqQzc
+          claim_id: c_vsVv4UIId2rGj0UZf1EEqz
+          source_id: s_yGRHsl3lCwBvkgNSDOFCxx
+          stance: supports
+          locator: CBDB:551466
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_yGRHsl3lCwBvkgNSDOFCxx
+            source_type: api_record
+            title: 中国历代人物传记资料库：蘇氏(王家士妻)（CBDB 551466）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=551466&o=json
+            external_identifier: CBDB:551466
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:551466
           quotation: null
           interpretation_note: CBDB 明确记录的王家士配偶
-          source: &a1
-            id: s_yGRHsl3lCwBvkgNSDOFCxx
-            source_type: api_record
-            title: 中国历代人物传记资料库：蘇氏(王家士妻)（CBDB 551466）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=551466&o=json
-            external_identifier: CBDB:551466
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 蘇氏，明人物。籍贯南陽，身份为貞婦/節婦。（中国历代人物传记资料库 CBDB 551466） | accepted |
 | name.primary | 蘇氏 | accepted |
 
 ## 关联关系

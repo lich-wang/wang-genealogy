@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
+          text: 王俊，元人物。曾任等路管民提舉司達魯花赤。（中国历代人物传记资料库 CBDB 100706）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Gi8sqr2jZpYY2iHBdDYn7n
+        - id: cs_Hrr4qs2K0O3kuOyjyLOIli
           claim_id: c_BDqbZqMmzwJ9ALv9GUCDfs
           source_id: s_7Tzk1Gyuma4uVMmL3eBnN9
           stance: supports
-          locator: null
+          locator: CBDB:100706
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王俊 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王俊，元人物。曾任等路管民提舉司達魯花赤。（中国历代人物传记资料库 CBDB 100706） | accepted |
 
 ## 关联关系
 

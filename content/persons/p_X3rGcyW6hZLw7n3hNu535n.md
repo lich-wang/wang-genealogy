@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王從善，清人物。籍贯彰德府，曾任訓導。（中国历代人物传记资料库 CBDB 637655）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_612rh28sjVkXf611z14rvN
+        - id: cs_QjLeF9Du_dqQxlxzbQlad7
           claim_id: c_BEq6BdYrh13vzVfkbxdj9k
           source_id: s_5AHHQ12zY6jSjMZanrrbgn
           stance: supports
-          locator: null
+          locator: CBDB:637655
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王從善 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王從善，清人物。籍贯彰德府，曾任訓導。（中国历代人物传记资料库 CBDB 637655） | accepted |
 
 ## 关联关系
 

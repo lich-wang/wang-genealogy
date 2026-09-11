@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王升，明人物。曾任訓導。（中国历代人物传记资料库 CBDB 473105）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_hXWEcQ2DfQxpLuiwTAtaTn
+        - id: cs_-8OZYpDMNk8zCi639Ttf2Z
           claim_id: c_LziBjSs5dYU73uFyjJ7HV9
           source_id: s_87BFs2eS7Y62fuwmiwHyMA
           stance: supports
-          locator: null
+          locator: CBDB:473105
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王升 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王升，明人物。曾任訓導。（中国历代人物传记资料库 CBDB 473105） | accepted |
 
 ## 关联关系
 

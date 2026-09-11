@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王集（卒于1818年），清人物。籍贯漢軍正紅旗，入仕官學生，曾任冠軍使、旗漢軍副都統、旗蒙古都統。（中国历代人物传记资料库 CBDB 57195）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_C7sQRjcW69zZ1s7HAB6EfK
+        - id: cs_G6mlRRXe0ssxsEVYafpN6T
           claim_id: c_4C3KNpTSEEvfMRLVJFphLj
           source_id: s_2xZsKYDieNdeBQ9zxTbw7a
           stance: supports
-          locator: null
+          locator: CBDB:57195
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王集 | accepted |
 | death.date | 1818年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王集（卒于1818年），清人物。籍贯漢軍正紅旗，入仕官學生，曾任冠軍使、旗漢軍副都統、旗蒙古都統。（中国历代人物传记资料库 CBDB 57195） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王懷忠，宋人物。籍贯開封，入仕恩蔭、蔭補，曾任尚書左右丞、司天監冬官正、東頭供奉官。（中国历代人物传记资料库 CBDB 38385）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_2LNBqfLDSpQhseyTMzU6F7
+        - id: cs_PnG5bhRtTHBZ0ZrU2QVNaZ
           claim_id: c_yWDzrVBAJZRfCWqZc5b9nA
           source_id: s_yESGSrK6gFvdGAKf87k8Ar
           stance: supports
-          locator: null
+          locator: CBDB:38385
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王懷忠 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王懷忠，宋人物。籍贯開封，入仕恩蔭、蔭補，曾任尚書左右丞、司天監冬官正、東頭供奉官。（中国历代人物传记资料库 CBDB 38385） | accepted |
 
 ## 关联关系
 

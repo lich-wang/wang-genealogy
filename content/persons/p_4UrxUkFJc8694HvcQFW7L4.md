@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王憲，明人物。入仕進士，曾任教諭、知縣。（中国历代人物传记资料库 CBDB 494241）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_K2ZVTqJdx8KDo83oDA8UbD
+        - id: cs_nrer5ovLE8eLrGaMQKSDCB
           claim_id: c_UPXq1rXbJ1ExjYAm5uJ7CJ
           source_id: s_YNogGJi8AbLvoqnDLntfHM
           stance: supports
-          locator: null
+          locator: CBDB:494241
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王憲 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王憲，明人物。入仕進士，曾任教諭、知縣。（中国历代人物传记资料库 CBDB 494241） | accepted |
 
 ## 关联关系
 

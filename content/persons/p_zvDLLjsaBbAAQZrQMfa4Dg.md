@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王曉，明人物。正德十二年進士，籍贯句容。（中国历代人物传记资料库 CBDB 280923）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_u22Ba6uTm6H3VGrK8Dz1vd
+        - id: cs_pUK3mXe5t4VVCi-JumPFod
           claim_id: c_oCPS4gzR8rmaZMU8mS1aKi
           source_id: s_gKqK9zooenw3H4HXLwUpwM
           stance: supports
-          locator: null
+          locator: CBDB:280923
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王曉 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王曉，明人物。正德十二年進士，籍贯句容。（中国历代人物传记资料库 CBDB 280923） | accepted |
 
 ## 关联关系
 

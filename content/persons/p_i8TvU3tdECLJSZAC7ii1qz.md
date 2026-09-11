@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王鑑，宋人物。曾任遙郡團練使、武功大夫。（中国历代人物传记资料库 CBDB 45857）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_u5SonPKaWTBdppththCbP8
+        - id: cs_a_TPHyuSIiegsb8sShwWq0
           claim_id: c_HanXY6N85WC1CTnUiPe6YD
           source_id: s_NFXK7z5KUFSe1C6fWEdyRQ
           stance: supports
-          locator: null
+          locator: CBDB:45857
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王鑑 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王鑑，宋人物。曾任遙郡團練使、武功大夫。（中国历代人物传记资料库 CBDB 45857） | accepted |
 
 ## 关联关系
 

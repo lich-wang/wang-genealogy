@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王奎（1460年—1515年），明人物。明清進士進士，籍贯武進，身份为為邑里所重，入仕進士。（中国历代人物传记资料库 CBDB 126602）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_wNyZ7mZHNdSdKNZF3NZHHS
+        - id: cs_QRJDt3mFx4gUtTM6HIPKrv
           claim_id: c_PVZNoLeDv6LK27edus3Psv
           source_id: s_eggYyrDukjfUCHDVDFS77Q
           stance: supports
-          locator: null
+          locator: CBDB:126602
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -260,7 +260,7 @@ relationships:
 | name.primary | 王奎 | accepted |
 | birth.date | 1460年 | accepted |
 | death.date | 1515年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王奎（1460年—1515年），明人物。明清進士進士，籍贯武進，身份为為邑里所重，入仕進士。（中国历代人物传记资料库 CBDB 126602） | accepted |
 
 ## 关联关系
 

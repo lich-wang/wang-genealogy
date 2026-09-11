@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王學（生于1514年），明人物。嘉靖二十三年進士，籍贯陽朔，入仕進士。（中国历代人物传记资料库 CBDB 203587）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_VN4muGQ6uH7J3FaJDAetwB
+        - id: cs_rD-9Znv30fUCm7bEI7oRfI
           claim_id: c_A1q5WxZ3CBK6YUxhGxohK2
           source_id: s_Z58o2X71P1Yga6T4xe26Xv
           stance: supports
-          locator: null
+          locator: CBDB:203587
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -235,7 +235,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王學 | accepted |
 | birth.date | 1514年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王學（生于1514年），明人物。嘉靖二十三年進士，籍贯陽朔，入仕進士。（中国历代人物传记资料库 CBDB 203587） | accepted |
 
 ## 关联关系
 

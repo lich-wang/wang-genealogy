@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王源，宋人物。籍贯雅州，入仕進士。（中国历代人物传记资料库 CBDB 688427）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_P6HWX7PnDXMH2PpYkQi9HM
+        - id: cs_YygelEb3xD1LTyTOV5qDvr
           claim_id: c_dHzGqU7Xi3J85C32wHLvtU
           source_id: s_S9JqsGozN2bgbKaj5i93E2
           stance: supports
-          locator: null
+          locator: CBDB:688427
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王源 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王源，宋人物。籍贯雅州，入仕進士。（中国历代人物传记资料库 CBDB 688427） | accepted |
 
 ## 关联关系
 

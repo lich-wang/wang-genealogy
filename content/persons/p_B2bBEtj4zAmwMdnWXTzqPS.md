@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王木，明人物。嘉靖十七年進士，籍贯嵊縣，曾任提刑按察使司僉事。（中国历代人物传记资料库 CBDB 300369）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_ajEt39jkTNXWXAg5PEwJUY
+        - id: cs_F0GuqF2ty3BAzT-wm2Z3-t
           claim_id: c_LUjRsn7a3iyqrdnL1Drki3
           source_id: s_vHCTJAtTmVEVHsdzJDuFeg
           stance: supports
-          locator: null
+          locator: CBDB:300369
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王木 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王木，明人物。嘉靖十七年進士，籍贯嵊縣，曾任提刑按察使司僉事。（中国历代人物传记资料库 CBDB 300369） | accepted |
 
 ## 关联关系
 

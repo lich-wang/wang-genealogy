@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王際華（1717年—1776年），清人物。明清進士進士，籍贯錢塘，入仕進士，曾任編修、兵部侍郎、戶部侍郎。（中国历代人物传记资料库 CBDB 57212）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_rXD8Qy2Un6MMVGJBhH3wuW
+        - id: cs_rAX3MAWGhXQxXTu3N8dN2v
           claim_id: c_3H1h1Cc4dot19W3VcSJKD6
           source_id: s_vTYLrF15KPBPmMrS43m1io
           stance: supports
-          locator: null
+          locator: CBDB:57212
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王際華 | accepted |
 | birth.date | 1717年 | accepted |
 | death.date | 1776年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王際華（1717年—1776年），清人物。明清進士進士，籍贯錢塘，入仕進士，曾任編修、兵部侍郎、戶部侍郎。（中国历代人物传记资料库 CBDB 57212） | accepted |
 
 ## 关联关系
 

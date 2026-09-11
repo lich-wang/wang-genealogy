@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王洸，清人物。籍贯奉天府，曾任知府。（中国历代人物传记资料库 CBDB 639094）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_L2VATzSAJ8sw8MeFSoMbdq
+        - id: cs_DJQqmzOvDlFqBN8sHkfjNj
           claim_id: c_EzF69FmC2JkZdbaj6W7AB9
           source_id: s_qzyxmLEw81a18imgFEaFK9
           stance: supports
-          locator: null
+          locator: CBDB:639094
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王洸 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王洸，清人物。籍贯奉天府，曾任知府。（中国历代人物传记资料库 CBDB 639094） | accepted |
 
 ## 关联关系
 

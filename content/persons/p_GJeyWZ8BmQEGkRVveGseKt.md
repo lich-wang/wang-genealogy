@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王方徹（772年—840年），唐人物。籍贯廣平。（中国历代人物传记资料库 CBDB 141793）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_4vysyxAgBaLEJEkZRdw29n
+        - id: cs__ZtJTaHZWT1COuQVX-W968
           claim_id: c_PLdMjHjjmPXo5vg6iJYTwF
           source_id: s_EX3U4a4j8KHM9p8usA792N
           stance: supports
-          locator: null
+          locator: CBDB:141793
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -249,7 +249,7 @@ relationships:
 | name.primary | 王方徹 | accepted |
 | birth.date | 772年 | accepted |
 | death.date | 840年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王方徹（772年—840年），唐人物。籍贯廣平。（中国历代人物传记资料库 CBDB 141793） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王渫，清人物。明清進士進士，籍贯平湖，入仕進士。（中国历代人物传记资料库 CBDB 342741）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_KiHGW8WJZnd6dBNx7VZr29
+        - id: cs_cIhLHAIN8MMRBQJ6Re6nBz
           claim_id: c_R2v2cypaLncJ5JMZEiMZ88
           source_id: s_oeL7GkH5EjtBG1PbpNfGh2
           stance: supports
-          locator: null
+          locator: CBDB:342741
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王渫 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王渫，清人物。明清進士進士，籍贯平湖，入仕進士。（中国历代人物传记资料库 CBDB 342741） | accepted |
 
 ## 关联关系
 

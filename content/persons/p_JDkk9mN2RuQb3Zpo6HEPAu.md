@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王泰徵，明人物。明清進士進士，籍贯江陵，身份为隱居授徒，入仕進士。（中国历代人物传记资料库 CBDB 343340）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_avBZ2yGhNcGromQiLx6cuc
+        - id: cs_v4jNgXWcVa1Q6fC8GM2uw8
           claim_id: c_Q6A8XgkLe6gdzMwydxWGfP
           source_id: s_bettZ14zHZ6AabAnPdZHnv
           stance: supports
-          locator: null
+          locator: CBDB:343340
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -128,7 +128,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王泰徵 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王泰徵，明人物。明清進士進士，籍贯江陵，身份为隱居授徒，入仕進士。（中国历代人物传记资料库 CBDB 343340） | accepted |
 
 ## 关联关系
 

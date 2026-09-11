@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王發邦，清人物。身份为死國難。（中国历代人物传记资料库 CBDB 695254）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_phf5u5KVtFLPBAz1j6XtC7
+        - id: cs_hu32SCzE9bC8aj6WUShN0p
           claim_id: c_XH4NFA6kLAkyo55qXTgVBY
           source_id: s_7PJ1KStoDAeU8PGNAKuA3w
           stance: supports
-          locator: null
+          locator: CBDB:695254
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王發邦 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王發邦，清人物。身份为死國難。（中国历代人物传记资料库 CBDB 695254） | accepted |
 
 ## 关联关系
 

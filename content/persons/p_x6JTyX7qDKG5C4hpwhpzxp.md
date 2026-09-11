@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王重光，明人物。萬曆五年進士，籍贯新城，曾任布政使司左參議、鴻臚寺卿。（中国历代人物传记资料库 CBDB 217732）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_tBReT9UonV7d4WfvZV4nkb
+        - id: cs_LhPz5pd4-rYfg5Wl7CnXOk
           claim_id: c_jJPRh31PdecHJ91fHmbKpk
           source_id: s_FD8PVwbNnLwfYhK5NKbWPj
           stance: supports
-          locator: null
+          locator: CBDB:217732
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王重光 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王重光，明人物。萬曆五年進士，籍贯新城，曾任布政使司左參議、鴻臚寺卿。（中国历代人物传记资料库 CBDB 217732） | accepted |
 
 ## 关联关系
 

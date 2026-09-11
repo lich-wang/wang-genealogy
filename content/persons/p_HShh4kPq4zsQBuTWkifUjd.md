@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王可久，宋人物。曾任大理寺丞、縣令。（中国历代人物传记资料库 CBDB 38380）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Zi1qGcdKBsgWn4heFiGhyA
+        - id: cs_hWluMYYL4R0TUii8RqQqLf
           claim_id: c_B6GeNZYQWquguqM1JFi4EQ
           source_id: s_EHRFKVLZtrtjD3V3qtA9FL
           stance: supports
-          locator: null
+          locator: CBDB:38380
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王可久 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王可久，宋人物。曾任大理寺丞、縣令。（中国历代人物传记资料库 CBDB 38380） | accepted |
 
 ## 关联关系
 

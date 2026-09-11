@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王仙（卒于1281年），宋人物。曾任統制。（中国历代人物传记资料库 CBDB 38681）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Uri6v8X1Cz5C5w4FYRM6u6
+        - id: cs_g-U9clgx4R_FEM6NvbmTZE
           claim_id: c_SRCtFF2DiuZAmL2Ni2bv1W
           source_id: s_zVeHEp5SBBuFPRCZKJsW8K
           stance: supports
-          locator: null
+          locator: CBDB:38681
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王仙 | accepted |
 | death.date | 1281年 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王仙（卒于1281年），宋人物。曾任統制。（中国历代人物传记资料库 CBDB 38681） | accepted |
 
 ## 关联关系
 

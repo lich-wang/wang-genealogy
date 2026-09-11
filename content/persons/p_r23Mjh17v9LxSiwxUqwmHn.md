@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王垍，宋人物。身份为宗室女夫，曾任承節郎。（中国历代人物传记资料库 CBDB 573318）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_s6oAHKmEmaNVKMQe3SHX3m
+        - id: cs_1sjtfpdBJxRtWsjk8RI6y0
           claim_id: c_H8kxB7xbBsNjW7jQUdheje
           source_id: s_VKy9QTDkP8u4QRDMKh5dhz
           stance: supports
-          locator: null
+          locator: CBDB:573318
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -154,7 +154,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王垍 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王垍，宋人物。身份为宗室女夫，曾任承節郎。（中国历代人物传记资料库 CBDB 573318） | accepted |
 
 ## 关联关系
 

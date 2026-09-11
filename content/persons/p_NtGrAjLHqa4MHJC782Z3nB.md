@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王從善，明人物。明清進士進士，籍贯襄陽，入仕進士，曾任主事。（中国历代人物传记资料库 CBDB 135078）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_aGxrWyQiYbLgFCjHBQqBkU
+        - id: cs_dOamrg48tJZcgakDVlgsC_
           claim_id: c_LLx3x3z1n8tNq22zpFmrpE
           source_id: s_VKNrPccMyDQtSk3ar5XKa8
           stance: supports
-          locator: null
+          locator: CBDB:135078
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王從善 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王從善，明人物。明清進士進士，籍贯襄陽，入仕進士，曾任主事。（中国历代人物传记资料库 CBDB 135078） | accepted |
 
 ## 关联关系
 

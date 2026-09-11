@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
-          language: zh-Hans
+          text: 王懋德，元人物。籍贯高唐，曾任南臺察院監察御史、肅政廉訪司廉訪使、行中書省參政。（中国历代人物传记资料库 CBDB 101451）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_vCajE6rqcqJTSBJ9ijNyf8
+        - id: cs_o8tNmvcPz8l93t9Tlf2c_A
           claim_id: c_43AicA3Tj31JTj1c94HpNP
           source_id: s_cN7grJ4dNAVL6Leyfrf4eg
           stance: supports
-          locator: null
+          locator: CBDB:101451
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王懋德 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王懋德，元人物。籍贯高唐，曾任南臺察院監察御史、肅政廉訪司廉訪使、行中書省參政。（中国历代人物传记资料库 CBDB 101451） | accepted |
 
 ## 关联关系
 

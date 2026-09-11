@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
+          text: 王良，元人物。曾任諸路總管府總管。（中国历代人物传记资料库 CBDB 100682）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_aZ52XA4hbNzGMowv2KNSE6
+        - id: cs_KHu6xhbf_epcWEPHkexbrm
           claim_id: c_G5DR6Y6g6x498PwhT7JJg8
           source_id: s_MjAqU8qXoXyUGLA5dw6M6h
           stance: supports
-          locator: null
+          locator: CBDB:100682
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王良 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王良，元人物。曾任諸路總管府總管。（中国历代人物传记资料库 CBDB 100682） | accepted |
 
 ## 关联关系
 

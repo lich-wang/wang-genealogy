@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王本善，清人物。籍贯武昌，入仕鄉貢舉人，曾任復設訓導。（中国历代人物传记资料库 CBDB 638653）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_f95t9YXGJVKn5pA3VmZHeJ
+        - id: cs_enmvDFGzdTgmpMGgdZdjiH
           claim_id: c_YGX1nKe5hZuQRDEdRW3uYt
           source_id: s_8HLEXLaa8qFfXiNy1GtM3T
           stance: supports
-          locator: null
+          locator: CBDB:638653
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王本善 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王本善，清人物。籍贯武昌，入仕鄉貢舉人，曾任復設訓導。（中国历代人物传记资料库 CBDB 638653） | accepted |
 
 ## 关联关系
 

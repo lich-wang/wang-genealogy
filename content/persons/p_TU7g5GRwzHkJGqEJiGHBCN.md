@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王仲修，宋人物。籍贯東明，入仕進士，曾任司戶參軍、崇文院校書。（中国历代人物传记资料库 CBDB 17934）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_sddvmHfp82SAKnCT6dCoqz
+        - id: cs_auiAZXMBf76xATylghFtGI
           claim_id: c_eoPg8W1FcC6b3JkoKkMKTy
           source_id: s_JwiV4bCpUHJUa7Ho3vQATF
           stance: supports
-          locator: null
+          locator: CBDB:17934
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王仲修 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王仲修，宋人物。籍贯東明，入仕進士，曾任司戶參軍、崇文院校書。（中国历代人物传记资料库 CBDB 17934） | accepted |
 
 ## 关联关系
 

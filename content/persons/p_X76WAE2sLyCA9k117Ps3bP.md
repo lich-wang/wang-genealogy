@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王綱，明人物。入仕進士，曾任戶部主事。（中国历代人物传记资料库 CBDB 67771）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_92CSKWSjfTkKQWH2xAY7nt
+        - id: cs_yq1oSTmj6Rl_YI4nBSby0K
           claim_id: c_P9vZzc8HZydov1YzdqRant
           source_id: s_wBXa5Ddu2xz39aQ61vuGpw
           stance: supports
-          locator: null
+          locator: CBDB:67771
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王綱 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王綱，明人物。入仕進士，曾任戶部主事。（中国历代人物传记资料库 CBDB 67771） | accepted |
 
 ## 关联关系
 

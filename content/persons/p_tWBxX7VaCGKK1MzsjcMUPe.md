@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王俅（1445年—1507年），明人物。籍贯泰和，曾任知府、光祿寺署正。（中国历代人物传记资料库 CBDB 126618）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_3k969mbGaiYtF8faKZrDPU
+        - id: cs_YiN1oM6X2TuZ3yD7zfrdMi
           claim_id: c_edfsYTNGEeJ8GP4kfdS2Xn
           source_id: s_9d8eFvARZS39BtPnnXhoo6
           stance: supports
-          locator: null
+          locator: CBDB:126618
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王俅 | accepted |
 | birth.date | 1445年 | accepted |
 | death.date | 1507年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王俅（1445年—1507年），明人物。籍贯泰和，曾任知府、光祿寺署正。（中国历代人物传记资料库 CBDB 126618） | accepted |
 
 ## 关联关系
 

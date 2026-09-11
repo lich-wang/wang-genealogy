@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: "王竒，清人物。籍贯渮澤，入仕貢生: 拔貢，曾任教諭、知縣。（中国历代人物传记资料库 CBDB 699010）"
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_o8vdjA3NGV1wUnNHsX2bc2
+        - id: cs_CL26xMKhiUSdlDCnD6CB1B
           claim_id: c_8sMmFRBjBCXmGw1U8DYmJA
           source_id: s_pMXsUfJY2Vi9Ky3jL1u8Fi
           stance: supports
-          locator: null
+          locator: CBDB:699010
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -143,7 +143,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王竒 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王竒，清人物。籍贯渮澤，入仕貢生: 拔貢，曾任教諭、知縣。（中国历代人物传记资料库 CBDB 699010） | accepted |
 
 ## 关联关系
 

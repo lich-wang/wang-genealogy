@@ -51,7 +51,7 @@ properties:
           locator: CBDB:342565
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source:
+          source: &a2
             id: s_J4e7kFQtZvepAdndsKGBzG
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：王之都（342565）
@@ -76,11 +76,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 明朝官员
+          text: 王之都，明人物。明清進士進士，籍贯新城，入仕進士。（中国历代人物传记资料库 CBDB 342565）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
         - id: cs_axM8UUJpLK8Z9YHjx2gX6M
           claim_id: c_UunREWjDVPRwDw51FVvg18
@@ -90,6 +90,14 @@ properties:
           quotation: null
           interpretation_note: 维基数据条目描述
           source: *a1
+        - id: cs_cGX-iurnl0O7SRw8JdpWdw
+          claim_id: c_UunREWjDVPRwDw51FVvg18
+          source_id: s_J4e7kFQtZvepAdndsKGBzG
+          stance: supports
+          locator: CBDB:342565
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: *a2
       object_person: null
     alternatives: []
 relationships:
@@ -157,7 +165,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王之都 | accepted |
-| bio.summary | 明朝官员 | accepted |
+| bio.summary | 王之都，明人物。明清進士進士，籍贯新城，入仕進士。（中国历代人物传记资料库 CBDB 342565） | accepted |
 
 ## 关联关系
 

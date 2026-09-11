@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王大年，明人物。入仕進士，曾任御史、知縣。（中国历代人物传记资料库 CBDB 501595）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_1v5nKsqDH9Da1u23219ETv
+        - id: cs_TgIFUW_gBli5ybZs-P7_-k
           claim_id: c_TiUv8PUVL4nQMht6y4KtKf
           source_id: s_BxYT51wz5U1GPXKpXqXSMc
           stance: supports
-          locator: null
+          locator: CBDB:501595
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王大年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王大年，明人物。入仕進士，曾任御史、知縣。（中国历代人物传记资料库 CBDB 501595） | accepted |
 
 ## 关联关系
 

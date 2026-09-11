@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
+          text: 王銓，元人物。曾任郊祀署丞、知州。（中国历代人物传记资料库 CBDB 100929）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_h9M9HkpsRmpHHMQA7C3U6D
+        - id: cs_qA4Gusprt_JDfb3TAK3K_t
           claim_id: c_5tvqCMaLmnJWK7QuJ8KSQa
           source_id: s_jun4bejrjYwJef5RWXnEkh
           stance: supports
-          locator: null
+          locator: CBDB:100929
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王銓 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王銓，元人物。曾任郊祀署丞、知州。（中国历代人物传记资料库 CBDB 100929） | accepted |
 
 ## 关联关系
 

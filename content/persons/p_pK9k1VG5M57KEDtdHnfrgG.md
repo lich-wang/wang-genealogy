@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
-          language: zh-Hans
+          text: 王震，元人物。曾任縣學教諭。（中国历代人物传记资料库 CBDB 465880）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Y2kx7C4KViByEPwduPxeXA
+        - id: cs_BISzozfd2xZReXYqq3-O09
           claim_id: c_LGy9Dhs4afUAQADGFMEaCZ
           source_id: s_79NHcKPEQjWyD6BRWc18du
           stance: supports
-          locator: null
+          locator: CBDB:465880
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王震 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王震，元人物。曾任縣學教諭。（中国历代人物传记资料库 CBDB 465880） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王琅，明人物。成化五年進士，籍贯望江。（中国历代人物传记资料库 CBDB 242778）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_J3aF898hB1LEynnTqH7LUn
+        - id: cs_D_LaaDySjCqlyhKGpkZ88t
           claim_id: c_dq1SaCHn7jJYx72yKDsETt
           source_id: s_P7bNGJt8XBH1U1EWzCphNT
           stance: supports
-          locator: null
+          locator: CBDB:242778
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王琅 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王琅，明人物。成化五年進士，籍贯望江。（中国历代人物传记资料库 CBDB 242778） | accepted |
 
 ## 关联关系
 

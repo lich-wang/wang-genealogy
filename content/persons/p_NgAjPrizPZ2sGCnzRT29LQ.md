@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王琯（卒于780年），唐人物。曾任大理評事。（中国历代人物传记资料库 CBDB 193220）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_xNbxx6QMepEjqa6towBsRB
+        - id: cs_F2AbhNzMt47a3uUDbL33m6
           claim_id: c_16mQV3uN8hQ6SF2DJZ5Mjj
           source_id: s_pPk5RvS379yLZX5FTgbRtM
           stance: supports
-          locator: null
+          locator: CBDB:193220
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王琯 | accepted |
 | death.date | 780年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王琯（卒于780年），唐人物。曾任大理評事。（中国历代人物传记资料库 CBDB 193220） | accepted |
 
 ## 关联关系
 

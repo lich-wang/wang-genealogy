@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王召金，清人物。籍贯順天府，入仕鄉貢舉人，曾任學正。（中国历代人物传记资料库 CBDB 636478）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_4r5nBHgLa4LgT9pthzGjdk
+        - id: cs_KiWzKXviD0W044yl3zWM8B
           claim_id: c_NeLzfDfDUUo9cCHtiP3RKC
           source_id: s_YmJckzY4KRv7YtoEGR4vAr
           stance: supports
-          locator: null
+          locator: CBDB:636478
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王召金 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王召金，清人物。籍贯順天府，入仕鄉貢舉人，曾任學正。（中国历代人物传记资料库 CBDB 636478） | accepted |
 
 ## 关联关系
 

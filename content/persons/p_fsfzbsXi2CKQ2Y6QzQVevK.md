@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王莘（1476年—1545年），明人物。明清進士進士，籍贯江陰，入仕進士，曾任知縣、知州、南京工部主事。（中国历代人物传记资料库 CBDB 126692）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_smC2Cv4HbSRUkCZoA9icUx
+        - id: cs_etlhbKQdxS0j5DZt5rzvfA
           claim_id: c_qKsQj2ijEwEy2QRM6gKCuG
           source_id: s_e4gn9sbVUfNayyCtQbAqLZ
           stance: supports
-          locator: null
+          locator: CBDB:126692
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -264,7 +264,7 @@ relationships:
 | name.primary | 王莘 | accepted |
 | birth.date | 1476年 | accepted |
 | death.date | 1545年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王莘（1476年—1545年），明人物。明清進士進士，籍贯江陰，入仕進士，曾任知縣、知州、南京工部主事。（中国历代人物传记资料库 CBDB 126692） | accepted |
 
 ## 关联关系
 

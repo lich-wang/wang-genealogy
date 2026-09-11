@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王沛（卒于827年），唐人物。曾任使、州刺史。（中国历代人物传记资料库 CBDB 189525）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_JS6s4yo2NuqqkfP3iSVzaQ
+        - id: cs_GFGrqPLcmWoFiB-aHJIFUn
           claim_id: c_22xCG65TbH1oX3NBV1QvMj
           source_id: s_x1UTCchbiPjQxFuZpDgrVK
           stance: supports
-          locator: null
+          locator: CBDB:189525
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -157,7 +157,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王沛 | accepted |
 | death.date | 827年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王沛（卒于827年），唐人物。曾任使、州刺史。（中国历代人物传记资料库 CBDB 189525） | accepted |
 
 ## 关联关系
 

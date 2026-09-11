@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王思義，明人物。嘉靖十四年進士，籍贯深州，曾任義官。（中国历代人物传记资料库 CBDB 295401）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_bPAPwRH1Mrh6Zw2Pgv1hKU
+        - id: cs_PbIsY22yIJDBUfgt0znD4M
           claim_id: c_GqLctBhFh59ypxn6EHtG39
           source_id: s_Z1UAeer9JCApwkCDbSAv77
           stance: supports
-          locator: null
+          locator: CBDB:295401
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -128,7 +128,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王思義 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王思義，明人物。嘉靖十四年進士，籍贯深州，曾任義官。（中国历代人物传记资料库 CBDB 295401） | accepted |
 
 ## 关联关系
 

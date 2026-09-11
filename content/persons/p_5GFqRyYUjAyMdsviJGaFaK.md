@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: "王同人，清人物。籍贯開封府，入仕貢生: 拔貢，曾任訓導。（中国历代人物传记资料库 CBDB 636497）"
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_CLGhDd6j4yTtE6Bo8gcsQE
+        - id: cs_i1muCzPApM1Y9LdgOZNOjd
           claim_id: c_V5q4BYZGoU4Re166Cywqbk
           source_id: s_awjXSKSUSGE56HEQJne5QH
           stance: supports
-          locator: null
+          locator: CBDB:636497
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王同人 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王同人，清人物。籍贯開封府，入仕貢生: 拔貢，曾任訓導。（中国历代人物传记资料库 CBDB 636497） | accepted |
 
 ## 关联关系
 

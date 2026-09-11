@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: "王槃，清人物。入仕貢生: 拔貢，曾任知州。（中国历代人物传记资料库 CBDB 456654）"
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_mTM2rcYr2r8WnunE1Likc7
+        - id: cs_XcXjbQfeJCIsWoP3U2wxMB
           claim_id: c_kHAHVuzqDtC6eMjD5XVg7n
           source_id: s_mwgKiZXnTUfrxd1DqnnNMw
           stance: supports
-          locator: null
+          locator: CBDB:456654
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王槃 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王槃，清人物。入仕貢生: 拔貢，曾任知州。（中国历代人物传记资料库 CBDB 456654） | accepted |
 
 ## 关联关系
 

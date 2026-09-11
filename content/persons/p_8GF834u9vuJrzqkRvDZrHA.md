@@ -7,6 +7,44 @@ display_name: 吴氏
 cbdb_id: 437905
 revision: 1
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_3mfP6GrfG3SRqTLD2lKQBj
+        subject_person_id: p_8GF834u9vuJrzqkRvDZrHA
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 吴氏，明人物。曾任孺人。（中国历代人物传记资料库 CBDB 437905）
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_q5N7ukoyRX0LNCpOY6aYaW
+          claim_id: c_3mfP6GrfG3SRqTLD2lKQBj
+          source_id: s_vPPLRuUvDxmDhyN7PpDKpm
+          stance: supports
+          locator: CBDB:437905
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_vPPLRuUvDxmDhyN7PpDKpm
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：吳氏（437905）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=437905&o=json
+            external_identifier: CBDB:437905
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,7 +69,7 @@ properties:
           locator: Q65904236
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source: &a1
+          source: &a2
             id: s_1etS6b7DFhjigtQyStvchA
             source_type: api_record
             title: 维基数据：吴氏（Q65904236）
@@ -50,18 +88,7 @@ properties:
           locator: CBDB:437905
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source:
-            id: s_vPPLRuUvDxmDhyN7PpDKpm
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：吳氏（437905）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=437905&o=json
-            external_identifier: CBDB:437905
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T08:06:50.055Z
-            metadata_json: null
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,7 +117,7 @@ relationships:
           locator: P26（配偶）
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: *a2
         - id: cs_KEmiUpvFMHziwVFXZMTT72
           claim_id: c_EXyCCWwSnwaQ7SkXr6LTEG
           source_id: s_LPKamJ78vzJUu4765xEYKj
@@ -147,6 +174,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 吴氏，明人物。曾任孺人。（中国历代人物传记资料库 CBDB 437905） | accepted |
 | name.primary | 吴氏 | accepted |
 
 ## 关联关系

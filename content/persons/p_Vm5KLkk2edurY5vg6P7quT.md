@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
+          text: 王公亮，元人物。曾任縣主簿。（中国历代人物传记资料库 CBDB 101069）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_CkTp3u8zv2cbfkLPK6NARx
+        - id: cs_jihO9LKXSMXybHq4IYT7sg
           claim_id: c_Ds7WkxTKP23NU5EDguqGBr
           source_id: s_siacuJF6xjG7rYX8wNZo6f
           stance: supports
-          locator: null
+          locator: CBDB:101069
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王公亮 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王公亮，元人物。曾任縣主簿。（中国历代人物传记资料库 CBDB 101069） | accepted |
 
 ## 关联关系
 

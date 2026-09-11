@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王訓之，宋人物。入仕進士。（中国历代人物传记资料库 CBDB 532869）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_rfJfWQbbFPkjsPhneEDMDH
+        - id: cs_lg63zAiDa4qQlWHh1zg60u
           claim_id: c_4wKtGigFSHzX4AjMAy7tX5
           source_id: s_5Tk5d3VsxayePAd18iaygX
           stance: supports
-          locator: null
+          locator: CBDB:532869
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王訓之 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王訓之，宋人物。入仕進士。（中国历代人物传记资料库 CBDB 532869） | accepted |
 
 ## 关联关系
 

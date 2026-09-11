@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王熙，宋人物。籍贯長溪，入仕進士。（中国历代人物传记资料库 CBDB 685065）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_iDaWLs2vHzqC4bBoYiKidQ
+        - id: cs_ydB1L6t7ZzPKOKl3FWGc8e
           claim_id: c_GqteSY7Nem7DtKbAJxJZjt
           source_id: s_QFCF61w4sZPHoQ81ghFVKV
           stance: supports
-          locator: null
+          locator: CBDB:685065
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王熙 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王熙，宋人物。籍贯長溪，入仕進士。（中国历代人物传记资料库 CBDB 685065） | accepted |
 
 ## 关联关系
 

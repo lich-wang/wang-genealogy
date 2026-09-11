@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
-          language: zh-Hans
+          text: 王構，元人物。籍贯平定州，入仕以茂才,才行,武功,廉仁等科舉/授官 （非制科），曾任國子監丞、翰林國史院國史編修官、監察御史。（中国历代人物传记资料库 CBDB 100906）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_ph3d3UH3Uay8jfLuLmy6Fd
+        - id: cs_14jPHAXe0ildydDRm_5Qrf
           claim_id: c_7JCVqVPaiFMgUVEdmZPqRH
           source_id: s_qBJDwCeBmJVQwLK7GxUpAZ
           stance: supports
-          locator: null
+          locator: CBDB:100906
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王構 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王構，元人物。籍贯平定州，入仕以茂才,才行,武功,廉仁等科舉/授官 （非制科），曾任國子監丞、翰林國史院國史編修官、監察御史。（中国历代人物传记资料库 CBDB 100906） | accepted |
 
 ## 关联关系
 

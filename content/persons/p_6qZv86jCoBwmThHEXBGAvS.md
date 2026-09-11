@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王瑤（生于1426年），明人物。明清進士進士，籍贯襄陽，入仕進士。（中国历代人物传记资料库 CBDB 198525）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_jd75uG4QKUasVU41UpFM29
+        - id: cs_h-20j7P4qHTk1k_QatwBn3
           claim_id: c_o5GkoC63NCpMPXZ3LjJDhW
           source_id: s_MPoPF84g8Kc91cXSaB5ix9
           stance: supports
-          locator: null
+          locator: CBDB:198525
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -235,7 +235,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王瑤 | accepted |
 | birth.date | 1426年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王瑤（生于1426年），明人物。明清進士進士，籍贯襄陽，入仕進士。（中国历代人物传记资料库 CBDB 198525） | accepted |
 
 ## 关联关系
 

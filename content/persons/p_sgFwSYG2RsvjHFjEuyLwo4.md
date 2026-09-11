@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: "王煜文，清人物。籍贯婺源，入仕貢生: 拔貢，曾任翰林院庶吉士、知縣。（中国历代人物传记资料库 CBDB 551386）"
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_BLRkDHtditEdau5KPa1SEr
+        - id: cs_ltHJV7x_bUFCMrDwtAp686
           claim_id: c_mP3qC2BGEzyxGrNQ6wkrD5
           source_id: s_SxrKMr6A9jU2yTp2Y7FovN
           stance: supports
-          locator: null
+          locator: CBDB:551386
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -202,7 +202,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王煜文 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王煜文，清人物。籍贯婺源，入仕貢生: 拔貢，曾任翰林院庶吉士、知縣。（中国历代人物传记资料库 CBDB 551386） | accepted |
 
 ## 关联关系
 

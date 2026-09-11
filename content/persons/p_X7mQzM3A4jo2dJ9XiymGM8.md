@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王濯，唐人物。身份为詩人，入仕進士。（中国历代人物传记资料库 CBDB 92125）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_k8qCj6W7ZJ3LQE5b4Zaxcb
+        - id: cs_IYsE28Hn8vrkse3Z6CsyVI
           claim_id: c_GkgSMLQbsL1gmDRSNXAWDc
           source_id: s_NLkiHkBDYj3vfks7nu2A1j
           stance: supports
-          locator: null
+          locator: CBDB:92125
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王濯 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王濯，唐人物。身份为詩人，入仕進士。（中国历代人物传记资料库 CBDB 92125） | accepted |
 
 ## 关联关系
 

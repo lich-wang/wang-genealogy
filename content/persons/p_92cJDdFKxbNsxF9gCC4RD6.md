@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王日烜（生于1815年），清人物。籍贯龍游。（中国历代人物传记资料库 CBDB 71392）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_hPEh2JYQgT7rec8DLWWgc3
+        - id: cs_dOGgbuf57S4zuMP4RmgQe9
           claim_id: c_XuD7WGDfXbPpfv6i2Xjynj
           source_id: s_h9WhvimvqjW9i5LmNRrHMw
           stance: supports
-          locator: null
+          locator: CBDB:71392
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王日烜 | accepted |
 | birth.date | 1815年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王日烜（生于1815年），清人物。籍贯龍游。（中国历代人物传记资料库 CBDB 71392） | accepted |
 
 ## 关联关系
 

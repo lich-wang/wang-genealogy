@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王綿曾，清人物。籍贯隴西，入仕監生，曾任知縣。（中国历代人物传记资料库 CBDB 639841）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_6uyv2xfT5zuxsLR1fSEJT7
+        - id: cs_22lmWrZFo6H1FhieUL_Z9C
           claim_id: c_P7vsQLXLPGFPeSD2cm2tcG
           source_id: s_inuEuvwSQxq9vXM5CZz77h
           stance: supports
-          locator: null
+          locator: CBDB:639841
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王綿曾 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王綿曾，清人物。籍贯隴西，入仕監生，曾任知縣。（中国历代人物传记资料库 CBDB 639841） | accepted |
 
 ## 关联关系
 

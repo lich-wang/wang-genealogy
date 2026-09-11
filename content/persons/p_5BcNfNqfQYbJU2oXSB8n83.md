@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王玉良，清人物。籍贯山東省，入仕行伍，曾任把總。（中国历代人物传记资料库 CBDB 639386）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_7cApdnJiNxtaY88MCcj53H
+        - id: cs_xl02uX_I_zAcWLFQn-mbA8
           claim_id: c_7A9CcAiE2A9MHyLg5BQWBt
           source_id: s_1D8MC3VJno3dWAQ9ddu955
           stance: supports
-          locator: null
+          locator: CBDB:639386
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王玉良 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王玉良，清人物。籍贯山東省，入仕行伍，曾任把總。（中国历代人物传记资料库 CBDB 639386） | accepted |
 
 ## 关联关系
 

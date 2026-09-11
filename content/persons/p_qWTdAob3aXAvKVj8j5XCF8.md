@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
-          language: zh-Hans
+          text: 王師心，元人物。曾任祕書少監。（中国历代人物传记资料库 CBDB 101303）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_1WHPRBNEvduS5euTLh33mk
+        - id: cs_xfUzOzQov7jMnDQOyKcQCu
           claim_id: c_Lgg5AA1jfEZR3Ek9L6QcUC
           source_id: s_LcRo6HJzWYaYaZwu2yLcd3
           stance: supports
-          locator: null
+          locator: CBDB:101303
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王師心 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王師心，元人物。曾任祕書少監。（中国历代人物传记资料库 CBDB 101303） | accepted |
 
 ## 关联关系
 

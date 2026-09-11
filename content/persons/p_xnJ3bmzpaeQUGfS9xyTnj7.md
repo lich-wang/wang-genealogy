@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王廷貴，清人物。籍贯湖北省，入仕行伍，曾任左營遊擊。（中国历代人物传记资料库 CBDB 637563）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Qk2Xchd1M7HaB4dPXYDH6M
+        - id: cs_zO2FZqHmaitX7pgfoSTyZh
           claim_id: c_XWNVMUeiWVm6z7wGhjz4bK
           source_id: s_8ETRYiGDrbV41gdPybEZfU
           stance: supports
-          locator: null
+          locator: CBDB:637563
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王廷貴 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王廷貴，清人物。籍贯湖北省，入仕行伍，曾任左營遊擊。（中国历代人物传记资料库 CBDB 637563） | accepted |
 
 ## 关联关系
 

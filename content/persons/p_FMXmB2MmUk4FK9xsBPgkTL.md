@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王澈（757年—830年），唐人物。籍贯河南，曾任縣令。（中国历代人物传记资料库 CBDB 145283）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_7pY2a5DMajSDCg8xNxDQQh
+        - id: cs_SK8_Ibo36JtddMsByYMTDB
           claim_id: c_FyQ8NMnriTRL32XgXhQzYi
           source_id: s_MX4N5wv6B9wWJBWsvey5KM
           stance: supports
-          locator: null
+          locator: CBDB:145283
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -201,7 +201,7 @@ relationships:
 | name.primary | 王澈 | accepted |
 | birth.date | 757年 | accepted |
 | death.date | 830年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王澈（757年—830年），唐人物。籍贯河南，曾任縣令。（中国历代人物传记资料库 CBDB 145283） | accepted |
 
 ## 关联关系
 

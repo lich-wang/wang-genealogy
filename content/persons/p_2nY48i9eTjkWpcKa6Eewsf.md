@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为周人物
-          language: zh-Hans
+          text: 王元感（卒于694年），周人物。籍贯濮州，入仕明經，曾任崇賢館學士、四門博士、太子司儀郎。（中国历代人物传记资料库 CBDB 91976）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_EXR8u1Q9Skrw9RWZ1BAEHD
+        - id: cs_e2YlDHPsel9AnKOXvnfoWK
           claim_id: c_coHsGN16Xotvpa9hJTzQn2
           source_id: s_pFLUDrCX5R8kjwsb6iZw9f
           stance: supports
-          locator: null
+          locator: CBDB:91976
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王元感 | accepted |
 | death.date | 694年 | accepted |
-| bio.summary | CBDB 记载为周人物 | accepted |
+| bio.summary | 王元感（卒于694年），周人物。籍贯濮州，入仕明經，曾任崇賢館學士、四門博士、太子司儀郎。（中国历代人物传记资料库 CBDB 91976） | accepted |
 
 ## 关联关系
 

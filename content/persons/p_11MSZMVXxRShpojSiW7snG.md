@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王朝用，清人物。籍贯潼川府，入仕鄉貢舉人，曾任訓導。（中国历代人物传记资料库 CBDB 638634）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 3
       sources:
-        - id: cs_3hPYwpUXMnD7JyBzG7bNMR
+        - id: cs__cNGeZDMDuEiHeJ6Gc6i37
           claim_id: c_Gtany1NPfBX4yKEGJTx6GB
           source_id: s_75BexPSFpZFpRgiz97YG1Q
           stance: supports
-          locator: null
+          locator: CBDB:638634
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王朝用 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王朝用，清人物。籍贯潼川府，入仕鄉貢舉人，曾任訓導。（中国历代人物传记资料库 CBDB 638634） | accepted |
 
 ## 关联关系
 

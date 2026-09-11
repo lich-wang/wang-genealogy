@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王象蒙，明人物。嘉靖四十四年進士，籍贯新城。（中国历代人物传记资料库 CBDB 330753）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_dcnqBsPfFSXroHayskeZDL
+        - id: cs_96f89GlR7kaIiRJScphHcs
           claim_id: c_JVLd3W5FeQe9E5jp4VS1Ec
           source_id: s_DHVR3J2ozM1p3JTqGwFhb4
           stance: supports
-          locator: null
+          locator: CBDB:330753
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王象蒙 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王象蒙，明人物。嘉靖四十四年進士，籍贯新城。（中国历代人物传记资料库 CBDB 330753） | accepted |
 
 ## 关联关系
 

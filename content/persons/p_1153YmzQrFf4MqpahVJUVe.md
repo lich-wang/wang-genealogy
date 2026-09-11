@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王俊卿，明人物。成化二年進士。（中国历代人物传记资料库 CBDB 227928）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_hPow6Accbd1UE1gTDDqE3M
+        - id: cs_4gaRb7WLaRL_zwuO4KZx-0
           claim_id: c_vxtV9cUn6bo581uVX3F4WT
           source_id: s_HADGpGmGSr6wM8sh2Mqjo9
           stance: supports
-          locator: null
+          locator: CBDB:227928
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王俊卿 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王俊卿，明人物。成化二年進士。（中国历代人物传记资料库 CBDB 227928） | accepted |
 
 ## 关联关系
 

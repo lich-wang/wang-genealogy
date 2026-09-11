@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
-          language: zh-Hans
+          text: 王長文（卒于823年），唐人物。曾任太子賓客。（中国历代人物传记资料库 CBDB 192929）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_iQKaT1zTvcDCkdnCEk3BRj
+        - id: cs_dUteAOXbzM0w9_i0_gqI3y
           claim_id: c_cgVuEGxVA53QAkYkzqsMh7
           source_id: s_SJrUThDn1ZCHiX6BEFbBdF
           stance: supports
-          locator: null
+          locator: CBDB:192929
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王長文 | accepted |
 | death.date | 823年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王長文（卒于823年），唐人物。曾任太子賓客。（中国历代人物传记资料库 CBDB 192929） | accepted |
 
 ## 关联关系
 

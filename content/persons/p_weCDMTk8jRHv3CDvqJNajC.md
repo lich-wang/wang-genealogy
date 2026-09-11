@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王秉新，明人物。成化十七年進士，曾任義官。（中国历代人物传记资料库 CBDB 256273）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_ShnjSGcUK84JTVWjWUTqJ7
+        - id: cs_XKe3JbTQVx6-wfuU6U3AlS
           claim_id: c_f3fsrjuEZ7u8yFm1YCNy6A
           source_id: s_RA42bw6t9LEbv4QGSxeA9v
           stance: supports
-          locator: null
+          locator: CBDB:256273
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -128,7 +128,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王秉新 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王秉新，明人物。成化十七年進士，曾任義官。（中国历代人物传记资料库 CBDB 256273） | accepted |
 
 ## 关联关系
 

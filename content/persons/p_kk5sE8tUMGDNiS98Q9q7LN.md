@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
-          language: zh-Hans
+          text: 王景崇（845年—882年），唐人物。籍贯真定，曾任中書令。（中国历代人物传记资料库 CBDB 169310）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_PqbAKAbXUNoFLTat15Maq7
+        - id: cs_oYo3R01l9xD7Q6DbQ6yDz5
           claim_id: c_WQqg7M9FjYRcGB6z5m9LiV
           source_id: s_PbgBhDfMtSc7nWXPvtXB7F
           stance: supports
-          locator: null
+          locator: CBDB:169310
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -223,7 +223,7 @@ relationships:
 | name.primary | 王景崇 | accepted |
 | birth.date | 845年 | accepted |
 | death.date | 882年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王景崇（845年—882年），唐人物。籍贯真定，曾任中書令。（中国历代人物传记资料库 CBDB 169310） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王持，宋人物。籍贯長安，身份为畫家。（中国历代人物传记资料库 CBDB 38173）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_xU9GA9DVN7a96oGFEAyEDP
+        - id: cs_ICO0V-WuihU4-qBeXxl9tt
           claim_id: c_ZoGKmc6vmG1LWP8sCwiUXT
           source_id: s_dDCGXQQk6AGkbp41zCERTW
           stance: supports
-          locator: null
+          locator: CBDB:38173
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王持 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王持，宋人物。籍贯長安，身份为畫家。（中国历代人物传记资料库 CBDB 38173） | accepted |
 
 ## 关联关系
 

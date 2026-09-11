@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王鉉，清人物。明清進士進士，籍贯歙縣，入仕進士，曾任知縣。（中国历代人物传记资料库 CBDB 343716）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_KJG6MnVNrQneBhDCtMmoS3
+        - id: cs_RSKELhrXh0lE7uUTCIqgoF
           claim_id: c_hFQfUtPmypdSL57ej2c57T
           source_id: s_MPaEP2GkHLuiTnx3UAyH5X
           stance: supports
-          locator: null
+          locator: CBDB:343716
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王鉉 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王鉉，清人物。明清進士進士，籍贯歙縣，入仕進士，曾任知縣。（中国历代人物传记资料库 CBDB 343716） | accepted |
 
 ## 关联关系
 

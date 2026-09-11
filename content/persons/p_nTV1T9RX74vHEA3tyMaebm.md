@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王與齡（1508年—1564年），明人物。明清進士進士，籍贯鄉寧，入仕進士，曾任府推官、戶部湖廣司主事、吏部稽勳司員外郎。（中国历代人物传记资料库 CBDB 68464）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_j73KwCTVRmwEeZYSQ7xCVa
+        - id: cs_y8N6kHnjK8RzYwgyU3nZjn
           claim_id: c_GDDqRqvgpMJ9dRTTDLEQs6
           source_id: s_VNsrGWznq4wS5HwLa4u6ov
           stance: supports
-          locator: null
+          locator: CBDB:68464
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -290,7 +290,7 @@ relationships:
 | name.primary | 王與齡 | accepted |
 | birth.date | 1508年 | accepted |
 | death.date | 1564年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王與齡（1508年—1564年），明人物。明清進士進士，籍贯鄉寧，入仕進士，曾任府推官、戶部湖廣司主事、吏部稽勳司員外郎。（中国历代人物传记资料库 CBDB 68464） | accepted |
 
 ## 关联关系
 

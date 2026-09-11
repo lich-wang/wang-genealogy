@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王恪，明人物。成化十七年進士，籍贯遂昌。（中国历代人物传记资料库 CBDB 255196）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_eemcwcWXeiNgHhNwGLQiPL
+        - id: cs_njaAgapiIIB6j5gW32bkmP
           claim_id: c_QviuZ1mGdAXPWjRdnBa98u
           source_id: s_oz4JJw2Cj22L24uApEoV8q
           stance: supports
-          locator: null
+          locator: CBDB:255196
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王恪 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王恪，明人物。成化十七年進士，籍贯遂昌。（中国历代人物传记资料库 CBDB 255196） | accepted |
 
 ## 关联关系
 

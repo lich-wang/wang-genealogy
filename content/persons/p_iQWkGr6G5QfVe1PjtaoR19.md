@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王弘祚（1603年—1674年），清人物。籍贯永昌府，入仕鄉貢舉人，曾任戶部湖廣司員外郎、戶部郎中、知州。（中国历代人物传记资料库 CBDB 56970）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_FFVh6AwChBB9mQ7YKriani
+        - id: cs_J9_mbThLVSFNrDdRl3sFyc
           claim_id: c_VADkQm1CxFLck6J8tUiAjj
           source_id: s_nc1yYpYHGX2hSnL9Q71xtL
           stance: supports
-          locator: null
+          locator: CBDB:56970
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -253,7 +253,7 @@ relationships:
 | name.primary | 王弘祚 | accepted |
 | birth.date | 1603年 | accepted |
 | death.date | 1674年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王弘祚（1603年—1674年），清人物。籍贯永昌府，入仕鄉貢舉人，曾任戶部湖廣司員外郎、戶部郎中、知州。（中国历代人物传记资料库 CBDB 56970） | accepted |
 
 ## 关联关系
 

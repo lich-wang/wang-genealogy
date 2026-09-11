@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王沛憻（1656年—1732年），清人物。籍贯諸城，入仕鄉貢舉人，曾任通政使司通政使。（中国历代人物传记资料库 CBDB 66235）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_kDCaoRasSsTx336F3UrymG
+        - id: cs_Xo-4_yRlmhrKVn1ChRL-jF
           claim_id: c_3DDX9h1fBMSJEnANi89CKN
           source_id: s_tmsPMQ4HY16frMF184159q
           stance: supports
-          locator: null
+          locator: CBDB:66235
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王沛憻 | accepted |
 | birth.date | 1656年 | accepted |
 | death.date | 1732年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王沛憻（1656年—1732年），清人物。籍贯諸城，入仕鄉貢舉人，曾任通政使司通政使。（中国历代人物传记资料库 CBDB 66235） | accepted |
 
 ## 关联关系
 

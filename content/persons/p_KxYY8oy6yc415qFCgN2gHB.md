@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王公袞，宋人物。曾任尚書省工部屯田司員外郎。（中国历代人物传记资料库 CBDB 38293）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_yZCqYg4U1uKqqPF5R3WriK
+        - id: cs_mOSdW6W1EUUBdXL0MxjxGX
           claim_id: c_Sq3GP7FMxB1CYuVN5pMCnF
           source_id: s_3MFhhwQEnqWzzXJYaujN8k
           stance: supports
-          locator: null
+          locator: CBDB:38293
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王公袞 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王公袞，宋人物。曾任尚書省工部屯田司員外郎。（中国历代人物传记资料库 CBDB 38293） | accepted |
 
 ## 关联关系
 

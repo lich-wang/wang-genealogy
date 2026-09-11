@@ -50,7 +50,7 @@ properties:
           locator: CBDB:37767
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source:
+          source: &a2
             id: s_zrGhehvrVoziMLAjiazdKH
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：王串（37767）
@@ -75,11 +75,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: Song dynasty person CBDB = 37767
-          language: en
+          text: 王串，宋人物。籍贯鉅野，入仕科舉。（中国历代人物传记资料库 CBDB 37767）
+          language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
         - id: cs_LZjAPB1do23W85xf8fHH2k
           claim_id: c_CubLWWNiTQngYPD9M3oV2x
@@ -89,6 +89,14 @@ properties:
           quotation: null
           interpretation_note: 维基数据条目描述
           source: *a1
+        - id: cs_-UsXwNW5zQPvNAbYJ96yvV
+          claim_id: c_CubLWWNiTQngYPD9M3oV2x
+          source_id: s_zrGhehvrVoziMLAjiazdKH
+          stance: supports
+          locator: CBDB:37767
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: *a2
       object_person: null
     alternatives: []
 relationships:
@@ -230,7 +238,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王串 | accepted |
-| bio.summary | Song dynasty person CBDB = 37767 | accepted |
+| bio.summary | 王串，宋人物。籍贯鉅野，入仕科舉。（中国历代人物传记资料库 CBDB 37767） | accepted |
 
 ## 关联关系
 

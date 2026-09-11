@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王雲龍，明人物。明清進士進士，籍贯襄垣，入仕進士。（中国历代人物传记资料库 CBDB 341842）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_QCbSPVLFdK9xJJmFFuX5X8
+        - id: cs_sOEbF30TS4jnC4QC21LIwi
           claim_id: c_syZgAoDoLSAfzHK8E3WmUQ
           source_id: s_ED2WdJcYsQAqGWLK5E856k
           stance: supports
-          locator: null
+          locator: CBDB:341842
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王雲龍 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王雲龍，明人物。明清進士進士，籍贯襄垣，入仕進士。（中国历代人物传记资料库 CBDB 341842） | accepted |
 
 ## 关联关系
 

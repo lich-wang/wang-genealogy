@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为南北朝人物
+          text: 王仁則，南北朝人物。籍贯太原，曾任記室參軍、主簿、景陵王。（中国历代人物传记资料库 CBDB 146541）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_8JgmbXWrurJKe1Tcixojsz
+        - id: cs_hQXx9DVffmAjrs8ojl3Gqg
           claim_id: c_gMvH1erHkQWsT5h2NRA9D6
           source_id: s_e2M6BEUJV8QSc27B3EE59F
           stance: supports
-          locator: null
+          locator: CBDB:146541
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王仁則 | accepted |
-| bio.summary | CBDB 记载为南北朝人物 | accepted |
+| bio.summary | 王仁則，南北朝人物。籍贯太原，曾任記室參軍、主簿、景陵王。（中国历代人物传记资料库 CBDB 146541） | accepted |
 
 ## 关联关系
 

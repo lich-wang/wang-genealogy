@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王懋昭，清人物。明清進士進士，籍贯南部，入仕進士。（中国历代人物传记资料库 CBDB 343137）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_K83rtRuBVcx7D4AzT9xLeV
+        - id: cs_Hjr-yQSYYaLO2g2L8IkMUW
           claim_id: c_Jo2ruS9s9GaBMbz7PA1X34
           source_id: s_pLVFzwD1kvcx1NiTPZfycQ
           stance: supports
-          locator: null
+          locator: CBDB:343137
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王懋昭 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王懋昭，清人物。明清進士進士，籍贯南部，入仕進士。（中国历代人物传记资料库 CBDB 343137） | accepted |
 
 ## 关联关系
 

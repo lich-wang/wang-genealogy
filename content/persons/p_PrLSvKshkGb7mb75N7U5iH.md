@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王思齊，清人物。曾任教諭。（中国历代人物传记资料库 CBDB 489528）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_VDbhrripK9pa7a7FpH6XKc
+        - id: cs_4iRO83x8j165FyXvglyErv
           claim_id: c_ME9fo6JUJRAVUHUpBHQNXf
           source_id: s_dy6NJQ1qcD9kxd3aFtEm9G
           stance: supports
-          locator: null
+          locator: CBDB:489528
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王思齊 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王思齊，清人物。曾任教諭。（中国历代人物传记资料库 CBDB 489528） | accepted |
 
 ## 关联关系
 

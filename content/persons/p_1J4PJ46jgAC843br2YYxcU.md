@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王拱（卒于1163年），宋人物。曾任都統制、統制。（中国历代人物传记资料库 CBDB 38167）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_CuNM7v2tj22KjEw9532vJP
+        - id: cs_HNK6eX4nWFh_yPD0geq2zP
           claim_id: c_XapAiYRACP4R3CLaBFKWuB
           source_id: s_7PiRCoRf5ve86oJEXNHecp
           stance: supports
-          locator: null
+          locator: CBDB:38167
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王拱 | accepted |
 | death.date | 1163年 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王拱（卒于1163年），宋人物。曾任都統制、統制。（中国历代人物传记资料库 CBDB 38167） | accepted |
 
 ## 关联关系
 

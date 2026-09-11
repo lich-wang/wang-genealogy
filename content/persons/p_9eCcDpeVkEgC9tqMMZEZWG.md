@@ -50,7 +50,7 @@ properties:
           locator: CBDB:35273
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source:
+          source: &a2
             id: s_rLvRBHHt6cqbCWBnxQXHBu
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：王忠政（35273）
@@ -75,11 +75,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: Song dynasty person CBDB = 35273
-          language: en
+          text: 王忠，宋人物。籍贯安福。（中国历代人物传记资料库 CBDB 35273）
+          language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
         - id: cs_TM5HZTpAxgemTnk7Hk7cL4
           claim_id: c_JLHYA6XDyJHB2kBjB1uW6t
@@ -89,6 +89,14 @@ properties:
           quotation: null
           interpretation_note: 维基数据条目描述
           source: *a1
+        - id: cs_lPu56eqxtwrd9p00GoC_4v
+          claim_id: c_JLHYA6XDyJHB2kBjB1uW6t
+          source_id: s_rLvRBHHt6cqbCWBnxQXHBu
+          stance: supports
+          locator: CBDB:35273
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: *a2
       object_person: null
     alternatives: []
 relationships:
@@ -230,7 +238,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王忠 | accepted |
-| bio.summary | Song dynasty person CBDB = 35273 | accepted |
+| bio.summary | 王忠，宋人物。籍贯安福。（中国历代人物传记资料库 CBDB 35273） | accepted |
 
 ## 关联关系
 

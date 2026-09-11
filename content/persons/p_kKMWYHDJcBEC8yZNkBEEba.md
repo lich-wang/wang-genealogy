@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王元位，明人物。入仕進士，曾任知縣。（中国历代人物传记资料库 CBDB 452987）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_3Cs3UnLLtpk6nSw1EbdA4e
+        - id: cs_-WS9IyUraeeN4hIQt5r7KU
           claim_id: c_P7LUu4EApHGcPzenB2zPuh
           source_id: s_AMRTMk73Q3N8mwuwpWrPAd
           stance: supports
-          locator: null
+          locator: CBDB:452987
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王元位 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王元位，明人物。入仕進士，曾任知縣。（中国历代人物传记资料库 CBDB 452987） | accepted |
 
 ## 关联关系
 

@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王亶望（卒于1781年），清人物。籍贯臨汾，入仕鄉貢舉人，曾任縣知縣、知府、知縣。（中国历代人物传记资料库 CBDB 57209）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_k5995kXhW7WTP9eK5vz4Aj
+        - id: cs_a-ON0i4uVGUPY7eN9iXZba
           claim_id: c_Pg4JPJUDWhLojju6t6y7Eu
           source_id: s_7am2G77rUNPvcNGCf48HPm
           stance: supports
-          locator: null
+          locator: CBDB:57209
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -146,7 +146,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王亶望 | accepted |
 | death.date | 1781年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王亶望（卒于1781年），清人物。籍贯臨汾，入仕鄉貢舉人，曾任縣知縣、知府、知縣。（中国历代人物传记资料库 CBDB 57209） | accepted |
 
 ## 关联关系
 

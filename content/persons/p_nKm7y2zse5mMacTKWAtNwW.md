@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: "王耀德，清人物。籍贯秦州直隸州直轄地方，入仕貢生: 拔貢，曾任訓導。（中国历代人物传记资料库 CBDB 639916）"
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_9cyEH8yXMvQcYNmrRuLQM5
+        - id: cs_i7l6K0RYPJx6N3FozuMyrP
           claim_id: c_Kguj34HHaDaUKEgkYQ6MA8
           source_id: s_zL237AgKvV3ebQLY2sgSaj
           stance: supports
-          locator: null
+          locator: CBDB:639916
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王耀德 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王耀德，清人物。籍贯秦州直隸州直轄地方，入仕貢生: 拔貢，曾任訓導。（中国历代人物传记资料库 CBDB 639916） | accepted |
 
 ## 关联关系
 

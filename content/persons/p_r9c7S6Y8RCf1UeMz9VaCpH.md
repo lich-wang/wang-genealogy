@@ -7,6 +7,44 @@ display_name: 孙氏
 cbdb_id: 307068
 revision: 2
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_mfTKUvq60cu6FESlwmEi_H
+        subject_person_id: p_r9c7S6Y8RCf1UeMz9VaCpH
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 孙氏，明人物。嘉靖二十三年進士。（中国历代人物传记资料库 CBDB 307068）
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7G5wsIqHa7HTPgyx_G_Fiy
+          claim_id: c_mfTKUvq60cu6FESlwmEi_H
+          source_id: s_NrZMMzMrjJSts5CBapGWx9
+          stance: supports
+          locator: CBDB:307068
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_NrZMMzMrjJSts5CBapGWx9
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：孫氏（307068）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=307068&o=json
+            external_identifier: CBDB:307068
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,7 +69,7 @@ properties:
           locator: Q65831333
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source: &a1
+          source: &a2
             id: s_ZYkDppFkR2CG22htW5Bskt
             source_type: api_record
             title: 维基数据：孙氏（Q65831333）
@@ -50,18 +88,7 @@ properties:
           locator: CBDB:307068
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source: &a2
-            id: s_NrZMMzMrjJSts5CBapGWx9
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：孫氏（307068）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=307068&o=json
-            external_identifier: CBDB:307068
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T08:06:50.055Z
-            metadata_json: null
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -110,7 +137,7 @@ relationships:
           locator: P26（配偶）
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: *a2
         - id: cs_MYDRr9BSf2uEHMZSaSVWjM
           claim_id: c_4K6rLSbFBj2PbXr6YfnG6E
           source_id: s_XcL5zA1ST4but5njM3qAfP
@@ -155,7 +182,7 @@ relationships:
           locator: 嘉靖二十三年登科錄:一卷，第三甲第八十一名：丈夫
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a2
+          source: *a1
       object_person:
         id: p_ABHWjEscFjoCVEgF2qr4dX
         status: active
@@ -174,6 +201,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 孙氏，明人物。嘉靖二十三年進士。（中国历代人物传记资料库 CBDB 307068） | accepted |
 | name.primary | 孙氏 | accepted |
 
 ## 关联关系

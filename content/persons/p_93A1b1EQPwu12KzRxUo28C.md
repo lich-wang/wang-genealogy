@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
+          text: 王大有，元人物。籍贯濮陽，曾任縣尹、知州、諸路總管府推官。（中国历代人物传记资料库 CBDB 101043）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_vYe486QJMTx6Sxc5bP8u5M
+        - id: cs_Po8aU6y6yzf2zMOzm2z5OA
           claim_id: c_eoQC3wVD8Hs9iLhNLraWyB
           source_id: s_q54fWYgjXdNB6MLRPg4KXt
           stance: supports
-          locator: null
+          locator: CBDB:101043
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王大有 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王大有，元人物。籍贯濮陽，曾任縣尹、知州、諸路總管府推官。（中国历代人物传记资料库 CBDB 101043） | accepted |
 
 ## 关联关系
 

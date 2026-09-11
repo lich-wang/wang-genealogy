@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王紱（1362年—1416年），明人物。籍贯無錫，身份为畫家、書法家，入仕薦舉 (保任,保舉)，曾任中書舍人。（中国历代人物传记资料库 CBDB 34474）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_D2RcmdSzEn9TTRdzkQ1oSD
+        - id: cs_Te_oV1-Dt4fxCtDVd-tMtv
           claim_id: c_vXkHmKXxEe4BmtMaUBaf14
           source_id: s_JnWAxZkV1dWrr3dzLJULfb
           stance: supports
-          locator: null
+          locator: CBDB:34474
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王紱 | accepted |
 | birth.date | 1362年 | accepted |
 | death.date | 1416年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王紱（1362年—1416年），明人物。籍贯無錫，身份为畫家、書法家，入仕薦舉 (保任,保舉)，曾任中書舍人。（中国历代人物传记资料库 CBDB 34474） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王臣，明人物。入仕監生，曾任典史、縣丞。（中国历代人物传记资料库 CBDB 490292）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_25MuEYrBJ1UNVyPq4nfHYM
+        - id: cs_uNv6Mj2DMI1APx2i-urX4n
           claim_id: c_1GnUQepvKhPPHn7CkFaTWH
           source_id: s_8gcchUSfJthGZ7RH8Cikk5
           stance: supports
-          locator: null
+          locator: CBDB:490292
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王臣 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王臣，明人物。入仕監生，曾任典史、縣丞。（中国历代人物传记资料库 CBDB 490292） | accepted |
 
 ## 关联关系
 

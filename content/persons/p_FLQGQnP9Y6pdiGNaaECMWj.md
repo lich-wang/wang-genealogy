@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王衣（1074年—1135年），宋人物。籍贯會稽，入仕明法，曾任刑部侍郎、大理寺少卿、大理寺正。（中国历代人物传记资料库 CBDB 3959）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_QFVuUi7PZaKyqFmkWAW9Ho
+        - id: cs_tv8RiC1SjjJp0OfRulJA_z
           claim_id: c_kDo6J75sjAmvHvVH4Ay9GS
           source_id: s_sBEoEx9NZnfVFPbFtT3ccb
           stance: supports
-          locator: null
+          locator: CBDB:3959
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -212,7 +212,7 @@ relationships:
 | name.primary | 王衣 | accepted |
 | birth.date | 1074年 | accepted |
 | death.date | 1135年 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王衣（1074年—1135年），宋人物。籍贯會稽，入仕明法，曾任刑部侍郎、大理寺少卿、大理寺正。（中国历代人物传记资料库 CBDB 3959） | accepted |
 
 ## 关联关系
 

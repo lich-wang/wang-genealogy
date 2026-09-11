@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王銳，明人物。嘉靖二十九年進士，曾任正千戶。（中国历代人物传记资料库 CBDB 312869）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_e31cQMBe6i6NmTj15S8Lzi
+        - id: cs_RYqbpcyuiR4nZnvpMpCtt7
           claim_id: c_JQ1HA6sdSMuh7tvH35ZgPF
           source_id: s_QEBXLCWZQ3PnS3P5BRH8MB
           stance: supports
-          locator: null
+          locator: CBDB:312869
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -128,7 +128,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王銳 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王銳，明人物。嘉靖二十九年進士，曾任正千戶。（中国历代人物传记资料库 CBDB 312869） | accepted |
 
 ## 关联关系
 

@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
-          language: zh-Hans
+          text: 王勳（1259年—1335年），元人物。籍贯開化，身份为書院山長，曾任諸路總管府儒學教授、縣學教諭、書院山長。（中国历代人物传记资料库 CBDB 100954）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_wJq4jESJvt3y4eDrqrxXWo
+        - id: cs_un6ayL2sYMj5uhtv1znOY-
           claim_id: c_Mm7iiqxJzrAsWH3wjccBSH
           source_id: s_NeyLB965hB8gvNtQ2Qq4rz
           stance: supports
-          locator: null
+          locator: CBDB:100954
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王勳 | accepted |
 | birth.date | 1259年 | accepted |
 | death.date | 1335年 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王勳（1259年—1335年），元人物。籍贯開化，身份为書院山長，曾任諸路總管府儒學教授、縣學教諭、書院山長。（中国历代人物传记资料库 CBDB 100954） | accepted |
 
 ## 关联关系
 

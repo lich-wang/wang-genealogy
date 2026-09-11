@@ -75,11 +75,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: Tang dynasty person CBDB = 175869
-          language: en
+          text: 王文济（卒于724年），唐人物。籍贯太原，曾任給事中。（中国历代人物传记资料库 CBDB 175869）
+          language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
         - id: cs_fn3DD5S8kccsFC16XJiCbk
           claim_id: c_G3SxHiZJxttgZS2xhtPZ9V
@@ -89,6 +89,14 @@ properties:
           quotation: null
           interpretation_note: 维基数据条目描述
           source: *a1
+        - id: cs_BwJCgzj-oVO4xDjN3Mb540
+          claim_id: c_G3SxHiZJxttgZS2xhtPZ9V
+          source_id: s_XWWJ8icSstrGKhd5mUjJqm
+          stance: supports
+          locator: CBDB:175869
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: *a2
       object_person: null
     alternatives: []
   - predicate: death.date
@@ -329,7 +337,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王文济 | accepted |
-| bio.summary | Tang dynasty person CBDB = 175869 | accepted |
+| bio.summary | 王文济（卒于724年），唐人物。籍贯太原，曾任給事中。（中国历代人物传记资料库 CBDB 175869） | accepted |
 | death.date | 724年 | accepted |
 
 ## 关联关系

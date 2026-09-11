@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王繼勳（卒于977年），宋人物。籍贯華池，身份为外戚，曾任節度觀察留後。（中国历代人物传记资料库 CBDB 38455）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_4A423QMVVWQmLAEZ9CwcyZ
+        - id: cs_OXLSpoeKt3MX_FyYL6LzKl
           claim_id: c_BQr1JxhQPjxJEXcx6m1i5Q
           source_id: s_ySL3z42oA4dhceJcrPy7a9
           stance: supports
-          locator: null
+          locator: CBDB:38455
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -183,7 +183,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王繼勳 | accepted |
 | death.date | 977年 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王繼勳（卒于977年），宋人物。籍贯華池，身份为外戚，曾任節度觀察留後。（中国历代人物传记资料库 CBDB 38455） | accepted |
 
 ## 关联关系
 

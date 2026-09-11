@@ -7,6 +7,44 @@ display_name: 左氏
 revision: 1
 cbdb_id: 28767
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_TdWN7IU01Vdy26ssYocl_o
+        subject_person_id: p_C9fyNDneqDkXgdD5rKxejP
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 左氏（1198—1286），元人物。籍贯安陽，入仕封贈。（中国历代人物传记资料库 CBDB 28767）
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_N_HkFTkNvaTXFMEkyvndLn
+          claim_id: c_TdWN7IU01Vdy26ssYocl_o
+          source_id: s_F0LRYZZEjuvdKfix0uIkAO
+          stance: supports
+          locator: CBDB:28767
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_F0LRYZZEjuvdKfix0uIkAO
+            source_type: api_record
+            title: 中国历代人物传记资料库：左氏(王信妻)（CBDB 28767）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28767&o=json
+            external_identifier: CBDB:28767
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:28767
           quotation: null
           interpretation_note: CBDB 明确记录的王信配偶
-          source: &a1
-            id: s_F0LRYZZEjuvdKfix0uIkAO
-            source_type: api_record
-            title: 中国历代人物传记资料库：左氏(王信妻)（CBDB 28767）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28767&o=json
-            external_identifier: CBDB:28767
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 左氏（1198—1286），元人物。籍贯安陽，入仕封贈。（中国历代人物传记资料库 CBDB 28767） | accepted |
 | name.primary | 左氏 | accepted |
 
 ## 关联关系

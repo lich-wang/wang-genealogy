@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王木（1167年—1227年），宋人物。籍贯黃巖。（中国历代人物传记资料库 CBDB 38495）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_fzkCY8PKL7FGYM6Cy5j9Tg
+        - id: cs_d5J-61wn3oJPyBGfnnkE2o
           claim_id: c_SJ6brDTMJ92US7nYu14Cw1
           source_id: s_qVPmCqB55FZzqjLAzwC7SQ
           stance: supports
-          locator: null
+          locator: CBDB:38495
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王木 | accepted |
 | birth.date | 1167年 | accepted |
 | death.date | 1227年 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王木（1167年—1227年），宋人物。籍贯黃巖。（中国历代人物传记资料库 CBDB 38495） | accepted |
 
 ## 关联关系
 

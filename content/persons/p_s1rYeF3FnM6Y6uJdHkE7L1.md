@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王元宗，唐人物。籍贯芒山。（中国历代人物传记资料库 CBDB 147705）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_fj8gGgHPLQ7Kid2fLyDf4F
+        - id: cs_rMrRai22hgeVDpPWtFPFIP
           claim_id: c_cp3LsPtX7Hb2Qgt5Kbbt77
           source_id: s_etKkh4aaKQuNG8z1kh77JY
           stance: supports
-          locator: null
+          locator: CBDB:147705
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王元宗 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王元宗，唐人物。籍贯芒山。（中国历代人物传记资料库 CBDB 147705） | accepted |
 
 ## 关联关系
 

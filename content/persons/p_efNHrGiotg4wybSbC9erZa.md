@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王恭，明人物。景泰二年進士，籍贯瀘州。（中国历代人物传记资料库 CBDB 245252）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_u4wJknQBJ13xGbvFgJadGU
+        - id: cs_tJDGX16FByDCmwkiGoeU_s
           claim_id: c_7nGL35c4NNCh9Z3MgmPfCX
           source_id: s_PBDDuninfQS2K1bxNCqQyh
           stance: supports
-          locator: null
+          locator: CBDB:245252
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王恭 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王恭，明人物。景泰二年進士，籍贯瀘州。（中国历代人物传记资料库 CBDB 245252） | accepted |
 
 ## 关联关系
 

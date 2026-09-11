@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王知章，宋人物。籍贯長溪，入仕進士。（中国历代人物传记资料库 CBDB 688000）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_kaeqtVaC54PukB3XGMiL1F
+        - id: cs_7Q3cyoZoagFjXbnzbcbKvQ
           claim_id: c_kn6XGwkdtN9VQCC4cfdGve
           source_id: s_htEAVSUSgrK47PbDgtrRBv
           stance: supports
-          locator: null
+          locator: CBDB:688000
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王知章 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王知章，宋人物。籍贯長溪，入仕進士。（中国历代人物传记资料库 CBDB 688000） | accepted |
 
 ## 关联关系
 

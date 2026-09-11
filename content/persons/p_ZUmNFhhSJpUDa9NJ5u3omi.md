@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: "王士禎（1634年—1711年），清人物。明清進士進士，籍贯新城，入仕貢生: 恩貢，曾任兵部督捕侍郎、戶部郎中、會試考官。（中国历代人物传记资料库 CBDB 35063）"
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_X77UAgSduWjX6Cr7mmmsFp
+        - id: cs_HeragFtvrto_u54L3H5W6d
           claim_id: c_PFKHMcMEKMFvXqvAet3HW9
           source_id: s_Drwnm2Ehkjs55NEuD1BBxJ
           stance: supports
-          locator: null
+          locator: CBDB:35063
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王士禎 | accepted |
 | birth.date | 1634年 | accepted |
 | death.date | 1711年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王士禎（1634年—1711年），清人物。明清進士進士，籍贯新城，入仕貢生: 恩貢，曾任兵部督捕侍郎、戶部郎中、會試考官。（中国历代人物传记资料库 CBDB 35063） | accepted |
 
 ## 关联关系
 

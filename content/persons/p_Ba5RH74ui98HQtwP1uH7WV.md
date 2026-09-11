@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王作乂，清人物。籍贯臨榆，入仕附貢生，曾任郎中。（中国历代人物传记资料库 CBDB 635997）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_FZv8BaQk32JJaQD2eBPkd6
+        - id: cs_IH543JwUW10gQ_ls6wl8rx
           claim_id: c_sKHa5ArKRU5NFheqrMHr3f
           source_id: s_AdCWBqPxrg5VrFAAq55Lju
           stance: supports
-          locator: null
+          locator: CBDB:635997
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王作乂 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王作乂，清人物。籍贯臨榆，入仕附貢生，曾任郎中。（中国历代人物传记资料库 CBDB 635997） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王泮，明人物。明清進士進士，籍贯山陰，身份为書法家、良吏;循吏，入仕進士。（中国历代人物传记资料库 CBDB 126558）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_8K7B745HbRJPN8S5YkEZLW
+        - id: cs_EX0Aagjmfz6D37HgaQ2cL_
           claim_id: c_TwD3sWC1ipQiESSxLLnaTh
           source_id: s_V5zSrq6bovuGXjNNwd77YA
           stance: supports
-          locator: null
+          locator: CBDB:126558
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -202,7 +202,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王泮 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王泮，明人物。明清進士進士，籍贯山陰，身份为書法家、良吏;循吏，入仕進士。（中国历代人物传记资料库 CBDB 126558） | accepted |
 
 ## 关联关系
 

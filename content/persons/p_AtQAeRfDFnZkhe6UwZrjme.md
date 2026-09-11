@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王良，明人物。成化十七年進士，曾任副千戶。（中国历代人物传记资料库 CBDB 256054）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_hHF3nPtNPXN4i6GDL73fu7
+        - id: cs_SQg6G-6U89SrUnh8WQjnK5
           claim_id: c_jq7k4HWuiJbJCksCLds6Bs
           source_id: s_PXyCQEQw1Gs9KoAoNj8GFQ
           stance: supports
-          locator: null
+          locator: CBDB:256054
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王良 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王良，明人物。成化十七年進士，曾任副千戶。（中国历代人物传记资料库 CBDB 256054） | accepted |
 
 ## 关联关系
 

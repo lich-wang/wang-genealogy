@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王沖遠，宋人物。籍贯晉江，入仕進士。（中国历代人物传记资料库 CBDB 544953）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_oyzNeqnsfhc22rfg7MdGsQ
+        - id: cs_GMQvA9Ly7iou5pVEV2BOO-
           claim_id: c_t34Fvo1zwF8LBJGNotABi1
           source_id: s_iEe8nHFszmNQUQT46yJhBB
           stance: supports
-          locator: null
+          locator: CBDB:544953
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王沖遠 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王沖遠，宋人物。籍贯晉江，入仕進士。（中国历代人物传记资料库 CBDB 544953） | accepted |
 
 ## 关联关系
 

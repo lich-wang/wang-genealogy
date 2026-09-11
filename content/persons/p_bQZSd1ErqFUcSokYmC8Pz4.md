@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
-          language: zh-Hans
+          text: 王俁，元人物。籍贯東平路，曾任肅政廉訪司副使、肅政廉訪司僉事、諸路總管府總管。（中国历代人物传记资料库 CBDB 100708）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_uvnywauJyXbiRegUJ3jXbu
+        - id: cs_7gzEF8oSA7M7VM9xhYsY5r
           claim_id: c_gxdJkTM8UK4NMV6931DH3w
           source_id: s_uiQ2Ffha5wmAgUzEXbrWyh
           stance: supports
-          locator: null
+          locator: CBDB:100708
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王俁 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王俁，元人物。籍贯東平路，曾任肅政廉訪司副使、肅政廉訪司僉事、諸路總管府總管。（中国历代人物传记资料库 CBDB 100708） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王祿書，清人物。籍贯甘泉，入仕鄉貢舉人，曾任郎中。（中国历代人物传记资料库 CBDB 639598）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_amFwb4LZGGBjk27uCT4E9A
+        - id: cs_eqTBao0QBMy7L-7_PQWyLD
           claim_id: c_J1bjtWnPQSsPz8WZwnqBwa
           source_id: s_D3rvEr6QRy3CCt7f54d9NC
           stance: supports
-          locator: null
+          locator: CBDB:639598
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王祿書 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王祿書，清人物。籍贯甘泉，入仕鄉貢舉人，曾任郎中。（中国历代人物传记资料库 CBDB 639598） | accepted |
 
 ## 关联关系
 

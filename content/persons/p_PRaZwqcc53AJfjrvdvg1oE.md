@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王餘慶，清人物。籍贯祥符，入仕鄉貢舉人，曾任知縣。（中国历代人物传记资料库 CBDB 640886）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_xA6FKUGbP5cX98rdLkQNmn
+        - id: cs_Di5ku21MZ4B6pwuERLIIGT
           claim_id: c_KM4zU62JUZH6fPARD34AQt
           source_id: s_fDXG7o8zUgXU4zCHsN7Yzv
           stance: supports
-          locator: null
+          locator: CBDB:640886
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王餘慶 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王餘慶，清人物。籍贯祥符，入仕鄉貢舉人，曾任知縣。（中国历代人物传记资料库 CBDB 640886） | accepted |
 
 ## 关联关系
 

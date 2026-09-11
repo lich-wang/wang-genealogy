@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王維屏，清人物。籍贯上虞，身份为書法家。（中国历代人物传记资料库 CBDB 704009）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Sayt15cvnfuxLHgiHCZmZL
+        - id: cs_JE3lUEnyL8sp6Q0XjOEmYF
           claim_id: c_mBwJhoXhPShe1Skgc6J1gu
           source_id: s_PNCGBoG12LY9cKYVhefSkD
           stance: supports
-          locator: null
+          locator: CBDB:704009
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王維屏 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王維屏，清人物。籍贯上虞，身份为書法家。（中国历代人物传记资料库 CBDB 704009） | accepted |
 
 ## 关联关系
 

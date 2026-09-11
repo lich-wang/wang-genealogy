@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
-          language: zh-Hans
+          text: 王德元（1265年—1364年），元人物。籍贯東平路。（中国历代人物传记资料库 CBDB 101410）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_RsEJFznJk7t8HfvTg2Ebpi
+        - id: cs_AitYRzndAz1i0D8mAouTDO
           claim_id: c_LxZANF46aTgUBjSqkSiMrF
           source_id: s_45N4mksSshRddSaGTzSJxv
           stance: supports
-          locator: null
+          locator: CBDB:101410
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王德元 | accepted |
 | birth.date | 1265年 | accepted |
 | death.date | 1364年 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王德元（1265年—1364年），元人物。籍贯東平路。（中国历代人物传记资料库 CBDB 101410） | accepted |
 
 ## 关联关系
 

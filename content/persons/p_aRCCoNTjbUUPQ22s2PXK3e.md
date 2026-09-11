@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
-          language: zh-Hans
+          text: 王汝礪，元人物。曾任宣文閣鑒書博士、憲司知事。（中国历代人物传记资料库 CBDB 101179）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_sTsk6rZfkQBbCPzpfPhvSP
+        - id: cs_Hwe8f47nScAXef1p1mThtg
           claim_id: c_Wfn4Q1FLRGF5onEBJFP8SJ
           source_id: s_QqLeTC2oQFjMjQyZ5ryrrd
           stance: supports
-          locator: null
+          locator: CBDB:101179
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王汝礪 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王汝礪，元人物。曾任宣文閣鑒書博士、憲司知事。（中国历代人物传记资料库 CBDB 101179） | accepted |
 
 ## 关联关系
 

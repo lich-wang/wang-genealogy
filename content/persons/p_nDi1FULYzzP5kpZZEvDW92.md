@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王潤堂，清人物。籍贯秦安，入仕附貢生，曾任知縣。（中国历代人物传记资料库 CBDB 639209）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_4d9Ns5LJHnWTQgrhbWLRsv
+        - id: cs_hVFdKe5Rxk340mUS6nSYih
           claim_id: c_e4fn36Q3KCo2qYiuLyfL78
           source_id: s_8E4gpsRHGoLRsTBCPBpM42
           stance: supports
-          locator: null
+          locator: CBDB:639209
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王潤堂 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王潤堂，清人物。籍贯秦安，入仕附貢生，曾任知縣。（中国历代人物传记资料库 CBDB 639209） | accepted |
 
 ## 关联关系
 

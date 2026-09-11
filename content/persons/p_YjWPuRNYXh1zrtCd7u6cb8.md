@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王夫之（1619年—1692年），清人物。籍贯衡陽，身份为詩人、史學家，入仕鄉貢舉人，曾任行人司行人。（中国历代人物传记资料库 CBDB 65721）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_n2cnY2ChcfuM9Nw4LCTYdU
+        - id: cs_FTkCyxO22u2qeRwbZ7T1Qw
           claim_id: c_fpk1hQp8ZZ9t3G7eon8TKQ
           source_id: s_M7ZrtMHLbQAkA3H9oFYLsH
           stance: supports
-          locator: null
+          locator: CBDB:65721
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王夫之 | accepted |
 | birth.date | 1619年 | accepted |
 | death.date | 1692年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王夫之（1619年—1692年），清人物。籍贯衡陽，身份为詩人、史學家，入仕鄉貢舉人，曾任行人司行人。（中国历代人物传记资料库 CBDB 65721） | accepted |
 
 ## 关联关系
 

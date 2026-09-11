@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王維翰，清人物。入仕附貢生，曾任教諭、訓導。（中国历代人物传记资料库 CBDB 497051）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_mJH97uDtAkrY5c2ApP1e3Q
+        - id: cs_sQGZ0tbFxE3KcwYpfrhKuJ
           claim_id: c_82Bconw8dLszRfEEm47uLF
           source_id: s_p8yvBuAdMEuk8833MJewJ9
           stance: supports
-          locator: null
+          locator: CBDB:497051
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王維翰 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王維翰，清人物。入仕附貢生，曾任教諭、訓導。（中国历代人物传记资料库 CBDB 497051） | accepted |
 
 ## 关联关系
 

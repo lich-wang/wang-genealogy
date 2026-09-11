@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为金人物
+          text: 王競，金人物。曾任縣令。（中国历代人物传记资料库 CBDB 455831）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_KNX7SCAjKctZn8LDf3znma
+        - id: cs_uHd8G_HVIxhhq-E6Zt0VFR
           claim_id: c_eHyCeS4vjYMdjDz99yS2PA
           source_id: s_HNiDwrnjLTYJ63UM19WbFv
           stance: supports
-          locator: null
+          locator: CBDB:455831
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王競 | accepted |
-| bio.summary | CBDB 记载为金人物 | accepted |
+| bio.summary | 王競，金人物。曾任縣令。（中国历代人物传记资料库 CBDB 455831） | accepted |
 
 ## 关联关系
 

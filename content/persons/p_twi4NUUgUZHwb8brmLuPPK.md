@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王羲，明人物。成化十一年進士，籍贯華亭。（中国历代人物传记资料库 CBDB 248697）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_UDJ4zZJ71nmCgEbw8HQLvZ
+        - id: cs_GegdrYlHIP1jd9Tk1yhVuE
           claim_id: c_L4FNLehW9KhvwbrkcBDECB
           source_id: s_bbwLJdbYL1N8Kc6Y8ehdvG
           stance: supports
-          locator: null
+          locator: CBDB:248697
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王羲 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王羲，明人物。成化十一年進士，籍贯華亭。（中国历代人物传记资料库 CBDB 248697） | accepted |
 
 ## 关联关系
 

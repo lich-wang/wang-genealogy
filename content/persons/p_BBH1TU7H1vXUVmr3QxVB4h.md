@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王二共，明人物。籍贯武清，入仕薦舉 (保任,保舉)，曾任縣令、知府。（中国历代人物传记资料库 CBDB 700927）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_C1F45hPZmm5iczGYFf8XfF
+        - id: cs_D6PIDY4Kfn-WiUWlKe6wNA
           claim_id: c_okGtuohXnShVddrk8HtbwM
           source_id: s_5UcocaY3UtAuKE3cvD9wwt
           stance: supports
-          locator: null
+          locator: CBDB:700927
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王二共 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王二共，明人物。籍贯武清，入仕薦舉 (保任,保舉)，曾任縣令、知府。（中国历代人物传记资料库 CBDB 700927） | accepted |
 
 ## 关联关系
 

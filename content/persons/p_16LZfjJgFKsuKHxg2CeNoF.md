@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王成緒，清人物。籍贯潼川府，入仕鄉貢舉人，曾任學正。（中国历代人物传记资料库 CBDB 638046）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_wpf7N9kfucTfTVxZf3Mxwf
+        - id: cs_0xR5O5QywKU3pQKllkH7wM
           claim_id: c_PHUuqrUx3rf7MH5KV53BJJ
           source_id: s_cPuMCsAm7dDQxZu9yo7aKH
           stance: supports
-          locator: null
+          locator: CBDB:638046
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王成緒 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王成緒，清人物。籍贯潼川府，入仕鄉貢舉人，曾任學正。（中国历代人物传记资料库 CBDB 638046） | accepted |
 
 ## 关联关系
 

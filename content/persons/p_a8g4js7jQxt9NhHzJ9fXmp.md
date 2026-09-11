@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王公孺，宋人物。曾任通判。（中国历代人物传记资料库 CBDB 485733）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Ki74ECgGkJ3DxroMFaM8vj
+        - id: cs_1dsGNVy1svAujpVYpR04KC
           claim_id: c_ChjwNDFQjRA8LYvDmBRG9A
           source_id: s_XvpQC7VUxirQNCWQDzVA4N
           stance: supports
-          locator: null
+          locator: CBDB:485733
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王公孺 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王公孺，宋人物。曾任通判。（中国历代人物传记资料库 CBDB 485733） | accepted |
 
 ## 关联关系
 

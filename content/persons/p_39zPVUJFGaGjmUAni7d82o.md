@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
+          text: 王瑞，元人物。曾任路判官。（中国历代人物传记资料库 CBDB 100870）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_taGwM9Bg5xwgEUpBEJi5p2
+        - id: cs__Ql_OuMy7g9W6zm7Ok3Xu1
           claim_id: c_hKddsi82VniKCgaFwQb85N
           source_id: s_D7gYnELJ38L8RfGA4SgyDP
           stance: supports
-          locator: null
+          locator: CBDB:100870
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王瑞 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王瑞，元人物。曾任路判官。（中国历代人物传记资料库 CBDB 100870） | accepted |
 
 ## 关联关系
 

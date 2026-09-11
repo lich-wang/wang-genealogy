@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王承陛，清人物。籍贯武清，入仕武童，曾任都司。（中国历代人物传记资料库 CBDB 638109）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_frfMKBojZrLCAqhaVPoAWT
+        - id: cs_dGX62f26u6RwWK44Buo4WQ
           claim_id: c_UWWcHu2XgrSZBve4TbG83x
           source_id: s_w54GbZB8RFPq7M2ongm8wD
           stance: supports
-          locator: null
+          locator: CBDB:638109
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王承陛 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王承陛，清人物。籍贯武清，入仕武童，曾任都司。（中国历代人物传记资料库 CBDB 638109） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王朝玬，清人物。籍贯婺源，曾任教諭。（中国历代人物传记资料库 CBDB 551355）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_hJBPXiF1ZjAvoRSfdEa9Hy
+        - id: cs_HQ0zcTI3T4cd0py_14dmcS
           claim_id: c_CafEwG57kiKKJPh1c9mZUW
           source_id: s_XZFkXNHeMmUhhmfJ46kKBT
           stance: supports
-          locator: null
+          locator: CBDB:551355
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王朝玬 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王朝玬，清人物。籍贯婺源，曾任教諭。（中国历代人物传记资料库 CBDB 551355） | accepted |
 
 ## 关联关系
 

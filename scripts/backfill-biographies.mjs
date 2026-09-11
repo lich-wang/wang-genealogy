@@ -3,11 +3,12 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { parsePersonMarkdown, formatPersonRecordMarkdown } from './lib/person-markdown.mjs';
+import { completeNamedPaternalChain } from './lib/biography-kinship.mjs';
 
 const rootDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const contentDir = path.resolve(rootDir, valueArg('--content') ?? 'content/persons');
 const cacheDir = path.resolve(rootDir, valueArg('--cache') ?? 'scripts/.cache/biographies');
-const minLength = Number(valueArg('--min-length') ?? 40);
+const minLength = Number(valueArg('--min-length') ?? 24);
 const limit = Number(valueArg('--limit') ?? Number.POSITIVE_INFINITY);
 const startAfter = valueArg('--after');
 const offline = process.argv.includes('--offline');
@@ -16,6 +17,7 @@ const force = process.argv.includes('--force');
 const enrich = process.argv.includes('--enrich');
 const accessedAt = new Date().toISOString();
 let lastFetchAt = 0;
+const cbdbCache = new Map();
 
 fs.mkdirSync(cacheDir, { recursive: true });
 
@@ -38,6 +40,16 @@ const candidates = entries.filter(({ name, record }) => {
 }).slice(0, limit);
 
 const identities = candidates.map(({ record }) => identityFor(record));
+const cbdbIds = [...new Set(identities.map((identity) => identity.cbdb).filter(Boolean))];
+await loadCbdb(cbdbIds);
+// CBDB records often carry a Wikidata QID even when the person file does not;
+// surfacing it lets the Wikipedia/Wikidata lead fill in a real biography.
+for (const identity of identities) {
+  if (identity.qid || !identity.cbdb) continue;
+  const person = cbdbCache.get(identity.cbdb);
+  const qid = (person?.PersonSources?.Source ?? []).map((source) => String(source.Pages ?? '').trim()).find((value) => /^Q\d+$/.test(value));
+  if (qid) identity.qid = qid;
+}
 const qids = [...new Set(identities.map((identity) => identity.qid).filter(Boolean))];
 const wikidata = await loadWikidata(qids);
 const articleRequests = identities.flatMap((identity) => {
@@ -53,6 +65,12 @@ for (let index = 0; index < candidates.length; index += 1) {
   const identity = identityFor(entry.record);
   const result = biographyFor(entry.record, identity, wikidata, wikipedia);
   if (!result || unicodeLength(result.text) < minLength) {
+    counts.unchanged += 1;
+    continue;
+  }
+  // A generated bio must not introduce a named paternal chain that we have not
+  // materialized as father_of relations; the content validator enforces this.
+  if (completeNamedPaternalChain(result.text).length) {
     counts.unchanged += 1;
     continue;
   }
@@ -252,29 +270,83 @@ async function fetchJson(url, attempts = 6) {
   throw lastError;
 }
 
+const cbdbCacheRemoved = null; // cbdbCache is declared at module top
+function normalizeCbdb(raw) {
+  if (!raw || typeof raw !== 'object') return null;
+  if (raw.Package) return raw.Package?.PersonAuthority?.PersonInfo?.Person ?? null;
+  return raw.BasicInfo ? raw : null;
+}
+function readCbdbFile(id) {
+  try {
+    return normalizeCbdb(JSON.parse(fs.readFileSync(path.join(rootDir, 'scripts/.cache/cbdb', `${id}.json`), 'utf8')));
+  } catch {
+    return null;
+  }
+}
+async function loadCbdb(ids) {
+  const missing = [];
+  for (const id of ids) {
+    const person = readCbdbFile(id);
+    if (person) cbdbCache.set(id, person);
+    else missing.push(id);
+  }
+  if (offline) return;
+  let lastFetch = 0;
+  for (let index = 0; index < missing.length; index += 1) {
+    const id = missing[index];
+    const spacing = 140 - (Date.now() - lastFetch);
+    if (spacing > 0) await new Promise((resolve) => setTimeout(resolve, spacing));
+    lastFetch = Date.now();
+    let person = null;
+    for (let attempt = 1; attempt <= 5 && !person; attempt += 1) {
+      try {
+        const response = await fetch(`https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=${id}&o=json`, {
+          headers: { 'user-agent': 'wang-genealogy-biography-backfill/1.0' },
+        });
+        if (response.ok) person = normalizeCbdb(await response.json());
+        else if (response.status === 429 || response.status >= 500) {
+          await new Promise((resolve) => setTimeout(resolve, attempt * 2000));
+        }
+      } catch {
+        await new Promise((resolve) => setTimeout(resolve, attempt * 1000));
+      }
+    }
+    fs.writeFileSync(path.join(rootDir, 'scripts/.cache/cbdb', `${id}.json`), JSON.stringify(person ?? {}));
+    cbdbCache.set(id, person);
+    if ((index + 1) % 500 === 0 || index + 1 === missing.length) {
+      console.error(`  CBDB ${index + 1}/${missing.length}`);
+    }
+  }
+}
+
 function biographyFor(record, identity, wikidata, wikipedia) {
   const name = record.display_name ?? propertyText(record, 'name.primary') ?? record.id;
   const entity = identity.qid ? wikidata[identity.qid] : null;
+  const dates = datePhrase(record);
   const articleTitle = identity.wikipediaTitle ?? entity?.sitelinks?.zhwiki?.title ?? null;
   const cachedArticle = articleTitle ? wikipedia[articleTitle] : null;
   const article = cachedArticle && (!identity.qid || cachedArticle.qid === identity.qid) ? cachedArticle : null;
   const lead = cleanWikipediaLead(article?.extract);
   if (lead && unicodeLength(lead) >= minLength && leadMatchesName(lead, name)) {
     const text = lead.startsWith(name) ? lead : `${name}：${lead}`;
-    return { text, language: languageOf(text), kind: 'wikipedia', source: wikipediaSource(article, identity.wikiSource) };
+    // Do not surface a named paternal chain we have not materialized as relations.
+    if (!completeNamedPaternalChain(text).length) {
+      return { text, language: languageOf(text), kind: 'wikipedia', source: wikipediaSource(article, identity.wikiSource) };
+    }
+  }
+
+  // Prefer concrete CBDB facts (exam, origin, offices) over a terse Wikidata line.
+  if (identity.cbdb && identity.cbdbSource) {
+    const person = cbdbCache.get(identity.cbdb) ?? null;
+    const text = cbdbFactText(name, dates, identity.cbdb, person, dynastyFor(record, identity.cbdb, person));
+    if (text) return { text, language: languageOf(text), kind: 'cbdb', source: identity.cbdbSource };
   }
 
   const description = pickDescription(entity);
-  const dates = datePhrase(record);
-  if (description && identity.qidSource) {
-    const detail = `${name}${dates}，${stripTerminal(description)}。维基数据以独立条目 ${identity.qid} 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。`;
-    return { text: detail, language: languageOf(detail), kind: 'wikidata', source: identity.qidSource };
-  }
-
-  if (identity.cbdb && identity.cbdbSource) {
-    const cached = readJson(path.join(rootDir, 'scripts/.cache/cbdb', `${identity.cbdb}.json`), null);
-    const detail = cbdbBiography(name, dates, identity.cbdb, cached, dynastyFor(record, identity.cbdb, cached));
-    return { text: detail, language: languageOf(detail), kind: 'cbdb', source: identity.cbdbSource };
+  if (description && identity.qid) {
+    const source = identity.qidSource ?? wikidataSourceFor(name, identity.qid);
+    const detail = `${name}${dates}，${stripTerminal(description)}。维基数据以独立条目 ${identity.qid} 收录该人物。`;
+    return { text: detail, language: languageOf(detail), kind: 'wikidata', source };
   }
 
   const source = identity.wikiSource ?? identity.qidSource ?? identity.sources[0];
@@ -283,6 +355,23 @@ function biographyFor(record, identity, wikidata, wikipedia) {
     .replace(/（Q\d+）$/, '');
   const detail = `${name}${dates}，史料所见人物。本项目依据《${sourceName}》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。`;
   return { text: detail, language: languageOf(detail), kind: 'source', source };
+}
+
+function wikidataSourceFor(name, qid) {
+  const url = `https://www.wikidata.org/wiki/${qid}`;
+  return {
+    id: stableId('s', url),
+    source_type: 'api_record',
+    title: `维基数据：${name}（${qid}）`,
+    creator: '维基数据贡献者',
+    publisher: 'Wikimedia Foundation',
+    published_at_text: null,
+    canonical_url: url,
+    external_identifier: qid,
+    license_code: 'CC0-1.0',
+    accessed_at: accessedAt,
+    metadata_json: null,
+  };
 }
 
 function cleanWikipediaLead(extract) {
@@ -321,20 +410,44 @@ function datePhrase(record) {
   return '';
 }
 
-function cbdbBiography(name, dates, cbdb, person, dynasty) {
+function examPhrase(sources) {
+  const exams = [];
+  for (const row of asArray(sources)) {
+    const name = String(row?.Source ?? '').replace(/[:：].*$/, '').trim();
+    const match = /^(.*?)(進士登科錄|登科錄|同年總錄|題名錄|會試錄|鄉試錄)/.exec(name);
+    if (!match) continue;
+    const year = match[1].trim();
+    exams.push(year ? `${year}進士` : '進士');
+  }
+  return unique(exams)[0] ?? null;
+}
+
+function basicDates(basic) {
+  const birth = useful(basic?.YearBirth);
+  const death = useful(basic?.YearDeath);
+  if (birth && death) return `（${birth}—${death}）`;
+  if (birth) return `（生於${birth}）`;
+  if (death) return `（卒於${death}）`;
+  return '';
+}
+
+function cbdbFactText(name, dates, cbdb, person, dynasty) {
   const basic = person?.BasicInfo ?? {};
-  const addresses = asArray(person?.PersonAddresses?.Address).map((row) => useful(row.AddrName)).filter(Boolean);
-  const statuses = asArray(person?.PersonSocialStatus?.SocialStatus).map((row) => useful(row.StatusName)).filter((value) => value && !value.startsWith('['));
-  const offices = asArray(person?.PersonPostings?.Posting).map((row) => useful(row.OfficeName)).filter((value) => value && !value.includes('某') && !value.startsWith('['));
-  const entries = asArray(person?.PersonEntryInfo?.Entry).map((row) => useful(row.EntryCode) ?? useful(row.EntryType)).filter(Boolean);
+  const clean = (value) => String(value ?? '').replace(/^科舉[:：]\s*/, '').replace(/[（(]籠統[）)]/g, '').trim();
+  const addresses = unique([useful(basic.IndexAddr), ...asArray(person?.PersonAddresses?.Address).map((row) => useful(row.AddrName))].filter(Boolean));
+  const statuses = unique(asArray(person?.PersonSocialStatus?.SocialStatus).map((row) => clean(row.StatusName)).filter((value) => value && !value.startsWith('[')));
+  const offices = unique(asArray(person?.PersonPostings?.Posting).map((row) => clean(row.OfficeName)).filter((value) => value && !value.includes('某') && !value.startsWith('[')));
+  const entries = unique(asArray(person?.PersonEntryInfo?.Entry).map((row) => clean(row.EntryCode) ?? clean(row.EntryType)).filter(Boolean));
+  const exam = examPhrase(person?.PersonSources?.Source);
   const facts = [];
-  if (addresses[0]) facts.push(`籍贯记录为${addresses[0]}`);
-  if (statuses.length) facts.push(`身份包括${unique(statuses).slice(0, 2).join('、')}`);
-  if (entries[0]) facts.push(`入仕记录为${entries[0]}`);
-  if (offices.length) facts.push(`曾任${unique(offices).slice(0, 2).join('、')}`);
-  const opening = `${name}${dates}，${dynasty ? `${dynasty}人物` : '史料所见人物'}。`;
-  const evidence = facts.length ? `CBDB 记录其${facts.slice(0, 3).join('，')}。` : '';
-  return `${opening}${evidence}中国历代人物传记资料库（CBDB）以人物编号 ${cbdb} 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。`;
+  if (exam) facts.push(exam);
+  if (addresses[0]) facts.push(`籍贯${addresses[0]}`);
+  if (statuses.length) facts.push(`身份为${statuses.slice(0, 2).join('、')}`);
+  if (entries[0]) facts.push(`入仕${entries[0]}`);
+  if (offices.length) facts.push(`曾任${offices.slice(0, 3).join('、')}`);
+  if (!facts.length) return null;
+  const opening = `${name}${dates || basicDates(basic)}，${dynasty ? `${dynasty}人物` : '史料所见人物'}。`;
+  return `${opening}${facts.slice(0, 4).join('，')}。（中国历代人物传记资料库 CBDB ${cbdb}）`;
 }
 
 function dynastyFor(record, cbdb, person) {

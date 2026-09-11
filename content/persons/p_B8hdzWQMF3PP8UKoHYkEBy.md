@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为中華民國人物
-          language: zh-Hans
+          text: 王仁俊（1866年—1913年），中華民國人物。明清進士進士，籍贯吳縣，入仕進士，曾任主事。（中国历代人物传记资料库 CBDB 71404）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_m3fuJfHKw3WZ2wZSAiSCk5
+        - id: cs_yx8nr02ooyh6nYxQI7LeG6
           claim_id: c_d6RbMrQEKUMLPySjvRF4Ew
           source_id: s_CB8iBPLtAvoGesZCmxeNZR
           stance: supports
-          locator: null
+          locator: CBDB:71404
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王仁俊 | accepted |
 | birth.date | 1866年 | accepted |
 | death.date | 1913年 | accepted |
-| bio.summary | CBDB 记载为中華民國人物 | accepted |
+| bio.summary | 王仁俊（1866年—1913年），中華民國人物。明清進士進士，籍贯吳縣，入仕進士，曾任主事。（中国历代人物传记资料库 CBDB 71404） | accepted |
 
 ## 关联关系
 

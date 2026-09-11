@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: "王廷弼，清人物。籍贯來鳳，入仕貢生: 拔貢。（中国历代人物传记资料库 CBDB 575242）"
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_pRTyy73JbZy1mvGuG2CxV8
+        - id: cs_xeNXqk3tMO2HT3huLXJVfw
           claim_id: c_RpEKw8D1MwSXpLbMWjHvAh
           source_id: s_R7yTJA985s8YAAE6X51WgH
           stance: supports
-          locator: null
+          locator: CBDB:575242
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王廷弼 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王廷弼，清人物。籍贯來鳳，入仕貢生: 拔貢。（中国历代人物传记资料库 CBDB 575242） | accepted |
 
 ## 关联关系
 

@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王勛（789年—827年），唐人物。籍贯偃師。（中国历代人物传记资料库 CBDB 145231）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_cSBwrkFKm35NfKJY2SEBAn
+        - id: cs_jMlm_RAv9I3bgFfG1Ge4wf
           claim_id: c_jsWoQYMCmxkjx1uJvCVqY9
           source_id: s_ZRSu7DMvV4jbK4YQ6H1JQX
           stance: supports
-          locator: null
+          locator: CBDB:145231
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -175,7 +175,7 @@ relationships:
 | name.primary | 王勛 | accepted |
 | birth.date | 789年 | accepted |
 | death.date | 827年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王勛（789年—827年），唐人物。籍贯偃師。（中国历代人物传记资料库 CBDB 145231） | accepted |
 
 ## 关联关系
 

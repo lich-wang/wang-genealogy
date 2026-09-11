@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王振江（生于1776年），清人物。籍贯澄城。（中国历代人物传记资料库 CBDB 71947）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_MiL9kBsBceBdTMecksTmDb
+        - id: cs_rv_5Ecj-Kem05gQqRaohpd
           claim_id: c_VXtygS2dDbfSb5T6qEdV81
           source_id: s_Gi2G4tuyRZJjJhCwKB5ECj
           stance: supports
-          locator: null
+          locator: CBDB:71947
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王振江 | accepted |
 | birth.date | 1776年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王振江（生于1776年），清人物。籍贯澄城。（中国历代人物传记资料库 CBDB 71947） | accepted |
 
 ## 关联关系
 

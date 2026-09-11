@@ -7,6 +7,44 @@ display_name: 夏恆
 revision: 1
 cbdb_id: 54868
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_Rciqe-31NqTUQ-uzAC3vvi
+        subject_person_id: p_MaGB66mhMrHZAHGAJ5yXPR
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 夏恆（1789—1839），清人物。籍贯攸縣，入仕進士。（中国历代人物传记资料库 CBDB 54868）
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AdJqykvx1hLtmpAPMkR2V6
+          claim_id: c_Rciqe-31NqTUQ-uzAC3vvi
+          source_id: s_JIe_nNaGvVThuJYMZhTyfO
+          stance: supports
+          locator: CBDB:54868
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_JIe_nNaGvVThuJYMZhTyfO
+            source_type: api_record
+            title: 中国历代人物传记资料库：夏恆（CBDB 54868）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=54868&o=json
+            external_identifier: CBDB:54868
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:54868
           quotation: null
           interpretation_note: CBDB 明确记录的王璊配偶
-          source: &a1
-            id: s_JIe_nNaGvVThuJYMZhTyfO
-            source_type: api_record
-            title: 中国历代人物传记资料库：夏恆（CBDB 54868）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=54868&o=json
-            external_identifier: CBDB:54868
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 夏恆（1789—1839），清人物。籍贯攸縣，入仕進士。（中国历代人物传记资料库 CBDB 54868） | accepted |
 | name.primary | 夏恆 | accepted |
 
 ## 关联关系

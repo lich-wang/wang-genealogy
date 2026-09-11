@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王密（卒于763年），唐人物。籍贯杜陵，曾任道觀察使、州刺史。（中国历代人物传记资料库 CBDB 175944）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_8oDqHpwAi9Bao6uw11AtKJ
+        - id: cs_wQtwWZG_zF5n0dYCgOt-Ve
           claim_id: c_D3iufduCMBLC49orcBExDa
           source_id: s_7jFNBMWfg9xzsKu5NFC8SZ
           stance: supports
-          locator: null
+          locator: CBDB:175944
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -195,7 +195,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王密 | accepted |
 | death.date | 763年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王密（卒于763年），唐人物。籍贯杜陵，曾任道觀察使、州刺史。（中国历代人物传记资料库 CBDB 175944） | accepted |
 
 ## 关联关系
 

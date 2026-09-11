@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王鞞，清人物。籍贯慈溪。（中国历代人物传记资料库 CBDB 568677）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_3LCUo8bgf7nX6zBK68ELMr
+        - id: cs_k8PR2-8aUuLB0lgObvq4hC
           claim_id: c_HBYXDKetUnQ1NjZUaJqUP4
           source_id: s_kSyinZRQdtE8Hya1c9Mmi5
           stance: supports
-          locator: null
+          locator: CBDB:568677
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王鞞 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王鞞，清人物。籍贯慈溪。（中国历代人物传记资料库 CBDB 568677） | accepted |
 
 ## 关联关系
 

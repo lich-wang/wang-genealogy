@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王偃，史料所见人物。本项目依据《中国历代人物传记资料库：王偃（CBDB 119752）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_S6294YiL1QDk4pt2dZG5HP
+        - id: cs_e24TnBK5UKdXv5iBlSlLvB
           claim_id: c_4yr8WHqyFvTVJRKJLG7TUA
           source_id: s_zDuAUThrCSp62q8GEZCxJi
           stance: supports
-          locator: null
+          locator: CBDB:119752
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王偃 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王偃，史料所见人物。本项目依据《中国历代人物传记资料库：王偃（CBDB 119752）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
 
 ## 关联关系
 

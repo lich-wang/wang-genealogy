@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
+          text: 王朝，元人物。籍贯莆田，身份为落第士人、鄉先生。（中国历代人物传记资料库 CBDB 100831）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_fXL5XsBghyGADYbDL2rAaP
+        - id: cs_eg5vs6vD1k_GpbCtv2tS0Q
           claim_id: c_9PwVDj9dgns1sQb6iFGuiw
           source_id: s_TxQBE296A438H5VWAs7GhC
           stance: supports
-          locator: null
+          locator: CBDB:100831
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王朝 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王朝，元人物。籍贯莆田，身份为落第士人、鄉先生。（中国历代人物传记资料库 CBDB 100831） | accepted |
 
 ## 关联关系
 

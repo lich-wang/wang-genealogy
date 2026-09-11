@@ -50,7 +50,7 @@ properties:
           locator: CBDB:5119
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source:
+          source: &a2
             id: s_xC1M94cmQA49ZkUJKpe91C
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：王氏（5119）
@@ -75,11 +75,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 蔡挺妻
+          text: 王氏（1013年—1038年），宋人物。籍贯虞城，入仕封贈，曾任郡夫人。（中国历代人物传记资料库 CBDB 5119）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
         - id: cs_EpJm2G2KJ1uKUpLR3Y44MR
           claim_id: c_JJa3GCSWEH9748cEvhkqHS
@@ -89,6 +89,14 @@ properties:
           quotation: null
           interpretation_note: 维基数据条目描述
           source: *a1
+        - id: cs_YWucOtg73VG05hPtlUk7KX
+          claim_id: c_JJa3GCSWEH9748cEvhkqHS
+          source_id: s_xC1M94cmQA49ZkUJKpe91C
+          stance: supports
+          locator: CBDB:5119
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: *a2
       object_person: null
     alternatives: []
   - predicate: birth.date
@@ -231,7 +239,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王氏 | accepted |
-| bio.summary | 蔡挺妻 | accepted |
+| bio.summary | 王氏（1013年—1038年），宋人物。籍贯虞城，入仕封贈，曾任郡夫人。（中国历代人物传记资料库 CBDB 5119） | accepted |
 | birth.date | 1013年 | accepted |
 | death.date | 1038年 | accepted |
 

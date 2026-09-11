@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
-          language: zh-Hans
+          text: 王瓚，元人物。籍贯長安，入仕進士，曾任翰林國史院國史編修官、僉提刑按察司事。（中国历代人物传记资料库 CBDB 101013）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_qcFVJRmJeWK1CZvcEfKPfE
+        - id: cs_3UjhGY8KkBUR1uGixv6Wxz
           claim_id: c_1MnGgqEW2dTjTCDAz9Lzo7
           source_id: s_irDN7vwhh6F7apYsJysm6u
           stance: supports
-          locator: null
+          locator: CBDB:101013
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王瓚 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王瓚，元人物。籍贯長安，入仕進士，曾任翰林國史院國史編修官、僉提刑按察司事。（中国历代人物传记资料库 CBDB 101013） | accepted |
 
 ## 关联关系
 

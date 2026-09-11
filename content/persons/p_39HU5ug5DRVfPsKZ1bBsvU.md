@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: "王元英，清人物。籍贯武定直隸州，入仕貢生: 拔貢，曾任復設教諭。（中国历代人物传记资料库 CBDB 636178）"
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_HcUaf3v8uWRhEUXrtZxbwU
+        - id: cs_ZRehA5irh5uPGNuQIb6Uwd
           claim_id: c_112g9Dh4wmmn2FhuDuJBuw
           source_id: s_HFbLP3Pid2jg47AL16jsNu
           stance: supports
-          locator: null
+          locator: CBDB:636178
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王元英 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王元英，清人物。籍贯武定直隸州，入仕貢生: 拔貢，曾任復設教諭。（中国历代人物传记资料库 CBDB 636178） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王岡，宋人物。籍贯無錫，入仕進士，曾任左朝散大夫、提點宮觀、通判。（中国历代人物传记资料库 CBDB 1837）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_3qKtUh8pkaT2r65ZBgMQVE
+        - id: cs_mcIK7kWW7XwOq-jGFfGdQB
           claim_id: c_r5JyEFKv8i8xjv9YNBj2hu
           source_id: s_pHGGaaETseroQYunqHCzdH
           stance: supports
-          locator: null
+          locator: CBDB:1837
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王岡 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王岡，宋人物。籍贯無錫，入仕進士，曾任左朝散大夫、提點宮觀、通判。（中国历代人物传记资料库 CBDB 1837） | accepted |
 
 ## 关联关系
 

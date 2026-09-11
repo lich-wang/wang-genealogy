@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王福慶，明人物。成化十一年進士。（中国历代人物传记资料库 CBDB 249468）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_kkUGiWBJJQ3RKw7G2XauP9
+        - id: cs_7WvyT36LtZDCEAxK25zF-N
           claim_id: c_nP1uuktqK81Dki1TPkGDCr
           source_id: s_wFSM1zKf9Ct9ssTmjDgpeX
           stance: supports
-          locator: null
+          locator: CBDB:249468
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王福慶 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王福慶，明人物。成化十一年進士。（中国历代人物传记资料库 CBDB 249468） | accepted |
 
 ## 关联关系
 

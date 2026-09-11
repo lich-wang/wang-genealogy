@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王鵬飛（卒于1853年），清人物。籍贯唐縣，入仕武舉進士，曾任城守營副將、三等侍衛、營都司。（中国历代人物传记资料库 CBDB 58739）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_YvXhwzNVp6k3CpmKGAMFXQ
+        - id: cs_E76v8wexsVKVM51BG5Mv6B
           claim_id: c_QQRL19NMmt6RCdtMYPCkNH
           source_id: s_iNTTcdjyS8TrDq91CmRUBm
           stance: supports
-          locator: null
+          locator: CBDB:58739
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王鵬飛 | accepted |
 | death.date | 1853年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王鵬飛（卒于1853年），清人物。籍贯唐縣，入仕武舉進士，曾任城守營副將、三等侍衛、營都司。（中国历代人物传记资料库 CBDB 58739） | accepted |
 
 ## 关联关系
 

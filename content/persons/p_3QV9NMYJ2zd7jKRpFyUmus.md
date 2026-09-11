@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王俊，明人物。萬曆丙戌科進士進士，曾任引禮。（中国历代人物传记资料库 CBDB 228572）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_63EZemrDrcgB9bjK5b1UwK
+        - id: cs_31nQe26ymxgFAOkC3P1K0B
           claim_id: c_9Lej5fLF3dxfNZdYPfCcmj
           source_id: s_R4GMcpVWwnnjjxRjCJCR2i
           stance: supports
-          locator: null
+          locator: CBDB:228572
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王俊 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王俊，明人物。萬曆丙戌科進士進士，曾任引禮。（中国历代人物传记资料库 CBDB 228572） | accepted |
 
 ## 关联关系
 

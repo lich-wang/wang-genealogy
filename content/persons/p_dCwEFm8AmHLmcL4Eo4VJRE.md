@@ -7,6 +7,44 @@ display_name: 袁瑀女
 revision: 1
 cbdb_id: 211134
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_bCqX06bmnHY3bufrlfcdhp
+        subject_person_id: p_dCwEFm8AmHLmcL4Eo4VJRE
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 袁瑀女，明人物。隆慶五年進士，曾任恭人。（中国历代人物传记资料库 CBDB 211134）
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_l5sjqefiihtgzeWzni9EJf
+          claim_id: c_bCqX06bmnHY3bufrlfcdhp
+          source_id: s_LSR8TnFSX1GzV9OnRlA2jJ
+          stance: supports
+          locator: CBDB:211134
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_LSR8TnFSX1GzV9OnRlA2jJ
+            source_type: api_record
+            title: 中国历代人物传记资料库：袁瑀女（CBDB 211134）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=211134&o=json
+            external_identifier: CBDB:211134
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:211134
           quotation: null
           interpretation_note: CBDB 明确记录的王詔配偶
-          source: &a1
-            id: s_LSR8TnFSX1GzV9OnRlA2jJ
-            source_type: api_record
-            title: 中国历代人物传记资料库：袁瑀女（CBDB 211134）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=211134&o=json
-            external_identifier: CBDB:211134
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 袁瑀女，明人物。隆慶五年進士，曾任恭人。（中国历代人物传记资料库 CBDB 211134） | accepted |
 | name.primary | 袁瑀女 | accepted |
 
 ## 关联关系

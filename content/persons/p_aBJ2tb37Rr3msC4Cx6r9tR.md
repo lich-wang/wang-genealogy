@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王行義，清人物。曾任都司、都司僉書。（中国历代人物传记资料库 CBDB 474767）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_57oidFFL9V6QviFCKKh8v4
+        - id: cs_Wx1RvQA044IrZ5sLhh_GNS
           claim_id: c_eE6zy72GRB6DR8DAVhJfu1
           source_id: s_oHYufkYr1u7jDa9LQsYgL7
           stance: supports
-          locator: null
+          locator: CBDB:474767
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王行義 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王行義，清人物。曾任都司、都司僉書。（中国历代人物传记资料库 CBDB 474767） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王群，宋人物。籍贯福州，入仕特奏名進士、特奏名諸科 、大挑。（中国历代人物传记资料库 CBDB 535269）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_6ZCQeQ3GBqA6FC8aSfJXVh
+        - id: cs_lb8u45dsslBfHqVrZb4ZTb
           claim_id: c_xScM7Es1UABSCXxcd5p1nj
           source_id: s_fJq2QoX3rhHzXm8xAaSF1k
           stance: supports
-          locator: null
+          locator: CBDB:535269
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王群 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王群，宋人物。籍贯福州，入仕特奏名進士、特奏名諸科 、大挑。（中国历代人物传记资料库 CBDB 535269） | accepted |
 
 ## 关联关系
 

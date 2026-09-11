@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王慶平，清人物。籍贯上海，入仕進士，曾任郎中、主事。（中国历代人物传记资料库 CBDB 637933）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Y48m6rGYNWCKfbNi2pwP3f
+        - id: cs_G10RTDn_eTcOx454Ra9uQc
           claim_id: c_zrkQZ28fNWN3Vbjm7asCi9
           source_id: s_fgip4Co9bnGUSAZGrrFdDa
           stance: supports
-          locator: null
+          locator: CBDB:637933
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王慶平 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王慶平，清人物。籍贯上海，入仕進士，曾任郎中、主事。（中国历代人物传记资料库 CBDB 637933） | accepted |
 
 ## 关联关系
 

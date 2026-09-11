@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王師道（卒于1146年），宋人物。籍贯兗州，曾任巡檢。（中国历代人物传记资料库 CBDB 38044）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_PfiW77H7MXzMAUBUG485N7
+        - id: cs_kXMv1HX-2zOyQnPjavVevt
           claim_id: c_zPGodTRiWf298MpWwwuaSv
           source_id: s_nhCUMJGE9gYRq8EWzTxyGc
           stance: supports
-          locator: null
+          locator: CBDB:38044
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王師道 | accepted |
 | death.date | 1146年 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王師道（卒于1146年），宋人物。籍贯兗州，曾任巡檢。（中国历代人物传记资料库 CBDB 38044） | accepted |
 
 ## 关联关系
 

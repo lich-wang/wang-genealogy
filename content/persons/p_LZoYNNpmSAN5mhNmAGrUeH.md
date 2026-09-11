@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王楚（849年—869年），唐人物。籍贯元城。（中国历代人物传记资料库 CBDB 145120）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_KaRFJ635wcza18bzi8hbpp
+        - id: cs_QY3yoikiw5gdnrcKNKG6G-
           claim_id: c_HR4KkiFPMvqUZ3nWVjJd44
           source_id: s_JjZrS78BoLL2KPqiccLTBN
           stance: supports
-          locator: null
+          locator: CBDB:145120
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -186,7 +186,7 @@ relationships:
 | name.primary | 王楚 | accepted |
 | birth.date | 849年 | accepted |
 | death.date | 869年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王楚（849年—869年），唐人物。籍贯元城。（中国历代人物传记资料库 CBDB 145120） | accepted |
 
 ## 关联关系
 

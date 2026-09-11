@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王秀，唐人物。籍贯太原，曾任縣尉。（中国历代人物传记资料库 CBDB 148780）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_NrupmBf9Z8NhSPMiaNxgm4
+        - id: cs_SiGFAKOrg6zBAmwKQKFuOu
           claim_id: c_jL2Ucwt4iAEuhyAG6gsjiZ
           source_id: s_xZ49FMyobwstJVMd3Utp8N
           stance: supports
-          locator: null
+          locator: CBDB:148780
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -128,7 +128,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王秀 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王秀，唐人物。籍贯太原，曾任縣尉。（中国历代人物传记资料库 CBDB 148780） | accepted |
 
 ## 关联关系
 

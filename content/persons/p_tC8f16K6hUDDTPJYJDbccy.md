@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王膺，宋人物。曾任三司都磨勘司、尚書省兵部兵部司員外郎、駕部司員外郎。（中国历代人物传记资料库 CBDB 1929）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_AW9UR69poiEiC5K5D9gKAH
+        - id: cs_BglNENkBU0UiVvRz8_ks1Q
           claim_id: c_Vod9q85CN3Fx2DF8KZBhJA
           source_id: s_FCS61CKZsSHb6CTP49GQpa
           stance: supports
-          locator: null
+          locator: CBDB:1929
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王膺 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王膺，宋人物。曾任三司都磨勘司、尚書省兵部兵部司員外郎、駕部司員外郎。（中国历代人物传记资料库 CBDB 1929） | accepted |
 
 ## 关联关系
 

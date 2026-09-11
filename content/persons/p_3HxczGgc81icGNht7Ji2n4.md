@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王志，明人物。曾任主簿。（中国历代人物传记资料库 CBDB 485021）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_1eN9eUWux565m11ZQ4qpDs
+        - id: cs_M6h4eOLETif4I6k8fTLvkA
           claim_id: c_TiGe56P4D3L2QSpXRM2LKj
           source_id: s_VU4SLgMC3rnb4pro82bSBH
           stance: supports
-          locator: null
+          locator: CBDB:485021
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王志 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王志，明人物。曾任主簿。（中国历代人物传记资料库 CBDB 485021） | accepted |
 
 ## 关联关系
 

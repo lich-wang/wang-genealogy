@@ -7,6 +7,44 @@ display_name: 郭氏
 revision: 1
 cbdb_id: 38094
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_OxKWwMYZCMBNx1-mIfdHtw
+        subject_person_id: p_sHfXhaWYZQDACH6DJzomzR
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 郭氏（1142—1195），宋人物。曾任碩人。（中国历代人物传记资料库 CBDB 38094）
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_z2OhFtjUJMmxRC9Q5yvAVe
+          claim_id: c_OxKWwMYZCMBNx1-mIfdHtw
+          source_id: s_NiPswBd-H_UC0TB8239pU8
+          stance: supports
+          locator: CBDB:38094
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_NiPswBd-H_UC0TB8239pU8
+            source_type: api_record
+            title: 中国历代人物传记资料库：郭氏(王信妻)（CBDB 38094）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38094&o=json
+            external_identifier: CBDB:38094
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:38094
           quotation: null
           interpretation_note: CBDB 明确记录的王信配偶
-          source: &a1
-            id: s_NiPswBd-H_UC0TB8239pU8
-            source_type: api_record
-            title: 中国历代人物传记资料库：郭氏(王信妻)（CBDB 38094）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38094&o=json
-            external_identifier: CBDB:38094
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 郭氏（1142—1195），宋人物。曾任碩人。（中国历代人物传记资料库 CBDB 38094） | accepted |
 | name.primary | 郭氏 | accepted |
 
 ## 关联关系

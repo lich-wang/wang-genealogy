@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王凝，宋人物。身份为畫家，曾任翰林圖畫院待詔。（中国历代人物传记资料库 CBDB 37829）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Ne6BtKdsYpEiAsPB68DZrF
+        - id: cs_puMvjHPkphcMTvI1XX5Pt8
           claim_id: c_sixCwXynHA64jLJ8AFv8rz
           source_id: s_K8V5C3y9AaLnk4fS17wTmq
           stance: supports
-          locator: null
+          locator: CBDB:37829
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王凝 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王凝，宋人物。身份为畫家，曾任翰林圖畫院待詔。（中国历代人物传记资料库 CBDB 37829） | accepted |
 
 ## 关联关系
 

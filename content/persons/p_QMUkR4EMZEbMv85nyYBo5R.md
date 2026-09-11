@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王者民，清人物。籍贯平陰，身份为鄉里長者、為善鄉里。（中国历代人物传记资料库 CBDB 701392）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_b768Akid7uJBEu51LXirmV
+        - id: cs_3JEE0G5ZgTcVze_ZZrzm9i
           claim_id: c_1fc77DF1Pq28VKK633Qi6D
           source_id: s_XNKMC4aA2ELb2xCLo2zeRK
           stance: supports
-          locator: null
+          locator: CBDB:701392
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王者民 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王者民，清人物。籍贯平陰，身份为鄉里長者、為善鄉里。（中国历代人物传记资料库 CBDB 701392） | accepted |
 
 ## 关联关系
 

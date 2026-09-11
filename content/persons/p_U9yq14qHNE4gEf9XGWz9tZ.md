@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王恕，明人物。曾任百戶。（中国历代人物传记资料库 CBDB 486396）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_ktt1ym4HJb18eCYd69KuRJ
+        - id: cs_XujiK01kitY7ixvFiRRl9v
           claim_id: c_DgMzP5gy1SMzxLCutQJAYD
           source_id: s_oY36vjHqhuC6s9sEVyguFJ
           stance: supports
-          locator: null
+          locator: CBDB:486396
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王恕 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王恕，明人物。曾任百戶。（中国历代人物传记资料库 CBDB 486396） | accepted |
 
 ## 关联关系
 

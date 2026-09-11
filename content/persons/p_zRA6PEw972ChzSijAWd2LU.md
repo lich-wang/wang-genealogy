@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王今遠（1706年—1760年），清人物。籍贯曲周。（中国历代人物传记资料库 CBDB 71412）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_HWVEg8iatXU9WGyTL6oyc4
+        - id: cs_fZw0u-DyjDqaeyYQQ18DQc
           claim_id: c_HGjekDxTYzEmA88rvqYeUz
           source_id: s_CThGFNwAXDsxH2e4SwZD7c
           stance: supports
-          locator: null
+          locator: CBDB:71412
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王今遠 | accepted |
 | birth.date | 1706年 | accepted |
 | death.date | 1760年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王今遠（1706年—1760年），清人物。籍贯曲周。（中国历代人物传记资料库 CBDB 71412） | accepted |
 
 ## 关联关系
 

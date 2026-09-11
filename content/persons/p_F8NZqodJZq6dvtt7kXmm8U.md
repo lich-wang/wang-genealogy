@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王徽，宋人物。籍贯嵊縣，身份为地方士人/鄉紳。（中国历代人物传记资料库 CBDB 25797）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_iBQeU9z68yGE7oKvLXXihG
+        - id: cs_zLr-i-2kTbREUlYlO5VRwb
           claim_id: c_hoxGe8drGy1GK1pnvRSLEk
           source_id: s_tbyqf7phVLgW598Z3YwUde
           stance: supports
-          locator: null
+          locator: CBDB:25797
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -180,7 +180,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王徽 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王徽，宋人物。籍贯嵊縣，身份为地方士人/鄉紳。（中国历代人物传记资料库 CBDB 25797） | accepted |
 
 ## 关联关系
 

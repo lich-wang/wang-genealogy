@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王昊（生于1456年），明人物。明清進士進士，籍贯衡陽，入仕進士。（中国历代人物传记资料库 CBDB 200990）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_eS7d62vouqNoesfLZvK2Ai
+        - id: cs_HcoC02WcpvjL5nA-LrpKY2
           claim_id: c_V6vCfqmVpdG9Z4gX2VeMBd
           source_id: s_c86NwDAvjxnvgHHxfBCn5p
           stance: supports
-          locator: null
+          locator: CBDB:200990
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -235,7 +235,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王昊 | accepted |
 | birth.date | 1456年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王昊（生于1456年），明人物。明清進士進士，籍贯衡陽，入仕進士。（中国历代人物传记资料库 CBDB 200990） | accepted |
 
 ## 关联关系
 

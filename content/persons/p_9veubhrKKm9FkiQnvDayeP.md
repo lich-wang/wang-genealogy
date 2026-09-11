@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王諷（卒于882年），唐人物。曾任道節度使、州刺史。（中国历代人物传记资料库 CBDB 194283）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_4Ev6hwkfASFLSf92b29H2T
+        - id: cs_hp7msUBvN9YUS9o4HZpi_N
           claim_id: c_5vmjDQSaHp5ud1wS12a1yH
           source_id: s_nMZqBs13Cu7L4kANyR3K6V
           stance: supports
-          locator: null
+          locator: CBDB:194283
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王諷 | accepted |
 | death.date | 882年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王諷（卒于882年），唐人物。曾任道節度使、州刺史。（中国历代人物传记资料库 CBDB 194283） | accepted |
 
 ## 关联关系
 

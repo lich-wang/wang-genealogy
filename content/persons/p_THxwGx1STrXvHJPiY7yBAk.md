@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王文模，清人物。籍贯漢州，入仕進士，曾任主事。（中国历代人物传记资料库 CBDB 638239）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_JYSf77aL9rvej6gD7RThv1
+        - id: cs_G85LHvkAurrWSIxM643mAV
           claim_id: c_fFyEFbHX7QAqjsckgNEh5F
           source_id: s_Phwg1AMUaXMmFQmYKf2LxL
           stance: supports
-          locator: null
+          locator: CBDB:638239
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王文模 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王文模，清人物。籍贯漢州，入仕進士，曾任主事。（中国历代人物传记资料库 CBDB 638239） | accepted |
 
 ## 关联关系
 

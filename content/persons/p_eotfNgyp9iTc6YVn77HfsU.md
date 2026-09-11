@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王祝，清人物。曾任知府。（中国历代人物传记资料库 CBDB 471293）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_i9PCJ94kKPP47AHz3UWE6J
+        - id: cs_xrf1gOysMdMccB8ym-8IlY
           claim_id: c_7QonUHTvRCTGuDN3SCGq9R
           source_id: s_Gw3UoEh4mq8VpC4C9feU68
           stance: supports
-          locator: null
+          locator: CBDB:471293
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王祝 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王祝，清人物。曾任知府。（中国历代人物传记资料库 CBDB 471293） | accepted |
 
 ## 关联关系
 

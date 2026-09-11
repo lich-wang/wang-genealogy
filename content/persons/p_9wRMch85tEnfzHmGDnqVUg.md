@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王亨，明人物。天順四年進士，籍贯商水。（中国历代人物传记资料库 CBDB 316729）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_kCfM8MZJfjZHH1jHVPDHSU
+        - id: cs_3h09pa7fmaCXPcSi9NTJLZ
           claim_id: c_q5GFBqzhS2CnCQk5Vu52J4
           source_id: s_j6719iK2pgj31WWuhY39Mf
           stance: supports
-          locator: null
+          locator: CBDB:316729
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王亨 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王亨，明人物。天順四年進士，籍贯商水。（中国历代人物传记资料库 CBDB 316729） | accepted |
 
 ## 关联关系
 

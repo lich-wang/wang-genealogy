@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王琮（卒于1154年），宋人物。籍贯洛陽，入仕進士，曾任轉運副使。（中国历代人物传记资料库 CBDB 1898）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_bhbUkFEH4dXb1t3mdrd4yN
+        - id: cs_K8PE1ucg_NYs5QYLI76UHR
           claim_id: c_12ee4FWcT9ZNkCpxEES9Hi
           source_id: s_dTC2ghGCNM8bti9xyMqazs
           stance: supports
-          locator: null
+          locator: CBDB:1898
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王琮 | accepted |
 | death.date | 1154年 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王琮（卒于1154年），宋人物。籍贯洛陽，入仕進士，曾任轉運副使。（中国历代人物传记资料库 CBDB 1898） | accepted |
 
 ## 关联关系
 

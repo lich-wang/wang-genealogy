@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王尚辰（1825年—1902年），清人物。籍贯合肥。（中国历代人物传记资料库 CBDB 71746）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_PC6K8XCvKafnhpX6inmXxV
+        - id: cs_QVE21DEklqH85aO8Y8cBBe
           claim_id: c_ST2wmRedQ1pSmiQEKrE1Rg
           source_id: s_jvRKRwaEHnmiWr3XezsvQE
           stance: supports
-          locator: null
+          locator: CBDB:71746
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王尚辰 | accepted |
 | birth.date | 1825年 | accepted |
 | death.date | 1902年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王尚辰（1825年—1902年），清人物。籍贯合肥。（中国历代人物传记资料库 CBDB 71746） | accepted |
 
 ## 关联关系
 

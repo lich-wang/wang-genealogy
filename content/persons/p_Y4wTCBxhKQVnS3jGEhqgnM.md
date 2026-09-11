@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为後梁人物
+          text: 王重師，史料所见人物。本项目依据《中国历代人物传记资料库：王重師（CBDB 468622）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_C8GA7Z94uSBek3twXANUEM
+        - id: cs_3a8cYJq4wsevxqfGjE1VMM
           claim_id: c_tce41Zu17Y5x9WE9hjYN9H
           source_id: s_QBTrMScJxEquMUdBs1xp95
           stance: supports
-          locator: null
+          locator: CBDB:468622
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王重師 | accepted |
-| bio.summary | CBDB 记载为後梁人物 | accepted |
+| bio.summary | 王重師，史料所见人物。本项目依据《中国历代人物传记资料库：王重師（CBDB 468622）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
 
 ## 关联关系
 

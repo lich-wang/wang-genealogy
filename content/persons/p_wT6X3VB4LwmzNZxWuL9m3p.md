@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王昭瀍，清人物。籍贯寧國，曾任訓導。（中国历代人物传记资料库 CBDB 638429）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_xAj1U1sqwmKhx6G8tc6Ja2
+        - id: cs_aEv_9sqkoK9d-ZtcmTbZ3k
           claim_id: c_sjVTgUoy5u6Si7jtdG1yfJ
           source_id: s_Ke58X4zFapCw6tRfUqhayR
           stance: supports
-          locator: null
+          locator: CBDB:638429
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王昭瀍 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王昭瀍，清人物。籍贯寧國，曾任訓導。（中国历代人物传记资料库 CBDB 638429） | accepted |
 
 ## 关联关系
 

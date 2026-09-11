@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王發祥，清人物。明清進士進士，籍贯太倉直隸州直轄地方，入仕進士，曾任學政。（中国历代人物传记资料库 CBDB 341896）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_2BkHhrVMH49wHk3y4LVqfG
+        - id: cs_U8BznEYwvq-qD3t7r7H6eE
           claim_id: c_4htsDMQd4X3aF8ia7nkoZJ
           source_id: s_FjY8keC84H5t3x3GNLfBJX
           stance: supports
-          locator: null
+          locator: CBDB:341896
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王發祥 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王發祥，清人物。明清進士進士，籍贯太倉直隸州直轄地方，入仕進士，曾任學政。（中国历代人物传记资料库 CBDB 341896） | accepted |
 
 ## 关联关系
 

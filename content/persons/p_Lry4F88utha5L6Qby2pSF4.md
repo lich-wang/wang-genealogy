@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
+          text: 王毅（1303年—1354年），元人物。籍贯龍泉，身份为鄉先生。（中国历代人物传记资料库 CBDB 100937）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_8QVBBAoNBoc2DoqG5oY1Sm
+        - id: cs_d2ojTRwRRtq7zdpG30T5S_
           claim_id: c_RJUFySu2iBKTYZR68vizws
           source_id: s_JnMx9Y7bSsEm1vbcCmotMR
           stance: supports
-          locator: null
+          locator: CBDB:100937
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王毅 | accepted |
 | birth.date | 1303年 | accepted |
 | death.date | 1354年 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王毅（1303年—1354年），元人物。籍贯龍泉，身份为鄉先生。（中国历代人物传记资料库 CBDB 100937） | accepted |
 
 ## 关联关系
 

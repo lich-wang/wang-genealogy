@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王瑜，明人物。曾任縣丞。（中国历代人物传记资料库 CBDB 484963）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_NxADHLMWbK5PsveU9VS4pW
+        - id: cs_soY_YnpsTNaBI2wlB6-_4-
           claim_id: c_Cn3wgh55Ezj8dA2Q3qZxc2
           source_id: s_h56opfybmh2mDwUX4iLc37
           stance: supports
-          locator: null
+          locator: CBDB:484963
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王瑜 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王瑜，明人物。曾任縣丞。（中国历代人物传记资料库 CBDB 484963） | accepted |
 
 ## 关联关系
 

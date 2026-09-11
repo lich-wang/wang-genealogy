@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王礎，宋人物。籍贯福清，身份为落第士人，入仕舉進士、諸科不第。（中国历代人物传记资料库 CBDB 10336）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_njm4VRqKpkMVUJAtuf1r1V
+        - id: cs_VMcHW--WvML46ACLjfoc3t
           claim_id: c_8TXCemThKYfRjtTY7Wwjr7
           source_id: s_Yic4HWUmUS3sWTFBmHNmnx
           stance: supports
-          locator: null
+          locator: CBDB:10336
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -195,7 +195,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王礎 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王礎，宋人物。籍贯福清，身份为落第士人，入仕舉進士、諸科不第。（中国历代人物传记资料库 CBDB 10336） | accepted |
 
 ## 关联关系
 

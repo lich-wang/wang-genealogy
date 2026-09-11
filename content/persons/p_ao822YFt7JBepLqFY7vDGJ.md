@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
-          language: zh-Hans
+          text: 王丘（卒于743年），唐人物。籍贯偃師，身份为詩人，曾任禮部尚書。（中国历代人物传记资料库 CBDB 196237）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_4WAhYgxzCALwuVA7sp18RA
+        - id: cs_J-BX1YMC_RV0HVa0hURmc2
           claim_id: c_SuJoB5AVWnGD2sy4omGFAA
           source_id: s_saqAWbM7hK4NPA8wQdU9c1
           stance: supports
-          locator: null
+          locator: CBDB:196237
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -146,7 +146,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王丘 | accepted |
 | death.date | 743年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王丘（卒于743年），唐人物。籍贯偃師，身份为詩人，曾任禮部尚書。（中国历代人物传记资料库 CBDB 196237） | accepted |
 
 ## 关联关系
 

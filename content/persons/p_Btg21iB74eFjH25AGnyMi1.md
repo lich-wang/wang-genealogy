@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王兆夢（卒于1821年），清人物。籍贯碭山，曾任協副將、協中軍都司、增城營參將。（中国历代人物传记资料库 CBDB 57122）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_fAPGoWAv6MpME4VKQ3R6uj
+        - id: cs_pM3viUzBNPeMCSOZS1r5ot
           claim_id: c_tif2imikGx6u4Yp6xBEbzB
           source_id: s_fZas28VRYK2hhhdb7Rdw3G
           stance: supports
-          locator: null
+          locator: CBDB:57122
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王兆夢 | accepted |
 | death.date | 1821年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王兆夢（卒于1821年），清人物。籍贯碭山，曾任協副將、協中軍都司、增城營參將。（中国历代人物传记资料库 CBDB 57122） | accepted |
 
 ## 关联关系
 

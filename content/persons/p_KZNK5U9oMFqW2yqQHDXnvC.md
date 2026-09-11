@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王元晉，清人物。明清進士進士，籍贯寧晉，入仕進士。（中国历代人物传记资料库 CBDB 341775）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_6AUYBnz98s3gw1eDJWzgEY
+        - id: cs_KiEwlui_BpH0oemwYP0mut
           claim_id: c_dXqGbV9FY5P5tveqcuNw4i
           source_id: s_PviN85BfLuACQZhJfBV9sL
           stance: supports
-          locator: null
+          locator: CBDB:341775
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王元晉 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王元晉，清人物。明清進士進士，籍贯寧晉，入仕進士。（中国历代人物传记资料库 CBDB 341775） | accepted |
 
 ## 关联关系
 

@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王振聲（生于1852年），清人物。明清進士進士，籍贯通州，入仕進士，曾任道監察御史、都水司員外郎、同考官。（中国历代人物传记资料库 CBDB 30048）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_EaLpS4WSM7dWy4E3WakJa5
+        - id: cs_MfmA7EdyvVttIGN5uuz61B
           claim_id: c_fwqDKBH8bJKF2T8Q67ZFx3
           source_id: s_gSWQHL1V8E1x7hLAPMLZPn
           stance: supports
-          locator: null
+          locator: CBDB:30048
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王振聲 | accepted |
 | birth.date | 1852年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王振聲（生于1852年），清人物。明清進士進士，籍贯通州，入仕進士，曾任道監察御史、都水司員外郎、同考官。（中国历代人物传记资料库 CBDB 30048） | accepted |
 
 ## 关联关系
 

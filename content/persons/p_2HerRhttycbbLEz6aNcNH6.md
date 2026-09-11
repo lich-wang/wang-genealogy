@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王瓊（1459年—1532年），明人物。籍贯太原，入仕進士，曾任兵部尚書、布政使司右參政、布政使司左參政。（中国历代人物传记资料库 CBDB 68264）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_FSzQnq33EopWquPQGJi92k
+        - id: cs_BTCmM3uaQ9BMosUfYWPgPs
           claim_id: c_8hQdSn2TLHf1ZwRwThiLwA
           source_id: s_buwC6Xo3FSxnC2w51jBQzW
           stance: supports
-          locator: null
+          locator: CBDB:68264
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -227,7 +227,7 @@ relationships:
 | name.primary | 王瓊 | accepted |
 | birth.date | 1459年 | accepted |
 | death.date | 1532年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王瓊（1459年—1532年），明人物。籍贯太原，入仕進士，曾任兵部尚書、布政使司右參政、布政使司左參政。（中国历代人物传记资料库 CBDB 68264） | accepted |
 
 ## 关联关系
 

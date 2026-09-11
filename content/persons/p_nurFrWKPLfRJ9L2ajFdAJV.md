@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王朝臣，明人物。曾任訓導。（中国历代人物传记资料库 CBDB 473183）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_n3h6i7cGMq65fTK7svG444
+        - id: cs_c8LPcWUElxYm0S-FBfdfyX
           claim_id: c_7J2AsfsZos65KZUtKiNhmG
           source_id: s_1pRAbqKi94UA8pj3JsWG6h
           stance: supports
-          locator: null
+          locator: CBDB:473183
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王朝臣 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王朝臣，明人物。曾任訓導。（中国历代人物传记资料库 CBDB 473183） | accepted |
 
 ## 关联关系
 

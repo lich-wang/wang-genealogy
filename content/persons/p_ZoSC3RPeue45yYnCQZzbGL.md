@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王湜，宋人物。曾任集賢院校理。（中国历代人物传记资料库 CBDB 38314）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_s2WQiyhvT5Hx644jM4h73Q
+        - id: cs_M9egBczLLHqQF4fXgHTCWX
           claim_id: c_wDE5T3oNsa1453xHSUdWaF
           source_id: s_9eKz1QRL9AVxQfCwXCyN1n
           stance: supports
-          locator: null
+          locator: CBDB:38314
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王湜 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王湜，宋人物。曾任集賢院校理。（中国历代人物传记资料库 CBDB 38314） | accepted |
 
 ## 关联关系
 

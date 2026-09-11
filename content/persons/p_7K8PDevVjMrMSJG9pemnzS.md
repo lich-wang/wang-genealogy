@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王輔臣（卒于1681年），清人物。籍贯大同，曾任將軍、提督、御前侍衛。（中国历代人物传记资料库 CBDB 62015）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_TL5csvYnrRjnW5JiDLsDjQ
+        - id: cs_neoJ2Q6huByMG-Bkpi3imi
           claim_id: c_P6LKTGDhsX9FGMKRXspyRS
           source_id: s_5BQSt3bFJhYVuZSKmuwJKR
           stance: supports
-          locator: null
+          locator: CBDB:62015
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -183,7 +183,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王輔臣 | accepted |
 | death.date | 1681年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王輔臣（卒于1681年），清人物。籍贯大同，曾任將軍、提督、御前侍衛。（中国历代人物传记资料库 CBDB 62015） | accepted |
 
 ## 关联关系
 

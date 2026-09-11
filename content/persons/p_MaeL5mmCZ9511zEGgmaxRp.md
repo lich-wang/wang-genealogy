@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王德榮，明人物。景泰五年進士，籍贯平夷長官司。（中国历代人物传记资料库 CBDB 261592）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_WrjGLo8X5NW9ECoP7z9tCn
+        - id: cs_Y-HL6SShcqnyiwpYw30wvh
           claim_id: c_Dh6EMdNZnHro1MrZj1LF2P
           source_id: s_cDfhq2nvNb9k56DiS5o184
           stance: supports
-          locator: null
+          locator: CBDB:261592
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王德榮 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王德榮，明人物。景泰五年進士，籍贯平夷長官司。（中国历代人物传记资料库 CBDB 261592） | accepted |
 
 ## 关联关系
 

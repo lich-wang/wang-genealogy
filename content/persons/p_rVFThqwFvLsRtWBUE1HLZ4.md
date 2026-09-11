@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王洙（997年—1057年），宋人物。籍贯宋城，身份为書法家、數學家，入仕進士，曾任朝奉郎、翰林侍讀學士、幕職官。（中国历代人物传记资料库 CBDB 3941）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_FBPPvbwd9di287WSQgBt1Z
+        - id: cs_ZKRN-fza9s6SA01_4u0nE_
           claim_id: c_S51G7gsemwTPPhWBBnyYo3
           source_id: s_bMAv8NFv9BoF3sKXMvdE7f
           stance: supports
-          locator: null
+          locator: CBDB:3941
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -186,7 +186,7 @@ relationships:
 | name.primary | 王洙 | accepted |
 | birth.date | 997年 | accepted |
 | death.date | 1057年 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王洙（997年—1057年），宋人物。籍贯宋城，身份为書法家、數學家，入仕進士，曾任朝奉郎、翰林侍讀學士、幕職官。（中国历代人物传记资料库 CBDB 3941） | accepted |
 
 ## 关联关系
 

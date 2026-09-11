@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王祖仁，清人物。籍贯甯都直隸州甯都直隸州前鋪，入仕鄉貢舉人，曾任知縣。（中国历代人物传记资料库 CBDB 639566）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_sRn3zdNqowpgUxnYn8MhiJ
+        - id: cs_n4ZJCJTC3YBc_v53GV9CWp
           claim_id: c_SzKnCWUVsh1JyTMGQSLHTF
           source_id: s_WfRWfzpVVEUvgQtLuJj4Mu
           stance: supports
-          locator: null
+          locator: CBDB:639566
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王祖仁 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王祖仁，清人物。籍贯甯都直隸州甯都直隸州前鋪，入仕鄉貢舉人，曾任知縣。（中国历代人物传记资料库 CBDB 639566） | accepted |
 
 ## 关联关系
 

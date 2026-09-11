@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王彰，明人物。明清進士進士，籍贯海豐，入仕進士，曾任刑部主事。（中国历代人物传记资料库 CBDB 67141）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_HoHEZgiTHn6os9tmXSdnmD
+        - id: cs_sqk-AhdJ7L2rLl1KAfJAQx
           claim_id: c_8WY3DAm6JyM21W2iC2XMCj
           source_id: s_oSSY9Gb44v4Z2SXQZm7p3U
           stance: supports
-          locator: null
+          locator: CBDB:67141
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王彰 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王彰，明人物。明清進士進士，籍贯海豐，入仕進士，曾任刑部主事。（中国历代人物传记资料库 CBDB 67141） | accepted |
 
 ## 关联关系
 

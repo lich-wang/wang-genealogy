@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王應奎，清人物。明清進士進士，籍贯諸城，入仕進士。（中国历代人物传记资料库 CBDB 341560）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_8AhfrEw12jaK683FfE37dM
+        - id: cs_9PiIpJyjmjCzy0D3_9b9LG
           claim_id: c_B5kq6ySFxVftLmXDdu2zY5
           source_id: s_mET5rHCqi74j7uNWhCGBkB
           stance: supports
-          locator: null
+          locator: CBDB:341560
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王應奎 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王應奎，清人物。明清進士進士，籍贯諸城，入仕進士。（中国历代人物传记资料库 CBDB 341560） | accepted |
 
 ## 关联关系
 

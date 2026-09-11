@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王友直（1314年—1370年），明人物。籍贯建康路，曾任雜造局副使。（中国历代人物传记资料库 CBDB 101077）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_xYTcdGHug8GJ6ATki4xXCA
+        - id: cs_deCuKTVSel0oul-ggU9IOU
           claim_id: c_S6V7481ojtR3tD9PSRamKV
           source_id: s_hR9qCbRfqDe97MFkhDMDX1
           stance: supports
-          locator: null
+          locator: CBDB:101077
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王友直 | accepted |
 | birth.date | 1314年 | accepted |
 | death.date | 1370年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王友直（1314年—1370年），明人物。籍贯建康路，曾任雜造局副使。（中国历代人物传记资料库 CBDB 101077） | accepted |
 
 ## 关联关系
 

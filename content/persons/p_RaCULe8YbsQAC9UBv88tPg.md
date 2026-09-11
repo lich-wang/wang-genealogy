@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王倫，明人物。正德十六年進士，籍贯金吾右衛，曾任義官。（中国历代人物传记资料库 CBDB 286072）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_iL64xWKTyhmxcnwpARzBZE
+        - id: cs_HVcP1g6P-zG2oLitqTxw6y
           claim_id: c_GpLdGoE27K5zApHk3gZBv7
           source_id: s_Y5aWeTwaUqvM3hya2wVfe3
           stance: supports
-          locator: null
+          locator: CBDB:286072
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王倫 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王倫，明人物。正德十六年進士，籍贯金吾右衛，曾任義官。（中国历代人物传记资料库 CBDB 286072） | accepted |
 
 ## 关联关系
 

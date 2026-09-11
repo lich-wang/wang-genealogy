@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王旭齢，清人物。籍贯義州，入仕鄉貢舉人，曾任知縣。（中国历代人物传记资料库 CBDB 638353）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_U83oKoFLkSia1ZB4oh2Yx6
+        - id: cs_qzie7TQ6GHUMQ9WGMk2YKq
           claim_id: c_W2A1ze69Lm1mfHk4JN8Gt7
           source_id: s_vhcCdFAumxB6PwWSHt7s4M
           stance: supports
-          locator: null
+          locator: CBDB:638353
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王旭齢 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王旭齢，清人物。籍贯義州，入仕鄉貢舉人，曾任知縣。（中国历代人物传记资料库 CBDB 638353） | accepted |
 
 ## 关联关系
 

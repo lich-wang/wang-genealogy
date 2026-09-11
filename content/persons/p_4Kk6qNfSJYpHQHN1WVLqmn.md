@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王檟，明人物。嘉靖二十年進士，籍贯新城。（中国历代人物传记资料库 CBDB 304466）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_QVJBMdmo4QfkzmesS2wwpc
+        - id: cs_n6Ghbld09kL-cTxz39fZ99
           claim_id: c_DHWb96uyuP8K45A3AYdtHc
           source_id: s_Y6xkq12F4V6hPfiQ7jMHU8
           stance: supports
-          locator: null
+          locator: CBDB:304466
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王檟 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王檟，明人物。嘉靖二十年進士，籍贯新城。（中国历代人物传记资料库 CBDB 304466） | accepted |
 
 ## 关联关系
 

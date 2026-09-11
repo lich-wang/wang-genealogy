@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王承恩，明人物。明清進士進士，籍贯高陽，入仕進士。（中国历代人物传记资料库 CBDB 342050）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_sAQv2BRo4dS7EeoMp3MwfM
+        - id: cs_3QFsBKu6KE-_HeyW-r5Whx
           claim_id: c_p8XM81zzjcJWLve89jdVPS
           source_id: s_Cu9x9EhkDeubhC2m74g1dW
           stance: supports
-          locator: null
+          locator: CBDB:342050
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王承恩 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王承恩，明人物。明清進士進士，籍贯高陽，入仕進士。（中国历代人物传记资料库 CBDB 342050） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: "王用霖，清人物。籍贯廣寧，入仕監生: 蔭監(含明代官生、恩生，或清代恩廕生、難廕生)。（中国历代人物传记资料库 CBDB 438959）"
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_GuxUCd494VJh6vr9EeSGNk
+        - id: cs_r1gyUK213rXGnbv9NPvE3k
           claim_id: c_zQRZ8PeeRoWWCfgZWfTJNd
           source_id: s_N9sGCh9Q4DTqqciQGJMmK9
           stance: supports
-          locator: null
+          locator: CBDB:438959
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王用霖 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王用霖，清人物。籍贯廣寧，入仕監生: 蔭監(含明代官生、恩生，或清代恩廕生、難廕生)。（中国历代人物传记资料库 CBDB 438959） | accepted |
 
 ## 关联关系
 

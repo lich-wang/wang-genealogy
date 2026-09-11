@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王蒙，宋人物。籍贯鄱陽，身份为孝子/孝女，曾任縣尉。（中国历代人物传记资料库 CBDB 39138）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_S5vSmZgBXR57WdBRuPbQfZ
+        - id: cs_mbJZ01ShNXxStF89cK9D43
           claim_id: c_t6P69jbLkMEPamiyGPmemD
           source_id: s_6pUqu12a94xLPVatFvJzk8
           stance: supports
-          locator: null
+          locator: CBDB:39138
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王蒙 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王蒙，宋人物。籍贯鄱陽，身份为孝子/孝女，曾任縣尉。（中国历代人物传记资料库 CBDB 39138） | accepted |
 
 ## 关联关系
 

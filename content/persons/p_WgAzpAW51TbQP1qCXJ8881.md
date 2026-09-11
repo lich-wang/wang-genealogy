@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王守競，史料所见人物。本项目依据《中国历代人物传记资料库：王守競（CBDB 526908）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_M6dSw8QQBEZu3s44FjHvGw
+        - id: cs_zqD9b9Ch3i1JJ82AoGgjfB
           claim_id: c_QQJ4oJD2cQNLS1DwLt5NfW
           source_id: s_zMPMHr1WDYN5TKdD67Eo7D
           stance: supports
-          locator: null
+          locator: CBDB:526908
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
           source: *a1
       object_person: null
     alternatives: []
@@ -128,7 +128,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王守競 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王守競，史料所见人物。本项目依据《中国历代人物传记资料库：王守競（CBDB 526908）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
 
 ## 关联关系
 

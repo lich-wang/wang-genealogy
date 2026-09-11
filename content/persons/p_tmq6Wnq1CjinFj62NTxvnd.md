@@ -75,11 +75,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: Song dynasty person (CBDB = 22250)
-          language: en
+          text: 王师颜，宋人物。籍贯洹水，入仕進士，曾任尚書省工部侍郎、三班借職、司天監冬官正。（中国历代人物传记资料库 CBDB 22250）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
         - id: cs_eRww3L2CAhCu4VSP3RXMuw
           claim_id: c_dsACeV5YPgFJ5udShbfHYE
@@ -89,6 +89,14 @@ properties:
           quotation: null
           interpretation_note: 维基数据条目描述
           source: *a1
+        - id: cs_3YcW9Fm-KI5OI7HU4tUOWN
+          claim_id: c_dsACeV5YPgFJ5udShbfHYE
+          source_id: s_Z4fxo5rB3BvheXUFeqMwGa
+          stance: supports
+          locator: CBDB:22250
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: *a2
       object_person: null
     alternatives: []
 relationships:
@@ -541,7 +549,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王师颜 | accepted |
-| bio.summary | Song dynasty person (CBDB = 22250) | accepted |
+| bio.summary | 王师颜，宋人物。籍贯洹水，入仕進士，曾任尚書省工部侍郎、三班借職、司天監冬官正。（中国历代人物传记资料库 CBDB 22250） | accepted |
 
 ## 关联关系
 

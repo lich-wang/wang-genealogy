@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王亮（卒于728年），唐人物。籍贯幽都，曾任未詳。（中国历代人物传记资料库 CBDB 170372）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_HbEDVombe8fer7JeYTF6qV
+        - id: cs_Fxmp9Tadzhu50Dkux7XwzC
           claim_id: c_wSeic8fQyNdT613qom72Dd
           source_id: s_xUTY8UCPMyUvMgUHyCG7QP
           stance: supports
-          locator: null
+          locator: CBDB:170372
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -157,7 +157,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王亮 | accepted |
 | death.date | 728年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王亮（卒于728年），唐人物。籍贯幽都，曾任未詳。（中国历代人物传记资料库 CBDB 170372） | accepted |
 
 ## 关联关系
 

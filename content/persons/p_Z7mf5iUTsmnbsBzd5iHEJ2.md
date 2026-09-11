@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王升，宋人物。籍贯開封府，身份为書法家，曾任諸司正使。（中国历代人物传记资料库 CBDB 38527）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_DJzU54SiDaR52Eer29EkXF
+        - id: cs_paA0V-_8c827TjX5HCmYwB
           claim_id: c_oM2fVkaj9nfsFtS1NAPe13
           source_id: s_AUER1xhevseetnjbAZawkx
           stance: supports
-          locator: null
+          locator: CBDB:38527
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王升 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王升，宋人物。籍贯開封府，身份为書法家，曾任諸司正使。（中国历代人物传记资料库 CBDB 38527） | accepted |
 
 ## 关联关系
 

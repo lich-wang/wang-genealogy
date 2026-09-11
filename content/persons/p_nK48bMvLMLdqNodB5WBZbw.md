@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王朝聘，明人物。正德十六年進士，籍贯南充。（中国历代人物传记资料库 CBDB 285770）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_8xSrVJvK8Xq3QJMGnkcU5s
+        - id: cs_wkWcuFrRaBw6VyMXh_AIJO
           claim_id: c_QjzUjZsySWn3oV4BAYJxao
           source_id: s_CE69Mfa6CSc5FG1RWt95B3
           stance: supports
-          locator: null
+          locator: CBDB:285770
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王朝聘 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王朝聘，明人物。正德十六年進士，籍贯南充。（中国历代人物传记资料库 CBDB 285770） | accepted |
 
 ## 关联关系
 

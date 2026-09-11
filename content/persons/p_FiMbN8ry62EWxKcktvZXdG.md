@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王協一，清人物。籍贯朝邑，入仕縣學附生，曾任知縣。（中国历代人物传记资料库 CBDB 636426）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_5oDoFueRyK5vXwjYv7m5i2
+        - id: cs_50I4V-dnr5Kmpvtf-Uclmf
           claim_id: c_uYg2rhVTpG5TDELF5PkMeQ
           source_id: s_niqxfsxwB46KSJCGAXTE5i
           stance: supports
-          locator: null
+          locator: CBDB:636426
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王協一 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王協一，清人物。籍贯朝邑，入仕縣學附生，曾任知縣。（中国历代人物传记资料库 CBDB 636426） | accepted |
 
 ## 关联关系
 

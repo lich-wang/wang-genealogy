@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王得一，清人物。曾任道正。（中国历代人物传记资料库 CBDB 455275）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_rG7FnVBYddQ42TtNQbigUp
+        - id: cs__XbtbNLHeyqWOHQSt9id2V
           claim_id: c_PzX1BP5p8qnaFM1F3s1gb3
           source_id: s_sEA1bsY8S5tWW2LCz4PdcF
           stance: supports
-          locator: null
+          locator: CBDB:455275
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王得一 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王得一，清人物。曾任道正。（中国历代人物传记资料库 CBDB 455275） | accepted |
 
 ## 关联关系
 

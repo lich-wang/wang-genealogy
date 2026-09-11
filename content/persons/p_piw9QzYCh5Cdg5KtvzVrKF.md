@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
-          language: zh-Hans
+          text: 王宗（1268年—1328年），元人物。籍贯河間路，身份为行醫，曾任諸路總管府儒學教授、諸路總管府醫學正。（中国历代人物传记资料库 CBDB 100686）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_KmS2aFg99Uu2gNJrTG24D7
+        - id: cs_2ZQXdYX6oA27TxzxksAqfT
           claim_id: c_MgtaQUxu2DdxTKeZYEFJ7U
           source_id: s_NwcDcsZSrjCJRZr7XKCnLk
           stance: supports
-          locator: null
+          locator: CBDB:100686
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王宗 | accepted |
 | birth.date | 1268年 | accepted |
 | death.date | 1328年 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王宗（1268年—1328年），元人物。籍贯河間路，身份为行醫，曾任諸路總管府儒學教授、諸路總管府醫學正。（中国历代人物传记资料库 CBDB 100686） | accepted |
 
 ## 关联关系
 

@@ -7,6 +7,44 @@ display_name: 趙氏
 revision: 1
 cbdb_id: 38089
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_PUieUfUw8fbtWVOJc_UHC2
+        subject_person_id: p_15zkLYv3q2p9LKJwXkpuD5
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 趙氏（卒於1004），宋人物。籍贯開封，曾任公主、長公主、大長公主。（中国历代人物传记资料库 CBDB 38089）
+          language: zh-Hant
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_s66ExieDHtj6BMcgluw8Im
+          claim_id: c_PUieUfUw8fbtWVOJc_UHC2
+          source_id: s_pr678Fvytrr7_WVVbd76fh
+          stance: supports
+          locator: CBDB:38089
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_pr678Fvytrr7_WVVbd76fh
+            source_type: api_record
+            title: 中国历代人物传记资料库：趙氏(王貽永妻)（CBDB 38089）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38089&o=json
+            external_identifier: CBDB:38089
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-10T13:33:56.265Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:38089
           quotation: null
           interpretation_note: CBDB 明确记录的王貽永配偶
-          source: &a1
-            id: s_pr678Fvytrr7_WVVbd76fh
-            source_type: api_record
-            title: 中国历代人物传记资料库：趙氏(王貽永妻)（CBDB 38089）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38089&o=json
-            external_identifier: CBDB:38089
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-10T13:33:56.265Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -109,6 +136,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 趙氏（卒於1004），宋人物。籍贯開封，曾任公主、長公主、大長公主。（中国历代人物传记资料库 CBDB 38089） | accepted |
 | name.primary | 趙氏 | accepted |
 
 ## 关联关系

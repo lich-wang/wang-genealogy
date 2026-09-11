@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王雋（卒于1787年），清人物。籍贯仁和，入仕鄉貢舉人，曾任同知、縣知縣。（中国历代人物传记资料库 CBDB 438395）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_UiFyHy3Te8eXEWir8rP8L1
+        - id: cs_mX-q1cGG1_xGxlJsIozZO1
           claim_id: c_KWc6kCVE8JhxFHA5jBVqcT
           source_id: s_V59G1VB2WbsUFqdVNWiMMf
           stance: supports
-          locator: null
+          locator: CBDB:438395
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王雋 | accepted |
 | death.date | 1787年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王雋（卒于1787年），清人物。籍贯仁和，入仕鄉貢舉人，曾任同知、縣知縣。（中国历代人物传记资料库 CBDB 438395） | accepted |
 
 ## 关联关系
 

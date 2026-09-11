@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
-          language: zh-Hans
+          text: 王長善（卒于840年），唐人物。籍贯濮陽。（中国历代人物传记资料库 CBDB 195425）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_w1BCqBq1tMVbEgjqp2eY5Z
+        - id: cs_zU86jt2hwVltnS0UuAUJpf
           claim_id: c_xHsedkTNzoAL87kN9VChZV
           source_id: s_GYKFUQhs2Nw58J7H6Z9gtR
           stance: supports
-          locator: null
+          locator: CBDB:195425
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -146,7 +146,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王長善 | accepted |
 | death.date | 840年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王長善（卒于840年），唐人物。籍贯濮陽。（中国历代人物传记资料库 CBDB 195425） | accepted |
 
 ## 关联关系
 

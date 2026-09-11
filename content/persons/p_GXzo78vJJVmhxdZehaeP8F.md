@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为遼人物
-          language: zh-Hans
+          text: 王籍，遼人物。曾任郡公、中書令。（中国历代人物传记资料库 CBDB 700588）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_cJrCjJ8BrXtTTgNxf8ZGeD
+        - id: cs_CeK9di4hxWP8iAEWkmehka
           claim_id: c_LY74HEYntAE4JDCP5ocSXV
           source_id: s_aiGK3DSUt4bWZwAQVdoHom
           stance: supports
-          locator: null
+          locator: CBDB:700588
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王籍 | accepted |
-| bio.summary | CBDB 记载为遼人物 | accepted |
+| bio.summary | 王籍，遼人物。曾任郡公、中書令。（中国历代人物传记资料库 CBDB 700588） | accepted |
 
 ## 关联关系
 

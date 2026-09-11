@@ -7,6 +7,44 @@ display_name: 李氏
 cbdb_id: 235519
 revision: 2
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_AxSd9lFN7RSUeX_-ziJJcj
+        subject_person_id: p_ASsdnhPYAoL9SLjnhJbTur
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 李氏，史料所见人物。本项目依据《李氏》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bShdY82qzgqD46DEeJxMwg
+          claim_id: c_AxSd9lFN7RSUeX_-ziJJcj
+          source_id: s_E9jYXywKJpJnEAP3XtES6A
+          stance: supports
+          locator: Q65837803
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          source: &a1
+            id: s_E9jYXywKJpJnEAP3XtES6A
+            source_type: api_record
+            title: 维基数据：李氏（Q65837803）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q65837803
+            external_identifier: Q65837803
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: Q65837803
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source: &a1
-            id: s_E9jYXywKJpJnEAP3XtES6A
-            source_type: api_record
-            title: 维基数据：李氏（Q65837803）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q65837803
-            external_identifier: Q65837803
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T08:06:50.055Z
-            metadata_json: null
+          source: *a1
         - id: cs_8FxMvP1oGSGumi6eT5QEnu
           claim_id: c_aFjN93tr1EPwC7Le8AYVJU
           source_id: s_gMNCGGi88T2BA2qhP79M29
@@ -174,6 +201,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 李氏，史料所见人物。本项目依据《李氏》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
 | name.primary | 李氏 | accepted |
 
 ## 关联关系

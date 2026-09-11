@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王之俊，清人物。入仕鄉貢舉人，曾任監督、内官監太監、乾清宮管事。（中国历代人物传记资料库 CBDB 59907）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_FDpATjkgAfmLq5kTVqCYAR
+        - id: cs_5c_RzkauKv6_aXh3Fwqbfw
           claim_id: c_mVr1hvThezTVJxY74ri4mg
           source_id: s_3b7L9AgscTv5gzLkD1eqGY
           stance: supports
-          locator: null
+          locator: CBDB:59907
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王之俊 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王之俊，清人物。入仕鄉貢舉人，曾任監督、内官監太監、乾清宮管事。（中国历代人物传记资料库 CBDB 59907） | accepted |
 
 ## 关联关系
 

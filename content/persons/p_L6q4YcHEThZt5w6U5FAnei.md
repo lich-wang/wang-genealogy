@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王全網，清人物。籍贯上海，入仕進士，曾任知縣。（中国历代人物传记资料库 CBDB 636317）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_asxGyqvZM35yNiarW8q41i
+        - id: cs_VKuBxG8mS6YCbHurkmN5c6
           claim_id: c_cYs8QWscm85j2LeEmaY3Pp
           source_id: s_WM9H6EoRQPCrNkF3nZPSkD
           stance: supports
-          locator: null
+          locator: CBDB:636317
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王全網 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王全網，清人物。籍贯上海，入仕進士，曾任知縣。（中国历代人物传记资料库 CBDB 636317） | accepted |
 
 ## 关联关系
 

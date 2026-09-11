@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王瓚（生于1430年），明人物。天順元年進士，籍贯陝州，入仕進士。（中国历代人物传记资料库 CBDB 198693）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_PMkA5UfaLVhD5AdSVVXe2K
+        - id: cs_a0g-tTw1h65L0B_VdSgztS
           claim_id: c_azatHE3hRQVKWUcMB4Pckz
           source_id: s_cQgqQM6MPxN5HNJ4LNgLZy
           stance: supports
-          locator: null
+          locator: CBDB:198693
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -232,7 +232,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王瓚 | accepted |
 | birth.date | 1430年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王瓚（生于1430年），明人物。天順元年進士，籍贯陝州，入仕進士。（中国历代人物传记资料库 CBDB 198693） | accepted |
 
 ## 关联关系
 

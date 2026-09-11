@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王冰（卒于855年），唐人物。籍贯太原，曾任參軍。（中国历代人物传记资料库 CBDB 175912）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_1nwVS1QP5RYAfPwbKn3f66
+        - id: cs_aqTUGw6ZXI-zQlKzA795aU
           claim_id: c_197H43M3TYErEEYTHnx6ty
           source_id: s_KPCnV1CSFd3cni45qs5jkY
           stance: supports
-          locator: null
+          locator: CBDB:175912
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -146,7 +146,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王冰 | accepted |
 | death.date | 855年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王冰（卒于855年），唐人物。籍贯太原，曾任參軍。（中国历代人物传记资料库 CBDB 175912） | accepted |
 
 ## 关联关系
 

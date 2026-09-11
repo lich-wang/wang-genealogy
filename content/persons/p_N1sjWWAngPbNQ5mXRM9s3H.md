@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王介（1158年—1213年），宋人物。籍贯金華，身份为理學家，入仕進士，曾任安撫使、朝奉大夫、國子監祭酒。（中国历代人物传记资料库 CBDB 10241）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_A1VSCGCgTzES9HHHvVxGEM
+        - id: cs_JwTwChYyrHXWInRUq5IJOE
           claim_id: c_68bxEb4NY51CsHsak8CMxj
           source_id: s_bpuRCgiE9dmV7GetKuCsAJ
           stance: supports
-          locator: null
+          locator: CBDB:10241
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -335,7 +335,7 @@ relationships:
 | name.primary | 王介 | accepted |
 | birth.date | 1158年 | accepted |
 | death.date | 1213年 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王介（1158年—1213年），宋人物。籍贯金華，身份为理學家，入仕進士，曾任安撫使、朝奉大夫、國子監祭酒。（中国历代人物传记资料库 CBDB 10241） | accepted |
 
 ## 关联关系
 

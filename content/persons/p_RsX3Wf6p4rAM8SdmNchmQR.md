@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王德宣，明人物。萬曆八年進士，籍贯安福。（中国历代人物传记资料库 CBDB 218713）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_t6sRUHAQg4CuQDCkaNGJFg
+        - id: cs_i4FfH9ppL2yjpFF8-ohxnC
           claim_id: c_GPRzv89rHvPW5x2RnHVfYP
           source_id: s_nXYDBduBne5M29HuzunzUB
           stance: supports
-          locator: null
+          locator: CBDB:218713
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王德宣 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王德宣，明人物。萬曆八年進士，籍贯安福。（中国历代人物传记资料库 CBDB 218713） | accepted |
 
 ## 关联关系
 

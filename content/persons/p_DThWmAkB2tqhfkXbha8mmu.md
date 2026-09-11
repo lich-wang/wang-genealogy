@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王昇（卒于1644年），明人物。籍贯順天府，曾任新城侯。（中国历代人物传记资料库 CBDB 439387）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_FZFPxa15gKDCks89E3L6m6
+        - id: cs_yrYD_KaOBexLaB4X_y1fIS
           claim_id: c_xGmN6McM1jVY3TJGi8tE4A
           source_id: s_5DLkdE3vA7xTgFitnFrMXA
           stance: supports
-          locator: null
+          locator: CBDB:439387
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王昇 | accepted |
 | death.date | 1644年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王昇（卒于1644年），明人物。籍贯順天府，曾任新城侯。（中国历代人物传记资料库 CBDB 439387） | accepted |
 
 ## 关联关系
 

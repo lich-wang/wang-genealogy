@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王偉，明人物。建文二年殿試進士，籍贯吉水。（中国历代人物传记资料库 CBDB 253921）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_UJHy3ZjEq9LEGNej5pZDh9
+        - id: cs_Vtf229M5yGIbOptURFa5v8
           claim_id: c_SNkJAB93KYcyiHKLQ4hC99
           source_id: s_6ZBP6zdsmNYyiwSj4p3mph
           stance: supports
-          locator: null
+          locator: CBDB:253921
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王偉 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王偉，明人物。建文二年殿試進士，籍贯吉水。（中国历代人物传记资料库 CBDB 253921） | accepted |
 
 ## 关联关系
 

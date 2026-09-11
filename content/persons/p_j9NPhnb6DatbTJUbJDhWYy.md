@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王聯登，清人物。籍贯延安府，曾任訓導。（中国历代人物传记资料库 CBDB 639952）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Ht6Byite5qx9xHiaKm3C3K
+        - id: cs_803_ezR5tJgnY6u2pM-vVd
           claim_id: c_v11iG1Z8BsnAWJm8z31QrV
           source_id: s_Eu6LQcnCHdCJVQfZF87GUE
           stance: supports
-          locator: null
+          locator: CBDB:639952
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王聯登 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王聯登，清人物。籍贯延安府，曾任訓導。（中国历代人物传记资料库 CBDB 639952） | accepted |
 
 ## 关联关系
 

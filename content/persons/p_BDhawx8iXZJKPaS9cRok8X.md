@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王鯤，明人物。成化十四年進士，籍贯祥符。（中国历代人物传记资料库 CBDB 252487）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_1stH1DFtJzZ7j9Nag1wTxt
+        - id: cs_8AQNiLTjS_3hZetZP497jg
           claim_id: c_Jb3eoBy3p1aGmBJq3NZaYN
           source_id: s_MK44uXmNAMkxDk3cZ2Dm9w
           stance: supports
-          locator: null
+          locator: CBDB:252487
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王鯤 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王鯤，明人物。成化十四年進士，籍贯祥符。（中国历代人物传记资料库 CBDB 252487） | accepted |
 
 ## 关联关系
 

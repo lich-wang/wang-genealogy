@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王鉽，清人物。籍贯蕭山，身份为孝子/孝女。（中国历代人物传记资料库 CBDB 562147）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_xoLJuECZeCe4d62DU565Jc
+        - id: cs_a5sygBZt2SpfmpgNZMCL4_
           claim_id: c_rTdnSygJ7HbnPzLh97UzEf
           source_id: s_sB8agXGaQq8GctLB2ZYSaw
           stance: supports
-          locator: null
+          locator: CBDB:562147
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王鉽 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王鉽，清人物。籍贯蕭山，身份为孝子/孝女。（中国历代人物传记资料库 CBDB 562147） | accepted |
 
 ## 关联关系
 

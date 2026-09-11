@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王章（生于1603年），清人物。明清進士進士，籍贯萊陽，入仕進士。（中国历代人物传记资料库 CBDB 71200）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_eqtVZVFfVBe7T6LvuEf5Nu
+        - id: cs_mJVlGJAfj0tn3ao2gvs8FR
           claim_id: c_PUtNvq2gwKBHZtLT7o8PQA
           source_id: s_8r1VQKWWcjTX8RVJ2R2bo2
           stance: supports
-          locator: null
+          locator: CBDB:71200
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王章 | accepted |
 | birth.date | 1603年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王章（生于1603年），清人物。明清進士進士，籍贯萊陽，入仕進士。（中国历代人物传记资料库 CBDB 71200） | accepted |
 
 ## 关联关系
 

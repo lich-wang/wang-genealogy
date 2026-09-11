@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
-          language: zh-Hans
+          text: 王德真，唐人物。籍贯長安，身份为詩人，曾任太常卿、未詳。（中国历代人物传记资料库 CBDB 32339）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_2x5bnB7zJQJ8Nq7wyiHXds
+        - id: cs_gUfzQBpeHOZKpl0JkkywZo
           claim_id: c_YdJLwbK9cMVMx9zNECp6yn
           source_id: s_yLb2niZn8UZbmBgsy8yD1g
           stance: supports
-          locator: null
+          locator: CBDB:32339
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -154,7 +154,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王德真 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王德真，唐人物。籍贯長安，身份为詩人，曾任太常卿、未詳。（中国历代人物传记资料库 CBDB 32339） | accepted |
 
 ## 关联关系
 

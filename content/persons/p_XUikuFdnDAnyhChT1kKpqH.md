@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王納誨，明人物。正德十二年進士，籍贯淄川。（中国历代人物传记资料库 CBDB 281216）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_puXT4kyty6w9mPyqKETpGp
+        - id: cs_nGGNBbul5Zw7qe9OuF0OA9
           claim_id: c_H7DvZdQSULZTb1JXfeAPAv
           source_id: s_ncyu1TWT5NS4UgXBcL5bBU
           stance: supports
-          locator: null
+          locator: CBDB:281216
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王納誨 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王納誨，明人物。正德十二年進士，籍贯淄川。（中国历代人物传记资料库 CBDB 281216） | accepted |
 
 ## 关联关系
 

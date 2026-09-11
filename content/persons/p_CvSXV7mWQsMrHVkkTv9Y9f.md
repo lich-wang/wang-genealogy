@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王象賢，宋人物。籍贯麗水。（中国历代人物传记资料库 CBDB 23855）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_jWSFxcGP2NcvdjQAPpANfo
+        - id: cs_UlnkiYMMweCJNZ1ZR4gP9-
           claim_id: c_ebXQFAVnJyudhkvWEBVJCk
           source_id: s_YotcJ8HDN3BLJ2m2pPiCQk
           stance: supports
-          locator: null
+          locator: CBDB:23855
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王象賢 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王象賢，宋人物。籍贯麗水。（中国历代人物传记资料库 CBDB 23855） | accepted |
 
 ## 关联关系
 

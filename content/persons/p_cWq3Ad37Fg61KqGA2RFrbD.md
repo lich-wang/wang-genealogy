@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为五代人物
-          language: zh-Hans
+          text: 王景（889年—963年），五代人物。籍贯掖縣，身份为精於騎射、熟諳兵法韜略、軍事家，曾任節度使、秘書省監、侍中。（中国历代人物传记资料库 CBDB 38454）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_sJEv2Jn2UaYCg3Jdi4Ek98
+        - id: cs_7ic9vI0JaYSJUMVgDuSuT0
           claim_id: c_7DVAohBmKji8zz4HL3JAG3
           source_id: s_JEmLoa6B34TExkPDzfUvvx
           stance: supports
-          locator: null
+          locator: CBDB:38454
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -264,7 +264,7 @@ relationships:
 | name.primary | 王景 | accepted |
 | birth.date | 889年 | accepted |
 | death.date | 963年 | accepted |
-| bio.summary | CBDB 记载为五代人物 | accepted |
+| bio.summary | 王景（889年—963年），五代人物。籍贯掖縣，身份为精於騎射、熟諳兵法韜略、軍事家，曾任節度使、秘書省監、侍中。（中国历代人物传记资料库 CBDB 38454） | accepted |
 
 ## 关联关系
 

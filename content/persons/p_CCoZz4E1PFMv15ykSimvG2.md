@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王若拙，宋人物。籍贯上黨，入仕恩蔭、蔭補，曾任國子監博士、太常寺奉禮郎。（中国历代人物传记资料库 CBDB 22184）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_FCb1xLdF3k2PTsgiYFc6AQ
+        - id: cs_PAYfp83byrqpvKl8__eQdF
           claim_id: c_cLmoM314VZKq3R8b3Q25Vw
           source_id: s_NzsJcKjznbiZbe1YK9LGW8
           stance: supports
-          locator: null
+          locator: CBDB:22184
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王若拙 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王若拙，宋人物。籍贯上黨，入仕恩蔭、蔭補，曾任國子監博士、太常寺奉禮郎。（中国历代人物传记资料库 CBDB 22184） | accepted |
 
 ## 关联关系
 

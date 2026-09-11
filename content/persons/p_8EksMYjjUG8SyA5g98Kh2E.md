@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王億，明人物。成化十七年進士。（中国历代人物传记资料库 CBDB 255257）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_e7N6hvgW9iJF3EgT29mCj3
+        - id: cs_dR-Mo68TSUTX5GoIahRWEs
           claim_id: c_BEeyguD8HokaVVKCJDBL4D
           source_id: s_JyrGitooCVTqANFwiBYCtv
           stance: supports
-          locator: null
+          locator: CBDB:255257
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王億 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王億，明人物。成化十七年進士。（中国历代人物传记资料库 CBDB 255257） | accepted |
 
 ## 关联关系
 

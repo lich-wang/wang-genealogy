@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王開運，明人物。曾任縣丞。（中国历代人物传记资料库 CBDB 506106）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_NGiBaU957r6QtvGSKwfyN2
+        - id: cs_h7dS3ARumOsVg8aYZTwWYL
           claim_id: c_dceodeL2SHKdFZ6U4d8KRy
           source_id: s_yjtJFxQTtsGZko3UzNDmv7
           stance: supports
-          locator: null
+          locator: CBDB:506106
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王開運 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王開運，明人物。曾任縣丞。（中国历代人物传记资料库 CBDB 506106） | accepted |
 
 ## 关联关系
 

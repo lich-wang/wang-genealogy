@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
-          language: zh-Hans
+          text: 王壽（1251年—1310年），元人物。曾任兵部員外郎、翰林國史院侍讀學士、集賢直學士。（中国历代人物传记资料库 CBDB 100896）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_1P7kS6jf87bpG64NoGwJfL
+        - id: cs_yXN90fKooD8mjHBqHMODQb
           claim_id: c_9VhSs4eymnCH9v3653XAJu
           source_id: s_aaujVvJ7ZQ5W8P8EwAJw38
           stance: supports
-          locator: null
+          locator: CBDB:100896
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王壽 | accepted |
 | birth.date | 1251年 | accepted |
 | death.date | 1310年 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王壽（1251年—1310年），元人物。曾任兵部員外郎、翰林國史院侍讀學士、集賢直學士。（中国历代人物传记资料库 CBDB 100896） | accepted |
 
 ## 关联关系
 

@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王澧（1616年—1692年），清人物。明清進士進士，籍贯常熟，入仕進士，曾任刑部郎中。（中国历代人物传记资料库 CBDB 71283）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_K4cueTCmU4dFBrGg4rYHvA
+        - id: cs_gqf0rVHB7XWNZFlL5ihV9J
           claim_id: c_TxpGT89s99L4TyfgaB4ueb
           source_id: s_9w8NCXd5QFg5GGp1AeKACK
           stance: supports
-          locator: null
+          locator: CBDB:71283
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -260,7 +260,7 @@ relationships:
 | name.primary | 王澧 | accepted |
 | birth.date | 1616年 | accepted |
 | death.date | 1692年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王澧（1616年—1692年），清人物。明清進士進士，籍贯常熟，入仕進士，曾任刑部郎中。（中国历代人物传记资料库 CBDB 71283） | accepted |
 
 ## 关联关系
 

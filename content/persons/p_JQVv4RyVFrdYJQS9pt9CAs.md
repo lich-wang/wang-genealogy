@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
-          language: zh-Hans
+          text: 王思宗，元人物。籍贯高陽，身份为經學家。（中国历代人物传记资料库 CBDB 101270）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_9GYVdBm79bRWt6LvdDzg2K
+        - id: cs_GRnso0exPQELyXdCsDbSBf
           claim_id: c_1RHbNHLF4F6sK1jerDWd7H
           source_id: s_NDidZbMd48myth94iVN3Ng
           stance: supports
-          locator: null
+          locator: CBDB:101270
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王思宗 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王思宗，元人物。籍贯高陽，身份为經學家。（中国历代人物传记资料库 CBDB 101270） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王雲騰，清人物。籍贯開封府，入仕鄉貢舉人，曾任訓導。（中国历代人物传记资料库 CBDB 640822）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_ZRP1D2c8iVE9RyZrdGXkeR
+        - id: cs_lE1mg5SXRnJF9t_8xu172w
           claim_id: c_1hvvv4DcCzq1LDpW3Vp6eE
           source_id: s_mKLUf7GEFnsDnS2nYqz8GM
           stance: supports
-          locator: null
+          locator: CBDB:640822
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王雲騰 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王雲騰，清人物。籍贯開封府，入仕鄉貢舉人，曾任訓導。（中国历代人物传记资料库 CBDB 640822） | accepted |
 
 ## 关联关系
 

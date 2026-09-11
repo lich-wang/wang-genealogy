@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王用章，明人物。嘉靖三十八年進士，籍贯南充。（中国历代人物传记资料库 CBDB 324572）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_okh84q694Y8SEWBAqsLkS5
+        - id: cs_R84psQKYttZKtxp2KrmLek
           claim_id: c_pAjwdXSiL3b7i8H9ddRN85
           source_id: s_AUt59Pg8JkfmSaJnQ231PQ
           stance: supports
-          locator: null
+          locator: CBDB:324572
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王用章 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王用章，明人物。嘉靖三十八年進士，籍贯南充。（中国历代人物传记资料库 CBDB 324572） | accepted |
 
 ## 关联关系
 

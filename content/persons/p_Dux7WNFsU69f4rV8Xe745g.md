@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王世仁，清人物。明清進士進士，籍贯奉新，入仕進士，曾任場大使。（中国历代人物传记资料库 CBDB 343173）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_5sxgs4syLrMVmz4DM4ubRx
+        - id: cs_WZU0W6_Vo53147RrtFNTIy
           claim_id: c_eq4ACKjJT3YaXv2BXKZbP8
           source_id: s_5ZwgCqaYkeWDXfgs7UUDCg
           stance: supports
-          locator: null
+          locator: CBDB:343173
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王世仁 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王世仁，清人物。明清進士進士，籍贯奉新，入仕進士，曾任場大使。（中国历代人物传记资料库 CBDB 343173） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王适，明人物。嘉靖十四年進士，籍贯濱州。（中国历代人物传记资料库 CBDB 296152）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_X2vjLQiFMUvjZt5oLzbEt6
+        - id: cs_RHl_QpR9fHliL8UR7AF4BJ
           claim_id: c_3No6ZuKGvdvfQb6MwX8vQe
           source_id: s_LzUgv3We2uQaLuqfc5MQm8
           stance: supports
-          locator: null
+          locator: CBDB:296152
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王适 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王适，明人物。嘉靖十四年進士，籍贯濱州。（中国历代人物传记资料库 CBDB 296152） | accepted |
 
 ## 关联关系
 

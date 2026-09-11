@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王之綬，清人物。籍贯澄邁，入仕貢生 = 貢監生 (明清賓貢,功貢)，曾任經歷。（中国历代人物传记资料库 CBDB 635811）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_zN1sceArbnn1xYw7dvd9jD
+        - id: cs_lRCgSXX-yBozycpDVejkpN
           claim_id: c_6ZzNJA4q4d27V6DTab2U2m
           source_id: s_1fhAMM3nqP3a1J9sQp8BZh
           stance: supports
-          locator: null
+          locator: CBDB:635811
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王之綬 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王之綬，清人物。籍贯澄邁，入仕貢生 = 貢監生 (明清賓貢,功貢)，曾任經歷。（中国历代人物传记资料库 CBDB 635811） | accepted |
 
 ## 关联关系
 

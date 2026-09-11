@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
-          language: zh-Hans
+          text: 王正雅（卒于847年），唐人物。籍贯河中府，曾任秘書省校書郎。（中国历代人物传记资料库 CBDB 190104）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_eFA6xREL9VuFkoy9URve35
+        - id: cs_OxpNiOSsWIsiWlB03pnbzy
           claim_id: c_7ZE6akWKX1wjqceW4XaZVJ
           source_id: s_wKJyQN7Rj1yHybFi2KMrt7
           stance: supports
-          locator: null
+          locator: CBDB:190104
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -146,7 +146,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王正雅 | accepted |
 | death.date | 847年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王正雅（卒于847年），唐人物。籍贯河中府，曾任秘書省校書郎。（中国历代人物传记资料库 CBDB 190104） | accepted |
 
 ## 关联关系
 

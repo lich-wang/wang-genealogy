@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王濟（952年—1010年），宋人物。籍贯饒陽，身份为經學家—左傳、好學，入仕制舉，曾任安撫使、縣主簿、三司鹽鐵判官。（中国历代人物传记资料库 CBDB 1777）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_E3A7o5BBUM2jMtyjqkeifC
+        - id: cs_7LKSe_n_T8KKNOxFA6PwGo
           claim_id: c_ub4Uw8QwGsLgBuQLkGbrdx
           source_id: s_xovCQFfdYPj56FeMEubwgZ
           stance: supports
-          locator: null
+          locator: CBDB:1777
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -223,7 +223,7 @@ relationships:
 | name.primary | 王濟 | accepted |
 | birth.date | 952年 | accepted |
 | death.date | 1010年 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王濟（952年—1010年），宋人物。籍贯饒陽，身份为經學家—左傳、好學，入仕制舉，曾任安撫使、縣主簿、三司鹽鐵判官。（中国历代人物传记资料库 CBDB 1777） | accepted |
 
 ## 关联关系
 

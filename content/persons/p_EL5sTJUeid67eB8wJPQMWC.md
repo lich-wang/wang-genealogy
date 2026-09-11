@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王懋（1304年—1375年），明人物。籍贯吳縣。（中国历代人物传记资料库 CBDB 100974）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_tAvESYhprkLocAqGDj8bCW
+        - id: cs_LrYJM9qLfRRYJVr9TThZ0l
           claim_id: c_JpYZhaLGZsR9xm2Tt4atJa
           source_id: s_zxU45UrVGnRw8dAKhWghWD
           stance: supports
-          locator: null
+          locator: CBDB:100974
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王懋 | accepted |
 | birth.date | 1304年 | accepted |
 | death.date | 1375年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王懋（1304年—1375年），明人物。籍贯吳縣。（中国历代人物传记资料库 CBDB 100974） | accepted |
 
 ## 关联关系
 

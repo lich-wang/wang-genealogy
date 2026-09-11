@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王瑊（卒于1180年），宋人物。籍贯臨川。（中国历代人物传记资料库 CBDB 20583）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_ZWeJK9VmuzNLstfHuTaYV3
+        - id: cs_mROnIzaCFycm1MPqmFBegd
           claim_id: c_3GARsGRiRQnXkBB7FFt16M
           source_id: s_72yTmMe4p6AsXyL9TxjBg9
           stance: supports
-          locator: null
+          locator: CBDB:20583
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -146,7 +146,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王瑊 | accepted |
 | death.date | 1180年 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王瑊（卒于1180年），宋人物。籍贯臨川。（中国历代人物传记资料库 CBDB 20583） | accepted |
 
 ## 关联关系
 

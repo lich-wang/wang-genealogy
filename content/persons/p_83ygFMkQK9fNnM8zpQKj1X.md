@@ -76,11 +76,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: Song dynasty official
-          language: en
+          text: 王尧臣（1003年—1058年），宋人物。籍贯虞城，入仕進士，曾任尚書省戶部侍郎、三司使、樞密使。（中国历代人物传记资料库 CBDB 1919）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
         - id: cs_BotH4qCECLUPB63j79TxJC
           claim_id: c_bz7UmpXswvujK579uyBwji
@@ -90,6 +90,14 @@ properties:
           quotation: null
           interpretation_note: 维基数据条目描述
           source: *a1
+        - id: cs_xw92i_1VUxfd1JJKH4iPyF
+          claim_id: c_bz7UmpXswvujK579uyBwji
+          source_id: s_5Bv66M9uYior98wsKzYUWv
+          stance: supports
+          locator: CBDB:1919
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: *a2
       object_person: null
     alternatives: []
   - predicate: birth.date
@@ -284,7 +292,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王尧臣 | accepted |
-| bio.summary | Song dynasty official | accepted |
+| bio.summary | 王尧臣（1003年—1058年），宋人物。籍贯虞城，入仕進士，曾任尚書省戶部侍郎、三司使、樞密使。（中国历代人物传记资料库 CBDB 1919） | accepted |
 | birth.date | 1003年 | accepted |
 | death.date | 1058年 | accepted |
 

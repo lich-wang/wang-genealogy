@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王紹周，清人物。籍贯鳳翔，曾任訓導。（中国历代人物传记资料库 CBDB 639756）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_sPBeUkDJ3cXPxd6N4bLab1
+        - id: cs_xHdOD5hpBMnlkdMGPrdKb9
           claim_id: c_UX7tseFyBZTkBeKmZ74wVo
           source_id: s_YYCTAn8H7XrwyvfNZ5ZQHe
           stance: supports
-          locator: null
+          locator: CBDB:639756
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王紹周 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王紹周，清人物。籍贯鳳翔，曾任訓導。（中国历代人物传记资料库 CBDB 639756） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王德純，明人物。嘉靖三十八年進士，籍贯清苑，曾任縣丞。（中国历代人物传记资料库 CBDB 323748）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_D5tHtr1XfWJjZxF1ZPAM4y
+        - id: cs_bgwwujK0a-xbJcTYPbAxib
           claim_id: c_kGunay1JDGAmDQNMPjaKtG
           source_id: s_rcdfHky1Q4AUJutcJkZsRY
           stance: supports
-          locator: null
+          locator: CBDB:323748
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王德純 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王德純，明人物。嘉靖三十八年進士，籍贯清苑，曾任縣丞。（中国历代人物传记资料库 CBDB 323748） | accepted |
 
 ## 关联关系
 

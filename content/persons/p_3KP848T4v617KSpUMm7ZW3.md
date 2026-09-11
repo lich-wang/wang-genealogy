@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王綬，明人物。曾任知事。（中国历代人物传记资料库 CBDB 485495）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_E5Lhciv7bTkA8JJSbig9rG
+        - id: cs_OK8Nw1VImYArywjTffmPnZ
           claim_id: c_dNJTg19t7XtKUi2DAVvHoT
           source_id: s_13Zeuyrb2KnqTQV7fu23EE
           stance: supports
-          locator: null
+          locator: CBDB:485495
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王綬 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王綬，明人物。曾任知事。（中国历代人物传记资料库 CBDB 485495） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王遜，清人物。籍贯錢塘，身份为醫生。（中国历代人物传记资料库 CBDB 702039）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_fbPjDcofGhnUzaD4gHEP8U
+        - id: cs_GGUQKPc1caM805iuOHN5aJ
           claim_id: c_Th69MZQ2UV1ePzrtvPy9Uy
           source_id: s_m7F1PmhnzPorDc5mXhjxQd
           stance: supports
-          locator: null
+          locator: CBDB:702039
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王遜 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王遜，清人物。籍贯錢塘，身份为醫生。（中国历代人物传记资料库 CBDB 702039） | accepted |
 
 ## 关联关系
 

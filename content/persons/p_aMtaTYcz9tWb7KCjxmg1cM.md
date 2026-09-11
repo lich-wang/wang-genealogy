@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王樂寔，清人物。籍贯宛平，入仕監生，曾任經歷、州判。（中国历代人物传记资料库 CBDB 638828）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_oBLPFdf95exnCU5gtFgXVZ
+        - id: cs_CvSkSRE3hzDJRU6TValM0Z
           claim_id: c_isCaj1rQ8UsyZTNBGpXwBc
           source_id: s_EjEQX2446YEGqkaFtYXKqH
           stance: supports
-          locator: null
+          locator: CBDB:638828
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王樂寔 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王樂寔，清人物。籍贯宛平，入仕監生，曾任經歷、州判。（中国历代人物传记资料库 CBDB 638828） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王价，明人物。弘治三年進士，籍贯黃縣。（中国历代人物传记资料库 CBDB 262459）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_pb8J6wfMoMMHw4v7Fg2cYb
+        - id: cs_pMOAe0EK0Nybsh-37OVk_G
           claim_id: c_cp7X9PAQmD8Lwhiprj5tw5
           source_id: s_XMKdxAGYyP6rgnMGTw4DyN
           stance: supports
-          locator: null
+          locator: CBDB:262459
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王价 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王价，明人物。弘治三年進士，籍贯黃縣。（中国历代人物传记资料库 CBDB 262459） | accepted |
 
 ## 关联关系
 

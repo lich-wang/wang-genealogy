@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
-          language: zh-Hans
+          text: 王坦（卒于727年），唐人物。籍贯長安。（中国历代人物传记资料库 CBDB 175972）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_m4LB5zjSC9HrVRY2PNnJ9s
+        - id: cs_mQYHIq4CWZA0C_mOOReG5P
           claim_id: c_E8SQF6gAuTzA7E8xjkPAs4
           source_id: s_hbGguE1dVMXo2iDP2tNsUW
           stance: supports
-          locator: null
+          locator: CBDB:175972
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -146,7 +146,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王坦 | accepted |
 | death.date | 727年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王坦（卒于727年），唐人物。籍贯長安。（中国历代人物传记资料库 CBDB 175972） | accepted |
 
 ## 关联关系
 

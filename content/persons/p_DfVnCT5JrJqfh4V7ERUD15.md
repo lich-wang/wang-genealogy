@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王葆初，清人物。籍贯台州府，入仕附貢生，曾任教諭。（中国历代人物传记资料库 CBDB 640131）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_JhiNQGFrHZZtU15AfC1K5Z
+        - id: cs_4L29jOjS8YMuUqu3AIUq6g
           claim_id: c_vc9woj5RC6wqEKZ9r65yoy
           source_id: s_UPNuGFCqT6jeVtUh6JXUuY
           stance: supports
-          locator: null
+          locator: CBDB:640131
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王葆初 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王葆初，清人物。籍贯台州府，入仕附貢生，曾任教諭。（中国历代人物传记资料库 CBDB 640131） | accepted |
 
 ## 关联关系
 

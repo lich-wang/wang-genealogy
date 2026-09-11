@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王銘，明人物。天順四年進士。（中国历代人物传记资料库 CBDB 321640）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_H1vxQH5qGD195MNL4RAzFV
+        - id: cs_dpu097P_pPsd_a-YsAmwGM
           claim_id: c_bnDFD2s3Ny4FjuC1u9Vr2a
           source_id: s_xERFYPbmhvB1FN1Sc7txzr
           stance: supports
-          locator: null
+          locator: CBDB:321640
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王銘 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王銘，明人物。天順四年進士。（中国历代人物传记资料库 CBDB 321640） | accepted |
 
 ## 关联关系
 

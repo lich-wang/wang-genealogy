@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
+          text: 王虎臣，元人物。籍贯平陽州，曾任大司農司大司農卿、諸路總管府總管。（中国历代人物传记资料库 CBDB 101258）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_No8HrBYgbayha6NqTtx8EN
+        - id: cs_LaDeQAIInEpV_1j0l_RQch
           claim_id: c_K6BJ2WtPzTtPThcPLN3Vwn
           source_id: s_ycg36whQivKbdbJbagz47D
           stance: supports
-          locator: null
+          locator: CBDB:101258
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王虎臣 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王虎臣，元人物。籍贯平陽州，曾任大司農司大司農卿、諸路總管府總管。（中国历代人物传记资料库 CBDB 101258） | accepted |
 
 ## 关联关系
 

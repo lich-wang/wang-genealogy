@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王承武，清人物。籍贯西安，入仕鄉貢舉人，曾任復設訓導。（中国历代人物传记资料库 CBDB 638086）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_x4nKbR9Lv5P72yX4sh49bW
+        - id: cs_XhMraG7rgu1f0JB2pX5Z_L
           claim_id: c_jiJqtiFF2FCbe1YB1GcCV9
           source_id: s_8hXxzpDB1cJrywhyHo8rg9
           stance: supports
-          locator: null
+          locator: CBDB:638086
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王承武 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王承武，清人物。籍贯西安，入仕鄉貢舉人，曾任復設訓導。（中国历代人物传记资料库 CBDB 638086） | accepted |
 
 ## 关联关系
 

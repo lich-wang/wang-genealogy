@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王繼祖，明人物。籍贯武功。（中国历代人物传记资料库 CBDB 555105）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_rLVWjMViTRhfEMSNFf4gY9
+        - id: cs_WxtBka7dcD6Q4pA1IrCtoG
           claim_id: c_KUQDF2d9wfCoatTSoNDP72
           source_id: s_FpLtkm1NsAZb5xrPFdfQZ8
           stance: supports
-          locator: null
+          locator: CBDB:555105
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -217,7 +217,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王繼祖 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王繼祖，明人物。籍贯武功。（中国历代人物传记资料库 CBDB 555105） | accepted |
 
 ## 关联关系
 

@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王仁浩（1843年—1896年），清人物。籍贯江西省。（中国历代人物传记资料库 CBDB 572439）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_x2EBPJPqRtyue9GohD1E9x
+        - id: cs_X1f66dD40zoYMdlPTKquMn
           claim_id: c_sK2f2xEQQzoGm7QKJcHRY1
           source_id: s_FnCJksNgjgFpnwKoZ81pJp
           stance: supports
-          locator: null
+          locator: CBDB:572439
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王仁浩 | accepted |
 | birth.date | 1843年 | accepted |
 | death.date | 1896年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王仁浩（1843年—1896年），清人物。籍贯江西省。（中国历代人物传记资料库 CBDB 572439） | accepted |
 
 ## 关联关系
 

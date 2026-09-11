@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王昺，明人物。隆慶五年進士，曾任壽官。（中国历代人物传记资料库 CBDB 209880）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_2jgmq38fPfLHkRYF4ZFxCF
+        - id: cs_MEbZ52NeOZEx5s_olfh4wO
           claim_id: c_f4bzabZenzSMk2HM4jNPeN
           source_id: s_SUs9UsZEYNukhuLWGV3uqc
           stance: supports
-          locator: null
+          locator: CBDB:209880
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -180,7 +180,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王昺 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王昺，明人物。隆慶五年進士，曾任壽官。（中国历代人物传记资料库 CBDB 209880） | accepted |
 
 ## 关联关系
 

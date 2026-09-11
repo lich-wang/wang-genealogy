@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
-          language: zh-Hans
+          text: 王構（1245年—1310年），元人物。籍贯須城，身份为以疾廢，入仕正奏名諸科(不含明經、明法)，曾任翰林國史院國史編修官、翰林國史院翰林侍講學士、翰林國史院學士承旨。（中国历代人物传记资料库 CBDB 28785）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_bCvg6wso2Hj9f7jmGCJ7Zc
+        - id: cs_a5R5vmWmExwFmT0-LG2-IA
           claim_id: c_YocqEWM3bfsfbJ2UFNrf7D
           source_id: s_bNeG83CCwWNoG1QVVGmkiQ
           stance: supports
-          locator: null
+          locator: CBDB:28785
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -186,7 +186,7 @@ relationships:
 | name.primary | 王構 | accepted |
 | birth.date | 1245年 | accepted |
 | death.date | 1310年 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王構（1245年—1310年），元人物。籍贯須城，身份为以疾廢，入仕正奏名諸科(不含明經、明法)，曾任翰林國史院國史編修官、翰林國史院翰林侍講學士、翰林國史院學士承旨。（中国历代人物传记资料库 CBDB 28785） | accepted |
 
 ## 关联关系
 

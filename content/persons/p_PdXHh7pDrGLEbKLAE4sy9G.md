@@ -50,7 +50,7 @@ properties:
           locator: CBDB:196292
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source:
+          source: &a2
             id: s_KhCdjxpcj1bP1PH7XHV51d
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：王知感（196292）
@@ -75,11 +75,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: person, CBDB = 196292
-          language: en
+          text: 王知感，唐人物。籍贯岐山。（中国历代人物传记资料库 CBDB 196292）
+          language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
         - id: cs_dV55GzBbg5bJmdBvj7mDqi
           claim_id: c_R3zzdrAp9wtWQF8bp9zdxB
@@ -89,6 +89,14 @@ properties:
           quotation: null
           interpretation_note: 维基数据条目描述
           source: *a1
+        - id: cs_TohpLVjMyhNbehdP2VUmPY
+          claim_id: c_R3zzdrAp9wtWQF8bp9zdxB
+          source_id: s_KhCdjxpcj1bP1PH7XHV51d
+          stance: supports
+          locator: CBDB:196292
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: *a2
       object_person: null
     alternatives: []
 relationships:
@@ -176,7 +184,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王知感 | accepted |
-| bio.summary | person, CBDB = 196292 | accepted |
+| bio.summary | 王知感，唐人物。籍贯岐山。（中国历代人物传记资料库 CBDB 196292） | accepted |
 
 ## 关联关系
 

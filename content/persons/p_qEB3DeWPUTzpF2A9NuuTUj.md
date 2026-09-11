@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王友彬，清人物。籍贯彰德府，入仕軍功補授(軍功)，曾任千總、訓導。（中国历代人物传记资料库 CBDB 636455）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_1zw81MkyW3XqTVC8rwY6dP
+        - id: cs_RESquq42HclKe6UQav1IOX
           claim_id: c_CXA2qB9ELvvHvKWe8PkiD3
           source_id: s_4qkZeG6FTjaudJsQ496srb
           stance: supports
-          locator: null
+          locator: CBDB:636455
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王友彬 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王友彬，清人物。籍贯彰德府，入仕軍功補授(軍功)，曾任千總、訓導。（中国历代人物传记资料库 CBDB 636455） | accepted |
 
 ## 关联关系
 

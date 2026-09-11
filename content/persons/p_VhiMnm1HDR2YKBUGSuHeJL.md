@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王藁，宋人物。籍贯廣安軍，入仕進士。（中国历代人物传记资料库 CBDB 550083）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_VE8VZLy2R6Fz9BRbuy8pW8
+        - id: cs_yxdLUkyT7TBc_wyH6trkiY
           claim_id: c_DwkdsfENKF1kpGWboA3pDS
           source_id: s_PDdr7JuGRx6eaCwwkHoNCs
           stance: supports
-          locator: null
+          locator: CBDB:550083
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王藁 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王藁，宋人物。籍贯廣安軍，入仕進士。（中国历代人物传记资料库 CBDB 550083） | accepted |
 
 ## 关联关系
 

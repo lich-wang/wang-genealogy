@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为中華民國人物
-          language: zh-Hans
+          text: 王縑（1873年—1930年），中華民國人物。籍贯長沙。（中国历代人物传记资料库 CBDB 71259）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_XFK93t4hQVSi2peWeun3ba
+        - id: cs_4ObRKwexd1Nx-OxqaS0o8x
           claim_id: c_17vXfY3PZ6sELYNCCHDkNY
           source_id: s_FpoqDGqLBJ89BnEtUUSEs5
           stance: supports
-          locator: null
+          locator: CBDB:71259
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王縑 | accepted |
 | birth.date | 1873年 | accepted |
 | death.date | 1930年 | accepted |
-| bio.summary | CBDB 记载为中華民國人物 | accepted |
+| bio.summary | 王縑（1873年—1930年），中華民國人物。籍贯長沙。（中国历代人物传记资料库 CBDB 71259） | accepted |
 
 ## 关联关系
 

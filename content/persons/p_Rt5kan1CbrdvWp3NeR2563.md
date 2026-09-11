@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王棟，明人物。曾任訓導。（中国历代人物传记资料库 CBDB 461437）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_J5tuGhmADVL69R2vq5xbza
+        - id: cs_82dq_yNkF61QwwAN4HUWPY
           claim_id: c_Ma3rc8ejKAZy7HU1SxWKQj
           source_id: s_W2B8ACkkXwC17f1xirwVCW
           stance: supports
-          locator: null
+          locator: CBDB:461437
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王棟 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王棟，明人物。曾任訓導。（中国历代人物传记资料库 CBDB 461437） | accepted |
 
 ## 关联关系
 

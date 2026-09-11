@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: "王樑，清人物。入仕監生: 蔭監(含明代官生、恩生，或清代恩廕生、難廕生)，曾任按察使。（中国历代人物传记资料库 CBDB 510465）"
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_M2osgHxvetRe9WPqVRyZAA
+        - id: cs_m3HuEkGOGmcb0NYbSuk4NB
           claim_id: c_GNqgYaU5u4htyYzNa7a8J9
           source_id: s_FrdAEcXGCBy7269jhE5uR2
           stance: supports
-          locator: null
+          locator: CBDB:510465
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王樑 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王樑，清人物。入仕監生: 蔭監(含明代官生、恩生，或清代恩廕生、難廕生)，曾任按察使。（中国历代人物传记资料库 CBDB 510465） | accepted |
 
 ## 关联关系
 

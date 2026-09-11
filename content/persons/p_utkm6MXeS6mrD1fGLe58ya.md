@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王汶，宋人物。籍贯黃巖，身份为經學家—易經、思想家。（中国历代人物传记资料库 CBDB 38799）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_wucjh4BDtJKiJJL7mVWrtJ
+        - id: cs_27d5bG1fYswjEI2XfMeBdE
           claim_id: c_uwSeCsLyQAGvAd5t5V4E5T
           source_id: s_xdbyZM3HoL3Chr22sw5DEp
           stance: supports
-          locator: null
+          locator: CBDB:38799
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王汶 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王汶，宋人物。籍贯黃巖，身份为經學家—易經、思想家。（中国历代人物传记资料库 CBDB 38799） | accepted |
 
 ## 关联关系
 

@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王雨謙（1599年—1688年），清人物。籍贯山陰，入仕鄉貢舉人。（中国历代人物传记资料库 CBDB 71741）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_VCdcQ9HB93RVnfhkCUSMzK
+        - id: cs_fAGvhbuIRz52qwqEmhP_m1
           claim_id: c_px5LxnXQk3nA1oik9ynT4v
           source_id: s_GRp9G5c9doBrFFqDbzBJvG
           stance: supports
-          locator: null
+          locator: CBDB:71741
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -186,7 +186,7 @@ relationships:
 | name.primary | 王雨謙 | accepted |
 | birth.date | 1599年 | accepted |
 | death.date | 1688年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王雨謙（1599年—1688年），清人物。籍贯山陰，入仕鄉貢舉人。（中国历代人物传记资料库 CBDB 71741） | accepted |
 
 ## 关联关系
 

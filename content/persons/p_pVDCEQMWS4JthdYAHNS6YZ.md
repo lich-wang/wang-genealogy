@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王一觀，明人物。籍贯黟縣，身份为書法家，曾任府經歷。（中国历代人物传记资料库 CBDB 692349）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_SF5JH5CSepTrHSFEAaf1FM
+        - id: cs_XwUGy2_fRJ_e5MnouZJIAL
           claim_id: c_kA1uhUY5dzsu6FDZz9PoYX
           source_id: s_P9hU3RW6RmJMwHi41JWxCP
           stance: supports
-          locator: null
+          locator: CBDB:692349
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王一觀 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王一觀，明人物。籍贯黟縣，身份为書法家，曾任府經歷。（中国历代人物传记资料库 CBDB 692349） | accepted |
 
 ## 关联关系
 

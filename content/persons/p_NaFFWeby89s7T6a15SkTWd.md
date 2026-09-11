@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王德純，明人物。萬曆二年進士，籍贯清苑，曾任縣丞、刑部主事、承德郎。（中国历代人物传记资料库 CBDB 213939）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_nEnSGEuh6xhZcQyf946XQs
+        - id: cs_54z57Tq1rGPN_guY9lE97U
           claim_id: c_hzu445ZxqHzX6JmkWi3uvZ
           source_id: s_3GogRG36UmHxwwxTT7TDpC
           stance: supports
-          locator: null
+          locator: CBDB:213939
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王德純 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王德純，明人物。萬曆二年進士，籍贯清苑，曾任縣丞、刑部主事、承德郎。（中国历代人物传记资料库 CBDB 213939） | accepted |
 
 ## 关联关系
 

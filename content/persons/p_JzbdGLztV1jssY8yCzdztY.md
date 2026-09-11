@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王作孚（生于1825年），清人物。明清進士進士，籍贯綏陽，入仕進士，曾任兵部武選司主事、兵部職方司員外郎、司運同。（中国历代人物传记资料库 CBDB 71680）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_B1YegN5mN3sEbX6TgowRmQ
+        - id: cs_vg0yUlqFk6GtT2PGYYPM9G
           claim_id: c_YxPJkDCeEYoxkX9bpFbH5L
           source_id: s_jbK5BRb5TAGAoiyTda1E81
           stance: supports
-          locator: null
+          locator: CBDB:71680
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王作孚 | accepted |
 | birth.date | 1825年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王作孚（生于1825年），清人物。明清進士進士，籍贯綏陽，入仕進士，曾任兵部武選司主事、兵部職方司員外郎、司運同。（中国历代人物传记资料库 CBDB 71680） | accepted |
 
 ## 关联关系
 

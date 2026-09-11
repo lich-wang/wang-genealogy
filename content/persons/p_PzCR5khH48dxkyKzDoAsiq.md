@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王瓚（生于1446年），明人物。明清進士進士，籍贯蓬萊，入仕進士。（中国历代人物传记资料库 CBDB 200846）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_hAUNJ4QsQ1pSZ7HnrYz3gA
+        - id: cs_MstI2H092jKoSU3s4WqYPi
           claim_id: c_a2Q7PAtMzRCm5FRtbJeJF5
           source_id: s_S1o6QFNMVkG52BsChDQhWE
           stance: supports
-          locator: null
+          locator: CBDB:200846
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -232,7 +232,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王瓚 | accepted |
 | birth.date | 1446年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王瓚（生于1446年），明人物。明清進士進士，籍贯蓬萊，入仕進士。（中国历代人物传记资料库 CBDB 200846） | accepted |
 
 ## 关联关系
 

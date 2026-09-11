@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王巽，宋人物。曾任三司判官、尚書省吏部司封司郎中。（中国历代人物传记资料库 CBDB 97875）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_PuuhsGHC7NBMB31dxQB4mC
+        - id: cs_ZmB53pTaejYOBdIJLfzLAs
           claim_id: c_LGt95eAn8LAAd4HohQ2WeX
           source_id: s_kEaCUDK9ziFio77aGow9Pn
           stance: supports
-          locator: null
+          locator: CBDB:97875
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王巽 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王巽，宋人物。曾任三司判官、尚書省吏部司封司郎中。（中国历代人物传记资料库 CBDB 97875） | accepted |
 
 ## 关联关系
 

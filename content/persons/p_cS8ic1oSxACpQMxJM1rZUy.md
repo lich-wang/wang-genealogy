@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王岩（生于1605年），清人物。籍贯寶應。（中国历代人物传记资料库 CBDB 71104）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_6iL6aAVttmhBm3Ciw6NbzA
+        - id: cs_MoCvuJcAJTNlOrQTjxL2qz
           claim_id: c_4DMras3wohRVdo7RGaJKaM
           source_id: s_5XUf74FSHTSoKSkaikM4bT
           stance: supports
-          locator: null
+          locator: CBDB:71104
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王岩 | accepted |
 | birth.date | 1605年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王岩（生于1605年），清人物。籍贯寶應。（中国历代人物传记资料库 CBDB 71104） | accepted |
 
 ## 关联关系
 

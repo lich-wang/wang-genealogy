@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王積翁，宋人物。曾任路提點刑獄公事、制置使、路招捕使。（中国历代人物传记资料库 CBDB 97986）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_NuY5LJbB94iU7NUwxjP3Zz
+        - id: cs_NypU73JsYDfBZbDyX0cZ8y
           claim_id: c_ThYNvKehiaJDDvmKC4tHbY
           source_id: s_KNqvsXJQv1XnEQUXUbjG4F
           stance: supports
-          locator: null
+          locator: CBDB:97986
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王積翁 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王積翁，宋人物。曾任路提點刑獄公事、制置使、路招捕使。（中国历代人物传记资料库 CBDB 97986） | accepted |
 
 ## 关联关系
 

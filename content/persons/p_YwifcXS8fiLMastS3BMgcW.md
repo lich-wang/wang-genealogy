@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王紱，宋人物。身份为結社、宦官。（中国历代人物传记资料库 CBDB 25045）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_4UQ5fzZKQ5SZZRa5Ld75Ks
+        - id: cs_R55swJIa_PyG8ekTkKit4Y
           claim_id: c_e13B4SKH8Tbe2i4h9kbnaf
           source_id: s_HEDWaM7g3tSEadhotUtv9Y
           stance: supports
-          locator: null
+          locator: CBDB:25045
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王紱 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王紱，宋人物。身份为結社、宦官。（中国历代人物传记资料库 CBDB 25045） | accepted |
 
 ## 关联关系
 

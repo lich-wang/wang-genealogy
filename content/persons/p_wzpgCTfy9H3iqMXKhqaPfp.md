@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王俁（生于1434年），明人物。明清進士進士，籍贯長興，入仕進士。（中国历代人物传记资料库 CBDB 199224）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_WJh1TEeXGiBqEp5vT5MuCC
+        - id: cs_IwIjs7Hh0cPmJim-hNBnSV
           claim_id: c_LYU2FNKE22FHAw4Vo6Vt4j
           source_id: s_B9L5fN3DkcARu6bLC2ETfy
           stance: supports
-          locator: null
+          locator: CBDB:199224
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -232,7 +232,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王俁 | accepted |
 | birth.date | 1434年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王俁（生于1434年），明人物。明清進士進士，籍贯長興，入仕進士。（中国历代人物传记资料库 CBDB 199224） | accepted |
 
 ## 关联关系
 

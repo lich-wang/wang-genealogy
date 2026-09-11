@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王棲榮（卒于774年），唐人物。籍贯濮陽，曾任左威衛。（中国历代人物传记资料库 CBDB 194723）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_ErEWAX77ZX6zw5BgX7GBhJ
+        - id: cs_PN1Cl3ujDmI8nrRY1cHXwz
           claim_id: c_eBPT8DhGnaiGmtEcL53Enc
           source_id: s_r75FDHPqKxdm57SekgvidP
           stance: supports
-          locator: null
+          locator: CBDB:194723
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -146,7 +146,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王棲榮 | accepted |
 | death.date | 774年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王棲榮（卒于774年），唐人物。籍贯濮陽，曾任左威衛。（中国历代人物传记资料库 CBDB 194723） | accepted |
 
 ## 关联关系
 

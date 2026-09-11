@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王柯齡，清人物。籍贯蓬萊，曾任典史。（中国历代人物传记资料库 CBDB 638702）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_u5YmKxjgnGMfJJHAE6iBEW
+        - id: cs_0oQToRdAgt8u_X2sySfqbK
           claim_id: c_dEZA5Apfai9phDDa2Anz8G
           source_id: s_ZypGsGycxQTf4AjQ3Tb6Sq
           stance: supports
-          locator: null
+          locator: CBDB:638702
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王柯齡 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王柯齡，清人物。籍贯蓬萊，曾任典史。（中国历代人物传记资料库 CBDB 638702） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王澈，明人物。嘉靖四十一年進士，籍贯永嘉，曾任布政使司左參議、朝議大夫。（中国历代人物传记资料库 CBDB 328614）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_4MaF7GT8GPNMBzjoGCQMPL
+        - id: cs_eUMzC5czuTh-kfVgw1WrJM
           claim_id: c_UdADK1RbQz3cU3ktUhsrS4
           source_id: s_x897G6bbUTk1KAL3VE7sHQ
           stance: supports
-          locator: null
+          locator: CBDB:328614
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -128,7 +128,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王澈 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王澈，明人物。嘉靖四十一年進士，籍贯永嘉，曾任布政使司左參議、朝議大夫。（中国历代人物传记资料库 CBDB 328614） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王顯緒，清人物。明清進士進士，籍贯福山，入仕進士，曾任道監察御史、吏部考功司郎中、吏部文選司員外郎。（中国历代人物传记资料库 CBDB 61793）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Jwv6HpPUeGzH59kxPJBPNK
+        - id: cs_AP7gxj8k4-w-L3YSOupVam
           claim_id: c_ff3jr3ycX8kZN8SmK2BiQh
           source_id: s_DEFLxfKGsnzHvtwWittHmX
           stance: supports
-          locator: null
+          locator: CBDB:61793
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王顯緒 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王顯緒，清人物。明清進士進士，籍贯福山，入仕進士，曾任道監察御史、吏部考功司郎中、吏部文選司員外郎。（中国历代人物传记资料库 CBDB 61793） | accepted |
 
 ## 关联关系
 

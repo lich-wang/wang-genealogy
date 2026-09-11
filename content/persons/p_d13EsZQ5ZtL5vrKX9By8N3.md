@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王奇，宋人物。籍贯汾州，入仕武舉進士，曾任都監、行營兵馬都監。（中国历代人物传记资料库 CBDB 39420）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Lv3yxg1ssM2xU4CZMnUNGK
+        - id: cs_Vsd3eA1cXbacqu3OZOdARJ
           claim_id: c_V6eo8F3jBJ5R8Hs76M8Gux
           source_id: s_G9H3iLjDUh9Wg3LBE2AyDS
           stance: supports
-          locator: null
+          locator: CBDB:39420
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王奇 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王奇，宋人物。籍贯汾州，入仕武舉進士，曾任都監、行營兵馬都監。（中国历代人物传记资料库 CBDB 39420） | accepted |
 
 ## 关联关系
 

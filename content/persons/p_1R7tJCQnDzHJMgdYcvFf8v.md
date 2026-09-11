@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王椿（生于1505年），明人物。明清進士進士，籍贯錢塘，入仕進士，曾任同知、工部觀政。（中国历代人物传记资料库 CBDB 202645）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_khSnLZ5C9pZRzCC9JG79n8
+        - id: cs_E3J8_sBWECR8e8bPlo0av0
           claim_id: c_DNBFurvPnE3wabL67KSaRg
           source_id: s_Z2FLbe9bQgBZm3cMUB3yFn
           stance: supports
-          locator: null
+          locator: CBDB:202645
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -261,7 +261,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王椿 | accepted |
 | birth.date | 1505年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王椿（生于1505年），明人物。明清進士進士，籍贯錢塘，入仕進士，曾任同知、工部觀政。（中国历代人物传记资料库 CBDB 202645） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王夢元，宋人物。籍贯臨安府，入仕進士。（中国历代人物传记资料库 CBDB 687785）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_LH5q3VQi2dXEvw8xNX47ps
+        - id: cs_AUNdI_m9dB7G8Es_Ljq5MS
           claim_id: c_LL2JgnKdw6c7gjoajeDk7s
           source_id: s_w7qw3C1nBUy7Xb4v7mmrgL
           stance: supports
-          locator: null
+          locator: CBDB:687785
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王夢元 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王夢元，宋人物。籍贯臨安府，入仕進士。（中国历代人物传记资料库 CBDB 687785） | accepted |
 
 ## 关联关系
 

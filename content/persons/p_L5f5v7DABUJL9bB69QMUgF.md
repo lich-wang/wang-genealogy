@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王鍾海，清人物。籍贯光山，入仕監生，曾任知州。（中国历代人物传记资料库 CBDB 640674）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_UEAYqytiX9ZmNdpDKfYsJL
+        - id: cs_5FJEayoG2azTXXHxrVfDOP
           claim_id: c_39wsusHCvFJaCUgTw4MmbU
           source_id: s_Ns9GRJWhFGYPXE36pejmep
           stance: supports
-          locator: null
+          locator: CBDB:640674
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王鍾海 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王鍾海，清人物。籍贯光山，入仕監生，曾任知州。（中国历代人物传记资料库 CBDB 640674） | accepted |
 
 ## 关联关系
 

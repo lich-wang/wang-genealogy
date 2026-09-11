@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王磻（卒于842年），唐人物。曾任太常寺協律郎。（中国历代人物传记资料库 CBDB 190358）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_dkA1ELBRp935rpZbQjwtQH
+        - id: cs_2LYUm_W93ZnP2OYBLbilDk
           claim_id: c_xxc9GMNXbSe2MMGKbur93v
           source_id: s_dbK12kQG8aLnW3M7TQgqfq
           stance: supports
-          locator: null
+          locator: CBDB:190358
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王磻 | accepted |
 | death.date | 842年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王磻（卒于842年），唐人物。曾任太常寺協律郎。（中国历代人物传记资料库 CBDB 190358） | accepted |
 
 ## 关联关系
 

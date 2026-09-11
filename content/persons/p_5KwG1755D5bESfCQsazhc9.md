@@ -7,6 +7,44 @@ display_name: 汪氏
 revision: 1
 cbdb_id: 295295
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_7BExMMwrRvi3T3iJJ6fN9v
+        subject_person_id: p_5KwG1755D5bESfCQsazhc9
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 汪氏，明人物。天順元年進士。（中国历代人物传记资料库 CBDB 295295）
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_RZNeAnJ_xh6GVfv0C0Mepn
+          claim_id: c_7BExMMwrRvi3T3iJJ6fN9v
+          source_id: s_HUeDuqYkJBocWIaWdX-8E9
+          stance: supports
+          locator: CBDB:295295
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_HUeDuqYkJBocWIaWdX-8E9
+            source_type: api_record
+            title: 中国历代人物传记资料库：汪氏(王冕妻)（CBDB 295295）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=295295&o=json
+            external_identifier: CBDB:295295
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:295295
           quotation: null
           interpretation_note: CBDB 明确记录的王冕配偶
-          source: &a1
-            id: s_HUeDuqYkJBocWIaWdX-8E9
-            source_type: api_record
-            title: 中国历代人物传记资料库：汪氏(王冕妻)（CBDB 295295）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=295295&o=json
-            external_identifier: CBDB:295295
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 汪氏，明人物。天順元年進士。（中国历代人物传记资料库 CBDB 295295） | accepted |
 | name.primary | 汪氏 | accepted |
 
 ## 关联关系

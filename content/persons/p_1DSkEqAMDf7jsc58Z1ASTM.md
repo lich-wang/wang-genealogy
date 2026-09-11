@@ -6,6 +6,44 @@ merged_into: null
 display_name: 王继韬
 revision: 1
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_0mvkyIwW8TA4ovBPnyeXsI
+        subject_person_id: p_1DSkEqAMDf7jsc58Z1ASTM
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 王继韬：王繼韬（？—935年），五代十国時期光州固始（今河南固始）人，閩國惠宗王延钧次子。母亲劉華。 他哥哥王繼鵬当福王的时候，和他关系不好。935年十月十九，王继鹏纠合李倣抢先发动兵变，将继母皇后陈金凤、胞弟王继韬和父亲王延钧一齐杀死。
+          language: zh-Hant
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_k39OWu0ZH-m8FXW-Cm2Urb
+          claim_id: c_0mvkyIwW8TA4ovBPnyeXsI
+          source_id: s_sXwwcblq1NCNg_GYmMSJqX
+          stance: supports
+          locator: 导言
+          quotation: 王继韬：王繼韬（？—935年），五代十国時期光州固始（今河南固始
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_sXwwcblq1NCNg_GYmMSJqX
+            source_type: website
+            title: 中文维基百科：王继韬
+            creator: 维基百科贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%BB%A7%E9%9F%AC
+            external_identifier: Q16077417
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T08:35:13.437Z
+            metadata_json: null
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -110,6 +148,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 王继韬：王繼韬（？—935年），五代十国時期光州固始（今河南固始）人，閩國惠宗王延钧次子。母亲劉華。 他哥哥王繼鵬当福王的时候，和他关系不好。935年十月十九，王继鹏纠合李倣抢先发动兵变，将继母皇后陈金凤、胞弟王继韬和父亲王延钧一齐杀死。 | accepted |
 | name.primary | 王继韬 | accepted |
 
 ## 关联关系
@@ -122,3 +161,4 @@ relationships:
 
 - [维基数据：王继韬（Q16077417）](https://www.wikidata.org/wiki/Q16077417)
 - [维基数据：王延钧（Q2109927）](https://www.wikidata.org/wiki/Q2109927)
+- [中文维基百科：王继韬](https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%BB%A7%E9%9F%AC)

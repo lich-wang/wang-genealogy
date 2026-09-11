@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: "王文傑，清人物。籍贯龍安府，入仕貢生: 拔貢，曾任復設教諭。（中国历代人物传记资料库 CBDB 638232）"
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_ZhpLb1gQFL9vdivYPGprv4
+        - id: cs_V1sdU-g0DXlXMUSWNL7kS2
           claim_id: c_E7xvaGN7o6eqLkLrLwUs9u
           source_id: s_WrCwn1gC1AK95QuepezXeA
           stance: supports
-          locator: null
+          locator: CBDB:638232
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王文傑 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王文傑，清人物。籍贯龍安府，入仕貢生: 拔貢，曾任復設教諭。（中国历代人物传记资料库 CBDB 638232） | accepted |
 
 ## 关联关系
 

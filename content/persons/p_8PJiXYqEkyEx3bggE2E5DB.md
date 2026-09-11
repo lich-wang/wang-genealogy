@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王鏜（1708年—1761年），清人物。籍贯鳳台，曾任司郎中、太僕寺少卿。（中国历代人物传记资料库 CBDB 71279）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_MsnNeiTrJPD5tAZcKnQhvF
+        - id: cs_523elRVZHtkvcj6IA710sY
           claim_id: c_utWFDf8RA7A5Hf5J6iJ2XE
           source_id: s_ShVQCuLJ6g6tnt4cEfddKP
           stance: supports
-          locator: null
+          locator: CBDB:71279
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -175,7 +175,7 @@ relationships:
 | name.primary | 王鏜 | accepted |
 | birth.date | 1708年 | accepted |
 | death.date | 1761年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王鏜（1708年—1761年），清人物。籍贯鳳台，曾任司郎中、太僕寺少卿。（中国历代人物传记资料库 CBDB 71279） | accepted |
 
 ## 关联关系
 

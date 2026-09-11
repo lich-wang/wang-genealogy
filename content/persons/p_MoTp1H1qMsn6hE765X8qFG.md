@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王九儀（生于1551年），明人物。明清進士進士，籍贯長安，入仕進士。（中国历代人物传记资料库 CBDB 206435）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_dZuyKnUQUjimJbtJxs9aZr
+        - id: cs_9EfhXlhysv4EtnLzTm4SWB
           claim_id: c_qZ7rvYBx2cq9voWdysuXyy
           source_id: s_6zAfp4BQWahn7TB6Sv1FJb
           stance: supports
-          locator: null
+          locator: CBDB:206435
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -231,7 +231,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王九儀 | accepted |
 | birth.date | 1551年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王九儀（生于1551年），明人物。明清進士進士，籍贯長安，入仕進士。（中国历代人物传记资料库 CBDB 206435） | accepted |
 
 ## 关联关系
 

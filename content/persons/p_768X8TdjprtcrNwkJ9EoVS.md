@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王鵉，清人物。籍贯安陸，入仕鄉貢舉人，曾任復設教諭。（中国历代人物传记资料库 CBDB 641007）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_z66fCoCMPdzZipDVg4WNGu
+        - id: cs_wnRp1kUd7Gb4Yt4-QAUhHf
           claim_id: c_LYJY3rD42BvA1VHVEb4A5d
           source_id: s_rDksnNewFTig2Xet83K2sJ
           stance: supports
-          locator: null
+          locator: CBDB:641007
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王鵉 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王鵉，清人物。籍贯安陸，入仕鄉貢舉人，曾任復設教諭。（中国历代人物传记资料库 CBDB 641007） | accepted |
 
 ## 关联关系
 

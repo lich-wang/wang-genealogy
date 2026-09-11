@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王恆晉，清人物。籍贯鄠縣，入仕鄉貢舉人，曾任學正、知縣。（中国历代人物传记资料库 CBDB 637824）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_v59fw3X3bKu7KA4Px2CNm2
+        - id: cs_-UIFp8319y4_BU63nOFZv_
           claim_id: c_NMdsJbFBG346d1CcJx2qbu
           source_id: s_qbCtxk32twWt66gxM6RMxe
           stance: supports
-          locator: null
+          locator: CBDB:637824
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王恆晉 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王恆晉，清人物。籍贯鄠縣，入仕鄉貢舉人，曾任學正、知縣。（中国历代人物传记资料库 CBDB 637824） | accepted |
 
 ## 关联关系
 

@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王爾烈（卒于1801年），清人物。籍贯遼陽州。（中国历代人物传记资料库 CBDB 71495）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_8K8vkFq5sk1fRx1dj4pQqr
+        - id: cs_joLzxspmvwSlVS-3SL33iZ
           claim_id: c_cJrsRfMCFUV5tk9rLTP5Vc
           source_id: s_4kc6weaPYbxt5Ctte3HBnb
           stance: supports
-          locator: null
+          locator: CBDB:71495
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王爾烈 | accepted |
 | death.date | 1801年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王爾烈（卒于1801年），清人物。籍贯遼陽州。（中国历代人物传记资料库 CBDB 71495） | accepted |
 
 ## 关联关系
 

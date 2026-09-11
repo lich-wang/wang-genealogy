@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王溥，清人物。明清進士進士，籍贯山陽，入仕進士。（中国历代人物传记资料库 CBDB 342693）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_e82S8Q8LhfEdW2RK7pHVCn
+        - id: cs_oPcn21IRuJPh2QivsNwchG
           claim_id: c_9VyRyKpJ88YNxovVwDS2yT
           source_id: s_AFqnx7pE7gmF7L1MtSjoZw
           stance: supports
-          locator: null
+          locator: CBDB:342693
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王溥 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王溥，清人物。明清進士進士，籍贯山陽，入仕進士。（中国历代人物传记资料库 CBDB 342693） | accepted |
 
 ## 关联关系
 

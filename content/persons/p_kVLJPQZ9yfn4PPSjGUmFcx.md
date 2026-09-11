@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王恬，清人物。籍贯臨汾，曾任州判。（中国历代人物传记资料库 CBDB 637869）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_F3m8FhnqEeiM77eQ1eLeU4
+        - id: cs_ZHMq9UOqwHzinO--9dfvJ3
           claim_id: c_N84tXawB4kRxSwpT8trZY2
           source_id: s_cvW63MpMya9CBx7tUZ9hsE
           stance: supports
-          locator: null
+          locator: CBDB:637869
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王恬 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王恬，清人物。籍贯臨汾，曾任州判。（中国历代人物传记资料库 CBDB 637869） | accepted |
 
 ## 关联关系
 

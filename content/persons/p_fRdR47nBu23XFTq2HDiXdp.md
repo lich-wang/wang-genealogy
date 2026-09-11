@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王存之，宋人物。籍贯歸安，入仕進士。（中国历代人物传记资料库 CBDB 548501）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_ASQkT618aSdKqSTvobqzvd
+        - id: cs_clZOTl36JD6EhK25Rq1Cj6
           claim_id: c_5X5kB24Y85QDmoaMNN1APx
           source_id: s_bsEfKfTufiv5v9GBfENW8t
           stance: supports
-          locator: null
+          locator: CBDB:548501
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王存之 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王存之，宋人物。籍贯歸安，入仕進士。（中国历代人物传记资料库 CBDB 548501） | accepted |
 
 ## 关联关系
 

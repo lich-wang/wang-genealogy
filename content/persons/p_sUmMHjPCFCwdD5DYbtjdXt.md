@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王誥，明人物。入仕進士，曾任兵備道。（中国历代人物传记资料库 CBDB 455353）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_EJ7TZspLwpgFf7Jr7RpVH5
+        - id: cs_JTG6XPSzIY9dcCTcSW4S23
           claim_id: c_V9wvbdJhvQczd4K922H5Uu
           source_id: s_n4J6JcJ1HGNRJ9YpJz6CnM
           stance: supports
-          locator: null
+          locator: CBDB:455353
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王誥 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王誥，明人物。入仕進士，曾任兵備道。（中国历代人物传记资料库 CBDB 455353） | accepted |
 
 ## 关联关系
 

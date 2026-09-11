@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王德培，明人物。籍贯雲和，身份为徵至京師，入仕薦舉 (保任,保舉)。（中国历代人物传记资料库 CBDB 575339）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Cxfaq91iK2WM9hxQ9CnQ1G
+        - id: cs_WAfIqAsC99Ow5gi6z9FF_i
           claim_id: c_e9Ex5MzcMT2KaJCYxnjz18
           source_id: s_jcNFDZbEzbzMhjWttfYUSH
           stance: supports
-          locator: null
+          locator: CBDB:575339
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王德培 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王德培，明人物。籍贯雲和，身份为徵至京師，入仕薦舉 (保任,保舉)。（中国历代人物传记资料库 CBDB 575339） | accepted |
 
 ## 关联关系
 

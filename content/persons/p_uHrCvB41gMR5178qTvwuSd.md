@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王懿榮（1845年—1900年），清人物。明清進士進士，籍贯福山，身份为金石學家，入仕進士。（中国历代人物传记资料库 CBDB 35049）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_WyVCLPCX9jtCQUGNAMv1JZ
+        - id: cs_5ndSH7pG0u9mBeJNhDFFHA
           claim_id: c_8bokUnYfB2s51ps9iz95oh
           source_id: s_T4sVkDCK5AUrnaEQCPiBp4
           stance: supports
-          locator: null
+          locator: CBDB:35049
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -249,7 +249,7 @@ relationships:
 | name.primary | 王懿榮 | accepted |
 | birth.date | 1845年 | accepted |
 | death.date | 1900年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王懿榮（1845年—1900年），清人物。明清進士進士，籍贯福山，身份为金石學家，入仕進士。（中国历代人物传记资料库 CBDB 35049） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王又曾，清人物。籍贯安州，入仕太學生。（中国历代人物传记资料库 CBDB 69046）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Q2DUFmk3wZPrHfNchJAUFg
+        - id: cs_Wu7KuhT91SRwk-HBuAJpkO
           claim_id: c_Gj9CjQki7CBk1eF46qU2Ft
           source_id: s_NzYja1UqoK5m8S5DHyAATQ
           stance: supports
-          locator: null
+          locator: CBDB:69046
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王又曾 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王又曾，清人物。籍贯安州，入仕太學生。（中国历代人物传记资料库 CBDB 69046） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王景恆，清人物。籍贯諸城，入仕副榜，曾任復設教諭。（中国历代人物传记资料库 CBDB 638482）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_zmTZ1ATPGt1YgV8uL6LXq4
+        - id: cs_wrnDZaGnZ6KAXtIqgmoPpW
           claim_id: c_TY1jtkYLMgPgMKADDnDAbo
           source_id: s_98ZAE4ZQ8t2VA9S3Gqn9rc
           stance: supports
-          locator: null
+          locator: CBDB:638482
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王景恆 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王景恆，清人物。籍贯諸城，入仕副榜，曾任復設教諭。（中国历代人物传记资料库 CBDB 638482） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王中鎰，清人物。籍贯保靖，入仕監生，曾任縣丞。（中国历代人物传记资料库 CBDB 635750）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_1To6Zw1YCuSs27KjH34pi1
+        - id: cs_7ZZXF5AGUz6IMx96TxEgmF
           claim_id: c_2CYy3rbm9tbbyxqFQvnEtm
           source_id: s_CrCpWkNvVPEz2DxUWdfLBy
           stance: supports
-          locator: null
+          locator: CBDB:635750
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王中鎰 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王中鎰，清人物。籍贯保靖，入仕監生，曾任縣丞。（中国历代人物传记资料库 CBDB 635750） | accepted |
 
 ## 关联关系
 

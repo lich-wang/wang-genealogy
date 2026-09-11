@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为中華民國人物
-          language: zh-Hans
+          text: 王榮綬（卒于1911年），中華民國人物。籍贯善化，入仕監生，曾任縣知縣。（中国历代人物传记资料库 CBDB 69412）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_7rGEFNeN8FGAcKNny1PRe9
+        - id: cs_a6AxdrxxOtnunQl1_XT_qq
           claim_id: c_PxDRh6WGpQaasmD17wPRX8
           source_id: s_jkKMaFLQutJTN78h2vN7o3
           stance: supports
-          locator: null
+          locator: CBDB:69412
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王榮綬 | accepted |
 | death.date | 1911年 | accepted |
-| bio.summary | CBDB 记载为中華民國人物 | accepted |
+| bio.summary | 王榮綬（卒于1911年），中華民國人物。籍贯善化，入仕監生，曾任縣知縣。（中国历代人物传记资料库 CBDB 69412） | accepted |
 
 ## 关联关系
 

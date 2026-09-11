@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王純（1434年—1495年），明人物。籍贯仙居，入仕進士，曾任府推官、工部主事、提學僉事。（中国历代人物传记资料库 CBDB 126657）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_QhsAgGtza3BUWEucPZHTau
+        - id: cs_42Go76Ws2Ls3iNNA1iC09r
           claim_id: c_h1dMeCXAK33bk2R2wRiGgG
           source_id: s_ExaLzyQchNF44SEq4qpiZe
           stance: supports
-          locator: null
+          locator: CBDB:126657
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -264,7 +264,7 @@ relationships:
 | name.primary | 王純 | accepted |
 | birth.date | 1434年 | accepted |
 | death.date | 1495年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王純（1434年—1495年），明人物。籍贯仙居，入仕進士，曾任府推官、工部主事、提學僉事。（中国历代人物传记资料库 CBDB 126657） | accepted |
 
 ## 关联关系
 

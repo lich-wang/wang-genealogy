@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王亮，明人物。籍贯臨海，入仕進士，曾任兵科給事中、分巡道、僉事。（中国历代人物传记资料库 CBDB 126595）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_ZD4hJUSjCoQCC4FeMS2R9v
+        - id: cs_OR6NvXsVcI7ApX0qPu_qYM
           claim_id: c_mWTmR861pGQ1NhoFBtTTge
           source_id: s_oCYEHgJPZWXEAYnZFErUwk
           stance: supports
-          locator: null
+          locator: CBDB:126595
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -203,7 +203,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王亮 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王亮，明人物。籍贯臨海，入仕進士，曾任兵科給事中、分巡道、僉事。（中国历代人物传记资料库 CBDB 126595） | accepted |
 
 ## 关联关系
 

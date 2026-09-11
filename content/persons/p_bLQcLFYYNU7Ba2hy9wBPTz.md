@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王年，明人物。入仕鄉貢舉人，曾任知縣。（中国历代人物传记资料库 CBDB 452976）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_z2HmFxd9tft9Yq1cCcfDaC
+        - id: cs_atG1SK2QJ3KBuRzzBkfl4R
           claim_id: c_EX6LUMeLduA8m4hMCW1tZf
           source_id: s_45223Ad5JQo2fAuaenz1UK
           stance: supports
-          locator: null
+          locator: CBDB:452976
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王年，明人物。入仕鄉貢舉人，曾任知縣。（中国历代人物传记资料库 CBDB 452976） | accepted |
 
 ## 关联关系
 

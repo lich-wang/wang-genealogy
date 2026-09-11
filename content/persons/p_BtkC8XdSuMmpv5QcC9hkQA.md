@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王鼎新，明人物。入仕進士，曾任道員。（中国历代人物传记资料库 CBDB 499149）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_NndE89hAkaABtm51TMNG9d
+        - id: cs_OPrQ0ABa50Q8fccQnGtQ1N
           claim_id: c_1VKVc4UoF5xdXVn3Mswb6d
           source_id: s_Eb5z9efkBd8fGaW6uK2u3Y
           stance: supports
-          locator: null
+          locator: CBDB:499149
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王鼎新 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王鼎新，明人物。入仕進士，曾任道員。（中国历代人物传记资料库 CBDB 499149） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王雲華，清人物。籍贯登封，入仕鄉貢舉人，曾任主事。（中国历代人物传记资料库 CBDB 640817）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_W6wW4C8r96Qqh5ZFXnH6H6
+        - id: cs_TIL1gyA0UfjI2c8RheesBG
           claim_id: c_86gufL25D58JJYW2RvEsTG
           source_id: s_K4dbozX3wB81Ld5f1RmvwW
           stance: supports
-          locator: null
+          locator: CBDB:640817
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王雲華 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王雲華，清人物。籍贯登封，入仕鄉貢舉人，曾任主事。（中国历代人物传记资料库 CBDB 640817） | accepted |
 
 ## 关联关系
 

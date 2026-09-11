@@ -75,11 +75,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: Ming dynasty person CBDB = 217866
-          language: en
+          text: 王明，明人物。萬曆五年進士。（中国历代人物传记资料库 CBDB 217866）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
         - id: cs_JARvdq3j5HHHckW3yVyPKF
           claim_id: c_C5H6DPPxd3U2AP33zThrt8
@@ -89,6 +89,14 @@ properties:
           quotation: null
           interpretation_note: 维基数据条目描述
           source: *a1
+        - id: cs_El9Vnay3gfDJBTYbk-Qjtd
+          claim_id: c_C5H6DPPxd3U2AP33zThrt8
+          source_id: s_KaxcQyEUjWPJNvEJZwHUrS
+          stance: supports
+          locator: CBDB:217866
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: *a2
       object_person: null
     alternatives: []
 relationships:
@@ -182,7 +190,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王明 | accepted |
-| bio.summary | Ming dynasty person CBDB = 217866 | accepted |
+| bio.summary | 王明，明人物。萬曆五年進士。（中国历代人物传记资料库 CBDB 217866） | accepted |
 
 ## 关联关系
 

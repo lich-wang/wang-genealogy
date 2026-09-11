@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王藴，唐人物。曾任州刺史。（中国历代人物传记资料库 CBDB 468423）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_oBFdTvYWSB8susTBZ48RpD
+        - id: cs_xm9o8gGTbxdLfnIWsyD-c_
           claim_id: c_t1SZ3LiE9SWfb3QVQ6oQaE
           source_id: s_K8M9RY9F5cadfD5AQKuVm5
           stance: supports
-          locator: null
+          locator: CBDB:468423
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王藴 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王藴，唐人物。曾任州刺史。（中国历代人物传记资料库 CBDB 468423） | accepted |
 
 ## 关联关系
 

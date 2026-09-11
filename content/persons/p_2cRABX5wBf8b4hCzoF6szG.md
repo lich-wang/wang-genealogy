@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王格，宋人物。籍贯長汀，身份为家有田產、收徒講學。（中国历代人物传记资料库 CBDB 38092）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_TkWJnW9fyGX2tZ5FNuXTRd
+        - id: cs_GpLFjeq3fn8VhUqn1qckUn
           claim_id: c_h112GeWwTo2GNP62KzMAK7
           source_id: s_UDSL5UkpAf4aFWwovZqJbY
           stance: supports
-          locator: null
+          locator: CBDB:38092
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王格 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王格，宋人物。籍贯長汀，身份为家有田產、收徒講學。（中国历代人物传记资料库 CBDB 38092） | accepted |
 
 ## 关联关系
 

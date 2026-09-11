@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为東晉人物
+          text: 王坦之，史料所见人物。本项目依据《中国历代人物传记资料库：王坦之（CBDB 467946）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_2Fm1vyMKUcSfmUBfaFvc5N
+        - id: cs_iQB022D5csLXTRxc9Ag1H4
           claim_id: c_gfFgrCDwzkQVeT4C7uBShR
           source_id: s_Tr9TjSPcayeH8Tx2JuVDK3
           stance: supports
-          locator: null
+          locator: CBDB:467946
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王坦之 | accepted |
-| bio.summary | CBDB 记载为東晉人物 | accepted |
+| bio.summary | 王坦之，史料所见人物。本项目依据《中国历代人物传记资料库：王坦之（CBDB 467946）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
 
 ## 关联关系
 

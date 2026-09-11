@@ -7,6 +7,44 @@ display_name: 陳岫先
 revision: 1
 cbdb_id: 145906
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_QZXYNrZ7oD0DebeOXVK1Dr
+        subject_person_id: p_sSTVjirDFXuhUA9aJL9WB8
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 陳岫先（752—819），唐人物。籍贯京兆府，曾任君夫人。（中国历代人物传记资料库 CBDB 145906）
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_DIlj7XLZA4UitXwqjWQKw9
+          claim_id: c_QZXYNrZ7oD0DebeOXVK1Dr
+          source_id: s_11H63cQapdwrAa55s1IpZd
+          stance: supports
+          locator: CBDB:145906
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_11H63cQapdwrAa55s1IpZd
+            source_type: api_record
+            title: 中国历代人物传记资料库：陳岫先（CBDB 145906）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=145906&o=json
+            external_identifier: CBDB:145906
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:145906
           quotation: null
           interpretation_note: CBDB 明确记录的王希遷配偶
-          source: &a1
-            id: s_11H63cQapdwrAa55s1IpZd
-            source_type: api_record
-            title: 中国历代人物传记资料库：陳岫先（CBDB 145906）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=145906&o=json
-            external_identifier: CBDB:145906
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 陳岫先（752—819），唐人物。籍贯京兆府，曾任君夫人。（中国历代人物传记资料库 CBDB 145906） | accepted |
 | name.primary | 陳岫先 | accepted |
 
 ## 关联关系

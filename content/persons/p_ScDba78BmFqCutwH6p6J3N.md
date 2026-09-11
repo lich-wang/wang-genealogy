@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王浚，明人物。明清進士進士，籍贯建德，入仕進士。（中国历代人物传记资料库 CBDB 342694）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Yb9mUV6fWHYkRGx9mrsnFF
+        - id: cs_TLP3NoJdSrgj3spu8bMV5S
           claim_id: c_fNKYnr72tVa2ChxrByUnEy
           source_id: s_YwN49b36gttbDXALxNJCMc
           stance: supports
-          locator: null
+          locator: CBDB:342694
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王浚 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王浚，明人物。明清進士進士，籍贯建德，入仕進士。（中国历代人物传记资料库 CBDB 342694） | accepted |
 
 ## 关联关系
 

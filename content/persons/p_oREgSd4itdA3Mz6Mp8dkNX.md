@@ -7,6 +7,44 @@ display_name: 晁氏
 cbdb_id: 37788
 revision: 2
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_KsVo-jRhvEQizd0sCqa_ON
+        subject_person_id: p_oREgSd4itdA3Mz6Mp8dkNX
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 晁氏，王龜齡妻。维基数据以独立条目 Q45431885 收录该人物。
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4FUwBD3KVKFIN9YO-vRBwa
+          claim_id: c_KsVo-jRhvEQizd0sCqa_ON
+          source_id: s_at2ZoyCvBXEeUvFDA5yL2N
+          stance: supports
+          locator: Q45431885
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
+          source: &a1
+            id: s_at2ZoyCvBXEeUvFDA5yL2N
+            source_type: api_record
+            title: 维基数据：晁氏（Q45431885）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45431885
+            external_identifier: Q45431885
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: Q45431885
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source: &a2
-            id: s_at2ZoyCvBXEeUvFDA5yL2N
-            source_type: api_record
-            title: 维基数据：晁氏（Q45431885）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q45431885
-            external_identifier: Q45431885
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T08:06:50.055Z
-            metadata_json: null
+          source: *a1
         - id: cs_SzDdRDV3Ft1bPo256rGMWC
           claim_id: c_aeAULarHQ2D57thGVXvJ8N
           source_id: s_xSCYJCLb3tccVfVM9nThj9
@@ -50,7 +77,7 @@ properties:
           locator: CBDB:37788
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source: &a1
+          source: &a2
             id: s_xSCYJCLb3tccVfVM9nThj9
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：晁氏（37788）
@@ -87,7 +114,7 @@ relationships:
           locator: 宋人傳記資料索引(電子版)：子
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
+          source: *a2
       object_person:
         id: p_ib1JCPDpb1b5Zbw7uh5HuV
         status: active
@@ -116,7 +143,7 @@ relationships:
           locator: P26（配偶）
           quotation: null
           interpretation_note: null
-          source: *a2
+          source: *a1
         - id: cs_q7znJRKTwUB2phrHgDcGEx
           claim_id: c_yGcqdAut811KyQb21oeqyX
           source_id: s_A1pNF93BAFFMVDiK7DKDPc
@@ -180,7 +207,7 @@ relationships:
           locator: 宋人傳記資料索引(電子版)：丈夫
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
+          source: *a2
       object_person:
         id: p_A4y88KqDgYC7CBnr5hYZf3
         status: active
@@ -199,6 +226,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 晁氏，王龜齡妻。维基数据以独立条目 Q45431885 收录该人物。 | accepted |
 | name.primary | 晁氏 | accepted |
 
 ## 关联关系

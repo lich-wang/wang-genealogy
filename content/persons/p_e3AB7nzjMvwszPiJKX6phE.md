@@ -7,6 +7,44 @@ display_name: 丁文蔚
 revision: 1
 cbdb_id: 54843
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_czLsbPGVV8c9jEj3CkEM2W
+        subject_person_id: p_e3AB7nzjMvwszPiJKX6phE
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 丁文蔚（1827—1890），清人物。籍贯蕭山。（中国历代人物传记资料库 CBDB 54843）
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_yMgPU2_5cweWNMDfho0qzD
+          claim_id: c_czLsbPGVV8c9jEj3CkEM2W
+          source_id: s_hF1GUGzLJvr0ARQnf_2V01
+          stance: supports
+          locator: CBDB:54843
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_hF1GUGzLJvr0ARQnf_2V01
+            source_type: api_record
+            title: 中国历代人物传记资料库：丁文蔚（CBDB 54843）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=54843&o=json
+            external_identifier: CBDB:54843
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:54843
           quotation: null
           interpretation_note: CBDB 明确记录的王藝芳配偶
-          source: &a1
-            id: s_hF1GUGzLJvr0ARQnf_2V01
-            source_type: api_record
-            title: 中国历代人物传记资料库：丁文蔚（CBDB 54843）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=54843&o=json
-            external_identifier: CBDB:54843
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 丁文蔚（1827—1890），清人物。籍贯蕭山。（中国历代人物传记资料库 CBDB 54843） | accepted |
 | name.primary | 丁文蔚 | accepted |
 
 ## 关联关系

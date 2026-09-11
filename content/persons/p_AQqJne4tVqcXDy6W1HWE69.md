@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王聯馨，清人物。籍贯歷城，曾任訓導。（中国历代人物传记资料库 CBDB 639938）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_epjuHQHKG4zxSVgKkKy35C
+        - id: cs_pPvME2W6-wJ8s28vNbXdVU
           claim_id: c_T73YAUVSUZ6jEK4U3yXEFB
           source_id: s_QCT9ZQsV8Y95dMkEhY1m7s
           stance: supports
-          locator: null
+          locator: CBDB:639938
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王聯馨 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王聯馨，清人物。籍贯歷城，曾任訓導。（中国历代人物传记资料库 CBDB 639938） | accepted |
 
 ## 关联关系
 

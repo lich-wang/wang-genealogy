@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王鬴，宋人物。籍贯臨城。（中国历代人物传记资料库 CBDB 690113）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_fWFf9YdGvPzFa7DJC5Y5os
+        - id: cs_CnqHyFk4xF_l05Vbj2pYmD
           claim_id: c_k9dFRUr5MZnpY1pJLZAp4E
           source_id: s_4vASjZ4f3pdDEG1CnrE8Bf
           stance: supports
-          locator: null
+          locator: CBDB:690113
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王鬴 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王鬴，宋人物。籍贯臨城。（中国历代人物传记资料库 CBDB 690113） | accepted |
 
 ## 关联关系
 

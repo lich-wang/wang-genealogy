@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王漸，宋人物。籍贯長社，曾任將作監主簿、少府監監。（中国历代人物传记资料库 CBDB 45886）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_JtQ9qDTnskeGGD5Cu6QYxv
+        - id: cs_8Zal8wWYolQ1CNhFGfrY90
           claim_id: c_zCp4mFYGwLVZGwK8nCTQZj
           source_id: s_MNM9k5N1kEvg38EryMCtUb
           stance: supports
-          locator: null
+          locator: CBDB:45886
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王漸 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王漸，宋人物。籍贯長社，曾任將作監主簿、少府監監。（中国历代人物传记资料库 CBDB 45886） | accepted |
 
 ## 关联关系
 

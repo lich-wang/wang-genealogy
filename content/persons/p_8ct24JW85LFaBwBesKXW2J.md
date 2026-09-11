@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王延世，明人物。籍贯信陽，曾任京營左參將、守備、營佐擊將軍。（中国历代人物传记资料库 CBDB 555424）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_GE7Nprkm6UWJ8KHN36nhPj
+        - id: cs_4QfbO9Mr6S0W3GyX2RsdJD
           claim_id: c_HvD2xZCf17kZfNyKuNNA8A
           source_id: s_DpXnKmpa5iqAqQ81mNyebu
           stance: supports
-          locator: null
+          locator: CBDB:555424
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -195,7 +195,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王延世 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王延世，明人物。籍贯信陽，曾任京營左參將、守備、營佐擊將軍。（中国历代人物传记资料库 CBDB 555424） | accepted |
 
 ## 关联关系
 

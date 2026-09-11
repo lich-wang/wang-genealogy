@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王懿修，清人物。明清進士進士，籍贯青陽，入仕進士，曾任編修、會試考官、禮部尚書。（中国历代人物传记资料库 CBDB 343270）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_nhh6nH4CzTF4m294tmzHmV
+        - id: cs_A026uUV3w3zbUvmNqe30By
           claim_id: c_wC29BuSdWrHQ1vMJ1TAxoJ
           source_id: s_wMEBpto3q8Fw9ZGY98sxrF
           stance: supports
-          locator: null
+          locator: CBDB:343270
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王懿修 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王懿修，清人物。明清進士進士，籍贯青陽，入仕進士，曾任編修、會試考官、禮部尚書。（中国历代人物传记资料库 CBDB 343270） | accepted |
 
 ## 关联关系
 

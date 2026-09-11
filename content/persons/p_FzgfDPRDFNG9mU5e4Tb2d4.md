@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王元臣，清人物。明清進士進士，籍贯青浦，入仕進士，曾任縣丞、訓導。（中国历代人物传记资料库 CBDB 341801）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_ngL23YdYj6t7a2JCbuL2xo
+        - id: cs_nfHvfuh9gEUTfsVy8Cm0uI
           claim_id: c_ipM2YpEsC6RFsdo4K5bizK
           source_id: s_WG6Ku1ybH9RyDrXaCA3Q76
           stance: supports
-          locator: null
+          locator: CBDB:341801
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王元臣 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王元臣，清人物。明清進士進士，籍贯青浦，入仕進士，曾任縣丞、訓導。（中国历代人物传记资料库 CBDB 341801） | accepted |
 
 ## 关联关系
 

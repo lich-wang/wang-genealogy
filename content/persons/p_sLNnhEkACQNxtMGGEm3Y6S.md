@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王應泰，明人物。明清進士進士，籍贯漢陰，入仕進士。（中国历代人物传记资料库 CBDB 341570）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_vSwkeeddeAkbNXgDR51Tzn
+        - id: cs_aZNKdtN8kl5Hu1ewcWLGSW
           claim_id: c_3NUFeFe7JXc2T9rmAzX3B2
           source_id: s_ZCGSPKc5jHwrcQsZNJ481Y
           stance: supports
-          locator: null
+          locator: CBDB:341570
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -128,7 +128,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王應泰 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王應泰，明人物。明清進士進士，籍贯漢陰，入仕進士。（中国历代人物传记资料库 CBDB 341570） | accepted |
 
 ## 关联关系
 

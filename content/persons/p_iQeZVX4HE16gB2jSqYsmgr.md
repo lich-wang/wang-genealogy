@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王克穆，清人物。籍贯濟陽，曾任經歷。（中国历代人物传记资料库 CBDB 636304）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_8gKJHzkRfHrNaehCkyywnf
+        - id: cs_6I-S9pSbxVbcLPfQ6euOCQ
           claim_id: c_Qpto2p4mEVtMHYYnWBMRrz
           source_id: s_fnitxWByLqUmHe8obubCZH
           stance: supports
-          locator: null
+          locator: CBDB:636304
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王克穆 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王克穆，清人物。籍贯濟陽，曾任經歷。（中国历代人物传记资料库 CBDB 636304） | accepted |
 
 ## 关联关系
 

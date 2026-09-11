@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王中立，宋人物。籍贯奉化，身份为地方士人/鄉紳，入仕封贈。（中国历代人物传记资料库 CBDB 25591）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_hEqWEn9g3eaJAfQWfDToNQ
+        - id: cs_91xEulwohS2-vQ9AUJ8Y1m
           claim_id: c_DMPaDLcK6D1Bw2TwXLZWip
           source_id: s_e9N33YJs4MW9w7szEXRyHK
           stance: supports
-          locator: null
+          locator: CBDB:25591
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -143,7 +143,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王中立 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王中立，宋人物。籍贯奉化，身份为地方士人/鄉紳，入仕封贈。（中国历代人物传记资料库 CBDB 25591） | accepted |
 
 ## 关联关系
 

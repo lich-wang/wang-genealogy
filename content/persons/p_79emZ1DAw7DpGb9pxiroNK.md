@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: "王之坪（1640年—1707年），清人物。籍贯鄞縣，入仕學校: 生員(庠生)。（中国历代人物传记资料库 CBDB 71353）"
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_8TBD4SuSNeRReM8oYFRSSW
+        - id: cs_dbo9NjLlbVn7LNSL7S1YGi
           claim_id: c_EQA5NUFssDH131vzKMvdxX
           source_id: s_LwYn8v9xUQi7pxDQKNW9VU
           stance: supports
-          locator: null
+          locator: CBDB:71353
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王之坪 | accepted |
 | birth.date | 1640年 | accepted |
 | death.date | 1707年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王之坪（1640年—1707年），清人物。籍贯鄞縣，入仕學校: 生員(庠生)。（中国历代人物传记资料库 CBDB 71353） | accepted |
 
 ## 关联关系
 

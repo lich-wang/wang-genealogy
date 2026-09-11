@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: "王繁祚，清人物。籍贯平陽，入仕貢生: 拔貢，曾任訓導、復設教諭。（中国历代人物传记资料库 CBDB 639858）"
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_AdfLhEiy7XskS54jgH3rDT
+        - id: cs_Nxqj9kgt6_BcH9SZVW69gM
           claim_id: c_6nZVJ4W2f5va73GMmu1CZg
           source_id: s_W9HnK6bVw18xTkkGM9BwhP
           stance: supports
-          locator: null
+          locator: CBDB:639858
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王繁祚 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王繁祚，清人物。籍贯平陽，入仕貢生: 拔貢，曾任訓導、復設教諭。（中国历代人物传记资料库 CBDB 639858） | accepted |
 
 ## 关联关系
 

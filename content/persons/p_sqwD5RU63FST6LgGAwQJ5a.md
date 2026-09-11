@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
-          language: zh-Hans
+          text: 王鐸，元人物。籍贯鼓城，曾任祕書監著作佐郎。（中国历代人物传记资料库 CBDB 101008）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_NFBNAFVxpUF4NpBb5R7VJU
+        - id: cs_mvJFJsMdz9EMIqf4I0RaXY
           claim_id: c_o4cvVP7oBwKhFeuMN5Ax93
           source_id: s_bXGfbykjywdXipDn82ak4r
           stance: supports
-          locator: null
+          locator: CBDB:101008
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王鐸 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王鐸，元人物。籍贯鼓城，曾任祕書監著作佐郎。（中国历代人物传记资料库 CBDB 101008） | accepted |
 
 ## 关联关系
 

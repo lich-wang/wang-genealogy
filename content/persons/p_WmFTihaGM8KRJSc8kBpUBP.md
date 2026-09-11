@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王友札（卒于641年），唐人物。籍贯丹徒，曾任令。（中国历代人物传记资料库 CBDB 175778）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_GBjaV9eCxmcviV2N8PpBnG
+        - id: cs_DEojB2qmJotlseZA6QG_OL
           claim_id: c_pH3fhiJ63J7AXvmBHXzhJP
           source_id: s_dFWAHx9nBjDD4LMZR2DTg2
           stance: supports
-          locator: null
+          locator: CBDB:175778
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -320,7 +320,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王友札 | accepted |
 | death.date | 641年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王友札（卒于641年），唐人物。籍贯丹徒，曾任令。（中国历代人物传记资料库 CBDB 175778） | accepted |
 
 ## 关联关系
 

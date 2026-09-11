@@ -7,6 +7,44 @@ display_name: 葉氏
 revision: 1
 cbdb_id: 247366
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_uVSqpNzwDZbxySYp5U7nW1
+        subject_person_id: p_RcohMEe4gfY6Nzm7nKZ8NH
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 葉氏，明人物。成化八年進士。（中国历代人物传记资料库 CBDB 247366）
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_l0O5i5Afur07sYMvOqLuYm
+          claim_id: c_uVSqpNzwDZbxySYp5U7nW1
+          source_id: s_Dq-FsmqGyX4rDdZ4JEGvFU
+          stance: supports
+          locator: CBDB:247366
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_Dq-FsmqGyX4rDdZ4JEGvFU
+            source_type: api_record
+            title: 中国历代人物传记资料库：葉氏(王暄妻)（CBDB 247366）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=247366&o=json
+            external_identifier: CBDB:247366
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:247366
           quotation: null
           interpretation_note: CBDB 明确记录的王暄配偶
-          source: &a1
-            id: s_Dq-FsmqGyX4rDdZ4JEGvFU
-            source_type: api_record
-            title: 中国历代人物传记资料库：葉氏(王暄妻)（CBDB 247366）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=247366&o=json
-            external_identifier: CBDB:247366
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 葉氏，明人物。成化八年進士。（中国历代人物传记资料库 CBDB 247366） | accepted |
 | name.primary | 葉氏 | accepted |
 
 ## 关联关系

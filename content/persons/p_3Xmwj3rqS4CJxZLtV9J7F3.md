@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王佐（卒于1405年），明人物。曾任都督府都督同知、都督同知、順昌伯。（中国历代人物传记资料库 CBDB 67307）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_xhxtRPsEKWJwA8TKr5XpeX
+        - id: cs_AxBawD52nOQtto2gvh5Du2
           claim_id: c_dYJ7dMdnREUqbGe6pzCEiv
           source_id: s_nP6QUNjQsYGovEG23s2q3L
           stance: supports
-          locator: null
+          locator: CBDB:67307
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王佐 | accepted |
 | death.date | 1405年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王佐（卒于1405年），明人物。曾任都督府都督同知、都督同知、順昌伯。（中国历代人物传记资料库 CBDB 67307） | accepted |
 
 ## 关联关系
 

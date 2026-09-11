@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王安國（生于1661年），清人物。曾任鎮總兵官。（中国历代人物传记资料库 CBDB 69108）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_HWZu7DWyRUMfKXQdPe3riu
+        - id: cs_r4aNfZLWORTt-DJkcK4FIi
           claim_id: c_DRQz5BmoP6WC4yW76Axi98
           source_id: s_D1rLtsHtiXmrNu2Dt7dxTP
           stance: supports
-          locator: null
+          locator: CBDB:69108
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王安國 | accepted |
 | birth.date | 1661年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王安國（生于1661年），清人物。曾任鎮總兵官。（中国历代人物传记资料库 CBDB 69108） | accepted |
 
 ## 关联关系
 

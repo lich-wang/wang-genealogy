@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王元琰（671年—736年），唐人物。籍贯太原。（中国历代人物传记资料库 CBDB 140751）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_PLA1K9BMLHirQ5bgcL4uqK
+        - id: cs_O7s_y__sUVfiq_goBDpfUX
           claim_id: c_iS2XJGDT8bs1uTq6hcv5b9
           source_id: s_PTpVrzAkgRNfqABiAB1cLa
           stance: supports
-          locator: null
+          locator: CBDB:140751
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -238,7 +238,7 @@ relationships:
 | name.primary | 王元琰 | accepted |
 | birth.date | 671年 | accepted |
 | death.date | 736年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王元琰（671年—736年），唐人物。籍贯太原。（中国历代人物传记资料库 CBDB 140751） | accepted |
 
 ## 关联关系
 

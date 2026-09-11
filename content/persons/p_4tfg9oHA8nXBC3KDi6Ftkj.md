@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王可大，明人物。明清進士進士，籍贯南京錦衣衛，入仕進士，曾任知府、刑部。（中国历代人物传记资料库 CBDB 126483）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_QJxAMMatygcCpQu416rAYq
+        - id: cs_CgyP2T2aaNQpILn4jqyWjb
           claim_id: c_NAyery1NEvn97movLPffNG
           source_id: s_33RLD1aJM1kGohTTTjF6wj
           stance: supports
-          locator: null
+          locator: CBDB:126483
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -232,7 +232,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王可大 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王可大，明人物。明清進士進士，籍贯南京錦衣衛，入仕進士，曾任知府、刑部。（中国历代人物传记资料库 CBDB 126483） | accepted |
 
 ## 关联关系
 

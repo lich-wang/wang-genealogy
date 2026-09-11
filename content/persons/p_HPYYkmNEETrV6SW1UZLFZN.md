@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王次張（1108年—1181年），宋人物。籍贯長清，入仕恩蔭、蔭補，曾任承務郎、提舉宮觀、通判。（中国历代人物传记资料库 CBDB 1907）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_CwuB9o3mGpSNJz2mMjYR1g
+        - id: cs_zsc0cHDj1QouGltwUBgQ-l
           claim_id: c_UB316pkmt9cZYNVYLZaA6s
           source_id: s_uwcRXGCfK1z9tGXAat6n8B
           stance: supports
-          locator: null
+          locator: CBDB:1907
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -186,7 +186,7 @@ relationships:
 | name.primary | 王次張 | accepted |
 | birth.date | 1108年 | accepted |
 | death.date | 1181年 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王次張（1108年—1181年），宋人物。籍贯長清，入仕恩蔭、蔭補，曾任承務郎、提舉宮觀、通判。（中国历代人物传记资料库 CBDB 1907） | accepted |
 
 ## 关联关系
 

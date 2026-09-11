@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王柱，明人物。曾任把總。（中国历代人物传记资料库 CBDB 459516）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_HJtEvK5Kv4cNV7sAPY8i7K
+        - id: cs_w9ZAK-uF-kw-F-YoXkFW9R
           claim_id: c_XKh8B7ebwwFtwkvjrMP7C8
           source_id: s_uJpm3bKVjEjUvfqpcX2jQQ
           stance: supports
-          locator: null
+          locator: CBDB:459516
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王柱 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王柱，明人物。曾任把總。（中国历代人物传记资料库 CBDB 459516） | accepted |
 
 ## 关联关系
 

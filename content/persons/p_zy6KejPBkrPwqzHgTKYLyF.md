@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王鵬舉，宋人物。籍贯嵊縣，入仕進士。（中国历代人物传记资料库 CBDB 546144）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_UDHk81LAs27Q8QVgg7cL4J
+        - id: cs_VE94oiTbn-LlPs_XCz6_mh
           claim_id: c_ES9gizwLCH7k3bQKKuvMYU
           source_id: s_eD7p4J71rL3HPP5PNwdhsX
           stance: supports
-          locator: null
+          locator: CBDB:546144
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王鵬舉 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王鵬舉，宋人物。籍贯嵊縣，入仕進士。（中国历代人物传记资料库 CBDB 546144） | accepted |
 
 ## 关联关系
 

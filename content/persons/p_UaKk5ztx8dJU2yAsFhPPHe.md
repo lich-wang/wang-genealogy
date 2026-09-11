@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王建，明人物。身份为孝子/孝女，入仕監生。（中国历代人物传记资料库 CBDB 683470）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_BYhWLkoZBoS5bttzJL9mH2
+        - id: cs_QaB97D_M7Iq_xVWf4akGrY
           claim_id: c_W1T9sGioswFSaod1EcDins
           source_id: s_tZbPoGRBTJAqxYgm33VCZ4
           stance: supports
-          locator: null
+          locator: CBDB:683470
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -128,7 +128,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王建 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王建，明人物。身份为孝子/孝女，入仕監生。（中国历代人物传记资料库 CBDB 683470） | accepted |
 
 ## 关联关系
 

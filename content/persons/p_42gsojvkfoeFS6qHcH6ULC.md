@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王普，明人物。弘治九年進士，籍贯臨海。（中国历代人物传记资料库 CBDB 266967）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_1rEmkQQFsS5CNVykgrNBPu
+        - id: cs_XWz0v7mYSxGQx6ovF0P6CE
           claim_id: c_5TKqF85BkT3uSwmXvJrcBs
           source_id: s_YWgyc7FqoxN1yBwXMuPe2J
           stance: supports
-          locator: null
+          locator: CBDB:266967
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王普 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王普，明人物。弘治九年進士，籍贯臨海。（中国历代人物传记资料库 CBDB 266967） | accepted |
 
 ## 关联关系
 

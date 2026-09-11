@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王象某，明人物。萬曆八年進士，籍贯新城。（中国历代人物传记资料库 CBDB 220283）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_WWdjfLo2B34Wr3HBFNQr2F
+        - id: cs_zSeNTqkZt2nCsbyK47NXTj
           claim_id: c_J3VvG4HJSmwCQe4rSJRCAr
           source_id: s_6rTnHpG9hZ3MpCR5nA6Y3p
           stance: supports
-          locator: null
+          locator: CBDB:220283
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王象某 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王象某，明人物。萬曆八年進士，籍贯新城。（中国历代人物传记资料库 CBDB 220283） | accepted |
 
 ## 关联关系
 

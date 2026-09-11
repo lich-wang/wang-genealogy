@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王環，明人物。明清進士進士，籍贯平陰，身份为良吏;循吏，入仕進士。（中国历代人物传记资料库 CBDB 342013）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Nvp1B85TZghPC5rDd8xKx2
+        - id: cs_0kf3JwBUoSQfRNSq5q1x8v
           claim_id: c_CLs5aGt3FTPvQf989CiEpR
           source_id: s_zVR8FFWiwmuY9BdeVYP2GT
           stance: supports
-          locator: null
+          locator: CBDB:342013
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王環 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王環，明人物。明清進士進士，籍贯平陰，身份为良吏;循吏，入仕進士。（中国历代人物传记资料库 CBDB 342013） | accepted |
 
 ## 关联关系
 

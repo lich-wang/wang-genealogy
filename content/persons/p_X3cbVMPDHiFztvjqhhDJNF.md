@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王道湘，清人物。籍贯黃陂，入仕縣學附生，曾任知州。（中国历代人物传记资料库 CBDB 640456）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_a64nH1Yx4x7v3j41Y6G9yy
+        - id: cs_nQDiRlrahQW6ByHlHHWD5a
           claim_id: c_ML4dqB7UmE7248gHMUahxc
           source_id: s_9yEroGD7FjEQtQc4HmMfdu
           stance: supports
-          locator: null
+          locator: CBDB:640456
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王道湘 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王道湘，清人物。籍贯黃陂，入仕縣學附生，曾任知州。（中国历代人物传记资料库 CBDB 640456） | accepted |
 
 ## 关联关系
 

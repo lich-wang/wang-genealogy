@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王希哲，宋人物。籍贯長安。（中国历代人物传记资料库 CBDB 22049）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_yF1ZnU9LbXoayqZB9TJvbj
+        - id: cs_vD8jxkdl9kbsi3jd0-txt5
           claim_id: c_kLTX25oSV9Z7iE5gfJACv5
           source_id: s_seMbLLLKX6JK3PbBZVupr8
           stance: supports
-          locator: null
+          locator: CBDB:22049
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -154,7 +154,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王希哲 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王希哲，宋人物。籍贯長安。（中国历代人物传记资料库 CBDB 22049） | accepted |
 
 ## 关联关系
 

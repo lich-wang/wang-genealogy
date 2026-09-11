@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王樹堂，清人物。籍贯鳳翔，入仕鄉貢舉人，曾任教諭。（中国历代人物传记资料库 CBDB 638838）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_gGcMT522F35EVU9cwKBWhE
+        - id: cs_3ncadQWdFuQKAggaS9EIrM
           claim_id: c_uKv2Jk86LY4VHq3WKGpQcE
           source_id: s_nEaVHd56W4utKYJ8MTMQRz
           stance: supports
-          locator: null
+          locator: CBDB:638838
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王樹堂 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王樹堂，清人物。籍贯鳳翔，入仕鄉貢舉人，曾任教諭。（中国历代人物传记资料库 CBDB 638838） | accepted |
 
 ## 关联关系
 

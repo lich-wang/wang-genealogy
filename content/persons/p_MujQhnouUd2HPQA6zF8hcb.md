@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王景亮，宋人物。籍贯須城。（中国历代人物传记资料库 CBDB 38211）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_7wcieQhEhKRQU8SW2VkU1v
+        - id: cs_yCjO_1o5se9_BrNV-XvTiL
           claim_id: c_EQsuTqC5arc5vo8ZEyj5wK
           source_id: s_2MqEGWAfFYtQF8KA8RxWfL
           stance: supports
-          locator: null
+          locator: CBDB:38211
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王景亮 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王景亮，宋人物。籍贯須城。（中国历代人物传记资料库 CBDB 38211） | accepted |
 
 ## 关联关系
 

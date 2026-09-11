@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: "王賢舉，清人物。籍贯河間，入仕貢生: 拔貢，曾任學正、訓導。（中国历代人物传记资料库 CBDB 640342）"
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_A9qdb7kmU8rjBBtxwif8S6
+        - id: cs_WZ2bppZ1wVhb5tBUSJS-Rl
           claim_id: c_TXUtP899mDJS6YPNwhM87W
           source_id: s_B36SAWbJB4ERnFyZ7YBdAp
           stance: supports
-          locator: null
+          locator: CBDB:640342
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王賢舉 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王賢舉，清人物。籍贯河間，入仕貢生: 拔貢，曾任學正、訓導。（中国历代人物传记资料库 CBDB 640342） | accepted |
 
 ## 关联关系
 

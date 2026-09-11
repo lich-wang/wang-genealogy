@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: "王懋枝，清人物。籍贯仙居，身份为良吏;循吏、義民/義官，入仕貢生: 恩貢，曾任知縣。（中国历代人物传记资料库 CBDB 696652）"
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_eAqpfEGtndF43mCxqyyujK
+        - id: cs_MlxpLzW0mxDu7BkSE-R1KC
           claim_id: c_63wbxxpPV1ni4QHF5mRk6t
           source_id: s_FTPLH5PEEJXJAJ29iJ5g8H
           stance: supports
-          locator: null
+          locator: CBDB:696652
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王懋枝 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王懋枝，清人物。籍贯仙居，身份为良吏;循吏、義民/義官，入仕貢生: 恩貢，曾任知縣。（中国历代人物传记资料库 CBDB 696652） | accepted |
 
 ## 关联关系
 

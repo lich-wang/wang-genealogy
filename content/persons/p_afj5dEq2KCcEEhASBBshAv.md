@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王毓方，清人物。籍贯齊東，入仕廩貢生，曾任知縣。（中国历代人物传记资料库 CBDB 638949）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_igJD9rCDW2Ncpj1uaL7Hg5
+        - id: cs_rBKHjFdk2ObjzYgAg6modx
           claim_id: c_PNdTT4CEx7LhjksS1989Gj
           source_id: s_QNb4K6DkE495LbWhAaKaJc
           stance: supports
-          locator: null
+          locator: CBDB:638949
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王毓方 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王毓方，清人物。籍贯齊東，入仕廩貢生，曾任知縣。（中国历代人物传记资料库 CBDB 638949） | accepted |
 
 ## 关联关系
 

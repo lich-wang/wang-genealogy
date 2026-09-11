@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王寵，宋人物。籍贯宜川，身份为不求仕，曾任迪功郎。（中国历代人物传记资料库 CBDB 45823）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_sHLeCPLKrJHf5BSgdAFRG5
+        - id: cs_PY5CwnHxzQZ_34bIID6riE
           claim_id: c_gjBuhmzW4MKJQic196fbpG
           source_id: s_7bQVSKdGntBRCUjNYTaqbv
           stance: supports
-          locator: null
+          locator: CBDB:45823
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王寵 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王寵，宋人物。籍贯宜川，身份为不求仕，曾任迪功郎。（中国历代人物传记资料库 CBDB 45823） | accepted |
 
 ## 关联关系
 

@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
+          text: 王顯祖（1239年—1307年），元人物。籍贯邢州，入仕世襲(替)，曾任茶鹽轉運司同知、州尹、諸路總管府總管。（中国历代人物传记资料库 CBDB 101463）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_ruEzgjUVoBtEe9C8LF1Hep
+        - id: cs_KEKoYawwN-vIO5LhuMQqcs
           claim_id: c_tEEvXqgPnzamz8KMsZF9dn
           source_id: s_F1boYMQKnfESWRPcivMZeN
           stance: supports
-          locator: null
+          locator: CBDB:101463
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王顯祖 | accepted |
 | birth.date | 1239年 | accepted |
 | death.date | 1307年 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王顯祖（1239年—1307年），元人物。籍贯邢州，入仕世襲(替)，曾任茶鹽轉運司同知、州尹、諸路總管府總管。（中国历代人物传记资料库 CBDB 101463） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王志超，清人物。明清進士進士，籍贯諸城，入仕進士。（中国历代人物传记资料库 CBDB 342996）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_oz1HZkEMP2xV6Zrud1iDtZ
+        - id: cs_rK32oc803HnxyUvQ9KbLZ8
           claim_id: c_rcYDJzm4rY99H35yPsPb16
           source_id: s_ARKmGxBW5Ad877yeug1kru
           stance: supports
-          locator: null
+          locator: CBDB:342996
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王志超 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王志超，清人物。明清進士進士，籍贯諸城，入仕進士。（中国历代人物传记资料库 CBDB 342996） | accepted |
 
 ## 关联关系
 

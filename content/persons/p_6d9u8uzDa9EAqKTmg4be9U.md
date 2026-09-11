@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王廷極，明人物。曾任城守、副將軍。（中国历代人物传记资料库 CBDB 487563）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_yRFJkK29BrFNUK9THjSC5w
+        - id: cs_H1v9BO92t7hdHoS-hI3lJm
           claim_id: c_E9aWF7ztnfA8m2qTanWU58
           source_id: s_7Kx64jR9ohoiWh1u4kFerg
           stance: supports
-          locator: null
+          locator: CBDB:487563
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王廷極 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王廷極，明人物。曾任城守、副將軍。（中国历代人物传记资料库 CBDB 487563） | accepted |
 
 ## 关联关系
 

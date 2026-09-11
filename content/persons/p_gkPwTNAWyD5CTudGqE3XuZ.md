@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王彬，宋人物。籍贯長安。（中国历代人物传记资料库 CBDB 22155）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Vw2xaDZAK3zDWCYbBji57s
+        - id: cs_VWFYiH0F-E3cEDzaFm5Jh3
           claim_id: c_45eDcfGWJY64UFMNBLXk1T
           source_id: s_QGL2jg794p6jrtUEefS23t
           stance: supports
-          locator: null
+          locator: CBDB:22155
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王彬 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王彬，宋人物。籍贯長安。（中国历代人物传记资料库 CBDB 22155） | accepted |
 
 ## 关联关系
 

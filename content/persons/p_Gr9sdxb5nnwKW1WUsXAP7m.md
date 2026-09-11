@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王權（1822年—1905年），清人物。籍贯寧夏，入仕鄉貢舉人，曾任縣教諭、縣知縣、知縣。（中国历代人物传记资料库 CBDB 71059）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_9MkvwiaLoKmXF7QB1TBjnH
+        - id: cs_nGc9pObwr7DfQQCO0ys33g
           claim_id: c_yZvC2bs19ZL2Jwo9rXTCUm
           source_id: s_LP74uZZrodN33hNoNtXcqn
           stance: supports
-          locator: null
+          locator: CBDB:71059
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王權 | accepted |
 | birth.date | 1822年 | accepted |
 | death.date | 1905年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王權（1822年—1905年），清人物。籍贯寧夏，入仕鄉貢舉人，曾任縣教諭、縣知縣、知縣。（中国历代人物传记资料库 CBDB 71059） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
+          text: 王儀，元人物。籍贯鄧州，曾任御史中丞。（中国历代人物传记资料库 CBDB 100932）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_3NpviFPrbBss4CKw5SBeoP
+        - id: cs_-Kqk4yRbSwI-eYIM1EdQ6X
           claim_id: c_w2GNKJQkJD4hWwZLTPXfNJ
           source_id: s_FvB8u3ZByiLVWcA2vDginW
           stance: supports
-          locator: null
+          locator: CBDB:100932
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王儀 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王儀，元人物。籍贯鄧州，曾任御史中丞。（中国历代人物传记资料库 CBDB 100932） | accepted |
 
 ## 关联关系
 

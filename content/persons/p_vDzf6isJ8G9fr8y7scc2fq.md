@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王崑（生于1478年），明人物。明清進士進士，籍贯靈璧，入仕進士。（中国历代人物传记资料库 CBDB 201957）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_y7wAYEMArVucuS2d6Rs1Q6
+        - id: cs_Hac3hmK0T078ivNy5hil9C
           claim_id: c_HfN8VU9A3PBfmPtqDSWqsz
           source_id: s_WbmeJ61SBQzh5H1WL384BZ
           stance: supports
-          locator: null
+          locator: CBDB:201957
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -232,7 +232,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王崑 | accepted |
 | birth.date | 1478年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王崑（生于1478年），明人物。明清進士進士，籍贯靈璧，入仕進士。（中国历代人物传记资料库 CBDB 201957） | accepted |
 
 ## 关联关系
 

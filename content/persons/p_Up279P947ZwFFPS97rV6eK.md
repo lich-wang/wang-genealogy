@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王億，宋人物。籍贯太和，入仕進士，曾任尚書省兵部職方司員外郎。（中国历代人物传记资料库 CBDB 7378）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Jo7Kar3R3JsCWJVR73meNf
+        - id: cs_iuoXitiNVk6LOmnfU-6GvA
           claim_id: c_rvDA7PN9LYFFfAySbn1SeW
           source_id: s_3RaEuvHMkMb43iJfQ24rNX
           stance: supports
-          locator: null
+          locator: CBDB:7378
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王億 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王億，宋人物。籍贯太和，入仕進士，曾任尚書省兵部職方司員外郎。（中国历代人物传记资料库 CBDB 7378） | accepted |
 
 ## 关联关系
 

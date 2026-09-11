@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王鏗，明人物。入仕監生，曾任縣丞。（中国历代人物传记资料库 CBDB 496830）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_aoumLMd4B1WMvtsvtz9UFY
+        - id: cs_psKjsLITj6adK1ILoBTN01
           claim_id: c_Bquw6GMTPPD5LE7x5DNib9
           source_id: s_3b9v4LWKAVa5LN2HkCGZ8g
           stance: supports
-          locator: null
+          locator: CBDB:496830
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王鏗 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王鏗，明人物。入仕監生，曾任縣丞。（中国历代人物传记资料库 CBDB 496830） | accepted |
 
 ## 关联关系
 

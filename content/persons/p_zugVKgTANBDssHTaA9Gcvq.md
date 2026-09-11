@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王式（974年—1038年），宋人物。籍贯曲江，入仕進士，曾任大理寺丞、國子監博士、上輕車都尉。（中国历代人物传记资料库 CBDB 38702）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_kK8BN4ZAjHen8iejE3EBAz
+        - id: cs_HhEzlBi27Mf_LIl7gI6zNn
           claim_id: c_FTBE8eQU4vtg7PPu1bUcLs
           source_id: s_rJAG1g6PQA7Ft7XW4v2LU2
           stance: supports
-          locator: null
+          locator: CBDB:38702
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王式 | accepted |
 | birth.date | 974年 | accepted |
 | death.date | 1038年 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王式（974年—1038年），宋人物。籍贯曲江，入仕進士，曾任大理寺丞、國子監博士、上輕車都尉。（中国历代人物传记资料库 CBDB 38702） | accepted |
 
 ## 关联关系
 

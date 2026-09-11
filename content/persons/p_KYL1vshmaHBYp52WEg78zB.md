@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王庠（生于1071年），宋人物。籍贯榮德，身份为拒絕出仕、孝子/孝女，入仕進士(八行科)。（中国历代人物传记资料库 CBDB 7375）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_mxs5nmEKeG66eN6wupn8tc
+        - id: cs_hweEJqxcDLZz98NEnoAm9z
           claim_id: c_3vCN4S25yd2GW7TB55ExaZ
           source_id: s_eqtEjxVYFKRe2FABZVzvKo
           stance: supports
-          locator: null
+          locator: CBDB:7375
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王庠 | accepted |
 | birth.date | 1071年 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王庠（生于1071年），宋人物。籍贯榮德，身份为拒絕出仕、孝子/孝女，入仕進士(八行科)。（中国历代人物传记资料库 CBDB 7375） | accepted |
 
 ## 关联关系
 

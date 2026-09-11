@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王元敬，明人物。明清進士進士，籍贯會稽，入仕進士，曾任按察使、都御史、巡撫。（中国历代人物传记资料库 CBDB 126472）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_bik4Fchz55DreA8ZnKy6fn
+        - id: cs_p_uyxbSa4ajGmjYQihNp_B
           claim_id: c_q1PnTrAmKvXu9nrA2jEtUZ
           source_id: s_YADBmndHasVQP6F7cTjsWo
           stance: supports
-          locator: null
+          locator: CBDB:126472
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -206,7 +206,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王元敬 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王元敬，明人物。明清進士進士，籍贯會稽，入仕進士，曾任按察使、都御史、巡撫。（中国历代人物传记资料库 CBDB 126472） | accepted |
 
 ## 关联关系
 

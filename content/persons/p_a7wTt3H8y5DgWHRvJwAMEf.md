@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: "王士弘，明人物。籍贯信陽，入仕學校: 生員(庠生)。（中国历代人物传记资料库 CBDB 557634）"
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_DhPDhBjw96C68CyJeSKH2H
+        - id: cs_ruruYByLNj8Jt-_Y3GlKdP
           claim_id: c_T8L5zLJMUCNR9PSAa8WUi4
           source_id: s_KjGgoWAPLD63wBRWSW8KtQ
           stance: supports
-          locator: null
+          locator: CBDB:557634
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王士弘 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王士弘，明人物。籍贯信陽，入仕學校: 生員(庠生)。（中国历代人物传记资料库 CBDB 557634） | accepted |
 
 ## 关联关系
 

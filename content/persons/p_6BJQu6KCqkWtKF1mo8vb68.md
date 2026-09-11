@@ -7,6 +7,44 @@ display_name: 俱氏
 revision: 1
 cbdb_id: 38232
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_K5I8IFMPdxtl4yJEdBzf1R
+        subject_person_id: p_6BJQu6KCqkWtKF1mo8vb68
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 俱氏，宋人物。曾任郡夫人。（中国历代人物传记资料库 CBDB 38232）
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_t-K6mMdwUoLoJoenGYEdRD
+          claim_id: c_K5I8IFMPdxtl4yJEdBzf1R
+          source_id: s_pgnOsB1reHck7CdMBwXV47
+          stance: supports
+          locator: CBDB:38232
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_pgnOsB1reHck7CdMBwXV47
+            source_type: api_record
+            title: 中国历代人物传记资料库：俱氏(王淵妻)（CBDB 38232）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38232&o=json
+            external_identifier: CBDB:38232
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:38232
           quotation: null
           interpretation_note: CBDB 明确记录的王淵配偶
-          source: &a1
-            id: s_pgnOsB1reHck7CdMBwXV47
-            source_type: api_record
-            title: 中国历代人物传记资料库：俱氏(王淵妻)（CBDB 38232）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38232&o=json
-            external_identifier: CBDB:38232
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 俱氏，宋人物。曾任郡夫人。（中国历代人物传记资料库 CBDB 38232） | accepted |
 | name.primary | 俱氏 | accepted |
 
 ## 关联关系

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王任遠，清人物。籍贯渮澤，入仕舉為孝廉方正，曾任州同知。（中国历代人物传记资料库 CBDB 698969）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_2sZHkB1HLVnvMY2ZZPFipp
+        - id: cs_SBl6yVxIJmzNaSQqwzQCEE
           claim_id: c_YN7QsgBPcgg9pp5HVLY7D2
           source_id: s_PsPMyFXVL8aJ2nZJtjV8Ey
           stance: supports
-          locator: null
+          locator: CBDB:698969
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王任遠 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王任遠，清人物。籍贯渮澤，入仕舉為孝廉方正，曾任州同知。（中国历代人物传记资料库 CBDB 698969） | accepted |
 
 ## 关联关系
 

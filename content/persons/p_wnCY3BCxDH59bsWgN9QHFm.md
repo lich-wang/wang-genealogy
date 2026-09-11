@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王元康，清人物。籍贯南召，入仕軍功補授(軍功)，曾任中軍守備。（中国历代人物传记资料库 CBDB 636148）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_m5kB1T4kRuFnkK1cDyqm6K
+        - id: cs_5_ewnHg07CoUXLK2SmoNOn
           claim_id: c_KSLiD5qtbPCHUnvgqGs8XB
           source_id: s_cypM2vS6PUvqcfwEuK5JQQ
           stance: supports
-          locator: null
+          locator: CBDB:636148
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王元康 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王元康，清人物。籍贯南召，入仕軍功補授(軍功)，曾任中軍守備。（中国历代人物传记资料库 CBDB 636148） | accepted |
 
 ## 关联关系
 

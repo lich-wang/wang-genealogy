@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
+          text: 王復（1226年—1289年），元人物。籍贯滄州，曾任按察使、散府知府或府尹、宣慰使司副使。（中国历代人物传记资料库 CBDB 100822）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_2zJysD6J5R1j7hnxtAkCGV
+        - id: cs_kRIYZG_DTIXqVaQZWeohE3
           claim_id: c_ugwtHQVseDnSRZKVp3r229
           source_id: s_ibq7AWNLFH7rAJWJ3s4JtR
           stance: supports
-          locator: null
+          locator: CBDB:100822
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -186,7 +186,7 @@ relationships:
 | name.primary | 王復 | accepted |
 | birth.date | 1226年 | accepted |
 | death.date | 1289年 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王復（1226年—1289年），元人物。籍贯滄州，曾任按察使、散府知府或府尹、宣慰使司副使。（中国历代人物传记资料库 CBDB 100822） | accepted |
 
 ## 关联关系
 

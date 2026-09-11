@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王守清，清人物。籍贯甘肅省，入仕行伍，曾任把總。（中国历代人物传记资料库 CBDB 637069）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_KkSgKhebKtFh4eMeL8Rztv
+        - id: cs_A_TCgAk01LN_PNt7N_PgeG
           claim_id: c_NL7Q5BDdQZy12bLd1uLE5L
           source_id: s_r9rXQe9LiVndhSSQe2frVN
           stance: supports
-          locator: null
+          locator: CBDB:637069
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王守清 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王守清，清人物。籍贯甘肅省，入仕行伍，曾任把總。（中国历代人物传记资料库 CBDB 637069） | accepted |
 
 ## 关联关系
 

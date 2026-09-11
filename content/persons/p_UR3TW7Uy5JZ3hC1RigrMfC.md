@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王鈇（卒于1149年），宋人物。籍贯分寧，入仕恩蔭、蔭補，曾任提舉、尚書省戶部侍郎、右朝議大夫。（中国历代人物传记资料库 CBDB 1884）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_xBkseH2broQ5DmRFL1gouj
+        - id: cs_N4RUafEs4WTcx_ubPF2XqV
           claim_id: c_WfD5zW2vWH7SHxXVaLHDiQ
           source_id: s_hgC8rEA7cKfLUcWxYnJN1V
           stance: supports
-          locator: null
+          locator: CBDB:1884
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -157,7 +157,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王鈇 | accepted |
 | death.date | 1149年 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王鈇（卒于1149年），宋人物。籍贯分寧，入仕恩蔭、蔭補，曾任提舉、尚書省戶部侍郎、右朝議大夫。（中国历代人物传记资料库 CBDB 1884） | accepted |
 
 ## 关联关系
 

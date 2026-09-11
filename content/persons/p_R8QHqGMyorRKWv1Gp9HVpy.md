@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王承祖，明人物。隆慶二年進士，籍贯南陽。（中国历代人物传记资料库 CBDB 334086）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_HUfMkriWyqZLL3nBY5jriF
+        - id: cs_gaf0Sc4-efbNlb-BPGrrCK
           claim_id: c_77JjMpohRgUDKTaMHGwh5G
           source_id: s_uXcZkPbJ3KZ2bWtQoB68sN
           stance: supports
-          locator: null
+          locator: CBDB:334086
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王承祖 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王承祖，明人物。隆慶二年進士，籍贯南陽。（中国历代人物传记资料库 CBDB 334086） | accepted |
 
 ## 关联关系
 

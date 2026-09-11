@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王鐸，明人物。嘉靖二十九年進士，籍贯東陽。（中国历代人物传记资料库 CBDB 314686）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_SUByUNwE3TBNDQNeu8xVDj
+        - id: cs_elg_-oLrt5wiRjhSXIEFXm
           claim_id: c_7qRG8M8ysNP9bJx2TE3YCV
           source_id: s_4k8te4QMeaM5dFZuzsPxr7
           stance: supports
-          locator: null
+          locator: CBDB:314686
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王鐸 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王鐸，明人物。嘉靖二十九年進士，籍贯東陽。（中国历代人物传记资料库 CBDB 314686） | accepted |
 
 ## 关联关系
 

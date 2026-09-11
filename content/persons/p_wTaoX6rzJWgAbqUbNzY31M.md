@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王大興，清人物。籍贯甘肅省，入仕行伍，曾任都司、中軍守備。（中国历代人物传记资料库 CBDB 636913）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_eUqmA9UMjcTSAc3x2czXVR
+        - id: cs_ZTsVln6BbM3YIlO6cxn_tN
           claim_id: c_98rHe5QNXSU6mEWcbHsowL
           source_id: s_C6L3CpEQhiHcZg4G7m5Lcc
           stance: supports
-          locator: null
+          locator: CBDB:636913
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王大興 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王大興，清人物。籍贯甘肅省，入仕行伍，曾任都司、中軍守備。（中国历代人物传记资料库 CBDB 636913） | accepted |
 
 ## 关联关系
 

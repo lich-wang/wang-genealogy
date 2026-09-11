@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: "王樂堯，清人物。籍贯東台，入仕貢生: 副貢，曾任主事。（中国历代人物传记资料库 CBDB 638827）"
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_S3sVov9nRFfkS7qCEdTr86
+        - id: cs_AQznv4E7GKEddGf3qVapat
           claim_id: c_5fX2ZoBeZWVwRGJHFdY6Hh
           source_id: s_mQk4kmqmivgV5B6TWUL9ti
           stance: supports
-          locator: null
+          locator: CBDB:638827
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王樂堯 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王樂堯，清人物。籍贯東台，入仕貢生: 副貢，曾任主事。（中国历代人物传记资料库 CBDB 638827） | accepted |
 
 ## 关联关系
 

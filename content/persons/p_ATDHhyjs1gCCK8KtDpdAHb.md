@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: "王惠，清人物。籍贯蕭山，入仕監生: 例監(附監生)，曾任典史。（中国历代人物传记资料库 CBDB 637894）"
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_SLVNZFEKmGDnXowapWNQwr
+        - id: cs_p3Ae55qBtaEEgCBFaeU-9S
           claim_id: c_ZY1XasrV5buExa9Gu1QKT6
           source_id: s_AXJuE86TDDyGh73A8dFWMG
           stance: supports
-          locator: null
+          locator: CBDB:637894
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王惠 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王惠，清人物。籍贯蕭山，入仕監生: 例監(附監生)，曾任典史。（中国历代人物传记资料库 CBDB 637894） | accepted |
 
 ## 关联关系
 

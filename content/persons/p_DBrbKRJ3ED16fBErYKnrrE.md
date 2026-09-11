@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王澄（卒于1768年），清人物。籍贯曲阜，入仕武舉進士，曾任藍翎侍衛、鎮總兵。（中国历代人物传记资料库 CBDB 61099）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_dFB71UeAC5WL4Bx37KEMWs
+        - id: cs_jlIPBRKFdxI_gpLo2IxfIC
           claim_id: c_y48pbq8NdCQoS8WTmHeyz1
           source_id: s_SVP68QoVdxZbjyDwSXb51R
           stance: supports
-          locator: null
+          locator: CBDB:61099
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王澄 | accepted |
 | death.date | 1768年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王澄（卒于1768年），清人物。籍贯曲阜，入仕武舉進士，曾任藍翎侍衛、鎮總兵。（中国历代人物传记资料库 CBDB 61099） | accepted |
 
 ## 关联关系
 

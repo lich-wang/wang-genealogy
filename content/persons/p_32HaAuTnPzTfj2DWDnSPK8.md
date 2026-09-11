@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王宣（587年—665年），唐人物。籍贯太原，曾任朝散大夫、上儀同三司、建節尉。（中国历代人物传记资料库 CBDB 139473）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_9BAg8Z7CTHPRgV81bHW8G6
+        - id: cs_uSv6VDCT-HU-FAY32EFGSk
           claim_id: c_WpWLTu7U1weQK729L9HEnN
           source_id: s_BjJN7NVQgmcfXMSrwk8heN
           stance: supports
-          locator: null
+          locator: CBDB:139473
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -264,7 +264,7 @@ relationships:
 | name.primary | 王宣 | accepted |
 | birth.date | 587年 | accepted |
 | death.date | 665年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王宣（587年—665年），唐人物。籍贯太原，曾任朝散大夫、上儀同三司、建節尉。（中国历代人物传记资料库 CBDB 139473） | accepted |
 
 ## 关联关系
 

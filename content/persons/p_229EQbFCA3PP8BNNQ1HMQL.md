@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王鎬，明人物。正德十六年進士，籍贯臨海，曾任知縣。（中国历代人物传记资料库 CBDB 284247）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Cz7Le17in8eUrGkmKsYafH
+        - id: cs_g92Ur8Ae5zYUTK4UlphYJ3
           claim_id: c_6DB2hz4tmbB2CRQo3UD19s
           source_id: s_a9nhVp9EnwoF8N2xcY2o8R
           stance: supports
-          locator: null
+          locator: CBDB:284247
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王鎬 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王鎬，明人物。正德十六年進士，籍贯臨海，曾任知縣。（中国历代人物传记资料库 CBDB 284247） | accepted |
 
 ## 关联关系
 

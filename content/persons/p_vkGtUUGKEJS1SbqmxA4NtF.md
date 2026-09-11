@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王元勳，清人物。籍贯臨縣，入仕鄉貢舉人。（中国历代人物传记资料库 CBDB 576164）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_xtXQ37rDcC3AHM6356e4LQ
+        - id: cs_tpqd_0nQnqGPym4aXRHwFv
           claim_id: c_bDfCKyE1vUJLTDJJon9gRf
           source_id: s_nmK4qxpTqef4dwBK5HFGDN
           stance: supports
-          locator: null
+          locator: CBDB:576164
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王元勳 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王元勳，清人物。籍贯臨縣，入仕鄉貢舉人。（中国历代人物传记资料库 CBDB 576164） | accepted |
 
 ## 关联关系
 

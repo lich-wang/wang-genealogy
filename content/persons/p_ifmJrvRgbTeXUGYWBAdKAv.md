@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王近光，明人物。嘉靖二十年進士，籍贯新城。（中国历代人物传记资料库 CBDB 302579）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_xVF4ARqa7PAJ39Q6cz36D1
+        - id: cs_49suNivK65xuk5IGn3Emg4
           claim_id: c_PLX5yMY6t7ebFUCU66p1Qn
           source_id: s_fxne1kJpLVtdcoreHgM6bS
           stance: supports
-          locator: null
+          locator: CBDB:302579
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王近光 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王近光，明人物。嘉靖二十年進士，籍贯新城。（中国历代人物传记资料库 CBDB 302579） | accepted |
 
 ## 关联关系
 

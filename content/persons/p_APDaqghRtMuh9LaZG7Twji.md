@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王橝，明人物。籍贯安福。（中国历代人物传记资料库 CBDB 556789）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_npr55ERcFU3oRrMcWr6H7c
+        - id: cs_7z4dO4YvzYEG6cya3b0iFd
           claim_id: c_EN894mmMYCHwHv8H5FC76P
           source_id: s_CEMHYA7huy5MXdgkLjFDQ1
           stance: supports
-          locator: null
+          locator: CBDB:556789
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王橝 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王橝，明人物。籍贯安福。（中国历代人物传记资料库 CBDB 556789） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王覲，清人物。籍贯安慶府，入仕鄉貢舉人，曾任訓導。（中国历代人物传记资料库 CBDB 640233）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_NaKH5WAS35Y54Nj5kSpWLu
+        - id: cs_FgxCUoGqpLvd8Y7xgKgxB2
           claim_id: c_6Mm87sx3Z9gZ7L6wrBBDVU
           source_id: s_CbhLDTSio3GZzK9EHAEt7G
           stance: supports
-          locator: null
+          locator: CBDB:640233
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王覲 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王覲，清人物。籍贯安慶府，入仕鄉貢舉人，曾任訓導。（中国历代人物传记资料库 CBDB 640233） | accepted |
 
 ## 关联关系
 

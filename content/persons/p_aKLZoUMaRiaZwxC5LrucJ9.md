@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: "王椿，宋人物。籍贯瀘州，入仕恩蔭: 死事蔭補，曾任縣令、校尉、承信郎。（中国历代人物传记资料库 CBDB 38823）"
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_oyv1KDtzPp53d1sMFVEko7
+        - id: cs_Ox8-1nGKF3Iao6OnQtw1Dv
           claim_id: c_yqEQjZVCPu5ew2KG2QGt7G
           source_id: s_o4Dp2r5ixouA8FHPr9H95y
           stance: supports
-          locator: null
+          locator: CBDB:38823
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -128,7 +128,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王椿 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王椿，宋人物。籍贯瀘州，入仕恩蔭: 死事蔭補，曾任縣令、校尉、承信郎。（中国历代人物传记资料库 CBDB 38823） | accepted |
 
 ## 关联关系
 

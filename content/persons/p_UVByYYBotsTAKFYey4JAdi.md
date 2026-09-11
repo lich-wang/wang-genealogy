@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王文雄，清人物。曾任副將。（中国历代人物传记资料库 CBDB 472569）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_KBWUcE4fv2ceFM5w25rvwc
+        - id: cs_DfYo-jITMfFYxaYcV1VApF
           claim_id: c_Hh3CLDfMKwjPnpvtQ9nTD3
           source_id: s_8MhQPKkH1nsL7Y6LLUvFmX
           stance: supports
-          locator: null
+          locator: CBDB:472569
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王文雄 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王文雄，清人物。曾任副將。（中国历代人物传记资料库 CBDB 472569） | accepted |
 
 ## 关联关系
 

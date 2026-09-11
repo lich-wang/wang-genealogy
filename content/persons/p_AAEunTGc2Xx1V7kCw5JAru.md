@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王麟，宋人物。籍贯深澤，入仕進士。（中国历代人物传记资料库 CBDB 688705）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_tc2A3aRQ61HmA7KSNkAuF9
+        - id: cs_dWaKWMbu77RIEr5Sf6lYvm
           claim_id: c_MpCb9viZg5DjJLgUoqT2xC
           source_id: s_AV3aHyQPsLEFyXZ5dvE61G
           stance: supports
-          locator: null
+          locator: CBDB:688705
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王麟 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王麟，宋人物。籍贯深澤，入仕進士。（中国历代人物传记资料库 CBDB 688705） | accepted |
 
 ## 关联关系
 

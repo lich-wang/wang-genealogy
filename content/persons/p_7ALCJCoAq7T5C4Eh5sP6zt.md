@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王風徽，清人物。籍贯黃岡。（中国历代人物传记资料库 CBDB 574277）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_x97sEJqWNeCGVKPxFHmFsi
+        - id: cs_CKlSWOlq3sBtVHtJHDrGb_
           claim_id: c_T475uDT1tMqDcZe98Sjx2m
           source_id: s_ya2Ff77f7FGV1N3E9NTh3R
           stance: supports
-          locator: null
+          locator: CBDB:574277
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王風徽 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王風徽，清人物。籍贯黃岡。（中国历代人物传记资料库 CBDB 574277） | accepted |
 
 ## 关联关系
 

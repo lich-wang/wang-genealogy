@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王忠美，清人物。籍贯陝西省，入仕武童，曾任守備。（中国历代人物传记资料库 CBDB 637784）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Nw2Wq1JQ5e7F3vvRyjHcZX
+        - id: cs__nJOpsi_9PREDCb6gTVl2c
           claim_id: c_EixzkDSsMDRmK6MhnBppNW
           source_id: s_UGLLr362f7bWbpSa3sMRvG
           stance: supports
-          locator: null
+          locator: CBDB:637784
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王忠美 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王忠美，清人物。籍贯陝西省，入仕武童，曾任守備。（中国历代人物传记资料库 CBDB 637784） | accepted |
 
 ## 关联关系
 

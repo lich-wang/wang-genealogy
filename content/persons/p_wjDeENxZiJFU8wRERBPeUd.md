@@ -50,7 +50,7 @@ properties:
           locator: CBDB:175937
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source:
+          source: &a2
             id: s_w2iqVCfLo2Dq8t7Vg5Kyw5
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：王明遠（175937）
@@ -75,11 +75,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: person, CBDB = 175937
-          language: en
+          text: 王明远（卒于590年），南北朝人物。籍贯杜陵，曾任大中正。（中国历代人物传记资料库 CBDB 175937）
+          language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
         - id: cs_E5xanNytqesALEBX8VdV7d
           claim_id: c_76PNT1DUCSGGQ9yQkrV3Fa
@@ -89,6 +89,14 @@ properties:
           quotation: null
           interpretation_note: 维基数据条目描述
           source: *a1
+        - id: cs_f3wP1yz2dBv-wb8qaQKBkB
+          claim_id: c_76PNT1DUCSGGQ9yQkrV3Fa
+          source_id: s_w2iqVCfLo2Dq8t7Vg5Kyw5
+          stance: supports
+          locator: CBDB:175937
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: *a2
       object_person: null
     alternatives: []
   - predicate: death.date
@@ -241,7 +249,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王明远 | accepted |
-| bio.summary | person, CBDB = 175937 | accepted |
+| bio.summary | 王明远（卒于590年），南北朝人物。籍贯杜陵，曾任大中正。（中国历代人物传记资料库 CBDB 175937） | accepted |
 | death.date | 590年 | accepted |
 
 ## 关联关系

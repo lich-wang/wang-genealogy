@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王保，明人物。成化十一年進士，籍贯寶坻。（中国历代人物传记资料库 CBDB 249475）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_wkJiJhfjwEcLz6S11jk7Aj
+        - id: cs_AhSyGIhshJ770CtY9_au9Z
           claim_id: c_XHvBTVvibEuHE41RoU6KXy
           source_id: s_4HFmzbiKGxEQ5KiKZ4gA1u
           stance: supports
-          locator: null
+          locator: CBDB:249475
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王保 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王保，明人物。成化十一年進士，籍贯寶坻。（中国历代人物传记资料库 CBDB 249475） | accepted |
 
 ## 关联关系
 

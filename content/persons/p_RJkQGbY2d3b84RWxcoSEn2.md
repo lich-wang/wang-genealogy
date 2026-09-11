@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王堯華，清人物。籍贯大理府。（中国历代人物传记资料库 CBDB 568732）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_mbu1duq5kBvbpuXkuz8HwD
+        - id: cs_oS_yy5pcwmWicyT4mWbAbI
           claim_id: c_YpmrMiXAoC6BYob1mQvfKs
           source_id: s_SNH9az93hSdmv4p4K66vWF
           stance: supports
-          locator: null
+          locator: CBDB:568732
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王堯華 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王堯華，清人物。籍贯大理府。（中国历代人物传记资料库 CBDB 568732） | accepted |
 
 ## 关联关系
 

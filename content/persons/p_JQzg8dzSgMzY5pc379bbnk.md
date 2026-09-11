@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: "王鑾（1745年—1807年），清人物。籍贯黃岡，入仕學校: 生員(庠生)，曾任縣丞。（中国历代人物传记资料库 CBDB 71262）"
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_i1sE1hEdgNrPJLjB2vpCSM
+        - id: cs_2AW1JOsiqd0PsVTtlJIK4S
           claim_id: c_rFRrkFNyYNAo7DnKt3JHaz
           source_id: s_2Pytya4LdnGpc2VKcztGvQ
           stance: supports
-          locator: null
+          locator: CBDB:71262
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王鑾 | accepted |
 | birth.date | 1745年 | accepted |
 | death.date | 1807年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王鑾（1745年—1807年），清人物。籍贯黃岡，入仕學校: 生員(庠生)，曾任縣丞。（中国历代人物传记资料库 CBDB 71262） | accepted |
 
 ## 关联关系
 

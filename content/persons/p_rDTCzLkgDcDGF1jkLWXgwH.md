@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: "王嘉士，清人物。籍贯河南府，入仕貢生: 拔貢，曾任復設教諭。（中国历代人物传记资料库 CBDB 636610）"
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_u9xeBu34NGLVTq4FAAPR19
+        - id: cs_5u7n7L74ZII1MUOkye-7KH
           claim_id: c_WNnoXyMP5dV2D13LoaS1WJ
           source_id: s_oZ5naSwWYnVi4wSKkM3Bbo
           stance: supports
-          locator: null
+          locator: CBDB:636610
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王嘉士 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王嘉士，清人物。籍贯河南府，入仕貢生: 拔貢，曾任復設教諭。（中国历代人物传记资料库 CBDB 636610） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王當，宋人物。籍贯眉山，身份为好學，入仕舉進士、諸科不第，曾任賢良方正、縣尉。（中国历代人物传记资料库 CBDB 10211）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_ZAjkS1tz9tkKP3wmDfHvGf
+        - id: cs_DFoCskc3L-yNkAWCHzxIch
           claim_id: c_dwdezgo82tfZFxdUQ1X64K
           source_id: s_oeFsb4CNCVBRR5UJFCSRwF
           stance: supports
-          locator: null
+          locator: CBDB:10211
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王當 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王當，宋人物。籍贯眉山，身份为好學，入仕舉進士、諸科不第，曾任賢良方正、縣尉。（中国历代人物传记资料库 CBDB 10211） | accepted |
 
 ## 关联关系
 

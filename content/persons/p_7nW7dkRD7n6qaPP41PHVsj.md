@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王槐年，清人物。籍贯黃州府，曾任訓導。（中国历代人物传记资料库 CBDB 638808）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_pw67UJzz3yUkUftQcxzsc2
+        - id: cs_QMFR-Kp_rboL_Xfw0S3hzz
           claim_id: c_2szQQEKXK6LrP2qGRFezNV
           source_id: s_e2M35RPWpgSVBNmXtVxdhn
           stance: supports
-          locator: null
+          locator: CBDB:638808
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王槐年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王槐年，清人物。籍贯黃州府，曾任訓導。（中国历代人物传记资料库 CBDB 638808） | accepted |
 
 ## 关联关系
 

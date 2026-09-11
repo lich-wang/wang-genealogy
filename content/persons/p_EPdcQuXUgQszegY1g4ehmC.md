@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: "王文昱，宋人物。籍贯太原，入仕恩蔭: 死事蔭補，曾任殿直。（中国历代人物传记资料库 CBDB 37967）"
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_b9SBCq9DR5YLot2hWm8ASu
+        - id: cs_9ePcxKBcZgWtmd_9z8H7b8
           claim_id: c_RrYPg4w7QS73uJ2zQ56ZX3
           source_id: s_Sg5yuNoAxrRo523CBTcAoj
           stance: supports
-          locator: null
+          locator: CBDB:37967
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王文昱 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王文昱，宋人物。籍贯太原，入仕恩蔭: 死事蔭補，曾任殿直。（中国历代人物传记资料库 CBDB 37967） | accepted |
 
 ## 关联关系
 

@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王鍊（747年—801年），唐人物。籍贯洛陽，曾任縣主簿。（中国历代人物传记资料库 CBDB 145376）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_7RM3WY3y8guVMCvm9ibiVC
+        - id: cs_9l6HnsMAL_CYGEupGZJ_W6
           claim_id: c_zF26h3MS7wZAwXWwA48Ax4
           source_id: s_9cH4Wz7cVkGPVnRJQsf5ei
           stance: supports
-          locator: null
+          locator: CBDB:145376
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -264,7 +264,7 @@ relationships:
 | name.primary | 王鍊 | accepted |
 | birth.date | 747年 | accepted |
 | death.date | 801年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王鍊（747年—801年），唐人物。籍贯洛陽，曾任縣主簿。（中国历代人物传记资料库 CBDB 145376） | accepted |
 
 ## 关联关系
 

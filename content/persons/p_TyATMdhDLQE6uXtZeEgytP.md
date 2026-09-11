@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王璿，宋人物。寶祐進士，籍贯永春。（中国历代人物传记资料库 CBDB 137926）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_b4ay5ar6cszWaWBGydA1Qm
+        - id: cs_urfB5CciyGzEOEzZfpiC6n
           claim_id: c_472dMFNE5ELQsk72WSFAXs
           source_id: s_mW7BpTS8i3S12SDY1dZ9ra
           stance: supports
-          locator: null
+          locator: CBDB:137926
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -154,7 +154,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王璿 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王璿，宋人物。寶祐進士，籍贯永春。（中国历代人物传记资料库 CBDB 137926） | accepted |
 
 ## 关联关系
 

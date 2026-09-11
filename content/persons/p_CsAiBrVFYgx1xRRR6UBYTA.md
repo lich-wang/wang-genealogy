@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王增，清人物。入仕廩貢生，曾任訓導。（中国历代人物传记资料库 CBDB 500506）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_zo6ZvUj59A5zDoAsxEYoBj
+        - id: cs_V4nA4f0Zzf1iUaUge6xefd
           claim_id: c_9BP5F3fCN2Wu9U4vK2RB9A
           source_id: s_Fe2xLT5Q5pq5g9JogFQtvu
           stance: supports
-          locator: null
+          locator: CBDB:500506
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王增 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王增，清人物。入仕廩貢生，曾任訓導。（中国历代人物传记资料库 CBDB 500506） | accepted |
 
 ## 关联关系
 

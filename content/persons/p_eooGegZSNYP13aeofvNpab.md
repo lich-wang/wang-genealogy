@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为北周人物
+          text: 王羆，史料所见人物。本项目依据《中国历代人物传记资料库：王羆（CBDB 462975）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_jan9KFCeyRWPtysGbDHteU
+        - id: cs_EgDBu7gLX3NXaZR4IXq5tN
           claim_id: c_h1EMbPmPxECLm1DYETgFt8
           source_id: s_PXFSaMxCZ74azn2zBvrCoQ
           stance: supports
-          locator: null
+          locator: CBDB:462975
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王羆 | accepted |
-| bio.summary | CBDB 记载为北周人物 | accepted |
+| bio.summary | 王羆，史料所见人物。本项目依据《中国历代人物传记资料库：王羆（CBDB 462975）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
 
 ## 关联关系
 

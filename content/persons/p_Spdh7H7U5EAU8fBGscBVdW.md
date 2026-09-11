@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王予符（生于1835年），清人物。籍贯益都。（中国历代人物传记资料库 CBDB 71446）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_BFv6zSYJx8tL4D3vxg6XAU
+        - id: cs_-wvjqgGywP_e0ZGkPVFEJH
           claim_id: c_cPkSG9m5uPfL9b2469YcBV
           source_id: s_y3tuzD7eoVXmoBbZAFrqbK
           stance: supports
-          locator: null
+          locator: CBDB:71446
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王予符 | accepted |
 | birth.date | 1835年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王予符（生于1835年），清人物。籍贯益都。（中国历代人物传记资料库 CBDB 71446） | accepted |
 
 ## 关联关系
 

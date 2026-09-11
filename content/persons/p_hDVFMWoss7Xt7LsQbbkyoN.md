@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王邦柱（卒于1656年），清人物。曾任大理寺右寺丞、監察御史、太僕寺少卿。（中国历代人物传记资料库 CBDB 60597）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_ACAEeMpzXFh2wpUiUKsMsQ
+        - id: cs_vbFi3J2ASIHaBqxWq_EUI6
           claim_id: c_nNraotaAQ6Es29XFKxMhFK
           source_id: s_J9bQ1VpNPGNxoB2Rjrv9pM
           stance: supports
-          locator: null
+          locator: CBDB:60597
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王邦柱 | accepted |
 | death.date | 1656年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王邦柱（卒于1656年），清人物。曾任大理寺右寺丞、監察御史、太僕寺少卿。（中国历代人物传记资料库 CBDB 60597） | accepted |
 
 ## 关联关系
 

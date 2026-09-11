@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王芳孫，明人物。籍贯安福，曾任布政使。（中国历代人物传记资料库 CBDB 556526）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_D3BFUEaZVmBvo79JP2fbU7
+        - id: cs_I52NXCJQbJtv332zHEEr-O
           claim_id: c_8PcsihG94weHmrrtKGBabq
           source_id: s_LaKU6QN9kWmAVQW6vzN1rf
           stance: supports
-          locator: null
+          locator: CBDB:556526
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王芳孫 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王芳孫，明人物。籍贯安福，曾任布政使。（中国历代人物传记资料库 CBDB 556526） | accepted |
 
 ## 关联关系
 

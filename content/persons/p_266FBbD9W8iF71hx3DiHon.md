@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王武善，清人物。籍贯順天府，入仕廩貢生，曾任復設訓導。（中国历代人物传记资料库 CBDB 638923）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_kPJA2tHWFFFBrGFF9zbsPG
+        - id: cs_UBGOm9c4cXOLkNpc_hoKG_
           claim_id: c_MDEh3Pg2qjttxo6Hir3Yz5
           source_id: s_5EP2isyxkRKmPrJ3ZcfmNE
           stance: supports
-          locator: null
+          locator: CBDB:638923
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王武善 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王武善，清人物。籍贯順天府，入仕廩貢生，曾任復設訓導。（中国历代人物传记资料库 CBDB 638923） | accepted |
 
 ## 关联关系
 

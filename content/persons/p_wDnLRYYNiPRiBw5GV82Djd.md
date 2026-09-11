@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王大方，宋人物。籍贯長安，曾任西京左藏庫使。（中国历代人物传记资料库 CBDB 17255）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_nFt3HizpzGQt66nCNnPP16
+        - id: cs_VR-ruM59vvF-zguLpRtgfY
           claim_id: c_7FpbTEqqq9dUWoBt7FF3Ks
           source_id: s_8njNZ1P1GtLoDXKGrDYgH2
           stance: supports
-          locator: null
+          locator: CBDB:17255
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -128,7 +128,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王大方 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王大方，宋人物。籍贯長安，曾任西京左藏庫使。（中国历代人物传记资料库 CBDB 17255） | accepted |
 
 ## 关联关系
 

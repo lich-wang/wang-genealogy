@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王岐鳳，清人物。籍贯保定，曾任訓導。（中国历代人物传记资料库 CBDB 637334）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_dxYWUtw9PhKexVvhDH32SM
+        - id: cs_cXHL5MwQyMwIIGiuDmqkll
           claim_id: c_HjN7dhemrQjVQ9ADADvAyN
           source_id: s_DUBGXW8ZBGy4SQp3dHKjgE
           stance: supports
-          locator: null
+          locator: CBDB:637334
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王岐鳳 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王岐鳳，清人物。籍贯保定，曾任訓導。（中国历代人物传记资料库 CBDB 637334） | accepted |
 
 ## 关联关系
 

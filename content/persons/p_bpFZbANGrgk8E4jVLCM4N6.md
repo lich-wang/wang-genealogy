@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王旭，明人物。入仕監生，曾任縣丞。（中国历代人物传记资料库 CBDB 494307）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_GXbtmTZ95JdhPHRaDkHUgH
+        - id: cs_2FkkR4Y25aw1AKz8nPjr9A
           claim_id: c_5UrdhmYAi1ErGie5vXnp3M
           source_id: s_BDouUeAmFvS9JCUegL2HcB
           stance: supports
-          locator: null
+          locator: CBDB:494307
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王旭 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王旭，明人物。入仕監生，曾任縣丞。（中国历代人物传记资料库 CBDB 494307） | accepted |
 
 ## 关联关系
 

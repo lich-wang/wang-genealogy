@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王廷榮，清人物。籍贯河間，入仕進士，曾任知縣。（中国历代人物传记资料库 CBDB 637517）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Y2i8cz5ySyQN5FF6Pm9Z3v
+        - id: cs_1jb_L6nFA7iuavcG2WUAg1
           claim_id: c_o6DyDD61pP6cJMe9hjqpdQ
           source_id: s_18jPh5EddF5qK4TcZA2QuD
           stance: supports
-          locator: null
+          locator: CBDB:637517
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王廷榮 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王廷榮，清人物。籍贯河間，入仕進士，曾任知縣。（中国历代人物传记资料库 CBDB 637517） | accepted |
 
 ## 关联关系
 

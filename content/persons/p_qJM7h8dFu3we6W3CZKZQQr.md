@@ -50,7 +50,7 @@ properties:
           locator: CBDB:437903
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source:
+          source: &a2
             id: s_EVEP16JcvNCcz13YM9cWLm
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：王瀹（437903）
@@ -75,11 +75,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: person, CBDB ID = 437903
-          language: en
+          text: 王瀹，明人物。籍贯義烏。（中国历代人物传记资料库 CBDB 437903）
+          language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
         - id: cs_q3PmvxLAyYd5XvW8d4adYs
           claim_id: c_J7r3cMgTRE2wH3ijPESBC6
@@ -89,6 +89,14 @@ properties:
           quotation: null
           interpretation_note: 维基数据条目描述
           source: *a1
+        - id: cs_tCrxd8Qnx0oPyMLSuLLLPH
+          claim_id: c_J7r3cMgTRE2wH3ijPESBC6
+          source_id: s_EVEP16JcvNCcz13YM9cWLm
+          stance: supports
+          locator: CBDB:437903
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: *a2
       object_person: null
     alternatives: []
 relationships:
@@ -175,7 +183,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王瀹 | accepted |
-| bio.summary | person, CBDB ID = 437903 | accepted |
+| bio.summary | 王瀹，明人物。籍贯義烏。（中国历代人物传记资料库 CBDB 437903） | accepted |
 
 ## 关联关系
 

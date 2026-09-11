@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
+          text: 王鈞，元人物。曾任知州。（中国历代人物传记资料库 CBDB 100846）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_zr4LRGQ7XH3vyJMcLzPC8o
+        - id: cs_MmwANAE7ZE_h_vAc7HJF3M
           claim_id: c_q7rB4mQhQ6aKo882qau95i
           source_id: s_YvwMNb8kUhyXH9oyx8JiVC
           stance: supports
-          locator: null
+          locator: CBDB:100846
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王鈞 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王鈞，元人物。曾任知州。（中国历代人物传记资料库 CBDB 100846） | accepted |
 
 ## 关联关系
 

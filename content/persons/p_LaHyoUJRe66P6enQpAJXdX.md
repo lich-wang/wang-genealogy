@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王元震，宋人物。曾任司法參軍。（中国历代人物传记资料库 CBDB 413921）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_8zhbY36MsEdk91ErN3EN1G
+        - id: cs_nPWDDghXtW39vbI_lxsYpO
           claim_id: c_Jj4hPAnWooxrhvMPdJCM65
           source_id: s_Rw8mnZNKa22BCeSMPW2tAN
           stance: supports
-          locator: null
+          locator: CBDB:413921
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王元震 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王元震，宋人物。曾任司法參軍。（中国历代人物传记资料库 CBDB 413921） | accepted |
 
 ## 关联关系
 

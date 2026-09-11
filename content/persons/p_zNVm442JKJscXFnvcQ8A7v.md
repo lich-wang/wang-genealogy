@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王萃，明人物。正德十六年進士，籍贯石首。（中国历代人物传记资料库 CBDB 286132）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_v2BtSH5r6T2VjSGwGcNCzU
+        - id: cs_XSLpdBqQcbp7dWOeXrsIaH
           claim_id: c_MaV1GaE1iCKmN6sVHe7Xy8
           source_id: s_LNoSEY4GiNXiXXrAThPYdE
           stance: supports
-          locator: null
+          locator: CBDB:286132
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王萃 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王萃，明人物。正德十六年進士，籍贯石首。（中国历代人物传记资料库 CBDB 286132） | accepted |
 
 ## 关联关系
 

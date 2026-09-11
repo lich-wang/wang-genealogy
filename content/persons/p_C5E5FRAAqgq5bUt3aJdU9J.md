@@ -50,7 +50,7 @@ properties:
           locator: CBDB:279737
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source:
+          source: &a2
             id: s_RAp71VxGC3WareDw2fzQTr
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：王煢立（279737）
@@ -75,11 +75,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: Ming dynasty person CBDB = 279737
-          language: en
+          text: 王茕立，明人物。正德十二年進士。（中国历代人物传记资料库 CBDB 279737）
+          language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
         - id: cs_cgX7zAzBodqDR7p6ghQk81
           claim_id: c_8rfqPCwCo29BYCWgiBjNjk
@@ -89,6 +89,14 @@ properties:
           quotation: null
           interpretation_note: 维基数据条目描述
           source: *a1
+        - id: cs_xYAuV_3KrBl7ruqZKw7G_8
+          claim_id: c_8rfqPCwCo29BYCWgiBjNjk
+          source_id: s_RAp71VxGC3WareDw2fzQTr
+          stance: supports
+          locator: CBDB:279737
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: *a2
       object_person: null
     alternatives: []
 relationships:
@@ -193,7 +201,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王茕立 | accepted |
-| bio.summary | Ming dynasty person CBDB = 279737 | accepted |
+| bio.summary | 王茕立，明人物。正德十二年進士。（中国历代人物传记资料库 CBDB 279737） | accepted |
 
 ## 关联关系
 

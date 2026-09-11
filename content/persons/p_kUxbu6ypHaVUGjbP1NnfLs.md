@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王植（1792年—1852年），清人物。明清進士進士，籍贯清苑，入仕進士，曾任編修、會試考官、禮部侍郎。（中国历代人物传记资料库 CBDB 57185）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_G3r5uwa37Bw9A9xES4SB2z
+        - id: cs_uNiJC_-6rYlenAIz7j5_nu
           claim_id: c_D62VM7kL2zQWYjQBufH3Aj
           source_id: s_WmYTMmJxjHzoaCZyHw8DzS
           stance: supports
-          locator: null
+          locator: CBDB:57185
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王植 | accepted |
 | birth.date | 1792年 | accepted |
 | death.date | 1852年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王植（1792年—1852年），清人物。明清進士進士，籍贯清苑，入仕進士，曾任編修、會試考官、禮部侍郎。（中国历代人物传记资料库 CBDB 57185） | accepted |
 
 ## 关联关系
 

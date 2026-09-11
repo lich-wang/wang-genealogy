@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
+          text: 王冕（卒于1359年），元人物。成化十七年進士，籍贯餘姚，身份为畫家、農民，曾任參軍。（中国历代人物传记资料库 CBDB 28798）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_6XPua5mp244h7YzGDc74an
+        - id: cs_CaversMfGVejjkDS3JY8Oy
           claim_id: c_3AvgdEfF1MJoPxWn9pTPSM
           source_id: s_Ct13sVyhTQfPSGC5H4JdFm
           stance: supports
-          locator: null
+          locator: CBDB:28798
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王冕 | accepted |
 | death.date | 1359年 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王冕（卒于1359年），元人物。成化十七年進士，籍贯餘姚，身份为畫家、農民，曾任參軍。（中国历代人物传记资料库 CBDB 28798） | accepted |
 
 ## 关联关系
 

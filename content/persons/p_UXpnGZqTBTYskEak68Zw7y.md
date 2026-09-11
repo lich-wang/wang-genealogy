@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王愛國，清人物。曾任中軍都司。（中国历代人物传记资料库 CBDB 697113）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_TQJJYyCjGzX9PYHZBHphMc
+        - id: cs_c6jp5d39iwbpg7a7gim7Rz
           claim_id: c_W3aVLZjxY7kAdeF3u6xWs3
           source_id: s_7YGoQfV8uHxWL7RPV6mQhG
           stance: supports
-          locator: null
+          locator: CBDB:697113
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王愛國 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王愛國，清人物。曾任中軍都司。（中国历代人物传记资料库 CBDB 697113） | accepted |
 
 ## 关联关系
 

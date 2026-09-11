@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王相，明人物。入仕進士，曾任判官。（中国历代人物传记资料库 CBDB 487763）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_BcTJiLyv9K5sZK92oh2vnf
+        - id: cs_ABwTBNjhRwH0rJFLQt-bNq
           claim_id: c_MWtSktANvi5YKyEqZQYyK1
           source_id: s_4m6CDEL16R5QNeRCvAbhXM
           stance: supports
-          locator: null
+          locator: CBDB:487763
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王相 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王相，明人物。入仕進士，曾任判官。（中国历代人物传记资料库 CBDB 487763） | accepted |
 
 ## 关联关系
 

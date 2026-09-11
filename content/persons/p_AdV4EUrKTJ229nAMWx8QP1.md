@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王來用（卒于1657年），清人物。籍贯漢軍鑲藍旗，入仕鄉貢舉人，曾任兵備道、布政使司參政。（中国历代人物传记资料库 CBDB 57132）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_szHUKpb7u516vPSbumvJSf
+        - id: cs_xaQbFuY9ggmMn7usjH-Cqj
           claim_id: c_dbeaZq6kwssk2oaA32St4J
           source_id: s_jH5ix7NaBSnsmTF5jYcBgf
           stance: supports
-          locator: null
+          locator: CBDB:57132
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王來用 | accepted |
 | death.date | 1657年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王來用（卒于1657年），清人物。籍贯漢軍鑲藍旗，入仕鄉貢舉人，曾任兵備道、布政使司參政。（中国历代人物传记资料库 CBDB 57132） | accepted |
 
 ## 关联关系
 

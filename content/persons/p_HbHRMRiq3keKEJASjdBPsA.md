@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王鏞（生于1750年），史料所见人物。本项目依据《中国历代人物传记资料库：王鏞（CBDB 71280）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_nUmnzH6uxtWHj4HyTVc7J1
+        - id: cs_whsAm5MTbD0I4rpDddpD6J
           claim_id: c_nuzxPeAdYdW5LYzKxmwXem
           source_id: s_ajgn8WX3sDmnhyFjqSMCCM
           stance: supports
-          locator: null
+          locator: CBDB:71280
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王鏞 | accepted |
 | birth.date | 1750年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王鏞（生于1750年），史料所见人物。本项目依据《中国历代人物传记资料库：王鏞（CBDB 71280）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
 
 ## 关联关系
 

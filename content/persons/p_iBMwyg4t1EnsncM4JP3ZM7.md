@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
-          language: zh-Hans
+          text: 王玉崑，清人物。籍贯鶴山，入仕貢生 = 貢監生 (明清賓貢,功貢)，曾任經歷。（中国历代人物传记资料库 CBDB 639372）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_8hLd5XsaCnFmNKfdBd7n7E
+        - id: cs_Mq8W7fgfZ2Ko7gcxKHBEC-
           claim_id: c_9WtwfV9h4MFP2NvCs8tU97
           source_id: s_pQs4xCzeQWZr259BqZpZsG
           stance: supports
-          locator: null
+          locator: CBDB:639372
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王玉崑 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王玉崑，清人物。籍贯鶴山，入仕貢生 = 貢監生 (明清賓貢,功貢)，曾任經歷。（中国历代人物传记资料库 CBDB 639372） | accepted |
 
 ## 关联关系
 

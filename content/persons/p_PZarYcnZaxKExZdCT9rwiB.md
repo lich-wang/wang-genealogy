@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王浩泉，清人物。籍贯通州，曾任典史。（中国历代人物传记资料库 CBDB 639099）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_6YbHVsF7PCD5wLwhj25zEj
+        - id: cs_64zAkda2JHh_zFtji9_6PH
           claim_id: c_PSPDwMeMu8CtqpG9z7hEo3
           source_id: s_shL17aG97f7h7F9kp6Ezmh
           stance: supports
-          locator: null
+          locator: CBDB:639099
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王浩泉 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王浩泉，清人物。籍贯通州，曾任典史。（中国历代人物传记资料库 CBDB 639099） | accepted |
 
 ## 关联关系
 

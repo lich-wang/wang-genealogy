@@ -7,6 +7,44 @@ display_name: 杨氏
 cbdb_id: 334085
 revision: 1
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_Xxsv8whYR27P_fcv1Ur2AW
+        subject_person_id: p_Cpk49SPxpMgEW6iFdSv213
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 杨氏，明人物。隆慶二年進士。（中国历代人物传记资料库 CBDB 334085）
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_F_iY3emdqvYva4j_eAVJ4O
+          claim_id: c_Xxsv8whYR27P_fcv1Ur2AW
+          source_id: s_Y8hkLqdsJJkfzA8eP7H8Bk
+          stance: supports
+          locator: CBDB:334085
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_Y8hkLqdsJJkfzA8eP7H8Bk
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：楊氏（334085）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334085&o=json
+            external_identifier: CBDB:334085
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,7 +69,7 @@ properties:
           locator: Q65861477
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source: &a1
+          source: &a2
             id: s_iMaqygLoMuRt4MwC2R1uqb
             source_type: api_record
             title: 维基数据：杨氏（Q65861477）
@@ -50,18 +88,7 @@ properties:
           locator: CBDB:334085
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source:
-            id: s_Y8hkLqdsJJkfzA8eP7H8Bk
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：楊氏（334085）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334085&o=json
-            external_identifier: CBDB:334085
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T08:06:50.055Z
-            metadata_json: null
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,7 +117,7 @@ relationships:
           locator: P26（配偶）
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: *a2
         - id: cs_4ykY6NcNuHuBNNNCjoTigC
           claim_id: c_ScLQsoVjWif4e2GpLuE6Rp
           source_id: s_4aAHVT5jB6WtTJCwPKgxKa
@@ -148,6 +175,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 杨氏，明人物。隆慶二年進士。（中国历代人物传记资料库 CBDB 334085） | accepted |
 | name.primary | 杨氏 | accepted |
 
 ## 关联关系

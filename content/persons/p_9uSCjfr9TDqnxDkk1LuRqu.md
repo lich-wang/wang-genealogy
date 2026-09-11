@@ -7,6 +7,44 @@ display_name: 朱氏
 revision: 1
 cbdb_id: 287776
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_VKzqAKP-oQBkr72zvHODS7
+        subject_person_id: p_9uSCjfr9TDqnxDkk1LuRqu
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 朱氏，明人物。嘉靖八年進士。（中国历代人物传记资料库 CBDB 287776）
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2T15gO8-FKmv8vUnqKXkeV
+          claim_id: c_VKzqAKP-oQBkr72zvHODS7
+          source_id: s_okgyDIhDWWiiJgqLVf4pg_
+          stance: supports
+          locator: CBDB:287776
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_okgyDIhDWWiiJgqLVf4pg_
+            source_type: api_record
+            title: 中国历代人物传记资料库：朱氏(王表妻)（CBDB 287776）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287776&o=json
+            external_identifier: CBDB:287776
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:287776
           quotation: null
           interpretation_note: CBDB 明确记录的王表配偶
-          source: &a1
-            id: s_okgyDIhDWWiiJgqLVf4pg_
-            source_type: api_record
-            title: 中国历代人物传记资料库：朱氏(王表妻)（CBDB 287776）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287776&o=json
-            external_identifier: CBDB:287776
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 朱氏，明人物。嘉靖八年進士。（中国历代人物传记资料库 CBDB 287776） | accepted |
 | name.primary | 朱氏 | accepted |
 
 ## 关联关系

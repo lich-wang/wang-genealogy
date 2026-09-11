@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王大魁，清人物。入仕世襲(替)，曾任守備。（中国历代人物传记资料库 CBDB 495207）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_msnJY5Geu1H7QHTp35Eeu5
+        - id: cs_Vrt5jec5fiUNI44ZpqJQtE
           claim_id: c_zPeG7BA4kq2u7JNFne2pM9
           source_id: s_VwfuUYtV8e7ZGqNeHr8Lwx
           stance: supports
-          locator: null
+          locator: CBDB:495207
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王大魁 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王大魁，清人物。入仕世襲(替)，曾任守備。（中国历代人物传记资料库 CBDB 495207） | accepted |
 
 ## 关联关系
 

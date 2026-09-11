@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王汝翰，清人物。籍贯青州府，入仕鄉貢舉人，曾任復設教諭。（中国历代人物传记资料库 CBDB 639030）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_d19A6pVPNxq2yW2JfWCWJZ
+        - id: cs_Lqd9LjUUqNRPhv6FAOMu2T
           claim_id: c_xkpk2GNZoBCkCzwDFTME7F
           source_id: s_B7nNMTJ7rMXbRp4qqQMTJn
           stance: supports
-          locator: null
+          locator: CBDB:639030
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王汝翰 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王汝翰，清人物。籍贯青州府，入仕鄉貢舉人，曾任復設教諭。（中国历代人物传记资料库 CBDB 639030） | accepted |
 
 ## 关联关系
 

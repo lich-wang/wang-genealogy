@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王祐（生于1479年），明人物。正德十二年進士，籍贯建平，入仕進士。（中国历代人物传记资料库 CBDB 202067）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_KYVmb5nW24pkMoJK2HEFh5
+        - id: cs_a-C34nBtQw5Pl_nzjI5lHD
           claim_id: c_N9BCy3tDpdzWX7VGJxK6nu
           source_id: s_S8PvPikNKeqv9SvZpdTNYm
           stance: supports
-          locator: null
+          locator: CBDB:202067
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -235,7 +235,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王祐 | accepted |
 | birth.date | 1479年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王祐（生于1479年），明人物。正德十二年進士，籍贯建平，入仕進士。（中国历代人物传记资料库 CBDB 202067） | accepted |
 
 ## 关联关系
 

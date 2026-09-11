@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王天培，清人物。明清進士進士，籍贯富平，入仕進士。（中国历代人物传记资料库 CBDB 341827）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_JkoAaFMpMeGAr8gu9F8zxH
+        - id: cs_CoC0fH6dsgZ8On5PleDTlq
           claim_id: c_tz48zToEgGEva11xf5dzRs
           source_id: s_FMMVLE5GDJR4gGhnmniNMm
           stance: supports
-          locator: null
+          locator: CBDB:341827
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王天培 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王天培，清人物。明清進士進士，籍贯富平，入仕進士。（中国历代人物传记资料库 CBDB 341827） | accepted |
 
 ## 关联关系
 

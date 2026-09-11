@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王居擏，清人物。籍贯大興，入仕監生，曾任典史。（中国历代人物传记资料库 CBDB 637305）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_ADxr5cwPzdb9moHw2A6cMS
+        - id: cs_5d9ceOW8JKfQUa6KTIkubs
           claim_id: c_42pKhXQ7sg5Qms4WFeWbek
           source_id: s_QsMsx7vUm1uVLCx9QpgfPv
           stance: supports
-          locator: null
+          locator: CBDB:637305
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王居擏 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王居擏，清人物。籍贯大興，入仕監生，曾任典史。（中国历代人物传记资料库 CBDB 637305） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王允輝，清人物。入仕進士，曾任宗人府主事。（中国历代人物传记资料库 CBDB 61609）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Pm8UY5y3KxNAYJcJFM7K1U
+        - id: cs_gxVXlvIEolnudM9eQ5s36X
           claim_id: c_GmAev1yiYM3tAnF3s5b9Mk
           source_id: s_iKLmP52VX2CKBWN2ejjLod
           stance: supports
-          locator: null
+          locator: CBDB:61609
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王允輝 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王允輝，清人物。入仕進士，曾任宗人府主事。（中国历代人物传记资料库 CBDB 61609） | accepted |
 
 ## 关联关系
 

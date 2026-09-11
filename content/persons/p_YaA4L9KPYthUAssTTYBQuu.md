@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王亨，明人物。弘治六年進士，籍贯曹州，曾任鹽課司大使。（中国历代人物传记资料库 CBDB 265423）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_ReC4qKaKSdoMTKz9HS6354
+        - id: cs_fqZ1h0p7m59yNKkfmLIrDR
           claim_id: c_JvG4ALjG9s3q3HZUjH83Mt
           source_id: s_2Cui8WApyt2V91jHFzzqSy
           stance: supports
-          locator: null
+          locator: CBDB:265423
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王亨 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王亨，明人物。弘治六年進士，籍贯曹州，曾任鹽課司大使。（中国历代人物传记资料库 CBDB 265423） | accepted |
 
 ## 关联关系
 

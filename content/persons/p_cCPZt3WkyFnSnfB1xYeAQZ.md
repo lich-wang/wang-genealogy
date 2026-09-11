@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王作舟，清人物。入仕進士，曾任知縣。（中国历代人物传记资料库 CBDB 472363）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_b5jaejSPykvJmnFNmjGiqi
+        - id: cs_YkE4RjMff4Do8HrQSSqovM
           claim_id: c_Q4TrxsNNA6HFN3HgW8AL37
           source_id: s_xdCtpzkcjZ69j6A9J7B11A
           stance: supports
-          locator: null
+          locator: CBDB:472363
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王作舟 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王作舟，清人物。入仕進士，曾任知縣。（中国历代人物传记资料库 CBDB 472363） | accepted |
 
 ## 关联关系
 

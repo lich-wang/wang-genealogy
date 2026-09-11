@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王用，宋人物。籍贯長安。（中国历代人物传记资料库 CBDB 24048）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_795y2JQyuz3Jjy4cdPfhjN
+        - id: cs_7Pzxn7Za_uo7_2q4AnaFrT
           claim_id: c_prRG3ccEC7Ra54vtUvEoQB
           source_id: s_q8G53qMvjzLNqSvtJM4xbD
           stance: supports
-          locator: null
+          locator: CBDB:24048
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -165,7 +165,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王用 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王用，宋人物。籍贯長安。（中国历代人物传记资料库 CBDB 24048） | accepted |
 
 ## 关联关系
 

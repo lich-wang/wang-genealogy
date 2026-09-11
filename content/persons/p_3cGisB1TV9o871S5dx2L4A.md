@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王弘，明人物。入仕世襲(替)，曾任副千戶。（中国历代人物传记资料库 CBDB 481953）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_qy3Jurk31PE9D4oeECnKJT
+        - id: cs_86wtaHcJZMMgpvpr0XZtdL
           claim_id: c_nVcs3Hc5B3CQZVVpyKVxAX
           source_id: s_u2pRsDH1ryW78LZPgRQM4H
           stance: supports
-          locator: null
+          locator: CBDB:481953
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王弘 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王弘，明人物。入仕世襲(替)，曾任副千戶。（中国历代人物传记资料库 CBDB 481953） | accepted |
 
 ## 关联关系
 

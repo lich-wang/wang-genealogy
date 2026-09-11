@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
+          text: 王齊，宋人物。寶祐進士，籍贯永福。（中国历代人物传记资料库 CBDB 137933）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_JAr9X18HJnm2cPo7ggFDJF
+        - id: cs_P16hCHsYWATW8QvVGygBtA
           claim_id: c_HP82L9HJBKSgNZ4E9phedB
           source_id: s_6ipmewd8kLs5VFrEaZ9E21
           stance: supports
-          locator: null
+          locator: CBDB:137933
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -143,7 +143,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王齊 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王齊，宋人物。寶祐進士，籍贯永福。（中国历代人物传记资料库 CBDB 137933） | accepted |
 
 ## 关联关系
 

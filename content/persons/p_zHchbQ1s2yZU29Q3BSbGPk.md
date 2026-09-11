@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王維新（卒于1642年），明人物。曾任光祿寺卿、監軍參議。（中国历代人物传记资料库 CBDB 68173）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_GzLN1gxtmm4PkvBLknnCWr
+        - id: cs_9elqE_QyPiYdQmvweLQJGS
           claim_id: c_323669jEJMSyoKB2mKCRCV
           source_id: s_wiqAKma1W7eU2gZAWBr5P2
           stance: supports
-          locator: null
+          locator: CBDB:68173
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王維新 | accepted |
 | death.date | 1642年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王維新（卒于1642年），明人物。曾任光祿寺卿、監軍參議。（中国历代人物传记资料库 CBDB 68173） | accepted |
 
 ## 关联关系
 

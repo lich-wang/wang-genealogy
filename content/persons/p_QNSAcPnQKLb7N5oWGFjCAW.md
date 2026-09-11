@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王枚（1620年—1691年），清人物。籍贯慈溪。（中国历代人物传记资料库 CBDB 71092）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_UCsgL9EY3UpBdcJ37pgCXi
+        - id: cs_2-_nSQnA5sfB-bSl31fvds
           claim_id: c_hAn8mn4fb9g8JwFj1AKQ2u
           source_id: s_CayDa7PbN2n8RHEuENEH3E
           stance: supports
-          locator: null
+          locator: CBDB:71092
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王枚 | accepted |
 | birth.date | 1620年 | accepted |
 | death.date | 1691年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王枚（1620年—1691年），清人物。籍贯慈溪。（中国历代人物传记资料库 CBDB 71092） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王濂，明人物。曾任教諭。（中国历代人物传记资料库 CBDB 464908）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_z3EFjU2HNACRPSa7fa1r9F
+        - id: cs_319l23UHRNeGB5Aqf8zIUS
           claim_id: c_iJPH8BVU1MqwC1Sxgc9qcq
           source_id: s_4CNBparAYncS2Cb9A4bWKL
           stance: supports
-          locator: null
+          locator: CBDB:464908
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王濂 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王濂，明人物。曾任教諭。（中国历代人物传记资料库 CBDB 464908） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王正耀，清人物。籍贯湘鄉，入仕行伍，曾任守備。（中国历代人物传记资料库 CBDB 638901）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_5mmBtG48pMFww9Fb3Q1ijT
+        - id: cs_nCyXBCy4PjnaNcxkisgi0U
           claim_id: c_tvdZ4GngUs97HTZG9mAqf8
           source_id: s_56W56z7rPH2VMLACm59Zfe
           stance: supports
-          locator: null
+          locator: CBDB:638901
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王正耀 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王正耀，清人物。籍贯湘鄉，入仕行伍，曾任守備。（中国历代人物传记资料库 CBDB 638901） | accepted |
 
 ## 关联关系
 

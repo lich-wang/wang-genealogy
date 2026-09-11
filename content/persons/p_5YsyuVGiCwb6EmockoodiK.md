@@ -7,6 +7,44 @@ display_name: 蔡氏
 revision: 1
 cbdb_id: 557756
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_gvHJXu-Pa8FsFumOb80HkQ
+        subject_person_id: p_5YsyuVGiCwb6EmockoodiK
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 蔡氏，清人物。籍贯信陽州。（中国历代人物传记资料库 CBDB 557756）
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5zdTytic8n-U7j1WlsWn14
+          claim_id: c_gvHJXu-Pa8FsFumOb80HkQ
+          source_id: s_tuTrB7DJo0Wc6-QUx0Oj8W
+          stance: supports
+          locator: CBDB:557756
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_tuTrB7DJo0Wc6-QUx0Oj8W
+            source_type: api_record
+            title: 中国历代人物传记资料库：蔡氏(王榮妻)（CBDB 557756）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=557756&o=json
+            external_identifier: CBDB:557756
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:557756
           quotation: null
           interpretation_note: CBDB 明确记录的王榮配偶
-          source: &a1
-            id: s_tuTrB7DJo0Wc6-QUx0Oj8W
-            source_type: api_record
-            title: 中国历代人物传记资料库：蔡氏(王榮妻)（CBDB 557756）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=557756&o=json
-            external_identifier: CBDB:557756
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 蔡氏，清人物。籍贯信陽州。（中国历代人物传记资料库 CBDB 557756） | accepted |
 | name.primary | 蔡氏 | accepted |
 
 ## 关联关系

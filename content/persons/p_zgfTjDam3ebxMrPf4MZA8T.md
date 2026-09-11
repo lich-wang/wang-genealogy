@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王公彥（卒于1131年），宋人物。籍贯永嘉，身份为結社、元符上書入籍者，入仕進士，曾任縣尉。（中国历代人物传记资料库 CBDB 24987）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_xWLcLM7bJ8Fk6Uo2y1hK1F
+        - id: cs_nAu1rImOOf8o31p7q5n1W4
           claim_id: c_euySDxbpr3e9cAQoXpTMDZ
           source_id: s_fbNR57EWRU7dUMkMpL2oR7
           stance: supports
-          locator: null
+          locator: CBDB:24987
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王公彥 | accepted |
 | death.date | 1131年 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王公彥（卒于1131年），宋人物。籍贯永嘉，身份为結社、元符上書入籍者，入仕進士，曾任縣尉。（中国历代人物传记资料库 CBDB 24987） | accepted |
 
 ## 关联关系
 

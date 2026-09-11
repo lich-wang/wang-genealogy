@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王庭，明人物。籍贯崑山。（中国历代人物传记资料库 CBDB 126633）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_BxJcTQgjtLK7cLZzy1MegB
+        - id: cs_4UYGIl_9GMhdkZepk03t0k
           claim_id: c_FJsq8uzJrUJSDPNn3g1miY
           source_id: s_Lavp7h2YCbwNwqTrb83sY9
           stance: supports
-          locator: null
+          locator: CBDB:126633
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王庭 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王庭，明人物。籍贯崑山。（中国历代人物传记资料库 CBDB 126633） | accepted |
 
 ## 关联关系
 

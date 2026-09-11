@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王萬（1196年—1243年），宋人物。籍贯浦江，入仕進士，曾任監察御史、太常寺卿、太常寺少卿。（中国历代人物传记资料库 CBDB 38996）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_zVQcmC6X3keCHzLnzuoXB4
+        - id: cs_oOhVTECaqJg9VWyq5xhaMi
           claim_id: c_WSJggKwK7wvCGWLcfEb5BB
           source_id: s_NvQeskqssGwG8XmbywVs6Y
           stance: supports
-          locator: null
+          locator: CBDB:38996
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王萬 | accepted |
 | birth.date | 1196年 | accepted |
 | death.date | 1243年 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王萬（1196年—1243年），宋人物。籍贯浦江，入仕進士，曾任監察御史、太常寺卿、太常寺少卿。（中国历代人物传记资料库 CBDB 38996） | accepted |
 
 ## 关联关系
 

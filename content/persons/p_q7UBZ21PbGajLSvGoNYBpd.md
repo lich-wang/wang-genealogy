@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王士鍾（1756年—1842年），清人物。籍贯歸安。（中国历代人物传记资料库 CBDB 71320）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_f6SZSAUpA6FQRNor5ni3qF
+        - id: cs_SH1anUq4XjxxwvpUfYF5_B
           claim_id: c_5HEXuJVFiHtvMDUoT61eqV
           source_id: s_CA4pFfrj4EDmLLWh6vEkW9
           stance: supports
-          locator: null
+          locator: CBDB:71320
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王士鍾 | accepted |
 | birth.date | 1756年 | accepted |
 | death.date | 1842年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王士鍾（1756年—1842年），清人物。籍贯歸安。（中国历代人物传记资料库 CBDB 71320） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
+          text: 王佐，元人物。籍贯晉寧州，身份为鄉先生，曾任里巷。（中国历代人物传记资料库 CBDB 100663）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_RY11BoJRxSMSch75cRSB24
+        - id: cs_KDb0-7DLx2vJqHYpHpEBo_
           claim_id: c_G9K1DBkCtLrvFn7s9M2iwN
           source_id: s_PYYHSWz8vbqBYPtChEtpZC
           stance: supports
-          locator: null
+          locator: CBDB:100663
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王佐 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王佐，元人物。籍贯晉寧州，身份为鄉先生，曾任里巷。（中国历代人物传记资料库 CBDB 100663） | accepted |
 
 ## 关联关系
 

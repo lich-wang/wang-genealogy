@@ -7,6 +7,44 @@ display_name: 姚氏
 revision: 1
 cbdb_id: 556793
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_uWRC5HpBW-bRrloJA-N39t
+        subject_person_id: p_NCh8jEHuYmJFbKBSWvccG2
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 姚氏，清人物。籍贯唐縣，身份为貞婦/節婦。（中国历代人物传记资料库 CBDB 556793）
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qHBBxy4g4rv0osS84s_XxS
+          claim_id: c_uWRC5HpBW-bRrloJA-N39t
+          source_id: s_2sjo2S1TRZQvmWnSqKoKCk
+          stance: supports
+          locator: CBDB:556793
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_2sjo2S1TRZQvmWnSqKoKCk
+            source_type: api_record
+            title: 中国历代人物传记资料库：姚氏(王楷妻)（CBDB 556793）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=556793&o=json
+            external_identifier: CBDB:556793
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:556793
           quotation: null
           interpretation_note: CBDB 明确记录的王楷配偶
-          source: &a1
-            id: s_2sjo2S1TRZQvmWnSqKoKCk
-            source_type: api_record
-            title: 中国历代人物传记资料库：姚氏(王楷妻)（CBDB 556793）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=556793&o=json
-            external_identifier: CBDB:556793
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 姚氏，清人物。籍贯唐縣，身份为貞婦/節婦。（中国历代人物传记资料库 CBDB 556793） | accepted |
 | name.primary | 姚氏 | accepted |
 
 ## 关联关系

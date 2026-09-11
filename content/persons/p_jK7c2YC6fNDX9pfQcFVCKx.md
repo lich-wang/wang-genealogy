@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王鼎新，清人物。籍贯安定，入仕監生，曾任主事。（中国历代人物传记资料库 CBDB 641044）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_6ZX7MKfpVB29PW86MAam9G
+        - id: cs_RBeToY9oLGN13qYVXjfNca
           claim_id: c_Qvo252VNAKs718hrQS8tCg
           source_id: s_1shgdM2XY4jyECCBG5FGwt
           stance: supports
-          locator: null
+          locator: CBDB:641044
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王鼎新 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王鼎新，清人物。籍贯安定，入仕監生，曾任主事。（中国历代人物传记资料库 CBDB 641044） | accepted |
 
 ## 关联关系
 

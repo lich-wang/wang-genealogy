@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王佐（生于1424年），明人物。天順元年進士，籍贯盧龍，入仕進士。（中国历代人物传记资料库 CBDB 198633）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_K2kfYRZBbNBGjqGXr4fx3g
+        - id: cs_YGkU3iOSd0o60d_tbgjhvG
           claim_id: c_seAYnRYXX8nUEXYyyD6Yp7
           source_id: s_57kZAzZH2t6g4w3F4mdEPS
           stance: supports
-          locator: null
+          locator: CBDB:198633
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -235,7 +235,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王佐 | accepted |
 | birth.date | 1424年 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王佐（生于1424年），明人物。天順元年進士，籍贯盧龍，入仕進士。（中国历代人物传记资料库 CBDB 198633） | accepted |
 
 ## 关联关系
 

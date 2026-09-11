@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王修玉，清人物。籍贯杭州府。（中国历代人物传记资料库 CBDB 568743）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_dCirZ13DvK8h8yChcHzH39
+        - id: cs_KCQ-ssO64dgqXPd6_FJ6MK
           claim_id: c_FKd2ao44XXP9AQUjbLwsRv
           source_id: s_oGG4RKoRQ1PC8fWrMeA49Q
           stance: supports
-          locator: null
+          locator: CBDB:568743
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王修玉 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王修玉，清人物。籍贯杭州府。（中国历代人物传记资料库 CBDB 568743） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王替襄，清人物。籍贯中衛，入仕進士，曾任主事。（中国历代人物传记资料库 CBDB 638562）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_4L3PiLZBPyfJa5yGBgtUSS
+        - id: cs_CGgtTn7F8TUi0-DngGJFvS
           claim_id: c_sKfaHcLVpC6D6QD68A6DAy
           source_id: s_WV11pkUHtn2kjt34P4U1Nf
           stance: supports
-          locator: null
+          locator: CBDB:638562
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王替襄 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王替襄，清人物。籍贯中衛，入仕進士，曾任主事。（中国历代人物传记资料库 CBDB 638562） | accepted |
 
 ## 关联关系
 

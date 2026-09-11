@@ -75,11 +75,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: Ming dynasty person CBDB = 240857
-          language: en
+          text: 王彦成，明人物。正統十三年進士。（中国历代人物传记资料库 CBDB 240857）
+          language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
         - id: cs_HGc81eWLYx5hMwnV1irN4o
           claim_id: c_259D5sG59dZUBVAioKAfu9
@@ -89,6 +89,14 @@ properties:
           quotation: null
           interpretation_note: 维基数据条目描述
           source: *a1
+        - id: cs_OZrXs0KRcZC9JGleOwfssI
+          claim_id: c_259D5sG59dZUBVAioKAfu9
+          source_id: s_77uPWEr3G5D5qjv5UcVsRV
+          stance: supports
+          locator: CBDB:240857
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: *a2
       object_person: null
     alternatives: []
 relationships:
@@ -182,7 +190,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王彦成 | accepted |
-| bio.summary | Ming dynasty person CBDB = 240857 | accepted |
+| bio.summary | 王彦成，明人物。正統十三年進士。（中国历代人物传记资料库 CBDB 240857） | accepted |
 
 ## 关联关系
 

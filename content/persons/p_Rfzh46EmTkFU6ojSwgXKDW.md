@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王顯懿，清人物。籍贯黃安。（中国历代人物传记资料库 CBDB 574312）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_1e9nDJTZNBEET8GjFAYze9
+        - id: cs_0-znTb7Ubm1dbaHqR8M4xk
           claim_id: c_sJWf5Zvnpc9MH4zdBbA67t
           source_id: s_1CeCkevpP97EjCHqSvgB5Y
           stance: supports
-          locator: null
+          locator: CBDB:574312
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王顯懿 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王顯懿，清人物。籍贯黃安。（中国历代人物传记资料库 CBDB 574312） | accepted |
 
 ## 关联关系
 

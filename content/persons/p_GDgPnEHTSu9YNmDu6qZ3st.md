@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王盛，明人物。曾任縣丞。（中国历代人物传记资料库 CBDB 482856）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_xU8YAsCXbiywQDozgVxrCx
+        - id: cs_qMeMjJdPH1GZkKFjLWxlrQ
           claim_id: c_TThk2BwQMiXeqMMFriZRzx
           source_id: s_9MWDw3UiLbmP7Q49GbL9d1
           stance: supports
-          locator: null
+          locator: CBDB:482856
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王盛 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王盛，明人物。曾任縣丞。（中国历代人物传记资料库 CBDB 482856） | accepted |
 
 ## 关联关系
 

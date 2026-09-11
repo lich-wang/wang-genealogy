@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王漢，明人物。嘉靖三十二年進士，籍贯濱州。（中国历代人物传记资料库 CBDB 318319）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_zVQ42qDDtC7czdHtC6Chvk
+        - id: cs_0iYcxftvDlUSmF67JW-7L9
           claim_id: c_k4z7i4CuXaatHL5UiQqzms
           source_id: s_Ai6Z2L9PVYSLiSjyja1QsN
           stance: supports
-          locator: null
+          locator: CBDB:318319
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王漢 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王漢，明人物。嘉靖三十二年進士，籍贯濱州。（中国历代人物传记资料库 CBDB 318319） | accepted |
 
 ## 关联关系
 

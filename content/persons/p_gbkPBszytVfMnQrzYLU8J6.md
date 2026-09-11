@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王粲，唐人物。籍贯芒山，曾任錄事參軍。（中国历代人物传记资料库 CBDB 147703）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_v7hTZFtkdC9EK2JkEEVaFR
+        - id: cs_PIlUd-tqBUZ04DvMkU1Tag
           claim_id: c_PjWosgPCHZhYrirE498j98
           source_id: s_3s6hRRqdmpjS7CUH345w8c
           stance: supports
-          locator: null
+          locator: CBDB:147703
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王粲 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王粲，唐人物。籍贯芒山，曾任錄事參軍。（中国历代人物传记资料库 CBDB 147703） | accepted |
 
 ## 关联关系
 

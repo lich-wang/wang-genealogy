@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为宋人物
-          language: zh-Hans
+          text: 王炎（1138年—1218年），宋人物。籍贯婺源，身份为理學家，入仕進士，曾任朝議大夫、禮儀院、右奉直大夫。（中国历代人物传记资料库 CBDB 16692）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_BAgqf8FVdMfmC6cC8MDF5J
+        - id: cs_Iyk0-ZmEYnL8M637vQJuOk
           claim_id: c_QT6sLTeLBLgJXTy3o1ea19
           source_id: s_ayXwHa3P8JZGjiVZ55uyM9
           stance: supports
-          locator: null
+          locator: CBDB:16692
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -238,7 +238,7 @@ relationships:
 | name.primary | 王炎 | accepted |
 | birth.date | 1138年 | accepted |
 | death.date | 1218年 | accepted |
-| bio.summary | CBDB 记载为宋人物 | accepted |
+| bio.summary | 王炎（1138年—1218年），宋人物。籍贯婺源，身份为理學家，入仕進士，曾任朝議大夫、禮儀院、右奉直大夫。（中国历代人物传记资料库 CBDB 16692） | accepted |
 
 ## 关联关系
 

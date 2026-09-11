@@ -7,6 +7,44 @@ display_name: 仇氏
 cbdb_id: 45817
 revision: 1
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_Iq5aE_RzIaIy-sIakIl85a
+        subject_person_id: p_hV4FccBsTXSAEpS7L3B7RC
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 仇氏，宋人物。曾任郡太夫人。（中国历代人物传记资料库 CBDB 45817）
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_q7iFDfw3e2M0RHsx9yoxWl
+          claim_id: c_Iq5aE_RzIaIy-sIakIl85a
+          source_id: s_pCkch84T5F5r32DwPJWrfa
+          stance: supports
+          locator: CBDB:45817
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_pCkch84T5F5r32DwPJWrfa
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：仇氏（45817）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=45817&o=json
+            external_identifier: CBDB:45817
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,7 +69,7 @@ properties:
           locator: Q65798709
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source: &a1
+          source: &a2
             id: s_6ezW96pfXcpCbsKRDGy11Z
             source_type: api_record
             title: 维基数据：仇氏（Q65798709）
@@ -50,18 +88,7 @@ properties:
           locator: CBDB:45817
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source:
-            id: s_pCkch84T5F5r32DwPJWrfa
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：仇氏（45817）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=45817&o=json
-            external_identifier: CBDB:45817
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T08:06:50.055Z
-            metadata_json: null
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,7 +117,7 @@ relationships:
           locator: P26（配偶）
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: *a2
         - id: cs_hJ86BRGxHNJFU7NbFEKsTn
           claim_id: c_LHKoVowQXuBGASp4H9oyWD
           source_id: s_9haVnYnB1Mu8a5ABupm314
@@ -147,6 +174,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 仇氏，宋人物。曾任郡太夫人。（中国历代人物传记资料库 CBDB 45817） | accepted |
 | name.primary | 仇氏 | accepted |
 
 ## 关联关系

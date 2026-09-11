@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为中華民國人物
-          language: zh-Hans
+          text: 王肇震（1841年—1913年），中華民國人物。籍贯費縣。（中国历代人物传记资料库 CBDB 72176）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_5K1fRGDQK4L91Z6DQPK8FA
+        - id: cs_8eVR2eR0TQ7Rdg_G3vNM-K
           claim_id: c_xjfA8sunRYpPoazBPqrmgk
           source_id: s_jLxGEaxsCFLEBADw5eAgPK
           stance: supports
-          locator: null
+          locator: CBDB:72176
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王肇震 | accepted |
 | birth.date | 1841年 | accepted |
 | death.date | 1913年 | accepted |
-| bio.summary | CBDB 记载为中華民國人物 | accepted |
+| bio.summary | 王肇震（1841年—1913年），中華民國人物。籍贯費縣。（中国历代人物传记资料库 CBDB 72176） | accepted |
 
 ## 关联关系
 

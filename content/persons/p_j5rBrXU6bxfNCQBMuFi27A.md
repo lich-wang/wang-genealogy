@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
+          text: 王彥弼（1220年—1308年），元人物。曾任諸路總管府總管。（中国历代人物传记资料库 CBDB 117581）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_jUDdH8PzGVF36a4y5q8Prz
+        - id: cs_WIGOjkv9Qqyx6mPtX423W2
           claim_id: c_KcKjkDioZUH5ixmQvLUKpG
           source_id: s_WVasxpAvFuL24AJLU7fGWu
           stance: supports
-          locator: null
+          locator: CBDB:117581
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王彥弼 | accepted |
 | birth.date | 1220年 | accepted |
 | death.date | 1308年 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王彥弼（1220年—1308年），元人物。曾任諸路總管府總管。（中国历代人物传记资料库 CBDB 117581） | accepted |
 
 ## 关联关系
 

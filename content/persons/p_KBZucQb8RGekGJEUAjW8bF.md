@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王裕鍾，清人物。籍贯大興，入仕監生，曾任司獄。（中国历代人物传记资料库 CBDB 640224）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_ntGp4zHwxuE7sfvU29SBoo
+        - id: cs_CuZRDXHUAAYEte5sjdq6YY
           claim_id: c_898hLB3JecsGK2L3iXo7LV
           source_id: s_oLffB77knzHHojnDR99Qr7
           stance: supports
-          locator: null
+          locator: CBDB:640224
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王裕鍾 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王裕鍾，清人物。籍贯大興，入仕監生，曾任司獄。（中国历代人物传记资料库 CBDB 640224） | accepted |
 
 ## 关联关系
 

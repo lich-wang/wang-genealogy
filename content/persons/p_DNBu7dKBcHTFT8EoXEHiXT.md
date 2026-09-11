@@ -7,6 +7,44 @@ display_name: 丁氏
 cbdb_id: 437904
 revision: 1
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_PYBFPl5i4odoPxc1Jb84DE
+        subject_person_id: p_DNBu7dKBcHTFT8EoXEHiXT
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 丁氏，明人物。曾任孺人。（中国历代人物传记资料库 CBDB 437904）
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jJCdBZFg0Eibt_CQGW2joS
+          claim_id: c_PYBFPl5i4odoPxc1Jb84DE
+          source_id: s_Ghq5wA4jfXc1oHWe78vLC5
+          stance: supports
+          locator: CBDB:437904
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_Ghq5wA4jfXc1oHWe78vLC5
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：丁氏（437904）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=437904&o=json
+            external_identifier: CBDB:437904
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,7 +69,7 @@ properties:
           locator: Q65904233
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source: &a1
+          source: &a2
             id: s_Gp3VAxCA4pAUQ4tcQCX6eX
             source_type: api_record
             title: 维基数据：丁氏（Q65904233）
@@ -50,18 +88,7 @@ properties:
           locator: CBDB:437904
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source:
-            id: s_Ghq5wA4jfXc1oHWe78vLC5
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：丁氏（437904）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=437904&o=json
-            external_identifier: CBDB:437904
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T08:06:50.055Z
-            metadata_json: null
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,7 +117,7 @@ relationships:
           locator: P26（配偶）
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: *a2
         - id: cs_hN8PpPSKL3mrbH3WAZhFZU
           claim_id: c_uQUEABqSDzYkq4GPPgJCGS
           source_id: s_LPKamJ78vzJUu4765xEYKj
@@ -147,6 +174,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 丁氏，明人物。曾任孺人。（中国历代人物传记资料库 CBDB 437904） | accepted |
 | name.primary | 丁氏 | accepted |
 
 ## 关联关系

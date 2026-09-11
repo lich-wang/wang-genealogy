@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王聰，明人物。嘉靖二十六年進士。（中国历代人物传记资料库 CBDB 310362）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_RfrjwJw4wtPu2zCbhw1Pj9
+        - id: cs_hRXcFOLSa3W06UbB2rNlWQ
           claim_id: c_GrTLv1hW6wEfKStjApM8a5
           source_id: s_w2fwbha1mVo5mF9JEecFLa
           stance: supports
-          locator: null
+          locator: CBDB:310362
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王聰 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王聰，明人物。嘉靖二十六年進士。（中国历代人物传记资料库 CBDB 310362） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
-          language: zh-Hans
+          text: 王政，明人物。明清進士進士，籍贯開州，入仕進士。（中国历代人物传记资料库 CBDB 342076）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_PYpo9fBYzkeeJ3TSN7LEt3
+        - id: cs_pp93X3rdDUS6sM5rsXksv8
           claim_id: c_kMXwEb71hJ4uCAvH7b8Uko
           source_id: s_PEwMyPSY8Ex54NR9nFiaDJ
           stance: supports
-          locator: null
+          locator: CBDB:342076
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王政 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王政，明人物。明清進士進士，籍贯開州，入仕進士。（中国历代人物传记资料库 CBDB 342076） | accepted |
 
 ## 关联关系
 

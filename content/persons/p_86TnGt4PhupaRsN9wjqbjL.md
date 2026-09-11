@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王魯峯，清人物。籍贯渮澤。（中国历代人物传记资料库 CBDB 699109）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_sXBVdzv8hm2ehjhPKLDvR4
+        - id: cs_uY1nZKBl6edQ-oMEe0ovsd
           claim_id: c_KS3mkc7xSp6f4hhyN1ttw2
           source_id: s_Cv9r21h1TcgqBWLm35GPXC
           stance: supports
-          locator: null
+          locator: CBDB:699109
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王魯峯 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王魯峯，清人物。籍贯渮澤。（中国历代人物传记资料库 CBDB 699109） | accepted |
 
 ## 关联关系
 

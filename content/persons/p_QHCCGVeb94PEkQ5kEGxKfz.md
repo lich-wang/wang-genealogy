@@ -7,6 +7,44 @@ display_name: 任氏
 revision: 1
 cbdb_id: 302953
 properties:
+  - predicate: bio.summary
+    recommended:
+      claim:
+        id: c_R_ogLnJSPTwe7nrgAYdblW
+        subject_person_id: p_QHCCGVeb94PEkQ5kEGxKfz
+        claim_kind: property
+        predicate: bio.summary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 任氏，明人物。嘉靖二十年進士。（中国历代人物传记资料库 CBDB 302953）
+          language: zh-Hans
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JGjDq12Skfp4n7lsUwxMY5
+          claim_id: c_R_ogLnJSPTwe7nrgAYdblW
+          source_id: s_RuHzgFc47PJ_blfHlD6q7X
+          stance: supports
+          locator: CBDB:302953
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: &a1
+            id: s_RuHzgFc47PJ_blfHlD6q7X
+            source_type: api_record
+            title: 中国历代人物传记资料库：任氏(王撫民妻)（CBDB 302953）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302953&o=json
+            external_identifier: CBDB:302953
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
   - predicate: name.primary
     recommended:
       claim:
@@ -31,18 +69,7 @@ properties:
           locator: CBDB:302953
           quotation: null
           interpretation_note: CBDB 明确记录的王撫民配偶
-          source: &a1
-            id: s_RuHzgFc47PJ_blfHlD6q7X
-            source_type: api_record
-            title: 中国历代人物传记资料库：任氏(王撫民妻)（CBDB 302953）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302953&o=json
-            external_identifier: CBDB:302953
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -90,6 +117,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
+| bio.summary | 任氏，明人物。嘉靖二十年進士。（中国历代人物传记资料库 CBDB 302953） | accepted |
 | name.primary | 任氏 | accepted |
 
 ## 关联关系

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
+          text: 王文祥，元人物。籍贯濟南路，曾任縣主簿。（中国历代人物传记资料库 CBDB 101097）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Q3cL8kGEt2AXR69T6jiokn
+        - id: cs_FxpjGnyiL5Pwz7DXbrPfpN
           claim_id: c_AmnwsMuiASSYNX29x1grsY
           source_id: s_PohkRb78ySYwwfFtjJ1e8J
           stance: supports
-          locator: null
+          locator: CBDB:101097
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王文祥 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王文祥，元人物。籍贯濟南路，曾任縣主簿。（中国历代人物传记资料库 CBDB 101097） | accepted |
 
 ## 关联关系
 

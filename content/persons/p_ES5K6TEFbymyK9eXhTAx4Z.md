@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王同心，清人物。籍贯濟南府，入仕鄉貢舉人，曾任訓導。（中国历代人物传记资料库 CBDB 636503）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_kKmw9SymMw9cwgfrev2sfq
+        - id: cs_Fko7ZA_IqJOLYv4bCq3ANm
           claim_id: c_r4bn3uDqo3TDQFdA3wQNVk
           source_id: s_BcTL7a2wDYgDtx4r4VJtDv
           stance: supports
-          locator: null
+          locator: CBDB:636503
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王同心 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王同心，清人物。籍贯濟南府，入仕鄉貢舉人，曾任訓導。（中国历代人物传记资料库 CBDB 636503） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王圖，清人物。明清進士進士，籍贯安福，入仕進士。（中国历代人物传记资料库 CBDB 343482）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_7wxpXQcnBEaYXRM29DpScg
+        - id: cs_fC6c17OPvX-9cogqXRSlLB
           claim_id: c_oR29GN5oVJP7adAB2Jtu7W
           source_id: s_ed5oz3t9PukXXch4xJeL6r
           stance: supports
-          locator: null
+          locator: CBDB:343482
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王圖 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王圖，清人物。明清進士進士，籍贯安福，入仕進士。（中国历代人物传记资料库 CBDB 343482） | accepted |
 
 ## 关联关系
 

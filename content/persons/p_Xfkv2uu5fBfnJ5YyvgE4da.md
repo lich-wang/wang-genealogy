@@ -50,7 +50,7 @@ properties:
           locator: CBDB:15746
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source:
+          source: &a2
             id: s_ZQUTuGRKbJKuB3GvfDD6xZ
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：王厚（15746）
@@ -75,11 +75,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: person, CBDB = 15746
-          language: en
+          text: 王厚，五代人物。籍贯虞城。（中国历代人物传记资料库 CBDB 15746）
+          language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
         - id: cs_4pCMHru84iCXUwF8NXaUk3
           claim_id: c_VEdji85GKA9kcFNQpdSsmQ
@@ -89,6 +89,14 @@ properties:
           quotation: null
           interpretation_note: 维基数据条目描述
           source: *a1
+        - id: cs_rq368DiIxybcavMf2-53wg
+          claim_id: c_VEdji85GKA9kcFNQpdSsmQ
+          source_id: s_ZQUTuGRKbJKuB3GvfDD6xZ
+          stance: supports
+          locator: CBDB:15746
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          source: *a2
       object_person: null
     alternatives: []
 relationships:
@@ -156,7 +164,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王厚 | accepted |
-| bio.summary | person, CBDB = 15746 | accepted |
+| bio.summary | 王厚，五代人物。籍贯虞城。（中国历代人物传记资料库 CBDB 15746） | accepted |
 
 ## 关联关系
 

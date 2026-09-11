@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为元人物
+          text: 王義（1197年—1274年），元人物。籍贯太康。（中国历代人物传记资料库 CBDB 100876）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_XsHwobmG5U2JsjkNWfx9k2
+        - id: cs_rDQ0TxY4Hsn4M0Q-kvklj_
           claim_id: c_tXPS8ESAbQo3iTPPAakQ9Z
           source_id: s_nrfJ1uuA93hhCRJ2je3pBo
           stance: supports
-          locator: null
+          locator: CBDB:100876
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王義 | accepted |
 | birth.date | 1197年 | accepted |
 | death.date | 1274年 | accepted |
-| bio.summary | CBDB 记载为元人物 | accepted |
+| bio.summary | 王義（1197年—1274年），元人物。籍贯太康。（中国历代人物传记资料库 CBDB 100876） | accepted |
 
 ## 关联关系
 

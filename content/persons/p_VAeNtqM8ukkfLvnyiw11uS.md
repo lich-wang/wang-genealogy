@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王成，明人物。成化十一年進士，籍贯棗陽。（中国历代人物传记资料库 CBDB 249582）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Twf4bNDDGBQ4cdsM2Wi7tv
+        - id: cs_Pdks-gmzuTqzmnO6wu2Dca
           claim_id: c_dP7GhC2jKY9rMy5W8sGfg8
           source_id: s_UjNF9JkQci4CZ4bYvZAQ7q
           stance: supports
-          locator: null
+          locator: CBDB:249582
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -117,7 +117,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王成 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王成，明人物。成化十一年進士，籍贯棗陽。（中国历代人物传记资料库 CBDB 249582） | accepted |
 
 ## 关联关系
 

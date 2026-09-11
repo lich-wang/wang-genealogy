@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王道成，明人物。明清進士進士，籍贯安邑，入仕進士。（中国历代人物传记资料库 CBDB 342865）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_DMwQztVL1gxtgiUoFyck6Y
+        - id: cs_qd_c7iJxTdKLGCxdSUPPbf
           claim_id: c_evMGdNgf6qtTdPkQ9r9WBR
           source_id: s_6YED2yETpeDaK2JSi6FCfm
           stance: supports
-          locator: null
+          locator: CBDB:342865
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王道成 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王道成，明人物。明清進士進士，籍贯安邑，入仕進士。（中国历代人物传记资料库 CBDB 342865） | accepted |
 
 ## 关联关系
 

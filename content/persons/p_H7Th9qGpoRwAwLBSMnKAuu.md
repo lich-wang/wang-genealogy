@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王鵬運，清人物。明清進士進士，籍贯大興，入仕進士。（中国历代人物传记资料库 CBDB 343631）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_NN5Q89arv81Y3g65hxmYNJ
+        - id: cs__fxBuxxDXYiVRz3z_sGOCf
           claim_id: c_kWzLB78cLd3nQTBLNx2raK
           source_id: s_ZidJUPNKdKuP9FH2Hw7g6g
           stance: supports
-          locator: null
+          locator: CBDB:343631
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王鵬運 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王鵬運，清人物。明清進士進士，籍贯大興，入仕進士。（中国历代人物传记资料库 CBDB 343631） | accepted |
 
 ## 关联关系
 

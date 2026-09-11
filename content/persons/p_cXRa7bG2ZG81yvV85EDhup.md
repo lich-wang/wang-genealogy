@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
-          language: zh-Hans
+          text: 王彥威（卒于845年），唐人物。籍贯太原，身份为工於文，入仕明經，曾任祠部員外郎、弘文館學士、戶部侍郎。（中国历代人物传记资料库 CBDB 92060）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_UUcJfd56cn87yq1obR6hzY
+        - id: cs_iqu5Fv-KnmClv3Qk-jSNzs
           claim_id: c_hm8iQnH76Hp8iYX65noA28
           source_id: s_h7TRvUao5vxwBVxqwyWhYk
           stance: supports
-          locator: null
+          locator: CBDB:92060
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -120,7 +120,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王彥威 | accepted |
 | death.date | 845年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王彥威（卒于845年），唐人物。籍贯太原，身份为工於文，入仕明經，曾任祠部員外郎、弘文館學士、戶部侍郎。（中国历代人物传记资料库 CBDB 92060） | accepted |
 
 ## 关联关系
 

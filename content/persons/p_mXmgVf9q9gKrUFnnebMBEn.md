@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王大志，唐人物。籍贯芒山。（中国历代人物传记资料库 CBDB 147135）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_5j5Q5mwZnzS6DQ9G8aJDgR
+        - id: cs_1gvxAwrFjdOmZ4g8mVdMl6
           claim_id: c_39MSD2wmzQa7pxDpqTPtyb
           source_id: s_uXKX8NEYDMqLsj9qFQ4jfP
           stance: supports
-          locator: null
+          locator: CBDB:147135
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -128,7 +128,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王大志 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王大志，唐人物。籍贯芒山。（中国历代人物传记资料库 CBDB 147135） | accepted |
 
 ## 关联关系
 

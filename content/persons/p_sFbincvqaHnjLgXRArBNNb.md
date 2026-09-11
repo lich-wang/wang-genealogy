@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王克培，清人物。籍贯灤平，曾任知縣。（中国历代人物传记资料库 CBDB 636292）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_Gux6fKn75MM2PWujr7Rm2n
+        - id: cs_l2PjUEDk9lw6jm7EjXsoil
           claim_id: c_Ji8X9jpgaVv3rHMoTqn6wz
           source_id: s_mzBtDkFst8q9d19g8X7t6W
           stance: supports
-          locator: null
+          locator: CBDB:636292
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王克培 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王克培，清人物。籍贯灤平，曾任知縣。（中国历代人物传记资料库 CBDB 636292） | accepted |
 
 ## 关联关系
 

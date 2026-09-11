@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王宫，明人物。曾任吏目。（中国历代人物传记资料库 CBDB 509616）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_DwLj1mExwitTP9kJTynkWM
+        - id: cs_xQn_Wg10Wz4PVUqcSe3qde
           claim_id: c_mq2PDWmGrmy6AXVXrGs3y8
           source_id: s_6AFDKRcg7DaHdKRh8xucDr
           stance: supports
-          locator: null
+          locator: CBDB:509616
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王宫 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王宫，明人物。曾任吏目。（中国历代人物传记资料库 CBDB 509616） | accepted |
 
 ## 关联关系
 

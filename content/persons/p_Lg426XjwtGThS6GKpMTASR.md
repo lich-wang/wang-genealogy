@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王尚智，明人物。嘉靖二十九年進士，籍贯陽曲，曾任巡檢。（中国历代人物传记资料库 CBDB 312138）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_wywLoTA2EQFwKTywNAiM8f
+        - id: cs_YjYnYuznarCAFvoIuk7Oz3
           claim_id: c_T5zdD571asvZEFwf9CzTBZ
           source_id: s_8yp7G1z4Uv72Nhb6MUbExP
           stance: supports
-          locator: null
+          locator: CBDB:312138
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -154,7 +154,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王尚智 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王尚智，明人物。嘉靖二十九年進士，籍贯陽曲，曾任巡檢。（中国历代人物传记资料库 CBDB 312138） | accepted |
 
 ## 关联关系
 

@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为明人物
+          text: 王譽，明人物。曾任教諭。（中国历代人物传记资料库 CBDB 478666）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_cuZ34MjtfnSfVg1wHPQgCv
+        - id: cs_dYmnVZOFDEo1Je-GVb6W8P
           claim_id: c_RB5gsmDFtEZnwybLGNtzsj
           source_id: s_yVA8eBBkAywSznG5pvmCPb
           stance: supports
-          locator: null
+          locator: CBDB:478666
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王譽 | accepted |
-| bio.summary | CBDB 记载为明人物 | accepted |
+| bio.summary | 王譽，明人物。曾任教諭。（中国历代人物传记资料库 CBDB 478666） | accepted |
 
 ## 关联关系
 

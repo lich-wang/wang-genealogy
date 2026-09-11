@@ -83,19 +83,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为唐人物
+          text: 王實（卒于724年），唐人物。籍贯太原，曾任令。（中国历代人物传记资料库 CBDB 175888）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_JHjrx7iYJn1f71RR712G2W
+        - id: cs_ecGRY86Vuy2t_l-xZaB_N-
           claim_id: c_LEQYZjwfbqbL2dik2Duazz
           source_id: s_N97amyXEiVtp9fTVJzsuBd
           stance: supports
-          locator: null
+          locator: CBDB:175888
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -194,7 +194,7 @@ relationships:
 | --- | --- | --- |
 | name.primary | 王實 | accepted |
 | death.date | 724年 | accepted |
-| bio.summary | CBDB 记载为唐人物 | accepted |
+| bio.summary | 王實（卒于724年），唐人物。籍贯太原，曾任令。（中国历代人物传记资料库 CBDB 175888） | accepted |
 
 ## 关联关系
 

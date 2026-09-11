@@ -55,19 +55,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王允恆，清人物。籍贯涿州，入仕鄉貢舉人，曾任知縣。（中国历代人物传记资料库 CBDB 636122）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_wXsgJRr6Y8t1j2op4EZQcc
+        - id: cs_I4bt8vxIyK16tuWNTFEzI3
           claim_id: c_SEGtnTWB3ETh4JGpLjQWGZ
           source_id: s_bHA9ebmAjd7nXt44S9KAVD
           stance: supports
-          locator: null
+          locator: CBDB:636122
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -91,7 +91,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王允恆 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王允恆，清人物。籍贯涿州，入仕鄉貢舉人，曾任知縣。（中国历代人物传记资料库 CBDB 636122） | accepted |
 
 ## 关联关系
 

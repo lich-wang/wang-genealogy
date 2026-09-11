@@ -111,19 +111,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: CBDB 记载为清人物
+          text: 王易（1648年—1723年），清人物。籍贯江都。（中国历代人物传记资料库 CBDB 71100）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_E48ogLd6Ts1p7YRHRuN86o
+        - id: cs_RRcKcy4GjQmk_YjAcwhIKB
           claim_id: c_7eNTquEEHuEfpqa1K6e85D
           source_id: s_A488mM1d2JdxpzbaA9XQut
           stance: supports
-          locator: null
+          locator: CBDB:71100
           quotation: null
-          interpretation_note: CBDB 朝代归属
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: *a1
       object_person: null
     alternatives: []
@@ -149,7 +149,7 @@ relationships:
 | name.primary | 王易 | accepted |
 | birth.date | 1648年 | accepted |
 | death.date | 1723年 | accepted |
-| bio.summary | CBDB 记载为清人物 | accepted |
+| bio.summary | 王易（1648年—1723年），清人物。籍贯江都。（中国历代人物传记资料库 CBDB 71100） | accepted |
 
 ## 关联关系
 
