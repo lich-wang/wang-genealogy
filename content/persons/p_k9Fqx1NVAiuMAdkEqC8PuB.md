@@ -4,7 +4,7 @@ id: p_k9Fqx1NVAiuMAdkEqC8PuB
 status: active
 merged_into: null
 display_name: 王仲全
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_2uRTxi0ZsUiTJT_F8ithh9
+        subject_person_id: p_k9Fqx1NVAiuMAdkEqC8PuB
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_pXVs6AL8HvV23fdzJAEFmC
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_LVrCC_G7TLasuA3ckBsInQ
+          claim_id: c_2uRTxi0ZsUiTJT_F8ithh9
+          source_id: s_5kmKUVg8GUU5PC76dHTmW8
+          stance: supports
+          locator: (道光)徽州府志:十六卷卷首一卷，lgid=1160746：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_pXVs6AL8HvV23fdzJAEFmC
+        status: active
+        display_name: 王貞
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_pXVs6AL8HvV23fdzJAEFmC | 王貞 | accepted |
 
 ## 外部来源
 

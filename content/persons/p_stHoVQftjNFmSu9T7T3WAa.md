@@ -4,7 +4,7 @@ id: p_stHoVQftjNFmSu9T7T3WAa
 status: active
 merged_into: null
 display_name: 王昇
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -105,7 +105,81 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_mBb0CA3iErAV6KBAtI-AUr
+        subject_person_id: p_k2LuJSRwJYvYh71ScTHiPj
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_stHoVQftjNFmSu9T7T3WAa
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_IUM6tqqcE8MPkBqijFE7ke
+          claim_id: c_mBb0CA3iErAV6KBAtI-AUr
+          source_id: s_r5ZCaSCFkL2kfTDSG7fzp4
+          stance: supports
+          locator: 景泰五年進士登科錄:一卷，第三甲第一百一十四名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_r5ZCaSCFkL2kfTDSG7fzp4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王勉（CBDB 271751）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=271751&o=json
+            external_identifier: CBDB:271751
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.878Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_k2LuJSRwJYvYh71ScTHiPj
+        status: active
+        display_name: 王勉
+        merged_into_person_id: null
+    - claim:
+        id: c_BPDjOvddOGrqF53dH2oAML
+        subject_person_id: p_KA2HkQ1qdLYhBgz4ZSBGt7
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_stHoVQftjNFmSu9T7T3WAa
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vlUNu0Uc_Bq5yhjy6A8QTS
+          claim_id: c_BPDjOvddOGrqF53dH2oAML
+          source_id: s_pVottD6QNt7gMJ6Q1Yv6eh
+          stance: supports
+          locator: 景泰五年進士登科錄:一卷，第三甲第一百一十四名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_pVottD6QNt7gMJ6Q1Yv6eh
+            source_type: api_record
+            title: 中国历代人物传记资料库：王綱（CBDB 271762）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=271762&o=json
+            external_identifier: CBDB:271762
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.878Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_KA2HkQ1qdLYhBgz4ZSBGt7
+        status: active
+        display_name: 王綱
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,7 +200,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_k2LuJSRwJYvYh71ScTHiPj | 王勉 | accepted |
+| ancestors | p_KA2HkQ1qdLYhBgz4ZSBGt7 | 王綱 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王綱（CBDB 271762）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=271762&o=json)
+- [中国历代人物传记资料库：王勉（CBDB 271751）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=271751&o=json)
 - [中国历代人物传记资料库：王昇（CBDB 198437）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198437&o=json)

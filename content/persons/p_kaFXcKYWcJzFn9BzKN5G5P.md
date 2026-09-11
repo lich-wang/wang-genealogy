@@ -4,7 +4,7 @@ id: p_kaFXcKYWcJzFn9BzKN5G5P
 status: active
 merged_into: null
 display_name: 王禮
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,86 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_8PLGTk2LNkcXp-Fo-yxRzz
+        subject_person_id: p_UhYZVCzFh5cnz81vtvPM6b
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_kaFXcKYWcJzFn9BzKN5G5P
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_yWhN-m0EzfWrVSU6FYVg68
+          claim_id: c_8PLGTk2LNkcXp-Fo-yxRzz
+          source_id: s_kEgQzQXGiMVanGsGCriCxG
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Yonghui 140：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_UhYZVCzFh5cnz81vtvPM6b
+        status: active
+        display_name: 王表
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_Q0cgYQ8beIvdBG9qkYCi3-
+        subject_person_id: p_kaFXcKYWcJzFn9BzKN5G5P
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_UV3co1QXVmpbgDP6L1Wo4p
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_RdLMFlcEua3MMAxcPZ_g-Z
+          claim_id: c_Q0cgYQ8beIvdBG9qkYCi3-
+          source_id: s_kEgQzQXGiMVanGsGCriCxG
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Qianfeng 55：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_UV3co1QXVmpbgDP6L1Wo4p
+        status: active
+        display_name: 王師
+        merged_into_person_id: null
+    - claim:
+        id: c_3ihmp6X66bHOFRhwDvn3Y-
+        subject_person_id: p_kaFXcKYWcJzFn9BzKN5G5P
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_seUbE6ck5GZ4hMvh3E2DNi
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VPrOIgiTrt4dncnajTHEfp
+          claim_id: c_3ihmp6X66bHOFRhwDvn3Y-
+          source_id: s_kEgQzQXGiMVanGsGCriCxG
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Yonghui 140：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_seUbE6ck5GZ4hMvh3E2DNi
+        status: active
+        display_name: 王弘道
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +175,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_UhYZVCzFh5cnz81vtvPM6b | 王表 | accepted |
+| children | p_UV3co1QXVmpbgDP6L1Wo4p | 王師 | accepted |
+| children | p_seUbE6ck5GZ4hMvh3E2DNi | 王弘道 | accepted |
 
 ## 外部来源
 

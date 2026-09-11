@@ -4,7 +4,7 @@ id: p_nZ6oVMjM9PndsMQA7hdBnN
 status: active
 merged_into: null
 display_name: 王致中
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -142,7 +142,81 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_a_sz1-KMpPd_9goq_45QPR
+        subject_person_id: p_jmJMKk4hxjP633ncw7da1H
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_nZ6oVMjM9PndsMQA7hdBnN
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JfOAaM8XVey_RIbQAYCymm
+          claim_id: c_a_sz1-KMpPd_9goq_45QPR
+          source_id: s_X1epEuKrm64YG7f8hA4ncT
+          stance: supports
+          locator: 萬曆二年進士登科錄:一卷，第三甲第一百一十名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_X1epEuKrm64YG7f8hA4ncT
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鐸（CBDB 214279）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214279&o=json
+            external_identifier: CBDB:214279
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.152Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_jmJMKk4hxjP633ncw7da1H
+        status: active
+        display_name: 王鐸
+        merged_into_person_id: null
+    - claim:
+        id: c_nBMUBgoe073IGlJiXTP2tf
+        subject_person_id: p_JSUFzTfqsf7A7viCabR9FU
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_nZ6oVMjM9PndsMQA7hdBnN
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FJpa2ZouyqVZWITOELvDsA
+          claim_id: c_nBMUBgoe073IGlJiXTP2tf
+          source_id: s_Xq4KpGmn5RqKn7XPTx1iG4
+          stance: supports
+          locator: 萬曆二年進士登科錄:一卷，第三甲第一百一十名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Xq4KpGmn5RqKn7XPTx1iG4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王良貴（CBDB 214280）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214280&o=json
+            external_identifier: CBDB:214280
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.153Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_JSUFzTfqsf7A7viCabR9FU
+        status: active
+        display_name: 王良貴
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +238,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_5pYb5XTgHHLxK22eWK3gGJ | 王胤 | accepted |
+| ancestors | p_jmJMKk4hxjP633ncw7da1H | 王鐸 | accepted |
+| ancestors | p_JSUFzTfqsf7A7viCabR9FU | 王良貴 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王鐸（CBDB 214279）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214279&o=json)
+- [中国历代人物传记资料库：王良貴（CBDB 214280）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214280&o=json)
 - [中国历代人物传记资料库：王胤（CBDB 214282）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214282&o=json)
 - [中国历代人物传记资料库：王致中（CBDB 206164）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206164&o=json)

@@ -4,7 +4,7 @@ id: p_kET5KeLjgEQ8jqCSugxSSk
 status: active
 merged_into: null
 display_name: 王綸
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_lfgvOMk-IvZ29LunoGRop1
+        subject_person_id: p_wxFwiJdpNsMZSoX1se45fE
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_kET5KeLjgEQ8jqCSugxSSk
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4ydZEblOGstOZK1weHpWbq
+          claim_id: c_lfgvOMk-IvZ29LunoGRop1
+          source_id: s_PK1WP6M7dNq3SM43V63SHW
+          stance: supports
+          locator: 弘治九年進士登科錄:一卷，第三甲第一百九十三名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_wxFwiJdpNsMZSoX1se45fE
+        status: active
+        display_name: 王福
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_5EDxLCe614HjZY0cdbZh5P
+        subject_person_id: p_XYSfdUBMDk7oqECCJJRLUM
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_kET5KeLjgEQ8jqCSugxSSk
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_LYZjKDlbBiF0goGImtpgTB
+          claim_id: c_5EDxLCe614HjZY0cdbZh5P
+          source_id: s_PK1WP6M7dNq3SM43V63SHW
+          stance: supports
+          locator: 弘治九年進士登科錄:一卷，第三甲第一百九十三名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_XYSfdUBMDk7oqECCJJRLUM
+        status: active
+        display_name: 王敬
+        merged_into_person_id: null
+    - claim:
+        id: c_3PEJps7OUDsuYwaCmXUc0k
+        subject_person_id: p_tyK8B3J4w2qEMUud28YFjF
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_kET5KeLjgEQ8jqCSugxSSk
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1pt4hhgrqc3PCykQVpakiG
+          claim_id: c_3PEJps7OUDsuYwaCmXUc0k
+          source_id: s_PK1WP6M7dNq3SM43V63SHW
+          stance: supports
+          locator: 弘治九年進士登科錄:一卷，第三甲第一百九十三名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_tyK8B3J4w2qEMUud28YFjF
+        status: active
+        display_name: 王忠
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_wxFwiJdpNsMZSoX1se45fE | 王福 | accepted |
+| ancestors | p_XYSfdUBMDk7oqECCJJRLUM | 王敬 | accepted |
+| ancestors | p_tyK8B3J4w2qEMUud28YFjF | 王忠 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_Juc7gHrPWxVDPs8WyTQNfW
 status: active
 merged_into: null
 display_name: 王榮
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_FF67CCPoEmpge0mXpaWgkf
+        subject_person_id: p_KwA4BczZFNDLrU21M7BCc2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Juc7gHrPWxVDPs8WyTQNfW
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GOR69uVPKUIyT1UvdzHsoT
+          claim_id: c_FF67CCPoEmpge0mXpaWgkf
+          source_id: s_Bpw6CHKKJAwV2uFW3jCr63
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_KwA4BczZFNDLrU21M7BCc2
+        status: active
+        display_name: 王興
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_KwA4BczZFNDLrU21M7BCc2 | 王興 | accepted |
 
 ## 外部来源
 

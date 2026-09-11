@@ -4,7 +4,7 @@ id: p_aYr3EPQVvfC6NBKDGNLUTL
 status: active
 merged_into: null
 display_name: 王懋德
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_qoN1o6ckAy43iyTigOOZ-V
+        subject_person_id: p_kGHRzXtUaYBnJ8wGBJV9RP
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_aYr3EPQVvfC6NBKDGNLUTL
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_eXc60P-nqfneeudv0BYf1f
+          claim_id: c_qoN1o6ckAy43iyTigOOZ-V
+          source_id: s_Tv1UGEZ2uHHJHsnvp62A5n
+          stance: supports
+          locator: 隆慶五年進士登科錄:一卷，第二甲第十一名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Tv1UGEZ2uHHJHsnvp62A5n
+            source_type: api_record
+            title: 中国历代人物传记资料库：王化（CBDB 337967）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=337967&o=json
+            external_identifier: CBDB:337967
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.522Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_kGHRzXtUaYBnJ8wGBJV9RP
+        status: active
+        display_name: 王化
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -200,11 +237,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_kGHRzXtUaYBnJ8wGBJV9RP | 王化 | accepted |
 | ancestors | p_9xXNfmtYMVSCBkiCQDQ71J | 王昱 | accepted |
 | ancestors | p_ipzAENcDKQPY5smGpNDnar | 王璉 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王化（CBDB 337967）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=337967&o=json)
 - [中国历代人物传记资料库：王璉（CBDB 337966）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=337966&o=json)
 - [中国历代人物传记资料库：王懋德（CBDB 205756）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205756&o=json)
 - [中国历代人物传记资料库：王昱（CBDB 337965）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=337965&o=json)

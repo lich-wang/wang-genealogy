@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王仕恭
 cbdb_id: 251782
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -92,7 +92,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_pXFjDepD5gOSFSBSwKkWLi
+        subject_person_id: p_HPaT4GWNxvXDDALDWZMKbD
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_kBqE6QprrhgLRYUsgfWdoz
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_uAElBjbu7DmsQ2jMgezSoz
+          claim_id: c_pXFjDepD5gOSFSBSwKkWLi
+          source_id: s_GVkM3ScQfpkZuNtBgD5koE
+          stance: supports
+          locator: 成化十四年進士登科錄:一卷，第三甲第十一名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_GVkM3ScQfpkZuNtBgD5koE
+            source_type: api_record
+            title: 中国历代人物传记资料库：王建（CBDB 199946）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=199946&o=json
+            external_identifier: CBDB:199946
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.582Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_kBqE6QprrhgLRYUsgfWdoz
+        status: active
+        display_name: 王建
+        merged_into_person_id: null
   other: []
 ---
 
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_kBqE6QprrhgLRYUsgfWdoz | 王建 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王建（CBDB 199946）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=199946&o=json)
 - [中国历代人物传记资料库：王仕恭（CBDB 251782）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=251782&o=json)

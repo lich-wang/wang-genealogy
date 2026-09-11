@@ -4,7 +4,7 @@ id: p_JQ2MtbSvxnZ2BtVWDiPUDG
 status: active
 merged_into: null
 display_name: 王俸
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_3cxC_OItnyEDAraJ3Itjfi
+        subject_person_id: p_JQ2MtbSvxnZ2BtVWDiPUDG
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_WQq7QzkQTzLqnMJ812eWYA
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5Rwr4J5rL0nDYHy1Ljqz4v
+          claim_id: c_3cxC_OItnyEDAraJ3Itjfi
+          source_id: s_JwMpqMiLa7hEmmJ6KKpRvo
+          stance: supports
+          locator: 嘉靖二十三年登科錄:一卷，第三甲第一百四十三名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_WQq7QzkQTzLqnMJ812eWYA
+        status: active
+        display_name: 王之誥
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_WQq7QzkQTzLqnMJ812eWYA | 王之誥 | accepted |
 
 ## 外部来源
 

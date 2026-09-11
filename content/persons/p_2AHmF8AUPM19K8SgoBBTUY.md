@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王貽德
 cbdb_id: 205304
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -209,6 +209,43 @@ relationships:
         status: active
         display_name: 王紀
         merged_into_person_id: null
+    - claim:
+        id: c_jkwP-m7ocPe8R0usWvzapk
+        subject_person_id: p_kk9C1EwAQAE92RdDLjmWuE
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_2AHmF8AUPM19K8SgoBBTUY
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lRqqSE4nmLPDbmAM_q75hL
+          claim_id: c_jkwP-m7ocPe8R0usWvzapk
+          source_id: s_gQC81mAJ1X462UffQ66gw7
+          stance: supports
+          locator: 嘉靖四十四年進士登科錄:一卷，第三甲第九十九名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_gQC81mAJ1X462UffQ66gw7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王弼（CBDB 331282）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=331282&o=json
+            external_identifier: CBDB:331282
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.364Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_kk9C1EwAQAE92RdDLjmWuE
+        status: active
+        display_name: 王弼
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -231,9 +268,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_DYn2sTkHCEDbpaSHuEuC5e | 王謐 | accepted |
 | ancestors | p_HCf4Ko4NEQWMiJrd4D7bM7 | 王紀 | accepted |
+| ancestors | p_kk9C1EwAQAE92RdDLjmWuE | 王弼 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王弼（CBDB 331282）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=331282&o=json)
 - [中国历代人物传记资料库：王紀（CBDB 331281）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=331281&o=json)
 - [中国历代人物传记资料库：王謐（CBDB 331283）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=331283&o=json)
 - [中国历代人物传记资料库：王貽德（CBDB 205304）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205304&o=json)

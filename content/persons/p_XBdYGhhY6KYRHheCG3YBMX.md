@@ -4,7 +4,7 @@ id: p_XBdYGhhY6KYRHheCG3YBMX
 status: active
 merged_into: null
 display_name: 王平
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -181,6 +181,43 @@ relationships:
         status: active
         display_name: 王𠠹
         merged_into_person_id: null
+    - claim:
+        id: c_LVm-t_a8MBJMf4ifYmVpZ3
+        subject_person_id: p_XBdYGhhY6KYRHheCG3YBMX
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_JNN9WR7n7FEn9er8Z1w33L
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BmXp-UxDVPazoorGE-wtMh
+          claim_id: c_LVm-t_a8MBJMf4ifYmVpZ3
+          source_id: s_AnG4fdj6xtLPe21P6eRFdr
+          stance: supports
+          locator: 長安縣志，488：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_AnG4fdj6xtLPe21P6eRFdr
+            source_type: api_record
+            title: 中国历代人物传记资料库：王㔠（CBDB 578612）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=578612&o=json
+            external_identifier: CBDB:578612
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.731Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_JNN9WR7n7FEn9er8Z1w33L
+        status: active
+        display_name: 王㔠
+        merged_into_person_id: null
   other: []
 ---
 
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_fB4krwdYrXiiabiLDNJxxM | 王文秀 | accepted |
 | descendants | p_f4cg3hpvnGXJ6e7M3o4JU8 | 王𠠹 | accepted |
+| descendants | p_JNN9WR7n7FEn9er8Z1w33L | 王㔠 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王平（CBDB 578608）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=578608&o=json)
 - [中国历代人物传记资料库：王文秀（CBDB 578609）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=578609&o=json)
 - [中国历代人物传记资料库：王𠠹（CBDB 578613）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=578613&o=json)
+- [中国历代人物传记资料库：王㔠（CBDB 578612）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=578612&o=json)

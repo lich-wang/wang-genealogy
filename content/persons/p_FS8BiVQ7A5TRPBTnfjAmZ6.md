@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王彥民
 cbdb_id: 204329
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -172,6 +172,43 @@ relationships:
         status: active
         display_name: 王夢祥
         merged_into_person_id: null
+    - claim:
+        id: c_EZhjS5imLpjB7aWj6yZkFf
+        subject_person_id: p_jugC94mpVdjoMWSQQHj1Na
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_FS8BiVQ7A5TRPBTnfjAmZ6
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_km9L8h--iTLKFt1MGKQTLf
+          claim_id: c_EZhjS5imLpjB7aWj6yZkFf
+          source_id: s_horpE6GT2BpJ8N3YdoiBiw
+          stance: supports
+          locator: 嘉靖三十二年進士登科錄:一卷，第三甲第一百五十二名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_horpE6GT2BpJ8N3YdoiBiw
+            source_type: api_record
+            title: 中国历代人物传记资料库：王經（CBDB 317544）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=317544&o=json
+            external_identifier: CBDB:317544
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.975Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_jugC94mpVdjoMWSQQHj1Na
+        status: active
+        display_name: 王經
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -193,8 +230,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_4mTgcqgV1YrxCPCjedbhut | 王夢祥 | accepted |
+| ancestors | p_jugC94mpVdjoMWSQQHj1Na | 王經 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王經（CBDB 317544）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=317544&o=json)
 - [中国历代人物传记资料库：王夢祥（CBDB 317543）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=317543&o=json)
 - [中国历代人物传记资料库：王彥民（CBDB 204329）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204329&o=json)

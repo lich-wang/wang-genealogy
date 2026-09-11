@@ -4,7 +4,7 @@ id: p_MM7KWyMsCLLasX9X9VAU7R
 status: active
 merged_into: null
 display_name: 王宗堯
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -105,7 +105,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_jnP10IjD5Q5fH4FgAdlmxM
+        subject_person_id: p_kMXFk2RMgWgsEh7BZJsmpC
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_MM7KWyMsCLLasX9X9VAU7R
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_r9P6tO3c9AbmCBwa3FAS5W
+          claim_id: c_jnP10IjD5Q5fH4FgAdlmxM
+          source_id: s_YK4xjGbbiqTkzQi1BRGMns
+          stance: supports
+          locator: 嘉靖二十三年登科錄:一卷，第二甲第二十八名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_YK4xjGbbiqTkzQi1BRGMns
+            source_type: api_record
+            title: 中国历代人物传记资料库：王聘（CBDB 305533）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305533&o=json
+            external_identifier: CBDB:305533
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.741Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_kMXFk2RMgWgsEh7BZJsmpC
+        status: active
+        display_name: 王聘
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_kMXFk2RMgWgsEh7BZJsmpC | 王聘 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王聘（CBDB 305533）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305533&o=json)
 - [中国历代人物传记资料库：王宗堯（CBDB 203496）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203496&o=json)

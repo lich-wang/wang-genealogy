@@ -4,7 +4,7 @@ id: p_sCt13UNRrBt2qKTE8fxxQi
 status: active
 merged_into: null
 display_name: 王鉞
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,43 @@ relationships:
         status: active
         display_name: 王祚
         merged_into_person_id: null
+    - claim:
+        id: c_dgesp9w_Tnq4p1PSU2Wvyb
+        subject_person_id: p_jQ6FPhStVHzY3iHpSEjkQJ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_sCt13UNRrBt2qKTE8fxxQi
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PnvPsorIolgva_X4vORy_3
+          claim_id: c_dgesp9w_Tnq4p1PSU2Wvyb
+          source_id: s_rXeM55ZaVCDecR8tDFQoRd
+          stance: supports
+          locator: 弘治三年進士登科錄:一卷，第三甲第九十名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_rXeM55ZaVCDecR8tDFQoRd
+            source_type: api_record
+            title: 中国历代人物传记资料库：王召南（CBDB 262668）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262668&o=json
+            external_identifier: CBDB:262668
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.604Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_jQ6FPhStVHzY3iHpSEjkQJ
+        status: active
+        display_name: 王召南
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_GxB4u6sQCt6jzEUcjwwKLA | 王克厚 | accepted |
 | ancestors | p_1KLjzWiphK1fHeWpJUZ68o | 王祚 | accepted |
+| ancestors | p_jQ6FPhStVHzY3iHpSEjkQJ | 王召南 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王克厚（CBDB 262669）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262669&o=json)
 - [中国历代人物传记资料库：王鉞（CBDB 200774）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200774&o=json)
+- [中国历代人物传记资料库：王召南（CBDB 262668）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262668&o=json)
 - [中国历代人物传记资料库：王祚（CBDB 262667）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262667&o=json)

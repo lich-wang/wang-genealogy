@@ -4,7 +4,7 @@ id: p_qizDTnB3WekbPdnh4QuvEM
 status: active
 merged_into: null
 display_name: 王照遠
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -101,7 +101,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_1oU4CHPRy5hmAgbHfbod4U
+        subject_person_id: p_qizDTnB3WekbPdnh4QuvEM
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_jRhL4sV7stvK4utTV4sxgM
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-_wwQGNXoYW2EXsmm30Lc-
+          claim_id: c_1oU4CHPRy5hmAgbHfbod4U
+          source_id: s_MSHQLMc67oVx2UhX7Ag5P8
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13133：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_MSHQLMc67oVx2UhX7Ag5P8
+            source_type: api_record
+            title: 中国历代人物传记资料库：王玉璞（CBDB 526958）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526958&o=json
+            external_identifier: CBDB:526958
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.317Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_jRhL4sV7stvK4utTV4sxgM
+        status: active
+        display_name: 王玉璞
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_jRhL4sV7stvK4utTV4sxgM | 王玉璞 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王玉璞（CBDB 526958）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526958&o=json)
 - [中国历代人物传记资料库：王照遠（CBDB 69427）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69427&o=json)

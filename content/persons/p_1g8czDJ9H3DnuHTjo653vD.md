@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王士清
 cbdb_id: 185621
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -187,7 +187,44 @@ relationships:
         status: active
         display_name: 王武俊
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_iGLVZEohNtnFbD65JKTBPf
+        subject_person_id: p_1g8czDJ9H3DnuHTjo653vD
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_JTDcDEtUrMXFd4qTJCSp6b
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tjCuIGn1ODBKuKvXLGPVHe
+          claim_id: c_iGLVZEohNtnFbD65JKTBPf
+          source_id: s_x7RJgMfwhrPzFyny9C65ZT
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_x7RJgMfwhrPzFyny9C65ZT
+            source_type: api_record
+            title: 中国历代人物传记资料库：王承榮（CBDB 185615）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=185615&o=json
+            external_identifier: CBDB:185615
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.248Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_JTDcDEtUrMXFd4qTJCSp6b
+        status: active
+        display_name: 王承榮
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -213,10 +250,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_LkMtpZjg6KZsBH9aWToWD9 | 王武俊 | accepted |
+| children | p_JTDcDEtUrMXFd4qTJCSp6b | 王承榮 | accepted |
 
 ## 外部来源
 
 - [维基数据：王士清（Q45641702）](https://www.wikidata.org/wiki/Q45641702)
 - [维基数据：王武俊（Q7967676）](https://www.wikidata.org/wiki/Q7967676)
+- [中国历代人物传记资料库：王承榮（CBDB 185615）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=185615&o=json)
 - [CBDB 中国历代人物传记资料库：王士清（185621）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=185621&o=json)
 - [CBDB 中国历代人物传记资料库：王武俊（191752）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191752&o=json)

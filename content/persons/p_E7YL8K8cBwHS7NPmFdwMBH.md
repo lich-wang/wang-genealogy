@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王元應
 cbdb_id: 38040
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -91,7 +91,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_l3gtWlm5tJy6ghIb3MJ1Iy
+        subject_person_id: p_jUfc5vCsBkQrPPCvwGCB11
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_E7YL8K8cBwHS7NPmFdwMBH
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_uSmaoWmYUq16NOESYirktB
+          claim_id: c_l3gtWlm5tJy6ghIb3MJ1Iy
+          source_id: s_oc1QNAEk7i97afFuxniTAJ
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1427：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_oc1QNAEk7i97afFuxniTAJ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王堯臣（CBDB 23477）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=23477&o=json
+            external_identifier: CBDB:23477
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.882Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_jUfc5vCsBkQrPPCvwGCB11
+        status: active
+        display_name: 王堯臣
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_jUfc5vCsBkQrPPCvwGCB11 | 王堯臣 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王堯臣（CBDB 23477）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=23477&o=json)
 - [中国历代人物传记资料库：王元應（CBDB 38040）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38040&o=json)

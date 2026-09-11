@@ -4,7 +4,7 @@ id: p_K6Mg8CNu81j224iHAUiEPB
 status: active
 merged_into: null
 display_name: 王藩
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_GbRi48QWxoaN_5vg9mQD7n
+        subject_person_id: p_K6Mg8CNu81j224iHAUiEPB
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_cakXozT1Ed1TLgH5Avqt9N
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_CmF43IGG4ZC44K1hnh58c3
+          claim_id: c_GbRi48QWxoaN_5vg9mQD7n
+          source_id: s_h5MWpyNxZN1JyvbaLiemFy
+          stance: supports
+          locator: 隆慶五年進士登科錄:一卷，第三甲第九十六名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_cakXozT1Ed1TLgH5Avqt9N
+        status: active
+        display_name: 王汝訓
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_cakXozT1Ed1TLgH5Avqt9N | 王汝訓 | accepted |
 
 ## 外部来源
 

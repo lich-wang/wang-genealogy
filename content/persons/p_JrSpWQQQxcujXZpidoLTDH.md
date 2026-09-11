@@ -4,7 +4,7 @@ id: p_JrSpWQQQxcujXZpidoLTDH
 status: active
 merged_into: null
 display_name: 王基
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,8 +128,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_6beGpNj0XWoC_o2pcxJQYn
+        subject_person_id: p_mQHZyek2KDR5CECX2thLXN
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_JrSpWQQQxcujXZpidoLTDH
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Mf_b6k_u6SjAPaZsrTWCgr
+          claim_id: c_6beGpNj0XWoC_o2pcxJQYn
+          source_id: s_mD9iDogpDAwpMmUBH5y9R5
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaiyuan 17：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_mQHZyek2KDR5CECX2thLXN
+        status: active
+        display_name: 王素
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_hDOF9Zpb3NKlr-8oYbZEJN
+        subject_person_id: p_JrSpWQQQxcujXZpidoLTDH
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_aJXpg2Cqd8cXcAMnETdmVF
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bpcm8aeqrNqM4UQ5aS-Ifp
+          claim_id: c_hDOF9Zpb3NKlr-8oYbZEJN
+          source_id: s_mD9iDogpDAwpMmUBH5y9R5
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaiyuan 17：嗣子(作為繼承人的兒子)
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_aJXpg2Cqd8cXcAMnETdmVF
+        status: active
+        display_name: 王知謹
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +207,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_mQHZyek2KDR5CECX2thLXN | 王素 | accepted |
+| children | p_aJXpg2Cqd8cXcAMnETdmVF | 王知謹 | accepted |
 
 ## 外部来源
 

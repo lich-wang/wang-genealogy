@@ -4,7 +4,7 @@ id: p_JwEaq79pvhejygp4rNvhpM
 status: active
 merged_into: null
 display_name: 王禹
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,59 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_0Jkybg06oHagEtCEklxoj4
+        subject_person_id: p_JwEaq79pvhejygp4rNvhpM
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Ud28RLKE4Aj4vbujngiZW1
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_sB5V_LcZJdjadUF6PbWd4H
+          claim_id: c_0Jkybg06oHagEtCEklxoj4
+          source_id: s_T6zA3DgeYdSdwtU56qs5bK
+          stance: supports
+          locator: 寶祐登科錄：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Ud28RLKE4Aj4vbujngiZW1
+        status: active
+        display_name: 王申之
+        merged_into_person_id: null
+    - claim:
+        id: c_py7q9U4AYywCIOCasypQHL
+        subject_person_id: p_JwEaq79pvhejygp4rNvhpM
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_5eCF7v6xydLTPB7tAn3nDN
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Nsf0cz3F91wsHnP-LVUF8O
+          claim_id: c_py7q9U4AYywCIOCasypQHL
+          source_id: s_T6zA3DgeYdSdwtU56qs5bK
+          stance: supports
+          locator: 寶祐登科錄：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_5eCF7v6xydLTPB7tAn3nDN
+        status: active
+        display_name: 王景倓
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_Ud28RLKE4Aj4vbujngiZW1 | 王申之 | accepted |
+| descendants | p_5eCF7v6xydLTPB7tAn3nDN | 王景倓 | accepted |
 
 ## 外部来源
 

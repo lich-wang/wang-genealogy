@@ -4,7 +4,7 @@ id: p_GDYJiKmBDGx8GATz5Lz7eZ
 status: active
 merged_into: null
 display_name: 王楠
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -142,7 +142,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_Y63OTr2lFfK6toKxXAiU7g
+        subject_person_id: p_jPTs2aJkrLkZiHjYSYA58S
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_GDYJiKmBDGx8GATz5Lz7eZ
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_g5f6JW9xYftdFzXfLCHcUl
+          claim_id: c_Y63OTr2lFfK6toKxXAiU7g
+          source_id: s_3nx7D8qK1jFr1GVzDUxr2A
+          stance: supports
+          locator: 嘉靖十七年進士登科錄:一卷，第二甲第五十四名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_3nx7D8qK1jFr1GVzDUxr2A
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鑑（CBDB 283694）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=283694&o=json
+            external_identifier: CBDB:283694
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.147Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_jPTs2aJkrLkZiHjYSYA58S
+        status: active
+        display_name: 王鑑
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_dNbcibvajSXBYgSvME8CE6 | 王玉 | accepted |
+| ancestors | p_jPTs2aJkrLkZiHjYSYA58S | 王鑑 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王鑑（CBDB 283694）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=283694&o=json)
 - [中国历代人物传记资料库：王楠（CBDB 203063）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203063&o=json)
 - [中国历代人物传记资料库：王玉（CBDB 283695）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=283695&o=json)

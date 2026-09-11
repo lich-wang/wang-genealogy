@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王陳策
 cbdb_id: 203846
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -209,6 +209,43 @@ relationships:
         status: active
         display_name: 王讓
         merged_into_person_id: null
+    - claim:
+        id: c_7b6UQB6SVMCZpOAWic5aB7
+        subject_person_id: p_KgN4yUFpndgvQxkTQC5sGq
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_uMoYvHtHcYSbRrJYWwDGUq
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_u1nTEvpgKF_wsVdvIophbf
+          claim_id: c_7b6UQB6SVMCZpOAWic5aB7
+          source_id: s_vViv76KJpwWx7H7h9QCVQK
+          stance: supports
+          locator: 嘉靖二十六年進士登科錄:一卷，第三甲第一百三十四名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_vViv76KJpwWx7H7h9QCVQK
+            source_type: api_record
+            title: 中国历代人物传记资料库：王貢（CBDB 310880）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=310880&o=json
+            external_identifier: CBDB:310880
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.845Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_KgN4yUFpndgvQxkTQC5sGq
+        status: active
+        display_name: 王貢
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -231,9 +268,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_BtDG6VoMZJKLkro1XEtynE | 王交 | accepted |
 | ancestors | p_gAcK3ypRp84yEmW7QJ4Za5 | 王讓 | accepted |
+| ancestors | p_KgN4yUFpndgvQxkTQC5sGq | 王貢 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王陳策（CBDB 203846）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203846&o=json)
+- [中国历代人物传记资料库：王貢（CBDB 310880）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=310880&o=json)
 - [中国历代人物传记资料库：王交（CBDB 310881）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=310881&o=json)
 - [中国历代人物传记资料库：王讓（CBDB 310879）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=310879&o=json)

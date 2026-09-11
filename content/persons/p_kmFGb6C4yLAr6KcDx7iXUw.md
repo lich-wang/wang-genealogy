@@ -4,7 +4,7 @@ id: p_kmFGb6C4yLAr6KcDx7iXUw
 status: active
 merged_into: null
 display_name: 王日宣
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_aCAEh4dTuQjNSU1SY31KJi
+        subject_person_id: p_kmFGb6C4yLAr6KcDx7iXUw
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_E7amjgt6yp7HBUfn9XcsS2
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YJ9Tigwvryqqzkquc1eQAB
+          claim_id: c_aCAEh4dTuQjNSU1SY31KJi
+          source_id: s_8832yP8E2dUnZF1m1aEYxY
+          stance: supports
+          locator: 元人傳記資料索引，18626：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_E7amjgt6yp7HBUfn9XcsS2
+        status: active
+        display_name: 王令顯
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_E7amjgt6yp7HBUfn9XcsS2 | 王令顯 | accepted |
 
 ## 外部来源
 

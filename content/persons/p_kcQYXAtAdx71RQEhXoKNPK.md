@@ -4,7 +4,7 @@ id: p_kcQYXAtAdx71RQEhXoKNPK
 status: active
 merged_into: null
 display_name: 王剛中
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,12 +72,64 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_k5MJeOYBoHXNybmqGWK_J5
+        subject_person_id: p_WgNmx4b4KuLP378oSihf2n
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_kcQYXAtAdx71RQEhXoKNPK
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Z2OrPN-t_yhl_aUUyDdtdj
+          claim_id: c_k5MJeOYBoHXNybmqGWK_J5
+          source_id: s_QU6wNA5nA6pBKS62D28qrg
+          stance: supports
+          locator: 寶祐登科錄：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_WgNmx4b4KuLP378oSihf2n
+        status: active
+        display_name: 王堅叔
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_bD60VQtOu8axQPSgU_yX7b
+        subject_person_id: p_Y7xw69wqSLG2G9CDMuvsf4
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_kcQYXAtAdx71RQEhXoKNPK
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xTOCYckC0PZaCy7cdBNIG0
+          claim_id: c_bD60VQtOu8axQPSgU_yX7b
+          source_id: s_QU6wNA5nA6pBKS62D28qrg
+          stance: supports
+          locator: 寶祐登科錄：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Y7xw69wqSLG2G9CDMuvsf4
+        status: active
+        display_name: 王延
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_WgNmx4b4KuLP378oSihf2n | 王堅叔 | accepted |
+| ancestors | p_Y7xw69wqSLG2G9CDMuvsf4 | 王延 | accepted |
 
 ## 外部来源
 

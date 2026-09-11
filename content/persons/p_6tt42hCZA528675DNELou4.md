@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王敬民
 cbdb_id: 126758
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -166,6 +166,43 @@ relationships:
         status: active
         display_name: 王鵬
         merged_into_person_id: null
+    - claim:
+        id: c_mDS9WAB2tlK2IHODy1I9gF
+        subject_person_id: p_jUjNP9sVxiLjQzRNEpXK7e
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_6tt42hCZA528675DNELou4
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-J1YWCs05IvVeIFG-jQM4W
+          claim_id: c_mDS9WAB2tlK2IHODy1I9gF
+          source_id: s_CEt7SSDHjqE3216J9gDNRR
+          stance: supports
+          locator: 隆慶五年進士登科錄:一卷，第三甲第一百六十六名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_CEt7SSDHjqE3216J9gDNRR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王訓（CBDB 210652）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210652&o=json
+            external_identifier: CBDB:210652
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.015Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_jUjNP9sVxiLjQzRNEpXK7e
+        status: active
+        display_name: 王訓
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -187,9 +224,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_FnmNgMN9f39gDixwHRx4Tp | 王稅 | accepted |
 | ancestors | p_hNxVQfwk4FSN9MPoJFSLNk | 王鵬 | accepted |
+| ancestors | p_jUjNP9sVxiLjQzRNEpXK7e | 王訓 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王敬民（CBDB 126758）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126758&o=json)
 - [中国历代人物传记资料库：王鵬（CBDB 210651）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210651&o=json)
 - [中国历代人物传记资料库：王稅（CBDB 210653）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210653&o=json)
+- [中国历代人物传记资料库：王訓（CBDB 210652）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210652&o=json)

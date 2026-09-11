@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王體復
 cbdb_id: 205493
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -171,7 +171,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_7gtsHnmzqbjgm9bB-LRelx
+        subject_person_id: p_Jngyxop9ncGYJHbuLicTeo
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Que1Sc9ugp524zabUcC6Bk
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_IhLzT6mxeBeGnPViemSGNW
+          claim_id: c_7gtsHnmzqbjgm9bB-LRelx
+          source_id: s_8WuZf9XXDk1hZjgaUhAxc5
+          stance: supports
+          locator: 隆慶二年進士登科錄:一卷，第二甲第五十七名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_8WuZf9XXDk1hZjgaUhAxc5
+            source_type: api_record
+            title: 中国历代人物传记资料库：王寍（CBDB 334170）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334170&o=json
+            external_identifier: CBDB:334170
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.434Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Jngyxop9ncGYJHbuLicTeo
+        status: active
+        display_name: 王寍
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -193,8 +230,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_9KuNRr8o75Vr36yjwDeyAm | 王應時 | accepted |
+| ancestors | p_Jngyxop9ncGYJHbuLicTeo | 王寍 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王寍（CBDB 334170）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334170&o=json)
 - [中国历代人物传记资料库：王體復（CBDB 205493）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205493&o=json)
 - [中国历代人物传记资料库：王應時（CBDB 334172）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334172&o=json)

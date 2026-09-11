@@ -4,7 +4,7 @@ id: p_Jx21u1oXQ28VVY59JcdfLz
 status: active
 merged_into: null
 display_name: 王彪
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_WUIxyYbZs0txqV5fQpSoRr
+        subject_person_id: p_Jx21u1oXQ28VVY59JcdfLz
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_SiRDDsb57pG6VTfrkJRXut
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_EA7D-uhQXvWNEBCb495_eU
+          claim_id: c_WUIxyYbZs0txqV5fQpSoRr
+          source_id: s_8Ku9BBmyJf7jLLivaYHvdG
+          stance: supports
+          locator: 成化八年進士登科錄:一卷，第三甲第一百三十一名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_SiRDDsb57pG6VTfrkJRXut
+        status: active
+        display_name: 王紳
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_SiRDDsb57pG6VTfrkJRXut | 王紳 | accepted |
 
 ## 外部来源
 

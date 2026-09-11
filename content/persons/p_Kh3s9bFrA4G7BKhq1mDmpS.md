@@ -4,7 +4,7 @@ id: p_Kh3s9bFrA4G7BKhq1mDmpS
 status: active
 merged_into: null
 display_name: 王豫
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_NPbuDFy55gbYLC6XpqjTfa
+        subject_person_id: p_m2u5S517EzZLU5zbF8ATt2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Kh3s9bFrA4G7BKhq1mDmpS
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_p4wtsdKP5Q7Ce1d170F5jZ
+          claim_id: c_NPbuDFy55gbYLC6XpqjTfa
+          source_id: s_pWEYeHP9JX5tKuL5CUG7A3
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，北宋卷224 王宗則別志：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_m2u5S517EzZLU5zbF8ATt2
+        status: active
+        display_name: 王宗則
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_m2u5S517EzZLU5zbF8ATt2 | 王宗則 | accepted |
 
 ## 外部来源
 

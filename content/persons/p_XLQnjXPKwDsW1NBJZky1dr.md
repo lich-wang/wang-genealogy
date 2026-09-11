@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王平言
 cbdb_id: 119737
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -125,6 +125,43 @@ relationships:
         status: active
         display_name: 王回
         merged_into_person_id: null
+    - claim:
+        id: c_VM89x9-g2oSRtOsuKKP3zC
+        subject_person_id: p_XLQnjXPKwDsW1NBJZky1dr
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_K5LjMqeJMi1bJQpP3h2SuW
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4FJF67fcCUjpeoJF32sGFU
+          claim_id: c_VM89x9-g2oSRtOsuKKP3zC
+          source_id: s_zM4pAm39VAA78r5cpman3J
+          stance: supports
+          locator: 宋史：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_zM4pAm39VAA78r5cpman3J
+            source_type: api_record
+            title: 中国历代人物传记资料库：王向（CBDB 22043）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22043&o=json
+            external_identifier: CBDB:22043
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.809Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_K5LjMqeJMi1bJQpP3h2SuW
+        status: active
+        display_name: 王向
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -149,8 +186,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_APTq991Q3yJCPFR1a9881c | 王回 | accepted |
+| children | p_K5LjMqeJMi1bJQpP3h2SuW | 王向 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王回（CBDB 3958）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3958&o=json)
 - [中国历代人物传记资料库：王平言（CBDB 119737）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=119737&o=json)
+- [中国历代人物传记资料库：王向（CBDB 22043）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22043&o=json)

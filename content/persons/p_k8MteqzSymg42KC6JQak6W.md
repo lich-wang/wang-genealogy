@@ -4,7 +4,7 @@ id: p_k8MteqzSymg42KC6JQak6W
 status: active
 merged_into: null
 display_name: 王宙
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,8 +100,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_IyslP-_4VrB_wurW-vGCK6
+        subject_person_id: p_StpRQqqgHhK5fWuKMf7Cn3
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_k8MteqzSymg42KC6JQak6W
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fjwsh2q7o1Nh49dvXSLd1a
+          claim_id: c_IyslP-_4VrB_wurW-vGCK6
+          source_id: s_BU6G7Wp9iyMTBEBLFLxaoD
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_StpRQqqgHhK5fWuKMf7Cn3
+        status: active
+        display_name: 王思本
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_c-CiajuFfUZcE2GV6JC4f4
+        subject_person_id: p_k8MteqzSymg42KC6JQak6W
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_UHQ83RNHQcEz6ALsbjLwK3
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_O_RSvqHiqdsia1rpIvGMX1
+          claim_id: c_c-CiajuFfUZcE2GV6JC4f4
+          source_id: s_BU6G7Wp9iyMTBEBLFLxaoD
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_UHQ83RNHQcEz6ALsbjLwK3
+        status: active
+        display_name: 王甫
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,6 +178,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_StpRQqqgHhK5fWuKMf7Cn3 | 王思本 | accepted |
+| children | p_UHQ83RNHQcEz6ALsbjLwK3 | 王甫 | accepted |
 
 ## 外部来源
 

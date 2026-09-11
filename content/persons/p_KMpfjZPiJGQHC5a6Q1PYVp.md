@@ -4,7 +4,7 @@ id: p_KMpfjZPiJGQHC5a6Q1PYVp
 status: active
 merged_into: null
 display_name: 王敬
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_8wXgiQQie0lG2CaoMwKg8b
+        subject_person_id: p_KMpfjZPiJGQHC5a6Q1PYVp
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_dz9UYGUCmAwX3qeez8fHjJ
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_x4GN-ATpptCyrlHy0aKeDU
+          claim_id: c_8wXgiQQie0lG2CaoMwKg8b
+          source_id: s_1oaKuud9fgezFzDZQB28Lf
+          stance: supports
+          locator: 弘治十五年進士登科錄:一卷，第三甲第七十八名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_dz9UYGUCmAwX3qeez8fHjJ
+        status: active
+        display_name: 王俸
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_dz9UYGUCmAwX3qeez8fHjJ | 王俸 | accepted |
 
 ## 外部来源
 

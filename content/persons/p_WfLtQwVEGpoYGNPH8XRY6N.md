@@ -4,7 +4,7 @@ id: p_WfLtQwVEGpoYGNPH8XRY6N
 status: active
 merged_into: null
 display_name: 王藻
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -143,6 +143,43 @@ relationships:
         status: active
         display_name: 王連
         merged_into_person_id: null
+    - claim:
+        id: c_NV1tCK3WWjRCOBUwyNnlD4
+        subject_person_id: p_jnBfdX1BtMCkZgKxJEPdYT
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_WfLtQwVEGpoYGNPH8XRY6N
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_EbM-cbCN3N1hGZta2xTQkc
+          claim_id: c_NV1tCK3WWjRCOBUwyNnlD4
+          source_id: s_n6D3NEiWqg6PCpKgEq4es2
+          stance: supports
+          locator: 隆慶二年進士登科錄:一卷，第三甲第二百一十六名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_n6D3NEiWqg6PCpKgEq4es2
+            source_type: api_record
+            title: 中国历代人物传记资料库：王佑（CBDB 336679）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336679&o=json
+            external_identifier: CBDB:336679
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.496Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_jnBfdX1BtMCkZgKxJEPdYT
+        status: active
+        display_name: 王佑
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_HfQ8vHdEkoZDLPDA9aRBns | 王連 | accepted |
+| ancestors | p_jnBfdX1BtMCkZgKxJEPdYT | 王佑 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王連（CBDB 336678）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336678&o=json)
+- [中国历代人物传记资料库：王佑（CBDB 336679）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336679&o=json)
 - [中国历代人物传记资料库：王藻（CBDB 205665）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205665&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王德完
 cbdb_id: 126817
-revision: 4
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -210,7 +210,44 @@ relationships:
         status: active
         display_name: 王梁
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_jekfO8IXiDEfGs4yxC9wI_
+        subject_person_id: p_E9W2DShq5Qkj6ZiKVB1xLN
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_JQFD18pnN8g1zQ736jg5Dw
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8_86_dNFhn05ljOvO9AKVk
+          claim_id: c_jekfO8IXiDEfGs4yxC9wI_
+          source_id: s_XfAjBiZuXRkuEBHXcm7PAD
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第三甲第四十二名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_XfAjBiZuXRkuEBHXcm7PAD
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瑾（CBDB 230045）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=230045&o=json
+            external_identifier: CBDB:230045
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.602Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_JQFD18pnN8g1zQ736jg5Dw
+        status: active
+        display_name: 王瑾
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -311,12 +348,14 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_2njDB7hmvoYHNUkzktGMvR | 王梁 | accepted |
+| children | p_JQFD18pnN8g1zQ736jg5Dw | 王瑾 | accepted |
 | ancestors | p_82LH4zvWB91eefqaMKXniR | 王世官 | accepted |
 | ancestors | p_aWF5sW3QPdvcFBSS3QPhdU | 王瀛 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王德完（CBDB 126817）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126817&o=json)
+- [中国历代人物传记资料库：王瑾（CBDB 230045）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=230045&o=json)
 - [中国历代人物传记资料库：王梁（CBDB 230036）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=230036&o=json)
 - [中国历代人物传记资料库：王世官（CBDB 230035）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=230035&o=json)
 - [中国历代人物传记资料库：王瀛（CBDB 230034）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=230034&o=json)

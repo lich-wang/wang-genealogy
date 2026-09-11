@@ -4,7 +4,7 @@ id: p_KdcqPruLqAjHwvyr7gXGsW
 status: active
 merged_into: null
 display_name: 王繼昇
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -167,6 +167,32 @@ relationships:
         status: active
         display_name: 王昭遠
         merged_into_person_id: null
+    - claim:
+        id: c_INEL5Vfn5TbCHYf-jQ8D5e
+        subject_person_id: p_KdcqPruLqAjHwvyr7gXGsW
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_mPvn6cAvHte4h7vhugYUrv
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_h1JLJDH6u1RocL943HijKk
+          claim_id: c_INEL5Vfn5TbCHYf-jQ8D5e
+          source_id: s_uC4WJXKbFJAC7KghSUo3CJ
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1792：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_mPvn6cAvHte4h7vhugYUrv
+        status: active
+        display_name: 王昭遠
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -193,6 +219,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_aJyucbNuo6SKu4c6Y3x6DY | 王昭遠 | accepted |
+| children | p_mPvn6cAvHte4h7vhugYUrv | 王昭遠 | accepted |
 
 ## 外部来源
 

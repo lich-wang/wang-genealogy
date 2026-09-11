@@ -4,7 +4,7 @@ id: p_kBqE6QprrhgLRYUsgfWdoz
 status: active
 merged_into: null
 display_name: 王建
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_YBS6eqPcd0oIPec_B3PPis
+        subject_person_id: p_RuSLTh9boFqmMpRBv7wnJ1
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_kBqE6QprrhgLRYUsgfWdoz
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_srFBTifsPbnNuwwf9hAIpb
+          claim_id: c_YBS6eqPcd0oIPec_B3PPis
+          source_id: s_GVkM3ScQfpkZuNtBgD5koE
+          stance: supports
+          locator: 成化十四年進士登科錄:一卷，第三甲第十一名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_RuSLTh9boFqmMpRBv7wnJ1
+        status: active
+        display_name: 王子謨
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_SJydlMO2zncJFmLOAUdFMO
+        subject_person_id: p_C1g4JvF6DrkWJiGETqWFZx
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_kBqE6QprrhgLRYUsgfWdoz
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QzYvzwfXfw9YmxvURdZbyj
+          claim_id: c_SJydlMO2zncJFmLOAUdFMO
+          source_id: s_GVkM3ScQfpkZuNtBgD5koE
+          stance: supports
+          locator: 成化十四年進士登科錄:一卷，第三甲第十一名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_C1g4JvF6DrkWJiGETqWFZx
+        status: active
+        display_name: 王天麒
+        merged_into_person_id: null
+    - claim:
+        id: c_pXFjDepD5gOSFSBSwKkWLi
+        subject_person_id: p_HPaT4GWNxvXDDALDWZMKbD
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_kBqE6QprrhgLRYUsgfWdoz
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_uAElBjbu7DmsQ2jMgezSoz
+          claim_id: c_pXFjDepD5gOSFSBSwKkWLi
+          source_id: s_GVkM3ScQfpkZuNtBgD5koE
+          stance: supports
+          locator: 成化十四年進士登科錄:一卷，第三甲第十一名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_HPaT4GWNxvXDDALDWZMKbD
+        status: active
+        display_name: 王仕恭
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_RuSLTh9boFqmMpRBv7wnJ1 | 王子謨 | accepted |
+| ancestors | p_C1g4JvF6DrkWJiGETqWFZx | 王天麒 | accepted |
+| ancestors | p_HPaT4GWNxvXDDALDWZMKbD | 王仕恭 | accepted |
 
 ## 外部来源
 

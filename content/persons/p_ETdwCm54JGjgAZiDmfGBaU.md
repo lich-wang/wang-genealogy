@@ -4,7 +4,7 @@ id: p_ETdwCm54JGjgAZiDmfGBaU
 status: active
 merged_into: null
 display_name: 王偉
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -142,7 +142,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_Xt8z03dY3okm-36YC8A__L
+        subject_person_id: p_K9QEgp6JSKaffEKcTo7xe2
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_ETdwCm54JGjgAZiDmfGBaU
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AoxFsz5vQpexaI53aBELNm
+          claim_id: c_Xt8z03dY3okm-36YC8A__L
+          source_id: s_9kzsHgRKwkNrd268ZDTF6o
+          stance: supports
+          locator: 紹興府志:八十卷，lgid=316700：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_9kzsHgRKwkNrd268ZDTF6o
+            source_type: api_record
+            title: 中国历代人物传记资料库：王賢（CBDB 563485）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=563485&o=json
+            external_identifier: CBDB:563485
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:25.799Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_K9QEgp6JSKaffEKcTo7xe2
+        status: active
+        display_name: 王賢
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_67QPdbGBEAuDLU32GCV69J | 王正 | accepted |
+| ancestors | p_K9QEgp6JSKaffEKcTo7xe2 | 王賢 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王偉（CBDB 439386）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=439386&o=json)
+- [中国历代人物传记资料库：王賢（CBDB 563485）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=563485&o=json)
 - [中国历代人物传记资料库：王正（CBDB 563487）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=563487&o=json)

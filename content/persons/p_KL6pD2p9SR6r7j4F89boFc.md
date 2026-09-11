@@ -4,7 +4,7 @@ id: p_KL6pD2p9SR6r7j4F89boFc
 status: active
 merged_into: null
 display_name: 王衡
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,12 +72,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_yuKy0CqhEGl2Qc5OSg4r42
+        subject_person_id: p_xVTypDWdUQ3wcoicLvKHN5
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_KL6pD2p9SR6r7j4F89boFc
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gDysBRfSV_y6QpzDLxEnhh
+          claim_id: c_yuKy0CqhEGl2Qc5OSg4r42
+          source_id: s_fXkoxige6XKe16u4aLm1LC
+          stance: supports
+          locator: 景泰五年進士登科錄:一卷，第二甲第七十四名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_xVTypDWdUQ3wcoicLvKHN5
+        status: active
+        display_name: 王穆
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_4xFVgx1eoD0SAoOHaYndwB
+        subject_person_id: p_BAsTPzr6Vm683uWTRsXWEW
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_KL6pD2p9SR6r7j4F89boFc
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lVfHCe3UdsSQHTbYrbTfVh
+          claim_id: c_4xFVgx1eoD0SAoOHaYndwB
+          source_id: s_fXkoxige6XKe16u4aLm1LC
+          stance: supports
+          locator: 景泰五年進士登科錄:一卷，第二甲第七十四名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_BAsTPzr6Vm683uWTRsXWEW
+        status: active
+        display_name: 王廣齋
+        merged_into_person_id: null
+    - claim:
+        id: c_egJ6VOVXgqKa_sorop_vBj
+        subject_person_id: p_GV5BzNPr7Y3sJXX4Dxcndh
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_KL6pD2p9SR6r7j4F89boFc
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_h94-zuwJ5QTgsk8oKIaIH9
+          claim_id: c_egJ6VOVXgqKa_sorop_vBj
+          source_id: s_fXkoxige6XKe16u4aLm1LC
+          stance: supports
+          locator: 景泰五年進士登科錄:一卷，第二甲第七十四名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_GV5BzNPr7Y3sJXX4Dxcndh
+        status: active
+        display_name: 王志崇
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +175,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_xVTypDWdUQ3wcoicLvKHN5 | 王穆 | accepted |
+| ancestors | p_BAsTPzr6Vm683uWTRsXWEW | 王廣齋 | accepted |
+| ancestors | p_GV5BzNPr7Y3sJXX4Dxcndh | 王志崇 | accepted |
 
 ## 外部来源
 

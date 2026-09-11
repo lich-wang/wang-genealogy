@@ -4,7 +4,7 @@ id: p_K2d49Yq9hEHtm6jMk4r66o
 status: active
 merged_into: null
 display_name: 王俊
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -129,7 +129,59 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_idT5Yida0saQpeqtXRKKFP
+        subject_person_id: p_K2d49Yq9hEHtm6jMk4r66o
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Mq6taFsBHLxFj1CBt9EG8r
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cDF4ZMb1hd4TD0nRbtilu0
+          claim_id: c_idT5Yida0saQpeqtXRKKFP
+          source_id: s_Y8GJJBP1tFbMTVUQgh1zL8
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Zhenyuan 39：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Mq6taFsBHLxFj1CBt9EG8r
+        status: active
+        display_name: 王志寧
+        merged_into_person_id: null
+    - claim:
+        id: c__2Y7u_ot75bv18GAID3ymc
+        subject_person_id: p_K2d49Yq9hEHtm6jMk4r66o
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_X7o9ixF2UZ4ZYG6apCTsVu
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1fs4_XC3UpOIhXZ6eeOO3S
+          claim_id: c__2Y7u_ot75bv18GAID3ymc
+          source_id: s_Y8GJJBP1tFbMTVUQgh1zL8
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Zhenyuan 39：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_X7o9ixF2UZ4ZYG6apCTsVu
+        status: active
+        display_name: 王志忠
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +207,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_Mq6taFsBHLxFj1CBt9EG8r | 王志寧 | accepted |
+| children | p_X7o9ixF2UZ4ZYG6apCTsVu | 王志忠 | accepted |
 
 ## 外部来源
 

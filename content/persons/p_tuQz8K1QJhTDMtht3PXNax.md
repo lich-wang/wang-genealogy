@@ -4,7 +4,7 @@ id: p_tuQz8K1QJhTDMtht3PXNax
 status: active
 merged_into: null
 display_name: 王浹
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -116,6 +116,43 @@ relationships:
         status: active
         display_name: 王允功
         merged_into_person_id: null
+    - claim:
+        id: c_X0KmWKEd5WRo58zsUYNlCp
+        subject_person_id: p_tuQz8K1QJhTDMtht3PXNax
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Jzy9nZapWwZfBJyYh44MuQ
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SDo6yOh76-n38DfuiA6gde
+          claim_id: c_X0KmWKEd5WRo58zsUYNlCp
+          source_id: s_GaBEDkbrHxJxk3yFFC3Eei
+          stance: supports
+          locator: 紹興十八年同年小錄，157：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_GaBEDkbrHxJxk3yFFC3Eei
+            source_type: api_record
+            title: 中国历代人物传记资料库：王琮（CBDB 23650）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=23650&o=json
+            external_identifier: CBDB:23650
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.889Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Jzy9nZapWwZfBJyYh44MuQ
+        status: active
+        display_name: 王琮
+        merged_into_person_id: null
   other: []
 ---
 
@@ -135,8 +172,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | descendants | p_2RzrzUqsutK3yv9cd9dwXj | 王允功 | accepted |
+| descendants | p_Jzy9nZapWwZfBJyYh44MuQ | 王琮 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王琮（CBDB 23650）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=23650&o=json)
 - [中国历代人物传记资料库：王浹（CBDB 23648）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=23648&o=json)
 - [中国历代人物传记资料库：王允功（CBDB 23652）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=23652&o=json)

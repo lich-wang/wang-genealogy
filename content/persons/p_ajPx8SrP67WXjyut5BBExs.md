@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王睿
 cbdb_id: 314679
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -214,6 +214,43 @@ relationships:
         status: active
         display_name: 王𫓧
         merged_into_person_id: null
+    - claim:
+        id: c__HIUS8DGQzeSb_nlbeBtBd
+        subject_person_id: p_ajPx8SrP67WXjyut5BBExs
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_KdnEK5JvxzCLuhzpo1b35X
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zPKLBMGVifz3pyF9TqlAVk
+          claim_id: c__HIUS8DGQzeSb_nlbeBtBd
+          source_id: s_PFzSq6kQwtCdVXYvMpdpPB
+          stance: supports
+          locator: 嘉靖二十九年進士登科錄:一卷，第三甲第二百名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_PFzSq6kQwtCdVXYvMpdpPB
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鈇（CBDB 67912）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67912&o=json
+            external_identifier: CBDB:67912
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:13.029Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_KdnEK5JvxzCLuhzpo1b35X
+        status: active
+        display_name: 王鈇
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -239,10 +276,12 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_XafvmbqFiWanFhRfKjJh1p | 王通 | accepted |
 | children | p_jWRBXNs9hNQYimujJ64LcZ | 王𫓧 | accepted |
+| children | p_KdnEK5JvxzCLuhzpo1b35X | 王鈇 | accepted |
 
 ## 外部来源
 
 - [维基数据：王𫓧（Q15934129）](https://www.wikidata.org/wiki/Q15934129)
 - [维基数据：王睿（Q45442408）](https://www.wikidata.org/wiki/Q45442408)
 - [维基数据：王通（Q45442342）](https://www.wikidata.org/wiki/Q45442342)
+- [中国历代人物传记资料库：王鈇（CBDB 67912）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67912&o=json)
 - [CBDB 中国历代人物传记资料库：王睿（314679）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314679&o=json)

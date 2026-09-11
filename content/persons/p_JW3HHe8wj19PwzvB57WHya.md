@@ -4,7 +4,7 @@ id: p_JW3HHe8wj19PwzvB57WHya
 status: active
 merged_into: null
 display_name: 王震業
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_qCQOGR0cqWTdEWu6WkYj9a
+        subject_person_id: p_JW3HHe8wj19PwzvB57WHya
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_EHHNxMEXdrxGCodii5TLHE
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KEnkYY4IvFkQZBZBpE0Cke
+          claim_id: c_qCQOGR0cqWTdEWu6WkYj9a
+          source_id: s_E31qh3CjFBQw4YRdLJhsG6
+          stance: supports
+          locator: 武進陽湖縣志，lgid=152537：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_EHHNxMEXdrxGCodii5TLHE
+        status: active
+        display_name: 王曰旦
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_EHHNxMEXdrxGCodii5TLHE | 王曰旦 | accepted |
 
 ## 外部来源
 

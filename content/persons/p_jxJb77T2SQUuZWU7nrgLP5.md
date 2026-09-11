@@ -4,7 +4,7 @@ id: p_jxJb77T2SQUuZWU7nrgLP5
 status: active
 merged_into: null
 display_name: 王同倫
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_26II9FsoqingD6qrhGmSZm
+        subject_person_id: p_kSZuSxLVRUx1AX2npsBxe9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_jxJb77T2SQUuZWU7nrgLP5
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fHIEJzV939JmaGIroE_54K
+          claim_id: c_26II9FsoqingD6qrhGmSZm
+          source_id: s_2wGjdALaD45tx6N97DN7RH
+          stance: supports
+          locator: 嘉靖三十五年進士登科錄:一卷，第三甲第一百三十五名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_kSZuSxLVRUx1AX2npsBxe9
+        status: active
+        display_name: 王垽
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_8niB_fcoS8Q6Z9SQ7ejgJa
+        subject_person_id: p_kK9zSdM9HPzF6bPSwAPxfV
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_jxJb77T2SQUuZWU7nrgLP5
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1egTNCu8Exmynf0NDJ4j8_
+          claim_id: c_8niB_fcoS8Q6Z9SQ7ejgJa
+          source_id: s_2wGjdALaD45tx6N97DN7RH
+          stance: supports
+          locator: 嘉靖三十五年進士登科錄:一卷，第三甲第一百三十五名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_kK9zSdM9HPzF6bPSwAPxfV
+        status: active
+        display_name: 王昭
+        merged_into_person_id: null
+    - claim:
+        id: c_UTAnL4eBYlLXCT8u0xjN6j
+        subject_person_id: p_Rwuy9n9CHqHdWUzkFfFBwF
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_jxJb77T2SQUuZWU7nrgLP5
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_eEwtWQbZ0dfO0xtKEChdz3
+          claim_id: c_UTAnL4eBYlLXCT8u0xjN6j
+          source_id: s_2wGjdALaD45tx6N97DN7RH
+          stance: supports
+          locator: 嘉靖三十五年進士登科錄:一卷，第三甲第一百三十五名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Rwuy9n9CHqHdWUzkFfFBwF
+        status: active
+        display_name: 王煦
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_kSZuSxLVRUx1AX2npsBxe9 | 王垽 | accepted |
+| ancestors | p_kK9zSdM9HPzF6bPSwAPxfV | 王昭 | accepted |
+| ancestors | p_Rwuy9n9CHqHdWUzkFfFBwF | 王煦 | accepted |
 
 ## 外部来源
 

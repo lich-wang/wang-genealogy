@@ -4,7 +4,7 @@ id: p_jUfc5vCsBkQrPPCvwGCB11
 status: active
 merged_into: null
 display_name: 王堯臣
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -133,8 +133,86 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
-  descendants: []
+  ancestors:
+    - claim:
+        id: c_Xb3vZWf4sV8tg8bXGLmeNW
+        subject_person_id: p_XNnEJW93RJQ51JNrQsQRTJ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_jUfc5vCsBkQrPPCvwGCB11
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tnB1AGY8VlutAVVmctRTX-
+          claim_id: c_Xb3vZWf4sV8tg8bXGLmeNW
+          source_id: s_oc1QNAEk7i97afFuxniTAJ
+          stance: supports
+          locator: 紹興十八年同年小錄，136：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_XNnEJW93RJQ51JNrQsQRTJ
+        status: active
+        display_name: 王彥
+        merged_into_person_id: null
+    - claim:
+        id: c_y4QFL_q8Qc0ysxcsVGXB_N
+        subject_person_id: p_k5osjTmtD6qGAxU1cpt1aP
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_jUfc5vCsBkQrPPCvwGCB11
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_slRd2UUE2rxjekk55k18sQ
+          claim_id: c_y4QFL_q8Qc0ysxcsVGXB_N
+          source_id: s_oc1QNAEk7i97afFuxniTAJ
+          stance: supports
+          locator: 紹興十八年同年小錄，136：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_k5osjTmtD6qGAxU1cpt1aP
+        status: active
+        display_name: 王文
+        merged_into_person_id: null
+  descendants:
+    - claim:
+        id: c_l3gtWlm5tJy6ghIb3MJ1Iy
+        subject_person_id: p_jUfc5vCsBkQrPPCvwGCB11
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_E7YL8K8cBwHS7NPmFdwMBH
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_uSmaoWmYUq16NOESYirktB
+          claim_id: c_l3gtWlm5tJy6ghIb3MJ1Iy
+          source_id: s_oc1QNAEk7i97afFuxniTAJ
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1427：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_E7YL8K8cBwHS7NPmFdwMBH
+        status: active
+        display_name: 王元應
+        merged_into_person_id: null
   other: []
 ---
 
@@ -155,6 +233,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_XNnEJW93RJQ51JNrQsQRTJ | 王彥 | accepted |
+| ancestors | p_k5osjTmtD6qGAxU1cpt1aP | 王文 | accepted |
+| descendants | p_E7YL8K8cBwHS7NPmFdwMBH | 王元應 | accepted |
 
 ## 外部来源
 

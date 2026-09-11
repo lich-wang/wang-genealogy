@@ -4,7 +4,7 @@ id: p_skE22yKfDfbLErvfJ74UoM
 status: active
 merged_into: null
 display_name: 王珣
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_zJQMprfTGeGKtHsoaP1Bd8
+        subject_person_id: p_jzBh6L6KhRH4LcPSXE67mz
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_skE22yKfDfbLErvfJ74UoM
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_TP-hKYope3CslSL9j_KPWY
+          claim_id: c_zJQMprfTGeGKtHsoaP1Bd8
+          source_id: s_imQ7JRrSsxwenYX754GD3c
+          stance: supports
+          locator: 成化五年進士登科錄:一卷，第三甲第二十六名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_imQ7JRrSsxwenYX754GD3c
+            source_type: api_record
+            title: 中国历代人物传记资料库：王蘭（CBDB 243628）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=243628&o=json
+            external_identifier: CBDB:243628
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.005Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_jzBh6L6KhRH4LcPSXE67mz
+        status: active
+        display_name: 王蘭
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -134,9 +171,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_jzBh6L6KhRH4LcPSXE67mz | 王蘭 | accepted |
 | ancestors | p_dCfMaFwsRUoxMaq7jCVvtf | 王導 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王導（CBDB 243627）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=243627&o=json)
+- [中国历代人物传记资料库：王蘭（CBDB 243628）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=243628&o=json)
 - [中国历代人物传记资料库：王珣（CBDB 126640）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126640&o=json)
