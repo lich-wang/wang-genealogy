@@ -4,7 +4,7 @@ id: p_oKtgLK3Hc3EvgppJQNGw5k
 status: active
 merged_into: null
 display_name: 王堦
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,43 @@ relationships:
         status: active
         display_name: 王寀
         merged_into_person_id: null
+    - claim:
+        id: c_h0GIPx_jDwcWugOxOMtGUa
+        subject_person_id: p_iHyxvVSLCLLevmA84oLG2M
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_oKtgLK3Hc3EvgppJQNGw5k
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_iZ18R4pJzdZwvlDJam0i5s
+          claim_id: c_h0GIPx_jDwcWugOxOMtGUa
+          source_id: s_rkBFS7b7s6ZKy1a1N6E1LK
+          stance: supports
+          locator: 萬曆十一年進士登科錄:一卷，第三甲第二百六十五名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_rkBFS7b7s6ZKy1a1N6E1LK
+            source_type: api_record
+            title: 中国历代人物传记资料库：王大受（CBDB 225724）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=225724&o=json
+            external_identifier: CBDB:225724
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.433Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_iHyxvVSLCLLevmA84oLG2M
+        status: active
+        display_name: 王大受
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_7mmFEyZWywonqa5VSZtBkH | 王宗靖 | accepted |
 | ancestors | p_H9c4uhZm81aBYx1zvk8rrU | 王寀 | accepted |
+| ancestors | p_iHyxvVSLCLLevmA84oLG2M | 王大受 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王寀（CBDB 225726）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=225726&o=json)
+- [中国历代人物传记资料库：王大受（CBDB 225724）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=225724&o=json)
 - [中国历代人物传记资料库：王堦（CBDB 206978）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206978&o=json)
 - [中国历代人物传记资料库：王宗靖（CBDB 225727）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=225727&o=json)

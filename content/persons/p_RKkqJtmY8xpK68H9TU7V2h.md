@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王岳錫
 cbdb_id: 206741
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -172,6 +172,43 @@ relationships:
         status: active
         display_name: 王簡
         merged_into_person_id: null
+    - claim:
+        id: c_N6V9fqXAf72TJCzLu2K5MO
+        subject_person_id: p_JeB3hwSR896jhFPxZ6KM4b
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_RKkqJtmY8xpK68H9TU7V2h
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_TXtu2ERiTujYksrAniDEOU
+          claim_id: c_N6V9fqXAf72TJCzLu2K5MO
+          source_id: s_GjQhHr3p86m75jYhNXM4yw
+          stance: supports
+          locator: 萬曆十一年進士登科錄:一卷，第二甲第三十九名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_GjQhHr3p86m75jYhNXM4yw
+            source_type: api_record
+            title: 中国历代人物传记资料库：王縉（CBDB 222531）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222531&o=json
+            external_identifier: CBDB:222531
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.382Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_JeB3hwSR896jhFPxZ6KM4b
+        status: active
+        display_name: 王縉
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -193,8 +230,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_2SQ76ktBHXkxeeRXd8mxUn | 王簡 | accepted |
+| ancestors | p_JeB3hwSR896jhFPxZ6KM4b | 王縉 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王簡（CBDB 222532）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222532&o=json)
+- [中国历代人物传记资料库：王縉（CBDB 222531）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222531&o=json)
 - [中国历代人物传记资料库：王岳錫（CBDB 206741）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206741&o=json)

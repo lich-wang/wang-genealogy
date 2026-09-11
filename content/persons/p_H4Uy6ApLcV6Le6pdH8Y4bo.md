@@ -4,7 +4,7 @@ id: p_H4Uy6ApLcV6Le6pdH8Y4bo
 status: active
 merged_into: null
 display_name: 王材
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -208,6 +208,43 @@ relationships:
         status: active
         display_name: 王達
         merged_into_person_id: null
+    - claim:
+        id: c_dkbLVSu6qjfRekcglfiAIE
+        subject_person_id: p_ijapVPqmZiMmk8QNoAXPjy
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_H4Uy6ApLcV6Le6pdH8Y4bo
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JuthQI0kPOp6dxgTlkkuan
+          claim_id: c_dkbLVSu6qjfRekcglfiAIE
+          source_id: s_2CDqHE5qeD4R81BxekctEH
+          stance: supports
+          locator: 嘉靖二十年進士登科錄:一卷，第三甲第一百三十二名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_2CDqHE5qeD4R81BxekctEH
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鼎（CBDB 304453）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=304453&o=json
+            external_identifier: CBDB:304453
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.712Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ijapVPqmZiMmk8QNoAXPjy
+        status: active
+        display_name: 王鼎
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -231,9 +268,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_hGzTEBArhtNBmqP8bhoNhy | 王祿 | accepted |
 | ancestors | p_3P7MMurQD6yAUfxDy6dUEQ | 王達 | accepted |
+| ancestors | p_ijapVPqmZiMmk8QNoAXPjy | 王鼎 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王材（CBDB 126534）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126534&o=json)
 - [中国历代人物传记资料库：王達（CBDB 304454）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=304454&o=json)
+- [中国历代人物传记资料库：王鼎（CBDB 304453）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=304453&o=json)
 - [中国历代人物传记资料库：王祿（CBDB 304455）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=304455&o=json)

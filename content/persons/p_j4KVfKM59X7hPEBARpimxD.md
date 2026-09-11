@@ -4,7 +4,7 @@ id: p_j4KVfKM59X7hPEBARpimxD
 status: active
 merged_into: null
 display_name: 王繼閥
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_q0BqHyQtafgQ04-KPXYveD
+        subject_person_id: p_LLwFMPn4retyp7NMcsjq8p
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_j4KVfKM59X7hPEBARpimxD
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_RwOAjA-sze4NPWhkRYv2aa
+          claim_id: c_q0BqHyQtafgQ04-KPXYveD
+          source_id: s_mqCTpoShxvRYyc3Pk9fQHz
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #113, HuWenKai #572：父"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_LLwFMPn4retyp7NMcsjq8p
+        status: active
+        display_name: 王德立
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_LLwFMPn4retyp7NMcsjq8p | 王德立 | accepted |
 
 ## 外部来源
 

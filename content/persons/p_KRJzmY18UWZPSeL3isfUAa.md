@@ -4,7 +4,7 @@ id: p_KRJzmY18UWZPSeL3isfUAa
 status: active
 merged_into: null
 display_name: 王行果
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -204,6 +204,43 @@ relationships:
         status: active
         display_name: 王暟
         merged_into_person_id: null
+    - claim:
+        id: c_2u2Omjdp26aB18nATI43yq
+        subject_person_id: p_KRJzmY18UWZPSeL3isfUAa
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_inW3YFWZZ4cbGzjyNYmXsr
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_P4fcdfEB4pILOOiPK9pIr4
+          claim_id: c_2u2Omjdp26aB18nATI43yq
+          source_id: s_ffC46GdcTMmZ6ukuZw5Fe9
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Jinglong 27：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ffC46GdcTMmZ6ukuZw5Fe9
+            source_type: api_record
+            title: 中国历代人物传记资料库：王曔（CBDB 150806）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=150806&o=json
+            external_identifier: CBDB:150806
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.821Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_inW3YFWZZ4cbGzjyNYmXsr
+        status: active
+        display_name: 王曔
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -231,9 +268,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_DF5f3BpuwMwBFDLpFCT3zQ | 王有方 | accepted |
 | children | p_1LXS4QqvHE6vYKAzkSMeHq | 王暟 | accepted |
+| children | p_inW3YFWZZ4cbGzjyNYmXsr | 王曔 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王曔（CBDB 150806）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=150806&o=json)
 - [中国历代人物传记资料库：王暟（CBDB 150807）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=150807&o=json)
 - [中国历代人物传记资料库：王行果（CBDB 140254）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140254&o=json)
 - [中国历代人物传记资料库：王有方（CBDB 150804）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=150804&o=json)

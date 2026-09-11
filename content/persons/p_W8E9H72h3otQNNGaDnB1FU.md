@@ -4,7 +4,7 @@ id: p_W8E9H72h3otQNNGaDnB1FU
 status: active
 merged_into: null
 display_name: 王景之
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_WN4MGTeNN8VQ8kDFGZGrF0
+        subject_person_id: p_i47UsMhA15jMqEZ7iDqoa7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_W8E9H72h3otQNNGaDnB1FU
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WZ9Z0L9MEDPkNO8vk_bgFK
+          claim_id: c_WN4MGTeNN8VQ8kDFGZGrF0
+          source_id: s_ukzzWZC3hbEtGgUGotV5TV
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Xianheng24：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ukzzWZC3hbEtGgUGotV5TV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王韋（CBDB 142621）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=142621&o=json
+            external_identifier: CBDB:142621
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.585Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_i47UsMhA15jMqEZ7iDqoa7
+        status: active
+        display_name: 王韋
+        merged_into_person_id: null
   children:
     - claim:
         id: c__YkaHZZXsNNLU6xMji78XP
@@ -192,9 +229,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_i47UsMhA15jMqEZ7iDqoa7 | 王韋 | accepted |
 | children | p_FYXgYaQ9GXDdcYokEoSMmM | 王懌 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王景之（CBDB 140255）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140255&o=json)
+- [中国历代人物传记资料库：王韋（CBDB 142621）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=142621&o=json)
 - [中国历代人物传记资料库：王懌（CBDB 150816）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=150816&o=json)

@@ -4,7 +4,7 @@ id: p_QeQKrjZirVTXRydZQsQCp7
 status: active
 merged_into: null
 display_name: 王應奎
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -143,6 +143,43 @@ relationships:
         status: active
         display_name: 王護
         merged_into_person_id: null
+    - claim:
+        id: c_pfmO01o6z683ErbICgc4G-
+        subject_person_id: p_JFBcDJNLZ6qLp8vP4oHJmX
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_QeQKrjZirVTXRydZQsQCp7
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_e9u4oaaFmiMSQQ-FXwTVxP
+          claim_id: c_pfmO01o6z683ErbICgc4G-
+          source_id: s_6k6nJvQ9A47NXBWaFs1HzV
+          stance: supports
+          locator: 弘治六年進士登科錄:一卷，第三甲第八名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_6k6nJvQ9A47NXBWaFs1HzV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王璋（CBDB 264765）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264765&o=json
+            external_identifier: CBDB:264765
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.670Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_JFBcDJNLZ6qLp8vP4oHJmX
+        status: active
+        display_name: 王璋
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_BwZbwCCJrWk8uhRZsPoenP | 王護 | accepted |
+| ancestors | p_JFBcDJNLZ6qLp8vP4oHJmX | 王璋 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王護（CBDB 264764）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264764&o=json)
 - [中国历代人物传记资料库：王應奎（CBDB 200930）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200930&o=json)
+- [中国历代人物传记资料库：王璋（CBDB 264765）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264765&o=json)

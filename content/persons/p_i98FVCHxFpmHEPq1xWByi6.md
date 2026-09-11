@@ -4,7 +4,7 @@ id: p_i98FVCHxFpmHEPq1xWByi6
 status: active
 merged_into: null
 display_name: 王良臣
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,12 +72,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_ycIrIteIqLesXDwOdjIXf6
+        subject_person_id: p_LzCu3N2C5U3pdrCETHd45i
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_i98FVCHxFpmHEPq1xWByi6
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zAV4tS12RNGtf29xCYczBX
+          claim_id: c_ycIrIteIqLesXDwOdjIXf6
+          source_id: s_fB4hQ2GqSMVbEJrJj9XLEB
+          stance: supports
+          locator: 弘治六年進士登科錄:一卷，第三甲第一百三十七名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_LzCu3N2C5U3pdrCETHd45i
+        status: active
+        display_name: 王璋
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_RhA1WJNIw_zAGVPJJXpSGS
+        subject_person_id: p_sxWZMB8G8bGUhAF5mHfW2L
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_i98FVCHxFpmHEPq1xWByi6
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dKFEMleRSGglJZ_G0qCX1T
+          claim_id: c_RhA1WJNIw_zAGVPJJXpSGS
+          source_id: s_fB4hQ2GqSMVbEJrJj9XLEB
+          stance: supports
+          locator: 弘治六年進士登科錄:一卷，第三甲第一百三十七名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_sxWZMB8G8bGUhAF5mHfW2L
+        status: active
+        display_name: 王弘義
+        merged_into_person_id: null
+    - claim:
+        id: c_WYK4w1oo02UdfkX7vV4Lld
+        subject_person_id: p_u4PoSDBUf9GkEs759g162p
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_i98FVCHxFpmHEPq1xWByi6
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zhXOauU43mI0y85cjSEKmq
+          claim_id: c_WYK4w1oo02UdfkX7vV4Lld
+          source_id: s_fB4hQ2GqSMVbEJrJj9XLEB
+          stance: supports
+          locator: 弘治六年進士登科錄:一卷，第三甲第一百三十七名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_u4PoSDBUf9GkEs759g162p
+        status: active
+        display_name: 王哲
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +175,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_LzCu3N2C5U3pdrCETHd45i | 王璋 | accepted |
+| ancestors | p_sxWZMB8G8bGUhAF5mHfW2L | 王弘義 | accepted |
+| ancestors | p_u4PoSDBUf9GkEs759g162p | 王哲 | accepted |
 
 ## 外部来源
 

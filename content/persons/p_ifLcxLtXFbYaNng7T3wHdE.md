@@ -4,7 +4,7 @@ id: p_ifLcxLtXFbYaNng7T3wHdE
 status: active
 merged_into: null
 display_name: 王煦
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_aToixhCWhi0U3QcGyb2s03
+        subject_person_id: p_FZAbQKQN42srG9zPG5AZm2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ifLcxLtXFbYaNng7T3wHdE
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HixkhwHhSPPdH3Uw0AtrdM
+          claim_id: c_aToixhCWhi0U3QcGyb2s03
+          source_id: s_zFvdQLJtudRc3Lad4JHRUW
+          stance: supports
+          locator: 蘇州府志，lgid=169689：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_FZAbQKQN42srG9zPG5AZm2
+        status: active
+        display_name: 王岱東
+        merged_into_person_id: null
   children:
     - claim:
         id: c_baTDGOT4z1ewBnXsxZGHzb
@@ -134,6 +160,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_FZAbQKQN42srG9zPG5AZm2 | 王岱東 | accepted |
 | children | p_gpMSreZ1XGTxNvYMPuuB9t | 王兆辰 | accepted |
 
 ## 外部来源

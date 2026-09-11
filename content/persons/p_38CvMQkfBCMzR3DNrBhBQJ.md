@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王世懋
 cbdb_id: 34719
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -651,6 +651,43 @@ relationships:
         status: active
         display_name: 王輅
         merged_into_person_id: null
+    - claim:
+        id: c_TMguV4vBTeEjzC67IjJyk0
+        subject_person_id: p_JB39whpHSSCAiwvJvrs9Wn
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_38CvMQkfBCMzR3DNrBhBQJ
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GDg7DMCpOG6Xj7dEmsB1Id
+          claim_id: c_TMguV4vBTeEjzC67IjJyk0
+          source_id: s_Lq7AiPrcc782ZdUCVBe55i
+          stance: supports
+          locator: 嘉靖三十八年進士登科錄:一卷，第三甲第一百四十七名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Lq7AiPrcc782ZdUCVBe55i
+            source_type: api_record
+            title: 中国历代人物传记资料库：王倬（CBDB 325413）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=325413&o=json
+            external_identifier: CBDB:325413
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.199Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_JB39whpHSSCAiwvJvrs9Wn
+        status: active
+        display_name: 王倬
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -678,6 +715,7 @@ relationships:
 | ancestors | p_hhmhrJoJhGam6MtTDBQHpt | 王辂 | accepted |
 | ancestors | p_2CY82LiLunPZpBKWzpBz3S | 王倬 | accepted |
 | ancestors | p_fPxsvuPDLTWcoKeLr8C2kd | 王輅 | accepted |
+| ancestors | p_JB39whpHSSCAiwvJvrs9Wn | 王倬 | accepted |
 
 ## 外部来源
 
@@ -686,6 +724,7 @@ relationships:
 - [维基数据：章氏（Q65851988）](https://www.wikidata.org/wiki/Q65851988)
 - [維基數據：王忬（Q15933350）](https://www.wikidata.org/wiki/Q15933350)
 - [中国历代人物传记资料库：王輅（CBDB 325412）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=325412&o=json)
+- [中国历代人物传记资料库：王倬（CBDB 325413）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=325413&o=json)
 - [中文维基百科：王世懋](https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%B8%96%E6%87%8B)
 - [CBDB 中国历代人物传记资料库：王士騄（136069）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=136069&o=json)
 - [CBDB 中国历代人物传记资料库：王世懋（34719）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34719&o=json)

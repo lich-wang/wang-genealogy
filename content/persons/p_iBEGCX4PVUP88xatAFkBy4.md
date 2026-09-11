@@ -4,7 +4,7 @@ id: p_iBEGCX4PVUP88xatAFkBy4
 status: active
 merged_into: null
 display_name: 王士安
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_KOJAAJI1xbnGXdeNBGK8H3
+        subject_person_id: p_iBEGCX4PVUP88xatAFkBy4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_CvioAH4pK1gg7UWTM6DCMS
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0SURc2ZHEnWOHu77Yaj-uC
+          claim_id: c_KOJAAJI1xbnGXdeNBGK8H3
+          source_id: s_k51AENJkRjnNPUmvaULeCa
+          stance: supports
+          locator: 景泰五年進士登科錄:一卷，第三甲第一百零三名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_CvioAH4pK1gg7UWTM6DCMS
+        status: active
+        display_name: 王珪
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_CvioAH4pK1gg7UWTM6DCMS | 王珪 | accepted |
 
 ## 外部来源
 

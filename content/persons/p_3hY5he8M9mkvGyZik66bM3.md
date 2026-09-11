@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王室垣
 cbdb_id: 206814
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -171,7 +171,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_Ovzx-w7IFnpA0tBkninQkf
+        subject_person_id: p_jEj3xe4s8v8GyN8ATcB2q1
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_3hY5he8M9mkvGyZik66bM3
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5yXhZ_ev5p3M0viCOJpKLc
+          claim_id: c_Ovzx-w7IFnpA0tBkninQkf
+          source_id: s_F5yyiH9EAK3DEA3GHPEG7P
+          stance: supports
+          locator: 萬曆十一年進士登科錄:一卷，第三甲第六十九名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_F5yyiH9EAK3DEA3GHPEG7P
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宗舜（CBDB 223625）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=223625&o=json
+            external_identifier: CBDB:223625
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.418Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_jEj3xe4s8v8GyN8ATcB2q1
+        status: active
+        display_name: 王宗舜
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -193,8 +230,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_bGYu4dMVakhcDXuLef1B17 | 王一舉 | accepted |
+| ancestors | p_jEj3xe4s8v8GyN8ATcB2q1 | 王宗舜 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王室垣（CBDB 206814）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206814&o=json)
 - [中国历代人物传记资料库：王一舉（CBDB 223627）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=223627&o=json)
+- [中国历代人物传记资料库：王宗舜（CBDB 223625）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=223625&o=json)

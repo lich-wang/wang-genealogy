@@ -4,7 +4,7 @@ id: p_i3Pc3S5m7XG8sgJ7aVGwdX
 status: active
 merged_into: null
 display_name: 王福順
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_3LiTJ5QaW1P87x1yjyg-Yh
+        subject_person_id: p_i3Pc3S5m7XG8sgJ7aVGwdX
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_TxHEXLnqR7Hmrn4YZb9SRE
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_c_WSSLgRh5MMxo1c0r8JKJ
+          claim_id: c_3LiTJ5QaW1P87x1yjyg-Yh
+          source_id: s_htRFPVwwY3uXUPec7kz9HW
+          stance: supports
+          locator: 成化二年進士登科錄:一卷，第三甲第一百七十七名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_TxHEXLnqR7Hmrn4YZb9SRE
+        status: active
+        display_name: 王璿
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_TxHEXLnqR7Hmrn4YZb9SRE | 王璿 | accepted |
 
 ## 外部来源
 

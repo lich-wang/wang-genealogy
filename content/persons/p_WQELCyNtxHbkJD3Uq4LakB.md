@@ -4,7 +4,7 @@ id: p_WQELCyNtxHbkJD3Uq4LakB
 status: active
 merged_into: null
 display_name: 王堯封
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_aR1RNMc-Sh-5ZBScubQmJh
+        subject_person_id: p_iqf8z5vVDeG4f4cJMH52mk
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_WQELCyNtxHbkJD3Uq4LakB
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8hfYGyR7xtg6FUyyHERJzA
+          claim_id: c_aR1RNMc-Sh-5ZBScubQmJh
+          source_id: s_VAK9jzjnKBAHdJh6ndKMBP
+          stance: supports
+          locator: 弘治十八年進士登科錄:一卷，第三甲第二十名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_VAK9jzjnKBAHdJh6ndKMBP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王諒（CBDB 273830）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=273830&o=json
+            external_identifier: CBDB:273830
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.909Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_iqf8z5vVDeG4f4cJMH52mk
+        status: active
+        display_name: 王諒
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_iqf8z5vVDeG4f4cJMH52mk | 王諒 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王諒（CBDB 273830）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=273830&o=json)
 - [中国历代人物传记资料库：王堯封（CBDB 126716）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126716&o=json)

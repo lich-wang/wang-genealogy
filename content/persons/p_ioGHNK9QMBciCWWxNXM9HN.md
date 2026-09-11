@@ -4,7 +4,7 @@ id: p_ioGHNK9QMBciCWWxNXM9HN
 status: active
 merged_into: null
 display_name: 王俊
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_4QWAHUQclIL0AQCH6Yax_j
+        subject_person_id: p_s5yHq8SbS8AfVgHLyJNWkN
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ioGHNK9QMBciCWWxNXM9HN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6-nrbhsxzw_ZZyBqWXKkxh
+          claim_id: c_4QWAHUQclIL0AQCH6Yax_j
+          source_id: s_3hBEJR7SyCDdvSDEBYCFdS
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_s5yHq8SbS8AfVgHLyJNWkN
+        status: active
+        display_name: 王羔
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_ay2pM7-BQzDukQTY52JwOh
+        subject_person_id: p_ioGHNK9QMBciCWWxNXM9HN
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_DPUzPRH4C7z282uoi5MQ6a
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wGMj4Vph0RGJHqSdcSQvlZ
+          claim_id: c_ay2pM7-BQzDukQTY52JwOh
+          source_id: s_3hBEJR7SyCDdvSDEBYCFdS
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Kaicheng13：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_DPUzPRH4C7z282uoi5MQ6a
+        status: active
+        display_name: 王志用
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_s5yHq8SbS8AfVgHLyJNWkN | 王羔 | accepted |
+| children | p_DPUzPRH4C7z282uoi5MQ6a | 王志用 | accepted |
 
 ## 外部来源
 

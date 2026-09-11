@@ -4,7 +4,7 @@ id: p_5dqAK3hD6kewBU4JbJcy31
 status: active
 merged_into: null
 display_name: 王材
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_WS1Enqd5T-kH3dLnxZS1aK
+        subject_person_id: p_JJVNEEM87Q9sBUqrYf9DpQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_5dqAK3hD6kewBU4JbJcy31
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BjAxFlEIb9OYRl08tNb1Zn
+          claim_id: c_WS1Enqd5T-kH3dLnxZS1aK
+          source_id: s_3WV1SaBi3ghD6oEqEXPGRG
+          stance: supports
+          locator: 弘治十五年進士登科錄:一卷，第三甲第三十九名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_3WV1SaBi3ghD6oEqEXPGRG
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瓊（CBDB 271103）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=271103&o=json
+            external_identifier: CBDB:271103
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.854Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_JJVNEEM87Q9sBUqrYf9DpQ
+        status: active
+        display_name: 王瓊
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -163,9 +200,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_JJVNEEM87Q9sBUqrYf9DpQ | 王瓊 | accepted |
 | ancestors | p_2b9TwxYB6wxHNBNWLVvncu | 王旻 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王材（CBDB 201358）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201358&o=json)
 - [中国历代人物传记资料库：王旻（CBDB 271102）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=271102&o=json)
+- [中国历代人物传记资料库：王瓊（CBDB 271103）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=271103&o=json)

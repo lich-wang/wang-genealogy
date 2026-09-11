@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王仲智
 cbdb_id: 264035
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -207,7 +207,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_9Rflp-BBJRdjs7XTJPMdgF
+        subject_person_id: p_g1bs6h5k4Pu2preBv8KZPd
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_j4RsuRBKFYJbK5j9md2YXD
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mAeAH8g3lm4iH3VnyAvnXm
+          claim_id: c_9Rflp-BBJRdjs7XTJPMdgF
+          source_id: s_KwAAbYEBjQwNhkLyALJnCV
+          stance: supports
+          locator: 弘治六年進士登科錄:一卷，第二甲第二十三名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_KwAAbYEBjQwNhkLyALJnCV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王承裕（CBDB 67772）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67772&o=json
+            external_identifier: CBDB:67772
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:13.017Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_j4RsuRBKFYJbK5j9md2YXD
+        status: active
+        display_name: 王承裕
+        merged_into_person_id: null
   other: []
 ---
 
@@ -228,10 +265,12 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_tcWDCYEjZBxpgXVNCyJD9U | 王惟直 | accepted |
 | children | p_mLBwCR2GVoDmj97sEa96gF | 王恕 | accepted |
+| descendants | p_j4RsuRBKFYJbK5j9md2YXD | 王承裕 | accepted |
 
 ## 外部来源
 
 - [维基数据：王恕（Q45545428）](https://www.wikidata.org/wiki/Q45545428)
 - [维基数据：王惟直（Q45545302）](https://www.wikidata.org/wiki/Q45545302)
 - [维基数据：王仲智（Q45545364）](https://www.wikidata.org/wiki/Q45545364)
+- [中国历代人物传记资料库：王承裕（CBDB 67772）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67772&o=json)
 - [CBDB 中国历代人物传记资料库：王仲智（264035）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264035&o=json)

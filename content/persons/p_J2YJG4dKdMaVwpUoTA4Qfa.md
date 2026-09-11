@@ -4,7 +4,7 @@ id: p_J2YJG4dKdMaVwpUoTA4Qfa
 status: active
 merged_into: null
 display_name: 王讜
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_eQEOfAehIVtOEKhWYWSaG-
+        subject_person_id: p_Rv5ych5iExch2twdfSXkLP
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_J2YJG4dKdMaVwpUoTA4Qfa
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VIZU2M6a7YDCqdcW1NBauC
+          claim_id: c_eQEOfAehIVtOEKhWYWSaG-
+          source_id: s_VsmL2iTSdi9CRY6gzd8GoJ
+          stance: supports
+          locator: 萬曆三十八年庚戌科序齒錄:一卷，第三甲第三十七名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Rv5ych5iExch2twdfSXkLP
+        status: active
+        display_name: 王世蔭
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Rv5ych5iExch2twdfSXkLP | 王世蔭 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_PZ5QGmBiXkdeYy8tBcE7VF
 status: active
 merged_into: null
 display_name: 王恭
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -114,7 +114,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_ZBJDFXIAHdtGRDaSSqy7a8
+        subject_person_id: p_iC9eyW5EGTjEu2z7hi9uMs
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_PZ5QGmBiXkdeYy8tBcE7VF
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MS5zba85OuTyP8ttpz9PFW
+          claim_id: c_ZBJDFXIAHdtGRDaSSqy7a8
+          source_id: s_uKXPADSL5E4iYQmAyG8Ru3
+          stance: supports
+          locator: (道光)徽州府志:十六卷卷首一卷，lgid=1160984：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_uKXPADSL5E4iYQmAyG8Ru3
+            source_type: api_record
+            title: 中国历代人物传记资料库：王士階（CBDB 703795）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=703795&o=json
+            external_identifier: CBDB:703795
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:06.631Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_iC9eyW5EGTjEu2z7hi9uMs
+        status: active
+        display_name: 王士階
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -135,8 +172,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_fQ5Buk421CUuiAxyk4ogFo | 王茂怡 | accepted |
+| ancestors | p_iC9eyW5EGTjEu2z7hi9uMs | 王士階 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王恭（CBDB 703800）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=703800&o=json)
 - [中国历代人物传记资料库：王茂怡（CBDB 703799）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=703799&o=json)
+- [中国历代人物传记资料库：王士階（CBDB 703795）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=703795&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王其仁
 cbdb_id: 136191
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -125,6 +125,43 @@ relationships:
         status: active
         display_name: 王文羽
         merged_into_person_id: null
+    - claim:
+        id: c_qzPsi6uDVLr4VAq7oC7cmF
+        subject_person_id: p_gqyGCnz9XCXA3WqKdw1Xzf
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_jJid7wVthUjvqYN45c4FGt
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_RPY281TjPgSz5znPTx4rvQ
+          claim_id: c_qzPsi6uDVLr4VAq7oC7cmF
+          source_id: s_XMqjceTtuJJMgcp14FCqZU
+          stance: supports
+          locator: 名媛詩話:十二卷，4：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_XMqjceTtuJJMgcp14FCqZU
+            source_type: api_record
+            title: 中国历代人物传记资料库：王玥（CBDB 121804）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=121804&o=json
+            external_identifier: CBDB:121804
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:14.917Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_jJid7wVthUjvqYN45c4FGt
+        status: active
+        display_name: 王玥
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -149,8 +186,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_3BLAEupnmgoMx9jqAGj5U3 | 王文羽 | accepted |
+| children | p_jJid7wVthUjvqYN45c4FGt | 王玥 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王其仁（CBDB 136191）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=136191&o=json)
 - [中国历代人物传记资料库：王文羽（CBDB 121806）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=121806&o=json)
+- [中国历代人物传记资料库：王玥（CBDB 121804）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=121804&o=json)

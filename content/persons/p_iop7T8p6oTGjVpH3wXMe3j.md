@@ -4,7 +4,7 @@ id: p_iop7T8p6oTGjVpH3wXMe3j
 status: active
 merged_into: null
 display_name: 王蘭
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,85 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_mLJsmJCmnRKz-lWX8rBJ3z
+        subject_person_id: p_iop7T8p6oTGjVpH3wXMe3j
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_skjKvTKbz5aUC8X3W9ytWH
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZtdvkP_bxYyH8ogUAg6aFA
+          claim_id: c_mLJsmJCmnRKz-lWX8rBJ3z
+          source_id: s_LqJQUzPTMHjFe1bT4CDBm8
+          stance: supports
+          locator: 弘治六年進士登科錄:一卷，第三甲第一百四十三名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_skjKvTKbz5aUC8X3W9ytWH
+        status: active
+        display_name: 王崇文
+        merged_into_person_id: null
+    - claim:
+        id: c__lTIKzDh1vBgkjcvUnj8-h
+        subject_person_id: p_iop7T8p6oTGjVpH3wXMe3j
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_5btbNFkuNqxJDcg99ibvfp
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_TyIuQ0R-L0a88PxX7IuAkd
+          claim_id: c__lTIKzDh1vBgkjcvUnj8-h
+          source_id: s_LqJQUzPTMHjFe1bT4CDBm8
+          stance: supports
+          locator: 嘉靖二十年進士登科錄:一卷，第三甲第二十一名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_5btbNFkuNqxJDcg99ibvfp
+        status: active
+        display_name: 王崇儉
+        merged_into_person_id: null
+    - claim:
+        id: c_1gGUpsRaaLVjiYbfPuFrzl
+        subject_person_id: p_iop7T8p6oTGjVpH3wXMe3j
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_gZEG3LV8BoSpVH5X7JPghB
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7nb8oCgM1WcE0rqbeId8vV
+          claim_id: c_1gGUpsRaaLVjiYbfPuFrzl
+          source_id: s_LqJQUzPTMHjFe1bT4CDBm8
+          stance: supports
+          locator: 弘治九年進士登科錄:一卷，第三甲第二十九名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_gZEG3LV8BoSpVH5X7JPghB
+        status: active
+        display_name: 王崇獻
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +175,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_skjKvTKbz5aUC8X3W9ytWH | 王崇文 | accepted |
+| descendants | p_5btbNFkuNqxJDcg99ibvfp | 王崇儉 | accepted |
+| descendants | p_gZEG3LV8BoSpVH5X7JPghB | 王崇獻 | accepted |
 
 ## 外部来源
 

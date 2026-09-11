@@ -4,7 +4,7 @@ id: p_iu7y5uzAHNAHpBHrqhDhMe
 status: active
 merged_into: null
 display_name: 王驥
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -116,6 +116,32 @@ relationships:
         status: active
         display_name: 王煇
         merged_into_person_id: null
+    - claim:
+        id: c_69BxYx5T4CsIin9ZlSnWhD
+        subject_person_id: p_iu7y5uzAHNAHpBHrqhDhMe
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_m4LMsDs1QJMNb7B4hFNvPT
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qCV5y9oW8E_BMpgcmxwjaR
+          claim_id: c_69BxYx5T4CsIin9ZlSnWhD
+          source_id: s_t21aghDgnr42r85ZMoMVhx
+          stance: supports
+          locator: 寶祐登科錄：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_m4LMsDs1QJMNb7B4hFNvPT
+        status: active
+        display_name: 王壡
+        merged_into_person_id: null
   other: []
 ---
 
@@ -135,6 +161,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | descendants | p_1BfrVwNo6KMxGngrdtMrQC | 王煇 | accepted |
+| descendants | p_m4LMsDs1QJMNb7B4hFNvPT | 王壡 | accepted |
 
 ## 外部来源
 

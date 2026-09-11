@@ -4,7 +4,7 @@ id: p_iExwTUSihbBvbcDkEjipqk
 status: active
 merged_into: null
 display_name: 王珍
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -250,6 +250,32 @@ relationships:
         status: active
         display_name: 王元紹
         merged_into_person_id: null
+    - claim:
+        id: c_yJSDg09XIeZGr-_KDZ3f4N
+        subject_person_id: p_iExwTUSihbBvbcDkEjipqk
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_VfQNCNVNuU76fL8YzfFQXy
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xT2DC3YELuDr-shYEiOIWC
+          claim_id: c_yJSDg09XIeZGr-_KDZ3f4N
+          source_id: s_FyVQHAEjUHhRAeQdCcqEyU
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_VfQNCNVNuU76fL8YzfFQXy
+        status: active
+        display_name: 王元素
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -278,6 +304,7 @@ relationships:
 | children | p_7KDsHR3PRRgyvAjBid66pt | 王元皐 | accepted |
 | children | p_EwNPNustBQxxCU5PjvQLo4 | 王睿 | accepted |
 | children | p_fS36NNNGPw2p33jWLuZLp3 | 王元紹 | accepted |
+| children | p_VfQNCNVNuU76fL8YzfFQXy | 王元素 | accepted |
 
 ## 外部来源
 

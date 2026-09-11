@@ -4,7 +4,7 @@ id: p_JaCmStE8FQ4hMkB4kTj6HJ
 status: active
 merged_into: null
 display_name: 王宗道
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_d7nk7LJ4HPCw7OFasMwsxz
+        subject_person_id: p_JaCmStE8FQ4hMkB4kTj6HJ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_VC8bBPzAyQehLYq3eBykXc
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AK2RPTAE-G9k81jM2L6JBj
+          claim_id: c_d7nk7LJ4HPCw7OFasMwsxz
+          source_id: s_ybszx2v3qFbYTM22Cm2skq
+          stance: supports
+          locator: 嘉靖十七年進士登科錄:一卷，第二甲第七十九名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_VC8bBPzAyQehLYq3eBykXc
+        status: active
+        display_name: 王時儉
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_VC8bBPzAyQehLYq3eBykXc | 王時儉 | accepted |
 
 ## 外部来源
 

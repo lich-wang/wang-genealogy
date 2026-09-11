@@ -4,7 +4,7 @@ id: p_oMWHEuuTAD3NMbiTZfcfYR
 status: active
 merged_into: null
 display_name: 王府
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_NmrLZZLcu1XGfs0Mci7imh
+        subject_person_id: p_JAcBj1wu3gVnAuG8j1DpRa
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_oMWHEuuTAD3NMbiTZfcfYR
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gYV1u1JTGllXu1LGC3kks4
+          claim_id: c_NmrLZZLcu1XGfs0Mci7imh
+          source_id: s_nDcUCmVYkrHbS1mjQfT9WE
+          stance: supports
+          locator: "海鹽縣志: 二十二卷(光緒)，lgid=293779：子"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_nDcUCmVYkrHbS1mjQfT9WE
+            source_type: api_record
+            title: 中国历代人物传记资料库：王玫（CBDB 691584）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=691584&o=json
+            external_identifier: CBDB:691584
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:27.617Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_JAcBj1wu3gVnAuG8j1DpRa
+        status: active
+        display_name: 王玫
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_JAcBj1wu3gVnAuG8j1DpRa | 王玫 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王府（CBDB 691585）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=691585&o=json)
+- [中国历代人物传记资料库：王玫（CBDB 691584）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=691584&o=json)

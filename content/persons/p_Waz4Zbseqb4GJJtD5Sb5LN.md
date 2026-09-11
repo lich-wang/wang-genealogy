@@ -4,7 +4,7 @@ id: p_Waz4Zbseqb4GJJtD5Sb5LN
 status: active
 merged_into: null
 display_name: 王康年
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -143,6 +143,43 @@ relationships:
         status: active
         display_name: 王達
         merged_into_person_id: null
+    - claim:
+        id: c_iIT-OfIYsBdJVaqwbs0Gg0
+        subject_person_id: p_HZGPa62CZY8YGnDTSnEf7k
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Waz4Zbseqb4GJJtD5Sb5LN
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cx_whODV4pC1W6R3XcVUMJ
+          claim_id: c_iIT-OfIYsBdJVaqwbs0Gg0
+          source_id: s_DQenVEh4QwpCMj6KY6UDMV
+          stance: supports
+          locator: 紹興十八年同年小錄，176：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_DQenVEh4QwpCMj6KY6UDMV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王貴（CBDB 23239）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=23239&o=json
+            external_identifier: CBDB:23239
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.872Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_HZGPa62CZY8YGnDTSnEf7k
+        status: active
+        display_name: 王貴
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_F481CHuNMyvWGFBTFg72AH | 王達 | accepted |
+| ancestors | p_HZGPa62CZY8YGnDTSnEf7k | 王貴 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王達（CBDB 23238）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=23238&o=json)
+- [中国历代人物传记资料库：王貴（CBDB 23239）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=23239&o=json)
 - [中国历代人物传记资料库：王康年（CBDB 23241）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=23241&o=json)

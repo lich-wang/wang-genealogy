@@ -4,7 +4,7 @@ id: p_ijapVPqmZiMmk8QNoAXPjy
 status: active
 merged_into: null
 display_name: 王鼎
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_dkbLVSu6qjfRekcglfiAIE
+        subject_person_id: p_ijapVPqmZiMmk8QNoAXPjy
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_H4Uy6ApLcV6Le6pdH8Y4bo
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JuthQI0kPOp6dxgTlkkuan
+          claim_id: c_dkbLVSu6qjfRekcglfiAIE
+          source_id: s_2CDqHE5qeD4R81BxekctEH
+          stance: supports
+          locator: 嘉靖二十年進士登科錄:一卷，第三甲第一百三十二名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_H4Uy6ApLcV6Le6pdH8Y4bo
+        status: active
+        display_name: 王材
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_H4Uy6ApLcV6Le6pdH8Y4bo | 王材 | accepted |
 
 ## 外部来源
 

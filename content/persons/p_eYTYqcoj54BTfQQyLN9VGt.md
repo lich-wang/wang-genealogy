@@ -4,7 +4,7 @@ id: p_eYTYqcoj54BTfQQyLN9VGt
 status: active
 merged_into: null
 display_name: 王稟
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -139,6 +139,43 @@ relationships:
         status: active
         display_name: 王薿
         merged_into_person_id: null
+    - claim:
+        id: c_eAWdMZQBiC3RqHc_TgD0iK
+        subject_person_id: p_eYTYqcoj54BTfQQyLN9VGt
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Jd2Y3J4d2o7Ls7YwwYuLAK
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_sYW5QBX6Ns5kffmU0wAr_d
+          claim_id: c_eAWdMZQBiC3RqHc_TgD0iK
+          source_id: s_N1eerQ2exfvVw9dL41oJed
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_N1eerQ2exfvVw9dL41oJed
+            source_type: api_record
+            title: 中国历代人物传记资料库：王荀（CBDB 38131）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38131&o=json
+            external_identifier: CBDB:38131
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.368Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Jd2Y3J4d2o7Ls7YwwYuLAK
+        status: active
+        display_name: 王荀
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -201,6 +238,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_7SVydL41UGsuFHeEEHBj78 | 王薿 | accepted |
+| children | p_Jd2Y3J4d2o7Ls7YwwYuLAK | 王荀 | accepted |
 | ancestors | p_4DMwFrJ3LdwEVHWXHa7AR4 | 王珪 | accepted |
 
 ## 外部来源
@@ -208,3 +246,4 @@ relationships:
 - [中国历代人物传记资料库：王稟（CBDB 38148）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38148&o=json)
 - [中国历代人物传记资料库：王珪（CBDB 38294）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38294&o=json)
 - [中国历代人物传记资料库：王薿（CBDB 570602）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=570602&o=json)
+- [中国历代人物传记资料库：王荀（CBDB 38131）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38131&o=json)

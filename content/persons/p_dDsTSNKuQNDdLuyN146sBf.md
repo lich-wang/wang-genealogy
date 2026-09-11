@@ -4,7 +4,7 @@ id: p_dDsTSNKuQNDdLuyN146sBf
 status: active
 merged_into: null
 display_name: 王雄
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -143,6 +143,43 @@ relationships:
         status: active
         display_name: 王興
         merged_into_person_id: null
+    - claim:
+        id: c_F4tVdygwuBJOXmXZYDmOsc
+        subject_person_id: p_j6DephxBQfnHHbzUifPi55
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_dDsTSNKuQNDdLuyN146sBf
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pEGmcm9lesoRu1SAnb5-JS
+          claim_id: c_F4tVdygwuBJOXmXZYDmOsc
+          source_id: s_74Emxj48FqWLrUU3wBqpLC
+          stance: supports
+          locator: 正德六年進士登科錄:一卷，第三甲第四十二名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_74Emxj48FqWLrUU3wBqpLC
+            source_type: api_record
+            title: 中国历代人物传记资料库：王友才（CBDB 277370）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=277370&o=json
+            external_identifier: CBDB:277370
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.958Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_j6DephxBQfnHHbzUifPi55
+        status: active
+        display_name: 王友才
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_2KR5LQkPas1zC6A4F8pmtu | 王興 | accepted |
+| ancestors | p_j6DephxBQfnHHbzUifPi55 | 王友才 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王興（CBDB 277371）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=277371&o=json)
 - [中国历代人物传记资料库：王雄（CBDB 201736）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201736&o=json)
+- [中国历代人物传记资料库：王友才（CBDB 277370）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=277370&o=json)

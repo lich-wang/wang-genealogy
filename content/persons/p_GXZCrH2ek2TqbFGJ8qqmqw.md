@@ -4,7 +4,7 @@ id: p_GXZCrH2ek2TqbFGJ8qqmqw
 status: active
 merged_into: null
 display_name: 王宇
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -143,6 +143,43 @@ relationships:
         status: active
         display_name: 王寶
         merged_into_person_id: null
+    - claim:
+        id: c_ICVSynne5m_Rm-udNhmOHQ
+        subject_person_id: p_j2pBDD21Qom1eWLd3CawJw
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_GXZCrH2ek2TqbFGJ8qqmqw
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Q4T2TrI0FWcWGxJUsrUdXw
+          claim_id: c_ICVSynne5m_Rm-udNhmOHQ
+          source_id: s_Q4dJ9vkeXEpGN7T2oG3MuY
+          stance: supports
+          locator: 嘉靖三十二年進士登科錄:一卷，第二甲第七十三名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Q4dJ9vkeXEpGN7T2oG3MuY
+            source_type: api_record
+            title: 中国历代人物传记资料库：王慶（CBDB 315702）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=315702&o=json
+            external_identifier: CBDB:315702
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.948Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_j2pBDD21Qom1eWLd3CawJw
+        status: active
+        display_name: 王慶
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_BhzbpVnWNojWd9QYAz11EY | 王寶 | accepted |
+| ancestors | p_j2pBDD21Qom1eWLd3CawJw | 王慶 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王寶（CBDB 315701）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=315701&o=json)
+- [中国历代人物传记资料库：王慶（CBDB 315702）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=315702&o=json)
 - [中国历代人物传记资料库：王宇（CBDB 204187）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204187&o=json)

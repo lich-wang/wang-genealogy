@@ -4,7 +4,7 @@ id: p_KwmWMeiQjGEdzbLEyCiVBf
 status: active
 merged_into: null
 display_name: 王可立
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_7Btcwd0zcHibolZK7lH9T2
+        subject_person_id: p_iSit69r8tHsmyFhZtJvQCM
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_KwmWMeiQjGEdzbLEyCiVBf
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_k8yWJ6myXTYmWP_IqYIibE
+          claim_id: c_7Btcwd0zcHibolZK7lH9T2
+          source_id: s_MVtqbGSxKbjZ3oTBy4NtGK
+          stance: supports
+          locator: 嘉靖三十二年進士登科錄:一卷，第三甲第二百九十一名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_MVtqbGSxKbjZ3oTBy4NtGK
+            source_type: api_record
+            title: 中国历代人物传记资料库：王徽（CBDB 318950）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=318950&o=json
+            external_identifier: CBDB:318950
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.038Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_iSit69r8tHsmyFhZtJvQCM
+        status: active
+        display_name: 王徽
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -200,6 +237,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_iSit69r8tHsmyFhZtJvQCM | 王徽 | accepted |
 | ancestors | p_94ag6NiU4Wc9zyDs7jya2c | 王廣 | accepted |
 | ancestors | p_ALT6bxbs4xwokN9eKwZnf7 | 王安 | accepted |
 
@@ -207,4 +245,5 @@ relationships:
 
 - [中国历代人物传记资料库：王安（CBDB 318949）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=318949&o=json)
 - [中国历代人物传记资料库：王廣（CBDB 318948）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=318948&o=json)
+- [中国历代人物传记资料库：王徽（CBDB 318950）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=318950&o=json)
 - [中国历代人物传记资料库：王可立（CBDB 204430）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204430&o=json)

@@ -4,7 +4,7 @@ id: p_GDsYhHNBBkDcpWQEYco8Kg
 status: active
 merged_into: null
 display_name: 王開
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -143,6 +143,43 @@ relationships:
         status: active
         display_name: 王恩
         merged_into_person_id: null
+    - claim:
+        id: c_9EakGRTTC7ibwh9wR0JVN6
+        subject_person_id: p_iCDdDuM5ZBCiF7WJbVHsw1
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_GDsYhHNBBkDcpWQEYco8Kg
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VK4MyXXsNuO4q0kQTNDKHk
+          claim_id: c_9EakGRTTC7ibwh9wR0JVN6
+          source_id: s_hGz4X4QhRE4GfMma6PB6ck
+          stance: supports
+          locator: 萬曆二年進士登科錄:一卷，第三甲第八十名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_hGz4X4QhRE4GfMma6PB6ck
+            source_type: api_record
+            title: 中国历代人物传记资料库：王浩（CBDB 213936）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213936&o=json
+            external_identifier: CBDB:213936
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.126Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_iCDdDuM5ZBCiF7WJbVHsw1
+        status: active
+        display_name: 王浩
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_9VtJ7v2PnFxabdG54S3Qd2 | 王恩 | accepted |
+| ancestors | p_iCDdDuM5ZBCiF7WJbVHsw1 | 王浩 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王恩（CBDB 213938）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213938&o=json)
+- [中国历代人物传记资料库：王浩（CBDB 213936）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213936&o=json)
 - [中国历代人物传记资料库：王開（CBDB 206147）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206147&o=json)

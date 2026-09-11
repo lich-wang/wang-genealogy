@@ -4,7 +4,7 @@ id: p_zq12paWxqfRQfLAfsBmo4u
 status: active
 merged_into: null
 display_name: 王眾仲
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_u3J8JVdJuV0s5GRdxoSyAq
+        subject_person_id: p_jhGmz5PBmstGBfB54XPkH7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_zq12paWxqfRQfLAfsBmo4u
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zyPrl4u_BH7pvnkj2aM7gD
+          claim_id: c_u3J8JVdJuV0s5GRdxoSyAq
+          source_id: s_8KQXdAGUQNLSGE52uUZPXp
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_8KQXdAGUQNLSGE52uUZPXp
+            source_type: api_record
+            title: 中国历代人物传记资料库：王重（CBDB 175706）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175706&o=json
+            external_identifier: CBDB:175706
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.067Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_jhGmz5PBmstGBfB54XPkH7
+        status: active
+        display_name: 王重
+        merged_into_person_id: null
   children:
     - claim:
         id: c_Q4r7A5vWB0wHX7HimjMTQm
@@ -176,6 +213,43 @@ relationships:
         status: active
         display_name: 王淙
         merged_into_person_id: null
+    - claim:
+        id: c_sctcob05soGpGHoyhLLuN1
+        subject_person_id: p_zq12paWxqfRQfLAfsBmo4u
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_HYw3h3gd2SPmfVE18GBoDH
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PD1ATTKk05LMCgkroz1gKi
+          claim_id: c_sctcob05soGpGHoyhLLuN1
+          source_id: s_59DBsN2HGT57x16LufHKi6
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_59DBsN2HGT57x16LufHKi6
+            source_type: api_record
+            title: 中国历代人物传记资料库：王凝（CBDB 144880）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=144880&o=json
+            external_identifier: CBDB:144880
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.638Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_HYw3h3gd2SPmfVE18GBoDH
+        status: active
+        display_name: 王凝
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -200,11 +274,15 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_jhGmz5PBmstGBfB54XPkH7 | 王重 | accepted |
 | children | p_82X3C77Tnmz5EH9rMPC7QU | 王洧 | accepted |
 | children | p_BSvRMS3VKTbeQ3PpPXoMkT | 王淙 | accepted |
+| children | p_HYw3h3gd2SPmfVE18GBoDH | 王凝 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王淙（CBDB 175710）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175710&o=json)
+- [中国历代人物传记资料库：王凝（CBDB 144880）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=144880&o=json)
 - [中国历代人物传记资料库：王洧（CBDB 175713）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175713&o=json)
+- [中国历代人物传记资料库：王重（CBDB 175706）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175706&o=json)
 - [中国历代人物传记资料库：王眾仲（CBDB 175709）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175709&o=json)

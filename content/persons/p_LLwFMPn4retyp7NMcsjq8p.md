@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王德立
 cbdb_id: 54749
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -87,7 +87,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_q0BqHyQtafgQ04-KPXYveD
+        subject_person_id: p_LLwFMPn4retyp7NMcsjq8p
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_j4KVfKM59X7hPEBARpimxD
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_RwOAjA-sze4NPWhkRYv2aa
+          claim_id: c_q0BqHyQtafgQ04-KPXYveD
+          source_id: s_mqCTpoShxvRYyc3Pk9fQHz
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #113, HuWenKai #572：父"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_mqCTpoShxvRYyc3Pk9fQHz
+            source_type: api_record
+            title: 中国历代人物传记资料库：王繼閥（CBDB 54751）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=54751&o=json
+            external_identifier: CBDB:54751
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.725Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_j4KVfKM59X7hPEBARpimxD
+        status: active
+        display_name: 王繼閥
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_j4KVfKM59X7hPEBARpimxD | 王繼閥 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王德立（CBDB 54749）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=54749&o=json)
+- [中国历代人物传记资料库：王繼閥（CBDB 54751）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=54751&o=json)

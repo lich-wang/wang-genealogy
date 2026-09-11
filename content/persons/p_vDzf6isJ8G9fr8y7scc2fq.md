@@ -4,7 +4,7 @@ id: p_vDzf6isJ8G9fr8y7scc2fq
 status: active
 merged_into: null
 display_name: 王崑
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -142,7 +142,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_tMv6fgFMjBVfk4U1Bt7Yeq
+        subject_person_id: p_iDHYjbUs9Cnr7wU4NATWxS
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_vDzf6isJ8G9fr8y7scc2fq
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_X2_VDbZkO9zS76DnUEHjLs
+          claim_id: c_tMv6fgFMjBVfk4U1Bt7Yeq
+          source_id: s_CBakdwAKt5Yhs5EzXoKTkB
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第三甲第四十七名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_CBakdwAKt5Yhs5EzXoKTkB
+            source_type: api_record
+            title: 中国历代人物传记资料库：王致遠（CBDB 257071）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257071&o=json
+            external_identifier: CBDB:257071
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.406Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_iDHYjbUs9Cnr7wU4NATWxS
+        status: active
+        display_name: 王致遠
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_1fEzNtyPjCg5rqRonPekKp | 王澤 | accepted |
+| ancestors | p_iDHYjbUs9Cnr7wU4NATWxS | 王致遠 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王崑（CBDB 201957）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201957&o=json)
 - [中国历代人物传记资料库：王澤（CBDB 257073）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257073&o=json)
+- [中国历代人物传记资料库：王致遠（CBDB 257071）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257071&o=json)

@@ -4,7 +4,7 @@ id: p_iSm59KSahaPBEQYyVsVN9c
 status: active
 merged_into: null
 display_name: 王文翰
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c__SmcUVUguIOc_aQeooUNYO
+        subject_person_id: p_iSm59KSahaPBEQYyVsVN9c
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_AGu2tQLWEYnHDWgwKg7CBM
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cb2VK3X6o18bbQNmeY2bzP
+          claim_id: c__SmcUVUguIOc_aQeooUNYO
+          source_id: s_jLX6xmsJHG7qoxwaLkNS7p
+          stance: supports
+          locator: 萬曆二十年壬辰科進士歷履便覽:一卷，第三甲第二百三十九名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_AGu2tQLWEYnHDWgwKg7CBM
+        status: active
+        display_name: 王喻
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_AGu2tQLWEYnHDWgwKg7CBM | 王喻 | accepted |
 
 ## 外部来源
 

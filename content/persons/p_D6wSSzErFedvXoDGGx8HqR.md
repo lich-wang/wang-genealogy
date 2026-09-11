@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王士琦
 cbdb_id: 35067
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -244,6 +244,43 @@ relationships:
         status: active
         display_name: 王宗沐
         merged_into_person_id: null
+    - claim:
+        id: c__hnulWd5vfSInz3eiDYfB3
+        subject_person_id: p_JGPNTCh2uLQxj9gSB18kcX
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_D6wSSzErFedvXoDGGx8HqR
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hi0JclqFjN649G357wmHWX
+          claim_id: c__hnulWd5vfSInz3eiDYfB3
+          source_id: s_H72ChdnuFcbTxv5Zf4ppwf
+          stance: supports
+          locator: 萬曆十一年進士登科錄:一卷，第二甲第三十四名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_H72ChdnuFcbTxv5Zf4ppwf
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宗沐（CBDB 222405）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222405&o=json
+            external_identifier: CBDB:222405
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.381Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_JGPNTCh2uLQxj9gSB18kcX
+        status: active
+        display_name: 王宗沐
+        merged_into_person_id: null
   children:
     - claim:
         id: c_RSNzpxgx487EKKDCyJdVxz
@@ -349,6 +386,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_trUE1ub3cUR7dMLX7JC1NK | 王宗沐 | accepted |
+| parents | p_JGPNTCh2uLQxj9gSB18kcX | 王宗沐 | accepted |
 | children | p_SWfQfCDCKhLf9P4kgMuHQS | 王立程 | accepted |
 | spouses | p_HxBizE9NWB7384sKGrZFR3 | 邓氏 | accepted |
 
@@ -357,6 +395,7 @@ relationships:
 - [维基数据：邓氏（Q65825631）](https://www.wikidata.org/wiki/Q65825631)
 - [维基数据：王士琦（Q18235078）](https://www.wikidata.org/wiki/Q18235078)
 - [维基数据：王宗沐（Q15916933）](https://www.wikidata.org/wiki/Q15916933)
+- [中国历代人物传记资料库：王宗沐（CBDB 222405）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222405&o=json)
 - [中文维基百科：王士琦](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A3%AB%E7%90%A6)
 - [CBDB 中国历代人物传记资料库：王士琦（35067）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35067&o=json)
 - [CBDB 中国历代人物传记资料库：王宗沐（35065）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35065&o=json)

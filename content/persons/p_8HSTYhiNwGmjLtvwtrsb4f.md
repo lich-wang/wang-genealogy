@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王麟駒
 cbdb_id: 514422
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,7 +86,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_v33IxMfPlaXgLVdxYZ1MY6
+        subject_person_id: p_J7HfQys9cX1ZJhzFd4pGGz
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_8HSTYhiNwGmjLtvwtrsb4f
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Gf1wplBqvNl7D1iAxHCIy9
+          claim_id: c_v33IxMfPlaXgLVdxYZ1MY6
+          source_id: s_2kevUgmwEeDE5MZSiXaCxu
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），425：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_2kevUgmwEeDE5MZSiXaCxu
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鼎（CBDB 57206）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=57206&o=json
+            external_identifier: CBDB:57206
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.803Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_J7HfQys9cX1ZJhzFd4pGGz
+        status: active
+        display_name: 王鼎
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_J7HfQys9cX1ZJhzFd4pGGz | 王鼎 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王鼎（CBDB 57206）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=57206&o=json)
 - [中国历代人物传记资料库：王麟駒（CBDB 514422）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=514422&o=json)

@@ -4,7 +4,7 @@ id: p_AiG6QrCQGQD3MPcSgAchU7
 status: active
 merged_into: null
 display_name: 王宸
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_rQRzZw9um05XLlzsiT9T8j
+        subject_person_id: p_jCK8R3MaCsiE6Le8VKcP4N
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_AiG6QrCQGQD3MPcSgAchU7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FFkFM7a9gRCypm49J1_PTx
+          claim_id: c_rQRzZw9um05XLlzsiT9T8j
+          source_id: s_3dGuJiVSs29A7N84d5o85M
+          stance: supports
+          locator: 弘治三年進士登科錄:一卷，第二甲第八十五名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_3dGuJiVSs29A7N84d5o85M
+            source_type: api_record
+            title: 中国历代人物传记资料库：王霖（CBDB 261739）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261739&o=json
+            external_identifier: CBDB:261739
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.555Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_jCK8R3MaCsiE6Le8VKcP4N
+        status: active
+        display_name: 王霖
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -134,9 +171,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_jCK8R3MaCsiE6Le8VKcP4N | 王霖 | accepted |
 | ancestors | p_5wuv4yjMrao5f2DNDqdSNF | 王能 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王宸（CBDB 126630）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126630&o=json)
+- [中国历代人物传记资料库：王霖（CBDB 261739）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261739&o=json)
 - [中国历代人物传记资料库：王能（CBDB 261738）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261738&o=json)

@@ -4,7 +4,7 @@ id: p_ig5jJ8rtecrSaLZugvUeFb
 status: active
 merged_into: null
 display_name: 王傅喜
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -77,7 +77,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_8gy4wIxiw3TIaK9Q-MHwKV
+        subject_person_id: p_P9pk3GX9ak89DEB5HLBBuW
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_ig5jJ8rtecrSaLZugvUeFb
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QQTXXaTiF8hSWVYKljInvq
+          claim_id: c_8gy4wIxiw3TIaK9Q-MHwKV
+          source_id: s_kUnFrBn4a5vzQW6PW5e3Pm
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，48：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_P9pk3GX9ak89DEB5HLBBuW
+        status: active
+        display_name: 王用
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_P9pk3GX9ak89DEB5HLBBuW | 王用 | accepted |
 
 ## 外部来源
 

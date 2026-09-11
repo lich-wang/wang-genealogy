@@ -4,7 +4,7 @@ id: p_ieK4DN3AcasJWKbAPHMC7t
 status: active
 merged_into: null
 display_name: 王訥
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_C1e_Ja9yVjr8UdNeuEyTLP
+        subject_person_id: p_vziev5XZKu5i15QAie4vMb
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ieK4DN3AcasJWKbAPHMC7t
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_j0cWGaghEfPiKvs0wI_o9U
+          claim_id: c_C1e_Ja9yVjr8UdNeuEyTLP
+          source_id: s_Lhy86W3h73usK4PsrRcEjc
+          stance: supports
+          locator: 正統四年進士登科錄:一卷，第三甲第三十九名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_vziev5XZKu5i15QAie4vMb
+        status: active
+        display_name: 王景深
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_Dq_j1wz1L71-3aglY5rHCF
+        subject_person_id: p_dVuLfnk2Yt52fAPqVKZJKs
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_ieK4DN3AcasJWKbAPHMC7t
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WYiXgWey1TqEWcsCjLzeMv
+          claim_id: c_Dq_j1wz1L71-3aglY5rHCF
+          source_id: s_Lhy86W3h73usK4PsrRcEjc
+          stance: supports
+          locator: 正統四年進士登科錄:一卷，第三甲第三十九名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_dVuLfnk2Yt52fAPqVKZJKs
+        status: active
+        display_name: 王彥質
+        merged_into_person_id: null
+    - claim:
+        id: c_lRxL1Z63iMW7PFFzfIboCX
+        subject_person_id: p_SQY42yCo8QJUvPNoGHwv8p
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_ieK4DN3AcasJWKbAPHMC7t
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_J4HHgVt0Syc6mzjVHbgySF
+          claim_id: c_lRxL1Z63iMW7PFFzfIboCX
+          source_id: s_Lhy86W3h73usK4PsrRcEjc
+          stance: supports
+          locator: 正統四年進士登科錄:一卷，第三甲第三十九名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_SQY42yCo8QJUvPNoGHwv8p
+        status: active
+        display_name: 王德真
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_vziev5XZKu5i15QAie4vMb | 王景深 | accepted |
+| ancestors | p_dVuLfnk2Yt52fAPqVKZJKs | 王彥質 | accepted |
+| ancestors | p_SQY42yCo8QJUvPNoGHwv8p | 王德真 | accepted |
 
 ## 外部来源
 

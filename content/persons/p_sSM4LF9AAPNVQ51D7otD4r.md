@@ -4,7 +4,7 @@ id: p_sSM4LF9AAPNVQ51D7otD4r
 status: active
 merged_into: null
 display_name: 王郅
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -245,6 +245,43 @@ relationships:
         status: active
         display_name: 王釴
         merged_into_person_id: null
+    - claim:
+        id: c_pSd1wa2fZ3zWXtO4UP5YW7
+        subject_person_id: p_jc5D9i8KRjZhAgCusMCLC8
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_sSM4LF9AAPNVQ51D7otD4r
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_EZlvr5CpNdBW8UXUgfwsGk
+          claim_id: c_pSd1wa2fZ3zWXtO4UP5YW7
+          source_id: s_4jetYRjRZos1oSyGK8B1x6
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Zhenyuan 21：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_4jetYRjRZos1oSyGK8B1x6
+            source_type: api_record
+            title: 中国历代人物传记资料库：王暠（CBDB 155485）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=155485&o=json
+            external_identifier: CBDB:155485
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.879Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_jc5D9i8KRjZhAgCusMCLC8
+        status: active
+        display_name: 王暠
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -269,9 +306,11 @@ relationships:
 | children | p_1Yww3BArYHAwhUU3c4fhMK | 王遘 | accepted |
 | children | p_H8j7bhrwDREUoxhxsKxCHJ | 王逵 | accepted |
 | ancestors | p_dW2Y9fcQkf4j5aMn8SBkL4 | 王釴 | accepted |
+| ancestors | p_jc5D9i8KRjZhAgCusMCLC8 | 王暠 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王暠（CBDB 155485）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=155485&o=json)
 - [中国历代人物传记资料库：王遘（CBDB 155482）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=155482&o=json)
 - [中国历代人物传记资料库：王逵（CBDB 155481）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=155481&o=json)
 - [中国历代人物传记资料库：王釴（CBDB 155486）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=155486&o=json)

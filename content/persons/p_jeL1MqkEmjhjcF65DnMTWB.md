@@ -4,7 +4,7 @@ id: p_jeL1MqkEmjhjcF65DnMTWB
 status: active
 merged_into: null
 display_name: 王貴
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_e1v-mbd6OLDjiFPGO2DsPQ
+        subject_person_id: p_jeL1MqkEmjhjcF65DnMTWB
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_TTntK269568eA9RALQmA43
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_p7PxBCDvk0WtmSkZq6DbmP
+          claim_id: c_e1v-mbd6OLDjiFPGO2DsPQ
+          source_id: s_swifxK2L5m9nN2MegYCQAr
+          stance: supports
+          locator: 嘉靖八年進士登科錄:一卷，第二甲第八十二名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_TTntK269568eA9RALQmA43
+        status: active
+        display_name: 王納言
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_TTntK269568eA9RALQmA43 | 王納言 | accepted |
 
 ## 外部来源
 

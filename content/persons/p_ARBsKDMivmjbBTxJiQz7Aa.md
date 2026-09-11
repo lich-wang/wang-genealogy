@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王朝瑬
 cbdb_id: 202059
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -172,6 +172,43 @@ relationships:
         status: active
         display_name: 王聚
         merged_into_person_id: null
+    - claim:
+        id: c_O-NXs19bm9LCacq6Beccx0
+        subject_person_id: p_Jj4S5PPcDKSRchCbetDt1A
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_ARBsKDMivmjbBTxJiQz7Aa
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_P4H-kKyTFh1yMi7cUJU76s
+          claim_id: c_O-NXs19bm9LCacq6Beccx0
+          source_id: s_HX3R1nETddGgJvc6uNortK
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第三甲第二百零三名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_HX3R1nETddGgJvc6uNortK
+            source_type: api_record
+            title: 中国历代人物传记资料库：王斌（CBDB 282722）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282722&o=json
+            external_identifier: CBDB:282722
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.102Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Jj4S5PPcDKSRchCbetDt1A
+        status: active
+        display_name: 王斌
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -193,8 +230,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_3qLC2oeE1HhZa2mfE2D9n7 | 王聚 | accepted |
+| ancestors | p_Jj4S5PPcDKSRchCbetDt1A | 王斌 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王斌（CBDB 282722）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282722&o=json)
 - [中国历代人物传记资料库：王朝瑬（CBDB 202059）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202059&o=json)
 - [中国历代人物传记资料库：王聚（CBDB 282721）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282721&o=json)

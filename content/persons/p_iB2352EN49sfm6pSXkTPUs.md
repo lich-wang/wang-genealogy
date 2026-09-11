@@ -4,7 +4,7 @@ id: p_iB2352EN49sfm6pSXkTPUs
 status: active
 merged_into: null
 display_name: 王申伯
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,8 +100,86 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_1VevHhUpmRYly4_psPVonb
+        subject_person_id: p_fVqeQtTE5gCFfrMxGAKtuq
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_iB2352EN49sfm6pSXkTPUs
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wwacRxJ2x5aGHNHkNasCz3
+          claim_id: c_1VevHhUpmRYly4_psPVonb
+          source_id: s_f7Ld4QKHJzWMqxYyMh2MrQ
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_fVqeQtTE5gCFfrMxGAKtuq
+        status: active
+        display_name: 王權
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_Zpm3OQ5DlDQRqweDpdYF9w
+        subject_person_id: p_iB2352EN49sfm6pSXkTPUs
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_SGBcgitFC6GXFuEsTzJiKU
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bURFL847ODcEPimTgf-tWT
+          claim_id: c_Zpm3OQ5DlDQRqweDpdYF9w
+          source_id: s_f7Ld4QKHJzWMqxYyMh2MrQ
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_SGBcgitFC6GXFuEsTzJiKU
+        status: active
+        display_name: 王瑾
+        merged_into_person_id: null
+    - claim:
+        id: c_gWZ-36dWHhBiR4Yx6bv5tJ
+        subject_person_id: p_iB2352EN49sfm6pSXkTPUs
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_RW2f3mKtuxbE8pN37Tgqfc
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kmN97qjSj9hgEl48MVW-cP
+          claim_id: c_gWZ-36dWHhBiR4Yx6bv5tJ
+          source_id: s_f7Ld4QKHJzWMqxYyMh2MrQ
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_RW2f3mKtuxbE8pN37Tgqfc
+        status: active
+        display_name: 王莘
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_fVqeQtTE5gCFfrMxGAKtuq | 王權 | accepted |
+| children | p_SGBcgitFC6GXFuEsTzJiKU | 王瑾 | accepted |
+| children | p_RW2f3mKtuxbE8pN37Tgqfc | 王莘 | accepted |
 
 ## 外部来源
 

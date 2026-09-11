@@ -4,7 +4,7 @@ id: p_skjKvTKbz5aUC8X3W9ytWH
 status: active
 merged_into: null
 display_name: 王崇文
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -208,6 +208,43 @@ relationships:
         status: active
         display_name: 王導
         merged_into_person_id: null
+    - claim:
+        id: c_mLJsmJCmnRKz-lWX8rBJ3z
+        subject_person_id: p_iop7T8p6oTGjVpH3wXMe3j
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_skjKvTKbz5aUC8X3W9ytWH
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZtdvkP_bxYyH8ogUAg6aFA
+          claim_id: c_mLJsmJCmnRKz-lWX8rBJ3z
+          source_id: s_LqJQUzPTMHjFe1bT4CDBm8
+          stance: supports
+          locator: 弘治六年進士登科錄:一卷，第三甲第一百四十三名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_LqJQUzPTMHjFe1bT4CDBm8
+            source_type: api_record
+            title: 中国历代人物传记资料库：王蘭（CBDB 266131）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266131&o=json
+            external_identifier: CBDB:266131
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.715Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_iop7T8p6oTGjVpH3wXMe3j
+        status: active
+        display_name: 王蘭
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -231,9 +268,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_7xPYAwpK8PS9R7QKy5varP | 王珣 | accepted |
 | ancestors | p_DHkLaNrhXTyY2QbEp4wQXF | 王導 | accepted |
+| ancestors | p_iop7T8p6oTGjVpH3wXMe3j | 王蘭 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王崇文（CBDB 126686）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126686&o=json)
 - [中国历代人物传记资料库：王導（CBDB 266130）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266130&o=json)
+- [中国历代人物传记资料库：王蘭（CBDB 266131）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266131&o=json)
 - [中国历代人物传记资料库：王珣（CBDB 266132）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266132&o=json)

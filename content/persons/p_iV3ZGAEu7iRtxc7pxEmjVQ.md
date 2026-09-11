@@ -4,7 +4,7 @@ id: p_iV3ZGAEu7iRtxc7pxEmjVQ
 status: active
 merged_into: null
 display_name: 王宴
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_sw1MsqoT6Sd32aAF_z1O3g
+        subject_person_id: p_iV3ZGAEu7iRtxc7pxEmjVQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_xRgAFF1QF89F297F8SmuRt
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ruV-9WH0yVJppzCjBMasRM
+          claim_id: c_sw1MsqoT6Sd32aAF_z1O3g
+          source_id: s_sAqCF7taW9xBh2FsGdKucb
+          stance: supports
+          locator: 景泰五年進士登科錄:一卷，第二甲第四十一名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_xRgAFF1QF89F297F8SmuRt
+        status: active
+        display_name: 王穀
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_xRgAFF1QF89F297F8SmuRt | 王穀 | accepted |
 
 ## 外部来源
 

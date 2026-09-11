@@ -4,7 +4,7 @@ id: p_irooaMCyG8JBBsSKCCr16W
 status: active
 merged_into: null
 display_name: 王一善
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_1aTTVPK28DOLBcQBKF7oPy
+        subject_person_id: p_irooaMCyG8JBBsSKCCr16W
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_LPzYRgFrvHZtoR8m7zKq9v
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jzmouYMQ6cEN712F_J5cfQ
+          claim_id: c_1aTTVPK28DOLBcQBKF7oPy
+          source_id: s_dqCYFtVdCivkzFi6Cp9Q4y
+          stance: supports
+          locator: 嘉靖二十六年進士登科錄:一卷，第二甲第二十二名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_LPzYRgFrvHZtoR8m7zKq9v
+        status: active
+        display_name: 王時槐
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_LPzYRgFrvHZtoR8m7zKq9v | 王時槐 | accepted |
 
 ## 外部来源
 

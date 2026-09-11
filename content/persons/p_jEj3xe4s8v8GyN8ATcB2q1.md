@@ -4,7 +4,7 @@ id: p_jEj3xe4s8v8GyN8ATcB2q1
 status: active
 merged_into: null
 display_name: 王宗舜
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_Ovzx-w7IFnpA0tBkninQkf
+        subject_person_id: p_jEj3xe4s8v8GyN8ATcB2q1
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_3hY5he8M9mkvGyZik66bM3
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5yXhZ_ev5p3M0viCOJpKLc
+          claim_id: c_Ovzx-w7IFnpA0tBkninQkf
+          source_id: s_F5yyiH9EAK3DEA3GHPEG7P
+          stance: supports
+          locator: 萬曆十一年進士登科錄:一卷，第三甲第六十九名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_3hY5he8M9mkvGyZik66bM3
+        status: active
+        display_name: 王室垣
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_3hY5he8M9mkvGyZik66bM3 | 王室垣 | accepted |
 
 ## 外部来源
 

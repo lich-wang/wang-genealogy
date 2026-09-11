@@ -4,7 +4,7 @@ id: p_j4RsuRBKFYJbK5j9md2YXD
 status: active
 merged_into: null
 display_name: 王承裕
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,116 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_S0mOaE3ZCz7Ll4hKti56k4
+        subject_person_id: p_T2DCj9d6XKU4djHJMs2kSM
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_j4RsuRBKFYJbK5j9md2YXD
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BrJmeyeF7kHgVSYq2zDC9A
+          claim_id: c_S0mOaE3ZCz7Ll4hKti56k4
+          source_id: s_KwAAbYEBjQwNhkLyALJnCV
+          stance: supports
+          locator: 王文恪公集:三十六卷，29.5a：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_T2DCj9d6XKU4djHJMs2kSM
+        status: active
+        display_name: 王恕
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
-  ancestors: []
+  spouses:
+    - claim:
+        id: c_ckXLpNyv6I-XgoCRhaEuw8
+        subject_person_id: p_j4RsuRBKFYJbK5j9md2YXD
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_Qd35J9Vr9qLhrzFStDP4Qn
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8FT3yM9IZanvI1oirezeha
+          claim_id: c_ckXLpNyv6I-XgoCRhaEuw8
+          source_id: s_KwAAbYEBjQwNhkLyALJnCV
+          stance: supports
+          locator: 弘治六年進士登科錄:一卷，第二甲第二十三名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Qd35J9Vr9qLhrzFStDP4Qn
+        status: active
+        display_name: 张氏
+        merged_into_person_id: null
+  ancestors:
+    - claim:
+        id: c_coMJK_CGabCn2hpm6AoWcd
+        subject_person_id: p_tcWDCYEjZBxpgXVNCyJD9U
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_j4RsuRBKFYJbK5j9md2YXD
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dmGOZGV6cpn9yqqI69iH9V
+          claim_id: c_coMJK_CGabCn2hpm6AoWcd
+          source_id: s_KwAAbYEBjQwNhkLyALJnCV
+          stance: supports
+          locator: 弘治六年進士登科錄:一卷，第二甲第二十三名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_tcWDCYEjZBxpgXVNCyJD9U
+        status: active
+        display_name: 王惟直
+        merged_into_person_id: null
+    - claim:
+        id: c_9Rflp-BBJRdjs7XTJPMdgF
+        subject_person_id: p_g1bs6h5k4Pu2preBv8KZPd
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_j4RsuRBKFYJbK5j9md2YXD
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mAeAH8g3lm4iH3VnyAvnXm
+          claim_id: c_9Rflp-BBJRdjs7XTJPMdgF
+          source_id: s_KwAAbYEBjQwNhkLyALJnCV
+          stance: supports
+          locator: 弘治六年進士登科錄:一卷，第二甲第二十三名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_g1bs6h5k4Pu2preBv8KZPd
+        status: active
+        display_name: 王仲智
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +230,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_T2DCj9d6XKU4djHJMs2kSM | 王恕 | accepted |
+| spouses | p_Qd35J9Vr9qLhrzFStDP4Qn | 张氏 | accepted |
+| ancestors | p_tcWDCYEjZBxpgXVNCyJD9U | 王惟直 | accepted |
+| ancestors | p_g1bs6h5k4Pu2preBv8KZPd | 王仲智 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_i47UsMhA15jMqEZ7iDqoa7
 status: active
 merged_into: null
 display_name: 王韋
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,8 +128,86 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_wU5FJio81ziN9ZcP4u1anK
+        subject_person_id: p_zM5WDm525JzQAvPK8M51wr
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_i47UsMhA15jMqEZ7iDqoa7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Swevf_Ik6PyycvulhLsmN2
+          claim_id: c_wU5FJio81ziN9ZcP4u1anK
+          source_id: s_ukzzWZC3hbEtGgUGotV5TV
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Xianheng24：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_zM5WDm525JzQAvPK8M51wr
+        status: active
+        display_name: 王敏
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_WN4MGTeNN8VQ8kDFGZGrF0
+        subject_person_id: p_i47UsMhA15jMqEZ7iDqoa7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_W8E9H72h3otQNNGaDnB1FU
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WZ9Z0L9MEDPkNO8vk_bgFK
+          claim_id: c_WN4MGTeNN8VQ8kDFGZGrF0
+          source_id: s_ukzzWZC3hbEtGgUGotV5TV
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Xianheng24：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_W8E9H72h3otQNNGaDnB1FU
+        status: active
+        display_name: 王景之
+        merged_into_person_id: null
+    - claim:
+        id: c_7YqZrSdUqw4ZEgNK_0mOTV
+        subject_person_id: p_i47UsMhA15jMqEZ7iDqoa7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_VCCsC6Ka6PLxT1974FrH4p
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2PB-YGtMmSVPlZdoSl32Mm
+          claim_id: c_7YqZrSdUqw4ZEgNK_0mOTV
+          source_id: s_ukzzWZC3hbEtGgUGotV5TV
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Xianheng24：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_VCCsC6Ka6PLxT1974FrH4p
+        status: active
+        display_name: 王宏之
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +233,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_zM5WDm525JzQAvPK8M51wr | 王敏 | accepted |
+| children | p_W8E9H72h3otQNNGaDnB1FU | 王景之 | accepted |
+| children | p_VCCsC6Ka6PLxT1974FrH4p | 王宏之 | accepted |
 
 ## 外部来源
 

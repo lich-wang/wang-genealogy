@@ -4,7 +4,7 @@ id: p_J6ixUg3fn8jEH78igHMqRj
 status: active
 merged_into: null
 display_name: 王爽
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -101,7 +101,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_iStbJxUpd0J098S1SnB0aE
+        subject_person_id: p_J6ixUg3fn8jEH78igHMqRj
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Ja9V86DWfB2KcCaKcsrWYK
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WAwKLufNOwqAs8eryur8vM
+          claim_id: c_iStbJxUpd0J098S1SnB0aE
+          source_id: s_WvzFS1Rhc79dH47kogS2yJ
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Ja9V86DWfB2KcCaKcsrWYK
+        status: active
+        display_name: 王微
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,6 +152,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_Ja9V86DWfB2KcCaKcsrWYK | 王微 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_J84hEmz9dfFU5aL3SvmGR2
 status: active
 merged_into: null
 display_name: 王伯達
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,59 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_GmQmEZ0W-zynd8kRPRMHUz
+        subject_person_id: p_J84hEmz9dfFU5aL3SvmGR2
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_wXac3tpkiay6qk6ZYcaaQP
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0GxhIM2vk8WZ-5duUXvGSY
+          claim_id: c_GmQmEZ0W-zynd8kRPRMHUz
+          source_id: s_NouhGVe5DzZjdZNLLc2UNF
+          stance: supports
+          locator: 寶祐登科錄：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_wXac3tpkiay6qk6ZYcaaQP
+        status: active
+        display_name: 王永椿
+        merged_into_person_id: null
+    - claim:
+        id: c_0a5GMIyfqAh5eelNVHFszZ
+        subject_person_id: p_J84hEmz9dfFU5aL3SvmGR2
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_8TfnuWoSAsZk7JeKEartwY
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_EUKreQP-fT6vdNO-fAV2xL
+          claim_id: c_0a5GMIyfqAh5eelNVHFszZ
+          source_id: s_NouhGVe5DzZjdZNLLc2UNF
+          stance: supports
+          locator: 寶祐登科錄：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_8TfnuWoSAsZk7JeKEartwY
+        status: active
+        display_name: 王體文
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_wXac3tpkiay6qk6ZYcaaQP | 王永椿 | accepted |
+| descendants | p_8TfnuWoSAsZk7JeKEartwY | 王體文 | accepted |
 
 ## 外部来源
 

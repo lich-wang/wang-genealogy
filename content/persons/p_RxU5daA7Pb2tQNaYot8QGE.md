@@ -4,7 +4,7 @@ id: p_RxU5daA7Pb2tQNaYot8QGE
 status: active
 merged_into: null
 display_name: 王術
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_h54Nn9QPsVuyEuHhW0J-s9
+        subject_person_id: p_isvcw6EfQic2NdXZzwfKeT
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_RxU5daA7Pb2tQNaYot8QGE
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_F72Yh8z5ZOfuHPJZziiXvu
+          claim_id: c_h54Nn9QPsVuyEuHhW0J-s9
+          source_id: s_5oMQQ6J7D2xG5HP2PqWFcF
+          stance: supports
+          locator: 成化二十三年進士登科錄:一卷，第三甲第九十七名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_5oMQQ6J7D2xG5HP2PqWFcF
+            source_type: api_record
+            title: 中国历代人物传记资料库：王洪（CBDB 259539）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=259539&o=json
+            external_identifier: CBDB:259539
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.463Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_isvcw6EfQic2NdXZzwfKeT
+        status: active
+        display_name: 王洪
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -163,9 +200,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_isvcw6EfQic2NdXZzwfKeT | 王洪 | accepted |
 | ancestors | p_fMLAPE2ioyP2h5eC9D65Cw | 王鎰 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王洪（CBDB 259539）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=259539&o=json)
 - [中国历代人物传记资料库：王術（CBDB 200545）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200545&o=json)
 - [中国历代人物传记资料库：王鎰（CBDB 259538）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=259538&o=json)

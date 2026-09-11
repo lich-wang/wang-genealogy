@@ -4,7 +4,7 @@ id: p_gzcyEWpUCr5gNzCxFVcs3X
 status: active
 merged_into: null
 display_name: 王冕
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_IXsR3h3BrhR6a0_jvZdU_-
+        subject_person_id: p_JE1CTFgDMfCNG8v2QBPhTa
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_gzcyEWpUCr5gNzCxFVcs3X
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_oxkNHz89KTIGVOkd7SFfxs
+          claim_id: c_IXsR3h3BrhR6a0_jvZdU_-
+          source_id: s_R1VnXFE8irfG89fbpGmwQG
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第三甲第一百零四名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_R1VnXFE8irfG89fbpGmwQG
+            source_type: api_record
+            title: 中国历代人物传记资料库：王佐（CBDB 281723）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=281723&o=json
+            external_identifier: CBDB:281723
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.053Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_JE1CTFgDMfCNG8v2QBPhTa
+        status: active
+        display_name: 王佐
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -229,6 +266,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_JE1CTFgDMfCNG8v2QBPhTa | 王佐 | accepted |
 | ancestors | p_67qMPLTYasCb3s1pUyvhCX | 王珉 | accepted |
 | ancestors | p_edNbGPMXY5fR7hqPMkj3RX | 王鑑 | accepted |
 
@@ -237,3 +275,4 @@ relationships:
 - [中国历代人物传记资料库：王鑑（CBDB 281721）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=281721&o=json)
 - [中国历代人物传记资料库：王冕（CBDB 67901）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67901&o=json)
 - [中国历代人物传记资料库：王珉（CBDB 281722）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=281722&o=json)
+- [中国历代人物传记资料库：王佐（CBDB 281723）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=281723&o=json)

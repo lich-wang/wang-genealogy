@@ -4,7 +4,7 @@ id: p_hzLeAwZs4VYwuAcAn2C3cp
 status: active
 merged_into: null
 display_name: 王安
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_4xfXcwyrXjKs8BZbDeUADH
+        subject_person_id: p_hzLeAwZs4VYwuAcAn2C3cp
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_p7K3tmeqp6utYYMJ6NNNHL
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wle21srYJX75y6VlEiwO60
+          claim_id: c_4xfXcwyrXjKs8BZbDeUADH
+          source_id: s_NFVNsRx62FwTtC9k5KL7mZ
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Xianqing 21：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_p7K3tmeqp6utYYMJ6NNNHL
+        status: active
+        display_name: 王師感
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_p7K3tmeqp6utYYMJ6NNNHL | 王師感 | accepted |
 
 ## 外部来源
 

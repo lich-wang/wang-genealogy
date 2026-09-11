@@ -4,7 +4,7 @@ id: p_A2oY1DBC6ZsoMfLhszPRPg
 status: active
 merged_into: null
 display_name: 王璽
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -114,7 +114,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_3LNcJ-G1rDJQnHsxQXKFBH
+        subject_person_id: p_iW5TUNg65ewYufTEAY7cwQ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_A2oY1DBC6ZsoMfLhszPRPg
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XATGf8MuahXfwwvSOv8Als
+          claim_id: c_3LNcJ-G1rDJQnHsxQXKFBH
+          source_id: s_Hs9Etr9LME5x4mHfN83JuB
+          stance: supports
+          locator: 成化二十三年進士登科錄:一卷，第二甲第二名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Hs9Etr9LME5x4mHfN83JuB
+            source_type: api_record
+            title: 中国历代人物传记资料库：王友仁（CBDB 257475）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257475&o=json
+            external_identifier: CBDB:257475
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.424Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_iW5TUNg65ewYufTEAY7cwQ
+        status: active
+        display_name: 王友仁
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -135,8 +172,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_3zRBK42K5MyFsKs7staexG | 王淵 | accepted |
+| ancestors | p_iW5TUNg65ewYufTEAY7cwQ | 王友仁 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王璽（CBDB 126870）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126870&o=json)
+- [中国历代人物传记资料库：王友仁（CBDB 257475）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257475&o=json)
 - [中国历代人物传记资料库：王淵（CBDB 257477）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257477&o=json)

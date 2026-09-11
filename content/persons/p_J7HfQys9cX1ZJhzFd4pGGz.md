@@ -4,7 +4,7 @@ id: p_J7HfQys9cX1ZJhzFd4pGGz
 status: active
 merged_into: null
 display_name: 王鼎
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -129,12 +129,116 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_v33IxMfPlaXgLVdxYZ1MY6
+        subject_person_id: p_J7HfQys9cX1ZJhzFd4pGGz
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_8HSTYhiNwGmjLtvwtrsb4f
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Gf1wplBqvNl7D1iAxHCIy9
+          claim_id: c_v33IxMfPlaXgLVdxYZ1MY6
+          source_id: s_2kevUgmwEeDE5MZSiXaCxu
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），425：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_8HSTYhiNwGmjLtvwtrsb4f
+        status: active
+        display_name: 王麟駒
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
-  descendants: []
+  ancestors:
+    - claim:
+        id: c_wjrGZOhUod1IR9aORGK-AH
+        subject_person_id: p_QQdiGH2WvTaAyGpeBnpjCB
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_J7HfQys9cX1ZJhzFd4pGGz
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_P-R94RPu0ZMZfeVl5cCaRB
+          claim_id: c_wjrGZOhUod1IR9aORGK-AH
+          source_id: s_2kevUgmwEeDE5MZSiXaCxu
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），425：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_QQdiGH2WvTaAyGpeBnpjCB
+        status: active
+        display_name: 王垣
+        merged_into_person_id: null
+    - claim:
+        id: c_c3UY-BD62xfgqEgjwtVPN5
+        subject_person_id: p_T7omMKkSZwfwP6gCC7JmKi
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_J7HfQys9cX1ZJhzFd4pGGz
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mMH36HKXqOK_PJ4kq3-hsk
+          claim_id: c_c3UY-BD62xfgqEgjwtVPN5
+          source_id: s_2kevUgmwEeDE5MZSiXaCxu
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），425：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_T7omMKkSZwfwP6gCC7JmKi
+        status: active
+        display_name: 王夢祖
+        merged_into_person_id: null
+  descendants:
+    - claim:
+        id: c_Vc8WxceAORpzGsvKM5k9l9
+        subject_person_id: p_J7HfQys9cX1ZJhzFd4pGGz
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_2uHCoCg7UxTe4rLH8hvvAb
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_N5DSO-gnVcWDs43JdA0t2J
+          claim_id: c_Vc8WxceAORpzGsvKM5k9l9
+          source_id: s_2kevUgmwEeDE5MZSiXaCxu
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），425：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_2uHCoCg7UxTe4rLH8hvvAb
+        status: active
+        display_name: 王瑔
+        merged_into_person_id: null
   other: []
 ---
 
@@ -155,6 +259,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_8HSTYhiNwGmjLtvwtrsb4f | 王麟駒 | accepted |
+| ancestors | p_QQdiGH2WvTaAyGpeBnpjCB | 王垣 | accepted |
+| ancestors | p_T7omMKkSZwfwP6gCC7JmKi | 王夢祖 | accepted |
+| descendants | p_2uHCoCg7UxTe4rLH8hvvAb | 王瑔 | accepted |
 
 ## 外部来源
 

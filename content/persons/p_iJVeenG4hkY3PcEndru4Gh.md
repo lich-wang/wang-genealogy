@@ -4,7 +4,7 @@ id: p_iJVeenG4hkY3PcEndru4Gh
 status: active
 merged_into: null
 display_name: 王靖
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -101,7 +101,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_O6aa0mKE0Pqg7KWUZKebt4
+        subject_person_id: p_iJVeenG4hkY3PcEndru4Gh
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_jKqVidJwcTMx5NKLd3APMR
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WKCxsXMN3vYPuYqxG2phFF
+          claim_id: c_O6aa0mKE0Pqg7KWUZKebt4
+          source_id: s_gzN9JFYY1vT6tF7CpHhdtP
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_jKqVidJwcTMx5NKLd3APMR
+        status: active
+        display_name: 王瓌
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,6 +152,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_jKqVidJwcTMx5NKLd3APMR | 王瓌 | accepted |
 
 ## 外部来源
 

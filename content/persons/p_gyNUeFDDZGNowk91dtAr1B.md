@@ -4,7 +4,7 @@ id: p_gyNUeFDDZGNowk91dtAr1B
 status: active
 merged_into: null
 display_name: 王惟賢
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -176,6 +176,43 @@ relationships:
         status: active
         display_name: 王佶
         merged_into_person_id: null
+    - claim:
+        id: c_p7dQ9Ygcsf3p8i1liKNdeh
+        subject_person_id: p_gyNUeFDDZGNowk91dtAr1B
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_icYBEYR9zgQawiwAKaV75B
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QvTjHWP9xTO4LxqaO-no3m
+          claim_id: c_p7dQ9Ygcsf3p8i1liKNdeh
+          source_id: s_Grbkr698b4nUMC9u6zrKPp
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第七十八名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Grbkr698b4nUMC9u6zrKPp
+            source_type: api_record
+            title: 中国历代人物传记资料库：王仔（CBDB 292757）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=292757&o=json
+            external_identifier: CBDB:292757
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.419Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_icYBEYR9zgQawiwAKaV75B
+        status: active
+        display_name: 王仔
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -239,6 +276,7 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_2UGwXzuLr1XfU6aXNcFopA | 王伸 | accepted |
 | children | p_hJYN4oe1c1xPsQK1bDY1qs | 王佶 | accepted |
+| children | p_icYBEYR9zgQawiwAKaV75B | 王仔 | accepted |
 | ancestors | p_GxDL9ejJ5dxwKNZ9PCmbaa | 王宏 | accepted |
 
 ## 外部来源
@@ -247,3 +285,4 @@ relationships:
 - [中国历代人物传记资料库：王佶（CBDB 292756）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=292756&o=json)
 - [中国历代人物传记资料库：王伸（CBDB 292755）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=292755&o=json)
 - [中国历代人物传记资料库：王惟賢（CBDB 202709）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202709&o=json)
+- [中国历代人物传记资料库：王仔（CBDB 292757）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=292757&o=json)

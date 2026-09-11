@@ -4,7 +4,7 @@ id: p_P9pk3GX9ak89DEB5HLBBuW
 status: active
 merged_into: null
 display_name: 王用
-revision: 7
+revision: 8
 properties:
   - predicate: name.primary
     recommended:
@@ -338,6 +338,154 @@ relationships:
         status: active
         display_name: 王閏姐
         merged_into_person_id: null
+    - claim:
+        id: c_H875941XHwLbuQ1-EWnVoV
+        subject_person_id: p_P9pk3GX9ak89DEB5HLBBuW
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_HxXDHBGc1gJ7CMUNuoHTfX
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Q6JkvWAcW-JiUbYGS7s8J6
+          claim_id: c_H875941XHwLbuQ1-EWnVoV
+          source_id: s_wHkBQnXp2JAcmBcmBbzFjW
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，48：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_wHkBQnXp2JAcmBcmBbzFjW
+            source_type: api_record
+            title: 中国历代人物传记资料库：王栲栳兒（CBDB 699451）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699451&o=json
+            external_identifier: CBDB:699451
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:06.583Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_HxXDHBGc1gJ7CMUNuoHTfX
+        status: active
+        display_name: 王栲栳兒
+        merged_into_person_id: null
+    - claim:
+        id: c_x0mFtZQD1wcELCLYvalFM1
+        subject_person_id: p_P9pk3GX9ak89DEB5HLBBuW
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_HZwkKexk2XLbosvJUAyZ7Y
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Yv2vvDRvs3TH3uADZy_jqF
+          claim_id: c_x0mFtZQD1wcELCLYvalFM1
+          source_id: s_4jM26nmDRWtLLJm5iPQcFm
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，48：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_4jM26nmDRWtLLJm5iPQcFm
+            source_type: api_record
+            title: 中国历代人物传记资料库：王七兒（CBDB 699456）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699456&o=json
+            external_identifier: CBDB:699456
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:06.585Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_HZwkKexk2XLbosvJUAyZ7Y
+        status: active
+        display_name: 王七兒
+        merged_into_person_id: null
+    - claim:
+        id: c_8gy4wIxiw3TIaK9Q-MHwKV
+        subject_person_id: p_P9pk3GX9ak89DEB5HLBBuW
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_ig5jJ8rtecrSaLZugvUeFb
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QQTXXaTiF8hSWVYKljInvq
+          claim_id: c_8gy4wIxiw3TIaK9Q-MHwKV
+          source_id: s_kUnFrBn4a5vzQW6PW5e3Pm
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，48：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_kUnFrBn4a5vzQW6PW5e3Pm
+            source_type: api_record
+            title: 中国历代人物传记资料库：王傅喜（CBDB 699455）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699455&o=json
+            external_identifier: CBDB:699455
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:06.584Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ig5jJ8rtecrSaLZugvUeFb
+        status: active
+        display_name: 王傅喜
+        merged_into_person_id: null
+    - claim:
+        id: c_NtWpDDsyRZcmAByLSkbeVf
+        subject_person_id: p_P9pk3GX9ak89DEB5HLBBuW
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_ii71MNmYm2yb9MzkjFFByN
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hEZJbfy5mmEnKcDLbTNocn
+          claim_id: c_NtWpDDsyRZcmAByLSkbeVf
+          source_id: s_A6wgfQvEHNX2aLTEgEx5ci
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，48：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_A6wgfQvEHNX2aLTEgEx5ci
+            source_type: api_record
+            title: 中国历代人物传记资料库：王年姐（CBDB 699467）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699467&o=json
+            external_identifier: CBDB:699467
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:06.587Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ii71MNmYm2yb9MzkjFFByN
+        status: active
+        display_name: 王年姐
+        merged_into_person_id: null
   other: []
 ---
 
@@ -363,12 +511,20 @@ relationships:
 | descendants | p_axq8URLSpJG5GjJ2ugi2TC | 王閏兒 | accepted |
 | descendants | p_eHnXWwDSoLx1gDXyHetbF2 | 王六姐 | accepted |
 | descendants | p_ha2jFMvroq3Zp6PxAg7LoJ | 王閏姐 | accepted |
+| descendants | p_HxXDHBGc1gJ7CMUNuoHTfX | 王栲栳兒 | accepted |
+| descendants | p_HZwkKexk2XLbosvJUAyZ7Y | 王七兒 | accepted |
+| descendants | p_ig5jJ8rtecrSaLZugvUeFb | 王傅喜 | accepted |
+| descendants | p_ii71MNmYm2yb9MzkjFFByN | 王年姐 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王弁（CBDB 699373）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699373&o=json)
+- [中国历代人物传记资料库：王傅喜（CBDB 699455）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699455&o=json)
+- [中国历代人物传记资料库：王栲栳兒（CBDB 699451）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699451&o=json)
 - [中国历代人物传记资料库：王六姐（CBDB 699469）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699469&o=json)
 - [中国历代人物传记资料库：王羅兒（CBDB 699460）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699460&o=json)
+- [中国历代人物传记资料库：王年姐（CBDB 699467）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699467&o=json)
+- [中国历代人物传记资料库：王七兒（CBDB 699456）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699456&o=json)
 - [中国历代人物传记资料库：王閏兒（CBDB 699459）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699459&o=json)
 - [中国历代人物传记资料库：王閏姐（CBDB 699466）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699466&o=json)
 - [中国历代人物传记资料库：王喜姑（CBDB 699463）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699463&o=json)

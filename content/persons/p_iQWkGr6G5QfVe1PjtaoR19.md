@@ -4,7 +4,7 @@ id: p_iQWkGr6G5QfVe1PjtaoR19
 status: active
 merged_into: null
 display_name: 王弘祚
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,13 +128,117 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_QxMU-gGk9O3slSu3_pnV2S
+        subject_person_id: p_qkvNUhkBZq6rv7KL4QvAKS
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_iQWkGr6G5QfVe1PjtaoR19
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FTuQKRyX0mtSITdOnMLqSP
+          claim_id: c_QxMU-gGk9O3slSu3_pnV2S
+          source_id: s_nc1yYpYHGX2hSnL9Q71xtL
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），186：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_qkvNUhkBZq6rv7KL4QvAKS
+        status: active
+        display_name: 王國治
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_ZS0pKza5WTFLYtlo72Vbd0
+        subject_person_id: p_iQWkGr6G5QfVe1PjtaoR19
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_7mKHWPMU13pSpD87AVQtyv
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QUfL_ZtaAmLUAGIuWnGalM
+          claim_id: c_ZS0pKza5WTFLYtlo72Vbd0
+          source_id: s_nc1yYpYHGX2hSnL9Q71xtL
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），186：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_7mKHWPMU13pSpD87AVQtyv
+        status: active
+        display_name: 王世珂
+        merged_into_person_id: null
+    - claim:
+        id: c_z8xfNYRbSuSocDY6pI6KlQ
+        subject_person_id: p_iQWkGr6G5QfVe1PjtaoR19
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_5AmpJfE9okc2qc7UJySU8r
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pOYb6XwgLhb-DWEIB4X_Qu
+          claim_id: c_z8xfNYRbSuSocDY6pI6KlQ
+          source_id: s_nc1yYpYHGX2hSnL9Q71xtL
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），186：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_5AmpJfE9okc2qc7UJySU8r
+        status: active
+        display_name: 王世瀚
+        merged_into_person_id: null
+    - claim:
+        id: c_u5YgjoezECgJy8wn5Tn8cR
+        subject_person_id: p_iQWkGr6G5QfVe1PjtaoR19
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_E1CJgmfgdR62qzmZbyMDrg
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AUOB5kGZXW8-uYZJ_VB40r
+          claim_id: c_u5YgjoezECgJy8wn5Tn8cR
+          source_id: s_nc1yYpYHGX2hSnL9Q71xtL
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），186：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_E1CJgmfgdR62qzmZbyMDrg
+        status: active
+        display_name: 王世湻
+        merged_into_person_id: null
   other: []
 ---
 
@@ -155,6 +259,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_qkvNUhkBZq6rv7KL4QvAKS | 王國治 | accepted |
+| descendants | p_7mKHWPMU13pSpD87AVQtyv | 王世珂 | accepted |
+| descendants | p_5AmpJfE9okc2qc7UJySU8r | 王世瀚 | accepted |
+| descendants | p_E1CJgmfgdR62qzmZbyMDrg | 王世湻 | accepted |
 
 ## 外部来源
 

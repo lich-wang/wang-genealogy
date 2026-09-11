@@ -4,7 +4,7 @@ id: p_rDsy8HY5TyxvyKG8WgSE65
 status: active
 merged_into: null
 display_name: 王宗植
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -114,7 +114,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_VAMNo3DaAOsPu7aBZt4bLl
+        subject_person_id: p_ixapZhQmmSDAS1angZKZYU
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_rDsy8HY5TyxvyKG8WgSE65
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9OoPI81dPsB7TOYGYoMK1s
+          claim_id: c_VAMNo3DaAOsPu7aBZt4bLl
+          source_id: s_hPA2wXFn6CM42W4D5FLhFz
+          stance: supports
+          locator: 鄞縣志，lgid=243606：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_hPA2wXFn6CM42W4D5FLhFz
+            source_type: api_record
+            title: 中国历代人物传记资料库：王士霖（CBDB 694147）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=694147&o=json
+            external_identifier: CBDB:694147
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:06.515Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ixapZhQmmSDAS1angZKZYU
+        status: active
+        display_name: 王士霖
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -135,8 +172,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_gWeQqYSDEj93QiAPCoQxmK | 王予彰 | accepted |
+| ancestors | p_ixapZhQmmSDAS1angZKZYU | 王士霖 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王士霖（CBDB 694147）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=694147&o=json)
 - [中国历代人物传记资料库：王予彰（CBDB 694148）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=694148&o=json)
 - [中国历代人物传记资料库：王宗植（CBDB 694150）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=694150&o=json)

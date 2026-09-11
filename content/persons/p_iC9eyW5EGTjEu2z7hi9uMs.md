@@ -4,7 +4,7 @@ id: p_iC9eyW5EGTjEu2z7hi9uMs
 status: active
 merged_into: null
 display_name: 王士階
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -152,7 +152,59 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_ZBJDFXIAHdtGRDaSSqy7a8
+        subject_person_id: p_iC9eyW5EGTjEu2z7hi9uMs
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_PZ5QGmBiXkdeYy8tBcE7VF
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MS5zba85OuTyP8ttpz9PFW
+          claim_id: c_ZBJDFXIAHdtGRDaSSqy7a8
+          source_id: s_uKXPADSL5E4iYQmAyG8Ru3
+          stance: supports
+          locator: (道光)徽州府志:十六卷卷首一卷，lgid=1160984：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_PZ5QGmBiXkdeYy8tBcE7VF
+        status: active
+        display_name: 王恭
+        merged_into_person_id: null
+    - claim:
+        id: c_opkvIW2CWi767yvG9A79gf
+        subject_person_id: p_iC9eyW5EGTjEu2z7hi9uMs
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_FYQb99EiX4ELJ1Y5NrCF89
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_E9KZb78RKIYLmuOVQQc23X
+          claim_id: c_opkvIW2CWi767yvG9A79gf
+          source_id: s_uKXPADSL5E4iYQmAyG8Ru3
+          stance: supports
+          locator: (道光)徽州府志:十六卷卷首一卷，lgid=1160984：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_FYQb99EiX4ELJ1Y5NrCF89
+        status: active
+        display_name: 王德新
+        merged_into_person_id: null
   other: []
 ---
 
@@ -173,6 +225,8 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_722C8yooBJQZAw9cP1ZnKd | 王之春 | accepted |
 | children | p_fQ5Buk421CUuiAxyk4ogFo | 王茂怡 | accepted |
+| descendants | p_PZ5QGmBiXkdeYy8tBcE7VF | 王恭 | accepted |
+| descendants | p_FYQb99EiX4ELJ1Y5NrCF89 | 王德新 | accepted |
 
 ## 外部来源
 

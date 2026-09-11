@@ -4,7 +4,7 @@ id: p_Vu5wPFU9etB1mZyT3n6avf
 status: active
 merged_into: null
 display_name: 王永寧
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -143,6 +143,43 @@ relationships:
         status: active
         display_name: 王演
         merged_into_person_id: null
+    - claim:
+        id: c_1CLtxwtdf2NtiGBqSygK_w
+        subject_person_id: p_hz4YncNPEpmW4kQv9hGJsL
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Vu5wPFU9etB1mZyT3n6avf
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NnN2ICu2fGaMgeT1j14znq
+          claim_id: c_1CLtxwtdf2NtiGBqSygK_w
+          source_id: s_qjzFFCngAr544QwPuszaZL
+          stance: supports
+          locator: 萬曆八年進士登科錄:一卷，第三甲第二百零三名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_qjzFFCngAr544QwPuszaZL
+            source_type: api_record
+            title: 中国历代人物传记资料库：王銘（CBDB 221610）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221610&o=json
+            external_identifier: CBDB:221610
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.317Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_hz4YncNPEpmW4kQv9hGJsL
+        status: active
+        display_name: 王銘
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_6w75fHefGfCCHw8rL8d7v7 | 王演 | accepted |
+| ancestors | p_hz4YncNPEpmW4kQv9hGJsL | 王銘 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王銘（CBDB 221610）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221610&o=json)
 - [中国历代人物传记资料库：王演（CBDB 221611）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221611&o=json)
 - [中国历代人物传记资料库：王永寧（CBDB 206689）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206689&o=json)

@@ -4,7 +4,7 @@ id: p_JE1CTFgDMfCNG8v2QBPhTa
 status: active
 merged_into: null
 display_name: 王佐
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_IXsR3h3BrhR6a0_jvZdU_-
+        subject_person_id: p_JE1CTFgDMfCNG8v2QBPhTa
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_gzcyEWpUCr5gNzCxFVcs3X
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_oxkNHz89KTIGVOkd7SFfxs
+          claim_id: c_IXsR3h3BrhR6a0_jvZdU_-
+          source_id: s_R1VnXFE8irfG89fbpGmwQG
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第三甲第一百零四名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_gzcyEWpUCr5gNzCxFVcs3X
+        status: active
+        display_name: 王冕
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_gzcyEWpUCr5gNzCxFVcs3X | 王冕 | accepted |
 
 ## 外部来源
 

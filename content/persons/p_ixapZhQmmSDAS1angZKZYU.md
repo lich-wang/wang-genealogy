@@ -4,7 +4,7 @@ id: p_ixapZhQmmSDAS1angZKZYU
 status: active
 merged_into: null
 display_name: 王士霖
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -116,6 +116,84 @@ relationships:
         status: active
         display_name: 王予彰
         merged_into_person_id: null
+    - claim:
+        id: c_lSQznjYAdFG_E2zU1aY_uK
+        subject_person_id: p_ixapZhQmmSDAS1angZKZYU
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_GrUu3zghDRVSzoU1NxbQux
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JWZhwOZte8Bo5T-W3MkKpt
+          claim_id: c_lSQznjYAdFG_E2zU1aY_uK
+          source_id: s_hPA2wXFn6CM42W4D5FLhFz
+          stance: supports
+          locator: 鄞縣志，lgid=243606：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_GrUu3zghDRVSzoU1NxbQux
+        status: active
+        display_name: 王宗耀
+        merged_into_person_id: null
+    - claim:
+        id: c_zNtQZoJo6-uL829VMZGmub
+        subject_person_id: p_ixapZhQmmSDAS1angZKZYU
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_qKn9NKn52gxrJajYJxmo3C
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6IfWzcf5M7cEd7JydNbjk6
+          claim_id: c_zNtQZoJo6-uL829VMZGmub
+          source_id: s_hPA2wXFn6CM42W4D5FLhFz
+          stance: supports
+          locator: 鄞縣志，lgid=243606：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_qKn9NKn52gxrJajYJxmo3C
+        status: active
+        display_name: 王宗淦
+        merged_into_person_id: null
+    - claim:
+        id: c_VAMNo3DaAOsPu7aBZt4bLl
+        subject_person_id: p_ixapZhQmmSDAS1angZKZYU
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_rDsy8HY5TyxvyKG8WgSE65
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9OoPI81dPsB7TOYGYoMK1s
+          claim_id: c_VAMNo3DaAOsPu7aBZt4bLl
+          source_id: s_hPA2wXFn6CM42W4D5FLhFz
+          stance: supports
+          locator: 鄞縣志，lgid=243606：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_rDsy8HY5TyxvyKG8WgSE65
+        status: active
+        display_name: 王宗植
+        merged_into_person_id: null
   other: []
 ---
 
@@ -135,6 +213,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | descendants | p_gWeQqYSDEj93QiAPCoQxmK | 王予彰 | accepted |
+| descendants | p_GrUu3zghDRVSzoU1NxbQux | 王宗耀 | accepted |
+| descendants | p_qKn9NKn52gxrJajYJxmo3C | 王宗淦 | accepted |
+| descendants | p_rDsy8HY5TyxvyKG8WgSE65 | 王宗植 | accepted |
 
 ## 外部来源
 

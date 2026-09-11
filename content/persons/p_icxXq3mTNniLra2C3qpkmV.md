@@ -4,7 +4,7 @@ id: p_icxXq3mTNniLra2C3qpkmV
 status: active
 merged_into: null
 display_name: 王佑
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_8ADC_J9dTZ_pZrWbuCeDIE
+        subject_person_id: p_icxXq3mTNniLra2C3qpkmV
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_hYn35dM9vxJfRx8fWZf7jx
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_aC4wrzh8UNOlRM2tlpiS-3
+          claim_id: c_8ADC_J9dTZ_pZrWbuCeDIE
+          source_id: s_gvmN9L8q5G1ePp6BD45Nem
+          stance: supports
+          locator: 嘉靖二十年進士登科錄:一卷，第二甲第八十五名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_gvmN9L8q5G1ePp6BD45Nem
+            source_type: api_record
+            title: 中国历代人物传记资料库：王撫民（CBDB 203316）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203316&o=json
+            external_identifier: CBDB:203316
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.781Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_hYn35dM9vxJfRx8fWZf7jx
+        status: active
+        display_name: 王撫民
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_hYn35dM9vxJfRx8fWZf7jx | 王撫民 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王撫民（CBDB 203316）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203316&o=json)
 - [中国历代人物传记资料库：王佑（CBDB 302951）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302951&o=json)

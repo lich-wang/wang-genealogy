@@ -4,7 +4,7 @@ id: p_oXDRfETnLuW3oEE7nvKJYF
 status: active
 merged_into: null
 display_name: 王國賓
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_u16gKSGfx17NTi7z8ZJQff
+        subject_person_id: p_HY2YuL547Kh5aqzUsBs5ED
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_oXDRfETnLuW3oEE7nvKJYF
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vRiGw_Oi6q0_P6xy_7_yw4
+          claim_id: c_u16gKSGfx17NTi7z8ZJQff
+          source_id: s_We8vizuHiJK4rXEBZdUvF1
+          stance: supports
+          locator: 萬曆二年進士登科錄:一卷，第三甲第八十五名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_We8vizuHiJK4rXEBZdUvF1
+            source_type: api_record
+            title: 中国历代人物传记资料库：王應奎（CBDB 213996）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213996&o=json
+            external_identifier: CBDB:213996
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.142Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_HY2YuL547Kh5aqzUsBs5ED
+        status: active
+        display_name: 王應奎
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -163,9 +200,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_HY2YuL547Kh5aqzUsBs5ED | 王應奎 | accepted |
 | ancestors | p_GyHrAoxhpZ634C9AC4RXkc | 王達 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王達（CBDB 213994）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213994&o=json)
 - [中国历代人物传记资料库：王國賓（CBDB 206149）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206149&o=json)
+- [中国历代人物传记资料库：王應奎（CBDB 213996）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213996&o=json)

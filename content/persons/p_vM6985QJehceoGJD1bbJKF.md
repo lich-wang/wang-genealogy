@@ -4,7 +4,7 @@ id: p_vM6985QJehceoGJD1bbJKF
 status: active
 merged_into: null
 display_name: 王澄
-revision: 7
+revision: 8
 properties:
   - predicate: name.primary
     recommended:
@@ -394,6 +394,43 @@ relationships:
         status: active
         display_name: 王涯
         merged_into_person_id: null
+    - claim:
+        id: c_AQyysKJNy3r7vg29Mg9SiK
+        subject_person_id: p_vM6985QJehceoGJD1bbJKF
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_ibLtNY57TKY2kousyXGR55
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_sHcUxMe1Fq8Z_W1HeKazoA
+          claim_id: c_AQyysKJNy3r7vg29Mg9SiK
+          source_id: s_FACr6CgMXX6SVsV4jjiZ8h
+          stance: supports
+          locator: 宋濂全集，1606：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_FACr6CgMXX6SVsV4jjiZ8h
+            source_type: api_record
+            title: 中国历代人物传记资料库：王澤（CBDB 134176）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134176&o=json
+            external_identifier: CBDB:134176
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.308Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ibLtNY57TKY2kousyXGR55
+        status: active
+        display_name: 王澤
+        merged_into_person_id: null
   other: []
 ---
 
@@ -421,6 +458,7 @@ relationships:
 | descendants | p_f3Kpde459iSuKNBG46WSjP | 王溥 | accepted |
 | descendants | p_FCSQdth7sQc3XHSLXg595T | 王恩 | accepted |
 | descendants | p_hUNqjruZ372JDRxBbR4n3D | 王涯 | accepted |
+| descendants | p_ibLtNY57TKY2kousyXGR55 | 王澤 | accepted |
 
 ## 外部来源
 
@@ -432,3 +470,4 @@ relationships:
 - [中国历代人物传记资料库：王沇（CBDB 134190）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134190&o=json)
 - [中国历代人物传记资料库：王應（CBDB 134166）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134166&o=json)
 - [中国历代人物传记资料库：王瀹（CBDB 134187）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134187&o=json)
+- [中国历代人物传记资料库：王澤（CBDB 134176）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134176&o=json)

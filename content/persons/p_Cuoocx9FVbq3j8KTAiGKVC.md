@@ -4,7 +4,7 @@ id: p_Cuoocx9FVbq3j8KTAiGKVC
 status: active
 merged_into: null
 display_name: 王春
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_jySBw50Z3qMGthZ0WMGJpk
+        subject_person_id: p_Hyw8SQGaRE528RGN3TPgxc
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Cuoocx9FVbq3j8KTAiGKVC
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_IuOz77tOIAMpxISvieEPnj
+          claim_id: c_jySBw50Z3qMGthZ0WMGJpk
+          source_id: s_CCe2diTS36EQM8NfrvSx2X
+          stance: supports
+          locator: 弘治九年進士登科錄:一卷，第三甲第三十三名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_CCe2diTS36EQM8NfrvSx2X
+            source_type: api_record
+            title: 中国历代人物传记资料库：王榮（CBDB 268115）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=268115&o=json
+            external_identifier: CBDB:268115
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.795Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Hyw8SQGaRE528RGN3TPgxc
+        status: active
+        display_name: 王榮
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -163,9 +200,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Hyw8SQGaRE528RGN3TPgxc | 王榮 | accepted |
 | ancestors | p_BeExBVBoLALEyg1y8qcCQ5 | 王成 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王成（CBDB 268113）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=268113&o=json)
 - [中国历代人物传记资料库：王春（CBDB 201159）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201159&o=json)
+- [中国历代人物传记资料库：王榮（CBDB 268115）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=268115&o=json)

@@ -4,7 +4,7 @@ id: p_JGPNTCh2uLQxj9gSB18kcX
 status: active
 merged_into: null
 display_name: 王宗沐
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,59 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c__hnulWd5vfSInz3eiDYfB3
+        subject_person_id: p_JGPNTCh2uLQxj9gSB18kcX
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_D6wSSzErFedvXoDGGx8HqR
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hi0JclqFjN649G357wmHWX
+          claim_id: c__hnulWd5vfSInz3eiDYfB3
+          source_id: s_H72ChdnuFcbTxv5Zf4ppwf
+          stance: supports
+          locator: 萬曆十一年進士登科錄:一卷，第二甲第三十四名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_D6wSSzErFedvXoDGGx8HqR
+        status: active
+        display_name: 王士琦
+        merged_into_person_id: null
+    - claim:
+        id: c_g-noLdoJRZLJfpTKJ2bFVU
+        subject_person_id: p_JGPNTCh2uLQxj9gSB18kcX
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_2upGeiN52eY6RGi8eXqg1R
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-iCGzSqBRglyZPVXYtcVzb
+          claim_id: c_g-noLdoJRZLJfpTKJ2bFVU
+          source_id: s_H72ChdnuFcbTxv5Zf4ppwf
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第三甲第一百九十九名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_2upGeiN52eY6RGi8eXqg1R
+        status: active
+        display_name: 王士昌
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_D6wSSzErFedvXoDGGx8HqR | 王士琦 | accepted |
+| children | p_2upGeiN52eY6RGi8eXqg1R | 王士昌 | accepted |
 
 ## 外部来源
 

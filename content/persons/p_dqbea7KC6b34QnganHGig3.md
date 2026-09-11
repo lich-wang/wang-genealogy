@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王允茂
 cbdb_id: 525514
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -87,7 +87,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_v2DHA0-2qJdm-E-2_Oksng
+        subject_person_id: p_dqbea7KC6b34QnganHGig3
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_iC2LMm2r1PH816QULpx83x
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gPDnjr-6CZg-HjReYRc97c
+          claim_id: c_v2DHA0-2qJdm-E-2_Oksng
+          source_id: s_dAZshWLSiskxDPuLNoEjvp
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），11449：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_dAZshWLSiskxDPuLNoEjvp
+            source_type: api_record
+            title: 中国历代人物传记资料库：王愷（CBDB 67812）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67812&o=json
+            external_identifier: CBDB:67812
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:13.023Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_iC2LMm2r1PH816QULpx83x
+        status: active
+        display_name: 王愷
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_iC2LMm2r1PH816QULpx83x | 王愷 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王愷（CBDB 67812）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67812&o=json)
 - [中国历代人物传记资料库：王允茂（CBDB 525514）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=525514&o=json)

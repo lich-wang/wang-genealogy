@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王建斗
 cbdb_id: 522132
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,7 +86,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_xJGYkLrkvU2qRbtMm0aV6U
+        subject_person_id: p_i1C3uJJYfYMw3861gcKMoP
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_QqmW4LbV4TtYFNgQc248uD
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pMvBfbWJQe3Qj-xSCpEvxL
+          claim_id: c_xJGYkLrkvU2qRbtMm0aV6U
+          source_id: s_MusunsTMcJ8i4AepqBvGHy
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），9155：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_MusunsTMcJ8i4AepqBvGHy
+            source_type: api_record
+            title: 中国历代人物传记资料库：王之寀（CBDB 65713）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=65713&o=json
+            external_identifier: CBDB:65713
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.935Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_i1C3uJJYfYMw3861gcKMoP
+        status: active
+        display_name: 王之寀
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_i1C3uJJYfYMw3861gcKMoP | 王之寀 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王建斗（CBDB 522132）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=522132&o=json)
+- [中国历代人物传记资料库：王之寀（CBDB 65713）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=65713&o=json)

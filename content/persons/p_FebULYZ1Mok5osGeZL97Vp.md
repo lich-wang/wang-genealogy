@@ -4,7 +4,7 @@ id: p_FebULYZ1Mok5osGeZL97Vp
 status: active
 merged_into: null
 display_name: 王嶽
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -142,7 +142,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_wQS1gYHa432MDTblMe49jg
+        subject_person_id: p_iDHYjbUs9Cnr7wU4NATWxS
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_FebULYZ1Mok5osGeZL97Vp
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xcJi85E0RK4cMFmSF4z16b
+          claim_id: c_wQS1gYHa432MDTblMe49jg
+          source_id: s_CBakdwAKt5Yhs5EzXoKTkB
+          stance: supports
+          locator: 成化十七年進士登科錄:一卷，第三甲第一百五十七名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_CBakdwAKt5Yhs5EzXoKTkB
+            source_type: api_record
+            title: 中国历代人物传记资料库：王致遠（CBDB 257071）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257071&o=json
+            external_identifier: CBDB:257071
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.406Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_iDHYjbUs9Cnr7wU4NATWxS
+        status: active
+        display_name: 王致遠
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_1fEzNtyPjCg5rqRonPekKp | 王澤 | accepted |
+| ancestors | p_iDHYjbUs9Cnr7wU4NATWxS | 王致遠 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王嶽（CBDB 200389）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200389&o=json)
 - [中国历代人物传记资料库：王澤（CBDB 257073）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257073&o=json)
+- [中国历代人物传记资料库：王致遠（CBDB 257071）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257071&o=json)

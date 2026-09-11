@@ -4,7 +4,7 @@ id: p_TxHEXLnqR7Hmrn4YZb9SRE
 status: active
 merged_into: null
 display_name: 王璿
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,43 @@ relationships:
         status: active
         display_name: 王道玄
         merged_into_person_id: null
+    - claim:
+        id: c_3LiTJ5QaW1P87x1yjyg-Yh
+        subject_person_id: p_i3Pc3S5m7XG8sgJ7aVGwdX
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_TxHEXLnqR7Hmrn4YZb9SRE
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_c_WSSLgRh5MMxo1c0r8JKJ
+          claim_id: c_3LiTJ5QaW1P87x1yjyg-Yh
+          source_id: s_htRFPVwwY3uXUPec7kz9HW
+          stance: supports
+          locator: 成化二年進士登科錄:一卷，第三甲第一百七十七名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_htRFPVwwY3uXUPec7kz9HW
+            source_type: api_record
+            title: 中国历代人物传记资料库：王福順（CBDB 241881）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241881&o=json
+            external_identifier: CBDB:241881
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.958Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_i3Pc3S5m7XG8sgJ7aVGwdX
+        status: active
+        display_name: 王福順
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_8D8JJjvAk9tGe283upkqdk | 王守文 | accepted |
 | ancestors | p_EV6is4u6ewBF6CBLVqmq9F | 王道玄 | accepted |
+| ancestors | p_i3Pc3S5m7XG8sgJ7aVGwdX | 王福順 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王道玄（CBDB 241882）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241882&o=json)
+- [中国历代人物传记资料库：王福順（CBDB 241881）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241881&o=json)
 - [中国历代人物传记资料库：王守文（CBDB 241883）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241883&o=json)
 - [中国历代人物传记资料库：王璿（CBDB 199220）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=199220&o=json)

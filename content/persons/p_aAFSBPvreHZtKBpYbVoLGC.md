@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王來賢
 cbdb_id: 205758
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -172,6 +172,43 @@ relationships:
         status: active
         display_name: 王華
         merged_into_person_id: null
+    - claim:
+        id: c_AV-fZxIVrP-TbS70s2pc_n
+        subject_person_id: p_iWiRRfE7LECSLbXyBoUtix
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_aAFSBPvreHZtKBpYbVoLGC
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2uYKlB19GGpIMT-Yh1Zxs4
+          claim_id: c_AV-fZxIVrP-TbS70s2pc_n
+          source_id: s_6LRg5816jvDGu7DBgFGLDx
+          stance: supports
+          locator: 隆慶五年進士登科錄:一卷，第二甲第十六名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_6LRg5816jvDGu7DBgFGLDx
+            source_type: api_record
+            title: 中国历代人物传记资料库：王澄（CBDB 338028）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=338028&o=json
+            external_identifier: CBDB:338028
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.526Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_iWiRRfE7LECSLbXyBoUtix
+        status: active
+        display_name: 王澄
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -193,8 +230,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_Fi6YsLYSHhvvAgwEeFxrsc | 王華 | accepted |
+| ancestors | p_iWiRRfE7LECSLbXyBoUtix | 王澄 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王澄（CBDB 338028）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=338028&o=json)
 - [中国历代人物传记资料库：王華（CBDB 338029）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=338029&o=json)
 - [中国历代人物传记资料库：王來賢（CBDB 205758）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205758&o=json)

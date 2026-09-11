@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 劉奭
 cbdb_id: 135026
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -415,6 +415,43 @@ relationships:
         status: active
         display_name: 王政君
         merged_into_person_id: null
+    - claim:
+        id: c_DP6Tflyz8gGnuR9j6y7ytY
+        subject_person_id: p_jbX85mkqDQkzj4JgECnsYm
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_uKaMLxEP9pJu7gJCicb8eT
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_v9DeTv3R7IOcJCfWeP_Ioz
+          claim_id: c_DP6Tflyz8gGnuR9j6y7ytY
+          source_id: s_UjpzJUQKYhB1TnDbKQPBN3
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #2700：丈夫"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_UjpzJUQKYhB1TnDbKQPBN3
+            source_type: api_record
+            title: 中国历代人物传记资料库：王政君（CBDB 135028）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=135028&o=json
+            external_identifier: CBDB:135028
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.335Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_jbX85mkqDQkzj4JgECnsYm
+        status: active
+        display_name: 王政君
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -440,11 +477,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | spouses | p_ma56j3xFL2iP3FzuSAfpHk | 王政君 | accepted |
+| spouses | p_jbX85mkqDQkzj4JgECnsYm | 王政君 | accepted |
 
 ## 外部来源
 
 - [维基数据：汉元帝（Q7232）](https://www.wikidata.org/wiki/Q7232)
 - [維基數據：王政君（Q701379）](https://www.wikidata.org/wiki/Q701379)
+- [中国历代人物传记资料库：王政君（CBDB 135028）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=135028&o=json)
 - [中文维基百科：王政君](https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%94%BF%E5%90%9B)
 - [CBDB 中国历代人物传记资料库：劉奭（135026）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=135026&o=json)
-- [CBDB 中国历代人物传记资料库：王政君（135028）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=135028&o=json)

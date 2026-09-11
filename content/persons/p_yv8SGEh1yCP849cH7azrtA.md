@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王斯立
 cbdb_id: 210112
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -92,7 +92,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_KoneCsjjPoA-GN7LNhWjX6
+        subject_person_id: p_yv8SGEh1yCP849cH7azrtA
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_j9BHN5bLCRAdnEfQP7Yp6q
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_c7SdWDzReBAAZ54EET2oaS
+          claim_id: c_KoneCsjjPoA-GN7LNhWjX6
+          source_id: s_4ni9ypkhqH9bL97APqjeXx
+          stance: supports
+          locator: 隆慶五年進士登科錄:一卷，第三甲第一百一十六名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_4ni9ypkhqH9bL97APqjeXx
+            source_type: api_record
+            title: 中国历代人物传记资料库：王民順（CBDB 205877）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205877&o=json
+            external_identifier: CBDB:205877
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.875Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_j9BHN5bLCRAdnEfQP7Yp6q
+        status: active
+        display_name: 王民順
+        merged_into_person_id: null
   other: []
 ---
 
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_j9BHN5bLCRAdnEfQP7Yp6q | 王民順 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王民順（CBDB 205877）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205877&o=json)
 - [中国历代人物传记资料库：王斯立（CBDB 210112）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210112&o=json)

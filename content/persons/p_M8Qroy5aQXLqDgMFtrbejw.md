@@ -4,7 +4,7 @@ id: p_M8Qroy5aQXLqDgMFtrbejw
 status: active
 merged_into: null
 display_name: 王叔寧
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -133,7 +133,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_jf8Ps2GgroHLPEJR0rnxDv
+        subject_person_id: p_icFiqV4qE727ZGi81Wiaj9
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_M8Qroy5aQXLqDgMFtrbejw
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fBnP-EBEfpPsHLlPvUPO0W
+          claim_id: c_jf8Ps2GgroHLPEJR0rnxDv
+          source_id: s_5vMiv1iEZEf1ReAx618mW6
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Yuanhe57：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_5vMiv1iEZEf1ReAx618mW6
+            source_type: api_record
+            title: 中国历代人物传记资料库：王逸（CBDB 166174）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=166174&o=json
+            external_identifier: CBDB:166174
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.979Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_icFiqV4qE727ZGi81Wiaj9
+        status: active
+        display_name: 王逸
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_icFiqV4qE727ZGi81Wiaj9 | 王逸 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王叔寧（CBDB 143282）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=143282&o=json)
+- [中国历代人物传记资料库：王逸（CBDB 166174）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=166174&o=json)

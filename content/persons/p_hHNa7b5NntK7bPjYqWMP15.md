@@ -4,7 +4,7 @@ id: p_hHNa7b5NntK7bPjYqWMP15
 status: active
 merged_into: null
 display_name: 王价
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -142,7 +142,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_TS_c7yavqUjkVcPlOPzjxP
+        subject_person_id: p_i9weoCH3RKGxuzx9VU6Bou
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_hHNa7b5NntK7bPjYqWMP15
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8pj_19_zckj0Bpw1boDq9z
+          claim_id: c_TS_c7yavqUjkVcPlOPzjxP
+          source_id: s_Lw9w74dZuogkPDdSAGkpCE
+          stance: supports
+          locator: 嘉靖二十九年進士登科錄:一卷，第三甲第六名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Lw9w74dZuogkPDdSAGkpCE
+            source_type: api_record
+            title: 中国历代人物传记资料库：王昂（CBDB 312741）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312741&o=json
+            external_identifier: CBDB:312741
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.876Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_i9weoCH3RKGxuzx9VU6Bou
+        status: active
+        display_name: 王昂
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_dDiqSoKbAEPJ32n4DP82Hn | 王簡 | accepted |
+| ancestors | p_i9weoCH3RKGxuzx9VU6Bou | 王昂 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王昂（CBDB 312741）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312741&o=json)
 - [中国历代人物传记资料库：王价（CBDB 203975）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203975&o=json)
 - [中国历代人物传记资料库：王簡（CBDB 312743）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312743&o=json)

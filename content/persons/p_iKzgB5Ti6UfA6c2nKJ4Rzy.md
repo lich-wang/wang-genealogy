@@ -4,7 +4,7 @@ id: p_iKzgB5Ti6UfA6c2nKJ4Rzy
 status: active
 merged_into: null
 display_name: 王彰
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_Hqsk1T1wD0M4BStwEejcNf
+        subject_person_id: p_iKzgB5Ti6UfA6c2nKJ4Rzy
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_HZxRfM1J6mh1R2D24Ea4iC
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hKuE2wHyZzIbLpiqwNCtGO
+          claim_id: c_Hqsk1T1wD0M4BStwEejcNf
+          source_id: s_fFGGXEi3rzjSSWCC92FsNd
+          stance: supports
+          locator: 成化二年進士登科錄:一卷，第三甲第一百五十九名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_HZxRfM1J6mh1R2D24Ea4iC
+        status: active
+        display_name: 王琮
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_HZxRfM1J6mh1R2D24Ea4iC | 王琮 | accepted |
 
 ## 外部来源
 

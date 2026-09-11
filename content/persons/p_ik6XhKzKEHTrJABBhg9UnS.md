@@ -4,7 +4,7 @@ id: p_ik6XhKzKEHTrJABBhg9UnS
 status: active
 merged_into: null
 display_name: 王憲
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_gCuD7RHlOuQsscuFJevBI2
+        subject_person_id: p_ik6XhKzKEHTrJABBhg9UnS
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_pUwZmXJA98H12Cyv9Q6e5y
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tUHwvvWfvVt4u2UbRy62Dl
+          claim_id: c_gCuD7RHlOuQsscuFJevBI2
+          source_id: s_EKYXJTNDt7coAE3zHh7A91
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第三甲第二名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_pUwZmXJA98H12Cyv9Q6e5y
+        status: active
+        display_name: 王時柯
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_pUwZmXJA98H12Cyv9Q6e5y | 王時柯 | accepted |
 
 ## 外部来源
 

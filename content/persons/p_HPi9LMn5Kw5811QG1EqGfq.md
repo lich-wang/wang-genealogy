@@ -4,7 +4,7 @@ id: p_HPi9LMn5Kw5811QG1EqGfq
 status: active
 merged_into: null
 display_name: 王世文
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_tLgThtz5aDq1oNka9DTJ0b
+        subject_person_id: p_Jj8dkQubs7taj8bUq4RoTF
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_HPi9LMn5Kw5811QG1EqGfq
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_woKz42i7TVMPh7Es11CIXr
+          claim_id: c_tLgThtz5aDq1oNka9DTJ0b
+          source_id: s_R4BD5uKkAPNYJBZ61cEuF7
+          stance: supports
+          locator: 正德六年進士登科錄:一卷，第二甲第二十五名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_R4BD5uKkAPNYJBZ61cEuF7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鯨（CBDB 276002）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=276002&o=json
+            external_identifier: CBDB:276002
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.935Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Jj8dkQubs7taj8bUq4RoTF
+        status: active
+        display_name: 王鯨
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -171,11 +208,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Jj8dkQubs7taj8bUq4RoTF | 王鯨 | accepted |
 | ancestors | p_B9CyVfjAfLv7AFjRE6GJKj | 王莊 | accepted |
 | ancestors | p_GpiK86NhbuejR7tRwDF4RJ | 王天麟 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王鯨（CBDB 276002）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=276002&o=json)
 - [中国历代人物传记资料库：王世文（CBDB 201664）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201664&o=json)
 - [中国历代人物传记资料库：王天麟（CBDB 276001）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=276001&o=json)
 - [中国历代人物传记资料库：王莊（CBDB 276000）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=276000&o=json)

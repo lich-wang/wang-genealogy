@@ -4,7 +4,7 @@ id: p_ncJMsYgNL3hQVCtFzxU5EN
 status: active
 merged_into: null
 display_name: 王子輿
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -143,6 +143,43 @@ relationships:
         status: active
         display_name: 王徽
         merged_into_person_id: null
+    - claim:
+        id: c_ap63_aP7y-A4FXu5s5asoQ
+        subject_person_id: p_iSUfErCn12jeYUoQ7FXh2z
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_ncJMsYgNL3hQVCtFzxU5EN
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HgpHOG0dr0US4zaD25ybpa
+          claim_id: c_ap63_aP7y-A4FXu5s5asoQ
+          source_id: s_ide1eRio9EVuxXe2kvMzLC
+          stance: supports
+          locator: 宋史：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ide1eRio9EVuxXe2kvMzLC
+            source_type: api_record
+            title: 中国历代人物传记资料库：王甲（CBDB 18283）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=18283&o=json
+            external_identifier: CBDB:18283
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.704Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_iSUfErCn12jeYUoQ7FXh2z
+        status: active
+        display_name: 王甲
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_G4qJ7yPaYSWAivkaqit1c4 | 王徽 | accepted |
+| ancestors | p_iSUfErCn12jeYUoQ7FXh2z | 王甲 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王徽（CBDB 18284）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=18284&o=json)
+- [中国历代人物传记资料库：王甲（CBDB 18283）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=18283&o=json)
 - [中国历代人物传记资料库：王子輿（CBDB 1912）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1912&o=json)

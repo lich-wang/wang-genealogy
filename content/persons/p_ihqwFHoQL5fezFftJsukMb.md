@@ -4,7 +4,7 @@ id: p_ihqwFHoQL5fezFftJsukMb
 status: active
 merged_into: null
 display_name: 王銳
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_gjsJqK5PvSo7TNxLXxTEkp
+        subject_person_id: p_z8BnuYsiaLneHAb2Y8ZJ1g
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ihqwFHoQL5fezFftJsukMb
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_csYCzbezuk0GCE3kXFgP9i
+          claim_id: c_gjsJqK5PvSo7TNxLXxTEkp
+          source_id: s_jeazmAgpnL84Ce6RMwkVPH
+          stance: supports
+          locator: 正德十六年登科錄:一卷，第三甲第一百七十二名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_z8BnuYsiaLneHAb2Y8ZJ1g
+        status: active
+        display_name: 王通
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_B5TrRuBQm-qXxMdPUOGy1k
+        subject_person_id: p_vMjpKHJoeuGDZhv3HdG2i8
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_ihqwFHoQL5fezFftJsukMb
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_DvIARx8H0gwbP_JiJ2o_H0
+          claim_id: c_B5TrRuBQm-qXxMdPUOGy1k
+          source_id: s_jeazmAgpnL84Ce6RMwkVPH
+          stance: supports
+          locator: 正德十六年登科錄:一卷，第三甲第一百七十二名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_vMjpKHJoeuGDZhv3HdG2i8
+        status: active
+        display_name: 王昇
+        merged_into_person_id: null
+    - claim:
+        id: c_nIeIIY6dHH2WJ4DSRrUt6V
+        subject_person_id: p_ksXbMH5SYnRtnnkU312q9h
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_ihqwFHoQL5fezFftJsukMb
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ekYAnsss02mBzT4qbqiXYg
+          claim_id: c_nIeIIY6dHH2WJ4DSRrUt6V
+          source_id: s_jeazmAgpnL84Ce6RMwkVPH
+          stance: supports
+          locator: 正德十六年登科錄:一卷，第三甲第一百七十二名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_ksXbMH5SYnRtnnkU312q9h
+        status: active
+        display_name: 王紀
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_z8BnuYsiaLneHAb2Y8ZJ1g | 王通 | accepted |
+| ancestors | p_vMjpKHJoeuGDZhv3HdG2i8 | 王昇 | accepted |
+| ancestors | p_ksXbMH5SYnRtnnkU312q9h | 王紀 | accepted |
 
 ## 外部来源
 

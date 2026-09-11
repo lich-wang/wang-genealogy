@@ -4,7 +4,7 @@ id: p_JcLDd2AkhQG4nQStq42FNC
 status: active
 merged_into: null
 display_name: 王溥
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_IkdwH8Fm1FGsu45UP2NeVV
+        subject_person_id: p_YN2bi35jN8EKBymoEEUjxN
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_JcLDd2AkhQG4nQStq42FNC
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_yIOXxjkVQMxp84yg0Uo2pk
+          claim_id: c_IkdwH8Fm1FGsu45UP2NeVV
+          source_id: s_VzrtEC2MbG12ZZF8BDusJj
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaiyuan 486：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_YN2bi35jN8EKBymoEEUjxN
+        status: active
+        display_name: 王惠忠
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_YN2bi35jN8EKBymoEEUjxN | 王惠忠 | accepted |
 
 ## 外部来源
 

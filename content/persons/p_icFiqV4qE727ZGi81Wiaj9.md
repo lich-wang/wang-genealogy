@@ -4,7 +4,7 @@ id: p_icFiqV4qE727ZGi81Wiaj9
 status: active
 merged_into: null
 display_name: 王逸
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,13 +72,91 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_LTW4n3-i1UBa8ujffjy1Ic
+        subject_person_id: p_9wAPVGy1D3QZqQkHupd1oN
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_icFiqV4qE727ZGi81Wiaj9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_T3n1qhOGNkWb4jsVogLntq
+          claim_id: c_LTW4n3-i1UBa8ujffjy1Ic
+          source_id: s_5vMiv1iEZEf1ReAx618mW6
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_9wAPVGy1D3QZqQkHupd1oN
+        status: active
+        display_name: 王承訓
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_-vvsutJx99DkFcxhHP_HWf
+        subject_person_id: p_icFiqV4qE727ZGi81Wiaj9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Ni8kPQG3R7QcxGnDogRUMg
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NX7YZGOrDrqJpOwKiDGU8I
+          claim_id: c_-vvsutJx99DkFcxhHP_HWf
+          source_id: s_5vMiv1iEZEf1ReAx618mW6
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Ni8kPQG3R7QcxGnDogRUMg
+        status: active
+        display_name: 王珍
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_jf8Ps2GgroHLPEJR0rnxDv
+        subject_person_id: p_icFiqV4qE727ZGi81Wiaj9
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_M8Qroy5aQXLqDgMFtrbejw
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fBnP-EBEfpPsHLlPvUPO0W
+          claim_id: c_jf8Ps2GgroHLPEJR0rnxDv
+          source_id: s_5vMiv1iEZEf1ReAx618mW6
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Yuanhe57：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_M8Qroy5aQXLqDgMFtrbejw
+        status: active
+        display_name: 王叔寧
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +175,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_9wAPVGy1D3QZqQkHupd1oN | 王承訓 | accepted |
+| children | p_Ni8kPQG3R7QcxGnDogRUMg | 王珍 | accepted |
+| descendants | p_M8Qroy5aQXLqDgMFtrbejw | 王叔寧 | accepted |
 
 ## 外部来源
 

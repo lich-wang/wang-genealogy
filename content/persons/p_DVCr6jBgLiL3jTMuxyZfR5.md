@@ -4,7 +4,7 @@ id: p_DVCr6jBgLiL3jTMuxyZfR5
 status: active
 merged_into: null
 display_name: 王世功
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -137,6 +137,43 @@ relationships:
         status: active
         display_name: 王毓麟
         merged_into_person_id: null
+    - claim:
+        id: c_YG9hTQIADDC6gkuEhAeLM0
+        subject_person_id: p_DVCr6jBgLiL3jTMuxyZfR5
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_jCuYqbLwtSwzdb7N2z84c9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lBcfNyuURj7_7b1yE19bE1
+          claim_id: c_YG9hTQIADDC6gkuEhAeLM0
+          source_id: s_p5DBUPUGvqJfe5rJ7UjvMR
+          stance: supports
+          locator: 上虞縣志，lgid=324918：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_p5DBUPUGvqJfe5rJ7UjvMR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王汝錦（CBDB 703141）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=703141&o=json
+            external_identifier: CBDB:703141
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:27.825Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_jCuYqbLwtSwzdb7N2z84c9
+        status: active
+        display_name: 王汝錦
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -162,8 +199,10 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_tFyu3gNrC3e8xLmA6Th3Tc | 王誠 | accepted |
 | children | p_61JNS28QvWNfnHMN93DFjd | 王毓麟 | accepted |
+| children | p_jCuYqbLwtSwzdb7N2z84c9 | 王汝錦 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王汝錦（CBDB 703141）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=703141&o=json)
 - [中国历代人物传记资料库：王世功（CBDB 703138）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=703138&o=json)
 - [中国历代人物传记资料库：王毓麟（CBDB 703139）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=703139&o=json)
