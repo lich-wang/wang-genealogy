@@ -4,7 +4,7 @@ id: p_viPpL7R5p8gRoNswap98YZ
 status: active
 merged_into: null
 display_name: 王士能
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_JfYktHHWpP5gM_O8erwhFF
+        subject_person_id: p_viPpL7R5p8gRoNswap98YZ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_rueH5VJGf9EEceCDH3UTnn
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xr2D6IrERbC_k9mE9Rk3S5
+          claim_id: c_JfYktHHWpP5gM_O8erwhFF
+          source_id: s_z6z5pXJW9xJVdGXchJGMTn
+          stance: supports
+          locator: 天順八年進士登科錄:一卷，第三甲第七十五名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_rueH5VJGf9EEceCDH3UTnn
+        status: active
+        display_name: 王昭
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_rueH5VJGf9EEceCDH3UTnn | 王昭 | accepted |
 
 ## 外部来源
 

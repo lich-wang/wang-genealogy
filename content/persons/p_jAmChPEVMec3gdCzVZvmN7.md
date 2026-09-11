@@ -4,7 +4,7 @@ id: p_jAmChPEVMec3gdCzVZvmN7
 status: active
 merged_into: null
 display_name: 王琰
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_VVSvHXfXKLOTzfqC2P-1-G
+        subject_person_id: p_VAeNtqM8ukkfLvnyiw11uS
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_jAmChPEVMec3gdCzVZvmN7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JAfSBVL03lfDBSg3UKZD6E
+          claim_id: c_VVSvHXfXKLOTzfqC2P-1-G
+          source_id: s_UjNF9JkQci4CZ4bYvZAQ7q
+          stance: supports
+          locator: 成化十一年進士登科錄:一卷，第三甲第九十二名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_UjNF9JkQci4CZ4bYvZAQ7q
+            source_type: api_record
+            title: 中国历代人物传记资料库：王成（CBDB 249582）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=249582&o=json
+            external_identifier: CBDB:249582
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.179Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_VAeNtqM8ukkfLvnyiw11uS
+        status: active
+        display_name: 王成
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -200,11 +237,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_VAeNtqM8ukkfLvnyiw11uS | 王成 | accepted |
 | ancestors | p_5QJ9GKF3zgxJjKuZsz94tu | 王仁美 | accepted |
 | ancestors | p_ABhtHq4M4KM1MmJK75jZsa | 王斌 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王斌（CBDB 249580）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=249580&o=json)
+- [中国历代人物传记资料库：王成（CBDB 249582）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=249582&o=json)
 - [中国历代人物传记资料库：王仁美（CBDB 249581）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=249581&o=json)
 - [中国历代人物传记资料库：王琰（CBDB 199781）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=199781&o=json)

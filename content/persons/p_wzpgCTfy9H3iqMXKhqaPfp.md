@@ -4,7 +4,7 @@ id: p_wzpgCTfy9H3iqMXKhqaPfp
 status: active
 merged_into: null
 display_name: 王俁
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -142,7 +142,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_1gPv_K57UctEDAJasvURTY
+        subject_person_id: p_VarZXRJnwgWEBjNMSnKqjH
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_wzpgCTfy9H3iqMXKhqaPfp
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_UVSBmm_JyoFzs23B0XPf6Z
+          claim_id: c_1gPv_K57UctEDAJasvURTY
+          source_id: s_8cbVgqbi8c3Z1PXXtGQUsD
+          stance: supports
+          locator: 成化二年進士登科錄:一卷，第三甲第一百八十五名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_8cbVgqbi8c3Z1PXXtGQUsD
+            source_type: api_record
+            title: 中国历代人物传记资料库：王彥誠（CBDB 241965）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241965&o=json
+            external_identifier: CBDB:241965
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.963Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_VarZXRJnwgWEBjNMSnKqjH
+        status: active
+        display_name: 王彥誠
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_tJVHjGjKc27ATYVAuaH8nP | 王瑄 | accepted |
+| ancestors | p_VarZXRJnwgWEBjNMSnKqjH | 王彥誠 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王瑄（CBDB 241966）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241966&o=json)
+- [中国历代人物传记资料库：王彥誠（CBDB 241965）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241965&o=json)
 - [中国历代人物传记资料库：王俁（CBDB 199224）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=199224&o=json)

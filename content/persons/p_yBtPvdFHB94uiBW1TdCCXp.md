@@ -4,7 +4,7 @@ id: p_yBtPvdFHB94uiBW1TdCCXp
 status: active
 merged_into: null
 display_name: 王敬仲
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -138,7 +138,44 @@ relationships:
         status: active
         display_name: 王倉
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_kdWcBdG9NevqtZnoQ25YPq
+        subject_person_id: p_yBtPvdFHB94uiBW1TdCCXp
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_VjyGNMX3LpLiN9N9Cogi3K
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hV7Ys9SUThQQEao-ZE8W7G
+          claim_id: c_kdWcBdG9NevqtZnoQ25YPq
+          source_id: s_5koLLBULa2Yqd2GY1h9GaC
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_5koLLBULa2Yqd2GY1h9GaC
+            source_type: api_record
+            title: 中国历代人物传记资料库：王寡言（CBDB 175718）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175718&o=json
+            external_identifier: CBDB:175718
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.250Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_VjyGNMX3LpLiN9N9Cogi3K
+        status: active
+        display_name: 王寡言
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_4YYoAHWMp3Bi3iGGbeFDZQ | 王倉 | accepted |
+| children | p_VjyGNMX3LpLiN9N9Cogi3K | 王寡言 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王倉（CBDB 175715）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175715&o=json)
+- [中国历代人物传记资料库：王寡言（CBDB 175718）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175718&o=json)
 - [中国历代人物传记资料库：王敬仲（CBDB 175717）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175717&o=json)

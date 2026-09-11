@@ -4,7 +4,7 @@ id: p_cnN8Qwq9XduFw216Ep1U5h
 status: active
 merged_into: null
 display_name: 王宏
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,43 @@ relationships:
         status: active
         display_name: 王福
         merged_into_person_id: null
+    - claim:
+        id: c_Pvj66eLfuSQ5S47QYgH4eE
+        subject_person_id: p_UWJaciucz8S7zBW1o4k7tX
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_cnN8Qwq9XduFw216Ep1U5h
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gxIUSv64xrH3Hhr-9xvWJk
+          claim_id: c_Pvj66eLfuSQ5S47QYgH4eE
+          source_id: s_7Bhq2WE9yiVZqPoSfuu4z8
+          stance: supports
+          locator: 成化十四年進士登科錄:一卷，第三甲第二十四名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_7Bhq2WE9yiVZqPoSfuu4z8
+            source_type: api_record
+            title: 中国历代人物传记资料库：王文公（CBDB 251894）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=251894&o=json
+            external_identifier: CBDB:251894
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.252Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_UWJaciucz8S7zBW1o4k7tX
+        status: active
+        display_name: 王文公
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_6NqQVpARahg4TYnj77m3i2 | 王貴 | accepted |
 | ancestors | p_bjugQ5EcmcD6M9Lp95b6VF | 王福 | accepted |
+| ancestors | p_UWJaciucz8S7zBW1o4k7tX | 王文公 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王福（CBDB 251895）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=251895&o=json)
 - [中国历代人物传记资料库：王貴（CBDB 251896）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=251896&o=json)
 - [中国历代人物传记资料库：王宏（CBDB 199956）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=199956&o=json)
+- [中国历代人物传记资料库：王文公（CBDB 251894）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=251894&o=json)

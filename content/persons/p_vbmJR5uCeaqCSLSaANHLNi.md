@@ -4,7 +4,7 @@ id: p_vbmJR5uCeaqCSLSaANHLNi
 status: active
 merged_into: null
 display_name: 王朝卿
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_WSjMToR4XmJm0VN3RvRcEq
+        subject_person_id: p_vbmJR5uCeaqCSLSaANHLNi
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_vV52H1GLe4mb587k9pj5Z2
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_TrBfyqYzxE-wc6aO801TF7
+          claim_id: c_WSjMToR4XmJm0VN3RvRcEq
+          source_id: s_JPUoHK4HTPgdv3qDzUa2MG
+          stance: supports
+          locator: 萬曆三十八年庚戌科序齒錄:一卷，第三甲第一百六十名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_vV52H1GLe4mb587k9pj5Z2
+        status: active
+        display_name: 王聘
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_vV52H1GLe4mb587k9pj5Z2 | 王聘 | accepted |
 
 ## 外部来源
 

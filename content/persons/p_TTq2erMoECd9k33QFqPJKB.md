@@ -4,7 +4,7 @@ id: p_TTq2erMoECd9k33QFqPJKB
 status: active
 merged_into: null
 display_name: 王宗
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,43 @@ relationships:
         status: active
         display_name: 王思禮
         merged_into_person_id: null
+    - claim:
+        id: c_QW-KI2LkFATX_RczrIL_lr
+        subject_person_id: p_UYGM3cinfbB81eZdHaiiac
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_TTq2erMoECd9k33QFqPJKB
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FUdKChfVxQcIQHOWyaZhk5
+          claim_id: c_QW-KI2LkFATX_RczrIL_lr
+          source_id: s_zKRN3tMTF3NgypCPKbx3AS
+          stance: supports
+          locator: 弘治十五年進士登科錄:一卷，第二甲第六十六名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_zKRN3tMTF3NgypCPKbx3AS
+            source_type: api_record
+            title: 中国历代人物传记资料库：王榮（CBDB 270448）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=270448&o=json
+            external_identifier: CBDB:270448
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.835Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_UYGM3cinfbB81eZdHaiiac
+        status: active
+        display_name: 王榮
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_QKGAAeSaSvqwLmATQQdkV2 | 王臣 | accepted |
 | ancestors | p_PP2iVoC1BLiswdrQPtQxpx | 王思禮 | accepted |
+| ancestors | p_UYGM3cinfbB81eZdHaiiac | 王榮 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王臣（CBDB 270449）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=270449&o=json)
+- [中国历代人物传记资料库：王榮（CBDB 270448）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=270448&o=json)
 - [中国历代人物传记资料库：王思禮（CBDB 270447）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=270447&o=json)
 - [中国历代人物传记资料库：王宗（CBDB 201312）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201312&o=json)

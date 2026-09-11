@@ -4,7 +4,7 @@ id: p_8tcFGh3NZERHQcBZnwxj4d
 status: active
 merged_into: null
 display_name: 王世祿
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_LNMVRq3zfeFT5qgEEXwvOj
+        subject_person_id: p_vcJm1ydj1HYBJUJSMh8z9z
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_8tcFGh3NZERHQcBZnwxj4d
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_75k_JpDw_JarljbFw6Qx1O
+          claim_id: c_LNMVRq3zfeFT5qgEEXwvOj
+          source_id: s_trCabA8oJ9Wef36Pt77tHk
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第三甲第七名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_trCabA8oJ9Wef36Pt77tHk
+            source_type: api_record
+            title: 中国历代人物传记资料库：王崇本（CBDB 280701）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280701&o=json
+            external_identifier: CBDB:280701
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.019Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_vcJm1ydj1HYBJUJSMh8z9z
+        status: active
+        display_name: 王崇本
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -163,9 +200,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_vcJm1ydj1HYBJUJSMh8z9z | 王崇本 | accepted |
 | ancestors | p_2rxHcDQz4GEPXHSb1zS8Br | 王永寧 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王崇本（CBDB 280701）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280701&o=json)
 - [中国历代人物传记资料库：王世祿（CBDB 201930）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201930&o=json)
 - [中国历代人物传记资料库：王永寧（CBDB 280699）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280699&o=json)

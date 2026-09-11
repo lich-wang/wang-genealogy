@@ -4,7 +4,7 @@ id: p_UvehpGMJTzc9aejBRt9mWN
 status: active
 merged_into: null
 display_name: 王淮
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -172,6 +172,58 @@ relationships:
         status: active
         display_name: 王侑
         merged_into_person_id: null
+    - claim:
+        id: c_p0Z4yQx-VmYg-cKS3fpqcQ
+        subject_person_id: p_UvehpGMJTzc9aejBRt9mWN
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_hJs7Qvo7BVHkNfA4qF2GpU
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5v1UdgRF4McMMRCMCQ6vU4
+          claim_id: c_p0Z4yQx-VmYg-cKS3fpqcQ
+          source_id: s_jH1N5zKcYCmDMDNPzpwQ7F
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，668：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_hJs7Qvo7BVHkNfA4qF2GpU
+        status: active
+        display_name: 王佖
+        merged_into_person_id: null
+    - claim:
+        id: c_-UetgMb-hdwGEimMMIBb2E
+        subject_person_id: p_UvehpGMJTzc9aejBRt9mWN
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_YykcDPhoFo7o8Jvq13sdKA
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8VL9rQ1GcpPGXqYUTLgkw_
+          claim_id: c_-UetgMb-hdwGEimMMIBb2E
+          source_id: s_jH1N5zKcYCmDMDNPzpwQ7F
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，720：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_YykcDPhoFo7o8Jvq13sdKA
+        status: active
+        display_name: 王侃
+        merged_into_person_id: null
   other: []
 ---
 
@@ -193,6 +245,8 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | descendants | p_6ezuFcCP9M43QTPSk7tw3L | 王侑 | accepted |
+| descendants | p_hJs7Qvo7BVHkNfA4qF2GpU | 王佖 | accepted |
+| descendants | p_YykcDPhoFo7o8Jvq13sdKA | 王侃 | accepted |
 
 ## 外部来源
 

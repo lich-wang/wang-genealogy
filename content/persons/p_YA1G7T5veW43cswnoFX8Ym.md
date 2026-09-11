@@ -4,7 +4,7 @@ id: p_YA1G7T5veW43cswnoFX8Ym
 status: active
 merged_into: null
 display_name: 王智
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,43 @@ relationships:
         status: active
         display_name: 王國才
         merged_into_person_id: null
+    - claim:
+        id: c_lZvVHW-UqlBaqq_yL5KDfx
+        subject_person_id: p_uzqpzNGoBs7AcESxEaJR7X
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_YA1G7T5veW43cswnoFX8Ym
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kGfUmsKYaYjSa8rp8tRdRh
+          claim_id: c_lZvVHW-UqlBaqq_yL5KDfx
+          source_id: s_xmxXLzitZgkEH1oGHMZtAZ
+          stance: supports
+          locator: 景泰二年進士登科錄:一卷，第三甲第九十五名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_xmxXLzitZgkEH1oGHMZtAZ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王興祖（CBDB 245141）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=245141&o=json
+            external_identifier: CBDB:245141
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.053Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_uzqpzNGoBs7AcESxEaJR7X
+        status: active
+        display_name: 王興祖
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_7qmh6ExHEGb6N6NWE8gC5i | 王昭 | accepted |
 | ancestors | p_5CiwpaT532KeioGvv2CHML | 王國才 | accepted |
+| ancestors | p_uzqpzNGoBs7AcESxEaJR7X | 王興祖 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王國才（CBDB 245130）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=245130&o=json)
+- [中国历代人物传记资料库：王興祖（CBDB 245141）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=245141&o=json)
 - [中国历代人物传记资料库：王昭（CBDB 245152）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=245152&o=json)
 - [中国历代人物传记资料库：王智（CBDB 198244）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198244&o=json)

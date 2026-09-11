@@ -4,7 +4,7 @@ id: p_vbEaTwSyS6JEzGzTU5DQPA
 status: active
 merged_into: null
 display_name: 王涯
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,8 +128,86 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_sOvmfuzb-1i9bh6CvbUw7o
+        subject_person_id: p_E8jSpcxrGiAGkwV96Q4xB8
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_vbEaTwSyS6JEzGzTU5DQPA
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4bGvdwylByoe5ePtd4_1-A
+          claim_id: c_sOvmfuzb-1i9bh6CvbUw7o
+          source_id: s_L31EN7QNzNJZ5r69x7mKXJ
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_E8jSpcxrGiAGkwV96Q4xB8
+        status: active
+        display_name: 王晃
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_zHQC-iXDY1zA1qOG3YnEBA
+        subject_person_id: p_vbEaTwSyS6JEzGzTU5DQPA
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_bqtofWaqSAEqVZFFEQFzEG
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Vb3RRIy663EcTt4p58tUUh
+          claim_id: c_zHQC-iXDY1zA1qOG3YnEBA
+          source_id: s_L31EN7QNzNJZ5r69x7mKXJ
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_bqtofWaqSAEqVZFFEQFzEG
+        status: active
+        display_name: 王孟堅
+        merged_into_person_id: null
+    - claim:
+        id: c_5qd4lDo8XJqvQtyGDoaeXQ
+        subject_person_id: p_vbEaTwSyS6JEzGzTU5DQPA
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_S41CzKZany2BrX6FG1HHPQ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zyYTcVUewRkPEwrBSRBepL
+          claim_id: c_5qd4lDo8XJqvQtyGDoaeXQ
+          source_id: s_L31EN7QNzNJZ5r69x7mKXJ
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_S41CzKZany2BrX6FG1HHPQ
+        status: active
+        display_name: 王仲翔
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +233,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_E8jSpcxrGiAGkwV96Q4xB8 | 王晃 | accepted |
+| children | p_bqtofWaqSAEqVZFFEQFzEG | 王孟堅 | accepted |
+| children | p_S41CzKZany2BrX6FG1HHPQ | 王仲翔 | accepted |
 
 ## 外部来源
 

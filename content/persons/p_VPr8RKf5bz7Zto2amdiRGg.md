@@ -4,7 +4,7 @@ id: p_VPr8RKf5bz7Zto2amdiRGg
 status: active
 merged_into: null
 display_name: 王睿
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_P_fwT3PQp1k0Iqyj0YKvDV
+        subject_person_id: p_VPr8RKf5bz7Zto2amdiRGg
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_QqHZ53bR3BD9L2PF2yyQK7
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ijGOuaxPJOWb4QM64RbYne
+          claim_id: c_P_fwT3PQp1k0Iqyj0YKvDV
+          source_id: s_GdX9RkMCm3B6TFsBy6PMGf
+          stance: supports
+          locator: 弘治十五年進士登科錄:一卷，第二甲第五十五名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_QqHZ53bR3BD9L2PF2yyQK7
+        status: active
+        display_name: 王金
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_QqHZ53bR3BD9L2PF2yyQK7 | 王金 | accepted |
 
 ## 外部来源
 

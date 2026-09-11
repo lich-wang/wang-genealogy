@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王順恩
 cbdb_id: 526899
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,7 +86,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_5hzIK2-7OtiU47ufW-KNEc
+        subject_person_id: p_vvBn8UmXb7DGZCHFctxsUR
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Xcyh7tamvPSZtQ361fFGXR
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_iGAzxoDfUI5TsSrcLK0W6O
+          claim_id: c_5hzIK2-7OtiU47ufW-KNEc
+          source_id: s_inFP6C1e3hjzmy86A5QHRa
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13076：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_inFP6C1e3hjzmy86A5QHRa
+            source_type: api_record
+            title: 中国历代人物传记资料库：王滇（CBDB 69371）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69371&o=json
+            external_identifier: CBDB:69371
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.112Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_vvBn8UmXb7DGZCHFctxsUR
+        status: active
+        display_name: 王滇
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_vvBn8UmXb7DGZCHFctxsUR | 王滇 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王滇（CBDB 69371）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69371&o=json)
 - [中国历代人物传记资料库：王順恩（CBDB 526899）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526899&o=json)

@@ -4,7 +4,7 @@ id: p_UxB3XwyVQqG5MVVCLdJEny
 status: active
 merged_into: null
 display_name: 王福
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_JpUFAKOqtb-vMBHAP6Y8sI
+        subject_person_id: p_UxB3XwyVQqG5MVVCLdJEny
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_cWTwgVhpSA8gYnzbvXzbFc
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mt5AADEAczbCHEZLhD-teG
+          claim_id: c_JpUFAKOqtb-vMBHAP6Y8sI
+          source_id: s_P2kWrAmeHKWgzQ6GgSV5fD
+          stance: supports
+          locator: 成化十七年進士登科錄:一卷，第三甲第二十八名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_cWTwgVhpSA8gYnzbvXzbFc
+        status: active
+        display_name: 王定安
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_cWTwgVhpSA8gYnzbvXzbFc | 王定安 | accepted |
 
 ## 外部来源
 

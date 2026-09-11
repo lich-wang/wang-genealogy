@@ -4,7 +4,7 @@ id: p_v1tDnt3KnoSEawTrZns7wW
 status: active
 merged_into: null
 display_name: 王榮
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_7zJ9B0BLnP9bQdy5-R2kME
+        subject_person_id: p_1YJZQvAA5ivX6epXHEyDLD
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_v1tDnt3KnoSEawTrZns7wW
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_T9D3F336jJjlc7HwA3gREx
+          claim_id: c_7zJ9B0BLnP9bQdy5-R2kME
+          source_id: s_QWqHjxFXrVTzRZtXCeKEs1
+          stance: supports
+          locator: 宋史：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_1YJZQvAA5ivX6epXHEyDLD
+        status: active
+        display_name: 王洪嗣
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -155,6 +181,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_1YJZQvAA5ivX6epXHEyDLD | 王洪嗣 | accepted |
 
 ## 外部来源
 

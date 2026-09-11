@@ -4,7 +4,7 @@ id: p_V4FwK3zU4QEPhCKRyGhfXG
 status: active
 merged_into: null
 display_name: 王問
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,43 @@ relationships:
         status: active
         display_name: 王仲禮
         merged_into_person_id: null
+    - claim:
+        id: c_jbKJENWLeQiaFnA2BeHi0n
+        subject_person_id: p_uXdxzkne55hz196gT7ThgP
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_V4FwK3zU4QEPhCKRyGhfXG
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7oiTTeBW3vjn7rvlYUvPX1
+          claim_id: c_jbKJENWLeQiaFnA2BeHi0n
+          source_id: s_QaEUc5d45zGWRxn1Ky7pfY
+          stance: supports
+          locator: 成化五年進士登科錄:一卷，第三甲第一百六十一名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_QaEUc5d45zGWRxn1Ky7pfY
+            source_type: api_record
+            title: 中国历代人物传记资料库：王思誠（CBDB 244953）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244953&o=json
+            external_identifier: CBDB:244953
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.041Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_uXdxzkne55hz196gT7ThgP
+        status: active
+        display_name: 王思誠
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_GcBvHSffABPszyHqYWBM3f | 王循 | accepted |
 | ancestors | p_gPxjSLrcRkcbqzAo1NC5Gm | 王仲禮 | accepted |
+| ancestors | p_uXdxzkne55hz196gT7ThgP | 王思誠 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王思誠（CBDB 244953）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244953&o=json)
 - [中国历代人物传记资料库：王問（CBDB 199435）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=199435&o=json)
 - [中国历代人物传记资料库：王循（CBDB 244955）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244955&o=json)
 - [中国历代人物传记资料库：王仲禮（CBDB 244954）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244954&o=json)

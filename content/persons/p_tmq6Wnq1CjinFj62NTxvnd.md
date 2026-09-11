@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王师颜
 cbdb_id: 22250
-revision: 5
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -455,6 +455,43 @@ relationships:
         status: active
         display_name: 王得與
         merged_into_person_id: null
+    - claim:
+        id: c_dFG9SChG7z0VZK2dB8FpI4
+        subject_person_id: p_tmq6Wnq1CjinFj62NTxvnd
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_UtxyZahWa6LaP1XseyvCe3
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6Q95CmbjkL9LSnAVYm-fi-
+          claim_id: c_dFG9SChG7z0VZK2dB8FpI4
+          source_id: s_P53btTDjbkVw2QTjRL7tZz
+          stance: supports
+          locator: 鄖溪集，右侍禁贈工部侍郎王公墓志銘：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_P53btTDjbkVw2QTjRL7tZz
+            source_type: api_record
+            title: 中国历代人物传记资料库：王得象（CBDB 695613）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=695613&o=json
+            external_identifier: CBDB:695613
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:06.541Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_UtxyZahWa6LaP1XseyvCe3
+        status: active
+        display_name: 王得象
+        merged_into_person_id: null
   other: []
 ---
 
@@ -481,6 +518,7 @@ relationships:
 | children | p_Ss4FDNkeA1F5Hedzt8DUZx | 王廣廉 | accepted |
 | descendants | p_8vyDFoA9sK1kQi3gjQvrix | 王得凝 | accepted |
 | descendants | p_FSPKUCsUhFPGcVbwr9ZPSh | 王得與 | accepted |
+| descendants | p_UtxyZahWa6LaP1XseyvCe3 | 王得象 | accepted |
 
 ## 外部来源
 
@@ -488,6 +526,7 @@ relationships:
 - [维基数据：王广渊（Q45359566）](https://www.wikidata.org/wiki/Q45359566)
 - [维基数据：王师颜（Q45402112）](https://www.wikidata.org/wiki/Q45402112)
 - [中国历代人物传记资料库：王得凝（CBDB 695612）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=695612&o=json)
+- [中国历代人物传记资料库：王得象（CBDB 695613）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=695613&o=json)
 - [中国历代人物传记资料库：王得與（CBDB 695611）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=695611&o=json)
 - [中国历代人物传记资料库：王廣廉（CBDB 1843）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1843&o=json)
 - [CBDB 中国历代人物传记资料库：王扶（1804）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1804&o=json)

@@ -4,7 +4,7 @@ id: p_RPTGuNk7UCyXG66UZ8YB1y
 status: active
 merged_into: null
 display_name: 王琮
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,43 @@ relationships:
         status: active
         display_name: 王榮清
         merged_into_person_id: null
+    - claim:
+        id: c_-Hs5TKXiuyr7Zanls2On4B
+        subject_person_id: p_V5tUM2QCfqRkrWxKniVuNJ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_RPTGuNk7UCyXG66UZ8YB1y
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8w0wivl2BIXFyA3RSvxk4x
+          claim_id: c_-Hs5TKXiuyr7Zanls2On4B
+          source_id: s_Z6TYHDpzGVQnDCHoopN24Q
+          stance: supports
+          locator: 天順八年進士登科錄:一卷，第三甲第三十八名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Z6TYHDpzGVQnDCHoopN24Q
+            source_type: api_record
+            title: 中国历代人物传记资料库：王允中（CBDB 335599）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=335599&o=json
+            external_identifier: CBDB:335599
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.461Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_V5tUM2QCfqRkrWxKniVuNJ
+        status: active
+        display_name: 王允中
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_B13sM8QvvGK2XSdKQc64eH | 王敬 | accepted |
 | ancestors | p_Tun4ZpFGowChscGqjoQKme | 王榮清 | accepted |
+| ancestors | p_V5tUM2QCfqRkrWxKniVuNJ | 王允中 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王琮（CBDB 198919）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198919&o=json)
 - [中国历代人物传记资料库：王敬（CBDB 335621）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=335621&o=json)
 - [中国历代人物传记资料库：王榮清（CBDB 335610）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=335610&o=json)
+- [中国历代人物传记资料库：王允中（CBDB 335599）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=335599&o=json)

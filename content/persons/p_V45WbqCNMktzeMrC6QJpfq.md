@@ -4,7 +4,7 @@ id: p_V45WbqCNMktzeMrC6QJpfq
 status: active
 merged_into: null
 display_name: 王穩
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_HiceCJ_bAH381bVgzNO6-A
+        subject_person_id: p_V45WbqCNMktzeMrC6QJpfq
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_fG2ZSSsFcXdaZWCtjXUkRA
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_y5MBeWZ8dxXVGHrOtyUA2H
+          claim_id: c_HiceCJ_bAH381bVgzNO6-A
+          source_id: s_XGB9gC8r39Aj1xFmkkAGHP
+          stance: supports
+          locator: 弘治九年進士登科錄:一卷，第二甲第十八名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_fG2ZSSsFcXdaZWCtjXUkRA
+        status: active
+        display_name: 王朝卿
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_fG2ZSSsFcXdaZWCtjXUkRA | 王朝卿 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_vMrsFyx3mJ3d7E7imZc3LS
 status: active
 merged_into: null
 display_name: 王鑾
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_9UunCVKGP8GuyqKg1tYkaf
+        subject_person_id: p_vBZf8XcAfN7YLCu434S6Mn
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_vMrsFyx3mJ3d7E7imZc3LS
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_W4-EPdlkm-jCKgasD3_VK_
+          claim_id: c_9UunCVKGP8GuyqKg1tYkaf
+          source_id: s_Jf83McwehKc65yc8E3wmxL
+          stance: supports
+          locator: 弘治十五年進士登科錄:一卷，第三甲第一百九十五名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Jf83McwehKc65yc8E3wmxL
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瓖（CBDB 244355）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244355&o=json
+            external_identifier: CBDB:244355
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.028Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_vBZf8XcAfN7YLCu434S6Mn
+        status: active
+        display_name: 王瓖
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -171,6 +208,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_vBZf8XcAfN7YLCu434S6Mn | 王瓖 | accepted |
 | ancestors | p_9vKhc6rhbPppSNgLg1uETa | 王藝 | accepted |
 | ancestors | p_SNoxRDc6ZXuEctRukJJ8LQ | 王昇 | accepted |
 
@@ -178,4 +216,5 @@ relationships:
 
 - [中国历代人物传记资料库：王鑾（CBDB 126899）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126899&o=json)
 - [中国历代人物传记资料库：王昇（CBDB 272647）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=272647&o=json)
+- [中国历代人物传记资料库：王瓖（CBDB 244355）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244355&o=json)
 - [中国历代人物传记资料库：王藝（CBDB 272646）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=272646&o=json)

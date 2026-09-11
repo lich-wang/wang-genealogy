@@ -1,0 +1,98 @@
+{
+  "schema": "wang-person-online-review-batch/v1",
+  "reviewer": "luna",
+  "reviewed_at": "2026-09-11",
+  "queue_positions": [
+    22621,
+    22630
+  ],
+  "summary": {
+    "reviewed": 10,
+    "relationships_added": 12,
+    "manual_review": 2
+  },
+  "relationships": [
+    {
+      "subject": "p_VLXHmJpMp4wz4g5naM2r4z",
+      "object": "p_zj3UcaT47HKJJeLDFk6H7j",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    },
+    {
+      "subject": "p_vM6985QJehceoGJD1bbJKF",
+      "object": "p_xvLLpFaV8r5LeaoP4HFB7X",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 2
+    },
+    {
+      "subject": "p_vM6985QJehceoGJD1bbJKF",
+      "object": "p_zSbAX6pTq8syEKaPFcTUoJ",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 2
+    },
+    {
+      "subject": "p_vM6985QJehceoGJD1bbJKF",
+      "object": "p_vGojsyaRpfn77AVXZL4ZEq",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 2
+    },
+    {
+      "subject": "p_vM6985QJehceoGJD1bbJKF",
+      "object": "p_LjhwxJ49z2NNTRWV53naxL",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 2
+    },
+    {
+      "subject": "p_vM6985QJehceoGJD1bbJKF",
+      "object": "p_w98fNCKfsDVLeqhH6CzWwH",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 3
+    },
+    {
+      "subject": "p_vM6985QJehceoGJD1bbJKF",
+      "object": "p_w1e5yHXVcLxb45aWhqxjRz",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 3
+    },
+    {
+      "subject": "p_vM6985QJehceoGJD1bbJKF",
+      "object": "p_Pc7RZBwtu8oeAfjiE3RvYK",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 3
+    },
+    {
+      "subject": "p_vM6985QJehceoGJD1bbJKF",
+      "object": "p_n1CMWoEQDNZ6FnWTcUGQAH",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 3
+    },
+    {
+      "subject": "p_vM6985QJehceoGJD1bbJKF",
+      "object": "p_WtvQS3ESjefyzCFCXsFmzA",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 3
+    },
+    {
+      "subject": "p_vM6985QJehceoGJD1bbJKF",
+      "object": "p_yT2TJcuUuLh3LY5ombvrrB",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 3
+    },
+    {
+      "subject": "p_vM6985QJehceoGJD1bbJKF",
+      "object": "p_agBDpkjwQG73j8yBTm3pwR",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 3
+    }
+  ],
+  "unchanged": [
+    "p_vLwh7Xe2Tqv964Fz9o511c",
+    "p_VLYRDZ1MfNMKWUvP4KoUFc",
+    "p_VM3K6EwK4CU338te95Pkvd",
+    "p_vm3pjaHTSDQ6VkzaEmZzF9",
+    "p_vm5eu7BWCjQ6kY9Sc6Jhz1",
+    "p_Vm5KLkk2edurY5vg6P7quT",
+    "p_vM79Hn6tMdzLXkKXyoT2CJ",
+    "p_vm9gbyPBZosAvH4jKv4wFV"
+  ]
+}

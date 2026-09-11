@@ -4,7 +4,7 @@ id: p_vFLWfzBg9b8Q6PZLkFhwVr
 status: active
 merged_into: null
 display_name: 王原
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_kK8KtJd7SU7JScennrL5wL
+        subject_person_id: p_vFLWfzBg9b8Q6PZLkFhwVr
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_U7JNj2nXJh2KN7f9tg3Czd
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_e5KfJAhnTsFeW90dvdnDKI
+          claim_id: c_kK8KtJd7SU7JScennrL5wL
+          source_id: s_TXgks3sAWAAsH3ZjmG1yEG
+          stance: supports
+          locator: 嘉靖二十年進士登科錄:一卷，第三甲第十六名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_U7JNj2nXJh2KN7f9tg3Czd
+        status: active
+        display_name: 王學柳
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_U7JNj2nXJh2KN7f9tg3Czd | 王學柳 | accepted |
 
 ## 外部来源
 

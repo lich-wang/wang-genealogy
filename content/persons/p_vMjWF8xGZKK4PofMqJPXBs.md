@@ -4,7 +4,7 @@ id: p_vMjWF8xGZKK4PofMqJPXBs
 status: active
 merged_into: null
 display_name: 王郡
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -101,7 +101,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_4P9u8_1QxTVwmyETGzbCbh
+        subject_person_id: p_vMjWF8xGZKK4PofMqJPXBs
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_aHJwnpHRpxrcjyR2reA6Ac
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QG7vy9dSS2yLWbli-eOuhI
+          claim_id: c_4P9u8_1QxTVwmyETGzbCbh
+          source_id: s_hWssKK7fFadgE4g1hATm6W
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），384：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_aHJwnpHRpxrcjyR2reA6Ac
+        status: active
+        display_name: 王守震
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,6 +152,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_aHJwnpHRpxrcjyR2reA6Ac | 王守震 | accepted |
 
 ## 外部来源
 

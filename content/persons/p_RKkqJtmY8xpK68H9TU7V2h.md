@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王岳錫
 cbdb_id: 206741
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -129,7 +129,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_UBO4bXn0hj--TaAT0Ftccl
+        subject_person_id: p_VoTEz62YCbTPVvreKQ83nM
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_RKkqJtmY8xpK68H9TU7V2h
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FVoI0yTUd7c9NwKgO8jsMN
+          claim_id: c_UBO4bXn0hj--TaAT0Ftccl
+          source_id: s_uSjEH62JT2VHw1xKmMVo3i
+          stance: supports
+          locator: 萬曆十一年進士登科錄:一卷，第二甲第三十九名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_uSjEH62JT2VHw1xKmMVo3i
+            source_type: api_record
+            title: 中国历代人物传记资料库：王价（CBDB 222533）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222533&o=json
+            external_identifier: CBDB:222533
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.384Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_VoTEz62YCbTPVvreKQ83nM
+        status: active
+        display_name: 王价
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -229,11 +266,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_VoTEz62YCbTPVvreKQ83nM | 王价 | accepted |
 | ancestors | p_2SQ76ktBHXkxeeRXd8mxUn | 王簡 | accepted |
 | ancestors | p_JeB3hwSR896jhFPxZ6KM4b | 王縉 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王价（CBDB 222533）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222533&o=json)
 - [中国历代人物传记资料库：王簡（CBDB 222532）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222532&o=json)
 - [中国历代人物传记资料库：王縉（CBDB 222531）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222531&o=json)
 - [中国历代人物传记资料库：王岳錫（CBDB 206741）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206741&o=json)

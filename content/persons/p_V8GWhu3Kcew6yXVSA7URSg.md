@@ -4,7 +4,7 @@ id: p_V8GWhu3Kcew6yXVSA7URSg
 status: active
 merged_into: null
 display_name: 王郁
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_uLREVerSC5bJOYgn4F3Qv5
+        subject_person_id: p_JbrJcaN3MdnZ95DCfhnHwS
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_V8GWhu3Kcew6yXVSA7URSg
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_THIhGPR2OHVO_pncp2fwWJ
+          claim_id: c_uLREVerSC5bJOYgn4F3Qv5
+          source_id: s_EPo43bbSgaB4BgNRBzQKqX
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Huichang 56：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_JbrJcaN3MdnZ95DCfhnHwS
+        status: active
+        display_name: 王惲
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_JbrJcaN3MdnZ95DCfhnHwS | 王惲 | accepted |
 
 ## 外部来源
 

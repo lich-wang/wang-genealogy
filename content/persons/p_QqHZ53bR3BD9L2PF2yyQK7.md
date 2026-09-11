@@ -4,7 +4,7 @@ id: p_QqHZ53bR3BD9L2PF2yyQK7
 status: active
 merged_into: null
 display_name: 王金
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -208,6 +208,43 @@ relationships:
         status: active
         display_name: 王璽
         merged_into_person_id: null
+    - claim:
+        id: c_P_fwT3PQp1k0Iqyj0YKvDV
+        subject_person_id: p_VPr8RKf5bz7Zto2amdiRGg
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_QqHZ53bR3BD9L2PF2yyQK7
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ijGOuaxPJOWb4QM64RbYne
+          claim_id: c_P_fwT3PQp1k0Iqyj0YKvDV
+          source_id: s_GdX9RkMCm3B6TFsBy6PMGf
+          stance: supports
+          locator: 弘治十五年進士登科錄:一卷，第二甲第五十五名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_GdX9RkMCm3B6TFsBy6PMGf
+            source_type: api_record
+            title: 中国历代人物传记资料库：王睿（CBDB 270321）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=270321&o=json
+            external_identifier: CBDB:270321
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.827Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_VPr8RKf5bz7Zto2amdiRGg
+        status: active
+        display_name: 王睿
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -231,9 +268,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_HKbjo82juGCBarv2Dg3zz9 | 王相 | accepted |
 | ancestors | p_BrBNE8QWzGTMEn9mCryuuB | 王璽 | accepted |
+| ancestors | p_VPr8RKf5bz7Zto2amdiRGg | 王睿 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王金（CBDB 126582）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126582&o=json)
+- [中国历代人物传记资料库：王睿（CBDB 270321）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=270321&o=json)
 - [中国历代人物传记资料库：王璽（CBDB 270322）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=270322&o=json)
 - [中国历代人物传记资料库：王相（CBDB 270323）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=270323&o=json)

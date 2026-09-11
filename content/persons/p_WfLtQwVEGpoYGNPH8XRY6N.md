@@ -4,7 +4,7 @@ id: p_WfLtQwVEGpoYGNPH8XRY6N
 status: active
 merged_into: null
 display_name: 王藻
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_GaW5LSre0fCsSpFFmZttMN
+        subject_person_id: p_VE28NqLkKGnLAhg7LWjfCA
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_WfLtQwVEGpoYGNPH8XRY6N
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vCALNTS1sJJCaiho4Fl6Zn
+          claim_id: c_GaW5LSre0fCsSpFFmZttMN
+          source_id: s_ErSy6Mx2ZYMAmC9yXBH7kf
+          stance: supports
+          locator: 隆慶二年進士登科錄:一卷，第三甲第二百一十六名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ErSy6Mx2ZYMAmC9yXBH7kf
+            source_type: api_record
+            title: 中国历代人物传记资料库：王撫民（CBDB 336680）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336680&o=json
+            external_identifier: CBDB:336680
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.497Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_VE28NqLkKGnLAhg7LWjfCA
+        status: active
+        display_name: 王撫民
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -200,11 +237,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_VE28NqLkKGnLAhg7LWjfCA | 王撫民 | accepted |
 | ancestors | p_HfQ8vHdEkoZDLPDA9aRBns | 王連 | accepted |
 | ancestors | p_jnBfdX1BtMCkZgKxJEPdYT | 王佑 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王撫民（CBDB 336680）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336680&o=json)
 - [中国历代人物传记资料库：王連（CBDB 336678）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336678&o=json)
 - [中国历代人物传记资料库：王佑（CBDB 336679）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336679&o=json)
 - [中国历代人物传记资料库：王藻（CBDB 205665）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205665&o=json)

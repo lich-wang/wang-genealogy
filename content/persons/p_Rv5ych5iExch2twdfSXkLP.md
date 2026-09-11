@@ -4,7 +4,7 @@ id: p_Rv5ych5iExch2twdfSXkLP
 status: active
 merged_into: null
 display_name: 王世蔭
-revision: 5
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -213,6 +213,43 @@ relationships:
         status: active
         display_name: 王訥
         merged_into_person_id: null
+    - claim:
+        id: c_y6BD7D4u41lMsxshsPtp6p
+        subject_person_id: p_Rv5ych5iExch2twdfSXkLP
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_vLtTux5M5PfXd1yQbcbVhi
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FwR-5EoHFp4vMrjncwspoo
+          claim_id: c_y6BD7D4u41lMsxshsPtp6p
+          source_id: s_H75HwKkwLCyRKH5i9sKatq
+          stance: supports
+          locator: 萬曆三十八年庚戌科序齒錄:一卷，第三甲第三十七名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_H75HwKkwLCyRKH5i9sKatq
+            source_type: api_record
+            title: 中国历代人物传记资料库：王諏（CBDB 233808）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=233808&o=json
+            external_identifier: CBDB:233808
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.730Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_vLtTux5M5PfXd1yQbcbVhi
+        status: active
+        display_name: 王諏
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -254,6 +291,43 @@ relationships:
         status: active
         display_name: 王養賢
         merged_into_person_id: null
+    - claim:
+        id: c_MJ2htvYVvhhIKYVcEkdiqg
+        subject_person_id: p_V1kMbKxMmncWoHQsKhN4jA
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Rv5ych5iExch2twdfSXkLP
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kkxL0bfszb9UG2ZG0-0WU_
+          claim_id: c_MJ2htvYVvhhIKYVcEkdiqg
+          source_id: s_FWdxsYMUTwWXtMeURoh75h
+          stance: supports
+          locator: 萬曆三十八年庚戌科序齒錄:一卷，第三甲第三十七名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_FWdxsYMUTwWXtMeURoh75h
+            source_type: api_record
+            title: 中国历代人物传记资料库：王璠（CBDB 233795）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=233795&o=json
+            external_identifier: CBDB:233795
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.720Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_V1kMbKxMmncWoHQsKhN4jA
+        status: active
+        display_name: 王璠
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -277,12 +351,16 @@ relationships:
 | children | p_eDSSwkzuEM8oekJRmk1epj | 王調 | accepted |
 | children | p_J2YJG4dKdMaVwpUoTA4Qfa | 王讜 | accepted |
 | children | p_UoMDZsZpFgXYrFuvEAGZCc | 王訥 | accepted |
+| children | p_vLtTux5M5PfXd1yQbcbVhi | 王諏 | accepted |
 | ancestors | p_2e5u4A1FFSG9TbzmvAvbtq | 王養賢 | accepted |
+| ancestors | p_V1kMbKxMmncWoHQsKhN4jA | 王璠 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王讜（CBDB 233807）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=233807&o=json)
 - [中国历代人物传记资料库：王調（CBDB 233810）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=233810&o=json)
+- [中国历代人物传记资料库：王璠（CBDB 233795）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=233795&o=json)
 - [中国历代人物传记资料库：王訥（CBDB 233811）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=233811&o=json)
 - [中国历代人物传记资料库：王世蔭（CBDB 207683）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207683&o=json)
 - [中国历代人物传记资料库：王養賢（CBDB 233796）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=233796&o=json)
+- [中国历代人物传记资料库：王諏（CBDB 233808）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=233808&o=json)

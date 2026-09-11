@@ -4,7 +4,7 @@ id: p_h6Qqwu6rcGKuAFwWWFGZPB
 status: active
 merged_into: null
 display_name: 王大平
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,43 @@ relationships:
         status: active
         display_name: 王振
         merged_into_person_id: null
+    - claim:
+        id: c_m60G_Y3oVwHZ0ELz6p7iVy
+        subject_person_id: p_vMbYHsiptdN5i95FHcq5T6
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_h6Qqwu6rcGKuAFwWWFGZPB
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_UMM0v98gW12LbVB8RoRFli
+          claim_id: c_m60G_Y3oVwHZ0ELz6p7iVy
+          source_id: s_KSFxEd68AqNX1tY9YqJLFs
+          stance: supports
+          locator: 嘉靖十七年進士登科錄:一卷，第三甲第二百一十六名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_KSFxEd68AqNX1tY9YqJLFs
+            source_type: api_record
+            title: 中国历代人物传记资料库：王伯成（CBDB 301945）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=301945&o=json
+            external_identifier: CBDB:301945
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.644Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_vMbYHsiptdN5i95FHcq5T6
+        status: active
+        display_name: 王伯成
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_1qFNNFzs4996RToNKGEdK3 | 王玉 | accepted |
 | ancestors | p_MqJmH3PbgPZ48RJzP22fHC | 王振 | accepted |
+| ancestors | p_vMbYHsiptdN5i95FHcq5T6 | 王伯成 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王伯成（CBDB 301945）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=301945&o=json)
 - [中国历代人物传记资料库：王大平（CBDB 203248）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203248&o=json)
 - [中国历代人物传记资料库：王玉（CBDB 301946）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=301946&o=json)
 - [中国历代人物传记资料库：王振（CBDB 301944）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=301944&o=json)

@@ -4,7 +4,7 @@ id: p_uzLPWq66u7cfNYyrb8gQ8t
 status: active
 merged_into: null
 display_name: 王璆
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -115,7 +115,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_syPz1B7WJeFNgb_d_elFUI
+        subject_person_id: p_uzLPWq66u7cfNYyrb8gQ8t
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_kVMprEyYd61FrSnBQEVsST
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GM8Rr5c4IZCLXBe64shSeT
+          claim_id: c_syPz1B7WJeFNgb_d_elFUI
+          source_id: s_F15gr6tZSv9fpE9gcRZLd9
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Dahe 94：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_kVMprEyYd61FrSnBQEVsST
+        status: active
+        display_name: 王仕倫
+        merged_into_person_id: null
   other: []
 ---
 
@@ -135,6 +161,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_C649FKyy6vwpLVe271ivnZ | 王恩 | accepted |
+| descendants | p_kVMprEyYd61FrSnBQEVsST | 王仕倫 | accepted |
 
 ## 外部来源
 

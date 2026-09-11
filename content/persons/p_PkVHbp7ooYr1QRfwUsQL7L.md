@@ -4,7 +4,7 @@ id: p_PkVHbp7ooYr1QRfwUsQL7L
 status: active
 merged_into: null
 display_name: 王頤
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -143,6 +143,43 @@ relationships:
         status: active
         display_name: 王忠
         merged_into_person_id: null
+    - claim:
+        id: c_53Tuk9RtQC1Y3xO1xc2evJ
+        subject_person_id: p_VxTXU8GfMKPTehA6EYkeki
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_PkVHbp7ooYr1QRfwUsQL7L
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rD_a7aogqdBRLTfRwmKgHn
+          claim_id: c_53Tuk9RtQC1Y3xO1xc2evJ
+          source_id: s_LuTfVN8g5QXHPM7PXLaq35
+          stance: supports
+          locator: 隆慶二年進士登科錄:一卷，第三甲第二百二十五名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_LuTfVN8g5QXHPM7PXLaq35
+            source_type: api_record
+            title: 中国历代人物传记资料库：王閏（CBDB 336758）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336758&o=json
+            external_identifier: CBDB:336758
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.500Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_VxTXU8GfMKPTehA6EYkeki
+        status: active
+        display_name: 王閏
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_mGj5EQVd76YTE2RuVE4Mpc | 王忠 | accepted |
+| ancestors | p_VxTXU8GfMKPTehA6EYkeki | 王閏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王閏（CBDB 336758）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336758&o=json)
 - [中国历代人物传记资料库：王頤（CBDB 205673）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205673&o=json)
 - [中国历代人物传记资料库：王忠（CBDB 336759）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336759&o=json)

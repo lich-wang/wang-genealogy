@@ -4,7 +4,7 @@ id: p_uTGWZPP3K2AvshF7Q9pjcC
 status: active
 merged_into: null
 display_name: 王能
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_xx-KSAdP9jD6WCfANndTkL
+        subject_person_id: p_uTGWZPP3K2AvshF7Q9pjcC
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_wtbH7xExyKzkv5ZQ6eBmE5
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_l-L2Kn6kCHEXi_nuBQRMRH
+          claim_id: c_xx-KSAdP9jD6WCfANndTkL
+          source_id: s_5J7GFUAmiehHA45GrcwMQF
+          stance: supports
+          locator: 成化十一年進士登科錄:一卷，第二甲第七十三名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_wtbH7xExyKzkv5ZQ6eBmE5
+        status: active
+        display_name: 王敏
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_wtbH7xExyKzkv5ZQ6eBmE5 | 王敏 | accepted |
 
 ## 外部来源
 

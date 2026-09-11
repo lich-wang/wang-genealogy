@@ -4,7 +4,7 @@ id: p_vcJm1ydj1HYBJUJSMh8z9z
 status: active
 merged_into: null
 display_name: 王崇本
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_LNMVRq3zfeFT5qgEEXwvOj
+        subject_person_id: p_vcJm1ydj1HYBJUJSMh8z9z
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_8tcFGh3NZERHQcBZnwxj4d
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_75k_JpDw_JarljbFw6Qx1O
+          claim_id: c_LNMVRq3zfeFT5qgEEXwvOj
+          source_id: s_trCabA8oJ9Wef36Pt77tHk
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第三甲第七名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_8tcFGh3NZERHQcBZnwxj4d
+        status: active
+        display_name: 王世祿
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_8tcFGh3NZERHQcBZnwxj4d | 王世祿 | accepted |
 
 ## 外部来源
 

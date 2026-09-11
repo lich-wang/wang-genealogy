@@ -4,7 +4,7 @@ id: p_uzqpzNGoBs7AcESxEaJR7X
 status: active
 merged_into: null
 display_name: 王興祖
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_lZvVHW-UqlBaqq_yL5KDfx
+        subject_person_id: p_uzqpzNGoBs7AcESxEaJR7X
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_YA1G7T5veW43cswnoFX8Ym
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kGfUmsKYaYjSa8rp8tRdRh
+          claim_id: c_lZvVHW-UqlBaqq_yL5KDfx
+          source_id: s_xmxXLzitZgkEH1oGHMZtAZ
+          stance: supports
+          locator: 景泰二年進士登科錄:一卷，第三甲第九十五名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_YA1G7T5veW43cswnoFX8Ym
+        status: active
+        display_name: 王智
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_YA1G7T5veW43cswnoFX8Ym | 王智 | accepted |
 
 ## 外部来源
 

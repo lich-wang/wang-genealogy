@@ -4,7 +4,7 @@ id: p_LpMHYjMg2BhRe212CnJZY9
 status: active
 merged_into: null
 display_name: 王凱
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,43 @@ relationships:
         status: active
         display_name: 王士安
         merged_into_person_id: null
+    - claim:
+        id: c_8TXRr477uKuzTG_r39WHRz
+        subject_person_id: p_vaqbBTbe1jFUgkiqDsCnTY
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_LpMHYjMg2BhRe212CnJZY9
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__5oKnUdKU5v0_yFbcBk7Uy
+          claim_id: c_8TXRr477uKuzTG_r39WHRz
+          source_id: s_6tHNZvZ4F5K2ZV3UwSJN6G
+          stance: supports
+          locator: 正统七年進士登科錄:一卷，第三甲第六十名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_6tHNZvZ4F5K2ZV3UwSJN6G
+            source_type: api_record
+            title: 中国历代人物传记资料库：王郁（CBDB 238508）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=238508&o=json
+            external_identifier: CBDB:238508
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.882Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_vaqbBTbe1jFUgkiqDsCnTY
+        status: active
+        display_name: 王郁
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_dMddXN9MM9RH4e355Y4XBH | 王俊 | accepted |
 | ancestors | p_bRutZZe45GNMmTrfNCtLZZ | 王士安 | accepted |
+| ancestors | p_vaqbBTbe1jFUgkiqDsCnTY | 王郁 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王俊（CBDB 238510）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=238510&o=json)
 - [中国历代人物传记资料库：王凱（CBDB 207962）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207962&o=json)
 - [中国历代人物传记资料库：王士安（CBDB 238507）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=238507&o=json)
+- [中国历代人物传记资料库：王郁（CBDB 238508）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=238508&o=json)

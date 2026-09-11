@@ -4,7 +4,7 @@ id: p_V7ycLeFaKcwDLu6Nqpp4GD
 status: active
 merged_into: null
 display_name: 王仲山
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_kLs6UDgzNN9XP-yxJq9OWW
+        subject_person_id: p_V7ycLeFaKcwDLu6Nqpp4GD
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_xYrcuBn3tSFA4ieZH7SugN
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Zgr3PPayvEINBXXM4fuZEb
+          claim_id: c_kLs6UDgzNN9XP-yxJq9OWW
+          source_id: s_DVJNegumBNKCf9uv11urxN
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1572;1573：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_xYrcuBn3tSFA4ieZH7SugN
+        status: active
+        display_name: 王窳
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_xYrcuBn3tSFA4ieZH7SugN | 王窳 | accepted |
 
 ## 外部来源
 

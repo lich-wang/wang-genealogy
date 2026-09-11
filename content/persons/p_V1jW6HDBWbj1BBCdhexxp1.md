@@ -4,7 +4,7 @@ id: p_V1jW6HDBWbj1BBCdhexxp1
 status: active
 merged_into: null
 display_name: 王榮
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -116,6 +116,32 @@ relationships:
         status: active
         display_name: 王元凱
         merged_into_person_id: null
+    - claim:
+        id: c_HBmfAhBYMf6NuI8trcho26
+        subject_person_id: p_V1jW6HDBWbj1BBCdhexxp1
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_SZRxbJ1yGra5er19BzwtBq
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_J0CT7-80yYWARjD3pw6pSb
+          claim_id: c_HBmfAhBYMf6NuI8trcho26
+          source_id: s_e831J4q2v457aLJF34qZQ7
+          stance: supports
+          locator: 正德六年進士登科錄:一卷，第三甲第一百一十八名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_SZRxbJ1yGra5er19BzwtBq
+        status: active
+        display_name: 王元正
+        merged_into_person_id: null
   other: []
 ---
 
@@ -135,6 +161,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | descendants | p_DYYX5QMN2Am56hJCjJrxsQ | 王元凱 | accepted |
+| descendants | p_SZRxbJ1yGra5er19BzwtBq | 王元正 | accepted |
 
 ## 外部来源
 

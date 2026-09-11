@@ -4,7 +4,7 @@ id: p_vjzSJPL4Yr4rG66CFjoYUz
 status: active
 merged_into: null
 display_name: 王文進
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -129,7 +129,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_8dRqKXC1cVIE6zsNdM1sgS
+        subject_person_id: p_vjzSJPL4Yr4rG66CFjoYUz
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_QwfU86wJ5i9Hj62HZkzs8r
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1aoE3ZUpwEaLdA7KjY8Fvw
+          claim_id: c_8dRqKXC1cVIE6zsNdM1sgS
+          source_id: s_F2Z16RpR45vjsURtjhTvCi
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Guangqi 3：嗣子(作為繼承人的兒子)
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_QwfU86wJ5i9Hj62HZkzs8r
+        status: active
+        display_name: 王重實
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +181,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_QwfU86wJ5i9Hj62HZkzs8r | 王重實 | accepted |
 
 ## 外部来源
 

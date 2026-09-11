@@ -4,7 +4,7 @@ id: p_VDcSxdbjB5JPLzERpmYvFU
 status: active
 merged_into: null
 display_name: 王泝
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_1MCjLoR3OqrGBSMnFyg7ue
+        subject_person_id: p_VDcSxdbjB5JPLzERpmYvFU
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_etxF8UycP4Urogz61YgdPb
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XUNF3dOHQQfLpSbP576FI5
+          claim_id: c_1MCjLoR3OqrGBSMnFyg7ue
+          source_id: s_DdLHuAh55YmvgPYyFJ33xS
+          stance: supports
+          locator: 萬曆三十八年庚戌科序齒錄:一卷，第三甲第九十三名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_etxF8UycP4Urogz61YgdPb
+        status: active
+        display_name: 王安舜
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_etxF8UycP4Urogz61YgdPb | 王安舜 | accepted |
 
 ## 外部来源
 

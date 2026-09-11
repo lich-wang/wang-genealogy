@@ -4,7 +4,7 @@ id: p_qaNbPxVseZmSQDL1Q2zNGZ
 status: active
 merged_into: null
 display_name: 王惟德
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -176,6 +176,43 @@ relationships:
         status: active
         display_name: 王大臨
         merged_into_person_id: null
+    - claim:
+        id: c_z7idBlSjwmClkPksXP5HrG
+        subject_person_id: p_qaNbPxVseZmSQDL1Q2zNGZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_V977tuTXveY9HTtwYUxUVK
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_DyyPr2HwRZH2W46pKk0L1a
+          claim_id: c_z7idBlSjwmClkPksXP5HrG
+          source_id: s_dXxzogSP7LpJCEMtomWTqF
+          stance: supports
+          locator: 司馬文正公集，鄆州處士王君墓誌：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_dXxzogSP7LpJCEMtomWTqF
+            source_type: api_record
+            title: 中国历代人物传记资料库：王大同（CBDB 572685）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=572685&o=json
+            external_identifier: CBDB:572685
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:25.889Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_V977tuTXveY9HTtwYUxUVK
+        status: active
+        display_name: 王大同
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_dyyUkZWDywAtknXtDVBC7E | 王宗道 | accepted |
 | children | p_gTWvcwTJduGYjH4AFByofy | 王大臨 | accepted |
+| children | p_V977tuTXveY9HTtwYUxUVK | 王大同 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王大臨（CBDB 38104）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38104&o=json)
+- [中国历代人物传记资料库：王大同（CBDB 572685）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=572685&o=json)
 - [中国历代人物传记资料库：王惟德（CBDB 38101）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38101&o=json)
 - [中国历代人物传记资料库：王宗道（CBDB 572686）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=572686&o=json)

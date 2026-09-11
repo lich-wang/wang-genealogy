@@ -4,7 +4,7 @@ id: p_VjyGNMX3LpLiN9N9Cogi3K
 status: active
 merged_into: null
 display_name: 王寡言
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_kdWcBdG9NevqtZnoQ25YPq
+        subject_person_id: p_yBtPvdFHB94uiBW1TdCCXp
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_VjyGNMX3LpLiN9N9Cogi3K
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hV7Ys9SUThQQEao-ZE8W7G
+          claim_id: c_kdWcBdG9NevqtZnoQ25YPq
+          source_id: s_5koLLBULa2Yqd2GY1h9GaC
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_yBtPvdFHB94uiBW1TdCCXp
+        status: active
+        display_name: 王敬仲
+        merged_into_person_id: null
   children:
     - claim:
         id: c_4r-3eIIENlPahsO-sSjq10
@@ -163,6 +189,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_yBtPvdFHB94uiBW1TdCCXp | 王敬仲 | accepted |
 | children | p_HiG2GSGG1BU3tAoqGMnt3j | 王鍇 | accepted |
 
 ## 外部来源

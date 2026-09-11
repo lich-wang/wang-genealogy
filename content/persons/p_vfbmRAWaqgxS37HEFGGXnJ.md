@@ -4,7 +4,7 @@ id: p_vfbmRAWaqgxS37HEFGGXnJ
 status: active
 merged_into: null
 display_name: 王燾
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_TaqtHudcjmFxSfa6KW3Qj2
+        subject_person_id: p_vfbmRAWaqgxS37HEFGGXnJ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_APgCbU3BBu68y3JhFPX3Tu
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bhDzzb_jXndEm0ZPdD-b8P
+          claim_id: c_TaqtHudcjmFxSfa6KW3Qj2
+          source_id: s_tEDCCBTGkPLqNUb8AG584c
+          stance: supports
+          locator: 成化二年進士登科錄:一卷，第三甲第十二名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_APgCbU3BBu68y3JhFPX3Tu
+        status: active
+        display_name: 王進
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_APgCbU3BBu68y3JhFPX3Tu | 王進 | accepted |
 
 ## 外部来源
 

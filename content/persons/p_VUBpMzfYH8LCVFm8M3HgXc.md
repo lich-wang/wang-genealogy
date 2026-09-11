@@ -4,7 +4,7 @@ id: p_VUBpMzfYH8LCVFm8M3HgXc
 status: active
 merged_into: null
 display_name: 王佐
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_VpdRyHQBFWkkb5A0IeK4HA
+        subject_person_id: p_KMDmm7VcULsohRE8yPb75U
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_VUBpMzfYH8LCVFm8M3HgXc
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_unANY-qNzAM8C78MNYuYbh
+          claim_id: c_VpdRyHQBFWkkb5A0IeK4HA
+          source_id: s_dTUXRMkxqmhmdy9hU3p8N8
+          stance: supports
+          locator: 成化八年進士登科錄:一卷，第三甲第一百六十四名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_KMDmm7VcULsohRE8yPb75U
+        status: active
+        display_name: 王宗美
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_78M5Q6hY2FFjYm1XZKhnkw
+        subject_person_id: p_1J7egcC3evZEopQVEJdQq8
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_VUBpMzfYH8LCVFm8M3HgXc
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_IJ0rbiGkdBmsMp4B3u0iIf
+          claim_id: c_78M5Q6hY2FFjYm1XZKhnkw
+          source_id: s_dTUXRMkxqmhmdy9hU3p8N8
+          stance: supports
+          locator: 成化八年進士登科錄:一卷，第三甲第一百六十四名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_1J7egcC3evZEopQVEJdQq8
+        status: active
+        display_name: 王時能
+        merged_into_person_id: null
+    - claim:
+        id: c_oSIwmw3wW8IwoyIioV6lm2
+        subject_person_id: p_N2gb5pMqtzse3xWR5G5kGz
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_VUBpMzfYH8LCVFm8M3HgXc
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_TFyCKT3lS7bEjtOw9CYCki
+          claim_id: c_oSIwmw3wW8IwoyIioV6lm2
+          source_id: s_dTUXRMkxqmhmdy9hU3p8N8
+          stance: supports
+          locator: 成化八年進士登科錄:一卷，第三甲第一百六十四名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_N2gb5pMqtzse3xWR5G5kGz
+        status: active
+        display_name: 王希名
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_KMDmm7VcULsohRE8yPb75U | 王宗美 | accepted |
+| ancestors | p_1J7egcC3evZEopQVEJdQq8 | 王時能 | accepted |
+| ancestors | p_N2gb5pMqtzse3xWR5G5kGz | 王希名 | accepted |
 
 ## 外部来源
 

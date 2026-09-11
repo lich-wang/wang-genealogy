@@ -4,7 +4,7 @@ id: p_W1S164MJeXJnV1PQFWcY3H
 status: active
 merged_into: null
 display_name: 王通
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_f2jmBmBAqh1akG9ntnLvlb
+        subject_person_id: p_W1S164MJeXJnV1PQFWcY3H
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_RFSk9U6s1PdRrrCWPSXxDg
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tLTR5q7KxdyQetDcGED9Qq
+          claim_id: c_f2jmBmBAqh1akG9ntnLvlb
+          source_id: s_4AjZFBgFAHE9F1BHbejR99
+          stance: supports
+          locator: 隆慶二年進士登科錄:一卷，第三甲第二百八十名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_RFSk9U6s1PdRrrCWPSXxDg
+        status: active
+        display_name: 王中逵
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_RFSk9U6s1PdRrrCWPSXxDg | 王中逵 | accepted |
 
 ## 外部来源
 

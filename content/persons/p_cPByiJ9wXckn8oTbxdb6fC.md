@@ -4,7 +4,7 @@ id: p_cPByiJ9wXckn8oTbxdb6fC
 status: active
 merged_into: null
 display_name: 王世仁
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_rlPwui0mmkYDFAxfl6vj3A
+        subject_person_id: p_w23nYb8qHQAvs4dnvFLxF6
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_cPByiJ9wXckn8oTbxdb6fC
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-R7SFV6xpYmpkI321n8KY3
+          claim_id: c_rlPwui0mmkYDFAxfl6vj3A
+          source_id: s_Gzk3SVLXDcFzWM9jLuDjcx
+          stance: supports
+          locator: 牧齋有學集：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Gzk3SVLXDcFzWM9jLuDjcx
+            source_type: api_record
+            title: 中国历代人物传记资料库：王嘉言（CBDB 338253）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=338253&o=json
+            external_identifier: CBDB:338253
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.540Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_w23nYb8qHQAvs4dnvFLxF6
+        status: active
+        display_name: 王嘉言
+        merged_into_person_id: null
   children:
     - claim:
         id: c_SHTqrfKZkDaPmoWMEEBs_R
@@ -229,6 +266,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_w23nYb8qHQAvs4dnvFLxF6 | 王嘉言 | accepted |
 | children | p_1p4v7xXard7D3C1bYnL9Cj | 王徽 | accepted |
 | ancestors | p_2StFDBuSe9949aH2UpEtKJ | 王燾 | accepted |
 
@@ -236,4 +274,5 @@ relationships:
 
 - [中国历代人物传记资料库：王燾（CBDB 338252）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=338252&o=json)
 - [中国历代人物传记资料库：王徽（CBDB 123386）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=123386&o=json)
+- [中国历代人物传记资料库：王嘉言（CBDB 338253）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=338253&o=json)
 - [中国历代人物传记资料库：王世仁（CBDB 123385）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=123385&o=json)

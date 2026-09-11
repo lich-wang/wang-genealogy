@@ -4,7 +4,7 @@ id: p_Z5nYxV4Tqg6P2c2jCvDNPx
 status: active
 merged_into: null
 display_name: 王惠
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -143,6 +143,43 @@ relationships:
         status: active
         display_name: 王璡
         merged_into_person_id: null
+    - claim:
+        id: c_gQaLurmY_UxIvyPNvYhrCR
+        subject_person_id: p_vueLBrU1RnBx1aZUzw5XWG
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Z5nYxV4Tqg6P2c2jCvDNPx
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BfOAf3teWXzvUSw6w_rwhu
+          claim_id: c_gQaLurmY_UxIvyPNvYhrCR
+          source_id: s_mxLnv6QWPebEbZYfUNZtmx
+          stance: supports
+          locator: 弘治三年進士登科錄:一卷，第二甲第四十四名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_mxLnv6QWPebEbZYfUNZtmx
+            source_type: api_record
+            title: 中国历代人物传记资料库：王頤（CBDB 261335）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261335&o=json
+            external_identifier: CBDB:261335
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.536Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_vueLBrU1RnBx1aZUzw5XWG
+        status: active
+        display_name: 王頤
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_smxXzZUQV98RoMAng6P1kS | 王璡 | accepted |
+| ancestors | p_vueLBrU1RnBx1aZUzw5XWG | 王頤 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王惠（CBDB 200679）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200679&o=json)
 - [中国历代人物传记资料库：王璡（CBDB 261337）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261337&o=json)
+- [中国历代人物传记资料库：王頤（CBDB 261335）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261335&o=json)

@@ -4,7 +4,7 @@ id: p_ufRLVRWc7tv4zcxsauhE29
 status: active
 merged_into: null
 display_name: 王京
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,43 @@ relationships:
         status: active
         display_name: 王紀
         merged_into_person_id: null
+    - claim:
+        id: c_km9pMNoIXjedtkHha0xh8k
+        subject_person_id: p_VLGqy9ktakD4B6mxkUvcHL
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_ufRLVRWc7tv4zcxsauhE29
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FZhDaFYDAClBkWOtZhVbl3
+          claim_id: c_km9pMNoIXjedtkHha0xh8k
+          source_id: s_bkPDk8zybgMC4wUK4mSPwM
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第九名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_bkPDk8zybgMC4wUK4mSPwM
+            source_type: api_record
+            title: 中国历代人物传记资料库：王業（CBDB 291942）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291942&o=json
+            external_identifier: CBDB:291942
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.384Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_VLGqy9ktakD4B6mxkUvcHL
+        status: active
+        display_name: 王業
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_ni93rzedW8HywjRcLfPSGG | 王民 | accepted |
 | ancestors | p_b7v4ZZ3QYXR6v61rExDyBG | 王紀 | accepted |
+| ancestors | p_VLGqy9ktakD4B6mxkUvcHL | 王業 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王紀（CBDB 291941）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291941&o=json)
 - [中国历代人物传记资料库：王京（CBDB 202664）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202664&o=json)
 - [中国历代人物传记资料库：王民（CBDB 291943）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291943&o=json)
+- [中国历代人物传记资料库：王業（CBDB 291942）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291942&o=json)

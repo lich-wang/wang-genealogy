@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王曰然
 cbdb_id: 203455
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -129,7 +129,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_2I08rqxR642Rg5TtoU6oiI
+        subject_person_id: p_vV52ECfgKpenuD9v8Dh9jq
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_GMiqJBh7YQ1MMn468wZyQK
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zLp9SxChFSnCJY7ljwq7YV
+          claim_id: c_2I08rqxR642Rg5TtoU6oiI
+          source_id: s_9MsjXKxBBi8ZVqS1wjNdbP
+          stance: supports
+          locator: 嘉靖二十年進士登科錄:一卷，第三甲第一百七十八名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_9MsjXKxBBi8ZVqS1wjNdbP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王施恩（CBDB 304956）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=304956&o=json
+            external_identifier: CBDB:304956
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.737Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_vV52ECfgKpenuD9v8Dh9jq
+        status: active
+        display_name: 王施恩
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -229,11 +266,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_vV52ECfgKpenuD9v8Dh9jq | 王施恩 | accepted |
 | ancestors | p_dG6mQ8rDUmkm3T8g7DgPnD | 王素 | accepted |
 | ancestors | p_KPFBCEe2VZqm2XvkaL2TBy | 王卿 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王卿（CBDB 304955）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=304955&o=json)
+- [中国历代人物传记资料库：王施恩（CBDB 304956）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=304956&o=json)
 - [中国历代人物传记资料库：王素（CBDB 304954）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=304954&o=json)
 - [中国历代人物传记资料库：王曰然（CBDB 203455）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203455&o=json)

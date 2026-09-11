@@ -4,7 +4,7 @@ id: p_vkvG2A7ta6iDdauCDcP2NZ
 status: active
 merged_into: null
 display_name: 王三娘
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_8FqgVvkAVGINWEFFiiYfMd
+        subject_person_id: p_yw8Ldi3TsRvFBDPd73FPjN
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_vkvG2A7ta6iDdauCDcP2NZ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HKckdRvXIZ4cWeLt-ACLDs
+          claim_id: c_8FqgVvkAVGINWEFFiiYfMd
+          source_id: s_GEfHQZcQU3k7m51A2poAEo
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Dazhong75：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_yw8Ldi3TsRvFBDPd73FPjN
+        status: active
+        display_name: 王玉
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_yw8Ldi3TsRvFBDPd73FPjN | 王玉 | accepted |
 
 ## 外部来源
 

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王安舜
 cbdb_id: 207738
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -129,7 +129,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_1MCjLoR3OqrGBSMnFyg7ue
+        subject_person_id: p_VDcSxdbjB5JPLzERpmYvFU
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_etxF8UycP4Urogz61YgdPb
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XUNF3dOHQQfLpSbP576FI5
+          claim_id: c_1MCjLoR3OqrGBSMnFyg7ue
+          source_id: s_DdLHuAh55YmvgPYyFJ33xS
+          stance: supports
+          locator: 萬曆三十八年庚戌科序齒錄:一卷，第三甲第九十三名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_DdLHuAh55YmvgPYyFJ33xS
+            source_type: api_record
+            title: 中国历代人物传记资料库：王泝（CBDB 234985）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=234985&o=json
+            external_identifier: CBDB:234985
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.749Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_VDcSxdbjB5JPLzERpmYvFU
+        status: active
+        display_name: 王泝
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -229,6 +266,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_VDcSxdbjB5JPLzERpmYvFU | 王泝 | accepted |
 | ancestors | p_5dSakUSWw4kjHJqxaV8CHv | 王鈺 | accepted |
 | ancestors | p_f1etzqZkjDQnNgQC99Wzfa | 王昺 | accepted |
 
@@ -236,4 +274,5 @@ relationships:
 
 - [中国历代人物传记资料库：王安舜（CBDB 207738）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207738&o=json)
 - [中国历代人物传记资料库：王昺（CBDB 234983）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=234983&o=json)
+- [中国历代人物传记资料库：王泝（CBDB 234985）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=234985&o=json)
 - [中国历代人物传记资料库：王鈺（CBDB 234984）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=234984&o=json)

@@ -4,7 +4,7 @@ id: p_uYdyYvhACY66kGTVV38pka
 status: active
 merged_into: null
 display_name: 王汝猷
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_C4CdIrnsTwKUiURV29edPC
+        subject_person_id: p_uYdyYvhACY66kGTVV38pka
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_r6pBWbK1n21iTCU2S5mqaD
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xgjUp7EW9Hx_SeB6ZVrzXs
+          claim_id: c_C4CdIrnsTwKUiURV29edPC
+          source_id: s_4cF4PsvyC3v2Y9KmwSdjjE
+          stance: supports
+          locator: 萬曆二十年壬辰科進士歷履便覽:一卷，第三甲第六十七名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_r6pBWbK1n21iTCU2S5mqaD
+        status: active
+        display_name: 王文爟
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_r6pBWbK1n21iTCU2S5mqaD | 王文爟 | accepted |
 
 ## 外部来源
 

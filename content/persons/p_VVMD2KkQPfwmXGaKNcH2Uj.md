@@ -4,7 +4,7 @@ id: p_VVMD2KkQPfwmXGaKNcH2Uj
 status: active
 merged_into: null
 display_name: 王守節
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,13 +72,65 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_YRBfQ-R43_NPXAFtLy67Qr
+        subject_person_id: p_yqrJaC8jCWdEp4quZVwZHz
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_VVMD2KkQPfwmXGaKNcH2Uj
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QH_EBatG1h4ypirXU278hN
+          claim_id: c_YRBfQ-R43_NPXAFtLy67Qr
+          source_id: s_BCy2ktadvNS4AWqD5sfnVG
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_yqrJaC8jCWdEp4quZVwZHz
+        status: active
+        display_name: 王師感
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_f2s9Z8afzBgOiMorL4jZHZ
+        subject_person_id: p_VVMD2KkQPfwmXGaKNcH2Uj
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_3WXtv2kcWPVKbpetC94s5m
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_t6ps_SETcP60C53__iqC2R
+          claim_id: c_f2s9Z8afzBgOiMorL4jZHZ
+          source_id: s_BCy2ktadvNS4AWqD5sfnVG
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Yuanhe 33：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_3WXtv2kcWPVKbpetC94s5m
+        status: active
+        display_name: 王叔雅
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_yqrJaC8jCWdEp4quZVwZHz | 王師感 | accepted |
+| descendants | p_3WXtv2kcWPVKbpetC94s5m | 王叔雅 | accepted |
 
 ## 外部来源
 

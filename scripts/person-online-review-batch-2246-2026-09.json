@@ -1,0 +1,81 @@
+{
+  "schema": "wang-person-online-review-batch/v1",
+  "reviewer": "luna",
+  "reviewed_at": "2026-09-11",
+  "queue_positions": [
+    22451,
+    22460
+  ],
+  "summary": {
+    "reviewed": 10,
+    "relationships_added": 9,
+    "manual_review": 1
+  },
+  "relationships": [
+    {
+      "subject": "p_SyKJGHt2T3DjXjHEbFmEV4",
+      "object": "p_vECvu4PrbhTNUTMJRckP9C",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 2
+    },
+    {
+      "subject": "p_dhLw5ZYZGp3S49Qpkah6r2",
+      "object": "p_vECvu4PrbhTNUTMJRckP9C",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 2
+    },
+    {
+      "subject": "p_VMqCzPgXHkKRKBD5CdCTWf",
+      "object": "p_vECvu4PrbhTNUTMJRckP9C",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    },
+    {
+      "subject": "p_vECvu4PrbhTNUTMJRckP9C",
+      "object": "p_h5NiBzkFZ2Bw82imDtrCYS",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    },
+    {
+      "subject": "p_vECvu4PrbhTNUTMJRckP9C",
+      "object": "p_BFnDPf2o2PQX1hHsCJfiHU",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    },
+    {
+      "subject": "p_vECvu4PrbhTNUTMJRckP9C",
+      "object": "p_9GgUsvJ54gU2v8pmaaTiuM",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    },
+    {
+      "subject": "p_vECvu4PrbhTNUTMJRckP9C",
+      "object": "p_Jd7fSU93gNFnUBPdNVuXGY",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 2
+    },
+    {
+      "subject": "p_vECvu4PrbhTNUTMJRckP9C",
+      "object": "p_Ac7UH2xcWY3aDjbY3yku8B",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 2
+    },
+    {
+      "subject": "p_vECvu4PrbhTNUTMJRckP9C",
+      "object": "p_Wft3MqkARxabMc8JuLMegQ",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 2
+    }
+  ],
+  "unchanged": [
+    "p_Ve3Krtrb2N98o7XG8CHeDb",
+    "p_ve3PDbNGqaNQgddGuw2C43",
+    "p_Ve6Fn2s2PKmBNuoAaC7QRs",
+    "p_vEeGXU91tEG3esDby5phZj",
+    "p_Veg2M7nUgAFT9N4pPNmHnp",
+    "p_VeGEVTeaZBw3Uxqts2iVWV",
+    "p_VeJ2ZqeAKAt4LiwckNY3Cu",
+    "p_veNjrdB6dTXA4h9YW8V3p8",
+    "p_VEPRZm71cvgsvoCyXQuw71"
+  ]
+}

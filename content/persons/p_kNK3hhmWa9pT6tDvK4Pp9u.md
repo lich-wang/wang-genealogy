@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王任重
 cbdb_id: 126522
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,7 +86,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_fvJ4VMB0MxNSx-C-NzJWvp
+        subject_person_id: p_v9S8oyRFWQnLjHDjQjs8bc
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_kNK3hhmWa9pT6tDvK4Pp9u
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_H8bLkOMum2KbsYsysL9dtQ
+          claim_id: c_fvJ4VMB0MxNSx-C-NzJWvp
+          source_id: s_P2Qs5521hThEdkmPWDzduG
+          stance: supports
+          locator: 隆慶二年進士登科錄:一卷，第三甲第十二名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_P2Qs5521hThEdkmPWDzduG
+            source_type: api_record
+            title: 中国历代人物传记资料库：王寅（CBDB 334516）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334516&o=json
+            external_identifier: CBDB:334516
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.445Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_v9S8oyRFWQnLjHDjQjs8bc
+        status: active
+        display_name: 王寅
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -185,6 +222,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_v9S8oyRFWQnLjHDjQjs8bc | 王寅 | accepted |
 | ancestors | p_nQkuo1HqhgEYREvrbFAEPs | 王璉 | accepted |
 | ancestors | p_SFzsLGx5pnHVeDMR9uM7K4 | 王榮 | accepted |
 
@@ -193,3 +231,4 @@ relationships:
 - [中国历代人物传记资料库：王璉（CBDB 334515）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334515&o=json)
 - [中国历代人物传记资料库：王任重（CBDB 126522）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126522&o=json)
 - [中国历代人物传记资料库：王榮（CBDB 334514）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334514&o=json)
+- [中国历代人物传记资料库：王寅（CBDB 334516）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334516&o=json)

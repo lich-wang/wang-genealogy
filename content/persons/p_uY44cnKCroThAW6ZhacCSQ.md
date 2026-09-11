@@ -4,7 +4,7 @@ id: p_uY44cnKCroThAW6ZhacCSQ
 status: active
 merged_into: null
 display_name: 王希賢
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_GH-ySGU_5HIVGduoLXP0CZ
+        subject_person_id: p_uY44cnKCroThAW6ZhacCSQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_1VL9yWy3AxpvH3DV26BCQr
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gLNtECbSvvCf-eRqWmt2M5
+          claim_id: c_GH-ySGU_5HIVGduoLXP0CZ
+          source_id: s_LGBHmd25HmcofazNRbUSp1
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），12921：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_1VL9yWy3AxpvH3DV26BCQr
+        status: active
+        display_name: 王乃祿
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_1VL9yWy3AxpvH3DV26BCQr | 王乃祿 | accepted |
 
 ## 外部来源
 

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王行威
 cbdb_id: 139330
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -172,7 +172,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_09NC3C7Bxw92Eivg1alTXD
+        subject_person_id: p_vLfWMwhHDFvcZU8WJFZRFE
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_8Dg6XHckcaLtCF8z4S2GGo
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2qRiAsVwqZqeHkUiZGT6DT
+          claim_id: c_09NC3C7Bxw92Eivg1alTXD
+          source_id: s_3B6JMQTT1Dfn3yPTDnPbpQ
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Chuigong 25：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_3B6JMQTT1Dfn3yPTDnPbpQ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王師保（CBDB 149257）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=149257&o=json
+            external_identifier: CBDB:149257
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.785Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_vLfWMwhHDFvcZU8WJFZRFE
+        status: active
+        display_name: 王師保
+        merged_into_person_id: null
   children:
     - claim:
         id: c_8AJHK2oqrkcMDAiO40KP3K
@@ -273,11 +310,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_vLfWMwhHDFvcZU8WJFZRFE | 王師保 | accepted |
 | children | p_63GJFzo8WqsYmG8aUgCwok | 王義端 | accepted |
 | children | p_HRtWnooxefDz8rZgtu7C52 | 王義方 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王師保（CBDB 149257）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=149257&o=json)
 - [中国历代人物传记资料库：王行威（CBDB 139330）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=139330&o=json)
 - [中国历代人物传记资料库：王義端（CBDB 149259）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=149259&o=json)
 - [中国历代人物传记资料库：王義方（CBDB 149258）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=149258&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王之猷
 cbdb_id: 126467
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -343,7 +343,44 @@ relationships:
         status: active
         display_name: 李氏
         merged_into_person_id: null
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_Wg_5pTVcWJ5GE8vBDUdU1V
+        subject_person_id: p_VwN7eG86JDxNDZrGUdF1Q5
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_5r1wESpKqnWgbhR5AChbjE
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AXDvffMCx7bwj-I_Lmwn5Y
+          claim_id: c_Wg_5pTVcWJ5GE8vBDUdU1V
+          source_id: s_BsgioAgQi2bNfV41XYhCP9
+          stance: supports
+          locator: 萬曆五年進士登科錄:一卷，第三甲第一百五十七名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_BsgioAgQi2bNfV41XYhCP9
+            source_type: api_record
+            title: 中国历代人物传记资料库：王麟（CBDB 232520）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=232520&o=json
+            external_identifier: CBDB:232520
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.689Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_VwN7eG86JDxNDZrGUdF1Q5
+        status: active
+        display_name: 王麟
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -367,6 +404,7 @@ relationships:
 | children | p_iko9zCvjCxvA9HKpjEWpt4 | 王象恒 | accepted |
 | children | p_1vwHH8EjSEP1q2oifpwF8P | 王象春 | accepted |
 | spouses | p_nVeRPzH9zM6X3E5H4rwVq1 | 李氏 | accepted |
+| ancestors | p_VwN7eG86JDxNDZrGUdF1Q5 | 王麟 | accepted |
 
 ## 外部来源
 
@@ -375,5 +413,6 @@ relationships:
 - [维基数据：王象恒（Q15940995）](https://www.wikidata.org/wiki/Q15940995)
 - [维基数据：王之猷（Q16075308）](https://www.wikidata.org/wiki/Q16075308)
 - [维基数据：王重光（Q15935070）](https://www.wikidata.org/wiki/Q15935070)
+- [中国历代人物传记资料库：王麟（CBDB 232520）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=232520&o=json)
 - [中文维基百科：王之猷](https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%B9%8B%E7%8C%B7)
 - [CBDB 中国历代人物传记资料库：王之猷（126467）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126467&o=json)

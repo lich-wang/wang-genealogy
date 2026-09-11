@@ -4,7 +4,7 @@ id: p_uZJh4H7M1v6Jx64KEif35w
 status: active
 merged_into: null
 display_name: 王肅
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_5YcqKMEtjeRHSi5_IATMC4
+        subject_person_id: p_uZJh4H7M1v6Jx64KEif35w
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_w8kp3E7GopXJ9s4XjHQN1n
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_418N-wirpgL3R4-nCfzQ4L
+          claim_id: c_5YcqKMEtjeRHSi5_IATMC4
+          source_id: s_zzeVGkPbS36wkAhm4xE69d
+          stance: supports
+          locator: 天順四年進士登科錄:一卷，第三甲第五十三名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_w8kp3E7GopXJ9s4XjHQN1n
+        status: active
+        display_name: 王哲
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_w8kp3E7GopXJ9s4XjHQN1n | 王哲 | accepted |
 
 ## 外部来源
 
