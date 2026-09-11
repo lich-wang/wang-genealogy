@@ -4,7 +4,7 @@ id: p_WrhQVFx4M3AwN7tYE7sR29
 status: active
 merged_into: null
 display_name: 王福
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_TNMjyGIt_Sufnn-j020i5J
+        subject_person_id: p_kt2CLjdy44ggWNJFZgTJyK
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_WrhQVFx4M3AwN7tYE7sR29
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KhaivUVT-0DztjlAwBQRUJ
+          claim_id: c_TNMjyGIt_Sufnn-j020i5J
+          source_id: s_6rhFB6NwmDJF6rKTWorpen
+          stance: supports
+          locator: 南陽府志，lgid=878782：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_6rhFB6NwmDJF6rKTWorpen
+            source_type: api_record
+            title: 中国历代人物传记资料库：王之藩（CBDB 557455）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=557455&o=json
+            external_identifier: CBDB:557455
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:25.671Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_kt2CLjdy44ggWNJFZgTJyK
+        status: active
+        display_name: 王之藩
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_kt2CLjdy44ggWNJFZgTJyK | 王之藩 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王福（CBDB 557488）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=557488&o=json)
+- [中国历代人物传记资料库：王之藩（CBDB 557455）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=557455&o=json)

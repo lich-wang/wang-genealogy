@@ -4,7 +4,7 @@ id: p_m23MVRaSUzaE8V6qkSLkaz
 status: active
 merged_into: null
 display_name: 王德
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_Oq3rcK8AsncX5QXqyDU4AR
+        subject_person_id: p_m23MVRaSUzaE8V6qkSLkaz
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_PpkBEPi7d8NtDFrxCXYCdk
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_w5ltmejliBXUtyfy9TgD0E
+          claim_id: c_Oq3rcK8AsncX5QXqyDU4AR
+          source_id: s_EoNM5Lbsx8gsA7vodZGiXR
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Kaiyuan160：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_PpkBEPi7d8NtDFrxCXYCdk
+        status: active
+        display_name: 王仁
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_PpkBEPi7d8NtDFrxCXYCdk | 王仁 | accepted |
 
 ## 外部来源
 

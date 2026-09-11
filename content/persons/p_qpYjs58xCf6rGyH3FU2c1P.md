@@ -4,7 +4,7 @@ id: p_qpYjs58xCf6rGyH3FU2c1P
 status: active
 merged_into: null
 display_name: 王嵩
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_3FuAQ4Ozm9QskgGd5wHHOA
+        subject_person_id: p_LC2saNjRn8AHVBESWoqV7j
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_qpYjs58xCf6rGyH3FU2c1P
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_V5opZ539izGOm6RETIsOGM
+          claim_id: c_3FuAQ4Ozm9QskgGd5wHHOA
+          source_id: s_43T8pGhp4N4JPDUnjVb9tq
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Kaiyuan74：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_43T8pGhp4N4JPDUnjVb9tq
+            source_type: api_record
+            title: 中国历代人物传记资料库：王師順（CBDB 163970）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=163970&o=json
+            external_identifier: CBDB:163970
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.962Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_LC2saNjRn8AHVBESWoqV7j
+        status: active
+        display_name: 王師順
+        merged_into_person_id: null
   children:
     - claim:
         id: c_AlWF6cZleKexBeCc5ZWpBn
@@ -192,9 +229,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_LC2saNjRn8AHVBESWoqV7j | 王師順 | accepted |
 | children | p_iayukSb6DC2UXHDGUyskLZ | 王澹 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王澹（CBDB 163971）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=163971&o=json)
+- [中国历代人物传记资料库：王師順（CBDB 163970）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=163970&o=json)
 - [中国历代人物传记资料库：王嵩（CBDB 142903）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=142903&o=json)

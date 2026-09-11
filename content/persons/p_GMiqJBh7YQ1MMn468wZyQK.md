@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王曰然
 cbdb_id: 203455
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -172,6 +172,43 @@ relationships:
         status: active
         display_name: 王素
         merged_into_person_id: null
+    - claim:
+        id: c_QZ1uiMegllTNNYNnEOgaNG
+        subject_person_id: p_KPFBCEe2VZqm2XvkaL2TBy
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_GMiqJBh7YQ1MMn468wZyQK
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XRiJVsSDPTgjeyzl7ba80-
+          claim_id: c_QZ1uiMegllTNNYNnEOgaNG
+          source_id: s_HGT47b54oms6QfD2hw3Gzk
+          stance: supports
+          locator: 嘉靖二十年進士登科錄:一卷，第三甲第一百七十八名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_HGT47b54oms6QfD2hw3Gzk
+            source_type: api_record
+            title: 中国历代人物传记资料库：王卿（CBDB 304955）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=304955&o=json
+            external_identifier: CBDB:304955
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.737Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_KPFBCEe2VZqm2XvkaL2TBy
+        status: active
+        display_name: 王卿
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -193,8 +230,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_dG6mQ8rDUmkm3T8g7DgPnD | 王素 | accepted |
+| ancestors | p_KPFBCEe2VZqm2XvkaL2TBy | 王卿 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王卿（CBDB 304955）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=304955&o=json)
 - [中国历代人物传记资料库：王素（CBDB 304954）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=304954&o=json)
 - [中国历代人物传记资料库：王曰然（CBDB 203455）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203455&o=json)

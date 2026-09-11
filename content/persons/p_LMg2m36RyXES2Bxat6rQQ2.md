@@ -4,7 +4,7 @@ id: p_LMg2m36RyXES2Bxat6rQQ2
 status: active
 merged_into: null
 display_name: 王勛
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_Ewn0f7H0bNF6AKRqCEaKiw
+        subject_person_id: p_LMg2m36RyXES2Bxat6rQQ2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_HgcYnzEt3BLPFrXjEUGzEm
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_t9UaCXaJaTmj1YgVoNBE3L
+          claim_id: c_Ewn0f7H0bNF6AKRqCEaKiw
+          source_id: s_3xZh4dDATnFFcmFeRS9Z4f
+          stance: supports
+          locator: 成化二年進士登科錄:一卷，第二甲第二十六名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_HgcYnzEt3BLPFrXjEUGzEm
+        status: active
+        display_name: 王玶
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_HgcYnzEt3BLPFrXjEUGzEm | 王玶 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_AE4b51U9z9cpW2aYdtPM5T
 status: active
 merged_into: null
 display_name: 王樂善
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_1_UO7gOZN66Om3mcr_FCnq
+        subject_person_id: p_L8cioMSraSBrsuPGsxpQwA
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_AE4b51U9z9cpW2aYdtPM5T
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Aqwnnep7WuTQgRR0RlNwCs
+          claim_id: c_1_UO7gOZN66Om3mcr_FCnq
+          source_id: s_YwUU99vwfQ3HNx7DJPsdSF
+          stance: supports
+          locator: 萬曆二十年壬辰科進士歷履便覽:一卷，第三甲第九名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_YwUU99vwfQ3HNx7DJPsdSF
+            source_type: api_record
+            title: 中国历代人物传记资料库：王遴（CBDB 231786）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231786&o=json
+            external_identifier: CBDB:231786
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.658Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_L8cioMSraSBrsuPGsxpQwA
+        status: active
+        display_name: 王遴
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -163,9 +200,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_L8cioMSraSBrsuPGsxpQwA | 王遴 | accepted |
 | ancestors | p_9EpZ8G45F5jQ6J4EG2sJKP | 王宗義 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王樂善（CBDB 207370）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207370&o=json)
+- [中国历代人物传记资料库：王遴（CBDB 231786）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231786&o=json)
 - [中国历代人物传记资料库：王宗義（CBDB 231785）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231785&o=json)

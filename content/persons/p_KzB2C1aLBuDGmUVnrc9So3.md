@@ -4,7 +4,7 @@ id: p_KzB2C1aLBuDGmUVnrc9So3
 status: active
 merged_into: null
 display_name: 王珪
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -128,12 +128,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_W4c3PUGTp0N-oifDQReK-B
+        subject_person_id: p_qtbxt55gw7F1hTWtEuCisP
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_KzB2C1aLBuDGmUVnrc9So3
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zI80h0k7-q0gnJau-wFUHp
+          claim_id: c_W4c3PUGTp0N-oifDQReK-B
+          source_id: s_FNLuB5DJx6UNnRbHaEHKpA
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，833;836：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_qtbxt55gw7F1hTWtEuCisP
+        status: active
+        display_name: 王準
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_vtiUXRLTVfBWNOFR1Nqxvu
+        subject_person_id: p_PNfmbNyKR2auC4aeL1AuSM
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_KzB2C1aLBuDGmUVnrc9So3
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_axQskM6V53IhT6gHYPf8Ff
+          claim_id: c_vtiUXRLTVfBWNOFR1Nqxvu
+          source_id: s_FNLuB5DJx6UNnRbHaEHKpA
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，579：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_PNfmbNyKR2auC4aeL1AuSM
+        status: active
+        display_name: 王永
+        merged_into_person_id: null
+    - claim:
+        id: c_VJvR67JW1O8oaqR1Qo6b_h
+        subject_person_id: p_QZHN7XBFLhdEfKGuEPQEhp
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_KzB2C1aLBuDGmUVnrc9So3
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0Sbohii06Ep3i4o91u53UL
+          claim_id: c_VJvR67JW1O8oaqR1Qo6b_h
+          source_id: s_FNLuB5DJx6UNnRbHaEHKpA
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，833;834：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_QZHN7XBFLhdEfKGuEPQEhp
+        status: active
+        display_name: 王贄
+        merged_into_person_id: null
   descendants:
     - claim:
         id: c_8kvzEjBOxVn4veEnieLoS0
@@ -192,6 +270,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_qtbxt55gw7F1hTWtEuCisP | 王準 | accepted |
+| ancestors | p_PNfmbNyKR2auC4aeL1AuSM | 王永 | accepted |
+| ancestors | p_QZHN7XBFLhdEfKGuEPQEhp | 王贄 | accepted |
 | descendants | p_4cye1JFWBJQv2VQjyoi17i | 王㬇 | accepted |
 
 ## 外部来源

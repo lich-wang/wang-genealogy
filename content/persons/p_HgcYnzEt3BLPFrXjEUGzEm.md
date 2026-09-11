@@ -4,7 +4,7 @@ id: p_HgcYnzEt3BLPFrXjEUGzEm
 status: active
 merged_into: null
 display_name: 王玶
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_Ewn0f7H0bNF6AKRqCEaKiw
+        subject_person_id: p_LMg2m36RyXES2Bxat6rQQ2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_HgcYnzEt3BLPFrXjEUGzEm
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_t9UaCXaJaTmj1YgVoNBE3L
+          claim_id: c_Ewn0f7H0bNF6AKRqCEaKiw
+          source_id: s_3xZh4dDATnFFcmFeRS9Z4f
+          stance: supports
+          locator: 成化二年進士登科錄:一卷，第二甲第二十六名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_3xZh4dDATnFFcmFeRS9Z4f
+            source_type: api_record
+            title: 中国历代人物传记资料库：王勛（CBDB 221894）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221894&o=json
+            external_identifier: CBDB:221894
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.349Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_LMg2m36RyXES2Bxat6rQQ2
+        status: active
+        display_name: 王勛
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -200,6 +237,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_LMg2m36RyXES2Bxat6rQQ2 | 王勛 | accepted |
 | ancestors | p_29R4vA9uRF259ojqPZ9p7K | 王成 | accepted |
 | ancestors | p_3juG8zad23EGDynEbaqSWE | 王福順 | accepted |
 
@@ -208,3 +246,4 @@ relationships:
 - [中国历代人物传记资料库：王成（CBDB 221871）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221871&o=json)
 - [中国历代人物传记资料库：王福順（CBDB 221883）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221883&o=json)
 - [中国历代人物传记资料库：王玶（CBDB 199032）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=199032&o=json)
+- [中国历代人物传记资料库：王勛（CBDB 221894）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221894&o=json)

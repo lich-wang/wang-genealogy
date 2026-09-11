@@ -4,7 +4,7 @@ id: p_LC2saNjRn8AHVBESWoqV7j
 status: active
 merged_into: null
 display_name: 王師順
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_3FuAQ4Ozm9QskgGd5wHHOA
+        subject_person_id: p_LC2saNjRn8AHVBESWoqV7j
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_qpYjs58xCf6rGyH3FU2c1P
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_V5opZ539izGOm6RETIsOGM
+          claim_id: c_3FuAQ4Ozm9QskgGd5wHHOA
+          source_id: s_43T8pGhp4N4JPDUnjVb9tq
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Kaiyuan74：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_qpYjs58xCf6rGyH3FU2c1P
+        status: active
+        display_name: 王嵩
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_qpYjs58xCf6rGyH3FU2c1P | 王嵩 | accepted |
 
 ## 外部来源
 

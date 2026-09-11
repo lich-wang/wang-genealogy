@@ -4,7 +4,7 @@ id: p_Lag4sfewwEYeWDkfJpeQ26
 status: active
 merged_into: null
 display_name: 王廷槐
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_6Fj16txCxsSC3q40Nknmn1
+        subject_person_id: p_Lag4sfewwEYeWDkfJpeQ26
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_sgFwSYG2RsvjHFjEuyLwo4
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_heYntW0MOmQEaqIn8KbAhE
+          claim_id: c_6Fj16txCxsSC3q40Nknmn1
+          source_id: s_m4J6mUCHHiniUJRgqG5mS4
+          stance: supports
+          locator: (道光)徽州府志:十六卷卷首一卷，lgid=1160984：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_sgFwSYG2RsvjHFjEuyLwo4
+        status: active
+        display_name: 王煜文
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -153,6 +179,32 @@ relationships:
         status: active
         display_name: 王應科
         merged_into_person_id: null
+    - claim:
+        id: c_e54OEEwl_9HObLbttdH8JB
+        subject_person_id: p_Lag4sfewwEYeWDkfJpeQ26
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_MeL4Zz5JgqsPqBgfGWaL7k
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1SuDBwwYqowQHlGl2dr_Rx
+          claim_id: c_e54OEEwl_9HObLbttdH8JB
+          source_id: s_m4J6mUCHHiniUJRgqG5mS4
+          stance: supports
+          locator: (道光)徽州府志:十六卷卷首一卷，lgid=1160984：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_MeL4Zz5JgqsPqBgfGWaL7k
+        status: active
+        display_name: 王應瑜
+        merged_into_person_id: null
   other: []
 ---
 
@@ -171,8 +223,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_sgFwSYG2RsvjHFjEuyLwo4 | 王煜文 | accepted |
 | descendants | p_8uNUQvi293HuAyjPDSunag | 王應超 | accepted |
 | descendants | p_eab83fhKiYdmkqRbFKa9Kk | 王應科 | accepted |
+| descendants | p_MeL4Zz5JgqsPqBgfGWaL7k | 王應瑜 | accepted |
 
 ## 外部来源
 

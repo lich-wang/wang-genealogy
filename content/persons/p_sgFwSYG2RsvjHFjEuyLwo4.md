@@ -4,7 +4,7 @@ id: p_sgFwSYG2RsvjHFjEuyLwo4
 status: active
 merged_into: null
 display_name: 王煜文
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_6Fj16txCxsSC3q40Nknmn1
+        subject_person_id: p_Lag4sfewwEYeWDkfJpeQ26
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_sgFwSYG2RsvjHFjEuyLwo4
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_heYntW0MOmQEaqIn8KbAhE
+          claim_id: c_6Fj16txCxsSC3q40Nknmn1
+          source_id: s_m4J6mUCHHiniUJRgqG5mS4
+          stance: supports
+          locator: (道光)徽州府志:十六卷卷首一卷，lgid=1160984：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_m4J6mUCHHiniUJRgqG5mS4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王廷槐（CBDB 703784）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=703784&o=json
+            external_identifier: CBDB:703784
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:27.830Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Lag4sfewwEYeWDkfJpeQ26
+        status: active
+        display_name: 王廷槐
+        merged_into_person_id: null
   children:
     - claim:
         id: c_ynVz7gj2LxAtxFW1_IgStV
@@ -171,11 +208,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Lag4sfewwEYeWDkfJpeQ26 | 王廷槐 | accepted |
 | children | p_8uNUQvi293HuAyjPDSunag | 王應超 | accepted |
 | children | p_eab83fhKiYdmkqRbFKa9Kk | 王應科 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王廷槐（CBDB 703784）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=703784&o=json)
 - [中国历代人物传记资料库：王應超（CBDB 551389）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=551389&o=json)
 - [中国历代人物传记资料库：王應科（CBDB 551388）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=551388&o=json)
 - [中国历代人物传记资料库：王煜文（CBDB 551386）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=551386&o=json)

@@ -4,7 +4,7 @@ id: p_KQX7wZ6kGeHGXVBXr7RepL
 status: active
 merged_into: null
 display_name: 王國寧
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_Q_UgkJr40FJ9RwfCnsd2B8
+        subject_person_id: p_KQX7wZ6kGeHGXVBXr7RepL
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Hs5dTewocAZFYmsQxmyBFY
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ivJrT3fzYVnkH-KGJXqz9l
+          claim_id: c_Q_UgkJr40FJ9RwfCnsd2B8
+          source_id: s_kUVE4BP4DZUmzxjQje8RBQ
+          stance: supports
+          locator: 嘉靖八年進士登科錄:一卷，第三甲第三十七名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Hs5dTewocAZFYmsQxmyBFY
+        status: active
+        display_name: 王紳
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_Hs5dTewocAZFYmsQxmyBFY | 王紳 | accepted |
 
 ## 外部来源
 

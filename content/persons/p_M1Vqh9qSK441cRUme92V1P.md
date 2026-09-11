@@ -4,7 +4,7 @@ id: p_M1Vqh9qSK441cRUme92V1P
 status: active
 merged_into: null
 display_name: 王宗賢
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_sLfIThaSVDTm0ROG7z0w2W
+        subject_person_id: p_peuBtCBGiGHrwbTwEdkk4p
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_M1Vqh9qSK441cRUme92V1P
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JOgULWM2EjMQUlJxgBx6dI
+          claim_id: c_sLfIThaSVDTm0ROG7z0w2W
+          source_id: s_KGADDmCCKinrEPsqPiphZg
+          stance: supports
+          locator: 錢塘縣志，lgid=219756：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_peuBtCBGiGHrwbTwEdkk4p
+        status: active
+        display_name: 王羽
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_peuBtCBGiGHrwbTwEdkk4p | 王羽 | accepted |
 
 ## 外部来源
 

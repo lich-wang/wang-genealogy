@@ -4,7 +4,7 @@ id: p_KTRKwGZTDUtCLsHg2UN1UQ
 status: active
 merged_into: null
 display_name: 王濟
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,8 +128,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_f6pRaV-yfXCtWGoy2nc2aO
+        subject_person_id: p_hpEQRWT5BuCAx5iC3W6giV
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_KTRKwGZTDUtCLsHg2UN1UQ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1yV_ci_QkkGRKIRXRqZ99Z
+          claim_id: c_f6pRaV-yfXCtWGoy2nc2aO
+          source_id: s_865jquG6CMC31DLxX5Bfck
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_hpEQRWT5BuCAx5iC3W6giV
+        status: active
+        display_name: 王陵
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_Xd2p5AtrlmHZKdZcaa6yTS
+        subject_person_id: p_KTRKwGZTDUtCLsHg2UN1UQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_7Hgmv7THVpCQKAF6SoQGEt
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_sTEYbXTVlvTkLVfb29mXeY
+          claim_id: c_Xd2p5AtrlmHZKdZcaa6yTS
+          source_id: s_865jquG6CMC31DLxX5Bfck
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_7Hgmv7THVpCQKAF6SoQGEt
+        status: active
+        display_name: 王師積
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +207,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_hpEQRWT5BuCAx5iC3W6giV | 王陵 | accepted |
+| children | p_7Hgmv7THVpCQKAF6SoQGEt | 王師積 | accepted |
 
 ## 外部来源
 

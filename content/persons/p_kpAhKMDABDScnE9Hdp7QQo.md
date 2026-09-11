@@ -4,7 +4,7 @@ id: p_kpAhKMDABDScnE9Hdp7QQo
 status: active
 merged_into: null
 display_name: 王閔
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,8 +100,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_v_K7f2Eo59rd3x4G1RjUl1
+        subject_person_id: p_Jf3AG2N7vYGGBjxzwfx4CR
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_kpAhKMDABDScnE9Hdp7QQo
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ifryZdoNsS-yV1BidAZyI5
+          claim_id: c_v_K7f2Eo59rd3x4G1RjUl1
+          source_id: s_Z6YTMbHKMqB4ihYyqChUmE
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Jf3AG2N7vYGGBjxzwfx4CR
+        status: active
+        display_name: 王珌
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_9o9KWq-5rwJ-sRVwSocrCt
+        subject_person_id: p_kpAhKMDABDScnE9Hdp7QQo
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_QWBaJrFaK6czZu1tA48fxf
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZN_ohoHlpVgoAD1Q7vGAsH
+          claim_id: c_9o9KWq-5rwJ-sRVwSocrCt
+          source_id: s_Z6YTMbHKMqB4ihYyqChUmE
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_QWBaJrFaK6czZu1tA48fxf
+        status: active
+        display_name: 王思泰
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,6 +178,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Jf3AG2N7vYGGBjxzwfx4CR | 王珌 | accepted |
+| children | p_QWBaJrFaK6czZu1tA48fxf | 王思泰 | accepted |
 
 ## 外部来源
 

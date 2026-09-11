@@ -4,7 +4,7 @@ id: p_AgJDhHZcAwqHqWHrXqpG4R
 status: active
 merged_into: null
 display_name: 王自立
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -138,7 +138,44 @@ relationships:
         status: active
         display_name: 王察
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_os8CfK2LYAkJDT-66d6xNq
+        subject_person_id: p_AgJDhHZcAwqHqWHrXqpG4R
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_KXeybJ73LDv1DLLTr6v2Ev
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vplJVSsPTvzqL9Wn7XgW5w
+          claim_id: c_os8CfK2LYAkJDT-66d6xNq
+          source_id: s_Rg6P3qTXSH7GMSGxrhF1Hx
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Rg6P3qTXSH7GMSGxrhF1Hx
+            source_type: api_record
+            title: 中国历代人物传记资料库：王徽（CBDB 175954）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175954&o=json
+            external_identifier: CBDB:175954
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.217Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_KXeybJ73LDv1DLLTr6v2Ev
+        status: active
+        display_name: 王徽
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_9GLd9Perr5iNSkDQLQhB21 | 王察 | accepted |
+| children | p_KXeybJ73LDv1DLLTr6v2Ev | 王徽 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王察（CBDB 175952）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175952&o=json)
+- [中国历代人物传记资料库：王徽（CBDB 175954）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175954&o=json)
 - [中国历代人物传记资料库：王自立（CBDB 175953）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175953&o=json)

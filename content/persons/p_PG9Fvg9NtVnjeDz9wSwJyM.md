@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王僧辩
 cbdb_id: 164581
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -197,6 +197,43 @@ relationships:
         status: active
         display_name: 王𫖮
         merged_into_person_id: null
+    - claim:
+        id: c_xsSXM_sWYb3h1NlIaW6UQ6
+        subject_person_id: p_PG9Fvg9NtVnjeDz9wSwJyM
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_LP6J8fKwPV6Sr55i5heTqV
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HCJ_zaHrzFVvco38lHCfJb
+          claim_id: c_xsSXM_sWYb3h1NlIaW6UQ6
+          source_id: s_4wgxuJ5TaoSYC5EtC5Kjsr
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_4wgxuJ5TaoSYC5EtC5Kjsr
+            source_type: api_record
+            title: 中国历代人物传记资料库：王頍（CBDB 175862）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175862&o=json
+            external_identifier: CBDB:175862
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.167Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_LP6J8fKwPV6Sr55i5heTqV
+        status: active
+        display_name: 王頍
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -223,9 +260,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_HSq6viRBnzj6LqF76CNxvY | 王𫖮 | accepted |
+| children | p_LP6J8fKwPV6Sr55i5heTqV | 王頍 | accepted |
 
 ## 外部来源
 
 - [维基数据：王僧辩（Q699672）](https://www.wikidata.org/wiki/Q699672)
 - [维基数据：王𫖮（Q28413506）](https://www.wikidata.org/wiki/Q28413506)
+- [中国历代人物传记资料库：王頍（CBDB 175862）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175862&o=json)
 - [CBDB 中国历代人物传记资料库：王僧辯（164581）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=164581&o=json)

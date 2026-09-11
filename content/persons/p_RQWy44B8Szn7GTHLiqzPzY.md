@@ -4,7 +4,7 @@ id: p_RQWy44B8Szn7GTHLiqzPzY
 status: active
 merged_into: null
 display_name: 王自勉
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -138,7 +138,44 @@ relationships:
         status: active
         display_name: 王憲
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_4RBsiZvzJ4ah-MspXyCyWj
+        subject_person_id: p_RQWy44B8Szn7GTHLiqzPzY
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_KXZZnftCABaWNZNVtNAtC7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_StxOkaAHEgSe1iyBfHYMXW
+          claim_id: c_4RBsiZvzJ4ah-MspXyCyWj
+          source_id: s_i5ReFgZdXpKygCGUWje8tf
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_i5ReFgZdXpKygCGUWje8tf
+            source_type: api_record
+            title: 中国历代人物传记资料库：王綬（CBDB 144927）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=144927&o=json
+            external_identifier: CBDB:144927
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.641Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_KXZZnftCABaWNZNVtNAtC7
+        status: active
+        display_name: 王綬
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_DNoFqs5WRDmQfihCwCiECy | 王憲 | accepted |
+| children | p_KXZZnftCABaWNZNVtNAtC7 | 王綬 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王綬（CBDB 144927）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=144927&o=json)
 - [中国历代人物传记资料库：王憲（CBDB 191817）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191817&o=json)
 - [中国历代人物传记资料库：王自勉（CBDB 191818）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191818&o=json)

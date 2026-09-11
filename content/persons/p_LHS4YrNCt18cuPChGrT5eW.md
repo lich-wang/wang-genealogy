@@ -4,7 +4,7 @@ id: p_LHS4YrNCt18cuPChGrT5eW
 status: active
 merged_into: null
 display_name: 王傅
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_rBlRcq4bHtO_LQYzi-gVTR
+        subject_person_id: p_LHS4YrNCt18cuPChGrT5eW
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_ghyYDQ5eZ8uxN8ip6BX7KC
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_nNDhOOiu2BPr8Oz0o8CnmT
+          claim_id: c_rBlRcq4bHtO_LQYzi-gVTR
+          source_id: s_7LvCG86ZXuUqfDrvPTBPBA
+          stance: supports
+          locator: 嘉靖四十一年進士登科錄:一卷，第三甲第六十六名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_ghyYDQ5eZ8uxN8ip6BX7KC
+        status: active
+        display_name: 王原相
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_ghyYDQ5eZ8uxN8ip6BX7KC | 王原相 | accepted |
 
 ## 外部来源
 

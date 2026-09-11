@@ -4,7 +4,7 @@ id: p_oDCtFv3cf2CiUbXVcBy9FF
 status: active
 merged_into: null
 display_name: 王廷榦
-revision: 6
+revision: 7
 properties:
   - predicate: name.primary
     recommended:
@@ -329,6 +329,43 @@ relationships:
         status: active
         display_name: 王時陞
         merged_into_person_id: null
+    - claim:
+        id: c_GDscPLf3i0HIMBzEmG8XTH
+        subject_person_id: p_oDCtFv3cf2CiUbXVcBy9FF
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_ktsnU8FTeioQRpsJfaLUo1
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BMbOwqfjH2DqBrAilP_lA0
+          claim_id: c_GDscPLf3i0HIMBzEmG8XTH
+          source_id: s_H3s4HvGKR6qTkkbYs9xDwf
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第六名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_H3s4HvGKR6qTkkbYs9xDwf
+            source_type: api_record
+            title: 中国历代人物传记资料库：王允亨（CBDB 291912）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291912&o=json
+            external_identifier: CBDB:291912
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.382Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ktsnU8FTeioQRpsJfaLUo1
+        status: active
+        display_name: 王允亨
+        merged_into_person_id: null
   other: []
 ---
 
@@ -354,6 +391,7 @@ relationships:
 | ancestors | p_2hBKyxrN1dj7d5F4o4qUat | 王達 | accepted |
 | descendants | p_2pEjUDgmg6ACaWkcArzGmB | 王允元 | accepted |
 | descendants | p_fagWpUqsWGi5ABdQASKVK9 | 王時陞 | accepted |
+| descendants | p_ktsnU8FTeioQRpsJfaLUo1 | 王允亨 | accepted |
 
 ## 外部来源
 
@@ -363,4 +401,5 @@ relationships:
 - [中国历代人物传记资料库：王廷榦（CBDB 126553）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126553&o=json)
 - [中国历代人物传记资料库：王文爟（CBDB 291900）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291900&o=json)
 - [中国历代人物传记资料库：王文炯（CBDB 291898）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291898&o=json)
+- [中国历代人物传记资料库：王允亨（CBDB 291912）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291912&o=json)
 - [中国历代人物传记资料库：王允元（CBDB 291911）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291911&o=json)

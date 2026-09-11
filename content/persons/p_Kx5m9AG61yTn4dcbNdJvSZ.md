@@ -4,7 +4,7 @@ id: p_Kx5m9AG61yTn4dcbNdJvSZ
 status: active
 merged_into: null
 display_name: 王淇
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_GijHQFW4Ej2W1De6LsNfeu
+        subject_person_id: p_Kx5m9AG61yTn4dcbNdJvSZ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_4A86HEw8MTfsRuaTJeDAXg
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vEIDuPobnB-B0pMAGrHak6
+          claim_id: c_GijHQFW4Ej2W1De6LsNfeu
+          source_id: s_S4WnZn7C47M9YtfDY7XrZN
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第三甲第一百六十九名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_4A86HEw8MTfsRuaTJeDAXg
+        status: active
+        display_name: 王如堅
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_4A86HEw8MTfsRuaTJeDAXg | 王如堅 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_PQQ9B9zPBAjRcHDw7hpDP7
 status: active
 merged_into: null
 display_name: 王述
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_sypTDLRLiNu5GVjIgAfjHB
+        subject_person_id: p_KvaDyJMUHzeGStoEsTh4se
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_PQQ9B9zPBAjRcHDw7hpDP7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_UHO9uKc2hGws2FAz3WrftW
+          claim_id: c_sypTDLRLiNu5GVjIgAfjHB
+          source_id: s_yykPmVJb5Wn59M9QG2gpGt
+          stance: supports
+          locator: 宋史：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_yykPmVJb5Wn59M9QG2gpGt
+            source_type: api_record
+            title: 中国历代人物传记资料库：王倫（CBDB 8178）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=8178&o=json
+            external_identifier: CBDB:8178
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.505Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_KvaDyJMUHzeGStoEsTh4se
+        status: active
+        display_name: 王倫
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_KvaDyJMUHzeGStoEsTh4se | 王倫 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王倫（CBDB 8178）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=8178&o=json)
 - [中国历代人物传记资料库：王述（CBDB 3974）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3974&o=json)

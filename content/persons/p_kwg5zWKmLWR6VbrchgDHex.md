@@ -4,7 +4,7 @@ id: p_kwg5zWKmLWR6VbrchgDHex
 status: active
 merged_into: null
 display_name: 王某一
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_DAXZ3IMVOjhr6taCC5lFOB
+        subject_person_id: p_VVq2QXjwyDiH7HZkNB6aQ3
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_kwg5zWKmLWR6VbrchgDHex
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_aZWm5d3UjLDDHwQoxHG1Hd
+          claim_id: c_DAXZ3IMVOjhr6taCC5lFOB
+          source_id: s_EeqfFa3w2JJac9hfWimPJa
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_VVq2QXjwyDiH7HZkNB6aQ3
+        status: active
+        display_name: 王隆
+        merged_into_person_id: null
   children:
     - claim:
         id: c_qFrBlmYmj_MZCQkJbuedmi
@@ -163,6 +189,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_VVq2QXjwyDiH7HZkNB6aQ3 | 王隆 | accepted |
 | children | p_jc5D9i8KRjZhAgCusMCLC8 | 王暠 | accepted |
 
 ## 外部来源

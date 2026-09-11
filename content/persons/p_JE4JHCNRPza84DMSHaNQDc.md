@@ -4,7 +4,7 @@ id: p_JE4JHCNRPza84DMSHaNQDc
 status: active
 merged_into: null
 display_name: 王嵩
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -142,7 +142,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_FCsYduXaQ1yVU3Re_ccvfD
+        subject_person_id: p_L4bncYLfZTp19AtRJHjH13
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_JE4JHCNRPza84DMSHaNQDc
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_N3VFrWTormuyD2nMaJGSNt
+          claim_id: c_FCsYduXaQ1yVU3Re_ccvfD
+          source_id: s_Aci8PFcnokMqSSgYqM1DCK
+          stance: supports
+          locator: 嘉靖二十年進士登科錄:一卷，第三甲第一百二十四名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Aci8PFcnokMqSSgYqM1DCK
+            source_type: api_record
+            title: 中国历代人物传记资料库：王諶（CBDB 297076）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297076&o=json
+            external_identifier: CBDB:297076
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.543Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_L4bncYLfZTp19AtRJHjH13
+        status: active
+        display_name: 王諶
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_GwTmgLY74DWW5r4UnQF1Tu | 王椿 | accepted |
+| ancestors | p_L4bncYLfZTp19AtRJHjH13 | 王諶 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王諶（CBDB 297076）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297076&o=json)
 - [中国历代人物传记资料库：王椿（CBDB 297078）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297078&o=json)
 - [中国历代人物传记资料库：王嵩（CBDB 203412）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203412&o=json)

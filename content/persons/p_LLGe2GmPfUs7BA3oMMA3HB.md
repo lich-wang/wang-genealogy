@@ -4,7 +4,7 @@ id: p_LLGe2GmPfUs7BA3oMMA3HB
 status: active
 merged_into: null
 display_name: 王學夔
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -129,7 +129,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_Vk0aOYDm-MEeGEUoW4lrVw
+        subject_person_id: p_LLGe2GmPfUs7BA3oMMA3HB
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_aJDexRGkPXrzYASBxKx99M
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0QOZbTLORmhohlnR8As2Bw
+          claim_id: c_Vk0aOYDm-MEeGEUoW4lrVw
+          source_id: s_i47QWNYELrmp7NsSP8yrhj
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），12018：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_aJDexRGkPXrzYASBxKx99M
+        status: active
+        display_name: 王世初
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +181,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_aJDexRGkPXrzYASBxKx99M | 王世初 | accepted |
 
 ## 外部来源
 

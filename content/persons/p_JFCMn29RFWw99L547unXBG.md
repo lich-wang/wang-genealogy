@@ -4,7 +4,7 @@ id: p_JFCMn29RFWw99L547unXBG
 status: active
 merged_into: null
 display_name: 王養浩
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_Z6iDnmlJ-1Wc7qyqGln0AU
+        subject_person_id: p_L25AA1dbPLFD1pLw6NiMqz
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_JFCMn29RFWw99L547unXBG
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WX8OvyeWBvT3riYNhuoXtl
+          claim_id: c_Z6iDnmlJ-1Wc7qyqGln0AU
+          source_id: s_i1uZY6NhK22gAokU3QjXqb
+          stance: supports
+          locator: 嘉靖二十年進士登科錄:一卷，第三甲第二名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_i1uZY6NhK22gAokU3QjXqb
+            source_type: api_record
+            title: 中国历代人物传记资料库：王璠（CBDB 287959）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287959&o=json
+            external_identifier: CBDB:287959
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.278Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_L25AA1dbPLFD1pLw6NiMqz
+        status: active
+        display_name: 王璠
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -200,11 +237,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_L25AA1dbPLFD1pLw6NiMqz | 王璠 | accepted |
 | ancestors | p_8gmNnD67pPk4Jcgg1oaCvd | 王邑 | accepted |
 | ancestors | p_hEFhwUEzH2dB433RHJ2LCZ | 王進 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王璠（CBDB 287959）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287959&o=json)
 - [中国历代人物传记资料库：王進（CBDB 287957）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287957&o=json)
 - [中国历代人物传记资料库：王養浩（CBDB 203320）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203320&o=json)
 - [中国历代人物传记资料库：王邑（CBDB 287958）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287958&o=json)

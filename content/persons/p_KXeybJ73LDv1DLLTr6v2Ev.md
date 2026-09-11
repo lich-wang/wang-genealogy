@@ -4,7 +4,7 @@ id: p_KXeybJ73LDv1DLLTr6v2Ev
 status: active
 merged_into: null
 display_name: 王徽
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_os8CfK2LYAkJDT-66d6xNq
+        subject_person_id: p_AgJDhHZcAwqHqWHrXqpG4R
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_KXeybJ73LDv1DLLTr6v2Ev
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vplJVSsPTvzqL9Wn7XgW5w
+          claim_id: c_os8CfK2LYAkJDT-66d6xNq
+          source_id: s_Rg6P3qTXSH7GMSGxrhF1Hx
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_AgJDhHZcAwqHqWHrXqpG4R
+        status: active
+        display_name: 王自立
+        merged_into_person_id: null
   children:
     - claim:
         id: c_4hBLP5dra3pQd67mCMtAm8
@@ -139,6 +165,58 @@ relationships:
         status: active
         display_name: 王椿
         merged_into_person_id: null
+    - claim:
+        id: c_YhPA3Pcwk64MeShIYs0C75
+        subject_person_id: p_KXeybJ73LDv1DLLTr6v2Ev
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_wPaQp15xdrmRCDD85ySA1A
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vAPLrf0Je-81iD_fhYt9CX
+          claim_id: c_YhPA3Pcwk64MeShIYs0C75
+          source_id: s_Rg6P3qTXSH7GMSGxrhF1Hx
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_wPaQp15xdrmRCDD85ySA1A
+        status: active
+        display_name: 王樗
+        merged_into_person_id: null
+    - claim:
+        id: c_AfD3vFS-F04EYhh043C4WJ
+        subject_person_id: p_KXeybJ73LDv1DLLTr6v2Ev
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_MxfkYgB2QF4i2XgNUUKstw
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vZjP_p5gPQfTIuXKnmXxFM
+          claim_id: c_AfD3vFS-F04EYhh043C4WJ
+          source_id: s_Rg6P3qTXSH7GMSGxrhF1Hx
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_MxfkYgB2QF4i2XgNUUKstw
+        status: active
+        display_name: 王松
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -163,7 +241,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_AgJDhHZcAwqHqWHrXqpG4R | 王自立 | accepted |
 | children | p_ANYJu8tUABqJVbHGj5GUas | 王椿 | accepted |
+| children | p_wPaQp15xdrmRCDD85ySA1A | 王樗 | accepted |
+| children | p_MxfkYgB2QF4i2XgNUUKstw | 王松 | accepted |
 
 ## 外部来源
 

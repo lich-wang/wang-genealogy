@@ -4,7 +4,7 @@ id: p_LFu2y755pp4NNJLFkoYcBx
 status: active
 merged_into: null
 display_name: 王寶
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_Coo78k0WQ-JU4KxmofZqQ8
+        subject_person_id: p_LFu2y755pp4NNJLFkoYcBx
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Lurfy4QMHhzD8PMMpjSfCa
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cpLl73Vounk6heWeL8gsVY
+          claim_id: c_Coo78k0WQ-JU4KxmofZqQ8
+          source_id: s_4eN9gAChxmF3Pnp6sQmAFg
+          stance: supports
+          locator: 嘉靖三十二年進士登科錄:一卷，第三甲第一百二十四名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Lurfy4QMHhzD8PMMpjSfCa
+        status: active
+        display_name: 王宗會
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_Lurfy4QMHhzD8PMMpjSfCa | 王宗會 | accepted |
 
 ## 外部来源
 

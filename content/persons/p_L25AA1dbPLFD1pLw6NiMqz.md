@@ -4,7 +4,7 @@ id: p_L25AA1dbPLFD1pLw6NiMqz
 status: active
 merged_into: null
 display_name: 王璠
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,59 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_W4hbEssPjs64LhUZjkg7MP
+        subject_person_id: p_L25AA1dbPLFD1pLw6NiMqz
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_91mfo9pBnGu6yNqPS5SH4s
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_N11h--bLGKedzQiUeI-5WQ
+          claim_id: c_W4hbEssPjs64LhUZjkg7MP
+          source_id: s_i1uZY6NhK22gAokU3QjXqb
+          stance: supports
+          locator: 嘉靖八年進士登科錄:一卷，第二甲第六十名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_91mfo9pBnGu6yNqPS5SH4s
+        status: active
+        display_name: 王養正
+        merged_into_person_id: null
+    - claim:
+        id: c_Z6iDnmlJ-1Wc7qyqGln0AU
+        subject_person_id: p_L25AA1dbPLFD1pLw6NiMqz
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_JFCMn29RFWw99L547unXBG
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WX8OvyeWBvT3riYNhuoXtl
+          claim_id: c_Z6iDnmlJ-1Wc7qyqGln0AU
+          source_id: s_i1uZY6NhK22gAokU3QjXqb
+          stance: supports
+          locator: 嘉靖二十年進士登科錄:一卷，第三甲第二名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_JFCMn29RFWw99L547unXBG
+        status: active
+        display_name: 王養浩
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_91mfo9pBnGu6yNqPS5SH4s | 王養正 | accepted |
+| children | p_JFCMn29RFWw99L547unXBG | 王養浩 | accepted |
 
 ## 外部来源
 

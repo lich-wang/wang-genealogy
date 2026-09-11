@@ -4,7 +4,7 @@ id: p_T2aW2r8VNf284ord2Teaqx
 status: active
 merged_into: null
 display_name: 王國
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -115,6 +115,43 @@ relationships:
         status: active
         display_name: 王宗仁
         merged_into_person_id: null
+    - claim:
+        id: c_SwFbY_zv46WOL_yati0WUa
+        subject_person_id: p_LkKJK2kEArXGxvQn3KA1vQ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_T2aW2r8VNf284ord2Teaqx
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_M8Du-kWQX1Jr2-xe9CJqhg
+          claim_id: c_SwFbY_zv46WOL_yati0WUa
+          source_id: s_7RUJc6wJgzAYr9tf5bf15J
+          stance: supports
+          locator: 萬曆五年進士登科錄:一卷，第三甲第一百一十四名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_7RUJc6wJgzAYr9tf5bf15J
+            source_type: api_record
+            title: 中国历代人物传记资料库：王永寧（CBDB 228100）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=228100&o=json
+            external_identifier: CBDB:228100
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.550Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_LkKJK2kEArXGxvQn3KA1vQ
+        status: active
+        display_name: 王永寧
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -135,8 +172,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_aRgUR2bV5G8GcADRgTUTHB | 王宗仁 | accepted |
+| ancestors | p_LkKJK2kEArXGxvQn3KA1vQ | 王永寧 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王國（CBDB 126690）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126690&o=json)
+- [中国历代人物传记资料库：王永寧（CBDB 228100）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=228100&o=json)
 - [中国历代人物传记资料库：王宗仁（CBDB 228101）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=228101&o=json)

@@ -4,7 +4,7 @@ id: p_LSNaDLg8FcueQoQZaFebRW
 status: active
 merged_into: null
 display_name: 王玄
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,8 +128,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_2qoSdN0G3UD-1v3pMM_80X
+        subject_person_id: p_vrWR9soQCVR5MqQmmtCKU7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_LSNaDLg8FcueQoQZaFebRW
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GsxsEXxOauxI8t8K0QXp9Y
+          claim_id: c_2qoSdN0G3UD-1v3pMM_80X
+          source_id: s_FisE7AAYkKUkQpkyCKX9xg
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Xianheng 56：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_vrWR9soQCVR5MqQmmtCKU7
+        status: active
+        display_name: 王君德
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_cmoLr53-x7RYcQGbT9IT5H
+        subject_person_id: p_LSNaDLg8FcueQoQZaFebRW
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_U5XKJheya9AFpCv5NsWEe9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Xj7XwfvYuGUl4Lb4XF-D2O
+          claim_id: c_cmoLr53-x7RYcQGbT9IT5H
+          source_id: s_FisE7AAYkKUkQpkyCKX9xg
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Xianheng 56：嗣子(作為繼承人的兒子)
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_U5XKJheya9AFpCv5NsWEe9
+        status: active
+        display_name: 王阿八
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +207,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_vrWR9soQCVR5MqQmmtCKU7 | 王君德 | accepted |
+| children | p_U5XKJheya9AFpCv5NsWEe9 | 王阿八 | accepted |
 
 ## 外部来源
 

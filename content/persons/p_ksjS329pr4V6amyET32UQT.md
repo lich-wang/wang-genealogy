@@ -4,7 +4,7 @@ id: p_ksjS329pr4V6amyET32UQT
 status: active
 merged_into: null
 display_name: 王貴
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_VLg-aFC50pQDxnbYkkKQtz
+        subject_person_id: p_ksjS329pr4V6amyET32UQT
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_GBfHvW9j1wmH7AtQd6s7JQ
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zwhiHacvm18OlY5lc8wmQi
+          claim_id: c_VLg-aFC50pQDxnbYkkKQtz
+          source_id: s_N1h2byjUksBvBJgaQN9RXj
+          stance: supports
+          locator: 正德十六年登科錄:一卷，第二甲第一百零四名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_GBfHvW9j1wmH7AtQd6s7JQ
+        status: active
+        display_name: 王化
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_GBfHvW9j1wmH7AtQd6s7JQ | 王化 | accepted |
 
 ## 外部来源
 

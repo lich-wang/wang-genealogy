@@ -4,7 +4,7 @@ id: p_KUHUUuyG7febNqFiWGQsMx
 status: active
 merged_into: null
 display_name: 王之純
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,11 +73,63 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_B1z61A9nUKl2KZ2LkdXJ-I
+        subject_person_id: p_KUHUUuyG7febNqFiWGQsMx
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_RSyHLCzgNL6rMFbB6oghwV
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_roDaj9ji1WrSmc-ppIBb5f
+          claim_id: c_B1z61A9nUKl2KZ2LkdXJ-I
+          source_id: s_zD4HBKCDHsp3zrKHW9Ai2a
+          stance: supports
+          locator: 寶祐登科錄：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_RSyHLCzgNL6rMFbB6oghwV
+        status: active
+        display_name: 王朝佐
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_hR_K0ZDBQt5pthHBbgEVBF
+        subject_person_id: p_QMrrZs1vBrMJJUatsfDMdT
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_KUHUUuyG7febNqFiWGQsMx
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_q4YvnpUDNK1A3ZiqJOVqTQ
+          claim_id: c_hR_K0ZDBQt5pthHBbgEVBF
+          source_id: s_zD4HBKCDHsp3zrKHW9Ai2a
+          stance: supports
+          locator: 寶祐登科錄：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_QMrrZs1vBrMJJUatsfDMdT
+        status: active
+        display_name: 王珏
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_RSyHLCzgNL6rMFbB6oghwV | 王朝佐 | accepted |
+| ancestors | p_QMrrZs1vBrMJJUatsfDMdT | 王珏 | accepted |
 
 ## 外部来源
 

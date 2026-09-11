@@ -4,7 +4,7 @@ id: p_KvaDyJMUHzeGStoEsTh4se
 status: active
 merged_into: null
 display_name: 王倫
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -129,11 +129,63 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_sypTDLRLiNu5GVjIgAfjHB
+        subject_person_id: p_KvaDyJMUHzeGStoEsTh4se
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_PQQ9B9zPBAjRcHDw7hpDP7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_UHO9uKc2hGws2FAz3WrftW
+          claim_id: c_sypTDLRLiNu5GVjIgAfjHB
+          source_id: s_yykPmVJb5Wn59M9QG2gpGt
+          stance: supports
+          locator: 宋史：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_PQQ9B9zPBAjRcHDw7hpDP7
+        status: active
+        display_name: 王述
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_5D_VnqXpWgWDo2zk6qsEld
+        subject_person_id: p_vq4T7ckAWaTW61626HUaZp
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_KvaDyJMUHzeGStoEsTh4se
+        generation_count: 4
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_R_0eiTepQBqaxYY--DGXdw
+          claim_id: c_5D_VnqXpWgWDo2zk6qsEld
+          source_id: s_yykPmVJb5Wn59M9QG2gpGt
+          stance: supports
+          locator: 宋史：高祖;四世祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_vq4T7ckAWaTW61626HUaZp
+        status: active
+        display_name: 王勗
+        merged_into_person_id: null
   descendants:
     - claim:
         id: c_7-9o3aWkJV4cA6AFDqzz--
@@ -192,6 +244,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_PQQ9B9zPBAjRcHDw7hpDP7 | 王述 | accepted |
+| ancestors | p_vq4T7ckAWaTW61626HUaZp | 王勗 | accepted |
 | descendants | p_8M1jTHPpMjrLQ4UVRJ6rD5 | 王柟 | accepted |
 
 ## 外部来源

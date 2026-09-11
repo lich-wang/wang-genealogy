@@ -4,7 +4,7 @@ id: p_qCDtQiLmeEnX8dr3rpqXVC
 status: active
 merged_into: null
 display_name: 王頊
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -129,7 +129,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_0EjmrcsL2W3VUwhI7EQODp
+        subject_person_id: p_qCDtQiLmeEnX8dr3rpqXVC
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_LGBYNQjGQaN14MtDNRtQ2v
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_w3tvvU5mARlF5f9W9EW43s
+          claim_id: c_0EjmrcsL2W3VUwhI7EQODp
+          source_id: s_3pqLME6F23fDJyRf87RnFJ
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Huichang 17：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_3pqLME6F23fDJyRf87RnFJ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宗慶（CBDB 158637）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=158637&o=json
+            external_identifier: CBDB:158637
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.927Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_LGBYNQjGQaN14MtDNRtQ2v
+        status: active
+        display_name: 王宗慶
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -192,9 +229,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_LGBYNQjGQaN14MtDNRtQ2v | 王宗慶 | accepted |
 | ancestors | p_bLHviNSMqcWaXUj1iVBaiL | 王晉 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王晉（CBDB 158635）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=158635&o=json)
 - [中国历代人物传记资料库：王頊（CBDB 141803）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=141803&o=json)
+- [中国历代人物传记资料库：王宗慶（CBDB 158637）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=158637&o=json)

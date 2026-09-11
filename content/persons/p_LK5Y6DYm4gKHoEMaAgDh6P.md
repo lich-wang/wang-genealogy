@@ -4,7 +4,7 @@ id: p_LK5Y6DYm4gKHoEMaAgDh6P
 status: active
 merged_into: null
 display_name: 王原
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_DVSrI-9r3hOvnAiQPCvABp
+        subject_person_id: p_LK5Y6DYm4gKHoEMaAgDh6P
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_nF3Cd5KS3rMLe16oeKeJ6Q
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_q6clQWFgL8du6Rddb-YLZP
+          claim_id: c_DVSrI-9r3hOvnAiQPCvABp
+          source_id: s_R4Gncdq7WH9J3mPSh5Zi9C
+          stance: supports
+          locator: 萬曆八年進士登科錄:一卷，第三甲第二百三十四名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_nF3Cd5KS3rMLe16oeKeJ6Q
+        status: active
+        display_name: 王應霖
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_nF3Cd5KS3rMLe16oeKeJ6Q | 王應霖 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_ktsnU8FTeioQRpsJfaLUo1
 status: active
 merged_into: null
 display_name: 王允亨
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -77,7 +77,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_GDscPLf3i0HIMBzEmG8XTH
+        subject_person_id: p_oDCtFv3cf2CiUbXVcBy9FF
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_ktsnU8FTeioQRpsJfaLUo1
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BMbOwqfjH2DqBrAilP_lA0
+          claim_id: c_GDscPLf3i0HIMBzEmG8XTH
+          source_id: s_H3s4HvGKR6qTkkbYs9xDwf
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第六名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_oDCtFv3cf2CiUbXVcBy9FF
+        status: active
+        display_name: 王廷榦
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_oDCtFv3cf2CiUbXVcBy9FF | 王廷榦 | accepted |
 
 ## 外部来源
 

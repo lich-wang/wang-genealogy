@@ -4,7 +4,7 @@ id: p_SHuk9Lfw4VDtH93mbkHP9q
 status: active
 merged_into: null
 display_name: 王遴
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -170,7 +170,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_S_zewHZ94Ek8Gk1PXdbOVn
+        subject_person_id: p_Lrg8CA8FD1SKX5BH3RgFHu
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_SHuk9Lfw4VDtH93mbkHP9q
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_iKV4rNK4kp_oWXOe7IsgTX
+          claim_id: c_S_zewHZ94Ek8Gk1PXdbOVn
+          source_id: s_w2fwbha1mVo5mF9JEecFLa
+          stance: supports
+          locator: 嘉靖二十六年進士登科錄:一卷，第三甲第八十一名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_w2fwbha1mVo5mF9JEecFLa
+            source_type: api_record
+            title: 中国历代人物传记资料库：王聰（CBDB 310362）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=310362&o=json
+            external_identifier: CBDB:310362
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.840Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Lrg8CA8FD1SKX5BH3RgFHu
+        status: active
+        display_name: 王聰
+        merged_into_person_id: null
   descendants:
     - claim:
         id: c_vo5l_2EcjJAhReCy8ZUEoh
@@ -267,12 +304,14 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_BM46tZGN4EBcE7FUMvw1gL | 王宗義 | accepted |
+| ancestors | p_Lrg8CA8FD1SKX5BH3RgFHu | 王聰 | accepted |
 | descendants | p_2U3W4bGNNEsSzYgVqnfWvT | 王仲鑰 | accepted |
 | descendants | p_BV2Vrh1oBrA8Ayyc9NL2Ef | 王伯鏞 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王伯鏞（CBDB 528779）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=528779&o=json)
+- [中国历代人物传记资料库：王聰（CBDB 310362）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=310362&o=json)
 - [中国历代人物传记资料库：王遴（CBDB 124734）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=124734&o=json)
 - [中国历代人物传记资料库：王仲鑰（CBDB 528778）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=528778&o=json)
 - [中国历代人物传记资料库：王宗義（CBDB 310364）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=310364&o=json)

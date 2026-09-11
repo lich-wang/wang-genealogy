@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王審瓊
 cbdb_id: 689254
-revision: 6
+revision: 7
 properties:
   - predicate: bio.summary
     recommended:
@@ -321,6 +321,43 @@ relationships:
         status: active
         display_name: 王吳兒
         merged_into_person_id: null
+    - claim:
+        id: c_yYvnNgEwGb7EdnQzXjcp04
+        subject_person_id: p_s2Ci3S96sKz8q9W2YdX1pM
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_L9vz1h1VZQD3DMRUmJUjoq
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_iC349KUIMNiJ2Usr51gixg
+          claim_id: c_yYvnNgEwGb7EdnQzXjcp04
+          source_id: s_9rJ6oxjpqZZxD1DN8WysZ9
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，40/王審瓊墓誌：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_9rJ6oxjpqZZxD1DN8WysZ9
+            source_type: api_record
+            title: 中国历代人物传记资料库：王要羅（CBDB 689360）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=689360&o=json
+            external_identifier: CBDB:689360
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:06.474Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_L9vz1h1VZQD3DMRUmJUjoq
+        status: active
+        display_name: 王要羅
+        merged_into_person_id: null
   other: []
 ---
 
@@ -345,6 +382,7 @@ relationships:
 | descendants | p_5KFz2XTNmFB2Vb5p3SFsG7 | 王翁喜 | accepted |
 | descendants | p_9cVZtJ85CH1LJNFC1g9w8T | 王忙兒 | accepted |
 | descendants | p_H7uCq1o1tuQS9BRNvhphjr | 王吳兒 | accepted |
+| descendants | p_L9vz1h1VZQD3DMRUmJUjoq | 王要羅 | accepted |
 
 ## 外部来源
 
@@ -353,4 +391,5 @@ relationships:
 - [中国历代人物传记资料库：王守旻（CBDB 689326）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=689326&o=json)
 - [中国历代人物传记资料库：王翁喜（CBDB 689353）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=689353&o=json)
 - [中国历代人物传记资料库：王吳兒（CBDB 689333）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=689333&o=json)
+- [中国历代人物传记资料库：王要羅（CBDB 689360）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=689360&o=json)
 - [中国历代人物传记资料库：王知濬（CBDB 689300）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=689300&o=json)

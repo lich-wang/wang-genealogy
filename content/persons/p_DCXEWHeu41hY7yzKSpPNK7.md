@@ -4,7 +4,7 @@ id: p_DCXEWHeu41hY7yzKSpPNK7
 status: active
 merged_into: null
 display_name: 王斛
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,43 @@ relationships:
         status: active
         display_name: 王繼宗
         merged_into_person_id: null
+    - claim:
+        id: c_t14wa3IFGsDRnEX49K5t0D
+        subject_person_id: p_LLXLf3xsw1XcJX2YDi1mfd
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_DCXEWHeu41hY7yzKSpPNK7
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NTFGPF0XDtZYNKUK-8JPjM
+          claim_id: c_t14wa3IFGsDRnEX49K5t0D
+          source_id: s_Mn7XUeMZr7ZigP6kMPMQnr
+          stance: supports
+          locator: 嘉靖二十三年登科錄:一卷，第三甲第四十名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Mn7XUeMZr7ZigP6kMPMQnr
+            source_type: api_record
+            title: 中国历代人物传记资料库：王清（CBDB 306621）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306621&o=json
+            external_identifier: CBDB:306621
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.771Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_LLXLf3xsw1XcJX2YDi1mfd
+        status: active
+        display_name: 王清
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_asR7CUjP1iXKvRkyGBMSJF | 王教 | accepted |
 | ancestors | p_GiRXJTzMrTmS7SYHZYijNT | 王繼宗 | accepted |
+| ancestors | p_LLXLf3xsw1XcJX2YDi1mfd | 王清 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王斛（CBDB 203566）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203566&o=json)
 - [中国历代人物传记资料库：王繼宗（CBDB 306620）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306620&o=json)
 - [中国历代人物传记资料库：王教（CBDB 306622）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306622&o=json)
+- [中国历代人物传记资料库：王清（CBDB 306621）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306621&o=json)

@@ -4,7 +4,7 @@ id: p_gAAfv7JQBPfPSFmCq4BBah
 status: active
 merged_into: null
 display_name: 王天民
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,43 @@ relationships:
         status: active
         display_name: 王英
         merged_into_person_id: null
+    - claim:
+        id: c_JTLZnNlSgSCcsFA5MYMhp_
+        subject_person_id: p_LwbAH81xe9Q4cWwWWuz7Bf
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_gAAfv7JQBPfPSFmCq4BBah
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_iKkXbX45s5Kc_lHwP9MTTZ
+          claim_id: c_JTLZnNlSgSCcsFA5MYMhp_
+          source_id: s_sP5TaJvnbzxxynSKpmHJgm
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第三甲第一百七十三名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_sP5TaJvnbzxxynSKpmHJgm
+            source_type: api_record
+            title: 中国历代人物传记资料库：王友（CBDB 282422）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282422&o=json
+            external_identifier: CBDB:282422
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.083Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_LwbAH81xe9Q4cWwWWuz7Bf
+        status: active
+        display_name: 王友
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_CCMezUv4HjuKUC99JaW7qa | 王鉉 | accepted |
 | ancestors | p_dG1qVyR3CcDvrMD78uYNRN | 王英 | accepted |
+| ancestors | p_LwbAH81xe9Q4cWwWWuz7Bf | 王友 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王天民（CBDB 202040）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202040&o=json)
 - [中国历代人物传记资料库：王鉉（CBDB 282424）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282424&o=json)
 - [中国历代人物传记资料库：王英（CBDB 282423）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282423&o=json)
+- [中国历代人物传记资料库：王友（CBDB 282422）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282422&o=json)

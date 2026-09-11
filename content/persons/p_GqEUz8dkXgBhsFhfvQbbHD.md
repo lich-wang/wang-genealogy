@@ -4,7 +4,7 @@ id: p_GqEUz8dkXgBhsFhfvQbbHD
 status: active
 merged_into: null
 display_name: 王撝
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -176,6 +176,43 @@ relationships:
         status: active
         display_name: 王承慶
         merged_into_person_id: null
+    - claim:
+        id: c_SOVGvmUysefSYKasnybCfr
+        subject_person_id: p_GqEUz8dkXgBhsFhfvQbbHD
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_LZSR1jHjx1DnzqaZU3z9nj
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rSz-mu6qwFzmntUtDUMKoK
+          claim_id: c_SOVGvmUysefSYKasnybCfr
+          source_id: s_E85K4mqLgXohW96NGeaGpo
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_E85K4mqLgXohW96NGeaGpo
+            source_type: api_record
+            title: 中国历代人物传记资料库：王承先（CBDB 175683）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175683&o=json
+            external_identifier: CBDB:175683
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.055Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_LZSR1jHjx1DnzqaZU3z9nj
+        status: active
+        display_name: 王承先
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_Ee4jhwpKMUeV9pY9CQ4y7w | 王德本 | accepted |
 | children | p_6C3vbxXJxF39bFVKFJQkoP | 王承慶 | accepted |
+| children | p_LZSR1jHjx1DnzqaZU3z9nj | 王承先 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王承慶（CBDB 175682）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175682&o=json)
+- [中国历代人物传记资料库：王承先（CBDB 175683）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175683&o=json)
 - [中国历代人物传记资料库：王德本（CBDB 175680）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175680&o=json)
 - [中国历代人物传记资料库：王撝（CBDB 175681）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175681&o=json)

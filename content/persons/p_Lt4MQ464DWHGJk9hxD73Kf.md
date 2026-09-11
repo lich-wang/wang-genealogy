@@ -4,7 +4,7 @@ id: p_Lt4MQ464DWHGJk9hxD73Kf
 status: active
 merged_into: null
 display_name: 王偡
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_wcxtNCbbAnu25MzAFaipSB
+        subject_person_id: p_pY4bR9vVd19RvXkc3AZrMW
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Lt4MQ464DWHGJk9hxD73Kf
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vKSXoQ7wh-nJm6YTNrl1Z8
+          claim_id: c_wcxtNCbbAnu25MzAFaipSB
+          source_id: s_oD9gKDpPboW2xg9Jhpaik1
+          stance: supports
+          locator: 宣德五年進士登科錄:一卷，第二甲第三十三名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_pY4bR9vVd19RvXkc3AZrMW
+        status: active
+        display_name: 王彥禎
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_grjUh661Z05pEX-NxvM04y
+        subject_person_id: p_A3htMyYv1SZdF7d9GnU5GW
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Lt4MQ464DWHGJk9hxD73Kf
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ggwoEDVyyjP1T9sux-7zyG
+          claim_id: c_grjUh661Z05pEX-NxvM04y
+          source_id: s_oD9gKDpPboW2xg9Jhpaik1
+          stance: supports
+          locator: 宣德五年進士登科錄:一卷，第二甲第三十三名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_A3htMyYv1SZdF7d9GnU5GW
+        status: active
+        display_name: 王德集
+        merged_into_person_id: null
+    - claim:
+        id: c_ftjyTqBiY6RdiWbIXQ3pad
+        subject_person_id: p_jEVGyCWdr9id3tdCNr1hgE
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Lt4MQ464DWHGJk9hxD73Kf
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_RwECqIorhO4foQ5JhTFK33
+          claim_id: c_ftjyTqBiY6RdiWbIXQ3pad
+          source_id: s_oD9gKDpPboW2xg9Jhpaik1
+          stance: supports
+          locator: 宣德五年進士登科錄:一卷，第二甲第三十三名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_jEVGyCWdr9id3tdCNr1hgE
+        status: active
+        display_name: 王谷平
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_pY4bR9vVd19RvXkc3AZrMW | 王彥禎 | accepted |
+| ancestors | p_A3htMyYv1SZdF7d9GnU5GW | 王德集 | accepted |
+| ancestors | p_jEVGyCWdr9id3tdCNr1hgE | 王谷平 | accepted |
 
 ## 外部来源
 

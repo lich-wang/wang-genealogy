@@ -4,7 +4,7 @@ id: p_APgCbU3BBu68y3JhFPX3Tu
 status: active
 merged_into: null
 display_name: 王進
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -101,7 +101,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_tO1JHTj8vNo7znytbuOM03
+        subject_person_id: p_APgCbU3BBu68y3JhFPX3Tu
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_LXgtK5omn9xMb6WtWfebMn
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AduEr8pBPvE3ojZ61QAKq2
+          claim_id: c_tO1JHTj8vNo7znytbuOM03
+          source_id: s_UzhToTRNuKXC43W9g51CoV
+          stance: supports
+          locator: 上虞縣志，lgid=324833：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_UzhToTRNuKXC43W9g51CoV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王仁（CBDB 702831）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=702831&o=json
+            external_identifier: CBDB:702831
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:27.813Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_LXgtK5omn9xMb6WtWfebMn
+        status: active
+        display_name: 王仁
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -200,11 +237,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_LXgtK5omn9xMb6WtWfebMn | 王仁 | accepted |
 | ancestors | p_1fwuWUVpZ9MWwFA3Puza8t | 王友直 | accepted |
 | ancestors | p_G2LjL5Mcu7LQdF3tmfDXcF | 王善慶 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王進（CBDB 199096）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=199096&o=json)
+- [中国历代人物传记资料库：王仁（CBDB 702831）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=702831&o=json)
 - [中国历代人物传记资料库：王善慶（CBDB 229752）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=229752&o=json)
 - [中国历代人物传记资料库：王友直（CBDB 229763）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=229763&o=json)

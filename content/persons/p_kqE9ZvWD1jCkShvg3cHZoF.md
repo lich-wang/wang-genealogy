@@ -4,7 +4,7 @@ id: p_kqE9ZvWD1jCkShvg3cHZoF
 status: active
 merged_into: null
 display_name: 王志堅
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,8 +100,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_2p3F-EvsDe0Q87QzC0f_C6
+        subject_person_id: p_L86j9Q4bCgpGk34ZzMxQLj
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_kqE9ZvWD1jCkShvg3cHZoF
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FqfmjQhJ9R78sEwXnpnNRh
+          claim_id: c_2p3F-EvsDe0Q87QzC0f_C6
+          source_id: s_LVvBY1ftoawL29XGbLrKVo
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_L86j9Q4bCgpGk34ZzMxQLj
+        status: active
+        display_name: 王紹宗
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_12OxgsGf6d7R1RILGJlVil
+        subject_person_id: p_kqE9ZvWD1jCkShvg3cHZoF
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_G39AdG1FxMEPRoXpdeTZVZ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jB091Fy7Il3wr-kDnrxuIw
+          claim_id: c_12OxgsGf6d7R1RILGJlVil
+          source_id: s_LVvBY1ftoawL29XGbLrKVo
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_G39AdG1FxMEPRoXpdeTZVZ
+        status: active
+        display_name: 王季初
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,6 +178,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_L86j9Q4bCgpGk34ZzMxQLj | 王紹宗 | accepted |
+| children | p_G39AdG1FxMEPRoXpdeTZVZ | 王季初 | accepted |
 
 ## 外部来源
 

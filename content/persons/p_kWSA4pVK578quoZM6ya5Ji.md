@@ -4,7 +4,7 @@ id: p_kWSA4pVK578quoZM6ya5Ji
 status: active
 merged_into: null
 display_name: 王其宖
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_f2K4gZ6mbYz_VWU8ZFYI9M
+        subject_person_id: p_sKBWFhRDMwVtBQhCnhiP5H
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_kWSA4pVK578quoZM6ya5Ji
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZT3uJ-ZISrpobRG_tZ6eBB
+          claim_id: c_f2K4gZ6mbYz_VWU8ZFYI9M
+          source_id: s_VJxwAXaGGds626GHJYT2EA
+          stance: supports
+          locator: 江西通志，Igid=1197629：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_sKBWFhRDMwVtBQhCnhiP5H
+        status: active
+        display_name: 王績燦
+        merged_into_person_id: null
   children:
     - claim:
         id: c_IwBcGh7lCOqegRo67cUCnV
@@ -134,6 +160,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_sKBWFhRDMwVtBQhCnhiP5H | 王績燦 | accepted |
 | children | p_8PL4rTG5Xg84JyjtCHLgG4 | 王謙言 | accepted |
 
 ## 外部来源

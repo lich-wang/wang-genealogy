@@ -4,7 +4,7 @@ id: p_M3rTX6KqzR2bCnZ58UNsWR
 status: active
 merged_into: null
 display_name: 王彥明
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_3CWFovIvUpEiTDVlbfMXUM
+        subject_person_id: p_M3rTX6KqzR2bCnZ58UNsWR
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_tcnRstaNUF5RMY944rGoMz
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cRuZXzhN1pB5nHKlrhZPub
+          claim_id: c_3CWFovIvUpEiTDVlbfMXUM
+          source_id: s_L8M9Qo55JvgMfisoHAmhe1
+          stance: supports
+          locator: 弘治六年進士登科錄:一卷，第二甲第六十二名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_tcnRstaNUF5RMY944rGoMz
+        status: active
+        display_name: 王大用
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_tcnRstaNUF5RMY944rGoMz | 王大用 | accepted |
 
 ## 外部来源
 

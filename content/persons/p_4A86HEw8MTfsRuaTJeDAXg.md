@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王如堅
 cbdb_id: 126521
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -91,7 +91,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_GijHQFW4Ej2W1De6LsNfeu
+        subject_person_id: p_Kx5m9AG61yTn4dcbNdJvSZ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_4A86HEw8MTfsRuaTJeDAXg
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vEIDuPobnB-B0pMAGrHak6
+          claim_id: c_GijHQFW4Ej2W1De6LsNfeu
+          source_id: s_S4WnZn7C47M9YtfDY7XrZN
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第三甲第一百六十九名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_S4WnZn7C47M9YtfDY7XrZN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王淇（CBDB 226063）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=226063&o=json
+            external_identifier: CBDB:226063
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.456Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Kx5m9AG61yTn4dcbNdJvSZ
+        status: active
+        display_name: 王淇
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_Kx5m9AG61yTn4dcbNdJvSZ | 王淇 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王淇（CBDB 226063）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=226063&o=json)
 - [中国历代人物传记资料库：王如堅（CBDB 126521）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126521&o=json)

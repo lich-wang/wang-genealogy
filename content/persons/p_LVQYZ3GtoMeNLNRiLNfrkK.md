@@ -4,7 +4,7 @@ id: p_LVQYZ3GtoMeNLNRiLNfrkK
 status: active
 merged_into: null
 display_name: 王栖曜
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_SwS5fkkTXunuF0kPOw7lNq
+        subject_person_id: p_en59K3fagj8VJPQw7ris7d
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_LVQYZ3GtoMeNLNRiLNfrkK
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_DRzLk4PXOBnA9j_LAiRjaj
+          claim_id: c_SwS5fkkTXunuF0kPOw7lNq
+          source_id: s_D1W8yD5PetNe6Lxk4RYza7
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_en59K3fagj8VJPQw7ris7d
+        status: active
+        display_name: 王崇術
+        merged_into_person_id: null
   children:
     - claim:
         id: c_knNS_XRHxUeYOuXkLefYez
@@ -176,6 +202,58 @@ relationships:
         status: active
         display_name: 王長善
         merged_into_person_id: null
+    - claim:
+        id: c_sIkaFUYNtkMAMKJLEFUesh
+        subject_person_id: p_LVQYZ3GtoMeNLNRiLNfrkK
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_dS59cmg2f2cMGWXSKD371d
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qB4dfSIvoUUtmLPv-GYaQ8
+          claim_id: c_sIkaFUYNtkMAMKJLEFUesh
+          source_id: s_D1W8yD5PetNe6Lxk4RYza7
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_dS59cmg2f2cMGWXSKD371d
+        status: active
+        display_name: 王翊元
+        merged_into_person_id: null
+    - claim:
+        id: c_AYgpfi02p2CDzG-w4apQ5t
+        subject_person_id: p_LVQYZ3GtoMeNLNRiLNfrkK
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_NM9HzrDdXMrTygWTqURyQ5
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_q40B9KEr_G7GY3fdd0atR3
+          claim_id: c_AYgpfi02p2CDzG-w4apQ5t
+          source_id: s_D1W8yD5PetNe6Lxk4RYza7
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_NM9HzrDdXMrTygWTqURyQ5
+        status: active
+        display_name: 王參元
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -200,8 +278,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_en59K3fagj8VJPQw7ris7d | 王崇術 | accepted |
 | children | p_65RNaUCAqBwTremhQm6TC6 | 王茂元 | accepted |
 | children | p_b44GyPLdQLYMEEkYRKhqEw | 王長善 | accepted |
+| children | p_dS59cmg2f2cMGWXSKD371d | 王翊元 | accepted |
+| children | p_NM9HzrDdXMrTygWTqURyQ5 | 王參元 | accepted |
 
 ## 外部来源
 

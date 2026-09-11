@@ -4,7 +4,7 @@ id: p_L5GNQWRCoqrZnvRnDJLKba
 status: active
 merged_into: null
 display_name: 王朝臣
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_L59CFuLEEvzlqQRaxC3oAH
+        subject_person_id: p_L5GNQWRCoqrZnvRnDJLKba
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_R3KjiJ6AtFp3cp2mBnFBEY
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8kASVEkVlsevFACecXuSHl
+          claim_id: c_L59CFuLEEvzlqQRaxC3oAH
+          source_id: s_EjSM1wYYaYM5ZnEq99wUpB
+          stance: supports
+          locator: 嘉靖四十四年進士登科錄:一卷，第三甲第二百八十二名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_R3KjiJ6AtFp3cp2mBnFBEY
+        status: active
+        display_name: 王庭詩
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_R3KjiJ6AtFp3cp2mBnFBEY | 王庭詩 | accepted |
 
 ## 外部来源
 
