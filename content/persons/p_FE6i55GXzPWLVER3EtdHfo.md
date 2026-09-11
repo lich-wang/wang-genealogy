@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王彥泓
 cbdb_id: 120462
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:120462
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_FjES678jDu1PEn5f7GLKsm
             source_type: api_record
             title: 中国历代人物传记资料库：王彥泓（CBDB 120462）
@@ -172,7 +172,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_k9HA2kGhuyEEobrUccRG9K
+        subject_person_id: p_5Jy3mzrK4nD5ZKcdARUJuQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_FE6i55GXzPWLVER3EtdHfo
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0gicgasyQ3r_rZxSTi_p0T
+          claim_id: c_k9HA2kGhuyEEobrUccRG9K
+          source_id: s_FjES678jDu1PEn5f7GLKsm
+          stance: supports
+          locator: 明史，卷三一八：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_5Jy3mzrK4nD5ZKcdARUJuQ
+        status: active
+        display_name: 王肯堂
+        merged_into_person_id: null
   children:
     - claim:
         id: c_ZaUTgLbmmhuyiVtDvI-dk-
@@ -214,7 +240,59 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_RXnnaCP1jotYsevS1ot94F
+        subject_person_id: p_vpzDXBrQjqPJnEN64LCsPF
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_FE6i55GXzPWLVER3EtdHfo
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_oH9k8Z3iQ-Bnlp_I3REJK_
+          claim_id: c_RXnnaCP1jotYsevS1ot94F
+          source_id: s_FjES678jDu1PEn5f7GLKsm
+          stance: supports
+          locator: 明詩紀事:一百八十七卷，辛籤卷三二：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_vpzDXBrQjqPJnEN64LCsPF
+        status: active
+        display_name: 王臬
+        merged_into_person_id: null
+    - claim:
+        id: c_Ihr6qn-2q-38e_Sj731pdn
+        subject_person_id: p_923xZ5qSMZFGgS46h7nLWU
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_FE6i55GXzPWLVER3EtdHfo
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wH0WEzXEMCk95cRjv-pxRq
+          claim_id: c_Ihr6qn-2q-38e_Sj731pdn
+          source_id: s_FjES678jDu1PEn5f7GLKsm
+          stance: supports
+          locator: 明詩紀事:一百八十七卷，辛籤卷三二：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_923xZ5qSMZFGgS46h7nLWU
+        status: active
+        display_name: 王樵
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -236,7 +314,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_5Jy3mzrK4nD5ZKcdARUJuQ | 王肯堂 | accepted |
 | children | p_EYrfu6prdEPRvFMWEDEnKy | 王朗 | accepted |
+| ancestors | p_vpzDXBrQjqPJnEN64LCsPF | 王臬 | accepted |
+| ancestors | p_923xZ5qSMZFGgS46h7nLWU | 王樵 | accepted |
 
 ## 外部来源
 

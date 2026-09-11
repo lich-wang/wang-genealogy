@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王惟時
 cbdb_id: 294963
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:294963
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_ZwDnTm7PfHoS5L6eP5T5gF
             source_type: api_record
             title: 中国历代人物传记资料库：王惟時（CBDB 294963）
@@ -86,7 +86,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_GLq1dEAbS4xC_UbEpZ7bVv
+        subject_person_id: p_ShbQcKbhPZJtYL14xZXyTR
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_dDHYnGAnK1DYGbrFYBFLLA
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AYFdSTKR73Rx1ww05GNbtd
+          claim_id: c_GLq1dEAbS4xC_UbEpZ7bVv
+          source_id: s_ZwDnTm7PfHoS5L6eP5T5gF
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第二百三十三名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_ShbQcKbhPZJtYL14xZXyTR
+        status: active
+        display_name: 王佩
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_ShbQcKbhPZJtYL14xZXyTR | 王佩 | accepted |
 
 ## 外部来源
 

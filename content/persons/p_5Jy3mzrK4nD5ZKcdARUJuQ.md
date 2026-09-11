@@ -4,7 +4,7 @@ id: p_5Jy3mzrK4nD5ZKcdARUJuQ
 status: active
 merged_into: null
 display_name: 王肯堂
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -101,7 +101,45 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_k9HA2kGhuyEEobrUccRG9K
+        subject_person_id: p_5Jy3mzrK4nD5ZKcdARUJuQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_FE6i55GXzPWLVER3EtdHfo
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0gicgasyQ3r_rZxSTi_p0T
+          claim_id: c_k9HA2kGhuyEEobrUccRG9K
+          source_id: s_FjES678jDu1PEn5f7GLKsm
+          stance: supports
+          locator: 明史，卷三一八：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_FjES678jDu1PEn5f7GLKsm
+            source_type: api_record
+            title: 中国历代人物传记资料库：王彥泓（CBDB 120462）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=120462&o=json
+            external_identifier: CBDB:120462
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:37.980Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_FE6i55GXzPWLVER3EtdHfo
+        status: active
+        display_name: 王彥泓
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,7 +164,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_FE6i55GXzPWLVER3EtdHfo | 王彥泓 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王肯堂（CBDB 34722）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34722&o=json)
+- [中国历代人物传记资料库：王彥泓（CBDB 120462）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=120462&o=json)

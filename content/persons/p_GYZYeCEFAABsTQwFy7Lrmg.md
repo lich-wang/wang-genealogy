@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王希遷
 cbdb_id: 191564
-revision: 4
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -281,6 +281,44 @@ relationships:
         status: active
         display_name: 王國實
         merged_into_person_id: null
+    - claim:
+        id: c_G1n5GlDxaWcsIhnqqsW0d_
+        subject_person_id: p_GYZYeCEFAABsTQwFy7Lrmg
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_FkS64zHfN6yiBBDLXmCedC
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_RWRRZALRnf_cJ7zK_BCizn
+          claim_id: c_G1n5GlDxaWcsIhnqqsW0d_
+          source_id: s_9YykM815eSY6jyiMLGCq2r
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_9YykM815eSY6jyiMLGCq2r
+            source_type: api_record
+            title: 中国历代人物传记资料库：王國宥（CBDB 191569）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191569&o=json
+            external_identifier: CBDB:191569
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:40.348Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_FkS64zHfN6yiBBDLXmCedC
+        status: active
+        display_name: 王國宥
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -309,6 +347,7 @@ relationships:
 | children | p_e5MQ5CBhn9uF5QffiX1yWB | 王國寶 | accepted |
 | children | p_AXamSgwf97zhzK183EkDQr | 王國文 | accepted |
 | children | p_C3p1cFLrDARjSJNznWKi2x | 王國實 | accepted |
+| children | p_FkS64zHfN6yiBBDLXmCedC | 王國宥 | accepted |
 
 ## 外部来源
 
@@ -316,4 +355,5 @@ relationships:
 - [中国历代人物传记资料库：王國良（CBDB 191565）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191565&o=json)
 - [中国历代人物传记资料库：王國實（CBDB 191566）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191566&o=json)
 - [中国历代人物传记资料库：王國文（CBDB 191567）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191567&o=json)
+- [中国历代人物传记资料库：王國宥（CBDB 191569）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191569&o=json)
 - [中国历代人物传记资料库：王希遷（CBDB 191564）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191564&o=json)

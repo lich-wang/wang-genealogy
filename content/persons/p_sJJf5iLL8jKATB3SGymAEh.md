@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王珏
 cbdb_id: 1796
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -388,7 +388,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_MxrfXhySokui9kodIduG8M
+        subject_person_id: p_fuv1kE3UCBeTFNiA6c9Tuw
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_sJJf5iLL8jKATB3SGymAEh
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZhCL_ZkJWajj2YzCoZlzmx
+          claim_id: c_MxrfXhySokui9kodIduG8M
+          source_id: s_Gh6euCr2RKfuAXB8kPrVBR
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，765：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Gh6euCr2RKfuAXB8kPrVBR
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库
+            creator: null
+            publisher: null
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu
+            external_identifier: CBDB:1762
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: null
+            metadata_json: null
+      object_person:
+        id: p_fuv1kE3UCBeTFNiA6c9Tuw
+        status: active
+        display_name: 王安石
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -412,12 +449,14 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_wJa89oWwAQ916LvofuGWAh | 王桐 | accepted |
 | children | p_nAcvuR3XXjLqTH4m91wGfV | 王宜之 | accepted |
+| ancestors | p_fuv1kE3UCBeTFNiA6c9Tuw | 王安石 | accepted |
 
 ## 外部来源
 
 - [维基数据：王珏（Q45359441）](https://www.wikidata.org/wiki/Q45359441)
 - [维基数据：王桐（Q45401607）](https://www.wikidata.org/wiki/Q45401607)
 - [维基数据：王宜之（Q45427782）](https://www.wikidata.org/wiki/Q45427782)
+- [CBDB 中国历代人物传记资料库](https://cbdb.fas.harvard.edu)
 - [CBDB 中国历代人物传记资料库：王珏（1796）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1796&o=json)
 - [CBDB 中国历代人物传记资料库：王桐（21969）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=21969&o=json)
 - [CBDB 中国历代人物传记资料库：王宜之（36517）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=36517&o=json)

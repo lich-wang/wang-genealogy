@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 薛氏
 cbdb_id: 45905
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -69,7 +69,7 @@ properties:
           locator: Q45428395
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_KVMZ1KV24Xw9AmofgkjjNx
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：薛氏（45905）
@@ -209,6 +209,32 @@ relationships:
         status: active
         display_name: 王拱辰
         merged_into_person_id: null
+    - claim:
+        id: c_qk5xuPWx_0lTh8nlkSUN2m
+        subject_person_id: p_f323eQKL5YoD7qUUbCDtT7
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_WU89T3dCoRMDk6eTHgawKb
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_LG8te8GBUhbN36V9B7-2gI
+          claim_id: c_qk5xuPWx_0lTh8nlkSUN2m
+          source_id: s_KVMZ1KV24Xw9AmofgkjjNx
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1779;1782：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_WU89T3dCoRMDk6eTHgawKb
+        status: active
+        display_name: 王拱辰
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -230,6 +256,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | spouses | p_Hy3oL9P7FfBor4frFk5Jm5 | 王拱辰 | accepted |
+| spouses | p_WU89T3dCoRMDk6eTHgawKb | 王拱辰 | accepted |
 | spouses | p_WU89T3dCoRMDk6eTHgawKb | 王拱辰 | accepted |
 
 ## 外部来源

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王乾亨
 cbdb_id: 206520
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -129,7 +129,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_l9Gphc10PAidXqNqaOWmDS
+        subject_person_id: p_dQG6P5Z5ucUGLgZuSEfakq
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_mhrvputkBEQ43wY64CJw5k
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VwFx3Ed401LQB7GfsbrXbP
+          claim_id: c_l9Gphc10PAidXqNqaOWmDS
+          source_id: s_5NAFDm3BvLEnNzVsDtwntD
+          stance: supports
+          locator: 萬曆八年進士登科錄:一卷，第二甲第五十二名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_5NAFDm3BvLEnNzVsDtwntD
+            source_type: api_record
+            title: 中国历代人物传记资料库：王熙政（CBDB 219255）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219255&o=json
+            external_identifier: CBDB:219255
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:56.502Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_dQG6P5Z5ucUGLgZuSEfakq
+        status: active
+        display_name: 王熙政
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -229,11 +267,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_dQG6P5Z5ucUGLgZuSEfakq | 王熙政 | accepted |
 | ancestors | p_5uaQv14UYD4axoSqY6n6HV | 王治 | accepted |
 | ancestors | p_9iS5z5K2RWRF5QAZDRg3AJ | 王鑰 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王乾亨（CBDB 206520）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206520&o=json)
+- [中国历代人物传记资料库：王熙政（CBDB 219255）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219255&o=json)
 - [中国历代人物传记资料库：王鑰（CBDB 219253）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219253&o=json)
 - [中国历代人物传记资料库：王治（CBDB 219254）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219254&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 齐氏
 cbdb_id: 5399
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -172,6 +172,32 @@ relationships:
         status: active
         display_name: 王洙
         merged_into_person_id: null
+    - claim:
+        id: c_2uQS9WyvLFqCuzO0iQkyXd
+        subject_person_id: p_dhFVx6GMqbAdJa25T7qrk6
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_rVFThqwFvLsRtWBUE1HLZ4
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gyW10cW1Y26ZQFApLp6xZg
+          claim_id: c_2uQS9WyvLFqCuzO0iQkyXd
+          source_id: s_hNWTMBC6q552FxcCtxB4Vw
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，729;730：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_rVFThqwFvLsRtWBUE1HLZ4
+        status: active
+        display_name: 王洙
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -193,6 +219,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | spouses | p_eJ5xPSqX9C5GQJFJ6vhqFc | 王洙 | accepted |
+| spouses | p_rVFThqwFvLsRtWBUE1HLZ4 | 王洙 | accepted |
 
 ## 外部来源
 

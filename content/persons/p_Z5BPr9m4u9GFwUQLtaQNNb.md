@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王袞
 cbdb_id: 141634
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -688,6 +688,43 @@ relationships:
         status: active
         display_name: 蒋倩
         merged_into_person_id: null
+    - claim:
+        id: c_11POnHBQxLhxvCZu8YbnL6
+        subject_person_id: p_e5wkmE9DK7sp3AixXM1YFh
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_Z5BPr9m4u9GFwUQLtaQNNb
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vipb-UB5fGKiNInUUG9SaJ
+          claim_id: c_11POnHBQxLhxvCZu8YbnL6
+          source_id: s_3kGC3BzseZS2XamvGKpQUJ
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_3kGC3BzseZS2XamvGKpQUJ
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：蔣倩（145354）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=145354&o=json
+            external_identifier: CBDB:145354
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T04:14:49.065Z
+            metadata_json: null
+      object_person:
+        id: p_e5wkmE9DK7sp3AixXM1YFh
+        status: active
+        display_name: 蒋倩
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -716,6 +753,7 @@ relationships:
 | children | p_Xp222EZ4zEgdHMmcJdaP7M | 王绚 | accepted |
 | children | p_t5PfsW3CdcMrW3hJi5KQCc | 王绹 | accepted |
 | spouses | p_e5wkmE9DK7sp3AixXM1YFh | 蒋倩 | accepted |
+| spouses | p_e5wkmE9DK7sp3AixXM1YFh | 蒋倩 | accepted |
 
 ## 外部来源
 
@@ -725,6 +763,7 @@ relationships:
 - [维基数据：王绹（Q45538996）](https://www.wikidata.org/wiki/Q45538996)
 - [维基数据：王汶（Q45618566）](https://www.wikidata.org/wiki/Q45618566)
 - [维基数据：王绚（Q45538869）](https://www.wikidata.org/wiki/Q45538869)
+- [CBDB 中国历代人物传记资料库：蔣倩（145354）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=145354&o=json)
 - [CBDB 中国历代人物传记资料库：王存夫（157874）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=157874&o=json)
 - [CBDB 中国历代人物传记资料库：王袞（141634）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=141634&o=json)
 - [CBDB 中国历代人物传记资料库：王綯（157878）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=157878&o=json)

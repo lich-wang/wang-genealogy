@@ -4,7 +4,7 @@ id: p_923xZ5qSMZFGgS46h7nLWU
 status: active
 merged_into: null
 display_name: 王樵
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -186,7 +186,45 @@ relationships:
         status: active
         display_name: 王瀚
         merged_into_person_id: null
-  descendants: []
+  descendants:
+    - claim:
+        id: c_Ihr6qn-2q-38e_Sj731pdn
+        subject_person_id: p_923xZ5qSMZFGgS46h7nLWU
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_FE6i55GXzPWLVER3EtdHfo
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wH0WEzXEMCk95cRjv-pxRq
+          claim_id: c_Ihr6qn-2q-38e_Sj731pdn
+          source_id: s_FjES678jDu1PEn5f7GLKsm
+          stance: supports
+          locator: 明詩紀事:一百八十七卷，辛籤卷三二：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_FjES678jDu1PEn5f7GLKsm
+            source_type: api_record
+            title: 中国历代人物传记资料库：王彥泓（CBDB 120462）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=120462&o=json
+            external_identifier: CBDB:120462
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:37.980Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_FE6i55GXzPWLVER3EtdHfo
+        status: active
+        display_name: 王彥泓
+        merged_into_person_id: null
   other: []
 ---
 
@@ -209,7 +247,9 @@ relationships:
 | --- | --- | --- | --- |
 | ancestors | p_Eb1QdbChXgN1GA8BEpt3kU | 王鎮 | accepted |
 | ancestors | p_XJ6D4tBNDdCJKx5sTBjB7e | 王瀚 | accepted |
+| descendants | p_FE6i55GXzPWLVER3EtdHfo | 王彥泓 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王樵（CBDB 34720）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34720&o=json)
+- [中国历代人物传记资料库：王彥泓（CBDB 120462）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=120462&o=json)

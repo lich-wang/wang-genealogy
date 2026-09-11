@@ -4,7 +4,7 @@ id: p_XLzE7EyB5VaDYLv2XHEgHa
 status: active
 merged_into: null
 display_name: 王佐
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -138,7 +138,45 @@ relationships:
         status: active
         display_name: 王鸾
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_4hBOwxqBwLyfaAn9GP-I8o
+        subject_person_id: p_XLzE7EyB5VaDYLv2XHEgHa
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_FgnH5Tex3eEM8HgEHgSdm9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vv6-d6P-mPBrjQBmLCZdwC
+          claim_id: c_4hBOwxqBwLyfaAn9GP-I8o
+          source_id: s_Wjtp8tAobXMopg3HgXxk7b
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），10886：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Wjtp8tAobXMopg3HgXxk7b
+            source_type: api_record
+            title: 中国历代人物传记资料库：王道貞（CBDB 524359）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=524359&o=json
+            external_identifier: CBDB:524359
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:18:17.868Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_FgnH5Tex3eEM8HgEHgSdm9
+        status: active
+        display_name: 王道貞
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses:
@@ -238,11 +276,13 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_2JBV3UP1jjSL1hUd6uRUK3 | 王鸾 | accepted |
+| children | p_FgnH5Tex3eEM8HgEHgSdm9 | 王道貞 | accepted |
 | spouses | p_1j4ypMFN2MQYt4wr2fiPkA | 张氏 | accepted |
 | ancestors | p_onvVrjmfvkdjFcgNLVKCma | 王棋 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王道貞（CBDB 524359）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=524359&o=json)
 - [中国历代人物传记资料库：王佐（CBDB 67281）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67281&o=json)
 - [CBDB 中国历代人物传记资料库：王鸞（222285）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222285&o=json)
 - [CBDB 中国历代人物传记资料库：王棋（222283）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222283&o=json)

@@ -4,7 +4,7 @@ id: p_V5Z6bC9P1YiqepVeP78NQA
 status: active
 merged_into: null
 display_name: 王惟中
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,44 @@ relationships:
         status: active
         display_name: 王寰
         merged_into_person_id: null
+    - claim:
+        id: c_fSpcvdKjWpZ3bv2aCune6j
+        subject_person_id: p_dhViQGfAS7Kif9LatNZWPh
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_V5Z6bC9P1YiqepVeP78NQA
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jGYWVHHdNg7POwwmA82xQ5
+          claim_id: c_fSpcvdKjWpZ3bv2aCune6j
+          source_id: s_DFGGuZ3eoThNFGBmCAx152
+          stance: supports
+          locator: 嘉靖二十年進士登科錄:一卷，第三甲第一百零六名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_DFGGuZ3eoThNFGBmCAx152
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瑞昌（CBDB 304146）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=304146&o=json
+            external_identifier: CBDB:304146
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:04.487Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_dhViQGfAS7Kif9LatNZWPh
+        status: active
+        display_name: 王瑞昌
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +240,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_EL1xAzh69eBckvCoFLRC2M | 王紀 | accepted |
 | ancestors | p_2xVygTqZoaWJZPr3k3KVru | 王寰 | accepted |
+| ancestors | p_dhViQGfAS7Kif9LatNZWPh | 王瑞昌 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王寰（CBDB 304147）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=304147&o=json)
 - [中国历代人物传记资料库：王紀（CBDB 304149）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=304149&o=json)
+- [中国历代人物传记资料库：王瑞昌（CBDB 304146）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=304146&o=json)
 - [中国历代人物传记资料库：王惟中（CBDB 203400）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203400&o=json)

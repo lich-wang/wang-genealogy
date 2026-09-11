@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王君儒
 cbdb_id: 151070
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:151070
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_5KfF6oEm5XBePQsAH2yKBp
             source_type: api_record
             title: 中国历代人物传记资料库：王君儒（CBDB 151070）
@@ -86,7 +86,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_Yn9R-zduPM77TY_INlm2ls
+        subject_person_id: p_wg9SbiU6iuiiEMCXTr6z5i
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_EV8fEUrhLwWyvaPQ2UhEec
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cg-AJ33AQ9PRi1mFWNiFo-
+          claim_id: c_Yn9R-zduPM77TY_INlm2ls
+          source_id: s_5KfF6oEm5XBePQsAH2yKBp
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_wg9SbiU6iuiiEMCXTr6z5i
+        status: active
+        display_name: 王野父
+        merged_into_person_id: null
   children:
     - claim:
         id: c_UoQGsQnv3zIqjkdvHNrAP8
@@ -162,6 +188,32 @@ relationships:
         status: active
         display_name: 王孝倫
         merged_into_person_id: null
+    - claim:
+        id: c_S4Jxi56K7EqhAG3G1qJStr
+        subject_person_id: p_EV8fEUrhLwWyvaPQ2UhEec
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Fqf98231G66GDJtjxHT3fS
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KVmIp-EzeO6yj9YSRkJpHd
+          claim_id: c_S4Jxi56K7EqhAG3G1qJStr
+          source_id: s_5KfF6oEm5XBePQsAH2yKBp
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Fqf98231G66GDJtjxHT3fS
+        status: active
+        display_name: 王孝遠
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -185,8 +237,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_wg9SbiU6iuiiEMCXTr6z5i | 王野父 | accepted |
 | children | p_25r3CJHZNkQEGEuVBhWUVs | 王孝幹 | accepted |
 | children | p_tneJQvKK7NPkwfNwUhfwqV | 王孝倫 | accepted |
+| children | p_Fqf98231G66GDJtjxHT3fS | 王孝遠 | accepted |
 
 ## 外部来源
 

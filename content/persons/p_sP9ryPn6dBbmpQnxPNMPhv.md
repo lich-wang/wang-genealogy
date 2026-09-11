@@ -4,7 +4,7 @@ id: p_sP9ryPn6dBbmpQnxPNMPhv
 status: active
 merged_into: null
 display_name: 王凝之
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -129,6 +129,43 @@ relationships:
         status: active
         display_name: 谢道韫
         merged_into_person_id: null
+    - claim:
+        id: c_TSQkEHcq0Dyjf_FbDlOBtZ
+        subject_person_id: p_EqbrV19BGLaVPSHLLe15u8
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_sP9ryPn6dBbmpQnxPNMPhv
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_eLRza_cIHfg2bpvVJboGAC
+          claim_id: c_TSQkEHcq0Dyjf_FbDlOBtZ
+          source_id: s_rooNr82sBkVcuvNxr7FNYJ
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #2001, HuWenKai #10：丈夫"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_rooNr82sBkVcuvNxr7FNYJ
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：謝道韞（134836）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134836&o=json
+            external_identifier: CBDB:134836
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T02:49:45.053Z
+            metadata_json: null
+      object_person:
+        id: p_EqbrV19BGLaVPSHLLe15u8
+        status: active
+        display_name: 谢道韫
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -151,7 +188,9 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_VCkK1jW79rQ6D9gE1Q4vrU | 王羲之 | accepted |
 | spouses | p_EqbrV19BGLaVPSHLLe15u8 | 谢道韫 | accepted |
+| spouses | p_EqbrV19BGLaVPSHLLe15u8 | 谢道韫 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王凝之（CBDB 134837）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134837&o=json)
+- [CBDB 中国历代人物传记资料库：謝道韞（134836）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134836&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王叔雅
 cbdb_id: 141433
-revision: 5
+revision: 6
 properties:
   - predicate: bio.summary
     recommended:
@@ -248,7 +248,45 @@ relationships:
         status: active
         display_name: 王承後
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_o2M0AXGLOCOwiqYF3f-ThQ
+        subject_person_id: p_3WXtv2kcWPVKbpetC94s5m
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_DTfTgBqPVmmY39EnxBDvEJ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_DpHP4Q97AEG7eLhD__Esnw
+          claim_id: c_o2M0AXGLOCOwiqYF3f-ThQ
+          source_id: s_qk4K8dp8QKA2GkFUAsDGpK
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Yuanhe 33：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_qk4K8dp8QKA2GkFUAsDGpK
+            source_type: api_record
+            title: 中国历代人物传记资料库：王吳婆（CBDB 156461）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=156461&o=json
+            external_identifier: CBDB:156461
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:54.122Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_DTfTgBqPVmmY39EnxBDvEJ
+        status: active
+        display_name: 王吳婆
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -350,6 +388,7 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_MChXMWRFmDq4fix2Yw2gB9 | 王承俊 | accepted |
 | parents | p_7JzyVVbjHJGgH92y3q22jd | 王承後 | accepted |
+| children | p_DTfTgBqPVmmY39EnxBDvEJ | 王吳婆 | accepted |
 | ancestors | p_VVMD2KkQPfwmXGaKNcH2Uj | 王守節 | accepted |
 | ancestors | p_yqrJaC8jCWdEp4quZVwZHz | 王師感 | accepted |
 
@@ -360,3 +399,4 @@ relationships:
 - [中国历代人物传记资料库：王師感（CBDB 156458）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=156458&o=json)
 - [中国历代人物传记资料库：王守節（CBDB 156459）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=156459&o=json)
 - [中国历代人物传记资料库：王叔雅（CBDB 141433）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=141433&o=json)
+- [中国历代人物传记资料库：王吳婆（CBDB 156461）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=156461&o=json)

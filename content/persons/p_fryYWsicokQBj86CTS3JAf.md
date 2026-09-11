@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王曰貴
 cbdb_id: 229374
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:229374
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_5BHtNEq31b4oV9f9DdrnZW
             source_type: api_record
             title: 中国历代人物传记资料库：王曰貴（CBDB 229374）
@@ -92,7 +92,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_x8_gCOGN-1IxuGeAbO-1Et
+        subject_person_id: p_fryYWsicokQBj86CTS3JAf
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_p7XKo89NhBCAZto4tXob1s
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KeAk5rHzfWp1Hd9bqMXNs3
+          claim_id: c_x8_gCOGN-1IxuGeAbO-1Et
+          source_id: s_5BHtNEq31b4oV9f9DdrnZW
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第三甲第二百五十名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_p7XKo89NhBCAZto4tXob1s
+        status: active
+        display_name: 王希夔
+        merged_into_person_id: null
   other: []
 ---
 
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_p7XKo89NhBCAZto4tXob1s | 王希夔 | accepted |
 
 ## 外部来源
 

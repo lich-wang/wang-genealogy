@@ -4,7 +4,7 @@ id: p_LKzDYAPDmX1Dcm3kwWWk7w
 status: active
 merged_into: null
 display_name: 王九言
-revision: 9
+revision: 10
 properties:
   - predicate: name.primary
     recommended:
@@ -216,7 +216,45 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_lm8BcdKiaC-G31wviMJrRr
+        subject_person_id: p_FXHwcoHY4AFBFWRSSNw52j
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_LKzDYAPDmX1Dcm3kwWWk7w
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tnN5fHyRQQJSfGXPCGkuqN
+          claim_id: c_lm8BcdKiaC-G31wviMJrRr
+          source_id: s_v8Q2d8qzHzCpc4ytk1RoKn
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，159 王九言墓志：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_v8Q2d8qzHzCpc4ytk1RoKn
+            source_type: api_record
+            title: 中国历代人物传记资料库：王夢證（CBDB 22172）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22172&o=json
+            external_identifier: CBDB:22172
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:44.071Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_FXHwcoHY4AFBFWRSSNw52j
+        status: active
+        display_name: 王夢證
+        merged_into_person_id: null
   descendants:
     - claim:
         id: c_6iycsBcuCO9ebXORzcMgj0
@@ -536,6 +574,7 @@ relationships:
 | parents | p_D4suc6s36QDqEBF4Wvu32S | 王嗣慶 | accepted |
 | children | p_5RBiZ6FFWAyKXQ4ceyXGgd | 王正民 | accepted |
 | children | p_Avmx7J2ufnPsVjzzweTV6f | 王信民 | accepted |
+| ancestors | p_FXHwcoHY4AFBFWRSSNw52j | 王夢證 | accepted |
 | descendants | p_1aEwesssoYpd2ncPJ3YUoM | 王淇 | accepted |
 | descendants | p_6wji7XXP8uK32dWKaW53BU | 王洵 | accepted |
 | descendants | p_6x2bqhUrScPeQEfMXQdYP2 | 王況 | accepted |
@@ -552,6 +591,7 @@ relationships:
 - [中国历代人物传记资料库：王泂（CBDB 697036）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=697036&o=json)
 - [中国历代人物传记资料库：王九言（CBDB 696905）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696905&o=json)
 - [中国历代人物传记资料库：王況（CBDB 697042）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=697042&o=json)
+- [中国历代人物传记资料库：王夢證（CBDB 22172）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22172&o=json)
 - [中国历代人物传记资料库：王泌（CBDB 697037）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=697037&o=json)
 - [中国历代人物传记资料库：王淇（CBDB 697034）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=697034&o=json)
 - [中国历代人物传记资料库：王嗣慶（CBDB 696907）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696907&o=json)

@@ -4,7 +4,7 @@ id: p_EoY6249MAYNFPdVz2u3z4E
 status: active
 merged_into: null
 display_name: 王學益
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,44 @@ relationships:
         status: active
         display_name: 王珉
         merged_into_person_id: null
+    - claim:
+        id: c_AOZX5eutx3l0h9q1OhR-ZX
+        subject_person_id: p_DGBgTNExWyhASwnCieWYxW
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_EoY6249MAYNFPdVz2u3z4E
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_C8cCC6ZEY4di04GFgIQ6sD
+          claim_id: c_AOZX5eutx3l0h9q1OhR-ZX
+          source_id: s_PfRDKxCKBAXBt7gF1NJWkU
+          stance: supports
+          locator: 嘉靖八年進士登科錄:一卷，第二甲第十一名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_PfRDKxCKBAXBt7gF1NJWkU
+            source_type: api_record
+            title: 中国历代人物传记资料库：王循紀（CBDB 287443）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287443&o=json
+            external_identifier: CBDB:287443
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:02.953Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_DGBgTNExWyhASwnCieWYxW
+        status: active
+        display_name: 王循紀
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +240,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_EJz6NDNXPRUy1b3XSr2FQp | 王稼 | accepted |
 | ancestors | p_wsDZJ1MwFHkyLqXv75Yrwu | 王珉 | accepted |
+| ancestors | p_DGBgTNExWyhASwnCieWYxW | 王循紀 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王稼（CBDB 287445）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287445&o=json)
 - [中国历代人物传记资料库：王珉（CBDB 287444）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287444&o=json)
 - [中国历代人物传记资料库：王學益（CBDB 202399）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202399&o=json)
+- [中国历代人物传记资料库：王循紀（CBDB 287443）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287443&o=json)

@@ -4,7 +4,7 @@ id: p_yP96fb1CXF8V2cwWbYjPQT
 status: active
 merged_into: null
 display_name: 王則
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -204,6 +204,82 @@ relationships:
         status: active
         display_name: 王子奇
         merged_into_person_id: null
+    - claim:
+        id: c_YERpp-LDEBR8AzaM9671dK
+        subject_person_id: p_yP96fb1CXF8V2cwWbYjPQT
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_dXk5PGmhDsB5mGmUFtb8aF
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2hAhvW_pfUVfpvH5TZoEca
+          claim_id: c_YERpp-LDEBR8AzaM9671dK
+          source_id: s_7AvTpcpC2LRL2K2TgQL9H7
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaiyuan 97：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_7AvTpcpC2LRL2K2TgQL9H7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王祥鳳（CBDB 151452）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=151452&o=json
+            external_identifier: CBDB:151452
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:53.368Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_dXk5PGmhDsB5mGmUFtb8aF
+        status: active
+        display_name: 王祥鳳
+        merged_into_person_id: null
+    - claim:
+        id: c_Svu4FYP_nh8iPxrB-GgsVT
+        subject_person_id: p_yP96fb1CXF8V2cwWbYjPQT
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_fNZdtSCfwtT2Dhpg72Q2P3
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AbD7wt8-fthIo3r44csJKD
+          claim_id: c_Svu4FYP_nh8iPxrB-GgsVT
+          source_id: s_pUBpSk97i4oC4gruvEU3tj
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaiyuan 97：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_pUBpSk97i4oC4gruvEU3tj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王祥慶（CBDB 151450）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=151450&o=json
+            external_identifier: CBDB:151450
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:53.368Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_fNZdtSCfwtT2Dhpg72Q2P3
+        status: active
+        display_name: 王祥慶
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -231,9 +307,13 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_szcBv9A8ZW3VGqgFhZm7kb | 王暉 | accepted |
 | children | p_g4sFp2xrphY4opHL4cs7cS | 王子奇 | accepted |
+| children | p_dXk5PGmhDsB5mGmUFtb8aF | 王祥鳳 | accepted |
+| children | p_fNZdtSCfwtT2Dhpg72Q2P3 | 王祥慶 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王暉（CBDB 151448）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=151448&o=json)
+- [中国历代人物传记资料库：王祥鳳（CBDB 151452）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=151452&o=json)
+- [中国历代人物传记资料库：王祥慶（CBDB 151450）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=151450&o=json)
 - [中国历代人物传记资料库：王則（CBDB 140371）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140371&o=json)
 - [中国历代人物传记资料库：王子奇（CBDB 151449）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=151449&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王士業
 cbdb_id: 222410
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:222410
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_C9gTjBqW8ZfLCwvkN3sRxD
             source_type: api_record
             title: 中国历代人物传记资料库：王士業（CBDB 222410）
@@ -86,7 +86,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_f7G65wmyUyyhwA_4zBOa4a
+        subject_person_id: p_AxnhzouFhPDEcn88n2bfsw
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_F5eJWEbAr7A8TPLP4MEWxZ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AWUZcarGgZ_PdFylV9kdqM
+          claim_id: c_f7G65wmyUyyhwA_4zBOa4a
+          source_id: s_C9gTjBqW8ZfLCwvkN3sRxD
+          stance: supports
+          locator: 臨海縣志，lgid=353152：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_AxnhzouFhPDEcn88n2bfsw
+        status: active
+        display_name: 王宗沐
+        merged_into_person_id: null
   children:
     - claim:
         id: c_NxOFvppmRP3G2mvjuEVMuM
@@ -148,6 +174,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_AxnhzouFhPDEcn88n2bfsw | 王宗沐 | accepted |
 | children | p_ESAiyK1MzC1QuuqZB5wjNx | 王立墀 | accepted |
 
 ## 外部来源

@@ -4,7 +4,7 @@ id: p_WU89T3dCoRMDk6eTHgawKb
 status: active
 merged_into: null
 display_name: 王拱辰
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -185,6 +185,43 @@ relationships:
         status: active
         display_name: 薛氏
         merged_into_person_id: null
+    - claim:
+        id: c_qk5xuPWx_0lTh8nlkSUN2m
+        subject_person_id: p_f323eQKL5YoD7qUUbCDtT7
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_WU89T3dCoRMDk6eTHgawKb
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_LG8te8GBUhbN36V9B7-2gI
+          claim_id: c_qk5xuPWx_0lTh8nlkSUN2m
+          source_id: s_KVMZ1KV24Xw9AmofgkjjNx
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1779;1782：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_KVMZ1KV24Xw9AmofgkjjNx
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：薛氏（45905）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=45905&o=json
+            external_identifier: CBDB:45905
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:00:07.179Z
+            metadata_json: null
+      object_person:
+        id: p_f323eQKL5YoD7qUUbCDtT7
+        status: active
+        display_name: 薛氏
+        merged_into_person_id: null
   ancestors: []
   descendants:
     - claim:
@@ -235,8 +272,10 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_H3E5VxBaQfqgvzveq3gJSK | 王代恕 | accepted |
 | spouses | p_f323eQKL5YoD7qUUbCDtT7 | 薛氏 | accepted |
+| spouses | p_f323eQKL5YoD7qUUbCDtT7 | 薛氏 | accepted |
 | descendants | p_3Ai1qkYjUBdtWJB4qPpmzV | 王湘 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王拱辰（CBDB 1847）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1847&o=json)
+- [CBDB 中国历代人物传记资料库：薛氏（45905）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=45905&o=json)

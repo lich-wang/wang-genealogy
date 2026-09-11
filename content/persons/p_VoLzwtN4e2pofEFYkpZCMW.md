@@ -4,7 +4,7 @@ id: p_VoLzwtN4e2pofEFYkpZCMW
 status: active
 merged_into: null
 display_name: 王郁
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -176,6 +176,44 @@ relationships:
         status: active
         display_name: 王鶚
         merged_into_person_id: null
+    - claim:
+        id: c_NUttK5Rjw2ZcWgaaa3Utj-
+        subject_person_id: p_VoLzwtN4e2pofEFYkpZCMW
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_FiwAwcqYD13xAZJumekWBH
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XHYKzvhA9DHI_l4I9uRSxN
+          claim_id: c_NUttK5Rjw2ZcWgaaa3Utj-
+          source_id: s_5nxz88HxYNuzXKnXjTBqw7
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_5nxz88HxYNuzXKnXjTBqw7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王廷阮（CBDB 170078）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=170078&o=json
+            external_identifier: CBDB:170078
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:39.240Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_FiwAwcqYD13xAZJumekWBH
+        status: active
+        display_name: 王廷阮
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -202,9 +240,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_4gNLMaQqWEd6Tcr2zT2brF | 王處直 | accepted |
 | children | p_SsZbQkb7Wa4KQYF6cCGrRS | 王鶚 | accepted |
+| children | p_FiwAwcqYD13xAZJumekWBH | 王廷阮 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王處直（CBDB 144827）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=144827&o=json)
 - [中国历代人物传记资料库：王鶚（CBDB 169316）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=169316&o=json)
+- [中国历代人物传记资料库：王廷阮（CBDB 170078）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=170078&o=json)
 - [中国历代人物传记资料库：王郁（CBDB 186845）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=186845&o=json)

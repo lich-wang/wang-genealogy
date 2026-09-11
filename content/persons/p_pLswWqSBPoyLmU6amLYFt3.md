@@ -4,7 +4,7 @@ id: p_pLswWqSBPoyLmU6amLYFt3
 status: active
 merged_into: null
 display_name: 王漢忠
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -139,6 +139,44 @@ relationships:
         status: active
         display_name: 王從政
         merged_into_person_id: null
+    - claim:
+        id: c_V504xtDkvPAB7hcJojAsxW
+        subject_person_id: p_pLswWqSBPoyLmU6amLYFt3
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_eK7BmxmwBKQ83huTyGiRu6
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wIJPkpkhnZ9Y-toOS03MSe
+          claim_id: c_V504xtDkvPAB7hcJojAsxW
+          source_id: s_AD4GWS6qmi9VBJoFtXawVw
+          stance: supports
+          locator: 宋史：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_AD4GWS6qmi9VBJoFtXawVw
+            source_type: api_record
+            title: 中国历代人物传记资料库：王從吉（CBDB 119736）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=119736&o=json
+            external_identifier: CBDB:119736
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:51.102Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_eK7BmxmwBKQ83huTyGiRu6
+        status: active
+        display_name: 王從吉
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -164,8 +202,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_XviaqWWyDjdJ24E836cQV3 | 王從政 | accepted |
+| children | p_eK7BmxmwBKQ83huTyGiRu6 | 王從吉 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王從吉（CBDB 119736）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=119736&o=json)
 - [中国历代人物传记资料库：王從政（CBDB 119735）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=119735&o=json)
 - [中国历代人物传记资料库：王漢忠（CBDB 14839）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=14839&o=json)

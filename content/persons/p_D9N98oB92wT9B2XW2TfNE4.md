@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王良策
 cbdb_id: 328155
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:328155
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_1SkpxRiqFu3c6zkjxMZfv3
             source_type: api_record
             title: 中国历代人物传记资料库：王良策（CBDB 328155）
@@ -87,7 +87,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_3CiTeJ3Vbu0_uP89Xq3w5I
+        subject_person_id: p_D9N98oB92wT9B2XW2TfNE4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_oXNXhcmP3pgs4EeZNT7tYq
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2f2eeKcOTCn4c-nu-QD76u
+          claim_id: c_3CiTeJ3Vbu0_uP89Xq3w5I
+          source_id: s_1SkpxRiqFu3c6zkjxMZfv3
+          stance: supports
+          locator: 嘉靖四十一年進士登科錄:一卷，第三甲第九十三名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_oXNXhcmP3pgs4EeZNT7tYq
+        status: active
+        display_name: 王篆
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_oXNXhcmP3pgs4EeZNT7tYq | 王篆 | accepted |
 
 ## 外部来源
 

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王熙
 cbdb_id: 56873
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -427,7 +427,45 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_2r-SpIrlfX4or7dIlzADoE
+        subject_person_id: p_tebqY22pd9wZzkQFGZaaDe
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_F219MyNR97HgxYW2pAHDtK
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Xgb1NtVreo6LweFiT6piI1
+          claim_id: c_2r-SpIrlfX4or7dIlzADoE
+          source_id: s_rJzmvJgfuEPLWJ7pxxaJKt
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），71：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_rJzmvJgfuEPLWJ7pxxaJKt
+            source_type: api_record
+            title: 中国历代人物传记资料库：王則曾（CBDB 513578）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=513578&o=json
+            external_identifier: CBDB:513578
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:18:15.776Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_F219MyNR97HgxYW2pAHDtK
+        status: active
+        display_name: 王則曾
+        merged_into_person_id: null
   other: []
 ---
 
@@ -453,6 +491,7 @@ relationships:
 | children | p_cxd5bBJMRXQ1FLgie23F8Z | 王克昌 | accepted |
 | children | p_7NDJ89UZ7vGVaeWE7kAwXN | 王克承 | accepted |
 | children | p_u3XFwsnU5Aqqrr7MXVuWXG | 王克賡 | accepted |
+| descendants | p_F219MyNR97HgxYW2pAHDtK | 王則曾 | accepted |
 
 ## 外部来源
 
@@ -460,5 +499,6 @@ relationships:
 - [维基数据：王克昌（Q13668769）](https://www.wikidata.org/wiki/Q13668769)
 - [维基数据：王氏（Q13668765）](https://www.wikidata.org/wiki/Q13668765)
 - [维基数据：王熙（Q13668762）](https://www.wikidata.org/wiki/Q13668762)
+- [中国历代人物传记资料库：王則曾（CBDB 513578）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=513578&o=json)
 - [中文维基百科：王熙 (順治進士)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%86%99_(%E9%A0%86%E6%B2%BB%E9%80%B2%E5%A3%AB))
 - [CBDB 中国历代人物传记资料库：王熙（56873）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=56873&o=json)

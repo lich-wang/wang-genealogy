@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王亮器
 cbdb_id: 231882
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:231882
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_yCWU7sFJwzCiRuhfERVnmh
             source_type: api_record
             title: 中国历代人物传记资料库：王亮器（CBDB 231882）
@@ -87,7 +87,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_HYnQEnXuwYGqJ-gD3sSsbM
+        subject_person_id: p_fj97sG1LzpBaRtp35NJpLY
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_AFdJ7pAjfwQ6cMiK8RCDT2
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xzYVqiM4K9XuHlDWm2-3rn
+          claim_id: c_HYnQEnXuwYGqJ-gD3sSsbM
+          source_id: s_yCWU7sFJwzCiRuhfERVnmh
+          stance: supports
+          locator: 萬曆二十年壬辰科進士歷履便覽:一卷，第三甲第一百八十一名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_AFdJ7pAjfwQ6cMiK8RCDT2
+        status: active
+        display_name: 王在晉
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_AFdJ7pAjfwQ6cMiK8RCDT2 | 王在晉 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_vV52H1GLe4mb587k9pj5Z2
 status: active
 merged_into: null
 display_name: 王聘
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -177,6 +177,44 @@ relationships:
         status: active
         display_name: 王祚恆
         merged_into_person_id: null
+    - claim:
+        id: c_IUJ-0y-tg9usnzXIsVKV_d
+        subject_person_id: p_vV52H1GLe4mb587k9pj5Z2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_egQWUvKKUHGHFH1FFpyHWW
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JZSG94r-RKLDfbY2L_HegE
+          claim_id: c_IUJ-0y-tg9usnzXIsVKV_d
+          source_id: s_V5AsQCX7y4VPPoYDQsMfz3
+          stance: supports
+          locator: 萬曆三十八年庚戌科序齒錄:一卷，第三甲第一百六十名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_V5AsQCX7y4VPPoYDQsMfz3
+            source_type: api_record
+            title: 中国历代人物传记资料库：王祚延（CBDB 233975）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=233975&o=json
+            external_identifier: CBDB:233975
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:58.142Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_egQWUvKKUHGHFH1FFpyHWW
+        status: active
+        display_name: 王祚延
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -278,6 +316,7 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_vbmJR5uCeaqCSLSaANHLNi | 王朝卿 | accepted |
 | children | p_aiXHyQMoNmuY1rAXQ9aTkS | 王祚恆 | accepted |
+| children | p_egQWUvKKUHGHFH1FFpyHWW | 王祚延 | accepted |
 | ancestors | p_98GBPWfNFuuoAeABhuDPBA | 王民 | accepted |
 | ancestors | p_CCMccR4P954q1f51XxRvrB | 王仕昂 | accepted |
 
@@ -288,3 +327,4 @@ relationships:
 - [中国历代人物传记资料库：王聘（CBDB 207693）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207693&o=json)
 - [中国历代人物传记资料库：王仕昂（CBDB 233967）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=233967&o=json)
 - [中国历代人物传记资料库：王祚恆（CBDB 233976）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=233976&o=json)
+- [中国历代人物传记资料库：王祚延（CBDB 233975）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=233975&o=json)

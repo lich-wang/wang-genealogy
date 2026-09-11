@@ -4,7 +4,7 @@ id: p_UoDuFWRFgfGtUzy5hZREHx
 status: active
 merged_into: null
 display_name: 王元
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -166,7 +166,45 @@ relationships:
         status: active
         display_name: 王師
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_xvG8k-nuMp3H3KAYJkif_R
+        subject_person_id: p_UoDuFWRFgfGtUzy5hZREHx
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_dNCKSLDkfJXP4qCC6kdJrK
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_i9myUaQEzh-sRHPiLr5ls6
+          claim_id: c_xvG8k-nuMp3H3KAYJkif_R
+          source_id: s_N9YQouA53mB82bYussXD9q
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaiyuan 90：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_N9YQouA53mB82bYussXD9q
+            source_type: api_record
+            title: 中国历代人物传记资料库：王懷古（CBDB 151426）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=151426&o=json
+            external_identifier: CBDB:151426
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:53.368Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_dNCKSLDkfJXP4qCC6kdJrK
+        status: active
+        display_name: 王懷古
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -193,8 +231,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_ain7hDXbbjgDRvUKBowfTr | 王師 | accepted |
+| children | p_dNCKSLDkfJXP4qCC6kdJrK | 王懷古 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王懷古（CBDB 151426）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=151426&o=json)
 - [中国历代人物传记资料库：王師（CBDB 151424）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=151424&o=json)
 - [中国历代人物传记资料库：王元（CBDB 140364）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140364&o=json)

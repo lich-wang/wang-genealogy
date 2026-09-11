@@ -4,7 +4,7 @@ id: p_1CAD7Cg5ACndjPsTMwMUQ7
 status: merged
 merged_into: p_SAKZSsVXkQRnwcLYqa1oYe
 display_name: 王越
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -113,7 +113,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_6faE4pguNwo8EvgCnFQ00z
+        subject_person_id: p_FN4LC4aWu5z2P5PomfDcX6
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_1CAD7Cg5ACndjPsTMwMUQ7
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_iuQK8MwuQPr1EplC8a19gB
+          claim_id: c_6faE4pguNwo8EvgCnFQ00z
+          source_id: s_DJgg67U3SY4a7KqVuu4NS1
+          stance: supports
+          locator: 景泰二年進士登科錄:一卷，第三甲第六名：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_DJgg67U3SY4a7KqVuu4NS1
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：孫氏（326997）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326997&o=json
+            external_identifier: CBDB:326997
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:59:37.598Z
+            metadata_json: null
+      object_person:
+        id: p_FN4LC4aWu5z2P5PomfDcX6
+        status: active
+        display_name: 孙氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_f59mcrHIgC1cT678byQnAa
@@ -210,6 +247,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_6Uj7h3k6AcMQquEzQiGzSE | 王颐 | accepted |
+| spouses | p_FN4LC4aWu5z2P5PomfDcX6 | 孙氏 | accepted |
 | ancestors | p_nbMxKWfrWz4c9en3TGuwmJ | 王显道 | accepted |
 | descendants | p_7o2TASpnCzbdm18pkh4MB9 | 王紹思 | accepted |
 
@@ -217,5 +255,6 @@ relationships:
 
 - [中国历代人物传记资料库：王紹思（CBDB 524789）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=524789&o=json)
 - [中国历代人物传记资料库：王越（CBDB 467429）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=467429&o=json)
+- [CBDB 中国历代人物传记资料库：孫氏（326997）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326997&o=json)
 - [CBDB 中国历代人物传记资料库：王顯道（326551）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326551&o=json)
 - [CBDB 中国历代人物传记资料库：王頤（326773）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326773&o=json)

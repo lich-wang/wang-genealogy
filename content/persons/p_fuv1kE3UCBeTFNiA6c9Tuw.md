@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王安石
 cbdb_id: 1762
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -115,7 +115,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source:
+          source: &a1
             id: s_Gh6euCr2RKfuAXB8kPrVBR
             source_type: api_record
             title: CBDB 中国历代人物传记资料库
@@ -355,6 +355,32 @@ relationships:
             metadata_json: null
       object_person:
         id: p_TCJasuo9M43ytz26ea5oSn
+        status: active
+        display_name: 王益
+        merged_into_person_id: null
+    - claim:
+        id: c_ImricfX8NpNl1DdTGiJC8c
+        subject_person_id: p_94q1e1836gtMmWzZkszZK7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_fuv1kE3UCBeTFNiA6c9Tuw
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OUxeQR_ajp52O9h1KeKEpC
+          claim_id: c_ImricfX8NpNl1DdTGiJC8c
+          source_id: s_Gh6euCr2RKfuAXB8kPrVBR
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，812：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_94q1e1836gtMmWzZkszZK7
         status: active
         display_name: 王益
         merged_into_person_id: null
@@ -777,6 +803,32 @@ relationships:
         status: active
         display_name: 王氏 (福國夫人)
         merged_into_person_id: null
+    - claim:
+        id: c_RhZ1eTgEVHYqQeGwbzDMMG
+        subject_person_id: p_fuv1kE3UCBeTFNiA6c9Tuw
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_xx9vuxYeyGz3S9KNvmjGws
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_LWhZUN8LmcYqy9KP1-zddY
+          claim_id: c_RhZ1eTgEVHYqQeGwbzDMMG
+          source_id: s_Gh6euCr2RKfuAXB8kPrVBR
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，954：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_xx9vuxYeyGz3S9KNvmjGws
+        status: active
+        display_name: 王雱
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses:
@@ -875,8 +927,60 @@ relationships:
         status: active
         display_name: 吴氏
         merged_into_person_id: null
+    - claim:
+        id: c_lfJqBnYPLCW9PlGPKhclLB
+        subject_person_id: p_fuv1kE3UCBeTFNiA6c9Tuw
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_4xrT4auYPhfo7nPM4qHRLt
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_RlX_ibmMfn4w_xSU9836df
+          claim_id: c_lfJqBnYPLCW9PlGPKhclLB
+          source_id: s_Gh6euCr2RKfuAXB8kPrVBR
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1536;1537：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_4xrT4auYPhfo7nPM4qHRLt
+        status: active
+        display_name: 吴氏
+        merged_into_person_id: null
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_MxrfXhySokui9kodIduG8M
+        subject_person_id: p_fuv1kE3UCBeTFNiA6c9Tuw
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_sJJf5iLL8jKATB3SGymAEh
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZhCL_ZkJWajj2YzCoZlzmx
+          claim_id: c_MxrfXhySokui9kodIduG8M
+          source_id: s_Gh6euCr2RKfuAXB8kPrVBR
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，765：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_sJJf5iLL8jKATB3SGymAEh
+        status: active
+        display_name: 王珏
+        merged_into_person_id: null
   other: []
 ---
 
@@ -900,12 +1004,16 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_TCJasuo9M43ytz26ea5oSn | 王益 | accepted |
+| parents | p_94q1e1836gtMmWzZkszZK7 | 王益 | accepted |
 | children | p_3jndG2hj7kt16dVBTqH186 | 王雱 | accepted |
 | children | p_LSdPThzG5tshqXfyGSe2wD | 王滂 | accepted |
 | children | p_svNoVTBbnvNZLtqQbge32p | 王氏 | accepted |
 | children | p_vFBCdQNYBoHXHjCLYgTqM3 | 王旁 | accepted |
 | children | p_E9kT5jEzU388HxnFt4wY8k | 王氏 (福國夫人) | accepted |
+| children | p_xx9vuxYeyGz3S9KNvmjGws | 王雱 | accepted |
 | spouses | p_4xrT4auYPhfo7nPM4qHRLt | 吴氏 | accepted |
+| spouses | p_4xrT4auYPhfo7nPM4qHRLt | 吴氏 | accepted |
+| descendants | p_sJJf5iLL8jKATB3SGymAEh | 王珏 | accepted |
 
 ## 外部来源
 

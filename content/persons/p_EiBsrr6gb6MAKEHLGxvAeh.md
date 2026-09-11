@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王永玉
 cbdb_id: 288602
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:288602
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_swoq6vNGbxa9B53NJPJX8A
             source_type: api_record
             title: 中国历代人物传记资料库：王永玉（CBDB 288602）
@@ -92,7 +92,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_XnZj5jurAIWoP2N6Juy6cl
+        subject_person_id: p_EiBsrr6gb6MAKEHLGxvAeh
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_wrYjpDvL8MtRavfwnm1dKh
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1kStAQx0OBg9QvVecNENdR
+          claim_id: c_XnZj5jurAIWoP2N6Juy6cl
+          source_id: s_swoq6vNGbxa9B53NJPJX8A
+          stance: supports
+          locator: 嘉靖八年進士登科錄:一卷，第三甲第二十三名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_wrYjpDvL8MtRavfwnm1dKh
+        status: active
+        display_name: 王滋
+        merged_into_person_id: null
   other: []
 ---
 
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_wrYjpDvL8MtRavfwnm1dKh | 王滋 | accepted |
 
 ## 外部来源
 

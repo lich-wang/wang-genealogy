@@ -4,7 +4,7 @@ id: p_rVFThqwFvLsRtWBUE1HLZ4
 status: active
 merged_into: null
 display_name: 王洙
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -132,7 +132,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_2uQS9WyvLFqCuzO0iQkyXd
+        subject_person_id: p_dhFVx6GMqbAdJa25T7qrk6
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_rVFThqwFvLsRtWBUE1HLZ4
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gyW10cW1Y26ZQFApLp6xZg
+          claim_id: c_2uQS9WyvLFqCuzO0iQkyXd
+          source_id: s_hNWTMBC6q552FxcCtxB4Vw
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，729;730：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_hNWTMBC6q552FxcCtxB4Vw
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：齊氏（5399）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=5399&o=json
+            external_identifier: CBDB:5399
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:00:00.416Z
+            metadata_json: null
+      object_person:
+        id: p_dhFVx6GMqbAdJa25T7qrk6
+        status: active
+        display_name: 齐氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_dhFVx6GMqbAdJa25T7qrk6 | 齐氏 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王洙（CBDB 3941）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3941&o=json)
+- [CBDB 中国历代人物传记资料库：齊氏（5399）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=5399&o=json)

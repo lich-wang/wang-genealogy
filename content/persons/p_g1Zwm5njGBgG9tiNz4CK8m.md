@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王全斌
 cbdb_id: 11689
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:11689
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_Fdf7Gn5JLEsZX3eJwKcsbG
             source_type: api_record
             title: 中国历代人物传记资料库：王全斌（CBDB 11689）
@@ -125,6 +125,58 @@ relationships:
         status: active
         display_name: 王永昌
         merged_into_person_id: null
+    - claim:
+        id: c_LdxE1dfnmwu8IW9kRFlILC
+        subject_person_id: p_g1Zwm5njGBgG9tiNz4CK8m
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_oF3PDnVnW73ydu6324XHnB
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BOcTlfHEV5jOb0Yzu99NZX
+          claim_id: c_LdxE1dfnmwu8IW9kRFlILC
+          source_id: s_Fdf7Gn5JLEsZX3eJwKcsbG
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，2026：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_oF3PDnVnW73ydu6324XHnB
+        status: active
+        display_name: 王審銳
+        merged_into_person_id: null
+    - claim:
+        id: c_sCyEeYUgTlfjDqEEHJ7ra3
+        subject_person_id: p_g1Zwm5njGBgG9tiNz4CK8m
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_5iuF56QtzML5N9vH86cANF
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Nu538H_hO4jSGQZeJP9f8N
+          claim_id: c_sCyEeYUgTlfjDqEEHJ7ra3
+          source_id: s_Fdf7Gn5JLEsZX3eJwKcsbG
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，2025：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_5iuF56QtzML5N9vH86cANF
+        status: active
+        display_name: 王審鈞
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -167,6 +219,32 @@ relationships:
         status: active
         display_name: 王凱
         merged_into_person_id: null
+    - claim:
+        id: c_bVbAIhcrT-jY272YR8CNTH
+        subject_person_id: p_g1Zwm5njGBgG9tiNz4CK8m
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_TG677A2uqsLQn3jRYXYFJs
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZTNd9JPwh8HtBPO7QUJCaz
+          claim_id: c_bVbAIhcrT-jY272YR8CNTH
+          source_id: s_Fdf7Gn5JLEsZX3eJwKcsbG
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，987：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_TG677A2uqsLQn3jRYXYFJs
+        status: active
+        display_name: 王彭
+        merged_into_person_id: null
   other: []
 ---
 
@@ -186,7 +264,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_G2nFDbvnbsRwbtBHUM7UBY | 王永昌 | accepted |
+| children | p_oF3PDnVnW73ydu6324XHnB | 王審銳 | accepted |
+| children | p_5iuF56QtzML5N9vH86cANF | 王審鈞 | accepted |
 | descendants | p_QoJPmnH2p3TN2WeA18wP8z | 王凱 | accepted |
+| descendants | p_TG677A2uqsLQn3jRYXYFJs | 王彭 | accepted |
 
 ## 外部来源
 

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王在晉
 cbdb_id: 64468
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,7 +86,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_HYnQEnXuwYGqJ-gD3sSsbM
+        subject_person_id: p_fj97sG1LzpBaRtp35NJpLY
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_AFdJ7pAjfwQ6cMiK8RCDT2
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xzYVqiM4K9XuHlDWm2-3rn
+          claim_id: c_HYnQEnXuwYGqJ-gD3sSsbM
+          source_id: s_yCWU7sFJwzCiRuhfERVnmh
+          stance: supports
+          locator: 萬曆二十年壬辰科進士歷履便覽:一卷，第三甲第一百八十一名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_yCWU7sFJwzCiRuhfERVnmh
+            source_type: api_record
+            title: 中国历代人物传记资料库：王亮器（CBDB 231882）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231882&o=json
+            external_identifier: CBDB:231882
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:58.142Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_fj97sG1LzpBaRtp35NJpLY
+        status: active
+        display_name: 王亮器
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -185,11 +223,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_fj97sG1LzpBaRtp35NJpLY | 王亮器 | accepted |
 | ancestors | p_d1Lyrtyu4j3AM9Goy6dTcT | 王祺 | accepted |
 | ancestors | p_fAinSNShUSAPALebedd6vv | 王瓚 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王亮器（CBDB 231882）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231882&o=json)
 - [中国历代人物传记资料库：王祺（CBDB 231880）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231880&o=json)
 - [中国历代人物传记资料库：王在晉（CBDB 64468）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=64468&o=json)
 - [中国历代人物传记资料库：王瓚（CBDB 231881）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231881&o=json)

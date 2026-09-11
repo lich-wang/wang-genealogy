@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王希夔
 cbdb_id: 207197
-revision: 4
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -247,6 +247,44 @@ relationships:
         status: active
         display_name: 王廷錦
         merged_into_person_id: null
+    - claim:
+        id: c_x8_gCOGN-1IxuGeAbO-1Et
+        subject_person_id: p_fryYWsicokQBj86CTS3JAf
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_p7XKo89NhBCAZto4tXob1s
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KeAk5rHzfWp1Hd9bqMXNs3
+          claim_id: c_x8_gCOGN-1IxuGeAbO-1Et
+          source_id: s_5BHtNEq31b4oV9f9DdrnZW
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第三甲第二百五十名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_5BHtNEq31b4oV9f9DdrnZW
+            source_type: api_record
+            title: 中国历代人物传记资料库：王曰貴（CBDB 229374）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=229374&o=json
+            external_identifier: CBDB:229374
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:58.142Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_fryYWsicokQBj86CTS3JAf
+        status: active
+        display_name: 王曰貴
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -270,6 +308,7 @@ relationships:
 | parents | p_fsKE1F67GJMdBZo9s2p2SK | 王俊民 | accepted |
 | children | p_ck2BrVefon5H9bCvfyBGcG | 王奇樑 | accepted |
 | ancestors | p_B5xFopjtCjwah51mcq9cJA | 王廷錦 | accepted |
+| ancestors | p_fryYWsicokQBj86CTS3JAf | 王曰貴 | accepted |
 
 ## 外部来源
 
@@ -277,3 +316,4 @@ relationships:
 - [中国历代人物传记资料库：王奇樑（CBDB 229382）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=229382&o=json)
 - [中国历代人物传记资料库：王廷錦（CBDB 229373）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=229373&o=json)
 - [中国历代人物传记资料库：王希夔（CBDB 207197）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207197&o=json)
+- [中国历代人物传记资料库：王曰貴（CBDB 229374）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=229374&o=json)

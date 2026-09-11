@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王道貞
 cbdb_id: 524359
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:524359
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_Wjtp8tAobXMopg3HgXxk7b
             source_type: api_record
             title: 中国历代人物传记资料库：王道貞（CBDB 524359）
@@ -86,7 +86,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_4hBOwxqBwLyfaAn9GP-I8o
+        subject_person_id: p_XLzE7EyB5VaDYLv2XHEgHa
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_FgnH5Tex3eEM8HgEHgSdm9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vv6-d6P-mPBrjQBmLCZdwC
+          claim_id: c_4hBOwxqBwLyfaAn9GP-I8o
+          source_id: s_Wjtp8tAobXMopg3HgXxk7b
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），10886：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_XLzE7EyB5VaDYLv2XHEgHa
+        status: active
+        display_name: 王佐
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_XLzE7EyB5VaDYLv2XHEgHa | 王佐 | accepted |
 
 ## 外部来源
 

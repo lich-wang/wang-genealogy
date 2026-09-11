@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王審鈞
 cbdb_id: 17252
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,7 +86,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_sCyEeYUgTlfjDqEEHJ7ra3
+        subject_person_id: p_g1Zwm5njGBgG9tiNz4CK8m
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_5iuF56QtzML5N9vH86cANF
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Nu538H_hO4jSGQZeJP9f8N
+          claim_id: c_sCyEeYUgTlfjDqEEHJ7ra3
+          source_id: s_Fdf7Gn5JLEsZX3eJwKcsbG
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，2025：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Fdf7Gn5JLEsZX3eJwKcsbG
+            source_type: api_record
+            title: 中国历代人物传记资料库：王全斌（CBDB 11689）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=11689&o=json
+            external_identifier: CBDB:11689
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:44.071Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_g1Zwm5njGBgG9tiNz4CK8m
+        status: active
+        display_name: 王全斌
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -148,9 +186,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_g1Zwm5njGBgG9tiNz4CK8m | 王全斌 | accepted |
 | descendants | p_GrcPU22YikfiRPALs5F2kU | 王旭 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王全斌（CBDB 11689）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=11689&o=json)
 - [中国历代人物传记资料库：王審鈞（CBDB 17252）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17252&o=json)
 - [中国历代人物传记资料库：王旭（CBDB 17838）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17838&o=json)

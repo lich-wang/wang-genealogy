@@ -4,7 +4,7 @@ id: p_cdvLWdUT8xwQ2GV4vwbiSj
 status: active
 merged_into: null
 display_name: 王明
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_UsTPBbNTImd7X05vM8VG4c
+        subject_person_id: p_dr5THMYZGs7zW675Bw8A4u
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_cdvLWdUT8xwQ2GV4vwbiSj
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xdfb6CQ2t0fnM10tUwvFb1
+          claim_id: c_UsTPBbNTImd7X05vM8VG4c
+          source_id: s_pzKa22AK3ZSEDJTFQ71tEE
+          stance: supports
+          locator: 萬曆八年進士登科錄:一卷，第三甲第一百九十名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_pzKa22AK3ZSEDJTFQ71tEE
+            source_type: api_record
+            title: 中国历代人物传记资料库：王玉圭（CBDB 221458）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221458&o=json
+            external_identifier: CBDB:221458
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:56.502Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_dr5THMYZGs7zW675Bw8A4u
+        status: active
+        display_name: 王玉圭
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -171,6 +209,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_dr5THMYZGs7zW675Bw8A4u | 王玉圭 | accepted |
 | ancestors | p_8YJr5iN4qPp3nLCKpSvh1Z | 王欽 | accepted |
 | ancestors | p_UcLAoUsQRg5X99v3V1g2V3 | 王和 | accepted |
 
@@ -179,3 +218,4 @@ relationships:
 - [中国历代人物传记资料库：王和（CBDB 221457）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221457&o=json)
 - [中国历代人物传记资料库：王明（CBDB 126580）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126580&o=json)
 - [中国历代人物传记资料库：王欽（CBDB 221456）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221456&o=json)
+- [中国历代人物传记资料库：王玉圭（CBDB 221458）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221458&o=json)

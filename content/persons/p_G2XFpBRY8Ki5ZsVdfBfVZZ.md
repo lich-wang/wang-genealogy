@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王府兒
 cbdb_id: 148283
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:148283
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_n8Vax9v2qoXTj5XWxFak2K
             source_type: api_record
             title: 中国历代人物传记资料库：王府兒（CBDB 148283）
@@ -86,7 +86,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_pCW0M8HQcu-0QycN_00ThX
+        subject_person_id: p_UV3co1QXVmpbgDP6L1Wo4p
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_G2XFpBRY8Ki5ZsVdfBfVZZ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dN_2faMH4JV6odZbcA9MfR
+          claim_id: c_pCW0M8HQcu-0QycN_00ThX
+          source_id: s_n8Vax9v2qoXTj5XWxFak2K
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Qianfeng 55：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_UV3co1QXVmpbgDP6L1Wo4p
+        status: active
+        display_name: 王師
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_UV3co1QXVmpbgDP6L1Wo4p | 王師 | accepted |
 
 ## 外部来源
 

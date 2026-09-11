@@ -4,7 +4,7 @@ id: p_5H9kac1NHpV2vu5J2pvsAi
 status: active
 merged_into: null
 display_name: 王德用
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -167,6 +167,43 @@ relationships:
         status: active
         display_name: 王咸熙
         merged_into_person_id: null
+    - claim:
+        id: c_njD54nyMHRjdOlU9wj_M3k
+        subject_person_id: p_5H9kac1NHpV2vu5J2pvsAi
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_fNDQKdiX4EXsh5cDx6tGL7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_W-RwBrUlXqiSR8tNeP4pEF
+          claim_id: c_njD54nyMHRjdOlU9wj_M3k
+          source_id: s_4jEKYr1b3sefvVFW4AJoyn
+          stance: supports
+          locator: 宋史：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_4jEKYr1b3sefvVFW4AJoyn
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王咸融（119747）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=119747&o=json
+            external_identifier: CBDB:119747
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:59:05.032Z
+            metadata_json: null
+      object_person:
+        id: p_fNDQKdiX4EXsh5cDx6tGL7
+        status: active
+        display_name: 王咸融
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -193,8 +230,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_628btDKdbR4ERpBGANNokB | 王咸熙 | accepted |
+| children | p_fNDQKdiX4EXsh5cDx6tGL7 | 王咸融 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王德用（CBDB 1893）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1893&o=json)
+- [CBDB 中国历代人物传记资料库：王咸融（119747）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=119747&o=json)
 - [CBDB 中国历代人物传记资料库：王咸熙（21947）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=21947&o=json)

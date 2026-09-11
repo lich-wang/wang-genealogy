@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王谟
 cbdb_id: 313121
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -229,7 +229,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_BykQ0eCszU8lx8RqVOYAKM
+        subject_person_id: p_fubDQJjS45y6q3DDqG3cmV
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_KbE3VYwBQk3rLuTGnVB2me
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zpuvwi4RHSkNWpiUsTWb4T
+          claim_id: c_BykQ0eCszU8lx8RqVOYAKM
+          source_id: s_k2BKXhddiWDeQJng65taJ9
+          stance: supports
+          locator: 嘉靖二十九年進士登科錄:一卷，第三甲第四十四名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_KbE3VYwBQk3rLuTGnVB2me
+        status: active
+        display_name: 王正国
+        merged_into_person_id: null
   other: []
 ---
 
@@ -250,6 +276,7 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_YdbFSMV9s3AQb86u7EkdDN | 王臣 | accepted |
 | children | p_Uu3urkECTiPumEtH6sBydY | 王邦瑞 | accepted |
+| descendants | p_KbE3VYwBQk3rLuTGnVB2me | 王正国 | accepted |
 
 ## 外部来源
 

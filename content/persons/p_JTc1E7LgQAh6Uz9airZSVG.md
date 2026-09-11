@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王雲鷺
 cbdb_id: 205920
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -172,6 +172,44 @@ relationships:
         status: active
         display_name: 王文
         merged_into_person_id: null
+    - claim:
+        id: c_TiwhVz0tXdGxS5j14VOKPz
+        subject_person_id: p_EswMvP7VGuydnr4Xe2zHpk
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_JTc1E7LgQAh6Uz9airZSVG
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4pWLussrfFK81AcIIh7rDb
+          claim_id: c_TiwhVz0tXdGxS5j14VOKPz
+          source_id: s_jnqByBsv38qDMZ9SPHrGU9
+          stance: supports
+          locator: 隆慶五年進士登科錄:一卷，第三甲第一百六十八名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_jnqByBsv38qDMZ9SPHrGU9
+            source_type: api_record
+            title: 中国历代人物传记资料库：王肅時（CBDB 210675）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210675&o=json
+            external_identifier: CBDB:210675
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:55.593Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_EswMvP7VGuydnr4Xe2zHpk
+        status: active
+        display_name: 王肅時
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -193,8 +231,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_tSboei7PeevkFbNm86EkDE | 王文 | accepted |
+| ancestors | p_EswMvP7VGuydnr4Xe2zHpk | 王肅時 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王肅時（CBDB 210675）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210675&o=json)
 - [中国历代人物传记资料库：王文（CBDB 210674）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210674&o=json)
 - [中国历代人物传记资料库：王雲鷺（CBDB 205920）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205920&o=json)

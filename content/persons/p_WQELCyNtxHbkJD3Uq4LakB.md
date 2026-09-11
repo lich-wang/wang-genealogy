@@ -4,7 +4,7 @@ id: p_WQELCyNtxHbkJD3Uq4LakB
 status: active
 merged_into: null
 display_name: 王堯封
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -152,6 +152,44 @@ relationships:
         status: active
         display_name: 王興
         merged_into_person_id: null
+    - claim:
+        id: c_l5j12_7eHa9ngZ0wS9cS43
+        subject_person_id: p_EiHTYbCwNgFcHn8XwhbjFh
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_WQELCyNtxHbkJD3Uq4LakB
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_L8Mn_PlcjgbKIuGXm7BY0x
+          claim_id: c_l5j12_7eHa9ngZ0wS9cS43
+          source_id: s_LkPn9LoimCMJu9HKvJ9vQ5
+          stance: supports
+          locator: 弘治十八年進士登科錄:一卷，第三甲第二十名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_LkPn9LoimCMJu9HKvJ9vQ5
+            source_type: api_record
+            title: 中国历代人物传记资料库：王得辛（CBDB 273829）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=273829&o=json
+            external_identifier: CBDB:273829
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:02.295Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_EiHTYbCwNgFcHn8XwhbjFh
+        status: active
+        display_name: 王得辛
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -173,9 +211,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_iqf8z5vVDeG4f4cJMH52mk | 王諒 | accepted |
 | ancestors | p_mPHsf6VHzJt1o5uC9iYCJS | 王興 | accepted |
+| ancestors | p_EiHTYbCwNgFcHn8XwhbjFh | 王得辛 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王得辛（CBDB 273829）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=273829&o=json)
 - [中国历代人物传记资料库：王諒（CBDB 273830）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=273830&o=json)
 - [中国历代人物传记资料库：王興（CBDB 273827）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=273827&o=json)
 - [中国历代人物传记资料库：王堯封（CBDB 126716）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126716&o=json)

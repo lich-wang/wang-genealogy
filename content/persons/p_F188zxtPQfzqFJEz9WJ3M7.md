@@ -4,7 +4,7 @@ id: p_F188zxtPQfzqFJEz9WJ3M7
 status: active
 merged_into: null
 display_name: 王象乾
-revision: 5
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -254,6 +254,43 @@ relationships:
         status: active
         display_name: 王重光
         merged_into_person_id: null
+    - claim:
+        id: c_P17Pj_2krE8r923oIzfvdK
+        subject_person_id: p_dFBcsKbnFVcHN4YTvXeRwY
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_F188zxtPQfzqFJEz9WJ3M7
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__OUH7KFisnfMSIxF4-4c71
+          claim_id: c_P17Pj_2krE8r923oIzfvdK
+          source_id: s_3zCeacwcDkrZyMjH7kCBJZ
+          stance: supports
+          locator: 隆慶五年進士登科錄:一卷，第三甲第二百三十二名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_3zCeacwcDkrZyMjH7kCBJZ
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王麟（220261）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=220261&o=json
+            external_identifier: CBDB:220261
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:00:09.445Z
+            metadata_json: null
+      object_person:
+        id: p_dFBcsKbnFVcHN4YTvXeRwY
+        status: active
+        display_name: 王麟
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -278,6 +315,7 @@ relationships:
 | spouses | p_6B46xfsBHuon3WVtJCQRJK | 毕氏 | accepted |
 | spouses | p_a5vJPZn1znnbX98EG3cueA | 孟氏 | accepted |
 | ancestors | p_ekUUUcSyzN6WhRbt4eNPox | 王重光 | accepted |
+| ancestors | p_dFBcsKbnFVcHN4YTvXeRwY | 王麟 | accepted |
 
 ## 外部来源
 
@@ -286,3 +324,4 @@ relationships:
 - [中国历代人物传记资料库：王重光（CBDB 220262）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=220262&o=json)
 - [CBDB 中国历代人物传记资料库：畢氏（211357）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=211357&o=json)
 - [CBDB 中国历代人物传记资料库：孟氏（211358）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=211358&o=json)
+- [CBDB 中国历代人物传记资料库：王麟（220261）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=220261&o=json)

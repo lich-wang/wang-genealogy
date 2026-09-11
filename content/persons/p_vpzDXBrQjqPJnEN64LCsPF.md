@@ -4,7 +4,7 @@ id: p_vpzDXBrQjqPJnEN64LCsPF
 status: active
 merged_into: null
 display_name: 王臬
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -245,7 +245,45 @@ relationships:
         status: active
         display_name: 王鎮
         merged_into_person_id: null
-  descendants: []
+  descendants:
+    - claim:
+        id: c_RXnnaCP1jotYsevS1ot94F
+        subject_person_id: p_vpzDXBrQjqPJnEN64LCsPF
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_FE6i55GXzPWLVER3EtdHfo
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_oH9k8Z3iQ-Bnlp_I3REJK_
+          claim_id: c_RXnnaCP1jotYsevS1ot94F
+          source_id: s_FjES678jDu1PEn5f7GLKsm
+          stance: supports
+          locator: 明詩紀事:一百八十七卷，辛籤卷三二：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_FjES678jDu1PEn5f7GLKsm
+            source_type: api_record
+            title: 中国历代人物传记资料库：王彥泓（CBDB 120462）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=120462&o=json
+            external_identifier: CBDB:120462
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:37.980Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_FE6i55GXzPWLVER3EtdHfo
+        status: active
+        display_name: 王彥泓
+        merged_into_person_id: null
   other: []
 ---
 
@@ -269,10 +307,12 @@ relationships:
 | parents | p_QN7EhCDtejfmZYbCTCBWyv | 王瀚 | accepted |
 | ancestors | p_9HwAdJGnojFgrqfjKCEfL9 | 王政 | accepted |
 | ancestors | p_Mu6RFBp4T1u3QTCS8N1auf | 王鎮 | accepted |
+| descendants | p_FE6i55GXzPWLVER3EtdHfo | 王彥泓 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王瀚（CBDB 279548）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=279548&o=json)
 - [中国历代人物传记资料库：王臬（CBDB 34721）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34721&o=json)
+- [中国历代人物传记资料库：王彥泓（CBDB 120462）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=120462&o=json)
 - [中国历代人物传记资料库：王鎮（CBDB 279547）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=279547&o=json)
 - [中国历代人物传记资料库：王政（CBDB 279546）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=279546&o=json)

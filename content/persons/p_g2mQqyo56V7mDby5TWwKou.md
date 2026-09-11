@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王蒙吉
 cbdb_id: 526181
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:526181
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_5ksFK3oZ89eYJS4TgEHDeY
             source_type: api_record
             title: 中国历代人物传记资料库：王蒙吉（CBDB 526181）
@@ -92,7 +92,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_sGgZBc25gRsSCH82OJj9-a
+        subject_person_id: p_g2mQqyo56V7mDby5TWwKou
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_qC31C42hD4UK4m3NDzMPZB
+        generation_count: 4
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jMWMruJDkR2opRsE3m10EB
+          claim_id: c_sGgZBc25gRsSCH82OJj9-a
+          source_id: s_5ksFK3oZ89eYJS4TgEHDeY
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），12015：玄孫;四世孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_qC31C42hD4UK4m3NDzMPZB
+        status: active
+        display_name: 王暐
+        merged_into_person_id: null
   other: []
 ---
 
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_qC31C42hD4UK4m3NDzMPZB | 王暐 | accepted |
 
 ## 外部来源
 

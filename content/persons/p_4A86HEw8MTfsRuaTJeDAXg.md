@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王如堅
 cbdb_id: 126521
-revision: 4
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,7 +86,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_ZAUp-ZP6v1pV52A9RA4_Mb
+        subject_person_id: p_F5hazwzcVncNtpZFL7kuXD
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_4A86HEw8MTfsRuaTJeDAXg
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-oDgaOOYvXHI21O3mCE6k4
+          claim_id: c_ZAUp-ZP6v1pV52A9RA4_Mb
+          source_id: s_Gh9VDhwPz46aMKUmb4b9Ns
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第三甲第一百六十九名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Gh9VDhwPz46aMKUmb4b9Ns
+            source_type: api_record
+            title: 中国历代人物传记资料库：王端昌（CBDB 226065）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=226065&o=json
+            external_identifier: CBDB:226065
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:57.241Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_F5hazwzcVncNtpZFL7kuXD
+        status: active
+        display_name: 王端昌
+        merged_into_person_id: null
   children:
     - claim:
         id: c_wW9r1Gdw4tmbH2YLcY7QNY
@@ -223,12 +261,14 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_F5hazwzcVncNtpZFL7kuXD | 王端昌 | accepted |
 | children | p_U9b6v9c6R1jEbuddukv4n9 | 王立德 | accepted |
 | ancestors | p_Kx5m9AG61yTn4dcbNdJvSZ | 王淇 | accepted |
 | ancestors | p_3wL2fQErDSb4B4arPG5LJq | 王有懋 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王端昌（CBDB 226065）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=226065&o=json)
 - [中国历代人物传记资料库：王立德（CBDB 226078）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=226078&o=json)
 - [中国历代人物传记资料库：王淇（CBDB 226063）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=226063&o=json)
 - [中国历代人物传记资料库：王如堅（CBDB 126521）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126521&o=json)

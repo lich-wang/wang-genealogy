@@ -4,7 +4,7 @@ id: p_R77qQWn6AaKWcHuNaQWCy2
 status: active
 merged_into: null
 display_name: 王堂
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_FRv10HwUuZrWny0T_CcXR4
+        subject_person_id: p_DcTxGi4fs4wDZZw4QNf6x3
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_R77qQWn6AaKWcHuNaQWCy2
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_H8f3fQrEFijtF1x1A1zF_b
+          claim_id: c_FRv10HwUuZrWny0T_CcXR4
+          source_id: s_QD7e9gogwKyyH6h8d22xEv
+          stance: supports
+          locator: 嘉靖三十八年進士登科錄:一卷，第三甲第四十九名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_QD7e9gogwKyyH6h8d22xEv
+            source_type: api_record
+            title: 中国历代人物传记资料库：王本雚（CBDB 324425）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324425&o=json
+            external_identifier: CBDB:324425
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:06.922Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_DcTxGi4fs4wDZZw4QNf6x3
+        status: active
+        display_name: 王本雚
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -201,11 +239,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_DcTxGi4fs4wDZZw4QNf6x3 | 王本雚 | accepted |
 | ancestors | p_Bra3wsJ6ysE9pnbB2keq5x | 王定 | accepted |
 | ancestors | p_3GVtF1CSJpGQWYhKPXwVwq | 王思鑑 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王本雚（CBDB 324425）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324425&o=json)
 - [中国历代人物传记资料库：王定（CBDB 324424）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324424&o=json)
 - [中国历代人物传记资料库：王思鑑（CBDB 324423）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324423&o=json)
 - [中国历代人物传记资料库：王堂（CBDB 204814）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204814&o=json)

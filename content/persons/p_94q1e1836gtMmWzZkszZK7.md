@@ -4,7 +4,7 @@ id: p_94q1e1836gtMmWzZkszZK7
 status: active
 merged_into: null
 display_name: 王益
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -166,7 +166,44 @@ relationships:
         status: active
         display_name: 谢氏
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_ImricfX8NpNl1DdTGiJC8c
+        subject_person_id: p_94q1e1836gtMmWzZkszZK7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_fuv1kE3UCBeTFNiA6c9Tuw
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OUxeQR_ajp52O9h1KeKEpC
+          claim_id: c_ImricfX8NpNl1DdTGiJC8c
+          source_id: s_Gh6euCr2RKfuAXB8kPrVBR
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，812：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Gh6euCr2RKfuAXB8kPrVBR
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库
+            creator: null
+            publisher: null
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu
+            external_identifier: CBDB:1762
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: null
+            metadata_json: null
+      object_person:
+        id: p_fuv1kE3UCBeTFNiA6c9Tuw
+        status: active
+        display_name: 王安石
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -193,8 +230,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_ayDBbENQJQKZToA3G7hGQm | 谢氏 | accepted |
+| children | p_fuv1kE3UCBeTFNiA6c9Tuw | 王安石 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王益（CBDB 7082）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=7082&o=json)
+- [CBDB 中国历代人物传记资料库](https://cbdb.fas.harvard.edu)
 - [CBDB 中国历代人物传记资料库：謝氏（5305）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=5305&o=json)

@@ -4,7 +4,7 @@ id: p_AxnhzouFhPDEcn88n2bfsw
 status: active
 merged_into: null
 display_name: 王宗沐
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -166,7 +166,45 @@ relationships:
         status: active
         display_name: 王训
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_f7G65wmyUyyhwA_4zBOa4a
+        subject_person_id: p_AxnhzouFhPDEcn88n2bfsw
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_F5eJWEbAr7A8TPLP4MEWxZ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AWUZcarGgZ_PdFylV9kdqM
+          claim_id: c_f7G65wmyUyyhwA_4zBOa4a
+          source_id: s_C9gTjBqW8ZfLCwvkN3sRxD
+          stance: supports
+          locator: 臨海縣志，lgid=353152：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_C9gTjBqW8ZfLCwvkN3sRxD
+            source_type: api_record
+            title: 中国历代人物传记资料库：王士業（CBDB 222410）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222410&o=json
+            external_identifier: CBDB:222410
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:57.241Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_F5eJWEbAr7A8TPLP4MEWxZ
+        status: active
+        display_name: 王士業
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -267,11 +305,13 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_aZ1ZKEEFmDKA3BH7yDPbwn | 王训 | accepted |
+| children | p_F5eJWEbAr7A8TPLP4MEWxZ | 王士業 | accepted |
 | ancestors | p_SwDsuB67vTqP193VDVu7Pk | 王逸卿 | accepted |
 | ancestors | p_VkzS7RnDgwBF356dDv2J9B | 王纉 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王士業（CBDB 222410）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222410&o=json)
 - [中国历代人物传记资料库：王逸卿（CBDB 305708）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305708&o=json)
 - [中国历代人物传记资料库：王宗沐（CBDB 35065）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35065&o=json)
 - [CBDB 中国历代人物传记资料库：王訓（305709）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305709&o=json)

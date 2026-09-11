@@ -4,7 +4,7 @@ id: p_vZnDcXFqAU9qkQZwwP1LXd
 status: active
 merged_into: null
 display_name: 王鍊
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -205,6 +205,44 @@ relationships:
         status: active
         display_name: 王敬夫
         merged_into_person_id: null
+    - claim:
+        id: c_BTr8FH8wBrA_Gjfocjy7KS
+        subject_person_id: p_vZnDcXFqAU9qkQZwwP1LXd
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_DDArK2LAvP4GHuuKNQGNc6
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2VBri-KfWFVfSwG4m9aPHJ
+          claim_id: c_BTr8FH8wBrA_Gjfocjy7KS
+          source_id: s_S8MkVgTvu1gJ4vd6v9f2vk
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaicheng 54：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_S8MkVgTvu1gJ4vd6v9f2vk
+            source_type: api_record
+            title: 中国历代人物传记资料库：王昉夫（CBDB 158499）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=158499&o=json
+            external_identifier: CBDB:158499
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:54.122Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_DDArK2LAvP4GHuuKNQGNc6
+        status: active
+        display_name: 王昉夫
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -232,9 +270,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_NtjqGjuyLxfaZuGR1PCVjh | 王宣 | accepted |
 | children | p_aV5Zc8BcWF5HHt1kdYi48X | 王敬夫 | accepted |
+| children | p_DDArK2LAvP4GHuuKNQGNc6 | 王昉夫 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王昉夫（CBDB 158499）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=158499&o=json)
 - [中国历代人物传记资料库：王敬夫（CBDB 158496）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=158496&o=json)
 - [中国历代人物传记资料库：王鍊（CBDB 141786）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=141786&o=json)
 - [中国历代人物传记资料库：王宣（CBDB 158494）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=158494&o=json)

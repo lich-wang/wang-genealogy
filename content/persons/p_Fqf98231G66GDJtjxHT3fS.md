@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王孝遠
 cbdb_id: 151071
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,7 +86,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_S4Jxi56K7EqhAG3G1qJStr
+        subject_person_id: p_EV8fEUrhLwWyvaPQ2UhEec
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Fqf98231G66GDJtjxHT3fS
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KVmIp-EzeO6yj9YSRkJpHd
+          claim_id: c_S4Jxi56K7EqhAG3G1qJStr
+          source_id: s_5KfF6oEm5XBePQsAH2yKBp
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_5KfF6oEm5XBePQsAH2yKBp
+            source_type: api_record
+            title: 中国历代人物传记资料库：王君儒（CBDB 151070）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=151070&o=json
+            external_identifier: CBDB:151070
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:53.368Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_EV8fEUrhLwWyvaPQ2UhEec
+        status: active
+        display_name: 王君儒
+        merged_into_person_id: null
   children:
     - claim:
         id: c_NcM4CrYsMmIRdZm4OOdo6l
@@ -185,11 +223,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_EV8fEUrhLwWyvaPQ2UhEec | 王君儒 | accepted |
 | children | p_RvTW8uNTkyPJAAx88TaQxP | 王崇 | accepted |
 | children | p_uEBEoGitzHAkzsm1Lhs1px | 王嶷 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王崇（CBDB 151072）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=151072&o=json)
+- [中国历代人物传记资料库：王君儒（CBDB 151070）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=151070&o=json)
 - [中国历代人物传记资料库：王孝遠（CBDB 151071）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=151071&o=json)
 - [中国历代人物传记资料库：王嶷（CBDB 175777）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175777&o=json)

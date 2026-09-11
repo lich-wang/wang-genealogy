@@ -4,7 +4,7 @@ id: p_yw8Ldi3TsRvFBDPd73FPjN
 status: active
 merged_into: null
 display_name: 王玉
-revision: 6
+revision: 7
 properties:
   - predicate: name.primary
     recommended:
@@ -317,6 +317,44 @@ relationships:
         status: active
         display_name: 王五娘
         merged_into_person_id: null
+    - claim:
+        id: c_uOcRbaGDl8lBPd8IuKIXUN
+        subject_person_id: p_yw8Ldi3TsRvFBDPd73FPjN
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_DKRLuAgwgTRgJfLmZTodUd
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_TU5AcNEzVXO-pl3kEupuIE
+          claim_id: c_uOcRbaGDl8lBPd8IuKIXUN
+          source_id: s_uwdwfMbaAV7GFV6zWR6h1j
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Dazhong75：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_uwdwfMbaAV7GFV6zWR6h1j
+            source_type: api_record
+            title: 中国历代人物传记资料库：王道進（CBDB 167691）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=167691&o=json
+            external_identifier: CBDB:167691
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:54.741Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_DKRLuAgwgTRgJfLmZTodUd
+        status: active
+        display_name: 王道進
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -384,10 +422,12 @@ relationships:
 | children | p_vkvG2A7ta6iDdauCDcP2NZ | 王三娘 | accepted |
 | children | p_5cv9NCtG3iqJGamGiZ5ED9 | 王六娘 | accepted |
 | children | p_7mRmVnkyg3jB6Y4Z8gsExS | 王五娘 | accepted |
+| children | p_DKRLuAgwgTRgJfLmZTodUd | 王道進 | accepted |
 | ancestors | p_fPJxFS18uHAM4wH2bHoPQT | 王毅 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王道進（CBDB 167691）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=167691&o=json)
 - [中国历代人物传记资料库：王道興（CBDB 167692）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=167692&o=json)
 - [中国历代人物传记资料库：王六娘（CBDB 167695）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=167695&o=json)
 - [中国历代人物传记资料库：王清（CBDB 169430）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=169430&o=json)

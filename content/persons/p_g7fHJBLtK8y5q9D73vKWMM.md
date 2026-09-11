@@ -4,7 +4,7 @@ id: p_g7fHJBLtK8y5q9D73vKWMM
 status: active
 merged_into: null
 display_name: 王致遠
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_JKihel_fOvXLinxnbUEteD
+        subject_person_id: p_EpF9g41LdnDgRy6vzi3Sev
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_g7fHJBLtK8y5q9D73vKWMM
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Vb2eU-nS3Bz34bme3tkXfi
+          claim_id: c_JKihel_fOvXLinxnbUEteD
+          source_id: s_Qr3ThhMsn8Wh3xCAuuiqmU
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1775：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Qr3ThhMsn8Wh3xCAuuiqmU
+            source_type: api_record
+            title: 中国历代人物传记资料库：王允初（CBDB 37701）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37701&o=json
+            external_identifier: CBDB:37701
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:46.515Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_EpF9g41LdnDgRy6vzi3Sev
+        status: active
+        display_name: 王允初
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,7 +135,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_EpF9g41LdnDgRy6vzi3Sev | 王允初 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王允初（CBDB 37701）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37701&o=json)
 - [中国历代人物传记资料库：王致遠（CBDB 37700）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37700&o=json)

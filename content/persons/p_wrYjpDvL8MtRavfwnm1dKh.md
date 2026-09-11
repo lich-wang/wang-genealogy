@@ -4,7 +4,7 @@ id: p_wrYjpDvL8MtRavfwnm1dKh
 status: active
 merged_into: null
 display_name: 王滋
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,44 @@ relationships:
         status: active
         display_name: 王仲榮
         merged_into_person_id: null
+    - claim:
+        id: c_XnZj5jurAIWoP2N6Juy6cl
+        subject_person_id: p_EiBsrr6gb6MAKEHLGxvAeh
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_wrYjpDvL8MtRavfwnm1dKh
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1kStAQx0OBg9QvVecNENdR
+          claim_id: c_XnZj5jurAIWoP2N6Juy6cl
+          source_id: s_swoq6vNGbxa9B53NJPJX8A
+          stance: supports
+          locator: 嘉靖八年進士登科錄:一卷，第三甲第二十三名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_swoq6vNGbxa9B53NJPJX8A
+            source_type: api_record
+            title: 中国历代人物传记资料库：王永玉（CBDB 288602）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288602&o=json
+            external_identifier: CBDB:288602
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:03.722Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_EiBsrr6gb6MAKEHLGxvAeh
+        status: active
+        display_name: 王永玉
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +240,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_JKUVszPbyGjyE2dA3wdDiy | 王鎮 | accepted |
 | ancestors | p_xD154gfVfuQs4zTCR4PHqx | 王仲榮 | accepted |
+| ancestors | p_EiBsrr6gb6MAKEHLGxvAeh | 王永玉 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王永玉（CBDB 288602）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288602&o=json)
 - [中国历代人物传记资料库：王鎮（CBDB 288604）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288604&o=json)
 - [中国历代人物传记资料库：王仲榮（CBDB 288603）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288603&o=json)
 - [中国历代人物传记资料库：王滋（CBDB 202462）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202462&o=json)

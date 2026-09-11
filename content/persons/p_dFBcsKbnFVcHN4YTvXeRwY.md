@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王麟
 cbdb_id: 220261
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -274,7 +274,85 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_P17Pj_2krE8r923oIzfvdK
+        subject_person_id: p_dFBcsKbnFVcHN4YTvXeRwY
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_F188zxtPQfzqFJEz9WJ3M7
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__OUH7KFisnfMSIxF4-4c71
+          claim_id: c_P17Pj_2krE8r923oIzfvdK
+          source_id: s_3zCeacwcDkrZyMjH7kCBJZ
+          stance: supports
+          locator: 隆慶五年進士登科錄:一卷，第三甲第二百三十二名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_F188zxtPQfzqFJEz9WJ3M7
+        status: active
+        display_name: 王象乾
+        merged_into_person_id: null
+    - claim:
+        id: c_LPlgnMFus4S4GK2p24QtGH
+        subject_person_id: p_dFBcsKbnFVcHN4YTvXeRwY
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_1vwHH8EjSEP1q2oifpwF8P
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_M66q6aSYDZbgu8fri12Wsj
+          claim_id: c_LPlgnMFus4S4GK2p24QtGH
+          source_id: s_3zCeacwcDkrZyMjH7kCBJZ
+          stance: supports
+          locator: 萬曆三十八年庚戌科序齒錄:一卷，第三甲第二百四十名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_1vwHH8EjSEP1q2oifpwF8P
+        status: active
+        display_name: 王象春
+        merged_into_person_id: null
+    - claim:
+        id: c_7MzhQ_wgdLFEWEMwoevtDD
+        subject_person_id: p_dFBcsKbnFVcHN4YTvXeRwY
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_UCuWmdu88wkXMEGK9geKmL
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_W7CSaf4PMQbVAuBx9ATPH1
+          claim_id: c_7MzhQ_wgdLFEWEMwoevtDD
+          source_id: s_3zCeacwcDkrZyMjH7kCBJZ
+          stance: supports
+          locator: 萬曆八年進士登科錄:一卷，第三甲第八十七名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_UCuWmdu88wkXMEGK9geKmL
+        status: active
+        display_name: 王象蒙
+        merged_into_person_id: null
   other: []
 ---
 
@@ -296,6 +374,9 @@ relationships:
 | parents | p_XwKHLH17io2m6CKt414qzT | 王伍 | accepted |
 | children | p_2XaF6KrMwGSDeaU76DAGrz | 王重光 | accepted |
 | children | p_CVwNugtPLMKx2eABoAcjQ3 | 王耿光 | accepted |
+| descendants | p_F188zxtPQfzqFJEz9WJ3M7 | 王象乾 | accepted |
+| descendants | p_1vwHH8EjSEP1q2oifpwF8P | 王象春 | accepted |
+| descendants | p_UCuWmdu88wkXMEGK9geKmL | 王象蒙 | accepted |
 
 ## 外部来源
 

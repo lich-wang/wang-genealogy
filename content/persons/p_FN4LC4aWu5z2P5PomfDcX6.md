@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 孙氏
 cbdb_id: 326997
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -77,7 +77,7 @@ properties:
           locator: Q65853750
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_DJgg67U3SY4a7KqVuu4NS1
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：孫氏（326997）
@@ -172,6 +172,32 @@ relationships:
         status: active
         display_name: 王越
         merged_into_person_id: null
+    - claim:
+        id: c_6faE4pguNwo8EvgCnFQ00z
+        subject_person_id: p_FN4LC4aWu5z2P5PomfDcX6
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_1CAD7Cg5ACndjPsTMwMUQ7
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_iuQK8MwuQPr1EplC8a19gB
+          claim_id: c_6faE4pguNwo8EvgCnFQ00z
+          source_id: s_DJgg67U3SY4a7KqVuu4NS1
+          stance: supports
+          locator: 景泰二年進士登科錄:一卷，第三甲第六名：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_1CAD7Cg5ACndjPsTMwMUQ7
+        status: merged
+        display_name: 王越
+        merged_into_person_id: p_SAKZSsVXkQRnwcLYqa1oYe
   ancestors: []
   descendants: []
   other: []
@@ -193,6 +219,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | spouses | p_SAKZSsVXkQRnwcLYqa1oYe | 王越 | accepted |
+| spouses | p_1CAD7Cg5ACndjPsTMwMUQ7 | 王越 | accepted |
 
 ## 外部来源
 

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王幼虞
 cbdb_id: 143628
-revision: 4
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -249,6 +249,44 @@ relationships:
         status: active
         display_name: 王護兒
         merged_into_person_id: null
+    - claim:
+        id: c_b6RhpZ5iFicBXIeVeLTSGa
+        subject_person_id: p_YsPayRFH97RfRhHgyPnWty
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_f98QE6Q3ZRPwPYfZj3DRmu
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BngYbP44jjqtj1upgPs6EC
+          claim_id: c_b6RhpZ5iFicBXIeVeLTSGa
+          source_id: s_3MzU7aJrBsQwbq5txVtDjL
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Qianfu8：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_3MzU7aJrBsQwbq5txVtDjL
+            source_type: api_record
+            title: 中国历代人物传记资料库：王幸胡（CBDB 168573）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=168573&o=json
+            external_identifier: CBDB:168573
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:54.741Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_f98QE6Q3ZRPwPYfZj3DRmu
+        status: active
+        display_name: 王幸胡
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -313,11 +351,13 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_2By3HyEqWFSrUPCpwFaSLa | 王仲甫 | accepted |
 | children | p_5V15QYsZZEwGMxSKSmHbYU | 王護兒 | accepted |
+| children | p_f98QE6Q3ZRPwPYfZj3DRmu | 王幸胡 | accepted |
 | ancestors | p_EekV1er5JkAj6hekaqJDVE | 王昌 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王昌（CBDB 168569）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=168569&o=json)
 - [中国历代人物传记资料库：王護兒（CBDB 168574）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=168574&o=json)
+- [中国历代人物传记资料库：王幸胡（CBDB 168573）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=168573&o=json)
 - [中国历代人物传记资料库：王幼虞（CBDB 143628）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=143628&o=json)
 - [中国历代人物传记资料库：王仲甫（CBDB 168571）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=168571&o=json)

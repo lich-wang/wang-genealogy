@@ -4,7 +4,7 @@ id: p_GBJny92BjTJrCUatL2dF1X
 status: active
 merged_into: null
 display_name: 王鑑
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -152,6 +152,44 @@ relationships:
         status: active
         display_name: 王疇
         merged_into_person_id: null
+    - claim:
+        id: c_5JnrxxYLPWl-aLF0rMuXt7
+        subject_person_id: p_EDnmHqmtBQUHHB1hZ2ien3
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_GBJny92BjTJrCUatL2dF1X
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HKnLijo1iw3tLOTgYmdnqV
+          claim_id: c_5JnrxxYLPWl-aLF0rMuXt7
+          source_id: s_XHHYfBAeBB1z4cU62x2Gup
+          stance: supports
+          locator: 景泰五年進士登科錄:一卷，第三甲第三十三名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_XHHYfBAeBB1z4cU62x2Gup
+            source_type: api_record
+            title: 中国历代人物传记资料库：王公柔（CBDB 264214）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264214&o=json
+            external_identifier: CBDB:264214
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:01.428Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_EDnmHqmtBQUHHB1hZ2ien3
+        status: active
+        display_name: 王公柔
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -173,9 +211,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_58T6FS2HPdsESXyAWQ5HsZ | 王吉甫 | accepted |
 | ancestors | p_A9vJuh2UYD5eWvCSDmg7tj | 王疇 | accepted |
+| ancestors | p_EDnmHqmtBQUHHB1hZ2ien3 | 王公柔 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王疇（CBDB 264225）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264225&o=json)
+- [中国历代人物传记资料库：王公柔（CBDB 264214）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264214&o=json)
 - [中国历代人物传记资料库：王吉甫（CBDB 264236）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264236&o=json)
 - [中国历代人物传记资料库：王鑑（CBDB 68835）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=68835&o=json)

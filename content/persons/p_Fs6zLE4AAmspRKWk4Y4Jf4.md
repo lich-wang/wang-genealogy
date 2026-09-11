@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王巳
 cbdb_id: 37995
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:37995
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_ugYrpcFcJUCjbzgJWZhswv
             source_type: api_record
             title: 中国历代人物传记资料库：王巳（CBDB 37995）
@@ -87,7 +87,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_Ba1gYBCHM4U4PTSJ6KE_70
+        subject_person_id: p_Fs6zLE4AAmspRKWk4Y4Jf4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_G5NaxBVNyJd8hwYCmEkwm8
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xL8i4TGNcsf6YZQ7Ck85fl
+          claim_id: c_Ba1gYBCHM4U4PTSJ6KE_70
+          source_id: s_ugYrpcFcJUCjbzgJWZhswv
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1909：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_G5NaxBVNyJd8hwYCmEkwm8
+        status: active
+        display_name: 王朝孫
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_G5NaxBVNyJd8hwYCmEkwm8 | 王朝孫 | accepted |
 
 ## 外部来源
 

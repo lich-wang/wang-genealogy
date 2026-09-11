@@ -4,7 +4,7 @@ id: p_AoR8GkNH17NPVQc7r3ceML
 status: active
 merged_into: null
 display_name: 王紀
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_vBhMhdTDiW1Q-4XDAkxDTw
+        subject_person_id: p_ETf8kmCosGHgchW9GUTGiB
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_AoR8GkNH17NPVQc7r3ceML
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_yo3ha0PfpgGhc6UvYuPKGs
+          claim_id: c_vBhMhdTDiW1Q-4XDAkxDTw
+          source_id: s_zjKNo48iNJhzY3juEcyiQD
+          stance: supports
+          locator: 正德十六年登科錄:一卷，第三甲第一百四十五名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_zjKNo48iNJhzY3juEcyiQD
+            source_type: api_record
+            title: 中国历代人物传记资料库：王絕（CBDB 285657）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=285657&o=json
+            external_identifier: CBDB:285657
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:02.953Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_ETf8kmCosGHgchW9GUTGiB
+        status: active
+        display_name: 王絕
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -200,6 +238,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_ETf8kmCosGHgchW9GUTGiB | 王絕 | accepted |
 | ancestors | p_4VxcNhhw8r2s8xsCar24Jb | 王福榮 | accepted |
 | ancestors | p_BCTpCCeTsL2MyDhgFLN2VE | 王信 | accepted |
 
@@ -207,4 +246,5 @@ relationships:
 
 - [中国历代人物传记资料库：王福榮（CBDB 285655）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=285655&o=json)
 - [中国历代人物传记资料库：王紀（CBDB 202256）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202256&o=json)
+- [中国历代人物传记资料库：王絕（CBDB 285657）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=285657&o=json)
 - [中国历代人物传记资料库：王信（CBDB 285656）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=285656&o=json)
