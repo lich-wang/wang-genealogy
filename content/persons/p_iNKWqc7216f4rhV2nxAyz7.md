@@ -4,7 +4,7 @@ id: p_iNKWqc7216f4rhV2nxAyz7
 status: active
 merged_into: null
 display_name: 王守一
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_yHh2pcdBiOz39JkN7duv6b
+        subject_person_id: p_sPoBNZqLdGBxQ46ZCBG9Hg
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_iNKWqc7216f4rhV2nxAyz7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_N0Jv2ly-9Ss4auKiKAWIMJ
+          claim_id: c_yHh2pcdBiOz39JkN7duv6b
+          source_id: s_jFK1nutNqP6dnUo6kczws9
+          stance: supports
+          locator: CBDB 双向互证（父 王士會 ⇄ 子 王守一）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_sPoBNZqLdGBxQ46ZCBG9Hg
+        status: active
+        display_name: 王士會
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_sPoBNZqLdGBxQ46ZCBG9Hg | 王士會 | accepted |
 
 ## 外部来源
 

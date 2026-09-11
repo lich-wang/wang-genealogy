@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王元老
 cbdb_id: 7090
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -91,7 +91,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_gUz-uxTXVYtGo-ogSyVcfw
+        subject_person_id: p_Zvjvgshz6JbJhrGYJFm2uQ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_vxVwgM9AvULBdi7p7TP9FE
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_R0L9dbxfudixxSS0sotVG9
+          claim_id: c_gUz-uxTXVYtGo-ogSyVcfw
+          source_id: s_eEepmYZas84z15WXEpE1gV
+          stance: supports
+          locator: CBDB 双向互证（孫 王元老 ⇄ 祖父 王剛中）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_eEepmYZas84z15WXEpE1gV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王剛中（CBDB 8151）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=8151&o=json
+            external_identifier: CBDB:8151
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.497Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Zvjvgshz6JbJhrGYJFm2uQ
+        status: active
+        display_name: 王剛中
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_Zvjvgshz6JbJhrGYJFm2uQ | 王剛中 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王剛中（CBDB 8151）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=8151&o=json)
 - [中国历代人物传记资料库：王元老（CBDB 7090）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=7090&o=json)

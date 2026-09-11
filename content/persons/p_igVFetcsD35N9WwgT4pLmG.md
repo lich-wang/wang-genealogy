@@ -4,7 +4,7 @@ id: p_igVFetcsD35N9WwgT4pLmG
 status: active
 merged_into: null
 display_name: 王紳
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_dyeVezKas8V76AmN00kpUy
+        subject_person_id: p_tvujpQywCi9ekftcPnvToF
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_igVFetcsD35N9WwgT4pLmG
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hfpYgvlwTvT4UGjXj8ydpT
+          claim_id: c_dyeVezKas8V76AmN00kpUy
+          source_id: s_wh3ePp54c1hM1u9haYiJxg
+          stance: supports
+          locator: CBDB 双向互证（父 王瀆 ⇄ 子 王紳）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_tvujpQywCi9ekftcPnvToF
+        status: active
+        display_name: 王瀆
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -155,6 +181,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_tvujpQywCi9ekftcPnvToF | 王瀆 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_pLswWqSBPoyLmU6amLYFt3
 status: active
 merged_into: null
 display_name: 王漢忠
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -219,7 +219,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_rleC6I2pYncdLYVFDBGEsz
+        subject_person_id: p_pLswWqSBPoyLmU6amLYFt3
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_roLoSWGkKgEN9ziGJeaf3g
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7QXYSUQjFXfK0SQsomNQfh
+          claim_id: c_rleC6I2pYncdLYVFDBGEsz
+          source_id: s_au5XPbQsEKbHz175HzA8GX
+          stance: supports
+          locator: CBDB 双向互证（孫 王道恭 ⇄ 祖父 王漢忠）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_roLoSWGkKgEN9ziGJeaf3g
+        status: active
+        display_name: 王道恭
+        merged_into_person_id: null
   other: []
 ---
 
@@ -242,6 +268,7 @@ relationships:
 | children | p_XviaqWWyDjdJ24E836cQV3 | 王從政 | accepted |
 | children | p_eK7BmxmwBKQ83huTyGiRu6 | 王從吉 | accepted |
 | children | p_XvB9fiR4qtayP99DjkRnm9 | 王從益 | accepted |
+| descendants | p_roLoSWGkKgEN9ziGJeaf3g | 王道恭 | accepted |
 
 ## 外部来源
 

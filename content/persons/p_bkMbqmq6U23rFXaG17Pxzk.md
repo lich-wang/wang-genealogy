@@ -4,7 +4,7 @@ id: p_bkMbqmq6U23rFXaG17Pxzk
 status: active
 merged_into: null
 display_name: 王師心
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -391,6 +391,84 @@ relationships:
         status: active
         display_name: 王樾
         merged_into_person_id: null
+    - claim:
+        id: c_Vu3Zk2rWkMohHO4LZsKDom
+        subject_person_id: p_bkMbqmq6U23rFXaG17Pxzk
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_TA3EM7RAXDxn6hGbgBVmnw
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wZzyIjbJlWqVdxJjK0NK8w
+          claim_id: c_Vu3Zk2rWkMohHO4LZsKDom
+          source_id: s_bDr42YdofJ3M2VBGUPzaxN
+          stance: supports
+          locator: CBDB 双向互证（孫 王僑 ⇄ 祖父 王師心）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_TA3EM7RAXDxn6hGbgBVmnw
+        status: active
+        display_name: 王僑
+        merged_into_person_id: null
+    - claim:
+        id: c_oH4k-jqBIqap9t9-6QgDVW
+        subject_person_id: p_bkMbqmq6U23rFXaG17Pxzk
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_WU918HK6TTpAXfqW367rRb
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vSgFdcFl21mRfjCVb7--Ln
+          claim_id: c_oH4k-jqBIqap9t9-6QgDVW
+          source_id: s_bDr42YdofJ3M2VBGUPzaxN
+          stance: supports
+          locator: CBDB 双向互证（曾孫; 重孫 王侊 ⇄ 曾祖 王師心）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_WU918HK6TTpAXfqW367rRb
+        status: active
+        display_name: 王侊
+        merged_into_person_id: null
+    - claim:
+        id: c_ANLYtFbQBOG423Qt27UaAd
+        subject_person_id: p_bkMbqmq6U23rFXaG17Pxzk
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_sEGDXi7ck4pKNAhddgmbiq
+        generation_count: 4
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dlfoW0WXyvBPqrPzJkN6Ku
+          claim_id: c_ANLYtFbQBOG423Qt27UaAd
+          source_id: s_bDr42YdofJ3M2VBGUPzaxN
+          stance: supports
+          locator: CBDB 双向互证（玄孫;四世孫 王珹 ⇄ 高祖;四世祖 王師心）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_sEGDXi7ck4pKNAhddgmbiq
+        status: active
+        display_name: 王珹
+        merged_into_person_id: null
   other: []
 ---
 
@@ -420,6 +498,9 @@ relationships:
 | descendants | p_RCuhVLofQnHMJrQT8m1Ddc | 王柟 | accepted |
 | descendants | p_yrezMPsjHWPWTR86PGRJhv | 王梓 | accepted |
 | descendants | p_u6cA2KSg6U1riqHFDTtFHW | 王樾 | accepted |
+| descendants | p_TA3EM7RAXDxn6hGbgBVmnw | 王僑 | accepted |
+| descendants | p_WU918HK6TTpAXfqW367rRb | 王侊 | accepted |
+| descendants | p_sEGDXi7ck4pKNAhddgmbiq | 王珹 | accepted |
 
 ## 外部来源
 

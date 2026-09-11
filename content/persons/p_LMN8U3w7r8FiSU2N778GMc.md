@@ -4,7 +4,7 @@ id: p_LMN8U3w7r8FiSU2N778GMc
 status: active
 merged_into: null
 display_name: 王勳
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_ksCfAWE7QSJoynzMopOw8J
+        subject_person_id: p_42szA6CsjsGEHtctBDvhPe
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_LMN8U3w7r8FiSU2N778GMc
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3iLLHgmjEtmP8xfnJ6TUok
+          claim_id: c_ksCfAWE7QSJoynzMopOw8J
+          source_id: s_Yjruqgq98a54tQjfboiysN
+          stance: supports
+          locator: CBDB 双向互证（子 王勳 ⇄ 父 王玩）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_Yjruqgq98a54tQjfboiysN
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王玩（19872）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19872&o=json
+            external_identifier: CBDB:19872
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:59:30.084Z
+            metadata_json: null
+      object_person:
+        id: p_42szA6CsjsGEHtctBDvhPe
+        status: active
+        display_name: 王玩
+        merged_into_person_id: null
   children:
     - claim:
         id: c_d_xwewx_aOXkkvR2A267b4
@@ -180,7 +217,82 @@ relationships:
         status: active
         display_name: 王說
         merged_into_person_id: null
-  descendants: []
+  descendants:
+    - claim:
+        id: c_OWuvxVakknQ2BI008KzrYl
+        subject_person_id: p_LMN8U3w7r8FiSU2N778GMc
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_qfJSTWoxkhv7aQH3839He6
+        generation_count: 4
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2tnngDIAfKJ3ggrUrWuLM3
+          claim_id: c_OWuvxVakknQ2BI008KzrYl
+          source_id: s_szwq2fnD4mZ9YzTnL9gizp
+          stance: supports
+          locator: CBDB 双向互证（高祖;四世祖 王勳 ⇄ 玄孫;四世孫 王惟忠）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_szwq2fnD4mZ9YzTnL9gizp
+            source_type: api_record
+            title: 中国历代人物传记资料库：王惟忠（CBDB 19888）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19888&o=json
+            external_identifier: CBDB:19888
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.750Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_qfJSTWoxkhv7aQH3839He6
+        status: active
+        display_name: 王惟忠
+        merged_into_person_id: null
+    - claim:
+        id: c_ixJcdq5tcAPsM7WgLOqA8d
+        subject_person_id: p_LMN8U3w7r8FiSU2N778GMc
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_LX6tTUxSzJQLKBETT4sQXD
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cWSYOxw_9n_KV4dVRbdt5i
+          claim_id: c_ixJcdq5tcAPsM7WgLOqA8d
+          source_id: s_fb2WkSgLSSqKiZ1YJY4vE2
+          stance: supports
+          locator: CBDB 双向互证（曾祖 王勳 ⇄ 曾孫; 重孫 王轟）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_fb2WkSgLSSqKiZ1YJY4vE2
+            source_type: api_record
+            title: 中国历代人物传记资料库：王轟（CBDB 19889）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19889&o=json
+            external_identifier: CBDB:19889
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:44.071Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_LX6tTUxSzJQLKBETT4sQXD
+        status: active
+        display_name: 王轟
+        merged_into_person_id: null
   other: []
 ---
 
@@ -200,11 +312,17 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_42szA6CsjsGEHtctBDvhPe | 王玩 | accepted |
 | children | p_WfKGNEwFj8S9f7DUKj8X6D | 王正己 | accepted |
 | ancestors | p_FqUud2w7N1wezRTEw6MRZ4 | 王說 | accepted |
+| descendants | p_qfJSTWoxkhv7aQH3839He6 | 王惟忠 | accepted |
+| descendants | p_LX6tTUxSzJQLKBETT4sQXD | 王轟 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王轟（CBDB 19889）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19889&o=json)
 - [中国历代人物传记资料库：王說（CBDB 19870）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19870&o=json)
+- [中国历代人物传记资料库：王惟忠（CBDB 19888）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19888&o=json)
 - [中国历代人物传记资料库：王勳（CBDB 1818）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1818&o=json)
 - [中国历代人物传记资料库：王正己（CBDB 3948）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3948&o=json)
+- [CBDB 中国历代人物传记资料库：王玩（19872）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19872&o=json)

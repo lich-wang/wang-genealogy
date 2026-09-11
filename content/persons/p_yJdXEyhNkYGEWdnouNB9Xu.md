@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王廷瞻
 cbdb_id: 34669
-revision: 4
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -124,6 +124,43 @@ relationships:
         status: active
         display_name: 王濟
         merged_into_person_id: null
+    - claim:
+        id: c__hi5qZMsYW9xquWMRLaCBS
+        subject_person_id: p_CF5LJP7gMSDjjxZDLTJKd5
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_yJdXEyhNkYGEWdnouNB9Xu
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_l6MvFQM8BvtkC6qZZj9523
+          claim_id: c__hi5qZMsYW9xquWMRLaCBS
+          source_id: s_8MUgv6sNQt8ThP4q5TJstL
+          stance: supports
+          locator: CBDB 双向互证（子 王廷瞻 ⇄ 父 王濟）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_8MUgv6sNQt8ThP4q5TJstL
+            source_type: api_record
+            title: 中国历代人物传记资料库：王濟（CBDB 34667）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34667&o=json
+            external_identifier: CBDB:34667
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.091Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_CF5LJP7gMSDjjxZDLTJKd5
+        status: active
+        display_name: 王濟
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -223,12 +260,14 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_nXkL5n6av6NxxN76vBSAC8 | 王濟 | accepted |
+| parents | p_CF5LJP7gMSDjjxZDLTJKd5 | 王濟 | accepted |
 | ancestors | p_t8BiHr683cj8g6QH4F6miQ | 王文奎 | accepted |
 | ancestors | p_yQYZeXP9CKgyFcH7tLWLjb | 王思旻 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王濟（CBDB 325987）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=325987&o=json)
+- [中国历代人物传记资料库：王濟（CBDB 34667）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34667&o=json)
 - [中国历代人物传记资料库：王思旻（CBDB 325984）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=325984&o=json)
 - [中国历代人物传记资料库：王廷瞻（CBDB 34669）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34669&o=json)
 - [中国历代人物传记资料库：王文奎（CBDB 325986）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=325986&o=json)

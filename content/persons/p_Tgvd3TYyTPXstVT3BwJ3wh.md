@@ -4,7 +4,7 @@ id: p_Tgvd3TYyTPXstVT3BwJ3wh
 status: active
 merged_into: null
 display_name: 王厚之
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -160,6 +160,43 @@ relationships:
         status: active
         display_name: 王安礼
         merged_into_person_id: null
+    - claim:
+        id: c_F5cf2mZclgYA1LVyF9sopu
+        subject_person_id: p_cqwkNuWff9k5iLpwrYWnFK
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Tgvd3TYyTPXstVT3BwJ3wh
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_eMktqqtIQB-dx0Yv5z45zd
+          claim_id: c_F5cf2mZclgYA1LVyF9sopu
+          source_id: s_U26t8nsXRZ57e7JYkB2Fuh
+          stance: supports
+          locator: CBDB 双向互证（孫 王厚之 ⇄ 祖父 王榕）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_U26t8nsXRZ57e7JYkB2Fuh
+            source_type: api_record
+            title: 中国历代人物传记资料库：王榕（CBDB 19418）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19418&o=json
+            external_identifier: CBDB:19418
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.733Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_cqwkNuWff9k5iLpwrYWnFK
+        status: active
+        display_name: 王榕
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -182,7 +219,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_KTTATWUQ3F1m45Pemb3S7n | 王安礼 | accepted |
+| ancestors | p_cqwkNuWff9k5iLpwrYWnFK | 王榕 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王厚之（CBDB 3951）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3951&o=json)
+- [中国历代人物传记资料库：王榕（CBDB 19418）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19418&o=json)

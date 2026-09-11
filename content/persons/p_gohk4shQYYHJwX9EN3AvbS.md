@@ -4,7 +4,7 @@ id: p_gohk4shQYYHJwX9EN3AvbS
 status: active
 merged_into: null
 display_name: 王審邽
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_ry3x9NsSTk5GczDlsiJhVy
+        subject_person_id: p_gohk4shQYYHJwX9EN3AvbS
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_7GKNA3uyknJPNe6oZhNnPz
+        generation_count: 4
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bg64bp8duk4SvmPY9633Fc
+          claim_id: c_ry3x9NsSTk5GczDlsiJhVy
+          source_id: s_ZJ5vmMhE4sU9NXz7iEs8pm
+          stance: supports
+          locator: CBDB 双向互证（玄孫;四世孫 王保隆 ⇄ 高祖;四世祖 王審邽）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_7GKNA3uyknJPNe6oZhNnPz
+        status: active
+        display_name: 王保隆
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_7GKNA3uyknJPNe6oZhNnPz | 王保隆 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_WAcva2ygM5s1wpkr4svdJW
 status: active
 merged_into: null
 display_name: 王華
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -101,7 +101,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_O4bUXNSKz3yJHfQJACO-wQ
+        subject_person_id: p_WAcva2ygM5s1wpkr4svdJW
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_D3ZKwNoKjeEJXSHgQd8CdC
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YIwmWjmVLmXoG6Oqh0nNjH
+          claim_id: c_O4bUXNSKz3yJHfQJACO-wQ
+          source_id: s_yUmzrSxNNCC7j1D7AdYPLL
+          stance: supports
+          locator: CBDB 双向互证（父 王華 ⇄ 子 王守仁）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_yUmzrSxNNCC7j1D7AdYPLL
+            source_type: api_record
+            title: 中国历代人物传记资料库：王守仁（CBDB 30374）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30374&o=json
+            external_identifier: CBDB:30374
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.028Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_D3ZKwNoKjeEJXSHgQd8CdC
+        status: active
+        display_name: 王守仁
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_D3ZKwNoKjeEJXSHgQd8CdC | 王守仁 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王華（CBDB 30373）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30373&o=json)
+- [中国历代人物传记资料库：王守仁（CBDB 30374）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30374&o=json)

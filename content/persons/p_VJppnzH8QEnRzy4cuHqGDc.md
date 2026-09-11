@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王文亮
 cbdb_id: 19904
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,7 +86,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_ATMvgRpCjNbqVzWErhBT-s
+        subject_person_id: p_3HbG7JXXtPKukrdr9i2R2p
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_VJppnzH8QEnRzy4cuHqGDc
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_95xQlpQsEVPPGcjaEPbi1N
+          claim_id: c_ATMvgRpCjNbqVzWErhBT-s
+          source_id: s_8EZKKN6B3ewFrNACM4tGBs
+          stance: supports
+          locator: CBDB 双向互证（子 王文亮 ⇄ 父 王韶）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_8EZKKN6B3ewFrNACM4tGBs
+            source_type: api_record
+            title: 中国历代人物传记资料库：王韶（CBDB 19903）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19903&o=json
+            external_identifier: CBDB:19903
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.754Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_3HbG7JXXtPKukrdr9i2R2p
+        status: active
+        display_name: 王韶
+        merged_into_person_id: null
   children:
     - claim:
         id: c_S60TAavPGl7H4DApsDVKVV
@@ -148,9 +185,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_3HbG7JXXtPKukrdr9i2R2p | 王韶 | accepted |
 | children | p_BiNVgvYz3nJ9G3CCb78YaH | 王周 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王韶（CBDB 19903）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19903&o=json)
 - [中国历代人物传记资料库：王文亮（CBDB 19904）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19904&o=json)
 - [中国历代人物传记资料库：王周（CBDB 19905）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19905&o=json)

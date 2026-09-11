@@ -4,7 +4,7 @@ id: p_je6XLUqjL8A6Hb4DKdZMAg
 status: active
 merged_into: null
 display_name: 王汴
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_svlJTywVoWQsY4tCG61pGl
+        subject_person_id: p_nz4iCUE58siDBFQyP3pPaP
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_je6XLUqjL8A6Hb4DKdZMAg
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_CreCqGfYLAt4euqr1If6MA
+          claim_id: c_svlJTywVoWQsY4tCG61pGl
+          source_id: s_rnG3iT2YiMLpKGPp8gzxqs
+          stance: supports
+          locator: CBDB 双向互证（父 王慶遜 ⇄ 子 王汴）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_nz4iCUE58siDBFQyP3pPaP
+        status: active
+        display_name: 王慶遜
+        merged_into_person_id: null
   children:
     - claim:
         id: c_1QgUj5CtClWYkD9Mjoo2sP
@@ -100,6 +126,32 @@ relationships:
         status: active
         display_name: 王世修
         merged_into_person_id: null
+    - claim:
+        id: c_ftuMahrQgvtbA4eWdsvn9V
+        subject_person_id: p_je6XLUqjL8A6Hb4DKdZMAg
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_tNenv4FUhMh3QhhSU6ZuWp
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pUjdwVjRcZD03vrmUdA5AT
+          claim_id: c_ftuMahrQgvtbA4eWdsvn9V
+          source_id: s_rnG3iT2YiMLpKGPp8gzxqs
+          stance: supports
+          locator: CBDB 双向互证（子 王綝 ⇄ 父 王汴）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_tNenv4FUhMh3QhhSU6ZuWp
+        status: active
+        display_name: 王綝
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -123,7 +175,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_nz4iCUE58siDBFQyP3pPaP | 王慶遜 | accepted |
 | children | p_DDp1tgWGCtANTjEPxEciDQ | 王世修 | accepted |
+| children | p_tNenv4FUhMh3QhhSU6ZuWp | 王綝 | accepted |
 
 ## 外部来源
 

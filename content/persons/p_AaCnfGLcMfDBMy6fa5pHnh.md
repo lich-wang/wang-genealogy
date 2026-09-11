@@ -4,7 +4,7 @@ id: p_AaCnfGLcMfDBMy6fa5pHnh
 status: active
 merged_into: null
 display_name: 王琮
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -77,7 +77,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_-J-0PaMO713l_odSJkEPXC
+        subject_person_id: p_94q1e1836gtMmWzZkszZK7
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_AaCnfGLcMfDBMy6fa5pHnh
+        generation_count: 4
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_h_behJo89XcILgzfOfWk6z
+          claim_id: c_-J-0PaMO713l_odSJkEPXC
+          source_id: s_p5DWQW4daMavXjhMed5BAm
+          stance: supports
+          locator: CBDB 双向互证（高祖;四世祖 王益 ⇄ 玄孫;四世孫 王琮）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_94q1e1836gtMmWzZkszZK7
+        status: active
+        display_name: 王益
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_94q1e1836gtMmWzZkszZK7 | 王益 | accepted |
 
 ## 外部来源
 

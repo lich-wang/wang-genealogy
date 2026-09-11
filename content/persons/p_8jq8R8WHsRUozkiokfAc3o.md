@@ -4,7 +4,7 @@ id: p_8jq8R8WHsRUozkiokfAc3o
 status: active
 merged_into: null
 display_name: 王進
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_R-nORZxm0z2sa3d63qM3tr
+        subject_person_id: p_8jq8R8WHsRUozkiokfAc3o
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_aQBAivevG5QTfA7SNaq76h
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_igJ__9Spvqbiwqm2x5jLaH
+          claim_id: c_R-nORZxm0z2sa3d63qM3tr
+          source_id: s_VYoAqV3m6bQvihoDJyAUAF
+          stance: supports
+          locator: CBDB 双向互证（子 王守忠 ⇄ 父 王進）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_aQBAivevG5QTfA7SNaq76h
+        status: active
+        display_name: 王守忠
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_aQBAivevG5QTfA7SNaq76h | 王守忠 | accepted |
 
 ## 外部来源
 

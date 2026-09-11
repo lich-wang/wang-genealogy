@@ -4,7 +4,7 @@ id: p_FS8HK4Z3328XC2nft9x4o3
 status: active
 merged_into: null
 display_name: 王丕
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_lzY4uaSesvfhYcBYbxLNt4
+        subject_person_id: p_FS8HK4Z3328XC2nft9x4o3
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_qM3x6kx3VpqHy4njLErPrG
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HuAyyrqjvREJB_Hd2v6EUw
+          claim_id: c_lzY4uaSesvfhYcBYbxLNt4
+          source_id: s_xZN1gmHYm3F16conuSkE6c
+          stance: supports
+          locator: CBDB 双向互证（子 王祚 ⇄ 父 王丕）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_qM3x6kx3VpqHy4njLErPrG
+        status: active
+        display_name: 王祚
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_qM3x6kx3VpqHy4njLErPrG | 王祚 | accepted |
 
 ## 外部来源
 

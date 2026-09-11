@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 刘氏
 cbdb_id: 35275
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -69,7 +69,7 @@ properties:
           locator: Q45426174
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_k3j135431HV2A9TKwHw3v8
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：劉氏（35275）
@@ -198,6 +198,32 @@ relationships:
         status: active
         display_name: 王希淮
         merged_into_person_id: null
+    - claim:
+        id: c_TmANA09Fbby09KYaJmKK-j
+        subject_person_id: p_q81q3PkerhDLZkUmCUStf4
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_Nz48pSWAW4LPxqPoD9gVkb
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PPBd-rz76hgsV8A4pikZGa
+          claim_id: c_TmANA09Fbby09KYaJmKK-j
+          source_id: s_k3j135431HV2A9TKwHw3v8
+          stance: supports
+          locator: CBDB 双向互证（丈夫 王希淮 ⇄ 妻子 劉氏(王希淮妻)）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a2
+      object_person:
+        id: p_Nz48pSWAW4LPxqPoD9gVkb
+        status: active
+        display_name: 王希淮
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -219,6 +245,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_15eeBkVsaekxgLBnZp3VuC | 王炎午 | accepted |
+| spouses | p_Nz48pSWAW4LPxqPoD9gVkb | 王希淮 | accepted |
 | spouses | p_Nz48pSWAW4LPxqPoD9gVkb | 王希淮 | accepted |
 
 ## 外部来源

@@ -4,7 +4,7 @@ id: p_4DYdpigk7s5FeUYbqrH9hx
 status: active
 merged_into: null
 display_name: 王規
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_er1txST0EvNhzG4YPq-UvC
+        subject_person_id: p_GGLadgP9m3fJUNC13wBUxU
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_4DYdpigk7s5FeUYbqrH9hx
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_J_o_hgEZGfJGhQUnt1R5ZG
+          claim_id: c_er1txST0EvNhzG4YPq-UvC
+          source_id: s_zrAXjHMEbL9b1NXmB6Eath
+          stance: supports
+          locator: CBDB 双向互证（父 王元一 ⇄ 子 王規）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_GGLadgP9m3fJUNC13wBUxU
+        status: active
+        display_name: 王元一
+        merged_into_person_id: null
   children:
     - claim:
         id: c_nIvDXK0BRzS2nRgLWECmsw
@@ -134,6 +160,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_GGLadgP9m3fJUNC13wBUxU | 王元一 | accepted |
 | children | p_18zU9DyKwhdtB8WDPSJtZj | 王森 | accepted |
 
 ## 外部来源

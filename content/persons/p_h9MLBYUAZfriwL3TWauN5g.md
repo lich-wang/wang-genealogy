@@ -4,7 +4,7 @@ id: p_h9MLBYUAZfriwL3TWauN5g
 status: active
 merged_into: null
 display_name: 王立
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_qrssq6X1QSmbOFR7AQJqqc
+        subject_person_id: p_h9MLBYUAZfriwL3TWauN5g
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_iWAZbKiNvDPj54EBw5wr61
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MUFepEcGQqB1guvZORh1Oc
+          claim_id: c_qrssq6X1QSmbOFR7AQJqqc
+          source_id: s_Vyd8mB46jTNZGRc41RHnhu
+          stance: supports
+          locator: CBDB 双向互证（子 王玉 ⇄ 父 王立）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_iWAZbKiNvDPj54EBw5wr61
+        status: active
+        display_name: 王玉
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_iWAZbKiNvDPj54EBw5wr61 | 王玉 | accepted |
 
 ## 外部来源
 

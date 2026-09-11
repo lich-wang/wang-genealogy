@@ -4,7 +4,7 @@ id: p_2Dg5etw4KTb6NAsYf3Q9pq
 status: active
 merged_into: null
 display_name: 王起
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_CyEVyg9UpBa8pVSizrdnp9
+        subject_person_id: p_KWKcuxuCsVJSzxDy5w7Jom
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_2Dg5etw4KTb6NAsYf3Q9pq
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6JMTpfXrvBGr1pvZcOBeu4
+          claim_id: c_CyEVyg9UpBa8pVSizrdnp9
+          source_id: s_33dVvc9DYWZt1BLBqJNcdy
+          stance: supports
+          locator: CBDB 双向互证（父 王淮 ⇄ 子 王起）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_KWKcuxuCsVJSzxDy5w7Jom
+        status: active
+        display_name: 王淮
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_2DbIScLWlOBO6bLXDvklra
+        subject_person_id: p_2Dg5etw4KTb6NAsYf3Q9pq
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3Lgirh8tCkhjbetAZ9DFZ4
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZAuESBuuNRjX_T0-kXyWLR
+          claim_id: c_2DbIScLWlOBO6bLXDvklra
+          source_id: s_33dVvc9DYWZt1BLBqJNcdy
+          stance: supports
+          locator: CBDB 双向互证（子 王仲儒 ⇄ 父 王起）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_3Lgirh8tCkhjbetAZ9DFZ4
+        status: active
+        display_name: 王仲儒
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_KWKcuxuCsVJSzxDy5w7Jom | 王淮 | accepted |
+| children | p_3Lgirh8tCkhjbetAZ9DFZ4 | 王仲儒 | accepted |
 
 ## 外部来源
 

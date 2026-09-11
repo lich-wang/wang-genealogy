@@ -4,7 +4,7 @@ id: p_hJs7Qvo7BVHkNfA4qF2GpU
 status: active
 merged_into: null
 display_name: 王佖
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_cC0U1l1HQneVVjiRJMkVN5
+        subject_person_id: p_Kay7m1G1NMGwAheD73rEbt
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_hJs7Qvo7BVHkNfA4qF2GpU
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QdqOskwTKGFkK8UEiGQ1WG
+          claim_id: c_cC0U1l1HQneVVjiRJMkVN5
+          source_id: s_95i5Te7uwSzC2L5Ks8gJJK
+          stance: supports
+          locator: CBDB 双向互证（父 王棟 ⇄ 子 王佖）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_Kay7m1G1NMGwAheD73rEbt
+        status: active
+        display_name: 王棟
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_CYsM1f0N4x7Hvky0Vqx_4d
+        subject_person_id: p_hJs7Qvo7BVHkNfA4qF2GpU
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_jCAZd95vtUshZxHPbwJb25
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PGZne9O4eT64tj7o32OdyK
+          claim_id: c_CYsM1f0N4x7Hvky0Vqx_4d
+          source_id: s_95i5Te7uwSzC2L5Ks8gJJK
+          stance: supports
+          locator: CBDB 双向互证（子 王奇 ⇄ 父 王佖）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_jCAZd95vtUshZxHPbwJb25
+        status: active
+        display_name: 王奇
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -115,7 +167,33 @@ relationships:
         status: active
         display_name: 王淮
         merged_into_person_id: null
-  descendants: []
+  descendants:
+    - claim:
+        id: c_qSgaYiRKRtWJtKyBxreP_f
+        subject_person_id: p_hJs7Qvo7BVHkNfA4qF2GpU
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_nTVozGACxLLaWGNjhMQxnM
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vwy2LTJWoNcbt5IfdmGJY_
+          claim_id: c_qSgaYiRKRtWJtKyBxreP_f
+          source_id: s_95i5Te7uwSzC2L5Ks8gJJK
+          stance: supports
+          locator: CBDB 双向互证（孫 王肖翁 ⇄ 祖父 王佖）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_nTVozGACxLLaWGNjhMQxnM
+        status: active
+        display_name: 王肖翁
+        merged_into_person_id: null
   other: []
 ---
 
@@ -134,7 +212,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Kay7m1G1NMGwAheD73rEbt | 王棟 | accepted |
+| children | p_jCAZd95vtUshZxHPbwJb25 | 王奇 | accepted |
 | ancestors | p_UvehpGMJTzc9aejBRt9mWN | 王淮 | accepted |
+| descendants | p_nTVozGACxLLaWGNjhMQxnM | 王肖翁 | accepted |
 
 ## 外部来源
 

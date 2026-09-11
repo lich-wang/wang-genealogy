@@ -4,7 +4,7 @@ id: p_enjEd3QTh2MFQkVQhR4jLX
 status: active
 merged_into: null
 display_name: 王襄
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_eOxPomR9UKVlAPZAO0EV35
+        subject_person_id: p_SmPfz1GTyTHvivAq4Anp7g
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_enjEd3QTh2MFQkVQhR4jLX
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ST3VQeRhJr7nPRjbtHOcoN
+          claim_id: c_eOxPomR9UKVlAPZAO0EV35
+          source_id: s_utoZKafPNXzJUJeK6AaMMW
+          stance: supports
+          locator: CBDB 双向互证（父 王君卿 ⇄ 子 王襄）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_SmPfz1GTyTHvivAq4Anp7g
+        status: active
+        display_name: 王君卿
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_2knRjYuYhOi6_tbyQJzRSb
+        subject_person_id: p_enjEd3QTh2MFQkVQhR4jLX
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_x4bp5Ci45FMuKz82qKbkW6
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_oNVq-ChRHOXPQZ6ke3EHD3
+          claim_id: c_2knRjYuYhOi6_tbyQJzRSb
+          source_id: s_utoZKafPNXzJUJeK6AaMMW
+          stance: supports
+          locator: CBDB 双向互证（子 王忠彥 ⇄ 父 王襄）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_x4bp5Ci45FMuKz82qKbkW6
+        status: active
+        display_name: 王忠彥
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_SmPfz1GTyTHvivAq4Anp7g | 王君卿 | accepted |
+| children | p_x4bp5Ci45FMuKz82qKbkW6 | 王忠彥 | accepted |
 
 ## 外部来源
 

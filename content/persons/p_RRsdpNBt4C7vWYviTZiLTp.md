@@ -4,7 +4,7 @@ id: p_RRsdpNBt4C7vWYviTZiLTp
 status: active
 merged_into: null
 display_name: 王橐
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_XvZPdKh5ZuL2O9SWE_EXFA
+        subject_person_id: p_xo7hTR9H4WNNw9Qd7U3FCQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_RRsdpNBt4C7vWYviTZiLTp
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_eAp0bV8b6T1UsORp1HU2_s
+          claim_id: c_XvZPdKh5ZuL2O9SWE_EXFA
+          source_id: s_egPJ28HN64hGVZjUa8HFzc
+          stance: supports
+          locator: CBDB 双向互证（父 王廷機 ⇄ 子 王橐）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_xo7hTR9H4WNNw9Qd7U3FCQ
+        status: active
+        display_name: 王廷機
+        merged_into_person_id: null
   children:
     - claim:
         id: c_9-s5RdHZhgd9zPj0LYaqBL
@@ -163,6 +189,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_xo7hTR9H4WNNw9Qd7U3FCQ | 王廷機 | accepted |
 | children | p_eTn5grdY57WP95rxAMqTrj | 王炎 | accepted |
 
 ## 外部来源

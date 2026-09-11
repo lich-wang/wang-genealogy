@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王殿颺
 cbdb_id: 29996
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:29996
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_g8qpGL8FTENMc6W8ok2QYa
             source_type: api_record
             title: 中国历代人物传记资料库：王殿颺（CBDB 29996）
@@ -86,8 +86,71 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_LuGBQC0Ibnw0GOxB4GdCLA
+        subject_person_id: p_r1BYh7SUzgLDzCcXK6R8wH
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_igCtmJ34q9gbxGMJ3KYXqz
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xbgC0KO4RQRATD29tH6Eqb
+          claim_id: c_LuGBQC0Ibnw0GOxB4GdCLA
+          source_id: s_9gWPE5ciJevrk5kxjSjrj8
+          stance: supports
+          locator: CBDB 双向互证（子 王殿颺 ⇄ 父 王兆麟）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_9gWPE5ciJevrk5kxjSjrj8
+            source_type: api_record
+            title: 中国历代人物传记资料库：王兆麟（CBDB 29998）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=29998&o=json
+            external_identifier: CBDB:29998
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.014Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_r1BYh7SUzgLDzCcXK6R8wH
+        status: active
+        display_name: 王兆麟
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_iC9j1G5dL-DJo0z-K2rFzX
+        subject_person_id: p_igCtmJ34q9gbxGMJ3KYXqz
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_YCA4LiXzzszFmPwAPKHu75
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hd2O1qV_CnUbF6PQuM69_v
+          claim_id: c_iC9j1G5dL-DJo0z-K2rFzX
+          source_id: s_g8qpGL8FTENMc6W8ok2QYa
+          stance: supports
+          locator: CBDB 双向互证（子 王宣詔 ⇄ 父 王殿颺）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_YCA4LiXzzszFmPwAPKHu75
+        status: active
+        display_name: 王宣詔
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,7 +174,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_r1BYh7SUzgLDzCcXK6R8wH | 王兆麟 | accepted |
+| children | p_YCA4LiXzzszFmPwAPKHu75 | 王宣詔 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王殿颺（CBDB 29996）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=29996&o=json)
+- [中国历代人物传记资料库：王兆麟（CBDB 29998）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=29998&o=json)

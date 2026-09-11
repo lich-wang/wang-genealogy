@@ -4,7 +4,7 @@ id: p_znCpHkj9Wovs2kmQ9yEwwD
 status: active
 merged_into: null
 display_name: 王煥之
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_RDPKz38AWt8t2_0TOuBdXY
+        subject_person_id: p_znCpHkj9Wovs2kmQ9yEwwD
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_6SPn6thp9AmqGVJ3dXMfwA
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1gG04A-pW8Q34yXJ_ZFTSm
+          claim_id: c_RDPKz38AWt8t2_0TOuBdXY
+          source_id: s_NBNWKy2BsD6nuQ5ACQcax8
+          stance: supports
+          locator: CBDB 双向互证（子 王雋卿 ⇄ 父 王煥之）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_6SPn6thp9AmqGVJ3dXMfwA
+        status: active
+        display_name: 王雋卿
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -134,6 +160,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_6SPn6thp9AmqGVJ3dXMfwA | 王雋卿 | accepted |
 | descendants | p_PhM2oQZ4qEKafFNZXsrBFR | 王泰來 | accepted |
 
 ## 外部来源

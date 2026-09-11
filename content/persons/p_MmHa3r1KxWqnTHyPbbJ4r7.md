@@ -4,7 +4,7 @@ id: p_MmHa3r1KxWqnTHyPbbJ4r7
 status: active
 merged_into: null
 display_name: 王阜
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_ofPP49HwMVZF_JG3eagZ73
+        subject_person_id: p_UtrLYL1yFM5P759c7x89Qr
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_MmHa3r1KxWqnTHyPbbJ4r7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ehdWZKgjYVnLC9xIexH1Qc
+          claim_id: c_ofPP49HwMVZF_JG3eagZ73
+          source_id: s_a61QKMjn3b7koxMK1ayGW7
+          stance: supports
+          locator: CBDB 双向互证（父 王瓖 ⇄ 子 王阜）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_UtrLYL1yFM5P759c7x89Qr
+        status: active
+        display_name: 王瓖
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_3n5bUCf9pve_lUtb5_sOp6
+        subject_person_id: p_MmHa3r1KxWqnTHyPbbJ4r7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_57MTn7oNzVBW49Kp5crHea
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_nQ7rSMScLF_0PV2eclGLC4
+          claim_id: c_3n5bUCf9pve_lUtb5_sOp6
+          source_id: s_a61QKMjn3b7koxMK1ayGW7
+          stance: supports
+          locator: CBDB 双向互证（子 王思正 ⇄ 父 王阜）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_57MTn7oNzVBW49Kp5crHea
+        status: active
+        display_name: 王思正
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_UtrLYL1yFM5P759c7x89Qr | 王瓖 | accepted |
+| children | p_57MTn7oNzVBW49Kp5crHea | 王思正 | accepted |
 
 ## 外部来源
 

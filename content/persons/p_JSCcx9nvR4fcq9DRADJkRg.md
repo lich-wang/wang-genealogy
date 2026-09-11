@@ -4,7 +4,7 @@ id: p_JSCcx9nvR4fcq9DRADJkRg
 status: active
 merged_into: null
 display_name: 王克臣
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -129,7 +129,83 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_SqnwGo5TwI-WMlvid5KIDT
+        subject_person_id: p_JSCcx9nvR4fcq9DRADJkRg
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_AmDYBabkHaUGjW7FY3EkF4
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rdwIm2MqeLvDNRIb9fnDdN
+          claim_id: c_SqnwGo5TwI-WMlvid5KIDT
+          source_id: s_BWhTYW8UKMcCmz2ReqLEMQ
+          stance: supports
+          locator: CBDB 双向互证（父 王克臣 ⇄ 子 王朋約）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_BWhTYW8UKMcCmz2ReqLEMQ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王朋約（CBDB 17798）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17798&o=json
+            external_identifier: CBDB:17798
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:44.071Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_AmDYBabkHaUGjW7FY3EkF4
+        status: active
+        display_name: 王朋約
+        merged_into_person_id: null
+    - claim:
+        id: c_0ApDBhFxc3AH9XzqNK8B0W
+        subject_person_id: p_JSCcx9nvR4fcq9DRADJkRg
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_MjNLaKPtsDxgi954Xrasku
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_F-aibCjrtyBLU_PCm1IZkA
+          claim_id: c_0ApDBhFxc3AH9XzqNK8B0W
+          source_id: s_A3sENLN4fjr4HqzZdA2W2Y
+          stance: supports
+          locator: CBDB 双向互证（父 王克臣 ⇄ 子 王傳約）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_A3sENLN4fjr4HqzZdA2W2Y
+            source_type: api_record
+            title: 中国历代人物传记资料库：王傳約（CBDB 17797）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17797&o=json
+            external_identifier: CBDB:17797
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:44.071Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_MjNLaKPtsDxgi954Xrasku
+        status: active
+        display_name: 王傳約
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -192,9 +268,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_AmDYBabkHaUGjW7FY3EkF4 | 王朋約 | accepted |
+| children | p_MjNLaKPtsDxgi954Xrasku | 王傳約 | accepted |
 | ancestors | p_aeQuz9T27oQ8FHTk36tCX7 | 王徹 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王徹（CBDB 37837）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37837&o=json)
+- [中国历代人物传记资料库：王傳約（CBDB 17797）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17797&o=json)
 - [中国历代人物传记资料库：王克臣（CBDB 1834）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1834&o=json)
+- [中国历代人物传记资料库：王朋約（CBDB 17798）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17798&o=json)

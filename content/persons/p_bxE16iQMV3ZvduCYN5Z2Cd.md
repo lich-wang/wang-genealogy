@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王穰
 cbdb_id: 437663
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:437663
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_8anH7G45ih3Y7d9FhRXCAb
             source_type: api_record
             title: 中国历代人物传记资料库：王穰（CBDB 437663）
@@ -91,7 +91,70 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_VNZsNqvyAKLwW-UNobPjeI
+        subject_person_id: p_mgxHev7zFTwcmkSJE7CaXn
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_bxE16iQMV3ZvduCYN5Z2Cd
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_o2zpkxtegNnoeTJepv0apc
+          claim_id: c_VNZsNqvyAKLwW-UNobPjeI
+          source_id: s_BAjxo671XMFTkByAe6GdPY
+          stance: supports
+          locator: CBDB 双向互证（曾孫; 重孫 王穰 ⇄ 曾祖 王良玉）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_BAjxo671XMFTkByAe6GdPY
+            source_type: api_record
+            title: 中国历代人物传记资料库：王良玉（CBDB 10725）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10725&o=json
+            external_identifier: CBDB:10725
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.563Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_mgxHev7zFTwcmkSJE7CaXn
+        status: active
+        display_name: 王良玉
+        merged_into_person_id: null
+    - claim:
+        id: c_WH1sOZg3gxImJE9aWuNbp6
+        subject_person_id: p_NxhVtsQFEKS3B7HARgTqxM
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_bxE16iQMV3ZvduCYN5Z2Cd
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0FW7CMWbEI7AAyNk69akow
+          claim_id: c_WH1sOZg3gxImJE9aWuNbp6
+          source_id: s_8anH7G45ih3Y7d9FhRXCAb
+          stance: supports
+          locator: CBDB 双向互证（祖父 王褘 ⇄ 孫 王穰）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_NxhVtsQFEKS3B7HARgTqxM
+        status: active
+        display_name: 王褘
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -111,7 +174,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_mgxHev7zFTwcmkSJE7CaXn | 王良玉 | accepted |
+| ancestors | p_NxhVtsQFEKS3B7HARgTqxM | 王褘 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王良玉（CBDB 10725）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10725&o=json)
 - [中国历代人物传记资料库：王穰（CBDB 437663）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=437663&o=json)

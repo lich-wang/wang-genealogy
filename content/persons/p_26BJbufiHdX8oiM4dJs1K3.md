@@ -4,7 +4,7 @@ id: p_26BJbufiHdX8oiM4dJs1K3
 status: active
 merged_into: null
 display_name: 王琰
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,13 +72,65 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_8orchn222uM3k-8FQjCYd4
+        subject_person_id: p_TA3EM7RAXDxn6hGbgBVmnw
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_26BJbufiHdX8oiM4dJs1K3
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Mp9f-DAT8I58UtGb0C63_j
+          claim_id: c_8orchn222uM3k-8FQjCYd4
+          source_id: s_MuLyWsZibwer1EjgcGYF4p
+          stance: supports
+          locator: CBDB 双向互证（父 王僑 ⇄ 子 王琰）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_TA3EM7RAXDxn6hGbgBVmnw
+        status: active
+        display_name: 王僑
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_nvqs8_cIY5Rl0EQFo6rmic
+        subject_person_id: p_26BJbufiHdX8oiM4dJs1K3
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Q1HXQkSMAFHi7fYuKS8duv
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4iGIWWrIXhxCvlKFQyZH2u
+          claim_id: c_nvqs8_cIY5Rl0EQFo6rmic
+          source_id: s_MuLyWsZibwer1EjgcGYF4p
+          stance: supports
+          locator: CBDB 双向互证（孫 王蕙 ⇄ 祖父 王琰）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_Q1HXQkSMAFHi7fYuKS8duv
+        status: active
+        display_name: 王蕙
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_TA3EM7RAXDxn6hGbgBVmnw | 王僑 | accepted |
+| descendants | p_Q1HXQkSMAFHi7fYuKS8duv | 王蕙 | accepted |
 
 ## 外部来源
 

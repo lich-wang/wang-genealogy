@@ -4,7 +4,7 @@ id: p_7XVwriKhMuAxk84ypFnPNi
 status: active
 merged_into: null
 display_name: 王伯起
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_S6Cs5pFPtyyFG1QcxQ4-L0
+        subject_person_id: p_4H6hmNE3a7KsJizuXuhwwM
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_7XVwriKhMuAxk84ypFnPNi
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_iSuexeod26EbiuonPjM7Cz
+          claim_id: c_S6Cs5pFPtyyFG1QcxQ4-L0
+          source_id: s_Yic4HWUmUS3sWTFBmHNmnx
+          stance: supports
+          locator: CBDB 双向互证（子 王伯起 ⇄ 父 王礎）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_Yic4HWUmUS3sWTFBmHNmnx
+            source_type: api_record
+            title: 中国历代人物传记资料库：王礎（CBDB 10336）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10336&o=json
+            external_identifier: CBDB:10336
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.527Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_4H6hmNE3a7KsJizuXuhwwM
+        status: active
+        display_name: 王礎
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_4H6hmNE3a7KsJizuXuhwwM | 王礎 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王伯起（CBDB 3970）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3970&o=json)
+- [中国历代人物传记资料库：王礎（CBDB 10336）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10336&o=json)

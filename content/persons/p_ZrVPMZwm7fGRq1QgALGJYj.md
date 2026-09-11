@@ -4,7 +4,7 @@ id: p_ZrVPMZwm7fGRq1QgALGJYj
 status: active
 merged_into: null
 display_name: 王采
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_McNkgNsf-NT9hgvZpMv3Q2
+        subject_person_id: p_ycGgNxfxozdfaZd69tXQfq
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ZrVPMZwm7fGRq1QgALGJYj
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1LAGrpsp5XfiF5RCm29AHf
+          claim_id: c_McNkgNsf-NT9hgvZpMv3Q2
+          source_id: s_4j1cy1km4tGC52MrB9xXNd
+          stance: supports
+          locator: CBDB 双向互证（父 王乃餘 ⇄ 子 王采）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_ycGgNxfxozdfaZd69tXQfq
+        status: active
+        display_name: 王乃餘
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_jHpOWe5lqgd8d9ZrHuV_md
+        subject_person_id: p_ZrVPMZwm7fGRq1QgALGJYj
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Tz4YpWKtJXjcMJNGcixnvv
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_R6NvwnQFFcrmKmd8vpUzMe
+          claim_id: c_jHpOWe5lqgd8d9ZrHuV_md
+          source_id: s_4j1cy1km4tGC52MrB9xXNd
+          stance: supports
+          locator: CBDB 双向互证（子 王枚士 ⇄ 父 王采）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_Tz4YpWKtJXjcMJNGcixnvv
+        status: active
+        display_name: 王枚士
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_ycGgNxfxozdfaZd69tXQfq | 王乃餘 | accepted |
+| children | p_Tz4YpWKtJXjcMJNGcixnvv | 王枚士 | accepted |
 
 ## 外部来源
 

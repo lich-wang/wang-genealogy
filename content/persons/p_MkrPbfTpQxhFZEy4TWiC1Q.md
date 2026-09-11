@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王居巖
 cbdb_id: 3946
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -87,7 +87,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_wiijnLmAaA9E89xJj_5Bzu
+        subject_person_id: p_MkrPbfTpQxhFZEy4TWiC1Q
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_B8ga7F2MNvRvYqoPDeiZMF
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_emyTHdYcg-26c9TebEnbzt
+          claim_id: c_wiijnLmAaA9E89xJj_5Bzu
+          source_id: s_Lq2TRJGL6oVAj4QXBdB8KP
+          stance: supports
+          locator: CBDB 双向互证（父 王居巖 ⇄ 子 王延嗣）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_Lq2TRJGL6oVAj4QXBdB8KP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王延嗣（CBDB 22011）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22011&o=json
+            external_identifier: CBDB:22011
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.795Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_B8ga7F2MNvRvYqoPDeiZMF
+        status: active
+        display_name: 王延嗣
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -148,9 +185,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_B8ga7F2MNvRvYqoPDeiZMF | 王延嗣 | accepted |
 | descendants | p_r5tsAWpfP2w1Ew681Ex2C6 | 王逢 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王逢（CBDB 7374）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=7374&o=json)
 - [中国历代人物传记资料库：王居巖（CBDB 3946）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3946&o=json)
+- [中国历代人物传记资料库：王延嗣（CBDB 22011）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22011&o=json)

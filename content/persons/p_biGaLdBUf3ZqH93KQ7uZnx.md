@@ -4,7 +4,7 @@ id: p_biGaLdBUf3ZqH93KQ7uZnx
 status: active
 merged_into: null
 display_name: 王懷信
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_e9P1TaM1wAMue_JE8dH5hM
+        subject_person_id: p_xXXn6fAPMxYTRtG6zG3M9K
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_biGaLdBUf3ZqH93KQ7uZnx
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0xOl1D7XcK98Z5EN3aNl43
+          claim_id: c_e9P1TaM1wAMue_JE8dH5hM
+          source_id: s_suZSwBcjvFPqw9MPCk4NV1
+          stance: supports
+          locator: CBDB 双向互证（父 王仕榮 ⇄ 子 王懷信）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_xXXn6fAPMxYTRtG6zG3M9K
+        status: active
+        display_name: 王仕榮
+        merged_into_person_id: null
   children:
     - claim:
         id: c_85PUJCJvmJakWEHLvdFptw
@@ -160,6 +186,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_xXXn6fAPMxYTRtG6zG3M9K | 王仕榮 | accepted |
 | children | p_4DFXvaJGjrMh1AZPiFN3k7 | 王淵 | accepted |
 | ancestors | p_5NzUrA2mKFb4JcdEQ9g3nA | 王重瞻 | accepted |
 

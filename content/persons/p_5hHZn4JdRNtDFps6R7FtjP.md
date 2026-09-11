@@ -4,7 +4,7 @@ id: p_5hHZn4JdRNtDFps6R7FtjP
 status: active
 merged_into: null
 display_name: 王遹
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_CcE0jREa-am6mY15yCg462
+        subject_person_id: p_iLUdeieVQDb1mxk8x28Vj3
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_5hHZn4JdRNtDFps6R7FtjP
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_alD8etKLWTaePZhT5MAVqq
+          claim_id: c_CcE0jREa-am6mY15yCg462
+          source_id: s_7u8LEwRZVt8iwM41G9ihj7
+          stance: supports
+          locator: CBDB 双向互证（父 王正路 ⇄ 子 王遹）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_iLUdeieVQDb1mxk8x28Vj3
+        status: active
+        display_name: 王正路
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -123,6 +149,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_iLUdeieVQDb1mxk8x28Vj3 | 王正路 | accepted |
 | ancestors | p_9epbfLViLxzdJRKQE2V4dh | 王鬷 | accepted |
 
 ## 外部来源

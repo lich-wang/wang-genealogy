@@ -4,7 +4,7 @@ id: p_Jc5FhjwDsGBht7SHrQAfA9
 status: active
 merged_into: null
 display_name: 王仲英
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_pWRC4D262bVpKX9wRMI3tu
+        subject_person_id: p_Jc5FhjwDsGBht7SHrQAfA9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_kXhN1ZZdd8m99X37QRa5g5
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ce76cUjgq_xJyr_RaJx9q1
+          claim_id: c_pWRC4D262bVpKX9wRMI3tu
+          source_id: s_KpNKbypnCLENfB91uTWMQ5
+          stance: supports
+          locator: CBDB 双向互证（子 王經 ⇄ 父 王仲英）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_kXhN1ZZdd8m99X37QRa5g5
+        status: active
+        display_name: 王經
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_kXhN1ZZdd8m99X37QRa5g5 | 王經 | accepted |
 
 ## 外部来源
 

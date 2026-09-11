@@ -4,7 +4,7 @@ id: p_PtwTXGo9NPse1etrpun577
 status: active
 merged_into: null
 display_name: 王柄
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_uaBe7cXnWNCALAK5KGJnE5
+        subject_person_id: p_PtwTXGo9NPse1etrpun577
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_bVoJ5u4c3sc7WJHSF92F3s
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gw1i7_Mkc1wtS4JtOGJtdG
+          claim_id: c_uaBe7cXnWNCALAK5KGJnE5
+          source_id: s_XhqM2x1w1o6JDKdocUNU3F
+          stance: supports
+          locator: CBDB 双向互证（父 王柄 ⇄ 子 王頤）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_XhqM2x1w1o6JDKdocUNU3F
+            source_type: api_record
+            title: 中国历代人物传记资料库：王頤（CBDB 25465）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=25465&o=json
+            external_identifier: CBDB:25465
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.909Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_bVoJ5u4c3sc7WJHSF92F3s
+        status: active
+        display_name: 王頤
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_bVoJ5u4c3sc7WJHSF92F3s | 王頤 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王柄（CBDB 25464）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=25464&o=json)
+- [中国历代人物传记资料库：王頤（CBDB 25465）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=25465&o=json)

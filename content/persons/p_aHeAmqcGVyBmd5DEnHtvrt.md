@@ -4,7 +4,7 @@ id: p_aHeAmqcGVyBmd5DEnHtvrt
 status: active
 merged_into: null
 display_name: 王纘
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_Or0LZ1iplnfS2XJAE2bnwJ
+        subject_person_id: p_jcy22bxAQUFAfeVxtaPc8j
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_aHeAmqcGVyBmd5DEnHtvrt
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gO6RsrOHT9oenkiz8LanOi
+          claim_id: c_Or0LZ1iplnfS2XJAE2bnwJ
+          source_id: s_Y1pDBFA71gVGdvYfjt74T1
+          stance: supports
+          locator: CBDB 双向互证（父 王安稚 ⇄ 子 王纘）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_jcy22bxAQUFAfeVxtaPc8j
+        status: active
+        display_name: 王安稚
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_tegcUZQYVV229Nk-Q40rWT
+        subject_person_id: p_aHeAmqcGVyBmd5DEnHtvrt
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Wh324NyeqK1obvTfApNoR8
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bfV7jB9ptff0hO9v1rG1GX
+          claim_id: c_tegcUZQYVV229Nk-Q40rWT
+          source_id: s_Y1pDBFA71gVGdvYfjt74T1
+          stance: supports
+          locator: CBDB 双向互证（子 王肇 ⇄ 父 王纘）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_Wh324NyeqK1obvTfApNoR8
+        status: active
+        display_name: 王肇
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_jcy22bxAQUFAfeVxtaPc8j | 王安稚 | accepted |
+| children | p_Wh324NyeqK1obvTfApNoR8 | 王肇 | accepted |
 
 ## 外部来源
 

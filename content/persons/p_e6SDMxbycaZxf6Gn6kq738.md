@@ -4,7 +4,7 @@ id: p_e6SDMxbycaZxf6Gn6kq738
 status: active
 merged_into: null
 display_name: 王審禮
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_aSN1nyONTAjMRUEk88e0A3
+        subject_person_id: p_2uCHcfYqGuUAgEGtf9J4Ma
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_e6SDMxbycaZxf6Gn6kq738
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8XeDiufTEZjZrAAKgSntUG
+          claim_id: c_aSN1nyONTAjMRUEk88e0A3
+          source_id: s_fa2GTrgEcWmnT634HeQFSe
+          stance: supports
+          locator: CBDB 双向互证（父 王東珣 ⇄ 子 王審禮）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_2uCHcfYqGuUAgEGtf9J4Ma
+        status: active
+        display_name: 王東珣
+        merged_into_person_id: null
   children:
     - claim:
         id: c_mCLIU2d23-mFOxiXwyoMrh
@@ -134,6 +160,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_2uCHcfYqGuUAgEGtf9J4Ma | 王東珣 | accepted |
 | children | p_1gVKGNfjsEagYK2KHtqxi5 | 王綯 | accepted |
 
 ## 外部来源

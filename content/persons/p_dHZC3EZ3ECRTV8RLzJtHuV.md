@@ -4,7 +4,7 @@ id: p_dHZC3EZ3ECRTV8RLzJtHuV
 status: active
 merged_into: null
 display_name: 王矩
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_VDPPMO9aKyKBh1zaAN45MC
+        subject_person_id: p_dHZC3EZ3ECRTV8RLzJtHuV
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_vFrareYRs8BujyJitkmWc6
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4TE9B2GeTtuq-8ajeToydb
+          claim_id: c_VDPPMO9aKyKBh1zaAN45MC
+          source_id: s_5s32gXNt1LKDKSS177a7JW
+          stance: supports
+          locator: CBDB 双向互证（子 王敏 ⇄ 父 王矩）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_vFrareYRs8BujyJitkmWc6
+        status: active
+        display_name: 王敏
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -123,6 +149,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_vFrareYRs8BujyJitkmWc6 | 王敏 | accepted |
 | descendants | p_N1sjWWAngPbNQ5mXRM9s3H | 王介 | accepted |
 
 ## 外部来源

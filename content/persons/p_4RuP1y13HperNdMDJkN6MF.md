@@ -4,7 +4,7 @@ id: p_4RuP1y13HperNdMDJkN6MF
 status: active
 merged_into: null
 display_name: 王震
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -167,6 +167,32 @@ relationships:
         status: active
         display_name: 王從
         merged_into_person_id: null
+    - claim:
+        id: c_bl9zYp84630iwdmvZ8REKz
+        subject_person_id: p_4RuP1y13HperNdMDJkN6MF
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_MWAK3SJTta3quLLmo1xEow
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ue5VqAGBRsLSfGpJ7ITNjL
+          claim_id: c_bl9zYp84630iwdmvZ8REKz
+          source_id: s_ryXjfBob4D77XXAGUgL5gi
+          stance: supports
+          locator: CBDB 双向互证（子 王仰 ⇄ 父 王震）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_MWAK3SJTta3quLLmo1xEow
+        status: active
+        display_name: 王仰
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -245,6 +271,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_26tLQutRv9RfwmDpym5T1E | 王從 | accepted |
+| children | p_MWAK3SJTta3quLLmo1xEow | 王仰 | accepted |
 | ancestors | p_tyaMeFLDyyzL3DtTVsE3uu | 王旦 | accepted |
 | ancestors | p_h7s3yp9U2dC68kkp9tKxxX | 王素 | accepted |
 

@@ -4,7 +4,7 @@ id: p_n7RR62NooNQvNuaEfU2L5M
 status: active
 merged_into: null
 display_name: 王錫
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_W27NKNQfcO9Uu7XWpT6Omh
+        subject_person_id: p_n7RR62NooNQvNuaEfU2L5M
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_vimig6fJTzPPeFEmDd4JTt
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VhGhE_aYaRCJNC8YCiNnKR
+          claim_id: c_W27NKNQfcO9Uu7XWpT6Omh
+          source_id: s_C2Y4bYd4JsFUyB3AEPNs7E
+          stance: supports
+          locator: CBDB 双向互证（子 王得中 ⇄ 父 王錫）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_vimig6fJTzPPeFEmDd4JTt
+        status: active
+        display_name: 王得中
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_vimig6fJTzPPeFEmDd4JTt | 王得中 | accepted |
 
 ## 外部来源
 

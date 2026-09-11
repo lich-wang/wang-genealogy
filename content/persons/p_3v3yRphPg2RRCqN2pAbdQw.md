@@ -4,7 +4,7 @@ id: p_3v3yRphPg2RRCqN2pAbdQw
 status: active
 merged_into: null
 display_name: 王鏜
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_bBDldlapm6ipCY2bDYnawS
+        subject_person_id: p_3v3yRphPg2RRCqN2pAbdQw
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Y3hGU45P2mcc267FmG9iUj
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_TgiDO5IYIwc00JZSWZaKYQ
+          claim_id: c_bBDldlapm6ipCY2bDYnawS
+          source_id: s_ZSAwzhfSNk7PN3NLoAYczD
+          stance: supports
+          locator: CBDB 双向互证（子 王尚輔 ⇄ 父 王鏜）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_Y3hGU45P2mcc267FmG9iUj
+        status: active
+        display_name: 王尚輔
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_Y3hGU45P2mcc267FmG9iUj | 王尚輔 | accepted |
 
 ## 外部来源
 

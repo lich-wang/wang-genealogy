@@ -4,7 +4,7 @@ id: p_sJhMbwjHu6A2QrasBxy59J
 status: active
 merged_into: null
 display_name: 王彥
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_TL3f4G761Vl3W6FMbIVXcj
+        subject_person_id: p_sJhMbwjHu6A2QrasBxy59J
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_wL6DEzwt6XpHQ1658fBFmM
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MCC7CSUpaJ_gpvSCgUiFHM
+          claim_id: c_TL3f4G761Vl3W6FMbIVXcj
+          source_id: s_gaAtRG9zVs7FA4TP9gyMwz
+          stance: supports
+          locator: CBDB 双向互证（子 王伯元 ⇄ 父 王彥）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_wL6DEzwt6XpHQ1658fBFmM
+        status: active
+        display_name: 王伯元
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_wL6DEzwt6XpHQ1658fBFmM | 王伯元 | accepted |
 
 ## 外部来源
 

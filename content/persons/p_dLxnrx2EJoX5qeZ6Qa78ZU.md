@@ -4,7 +4,7 @@ id: p_dLxnrx2EJoX5qeZ6Qa78ZU
 status: active
 merged_into: null
 display_name: 王應鳳
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_S8n81wLCAc80e6p7un2vf9
+        subject_person_id: p_UKZ9JENMUQXopMywb8jsK4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_dLxnrx2EJoX5qeZ6Qa78ZU
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_90b68fSDbwvk2NEiAKJcEt
+          claim_id: c_S8n81wLCAc80e6p7un2vf9
+          source_id: s_tgQaYyBVLUeaz2cLVjcGjv
+          stance: supports
+          locator: CBDB 双向互证（父 王撝 ⇄ 子 王應鳳）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_UKZ9JENMUQXopMywb8jsK4
+        status: active
+        display_name: 王撝
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -152,6 +178,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_UKZ9JENMUQXopMywb8jsK4 | 王撝 | accepted |
 | ancestors | p_uj85L9awApVoYrRPajReL6 | 王安道 | accepted |
 
 ## 外部来源

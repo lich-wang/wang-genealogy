@@ -4,7 +4,7 @@ id: p_3FwfmVLuawARCoZyhyo5mg
 status: active
 merged_into: null
 display_name: 王審琦
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -375,11 +375,89 @@ relationships:
         status: active
         display_name: 王氏
         merged_into_person_id: null
+    - claim:
+        id: c_pvd9Fh73E00AZE4D_BMEAW
+        subject_person_id: p_3FwfmVLuawARCoZyhyo5mg
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_nTzZCoYHVAfzF7pEPWo4DQ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mXLrvDBUJGXFAIdh3LQXjQ
+          claim_id: c_pvd9Fh73E00AZE4D_BMEAW
+          source_id: s_kXDqY3oX1V5PnHzqot3UVv
+          stance: supports
+          locator: CBDB 双向互证（子 王承衎 ⇄ 父 王審琦）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_nTzZCoYHVAfzF7pEPWo4DQ
+        status: active
+        display_name: 王承衎
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_5WsYcvd4jJPey_5T16Yd6S
+        subject_person_id: p_3FwfmVLuawARCoZyhyo5mg
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_TVq23n2RQddg1PbX7pTRGV
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_aLvVM4tlfiSCIAMKp6f4Ee
+          claim_id: c_5WsYcvd4jJPey_5T16Yd6S
+          source_id: s_kXDqY3oX1V5PnHzqot3UVv
+          stance: supports
+          locator: CBDB 双向互证（曾孫; 重孫 王克詢 ⇄ 曾祖 王審琦）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_TVq23n2RQddg1PbX7pTRGV
+        status: active
+        display_name: 王克詢
+        merged_into_person_id: null
+    - claim:
+        id: c_q9pgx1xIxfuHffYIYHWmR8
+        subject_person_id: p_3FwfmVLuawARCoZyhyo5mg
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_moAmixdqSMn4ZxobbvbR7J
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_EK9ew71TfJI_E8I_V54A-C
+          claim_id: c_q9pgx1xIxfuHffYIYHWmR8
+          source_id: s_kXDqY3oX1V5PnHzqot3UVv
+          stance: supports
+          locator: CBDB 双向互证（曾孫; 重孫 王堯善 ⇄ 曾祖 王審琦）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_moAmixdqSMn4ZxobbvbR7J
+        status: active
+        display_name: 王堯善
+        merged_into_person_id: null
   other: []
 ---
 
@@ -409,6 +487,9 @@ relationships:
 | children | p_CxGK66CGQTocSW3DdK8C5x | 王承仅 | accepted |
 | children | p_uPz7miu7kSh8ipxJGzwsPq | 王承僎 | accepted |
 | children | p_xyPtAQ7AR8yTpy2qwHiGWa | 王氏 | accepted |
+| children | p_nTzZCoYHVAfzF7pEPWo4DQ | 王承衎 | accepted |
+| descendants | p_TVq23n2RQddg1PbX7pTRGV | 王克詢 | accepted |
+| descendants | p_moAmixdqSMn4ZxobbvbR7J | 王堯善 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_egyS5bPtB4BGpQ3ch7iPFq
 status: active
 merged_into: null
 display_name: 王罕
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_wbVGeKqysj6iR4FWSv9rPt
+        subject_person_id: p_QZHN7XBFLhdEfKGuEPQEhp
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_egyS5bPtB4BGpQ3ch7iPFq
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_97I9WIjQJkLQQZTMVsAVW8
+          claim_id: c_wbVGeKqysj6iR4FWSv9rPt
+          source_id: s_aWZb1QTCaZLsHnndnPqr6u
+          stance: supports
+          locator: CBDB 双向互证（父 王贄 ⇄ 子 王罕）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_QZHN7XBFLhdEfKGuEPQEhp
+        status: active
+        display_name: 王贄
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_QZHN7XBFLhdEfKGuEPQEhp | 王贄 | accepted |
 
 ## 外部来源
 

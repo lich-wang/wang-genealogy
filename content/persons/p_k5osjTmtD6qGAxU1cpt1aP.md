@@ -4,7 +4,7 @@ id: p_k5osjTmtD6qGAxU1cpt1aP
 status: active
 merged_into: null
 display_name: 王文
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_EXR7SgzH0HmRQirwnCyHpT
+        subject_person_id: p_XNnEJW93RJQ51JNrQsQRTJ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_k5osjTmtD6qGAxU1cpt1aP
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NkZk1bFYvCNMe0xK1zJ3gr
+          claim_id: c_EXR7SgzH0HmRQirwnCyHpT
+          source_id: s_bBN9NXqMhvnvJpcS9rLrBu
+          stance: supports
+          locator: CBDB 双向互证（父 王彥 ⇄ 子 王文）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_XNnEJW93RJQ51JNrQsQRTJ
+        status: active
+        display_name: 王彥
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_VNm8rqHlP0k_Gli8WXIQEG
+        subject_person_id: p_k5osjTmtD6qGAxU1cpt1aP
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_TiUdEhG1LMC9f51Xgx1RW7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pyrndobAHARm0T0ldjwtPV
+          claim_id: c_VNm8rqHlP0k_Gli8WXIQEG
+          source_id: s_bBN9NXqMhvnvJpcS9rLrBu
+          stance: supports
+          locator: CBDB 双向互证（子 王鎰 ⇄ 父 王文）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_TiUdEhG1LMC9f51Xgx1RW7
+        status: active
+        display_name: 王鎰
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -134,6 +186,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_XNnEJW93RJQ51JNrQsQRTJ | 王彥 | accepted |
+| children | p_TiUdEhG1LMC9f51Xgx1RW7 | 王鎰 | accepted |
 | descendants | p_jUfc5vCsBkQrPPCvwGCB11 | 王堯臣 | accepted |
 
 ## 外部来源

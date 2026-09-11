@@ -4,7 +4,7 @@ id: p_DFWuMPWUstBm3Tr8KacmZf
 status: active
 merged_into: null
 display_name: 王嗣宗
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -128,8 +128,86 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_vaqHPrYHgZJEAQ2Q2P5qch
+        subject_person_id: p_FXHwcoHY4AFBFWRSSNw52j
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_DFWuMPWUstBm3Tr8KacmZf
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BKjzAjESpzujI2bloi4GTM
+          claim_id: c_vaqHPrYHgZJEAQ2Q2P5qch
+          source_id: s_42M1RyqHPGFYMpZ9FeVqji
+          stance: supports
+          locator: CBDB 双向互证（父 王夢證 ⇄ 子 王嗣宗）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_FXHwcoHY4AFBFWRSSNw52j
+        status: active
+        display_name: 王夢證
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_KSZmNFEtNKq94A082GbZ8Y
+        subject_person_id: p_DFWuMPWUstBm3Tr8KacmZf
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ZxM73hSp11NXLR4Pp1Gsy9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BFxhnUDYEmsvd2MvLKFAZY
+          claim_id: c_KSZmNFEtNKq94A082GbZ8Y
+          source_id: s_42M1RyqHPGFYMpZ9FeVqji
+          stance: supports
+          locator: CBDB 双向互证（子 王堯臣 ⇄ 父 王嗣宗）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_ZxM73hSp11NXLR4Pp1Gsy9
+        status: active
+        display_name: 王堯臣
+        merged_into_person_id: null
+    - claim:
+        id: c_cF655qqmGnI-h3Ql1R0Dag
+        subject_person_id: p_DFWuMPWUstBm3Tr8KacmZf
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_EFHu2f75P5hv7hu9BKehC4
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ucFCVBQqloQ2v_10QIUgRj
+          claim_id: c_cF655qqmGnI-h3Ql1R0Dag
+          source_id: s_42M1RyqHPGFYMpZ9FeVqji
+          stance: supports
+          locator: CBDB 双向互证（子 王唐臣 ⇄ 父 王嗣宗）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_EFHu2f75P5hv7hu9BKehC4
+        status: active
+        display_name: 王唐臣
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -207,6 +285,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_FXHwcoHY4AFBFWRSSNw52j | 王夢證 | accepted |
+| children | p_ZxM73hSp11NXLR4Pp1Gsy9 | 王堯臣 | accepted |
+| children | p_EFHu2f75P5hv7hu9BKehC4 | 王唐臣 | accepted |
 | ancestors | p_GsMLftW55iaStQ68Ab6yJ2 | 王同節 | accepted |
 | ancestors | p_Hi2pMZGHcEwS8ZkC4zPUSd | 王待價 | accepted |
 

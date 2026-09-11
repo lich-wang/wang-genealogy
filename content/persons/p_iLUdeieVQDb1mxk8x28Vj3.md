@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王正路
 cbdb_id: 20886
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -125,7 +125,118 @@ relationships:
         status: active
         display_name: 王鬷
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_CcE0jREa-am6mY15yCg462
+        subject_person_id: p_iLUdeieVQDb1mxk8x28Vj3
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_5hHZn4JdRNtDFps6R7FtjP
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_alD8etKLWTaePZhT5MAVqq
+          claim_id: c_CcE0jREa-am6mY15yCg462
+          source_id: s_7u8LEwRZVt8iwM41G9ihj7
+          stance: supports
+          locator: CBDB 双向互证（父 王正路 ⇄ 子 王遹）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_7u8LEwRZVt8iwM41G9ihj7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王遹（CBDB 22215）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22215&o=json
+            external_identifier: CBDB:22215
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.851Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_5hHZn4JdRNtDFps6R7FtjP
+        status: active
+        display_name: 王遹
+        merged_into_person_id: null
+    - claim:
+        id: c_uqHRr1587NZijSsJ4DuQU1
+        subject_person_id: p_iLUdeieVQDb1mxk8x28Vj3
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_5LNrAt3UFBAa5AMw5eaSEJ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_oi3psiXaGJ99rcn6u81QLi
+          claim_id: c_uqHRr1587NZijSsJ4DuQU1
+          source_id: s_ueB9ZHJQCPPPwYRoVNUksZ
+          stance: supports
+          locator: CBDB 双向互证（父 王正路 ⇄ 子 王蘧）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_ueB9ZHJQCPPPwYRoVNUksZ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王蘧（CBDB 23564）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=23564&o=json
+            external_identifier: CBDB:23564
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.887Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_5LNrAt3UFBAa5AMw5eaSEJ
+        status: active
+        display_name: 王蘧
+        merged_into_person_id: null
+    - claim:
+        id: c_PnVKLZzQf_ZA3jP20SDFvT
+        subject_person_id: p_iLUdeieVQDb1mxk8x28Vj3
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_tNxDF9RNAwjuxwXQbHswdX
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_H-h0fN1l2wCpAflqVD9U5F
+          claim_id: c_PnVKLZzQf_ZA3jP20SDFvT
+          source_id: s_RupQmYq6XJuF2vexT3Cb38
+          stance: supports
+          locator: CBDB 双向互证（父 王正路 ⇄ 子 王適）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_RupQmYq6XJuF2vexT3Cb38
+            source_type: api_record
+            title: 中国历代人物传记资料库：王適（CBDB 22214）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22214&o=json
+            external_identifier: CBDB:22214
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.849Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_tNxDF9RNAwjuxwXQbHswdX
+        status: active
+        display_name: 王適
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -150,8 +261,14 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_9epbfLViLxzdJRKQE2V4dh | 王鬷 | accepted |
+| children | p_5hHZn4JdRNtDFps6R7FtjP | 王遹 | accepted |
+| children | p_5LNrAt3UFBAa5AMw5eaSEJ | 王蘧 | accepted |
+| children | p_tNxDF9RNAwjuxwXQbHswdX | 王適 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王蘧（CBDB 23564）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=23564&o=json)
+- [中国历代人物传记资料库：王適（CBDB 22214）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22214&o=json)
+- [中国历代人物传记资料库：王遹（CBDB 22215）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22215&o=json)
 - [中国历代人物传记资料库：王正路（CBDB 20886）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=20886&o=json)
 - [中国历代人物传记资料库：王鬷（CBDB 1903）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1903&o=json)

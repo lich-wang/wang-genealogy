@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王忠
 cbdb_id: 35273
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -92,7 +92,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_SsP1w8WP_TAqRB5UTMmyj6
+        subject_person_id: p_EZ3srBdiXSE6J75Wn5u1sb
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_9eCcDpeVkEgC9tqMMZEZWG
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_U04L91DRnuf32oi5Vhv6cq
+          claim_id: c_SsP1w8WP_TAqRB5UTMmyj6
+          source_id: s_MThndogaedxdmxCGFsxadv
+          stance: supports
+          locator: CBDB 双向互证（子 王忠政 ⇄ 父 王廷）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_MThndogaedxdmxCGFsxadv
+            source_type: api_record
+            title: 中国历代人物传记资料库：王廷（CBDB 35274）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35274&o=json
+            external_identifier: CBDB:35274
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.120Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_EZ3srBdiXSE6J75Wn5u1sb
+        status: active
+        display_name: 王廷
+        merged_into_person_id: null
   children:
     - claim:
         id: c_J7pQ7fuFxJxLTd81GAHNKQ
@@ -139,6 +176,43 @@ relationships:
         status: active
         display_name: 王朝用
         merged_into_person_id: null
+    - claim:
+        id: c_rIjkh5XWrC_s9s3nU62yfl
+        subject_person_id: p_9eCcDpeVkEgC9tqMMZEZWG
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_fBDFmpqAfPU4EztdEtani6
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Lft3h92wYRdeSkUnRwMtYB
+          claim_id: c_rIjkh5XWrC_s9s3nU62yfl
+          source_id: s_72EJznLo4C5LLDFqb9gr5c
+          stance: supports
+          locator: CBDB 双向互证（父 王忠政 ⇄ 子 王朝達）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_72EJznLo4C5LLDFqb9gr5c
+            source_type: api_record
+            title: 中国历代人物传记资料库：王朝達（CBDB 563195）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=563195&o=json
+            external_identifier: CBDB:563195
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.566Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_fBDFmpqAfPU4EztdEtani6
+        status: active
+        display_name: 王朝達
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -162,10 +236,14 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_EZ3srBdiXSE6J75Wn5u1sb | 王廷 | accepted |
 | children | p_yv85iMSEixKWR4Bwa93MTf | 王朝用 | accepted |
+| children | p_fBDFmpqAfPU4EztdEtani6 | 王朝達 | accepted |
 
 ## 外部来源
 
 - [维基数据：王朝用（Q45426051）](https://www.wikidata.org/wiki/Q45426051)
 - [维基数据：王忠（Q45426092）](https://www.wikidata.org/wiki/Q45426092)
+- [中国历代人物传记资料库：王朝達（CBDB 563195）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=563195&o=json)
+- [中国历代人物传记资料库：王廷（CBDB 35274）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35274&o=json)
 - [CBDB 中国历代人物传记资料库：王忠政（35273）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35273&o=json)

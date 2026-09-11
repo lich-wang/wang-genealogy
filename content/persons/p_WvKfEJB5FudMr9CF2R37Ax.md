@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王尔达
 cbdb_id: 29897
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -306,6 +306,43 @@ relationships:
         status: active
         display_name: 王恭人
         merged_into_person_id: null
+    - claim:
+        id: c_l6fT14pjZjhoEBJanVfK9e
+        subject_person_id: p_WvKfEJB5FudMr9CF2R37Ax
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ZyHjRaen1EDymdU7e3vR6e
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mgtz0LQYoZITmCNTKf_IL6
+          claim_id: c_l6fT14pjZjhoEBJanVfK9e
+          source_id: s_hmRPxUWfAta8p1JV8P6aso
+          stance: supports
+          locator: CBDB 双向互证（父 王爾達 ⇄ 子 王鳴盛）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_hmRPxUWfAta8p1JV8P6aso
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鳴盛（CBDB 29898）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=29898&o=json
+            external_identifier: CBDB:29898
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.011Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ZyHjRaen1EDymdU7e3vR6e
+        status: active
+        display_name: 王鳴盛
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -333,10 +370,12 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_hCN4NHH11HG3cmPwcyPC1j | 王鸣盛 | accepted |
 | children | p_PC1VEQ6MT1vrSB4BCFa8jk | 王恭人 | accepted |
+| children | p_ZyHjRaen1EDymdU7e3vR6e | 王鳴盛 | accepted |
 
 ## 外部来源
 
 - [维基数据：王尔达（Q45416836）](https://www.wikidata.org/wiki/Q45416836)
 - [维基数据：王恭人（Q45416835）](https://www.wikidata.org/wiki/Q45416835)
 - [维基数据：王鸣盛（Q11573252）](https://www.wikidata.org/wiki/Q11573252)
+- [中国历代人物传记资料库：王鳴盛（CBDB 29898）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=29898&o=json)
 - [CBDB 中国历代人物传记资料库：王爾達（29897）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=29897&o=json)

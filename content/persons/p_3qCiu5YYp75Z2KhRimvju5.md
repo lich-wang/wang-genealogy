@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王渷
 cbdb_id: 437564
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:437564
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_LPrkn5UgY6DTvwHSBFgGQR
             source_type: api_record
             title: 中国历代人物传记资料库：王渷（CBDB 437564）
@@ -92,7 +92,70 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_4Mya2ksJV3l8UHeGcFrNK0
+        subject_person_id: p_3qCiu5YYp75Z2KhRimvju5
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_sEGDXi7ck4pKNAhddgmbiq
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tE4RJQJhLIkA2ZHygsslJq
+          claim_id: c_4Mya2ksJV3l8UHeGcFrNK0
+          source_id: s_t2VA7WS1nJbLWR9WK7ND6Q
+          stance: supports
+          locator: CBDB 双向互证（曾祖 王渷 ⇄ 曾孫; 重孫 王珹）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_t2VA7WS1nJbLWR9WK7ND6Q
+            source_type: api_record
+            title: 中国历代人物传记资料库：王珹（CBDB 37927）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37927&o=json
+            external_identifier: CBDB:37927
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.294Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_sEGDXi7ck4pKNAhddgmbiq
+        status: active
+        display_name: 王珹
+        merged_into_person_id: null
+    - claim:
+        id: c_igpaPL5fHrfJc4o__Ibbw1
+        subject_person_id: p_3qCiu5YYp75Z2KhRimvju5
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_WU918HK6TTpAXfqW367rRb
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vrmVEn1Qa-A7i1K4bUH7sr
+          claim_id: c_igpaPL5fHrfJc4o__Ibbw1
+          source_id: s_LPrkn5UgY6DTvwHSBFgGQR
+          stance: supports
+          locator: CBDB 双向互证（孫 王侊 ⇄ 祖父 王渷）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_WU918HK6TTpAXfqW367rRb
+        status: active
+        display_name: 王侊
+        merged_into_person_id: null
   other: []
 ---
 
@@ -111,7 +174,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_sEGDXi7ck4pKNAhddgmbiq | 王珹 | accepted |
+| descendants | p_WU918HK6TTpAXfqW367rRb | 王侊 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王珹（CBDB 37927）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37927&o=json)
 - [中国历代人物传记资料库：王渷（CBDB 437564）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=437564&o=json)

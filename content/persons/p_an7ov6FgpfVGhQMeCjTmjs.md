@@ -4,7 +4,7 @@ id: p_an7ov6FgpfVGhQMeCjTmjs
 status: active
 merged_into: null
 display_name: 王璉
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,8 +128,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c__3dsN4a33zvIQ-ZCcvE3eO
+        subject_person_id: p_G4qJ7yPaYSWAivkaqit1c4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_an7ov6FgpfVGhQMeCjTmjs
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9iaGuGvDAmSCZK6vuiOv24
+          claim_id: c__3dsN4a33zvIQ-ZCcvE3eO
+          source_id: s_PmivFpkMA3kVAkJtL4zax5
+          stance: supports
+          locator: CBDB 双向互证（父 王徽 ⇄ 子 王璉）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_G4qJ7yPaYSWAivkaqit1c4
+        status: active
+        display_name: 王徽
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_FXX7BAaiILcnrewVcdINWF
+        subject_person_id: p_an7ov6FgpfVGhQMeCjTmjs
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ncJMsYgNL3hQVCtFzxU5EN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cC-Y2NOcGBaYKmyoOdV7F4
+          claim_id: c_FXX7BAaiILcnrewVcdINWF
+          source_id: s_PmivFpkMA3kVAkJtL4zax5
+          stance: supports
+          locator: CBDB 双向互证（子 王子輿 ⇄ 父 王璉）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_ncJMsYgNL3hQVCtFzxU5EN
+        status: active
+        display_name: 王子輿
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +207,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_G4qJ7yPaYSWAivkaqit1c4 | 王徽 | accepted |
+| children | p_ncJMsYgNL3hQVCtFzxU5EN | 王子輿 | accepted |
 
 ## 外部来源
 

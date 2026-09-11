@@ -4,7 +4,7 @@ id: p_ncJMsYgNL3hQVCtFzxU5EN
 status: active
 merged_into: null
 display_name: 王子輿
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_FXX7BAaiILcnrewVcdINWF
+        subject_person_id: p_an7ov6FgpfVGhQMeCjTmjs
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ncJMsYgNL3hQVCtFzxU5EN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cC-Y2NOcGBaYKmyoOdV7F4
+          claim_id: c_FXX7BAaiILcnrewVcdINWF
+          source_id: s_PmivFpkMA3kVAkJtL4zax5
+          stance: supports
+          locator: CBDB 双向互证（子 王子輿 ⇄ 父 王璉）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_PmivFpkMA3kVAkJtL4zax5
+            source_type: api_record
+            title: 中国历代人物传记资料库：王璉（CBDB 18285）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=18285&o=json
+            external_identifier: CBDB:18285
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.706Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_an7ov6FgpfVGhQMeCjTmjs
+        status: active
+        display_name: 王璉
+        merged_into_person_id: null
   children:
     - claim:
         id: c_l92-vcpNwrHtrqlFYD_NMw
@@ -238,6 +275,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_an7ov6FgpfVGhQMeCjTmjs | 王璉 | accepted |
 | children | p_MGmit54AmziqBQHDxXTxaf | 王道宗 | accepted |
 | ancestors | p_G4qJ7yPaYSWAivkaqit1c4 | 王徽 | accepted |
 | ancestors | p_iSUfErCn12jeYUoQ7FXh2z | 王甲 | accepted |
@@ -247,4 +285,5 @@ relationships:
 - [中国历代人物传记资料库：王道宗（CBDB 119718）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=119718&o=json)
 - [中国历代人物传记资料库：王徽（CBDB 18284）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=18284&o=json)
 - [中国历代人物传记资料库：王甲（CBDB 18283）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=18283&o=json)
+- [中国历代人物传记资料库：王璉（CBDB 18285）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=18285&o=json)
 - [中国历代人物传记资料库：王子輿（CBDB 1912）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1912&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王仁偘
 cbdb_id: 22129
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,8 +86,82 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_Nshe0-b8fG3D0wRQ4jAfAu
+        subject_person_id: p_TSnLmw5deMhF6ddrkHCq1X
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_UuFS5vK4ZcVMjE3tF4RFoj
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2ysXChmBXm7y0q7DsD6NA5
+          claim_id: c_Nshe0-b8fG3D0wRQ4jAfAu
+          source_id: s_2hRUfr5t1B67KY2QGWLDhm
+          stance: supports
+          locator: CBDB 双向互证（子 王仁偘 ⇄ 父 王彥英）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_2hRUfr5t1B67KY2QGWLDhm
+            source_type: api_record
+            title: 中国历代人物传记资料库：王彥英（CBDB 22128）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22128&o=json
+            external_identifier: CBDB:22128
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.829Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_TSnLmw5deMhF6ddrkHCq1X
+        status: active
+        display_name: 王彥英
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_lsiYg0VEhxdhbiL7oeM6Fo
+        subject_person_id: p_UuFS5vK4ZcVMjE3tF4RFoj
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_89pxyYXCwEKYhMLt29PYoD
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_a4pGu4xoyci31SA4UzDldt
+          claim_id: c_lsiYg0VEhxdhbiL7oeM6Fo
+          source_id: s_7RjS56q2inTQgTRu2wGC13
+          stance: supports
+          locator: CBDB 双向互证（父 王仁偘 ⇄ 子 王彬）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_7RjS56q2inTQgTRu2wGC13
+            source_type: api_record
+            title: 中国历代人物传记资料库：王彬（CBDB 1859）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1859&o=json
+            external_identifier: CBDB:1859
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.350Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_89pxyYXCwEKYhMLt29PYoD
+        status: active
+        display_name: 王彬
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,7 +185,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_TSnLmw5deMhF6ddrkHCq1X | 王彥英 | accepted |
+| children | p_89pxyYXCwEKYhMLt29PYoD | 王彬 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王彬（CBDB 1859）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1859&o=json)
 - [中国历代人物传记资料库：王仁偘（CBDB 22129）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22129&o=json)
+- [中国历代人物传记资料库：王彥英（CBDB 22128）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22128&o=json)

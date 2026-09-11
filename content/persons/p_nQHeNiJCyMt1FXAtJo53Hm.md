@@ -4,7 +4,7 @@ id: p_nQHeNiJCyMt1FXAtJo53Hm
 status: active
 merged_into: null
 display_name: 王盛
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,71 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_P2wugFWB-0Nm47VBUHGyCo
+        subject_person_id: p_ksVwy4AugUMWAYeo6188Lr
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_nQHeNiJCyMt1FXAtJo53Hm
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SR_lAeSS8h_00lQOaz2-NA
+          claim_id: c_P2wugFWB-0Nm47VBUHGyCo
+          source_id: s_pBxFuuWoFuh4AZFgo51AQG
+          stance: supports
+          locator: CBDB 双向互证（子 王盛 ⇄ 父 王傑）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_pBxFuuWoFuh4AZFgo51AQG
+            source_type: api_record
+            title: 中国历代人物传记资料库：王傑（CBDB 690122）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=690122&o=json
+            external_identifier: CBDB:690122
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:27.581Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ksVwy4AugUMWAYeo6188Lr
+        status: active
+        display_name: 王傑
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_uhTnJNaS48Wqr8p3xmsyd9
+        subject_person_id: p_nQHeNiJCyMt1FXAtJo53Hm
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_QKqRb3WxFKBxBgiGZhQ1YL
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jsPKktjtq8qm_YtxmRijqe
+          claim_id: c_uhTnJNaS48Wqr8p3xmsyd9
+          source_id: s_59gdDmKjkx2hLrgtBJ1wYE
+          stance: supports
+          locator: CBDB 双向互证（子 王忠信 ⇄ 父 王盛）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_QKqRb3WxFKBxBgiGZhQ1YL
+        status: active
+        display_name: 王忠信
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,7 +160,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_ksVwy4AugUMWAYeo6188Lr | 王傑 | accepted |
+| children | p_QKqRb3WxFKBxBgiGZhQ1YL | 王忠信 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王傑（CBDB 690122）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=690122&o=json)
 - [中国历代人物传记资料库：王盛（CBDB 690121）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=690121&o=json)

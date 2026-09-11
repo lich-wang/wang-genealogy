@@ -4,7 +4,7 @@ id: p_X6jrCw6Y7DQpEkbz1DuCWH
 status: active
 merged_into: null
 display_name: 王燾
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_AnFZ_SDPgtOHS5DW6DkQnD
+        subject_person_id: p_iu1jFRrXCA8214YaBQfsUS
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_X6jrCw6Y7DQpEkbz1DuCWH
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_o8XvPKvJOYFOxmD_XAmCfh
+          claim_id: c_AnFZ_SDPgtOHS5DW6DkQnD
+          source_id: s_21pL2VwsaWo8U6ejWRHnnV
+          stance: supports
+          locator: CBDB 双向互证（父 王茂時 ⇄ 子 王燾）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_iu1jFRrXCA8214YaBQfsUS
+        status: active
+        display_name: 王茂时
+        merged_into_person_id: null
   children:
     - claim:
         id: c_JrBPVEO849w6zSSX_qJrOp
@@ -175,6 +201,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_iu1jFRrXCA8214YaBQfsUS | 王茂时 | accepted |
 | children | p_8dWztfUudwJZAxK2m2NEME | 王遘 | accepted |
 | children | p_cSoLRZiU46GLCvuGLWAUgN | 王遂 | accepted |
 | descendants | p_kW6BHpFnPbBsA8JbJBRAGy | 王師正 | accepted |

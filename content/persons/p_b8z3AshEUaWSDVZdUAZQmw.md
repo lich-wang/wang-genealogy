@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王從用
 cbdb_id: 386571
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -87,7 +87,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_cyL0A0qS-DtrnIvejBosks
+        subject_person_id: p_b8z3AshEUaWSDVZdUAZQmw
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Dbnj6E8kMUFP6rJiZMSDLw
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_P85NrTgtjtEcZErmGNJk_z
+          claim_id: c_cyL0A0qS-DtrnIvejBosks
+          source_id: s_L4DnLA3g6o2C8iwvdjkTk9
+          stance: supports
+          locator: CBDB 双向互证（父 王從用 ⇄ 子 王說）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_L4DnLA3g6o2C8iwvdjkTk9
+            source_type: api_record
+            title: 中国历代人物传记资料库：王說（CBDB 386572）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=386572&o=json
+            external_identifier: CBDB:386572
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:21.896Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Dbnj6E8kMUFP6rJiZMSDLw
+        status: active
+        display_name: 王說
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_Dbnj6E8kMUFP6rJiZMSDLw | 王說 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王從用（CBDB 386571）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=386571&o=json)
+- [中国历代人物传记资料库：王說（CBDB 386572）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=386572&o=json)

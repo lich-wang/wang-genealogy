@@ -4,7 +4,7 @@ id: p_7mM7QXBWUmyzBGMd1B4UoP
 status: active
 merged_into: null
 display_name: 王克
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_kLJRy9JhfOflF4zoWsh7LR
+        subject_person_id: p_jZHYYykimMciC8RDnQUQX5
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_7mM7QXBWUmyzBGMd1B4UoP
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WntsYplwgKeQCs-4nIGYCj
+          claim_id: c_kLJRy9JhfOflF4zoWsh7LR
+          source_id: s_v618UAwEx1D85BQnNjygKh
+          stance: supports
+          locator: CBDB 双向互证（父 王諒 ⇄ 子 王克）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_jZHYYykimMciC8RDnQUQX5
+        status: active
+        display_name: 王諒
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -155,6 +181,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_jZHYYykimMciC8RDnQUQX5 | 王諒 | accepted |
 
 ## 外部来源
 

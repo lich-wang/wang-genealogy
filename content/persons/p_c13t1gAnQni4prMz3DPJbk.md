@@ -4,7 +4,7 @@ id: p_c13t1gAnQni4prMz3DPJbk
 status: active
 merged_into: null
 display_name: 王俁
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_FEbADOyaOuiwv-Nckl8lv3
+        subject_person_id: p_bZML6vfALwPWHt5tu3v86X
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_c13t1gAnQni4prMz3DPJbk
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6SKXGJhImN7JoPOlXUybqt
+          claim_id: c_FEbADOyaOuiwv-Nckl8lv3
+          source_id: s_vBkKyzpaPfffzvS2LjjmEL
+          stance: supports
+          locator: CBDB 双向互证（父 王真臣 ⇄ 子 王俁）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_bZML6vfALwPWHt5tu3v86X
+        status: active
+        display_name: 王真臣
+        merged_into_person_id: null
   children:
     - claim:
         id: c__w5yeaT5rO7qJ7Bf4CzIdz
@@ -190,6 +216,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_bZML6vfALwPWHt5tu3v86X | 王真臣 | accepted |
 | children | p_tqRPPbAN8FAMxiSJbvoGN3 | 王逨 | accepted |
 | descendants | p_zPJV9uPvg66nyW635J36Ep | 王中行 | accepted |
 

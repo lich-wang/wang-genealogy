@@ -4,7 +4,7 @@ id: p_UvehpGMJTzc9aejBRt9mWN
 status: active
 merged_into: null
 display_name: 王淮
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_zL8FDfZ2BNzGgfzJbQUcLU
+        subject_person_id: p_VYtFzPbziddvD9zkw88Psz
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_UvehpGMJTzc9aejBRt9mWN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8qOqrMzrdpkjUwZzXyTq2y
+          claim_id: c_zL8FDfZ2BNzGgfzJbQUcLU
+          source_id: s_jH1N5zKcYCmDMDNPzpwQ7F
+          stance: supports
+          locator: CBDB 双向互证（父 王師德 ⇄ 子 王淮）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_VYtFzPbziddvD9zkw88Psz
+        status: active
+        display_name: 王師德
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -224,6 +250,80 @@ relationships:
         status: active
         display_name: 王侃
         merged_into_person_id: null
+    - claim:
+        id: c_JgjFiOHOZFdCdG0pJa8Qv9
+        subject_person_id: p_UvehpGMJTzc9aejBRt9mWN
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_jCAZd95vtUshZxHPbwJb25
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Bh9RwPbfjhKwmlnVZER02a
+          claim_id: c_JgjFiOHOZFdCdG0pJa8Qv9
+          source_id: s_wXFzjAuVdZjStZZzgNb6nz
+          stance: supports
+          locator: CBDB 双向互证（曾祖 王淮 ⇄ 曾孫; 重孫 王奇）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_wXFzjAuVdZjStZZzgNb6nz
+            source_type: api_record
+            title: 中国历代人物传记资料库：王奇（CBDB 386675）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=386675&o=json
+            external_identifier: CBDB:386675
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:21.899Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_jCAZd95vtUshZxHPbwJb25
+        status: active
+        display_name: 王奇
+        merged_into_person_id: null
+    - claim:
+        id: c_EF_yzh8jshcIK0N7eQ2Lnt
+        subject_person_id: p_UvehpGMJTzc9aejBRt9mWN
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_nTVozGACxLLaWGNjhMQxnM
+        generation_count: 4
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_nvidO7ZjYrD0-6M43Jv6Pt
+          claim_id: c_EF_yzh8jshcIK0N7eQ2Lnt
+          source_id: s_n75KUKbyAiDG91EHz3DJYN
+          stance: supports
+          locator: CBDB 双向互证（高祖;四世祖 王淮 ⇄ 玄孫;四世孫 王肖翁）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_n75KUKbyAiDG91EHz3DJYN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王肖翁（CBDB 10722）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10722&o=json
+            external_identifier: CBDB:10722
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.558Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_nTVozGACxLLaWGNjhMQxnM
+        status: active
+        display_name: 王肖翁
+        merged_into_person_id: null
   other: []
 ---
 
@@ -244,11 +344,16 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_VYtFzPbziddvD9zkw88Psz | 王師德 | accepted |
 | descendants | p_6ezuFcCP9M43QTPSk7tw3L | 王侑 | accepted |
 | descendants | p_hJs7Qvo7BVHkNfA4qF2GpU | 王佖 | accepted |
 | descendants | p_YykcDPhoFo7o8Jvq13sdKA | 王侃 | accepted |
+| descendants | p_jCAZd95vtUshZxHPbwJb25 | 王奇 | accepted |
+| descendants | p_nTVozGACxLLaWGNjhMQxnM | 王肖翁 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王淮（CBDB 10697）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10697&o=json)
+- [中国历代人物传记资料库：王奇（CBDB 386675）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=386675&o=json)
+- [中国历代人物传记资料库：王肖翁（CBDB 10722）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10722&o=json)
 - [中国历代人物传记资料库：王侑（CBDB 39530）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=39530&o=json)

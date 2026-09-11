@@ -4,7 +4,7 @@ id: p_AZk4wkgQ7UuXpAj8THZhSe
 status: active
 merged_into: null
 display_name: 王靖
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -155,6 +155,32 @@ relationships:
         status: active
         display_name: 王雍
         merged_into_person_id: null
+    - claim:
+        id: c_E8QYHsjUTUWT1vQmICAh10
+        subject_person_id: p_dYvHHiu3FBujjP1HrpE6gG
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_AZk4wkgQ7UuXpAj8THZhSe
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-foGgJlz_zMOrL6mUJSUR7
+          claim_id: c_E8QYHsjUTUWT1vQmICAh10
+          source_id: s_UPXA3cLM7jkbMSu2afxwPY
+          stance: supports
+          locator: CBDB 双向互证（父 王冲 ⇄ 子 王靖）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_dYvHHiu3FBujjP1HrpE6gG
+        status: active
+        display_name: 王冲
+        merged_into_person_id: null
   children:
     - claim:
         id: c_d_QPlaUBt7xOrIX_vUx7oJ
@@ -208,6 +234,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_RLeRV5dpFasTBxgAWhwChj | 王雍 | accepted |
+| parents | p_dYvHHiu3FBujjP1HrpE6gG | 王冲 | accepted |
 | children | p_y6nBpA6HE95vgfY3b666P1 | 王古 | accepted |
 
 ## 外部来源

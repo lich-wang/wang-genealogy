@@ -4,7 +4,7 @@ id: p_3yGgeYr8AWKKojb6QYWJCJ
 status: active
 merged_into: null
 display_name: 王宗望
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -77,8 +77,60 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
-  descendants: []
+  ancestors:
+    - claim:
+        id: c_wWh2DjnBVDqUyY8RE8oXqs
+        subject_person_id: p_89pxyYXCwEKYhMLt29PYoD
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_3yGgeYr8AWKKojb6QYWJCJ
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_y6YghOrFUjA2VosA4QQbgO
+          claim_id: c_wWh2DjnBVDqUyY8RE8oXqs
+          source_id: s_5hiHrRziXJszNvjev39kPB
+          stance: supports
+          locator: CBDB 双向互证（祖父 王彬 ⇄ 孫 王宗望）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_89pxyYXCwEKYhMLt29PYoD
+        status: active
+        display_name: 王彬
+        merged_into_person_id: null
+  descendants:
+    - claim:
+        id: c_gJhKRSyi6Xa-gsUsxKVrLj
+        subject_person_id: p_3yGgeYr8AWKKojb6QYWJCJ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_EXNiuacY5qKu9KTDWZ22XE
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_28-HHeNHYH3VB7B6urzH4G
+          claim_id: c_gJhKRSyi6Xa-gsUsxKVrLj
+          source_id: s_5hiHrRziXJszNvjev39kPB
+          stance: supports
+          locator: CBDB 双向互证（曾孫; 重孫 王尚智 ⇄ 曾祖 王宗望）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_EXNiuacY5qKu9KTDWZ22XE
+        status: active
+        display_name: 王尚智
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_89pxyYXCwEKYhMLt29PYoD | 王彬 | accepted |
+| descendants | p_EXNiuacY5qKu9KTDWZ22XE | 王尚智 | accepted |
 
 ## 外部来源
 

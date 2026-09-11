@@ -4,7 +4,7 @@ id: p_KdcqPruLqAjHwvyr7gXGsW
 status: active
 merged_into: null
 display_name: 王繼昇
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -193,6 +193,58 @@ relationships:
         status: active
         display_name: 王昭遠
         merged_into_person_id: null
+    - claim:
+        id: c_aioam7VYRUbTwZK4OGrzKT
+        subject_person_id: p_KdcqPruLqAjHwvyr7gXGsW
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_NhTEbSVmYgtCzpciTRQqHZ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HILBHJx2vST2AEHouY1dDW
+          claim_id: c_aioam7VYRUbTwZK4OGrzKT
+          source_id: s_uC4WJXKbFJAC7KghSUo3CJ
+          stance: supports
+          locator: CBDB 双向互证（子 王昭懿 ⇄ 父 王繼昇）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_NhTEbSVmYgtCzpciTRQqHZ
+        status: active
+        display_name: 王昭懿
+        merged_into_person_id: null
+    - claim:
+        id: c_4OBzjIJhBNgPY3kJu6BO11
+        subject_person_id: p_KdcqPruLqAjHwvyr7gXGsW
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_t2LvAKy5Q63HJDC2YQdkhy
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jDFRvBrxLHN0HfWQlAalrv
+          claim_id: c_4OBzjIJhBNgPY3kJu6BO11
+          source_id: s_uC4WJXKbFJAC7KghSUo3CJ
+          stance: supports
+          locator: CBDB 双向互证（子 王昭遜 ⇄ 父 王繼昇）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_t2LvAKy5Q63HJDC2YQdkhy
+        status: active
+        display_name: 王昭遜
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -220,6 +272,8 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_aJyucbNuo6SKu4c6Y3x6DY | 王昭遠 | accepted |
 | children | p_mPvn6cAvHte4h7vhugYUrv | 王昭遠 | accepted |
+| children | p_NhTEbSVmYgtCzpciTRQqHZ | 王昭懿 | accepted |
+| children | p_t2LvAKy5Q63HJDC2YQdkhy | 王昭遜 | accepted |
 
 ## 外部来源
 

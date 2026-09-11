@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王兼皇
 cbdb_id: 17736
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,8 +86,119 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_GsgXQgFAZtNKEI0Tii31Uu
+        subject_person_id: p_ZJUopZAcjUMxN4niZZoT6P
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Pp7M9RgnjpKf6F2mKVs4Gk
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XTTdb-7G-cjFQT9KYbCf2G
+          claim_id: c_GsgXQgFAZtNKEI0Tii31Uu
+          source_id: s_6rNKuuMLEELs4BfbjNKhDz
+          stance: supports
+          locator: CBDB 双向互证（子 王兼皇 ⇄ 父 王繼華）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_6rNKuuMLEELs4BfbjNKhDz
+            source_type: api_record
+            title: 中国历代人物传记资料库：王繼華（CBDB 17735）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17735&o=json
+            external_identifier: CBDB:17735
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.669Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ZJUopZAcjUMxN4niZZoT6P
+        status: active
+        display_name: 王繼華
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_jkfsPxv1Y2zUSql6GqUpkP
+        subject_person_id: p_Pp7M9RgnjpKf6F2mKVs4Gk
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_uEBsw62GZpP7Jv5oaHffEz
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xDW_uI1L7zuUS4mt8xRG9Q
+          claim_id: c_jkfsPxv1Y2zUSql6GqUpkP
+          source_id: s_ALMNzYXANCKK1erRJwiTib
+          stance: supports
+          locator: CBDB 双向互证（父 王兼皇 ⇄ 子 王曾）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_ALMNzYXANCKK1erRJwiTib
+            source_type: api_record
+            title: 中国历代人物传记资料库：王曾（CBDB 1901）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1901&o=json
+            external_identifier: CBDB:1901
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.383Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_uEBsw62GZpP7Jv5oaHffEz
+        status: active
+        display_name: 王曾
+        merged_into_person_id: null
+    - claim:
+        id: c_B63pwYwiJA4oL3UeIJMSZK
+        subject_person_id: p_Pp7M9RgnjpKf6F2mKVs4Gk
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_urS9cC48gkGJPLgZJd585c
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_k-tg6pfCAFA74ER3l-aFhv
+          claim_id: c_B63pwYwiJA4oL3UeIJMSZK
+          source_id: s_71BvEPSkw95w2LNHEfbowH
+          stance: supports
+          locator: CBDB 双向互证（父 王兼皇 ⇄ 子 王皞）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_71BvEPSkw95w2LNHEfbowH
+            source_type: api_record
+            title: 中国历代人物传记资料库：王皞（CBDB 1911）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1911&o=json
+            external_identifier: CBDB:1911
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.391Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_urS9cC48gkGJPLgZJd585c
+        status: active
+        display_name: 王皞
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,7 +222,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_ZJUopZAcjUMxN4niZZoT6P | 王繼華 | accepted |
+| children | p_uEBsw62GZpP7Jv5oaHffEz | 王曾 | accepted |
+| children | p_urS9cC48gkGJPLgZJd585c | 王皞 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王曾（CBDB 1901）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1901&o=json)
+- [中国历代人物传记资料库：王皞（CBDB 1911）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1911&o=json)
+- [中国历代人物传记资料库：王繼華（CBDB 17735）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17735&o=json)
 - [中国历代人物传记资料库：王兼皇（CBDB 17736）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17736&o=json)

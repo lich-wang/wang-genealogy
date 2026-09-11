@@ -4,7 +4,7 @@ id: p_8mHMyrFjqZr1nrmVTR3TzK
 status: active
 merged_into: null
 display_name: 王詔
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -141,7 +141,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_88vRWvkXc1iB1sNb7GOvWK
+        subject_person_id: p_WJHP8YxtLrW6oyDrhKZ1wB
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_8mHMyrFjqZr1nrmVTR3TzK
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8oGC3JZx-isz2ZolfqMlfA
+          claim_id: c_88vRWvkXc1iB1sNb7GOvWK
+          source_id: s_DXMXvfCuuComCHUn4wVjqF
+          stance: supports
+          locator: CBDB 双向互证（祖父 王化基 ⇄ 孫 王詔）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_WJHP8YxtLrW6oyDrhKZ1wB
+        status: active
+        display_name: 王化基
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -163,6 +189,7 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_VUWtL4RpgKpesMNxN9rT23 | 王舉元 | accepted |
 | children | p_PMxPh6YFaGgPp7KZmoPJPf | 王璹 | accepted |
+| ancestors | p_WJHP8YxtLrW6oyDrhKZ1wB | 王化基 | accepted |
 
 ## 外部来源
 

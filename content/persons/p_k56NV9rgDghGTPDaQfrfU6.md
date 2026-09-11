@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王守斌
 cbdb_id: 14932
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -87,7 +87,121 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_bHXSArL9SU9u-HMMzRcOPA
+        subject_person_id: p_k56NV9rgDghGTPDaQfrfU6
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_1UovNv3RvaDjuSDcVBcdxK
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Ywiyq7rXcghAh7Fb2XXSQ5
+          claim_id: c_bHXSArL9SU9u-HMMzRcOPA
+          source_id: s_dCcrudZqwWkWRGsPA8H59W
+          stance: supports
+          locator: CBDB 双向互证（父 王守斌 ⇄ 子 王令傑）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_dCcrudZqwWkWRGsPA8H59W
+            source_type: api_record
+            title: 中国历代人物传记资料库：王令傑（CBDB 14933）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=14933&o=json
+            external_identifier: CBDB:14933
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:44.071Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_1UovNv3RvaDjuSDcVBcdxK
+        status: active
+        display_name: 王令傑
+        merged_into_person_id: null
+    - claim:
+        id: c_-VtCv8PGKFCGA10S1KY4CQ
+        subject_person_id: p_k56NV9rgDghGTPDaQfrfU6
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_7NCMzTjd3GKLRxFrwXNrak
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_CCmrOcHZJGueQ9iUF-dGqw
+          claim_id: c_-VtCv8PGKFCGA10S1KY4CQ
+          source_id: s_GQRXLtdHL7cgzJK4FMcZYE
+          stance: supports
+          locator: CBDB 双向互证（父 王守斌 ⇄ 子 王令圖）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_GQRXLtdHL7cgzJK4FMcZYE
+            source_type: api_record
+            title: 中国历代人物传记资料库：王令圖（CBDB 1851）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1851&o=json
+            external_identifier: CBDB:1851
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:43.132Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_7NCMzTjd3GKLRxFrwXNrak
+        status: active
+        display_name: 王令圖
+        merged_into_person_id: null
+    - claim:
+        id: c_P-0KrtqtzNW8-rnW25ai_V
+        subject_person_id: p_k56NV9rgDghGTPDaQfrfU6
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_JUDsn7CdzZpbDPgjJYPZwa
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tGs-bGLqgiMSw7HMtelwc5
+          claim_id: c_P-0KrtqtzNW8-rnW25ai_V
+          source_id: s_keY2x4cu459XEZv8X8wfbD
+          stance: supports
+          locator: CBDB 双向互证（父 王守斌 ⇄ 子 王令短）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_keY2x4cu459XEZv8X8wfbD
+            source_type: api_record
+            title: 中国历代人物传记资料库：王令短（CBDB 14934）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=14934&o=json
+            external_identifier: CBDB:14934
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:44.071Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_JUDsn7CdzZpbDPgjJYPZwa
+        status: active
+        display_name: 王令短
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,7 +225,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_1UovNv3RvaDjuSDcVBcdxK | 王令傑 | accepted |
+| children | p_7NCMzTjd3GKLRxFrwXNrak | 王令圖 | accepted |
+| children | p_JUDsn7CdzZpbDPgjJYPZwa | 王令短 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王令短（CBDB 14934）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=14934&o=json)
+- [中国历代人物传记资料库：王令傑（CBDB 14933）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=14933&o=json)
+- [中国历代人物传记资料库：王令圖（CBDB 1851）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1851&o=json)
 - [中国历代人物传记资料库：王守斌（CBDB 14932）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=14932&o=json)

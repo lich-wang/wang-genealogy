@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王安国
 cbdb_id: 34191
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -149,7 +149,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_LcB6CvB627Es9sHbmsrIgG
+        subject_person_id: p_T8M1S67yLGQ6wK16kEkxjn
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_sCuihMoKaDM57tF5Pkp3Mj
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_emwAeC68_9WVb1r7H6IDFW
+          claim_id: c_LcB6CvB627Es9sHbmsrIgG
+          source_id: s_jbaZr7wHuBQKDV42HiMfYb
+          stance: supports
+          locator: CBDB 双向互证（子 王安國 ⇄ 父 王曾祿）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_jbaZr7wHuBQKDV42HiMfYb
+            source_type: api_record
+            title: 中国历代人物传记资料库：王曾祿（CBDB 34192）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34192&o=json
+            external_identifier: CBDB:34192
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.079Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_T8M1S67yLGQ6wK16kEkxjn
+        status: active
+        display_name: 王曾祿
+        merged_into_person_id: null
   children:
     - claim:
         id: c_kFFgV9APJ9PUr2goS8UsLq
@@ -222,10 +259,12 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_T8M1S67yLGQ6wK16kEkxjn | 王曾祿 | accepted |
 | children | p_7ZLkhM6fzxrjvBYHUXQTJQ | 王念孙 | accepted |
 
 ## 外部来源
 
 - [维基数据：王安国（Q13688035）](https://www.wikidata.org/wiki/Q13688035)
 - [维基数据：王念孙（Q697757）](https://www.wikidata.org/wiki/Q697757)
+- [中国历代人物传记资料库：王曾祿（CBDB 34192）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34192&o=json)
 - [CBDB 中国历代人物传记资料库：王安國（34191）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34191&o=json)

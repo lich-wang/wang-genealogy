@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王國綱
 cbdb_id: 28620
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,8 +86,83 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_rbTf6C__FyQNTyJq4kfZMg
+        subject_person_id: p_BYS8Jmjm7Hisxy1rB8S1j6
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_kTZ8UGUB5jY8LbGPJTkPP8
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_RvhGFXZQ7t_HXHcLOY_83e
+          claim_id: c_rbTf6C__FyQNTyJq4kfZMg
+          source_id: s_rZXZ4PK8ESi4b4FtD9GGBZ
+          stance: supports
+          locator: CBDB 双向互证（子 王國綱 ⇄ 父 王銳）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_rZXZ4PK8ESi4b4FtD9GGBZ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王銳（CBDB 28621）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28621&o=json
+            external_identifier: CBDB:28621
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.970Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_BYS8Jmjm7Hisxy1rB8S1j6
+        status: active
+        display_name: 王銳
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_GG1T1cCMTTI5Qd_7e9Qvu2
+        subject_person_id: p_kTZ8UGUB5jY8LbGPJTkPP8
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ELTFwpJhBRCdcynL2AFhCN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_eSEHydT4_wOKYKnb6xztNl
+          claim_id: c_GG1T1cCMTTI5Qd_7e9Qvu2
+          source_id: s_JoErEFizCEShtiRTUCLtAd
+          stance: supports
+          locator: CBDB 双向互证（父 王國綱 ⇄ 子 王振艱）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_JoErEFizCEShtiRTUCLtAd
+            source_type: api_record
+            title: 中国历代人物传记资料库：王振艱（CBDB 28619）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28619&o=json
+            external_identifier: CBDB:28619
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:45.019Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_ELTFwpJhBRCdcynL2AFhCN
+        status: active
+        display_name: 王振艱
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,7 +186,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_BYS8Jmjm7Hisxy1rB8S1j6 | 王銳 | accepted |
+| children | p_ELTFwpJhBRCdcynL2AFhCN | 王振艱 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王國綱（CBDB 28620）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28620&o=json)
+- [中国历代人物传记资料库：王銳（CBDB 28621）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28621&o=json)
+- [中国历代人物传记资料库：王振艱（CBDB 28619）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28619&o=json)

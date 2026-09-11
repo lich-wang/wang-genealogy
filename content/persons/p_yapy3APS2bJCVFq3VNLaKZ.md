@@ -4,7 +4,7 @@ id: p_yapy3APS2bJCVFq3VNLaKZ
 status: active
 merged_into: null
 display_name: 王次翁
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -203,7 +203,81 @@ relationships:
         status: active
         display_name: 张氏
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_m1F_YPE5-s_hI0DKrfK9Bo
+        subject_person_id: p_yapy3APS2bJCVFq3VNLaKZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_cwt7w7d5McN5D25Wz98qBN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZXglEM0ARDqbAwJbOcuE5w
+          claim_id: c_m1F_YPE5-s_hI0DKrfK9Bo
+          source_id: s_W7yZyGZP5vrgPJJ2xJuQVv
+          stance: supports
+          locator: CBDB 双向互证（父 王次翁 ⇄ 子 王伯序）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_W7yZyGZP5vrgPJJ2xJuQVv
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王伯序（17445）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17445&o=json
+            external_identifier: CBDB:17445
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:58:59.417Z
+            metadata_json: null
+      object_person:
+        id: p_cwt7w7d5McN5D25Wz98qBN
+        status: active
+        display_name: 王伯序
+        merged_into_person_id: null
+    - claim:
+        id: c_1jmE7vnVvBaTf4w6NSkbOE
+        subject_person_id: p_yapy3APS2bJCVFq3VNLaKZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_iwBVuUwJmW9x68bfe9dwKN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_q4ZuUySm_3Z23sBKVeUDLu
+          claim_id: c_1jmE7vnVvBaTf4w6NSkbOE
+          source_id: s_o6fwhY8EBNrs3ZN82gocSx
+          stance: supports
+          locator: CBDB 双向互证（父 王次翁 ⇄ 子 王伯庠）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_o6fwhY8EBNrs3ZN82gocSx
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王伯庠（17444）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17444&o=json
+            external_identifier: CBDB:17444
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:58:55.897Z
+            metadata_json: null
+      object_person:
+        id: p_iwBVuUwJmW9x68bfe9dwKN
+        status: active
+        display_name: 王伯庠
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses:
@@ -379,6 +453,8 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_hEEpn7U7EKTTeFP3ixWWbm | 王禔 | accepted |
 | parents | p_WYN9msC554wb8dtjBJ3Ga4 | 张氏 | accepted |
+| children | p_cwt7w7d5McN5D25Wz98qBN | 王伯序 | accepted |
+| children | p_iwBVuUwJmW9x68bfe9dwKN | 王伯庠 | accepted |
 | spouses | p_UgAKkUc34kWwMh9196acWP | 赵氏 | accepted |
 | ancestors | p_C5gdwEP6JshLSxPa5isWtq | 王异 | accepted |
 | ancestors | p_HN9dL1QZo7ng1X3WPN8EcR | 丘氏 | accepted |
@@ -388,6 +464,8 @@ relationships:
 
 - [中国历代人物传记资料库：王次翁（CBDB 1908）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1908&o=json)
 - [CBDB 中国历代人物传记资料库：丘氏（38574）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38574&o=json)
+- [CBDB 中国历代人物传记资料库：王伯庠（17444）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17444&o=json)
+- [CBDB 中国历代人物传记资料库：王伯序（17445）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17445&o=json)
 - [CBDB 中国历代人物传记资料库：王异（17423）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17423&o=json)
 - [CBDB 中国历代人物传记资料库：王禔（20093）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=20093&o=json)
 - [CBDB 中国历代人物传记资料库：張氏（38576）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38576&o=json)

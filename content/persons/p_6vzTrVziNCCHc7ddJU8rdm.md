@@ -4,7 +4,7 @@ id: p_6vzTrVziNCCHc7ddJU8rdm
 status: active
 merged_into: null
 display_name: 王興祖
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -129,7 +129,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_E1CqGQ8Ne2P6uhlZ7XNgR7
+        subject_person_id: p_6vzTrVziNCCHc7ddJU8rdm
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_UhptA5MaiWY2QSqEcWrAJh
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Fn4DGi6bwt_71wvZhKaHje
+          claim_id: c_E1CqGQ8Ne2P6uhlZ7XNgR7
+          source_id: s_VzykP7YtezE5E2ZkxjCo5F
+          stance: supports
+          locator: CBDB 双向互证（子 王毅 ⇄ 父 王興祖）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_UhptA5MaiWY2QSqEcWrAJh
+        status: active
+        display_name: 王毅
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +181,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_UhptA5MaiWY2QSqEcWrAJh | 王毅 | accepted |
 
 ## 外部来源
 

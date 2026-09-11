@@ -4,7 +4,7 @@ id: p_j7iPUKCmtFNavh7UEFUMUs
 status: active
 merged_into: null
 display_name: 王正中
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -133,7 +133,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_NlZgaMMiwOyONzigt-QCXW
+        subject_person_id: p_iDKWDJMk6aBELAydymjF7H
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_j7iPUKCmtFNavh7UEFUMUs
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lgvn3VdcC8V463koBbDIi9
+          claim_id: c_NlZgaMMiwOyONzigt-QCXW
+          source_id: s_tVNJBtDHPngb3641MK8g9R
+          stance: supports
+          locator: CBDB 双向互证（孫 王正中 ⇄ 祖父 王秉）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_tVNJBtDHPngb3641MK8g9R
+            source_type: api_record
+            title: 中国历代人物传记资料库：王秉（CBDB 21971）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=21971&o=json
+            external_identifier: CBDB:21971
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.780Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_iDKWDJMk6aBELAydymjF7H
+        status: active
+        display_name: 王秉
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_iDKWDJMk6aBELAydymjF7H | 王秉 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王秉（CBDB 21971）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=21971&o=json)
 - [中国历代人物传记资料库：王正中（CBDB 7078）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=7078&o=json)

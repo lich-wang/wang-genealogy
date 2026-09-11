@@ -4,7 +4,7 @@ id: p_kqJf2y4xM3bYzBefzeKb9x
 status: active
 merged_into: null
 display_name: 王世林
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_858hjDQfzw5sShbCdHgk4g
+        subject_person_id: p_bNEbmxn5W35REjWEe7CiZv
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_kqJf2y4xM3bYzBefzeKb9x
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_sjQsNxrxhZSZhq86WPuKVx
+          claim_id: c_858hjDQfzw5sShbCdHgk4g
+          source_id: s_YGnBtTHVaZ2Y1z7kZoGjTn
+          stance: supports
+          locator: CBDB 双向互证（子 王世林 ⇄ 父 王紱）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_YGnBtTHVaZ2Y1z7kZoGjTn
+            source_type: api_record
+            title: 中国历代人物传记资料库：王紱（CBDB 691494）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=691494&o=json
+            external_identifier: CBDB:691494
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:27.609Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_bNEbmxn5W35REjWEe7CiZv
+        status: active
+        display_name: 王紱
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_bNEbmxn5W35REjWEe7CiZv | 王紱 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王紱（CBDB 691494）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=691494&o=json)
 - [中国历代人物传记资料库：王世林（CBDB 691495）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=691495&o=json)

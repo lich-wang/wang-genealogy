@@ -4,7 +4,7 @@ id: p_6yFP175w8qJgJRVTRiUkab
 status: active
 merged_into: null
 display_name: 王一奇
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -158,6 +158,32 @@ relationships:
         status: active
         display_name: 王節
         merged_into_person_id: null
+    - claim:
+        id: c_enYCeTPcscB6HsSHThRRRQ
+        subject_person_id: p_S6ZZKMVMpbpMSQYqkUgMjL
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_6yFP175w8qJgJRVTRiUkab
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_RVlvHWGFUJxLr52arDgX6h
+          claim_id: c_enYCeTPcscB6HsSHThRRRQ
+          source_id: s_efjbH4VURWrYSiJRiFkgFR
+          stance: supports
+          locator: CBDB 双向互证（曾祖 王晞亮 ⇄ 曾孫; 重孫 王一奇）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_S6ZZKMVMpbpMSQYqkUgMjL
+        status: active
+        display_name: 王晞亮
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -180,6 +206,7 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_e8fyUGVWsewm8vpP5EJCF4 | 王民望 | accepted |
 | ancestors | p_Fo5H89gRd1G7FrWqXFVXtt | 王節 | accepted |
+| ancestors | p_S6ZZKMVMpbpMSQYqkUgMjL | 王晞亮 | accepted |
 
 ## 外部来源
 

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王必中
 cbdb_id: 22092
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,7 +86,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_1rIQXttdudMgq5NRcoPf3E
+        subject_person_id: p_3S1gvg5vQ6RL1wu23AJHJk
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_bvh8zRoDoVHCR7W6APybWW
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KUPlvwqsaWfeb0ZbxKaRPE
+          claim_id: c_1rIQXttdudMgq5NRcoPf3E
+          source_id: s_aKuiPaAct5MkYs4dfRfBVJ
+          stance: supports
+          locator: CBDB 双向互证（子 王必中 ⇄ 父 王憲）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_aKuiPaAct5MkYs4dfRfBVJ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王憲（CBDB 22091）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22091&o=json
+            external_identifier: CBDB:22091
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.822Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_3S1gvg5vQ6RL1wu23AJHJk
+        status: active
+        display_name: 王憲
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_3S1gvg5vQ6RL1wu23AJHJk | 王憲 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王必中（CBDB 22092）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22092&o=json)
+- [中国历代人物传记资料库：王憲（CBDB 22091）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22091&o=json)

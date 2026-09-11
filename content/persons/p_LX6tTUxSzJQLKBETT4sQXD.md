@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王轟
 cbdb_id: 19889
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:19889
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_fb2WkSgLSSqKiZ1YJY4vE2
             source_type: api_record
             title: 中国历代人物传记资料库：王轟（CBDB 19889）
@@ -91,7 +91,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_ixJcdq5tcAPsM7WgLOqA8d
+        subject_person_id: p_LMN8U3w7r8FiSU2N778GMc
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_LX6tTUxSzJQLKBETT4sQXD
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cWSYOxw_9n_KV4dVRbdt5i
+          claim_id: c_ixJcdq5tcAPsM7WgLOqA8d
+          source_id: s_fb2WkSgLSSqKiZ1YJY4vE2
+          stance: supports
+          locator: CBDB 双向互证（曾祖 王勳 ⇄ 曾孫; 重孫 王轟）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_LMN8U3w7r8FiSU2N778GMc
+        status: active
+        display_name: 王勳
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_LMN8U3w7r8FiSU2N778GMc | 王勳 | accepted |
 
 ## 外部来源
 

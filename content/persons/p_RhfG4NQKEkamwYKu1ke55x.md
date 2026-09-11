@@ -4,7 +4,7 @@ id: p_RhfG4NQKEkamwYKu1ke55x
 status: active
 merged_into: null
 display_name: 王維翰
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_33ujoNdsS_FPL8YwVeIhQy
+        subject_person_id: p_RhfG4NQKEkamwYKu1ke55x
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_hFoArUF5VGw1ykQUan2yRg
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_su4-OiWM75rsl2m0EPgaz4
+          claim_id: c_33ujoNdsS_FPL8YwVeIhQy
+          source_id: s_7JLgPNhLeQp9wJQ9RgLqQR
+          stance: supports
+          locator: CBDB 双向互证（子 王公塗 ⇄ 父 王維翰）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_hFoArUF5VGw1ykQUan2yRg
+        status: active
+        display_name: 王公塗
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_hFoArUF5VGw1ykQUan2yRg | 王公塗 | accepted |
 
 ## 外部来源
 

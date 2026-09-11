@@ -4,7 +4,7 @@ id: p_miziP4o1dvPJFQh5oBz2tf
 status: active
 merged_into: null
 display_name: 王葆
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -166,7 +166,44 @@ relationships:
         status: active
         display_name: 王億
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_5_kbWD5hyt7qK9Banp8xDe
+        subject_person_id: p_miziP4o1dvPJFQh5oBz2tf
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_pWyoKUjMiJN6hgnVc1gHh8
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rS9FCkrLzmuoGWyWW18H8n
+          claim_id: c_5_kbWD5hyt7qK9Banp8xDe
+          source_id: s_vX6H8L6BjQPrgDjpfpADHn
+          stance: supports
+          locator: CBDB 双向互证（父 王葆 ⇄ 子 王嘉賓）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_vX6H8L6BjQPrgDjpfpADHn
+            source_type: api_record
+            title: 中国历代人物传记资料库：王嘉賓（CBDB 561811）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=561811&o=json
+            external_identifier: CBDB:561811
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:25.762Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_pWyoKUjMiJN6hgnVc1gHh8
+        status: active
+        display_name: 王嘉賓
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -208,6 +245,43 @@ relationships:
         status: active
         display_name: 王申
         merged_into_person_id: null
+    - claim:
+        id: c_iEtgQdt46KBvr-gyvu6fP9
+        subject_person_id: p_L1FdHpa2jUZ4zfpt4vimLK
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_miziP4o1dvPJFQh5oBz2tf
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7nTO_c9WOp_tzhTZUYjpV1
+          claim_id: c_iEtgQdt46KBvr-gyvu6fP9
+          source_id: s_D4UKA8z772X1TmXyNFzybG
+          stance: supports
+          locator: CBDB 双向互证（曾孫; 重孫 王葆 ⇄ 曾祖 王制）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_D4UKA8z772X1TmXyNFzybG
+            source_type: api_record
+            title: 中国历代人物传记资料库：王制（CBDB 18661）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=18661&o=json
+            external_identifier: CBDB:18661
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.710Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_L1FdHpa2jUZ4zfpt4vimLK
+        status: active
+        display_name: 王制
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -230,10 +304,14 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_CK6Y18Q5DxUjTmD2p14zev | 王億 | accepted |
+| children | p_pWyoKUjMiJN6hgnVc1gHh8 | 王嘉賓 | accepted |
 | ancestors | p_kEX7BaCTJnDcpamj7bx62V | 王申 | accepted |
+| ancestors | p_L1FdHpa2jUZ4zfpt4vimLK | 王制 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王葆（CBDB 7086）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=7086&o=json)
+- [中国历代人物传记资料库：王嘉賓（CBDB 561811）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=561811&o=json)
 - [中国历代人物传记资料库：王申（CBDB 18662）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=18662&o=json)
 - [中国历代人物传记资料库：王億（CBDB 18663）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=18663&o=json)
+- [中国历代人物传记资料库：王制（CBDB 18661）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=18661&o=json)

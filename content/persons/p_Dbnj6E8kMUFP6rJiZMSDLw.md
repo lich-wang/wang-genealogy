@@ -4,7 +4,7 @@ id: p_Dbnj6E8kMUFP6rJiZMSDLw
 status: active
 merged_into: null
 display_name: 王說
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,13 +72,143 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_cyL0A0qS-DtrnIvejBosks
+        subject_person_id: p_b8z3AshEUaWSDVZdUAZQmw
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Dbnj6E8kMUFP6rJiZMSDLw
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_P85NrTgtjtEcZErmGNJk_z
+          claim_id: c_cyL0A0qS-DtrnIvejBosks
+          source_id: s_L4DnLA3g6o2C8iwvdjkTk9
+          stance: supports
+          locator: CBDB 双向互证（父 王從用 ⇄ 子 王說）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_b8z3AshEUaWSDVZdUAZQmw
+        status: active
+        display_name: 王從用
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_-q_0oKWn1u2PLdyCjBAxmw
+        subject_person_id: p_Dbnj6E8kMUFP6rJiZMSDLw
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_TXTXwSryWLUp2Edx6YAYPe
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2LhmHMoaCfk1_g-BX-sdLI
+          claim_id: c_-q_0oKWn1u2PLdyCjBAxmw
+          source_id: s_L4DnLA3g6o2C8iwvdjkTk9
+          stance: supports
+          locator: CBDB 双向互证（子 王永年 ⇄ 父 王說）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_TXTXwSryWLUp2Edx6YAYPe
+        status: active
+        display_name: 王永年
+        merged_into_person_id: null
+    - claim:
+        id: c_c6WTCHXzREXEP15MBv-Ywk
+        subject_person_id: p_Dbnj6E8kMUFP6rJiZMSDLw
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_WrdABvZJN9cX74q6iDQUDp
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_v13jeSzwl_wlsEzxNFfjMz
+          claim_id: c_c6WTCHXzREXEP15MBv-Ywk
+          source_id: s_L4DnLA3g6o2C8iwvdjkTk9
+          stance: supports
+          locator: CBDB 双向互证（子 王喬年 ⇄ 父 王說）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_WrdABvZJN9cX74q6iDQUDp
+        status: active
+        display_name: 王喬年
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_VEci3Ruz6pZATnSaxP1Iv9
+        subject_person_id: p_Dbnj6E8kMUFP6rJiZMSDLw
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_spLcNFvqSKmQAtJPr23JgF
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XlVMwyF1tez_wB35l-hLgs
+          claim_id: c_VEci3Ruz6pZATnSaxP1Iv9
+          source_id: s_L4DnLA3g6o2C8iwvdjkTk9
+          stance: supports
+          locator: CBDB 双向互证（孫 王鑄 ⇄ 祖父 王說）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_spLcNFvqSKmQAtJPr23JgF
+        status: active
+        display_name: 王鑄
+        merged_into_person_id: null
+    - claim:
+        id: c_6TstPQI4OICmR9KBSvofqN
+        subject_person_id: p_Dbnj6E8kMUFP6rJiZMSDLw
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_xD51Nz4rSAkq5zdMahqJPm
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YOO3hxyltSL_3UUdOMzHNC
+          claim_id: c_6TstPQI4OICmR9KBSvofqN
+          source_id: s_L4DnLA3g6o2C8iwvdjkTk9
+          stance: supports
+          locator: CBDB 双向互证（孫 王儔 ⇄ 祖父 王說）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_xD51Nz4rSAkq5zdMahqJPm
+        status: active
+        display_name: 王儔
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +227,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_b8z3AshEUaWSDVZdUAZQmw | 王從用 | accepted |
+| children | p_TXTXwSryWLUp2Edx6YAYPe | 王永年 | accepted |
+| children | p_WrdABvZJN9cX74q6iDQUDp | 王喬年 | accepted |
+| descendants | p_spLcNFvqSKmQAtJPr23JgF | 王鑄 | accepted |
+| descendants | p_xD51Nz4rSAkq5zdMahqJPm | 王儔 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_9krCz2yefFd538EMhsFrJJ
 status: active
 merged_into: null
 display_name: 王良翰
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_7kVSEc5n9DB9b63s0R5uGG
+        subject_person_id: p_5ZNvcHEuXb94dPwJ5UjH8D
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_9krCz2yefFd538EMhsFrJJ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Hujc--RYFGhaen9dEXBkzl
+          claim_id: c_7kVSEc5n9DB9b63s0R5uGG
+          source_id: s_9zoDq1SDQYFoQgU6tF3TMy
+          stance: supports
+          locator: CBDB 双向互证（父 王族 ⇄ 子 王良翰）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_5ZNvcHEuXb94dPwJ5UjH8D
+        status: active
+        display_name: 王族
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_pRYBdhgJa01Uw8E4CHhtdX
+        subject_person_id: p_9krCz2yefFd538EMhsFrJJ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Jw3jaJXLqE5qhrMN7CYpap
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_x-iasioy2zbcc60CLkmmch
+          claim_id: c_pRYBdhgJa01Uw8E4CHhtdX
+          source_id: s_9zoDq1SDQYFoQgU6tF3TMy
+          stance: supports
+          locator: CBDB 双向互证（子 王人鑑 ⇄ 父 王良翰）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_Jw3jaJXLqE5qhrMN7CYpap
+        status: active
+        display_name: 王人鑑
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_5ZNvcHEuXb94dPwJ5UjH8D | 王族 | accepted |
+| children | p_Jw3jaJXLqE5qhrMN7CYpap | 王人鑑 | accepted |
 
 ## 外部来源
 

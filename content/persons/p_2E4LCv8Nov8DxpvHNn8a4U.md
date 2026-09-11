@@ -4,7 +4,7 @@ id: p_2E4LCv8Nov8DxpvHNn8a4U
 status: active
 merged_into: null
 display_name: 王景文
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_gHkOnU5zL6iD-bgbAjE5a0
+        subject_person_id: p_5MKKK3FSS4K8A2mwT7eocH
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_2E4LCv8Nov8DxpvHNn8a4U
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9v2vMZiQyEioB8_FzhVgbJ
+          claim_id: c_gHkOnU5zL6iD-bgbAjE5a0
+          source_id: s_yujo92cz27U8dwZherbwgg
+          stance: supports
+          locator: CBDB 双向互证（父 王常 ⇄ 子 王景文）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_5MKKK3FSS4K8A2mwT7eocH
+        status: active
+        display_name: 王常
+        merged_into_person_id: null
   children:
     - claim:
         id: c_krFE6fkyxU8io1D7R9EMrI
@@ -181,6 +207,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_5MKKK3FSS4K8A2mwT7eocH | 王常 | accepted |
 | children | p_UJHNJUefP1hMoQv16JZ99z | 王師愈 | accepted |
 
 ## 外部来源

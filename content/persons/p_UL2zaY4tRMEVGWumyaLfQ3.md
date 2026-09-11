@@ -4,7 +4,7 @@ id: p_UL2zaY4tRMEVGWumyaLfQ3
 status: active
 merged_into: null
 display_name: 王安
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_I6AZ1EuiJ-W0OWHsTHsATL
+        subject_person_id: p_wJS1Szb9T4ktRk7N1yKT5T
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_UL2zaY4tRMEVGWumyaLfQ3
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bwtqm1lnNfdsqTikCrbPa0
+          claim_id: c_I6AZ1EuiJ-W0OWHsTHsATL
+          source_id: s_auk34DNNBsbeAA87qaDoDK
+          stance: supports
+          locator: CBDB 双向互证（父 王彥暉 ⇄ 子 王安）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_wJS1Szb9T4ktRk7N1yKT5T
+        status: active
+        display_name: 王彥暉
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_wJS1Szb9T4ktRk7N1yKT5T | 王彥暉 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_ADbJSjSjnLbVVNHeHEk13h
 status: active
 merged_into: null
 display_name: 王昌時
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_tuyFmGppFTonei1x4K1WjN
+        subject_person_id: p_ADbJSjSjnLbVVNHeHEk13h
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_voxQhWuS88uWjx44BAAXrp
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5WZLUxAIFJPWqGQLNi8VyE
+          claim_id: c_tuyFmGppFTonei1x4K1WjN
+          source_id: s_24EoYefEZCz5g58nCjPkh8
+          stance: supports
+          locator: CBDB 双向互证（子 王大寶 ⇄ 父 王昌時）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_voxQhWuS88uWjx44BAAXrp
+        status: active
+        display_name: 王大寶
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_voxQhWuS88uWjx44BAAXrp | 王大寶 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_wJS1Szb9T4ktRk7N1yKT5T
 status: active
 merged_into: null
 display_name: 王彥暉
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -129,7 +129,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_I6AZ1EuiJ-W0OWHsTHsATL
+        subject_person_id: p_wJS1Szb9T4ktRk7N1yKT5T
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_UL2zaY4tRMEVGWumyaLfQ3
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bwtqm1lnNfdsqTikCrbPa0
+          claim_id: c_I6AZ1EuiJ-W0OWHsTHsATL
+          source_id: s_auk34DNNBsbeAA87qaDoDK
+          stance: supports
+          locator: CBDB 双向互证（父 王彥暉 ⇄ 子 王安）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_auk34DNNBsbeAA87qaDoDK
+            source_type: api_record
+            title: 中国历代人物传记资料库：王安（CBDB 37633）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37633&o=json
+            external_identifier: CBDB:37633
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.209Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_UL2zaY4tRMEVGWumyaLfQ3
+        status: active
+        display_name: 王安
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_UL2zaY4tRMEVGWumyaLfQ3 | 王安 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王安（CBDB 37633）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37633&o=json)
 - [中国历代人物传记资料库：王彥暉（CBDB 37632）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37632&o=json)

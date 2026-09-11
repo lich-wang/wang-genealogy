@@ -4,7 +4,7 @@ id: p_CF66QoMP3gSv4SEHYTeKrP
 status: active
 merged_into: null
 display_name: 王餘慶
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_8KOaGcd9ExZ6HF_5Q86sVF
+        subject_person_id: p_w2AotMiaiwLWFjQAANJQ54
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_CF66QoMP3gSv4SEHYTeKrP
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6lZdD3v4gGZ7d4SHoXelDG
+          claim_id: c_8KOaGcd9ExZ6HF_5Q86sVF
+          source_id: s_CkrD9QeV99k4w84NxDkRJJ
+          stance: supports
+          locator: CBDB 双向互证（父 王朏 ⇄ 子 王餘慶）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_w2AotMiaiwLWFjQAANJQ54
+        status: active
+        display_name: 王朏
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_cjuewR_7ksJOqgQay7qudf
+        subject_person_id: p_CF66QoMP3gSv4SEHYTeKrP
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_PM76xFUGjkuuuSHs3wbWzE
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_I4bxRcIMpvHaa0wIVYVXIE
+          claim_id: c_cjuewR_7ksJOqgQay7qudf
+          source_id: s_CkrD9QeV99k4w84NxDkRJJ
+          stance: supports
+          locator: CBDB 双向互证（子 王兢 ⇄ 父 王餘慶）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_PM76xFUGjkuuuSHs3wbWzE
+        status: active
+        display_name: 王兢
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_w2AotMiaiwLWFjQAANJQ54 | 王朏 | accepted |
+| children | p_PM76xFUGjkuuuSHs3wbWzE | 王兢 | accepted |
 
 ## 外部来源
 

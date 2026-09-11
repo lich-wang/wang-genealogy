@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王時會
 cbdb_id: 25587
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -172,13 +172,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_CunSKUbzKtbYRllX3brkAF
+        subject_person_id: p_nKZwYzWgUs8QGgRPRMV4gH
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_X6xuj2A1zRj8DtP4phixPU
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_LJMeGG3wKNX1-hdt_BxVnV
+          claim_id: c_CunSKUbzKtbYRllX3brkAF
+          source_id: s_e9N33YJs4MW9w7szEXRyHK
+          stance: supports
+          locator: CBDB 双向互证（子 王時會 ⇄ 父 王中立）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_e9N33YJs4MW9w7szEXRyHK
+            source_type: api_record
+            title: 中国历代人物传记资料库：王中立（CBDB 25591）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=25591&o=json
+            external_identifier: CBDB:25591
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.913Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_nKZwYzWgUs8QGgRPRMV4gH
+        status: active
+        display_name: 王中立
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_KDSoWfdAtLGikollDN8hbI
+        subject_person_id: p_X6xuj2A1zRj8DtP4phixPU
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_RDNJ8o72vFMxrah1zdPAKv
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pIrnCJo0wvKTOlcimd6JO0
+          claim_id: c_KDSoWfdAtLGikollDN8hbI
+          source_id: s_vxqg3SsQPzt36Y52BGSJ51
+          stance: supports
+          locator: CBDB 双向互证（祖父 王時會 ⇄ 孫 王龍榮）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_vxqg3SsQPzt36Y52BGSJ51
+            source_type: api_record
+            title: 中国历代人物传记资料库：王龍榮（CBDB 25594）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=25594&o=json
+            external_identifier: CBDB:25594
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:45.019Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_RDNJ8o72vFMxrah1zdPAKv
+        status: active
+        display_name: 王龍榮
+        merged_into_person_id: null
   other: []
 ---
 
@@ -199,7 +274,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_nKZwYzWgUs8QGgRPRMV4gH | 王中立 | accepted |
+| descendants | p_RDNJ8o72vFMxrah1zdPAKv | 王龍榮 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王龍榮（CBDB 25594）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=25594&o=json)
 - [中国历代人物传记资料库：王時會（CBDB 25587）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=25587&o=json)
+- [中国历代人物传记资料库：王中立（CBDB 25591）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=25591&o=json)

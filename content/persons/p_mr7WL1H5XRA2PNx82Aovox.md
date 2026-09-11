@@ -4,7 +4,7 @@ id: p_mr7WL1H5XRA2PNx82Aovox
 status: active
 merged_into: null
 display_name: 王結
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -133,7 +133,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_zPZIhyGPRF73UGJsiTL5As
+        subject_person_id: p_s9YXFky7MVJEJad9VXg7Kr
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_mr7WL1H5XRA2PNx82Aovox
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_y_joX8o53lEf0M4KDZcqhA
+          claim_id: c_zPZIhyGPRF73UGJsiTL5As
+          source_id: s_Pnf3TH57yK75Bz5FGF69ej
+          stance: supports
+          locator: CBDB 双向互证（祖父 王逖 ⇄ 孫 王結）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_s9YXFky7MVJEJad9VXg7Kr
+        status: active
+        display_name: 王逖
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,6 +181,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_s9YXFky7MVJEJad9VXg7Kr | 王逖 | accepted |
 
 ## 外部来源
 

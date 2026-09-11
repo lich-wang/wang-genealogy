@@ -4,7 +4,7 @@ id: p_24nNxQysajKGx6Hd2e5iLj
 status: active
 merged_into: null
 display_name: 王方
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_ARgD4vPVhygNlkArQIFvM4
+        subject_person_id: p_24nNxQysajKGx6Hd2e5iLj
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_VABDaNqeokNeUhSBaXqRrB
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_udeMmUNJiGlAaMz23I1Pic
+          claim_id: c_ARgD4vPVhygNlkArQIFvM4
+          source_id: s_rHojNWwHBxL97txyU7eJLA
+          stance: supports
+          locator: CBDB 双向互证（子 王玄 ⇄ 父 王方）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_VABDaNqeokNeUhSBaXqRrB
+        status: active
+        display_name: 王玄
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -123,6 +149,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_VABDaNqeokNeUhSBaXqRrB | 王玄 | accepted |
 | descendants | p_bAEpCu377ogzP69HEb81Bs | 王超 | accepted |
 
 ## 外部来源

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王延索
 cbdb_id: 34588
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -187,6 +187,32 @@ relationships:
         status: active
         display_name: 王鏊
         merged_into_person_id: null
+    - claim:
+        id: c_tlA_IssITE6rK4WMNQsu_7
+        subject_person_id: p_D4z9mWRZWdetNdzRfwASCL
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_rzWVYhxBK9oeQF6on3qVdy
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_X6tiGBAgkfjY3O_j7xxm-R
+          claim_id: c_tlA_IssITE6rK4WMNQsu_7
+          source_id: s_2vna4WaozGUuCdYF13LLMw
+          stance: supports
+          locator: CBDB 双向互证（父 王鏊 ⇄ 子 王延索）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_D4z9mWRZWdetNdzRfwASCL
+        status: active
+        display_name: 王鏊
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -212,6 +238,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_Wp6B6oFJWureDLbUWC4XTo | 王鏊 | accepted |
+| parents | p_D4z9mWRZWdetNdzRfwASCL | 王鏊 | accepted |
 
 ## 外部来源
 

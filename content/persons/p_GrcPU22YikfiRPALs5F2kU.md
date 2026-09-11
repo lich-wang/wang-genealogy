@@ -4,7 +4,7 @@ id: p_GrcPU22YikfiRPALs5F2kU
 status: active
 merged_into: null
 display_name: 王旭
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -126,6 +126,32 @@ relationships:
         status: active
         display_name: 王質
         merged_into_person_id: null
+    - claim:
+        id: c_rCeX3JigTEtFvG0de-dErh
+        subject_person_id: p_GrcPU22YikfiRPALs5F2kU
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_J5cLZQsDGVKrGtwL2oZ5ex
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_sDaKrH5B_3PRYrY6GZnrbF
+          claim_id: c_rCeX3JigTEtFvG0de-dErh
+          source_id: s_sZPi7NxFHAWJpPui1Dt8Z2
+          stance: supports
+          locator: CBDB 双向互证（子 王端 ⇄ 父 王旭）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_J5cLZQsDGVKrGtwL2oZ5ex
+        status: active
+        display_name: 王端
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -177,6 +203,7 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_wEqsogkdLBrdte1KEpUFVQ | 王祐 | accepted |
 | children | p_FJ89AiGQHA92A4wPSVrqzw | 王質 | accepted |
+| children | p_J5cLZQsDGVKrGtwL2oZ5ex | 王端 | accepted |
 | ancestors | p_5iuF56QtzML5N9vH86cANF | 王審鈞 | accepted |
 
 ## 外部来源

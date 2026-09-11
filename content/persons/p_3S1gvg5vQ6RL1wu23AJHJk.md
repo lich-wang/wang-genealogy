@@ -4,7 +4,7 @@ id: p_3S1gvg5vQ6RL1wu23AJHJk
 status: active
 merged_into: null
 display_name: 王憲
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,59 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_Z-JN0Q2J_75_MPj_z0YLka
+        subject_person_id: p_3S1gvg5vQ6RL1wu23AJHJk
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Zvjvgshz6JbJhrGYJFm2uQ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gcd71yWuL_DLi866q01FTZ
+          claim_id: c_Z-JN0Q2J_75_MPj_z0YLka
+          source_id: s_aKuiPaAct5MkYs4dfRfBVJ
+          stance: supports
+          locator: CBDB 双向互证（子 王剛中 ⇄ 父 王憲）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_Zvjvgshz6JbJhrGYJFm2uQ
+        status: active
+        display_name: 王剛中
+        merged_into_person_id: null
+    - claim:
+        id: c_1rIQXttdudMgq5NRcoPf3E
+        subject_person_id: p_3S1gvg5vQ6RL1wu23AJHJk
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_bvh8zRoDoVHCR7W6APybWW
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KUPlvwqsaWfeb0ZbxKaRPE
+          claim_id: c_1rIQXttdudMgq5NRcoPf3E
+          source_id: s_aKuiPaAct5MkYs4dfRfBVJ
+          stance: supports
+          locator: CBDB 双向互证（子 王必中 ⇄ 父 王憲）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_bvh8zRoDoVHCR7W6APybWW
+        status: active
+        display_name: 王必中
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_Zvjvgshz6JbJhrGYJFm2uQ | 王剛中 | accepted |
+| children | p_bvh8zRoDoVHCR7W6APybWW | 王必中 | accepted |
 
 ## 外部来源
 

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王後
 cbdb_id: 22216
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -87,7 +87,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_yhquz61EQd309HQEOSz8jO
+        subject_person_id: p_TVDwz4xnbG7NDbNfhChTB2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_wC1UcJY7ssfefjEwH3h8KT
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_umB76733hCNSgB0O5n1PeH
+          claim_id: c_yhquz61EQd309HQEOSz8jO
+          source_id: s_V6tFeo1V3k4u9EGY98rsem
+          stance: supports
+          locator: CBDB 双向互证（父 王後 ⇄ 子 王覺）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_V6tFeo1V3k4u9EGY98rsem
+            source_type: api_record
+            title: 中国历代人物传记资料库：王覺（CBDB 22218）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22218&o=json
+            external_identifier: CBDB:22218
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.852Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_wC1UcJY7ssfefjEwH3h8KT
+        status: active
+        display_name: 王覺
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_wC1UcJY7ssfefjEwH3h8KT | 王覺 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王後（CBDB 22216）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22216&o=json)
+- [中国历代人物传记资料库：王覺（CBDB 22218）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22218&o=json)

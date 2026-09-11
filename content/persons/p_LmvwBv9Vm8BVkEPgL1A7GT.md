@@ -4,7 +4,7 @@ id: p_LmvwBv9Vm8BVkEPgL1A7GT
 status: active
 merged_into: null
 display_name: 王寀
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -128,8 +128,71 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_CvIJ8nLv90dO8104do0P8y
+        subject_person_id: p_f5uvxnPRT14yx91yn4yLGC
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_LmvwBv9Vm8BVkEPgL1A7GT
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2Qk3xsC2LI6Y37OcO9TJtb
+          claim_id: c_CvIJ8nLv90dO8104do0P8y
+          source_id: s_SuP77rXdnxgEoJn67ps2ms
+          stance: supports
+          locator: CBDB 双向互证（父 王韶 ⇄ 子 王寀）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_f5uvxnPRT14yx91yn4yLGC
+        status: active
+        display_name: 王韶
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_h3x0P6uTXjc8YDCvnPwqtH
+        subject_person_id: p_LmvwBv9Vm8BVkEPgL1A7GT
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_dyP3M6jKAWf84mA6g7crLs
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_apFg0F4yRKhEeyfYzQp0WI
+          claim_id: c_h3x0P6uTXjc8YDCvnPwqtH
+          source_id: s_T2Wc2EYYQNBLKSamaLsReD
+          stance: supports
+          locator: CBDB 双向互证（父 王寀 ⇄ 子 王彥融）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_T2Wc2EYYQNBLKSamaLsReD
+            source_type: api_record
+            title: 中国历代人物传记资料库：王彥融（CBDB 1927）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1927&o=json
+            external_identifier: CBDB:1927
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.407Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_dyP3M6jKAWf84mA6g7crLs
+        status: active
+        display_name: 王彥融
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -192,9 +255,12 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_f5uvxnPRT14yx91yn4yLGC | 王韶 | accepted |
+| children | p_dyP3M6jKAWf84mA6g7crLs | 王彥融 | accepted |
 | descendants | p_i5579JHLY2cRuS7YHKZJ5T | 王萬樞 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王寀（CBDB 12047）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=12047&o=json)
 - [中国历代人物传记资料库：王萬樞（CBDB 12051）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=12051&o=json)
+- [中国历代人物传记资料库：王彥融（CBDB 1927）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1927&o=json)

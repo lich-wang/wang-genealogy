@@ -4,7 +4,7 @@ id: p_WJHP8YxtLrW6oyDrhKZ1wB
 status: active
 merged_into: null
 display_name: 王化基
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_NYznspjRO8-EpjPCNetWDG
+        subject_person_id: p_VVpoZXbt4MJ9UCeKhzaMbB
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_WJHP8YxtLrW6oyDrhKZ1wB
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bBYxsE5mYHe9svzvLASA5L
+          claim_id: c_NYznspjRO8-EpjPCNetWDG
+          source_id: s_Y146rcrNELdTu6DH1xieTY
+          stance: supports
+          locator: CBDB 双向互证（子 王化基 ⇄ 父 王彬）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_Y146rcrNELdTu6DH1xieTY
+            source_type: api_record
+            title: 中国历代人物传记资料库：王彬（CBDB 3969）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3969&o=json
+            external_identifier: CBDB:3969
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.437Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_VVpoZXbt4MJ9UCeKhzaMbB
+        status: active
+        display_name: 王彬
+        merged_into_person_id: null
   children:
     - claim:
         id: c_l-bCKPwwo5qW5J42qZz9hW
@@ -247,7 +284,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_88vRWvkXc1iB1sNb7GOvWK
+        subject_person_id: p_WJHP8YxtLrW6oyDrhKZ1wB
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_8mHMyrFjqZr1nrmVTR3TzK
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8oGC3JZx-isz2ZolfqMlfA
+          claim_id: c_88vRWvkXc1iB1sNb7GOvWK
+          source_id: s_DXMXvfCuuComCHUn4wVjqF
+          stance: supports
+          locator: CBDB 双向互证（祖父 王化基 ⇄ 孫 王詔）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_DXMXvfCuuComCHUn4wVjqF
+            source_type: api_record
+            title: 中国历代人物传记资料库：王詔（CBDB 1773）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1773&o=json
+            external_identifier: CBDB:1773
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.229Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_8mHMyrFjqZr1nrmVTR3TzK
+        status: active
+        display_name: 王詔
+        merged_into_person_id: null
   other: []
 ---
 
@@ -268,13 +342,17 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_VVpoZXbt4MJ9UCeKhzaMbB | 王彬 | accepted |
 | children | p_6jWTrg7djTw3fzrLbyNy1m | 王舉善 | accepted |
 | children | p_6qFqzHC21Z9f8VhXAcZ1P4 | 王舉正 | accepted |
 | children | p_LvEkX5XrjM8SRGb4HxWdgi | 王舉直 | accepted |
+| descendants | p_8mHMyrFjqZr1nrmVTR3TzK | 王詔 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王彬（CBDB 3969）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3969&o=json)
 - [中国历代人物传记资料库：王化基（CBDB 8150）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=8150&o=json)
 - [中国历代人物传记资料库：王舉善（CBDB 3945）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3945&o=json)
 - [中国历代人物传记资料库：王舉正（CBDB 8145）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=8145&o=json)
 - [中国历代人物传记资料库：王舉直（CBDB 38343）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38343&o=json)
+- [中国历代人物传记资料库：王詔（CBDB 1773）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1773&o=json)

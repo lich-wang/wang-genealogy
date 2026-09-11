@@ -4,7 +4,7 @@ id: p_rZY47tCzATgSjS4iyRApEg
 status: active
 merged_into: null
 display_name: 王岐
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -77,7 +77,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_NKrKH88GY76_tgouruTMzR
+        subject_person_id: p_JEp5M3BLJajMXRjvLCUuVy
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_rZY47tCzATgSjS4iyRApEg
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0kDkuEc07uAzC3ZI9Ie_C8
+          claim_id: c_NKrKH88GY76_tgouruTMzR
+          source_id: s_L6xMeNcqMpN5659bk272KT
+          stance: supports
+          locator: CBDB 双向互证（曾祖 王惟熙 ⇄ 曾孫; 重孫 王岐）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_JEp5M3BLJajMXRjvLCUuVy
+        status: active
+        display_name: 王惟熙
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_JEp5M3BLJajMXRjvLCUuVy | 王惟熙 | accepted |
 
 ## 外部来源
 

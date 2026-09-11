@@ -4,7 +4,7 @@ id: p_h7s3yp9U2dC68kkp9tKxxX
 status: active
 merged_into: null
 display_name: 王素
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -172,6 +172,32 @@ relationships:
         status: active
         display_name: 王震
         merged_into_person_id: null
+    - claim:
+        id: c_E7ARTcjv6E6v9A7YB9UUta
+        subject_person_id: p_h7s3yp9U2dC68kkp9tKxxX
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_NkwdWFbz4GCHgPxuqUzLFi
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hR2lR-RNUTpy76lODY2Rtm
+          claim_id: c_E7ARTcjv6E6v9A7YB9UUta
+          source_id: s_bjHynEz82kn9f6PXDH9WNZ
+          stance: supports
+          locator: CBDB 双向互证（曾孫; 重孫 王珉 ⇄ 曾祖 王素）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_NkwdWFbz4GCHgPxuqUzLFi
+        status: active
+        display_name: 王珉
+        merged_into_person_id: null
   other: []
 ---
 
@@ -193,6 +219,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | descendants | p_4RuP1y13HperNdMDJkN6MF | 王震 | accepted |
+| descendants | p_NkwdWFbz4GCHgPxuqUzLFi | 王珉 | accepted |
 
 ## 外部来源
 

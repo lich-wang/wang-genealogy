@@ -4,7 +4,7 @@ id: p_6HiYCjuLQFf2opWVAz2ZTK
 status: active
 merged_into: null
 display_name: 王汝能
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_3jFhSKOPiGlDJ973QMNLx4
+        subject_person_id: p_vimig6fJTzPPeFEmDd4JTt
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_6HiYCjuLQFf2opWVAz2ZTK
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_CtgbrenjhIfO1W1duvEZPX
+          claim_id: c_3jFhSKOPiGlDJ973QMNLx4
+          source_id: s_4kR3qjZPc2yJVXXtrjBvGF
+          stance: supports
+          locator: CBDB 双向互证（父 王得中 ⇄ 子 王汝能）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_vimig6fJTzPPeFEmDd4JTt
+        status: active
+        display_name: 王得中
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_Ey2a0-yfYm9dbp-KIiMC6h
+        subject_person_id: p_6HiYCjuLQFf2opWVAz2ZTK
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Pqfok8XEREUH6LwYPaEu2a
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_RuSKuYShbXx7DUJnGyk-1N
+          claim_id: c_Ey2a0-yfYm9dbp-KIiMC6h
+          source_id: s_4kR3qjZPc2yJVXXtrjBvGF
+          stance: supports
+          locator: CBDB 双向互证（子 王寶臣 ⇄ 父 王汝能）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_Pqfok8XEREUH6LwYPaEu2a
+        status: active
+        display_name: 王寶臣
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_vimig6fJTzPPeFEmDd4JTt | 王得中 | accepted |
+| children | p_Pqfok8XEREUH6LwYPaEu2a | 王寶臣 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_2iVh2dnQYp8qHcVzsHx44b
 status: active
 merged_into: null
 display_name: 王安仁
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,86 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_nqtVMp3Zpcszs72GcA3paO
+        subject_person_id: p_4mzs9UPxrzKfaGnSzQz2UL
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_2iVh2dnQYp8qHcVzsHx44b
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hoplhCUwr6nNE0MtYJytyt
+          claim_id: c_nqtVMp3Zpcszs72GcA3paO
+          source_id: s_tgPMxFjgwwfqdHmDpnjkqj
+          stance: supports
+          locator: CBDB 双向互证（父 王琚 ⇄ 子 王安仁）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_4mzs9UPxrzKfaGnSzQz2UL
+        status: active
+        display_name: 王琚
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_DXMY2dZzq0onYHE5P97MnU
+        subject_person_id: p_2iVh2dnQYp8qHcVzsHx44b
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_R8GNfiAEFUGPFE7VBAqAUP
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2-wS5RLyCeBVU1j91yep77
+          claim_id: c_DXMY2dZzq0onYHE5P97MnU
+          source_id: s_tgPMxFjgwwfqdHmDpnjkqj
+          stance: supports
+          locator: CBDB 双向互证（子 王繹 ⇄ 父 王安仁）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_R8GNfiAEFUGPFE7VBAqAUP
+        status: active
+        display_name: 王繹
+        merged_into_person_id: null
+    - claim:
+        id: c_YG_HBE6Hqhvjc_qc9iI0_y
+        subject_person_id: p_2iVh2dnQYp8qHcVzsHx44b
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_6cU9fnGBqi4srFwLZdWmQC
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_flOSmb6y4AaZQ3wIDe1iMx
+          claim_id: c_YG_HBE6Hqhvjc_qc9iI0_y
+          source_id: s_tgPMxFjgwwfqdHmDpnjkqj
+          stance: supports
+          locator: CBDB 双向互证（子 王居中 ⇄ 父 王安仁）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_6cU9fnGBqi4srFwLZdWmQC
+        status: active
+        display_name: 王居中
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +175,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_4mzs9UPxrzKfaGnSzQz2UL | 王琚 | accepted |
+| children | p_R8GNfiAEFUGPFE7VBAqAUP | 王繹 | accepted |
+| children | p_6cU9fnGBqi4srFwLZdWmQC | 王居中 | accepted |
 
 ## 外部来源
 

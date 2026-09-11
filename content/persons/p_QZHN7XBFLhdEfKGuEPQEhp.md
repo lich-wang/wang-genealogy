@@ -4,7 +4,7 @@ id: p_QZHN7XBFLhdEfKGuEPQEhp
 status: active
 merged_into: null
 display_name: 王贄
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,145 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_-DpoGU5o0BUXS4v_Pj4ckv
+        subject_person_id: p_PNfmbNyKR2auC4aeL1AuSM
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_QZHN7XBFLhdEfKGuEPQEhp
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_c9RrnOCy5tQxUkgqd6c_rX
+          claim_id: c_-DpoGU5o0BUXS4v_Pj4ckv
+          source_id: s_sHRCQq4nQnkKPMFBzoveAB
+          stance: supports
+          locator: CBDB 双向互证（子 王贄 ⇄ 父 王永）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_sHRCQq4nQnkKPMFBzoveAB
+            source_type: api_record
+            title: 中国历代人物传记资料库：王永（CBDB 13516）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=13516&o=json
+            external_identifier: CBDB:13516
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.624Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_PNfmbNyKR2auC4aeL1AuSM
+        status: active
+        display_name: 王永
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_wbVGeKqysj6iR4FWSv9rPt
+        subject_person_id: p_QZHN7XBFLhdEfKGuEPQEhp
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_egyS5bPtB4BGpQ3ch7iPFq
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_97I9WIjQJkLQQZTMVsAVW8
+          claim_id: c_wbVGeKqysj6iR4FWSv9rPt
+          source_id: s_aWZb1QTCaZLsHnndnPqr6u
+          stance: supports
+          locator: CBDB 双向互证（父 王贄 ⇄ 子 王罕）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_aWZb1QTCaZLsHnndnPqr6u
+            source_type: api_record
+            title: 中国历代人物传记资料库：王罕（CBDB 1810）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1810&o=json
+            external_identifier: CBDB:1810
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.271Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_egyS5bPtB4BGpQ3ch7iPFq
+        status: active
+        display_name: 王罕
+        merged_into_person_id: null
+    - claim:
+        id: c_UITUD_ZjnZqdKqm9JjBgYY
+        subject_person_id: p_QZHN7XBFLhdEfKGuEPQEhp
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_qtbxt55gw7F1hTWtEuCisP
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__mAZB2tWuAQHdyF0znmTHn
+          claim_id: c_UITUD_ZjnZqdKqm9JjBgYY
+          source_id: s_VXQwondBEJA6cahGcFikd7
+          stance: supports
+          locator: CBDB 双向互证（父 王贄 ⇄ 子 王準）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_VXQwondBEJA6cahGcFikd7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王準（CBDB 13515）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=13515&o=json
+            external_identifier: CBDB:13515
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.623Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_qtbxt55gw7F1hTWtEuCisP
+        status: active
+        display_name: 王準
+        merged_into_person_id: null
+    - claim:
+        id: c_GdvYkzUBNVI8sIpyOXdXxU
+        subject_person_id: p_QZHN7XBFLhdEfKGuEPQEhp
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_St4Eey4EGBhVg2zh8anpZT
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_34I_cTJHJ5aJcUqlyRNqJB
+          claim_id: c_GdvYkzUBNVI8sIpyOXdXxU
+          source_id: s_thn4gMJq6L4yGd4YCKvb7F
+          stance: supports
+          locator: CBDB 双向互证（子 王覃 ⇄ 父 王贄）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_St4Eey4EGBhVg2zh8anpZT
+        status: active
+        display_name: 王覃
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -134,9 +271,16 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_PNfmbNyKR2auC4aeL1AuSM | 王永 | accepted |
+| children | p_egyS5bPtB4BGpQ3ch7iPFq | 王罕 | accepted |
+| children | p_qtbxt55gw7F1hTWtEuCisP | 王準 | accepted |
+| children | p_St4Eey4EGBhVg2zh8anpZT | 王覃 | accepted |
 | descendants | p_KzB2C1aLBuDGmUVnrc9So3 | 王珪 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王珪（CBDB 1845）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1845&o=json)
+- [中国历代人物传记资料库：王罕（CBDB 1810）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1810&o=json)
+- [中国历代人物传记资料库：王永（CBDB 13516）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=13516&o=json)
 - [中国历代人物传记资料库：王贄（CBDB 1783）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1783&o=json)
+- [中国历代人物传记资料库：王準（CBDB 13515）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=13515&o=json)

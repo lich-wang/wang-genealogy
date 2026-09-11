@@ -4,7 +4,7 @@ id: p_cwErF9dNaRLczjgvF4iKPD
 status: active
 merged_into: null
 display_name: 王淮
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -77,7 +77,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_-ttnUnZFnrBLZsBea8pHnt
+        subject_person_id: p_U4hGLBbX2mHKRKZw9eRccs
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_cwErF9dNaRLczjgvF4iKPD
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tXQBWTJg0SW4TtTS3LY6WO
+          claim_id: c_-ttnUnZFnrBLZsBea8pHnt
+          source_id: s_7Uv9SPA1E3s1vqo63xeaBW
+          stance: supports
+          locator: CBDB 双向互证（祖父 王延 ⇄ 孫 王淮）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_U4hGLBbX2mHKRKZw9eRccs
+        status: active
+        display_name: 王延
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_U4hGLBbX2mHKRKZw9eRccs | 王延 | accepted |
 
 ## 外部来源
 

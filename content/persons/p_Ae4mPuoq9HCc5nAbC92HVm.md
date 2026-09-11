@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 何妙音
 cbdb_id: 28108
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -172,6 +172,32 @@ relationships:
         status: active
         display_name: 王祎
         merged_into_person_id: null
+    - claim:
+        id: c_UMWgB8ziLnSQoUcZ1JucX8
+        subject_person_id: p_Ae4mPuoq9HCc5nAbC92HVm
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_NxhVtsQFEKS3B7HARgTqxM
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_F6qqlkvfClGsGI500BAeFt
+          claim_id: c_UMWgB8ziLnSQoUcZ1JucX8
+          source_id: s_MZEEtgSwS5K6ZCgN67np3E
+          stance: supports
+          locator: CBDB 双向互证（丈夫 王褘 ⇄ 妻子 何妙音）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_NxhVtsQFEKS3B7HARgTqxM
+        status: active
+        display_name: 王褘
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -193,6 +219,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | spouses | p_DNgcd12SMQT8sYhCTYL1PG | 王祎 | accepted |
+| spouses | p_NxhVtsQFEKS3B7HARgTqxM | 王褘 | accepted |
 
 ## 外部来源
 

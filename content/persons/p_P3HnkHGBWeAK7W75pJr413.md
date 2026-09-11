@@ -4,7 +4,7 @@ id: p_P3HnkHGBWeAK7W75pJr413
 status: active
 merged_into: null
 display_name: 王璋
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_javWiIZw52385d5uIwcKSk
+        subject_person_id: p_wL6DEzwt6XpHQ1658fBFmM
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_P3HnkHGBWeAK7W75pJr413
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rBZ6dT76p-AIyBiXiSEHN5
+          claim_id: c_javWiIZw52385d5uIwcKSk
+          source_id: s_dKuqRYJAzpMDUEnLyxk7F9
+          stance: supports
+          locator: CBDB 双向互证（父 王伯元 ⇄ 子 王璋）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_wL6DEzwt6XpHQ1658fBFmM
+        status: active
+        display_name: 王伯元
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_4HaJOnlTk5aNpiNiGl4DTr
+        subject_person_id: p_P3HnkHGBWeAK7W75pJr413
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_5F7hpWJSXBVQwToPitoxVC
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4YANeeqahWSYRD2HszEmmW
+          claim_id: c_4HaJOnlTk5aNpiNiGl4DTr
+          source_id: s_dKuqRYJAzpMDUEnLyxk7F9
+          stance: supports
+          locator: CBDB 双向互证（子 王德福 ⇄ 父 王璋）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_5F7hpWJSXBVQwToPitoxVC
+        status: active
+        display_name: 王德福
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_wL6DEzwt6XpHQ1658fBFmM | 王伯元 | accepted |
+| children | p_5F7hpWJSXBVQwToPitoxVC | 王德福 | accepted |
 
 ## 外部来源
 

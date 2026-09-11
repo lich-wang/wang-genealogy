@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王保大
 cbdb_id: 22145
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -114,10 +114,73 @@ relationships:
         status: active
         display_name: 王景齊
         merged_into_person_id: null
+    - claim:
+        id: c_8wP7IP9JTxLKeRXn3thi0w
+        subject_person_id: p_4ZFWTE12ciF8FWWzCr37vg
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_jRG5KQHBS9PPM75Rahm22N
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fsiXo8S9LR3-GtOmD9xwqN
+          claim_id: c_8wP7IP9JTxLKeRXn3thi0w
+          source_id: s_zMU8ad3Vq7W4ersGKrjYcB
+          stance: supports
+          locator: CBDB 双向互证（子 王莧 ⇄ 父 王保大）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_jRG5KQHBS9PPM75Rahm22N
+        status: active
+        display_name: 王莧
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_lYqV1mI_PLbDws09bpddty
+        subject_person_id: p_UksH2GDrhL8wGMt6a6tBo9
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_4ZFWTE12ciF8FWWzCr37vg
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9QmaTfomxsR9jm19jkko1_
+          claim_id: c_lYqV1mI_PLbDws09bpddty
+          source_id: s_116BDyRVWkEsx5YZDc9i95
+          stance: supports
+          locator: CBDB 双向互证（孫 王保大 ⇄ 祖父 王棠）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_116BDyRVWkEsx5YZDc9i95
+            source_type: api_record
+            title: 中国历代人物传记资料库：王棠（CBDB 22138）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22138&o=json
+            external_identifier: CBDB:22138
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.832Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_UksH2GDrhL8wGMt6a6tBo9
+        status: active
+        display_name: 王棠
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -138,7 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_r8jMTz5d8EtW5WnsB75BCx | 王景齊 | accepted |
+| children | p_jRG5KQHBS9PPM75Rahm22N | 王莧 | accepted |
+| ancestors | p_UksH2GDrhL8wGMt6a6tBo9 | 王棠 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王保大（CBDB 22145）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22145&o=json)
+- [中国历代人物传记资料库：王棠（CBDB 22138）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22138&o=json)

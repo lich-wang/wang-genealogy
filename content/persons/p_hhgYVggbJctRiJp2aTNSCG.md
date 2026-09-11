@@ -4,7 +4,7 @@ id: p_hhgYVggbJctRiJp2aTNSCG
 status: active
 merged_into: null
 display_name: 王毅
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_ZBIJ2bzkKTErShsGClCEvv
+        subject_person_id: p_hhgYVggbJctRiJp2aTNSCG
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_KvaDyJMUHzeGStoEsTh4se
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jTt-fbYtCp8IXQnQexFg6s
+          claim_id: c_ZBIJ2bzkKTErShsGClCEvv
+          source_id: s_pYV6XpC443MeJp1kyFcR5x
+          stance: supports
+          locator: CBDB 双向互证（子 王倫 ⇄ 父 王毅）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_KvaDyJMUHzeGStoEsTh4se
+        status: active
+        display_name: 王倫
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_KvaDyJMUHzeGStoEsTh4se | 王倫 | accepted |
 
 ## 外部来源
 

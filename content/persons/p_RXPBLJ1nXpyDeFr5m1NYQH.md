@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王君顯
 cbdb_id: 26172
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -87,7 +87,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_DgnqwmOp3jleSDDES3Iw6t
+        subject_person_id: p_RXPBLJ1nXpyDeFr5m1NYQH
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ggJDft9r982tVSqV1i5GfJ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fvdGbZJxI7k9tVjoN4oOOg
+          claim_id: c_DgnqwmOp3jleSDDES3Iw6t
+          source_id: s_YfdhrCBaz7C52LFc2MA5KE
+          stance: supports
+          locator: CBDB 双向互证（父 王君顯 ⇄ 子 王彥常）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_YfdhrCBaz7C52LFc2MA5KE
+            source_type: api_record
+            title: 中国历代人物传记资料库：王彥常（CBDB 26173）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26173&o=json
+            external_identifier: CBDB:26173
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.928Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ggJDft9r982tVSqV1i5GfJ
+        status: active
+        display_name: 王彥常
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_ggJDft9r982tVSqV1i5GfJ | 王彥常 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王君顯（CBDB 26172）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26172&o=json)
+- [中国历代人物传记资料库：王彥常（CBDB 26173）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26173&o=json)

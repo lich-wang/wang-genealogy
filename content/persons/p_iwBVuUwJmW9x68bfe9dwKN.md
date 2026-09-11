@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王伯庠
 cbdb_id: 17444
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -273,6 +273,32 @@ relationships:
             metadata_json: null
       object_person:
         id: p_4Ggi24K5h2C2ehfArZY8Pm
+        status: active
+        display_name: 王次翁
+        merged_into_person_id: null
+    - claim:
+        id: c_1jmE7vnVvBaTf4w6NSkbOE
+        subject_person_id: p_yapy3APS2bJCVFq3VNLaKZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_iwBVuUwJmW9x68bfe9dwKN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_q4ZuUySm_3Z23sBKVeUDLu
+          claim_id: c_1jmE7vnVvBaTf4w6NSkbOE
+          source_id: s_o6fwhY8EBNrs3ZN82gocSx
+          stance: supports
+          locator: CBDB 双向互证（父 王次翁 ⇄ 子 王伯庠）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_yapy3APS2bJCVFq3VNLaKZ
         status: active
         display_name: 王次翁
         merged_into_person_id: null
@@ -558,6 +584,43 @@ relationships:
         status: active
         display_name: 王鑐
         merged_into_person_id: null
+    - claim:
+        id: c_6WG8LyGUJ9PU4_woakFp6d
+        subject_person_id: p_iwBVuUwJmW9x68bfe9dwKN
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_fXWz2M53NvNrZMDr9MQ56a
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8p7-h3yxGv1BcUyuk6ecH2
+          claim_id: c_6WG8LyGUJ9PU4_woakFp6d
+          source_id: s_xnCEfUBPnfF1BVUXA64f9H
+          stance: supports
+          locator: CBDB 双向互证（祖父 王伯庠 ⇄ 孫 王梴）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_xnCEfUBPnfF1BVUXA64f9H
+            source_type: api_record
+            title: 中国历代人物传记资料库：王梴（CBDB 17447）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17447&o=json
+            external_identifier: CBDB:17447
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.662Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_fXWz2M53NvNrZMDr9MQ56a
+        status: active
+        display_name: 王梴
+        merged_into_person_id: null
   other: []
 ---
 
@@ -579,12 +642,14 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_4Ggi24K5h2C2ehfArZY8Pm | 王次翁 | accepted |
+| parents | p_yapy3APS2bJCVFq3VNLaKZ | 王次翁 | accepted |
 | children | p_21iPF9Hs9mqcdz5y5kcuFG | 王星 | accepted |
 | children | p_XmKEvprHRjSYX3Q3owLScL | 王有大 | accepted |
 | children | p_wU8P88JFTt3L9W3HaP1MeX | 王正大 | accepted |
 | spouses | p_ifKdzffE4TJqKt3GDfHGnh | 成氏 | accepted |
 | spouses | p_ifKdzffE4TJqKt3GDfHGnh | 成氏 | accepted |
 | descendants | p_BNwUqa2o85K46GSroyK3pt | 王鑐 | accepted |
+| descendants | p_fXWz2M53NvNrZMDr9MQ56a | 王梴 | accepted |
 
 ## 外部来源
 
@@ -594,5 +659,6 @@ relationships:
 - [维基数据：王星（Q45426524）](https://www.wikidata.org/wiki/Q45426524)
 - [维基数据：王有大（Q45426566）](https://www.wikidata.org/wiki/Q45426566)
 - [维基数据：王正大（Q45426607）](https://www.wikidata.org/wiki/Q45426607)
+- [中国历代人物传记资料库：王梴（CBDB 17447）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17447&o=json)
 - [CBDB 中国历代人物传记资料库：王伯庠（17444）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17444&o=json)
 - [CBDB 中国历代人物传记资料库：王次翁（1908）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1908&o=json)

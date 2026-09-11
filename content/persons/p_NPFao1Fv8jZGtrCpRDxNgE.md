@@ -4,7 +4,7 @@ id: p_NPFao1Fv8jZGtrCpRDxNgE
 status: active
 merged_into: null
 display_name: 王緘
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_NGgEWwRWXKvYLWvDMINyby
+        subject_person_id: p_QoJPmnH2p3TN2WeA18wP8z
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_NPFao1Fv8jZGtrCpRDxNgE
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__HN5YgzkLpHljIZsIqnAjP
+          claim_id: c_NGgEWwRWXKvYLWvDMINyby
+          source_id: s_6p9FvfDje8CL4ERjaWiF4r
+          stance: supports
+          locator: CBDB 双向互证（父 王凱 ⇄ 子 王緘）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_QoJPmnH2p3TN2WeA18wP8z
+        status: active
+        display_name: 王凱
+        merged_into_person_id: null
   children:
     - claim:
         id: c_fjPEVcrtcEy8okvjXZ2tDf
@@ -123,6 +149,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_QoJPmnH2p3TN2WeA18wP8z | 王凱 | accepted |
 | children | p_te7PsQUmMv5ookHDsggpFw | 王詵 | accepted |
 
 ## 外部来源

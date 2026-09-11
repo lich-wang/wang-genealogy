@@ -4,7 +4,7 @@ id: p_7HBoToLM8roSc5SmSpWW1N
 status: active
 merged_into: null
 display_name: 王積
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -77,7 +77,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_bt3IdK359RmDlS1i9Aopze
+        subject_person_id: p_ePUgH55QWsG6Hauqd4raHD
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_7HBoToLM8roSc5SmSpWW1N
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7jGk6BO1BnpS10DwUJQOz-
+          claim_id: c_bt3IdK359RmDlS1i9Aopze
+          source_id: s_PXutwnS1Y33rAnEMkPXJKm
+          stance: supports
+          locator: CBDB 双向互证（祖父 王文彪 ⇄ 孫 王積）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_ePUgH55QWsG6Hauqd4raHD
+        status: active
+        display_name: 王文彪
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_ePUgH55QWsG6Hauqd4raHD | 王文彪 | accepted |
 
 ## 外部来源
 

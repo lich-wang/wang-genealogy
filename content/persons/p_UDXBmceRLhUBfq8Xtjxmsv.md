@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王箴輿
 cbdb_id: 35055
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -177,7 +177,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_bQeNPSMbBBEKIAL6c38RHu
+        subject_person_id: p_RDcKjrKBaYqkBvE1BonEBB
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_UDXBmceRLhUBfq8Xtjxmsv
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fDv5UbxQCrbEnbsp2lbtGO
+          claim_id: c_bQeNPSMbBBEKIAL6c38RHu
+          source_id: s_rFiBcNR62hJzJN5hxBZfk9
+          stance: supports
+          locator: CBDB 双向互证（孫 王箴輿 ⇄ 祖父 王式丹）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_rFiBcNR62hJzJN5hxBZfk9
+            source_type: api_record
+            title: 中国历代人物传记资料库：王式丹（CBDB 35053）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35053&o=json
+            external_identifier: CBDB:35053
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.109Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_RDcKjrKBaYqkBvE1BonEBB
+        status: active
+        display_name: 王式丹
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -199,7 +236,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_RDcKjrKBaYqkBvE1BonEBB | 王式丹 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王式丹（CBDB 35053）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35053&o=json)
 - [中国历代人物传记资料库：王箴輿（CBDB 35055）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35055&o=json)

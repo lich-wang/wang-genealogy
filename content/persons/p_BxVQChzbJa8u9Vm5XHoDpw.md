@@ -4,7 +4,7 @@ id: p_BxVQChzbJa8u9Vm5XHoDpw
 status: active
 merged_into: null
 display_name: 王介
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_7JDY2wfrVcRv5esZJJBYQu
+        subject_person_id: p_kuomB9GNqzmxZdNiXdkRAJ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_BxVQChzbJa8u9Vm5XHoDpw
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XPQmYoYrJ8qJv6an3OswHx
+          claim_id: c_7JDY2wfrVcRv5esZJJBYQu
+          source_id: s_7zo4774w8QAmSiH1s1VitC
+          stance: supports
+          locator: CBDB 双向互证（父 王言 ⇄ 子 王介）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_kuomB9GNqzmxZdNiXdkRAJ
+        status: active
+        display_name: 王言
+        merged_into_person_id: null
   children:
     - claim:
         id: c_6PCd3uzoiGUmiVUANjvKaM
@@ -126,6 +152,43 @@ relationships:
         status: active
         display_name: 王沇之
         merged_into_person_id: null
+    - claim:
+        id: c_vhUQlWsdPUultb-k0ZSVuJ
+        subject_person_id: p_BxVQChzbJa8u9Vm5XHoDpw
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_7ZkuLBZx4sM3DaTb2XEViR
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_eUfTb2flA6ViW6XpSfDJ71
+          claim_id: c_vhUQlWsdPUultb-k0ZSVuJ
+          source_id: s_4wBHe44bd6siK9D6AUEfUk
+          stance: supports
+          locator: CBDB 双向互证（父 王介 ⇄ 子 王渙之）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_4wBHe44bd6siK9D6AUEfUk
+            source_type: api_record
+            title: 中国历代人物传记资料库：王渙之（CBDB 26612）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26612&o=json
+            external_identifier: CBDB:26612
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.941Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_7ZkuLBZx4sM3DaTb2XEViR
+        status: active
+        display_name: 王渙之
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -149,9 +212,12 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_kuomB9GNqzmxZdNiXdkRAJ | 王言 | accepted |
 | children | p_BLnE9nncUpXkxeyUSBMut9 | 王漢之 | accepted |
 | children | p_r2xwzD2AZHDS6BqaF6FKTv | 王沇之 | accepted |
+| children | p_7ZkuLBZx4sM3DaTb2XEViR | 王渙之 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王渙之（CBDB 26612）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26612&o=json)
 - [中国历代人物传记资料库：王介（CBDB 26610）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26610&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王振緒
 cbdb_id: 30089
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,7 +86,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_5B-hkiP_971m6LwXsqxo_e
+        subject_person_id: p_ituhEMvJAUn1N2MGRCPWh7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_1kjRuo592Nvzzx75n3VwYV
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-5xvyiG_Wcw-hPI4-ULOZ6
+          claim_id: c_5B-hkiP_971m6LwXsqxo_e
+          source_id: s_QuctKY1waQcQU9Dyr6zpXe
+          stance: supports
+          locator: CBDB 双向互证（子 王振緒 ⇄ 父 王貽荃）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_QuctKY1waQcQU9Dyr6zpXe
+            source_type: api_record
+            title: 中国历代人物传记资料库：王貽荃（CBDB 30088）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30088&o=json
+            external_identifier: CBDB:30088
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.022Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ituhEMvJAUn1N2MGRCPWh7
+        status: active
+        display_name: 王貽荃
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_ituhEMvJAUn1N2MGRCPWh7 | 王貽荃 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王貽荃（CBDB 30088）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30088&o=json)
 - [中国历代人物传记资料库：王振緒（CBDB 30089）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30089&o=json)

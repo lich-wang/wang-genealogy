@@ -4,7 +4,7 @@ id: p_s9YXFky7MVJEJad9VXg7Kr
 status: active
 merged_into: null
 display_name: 王逖
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_zPZIhyGPRF73UGJsiTL5As
+        subject_person_id: p_s9YXFky7MVJEJad9VXg7Kr
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_mr7WL1H5XRA2PNx82Aovox
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_y_joX8o53lEf0M4KDZcqhA
+          claim_id: c_zPZIhyGPRF73UGJsiTL5As
+          source_id: s_Pnf3TH57yK75Bz5FGF69ej
+          stance: supports
+          locator: CBDB 双向互证（祖父 王逖 ⇄ 孫 王結）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_Pnf3TH57yK75Bz5FGF69ej
+            source_type: api_record
+            title: 中国历代人物传记资料库：王結（CBDB 35033）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35033&o=json
+            external_identifier: CBDB:35033
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.102Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_mr7WL1H5XRA2PNx82Aovox
+        status: active
+        display_name: 王結
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_mr7WL1H5XRA2PNx82Aovox | 王結 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王結（CBDB 35033）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35033&o=json)
 - [中国历代人物传记资料库：王逖（CBDB 35034）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35034&o=json)

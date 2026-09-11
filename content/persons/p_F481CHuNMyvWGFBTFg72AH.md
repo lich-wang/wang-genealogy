@@ -4,7 +4,7 @@ id: p_F481CHuNMyvWGFBTFg72AH
 status: active
 merged_into: null
 display_name: 王達
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_TCdXIvJz9FO2XJrU0gfNhJ
+        subject_person_id: p_F481CHuNMyvWGFBTFg72AH
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_HZGPa62CZY8YGnDTSnEf7k
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tTNuYWO9wpxKkuQ95kIRxQ
+          claim_id: c_TCdXIvJz9FO2XJrU0gfNhJ
+          source_id: s_LeUdx6a3EXQmKSqzgA4GQN
+          stance: supports
+          locator: CBDB 双向互证（子 王貴 ⇄ 父 王達）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_HZGPa62CZY8YGnDTSnEf7k
+        status: active
+        display_name: 王貴
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -149,6 +175,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_HZGPa62CZY8YGnDTSnEf7k | 王貴 | accepted |
 | descendants | p_xRJGDseQUMBKBkn294Qbio | 王德先 | accepted |
 | descendants | p_Waz4Zbseqb4GJJtD5Sb5LN | 王康年 | accepted |
 

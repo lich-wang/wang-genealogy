@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王惟堯
 cbdb_id: 10684
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:10684
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_awokEZeNNvPNxGkRZeFs6p
             source_type: api_record
             title: 中国历代人物传记资料库：王惟堯（CBDB 10684）
@@ -91,7 +91,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_IfG4jlnrzonMe9yjOrKDH2
+        subject_person_id: p_FCxCpCKAFqgabhzbL3SyJC
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_cR8Wy9ippRepXxNQNHK459
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HvH79WBBqKWEK_qtHySn6F
+          claim_id: c_IfG4jlnrzonMe9yjOrKDH2
+          source_id: s_awokEZeNNvPNxGkRZeFs6p
+          stance: supports
+          locator: CBDB 双向互证（祖父 王從浩 ⇄ 孫 王惟堯）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_FCxCpCKAFqgabhzbL3SyJC
+        status: active
+        display_name: 王從浩
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_FCxCpCKAFqgabhzbL3SyJC | 王從浩 | accepted |
 
 ## 外部来源
 

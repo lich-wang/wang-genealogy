@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王景視
 cbdb_id: 27283
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:27283
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_kt7zu8Mjq9Quim8mRSNxcb
             source_type: api_record
             title: 中国历代人物传记资料库：王景視（CBDB 27283）
@@ -87,7 +87,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_gystWZCysz-vUW49rKGN5P
+        subject_person_id: p_LWPxZv8gZ5dg5wcbAkJh1g
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_sAHyfWv3qVkLkhw3tCMiF7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__ompiKVyzkjrpVJD2xaNp4
+          claim_id: c_gystWZCysz-vUW49rKGN5P
+          source_id: s_kt7zu8Mjq9Quim8mRSNxcb
+          stance: supports
+          locator: CBDB 双向互证（子 王端禮 ⇄ 父 王景視）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_sAHyfWv3qVkLkhw3tCMiF7
+        status: active
+        display_name: 王端禮
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_sAHyfWv3qVkLkhw3tCMiF7 | 王端禮 | accepted |
 
 ## 外部来源
 

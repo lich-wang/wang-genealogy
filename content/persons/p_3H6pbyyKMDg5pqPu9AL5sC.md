@@ -4,7 +4,7 @@ id: p_3H6pbyyKMDg5pqPu9AL5sC
 status: active
 merged_into: null
 display_name: 王允中
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_vXrVIfoJ8PcZQ5UdjUwfRq
+        subject_person_id: p_BChCuFHjEoLkJji1RG47tG
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3H6pbyyKMDg5pqPu9AL5sC
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-ssTNaC1r9RLBiB_n5RASI
+          claim_id: c_vXrVIfoJ8PcZQ5UdjUwfRq
+          source_id: s_B8XNZfG4p9Utb4GmN1ZfKn
+          stance: supports
+          locator: CBDB 双向互证（父 王崇遇 ⇄ 子 王允中）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_BChCuFHjEoLkJji1RG47tG
+        status: active
+        display_name: 王崇遇
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_EiH2ipI0p0koitZIhYb8fA
+        subject_person_id: p_3H6pbyyKMDg5pqPu9AL5sC
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_strJmPSamv7xYKXXKW9MTr
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cszxc_0Z2sg8_UPkObIK_J
+          claim_id: c_EiH2ipI0p0koitZIhYb8fA
+          source_id: s_B8XNZfG4p9Utb4GmN1ZfKn
+          stance: supports
+          locator: CBDB 双向互证（子 王遷 ⇄ 父 王允中）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_strJmPSamv7xYKXXKW9MTr
+        status: active
+        display_name: 王迁
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_BChCuFHjEoLkJji1RG47tG | 王崇遇 | accepted |
+| children | p_strJmPSamv7xYKXXKW9MTr | 王迁 | accepted |
 
 ## 外部来源
 

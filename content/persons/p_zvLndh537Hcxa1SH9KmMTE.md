@@ -4,7 +4,7 @@ id: p_zvLndh537Hcxa1SH9KmMTE
 status: active
 merged_into: null
 display_name: 王融
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_rEgbnOLB1H5KeW0VfQ1QV4
+        subject_person_id: p_xf9mHYCEP9VyeEbrAsuExM
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_zvLndh537Hcxa1SH9KmMTE
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WzNJcVGE5F-Meur5bu2rWJ
+          claim_id: c_rEgbnOLB1H5KeW0VfQ1QV4
+          source_id: s_DC4LPUC297szmUsZqp59Mq
+          stance: supports
+          locator: CBDB 双向互证（子 王融 ⇄ 父 王仁）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_DC4LPUC297szmUsZqp59Mq
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王仁（25783）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=25783&o=json
+            external_identifier: CBDB:25783
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T02:49:59.525Z
+            metadata_json: null
+      object_person:
+        id: p_xf9mHYCEP9VyeEbrAsuExM
+        status: active
+        display_name: 王仁
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_xf9mHYCEP9VyeEbrAsuExM | 王仁 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王融（CBDB 25784）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=25784&o=json)
+- [CBDB 中国历代人物传记资料库：王仁（25783）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=25783&o=json)

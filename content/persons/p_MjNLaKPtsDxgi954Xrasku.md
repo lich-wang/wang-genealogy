@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王傳約
 cbdb_id: 17797
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:17797
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_A3sENLN4fjr4HqzZdA2W2Y
             source_type: api_record
             title: 中国历代人物传记资料库：王傳約（CBDB 17797）
@@ -86,7 +86,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_0ApDBhFxc3AH9XzqNK8B0W
+        subject_person_id: p_JSCcx9nvR4fcq9DRADJkRg
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_MjNLaKPtsDxgi954Xrasku
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_F-aibCjrtyBLU_PCm1IZkA
+          claim_id: c_0ApDBhFxc3AH9XzqNK8B0W
+          source_id: s_A3sENLN4fjr4HqzZdA2W2Y
+          stance: supports
+          locator: CBDB 双向互证（父 王克臣 ⇄ 子 王傳約）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_JSCcx9nvR4fcq9DRADJkRg
+        status: active
+        display_name: 王克臣
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_JSCcx9nvR4fcq9DRADJkRg | 王克臣 | accepted |
 
 ## 外部来源
 

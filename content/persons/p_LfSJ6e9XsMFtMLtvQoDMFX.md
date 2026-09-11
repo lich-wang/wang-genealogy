@@ -4,7 +4,7 @@ id: p_LfSJ6e9XsMFtMLtvQoDMFX
 status: active
 merged_into: null
 display_name: 王樵
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_Vjv9BR3t9wzjMSmFVzFB1-
+        subject_person_id: p_LfSJ6e9XsMFtMLtvQoDMFX
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_5q7M5NN4tHZhLCPj7eAQaC
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XkJ_iPSpmvSwPC8sU2qOPp
+          claim_id: c_Vjv9BR3t9wzjMSmFVzFB1-
+          source_id: s_FxbqjtC8FFMoRqn6HpFi6i
+          stance: supports
+          locator: CBDB 双向互证（父 王樵 ⇄ 子 王誨）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_FxbqjtC8FFMoRqn6HpFi6i
+            source_type: api_record
+            title: 中国历代人物传记资料库：王誨（CBDB 22121）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22121&o=json
+            external_identifier: CBDB:22121
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.826Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_5q7M5NN4tHZhLCPj7eAQaC
+        status: active
+        display_name: 王誨
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_5q7M5NN4tHZhLCPj7eAQaC | 王誨 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王誨（CBDB 22121）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22121&o=json)
 - [中国历代人物传记资料库：王樵（CBDB 22120）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22120&o=json)

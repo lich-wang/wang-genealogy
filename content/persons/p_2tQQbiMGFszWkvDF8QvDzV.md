@@ -4,7 +4,7 @@ id: p_2tQQbiMGFszWkvDF8QvDzV
 status: active
 merged_into: null
 display_name: 王紳
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_REQ7Dc0MF3Jd771hRDLiCn
+        subject_person_id: p_3PfS7skGHqAqRHAbm2V2U1
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_2tQQbiMGFszWkvDF8QvDzV
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8gyr0WhDz-XTioAdWspHrI
+          claim_id: c_REQ7Dc0MF3Jd771hRDLiCn
+          source_id: s_RrEjtT4UQdbCjSbh6msTjs
+          stance: supports
+          locator: CBDB 双向互证（父 王潀 ⇄ 子 王紳）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_3PfS7skGHqAqRHAbm2V2U1
+        status: active
+        display_name: 王潀
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_YGWI-WOxB-st9RctBo9uR-
+        subject_person_id: p_2tQQbiMGFszWkvDF8QvDzV
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3HbG7JXXtPKukrdr9i2R2p
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_K6QJeX4MPsnBk7RWabpET_
+          claim_id: c_YGWI-WOxB-st9RctBo9uR-
+          source_id: s_RrEjtT4UQdbCjSbh6msTjs
+          stance: supports
+          locator: CBDB 双向互证（子 王韶 ⇄ 父 王紳）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_3HbG7JXXtPKukrdr9i2R2p
+        status: active
+        display_name: 王韶
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_3PfS7skGHqAqRHAbm2V2U1 | 王潀 | accepted |
+| children | p_3HbG7JXXtPKukrdr9i2R2p | 王韶 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_JRkz5yEJrK1z1rwqbwNJ45
 status: active
 merged_into: null
 display_name: 王襲
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_RXlnoCXIMThC_vKHXxnf48
+        subject_person_id: p_JRkz5yEJrK1z1rwqbwNJ45
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_NghqnvQpJa8P4vxxEpxjeJ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dO9V_19jrMkpdMZSL4xqzr
+          claim_id: c_RXlnoCXIMThC_vKHXxnf48
+          source_id: s_mcJ9A38DPmLXZkLLwHkEUK
+          stance: supports
+          locator: CBDB 双向互证（子 王劌 ⇄ 父 王襲）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_NghqnvQpJa8P4vxxEpxjeJ
+        status: active
+        display_name: 王劌
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_NghqnvQpJa8P4vxxEpxjeJ | 王劌 | accepted |
 
 ## 外部来源
 

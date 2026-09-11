@@ -4,7 +4,7 @@ id: p_qtbxt55gw7F1hTWtEuCisP
 status: active
 merged_into: null
 display_name: 王準
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_UITUD_ZjnZqdKqm9JjBgYY
+        subject_person_id: p_QZHN7XBFLhdEfKGuEPQEhp
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_qtbxt55gw7F1hTWtEuCisP
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__mAZB2tWuAQHdyF0znmTHn
+          claim_id: c_UITUD_ZjnZqdKqm9JjBgYY
+          source_id: s_VXQwondBEJA6cahGcFikd7
+          stance: supports
+          locator: CBDB 双向互证（父 王贄 ⇄ 子 王準）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_QZHN7XBFLhdEfKGuEPQEhp
+        status: active
+        display_name: 王贄
+        merged_into_person_id: null
   children:
     - claim:
         id: c_W4c3PUGTp0N-oifDQReK-B
@@ -134,6 +160,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_QZHN7XBFLhdEfKGuEPQEhp | 王贄 | accepted |
 | children | p_KzB2C1aLBuDGmUVnrc9So3 | 王珪 | accepted |
 
 ## 外部来源

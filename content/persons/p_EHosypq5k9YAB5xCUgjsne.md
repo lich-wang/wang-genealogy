@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王志
 cbdb_id: 26227
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -92,7 +92,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_3b3c84UZcn0bF2uANCSwGI
+        subject_person_id: p_JG3JZEHJsTUhP7iLnLPdEN
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_EHosypq5k9YAB5xCUgjsne
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_w7rLI9qYZEV4dZ7E5DNH5D
+          claim_id: c_3b3c84UZcn0bF2uANCSwGI
+          source_id: s_RuEuVErYYNAtbrM3YM6veK
+          stance: supports
+          locator: CBDB 双向互证（子 王志 ⇄ 父 王鄰）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_RuEuVErYYNAtbrM3YM6veK
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鄰（CBDB 26226）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26226&o=json
+            external_identifier: CBDB:26226
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.929Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_JG3JZEHJsTUhP7iLnLPdEN
+        status: active
+        display_name: 王鄰
+        merged_into_person_id: null
   children:
     - claim:
         id: c_aMNv6bSFEU7yi5XatZYkWQ
@@ -162,10 +199,12 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_JG3JZEHJsTUhP7iLnLPdEN | 王鄰 | accepted |
 | children | p_Ue4bc6JWNDY3CgoJjDceoC | 王丕 | accepted |
 
 ## 外部来源
 
 - [维基数据：王丕（Q45409552）](https://www.wikidata.org/wiki/Q45409552)
 - [维基数据：王志（Q45409550）](https://www.wikidata.org/wiki/Q45409550)
+- [中国历代人物传记资料库：王鄰（CBDB 26226）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26226&o=json)
 - [CBDB 中国历代人物传记资料库：王志（26227）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26227&o=json)

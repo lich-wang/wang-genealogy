@@ -4,7 +4,7 @@ id: p_a4e7MKuEArZH7zGy5eeJma
 status: active
 merged_into: null
 display_name: 王載
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_GG29-fjPWs_QPKr10-wKax
+        subject_person_id: p_a4e7MKuEArZH7zGy5eeJma
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_UxMMKFnipueTNhy6nquddw
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HtZ82M6RuAUSWLcpLm1OeB
+          claim_id: c_GG29-fjPWs_QPKr10-wKax
+          source_id: s_PY4dXJJZsw1aMJVRPoqKDQ
+          stance: supports
+          locator: CBDB 双向互证（子 王清 ⇄ 父 王載）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_UxMMKFnipueTNhy6nquddw
+        status: active
+        display_name: 王清
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_UxMMKFnipueTNhy6nquddw | 王清 | accepted |
 
 ## 外部来源
 

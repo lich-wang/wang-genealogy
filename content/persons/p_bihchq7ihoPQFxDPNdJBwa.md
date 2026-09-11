@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王庭老
 cbdb_id: 1887
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:1887
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_L28svGF5thkJ5X4U3Vkr5B
             source_type: api_record
             title: 中国历代人物传记资料库：王庭老（CBDB 1887）
@@ -91,7 +91,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_RT014RBxjOJGGPf_Xy_jNS
+        subject_person_id: p_MTk1zakKvoc4HW2SfG5Ese
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_bihchq7ihoPQFxDPNdJBwa
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_W9BaaxX10Hg-6J_j-4AKUc
+          claim_id: c_RT014RBxjOJGGPf_Xy_jNS
+          source_id: s_L28svGF5thkJ5X4U3Vkr5B
+          stance: supports
+          locator: CBDB 双向互证（祖父 王瀆 ⇄ 孫 王庭老）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_MTk1zakKvoc4HW2SfG5Ese
+        status: active
+        display_name: 王渎
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_MTk1zakKvoc4HW2SfG5Ese | 王渎 | accepted |
 
 ## 外部来源
 

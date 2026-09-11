@@ -4,7 +4,7 @@ id: p_5q7M5NN4tHZhLCPj7eAQaC
 status: active
 merged_into: null
 display_name: 王誨
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_Vjv9BR3t9wzjMSmFVzFB1-
+        subject_person_id: p_LfSJ6e9XsMFtMLtvQoDMFX
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_5q7M5NN4tHZhLCPj7eAQaC
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XkJ_iPSpmvSwPC8sU2qOPp
+          claim_id: c_Vjv9BR3t9wzjMSmFVzFB1-
+          source_id: s_FxbqjtC8FFMoRqn6HpFi6i
+          stance: supports
+          locator: CBDB 双向互证（父 王樵 ⇄ 子 王誨）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_LfSJ6e9XsMFtMLtvQoDMFX
+        status: active
+        display_name: 王樵
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_YWDy5OsHO4gqO7B3Si0Dkz
+        subject_person_id: p_5q7M5NN4tHZhLCPj7eAQaC
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_XxbY91RiCBrsB5eVREE1y2
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QM-bCV-eLKdPEkV4F89P8M
+          claim_id: c_YWDy5OsHO4gqO7B3Si0Dkz
+          source_id: s_FxbqjtC8FFMoRqn6HpFi6i
+          stance: supports
+          locator: CBDB 双向互证（子 王應 ⇄ 父 王誨）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_XxbY91RiCBrsB5eVREE1y2
+        status: active
+        display_name: 王應
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_LfSJ6e9XsMFtMLtvQoDMFX | 王樵 | accepted |
+| children | p_XxbY91RiCBrsB5eVREE1y2 | 王應 | accepted |
 
 ## 外部来源
 

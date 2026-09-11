@@ -4,7 +4,7 @@ id: p_N1sjWWAngPbNQ5mXRM9s3H
 status: active
 merged_into: null
 display_name: 王介
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -128,8 +128,83 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_BglTpsrT_yEQUHIYr1gjBJ
+        subject_person_id: p_fWF3nnEN6hjupeD4fHR2qh
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_N1sjWWAngPbNQ5mXRM9s3H
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cv5Wi9Q-N10Uxzcks8aBj_
+          claim_id: c_BglTpsrT_yEQUHIYr1gjBJ
+          source_id: s_LGgYw62G9UR8eCgMczJ48s
+          stance: supports
+          locator: CBDB 双向互证（子 王介 ⇄ 父 王嵩卿）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_LGgYw62G9UR8eCgMczJ48s
+            source_type: api_record
+            title: 中国历代人物传记资料库：王嵩卿（CBDB 24350）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=24350&o=json
+            external_identifier: CBDB:24350
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:45.019Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_fWF3nnEN6hjupeD4fHR2qh
+        status: active
+        display_name: 王嵩卿
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_Et1YCQ0dSqNDkZr2O0mpRi
+        subject_person_id: p_N1sjWWAngPbNQ5mXRM9s3H
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_BvXbPRWUcfLiPBR76u4MLW
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OM1fsujhsV_o7uaIGZR5Zz
+          claim_id: c_Et1YCQ0dSqNDkZr2O0mpRi
+          source_id: s_JE3EYBu67fSr2MZLKWmG78
+          stance: supports
+          locator: CBDB 双向互证（父 王介 ⇄ 子 王埜）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_JE3EYBu67fSr2MZLKWmG78
+            source_type: api_record
+            title: 中国历代人物传记资料库：王埜（CBDB 10242）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10242&o=json
+            external_identifier: CBDB:10242
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.526Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_BvXbPRWUcfLiPBR76u4MLW
+        status: active
+        display_name: 王埜
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -266,6 +341,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_fWF3nnEN6hjupeD4fHR2qh | 王嵩卿 | accepted |
+| children | p_BvXbPRWUcfLiPBR76u4MLW | 王埜 | accepted |
 | ancestors | p_dHZC3EZ3ECRTV8RLzJtHuV | 王矩 | accepted |
 | ancestors | p_vFrareYRs8BujyJitkmWc6 | 王敏 | accepted |
 | descendants | p_9KKSnPnKv9UdjydbqgSQdz | 王同祖 | accepted |
@@ -275,4 +352,6 @@ relationships:
 - [中国历代人物传记资料库：王介（CBDB 10241）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10241&o=json)
 - [中国历代人物传记资料库：王矩（CBDB 24349）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=24349&o=json)
 - [中国历代人物传记资料库：王敏（CBDB 10240）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10240&o=json)
+- [中国历代人物传记资料库：王嵩卿（CBDB 24350）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=24350&o=json)
 - [中国历代人物传记资料库：王同祖（CBDB 24875）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=24875&o=json)
+- [中国历代人物传记资料库：王埜（CBDB 10242）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10242&o=json)

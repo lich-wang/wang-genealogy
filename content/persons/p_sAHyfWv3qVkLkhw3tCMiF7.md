@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王端禮
 cbdb_id: 27284
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,7 +86,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_gystWZCysz-vUW49rKGN5P
+        subject_person_id: p_LWPxZv8gZ5dg5wcbAkJh1g
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_sAHyfWv3qVkLkhw3tCMiF7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__ompiKVyzkjrpVJD2xaNp4
+          claim_id: c_gystWZCysz-vUW49rKGN5P
+          source_id: s_kt7zu8Mjq9Quim8mRSNxcb
+          stance: supports
+          locator: CBDB 双向互证（子 王端禮 ⇄ 父 王景視）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_kt7zu8Mjq9Quim8mRSNxcb
+            source_type: api_record
+            title: 中国历代人物传记资料库：王景視（CBDB 27283）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=27283&o=json
+            external_identifier: CBDB:27283
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:45.019Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_LWPxZv8gZ5dg5wcbAkJh1g
+        status: active
+        display_name: 王景視
+        merged_into_person_id: null
   children:
     - claim:
         id: c_OboDh79Zl36r-YPsSxk5a-
@@ -114,6 +152,44 @@ relationships:
         status: active
         display_name: 王鴻舉
         merged_into_person_id: null
+    - claim:
+        id: c_GTwWojLVq7QLAKFls-gdW2
+        subject_person_id: p_sAHyfWv3qVkLkhw3tCMiF7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_J2sm2QjBDXQ9KbXi2v7H6H
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ho0aiUt4csqBVzhyvWuIUw
+          claim_id: c_GTwWojLVq7QLAKFls-gdW2
+          source_id: s_BYQ23wCKNMuK3tkW16x4gc
+          stance: supports
+          locator: CBDB 双向互证（父 王端禮 ⇄ 子 王鶚舉）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_BYQ23wCKNMuK3tkW16x4gc
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鶚舉（CBDB 27286）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=27286&o=json
+            external_identifier: CBDB:27286
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:45.019Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_J2sm2QjBDXQ9KbXi2v7H6H
+        status: active
+        display_name: 王鶚舉
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -137,8 +213,12 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_LWPxZv8gZ5dg5wcbAkJh1g | 王景視 | accepted |
 | children | p_MSQsMJN57yesJR4aT7KBj8 | 王鴻舉 | accepted |
+| children | p_J2sm2QjBDXQ9KbXi2v7H6H | 王鶚舉 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王端禮（CBDB 27284）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=27284&o=json)
+- [中国历代人物传记资料库：王鶚舉（CBDB 27286）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=27286&o=json)
+- [中国历代人物传记资料库：王景視（CBDB 27283）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=27283&o=json)

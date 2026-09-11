@@ -4,7 +4,7 @@ id: p_T7G2a6NCtSGS8FhXyMyh8G
 status: active
 merged_into: null
 display_name: 王惠
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_diDsiWG0qHD1W5p9M8JFoh
+        subject_person_id: p_T7G2a6NCtSGS8FhXyMyh8G
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_eoDALUrJDc9dwWV48EE91t
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wIkT9bh98zq3p4JQbOoepa
+          claim_id: c_diDsiWG0qHD1W5p9M8JFoh
+          source_id: s_tF6EJBS4wkF5LFyScyTe7R
+          stance: supports
+          locator: CBDB 双向互证（父 王惠 ⇄ 子 王逢）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_tF6EJBS4wkF5LFyScyTe7R
+            source_type: api_record
+            title: 中国历代人物传记资料库：王逢（CBDB 28410）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28410&o=json
+            external_identifier: CBDB:28410
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.965Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_eoDALUrJDc9dwWV48EE91t
+        status: active
+        display_name: 王逢
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_eoDALUrJDc9dwWV48EE91t | 王逢 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王逢（CBDB 28410）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28410&o=json)
 - [中国历代人物传记资料库：王惠（CBDB 28411）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28411&o=json)

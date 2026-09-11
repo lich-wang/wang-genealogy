@@ -4,7 +4,7 @@ id: p_ASPW873g2imRFDHsyu1eA9
 status: active
 merged_into: null
 display_name: 王郁
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,71 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_inQ6Od9msQ8vRMOWRbQc8_
+        subject_person_id: p_ALQtWPmNViN2cvYQD8LPdg
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ASPW873g2imRFDHsyu1eA9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Z2l5VKVoEK9sqXrAkDJxXh
+          claim_id: c_inQ6Od9msQ8vRMOWRbQc8_
+          source_id: s_HusSu3FxocJzkJ9JMvQw3t
+          stance: supports
+          locator: CBDB 双向互证（子 王郁 ⇄ 父 王遐）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_HusSu3FxocJzkJ9JMvQw3t
+            source_type: api_record
+            title: 中国历代人物传记资料库：王遐（CBDB 3952）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3952&o=json
+            external_identifier: CBDB:3952
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.430Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ALQtWPmNViN2cvYQD8LPdg
+        status: active
+        display_name: 王遐
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_uSYicbX_UBKKllsmUxd3Fb
+        subject_person_id: p_ASPW873g2imRFDHsyu1eA9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_YwfxemcgE9CwVznhKaQ8JF
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kgLus3HpiDYFRY1ZDMNfeb
+          claim_id: c_uSYicbX_UBKKllsmUxd3Fb
+          source_id: s_f6q5tvg1JCt8JgDCNRLgQK
+          stance: supports
+          locator: CBDB 双向互证（子 王仲華 ⇄ 父 王郁）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_YwfxemcgE9CwVznhKaQ8JF
+        status: active
+        display_name: 王仲華
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,7 +160,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_ALQtWPmNViN2cvYQD8LPdg | 王遐 | accepted |
+| children | p_YwfxemcgE9CwVznhKaQ8JF | 王仲華 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王遐（CBDB 3952）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3952&o=json)
 - [中国历代人物传记资料库：王郁（CBDB 21956）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=21956&o=json)

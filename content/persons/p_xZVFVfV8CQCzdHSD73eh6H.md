@@ -4,7 +4,7 @@ id: p_xZVFVfV8CQCzdHSD73eh6H
 status: active
 merged_into: null
 display_name: 王宗某
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,13 +128,91 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_lVr-x9chxgnWTRVs-JNhWQ
+        subject_person_id: p_ELTFwpJhBRCdcynL2AFhCN
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_xZVFVfV8CQCzdHSD73eh6H
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_aZPJUs6H6LrAWg9BT-ECRC
+          claim_id: c_lVr-x9chxgnWTRVs-JNhWQ
+          source_id: s_uUwq3i4nBW2ea9MsJ581Lw
+          stance: supports
+          locator: CBDB 双向互证（父 王振艱 ⇄ 子 王宗某）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_ELTFwpJhBRCdcynL2AFhCN
+        status: active
+        display_name: 王振艱
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_UbvfsfzoqIfsviYVKo5w1V
+        subject_person_id: p_xZVFVfV8CQCzdHSD73eh6H
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_HiGLATjQNb5AR3bD57hVc9
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_LqUuYze0q-SekhFSreOrc3
+          claim_id: c_UbvfsfzoqIfsviYVKo5w1V
+          source_id: s_uUwq3i4nBW2ea9MsJ581Lw
+          stance: supports
+          locator: CBDB 双向互证（孫 王遷善 ⇄ 祖父 王宗某）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_HiGLATjQNb5AR3bD57hVc9
+        status: active
+        display_name: 王遷善
+        merged_into_person_id: null
+    - claim:
+        id: c_78tZ8OVZXN2mCU1heyohnr
+        subject_person_id: p_xZVFVfV8CQCzdHSD73eh6H
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_EgRz95qRGSQbLwKDLqNaqW
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hzSjoWRcN9widdi-hsb6sV
+          claim_id: c_78tZ8OVZXN2mCU1heyohnr
+          source_id: s_uUwq3i4nBW2ea9MsJ581Lw
+          stance: supports
+          locator: CBDB 双向互证（孫 王崇善 ⇄ 祖父 王宗某）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_EgRz95qRGSQbLwKDLqNaqW
+        status: active
+        display_name: 王崇善
+        merged_into_person_id: null
   other: []
 ---
 
@@ -155,6 +233,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_ELTFwpJhBRCdcynL2AFhCN | 王振艱 | accepted |
+| descendants | p_HiGLATjQNb5AR3bD57hVc9 | 王遷善 | accepted |
+| descendants | p_EgRz95qRGSQbLwKDLqNaqW | 王崇善 | accepted |
 
 ## 外部来源
 

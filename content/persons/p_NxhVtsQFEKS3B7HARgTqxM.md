@@ -4,7 +4,7 @@ id: p_NxhVtsQFEKS3B7HARgTqxM
 status: active
 merged_into: null
 display_name: 王褘
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -169,7 +169,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_UMWgB8ziLnSQoUcZ1JucX8
+        subject_person_id: p_Ae4mPuoq9HCc5nAbC92HVm
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_NxhVtsQFEKS3B7HARgTqxM
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_F6qqlkvfClGsGI500BAeFt
+          claim_id: c_UMWgB8ziLnSQoUcZ1JucX8
+          source_id: s_MZEEtgSwS5K6ZCgN67np3E
+          stance: supports
+          locator: CBDB 双向互证（丈夫 王褘 ⇄ 妻子 何妙音）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_MZEEtgSwS5K6ZCgN67np3E
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：何妙音（28108）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28108&o=json
+            external_identifier: CBDB:28108
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:00:07.221Z
+            metadata_json: null
+      object_person:
+        id: p_Ae4mPuoq9HCc5nAbC92HVm
+        status: active
+        display_name: 何妙音
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_aJyF2i3w22xS1WeXUmR8qI
@@ -208,7 +245,82 @@ relationships:
         status: active
         display_name: 王炎澤
         merged_into_person_id: null
-  descendants: []
+  descendants:
+    - claim:
+        id: c_btag_CNWRjGBXdwaRnWOEt
+        subject_person_id: p_NxhVtsQFEKS3B7HARgTqxM
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_T5zYVD6dUKYpz3hzkG2Leq
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_k3Pelmmftqa-XDBsZpJAh_
+          claim_id: c_btag_CNWRjGBXdwaRnWOEt
+          source_id: s_K826AGy7oQHb7gpsHuNTDg
+          stance: supports
+          locator: CBDB 双向互证（曾祖 王褘 ⇄ 曾孫; 重孫 王汶）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_K826AGy7oQHb7gpsHuNTDg
+            source_type: api_record
+            title: 中国历代人物传记资料库：王汶（CBDB 437893）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=437893&o=json
+            external_identifier: CBDB:437893
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:22.066Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_T5zYVD6dUKYpz3hzkG2Leq
+        status: active
+        display_name: 王汶
+        merged_into_person_id: null
+    - claim:
+        id: c_WH1sOZg3gxImJE9aWuNbp6
+        subject_person_id: p_NxhVtsQFEKS3B7HARgTqxM
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_bxE16iQMV3ZvduCYN5Z2Cd
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0FW7CMWbEI7AAyNk69akow
+          claim_id: c_WH1sOZg3gxImJE9aWuNbp6
+          source_id: s_8anH7G45ih3Y7d9FhRXCAb
+          stance: supports
+          locator: CBDB 双向互证（祖父 王褘 ⇄ 孫 王穰）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_8anH7G45ih3Y7d9FhRXCAb
+            source_type: api_record
+            title: 中国历代人物传记资料库：王穰（CBDB 437663）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=437663&o=json
+            external_identifier: CBDB:437663
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:18:12.805Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_bxE16iQMV3ZvduCYN5Z2Cd
+        status: active
+        display_name: 王穰
+        merged_into_person_id: null
   other: []
 ---
 
@@ -230,10 +342,16 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_mgxHev7zFTwcmkSJE7CaXn | 王良玉 | accepted |
+| spouses | p_Ae4mPuoq9HCc5nAbC92HVm | 何妙音 | accepted |
 | ancestors | p_mp9fqPLVqRaYj9MBorGs2H | 王炎澤 | accepted |
+| descendants | p_T5zYVD6dUKYpz3hzkG2Leq | 王汶 | accepted |
+| descendants | p_bxE16iQMV3ZvduCYN5Z2Cd | 王穰 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王褘（CBDB 10726）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10726&o=json)
 - [中国历代人物传记资料库：王良玉（CBDB 10725）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10725&o=json)
+- [中国历代人物传记资料库：王穰（CBDB 437663）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=437663&o=json)
+- [中国历代人物传记资料库：王汶（CBDB 437893）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=437893&o=json)
 - [中国历代人物传记资料库：王炎澤（CBDB 10724）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10724&o=json)
+- [CBDB 中国历代人物传记资料库：何妙音（28108）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28108&o=json)

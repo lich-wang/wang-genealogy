@@ -4,7 +4,7 @@ id: p_eLNzw8ZjpG2HWwHAXGcRbZ
 status: active
 merged_into: null
 display_name: 王溫
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_38ctoXo4o5CJRIFh4lWvsY
+        subject_person_id: p_eLNzw8ZjpG2HWwHAXGcRbZ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_dX7u7237Hx16GA83PoAMLv
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_UY-RivM_XHeE92quOBQbcP
+          claim_id: c_38ctoXo4o5CJRIFh4lWvsY
+          source_id: s_yfWwPARdjiZdsHKeoqPJkS
+          stance: supports
+          locator: CBDB 双向互证（祖父 王溫 ⇄ 孫 王翰）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_yfWwPARdjiZdsHKeoqPJkS
+            source_type: api_record
+            title: 中国历代人物传记资料库：王翰（CBDB 11968）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=11968&o=json
+            external_identifier: CBDB:11968
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.572Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_dX7u7237Hx16GA83PoAMLv
+        status: active
+        display_name: 王翰
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_dX7u7237Hx16GA83PoAMLv | 王翰 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王翰（CBDB 11968）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=11968&o=json)
 - [中国历代人物传记资料库：王溫（CBDB 11967）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=11967&o=json)

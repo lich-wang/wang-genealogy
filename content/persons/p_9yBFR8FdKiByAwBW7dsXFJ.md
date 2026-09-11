@@ -4,7 +4,7 @@ id: p_9yBFR8FdKiByAwBW7dsXFJ
 status: active
 merged_into: null
 display_name: 王夷簡
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_moM4ZBUYdnd2T3JgjgFS3k
+        subject_person_id: p_9yBFR8FdKiByAwBW7dsXFJ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_jK3nREeT6SvaqJzFFFLU38
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2qfoIKKDRQe3DRXBqgl7ww
+          claim_id: c_moM4ZBUYdnd2T3JgjgFS3k
+          source_id: s_ef42cFgyEF2B7NPoEN92sw
+          stance: supports
+          locator: CBDB 双向互证（子 王希哲 ⇄ 父 王夷簡）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_jK3nREeT6SvaqJzFFFLU38
+        status: active
+        display_name: 王希哲
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_jK3nREeT6SvaqJzFFFLU38 | 王希哲 | accepted |
 
 ## 外部来源
 

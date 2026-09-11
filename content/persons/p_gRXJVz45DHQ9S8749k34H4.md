@@ -4,7 +4,7 @@ id: p_gRXJVz45DHQ9S8749k34H4
 status: active
 merged_into: null
 display_name: 王用和
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_H-5F9HJa-ZjBgU9-6Q_Zbd
+        subject_person_id: p_gRXJVz45DHQ9S8749k34H4
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_XLkZGVxRBQSEaHVjzv1aDG
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1abjwrQNx-VouzolxBa4RJ
+          claim_id: c_H-5F9HJa-ZjBgU9-6Q_Zbd
+          source_id: s_rFvReZyqPjrxviHBgK5fbs
+          stance: supports
+          locator: CBDB 双向互证（孫 王奇 ⇄ 祖父 王用和）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_XLkZGVxRBQSEaHVjzv1aDG
+        status: active
+        display_name: 王奇
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_XLkZGVxRBQSEaHVjzv1aDG | 王奇 | accepted |
 
 ## 外部来源
 

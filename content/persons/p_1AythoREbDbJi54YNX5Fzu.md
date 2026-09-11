@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王稚
 cbdb_id: 437667
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -180,7 +180,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_D5om1HpkfwmTB95RUQj0Wp
+        subject_person_id: p_mgxHev7zFTwcmkSJE7CaXn
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_1AythoREbDbJi54YNX5Fzu
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Pp_GFr8mAM41ESqEUOufUc
+          claim_id: c_D5om1HpkfwmTB95RUQj0Wp
+          source_id: s_BAjxo671XMFTkByAe6GdPY
+          stance: supports
+          locator: CBDB 双向互证（曾孫; 重孫 王稚 ⇄ 曾祖 王良玉）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_BAjxo671XMFTkByAe6GdPY
+            source_type: api_record
+            title: 中国历代人物传记资料库：王良玉（CBDB 10725）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10725&o=json
+            external_identifier: CBDB:10725
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.563Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_mgxHev7zFTwcmkSJE7CaXn
+        status: active
+        display_name: 王良玉
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -201,10 +238,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_ujxGmCBGatyUsmPNvx1eeB | 王绅 | accepted |
+| ancestors | p_mgxHev7zFTwcmkSJE7CaXn | 王良玉 | accepted |
 
 ## 外部来源
 
 - [维基数据：王绅（Q45413317）](https://www.wikidata.org/wiki/Q45413317)
 - [维基数据：王稚（Q65903525）](https://www.wikidata.org/wiki/Q65903525)
+- [中国历代人物传记资料库：王良玉（CBDB 10725）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10725&o=json)
 - [CBDB 中国历代人物传记资料库：王紳（28112）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28112&o=json)
 - [CBDB 中国历代人物传记资料库：王稚（437667）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=437667&o=json)

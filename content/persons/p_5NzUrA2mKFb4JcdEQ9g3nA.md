@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王重瞻
 cbdb_id: 22193
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:22193
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_PiQ3FBVHFusPGJpKgSHkXs
             source_type: api_record
             title: 中国历代人物传记资料库：王重瞻（CBDB 22193）
@@ -87,7 +87,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_Iiwriu0WCbdZZ5iznqFw4x
+        subject_person_id: p_5NzUrA2mKFb4JcdEQ9g3nA
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_xXXn6fAPMxYTRtG6zG3M9K
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__B6QoqQXeZgewHiGqmLRcg
+          claim_id: c_Iiwriu0WCbdZZ5iznqFw4x
+          source_id: s_PiQ3FBVHFusPGJpKgSHkXs
+          stance: supports
+          locator: CBDB 双向互证（子 王仕榮 ⇄ 父 王重瞻）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_xXXn6fAPMxYTRtG6zG3M9K
+        status: active
+        display_name: 王仕榮
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -185,6 +211,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_xXXn6fAPMxYTRtG6zG3M9K | 王仕榮 | accepted |
 | descendants | p_4DFXvaJGjrMh1AZPiFN3k7 | 王淵 | accepted |
 | descendants | p_biGaLdBUf3ZqH93KQ7uZnx | 王懷信 | accepted |
 

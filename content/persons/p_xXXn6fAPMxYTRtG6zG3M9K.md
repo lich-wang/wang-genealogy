@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王仕榮
 cbdb_id: 22194
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,8 +86,83 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_Iiwriu0WCbdZZ5iznqFw4x
+        subject_person_id: p_5NzUrA2mKFb4JcdEQ9g3nA
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_xXXn6fAPMxYTRtG6zG3M9K
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__B6QoqQXeZgewHiGqmLRcg
+          claim_id: c_Iiwriu0WCbdZZ5iznqFw4x
+          source_id: s_PiQ3FBVHFusPGJpKgSHkXs
+          stance: supports
+          locator: CBDB 双向互证（子 王仕榮 ⇄ 父 王重瞻）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_PiQ3FBVHFusPGJpKgSHkXs
+            source_type: api_record
+            title: 中国历代人物传记资料库：王重瞻（CBDB 22193）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22193&o=json
+            external_identifier: CBDB:22193
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:44.071Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_5NzUrA2mKFb4JcdEQ9g3nA
+        status: active
+        display_name: 王重瞻
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_e9P1TaM1wAMue_JE8dH5hM
+        subject_person_id: p_xXXn6fAPMxYTRtG6zG3M9K
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_biGaLdBUf3ZqH93KQ7uZnx
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0xOl1D7XcK98Z5EN3aNl43
+          claim_id: c_e9P1TaM1wAMue_JE8dH5hM
+          source_id: s_suZSwBcjvFPqw9MPCk4NV1
+          stance: supports
+          locator: CBDB 双向互证（父 王仕榮 ⇄ 子 王懷信）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_suZSwBcjvFPqw9MPCk4NV1
+            source_type: api_record
+            title: 中国历代人物传记资料库：王懷信（CBDB 22195）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22195&o=json
+            external_identifier: CBDB:22195
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.845Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_biGaLdBUf3ZqH93KQ7uZnx
+        status: active
+        display_name: 王懷信
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -148,9 +223,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_5NzUrA2mKFb4JcdEQ9g3nA | 王重瞻 | accepted |
+| children | p_biGaLdBUf3ZqH93KQ7uZnx | 王懷信 | accepted |
 | descendants | p_4DFXvaJGjrMh1AZPiFN3k7 | 王淵 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王懷信（CBDB 22195）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22195&o=json)
 - [中国历代人物传记资料库：王仕榮（CBDB 22194）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22194&o=json)
 - [中国历代人物传记资料库：王淵（CBDB 8156）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=8156&o=json)
+- [中国历代人物传记资料库：王重瞻（CBDB 22193）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22193&o=json)

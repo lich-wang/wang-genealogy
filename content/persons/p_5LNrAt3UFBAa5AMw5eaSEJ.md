@@ -4,7 +4,7 @@ id: p_5LNrAt3UFBAa5AMw5eaSEJ
 status: active
 merged_into: null
 display_name: 王蘧
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_uqHRr1587NZijSsJ4DuQU1
+        subject_person_id: p_iLUdeieVQDb1mxk8x28Vj3
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_5LNrAt3UFBAa5AMw5eaSEJ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_oi3psiXaGJ99rcn6u81QLi
+          claim_id: c_uqHRr1587NZijSsJ4DuQU1
+          source_id: s_ueB9ZHJQCPPPwYRoVNUksZ
+          stance: supports
+          locator: CBDB 双向互证（父 王正路 ⇄ 子 王蘧）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_iLUdeieVQDb1mxk8x28Vj3
+        status: active
+        display_name: 王正路
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_vz3c1JzKmbv2Un0cBsMfcw
+        subject_person_id: p_5LNrAt3UFBAa5AMw5eaSEJ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_tk84vCkyVEDHdqb4M5upn4
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_EmrugRbrTO9-sKCFr6ihP8
+          claim_id: c_vz3c1JzKmbv2Un0cBsMfcw
+          source_id: s_ueB9ZHJQCPPPwYRoVNUksZ
+          stance: supports
+          locator: CBDB 双向互证（子 王庶 ⇄ 父 王蘧）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_tk84vCkyVEDHdqb4M5upn4
+        status: active
+        display_name: 王庶
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_iLUdeieVQDb1mxk8x28Vj3 | 王正路 | accepted |
+| children | p_tk84vCkyVEDHdqb4M5upn4 | 王庶 | accepted |
 
 ## 外部来源
 

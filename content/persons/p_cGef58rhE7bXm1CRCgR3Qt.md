@@ -4,7 +4,7 @@ id: p_cGef58rhE7bXm1CRCgR3Qt
 status: active
 merged_into: null
 display_name: 王正綱
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -77,7 +77,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_cIfcyARpE6nykoKPQhfrXm
+        subject_person_id: p_JEp5M3BLJajMXRjvLCUuVy
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_cGef58rhE7bXm1CRCgR3Qt
+        generation_count: 4
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__xYysvfNEWbxJfMwPXjtyz
+          claim_id: c_cIfcyARpE6nykoKPQhfrXm
+          source_id: s_Qx8rkcxqMcWQr7ib8KhZC7
+          stance: supports
+          locator: CBDB 双向互证（高祖;四世祖 王惟熙 ⇄ 玄孫;四世孫 王正綱）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_JEp5M3BLJajMXRjvLCUuVy
+        status: active
+        display_name: 王惟熙
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_JEp5M3BLJajMXRjvLCUuVy | 王惟熙 | accepted |
 
 ## 外部来源
 

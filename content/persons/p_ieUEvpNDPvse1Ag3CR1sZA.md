@@ -4,7 +4,7 @@ id: p_ieUEvpNDPvse1Ag3CR1sZA
 status: active
 merged_into: null
 display_name: 王會
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_JKY-AbLa-LVuivslWHQ3FK
+        subject_person_id: p_V7ycLeFaKcwDLu6Nqpp4GD
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ieUEvpNDPvse1Ag3CR1sZA
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_evftiFRtgJy-K_kA3ILbE5
+          claim_id: c_JKY-AbLa-LVuivslWHQ3FK
+          source_id: s_Xro2zW4vVVcM82Tv4vADYn
+          stance: supports
+          locator: CBDB 双向互证（父 王仲山 ⇄ 子 王會）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_V7ycLeFaKcwDLu6Nqpp4GD
+        status: active
+        display_name: 王仲山
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_V7ycLeFaKcwDLu6Nqpp4GD | 王仲山 | accepted |
 
 ## 外部来源
 

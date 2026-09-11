@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王公達
 cbdb_id: 24511
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:24511
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_orQ5SG5thqraHR1PvLfjcG
             source_type: api_record
             title: 中国历代人物传记资料库：王公達（CBDB 24511）
@@ -87,7 +87,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_bBzvv5ABb8ArTE0pz04ryk
+        subject_person_id: p_14z56cozKBR178wmK7Q4e5
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_8SCUxCTEuLH7vvbDx2aiwc
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5NFqaMlGDP8i6i0oa3vZEM
+          claim_id: c_bBzvv5ABb8ArTE0pz04ryk
+          source_id: s_orQ5SG5thqraHR1PvLfjcG
+          stance: supports
+          locator: CBDB 双向互证（子 王居能 ⇄ 父 王公達）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_8SCUxCTEuLH7vvbDx2aiwc
+        status: active
+        display_name: 王居能
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_8SCUxCTEuLH7vvbDx2aiwc | 王居能 | accepted |
 
 ## 外部来源
 

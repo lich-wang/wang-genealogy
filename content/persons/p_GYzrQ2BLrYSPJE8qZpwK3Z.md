@@ -4,7 +4,7 @@ id: p_GYzrQ2BLrYSPJE8qZpwK3Z
 status: active
 merged_into: null
 display_name: 王蘊
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_xxsL6UEKkuZV2pkcpg4l17
+        subject_person_id: p_PETdD8Jz2DJR4mSmHcNTrv
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_GYzrQ2BLrYSPJE8qZpwK3Z
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gQ27N3xzy-TddeT8nq_RyJ
+          claim_id: c_xxsL6UEKkuZV2pkcpg4l17
+          source_id: s_Hpvy4Q9DgNbYJ7v6vcdLK4
+          stance: supports
+          locator: CBDB 双向互证（父 王仲舉 ⇄ 子 王蘊）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_PETdD8Jz2DJR4mSmHcNTrv
+        status: active
+        display_name: 王仲舉
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_iiA57tbyP70s4XcXFMQV-y
+        subject_person_id: p_GYzrQ2BLrYSPJE8qZpwK3Z
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_RSUipjDpHxz3E9HHKd8tnd
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YtWT1Rr2rtIb_AfzELAbSZ
+          claim_id: c_iiA57tbyP70s4XcXFMQV-y
+          source_id: s_Hpvy4Q9DgNbYJ7v6vcdLK4
+          stance: supports
+          locator: CBDB 双向互证（子 王大成 ⇄ 父 王蘊）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_RSUipjDpHxz3E9HHKd8tnd
+        status: active
+        display_name: 王大成
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_PETdD8Jz2DJR4mSmHcNTrv | 王仲舉 | accepted |
+| children | p_RSUipjDpHxz3E9HHKd8tnd | 王大成 | accepted |
 
 ## 外部来源
 

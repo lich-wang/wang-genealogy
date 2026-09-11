@@ -4,7 +4,7 @@ id: p_bL6RtEarbpBgwtUf32Pksp
 status: active
 merged_into: null
 display_name: 王家楨
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -101,7 +101,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_OAgBPhC-b-sxW2nIpFvgdc
+        subject_person_id: p_bL6RtEarbpBgwtUf32Pksp
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_5NfPimi3vZT5CJRvWzsC5Y
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Gbi4uSzqzixfZSGXyerFog
+          claim_id: c_OAgBPhC-b-sxW2nIpFvgdc
+          source_id: s_E9tVULtwBFQqdk3WBHbfwp
+          stance: supports
+          locator: CBDB 双向互证（父 王家楨 ⇄ 子 王）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_E9tVULtwBFQqdk3WBHbfwp
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王（35032）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35032&o=json
+            external_identifier: CBDB:35032
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:59:39.120Z
+            metadata_json: null
+      object_person:
+        id: p_5NfPimi3vZT5CJRvWzsC5Y
+        status: active
+        display_name: 王
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_5NfPimi3vZT5CJRvWzsC5Y | 王 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王家楨（CBDB 35031）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35031&o=json)
+- [CBDB 中国历代人物传记资料库：王（35032）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35032&o=json)

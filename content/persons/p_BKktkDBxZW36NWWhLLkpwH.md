@@ -4,7 +4,7 @@ id: p_BKktkDBxZW36NWWhLLkpwH
 status: active
 merged_into: null
 display_name: 王發
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_eOXj8VE_22HX1iBLT-TQF8
+        subject_person_id: p_G5SQGh5AbvY3Ln1ftLHdsC
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_BKktkDBxZW36NWWhLLkpwH
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3G8YWnoVYZJHJvBSD6S5xc
+          claim_id: c_eOXj8VE_22HX1iBLT-TQF8
+          source_id: s_K4cAAPq3xBP2LsGZ8g8G9a
+          stance: supports
+          locator: CBDB 双向互证（父 王克存 ⇄ 子 王發）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_G5SQGh5AbvY3Ln1ftLHdsC
+        status: active
+        display_name: 王克存
+        merged_into_person_id: null
   children:
     - claim:
         id: c_yzc7wMii2Q8gZ6BgbvjqVE
@@ -123,6 +149,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_G5SQGh5AbvY3Ln1ftLHdsC | 王克存 | accepted |
 | children | p_swcbVTDLNjK4ibwNhCz7N9 | 王綯 | accepted |
 
 ## 外部来源

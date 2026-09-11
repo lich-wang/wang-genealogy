@@ -4,7 +4,7 @@ id: p_D4z9mWRZWdetNdzRfwASCL
 status: active
 merged_into: null
 display_name: 王鏊
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -206,6 +206,80 @@ relationships:
         status: active
         display_name: 王延昭
         merged_into_person_id: null
+    - claim:
+        id: c_TWFzndmJoLgRkt3jtga0SH
+        subject_person_id: p_D4z9mWRZWdetNdzRfwASCL
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_8LsJEYCjbbE642tn4yUoiz
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FEcrA64RFLo7-64qJmk5VZ
+          claim_id: c_TWFzndmJoLgRkt3jtga0SH
+          source_id: s_jKYBq66gCJngVZyPZBwYP6
+          stance: supports
+          locator: CBDB 双向互证（父 王鏊 ⇄ 子 王延陵）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_jKYBq66gCJngVZyPZBwYP6
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王延陵（34587）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34587&o=json
+            external_identifier: CBDB:34587
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:59:32.290Z
+            metadata_json: null
+      object_person:
+        id: p_8LsJEYCjbbE642tn4yUoiz
+        status: active
+        display_name: 王延陵
+        merged_into_person_id: null
+    - claim:
+        id: c_tlA_IssITE6rK4WMNQsu_7
+        subject_person_id: p_D4z9mWRZWdetNdzRfwASCL
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_rzWVYhxBK9oeQF6on3qVdy
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_X6tiGBAgkfjY3O_j7xxm-R
+          claim_id: c_tlA_IssITE6rK4WMNQsu_7
+          source_id: s_2vna4WaozGUuCdYF13LLMw
+          stance: supports
+          locator: CBDB 双向互证（父 王鏊 ⇄ 子 王延索）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_2vna4WaozGUuCdYF13LLMw
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王延索（34588）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34588&o=json
+            external_identifier: CBDB:34588
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:59:32.266Z
+            metadata_json: null
+      object_person:
+        id: p_rzWVYhxBK9oeQF6on3qVdy
+        status: active
+        display_name: 王延索
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses:
@@ -307,6 +381,8 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_7EWnYXtmTk1oqLCDzLFor6 | 王延詰 | accepted |
 | children | p_7sL8RLmuiFfTvhgxv4U3Hi | 王延昭 | accepted |
+| children | p_8LsJEYCjbbE642tn4yUoiz | 王延陵 | accepted |
+| children | p_rzWVYhxBK9oeQF6on3qVdy | 王延索 | accepted |
 | spouses | p_jhEZERf87Yu1gr8MbYEspe | 吴氏 | accepted |
 | ancestors | p_rfNi35kMF1FSma9nVH7tNg | 王彦祥 | accepted |
 
@@ -315,5 +391,7 @@ relationships:
 - [中国历代人物传记资料库：王鏊（CBDB 34579）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34579&o=json)
 - [中国历代人物传记资料库：王延詰（CBDB 525608）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=525608&o=json)
 - [中国历代人物传记资料库：王延昭（CBDB 525607）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=525607&o=json)
+- [CBDB 中国历代人物传记资料库：王延陵（34587）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34587&o=json)
+- [CBDB 中国历代人物传记资料库：王延索（34588）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34588&o=json)
 - [CBDB 中国历代人物传记资料库：王彥祥（34584）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34584&o=json)
 - [CBDB 中国历代人物传记资料库：吳氏（247603）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=247603&o=json)

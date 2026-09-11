@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王崇遇
 cbdb_id: 24513
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,8 +86,83 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_V3x0gpfR3Cbcy5ZyUkD8t3
+        subject_person_id: p_8SCUxCTEuLH7vvbDx2aiwc
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_BChCuFHjEoLkJji1RG47tG
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_DgIncdLe72lEBCVoMuRsJl
+          claim_id: c_V3x0gpfR3Cbcy5ZyUkD8t3
+          source_id: s_f9vPJyCySH3jXD8JBuL982
+          stance: supports
+          locator: CBDB 双向互证（子 王崇遇 ⇄ 父 王居能）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_f9vPJyCySH3jXD8JBuL982
+            source_type: api_record
+            title: 中国历代人物传记资料库：王居能（CBDB 24512）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=24512&o=json
+            external_identifier: CBDB:24512
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:45.019Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_8SCUxCTEuLH7vvbDx2aiwc
+        status: active
+        display_name: 王居能
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_vXrVIfoJ8PcZQ5UdjUwfRq
+        subject_person_id: p_BChCuFHjEoLkJji1RG47tG
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3H6pbyyKMDg5pqPu9AL5sC
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-ssTNaC1r9RLBiB_n5RASI
+          claim_id: c_vXrVIfoJ8PcZQ5UdjUwfRq
+          source_id: s_B8XNZfG4p9Utb4GmN1ZfKn
+          stance: supports
+          locator: CBDB 双向互证（父 王崇遇 ⇄ 子 王允中）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_B8XNZfG4p9Utb4GmN1ZfKn
+            source_type: api_record
+            title: 中国历代人物传记资料库：王允中（CBDB 21990）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=21990&o=json
+            external_identifier: CBDB:21990
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.791Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_3H6pbyyKMDg5pqPu9AL5sC
+        status: active
+        display_name: 王允中
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,7 +186,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_8SCUxCTEuLH7vvbDx2aiwc | 王居能 | accepted |
+| children | p_3H6pbyyKMDg5pqPu9AL5sC | 王允中 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王崇遇（CBDB 24513）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=24513&o=json)
+- [中国历代人物传记资料库：王居能（CBDB 24512）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=24512&o=json)
+- [中国历代人物传记资料库：王允中（CBDB 21990）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=21990&o=json)

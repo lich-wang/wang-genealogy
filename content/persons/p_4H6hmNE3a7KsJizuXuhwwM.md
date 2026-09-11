@@ -4,7 +4,7 @@ id: p_4H6hmNE3a7KsJizuXuhwwM
 status: active
 merged_into: null
 display_name: 王礎
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,112 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_B38zEZ10k5wRO8aStX7qhq
+        subject_person_id: p_N4m8f1CJyyaPfxmbQEmr7X
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_4H6hmNE3a7KsJizuXuhwwM
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OSGvOlm0IQaKwILXnsbxZc
+          claim_id: c_B38zEZ10k5wRO8aStX7qhq
+          source_id: s_Yic4HWUmUS3sWTFBmHNmnx
+          stance: supports
+          locator: CBDB 双向互证（父 王珣 ⇄ 子 王礎）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_N4m8f1CJyyaPfxmbQEmr7X
+        status: active
+        display_name: 王珣
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_S6Cs5pFPtyyFG1QcxQ4-L0
+        subject_person_id: p_4H6hmNE3a7KsJizuXuhwwM
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_7XVwriKhMuAxk84ypFnPNi
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_iSuexeod26EbiuonPjM7Cz
+          claim_id: c_S6Cs5pFPtyyFG1QcxQ4-L0
+          source_id: s_Yic4HWUmUS3sWTFBmHNmnx
+          stance: supports
+          locator: CBDB 双向互证（子 王伯起 ⇄ 父 王礎）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_7XVwriKhMuAxk84ypFnPNi
+        status: active
+        display_name: 王伯起
+        merged_into_person_id: null
+    - claim:
+        id: c_ZPBgRNDX3G36SFgk62G7xd
+        subject_person_id: p_4H6hmNE3a7KsJizuXuhwwM
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_9FP6DzArF1ZVMpeBEDaJVL
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_avqBREmS0B3x6dh5adBAKL
+          claim_id: c_ZPBgRNDX3G36SFgk62G7xd
+          source_id: s_Yic4HWUmUS3sWTFBmHNmnx
+          stance: supports
+          locator: CBDB 双向互证（子 王伯虎 ⇄ 父 王礎）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_9FP6DzArF1ZVMpeBEDaJVL
+        status: active
+        display_name: 王伯虎
+        merged_into_person_id: null
+    - claim:
+        id: c_PvnfspcLUenNvnAjRNGZ9T
+        subject_person_id: p_4H6hmNE3a7KsJizuXuhwwM
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_PETdD8Jz2DJR4mSmHcNTrv
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2eWQr4wyrtSdKl26s6PIn7
+          claim_id: c_PvnfspcLUenNvnAjRNGZ9T
+          source_id: s_Yic4HWUmUS3sWTFBmHNmnx
+          stance: supports
+          locator: CBDB 双向互证（子 王仲舉 ⇄ 父 王礎）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_PETdD8Jz2DJR4mSmHcNTrv
+        status: active
+        display_name: 王仲舉
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +201,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_N4m8f1CJyyaPfxmbQEmr7X | 王珣 | accepted |
+| children | p_7XVwriKhMuAxk84ypFnPNi | 王伯起 | accepted |
+| children | p_9FP6DzArF1ZVMpeBEDaJVL | 王伯虎 | accepted |
+| children | p_PETdD8Jz2DJR4mSmHcNTrv | 王仲舉 | accepted |
 
 ## 外部来源
 

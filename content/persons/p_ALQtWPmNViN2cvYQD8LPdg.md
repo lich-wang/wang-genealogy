@@ -4,7 +4,7 @@ id: p_ALQtWPmNViN2cvYQD8LPdg
 status: active
 merged_into: null
 display_name: 王遐
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_inQ6Od9msQ8vRMOWRbQc8_
+        subject_person_id: p_ALQtWPmNViN2cvYQD8LPdg
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ASPW873g2imRFDHsyu1eA9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Z2l5VKVoEK9sqXrAkDJxXh
+          claim_id: c_inQ6Od9msQ8vRMOWRbQc8_
+          source_id: s_HusSu3FxocJzkJ9JMvQw3t
+          stance: supports
+          locator: CBDB 双向互证（子 王郁 ⇄ 父 王遐）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_ASPW873g2imRFDHsyu1eA9
+        status: active
+        display_name: 王郁
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_ASPW873g2imRFDHsyu1eA9 | 王郁 | accepted |
 
 ## 外部来源
 

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王世规
 cbdb_id: 17818
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -354,7 +354,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_4EDJ2jZj9mLdA5zBbTe3ex
+        subject_person_id: p_TXJvtdFRgZUQXsFzGvjCnR
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_MfJiUsMRyT9mTNPXKac7Dw
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dtyfx_aPPg50LQQumdS3EX
+          claim_id: c_4EDJ2jZj9mLdA5zBbTe3ex
+          source_id: s_Si8avKHpmgFu7nx1zTCC29
+          stance: supports
+          locator: CBDB 双向互证（曾祖 王世規 ⇄ 曾孫; 重孫 王彥舉）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_Si8avKHpmgFu7nx1zTCC29
+            source_type: api_record
+            title: 中国历代人物传记资料库：王彥舉（CBDB 17822）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17822&o=json
+            external_identifier: CBDB:17822
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.682Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_MfJiUsMRyT9mTNPXKac7Dw
+        status: active
+        display_name: 王彥舉
+        merged_into_person_id: null
   other: []
 ---
 
@@ -377,6 +414,7 @@ relationships:
 | children | p_5QEFg5NX8fdCTZoicRnKAT | 王韶 | accepted |
 | children | p_gE4sL9jW5Hc4NuJaSNf9Tu | 王夏 | accepted |
 | children | p_W23we9byNz7nTFvjTHpgBS | 王振 | accepted |
+| descendants | p_MfJiUsMRyT9mTNPXKac7Dw | 王彥舉 | accepted |
 
 ## 外部来源
 
@@ -385,5 +423,6 @@ relationships:
 - [维基数据：王世规（Q45387330）](https://www.wikidata.org/wiki/Q45387330)
 - [维基数据：王夏（Q45359489）](https://www.wikidata.org/wiki/Q45359489)
 - [维基数据：王振（Q45401681）](https://www.wikidata.org/wiki/Q45401681)
+- [中国历代人物传记资料库：王彥舉（CBDB 17822）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17822&o=json)
 - [CBDB 中国历代人物传记资料库：王承壽（24463）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=24463&o=json)
 - [CBDB 中国历代人物传记资料库：王世規（17818）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17818&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王振孫
 cbdb_id: 28736
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -91,7 +91,45 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_eR_sermGFzY3E1_mEh5d67
+        subject_person_id: p_VhEE1K9QYVSnK1V1eF11SZ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Ys65mYTEgMHoCKTKksv9NP
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vdUSC0poTKFmzy8WE4EuWm
+          claim_id: c_eR_sermGFzY3E1_mEh5d67
+          source_id: s_WH1Up4UH2t9wWc2UfBzsXT
+          stance: supports
+          locator: CBDB 双向互证（孫 王振孫 ⇄ 祖父 王天鐸）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_WH1Up4UH2t9wWc2UfBzsXT
+            source_type: api_record
+            title: 中国历代人物传记资料库：王天鐸（CBDB 28726）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28726&o=json
+            external_identifier: CBDB:28726
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:05.401Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_VhEE1K9QYVSnK1V1eF11SZ
+        status: active
+        display_name: 王天鐸
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -111,7 +149,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_VhEE1K9QYVSnK1V1eF11SZ | 王天鐸 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王天鐸（CBDB 28726）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28726&o=json)
 - [中国历代人物传记资料库：王振孫（CBDB 28736）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28736&o=json)

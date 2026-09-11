@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王RR
 cbdb_id: 35059
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -225,6 +225,32 @@ relationships:
         status: active
         display_name: 王士禄
         merged_into_person_id: null
+    - claim:
+        id: c_Wm9Ji8-7czjS8b7orG_gTL
+        subject_person_id: p_FisdT3cjZ77SEtKVr6StYB
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_TACtcGqgnGy8yNMBE86m5e
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rJtAeEYQh7A2n0zvguCI-v
+          claim_id: c_Wm9Ji8-7czjS8b7orG_gTL
+          source_id: s_f2SKKvZjmwHoUEydMzwjvn
+          stance: supports
+          locator: CBDB 双向互证（子 王士喜 ⇄ 父 王RR）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_TACtcGqgnGy8yNMBE86m5e
+        status: active
+        display_name: 王士喜
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -250,6 +276,7 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_Pbmps3AjkLgf51zccDC7JU | 王士禛 | accepted |
 | children | p_9d5KLm4AkzUSZ83mAsdHYT | 王士禄 | accepted |
+| children | p_TACtcGqgnGy8yNMBE86m5e | 王士喜 | accepted |
 
 ## 外部来源
 

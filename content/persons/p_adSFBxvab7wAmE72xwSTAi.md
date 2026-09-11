@@ -4,7 +4,7 @@ id: p_adSFBxvab7wAmE72xwSTAi
 status: active
 merged_into: null
 display_name: 王珣
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_dcKZnDSA9xHfC-dI4ZJKPf
+        subject_person_id: p_Z9F95dWykFW9QM2cVE5ek7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_adSFBxvab7wAmE72xwSTAi
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_aQAraB-4ZfBQCssmzZj8F7
+          claim_id: c_dcKZnDSA9xHfC-dI4ZJKPf
+          source_id: s_KRJDFzK7vuQ6vTDbWQADNr
+          stance: supports
+          locator: CBDB 双向互证（父 王佐 ⇄ 子 王珣）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_Z9F95dWykFW9QM2cVE5ek7
+        status: active
+        display_name: 王佐
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_pC5hzuZVoPCVQVhbMfs53H
+        subject_person_id: p_adSFBxvab7wAmE72xwSTAi
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Tz7BGr7hq8U8gRrDLhMUC6
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Jk4yuys99Qg1_ih_tFOlVi
+          claim_id: c_pC5hzuZVoPCVQVhbMfs53H
+          source_id: s_KRJDFzK7vuQ6vTDbWQADNr
+          stance: supports
+          locator: CBDB 双向互证（子 王承業 ⇄ 父 王珣）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_Tz7BGr7hq8U8gRrDLhMUC6
+        status: active
+        display_name: 王承業
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Z9F95dWykFW9QM2cVE5ek7 | 王佐 | accepted |
+| children | p_Tz7BGr7hq8U8gRrDLhMUC6 | 王承業 | accepted |
 
 ## 外部来源
 

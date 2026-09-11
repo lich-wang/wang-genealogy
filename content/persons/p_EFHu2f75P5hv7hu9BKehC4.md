@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王唐臣
 cbdb_id: 22174
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,7 +86,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_cF655qqmGnI-h3Ql1R0Dag
+        subject_person_id: p_DFWuMPWUstBm3Tr8KacmZf
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_EFHu2f75P5hv7hu9BKehC4
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ucFCVBQqloQ2v_10QIUgRj
+          claim_id: c_cF655qqmGnI-h3Ql1R0Dag
+          source_id: s_42M1RyqHPGFYMpZ9FeVqji
+          stance: supports
+          locator: CBDB 双向互证（子 王唐臣 ⇄ 父 王嗣宗）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_42M1RyqHPGFYMpZ9FeVqji
+            source_type: api_record
+            title: 中国历代人物传记资料库：王嗣宗（CBDB 1880）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1880&o=json
+            external_identifier: CBDB:1880
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.370Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_DFWuMPWUstBm3Tr8KacmZf
+        status: active
+        display_name: 王嗣宗
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_DFWuMPWUstBm3Tr8KacmZf | 王嗣宗 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王嗣宗（CBDB 1880）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1880&o=json)
 - [中国历代人物传记资料库：王唐臣（CBDB 22174）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22174&o=json)

@@ -4,7 +4,7 @@ id: p_WNe6hDfHpUq7znyP4H9mA8
 status: active
 merged_into: null
 display_name: 王師伋
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_vHFvCl8NruTXp4uBPRpARi
+        subject_person_id: p_WNe6hDfHpUq7znyP4H9mA8
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_wKfvgdvNixuHKZaA84Vuyy
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rOmDgUEAeD8Grsk_ZEil8_
+          claim_id: c_vHFvCl8NruTXp4uBPRpARi
+          source_id: s_7h1Zwe6mg1j6B2XYn4629k
+          stance: supports
+          locator: CBDB 双向互证（曾祖 王師伋 ⇄ 曾孫; 重孫 王桂）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_7h1Zwe6mg1j6B2XYn4629k
+            source_type: api_record
+            title: 中国历代人物传记资料库：王桂（CBDB 38084）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38084&o=json
+            external_identifier: CBDB:38084
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.353Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_wKfvgdvNixuHKZaA84Vuyy
+        status: active
+        display_name: 王桂
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_wKfvgdvNixuHKZaA84Vuyy | 王桂 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王桂（CBDB 38084）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38084&o=json)
 - [中国历代人物传记资料库：王師伋（CBDB 17666）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17666&o=json)

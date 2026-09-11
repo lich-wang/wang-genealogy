@@ -4,7 +4,7 @@ id: p_DnF7GWgjWmc9PoZw9qD4HR
 status: active
 merged_into: null
 display_name: 王伸
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_v9Jj0_7coESb2WdBfKZTxw
+        subject_person_id: p_oNDU7zQtqTTiQX3XhFSuLY
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_DnF7GWgjWmc9PoZw9qD4HR
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_krWw8dbFLQLPyUW29-FDXc
+          claim_id: c_v9Jj0_7coESb2WdBfKZTxw
+          source_id: s_BdhH8TjT2LVr8RRGZs7P3Z
+          stance: supports
+          locator: CBDB 双向互证（父 王護 ⇄ 子 王伸）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_oNDU7zQtqTTiQX3XhFSuLY
+        status: active
+        display_name: 王護
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_dpDFVSiK7j86aCT7ALKh3n
+        subject_person_id: p_DnF7GWgjWmc9PoZw9qD4HR
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_k2RT97voAdmwyGZSrQgCE4
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__2efsAj5ppLMz1BfUQ65s-
+          claim_id: c_dpDFVSiK7j86aCT7ALKh3n
+          source_id: s_BdhH8TjT2LVr8RRGZs7P3Z
+          stance: supports
+          locator: CBDB 双向互证（子 王廷簡 ⇄ 父 王伸）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_k2RT97voAdmwyGZSrQgCE4
+        status: active
+        display_name: 王廷簡
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_oNDU7zQtqTTiQX3XhFSuLY | 王護 | accepted |
+| children | p_k2RT97voAdmwyGZSrQgCE4 | 王廷簡 | accepted |
 
 ## 外部来源
 

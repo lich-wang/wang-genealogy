@@ -4,7 +4,7 @@ id: p_qcwb8eCXR6GyvE8ryN6YF1
 status: active
 merged_into: null
 display_name: 王覿
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_JQ8n53VfFB8eraNIyRhOTo
+        subject_person_id: p_JEp5M3BLJajMXRjvLCUuVy
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_qcwb8eCXR6GyvE8ryN6YF1
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Y7yDLw_Yrp5voKr6unD7ym
+          claim_id: c_JQ8n53VfFB8eraNIyRhOTo
+          source_id: s_SDsZgLqBM9JtYL99b9djLF
+          stance: supports
+          locator: CBDB 双向互证（父 王惟熙 ⇄ 子 王覿）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_JEp5M3BLJajMXRjvLCUuVy
+        status: active
+        display_name: 王惟熙
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_JEp5M3BLJajMXRjvLCUuVy | 王惟熙 | accepted |
 
 ## 外部来源
 

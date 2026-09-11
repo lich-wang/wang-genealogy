@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王铨
 cbdb_id: 31160
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -270,7 +270,81 @@ relationships:
         status: active
         display_name: 王份
         merged_into_person_id: null
-  descendants: []
+  descendants:
+    - claim:
+        id: c_dSn6NBvsqOwemZhURCdsF-
+        subject_person_id: p_6P1fo1PnFdXvCWVqBBsEtM
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_nyfSKnB9avdL1QftK8B1AW
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9V9VjXyWPjxFOPsyEMY8NJ
+          claim_id: c_dSn6NBvsqOwemZhURCdsF-
+          source_id: s_jJi6hk2AVKfjLxFym88Rpo
+          stance: supports
+          locator: CBDB 双向互证（曾祖 王銓 ⇄ 曾孫; 重孫 王紹宗）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_jJi6hk2AVKfjLxFym88Rpo
+            source_type: api_record
+            title: 中国历代人物传记资料库：王紹宗（CBDB 31162）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=31162&o=json
+            external_identifier: CBDB:31162
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.046Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_nyfSKnB9avdL1QftK8B1AW
+        status: active
+        display_name: 王紹宗
+        merged_into_person_id: null
+    - claim:
+        id: c_cvIM5mqN-SPZtq3nNgtBH9
+        subject_person_id: p_6P1fo1PnFdXvCWVqBBsEtM
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_q986evH6CYhnBi5ZJTcpuz
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hJW6krDwQFdt3xfHJV8m0T
+          claim_id: c_cvIM5mqN-SPZtq3nNgtBH9
+          source_id: s_fwWxxg7nmvHekiTnw75mEM
+          stance: supports
+          locator: CBDB 双向互证（曾祖 王銓 ⇄ 曾孫; 重孫 王元宗）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_fwWxxg7nmvHekiTnw75mEM
+            source_type: api_record
+            title: 中国历代人物传记资料库：王元宗（CBDB 31161）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=31161&o=json
+            external_identifier: CBDB:31161
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.045Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_q986evH6CYhnBi5ZJTcpuz
+        status: active
+        display_name: 王元宗
+        merged_into_person_id: null
   other: []
 ---
 
@@ -292,10 +366,14 @@ relationships:
 | parents | p_J834gYrU1F2b3b6hCDtUW2 | 王琳 | accepted |
 | spouses | p_iyEfgfMduiPMH61WeiBkbD | 永嘉公主 | accepted |
 | ancestors | p_J1Ags3R9DpGyBdsdxESQDz | 王份 | accepted |
+| descendants | p_nyfSKnB9avdL1QftK8B1AW | 王紹宗 | accepted |
+| descendants | p_q986evH6CYhnBi5ZJTcpuz | 王元宗 | accepted |
 
 ## 外部来源
 
 - [维基数据：王琳（Q22814773）](https://www.wikidata.org/wiki/Q22814773)
 - [维基数据：王铨（Q38975748）](https://www.wikidata.org/wiki/Q38975748)
+- [中国历代人物传记资料库：王紹宗（CBDB 31162）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=31162&o=json)
+- [中国历代人物传记资料库：王元宗（CBDB 31161）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=31161&o=json)
 - [中文维基百科：王銓 (南梁)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%8A%93_(%E5%8D%97%E6%A2%81))
 - [CBDB 中国历代人物传记资料库：王銓（31160）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=31160&o=json)

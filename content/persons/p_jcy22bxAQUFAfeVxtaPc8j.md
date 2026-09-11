@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王安稚
 cbdb_id: 23403
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -87,7 +87,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_Or0LZ1iplnfS2XJAE2bnwJ
+        subject_person_id: p_jcy22bxAQUFAfeVxtaPc8j
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_aHeAmqcGVyBmd5DEnHtvrt
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gO6RsrOHT9oenkiz8LanOi
+          claim_id: c_Or0LZ1iplnfS2XJAE2bnwJ
+          source_id: s_Y1pDBFA71gVGdvYfjt74T1
+          stance: supports
+          locator: CBDB 双向互证（父 王安稚 ⇄ 子 王纘）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_Y1pDBFA71gVGdvYfjt74T1
+            source_type: api_record
+            title: 中国历代人物传记资料库：王纘（CBDB 23404）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=23404&o=json
+            external_identifier: CBDB:23404
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.879Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_aHeAmqcGVyBmd5DEnHtvrt
+        status: active
+        display_name: 王纘
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_aHeAmqcGVyBmd5DEnHtvrt | 王纘 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王安稚（CBDB 23403）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=23403&o=json)
+- [中国历代人物传记资料库：王纘（CBDB 23404）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=23404&o=json)

@@ -4,7 +4,7 @@ id: p_8PkieG2XAbUn2Us9dYW5eC
 status: active
 merged_into: null
 display_name: 王鎬
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_KUxOZr5dzCozBbBIdfXayk
+        subject_person_id: p_9iZg7bUcK8wS6LWMEX9vKo
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_8PkieG2XAbUn2Us9dYW5eC
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KY_6Ib0-lkZ2eoA_F09ZaD
+          claim_id: c_KUxOZr5dzCozBbBIdfXayk
+          source_id: s_DofG638kswFwfTEWcHgsRu
+          stance: supports
+          locator: CBDB 双向互证（父 王基 ⇄ 子 王鎬）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_9iZg7bUcK8wS6LWMEX9vKo
+        status: active
+        display_name: 王基
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -155,6 +181,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_9iZg7bUcK8wS6LWMEX9vKo | 王基 | accepted |
 
 ## 外部来源
 

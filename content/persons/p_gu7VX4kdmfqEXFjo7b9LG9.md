@@ -4,7 +4,7 @@ id: p_gu7VX4kdmfqEXFjo7b9LG9
 status: active
 merged_into: null
 display_name: 王定臣
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -77,7 +77,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_NStg2OZeVA08MYm3FjmZTO
+        subject_person_id: p_VKst8B2d5tWwdYZpMbjXpF
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_gu7VX4kdmfqEXFjo7b9LG9
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vNryxV5NH3bwv4_vlq1Um_
+          claim_id: c_NStg2OZeVA08MYm3FjmZTO
+          source_id: s_tXuysyovDKAPDwDQ8q6FZW
+          stance: supports
+          locator: CBDB 双向互证（祖父 王礪 ⇄ 孫 王定臣）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_VKst8B2d5tWwdYZpMbjXpF
+        status: active
+        display_name: 王砺
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_VKst8B2d5tWwdYZpMbjXpF | 王砺 | accepted |
 
 ## 外部来源
 

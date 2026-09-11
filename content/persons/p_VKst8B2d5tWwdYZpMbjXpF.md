@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王砺
 cbdb_id: 15706
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -449,7 +449,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_NStg2OZeVA08MYm3FjmZTO
+        subject_person_id: p_VKst8B2d5tWwdYZpMbjXpF
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_gu7VX4kdmfqEXFjo7b9LG9
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vNryxV5NH3bwv4_vlq1Um_
+          claim_id: c_NStg2OZeVA08MYm3FjmZTO
+          source_id: s_tXuysyovDKAPDwDQ8q6FZW
+          stance: supports
+          locator: CBDB 双向互证（祖父 王礪 ⇄ 孫 王定臣）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_tXuysyovDKAPDwDQ8q6FZW
+            source_type: api_record
+            title: 中国历代人物传记资料库：王定臣（CBDB 3983）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3983&o=json
+            external_identifier: CBDB:3983
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.450Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_gu7VX4kdmfqEXFjo7b9LG9
+        status: active
+        display_name: 王定臣
+        merged_into_person_id: null
   other: []
 ---
 
@@ -474,6 +511,7 @@ relationships:
 | children | p_MTk1zakKvoc4HW2SfG5Ese | 王渎 | accepted |
 | children | p_596s4A8i6r9PRN7rPGV3NA | 王演 | accepted |
 | children | p_ro6G6j28vQb3THHmGL9bxo | 王冲 | accepted |
+| descendants | p_gu7VX4kdmfqEXFjo7b9LG9 | 王定臣 | accepted |
 
 ## 外部来源
 
@@ -484,5 +522,6 @@ relationships:
 - [维基数据：王砺（Q45381094）](https://www.wikidata.org/wiki/Q45381094)
 - [维基数据：王演（Q45363055）](https://www.wikidata.org/wiki/Q45363055)
 - [维基数据：王洙（Q15935485）](https://www.wikidata.org/wiki/Q15935485)
+- [中国历代人物传记资料库：王定臣（CBDB 3983）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3983&o=json)
 - [CBDB 中国历代人物传记资料库：王化（15747）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=15747&o=json)
 - [CBDB 中国历代人物传记资料库：王礪（15706）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=15706&o=json)

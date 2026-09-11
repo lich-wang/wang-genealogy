@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王棣
 cbdb_id: 22210
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -249,6 +249,32 @@ relationships:
         status: active
         display_name: 王雱
         merged_into_person_id: null
+    - claim:
+        id: c_JrOVPhUbBQsz6CUD4sTSNA
+        subject_person_id: p_xx9vuxYeyGz3S9KNvmjGws
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_u4eFkZcAi2Wj3khZrTyMM4
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bD0i8-Xt1YXb6LRXcYhbAJ
+          claim_id: c_JrOVPhUbBQsz6CUD4sTSNA
+          source_id: s_hyn3RBownq9NTiG26mHH8p
+          stance: supports
+          locator: CBDB 双向互证（父 王雱 ⇄ 子 王棣）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_xx9vuxYeyGz3S9KNvmjGws
+        status: active
+        display_name: 王雱
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -275,6 +301,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_3jndG2hj7kt16dVBTqH186 | 王雱 | accepted |
+| parents | p_xx9vuxYeyGz3S9KNvmjGws | 王雱 | accepted |
 
 ## 外部来源
 

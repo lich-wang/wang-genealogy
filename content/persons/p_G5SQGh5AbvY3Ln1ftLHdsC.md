@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王克存
 cbdb_id: 3963
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -157,7 +157,44 @@ relationships:
         status: active
         display_name: 王世融
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_eOXj8VE_22HX1iBLT-TQF8
+        subject_person_id: p_G5SQGh5AbvY3Ln1ftLHdsC
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_BKktkDBxZW36NWWhLLkpwH
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3G8YWnoVYZJHJvBSD6S5xc
+          claim_id: c_eOXj8VE_22HX1iBLT-TQF8
+          source_id: s_K4cAAPq3xBP2LsGZ8g8G9a
+          stance: supports
+          locator: CBDB 双向互证（父 王克存 ⇄ 子 王發）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_K4cAAPq3xBP2LsGZ8g8G9a
+            source_type: api_record
+            title: 中国历代人物传记资料库：王發（CBDB 3950）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3950&o=json
+            external_identifier: CBDB:3950
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.428Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_BKktkDBxZW36NWWhLLkpwH
+        status: active
+        display_name: 王發
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -182,10 +219,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_Bxfq3zjpoq2kKYP1QvY7sM | 王世融 | accepted |
+| children | p_BKktkDBxZW36NWWhLLkpwH | 王發 | accepted |
 
 ## 外部来源
 
 - [维基数据：王克存（Q45362980）](https://www.wikidata.org/wiki/Q45362980)
 - [维基数据：王世融（Q45363002）](https://www.wikidata.org/wiki/Q45363002)
+- [中国历代人物传记资料库：王發（CBDB 3950）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3950&o=json)
 - [CBDB 中国历代人物传记资料库：王克存（3963）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3963&o=json)
 - [CBDB 中国历代人物传记资料库：王世融（3972）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3972&o=json)

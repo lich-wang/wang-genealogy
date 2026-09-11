@@ -4,7 +4,7 @@ id: p_bnA3961k3JoTm11z7TSTS5
 status: active
 merged_into: null
 display_name: 王泰來
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_7thLgZtaQJlzx-jLYN2K02
+        subject_person_id: p_kiqfR3ebLRfZwsFStCJHnu
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_bnA3961k3JoTm11z7TSTS5
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_EmKmglsHAWuhBrzfcyFfAe
+          claim_id: c_7thLgZtaQJlzx-jLYN2K02
+          source_id: s_VsD9ktYiW3BBpq7VUSucRs
+          stance: supports
+          locator: CBDB 双向互证（父 王奎 ⇄ 子 王泰來）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_kiqfR3ebLRfZwsFStCJHnu
+        status: active
+        display_name: 王奎
+        merged_into_person_id: null
   children:
     - claim:
         id: c_eiSydMmB2rD2CQQaBfIXjr
@@ -181,6 +207,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_kiqfR3ebLRfZwsFStCJHnu | 王奎 | accepted |
 | children | p_q3G6EYiKzzFYDRCt1Ch6Ta | 王謙 | accepted |
 
 ## 外部来源

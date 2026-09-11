@@ -4,7 +4,7 @@ id: p_XYgRDTMQMKLwMjzmrS4u9S
 status: active
 merged_into: null
 display_name: 王神念
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -154,6 +154,32 @@ relationships:
         status: active
         display_name: 王僧修
         merged_into_person_id: null
+    - claim:
+        id: c_LqSLzTNeRSO9ZkN7Zi7XVc
+        subject_person_id: p_XYgRDTMQMKLwMjzmrS4u9S
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_zGvoPBJYdrW1La2gEY3uQW
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_b5GnLs8KhKLZWQ_9w4Me4W
+          claim_id: c_LqSLzTNeRSO9ZkN7Zi7XVc
+          source_id: s_7pwdxXmyoz1AKHuC8L9wQ3
+          stance: supports
+          locator: CBDB 双向互证（子 王遵業 ⇄ 父 王神念）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_zGvoPBJYdrW1La2gEY3uQW
+        status: active
+        display_name: 王遵業
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -180,6 +206,7 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_PG9Fvg9NtVnjeDz9wSwJyM | 王僧辩 | accepted |
 | children | p_2FfCNSZbmawkyTxk2zgdBv | 王僧修 | accepted |
+| children | p_zGvoPBJYdrW1La2gEY3uQW | 王遵業 | accepted |
 
 ## 外部来源
 

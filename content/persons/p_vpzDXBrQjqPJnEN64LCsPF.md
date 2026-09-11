@@ -4,7 +4,7 @@ id: p_vpzDXBrQjqPJnEN64LCsPF
 status: active
 merged_into: null
 display_name: 王臬
-revision: 5
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -166,7 +166,44 @@ relationships:
         status: active
         display_name: 王瀚
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_ALbWCDhwM2hL1Vu8wdKDO8
+        subject_person_id: p_vpzDXBrQjqPJnEN64LCsPF
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_923xZ5qSMZFGgS46h7nLWU
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1A4fzo1sn4CjE2_GlMN0F0
+          claim_id: c_ALbWCDhwM2hL1Vu8wdKDO8
+          source_id: s_eb5Xn1ejYbkj9jFGqum44L
+          stance: supports
+          locator: CBDB 双向互证（父 王臬 ⇄ 子 王樵）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_eb5Xn1ejYbkj9jFGqum44L
+            source_type: api_record
+            title: 中国历代人物传记资料库：王樵（CBDB 34720）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34720&o=json
+            external_identifier: CBDB:34720
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.097Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_923xZ5qSMZFGgS46h7nLWU
+        status: active
+        display_name: 王樵
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -305,6 +342,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_QN7EhCDtejfmZYbCTCBWyv | 王瀚 | accepted |
+| children | p_923xZ5qSMZFGgS46h7nLWU | 王樵 | accepted |
 | ancestors | p_9HwAdJGnojFgrqfjKCEfL9 | 王政 | accepted |
 | ancestors | p_Mu6RFBp4T1u3QTCS8N1auf | 王鎮 | accepted |
 | descendants | p_FE6i55GXzPWLVER3EtdHfo | 王彥泓 | accepted |
@@ -313,6 +351,7 @@ relationships:
 
 - [中国历代人物传记资料库：王瀚（CBDB 279548）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=279548&o=json)
 - [中国历代人物传记资料库：王臬（CBDB 34721）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34721&o=json)
+- [中国历代人物传记资料库：王樵（CBDB 34720）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34720&o=json)
 - [中国历代人物传记资料库：王彥泓（CBDB 120462）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=120462&o=json)
 - [中国历代人物传记资料库：王鎮（CBDB 279547）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=279547&o=json)
 - [中国历代人物传记资料库：王政（CBDB 279546）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=279546&o=json)

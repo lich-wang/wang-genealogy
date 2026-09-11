@@ -4,7 +4,7 @@ id: p_7Dfh7tesPGSK4MKyFJLHck
 status: active
 merged_into: null
 display_name: 王沔
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -129,11 +129,63 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_ib9-M1oGYJE9-K5ghUPNX_
+        subject_person_id: p_7Dfh7tesPGSK4MKyFJLHck
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_PwEB9MfJmRz2oGwTFBuXo7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2D8OkTdK9vNnB-kgmegvXb
+          claim_id: c_ib9-M1oGYJE9-K5ghUPNX_
+          source_id: s_KEu2taW9JquufFjkZ9T4Lo
+          stance: supports
+          locator: CBDB 双向互证（子 王睦 ⇄ 父 王沔）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_PwEB9MfJmRz2oGwTFBuXo7
+        status: active
+        display_name: 王睦
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_olnuDNk7BEjazXXz2T0GbB
+        subject_person_id: p_U4hGLBbX2mHKRKZw9eRccs
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_7Dfh7tesPGSK4MKyFJLHck
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hFyWHgAaF_VK12Fu0G-n0Y
+          claim_id: c_olnuDNk7BEjazXXz2T0GbB
+          source_id: s_KEu2taW9JquufFjkZ9T4Lo
+          stance: supports
+          locator: CBDB 双向互证（祖父 王延 ⇄ 孫 王沔）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_U4hGLBbX2mHKRKZw9eRccs
+        status: active
+        display_name: 王延
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,6 +207,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_PwEB9MfJmRz2oGwTFBuXo7 | 王睦 | accepted |
+| ancestors | p_U4hGLBbX2mHKRKZw9eRccs | 王延 | accepted |
 
 ## 外部来源
 

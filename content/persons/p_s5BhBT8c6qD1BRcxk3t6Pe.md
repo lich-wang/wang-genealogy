@@ -4,7 +4,7 @@ id: p_s5BhBT8c6qD1BRcxk3t6Pe
 status: active
 merged_into: null
 display_name: 王建封
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -77,7 +77,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_kSECppnNZQd_1Ps-9m-QCt
+        subject_person_id: p_S91UDmLopWwoam8e6F89Jc
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_s5BhBT8c6qD1BRcxk3t6Pe
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_G6PJjwFvZmxtDtmg-JukxV
+          claim_id: c_kSECppnNZQd_1Ps-9m-QCt
+          source_id: s_bAn3K1MtrTCuXpx3K8z3YB
+          stance: supports
+          locator: CBDB 双向互证（祖父 王俊彥 ⇄ 孫 王建封）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_S91UDmLopWwoam8e6F89Jc
+        status: active
+        display_name: 王俊彥
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_S91UDmLopWwoam8e6F89Jc | 王俊彥 | accepted |
 
 ## 外部来源
 

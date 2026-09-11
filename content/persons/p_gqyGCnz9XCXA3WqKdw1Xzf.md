@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王其仁
 cbdb_id: 136191
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:136191
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_ydERv3bDLow44sLKK1hE7Y
             source_type: api_record
             title: 中国历代人物传记资料库：王其仁（CBDB 136191）
@@ -162,6 +162,32 @@ relationships:
         status: active
         display_name: 王玥
         merged_into_person_id: null
+    - claim:
+        id: c_FZookyDqyuNxw3-A_VsiJP
+        subject_person_id: p_gqyGCnz9XCXA3WqKdw1Xzf
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_iL6RAKnmLTU4wkzWYyrNXf
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pDzq0-YUweyRFRYijOjUiM
+          claim_id: c_FZookyDqyuNxw3-A_VsiJP
+          source_id: s_ydERv3bDLow44sLKK1hE7Y
+          stance: supports
+          locator: CBDB 双向互证（子 王啟玉 ⇄ 父 王其仁）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_iL6RAKnmLTU4wkzWYyrNXf
+        status: active
+        display_name: 王啟玉
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -187,6 +213,7 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_3BLAEupnmgoMx9jqAGj5U3 | 王文羽 | accepted |
 | children | p_jJid7wVthUjvqYN45c4FGt | 王玥 | accepted |
+| children | p_iL6RAKnmLTU4wkzWYyrNXf | 王啟玉 | accepted |
 
 ## 外部来源
 

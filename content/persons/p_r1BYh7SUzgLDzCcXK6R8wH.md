@@ -4,7 +4,7 @@ id: p_r1BYh7SUzgLDzCcXK6R8wH
 status: active
 merged_into: null
 display_name: 王兆麟
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,59 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_LuGBQC0Ibnw0GOxB4GdCLA
+        subject_person_id: p_r1BYh7SUzgLDzCcXK6R8wH
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_igCtmJ34q9gbxGMJ3KYXqz
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xbgC0KO4RQRATD29tH6Eqb
+          claim_id: c_LuGBQC0Ibnw0GOxB4GdCLA
+          source_id: s_9gWPE5ciJevrk5kxjSjrj8
+          stance: supports
+          locator: CBDB 双向互证（子 王殿颺 ⇄ 父 王兆麟）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_igCtmJ34q9gbxGMJ3KYXqz
+        status: active
+        display_name: 王殿颺
+        merged_into_person_id: null
+    - claim:
+        id: c_YkN79Njd6K-GtOQ026frfk
+        subject_person_id: p_r1BYh7SUzgLDzCcXK6R8wH
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_6SUebLd95jVousCGt8Mk53
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_aTNclWcQ88vg8cRRunA62a
+          claim_id: c_YkN79Njd6K-GtOQ026frfk
+          source_id: s_9gWPE5ciJevrk5kxjSjrj8
+          stance: supports
+          locator: CBDB 双向互证（子 王殿衡 ⇄ 父 王兆麟）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_6SUebLd95jVousCGt8Mk53
+        status: active
+        display_name: 王殿衡
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_igCtmJ34q9gbxGMJ3KYXqz | 王殿颺 | accepted |
+| children | p_6SUebLd95jVousCGt8Mk53 | 王殿衡 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_paeiTkCs16bPdo21GgKDac
 status: active
 merged_into: null
 display_name: 王用
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,82 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_Cac4s1Zy9gJB-s_GR7X2hP
+        subject_person_id: p_i41hD3vitiUErD4EFDZTym
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_paeiTkCs16bPdo21GgKDac
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QsHb2toN3piEAxv-VA-czQ
+          claim_id: c_Cac4s1Zy9gJB-s_GR7X2hP
+          source_id: s_LfGPEoMmAwU52rMK61e23p
+          stance: supports
+          locator: CBDB 双向互证（子 王用 ⇄ 父 王天成）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_LfGPEoMmAwU52rMK61e23p
+            source_type: api_record
+            title: 中国历代人物传记资料库：王天成（CBDB 24047）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=24047&o=json
+            external_identifier: CBDB:24047
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.894Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_i41hD3vitiUErD4EFDZTym
+        status: active
+        display_name: 王天成
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_O2jFSEuArLa3tYXjGH0MwZ
+        subject_person_id: p_paeiTkCs16bPdo21GgKDac
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_NYsG6N4LmN875VECa5p4Wz
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1IiiLJlBc_kFYhFLX8SzBZ
+          claim_id: c_O2jFSEuArLa3tYXjGH0MwZ
+          source_id: s_JsZ29upkgVoC9wYgsJBwm5
+          stance: supports
+          locator: CBDB 双向互证（父 王用 ⇄ 子 王章）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_JsZ29upkgVoC9wYgsJBwm5
+            source_type: api_record
+            title: 中国历代人物传记资料库：王章（CBDB 24049）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=24049&o=json
+            external_identifier: CBDB:24049
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.895Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_NYsG6N4LmN875VECa5p4Wz
+        status: active
+        display_name: 王章
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,7 +171,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_i41hD3vitiUErD4EFDZTym | 王天成 | accepted |
+| children | p_NYsG6N4LmN875VECa5p4Wz | 王章 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王天成（CBDB 24047）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=24047&o=json)
 - [中国历代人物传记资料库：王用（CBDB 24048）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=24048&o=json)
+- [中国历代人物传记资料库：王章（CBDB 24049）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=24049&o=json)

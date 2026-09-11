@@ -4,7 +4,7 @@ id: p_YyANARVNyNvBnk5riMJd4z
 status: active
 merged_into: null
 display_name: 王庶
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -138,7 +138,81 @@ relationships:
         status: active
         display_name: 王茂
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_s-WpX0omqZh-bSmdoMd9HT
+        subject_person_id: p_YyANARVNyNvBnk5riMJd4z
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_8NZ4VgcCXbsb12m8DpzJUp
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dZMnqpw69PoyuG4zxqZgut
+          claim_id: c_s-WpX0omqZh-bSmdoMd9HT
+          source_id: s_F6mJE2BDLDoiL6L6tfe3QE
+          stance: supports
+          locator: CBDB 双向互证（父 王庶 ⇄ 子 王之道）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_F6mJE2BDLDoiL6L6tfe3QE
+            source_type: api_record
+            title: 中国历代人物传记资料库：王之道（CBDB 13758）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=13758&o=json
+            external_identifier: CBDB:13758
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.629Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_8NZ4VgcCXbsb12m8DpzJUp
+        status: active
+        display_name: 王之道
+        merged_into_person_id: null
+    - claim:
+        id: c_VuOB3H6dtJ-aW7m3-4379L
+        subject_person_id: p_YyANARVNyNvBnk5riMJd4z
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_dGeVmKUMk8CpVvhVSEDqhC
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7GoRJ7D2WfRdydQOnYQyuQ
+          claim_id: c_VuOB3H6dtJ-aW7m3-4379L
+          source_id: s_FMJ2LAaN3BtytRAcDPqkKV
+          stance: supports
+          locator: CBDB 双向互证（父 王庶 ⇄ 子 王之奇）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_FMJ2LAaN3BtytRAcDPqkKV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王之奇（CBDB 13756）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=13756&o=json
+            external_identifier: CBDB:13756
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.627Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_dGeVmKUMk8CpVvhVSEDqhC
+        status: active
+        display_name: 王之奇
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -164,8 +238,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_NWD6tzMxEyomjXxFXMQ1yX | 王茂 | accepted |
+| children | p_8NZ4VgcCXbsb12m8DpzJUp | 王之道 | accepted |
+| children | p_dGeVmKUMk8CpVvhVSEDqhC | 王之奇 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王茂（CBDB 13755）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=13755&o=json)
 - [中国历代人物传记资料库：王庶（CBDB 1878）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1878&o=json)
+- [中国历代人物传记资料库：王之道（CBDB 13758）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=13758&o=json)
+- [中国历代人物传记资料库：王之奇（CBDB 13756）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=13756&o=json)

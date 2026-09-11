@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王仁
 cbdb_id: 25783
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -320,6 +320,32 @@ relationships:
         status: active
         display_name: 王叡
         merged_into_person_id: null
+    - claim:
+        id: c_rEgbnOLB1H5KeW0VfQ1QV4
+        subject_person_id: p_xf9mHYCEP9VyeEbrAsuExM
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_zvLndh537Hcxa1SH9KmMTE
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WzNJcVGE5F-Meur5bu2rWJ
+          claim_id: c_rEgbnOLB1H5KeW0VfQ1QV4
+          source_id: s_DC4LPUC297szmUsZqp59Mq
+          stance: supports
+          locator: CBDB 双向互证（子 王融 ⇄ 父 王仁）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_zvLndh537Hcxa1SH9KmMTE
+        status: active
+        display_name: 王融
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -346,6 +372,7 @@ relationships:
 | parents | p_HEAZUpK6B8392UvpQkxb4J | 王音 | accepted |
 | children | p_G6A9Mv1GnTEMMvApxP4pWa | 王融 | accepted |
 | children | p_vmBV1uQSC3WNCsyT7DEMtB | 王叡 | accepted |
+| children | p_zvLndh537Hcxa1SH9KmMTE | 王融 | accepted |
 
 ## 外部来源
 

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王玄
 cbdb_id: 21949
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -111,7 +111,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_ARgD4vPVhygNlkArQIFvM4
+        subject_person_id: p_24nNxQysajKGx6Hd2e5iLj
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_VABDaNqeokNeUhSBaXqRrB
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_udeMmUNJiGlAaMz23I1Pic
+          claim_id: c_ARgD4vPVhygNlkArQIFvM4
+          source_id: s_rHojNWwHBxL97txyU7eJLA
+          stance: supports
+          locator: CBDB 双向互证（子 王玄 ⇄ 父 王方）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_rHojNWwHBxL97txyU7eJLA
+            source_type: api_record
+            title: 中国历代人物传记资料库：王方（CBDB 21948）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=21948&o=json
+            external_identifier: CBDB:21948
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.773Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_24nNxQysajKGx6Hd2e5iLj
+        status: active
+        display_name: 王方
+        merged_into_person_id: null
   children:
     - claim:
         id: c_qww4JAC9sm1FVkxAiXc8SQ
@@ -190,10 +227,12 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_24nNxQysajKGx6Hd2e5iLj | 王方 | accepted |
 | children | p_bAEpCu377ogzP69HEb81Bs | 王超 | accepted |
 
 ## 外部来源
 
 - [维基数据：王超（Q16077506）](https://www.wikidata.org/wiki/Q16077506)
 - [维基数据：王玄（Q45401566）](https://www.wikidata.org/wiki/Q45401566)
+- [中国历代人物传记资料库：王方（CBDB 21948）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=21948&o=json)
 - [CBDB 中国历代人物传记资料库：王玄（21949）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=21949&o=json)

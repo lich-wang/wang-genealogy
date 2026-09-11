@@ -4,7 +4,7 @@ id: p_pWyoKUjMiJN6hgnVc1gHh8
 status: active
 merged_into: null
 display_name: 王嘉賓
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_5_kbWD5hyt7qK9Banp8xDe
+        subject_person_id: p_miziP4o1dvPJFQh5oBz2tf
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_pWyoKUjMiJN6hgnVc1gHh8
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rS9FCkrLzmuoGWyWW18H8n
+          claim_id: c_5_kbWD5hyt7qK9Banp8xDe
+          source_id: s_vX6H8L6BjQPrgDjpfpADHn
+          stance: supports
+          locator: CBDB 双向互证（父 王葆 ⇄ 子 王嘉賓）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_miziP4o1dvPJFQh5oBz2tf
+        status: active
+        display_name: 王葆
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_miziP4o1dvPJFQh5oBz2tf | 王葆 | accepted |
 
 ## 外部来源
 

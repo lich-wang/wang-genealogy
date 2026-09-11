@@ -4,7 +4,7 @@ id: p_nyfSKnB9avdL1QftK8B1AW
 status: active
 merged_into: null
 display_name: 王紹宗
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -77,7 +77,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_dSn6NBvsqOwemZhURCdsF-
+        subject_person_id: p_6P1fo1PnFdXvCWVqBBsEtM
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_nyfSKnB9avdL1QftK8B1AW
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9V9VjXyWPjxFOPsyEMY8NJ
+          claim_id: c_dSn6NBvsqOwemZhURCdsF-
+          source_id: s_jJi6hk2AVKfjLxFym88Rpo
+          stance: supports
+          locator: CBDB 双向互证（曾祖 王銓 ⇄ 曾孫; 重孫 王紹宗）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_6P1fo1PnFdXvCWVqBBsEtM
+        status: active
+        display_name: 王铨
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_6P1fo1PnFdXvCWVqBBsEtM | 王铨 | accepted |
 
 ## 外部来源
 

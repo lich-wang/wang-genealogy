@@ -4,7 +4,7 @@ id: p_5S6FXhcD9zMBVMKP5KkuEV
 status: active
 merged_into: null
 display_name: 王德秀
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_Ub3Q2hPIox6kcXAgKa6ybw
+        subject_person_id: p_RwyXU98cqpzAo3smZBKob4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_5S6FXhcD9zMBVMKP5KkuEV
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MWCNFYL8WrZMreK-mBLd66
+          claim_id: c_Ub3Q2hPIox6kcXAgKa6ybw
+          source_id: s_VvtYyGJ8aPdqbyGbUrG8di
+          stance: supports
+          locator: CBDB 双向互证（父 王幡然 ⇄ 子 王德秀）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_RwyXU98cqpzAo3smZBKob4
+        status: active
+        display_name: 王幡然
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_vmDsFwtUws6mlByR9UQ6wA
+        subject_person_id: p_5S6FXhcD9zMBVMKP5KkuEV
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Sx9YSMsniFRchvVWbXBzn1
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1AIROBzyV_l7_kgIbQtWS3
+          claim_id: c_vmDsFwtUws6mlByR9UQ6wA
+          source_id: s_VvtYyGJ8aPdqbyGbUrG8di
+          stance: supports
+          locator: CBDB 双向互证（子 王道昌 ⇄ 父 王德秀）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_Sx9YSMsniFRchvVWbXBzn1
+        status: active
+        display_name: 王道昌
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_RwyXU98cqpzAo3smZBKob4 | 王幡然 | accepted |
+| children | p_Sx9YSMsniFRchvVWbXBzn1 | 王道昌 | accepted |
 
 ## 外部来源
 

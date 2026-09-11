@@ -4,7 +4,7 @@ id: p_F8NZqodJZq6dvtt7kXmm8U
 status: active
 merged_into: null
 display_name: 王徽
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_sdFipIx9osnEGWuyJiE9BT
+        subject_person_id: p_syTUjQt193aDPDGP4pHzSQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_F8NZqodJZq6dvtt7kXmm8U
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_yoE5TxODTAroRaA5m4Qilz
+          claim_id: c_sdFipIx9osnEGWuyJiE9BT
+          source_id: s_tbyqf7phVLgW598Z3YwUde
+          stance: supports
+          locator: CBDB 双向互证（父 王璇 ⇄ 子 王徽）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_syTUjQt193aDPDGP4pHzSQ
+        status: active
+        display_name: 王璇
+        merged_into_person_id: null
   children:
     - claim:
         id: c_o5pV0NYNZ8rlocOGiBj5rP
@@ -160,6 +186,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_syTUjQt193aDPDGP4pHzSQ | 王璇 | accepted |
 | children | p_18xP97xNdBDKv6dJygvfDQ | 王迥 | accepted |
 | descendants | p_2Jkre2P7zFsNsdRFraADue | 王夢龍 | accepted |
 

@@ -4,7 +4,7 @@ id: p_T8M1S67yLGQ6wK16kEkxjn
 status: active
 merged_into: null
 display_name: 王曾祿
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,8 +128,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_ot5XbZTjA7mg-x-g097Izi
+        subject_person_id: p_i4uAHMCH2MArDtTa6SQ5iE
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_T8M1S67yLGQ6wK16kEkxjn
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_yTIUD9NBZ03fKCd1RE5POF
+          claim_id: c_ot5XbZTjA7mg-x-g097Izi
+          source_id: s_jbaZr7wHuBQKDV42HiMfYb
+          stance: supports
+          locator: CBDB 双向互证（父 王式耜 ⇄ 子 王曾祿）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_i4uAHMCH2MArDtTa6SQ5iE
+        status: active
+        display_name: 王式耜
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_LcB6CvB627Es9sHbmsrIgG
+        subject_person_id: p_T8M1S67yLGQ6wK16kEkxjn
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_sCuihMoKaDM57tF5Pkp3Mj
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_emwAeC68_9WVb1r7H6IDFW
+          claim_id: c_LcB6CvB627Es9sHbmsrIgG
+          source_id: s_jbaZr7wHuBQKDV42HiMfYb
+          stance: supports
+          locator: CBDB 双向互证（子 王安國 ⇄ 父 王曾祿）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_sCuihMoKaDM57tF5Pkp3Mj
+        status: active
+        display_name: 王安国
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +207,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_i4uAHMCH2MArDtTa6SQ5iE | 王式耜 | accepted |
+| children | p_sCuihMoKaDM57tF5Pkp3Mj | 王安国 | accepted |
 
 ## 外部来源
 

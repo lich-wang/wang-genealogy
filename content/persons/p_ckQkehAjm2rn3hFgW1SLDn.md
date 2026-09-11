@@ -4,7 +4,7 @@ id: p_ckQkehAjm2rn3hFgW1SLDn
 status: active
 merged_into: null
 display_name: 王平
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,13 +128,65 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_h_i9qp6fg_CFYJANIp_H25
+        subject_person_id: p_epomT3DrAzh2aXobBoSETt
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ckQkehAjm2rn3hFgW1SLDn
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FunSZmGm4a9-YSlm9Ow9Kd
+          claim_id: c_h_i9qp6fg_CFYJANIp_H25
+          source_id: s_Sq9mToAc9R7an6v6Qu7tjp
+          stance: supports
+          locator: CBDB 双向互证（父 王居政 ⇄ 子 王平）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_epomT3DrAzh2aXobBoSETt
+        status: active
+        display_name: 王居政
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_BnHlZXk57fx2m2uevgLCeB
+        subject_person_id: p_ckQkehAjm2rn3hFgW1SLDn
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_KyufmqFZJX9Ydoj45mR8n2
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_U6TaXCXWS24xgNGXmEGuuG
+          claim_id: c_BnHlZXk57fx2m2uevgLCeB
+          source_id: s_Sq9mToAc9R7an6v6Qu7tjp
+          stance: supports
+          locator: CBDB 双向互证（孫 王泌 ⇄ 祖父 王平）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_KyufmqFZJX9Ydoj45mR8n2
+        status: active
+        display_name: 王泌
+        merged_into_person_id: null
   other: []
 ---
 
@@ -155,6 +207,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_epomT3DrAzh2aXobBoSETt | 王居政 | accepted |
+| descendants | p_KyufmqFZJX9Ydoj45mR8n2 | 王泌 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_DvtXxwG9PckoSY3Yp7UWGB
 status: active
 merged_into: null
 display_name: 王文化
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_Lo0U9Sdpr4ame0UrCHRCn9
+        subject_person_id: p_FbBMHtAs5sFG2mFR5W4N6N
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_DvtXxwG9PckoSY3Yp7UWGB
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_V4Rg2F7u1b4JDtT4ou3xRy
+          claim_id: c_Lo0U9Sdpr4ame0UrCHRCn9
+          source_id: s_VCtx1geuwFtPkG4pZnQqtF
+          stance: supports
+          locator: CBDB 双向互证（父 王惟德 ⇄ 子 王文化）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_FbBMHtAs5sFG2mFR5W4N6N
+        status: active
+        display_name: 王惟德
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_mdYef-bWXq0WVwmpnidoXh
+        subject_person_id: p_DvtXxwG9PckoSY3Yp7UWGB
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_JPVihX3EutnCKvdnyCajTH
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1U5eTYYj0c6XIiqrad288-
+          claim_id: c_mdYef-bWXq0WVwmpnidoXh
+          source_id: s_VCtx1geuwFtPkG4pZnQqtF
+          stance: supports
+          locator: CBDB 双向互证（子 王方 ⇄ 父 王文化）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_JPVihX3EutnCKvdnyCajTH
+        status: active
+        display_name: 王方
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_FbBMHtAs5sFG2mFR5W4N6N | 王惟德 | accepted |
+| children | p_JPVihX3EutnCKvdnyCajTH | 王方 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_XxbY91RiCBrsB5eVREE1y2
 status: active
 merged_into: null
 display_name: 王應
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,82 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_YWDy5OsHO4gqO7B3Si0Dkz
+        subject_person_id: p_5q7M5NN4tHZhLCPj7eAQaC
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_XxbY91RiCBrsB5eVREE1y2
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QM-bCV-eLKdPEkV4F89P8M
+          claim_id: c_YWDy5OsHO4gqO7B3Si0Dkz
+          source_id: s_FxbqjtC8FFMoRqn6HpFi6i
+          stance: supports
+          locator: CBDB 双向互证（子 王應 ⇄ 父 王誨）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_FxbqjtC8FFMoRqn6HpFi6i
+            source_type: api_record
+            title: 中国历代人物传记资料库：王誨（CBDB 22121）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22121&o=json
+            external_identifier: CBDB:22121
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.826Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_5q7M5NN4tHZhLCPj7eAQaC
+        status: active
+        display_name: 王誨
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_KJqFHvASW_6stJZ9IXeStM
+        subject_person_id: p_XxbY91RiCBrsB5eVREE1y2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_RV7rHymbjAuMVkCqKsJaax
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2QsywowyjVRf9gTSrr_f-I
+          claim_id: c_KJqFHvASW_6stJZ9IXeStM
+          source_id: s_PcFFvCDJBFd44FuWEkD1A6
+          stance: supports
+          locator: CBDB 双向互证（父 王應 ⇄ 子 王陶）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_PcFFvCDJBFd44FuWEkD1A6
+            source_type: api_record
+            title: 中国历代人物传记资料库：王陶（CBDB 22123）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22123&o=json
+            external_identifier: CBDB:22123
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.826Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_RV7rHymbjAuMVkCqKsJaax
+        status: active
+        display_name: 王陶
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,7 +171,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_5q7M5NN4tHZhLCPj7eAQaC | 王誨 | accepted |
+| children | p_RV7rHymbjAuMVkCqKsJaax | 王陶 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王誨（CBDB 22121）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22121&o=json)
+- [中国历代人物传记资料库：王陶（CBDB 22123）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22123&o=json)
 - [中国历代人物传记资料库：王應（CBDB 22122）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22122&o=json)

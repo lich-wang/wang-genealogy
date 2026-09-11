@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王幡然
 cbdb_id: 35305
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,8 +86,82 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_3xYbnqpvKwErFwApO5zRTz
+        subject_person_id: p_3xq8XMdF4aEj87PCT7vANe
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_RwyXU98cqpzAo3smZBKob4
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_l48xnV3jn6OOpmnzgKIbVT
+          claim_id: c_3xYbnqpvKwErFwApO5zRTz
+          source_id: s_fQgPFEAgREe79sEH4MQXbw
+          stance: supports
+          locator: CBDB 双向互证（子 王幡然 ⇄ 父 王子忠）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_fQgPFEAgREe79sEH4MQXbw
+            source_type: api_record
+            title: 中国历代人物传记资料库：王子忠（CBDB 35306）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35306&o=json
+            external_identifier: CBDB:35306
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.124Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_3xq8XMdF4aEj87PCT7vANe
+        status: active
+        display_name: 王子忠
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_Ub3Q2hPIox6kcXAgKa6ybw
+        subject_person_id: p_RwyXU98cqpzAo3smZBKob4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_5S6FXhcD9zMBVMKP5KkuEV
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MWCNFYL8WrZMreK-mBLd66
+          claim_id: c_Ub3Q2hPIox6kcXAgKa6ybw
+          source_id: s_VvtYyGJ8aPdqbyGbUrG8di
+          stance: supports
+          locator: CBDB 双向互证（父 王幡然 ⇄ 子 王德秀）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_VvtYyGJ8aPdqbyGbUrG8di
+            source_type: api_record
+            title: 中国历代人物传记资料库：王德秀（CBDB 35304）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35304&o=json
+            external_identifier: CBDB:35304
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.122Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_5S6FXhcD9zMBVMKP5KkuEV
+        status: active
+        display_name: 王德秀
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,7 +185,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_3xq8XMdF4aEj87PCT7vANe | 王子忠 | accepted |
+| children | p_5S6FXhcD9zMBVMKP5KkuEV | 王德秀 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王德秀（CBDB 35304）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35304&o=json)
 - [中国历代人物传记资料库：王幡然（CBDB 35305）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35305&o=json)
+- [中国历代人物传记资料库：王子忠（CBDB 35306）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35306&o=json)

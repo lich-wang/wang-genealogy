@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王枚士
 cbdb_id: 30033
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -172,7 +172,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_jHpOWe5lqgd8d9ZrHuV_md
+        subject_person_id: p_ZrVPMZwm7fGRq1QgALGJYj
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Tz4YpWKtJXjcMJNGcixnvv
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_R6NvwnQFFcrmKmd8vpUzMe
+          claim_id: c_jHpOWe5lqgd8d9ZrHuV_md
+          source_id: s_4j1cy1km4tGC52MrB9xXNd
+          stance: supports
+          locator: CBDB 双向互证（子 王枚士 ⇄ 父 王采）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_4j1cy1km4tGC52MrB9xXNd
+            source_type: api_record
+            title: 中国历代人物传记资料库：王采（CBDB 30038）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30038&o=json
+            external_identifier: CBDB:30038
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.016Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ZrVPMZwm7fGRq1QgALGJYj
+        status: active
+        display_name: 王采
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -199,7 +236,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_ZrVPMZwm7fGRq1QgALGJYj | 王采 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王采（CBDB 30038）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30038&o=json)
 - [中国历代人物传记资料库：王枚士（CBDB 30033）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30033&o=json)

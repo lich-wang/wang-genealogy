@@ -4,7 +4,7 @@ id: p_8pefMocZcx3Xt1bkSBWgB6
 status: active
 merged_into: null
 display_name: 王宿
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_OoZswomvNVCLB3WiPWo0d6
+        subject_person_id: p_C5gdwEP6JshLSxPa5isWtq
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_8pefMocZcx3Xt1bkSBWgB6
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GegEwfHc820cistBJdpYip
+          claim_id: c_OoZswomvNVCLB3WiPWo0d6
+          source_id: s_nrAzHgzjmK1EQzr9DACQnY
+          stance: supports
+          locator: CBDB 双向互证（父 王异 ⇄ 子 王宿）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_C5gdwEP6JshLSxPa5isWtq
+        status: active
+        display_name: 王异
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_9t4u4m05PUyvspcoFRFBwc
+        subject_person_id: p_8pefMocZcx3Xt1bkSBWgB6
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_FLQGQnP9Y6pdiGNaaECMWj
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mJ_Tret13feBxzVKDLziXt
+          claim_id: c_9t4u4m05PUyvspcoFRFBwc
+          source_id: s_nrAzHgzjmK1EQzr9DACQnY
+          stance: supports
+          locator: CBDB 双向互证（子 王衣 ⇄ 父 王宿）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_FLQGQnP9Y6pdiGNaaECMWj
+        status: active
+        display_name: 王衣
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_C5gdwEP6JshLSxPa5isWtq | 王异 | accepted |
+| children | p_FLQGQnP9Y6pdiGNaaECMWj | 王衣 | accepted |
 
 ## 外部来源
 

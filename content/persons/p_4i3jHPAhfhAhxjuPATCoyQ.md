@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 李珏
 cbdb_id: 5236
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -172,6 +172,32 @@ relationships:
         status: active
         display_name: 王洋
         merged_into_person_id: null
+    - claim:
+        id: c_BEiT8gKNqTCb26nXX0Z1x2
+        subject_person_id: p_4i3jHPAhfhAhxjuPATCoyQ
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_34Pm5kyXJob8i5wZAh622B
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-efwkhsxjEZXkwAOxqEQkS
+          claim_id: c_BEiT8gKNqTCb26nXX0Z1x2
+          source_id: s_oVAzmPBkyJYTr557Ng41iJ
+          stance: supports
+          locator: CBDB 双向互证（丈夫 王洋 ⇄ 妻子 李珏）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_34Pm5kyXJob8i5wZAh622B
+        status: active
+        display_name: 王洋
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -193,6 +219,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | spouses | p_q3ZkDJwcYneEdHqF1jDPv8 | 王洋 | accepted |
+| spouses | p_34Pm5kyXJob8i5wZAh622B | 王洋 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_TSnLmw5deMhF6ddrkHCq1X
 status: active
 merged_into: null
 display_name: 王彥英
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_Nshe0-b8fG3D0wRQ4jAfAu
+        subject_person_id: p_TSnLmw5deMhF6ddrkHCq1X
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_UuFS5vK4ZcVMjE3tF4RFoj
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2ysXChmBXm7y0q7DsD6NA5
+          claim_id: c_Nshe0-b8fG3D0wRQ4jAfAu
+          source_id: s_2hRUfr5t1B67KY2QGWLDhm
+          stance: supports
+          locator: CBDB 双向互证（子 王仁偘 ⇄ 父 王彥英）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_UuFS5vK4ZcVMjE3tF4RFoj
+        status: active
+        display_name: 王仁偘
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -134,6 +160,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_UuFS5vK4ZcVMjE3tF4RFoj | 王仁偘 | accepted |
 | descendants | p_89pxyYXCwEKYhMLt29PYoD | 王彬 | accepted |
 
 ## 外部来源

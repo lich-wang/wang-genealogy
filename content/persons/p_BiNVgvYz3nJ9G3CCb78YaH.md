@@ -4,7 +4,7 @@ id: p_BiNVgvYz3nJ9G3CCb78YaH
 status: active
 merged_into: null
 display_name: 王周
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -99,7 +99,33 @@ relationships:
         status: active
         display_name: 王文亮
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_7LPyUmgLPxzkq0Q4azGLEG
+        subject_person_id: p_BiNVgvYz3nJ9G3CCb78YaH
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_W8gB3V15xCSBne67itBg5g
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_IkcZkQ_CtOx0rqm7P6M3CW
+          claim_id: c_7LPyUmgLPxzkq0Q4azGLEG
+          source_id: s_EJcpUPACuG7TChvvw4mLdp
+          stance: supports
+          locator: CBDB 双向互证（子 王夬 ⇄ 父 王周）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_W8gB3V15xCSBne67itBg5g
+        status: active
+        display_name: 王夬
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,6 +150,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_VJppnzH8QEnRzy4cuHqGDc | 王文亮 | accepted |
+| children | p_W8gB3V15xCSBne67itBg5g | 王夬 | accepted |
 
 ## 外部来源
 

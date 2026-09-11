@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王學可
 cbdb_id: 22257
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:22257
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_4wZd2MJ6nXBPbHfr1rzU8c
             source_type: api_record
             title: 中国历代人物传记资料库：王學可（CBDB 22257）
@@ -86,7 +86,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_uGW6DdS60uK6R8qaDC-XAj
+        subject_person_id: p_M9sDetT5acG1nDTAxFe7as
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_xJf4hheW88yz2QYGycFsip
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4gphJ9zd6VjPmwua9nYMlz
+          claim_id: c_uGW6DdS60uK6R8qaDC-XAj
+          source_id: s_4wZd2MJ6nXBPbHfr1rzU8c
+          stance: supports
+          locator: CBDB 双向互证（父 王之望 ⇄ 子 王學可）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_M9sDetT5acG1nDTAxFe7as
+        status: active
+        display_name: 王之望
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_M9sDetT5acG1nDTAxFe7as | 王之望 | accepted |
 
 ## 外部来源
 

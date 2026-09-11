@@ -4,7 +4,7 @@ id: p_wMzMMZUYVLTvRNNyoinudX
 status: active
 merged_into: null
 display_name: 王檢
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_yF4i1EQY1v_f9cgnehUHF5
+        subject_person_id: p_gkheh2H38pxtSB6bw2FeUY
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_wMzMMZUYVLTvRNNyoinudX
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8ShS2O9ZS8yqf5xfUMUbie
+          claim_id: c_yF4i1EQY1v_f9cgnehUHF5
+          source_id: s_EHDESTiq8s2BPbwzx11enQ
+          stance: supports
+          locator: CBDB 双向互证（父 王正辭 ⇄ 子 王檢）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_gkheh2H38pxtSB6bw2FeUY
+        status: active
+        display_name: 王正辭
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -155,6 +181,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_gkheh2H38pxtSB6bw2FeUY | 王正辭 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_35wd94gwG3pzokf4a6CedM
 status: active
 merged_into: null
 display_name: 王登
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_edfkhp9ZoLEYzuJPmDBOa1
+        subject_person_id: p_zdqhgBQcRuZFJjJq4vVV5M
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_35wd94gwG3pzokf4a6CedM
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wLqQnzVKVMuT1_wnkpM2D-
+          claim_id: c_edfkhp9ZoLEYzuJPmDBOa1
+          source_id: s_jnU1wrcswMwACQgeP5fatf
+          stance: supports
+          locator: CBDB 双向互证（父 王本 ⇄ 子 王登）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_zdqhgBQcRuZFJjJq4vVV5M
+        status: active
+        display_name: 王本
+        merged_into_person_id: null
   children:
     - claim:
         id: c_jCXPisN44saIypWYncWipB
@@ -166,6 +192,58 @@ relationships:
         id: p_bkMbqmq6U23rFXaG17Pxzk
         status: active
         display_name: 王師心
+        merged_into_person_id: null
+    - claim:
+        id: c_1XX_OF2Y6RuoIMLJF8FKjv
+        subject_person_id: p_35wd94gwG3pzokf4a6CedM
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_T2MYUrXuE1JG7HYKSj9LyT
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zkY8jsZOu49mcMLu8-swLz
+          claim_id: c_1XX_OF2Y6RuoIMLJF8FKjv
+          source_id: s_jnU1wrcswMwACQgeP5fatf
+          stance: supports
+          locator: CBDB 双向互证（子 王師醇 ⇄ 父 王登）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_T2MYUrXuE1JG7HYKSj9LyT
+        status: active
+        display_name: 王師醇
+        merged_into_person_id: null
+    - claim:
+        id: c_3pkHMC4WryHmkBFrAR1PWp
+        subject_person_id: p_35wd94gwG3pzokf4a6CedM
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_VYtFzPbziddvD9zkw88Psz
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0qbqgoTGXXmUHmyt2N3QNg
+          claim_id: c_3pkHMC4WryHmkBFrAR1PWp
+          source_id: s_jnU1wrcswMwACQgeP5fatf
+          stance: supports
+          locator: CBDB 双向互证（子 王師德 ⇄ 父 王登）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_VYtFzPbziddvD9zkw88Psz
+        status: active
+        display_name: 王師德
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
@@ -224,6 +302,32 @@ relationships:
         status: active
         display_name: 王演
         merged_into_person_id: null
+    - claim:
+        id: c_4KIiJeJ8Vh8Pj5aKAkKQVs
+        subject_person_id: p_35wd94gwG3pzokf4a6CedM
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_WU918HK6TTpAXfqW367rRb
+        generation_count: 4
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3PqKaaHDUKXHAh1UvTodUt
+          claim_id: c_4KIiJeJ8Vh8Pj5aKAkKQVs
+          source_id: s_jnU1wrcswMwACQgeP5fatf
+          stance: supports
+          locator: CBDB 双向互证（玄孫;四世孫 王侊 ⇄ 高祖;四世祖 王登）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_WU918HK6TTpAXfqW367rRb
+        status: active
+        display_name: 王侊
+        merged_into_person_id: null
   other: []
 ---
 
@@ -244,9 +348,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_zdqhgBQcRuZFJjJq4vVV5M | 王本 | accepted |
 | children | p_bkMbqmq6U23rFXaG17Pxzk | 王師心 | accepted |
+| children | p_T2MYUrXuE1JG7HYKSj9LyT | 王師醇 | accepted |
+| children | p_VYtFzPbziddvD9zkw88Psz | 王師德 | accepted |
 | descendants | p_ABtiiFw9LGXZnTbrZS68pV | 王澐 | accepted |
 | descendants | p_Ccs9NajCd62mVKopumCjG5 | 王演 | accepted |
+| descendants | p_WU918HK6TTpAXfqW367rRb | 王侊 | accepted |
 
 ## 外部来源
 

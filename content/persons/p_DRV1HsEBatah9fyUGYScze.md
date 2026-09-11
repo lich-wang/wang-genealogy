@@ -4,7 +4,7 @@ id: p_DRV1HsEBatah9fyUGYScze
 status: active
 merged_into: null
 display_name: 王忱
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -171,7 +171,118 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_UNGeNN5N3wBzcaVq2H5brW
+        subject_person_id: p_DRV1HsEBatah9fyUGYScze
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_2E8J3qVo6HHNKQhDuGwNXL
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_c1IFXnRSpq2RFH1VINHtWP
+          claim_id: c_UNGeNN5N3wBzcaVq2H5brW
+          source_id: s_h4s884XLpTzBCAn8zSGJ9C
+          stance: supports
+          locator: CBDB 双向互证（祖父 王忱 ⇄ 孫 王浩）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_h4s884XLpTzBCAn8zSGJ9C
+            source_type: api_record
+            title: 中国历代人物传记资料库：王浩（CBDB 29199）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=29199&o=json
+            external_identifier: CBDB:29199
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.991Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_2E8J3qVo6HHNKQhDuGwNXL
+        status: active
+        display_name: 王浩
+        merged_into_person_id: null
+    - claim:
+        id: c_OiemaHKKtuG1-JN-F4ILAx
+        subject_person_id: p_DRV1HsEBatah9fyUGYScze
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_KZerDBNYLJDtatxLrhyvTw
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__xvuv8MRogdoKPt4-OWJxB
+          claim_id: c_OiemaHKKtuG1-JN-F4ILAx
+          source_id: s_tadhfygPsLnJ22iNu36dME
+          stance: supports
+          locator: CBDB 双向互证（祖父 王忱 ⇄ 孫 王淵）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_tadhfygPsLnJ22iNu36dME
+            source_type: api_record
+            title: 中国历代人物传记资料库：王淵（CBDB 29200）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=29200&o=json
+            external_identifier: CBDB:29200
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.991Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_KZerDBNYLJDtatxLrhyvTw
+        status: active
+        display_name: 王淵
+        merged_into_person_id: null
+    - claim:
+        id: c_51nP3yUjdzrFJuanLwUQtx
+        subject_person_id: p_DRV1HsEBatah9fyUGYScze
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_yRNSB28LfM7D9B4j5sK61C
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_K79-JYm4eJ9GFpEwx8LMlV
+          claim_id: c_51nP3yUjdzrFJuanLwUQtx
+          source_id: s_tFfdNv4CRGZX43cjFkYZn6
+          stance: supports
+          locator: CBDB 双向互证（祖父 王忱 ⇄ 孫 王洙）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_tFfdNv4CRGZX43cjFkYZn6
+            source_type: api_record
+            title: 中国历代人物传记资料库：王洙（CBDB 29198）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=29198&o=json
+            external_identifier: CBDB:29198
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.991Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_yRNSB28LfM7D9B4j5sK61C
+        status: active
+        display_name: 王洙
+        merged_into_person_id: null
   other: []
 ---
 
@@ -193,8 +304,14 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_cMTzMQQGq3a4M9xj7tvZK9 | 王玉 | accepted |
+| descendants | p_2E8J3qVo6HHNKQhDuGwNXL | 王浩 | accepted |
+| descendants | p_KZerDBNYLJDtatxLrhyvTw | 王淵 | accepted |
+| descendants | p_yRNSB28LfM7D9B4j5sK61C | 王洙 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王忱（CBDB 29140）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=29140&o=json)
+- [中国历代人物传记资料库：王浩（CBDB 29199）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=29199&o=json)
 - [中国历代人物传记资料库：王玉（CBDB 29192）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=29192&o=json)
+- [中国历代人物传记资料库：王淵（CBDB 29200）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=29200&o=json)
+- [中国历代人物传记资料库：王洙（CBDB 29198）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=29198&o=json)

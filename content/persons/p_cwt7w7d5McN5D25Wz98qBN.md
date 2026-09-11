@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王伯序
 cbdb_id: 17445
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -187,6 +187,32 @@ relationships:
         status: active
         display_name: 王次翁
         merged_into_person_id: null
+    - claim:
+        id: c_m1F_YPE5-s_hI0DKrfK9Bo
+        subject_person_id: p_yapy3APS2bJCVFq3VNLaKZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_cwt7w7d5McN5D25Wz98qBN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZXglEM0ARDqbAwJbOcuE5w
+          claim_id: c_m1F_YPE5-s_hI0DKrfK9Bo
+          source_id: s_W7yZyGZP5vrgPJJ2xJuQVv
+          stance: supports
+          locator: CBDB 双向互证（父 王次翁 ⇄ 子 王伯序）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_yapy3APS2bJCVFq3VNLaKZ
+        status: active
+        display_name: 王次翁
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -212,6 +238,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_4Ggi24K5h2C2ehfArZY8Pm | 王次翁 | accepted |
+| parents | p_yapy3APS2bJCVFq3VNLaKZ | 王次翁 | accepted |
 
 ## 外部来源
 

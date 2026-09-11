@@ -4,7 +4,7 @@ id: p_J3kNgcmfksKaeMJdBmVRbE
 status: active
 merged_into: null
 display_name: 王格
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_5pdQ9qGe4mghgIwzj5jzlZ
+        subject_person_id: p_zQAgRmnoLVP35vRq3hVkca
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_J3kNgcmfksKaeMJdBmVRbE
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_oVeLxG2erVFZBh_4M2BRGF
+          claim_id: c_5pdQ9qGe4mghgIwzj5jzlZ
+          source_id: s_Qm3UQQ6PtS8pEZfJaP5BDE
+          stance: supports
+          locator: CBDB 双向互证（父 王信 ⇄ 子 王格）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_zQAgRmnoLVP35vRq3hVkca
+        status: active
+        display_name: 王信
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_X0T7wJWtZpVIkDVQ41nKD_
+        subject_person_id: p_J3kNgcmfksKaeMJdBmVRbE
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_k7FueQ7UqubgKGSwoNs5mw
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rquI9FLL51WPKJytrNJVxw
+          claim_id: c_X0T7wJWtZpVIkDVQ41nKD_
+          source_id: s_Qm3UQQ6PtS8pEZfJaP5BDE
+          stance: supports
+          locator: CBDB 双向互证（子 王輔 ⇄ 父 王格）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_k7FueQ7UqubgKGSwoNs5mw
+        status: active
+        display_name: 王輔
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_zQAgRmnoLVP35vRq3hVkca | 王信 | accepted |
+| children | p_k7FueQ7UqubgKGSwoNs5mw | 王輔 | accepted |
 
 ## 外部来源
 

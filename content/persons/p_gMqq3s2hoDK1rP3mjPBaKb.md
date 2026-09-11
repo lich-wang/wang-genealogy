@@ -4,7 +4,7 @@ id: p_gMqq3s2hoDK1rP3mjPBaKb
 status: active
 merged_into: null
 display_name: 王覲
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_UTOGIT21OyYPyW6vBNvcRK
+        subject_person_id: p_hxF78b2rz2LFiMtmEUFnCz
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_gMqq3s2hoDK1rP3mjPBaKb
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3GhkFNRRk3TQaZgns9wHW0
+          claim_id: c_UTOGIT21OyYPyW6vBNvcRK
+          source_id: s_ZNHoeLAn3hC7gFV1qpPJAu
+          stance: supports
+          locator: CBDB 双向互证（父 王復 ⇄ 子 王覲）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_hxF78b2rz2LFiMtmEUFnCz
+        status: active
+        display_name: 王復
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_hxF78b2rz2LFiMtmEUFnCz | 王復 | accepted |
 
 ## 外部来源
 

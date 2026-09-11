@@ -4,7 +4,7 @@ id: p_uEBsw62GZpP7Jv5oaHffEz
 status: active
 merged_into: null
 display_name: 王曾
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_jkfsPxv1Y2zUSql6GqUpkP
+        subject_person_id: p_Pp7M9RgnjpKf6F2mKVs4Gk
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_uEBsw62GZpP7Jv5oaHffEz
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xDW_uI1L7zuUS4mt8xRG9Q
+          claim_id: c_jkfsPxv1Y2zUSql6GqUpkP
+          source_id: s_ALMNzYXANCKK1erRJwiTib
+          stance: supports
+          locator: CBDB 双向互证（父 王兼皇 ⇄ 子 王曾）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_Pp7M9RgnjpKf6F2mKVs4Gk
+        status: active
+        display_name: 王兼皇
+        merged_into_person_id: null
   children:
     - claim:
         id: c_LAUzvIsRChsvxzTtC8ghY-
@@ -229,6 +255,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Pp7M9RgnjpKf6F2mKVs4Gk | 王兼皇 | accepted |
 | children | p_AL68DmCpuacJ2nw7znarWd | 王紹 | accepted |
 | children | p_hNocUfmi2fcu8ZuRLW8Mi3 | 王縡 | accepted |
 

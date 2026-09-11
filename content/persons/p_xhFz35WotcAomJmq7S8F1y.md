@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王時勉
 cbdb_id: 26175
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -172,8 +172,83 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_qnkj-eInTZTrKYVDEtVbHk
+        subject_person_id: p_C9JHxtahhJrmvEsxjEQ6uJ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_xhFz35WotcAomJmq7S8F1y
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_efXOXCL36BSBC12lht5fuI
+          claim_id: c_qnkj-eInTZTrKYVDEtVbHk
+          source_id: s_9TNnEwdcjuR7BjQVyooBao
+          stance: supports
+          locator: CBDB 双向互证（子 王時勉 ⇄ 父 王德廣）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_9TNnEwdcjuR7BjQVyooBao
+            source_type: api_record
+            title: 中国历代人物传记资料库：王德廣（CBDB 26174）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26174&o=json
+            external_identifier: CBDB:26174
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:45.019Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_C9JHxtahhJrmvEsxjEQ6uJ
+        status: active
+        display_name: 王德廣
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_e62Gp4mkJ8vCZ0ov9K2LAe
+        subject_person_id: p_xhFz35WotcAomJmq7S8F1y
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_5n1We88RE6S2Lk8tXZoKi2
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Qf2mB1SebA0lp_Q83rKuY2
+          claim_id: c_e62Gp4mkJ8vCZ0ov9K2LAe
+          source_id: s_BJy16rWpStJwMFcCtaq5Dj
+          stance: supports
+          locator: CBDB 双向互证（父 王時勉 ⇄ 子 王觀）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_BJy16rWpStJwMFcCtaq5Dj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王觀（CBDB 26176）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26176&o=json
+            external_identifier: CBDB:26176
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.928Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_5n1We88RE6S2Lk8tXZoKi2
+        status: active
+        display_name: 王觀
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -199,7 +274,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_C9JHxtahhJrmvEsxjEQ6uJ | 王德廣 | accepted |
+| children | p_5n1We88RE6S2Lk8tXZoKi2 | 王觀 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王德廣（CBDB 26174）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26174&o=json)
+- [中国历代人物传记资料库：王觀（CBDB 26176）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26176&o=json)
 - [中国历代人物传记资料库：王時勉（CBDB 26175）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26175&o=json)

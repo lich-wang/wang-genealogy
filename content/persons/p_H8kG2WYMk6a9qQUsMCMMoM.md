@@ -4,7 +4,7 @@ id: p_H8kG2WYMk6a9qQUsMCMMoM
 status: active
 merged_into: null
 display_name: 王誠
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_r0uW0Ioi4crWhmGVmADrAB
+        subject_person_id: p_H8kG2WYMk6a9qQUsMCMMoM
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_wHwAJtDudMQ2GT5RL3YRMD
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tcGStNEj9UUIaG2iaHV9kB
+          claim_id: c_r0uW0Ioi4crWhmGVmADrAB
+          source_id: s_YUF1HggwsC1W3F6NDLqQQA
+          stance: supports
+          locator: CBDB 双向互证（子 王翰 ⇄ 父 王誠）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_wHwAJtDudMQ2GT5RL3YRMD
+        status: active
+        display_name: 王翰
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_wHwAJtDudMQ2GT5RL3YRMD | 王翰 | accepted |
 
 ## 外部来源
 

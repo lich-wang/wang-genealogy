@@ -4,7 +4,7 @@ id: p_PgGP8n81XBb5kcs7D54q73
 status: active
 merged_into: null
 display_name: 王直
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_JBHuxaOZ86uNCNJ4rRnKPe
+        subject_person_id: p_QQS2uT34uLgVeU49WUG1R1
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_PgGP8n81XBb5kcs7D54q73
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_59OFa-Mmtifv8YmRY882I-
+          claim_id: c_JBHuxaOZ86uNCNJ4rRnKPe
+          source_id: s_in1hTPavZdVJQK4k8xNZm1
+          stance: supports
+          locator: CBDB 双向互证（父 王伯貞 ⇄ 子 王直）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_QQS2uT34uLgVeU49WUG1R1
+        status: active
+        display_name: 王伯貞
+        merged_into_person_id: null
   children:
     - claim:
         id: c_vRoUJFWUUaloxGd92UxLgS
@@ -155,6 +181,43 @@ relationships:
         id: p_JjqEAXUtt8TixNojE9G2rS
         status: active
         display_name: 王秱
+        merged_into_person_id: null
+    - claim:
+        id: c_qYQx3A45Am4w609JLNKsyF
+        subject_person_id: p_PgGP8n81XBb5kcs7D54q73
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_6Gw8qC47sSeRCqS41JbPAC
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PLm25dflmGCp_OwTWplq-a
+          claim_id: c_qYQx3A45Am4w609JLNKsyF
+          source_id: s_QTQkyqDGLdXmn1kGwAi2VS
+          stance: supports
+          locator: CBDB 双向互证（父 王直 ⇄ 子 王䆅）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_QTQkyqDGLdXmn1kGwAi2VS
+            source_type: api_record
+            title: 中国历代人物传记资料库：王䆅（CBDB 34495）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34495&o=json
+            external_identifier: CBDB:34495
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.088Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_6Gw8qC47sSeRCqS41JbPAC
+        status: active
+        display_name: 王䆅
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
@@ -233,10 +296,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_QQS2uT34uLgVeU49WUG1R1 | 王伯貞 | accepted |
 | children | p_JjqEAXUtt8TixNojE9G2rS | 王秱 | accepted |
+| children | p_6Gw8qC47sSeRCqS41JbPAC | 王䆅 | accepted |
 | ancestors | p_DUoDpA4fcP5ujpQ2jKbMGr | 王子興 | accepted |
 | descendants | p_TdY8PeNMMQnspsGSLcC9h4 | 王思 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王直（CBDB 34493）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34493&o=json)
+- [中国历代人物传记资料库：王䆅（CBDB 34495）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34495&o=json)

@@ -4,7 +4,7 @@ id: p_kGmZkZTqi9Pw3P7xEMWL5g
 status: active
 merged_into: null
 display_name: 王延嗣
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -129,7 +129,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_3Yv8qdG_l8BnpIjCBL_dAQ
+        subject_person_id: p_kGmZkZTqi9Pw3P7xEMWL5g
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_xbNbP8jo136Y4sdQGL1AN6
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FggJBQz9UfGo8euRLIYt12
+          claim_id: c_3Yv8qdG_l8BnpIjCBL_dAQ
+          source_id: s_ktLrvcyVbaNe6Z4aJbFa2b
+          stance: supports
+          locator: CBDB 双向互证（子 王玠 ⇄ 父 王延嗣）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_xbNbP8jo136Y4sdQGL1AN6
+        status: active
+        display_name: 王玠
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -181,6 +207,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_xbNbP8jo136Y4sdQGL1AN6 | 王玠 | accepted |
 | descendants | p_U81Z7becLKysQST9wDsu8v | 王端 | accepted |
 
 ## 外部来源

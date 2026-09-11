@@ -4,7 +4,7 @@ id: p_WfKGNEwFj8S9f7DUKj8X6D
 status: active
 merged_into: null
 display_name: 王正己
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -160,7 +160,81 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_pOueO-otEv30KoSYgqWk1c
+        subject_person_id: p_WfKGNEwFj8S9f7DUKj8X6D
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_5o9Dk9gzYAokEQZKSrc378
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-bzhsQf6PHnq0u_FDiI5YH
+          claim_id: c_pOueO-otEv30KoSYgqWk1c
+          source_id: s_Dkt2UKu9ZKjd56VKqKNmkw
+          stance: supports
+          locator: CBDB 双向互证（曾祖 王正己 ⇄ 曾孫; 重孫 王惟賢）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_Dkt2UKu9ZKjd56VKqKNmkw
+            source_type: api_record
+            title: 中国历代人物传记资料库：王惟賢（CBDB 19886）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19886&o=json
+            external_identifier: CBDB:19886
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.749Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_5o9Dk9gzYAokEQZKSrc378
+        status: active
+        display_name: 王惟賢
+        merged_into_person_id: null
+    - claim:
+        id: c_oNcNRvWQWiR7Y7EI30gTZO
+        subject_person_id: p_WfKGNEwFj8S9f7DUKj8X6D
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_AZ9sTjiiVDDjzecmG4UuBn
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Hfn_17tNhpU377r89Faj3j
+          claim_id: c_oNcNRvWQWiR7Y7EI30gTZO
+          source_id: s_CzrKuB5khe9w32c1V3hf5n
+          stance: supports
+          locator: CBDB 双向互证（曾祖 王正己 ⇄ 曾孫; 重孫 王惟義）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_CzrKuB5khe9w32c1V3hf5n
+            source_type: api_record
+            title: 中国历代人物传记资料库：王惟義（CBDB 19887）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19887&o=json
+            external_identifier: CBDB:19887
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.749Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_AZ9sTjiiVDDjzecmG4UuBn
+        status: active
+        display_name: 王惟義
+        merged_into_person_id: null
   other: []
 ---
 
@@ -182,7 +256,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_LMN8U3w7r8FiSU2N778GMc | 王勳 | accepted |
+| descendants | p_5o9Dk9gzYAokEQZKSrc378 | 王惟賢 | accepted |
+| descendants | p_AZ9sTjiiVDDjzecmG4UuBn | 王惟義 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王惟賢（CBDB 19886）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19886&o=json)
+- [中国历代人物传记资料库：王惟義（CBDB 19887）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19887&o=json)
 - [中国历代人物传记资料库：王正己（CBDB 3948）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3948&o=json)

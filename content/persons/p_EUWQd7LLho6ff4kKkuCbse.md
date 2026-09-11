@@ -4,7 +4,7 @@ id: p_EUWQd7LLho6ff4kKkuCbse
 status: active
 merged_into: null
 display_name: 王安
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_bZ6ijD0MltUtks1GfMoU5I
+        subject_person_id: p_EUWQd7LLho6ff4kKkuCbse
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_MS95oKnME4D1UZQTCyYpev
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OwS_yAbVh4S9LgrQsWsE4h
+          claim_id: c_bZ6ijD0MltUtks1GfMoU5I
+          source_id: s_6fzJn1b7C2tdUTscy631cK
+          stance: supports
+          locator: CBDB 双向互证（子 王靖 ⇄ 父 王安）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_MS95oKnME4D1UZQTCyYpev
+        status: active
+        display_name: 王靖
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_MS95oKnME4D1UZQTCyYpev | 王靖 | accepted |
 
 ## 外部来源
 

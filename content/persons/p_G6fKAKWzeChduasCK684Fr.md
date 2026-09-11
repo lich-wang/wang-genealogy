@@ -4,7 +4,7 @@ id: p_G6fKAKWzeChduasCK684Fr
 status: active
 merged_into: null
 display_name: 王守誠
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,8 +128,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_FF9t5G-mHvy9I2SB2lGrj5
+        subject_person_id: p_xQwxzyMhqx25qoPHXKazKq
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_G6fKAKWzeChduasCK684Fr
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_TQJj7joZx9EtBpoDEIvQO1
+          claim_id: c_FF9t5G-mHvy9I2SB2lGrj5
+          source_id: s_mDDFkJCaevic2299EtyVGF
+          stance: supports
+          locator: CBDB 双向互证（父 王晦 ⇄ 子 王守誠）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_xQwxzyMhqx25qoPHXKazKq
+        status: active
+        display_name: 王晦
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_HZD3O5s3VBVMVK3iT5mSBS
+        subject_person_id: p_G6fKAKWzeChduasCK684Fr
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_i9z3FUD9Yo82n1QT5n5CYk
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XO2GNK56x-ZW3Suq3WWll_
+          claim_id: c_HZD3O5s3VBVMVK3iT5mSBS
+          source_id: s_mDDFkJCaevic2299EtyVGF
+          stance: supports
+          locator: CBDB 双向互证（子 王射 ⇄ 父 王守誠）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_i9z3FUD9Yo82n1QT5n5CYk
+        status: active
+        display_name: 王射
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +207,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_xQwxzyMhqx25qoPHXKazKq | 王晦 | accepted |
+| children | p_i9z3FUD9Yo82n1QT5n5CYk | 王射 | accepted |
 
 ## 外部来源
 

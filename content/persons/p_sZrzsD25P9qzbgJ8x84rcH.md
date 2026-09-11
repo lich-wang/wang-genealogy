@@ -4,7 +4,7 @@ id: p_sZrzsD25P9qzbgJ8x84rcH
 status: active
 merged_into: null
 display_name: 王識
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,71 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_ArRxwhXLH8npuTBnAXoAqK
+        subject_person_id: p_gkPwTNAWyD5CTudGqE3XuZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_sZrzsD25P9qzbgJ8x84rcH
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jdFaEhTArNFbfYD1D-uqKU
+          claim_id: c_ArRxwhXLH8npuTBnAXoAqK
+          source_id: s_QGL2jg794p6jrtUEefS23t
+          stance: supports
+          locator: CBDB 双向互证（子 王識 ⇄ 父 王彬）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_QGL2jg794p6jrtUEefS23t
+            source_type: api_record
+            title: 中国历代人物传记资料库：王彬（CBDB 22155）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22155&o=json
+            external_identifier: CBDB:22155
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.838Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_gkPwTNAWyD5CTudGqE3XuZ
+        status: active
+        display_name: 王彬
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_z_YRK3ciLmiKNhX0dD4sR2
+        subject_person_id: p_sZrzsD25P9qzbgJ8x84rcH
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_tvujpQywCi9ekftcPnvToF
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9x_9ugUe6e9OKouP9sOEsp
+          claim_id: c_z_YRK3ciLmiKNhX0dD4sR2
+          source_id: s_8XLiqX4MSsF81isCnY87ef
+          stance: supports
+          locator: CBDB 双向互证（子 王瀆 ⇄ 父 王識）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_tvujpQywCi9ekftcPnvToF
+        status: active
+        display_name: 王瀆
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,7 +160,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_gkPwTNAWyD5CTudGqE3XuZ | 王彬 | accepted |
+| children | p_tvujpQywCi9ekftcPnvToF | 王瀆 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王彬（CBDB 22155）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22155&o=json)
 - [中国历代人物传记资料库：王識（CBDB 22156）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22156&o=json)

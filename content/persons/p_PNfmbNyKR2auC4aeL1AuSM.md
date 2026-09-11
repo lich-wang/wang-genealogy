@@ -4,7 +4,7 @@ id: p_PNfmbNyKR2auC4aeL1AuSM
 status: active
 merged_into: null
 display_name: 王永
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_-DpoGU5o0BUXS4v_Pj4ckv
+        subject_person_id: p_PNfmbNyKR2auC4aeL1AuSM
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_QZHN7XBFLhdEfKGuEPQEhp
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_c9RrnOCy5tQxUkgqd6c_rX
+          claim_id: c_-DpoGU5o0BUXS4v_Pj4ckv
+          source_id: s_sHRCQq4nQnkKPMFBzoveAB
+          stance: supports
+          locator: CBDB 双向互证（子 王贄 ⇄ 父 王永）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_QZHN7XBFLhdEfKGuEPQEhp
+        status: active
+        display_name: 王贄
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -134,6 +160,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_QZHN7XBFLhdEfKGuEPQEhp | 王贄 | accepted |
 | descendants | p_KzB2C1aLBuDGmUVnrc9So3 | 王珪 | accepted |
 
 ## 外部来源

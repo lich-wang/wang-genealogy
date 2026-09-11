@@ -4,7 +4,7 @@ id: p_ZPXipNMAbC9PnGPngh5BaZ
 status: active
 merged_into: null
 display_name: 王發
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,59 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_YU9GUnOpy1plNi3rnrbVHb
+        subject_person_id: p_ZPXipNMAbC9PnGPngh5BaZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_KQXHiSb9v8hy4Pk5jUcKth
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__E_Uwi2i5I1igLZ0UlyKPp
+          claim_id: c_YU9GUnOpy1plNi3rnrbVHb
+          source_id: s_Dk5mHCvDrYw26LSCHocyHn
+          stance: supports
+          locator: CBDB 双向互证（子 王庭芳 ⇄ 父 王發）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_KQXHiSb9v8hy4Pk5jUcKth
+        status: active
+        display_name: 王庭芳
+        merged_into_person_id: null
+    - claim:
+        id: c_hSsNE0LWvb_dTePaCS-tub
+        subject_person_id: p_ZPXipNMAbC9PnGPngh5BaZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_8ZNRfFsK3rEkNpQdDz6act
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9n_9JLKcvXEjXWiAadqbRh
+          claim_id: c_hSsNE0LWvb_dTePaCS-tub
+          source_id: s_Dk5mHCvDrYw26LSCHocyHn
+          stance: supports
+          locator: CBDB 双向互证（子 王庭秀 ⇄ 父 王發）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_8ZNRfFsK3rEkNpQdDz6act
+        status: active
+        display_name: 王庭秀
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_KQXHiSb9v8hy4Pk5jUcKth | 王庭芳 | accepted |
+| children | p_8ZNRfFsK3rEkNpQdDz6act | 王庭秀 | accepted |
 
 ## 外部来源
 

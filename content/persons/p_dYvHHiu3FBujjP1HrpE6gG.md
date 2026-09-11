@@ -4,7 +4,7 @@ id: p_dYvHHiu3FBujjP1HrpE6gG
 status: active
 merged_into: null
 display_name: 王冲
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_E8QYHsjUTUWT1vQmICAh10
+        subject_person_id: p_dYvHHiu3FBujjP1HrpE6gG
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_AZk4wkgQ7UuXpAj8THZhSe
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-foGgJlz_zMOrL6mUJSUR7
+          claim_id: c_E8QYHsjUTUWT1vQmICAh10
+          source_id: s_UPXA3cLM7jkbMSu2afxwPY
+          stance: supports
+          locator: CBDB 双向互证（父 王冲 ⇄ 子 王靖）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_UPXA3cLM7jkbMSu2afxwPY
+            source_type: api_record
+            title: 中国历代人物传记资料库：王靖（CBDB 1788）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1788&o=json
+            external_identifier: CBDB:1788
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.255Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_AZk4wkgQ7UuXpAj8THZhSe
+        status: active
+        display_name: 王靖
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_AZk4wkgQ7UuXpAj8THZhSe | 王靖 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王冲（CBDB 17840）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17840&o=json)
+- [中国历代人物传记资料库：王靖（CBDB 1788）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1788&o=json)

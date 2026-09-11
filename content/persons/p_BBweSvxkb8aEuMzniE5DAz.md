@@ -4,7 +4,7 @@ id: p_BBweSvxkb8aEuMzniE5DAz
 status: active
 merged_into: null
 display_name: 王正億
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -134,7 +134,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_sjQo8ZhYcY-ydgaCoN0-wr
+        subject_person_id: p_BBweSvxkb8aEuMzniE5DAz
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_XM6mAGcrGG9zdfhaW7wsMr
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_V3Ca1aDywB3ENSgBaFtVtN
+          claim_id: c_sjQo8ZhYcY-ydgaCoN0-wr
+          source_id: s_sNByfog5uCk8UbxUtFzMf2
+          stance: supports
+          locator: CBDB 双向互证（孫 王先通 ⇄ 祖父 王正億）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_XM6mAGcrGG9zdfhaW7wsMr
+        status: active
+        display_name: 王先通
+        merged_into_person_id: null
   other: []
 ---
 
@@ -155,6 +181,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_XM6mAGcrGG9zdfhaW7wsMr | 王先通 | accepted |
 
 ## 外部来源
 

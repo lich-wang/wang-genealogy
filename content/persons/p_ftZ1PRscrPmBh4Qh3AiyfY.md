@@ -4,7 +4,7 @@ id: p_ftZ1PRscrPmBh4Qh3AiyfY
 status: active
 merged_into: null
 display_name: 王思任
-revision: 5
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -267,9 +267,124 @@ relationships:
         status: active
         display_name: 王静淑
         merged_into_person_id: null
+    - claim:
+        id: c_TUBO-1ZqWZIcdZDDZN50TH
+        subject_person_id: p_ftZ1PRscrPmBh4Qh3AiyfY
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_L4EGussSp1S78E2cg4bFb8
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vftZV_QMoOTAawqRW7TVMa
+          claim_id: c_TUBO-1ZqWZIcdZDDZN50TH
+          source_id: s_wzB8H1VeEUUxxH32LdLqx3
+          stance: supports
+          locator: CBDB 双向互证（子 王鼎起 ⇄ 父 王思任）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_L4EGussSp1S78E2cg4bFb8
+        status: active
+        display_name: 王鼎起
+        merged_into_person_id: null
+    - claim:
+        id: c_0yS4xSahu6II9_UCxjizxA
+        subject_person_id: p_ftZ1PRscrPmBh4Qh3AiyfY
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_8CkpkqZa6ixN8eSVefmKjB
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cz0JwM8eK8stxcA-0bLwwb
+          claim_id: c_0yS4xSahu6II9_UCxjizxA
+          source_id: s_wzB8H1VeEUUxxH32LdLqx3
+          stance: supports
+          locator: CBDB 双向互证（子 王霞起 ⇄ 父 王思任）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_8CkpkqZa6ixN8eSVefmKjB
+        status: active
+        display_name: 王霞起
+        merged_into_person_id: null
+    - claim:
+        id: c_OAuumB6UYwd1egRqb7M-MZ
+        subject_person_id: p_ftZ1PRscrPmBh4Qh3AiyfY
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Sj8hygc8GvhojMcdiG5GCH
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hMNrxWxc1LEaOwenjJhw9M
+          claim_id: c_OAuumB6UYwd1egRqb7M-MZ
+          source_id: s_wzB8H1VeEUUxxH32LdLqx3
+          stance: supports
+          locator: CBDB 双向互证（子 王槐起 ⇄ 父 王思任）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_Sj8hygc8GvhojMcdiG5GCH
+        status: active
+        display_name: 王槐起
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_9mXMQX-9DM2GG1FBiwIJjc
+        subject_person_id: p_SkgdAvuwzjHa75Hc3PGyxP
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_ftZ1PRscrPmBh4Qh3AiyfY
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_oF0zRsNIaXHIZYOPpcriMC
+          claim_id: c_9mXMQX-9DM2GG1FBiwIJjc
+          source_id: s_DW3csh1DK9A8Jk861FCXf3
+          stance: supports
+          locator: CBDB 双向互证（丈夫 王思任 ⇄ 妻子 姚氏(王端淑母)）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_DW3csh1DK9A8Jk861FCXf3
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：姚氏（122994）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=122994&o=json
+            external_identifier: CBDB:122994
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:59:06.467Z
+            metadata_json: null
+      object_person:
+        id: p_SkgdAvuwzjHa75Hc3PGyxP
+        status: active
+        display_name: 姚氏
+        merged_into_person_id: null
   ancestors: []
   descendants:
     - claim:
@@ -333,6 +448,10 @@ relationships:
 | children | p_DqeZRrh1AHPNm4EUNSCfwn | 王玉映 | accepted |
 | children | p_mXELR8x6DfcQqAZ9zCdekg | 王岳起 | accepted |
 | children | p_K3V5746zGx9VVTC42VpP31 | 王静淑 | accepted |
+| children | p_L4EGussSp1S78E2cg4bFb8 | 王鼎起 | accepted |
+| children | p_8CkpkqZa6ixN8eSVefmKjB | 王霞起 | accepted |
+| children | p_Sj8hygc8GvhojMcdiG5GCH | 王槐起 | accepted |
+| spouses | p_SkgdAvuwzjHa75Hc3PGyxP | 姚氏 | accepted |
 | descendants | p_9nMQd6ceMAGfnhGs6TTb7s | 王袞錫 | accepted |
 
 ## 外部来源
@@ -342,3 +461,4 @@ relationships:
 - [中国历代人物传记资料库：王思任（CBDB 71875）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=71875&o=json)
 - [中国历代人物传记资料库：王玉映（CBDB 570150）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=570150&o=json)
 - [CBDB 中国历代人物传记资料库：王靜淑（55730）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=55730&o=json)
+- [CBDB 中国历代人物传记资料库：姚氏（122994）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=122994&o=json)

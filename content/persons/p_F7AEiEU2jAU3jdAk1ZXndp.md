@@ -4,7 +4,7 @@ id: p_F7AEiEU2jAU3jdAk1ZXndp
 status: active
 merged_into: null
 display_name: 王宗衡
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_GrqgOasmTFVQppJnVhzsFq
+        subject_person_id: p_Wh324NyeqK1obvTfApNoR8
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_F7AEiEU2jAU3jdAk1ZXndp
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9gQ4MkmRSiwJlFOmW1-Dop
+          claim_id: c_GrqgOasmTFVQppJnVhzsFq
+          source_id: s_bxKGM5HBretcrNdDtBirBg
+          stance: supports
+          locator: CBDB 双向互证（父 王肇 ⇄ 子 王宗衡）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_Wh324NyeqK1obvTfApNoR8
+        status: active
+        display_name: 王肇
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -126,6 +152,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Wh324NyeqK1obvTfApNoR8 | 王肇 | accepted |
 
 ## 外部来源
 

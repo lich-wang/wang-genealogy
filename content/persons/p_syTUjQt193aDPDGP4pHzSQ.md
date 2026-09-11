@@ -4,7 +4,7 @@ id: p_syTUjQt193aDPDGP4pHzSQ
 status: active
 merged_into: null
 display_name: 王璇
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_sdFipIx9osnEGWuyJiE9BT
+        subject_person_id: p_syTUjQt193aDPDGP4pHzSQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_F8NZqodJZq6dvtt7kXmm8U
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_yoE5TxODTAroRaA5m4Qilz
+          claim_id: c_sdFipIx9osnEGWuyJiE9BT
+          source_id: s_tbyqf7phVLgW598Z3YwUde
+          stance: supports
+          locator: CBDB 双向互证（父 王璇 ⇄ 子 王徽）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_tbyqf7phVLgW598Z3YwUde
+            source_type: api_record
+            title: 中国历代人物传记资料库：王徽（CBDB 25797）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=25797&o=json
+            external_identifier: CBDB:25797
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.922Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_F8NZqodJZq6dvtt7kXmm8U
+        status: active
+        display_name: 王徽
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_F8NZqodJZq6dvtt7kXmm8U | 王徽 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王徽（CBDB 25797）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=25797&o=json)
 - [中国历代人物传记资料库：王璇（CBDB 25796）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=25796&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王庭椿
 cbdb_id: 24240
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -91,7 +91,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_lrBJLmscVL3xwK9ukP3aNK
+        subject_person_id: p_ZCFBggnkNHAtiFjGNwBVSK
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_1kmCRjxjheRUcKs82v5c1r
+        generation_count: 4
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_TuzWPmbA3lBNU-TQnDawy4
+          claim_id: c_lrBJLmscVL3xwK9ukP3aNK
+          source_id: s_DBFxKnaMSNtcFThC9xvRDa
+          stance: supports
+          locator: CBDB 双向互证（玄孫;四世孫 王庭椿 ⇄ 高祖;四世祖 王珪）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_DBFxKnaMSNtcFThC9xvRDa
+            source_type: api_record
+            title: 中国历代人物传记资料库：王珪（CBDB 1846）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1846&o=json
+            external_identifier: CBDB:1846
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.333Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ZCFBggnkNHAtiFjGNwBVSK
+        status: active
+        display_name: 王珪
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_ZCFBggnkNHAtiFjGNwBVSK | 王珪 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王珪（CBDB 1846）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1846&o=json)
 - [中国历代人物传记资料库：王庭椿（CBDB 24240）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=24240&o=json)

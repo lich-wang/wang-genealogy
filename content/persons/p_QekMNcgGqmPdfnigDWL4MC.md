@@ -4,7 +4,7 @@ id: p_QekMNcgGqmPdfnigDWL4MC
 status: active
 merged_into: null
 display_name: 王翰
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_0pzMG_PuNcdftVE--_atBj
+        subject_person_id: p_LtJ44Gm8BvQAajeZJNo8mV
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_QekMNcgGqmPdfnigDWL4MC
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JL8SWrs2l0T6mk5Qk_rl4p
+          claim_id: c_0pzMG_PuNcdftVE--_atBj
+          source_id: s_nF9Gm2T8HCNVR6nhXHE9aN
+          stance: supports
+          locator: CBDB 双向互证（父 王也先不華 ⇄ 子 王翰）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_LtJ44Gm8BvQAajeZJNo8mV
+        status: active
+        display_name: 王也先不華
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -155,6 +181,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_LtJ44Gm8BvQAajeZJNo8mV | 王也先不華 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_TXTXwSryWLUp2Edx6YAYPe
 status: active
 merged_into: null
 display_name: 王永年
-revision: 6
+revision: 7
 properties:
   - predicate: name.primary
     recommended:
@@ -128,12 +128,86 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_-q_0oKWn1u2PLdyCjBAxmw
+        subject_person_id: p_Dbnj6E8kMUFP6rJiZMSDLw
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_TXTXwSryWLUp2Edx6YAYPe
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2LhmHMoaCfk1_g-BX-sdLI
+          claim_id: c_-q_0oKWn1u2PLdyCjBAxmw
+          source_id: s_L4DnLA3g6o2C8iwvdjkTk9
+          stance: supports
+          locator: CBDB 双向互证（子 王永年 ⇄ 父 王說）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_L4DnLA3g6o2C8iwvdjkTk9
+            source_type: api_record
+            title: 中国历代人物传记资料库：王說（CBDB 386572）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=386572&o=json
+            external_identifier: CBDB:386572
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:21.896Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Dbnj6E8kMUFP6rJiZMSDLw
+        status: active
+        display_name: 王說
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_qBN13wIXop_-FKnYOcIYZE
+        subject_person_id: p_99h5oMti42oRmbFeRv71GH
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_TXTXwSryWLUp2Edx6YAYPe
+        generation_count: 4
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_U6U7iBU9o2X1cgCkLr7_Yd
+          claim_id: c_qBN13wIXop_-FKnYOcIYZE
+          source_id: s_ZHycc1ZTRscsA76wBW1Kcd
+          stance: supports
+          locator: CBDB 双向互证（玄孫;四世孫 王永年 ⇄ 高祖;四世祖 王固）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_ZHycc1ZTRscsA76wBW1Kcd
+            source_type: api_record
+            title: 中国历代人物传记资料库：王固（CBDB 24208）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=24208&o=json
+            external_identifier: CBDB:24208
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.896Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_99h5oMti42oRmbFeRv71GH
+        status: active
+        display_name: 王固
+        merged_into_person_id: null
   descendants:
     - claim:
         id: c_ERhxkQwfPTP0AsB1mrMiU3
@@ -309,6 +383,32 @@ relationships:
         status: active
         display_name: 王勤禮
         merged_into_person_id: null
+    - claim:
+        id: c_ews3al3PCEnQ83qosRagQZ
+        subject_person_id: p_TXTXwSryWLUp2Edx6YAYPe
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_uj5CLmvfB4euhULD7fRHEY
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_H8LYKG9rf1lMJF-fVHf7kh
+          claim_id: c_ews3al3PCEnQ83qosRagQZ
+          source_id: s_GzuwDJtuZq25gZiJYdCJcE
+          stance: supports
+          locator: CBDB 双向互证（孫 王寅 ⇄ 祖父 王永年）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_uj5CLmvfB4euhULD7fRHEY
+        status: active
+        display_name: 王寅
+        merged_into_person_id: null
   other: []
 ---
 
@@ -329,16 +429,21 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Dbnj6E8kMUFP6rJiZMSDLw | 王說 | accepted |
+| ancestors | p_99h5oMti42oRmbFeRv71GH | 王固 | accepted |
 | descendants | p_25zytug1kFui17eu9pg9ot | 王寧 | accepted |
 | descendants | p_pC2CzgxCWVGh53LF21SEoo | 王興祖 | accepted |
 | descendants | p_QPtFHPnLUxAqMigpNU1Ceu | 王光祖 | accepted |
 | descendants | p_r1Eok1MVUkgv9Psaq8rq3F | 王紹祖 | accepted |
 | descendants | p_6sLvRGgnDwAWz9RBiGMZ2t | 王勤禮 | accepted |
+| descendants | p_uj5CLmvfB4euhULD7fRHEY | 王寅 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王固（CBDB 24208）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=24208&o=json)
 - [中国历代人物传记资料库：王光祖（CBDB 385912）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=385912&o=json)
 - [中国历代人物传记资料库：王寧（CBDB 386574）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=386574&o=json)
 - [中国历代人物传记资料库：王紹祖（CBDB 385911）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=385911&o=json)
+- [中国历代人物传记资料库：王說（CBDB 386572）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=386572&o=json)
 - [中国历代人物传记资料库：王興祖（CBDB 385913）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=385913&o=json)
 - [中国历代人物传记资料库：王永年（CBDB 17656）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17656&o=json)

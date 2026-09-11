@@ -4,7 +4,7 @@ id: p_Jzy9nZapWwZfBJyYh44MuQ
 status: active
 merged_into: null
 display_name: 王琮
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,97 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_5esIMzT5ZXsaI5rBPdRLVS
+        subject_person_id: p_u7GjygMhWqMXVVi3SrDkWR
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Jzy9nZapWwZfBJyYh44MuQ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_beBcqawW1835zIIGULHqCx
+          claim_id: c_5esIMzT5ZXsaI5rBPdRLVS
+          source_id: s_GaBEDkbrHxJxk3yFFC3Eei
+          stance: supports
+          locator: CBDB 双向互证（父 王錫 ⇄ 子 王琮）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_u7GjygMhWqMXVVi3SrDkWR
+        status: active
+        display_name: 王錫
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_LWyUhMQftduHbV_CBL186-
+        subject_person_id: p_Jzy9nZapWwZfBJyYh44MuQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_2RzrzUqsutK3yv9cd9dwXj
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hFQmTsE0DZKZa6fn8g_7vb
+          claim_id: c_LWyUhMQftduHbV_CBL186-
+          source_id: s_ctSqJWMJMSBisWmAAWSuL9
+          stance: supports
+          locator: CBDB 双向互证（父 王琮 ⇄ 子 王允功）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_ctSqJWMJMSBisWmAAWSuL9
+            source_type: api_record
+            title: 中国历代人物传记资料库：王允功（CBDB 23652）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=23652&o=json
+            external_identifier: CBDB:23652
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.890Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_2RzrzUqsutK3yv9cd9dwXj
+        status: active
+        display_name: 王允功
+        merged_into_person_id: null
+    - claim:
+        id: c_3ucohSGV0I8zmOyO_gdat-
+        subject_person_id: p_Jzy9nZapWwZfBJyYh44MuQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_TYvJo43BKA6x6Dqj2QR2PJ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4RSXCpvrvaSQdGbXhZVkeT
+          claim_id: c_3ucohSGV0I8zmOyO_gdat-
+          source_id: s_GaBEDkbrHxJxk3yFFC3Eei
+          stance: supports
+          locator: CBDB 双向互证（子 王允濟 ⇄ 父 王琮）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_TYvJo43BKA6x6Dqj2QR2PJ
+        status: active
+        display_name: 王允濟
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -123,8 +212,12 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_u7GjygMhWqMXVVi3SrDkWR | 王錫 | accepted |
+| children | p_2RzrzUqsutK3yv9cd9dwXj | 王允功 | accepted |
+| children | p_TYvJo43BKA6x6Dqj2QR2PJ | 王允濟 | accepted |
 | ancestors | p_tuQz8K1QJhTDMtht3PXNax | 王浹 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王琮（CBDB 23650）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=23650&o=json)
+- [中国历代人物传记资料库：王允功（CBDB 23652）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=23652&o=json)

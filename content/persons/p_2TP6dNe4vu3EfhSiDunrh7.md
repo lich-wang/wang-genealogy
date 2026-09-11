@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王居善
 cbdb_id: 23372
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:23372
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_NMe7oFG4No3ECHWjNAoEFU
             source_type: api_record
             title: 中国历代人物传记资料库：王居善（CBDB 23372）
@@ -87,7 +87,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_0Fx04Wt32yzOjEwupbScmQ
+        subject_person_id: p_2TP6dNe4vu3EfhSiDunrh7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ynP4K3oyXRCon9LPpN6fzs
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NLtCvFLH-cOBPVbi4iurb4
+          claim_id: c_0Fx04Wt32yzOjEwupbScmQ
+          source_id: s_NMe7oFG4No3ECHWjNAoEFU
+          stance: supports
+          locator: CBDB 双向互证（子 王士堯 ⇄ 父 王居善）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_ynP4K3oyXRCon9LPpN6fzs
+        status: active
+        display_name: 王士堯
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_ynP4K3oyXRCon9LPpN6fzs | 王士堯 | accepted |
 
 ## 外部来源
 

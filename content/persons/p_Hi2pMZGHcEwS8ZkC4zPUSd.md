@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王待價
 cbdb_id: 22171
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,8 +86,84 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_Afuq8bLYjpRFJoRD3G7337
+        subject_person_id: p_GsMLftW55iaStQ68Ab6yJ2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Hi2pMZGHcEwS8ZkC4zPUSd
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5IQ7xozqmIL_VcPRFPUHry
+          claim_id: c_Afuq8bLYjpRFJoRD3G7337
+          source_id: s_V5uRehD5yKrAiRQGbTE1aG
+          stance: supports
+          locator: CBDB 双向互证（子 王待價 ⇄ 父 王同節）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_V5uRehD5yKrAiRQGbTE1aG
+            source_type: api_record
+            title: 中国历代人物传记资料库：王同節（CBDB 22170）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22170&o=json
+            external_identifier: CBDB:22170
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:44.071Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_GsMLftW55iaStQ68Ab6yJ2
+        status: active
+        display_name: 王同節
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_GvKv6rUtyL90HEKhbrns2L
+        subject_person_id: p_Hi2pMZGHcEwS8ZkC4zPUSd
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_FXHwcoHY4AFBFWRSSNw52j
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7VBo18QaESA_PGIKp78P8A
+          claim_id: c_GvKv6rUtyL90HEKhbrns2L
+          source_id: s_v8Q2d8qzHzCpc4ytk1RoKn
+          stance: supports
+          locator: CBDB 双向互证（父 王待價 ⇄ 子 王夢證）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_v8Q2d8qzHzCpc4ytk1RoKn
+            source_type: api_record
+            title: 中国历代人物传记资料库：王夢證（CBDB 22172）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22172&o=json
+            external_identifier: CBDB:22172
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:44.071Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_FXHwcoHY4AFBFWRSSNw52j
+        status: active
+        display_name: 王夢證
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -174,10 +250,14 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_GsMLftW55iaStQ68Ab6yJ2 | 王同節 | accepted |
+| children | p_FXHwcoHY4AFBFWRSSNw52j | 王夢證 | accepted |
 | descendants | p_DFWuMPWUstBm3Tr8KacmZf | 王嗣宗 | accepted |
 | descendants | p_LKzDYAPDmX1Dcm3kwWWk7w | 王九言 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王待價（CBDB 22171）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22171&o=json)
+- [中国历代人物传记资料库：王夢證（CBDB 22172）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22172&o=json)
 - [中国历代人物传记资料库：王嗣宗（CBDB 1880）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1880&o=json)
+- [中国历代人物传记资料库：王同節（CBDB 22170）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22170&o=json)

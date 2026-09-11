@@ -4,7 +4,7 @@ id: p_B8ga7F2MNvRvYqoPDeiZMF
 status: active
 merged_into: null
 display_name: 王延嗣
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_wiijnLmAaA9E89xJj_5Bzu
+        subject_person_id: p_MkrPbfTpQxhFZEy4TWiC1Q
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_B8ga7F2MNvRvYqoPDeiZMF
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_emyTHdYcg-26c9TebEnbzt
+          claim_id: c_wiijnLmAaA9E89xJj_5Bzu
+          source_id: s_Lq2TRJGL6oVAj4QXBdB8KP
+          stance: supports
+          locator: CBDB 双向互证（父 王居巖 ⇄ 子 王延嗣）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_MkrPbfTpQxhFZEy4TWiC1Q
+        status: active
+        display_name: 王居巖
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_VaiKaDqTUTzyK2oLm1tXAA
+        subject_person_id: p_B8ga7F2MNvRvYqoPDeiZMF
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Gthbd71keeHPBWip3JDpHk
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qnRUJ00aWMa4QmW23aQkz9
+          claim_id: c_VaiKaDqTUTzyK2oLm1tXAA
+          source_id: s_Lq2TRJGL6oVAj4QXBdB8KP
+          stance: supports
+          locator: CBDB 双向互证（子 王皆 ⇄ 父 王延嗣）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_Gthbd71keeHPBWip3JDpHk
+        status: active
+        display_name: 王皆
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_MkrPbfTpQxhFZEy4TWiC1Q | 王居巖 | accepted |
+| children | p_Gthbd71keeHPBWip3JDpHk | 王皆 | accepted |
 
 ## 外部来源
 

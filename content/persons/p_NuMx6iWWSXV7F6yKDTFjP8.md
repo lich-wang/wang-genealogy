@@ -4,7 +4,7 @@ id: p_NuMx6iWWSXV7F6yKDTFjP8
 status: active
 merged_into: null
 display_name: 王濟
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,8 +128,82 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_Wnn1qen9bx-G25TsZ4US-3
+        subject_person_id: p_hnLURAAZEYEb8os9n3xAxz
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_NuMx6iWWSXV7F6yKDTFjP8
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KjU13s9N7JFr7fznux-XD0
+          claim_id: c_Wnn1qen9bx-G25TsZ4US-3
+          source_id: s_7FC8vLjjEAEZ58BvUEE6yg
+          stance: supports
+          locator: CBDB 双向互证（子 王濟 ⇄ 父 王恕）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_7FC8vLjjEAEZ58BvUEE6yg
+            source_type: api_record
+            title: 中国历代人物传记资料库：王恕（CBDB 21973）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=21973&o=json
+            external_identifier: CBDB:21973
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.783Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_hnLURAAZEYEb8os9n3xAxz
+        status: active
+        display_name: 王恕
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_O5MatSHKJPRJddeI_0nh34
+        subject_person_id: p_NuMx6iWWSXV7F6yKDTFjP8
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_gkPpiEzsNPGEaJ8ZMcrkuN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dEQ7v-2oPNfxx2E7AU5kmQ
+          claim_id: c_O5MatSHKJPRJddeI_0nh34
+          source_id: s_EKMKrLvVviV2guyQPDzWMJ
+          stance: supports
+          locator: CBDB 双向互证（父 王濟 ⇄ 子 王孝傑）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_EKMKrLvVviV2guyQPDzWMJ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王孝傑（CBDB 21974）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=21974&o=json
+            external_identifier: CBDB:21974
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.785Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_gkPpiEzsNPGEaJ8ZMcrkuN
+        status: active
+        display_name: 王孝傑
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,7 +229,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_hnLURAAZEYEb8os9n3xAxz | 王恕 | accepted |
+| children | p_gkPpiEzsNPGEaJ8ZMcrkuN | 王孝傑 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王濟（CBDB 1777）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1777&o=json)
+- [中国历代人物传记资料库：王恕（CBDB 21973）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=21973&o=json)
+- [中国历代人物传记资料库：王孝傑（CBDB 21974）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=21974&o=json)

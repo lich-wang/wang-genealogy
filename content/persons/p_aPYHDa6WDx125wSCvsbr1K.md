@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王蒼書
 cbdb_id: 26714
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -87,11 +87,85 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_ddqX5pcGu7KBTAiYaquWj9
+        subject_person_id: p_aPYHDa6WDx125wSCvsbr1K
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_c2L9ykikiVd7Ps5dU11PRX
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rsZmY5xLe92lf8JAQf1aA2
+          claim_id: c_ddqX5pcGu7KBTAiYaquWj9
+          source_id: s_enLTu5n97DKQfrcCVp4weJ
+          stance: supports
+          locator: CBDB 双向互证（父 王蒼書 ⇄ 子 王簡）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_enLTu5n97DKQfrcCVp4weJ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王簡（CBDB 26715）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26715&o=json
+            external_identifier: CBDB:26715
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.949Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_c2L9ykikiVd7Ps5dU11PRX
+        status: active
+        display_name: 王簡
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_ntK8BdaonAnXHVUDWHKn_G
+        subject_person_id: p_26tLQutRv9RfwmDpym5T1E
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_aPYHDa6WDx125wSCvsbr1K
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Lo1pTH_CvAMUsNUOdVBrD6
+          claim_id: c_ntK8BdaonAnXHVUDWHKn_G
+          source_id: s_NRMoGyPxVJjRUhF4g8gkDi
+          stance: supports
+          locator: CBDB 双向互证（孫 王蒼書 ⇄ 祖父 王從）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_NRMoGyPxVJjRUhF4g8gkDi
+            source_type: api_record
+            title: 中国历代人物传记资料库：王從（CBDB 17844）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17844&o=json
+            external_identifier: CBDB:17844
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.694Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_26tLQutRv9RfwmDpym5T1E
+        status: active
+        display_name: 王從
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -111,7 +185,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_c2L9ykikiVd7Ps5dU11PRX | 王簡 | accepted |
+| ancestors | p_26tLQutRv9RfwmDpym5T1E | 王從 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王蒼書（CBDB 26714）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26714&o=json)
+- [中国历代人物传记资料库：王從（CBDB 17844）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17844&o=json)
+- [中国历代人物传记资料库：王簡（CBDB 26715）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26715&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王文素
 cbdb_id: 34059
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -87,7 +87,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_QHYq8tOZP5NO3VozPmVQ2B
+        subject_person_id: p_4vUfgvuGYUKQyk2GvjMLQv
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_w2AotMiaiwLWFjQAANJQ54
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tC5TIzPNbeyh4UXJhXV0W0
+          claim_id: c_QHYq8tOZP5NO3VozPmVQ2B
+          source_id: s_Ap3LxwBAapk2xL7a1ofXXM
+          stance: supports
+          locator: CBDB 双向互证（父 王文素 ⇄ 子 王朏）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_Ap3LxwBAapk2xL7a1ofXXM
+            source_type: api_record
+            title: 中国历代人物传记资料库：王朏（CBDB 34060）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34060&o=json
+            external_identifier: CBDB:34060
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.075Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_w2AotMiaiwLWFjQAANJQ54
+        status: active
+        display_name: 王朏
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_w2AotMiaiwLWFjQAANJQ54 | 王朏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王朏（CBDB 34060）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34060&o=json)
 - [中国历代人物传记资料库：王文素（CBDB 34059）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34059&o=json)

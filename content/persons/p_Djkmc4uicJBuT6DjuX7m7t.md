@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王稌
 cbdb_id: 437664
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -365,7 +365,44 @@ relationships:
         status: active
         display_name: 吴氏
         merged_into_person_id: null
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_YQzjReF8JoTvhajiCnX41g
+        subject_person_id: p_mgxHev7zFTwcmkSJE7CaXn
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Djkmc4uicJBuT6DjuX7m7t
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OO6El7UF_n7aSAwvSD9ncn
+          claim_id: c_YQzjReF8JoTvhajiCnX41g
+          source_id: s_BAjxo671XMFTkByAe6GdPY
+          stance: supports
+          locator: CBDB 双向互证（曾孫; 重孫 王稌 ⇄ 曾祖 王良玉）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_BAjxo671XMFTkByAe6GdPY
+            source_type: api_record
+            title: 中国历代人物传记资料库：王良玉（CBDB 10725）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10725&o=json
+            external_identifier: CBDB:10725
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.563Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_mgxHev7zFTwcmkSJE7CaXn
+        status: active
+        display_name: 王良玉
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -390,6 +427,7 @@ relationships:
 | children | p_9VxEWjL3WdRDJDc2ecBK47 | 王汶 | accepted |
 | spouses | p_DNBu7dKBcHTFT8EoXEHiXT | 丁氏 | accepted |
 | spouses | p_8GF834u9vuJrzqkRvDZrHA | 吴氏 | accepted |
+| ancestors | p_mgxHev7zFTwcmkSJE7CaXn | 王良玉 | accepted |
 
 ## 外部来源
 
@@ -398,5 +436,6 @@ relationships:
 - [维基数据：王稌（Q65903516）](https://www.wikidata.org/wiki/Q65903516)
 - [维基数据：王瀹（Q65904230）](https://www.wikidata.org/wiki/Q65904230)
 - [维基数据：吴氏（Q65904236）](https://www.wikidata.org/wiki/Q65904236)
+- [中国历代人物传记资料库：王良玉（CBDB 10725）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10725&o=json)
 - [CBDB 中国历代人物传记资料库：王紳（28112）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28112&o=json)
 - [CBDB 中国历代人物传记资料库：王稌（437664）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=437664&o=json)

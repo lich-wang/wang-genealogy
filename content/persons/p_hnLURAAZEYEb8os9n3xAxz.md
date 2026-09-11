@@ -4,7 +4,7 @@ id: p_hnLURAAZEYEb8os9n3xAxz
 status: active
 merged_into: null
 display_name: 王恕
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,8 +100,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_Xx-aUjMB8XH64PKk-omKPI
+        subject_person_id: p_XeFgbuBpZwQBP33YXumoG8
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_hnLURAAZEYEb8os9n3xAxz
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_iREfetxEGnH-tRDUyzyZaL
+          claim_id: c_Xx-aUjMB8XH64PKk-omKPI
+          source_id: s_7FC8vLjjEAEZ58BvUEE6yg
+          stance: supports
+          locator: CBDB 双向互证（父 王卿 ⇄ 子 王恕）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_XeFgbuBpZwQBP33YXumoG8
+        status: active
+        display_name: 王卿
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_Wnn1qen9bx-G25TsZ4US-3
+        subject_person_id: p_hnLURAAZEYEb8os9n3xAxz
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_NuMx6iWWSXV7F6yKDTFjP8
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KjU13s9N7JFr7fznux-XD0
+          claim_id: c_Wnn1qen9bx-G25TsZ4US-3
+          source_id: s_7FC8vLjjEAEZ58BvUEE6yg
+          stance: supports
+          locator: CBDB 双向互证（子 王濟 ⇄ 父 王恕）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_NuMx6iWWSXV7F6yKDTFjP8
+        status: active
+        display_name: 王濟
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,6 +178,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_XeFgbuBpZwQBP33YXumoG8 | 王卿 | accepted |
+| children | p_NuMx6iWWSXV7F6yKDTFjP8 | 王濟 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_CMt2fXZyZFD74yNHp3joRj
 status: active
 merged_into: null
 display_name: 王綸
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -77,7 +77,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_PJJHQpoeCzJnpu4IiS2kgt
+        subject_person_id: p_mgxHev7zFTwcmkSJE7CaXn
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_CMt2fXZyZFD74yNHp3joRj
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_slnSWKuRxAk6XZNXkxZ78I
+          claim_id: c_PJJHQpoeCzJnpu4IiS2kgt
+          source_id: s_AbNG4BZL6RejJqvCaTjDTB
+          stance: supports
+          locator: CBDB 双向互证（祖父 王良玉 ⇄ 孫 王綸）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_mgxHev7zFTwcmkSJE7CaXn
+        status: active
+        display_name: 王良玉
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_mgxHev7zFTwcmkSJE7CaXn | 王良玉 | accepted |
 
 ## 外部来源
 

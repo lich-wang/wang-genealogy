@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王從浩
 cbdb_id: 10683
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -129,7 +129,45 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_IfG4jlnrzonMe9yjOrKDH2
+        subject_person_id: p_FCxCpCKAFqgabhzbL3SyJC
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_cR8Wy9ippRepXxNQNHK459
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HvH79WBBqKWEK_qtHySn6F
+          claim_id: c_IfG4jlnrzonMe9yjOrKDH2
+          source_id: s_awokEZeNNvPNxGkRZeFs6p
+          stance: supports
+          locator: CBDB 双向互证（祖父 王從浩 ⇄ 孫 王惟堯）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_awokEZeNNvPNxGkRZeFs6p
+            source_type: api_record
+            title: 中国历代人物传记资料库：王惟堯（CBDB 10684）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10684&o=json
+            external_identifier: CBDB:10684
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:43.132Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_cR8Wy9ippRepXxNQNHK459
+        status: active
+        display_name: 王惟堯
+        merged_into_person_id: null
   other: []
 ---
 
@@ -149,8 +187,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_8kgVQUAKsHG2eDVp9wKUEc | 王居義 | accepted |
+| descendants | p_cR8Wy9ippRepXxNQNHK459 | 王惟堯 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王從浩（CBDB 10683）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10683&o=json)
 - [中国历代人物传记资料库：王居義（CBDB 386193）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=386193&o=json)
+- [中国历代人物传记资料库：王惟堯（CBDB 10684）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10684&o=json)

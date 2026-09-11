@@ -4,7 +4,7 @@ id: p_tuQz8K1QJhTDMtht3PXNax
 status: active
 merged_into: null
 display_name: 王浹
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_Umb62t3latfhQQn7xXCdJz
+        subject_person_id: p_tuQz8K1QJhTDMtht3PXNax
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_u7GjygMhWqMXVVi3SrDkWR
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kD3e8MNqKIgkOvpiOg0cbO
+          claim_id: c_Umb62t3latfhQQn7xXCdJz
+          source_id: s_xWo8bK1WmAhKEr5zJ99FvF
+          stance: supports
+          locator: CBDB 双向互证（子 王錫 ⇄ 父 王浹）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_u7GjygMhWqMXVVi3SrDkWR
+        status: active
+        display_name: 王錫
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -171,6 +197,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_u7GjygMhWqMXVVi3SrDkWR | 王錫 | accepted |
 | descendants | p_2RzrzUqsutK3yv9cd9dwXj | 王允功 | accepted |
 | descendants | p_Jzy9nZapWwZfBJyYh44MuQ | 王琮 | accepted |
 

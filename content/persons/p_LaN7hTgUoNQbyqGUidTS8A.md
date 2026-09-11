@@ -4,7 +4,7 @@ id: p_LaN7hTgUoNQbyqGUidTS8A
 status: active
 merged_into: null
 display_name: 王棨
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_q2z7KsnLzTsAaobauJU14w
+        subject_person_id: p_LaN7hTgUoNQbyqGUidTS8A
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_sMs1sh8RxZBVXLuidE5udf
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4DI_4IF5lLG7id4RHNxZwh
+          claim_id: c_q2z7KsnLzTsAaobauJU14w
+          source_id: s_JwrEyYHCGpeHiZo3p14aPu
+          stance: supports
+          locator: CBDB 双向互证（曾孫; 重孫 王仁僓 ⇄ 曾祖 王棨）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_sMs1sh8RxZBVXLuidE5udf
+        status: active
+        display_name: 王仁僓
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_sMs1sh8RxZBVXLuidE5udf | 王仁僓 | accepted |
 
 ## 外部来源
 

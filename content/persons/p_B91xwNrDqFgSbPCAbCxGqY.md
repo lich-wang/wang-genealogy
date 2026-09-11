@@ -4,7 +4,7 @@ id: p_B91xwNrDqFgSbPCAbCxGqY
 status: active
 merged_into: null
 display_name: 王侃
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_toX2rqXg0-tgo5gFTynULv
+        subject_person_id: p_3JngKiuxRcN8yGJHdnL5MC
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_B91xwNrDqFgSbPCAbCxGqY
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_v6AJ0DPOo59dvrZNKcLoSO
+          claim_id: c_toX2rqXg0-tgo5gFTynULv
+          source_id: s_L8nAJWTtDqSqXrt8PCg1PA
+          stance: supports
+          locator: CBDB 双向互证（父 王箱 ⇄ 子 王侃）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_3JngKiuxRcN8yGJHdnL5MC
+        status: active
+        display_name: 王箱
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_9tRMkXBPfDB8w5Nj5EHFWO
+        subject_person_id: p_B91xwNrDqFgSbPCAbCxGqY
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_YorBp3QdkukixtBGPrhSQo
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MDC8EzpBvYAv3TOMR_2nM6
+          claim_id: c_9tRMkXBPfDB8w5Nj5EHFWO
+          source_id: s_L8nAJWTtDqSqXrt8PCg1PA
+          stance: supports
+          locator: CBDB 双向互证（子 王伯芻 ⇄ 父 王侃）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_YorBp3QdkukixtBGPrhSQo
+        status: active
+        display_name: 王伯芻
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_3JngKiuxRcN8yGJHdnL5MC | 王箱 | accepted |
+| children | p_YorBp3QdkukixtBGPrhSQo | 王伯芻 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_94q1e1836gtMmWzZkszZK7
 status: active
 merged_into: null
 display_name: 王益
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -245,7 +245,118 @@ relationships:
         status: active
         display_name: 王明
         merged_into_person_id: null
-  descendants: []
+  descendants:
+    - claim:
+        id: c_-J-0PaMO713l_odSJkEPXC
+        subject_person_id: p_94q1e1836gtMmWzZkszZK7
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_AaCnfGLcMfDBMy6fa5pHnh
+        generation_count: 4
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_h_behJo89XcILgzfOfWk6z
+          claim_id: c_-J-0PaMO713l_odSJkEPXC
+          source_id: s_p5DWQW4daMavXjhMed5BAm
+          stance: supports
+          locator: CBDB 双向互证（高祖;四世祖 王益 ⇄ 玄孫;四世孫 王琮）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_p5DWQW4daMavXjhMed5BAm
+            source_type: api_record
+            title: 中国历代人物传记资料库：王琮（CBDB 18556）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=18556&o=json
+            external_identifier: CBDB:18556
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.709Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_AaCnfGLcMfDBMy6fa5pHnh
+        status: active
+        display_name: 王琮
+        merged_into_person_id: null
+    - claim:
+        id: c_B9Pgk-WCyOYBWtb9SyM4J9
+        subject_person_id: p_94q1e1836gtMmWzZkszZK7
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_etCiHPpx7ir9nAd1MN6VyR
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cKxVTO3brev9VBfe4tBa7r
+          claim_id: c_B9Pgk-WCyOYBWtb9SyM4J9
+          source_id: s_bwP62UZcbCRQMBdSYEbhST
+          stance: supports
+          locator: CBDB 双向互证（祖父 王益 ⇄ 孫 王旉）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_bwP62UZcbCRQMBdSYEbhST
+            source_type: api_record
+            title: 中国历代人物传记资料库：王旉（CBDB 1805）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1805&o=json
+            external_identifier: CBDB:1805
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.266Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_etCiHPpx7ir9nAd1MN6VyR
+        status: active
+        display_name: 王旉
+        merged_into_person_id: null
+    - claim:
+        id: c_3nZvh_jBrJ3CSL3x9pNhZm
+        subject_person_id: p_94q1e1836gtMmWzZkszZK7
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_ZCFBggnkNHAtiFjGNwBVSK
+        generation_count: 4
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XsyliLph6UJuiohapH5ZgJ
+          claim_id: c_3nZvh_jBrJ3CSL3x9pNhZm
+          source_id: s_DBFxKnaMSNtcFThC9xvRDa
+          stance: supports
+          locator: CBDB 双向互证（高祖;四世祖 王益 ⇄ 玄孫;四世孫 王珪）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_DBFxKnaMSNtcFThC9xvRDa
+            source_type: api_record
+            title: 中国历代人物传记资料库：王珪（CBDB 1846）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1846&o=json
+            external_identifier: CBDB:1846
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.333Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ZCFBggnkNHAtiFjGNwBVSK
+        status: active
+        display_name: 王珪
+        merged_into_person_id: null
   other: []
 ---
 
@@ -269,9 +380,15 @@ relationships:
 | parents | p_ayDBbENQJQKZToA3G7hGQm | 谢氏 | accepted |
 | children | p_fuv1kE3UCBeTFNiA6c9Tuw | 王安石 | accepted |
 | ancestors | p_U5JQDU5J5YYRKaCvpa53pZ | 王明 | accepted |
+| descendants | p_AaCnfGLcMfDBMy6fa5pHnh | 王琮 | accepted |
+| descendants | p_etCiHPpx7ir9nAd1MN6VyR | 王旉 | accepted |
+| descendants | p_ZCFBggnkNHAtiFjGNwBVSK | 王珪 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王琮（CBDB 18556）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=18556&o=json)
+- [中国历代人物传记资料库：王旉（CBDB 1805）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1805&o=json)
+- [中国历代人物传记资料库：王珪（CBDB 1846）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1846&o=json)
 - [中国历代人物传记资料库：王益（CBDB 7082）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=7082&o=json)
 - [CBDB 中国历代人物传记资料库](https://cbdb.fas.harvard.edu)
 - [CBDB 中国历代人物传记资料库：王明（18552）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=18552&o=json)

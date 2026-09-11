@@ -4,7 +4,7 @@ id: p_kEX7BaCTJnDcpamj7bx62V
 status: active
 merged_into: null
 display_name: 王申
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_ar0PN7gJif0-Nh-91WfZmF
+        subject_person_id: p_L1FdHpa2jUZ4zfpt4vimLK
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_kEX7BaCTJnDcpamj7bx62V
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_44zR3f6lQfsoBDNlcNiwFc
+          claim_id: c_ar0PN7gJif0-Nh-91WfZmF
+          source_id: s_atn5EwK9xW4fiPsno6Hdmy
+          stance: supports
+          locator: CBDB 双向互证（父 王制 ⇄ 子 王申）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_L1FdHpa2jUZ4zfpt4vimLK
+        status: active
+        display_name: 王制
+        merged_into_person_id: null
   children:
     - claim:
         id: c_Qma8x4ZbtLL9NItuqTXPZZ
@@ -160,6 +186,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_L1FdHpa2jUZ4zfpt4vimLK | 王制 | accepted |
 | children | p_CK6Y18Q5DxUjTmD2p14zev | 王億 | accepted |
 | descendants | p_miziP4o1dvPJFQh5oBz2tf | 王葆 | accepted |
 

@@ -4,7 +4,7 @@ id: p_26tLQutRv9RfwmDpym5T1E
 status: active
 merged_into: null
 display_name: 王從
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -155,6 +155,32 @@ relationships:
         status: active
         display_name: 王震
         merged_into_person_id: null
+    - claim:
+        id: c_twHuvhJItPF2sTrC3u91Tp
+        subject_person_id: p_MWAK3SJTta3quLLmo1xEow
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_26tLQutRv9RfwmDpym5T1E
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_86hpSrklFkI_vneD8Zd_99
+          claim_id: c_twHuvhJItPF2sTrC3u91Tp
+          source_id: s_NRMoGyPxVJjRUhF4g8gkDi
+          stance: supports
+          locator: CBDB 双向互证（父 王仰 ⇄ 子 王從）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_MWAK3SJTta3quLLmo1xEow
+        status: active
+        display_name: 王仰
+        merged_into_person_id: null
   children:
     - claim:
         id: c_68A-YfSWNu-hWkjqBdOX_O
@@ -182,11 +208,63 @@ relationships:
         status: active
         display_name: 王淹
         merged_into_person_id: null
+    - claim:
+        id: c_S-79jk5A-btXT70W6tGqOU
+        subject_person_id: p_26tLQutRv9RfwmDpym5T1E
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_bXHpvnKU3LUccnRN3GXQSx
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Upp2aEaaJj0MDLb03JKMSr
+          claim_id: c_S-79jk5A-btXT70W6tGqOU
+          source_id: s_NRMoGyPxVJjRUhF4g8gkDi
+          stance: supports
+          locator: CBDB 双向互证（子 王涵 ⇄ 父 王從）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_bXHpvnKU3LUccnRN3GXQSx
+        status: active
+        display_name: 王涵
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_ntK8BdaonAnXHVUDWHKn_G
+        subject_person_id: p_26tLQutRv9RfwmDpym5T1E
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_aPYHDa6WDx125wSCvsbr1K
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Lo1pTH_CvAMUsNUOdVBrD6
+          claim_id: c_ntK8BdaonAnXHVUDWHKn_G
+          source_id: s_NRMoGyPxVJjRUhF4g8gkDi
+          stance: supports
+          locator: CBDB 双向互证（孫 王蒼書 ⇄ 祖父 王從）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_aPYHDa6WDx125wSCvsbr1K
+        status: active
+        display_name: 王蒼書
+        merged_into_person_id: null
   other: []
 ---
 
@@ -208,7 +286,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_4RuP1y13HperNdMDJkN6MF | 王震 | accepted |
+| parents | p_MWAK3SJTta3quLLmo1xEow | 王仰 | accepted |
 | children | p_2YWxU452SrBeFmFuGZ2rMe | 王淹 | accepted |
+| children | p_bXHpvnKU3LUccnRN3GXQSx | 王涵 | accepted |
+| descendants | p_aPYHDa6WDx125wSCvsbr1K | 王蒼書 | accepted |
 
 ## 外部来源
 

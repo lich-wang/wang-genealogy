@@ -4,7 +4,7 @@ id: p_W44g431hpyjCWntUoJZtFF
 status: active
 merged_into: null
 display_name: 王潤
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_Olu5e1h523mo_BKkYfThL6
+        subject_person_id: p_W44g431hpyjCWntUoJZtFF
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_XfMqsim2Q2nawMwLbryQH7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_N_-XcAVEha2rhN57fQT_X5
+          claim_id: c_Olu5e1h523mo_BKkYfThL6
+          source_id: s_Lu61XsjBFZtYz4ckNJDLbz
+          stance: supports
+          locator: CBDB 双向互证（子 王履 ⇄ 父 王潤）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_XfMqsim2Q2nawMwLbryQH7
+        status: active
+        display_name: 王履
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_XfMqsim2Q2nawMwLbryQH7 | 王履 | accepted |
 
 ## 外部来源
 

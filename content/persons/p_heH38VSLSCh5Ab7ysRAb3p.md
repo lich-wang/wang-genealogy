@@ -4,7 +4,7 @@ id: p_heH38VSLSCh5Ab7ysRAb3p
 status: active
 merged_into: null
 display_name: 王蘊
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_qNoMzmREtJzYEyKZFMa6eA
+        subject_person_id: p_yGTmMSRYnP7kEWSC28tVGG
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_heH38VSLSCh5Ab7ysRAb3p
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PkIY9QGVzttWnCVX4EWdIr
+          claim_id: c_qNoMzmREtJzYEyKZFMa6eA
+          source_id: s_jdVcHJw97jDqoCPTJ8kF5D
+          stance: supports
+          locator: CBDB 双向互证（父 王言 ⇄ 子 王蘊）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_yGTmMSRYnP7kEWSC28tVGG
+        status: active
+        display_name: 王言
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_nr32uOjgTGzDp0pbBLSHSf
+        subject_person_id: p_heH38VSLSCh5Ab7ysRAb3p
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ePPjFS2KUrD9N2rxRkPbKn
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Crj2k7donZ7dBko6ndgTS-
+          claim_id: c_nr32uOjgTGzDp0pbBLSHSf
+          source_id: s_jdVcHJw97jDqoCPTJ8kF5D
+          stance: supports
+          locator: CBDB 双向互证（子 王堯 ⇄ 父 王蘊）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_ePPjFS2KUrD9N2rxRkPbKn
+        status: active
+        display_name: 王堯
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_yGTmMSRYnP7kEWSC28tVGG | 王言 | accepted |
+| children | p_ePPjFS2KUrD9N2rxRkPbKn | 王堯 | accepted |
 
 ## 外部来源
 

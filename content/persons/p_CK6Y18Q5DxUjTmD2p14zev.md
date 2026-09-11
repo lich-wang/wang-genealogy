@@ -4,7 +4,7 @@ id: p_CK6Y18Q5DxUjTmD2p14zev
 status: active
 merged_into: null
 display_name: 王億
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -126,6 +126,32 @@ relationships:
         status: active
         display_name: 王葆
         merged_into_person_id: null
+    - claim:
+        id: c_UJZdKAYK1Fn5dkahVj023B
+        subject_person_id: p_CK6Y18Q5DxUjTmD2p14zev
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_JqkaSKXxNG5TGDMApEwJ8u
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__T6dZY26-rgVydUUtIE-jC
+          claim_id: c_UJZdKAYK1Fn5dkahVj023B
+          source_id: s_zBQKrWZxZroHPiVGevWHNK
+          stance: supports
+          locator: CBDB 双向互证（子 王萬 ⇄ 父 王億）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_JqkaSKXxNG5TGDMApEwJ8u
+        status: active
+        display_name: 王萬
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -151,6 +177,7 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_kEX7BaCTJnDcpamj7bx62V | 王申 | accepted |
 | children | p_miziP4o1dvPJFQh5oBz2tf | 王葆 | accepted |
+| children | p_JqkaSKXxNG5TGDMApEwJ8u | 王萬 | accepted |
 
 ## 外部来源
 

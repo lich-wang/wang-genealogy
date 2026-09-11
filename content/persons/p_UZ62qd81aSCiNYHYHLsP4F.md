@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王坑
 cbdb_id: 21271
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -87,7 +87,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_d5Yx461mVryRVS2MMlmP9p
+        subject_person_id: p_UZ62qd81aSCiNYHYHLsP4F
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3nkdRNwXhSrvEF75CZoPMw
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QAMn8TcP2CtRB_elLA3Q_V
+          claim_id: c_d5Yx461mVryRVS2MMlmP9p
+          source_id: s_oUY55k1UJtMUGpWGGzFsAz
+          stance: supports
+          locator: CBDB 双向互证（父 王坑 ⇄ 子 王演）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_oUY55k1UJtMUGpWGGzFsAz
+            source_type: api_record
+            title: 中国历代人物传记资料库：王演（CBDB 21272）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=21272&o=json
+            external_identifier: CBDB:21272
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.767Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_3nkdRNwXhSrvEF75CZoPMw
+        status: active
+        display_name: 王演
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_3nkdRNwXhSrvEF75CZoPMw | 王演 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王坑（CBDB 21271）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=21271&o=json)
+- [中国历代人物传记资料库：王演（CBDB 21272）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=21272&o=json)

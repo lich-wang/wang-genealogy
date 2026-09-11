@@ -4,7 +4,7 @@ id: p_S3naJroKWgSC1rNxfMtn8R
 status: active
 merged_into: null
 display_name: 王吉
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -77,7 +77,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_GZKQiLHkwSunAMj50mRt_K
+        subject_person_id: p_SZeSnkBNgyjBtDh2Z2ku9F
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_S3naJroKWgSC1rNxfMtn8R
+        generation_count: 4
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PtIox5h32lRviK1eya0kt8
+          claim_id: c_GZKQiLHkwSunAMj50mRt_K
+          source_id: s_hPEm8g9ytuCicRXFJy1bJC
+          stance: supports
+          locator: CBDB 双向互证（高祖;四世祖 王元 ⇄ 玄孫;四世孫 王吉）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_SZeSnkBNgyjBtDh2Z2ku9F
+        status: active
+        display_name: 王元
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_SZeSnkBNgyjBtDh2Z2ku9F | 王元 | accepted |
 
 ## 外部来源
 

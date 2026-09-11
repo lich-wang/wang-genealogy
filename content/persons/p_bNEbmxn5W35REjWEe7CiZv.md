@@ -4,7 +4,7 @@ id: p_bNEbmxn5W35REjWEe7CiZv
 status: active
 merged_into: null
 display_name: 王紱
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_858hjDQfzw5sShbCdHgk4g
+        subject_person_id: p_bNEbmxn5W35REjWEe7CiZv
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_kqJf2y4xM3bYzBefzeKb9x
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_sjQsNxrxhZSZhq86WPuKVx
+          claim_id: c_858hjDQfzw5sShbCdHgk4g
+          source_id: s_YGnBtTHVaZ2Y1z7kZoGjTn
+          stance: supports
+          locator: CBDB 双向互证（子 王世林 ⇄ 父 王紱）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_kqJf2y4xM3bYzBefzeKb9x
+        status: active
+        display_name: 王世林
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_kqJf2y4xM3bYzBefzeKb9x | 王世林 | accepted |
 
 ## 外部来源
 

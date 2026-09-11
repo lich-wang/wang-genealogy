@@ -4,7 +4,7 @@ id: p_G4qJ7yPaYSWAivkaqit1c4
 status: active
 merged_into: null
 display_name: 王徽
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,8 +100,71 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_UfFrhUzvwC_X35d-_s8E5A
+        subject_person_id: p_iSUfErCn12jeYUoQ7FXh2z
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_G4qJ7yPaYSWAivkaqit1c4
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GXRXA9zVXAHM1YtAkhNbB2
+          claim_id: c_UfFrhUzvwC_X35d-_s8E5A
+          source_id: s_AX3P585bEwZ5g8ooDZ5ufL
+          stance: supports
+          locator: CBDB 双向互证（父 王甲 ⇄ 子 王徽）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_iSUfErCn12jeYUoQ7FXh2z
+        status: active
+        display_name: 王甲
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c__3dsN4a33zvIQ-ZCcvE3eO
+        subject_person_id: p_G4qJ7yPaYSWAivkaqit1c4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_an7ov6FgpfVGhQMeCjTmjs
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9iaGuGvDAmSCZK6vuiOv24
+          claim_id: c__3dsN4a33zvIQ-ZCcvE3eO
+          source_id: s_PmivFpkMA3kVAkJtL4zax5
+          stance: supports
+          locator: CBDB 双向互证（父 王徽 ⇄ 子 王璉）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_PmivFpkMA3kVAkJtL4zax5
+            source_type: api_record
+            title: 中国历代人物传记资料库：王璉（CBDB 18285）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=18285&o=json
+            external_identifier: CBDB:18285
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.706Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_an7ov6FgpfVGhQMeCjTmjs
+        status: active
+        display_name: 王璉
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -152,8 +215,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_iSUfErCn12jeYUoQ7FXh2z | 王甲 | accepted |
+| children | p_an7ov6FgpfVGhQMeCjTmjs | 王璉 | accepted |
 | descendants | p_ncJMsYgNL3hQVCtFzxU5EN | 王子輿 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王徽（CBDB 18284）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=18284&o=json)
+- [中国历代人物传记资料库：王璉（CBDB 18285）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=18285&o=json)

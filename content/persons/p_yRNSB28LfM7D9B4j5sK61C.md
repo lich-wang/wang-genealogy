@@ -4,7 +4,7 @@ id: p_yRNSB28LfM7D9B4j5sK61C
 status: active
 merged_into: null
 display_name: 王洙
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -77,7 +77,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_51nP3yUjdzrFJuanLwUQtx
+        subject_person_id: p_DRV1HsEBatah9fyUGYScze
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_yRNSB28LfM7D9B4j5sK61C
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_K79-JYm4eJ9GFpEwx8LMlV
+          claim_id: c_51nP3yUjdzrFJuanLwUQtx
+          source_id: s_tFfdNv4CRGZX43cjFkYZn6
+          stance: supports
+          locator: CBDB 双向互证（祖父 王忱 ⇄ 孫 王洙）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_DRV1HsEBatah9fyUGYScze
+        status: active
+        display_name: 王忱
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_DRV1HsEBatah9fyUGYScze | 王忱 | accepted |
 
 ## 外部来源
 

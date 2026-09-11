@@ -4,7 +4,7 @@ id: p_c3kfQEGoJPL7CtMwoxHyL2
 status: active
 merged_into: null
 display_name: 王該
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_mKwudffsOeeLMvqT-KVuqn
+        subject_person_id: p_c3kfQEGoJPL7CtMwoxHyL2
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_KcKFqp4wzz7NL4rU9Bp3pT
+        generation_count: 4
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_LxJ8gQryMAvcQqhpSXEjK6
+          claim_id: c_mKwudffsOeeLMvqT-KVuqn
+          source_id: s_B5Hq9kCAGUeo5jw5zGySMx
+          stance: supports
+          locator: CBDB 双向互证（玄孫;四世孫 王著 ⇄ 高祖;四世祖 王該）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_KcKFqp4wzz7NL4rU9Bp3pT
+        status: active
+        display_name: 王著
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_KcKFqp4wzz7NL4rU9Bp3pT | 王著 | accepted |
 
 ## 外部来源
 

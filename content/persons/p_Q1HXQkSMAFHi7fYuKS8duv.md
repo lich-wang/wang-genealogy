@@ -4,7 +4,7 @@ id: p_Q1HXQkSMAFHi7fYuKS8duv
 status: active
 merged_into: null
 display_name: 王蕙
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -133,7 +133,70 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_nvqs8_cIY5Rl0EQFo6rmic
+        subject_person_id: p_26BJbufiHdX8oiM4dJs1K3
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Q1HXQkSMAFHi7fYuKS8duv
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4iGIWWrIXhxCvlKFQyZH2u
+          claim_id: c_nvqs8_cIY5Rl0EQFo6rmic
+          source_id: s_MuLyWsZibwer1EjgcGYF4p
+          stance: supports
+          locator: CBDB 双向互证（孫 王蕙 ⇄ 祖父 王琰）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_MuLyWsZibwer1EjgcGYF4p
+            source_type: api_record
+            title: 中国历代人物传记资料库：王琰（CBDB 386693）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=386693&o=json
+            external_identifier: CBDB:386693
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:21.902Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_26BJbufiHdX8oiM4dJs1K3
+        status: active
+        display_name: 王琰
+        merged_into_person_id: null
+    - claim:
+        id: c_NS3LUm3miyxJeUa4Was56r
+        subject_person_id: p_TA3EM7RAXDxn6hGbgBVmnw
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Q1HXQkSMAFHi7fYuKS8duv
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WB-5WnXBVtz37t1zoXAc4U
+          claim_id: c_NS3LUm3miyxJeUa4Was56r
+          source_id: s_cTeZV932iKduvMEe2aNegi
+          stance: supports
+          locator: CBDB 双向互证（曾祖 王僑 ⇄ 曾孫; 重孫 王蕙）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_TA3EM7RAXDxn6hGbgBVmnw
+        status: active
+        display_name: 王僑
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,7 +218,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_26BJbufiHdX8oiM4dJs1K3 | 王琰 | accepted |
+| ancestors | p_TA3EM7RAXDxn6hGbgBVmnw | 王僑 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王蕙（CBDB 386691）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=386691&o=json)
+- [中国历代人物传记资料库：王琰（CBDB 386693）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=386693&o=json)

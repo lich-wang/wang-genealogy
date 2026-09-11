@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王南夫
 cbdb_id: 22130
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -91,7 +91,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_CXEMbikh6durWj-CYwIeSH
+        subject_person_id: p_89pxyYXCwEKYhMLt29PYoD
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_mMMvUVTqSGCzN9tBPNL2KP
+        generation_count: 4
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_k3FABSA8_eV89aoLv4bX77
+          claim_id: c_CXEMbikh6durWj-CYwIeSH
+          source_id: s_7RjS56q2inTQgTRu2wGC13
+          stance: supports
+          locator: CBDB 双向互证（玄孫;四世孫 王南夫 ⇄ 高祖;四世祖 王彬）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_7RjS56q2inTQgTRu2wGC13
+            source_type: api_record
+            title: 中国历代人物传记资料库：王彬（CBDB 1859）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1859&o=json
+            external_identifier: CBDB:1859
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.350Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_89pxyYXCwEKYhMLt29PYoD
+        status: active
+        display_name: 王彬
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_89pxyYXCwEKYhMLt29PYoD | 王彬 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王彬（CBDB 1859）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1859&o=json)
 - [中国历代人物传记资料库：王南夫（CBDB 22130）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22130&o=json)

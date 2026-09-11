@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王伯芻
 cbdb_id: 26889
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -172,7 +172,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_9tRMkXBPfDB8w5Nj5EHFWO
+        subject_person_id: p_B91xwNrDqFgSbPCAbCxGqY
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_YorBp3QdkukixtBGPrhSQo
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MDC8EzpBvYAv3TOMR_2nM6
+          claim_id: c_9tRMkXBPfDB8w5Nj5EHFWO
+          source_id: s_L8nAJWTtDqSqXrt8PCg1PA
+          stance: supports
+          locator: CBDB 双向互证（子 王伯芻 ⇄ 父 王侃）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_L8nAJWTtDqSqXrt8PCg1PA
+            source_type: api_record
+            title: 中国历代人物传记资料库：王侃（CBDB 26892）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26892&o=json
+            external_identifier: CBDB:26892
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.950Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_B91xwNrDqFgSbPCAbCxGqY
+        status: active
+        display_name: 王侃
+        merged_into_person_id: null
   children:
     - claim:
         id: c_zTKuHfuzWfa1_tOCDmQ9EQ
@@ -236,9 +273,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_B91xwNrDqFgSbPCAbCxGqY | 王侃 | accepted |
 | children | p_KxMfBq1PDpiQoS7Gqbu98D | 王源 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王伯芻（CBDB 26889）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26889&o=json)
+- [中国历代人物传记资料库：王侃（CBDB 26892）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26892&o=json)
 - [中国历代人物传记资料库：王源（CBDB 39441）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=39441&o=json)

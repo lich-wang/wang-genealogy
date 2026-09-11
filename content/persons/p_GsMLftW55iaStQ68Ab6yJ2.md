@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王同節
 cbdb_id: 22170
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:22170
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_V5uRehD5yKrAiRQGbTE1aG
             source_type: api_record
             title: 中国历代人物传记资料库：王同節（CBDB 22170）
@@ -87,7 +87,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_Afuq8bLYjpRFJoRD3G7337
+        subject_person_id: p_GsMLftW55iaStQ68Ab6yJ2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Hi2pMZGHcEwS8ZkC4zPUSd
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5IQ7xozqmIL_VcPRFPUHry
+          claim_id: c_Afuq8bLYjpRFJoRD3G7337
+          source_id: s_V5uRehD5yKrAiRQGbTE1aG
+          stance: supports
+          locator: CBDB 双向互证（子 王待價 ⇄ 父 王同節）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_Hi2pMZGHcEwS8ZkC4zPUSd
+        status: active
+        display_name: 王待價
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -148,6 +174,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_Hi2pMZGHcEwS8ZkC4zPUSd | 王待價 | accepted |
 | descendants | p_DFWuMPWUstBm3Tr8KacmZf | 王嗣宗 | accepted |
 
 ## 外部来源

@@ -4,7 +4,7 @@ id: p_Na2LaAnCXtPjvb5M25fErD
 status: active
 merged_into: null
 display_name: 王起
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_CV39X1AqXjbM3-iDmtsKXj
+        subject_person_id: p_Na2LaAnCXtPjvb5M25fErD
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_BJyQDA2c2Q6qoYGw3VJCFD
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_V1QVlG9ETfRsEzloEAj8BW
+          claim_id: c_CV39X1AqXjbM3-iDmtsKXj
+          source_id: s_5hinrH2jiS1UQN8yTHfyMf
+          stance: supports
+          locator: CBDB 双向互证（子 王元發 ⇄ 父 王起）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_BJyQDA2c2Q6qoYGw3VJCFD
+        status: active
+        display_name: 王元發
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_BJyQDA2c2Q6qoYGw3VJCFD | 王元發 | accepted |
 
 ## 外部来源
 

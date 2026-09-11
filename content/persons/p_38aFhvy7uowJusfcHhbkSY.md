@@ -4,7 +4,7 @@ id: p_38aFhvy7uowJusfcHhbkSY
 status: active
 merged_into: null
 display_name: 王乾祐
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_ColGdap_7JY3MHEKbHmJNE
+        subject_person_id: p_38aFhvy7uowJusfcHhbkSY
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_iDKWDJMk6aBELAydymjF7H
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0pECWmjqJicQuo01IsE9hd
+          claim_id: c_ColGdap_7JY3MHEKbHmJNE
+          source_id: s_DtDcGH8meb4hdv9s7aJJjo
+          stance: supports
+          locator: CBDB 双向互证（子 王秉 ⇄ 父 王乾祐）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_iDKWDJMk6aBELAydymjF7H
+        status: active
+        display_name: 王秉
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_iDKWDJMk6aBELAydymjF7H | 王秉 | accepted |
 
 ## 外部来源
 

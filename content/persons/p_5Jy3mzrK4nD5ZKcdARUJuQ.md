@@ -4,7 +4,7 @@ id: p_5Jy3mzrK4nD5ZKcdARUJuQ
 status: active
 merged_into: null
 display_name: 王肯堂
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_0n3J8E-HuOj0eN0c9yxE8c
+        subject_person_id: p_923xZ5qSMZFGgS46h7nLWU
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_5Jy3mzrK4nD5ZKcdARUJuQ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hin3-6Vh6BoZa2vhkBgrcj
+          claim_id: c_0n3J8E-HuOj0eN0c9yxE8c
+          source_id: s_EBFrf3tktAQ9Uun45jM9MQ
+          stance: supports
+          locator: CBDB 双向互证（父 王樵 ⇄ 子 王肯堂）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_923xZ5qSMZFGgS46h7nLWU
+        status: active
+        display_name: 王樵
+        merged_into_person_id: null
   children:
     - claim:
         id: c_k9HA2kGhuyEEobrUccRG9K
@@ -164,6 +190,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_923xZ5qSMZFGgS46h7nLWU | 王樵 | accepted |
 | children | p_FE6i55GXzPWLVER3EtdHfo | 王彥泓 | accepted |
 
 ## 外部来源

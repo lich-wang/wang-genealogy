@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王夢證
 cbdb_id: 22172
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,7 +86,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_GvKv6rUtyL90HEKhbrns2L
+        subject_person_id: p_Hi2pMZGHcEwS8ZkC4zPUSd
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_FXHwcoHY4AFBFWRSSNw52j
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7VBo18QaESA_PGIKp78P8A
+          claim_id: c_GvKv6rUtyL90HEKhbrns2L
+          source_id: s_v8Q2d8qzHzCpc4ytk1RoKn
+          stance: supports
+          locator: CBDB 双向互证（父 王待價 ⇄ 子 王夢證）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_Hi2pMZGHcEwS8ZkC4zPUSd
+        status: active
+        display_name: 王待價
+        merged_into_person_id: null
   children:
     - claim:
         id: c_vnkN2yVruN3CgPdhRBkV2d
@@ -124,6 +150,43 @@ relationships:
         id: p_D4suc6s36QDqEBF4Wvu32S
         status: active
         display_name: 王嗣慶
+        merged_into_person_id: null
+    - claim:
+        id: c_vaqHPrYHgZJEAQ2Q2P5qch
+        subject_person_id: p_FXHwcoHY4AFBFWRSSNw52j
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_DFWuMPWUstBm3Tr8KacmZf
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BKjzAjESpzujI2bloi4GTM
+          claim_id: c_vaqHPrYHgZJEAQ2Q2P5qch
+          source_id: s_42M1RyqHPGFYMpZ9FeVqji
+          stance: supports
+          locator: CBDB 双向互证（父 王夢證 ⇄ 子 王嗣宗）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_42M1RyqHPGFYMpZ9FeVqji
+            source_type: api_record
+            title: 中国历代人物传记资料库：王嗣宗（CBDB 1880）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1880&o=json
+            external_identifier: CBDB:1880
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.370Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_DFWuMPWUstBm3Tr8KacmZf
+        status: active
+        display_name: 王嗣宗
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
@@ -174,10 +237,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Hi2pMZGHcEwS8ZkC4zPUSd | 王待價 | accepted |
 | children | p_D4suc6s36QDqEBF4Wvu32S | 王嗣慶 | accepted |
+| children | p_DFWuMPWUstBm3Tr8KacmZf | 王嗣宗 | accepted |
 | descendants | p_LKzDYAPDmX1Dcm3kwWWk7w | 王九言 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王夢證（CBDB 22172）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22172&o=json)
 - [中国历代人物传记资料库：王嗣慶（CBDB 696907）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696907&o=json)
+- [中国历代人物传记资料库：王嗣宗（CBDB 1880）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1880&o=json)

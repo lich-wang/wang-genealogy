@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王正辭
 cbdb_id: 26352
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,8 +86,83 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_vmiWEw7819KQ-RjLBM6MwJ
+        subject_person_id: p_9NsMqSGNiM8RgLGjUarzq5
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_gkheh2H38pxtSB6bw2FeUY
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_b8hENFW28I_2ZWrqdQEOzB
+          claim_id: c_vmiWEw7819KQ-RjLBM6MwJ
+          source_id: s_u8Y9bSA64Ra2kkyGTspCFk
+          stance: supports
+          locator: CBDB 双向互证（子 王正辭 ⇄ 父 王若納）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_u8Y9bSA64Ra2kkyGTspCFk
+            source_type: api_record
+            title: 中国历代人物传记资料库：王若納（CBDB 26351）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26351&o=json
+            external_identifier: CBDB:26351
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:45.019Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_9NsMqSGNiM8RgLGjUarzq5
+        status: active
+        display_name: 王若納
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_yF4i1EQY1v_f9cgnehUHF5
+        subject_person_id: p_gkheh2H38pxtSB6bw2FeUY
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_wMzMMZUYVLTvRNNyoinudX
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8ShS2O9ZS8yqf5xfUMUbie
+          claim_id: c_yF4i1EQY1v_f9cgnehUHF5
+          source_id: s_EHDESTiq8s2BPbwzx11enQ
+          stance: supports
+          locator: CBDB 双向互证（父 王正辭 ⇄ 子 王檢）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_EHDESTiq8s2BPbwzx11enQ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王檢（CBDB 26353）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26353&o=json
+            external_identifier: CBDB:26353
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.932Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_wMzMMZUYVLTvRNNyoinudX
+        status: active
+        display_name: 王檢
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,7 +186,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_9NsMqSGNiM8RgLGjUarzq5 | 王若納 | accepted |
+| children | p_wMzMMZUYVLTvRNNyoinudX | 王檢 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王檢（CBDB 26353）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26353&o=json)
+- [中国历代人物传记资料库：王若納（CBDB 26351）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26351&o=json)
 - [中国历代人物传记资料库：王正辭（CBDB 26352）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26352&o=json)

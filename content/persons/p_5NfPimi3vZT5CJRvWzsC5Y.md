@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王
 cbdb_id: 35032
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -229,6 +229,32 @@ relationships:
         status: active
         display_name: 王家桢
         merged_into_person_id: null
+    - claim:
+        id: c_OAgBPhC-b-sxW2nIpFvgdc
+        subject_person_id: p_bL6RtEarbpBgwtUf32Pksp
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_5NfPimi3vZT5CJRvWzsC5Y
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Gbi4uSzqzixfZSGXyerFog
+          claim_id: c_OAgBPhC-b-sxW2nIpFvgdc
+          source_id: s_E9tVULtwBFQqdk3WBHbfwp
+          stance: supports
+          locator: CBDB 双向互证（父 王家楨 ⇄ 子 王）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_bL6RtEarbpBgwtUf32Pksp
+        status: active
+        display_name: 王家楨
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -255,6 +281,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_EoTbL3uo57XEyKhjsS1QfY | 王家桢 | accepted |
+| parents | p_bL6RtEarbpBgwtUf32Pksp | 王家楨 | accepted |
 
 ## 外部来源
 

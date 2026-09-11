@@ -4,7 +4,7 @@ id: p_3nkdRNwXhSrvEF75CZoPMw
 status: active
 merged_into: null
 display_name: 王演
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_d5Yx461mVryRVS2MMlmP9p
+        subject_person_id: p_UZ62qd81aSCiNYHYHLsP4F
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3nkdRNwXhSrvEF75CZoPMw
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QAMn8TcP2CtRB_elLA3Q_V
+          claim_id: c_d5Yx461mVryRVS2MMlmP9p
+          source_id: s_oUY55k1UJtMUGpWGGzFsAz
+          stance: supports
+          locator: CBDB 双向互证（父 王坑 ⇄ 子 王演）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_UZ62qd81aSCiNYHYHLsP4F
+        status: active
+        display_name: 王坑
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_l-8_3pbLf2xlo_rVrDEcEX
+        subject_person_id: p_3nkdRNwXhSrvEF75CZoPMw
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_MidTUhibT32K4Xg5RL8sUj
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_37l2fbqZPxjfXoJifWj1LQ
+          claim_id: c_l-8_3pbLf2xlo_rVrDEcEX
+          source_id: s_oUY55k1UJtMUGpWGGzFsAz
+          stance: supports
+          locator: CBDB 双向互证（子 王承謙 ⇄ 父 王演）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_MidTUhibT32K4Xg5RL8sUj
+        status: active
+        display_name: 王承謙
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_UZ62qd81aSCiNYHYHLsP4F | 王坑 | accepted |
+| children | p_MidTUhibT32K4Xg5RL8sUj | 王承謙 | accepted |
 
 ## 外部来源
 

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王士會
 cbdb_id: 32342
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -113,7 +113,44 @@ relationships:
         status: active
         display_name: 王德玄
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_yHh2pcdBiOz39JkN7duv6b
+        subject_person_id: p_sPoBNZqLdGBxQ46ZCBG9Hg
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_iNKWqc7216f4rhV2nxAyz7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_N0Jv2ly-9Ss4auKiKAWIMJ
+          claim_id: c_yHh2pcdBiOz39JkN7duv6b
+          source_id: s_jFK1nutNqP6dnUo6kczws9
+          stance: supports
+          locator: CBDB 双向互证（父 王士會 ⇄ 子 王守一）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_jFK1nutNqP6dnUo6kczws9
+            source_type: api_record
+            title: 中国历代人物传记资料库：王守一（CBDB 32343）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=32343&o=json
+            external_identifier: CBDB:32343
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.053Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_iNKWqc7216f4rhV2nxAyz7
+        status: active
+        display_name: 王守一
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -138,7 +175,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_GsA3E3fpoGBL3KAwr5V6BX | 王德玄 | accepted |
+| children | p_iNKWqc7216f4rhV2nxAyz7 | 王守一 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王士會（CBDB 32342）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=32342&o=json)
+- [中国历代人物传记资料库：王守一（CBDB 32343）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=32343&o=json)

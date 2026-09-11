@@ -4,7 +4,7 @@ id: p_RDcKjrKBaYqkBvE1BonEBB
 status: active
 merged_into: null
 display_name: 王式丹
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -134,7 +134,59 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_bQeNPSMbBBEKIAL6c38RHu
+        subject_person_id: p_RDcKjrKBaYqkBvE1BonEBB
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_UDXBmceRLhUBfq8Xtjxmsv
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fDv5UbxQCrbEnbsp2lbtGO
+          claim_id: c_bQeNPSMbBBEKIAL6c38RHu
+          source_id: s_rFiBcNR62hJzJN5hxBZfk9
+          stance: supports
+          locator: CBDB 双向互证（孫 王箴輿 ⇄ 祖父 王式丹）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_UDXBmceRLhUBfq8Xtjxmsv
+        status: active
+        display_name: 王箴輿
+        merged_into_person_id: null
+    - claim:
+        id: c_qs0fbIUCrQFLRSuuc6lBBt
+        subject_person_id: p_RDcKjrKBaYqkBvE1BonEBB
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_zkDYwd29LScc5MrymJwHNf
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6rlRI1aKNcnNZm-N4NYVSv
+          claim_id: c_qs0fbIUCrQFLRSuuc6lBBt
+          source_id: s_rFiBcNR62hJzJN5hxBZfk9
+          stance: supports
+          locator: CBDB 双向互证（孫 王箴翼 ⇄ 祖父 王式丹）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_zkDYwd29LScc5MrymJwHNf
+        status: active
+        display_name: 王箴翼
+        merged_into_person_id: null
   other: []
 ---
 
@@ -155,6 +207,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_UDXBmceRLhUBfq8Xtjxmsv | 王箴輿 | accepted |
+| descendants | p_zkDYwd29LScc5MrymJwHNf | 王箴翼 | accepted |
 
 ## 外部来源
 

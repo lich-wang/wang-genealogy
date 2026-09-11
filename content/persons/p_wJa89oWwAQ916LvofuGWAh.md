@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王桐
 cbdb_id: 21969
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -206,6 +206,32 @@ relationships:
         status: active
         display_name: 王滂
         merged_into_person_id: null
+    - claim:
+        id: c_GEVlJiTgDm1M14Kx4BCrAK
+        subject_person_id: p_XsUszSCs1dVMgp82WbKVPU
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_wJa89oWwAQ916LvofuGWAh
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tvtq3KKVGQNHEn7EYqyUDi
+          claim_id: c_GEVlJiTgDm1M14Kx4BCrAK
+          source_id: s_1uru69BA1H1mJty4vCCNAm
+          stance: supports
+          locator: CBDB 双向互证（父 王滂 ⇄ 子 王桐）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_XsUszSCs1dVMgp82WbKVPU
+        status: active
+        display_name: 王滂
+        merged_into_person_id: null
   children:
     - claim:
         id: c_nPfBdx7C6AMYW91BU2XJ8i
@@ -325,6 +351,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_LSdPThzG5tshqXfyGSe2wD | 王滂 | accepted |
+| parents | p_XsUszSCs1dVMgp82WbKVPU | 王滂 | accepted |
 | children | p_sJJf5iLL8jKATB3SGymAEh | 王珏 | accepted |
 
 ## 外部来源

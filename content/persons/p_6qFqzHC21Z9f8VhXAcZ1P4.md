@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王舉正
 cbdb_id: 8145
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -166,6 +166,43 @@ relationships:
         status: active
         display_name: 王誨說
         merged_into_person_id: null
+    - claim:
+        id: c_NUXT46MN0kZDlCLLP13191
+        subject_person_id: p_6qFqzHC21Z9f8VhXAcZ1P4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_rZc2qEJdizKjfm6aY4AiLt
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PZ5p5vrQSec11BvyLuD3oy
+          claim_id: c_NUXT46MN0kZDlCLLP13191
+          source_id: s_61utLnCZSPkp4e64CRFKuH
+          stance: supports
+          locator: CBDB 双向互证（父 王舉正 ⇄ 子 王說）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_61utLnCZSPkp4e64CRFKuH
+            source_type: api_record
+            title: 中国历代人物传记资料库：王說（CBDB 1933）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1933&o=json
+            external_identifier: CBDB:1933
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.411Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_rZc2qEJdizKjfm6aY4AiLt
+        status: active
+        display_name: 王說
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -192,7 +229,9 @@ relationships:
 | parents | p_WJHP8YxtLrW6oyDrhKZ1wB | 王化基 | accepted |
 | children | p_HwMVovcNzpxWF4GaJygxAX | 王誨 | accepted |
 | children | p_tK8MZ6JQNdfqFgybNcLcuk | 王誨說 | accepted |
+| children | p_rZc2qEJdizKjfm6aY4AiLt | 王說 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王舉正（CBDB 8145）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=8145&o=json)
+- [中国历代人物传记资料库：王說（CBDB 1933）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1933&o=json)

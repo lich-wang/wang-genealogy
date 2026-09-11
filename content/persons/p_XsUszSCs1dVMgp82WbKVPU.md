@@ -4,7 +4,7 @@ id: p_XsUszSCs1dVMgp82WbKVPU
 status: active
 merged_into: null
 display_name: 王滂
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_GEVlJiTgDm1M14Kx4BCrAK
+        subject_person_id: p_XsUszSCs1dVMgp82WbKVPU
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_wJa89oWwAQ916LvofuGWAh
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tvtq3KKVGQNHEn7EYqyUDi
+          claim_id: c_GEVlJiTgDm1M14Kx4BCrAK
+          source_id: s_1uru69BA1H1mJty4vCCNAm
+          stance: supports
+          locator: CBDB 双向互证（父 王滂 ⇄ 子 王桐）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_1uru69BA1H1mJty4vCCNAm
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王桐（21969）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=21969&o=json
+            external_identifier: CBDB:21969
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T02:49:21.512Z
+            metadata_json: null
+      object_person:
+        id: p_wJa89oWwAQ916LvofuGWAh
+        status: active
+        display_name: 王桐
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_wJa89oWwAQ916LvofuGWAh | 王桐 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王滂（CBDB 21968）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=21968&o=json)
+- [CBDB 中国历代人物传记资料库：王桐（21969）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=21969&o=json)

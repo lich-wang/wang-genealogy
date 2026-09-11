@@ -4,7 +4,7 @@ id: p_EZ3srBdiXSE6J75Wn5u1sb
 status: active
 merged_into: null
 display_name: 王廷
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_SsP1w8WP_TAqRB5UTMmyj6
+        subject_person_id: p_EZ3srBdiXSE6J75Wn5u1sb
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_9eCcDpeVkEgC9tqMMZEZWG
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_U04L91DRnuf32oi5Vhv6cq
+          claim_id: c_SsP1w8WP_TAqRB5UTMmyj6
+          source_id: s_MThndogaedxdmxCGFsxadv
+          stance: supports
+          locator: CBDB 双向互证（子 王忠政 ⇄ 父 王廷）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_9eCcDpeVkEgC9tqMMZEZWG
+        status: active
+        display_name: 王忠
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_9eCcDpeVkEgC9tqMMZEZWG | 王忠 | accepted |
 
 ## 外部来源
 

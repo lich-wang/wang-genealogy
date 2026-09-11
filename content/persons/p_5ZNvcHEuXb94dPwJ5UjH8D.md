@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王族
 cbdb_id: 23102
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,8 +86,82 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_A-BYAR8nOGflDXJdXXs9-l
+        subject_person_id: p_27oLmRHCG1cWWH3qpZQNSj
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_5ZNvcHEuXb94dPwJ5UjH8D
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cdERehrF_XTYf3SaZq_HZO
+          claim_id: c_A-BYAR8nOGflDXJdXXs9-l
+          source_id: s_garieJ4pNJjJFH1FZvjDre
+          stance: supports
+          locator: CBDB 双向互证（子 王族 ⇄ 父 王鎮）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_garieJ4pNJjJFH1FZvjDre
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鎮（CBDB 23101）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=23101&o=json
+            external_identifier: CBDB:23101
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.867Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_27oLmRHCG1cWWH3qpZQNSj
+        status: active
+        display_name: 王鎮
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_7kVSEc5n9DB9b63s0R5uGG
+        subject_person_id: p_5ZNvcHEuXb94dPwJ5UjH8D
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_9krCz2yefFd538EMhsFrJJ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Hujc--RYFGhaen9dEXBkzl
+          claim_id: c_7kVSEc5n9DB9b63s0R5uGG
+          source_id: s_9zoDq1SDQYFoQgU6tF3TMy
+          stance: supports
+          locator: CBDB 双向互证（父 王族 ⇄ 子 王良翰）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_9zoDq1SDQYFoQgU6tF3TMy
+            source_type: api_record
+            title: 中国历代人物传记资料库：王良翰（CBDB 23103）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=23103&o=json
+            external_identifier: CBDB:23103
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.868Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_9krCz2yefFd538EMhsFrJJ
+        status: active
+        display_name: 王良翰
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,7 +185,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_27oLmRHCG1cWWH3qpZQNSj | 王鎮 | accepted |
+| children | p_9krCz2yefFd538EMhsFrJJ | 王良翰 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王良翰（CBDB 23103）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=23103&o=json)
+- [中国历代人物传记资料库：王鎮（CBDB 23101）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=23101&o=json)
 - [中国历代人物传记资料库：王族（CBDB 23102）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=23102&o=json)

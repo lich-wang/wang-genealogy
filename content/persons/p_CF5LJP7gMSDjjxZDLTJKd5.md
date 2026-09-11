@@ -4,7 +4,7 @@ id: p_CF5LJP7gMSDjjxZDLTJKd5
 status: active
 merged_into: null
 display_name: 王濟
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -99,7 +99,59 @@ relationships:
         status: active
         display_name: 王文奎
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_q77rACv3cwzYgfv64buhwJ
+        subject_person_id: p_CF5LJP7gMSDjjxZDLTJKd5
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_qLcC4SmUNJ1rkkQyeeqtKk
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Op6PToK09XMWs0pL-vjxCb
+          claim_id: c_q77rACv3cwzYgfv64buhwJ
+          source_id: s_8MUgv6sNQt8ThP4q5TJstL
+          stance: supports
+          locator: CBDB 双向互证（子 王廷陳 ⇄ 父 王濟）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_qLcC4SmUNJ1rkkQyeeqtKk
+        status: active
+        display_name: 王廷陳
+        merged_into_person_id: null
+    - claim:
+        id: c__hi5qZMsYW9xquWMRLaCBS
+        subject_person_id: p_CF5LJP7gMSDjjxZDLTJKd5
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_yJdXEyhNkYGEWdnouNB9Xu
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_l6MvFQM8BvtkC6qZZj9523
+          claim_id: c__hi5qZMsYW9xquWMRLaCBS
+          source_id: s_8MUgv6sNQt8ThP4q5TJstL
+          stance: supports
+          locator: CBDB 双向互证（子 王廷瞻 ⇄ 父 王濟）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_yJdXEyhNkYGEWdnouNB9Xu
+        status: active
+        display_name: 王廷瞻
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -176,6 +228,8 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_PGZtNCp6fX43UKKVunQyUd | 王文奎 | accepted |
+| children | p_qLcC4SmUNJ1rkkQyeeqtKk | 王廷陳 | accepted |
+| children | p_yJdXEyhNkYGEWdnouNB9Xu | 王廷瞻 | accepted |
 | ancestors | p_uadUiUdJs2HHpEDqfmU928 | 王仲斌 | accepted |
 | ancestors | p_MtM5ZgKmZYVFMBTAMHqT8e | 王思旻 | accepted |
 

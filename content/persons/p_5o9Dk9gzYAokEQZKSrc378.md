@@ -4,7 +4,7 @@ id: p_5o9Dk9gzYAokEQZKSrc378
 status: active
 merged_into: null
 display_name: 王惟賢
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -77,7 +77,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_pOueO-otEv30KoSYgqWk1c
+        subject_person_id: p_WfKGNEwFj8S9f7DUKj8X6D
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_5o9Dk9gzYAokEQZKSrc378
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-bzhsQf6PHnq0u_FDiI5YH
+          claim_id: c_pOueO-otEv30KoSYgqWk1c
+          source_id: s_Dkt2UKu9ZKjd56VKqKNmkw
+          stance: supports
+          locator: CBDB 双向互证（曾祖 王正己 ⇄ 曾孫; 重孫 王惟賢）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_WfKGNEwFj8S9f7DUKj8X6D
+        status: active
+        display_name: 王正己
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_WfKGNEwFj8S9f7DUKj8X6D | 王正己 | accepted |
 
 ## 外部来源
 

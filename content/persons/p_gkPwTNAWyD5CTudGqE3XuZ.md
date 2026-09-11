@@ -4,7 +4,7 @@ id: p_gkPwTNAWyD5CTudGqE3XuZ
 status: active
 merged_into: null
 display_name: 王彬
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_ArRxwhXLH8npuTBnAXoAqK
+        subject_person_id: p_gkPwTNAWyD5CTudGqE3XuZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_sZrzsD25P9qzbgJ8x84rcH
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jdFaEhTArNFbfYD1D-uqKU
+          claim_id: c_ArRxwhXLH8npuTBnAXoAqK
+          source_id: s_QGL2jg794p6jrtUEefS23t
+          stance: supports
+          locator: CBDB 双向互证（子 王識 ⇄ 父 王彬）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_sZrzsD25P9qzbgJ8x84rcH
+        status: active
+        display_name: 王識
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_sZrzsD25P9qzbgJ8x84rcH | 王識 | accepted |
 
 ## 外部来源
 

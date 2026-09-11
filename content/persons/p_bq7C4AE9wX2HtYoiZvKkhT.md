@@ -4,7 +4,7 @@ id: p_bq7C4AE9wX2HtYoiZvKkhT
 status: active
 merged_into: null
 display_name: 王蕃
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_Ulq7pNxxrJRC6OCdUVCA_q
+        subject_person_id: p_XfMqsim2Q2nawMwLbryQH7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_bq7C4AE9wX2HtYoiZvKkhT
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_aN1v-Tk_z61B3XTYoliYEs
+          claim_id: c_Ulq7pNxxrJRC6OCdUVCA_q
+          source_id: s_Bw7zDBFLfvTRAwxWiXuZ7M
+          stance: supports
+          locator: CBDB 双向互证（父 王履 ⇄ 子 王蕃）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_XfMqsim2Q2nawMwLbryQH7
+        status: active
+        display_name: 王履
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_Filtxa7KxxIkpks98Yl57B
+        subject_person_id: p_bq7C4AE9wX2HtYoiZvKkhT
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_KHaXhPbPqyEQrQLvtC1jiQ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rYAIBM7nMzCMEPfxE5QpDr
+          claim_id: c_Filtxa7KxxIkpks98Yl57B
+          source_id: s_Bw7zDBFLfvTRAwxWiXuZ7M
+          stance: supports
+          locator: CBDB 双向互证（子 王鎮 ⇄ 父 王蕃）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_KHaXhPbPqyEQrQLvtC1jiQ
+        status: active
+        display_name: 王鎮
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_XfMqsim2Q2nawMwLbryQH7 | 王履 | accepted |
+| children | p_KHaXhPbPqyEQrQLvtC1jiQ | 王鎮 | accepted |
 
 ## 外部来源
 

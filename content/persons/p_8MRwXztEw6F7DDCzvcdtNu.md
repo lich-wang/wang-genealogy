@@ -4,7 +4,7 @@ id: p_8MRwXztEw6F7DDCzvcdtNu
 status: active
 merged_into: null
 display_name: 王鎬
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_ZgP5BUhanmbnMObyd57Luz
+        subject_person_id: p_oShGPWRUUN6brzr17EdqQw
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_8MRwXztEw6F7DDCzvcdtNu
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_um0WZyIlfVutD-f3-t4KgA
+          claim_id: c_ZgP5BUhanmbnMObyd57Luz
+          source_id: s_Aj3s8nTDdmoBjtCjFyF8MM
+          stance: supports
+          locator: CBDB 双向互证（父 王應期 ⇄ 子 王鎬）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_oShGPWRUUN6brzr17EdqQw
+        status: active
+        display_name: 王應期
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_sVHqNYvVZEP91SEABfTfXX
+        subject_person_id: p_8MRwXztEw6F7DDCzvcdtNu
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_91Pcfe43SKLM3QhSvGK4Ky
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5y-ZlNen1PpZPKJ_VdSTXA
+          claim_id: c_sVHqNYvVZEP91SEABfTfXX
+          source_id: s_Aj3s8nTDdmoBjtCjFyF8MM
+          stance: supports
+          locator: CBDB 双向互证（子 王汝嘉 ⇄ 父 王鎬）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_91Pcfe43SKLM3QhSvGK4Ky
+        status: active
+        display_name: 王汝嘉
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_oShGPWRUUN6brzr17EdqQw | 王應期 | accepted |
+| children | p_91Pcfe43SKLM3QhSvGK4Ky | 王汝嘉 | accepted |
 
 ## 外部来源
 

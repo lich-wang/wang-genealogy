@@ -4,7 +4,7 @@ id: p_4b81F43vAjy41X7iycXBQh
 status: active
 merged_into: null
 display_name: 王開運
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_jobEj-MhDB_3xR4I-QbidW
+        subject_person_id: p_4b81F43vAjy41X7iycXBQh
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_i4uAHMCH2MArDtTa6SQ5iE
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Jr7UYSKx5XhC5lvaSIim-1
+          claim_id: c_jobEj-MhDB_3xR4I-QbidW
+          source_id: s_sEzfFUky1qVfP87KXmpmXC
+          stance: supports
+          locator: CBDB 双向互证（子 王式耜 ⇄ 父 王開運）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_i4uAHMCH2MArDtTa6SQ5iE
+        status: active
+        display_name: 王式耜
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_i4uAHMCH2MArDtTa6SQ5iE | 王式耜 | accepted |
 
 ## 外部来源
 

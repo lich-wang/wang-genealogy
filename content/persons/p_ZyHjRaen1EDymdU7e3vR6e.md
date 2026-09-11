@@ -4,7 +4,7 @@ id: p_ZyHjRaen1EDymdU7e3vR6e
 status: active
 merged_into: null
 display_name: 王鳴盛
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_l6fT14pjZjhoEBJanVfK9e
+        subject_person_id: p_WvKfEJB5FudMr9CF2R37Ax
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ZyHjRaen1EDymdU7e3vR6e
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mgtz0LQYoZITmCNTKf_IL6
+          claim_id: c_l6fT14pjZjhoEBJanVfK9e
+          source_id: s_hmRPxUWfAta8p1JV8P6aso
+          stance: supports
+          locator: CBDB 双向互证（父 王爾達 ⇄ 子 王鳴盛）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_WvKfEJB5FudMr9CF2R37Ax
+        status: active
+        display_name: 王尔达
+        merged_into_person_id: null
   children:
     - claim:
         id: c_-Tlp8PUTJKu6tr9IXp0dyP
@@ -281,6 +307,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_WvKfEJB5FudMr9CF2R37Ax | 王尔达 | accepted |
 | children | p_WL2eC49AZSBn6E8obwFKry | 王嗣穫 | accepted |
 | children | p_zkwZsLLQjFZ5N6EjaRwRDi | 王嗣構 | accepted |
 | children | p_pth7Wt1GjSMUzqmVpJWYW9 | 王嗣疇 | accepted |

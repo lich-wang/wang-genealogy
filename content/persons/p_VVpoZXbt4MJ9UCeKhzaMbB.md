@@ -4,7 +4,7 @@ id: p_VVpoZXbt4MJ9UCeKhzaMbB
 status: active
 merged_into: null
 display_name: 王彬
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_NYznspjRO8-EpjPCNetWDG
+        subject_person_id: p_VVpoZXbt4MJ9UCeKhzaMbB
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_WJHP8YxtLrW6oyDrhKZ1wB
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bBYxsE5mYHe9svzvLASA5L
+          claim_id: c_NYznspjRO8-EpjPCNetWDG
+          source_id: s_Y146rcrNELdTu6DH1xieTY
+          stance: supports
+          locator: CBDB 双向互证（子 王化基 ⇄ 父 王彬）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_WJHP8YxtLrW6oyDrhKZ1wB
+        status: active
+        display_name: 王化基
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_WJHP8YxtLrW6oyDrhKZ1wB | 王化基 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_ksVwy4AugUMWAYeo6188Lr
 status: active
 merged_into: null
 display_name: 王傑
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_P2wugFWB-0Nm47VBUHGyCo
+        subject_person_id: p_ksVwy4AugUMWAYeo6188Lr
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_nQHeNiJCyMt1FXAtJo53Hm
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SR_lAeSS8h_00lQOaz2-NA
+          claim_id: c_P2wugFWB-0Nm47VBUHGyCo
+          source_id: s_pBxFuuWoFuh4AZFgo51AQG
+          stance: supports
+          locator: CBDB 双向互证（子 王盛 ⇄ 父 王傑）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_nQHeNiJCyMt1FXAtJo53Hm
+        status: active
+        display_name: 王盛
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_nQHeNiJCyMt1FXAtJo53Hm | 王盛 | accepted |
 
 ## 外部来源
 

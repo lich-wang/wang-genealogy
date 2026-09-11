@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王庭芳
 cbdb_id: 19081
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,8 +86,82 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_YU9GUnOpy1plNi3rnrbVHb
+        subject_person_id: p_ZPXipNMAbC9PnGPngh5BaZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_KQXHiSb9v8hy4Pk5jUcKth
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__E_Uwi2i5I1igLZ0UlyKPp
+          claim_id: c_YU9GUnOpy1plNi3rnrbVHb
+          source_id: s_Dk5mHCvDrYw26LSCHocyHn
+          stance: supports
+          locator: CBDB 双向互证（子 王庭芳 ⇄ 父 王發）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_Dk5mHCvDrYw26LSCHocyHn
+            source_type: api_record
+            title: 中国历代人物传记资料库：王發（CBDB 19080）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19080&o=json
+            external_identifier: CBDB:19080
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.722Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ZPXipNMAbC9PnGPngh5BaZ
+        status: active
+        display_name: 王發
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_i2LPQwjhrqZSb8GQoRXj0-
+        subject_person_id: p_KQXHiSb9v8hy4Pk5jUcKth
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_9iZg7bUcK8wS6LWMEX9vKo
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cy7Qid0HHEaBicdcZlx6AS
+          claim_id: c_i2LPQwjhrqZSb8GQoRXj0-
+          source_id: s_jPSqCm5JgATCVAt7R6KA7j
+          stance: supports
+          locator: CBDB 双向互证（父 王庭芳 ⇄ 子 王基）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_jPSqCm5JgATCVAt7R6KA7j
+            source_type: api_record
+            title: 中国历代人物传记资料库：王基（CBDB 19084）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19084&o=json
+            external_identifier: CBDB:19084
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.724Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_9iZg7bUcK8wS6LWMEX9vKo
+        status: active
+        display_name: 王基
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,7 +185,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_ZPXipNMAbC9PnGPngh5BaZ | 王發 | accepted |
+| children | p_9iZg7bUcK8wS6LWMEX9vKo | 王基 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王發（CBDB 19080）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19080&o=json)
+- [中国历代人物传记资料库：王基（CBDB 19084）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19084&o=json)
 - [中国历代人物传记资料库：王庭芳（CBDB 19081）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19081&o=json)

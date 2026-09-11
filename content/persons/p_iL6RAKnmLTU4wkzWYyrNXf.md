@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王啟玉
 cbdb_id: 136193
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,7 +86,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_FZookyDqyuNxw3-A_VsiJP
+        subject_person_id: p_gqyGCnz9XCXA3WqKdw1Xzf
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_iL6RAKnmLTU4wkzWYyrNXf
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pDzq0-YUweyRFRYijOjUiM
+          claim_id: c_FZookyDqyuNxw3-A_VsiJP
+          source_id: s_ydERv3bDLow44sLKK1hE7Y
+          stance: supports
+          locator: CBDB 双向互证（子 王啟玉 ⇄ 父 王其仁）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_ydERv3bDLow44sLKK1hE7Y
+            source_type: api_record
+            title: 中国历代人物传记资料库：王其仁（CBDB 136191）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=136191&o=json
+            external_identifier: CBDB:136191
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:52.561Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_gqyGCnz9XCXA3WqKdw1Xzf
+        status: active
+        display_name: 王其仁
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,7 +149,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_gqyGCnz9XCXA3WqKdw1Xzf | 王其仁 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王其仁（CBDB 136191）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=136191&o=json)
 - [中国历代人物传记资料库：王啟玉（CBDB 136193）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=136193&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王子治
 cbdb_id: 22008
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:22008
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_KRQ42VJU8wi11qF4K6b8sv
             source_type: api_record
             title: 中国历代人物传记资料库：王子治（CBDB 22008）
@@ -86,7 +86,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_mAQ6sX1lnW--lNAMe_SLaQ
+        subject_person_id: p_kLmDgP69qeuoA6HRjsHa4K
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_cZXGTSdbtYHNAD6x3Cqywz
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-tbD3Bfa9kEvRGvGn4x_0G
+          claim_id: c_mAQ6sX1lnW--lNAMe_SLaQ
+          source_id: s_KRQ42VJU8wi11qF4K6b8sv
+          stance: supports
+          locator: CBDB 双向互证（父 王映 ⇄ 子 王子治）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_kLmDgP69qeuoA6HRjsHa4K
+        status: active
+        display_name: 王映
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_kLmDgP69qeuoA6HRjsHa4K | 王映 | accepted |
 
 ## 外部来源
 

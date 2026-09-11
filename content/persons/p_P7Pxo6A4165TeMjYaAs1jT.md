@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王似之
 cbdb_id: 19420
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -130,7 +130,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_oYnGH6N8ZUi7031Gy7A6NR
+        subject_person_id: p_P7Pxo6A4165TeMjYaAs1jT
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_PfgA5W1G2Fv9NYWMemcshd
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pXJ7miwAuO8GyOUhLau8eX
+          claim_id: c_oYnGH6N8ZUi7031Gy7A6NR
+          source_id: s_QxsvqMGN1tK1yhTCAMTnWZ
+          stance: supports
+          locator: CBDB 双向互证（父 王似之 ⇄ 子 王夢龍）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_QxsvqMGN1tK1yhTCAMTnWZ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王夢龍（CBDB 19425）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19425&o=json
+            external_identifier: CBDB:19425
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.734Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_PfgA5W1G2Fv9NYWMemcshd
+        status: active
+        display_name: 王夢龍
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_PfgA5W1G2Fv9NYWMemcshd | 王夢龍 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王夢龍（CBDB 19425）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19425&o=json)
 - [中国历代人物传记资料库：王似之（CBDB 19420）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19420&o=json)

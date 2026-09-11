@@ -4,7 +4,7 @@ id: p_g3jC5v38CshwF6ULsWugu8
 status: active
 merged_into: null
 display_name: 王萬全
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,12 +73,64 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_AtZIoNbOaA8fAd4Oc14Bwm
+        subject_person_id: p_g3jC5v38CshwF6ULsWugu8
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_wKvGTskPwF5yoaMhpXH6fM
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QYa1hVlyaSA3l5Frgl3dEK
+          claim_id: c_AtZIoNbOaA8fAd4Oc14Bwm
+          source_id: s_1FyAe3rC6ErjuS6LgiXmy4
+          stance: supports
+          locator: CBDB 双向互证（子 王伯大 ⇄ 父 王萬全）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_wKvGTskPwF5yoaMhpXH6fM
+        status: active
+        display_name: 王伯大
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_BOYzEL6k7MIiQyU5PErDJX
+        subject_person_id: p_g3jC5v38CshwF6ULsWugu8
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_qe21iK51grgXQR5j3MyvsM
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_10gWiFDz94TZLRWulk0TBI
+          claim_id: c_BOYzEL6k7MIiQyU5PErDJX
+          source_id: s_1FyAe3rC6ErjuS6LgiXmy4
+          stance: supports
+          locator: CBDB 双向互证（孫 王維 ⇄ 祖父 王萬全）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_qe21iK51grgXQR5j3MyvsM
+        status: active
+        display_name: 王維
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_wKvGTskPwF5yoaMhpXH6fM | 王伯大 | accepted |
+| descendants | p_qe21iK51grgXQR5j3MyvsM | 王維 | accepted |
 
 ## 外部来源
 

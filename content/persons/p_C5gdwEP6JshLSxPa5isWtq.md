@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王异
 cbdb_id: 17423
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -92,7 +92,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_3nu30A3IKgAJdDUjlSU7Oj
+        subject_person_id: p_AuvMJTzFGs5d4XX8kQYwFG
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_C5gdwEP6JshLSxPa5isWtq
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1DSD5uSn3edei7CmJp2Mb7
+          claim_id: c_3nu30A3IKgAJdDUjlSU7Oj
+          source_id: s_6Lo94Zr29kvdTAw33vL95L
+          stance: supports
+          locator: CBDB 双向互证（子 王异 ⇄ 父 王繼文）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_6Lo94Zr29kvdTAw33vL95L
+            source_type: api_record
+            title: 中国历代人物传记资料库：王繼文（CBDB 17422）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17422&o=json
+            external_identifier: CBDB:17422
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.659Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_AuvMJTzFGs5d4XX8kQYwFG
+        status: active
+        display_name: 王繼文
+        merged_into_person_id: null
   children:
     - claim:
         id: c_xNhK7D71rFc4ZBtdKPT3am
@@ -139,6 +176,43 @@ relationships:
         status: active
         display_name: 王寂
         merged_into_person_id: null
+    - claim:
+        id: c_OoZswomvNVCLB3WiPWo0d6
+        subject_person_id: p_C5gdwEP6JshLSxPa5isWtq
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_8pefMocZcx3Xt1bkSBWgB6
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GegEwfHc820cistBJdpYip
+          claim_id: c_OoZswomvNVCLB3WiPWo0d6
+          source_id: s_nrAzHgzjmK1EQzr9DACQnY
+          stance: supports
+          locator: CBDB 双向互证（父 王异 ⇄ 子 王宿）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_nrAzHgzjmK1EQzr9DACQnY
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宿（CBDB 17424）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17424&o=json
+            external_identifier: CBDB:17424
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.659Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_8pefMocZcx3Xt1bkSBWgB6
+        status: active
+        display_name: 王宿
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -170,6 +244,43 @@ relationships:
         status: active
         display_name: 王次翁
         merged_into_person_id: null
+    - claim:
+        id: c_d91tEQpk9t0fgVgcb64rJ_
+        subject_person_id: p_C5gdwEP6JshLSxPa5isWtq
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_oQdo3Yj5bXCs9YNdo4dHqm
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9VRtEkywb9r60J3PqIvqCo
+          claim_id: c_d91tEQpk9t0fgVgcb64rJ_
+          source_id: s_7y6SJqg5PmKgQMuECcxKDg
+          stance: supports
+          locator: CBDB 双向互证（祖父 王异 ⇄ 孫 王光祖）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_7y6SJqg5PmKgQMuECcxKDg
+            source_type: api_record
+            title: 中国历代人物传记资料库：王光祖（CBDB 17437）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17437&o=json
+            external_identifier: CBDB:17437
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.662Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_oQdo3Yj5bXCs9YNdo4dHqm
+        status: active
+        display_name: 王光祖
+        merged_into_person_id: null
   other: []
 ---
 
@@ -188,11 +299,17 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_AuvMJTzFGs5d4XX8kQYwFG | 王繼文 | accepted |
 | children | p_4Hjde84UDSxNby7XrvDD1E | 王寂 | accepted |
+| children | p_8pefMocZcx3Xt1bkSBWgB6 | 王宿 | accepted |
 | descendants | p_yapy3APS2bJCVFq3VNLaKZ | 王次翁 | accepted |
+| descendants | p_oQdo3Yj5bXCs9YNdo4dHqm | 王光祖 | accepted |
 
 ## 外部来源
 
 - [维基数据：王寂（Q45386119）](https://www.wikidata.org/wiki/Q45386119)
 - [维基数据：王异（Q45386110）](https://www.wikidata.org/wiki/Q45386110)
+- [中国历代人物传记资料库：王光祖（CBDB 17437）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17437&o=json)
+- [中国历代人物传记资料库：王繼文（CBDB 17422）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17422&o=json)
+- [中国历代人物传记资料库：王宿（CBDB 17424）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17424&o=json)
 - [CBDB 中国历代人物传记资料库：王异（17423）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17423&o=json)

@@ -4,7 +4,7 @@ id: p_c7XAtRSHX73zJpPM32w4N2
 status: active
 merged_into: null
 display_name: 王嘉言
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -134,7 +134,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_BcyX_LAhx7r05qMbSl-9Gb
+        subject_person_id: p_c7XAtRSHX73zJpPM32w4N2
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_LT924GXoGnFWCYjaK3sjCr
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__dOkqyk5MAvwGEm79l3IUM
+          claim_id: c_BcyX_LAhx7r05qMbSl-9Gb
+          source_id: s_w3zZGkxCL1rVmDxMoBsuoz
+          stance: supports
+          locator: CBDB 双向互证（孫 王淑 ⇄ 祖父 王嘉言）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_LT924GXoGnFWCYjaK3sjCr
+        status: active
+        display_name: 王淑
+        merged_into_person_id: null
   other: []
 ---
 
@@ -155,6 +181,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_LT924GXoGnFWCYjaK3sjCr | 王淑 | accepted |
 
 ## 外部来源
 

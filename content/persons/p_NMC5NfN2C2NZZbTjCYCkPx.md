@@ -4,7 +4,7 @@ id: p_NMC5NfN2C2NZZbTjCYCkPx
 status: active
 merged_into: null
 display_name: 王仲卿
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,71 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_fUnx0_1v5bzbhC7Nx5dcGp
+        subject_person_id: p_wZ4qgdk3jH4QDPFjjmq8ju
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_NMC5NfN2C2NZZbTjCYCkPx
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kXgJyL4CUt1shv7LW5rOmY
+          claim_id: c_fUnx0_1v5bzbhC7Nx5dcGp
+          source_id: s_4h4tLn3u7RWDw4edAEAyHK
+          stance: supports
+          locator: CBDB 双向互证（父 王澣 ⇄ 子 王仲卿）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_wZ4qgdk3jH4QDPFjjmq8ju
+        status: active
+        display_name: 王澣
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_SAlKu_3ObsTCRXwACtxHpa
+        subject_person_id: p_NMC5NfN2C2NZZbTjCYCkPx
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_9LCyFpQjGAjfkm5HJQfXvZ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VmrvGP2nogCmrjoxl90mu2
+          claim_id: c_SAlKu_3ObsTCRXwACtxHpa
+          source_id: s_Qqk79WaQbo9gAVa6S1RAgn
+          stance: supports
+          locator: CBDB 双向互证（父 王仲卿 ⇄ 子 王度）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_Qqk79WaQbo9gAVa6S1RAgn
+            source_type: api_record
+            title: 中国历代人物传记资料库：王度（CBDB 18288）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=18288&o=json
+            external_identifier: CBDB:18288
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.708Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_9LCyFpQjGAjfkm5HJQfXvZ
+        status: active
+        display_name: 王度
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,7 +160,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_wZ4qgdk3jH4QDPFjjmq8ju | 王澣 | accepted |
+| children | p_9LCyFpQjGAjfkm5HJQfXvZ | 王度 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王度（CBDB 18288）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=18288&o=json)
 - [中国历代人物传记资料库：王仲卿（CBDB 18287）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=18287&o=json)

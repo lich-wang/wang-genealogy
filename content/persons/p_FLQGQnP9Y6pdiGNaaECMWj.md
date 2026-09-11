@@ -4,7 +4,7 @@ id: p_FLQGQnP9Y6pdiGNaaECMWj
 status: active
 merged_into: null
 display_name: 王衣
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_9t4u4m05PUyvspcoFRFBwc
+        subject_person_id: p_8pefMocZcx3Xt1bkSBWgB6
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_FLQGQnP9Y6pdiGNaaECMWj
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mJ_Tret13feBxzVKDLziXt
+          claim_id: c_9t4u4m05PUyvspcoFRFBwc
+          source_id: s_nrAzHgzjmK1EQzr9DACQnY
+          stance: supports
+          locator: CBDB 双向互证（子 王衣 ⇄ 父 王宿）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_nrAzHgzjmK1EQzr9DACQnY
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宿（CBDB 17424）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17424&o=json
+            external_identifier: CBDB:17424
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.659Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_8pefMocZcx3Xt1bkSBWgB6
+        status: active
+        display_name: 王宿
+        merged_into_person_id: null
   children:
     - claim:
         id: c_vOUMwDuj_wmsz1IARZWb_h
@@ -181,8 +218,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_8pefMocZcx3Xt1bkSBWgB6 | 王宿 | accepted |
 | children | p_HPYYkmNEETrV6SW1UZLFZN | 王次張 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王宿（CBDB 17424）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17424&o=json)
 - [中国历代人物传记资料库：王衣（CBDB 3959）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3959&o=json)

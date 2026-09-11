@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王士喜
 cbdb_id: 35061
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -111,7 +111,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_Wm9Ji8-7czjS8b7orG_gTL
+        subject_person_id: p_FisdT3cjZ77SEtKVr6StYB
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_TACtcGqgnGy8yNMBE86m5e
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rJtAeEYQh7A2n0zvguCI-v
+          claim_id: c_Wm9Ji8-7czjS8b7orG_gTL
+          source_id: s_f2SKKvZjmwHoUEydMzwjvn
+          stance: supports
+          locator: CBDB 双向互证（子 王士喜 ⇄ 父 王RR）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_f2SKKvZjmwHoUEydMzwjvn
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王RR（35059）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35059&o=json
+            external_identifier: CBDB:35059
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:59:06.441Z
+            metadata_json: null
+      object_person:
+        id: p_FisdT3cjZ77SEtKVr6StYB
+        status: active
+        display_name: 王RR
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -136,8 +173,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_FisdT3cjZ77SEtKVr6StYB | 王RR | accepted |
 
 ## 外部来源
 
 - [维基数据：王士喜（Q45425492）](https://www.wikidata.org/wiki/Q45425492)
 - [CBDB 中国历代人物传记资料库：王士喜（35061）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35061&o=json)
+- [CBDB 中国历代人物传记资料库：王RR（35059）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35059&o=json)

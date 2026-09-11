@@ -4,7 +4,7 @@ id: p_BvXbPRWUcfLiPBR76u4MLW
 status: active
 merged_into: null
 display_name: 王埜
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_Et1YCQ0dSqNDkZr2O0mpRi
+        subject_person_id: p_N1sjWWAngPbNQ5mXRM9s3H
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_BvXbPRWUcfLiPBR76u4MLW
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OM1fsujhsV_o7uaIGZR5Zz
+          claim_id: c_Et1YCQ0dSqNDkZr2O0mpRi
+          source_id: s_JE3EYBu67fSr2MZLKWmG78
+          stance: supports
+          locator: CBDB 双向互证（父 王介 ⇄ 子 王埜）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_N1sjWWAngPbNQ5mXRM9s3H
+        status: active
+        display_name: 王介
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -126,6 +152,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_N1sjWWAngPbNQ5mXRM9s3H | 王介 | accepted |
 
 ## 外部来源
 

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王得中
 cbdb_id: 19850
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,8 +86,82 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_W27NKNQfcO9Uu7XWpT6Omh
+        subject_person_id: p_n7RR62NooNQvNuaEfU2L5M
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_vimig6fJTzPPeFEmDd4JTt
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VhGhE_aYaRCJNC8YCiNnKR
+          claim_id: c_W27NKNQfcO9Uu7XWpT6Omh
+          source_id: s_C2Y4bYd4JsFUyB3AEPNs7E
+          stance: supports
+          locator: CBDB 双向互证（子 王得中 ⇄ 父 王錫）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_C2Y4bYd4JsFUyB3AEPNs7E
+            source_type: api_record
+            title: 中国历代人物传记资料库：王錫（CBDB 19849）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19849&o=json
+            external_identifier: CBDB:19849
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.737Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_n7RR62NooNQvNuaEfU2L5M
+        status: active
+        display_name: 王錫
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_3jFhSKOPiGlDJ973QMNLx4
+        subject_person_id: p_vimig6fJTzPPeFEmDd4JTt
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_6HiYCjuLQFf2opWVAz2ZTK
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_CtgbrenjhIfO1W1duvEZPX
+          claim_id: c_3jFhSKOPiGlDJ973QMNLx4
+          source_id: s_4kR3qjZPc2yJVXXtrjBvGF
+          stance: supports
+          locator: CBDB 双向互证（父 王得中 ⇄ 子 王汝能）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_4kR3qjZPc2yJVXXtrjBvGF
+            source_type: api_record
+            title: 中国历代人物传记资料库：王汝能（CBDB 19851）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19851&o=json
+            external_identifier: CBDB:19851
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.738Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_6HiYCjuLQFf2opWVAz2ZTK
+        status: active
+        display_name: 王汝能
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,7 +185,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_n7RR62NooNQvNuaEfU2L5M | 王錫 | accepted |
+| children | p_6HiYCjuLQFf2opWVAz2ZTK | 王汝能 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王得中（CBDB 19850）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19850&o=json)
+- [中国历代人物传记资料库：王汝能（CBDB 19851）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19851&o=json)
+- [中国历代人物传记资料库：王錫（CBDB 19849）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19849&o=json)

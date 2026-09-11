@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王履初
 cbdb_id: 22933
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,7 +86,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_pXnlkyLm2zAXuZQlvPYGBL
+        subject_person_id: p_igztDbU8rAPT4ZKkD4V13x
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_oE9BpYL1f3e76ain8qbqvi
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Feeq9UszrFKsfE9G_Jqh1a
+          claim_id: c_pXnlkyLm2zAXuZQlvPYGBL
+          source_id: s_GbMZtxmmmBnEiQ1mUR72KY
+          stance: supports
+          locator: CBDB 双向互证（子 王履初 ⇄ 父 王謙夫）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_GbMZtxmmmBnEiQ1mUR72KY
+            source_type: api_record
+            title: 中国历代人物传记资料库：王謙夫（CBDB 22931）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22931&o=json
+            external_identifier: CBDB:22931
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:45.019Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_igztDbU8rAPT4ZKkD4V13x
+        status: active
+        display_name: 王謙夫
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,7 +149,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_igztDbU8rAPT4ZKkD4V13x | 王謙夫 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王履初（CBDB 22933）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22933&o=json)
+- [中国历代人物传记资料库：王謙夫（CBDB 22931）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22931&o=json)

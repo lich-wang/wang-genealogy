@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王餘卿
 cbdb_id: 22152
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,7 +86,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_WpB8Hm0MY5tjhrmgjrAHug
+        subject_person_id: p_xbNbP8jo136Y4sdQGL1AN6
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_pNPbpJhQnwrM9E5wAvzhxs
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PuqNenOv8B5UA30CxAaXas
+          claim_id: c_WpB8Hm0MY5tjhrmgjrAHug
+          source_id: s_M3CpGDcvP3cQACmvZVd14R
+          stance: supports
+          locator: CBDB 双向互证（子 王餘卿 ⇄ 父 王玠）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_M3CpGDcvP3cQACmvZVd14R
+            source_type: api_record
+            title: 中国历代人物传记资料库：王玠（CBDB 22151）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22151&o=json
+            external_identifier: CBDB:22151
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.837Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_xbNbP8jo136Y4sdQGL1AN6
+        status: active
+        display_name: 王玠
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_xbNbP8jo136Y4sdQGL1AN6 | 王玠 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王玠（CBDB 22151）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22151&o=json)
 - [中国历代人物传记资料库：王餘卿（CBDB 22152）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22152&o=json)

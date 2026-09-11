@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王振艱
 cbdb_id: 28619
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:28619
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_JoErEFizCEShtiRTUCLtAd
             source_type: api_record
             title: 中国历代人物传记资料库：王振艱（CBDB 28619）
@@ -86,8 +86,71 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_GG1T1cCMTTI5Qd_7e9Qvu2
+        subject_person_id: p_kTZ8UGUB5jY8LbGPJTkPP8
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ELTFwpJhBRCdcynL2AFhCN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_eSEHydT4_wOKYKnb6xztNl
+          claim_id: c_GG1T1cCMTTI5Qd_7e9Qvu2
+          source_id: s_JoErEFizCEShtiRTUCLtAd
+          stance: supports
+          locator: CBDB 双向互证（父 王國綱 ⇄ 子 王振艱）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_kTZ8UGUB5jY8LbGPJTkPP8
+        status: active
+        display_name: 王國綱
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_lVr-x9chxgnWTRVs-JNhWQ
+        subject_person_id: p_ELTFwpJhBRCdcynL2AFhCN
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_xZVFVfV8CQCzdHSD73eh6H
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_aZPJUs6H6LrAWg9BT-ECRC
+          claim_id: c_lVr-x9chxgnWTRVs-JNhWQ
+          source_id: s_uUwq3i4nBW2ea9MsJ581Lw
+          stance: supports
+          locator: CBDB 双向互证（父 王振艱 ⇄ 子 王宗某）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_uUwq3i4nBW2ea9MsJ581Lw
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宗某（CBDB 28618）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28618&o=json
+            external_identifier: CBDB:28618
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.969Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_xZVFVfV8CQCzdHSD73eh6H
+        status: active
+        display_name: 王宗某
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,7 +174,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_kTZ8UGUB5jY8LbGPJTkPP8 | 王國綱 | accepted |
+| children | p_xZVFVfV8CQCzdHSD73eh6H | 王宗某 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王振艱（CBDB 28619）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28619&o=json)
+- [中国历代人物传记资料库：王宗某（CBDB 28618）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28618&o=json)

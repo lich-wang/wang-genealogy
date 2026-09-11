@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王應之
 cbdb_id: 19421
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -87,7 +87,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_1z0potYgCR2nb64h8VeKtr
+        subject_person_id: p_zLacRuamenC19zgVsLVZMx
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_2kM1yTzwMkGpxWY3CwtJUi
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OQ5M_Jdt2KRVKMD34bf2vz
+          claim_id: c_1z0potYgCR2nb64h8VeKtr
+          source_id: s_VQ8HdxL39bDDXT7c2YeTnQ
+          stance: supports
+          locator: CBDB 双向互证（父 王應之 ⇄ 子 王象）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_VQ8HdxL39bDDXT7c2YeTnQ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王象（CBDB 19426）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19426&o=json
+            external_identifier: CBDB:19426
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.735Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_2kM1yTzwMkGpxWY3CwtJUi
+        status: active
+        display_name: 王象
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_2kM1yTzwMkGpxWY3CwtJUi | 王象 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王象（CBDB 19426）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19426&o=json)
 - [中国历代人物传记资料库：王應之（CBDB 19421）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19421&o=json)

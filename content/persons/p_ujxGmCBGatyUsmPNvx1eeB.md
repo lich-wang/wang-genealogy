@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王绅
 cbdb_id: 28112
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -604,8 +604,82 @@ relationships:
         status: active
         display_name: 曹氏
         merged_into_person_id: null
-  ancestors: []
-  descendants: []
+  ancestors:
+    - claim:
+        id: c_u6av2V5dhGJyZ1L0YB1077
+        subject_person_id: p_mgxHev7zFTwcmkSJE7CaXn
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_ujxGmCBGatyUsmPNvx1eeB
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WY5R1vfewnuFRXJk5ssKtC
+          claim_id: c_u6av2V5dhGJyZ1L0YB1077
+          source_id: s_BAjxo671XMFTkByAe6GdPY
+          stance: supports
+          locator: CBDB 双向互证（孫 王紳 ⇄ 祖父 王良玉）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_BAjxo671XMFTkByAe6GdPY
+            source_type: api_record
+            title: 中国历代人物传记资料库：王良玉（CBDB 10725）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10725&o=json
+            external_identifier: CBDB:10725
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.563Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_mgxHev7zFTwcmkSJE7CaXn
+        status: active
+        display_name: 王良玉
+        merged_into_person_id: null
+  descendants:
+    - claim:
+        id: c_-Iq1PCA_4MtYNsrkjQdZsZ
+        subject_person_id: p_ujxGmCBGatyUsmPNvx1eeB
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_9ACBwaJa1h59PDqx96yiSt
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6VbBqsgMZmcNeVBA5pDg1L
+          claim_id: c_-Iq1PCA_4MtYNsrkjQdZsZ
+          source_id: s_JoAu9kNpppHC3Vk6iiTPga
+          stance: supports
+          locator: CBDB 双向互证（祖父 王紳 ⇄ 孫 王淵）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_JoAu9kNpppHC3Vk6iiTPga
+            source_type: api_record
+            title: 中国历代人物传记资料库：王淵（CBDB 437810）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=437810&o=json
+            external_identifier: CBDB:437810
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:22.065Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_9ACBwaJa1h59PDqx96yiSt
+        status: active
+        display_name: 王淵
+        merged_into_person_id: null
   other: []
 ---
 
@@ -633,6 +707,8 @@ relationships:
 | children | p_xsZccYFbwo9A3bucCejqjr | 王穆 | accepted |
 | spouses | p_46a9FyUQzyqQURH4Z2h6Bc | 丁氏 | accepted |
 | spouses | p_bsaBkdmG56EXm3A3mHUYh8 | 曹氏 | accepted |
+| ancestors | p_mgxHev7zFTwcmkSJE7CaXn | 王良玉 | accepted |
+| descendants | p_9ACBwaJa1h59PDqx96yiSt | 王淵 | accepted |
 
 ## 外部来源
 
@@ -644,5 +720,7 @@ relationships:
 - [维基数据：王稌（Q65903516）](https://www.wikidata.org/wiki/Q65903516)
 - [维基数据：王祎（Q15934970）](https://www.wikidata.org/wiki/Q15934970)
 - [维基数据：王稚（Q65903525）](https://www.wikidata.org/wiki/Q65903525)
+- [中国历代人物传记资料库：王良玉（CBDB 10725）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10725&o=json)
+- [中国历代人物传记资料库：王淵（CBDB 437810）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=437810&o=json)
 - [CBDB 中国历代人物传记资料库：王褘（10726）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10726&o=json)
 - [CBDB 中国历代人物传记资料库：王紳（28112）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28112&o=json)

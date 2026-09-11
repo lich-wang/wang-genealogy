@@ -4,7 +4,7 @@ id: p_7YfpL25vUrnwFFcc6SBg38
 status: active
 merged_into: null
 display_name: 王博文
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_R9_lLWn_3ohsh4wyUwMhl1
+        subject_person_id: p_t6rLTMJwf5cwSMhPEVCWp6
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_7YfpL25vUrnwFFcc6SBg38
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_x0RZUqmM28-CQuUaMygwfi
+          claim_id: c_R9_lLWn_3ohsh4wyUwMhl1
+          source_id: s_mQaAmDqENzDB2HX8BBBFyG
+          stance: supports
+          locator: CBDB 双向互证（父 王士安 ⇄ 子 王博文）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_t6rLTMJwf5cwSMhPEVCWp6
+        status: active
+        display_name: 王士安
+        merged_into_person_id: null
   children:
     - claim:
         id: c_N3MF_Gyg3RbyL1IFHvNCum
@@ -233,6 +259,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_t6rLTMJwf5cwSMhPEVCWp6 | 王士安 | accepted |
 | children | p_wUNvBF992YR7ZyCR3eJPF1 | 王疇 | accepted |
 | children | p_VxVTJzv3gG8BG6P5j5b6D3 | 王田 | accepted |
 | ancestors | p_wEqsogkdLBrdte1KEpUFVQ | 王祐 | accepted |

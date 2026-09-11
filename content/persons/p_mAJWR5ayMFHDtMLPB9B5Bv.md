@@ -4,7 +4,7 @@ id: p_mAJWR5ayMFHDtMLPB9B5Bv
 status: active
 merged_into: null
 display_name: 王行
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_dq_fEt4u_4q3AQQltobSfw
+        subject_person_id: p_ynP4K3oyXRCon9LPpN6fzs
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_mAJWR5ayMFHDtMLPB9B5Bv
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_y41xsWoLFeKO_Kiw9D1cEK
+          claim_id: c_dq_fEt4u_4q3AQQltobSfw
+          source_id: s_h1AYajc1ce38fcpJJkRkux
+          stance: supports
+          locator: CBDB 双向互证（父 王士堯 ⇄ 子 王行）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_ynP4K3oyXRCon9LPpN6fzs
+        status: active
+        display_name: 王士堯
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_cQ3Oy4-4sugfi6XojMYK8o
+        subject_person_id: p_mAJWR5ayMFHDtMLPB9B5Bv
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_XM12rGRGT5wBm74MJaxt5U
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-QRnGgM3nOJ7B1ym5qEBPC
+          claim_id: c_cQ3Oy4-4sugfi6XojMYK8o
+          source_id: s_h1AYajc1ce38fcpJJkRkux
+          stance: supports
+          locator: CBDB 双向互证（子 王賓 ⇄ 父 王行）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_XM12rGRGT5wBm74MJaxt5U
+        status: active
+        display_name: 王賓
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_ynP4K3oyXRCon9LPpN6fzs | 王士堯 | accepted |
+| children | p_XM12rGRGT5wBm74MJaxt5U | 王賓 | accepted |
 
 ## 外部来源
 

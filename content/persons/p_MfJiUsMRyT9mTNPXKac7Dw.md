@@ -4,7 +4,7 @@ id: p_MfJiUsMRyT9mTNPXKac7Dw
 status: active
 merged_into: null
 display_name: 王彥舉
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -77,7 +77,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_4EDJ2jZj9mLdA5zBbTe3ex
+        subject_person_id: p_TXJvtdFRgZUQXsFzGvjCnR
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_MfJiUsMRyT9mTNPXKac7Dw
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dtyfx_aPPg50LQQumdS3EX
+          claim_id: c_4EDJ2jZj9mLdA5zBbTe3ex
+          source_id: s_Si8avKHpmgFu7nx1zTCC29
+          stance: supports
+          locator: CBDB 双向互证（曾祖 王世規 ⇄ 曾孫; 重孫 王彥舉）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_TXJvtdFRgZUQXsFzGvjCnR
+        status: active
+        display_name: 王世规
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_TXJvtdFRgZUQXsFzGvjCnR | 王世规 | accepted |
 
 ## 外部来源
 

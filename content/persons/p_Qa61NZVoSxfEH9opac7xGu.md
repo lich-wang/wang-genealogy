@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王西應
 cbdb_id: 20092
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -91,7 +91,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_55Gw-J8ANHaC8DUVloT-1Q
+        subject_person_id: p_fjtx6PajidBF5DeEX7ULow
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Qa61NZVoSxfEH9opac7xGu
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_E0DLutYDx1zy0LjqGJxfLB
+          claim_id: c_55Gw-J8ANHaC8DUVloT-1Q
+          source_id: s_DKwEihoKaeDdokgXg515QL
+          stance: supports
+          locator: CBDB 双向互证（曾孫; 重孫 王西應 ⇄ 曾祖 王祖道）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_DKwEihoKaeDdokgXg515QL
+            source_type: api_record
+            title: 中国历代人物传记资料库：王祖道（CBDB 1902）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1902&o=json
+            external_identifier: CBDB:1902
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.384Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_fjtx6PajidBF5DeEX7ULow
+        status: active
+        display_name: 王祖道
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_fjtx6PajidBF5DeEX7ULow | 王祖道 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王西應（CBDB 20092）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=20092&o=json)
+- [中国历代人物传记资料库：王祖道（CBDB 1902）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1902&o=json)

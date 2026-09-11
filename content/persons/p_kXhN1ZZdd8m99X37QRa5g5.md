@@ -4,7 +4,7 @@ id: p_kXhN1ZZdd8m99X37QRa5g5
 status: active
 merged_into: null
 display_name: 王經
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,82 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_pWRC4D262bVpKX9wRMI3tu
+        subject_person_id: p_Jc5FhjwDsGBht7SHrQAfA9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_kXhN1ZZdd8m99X37QRa5g5
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ce76cUjgq_xJyr_RaJx9q1
+          claim_id: c_pWRC4D262bVpKX9wRMI3tu
+          source_id: s_KpNKbypnCLENfB91uTWMQ5
+          stance: supports
+          locator: CBDB 双向互证（子 王經 ⇄ 父 王仲英）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_KpNKbypnCLENfB91uTWMQ5
+            source_type: api_record
+            title: 中国历代人物传记资料库：王仲英（CBDB 28729）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28729&o=json
+            external_identifier: CBDB:28729
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.975Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Jc5FhjwDsGBht7SHrQAfA9
+        status: active
+        display_name: 王仲英
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_NgBxD7c-Y8QQ24gb-bH__x
+        subject_person_id: p_kXhN1ZZdd8m99X37QRa5g5
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_61U19XTqYsz4yMA9zze9kQ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QM-XyMRCViT7Q2iVQ927to
+          claim_id: c_NgBxD7c-Y8QQ24gb-bH__x
+          source_id: s_EKkUSRQhv2hRyE8pMUHvUa
+          stance: supports
+          locator: CBDB 双向互证（父 王經 ⇄ 子 王宇）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_EKkUSRQhv2hRyE8pMUHvUa
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宇（CBDB 28727）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28727&o=json
+            external_identifier: CBDB:28727
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.974Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_61U19XTqYsz4yMA9zze9kQ
+        status: active
+        display_name: 王宇
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,7 +171,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Jc5FhjwDsGBht7SHrQAfA9 | 王仲英 | accepted |
+| children | p_61U19XTqYsz4yMA9zze9kQ | 王宇 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王經（CBDB 28728）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28728&o=json)
+- [中国历代人物传记资料库：王宇（CBDB 28727）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28727&o=json)
+- [中国历代人物传记资料库：王仲英（CBDB 28729）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28729&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王審鈞
 cbdb_id: 17252
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:17252
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_mnsNCAqWT4Jp2VqSVLB4Mp
             source_type: api_record
             title: 中国历代人物传记资料库：王審鈞（CBDB 17252）
@@ -125,7 +125,33 @@ relationships:
         status: active
         display_name: 王全斌
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_rPNl2Rk0F0IpEIogIhLRSk
+        subject_person_id: p_5iuF56QtzML5N9vH86cANF
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_SVsQjRLETKYSzG3kbAYK87
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AlqEGhyoIA7M3x2TRpKfr0
+          claim_id: c_rPNl2Rk0F0IpEIogIhLRSk
+          source_id: s_mnsNCAqWT4Jp2VqSVLB4Mp
+          stance: supports
+          locator: CBDB 双向互证（子 王惟志 ⇄ 父 王審鈞）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_SVsQjRLETKYSzG3kbAYK87
+        status: active
+        display_name: 王惟志
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -187,6 +213,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_g1Zwm5njGBgG9tiNz4CK8m | 王全斌 | accepted |
+| children | p_SVsQjRLETKYSzG3kbAYK87 | 王惟志 | accepted |
 | descendants | p_GrcPU22YikfiRPALs5F2kU | 王旭 | accepted |
 
 ## 外部来源

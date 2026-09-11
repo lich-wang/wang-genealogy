@@ -4,7 +4,7 @@ id: p_jUfc5vCsBkQrPPCvwGCB11
 status: active
 merged_into: null
 display_name: 王堯臣
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_1L14Eg1CZ312j7bvcUJQhj
+        subject_person_id: p_TiUdEhG1LMC9f51Xgx1RW7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_jUfc5vCsBkQrPPCvwGCB11
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3YdD2KniTBB55XzVf9RXZn
+          claim_id: c_1L14Eg1CZ312j7bvcUJQhj
+          source_id: s_oc1QNAEk7i97afFuxniTAJ
+          stance: supports
+          locator: CBDB 双向互证（父 王鎰 ⇄ 子 王堯臣）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_TiUdEhG1LMC9f51Xgx1RW7
+        status: active
+        display_name: 王鎰
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -233,6 +259,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_TiUdEhG1LMC9f51Xgx1RW7 | 王鎰 | accepted |
 | ancestors | p_XNnEJW93RJQ51JNrQsQRTJ | 王彥 | accepted |
 | ancestors | p_k5osjTmtD6qGAxU1cpt1aP | 王文 | accepted |
 | descendants | p_E7YL8K8cBwHS7NPmFdwMBH | 王元應 | accepted |

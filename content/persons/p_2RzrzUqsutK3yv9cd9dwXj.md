@@ -4,7 +4,7 @@ id: p_2RzrzUqsutK3yv9cd9dwXj
 status: active
 merged_into: null
 display_name: 王允功
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_LWyUhMQftduHbV_CBL186-
+        subject_person_id: p_Jzy9nZapWwZfBJyYh44MuQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_2RzrzUqsutK3yv9cd9dwXj
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hFQmTsE0DZKZa6fn8g_7vb
+          claim_id: c_LWyUhMQftduHbV_CBL186-
+          source_id: s_ctSqJWMJMSBisWmAAWSuL9
+          stance: supports
+          locator: CBDB 双向互证（父 王琮 ⇄ 子 王允功）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_Jzy9nZapWwZfBJyYh44MuQ
+        status: active
+        display_name: 王琮
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -178,6 +204,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Jzy9nZapWwZfBJyYh44MuQ | 王琮 | accepted |
 | ancestors | p_tuQz8K1QJhTDMtht3PXNax | 王浹 | accepted |
 | ancestors | p_u7GjygMhWqMXVVi3SrDkWR | 王錫 | accepted |
 

@@ -4,7 +4,7 @@ id: p_mw1C15aFtzQ5L6FdHoKc5w
 status: active
 merged_into: null
 display_name: 王俊民
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,71 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_h4kiUe7TmnPFhmBV8VFzBP
+        subject_person_id: p_sG13vw1kNPD6YQdSJvphMP
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_mw1C15aFtzQ5L6FdHoKc5w
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_U649VKVz3WbDQfningk6aU
+          claim_id: c_h4kiUe7TmnPFhmBV8VFzBP
+          source_id: s_E54D4FbYErNXGZ2dXiHh6h
+          stance: supports
+          locator: CBDB 双向互证（父 王鞏 ⇄ 子 王俊民）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_sG13vw1kNPD6YQdSJvphMP
+        status: active
+        display_name: 王鞏
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_1RKqkaQwXBF-gfW3apLfnS
+        subject_person_id: p_mw1C15aFtzQ5L6FdHoKc5w
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_AVbJ8PQzkH6HyDwFvk3DDq
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_z4VOZum02JoBWlGh2tf-O0
+          claim_id: c_1RKqkaQwXBF-gfW3apLfnS
+          source_id: s_RT3YnR43QP4wp8cNS83TG6
+          stance: supports
+          locator: CBDB 双向互证（父 王俊民 ⇄ 子 王度）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_RT3YnR43QP4wp8cNS83TG6
+            source_type: api_record
+            title: 中国历代人物传记资料库：王度（CBDB 25489）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=25489&o=json
+            external_identifier: CBDB:25489
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.912Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_AVbJ8PQzkH6HyDwFvk3DDq
+        status: active
+        display_name: 王度
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,7 +160,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_sG13vw1kNPD6YQdSJvphMP | 王鞏 | accepted |
+| children | p_AVbJ8PQzkH6HyDwFvk3DDq | 王度 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王度（CBDB 25489）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=25489&o=json)
 - [中国历代人物传记资料库：王俊民（CBDB 25488）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=25488&o=json)

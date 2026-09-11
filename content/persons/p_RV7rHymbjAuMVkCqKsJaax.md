@@ -4,7 +4,7 @@ id: p_RV7rHymbjAuMVkCqKsJaax
 status: active
 merged_into: null
 display_name: 王陶
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_KJqFHvASW_6stJZ9IXeStM
+        subject_person_id: p_XxbY91RiCBrsB5eVREE1y2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_RV7rHymbjAuMVkCqKsJaax
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2QsywowyjVRf9gTSrr_f-I
+          claim_id: c_KJqFHvASW_6stJZ9IXeStM
+          source_id: s_PcFFvCDJBFd44FuWEkD1A6
+          stance: supports
+          locator: CBDB 双向互证（父 王應 ⇄ 子 王陶）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_XxbY91RiCBrsB5eVREE1y2
+        status: active
+        display_name: 王應
+        merged_into_person_id: null
   children:
     - claim:
         id: c_IAqfjJG_ZYKIMadxJdfuA-
@@ -192,6 +218,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_XxbY91RiCBrsB5eVREE1y2 | 王應 | accepted |
 | children | p_aFMUYGj8BUSGRCS44jePEP | 王寧 | accepted |
 
 ## 外部来源

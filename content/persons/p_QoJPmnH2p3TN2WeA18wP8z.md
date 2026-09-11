@@ -4,7 +4,7 @@ id: p_QoJPmnH2p3TN2WeA18wP8z
 status: active
 merged_into: null
 display_name: 王凱
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_EyTd7E1Lxe_HsrM90UDLh0
+        subject_person_id: p_SVsQjRLETKYSzG3kbAYK87
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_QoJPmnH2p3TN2WeA18wP8z
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vi2yxwd0Vf2s23GaD9oUNj
+          claim_id: c_EyTd7E1Lxe_HsrM90UDLh0
+          source_id: s_1Zsci6iF4Arcot2TKBLMBo
+          stance: supports
+          locator: CBDB 双向互证（父 王惟志 ⇄ 子 王凱）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_SVsQjRLETKYSzG3kbAYK87
+        status: active
+        display_name: 王惟志
+        merged_into_person_id: null
   children:
     - claim:
         id: c_4-9vs1F09CnFWVfwO1sMDz
@@ -125,6 +151,43 @@ relationships:
         id: p_wDnLRYYNiPRiBw5GV82Djd
         status: active
         display_name: 王大方
+        merged_into_person_id: null
+    - claim:
+        id: c_NGgEWwRWXKvYLWvDMINyby
+        subject_person_id: p_QoJPmnH2p3TN2WeA18wP8z
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_NPFao1Fv8jZGtrCpRDxNgE
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__HN5YgzkLpHljIZsIqnAjP
+          claim_id: c_NGgEWwRWXKvYLWvDMINyby
+          source_id: s_6p9FvfDje8CL4ERjaWiF4r
+          stance: supports
+          locator: CBDB 双向互证（父 王凱 ⇄ 子 王緘）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_6p9FvfDje8CL4ERjaWiF4r
+            source_type: api_record
+            title: 中国历代人物传记资料库：王緘（CBDB 17254）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17254&o=json
+            external_identifier: CBDB:17254
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.658Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_NPFao1Fv8jZGtrCpRDxNgE
+        status: active
+        display_name: 王緘
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
@@ -201,11 +264,14 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_SVsQjRLETKYSzG3kbAYK87 | 王惟志 | accepted |
 | children | p_TG677A2uqsLQn3jRYXYFJs | 王彭 | accepted |
 | children | p_wDnLRYYNiPRiBw5GV82Djd | 王大方 | accepted |
+| children | p_NPFao1Fv8jZGtrCpRDxNgE | 王緘 | accepted |
 | ancestors | p_g1Zwm5njGBgG9tiNz4CK8m | 王全斌 | accepted |
 | descendants | p_te7PsQUmMv5ookHDsggpFw | 王詵 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王緘（CBDB 17254）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17254&o=json)
 - [中国历代人物传记资料库：王凱（CBDB 7379）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=7379&o=json)

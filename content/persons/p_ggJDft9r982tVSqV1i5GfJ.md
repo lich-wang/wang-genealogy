@@ -4,7 +4,7 @@ id: p_ggJDft9r982tVSqV1i5GfJ
 status: active
 merged_into: null
 display_name: 王彥常
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_DgnqwmOp3jleSDDES3Iw6t
+        subject_person_id: p_RXPBLJ1nXpyDeFr5m1NYQH
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ggJDft9r982tVSqV1i5GfJ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fvdGbZJxI7k9tVjoN4oOOg
+          claim_id: c_DgnqwmOp3jleSDDES3Iw6t
+          source_id: s_YfdhrCBaz7C52LFc2MA5KE
+          stance: supports
+          locator: CBDB 双向互证（父 王君顯 ⇄ 子 王彥常）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_RXPBLJ1nXpyDeFr5m1NYQH
+        status: active
+        display_name: 王君顯
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_nnuI_sVv18HWMf0uLpvubp
+        subject_person_id: p_ggJDft9r982tVSqV1i5GfJ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_C9JHxtahhJrmvEsxjEQ6uJ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_iwq80vgLTbjyURoJGA0LFt
+          claim_id: c_nnuI_sVv18HWMf0uLpvubp
+          source_id: s_YfdhrCBaz7C52LFc2MA5KE
+          stance: supports
+          locator: CBDB 双向互证（子 王德廣 ⇄ 父 王彥常）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_C9JHxtahhJrmvEsxjEQ6uJ
+        status: active
+        display_name: 王德廣
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_RXPBLJ1nXpyDeFr5m1NYQH | 王君顯 | accepted |
+| children | p_C9JHxtahhJrmvEsxjEQ6uJ | 王德廣 | accepted |
 
 ## 外部来源
 

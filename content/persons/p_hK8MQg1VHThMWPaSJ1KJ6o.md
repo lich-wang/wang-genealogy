@@ -4,7 +4,7 @@ id: p_hK8MQg1VHThMWPaSJ1KJ6o
 status: active
 merged_into: null
 display_name: 王士騏
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_gA7StOl9b-FeEy1Cil8Yc9
+        subject_person_id: p_THQx38bKosUpdXRAkw2R2w
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_hK8MQg1VHThMWPaSJ1KJ6o
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_oixnRjGf6WIxCIjyRlUV7O
+          claim_id: c_gA7StOl9b-FeEy1Cil8Yc9
+          source_id: s_xHX4UjybTyBqEq5VSuoCuT
+          stance: supports
+          locator: CBDB 双向互证（父 王世貞 ⇄ 子 王士騏）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_THQx38bKosUpdXRAkw2R2w
+        status: active
+        display_name: 王世貞
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_THQx38bKosUpdXRAkw2R2w | 王世貞 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_FqUud2w7N1wezRTEw6MRZ4
 status: active
 merged_into: null
 display_name: 王說
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -129,11 +129,63 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_jZoqUSVB4MhQwnTd2TGwxJ
+        subject_person_id: p_FqUud2w7N1wezRTEw6MRZ4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_42szA6CsjsGEHtctBDvhPe
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3oKKlXPkZi1EPB-HA22X1P
+          claim_id: c_jZoqUSVB4MhQwnTd2TGwxJ
+          source_id: s_Kt2AfBh7fKuTLiRwHyCwPY
+          stance: supports
+          locator: CBDB 双向互证（子 王玩 ⇄ 父 王說）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_42szA6CsjsGEHtctBDvhPe
+        status: active
+        display_name: 王玩
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_7qWdVTXEXKZ5dG59swInbD
+        subject_person_id: p_TDUFAo3WDTpskSeRuBH9PB
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_FqUud2w7N1wezRTEw6MRZ4
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mAafjEhInFNU2prrSEFWij
+          claim_id: c_7qWdVTXEXKZ5dG59swInbD
+          source_id: s_Kt2AfBh7fKuTLiRwHyCwPY
+          stance: supports
+          locator: CBDB 双向互证（曾祖 王仁鎬 ⇄ 曾孫; 重孫 王說）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_TDUFAo3WDTpskSeRuBH9PB
+        status: active
+        display_name: 王仁鎬
+        merged_into_person_id: null
   descendants:
     - claim:
         id: c_o59oD6MVVvOKIutED9Q1pB
@@ -181,6 +233,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_42szA6CsjsGEHtctBDvhPe | 王玩 | accepted |
+| ancestors | p_TDUFAo3WDTpskSeRuBH9PB | 王仁鎬 | accepted |
 | descendants | p_LMN8U3w7r8FiSU2N778GMc | 王勳 | accepted |
 
 ## 外部来源

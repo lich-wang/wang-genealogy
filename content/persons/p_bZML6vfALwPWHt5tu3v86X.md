@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王真臣
 cbdb_id: 17884
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,8 +86,82 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_9vmhwb9Jv4S9IazqhkcXoI
+        subject_person_id: p_VbtK8ca4wEkyE5i9wXDKgj
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_bZML6vfALwPWHt5tu3v86X
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NFknCvwWmJFtg3tdakLxmz
+          claim_id: c_9vmhwb9Jv4S9IazqhkcXoI
+          source_id: s_m8gLFS3draMBkGBcgYjfQE
+          stance: supports
+          locator: CBDB 双向互证（子 王真臣 ⇄ 父 王景章）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_m8gLFS3draMBkGBcgYjfQE
+            source_type: api_record
+            title: 中国历代人物传记资料库：王景章（CBDB 17883）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17883&o=json
+            external_identifier: CBDB:17883
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.695Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_VbtK8ca4wEkyE5i9wXDKgj
+        status: active
+        display_name: 王景章
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_FEbADOyaOuiwv-Nckl8lv3
+        subject_person_id: p_bZML6vfALwPWHt5tu3v86X
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_c13t1gAnQni4prMz3DPJbk
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6SKXGJhImN7JoPOlXUybqt
+          claim_id: c_FEbADOyaOuiwv-Nckl8lv3
+          source_id: s_vBkKyzpaPfffzvS2LjjmEL
+          stance: supports
+          locator: CBDB 双向互证（父 王真臣 ⇄ 子 王俁）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_vBkKyzpaPfffzvS2LjjmEL
+            source_type: api_record
+            title: 中国历代人物传记资料库：王俁（CBDB 1932）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1932&o=json
+            external_identifier: CBDB:1932
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.410Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_c13t1gAnQni4prMz3DPJbk
+        status: active
+        display_name: 王俁
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,7 +185,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_VbtK8ca4wEkyE5i9wXDKgj | 王景章 | accepted |
+| children | p_c13t1gAnQni4prMz3DPJbk | 王俁 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王景章（CBDB 17883）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17883&o=json)
+- [中国历代人物传记资料库：王俁（CBDB 1932）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1932&o=json)
 - [中国历代人物传记资料库：王真臣（CBDB 17884）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17884&o=json)

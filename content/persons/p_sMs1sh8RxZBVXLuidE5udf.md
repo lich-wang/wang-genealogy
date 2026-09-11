@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王仁僓
 cbdb_id: 25240
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -91,8 +91,82 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
-  descendants: []
+  ancestors:
+    - claim:
+        id: c_q2z7KsnLzTsAaobauJU14w
+        subject_person_id: p_LaN7hTgUoNQbyqGUidTS8A
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_sMs1sh8RxZBVXLuidE5udf
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4DI_4IF5lLG7id4RHNxZwh
+          claim_id: c_q2z7KsnLzTsAaobauJU14w
+          source_id: s_JwrEyYHCGpeHiZo3p14aPu
+          stance: supports
+          locator: CBDB 双向互证（曾孫; 重孫 王仁僓 ⇄ 曾祖 王棨）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_JwrEyYHCGpeHiZo3p14aPu
+            source_type: api_record
+            title: 中国历代人物传记资料库：王棨（CBDB 4204）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=4204&o=json
+            external_identifier: CBDB:4204
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.461Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_LaN7hTgUoNQbyqGUidTS8A
+        status: active
+        display_name: 王棨
+        merged_into_person_id: null
+  descendants:
+    - claim:
+        id: c_JNB5xtcGlZVMmSRycNJb6F
+        subject_person_id: p_sMs1sh8RxZBVXLuidE5udf
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_N4m8f1CJyyaPfxmbQEmr7X
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gGjC_zEd5zHtOyySbb84Qr
+          claim_id: c_JNB5xtcGlZVMmSRycNJb6F
+          source_id: s_hdxe6Kg5j4msZ4hWo3Tojh
+          stance: supports
+          locator: CBDB 双向互证（祖父 王仁僓 ⇄ 孫 王珣）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_hdxe6Kg5j4msZ4hWo3Tojh
+            source_type: api_record
+            title: 中国历代人物传记资料库：王珣（CBDB 10335）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10335&o=json
+            external_identifier: CBDB:10335
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.526Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_N4m8f1CJyyaPfxmbQEmr7X
+        status: active
+        display_name: 王珣
+        merged_into_person_id: null
   other: []
 ---
 
@@ -111,7 +185,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_LaN7hTgUoNQbyqGUidTS8A | 王棨 | accepted |
+| descendants | p_N4m8f1CJyyaPfxmbQEmr7X | 王珣 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王棨（CBDB 4204）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=4204&o=json)
 - [中国历代人物传记资料库：王仁僓（CBDB 25240）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=25240&o=json)
+- [中国历代人物传记资料库：王珣（CBDB 10335）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10335&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王绶
 cbdb_id: 28111
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -191,7 +191,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_Y3SORaVs05iyD0Y85FZeLN
+        subject_person_id: p_mgxHev7zFTwcmkSJE7CaXn
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_EPoEhnzxUXZ38QvoPDgs5s
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_DxUYv2f2zzPU1uAvtHCggw
+          claim_id: c_Y3SORaVs05iyD0Y85FZeLN
+          source_id: s_BAjxo671XMFTkByAe6GdPY
+          stance: supports
+          locator: CBDB 双向互证（孫 王綬 ⇄ 祖父 王良玉）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_BAjxo671XMFTkByAe6GdPY
+            source_type: api_record
+            title: 中国历代人物传记资料库：王良玉（CBDB 10725）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10725&o=json
+            external_identifier: CBDB:10725
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.563Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_mgxHev7zFTwcmkSJE7CaXn
+        status: active
+        display_name: 王良玉
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -212,10 +249,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_DNgcd12SMQT8sYhCTYL1PG | 王祎 | accepted |
+| ancestors | p_mgxHev7zFTwcmkSJE7CaXn | 王良玉 | accepted |
 
 ## 外部来源
 
 - [维基数据：王绶（Q45413315）](https://www.wikidata.org/wiki/Q45413315)
 - [维基数据：王祎（Q15934970）](https://www.wikidata.org/wiki/Q15934970)
+- [中国历代人物传记资料库：王良玉（CBDB 10725）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10725&o=json)
 - [CBDB 中国历代人物传记资料库：王褘（10726）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10726&o=json)
 - [CBDB 中国历代人物传记资料库：王綬（28111）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28111&o=json)

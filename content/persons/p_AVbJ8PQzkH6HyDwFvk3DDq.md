@@ -4,7 +4,7 @@ id: p_AVbJ8PQzkH6HyDwFvk3DDq
 status: active
 merged_into: null
 display_name: 王度
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_1RKqkaQwXBF-gfW3apLfnS
+        subject_person_id: p_mw1C15aFtzQ5L6FdHoKc5w
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_AVbJ8PQzkH6HyDwFvk3DDq
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_z4VOZum02JoBWlGh2tf-O0
+          claim_id: c_1RKqkaQwXBF-gfW3apLfnS
+          source_id: s_RT3YnR43QP4wp8cNS83TG6
+          stance: supports
+          locator: CBDB 双向互证（父 王俊民 ⇄ 子 王度）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_mw1C15aFtzQ5L6FdHoKc5w
+        status: active
+        display_name: 王俊民
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -155,6 +181,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_mw1C15aFtzQ5L6FdHoKc5w | 王俊民 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_BsUPyN3PgHdrLvMeySeRLR
 status: active
 merged_into: null
 display_name: 王贄
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -134,7 +134,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_odGmFFygD6ckPOzNg9wNrh
+        subject_person_id: p_BsUPyN3PgHdrLvMeySeRLR
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_f2PSyxKxCq1ou1TiLbgteQ
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_sRhMZOJIz0yPXl_FnjyuOo
+          claim_id: c_odGmFFygD6ckPOzNg9wNrh
+          source_id: s_UfMwzBzQdJFPXQcTGd87aq
+          stance: supports
+          locator: CBDB 双向互证（孫 王球 ⇄ 祖父 王贄）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_f2PSyxKxCq1ou1TiLbgteQ
+        status: active
+        display_name: 王球
+        merged_into_person_id: null
   other: []
 ---
 
@@ -155,6 +181,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_f2PSyxKxCq1ou1TiLbgteQ | 王球 | accepted |
 
 ## 外部来源
 

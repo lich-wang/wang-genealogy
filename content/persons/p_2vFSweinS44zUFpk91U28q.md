@@ -4,7 +4,7 @@ id: p_2vFSweinS44zUFpk91U28q
 status: active
 merged_into: null
 display_name: 王忠
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_Hidm4GIvz6lSIHd6wjXNQ7
+        subject_person_id: p_R1dPkHsbHEmRUC7wzU69Yh
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_2vFSweinS44zUFpk91U28q
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_EN3hNvoKbe7JgwmIUuLk_H
+          claim_id: c_Hidm4GIvz6lSIHd6wjXNQ7
+          source_id: s_MXEn6srux9SnSuLUMnDoEu
+          stance: supports
+          locator: CBDB 双向互证（父 王仁 ⇄ 子 王忠）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_R1dPkHsbHEmRUC7wzU69Yh
+        status: active
+        display_name: 王仁
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c__-bsPB9yHGdDttPVqoQ4PQ
+        subject_person_id: p_2vFSweinS44zUFpk91U28q
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_S91UDmLopWwoam8e6F89Jc
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0jibSsViZYIYHnVgn1_VnM
+          claim_id: c__-bsPB9yHGdDttPVqoQ4PQ
+          source_id: s_MXEn6srux9SnSuLUMnDoEu
+          stance: supports
+          locator: CBDB 双向互证（子 王俊彥 ⇄ 父 王忠）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_S91UDmLopWwoam8e6F89Jc
+        status: active
+        display_name: 王俊彥
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_R1dPkHsbHEmRUC7wzU69Yh | 王仁 | accepted |
+| children | p_S91UDmLopWwoam8e6F89Jc | 王俊彥 | accepted |
 
 ## 外部来源
 

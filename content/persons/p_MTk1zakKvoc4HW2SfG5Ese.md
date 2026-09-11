@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王渎
 cbdb_id: 3986
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -341,7 +341,45 @@ relationships:
         display_name: 仇氏
         merged_into_person_id: null
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_RT014RBxjOJGGPf_Xy_jNS
+        subject_person_id: p_MTk1zakKvoc4HW2SfG5Ese
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_bihchq7ihoPQFxDPNdJBwa
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_W9BaaxX10Hg-6J_j-4AKUc
+          claim_id: c_RT014RBxjOJGGPf_Xy_jNS
+          source_id: s_L28svGF5thkJ5X4U3Vkr5B
+          stance: supports
+          locator: CBDB 双向互证（祖父 王瀆 ⇄ 孫 王庭老）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_L28svGF5thkJ5X4U3Vkr5B
+            source_type: api_record
+            title: 中国历代人物传记资料库：王庭老（CBDB 1887）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1887&o=json
+            external_identifier: CBDB:1887
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:43.132Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_bihchq7ihoPQFxDPNdJBwa
+        status: active
+        display_name: 王庭老
+        merged_into_person_id: null
   other: []
 ---
 
@@ -364,6 +402,7 @@ relationships:
 | children | p_83ygFMkQK9fNnM8zpQKj1X | 王尧臣 | accepted |
 | children | p_3NdGXHCq85xpzk8u1hLvNN | 王纯臣 | accepted |
 | spouses | p_hV4FccBsTXSAEpS7L3B7RC | 仇氏 | accepted |
+| descendants | p_bihchq7ihoPQFxDPNdJBwa | 王庭老 | accepted |
 
 ## 外部来源
 
@@ -372,5 +411,6 @@ relationships:
 - [维基数据：王渎（Q45363040）](https://www.wikidata.org/wiki/Q45363040)
 - [维基数据：王砺（Q45381094）](https://www.wikidata.org/wiki/Q45381094)
 - [维基数据：王尧臣（Q16903964）](https://www.wikidata.org/wiki/Q16903964)
+- [中国历代人物传记资料库：王庭老（CBDB 1887）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1887&o=json)
 - [CBDB 中国历代人物传记资料库：王瀆（3986）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3986&o=json)
 - [CBDB 中国历代人物传记资料库：王礪（15706）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=15706&o=json)

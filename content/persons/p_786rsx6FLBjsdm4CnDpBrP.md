@@ -4,7 +4,7 @@ id: p_786rsx6FLBjsdm4CnDpBrP
 status: active
 merged_into: null
 display_name: 王吉武
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_kJKAKsd789HH_g6LRRQoYK
+        subject_person_id: p_FujQn99C56rGgzyuHWtSJs
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_786rsx6FLBjsdm4CnDpBrP
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_reqjMALn1Wn8T1NCT0Grds
+          claim_id: c_kJKAKsd789HH_g6LRRQoYK
+          source_id: s_YUKJhUCAJgadizB1nKHfSR
+          stance: supports
+          locator: CBDB 双向互证（父 王發祥 ⇄ 子 王吉武）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_FujQn99C56rGgzyuHWtSJs
+        status: active
+        display_name: 王發祥
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -155,6 +181,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_FujQn99C56rGgzyuHWtSJs | 王發祥 | accepted |
 
 ## 外部来源
 

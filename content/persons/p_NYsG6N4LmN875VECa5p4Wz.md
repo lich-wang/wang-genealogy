@@ -4,7 +4,7 @@ id: p_NYsG6N4LmN875VECa5p4Wz
 status: active
 merged_into: null
 display_name: 王章
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_O2jFSEuArLa3tYXjGH0MwZ
+        subject_person_id: p_paeiTkCs16bPdo21GgKDac
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_NYsG6N4LmN875VECa5p4Wz
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1IiiLJlBc_kFYhFLX8SzBZ
+          claim_id: c_O2jFSEuArLa3tYXjGH0MwZ
+          source_id: s_JsZ29upkgVoC9wYgsJBwm5
+          stance: supports
+          locator: CBDB 双向互证（父 王用 ⇄ 子 王章）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_paeiTkCs16bPdo21GgKDac
+        status: active
+        display_name: 王用
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -126,6 +152,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_paeiTkCs16bPdo21GgKDac | 王用 | accepted |
 
 ## 外部来源
 
