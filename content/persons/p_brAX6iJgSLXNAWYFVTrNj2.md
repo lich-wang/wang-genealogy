@@ -4,7 +4,7 @@ id: p_brAX6iJgSLXNAWYFVTrNj2
 status: active
 merged_into: null
 display_name: 王思敬
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_hPbODIyZywCtKcHNBbZkLK
+        subject_person_id: p_xDHPR2Kj84VvoDTL88JAeh
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_brAX6iJgSLXNAWYFVTrNj2
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9te_W-D-ZmVdX8aR6JB71S
+          claim_id: c_hPbODIyZywCtKcHNBbZkLK
+          source_id: s_gqnqFQKHQg8RhCHv8E9AuX
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_xDHPR2Kj84VvoDTL88JAeh
+        status: active
+        display_name: 王懷仁
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_CfAY4vvoJrJ9pOPZBAluim
+        subject_person_id: p_brAX6iJgSLXNAWYFVTrNj2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_rUMuK7CzfJfHKJ88kFi4jQ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NP1aMPwdfOCZJt7zZ8Ow0A
+          claim_id: c_CfAY4vvoJrJ9pOPZBAluim
+          source_id: s_gqnqFQKHQg8RhCHv8E9AuX
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaicheng 37：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_rUMuK7CzfJfHKJ88kFi4jQ
+        status: active
+        display_name: 王如琬
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_xDHPR2Kj84VvoDTL88JAeh | 王懷仁 | accepted |
+| children | p_rUMuK7CzfJfHKJ88kFi4jQ | 王如琬 | accepted |
 
 ## 外部来源
 

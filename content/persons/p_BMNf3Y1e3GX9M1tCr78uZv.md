@@ -4,7 +4,7 @@ id: p_BMNf3Y1e3GX9M1tCr78uZv
 status: active
 merged_into: null
 display_name: 王臣
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,12 +128,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_FXRwuXV2Z73JnrSUvVKvwZ
+        subject_person_id: p_L1mTZr3NQ9UFGyoNN92bJE
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_BMNf3Y1e3GX9M1tCr78uZv
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_p6TIv7-rn0xpcykH044ylj
+          claim_id: c_FXRwuXV2Z73JnrSUvVKvwZ
+          source_id: s_zmrfFWfwmHqZxrRkgGutK1
+          stance: supports
+          locator: 天順八年進士登科錄:一卷，第三甲第五十五名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_L1mTZr3NQ9UFGyoNN92bJE
+        status: active
+        display_name: 王威
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_4RAeiXpC7J4fc0u83u0TZ0
+        subject_person_id: p_6E2W1NKHyeLPCWmDUE7yC4
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_BMNf3Y1e3GX9M1tCr78uZv
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_M8B4vkNyLs3Pnfx4RQY3hG
+          claim_id: c_4RAeiXpC7J4fc0u83u0TZ0
+          source_id: s_zmrfFWfwmHqZxrRkgGutK1
+          stance: supports
+          locator: 天順八年進士登科錄:一卷，第三甲第五十五名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_6E2W1NKHyeLPCWmDUE7yC4
+        status: active
+        display_name: 王甫禮
+        merged_into_person_id: null
+    - claim:
+        id: c_yI5rB_JVQUSpSECVOItafL
+        subject_person_id: p_zNuBaBWZsMU4TAdk23ekxC
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_BMNf3Y1e3GX9M1tCr78uZv
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OsQWaETE72cKaXz_vQY6oC
+          claim_id: c_yI5rB_JVQUSpSECVOItafL
+          source_id: s_zmrfFWfwmHqZxrRkgGutK1
+          stance: supports
+          locator: 天順八年進士登科錄:一卷，第三甲第五十五名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_zNuBaBWZsMU4TAdk23ekxC
+        status: active
+        display_name: 王仲肅
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,6 +233,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_L1mTZr3NQ9UFGyoNN92bJE | 王威 | accepted |
+| ancestors | p_6E2W1NKHyeLPCWmDUE7yC4 | 王甫禮 | accepted |
+| ancestors | p_zNuBaBWZsMU4TAdk23ekxC | 王仲肅 | accepted |
 
 ## 外部来源
 

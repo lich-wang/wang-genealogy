@@ -4,7 +4,7 @@ id: p_vMrpuYoGovfAHAbszUSEaq
 status: active
 merged_into: null
 display_name: 王模
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_FbP5KYDk-t9rs2UKDK3cCN
+        subject_person_id: p_BoQ3bxPTXeG24V1AJeLzEL
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_vMrpuYoGovfAHAbszUSEaq
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KXCerkWwV-0yVSmLJ6eNK9
+          claim_id: c_FbP5KYDk-t9rs2UKDK3cCN
+          source_id: s_iZzws7ey8SoQwoXQxk9z5Q
+          stance: supports
+          locator: 南陽府志，lgid=878671：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_iZzws7ey8SoQwoXQxk9z5Q
+            source_type: api_record
+            title: 中国历代人物传记资料库：王沂若（CBDB 551503）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=551503&o=json
+            external_identifier: CBDB:551503
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.510Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_BoQ3bxPTXeG24V1AJeLzEL
+        status: active
+        display_name: 王沂若
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_BoQ3bxPTXeG24V1AJeLzEL | 王沂若 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王模（CBDB 551505）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=551505&o=json)
+- [中国历代人物传记资料库：王沂若（CBDB 551503）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=551503&o=json)

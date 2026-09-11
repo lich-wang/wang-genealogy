@@ -4,7 +4,7 @@ id: p_d7se9UivDFXRMfVXTck1VV
 status: active
 merged_into: null
 display_name: 王今伯
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -101,7 +101,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_2IkXXkjyHMZBik4URNl4uX
+        subject_person_id: p_d7se9UivDFXRMfVXTck1VV
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ByByjCwT9Wgwc6nJLBGiit
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vjBf2sveA_j_GMFiZ6Fv4I
+          claim_id: c_2IkXXkjyHMZBik4URNl4uX
+          source_id: s_THPAtfVam3t7CKGtujFwbi
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_THPAtfVam3t7CKGtujFwbi
+            source_type: api_record
+            title: 中国历代人物传记资料库：王臧（CBDB 169091）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=169091&o=json
+            external_identifier: CBDB:169091
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.228Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ByByjCwT9Wgwc6nJLBGiit
+        status: active
+        display_name: 王臧
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_ByByjCwT9Wgwc6nJLBGiit | 王臧 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王今伯（CBDB 169557）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=169557&o=json)
+- [中国历代人物传记资料库：王臧（CBDB 169091）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=169091&o=json)

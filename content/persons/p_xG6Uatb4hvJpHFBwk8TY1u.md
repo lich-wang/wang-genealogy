@@ -4,7 +4,7 @@ id: p_xG6Uatb4hvJpHFBwk8TY1u
 status: active
 merged_into: null
 display_name: 王祐
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -142,7 +142,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_2RAMWYB1iQKUpieCllc31G
+        subject_person_id: p_cCQdbNu8vKtiv9UU7u2aGs
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_xG6Uatb4hvJpHFBwk8TY1u
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_F6rRygS2hEIKyQMe8QGUtf
+          claim_id: c_2RAMWYB1iQKUpieCllc31G
+          source_id: s_vD79f2Zb6WmViZFvP6p8Ym
+          stance: supports
+          locator: 景泰二年進士登科錄:一卷，第二甲第四名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_vD79f2Zb6WmViZFvP6p8Ym
+            source_type: api_record
+            title: 中国历代人物传记资料库：王彥暉（CBDB 248742）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=248742&o=json
+            external_identifier: CBDB:248742
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.159Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_cCQdbNu8vKtiv9UU7u2aGs
+        status: active
+        display_name: 王彥暉
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_3BqLdv5ornEQLqdPoknpXE | 王屏 | accepted |
+| ancestors | p_cCQdbNu8vKtiv9UU7u2aGs | 王彥暉 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王屏（CBDB 199995）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=199995&o=json)
+- [中国历代人物传记资料库：王彥暉（CBDB 248742）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=248742&o=json)
 - [中国历代人物传记资料库：王祐（CBDB 198138）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198138&o=json)

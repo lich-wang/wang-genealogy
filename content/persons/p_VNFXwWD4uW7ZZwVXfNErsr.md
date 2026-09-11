@@ -4,7 +4,7 @@ id: p_VNFXwWD4uW7ZZwVXfNErsr
 status: active
 merged_into: null
 display_name: 王晏
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -170,7 +170,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_i4FD3J1PC4lR1f5n7V5eg0
+        subject_person_id: p_bmbwdV3HEBP41vyQnog2Gc
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_VNFXwWD4uW7ZZwVXfNErsr
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wMEvcqNJGPkL6mQQLxtfLg
+          claim_id: c_i4FD3J1PC4lR1f5n7V5eg0
+          source_id: s_85EBvENbuhhCGZsJ7kZAGr
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Jinglong13：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_85EBvENbuhhCGZsJ7kZAGr
+            source_type: api_record
+            title: 中国历代人物传记资料库：王君素（CBDB 148173）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=148173&o=json
+            external_identifier: CBDB:148173
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.758Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_bmbwdV3HEBP41vyQnog2Gc
+        status: active
+        display_name: 王君素
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -193,8 +230,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_4qEC6svJUXem3b3PUvCg4p | 王曉 | accepted |
+| ancestors | p_bmbwdV3HEBP41vyQnog2Gc | 王君素 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王君素（CBDB 148173）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=148173&o=json)
 - [中国历代人物传记资料库：王曉（CBDB 163587）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=163587&o=json)
 - [中国历代人物传记资料库：王晏（CBDB 142376）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=142376&o=json)

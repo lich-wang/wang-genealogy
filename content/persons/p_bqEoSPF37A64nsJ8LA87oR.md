@@ -4,7 +4,7 @@ id: p_bqEoSPF37A64nsJ8LA87oR
 status: active
 merged_into: null
 display_name: 王德新
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,12 +72,64 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_p5bILWaiWAX3EURE8Zd8c5
+        subject_person_id: p_pP1ZFJ9Eu2YF7pkebSdPnY
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_bqEoSPF37A64nsJ8LA87oR
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ybcM5LWCoKIpjLDSnXxg4o
+          claim_id: c_p5bILWaiWAX3EURE8Zd8c5
+          source_id: s_Ng32YVz7D2uzMtquofEcqw
+          stance: supports
+          locator: 紹興府志:八十卷，lgid=316871：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_pP1ZFJ9Eu2YF7pkebSdPnY
+        status: active
+        display_name: 王家楨
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_7WDlhZy10HFptApcmI10YA
+        subject_person_id: p_KK8vNXZj4epAzhpkfscadd
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_bqEoSPF37A64nsJ8LA87oR
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_C4CdUOW_-Zt1jCpvfKFsGv
+          claim_id: c_7WDlhZy10HFptApcmI10YA
+          source_id: s_Ng32YVz7D2uzMtquofEcqw
+          stance: supports
+          locator: 紹興府志:八十卷，lgid=316871：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_KK8vNXZj4epAzhpkfscadd
+        status: active
+        display_name: 王士珪
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_pP1ZFJ9Eu2YF7pkebSdPnY | 王家楨 | accepted |
+| ancestors | p_KK8vNXZj4epAzhpkfscadd | 王士珪 | accepted |
 
 ## 外部来源
 

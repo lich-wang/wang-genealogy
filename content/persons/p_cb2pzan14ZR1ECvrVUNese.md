@@ -4,7 +4,7 @@ id: p_cb2pzan14ZR1ECvrVUNese
 status: active
 merged_into: null
 display_name: 王胡
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,8 +128,71 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_D0P1KDoeH0YGIJvMY_33y4
+        subject_person_id: p_v8dSrbidp2g7Lghcz9wesN
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_cb2pzan14ZR1ECvrVUNese
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XTQJio8eDigS65zVnPIaUE
+          claim_id: c_D0P1KDoeH0YGIJvMY_33y4
+          source_id: s_mtoajfRU5iL74uCLWmM7bH
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Kaiyuan6：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_v8dSrbidp2g7Lghcz9wesN
+        status: active
+        display_name: 王胡仁
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_HR_RahRWojxa5Z7Xh9oql6
+        subject_person_id: p_cb2pzan14ZR1ECvrVUNese
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_BY6pA4PHTVb3LmiTYxbcFF
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vQNkSY-8anFxJN7iuhDH6M
+          claim_id: c_HR_RahRWojxa5Z7Xh9oql6
+          source_id: s_qP7FJULxKBKkLznSMQida4
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Kaiyuan6：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_qP7FJULxKBKkLznSMQida4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王思禮（CBDB 163701）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=163701&o=json
+            external_identifier: CBDB:163701
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.961Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_BY6pA4PHTVb3LmiTYxbcFF
+        status: active
+        display_name: 王思禮
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,7 +218,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_v8dSrbidp2g7Lghcz9wesN | 王胡仁 | accepted |
+| children | p_BY6pA4PHTVb3LmiTYxbcFF | 王思禮 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王胡（CBDB 142838）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=142838&o=json)
+- [中国历代人物传记资料库：王思禮（CBDB 163701）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=163701&o=json)

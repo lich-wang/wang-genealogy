@@ -4,7 +4,7 @@ id: p_bmHq7gHZwjgbm5V1bkLzUT
 status: active
 merged_into: null
 display_name: 王韶
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,8 +128,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_lYWiQleXzdoVBlsUusxYF_
+        subject_person_id: p_owBpexPyewiSvBD2Bv9rND
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_bmHq7gHZwjgbm5V1bkLzUT
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_F1rHN3-2mLCa_7ZV_8nezI
+          claim_id: c_lYWiQleXzdoVBlsUusxYF_
+          source_id: s_DfjD8YeEYBuuUopsxMmVRn
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaiyuan 342：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_owBpexPyewiSvBD2Bv9rND
+        status: active
+        display_name: 王懷信
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_K6XLYqxFGDfDthtQcsYi1E
+        subject_person_id: p_bmHq7gHZwjgbm5V1bkLzUT
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_CSJUv2Qs6nLFQCNo6BweDp
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QyhGbu0vh7fOlajqFD9CTa
+          claim_id: c_K6XLYqxFGDfDthtQcsYi1E
+          source_id: s_DfjD8YeEYBuuUopsxMmVRn
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaiyuan 342：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_CSJUv2Qs6nLFQCNo6BweDp
+        status: active
+        display_name: 王嵩
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +207,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_owBpexPyewiSvBD2Bv9rND | 王懷信 | accepted |
+| children | p_CSJUv2Qs6nLFQCNo6BweDp | 王嵩 | accepted |
 
 ## 外部来源
 

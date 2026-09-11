@@ -4,7 +4,7 @@ id: p_bwdhzsnM77a9YN3tYyTmwB
 status: active
 merged_into: null
 display_name: 王鴻儒
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,13 +100,143 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_ypLW9KDqu6wNxHmZmLHOmV
+        subject_person_id: p_PAQnJKUX1HHCzAwrFTb5md
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_bwdhzsnM77a9YN3tYyTmwB
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ExDOZmv_BUSxOixtDDA-3_
+          claim_id: c_ypLW9KDqu6wNxHmZmLHOmV
+          source_id: s_D1Q1PMjTF3hG8x2zM1xYbq
+          stance: supports
+          locator: 成化二十三年進士登科錄:一卷，第二甲第八名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_PAQnJKUX1HHCzAwrFTb5md
+        status: active
+        display_name: 王本
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
-  ancestors: []
-  descendants: []
+  spouses:
+    - claim:
+        id: c_PdzEMRh3SwZ3hBEKAOaR70
+        subject_person_id: p_bwdhzsnM77a9YN3tYyTmwB
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_WdSei9h8Pyy5rewkZCDsYk
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cBCoXkRoXHjxxOXrv7ywrU
+          claim_id: c_PdzEMRh3SwZ3hBEKAOaR70
+          source_id: s_D1Q1PMjTF3hG8x2zM1xYbq
+          stance: supports
+          locator: 成化二十三年進士登科錄:一卷，第二甲第八名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_WdSei9h8Pyy5rewkZCDsYk
+        status: active
+        display_name: 吴氏
+        merged_into_person_id: null
+  ancestors:
+    - claim:
+        id: c__v1UHQsTUsVZZ_DJjxDwZ4
+        subject_person_id: p_CssBwdEzPxaEJMK9H91FMQ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_bwdhzsnM77a9YN3tYyTmwB
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_iMb3PAhNXWt7n9nr85LA0S
+          claim_id: c__v1UHQsTUsVZZ_DJjxDwZ4
+          source_id: s_D1Q1PMjTF3hG8x2zM1xYbq
+          stance: supports
+          locator: 成化二十三年進士登科錄:一卷，第二甲第八名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_CssBwdEzPxaEJMK9H91FMQ
+        status: active
+        display_name: 王云
+        merged_into_person_id: null
+    - claim:
+        id: c_s2gdO8jr4QiSf3GbblIusI
+        subject_person_id: p_Ns4Cdmr9SZRQforztCwkrA
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_bwdhzsnM77a9YN3tYyTmwB
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cnmwS6h4FsTBioLkwiike-
+          claim_id: c_s2gdO8jr4QiSf3GbblIusI
+          source_id: s_D1Q1PMjTF3hG8x2zM1xYbq
+          stance: supports
+          locator: 成化二十三年進士登科錄:一卷，第二甲第八名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Ns4Cdmr9SZRQforztCwkrA
+        status: active
+        display_name: 王成
+        merged_into_person_id: null
+  descendants:
+    - claim:
+        id: c_77O6_rAwxw1ExQRXIAySne
+        subject_person_id: p_bwdhzsnM77a9YN3tYyTmwB
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_iRoPCMQGG7T8QWQEfbMdBx
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_g3AM8oTqnx5O1lXf3tjcAC
+          claim_id: c_77O6_rAwxw1ExQRXIAySne
+          source_id: s_D1Q1PMjTF3hG8x2zM1xYbq
+          stance: supports
+          locator: 隆慶二年進士登科錄:一卷，第二甲第四十七名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_iRoPCMQGG7T8QWQEfbMdBx
+        status: active
+        display_name: 王汝鲁
+        merged_into_person_id: null
   other: []
 ---
 
@@ -126,6 +256,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_PAQnJKUX1HHCzAwrFTb5md | 王本 | accepted |
+| spouses | p_WdSei9h8Pyy5rewkZCDsYk | 吴氏 | accepted |
+| ancestors | p_CssBwdEzPxaEJMK9H91FMQ | 王云 | accepted |
+| ancestors | p_Ns4Cdmr9SZRQforztCwkrA | 王成 | accepted |
+| descendants | p_iRoPCMQGG7T8QWQEfbMdBx | 王汝鲁 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_WP2TCGKdqkuWFjHVRTiLcW
 status: active
 merged_into: null
 display_name: 王志堅
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -167,6 +167,43 @@ relationships:
         status: active
         display_name: 王伸
         merged_into_person_id: null
+    - claim:
+        id: c_3xUXeQ6PLzb4_pmDUcIAms
+        subject_person_id: p_WP2TCGKdqkuWFjHVRTiLcW
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_bJeeCisqsDvKkX7VGzVKyc
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kzlfgfNtAF-FFVzMHwK808
+          claim_id: c_3xUXeQ6PLzb4_pmDUcIAms
+          source_id: s_R8NDb4wnBuKU7QsWoXYSSB
+          stance: supports
+          locator: 萬曆三十八年庚戌科序齒錄:一卷，第二甲第五十七名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_R8NDb4wnBuKU7QsWoXYSSB
+            source_type: api_record
+            title: 中国历代人物传记资料库：王傚（CBDB 235167）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235167&o=json
+            external_identifier: CBDB:235167
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.754Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_bJeeCisqsDvKkX7VGzVKyc
+        status: active
+        display_name: 王傚
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -230,10 +267,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_3DFKdwT8J87L9D41FmCZHV | 王伸 | accepted |
+| children | p_bJeeCisqsDvKkX7VGzVKyc | 王傚 | accepted |
 | ancestors | p_4JGDXd2PVCbJXStDWXhdLE | 王三錫 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王三錫（CBDB 235147）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235147&o=json)
 - [中国历代人物传记资料库：王伸（CBDB 235164）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235164&o=json)
+- [中国历代人物传记资料库：王傚（CBDB 235167）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235167&o=json)
 - [中国历代人物传记资料库：王志堅（CBDB 126537）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126537&o=json)

@@ -4,7 +4,7 @@ id: p_ByByjCwT9Wgwc6nJLBGiit
 status: active
 merged_into: null
 display_name: 王臧
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,8 +100,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_2IkXXkjyHMZBik4URNl4uX
+        subject_person_id: p_d7se9UivDFXRMfVXTck1VV
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ByByjCwT9Wgwc6nJLBGiit
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vjBf2sveA_j_GMFiZ6Fv4I
+          claim_id: c_2IkXXkjyHMZBik4URNl4uX
+          source_id: s_THPAtfVam3t7CKGtujFwbi
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_d7se9UivDFXRMfVXTck1VV
+        status: active
+        display_name: 王今伯
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_W-ajkPUycsBbDPvYc6nb3t
+        subject_person_id: p_ByByjCwT9Wgwc6nJLBGiit
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_vvHSQNDSfE6nLUen9b792c
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HFe41s9wr6O-B9A-B7QDUf
+          claim_id: c_W-ajkPUycsBbDPvYc6nb3t
+          source_id: s_THPAtfVam3t7CKGtujFwbi
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_vvHSQNDSfE6nLUen9b792c
+        status: active
+        display_name: 王正言
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,6 +178,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_d7se9UivDFXRMfVXTck1VV | 王今伯 | accepted |
+| children | p_vvHSQNDSfE6nLUen9b792c | 王正言 | accepted |
 
 ## 外部来源
 

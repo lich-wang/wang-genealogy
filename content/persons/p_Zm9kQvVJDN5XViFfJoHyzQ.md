@@ -4,7 +4,7 @@ id: p_Zm9kQvVJDN5XViFfJoHyzQ
 status: active
 merged_into: null
 display_name: 王銳
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c__JDQNog2141xktGAutby4w
+        subject_person_id: p_CHMpjZ7ucQ6R7PCQoVg275
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Zm9kQvVJDN5XViFfJoHyzQ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FAgdcpMq_ge0PwB5DTR7ac
+          claim_id: c__JDQNog2141xktGAutby4w
+          source_id: s_FSDDkvK79c5wgq8JZ3fLHj
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_FSDDkvK79c5wgq8JZ3fLHj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王景（CBDB 170246）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=170246&o=json
+            external_identifier: CBDB:170246
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.030Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_CHMpjZ7ucQ6R7PCQoVg275
+        status: active
+        display_name: 王景
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_CHMpjZ7ucQ6R7PCQoVg275 | 王景 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王景（CBDB 170246）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=170246&o=json)
 - [中国历代人物传记资料库：王銳（CBDB 169764）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=169764&o=json)

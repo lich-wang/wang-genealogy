@@ -4,7 +4,7 @@ id: p_CfBpw258HLcQeTLTcYJMD7
 status: active
 merged_into: null
 display_name: 王瑗
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_GYpQ0OKD_axOQxs6tK7Fj_
+        subject_person_id: p_CfBpw258HLcQeTLTcYJMD7
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_TBBj4gCo8ENonMptcoHt4r
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Hlzfda0OCOgXzQ4m_K97ju
+          claim_id: c_GYpQ0OKD_axOQxs6tK7Fj_
+          source_id: s_vxLiF5gZR2GshzrSLub3BU
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第一百四十七名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_TBBj4gCo8ENonMptcoHt4r
+        status: active
+        display_name: 王獻芝
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_TBBj4gCo8ENonMptcoHt4r | 王獻芝 | accepted |
 
 ## 外部来源
 

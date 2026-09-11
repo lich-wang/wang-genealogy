@@ -4,7 +4,7 @@ id: p_C4L8C9ZGQKbGE4WJu2C1p9
 status: active
 merged_into: null
 display_name: 王基
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_DQrIwMvbFLzY9bdTVthwWH
+        subject_person_id: p_DpQiwc8xYXUruWevnbjJPo
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_C4L8C9ZGQKbGE4WJu2C1p9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QWX5l6mzUGlbFpkOMx9I1O
+          claim_id: c_DQrIwMvbFLzY9bdTVthwWH
+          source_id: s_9vX6wGH9DksbszvX2D8tck
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaiming 4：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_DpQiwc8xYXUruWevnbjJPo
+        status: active
+        display_name: 王仲
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_DpQiwc8xYXUruWevnbjJPo | 王仲 | accepted |
 
 ## 外部来源
 

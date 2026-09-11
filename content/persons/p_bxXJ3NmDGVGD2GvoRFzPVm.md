@@ -4,7 +4,7 @@ id: p_bxXJ3NmDGVGD2GvoRFzPVm
 status: active
 merged_into: null
 display_name: 王恕
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_Utl08lng1GJ_AUyDm22W2V
+        subject_person_id: p_bxXJ3NmDGVGD2GvoRFzPVm
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_HZxRfM1J6mh1R2D24Ea4iC
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wLr4MUK-VewCTr65dvlbHT
+          claim_id: c_Utl08lng1GJ_AUyDm22W2V
+          source_id: s_94GJJdSg6wAtgxbXASQSf6
+          stance: supports
+          locator: 成化二年進士登科錄:一卷，第三甲第一百五十九名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_HZxRfM1J6mh1R2D24Ea4iC
+        status: active
+        display_name: 王琮
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_HZxRfM1J6mh1R2D24Ea4iC | 王琮 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_BzK6A2uXvZyrjjgruuh1Qh
 status: active
 merged_into: null
 display_name: 王用汲
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,12 +128,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_qFDdvWYIhLFtMrUeSVjmHg
+        subject_person_id: p_wFTS9Dws5nhZvJ8pXQTGVc
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_BzK6A2uXvZyrjjgruuh1Qh
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_imQ0z_A7RdDi6galJCy0Q-
+          claim_id: c_qFDdvWYIhLFtMrUeSVjmHg
+          source_id: s_G5Q12QpxwABQ4p3YD5nNDm
+          stance: supports
+          locator: 隆慶二年進士登科錄:一卷，第三甲第一百零四名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_wFTS9Dws5nhZvJ8pXQTGVc
+        status: active
+        display_name: 王孫
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_olIyo3YMos-CfvRJOHKjiI
+        subject_person_id: p_5gxVMxVHEsmyHKD9hjsbp5
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_BzK6A2uXvZyrjjgruuh1Qh
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WprvJwzSOPmCKVwcxxIoew
+          claim_id: c_olIyo3YMos-CfvRJOHKjiI
+          source_id: s_G5Q12QpxwABQ4p3YD5nNDm
+          stance: supports
+          locator: 隆慶二年進士登科錄:一卷，第三甲第一百零四名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_5gxVMxVHEsmyHKD9hjsbp5
+        status: active
+        display_name: 王晉和
+        merged_into_person_id: null
+    - claim:
+        id: c_jVFZIv0ZsxrDWYe4i3lLuC
+        subject_person_id: p_xpo8hw4fvJhVz9XuV1sULD
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_BzK6A2uXvZyrjjgruuh1Qh
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BL7rj7PHhF7F4oUMfTstQc
+          claim_id: c_jVFZIv0ZsxrDWYe4i3lLuC
+          source_id: s_G5Q12QpxwABQ4p3YD5nNDm
+          stance: supports
+          locator: 隆慶二年進士登科錄:一卷，第三甲第一百零四名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_xpo8hw4fvJhVz9XuV1sULD
+        status: active
+        display_name: 王治
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,6 +233,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_wFTS9Dws5nhZvJ8pXQTGVc | 王孫 | accepted |
+| ancestors | p_5gxVMxVHEsmyHKD9hjsbp5 | 王晉和 | accepted |
+| ancestors | p_xpo8hw4fvJhVz9XuV1sULD | 王治 | accepted |
 
 ## 外部来源
 

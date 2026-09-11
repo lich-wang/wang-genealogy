@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王本
 cbdb_id: 257534
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -214,6 +214,43 @@ relationships:
         status: active
         display_name: 王鸿儒
         merged_into_person_id: null
+    - claim:
+        id: c_ypLW9KDqu6wNxHmZmLHOmV
+        subject_person_id: p_PAQnJKUX1HHCzAwrFTb5md
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_bwdhzsnM77a9YN3tYyTmwB
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ExDOZmv_BUSxOixtDDA-3_
+          claim_id: c_ypLW9KDqu6wNxHmZmLHOmV
+          source_id: s_D1Q1PMjTF3hG8x2zM1xYbq
+          stance: supports
+          locator: 成化二十三年進士登科錄:一卷，第二甲第八名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_D1Q1PMjTF3hG8x2zM1xYbq
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鴻儒（CBDB 33864）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=33864&o=json
+            external_identifier: CBDB:33864
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.072Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_bwdhzsnM77a9YN3tYyTmwB
+        status: active
+        display_name: 王鴻儒
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -239,10 +276,12 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_Ns4Cdmr9SZRQforztCwkrA | 王成 | accepted |
 | children | p_Wdd9WrspYiEE72NGMNp75f | 王鸿儒 | accepted |
+| children | p_bwdhzsnM77a9YN3tYyTmwB | 王鴻儒 | accepted |
 
 ## 外部来源
 
 - [维基数据：王本（Q45491815）](https://www.wikidata.org/wiki/Q45491815)
 - [维基数据：王成（Q45491751）](https://www.wikidata.org/wiki/Q45491751)
 - [维基数据：王鸿儒（Q15933067）](https://www.wikidata.org/wiki/Q15933067)
+- [中国历代人物传记资料库：王鴻儒（CBDB 33864）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=33864&o=json)
 - [CBDB 中国历代人物传记资料库：王本（257534）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257534&o=json)

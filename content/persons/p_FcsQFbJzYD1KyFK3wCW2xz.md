@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王燮鴻
 cbdb_id: 522263
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,7 +86,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_TDcbtuG5QVspiNEcDNJ_jm
+        subject_person_id: p_CDLJWkm31UwnGEortAz1ut
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_FcsQFbJzYD1KyFK3wCW2xz
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pTQNxa6Vbsqn8t_TuvjeYM
+          claim_id: c_TDcbtuG5QVspiNEcDNJ_jm
+          source_id: s_NzMWSEehU9C9LpjHJrDjWy
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），9216：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_NzMWSEehU9C9LpjHJrDjWy
+            source_type: api_record
+            title: 中国历代人物传记资料库：王掞（CBDB 65762）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=65762&o=json
+            external_identifier: CBDB:65762
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.938Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_CDLJWkm31UwnGEortAz1ut
+        status: active
+        display_name: 王掞
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_CDLJWkm31UwnGEortAz1ut | 王掞 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王燮鴻（CBDB 522263）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=522263&o=json)
+- [中国历代人物传记资料库：王掞（CBDB 65762）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=65762&o=json)

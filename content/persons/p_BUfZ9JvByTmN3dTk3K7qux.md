@@ -4,7 +4,7 @@ id: p_BUfZ9JvByTmN3dTk3K7qux
 status: active
 merged_into: null
 display_name: 王日新
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_t1xgSZ9vqhk5UxW1JcxNqP
+        subject_person_id: p_BUfZ9JvByTmN3dTk3K7qux
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_fG2ZSSsFcXdaZWCtjXUkRA
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_DZ6FyirY0Q5lbpnwH6EyPd
+          claim_id: c_t1xgSZ9vqhk5UxW1JcxNqP
+          source_id: s_79xeNUZKjnBKVh6wiLnYun
+          stance: supports
+          locator: 弘治九年進士登科錄:一卷，第二甲第十八名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_fG2ZSSsFcXdaZWCtjXUkRA
+        status: active
+        display_name: 王朝卿
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_fG2ZSSsFcXdaZWCtjXUkRA | 王朝卿 | accepted |
 
 ## 外部来源
 

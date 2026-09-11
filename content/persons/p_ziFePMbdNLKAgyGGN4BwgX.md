@@ -4,7 +4,7 @@ id: p_ziFePMbdNLKAgyGGN4BwgX
 status: active
 merged_into: null
 display_name: 王洙
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,43 @@ relationships:
         status: active
         display_name: 王亶
         merged_into_person_id: null
+    - claim:
+        id: c_jhm9C2s0b2CEuf_NGaWi23
+        subject_person_id: p_Bza9ZpF49QRsnKD5tYkYny
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_ziFePMbdNLKAgyGGN4BwgX
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SLEf0_jPRiMZGOBWYfaVzp
+          claim_id: c_jhm9C2s0b2CEuf_NGaWi23
+          source_id: s_caWzJcHb4hdqCqHWfhjfEY
+          stance: supports
+          locator: 正德十六年登科錄:一卷，第三甲第十名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_caWzJcHb4hdqCqHWfhjfEY
+            source_type: api_record
+            title: 中国历代人物传记资料库：王周南（CBDB 284245）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=284245&o=json
+            external_identifier: CBDB:284245
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.189Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Bza9ZpF49QRsnKD5tYkYny
+        status: active
+        display_name: 王周南
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_229EQbFCA3PP8BNNQ1HMQL | 王鎬 | accepted |
 | ancestors | p_8dUV7JKHEchfA3MC69YFQ9 | 王亶 | accepted |
+| ancestors | p_Bza9ZpF49QRsnKD5tYkYny | 王周南 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王亶（CBDB 284246）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=284246&o=json)
 - [中国历代人物传记资料库：王鎬（CBDB 284247）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=284247&o=json)
+- [中国历代人物传记资料库：王周南（CBDB 284245）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=284245&o=json)
 - [中国历代人物传记资料库：王洙（CBDB 202146）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202146&o=json)

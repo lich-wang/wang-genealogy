@@ -4,7 +4,7 @@ id: p_BHMsY8qAbSMNGU2H8r2g2y
 status: active
 merged_into: null
 display_name: 王佐
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_R-_Fyy1ulcVxa0yYN9uNGN
+        subject_person_id: p_BHMsY8qAbSMNGU2H8r2g2y
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_BXF3dbPMGdrpkj3BGNYpWy
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_moukQ6tg-anoO980wL6U1s
+          claim_id: c_R-_Fyy1ulcVxa0yYN9uNGN
+          source_id: s_1V6Hj2BNbdrieoMYggXvK9
+          stance: supports
+          locator: 嘉靖三十二年進士登科錄:一卷，第三甲第二百七十五名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_BXF3dbPMGdrpkj3BGNYpWy
+        status: active
+        display_name: 王文政
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_BXF3dbPMGdrpkj3BGNYpWy | 王文政 | accepted |
 
 ## 外部来源
 

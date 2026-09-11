@@ -4,7 +4,7 @@ id: p_BtPUy8Ayd7XFTp2c4HBHNK
 status: active
 merged_into: null
 display_name: 王榮
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_dhwpxiAt4qJTwGJeHKn6vq
+        subject_person_id: p_BtPUy8Ayd7XFTp2c4HBHNK
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_qMg6Q8CEPodQMPp2EgjAAi
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xlZLbflc-BzLV_VM54fgXb
+          claim_id: c_dhwpxiAt4qJTwGJeHKn6vq
+          source_id: s_24eA4fyvhqr7NX93bEWr3B
+          stance: supports
+          locator: 萬曆八年進士登科錄:一卷，第三甲第二百二十一名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_qMg6Q8CEPodQMPp2EgjAAi
+        status: active
+        display_name: 王以通
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_qMg6Q8CEPodQMPp2EgjAAi | 王以通 | accepted |
 
 ## 外部来源
 

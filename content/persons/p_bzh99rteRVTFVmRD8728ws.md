@@ -4,7 +4,7 @@ id: p_bzh99rteRVTFVmRD8728ws
 status: active
 merged_into: null
 display_name: 王衡
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_-r3dEV-84pK6mV9qnO6dik
+        subject_person_id: p_bzh99rteRVTFVmRD8728ws
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_GiENj1L3SMUyiHFegryAJV
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kXwIX455ySD0Aedumpcy6N
+          claim_id: c_-r3dEV-84pK6mV9qnO6dik
+          source_id: s_xdVX7kEEjUojU4HtvLYBM4
+          stance: supports
+          locator: 成化五年進士登科錄:一卷，第二甲第五十五名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_GiENj1L3SMUyiHFegryAJV
+        status: active
+        display_name: 王鼎
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_GiENj1L3SMUyiHFegryAJV | 王鼎 | accepted |
 
 ## 外部来源
 

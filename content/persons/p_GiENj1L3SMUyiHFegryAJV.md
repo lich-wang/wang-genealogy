@@ -4,7 +4,7 @@ id: p_GiENj1L3SMUyiHFegryAJV
 status: active
 merged_into: null
 display_name: 王鼎
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -115,6 +115,43 @@ relationships:
         status: active
         display_name: 王佐
         merged_into_person_id: null
+    - claim:
+        id: c_-r3dEV-84pK6mV9qnO6dik
+        subject_person_id: p_bzh99rteRVTFVmRD8728ws
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_GiENj1L3SMUyiHFegryAJV
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kXwIX455ySD0Aedumpcy6N
+          claim_id: c_-r3dEV-84pK6mV9qnO6dik
+          source_id: s_xdVX7kEEjUojU4HtvLYBM4
+          stance: supports
+          locator: 成化五年進士登科錄:一卷，第二甲第五十五名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_xdVX7kEEjUojU4HtvLYBM4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王衡（CBDB 243165）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=243165&o=json
+            external_identifier: CBDB:243165
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.988Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_bzh99rteRVTFVmRD8728ws
+        status: active
+        display_name: 王衡
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -135,8 +172,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_Beacss7dS24nrMLnpSAAXX | 王佐 | accepted |
+| ancestors | p_bzh99rteRVTFVmRD8728ws | 王衡 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王鼎（CBDB 67755）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67755&o=json)
+- [中国历代人物传记资料库：王衡（CBDB 243165）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=243165&o=json)
 - [中国历代人物传记资料库：王佐（CBDB 243164）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=243164&o=json)

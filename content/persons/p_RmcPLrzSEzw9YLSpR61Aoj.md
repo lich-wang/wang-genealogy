@@ -4,7 +4,7 @@ id: p_RmcPLrzSEzw9YLSpR61Aoj
 status: active
 merged_into: null
 display_name: 王志
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -105,7 +105,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_alw_XEMlo1AfOAc1Ms94eE
+        subject_person_id: p_cen6CGnbrNWM2fBn9EwD5L
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_RmcPLrzSEzw9YLSpR61Aoj
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fv7UIXaBESK0CVuSCUjggs
+          claim_id: c_alw_XEMlo1AfOAc1Ms94eE
+          source_id: s_E14qDM7qQ84s51kCMHP6Nn
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第二甲第六十三名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_E14qDM7qQ84s51kCMHP6Nn
+            source_type: api_record
+            title: 中国历代人物传记资料库：王釗（CBDB 228972）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=228972&o=json
+            external_identifier: CBDB:228972
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.571Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_cen6CGnbrNWM2fBn9EwD5L
+        status: active
+        display_name: 王釗
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_cen6CGnbrNWM2fBn9EwD5L | 王釗 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王釗（CBDB 228972）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=228972&o=json)
 - [中国历代人物传记资料库：王志（CBDB 207176）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207176&o=json)

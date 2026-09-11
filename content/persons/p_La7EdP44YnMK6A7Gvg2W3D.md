@@ -4,7 +4,7 @@ id: p_La7EdP44YnMK6A7Gvg2W3D
 status: active
 merged_into: null
 display_name: 王積
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -133,7 +133,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_YTkoFJM30gSPx3lT_Fiv7N
+        subject_person_id: p_buzH1NmLD49b66Y4shHBhR
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_La7EdP44YnMK6A7Gvg2W3D
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_36N4TG0MA3PqJcSWXctLLO
+          claim_id: c_YTkoFJM30gSPx3lT_Fiv7N
+          source_id: s_dSKDE722uR62vkAtww1rD9
+          stance: supports
+          locator: 正德十六年登科錄:一卷，第二甲第四名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_dSKDE722uR62vkAtww1rD9
+            source_type: api_record
+            title: 中国历代人物传记资料库：王海（CBDB 283095）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=283095&o=json
+            external_identifier: CBDB:283095
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.122Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_buzH1NmLD49b66Y4shHBhR
+        status: active
+        display_name: 王海
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_buzH1NmLD49b66Y4shHBhR | 王海 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王海（CBDB 283095）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=283095&o=json)
 - [中国历代人物传记资料库：王積（CBDB 126838）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126838&o=json)

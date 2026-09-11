@@ -4,7 +4,7 @@ id: p_uPsdzDMGQe5JCzP3cXbxt2
 status: active
 merged_into: null
 display_name: 王智本
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -167,6 +167,43 @@ relationships:
         status: active
         display_name: 王晦
         merged_into_person_id: null
+    - claim:
+        id: c_ckNGQqBbnihD3xH1DudaRg
+        subject_person_id: p_uPsdzDMGQe5JCzP3cXbxt2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_c2dKdRVtndCfyX2avCQ1J9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zp_vmRRax_MCvGPWB05A1F
+          claim_id: c_ckNGQqBbnihD3xH1DudaRg
+          source_id: s_ruXuo5BRU453a5D7219aBr
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Wansuitongtian 18：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ruXuo5BRU453a5D7219aBr
+            source_type: api_record
+            title: 中国历代人物传记资料库：王勖（CBDB 149927）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=149927&o=json
+            external_identifier: CBDB:149927
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.802Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_c2dKdRVtndCfyX2avCQ1J9
+        status: active
+        display_name: 王勖
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -230,10 +267,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_2eeQbgMfeQuMA9UPW235DA | 王晦 | accepted |
+| children | p_c2dKdRVtndCfyX2avCQ1J9 | 王勖 | accepted |
 | descendants | p_2f9Px3AmwTjD5MzhZdGLDE | 王日新 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王晦（CBDB 149928）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=149928&o=json)
 - [中国历代人物传记资料库：王日新（CBDB 149929）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=149929&o=json)
+- [中国历代人物传记资料库：王勖（CBDB 149927）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=149927&o=json)
 - [中国历代人物传记资料库：王智本（CBDB 140009）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140009&o=json)

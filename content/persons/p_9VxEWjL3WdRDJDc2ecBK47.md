@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王汶
 cbdb_id: 126525
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -191,7 +191,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_0LF4QlkrnpV4uQU3CO2fp0
+        subject_person_id: p_BodArebBHZjNVBxi4q3kJb
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_9VxEWjL3WdRDJDc2ecBK47
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ErVr34oFQsOaIlqrvhHWts
+          claim_id: c_0LF4QlkrnpV4uQU3CO2fp0
+          source_id: s_feYiSCFQyL9kpCK5kGYmHE
+          stance: supports
+          locator: 成化十四年進士登科錄:一卷，第三甲第一百二十一名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_feYiSCFQyL9kpCK5kGYmHE
+            source_type: api_record
+            title: 中国历代人物传记资料库：王紳（CBDB 252814）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252814&o=json
+            external_identifier: CBDB:252814
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.280Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_BodArebBHZjNVBxi4q3kJb
+        status: active
+        display_name: 王紳
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -214,9 +251,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_Djkmc4uicJBuT6DjuX7m7t | 王稌 | accepted |
+| ancestors | p_BodArebBHZjNVBxi4q3kJb | 王紳 | accepted |
 
 ## 外部来源
 
 - [维基数据：王汶（Q15897288）](https://www.wikidata.org/wiki/Q15897288)
+- [中国历代人物传记资料库：王紳（CBDB 252814）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252814&o=json)
 - [CBDB 中国历代人物传记资料库：王稌（437664）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=437664&o=json)
 - [CBDB 中国历代人物传记资料库：王汶（126525）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126525&o=json)

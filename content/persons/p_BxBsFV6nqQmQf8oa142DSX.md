@@ -4,7 +4,7 @@ id: p_BxBsFV6nqQmQf8oa142DSX
 status: active
 merged_into: null
 display_name: 王夢弼
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,12 +128,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_diElRp8-1s--84dUn4NyIt
+        subject_person_id: p_gQeCuqLFbJY887X7LuDmRP
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_BxBsFV6nqQmQf8oa142DSX
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6YpZ31tuPrK3Zy_2Z5I1-d
+          claim_id: c_diElRp8-1s--84dUn4NyIt
+          source_id: s_vKbHuxPyeqDcM9pzGKeEoA
+          stance: supports
+          locator: 嘉靖十四年進士登科錄:一卷，第三甲第一百一十四名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_gQeCuqLFbJY887X7LuDmRP
+        status: active
+        display_name: 王世忠
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_-69dAfW4NckQ5PhDizrdJU
+        subject_person_id: p_Jh96TMvNqfL8prQuCQkEVx
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_BxBsFV6nqQmQf8oa142DSX
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_e3YEZlKFGLu4FRlvI8pyI_
+          claim_id: c_-69dAfW4NckQ5PhDizrdJU
+          source_id: s_vKbHuxPyeqDcM9pzGKeEoA
+          stance: supports
+          locator: 嘉靖十四年進士登科錄:一卷，第三甲第一百一十四名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Jh96TMvNqfL8prQuCQkEVx
+        status: active
+        display_name: 王儶
+        merged_into_person_id: null
+    - claim:
+        id: c_BgSVeRE6cQ35jZ63EWb-2D
+        subject_person_id: p_TobVzPD2rQQSqxAZuF8zkt
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_BxBsFV6nqQmQf8oa142DSX
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gGK3uZcMmf0zu1PVvVZisD
+          claim_id: c_BgSVeRE6cQ35jZ63EWb-2D
+          source_id: s_vKbHuxPyeqDcM9pzGKeEoA
+          stance: supports
+          locator: 嘉靖十四年進士登科錄:一卷，第三甲第一百一十四名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_TobVzPD2rQQSqxAZuF8zkt
+        status: active
+        display_name: 王翃
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,6 +233,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_gQeCuqLFbJY887X7LuDmRP | 王世忠 | accepted |
+| ancestors | p_Jh96TMvNqfL8prQuCQkEVx | 王儶 | accepted |
+| ancestors | p_TobVzPD2rQQSqxAZuF8zkt | 王翃 | accepted |
 
 ## 外部来源
 

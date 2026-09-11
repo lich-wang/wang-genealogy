@@ -4,7 +4,7 @@ id: p_cCQdbNu8vKtiv9UU7u2aGs
 status: active
 merged_into: null
 display_name: 王彥暉
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -116,6 +116,32 @@ relationships:
         status: active
         display_name: 王屏
         merged_into_person_id: null
+    - claim:
+        id: c_2RAMWYB1iQKUpieCllc31G
+        subject_person_id: p_cCQdbNu8vKtiv9UU7u2aGs
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_xG6Uatb4hvJpHFBwk8TY1u
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_F6rRygS2hEIKyQMe8QGUtf
+          claim_id: c_2RAMWYB1iQKUpieCllc31G
+          source_id: s_vD79f2Zb6WmViZFvP6p8Ym
+          stance: supports
+          locator: 景泰二年進士登科錄:一卷，第二甲第四名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_xG6Uatb4hvJpHFBwk8TY1u
+        status: active
+        display_name: 王祐
+        merged_into_person_id: null
   other: []
 ---
 
@@ -135,6 +161,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | descendants | p_3BqLdv5ornEQLqdPoknpXE | 王屏 | accepted |
+| descendants | p_xG6Uatb4hvJpHFBwk8TY1u | 王祐 | accepted |
 
 ## 外部来源
 

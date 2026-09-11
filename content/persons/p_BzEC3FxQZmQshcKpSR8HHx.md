@@ -4,7 +4,7 @@ id: p_BzEC3FxQZmQshcKpSR8HHx
 status: active
 merged_into: null
 display_name: 王雲
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,13 +72,117 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_ZiQ280jupInGBEaNpR7cse
+        subject_person_id: p_omcnEPxMUJWQetwYnKCLjF
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_BzEC3FxQZmQshcKpSR8HHx
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_v2HHSmq5M1aLGr1DcdMVVH
+          claim_id: c_ZiQ280jupInGBEaNpR7cse
+          source_id: s_6tg181GfEavpwsgSRrvE1t
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_omcnEPxMUJWQetwYnKCLjF
+        status: active
+        display_name: 王炅
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_dbAaGZyRTMbO3df88KWfR6
+        subject_person_id: p_BzEC3FxQZmQshcKpSR8HHx
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Ee5JePAZJhSK6NUqy8guZe
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AwMrO3FAkFsdL3uW1_1RL1
+          claim_id: c_dbAaGZyRTMbO3df88KWfR6
+          source_id: s_6tg181GfEavpwsgSRrvE1t
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Ee5JePAZJhSK6NUqy8guZe
+        status: active
+        display_name: 王公亮
+        merged_into_person_id: null
+    - claim:
+        id: c_XUGtW7mbTYaTxhPQxtYt6V
+        subject_person_id: p_BzEC3FxQZmQshcKpSR8HHx
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_t6H1zNNGoqTrr1wuAW11VY
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vxMqEsgQxJrSFrWir36DYT
+          claim_id: c_XUGtW7mbTYaTxhPQxtYt6V
+          source_id: s_6tg181GfEavpwsgSRrvE1t
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_t6H1zNNGoqTrr1wuAW11VY
+        status: active
+        display_name: 王宗
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_qKHE9XYecBr8AAbmHhRWdr
+        subject_person_id: p_BzEC3FxQZmQshcKpSR8HHx
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Ggn2t8z4X4B4wro6LB38G3
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AxFZ63esuySh5wJiA2s8-R
+          claim_id: c_qKHE9XYecBr8AAbmHhRWdr
+          source_id: s_6tg181GfEavpwsgSRrvE1t
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Xiantong 56：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Ggn2t8z4X4B4wro6LB38G3
+        status: active
+        display_name: 王虔暢
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +201,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_omcnEPxMUJWQetwYnKCLjF | 王炅 | accepted |
+| children | p_Ee5JePAZJhSK6NUqy8guZe | 王公亮 | accepted |
+| children | p_t6H1zNNGoqTrr1wuAW11VY | 王宗 | accepted |
+| descendants | p_Ggn2t8z4X4B4wro6LB38G3 | 王虔暢 | accepted |
 
 ## 外部来源
 

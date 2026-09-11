@@ -4,7 +4,7 @@ id: p_bZKd1CKrcP1yMeU33Bezfa
 status: active
 merged_into: null
 display_name: 王景旦
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_6XoKfJ8PhJBSkhDdjTT0T2
+        subject_person_id: p_6QN1keXeNduXQgHMTM4mbf
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_bZKd1CKrcP1yMeU33Bezfa
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9nXogf_tTzQj0udxNufeEz
+          claim_id: c_6XoKfJ8PhJBSkhDdjTT0T2
+          source_id: s_WdNNKZLzDdBDAxK9ug8Rvr
+          stance: supports
+          locator: 滸墅關志，Igid=176461：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_6QN1keXeNduXQgHMTM4mbf
+        status: active
+        display_name: 王朝幹
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_6QN1keXeNduXQgHMTM4mbf | 王朝幹 | accepted |
 
 ## 外部来源
 

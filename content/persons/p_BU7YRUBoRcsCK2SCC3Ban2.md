@@ -4,7 +4,7 @@ id: p_BU7YRUBoRcsCK2SCC3Ban2
 status: active
 merged_into: null
 display_name: 王革
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_akIFE8_ZPqJ0apWa5nMejc
+        subject_person_id: p_si2kM1cTkuZYqxLyr1N7Wh
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_BU7YRUBoRcsCK2SCC3Ban2
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0_h2vUvwqhy82c5ydBMk6S
+          claim_id: c_akIFE8_ZPqJ0apWa5nMejc
+          source_id: s_ev1cuCAKVQW4LDSCraSc15
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Jianzhong 14：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_si2kM1cTkuZYqxLyr1N7Wh
+        status: active
+        display_name: 王士林
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_si2kM1cTkuZYqxLyr1N7Wh | 王士林 | accepted |
 
 ## 外部来源
 

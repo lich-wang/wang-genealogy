@@ -4,7 +4,7 @@ id: p_ShbQcKbhPZJtYL14xZXyTR
 status: active
 merged_into: null
 display_name: 王佩
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,8 +100,82 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_fRXUHSyGtBaF-bL5ACyknY
+        subject_person_id: p_cDjtDCi8h6mSG4Cms93AKT
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ShbQcKbhPZJtYL14xZXyTR
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JgE5ADHUh6omf2-6fLJ6gn
+          claim_id: c_fRXUHSyGtBaF-bL5ACyknY
+          source_id: s_sC1ZqLTT81hUx4vovz4x5G
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第二百三十三名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_sC1ZqLTT81hUx4vovz4x5G
+            source_type: api_record
+            title: 中国历代人物传记资料库：王深（CBDB 294953）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294953&o=json
+            external_identifier: CBDB:294953
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.483Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_cDjtDCi8h6mSG4Cms93AKT
+        status: active
+        display_name: 王深
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_sTspnGh5ZLmDsH_4kfnhBe
+        subject_person_id: p_ShbQcKbhPZJtYL14xZXyTR
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_bxhtYQ9E8JH99TgLXQgD1K
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_sJEsLo32QiXsfOUNgoqyOL
+          claim_id: c_sTspnGh5ZLmDsH_4kfnhBe
+          source_id: s_2BQQQuAJbNuujs3BEbjUXw
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第二百三十三名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_2BQQQuAJbNuujs3BEbjUXw
+            source_type: api_record
+            title: 中国历代人物传记资料库：王惟幾（CBDB 294964）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294964&o=json
+            external_identifier: CBDB:294964
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.485Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_bxhtYQ9E8JH99TgLXQgD1K
+        status: active
+        display_name: 王惟幾
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,7 +200,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_cDjtDCi8h6mSG4Cms93AKT | 王深 | accepted |
+| children | p_bxhtYQ9E8JH99TgLXQgD1K | 王惟幾 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王佩（CBDB 202809）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202809&o=json)
+- [中国历代人物传记资料库：王深（CBDB 294953）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294953&o=json)
+- [中国历代人物传记资料库：王惟幾（CBDB 294964）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294964&o=json)

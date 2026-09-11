@@ -4,7 +4,7 @@ id: p_BYJfPhEZfG99snxow17KHG
 status: active
 merged_into: null
 display_name: 王有功
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_ZSKp57-7sxauZEMZXRbejT
+        subject_person_id: p_D5ec5jupf1WyP5yU3NHEdT
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_BYJfPhEZfG99snxow17KHG
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JXCzwqpGLfBQnl_eraAf46
+          claim_id: c_ZSKp57-7sxauZEMZXRbejT
+          source_id: s_BP4YC1eP68nSyZzdL2ksaf
+          stance: supports
+          locator: 萬曆十一年進士登科錄:一卷，第三甲第五十七名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_D5ec5jupf1WyP5yU3NHEdT
+        status: active
+        display_name: 王寵光
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_j0jULzVQUkKvRVmnfUb2yW
+        subject_person_id: p_wox48YQwcFCA2THyUzZmJn
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_BYJfPhEZfG99snxow17KHG
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4KQ-SjBHB_pg32Dj41BNx-
+          claim_id: c_j0jULzVQUkKvRVmnfUb2yW
+          source_id: s_BP4YC1eP68nSyZzdL2ksaf
+          stance: supports
+          locator: 萬曆十一年進士登科錄:一卷，第三甲第五十七名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_wox48YQwcFCA2THyUzZmJn
+        status: active
+        display_name: 王惠
+        merged_into_person_id: null
+    - claim:
+        id: c_tmp4oiAcoLkwl3LeUc2fPK
+        subject_person_id: p_wrDFZ5uQWHdCUU75uJZddc
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_BYJfPhEZfG99snxow17KHG
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_M335D-RJn-CaW1E3S38RNB
+          claim_id: c_tmp4oiAcoLkwl3LeUc2fPK
+          source_id: s_BP4YC1eP68nSyZzdL2ksaf
+          stance: supports
+          locator: 萬曆十一年進士登科錄:一卷，第三甲第五十七名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_wrDFZ5uQWHdCUU75uJZddc
+        status: active
+        display_name: 王誥
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_D5ec5jupf1WyP5yU3NHEdT | 王寵光 | accepted |
+| ancestors | p_wox48YQwcFCA2THyUzZmJn | 王惠 | accepted |
+| ancestors | p_wrDFZ5uQWHdCUU75uJZddc | 王誥 | accepted |
 
 ## 外部来源
 

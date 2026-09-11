@@ -4,7 +4,7 @@ id: p_sLapyACEMy6qokZ2Zd8EyF
 status: active
 merged_into: null
 display_name: 王俊
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_o0M6dS9cyAO4Mhqh3czs90
+        subject_person_id: p_sLapyACEMy6qokZ2Zd8EyF
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_BoCYzTvdQ3E7NnYNTgV14j
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Cd3lf3QNvYVqFMPgOF-V2C
+          claim_id: c_o0M6dS9cyAO4Mhqh3czs90
+          source_id: s_MauCzGm4fdDnL9XQzCuyJV
+          stance: supports
+          locator: 弘治六年進士登科錄:一卷，第三甲第七十七名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_MauCzGm4fdDnL9XQzCuyJV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王廷（CBDB 126552）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126552&o=json
+            external_identifier: CBDB:126552
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.020Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_BoCYzTvdQ3E7NnYNTgV14j
+        status: active
+        display_name: 王廷
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_BoCYzTvdQ3E7NnYNTgV14j | 王廷 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王俊（CBDB 265491）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265491&o=json)
+- [中国历代人物传记资料库：王廷（CBDB 126552）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126552&o=json)

@@ -4,7 +4,7 @@ id: p_m35gJKNtv7RtV6rFd8ByuC
 status: active
 merged_into: null
 display_name: 王思禮
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_9h8Di7a9Xy1xK2atZ0Xg19
+        subject_person_id: p_ciKPypBPQyTfeAToBoNUnu
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_m35gJKNtv7RtV6rFd8ByuC
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pgtjNKp1Mbj8UpMI19rDs4
+          claim_id: c_9h8Di7a9Xy1xK2atZ0Xg19
+          source_id: s_WvunaRNYgHGf9pr9oFS6uV
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_WvunaRNYgHGf9pr9oFS6uV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王虔威（CBDB 184934）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=184934&o=json
+            external_identifier: CBDB:184934
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.264Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ciKPypBPQyTfeAToBoNUnu
+        status: active
+        display_name: 王虔威
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_ciKPypBPQyTfeAToBoNUnu | 王虔威 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王虔威（CBDB 184934）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=184934&o=json)
 - [中国历代人物传记资料库：王思禮（CBDB 184935）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=184935&o=json)

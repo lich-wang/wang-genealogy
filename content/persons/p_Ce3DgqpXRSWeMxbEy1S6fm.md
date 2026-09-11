@@ -4,7 +4,7 @@ id: p_Ce3DgqpXRSWeMxbEy1S6fm
 status: active
 merged_into: null
 display_name: 王宗
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_CwIao_J7GiYT9qiKtQRwEs
+        subject_person_id: p_Ce3DgqpXRSWeMxbEy1S6fm
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_epPvqgMmGoGqHpEYGAeBox
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_B4pD3STg3dKqq7_VnQcAzB
+          claim_id: c_CwIao_J7GiYT9qiKtQRwEs
+          source_id: s_15AzHDy3cBLhJd6wkHK5X8
+          stance: supports
+          locator: 嘉靖二十年進士登科錄:一卷，第三甲第二十二名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_epPvqgMmGoGqHpEYGAeBox
+        status: active
+        display_name: 王顯忠
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_epPvqgMmGoGqHpEYGAeBox | 王顯忠 | accepted |
 
 ## 外部来源
 

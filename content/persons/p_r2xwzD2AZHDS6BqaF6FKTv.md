@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王沇之
 cbdb_id: 26614
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,7 +86,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_9tfJDfttxSkljDNv2wMkuk
+        subject_person_id: p_BxVQChzbJa8u9Vm5XHoDpw
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_r2xwzD2AZHDS6BqaF6FKTv
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2elsGdkSdpRAajfuon1Dcq
+          claim_id: c_9tfJDfttxSkljDNv2wMkuk
+          source_id: s_7zo4774w8QAmSiH1s1VitC
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1600：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_7zo4774w8QAmSiH1s1VitC
+            source_type: api_record
+            title: 中国历代人物传记资料库：王介（CBDB 26610）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26610&o=json
+            external_identifier: CBDB:26610
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.941Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_BxVQChzbJa8u9Vm5XHoDpw
+        status: active
+        display_name: 王介
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_BxVQChzbJa8u9Vm5XHoDpw | 王介 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王介（CBDB 26610）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26610&o=json)
 - [中国历代人物传记资料库：王沇之（CBDB 26614）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26614&o=json)

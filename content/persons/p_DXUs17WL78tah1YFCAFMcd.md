@@ -4,7 +4,7 @@ id: p_DXUs17WL78tah1YFCAFMcd
 status: active
 merged_into: null
 display_name: 王爽
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_jUUS-UP0hIdNJFS3fVTIn0
+        subject_person_id: p_BtTApjgsFgyMJtB8waKAra
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_DXUs17WL78tah1YFCAFMcd
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_P2xFNPegqdRayID67fAelS
+          claim_id: c_jUUS-UP0hIdNJFS3fVTIn0
+          source_id: s_KM4pLxHEcGb8aAa9Dvmz2g
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Tianbao 76：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_KM4pLxHEcGb8aAa9Dvmz2g
+            source_type: api_record
+            title: 中国历代人物传记资料库：王烈（CBDB 153595）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=153595&o=json
+            external_identifier: CBDB:153595
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.861Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_BtTApjgsFgyMJtB8waKAra
+        status: active
+        display_name: 王烈
+        merged_into_person_id: null
   children:
     - claim:
         id: c_j9IvbWTKvb0u-yEhatSAOA
@@ -192,9 +229,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_BtTApjgsFgyMJtB8waKAra | 王烈 | accepted |
 | children | p_6cXiH1xDw5hDE1LEmGQi2Y | 王祐 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王烈（CBDB 153595）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=153595&o=json)
 - [中国历代人物传记资料库：王爽（CBDB 140881）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140881&o=json)
 - [中国历代人物传记资料库：王祐（CBDB 153596）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=153596&o=json)

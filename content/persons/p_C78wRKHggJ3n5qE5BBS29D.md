@@ -4,7 +4,7 @@ id: p_C78wRKHggJ3n5qE5BBS29D
 status: active
 merged_into: null
 display_name: 王昇
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_ruW19bQWLGHndN0K8zZxJv
+        subject_person_id: p_SY1TQoKyM6Wq3uhY9SXgwA
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_C78wRKHggJ3n5qE5BBS29D
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jNhXo3-kDiN-9r_Do0ZokV
+          claim_id: c_ruW19bQWLGHndN0K8zZxJv
+          source_id: s_2PmoNRHpgVhLM6jSVUEdEo
+          stance: supports
+          locator: 元人傳記資料索引，503：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_SY1TQoKyM6Wq3uhY9SXgwA
+        status: active
+        display_name: 王惠
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_SY1TQoKyM6Wq3uhY9SXgwA | 王惠 | accepted |
 
 ## 外部来源
 

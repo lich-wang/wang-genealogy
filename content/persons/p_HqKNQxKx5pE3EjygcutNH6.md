@@ -4,7 +4,7 @@ id: p_HqKNQxKx5pE3EjygcutNH6
 status: active
 merged_into: null
 display_name: 王朝屏
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -111,6 +111,43 @@ relationships:
         status: active
         display_name: 王啟祚
         merged_into_person_id: null
+    - claim:
+        id: c_KZdUotfIl-gjum1WAiPhwZ
+        subject_person_id: p_HqKNQxKx5pE3EjygcutNH6
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_cDGNLrH9qka32eGwoACvNY
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1kPrKZvCJz4SSIK2dBib3J
+          claim_id: c_KZdUotfIl-gjum1WAiPhwZ
+          source_id: s_qLD2dy9SQx17ZBwc81b6P4
+          stance: supports
+          locator: 平陰縣志，lgid=630824：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_qLD2dy9SQx17ZBwc81b6P4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王啟祒（CBDB 700774）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=700774&o=json
+            external_identifier: CBDB:700774
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:06.597Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_cDGNLrH9qka32eGwoACvNY
+        status: active
+        display_name: 王啟祒
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +172,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_1Q1MHFmrU1pLWnsG3gAqJW | 王啟祚 | accepted |
+| children | p_cDGNLrH9qka32eGwoACvNY | 王啟祒 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王朝屏（CBDB 700757）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=700757&o=json)
+- [中国历代人物传记资料库：王啟祒（CBDB 700774）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=700774&o=json)
 - [中国历代人物传记资料库：王啟祚（CBDB 700777）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=700777&o=json)

@@ -4,7 +4,7 @@ id: p_C1WzvioYLhRubASkP1WBiN
 status: active
 merged_into: null
 display_name: 王化育
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_VqBv60jrC6nJdfPCsIT8gW
+        subject_person_id: p_C1WzvioYLhRubASkP1WBiN
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_GwAsY33Fpgfxg9Nmr4UCTR
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_95wtsC4LIQCL_1IgTkQrac
+          claim_id: c_VqBv60jrC6nJdfPCsIT8gW
+          source_id: s_DDtRPZKcPivN6L8wbJk8FY
+          stance: supports
+          locator: 南陽府志，lgid=878687：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_GwAsY33Fpgfxg9Nmr4UCTR
+        status: active
+        display_name: 王廷彥
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_GwAsY33Fpgfxg9Nmr4UCTR | 王廷彥 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_BXB9NPfGnpuNgxRvuHiZwL
 status: active
 merged_into: null
 display_name: 王恭
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,8 +128,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_AzmLwNiv-0Gpka73x1YVMV
+        subject_person_id: p_Xa6Y2Lc85FtAk1pdXcvXpd
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_BXB9NPfGnpuNgxRvuHiZwL
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ey2HXIpH8cjc1xYMU9dcfM
+          claim_id: c_AzmLwNiv-0Gpka73x1YVMV
+          source_id: s_BdxAAm2fQh3fdnwssa1T3v
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Yonghui25：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Xa6Y2Lc85FtAk1pdXcvXpd
+        status: active
+        display_name: 王那仁
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_YEHyUqA3CdUNS9FA464tHD
+        subject_person_id: p_BXB9NPfGnpuNgxRvuHiZwL
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_DNGJa9ezkKqyvBdn8a361a
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1LlqqwPUXJ6y5azCGqhMVW
+          claim_id: c_YEHyUqA3CdUNS9FA464tHD
+          source_id: s_BdxAAm2fQh3fdnwssa1T3v
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Yonghui25：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_DNGJa9ezkKqyvBdn8a361a
+        status: active
+        display_name: 王武保
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +207,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Xa6Y2Lc85FtAk1pdXcvXpd | 王那仁 | accepted |
+| children | p_DNGJa9ezkKqyvBdn8a361a | 王武保 | accepted |
 
 ## 外部来源
 

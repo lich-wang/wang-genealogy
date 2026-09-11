@@ -4,7 +4,7 @@ id: p_CJ4VyLGZZgJRk8JF6RcE65
 status: active
 merged_into: null
 display_name: 王儀
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_7qN_oP1uP-T_ZDIv8ctBcT
+        subject_person_id: p_HCpgr1W9LMF6eGEBW7wXTQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_CJ4VyLGZZgJRk8JF6RcE65
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_55hukWPW5ajGk3VkmWsSIN
+          claim_id: c_7qN_oP1uP-T_ZDIv8ctBcT
+          source_id: s_DE9Es8tbGUmsydxcFJxzYj
+          stance: supports
+          locator: 景泰二年進士登科錄:一卷，第三甲第九十三名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_HCpgr1W9LMF6eGEBW7wXTQ
+        status: active
+        display_name: 王以誠
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_IfTn4sa4whAk-p8aF1mydS
+        subject_person_id: p_LthjcxsctGA14WP74DMGD2
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_CJ4VyLGZZgJRk8JF6RcE65
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_f3osep2qrRcYA1tD14SQpU
+          claim_id: c_IfTn4sa4whAk-p8aF1mydS
+          source_id: s_DE9Es8tbGUmsydxcFJxzYj
+          stance: supports
+          locator: 景泰二年進士登科錄:一卷，第三甲第九十三名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_LthjcxsctGA14WP74DMGD2
+        status: active
+        display_name: 王守道
+        merged_into_person_id: null
+    - claim:
+        id: c_UcXIwBpuHKFs5yLeV2Yr4Y
+        subject_person_id: p_1N1DMSNij1QVwie6MdHCh4
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_CJ4VyLGZZgJRk8JF6RcE65
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Ld-Epd6lcvlU6C0E32VJXo
+          claim_id: c_UcXIwBpuHKFs5yLeV2Yr4Y
+          source_id: s_DE9Es8tbGUmsydxcFJxzYj
+          stance: supports
+          locator: 景泰二年進士登科錄:一卷，第三甲第九十三名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_1N1DMSNij1QVwie6MdHCh4
+        status: active
+        display_name: 王士巽
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_HCpgr1W9LMF6eGEBW7wXTQ | 王以誠 | accepted |
+| ancestors | p_LthjcxsctGA14WP74DMGD2 | 王守道 | accepted |
+| ancestors | p_1N1DMSNij1QVwie6MdHCh4 | 王士巽 | accepted |
 
 ## 外部来源
 

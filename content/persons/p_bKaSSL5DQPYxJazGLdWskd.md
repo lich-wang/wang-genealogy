@@ -4,7 +4,7 @@ id: p_bKaSSL5DQPYxJazGLdWskd
 status: active
 merged_into: null
 display_name: 王裕
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_dYXcy0GzNVWkcuIWqyMuck
+        subject_person_id: p_W7WaER6HRxudKTTBYr4Ed2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_bKaSSL5DQPYxJazGLdWskd
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_afsX-KE-jgZnAyN_UqLdI2
+          claim_id: c_dYXcy0GzNVWkcuIWqyMuck
+          source_id: s_mwJD2VykhQso2nAzRLNFXE
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_W7WaER6HRxudKTTBYr4Ed2
+        status: active
+        display_name: 王諗
+        merged_into_person_id: null
   children:
     - claim:
         id: c_QRbkDwnOJprbucLRjG3t0B
@@ -163,6 +189,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_W7WaER6HRxudKTTBYr4Ed2 | 王諗 | accepted |
 | children | p_5GLAuP8mfCJ5qhAzfzprTQ | 王茂章 | accepted |
 
 ## 外部来源

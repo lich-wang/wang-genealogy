@@ -4,7 +4,7 @@ id: p_BHQTdQiE6sACKqhVy258wF
 status: active
 merged_into: null
 display_name: 王志中
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_8IwWWbwq_uvp8y3zMTUZtk
+        subject_person_id: p_BHQTdQiE6sACKqhVy258wF
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Z5S5a3vTHgwZid8XEKrJG6
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_CDvpABn2TaUHFPMAFrtdJf
+          claim_id: c_8IwWWbwq_uvp8y3zMTUZtk
+          source_id: s_gHjg5XUrrnL4s76aqPLHAQ
+          stance: supports
+          locator: 正統十三年進士登科錄:一卷，第三甲第三十六名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Z5S5a3vTHgwZid8XEKrJG6
+        status: active
+        display_name: 王讓
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_Z5S5a3vTHgwZid8XEKrJG6 | 王讓 | accepted |
 
 ## 外部来源
 

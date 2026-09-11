@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王胡仁
 cbdb_id: 163698
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -87,7 +87,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_D0P1KDoeH0YGIJvMY_33y4
+        subject_person_id: p_v8dSrbidp2g7Lghcz9wesN
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_cb2pzan14ZR1ECvrVUNese
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XTQJio8eDigS65zVnPIaUE
+          claim_id: c_D0P1KDoeH0YGIJvMY_33y4
+          source_id: s_mtoajfRU5iL74uCLWmM7bH
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Kaiyuan6：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_mtoajfRU5iL74uCLWmM7bH
+            source_type: api_record
+            title: 中国历代人物传记资料库：王胡（CBDB 142838）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=142838&o=json
+            external_identifier: CBDB:142838
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.217Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_cb2pzan14ZR1ECvrVUNese
+        status: active
+        display_name: 王胡
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_cb2pzan14ZR1ECvrVUNese | 王胡 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王胡（CBDB 142838）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=142838&o=json)
 - [中国历代人物传记资料库：王胡仁（CBDB 163698）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=163698&o=json)

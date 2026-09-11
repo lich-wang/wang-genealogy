@@ -4,7 +4,7 @@ id: p_BJgvXxRKD9rteYtVcW6w5x
 status: active
 merged_into: null
 display_name: 王興
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_d8W9UM11k5m-Fk8W1aHXlA
+        subject_person_id: p_BJgvXxRKD9rteYtVcW6w5x
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_e8Zr493vi2djpmCUjmBf8z
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ei3wwkw2v6IFgcrp6f67vi
+          claim_id: c_d8W9UM11k5m-Fk8W1aHXlA
+          source_id: s_8XkQf4HHc6JAKy7zhTt7iQ
+          stance: supports
+          locator: 正统十年進士登科錄:一卷，第三甲第六十四名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_e8Zr493vi2djpmCUjmBf8z
+        status: active
+        display_name: 王敞
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_e8Zr493vi2djpmCUjmBf8z | 王敞 | accepted |
 
 ## 外部来源
 

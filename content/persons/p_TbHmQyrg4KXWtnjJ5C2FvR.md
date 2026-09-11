@@ -4,7 +4,7 @@ id: p_TbHmQyrg4KXWtnjJ5C2FvR
 status: active
 merged_into: null
 display_name: 王沛
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -101,7 +101,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_TLw9ya1wM_Qr5Sb5Mr0FUA
+        subject_person_id: p_TbHmQyrg4KXWtnjJ5C2FvR
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_cctHBa8zeZqaTvP6zovdPw
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zGFtOzmZrfF12OjZQ2ytrx
+          claim_id: c_TLw9ya1wM_Qr5Sb5Mr0FUA
+          source_id: s_HCE7j9M9HzNGAwXLQGsGSU
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_HCE7j9M9HzNGAwXLQGsGSU
+            source_type: api_record
+            title: 中国历代人物传记资料库：王逢（CBDB 189526）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=189526&o=json
+            external_identifier: CBDB:189526
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.300Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_cctHBa8zeZqaTvP6zovdPw
+        status: active
+        display_name: 王逢
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_cctHBa8zeZqaTvP6zovdPw | 王逢 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王逢（CBDB 189526）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=189526&o=json)
 - [中国历代人物传记资料库：王沛（CBDB 189525）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=189525&o=json)

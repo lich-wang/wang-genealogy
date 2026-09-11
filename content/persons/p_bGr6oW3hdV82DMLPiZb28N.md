@@ -4,7 +4,7 @@ id: p_bGr6oW3hdV82DMLPiZb28N
 status: active
 merged_into: null
 display_name: 王泮
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -115,6 +115,43 @@ relationships:
         status: active
         display_name: 王璠
         merged_into_person_id: null
+    - claim:
+        id: c_AI8ILqox72kWkEm4obHNP3
+        subject_person_id: p_bKAyB5SbVkNFAeN84J6eYM
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_bGr6oW3hdV82DMLPiZb28N
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2BJflvCVIExwcCYa0_M45a
+          claim_id: c_AI8ILqox72kWkEm4obHNP3
+          source_id: s_bS1DhyJBPz8RVN1JTofwxC
+          stance: supports
+          locator: 萬曆二年進士登科錄:一卷，第二甲第三名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_bS1DhyJBPz8RVN1JTofwxC
+            source_type: api_record
+            title: 中国历代人物传记资料库：王紘（CBDB 212331）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=212331&o=json
+            external_identifier: CBDB:212331
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.085Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_bKAyB5SbVkNFAeN84J6eYM
+        status: active
+        display_name: 王紘
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -135,8 +172,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_6hiT1HdHwzixNQonUDqon8 | 王璠 | accepted |
+| ancestors | p_bKAyB5SbVkNFAeN84J6eYM | 王紘 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王璠（CBDB 212332）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=212332&o=json)
+- [中国历代人物传记资料库：王紘（CBDB 212331）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=212331&o=json)
 - [中国历代人物传记资料库：王泮（CBDB 126558）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126558&o=json)

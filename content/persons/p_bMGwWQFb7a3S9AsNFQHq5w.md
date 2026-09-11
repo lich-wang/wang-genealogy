@@ -4,7 +4,7 @@ id: p_bMGwWQFb7a3S9AsNFQHq5w
 status: active
 merged_into: null
 display_name: 王英
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,12 +128,116 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_uk8vNKFyeV4cxSdoe340ju
+        subject_person_id: p_F8BhUCKigdcTtYZ1mZev6F
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_bMGwWQFb7a3S9AsNFQHq5w
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Fv5ejhlnrXUKwCkQEM3QiM
+          claim_id: c_uk8vNKFyeV4cxSdoe340ju
+          source_id: s_15qce7SRcTSEB2Pj7cqFoF
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），10444：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_F8BhUCKigdcTtYZ1mZev6F
+        status: active
+        display_name: 王脩本
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_EX3BPEksuSJdF03tncJXNH
+        subject_person_id: p_bMGwWQFb7a3S9AsNFQHq5w
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_W27QEBWFjMpJccZZiTXsXS
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1SAXMqgDlxasJ9suiHV21L
+          claim_id: c_EX3BPEksuSJdF03tncJXNH
+          source_id: s_15qce7SRcTSEB2Pj7cqFoF
+          stance: supports
+          locator: 江西通志，Igid=1197684：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_W27QEBWFjMpJccZZiTXsXS
+        status: active
+        display_name: 王裕
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_kD1hj8avozZ9mKC3rtDh2u
+        subject_person_id: p_7FiWxKjtAQyqGxbHnGz9AP
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_bMGwWQFb7a3S9AsNFQHq5w
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_iY_33FiO9_6e6hSJ00zCAH
+          claim_id: c_kD1hj8avozZ9mKC3rtDh2u
+          source_id: s_15qce7SRcTSEB2Pj7cqFoF
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），10444：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_7FiWxKjtAQyqGxbHnGz9AP
+        status: active
+        display_name: 王頤貞
+        merged_into_person_id: null
+    - claim:
+        id: c_4Ocj5RMpv2PR-WmkJy28T6
+        subject_person_id: p_nUv6oMb5Etbo5Wv6ccYBHK
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_bMGwWQFb7a3S9AsNFQHq5w
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8yJgSMUciV0J9TalQdl0Vf
+          claim_id: c_4Ocj5RMpv2PR-WmkJy28T6
+          source_id: s_15qce7SRcTSEB2Pj7cqFoF
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），10444：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_nUv6oMb5Etbo5Wv6ccYBHK
+        status: active
+        display_name: 王子岱
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,6 +259,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_F8BhUCKigdcTtYZ1mZev6F | 王脩本 | accepted |
+| children | p_W27QEBWFjMpJccZZiTXsXS | 王裕 | accepted |
+| ancestors | p_7FiWxKjtAQyqGxbHnGz9AP | 王頤貞 | accepted |
+| ancestors | p_nUv6oMb5Etbo5Wv6ccYBHK | 王子岱 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_c5ELpWDoKzuga19Wywcds9
 status: active
 merged_into: null
 display_name: 王庭
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -129,7 +129,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_OqForhZP2jVkXs9nil33OH
+        subject_person_id: p_c5ELpWDoKzuga19Wywcds9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_DcJGi4GcdCc4u1btEFY1hx
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kuGd9UdyceeDFuS31ga1II
+          claim_id: c_OqForhZP2jVkXs9nil33OH
+          source_id: s_iMvHkHecNYCijisiLoXDw8
+          stance: supports
+          locator: "(乾隆)元和縣志: 三十六卷，lgid=178273：子"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_DcJGi4GcdCc4u1btEFY1hx
+        status: active
+        display_name: 王敬臣
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +181,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_DcJGi4GcdCc4u1btEFY1hx | 王敬臣 | accepted |
 
 ## 外部来源
 

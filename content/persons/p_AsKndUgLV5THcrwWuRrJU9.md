@@ -4,7 +4,7 @@ id: p_AsKndUgLV5THcrwWuRrJU9
 status: active
 merged_into: null
 display_name: 王君賞
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -142,7 +142,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_S96oXrLmvZAa9-s9GPBwri
+        subject_person_id: p_Bz9P5PTc7BGd4evB971MVu
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_AsKndUgLV5THcrwWuRrJU9
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Yhfp_7KOpvGURlGy7n4jje
+          claim_id: c_S96oXrLmvZAa9-s9GPBwri
+          source_id: s_jnt5txB5M4MC9mCubuezQ6
+          stance: supports
+          locator: 嘉靖三十八年進士登科錄:一卷，第三甲第一百零七名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_jnt5txB5M4MC9mCubuezQ6
+            source_type: api_record
+            title: 中国历代人物传记资料库：王純（CBDB 325017）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=325017&o=json
+            external_identifier: CBDB:325017
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.194Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Bz9P5PTc7BGd4evB971MVu
+        status: active
+        display_name: 王純
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_3UKbRHPbQbqFq84iP2CGsh | 王惠 | accepted |
+| ancestors | p_Bz9P5PTc7BGd4evB971MVu | 王純 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王純（CBDB 325017）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=325017&o=json)
 - [中国历代人物传记资料库：王惠（CBDB 325018）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=325018&o=json)
 - [中国历代人物传记资料库：王君賞（CBDB 204856）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204856&o=json)

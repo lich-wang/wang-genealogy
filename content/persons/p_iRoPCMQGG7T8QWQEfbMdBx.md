@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王汝鲁
 cbdb_id: 126502
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -400,7 +400,44 @@ relationships:
         status: active
         display_name: 杨氏
         merged_into_person_id: null
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_77O6_rAwxw1ExQRXIAySne
+        subject_person_id: p_bwdhzsnM77a9YN3tYyTmwB
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_iRoPCMQGG7T8QWQEfbMdBx
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_g3AM8oTqnx5O1lXf3tjcAC
+          claim_id: c_77O6_rAwxw1ExQRXIAySne
+          source_id: s_D1Q1PMjTF3hG8x2zM1xYbq
+          stance: supports
+          locator: 隆慶二年進士登科錄:一卷，第二甲第四十七名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_D1Q1PMjTF3hG8x2zM1xYbq
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鴻儒（CBDB 33864）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=33864&o=json
+            external_identifier: CBDB:33864
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.072Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_bwdhzsnM77a9YN3tYyTmwB
+        status: active
+        display_name: 王鴻儒
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -426,6 +463,7 @@ relationships:
 | children | p_242z5MMsb8wcZLyEjHEfHR | 王應修 | accepted |
 | spouses | p_TFYLNz818Sj3Pa3L1D9Wxf | 郭氏 | accepted |
 | spouses | p_Cpk49SPxpMgEW6iFdSv213 | 杨氏 | accepted |
+| ancestors | p_bwdhzsnM77a9YN3tYyTmwB | 王鴻儒 | accepted |
 
 ## 外部来源
 
@@ -433,5 +471,6 @@ relationships:
 - [维基数据：王可（Q45603634）](https://www.wikidata.org/wiki/Q45603634)
 - [维基数据：王汝鲁（Q45577422）](https://www.wikidata.org/wiki/Q45577422)
 - [维基数据：杨氏（Q65861477）](https://www.wikidata.org/wiki/Q65861477)
+- [中国历代人物传记资料库：王鴻儒（CBDB 33864）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=33864&o=json)
 - [CBDB 中国历代人物传记资料库：王可（334081）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334081&o=json)
 - [CBDB 中国历代人物传记资料库：王汝魯（126502）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126502&o=json)

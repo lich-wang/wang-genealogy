@@ -4,7 +4,7 @@ id: p_Ggn2t8z4X4B4wro6LB38G3
 status: active
 merged_into: null
 display_name: 王虔暢
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -207,7 +207,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_qKHE9XYecBr8AAbmHhRWdr
+        subject_person_id: p_BzEC3FxQZmQshcKpSR8HHx
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Ggn2t8z4X4B4wro6LB38G3
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AxFZ63esuySh5wJiA2s8-R
+          claim_id: c_qKHE9XYecBr8AAbmHhRWdr
+          source_id: s_6tg181GfEavpwsgSRrvE1t
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Xiantong 56：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_6tg181GfEavpwsgSRrvE1t
+            source_type: api_record
+            title: 中国历代人物传记资料库：王雲（CBDB 160565）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=160565&o=json
+            external_identifier: CBDB:160565
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.940Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_BzEC3FxQZmQshcKpSR8HHx
+        status: active
+        display_name: 王雲
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -231,9 +268,11 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_4FYUq8fdEyD1ykW4CP1nsJ | 王處溫 | accepted |
 | children | p_7KEiJpicYu9s2iUJpUKeLa | 王璉 | accepted |
+| ancestors | p_BzEC3FxQZmQshcKpSR8HHx | 王雲 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王處溫（CBDB 160572）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=160572&o=json)
 - [中国历代人物传记资料库：王璉（CBDB 160570）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=160570&o=json)
 - [中国历代人物传记资料库：王虔暢（CBDB 142008）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=142008&o=json)
+- [中国历代人物传记资料库：王雲（CBDB 160565）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=160565&o=json)

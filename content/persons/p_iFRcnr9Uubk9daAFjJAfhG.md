@@ -4,7 +4,7 @@ id: p_iFRcnr9Uubk9daAFjJAfhG
 status: active
 merged_into: null
 display_name: 王振
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_9tM585PGtQxKne16bFLoI9
+        subject_person_id: p_cGsoaXfP2f8Y2kt5wBPF1p
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_iFRcnr9Uubk9daAFjJAfhG
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NTCIXmwOCWYEny_t6J-zZ7
+          claim_id: c_9tM585PGtQxKne16bFLoI9
+          source_id: s_YpBvcCePnQyfu2RfU118AG
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_YpBvcCePnQyfu2RfU118AG
+            source_type: api_record
+            title: 中国历代人物传记资料库：王魯（CBDB 175789）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175789&o=json
+            external_identifier: CBDB:175789
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.128Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_cGsoaXfP2f8Y2kt5wBPF1p
+        status: active
+        display_name: 王魯
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_cGsoaXfP2f8Y2kt5wBPF1p | 王魯 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王魯（CBDB 175789）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175789&o=json)
 - [中国历代人物传记资料库：王振（CBDB 175790）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175790&o=json)

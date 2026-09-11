@@ -4,7 +4,7 @@ id: p_cDKZ9odWpBmQ6RH3xs3UzM
 status: active
 merged_into: null
 display_name: 王勗
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -76,7 +76,33 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_v4UPffzJexAi1Evpr_mY4Q
+        subject_person_id: p_cDKZ9odWpBmQ6RH3xs3UzM
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_YJUfQmozBnpgzDZHV6jrGh
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XSiYIY20t8iyeo3Y_fIUkA
+          claim_id: c_v4UPffzJexAi1Evpr_mY4Q
+          source_id: s_kud9tGDRR8FuSL6PST6CwA
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaiyuan 47：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_YJUfQmozBnpgzDZHV6jrGh
+        status: active
+        display_name: 李氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_YJUfQmozBnpgzDZHV6jrGh | 李氏 | accepted |
 
 ## 外部来源
 

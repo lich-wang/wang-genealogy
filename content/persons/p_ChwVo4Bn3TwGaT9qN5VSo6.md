@@ -4,7 +4,7 @@ id: p_ChwVo4Bn3TwGaT9qN5VSo6
 status: active
 merged_into: null
 display_name: 王烈
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,8 +128,86 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_2GWK-tLCTvh21a8cMvtjMC
+        subject_person_id: p_YGiv39GBAC5sbLNAGAUY7T
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ChwVo4Bn3TwGaT9qN5VSo6
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NatcDAmtJTDDAKXzFw2qcj
+          claim_id: c_2GWK-tLCTvh21a8cMvtjMC
+          source_id: s_tCfD8QjcvmuW2fCStLZSoK
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Yifeng 18：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_YGiv39GBAC5sbLNAGAUY7T
+        status: active
+        display_name: 王贇
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_9LRHKgP02vJY4NyM5YxNG4
+        subject_person_id: p_ChwVo4Bn3TwGaT9qN5VSo6
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_xD2UGXBYGMspPLNa3BxAbe
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_STpC0fyWcgVFtawD8j5hiL
+          claim_id: c_9LRHKgP02vJY4NyM5YxNG4
+          source_id: s_tCfD8QjcvmuW2fCStLZSoK
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Yifeng 18：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_xD2UGXBYGMspPLNa3BxAbe
+        status: active
+        display_name: 王齊丘
+        merged_into_person_id: null
+    - claim:
+        id: c_ApUL3lSmu9tQ5Z5YY0L0FD
+        subject_person_id: p_ChwVo4Bn3TwGaT9qN5VSo6
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_pSPUQQj4uGUjufxnL2fe5r
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1ilnUhJ5g6mBjLi2YK5-PF
+          claim_id: c_ApUL3lSmu9tQ5Z5YY0L0FD
+          source_id: s_tCfD8QjcvmuW2fCStLZSoK
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Yifeng 18：嗣子(作為繼承人的兒子)
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_pSPUQQj4uGUjufxnL2fe5r
+        status: active
+        display_name: 王齊旦
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +233,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_YGiv39GBAC5sbLNAGAUY7T | 王贇 | accepted |
+| children | p_xD2UGXBYGMspPLNa3BxAbe | 王齊丘 | accepted |
+| children | p_pSPUQQj4uGUjufxnL2fe5r | 王齊旦 | accepted |
 
 ## 外部来源
 

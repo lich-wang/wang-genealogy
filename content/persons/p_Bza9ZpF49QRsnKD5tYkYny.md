@@ -4,7 +4,7 @@ id: p_Bza9ZpF49QRsnKD5tYkYny
 status: active
 merged_into: null
 display_name: 王周南
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_jhm9C2s0b2CEuf_NGaWi23
+        subject_person_id: p_Bza9ZpF49QRsnKD5tYkYny
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_ziFePMbdNLKAgyGGN4BwgX
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SLEf0_jPRiMZGOBWYfaVzp
+          claim_id: c_jhm9C2s0b2CEuf_NGaWi23
+          source_id: s_caWzJcHb4hdqCqHWfhjfEY
+          stance: supports
+          locator: 正德十六年登科錄:一卷，第三甲第十名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_ziFePMbdNLKAgyGGN4BwgX
+        status: active
+        display_name: 王洙
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_ziFePMbdNLKAgyGGN4BwgX | 王洙 | accepted |
 
 ## 外部来源
 

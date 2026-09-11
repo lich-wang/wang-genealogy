@@ -4,7 +4,7 @@ id: p_gYCzF6vom9uRciu3ySukCo
 status: active
 merged_into: null
 display_name: 王輔
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -189,7 +189,44 @@ relationships:
         status: active
         display_name: 王文智
         merged_into_person_id: null
-  descendants: []
+  descendants:
+    - claim:
+        id: c_-si33NYitEvqFexFk-kQrB
+        subject_person_id: p_gYCzF6vom9uRciu3ySukCo
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Bhku7LXKrphWSf7fyoW8hh
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_91k1H1plZirUDnUTwq1_f-
+          claim_id: c_-si33NYitEvqFexFk-kQrB
+          source_id: s_7YzPmeQaASL2r7rYU3xfW1
+          stance: supports
+          locator: 萬曆二年進士登科錄:一卷，第二甲第三十一名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_7YzPmeQaASL2r7rYU3xfW1
+            source_type: api_record
+            title: 中国历代人物传记资料库：王家棟（CBDB 206050）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206050&o=json
+            external_identifier: CBDB:206050
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.881Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Bhku7LXKrphWSf7fyoW8hh
+        status: active
+        display_name: 王家棟
+        merged_into_person_id: null
   other: []
 ---
 
@@ -211,10 +248,12 @@ relationships:
 | parents | p_aQkyWCSC3KokRarHEM1c8Q | 王聰 | accepted |
 | ancestors | p_1153YmzQrFf4MqpahVJUVe | 王俊卿 | accepted |
 | ancestors | p_9APm5s4Qnt3Y1TuWpeSg1p | 王文智 | accepted |
+| descendants | p_Bhku7LXKrphWSf7fyoW8hh | 王家棟 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王聰（CBDB 227950）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227950&o=json)
 - [中国历代人物传记资料库：王輔（CBDB 212648）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=212648&o=json)
+- [中国历代人物传记资料库：王家棟（CBDB 206050）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206050&o=json)
 - [中国历代人物传记资料库：王俊卿（CBDB 227928）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227928&o=json)
 - [中国历代人物传记资料库：王文智（CBDB 227939）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227939&o=json)

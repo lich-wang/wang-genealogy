@@ -4,7 +4,7 @@ id: p_CF5LJP7gMSDjjxZDLTJKd5
 status: active
 merged_into: null
 display_name: 王濟
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,12 +72,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_YDobhEkkZgVj3ruKmyChBN
+        subject_person_id: p_PGZtNCp6fX43UKKVunQyUd
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_CF5LJP7gMSDjjxZDLTJKd5
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_TapicYKnDacnd619uoEVqd
+          claim_id: c_YDobhEkkZgVj3ruKmyChBN
+          source_id: s_8MUgv6sNQt8ThP4q5TJstL
+          stance: supports
+          locator: 弘治十五年進士登科錄:一卷，第二甲第四十六名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_PGZtNCp6fX43UKKVunQyUd
+        status: active
+        display_name: 王文奎
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_cCMwg2vNfsFXh6vHW7mZhX
+        subject_person_id: p_uadUiUdJs2HHpEDqfmU928
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_CF5LJP7gMSDjjxZDLTJKd5
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ab7KMqeHTCdZmDXEymNkiu
+          claim_id: c_cCMwg2vNfsFXh6vHW7mZhX
+          source_id: s_8MUgv6sNQt8ThP4q5TJstL
+          stance: supports
+          locator: 弘治十五年進士登科錄:一卷，第二甲第四十六名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_uadUiUdJs2HHpEDqfmU928
+        status: active
+        display_name: 王仲斌
+        merged_into_person_id: null
+    - claim:
+        id: c_fiRs4LUfSdrKGF3SmLNOYP
+        subject_person_id: p_MtM5ZgKmZYVFMBTAMHqT8e
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_CF5LJP7gMSDjjxZDLTJKd5
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Ca1b5GNv21kmzkeWzCbOUW
+          claim_id: c_fiRs4LUfSdrKGF3SmLNOYP
+          source_id: s_8MUgv6sNQt8ThP4q5TJstL
+          stance: supports
+          locator: 弘治十五年進士登科錄:一卷，第二甲第四十六名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_MtM5ZgKmZYVFMBTAMHqT8e
+        status: active
+        display_name: 王思旻
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +175,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_PGZtNCp6fX43UKKVunQyUd | 王文奎 | accepted |
+| ancestors | p_uadUiUdJs2HHpEDqfmU928 | 王仲斌 | accepted |
+| ancestors | p_MtM5ZgKmZYVFMBTAMHqT8e | 王思旻 | accepted |
 
 ## 外部来源
 

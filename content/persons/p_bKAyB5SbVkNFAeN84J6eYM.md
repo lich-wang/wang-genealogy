@@ -4,7 +4,7 @@ id: p_bKAyB5SbVkNFAeN84J6eYM
 status: active
 merged_into: null
 display_name: 王紘
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_AI8ILqox72kWkEm4obHNP3
+        subject_person_id: p_bKAyB5SbVkNFAeN84J6eYM
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_bGr6oW3hdV82DMLPiZb28N
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2BJflvCVIExwcCYa0_M45a
+          claim_id: c_AI8ILqox72kWkEm4obHNP3
+          source_id: s_bS1DhyJBPz8RVN1JTofwxC
+          stance: supports
+          locator: 萬曆二年進士登科錄:一卷，第二甲第三名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_bGr6oW3hdV82DMLPiZb28N
+        status: active
+        display_name: 王泮
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_bGr6oW3hdV82DMLPiZb28N | 王泮 | accepted |
 
 ## 外部来源
 

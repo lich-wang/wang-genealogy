@@ -4,7 +4,7 @@ id: p_BJ4Vkii4a2B3LiLFrokpx5
 status: active
 merged_into: null
 display_name: 王能
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_nvJI5bDIHuc0jyDv87uj5Z
+        subject_person_id: p_BJ4Vkii4a2B3LiLFrokpx5
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_CZ8eCkhwLj8bRjMZEDrV7a
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NYHVQhcfadVxwmmhfBgR5k
+          claim_id: c_nvJI5bDIHuc0jyDv87uj5Z
+          source_id: s_Cg24pAHXC4yUme5dUS1oZC
+          stance: supports
+          locator: 弘治九年進士登科錄:一卷，第三甲第一百五十四名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_CZ8eCkhwLj8bRjMZEDrV7a
+        status: active
+        display_name: 王琮
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_CZ8eCkhwLj8bRjMZEDrV7a | 王琮 | accepted |
 
 ## 外部来源
 

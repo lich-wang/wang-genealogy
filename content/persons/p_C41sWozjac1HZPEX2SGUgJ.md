@@ -4,7 +4,7 @@ id: p_C41sWozjac1HZPEX2SGUgJ
 status: active
 merged_into: null
 display_name: 王朝佐
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_J1KY0WvfI2FCUYZ8iMC8Dq
+        subject_person_id: p_Y1J494C1wxoCGbqWhaRwAG
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_C41sWozjac1HZPEX2SGUgJ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PZ0xky72oTdzQ1uAN-ZBMD
+          claim_id: c_J1KY0WvfI2FCUYZ8iMC8Dq
+          source_id: s_dRUGmqCaBFkV5AhXHe7EWi
+          stance: supports
+          locator: 弘治九年進士登科錄:一卷，第二甲第四十七名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Y1J494C1wxoCGbqWhaRwAG
+        status: active
+        display_name: 王平生
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_0D3L_BiJDFQFX_MBHYivLX
+        subject_person_id: p_eJ2p8jByLja8epc6npZaLy
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_C41sWozjac1HZPEX2SGUgJ
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9jJUbTwwEqmIVR9kRHokug
+          claim_id: c_0D3L_BiJDFQFX_MBHYivLX
+          source_id: s_dRUGmqCaBFkV5AhXHe7EWi
+          stance: supports
+          locator: 弘治九年進士登科錄:一卷，第二甲第四十七名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_eJ2p8jByLja8epc6npZaLy
+        status: active
+        display_name: 王守正
+        merged_into_person_id: null
+    - claim:
+        id: c_f9TSY1DMmebSgWXRdih_OI
+        subject_person_id: p_MS2BC7Md2q6hnAWb9KKCiV
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_C41sWozjac1HZPEX2SGUgJ
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jxbkEugNCAMlrk1pukDOIf
+          claim_id: c_f9TSY1DMmebSgWXRdih_OI
+          source_id: s_dRUGmqCaBFkV5AhXHe7EWi
+          stance: supports
+          locator: 弘治九年進士登科錄:一卷，第二甲第四十七名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_MS2BC7Md2q6hnAWb9KKCiV
+        status: active
+        display_name: 王旻
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Y1J494C1wxoCGbqWhaRwAG | 王平生 | accepted |
+| ancestors | p_eJ2p8jByLja8epc6npZaLy | 王守正 | accepted |
+| ancestors | p_MS2BC7Md2q6hnAWb9KKCiV | 王旻 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_CcL9yeQgRriMhVY3hPmz5a
 status: active
 merged_into: null
 display_name: 王江
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,12 +72,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_oKgdASimluV1KOgc84qxZr
+        subject_person_id: p_TBRbQ4tV2WfCnjRSSpkfCv
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_CcL9yeQgRriMhVY3hPmz5a
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1xvAUmyWJk_Rsa1c2CbCXm
+          claim_id: c_oKgdASimluV1KOgc84qxZr
+          source_id: s_iysWTAJR6jgb14GmHUSJck
+          stance: supports
+          locator: 正德六年進士登科錄:一卷，第三甲第十名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_TBRbQ4tV2WfCnjRSSpkfCv
+        status: active
+        display_name: 王釗
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_yIximMe1s8Thu_9V9D0kZn
+        subject_person_id: p_FxBbEWyPCZJRS2BVCvKm1v
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_CcL9yeQgRriMhVY3hPmz5a
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KQkfkvraGUIB62cqnylg7t
+          claim_id: c_yIximMe1s8Thu_9V9D0kZn
+          source_id: s_iysWTAJR6jgb14GmHUSJck
+          stance: supports
+          locator: 正德六年進士登科錄:一卷，第三甲第十名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_FxBbEWyPCZJRS2BVCvKm1v
+        status: active
+        display_name: 王仲德
+        merged_into_person_id: null
+    - claim:
+        id: c_EyQuXxfPAdHek36Drv4FPH
+        subject_person_id: p_UoL6tdmfZkcJmk3xo3DAA6
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_CcL9yeQgRriMhVY3hPmz5a
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ff5sNHFlE1bS7u_x2zCM83
+          claim_id: c_EyQuXxfPAdHek36Drv4FPH
+          source_id: s_iysWTAJR6jgb14GmHUSJck
+          stance: supports
+          locator: 正德六年進士登科錄:一卷，第三甲第十名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_UoL6tdmfZkcJmk3xo3DAA6
+        status: active
+        display_name: 王遠
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +175,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_TBRbQ4tV2WfCnjRSSpkfCv | 王釗 | accepted |
+| ancestors | p_FxBbEWyPCZJRS2BVCvKm1v | 王仲德 | accepted |
+| ancestors | p_UoL6tdmfZkcJmk3xo3DAA6 | 王遠 | accepted |
 
 ## 外部来源
 

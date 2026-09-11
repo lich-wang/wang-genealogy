@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王明時
 cbdb_id: 206277
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -134,7 +134,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_suVz3EWl4HfS0CS8Q__4us
+        subject_person_id: p_BMEd8a566iM36EvYEN4Boa
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_P7cZrKpwh44EGMwMKR3XMy
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_b7fncKtMQNe53oEFJIWrvw
+          claim_id: c_suVz3EWl4HfS0CS8Q__4us
+          source_id: s_FAd6b6xaQWXXoauLzRxAMR
+          stance: supports
+          locator: 萬曆五年進士登科錄:一卷，第二甲第二十四名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_FAd6b6xaQWXXoauLzRxAMR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王詔（CBDB 215720）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=215720&o=json
+            external_identifier: CBDB:215720
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.188Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_BMEd8a566iM36EvYEN4Boa
+        status: active
+        display_name: 王詔
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_BMEd8a566iM36EvYEN4Boa | 王詔 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王明時（CBDB 206277）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206277&o=json)
+- [中国历代人物传记资料库：王詔（CBDB 215720）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=215720&o=json)

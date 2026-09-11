@@ -4,7 +4,7 @@ id: p_cBGCXtQ6wkhv554viPc99n
 status: active
 merged_into: null
 display_name: 王文德
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -73,11 +73,63 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_h1_RUwu2E5BjrlD2g8QQa3
+        subject_person_id: p_cBGCXtQ6wkhv554viPc99n
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_pfkAJ6LT6dUqP7JHbgQTA7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_l9KIrT4ldUn9vBVwuRyCzT
+          claim_id: c_h1_RUwu2E5BjrlD2g8QQa3
+          source_id: s_szZBgRZFUof6ECVtLRNSze
+          stance: supports
+          locator: (道光)徽州府志:十六卷卷首一卷，lgid=1160868：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_pfkAJ6LT6dUqP7JHbgQTA7
+        status: active
+        display_name: 王廷言
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_T1I4XxhEbPkn_Jp01voKR4
+        subject_person_id: p_oXsn4KEBt43c38UqC37ERZ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_cBGCXtQ6wkhv554viPc99n
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VxItaDcjWhuhr_XPviWv9e
+          claim_id: c_T1I4XxhEbPkn_Jp01voKR4
+          source_id: s_szZBgRZFUof6ECVtLRNSze
+          stance: supports
+          locator: (道光)徽州府志:十六卷卷首一卷，lgid=1160984：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_oXsn4KEBt43c38UqC37ERZ
+        status: active
+        display_name: 王啟仁
+        merged_into_person_id: null
   descendants:
     - claim:
         id: c_YXr-ptwX2kWf5INXSM4lzN
@@ -116,6 +168,84 @@ relationships:
         status: active
         display_name: 王汝成
         merged_into_person_id: null
+    - claim:
+        id: c_FUqnp7lju-CxKeTXcBXpYc
+        subject_person_id: p_cBGCXtQ6wkhv554viPc99n
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Q7ggBttVytDDHAgopL9CKb
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7-ek1jAjLRA1Ddikcwkk6U
+          claim_id: c_FUqnp7lju-CxKeTXcBXpYc
+          source_id: s_szZBgRZFUof6ECVtLRNSze
+          stance: supports
+          locator: (道光)徽州府志:十六卷卷首一卷，lgid=1160868：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Q7ggBttVytDDHAgopL9CKb
+        status: active
+        display_name: 王鳳生
+        merged_into_person_id: null
+    - claim:
+        id: c_SgGr5sUfSdp_4_FF0yconb
+        subject_person_id: p_cBGCXtQ6wkhv554viPc99n
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_mR8y3PTiCrMPbVWSCQfHXh
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7ZrmemaH4CWknJLi6yAUP1
+          claim_id: c_SgGr5sUfSdp_4_FF0yconb
+          source_id: s_szZBgRZFUof6ECVtLRNSze
+          stance: supports
+          locator: (道光)徽州府志:十六卷卷首一卷，lgid=1160868：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_mR8y3PTiCrMPbVWSCQfHXh
+        status: active
+        display_name: 王麟生
+        merged_into_person_id: null
+    - claim:
+        id: c_tljTjxflOV2o1NqyaU_Wf8
+        subject_person_id: p_cBGCXtQ6wkhv554viPc99n
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_tHMY7aEZfasnZD9EGJZ9jH
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_uadwdqwB6_tpcYqme_pw7u
+          claim_id: c_tljTjxflOV2o1NqyaU_Wf8
+          source_id: s_szZBgRZFUof6ECVtLRNSze
+          stance: supports
+          locator: (道光)徽州府志:十六卷卷首一卷，lgid=1160868：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_tHMY7aEZfasnZD9EGJZ9jH
+        status: active
+        display_name: 王芝祥
+        merged_into_person_id: null
   other: []
 ---
 
@@ -134,7 +264,12 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_pfkAJ6LT6dUqP7JHbgQTA7 | 王廷言 | accepted |
+| ancestors | p_oXsn4KEBt43c38UqC37ERZ | 王啟仁 | accepted |
 | descendants | p_8SfbNUa9c5K4NMLzzfdGZb | 王汝成 | accepted |
+| descendants | p_Q7ggBttVytDDHAgopL9CKb | 王鳳生 | accepted |
+| descendants | p_mR8y3PTiCrMPbVWSCQfHXh | 王麟生 | accepted |
+| descendants | p_tHMY7aEZfasnZD9EGJZ9jH | 王芝祥 | accepted |
 
 ## 外部来源
 

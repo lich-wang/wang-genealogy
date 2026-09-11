@@ -4,7 +4,7 @@ id: p_bmbwdV3HEBP41vyQnog2Gc
 status: active
 merged_into: null
 display_name: 王君素
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,12 +73,64 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_DAeVUi90Uo-j-Jng2RhSSQ
+        subject_person_id: p_bmbwdV3HEBP41vyQnog2Gc
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_a1qoNPMF19KNJJgFTs1t1Y
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zFb31wR0Am8D2w0F8WNZtm
+          claim_id: c_DAeVUi90Uo-j-Jng2RhSSQ
+          source_id: s_85EBvENbuhhCGZsJ7kZAGr
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Qianfeng 22：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_a1qoNPMF19KNJJgFTs1t1Y
+        status: active
+        display_name: 王道智
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_i4FD3J1PC4lR1f5n7V5eg0
+        subject_person_id: p_bmbwdV3HEBP41vyQnog2Gc
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_VNFXwWD4uW7ZZwVXfNErsr
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wMEvcqNJGPkL6mQQLxtfLg
+          claim_id: c_i4FD3J1PC4lR1f5n7V5eg0
+          source_id: s_85EBvENbuhhCGZsJ7kZAGr
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Jinglong13：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_VNFXwWD4uW7ZZwVXfNErsr
+        status: active
+        display_name: 王晏
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_a1qoNPMF19KNJJgFTs1t1Y | 王道智 | accepted |
+| descendants | p_VNFXwWD4uW7ZZwVXfNErsr | 王晏 | accepted |
 
 ## 外部来源
 

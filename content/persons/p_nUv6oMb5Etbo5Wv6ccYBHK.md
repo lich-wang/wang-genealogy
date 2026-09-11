@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王子岱
 cbdb_id: 523971
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -92,7 +92,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_4Ocj5RMpv2PR-WmkJy28T6
+        subject_person_id: p_nUv6oMb5Etbo5Wv6ccYBHK
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_bMGwWQFb7a3S9AsNFQHq5w
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8yJgSMUciV0J9TalQdl0Vf
+          claim_id: c_4Ocj5RMpv2PR-WmkJy28T6
+          source_id: s_15qce7SRcTSEB2Pj7cqFoF
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），10444：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_15qce7SRcTSEB2Pj7cqFoF
+            source_type: api_record
+            title: 中国历代人物传记资料库：王英（CBDB 66848）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=66848&o=json
+            external_identifier: CBDB:66848
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.968Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_bMGwWQFb7a3S9AsNFQHq5w
+        status: active
+        display_name: 王英
+        merged_into_person_id: null
   other: []
 ---
 
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_bMGwWQFb7a3S9AsNFQHq5w | 王英 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王英（CBDB 66848）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=66848&o=json)
 - [中国历代人物传记资料库：王子岱（CBDB 523971）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=523971&o=json)

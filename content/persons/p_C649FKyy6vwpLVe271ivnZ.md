@@ -4,7 +4,7 @@ id: p_C649FKyy6vwpLVe271ivnZ
 status: active
 merged_into: null
 display_name: 王恩
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,13 +72,91 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_X09ROq1gLyYSCb2pO4Tw_v
+        subject_person_id: p_uzLPWq66u7cfNYyrb8gQ8t
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_C649FKyy6vwpLVe271ivnZ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cZxJ1Hw_PrVRGmZ-ivGGyz
+          claim_id: c_X09ROq1gLyYSCb2pO4Tw_v
+          source_id: s_4JWUyKmFJjRKU2cyP2B97v
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_uzLPWq66u7cfNYyrb8gQ8t
+        status: active
+        display_name: 王璆
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_zVm5uZ19cpuq6jSs-EgNlN
+        subject_person_id: p_C649FKyy6vwpLVe271ivnZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_UkJzzb7Gw9QdK6rEomKB8E
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_V9EUypDfxBiB2RCOz1mmzh
+          claim_id: c_zVm5uZ19cpuq6jSs-EgNlN
+          source_id: s_4JWUyKmFJjRKU2cyP2B97v
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_UkJzzb7Gw9QdK6rEomKB8E
+        status: active
+        display_name: 王良
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_Ym1CgCWEsCIgS1j2XUViMK
+        subject_person_id: p_C649FKyy6vwpLVe271ivnZ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_kVMprEyYd61FrSnBQEVsST
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_DINZcSqNzWNyFGbflbE2Z7
+          claim_id: c_Ym1CgCWEsCIgS1j2XUViMK
+          source_id: s_4JWUyKmFJjRKU2cyP2B97v
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Dahe 94：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_kVMprEyYd61FrSnBQEVsST
+        status: active
+        display_name: 王仕倫
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +175,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_uzLPWq66u7cfNYyrb8gQ8t | 王璆 | accepted |
+| children | p_UkJzzb7Gw9QdK6rEomKB8E | 王良 | accepted |
+| descendants | p_kVMprEyYd61FrSnBQEVsST | 王仕倫 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_Hs5dTewocAZFYmsQxmyBFY
 status: active
 merged_into: null
 display_name: 王紳
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -105,7 +105,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_Nm07r9Qq-0Sar8y_Hj5nna
+        subject_person_id: p_cDhkwNASo4LnZoHgKrkdpx
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Hs5dTewocAZFYmsQxmyBFY
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_nlkoJSa04pr_ILJPB744kZ
+          claim_id: c_Nm07r9Qq-0Sar8y_Hj5nna
+          source_id: s_H4Py2z2rrgUhZURFJfcReg
+          stance: supports
+          locator: 嘉靖八年進士登科錄:一卷，第三甲第三十七名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_H4Py2z2rrgUhZURFJfcReg
+            source_type: api_record
+            title: 中国历代人物传记资料库：王吉（CBDB 288734）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288734&o=json
+            external_identifier: CBDB:288734
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.301Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_cDhkwNASo4LnZoHgKrkdpx
+        status: active
+        display_name: 王吉
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_cDhkwNASo4LnZoHgKrkdpx | 王吉 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王吉（CBDB 288734）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288734&o=json)
 - [中国历代人物传记资料库：王紳（CBDB 202472）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202472&o=json)

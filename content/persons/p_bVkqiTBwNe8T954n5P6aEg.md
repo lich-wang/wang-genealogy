@@ -4,7 +4,7 @@ id: p_bVkqiTBwNe8T954n5P6aEg
 status: active
 merged_into: null
 display_name: 王子榮
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_eomgHJmVcIr7iyTPAlqkQ5
+        subject_person_id: p_f6qKq1HFdL2hPjxA66dVA5
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_bVkqiTBwNe8T954n5P6aEg
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_B4m1LNR0hsONwdy_1B88dJ
+          claim_id: c_eomgHJmVcIr7iyTPAlqkQ5
+          source_id: s_cv6rvAEY8PjzmgNkuVNYqc
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Zhenyuan8：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_f6qKq1HFdL2hPjxA66dVA5
+        status: active
+        display_name: 王承仙
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_f6qKq1HFdL2hPjxA66dVA5 | 王承仙 | accepted |
 
 ## 外部来源
 

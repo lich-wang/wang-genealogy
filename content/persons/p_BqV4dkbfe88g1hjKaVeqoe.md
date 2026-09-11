@@ -4,7 +4,7 @@ id: p_BqV4dkbfe88g1hjKaVeqoe
 status: active
 merged_into: null
 display_name: 王維德
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -133,7 +133,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_qEN9MrGWXetFvXFIS_lKmQ
+        subject_person_id: p_Gnw243Y9BUsu4fMCgtZ4YQ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_BqV4dkbfe88g1hjKaVeqoe
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-DhYA8dsZ3hxgyeBC7qLEQ
+          claim_id: c_qEN9MrGWXetFvXFIS_lKmQ
+          source_id: s_EFjyPV44zJq4g5PRSDfZMe
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13103：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Gnw243Y9BUsu4fMCgtZ4YQ
+        status: active
+        display_name: 王若谷
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,6 +181,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_Gnw243Y9BUsu4fMCgtZ4YQ | 王若谷 | accepted |
 
 ## 外部来源
 

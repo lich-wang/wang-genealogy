@@ -4,7 +4,7 @@ id: p_cF1tS83LboioMzgPkBhT2W
 status: active
 merged_into: null
 display_name: 王選
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_J1oCx30o7_wcO0ZPvuqo1U
+        subject_person_id: p_HBetaJRtzBcDVZP83F84Xv
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_cF1tS83LboioMzgPkBhT2W
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6YkpbBiLPcLYgQhxZikE0V
+          claim_id: c_J1oCx30o7_wcO0ZPvuqo1U
+          source_id: s_ycBjaLSCwSA1EL2RDVdTj2
+          stance: supports
+          locator: 弘治六年進士登科錄:一卷，第三甲第四十八名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_HBetaJRtzBcDVZP83F84Xv
+        status: active
+        display_name: 王稷時
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_PmCEnOIdkK4ND3oGvjfMPv
+        subject_person_id: p_xXfU17qq7kWf6RgD1JMA38
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_cF1tS83LboioMzgPkBhT2W
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7Kccl8EySZ2maXrZjQCws5
+          claim_id: c_PmCEnOIdkK4ND3oGvjfMPv
+          source_id: s_ycBjaLSCwSA1EL2RDVdTj2
+          stance: supports
+          locator: 弘治六年進士登科錄:一卷，第三甲第四十八名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_xXfU17qq7kWf6RgD1JMA38
+        status: active
+        display_name: 王學韶
+        merged_into_person_id: null
+    - claim:
+        id: c_iKxXzlvuJ-RFbGQlEf_zWs
+        subject_person_id: p_L2CxX6rmuHacqK1sdFNeMY
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_cF1tS83LboioMzgPkBhT2W
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ycMTXGU8NzhpyOGHQe8tXz
+          claim_id: c_iKxXzlvuJ-RFbGQlEf_zWs
+          source_id: s_ycBjaLSCwSA1EL2RDVdTj2
+          stance: supports
+          locator: 弘治六年進士登科錄:一卷，第三甲第四十八名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_L2CxX6rmuHacqK1sdFNeMY
+        status: active
+        display_name: 王克和
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_HBetaJRtzBcDVZP83F84Xv | 王稷時 | accepted |
+| ancestors | p_xXfU17qq7kWf6RgD1JMA38 | 王學韶 | accepted |
+| ancestors | p_L2CxX6rmuHacqK1sdFNeMY | 王克和 | accepted |
 
 ## 外部来源
 

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王仕倫
 cbdb_id: 141674
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -177,7 +177,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_Ym1CgCWEsCIgS1j2XUViMK
+        subject_person_id: p_C649FKyy6vwpLVe271ivnZ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_kVMprEyYd61FrSnBQEVsST
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_DINZcSqNzWNyFGbflbE2Z7
+          claim_id: c_Ym1CgCWEsCIgS1j2XUViMK
+          source_id: s_4JWUyKmFJjRKU2cyP2B97v
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Dahe 94：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_4JWUyKmFJjRKU2cyP2B97v
+            source_type: api_record
+            title: 中国历代人物传记资料库：王恩（CBDB 158106）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=158106&o=json
+            external_identifier: CBDB:158106
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.917Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_C649FKyy6vwpLVe271ivnZ
+        status: active
+        display_name: 王恩
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -199,7 +236,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_C649FKyy6vwpLVe271ivnZ | 王恩 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王恩（CBDB 158106）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=158106&o=json)
 - [中国历代人物传记资料库：王仕倫（CBDB 141674）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=141674&o=json)
