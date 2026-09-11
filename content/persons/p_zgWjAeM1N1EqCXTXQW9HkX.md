@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王承勋
 cbdb_id: 30377
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -661,6 +661,43 @@ relationships:
         status: active
         display_name: 王守仁
         merged_into_person_id: null
+    - claim:
+        id: c_T_R8xxlrZPwmPdzR-Fefdg
+        subject_person_id: p_D3ZKwNoKjeEJXSHgQd8CdC
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_zgWjAeM1N1EqCXTXQW9HkX
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xFaWjmvCNUvjQM1iLKi03z
+          claim_id: c_T_R8xxlrZPwmPdzR-Fefdg
+          source_id: s_yUmzrSxNNCC7j1D7AdYPLL
+          stance: supports
+          locator: 紹興府志:八十卷，Igid=316150：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_yUmzrSxNNCC7j1D7AdYPLL
+            source_type: api_record
+            title: 中国历代人物传记资料库：王守仁（CBDB 30374）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30374&o=json
+            external_identifier: CBDB:30374
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.028Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_D3ZKwNoKjeEJXSHgQd8CdC
+        status: active
+        display_name: 王守仁
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -686,6 +723,7 @@ relationships:
 | children | p_bWS6dyCRFbobGToyXQueQ5 | 王先达 | accepted |
 | children | p_DHmLm5HngcTLKcAaUV6Q4L | 王先进 | accepted |
 | ancestors | p_TQiMhGLRXGBc7HWBFHEr7P | 王守仁 | accepted |
+| ancestors | p_D3ZKwNoKjeEJXSHgQd8CdC | 王守仁 | accepted |
 
 ## 外部来源
 
@@ -693,6 +731,7 @@ relationships:
 - [维基数据：王先达（Q45417765）](https://www.wikidata.org/wiki/Q45417765)
 - [维基数据：王先进（Q45417769）](https://www.wikidata.org/wiki/Q45417769)
 - [維基數據：王正亿（Q15944660）](https://www.wikidata.org/wiki/Q15944660)
+- [中国历代人物传记资料库：王守仁（CBDB 30374）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30374&o=json)
 - [中文维基百科：余姚王氏](https://zh.wikipedia.org/wiki/%E4%BD%99%E5%A7%9A%E7%8E%8B%E6%B0%8F)
 - [CBDB 中国历代人物传记资料库：王承勛（30377）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30377&o=json)
 - [CBDB 中国历代人物传记资料库：王先達（30376）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30376&o=json)

@@ -4,7 +4,7 @@ id: p_NCcpGv1P1CiTE2pLU2KQhf
 status: active
 merged_into: null
 display_name: 王同人
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_DDFXQVWX-UraRlWEtsLX3a
+        subject_person_id: p_cwKzjBMKcPC1s1jgGcgBVa
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_NCcpGv1P1CiTE2pLU2KQhf
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-U15ELO8790gJc0yV_6Xb-
+          claim_id: c_DDFXQVWX-UraRlWEtsLX3a
+          source_id: s_nd6ttgrtn13qAwN7NSGjcu
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaiyuan 292：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_nd6ttgrtn13qAwN7NSGjcu
+            source_type: api_record
+            title: 中国历代人物传记资料库：王璿（CBDB 152190）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=152190&o=json
+            external_identifier: CBDB:152190
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.847Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_cwKzjBMKcPC1s1jgGcgBVa
+        status: active
+        display_name: 王璿
+        merged_into_person_id: null
   children:
     - claim:
         id: c_lXwpXYyij_TNBLLViWjhJz
@@ -229,6 +266,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_cwKzjBMKcPC1s1jgGcgBVa | 王璿 | accepted |
 | children | p_7VZMyBjk3p97PJ8b61JiUG | 王渙 | accepted |
 | ancestors | p_BbVptP39ZfzK25qw7xJj6P | 王德儉 | accepted |
 
@@ -237,3 +275,4 @@ relationships:
 - [中国历代人物传记资料库：王德儉（CBDB 152188）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=152188&o=json)
 - [中国历代人物传记资料库：王渙（CBDB 152189）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=152189&o=json)
 - [中国历代人物传记资料库：王同人（CBDB 140654）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140654&o=json)
+- [中国历代人物传记资料库：王璿（CBDB 152190）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=152190&o=json)

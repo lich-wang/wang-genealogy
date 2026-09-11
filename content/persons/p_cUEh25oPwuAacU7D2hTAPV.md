@@ -4,7 +4,7 @@ id: p_cUEh25oPwuAacU7D2hTAPV
 status: active
 merged_into: null
 display_name: 王臨亨
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -129,7 +129,85 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_9qOlK6xAhFpkI5w8mgLxTM
+        subject_person_id: p_cUEh25oPwuAacU7D2hTAPV
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_WP2TCGKdqkuWFjHVRTiLcW
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_t0IkMd5nIfZJPnx5KuJxlL
+          claim_id: c_9qOlK6xAhFpkI5w8mgLxTM
+          source_id: s_kEUVXVMNSjJdG7sCHKLhxA
+          stance: supports
+          locator: 萬曆三十八年庚戌科序齒錄:一卷，第二甲第五十七名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_WP2TCGKdqkuWFjHVRTiLcW
+        status: active
+        display_name: 王志堅
+        merged_into_person_id: null
+    - claim:
+        id: c_5T0b0bySOcpqWHd2x2Pc0r
+        subject_person_id: p_cUEh25oPwuAacU7D2hTAPV
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_S59f4ecKi74gcNZvVCFxMo
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BhypxmFj2jZBcA7GC-kIpG
+          claim_id: c_5T0b0bySOcpqWHd2x2Pc0r
+          source_id: s_kEUVXVMNSjJdG7sCHKLhxA
+          stance: supports
+          locator: 江南通志，lgid=65730-65731：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_S59f4ecKi74gcNZvVCFxMo
+        status: active
+        display_name: 王志長
+        merged_into_person_id: null
+    - claim:
+        id: c_YVwI0_lxX2IkrfNLBuj8ij
+        subject_person_id: p_cUEh25oPwuAacU7D2hTAPV
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_uhBvBPtXf315t4tLh9pNU3
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BEd5GFRXCQ2Klv_gL99zMA
+          claim_id: c_YVwI0_lxX2IkrfNLBuj8ij
+          source_id: s_kEUVXVMNSjJdG7sCHKLhxA
+          stance: supports
+          locator: 江南通志，lgid=65730-65731：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_uhBvBPtXf315t4tLh9pNU3
+        status: active
+        display_name: 王志慶
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +233,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_WP2TCGKdqkuWFjHVRTiLcW | 王志堅 | accepted |
+| children | p_S59f4ecKi74gcNZvVCFxMo | 王志長 | accepted |
+| children | p_uhBvBPtXf315t4tLh9pNU3 | 王志慶 | accepted |
 
 ## 外部来源
 

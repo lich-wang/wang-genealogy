@@ -4,7 +4,7 @@ id: p_ckXg1snXR9eZpgBTHaU1bX
 status: active
 merged_into: null
 display_name: 王繡
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_6IsmbHP3aAKiUya6jFaVNk
+        subject_person_id: p_ckXg1snXR9eZpgBTHaU1bX
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_wfvFAbMeeGg2JCRsQFqRMn
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HCjugI_VKLsA6cHphQzUrX
+          claim_id: c_6IsmbHP3aAKiUya6jFaVNk
+          source_id: s_H3rDz3jf9AqS3y8r6mt9DX
+          stance: supports
+          locator: 嘉靖四十四年進士登科錄:一卷，第三甲第二百五十九名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_wfvFAbMeeGg2JCRsQFqRMn
+        status: active
+        display_name: 王家卿
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_wfvFAbMeeGg2JCRsQFqRMn | 王家卿 | accepted |
 
 ## 外部来源
 

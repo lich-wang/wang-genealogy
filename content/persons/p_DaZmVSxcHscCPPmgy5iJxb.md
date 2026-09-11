@@ -4,7 +4,7 @@ id: p_DaZmVSxcHscCPPmgy5iJxb
 status: active
 merged_into: null
 display_name: 王俊
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -167,6 +167,58 @@ relationships:
         status: active
         display_name: 王忠義
         merged_into_person_id: null
+    - claim:
+        id: c_OI2y_naQY4miXzC-_mazcO
+        subject_person_id: p_DaZmVSxcHscCPPmgy5iJxb
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Lq7akvF2H5JESKpzcPgJ6Y
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6IECaHbWwL4AVT1AOxLk-s
+          claim_id: c_OI2y_naQY4miXzC-_mazcO
+          source_id: s_dh4zjkmv1XJFeJpicRWdiq
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Lq7akvF2H5JESKpzcPgJ6Y
+        status: active
+        display_name: 王忠順
+        merged_into_person_id: null
+    - claim:
+        id: c_EyEPkUSvL1ODMq6uXxzF72
+        subject_person_id: p_DaZmVSxcHscCPPmgy5iJxb
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_RYjRk2djR1PLWDVMHBdBWX
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FCITTwDI91cd6eRNEvjiBj
+          claim_id: c_EyEPkUSvL1ODMq6uXxzF72
+          source_id: s_dh4zjkmv1XJFeJpicRWdiq
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_RYjRk2djR1PLWDVMHBdBWX
+        status: active
+        display_name: 王恆宬
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -193,6 +245,8 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_AX5qk81h3RnEJCnp9j3mox | 王忠義 | accepted |
+| children | p_Lq7akvF2H5JESKpzcPgJ6Y | 王忠順 | accepted |
+| children | p_RYjRk2djR1PLWDVMHBdBWX | 王恆宬 | accepted |
 
 ## 外部来源
 

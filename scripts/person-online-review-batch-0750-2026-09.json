@@ -1,0 +1,69 @@
+{
+  "schema": "wang-person-online-review-batch/v1",
+  "reviewer": "luna",
+  "reviewed_at": "2026-09-11",
+  "queue_positions": [
+    7491,
+    7500
+  ],
+  "summary": {
+    "reviewed": 10,
+    "relationships_added": 7,
+    "manual_review": 1
+  },
+  "relationships": [
+    {
+      "subject": "p_vTrNtBUpLMvEjAK6D9b2BG",
+      "object": "p_D3ZKwNoKjeEJXSHgQd8CdC",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 2
+    },
+    {
+      "subject": "p_D3ZKwNoKjeEJXSHgQd8CdC",
+      "object": "p_zgWjAeM1N1EqCXTXQW9HkX",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 2
+    },
+    {
+      "subject": "p_D3ZKwNoKjeEJXSHgQd8CdC",
+      "object": "p_DsQugLMn8y74PZ78X3Ldak",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 2
+    },
+    {
+      "subject": "p_D3ZKwNoKjeEJXSHgQd8CdC",
+      "object": "p_DHmLm5HngcTLKcAaUV6Q4L",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 3
+    },
+    {
+      "subject": "p_D3ZKwNoKjeEJXSHgQd8CdC",
+      "object": "p_XM6mAGcrGG9zdfhaW7wsMr",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 3
+    },
+    {
+      "subject": "p_D3ZKwNoKjeEJXSHgQd8CdC",
+      "object": "p_cfbSo699FQEfuoc3FoGXE2",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 3
+    },
+    {
+      "subject": "p_D3ZKwNoKjeEJXSHgQd8CdC",
+      "object": "p_Vwh1UfYLcTAoFT9fJr6gFo",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 3
+    }
+  ],
+  "unchanged": [
+    "p_d3uRHC95aQ4DUxyHxKnh4J",
+    "p_D3VfQvPGAHFPsJgHoFn4m5",
+    "p_D3wCqsVb85JBqdv2Q2QgMo",
+    "p_D3WEttBK81yQaPkTWKskRy",
+    "p_D3XisxpSmp2FoWNkwA4Hfg",
+    "p_d3yFY1dLjutdJgynaXwf2x",
+    "p_D3zLoGJHryvUYtjxdHz9Wz",
+    "p_d41A4d3yepL5bCa9RwAJAy",
+    "p_D43i5fmpbL12CJZYE2dK7Y"
+  ]
+}

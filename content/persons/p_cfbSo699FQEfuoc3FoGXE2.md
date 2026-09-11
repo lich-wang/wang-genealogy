@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王先鋐
 cbdb_id: 526009
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -91,7 +91,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_cHxvSDNfirKexugUgCIn_C
+        subject_person_id: p_D3ZKwNoKjeEJXSHgQd8CdC
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_cfbSo699FQEfuoc3FoGXE2
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_K5dvHbEp0qgea2pQj-Ejk1
+          claim_id: c_cHxvSDNfirKexugUgCIn_C
+          source_id: s_yUmzrSxNNCC7j1D7AdYPLL
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），11920：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_yUmzrSxNNCC7j1D7AdYPLL
+            source_type: api_record
+            title: 中国历代人物传记资料库：王守仁（CBDB 30374）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30374&o=json
+            external_identifier: CBDB:30374
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.028Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_D3ZKwNoKjeEJXSHgQd8CdC
+        status: active
+        display_name: 王守仁
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_D3ZKwNoKjeEJXSHgQd8CdC | 王守仁 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王守仁（CBDB 30374）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30374&o=json)
 - [中国历代人物传记资料库：王先鋐（CBDB 526009）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526009&o=json)

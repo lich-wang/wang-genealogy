@@ -4,7 +4,7 @@ id: p_N1sjWWAngPbNQ5mXRM9s3H
 status: active
 merged_into: null
 display_name: 王介
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -133,7 +133,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_k8nIfDELV8xN_TyB1yl82K
+        subject_person_id: p_dHZC3EZ3ECRTV8RLzJtHuV
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_N1sjWWAngPbNQ5mXRM9s3H
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_a4GWCwvARKRPHzjvDxRZ2H
+          claim_id: c_k8nIfDELV8xN_TyB1yl82K
+          source_id: s_5s32gXNt1LKDKSS177a7JW
+          stance: supports
+          locator: 全宋文，卷 7197：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_5s32gXNt1LKDKSS177a7JW
+            source_type: api_record
+            title: 中国历代人物传记资料库：王矩（CBDB 24349）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=24349&o=json
+            external_identifier: CBDB:24349
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.897Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_dHZC3EZ3ECRTV8RLzJtHuV
+        status: active
+        display_name: 王矩
+        merged_into_person_id: null
   descendants:
     - claim:
         id: c_lAt7PDY1QyjpU6CF66PehQ
@@ -192,9 +229,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_dHZC3EZ3ECRTV8RLzJtHuV | 王矩 | accepted |
 | descendants | p_9KKSnPnKv9UdjydbqgSQdz | 王同祖 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王介（CBDB 10241）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10241&o=json)
+- [中国历代人物传记资料库：王矩（CBDB 24349）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=24349&o=json)
 - [中国历代人物传记资料库：王同祖（CBDB 24875）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=24875&o=json)

@@ -4,7 +4,7 @@ id: p_Cyb8Y4r2NXehBqbUsk4xci
 status: active
 merged_into: null
 display_name: 王鼎
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_NbOqcdz2hxy7mzl44X1gn-
+        subject_person_id: p_oLa6u987MQb63j3ya1tAqU
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Cyb8Y4r2NXehBqbUsk4xci
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5rqTbEODX6480dVpA9MpvG
+          claim_id: c_NbOqcdz2hxy7mzl44X1gn-
+          source_id: s_Fu1pivLGeCJWD1DdxNp78z
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_oLa6u987MQb63j3ya1tAqU
+        status: active
+        display_name: 王德素
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -126,6 +152,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_oLa6u987MQb63j3ya1tAqU | 王德素 | accepted |
 
 ## 外部来源
 

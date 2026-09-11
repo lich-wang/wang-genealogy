@@ -4,7 +4,7 @@ id: p_CNQq29PPARqLQdyYsUrpxT
 status: active
 merged_into: null
 display_name: 王辯
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_4YsjIe1qWSuqJWTKAMdvif
+        subject_person_id: p_RhDAKgtQcF6Z8oKs1zuCaK
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_CNQq29PPARqLQdyYsUrpxT
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WBXvnEN8G-v7gg3Fn1SlJu
+          claim_id: c_4YsjIe1qWSuqJWTKAMdvif
+          source_id: s_F9s62EoXN9pasHwFnDDFVS
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，北宋卷226 王辯墓志：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_RhDAKgtQcF6Z8oKs1zuCaK
+        status: active
+        display_name: 王文紀
+        merged_into_person_id: null
   children:
     - claim:
         id: c_T6mIY6rLeeRuxk87DuVtM3
@@ -204,10 +230,99 @@ relationships:
         status: active
         display_name: 王伯清
         merged_into_person_id: null
+    - claim:
+        id: c_5xDYS_0aXHmH_Eqxs9r7wy
+        subject_person_id: p_CNQq29PPARqLQdyYsUrpxT
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_D7d4NRSbDa42wt9zYGD7Et
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hzfW5pxkRXfaQW8i2z3TGO
+          claim_id: c_5xDYS_0aXHmH_Eqxs9r7wy
+          source_id: s_CCnQhdUEGq75V5XWWj9TxH
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，北宋卷226 王辯墓志：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_CCnQhdUEGq75V5XWWj9TxH
+            source_type: api_record
+            title: 中国历代人物传记资料库：王元之（CBDB 700899）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=700899&o=json
+            external_identifier: CBDB:700899
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:27.786Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_D7d4NRSbDa42wt9zYGD7Et
+        status: active
+        display_name: 王元之
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_DT2SxR_2OZrxqucCqYxD8E
+        subject_person_id: p_EAKGvrLB7qJXthZERUG6pi
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_CNQq29PPARqLQdyYsUrpxT
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_G8i84EfpEjyEOog3Zyb9iG
+          claim_id: c_DT2SxR_2OZrxqucCqYxD8E
+          source_id: s_F9s62EoXN9pasHwFnDDFVS
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，北宋卷226 王辯墓志：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_EAKGvrLB7qJXthZERUG6pi
+        status: active
+        display_name: 王崇謙
+        merged_into_person_id: null
+    - claim:
+        id: c_2uimw_Yu3K6WbsuSPruNgW
+        subject_person_id: p_x9sCiMBHHPYfMF5fv5uEG1
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_CNQq29PPARqLQdyYsUrpxT
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pgpIsK1ruD-65SsdT3diJz
+          claim_id: c_2uimw_Yu3K6WbsuSPruNgW
+          source_id: s_F9s62EoXN9pasHwFnDDFVS
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，北宋卷226 王辯墓志：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_x9sCiMBHHPYfMF5fv5uEG1
+        status: active
+        display_name: 王允正
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -229,11 +344,16 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_RhDAKgtQcF6Z8oKs1zuCaK | 王文紀 | accepted |
 | children | p_a6iBVSH4AvDbFzM1nurSan | 王真卿 | accepted |
 | children | p_az3PoNHrQPcMf7JchdnEpq | 王伯清 | accepted |
+| children | p_D7d4NRSbDa42wt9zYGD7Et | 王元之 | accepted |
+| ancestors | p_EAKGvrLB7qJXthZERUG6pi | 王崇謙 | accepted |
+| ancestors | p_x9sCiMBHHPYfMF5fv5uEG1 | 王允正 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王辯（CBDB 700887）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=700887&o=json)
 - [中国历代人物传记资料库：王伯清（CBDB 700900）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=700900&o=json)
+- [中国历代人物传记资料库：王元之（CBDB 700899）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=700899&o=json)
 - [中国历代人物传记资料库：王真卿（CBDB 700901）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=700901&o=json)

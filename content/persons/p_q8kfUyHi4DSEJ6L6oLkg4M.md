@@ -4,7 +4,7 @@ id: p_q8kfUyHi4DSEJ6L6oLkg4M
 status: active
 merged_into: null
 display_name: 王問臣
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -105,7 +105,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_4BGP3DtE4pyyw0g94bA1QE
+        subject_person_id: p_CKxjDR1LGVYYypW4hUBVVW
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_q8kfUyHi4DSEJ6L6oLkg4M
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2DS8wueBcTKPouFmKVYBnS
+          claim_id: c_4BGP3DtE4pyyw0g94bA1QE
+          source_id: s_v3tkFsuExWAtXMxpaPnk7m
+          stance: supports
+          locator: 嘉靖四十一年進士登科錄:一卷，第三甲第一百八十五名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_v3tkFsuExWAtXMxpaPnk7m
+            source_type: api_record
+            title: 中国历代人物传记资料库：王怡（CBDB 329111）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329111&o=json
+            external_identifier: CBDB:329111
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.318Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_CKxjDR1LGVYYypW4hUBVVW
+        status: active
+        display_name: 王怡
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_CKxjDR1LGVYYypW4hUBVVW | 王怡 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王問臣（CBDB 205162）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205162&o=json)
+- [中国历代人物传记资料库：王怡（CBDB 329111）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329111&o=json)

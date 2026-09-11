@@ -4,7 +4,7 @@ id: p_cJPjdNwsR6729BhxkY9bu9
 status: active
 merged_into: null
 display_name: 王撫民
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_wLHNayD-BMiX-fwj_amy1n
+        subject_person_id: p_cJPjdNwsR6729BhxkY9bu9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_k3fw4jn7UF1hujd81L3vBe
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BS0Jzn4pTaobnYPano6J-t
+          claim_id: c_wLHNayD-BMiX-fwj_amy1n
+          source_id: s_fX2NiBK6X1E4F19HSQV43o
+          stance: supports
+          locator: 隆慶五年進士登科錄:一卷，第三甲第一百四十八名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_k3fw4jn7UF1hujd81L3vBe
+        status: active
+        display_name: 王蔚
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_k3fw4jn7UF1hujd81L3vBe | 王蔚 | accepted |
 
 ## 外部来源
 

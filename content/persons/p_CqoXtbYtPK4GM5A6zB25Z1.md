@@ -4,7 +4,7 @@ id: p_CqoXtbYtPK4GM5A6zB25Z1
 status: active
 merged_into: null
 display_name: 王彥實
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -115,7 +115,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_jQxggGBw_1qoY5zbESd0PG
+        subject_person_id: p_CqoXtbYtPK4GM5A6zB25Z1
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_1GhPFs5m4G2BPwjpU26jtR
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_z0XDQ9F5I1jk_S7_JgsiUr
+          claim_id: c_jQxggGBw_1qoY5zbESd0PG
+          source_id: s_shrh2vvQn1AJaxuJJ96F8f
+          stance: supports
+          locator: 宣德八年進士登科錄:一卷，第三甲第三十八名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_1GhPFs5m4G2BPwjpU26jtR
+        status: active
+        display_name: 王亮
+        merged_into_person_id: null
   other: []
 ---
 
@@ -135,6 +161,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_4bu2im8699zCsccbtJF1P5 | 王某中 | accepted |
+| descendants | p_1GhPFs5m4G2BPwjpU26jtR | 王亮 | accepted |
 
 ## 外部来源
 

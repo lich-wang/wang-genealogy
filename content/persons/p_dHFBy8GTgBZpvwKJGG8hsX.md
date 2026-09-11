@@ -4,7 +4,7 @@ id: p_dHFBy8GTgBZpvwKJGG8hsX
 status: active
 merged_into: null
 display_name: 王暄
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_nRnbEWc9Mb5pP5AJY4orlp
+        subject_person_id: p_vNNRVNM4fb2RVGCGj65JaG
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_dHFBy8GTgBZpvwKJGG8hsX
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SVgnxxxjLSBHiuLh4vjbmU
+          claim_id: c_nRnbEWc9Mb5pP5AJY4orlp
+          source_id: s_UajPbreWAJ8SWtEFXGFhUY
+          stance: supports
+          locator: 成化八年進士登科錄:一卷，第三甲第一百四十八名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_vNNRVNM4fb2RVGCGj65JaG
+        status: active
+        display_name: 王鈍
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_jV8UhoUm4A0SUCRwYAgwEv
+        subject_person_id: p_jf9czE6gj8V3fCw8ZoQ8o7
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_dHFBy8GTgBZpvwKJGG8hsX
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rwT632YsFfSAag9fvfmftc
+          claim_id: c_jV8UhoUm4A0SUCRwYAgwEv
+          source_id: s_UajPbreWAJ8SWtEFXGFhUY
+          stance: supports
+          locator: 成化八年進士登科錄:一卷，第三甲第一百四十八名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_jf9czE6gj8V3fCw8ZoQ8o7
+        status: active
+        display_name: 王廷玉
+        merged_into_person_id: null
+    - claim:
+        id: c_YnApwjtA1xoeLE6m0r_THg
+        subject_person_id: p_8b5ygBMRrPL5bJPeuV8d8d
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_dHFBy8GTgBZpvwKJGG8hsX
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_30kBGB8w2g-oc9xFQiOROp
+          claim_id: c_YnApwjtA1xoeLE6m0r_THg
+          source_id: s_UajPbreWAJ8SWtEFXGFhUY
+          stance: supports
+          locator: 成化八年進士登科錄:一卷，第三甲第一百四十八名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_8b5ygBMRrPL5bJPeuV8d8d
+        status: active
+        display_name: 王斯浩
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_vNNRVNM4fb2RVGCGj65JaG | 王鈍 | accepted |
+| ancestors | p_jf9czE6gj8V3fCw8ZoQ8o7 | 王廷玉 | accepted |
+| ancestors | p_8b5ygBMRrPL5bJPeuV8d8d | 王斯浩 | accepted |
 
 ## 外部来源
 

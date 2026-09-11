@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王遏
 cbdb_id: 151614
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -87,7 +87,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_uKWfO2FRGJam-nbfmqQ0iD
+        subject_person_id: p_Hr5Q4L3jPiTBJ4oWBZVDbR
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_DLG1zgaXP3p4Uge6Aa7xhu
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Pi6KpRJ4K9cMjocoUbP7JV
+          claim_id: c_uKWfO2FRGJam-nbfmqQ0iD
+          source_id: s_u5bE1VMMVfzsJ4j4D5A4fr
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaiyuan 134：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_u5bE1VMMVfzsJ4j4D5A4fr
+            source_type: api_record
+            title: 中国历代人物传记资料库：王慶（CBDB 140408）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140408&o=json
+            external_identifier: CBDB:140408
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.503Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_DLG1zgaXP3p4Uge6Aa7xhu
+        status: active
+        display_name: 王慶
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_DLG1zgaXP3p4Uge6Aa7xhu | 王慶 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王遏（CBDB 151614）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=151614&o=json)
+- [中国历代人物传记资料库：王慶（CBDB 140408）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140408&o=json)

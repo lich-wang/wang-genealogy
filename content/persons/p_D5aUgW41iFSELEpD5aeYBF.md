@@ -4,7 +4,7 @@ id: p_D5aUgW41iFSELEpD5aeYBF
 status: active
 merged_into: null
 display_name: 王松
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_rZ39IXIaD5WHsvXzjaZG_f
+        subject_person_id: p_D5aUgW41iFSELEpD5aeYBF
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_nwL2xVd75q361KsBtDP6KW
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_g0OsEE7SS-x1BbksZrLgub
+          claim_id: c_rZ39IXIaD5WHsvXzjaZG_f
+          source_id: s_dzuSWy337YD48yHbbTiwsv
+          stance: supports
+          locator: 萬曆三十八年庚戌科序齒錄:一卷，第三甲第二百十五名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_nwL2xVd75q361KsBtDP6KW
+        status: active
+        display_name: 王念祖
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_nwL2xVd75q361KsBtDP6KW | 王念祖 | accepted |
 
 ## 外部来源
 

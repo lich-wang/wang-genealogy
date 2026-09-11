@@ -4,7 +4,7 @@ id: p_D7d4NRSbDa42wt9zYGD7Et
 status: active
 merged_into: null
 display_name: 王元之
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_5xDYS_0aXHmH_Eqxs9r7wy
+        subject_person_id: p_CNQq29PPARqLQdyYsUrpxT
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_D7d4NRSbDa42wt9zYGD7Et
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hzfW5pxkRXfaQW8i2z3TGO
+          claim_id: c_5xDYS_0aXHmH_Eqxs9r7wy
+          source_id: s_CCnQhdUEGq75V5XWWj9TxH
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，北宋卷226 王辯墓志：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_CNQq29PPARqLQdyYsUrpxT
+        status: active
+        display_name: 王辯
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -126,6 +152,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_CNQq29PPARqLQdyYsUrpxT | 王辯 | accepted |
 
 ## 外部来源
 

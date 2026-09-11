@@ -4,7 +4,7 @@ id: p_cpcA9aLvMeiR4mNGZSRAt9
 status: active
 merged_into: null
 display_name: 王稻孫
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_87YKYtEnP-BB6uUAaHRP-v
+        subject_person_id: p_nwCMi4iZGr3qyJpkQ9CEtf
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_cpcA9aLvMeiR4mNGZSRAt9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OZK2eAW4O2Fy1jeNOdzlNp
+          claim_id: c_87YKYtEnP-BB6uUAaHRP-v
+          source_id: s_eQ4MMxL2xapPhR5fX5YPcG
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13164：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_nwCMi4iZGr3qyJpkQ9CEtf
+        status: active
+        display_name: 王澍
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_nwCMi4iZGr3qyJpkQ9CEtf | 王澍 | accepted |
 
 ## 外部来源
 

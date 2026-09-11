@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王元季
 cbdb_id: 150803
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -87,7 +87,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_O2qxOjW_q0feGPVbq_G1y0
+        subject_person_id: p_M4YBTQCHyro2Kzp6DGJmjw
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_DF5f3BpuwMwBFDLpFCT3zQ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3w_-yTAVPB7zXHewAUbTYe
+          claim_id: c_O2qxOjW_q0feGPVbq_G1y0
+          source_id: s_Kwyn6u7TFdyJrjcAhH7MB6
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Kwyn6u7TFdyJrjcAhH7MB6
+            source_type: api_record
+            title: 中国历代人物传记资料库：王有方（CBDB 150804）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=150804&o=json
+            external_identifier: CBDB:150804
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.820Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_DF5f3BpuwMwBFDLpFCT3zQ
+        status: active
+        display_name: 王有方
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_DF5f3BpuwMwBFDLpFCT3zQ | 王有方 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王有方（CBDB 150804）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=150804&o=json)
 - [中国历代人物传记资料库：王元季（CBDB 150803）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=150803&o=json)

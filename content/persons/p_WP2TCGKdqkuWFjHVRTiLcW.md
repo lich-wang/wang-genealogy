@@ -4,7 +4,7 @@ id: p_WP2TCGKdqkuWFjHVRTiLcW
 status: active
 merged_into: null
 display_name: 王志堅
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_9qOlK6xAhFpkI5w8mgLxTM
+        subject_person_id: p_cUEh25oPwuAacU7D2hTAPV
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_WP2TCGKdqkuWFjHVRTiLcW
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_t0IkMd5nIfZJPnx5KuJxlL
+          claim_id: c_9qOlK6xAhFpkI5w8mgLxTM
+          source_id: s_kEUVXVMNSjJdG7sCHKLhxA
+          stance: supports
+          locator: 萬曆三十八年庚戌科序齒錄:一卷，第二甲第五十七名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_kEUVXVMNSjJdG7sCHKLhxA
+            source_type: api_record
+            title: 中国历代人物传记资料库：王臨亨（CBDB 126852）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126852&o=json
+            external_identifier: CBDB:126852
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.261Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_cUEh25oPwuAacU7D2hTAPV
+        status: active
+        display_name: 王臨亨
+        merged_into_person_id: null
   children:
     - claim:
         id: c__2ri04Y6waX5KUitke3vdd
@@ -204,6 +241,43 @@ relationships:
         status: active
         display_name: 王傚
         merged_into_person_id: null
+    - claim:
+        id: c_2Bhp2g2yVLMP2fKP50UTDW
+        subject_person_id: p_WP2TCGKdqkuWFjHVRTiLcW
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_d5tZbmB7Uvgn31uVyUP59b
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_oKoCH7lw4SGaSJPZRxRhrW
+          claim_id: c_2Bhp2g2yVLMP2fKP50UTDW
+          source_id: s_AviVNRV3BBMB7eksH4gFjw
+          stance: supports
+          locator: 萬曆三十八年庚戌科序齒錄:一卷，第二甲第五十七名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_AviVNRV3BBMB7eksH4gFjw
+            source_type: api_record
+            title: 中国历代人物传记资料库：王偕（CBDB 235166）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235166&o=json
+            external_identifier: CBDB:235166
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.754Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_d5tZbmB7Uvgn31uVyUP59b
+        status: active
+        display_name: 王偕
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -266,13 +340,17 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_cUEh25oPwuAacU7D2hTAPV | 王臨亨 | accepted |
 | children | p_3DFKdwT8J87L9D41FmCZHV | 王伸 | accepted |
 | children | p_bJeeCisqsDvKkX7VGzVKyc | 王傚 | accepted |
+| children | p_d5tZbmB7Uvgn31uVyUP59b | 王偕 | accepted |
 | ancestors | p_4JGDXd2PVCbJXStDWXhdLE | 王三錫 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王臨亨（CBDB 126852）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126852&o=json)
 - [中国历代人物传记资料库：王三錫（CBDB 235147）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235147&o=json)
 - [中国历代人物传记资料库：王伸（CBDB 235164）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235164&o=json)
 - [中国历代人物传记资料库：王傚（CBDB 235167）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235167&o=json)
+- [中国历代人物传记资料库：王偕（CBDB 235166）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235166&o=json)
 - [中国历代人物传记资料库：王志堅（CBDB 126537）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126537&o=json)

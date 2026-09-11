@@ -4,7 +4,7 @@ id: p_cPYX8RobAKWa2Dxnipi19F
 status: active
 merged_into: null
 display_name: 王浩
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_M8hf5x2AYUWg_XLAs6i9UY
+        subject_person_id: p_cPYX8RobAKWa2Dxnipi19F
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_WfV9B4ZNGa1u8RHNsdFJs6
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0tBbg4lemD69bbIIIHb4Vf
+          claim_id: c_M8hf5x2AYUWg_XLAs6i9UY
+          source_id: s_8eSavieiyWFQaVwwsaqK2J
+          stance: supports
+          locator: 弘治三年進士登科錄:一卷，第二甲第十名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_WfV9B4ZNGa1u8RHNsdFJs6
+        status: active
+        display_name: 王瑩
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_WfV9B4ZNGa1u8RHNsdFJs6 | 王瑩 | accepted |
 
 ## 外部来源
 

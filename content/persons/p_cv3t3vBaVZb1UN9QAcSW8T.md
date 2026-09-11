@@ -4,7 +4,7 @@ id: p_cv3t3vBaVZb1UN9QAcSW8T
 status: active
 merged_into: null
 display_name: 王坊
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_SwS2-vbwcXhvYtWxLvqsSR
+        subject_person_id: p_cv3t3vBaVZb1UN9QAcSW8T
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_QHF2r1EZsyqAF5yBfVXCYR
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9mPwZZ-KBtp8E4Jj1Yv_Yn
+          claim_id: c_SwS2-vbwcXhvYtWxLvqsSR
+          source_id: s_K9R7w9Zaa1VT4q5BPKAi1C
+          stance: supports
+          locator: 萬曆五年進士登科錄:一卷，第三甲第二十二名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_QHF2r1EZsyqAF5yBfVXCYR
+        status: active
+        display_name: 王鍵
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_QHF2r1EZsyqAF5yBfVXCYR | 王鍵 | accepted |
 
 ## 外部来源
 

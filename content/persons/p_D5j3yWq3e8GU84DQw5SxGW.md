@@ -4,7 +4,7 @@ id: p_D5j3yWq3e8GU84DQw5SxGW
 status: active
 merged_into: null
 display_name: 王有慶
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_5NYEME1PrS--dwQmddSEoR
+        subject_person_id: p_ZR8Da315QkM4RAzgHysMFz
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_D5j3yWq3e8GU84DQw5SxGW
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_EqBrqt8D34GtYY3cDt-Cxh
+          claim_id: c_5NYEME1PrS--dwQmddSEoR
+          source_id: s_j3oejmwbUYxDX8YbqxTsrd
+          stance: supports
+          locator: "元和唯亭志: 二十卷，lgid=179066：父"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_ZR8Da315QkM4RAzgHysMFz
+        status: active
+        display_name: 王仁
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_ZR8Da315QkM4RAzgHysMFz | 王仁 | accepted |
 
 ## 外部来源
 

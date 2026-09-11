@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王守充
 cbdb_id: 204079
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -129,7 +129,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_CmB5atj_MgpTL_6k89qnYH
+        subject_person_id: p_den6Qb7fcU9dqdvbGrfnab
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Pf6TEXjGfNj869D16z8ZuG
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ibMPJMei3V05BGMh6rBAkZ
+          claim_id: c_CmB5atj_MgpTL_6k89qnYH
+          source_id: s_L3nVgXwwtRNfMECV2219FW
+          stance: supports
+          locator: 嘉靖二十九年進士登科錄:一卷，第三甲第一百四十三名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_L3nVgXwwtRNfMECV2219FW
+            source_type: api_record
+            title: 中国历代人物传记资料库：王密（CBDB 314096）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314096&o=json
+            external_identifier: CBDB:314096
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.920Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_den6Qb7fcU9dqdvbGrfnab
+        status: active
+        display_name: 王密
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_den6Qb7fcU9dqdvbGrfnab | 王密 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王密（CBDB 314096）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314096&o=json)
 - [中国历代人物传记资料库：王守充（CBDB 204079）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204079&o=json)

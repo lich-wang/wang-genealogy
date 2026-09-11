@@ -4,7 +4,7 @@ id: p_cQq1LyruU9xa7MkCKy9rQ3
 status: active
 merged_into: null
 display_name: 王嶽
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_BDC364T3DQiPpWQbiFssyW
+        subject_person_id: p_hkkZy7J5ztQnL3t6fCHvcP
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_cQq1LyruU9xa7MkCKy9rQ3
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_RhXEAWNQDw7DbX4ChZtyvC
+          claim_id: c_BDC364T3DQiPpWQbiFssyW
+          source_id: s_dnGcX27WSqLJQi9Wfz8Gdu
+          stance: supports
+          locator: 成化十一年進士登科錄:一卷，第二甲第四十五名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_hkkZy7J5ztQnL3t6fCHvcP
+        status: active
+        display_name: 王崇志
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_if5Azo019u7X9bwJbfDv2J
+        subject_person_id: p_YyT6AeK4EyXH1THz1a4YvT
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_cQq1LyruU9xa7MkCKy9rQ3
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QoizptRK-SuglyPJdJiwPb
+          claim_id: c_if5Azo019u7X9bwJbfDv2J
+          source_id: s_dnGcX27WSqLJQi9Wfz8Gdu
+          stance: supports
+          locator: 成化十一年進士登科錄:一卷，第二甲第四十五名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_YyT6AeK4EyXH1THz1a4YvT
+        status: active
+        display_name: 王茂春
+        merged_into_person_id: null
+    - claim:
+        id: c_4OfHDYuklvJsrVqcQvPA5o
+        subject_person_id: p_TdtTDBShmb1aCgpxE3qjM3
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_cQq1LyruU9xa7MkCKy9rQ3
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_UrLLz3mUrwA_TRiLbV52iY
+          claim_id: c_4OfHDYuklvJsrVqcQvPA5o
+          source_id: s_dnGcX27WSqLJQi9Wfz8Gdu
+          stance: supports
+          locator: 成化十一年進士登科錄:一卷，第二甲第四十五名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_TdtTDBShmb1aCgpxE3qjM3
+        status: active
+        display_name: 王資善
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_hkkZy7J5ztQnL3t6fCHvcP | 王崇志 | accepted |
+| ancestors | p_YyT6AeK4EyXH1THz1a4YvT | 王茂春 | accepted |
+| ancestors | p_TdtTDBShmb1aCgpxE3qjM3 | 王資善 | accepted |
 
 ## 外部来源
 

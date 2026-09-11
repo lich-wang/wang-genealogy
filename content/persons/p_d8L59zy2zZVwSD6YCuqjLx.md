@@ -4,7 +4,7 @@ id: p_d8L59zy2zZVwSD6YCuqjLx
 status: active
 merged_into: null
 display_name: 王弘仁
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -101,7 +101,59 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_iM6n-jUgQSXFcKaRr9MWN9
+        subject_person_id: p_d8L59zy2zZVwSD6YCuqjLx
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Se1QH4S9v7s992yvC8Vhx3
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OdI7QbBl1k7dZqs7cR0AGe
+          claim_id: c_iM6n-jUgQSXFcKaRr9MWN9
+          source_id: s_bM7JM4o4DuJX466VYuwPpY
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Se1QH4S9v7s992yvC8Vhx3
+        status: active
+        display_name: 王方誕
+        merged_into_person_id: null
+    - claim:
+        id: c_Dp6CQhOiX7CJGcRS1umfM0
+        subject_person_id: p_d8L59zy2zZVwSD6YCuqjLx
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_xH9NUgGy7R8bN547iD5Ed9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_EEufaf-2ORujB3sswNTPs-
+          claim_id: c_Dp6CQhOiX7CJGcRS1umfM0
+          source_id: s_bM7JM4o4DuJX466VYuwPpY
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_xH9NUgGy7R8bN547iD5Ed9
+        status: active
+        display_name: 王方寔
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,6 +178,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_Se1QH4S9v7s992yvC8Vhx3 | 王方誕 | accepted |
+| children | p_xH9NUgGy7R8bN547iD5Ed9 | 王方寔 | accepted |
 
 ## 外部来源
 

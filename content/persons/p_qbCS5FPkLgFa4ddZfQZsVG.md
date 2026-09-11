@@ -4,7 +4,7 @@ id: p_qbCS5FPkLgFa4ddZfQZsVG
 status: active
 merged_into: null
 display_name: 王孟常
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_E84yk5oOv21CsnTpYDp0p_
+        subject_person_id: p_qbCS5FPkLgFa4ddZfQZsVG
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_CLVogrJsobqnPvkSGHQ8V4
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kQ3vS2RBlRQgta0HT9x_xZ
+          claim_id: c_E84yk5oOv21CsnTpYDp0p_
+          source_id: s_BPFKQVE7voYxhrah4SdQpz
+          stance: supports
+          locator: 嘉靖二十六年進士登科錄:一卷，第三甲第二十五名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_BPFKQVE7voYxhrah4SdQpz
+            source_type: api_record
+            title: 中国历代人物传记资料库：王尚禮（CBDB 203768）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203768&o=json
+            external_identifier: CBDB:203768
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.799Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_CLVogrJsobqnPvkSGHQ8V4
+        status: active
+        display_name: 王尚禮
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_CLVogrJsobqnPvkSGHQ8V4 | 王尚禮 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王孟常（CBDB 309758）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309758&o=json)
+- [中国历代人物传记资料库：王尚禮（CBDB 203768）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203768&o=json)

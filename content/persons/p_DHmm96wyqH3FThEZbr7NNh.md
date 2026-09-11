@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王應顯
 cbdb_id: 204039
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -172,6 +172,43 @@ relationships:
         status: active
         display_name: 王亨
         merged_into_person_id: null
+    - claim:
+        id: c_7ie36LY7luo-o4FKTz74zw
+        subject_person_id: p_DkQMvzrrjMDQb18zwSbimb
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_DHmm96wyqH3FThEZbr7NNh
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pKP-ZFPllPSYyZqN8Q7pJh
+          claim_id: c_7ie36LY7luo-o4FKTz74zw
+          source_id: s_C6PjfengbT4LCL5k2KCigL
+          stance: supports
+          locator: 嘉靖二十九年進士登科錄:一卷，第三甲第九十五名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_C6PjfengbT4LCL5k2KCigL
+            source_type: api_record
+            title: 中国历代人物传记资料库：王希德（CBDB 313619）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313619&o=json
+            external_identifier: CBDB:313619
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.914Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_DkQMvzrrjMDQb18zwSbimb
+        status: active
+        display_name: 王希德
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -193,8 +230,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_A6GtM7UJhYUAHaRvVmsNu6 | 王亨 | accepted |
+| ancestors | p_DkQMvzrrjMDQb18zwSbimb | 王希德 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王亨（CBDB 313620）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313620&o=json)
+- [中国历代人物传记资料库：王希德（CBDB 313619）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313619&o=json)
 - [中国历代人物传记资料库：王應顯（CBDB 204039）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204039&o=json)

@@ -4,7 +4,7 @@ id: p_DK5AcYsHo4a4UEPGMYMHvX
 status: active
 merged_into: null
 display_name: 王伯亮
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_9uUYlLo2nZPN7-VV7k7LsU
+        subject_person_id: p_DK5AcYsHo4a4UEPGMYMHvX
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_uaXHUJQTrq6NTpF4JRJ1k7
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fnY3spymtRSd0nBSDpPvoJ
+          claim_id: c_9uUYlLo2nZPN7-VV7k7LsU
+          source_id: s_5fPwfQAT6j2J8AAcSmb3aZ
+          stance: supports
+          locator: 平陰縣志，lgid=630836：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_uaXHUJQTrq6NTpF4JRJ1k7
+        status: active
+        display_name: 王福延
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_uaXHUJQTrq6NTpF4JRJ1k7 | 王福延 | accepted |
 
 ## 外部来源
 

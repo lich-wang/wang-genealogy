@@ -4,7 +4,7 @@ id: p_ntpLcPKNCQwT9YMyz5R3QJ
 status: active
 merged_into: null
 display_name: 王彥達
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_AZJ6Od8S739Np4Te5yuIsg
+        subject_person_id: p_Cvvc7XT37ucERE2Ge85zgz
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ntpLcPKNCQwT9YMyz5R3QJ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PsUXG_CSpF0lOOdcx2R7JV
+          claim_id: c_AZJ6Od8S739Np4Te5yuIsg
+          source_id: s_Hp1ak12sSQsiKzSY54voHR
+          stance: supports
+          locator: 紹興府志:八十卷，lgid=316468：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Hp1ak12sSQsiKzSY54voHR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王綱（CBDB 67770）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67770&o=json
+            external_identifier: CBDB:67770
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:13.016Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Cvvc7XT37ucERE2Ge85zgz
+        status: active
+        display_name: 王綱
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Cvvc7XT37ucERE2Ge85zgz | 王綱 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王綱（CBDB 67770）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67770&o=json)
 - [中国历代人物传记资料库：王彥達（CBDB 67775）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67775&o=json)

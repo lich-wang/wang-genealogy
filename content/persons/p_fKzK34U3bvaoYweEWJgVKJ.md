@@ -4,7 +4,7 @@ id: p_fKzK34U3bvaoYweEWJgVKJ
 status: active
 merged_into: null
 display_name: 王琚
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -105,7 +105,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_yd-gWQWVT5JSutHLKHcRVZ
+        subject_person_id: p_DKHnMPfXNx3PzrBPeCXQnA
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_fKzK34U3bvaoYweEWJgVKJ
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_x3akTynKTmeS-BELUwDU_7
+          claim_id: c_yd-gWQWVT5JSutHLKHcRVZ
+          source_id: s_Awyon3BuuSfDu9cMJ5NiBU
+          stance: supports
+          locator: 成化二十三年進士登科錄:一卷，第三甲第二百一十八名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Awyon3BuuSfDu9cMJ5NiBU
+            source_type: api_record
+            title: 中国历代人物传记资料库：王震隆（CBDB 260709）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260709&o=json
+            external_identifier: CBDB:260709
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.531Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_DKHnMPfXNx3PzrBPeCXQnA
+        status: active
+        display_name: 王震隆
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_DKHnMPfXNx3PzrBPeCXQnA | 王震隆 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王琚（CBDB 200633）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200633&o=json)
+- [中国历代人物传记资料库：王震隆（CBDB 260709）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260709&o=json)

@@ -4,7 +4,7 @@ id: p_n18iFte87Ls38E8g6NHVog
 status: active
 merged_into: null
 display_name: 王延德
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -245,6 +245,43 @@ relationships:
         status: active
         display_name: 王璋
         merged_into_person_id: null
+    - claim:
+        id: c_aU5CHhGP3a0Tvcyv3xOmRH
+        subject_person_id: p_D7vc16ZCnBApa7DLYpzhzq
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_n18iFte87Ls38E8g6NHVog
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OM9d-xkm8s0_ItgXOZOHzL
+          claim_id: c_aU5CHhGP3a0Tvcyv3xOmRH
+          source_id: s_R65cHsL7kKwHqM3tUu5xZF
+          stance: supports
+          locator: 宋史：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_R65cHsL7kKwHqM3tUu5xZF
+            source_type: api_record
+            title: 中国历代人物传记资料库：王芝（CBDB 121459）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=121459&o=json
+            external_identifier: CBDB:121459
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:14.914Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_D7vc16ZCnBApa7DLYpzhzq
+        status: active
+        display_name: 王芝
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -269,6 +306,7 @@ relationships:
 | parents | p_5KXqnGcUb8SEM8grnPHtW7 | 王溫 | accepted |
 | children | p_1w4qc4tD5umhv2Nv4ed24E | 王應昌 | accepted |
 | ancestors | p_22p4KGDghvo8rsfY2RMJjr | 王璋 | accepted |
+| ancestors | p_D7vc16ZCnBApa7DLYpzhzq | 王芝 | accepted |
 
 ## 外部来源
 
@@ -276,3 +314,4 @@ relationships:
 - [中国历代人物传记资料库：王延德（CBDB 39400）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=39400&o=json)
 - [中国历代人物传记资料库：王應昌（CBDB 38349）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38349&o=json)
 - [中国历代人物传记资料库：王璋（CBDB 121461）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=121461&o=json)
+- [中国历代人物传记资料库：王芝（CBDB 121459）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=121459&o=json)

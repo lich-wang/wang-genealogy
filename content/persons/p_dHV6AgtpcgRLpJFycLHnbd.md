@@ -4,7 +4,7 @@ id: p_dHV6AgtpcgRLpJFycLHnbd
 status: active
 merged_into: null
 display_name: 王信
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,12 +72,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_pB__r2kpggkzHomtmlZb8O
+        subject_person_id: p_WxESaqfXoRne3LVPqRgpV4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_dHV6AgtpcgRLpJFycLHnbd
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_CFzD8E9X8yyonwDE5ZGi4v
+          claim_id: c_pB__r2kpggkzHomtmlZb8O
+          source_id: s_BrL8FgKbWmjfM3JrsFKFu6
+          stance: supports
+          locator: 正統四年進士登科錄:一卷，第三甲第五十九名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_WxESaqfXoRne3LVPqRgpV4
+        status: active
+        display_name: 王珪
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_LEEGxq-R4sL1Gr27HTStcE
+        subject_person_id: p_4A1ftN3jcTq1MaGNMSCbVY
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_dHV6AgtpcgRLpJFycLHnbd
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_iLKX51_I62Tnx8Pkhg-WHI
+          claim_id: c_LEEGxq-R4sL1Gr27HTStcE
+          source_id: s_BrL8FgKbWmjfM3JrsFKFu6
+          stance: supports
+          locator: 正統四年進士登科錄:一卷，第三甲第五十九名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_4A1ftN3jcTq1MaGNMSCbVY
+        status: active
+        display_name: 王善興
+        merged_into_person_id: null
+    - claim:
+        id: c_PMyjOhQcuUXtL5-sta_DCb
+        subject_person_id: p_1a5DvSKyHZPpss3j5aDdef
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_dHV6AgtpcgRLpJFycLHnbd
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1Q9O4dlR0BdLyP8L9sqlPg
+          claim_id: c_PMyjOhQcuUXtL5-sta_DCb
+          source_id: s_BrL8FgKbWmjfM3JrsFKFu6
+          stance: supports
+          locator: 正統四年進士登科錄:一卷，第三甲第五十九名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_1a5DvSKyHZPpss3j5aDdef
+        status: active
+        display_name: 王達志
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +175,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_WxESaqfXoRne3LVPqRgpV4 | 王珪 | accepted |
+| ancestors | p_4A1ftN3jcTq1MaGNMSCbVY | 王善興 | accepted |
+| ancestors | p_1a5DvSKyHZPpss3j5aDdef | 王達志 | accepted |
 
 ## 外部来源
 

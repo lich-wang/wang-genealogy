@@ -4,7 +4,7 @@ id: p_d1Lyrtyu4j3AM9Goy6dTcT
 status: active
 merged_into: null
 display_name: 王祺
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_qrtohWFOxoX7rJK676G6yT
+        subject_person_id: p_d1Lyrtyu4j3AM9Goy6dTcT
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_AFdJ7pAjfwQ6cMiK8RCDT2
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZWV6gL7TRNqz-LlUMHgHWF
+          claim_id: c_qrtohWFOxoX7rJK676G6yT
+          source_id: s_R3uro5zQCDofqK8ozEYEYL
+          stance: supports
+          locator: 萬曆二十年壬辰科進士歷履便覽:一卷，第三甲第一百八十一名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_AFdJ7pAjfwQ6cMiK8RCDT2
+        status: active
+        display_name: 王在晉
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_AFdJ7pAjfwQ6cMiK8RCDT2 | 王在晉 | accepted |
 
 ## 外部来源
 

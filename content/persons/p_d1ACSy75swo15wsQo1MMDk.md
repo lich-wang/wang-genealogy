@@ -4,7 +4,7 @@ id: p_d1ACSy75swo15wsQo1MMDk
 status: active
 merged_into: null
 display_name: 王瑛
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_ovicO8iZD9eTybpjP-6cnf
+        subject_person_id: p_d1ACSy75swo15wsQo1MMDk
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_ofDNL1hsFt1v6GYpjecDnr
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_symEbET7Z2xMj0CfJGugB6
+          claim_id: c_ovicO8iZD9eTybpjP-6cnf
+          source_id: s_8JsDXf7t9KLUkms8KbLaDw
+          stance: supports
+          locator: 弘治十八年進士登科錄:一卷，第三甲第七十六名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_ofDNL1hsFt1v6GYpjecDnr
+        status: active
+        display_name: 王億
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_ofDNL1hsFt1v6GYpjecDnr | 王億 | accepted |
 
 ## 外部来源
 

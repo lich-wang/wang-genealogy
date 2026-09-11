@@ -4,7 +4,7 @@ id: p_4GbPExDFna3bpZBzyQEK5D
 status: active
 merged_into: null
 display_name: 王崇古
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -209,6 +209,43 @@ relationships:
         status: active
         display_name: 王之禎
         merged_into_person_id: null
+    - claim:
+        id: c_CfiUGyoELnoUSFdYnr1RL5
+        subject_person_id: p_4GbPExDFna3bpZBzyQEK5D
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_dfv7c6RbwBEAB3F1H21BXL
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_yzewPx7rzOs0Kp7QmG7R1J
+          claim_id: c_CfiUGyoELnoUSFdYnr1RL5
+          source_id: s_CQ429q9NH3ibtzE9HU7xrF
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），14977：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_CQ429q9NH3ibtzE9HU7xrF
+            source_type: api_record
+            title: 中国历代人物传记资料库：王隺孫（CBDB 529291）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=529291&o=json
+            external_identifier: CBDB:529291
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.352Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_dfv7c6RbwBEAB3F1H21BXL
+        status: active
+        display_name: 王隺孫
+        merged_into_person_id: null
   other: []
 ---
 
@@ -231,9 +268,11 @@ relationships:
 | --- | --- | --- | --- |
 | descendants | p_6Fd9RZJkiLMNbHMJLar9HR | 王之模 | accepted |
 | descendants | p_BBf4BFLNNhaDseWeW653WQ | 王之禎 | accepted |
+| descendants | p_dfv7c6RbwBEAB3F1H21BXL | 王隺孫 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王崇古（CBDB 124981）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=124981&o=json)
+- [中国历代人物传记资料库：王隺孫（CBDB 529291）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=529291&o=json)
 - [中国历代人物传记资料库：王之模（CBDB 529289）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=529289&o=json)
 - [中国历代人物传记资料库：王之禎（CBDB 529288）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=529288&o=json)

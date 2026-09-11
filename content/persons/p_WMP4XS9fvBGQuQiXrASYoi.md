@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王自學
 cbdb_id: 513457
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -87,7 +87,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_am7osKu98nc-9K8pVGrfIp
+        subject_person_id: p_WMP4XS9fvBGQuQiXrASYoi
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_D1oRy3FpbJwUenUuqrZ9nE
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_P9PdX52vlCipfeePOJbL_O
+          claim_id: c_am7osKu98nc-9K8pVGrfIp
+          source_id: s_DAEG5Mu1SiFG1Dff3F4t6P
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），31：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_DAEG5Mu1SiFG1Dff3F4t6P
+            source_type: api_record
+            title: 中国历代人物传记资料库：王永吉（CBDB 56840）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=56840&o=json
+            external_identifier: CBDB:56840
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.764Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_D1oRy3FpbJwUenUuqrZ9nE
+        status: active
+        display_name: 王永吉
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_D1oRy3FpbJwUenUuqrZ9nE | 王永吉 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王永吉（CBDB 56840）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=56840&o=json)
 - [中国历代人物传记资料库：王自學（CBDB 513457）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=513457&o=json)

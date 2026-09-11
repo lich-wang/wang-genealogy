@@ -4,7 +4,7 @@ id: p_dHK6S2CF83o7bsW1omDPPe
 status: active
 merged_into: null
 display_name: 王裕
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,8 +128,164 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_5zGXQzbiuaiHv2sVj2FCOp
+        subject_person_id: p_SsZbQkb7Wa4KQYF6cCGrRS
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_dHK6S2CF83o7bsW1omDPPe
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VHezWYnomCXCLy3_Z9RPvJ
+          claim_id: c_5zGXQzbiuaiHv2sVj2FCOp
+          source_id: s_V2fSUyMizNfJqvRAfkJqCX
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_SsZbQkb7Wa4KQYF6cCGrRS
+        status: active
+        display_name: 王鶚
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_e0nXWj-8n9QGRUd00m5JeJ
+        subject_person_id: p_dHK6S2CF83o7bsW1omDPPe
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Hzz6KzscgmvqPMpZAvTcQ5
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MKskgAc6gwYJFQbvK1c5fK
+          claim_id: c_e0nXWj-8n9QGRUd00m5JeJ
+          source_id: s_V2fSUyMizNfJqvRAfkJqCX
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Hzz6KzscgmvqPMpZAvTcQ5
+        status: active
+        display_name: 王瓚
+        merged_into_person_id: null
+    - claim:
+        id: c_xgccfrF8Tw6SHE15Aygegr
+        subject_person_id: p_dHK6S2CF83o7bsW1omDPPe
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_T4LyRWguJPui2H99daWE8V
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Y34UlBzbsgDRQVi1KkLWL-
+          claim_id: c_xgccfrF8Tw6SHE15Aygegr
+          source_id: s_V2fSUyMizNfJqvRAfkJqCX
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_T4LyRWguJPui2H99daWE8V
+        status: active
+        display_name: 王珌
+        merged_into_person_id: null
+    - claim:
+        id: c_f_L7zREsk1bt9Z2cf851CG
+        subject_person_id: p_dHK6S2CF83o7bsW1omDPPe
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_XufJz3qL8LyBX7u4FWrpVG
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2-PvaPFvv6gC5WZbsaywC3
+          claim_id: c_f_L7zREsk1bt9Z2cf851CG
+          source_id: s_V2fSUyMizNfJqvRAfkJqCX
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_XufJz3qL8LyBX7u4FWrpVG
+        status: active
+        display_name: 王琢
+        merged_into_person_id: null
+    - claim:
+        id: c_Sfjbd2PEDK3VGccsD830I_
+        subject_person_id: p_dHK6S2CF83o7bsW1omDPPe
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_x9X33wbqZ8w2XTFDwPrwxH
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mhwcYIa5EtIiwW5kf8k1h8
+          claim_id: c_Sfjbd2PEDK3VGccsD830I_
+          source_id: s_V2fSUyMizNfJqvRAfkJqCX
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_x9X33wbqZ8w2XTFDwPrwxH
+        status: active
+        display_name: 王珏
+        merged_into_person_id: null
+    - claim:
+        id: c_CC7GKgP73lkrf8tB0aPTBB
+        subject_person_id: p_dHK6S2CF83o7bsW1omDPPe
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_mrndGt8zY6Z1s4y6JbAuY2
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BYMK4ORaR4AzBjVmse1Dur
+          claim_id: c_CC7GKgP73lkrf8tB0aPTBB
+          source_id: s_V2fSUyMizNfJqvRAfkJqCX
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_mrndGt8zY6Z1s4y6JbAuY2
+        status: active
+        display_name: 王玉
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +311,12 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_SsZbQkb7Wa4KQYF6cCGrRS | 王鶚 | accepted |
+| children | p_Hzz6KzscgmvqPMpZAvTcQ5 | 王瓚 | accepted |
+| children | p_T4LyRWguJPui2H99daWE8V | 王珌 | accepted |
+| children | p_XufJz3qL8LyBX7u4FWrpVG | 王琢 | accepted |
+| children | p_x9X33wbqZ8w2XTFDwPrwxH | 王珏 | accepted |
+| children | p_mrndGt8zY6Z1s4y6JbAuY2 | 王玉 | accepted |
 
 ## 外部来源
 

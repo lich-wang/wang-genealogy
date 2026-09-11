@@ -4,7 +4,7 @@ id: p_T2JshioRPfxgoYHCxfDYxt
 status: active
 merged_into: null
 display_name: 王守忠
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_L-lE43duIFewLDEXCegzqn
+        subject_person_id: p_d3rRMY3j92nB8V1GyfMiLc
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_T2JshioRPfxgoYHCxfDYxt
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7AFniuGNveJkLtIPAGgRyo
+          claim_id: c_L-lE43duIFewLDEXCegzqn
+          source_id: s_Lz1aJbKkYc62PVeN7aXUjx
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Lz1aJbKkYc62PVeN7aXUjx
+            source_type: api_record
+            title: 中国历代人物传记资料库：王同人（CBDB 175747）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175747&o=json
+            external_identifier: CBDB:175747
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.096Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_d3rRMY3j92nB8V1GyfMiLc
+        status: active
+        display_name: 王同人
+        merged_into_person_id: null
   children:
     - claim:
         id: c_hWlbRY8jKkwukua4nJHtvb
@@ -163,9 +200,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_d3rRMY3j92nB8V1GyfMiLc | 王同人 | accepted |
 | children | p_46vuDp5qDdtqpcJ6ZkX8YK | 王思訥 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王守忠（CBDB 175748）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175748&o=json)
 - [中国历代人物传记资料库：王思訥（CBDB 175750）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175750&o=json)
+- [中国历代人物传记资料库：王同人（CBDB 175747）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175747&o=json)

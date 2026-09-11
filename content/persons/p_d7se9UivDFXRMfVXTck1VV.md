@@ -4,7 +4,7 @@ id: p_d7se9UivDFXRMfVXTck1VV
 status: active
 merged_into: null
 display_name: 王今伯
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_rdVUGm--wi0bedOxQ8Gm4p
+        subject_person_id: p_uTkvzk6QHh8QoakbQmViKF
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_d7se9UivDFXRMfVXTck1VV
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lWzXkpKHdELGZEUFlQkLwW
+          claim_id: c_rdVUGm--wi0bedOxQ8Gm4p
+          source_id: s_F28UihzCfhYnWH1QBp29iu
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_uTkvzk6QHh8QoakbQmViKF
+        status: active
+        display_name: 王仙期
+        merged_into_person_id: null
   children:
     - claim:
         id: c_2IkXXkjyHMZBik4URNl4uX
@@ -163,6 +189,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_uTkvzk6QHh8QoakbQmViKF | 王仙期 | accepted |
 | children | p_ByByjCwT9Wgwc6nJLBGiit | 王臧 | accepted |
 
 ## 外部来源

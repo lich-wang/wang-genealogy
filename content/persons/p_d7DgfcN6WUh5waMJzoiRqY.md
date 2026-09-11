@@ -4,7 +4,7 @@ id: p_d7DgfcN6WUh5waMJzoiRqY
 status: active
 merged_into: null
 display_name: 王錫纓
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -111,6 +111,32 @@ relationships:
         status: active
         display_name: 王汝勸
         merged_into_person_id: null
+    - claim:
+        id: c_erdpcn-MFIXQiBAcjKWQ-L
+        subject_person_id: p_d7DgfcN6WUh5waMJzoiRqY
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ZxEfP8kkXYYCFogmu3wNiS
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_obDNG-uyGKaDM1O_1g-WZ2
+          claim_id: c_erdpcn-MFIXQiBAcjKWQ-L
+          source_id: s_E4cRLsFfz2E9BksBG6QYpy
+          stance: supports
+          locator: (道光)徽州府志:十六卷卷首一卷，lgid=1160616：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_ZxEfP8kkXYYCFogmu3wNiS
+        status: active
+        display_name: 王汝效
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,6 +161,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_B5zWJHByDHZ7tmLj57KLy6 | 王汝勸 | accepted |
+| children | p_ZxEfP8kkXYYCFogmu3wNiS | 王汝效 | accepted |
 
 ## 外部来源
 

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王聮
 cbdb_id: 202677
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -171,7 +171,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_jo5xVokZqtfG8i9NWkYXem
+        subject_person_id: p_CXeTaA9iXLyiczUa3nfGgx
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_HE5e4JMgdzoDwzM6FykZUf
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hVoeXVGFzMCz2_9YZbehyx
+          claim_id: c_jo5xVokZqtfG8i9NWkYXem
+          source_id: s_MKqN8AhMdtcmaPu1VA8D8R
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第三十三名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_MKqN8AhMdtcmaPu1VA8D8R
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瓉（CBDB 292230）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=292230&o=json
+            external_identifier: CBDB:292230
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.392Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_CXeTaA9iXLyiczUa3nfGgx
+        status: active
+        display_name: 王瓉
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -193,8 +230,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_45EiG84QQT2n3AHG97tGmn | 王良 | accepted |
+| ancestors | p_CXeTaA9iXLyiczUa3nfGgx | 王瓉 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王聮（CBDB 202677）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202677&o=json)
 - [中国历代人物传记资料库：王良（CBDB 292231）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=292231&o=json)
+- [中国历代人物传记资料库：王瓉（CBDB 292230）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=292230&o=json)

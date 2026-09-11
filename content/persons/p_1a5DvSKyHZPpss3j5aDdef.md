@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王達志
 cbdb_id: 237439
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -92,7 +92,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_PMyjOhQcuUXtL5-sta_DCb
+        subject_person_id: p_1a5DvSKyHZPpss3j5aDdef
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_dHV6AgtpcgRLpJFycLHnbd
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1Q9O4dlR0BdLyP8L9sqlPg
+          claim_id: c_PMyjOhQcuUXtL5-sta_DCb
+          source_id: s_BrL8FgKbWmjfM3JrsFKFu6
+          stance: supports
+          locator: 正統四年進士登科錄:一卷，第三甲第五十九名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_BrL8FgKbWmjfM3JrsFKFu6
+            source_type: api_record
+            title: 中国历代人物传记资料库：王信（CBDB 67212）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67212&o=json
+            external_identifier: CBDB:67212
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.978Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_dHV6AgtpcgRLpJFycLHnbd
+        status: active
+        display_name: 王信
+        merged_into_person_id: null
   other: []
 ---
 
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_dHV6AgtpcgRLpJFycLHnbd | 王信 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王達志（CBDB 237439）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237439&o=json)
+- [中国历代人物传记资料库：王信（CBDB 67212）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67212&o=json)

@@ -4,7 +4,7 @@ id: p_d52qyhT8bfhqUVWj5DVXR3
 status: active
 merged_into: null
 display_name: 王丹林
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_cgr8q2Jq40cyReTRTdQVp1
+        subject_person_id: p_d52qyhT8bfhqUVWj5DVXR3
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_KxFfNRE66F6ARrWit1GcZu
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AmkA2Rj7HZ0ny4rNx2T3nY
+          claim_id: c_cgr8q2Jq40cyReTRTdQVp1
+          source_id: s_JuZuKRm5m6e22SdugkxDaN
+          stance: supports
+          locator: 錢塘縣志，lgid=219775：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_KxFfNRE66F6ARrWit1GcZu
+        status: active
+        display_name: 王宸儁
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_KxFfNRE66F6ARrWit1GcZu | 王宸儁 | accepted |
 
 ## 外部来源
 

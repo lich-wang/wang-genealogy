@@ -4,7 +4,7 @@ id: p_CxY5QtqK8BuHWqQgSQqbEb
 status: active
 merged_into: null
 display_name: 王艮
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_SDgyAx0F-PB5AVrz7DdId8
+        subject_person_id: p_9yUsLx8gKe9km4PvyMBpGL
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_CxY5QtqK8BuHWqQgSQqbEb
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ljb8X86wJFxnm39AshbqcH
+          claim_id: c_SDgyAx0F-PB5AVrz7DdId8
+          source_id: s_N2gM7RZc4LBqAHUJjH3STW
+          stance: supports
+          locator: 建文二年殿試登科錄:一卷，第一甲第二名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_9yUsLx8gKe9km4PvyMBpGL
+        status: active
+        display_name: 王期尹
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_rBBpWT-WDq28VPkr7FhGdS
+        subject_person_id: p_b1fbyWJPGsq5Ne5d22xDP8
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_CxY5QtqK8BuHWqQgSQqbEb
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__R5AoeV8kQDKrQsOEY_Z9Q
+          claim_id: c_rBBpWT-WDq28VPkr7FhGdS
+          source_id: s_N2gM7RZc4LBqAHUJjH3STW
+          stance: supports
+          locator: 建文二年殿試登科錄:一卷，第一甲第二名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_b1fbyWJPGsq5Ne5d22xDP8
+        status: active
+        display_name: 王孟韓
+        merged_into_person_id: null
+    - claim:
+        id: c_b1UuNpP9OarKnyB5o5BE8u
+        subject_person_id: p_KxCAbnXdrix7b6U1czoUqg
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_CxY5QtqK8BuHWqQgSQqbEb
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1nERHWSp-0grG4tVJVX-uE
+          claim_id: c_b1UuNpP9OarKnyB5o5BE8u
+          source_id: s_N2gM7RZc4LBqAHUJjH3STW
+          stance: supports
+          locator: 建文二年殿試登科錄:一卷，第一甲第二名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_KxCAbnXdrix7b6U1czoUqg
+        status: active
+        display_name: 王與耕
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_9yUsLx8gKe9km4PvyMBpGL | 王期尹 | accepted |
+| ancestors | p_b1fbyWJPGsq5Ne5d22xDP8 | 王孟韓 | accepted |
+| ancestors | p_KxCAbnXdrix7b6U1czoUqg | 王與耕 | accepted |
 
 ## 外部来源
 

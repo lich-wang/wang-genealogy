@@ -4,7 +4,7 @@ id: p_Mm4Feno3TMRLDtespKCU2Q
 status: active
 merged_into: null
 display_name: 王翰臣
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -143,6 +143,43 @@ relationships:
         status: active
         display_name: 王原
         merged_into_person_id: null
+    - claim:
+        id: c_T10DmJOwEpQLIO7nmRPZ7v
+        subject_person_id: p_CjPAUgQ79UCV7hnFx1eT69
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Mm4Feno3TMRLDtespKCU2Q
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2UaeV0Vbs7hUzkf4Nw8V3_
+          claim_id: c_T10DmJOwEpQLIO7nmRPZ7v
+          source_id: s_Wh8xeRB4urrFxNMHJT5TR9
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第三甲第一百三十六名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Wh8xeRB4urrFxNMHJT5TR9
+            source_type: api_record
+            title: 中国历代人物传记资料库：王子明（CBDB 282039）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282039&o=json
+            external_identifier: CBDB:282039
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.076Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_CjPAUgQ79UCV7hnFx1eT69
+        status: active
+        display_name: 王子明
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_Bhhn1fMJ8jMbPoeht3Ss3K | 王原 | accepted |
+| ancestors | p_CjPAUgQ79UCV7hnFx1eT69 | 王子明 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王翰臣（CBDB 202016）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202016&o=json)
 - [中国历代人物传记资料库：王原（CBDB 282038）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282038&o=json)
+- [中国历代人物传记资料库：王子明（CBDB 282039）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282039&o=json)

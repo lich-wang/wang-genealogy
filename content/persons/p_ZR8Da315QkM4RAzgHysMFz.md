@@ -4,7 +4,7 @@ id: p_ZR8Da315QkM4RAzgHysMFz
 status: active
 merged_into: null
 display_name: 王仁
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_5NYEME1PrS--dwQmddSEoR
+        subject_person_id: p_ZR8Da315QkM4RAzgHysMFz
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_D5j3yWq3e8GU84DQw5SxGW
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_EqBrqt8D34GtYY3cDt-Cxh
+          claim_id: c_5NYEME1PrS--dwQmddSEoR
+          source_id: s_j3oejmwbUYxDX8YbqxTsrd
+          stance: supports
+          locator: "元和唯亭志: 二十卷，lgid=179066：父"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_j3oejmwbUYxDX8YbqxTsrd
+            source_type: api_record
+            title: 中国历代人物传记资料库：王有慶（CBDB 703012）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=703012&o=json
+            external_identifier: CBDB:703012
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:27.819Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_D5j3yWq3e8GU84DQw5SxGW
+        status: active
+        display_name: 王有慶
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_D5j3yWq3e8GU84DQw5SxGW | 王有慶 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王仁（CBDB 703013）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=703013&o=json)
+- [中国历代人物传记资料库：王有慶（CBDB 703012）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=703012&o=json)

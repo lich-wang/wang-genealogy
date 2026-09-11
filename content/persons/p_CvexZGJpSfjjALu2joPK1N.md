@@ -4,7 +4,7 @@ id: p_CvexZGJpSfjjALu2joPK1N
 status: active
 merged_into: null
 display_name: 王瑄
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,12 +72,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c__oyCQu0QcnbomUMzz6GJPD
+        subject_person_id: p_Ws6vwZFsXZUpBYjSrkcdGJ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_CvexZGJpSfjjALu2joPK1N
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KEh4RHPQAaFC5WzQy7Qebi
+          claim_id: c__oyCQu0QcnbomUMzz6GJPD
+          source_id: s_Yy8BuZ9UTECH2SA99gjmDH
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第三甲第一百八十名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Ws6vwZFsXZUpBYjSrkcdGJ
+        status: active
+        display_name: 王言
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_KPhzbc4oMSt1U3dMu0SpIA
+        subject_person_id: p_vTiLkryjy9ET11XHMxwRJR
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_CvexZGJpSfjjALu2joPK1N
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VhtjH4ybS-gaoINhR2jWck
+          claim_id: c_KPhzbc4oMSt1U3dMu0SpIA
+          source_id: s_Yy8BuZ9UTECH2SA99gjmDH
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第三甲第一百八十名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_vTiLkryjy9ET11XHMxwRJR
+        status: active
+        display_name: 王清宇
+        merged_into_person_id: null
+    - claim:
+        id: c_npQ5fPKhsEY49JShmR5iI9
+        subject_person_id: p_y6k5bbhVEm5GUb8nPt89ho
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_CvexZGJpSfjjALu2joPK1N
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kTHQr5KlKpOd70dsFCiw8k
+          claim_id: c_npQ5fPKhsEY49JShmR5iI9
+          source_id: s_Yy8BuZ9UTECH2SA99gjmDH
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第三甲第一百八十名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_y6k5bbhVEm5GUb8nPt89ho
+        status: active
+        display_name: 王同孝
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +175,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Ws6vwZFsXZUpBYjSrkcdGJ | 王言 | accepted |
+| ancestors | p_vTiLkryjy9ET11XHMxwRJR | 王清宇 | accepted |
+| ancestors | p_y6k5bbhVEm5GUb8nPt89ho | 王同孝 | accepted |
 
 ## 外部来源
 

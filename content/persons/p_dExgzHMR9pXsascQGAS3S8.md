@@ -4,7 +4,7 @@ id: p_dExgzHMR9pXsascQGAS3S8
 status: active
 merged_into: null
 display_name: 王景曜
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,8 +128,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_qSEUCp_sYoelsOoWcvsnGT
+        subject_person_id: p_qSBAn4LkCdEVnmE9AJKKUb
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_dExgzHMR9pXsascQGAS3S8
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_iJKB4R3dQWah6-yKDXKfnK
+          claim_id: c_qSEUCp_sYoelsOoWcvsnGT
+          source_id: s_NsQTQt3aey9qWokCD7Yqqc
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaiyuan 413：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_qSBAn4LkCdEVnmE9AJKKUb
+        status: active
+        display_name: 王排須
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_AvxAaTGm1DPv98vQCBVxp1
+        subject_person_id: p_dExgzHMR9pXsascQGAS3S8
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_EJ7K5yC1dfEgFXSMbvj8zT
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_CvuXOiTziFgkkELKu_hgfL
+          claim_id: c_AvxAaTGm1DPv98vQCBVxp1
+          source_id: s_NsQTQt3aey9qWokCD7Yqqc
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaiyuan 413：嗣子(作為繼承人的兒子)
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_EJ7K5yC1dfEgFXSMbvj8zT
+        status: active
+        display_name: 王右肱
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +207,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_qSBAn4LkCdEVnmE9AJKKUb | 王排須 | accepted |
+| children | p_EJ7K5yC1dfEgFXSMbvj8zT | 王右肱 | accepted |
 
 ## 外部来源
 

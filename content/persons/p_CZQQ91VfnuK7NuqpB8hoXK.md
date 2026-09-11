@@ -4,7 +4,7 @@ id: p_CZQQ91VfnuK7NuqpB8hoXK
 status: active
 merged_into: null
 display_name: 王照
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_HDY8hWxjAwijb_NQ5mkFt_
+        subject_person_id: p_CZQQ91VfnuK7NuqpB8hoXK
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_TxvCUWCPj6wVBqyLV556YD
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_z1sD2JJo9mCJgNxC-nxeMi
+          claim_id: c_HDY8hWxjAwijb_NQ5mkFt_
+          source_id: s_yrA1AQ1LxXvZAAxVT1YMNp
+          stance: supports
+          locator: 萬曆八年進士登科錄:一卷，第三甲第一百零九名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_TxvCUWCPj6wVBqyLV556YD
+        status: active
+        display_name: 王大謨
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_TxvCUWCPj6wVBqyLV556YD | 王大謨 | accepted |
 
 ## 外部来源
 

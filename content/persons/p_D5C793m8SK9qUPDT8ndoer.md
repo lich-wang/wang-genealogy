@@ -4,7 +4,7 @@ id: p_D5C793m8SK9qUPDT8ndoer
 status: active
 merged_into: null
 display_name: 王真
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_8a-YmPIu4tXuJYE4nu2nEc
+        subject_person_id: p_u7a9BbAMb71iwjCXAx65Ue
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_D5C793m8SK9qUPDT8ndoer
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZVZnsAVI7gwe5yAdwoFCGX
+          claim_id: c_8a-YmPIu4tXuJYE4nu2nEc
+          source_id: s_jKyzuGQBiyELbWPzCJPqoh
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_u7a9BbAMb71iwjCXAx65Ue
+        status: active
+        display_name: 王忻
+        merged_into_person_id: null
   children:
     - claim:
         id: c_NusUwsE-VWAHnT5LL4ouCv
@@ -163,6 +189,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_u7a9BbAMb71iwjCXAx65Ue | 王忻 | accepted |
 | children | p_7JDKFiBKup7aCwY51vxauZ | 王怡 | accepted |
 
 ## 外部来源

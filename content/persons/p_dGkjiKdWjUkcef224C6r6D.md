@@ -4,7 +4,7 @@ id: p_dGkjiKdWjUkcef224C6r6D
 status: active
 merged_into: null
 display_name: 王泰
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,8 +128,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_BdrBSbdWeElU47HDMEZFsG
+        subject_person_id: p_xYgEMDZ5FcUAKj6AucvNLU
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_dGkjiKdWjUkcef224C6r6D
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_IVPB2vf3xvM7hOyIJrNYQs
+          claim_id: c_BdrBSbdWeElU47HDMEZFsG
+          source_id: s_VNQKyEN1JvKSVGa3FWFoiJ
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Tianbao10：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_xYgEMDZ5FcUAKj6AucvNLU
+        status: active
+        display_name: 王訓
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_QyuCzfdh1WhA-TN_-Sel9z
+        subject_person_id: p_dGkjiKdWjUkcef224C6r6D
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_HTs6qDZ4C5JCDRvZG9rRE4
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dwqnpHzbwlQjLXWkljH2Ac
+          claim_id: c_QyuCzfdh1WhA-TN_-Sel9z
+          source_id: s_VNQKyEN1JvKSVGa3FWFoiJ
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Tianbao10：嗣子(作為繼承人的兒子)
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_HTs6qDZ4C5JCDRvZG9rRE4
+        status: active
+        display_name: 王大琛
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +207,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_xYgEMDZ5FcUAKj6AucvNLU | 王訓 | accepted |
+| children | p_HTs6qDZ4C5JCDRvZG9rRE4 | 王大琛 | accepted |
 
 ## 外部来源
 

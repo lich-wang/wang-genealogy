@@ -4,7 +4,7 @@ id: p_uaXHUJQTrq6NTpF4JRJ1k7
 status: active
 merged_into: null
 display_name: 王福延
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -77,7 +77,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_9uUYlLo2nZPN7-VV7k7LsU
+        subject_person_id: p_DK5AcYsHo4a4UEPGMYMHvX
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_uaXHUJQTrq6NTpF4JRJ1k7
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fnY3spymtRSd0nBSDpPvoJ
+          claim_id: c_9uUYlLo2nZPN7-VV7k7LsU
+          source_id: s_5fPwfQAT6j2J8AAcSmb3aZ
+          stance: supports
+          locator: 平陰縣志，lgid=630836：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_5fPwfQAT6j2J8AAcSmb3aZ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王伯亮（CBDB 701300）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=701300&o=json
+            external_identifier: CBDB:701300
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:06.606Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_DK5AcYsHo4a4UEPGMYMHvX
+        status: active
+        display_name: 王伯亮
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_DK5AcYsHo4a4UEPGMYMHvX | 王伯亮 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王伯亮（CBDB 701300）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=701300&o=json)
 - [中国历代人物传记资料库：王福延（CBDB 701299）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=701299&o=json)

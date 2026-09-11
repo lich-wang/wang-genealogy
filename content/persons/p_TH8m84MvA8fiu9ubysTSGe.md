@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王順之
 cbdb_id: 241289
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -92,7 +92,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_WejALr38K6jDjTq2H9MWXX
+        subject_person_id: p_TH8m84MvA8fiu9ubysTSGe
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_CwH6PHR1XzMwocJ8ZwHSPP
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_iPyzEA62XTc-m7yGBqcgAB
+          claim_id: c_WejALr38K6jDjTq2H9MWXX
+          source_id: s_6M4qEeJfDYH98dZB9CiF5G
+          stance: supports
+          locator: 正統十三年進士登科錄:一卷，第三甲第七十五名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_6M4qEeJfDYH98dZB9CiF5G
+            source_type: api_record
+            title: 中国历代人物传记资料库：王豪（CBDB 208164）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=208164&o=json
+            external_identifier: CBDB:208164
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.949Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_CwH6PHR1XzMwocJ8ZwHSPP
+        status: active
+        display_name: 王豪
+        merged_into_person_id: null
   other: []
 ---
 
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_CwH6PHR1XzMwocJ8ZwHSPP | 王豪 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王豪（CBDB 208164）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=208164&o=json)
 - [中国历代人物传记资料库：王順之（CBDB 241289）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241289&o=json)

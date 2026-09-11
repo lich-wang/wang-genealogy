@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王其勤
 cbdb_id: 204225
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -171,7 +171,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_FNXPf3iRD3P-LgxOhwMW2a
+        subject_person_id: p_CtQDetL2VcSqzqQmVXxd4W
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_cUV1C65FDffcbStFoe34YE
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Ks4Dafp_7yxwXDd1Z6LduM
+          claim_id: c_FNXPf3iRD3P-LgxOhwMW2a
+          source_id: s_RAGiVBUn8Sw9MyzC7fZKiD
+          stance: supports
+          locator: 嘉靖三十二年進士登科錄:一卷，第三甲第十九名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_RAGiVBUn8Sw9MyzC7fZKiD
+            source_type: api_record
+            title: 中国历代人物传记资料库：王本義（CBDB 316213）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=316213&o=json
+            external_identifier: CBDB:316213
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.958Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_CtQDetL2VcSqzqQmVXxd4W
+        status: active
+        display_name: 王本義
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -193,8 +230,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_2CGC7EFuxL22aCAXELkLWU | 王天章 | accepted |
+| ancestors | p_CtQDetL2VcSqzqQmVXxd4W | 王本義 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王本義（CBDB 316213）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=316213&o=json)
 - [中国历代人物传记资料库：王其勤（CBDB 204225）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204225&o=json)
 - [中国历代人物传记资料库：王天章（CBDB 316215）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=316215&o=json)

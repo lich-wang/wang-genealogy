@@ -4,7 +4,7 @@ id: p_g1ZQp25f7TDHH92Q6ePC8K
 status: active
 merged_into: null
 display_name: 王應詔
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -176,6 +176,43 @@ relationships:
         status: active
         display_name: 王大猷
         merged_into_person_id: null
+    - claim:
+        id: c_IeLuwCIMqXRLlkWFYVR5sC
+        subject_person_id: p_g1ZQp25f7TDHH92Q6ePC8K
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_cvC8L1vrbWFZKrbKVxPgQV
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Kcyp-l8JFxQCUKG7jC97ra
+          claim_id: c_IeLuwCIMqXRLlkWFYVR5sC
+          source_id: s_po7QygabEpBnpgx6QAzuXH
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第一百二十六名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_po7QygabEpBnpgx6QAzuXH
+            source_type: api_record
+            title: 中国历代人物传记资料库：王大韶（CBDB 293436）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=293436&o=json
+            external_identifier: CBDB:293436
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.427Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_cvC8L1vrbWFZKrbKVxPgQV
+        status: active
+        display_name: 王大韶
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -239,10 +276,12 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_5B4suypXr1H38m3G8Gpz1b | 王貴 | accepted |
 | children | p_93BK4LgU7cv5zsPfXRD2xN | 王大猷 | accepted |
+| children | p_cvC8L1vrbWFZKrbKVxPgQV | 王大韶 | accepted |
 | ancestors | p_cCqCniHxX8eyza8bF9cLNL | 王昇 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王大韶（CBDB 293436）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=293436&o=json)
 - [中国历代人物传记资料库：王大猷（CBDB 293434）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=293434&o=json)
 - [中国历代人物传记资料库：王貴（CBDB 293424）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=293424&o=json)
 - [中国历代人物传记资料库：王昇（CBDB 293422）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=293422&o=json)

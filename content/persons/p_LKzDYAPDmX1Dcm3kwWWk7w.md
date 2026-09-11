@@ -4,7 +4,7 @@ id: p_LKzDYAPDmX1Dcm3kwWWk7w
 status: active
 merged_into: null
 display_name: 王九言
-revision: 6
+revision: 7
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_Gn-okw_ImyxR8SdrEn-HQk
+        subject_person_id: p_D4suc6s36QDqEBF4Wvu32S
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_LKzDYAPDmX1Dcm3kwWWk7w
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cIw23OiVHouvXq9BverN_A
+          claim_id: c_Gn-okw_ImyxR8SdrEn-HQk
+          source_id: s_KTMHs4p9av1BFZxbmEWY6K
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，159 王九言墓志：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_KTMHs4p9av1BFZxbmEWY6K
+            source_type: api_record
+            title: 中国历代人物传记资料库：王嗣慶（CBDB 696907）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696907&o=json
+            external_identifier: CBDB:696907
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:06.554Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_D4suc6s36QDqEBF4Wvu32S
+        status: active
+        display_name: 王嗣慶
+        merged_into_person_id: null
   children:
     - claim:
         id: c_po21id6_4q80KmzAHogFON
@@ -329,6 +366,80 @@ relationships:
         status: active
         display_name: 王渥
         merged_into_person_id: null
+    - claim:
+        id: c_tGbsFuW8HbBWROBEG4ZbQR
+        subject_person_id: p_LKzDYAPDmX1Dcm3kwWWk7w
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_DFWTbF2jFgwBH4V5tFWWur
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_M9Npp5kLmkg5vs5NQuoAYX
+          claim_id: c_tGbsFuW8HbBWROBEG4ZbQR
+          source_id: s_b2GF8UV8gJiMHx7jpuU1kU
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，159 王九言墓志：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_b2GF8UV8gJiMHx7jpuU1kU
+            source_type: api_record
+            title: 中国历代人物传记资料库：王澣（CBDB 697038）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=697038&o=json
+            external_identifier: CBDB:697038
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:27.712Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_DFWTbF2jFgwBH4V5tFWWur
+        status: active
+        display_name: 王澣
+        merged_into_person_id: null
+    - claim:
+        id: c_YEmViymKG79qZrEDlW1rCU
+        subject_person_id: p_LKzDYAPDmX1Dcm3kwWWk7w
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_dJdPi1jtBi1sVHm1Qf19Hw
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_k1Ysnnf028sUPutxQDwaoh
+          claim_id: c_YEmViymKG79qZrEDlW1rCU
+          source_id: s_HjzGAtPE9F6Q214MZoxDEd
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，159 王九言墓志：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_HjzGAtPE9F6Q214MZoxDEd
+            source_type: api_record
+            title: 中国历代人物传记资料库：王灝（CBDB 697035）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=697035&o=json
+            external_identifier: CBDB:697035
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:27.711Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_dJdPi1jtBi1sVHm1Qf19Hw
+        status: active
+        display_name: 王灝
+        merged_into_person_id: null
   other: []
 ---
 
@@ -348,18 +459,24 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_D4suc6s36QDqEBF4Wvu32S | 王嗣慶 | accepted |
 | children | p_5RBiZ6FFWAyKXQ4ceyXGgd | 王正民 | accepted |
 | children | p_Avmx7J2ufnPsVjzzweTV6f | 王信民 | accepted |
 | descendants | p_1aEwesssoYpd2ncPJ3YUoM | 王淇 | accepted |
 | descendants | p_6wji7XXP8uK32dWKaW53BU | 王洵 | accepted |
 | descendants | p_6x2bqhUrScPeQEfMXQdYP2 | 王況 | accepted |
 | descendants | p_9zhS2yU1nHdZZvcPpv2NJM | 王渥 | accepted |
+| descendants | p_DFWTbF2jFgwBH4V5tFWWur | 王澣 | accepted |
+| descendants | p_dJdPi1jtBi1sVHm1Qf19Hw | 王灝 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王灝（CBDB 697035）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=697035&o=json)
+- [中国历代人物传记资料库：王澣（CBDB 697038）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=697038&o=json)
 - [中国历代人物传记资料库：王九言（CBDB 696905）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696905&o=json)
 - [中国历代人物传记资料库：王況（CBDB 697042）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=697042&o=json)
 - [中国历代人物传记资料库：王淇（CBDB 697034）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=697034&o=json)
+- [中国历代人物传记资料库：王嗣慶（CBDB 696907）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696907&o=json)
 - [中国历代人物传记资料库：王渥（CBDB 697043）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=697043&o=json)
 - [中国历代人物传记资料库：王信民（CBDB 697032）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=697032&o=json)
 - [中国历代人物传记资料库：王洵（CBDB 697040）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=697040&o=json)

@@ -4,7 +4,7 @@ id: p_CjPAUgQ79UCV7hnFx1eT69
 status: active
 merged_into: null
 display_name: 王子明
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_T10DmJOwEpQLIO7nmRPZ7v
+        subject_person_id: p_CjPAUgQ79UCV7hnFx1eT69
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Mm4Feno3TMRLDtespKCU2Q
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2UaeV0Vbs7hUzkf4Nw8V3_
+          claim_id: c_T10DmJOwEpQLIO7nmRPZ7v
+          source_id: s_Wh8xeRB4urrFxNMHJT5TR9
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第三甲第一百三十六名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Mm4Feno3TMRLDtespKCU2Q
+        status: active
+        display_name: 王翰臣
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_Mm4Feno3TMRLDtespKCU2Q | 王翰臣 | accepted |
 
 ## 外部来源
 

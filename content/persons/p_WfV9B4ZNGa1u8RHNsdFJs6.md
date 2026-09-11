@@ -4,7 +4,7 @@ id: p_WfV9B4ZNGa1u8RHNsdFJs6
 status: active
 merged_into: null
 display_name: 王瑩
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -105,7 +105,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_M8hf5x2AYUWg_XLAs6i9UY
+        subject_person_id: p_cPYX8RobAKWa2Dxnipi19F
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_WfV9B4ZNGa1u8RHNsdFJs6
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0tBbg4lemD69bbIIIHb4Vf
+          claim_id: c_M8hf5x2AYUWg_XLAs6i9UY
+          source_id: s_8eSavieiyWFQaVwwsaqK2J
+          stance: supports
+          locator: 弘治三年進士登科錄:一卷，第二甲第十名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_8eSavieiyWFQaVwwsaqK2J
+            source_type: api_record
+            title: 中国历代人物传记资料库：王浩（CBDB 261013）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261013&o=json
+            external_identifier: CBDB:261013
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.534Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_cPYX8RobAKWa2Dxnipi19F
+        status: active
+        display_name: 王浩
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_cPYX8RobAKWa2Dxnipi19F | 王浩 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王浩（CBDB 261013）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261013&o=json)
 - [中国历代人物传记资料库：王瑩（CBDB 200655）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200655&o=json)

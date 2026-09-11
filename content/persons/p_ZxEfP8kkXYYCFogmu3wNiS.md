@@ -4,7 +4,7 @@ id: p_ZxEfP8kkXYYCFogmu3wNiS
 status: active
 merged_into: null
 display_name: 王汝效
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_erdpcn-MFIXQiBAcjKWQ-L
+        subject_person_id: p_d7DgfcN6WUh5waMJzoiRqY
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ZxEfP8kkXYYCFogmu3wNiS
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_obDNG-uyGKaDM1O_1g-WZ2
+          claim_id: c_erdpcn-MFIXQiBAcjKWQ-L
+          source_id: s_E4cRLsFfz2E9BksBG6QYpy
+          stance: supports
+          locator: (道光)徽州府志:十六卷卷首一卷，lgid=1160616：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_E4cRLsFfz2E9BksBG6QYpy
+            source_type: api_record
+            title: 中国历代人物传记资料库：王錫纓（CBDB 557193）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=557193&o=json
+            external_identifier: CBDB:557193
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.536Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_d7DgfcN6WUh5waMJzoiRqY
+        status: active
+        display_name: 王錫纓
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_d7DgfcN6WUh5waMJzoiRqY | 王錫纓 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王汝效（CBDB 557195）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=557195&o=json)
+- [中国历代人物传记资料库：王錫纓（CBDB 557193）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=557193&o=json)

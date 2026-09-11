@@ -4,7 +4,7 @@ id: p_S59f4ecKi74gcNZvVCFxMo
 status: active
 merged_into: null
 display_name: 王志長
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_5T0b0bySOcpqWHd2x2Pc0r
+        subject_person_id: p_cUEh25oPwuAacU7D2hTAPV
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_S59f4ecKi74gcNZvVCFxMo
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BhypxmFj2jZBcA7GC-kIpG
+          claim_id: c_5T0b0bySOcpqWHd2x2Pc0r
+          source_id: s_kEUVXVMNSjJdG7sCHKLhxA
+          stance: supports
+          locator: 江南通志，lgid=65730-65731：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_kEUVXVMNSjJdG7sCHKLhxA
+            source_type: api_record
+            title: 中国历代人物传记资料库：王臨亨（CBDB 126852）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126852&o=json
+            external_identifier: CBDB:126852
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.261Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_cUEh25oPwuAacU7D2hTAPV
+        status: active
+        display_name: 王臨亨
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_cUEh25oPwuAacU7D2hTAPV | 王臨亨 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王臨亨（CBDB 126852）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126852&o=json)
 - [中国历代人物传记资料库：王志長（CBDB 235156）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235156&o=json)

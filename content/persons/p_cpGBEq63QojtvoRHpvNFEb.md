@@ -4,7 +4,7 @@ id: p_cpGBEq63QojtvoRHpvNFEb
 status: active
 merged_into: null
 display_name: 王家相
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_afJkvdubxMvbV5KvpBwPng
+        subject_person_id: p_uE1u3bYV3J8fuYnjaWRvAs
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_cpGBEq63QojtvoRHpvNFEb
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fgrkiNHk5F3eXuyCriCmhS
+          claim_id: c_afJkvdubxMvbV5KvpBwPng
+          source_id: s_hQ4MNw8gYqbwTtzMu8ZNXd
+          stance: supports
+          locator: 萬曆三十八年庚戌科序齒錄:一卷，第二甲第三十三名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_uE1u3bYV3J8fuYnjaWRvAs
+        status: active
+        display_name: 王釗
+        merged_into_person_id: null
   children:
     - claim:
         id: c_ES5BQ6i9ig3ZMB1AGDfeql
@@ -139,10 +165,88 @@ relationships:
         status: active
         display_name: 王廷傑
         merged_into_person_id: null
+    - claim:
+        id: c_WWkykVfvpfiGX55la_UPZR
+        subject_person_id: p_cpGBEq63QojtvoRHpvNFEb
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_LfhBsVrzF5oR2Bfh5AJyMU
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NccfNspvWXz2nm7fqoRMHz
+          claim_id: c_WWkykVfvpfiGX55la_UPZR
+          source_id: s_hQ4MNw8gYqbwTtzMu8ZNXd
+          stance: supports
+          locator: 萬曆三十八年庚戌科序齒錄:一卷，第二甲第三十三名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_LfhBsVrzF5oR2Bfh5AJyMU
+        status: active
+        display_name: 王延階
+        merged_into_person_id: null
+    - claim:
+        id: c_zzWSuVXk8i6AgfG77jNziG
+        subject_person_id: p_cpGBEq63QojtvoRHpvNFEb
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_di3NxGWQY8Xk9gW3BkcP6V
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_DeMhSVbaJx4UJ5IZvnpYfx
+          claim_id: c_zzWSuVXk8i6AgfG77jNziG
+          source_id: s_hQ4MNw8gYqbwTtzMu8ZNXd
+          stance: supports
+          locator: 萬曆三十八年庚戌科序齒錄:一卷，第二甲第三十三名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_di3NxGWQY8Xk9gW3BkcP6V
+        status: active
+        display_name: 王廷俊
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_zUfmXdWDVFWr1Oj2k77Djc
+        subject_person_id: p_FRm6NSfhBRyYx29daZYb7k
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_cpGBEq63QojtvoRHpvNFEb
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_iWr0h_yTA6xQ2e-vdTuIZ9
+          claim_id: c_zUfmXdWDVFWr1Oj2k77Djc
+          source_id: s_hQ4MNw8gYqbwTtzMu8ZNXd
+          stance: supports
+          locator: 萬曆三十八年庚戌科序齒錄:一卷，第二甲第三十三名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_FRm6NSfhBRyYx29daZYb7k
+        status: active
+        display_name: 王文達
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -163,7 +267,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_uE1u3bYV3J8fuYnjaWRvAs | 王釗 | accepted |
 | children | p_7Ar5PzC26XbEgUcnAsMSDe | 王廷傑 | accepted |
+| children | p_LfhBsVrzF5oR2Bfh5AJyMU | 王延階 | accepted |
+| children | p_di3NxGWQY8Xk9gW3BkcP6V | 王廷俊 | accepted |
+| ancestors | p_FRm6NSfhBRyYx29daZYb7k | 王文達 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_D7vc16ZCnBApa7DLYpzhzq
 status: active
 merged_into: null
 display_name: 王芝
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_aU5CHhGP3a0Tvcyv3xOmRH
+        subject_person_id: p_D7vc16ZCnBApa7DLYpzhzq
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_n18iFte87Ls38E8g6NHVog
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OM9d-xkm8s0_ItgXOZOHzL
+          claim_id: c_aU5CHhGP3a0Tvcyv3xOmRH
+          source_id: s_R65cHsL7kKwHqM3tUu5xZF
+          stance: supports
+          locator: 宋史：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_n18iFte87Ls38E8g6NHVog
+        status: active
+        display_name: 王延德
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_n18iFte87Ls38E8g6NHVog | 王延德 | accepted |
 
 ## 外部来源
 

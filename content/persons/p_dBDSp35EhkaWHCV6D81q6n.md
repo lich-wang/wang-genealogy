@@ -4,7 +4,7 @@ id: p_dBDSp35EhkaWHCV6D81q6n
 status: active
 merged_into: null
 display_name: 王大猷
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_7tQr2LsNTWUWbcfP2N4Vw0
+        subject_person_id: p_ddWY4cKu36BYCB9sUmQGQH
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_dBDSp35EhkaWHCV6D81q6n
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JJclJh0vQuGx5vNB6HsIBt
+          claim_id: c_7tQr2LsNTWUWbcfP2N4Vw0
+          source_id: s_6YBdzMUoq63hH1eUGM1PhC
+          stance: supports
+          locator: 嘉靖二十六年進士登科錄:一卷，第三甲第一百六十六名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_6YBdzMUoq63hH1eUGM1PhC
+            source_type: api_record
+            title: 中国历代人物传记资料库：王勇（CBDB 311219）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=311219&o=json
+            external_identifier: CBDB:311219
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.851Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ddWY4cKu36BYCB9sUmQGQH
+        status: active
+        display_name: 王勇
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -200,6 +237,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_ddWY4cKu36BYCB9sUmQGQH | 王勇 | accepted |
 | ancestors | p_aXwn3ofSFoyA77A2xhNKnJ | 王珙 | accepted |
 | ancestors | p_BWeHFR9Sd9PLzw8oT2wSp5 | 王鑒 | accepted |
 
@@ -208,3 +246,4 @@ relationships:
 - [中国历代人物传记资料库：王大猷（CBDB 203868）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203868&o=json)
 - [中国历代人物传记资料库：王珙（CBDB 311215）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=311215&o=json)
 - [中国历代人物传记资料库：王鑒（CBDB 311216）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=311216&o=json)
+- [中国历代人物传记资料库：王勇（CBDB 311219）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=311219&o=json)

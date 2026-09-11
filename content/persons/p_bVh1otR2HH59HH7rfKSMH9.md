@@ -4,7 +4,7 @@ id: p_bVh1otR2HH59HH7rfKSMH9
 status: active
 merged_into: null
 display_name: 王德
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_eYf0856_bDzqw6BIwp2OmF
+        subject_person_id: p_czhtiwqBMu1RGkzhciwNgo
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_bVh1otR2HH59HH7rfKSMH9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_696uvTV3YBPHxeO5VUXRa8
+          claim_id: c_eYf0856_bDzqw6BIwp2OmF
+          source_id: s_VfvhjG4nfdEYsi4AmYzZad
+          stance: supports
+          locator: 弘治六年進士登科錄:一卷，第三甲第一百二十一名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_VfvhjG4nfdEYsi4AmYzZad
+            source_type: api_record
+            title: 中国历代人物传记资料库：王昌（CBDB 265934）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265934&o=json
+            external_identifier: CBDB:265934
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.705Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_czhtiwqBMu1RGkzhciwNgo
+        status: active
+        display_name: 王昌
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -163,9 +200,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_czhtiwqBMu1RGkzhciwNgo | 王昌 | accepted |
 | ancestors | p_A9458Z18KdqT1fqxauKE6R | 王銘 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王昌（CBDB 265934）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265934&o=json)
 - [中国历代人物传记资料库：王德（CBDB 201011）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201011&o=json)
 - [中国历代人物传记资料库：王銘（CBDB 265932）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265932&o=json)

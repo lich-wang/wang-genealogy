@@ -4,7 +4,7 @@ id: p_D5jXQ7gpJqhusGJmWVw9DK
 status: active
 merged_into: null
 display_name: 王良臣
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -105,7 +105,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_r9OckJngknl4g47di7l7n8
+        subject_person_id: p_X98MCaxvrEXkhT73681oSD
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_D5jXQ7gpJqhusGJmWVw9DK
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HVgVsiK0UT1Vq9h71SHrh7
+          claim_id: c_r9OckJngknl4g47di7l7n8
+          source_id: s_phpLxVrzzLFGn5M6pNoXaf
+          stance: supports
+          locator: 寶祐登科錄：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_X98MCaxvrEXkhT73681oSD
+        status: active
+        display_name: 王弼
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +152,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_X98MCaxvrEXkhT73681oSD | 王弼 | accepted |
 
 ## 外部来源
 

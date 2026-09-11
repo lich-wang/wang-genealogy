@@ -4,7 +4,7 @@ id: p_DGzZ8wX5BL5EKCxJCq69dz
 status: active
 merged_into: null
 display_name: 王鎔
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -133,7 +133,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_fO3OEpwFe3pAisPxKX8sSd
+        subject_person_id: p_BqT9GM9yFPoPmNsjdsf7T3
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_DGzZ8wX5BL5EKCxJCq69dz
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_LK448573gUt2_GLf70i5LX
+          claim_id: c_fO3OEpwFe3pAisPxKX8sSd
+          source_id: s_mJZRWFbG4gLqoKptttYS2k
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #2247：祖父"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_BqT9GM9yFPoPmNsjdsf7T3
+        status: active
+        display_name: 王化行
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,6 +181,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_BqT9GM9yFPoPmNsjdsf7T3 | 王化行 | accepted |
 
 ## 外部来源
 

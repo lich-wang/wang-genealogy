@@ -4,7 +4,7 @@ id: p_cuLRLhG5ZU9mKGxZ61YTb9
 status: active
 merged_into: null
 display_name: 王述
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_6MmJ4vdtiYWBNgGTYPAoDW
+        subject_person_id: p_F5nnq1jNL9a7a9ZGJiwQTR
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_cuLRLhG5ZU9mKGxZ61YTb9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NmRxZb-5eLjhkkT6Y5atVX
+          claim_id: c_6MmJ4vdtiYWBNgGTYPAoDW
+          source_id: s_d5SrNX5aosaTbZYK2F6XAe
+          stance: supports
+          locator: (康熙)固始縣志，lgid= 871425：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_F5nnq1jNL9a7a9ZGJiwQTR
+        status: active
+        display_name: 王愷
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_F5nnq1jNL9a7a9ZGJiwQTR | 王愷 | accepted |
 
 ## 外部来源
 

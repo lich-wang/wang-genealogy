@@ -4,7 +4,7 @@ id: p_dbtAFAp1qDcATkc5iZ9Z5E
 status: active
 merged_into: null
 display_name: 王師課
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,59 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_OGOyC8PsyFlYTncy7BCK3a
+        subject_person_id: p_dbtAFAp1qDcATkc5iZ9Z5E
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_hPDgE82WiuZqRbH7NGsbnF
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__RIbtpGKHLMVmtG79JJf6i
+          claim_id: c_OGOyC8PsyFlYTncy7BCK3a
+          source_id: s_F5RzLY1QCVEa9dNVQK4y3X
+          stance: supports
+          locator: 紹興府志:八十卷，lgid=316861：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_hPDgE82WiuZqRbH7NGsbnF
+        status: active
+        display_name: 王舜臣
+        merged_into_person_id: null
+    - claim:
+        id: c_T4HOVZnLxcPZ2i-Y55T0Ay
+        subject_person_id: p_dbtAFAp1qDcATkc5iZ9Z5E
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_yG2M7yDMdCzduSqvyYnP7r
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__Divbz6U-Wj57jVtST_r50
+          claim_id: c_T4HOVZnLxcPZ2i-Y55T0Ay
+          source_id: s_F5RzLY1QCVEa9dNVQK4y3X
+          stance: supports
+          locator: 紹興府志:八十卷，lgid=316861：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_yG2M7yDMdCzduSqvyYnP7r
+        status: active
+        display_name: 王舜齡
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_hPDgE82WiuZqRbH7NGsbnF | 王舜臣 | accepted |
+| children | p_yG2M7yDMdCzduSqvyYnP7r | 王舜齡 | accepted |
 
 ## 外部来源
 

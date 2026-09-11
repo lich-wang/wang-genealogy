@@ -4,7 +4,7 @@ id: p_X98MCaxvrEXkhT73681oSD
 status: active
 merged_into: null
 display_name: 王弼
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_r9OckJngknl4g47di7l7n8
+        subject_person_id: p_X98MCaxvrEXkhT73681oSD
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_D5jXQ7gpJqhusGJmWVw9DK
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HVgVsiK0UT1Vq9h71SHrh7
+          claim_id: c_r9OckJngknl4g47di7l7n8
+          source_id: s_phpLxVrzzLFGn5M6pNoXaf
+          stance: supports
+          locator: 寶祐登科錄：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_phpLxVrzzLFGn5M6pNoXaf
+            source_type: api_record
+            title: 中国历代人物传记资料库：王良臣（CBDB 38959）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38959&o=json
+            external_identifier: CBDB:38959
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.569Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_D5jXQ7gpJqhusGJmWVw9DK
+        status: active
+        display_name: 王良臣
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_D5jXQ7gpJqhusGJmWVw9DK | 王良臣 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王弼（CBDB 138129）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=138129&o=json)
+- [中国历代人物传记资料库：王良臣（CBDB 38959）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38959&o=json)

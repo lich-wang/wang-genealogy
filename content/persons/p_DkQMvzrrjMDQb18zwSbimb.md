@@ -4,7 +4,7 @@ id: p_DkQMvzrrjMDQb18zwSbimb
 status: active
 merged_into: null
 display_name: 王希德
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_7ie36LY7luo-o4FKTz74zw
+        subject_person_id: p_DkQMvzrrjMDQb18zwSbimb
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_DHmm96wyqH3FThEZbr7NNh
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pKP-ZFPllPSYyZqN8Q7pJh
+          claim_id: c_7ie36LY7luo-o4FKTz74zw
+          source_id: s_C6PjfengbT4LCL5k2KCigL
+          stance: supports
+          locator: 嘉靖二十九年進士登科錄:一卷，第三甲第九十五名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_DHmm96wyqH3FThEZbr7NNh
+        status: active
+        display_name: 王應顯
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_DHmm96wyqH3FThEZbr7NNh | 王應顯 | accepted |
 
 ## 外部来源
 

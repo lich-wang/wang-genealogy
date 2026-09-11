@@ -4,7 +4,7 @@ id: p_CK6Y18Q5DxUjTmD2p14zev
 status: active
 merged_into: null
 display_name: 王億
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_Qma8x4ZbtLL9NItuqTXPZZ
+        subject_person_id: p_kEX7BaCTJnDcpamj7bx62V
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_CK6Y18Q5DxUjTmD2p14zev
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zoxwQl8Z7EXZI3XQ8vA8KT
+          claim_id: c_Qma8x4ZbtLL9NItuqTXPZZ
+          source_id: s_zBQKrWZxZroHPiVGevWHNK
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1185：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_kEX7BaCTJnDcpamj7bx62V
+        status: active
+        display_name: 王申
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_4crV9CHaqqKGD3BO4UwTRO
+        subject_person_id: p_CK6Y18Q5DxUjTmD2p14zev
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_miziP4o1dvPJFQh5oBz2tf
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_oQUyu-TMt_TQNOjYv94X7-
+          claim_id: c_4crV9CHaqqKGD3BO4UwTRO
+          source_id: s_zBQKrWZxZroHPiVGevWHNK
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1072：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_miziP4o1dvPJFQh5oBz2tf
+        status: active
+        display_name: 王葆
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_kEX7BaCTJnDcpamj7bx62V | 王申 | accepted |
+| children | p_miziP4o1dvPJFQh5oBz2tf | 王葆 | accepted |
 
 ## 外部来源
 

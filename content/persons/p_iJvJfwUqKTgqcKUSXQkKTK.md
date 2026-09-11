@@ -4,7 +4,7 @@ id: p_iJvJfwUqKTgqcKUSXQkKTK
 status: active
 merged_into: null
 display_name: 王大任
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -142,7 +142,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_xBgkuQIsKgY22x1rbxgO2j
+        subject_person_id: p_d3NCtZk3Gsavn2pC1x34da
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_iJvJfwUqKTgqcKUSXQkKTK
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-HOK7l6pxyh8PFlKpeUHJU
+          claim_id: c_xBgkuQIsKgY22x1rbxgO2j
+          source_id: s_CHYc5rbRtNMcxZrn14nwt5
+          stance: supports
+          locator: 嘉靖三十二年進士登科錄:一卷，第三甲第二百五十三名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_CHYc5rbRtNMcxZrn14nwt5
+            source_type: api_record
+            title: 中国历代人物传记资料库：王彪（CBDB 318561）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=318561&o=json
+            external_identifier: CBDB:318561
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.002Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_d3NCtZk3Gsavn2pC1x34da
+        status: active
+        display_name: 王彪
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_3dg1PVXVExHpSS6KGA8n5K | 王熙 | accepted |
+| ancestors | p_d3NCtZk3Gsavn2pC1x34da | 王彪 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王彪（CBDB 318561）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=318561&o=json)
 - [中国历代人物传记资料库：王大任（CBDB 204398）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204398&o=json)
 - [中国历代人物传记资料库：王熙（CBDB 318564）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=318564&o=json)

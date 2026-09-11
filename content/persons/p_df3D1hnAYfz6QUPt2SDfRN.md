@@ -4,7 +4,7 @@ id: p_df3D1hnAYfz6QUPt2SDfRN
 status: active
 merged_into: null
 display_name: 王直
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_7KyRu5FkfLHTHBl4P7dlWu
+        subject_person_id: p_df3D1hnAYfz6QUPt2SDfRN
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_TdY8PeNMMQnspsGSLcC9h4
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_iYa3YD6mE9NyvHv1hpUWnW
+          claim_id: c_7KyRu5FkfLHTHBl4P7dlWu
+          source_id: s_HgLi9Re5QRQw8ap38CvaCA
+          stance: supports
+          locator: 正德六年進士登科錄:一卷，第二甲第九十名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_TdY8PeNMMQnspsGSLcC9h4
+        status: active
+        display_name: 王思
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_TdY8PeNMMQnspsGSLcC9h4 | 王思 | accepted |
 
 ## 外部来源
 

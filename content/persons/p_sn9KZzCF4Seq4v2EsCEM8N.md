@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王䋊
 cbdb_id: 126694
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,7 +86,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_NxjNx1wP-uHFyrqmx7aV0X
+        subject_person_id: p_CMffgJkEHdtf2Ua3rJuHZ9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_sn9KZzCF4Seq4v2EsCEM8N
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vld8dPTpSUKIQ7cqIhOrRt
+          claim_id: c_NxjNx1wP-uHFyrqmx7aV0X
+          source_id: s_GLVxJsh9n7QFUSeAED2nsn
+          stance: supports
+          locator: 嘉靖八年進士登科錄:一卷，第二甲第八十九名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_GLVxJsh9n7QFUSeAED2nsn
+            source_type: api_record
+            title: 中国历代人物传记资料库：王璞（CBDB 288290）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288290&o=json
+            external_identifier: CBDB:288290
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.290Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_CMffgJkEHdtf2Ua3rJuHZ9
+        status: active
+        display_name: 王璞
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -148,9 +185,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_CMffgJkEHdtf2Ua3rJuHZ9 | 王璞 | accepted |
 | ancestors | p_aJLvov3QQMSFASDEQ1SHSn | 王鉉 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王璞（CBDB 288290）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288290&o=json)
 - [中国历代人物传记资料库：王鉉（CBDB 288289）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288289&o=json)
 - [中国历代人物传记资料库：王䋊（CBDB 126694）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126694&o=json)

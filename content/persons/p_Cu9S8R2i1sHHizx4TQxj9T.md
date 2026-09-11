@@ -4,7 +4,7 @@ id: p_Cu9S8R2i1sHHizx4TQxj9T
 status: active
 merged_into: null
 display_name: 王文元
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_bdmwgt8HTLVJUhL2z6J9ng
+        subject_person_id: p_CUvdCZqbaKFiops57zm8Gm
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Cu9S8R2i1sHHizx4TQxj9T
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Baf5bz6BSJBjMRd0TL7Yam
+          claim_id: c_bdmwgt8HTLVJUhL2z6J9ng
+          source_id: s_Zfrju7LDYro2H4h61o67hV
+          stance: supports
+          locator: "民國歙縣志: 十六卷，lgid=1163714：父"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_CUvdCZqbaKFiops57zm8Gm
+        status: active
+        display_name: 王詔
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_CUvdCZqbaKFiops57zm8Gm | 王詔 | accepted |
 
 ## 外部来源
 

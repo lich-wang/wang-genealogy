@@ -4,7 +4,7 @@ id: p_DFWuMPWUstBm3Tr8KacmZf
 status: active
 merged_into: null
 display_name: 王嗣宗
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -133,7 +133,59 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_jxL44uJTwCcDe2S_Pr9UGI
+        subject_person_id: p_GsMLftW55iaStQ68Ab6yJ2
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_DFWuMPWUstBm3Tr8KacmZf
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_aOsWZjTsbGqAjpUHO5PlSk
+          claim_id: c_jxL44uJTwCcDe2S_Pr9UGI
+          source_id: s_42M1RyqHPGFYMpZ9FeVqji
+          stance: supports
+          locator: 宋史：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_GsMLftW55iaStQ68Ab6yJ2
+        status: active
+        display_name: 王同節
+        merged_into_person_id: null
+    - claim:
+        id: c_usoTQE1xQWeRYIjeNpIty-
+        subject_person_id: p_Hi2pMZGHcEwS8ZkC4zPUSd
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_DFWuMPWUstBm3Tr8KacmZf
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JUIEDtmZvN1xmRou6_iNx3
+          claim_id: c_usoTQE1xQWeRYIjeNpIty-
+          source_id: s_42M1RyqHPGFYMpZ9FeVqji
+          stance: supports
+          locator: 宋史：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Hi2pMZGHcEwS8ZkC4zPUSd
+        status: active
+        display_name: 王待價
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,6 +207,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_GsMLftW55iaStQ68Ab6yJ2 | 王同節 | accepted |
+| ancestors | p_Hi2pMZGHcEwS8ZkC4zPUSd | 王待價 | accepted |
 
 ## 外部来源
 

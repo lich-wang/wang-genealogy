@@ -4,7 +4,7 @@ id: p_ck5AXM5Fx2KaAGeW6x29ur
 status: active
 merged_into: null
 display_name: 王闐
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -142,7 +142,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_czJSJilUcdRIU3OJcwS22T
+        subject_person_id: p_dHDE8CHXuP6VtSC9J5FReU
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_ck5AXM5Fx2KaAGeW6x29ur
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HWTYVCSVzaP1WMvvlxAACi
+          claim_id: c_czJSJilUcdRIU3OJcwS22T
+          source_id: s_cNVnqrB19Mv4EJBAUqx157
+          stance: supports
+          locator: 嘉靖三十八年進士登科錄:一卷，第二甲第七十二名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_cNVnqrB19Mv4EJBAUqx157
+            source_type: api_record
+            title: 中国历代人物传记资料库：王恩（CBDB 323747）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=323747&o=json
+            external_identifier: CBDB:323747
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.146Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_dHDE8CHXuP6VtSC9J5FReU
+        status: active
+        display_name: 王恩
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_7qYVpNXr3rJeGDwdypL9Mb | 王德純 | accepted |
+| ancestors | p_dHDE8CHXuP6VtSC9J5FReU | 王恩 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王德純（CBDB 323748）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=323748&o=json)
+- [中国历代人物传记资料库：王恩（CBDB 323747）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=323747&o=json)
 - [中国历代人物传记资料库：王闐（CBDB 204766）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204766&o=json)
