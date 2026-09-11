@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王解公
 cbdb_id: 167129
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,7 +86,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_bDGyAqinZCprj5O7-2okr5
+        subject_person_id: p_hGEwt3fhrmhQ4r8AR4guSq
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3atCP3viaeRMERB29AJ4kg
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bhksL4hJp94lCzPz1kxJWX
+          claim_id: c_bDGyAqinZCprj5O7-2okr5
+          source_id: s_bj2xfWUspvnEgcbCR7kzNF
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_bj2xfWUspvnEgcbCR7kzNF
+            source_type: api_record
+            title: 中国历代人物传记资料库：王洪（CBDB 167128）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=167128&o=json
+            external_identifier: CBDB:167128
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.991Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_hGEwt3fhrmhQ4r8AR4guSq
+        status: active
+        display_name: 王洪
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_hGEwt3fhrmhQ4r8AR4guSq | 王洪 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王洪（CBDB 167128）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=167128&o=json)
 - [中国历代人物传记资料库：王解公（CBDB 167129）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=167129&o=json)

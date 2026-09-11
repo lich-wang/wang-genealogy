@@ -4,7 +4,7 @@ id: p_vM6985QJehceoGJD1bbJKF
 status: active
 merged_into: null
 display_name: 王澄
-revision: 6
+revision: 7
 properties:
   - predicate: name.primary
     recommended:
@@ -357,6 +357,43 @@ relationships:
         status: active
         display_name: 王恩
         merged_into_person_id: null
+    - claim:
+        id: c_-j5ZVjFfjtjfXxwDgTSAv3
+        subject_person_id: p_vM6985QJehceoGJD1bbJKF
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_hUNqjruZ372JDRxBbR4n3D
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AUWrx_yzzadRRHaLzArpqj
+          claim_id: c_-j5ZVjFfjtjfXxwDgTSAv3
+          source_id: s_X4vjiaAjxqJW9z1MAivxEX
+          stance: supports
+          locator: 宋濂全集，1606：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_X4vjiaAjxqJW9z1MAivxEX
+            source_type: api_record
+            title: 中国历代人物传记资料库：王涯（CBDB 134192）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134192&o=json
+            external_identifier: CBDB:134192
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.319Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_hUNqjruZ372JDRxBbR4n3D
+        status: active
+        display_name: 王涯
+        merged_into_person_id: null
   other: []
 ---
 
@@ -383,6 +420,7 @@ relationships:
 | descendants | p_D9eJdq8ySQayL4dxPcs9FD | 王沇 | accepted |
 | descendants | p_f3Kpde459iSuKNBG46WSjP | 王溥 | accepted |
 | descendants | p_FCSQdth7sQc3XHSLXg595T | 王恩 | accepted |
+| descendants | p_hUNqjruZ372JDRxBbR4n3D | 王涯 | accepted |
 
 ## 外部来源
 
@@ -390,6 +428,7 @@ relationships:
 - [中国历代人物传记资料库：王恩（CBDB 134173）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134173&o=json)
 - [中国历代人物传记资料库：王溥（CBDB 134188）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134188&o=json)
 - [中国历代人物传记资料库：王淇（CBDB 134181）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134181&o=json)
+- [中国历代人物传记资料库：王涯（CBDB 134192）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134192&o=json)
 - [中国历代人物传记资料库：王沇（CBDB 134190）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134190&o=json)
 - [中国历代人物传记资料库：王應（CBDB 134166）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134166&o=json)
 - [中国历代人物传记资料库：王瀹（CBDB 134187）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134187&o=json)

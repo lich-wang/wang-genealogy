@@ -4,7 +4,7 @@ id: p_HKbjo82juGCBarv2Dg3zz9
 status: active
 merged_into: null
 display_name: 王相
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c__GONuyjXQU2mt_pORT2tCr
+        subject_person_id: p_HKbjo82juGCBarv2Dg3zz9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_QqHZ53bR3BD9L2PF2yyQK7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5d2ZcMFThKXlM-Wo_Bi45J
+          claim_id: c__GONuyjXQU2mt_pORT2tCr
+          source_id: s_Df2JuGWMMQ7nF6jfGSEbX3
+          stance: supports
+          locator: 弘治十五年進士登科錄:一卷，第二甲第五十五名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_QqHZ53bR3BD9L2PF2yyQK7
+        status: active
+        display_name: 王金
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_QqHZ53bR3BD9L2PF2yyQK7 | 王金 | accepted |
 
 ## 外部来源
 

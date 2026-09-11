@@ -4,7 +4,7 @@ id: p_HaHWeAEQnbFtxnWDTKBdRZ
 status: active
 merged_into: null
 display_name: 王友才
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_2eOSsM-rcpso9U481YGvXI
+        subject_person_id: p_HaHWeAEQnbFtxnWDTKBdRZ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_uwC7U2dhe6Kyw5xBECanBE
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VhDsaGyMDnFQkLe8_9Lcu9
+          claim_id: c_2eOSsM-rcpso9U481YGvXI
+          source_id: s_a7ssFo3HHp2AHDAccJUT4i
+          stance: supports
+          locator: 成化二十三年進士登科錄:一卷，第三甲第八十四名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_uwC7U2dhe6Kyw5xBECanBE
+        status: active
+        display_name: 王珍
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_uwC7U2dhe6Kyw5xBECanBE | 王珍 | accepted |
 
 ## 外部来源
 

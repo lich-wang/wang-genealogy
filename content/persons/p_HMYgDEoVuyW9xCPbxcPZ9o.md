@@ -4,7 +4,7 @@ id: p_HMYgDEoVuyW9xCPbxcPZ9o
 status: active
 merged_into: null
 display_name: 王大才
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_WCqGlaJU5Bfb2wTlMBzVQp
+        subject_person_id: p_HMYgDEoVuyW9xCPbxcPZ9o
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_DJcqSVwRMjWd5tk8GAdMxa
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fmzqNDkEawe2Y5acGSvw17
+          claim_id: c_WCqGlaJU5Bfb2wTlMBzVQp
+          source_id: s_rpmE2qAdCZPZnB4KMQikrZ
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第三甲第一百九十名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_DJcqSVwRMjWd5tk8GAdMxa
+        status: active
+        display_name: 王佐
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_DJcqSVwRMjWd5tk8GAdMxa | 王佐 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_DVJuaQ4fqcXMz2HJX35bCQ
 status: active
 merged_into: null
 display_name: 王一魁
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -138,7 +138,44 @@ relationships:
         status: active
         display_name: 王承光
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_096mqSnThmtttQyMA8yWsm
+        subject_person_id: p_DVJuaQ4fqcXMz2HJX35bCQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_HAPwpvZBVPzcnguyVmhnBB
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Ga-Y8tNCSICpAEK5RNZbpJ
+          claim_id: c_096mqSnThmtttQyMA8yWsm
+          source_id: s_9CLe71bU3D5XsLxq893Jv4
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第二甲第二百三十一名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_9CLe71bU3D5XsLxq893Jv4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王夢熊（CBDB 230386）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=230386&o=json
+            external_identifier: CBDB:230386
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.610Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_HAPwpvZBVPzcnguyVmhnBB
+        status: active
+        display_name: 王夢熊
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_6Yn1HjpWop229REQ9NGBi2 | 王承光 | accepted |
+| children | p_HAPwpvZBVPzcnguyVmhnBB | 王夢熊 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王承光（CBDB 230377）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=230377&o=json)
+- [中国历代人物传记资料库：王夢熊（CBDB 230386）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=230386&o=json)
 - [中国历代人物传记资料库：王一魁（CBDB 207258）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207258&o=json)

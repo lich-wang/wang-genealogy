@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王務光
 cbdb_id: 164198
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,7 +86,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_CIYG-1uu2eTyhV4FfraVKS
+        subject_person_id: p_HdtNY7KFEHTp6DiZEetbWW
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_obQUFXG2hpbRazKHn4PMeH
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pZ6lniuArkKVQaytlbRAQu
+          claim_id: c_CIYG-1uu2eTyhV4FfraVKS
+          source_id: s_MK34MFDSEeVbjumsg12iSE
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Kaiyuan120：嗣子(作為繼承人的兒子)
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_MK34MFDSEeVbjumsg12iSE
+            source_type: api_record
+            title: 中国历代人物传记资料库：王膺（CBDB 143710）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=143710&o=json
+            external_identifier: CBDB:143710
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.628Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_HdtNY7KFEHTp6DiZEetbWW
+        status: active
+        display_name: 王膺
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_HdtNY7KFEHTp6DiZEetbWW | 王膺 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王務光（CBDB 164198）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=164198&o=json)
+- [中国历代人物传记资料库：王膺（CBDB 143710）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=143710&o=json)

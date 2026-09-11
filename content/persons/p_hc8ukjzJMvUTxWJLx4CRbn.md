@@ -4,7 +4,7 @@ id: p_hc8ukjzJMvUTxWJLx4CRbn
 status: active
 merged_into: null
 display_name: 王元泰
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_p3k6BRRLRJ0GVks7iOYbon
+        subject_person_id: p_P7GhwesJiVs4C1A4Nba7Jb
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_hc8ukjzJMvUTxWJLx4CRbn
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__vtEvbnomEgYrlynQtl1Cs
+          claim_id: c_p3k6BRRLRJ0GVks7iOYbon
+          source_id: s_oQoWW3HdUGLD36jtJGzBvB
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_P7GhwesJiVs4C1A4Nba7Jb
+        status: active
+        display_name: 王紹
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -126,6 +152,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_P7GhwesJiVs4C1A4Nba7Jb | 王紹 | accepted |
 
 ## 外部来源
 

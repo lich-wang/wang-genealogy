@@ -4,7 +4,7 @@ id: p_hRDNX5mnYXEF5X2cQ7U6H4
 status: active
 merged_into: null
 display_name: 王福
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_6v5xlMSdJo-tBSrLKdhnzz
+        subject_person_id: p_hRDNX5mnYXEF5X2cQ7U6H4
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_UYeZjxwRSFnnKq62fsnzid
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_j_M674bDZbwnAIKjABVWtA
+          claim_id: c_6v5xlMSdJo-tBSrLKdhnzz
+          source_id: s_eY8NP7mExVoQjUXqCqnTus
+          stance: supports
+          locator: 嘉靖三十八年進士登科錄:一卷，第二甲第五十七名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_UYeZjxwRSFnnKq62fsnzid
+        status: active
+        display_name: 王葑
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_UYeZjxwRSFnnKq62fsnzid | 王葑 | accepted |
 
 ## 外部来源
 

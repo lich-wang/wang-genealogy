@@ -4,7 +4,7 @@ id: p_HWF5mXUhrhbQxoWV5rhmVR
 status: active
 merged_into: null
 display_name: 王時敏
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,12 +128,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_9LysD8oWG7xW-0lmmI2itU
+        subject_person_id: p_kdP4rCdMUaqm8XsL572Ypm
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_HWF5mXUhrhbQxoWV5rhmVR
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Iw1mx2XqzPws1aHh5JOm_k
+          claim_id: c_9LysD8oWG7xW-0lmmI2itU
+          source_id: s_9nCMaerC4DaYCofcJD8XP7
+          stance: supports
+          locator: 國朝畫徵錄：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_kdP4rCdMUaqm8XsL572Ypm
+        status: merged
+        display_name: 王衡
+        merged_into_person_id: p_nNCdrm1mnJ77Np28ADWXHR
+  children:
+    - claim:
+        id: c_qtkVSHyBDqwHGG-uz_14LS
+        subject_person_id: p_HWF5mXUhrhbQxoWV5rhmVR
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_K5DCxt9Hya2SyZizPQeDCw
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_eir87uuM5h4TnmBRIyqtR4
+          claim_id: c_qtkVSHyBDqwHGG-uz_14LS
+          source_id: s_9nCMaerC4DaYCofcJD8XP7
+          stance: supports
+          locator: 國朝畫徵錄：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_K5DCxt9Hya2SyZizPQeDCw
+        status: active
+        display_name: 王撰
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_ZhjdfdZOJxmhLMaMH1wcKy
+        subject_person_id: p_Kf6CG7GiTEZFms57CWBMuQ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_HWF5mXUhrhbQxoWV5rhmVR
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QWbnFQlkzWJsL3GphlNx1F
+          claim_id: c_ZhjdfdZOJxmhLMaMH1wcKy
+          source_id: s_9nCMaerC4DaYCofcJD8XP7
+          stance: supports
+          locator: 國朝畫徵錄：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Kf6CG7GiTEZFms57CWBMuQ
+        status: active
+        display_name: 王錫爵
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,6 +233,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_kdP4rCdMUaqm8XsL572Ypm | 王衡 | accepted |
+| children | p_K5DCxt9Hya2SyZizPQeDCw | 王撰 | accepted |
+| ancestors | p_Kf6CG7GiTEZFms57CWBMuQ | 王錫爵 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_fVwHvivQzDYcoN8uZB1uwy
 status: active
 merged_into: null
 display_name: 王良臣
-revision: 5
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -176,6 +176,43 @@ relationships:
         status: active
         display_name: 王應昌
         merged_into_person_id: null
+    - claim:
+        id: c_KUdg0Xw_V0R-33fUlw9Kt4
+        subject_person_id: p_fVwHvivQzDYcoN8uZB1uwy
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_gyrfVFz2KyGRDjmr6YwtSE
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_a8C-DOR71o8QZbBAu39IeS
+          claim_id: c_KUdg0Xw_V0R-33fUlw9Kt4
+          source_id: s_1uQ6RWAMZA7eMysDwjz5aC
+          stance: supports
+          locator: 萬曆三十八年庚戌科序齒錄:一卷，第三甲第三十二名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_1uQ6RWAMZA7eMysDwjz5aC
+            source_type: api_record
+            title: 中国历代人物传记资料库：王運昌（CBDB 235995）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235995&o=json
+            external_identifier: CBDB:235995
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.770Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_gyrfVFz2KyGRDjmr6YwtSE
+        status: active
+        display_name: 王運昌
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -276,6 +313,7 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_fvtdZEELHENMPdwBvRdppk | 王維城 | accepted |
 | children | p_A3oct87FbnEp6SgQ2qLz7K | 王應昌 | accepted |
+| children | p_gyrfVFz2KyGRDjmr6YwtSE | 王運昌 | accepted |
 | ancestors | p_77iaWpWMwfPvQUKF6BCdCD | 王魯 | accepted |
 | ancestors | p_E8R8PCXPkP9eN4uAPUmfkY | 王嘉言 | accepted |
 
@@ -286,3 +324,4 @@ relationships:
 - [中国历代人物传记资料库：王魯（CBDB 235967）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235967&o=json)
 - [中国历代人物传记资料库：王維城（CBDB 235969）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235969&o=json)
 - [中国历代人物传记资料库：王應昌（CBDB 235996）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235996&o=json)
+- [中国历代人物传记资料库：王運昌（CBDB 235995）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235995&o=json)

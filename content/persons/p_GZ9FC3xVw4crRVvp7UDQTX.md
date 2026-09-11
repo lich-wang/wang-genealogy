@@ -4,7 +4,7 @@ id: p_GZ9FC3xVw4crRVvp7UDQTX
 status: active
 merged_into: null
 display_name: 王玭
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_HS-oqMnMiv_ZOxh_tDQIHW
+        subject_person_id: p_6Tbz6rZoK81ZB5BwdE41k7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_GZ9FC3xVw4crRVvp7UDQTX
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wvd-IXCFleVIJZWcFQZpry
+          claim_id: c_HS-oqMnMiv_ZOxh_tDQIHW
+          source_id: s_WNKpdkk3yi4awpd41NnU58
+          stance: supports
+          locator: 正統十三年進士登科錄:一卷，第三甲第六十三名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_6Tbz6rZoK81ZB5BwdE41k7
+        status: active
+        display_name: 王興弼
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_1zHiNnAtURpDwLysWfsXc-
+        subject_person_id: p_EPVRDWZKonkLB1kZwcARVu
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_GZ9FC3xVw4crRVvp7UDQTX
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_erzil1uLF9uNRmeo-x9JVH
+          claim_id: c_1zHiNnAtURpDwLysWfsXc-
+          source_id: s_WNKpdkk3yi4awpd41NnU58
+          stance: supports
+          locator: 正統十三年進士登科錄:一卷，第三甲第六十三名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_EPVRDWZKonkLB1kZwcARVu
+        status: active
+        display_name: 王顯德
+        merged_into_person_id: null
+    - claim:
+        id: c_lcCeMVBgveUNZzDX9eJaHT
+        subject_person_id: p_kMQhT3dQbTnh3GYgpMAAPK
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_GZ9FC3xVw4crRVvp7UDQTX
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PTSJeaAhv-aLqxJTQF2Xo1
+          claim_id: c_lcCeMVBgveUNZzDX9eJaHT
+          source_id: s_WNKpdkk3yi4awpd41NnU58
+          stance: supports
+          locator: 正統十三年進士登科錄:一卷，第三甲第六十三名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_kMQhT3dQbTnh3GYgpMAAPK
+        status: active
+        display_name: 王保民
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_6Tbz6rZoK81ZB5BwdE41k7 | 王興弼 | accepted |
+| ancestors | p_EPVRDWZKonkLB1kZwcARVu | 王顯德 | accepted |
+| ancestors | p_kMQhT3dQbTnh3GYgpMAAPK | 王保民 | accepted |
 
 ## 外部来源
 

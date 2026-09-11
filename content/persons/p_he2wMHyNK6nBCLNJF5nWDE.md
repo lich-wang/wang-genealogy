@@ -4,7 +4,7 @@ id: p_he2wMHyNK6nBCLNJF5nWDE
 status: active
 merged_into: null
 display_name: 王志能
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_HJVzIHWlHT4VZYuQHEkW64
+        subject_person_id: p_he2wMHyNK6nBCLNJF5nWDE
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_m3yi9K5yZsVRwPPF1yaNKL
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PPlTKPbRX_2z1IEyufEaK1
+          claim_id: c_HJVzIHWlHT4VZYuQHEkW64
+          source_id: s_bNst2zfLLrqLXaCHvjCBjm
+          stance: supports
+          locator: 萬曆二十年壬辰科進士歷履便覽:一卷，第三甲第一百□名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_m3yi9K5yZsVRwPPF1yaNKL
+        status: active
+        display_name: 王國翼
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_m3yi9K5yZsVRwPPF1yaNKL | 王國翼 | accepted |
 
 ## 外部来源
 

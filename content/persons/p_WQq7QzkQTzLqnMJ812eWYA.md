@@ -4,7 +4,7 @@ id: p_WQq7QzkQTzLqnMJ812eWYA
 status: active
 merged_into: null
 display_name: 王之誥
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_mzxwFqo8ED-JhdfMdquKK8
+        subject_person_id: p_HxEM6RL9fRNSLHFJ3ioZEE
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_WQq7QzkQTzLqnMJ812eWYA
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_iFi0i-e-BPr1nSZ-bsp5HJ
+          claim_id: c_mzxwFqo8ED-JhdfMdquKK8
+          source_id: s_5PL8msvmn7vX5Z5ZQZUfJH
+          stance: supports
+          locator: 嘉靖二十三年登科錄:一卷，第三甲第一百四十三名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_5PL8msvmn7vX5Z5ZQZUfJH
+            source_type: api_record
+            title: 中国历代人物传记资料库：王芳（CBDB 307682）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=307682&o=json
+            external_identifier: CBDB:307682
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.793Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_HxEM6RL9fRNSLHFJ3ioZEE
+        status: active
+        display_name: 王芳
+        merged_into_person_id: null
   children:
     - claim:
         id: c_Onixoe-y2zAhla8sR79-A3
@@ -134,9 +171,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_HxEM6RL9fRNSLHFJ3ioZEE | 王芳 | accepted |
 | children | p_AmqhuDVmsQBqJU7SL3xZMz | 王夢麟 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王芳（CBDB 307682）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=307682&o=json)
 - [中国历代人物传记资料库：王夢麟（CBDB 528036）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=528036&o=json)
 - [中国历代人物传记资料库：王之誥（CBDB 124361）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=124361&o=json)

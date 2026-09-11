@@ -4,7 +4,7 @@ id: p_oKtgLK3Hc3EvgppJQNGw5k
 status: active
 merged_into: null
 display_name: 王堦
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -142,7 +142,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_q3OwJ2qNB2kJvmTHY2ge-l
+        subject_person_id: p_H9c4uhZm81aBYx1zvk8rrU
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_oKtgLK3Hc3EvgppJQNGw5k
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WXtSKP_3VVmmJSFuIoVMC6
+          claim_id: c_q3OwJ2qNB2kJvmTHY2ge-l
+          source_id: s_V3JGCkLLfQ3S7VkbajixJh
+          stance: supports
+          locator: 萬曆十一年進士登科錄:一卷，第三甲第二百六十五名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_V3JGCkLLfQ3S7VkbajixJh
+            source_type: api_record
+            title: 中国历代人物传记资料库：王寀（CBDB 225726）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=225726&o=json
+            external_identifier: CBDB:225726
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.433Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_H9c4uhZm81aBYx1zvk8rrU
+        status: active
+        display_name: 王寀
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_7mmFEyZWywonqa5VSZtBkH | 王宗靖 | accepted |
+| ancestors | p_H9c4uhZm81aBYx1zvk8rrU | 王寀 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王寀（CBDB 225726）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=225726&o=json)
 - [中国历代人物传记资料库：王堦（CBDB 206978）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206978&o=json)
 - [中国历代人物传记资料库：王宗靖（CBDB 225727）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=225727&o=json)

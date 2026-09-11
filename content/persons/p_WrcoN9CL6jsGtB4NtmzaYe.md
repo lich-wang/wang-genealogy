@@ -4,7 +4,7 @@ id: p_WrcoN9CL6jsGtB4NtmzaYe
 status: active
 merged_into: null
 display_name: 王良翰
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -105,7 +105,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_U4nr_xRw5xtnrtZzuj4b4O
+        subject_person_id: p_h5J7FNmYNZPV9EJQtShSE1
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_WrcoN9CL6jsGtB4NtmzaYe
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_CQWRNqqRr24Kd7A_Ac3B5q
+          claim_id: c_U4nr_xRw5xtnrtZzuj4b4O
+          source_id: s_DMvKRFRZHXze6Jr9xDSaC9
+          stance: supports
+          locator: 弘治十八年進士登科錄:一卷，第二甲第四十四名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_DMvKRFRZHXze6Jr9xDSaC9
+            source_type: api_record
+            title: 中国历代人物传记资料库：王迪（CBDB 273123）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=273123&o=json
+            external_identifier: CBDB:273123
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.895Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_h5J7FNmYNZPV9EJQtShSE1
+        status: active
+        display_name: 王迪
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_h5J7FNmYNZPV9EJQtShSE1 | 王迪 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王迪（CBDB 273123）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=273123&o=json)
 - [中国历代人物传记资料库：王良翰（CBDB 201479）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201479&o=json)

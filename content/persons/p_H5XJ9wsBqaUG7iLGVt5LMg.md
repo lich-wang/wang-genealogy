@@ -4,7 +4,7 @@ id: p_H5XJ9wsBqaUG7iLGVt5LMg
 status: active
 merged_into: null
 display_name: 王崇禮
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_WymSWoq3kCYqqTsMrsavCs
+        subject_person_id: p_z8V9ZSLdpQZsHteaegkgLo
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_H5XJ9wsBqaUG7iLGVt5LMg
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mHNSA0is8aAXmCoTdqHW8J
+          claim_id: c_WymSWoq3kCYqqTsMrsavCs
+          source_id: s_HcviPY7mVXpgS4JqnPVLWr
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaiyuan 340：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_z8V9ZSLdpQZsHteaegkgLo
+        status: active
+        display_name: 王貴
+        merged_into_person_id: null
   children:
     - claim:
         id: c_sg28vf976MYDe2IX_LPp6V
@@ -167,6 +193,136 @@ relationships:
         status: active
         display_name: 王元賓
         merged_into_person_id: null
+    - claim:
+        id: c_f9NHIHEk505Ctjq2bmIhut
+        subject_person_id: p_H5XJ9wsBqaUG7iLGVt5LMg
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_qJkLJtx4xgEPAf9CxJTjMA
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_o0pQxWzgu_yjbHH43aQAA-
+          claim_id: c_f9NHIHEk505Ctjq2bmIhut
+          source_id: s_HcviPY7mVXpgS4JqnPVLWr
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaiyuan 340：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_qJkLJtx4xgEPAf9CxJTjMA
+        status: active
+        display_name: 王元俊
+        merged_into_person_id: null
+    - claim:
+        id: c__YwE6JJA1GHTrTdIQc_1wL
+        subject_person_id: p_H5XJ9wsBqaUG7iLGVt5LMg
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_x2Moim4y8PJXGSSXX9H82Y
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_60Hsy2Yf6SJgXpOqbysYLN
+          claim_id: c__YwE6JJA1GHTrTdIQc_1wL
+          source_id: s_HcviPY7mVXpgS4JqnPVLWr
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaiyuan 340：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_x2Moim4y8PJXGSSXX9H82Y
+        status: active
+        display_name: 王元敬
+        merged_into_person_id: null
+    - claim:
+        id: c_BVnTl-tdOjt8Yp-_mNBMEC
+        subject_person_id: p_H5XJ9wsBqaUG7iLGVt5LMg
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_z5zJP5stLYzFPNkM4jetYc
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_TIgiCBasVUzPTEs3va8C8R
+          claim_id: c_BVnTl-tdOjt8Yp-_mNBMEC
+          source_id: s_HcviPY7mVXpgS4JqnPVLWr
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaiyuan 340：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_z5zJP5stLYzFPNkM4jetYc
+        status: active
+        display_name: 王元獻
+        merged_into_person_id: null
+    - claim:
+        id: c_Bz1hVtPV5LOciFkbxImn-R
+        subject_person_id: p_H5XJ9wsBqaUG7iLGVt5LMg
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_fspPMgYwiJchRCTQFFm38t
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_R8iFMEgStZ10PxntAyKJRu
+          claim_id: c_Bz1hVtPV5LOciFkbxImn-R
+          source_id: s_HcviPY7mVXpgS4JqnPVLWr
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaiyuan 340：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_fspPMgYwiJchRCTQFFm38t
+        status: active
+        display_name: 王元貢
+        merged_into_person_id: null
+    - claim:
+        id: c_44xC5CAUjwBCIAwuJmDynS
+        subject_person_id: p_H5XJ9wsBqaUG7iLGVt5LMg
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_QvFi1p7xLJZTbb1KrvtENM
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SYrb1HVBfeCW9lbSGJFM9x
+          claim_id: c_44xC5CAUjwBCIAwuJmDynS
+          source_id: s_HcviPY7mVXpgS4JqnPVLWr
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaiyuan 340：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_QvFi1p7xLJZTbb1KrvtENM
+        status: active
+        display_name: 王元玼
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -192,7 +348,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_z8V9ZSLdpQZsHteaegkgLo | 王貴 | accepted |
 | children | p_2p9yiA1B1x4ffXDvMXE5Jp | 王元賓 | accepted |
+| children | p_qJkLJtx4xgEPAf9CxJTjMA | 王元俊 | accepted |
+| children | p_x2Moim4y8PJXGSSXX9H82Y | 王元敬 | accepted |
+| children | p_z5zJP5stLYzFPNkM4jetYc | 王元獻 | accepted |
+| children | p_fspPMgYwiJchRCTQFFm38t | 王元貢 | accepted |
+| children | p_QvFi1p7xLJZTbb1KrvtENM | 王元玼 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_gyKQYKFYiRFh2ZMNQQhCtN
 status: active
 merged_into: null
 display_name: 王鼎
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_7S9B0nRR_Nt552O7Y4OlqJ
+        subject_person_id: p_gyKQYKFYiRFh2ZMNQQhCtN
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ZjuF9BMneyLuUjQuike359
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cdL8oxnH6I3BT8AlityvOB
+          claim_id: c_7S9B0nRR_Nt552O7Y4OlqJ
+          source_id: s_ZPcP2xH4Y4hnxAihVeKS3n
+          stance: supports
+          locator: 成化十一年進士登科錄:一卷，第二甲第二十一名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_ZjuF9BMneyLuUjQuike359
+        status: active
+        display_name: 王鍃
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_ZjuF9BMneyLuUjQuike359 | 王鍃 | accepted |
 
 ## 外部来源
 

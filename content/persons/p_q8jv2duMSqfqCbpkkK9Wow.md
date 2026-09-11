@@ -4,7 +4,7 @@ id: p_q8jv2duMSqfqCbpkkK9Wow
 status: active
 merged_into: null
 display_name: 王魯
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,43 @@ relationships:
         status: active
         display_name: 王伯忠
         merged_into_person_id: null
+    - claim:
+        id: c_AujGplPhdSeg_OZRRq7xPE
+        subject_person_id: p_GZiUYnnrLjUkWy49TPto1R
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_q8jv2duMSqfqCbpkkK9Wow
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BvYZ8kn5Y9Dq0G8THr5_6N
+          claim_id: c_AujGplPhdSeg_OZRRq7xPE
+          source_id: s_JxwaNHDTFD7kd93Z6EFvGZ
+          stance: supports
+          locator: 景泰五年進士登科錄:一卷，第三甲第六十四名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_JxwaNHDTFD7kd93Z6EFvGZ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王德明（CBDB 266983）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266983&o=json
+            external_identifier: CBDB:266983
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.755Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_GZiUYnnrLjUkWy49TPto1R
+        status: active
+        display_name: 王德明
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_CKPv9UAc3q29PWyukafcq8 | 王文奎 | accepted |
 | ancestors | p_dFiwtZQDoCpys33mCXoLWB | 王伯忠 | accepted |
+| ancestors | p_GZiUYnnrLjUkWy49TPto1R | 王德明 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王伯忠（CBDB 266994）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266994&o=json)
+- [中国历代人物传记资料库：王德明（CBDB 266983）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266983&o=json)
 - [中国历代人物传记资料库：王魯（CBDB 198398）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198398&o=json)
 - [中国历代人物传记资料库：王文奎（CBDB 267005）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=267005&o=json)

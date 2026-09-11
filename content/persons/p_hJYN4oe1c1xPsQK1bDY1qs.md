@@ -4,7 +4,7 @@ id: p_hJYN4oe1c1xPsQK1bDY1qs
 status: active
 merged_into: null
 display_name: 王佶
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_XwXWaoHvVPVt1SiYcjv7h1
+        subject_person_id: p_gyNUeFDDZGNowk91dtAr1B
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_hJYN4oe1c1xPsQK1bDY1qs
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_d7KkVRziXKbbqvUp0JbWtl
+          claim_id: c_XwXWaoHvVPVt1SiYcjv7h1
+          source_id: s_9fy9kfPv3b9KBNcJ82p8BA
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第七十八名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_gyNUeFDDZGNowk91dtAr1B
+        status: active
+        display_name: 王惟賢
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_gyNUeFDDZGNowk91dtAr1B | 王惟賢 | accepted |
 
 ## 外部来源
 

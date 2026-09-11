@@ -4,7 +4,7 @@ id: p_HT1byH8rxSEHoPMAFQo6uz
 status: active
 merged_into: null
 display_name: 王翬
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -129,11 +129,63 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_xEEjrhw-vLGmpwiIUS3r3l
+        subject_person_id: p_HT1byH8rxSEHoPMAFQo6uz
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_PZ16kT7mX4LFMhdZ6WcEBh
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NSoh2Dri_-1xGwEGYTuSqf
+          claim_id: c_xEEjrhw-vLGmpwiIUS3r3l
+          source_id: s_JsaeHJVJrAG3MBSN1CqeX7
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），9371：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_PZ16kT7mX4LFMhdZ6WcEBh
+        status: active
+        display_name: 王有譽
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_3VvPh0tvH7iFd4kvRn_u7K
+        subject_person_id: p_YUAD9MocBpJZQr1eq6ETV4
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_HT1byH8rxSEHoPMAFQo6uz
+        generation_count: 4
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_A60uxdwhPEMnq3x092Jq-y
+          claim_id: c_3VvPh0tvH7iFd4kvRn_u7K
+          source_id: s_JsaeHJVJrAG3MBSN1CqeX7
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），9371：高祖;四世祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_YUAD9MocBpJZQr1eq6ETV4
+        status: active
+        display_name: 王伯臣
+        merged_into_person_id: null
   descendants:
     - claim:
         id: c_z8x47C28FN7YiaoOIHxReB
@@ -192,6 +244,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_PZ16kT7mX4LFMhdZ6WcEBh | 王有譽 | accepted |
+| ancestors | p_YUAD9MocBpJZQr1eq6ETV4 | 王伯臣 | accepted |
 | descendants | p_9EteJc9sjHozpp9cf6nJZD | 王玖 | accepted |
 
 ## 外部来源

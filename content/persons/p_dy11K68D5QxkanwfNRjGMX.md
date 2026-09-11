@@ -4,7 +4,7 @@ id: p_dy11K68D5QxkanwfNRjGMX
 status: active
 merged_into: null
 display_name: 王希庭
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -204,6 +204,43 @@ relationships:
         status: active
         display_name: 王寂
         merged_into_person_id: null
+    - claim:
+        id: c_D-_DvdxjLg4hko1T3wVGdF
+        subject_person_id: p_dy11K68D5QxkanwfNRjGMX
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_gXcfSNcP3LgyWs4pB6WRAy
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5L9I0G-5-ywn46hifiiIdR
+          claim_id: c_D-_DvdxjLg4hko1T3wVGdF
+          source_id: s_aRZHFW4i7MZxXUs1LDr6t5
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_aRZHFW4i7MZxXUs1LDr6t5
+            source_type: api_record
+            title: 中国历代人物传记资料库：王君素（CBDB 185296）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=185296&o=json
+            external_identifier: CBDB:185296
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.240Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_gXcfSNcP3LgyWs4pB6WRAy
+        status: active
+        display_name: 王君素
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -231,9 +268,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_c1NCkwp6d18gbmgfjMtJDP | 王邵 | accepted |
 | children | p_4LmSpyB7B9ubXZJPrd7ffT | 王寂 | accepted |
+| children | p_gXcfSNcP3LgyWs4pB6WRAy | 王君素 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王寂（CBDB 185294）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=185294&o=json)
+- [中国历代人物传记资料库：王君素（CBDB 185296）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=185296&o=json)
 - [中国历代人物传记资料库：王邵（CBDB 169168）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=169168&o=json)
 - [中国历代人物传记资料库：王希庭（CBDB 145222）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=145222&o=json)

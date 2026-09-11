@@ -4,7 +4,7 @@ id: p_GyDFNM8h3KCT9MHvDUXLC2
 status: active
 merged_into: null
 display_name: 王惟誠
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_7sVKlwiHNubenV9-GcT0gn
+        subject_person_id: p_f5HDaeimCAPXFME3b5BWep
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_GyDFNM8h3KCT9MHvDUXLC2
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vfg_tjTmXjcGPdw4-2LoXS
+          claim_id: c_7sVKlwiHNubenV9-GcT0gn
+          source_id: s_i7VeDGRjr3jLVssGMAx7FC
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Yuanhe3：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_f5HDaeimCAPXFME3b5BWep
+        status: active
+        display_name: 王智
+        merged_into_person_id: null
   children:
     - claim:
         id: c_v5JdJpPK7I_kI2hE85UiNu
@@ -241,10 +267,62 @@ relationships:
         status: active
         display_name: 王察
         merged_into_person_id: null
+    - claim:
+        id: c_nQ1Js2yPGrMBSV26yiWhOt
+        subject_person_id: p_GyDFNM8h3KCT9MHvDUXLC2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_sqxP6E3CPWieDjjQ3Lj2e2
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OI_BaSRSvOVbMhei_Ta2LN
+          claim_id: c_nQ1Js2yPGrMBSV26yiWhOt
+          source_id: s_i7VeDGRjr3jLVssGMAx7FC
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_sqxP6E3CPWieDjjQ3Lj2e2
+        status: active
+        display_name: 王察某
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_g65fFgihzdV3d8EVSYbaD6
+        subject_person_id: p_zctgFCNVJ1RK3NU6AbmosJ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_GyDFNM8h3KCT9MHvDUXLC2
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__opApdB3ytwyV7yYJTwZ96
+          claim_id: c_g65fFgihzdV3d8EVSYbaD6
+          source_id: s_i7VeDGRjr3jLVssGMAx7FC
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Yuanhe3：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_zctgFCNVJ1RK3NU6AbmosJ
+        status: active
+        display_name: 王行成
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -266,9 +344,12 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_f5HDaeimCAPXFME3b5BWep | 王智 | accepted |
 | children | p_1XWQgoywLXcSsGagTDZ1LP | 王寧 | accepted |
 | children | p_7sc6BnQ7qa6EEb1N1Hgr1C | 王士寧 | accepted |
 | children | p_FJGXy6e8UyHM36tPSWKJL5 | 王察 | accepted |
+| children | p_sqxP6E3CPWieDjjQ3Lj2e2 | 王察某 | accepted |
+| ancestors | p_zctgFCNVJ1RK3NU6AbmosJ | 王行成 | accepted |
 
 ## 外部来源
 

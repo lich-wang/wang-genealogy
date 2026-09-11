@@ -4,7 +4,7 @@ id: p_A98pt7vCX7HThyxCGgsD4R
 status: active
 merged_into: null
 display_name: 王賓
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -142,7 +142,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_D6HdwMGmFJ6NjoEbZ0_TTK
+        subject_person_id: p_hLC7KGkfmVQ6FH9R6Ly45j
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_A98pt7vCX7HThyxCGgsD4R
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_742vGZKYQgatXENWCVrvgr
+          claim_id: c_D6HdwMGmFJ6NjoEbZ0_TTK
+          source_id: s_WVaT3PGcf433PQDR58B4hW
+          stance: supports
+          locator: 成化十四年進士登科錄:一卷，第三甲第一百九十三名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_WVaT3PGcf433PQDR58B4hW
+            source_type: api_record
+            title: 中国历代人物传记资料库：王勝宗（CBDB 253488）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253488&o=json
+            external_identifier: CBDB:253488
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.301Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_hLC7KGkfmVQ6FH9R6Ly45j
+        status: active
+        display_name: 王勝宗
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_a8cvaHnoJBj7ek4wvWBpvS | 王億 | accepted |
+| ancestors | p_hLC7KGkfmVQ6FH9R6Ly45j | 王勝宗 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王賓（CBDB 200080）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200080&o=json)
+- [中国历代人物传记资料库：王勝宗（CBDB 253488）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253488&o=json)
 - [中国历代人物传记资料库：王億（CBDB 253490）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253490&o=json)

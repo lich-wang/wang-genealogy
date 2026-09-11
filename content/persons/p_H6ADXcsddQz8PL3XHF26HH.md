@@ -4,7 +4,7 @@ id: p_H6ADXcsddQz8PL3XHF26HH
 status: active
 merged_into: null
 display_name: 王讓
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,12 +72,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_OrlYheuF-OPpzfzx0jlq_B
+        subject_person_id: p_rQ3QkQ6Ppvi2nvZM6NWRzv
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_H6ADXcsddQz8PL3XHF26HH
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_oH-NEioyuGU54uNYBSRFUn
+          claim_id: c_OrlYheuF-OPpzfzx0jlq_B
+          source_id: s_QgZuGLFmuV1PCvKdFnt51y
+          stance: supports
+          locator: 天順八年進士登科錄:一卷，第二甲第二十名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_rQ3QkQ6Ppvi2nvZM6NWRzv
+        status: active
+        display_name: 王應橫
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_EHxhbmiwrmE4kqNRBqyiqd
+        subject_person_id: p_ZfvKo5JYpUwjUfsAxry79D
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_H6ADXcsddQz8PL3XHF26HH
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Bsxzb4P2eBNQLivX8fDbDY
+          claim_id: c_EHxhbmiwrmE4kqNRBqyiqd
+          source_id: s_QgZuGLFmuV1PCvKdFnt51y
+          stance: supports
+          locator: 天順八年進士登科錄:一卷，第二甲第二十名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_ZfvKo5JYpUwjUfsAxry79D
+        status: active
+        display_name: 王普達
+        merged_into_person_id: null
+    - claim:
+        id: c_4shFZDLJaYVNHkna7jXDYB
+        subject_person_id: p_J14w43hnTvbQMG981aghEQ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_H6ADXcsddQz8PL3XHF26HH
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wzRFYhfOpw8jPA23ckBAWY
+          claim_id: c_4shFZDLJaYVNHkna7jXDYB
+          source_id: s_QgZuGLFmuV1PCvKdFnt51y
+          stance: supports
+          locator: 天順八年進士登科錄:一卷，第二甲第二十名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_J14w43hnTvbQMG981aghEQ
+        status: active
+        display_name: 王庭槐
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +175,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_rQ3QkQ6Ppvi2nvZM6NWRzv | 王應橫 | accepted |
+| ancestors | p_ZfvKo5JYpUwjUfsAxry79D | 王普達 | accepted |
+| ancestors | p_J14w43hnTvbQMG981aghEQ | 王庭槐 | accepted |
 
 ## 外部来源
 

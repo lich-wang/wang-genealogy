@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王行成
 cbdb_id: 165865
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -129,7 +129,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_g65fFgihzdV3d8EVSYbaD6
+        subject_person_id: p_zctgFCNVJ1RK3NU6AbmosJ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_GyDFNM8h3KCT9MHvDUXLC2
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__opApdB3ytwyV7yYJTwZ96
+          claim_id: c_g65fFgihzdV3d8EVSYbaD6
+          source_id: s_i7VeDGRjr3jLVssGMAx7FC
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Yuanhe3：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_i7VeDGRjr3jLVssGMAx7FC
+            source_type: api_record
+            title: 中国历代人物传记资料库：王惟誠（CBDB 143228）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=143228&o=json
+            external_identifier: CBDB:143228
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.618Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_GyDFNM8h3KCT9MHvDUXLC2
+        status: active
+        display_name: 王惟誠
+        merged_into_person_id: null
   other: []
 ---
 
@@ -149,8 +186,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_9vp8SfkcaLh3BHQ66WSVvS | 王文林 | accepted |
+| descendants | p_GyDFNM8h3KCT9MHvDUXLC2 | 王惟誠 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王惟誠（CBDB 143228）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=143228&o=json)
 - [中国历代人物传记资料库：王文林（CBDB 190754）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=190754&o=json)
 - [中国历代人物传记资料库：王行成（CBDB 165865）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=165865&o=json)

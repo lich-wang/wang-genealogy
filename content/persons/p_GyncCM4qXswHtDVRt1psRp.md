@@ -4,7 +4,7 @@ id: p_GyncCM4qXswHtDVRt1psRp
 status: active
 merged_into: null
 display_name: 王侃
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_AOAbE-pqCUBYOgaKVURRhO
+        subject_person_id: p_GyncCM4qXswHtDVRt1psRp
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_mYaz7ZtA5wiQaCjCBZf5rq
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9l7oOCmNbDtpR9uti0LgS6
+          claim_id: c_AOAbE-pqCUBYOgaKVURRhO
+          source_id: s_zMJK9Hgo2VW5NwdTj55oMG
+          stance: supports
+          locator: 嘉靖四十四年進士登科錄:一卷，第二甲第五十五名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_mYaz7ZtA5wiQaCjCBZf5rq
+        status: active
+        display_name: 王子蕙
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_mYaz7ZtA5wiQaCjCBZf5rq | 王子蕙 | accepted |
 
 ## 外部来源
 

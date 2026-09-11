@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王老
 cbdb_id: 163528
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -87,7 +87,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_zS44iiXZxWYF5iskFJM4Fv
+        subject_person_id: p_6AaAUz4vN2pd5jkFTC8BzS
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_HcJi7PqxfqF452R9QmgUEw
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KNxk5hNQLyR5Ug0oyXCDhC
+          claim_id: c_zS44iiXZxWYF5iskFJM4Fv
+          source_id: s_pYQ17GZSy2Rbj29545ersx
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Shenlong17：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_pYQ17GZSy2Rbj29545ersx
+            source_type: api_record
+            title: 中国历代人物传记资料库：王文叡（CBDB 142356）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=142356&o=json
+            external_identifier: CBDB:142356
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.576Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_HcJi7PqxfqF452R9QmgUEw
+        status: active
+        display_name: 王文叡
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_HcJi7PqxfqF452R9QmgUEw | 王文叡 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王老（CBDB 163528）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=163528&o=json)
+- [中国历代人物传记资料库：王文叡（CBDB 142356）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=142356&o=json)

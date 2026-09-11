@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王䋊
 cbdb_id: 126694
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -166,6 +166,43 @@ relationships:
         status: active
         display_name: 王鉉
         merged_into_person_id: null
+    - claim:
+        id: c_aHqbQUrUSxM402O4Qc3eln
+        subject_person_id: p_hPPzD3yuH7XiopdNBQo8V5
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_sn9KZzCF4Seq4v2EsCEM8N
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OeCk-5UkMNaaH5W0d3QaEy
+          claim_id: c_aHqbQUrUSxM402O4Qc3eln
+          source_id: s_4tG1tDmjYKqw5PABAQcoNN
+          stance: supports
+          locator: 嘉靖八年進士登科錄:一卷，第二甲第八十九名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_4tG1tDmjYKqw5PABAQcoNN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王廷錫（CBDB 288288）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288288&o=json
+            external_identifier: CBDB:288288
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.289Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_hPPzD3yuH7XiopdNBQo8V5
+        status: active
+        display_name: 王廷錫
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -187,9 +224,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_CMffgJkEHdtf2Ua3rJuHZ9 | 王璞 | accepted |
 | ancestors | p_aJLvov3QQMSFASDEQ1SHSn | 王鉉 | accepted |
+| ancestors | p_hPPzD3yuH7XiopdNBQo8V5 | 王廷錫 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王璞（CBDB 288290）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288290&o=json)
+- [中国历代人物传记资料库：王廷錫（CBDB 288288）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288288&o=json)
 - [中国历代人物传记资料库：王鉉（CBDB 288289）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288289&o=json)
 - [中国历代人物传记资料库：王䋊（CBDB 126694）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126694&o=json)

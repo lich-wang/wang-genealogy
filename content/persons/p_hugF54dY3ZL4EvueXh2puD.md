@@ -4,7 +4,7 @@ id: p_hugF54dY3ZL4EvueXh2puD
 status: active
 merged_into: null
 display_name: 王敬
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_CjT-QQVvVUhCtDRHDW-hXX
+        subject_person_id: p_hugF54dY3ZL4EvueXh2puD
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_hnJsBrtLd1JZGUx5u8hGVs
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wAe9raLaZds4oGgDZyI_V5
+          claim_id: c_CjT-QQVvVUhCtDRHDW-hXX
+          source_id: s_83Hs2b3y8487KQJBwQxr77
+          stance: supports
+          locator: 永樂十年進士登科錄:一卷，第三甲第二十五名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_hnJsBrtLd1JZGUx5u8hGVs
+        status: active
+        display_name: 王觀
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_hnJsBrtLd1JZGUx5u8hGVs | 王觀 | accepted |
 
 ## 外部来源
 

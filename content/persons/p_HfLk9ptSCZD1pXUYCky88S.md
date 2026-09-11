@@ -4,7 +4,7 @@ id: p_HfLk9ptSCZD1pXUYCky88S
 status: active
 merged_into: null
 display_name: 王一言
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -143,6 +143,43 @@ relationships:
         status: active
         display_name: 王廉
         merged_into_person_id: null
+    - claim:
+        id: c_cQwxV4TvhGEwNKNrQsSydL
+        subject_person_id: p_HooaQHi6HT221VAZHQM9oZ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_HfLk9ptSCZD1pXUYCky88S
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_CjOmTVmky8zH3Me6DqABUf
+          claim_id: c_cQwxV4TvhGEwNKNrQsSydL
+          source_id: s_FuTo1YqZGeJBhuKFmzyc4S
+          stance: supports
+          locator: 萬曆二年進士登科錄:一卷，第三甲第八十四名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_FuTo1YqZGeJBhuKFmzyc4S
+            source_type: api_record
+            title: 中国历代人物传记资料库：王珍（CBDB 213976）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213976&o=json
+            external_identifier: CBDB:213976
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.132Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_HooaQHi6HT221VAZHQM9oZ
+        status: active
+        display_name: 王珍
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_3AyKgJ9Du3h776Ls9PM57m | 王廉 | accepted |
+| ancestors | p_HooaQHi6HT221VAZHQM9oZ | 王珍 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王廉（CBDB 213977）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213977&o=json)
 - [中国历代人物传记资料库：王一言（CBDB 206148）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206148&o=json)
+- [中国历代人物传记资料库：王珍（CBDB 213976）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213976&o=json)

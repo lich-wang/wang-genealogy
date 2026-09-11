@@ -4,7 +4,7 @@ id: p_K9CV69LndWNdhX8Sejx4tC
 status: active
 merged_into: null
 display_name: 王士龍
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_M-cflAnnXOD75mXRRIyFV3
+        subject_person_id: p_K9CV69LndWNdhX8Sejx4tC
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Hgfrs7sQ1QVJHjzXStgS27
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AZNHqroPkbf9n0oFmYlMxa
+          claim_id: c_M-cflAnnXOD75mXRRIyFV3
+          source_id: s_VtRb71HrM1BZPcRh9sD7Dc
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #4689：父"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_VtRb71HrM1BZPcRh9sD7Dc
+            source_type: api_record
+            title: 中国历代人物传记资料库：王嬌鸞（CBDB 122285）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=122285&o=json
+            external_identifier: CBDB:122285
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:14.923Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Hgfrs7sQ1QVJHjzXStgS27
+        status: active
+        display_name: 王嬌鸞
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_Hgfrs7sQ1QVJHjzXStgS27 | 王嬌鸞 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王嬌鸞（CBDB 122285）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=122285&o=json)
 - [中国历代人物传记资料库：王士龍（CBDB 122295）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=122295&o=json)

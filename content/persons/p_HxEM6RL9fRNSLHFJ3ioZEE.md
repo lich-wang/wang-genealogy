@@ -4,7 +4,7 @@ id: p_HxEM6RL9fRNSLHFJ3ioZEE
 status: active
 merged_into: null
 display_name: 王芳
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_mzxwFqo8ED-JhdfMdquKK8
+        subject_person_id: p_HxEM6RL9fRNSLHFJ3ioZEE
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_WQq7QzkQTzLqnMJ812eWYA
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_iFi0i-e-BPr1nSZ-bsp5HJ
+          claim_id: c_mzxwFqo8ED-JhdfMdquKK8
+          source_id: s_5PL8msvmn7vX5Z5ZQZUfJH
+          stance: supports
+          locator: 嘉靖二十三年登科錄:一卷，第三甲第一百四十三名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_WQq7QzkQTzLqnMJ812eWYA
+        status: active
+        display_name: 王之誥
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_WQq7QzkQTzLqnMJ812eWYA | 王之誥 | accepted |
 
 ## 外部来源
 

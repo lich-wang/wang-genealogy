@@ -4,7 +4,7 @@ id: p_epPvqgMmGoGqHpEYGAeBox
 status: active
 merged_into: null
 display_name: 王顯忠
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -152,6 +152,43 @@ relationships:
         status: active
         display_name: 王宗
         merged_into_person_id: null
+    - claim:
+        id: c_rNBsQYJ7pZ0BpTCIaZrQwO
+        subject_person_id: p_HFc4i7ostWTJALk17wFMxu
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_epPvqgMmGoGqHpEYGAeBox
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_whuUULcB1r2A9jaxHOT-n1
+          claim_id: c_rNBsQYJ7pZ0BpTCIaZrQwO
+          source_id: s_jv4eL43nqDrFS7xoLyjpfe
+          stance: supports
+          locator: 嘉靖二十年進士登科錄:一卷，第三甲第二十二名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_jv4eL43nqDrFS7xoLyjpfe
+            source_type: api_record
+            title: 中国历代人物传记资料库：王興（CBDB 303240）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=303240&o=json
+            external_identifier: CBDB:303240
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.680Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_HFc4i7ostWTJALk17wFMxu
+        status: active
+        display_name: 王興
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -173,9 +210,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_33joHpVQH9KnqRAf9nqpnS | 王誥 | accepted |
 | ancestors | p_Ce3DgqpXRSWeMxbEy1S6fm | 王宗 | accepted |
+| ancestors | p_HFc4i7ostWTJALk17wFMxu | 王興 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王誥（CBDB 303242）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=303242&o=json)
 - [中国历代人物传记资料库：王顯忠（CBDB 126894）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126894&o=json)
+- [中国历代人物传记资料库：王興（CBDB 303240）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=303240&o=json)
 - [中国历代人物传记资料库：王宗（CBDB 303241）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=303241&o=json)

@@ -4,7 +4,7 @@ id: p_hcEP9UcmM7VKPZcPSqcGFm
 status: active
 merged_into: null
 display_name: 王新
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_Ub81b4Ujcziy61HExabWgv
+        subject_person_id: p_hcEP9UcmM7VKPZcPSqcGFm
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_BXF3dbPMGdrpkj3BGNYpWy
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_V8f4aHECDdYa_I259o2oDE
+          claim_id: c_Ub81b4Ujcziy61HExabWgv
+          source_id: s_GeipakJqXbRTkcPyJyHTgb
+          stance: supports
+          locator: 嘉靖三十二年進士登科錄:一卷，第三甲第二百七十五名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_BXF3dbPMGdrpkj3BGNYpWy
+        status: active
+        display_name: 王文政
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_BXF3dbPMGdrpkj3BGNYpWy | 王文政 | accepted |
 
 ## 外部来源
 

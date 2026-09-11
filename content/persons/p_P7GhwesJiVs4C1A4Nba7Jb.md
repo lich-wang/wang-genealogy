@@ -4,7 +4,7 @@ id: p_P7GhwesJiVs4C1A4Nba7Jb
 status: active
 merged_into: null
 display_name: 王紹
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -167,6 +167,43 @@ relationships:
         status: active
         display_name: 王元弼
         merged_into_person_id: null
+    - claim:
+        id: c_p3k6BRRLRJ0GVks7iOYbon
+        subject_person_id: p_P7GhwesJiVs4C1A4Nba7Jb
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_hc8ukjzJMvUTxWJLx4CRbn
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__vtEvbnomEgYrlynQtl1Cs
+          claim_id: c_p3k6BRRLRJ0GVks7iOYbon
+          source_id: s_oQoWW3HdUGLD36jtJGzBvB
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_oQoWW3HdUGLD36jtJGzBvB
+            source_type: api_record
+            title: 中国历代人物传记资料库：王元泰（CBDB 191269）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191269&o=json
+            external_identifier: CBDB:191269
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.356Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_hc8ukjzJMvUTxWJLx4CRbn
+        status: active
+        display_name: 王元泰
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -193,8 +230,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_GW1C1LVqEGvNqAG7deAmJU | 王元弼 | accepted |
+| children | p_hc8ukjzJMvUTxWJLx4CRbn | 王元泰 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王紹（CBDB 32762）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=32762&o=json)
 - [中国历代人物传记资料库：王元弼（CBDB 191271）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191271&o=json)
+- [中国历代人物传记资料库：王元泰（CBDB 191269）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191269&o=json)

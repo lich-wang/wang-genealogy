@@ -4,7 +4,7 @@ id: p_HqotrCmsQrKUu6nT3a74CK
 status: active
 merged_into: null
 display_name: 王永
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,12 +73,90 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_THR1Pq18mTUNWqepzlUtrN
+        subject_person_id: p_HqotrCmsQrKUu6nT3a74CK
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_jzoHdkm3G8KBKVV3oWtFDE
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_yRKk6goemIXMkxpzLcbYHL
+          claim_id: c_THR1Pq18mTUNWqepzlUtrN
+          source_id: s_wRHyMYxZqN4HHfPakjQxEN
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_jzoHdkm3G8KBKVV3oWtFDE
+        status: active
+        display_name: 王忠立
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_nkjcHiQmMRNtE8FLGpfk3S
+        subject_person_id: p_HqotrCmsQrKUu6nT3a74CK
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_9zMW97J7BAC3TDNz5VbWCT
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__lgjkjhHD4CAVTgWhHkByJ
+          claim_id: c_nkjcHiQmMRNtE8FLGpfk3S
+          source_id: s_wRHyMYxZqN4HHfPakjQxEN
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_9zMW97J7BAC3TDNz5VbWCT
+        status: active
+        display_name: 王達
+        merged_into_person_id: null
+    - claim:
+        id: c_sUczdk1x5J-oAhGIrR6XgE
+        subject_person_id: p_HqotrCmsQrKUu6nT3a74CK
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_vfZA8CNHYRGPvaenX91t3P
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mXp5TmSYvSfimtvO-SoRro
+          claim_id: c_sUczdk1x5J-oAhGIrR6XgE
+          source_id: s_wRHyMYxZqN4HHfPakjQxEN
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1192;1193：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_vfZA8CNHYRGPvaenX91t3P
+        status: active
+        display_name: 王德
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +175,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_jzoHdkm3G8KBKVV3oWtFDE | 王忠立 | accepted |
+| descendants | p_9zMW97J7BAC3TDNz5VbWCT | 王達 | accepted |
+| descendants | p_vfZA8CNHYRGPvaenX91t3P | 王德 | accepted |
 
 ## 外部来源
 

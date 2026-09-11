@@ -4,7 +4,7 @@ id: p_hMbDUQB1GaYNgCJcxGcWWL
 status: active
 merged_into: null
 display_name: 王璜
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_Xi8J0IaQCHQtZgOaIwKAjz
+        subject_person_id: p_WPx4EjSn2rHqao5Mj3syGV
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_hMbDUQB1GaYNgCJcxGcWWL
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_UvNH0LJCMbaBZf_MizIDtU
+          claim_id: c_Xi8J0IaQCHQtZgOaIwKAjz
+          source_id: s_qBXgxBd99XeUmj4pBc6DTT
+          stance: supports
+          locator: 永樂十年進士登科錄:一卷，第三甲第四十名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_WPx4EjSn2rHqao5Mj3syGV
+        status: active
+        display_name: 王安道
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_fdZVEQC8NHMEJCEqh8OIxk
+        subject_person_id: p_nojPrrKJqFqJjyBvH6ZAkR
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_hMbDUQB1GaYNgCJcxGcWWL
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_uskvdLGJUocVQh1-xtFda8
+          claim_id: c_fdZVEQC8NHMEJCEqh8OIxk
+          source_id: s_qBXgxBd99XeUmj4pBc6DTT
+          stance: supports
+          locator: 永樂十年進士登科錄:一卷，第三甲第四十名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_nojPrrKJqFqJjyBvH6ZAkR
+        status: active
+        display_name: 王仲友
+        merged_into_person_id: null
+    - claim:
+        id: c_4hJJoDVJVYKwVDZA17uQZf
+        subject_person_id: p_Kv3jzAUBZdwG1dvrCMQthg
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_hMbDUQB1GaYNgCJcxGcWWL
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5UNryF32M10cRVaTM2sDwN
+          claim_id: c_4hJJoDVJVYKwVDZA17uQZf
+          source_id: s_qBXgxBd99XeUmj4pBc6DTT
+          stance: supports
+          locator: 永樂十年進士登科錄:一卷，第三甲第四十名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Kv3jzAUBZdwG1dvrCMQthg
+        status: active
+        display_name: 王士弘
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_WPx4EjSn2rHqao5Mj3syGV | 王安道 | accepted |
+| ancestors | p_nojPrrKJqFqJjyBvH6ZAkR | 王仲友 | accepted |
+| ancestors | p_Kv3jzAUBZdwG1dvrCMQthg | 王士弘 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_f5HDaeimCAPXFME3b5BWep
 status: active
 merged_into: null
 display_name: 王智
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -110,7 +110,44 @@ relationships:
         status: active
         display_name: 王文林
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_7sVKlwiHNubenV9-GcT0gn
+        subject_person_id: p_f5HDaeimCAPXFME3b5BWep
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_GyDFNM8h3KCT9MHvDUXLC2
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vfg_tjTmXjcGPdw4-2LoXS
+          claim_id: c_7sVKlwiHNubenV9-GcT0gn
+          source_id: s_i7VeDGRjr3jLVssGMAx7FC
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Yuanhe3：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_i7VeDGRjr3jLVssGMAx7FC
+            source_type: api_record
+            title: 中国历代人物传记资料库：王惟誠（CBDB 143228）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=143228&o=json
+            external_identifier: CBDB:143228
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.618Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_GyDFNM8h3KCT9MHvDUXLC2
+        status: active
+        display_name: 王惟誠
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +172,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_9vp8SfkcaLh3BHQ66WSVvS | 王文林 | accepted |
+| children | p_GyDFNM8h3KCT9MHvDUXLC2 | 王惟誠 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王惟誠（CBDB 143228）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=143228&o=json)
 - [中国历代人物传记资料库：王文林（CBDB 190754）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=190754&o=json)
 - [中国历代人物传记资料库：王智（CBDB 165867）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=165867&o=json)

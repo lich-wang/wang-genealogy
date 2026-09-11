@@ -4,7 +4,7 @@ id: p_LrwY5tXkYCUNXA8ZrdXwSb
 status: active
 merged_into: null
 display_name: 王維楨
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_JbmSoiG-dlmED4dat0U4J4
+        subject_person_id: p_HxkU2fnETNPPrHRLTi3TtQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_LrwY5tXkYCUNXA8ZrdXwSb
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_D55ZRia-hrrWq3ZxFZk3Lq
+          claim_id: c_JbmSoiG-dlmED4dat0U4J4
+          source_id: s_B9C1yXQ4hWLZGnjPi1s5ui
+          stance: supports
+          locator: 嘉靖十四年進士登科錄:一卷，第三甲第一百零三名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_B9C1yXQ4hWLZGnjPi1s5ui
+            source_type: api_record
+            title: 中国历代人物传记资料库：王載（CBDB 297163）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297163&o=json
+            external_identifier: CBDB:297163
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.548Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_HxkU2fnETNPPrHRLTi3TtQ
+        status: active
+        display_name: 王載
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -192,9 +229,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_HxkU2fnETNPPrHRLTi3TtQ | 王載 | accepted |
 | ancestors | p_1ACKLnuM8rd7xX3FtfoL2G | 王源 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王維楨（CBDB 126791）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126791&o=json)
 - [中国历代人物传记资料库：王源（CBDB 297162）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297162&o=json)
+- [中国历代人物传记资料库：王載（CBDB 297163）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297163&o=json)

@@ -4,7 +4,7 @@ id: p_UKmnBNaYcR6Y5ExUHqMqA5
 status: active
 merged_into: null
 display_name: 王意
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_HEyi5XBq1FqAVLHglO2eM5
+        subject_person_id: p_UKmnBNaYcR6Y5ExUHqMqA5
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_H841UufcMkWpzbemaqposM
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GxdO02j--WpwyYaH13cwxW
+          claim_id: c_HEyi5XBq1FqAVLHglO2eM5
+          source_id: s_88e9mqJVWV2xoBh8UzFFtc
+          stance: supports
+          locator: 正统十年進士登科錄:一卷，第二甲第四十九名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_88e9mqJVWV2xoBh8UzFFtc
+            source_type: api_record
+            title: 中国历代人物传记资料库：王福（CBDB 208015）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=208015&o=json
+            external_identifier: CBDB:208015
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.938Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_H841UufcMkWpzbemaqposM
+        status: active
+        display_name: 王福
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_H841UufcMkWpzbemaqposM | 王福 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王福（CBDB 208015）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=208015&o=json)
 - [中国历代人物传记资料库：王意（CBDB 239293）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=239293&o=json)

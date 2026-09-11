@@ -4,7 +4,7 @@ id: p_HEUcerQJFyi9et4579m3gv
 status: active
 merged_into: null
 display_name: 王遵訓
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -133,7 +133,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_INA5ybAhKZOGJOY6LH_isd
+        subject_person_id: p_KTynjRn7fpCYtyL7AxGceQ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_HEUcerQJFyi9et4579m3gv
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3OxpsVtMqEc-M6GlBilI52
+          claim_id: c_INA5ybAhKZOGJOY6LH_isd
+          source_id: s_wRUdnTyP5CUA1SubSNpUQe
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13172：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_KTynjRn7fpCYtyL7AxGceQ
+        status: active
+        display_name: 王鳴世
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,6 +181,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_KTynjRn7fpCYtyL7AxGceQ | 王鳴世 | accepted |
 
 ## 外部来源
 

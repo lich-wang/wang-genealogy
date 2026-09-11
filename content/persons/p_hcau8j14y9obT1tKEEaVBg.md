@@ -4,7 +4,7 @@ id: p_hcau8j14y9obT1tKEEaVBg
 status: active
 merged_into: null
 display_name: 王霆
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -77,7 +77,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_LZ1PIEJF5GFfN1dFXkRlQT
+        subject_person_id: p_J85XdvNMHT3CHkyGJu6LEH
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_hcau8j14y9obT1tKEEaVBg
+        generation_count: 4
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ID3Ydng88pve3rzaUsouoD
+          claim_id: c_LZ1PIEJF5GFfN1dFXkRlQT
+          source_id: s_Hv56Bpcb2Ec8huPCYgA6J5
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1162;1163：高祖;四世祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_J85XdvNMHT3CHkyGJu6LEH
+        status: active
+        display_name: 王豪
+        merged_into_person_id: null
   descendants:
     - claim:
         id: c_PBQKY_HcUWfaeTiOFa0dn5
@@ -134,6 +160,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_J85XdvNMHT3CHkyGJu6LEH | 王豪 | accepted |
 | descendants | p_11VHy3Y2n8cYGBfjtV3Dbz | 王安國 | accepted |
 
 ## 外部来源

@@ -4,7 +4,7 @@ id: p_HQAnGUmDhovTFseQeXia8R
 status: active
 merged_into: null
 display_name: 王勝
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_DnZpOfR9b4Yv4v-Co_02vR
+        subject_person_id: p_HQAnGUmDhovTFseQeXia8R
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_s3BG2bed1QUGktV4Jrg4UH
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Cu_NiBUdvxUTk-KumTMcHB
+          claim_id: c_DnZpOfR9b4Yv4v-Co_02vR
+          source_id: s_rrMLuAh4LqaZbyaArhstuy
+          stance: supports
+          locator: 隆慶五年進士登科錄:一卷，第三甲第二百八十七名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_s3BG2bed1QUGktV4Jrg4UH
+        status: active
+        display_name: 王學書
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_s3BG2bed1QUGktV4Jrg4UH | 王學書 | accepted |
 
 ## 外部来源
 

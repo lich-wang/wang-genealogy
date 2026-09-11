@@ -4,7 +4,7 @@ id: p_NQEG3VEtv6G5kdckYDLpGN
 status: active
 merged_into: null
 display_name: 王之渙
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_hN25VZj1WW2J5etz25f25y
+        subject_person_id: p_H1kxsA34h16JyK7Sd8Hoip
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_NQEG3VEtv6G5kdckYDLpGN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8BvYRM_Utvz7l8Vph73oPe
+          claim_id: c_hN25VZj1WW2J5etz25f25y
+          source_id: s_EM1vg9SSkM1CE7YMWSfCiJ
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Tianbao 28：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_EM1vg9SSkM1CE7YMWSfCiJ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王昱（CBDB 153365）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=153365&o=json
+            external_identifier: CBDB:153365
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.858Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_H1kxsA34h16JyK7Sd8Hoip
+        status: active
+        display_name: 王昱
+        merged_into_person_id: null
   children:
     - claim:
         id: c_QEg9IWH4ICBlvoRtyc7F2J
@@ -192,9 +229,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_H1kxsA34h16JyK7Sd8Hoip | 王昱 | accepted |
 | children | p_74AVJogdybebtFT6DXvEhJ | 王羽 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王羽（CBDB 153367）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=153367&o=json)
+- [中国历代人物传记资料库：王昱（CBDB 153365）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=153365&o=json)
 - [中国历代人物传记资料库：王之渙（CBDB 91975）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=91975&o=json)

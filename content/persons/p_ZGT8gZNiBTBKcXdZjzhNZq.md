@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王俊
 cbdb_id: 145900
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -370,6 +370,43 @@ relationships:
         status: active
         display_name: 王处元
         merged_into_person_id: null
+    - claim:
+        id: c_WGu7QyWjY_wLJyfaLcOlJM
+        subject_person_id: p_ZGT8gZNiBTBKcXdZjzhNZq
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_HWxNZqy4bJLKT4KqrYrQ3A
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bICmU-bvqLlyAE8eIudM10
+          claim_id: c_WGu7QyWjY_wLJyfaLcOlJM
+          source_id: s_QMijptxZLiMDPKoaBkQ7vn
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_QMijptxZLiMDPKoaBkQ7vn
+            source_type: api_record
+            title: 中国历代人物传记资料库：王彥威（CBDB 189553）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=189553&o=json
+            external_identifier: CBDB:189553
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.302Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_HWxNZqy4bJLKT4KqrYrQ3A
+        status: active
+        display_name: 王彥威
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -398,6 +435,7 @@ relationships:
 | parents | p_Cce815uEoUo6yUTu46sgAK | 王暾 | accepted |
 | children | p_kBNbxB2AhECfnww4v6s6my | 王彦威 | accepted |
 | children | p_f1E8aCXS8n5AzbbbpzdTzB | 王处元 | accepted |
+| children | p_HWxNZqy4bJLKT4KqrYrQ3A | 王彥威 | accepted |
 
 ## 外部来源
 
@@ -405,5 +443,6 @@ relationships:
 - [维基数据：王俊（Q26209939）](https://www.wikidata.org/wiki/Q26209939)
 - [维基数据：王暾（Q26209938）](https://www.wikidata.org/wiki/Q26209938)
 - [维基数据：王彦威（Q15894027）](https://www.wikidata.org/wiki/Q15894027)
+- [中国历代人物传记资料库：王彥威（CBDB 189553）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=189553&o=json)
 - [CBDB 中国历代人物传记资料库：王俊（145900）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=145900&o=json)
 - [CBDB 中国历代人物传记资料库：王暾（191288）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191288&o=json)

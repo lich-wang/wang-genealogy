@@ -4,7 +4,7 @@ id: p_HaRm7DvQseumdNhwCpR53G
 status: active
 merged_into: null
 display_name: 王德文
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -129,7 +129,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_VSqMXRZ9OIqq03i7RiB4q6
+        subject_person_id: p_HaRm7DvQseumdNhwCpR53G
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ETmjdmNWuRGDjjPH8p2fvR
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8R7L0ShXM22-m5MTJ9m6-J
+          claim_id: c_VSqMXRZ9OIqq03i7RiB4q6
+          source_id: s_WLoPrJqMGjCTJDYh91J6Q6
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，769：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_ETmjdmNWuRGDjjPH8p2fvR
+        status: active
+        display_name: 王敄
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +181,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_ETmjdmNWuRGDjjPH8p2fvR | 王敄 | accepted |
 
 ## 外部来源
 

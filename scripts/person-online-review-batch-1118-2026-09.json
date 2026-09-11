@@ -1,0 +1,80 @@
+{
+  "schema": "wang-person-online-review-batch/v1",
+  "reviewer": "luna",
+  "reviewed_at": "2026-09-11",
+  "queue_positions": [
+    11171,
+    11180
+  ],
+  "summary": {
+    "reviewed": 10,
+    "relationships_added": 9,
+    "manual_review": 2
+  },
+  "relationships": [
+    {
+      "subject": "p_z8V9ZSLdpQZsHteaegkgLo",
+      "object": "p_H5XJ9wsBqaUG7iLGVt5LMg",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    },
+    {
+      "subject": "p_H5XJ9wsBqaUG7iLGVt5LMg",
+      "object": "p_qJkLJtx4xgEPAf9CxJTjMA",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    },
+    {
+      "subject": "p_H5XJ9wsBqaUG7iLGVt5LMg",
+      "object": "p_x2Moim4y8PJXGSSXX9H82Y",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    },
+    {
+      "subject": "p_H5XJ9wsBqaUG7iLGVt5LMg",
+      "object": "p_z5zJP5stLYzFPNkM4jetYc",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    },
+    {
+      "subject": "p_H5XJ9wsBqaUG7iLGVt5LMg",
+      "object": "p_fspPMgYwiJchRCTQFFm38t",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    },
+    {
+      "subject": "p_H5XJ9wsBqaUG7iLGVt5LMg",
+      "object": "p_QvFi1p7xLJZTbb1KrvtENM",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    },
+    {
+      "subject": "p_ZfvKo5JYpUwjUfsAxry79D",
+      "object": "p_H6ADXcsddQz8PL3XHF26HH",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 3
+    },
+    {
+      "subject": "p_J14w43hnTvbQMG981aghEQ",
+      "object": "p_H6ADXcsddQz8PL3XHF26HH",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 2
+    },
+    {
+      "subject": "p_rQ3QkQ6Ppvi2nvZM6NWRzv",
+      "object": "p_H6ADXcsddQz8PL3XHF26HH",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    }
+  ],
+  "unchanged": [
+    "p_h5tY6AbiCvtC1nmAP3rzpp",
+    "p_H5uVzi9c2rSNg4P6V6FtXZ",
+    "p_H5wDMyqMuSXNfp73VhaJSZ",
+    "p_H62w62NygJ1818ULHj5N3C",
+    "p_H67PqZ1NH1kNdGhEQNGqtQ",
+    "p_h6AH8x9SZSpkZkLJNLJkk9",
+    "p_h6AzGZfURnJMZLqM8Pub53",
+    "p_h6BAtyKr9PD64wXXJGNV4M"
+  ]
+}

@@ -4,7 +4,7 @@ id: p_ZrffszDUs4AxXq4vwPGj2R
 status: active
 merged_into: null
 display_name: 王章
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -105,7 +105,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_-Ezq4SHPWmwQnT4AC3yRAI
+        subject_person_id: p_HK57Ndq1DsG6u8A7z6ejwo
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_ZrffszDUs4AxXq4vwPGj2R
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_i8vMaMy9YPQjRwL0Wqj1NJ
+          claim_id: c_-Ezq4SHPWmwQnT4AC3yRAI
+          source_id: s_6cd8t9QNNWwUgC3BRygx1f
+          stance: supports
+          locator: 成化十七年進士登科錄:一卷，第三甲第一百五十一名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_6cd8t9QNNWwUgC3BRygx1f
+            source_type: api_record
+            title: 中国历代人物传记资料库：王林（CBDB 257013）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257013&o=json
+            external_identifier: CBDB:257013
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.393Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_HK57Ndq1DsG6u8A7z6ejwo
+        status: active
+        display_name: 王林
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_HK57Ndq1DsG6u8A7z6ejwo | 王林 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王林（CBDB 257013）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257013&o=json)
 - [中国历代人物传记资料库：王章（CBDB 200383）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200383&o=json)

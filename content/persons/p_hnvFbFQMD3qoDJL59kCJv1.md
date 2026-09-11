@@ -4,7 +4,7 @@ id: p_hnvFbFQMD3qoDJL59kCJv1
 status: active
 merged_into: null
 display_name: 王應麟
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,12 +128,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_OLEqWglKs3uqEz2QdivYXW
+        subject_person_id: p_MpRHKYQgMhyeJ8uJAKZD2Z
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_hnvFbFQMD3qoDJL59kCJv1
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YmLQFt9Hy_cWZ0KRiM0r6u
+          claim_id: c_OLEqWglKs3uqEz2QdivYXW
+          source_id: s_USNXCoUtmKiaD7MqB2q9Qs
+          stance: supports
+          locator: 萬曆八年進士登科錄:一卷，第三甲第二百名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_MpRHKYQgMhyeJ8uJAKZD2Z
+        status: active
+        display_name: 王榮貴
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_QC7YHT9x8TUV_zScRuH_ED
+        subject_person_id: p_j6yFKCjZuRSKE6EaY7VL2H
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_hnvFbFQMD3qoDJL59kCJv1
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-949Vse62N_k0wD151pgza
+          claim_id: c_QC7YHT9x8TUV_zScRuH_ED
+          source_id: s_USNXCoUtmKiaD7MqB2q9Qs
+          stance: supports
+          locator: 萬曆八年進士登科錄:一卷，第三甲第二百名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_j6yFKCjZuRSKE6EaY7VL2H
+        status: active
+        display_name: 王先宗
+        merged_into_person_id: null
+    - claim:
+        id: c_gAo8JGuj8ePqF8ZtfZt0K8
+        subject_person_id: p_MJhP1yFLnhK4DCVH2JD1UB
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_hnvFbFQMD3qoDJL59kCJv1
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AWfoQNeEqcpKxq-6XhaWl6
+          claim_id: c_gAo8JGuj8ePqF8ZtfZt0K8
+          source_id: s_USNXCoUtmKiaD7MqB2q9Qs
+          stance: supports
+          locator: 萬曆八年進士登科錄:一卷，第三甲第二百名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_MJhP1yFLnhK4DCVH2JD1UB
+        status: active
+        display_name: 王質安
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,6 +233,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_MpRHKYQgMhyeJ8uJAKZD2Z | 王榮貴 | accepted |
+| ancestors | p_j6yFKCjZuRSKE6EaY7VL2H | 王先宗 | accepted |
+| ancestors | p_MJhP1yFLnhK4DCVH2JD1UB | 王質安 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_HGNVSzUedLdEMNdw1oPDJy
 status: active
 merged_into: null
 display_name: 王禔
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,8 +100,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_ypzJSEAJtQqL1km-6WLFbO
+        subject_person_id: p_qoaDe7jk8H62BEe1dH2W5h
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_HGNVSzUedLdEMNdw1oPDJy
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__Yiyskxd2nK6hZt26rMArM
+          claim_id: c_ypzJSEAJtQqL1km-6WLFbO
+          source_id: s_em1J5J6eHHzFabW3Emisty
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_qoaDe7jk8H62BEe1dH2W5h
+        status: active
+        display_name: 王大鼎
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_ueFl190XVsoSBQryi0QzRI
+        subject_person_id: p_HGNVSzUedLdEMNdw1oPDJy
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_KpUqber2VDsMb5TJ68k7tk
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_X-zv_qhB_omqOBBzKkgkqU
+          claim_id: c_ueFl190XVsoSBQryi0QzRI
+          source_id: s_em1J5J6eHHzFabW3Emisty
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_KpUqber2VDsMb5TJ68k7tk
+        status: active
+        display_name: 王滂
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,6 +178,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_qoaDe7jk8H62BEe1dH2W5h | 王大鼎 | accepted |
+| children | p_KpUqber2VDsMb5TJ68k7tk | 王滂 | accepted |
 
 ## 外部来源
 

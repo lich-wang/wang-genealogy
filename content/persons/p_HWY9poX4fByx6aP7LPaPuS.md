@@ -4,7 +4,7 @@ id: p_HWY9poX4fByx6aP7LPaPuS
 status: active
 merged_into: null
 display_name: 王國瑞
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_HWiP6VS87lnIcEoOv0i0Py
+        subject_person_id: p_tykLYJfa29uHdD7zT9FGfy
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_HWY9poX4fByx6aP7LPaPuS
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QjsmC65NhNTT5hzChy9ouZ
+          claim_id: c_HWiP6VS87lnIcEoOv0i0Py
+          source_id: s_Wmf6LbPfUPfCMPBXUBvH5u
+          stance: supports
+          locator: 蘭溪縣志，13：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_tykLYJfa29uHdD7zT9FGfy
+        status: active
+        display_name: 王開
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_tykLYJfa29uHdD7zT9FGfy | 王開 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_9per95yktK3i7Q899v63sD
 status: active
 merged_into: null
 display_name: 王士龍
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -148,6 +148,43 @@ relationships:
         status: active
         display_name: 王時亨
         merged_into_person_id: null
+    - claim:
+        id: c_8n8l-xucbC-QcVonfaGmiW
+        subject_person_id: p_9per95yktK3i7Q899v63sD
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Hcs4M6sfPGU9rT3rrDzaVL
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_i8gFZ1QsexjMZQP2DZmdHP
+          claim_id: c_8n8l-xucbC-QcVonfaGmiW
+          source_id: s_GmCM3ktxkX5uFM47yMcw6D
+          stance: supports
+          locator: "元和唯亭志: 二十卷，lgid=179032：父"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_GmCM3ktxkX5uFM47yMcw6D
+            source_type: api_record
+            title: 中国历代人物传记资料库：王用俊（CBDB 702874）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=702874&o=json
+            external_identifier: CBDB:702874
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:06.620Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Hcs4M6sfPGU9rT3rrDzaVL
+        status: active
+        display_name: 王用俊
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -173,9 +210,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_74Qzh7hdC512soxk6XYfNt | 王治 | accepted |
 | children | p_6BLmMzExpHB3EP6zKJh8SE | 王時亨 | accepted |
+| children | p_Hcs4M6sfPGU9rT3rrDzaVL | 王用俊 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王時亨（CBDB 702873）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=702873&o=json)
 - [中国历代人物传记资料库：王士龍（CBDB 702863）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=702863&o=json)
+- [中国历代人物传记资料库：王用俊（CBDB 702874）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=702874&o=json)
 - [中国历代人物传记资料库：王治（CBDB 702862）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=702862&o=json)

@@ -4,7 +4,7 @@ id: p_Hcs4M6sfPGU9rT3rrDzaVL
 status: active
 merged_into: null
 display_name: 王用俊
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_8n8l-xucbC-QcVonfaGmiW
+        subject_person_id: p_9per95yktK3i7Q899v63sD
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Hcs4M6sfPGU9rT3rrDzaVL
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_i8gFZ1QsexjMZQP2DZmdHP
+          claim_id: c_8n8l-xucbC-QcVonfaGmiW
+          source_id: s_GmCM3ktxkX5uFM47yMcw6D
+          stance: supports
+          locator: "元和唯亭志: 二十卷，lgid=179032：父"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_9per95yktK3i7Q899v63sD
+        status: active
+        display_name: 王士龍
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_mRMp65V2V6Wdvhzmtj-n5b
+        subject_person_id: p_Hcs4M6sfPGU9rT3rrDzaVL
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_kp4LFuhULDpkgqMTGegNF8
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HnewlfQQzgmxlIUOeWSY8v
+          claim_id: c_mRMp65V2V6Wdvhzmtj-n5b
+          source_id: s_GmCM3ktxkX5uFM47yMcw6D
+          stance: supports
+          locator: "元和唯亭志: 二十卷，lgid=179034：子"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_kp4LFuhULDpkgqMTGegNF8
+        status: active
+        display_name: 王逢
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_9per95yktK3i7Q899v63sD | 王士龍 | accepted |
+| children | p_kp4LFuhULDpkgqMTGegNF8 | 王逢 | accepted |
 
 ## 外部来源
 

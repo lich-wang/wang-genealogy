@@ -4,7 +4,7 @@ id: p_hFvKjcZzAHBT5yPLcNPrer
 status: active
 merged_into: null
 display_name: 王兆修
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,86 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_MHbiMr_Mwmdk5knEojdRgP
+        subject_person_id: p_vm3pjaHTSDQ6VkzaEmZzF9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_hFvKjcZzAHBT5yPLcNPrer
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SqfJ7eOLHjxMxkJ-AbAHpb
+          claim_id: c_MHbiMr_Mwmdk5knEojdRgP
+          source_id: s_VZG21ML9jSUQfaey7co6Fh
+          stance: supports
+          locator: 紹興府志:八十卷，Igid=316225：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_vm3pjaHTSDQ6VkzaEmZzF9
+        status: active
+        display_name: 王以寧
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_jMsByHYeknbwy-RihqMOKM
+        subject_person_id: p_hFvKjcZzAHBT5yPLcNPrer
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_AaQhjwT4qUJGsYqjkKJ322
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Q0C4xVHu-HEqRMfQO241I2
+          claim_id: c_jMsByHYeknbwy-RihqMOKM
+          source_id: s_VZG21ML9jSUQfaey7co6Fh
+          stance: supports
+          locator: 紹興府志:八十卷，Igid=316225：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_AaQhjwT4qUJGsYqjkKJ322
+        status: active
+        display_name: 王穀韋
+        merged_into_person_id: null
+    - claim:
+        id: c_b1_et7FTwdC6PtZaCKbIb8
+        subject_person_id: p_hFvKjcZzAHBT5yPLcNPrer
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_VXJ2xmm79MM68JW6yyEiQ6
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_uh6wNhQFJkZnoUfXmXgmwu
+          claim_id: c_b1_et7FTwdC6PtZaCKbIb8
+          source_id: s_VZG21ML9jSUQfaey7co6Fh
+          stance: supports
+          locator: 紹興府志:八十卷，Igid=316225：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_VXJ2xmm79MM68JW6yyEiQ6
+        status: active
+        display_name: 王穀振
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +175,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_vm3pjaHTSDQ6VkzaEmZzF9 | 王以寧 | accepted |
+| children | p_AaQhjwT4qUJGsYqjkKJ322 | 王穀韋 | accepted |
+| children | p_VXJ2xmm79MM68JW6yyEiQ6 | 王穀振 | accepted |
 
 ## 外部来源
 

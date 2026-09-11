@@ -4,7 +4,7 @@ id: p_W2D9MwuPsN8G7PZXkTNBD2
 status: active
 merged_into: null
 display_name: 王得春
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -105,7 +105,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_QBdMgHkP8TKOaTbDX2XSnQ
+        subject_person_id: p_HKtsrERLbPSs3yFn5m2saF
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_W2D9MwuPsN8G7PZXkTNBD2
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_uB_AXbg5OtRG7WMUGhtUSW
+          claim_id: c_QBdMgHkP8TKOaTbDX2XSnQ
+          source_id: s_h31K8bywqY2NBMrRhSTJ3h
+          stance: supports
+          locator: 嘉靖三十五年進士登科錄:一卷，第三甲第八十一名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_h31K8bywqY2NBMrRhSTJ3h
+            source_type: api_record
+            title: 中国历代人物传记资料库：王錫瓉（CBDB 320863）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=320863&o=json
+            external_identifier: CBDB:320863
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.069Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_HKtsrERLbPSs3yFn5m2saF
+        status: active
+        display_name: 王錫瓉
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_HKtsrERLbPSs3yFn5m2saF | 王錫瓉 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王得春（CBDB 204563）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204563&o=json)
+- [中国历代人物传记资料库：王錫瓉（CBDB 320863）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=320863&o=json)

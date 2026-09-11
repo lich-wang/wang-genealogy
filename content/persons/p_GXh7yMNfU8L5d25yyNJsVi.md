@@ -4,7 +4,7 @@ id: p_GXh7yMNfU8L5d25yyNJsVi
 status: active
 merged_into: null
 display_name: 王濟
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_JVhPsTRWi5NKAgraWsXgug
+        subject_person_id: p_Yjvr1HxMf73RSYqrbeaxV5
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_GXh7yMNfU8L5d25yyNJsVi
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jZy_8-6PTLLcoaKoAo1g4J
+          claim_id: c_JVhPsTRWi5NKAgraWsXgug
+          source_id: s_DLSCDCfRKy6NX44hY2nBMq
+          stance: supports
+          locator: 成化二十三年進士登科錄:一卷，第三甲第七十七名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Yjvr1HxMf73RSYqrbeaxV5
+        status: active
+        display_name: 王能
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_p8fER1LBeVFoUiqtvOcu52
+        subject_person_id: p_N4oCbP2dDsJQJUqXk7Hx9D
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_GXh7yMNfU8L5d25yyNJsVi
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_u2PRROKaeakOoTKE1vJesu
+          claim_id: c_p8fER1LBeVFoUiqtvOcu52
+          source_id: s_DLSCDCfRKy6NX44hY2nBMq
+          stance: supports
+          locator: 成化二十三年進士登科錄:一卷，第三甲第七十七名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_N4oCbP2dDsJQJUqXk7Hx9D
+        status: active
+        display_name: 王大
+        merged_into_person_id: null
+    - claim:
+        id: c_pQxLyjhjNT2yJI8bvwq7l3
+        subject_person_id: p_LhcwXYvKdq6fztHdxjji7e
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_GXh7yMNfU8L5d25yyNJsVi
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Z6RJ8b7rXerwMT4LyObBUI
+          claim_id: c_pQxLyjhjNT2yJI8bvwq7l3
+          source_id: s_DLSCDCfRKy6NX44hY2nBMq
+          stance: supports
+          locator: 成化二十三年進士登科錄:一卷，第三甲第七十七名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_LhcwXYvKdq6fztHdxjji7e
+        status: active
+        display_name: 王顯
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Yjvr1HxMf73RSYqrbeaxV5 | 王能 | accepted |
+| ancestors | p_N4oCbP2dDsJQJUqXk7Hx9D | 王大 | accepted |
+| ancestors | p_LhcwXYvKdq6fztHdxjji7e | 王顯 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_hnGaouPfqefCGE1Y4ioHiB
 status: active
 merged_into: null
 display_name: 王承法
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_P3y08hQk2ZTziKHnyPxo2E
+        subject_person_id: p_ZWypDfDdSWhB1gKA9Sq5FX
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_hnGaouPfqefCGE1Y4ioHiB
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AMI5aCb-P8uCgfqZyiMK1d
+          claim_id: c_P3y08hQk2ZTziKHnyPxo2E
+          source_id: s_Ld6eAaNDM2h9orwWezqoBe
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaiyuan 502：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_ZWypDfDdSWhB1gKA9Sq5FX
+        status: active
+        display_name: 王輔義
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -155,6 +181,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_ZWypDfDdSWhB1gKA9Sq5FX | 王輔義 | accepted |
 
 ## 外部来源
 

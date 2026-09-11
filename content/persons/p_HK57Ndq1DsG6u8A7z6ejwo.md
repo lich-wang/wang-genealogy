@@ -4,7 +4,7 @@ id: p_HK57Ndq1DsG6u8A7z6ejwo
 status: active
 merged_into: null
 display_name: 王林
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_-Ezq4SHPWmwQnT4AC3yRAI
+        subject_person_id: p_HK57Ndq1DsG6u8A7z6ejwo
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_ZrffszDUs4AxXq4vwPGj2R
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_i8vMaMy9YPQjRwL0Wqj1NJ
+          claim_id: c_-Ezq4SHPWmwQnT4AC3yRAI
+          source_id: s_6cd8t9QNNWwUgC3BRygx1f
+          stance: supports
+          locator: 成化十七年進士登科錄:一卷，第三甲第一百五十一名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_ZrffszDUs4AxXq4vwPGj2R
+        status: active
+        display_name: 王章
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_ZrffszDUs4AxXq4vwPGj2R | 王章 | accepted |
 
 ## 外部来源
 

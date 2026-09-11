@@ -4,7 +4,7 @@ id: p_HcJi7PqxfqF452R9QmgUEw
 status: active
 merged_into: null
 display_name: 王文叡
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,8 +128,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_zS44iiXZxWYF5iskFJM4Fv
+        subject_person_id: p_6AaAUz4vN2pd5jkFTC8BzS
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_HcJi7PqxfqF452R9QmgUEw
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KNxk5hNQLyR5Ug0oyXCDhC
+          claim_id: c_zS44iiXZxWYF5iskFJM4Fv
+          source_id: s_pYQ17GZSy2Rbj29545ersx
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Shenlong17：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_6AaAUz4vN2pd5jkFTC8BzS
+        status: active
+        display_name: 王老
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_XBOi-5_dRO4by61JYCWXYS
+        subject_person_id: p_HcJi7PqxfqF452R9QmgUEw
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_WWpFuyJDd2U1NMAFbzzanK
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MlKu2279KZ5T3OFCSEvFF2
+          claim_id: c_XBOi-5_dRO4by61JYCWXYS
+          source_id: s_pYQ17GZSy2Rbj29545ersx
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Shenlong17：嗣子(作為繼承人的兒子)
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_WWpFuyJDd2U1NMAFbzzanK
+        status: active
+        display_name: 王守慎
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +207,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_6AaAUz4vN2pd5jkFTC8BzS | 王老 | accepted |
+| children | p_WWpFuyJDd2U1NMAFbzzanK | 王守慎 | accepted |
 
 ## 外部来源
 

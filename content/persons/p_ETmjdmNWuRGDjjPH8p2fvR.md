@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王敄
 cbdb_id: 10344
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,7 +86,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_VSqMXRZ9OIqq03i7RiB4q6
+        subject_person_id: p_HaRm7DvQseumdNhwCpR53G
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ETmjdmNWuRGDjjPH8p2fvR
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8R7L0ShXM22-m5MTJ9m6-J
+          claim_id: c_VSqMXRZ9OIqq03i7RiB4q6
+          source_id: s_WLoPrJqMGjCTJDYh91J6Q6
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，769：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_WLoPrJqMGjCTJDYh91J6Q6
+            source_type: api_record
+            title: 中国历代人物传记资料库：王德文（CBDB 10343）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10343&o=json
+            external_identifier: CBDB:10343
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.534Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_HaRm7DvQseumdNhwCpR53G
+        status: active
+        display_name: 王德文
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -148,9 +185,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_HaRm7DvQseumdNhwCpR53G | 王德文 | accepted |
 | ancestors | p_8wg5cR6vkEPrWyh2yu2Nbh | 王楙 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王德文（CBDB 10343）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10343&o=json)
 - [中国历代人物传记资料库：王楙（CBDB 10342）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10342&o=json)
 - [中国历代人物传记资料库：王敄（CBDB 10344）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10344&o=json)

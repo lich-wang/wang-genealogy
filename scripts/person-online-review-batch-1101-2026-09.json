@@ -1,0 +1,80 @@
+{
+  "schema": "wang-person-online-review-batch/v1",
+  "reviewer": "luna",
+  "reviewed_at": "2026-09-11",
+  "queue_positions": [
+    11001,
+    11010
+  ],
+  "summary": {
+    "reviewed": 10,
+    "relationships_added": 9,
+    "manual_review": 3
+  },
+  "relationships": [
+    {
+      "subject": "p_xKhBiXSv99m8MhpcWpPyAb",
+      "object": "p_gwVUKjMQycQaZ6UR2zvJFs",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 3
+    },
+    {
+      "subject": "p_QLSeisJK24cmFFxc6B9i4K",
+      "object": "p_gwVUKjMQycQaZ6UR2zvJFs",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 2
+    },
+    {
+      "subject": "p_E8y1MAzoBqFq8m9SnmCiAn",
+      "object": "p_gwVUKjMQycQaZ6UR2zvJFs",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    },
+    {
+      "subject": "p_gwVUKjMQycQaZ6UR2zvJFs",
+      "object": "p_o5B1fX81D52tkYaod9JBHj",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    },
+    {
+      "subject": "p_gwVUKjMQycQaZ6UR2zvJFs",
+      "object": "p_u89tPzkDusF6SdK6p8sZk8",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 2
+    },
+    {
+      "subject": "p_gwVUKjMQycQaZ6UR2zvJFs",
+      "object": "p_A1PiyeyBZmp3PGy45p7qJP",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 2
+    },
+    {
+      "subject": "p_gwVUKjMQycQaZ6UR2zvJFs",
+      "object": "p_kgb1sTL7LdqQgEftcjsnu4",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 2
+    },
+    {
+      "subject": "p_gwVUKjMQycQaZ6UR2zvJFs",
+      "object": "p_ME3dJpCb56N7c85f8K1MSR",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 2
+    },
+    {
+      "subject": "p_gWZRdtNLriuX74JT7yL7TH",
+      "object": "p_MT9QqQenXKizWtnnGxJQyH",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 2
+    }
+  ],
+  "unchanged": [
+    "p_gWw3cJDaUaCtPeicLDCjH4",
+    "p_gwXSPttmFUsRkCEP5cBG4y",
+    "p_GwYfdruF8C5JeHuLHvGeEV",
+    "p_GWZ5ScKv4CPUWhssKoCTEV",
+    "p_gX4GGz8AVWcWAUz4K38wbr",
+    "p_GX5BGK1mZD1Tw3NBeFE5XD",
+    "p_GX5rM8p3rJL33zGZCaFUsN",
+    "p_GX7AyuQVQK9xYYfXdVAWfB"
+  ]
+}

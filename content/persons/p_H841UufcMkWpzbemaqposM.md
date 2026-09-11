@@ -4,7 +4,7 @@ id: p_H841UufcMkWpzbemaqposM
 status: active
 merged_into: null
 display_name: 王福
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_HEyi5XBq1FqAVLHglO2eM5
+        subject_person_id: p_UKmnBNaYcR6Y5ExUHqMqA5
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_H841UufcMkWpzbemaqposM
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GxdO02j--WpwyYaH13cwxW
+          claim_id: c_HEyi5XBq1FqAVLHglO2eM5
+          source_id: s_88e9mqJVWV2xoBh8UzFFtc
+          stance: supports
+          locator: 正统十年進士登科錄:一卷，第二甲第四十九名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_UKmnBNaYcR6Y5ExUHqMqA5
+        status: active
+        display_name: 王意
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_lFIdLeRkEvwuoajdrl42Fd
+        subject_person_id: p_iHcjHuCToedvB1NhjdCq2m
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_H841UufcMkWpzbemaqposM
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_A9T8ccxUHxX_R7IbgH0fmx
+          claim_id: c_lFIdLeRkEvwuoajdrl42Fd
+          source_id: s_88e9mqJVWV2xoBh8UzFFtc
+          stance: supports
+          locator: 正统十年進士登科錄:一卷，第二甲第四十九名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_iHcjHuCToedvB1NhjdCq2m
+        status: active
+        display_name: 王仲溫
+        merged_into_person_id: null
+    - claim:
+        id: c_Nkk9_SKeUX17Hs3tQmhLNC
+        subject_person_id: p_KYAQt8BQX5rvNUx1tWjb6x
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_H841UufcMkWpzbemaqposM
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xRiT2S8U1GDCzX38g74aGw
+          claim_id: c_Nkk9_SKeUX17Hs3tQmhLNC
+          source_id: s_88e9mqJVWV2xoBh8UzFFtc
+          stance: supports
+          locator: 正统十年進士登科錄:一卷，第二甲第四十九名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_KYAQt8BQX5rvNUx1tWjb6x
+        status: active
+        display_name: 王志道
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_UKmnBNaYcR6Y5ExUHqMqA5 | 王意 | accepted |
+| ancestors | p_iHcjHuCToedvB1NhjdCq2m | 王仲溫 | accepted |
+| ancestors | p_KYAQt8BQX5rvNUx1tWjb6x | 王志道 | accepted |
 
 ## 外部来源
 

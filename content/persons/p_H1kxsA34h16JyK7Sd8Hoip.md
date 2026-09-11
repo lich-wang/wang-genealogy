@@ -4,7 +4,7 @@ id: p_H1kxsA34h16JyK7Sd8Hoip
 status: active
 merged_into: null
 display_name: 王昱
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_hN25VZj1WW2J5etz25f25y
+        subject_person_id: p_H1kxsA34h16JyK7Sd8Hoip
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_NQEG3VEtv6G5kdckYDLpGN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8BvYRM_Utvz7l8Vph73oPe
+          claim_id: c_hN25VZj1WW2J5etz25f25y
+          source_id: s_EM1vg9SSkM1CE7YMWSfCiJ
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Tianbao 28：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_NQEG3VEtv6G5kdckYDLpGN
+        status: active
+        display_name: 王之渙
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_NQEG3VEtv6G5kdckYDLpGN | 王之渙 | accepted |
 
 ## 外部来源
 

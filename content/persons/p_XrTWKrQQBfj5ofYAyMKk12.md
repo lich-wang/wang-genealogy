@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王垂拱
 cbdb_id: 698404
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -129,7 +129,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_P8MdnmLL0i1l-kW1cvN9TY
+        subject_person_id: p_HEBEMbatrU5oc351aRHFA3
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_XrTWKrQQBfj5ofYAyMKk12
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Z8gr29Iq-kuckYUIxvJMvH
+          claim_id: c_P8MdnmLL0i1l-kW1cvN9TY
+          source_id: s_v6Hd5gSeMGCJTHNA5viqaH
+          stance: supports
+          locator: 新修菏澤縣志，lgid=725096：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_v6Hd5gSeMGCJTHNA5viqaH
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瑩（CBDB 698405）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=698405&o=json
+            external_identifier: CBDB:698405
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:27.741Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_HEBEMbatrU5oc351aRHFA3
+        status: active
+        display_name: 王瑩
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_HEBEMbatrU5oc351aRHFA3 | 王瑩 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王垂拱（CBDB 698404）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=698404&o=json)
+- [中国历代人物传记资料库：王瑩（CBDB 698405）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=698405&o=json)

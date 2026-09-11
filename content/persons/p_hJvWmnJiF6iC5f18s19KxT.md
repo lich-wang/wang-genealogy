@@ -4,7 +4,7 @@ id: p_hJvWmnJiF6iC5f18s19KxT
 status: active
 merged_into: null
 display_name: 王元琰
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,12 +128,64 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_QIxlnAKTmYa9qF8t_Y3kfP
+        subject_person_id: p_V8TuRPJz1LKfD6dQy8Jxkx
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_hJvWmnJiF6iC5f18s19KxT
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_asUPOuLBDE7vIloJgGC3JH
+          claim_id: c_QIxlnAKTmYa9qF8t_Y3kfP
+          source_id: s_PTpVrzAkgRNfqABiAB1cLa
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaiyuan 485：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_V8TuRPJz1LKfD6dQy8Jxkx
+        status: active
+        display_name: 王方平
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_Fx8QXqdT1H2Nnx76n52qHM
+        subject_person_id: p_UeaYLpUuZp68RNcTFC71Ls
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_hJvWmnJiF6iC5f18s19KxT
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3_bGs9iG5aKctC-Y8uKI_r
+          claim_id: c_Fx8QXqdT1H2Nnx76n52qHM
+          source_id: s_PTpVrzAkgRNfqABiAB1cLa
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaiyuan 485：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_UeaYLpUuZp68RNcTFC71Ls
+        status: active
+        display_name: 王都
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,6 +207,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_V8TuRPJz1LKfD6dQy8Jxkx | 王方平 | accepted |
+| ancestors | p_UeaYLpUuZp68RNcTFC71Ls | 王都 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_SA68oKcizV46xwsBi5gVeS
 status: active
 merged_into: null
 display_name: 王瑤
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_Y0QBK5noL-b1T_kHlbCHiQ
+        subject_person_id: p_H8RkaRsCSo1M7nJtrw5SYf
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_SA68oKcizV46xwsBi5gVeS
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0LxHY2Zut0RkRf4AuO12ln
+          claim_id: c_Y0QBK5noL-b1T_kHlbCHiQ
+          source_id: s_Ufw49Up1CMm6fehnFELy8S
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Ufw49Up1CMm6fehnFELy8S
+            source_type: api_record
+            title: 中国历代人物传记资料库：王簡（CBDB 159953）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=159953&o=json
+            external_identifier: CBDB:159953
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.936Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_H8RkaRsCSo1M7nJtrw5SYf
+        status: active
+        display_name: 王簡
+        merged_into_person_id: null
   children:
     - claim:
         id: c_6tsueEJhKCDLxXMKJ8c2sL
@@ -171,11 +208,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_H8RkaRsCSo1M7nJtrw5SYf | 王簡 | accepted |
 | children | p_gBZQ9PfF6PdVeXmVgxzFes | 王進 | accepted |
 | descendants | p_buHPPD7o3Zg7opBbsnKMQ6 | 王公素 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王公素（CBDB 141742）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=141742&o=json)
+- [中国历代人物传记资料库：王簡（CBDB 159953）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=159953&o=json)
 - [中国历代人物传记资料库：王進（CBDB 159955）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=159955&o=json)
 - [中国历代人物传记资料库：王瑤（CBDB 159954）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=159954&o=json)

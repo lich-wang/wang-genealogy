@@ -4,7 +4,7 @@ id: p_4vr7bkbajYb5aZb5N7UFqC
 status: active
 merged_into: null
 display_name: 王槐
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -143,6 +143,43 @@ relationships:
         status: active
         display_name: 王伯達
         merged_into_person_id: null
+    - claim:
+        id: c_JnnLpkCTs8xacPEf-J3jUn
+        subject_person_id: p_GxBFo3Tg3mRPwqsk6hEJZf
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_4vr7bkbajYb5aZb5N7UFqC
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gaDgZ6OBydBcfNEV63404d
+          claim_id: c_JnnLpkCTs8xacPEf-J3jUn
+          source_id: s_WgTBR8r3uB4euDukz43ixA
+          stance: supports
+          locator: 成化十七年進士登科錄:一卷，第三甲第八十一名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_WgTBR8r3uB4euDukz43ixA
+            source_type: api_record
+            title: 中国历代人物传记资料库：王益（CBDB 256338）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=256338&o=json
+            external_identifier: CBDB:256338
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.384Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_GxBFo3Tg3mRPwqsk6hEJZf
+        status: active
+        display_name: 王益
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_3rB1AVmk8HkFeV89CX3373 | 王伯達 | accepted |
+| ancestors | p_GxBFo3Tg3mRPwqsk6hEJZf | 王益 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王伯達（CBDB 256337）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=256337&o=json)
 - [中国历代人物传记资料库：王槐（CBDB 200324）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200324&o=json)
+- [中国历代人物传记资料库：王益（CBDB 256338）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=256338&o=json)

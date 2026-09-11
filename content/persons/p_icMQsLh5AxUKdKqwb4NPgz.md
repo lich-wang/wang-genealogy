@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王芝異
 cbdb_id: 517412
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -87,7 +87,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_K8VZeQ8UmAsY8lIriv4ZR4
+        subject_person_id: p_icMQsLh5AxUKdKqwb4NPgz
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_hJE5Kv5NfmNkUurrk6Rsdr
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JT_LW9FsW6zfuNpFZzV5hT
+          claim_id: c_K8VZeQ8UmAsY8lIriv4ZR4
+          source_id: s_8cEdwG41FG4GcfhZ8FVqHH
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），1875：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_8cEdwG41FG4GcfhZ8FVqHH
+            source_type: api_record
+            title: 中国历代人物传记资料库：王家璧（CBDB 55667）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=55667&o=json
+            external_identifier: CBDB:55667
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.747Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_hJE5Kv5NfmNkUurrk6Rsdr
+        status: active
+        display_name: 王家璧
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_hJE5Kv5NfmNkUurrk6Rsdr | 王家璧 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王家璧（CBDB 55667）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=55667&o=json)
 - [中国历代人物传记资料库：王芝異（CBDB 517412）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=517412&o=json)
