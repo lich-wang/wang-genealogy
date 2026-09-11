@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王士逵
 cbdb_id: 336303
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:336303
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_ZEzLzBt8XxPVyNeRGY1FvK
             source_type: api_record
             title: 中国历代人物传记资料库：王士逵（CBDB 336303）
@@ -87,7 +87,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_99crtNrT2UbTVX9pUi1G07
+        subject_person_id: p_3NLrzrSSHKzjmRv78pJAPK
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_viaM6m196hS8EVYS6L8gg8
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_huZLz-wVMycE4IhqPGd_SN
+          claim_id: c_99crtNrT2UbTVX9pUi1G07
+          source_id: s_ZEzLzBt8XxPVyNeRGY1FvK
+          stance: supports
+          locator: 隆慶二年進士登科錄:一卷，第三甲第一百八十名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_viaM6m196hS8EVYS6L8gg8
+        status: active
+        display_name: 王宣化
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_viaM6m196hS8EVYS6L8gg8 | 王宣化 | accepted |
 
 ## 外部来源
 

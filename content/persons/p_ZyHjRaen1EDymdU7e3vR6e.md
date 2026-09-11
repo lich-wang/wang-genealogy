@@ -4,7 +4,7 @@ id: p_ZyHjRaen1EDymdU7e3vR6e
 status: active
 merged_into: null
 display_name: 王鳴盛
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -167,6 +167,58 @@ relationships:
         status: active
         display_name: 王嗣穫
         merged_into_person_id: null
+    - claim:
+        id: c_BvWtstDmCHWFp4I4CNyGJN
+        subject_person_id: p_ZyHjRaen1EDymdU7e3vR6e
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_zkwZsLLQjFZ5N6EjaRwRDi
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_f_CfwWjUgfGvhv64zUktLA
+          claim_id: c_BvWtstDmCHWFp4I4CNyGJN
+          source_id: s_hmRPxUWfAta8p1JV8P6aso
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），9286：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_zkwZsLLQjFZ5N6EjaRwRDi
+        status: active
+        display_name: 王嗣構
+        merged_into_person_id: null
+    - claim:
+        id: c_xHWfiFtaM7ytuF7yvkA1tP
+        subject_person_id: p_ZyHjRaen1EDymdU7e3vR6e
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_pth7Wt1GjSMUzqmVpJWYW9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_oOm7RnP9sl_uAMj_waF-5o
+          claim_id: c_xHWfiFtaM7ytuF7yvkA1tP
+          source_id: s_hmRPxUWfAta8p1JV8P6aso
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），9286：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_pth7Wt1GjSMUzqmVpJWYW9
+        status: active
+        display_name: 王嗣疇
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -193,6 +245,8 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_WL2eC49AZSBn6E8obwFKry | 王嗣穫 | accepted |
+| children | p_zkwZsLLQjFZ5N6EjaRwRDi | 王嗣構 | accepted |
+| children | p_pth7Wt1GjSMUzqmVpJWYW9 | 王嗣疇 | accepted |
 
 ## 外部来源
 

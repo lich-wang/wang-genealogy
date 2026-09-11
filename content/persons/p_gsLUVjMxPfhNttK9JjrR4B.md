@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王毓陽
 cbdb_id: 126796
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,7 +86,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_fU4E8MTvxr68oksN97Kycw
+        subject_person_id: p_4BZEjb4RmSoM8g2SGinzYD
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_gsLUVjMxPfhNttK9JjrR4B
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8vA2lKRzXiQ-2YP4sdXlF0
+          claim_id: c_fU4E8MTvxr68oksN97Kycw
+          source_id: s_eH7acHbwwpxqevgiRumGbJ
+          stance: supports
+          locator: 萬曆二年進士登科錄:一卷，第三甲第九十九名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_eH7acHbwwpxqevgiRumGbJ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王訓賢（CBDB 214160）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214160&o=json
+            external_identifier: CBDB:214160
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:56.502Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_4BZEjb4RmSoM8g2SGinzYD
+        status: active
+        display_name: 王訓賢
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -129,6 +167,44 @@ relationships:
         status: active
         display_name: 王相
         merged_into_person_id: null
+    - claim:
+        id: c_9lRklJZOw_gjr0NfBKFcJX
+        subject_person_id: p_2Z8fhEdQR8uQZfBp4A6Q7i
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_gsLUVjMxPfhNttK9JjrR4B
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4CYwE98z8whdAz3pvTf7gA
+          claim_id: c_9lRklJZOw_gjr0NfBKFcJX
+          source_id: s_AiHZLH4SwW5rkDiaSFpVPt
+          stance: supports
+          locator: 萬曆二年進士登科錄:一卷，第三甲第九十九名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_AiHZLH4SwW5rkDiaSFpVPt
+            source_type: api_record
+            title: 中国历代人物传记资料库：王智才（CBDB 214157）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214157&o=json
+            external_identifier: CBDB:214157
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:56.502Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_2Z8fhEdQR8uQZfBp4A6Q7i
+        status: active
+        display_name: 王智才
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -148,9 +224,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_4BZEjb4RmSoM8g2SGinzYD | 王訓賢 | accepted |
 | ancestors | p_gnsgugu5diMHTTVdvydt1d | 王相 | accepted |
+| ancestors | p_2Z8fhEdQR8uQZfBp4A6Q7i | 王智才 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王相（CBDB 214158）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214158&o=json)
+- [中国历代人物传记资料库：王訓賢（CBDB 214160）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214160&o=json)
 - [中国历代人物传记资料库：王毓陽（CBDB 126796）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126796&o=json)
+- [中国历代人物传记资料库：王智才（CBDB 214157）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214157&o=json)

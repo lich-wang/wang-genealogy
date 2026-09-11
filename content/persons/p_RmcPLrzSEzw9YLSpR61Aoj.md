@@ -4,7 +4,7 @@ id: p_RmcPLrzSEzw9YLSpR61Aoj
 status: active
 merged_into: null
 display_name: 王志
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -101,7 +101,83 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_zhABF7kTAkloR8ZhiYQI3H
+        subject_person_id: p_RmcPLrzSEzw9YLSpR61Aoj
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_2RVdQXVc5dFpLTBHLLa8fr
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rGtIzLlQoaQ0ml1E-DNNFd
+          claim_id: c_zhABF7kTAkloR8ZhiYQI3H
+          source_id: s_bsQUpoeTL1H4P9c67YG1QW
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第二甲第六十三名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_bsQUpoeTL1H4P9c67YG1QW
+            source_type: api_record
+            title: 中国历代人物传记资料库：王進第（CBDB 228978）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=228978&o=json
+            external_identifier: CBDB:228978
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:58.142Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_2RVdQXVc5dFpLTBHLLa8fr
+        status: active
+        display_name: 王進第
+        merged_into_person_id: null
+    - claim:
+        id: c_Lff6ZWz6KVCZ2RPDOvGdt6
+        subject_person_id: p_RmcPLrzSEzw9YLSpR61Aoj
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3VtwA47iQeQky7CG25jomj
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fQa4xPbtqCX77at3F5KRnU
+          claim_id: c_Lff6ZWz6KVCZ2RPDOvGdt6
+          source_id: s_ukrFC9SbiKhkTtfvaAs7xA
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第二甲第六十三名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ukrFC9SbiKhkTtfvaAs7xA
+            source_type: api_record
+            title: 中国历代人物传记资料库：王選第（CBDB 228980）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=228980&o=json
+            external_identifier: CBDB:228980
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:58.142Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_3VtwA47iQeQky7CG25jomj
+        status: active
+        display_name: 王選第
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -200,11 +276,15 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_2RVdQXVc5dFpLTBHLLa8fr | 王進第 | accepted |
+| children | p_3VtwA47iQeQky7CG25jomj | 王選第 | accepted |
 | ancestors | p_cen6CGnbrNWM2fBn9EwD5L | 王釗 | accepted |
 | ancestors | p_TW5NN4LmxeJdR69nfsD96o | 王廷 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王進第（CBDB 228978）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=228978&o=json)
 - [中国历代人物传记资料库：王廷（CBDB 228971）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=228971&o=json)
+- [中国历代人物传记资料库：王選第（CBDB 228980）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=228980&o=json)
 - [中国历代人物传记资料库：王釗（CBDB 228972）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=228972&o=json)
 - [中国历代人物传记资料库：王志（CBDB 207176）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207176&o=json)

@@ -4,7 +4,7 @@ id: p_TxvCUWCPj6wVBqyLV556YD
 status: active
 merged_into: null
 display_name: 王大謨
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -142,7 +142,45 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_404N6DGPcC4WRhLUu2fAGN
+        subject_person_id: p_3JKHRJ23iN65rBD3F3StTg
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_TxvCUWCPj6wVBqyLV556YD
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PDQ_pLMJjiqHYfFgIjOj9F
+          claim_id: c_404N6DGPcC4WRhLUu2fAGN
+          source_id: s_VbCu7ZyhhizH9wNWej12Xj
+          stance: supports
+          locator: 萬曆八年進士登科錄:一卷，第三甲第一百零九名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_VbCu7ZyhhizH9wNWej12Xj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王伯蘭（CBDB 220567）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=220567&o=json
+            external_identifier: CBDB:220567
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:56.502Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_3JKHRJ23iN65rBD3F3StTg
+        status: active
+        display_name: 王伯蘭
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +202,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_CZQQ91VfnuK7NuqpB8hoXK | 王照 | accepted |
+| ancestors | p_3JKHRJ23iN65rBD3F3StTg | 王伯蘭 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王伯蘭（CBDB 220567）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=220567&o=json)
 - [中国历代人物传记资料库：王大謨（CBDB 206615）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206615&o=json)
 - [中国历代人物传记资料库：王照（CBDB 220569）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=220569&o=json)

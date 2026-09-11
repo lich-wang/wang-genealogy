@@ -4,7 +4,7 @@ id: p_3mAauYa8M61LZB5CiRWcsN
 status: active
 merged_into: null
 display_name: 王崇
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_yZC-wx0xvdiWDsIhDArEw-
+        subject_person_id: p_1bhXJAXaVpf689XsatKT86
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3mAauYa8M61LZB5CiRWcsN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_EnA3xB0dWd-_vY-E-tf5Sn
+          claim_id: c_yZC-wx0xvdiWDsIhDArEw-
+          source_id: s_BeCPfxPwTWaNXSBC4aVkaA
+          stance: supports
+          locator: 天順八年進士登科錄:一卷，第三甲第九名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_BeCPfxPwTWaNXSBC4aVkaA
+            source_type: api_record
+            title: 中国历代人物传记资料库：王公冕（CBDB 332833）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=332833&o=json
+            external_identifier: CBDB:332833
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:07.614Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_1bhXJAXaVpf689XsatKT86
+        status: active
+        display_name: 王公冕
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -163,9 +201,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_1bhXJAXaVpf689XsatKT86 | 王公冕 | accepted |
 | ancestors | p_32HrxL1829R9R83frFBagU | 王伯脩 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王伯脩（CBDB 332811）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=332811&o=json)
 - [中国历代人物传记资料库：王崇（CBDB 198899）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198899&o=json)
+- [中国历代人物传记资料库：王公冕（CBDB 332833）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=332833&o=json)

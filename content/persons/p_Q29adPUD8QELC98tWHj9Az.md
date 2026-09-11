@@ -4,7 +4,7 @@ id: p_Q29adPUD8QELC98tWHj9Az
 status: active
 merged_into: null
 display_name: 王懋
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -77,7 +77,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_yBJfr2wp05oGMCbiDhE0l7
+        subject_person_id: p_tJA4SGo5rnDTPZB6FnPcWP
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Q29adPUD8QELC98tWHj9Az
+        generation_count: 4
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Qt0W3Q50ZEVO6Z5QXr2LmY
+          claim_id: c_yBJfr2wp05oGMCbiDhE0l7
+          source_id: s_ZbRR2qinMrmQKSJZ5nhy4i
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)：玄孫;四世孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ZbRR2qinMrmQKSJZ5nhy4i
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：周氏（37792）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37792&o=json
+            external_identifier: CBDB:37792
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person:
+        id: p_tJA4SGo5rnDTPZB6FnPcWP
+        status: active
+        display_name: 周氏
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_tJA4SGo5rnDTPZB6FnPcWP | 周氏 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王懋（CBDB 37772）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37772&o=json)
+- [CBDB 中国历代人物传记资料库：周氏（37792）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37792&o=json)

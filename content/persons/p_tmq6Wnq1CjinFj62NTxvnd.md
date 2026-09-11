@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王师颜
 cbdb_id: 22250
-revision: 6
+revision: 7
 properties:
   - predicate: name.primary
     recommended:
@@ -379,7 +379,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_zxLYWcZTXh82PsZ7FHlhGW
+        subject_person_id: p_b2BNKpQqMbC3xJGHf9un3N
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_tmq6Wnq1CjinFj62NTxvnd
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JTpQj-CGS36_5IbFv2z1Xh
+          claim_id: c_zxLYWcZTXh82PsZ7FHlhGW
+          source_id: s_aL4EcP94aV8eKfMQDR86hi
+          stance: supports
+          locator: 宋史，0：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_aL4EcP94aV8eKfMQDR86hi
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王明（1855）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1855&o=json
+            external_identifier: CBDB:1855
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person:
+        id: p_b2BNKpQqMbC3xJGHf9un3N
+        status: active
+        display_name: 王明
+        merged_into_person_id: null
   descendants:
     - claim:
         id: c_WxZP-zFUdISEKiY-wACZcu
@@ -516,6 +553,7 @@ relationships:
 | children | p_41bxVmHw5ND7pqZvCudej3 | 王广延 | accepted |
 | children | p_MF4Tkm8P8AmX2EL67mNieQ | 王广臣 | accepted |
 | children | p_Ss4FDNkeA1F5Hedzt8DUZx | 王廣廉 | accepted |
+| ancestors | p_b2BNKpQqMbC3xJGHf9un3N | 王明 | accepted |
 | descendants | p_8vyDFoA9sK1kQi3gjQvrix | 王得凝 | accepted |
 | descendants | p_FSPKUCsUhFPGcVbwr9ZPSh | 王得與 | accepted |
 | descendants | p_UtxyZahWa6LaP1XseyvCe3 | 王得象 | accepted |
@@ -533,4 +571,5 @@ relationships:
 - [CBDB 中国历代人物传记资料库：王廣臣（36574）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=36574&o=json)
 - [CBDB 中国历代人物传记资料库：王廣臨（2133）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=2133&o=json)
 - [CBDB 中国历代人物传记资料库：王廣延（36573）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=36573&o=json)
+- [CBDB 中国历代人物传记资料库：王明（1855）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1855&o=json)
 - [CBDB 中国历代人物传记资料库：王師顏（22250）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22250&o=json)

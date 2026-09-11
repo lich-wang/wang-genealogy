@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王广渊
 cbdb_id: 1844
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -214,7 +214,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_3la2I3JtQYE0Qz7uqtrTmA
+        subject_person_id: p_b2BNKpQqMbC3xJGHf9un3N
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_LFjdt9p5AsmDgzGet1fXc3
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lzrVxvxVsFL6H1R3HlFoZL
+          claim_id: c_3la2I3JtQYE0Qz7uqtrTmA
+          source_id: s_aL4EcP94aV8eKfMQDR86hi
+          stance: supports
+          locator: 宋史：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_aL4EcP94aV8eKfMQDR86hi
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王明（1855）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1855&o=json
+            external_identifier: CBDB:1855
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person:
+        id: p_b2BNKpQqMbC3xJGHf9un3N
+        status: active
+        display_name: 王明
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -236,6 +273,7 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_tmq6Wnq1CjinFj62NTxvnd | 王师颜 | accepted |
 | children | p_xkR2JVaQE9hnma1HpccwBd | 王得君 | accepted |
+| ancestors | p_b2BNKpQqMbC3xJGHf9un3N | 王明 | accepted |
 
 ## 外部来源
 
@@ -243,3 +281,4 @@ relationships:
 - [维基数据：王广渊（Q45359566）](https://www.wikidata.org/wiki/Q45359566)
 - [维基数据：王师颜（Q45402112）](https://www.wikidata.org/wiki/Q45402112)
 - [CBDB 中国历代人物传记资料库：王廣淵（1844）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1844&o=json)
+- [CBDB 中国历代人物传记资料库：王明（1855）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1855&o=json)

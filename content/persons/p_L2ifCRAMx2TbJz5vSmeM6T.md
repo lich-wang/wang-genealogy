@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 赵氏
 cbdb_id: 38569
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -50,7 +50,7 @@ properties:
           locator: CBDB:38569
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source:
+          source: &a2
             id: s_inp2TgyDeUUZJ8Zq2rkTe5
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：趙氏（38569）
@@ -134,8 +134,60 @@ relationships:
         status: active
         display_name: 王寂
         merged_into_person_id: null
+    - claim:
+        id: c_ge6784kQEqow7YHp8SUttY
+        subject_person_id: p_L2ifCRAMx2TbJz5vSmeM6T
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_4Hjde84UDSxNby7XrvDD1E
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VESipHzth9l5v_yCXKUVqz
+          claim_id: c_ge6784kQEqow7YHp8SUttY
+          source_id: s_inp2TgyDeUUZJ8Zq2rkTe5
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_4Hjde84UDSxNby7XrvDD1E
+        status: active
+        display_name: 王寂
+        merged_into_person_id: null
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_RxTDRMGaQSG3z3E-Y9i3eF
+        subject_person_id: p_L2ifCRAMx2TbJz5vSmeM6T
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_yapy3APS2bJCVFq3VNLaKZ
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QIHB_IxKwAbAsbCW-TiHCk
+          claim_id: c_RxTDRMGaQSG3z3E-Y9i3eF
+          source_id: s_inp2TgyDeUUZJ8Zq2rkTe5
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1517;1522：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_yapy3APS2bJCVFq3VNLaKZ
+        status: active
+        display_name: 王次翁
+        merged_into_person_id: null
   other: []
 ---
 
@@ -154,6 +206,8 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | spouses | p_4Hjde84UDSxNby7XrvDD1E | 王寂 | accepted |
+| spouses | p_4Hjde84UDSxNby7XrvDD1E | 王寂 | accepted |
+| descendants | p_yapy3APS2bJCVFq3VNLaKZ | 王次翁 | accepted |
 
 ## 外部来源
 

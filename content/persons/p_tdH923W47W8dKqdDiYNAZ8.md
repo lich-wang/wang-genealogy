@@ -4,7 +4,7 @@ id: p_tdH923W47W8dKqdDiYNAZ8
 status: active
 merged_into: null
 display_name: 王楨
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,43 @@ relationships:
         status: active
         display_name: 王正仁
         merged_into_person_id: null
+    - claim:
+        id: c_OKeKkIQPnFvOKqgAPSJpmY
+        subject_person_id: p_Zy4JKwVK16gSxzJ6T1Zyf2
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_tdH923W47W8dKqdDiYNAZ8
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fTSeiYEyGkMDJJlIlMdjTB
+          claim_id: c_OKeKkIQPnFvOKqgAPSJpmY
+          source_id: s_keq4rPc5FvLPRjAuqfv6vQ
+          stance: supports
+          locator: 嘉靖四十一年進士登科錄:一卷，第三甲第十三名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_keq4rPc5FvLPRjAuqfv6vQ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王建昌（CBDB 327255）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327255&o=json
+            external_identifier: CBDB:327255
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.238Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Zy4JKwVK16gSxzJ6T1Zyf2
+        status: active
+        display_name: 王建昌
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_7XpW6Mhs2mSCn7hHeLnWwf | 王秉新 | accepted |
 | ancestors | p_8mWC3Ei8pVYwAqDq7qoacC | 王正仁 | accepted |
+| ancestors | p_Zy4JKwVK16gSxzJ6T1Zyf2 | 王建昌 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王秉新（CBDB 327256）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327256&o=json)
+- [中国历代人物传记资料库：王建昌（CBDB 327255）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327255&o=json)
 - [中国历代人物传记资料库：王楨（CBDB 205021）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205021&o=json)
 - [中国历代人物传记资料库：王正仁（CBDB 327254）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327254&o=json)

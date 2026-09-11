@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王纉
 cbdb_id: 305707
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -50,7 +50,7 @@ properties:
           locator: CBDB:305707
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source:
+          source: &a2
             id: s_bDNxHGv8qYSaEYp3MUXwws
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：王纉（305707）
@@ -143,7 +143,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_PggZSAbKbSQm2Ep8G0gIw-
+        subject_person_id: p_VkzS7RnDgwBF356dDv2J9B
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_AxnhzouFhPDEcn88n2bfsw
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zqnWP4YhmDBrPsKXF3wFuP
+          claim_id: c_PggZSAbKbSQm2Ep8G0gIw-
+          source_id: s_bDNxHGv8qYSaEYp3MUXwws
+          stance: supports
+          locator: 嘉靖二十三年登科錄:一卷，第二甲第四十三名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_AxnhzouFhPDEcn88n2bfsw
+        status: active
+        display_name: 王宗沐
+        merged_into_person_id: null
   other: []
 ---
 
@@ -163,6 +189,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_GNLnPFw1Dr1HJibhmrHDQH | 王逸卿 | accepted |
+| descendants | p_AxnhzouFhPDEcn88n2bfsw | 王宗沐 | accepted |
 
 ## 外部来源
 

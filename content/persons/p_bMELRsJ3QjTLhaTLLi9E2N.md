@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 李氏
 cbdb_id: 135652
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: Q65801416
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source: &a1
+          source: &a2
             id: s_95bXKPpoB2a5jQjTK4kvvP
             source_type: api_record
             title: 维基数据：李氏（Q65801416）
@@ -50,7 +50,7 @@ properties:
           locator: CBDB:135652
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source:
+          source: &a1
             id: s_fdsV8tkVtKvNdGKmeGdswW
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：李氏（135652）
@@ -66,7 +66,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_nZu7PUgc8nTFWtKNBq51MZ
+        subject_person_id: p_bMELRsJ3QjTLhaTLLi9E2N
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_dpxJ79yjeoZcbwCdkzQmv6
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bXrAdQysj2C0TBdF9Oi92g
+          claim_id: c_nZu7PUgc8nTFWtKNBq51MZ
+          source_id: s_fdsV8tkVtKvNdGKmeGdswW
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #3251：子"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_dpxJ79yjeoZcbwCdkzQmv6
+        status: active
+        display_name: 王珪
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses:
@@ -90,7 +116,7 @@ relationships:
           locator: P26（配偶）
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: *a2
         - id: cs_oxCMKoEa5ttJg9TwyFraVp
           claim_id: c_42HjzJdcdWhiVfKre74hcj
           source_id: s_5364Pc1QEFgx1FqUbtfHiC
@@ -154,6 +180,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_dpxJ79yjeoZcbwCdkzQmv6 | 王珪 | accepted |
 | spouses | p_HSq6viRBnzj6LqF76CNxvY | 王𫖮 | accepted |
 
 ## 外部来源

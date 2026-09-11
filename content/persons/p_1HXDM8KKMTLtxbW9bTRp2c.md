@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王瑞珎
 cbdb_id: 325294
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:325294
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_DgiF7AhuQdKAwC6RSnWK49
             source_type: api_record
             title: 中国历代人物传记资料库：王瑞珎（CBDB 325294）
@@ -92,7 +92,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_jUr74TSh633lXIFmbp3WSE
+        subject_person_id: p_1HXDM8KKMTLtxbW9bTRp2c
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_N1zXfVAzsHV9UYAEDLb5C7
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_IHi2Qat-FCHcZHmrzjD0KV
+          claim_id: c_jUr74TSh633lXIFmbp3WSE
+          source_id: s_DgiF7AhuQdKAwC6RSnWK49
+          stance: supports
+          locator: 嘉靖三十八年進士登科錄:一卷，第三甲第一百三十五名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_N1zXfVAzsHV9UYAEDLb5C7
+        status: active
+        display_name: 王徽猷
+        merged_into_person_id: null
   other: []
 ---
 
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_N1zXfVAzsHV9UYAEDLb5C7 | 王徽猷 | accepted |
 
 ## 外部来源
 

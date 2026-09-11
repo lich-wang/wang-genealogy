@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王子顏
 cbdb_id: 190671
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:190671
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_8zHNv1sHm5SK5T4BwpZJ1P
             source_type: api_record
             title: 中国历代人物传记资料库：王子顏（CBDB 190671）
@@ -129,7 +129,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_RDCWdXxcNdsLSjBYQ8WRE_
+        subject_person_id: p_KUL8xKz6PcvKPz11ae96H5
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3cTtbkopLwtNgxN8eSzosJ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Bq1N1J-Sii4DyZW74AsfZH
+          claim_id: c_RDCWdXxcNdsLSjBYQ8WRE_
+          source_id: s_8zHNv1sHm5SK5T4BwpZJ1P
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_KUL8xKz6PcvKPz11ae96H5
+        status: active
+        display_name: 王難得
+        merged_into_person_id: null
   children:
     - claim:
         id: c_s03Gb9DzWwo7OuitccsOYZ
@@ -192,6 +218,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_KUL8xKz6PcvKPz11ae96H5 | 王難得 | accepted |
 | children | p_hDFMREoAKsPR8PPP7pBSx3 | 王用 | accepted |
 
 ## 外部来源

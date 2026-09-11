@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王彥奇
 cbdb_id: 126594
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,7 +86,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_pVZpdwh87cQgIlyLOZWrxt
+        subject_person_id: p_ZqnLzRT9XT7NL5ciADvB8h
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_S9XZsVMSPPCYHPg3x3s7jm
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0qrAq8I5R7QqCPwj62_fkI
+          claim_id: c_pVZpdwh87cQgIlyLOZWrxt
+          source_id: s_Bmi5KPJgmdUbeCDtzees5k
+          stance: supports
+          locator: 弘治三年進士登科錄:一卷，第二甲第七十名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Bmi5KPJgmdUbeCDtzees5k
+            source_type: api_record
+            title: 中国历代人物传记资料库：王景先（CBDB 261598）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261598&o=json
+            external_identifier: CBDB:261598
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.551Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ZqnLzRT9XT7NL5ciADvB8h
+        status: active
+        display_name: 王景先
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -148,9 +185,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_ZqnLzRT9XT7NL5ciADvB8h | 王景先 | accepted |
 | ancestors | p_ozM2Qob3tqkhCmBB9dE9CR | 王文秀 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王景先（CBDB 261598）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261598&o=json)
 - [中国历代人物传记资料库：王文秀（CBDB 261597）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261597&o=json)
 - [中国历代人物传记资料库：王彥奇（CBDB 126594）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126594&o=json)

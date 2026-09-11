@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王珪
 cbdb_id: 33013
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -294,6 +294,43 @@ relationships:
         status: active
         display_name: 王氏
         merged_into_person_id: null
+    - claim:
+        id: c_nZu7PUgc8nTFWtKNBq51MZ
+        subject_person_id: p_bMELRsJ3QjTLhaTLLi9E2N
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_dpxJ79yjeoZcbwCdkzQmv6
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bXrAdQysj2C0TBdF9Oi92g
+          claim_id: c_nZu7PUgc8nTFWtKNBq51MZ
+          source_id: s_fdsV8tkVtKvNdGKmeGdswW
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #3251：子"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_fdsV8tkVtKvNdGKmeGdswW
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：李氏（135652）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=135652&o=json
+            external_identifier: CBDB:135652
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person:
+        id: p_bMELRsJ3QjTLhaTLLi9E2N
+        status: active
+        display_name: 李氏
+        merged_into_person_id: null
   children:
     - claim:
         id: c_LHBSPDK14jc8DKwmrKh3w4
@@ -462,6 +499,7 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_HSq6viRBnzj6LqF76CNxvY | 王𫖮 | accepted |
 | parents | p_ppJ6EQ3ynJJawJNuqB48SQ | 王氏 | accepted |
+| parents | p_bMELRsJ3QjTLhaTLLi9E2N | 李氏 | accepted |
 | children | p_H3Gcv5yupi2SQ8G254fb4U | 王敬直 | accepted |
 | children | p_JfWbDHNGFyJz6Cq8yoPLva | 王崇基 | accepted |
 
@@ -472,5 +510,6 @@ relationships:
 - [维基数据：王敬直（Q10414698）](https://www.wikidata.org/wiki/Q10414698)
 - [维基数据：王氏（Q65874579）](https://www.wikidata.org/wiki/Q65874579)
 - [维基数据：王𫖮（Q28413506）](https://www.wikidata.org/wiki/Q28413506)
+- [CBDB 中国历代人物传记资料库：李氏（135652）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=135652&o=json)
 - [CBDB 中国历代人物传记资料库：王珪（33013）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=33013&o=json)
 - [CBDB 中国历代人物传记资料库：王顗（33012）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=33012&o=json)

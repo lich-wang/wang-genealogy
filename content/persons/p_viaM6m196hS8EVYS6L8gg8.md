@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王宣化
 cbdb_id: 205636
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -129,7 +129,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_99crtNrT2UbTVX9pUi1G07
+        subject_person_id: p_3NLrzrSSHKzjmRv78pJAPK
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_viaM6m196hS8EVYS6L8gg8
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_huZLz-wVMycE4IhqPGd_SN
+          claim_id: c_99crtNrT2UbTVX9pUi1G07
+          source_id: s_ZEzLzBt8XxPVyNeRGY1FvK
+          stance: supports
+          locator: 隆慶二年進士登科錄:一卷，第三甲第一百八十名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ZEzLzBt8XxPVyNeRGY1FvK
+            source_type: api_record
+            title: 中国历代人物传记资料库：王士逵（CBDB 336303）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336303&o=json
+            external_identifier: CBDB:336303
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:08.348Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_3NLrzrSSHKzjmRv78pJAPK
+        status: active
+        display_name: 王士逵
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -229,11 +267,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_3NLrzrSSHKzjmRv78pJAPK | 王士逵 | accepted |
 | ancestors | p_EtyR6xHEv72189qSFKHFEe | 王悅 | accepted |
 | ancestors | p_yLx6R2Cr3giQeKiH6Z4SsW | 王賓 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王賓（CBDB 336302）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336302&o=json)
+- [中国历代人物传记资料库：王士逵（CBDB 336303）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336303&o=json)
 - [中国历代人物传记资料库：王宣化（CBDB 205636）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205636&o=json)
 - [中国历代人物传记资料库：王悅（CBDB 336301）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336301&o=json)

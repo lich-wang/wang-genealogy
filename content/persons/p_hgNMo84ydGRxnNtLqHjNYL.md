@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王光佐
 cbdb_id: 201648
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -129,7 +129,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_OYqhBwK27vvZX3GKxaI3Sv
+        subject_person_id: p_3pGecEKBQ7L7i74yoHX3og
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_hgNMo84ydGRxnNtLqHjNYL
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JzYJz85lsKdzDD5BDPf4TT
+          claim_id: c_OYqhBwK27vvZX3GKxaI3Sv
+          source_id: s_EcHdfq9p5EBum8XxV3JGa1
+          stance: supports
+          locator: 弘治十八年進士登科錄:一卷，第三甲第一百九十七名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_EcHdfq9p5EBum8XxV3JGa1
+            source_type: api_record
+            title: 中国历代人物传记资料库：王京幾（CBDB 275614）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=275614&o=json
+            external_identifier: CBDB:275614
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:02.295Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_3pGecEKBQ7L7i74yoHX3og
+        status: active
+        display_name: 王京幾
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -192,9 +230,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_3pGecEKBQ7L7i74yoHX3og | 王京幾 | accepted |
 | ancestors | p_cHxaP3PsESPsJ7Myn1gf2Z | 王彥常 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王光佐（CBDB 201648）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201648&o=json)
+- [中国历代人物传记资料库：王京幾（CBDB 275614）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=275614&o=json)
 - [中国历代人物传记资料库：王彥常（CBDB 275612）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=275612&o=json)

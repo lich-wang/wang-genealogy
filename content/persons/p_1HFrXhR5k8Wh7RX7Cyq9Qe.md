@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王助
 cbdb_id: 91979
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -152,7 +152,7 @@ properties:
           locator: Q45438791
           quotation: null
           interpretation_note: null
-          source:
+          source: &a1
             id: s_sxWU5J97Qmr6taVwc4mMrt
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：王助（91979）
@@ -301,6 +301,32 @@ relationships:
         status: active
         display_name: 王福畤
         merged_into_person_id: null
+    - claim:
+        id: c_I7GcMLvM42yIYv2_wD74MG
+        subject_person_id: p_aKTcTcwPwwQP7hVaAj9R1z
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_1HFrXhR5k8Wh7RX7Cyq9Qe
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FqOefTZQCn0PW9P8FJFCj8
+          claim_id: c_I7GcMLvM42yIYv2_wD74MG
+          source_id: s_sxWU5J97Qmr6taVwc4mMrt
+          stance: supports
+          locator: Pers DB / 唐代人物知識ベース，pers00097：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_aKTcTcwPwwQP7hVaAj9R1z
+        status: active
+        display_name: 王福畤
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -364,6 +390,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_fCpXRw3ympYVRWdSX3T5cq | 王福畤 | accepted |
+| parents | p_aKTcTcwPwwQP7hVaAj9R1z | 王福畤 | accepted |
 | ancestors | p_g8yjPAazS4duEjdSoPu22v | 王通 | accepted |
 
 ## 外部来源

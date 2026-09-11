@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王伯永
 cbdb_id: 272142
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -50,7 +50,7 @@ properties:
           locator: CBDB:272142
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source:
+          source: &a2
             id: s_Xu4hHeWSyLA3aEvJiaoiG8
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：王伯永（272142）
@@ -143,7 +143,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_8ZbBl87L0x1rhqVfPt74LQ
+        subject_person_id: p_N27zaVAVE31vavnkwj7Dft
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_4z4yWZGdPhnbVEAyL9QgnJ
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_K_MQq7AFr6haiC_L6HKAnJ
+          claim_id: c_8ZbBl87L0x1rhqVfPt74LQ
+          source_id: s_Xu4hHeWSyLA3aEvJiaoiG8
+          stance: supports
+          locator: 弘治十五年進士登科錄:一卷，第三甲第一百四十三名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_4z4yWZGdPhnbVEAyL9QgnJ
+        status: active
+        display_name: 王爌
+        merged_into_person_id: null
   other: []
 ---
 
@@ -163,6 +189,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_255t2nDMrWzFXS93NLqNE3 | 王宗 | accepted |
+| descendants | p_4z4yWZGdPhnbVEAyL9QgnJ | 王爌 | accepted |
 
 ## 外部来源
 

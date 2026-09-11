@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王上齡
 cbdb_id: 198503
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -209,6 +209,44 @@ relationships:
         status: active
         display_name: 王廣
         merged_into_person_id: null
+    - claim:
+        id: c_Le141BEKdK-Oe5K8eJdkvp
+        subject_person_id: p_2ZJN63ZaCNAmy12WNBhgcR
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_PNbNcPEUfkwixuHyP9PuYH
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NxoNpS7g-DCAb87dMBTh2s
+          claim_id: c_Le141BEKdK-Oe5K8eJdkvp
+          source_id: s_ULfVzA3dzdEGmhA15YQHYH
+          stance: supports
+          locator: 景泰五年進士登科錄:一卷，第三甲第二百零九名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ULfVzA3dzdEGmhA15YQHYH
+            source_type: api_record
+            title: 中国历代人物传记资料库：王才甫（CBDB 281052）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=281052&o=json
+            external_identifier: CBDB:281052
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:02.953Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_2ZJN63ZaCNAmy12WNBhgcR
+        status: active
+        display_name: 王才甫
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -231,9 +269,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_eEdwVvDNjmkAGiPy1oDkFn | 王懋 | accepted |
 | ancestors | p_nmXEnLTsaX3SDidUdiJAZM | 王廣 | accepted |
+| ancestors | p_2ZJN63ZaCNAmy12WNBhgcR | 王才甫 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王才甫（CBDB 281052）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=281052&o=json)
 - [中国历代人物传记资料库：王廣（CBDB 281041）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=281041&o=json)
 - [中国历代人物传记资料库：王懋（CBDB 281063）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=281063&o=json)
 - [中国历代人物传记资料库：王上齡（CBDB 198503）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198503&o=json)

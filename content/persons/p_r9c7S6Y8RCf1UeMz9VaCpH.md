@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 孙氏
 cbdb_id: 307068
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -50,7 +50,7 @@ properties:
           locator: CBDB:307068
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source:
+          source: &a2
             id: s_NrZMMzMrjJSts5CBapGWx9
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：孫氏（307068）
@@ -135,6 +135,32 @@ relationships:
         status: active
         display_name: 王宗性
         merged_into_person_id: null
+    - claim:
+        id: c_RVR1Qundngc1TqcBDnNvET
+        subject_person_id: p_r9c7S6Y8RCf1UeMz9VaCpH
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_ABHWjEscFjoCVEgF2qr4dX
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6pjG-98vIgAPHHFF32GYJi
+          claim_id: c_RVR1Qundngc1TqcBDnNvET
+          source_id: s_NrZMMzMrjJSts5CBapGWx9
+          stance: supports
+          locator: 嘉靖二十三年登科錄:一卷，第三甲第八十一名：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_ABHWjEscFjoCVEgF2qr4dX
+        status: active
+        display_name: 王宗性
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -154,6 +180,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_ABHWjEscFjoCVEgF2qr4dX | 王宗性 | accepted |
 | spouses | p_ABHWjEscFjoCVEgF2qr4dX | 王宗性 | accepted |
 
 ## 外部来源

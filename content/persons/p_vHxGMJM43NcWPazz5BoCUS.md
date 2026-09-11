@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王易
 cbdb_id: 226559
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -50,7 +50,7 @@ properties:
           locator: CBDB:226559
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source:
+          source: &a2
             id: s_PTxFC8aGUYqqpkPNQDT597
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：王易（226559）
@@ -143,7 +143,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_R4tPICYINqDDM1alXeJdF6
+        subject_person_id: p_vHxGMJM43NcWPazz5BoCUS
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_YcgZGHB8b41JUksSD6hCbG
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_l0SPlAnmy4rklaCX1cRvWJ
+          claim_id: c_R4tPICYINqDDM1alXeJdF6
+          source_id: s_PTxFC8aGUYqqpkPNQDT597
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第三甲第二百三十六名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_YcgZGHB8b41JUksSD6hCbG
+        status: active
+        display_name: 王宗蓁
+        merged_into_person_id: null
   other: []
 ---
 
@@ -163,6 +189,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_b4bisUW9C7vmM7GVAbGAqe | 王大韶 | accepted |
+| descendants | p_YcgZGHB8b41JUksSD6hCbG | 王宗蓁 | accepted |
 
 ## 外部来源
 

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王履端
 cbdb_id: 526819
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:526819
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_t6NurX2qL63TvLqSyXfhiL
             source_type: api_record
             title: 中国历代人物传记资料库：王履端（CBDB 526819）
@@ -86,7 +86,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_zkjlZTywJJ41LiLN6-WlAR
+        subject_person_id: p_69nsbYymmFQubbC616ADSH
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_1zQKz8NF2y11zRhB2FT2AU
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tb2cXroUnCk9fe9C5Y40a3
+          claim_id: c_zkjlZTywJJ41LiLN6-WlAR
+          source_id: s_t6NurX2qL63TvLqSyXfhiL
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），12980：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_69nsbYymmFQubbC616ADSH
+        status: active
+        display_name: 王宗炎
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_69nsbYymmFQubbC616ADSH | 王宗炎 | accepted |
 
 ## 外部来源
 

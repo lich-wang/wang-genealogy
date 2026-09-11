@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王贵
 cbdb_id: 302566
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -51,7 +51,7 @@ properties:
           locator: CBDB:302566
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source:
+          source: &a2
             id: s_NsH2JrA7zFChzTypXUmby7
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：王貴（302566）
@@ -144,7 +144,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c__X5KIwEdKwgAD0jvIkkktG
+        subject_person_id: p_VTPD5ERN4nKpvDScS6wxja
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_MQQyuFRHwHza48Rxy8cmUZ
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tqaNPZKAO3uEO110zAJl07
+          claim_id: c__X5KIwEdKwgAD0jvIkkktG
+          source_id: s_NsH2JrA7zFChzTypXUmby7
+          stance: supports
+          locator: 嘉靖二十年進士登科錄:一卷，第二甲第四十九名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_MQQyuFRHwHza48Rxy8cmUZ
+        status: active
+        display_name: 王重光
+        merged_into_person_id: null
   other: []
 ---
 
@@ -164,6 +190,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_XwKHLH17io2m6CKt414qzT | 王伍 | accepted |
+| descendants | p_MQQyuFRHwHza48Rxy8cmUZ | 王重光 | accepted |
 
 ## 外部来源
 

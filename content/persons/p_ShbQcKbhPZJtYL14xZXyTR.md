@@ -4,7 +4,7 @@ id: p_ShbQcKbhPZJtYL14xZXyTR
 status: active
 merged_into: null
 display_name: 王佩
-revision: 5
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -254,6 +254,43 @@ relationships:
         status: active
         display_name: 王翺
         merged_into_person_id: null
+    - claim:
+        id: c_Rtqco8g_rrRAzNLDPM43c0
+        subject_person_id: p_zsDXFxFD1wGKxUmqu43tAu
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_ShbQcKbhPZJtYL14xZXyTR
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NGqwHS4EdxzfyLIivf1ri_
+          claim_id: c_Rtqco8g_rrRAzNLDPM43c0
+          source_id: s_VbxPeyZuXpGU1oH9M5bvQQ
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第二百三十三名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_VbxPeyZuXpGU1oH9M5bvQQ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王輔（CBDB 294950）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294950&o=json
+            external_identifier: CBDB:294950
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.482Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_zsDXFxFD1wGKxUmqu43tAu
+        status: active
+        display_name: 王輔
+        merged_into_person_id: null
   descendants:
     - claim:
         id: c_4djINIL1J6eG7KwIh3u1Pk
@@ -315,11 +352,13 @@ relationships:
 | children | p_bxhtYQ9E8JH99TgLXQgD1K | 王惟幾 | accepted |
 | children | p_w39jjd3JxxSiu1jw1L8DFd | 王惟玄 | accepted |
 | ancestors | p_YSNbFAUDK8xiiXfhU6tQEw | 王翺 | accepted |
+| ancestors | p_zsDXFxFD1wGKxUmqu43tAu | 王輔 | accepted |
 | descendants | p_EuRd96THGYk3sKLAvBNXcu | 王陞 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王翺（CBDB 294952）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294952&o=json)
+- [中国历代人物传记资料库：王輔（CBDB 294950）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294950&o=json)
 - [中国历代人物传记资料库：王佩（CBDB 202809）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202809&o=json)
 - [中国历代人物传记资料库：王深（CBDB 294953）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294953&o=json)
 - [中国历代人物传记资料库：王陞（CBDB 294967）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294967&o=json)

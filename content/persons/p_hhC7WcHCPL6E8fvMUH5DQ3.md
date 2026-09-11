@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王璘
 cbdb_id: 282593
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -50,7 +50,7 @@ properties:
           locator: CBDB:282593
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source:
+          source: &a2
             id: s_8cX77Uk8hKfz8zUMehuKPY
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：王璘（282593）
@@ -143,7 +143,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_YCNkwDDFsk1KP0tNX8jYEV
+        subject_person_id: p_hhC7WcHCPL6E8fvMUH5DQ3
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_tiptZjLSdHLsMK1CEEqc1u
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_TAyF2D_SFIczsnwtbFUoIm
+          claim_id: c_YCNkwDDFsk1KP0tNX8jYEV
+          source_id: s_8cX77Uk8hKfz8zUMehuKPY
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第三甲第一百九十名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_tiptZjLSdHLsMK1CEEqc1u
+        status: active
+        display_name: 王邦瑞
+        merged_into_person_id: null
   other: []
 ---
 
@@ -163,6 +189,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_YdbFSMV9s3AQb86u7EkdDN | 王臣 | accepted |
+| descendants | p_tiptZjLSdHLsMK1CEEqc1u | 王邦瑞 | accepted |
 
 ## 外部来源
 

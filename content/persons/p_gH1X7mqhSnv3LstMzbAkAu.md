@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王质
 cbdb_id: 250183
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -173,7 +173,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_HagACvArdUbMIcEStRSN5x
+        subject_person_id: p_gH1X7mqhSnv3LstMzbAkAu
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_2CY82LiLunPZpBKWzpBz3S
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rjjQCg_3ZSqcNRt8gsX_65
+          claim_id: c_HagACvArdUbMIcEStRSN5x
+          source_id: s_KiKcwY7ixByX4xMwNVCevX
+          stance: supports
+          locator: 成化十四年進士登科錄:一卷，第三甲第五十九名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_KiKcwY7ixByX4xMwNVCevX
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王倬（126663）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126663&o=json
+            external_identifier: CBDB:126663
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T02:49:55.585Z
+            metadata_json: null
+      object_person:
+        id: p_2CY82LiLunPZpBKWzpBz3S
+        status: active
+        display_name: 王倬
+        merged_into_person_id: null
   other: []
 ---
 
@@ -193,9 +230,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_jFuufzfY72LPXJ1cXZRs83 | 王琳 | accepted |
+| descendants | p_2CY82LiLunPZpBKWzpBz3S | 王倬 | accepted |
 
 ## 外部来源
 
 - [维基数据：王琳（Q45637271）](https://www.wikidata.org/wiki/Q45637271)
 - [维基数据：王质（Q45637209）](https://www.wikidata.org/wiki/Q45637209)
 - [CBDB 中国历代人物传记资料库：王質（250183）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=250183&o=json)
+- [CBDB 中国历代人物传记资料库：王倬（126663）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126663&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王景
 cbdb_id: 236876
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -50,7 +50,7 @@ properties:
           locator: CBDB:236876
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source:
+          source: &a2
             id: s_aUtqpncrA5mpaxDZBmduGw
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：王景（236876）
@@ -143,7 +143,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_aveRf0RC1KtHuO53fyY0mI
+        subject_person_id: p_C9xm5jCmEkeQHuYEcbM82J
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_DNERe7qJNb3V7E5Uc4DPd7
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_yscaS50b--sE8ffGNFj3Yz
+          claim_id: c_aveRf0RC1KtHuO53fyY0mI
+          source_id: s_aUtqpncrA5mpaxDZBmduGw
+          stance: supports
+          locator: 正統四年進士登科錄:一卷，第二甲第三十名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_DNERe7qJNb3V7E5Uc4DPd7
+        status: active
+        display_name: 王竑
+        merged_into_person_id: null
   other: []
 ---
 
@@ -163,6 +189,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_yaK3v157GQYGTQP5RhE7JJ | 王俊卿 | accepted |
+| descendants | p_DNERe7qJNb3V7E5Uc4DPd7 | 王竑 | accepted |
 
 ## 外部来源
 

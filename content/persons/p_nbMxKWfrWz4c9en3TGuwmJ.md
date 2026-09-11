@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王显道
 cbdb_id: 326551
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -50,7 +50,7 @@ properties:
           locator: CBDB:326551
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source:
+          source: &a2
             id: s_wKLY4TKnxgLaFf21jYqdjR
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：王顯道（326551）
@@ -143,7 +143,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_f59mcrHIgC1cT678byQnAa
+        subject_person_id: p_nbMxKWfrWz4c9en3TGuwmJ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_1CAD7Cg5ACndjPsTMwMUQ7
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Jlwzfa4Z3n7JMCu8mYpGO1
+          claim_id: c_f59mcrHIgC1cT678byQnAa
+          source_id: s_wKLY4TKnxgLaFf21jYqdjR
+          stance: supports
+          locator: 景泰二年進士登科錄:一卷，第三甲第六名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_1CAD7Cg5ACndjPsTMwMUQ7
+        status: merged
+        display_name: 王越
+        merged_into_person_id: p_SAKZSsVXkQRnwcLYqa1oYe
   other: []
 ---
 
@@ -163,6 +189,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_zicKU4bgAdp55gRC45KJy4 | 王子忠 | accepted |
+| descendants | p_1CAD7Cg5ACndjPsTMwMUQ7 | 王越 | accepted |
 
 ## 外部来源
 

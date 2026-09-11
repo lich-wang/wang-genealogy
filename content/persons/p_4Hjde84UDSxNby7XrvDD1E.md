@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王寂
 cbdb_id: 17425
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -320,6 +320,80 @@ relationships:
         status: active
         display_name: 丘氏
         merged_into_person_id: null
+    - claim:
+        id: c_NWt9VklFeX8QP7FzkNfj4l
+        subject_person_id: p_HN9dL1QZo7ng1X3WPN8EcR
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_4Hjde84UDSxNby7XrvDD1E
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vw6BV8djJe_s37JY-mldWC
+          claim_id: c_NWt9VklFeX8QP7FzkNfj4l
+          source_id: s_phx6v1WRRw5pRY98qUnDbm
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_phx6v1WRRw5pRY98qUnDbm
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：丘氏（38574）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38574&o=json
+            external_identifier: CBDB:38574
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person:
+        id: p_HN9dL1QZo7ng1X3WPN8EcR
+        status: active
+        display_name: 丘氏
+        merged_into_person_id: null
+    - claim:
+        id: c_ge6784kQEqow7YHp8SUttY
+        subject_person_id: p_L2ifCRAMx2TbJz5vSmeM6T
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_4Hjde84UDSxNby7XrvDD1E
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VESipHzth9l5v_yCXKUVqz
+          claim_id: c_ge6784kQEqow7YHp8SUttY
+          source_id: s_inp2TgyDeUUZJ8Zq2rkTe5
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_inp2TgyDeUUZJ8Zq2rkTe5
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：趙氏（38569）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38569&o=json
+            external_identifier: CBDB:38569
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person:
+        id: p_L2ifCRAMx2TbJz5vSmeM6T
+        status: active
+        display_name: 赵氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -344,6 +418,8 @@ relationships:
 | children | p_hEEpn7U7EKTTeFP3ixWWbm | 王禔 | accepted |
 | spouses | p_L2ifCRAMx2TbJz5vSmeM6T | 赵氏 | accepted |
 | spouses | p_HN9dL1QZo7ng1X3WPN8EcR | 丘氏 | accepted |
+| spouses | p_HN9dL1QZo7ng1X3WPN8EcR | 丘氏 | accepted |
+| spouses | p_L2ifCRAMx2TbJz5vSmeM6T | 赵氏 | accepted |
 
 ## 外部来源
 
@@ -352,4 +428,6 @@ relationships:
 - [维基数据：王异（Q45386110）](https://www.wikidata.org/wiki/Q45386110)
 - [维基数据：王禔（Q45386120）](https://www.wikidata.org/wiki/Q45386120)
 - [维基数据：赵氏（Q45430725）](https://www.wikidata.org/wiki/Q45430725)
+- [CBDB 中国历代人物传记资料库：丘氏（38574）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38574&o=json)
 - [CBDB 中国历代人物传记资料库：王寂（17425）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17425&o=json)
+- [CBDB 中国历代人物传记资料库：趙氏（38569）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38569&o=json)

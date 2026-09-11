@@ -4,7 +4,7 @@ id: p_TugXusNFHFdTE5ayse4kLm
 status: active
 merged_into: null
 display_name: 王圻
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_6WCsAw-BVQUYWuCYZ4-IlV
+        subject_person_id: p_ZqpxKBqyDJtXTG8SZjo1en
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_TugXusNFHFdTE5ayse4kLm
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OqIkSnN-ZJ-XeMluWOUlr3
+          claim_id: c_6WCsAw-BVQUYWuCYZ4-IlV
+          source_id: s_xfmSrY8o5ZjXvpY59KrvHH
+          stance: supports
+          locator: 嘉靖四十四年進士登科錄:一卷，第三甲第一百五十名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_xfmSrY8o5ZjXvpY59KrvHH
+            source_type: api_record
+            title: 中国历代人物传记资料库：王熠（CBDB 331799）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=331799&o=json
+            external_identifier: CBDB:331799
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.375Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ZqpxKBqyDJtXTG8SZjo1en
+        status: active
+        display_name: 王熠
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -229,6 +266,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_ZqpxKBqyDJtXTG8SZjo1en | 王熠 | accepted |
 | ancestors | p_ay7ZWq8iTSKoexQkJpXoz8 | 王槐 | accepted |
 | ancestors | p_JejZnT2mLskseiu9D1mCTP | 王鈇 | accepted |
 
@@ -237,3 +275,4 @@ relationships:
 - [中国历代人物传记资料库：王鈇（CBDB 331797）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=331797&o=json)
 - [中国历代人物传记资料库：王槐（CBDB 331798）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=331798&o=json)
 - [中国历代人物传记资料库：王圻（CBDB 126533）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126533&o=json)
+- [中国历代人物传记资料库：王熠（CBDB 331799）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=331799&o=json)

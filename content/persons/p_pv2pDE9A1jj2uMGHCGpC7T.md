@@ -4,7 +4,7 @@ id: p_pv2pDE9A1jj2uMGHCGpC7T
 status: active
 merged_into: null
 display_name: 王廷
-revision: 5
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -366,6 +366,44 @@ relationships:
         status: active
         display_name: 王兆龍
         merged_into_person_id: null
+    - claim:
+        id: c_ODGEXjXt9PzSczXzyUghAq
+        subject_person_id: p_pv2pDE9A1jj2uMGHCGpC7T
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_2vfjZEAB3tmA8eeTjXtSfA
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ec87jOVMT7DNuMda3PKMlH
+          claim_id: c_ODGEXjXt9PzSczXzyUghAq
+          source_id: s_mMA7XzLPvvEFV1ZLdqR2A8
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第二甲第八名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_mMA7XzLPvvEFV1ZLdqR2A8
+            source_type: api_record
+            title: 中国历代人物传记资料库：王兆禎（CBDB 290833）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=290833&o=json
+            external_identifier: CBDB:290833
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:03.722Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_2vfjZEAB3tmA8eeTjXtSfA
+        status: active
+        display_name: 王兆禎
+        merged_into_person_id: null
   other: []
 ---
 
@@ -392,6 +430,7 @@ relationships:
 | ancestors | p_maPAMJTQdq43e6ioGBHvAp | 王銳 | accepted |
 | descendants | p_8WqY814yTSDVKdHuN73Emp | 王兆麟 | accepted |
 | descendants | p_AekZyQ7TS4wN6cVKAwRb86 | 王兆龍 | accepted |
+| descendants | p_2vfjZEAB3tmA8eeTjXtSfA | 王兆禎 | accepted |
 
 ## 外部来源
 
@@ -403,3 +442,4 @@ relationships:
 - [中国历代人物传记资料库：王續之（CBDB 290827）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=290827&o=json)
 - [中国历代人物传记资料库：王兆麟（CBDB 290832）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=290832&o=json)
 - [中国历代人物传记资料库：王兆龍（CBDB 290830）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=290830&o=json)
+- [中国历代人物传记资料库：王兆禎（CBDB 290833）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=290833&o=json)

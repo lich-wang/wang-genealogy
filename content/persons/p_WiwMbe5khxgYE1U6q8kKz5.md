@@ -4,7 +4,7 @@ id: p_WiwMbe5khxgYE1U6q8kKz5
 status: active
 merged_into: null
 display_name: 王璟
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -133,7 +133,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_jzBZM4q3y-u_wWeWtAC_mg
+        subject_person_id: p_sWnQEKdTJEEDPqzmGjNy9f
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_WiwMbe5khxgYE1U6q8kKz5
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_z7UeROAB2yyss5G7_8bTsm
+          claim_id: c_jzBZM4q3y-u_wWeWtAC_mg
+          source_id: s_wnRKRAKdo4c1dUyNyrNHnN
+          stance: supports
+          locator: 成化八年進士登科錄:一卷，第三甲第八十七名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_wnRKRAKdo4c1dUyNyrNHnN
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王海（246748）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=246748&o=json
+            external_identifier: CBDB:246748
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person:
+        id: p_sWnQEKdTJEEDPqzmGjNy9f
+        status: active
+        display_name: 王海
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_sWnQEKdTJEEDPqzmGjNy9f | 王海 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王璟（CBDB 67987）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67987&o=json)
+- [CBDB 中国历代人物传记资料库：王海（246748）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=246748&o=json)

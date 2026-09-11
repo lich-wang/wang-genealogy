@@ -4,7 +4,7 @@ id: p_yAEnnc4ZJJBwEULXGP2WRZ
 status: active
 merged_into: null
 display_name: 王敬忠
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -138,7 +138,44 @@ relationships:
         status: active
         display_name: 王顗
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_0R3AE0pPBL0X1PujE-IIGh
+        subject_person_id: p_yAEnnc4ZJJBwEULXGP2WRZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_nU6imksHKqtEMfuEaRNJUG
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_U7NCGUXYolQ2tzgqPsMs2c
+          claim_id: c_0R3AE0pPBL0X1PujE-IIGh
+          source_id: s_d1BioWBySRD3o5vSLFQQoJ
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_d1BioWBySRD3o5vSLFQQoJ
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王上客（191289）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191289&o=json
+            external_identifier: CBDB:191289
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person:
+        id: p_nU6imksHKqtEMfuEaRNJUG
+        status: active
+        display_name: 王上客
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_cAfDeDmGVLXrJWEBuPmaLA | 王顗 | accepted |
+| children | p_nU6imksHKqtEMfuEaRNJUG | 王上客 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王敬忠（CBDB 191290）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191290&o=json)
 - [中国历代人物传记资料库：王顗（CBDB 191291）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191291&o=json)
+- [CBDB 中国历代人物传记资料库：王上客（191289）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191289&o=json)

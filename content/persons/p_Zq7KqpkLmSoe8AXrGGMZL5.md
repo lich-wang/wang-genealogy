@@ -4,7 +4,7 @@ id: p_Zq7KqpkLmSoe8AXrGGMZL5
 status: active
 merged_into: null
 display_name: 王明德
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_41gFmoXLLnkIti39yY1qtZ
+        subject_person_id: p_Zq7KqpkLmSoe8AXrGGMZL5
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_51C8Kh4aNymAeDywG3epKL
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jWT57KDlfpO_hGESEy6aca
+          claim_id: c_41gFmoXLLnkIti39yY1qtZ
+          source_id: s_ioQe7PXr2JHjD9i33LXq2K
+          stance: supports
+          locator: 永樂十年進士登科錄:一卷，第三甲第十七名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_51C8Kh4aNymAeDywG3epKL
+        status: active
+        display_name: 王嗣先
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_51C8Kh4aNymAeDywG3epKL | 王嗣先 | accepted |
 
 ## 外部来源
 

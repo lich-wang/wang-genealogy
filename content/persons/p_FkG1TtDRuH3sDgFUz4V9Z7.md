@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王氏
 cbdb_id: 145252
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -256,6 +256,43 @@ relationships:
         status: active
         display_name: 卢惕
         merged_into_person_id: null
+    - claim:
+        id: c_yKDJmenef2mHJ8JqeohBhR
+        subject_person_id: p_Hr9mf3hFTf1JYmwnu4JWuS
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_FkG1TtDRuH3sDgFUz4V9Z7
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vJ7cRz0tA0axOl7DLuHK18
+          claim_id: c_yKDJmenef2mHJ8JqeohBhR
+          source_id: s_fWvvFL1XPY9XPGfj5zKbLi
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_fWvvFL1XPY9XPGfj5zKbLi
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：盧惕（185864）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=185864&o=json
+            external_identifier: CBDB:185864
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person:
+        id: p_Hr9mf3hFTf1JYmwnu4JWuS
+        status: active
+        display_name: 卢惕
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -279,11 +316,13 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_c8C8PQBtyD8TinfV8tVU4U | 王澄 | accepted |
 | spouses | p_Hr9mf3hFTf1JYmwnu4JWuS | 卢惕 | accepted |
+| spouses | p_Hr9mf3hFTf1JYmwnu4JWuS | 卢惕 | accepted |
 
 ## 外部来源
 
 - [维基数据：卢惕（Q45655083）](https://www.wikidata.org/wiki/Q45655083)
 - [维基数据：王澄（Q45685584）](https://www.wikidata.org/wiki/Q45685584)
 - [维基数据：王氏（Q65803780）](https://www.wikidata.org/wiki/Q65803780)
+- [CBDB 中国历代人物传记资料库：盧惕（185864）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=185864&o=json)
 - [CBDB 中国历代人物传记资料库：王澄（186695）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=186695&o=json)
 - [CBDB 中国历代人物传记资料库：王氏（145252）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=145252&o=json)

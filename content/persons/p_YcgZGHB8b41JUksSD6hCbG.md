@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王宗蓁
 cbdb_id: 207031
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -449,7 +449,44 @@ relationships:
         status: active
         display_name: 杨氏
         merged_into_person_id: null
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_R4tPICYINqDDM1alXeJdF6
+        subject_person_id: p_vHxGMJM43NcWPazz5BoCUS
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_YcgZGHB8b41JUksSD6hCbG
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_l0SPlAnmy4rklaCX1cRvWJ
+          claim_id: c_R4tPICYINqDDM1alXeJdF6
+          source_id: s_PTxFC8aGUYqqpkPNQDT597
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第三甲第二百三十六名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_PTxFC8aGUYqqpkPNQDT597
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王易（226559）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=226559&o=json
+            external_identifier: CBDB:226559
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person:
+        id: p_vHxGMJM43NcWPazz5BoCUS
+        status: active
+        display_name: 王易
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -475,6 +512,7 @@ relationships:
 | children | p_DBYMcu7Cw4PWAgqUTbhPkq | 王𡏼 | accepted |
 | children | p_eTKLECHdx4a5sjD8ucAPHW | 王致 | accepted |
 | spouses | p_31fj3DYMMpcFqtcy8MYe53 | 杨氏 | accepted |
+| ancestors | p_vHxGMJM43NcWPazz5BoCUS | 王易 | accepted |
 
 ## 外部来源
 
@@ -486,4 +524,5 @@ relationships:
 - [维基数据：杨氏（Q65830582）](https://www.wikidata.org/wiki/Q65830582)
 - [中文维基百科：王宗蓁](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AE%97%E8%93%81)
 - [CBDB 中国历代人物传记资料库：王橋（226562）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=226562&o=json)
+- [CBDB 中国历代人物传记资料库：王易（226559）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=226559&o=json)
 - [CBDB 中国历代人物传记资料库：王宗蓁（207031）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207031&o=json)

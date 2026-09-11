@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王棋
 cbdb_id: 222283
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -50,7 +50,7 @@ properties:
           locator: CBDB:222283
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source:
+          source: &a2
             id: s_BgtjiioWMxd6kDi9yjCApu
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：王棋（222283）
@@ -143,7 +143,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_nS6VYsTgAQK6aB7Cwelkhj
+        subject_person_id: p_onvVrjmfvkdjFcgNLVKCma
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_XLzE7EyB5VaDYLv2XHEgHa
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ouKNX2ujm9YGnwMX0CO8C8
+          claim_id: c_nS6VYsTgAQK6aB7Cwelkhj
+          source_id: s_BgtjiioWMxd6kDi9yjCApu
+          stance: supports
+          locator: 萬曆十一年進士登科錄:一卷，第二甲第十四名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_XLzE7EyB5VaDYLv2XHEgHa
+        status: active
+        display_name: 王佐
+        merged_into_person_id: null
   other: []
 ---
 
@@ -163,6 +189,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_LhDftPTdBSJ1CGALBq6bm6 | 王铭 | accepted |
+| descendants | p_XLzE7EyB5VaDYLv2XHEgHa | 王佐 | accepted |
 
 ## 外部来源
 

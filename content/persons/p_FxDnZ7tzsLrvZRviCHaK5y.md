@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王睿
 cbdb_id: 288332
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -50,7 +50,7 @@ properties:
           locator: CBDB:288332
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source:
+          source: &a2
             id: s_W4ZvUQHNuHnWpDzbwAvVrQ
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：王睿（288332）
@@ -181,6 +181,32 @@ relationships:
         status: active
         display_name: 王與齡
         merged_into_person_id: null
+    - claim:
+        id: c_BtwXLyXqUW8072o1glSnMv
+        subject_person_id: p_FxDnZ7tzsLrvZRviCHaK5y
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_qzznHsDy1MaFH1YWPbYub4
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_CNhe9nfZdeTRRZvUNVmZMl
+          claim_id: c_BtwXLyXqUW8072o1glSnMv
+          source_id: s_W4ZvUQHNuHnWpDzbwAvVrQ
+          stance: supports
+          locator: 嘉靖八年進士登科錄:一卷，第二甲第九十三名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_qzznHsDy1MaFH1YWPbYub4
+        status: active
+        display_name: 王培龄
+        merged_into_person_id: null
   other: []
 ---
 
@@ -201,6 +227,7 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_qa4sYo9q4waHmECZyCZ8M3 | 王文 | accepted |
 | descendants | p_nTV1T9RX74vHEA3tyMaebm | 王與齡 | accepted |
+| descendants | p_qzznHsDy1MaFH1YWPbYub4 | 王培龄 | accepted |
 
 ## 外部来源
 

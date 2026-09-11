@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王琳
 cbdb_id: 250184
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -267,6 +267,43 @@ relationships:
         status: active
         display_name: 王侨
         merged_into_person_id: null
+    - claim:
+        id: c_Sqx67jefaSqq_QLlRzaWFn
+        subject_person_id: p_jFuufzfY72LPXJ1cXZRs83
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_2CY82LiLunPZpBKWzpBz3S
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_csd8s7hi9s0vIhNKHrNDCy
+          claim_id: c_Sqx67jefaSqq_QLlRzaWFn
+          source_id: s_KiKcwY7ixByX4xMwNVCevX
+          stance: supports
+          locator: 成化十四年進士登科錄:一卷，第三甲第五十九名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_KiKcwY7ixByX4xMwNVCevX
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王倬（126663）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126663&o=json
+            external_identifier: CBDB:126663
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T02:49:55.585Z
+            metadata_json: null
+      object_person:
+        id: p_2CY82LiLunPZpBKWzpBz3S
+        status: active
+        display_name: 王倬
+        merged_into_person_id: null
   other: []
 ---
 
@@ -288,6 +325,7 @@ relationships:
 | parents | p_gH1X7mqhSnv3LstMzbAkAu | 王质 | accepted |
 | children | p_hhmhrJoJhGam6MtTDBQHpt | 王辂 | accepted |
 | descendants | p_U2Fggori7BCBLtrGmDkhHG | 王侨 | accepted |
+| descendants | p_2CY82LiLunPZpBKWzpBz3S | 王倬 | accepted |
 
 ## 外部来源
 
@@ -296,3 +334,4 @@ relationships:
 - [维基数据：王质（Q45637209）](https://www.wikidata.org/wiki/Q45637209)
 - [中文维基百科：王僑 (成化進士)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%83%91_(%E6%88%90%E5%8C%96%E9%80%B2%E5%A3%AB))
 - [CBDB 中国历代人物传记资料库：王琳（250184）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=250184&o=json)
+- [CBDB 中国历代人物传记资料库：王倬（126663）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126663&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王鸾
 cbdb_id: 222285
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -214,6 +214,32 @@ relationships:
         status: active
         display_name: 王佐
         merged_into_person_id: null
+    - claim:
+        id: c_vi4pWLf1QMBomYXy2Hn7-w
+        subject_person_id: p_2JBV3UP1jjSL1hUd6uRUK3
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_XLzE7EyB5VaDYLv2XHEgHa
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_A-oI1qaalq4sK_j_9k_v5u
+          claim_id: c_vi4pWLf1QMBomYXy2Hn7-w
+          source_id: s_6yxLzqCVN6DcVvJMGxkjKc
+          stance: supports
+          locator: 萬曆十一年進士登科錄:一卷，第二甲第十四名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_XLzE7EyB5VaDYLv2XHEgHa
+        status: active
+        display_name: 王佐
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -239,6 +265,7 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_LhDftPTdBSJ1CGALBq6bm6 | 王铭 | accepted |
 | children | p_bZ12YW1VvZ8wACEDC3JXA6 | 王佐 | accepted |
+| children | p_XLzE7EyB5VaDYLv2XHEgHa | 王佐 | accepted |
 
 ## 外部来源
 

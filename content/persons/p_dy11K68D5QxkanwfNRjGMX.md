@@ -4,7 +4,7 @@ id: p_dy11K68D5QxkanwfNRjGMX
 status: active
 merged_into: null
 display_name: 王希庭
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -241,6 +241,44 @@ relationships:
         status: active
         display_name: 王君素
         merged_into_person_id: null
+    - claim:
+        id: c_7e8gkDLg_XXSV5RO9Kly3k
+        subject_person_id: p_dy11K68D5QxkanwfNRjGMX
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3HP8CYoXsWtkpjhCNkBGH9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_CbQPkZkxBvlTbAN9xHQrBJ
+          claim_id: c_7e8gkDLg_XXSV5RO9Kly3k
+          source_id: s_RUDyN54bVNUBSSQJqRqvUt
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_RUDyN54bVNUBSSQJqRqvUt
+            source_type: api_record
+            title: 中国历代人物传记资料库：王從復（CBDB 185297）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=185297&o=json
+            external_identifier: CBDB:185297
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:39.240Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_3HP8CYoXsWtkpjhCNkBGH9
+        status: active
+        display_name: 王從復
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -269,9 +307,11 @@ relationships:
 | parents | p_c1NCkwp6d18gbmgfjMtJDP | 王邵 | accepted |
 | children | p_4LmSpyB7B9ubXZJPrd7ffT | 王寂 | accepted |
 | children | p_gXcfSNcP3LgyWs4pB6WRAy | 王君素 | accepted |
+| children | p_3HP8CYoXsWtkpjhCNkBGH9 | 王從復 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王從復（CBDB 185297）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=185297&o=json)
 - [中国历代人物传记资料库：王寂（CBDB 185294）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=185294&o=json)
 - [中国历代人物传记资料库：王君素（CBDB 185296）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=185296&o=json)
 - [中国历代人物传记资料库：王邵（CBDB 169168）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=169168&o=json)

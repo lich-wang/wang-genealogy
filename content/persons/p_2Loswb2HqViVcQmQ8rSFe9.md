@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王瑫
 cbdb_id: 126779
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:126779
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_Guq4H2hQkEkTKmCjpGDt7H
             source_type: api_record
             title: 中国历代人物传记资料库：王瑫（CBDB 126779）
@@ -86,12 +86,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_Y62dBJCA0oQ_cxMcpy1QvO
+        subject_person_id: p_vi9ZDtvEhQ6sUw3P3TjQzS
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_2Loswb2HqViVcQmQ8rSFe9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zcJawQrxbahAYSGOM1U4tk
+          claim_id: c_Y62dBJCA0oQ_cxMcpy1QvO
+          source_id: s_Guq4H2hQkEkTKmCjpGDt7H
+          stance: supports
+          locator: 成化十七年進士登科錄:一卷，第三甲第三十一名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_vi9ZDtvEhQ6sUw3P3TjQzS
+        status: active
+        display_name: 王鞏謙
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_ii8fPZO0bBZygbyDgOoF4a
+        subject_person_id: p_WVVoR9NHuzeU7ozPKBVvNk
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_2Loswb2HqViVcQmQ8rSFe9
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3YkWtZfYy84cch0z0yY1M8
+          claim_id: c_ii8fPZO0bBZygbyDgOoF4a
+          source_id: s_Guq4H2hQkEkTKmCjpGDt7H
+          stance: supports
+          locator: 成化十七年進士登科錄:一卷，第三甲第三十一名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_WVVoR9NHuzeU7ozPKBVvNk
+        status: active
+        display_name: 王伯智
+        merged_into_person_id: null
+    - claim:
+        id: c_fQ0lXFMnIA7TzgNXO7Y9cD
+        subject_person_id: p_jChEcNnY4t75m8QwQzbbnE
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_2Loswb2HqViVcQmQ8rSFe9
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_CF6YBFBUY_uBWbqfnsnnJI
+          claim_id: c_fQ0lXFMnIA7TzgNXO7Y9cD
+          source_id: s_Guq4H2hQkEkTKmCjpGDt7H
+          stance: supports
+          locator: 成化十七年進士登科錄:一卷，第三甲第三十一名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_jChEcNnY4t75m8QwQzbbnE
+        status: active
+        display_name: 王恂德
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -111,6 +189,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_vi9ZDtvEhQ6sUw3P3TjQzS | 王鞏謙 | accepted |
+| ancestors | p_WVVoR9NHuzeU7ozPKBVvNk | 王伯智 | accepted |
+| ancestors | p_jChEcNnY4t75m8QwQzbbnE | 王恂德 | accepted |
 
 ## 外部来源
 

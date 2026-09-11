@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王松龄
 cbdb_id: 36706
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -277,7 +277,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_IH5VuZjcxJZzFnqPi7IX2h
+        subject_person_id: p_tJA4SGo5rnDTPZB6FnPcWP
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Bxf4gH2xyWjLA2FCR3BhN7
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3Mom-65cH-S_1NJ31O5vSA
+          claim_id: c_IH5VuZjcxJZzFnqPi7IX2h
+          source_id: s_ZbRR2qinMrmQKSJZ5nhy4i
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ZbRR2qinMrmQKSJZ5nhy4i
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：周氏（37792）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37792&o=json
+            external_identifier: CBDB:37792
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person:
+        id: p_tJA4SGo5rnDTPZB6FnPcWP
+        status: active
+        display_name: 周氏
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -301,6 +338,7 @@ relationships:
 | children | p_3Jpz1MJr19NoGHADTpC82d | 王串 | accepted |
 | children | p_TXR4BZHWFYBdp9oHRn9hCf | 王聿 | accepted |
 | children | p_kdXLrKQ2gAzwQuRiYauex1 | 王中 | accepted |
+| ancestors | p_tJA4SGo5rnDTPZB6FnPcWP | 周氏 | accepted |
 
 ## 外部来源
 
@@ -309,3 +347,4 @@ relationships:
 - [维基数据：王彦博（Q45409553）](https://www.wikidata.org/wiki/Q45409553)
 - [CBDB 中国历代人物传记资料库：王松齡（36706）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=36706&o=json)
 - [CBDB 中国历代人物传记资料库：王彥博（26229）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26229&o=json)
+- [CBDB 中国历代人物传记资料库：周氏（37792）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37792&o=json)

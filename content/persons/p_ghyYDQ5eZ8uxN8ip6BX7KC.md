@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王原相
 cbdb_id: 205067
-revision: 4
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -225,6 +225,43 @@ relationships:
         status: active
         display_name: 王渐逵
         merged_into_person_id: null
+    - claim:
+        id: c_U92M8mO18-C9h8EBEe6vvf
+        subject_person_id: p_ZtPLst7z8SqwBQZGyED72K
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ghyYDQ5eZ8uxN8ip6BX7KC
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_e-4wN6N-a9rLTeGAwUrs8l
+          claim_id: c_U92M8mO18-C9h8EBEe6vvf
+          source_id: s_BN7xnKk26q4D4Jj4ZHESJA
+          stance: supports
+          locator: 嘉靖四十一年進士登科錄:一卷，第三甲第六十六名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_BN7xnKk26q4D4Jj4ZHESJA
+            source_type: api_record
+            title: 中国历代人物传记资料库：王漸逵（CBDB 327867）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327867&o=json
+            external_identifier: CBDB:327867
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.268Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ZtPLst7z8SqwBQZGyED72K
+        status: active
+        display_name: 王漸逵
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -390,6 +427,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_2ER4qeybN68kj6wmWDD4De | 王渐逵 | accepted |
+| parents | p_ZtPLst7z8SqwBQZGyED72K | 王漸逵 | accepted |
 | spouses | p_hCnqrGYXkPvJd8A849zxFy | 赵氏 | accepted |
 | ancestors | p_88E2kZdSA7Md5JrUtxLyqj | 王瑤 | accepted |
 | ancestors | p_LHS4YrNCt18cuPChGrT5eW | 王傅 | accepted |
@@ -400,6 +438,7 @@ relationships:
 - [维基数据：王原相（Q45551627）](https://www.wikidata.org/wiki/Q45551627)
 - [维基数据：赵氏（Q65854661）](https://www.wikidata.org/wiki/Q65854661)
 - [中国历代人物传记资料库：王傅（CBDB 327866）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327866&o=json)
+- [中国历代人物传记资料库：王漸逵（CBDB 327867）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327867&o=json)
 - [中国历代人物传记资料库：王瑤（CBDB 327865）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327865&o=json)
 - [中文维基百科：王原相](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%8E%9F%E7%9B%B8)
 - [CBDB 中国历代人物传记资料库：王原相（205067）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205067&o=json)

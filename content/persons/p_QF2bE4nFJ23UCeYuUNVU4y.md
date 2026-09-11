@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王孟华
 cbdb_id: 302966
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -50,7 +50,7 @@ properties:
           locator: CBDB:302966
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source:
+          source: &a2
             id: s_vH64iAiKp2gTrnJMBPVsxH
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：王孟華（302966）
@@ -143,7 +143,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_0rYTYuFWaZm5bNmceqFevx
+        subject_person_id: p_QF2bE4nFJ23UCeYuUNVU4y
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_4GbPExDFna3bpZBzyQEK5D
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_a8I7NYIPKYBQ1YMNdZa7-C
+          claim_id: c_0rYTYuFWaZm5bNmceqFevx
+          source_id: s_vH64iAiKp2gTrnJMBPVsxH
+          stance: supports
+          locator: 嘉靖二十年進士登科錄:一卷，第二甲第八十七名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_4GbPExDFna3bpZBzyQEK5D
+        status: active
+        display_name: 王崇古
+        merged_into_person_id: null
   other: []
 ---
 
@@ -163,6 +189,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_ptMfEt1rAT4WiPXRdKXa9c | 王馨 | accepted |
+| descendants | p_4GbPExDFna3bpZBzyQEK5D | 王崇古 | accepted |
 
 ## 外部来源
 

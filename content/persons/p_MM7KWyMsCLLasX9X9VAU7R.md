@@ -4,7 +4,7 @@ id: p_MM7KWyMsCLLasX9X9VAU7R
 status: active
 merged_into: null
 display_name: 王宗堯
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_8avPhPGZPVSH2tSP5IY0eC
+        subject_person_id: p_3w9KiL5k9du8Z7UbUeRxEe
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_MM7KWyMsCLLasX9X9VAU7R
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1fAIecKwn6AhqbzE_CIPBo
+          claim_id: c_8avPhPGZPVSH2tSP5IY0eC
+          source_id: s_HKsE92Q1zr71u5JPeo8ZE7
+          stance: supports
+          locator: 嘉靖二十三年登科錄:一卷，第二甲第二十八名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_HKsE92Q1zr71u5JPeo8ZE7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王楚鳳（CBDB 305534）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305534&o=json
+            external_identifier: CBDB:305534
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:05.361Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_3w9KiL5k9du8Z7UbUeRxEe
+        status: active
+        display_name: 王楚鳳
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -200,11 +238,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_3w9KiL5k9du8Z7UbUeRxEe | 王楚鳳 | accepted |
 | ancestors | p_kMXFk2RMgWgsEh7BZJsmpC | 王聘 | accepted |
 | ancestors | p_nyHGqvA9YTKT9YQnGQ6pMM | 王大賓 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王楚鳳（CBDB 305534）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305534&o=json)
 - [中国历代人物传记资料库：王大賓（CBDB 305532）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305532&o=json)
 - [中国历代人物传记资料库：王聘（CBDB 305533）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305533&o=json)
 - [中国历代人物传记资料库：王宗堯（CBDB 203496）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203496&o=json)

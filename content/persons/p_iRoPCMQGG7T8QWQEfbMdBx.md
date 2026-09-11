@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王汝鲁
 cbdb_id: 126502
-revision: 4
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -400,6 +400,43 @@ relationships:
         status: active
         display_name: 杨氏
         merged_into_person_id: null
+    - claim:
+        id: c_lLBjKN4j4-Ib-nryWoYWfA
+        subject_person_id: p_TFYLNz818Sj3Pa3L1D9Wxf
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_iRoPCMQGG7T8QWQEfbMdBx
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_n92HLQtZTiRQVMrr3berXP
+          claim_id: c_lLBjKN4j4-Ib-nryWoYWfA
+          source_id: s_VjMEu9hqNMPKzNzwuWHnML
+          stance: supports
+          locator: 隆慶二年進士登科錄:一卷，第二甲第四十七名：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_VjMEu9hqNMPKzNzwuWHnML
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：郭氏（334084）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334084&o=json
+            external_identifier: CBDB:334084
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person:
+        id: p_TFYLNz818Sj3Pa3L1D9Wxf
+        status: active
+        display_name: 郭氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_77O6_rAwxw1ExQRXIAySne
@@ -500,6 +537,7 @@ relationships:
 | children | p_242z5MMsb8wcZLyEjHEfHR | 王應修 | accepted |
 | spouses | p_TFYLNz818Sj3Pa3L1D9Wxf | 郭氏 | accepted |
 | spouses | p_Cpk49SPxpMgEW6iFdSv213 | 杨氏 | accepted |
+| spouses | p_TFYLNz818Sj3Pa3L1D9Wxf | 郭氏 | accepted |
 | ancestors | p_bwdhzsnM77a9YN3tYyTmwB | 王鴻儒 | accepted |
 | ancestors | p_SvtJzbwQx6aPhbiUbFsPgi | 王本 | accepted |
 
@@ -511,5 +549,6 @@ relationships:
 - [维基数据：杨氏（Q65861477）](https://www.wikidata.org/wiki/Q65861477)
 - [中国历代人物传记资料库：王本（CBDB 334079）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334079&o=json)
 - [中国历代人物传记资料库：王鴻儒（CBDB 33864）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=33864&o=json)
+- [CBDB 中国历代人物传记资料库：郭氏（334084）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334084&o=json)
 - [CBDB 中国历代人物传记资料库：王可（334081）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334081&o=json)
 - [CBDB 中国历代人物传记资料库：王汝魯（126502）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126502&o=json)

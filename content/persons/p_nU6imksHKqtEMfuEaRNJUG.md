@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王上客
 cbdb_id: 191289
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -50,7 +50,7 @@ properties:
           locator: CBDB:191289
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source:
+          source: &a2
             id: s_d1BioWBySRD3o5vSLFQQoJ
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：王上客（191289）
@@ -120,7 +120,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_0R3AE0pPBL0X1PujE-IIGh
+        subject_person_id: p_yAEnnc4ZJJBwEULXGP2WRZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_nU6imksHKqtEMfuEaRNJUG
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_U7NCGUXYolQ2tzgqPsMs2c
+          claim_id: c_0R3AE0pPBL0X1PujE-IIGh
+          source_id: s_d1BioWBySRD3o5vSLFQQoJ
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_yAEnnc4ZJJBwEULXGP2WRZ
+        status: active
+        display_name: 王敬忠
+        merged_into_person_id: null
   children:
     - claim:
         id: c_jRDAVr8k7sAXi4MJ9rNqgm
@@ -191,6 +217,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_yAEnnc4ZJJBwEULXGP2WRZ | 王敬忠 | accepted |
 | children | p_Cce815uEoUo6yUTu46sgAK | 王暾 | accepted |
 
 ## 外部来源

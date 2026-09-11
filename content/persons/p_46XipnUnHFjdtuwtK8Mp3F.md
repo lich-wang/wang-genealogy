@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王蕙貞
 cbdb_id: 121811
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:121811
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_fsjGCZ2rKkMN7xm3S6BCSG
             source_type: api_record
             title: 中国历代人物传记资料库：王蕙貞（CBDB 121811）
@@ -86,7 +86,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_McVg5hReZntGfZy_22PeBb
+        subject_person_id: p_DHru16jGHKcfWy9wEAhHfF
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_46XipnUnHFjdtuwtK8Mp3F
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Ik-GA4K2F_REoK_atka-T8
+          claim_id: c_McVg5hReZntGfZy_22PeBb
+          source_id: s_fsjGCZ2rKkMN7xm3S6BCSG
+          stance: supports
+          locator: 明清婦女著作數據庫，4257：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_DHru16jGHKcfWy9wEAhHfF
+        status: active
+        display_name: 王之麟
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_DHru16jGHKcfWy9wEAhHfF | 王之麟 | accepted |
 
 ## 外部来源
 

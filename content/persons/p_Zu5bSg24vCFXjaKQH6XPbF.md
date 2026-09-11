@@ -4,7 +4,7 @@ id: p_Zu5bSg24vCFXjaKQH6XPbF
 status: active
 merged_into: null
 display_name: 王思誠
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,59 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_4XcxIjFLYOfRL6WVldVE9R
+        subject_person_id: p_Zu5bSg24vCFXjaKQH6XPbF
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_NCS3B6qxdWUziaAFj1bjfH
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_opvzJHu55VaqEHhwua9Xbf
+          claim_id: c_4XcxIjFLYOfRL6WVldVE9R
+          source_id: s_GVTk8rDEN1gqHJfHF8jhaF
+          stance: supports
+          locator: 成化二十三年進士登科錄:一卷，第二甲第二十二名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_NCS3B6qxdWUziaAFj1bjfH
+        status: active
+        display_name: 王綸
+        merged_into_person_id: null
+    - claim:
+        id: c_qtV36e9-OVYcDBN0y9e_rK
+        subject_person_id: p_Zu5bSg24vCFXjaKQH6XPbF
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_ppyWLxr8Sp6zZ7s3LPugbF
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__Hco4uxsm-Wr7bxjL1ua3x
+          claim_id: c_qtV36e9-OVYcDBN0y9e_rK
+          source_id: s_GVTk8rDEN1gqHJfHF8jhaF
+          stance: supports
+          locator: 弘治六年進士登科錄:一卷，第三甲第六十二名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_ppyWLxr8Sp6zZ7s3LPugbF
+        status: active
+        display_name: 王綬
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_NCS3B6qxdWUziaAFj1bjfH | 王綸 | accepted |
+| descendants | p_ppyWLxr8Sp6zZ7s3LPugbF | 王綬 | accepted |
 
 ## 外部来源
 

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王鳳生
 cbdb_id: 56490
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -211,6 +211,44 @@ relationships:
         status: active
         display_name: 王世某
         merged_into_person_id: null
+    - claim:
+        id: c_PbpkXgPBvn3OvQ0M1wftAa
+        subject_person_id: p_Q7ggBttVytDDHAgopL9CKb
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_1yxK9F8DNq1ge3RKe9th3W
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_oDGaGb7wg3Me3vpc30w-79
+          claim_id: c_PbpkXgPBvn3OvQ0M1wftAa
+          source_id: s_i49AQNEyFrQAiq9GzTb1T6
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #937, HuWenKai #232：父"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_i49AQNEyFrQAiq9GzTb1T6
+            source_type: api_record
+            title: 中国历代人物传记资料库：王玉芬（CBDB 56489）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=56489&o=json
+            external_identifier: CBDB:56489
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:48.148Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_1yxK9F8DNq1ge3RKe9th3W
+        status: active
+        display_name: 王玉芬
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -274,6 +312,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_1z83GLfcsWE9Kuamp9WTj3 | 王世某 | accepted |
+| children | p_1yxK9F8DNq1ge3RKe9th3W | 王玉芬 | accepted |
 | ancestors | p_cBGCXtQ6wkhv554viPc99n | 王文德 | accepted |
 
 ## 外部来源
@@ -281,3 +320,4 @@ relationships:
 - [中国历代人物传记资料库：王鳳生（CBDB 56490）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=56490&o=json)
 - [中国历代人物传记资料库：王世某（CBDB 517434）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=517434&o=json)
 - [中国历代人物传记资料库：王文德（CBDB 696857）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696857&o=json)
+- [中国历代人物传记资料库：王玉芬（CBDB 56489）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=56489&o=json)

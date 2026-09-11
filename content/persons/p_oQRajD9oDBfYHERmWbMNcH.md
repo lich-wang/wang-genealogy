@@ -4,7 +4,7 @@ id: p_oQRajD9oDBfYHERmWbMNcH
 status: active
 merged_into: null
 display_name: 王宜
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_wq_Nxe1Jy5Zc5h39Q82j7i
+        subject_person_id: p_2jbUSp9pUyEuUdReswY15E
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_oQRajD9oDBfYHERmWbMNcH
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_j1zh7tyPfJW9OT0pI4GqJL
+          claim_id: c_wq_Nxe1Jy5Zc5h39Q82j7i
+          source_id: s_VdWHMNqmNv9Ar47veuih7X
+          stance: supports
+          locator: 成化八年進士登科錄:一卷，第二甲第三十二名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_VdWHMNqmNv9Ar47veuih7X
+            source_type: api_record
+            title: 中国历代人物传记资料库：王載錫（CBDB 245400）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=245400&o=json
+            external_identifier: CBDB:245400
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:59.761Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_2jbUSp9pUyEuUdReswY15E
+        status: active
+        display_name: 王載錫
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -163,9 +201,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_2jbUSp9pUyEuUdReswY15E | 王載錫 | accepted |
 | ancestors | p_kDNRN3YCCEhvPfBk6vn2qH | 王伯清 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王伯清（CBDB 245398）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=245398&o=json)
 - [中国历代人物传记资料库：王宜（CBDB 199464）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=199464&o=json)
+- [中国历代人物传记资料库：王載錫（CBDB 245400）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=245400&o=json)

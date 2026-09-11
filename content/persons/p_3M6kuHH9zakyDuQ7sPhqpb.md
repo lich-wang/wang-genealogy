@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王承祿
 cbdb_id: 264046
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:264046
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_SFX3Hp1sAfyFtcdUMTGqiy
             source_type: api_record
             title: 中国历代人物传记资料库：王承祿（CBDB 264046）
@@ -86,7 +86,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_cPhBxcJ0t2zZqFUoy9FMYb
+        subject_person_id: p_T2DCj9d6XKU4djHJMs2kSM
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3M6kuHH9zakyDuQ7sPhqpb
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PUF8rKUNLMtKmZWOcN9KeU
+          claim_id: c_cPhBxcJ0t2zZqFUoy9FMYb
+          source_id: s_SFX3Hp1sAfyFtcdUMTGqiy
+          stance: supports
+          locator: 王端毅公文集:九卷，29.5a：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_T2DCj9d6XKU4djHJMs2kSM
+        status: active
+        display_name: 王恕
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_T2DCj9d6XKU4djHJMs2kSM | 王恕 | accepted |
 
 ## 外部来源
 

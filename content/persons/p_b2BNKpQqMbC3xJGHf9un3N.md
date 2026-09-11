@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王明
 cbdb_id: 1855
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -51,7 +51,7 @@ properties:
           locator: CBDB:1855
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source:
+          source: &a2
             id: s_aL4EcP94aV8eKfMQDR86hi
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：王明（1855）
@@ -238,7 +238,59 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_zxLYWcZTXh82PsZ7FHlhGW
+        subject_person_id: p_b2BNKpQqMbC3xJGHf9un3N
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_tmq6Wnq1CjinFj62NTxvnd
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JTpQj-CGS36_5IbFv2z1Xh
+          claim_id: c_zxLYWcZTXh82PsZ7FHlhGW
+          source_id: s_aL4EcP94aV8eKfMQDR86hi
+          stance: supports
+          locator: 宋史，0：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_tmq6Wnq1CjinFj62NTxvnd
+        status: active
+        display_name: 王师颜
+        merged_into_person_id: null
+    - claim:
+        id: c_3la2I3JtQYE0Qz7uqtrTmA
+        subject_person_id: p_b2BNKpQqMbC3xJGHf9un3N
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_LFjdt9p5AsmDgzGet1fXc3
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lzrVxvxVsFL6H1R3HlFoZL
+          claim_id: c_3la2I3JtQYE0Qz7uqtrTmA
+          source_id: s_aL4EcP94aV8eKfMQDR86hi
+          stance: supports
+          locator: 宋史：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_LFjdt9p5AsmDgzGet1fXc3
+        status: active
+        display_name: 王广渊
+        merged_into_person_id: null
   other: []
 ---
 
@@ -261,6 +313,8 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_Myr7yL2y4NUdhUtw1bG9bq | 王扶 | accepted |
 | children | p_5iw33cL248sw6QfTEUKPQC | 王掞 | accepted |
+| descendants | p_tmq6Wnq1CjinFj62NTxvnd | 王师颜 | accepted |
+| descendants | p_LFjdt9p5AsmDgzGet1fXc3 | 王广渊 | accepted |
 
 ## 外部来源
 

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王乂衡
 cbdb_id: 264447
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:264447
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_H8haDxmhkZnrpPHJ6M7d2i
             source_type: api_record
             title: 中国历代人物传记资料库：王乂衡（CBDB 264447）
@@ -87,7 +87,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_uDkGDF4HH4xoypvFieCHEJ
+        subject_person_id: p_2hYFczFXSMMXJ25M18ZPJD
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_tcnRstaNUF5RMY944rGoMz
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gXPoaC1DPdGnjaeB_NLQI-
+          claim_id: c_uDkGDF4HH4xoypvFieCHEJ
+          source_id: s_H8haDxmhkZnrpPHJ6M7d2i
+          stance: supports
+          locator: 弘治六年進士登科錄:一卷，第二甲第六十二名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_tcnRstaNUF5RMY944rGoMz
+        status: active
+        display_name: 王大用
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_tcnRstaNUF5RMY944rGoMz | 王大用 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_qcp613MEZvW9QYvDGgbu1f
 status: active
 merged_into: null
 display_name: 王寅
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_9mBss6Icxhbq8omzNSEcm-
+        subject_person_id: p_ZvcYSxF75Ub3o8A9bCQMfH
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_qcp613MEZvW9QYvDGgbu1f
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_02046G-pJYndaEKd7dZXwG
+          claim_id: c_9mBss6Icxhbq8omzNSEcm-
+          source_id: s_r49wptKfM3WBmgLjfP3a83
+          stance: supports
+          locator: 成化十七年進士登科錄:一卷，第三甲第十四名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_r49wptKfM3WBmgLjfP3a83
+            source_type: api_record
+            title: 中国历代人物传记资料库：王志廣（CBDB 255755）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255755&o=json
+            external_identifier: CBDB:255755
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.351Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ZvcYSxF75Ub3o8A9bCQMfH
+        status: active
+        display_name: 王志廣
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -229,6 +266,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_ZvcYSxF75Ub3o8A9bCQMfH | 王志廣 | accepted |
 | ancestors | p_7iitVAMc3DKp3oMEVJh77W | 王能 | accepted |
 | ancestors | p_W9K3ygtGHRzoKsD8PPraFy | 王興 | accepted |
 
@@ -237,3 +275,4 @@ relationships:
 - [中国历代人物传记资料库：王能（CBDB 255754）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255754&o=json)
 - [中国历代人物传记资料库：王興（CBDB 255753）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255753&o=json)
 - [中国历代人物传记资料库：王寅（CBDB 126668）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126668&o=json)
+- [中国历代人物传记资料库：王志廣（CBDB 255755）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255755&o=json)

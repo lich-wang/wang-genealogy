@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 李收
 cbdb_id: 186699
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -50,7 +50,7 @@ properties:
           locator: CBDB:186699
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source:
+          source: &a2
             id: s_q5NEzvsFeQL1cY7onb3pZP
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：李收（186699）
@@ -134,6 +134,32 @@ relationships:
         status: active
         display_name: 王氏
         merged_into_person_id: null
+    - claim:
+        id: c_1mP-qS8aCYGjkw_KX5rqLt
+        subject_person_id: p_o13vNKQ64b31uTKeAY1uL2
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_cFrrQD9w9e7DqR4q2v5s6z
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3rX-eZiclnwc2Vs3lVMxVL
+          claim_id: c_1mP-qS8aCYGjkw_KX5rqLt
+          source_id: s_q5NEzvsFeQL1cY7onb3pZP
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_cFrrQD9w9e7DqR4q2v5s6z
+        status: active
+        display_name: 王氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -153,6 +179,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_cFrrQD9w9e7DqR4q2v5s6z | 王氏 | accepted |
 | spouses | p_cFrrQD9w9e7DqR4q2v5s6z | 王氏 | accepted |
 
 ## 外部来源

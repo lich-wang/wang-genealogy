@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王氏
 cbdb_id: 145522
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -298,6 +298,43 @@ relationships:
         status: active
         display_name: 李收
         merged_into_person_id: null
+    - claim:
+        id: c_1mP-qS8aCYGjkw_KX5rqLt
+        subject_person_id: p_o13vNKQ64b31uTKeAY1uL2
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_cFrrQD9w9e7DqR4q2v5s6z
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3rX-eZiclnwc2Vs3lVMxVL
+          claim_id: c_1mP-qS8aCYGjkw_KX5rqLt
+          source_id: s_q5NEzvsFeQL1cY7onb3pZP
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_q5NEzvsFeQL1cY7onb3pZP
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：李收（186699）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=186699&o=json
+            external_identifier: CBDB:186699
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person:
+        id: p_o13vNKQ64b31uTKeAY1uL2
+        status: active
+        display_name: 李收
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -322,11 +359,13 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_c8C8PQBtyD8TinfV8tVU4U | 王澄 | accepted |
 | spouses | p_o13vNKQ64b31uTKeAY1uL2 | 李收 | accepted |
+| spouses | p_o13vNKQ64b31uTKeAY1uL2 | 李收 | accepted |
 
 ## 外部来源
 
 - [维基数据：李收（Q45685708）](https://www.wikidata.org/wiki/Q45685708)
 - [维基数据：王澄（Q45685584）](https://www.wikidata.org/wiki/Q45685584)
 - [维基数据：王氏（Q65803842）](https://www.wikidata.org/wiki/Q65803842)
+- [CBDB 中国历代人物传记资料库：李收（186699）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=186699&o=json)
 - [CBDB 中国历代人物传记资料库：王澄（186695）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=186695&o=json)
 - [CBDB 中国历代人物传记资料库：王氏（145522）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=145522&o=json)

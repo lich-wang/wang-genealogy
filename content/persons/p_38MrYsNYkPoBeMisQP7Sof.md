@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王经
 cbdb_id: 200712
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -353,7 +353,44 @@ relationships:
         status: active
         display_name: 陆氏
         merged_into_person_id: null
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_y-XIZr6HZubm3Soprb2_b4
+        subject_person_id: p_GSmwJBLeFLbzGBorXyeZgE
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_38MrYsNYkPoBeMisQP7Sof
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vvW6FczxprmBdgjN-6E1p-
+          claim_id: c_y-XIZr6HZubm3Soprb2_b4
+          source_id: s_v6s8eYTN6QA5swzJ6vY6HW
+          stance: supports
+          locator: 弘治三年進士登科錄:一卷，第三甲第四名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_v6s8eYTN6QA5swzJ6vY6HW
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王可旺（261818）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261818&o=json
+            external_identifier: CBDB:261818
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person:
+        id: p_GSmwJBLeFLbzGBorXyeZgE
+        status: active
+        display_name: 王可旺
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -378,6 +415,7 @@ relationships:
 | parents | p_ehZuBZd9shSeUtjtamrVMy | 王理 | accepted |
 | children | p_aXikAW5GmUNHUB4Mexh2vK | 王龙溪 | accepted |
 | spouses | p_bb58h5qHPT8SmjUn6k6pDy | 陆氏 | accepted |
+| ancestors | p_GSmwJBLeFLbzGBorXyeZgE | 王可旺 | accepted |
 
 ## 外部来源
 
@@ -387,3 +425,4 @@ relationships:
 - [维基数据：王龙溪（Q11573179）](https://www.wikidata.org/wiki/Q11573179)
 - [中国历代人物传记资料库：王理（CBDB 261819）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261819&o=json)
 - [CBDB 中国历代人物传记资料库：王經（200712）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200712&o=json)
+- [CBDB 中国历代人物传记资料库：王可旺（261818）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261818&o=json)

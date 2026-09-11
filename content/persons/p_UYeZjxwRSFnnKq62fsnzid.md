@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王葑
 cbdb_id: 204755
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -209,6 +209,44 @@ relationships:
         status: active
         display_name: 王福
         merged_into_person_id: null
+    - claim:
+        id: c_XzvfYckO-yl_jpOXZ46QeG
+        subject_person_id: p_3P6PL5iSpXsS5WK4moYCCA
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_UYeZjxwRSFnnKq62fsnzid
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jqi_9JjTcDihCV9kGfzUD0
+          claim_id: c_XzvfYckO-yl_jpOXZ46QeG
+          source_id: s_MB3h4ovn7qsRd3TE21rFuE
+          stance: supports
+          locator: 嘉靖三十八年進士登科錄:一卷，第二甲第五十七名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_MB3h4ovn7qsRd3TE21rFuE
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瀴（CBDB 323578）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=323578&o=json
+            external_identifier: CBDB:323578
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:06.922Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_3P6PL5iSpXsS5WK4moYCCA
+        status: active
+        display_name: 王瀴
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -231,9 +269,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_wHjp1JMvU1aPHYazUSZMfH | 王琴 | accepted |
 | ancestors | p_hRDNX5mnYXEF5X2cQ7U6H4 | 王福 | accepted |
+| ancestors | p_3P6PL5iSpXsS5WK4moYCCA | 王瀴 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王葑（CBDB 204755）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204755&o=json)
 - [中国历代人物传记资料库：王福（CBDB 323577）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=323577&o=json)
 - [中国历代人物传记资料库：王琴（CBDB 323579）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=323579&o=json)
+- [中国历代人物传记资料库：王瀴（CBDB 323578）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=323578&o=json)

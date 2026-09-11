@@ -4,7 +4,7 @@ id: p_UZa7SsGRtxBt58y2K3aT16
 status: active
 merged_into: null
 display_name: 王宗茂
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -169,7 +169,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_uwdjwufMVL6UnSuYb7aM4Y
+        subject_person_id: p_23Etd25TXCcVnTgzgsN8Z9
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_UZa7SsGRtxBt58y2K3aT16
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YqezNeHhp8omKP2nUyiEf5
+          claim_id: c_uwdjwufMVL6UnSuYb7aM4Y
+          source_id: s_A7AdSTvuk8Yo6JW9QTS3s6
+          stance: supports
+          locator: 嘉靖二十六年進士登科錄:一卷，第三甲第一百六十七名：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_A7AdSTvuk8Yo6JW9QTS3s6
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：石氏（311231）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=311231&o=json
+            external_identifier: CBDB:311231
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:59:43.267Z
+            metadata_json: null
+      object_person:
+        id: p_23Etd25TXCcVnTgzgsN8Z9
+        status: active
+        display_name: 石氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_4El0qWGdKymuJGrKPRTZe1
@@ -267,6 +304,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_qaTudBQjqzBHb8gcyj7pGE | 王橋 | accepted |
+| spouses | p_23Etd25TXCcVnTgzgsN8Z9 | 石氏 | accepted |
 | ancestors | p_3LRj5EkYSjQMyam6XvjeR8 | 王易 | accepted |
 | ancestors | p_RobundHCGLnqmnT1fWZW6M | 王大韶 | accepted |
 
@@ -276,3 +314,4 @@ relationships:
 - [中国历代人物传记资料库：王橋（CBDB 311228）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=311228&o=json)
 - [中国历代人物传记资料库：王易（CBDB 311226）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=311226&o=json)
 - [中国历代人物传记资料库：王宗茂（CBDB 68496）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=68496&o=json)
+- [CBDB 中国历代人物传记资料库：石氏（311231）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=311231&o=json)

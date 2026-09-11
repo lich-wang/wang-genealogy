@@ -4,7 +4,7 @@ id: p_FDfwTTY5mqzGJCTTHJFcH8
 status: active
 merged_into: null
 display_name: 王一夔
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_7PoBAlqM4zvs1KOlH_QWQz
+        subject_person_id: p_1iSvDHtRHkxhgvj9Gg5W8M
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_FDfwTTY5mqzGJCTTHJFcH8
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8-Hrgn8yym5n8x9ToE9YKA
+          claim_id: c_7PoBAlqM4zvs1KOlH_QWQz
+          source_id: s_PESyAC2FwYMNxkKGf7ppue
+          stance: supports
+          locator: 嘉靖二十六年進士登科錄:一卷，第二甲第二十五名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_PESyAC2FwYMNxkKGf7ppue
+            source_type: api_record
+            title: 中国历代人物传记资料库：王仲貴（CBDB 308778）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=308778&o=json
+            external_identifier: CBDB:308778
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:05.361Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_1iSvDHtRHkxhgvj9Gg5W8M
+        status: active
+        display_name: 王仲貴
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -200,6 +238,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_1iSvDHtRHkxhgvj9Gg5W8M | 王仲貴 | accepted |
 | ancestors | p_4P232SRs9q3PwKhwXTXK8X | 王理 | accepted |
 | ancestors | p_4xVHszHged8ZkuPtDKcT7D | 王鏜 | accepted |
 
@@ -208,3 +247,4 @@ relationships:
 - [中国历代人物传记资料库：王理（CBDB 308776）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=308776&o=json)
 - [中国历代人物传记资料库：王鏜（CBDB 308777）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=308777&o=json)
 - [中国历代人物传记资料库：王一夔（CBDB 203700）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203700&o=json)
+- [中国历代人物传记资料库：王仲貴（CBDB 308778）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=308778&o=json)

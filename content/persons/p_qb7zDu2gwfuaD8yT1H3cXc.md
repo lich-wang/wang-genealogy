@@ -4,7 +4,7 @@ id: p_qb7zDu2gwfuaD8yT1H3cXc
 status: active
 merged_into: null
 display_name: 王元春
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_WOo4p1svt18FCbkaksVV1c
+        subject_person_id: p_zRQ8vX2mq2ef6gtHZ8hFkm
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_qb7zDu2gwfuaD8yT1H3cXc
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Y-Zi5qz9ds0w_mT_rbZPvf
+          claim_id: c_WOo4p1svt18FCbkaksVV1c
+          source_id: s_s3xmpoTHPot9mSnQLLtQS4
+          stance: supports
+          locator: 嘉靖二十九年進士登科錄:一卷，第三甲第一百六十一名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_s3xmpoTHPot9mSnQLLtQS4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王滋（CBDB 314299）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314299&o=json
+            external_identifier: CBDB:314299
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.926Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_zRQ8vX2mq2ef6gtHZ8hFkm
+        status: active
+        display_name: 王滋
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -171,6 +208,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_zRQ8vX2mq2ef6gtHZ8hFkm | 王滋 | accepted |
 | ancestors | p_inf8KK3zWGNtjq3Vp6iZGY | 王珉 | accepted |
 | ancestors | p_UW29arWdE4TLLL28oGpy1K | 王哲 | accepted |
 
@@ -179,3 +217,4 @@ relationships:
 - [中国历代人物传记资料库：王珉（CBDB 314297）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314297&o=json)
 - [中国历代人物传记资料库：王元春（CBDB 126470）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126470&o=json)
 - [中国历代人物传记资料库：王哲（CBDB 314298）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314298&o=json)
+- [中国历代人物传记资料库：王滋（CBDB 314299）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314299&o=json)

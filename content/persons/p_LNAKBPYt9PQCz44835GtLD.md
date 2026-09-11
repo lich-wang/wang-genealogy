@@ -4,7 +4,7 @@ id: p_LNAKBPYt9PQCz44835GtLD
 status: active
 merged_into: null
 display_name: 王續之
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,43 @@ relationships:
         status: active
         display_name: 王銳
         merged_into_person_id: null
+    - claim:
+        id: c_DBBKh7SPpH3bgaOoyp8Lzv
+        subject_person_id: p_ZWx9BUeSiDUd2ZtZQJRxGo
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_LNAKBPYt9PQCz44835GtLD
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__XFJR3Ks9t1oJAnN8fd9uJ
+          claim_id: c_DBBKh7SPpH3bgaOoyp8Lzv
+          source_id: s_7bD6X6QACgJ5TN9t5K7TYM
+          stance: supports
+          locator: 嘉靖四十一年進士登科錄:一卷，第二甲第五十七名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_7bD6X6QACgJ5TN9t5K7TYM
+            source_type: api_record
+            title: 中国历代人物传记资料库：王希文（CBDB 326817）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326817&o=json
+            external_identifier: CBDB:326817
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.230Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ZWx9BUeSiDUd2ZtZQJRxGo
+        status: active
+        display_name: 王希文
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_vK3QABJxLZ3CGaf98onw4k | 王廷 | accepted |
 | ancestors | p_JH4jDbcMV3BNGKWbQ9vKF4 | 王銳 | accepted |
+| ancestors | p_ZWx9BUeSiDUd2ZtZQJRxGo | 王希文 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王銳（CBDB 326816）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326816&o=json)
 - [中国历代人物传记资料库：王廷（CBDB 326819）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326819&o=json)
+- [中国历代人物传记资料库：王希文（CBDB 326817）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326817&o=json)
 - [中国历代人物传记资料库：王續之（CBDB 204986）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204986&o=json)

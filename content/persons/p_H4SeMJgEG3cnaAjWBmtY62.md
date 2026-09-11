@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王玉銳
 cbdb_id: 143519
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -135,7 +135,45 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c___BaRadgwvYAGzS9nclzlY
+        subject_person_id: p_H4SeMJgEG3cnaAjWBmtY62
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_3ZArzqHeQAQ866n7fJRWyU
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zG5_vkCCnS-U7v9AVvj_gL
+          claim_id: c___BaRadgwvYAGzS9nclzlY
+          source_id: s_r3aVXN5S3dMLV5rj7ozR2f
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Dazhong79：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_r3aVXN5S3dMLV5rj7ozR2f
+            source_type: api_record
+            title: 中国历代人物传记资料库：王洪汎（CBDB 167727）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=167727&o=json
+            external_identifier: CBDB:167727
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:54.741Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_3ZArzqHeQAQ866n7fJRWyU
+        status: active
+        display_name: 王洪汎
+        merged_into_person_id: null
   other: []
 ---
 
@@ -155,7 +193,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_3ZArzqHeQAQ866n7fJRWyU | 王洪汎 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王洪汎（CBDB 167727）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=167727&o=json)
 - [中国历代人物传记资料库：王玉銳（CBDB 143519）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=143519&o=json)

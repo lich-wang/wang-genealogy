@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王倬
 cbdb_id: 126663
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -509,7 +509,59 @@ relationships:
         status: active
         display_name: 陈氏
         merged_into_person_id: null
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_HagACvArdUbMIcEStRSN5x
+        subject_person_id: p_gH1X7mqhSnv3LstMzbAkAu
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_2CY82LiLunPZpBKWzpBz3S
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rjjQCg_3ZSqcNRt8gsX_65
+          claim_id: c_HagACvArdUbMIcEStRSN5x
+          source_id: s_KiKcwY7ixByX4xMwNVCevX
+          stance: supports
+          locator: 成化十四年進士登科錄:一卷，第三甲第五十九名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_gH1X7mqhSnv3LstMzbAkAu
+        status: active
+        display_name: 王质
+        merged_into_person_id: null
+    - claim:
+        id: c_Sqx67jefaSqq_QLlRzaWFn
+        subject_person_id: p_jFuufzfY72LPXJ1cXZRs83
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_2CY82LiLunPZpBKWzpBz3S
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_csd8s7hi9s0vIhNKHrNDCy
+          claim_id: c_Sqx67jefaSqq_QLlRzaWFn
+          source_id: s_KiKcwY7ixByX4xMwNVCevX
+          stance: supports
+          locator: 成化十四年進士登科錄:一卷，第三甲第五十九名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_jFuufzfY72LPXJ1cXZRs83
+        status: active
+        display_name: 王琳
+        merged_into_person_id: null
   descendants:
     - claim:
         id: c_cbeR9PBfXJiaAG36iGBPVC
@@ -609,6 +661,8 @@ relationships:
 | children | p_rhWqaakmtKs2T99dEuZoHh | 王忬 | accepted |
 | spouses | p_oXgB7fWB5Zz4xW1VtwDtA9 | 陈氏 | accepted |
 | spouses | p_YDHZcKGiRMxxLcCTtxgXh4 | 陈氏 | accepted |
+| ancestors | p_gH1X7mqhSnv3LstMzbAkAu | 王质 | accepted |
+| ancestors | p_jFuufzfY72LPXJ1cXZRs83 | 王琳 | accepted |
 | descendants | p_Dh9CnuPaa166GMCnTFvEL4 | 王士骐 | accepted |
 | descendants | p_38CvMQkfBCMzR3DNrBhBQJ | 王世懋 | accepted |
 

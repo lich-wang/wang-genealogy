@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王民
 cbdb_id: 277428
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -50,7 +50,7 @@ properties:
           locator: CBDB:277428
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source:
+          source: &a2
             id: s_zXk3J9ETwt3Au1CwLjm5kx
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：王民（277428）
@@ -143,7 +143,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_uKwI1FrdBhr_ScvPQd0Vlj
+        subject_person_id: p_xJsRqYi6bQ21m8ncMBogv4
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_PuUiGdtpzWdsK7wcEt3S7p
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FI2KPTU-bYZYVTWwqU5Z0D
+          claim_id: c_uKwI1FrdBhr_ScvPQd0Vlj
+          source_id: s_zXk3J9ETwt3Au1CwLjm5kx
+          stance: supports
+          locator: 正德六年進士登科錄:一卷，第三甲第四十八名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_PuUiGdtpzWdsK7wcEt3S7p
+        status: active
+        display_name: 王以旂
+        merged_into_person_id: null
   other: []
 ---
 
@@ -163,6 +189,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_ofwfED7cGNaG45dVNWJBNj | 王䪧 | accepted |
+| descendants | p_PuUiGdtpzWdsK7wcEt3S7p | 王以旂 | accepted |
 
 ## 外部来源
 

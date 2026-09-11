@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王恩綬
 cbdb_id: 69327
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -172,13 +172,89 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_S1pvR-jRKBJaKi7pSa9UH8
+        subject_person_id: p_1tCSH4qvU8Gxs2zqiHmkFr
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_2y1eP1nsjw8ciu9GjNsB8J
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QwgrkQafi3Bzf-H29JEAMM
+          claim_id: c_S1pvR-jRKBJaKi7pSa9UH8
+          source_id: s_HDt8grmr2fXh1fuMQwwNNr
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13031：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_HDt8grmr2fXh1fuMQwwNNr
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鼎汾（CBDB 526843）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526843&o=json
+            external_identifier: CBDB:526843
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:18:18.829Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_1tCSH4qvU8Gxs2zqiHmkFr
+        status: active
+        display_name: 王鼎汾
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c__gnkIkzVHR4RnKap1ZvkG3
+        subject_person_id: p_2y1eP1nsjw8ciu9GjNsB8J
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_1nfJqagcvUJ1YUw4314f5h
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KhmRajnUArjUbCzJvs1vSv
+          claim_id: c__gnkIkzVHR4RnKap1ZvkG3
+          source_id: s_kW8rrqBLcSa6uFW7NtgAdM
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13031：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_kW8rrqBLcSa6uFW7NtgAdM
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鏡蓉（CBDB 526849）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526849&o=json
+            external_identifier: CBDB:526849
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:18:18.829Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_1nfJqagcvUJ1YUw4314f5h
+        status: active
+        display_name: 王鏡蓉
+        merged_into_person_id: null
   other: []
 ---
 
@@ -199,7 +275,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_1tCSH4qvU8Gxs2zqiHmkFr | 王鼎汾 | accepted |
+| descendants | p_1nfJqagcvUJ1YUw4314f5h | 王鏡蓉 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王鼎汾（CBDB 526843）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526843&o=json)
 - [中国历代人物传记资料库：王恩綬（CBDB 69327）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69327&o=json)
+- [中国历代人物传记资料库：王鏡蓉（CBDB 526849）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526849&o=json)

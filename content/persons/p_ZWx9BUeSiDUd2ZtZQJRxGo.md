@@ -4,7 +4,7 @@ id: p_ZWx9BUeSiDUd2ZtZQJRxGo
 status: active
 merged_into: null
 display_name: 王希文
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_DBBKh7SPpH3bgaOoyp8Lzv
+        subject_person_id: p_ZWx9BUeSiDUd2ZtZQJRxGo
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_LNAKBPYt9PQCz44835GtLD
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__XFJR3Ks9t1oJAnN8fd9uJ
+          claim_id: c_DBBKh7SPpH3bgaOoyp8Lzv
+          source_id: s_7bD6X6QACgJ5TN9t5K7TYM
+          stance: supports
+          locator: 嘉靖四十一年進士登科錄:一卷，第二甲第五十七名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_LNAKBPYt9PQCz44835GtLD
+        status: active
+        display_name: 王續之
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_LNAKBPYt9PQCz44835GtLD | 王續之 | accepted |
 
 ## 外部来源
 
