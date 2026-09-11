@@ -4,7 +4,7 @@ id: p_awVba6ceCU97BSyUH4tnLy
 status: active
 merged_into: null
 display_name: 王貞
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,8 +128,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_KUQrv3P53xkct5sVK4yvcl
+        subject_person_id: p_WDbStzk1vKSr1wJ371bPnz
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_awVba6ceCU97BSyUH4tnLy
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SVtEqxa7s4SbnXvpj-_wB4
+          claim_id: c_KUQrv3P53xkct5sVK4yvcl
+          source_id: s_VJr7Vz53eu5S9mJ22g5diG
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Changan 19：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_WDbStzk1vKSr1wJ371bPnz
+        status: active
+        display_name: 王義
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_X2wrTS0KOyiAFzRh98vg_X
+        subject_person_id: p_awVba6ceCU97BSyUH4tnLy
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_TsNWxPtWYfbjArJ5iJazN1
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_erhmuS2MlrLJfljIQ0GA_z
+          claim_id: c_X2wrTS0KOyiAFzRh98vg_X
+          source_id: s_VJr7Vz53eu5S9mJ22g5diG
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Changan 19：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_TsNWxPtWYfbjArJ5iJazN1
+        status: active
+        display_name: 王庭芝
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +207,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_WDbStzk1vKSr1wJ371bPnz | 王義 | accepted |
+| children | p_TsNWxPtWYfbjArJ5iJazN1 | 王庭芝 | accepted |
 
 ## 外部来源
 

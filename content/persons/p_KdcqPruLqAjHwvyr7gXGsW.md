@@ -4,7 +4,7 @@ id: p_KdcqPruLqAjHwvyr7gXGsW
 status: active
 merged_into: null
 display_name: 王繼昇
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -129,7 +129,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_VyuJ5xZW2Cdr9i0nJ8n5Hp
+        subject_person_id: p_KdcqPruLqAjHwvyr7gXGsW
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_aJyucbNuo6SKu4c6Y3x6DY
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_h_oeS9wxJgwsxxdQpwGqn7
+          claim_id: c_VyuJ5xZW2Cdr9i0nJ8n5Hp
+          source_id: s_cKy5x43g5JA2Y61AQNP51F
+          stance: supports
+          locator: 宋史：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_cKy5x43g5JA2Y61AQNP51F
+            source_type: api_record
+            title: 中国历代人物传记资料库：王昭遠（CBDB 37682）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37682&o=json
+            external_identifier: CBDB:37682
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.236Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_aJyucbNuo6SKu4c6Y3x6DY
+        status: active
+        display_name: 王昭遠
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_aJyucbNuo6SKu4c6Y3x6DY | 王昭遠 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王繼昇（CBDB 1780）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1780&o=json)
+- [中国历代人物传记资料库：王昭遠（CBDB 37682）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37682&o=json)

@@ -4,7 +4,7 @@ id: p_DJhG2TFTs2BSF3ec5E2mBn
 status: active
 merged_into: null
 display_name: 王甫
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -142,7 +142,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c__x-tL_6SwhEAg_zKMGw2gK
+        subject_person_id: p_ArpJ9f9NEk531zFtDWyBgp
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_DJhG2TFTs2BSF3ec5E2mBn
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GzOFBneqiOPMX0nVfrSMjX
+          claim_id: c__x-tL_6SwhEAg_zKMGw2gK
+          source_id: s_LJksdvM51f7BDcKkRmQqyR
+          stance: supports
+          locator: 天順四年進士登科錄:一卷，第三甲第七十五名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_LJksdvM51f7BDcKkRmQqyR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王從善（CBDB 321629）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=321629&o=json
+            external_identifier: CBDB:321629
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.098Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ArpJ9f9NEk531zFtDWyBgp
+        status: active
+        display_name: 王從善
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_2Rh3yGLnnM5LyvxUZe67wC | 王傑 | accepted |
+| ancestors | p_ArpJ9f9NEk531zFtDWyBgp | 王從善 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王從善（CBDB 321629）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=321629&o=json)
 - [中国历代人物传记资料库：王甫（CBDB 198828）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198828&o=json)
 - [中国历代人物传记资料库：王傑（CBDB 321651）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=321651&o=json)

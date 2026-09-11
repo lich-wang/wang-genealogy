@@ -4,7 +4,7 @@ id: p_Mjc5KuDDLMFhnVhbisua4F
 status: active
 merged_into: null
 display_name: 王罃
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -138,7 +138,44 @@ relationships:
         status: active
         display_name: 王邈
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_zzYYmbixw9uv0AC01dw82L
+        subject_person_id: p_Mjc5KuDDLMFhnVhbisua4F
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ahSnb56VdFstFn8tAu7bV9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ESvWXlkn6CfGg_IGQYQDr_
+          claim_id: c_zzYYmbixw9uv0AC01dw82L
+          source_id: s_rnNR7SgaqbUv24PEedH3Tm
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_rnNR7SgaqbUv24PEedH3Tm
+            source_type: api_record
+            title: 中国历代人物传记资料库：王益蒙（CBDB 175785）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175785&o=json
+            external_identifier: CBDB:175785
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.261Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ahSnb56VdFstFn8tAu7bV9
+        status: active
+        display_name: 王益蒙
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_1J8t9MKe5FE8aJP2Fkpe8U | 王邈 | accepted |
+| children | p_ahSnb56VdFstFn8tAu7bV9 | 王益蒙 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王邈（CBDB 175782）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175782&o=json)
+- [中国历代人物传记资料库：王益蒙（CBDB 175785）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175785&o=json)
 - [中国历代人物传记资料库：王罃（CBDB 175784）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175784&o=json)

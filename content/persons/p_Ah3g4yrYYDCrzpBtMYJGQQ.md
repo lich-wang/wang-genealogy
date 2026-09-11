@@ -4,7 +4,7 @@ id: p_Ah3g4yrYYDCrzpBtMYJGQQ
 status: active
 merged_into: null
 display_name: 王嗣宗
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_K9IqhLuw48GQh5fvtcLblV
+        subject_person_id: p_Ah3g4yrYYDCrzpBtMYJGQQ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_xQC9jeba1Ur5RLxK29JG6g
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_B0L_MQKejsDkZJDnx-dEVE
+          claim_id: c_K9IqhLuw48GQh5fvtcLblV
+          source_id: s_x9sPPspfnjVpTK8kYG9EC4
+          stance: supports
+          locator: 弘治十八年進士登科錄:一卷，第三甲第八十六名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_xQC9jeba1Ur5RLxK29JG6g
+        status: active
+        display_name: 王韋
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_xQC9jeba1Ur5RLxK29JG6g | 王韋 | accepted |
 
 ## 外部来源
 

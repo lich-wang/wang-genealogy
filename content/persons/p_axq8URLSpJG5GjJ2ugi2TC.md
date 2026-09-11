@@ -4,7 +4,7 @@ id: p_axq8URLSpJG5GjJ2ugi2TC
 status: active
 merged_into: null
 display_name: 王閏兒
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -77,7 +77,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_Jg3Ax_0hhbIwVoMNu694VS
+        subject_person_id: p_P9pk3GX9ak89DEB5HLBBuW
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_axq8URLSpJG5GjJ2ugi2TC
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_K3cPcz77_ocUnMuUj2fjEY
+          claim_id: c_Jg3Ax_0hhbIwVoMNu694VS
+          source_id: s_6BPbjNQm4D2Cw9Ep3xteG2
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，48：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_P9pk3GX9ak89DEB5HLBBuW
+        status: active
+        display_name: 王用
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_P9pk3GX9ak89DEB5HLBBuW | 王用 | accepted |
 
 ## 外部来源
 

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王琙
 cbdb_id: 523340
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,7 +86,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_bRkHhe_rpiBSmwopGwOpeO
+        subject_person_id: p_An8Ci3Jqr6izRMKcU8bMFf
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_TBNa1ZLvYFvMXjUg1ANwNe
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_DMlGMWzwNiE2nZ1NMZVo9G
+          claim_id: c_bRkHhe_rpiBSmwopGwOpeO
+          source_id: s_yAFb4ZTX6oawAfCN79XJ9y
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），9953：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_yAFb4ZTX6oawAfCN79XJ9y
+            source_type: api_record
+            title: 中国历代人物传记资料库：王志（CBDB 66395）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=66395&o=json
+            external_identifier: CBDB:66395
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.950Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_An8Ci3Jqr6izRMKcU8bMFf
+        status: active
+        display_name: 王志
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_An8Ci3Jqr6izRMKcU8bMFf | 王志 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王琙（CBDB 523340）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=523340&o=json)
+- [中国历代人物传记资料库：王志（CBDB 66395）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=66395&o=json)

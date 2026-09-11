@@ -4,7 +4,7 @@ id: p_AZk4wkgQ7UuXpAj8THZhSe
 status: active
 merged_into: null
 display_name: 王靖
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,8 +128,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_cWNPb65u3m0ntD8hkOaOY2
+        subject_person_id: p_RLeRV5dpFasTBxgAWhwChj
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_AZk4wkgQ7UuXpAj8THZhSe
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_U7t1JzIWlq5Zwjw1sRAV87
+          claim_id: c_cWNPb65u3m0ntD8hkOaOY2
+          source_id: s_UPXA3cLM7jkbMSu2afxwPY
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1039：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_RLeRV5dpFasTBxgAWhwChj
+        status: active
+        display_name: 王雍
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_d_QPlaUBt7xOrIX_vUx7oJ
+        subject_person_id: p_AZk4wkgQ7UuXpAj8THZhSe
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_y6nBpA6HE95vgfY3b666P1
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_W_0JvZW0wZsqpp8kM-GLMH
+          claim_id: c_d_QPlaUBt7xOrIX_vUx7oJ
+          source_id: s_UPXA3cLM7jkbMSu2afxwPY
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，588：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_y6nBpA6HE95vgfY3b666P1
+        status: active
+        display_name: 王古
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +207,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_RLeRV5dpFasTBxgAWhwChj | 王雍 | accepted |
+| children | p_y6nBpA6HE95vgfY3b666P1 | 王古 | accepted |
 
 ## 外部来源
 

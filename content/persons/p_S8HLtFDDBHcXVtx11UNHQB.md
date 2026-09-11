@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王道質
 cbdb_id: 154278
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -87,7 +87,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_kiLYwYsAcH_P1Td0B5he92
+        subject_person_id: p_S8HLtFDDBHcXVtx11UNHQB
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_aMH6LTAy41QNB3jZAPp6oX
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rZ2GhN4eMeHnjovZ-pM3KM
+          claim_id: c_kiLYwYsAcH_P1Td0B5he92
+          source_id: s_sAc6eD93K7B9kEVuxArfdn
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_sAc6eD93K7B9kEVuxArfdn
+            source_type: api_record
+            title: 中国历代人物传记资料库：王仙客（CBDB 154279）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=154279&o=json
+            external_identifier: CBDB:154279
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.868Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_aMH6LTAy41QNB3jZAPp6oX
+        status: active
+        display_name: 王仙客
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -148,9 +185,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_aMH6LTAy41QNB3jZAPp6oX | 王仙客 | accepted |
 | descendants | p_1R27M2czAahiFDCMUScN43 | 王京 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王道質（CBDB 154278）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=154278&o=json)
 - [中国历代人物传记资料库：王京（CBDB 141020）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=141020&o=json)
+- [中国历代人物传记资料库：王仙客（CBDB 154279）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=154279&o=json)

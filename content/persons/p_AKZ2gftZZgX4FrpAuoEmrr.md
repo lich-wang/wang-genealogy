@@ -4,7 +4,7 @@ id: p_AKZ2gftZZgX4FrpAuoEmrr
 status: active
 merged_into: null
 display_name: 王大璡
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_pKu0XXir2nkoK2IUIeGyfx
+        subject_person_id: p_Sb4f5XL91qrUC4exqrWvh6
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_AKZ2gftZZgX4FrpAuoEmrr
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dwHwbvHFR2lxVrzXPrZ_xd
+          claim_id: c_pKu0XXir2nkoK2IUIeGyfx
+          source_id: s_Zt1D1onoqtnSNKY27MPrp6
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Sb4f5XL91qrUC4exqrWvh6
+        status: active
+        display_name: 王滿
+        merged_into_person_id: null
   children:
     - claim:
         id: c_zUSZN7g_QsEhMGtRZ9VKg7
@@ -200,6 +226,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Sb4f5XL91qrUC4exqrWvh6 | 王滿 | accepted |
 | children | p_3qWfT8w8DDy3nf5xUmvWDV | 王昇 | accepted |
 | children | p_ABhP9dLJkoCKUQ61Qu5HUw | 王昪 | accepted |
 

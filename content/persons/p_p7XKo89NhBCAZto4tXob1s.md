@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王希夔
 cbdb_id: 207197
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -134,7 +134,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_YbBnVTXSRO0G9iTn2cqmzj
+        subject_person_id: p_B5xFopjtCjwah51mcq9cJA
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_p7XKo89NhBCAZto4tXob1s
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Js-AKoqHP2DG6ctZ2uOeeK
+          claim_id: c_YbBnVTXSRO0G9iTn2cqmzj
+          source_id: s_2u1KgwTN7aP5HCL4EYXQDP
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第三甲第二百五十名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_2u1KgwTN7aP5HCL4EYXQDP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王廷錦（CBDB 229373）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=229373&o=json
+            external_identifier: CBDB:229373
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.573Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_B5xFopjtCjwah51mcq9cJA
+        status: active
+        display_name: 王廷錦
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_B5xFopjtCjwah51mcq9cJA | 王廷錦 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王廷錦（CBDB 229373）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=229373&o=json)
 - [中国历代人物传记资料库：王希夔（CBDB 207197）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207197&o=json)

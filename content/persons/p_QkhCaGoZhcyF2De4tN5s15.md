@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王文济
 cbdb_id: 175869
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -238,6 +238,43 @@ relationships:
         status: active
         display_name: 王屴
         merged_into_person_id: null
+    - claim:
+        id: c_ZZpe67JK_JtubTZDM2yX8X
+        subject_person_id: p_QkhCaGoZhcyF2De4tN5s15
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_BebbGAkpNrhM7t1MBqkTy2
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_EyUi1u66sZ7P9tEnHBftBY
+          claim_id: c_ZZpe67JK_JtubTZDM2yX8X
+          source_id: s_cpHKe2VFE454CeAqDJm1vK
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_cpHKe2VFE454CeAqDJm1vK
+            source_type: api_record
+            title: 中国历代人物传记资料库：王崟（CBDB 157952）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=157952&o=json
+            external_identifier: CBDB:157952
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.915Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_BebbGAkpNrhM7t1MBqkTy2
+        status: active
+        display_name: 王崟
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -265,10 +302,12 @@ relationships:
 | parents | p_3ZRkLDEZG2dQQN3S5tXUNJ | 王诠 | accepted |
 | children | p_EoFqrFneyxXNJVFsSfLURF | 王仁忠 | accepted |
 | children | p_9bZbYkH5RjL9GBaT5uVJBX | 王屴 | accepted |
+| children | p_BebbGAkpNrhM7t1MBqkTy2 | 王崟 | accepted |
 
 ## 外部来源
 
 - [维基数据：王诠（Q45678043）](https://www.wikidata.org/wiki/Q45678043)
 - [维基数据：王文济（Q45678076）](https://www.wikidata.org/wiki/Q45678076)
+- [中国历代人物传记资料库：王崟（CBDB 157952）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=157952&o=json)
 - [CBDB 中国历代人物传记资料库：王詮（175868）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175868&o=json)
 - [CBDB 中国历代人物传记资料库：王文濟（175869）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175869&o=json)

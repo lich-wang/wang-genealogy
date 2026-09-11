@@ -4,7 +4,7 @@ id: p_BGZ3Xya3EBe2Q1KNp6DVk3
 status: active
 merged_into: null
 display_name: 王紹鼎
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,112 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_TcKJpWDjtIG7D3tNq8Nf0U
+        subject_person_id: p_zQ4D2DUAqvMbXPkja89cdD
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_BGZ3Xya3EBe2Q1KNp6DVk3
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AssiYwg2SB0u2COEJqYrH_
+          claim_id: c_TcKJpWDjtIG7D3tNq8Nf0U
+          source_id: s_8Qx7mCtqguJx1LnrSReN3k
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Dazhong 96：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_zQ4D2DUAqvMbXPkja89cdD
+        status: active
+        display_name: 王元逵
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_nGCzA0_SDF32S_IZrgS89-
+        subject_person_id: p_BGZ3Xya3EBe2Q1KNp6DVk3
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_kk5sE8tUMGDNiS98Q9q7LN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-JDhhhNATYqxbRO5KcAlKL
+          claim_id: c_nGCzA0_SDF32S_IZrgS89-
+          source_id: s_8Qx7mCtqguJx1LnrSReN3k
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_kk5sE8tUMGDNiS98Q9q7LN
+        status: active
+        display_name: 王景崇
+        merged_into_person_id: null
+    - claim:
+        id: c_bjaFe8QwqWLyBS_fpnhjf9
+        subject_person_id: p_BGZ3Xya3EBe2Q1KNp6DVk3
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_rbkQ1KZNcDg636Lb8j13dR
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rZPeS7lQPa3BIA8LJhmNc3
+          claim_id: c_bjaFe8QwqWLyBS_fpnhjf9
+          source_id: s_8Qx7mCtqguJx1LnrSReN3k
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_rbkQ1KZNcDg636Lb8j13dR
+        status: active
+        display_name: 王景胤
+        merged_into_person_id: null
+    - claim:
+        id: c_JAFYYyVhU1KhZFANqiyD7-
+        subject_person_id: p_BGZ3Xya3EBe2Q1KNp6DVk3
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_k7ggMKnSkKm3WWUbpUxare
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mUHSdrLhLCht06FHNJ6nQF
+          claim_id: c_JAFYYyVhU1KhZFANqiyD7-
+          source_id: s_8Qx7mCtqguJx1LnrSReN3k
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_k7ggMKnSkKm3WWUbpUxare
+        status: active
+        display_name: 王景萼
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +201,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_zQ4D2DUAqvMbXPkja89cdD | 王元逵 | accepted |
+| children | p_kk5sE8tUMGDNiS98Q9q7LN | 王景崇 | accepted |
+| children | p_rbkQ1KZNcDg636Lb8j13dR | 王景胤 | accepted |
+| children | p_k7ggMKnSkKm3WWUbpUxare | 王景萼 | accepted |
 
 ## 外部来源
 

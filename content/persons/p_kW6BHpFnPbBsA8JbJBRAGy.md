@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王師正
 cbdb_id: 141595
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -210,7 +210,81 @@ relationships:
         status: active
         display_name: 王遘
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_JpfHqKlwOlu0tpBPmfkGfL
+        subject_person_id: p_kW6BHpFnPbBsA8JbJBRAGy
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_B1B9SKaVdRyPw2PJ7HHPGo
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_V_02oPx5xwURxRlj6MCmvC
+          claim_id: c_JpfHqKlwOlu0tpBPmfkGfL
+          source_id: s_1rNh42QyDbdhAKvQTf8dAR
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_1rNh42QyDbdhAKvQTf8dAR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王訢（CBDB 192943）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=192943&o=json
+            external_identifier: CBDB:192943
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.423Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_B1B9SKaVdRyPw2PJ7HHPGo
+        status: active
+        display_name: 王訢
+        merged_into_person_id: null
+    - claim:
+        id: c_v8xZxLDc1po8wYXLyfJ9jY
+        subject_person_id: p_kW6BHpFnPbBsA8JbJBRAGy
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_bb4uNBnkCDpyeNa35JCd9T
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YoNL87JC8EOHSpW7nt3f_j
+          claim_id: c_v8xZxLDc1po8wYXLyfJ9jY
+          source_id: s_qoTa2nNznviLxzB6AzpSw8
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_qoTa2nNznviLxzB6AzpSw8
+            source_type: api_record
+            title: 中国历代人物传记资料库：王譚（CBDB 144955）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=144955&o=json
+            external_identifier: CBDB:144955
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.642Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_bb4uNBnkCDpyeNa35JCd9T
+        status: active
+        display_name: 王譚
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -237,8 +311,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_8dWztfUudwJZAxK2m2NEME | 王遘 | accepted |
+| children | p_B1B9SKaVdRyPw2PJ7HHPGo | 王訢 | accepted |
+| children | p_bb4uNBnkCDpyeNa35JCd9T | 王譚 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王遘（CBDB 157635）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=157635&o=json)
 - [中国历代人物传记资料库：王師正（CBDB 141595）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=141595&o=json)
+- [中国历代人物传记资料库：王譚（CBDB 144955）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=144955&o=json)
+- [中国历代人物传记资料库：王訢（CBDB 192943）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=192943&o=json)

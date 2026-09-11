@@ -4,7 +4,7 @@ id: p_iynmuaxSvnDn2F5JW2xNTm
 status: active
 merged_into: null
 display_name: 王瑤
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_7sspj_PJzInPunB-NP_s8d
+        subject_person_id: p_ANeppbxTm56LA1X59e1kGK
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_iynmuaxSvnDn2F5JW2xNTm
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WcP4JBSQHsqWlx-5J4o8yF
+          claim_id: c_7sspj_PJzInPunB-NP_s8d
+          source_id: s_o8Pe63bQXpJ4by7h9DNdh4
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Kaiyuan71：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_o8Pe63bQXpJ4by7h9DNdh4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王待徵（CBDB 142900）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=142900&o=json
+            external_identifier: CBDB:142900
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.218Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ANeppbxTm56LA1X59e1kGK
+        status: active
+        display_name: 王待徵
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_ANeppbxTm56LA1X59e1kGK | 王待徵 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王待徵（CBDB 142900）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=142900&o=json)
 - [中国历代人物传记资料库：王瑤（CBDB 163962）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=163962&o=json)

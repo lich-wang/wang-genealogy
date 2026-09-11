@@ -4,7 +4,7 @@ id: p_bdcyFM17ttoZgF23qJm3Hk
 status: active
 merged_into: null
 display_name: 王忠
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_aWcg27PgFz7M5A9I5n7pl4
+        subject_person_id: p_bdcyFM17ttoZgF23qJm3Hk
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_CABq3rPfMpkNs8qeT4KNGJ
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mNwlrEPVm_25VbuqpH7eYW
+          claim_id: c_aWcg27PgFz7M5A9I5n7pl4
+          source_id: s_4U8gNCqZvcaHDdFg5Nofik
+          stance: supports
+          locator: 宣德八年進士登科錄:一卷，第三甲第六十名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_CABq3rPfMpkNs8qeT4KNGJ
+        status: active
+        display_name: 王頤
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_CABq3rPfMpkNs8qeT4KNGJ | 王頤 | accepted |
 
 ## 外部来源
 

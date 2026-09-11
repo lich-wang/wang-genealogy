@@ -4,7 +4,7 @@ id: p_Akvhk7vb2JMfzgR2hpBTHy
 status: active
 merged_into: null
 display_name: 王浦
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_mctpZa3yPN1TrvVoZFT0AX
+        subject_person_id: p_Akvhk7vb2JMfzgR2hpBTHy
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_AKiZ73AHqEtzATAkDq6m9S
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_T7mpuOtST0OGY7cGTeSiCo
+          claim_id: c_mctpZa3yPN1TrvVoZFT0AX
+          source_id: s_GWdGKWBoQ5Yau2CR5qC4YT
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第一百九十四名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_GWdGKWBoQ5Yau2CR5qC4YT
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瑛（CBDB 126750）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126750&o=json
+            external_identifier: CBDB:126750
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.175Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_AKiZ73AHqEtzATAkDq6m9S
+        status: active
+        display_name: 王瑛
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_AKiZ73AHqEtzATAkDq6m9S | 王瑛 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王浦（CBDB 294329）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294329&o=json)
+- [中国历代人物传记资料库：王瑛（CBDB 126750）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126750&o=json)

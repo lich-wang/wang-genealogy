@@ -4,7 +4,7 @@ id: p_bupKiVr68PqXVERhZYa1QZ
 status: active
 merged_into: null
 display_name: 王守節
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -129,7 +129,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_i06crNmtNSidz27ZwYUdCQ
+        subject_person_id: p_bupKiVr68PqXVERhZYa1QZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_b4GtdfchNZbekMPMdK95Q1
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GXNfsRbKjOF2P7GNmKCSbd
+          claim_id: c_i06crNmtNSidz27ZwYUdCQ
+          source_id: s_2WnXHwASUY3Sn261y8HCfE
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Tianbao87：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_2WnXHwASUY3Sn261y8HCfE
+            source_type: api_record
+            title: 中国历代人物传记资料库：王元俊（CBDB 164876）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=164876&o=json
+            external_identifier: CBDB:164876
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.970Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_b4GtdfchNZbekMPMdK95Q1
+        status: active
+        display_name: 王元俊
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_b4GtdfchNZbekMPMdK95Q1 | 王元俊 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王守節（CBDB 143031）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=143031&o=json)
+- [中国历代人物传记资料库：王元俊（CBDB 164876）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=164876&o=json)

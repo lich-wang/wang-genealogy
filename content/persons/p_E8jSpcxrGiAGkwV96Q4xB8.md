@@ -4,7 +4,7 @@ id: p_E8jSpcxrGiAGkwV96Q4xB8
 status: active
 merged_into: null
 display_name: 王晃
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_lDDWsGfFTjYwvWix-jY8kj
+        subject_person_id: p_aT36ZKtHXC6aAaFGz8ZxGj
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_E8jSpcxrGiAGkwV96Q4xB8
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_RxwKghcObz6g1giUQPyqqJ
+          claim_id: c_lDDWsGfFTjYwvWix-jY8kj
+          source_id: s_6idbvdgTP8dUpYmnrUJYbr
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_6idbvdgTP8dUpYmnrUJYbr
+            source_type: api_record
+            title: 中国历代人物传记资料库：王祚（CBDB 175889）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175889&o=json
+            external_identifier: CBDB:175889
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.178Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_aT36ZKtHXC6aAaFGz8ZxGj
+        status: active
+        display_name: 王祚
+        merged_into_person_id: null
   children:
     - claim:
         id: c_h91AFT0kGS9eSuOY5h55w0
@@ -163,9 +200,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_aT36ZKtHXC6aAaFGz8ZxGj | 王祚 | accepted |
 | children | p_9SUuW2WkQibUPJTWf3Qh46 | 王沼 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王晃（CBDB 175890）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175890&o=json)
 - [中国历代人物传记资料库：王沼（CBDB 175891）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175891&o=json)
+- [中国历代人物传记资料库：王祚（CBDB 175889）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175889&o=json)

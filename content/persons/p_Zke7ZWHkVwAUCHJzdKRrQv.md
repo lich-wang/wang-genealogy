@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王如辰
 cbdb_id: 71637
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -178,7 +178,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_85Floi-wgsrz2fD3TBXGvm
+        subject_person_id: p_Zke7ZWHkVwAUCHJzdKRrQv
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Ahj8jUhfWUtU7vAy4aY2E5
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__Z-vxOz7EyF8ZSIqYpcqKh
+          claim_id: c_85Floi-wgsrz2fD3TBXGvm
+          source_id: s_E3UFJ1Zq77LdpPQvAf7yuu
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），14099：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_E3UFJ1Zq77LdpPQvAf7yuu
+            source_type: api_record
+            title: 中国历代人物传记资料库：王功清（CBDB 527987）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=527987&o=json
+            external_identifier: CBDB:527987
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.348Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Ahj8jUhfWUtU7vAy4aY2E5
+        status: active
+        display_name: 王功清
+        merged_into_person_id: null
   other: []
 ---
 
@@ -199,7 +236,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_Ahj8jUhfWUtU7vAy4aY2E5 | 王功清 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王功清（CBDB 527987）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=527987&o=json)
 - [中国历代人物传记资料库：王如辰（CBDB 71637）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=71637&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王澤宏
 cbdb_id: 69467
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -248,6 +248,43 @@ relationships:
         status: active
         display_name: 王材成
         merged_into_person_id: null
+    - claim:
+        id: c_Beq1hnp8DTkWXLO9Wgl0he
+        subject_person_id: p_zjQMXTGNWTchLi9wmdCnEK
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_BBkMcK4bjf84hc3FXzMeir
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_t9y2dor5UysRu8ugbe3rO0
+          claim_id: c_Beq1hnp8DTkWXLO9Wgl0he
+          source_id: s_3sQn54HNyZJ4HM4SgqkgU5
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13179：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_3sQn54HNyZJ4HM4SgqkgU5
+            source_type: api_record
+            title: 中国历代人物传记资料库：王材獻（CBDB 527019）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=527019&o=json
+            external_identifier: CBDB:527019
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.336Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_BBkMcK4bjf84hc3FXzMeir
+        status: active
+        display_name: 王材獻
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -275,9 +312,11 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_8tmDtQYvtDtjwtGJDJXeNU | 王材信 | accepted |
 | children | p_9a1mtxxGZXFq31hJw7C9b2 | 王材成 | accepted |
+| children | p_BBkMcK4bjf84hc3FXzMeir | 王材獻 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王材成（CBDB 527016）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=527016&o=json)
+- [中国历代人物传记资料库：王材獻（CBDB 527019）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=527019&o=json)
 - [中国历代人物传记资料库：王材信（CBDB 527017）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=527017&o=json)
 - [中国历代人物传记资料库：王澤宏（CBDB 69467）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69467&o=json)

@@ -4,7 +4,7 @@ id: p_BFZFaDiENQCR7pFh7SaGyS
 status: active
 merged_into: null
 display_name: 王保
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,12 +73,116 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_YxITKm-dp5pEVWv78jM7nE
+        subject_person_id: p_BFZFaDiENQCR7pFh7SaGyS
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_mDMp3GBHRSCte5LS9WGyRf
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2A58P5bOrfoXvgUxUwSe7D
+          claim_id: c_YxITKm-dp5pEVWv78jM7nE
+          source_id: s_6T6hHHBQgVocrjof6bWTao
+          stance: supports
+          locator: 榆林府志，lgid=1046722：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_mDMp3GBHRSCte5LS9WGyRf
+        status: active
+        display_name: 王學書
+        merged_into_person_id: null
+    - claim:
+        id: c_tFzV-ZK2mv7dNVrKNL5axv
+        subject_person_id: p_BFZFaDiENQCR7pFh7SaGyS
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_W7kcL4YFJf6kqips9N1sei
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cBN8uJ1W1ntnmJqjO8X0Mk
+          claim_id: c_tFzV-ZK2mv7dNVrKNL5axv
+          source_id: s_6T6hHHBQgVocrjof6bWTao
+          stance: supports
+          locator: 榆林府志，lgid=1046722：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_W7kcL4YFJf6kqips9N1sei
+        status: active
+        display_name: 王學詩
+        merged_into_person_id: null
+    - claim:
+        id: c_YtEeLx6rt5tTaUq_wsgzmI
+        subject_person_id: p_BFZFaDiENQCR7pFh7SaGyS
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_SAaciDpykwzQsmCPetDdWV
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hAYAX8uqZ_LbC1yAOFpPZh
+          claim_id: c_YtEeLx6rt5tTaUq_wsgzmI
+          source_id: s_6T6hHHBQgVocrjof6bWTao
+          stance: supports
+          locator: 榆林府志，lgid=1046722：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_SAaciDpykwzQsmCPetDdWV
+        status: active
+        display_name: 王學禮
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_aQbIuhTeA9_u2BZ4xTbjcd
+        subject_person_id: p_BFZFaDiENQCR7pFh7SaGyS
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_s7ZeZxPg3PoJQGSNQRRJQv
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MCVupap1OKu4EAKT0Fp_bT
+          claim_id: c_aQbIuhTeA9_u2BZ4xTbjcd
+          source_id: s_6T6hHHBQgVocrjof6bWTao
+          stance: supports
+          locator: 榆林府志，lgid=1046722：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_s7ZeZxPg3PoJQGSNQRRJQv
+        status: active
+        display_name: 王國鼎
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +201,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_mDMp3GBHRSCte5LS9WGyRf | 王學書 | accepted |
+| children | p_W7kcL4YFJf6kqips9N1sei | 王學詩 | accepted |
+| children | p_SAaciDpykwzQsmCPetDdWV | 王學禮 | accepted |
+| descendants | p_s7ZeZxPg3PoJQGSNQRRJQv | 王國鼎 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_B4g9ZTU3Y9aTiDR5uH3rn2
 status: active
 merged_into: null
 display_name: 王融
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_zI9fT_rWAbQtdX98v4PoOU
+        subject_person_id: p_tMG7KPDU3KLVpHRvgs3g63
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_B4g9ZTU3Y9aTiDR5uH3rn2
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_J3UNL3VbjLIJUionMiYMes
+          claim_id: c_zI9fT_rWAbQtdX98v4PoOU
+          source_id: s_4S8Kd5TDMrbhTNCMBEsEfc
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_tMG7KPDU3KLVpHRvgs3g63
+        status: active
+        display_name: 王會
+        merged_into_person_id: null
   children:
     - claim:
         id: c_gp8iwf9RGyXmnn34efAHXE
@@ -167,6 +193,32 @@ relationships:
         status: active
         display_name: 王肱
         merged_into_person_id: null
+    - claim:
+        id: c_Yl7U0XM3QapUu9tWTkR15O
+        subject_person_id: p_B4g9ZTU3Y9aTiDR5uH3rn2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_NjKvh1gAHRFWAeZGm7q2Qu
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ByD3BhmFI1_jmYSm27Xvce
+          claim_id: c_Yl7U0XM3QapUu9tWTkR15O
+          source_id: s_4S8Kd5TDMrbhTNCMBEsEfc
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_NjKvh1gAHRFWAeZGm7q2Qu
+        status: active
+        display_name: 王翃
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -192,7 +244,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_tMG7KPDU3KLVpHRvgs3g63 | 王會 | accepted |
 | children | p_5quu7EU38pu4RjpArTsjie | 王肱 | accepted |
+| children | p_NjKvh1gAHRFWAeZGm7q2Qu | 王翃 | accepted |
 
 ## 外部来源
 

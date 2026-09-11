@@ -4,7 +4,7 @@ id: p_AKiZ73AHqEtzATAkDq6m9S
 status: active
 merged_into: null
 display_name: 王瑛
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,12 +72,116 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_mctpZa3yPN1TrvVoZFT0AX
+        subject_person_id: p_Akvhk7vb2JMfzgR2hpBTHy
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_AKiZ73AHqEtzATAkDq6m9S
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_T7mpuOtST0OGY7cGTeSiCo
+          claim_id: c_mctpZa3yPN1TrvVoZFT0AX
+          source_id: s_GWdGKWBoQ5Yau2CR5qC4YT
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第一百九十四名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Akvhk7vb2JMfzgR2hpBTHy
+        status: active
+        display_name: 王浦
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_4Oq9pQrhIngITQLjg6DF91
+        subject_person_id: p_AKiZ73AHqEtzATAkDq6m9S
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ad32BrcoPU4xRMCM2tcFkg
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9Q1a-TrUhRFq4WUoas_Lh7
+          claim_id: c_4Oq9pQrhIngITQLjg6DF91
+          source_id: s_GWdGKWBoQ5Yau2CR5qC4YT
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第一百九十四名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_ad32BrcoPU4xRMCM2tcFkg
+        status: active
+        display_name: 王同穀
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_2uf8fSMtbkpT8qNe04XEXU
+        subject_person_id: p_vRn2WKQKBd5Sg93jKcigfC
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_AKiZ73AHqEtzATAkDq6m9S
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_22LjhYU42udEkw1mzzyGFP
+          claim_id: c_2uf8fSMtbkpT8qNe04XEXU
+          source_id: s_GWdGKWBoQ5Yau2CR5qC4YT
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第一百九十四名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_vRn2WKQKBd5Sg93jKcigfC
+        status: active
+        display_name: 王惠
+        merged_into_person_id: null
+    - claim:
+        id: c_RELXBiI-GiEsjjNvbpFqfF
+        subject_person_id: p_yNNNmbkNz4tjQELrTMo9G6
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_AKiZ73AHqEtzATAkDq6m9S
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PFKy2HJXLwtKaAL9iVfW1Q
+          claim_id: c_RELXBiI-GiEsjjNvbpFqfF
+          source_id: s_GWdGKWBoQ5Yau2CR5qC4YT
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第一百九十四名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_yNNNmbkNz4tjQELrTMo9G6
+        status: active
+        display_name: 王誠
+        merged_into_person_id: null
   descendants:
     - claim:
         id: c_uPkr4uZ_2JxcCvMz0URHe9
@@ -116,6 +220,240 @@ relationships:
         status: active
         display_name: 王國棟
         merged_into_person_id: null
+    - claim:
+        id: c_4rz44bjAgbMKbELKXbSQ15
+        subject_person_id: p_AKiZ73AHqEtzATAkDq6m9S
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_FzpdN1uPjGmcS3aDNyQmWj
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_uSBK1x-5Zts-est7zMC7br
+          claim_id: c_4rz44bjAgbMKbELKXbSQ15
+          source_id: s_GWdGKWBoQ5Yau2CR5qC4YT
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第一百九十四名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_FzpdN1uPjGmcS3aDNyQmWj
+        status: active
+        display_name: 王國某
+        merged_into_person_id: null
+    - claim:
+        id: c_re03WUtRUa3l64N_RavqCX
+        subject_person_id: p_AKiZ73AHqEtzATAkDq6m9S
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_JTChHsZVDfsnxvSTDx9TGK
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xucmpxK4ufEvB_NZs-A_5k
+          claim_id: c_re03WUtRUa3l64N_RavqCX
+          source_id: s_GWdGKWBoQ5Yau2CR5qC4YT
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第一百九十四名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_JTChHsZVDfsnxvSTDx9TGK
+        status: active
+        display_name: 王國樟
+        merged_into_person_id: null
+    - claim:
+        id: c_q9OXv3f11V7Moqay2BmUxa
+        subject_person_id: p_AKiZ73AHqEtzATAkDq6m9S
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_762tNXdWHxEbGfGirMVWrg
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gp87wc0GvqHTaBtOP5cTlH
+          claim_id: c_q9OXv3f11V7Moqay2BmUxa
+          source_id: s_GWdGKWBoQ5Yau2CR5qC4YT
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第一百九十四名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_762tNXdWHxEbGfGirMVWrg
+        status: active
+        display_name: 王我紹
+        merged_into_person_id: null
+    - claim:
+        id: c_R9v0v9jqjYP9hsL5jyQ6d6
+        subject_person_id: p_AKiZ73AHqEtzATAkDq6m9S
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_wz4pJgc965ouacnW2mcZzq
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rOVV0XKpeqxILCJlbaCM4x
+          claim_id: c_R9v0v9jqjYP9hsL5jyQ6d6
+          source_id: s_GWdGKWBoQ5Yau2CR5qC4YT
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第一百九十四名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_wz4pJgc965ouacnW2mcZzq
+        status: active
+        display_name: 王我繩
+        merged_into_person_id: null
+    - claim:
+        id: c_8DVogOM0lzIwZUHIpXPNiV
+        subject_person_id: p_AKiZ73AHqEtzATAkDq6m9S
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_483rCrUSV4E5iUAQP3zRH5
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PL0EOG6R1Lu4KgmZs5BxHC
+          claim_id: c_8DVogOM0lzIwZUHIpXPNiV
+          source_id: s_GWdGKWBoQ5Yau2CR5qC4YT
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第一百九十四名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_483rCrUSV4E5iUAQP3zRH5
+        status: active
+        display_name: 王我繼
+        merged_into_person_id: null
+    - claim:
+        id: c_D7MQpUH_YjzMkKAFN_5FJ7
+        subject_person_id: p_AKiZ73AHqEtzATAkDq6m9S
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_NSTcEL8SAjqtv6PMNVftwk
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mLbLTAQOfEczvh3SeI2kBV
+          claim_id: c_D7MQpUH_YjzMkKAFN_5FJ7
+          source_id: s_GWdGKWBoQ5Yau2CR5qC4YT
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第一百九十四名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_NSTcEL8SAjqtv6PMNVftwk
+        status: active
+        display_name: 王我纉
+        merged_into_person_id: null
+    - claim:
+        id: c_WFPNU6cGz2_pa_dHbAQdG5
+        subject_person_id: p_AKiZ73AHqEtzATAkDq6m9S
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_GwWuRRmf5dXBwYozFd7a2R
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WbSytV4mEw-zFHj37ghHx5
+          claim_id: c_WFPNU6cGz2_pa_dHbAQdG5
+          source_id: s_GWdGKWBoQ5Yau2CR5qC4YT
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第一百九十四名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_GwWuRRmf5dXBwYozFd7a2R
+        status: active
+        display_name: 王我緒
+        merged_into_person_id: null
+    - claim:
+        id: c_VnNfUlrbmMwgt3i-Lx2P-k
+        subject_person_id: p_AKiZ73AHqEtzATAkDq6m9S
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_BF9K4fSAWYNv4UXXSFvrUG
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_iBVf5LFn0hMzbUISsV7MGH
+          claim_id: c_VnNfUlrbmMwgt3i-Lx2P-k
+          source_id: s_GWdGKWBoQ5Yau2CR5qC4YT
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第一百九十四名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_BF9K4fSAWYNv4UXXSFvrUG
+        status: active
+        display_name: 王我續
+        merged_into_person_id: null
+    - claim:
+        id: c_7EoFNp8Zs8A0t80cm3bcgu
+        subject_person_id: p_AKiZ73AHqEtzATAkDq6m9S
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_QeMDjDxt6SVQT5rWaY8bBw
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dXPSmNaU0NAjR0K1txge1E
+          claim_id: c_7EoFNp8Zs8A0t80cm3bcgu
+          source_id: s_GWdGKWBoQ5Yau2CR5qC4YT
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第一百九十四名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_QeMDjDxt6SVQT5rWaY8bBw
+        status: active
+        display_name: 王我統
+        merged_into_person_id: null
   other: []
 ---
 
@@ -134,7 +472,20 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Akvhk7vb2JMfzgR2hpBTHy | 王浦 | accepted |
+| children | p_ad32BrcoPU4xRMCM2tcFkg | 王同穀 | accepted |
+| ancestors | p_vRn2WKQKBd5Sg93jKcigfC | 王惠 | accepted |
+| ancestors | p_yNNNmbkNz4tjQELrTMo9G6 | 王誠 | accepted |
 | descendants | p_2EfMZkQk81KS57VSPMi2J4 | 王國棟 | accepted |
+| descendants | p_FzpdN1uPjGmcS3aDNyQmWj | 王國某 | accepted |
+| descendants | p_JTChHsZVDfsnxvSTDx9TGK | 王國樟 | accepted |
+| descendants | p_762tNXdWHxEbGfGirMVWrg | 王我紹 | accepted |
+| descendants | p_wz4pJgc965ouacnW2mcZzq | 王我繩 | accepted |
+| descendants | p_483rCrUSV4E5iUAQP3zRH5 | 王我繼 | accepted |
+| descendants | p_NSTcEL8SAjqtv6PMNVftwk | 王我纉 | accepted |
+| descendants | p_GwWuRRmf5dXBwYozFd7a2R | 王我緒 | accepted |
+| descendants | p_BF9K4fSAWYNv4UXXSFvrUG | 王我續 | accepted |
+| descendants | p_QeMDjDxt6SVQT5rWaY8bBw | 王我統 | accepted |
 
 ## 外部来源
 

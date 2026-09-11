@@ -4,7 +4,7 @@ id: p_BGWgef2Z8E8vPL41NM62UK
 status: active
 merged_into: null
 display_name: 王璇
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_24qkfeESX_xrM-_nldnFnI
+        subject_person_id: p_BGWgef2Z8E8vPL41NM62UK
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Ec1dckj7YLUcRUGq2Dbkdc
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GvWjV-1_vAaeC0bmrGc0Qw
+          claim_id: c_24qkfeESX_xrM-_nldnFnI
+          source_id: s_Umd39jp26Ki6HaZcJDWFSZ
+          stance: supports
+          locator: 弘治十五年進士登科錄:一卷，第二甲第六名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Ec1dckj7YLUcRUGq2Dbkdc
+        status: active
+        display_name: 王尚絅
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_Ec1dckj7YLUcRUGq2Dbkdc | 王尚絅 | accepted |
 
 ## 外部来源
 

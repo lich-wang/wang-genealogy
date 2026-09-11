@@ -4,7 +4,7 @@ id: p_aJMiNXJSvn8avCPNUFL6Jr
 status: active
 merged_into: null
 display_name: 王瓚
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,12 +72,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_voyUgdYB-wMCqg7GvQTr82
+        subject_person_id: p_NkjrkfLSubJRquGWk6KTAC
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_aJMiNXJSvn8avCPNUFL6Jr
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_CKtPEZYLBxGrUB4Vrq2JEV
+          claim_id: c_voyUgdYB-wMCqg7GvQTr82
+          source_id: s_nsNS4tYiMyfHMLUzeivoSe
+          stance: supports
+          locator: 弘治九年進士登科錄:一卷，第一甲第二名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_NkjrkfLSubJRquGWk6KTAC
+        status: active
+        display_name: 王祚
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_x9Qd7y4rDFbuPPM43GH1Jk
+        subject_person_id: p_XVyXQn9mv4GWFDoLFJcVQ7
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_aJMiNXJSvn8avCPNUFL6Jr
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SCD6vxQbkGeQUrCXc6mBEg
+          claim_id: c_x9Qd7y4rDFbuPPM43GH1Jk
+          source_id: s_nsNS4tYiMyfHMLUzeivoSe
+          stance: supports
+          locator: 弘治九年進士登科錄:一卷，第一甲第二名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_XVyXQn9mv4GWFDoLFJcVQ7
+        status: active
+        display_name: 王原宏
+        merged_into_person_id: null
+    - claim:
+        id: c_RNqJBhoBcdlN-NjnF5YyyU
+        subject_person_id: p_HK1Kd6YYcVadLhFCdPXNh3
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_aJMiNXJSvn8avCPNUFL6Jr
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cP2X-L4QE_37KTGShFgrC-
+          claim_id: c_RNqJBhoBcdlN-NjnF5YyyU
+          source_id: s_nsNS4tYiMyfHMLUzeivoSe
+          stance: supports
+          locator: 弘治九年進士登科錄:一卷，第一甲第二名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_HK1Kd6YYcVadLhFCdPXNh3
+        status: active
+        display_name: 王文燠
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +175,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_NkjrkfLSubJRquGWk6KTAC | 王祚 | accepted |
+| ancestors | p_XVyXQn9mv4GWFDoLFJcVQ7 | 王原宏 | accepted |
+| ancestors | p_HK1Kd6YYcVadLhFCdPXNh3 | 王文燠 | accepted |
 
 ## 外部来源
 

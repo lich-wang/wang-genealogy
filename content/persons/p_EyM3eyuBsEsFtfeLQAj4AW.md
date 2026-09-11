@@ -4,7 +4,7 @@ id: p_EyM3eyuBsEsFtfeLQAj4AW
 status: active
 merged_into: null
 display_name: 王粲
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_OfR8cPTylAxk8e7PNBDlXE
+        subject_person_id: p_EyM3eyuBsEsFtfeLQAj4AW
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_bEJ6zpyrnLKEfRt5W2BBn8
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_B_f56mMqhQtX7My1BWWLqg
+          claim_id: c_OfR8cPTylAxk8e7PNBDlXE
+          source_id: s_8zGcRhvW69VwTi7Cc3csTG
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Shenlong 6：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_8zGcRhvW69VwTi7Cc3csTG
+            source_type: api_record
+            title: 中国历代人物传记资料库：王及德（CBDB 140183）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140183&o=json
+            external_identifier: CBDB:140183
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.201Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_bEJ6zpyrnLKEfRt5W2BBn8
+        status: active
+        display_name: 王及德
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_bEJ6zpyrnLKEfRt5W2BBn8 | 王及德 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王粲（CBDB 150496）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=150496&o=json)
+- [中国历代人物传记资料库：王及德（CBDB 140183）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140183&o=json)

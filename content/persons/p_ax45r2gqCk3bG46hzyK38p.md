@@ -4,7 +4,7 @@ id: p_ax45r2gqCk3bG46hzyK38p
 status: active
 merged_into: null
 display_name: 王璣
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_a0RmZeJbEzwF_Ay1PnXFu1
+        subject_person_id: p_ax45r2gqCk3bG46hzyK38p
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_LvB1BmafWakeZPFiqa6trK
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pvp3J3Wgmc_h0hgdINXur-
+          claim_id: c_a0RmZeJbEzwF_Ay1PnXFu1
+          source_id: s_VEiJuCDKCars6dXDia88fv
+          stance: supports
+          locator: 弘治十八年進士登科錄:一卷，第三甲第二百零一名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_LvB1BmafWakeZPFiqa6trK
+        status: active
+        display_name: 王偉
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_LvB1BmafWakeZPFiqa6trK | 王偉 | accepted |
 
 ## 外部来源
 

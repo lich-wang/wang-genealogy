@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王仲銘
 cbdb_id: 254105
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -92,7 +92,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_j4vOxvdMCG-E4Elcc0RLGX
+        subject_person_id: p_E9TsEtqCFLz7zALK14tps2
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_AUQVWk8JE4APmBfj8pSMKj
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wsq8Np6cTO_mnUIpnOus5r
+          claim_id: c_j4vOxvdMCG-E4Elcc0RLGX
+          source_id: s_QPr5EUKVLbTNH9qryNyKZR
+          stance: supports
+          locator: 建文二年殿試登科錄:一卷，第二甲第二十五名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_QPr5EUKVLbTNH9qryNyKZR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王高（CBDB 126625）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126625&o=json
+            external_identifier: CBDB:126625
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.072Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_AUQVWk8JE4APmBfj8pSMKj
+        status: active
+        display_name: 王高
+        merged_into_person_id: null
   other: []
 ---
 
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_AUQVWk8JE4APmBfj8pSMKj | 王高 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王高（CBDB 126625）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126625&o=json)
 - [中国历代人物传记资料库：王仲銘（CBDB 254105）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=254105&o=json)

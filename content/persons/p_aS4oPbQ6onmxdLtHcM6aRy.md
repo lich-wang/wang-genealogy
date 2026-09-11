@@ -4,7 +4,7 @@ id: p_aS4oPbQ6onmxdLtHcM6aRy
 status: active
 merged_into: null
 display_name: 王慶
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,8 +128,86 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_gjavDIbHWYHckeXxzKaVjb
+        subject_person_id: p_FNfKgAB1FvtsEN7DaqxTW9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_aS4oPbQ6onmxdLtHcM6aRy
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0Wk4ii6IQJQbDV2lGsZv2v
+          claim_id: c_gjavDIbHWYHckeXxzKaVjb
+          source_id: s_fkYoMRpWBFANnFxw9yoZcv
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Tiaolu 3：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_FNfKgAB1FvtsEN7DaqxTW9
+        status: active
+        display_name: 王滿
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_Tr1WR7lNVtT40Hk_jQbtot
+        subject_person_id: p_aS4oPbQ6onmxdLtHcM6aRy
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_rZ6EDAjfKDPbH5rToDiLTH
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kibBQpR5UVKAePY18eeAjC
+          claim_id: c_Tr1WR7lNVtT40Hk_jQbtot
+          source_id: s_fkYoMRpWBFANnFxw9yoZcv
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Tiaolu 3：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_rZ6EDAjfKDPbH5rToDiLTH
+        status: active
+        display_name: 王游道
+        merged_into_person_id: null
+    - claim:
+        id: c_5AtujyBeuMjRZBRgAV2XKD
+        subject_person_id: p_aS4oPbQ6onmxdLtHcM6aRy
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_TuLTeLzjYV3JSQJXe8js5u
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_LKDZklBvYEAQh6sXlu3dho
+          claim_id: c_5AtujyBeuMjRZBRgAV2XKD
+          source_id: s_fkYoMRpWBFANnFxw9yoZcv
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Tiaolu 3：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_TuLTeLzjYV3JSQJXe8js5u
+        status: active
+        display_name: 王遊藝
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +233,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_FNfKgAB1FvtsEN7DaqxTW9 | 王滿 | accepted |
+| children | p_rZ6EDAjfKDPbH5rToDiLTH | 王游道 | accepted |
+| children | p_TuLTeLzjYV3JSQJXe8js5u | 王遊藝 | accepted |
 
 ## 外部来源
 

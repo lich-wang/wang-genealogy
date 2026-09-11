@@ -4,7 +4,7 @@ id: p_AssDbojyKkuUvaxA5hTWA3
 status: active
 merged_into: null
 display_name: 王懿洪
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_8jdxkPc4atDjiVs8XrhKEy
+        subject_person_id: p_DLVwM3GTMXP3G33Htfjbmp
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_AssDbojyKkuUvaxA5hTWA3
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zUlhODK2Y5caN89IVZQg6Z
+          claim_id: c_8jdxkPc4atDjiVs8XrhKEy
+          source_id: s_HidNKi4G1TQGDh9aF7Axci
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13178：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_DLVwM3GTMXP3G33Htfjbmp
+        status: active
+        display_name: 王樽
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_DLVwM3GTMXP3G33Htfjbmp | 王樽 | accepted |
 
 ## 外部来源
 

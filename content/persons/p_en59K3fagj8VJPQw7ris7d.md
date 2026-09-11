@@ -4,7 +4,7 @@ id: p_en59K3fagj8VJPQw7ris7d
 status: active
 merged_into: null
 display_name: 王崇術
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_xakxZz2tZkofq2VQ9k58ed
+        subject_person_id: p_BDS4TbTFZhcBaJhksQ7i7v
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_en59K3fagj8VJPQw7ris7d
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cMZ59BpC2XURKlVWkbDXME
+          claim_id: c_xakxZz2tZkofq2VQ9k58ed
+          source_id: s_72vbHX3h4b4vBiPhHGxSyi
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_72vbHX3h4b4vBiPhHGxSyi
+            source_type: api_record
+            title: 中国历代人物传记资料库：王弘效（CBDB 194718）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=194718&o=json
+            external_identifier: CBDB:194718
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.297Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_BDS4TbTFZhcBaJhksQ7i7v
+        status: active
+        display_name: 王弘效
+        merged_into_person_id: null
   children:
     - claim:
         id: c_PJk-U4a3eVwNCPsnA0V_PB
@@ -229,11 +266,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_BDS4TbTFZhcBaJhksQ7i7v | 王弘效 | accepted |
 | children | p_1D7RB15BHLuwCjT8rR8VHQ | 王奇哲 | accepted |
 | children | p_8BAXAmN3c1qU7v7x4QBzHT | 王棲榮 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王崇術（CBDB 145041）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=145041&o=json)
+- [中国历代人物传记资料库：王弘效（CBDB 194718）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=194718&o=json)
 - [中国历代人物传记资料库：王棲榮（CBDB 194723）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=194723&o=json)
 - [中国历代人物传记资料库：王奇哲（CBDB 194722）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=194722&o=json)

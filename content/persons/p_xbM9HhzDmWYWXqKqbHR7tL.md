@@ -4,7 +4,7 @@ id: p_xbM9HhzDmWYWXqKqbHR7tL
 status: active
 merged_into: null
 display_name: 王鼎
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -143,6 +143,43 @@ relationships:
         status: active
         display_name: 王智
         merged_into_person_id: null
+    - claim:
+        id: c_IJhNNdOdDaW3Kbh-R1JRCs
+        subject_person_id: p_AtQAeRfDFnZkhe6UwZrjme
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_xbM9HhzDmWYWXqKqbHR7tL
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rfrJReFGRYTCsYA5lmKNb5
+          claim_id: c_IJhNNdOdDaW3Kbh-R1JRCs
+          source_id: s_PXyCQEQw1Gs9KoAoNj8GFQ
+          stance: supports
+          locator: 成化十七年進士登科錄:一卷，第三甲第四十八名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_PXyCQEQw1Gs9KoAoNj8GFQ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王良（CBDB 256054）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=256054&o=json
+            external_identifier: CBDB:256054
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.377Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_AtQAeRfDFnZkhe6UwZrjme
+        status: active
+        display_name: 王良
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_5pKUMRk5Sj8Xpro93UAChf | 王智 | accepted |
+| ancestors | p_AtQAeRfDFnZkhe6UwZrjme | 王良 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王鼎（CBDB 67762）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67762&o=json)
+- [中国历代人物传记资料库：王良（CBDB 256054）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=256054&o=json)
 - [中国历代人物传记资料库：王智（CBDB 256055）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=256055&o=json)

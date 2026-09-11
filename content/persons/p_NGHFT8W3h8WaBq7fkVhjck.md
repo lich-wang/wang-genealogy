@@ -4,7 +4,7 @@ id: p_NGHFT8W3h8WaBq7fkVhjck
 status: active
 merged_into: null
 display_name: 王立賢
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,43 @@ relationships:
         status: active
         display_name: 王相
         merged_into_person_id: null
+    - claim:
+        id: c_ZbOnpdcf_zXF-c-a6RsQJc
+        subject_person_id: p_agoK9ozBg4G6tRPS3t3oBp
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_NGHFT8W3h8WaBq7fkVhjck
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bLwXa5BB5Zg-krlsNZj8IY
+          claim_id: c_ZbOnpdcf_zXF-c-a6RsQJc
+          source_id: s_SgSS1DCkDGK1PsKdK3MgZr
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第三甲第一百一十二名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_SgSS1DCkDGK1PsKdK3MgZr
+            source_type: api_record
+            title: 中国历代人物传记资料库：王清（CBDB 226915）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=226915&o=json
+            external_identifier: CBDB:226915
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.473Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_agoK9ozBg4G6tRPS3t3oBp
+        status: active
+        display_name: 王清
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_5jLfyqAscNGY6naDxfodG6 | 王元灝 | accepted |
 | ancestors | p_11fTNqG9anHNZWcmN5xUv7 | 王相 | accepted |
+| ancestors | p_agoK9ozBg4G6tRPS3t3oBp | 王清 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王立賢（CBDB 207055）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207055&o=json)
+- [中国历代人物传记资料库：王清（CBDB 226915）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=226915&o=json)
 - [中国历代人物传记资料库：王相（CBDB 226917）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=226917&o=json)
 - [中国历代人物传记资料库：王元灝（CBDB 226932）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=226932&o=json)

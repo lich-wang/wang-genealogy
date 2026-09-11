@@ -4,7 +4,7 @@ id: p_agMMfybNdVKB2zDd2DLgjN
 status: active
 merged_into: null
 display_name: 王觀
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -77,7 +77,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_8dxnx74LAVm3tjaAfZl7sQ
+        subject_person_id: p_FRMjpjmzjxhJMPiRgzj7x8
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_agMMfybNdVKB2zDd2DLgjN
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-ra0_Pq4KXm0CjLnxNKt85
+          claim_id: c_8dxnx74LAVm3tjaAfZl7sQ
+          source_id: s_W5GCPw3UiA7uFJXdFijaB9
+          stance: supports
+          locator: "(乾隆)元和縣志: 三十六卷，lgid=178250：曾祖"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_FRMjpjmzjxhJMPiRgzj7x8
+        status: active
+        display_name: 王賔
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_FRMjpjmzjxhJMPiRgzj7x8 | 王賔 | accepted |
 
 ## 外部来源
 

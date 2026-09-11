@@ -4,7 +4,7 @@ id: p_bKjdjLf8x3GHpbMR6Z5dP8
 status: active
 merged_into: null
 display_name: 王纊
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -101,7 +101,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_r_zorX5LTga3qCPBt7MC9z
+        subject_person_id: p_bKjdjLf8x3GHpbMR6Z5dP8
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_BbVptP39ZfzK25qw7xJj6P
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_TzVSH9jdXkjXlMvzP1ZW2a
+          claim_id: c_r_zorX5LTga3qCPBt7MC9z
+          source_id: s_BtAHtHFbCXwHgBLVoMqQaP
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_BtAHtHFbCXwHgBLVoMqQaP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王德儉（CBDB 152188）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=152188&o=json
+            external_identifier: CBDB:152188
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.846Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_BbVptP39ZfzK25qw7xJj6P
+        status: active
+        display_name: 王德儉
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_BbVptP39ZfzK25qw7xJj6P | 王德儉 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王德儉（CBDB 152188）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=152188&o=json)
 - [中国历代人物传记资料库：王纊（CBDB 175664）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175664&o=json)

@@ -4,7 +4,7 @@ id: p_B4eoN41qLx1MGhkDxBctoU
 status: active
 merged_into: null
 display_name: 王忠
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_OMQmeDbOIVgCiIzhV4_WcJ
+        subject_person_id: p_B4eoN41qLx1MGhkDxBctoU
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_zpBDmxnkNUmk6akFW8LRFz
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SDhXLz8M87mOw3Jnx0IoiW
+          claim_id: c_OMQmeDbOIVgCiIzhV4_WcJ
+          source_id: s_JjnAn9gGQQniEniGrw8SSk
+          stance: supports
+          locator: 弘治十五年進士登科錄:一卷，第三甲第六十五名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_zpBDmxnkNUmk6akFW8LRFz
+        status: active
+        display_name: 王鍇
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_zpBDmxnkNUmk6akFW8LRFz | 王鍇 | accepted |
 
 ## 外部来源
 

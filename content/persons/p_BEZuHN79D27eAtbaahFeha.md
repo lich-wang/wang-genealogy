@@ -4,7 +4,7 @@ id: p_BEZuHN79D27eAtbaahFeha
 status: active
 merged_into: null
 display_name: 王伯巨
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -77,7 +77,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_ipynhNoO-DGbx1VHd73hIR
+        subject_person_id: p_jMeK1vJRMrRE5oh42EujnY
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_BEZuHN79D27eAtbaahFeha
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_IdzpvCD5oBt92_vZUuE6ev
+          claim_id: c_ipynhNoO-DGbx1VHd73hIR
+          source_id: s_x5CQcCVbFTkJ7hEu27yNUQ
+          stance: supports
+          locator: 嘉慶黟縣志，lgid=1166352：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_jMeK1vJRMrRE5oh42EujnY
+        status: active
+        display_name: 王俊得
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_jMeK1vJRMrRE5oh42EujnY | 王俊得 | accepted |
 
 ## 外部来源
 

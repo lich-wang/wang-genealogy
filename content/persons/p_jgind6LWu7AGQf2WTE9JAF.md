@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王同晊
 cbdb_id: 146196
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -167,7 +167,44 @@ relationships:
         status: active
         display_name: 王知
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_jaYK8j_t0AkfPvBrXB6G3Q
+        subject_person_id: p_jgind6LWu7AGQf2WTE9JAF
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ao822YFt7JBepLqFY7vDGJ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-I0owSiLs4OOJO4SR_XWep
+          claim_id: c_jaYK8j_t0AkfPvBrXB6G3Q
+          source_id: s_saqAWbM7hK4NPA8wQdU9c1
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_saqAWbM7hK4NPA8wQdU9c1
+            source_type: api_record
+            title: 中国历代人物传记资料库：王丘（CBDB 196237）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=196237&o=json
+            external_identifier: CBDB:196237
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.463Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ao822YFt7JBepLqFY7vDGJ
+        status: active
+        display_name: 王丘
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -193,8 +230,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_3Fn4ByBA6F2pjAp1gsjBZR | 王知 | accepted |
+| children | p_ao822YFt7JBepLqFY7vDGJ | 王丘 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王丘（CBDB 196237）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=196237&o=json)
 - [中国历代人物传记资料库：王同晊（CBDB 146196）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=146196&o=json)
 - [中国历代人物传记资料库：王知（CBDB 195041）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=195041&o=json)

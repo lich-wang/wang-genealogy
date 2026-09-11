@@ -4,7 +4,7 @@ id: p_yUzWKF8zQ1oJ5fyKaNDrhA
 status: active
 merged_into: null
 display_name: 王樸
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_kjGdUkLPiRMMupcvsNTNrq
+        subject_person_id: p_AgKmu3if3fzH6xxsK1rH6a
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_yUzWKF8zQ1oJ5fyKaNDrhA
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_r-7Xb4ByzcTZYvha5kbHUE
+          claim_id: c_kjGdUkLPiRMMupcvsNTNrq
+          source_id: s_YTSva9txjCwUpSQWa23PfC
+          stance: supports
+          locator: 榆林府志，lgid=1046726：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_YTSva9txjCwUpSQWa23PfC
+            source_type: api_record
+            title: 中国历代人物传记资料库：王威（CBDB 531133）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=531133&o=json
+            external_identifier: CBDB:531133
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:25.354Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_AgKmu3if3fzH6xxsK1rH6a
+        status: active
+        display_name: 王威
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_AgKmu3if3fzH6xxsK1rH6a | 王威 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王樸（CBDB 531132）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=531132&o=json)
+- [中国历代人物传记资料库：王威（CBDB 531133）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=531133&o=json)

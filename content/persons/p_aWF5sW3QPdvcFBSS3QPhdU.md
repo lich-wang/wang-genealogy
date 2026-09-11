@@ -4,7 +4,7 @@ id: p_aWF5sW3QPdvcFBSS3QPhdU
 status: active
 merged_into: null
 display_name: 王瀛
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_4CnCAgIXxdm_yn2EFzZQzs
+        subject_person_id: p_aWF5sW3QPdvcFBSS3QPhdU
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_E9W2DShq5Qkj6ZiKVB1xLN
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hP3P1zi76PidS8sabWG4AW
+          claim_id: c_4CnCAgIXxdm_yn2EFzZQzs
+          source_id: s_9Pqb575NR3KW8fvt95qy7y
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第三甲第四十二名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_E9W2DShq5Qkj6ZiKVB1xLN
+        status: active
+        display_name: 王德完
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_E9W2DShq5Qkj6ZiKVB1xLN | 王德完 | accepted |
 
 ## 外部来源
 

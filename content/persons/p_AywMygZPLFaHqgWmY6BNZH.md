@@ -4,7 +4,7 @@ id: p_AywMygZPLFaHqgWmY6BNZH
 status: active
 merged_into: null
 display_name: 王智
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_GVd5LIhXMy_6cihWQy_ZJ0
+        subject_person_id: p_AywMygZPLFaHqgWmY6BNZH
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_MmVpUWztCQKaC484qaKxXc
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HutU5lMPcHS0HY1RpAOEIH
+          claim_id: c_GVd5LIhXMy_6cihWQy_ZJ0
+          source_id: s_8jwyBjxBDZN7EQv1hyL8RN
+          stance: supports
+          locator: 隆慶五年進士登科錄:一卷，第三甲第二百三十五名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_MmVpUWztCQKaC484qaKxXc
+        status: active
+        display_name: 王汝濂
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_MmVpUWztCQKaC484qaKxXc | 王汝濂 | accepted |
 
 ## 外部来源
 

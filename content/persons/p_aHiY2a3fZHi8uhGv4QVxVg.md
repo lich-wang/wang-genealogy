@@ -4,7 +4,7 @@ id: p_aHiY2a3fZHi8uhGv4QVxVg
 status: active
 merged_into: null
 display_name: 王暹
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -129,7 +129,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_uwKaNVNtJhuKsU1dR6UVsx
+        subject_person_id: p_aHiY2a3fZHi8uhGv4QVxVg
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_vNe1fL6jhpm5RVZXtC8Gpv
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AwWavaxvA9T4a1shwhFVz7
+          claim_id: c_uwKaNVNtJhuKsU1dR6UVsx
+          source_id: s_31AuVxQMh9N6VSb38yAxgv
+          stance: supports
+          locator: 紹興府志:八十卷，Igid=315915：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_vNe1fL6jhpm5RVZXtC8Gpv
+        status: active
+        display_name: 王綖
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +181,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_vNe1fL6jhpm5RVZXtC8Gpv | 王綖 | accepted |
 
 ## 外部来源
 

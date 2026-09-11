@@ -4,7 +4,7 @@ id: p_ANeppbxTm56LA1X59e1kGK
 status: active
 merged_into: null
 display_name: 王待徵
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,8 +128,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_Ky4ynq7s-39hY1TcSRtibP
+        subject_person_id: p_GaiDYJbZ28sStMCpBn1qBe
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ANeppbxTm56LA1X59e1kGK
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jAnR3FBpLVZMaMYyzqVRaK
+          claim_id: c_Ky4ynq7s-39hY1TcSRtibP
+          source_id: s_o8Pe63bQXpJ4by7h9DNdh4
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Kaiyuan71：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_GaiDYJbZ28sStMCpBn1qBe
+        status: active
+        display_name: 王某徵
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_7sspj_PJzInPunB-NP_s8d
+        subject_person_id: p_ANeppbxTm56LA1X59e1kGK
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_iynmuaxSvnDn2F5JW2xNTm
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WcP4JBSQHsqWlx-5J4o8yF
+          claim_id: c_7sspj_PJzInPunB-NP_s8d
+          source_id: s_o8Pe63bQXpJ4by7h9DNdh4
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Kaiyuan71：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_iynmuaxSvnDn2F5JW2xNTm
+        status: active
+        display_name: 王瑤
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +207,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_GaiDYJbZ28sStMCpBn1qBe | 王某徵 | accepted |
+| children | p_iynmuaxSvnDn2F5JW2xNTm | 王瑤 | accepted |
 
 ## 外部来源
 

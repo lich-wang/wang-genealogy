@@ -4,7 +4,7 @@ id: p_aYH4Kd4bjhZaTFXvNipRQE
 status: active
 merged_into: null
 display_name: 王坦
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,12 +72,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_DqDQpziK0pf_e9Ujy3Ozn4
+        subject_person_id: p_ggxQ1jnked4p4GU2cPQ9m8
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_aYH4Kd4bjhZaTFXvNipRQE
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jd1ynIK4XLYOwBeE-ZoI62
+          claim_id: c_DqDQpziK0pf_e9Ujy3Ozn4
+          source_id: s_CGQ86w881YJNLc94NAKZrQ
+          stance: supports
+          locator: 成化五年進士登科錄:一卷，第三甲第一百零六名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_ggxQ1jnked4p4GU2cPQ9m8
+        status: active
+        display_name: 王蕃
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_csIROvfm54W9cMamhpvEVg
+        subject_person_id: p_Veg2M7nUgAFT9N4pPNmHnp
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_aYH4Kd4bjhZaTFXvNipRQE
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PuB9FsY9HUbyFWg-gDPdEb
+          claim_id: c_csIROvfm54W9cMamhpvEVg
+          source_id: s_CGQ86w881YJNLc94NAKZrQ
+          stance: supports
+          locator: 成化五年進士登科錄:一卷，第三甲第一百零六名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Veg2M7nUgAFT9N4pPNmHnp
+        status: active
+        display_name: 王敬先
+        merged_into_person_id: null
+    - claim:
+        id: c_4RHMbJbKqJTQiq7JY9IBrd
+        subject_person_id: p_iY2r8Cj8DivnJ9A9qbetgy
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_aYH4Kd4bjhZaTFXvNipRQE
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HtzGPJ8Drm4i-Bb_4L20hR
+          claim_id: c_4RHMbJbKqJTQiq7JY9IBrd
+          source_id: s_CGQ86w881YJNLc94NAKZrQ
+          stance: supports
+          locator: 成化五年進士登科錄:一卷，第三甲第一百零六名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_iY2r8Cj8DivnJ9A9qbetgy
+        status: active
+        display_name: 王瑛
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +175,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_ggxQ1jnked4p4GU2cPQ9m8 | 王蕃 | accepted |
+| ancestors | p_Veg2M7nUgAFT9N4pPNmHnp | 王敬先 | accepted |
+| ancestors | p_iY2r8Cj8DivnJ9A9qbetgy | 王瑛 | accepted |
 
 ## 外部来源
 

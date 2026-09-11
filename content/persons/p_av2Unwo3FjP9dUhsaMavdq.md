@@ -4,7 +4,7 @@ id: p_av2Unwo3FjP9dUhsaMavdq
 status: active
 merged_into: null
 display_name: 王清
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_VvCCNyrVbfKL73bJlsP0CF
+        subject_person_id: p_av2Unwo3FjP9dUhsaMavdq
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_1oodw5KMyHddZ5LmNR35kQ
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jf5_p8mgIVFjJvvkDp8Yei
+          claim_id: c_VvCCNyrVbfKL73bJlsP0CF
+          source_id: s_Eat2z91mzA24ZwKVvjpZR4
+          stance: supports
+          locator: 嘉靖三十二年進士登科錄:一卷，第三甲第一百三十六名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_1oodw5KMyHddZ5LmNR35kQ
+        status: active
+        display_name: 王汝正
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_1oodw5KMyHddZ5LmNR35kQ | 王汝正 | accepted |
 
 ## 外部来源
 

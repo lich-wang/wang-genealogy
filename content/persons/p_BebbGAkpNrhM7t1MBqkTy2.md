@@ -4,7 +4,7 @@ id: p_BebbGAkpNrhM7t1MBqkTy2
 status: active
 merged_into: null
 display_name: 王崟
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_ZZpe67JK_JtubTZDM2yX8X
+        subject_person_id: p_QkhCaGoZhcyF2De4tN5s15
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_BebbGAkpNrhM7t1MBqkTy2
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_EyUi1u66sZ7P9tEnHBftBY
+          claim_id: c_ZZpe67JK_JtubTZDM2yX8X
+          source_id: s_cpHKe2VFE454CeAqDJm1vK
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_QkhCaGoZhcyF2De4tN5s15
+        status: active
+        display_name: 王文济
+        merged_into_person_id: null
   children:
     - claim:
         id: c_pRVp0tZRI6X49ZXaUTjfzW
@@ -134,6 +160,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_QkhCaGoZhcyF2De4tN5s15 | 王文济 | accepted |
 | children | p_1oiuSieCMVbXj1XDqjNuA2 | 王礎 | accepted |
 
 ## 外部来源

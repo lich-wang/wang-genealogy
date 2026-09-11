@@ -4,7 +4,7 @@ id: p_B5KZt7a7y3pDdyg18Yfg3Y
 status: active
 merged_into: null
 display_name: 王方大
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,8 +128,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_34CvCS-cNy5u06xWMa7i_Z
+        subject_person_id: p_5NN9787oFp3VzDZzys2LX2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_B5KZt7a7y3pDdyg18Yfg3Y
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_CC9M83t6Y7fw3yulPZ_9PN
+          claim_id: c_34CvCS-cNy5u06xWMa7i_Z
+          source_id: s_hhLZZVAQJy3rSAS5gYjS5Y
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Longshuo27：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_5NN9787oFp3VzDZzys2LX2
+        status: active
+        display_name: 王子唐
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_wTTYRRhovV6vA5WikyGkRl
+        subject_person_id: p_B5KZt7a7y3pDdyg18Yfg3Y
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_xEHw9dCD6Nqfs9ejJPDUUE
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kbNnQ8cMprVHPxbPYeASo-
+          claim_id: c_wTTYRRhovV6vA5WikyGkRl
+          source_id: s_hhLZZVAQJy3rSAS5gYjS5Y
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Longshuo27：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_xEHw9dCD6Nqfs9ejJPDUUE
+        status: active
+        display_name: 王文貞
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +207,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_5NN9787oFp3VzDZzys2LX2 | 王子唐 | accepted |
+| children | p_xEHw9dCD6Nqfs9ejJPDUUE | 王文貞 | accepted |
 
 ## 外部来源
 

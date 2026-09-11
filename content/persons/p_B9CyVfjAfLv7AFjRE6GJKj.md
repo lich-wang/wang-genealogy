@@ -4,7 +4,7 @@ id: p_B9CyVfjAfLv7AFjRE6GJKj
 status: active
 merged_into: null
 display_name: 王莊
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_7uET5UvCWDffI2oLyLZ8QP
+        subject_person_id: p_B9CyVfjAfLv7AFjRE6GJKj
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_HPi9LMn5Kw5811QG1EqGfq
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XdNLcR2TFia2JEWcgAIlxa
+          claim_id: c_7uET5UvCWDffI2oLyLZ8QP
+          source_id: s_NJnPAx2aNgZfFLTydgEbRi
+          stance: supports
+          locator: 正德六年進士登科錄:一卷，第二甲第二十五名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_HPi9LMn5Kw5811QG1EqGfq
+        status: active
+        display_name: 王世文
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_HPi9LMn5Kw5811QG1EqGfq | 王世文 | accepted |
 
 ## 外部来源
 

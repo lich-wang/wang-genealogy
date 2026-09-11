@@ -4,7 +4,7 @@ id: p_AMgUPJZ26fDXLPTDXBQofC
 status: active
 merged_into: null
 display_name: 王三兒
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_1R1QmaHoaa7HnyXC1uqLks
+        subject_person_id: p_MRcNDk25WD9q2qKW2Sg6T2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_AMgUPJZ26fDXLPTDXBQofC
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9NqA-wjaqWwzXYeTC47XQh
+          claim_id: c_1R1QmaHoaa7HnyXC1uqLks
+          source_id: s_TnRJUtHSEufTUfLgHb6jUH
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，王誠墓誌：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_MRcNDk25WD9q2qKW2Sg6T2
+        status: active
+        display_name: 王誠
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_MRcNDk25WD9q2qKW2Sg6T2 | 王誠 | accepted |
 
 ## 外部来源
 

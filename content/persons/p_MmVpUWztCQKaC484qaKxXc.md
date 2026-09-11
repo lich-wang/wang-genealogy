@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王汝濂
 cbdb_id: 205966
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -171,7 +171,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_GVd5LIhXMy_6cihWQy_ZJ0
+        subject_person_id: p_AywMygZPLFaHqgWmY6BNZH
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_MmVpUWztCQKaC484qaKxXc
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HutU5lMPcHS0HY1RpAOEIH
+          claim_id: c_GVd5LIhXMy_6cihWQy_ZJ0
+          source_id: s_8jwyBjxBDZN7EQv1hyL8RN
+          stance: supports
+          locator: 隆慶五年進士登科錄:一卷，第三甲第二百三十五名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_8jwyBjxBDZN7EQv1hyL8RN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王智（CBDB 211404）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=211404&o=json
+            external_identifier: CBDB:211404
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.036Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_AywMygZPLFaHqgWmY6BNZH
+        status: active
+        display_name: 王智
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -193,8 +230,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_5NvgpfYRCbA6xFX2b2beZH | 王繼 | accepted |
+| ancestors | p_AywMygZPLFaHqgWmY6BNZH | 王智 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王繼（CBDB 211406）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=211406&o=json)
 - [中国历代人物传记资料库：王汝濂（CBDB 205966）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205966&o=json)
+- [中国历代人物传记资料库：王智（CBDB 211404）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=211404&o=json)

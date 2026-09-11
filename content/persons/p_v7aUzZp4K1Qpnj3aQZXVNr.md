@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王士喆
 cbdb_id: 526740
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -91,7 +91,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_cEUuRnB3Oh0gdW5GieKGx2
+        subject_person_id: p_bdBg1E6ZDUGtDs96L6kMgo
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_v7aUzZp4K1Qpnj3aQZXVNr
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GxtRkAmi7NC0_f3O1Y0lMV
+          claim_id: c_cEUuRnB3Oh0gdW5GieKGx2
+          source_id: s_DMBn8xGP7ZCv2YPCy1RuG1
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），12859：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_DMBn8xGP7ZCv2YPCy1RuG1
+            source_type: api_record
+            title: 中国历代人物传记资料库：王汝揆（CBDB 69161）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69161&o=json
+            external_identifier: CBDB:69161
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:13.133Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_bdBg1E6ZDUGtDs96L6kMgo
+        status: active
+        display_name: 王汝揆
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_bdBg1E6ZDUGtDs96L6kMgo | 王汝揆 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王汝揆（CBDB 69161）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69161&o=json)
 - [中国历代人物传记资料库：王士喆（CBDB 526740）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526740&o=json)

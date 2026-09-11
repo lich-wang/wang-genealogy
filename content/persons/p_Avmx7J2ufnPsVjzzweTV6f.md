@@ -4,7 +4,7 @@ id: p_Avmx7J2ufnPsVjzzweTV6f
 status: active
 merged_into: null
 display_name: 王信民
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_1aW-hoFMLgqns5NZvRo6ic
+        subject_person_id: p_LKzDYAPDmX1Dcm3kwWWk7w
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Avmx7J2ufnPsVjzzweTV6f
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vxLPnqlQHQ2ubU7C-ugsFu
+          claim_id: c_1aW-hoFMLgqns5NZvRo6ic
+          source_id: s_5Y7nAfhnmBCrN84V1fYK56
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，159 王九言墓志：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_LKzDYAPDmX1Dcm3kwWWk7w
+        status: active
+        display_name: 王九言
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_LKzDYAPDmX1Dcm3kwWWk7w | 王九言 | accepted |
 
 ## 外部来源
 

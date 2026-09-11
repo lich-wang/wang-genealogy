@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王祿兆
 cbdb_id: 206985
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -129,7 +129,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_ZDXZ3w-NCt2EsTnBLbxGUY
+        subject_person_id: p_aZXBatcc6mdp3QRC5AaJD4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_hWNF7HbB9E5if6kNK731ro
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Ehjf68mueDGfSXrtAZslUb
+          claim_id: c_ZDXZ3w-NCt2EsTnBLbxGUY
+          source_id: s_Cw2NXiSd1Jch75ohxBsXNX
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第三甲第一百九十五名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Cw2NXiSd1Jch75ohxBsXNX
+            source_type: api_record
+            title: 中国历代人物传记资料库：王光遠（CBDB 225797）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=225797&o=json
+            external_identifier: CBDB:225797
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.444Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_aZXBatcc6mdp3QRC5AaJD4
+        status: active
+        display_name: 王光遠
+        merged_into_person_id: null
   children:
     - claim:
         id: c_sST8qtoVMXw02eB02KMdbU
@@ -171,7 +208,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_pPsx2-E5rlj-N10rHKQgT4
+        subject_person_id: p_AHERTQYCVyYdyM4voMz6Hc
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_hWNF7HbB9E5if6kNK731ro
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_RMIboEfU1XMx9l9tRkbVF8
+          claim_id: c_pPsx2-E5rlj-N10rHKQgT4
+          source_id: s_Nc1L2EhUSAWB1k5mj1ujdW
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第三甲第一百九十五名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Nc1L2EhUSAWB1k5mj1ujdW
+            source_type: api_record
+            title: 中国历代人物传记资料库：王經（CBDB 225796）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=225796&o=json
+            external_identifier: CBDB:225796
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.443Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_AHERTQYCVyYdyM4voMz6Hc
+        status: active
+        display_name: 王經
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -192,9 +266,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_aZXBatcc6mdp3QRC5AaJD4 | 王光遠 | accepted |
 | children | p_1o4XKx8YTnpd6vNvapNi4H | 王崇節 | accepted |
+| ancestors | p_AHERTQYCVyYdyM4voMz6Hc | 王經 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王崇節（CBDB 225809）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=225809&o=json)
+- [中国历代人物传记资料库：王光遠（CBDB 225797）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=225797&o=json)
+- [中国历代人物传记资料库：王經（CBDB 225796）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=225796&o=json)
 - [中国历代人物传记资料库：王祿兆（CBDB 206985）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206985&o=json)

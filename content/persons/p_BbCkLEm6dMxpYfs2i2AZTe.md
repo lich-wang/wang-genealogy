@@ -4,7 +4,7 @@ id: p_BbCkLEm6dMxpYfs2i2AZTe
 status: active
 merged_into: null
 display_name: 王樸
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c__h5DXIb7AZQnZ5ud3-t1Tk
+        subject_person_id: p_BbCkLEm6dMxpYfs2i2AZTe
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_v3b97W1yi7J7kSEqJr8m4E
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xyMc5Ls9CqjjXZ2qY3-MlR
+          claim_id: c__h5DXIb7AZQnZ5ud3-t1Tk
+          source_id: s_hnnNXWtr3fLs6Lwb2TY7ea
+          stance: supports
+          locator: 成化二十三年進士登科錄:一卷，第三甲第一百六十九名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_v3b97W1yi7J7kSEqJr8m4E
+        status: active
+        display_name: 王玹
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_v3b97W1yi7J7kSEqJr8m4E | 王玹 | accepted |
 
 ## 外部来源
 

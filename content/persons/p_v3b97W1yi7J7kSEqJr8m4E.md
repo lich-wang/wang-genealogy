@@ -4,7 +4,7 @@ id: p_v3b97W1yi7J7kSEqJr8m4E
 status: active
 merged_into: null
 display_name: 王玹
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -105,7 +105,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c__h5DXIb7AZQnZ5ud3-t1Tk
+        subject_person_id: p_BbCkLEm6dMxpYfs2i2AZTe
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_v3b97W1yi7J7kSEqJr8m4E
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xyMc5Ls9CqjjXZ2qY3-MlR
+          claim_id: c__h5DXIb7AZQnZ5ud3-t1Tk
+          source_id: s_hnnNXWtr3fLs6Lwb2TY7ea
+          stance: supports
+          locator: 成化二十三年進士登科錄:一卷，第三甲第一百六十九名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_hnnNXWtr3fLs6Lwb2TY7ea
+            source_type: api_record
+            title: 中国历代人物传记资料库：王樸（CBDB 260232）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260232&o=json
+            external_identifier: CBDB:260232
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.485Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_BbCkLEm6dMxpYfs2i2AZTe
+        status: active
+        display_name: 王樸
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_BbCkLEm6dMxpYfs2i2AZTe | 王樸 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王樸（CBDB 260232）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260232&o=json)
 - [中国历代人物传记资料库：王玹（CBDB 200596）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200596&o=json)

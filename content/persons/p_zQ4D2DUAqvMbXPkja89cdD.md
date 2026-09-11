@@ -4,7 +4,7 @@ id: p_zQ4D2DUAqvMbXPkja89cdD
 status: active
 merged_into: null
 display_name: 王元逵
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -204,6 +204,43 @@ relationships:
         status: active
         display_name: 王紹烈
         merged_into_person_id: null
+    - claim:
+        id: c_TcKJpWDjtIG7D3tNq8Nf0U
+        subject_person_id: p_zQ4D2DUAqvMbXPkja89cdD
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_BGZ3Xya3EBe2Q1KNp6DVk3
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AssiYwg2SB0u2COEJqYrH_
+          claim_id: c_TcKJpWDjtIG7D3tNq8Nf0U
+          source_id: s_8Qx7mCtqguJx1LnrSReN3k
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Dazhong 96：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_8Qx7mCtqguJx1LnrSReN3k
+            source_type: api_record
+            title: 中国历代人物传记资料库：王紹鼎（CBDB 159540）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=159540&o=json
+            external_identifier: CBDB:159540
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.933Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_BGZ3Xya3EBe2Q1KNp6DVk3
+        status: active
+        display_name: 王紹鼎
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -231,9 +268,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_36VqJ7FLLuHKS3quQPFxPU | 王庭湊 | accepted |
 | children | p_43NmJrgNPyJwDEy9AneDsx | 王紹烈 | accepted |
+| children | p_BGZ3Xya3EBe2Q1KNp6DVk3 | 王紹鼎 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王紹鼎（CBDB 159540）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=159540&o=json)
 - [中国历代人物传记资料库：王紹烈（CBDB 159539）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=159539&o=json)
 - [中国历代人物传记资料库：王庭湊（CBDB 159537）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=159537&o=json)
 - [中国历代人物传记资料库：王元逵（CBDB 141936）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=141936&o=json)

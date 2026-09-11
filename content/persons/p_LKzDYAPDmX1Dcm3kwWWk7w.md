@@ -4,7 +4,7 @@ id: p_LKzDYAPDmX1Dcm3kwWWk7w
 status: active
 merged_into: null
 display_name: 王九言
-revision: 5
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -138,6 +138,43 @@ relationships:
         id: p_5RBiZ6FFWAyKXQ4ceyXGgd
         status: active
         display_name: 王正民
+        merged_into_person_id: null
+    - claim:
+        id: c_1aW-hoFMLgqns5NZvRo6ic
+        subject_person_id: p_LKzDYAPDmX1Dcm3kwWWk7w
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Avmx7J2ufnPsVjzzweTV6f
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vxLPnqlQHQ2ubU7C-ugsFu
+          claim_id: c_1aW-hoFMLgqns5NZvRo6ic
+          source_id: s_5Y7nAfhnmBCrN84V1fYK56
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，159 王九言墓志：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_5Y7nAfhnmBCrN84V1fYK56
+            source_type: api_record
+            title: 中国历代人物传记资料库：王信民（CBDB 697032）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=697032&o=json
+            external_identifier: CBDB:697032
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:06.555Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Avmx7J2ufnPsVjzzweTV6f
+        status: active
+        display_name: 王信民
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
@@ -312,6 +349,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_5RBiZ6FFWAyKXQ4ceyXGgd | 王正民 | accepted |
+| children | p_Avmx7J2ufnPsVjzzweTV6f | 王信民 | accepted |
 | descendants | p_1aEwesssoYpd2ncPJ3YUoM | 王淇 | accepted |
 | descendants | p_6wji7XXP8uK32dWKaW53BU | 王洵 | accepted |
 | descendants | p_6x2bqhUrScPeQEfMXQdYP2 | 王況 | accepted |
@@ -323,5 +361,6 @@ relationships:
 - [中国历代人物传记资料库：王況（CBDB 697042）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=697042&o=json)
 - [中国历代人物传记资料库：王淇（CBDB 697034）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=697034&o=json)
 - [中国历代人物传记资料库：王渥（CBDB 697043）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=697043&o=json)
+- [中国历代人物传记资料库：王信民（CBDB 697032）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=697032&o=json)
 - [中国历代人物传记资料库：王洵（CBDB 697040）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=697040&o=json)
 - [中国历代人物传记资料库：王正民（CBDB 697006）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=697006&o=json)

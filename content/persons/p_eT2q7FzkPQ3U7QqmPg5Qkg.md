@@ -4,7 +4,7 @@ id: p_eT2q7FzkPQ3U7QqmPg5Qkg
 status: active
 merged_into: null
 display_name: 王敘
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -101,7 +101,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_x4ROnN6DA77V3XxBkhDqa3
+        subject_person_id: p_eT2q7FzkPQ3U7QqmPg5Qkg
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Ak6f1y1jiB6tMkqCSFMAPZ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mHqtuaHRTC7KdndkTqAPmp
+          claim_id: c_x4ROnN6DA77V3XxBkhDqa3
+          source_id: s_Qkz5xHs6mQcnJ9eLaS9HDb
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Qkz5xHs6mQcnJ9eLaS9HDb
+            source_type: api_record
+            title: 中国历代人物传记资料库：王弘禮（CBDB 145700）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=145700&o=json
+            external_identifier: CBDB:145700
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.227Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Ak6f1y1jiB6tMkqCSFMAPZ
+        status: active
+        display_name: 王弘禮
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_Ak6f1y1jiB6tMkqCSFMAPZ | 王弘禮 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王弘禮（CBDB 145700）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=145700&o=json)
 - [中国历代人物传记资料库：王敘（CBDB 191075）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191075&o=json)

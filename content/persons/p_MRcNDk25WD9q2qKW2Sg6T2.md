@@ -4,7 +4,7 @@ id: p_MRcNDk25WD9q2qKW2Sg6T2
 status: active
 merged_into: null
 display_name: 王誠
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -111,6 +111,80 @@ relationships:
         status: active
         display_name: 王婢兒
         merged_into_person_id: null
+    - claim:
+        id: c_HM96vxIgOpU6vhFoKWNuaf
+        subject_person_id: p_MRcNDk25WD9q2qKW2Sg6T2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_AHi7umKiBUo1nUjdKA5yRP
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ke6tHi3ChLMciZOOk8Zlwk
+          claim_id: c_HM96vxIgOpU6vhFoKWNuaf
+          source_id: s_g18wNWhsjfi7DxL8tZgViK
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，王誠墓誌：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_g18wNWhsjfi7DxL8tZgViK
+            source_type: api_record
+            title: 中国历代人物传记资料库：王用和（CBDB 696168）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696168&o=json
+            external_identifier: CBDB:696168
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:27.693Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_AHi7umKiBUo1nUjdKA5yRP
+        status: active
+        display_name: 王用和
+        merged_into_person_id: null
+    - claim:
+        id: c_1R1QmaHoaa7HnyXC1uqLks
+        subject_person_id: p_MRcNDk25WD9q2qKW2Sg6T2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_AMgUPJZ26fDXLPTDXBQofC
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9NqA-wjaqWwzXYeTC47XQh
+          claim_id: c_1R1QmaHoaa7HnyXC1uqLks
+          source_id: s_TnRJUtHSEufTUfLgHb6jUH
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，王誠墓誌：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_TnRJUtHSEufTUfLgHb6jUH
+            source_type: api_record
+            title: 中国历代人物传记资料库：王三兒（CBDB 696171）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696171&o=json
+            external_identifier: CBDB:696171
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:06.544Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_AMgUPJZ26fDXLPTDXBQofC
+        status: active
+        display_name: 王三兒
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -152,7 +226,44 @@ relationships:
         status: active
         display_name: 王某贊
         merged_into_person_id: null
-  descendants: []
+  descendants:
+    - claim:
+        id: c_J1YQQ5uqMbgdQWK4oXmN9P
+        subject_person_id: p_MRcNDk25WD9q2qKW2Sg6T2
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_ATA13cPezR7oDEojWMksBV
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_azfBl64G3kS5XV18HpS8bW
+          claim_id: c_J1YQQ5uqMbgdQWK4oXmN9P
+          source_id: s_MYHijeX97VAuPnNToHLYCM
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，王誠墓誌：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_MYHijeX97VAuPnNToHLYCM
+            source_type: api_record
+            title: 中国历代人物传记资料库：王翁怜（CBDB 696189）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696189&o=json
+            external_identifier: CBDB:696189
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:06.545Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ATA13cPezR7oDEojWMksBV
+        status: active
+        display_name: 王翁怜
+        merged_into_person_id: null
   other: []
 ---
 
@@ -172,10 +283,16 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_4AFKu7y5cKNe6h7aSeSk26 | 王婢兒 | accepted |
+| children | p_AHi7umKiBUo1nUjdKA5yRP | 王用和 | accepted |
+| children | p_AMgUPJZ26fDXLPTDXBQofC | 王三兒 | accepted |
 | ancestors | p_93knEVXDHk5dRYRuf8P4GQ | 王某贊 | accepted |
+| descendants | p_ATA13cPezR7oDEojWMksBV | 王翁怜 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王婢兒（CBDB 696182）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696182&o=json)
 - [中国历代人物传记资料库：王誠（CBDB 696155）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696155&o=json)
 - [中国历代人物传记资料库：王某贊（CBDB 696158）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696158&o=json)
+- [中国历代人物传记资料库：王三兒（CBDB 696171）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696171&o=json)
+- [中国历代人物传记资料库：王翁怜（CBDB 696189）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696189&o=json)
+- [中国历代人物传记资料库：王用和（CBDB 696168）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696168&o=json)

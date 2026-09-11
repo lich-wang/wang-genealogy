@@ -4,7 +4,7 @@ id: p_bdBYdAwGEQps4VzzUZtuJT
 status: active
 merged_into: null
 display_name: 王貞儀
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,12 +128,64 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_bQZfi49UkM10rbwzMNjV2n
+        subject_person_id: p_fTKKWyZ4tsB4z3Yh6eZTJi
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_bdBYdAwGEQps4VzzUZtuJT
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wawyzmCGCKjtK4J-iOTqjm
+          claim_id: c_bQZfi49UkM10rbwzMNjV2n
+          source_id: s_UFVNrvQWFQHsaBmTaEkZ4o
+          stance: supports
+          locator: 敬孚類稿，卷一三：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_fTKKWyZ4tsB4z3Yh6eZTJi
+        status: active
+        display_name: 王錫琛
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_dwO_s3beWX8EEfO_19EAVP
+        subject_person_id: p_ZiAK8zAJR9h7qSc2BgYZR5
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_bdBYdAwGEQps4VzzUZtuJT
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6skLjHwQzcjGjCh6qcZmZ7
+          claim_id: c_dwO_s3beWX8EEfO_19EAVP
+          source_id: s_UFVNrvQWFQHsaBmTaEkZ4o
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #222, HuWenKai #236：祖父"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_ZiAK8zAJR9h7qSc2BgYZR5
+        status: active
+        display_name: 王者輔
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,6 +207,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_fTKKWyZ4tsB4z3Yh6eZTJi | 王錫琛 | accepted |
+| ancestors | p_ZiAK8zAJR9h7qSc2BgYZR5 | 王者輔 | accepted |
 
 ## 外部来源
 

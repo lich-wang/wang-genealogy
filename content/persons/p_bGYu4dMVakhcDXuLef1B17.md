@@ -4,7 +4,7 @@ id: p_bGYu4dMVakhcDXuLef1B17
 status: active
 merged_into: null
 display_name: 王一舉
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_gJKqfiiNj9XLC663rK-QPv
+        subject_person_id: p_bGYu4dMVakhcDXuLef1B17
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3hY5he8M9mkvGyZik66bM3
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xVHZW_nUprxfPhhmYV_IKj
+          claim_id: c_gJKqfiiNj9XLC663rK-QPv
+          source_id: s_M5ZHDtzGX4x4M6YPu3XKaf
+          stance: supports
+          locator: 萬曆十一年進士登科錄:一卷，第三甲第六十九名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_3hY5he8M9mkvGyZik66bM3
+        status: active
+        display_name: 王室垣
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_3hY5he8M9mkvGyZik66bM3 | 王室垣 | accepted |
 
 ## 外部来源
 

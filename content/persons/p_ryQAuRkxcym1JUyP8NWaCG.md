@@ -4,7 +4,7 @@ id: p_ryQAuRkxcym1JUyP8NWaCG
 status: active
 merged_into: null
 display_name: 王藎
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -77,7 +77,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_oSjOOmyLYL0lWIiPZhAnOW
+        subject_person_id: p_bES4rRr9KHWRHyBtt2iz2m
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_ryQAuRkxcym1JUyP8NWaCG
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_W0bzmR54LuqhOq2KsCJjSq
+          claim_id: c_oSjOOmyLYL0lWIiPZhAnOW
+          source_id: s_TjwK8hG1FCZEGPXmJ52pBj
+          stance: supports
+          locator: 弘治九年進士登科錄:一卷，第二甲第十六名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_TjwK8hG1FCZEGPXmJ52pBj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王整（CBDB 266936）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266936&o=json
+            external_identifier: CBDB:266936
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.740Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_bES4rRr9KHWRHyBtt2iz2m
+        status: active
+        display_name: 王整
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_bES4rRr9KHWRHyBtt2iz2m | 王整 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王藎（CBDB 126860）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126860&o=json)
+- [中国历代人物传记资料库：王整（CBDB 266936）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266936&o=json)

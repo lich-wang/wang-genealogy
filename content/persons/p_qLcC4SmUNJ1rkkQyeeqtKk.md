@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王廷陳
 cbdb_id: 34668
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,7 +86,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_uuk-aauvY6odbrhYONJ4aG
+        subject_person_id: p_bFLYoeb8HyJD4DvaQdT9rC
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_qLcC4SmUNJ1rkkQyeeqtKk
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MPT1OelsU3aJi4dq_AIDHY
+          claim_id: c_uuk-aauvY6odbrhYONJ4aG
+          source_id: s_LCd9Pe6zy4XvosNMv3X8uh
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第二甲第十六名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_LCd9Pe6zy4XvosNMv3X8uh
+            source_type: api_record
+            title: 中国历代人物传记资料库：王濟（CBDB 279534）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=279534&o=json
+            external_identifier: CBDB:279534
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.985Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_bFLYoeb8HyJD4DvaQdT9rC
+        status: active
+        display_name: 王濟
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_bFLYoeb8HyJD4DvaQdT9rC | 王濟 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王濟（CBDB 279534）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=279534&o=json)
 - [中国历代人物传记资料库：王廷陳（CBDB 34668）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34668&o=json)

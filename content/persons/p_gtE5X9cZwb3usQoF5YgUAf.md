@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王楚玉
 cbdb_id: 143771
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,7 +86,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_ejGEeGJXz7SZH88HzCJhsC
+        subject_person_id: p_ARF3H1THkf22huEtSZNiYZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_gtE5X9cZwb3usQoF5YgUAf
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Z7dlOSZSByiLgmvHDwHe1z
+          claim_id: c_ejGEeGJXz7SZH88HzCJhsC
+          source_id: s_vKMLN1VVS2SVij8s41qioW
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Tianbao112：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_vKMLN1VVS2SVij8s41qioW
+            source_type: api_record
+            title: 中国历代人物传记资料库：王賓（CBDB 164998）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=164998&o=json
+            external_identifier: CBDB:164998
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.971Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ARF3H1THkf22huEtSZNiYZ
+        status: active
+        display_name: 王賓
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_ARF3H1THkf22huEtSZNiYZ | 王賓 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王賓（CBDB 164998）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=164998&o=json)
 - [中国历代人物传记资料库：王楚玉（CBDB 143771）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=143771&o=json)

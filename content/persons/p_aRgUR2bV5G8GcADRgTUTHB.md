@@ -4,7 +4,7 @@ id: p_aRgUR2bV5G8GcADRgTUTHB
 status: active
 merged_into: null
 display_name: 王宗仁
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,59 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_5Sy1T4KbZ-cgNOwUlboZtn
+        subject_person_id: p_aRgUR2bV5G8GcADRgTUTHB
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_h3Q7yK4WppDDdJLx2W9dJW
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dJosXOO-juK7HzjPStQ6Qv
+          claim_id: c_5Sy1T4KbZ-cgNOwUlboZtn
+          source_id: s_AkDestfPH7cg592fhvVucB
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第三甲第四十六名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_h3Q7yK4WppDDdJLx2W9dJW
+        status: active
+        display_name: 王圖
+        merged_into_person_id: null
+    - claim:
+        id: c_G3O4dRZjMB7kr00M-n-LuT
+        subject_person_id: p_aRgUR2bV5G8GcADRgTUTHB
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_T2aW2r8VNf284ord2Teaqx
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PgikD62NYt0fjNMRyXBUUg
+          claim_id: c_G3O4dRZjMB7kr00M-n-LuT
+          source_id: s_AkDestfPH7cg592fhvVucB
+          stance: supports
+          locator: 萬曆五年進士登科錄:一卷，第三甲第一百一十四名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_T2aW2r8VNf284ord2Teaqx
+        status: active
+        display_name: 王國
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_h3Q7yK4WppDDdJLx2W9dJW | 王圖 | accepted |
+| descendants | p_T2aW2r8VNf284ord2Teaqx | 王國 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_aT36ZKtHXC6aAaFGz8ZxGj
 status: active
 merged_into: null
 display_name: 王祚
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,8 +100,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_k3E9CUx43lIyFjqAXQIrQ6
+        subject_person_id: p_rwqaM71TLacKY3Qhq8k9PP
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_aT36ZKtHXC6aAaFGz8ZxGj
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_TKTKnToetZ0KmE9nZYV1Qv
+          claim_id: c_k3E9CUx43lIyFjqAXQIrQ6
+          source_id: s_6idbvdgTP8dUpYmnrUJYbr
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_rwqaM71TLacKY3Qhq8k9PP
+        status: active
+        display_name: 王實
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_lDDWsGfFTjYwvWix-jY8kj
+        subject_person_id: p_aT36ZKtHXC6aAaFGz8ZxGj
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_E8jSpcxrGiAGkwV96Q4xB8
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_RxwKghcObz6g1giUQPyqqJ
+          claim_id: c_lDDWsGfFTjYwvWix-jY8kj
+          source_id: s_6idbvdgTP8dUpYmnrUJYbr
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_E8jSpcxrGiAGkwV96Q4xB8
+        status: active
+        display_name: 王晃
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,6 +178,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_rwqaM71TLacKY3Qhq8k9PP | 王實 | accepted |
+| children | p_E8jSpcxrGiAGkwV96Q4xB8 | 王晃 | accepted |
 
 ## 外部来源
 

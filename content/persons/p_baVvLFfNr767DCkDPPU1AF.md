@@ -4,7 +4,7 @@ id: p_baVvLFfNr767DCkDPPU1AF
 status: active
 merged_into: null
 display_name: 王壽
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,8 +100,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_RBJKIppDjW3Odcn9x7-8KB
+        subject_person_id: p_wjDeENxZiJFU8wRERBPeUd
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_baVvLFfNr767DCkDPPU1AF
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QxVPOjhJxHJqCUFyKaJlcP
+          claim_id: c_RBJKIppDjW3Odcn9x7-8KB
+          source_id: s_kvzDrNVczBi49TMUtmhkWx
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_wjDeENxZiJFU8wRERBPeUd
+        status: active
+        display_name: 王明远
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_E2-uOMKZWchWC0Ew-NmMJ0
+        subject_person_id: p_baVvLFfNr767DCkDPPU1AF
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Tz4cxSqgtPp22G6bKRvsTQ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WBVmL85l-j1ASgyMvazWuL
+          claim_id: c_E2-uOMKZWchWC0Ew-NmMJ0
+          source_id: s_kvzDrNVczBi49TMUtmhkWx
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Tz4cxSqgtPp22G6bKRvsTQ
+        status: active
+        display_name: 王喆
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,6 +178,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_wjDeENxZiJFU8wRERBPeUd | 王明远 | accepted |
+| children | p_Tz4cxSqgtPp22G6bKRvsTQ | 王喆 | accepted |
 
 ## 外部来源
 

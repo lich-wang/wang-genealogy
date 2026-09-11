@@ -4,7 +4,7 @@ id: p_aQkyWCSC3KokRarHEM1c8Q
 status: active
 merged_into: null
 display_name: 王聰
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_CO-Ph_HAuUEdA81_Vz0J5R
+        subject_person_id: p_aQkyWCSC3KokRarHEM1c8Q
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_gYCzF6vom9uRciu3ySukCo
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XUaoQes4kzMbN2lXHbS9V3
+          claim_id: c_CO-Ph_HAuUEdA81_Vz0J5R
+          source_id: s_L7TuBtQ6aWwZDZBFWbSwFB
+          stance: supports
+          locator: 成化二年進士登科錄:一卷，第二甲第九十一名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_gYCzF6vom9uRciu3ySukCo
+        status: active
+        display_name: 王輔
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_gYCzF6vom9uRciu3ySukCo | 王輔 | accepted |
 
 ## 外部来源
 

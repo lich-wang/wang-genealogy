@@ -4,7 +4,7 @@ id: p_MiT45BEZABeDdxC6DUoAF7
 status: active
 merged_into: null
 display_name: 王㒜
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -166,7 +166,44 @@ relationships:
         status: active
         display_name: 王忠
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_Lv_Mh59dmxxhIbyMxQ0HII
+        subject_person_id: p_MiT45BEZABeDdxC6DUoAF7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_AUAav2wMYc11o1wGoqCa9M
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SCmbhAnbS2CXPr1v-qHhQL
+          claim_id: c_Lv_Mh59dmxxhIbyMxQ0HII
+          source_id: s_7sKxut838DNA7k1qTDbBK1
+          stance: supports
+          locator: 江南通志，lgid=65779：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_7sKxut838DNA7k1qTDbBK1
+            source_type: api_record
+            title: 中国历代人物传记资料库：王沂（CBDB 126526）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126526&o=json
+            external_identifier: CBDB:126526
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:14.999Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_AUAav2wMYc11o1wGoqCa9M
+        status: active
+        display_name: 王沂
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -193,8 +230,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_4PC2JzRydaXykTknqoVMo5 | 王忠 | accepted |
+| children | p_AUAav2wMYc11o1wGoqCa9M | 王沂 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王沂（CBDB 126526）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126526&o=json)
 - [中国历代人物传记资料库：王忠（CBDB 126573）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126573&o=json)
 - [中国历代人物传记资料库：王㒜（CBDB 126815）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126815&o=json)

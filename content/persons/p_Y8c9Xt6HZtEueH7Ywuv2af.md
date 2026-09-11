@@ -4,7 +4,7 @@ id: p_Y8c9Xt6HZtEueH7Ywuv2af
 status: active
 merged_into: null
 display_name: 王啟
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_srH2GhhWzU-eCgH51mjlaB
+        subject_person_id: p_bGA9f5CTCFCRJmcWcUEGyG
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Y8c9Xt6HZtEueH7Ywuv2af
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_O8OYgeFdrsqpgHsWvrMlQ4
+          claim_id: c_srH2GhhWzU-eCgH51mjlaB
+          source_id: s_mjHCQZGMifUakFPrgWxycJ
+          stance: supports
+          locator: 成化二十三年進士登科錄:一卷，第三甲第一百六十二名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_mjHCQZGMifUakFPrgWxycJ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王本（CBDB 260164）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260164&o=json
+            external_identifier: CBDB:260164
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.483Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_bGA9f5CTCFCRJmcWcUEGyG
+        status: active
+        display_name: 王本
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_bGA9f5CTCFCRJmcWcUEGyG | 王本 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王本（CBDB 260164）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260164&o=json)
 - [中国历代人物传记资料库：王啟（CBDB 126669）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126669&o=json)

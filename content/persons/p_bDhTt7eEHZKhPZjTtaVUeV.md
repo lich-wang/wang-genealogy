@@ -4,7 +4,7 @@ id: p_bDhTt7eEHZKhPZjTtaVUeV
 status: active
 merged_into: null
 display_name: 王靖
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_hgh8gOTNNDR5qAqiVOQxtB
+        subject_person_id: p_bDhTt7eEHZKhPZjTtaVUeV
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_MoTp1H1qMsn6hE765X8qFG
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qgNZmv_byVv8MvmOo9H1eS
+          claim_id: c_hgh8gOTNNDR5qAqiVOQxtB
+          source_id: s_TV8bYfbEijdGVXnbUfF5hZ
+          stance: supports
+          locator: 萬曆五年進士登科錄:一卷，第三甲第一百七十九名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_MoTp1H1qMsn6hE765X8qFG
+        status: active
+        display_name: 王九儀
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_MoTp1H1qMsn6hE765X8qFG | 王九儀 | accepted |
 
 ## 外部来源
 

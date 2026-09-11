@@ -4,7 +4,7 @@ id: p_b8H4aR4pJtzL6EUvA55cyk
 status: active
 merged_into: null
 display_name: 王文質
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_rpQICZCSVPsAh3l-KamR1U
+        subject_person_id: p_MkN2fuPTu4u4GXiJ2MF3JH
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_b8H4aR4pJtzL6EUvA55cyk
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_LUfYaGJXGvZ03t6mQw_lVz
+          claim_id: c_rpQICZCSVPsAh3l-KamR1U
+          source_id: s_3T1k5xNUXbMd8ZX3sBqPYj
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Changshou 21：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_MkN2fuPTu4u4GXiJ2MF3JH
+        status: active
+        display_name: 王貞
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_MkN2fuPTu4u4GXiJ2MF3JH | 王貞 | accepted |
 
 ## 外部来源
 

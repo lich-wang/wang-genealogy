@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王本儉
 cbdb_id: 199945
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -171,7 +171,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_lC5qZwDjbVGqfvXRYSpG-r
+        subject_person_id: p_aL6sNwbpjQDM2taGx8TTha
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_9PrBQcpmCF997Qgs2oiS3t
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_h0_wTgAzYt7y7bjdrxj9Ff
+          claim_id: c_lC5qZwDjbVGqfvXRYSpG-r
+          source_id: s_H2tqr6sUxKV8LudJs7wC5p
+          stance: supports
+          locator: 成化十四年進士登科錄:一卷，第三甲第十名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_H2tqr6sUxKV8LudJs7wC5p
+            source_type: api_record
+            title: 中国历代人物传记资料库：王舜舉（CBDB 251769）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=251769&o=json
+            external_identifier: CBDB:251769
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.245Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_aL6sNwbpjQDM2taGx8TTha
+        status: active
+        display_name: 王舜舉
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -193,8 +230,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_6jw2H1KWkaDQExePFFB6Yj | 王孟良 | accepted |
+| ancestors | p_aL6sNwbpjQDM2taGx8TTha | 王舜舉 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王本儉（CBDB 199945）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=199945&o=json)
 - [中国历代人物传记资料库：王孟良（CBDB 251771）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=251771&o=json)
+- [中国历代人物传记资料库：王舜舉（CBDB 251769）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=251769&o=json)

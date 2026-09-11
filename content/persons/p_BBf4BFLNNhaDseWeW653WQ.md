@@ -4,7 +4,7 @@ id: p_BBf4BFLNNhaDseWeW653WQ
 status: active
 merged_into: null
 display_name: 王之禎
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -77,7 +77,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_lFVYjvx7FkyjGaLRO_oClS
+        subject_person_id: p_4GbPExDFna3bpZBzyQEK5D
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_BBf4BFLNNhaDseWeW653WQ
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_aCJvrYlTgbFfNPVyCYGrEX
+          claim_id: c_lFVYjvx7FkyjGaLRO_oClS
+          source_id: s_xHNrFkJi1DiR75c74pA4xN
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），14977：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_4GbPExDFna3bpZBzyQEK5D
+        status: active
+        display_name: 王崇古
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_4GbPExDFna3bpZBzyQEK5D | 王崇古 | accepted |
 
 ## 外部来源
 

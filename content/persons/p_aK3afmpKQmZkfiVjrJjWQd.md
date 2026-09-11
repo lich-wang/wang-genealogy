@@ -4,7 +4,7 @@ id: p_aK3afmpKQmZkfiVjrJjWQd
 status: active
 merged_into: null
 display_name: 王文義
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -129,7 +129,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_gNSHtY9Nja_KtE7McgxPDW
+        subject_person_id: p_aK3afmpKQmZkfiVjrJjWQd
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_4JVegqaNhvczKZbrT2iLEP
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_q4zNn0xYw55rpAg_QpZC1Z
+          claim_id: c_gNSHtY9Nja_KtE7McgxPDW
+          source_id: s_gASLVhhZQSa9S25HYepcHU
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Yonglong 4：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_4JVegqaNhvczKZbrT2iLEP
+        status: active
+        display_name: 王奴子
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +181,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_4JVegqaNhvczKZbrT2iLEP | 王奴子 | accepted |
 
 ## 外部来源
 

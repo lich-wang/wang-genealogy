@@ -4,7 +4,7 @@ id: p_AgKmu3if3fzH6xxsK1rH6a
 status: active
 merged_into: null
 display_name: 王威
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -111,6 +111,58 @@ relationships:
         status: active
         display_name: 王洪
         merged_into_person_id: null
+    - claim:
+        id: c_kjGdUkLPiRMMupcvsNTNrq
+        subject_person_id: p_AgKmu3if3fzH6xxsK1rH6a
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_yUzWKF8zQ1oJ5fyKaNDrhA
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_r-7Xb4ByzcTZYvha5kbHUE
+          claim_id: c_kjGdUkLPiRMMupcvsNTNrq
+          source_id: s_YTSva9txjCwUpSQWa23PfC
+          stance: supports
+          locator: 榆林府志，lgid=1046726：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_yUzWKF8zQ1oJ5fyKaNDrhA
+        status: active
+        display_name: 王樸
+        merged_into_person_id: null
+    - claim:
+        id: c_5S2f-lGsard_Adh9YbG_wq
+        subject_person_id: p_AgKmu3if3fzH6xxsK1rH6a
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_cRWVpREuvy3B9SFvdgfPPx
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jyOfZ4Qf9qFZALv7Q4_Hyh
+          claim_id: c_5S2f-lGsard_Adh9YbG_wq
+          source_id: s_YTSva9txjCwUpSQWa23PfC
+          stance: supports
+          locator: 榆林府志，lgid=1046726：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_cRWVpREuvy3B9SFvdgfPPx
+        status: active
+        display_name: 王世欽
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,6 +187,8 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_89LKcBgPnnvGWgUmdU3U65 | 王洪 | accepted |
+| children | p_yUzWKF8zQ1oJ5fyKaNDrhA | 王樸 | accepted |
+| children | p_cRWVpREuvy3B9SFvdgfPPx | 王世欽 | accepted |
 
 ## 外部来源
 

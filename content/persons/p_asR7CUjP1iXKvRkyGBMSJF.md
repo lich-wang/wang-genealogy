@@ -4,7 +4,7 @@ id: p_asR7CUjP1iXKvRkyGBMSJF
 status: active
 merged_into: null
 display_name: 王教
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_nxNKRXO0rajjSqpnu8g8MW
+        subject_person_id: p_asR7CUjP1iXKvRkyGBMSJF
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_DCXEWHeu41hY7yzKSpPNK7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZV5vF_RR_YV8JSmHFdc3Vv
+          claim_id: c_nxNKRXO0rajjSqpnu8g8MW
+          source_id: s_jQ1xVhGJBYhR3uYYGyKa7V
+          stance: supports
+          locator: 嘉靖二十三年登科錄:一卷，第三甲第四十名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_DCXEWHeu41hY7yzKSpPNK7
+        status: active
+        display_name: 王斛
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_DCXEWHeu41hY7yzKSpPNK7 | 王斛 | accepted |
 
 ## 外部来源
 

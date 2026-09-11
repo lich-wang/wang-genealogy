@@ -4,7 +4,7 @@ id: p_bEJ6zpyrnLKEfRt5W2BBn8
 status: active
 merged_into: null
 display_name: 王及德
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,12 +128,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_xWbf7M78t9UbgkzRsuc7OQ
+        subject_person_id: p_YncsR9HaGNAFSPXGzcoR8F
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_bEJ6zpyrnLKEfRt5W2BBn8
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_nv0-zrg8J3_x0J7xsENO5l
+          claim_id: c_xWbf7M78t9UbgkzRsuc7OQ
+          source_id: s_8zGcRhvW69VwTi7Cc3csTG
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Shenlong 6：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_YncsR9HaGNAFSPXGzcoR8F
+        status: active
+        display_name: 王詢
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_Qv0gKq2zOj5BXtbB06QtRl
+        subject_person_id: p_bEJ6zpyrnLKEfRt5W2BBn8
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_EXoxFkQgaX7fXRujr7WAQK
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_sy0OLgc4A2JWmaPavpGNId
+          claim_id: c_Qv0gKq2zOj5BXtbB06QtRl
+          source_id: s_8zGcRhvW69VwTi7Cc3csTG
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Shenlong 6：嗣子(作為繼承人的兒子)
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_EXoxFkQgaX7fXRujr7WAQK
+        status: active
+        display_name: 王羅漠
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_OfR8cPTylAxk8e7PNBDlXE
+        subject_person_id: p_EyM3eyuBsEsFtfeLQAj4AW
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_bEJ6zpyrnLKEfRt5W2BBn8
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_B_f56mMqhQtX7My1BWWLqg
+          claim_id: c_OfR8cPTylAxk8e7PNBDlXE
+          source_id: s_8zGcRhvW69VwTi7Cc3csTG
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Shenlong 6：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_EyM3eyuBsEsFtfeLQAj4AW
+        status: active
+        display_name: 王粲
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,6 +233,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_YncsR9HaGNAFSPXGzcoR8F | 王詢 | accepted |
+| children | p_EXoxFkQgaX7fXRujr7WAQK | 王羅漠 | accepted |
+| ancestors | p_EyM3eyuBsEsFtfeLQAj4AW | 王粲 | accepted |
 
 ## 外部来源
 

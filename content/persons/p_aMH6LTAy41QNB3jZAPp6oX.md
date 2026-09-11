@@ -4,7 +4,7 @@ id: p_aMH6LTAy41QNB3jZAPp6oX
 status: active
 merged_into: null
 display_name: 王仙客
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_kiLYwYsAcH_P1Td0B5he92
+        subject_person_id: p_S8HLtFDDBHcXVtx11UNHQB
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_aMH6LTAy41QNB3jZAPp6oX
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rZ2GhN4eMeHnjovZ-pM3KM
+          claim_id: c_kiLYwYsAcH_P1Td0B5he92
+          source_id: s_sAc6eD93K7B9kEVuxArfdn
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_S8HLtFDDBHcXVtx11UNHQB
+        status: active
+        display_name: 王道質
+        merged_into_person_id: null
   children:
     - claim:
         id: c_5LCKB3uc8IxRyu8o3_GyRD
@@ -110,6 +136,32 @@ relationships:
         id: p_1DrQjoCaBy8kCLHN3o7pc1
         status: active
         display_name: 王頊
+        merged_into_person_id: null
+    - claim:
+        id: c_wSvMRjT4oqMH-__A_AAlpG
+        subject_person_id: p_aMH6LTAy41QNB3jZAPp6oX
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_DSKsWKJmH5oHVZyhn4Ad7m
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_U6SDgfTnosXBueATqBJbhT
+          claim_id: c_wSvMRjT4oqMH-__A_AAlpG
+          source_id: s_sAc6eD93K7B9kEVuxArfdn
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_DSKsWKJmH5oHVZyhn4Ad7m
+        status: active
+        display_name: 王瑒
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
@@ -171,7 +223,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_S8HLtFDDBHcXVtx11UNHQB | 王道質 | accepted |
 | children | p_1DrQjoCaBy8kCLHN3o7pc1 | 王頊 | accepted |
+| children | p_DSKsWKJmH5oHVZyhn4Ad7m | 王瑒 | accepted |
 | descendants | p_1R27M2czAahiFDCMUScN43 | 王京 | accepted |
 
 ## 外部来源

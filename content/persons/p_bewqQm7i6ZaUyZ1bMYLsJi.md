@@ -4,7 +4,7 @@ id: p_bewqQm7i6ZaUyZ1bMYLsJi
 status: active
 merged_into: null
 display_name: 王素臣
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,8 +128,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_2hUqZywolZeasA3OF32Ms8
+        subject_person_id: p_X6xXCJDA9N7eA65k67tuWt
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_bewqQm7i6ZaUyZ1bMYLsJi
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VyuFPCRymCLEm1hnvORvMO
+          claim_id: c_2hUqZywolZeasA3OF32Ms8
+          source_id: s_ho952LSp6FCu3XPRScF388
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Jinglong 5：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_X6xXCJDA9N7eA65k67tuWt
+        status: active
+        display_name: 王德感
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_RKSDOp4FZOmwHIm3rB5kb7
+        subject_person_id: p_bewqQm7i6ZaUyZ1bMYLsJi
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Kjn91LWBHkruHxJ6AhTUwd
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_73F9R2EY6OgC6fK7JW_euq
+          claim_id: c_RKSDOp4FZOmwHIm3rB5kb7
+          source_id: s_ho952LSp6FCu3XPRScF388
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Jinglong 5：嗣子(作為繼承人的兒子)
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Kjn91LWBHkruHxJ6AhTUwd
+        status: active
+        display_name: 王無虧
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +207,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_X6xXCJDA9N7eA65k67tuWt | 王德感 | accepted |
+| children | p_Kjn91LWBHkruHxJ6AhTUwd | 王無虧 | accepted |
 
 ## 外部来源
 

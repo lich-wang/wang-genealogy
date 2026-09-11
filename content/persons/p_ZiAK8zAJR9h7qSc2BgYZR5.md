@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王者輔
 cbdb_id: 119307
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -92,7 +92,81 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_IXz0AEGNSZ5Y6EeOTbUeci
+        subject_person_id: p_ZiAK8zAJR9h7qSc2BgYZR5
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_aKzqvNK69JVAWyY43CLQPK
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-Z46dArYjI2t23eRdKsnhr
+          claim_id: c_IXz0AEGNSZ5Y6EeOTbUeci
+          source_id: s_9KGuFfQuJ6KcB58sh7o7n2
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #4632：祖父"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_9KGuFfQuJ6KcB58sh7o7n2
+            source_type: api_record
+            title: 中国历代人物传记资料库：王靜儀（CBDB 122194）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=122194&o=json
+            external_identifier: CBDB:122194
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:14.921Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_aKzqvNK69JVAWyY43CLQPK
+        status: active
+        display_name: 王靜儀
+        merged_into_person_id: null
+    - claim:
+        id: c_dwO_s3beWX8EEfO_19EAVP
+        subject_person_id: p_ZiAK8zAJR9h7qSc2BgYZR5
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_bdBYdAwGEQps4VzzUZtuJT
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6skLjHwQzcjGjCh6qcZmZ7
+          claim_id: c_dwO_s3beWX8EEfO_19EAVP
+          source_id: s_UFVNrvQWFQHsaBmTaEkZ4o
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #222, HuWenKai #236：祖父"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_UFVNrvQWFQHsaBmTaEkZ4o
+            source_type: api_record
+            title: 中国历代人物传记资料库：王貞儀（CBDB 55530）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=55530&o=json
+            external_identifier: CBDB:55530
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.742Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_bdBYdAwGEQps4VzzUZtuJT
+        status: active
+        display_name: 王貞儀
+        merged_into_person_id: null
   other: []
 ---
 
@@ -111,7 +185,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_aKzqvNK69JVAWyY43CLQPK | 王靜儀 | accepted |
+| descendants | p_bdBYdAwGEQps4VzzUZtuJT | 王貞儀 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王靜儀（CBDB 122194）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=122194&o=json)
 - [中国历代人物传记资料库：王者輔（CBDB 119307）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=119307&o=json)
+- [中国历代人物传记资料库：王貞儀（CBDB 55530）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=55530&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王錫琛
 cbdb_id: 376046
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -87,7 +87,81 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_ScNK7gFCd_1UZfX882P5BO
+        subject_person_id: p_fTKKWyZ4tsB4z3Yh6eZTJi
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_aKzqvNK69JVAWyY43CLQPK
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PVAlZUJo-bLB2c4p3fGW-K
+          claim_id: c_ScNK7gFCd_1UZfX882P5BO
+          source_id: s_9KGuFfQuJ6KcB58sh7o7n2
+          stance: supports
+          locator: 明清婦女著作數據庫，4632：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_9KGuFfQuJ6KcB58sh7o7n2
+            source_type: api_record
+            title: 中国历代人物传记资料库：王靜儀（CBDB 122194）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=122194&o=json
+            external_identifier: CBDB:122194
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:14.921Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_aKzqvNK69JVAWyY43CLQPK
+        status: active
+        display_name: 王靜儀
+        merged_into_person_id: null
+    - claim:
+        id: c_bQZfi49UkM10rbwzMNjV2n
+        subject_person_id: p_fTKKWyZ4tsB4z3Yh6eZTJi
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_bdBYdAwGEQps4VzzUZtuJT
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wawyzmCGCKjtK4J-iOTqjm
+          claim_id: c_bQZfi49UkM10rbwzMNjV2n
+          source_id: s_UFVNrvQWFQHsaBmTaEkZ4o
+          stance: supports
+          locator: 敬孚類稿，卷一三：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_UFVNrvQWFQHsaBmTaEkZ4o
+            source_type: api_record
+            title: 中国历代人物传记资料库：王貞儀（CBDB 55530）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=55530&o=json
+            external_identifier: CBDB:55530
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.742Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_bdBYdAwGEQps4VzzUZtuJT
+        status: active
+        display_name: 王貞儀
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,7 +185,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_aKzqvNK69JVAWyY43CLQPK | 王靜儀 | accepted |
+| children | p_bdBYdAwGEQps4VzzUZtuJT | 王貞儀 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王靜儀（CBDB 122194）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=122194&o=json)
 - [中国历代人物传记资料库：王錫琛（CBDB 376046）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=376046&o=json)
+- [中国历代人物传记资料库：王貞儀（CBDB 55530）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=55530&o=json)

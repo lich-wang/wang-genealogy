@@ -4,7 +4,7 @@ id: p_AzAGV5VxNGShzF5k2FBWAC
 status: active
 merged_into: null
 display_name: 王珪
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_ViosWB_QoEeLhVphSC0ZDw
+        subject_person_id: p_AzAGV5VxNGShzF5k2FBWAC
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_E2Hjum37Rd4UCpkHLkq4Ng
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fLS_vkyiFjB4DMEfI9DkJw
+          claim_id: c_ViosWB_QoEeLhVphSC0ZDw
+          source_id: s_17nnSc3NsNqxs15rHZyktX
+          stance: supports
+          locator: 嘉靖十七年進士登科錄:一卷，第二甲第四十四名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_E2Hjum37Rd4UCpkHLkq4Ng
+        status: active
+        display_name: 王輪
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_E2Hjum37Rd4UCpkHLkq4Ng | 王輪 | accepted |
 
 ## 外部来源
 
