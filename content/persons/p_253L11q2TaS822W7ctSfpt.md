@@ -1,10 +1,10 @@
 ---
 schema: wang-person/v1
 id: p_253L11q2TaS822W7ctSfpt
-status: active
-merged_into: null
+status: merged
+merged_into: p_qCFGm193BBRnE82CUPasCQ
 display_name: 王承元
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:

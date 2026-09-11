@@ -1,10 +1,10 @@
 ---
 schema: wang-person/v1
 id: p_2WPrvKJit8dCyiKMrnx8b9
-status: active
-merged_into: null
+status: merged
+merged_into: p_awcmjvARumCUVcUWMzCoPg
 display_name: 王裁
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:

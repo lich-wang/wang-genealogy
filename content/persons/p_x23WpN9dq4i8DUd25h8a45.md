@@ -1,10 +1,10 @@
 ---
 schema: wang-person/v1
 id: p_x23WpN9dq4i8DUd25h8a45
-status: active
-merged_into: null
+status: merged
+merged_into: p_bgBMreRfU6UBPxaaHkRLvA
 display_name: 王珏
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:

@@ -1,10 +1,10 @@
 ---
 schema: wang-person/v1
 id: p_WxUEQGX7JSRxtx6fWXm1iC
-status: active
-merged_into: null
+status: merged
+merged_into: p_Nm2iJSX6JvN22S8n42tuCU
 display_name: 王直方
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:

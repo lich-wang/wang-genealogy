@@ -1,10 +1,10 @@
 ---
 schema: wang-person/v1
 id: p_P7pK2hg9xQF1Su5BtoHyom
-status: active
-merged_into: null
+status: merged
+merged_into: p_yr8fqvLJH1oMzLPa3PcC7o
 display_name: 王世隆
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:

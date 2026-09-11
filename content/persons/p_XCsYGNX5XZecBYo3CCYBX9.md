@@ -1,10 +1,10 @@
 ---
 schema: wang-person/v1
 id: p_XCsYGNX5XZecBYo3CCYBX9
-status: active
-merged_into: null
+status: merged
+merged_into: p_QcouJWUA6YJBp4PXTJf4RW
 display_name: 王師震
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
